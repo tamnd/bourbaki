@@ -150,7 +150,7 @@ Let $ f : V_1 \to V_2 $ be a $ \mathbf{K} $-linear mapping rational over $ \math
 
 In the notation of Proposition 3, for every vector sub-$ \mathbf{K}' $-space $ W'_1 $ of $ V'_1 $, $ f'_{(\mathbf{K})}(W'_1 \otimes_{\mathbf{K}'} \mathbf{K}) = f'(W'_1) \otimes_{\mathbf{K}'} \mathbf{K} $; whence the assertion relating to $ W_1 $ (no. 2, Proposition 2). On the other hand, let $ W'_2 $ be a vector sub-$ \mathbf{K}' $-space of $ V'_2 $ and let $ g' $ be the canonical $ \mathbf{K}' $-linear mapping $ V'_2 \to V'_2/W'_2 $; then $ f'(W'_2) = \operatorname{Ker}(g' \circ f') $; hence, by Corollary 1,
 $$
-f'_{(\mathbf{K})}^{-1}(W'_2 \otimes_{\mathbf{K}'} \mathbf{K}) = f'^{-1}(W'_2) \otimes_{\mathbf{K}'} \mathbf{K},
+{f'_{(\mathbf{K})}}^{-1}(W'_2 \otimes_{\mathbf{K}'} \mathbf{K}) = {f'}^{-1}(W'_2) \otimes_{\mathbf{K}'} \mathbf{K},
 $$
 whence the assertion relating to $ W_2 $.
 
@@ -168,9 +168,9 @@ Let $ V $ be a right vector space over $ \mathbf{K} $ with a $ \mathbf{K}' $-str
 
 K'-structures on V and K_d. By virtue of no. 3, Proposition 3, the set R' of these linear forms is the image of the dual V'* of V' under the composite mapping
 
-(I) $$ V'^* \xrightarrow{\phi} K \otimes_{K'} V'^* \xrightarrow{\upsilon} V^* $$
+(I) $$ {V'}^* \xrightarrow{\phi} K \otimes_{K'} {V'}^* \xrightarrow{\upsilon} V^* $$
 
-where $ \phi(x'^*) = 1 \otimes x'^* $ and $ \upsilon(\xi \otimes x'^*) $ is the linear form $ y^* $ on V such that $ y^*(x') = \xi \langle x'^*, x' \rangle $ for all $ x' \in V' $ (\S 5, no. 4). We know that this mapping is injective (\S 7, no. 9, Propositions 20 and 19) and clearly R' is a left vector sub-K'-space of V*; moreover every subset of R' free over K' is free over K. But in general R' does not necessarily generate V* over K and does not therefore define a K'-structure on V* (Exercise 2). However, if V is of finite dimension n over K, V'* is of dimension n over K' and R' then defines canonically a K'-structure on V*.
+where $ \phi({x'}^*) = 1 \otimes {x'}^* $ and $ \upsilon(\xi \otimes {x'}^*) $ is the linear form $ y^* $ on V such that $ y^*(x') = \xi \langle {x'}^*, x' \rangle $ for all $ x' \in V' $ (\S 5, no. 4). We know that this mapping is injective (\S 7, no. 9, Propositions 20 and 19) and clearly R' is a left vector sub-K'-space of V*; moreover every subset of R' free over K' is free over K. But in general R' does not necessarily generate V* over K and does not therefore define a K'-structure on V* (Exercise 2). However, if V is of finite dimension n over K, V'* is of dimension n over K' and R' then defines canonically a K'-structure on V*.
 
 #### Proposition 5 {#alg-ii-s8-prop-5 .statement}
 
@@ -178,10 +178,10 @@ Let V be a right vector space over K, V' a K'-structure on V and W a vector sub-
 
 Let H be a subset of V* whose elements are rational linear forms over K'. For all $ x^* \in H $, the kernel of $ x^* $ is a vector sub-K-space of V, rational over K' (no. 3, Corollary 2 to Proposition 3); the intersection of these kernels is therefore also a vector sub-K-space of V, rational over K' (no. 2, Corollary 1 to Proposition 2).
 
-Conversely, let W be a vector sub-K-space of V rational over K', so that W is identified with $ W' \otimes_{K'} K $, where $ W' = W \cap V' $ (no. 2, Proposition 2). For a linear form $ x'^* \in V'^* $ to be zero on W', it is necessary and sufficient that the linear form $ x^* \in V^* $ which corresponds to it under (1) be zero on W, for by no. 3, Corollary I to Proposition 3,
+Conversely, let W be a vector sub-K-space of V rational over K', so that W is identified with $ W' \otimes_{K'} K $, where $ W' = W \cap V' $ (no. 2, Proposition 2). For a linear form $ {x'}^* \in {V'}^* $ to be zero on W', it is necessary and sufficient that the linear form $ x^* \in V^* $ which corresponds to it under (1) be zero on W, for by no. 3, Corollary I to Proposition 3,
 
 $$
-\operatorname{Ker}(x^*) = (\operatorname{Ker}(x'^*)) \otimes_{K'} K \quad \text{and} \quad \operatorname{Ker}(x^{*\prime}) = (\operatorname{Ker}(x^*)) \cap V'.
+\operatorname{Ker}(x^*) = (\operatorname{Ker}({x'}^*)) \otimes_{K'} K \quad \text{and} \quad \operatorname{Ker}(x^{*\prime}) = (\operatorname{Ker}(x^*)) \cap V'.
 $$
 
 Let H' be the orthogonal of W' in V'*; we know (\S 7, no. 5, Theorem 7) that W' is the orthogonal of H' in V'; if H is the image of H' in V* under the mapping (1), it follows from the above that W is the orthogonal of H in V, taking account of no. 7, Corollary to Proposition 14.
@@ -206,7 +206,7 @@ $$
 
 *whose coefficients* $ \alpha_{\mu i} $ *and right hand sides* $ \beta_\mu $ *belong to* $ K' $, *if there exists a solution to the system consisting of elements of* $ K $, *there also exists a solution consisting of elements of* $ K' $.
 
-(i) For every set S, let the right vector K-space $ K_d^{(S)} $ be given the $ K' $-structure $ K_d'^{(S)} $. Let $ f $ be the K-linear mapping of $ K_d^{(I)} $ into $ K_d^{(M)} $ mapping every vector $ (\xi_i)_{i \in I} $ to the vector $ (\zeta_\mu)_{\mu \in M} $ defined by $ \zeta_\mu = \sum_{i \in I} \alpha_{\mu i} \xi_i $ for all $ \mu \in M $. Clearly $ f $ is rational over $ K' $; its kernel V, which is the set of solutions in K of the system (2), is a subspace of $ K_d^{(I)} $ rational over $ K' $ (no. 3, Corollary 2 to Proposition 3) and hence generated by the solutions of (2) in $ K' $.
+(i) For every set S, let the right vector K-space $ K_d^{(S)} $ be given the $ K' $-structure $ K_{d'}^{(S)} $. Let $ f $ be the K-linear mapping of $ K_d^{(I)} $ into $ K_d^{(M)} $ mapping every vector $ (\xi_i)_{i \in I} $ to the vector $ (\zeta_\mu)_{\mu \in M} $ defined by $ \zeta_\mu = \sum_{i \in I} \alpha_{\mu i} \xi_i $ for all $ \mu \in M $. Clearly $ f $ is rational over $ K' $; its kernel V, which is the set of solutions in K of the system (2), is a subspace of $ K_d^{(I)} $ rational over $ K' $ (no. 3, Corollary 2 to Proposition 3) and hence generated by the solutions of (2) in $ K' $.
 
 (ii) We consider K as a left vector $ K' $-space; there exists a $ K' $-linear projector $ p $ of K onto its vector subspace $ K'_s $ (\S 7, no. 3, Proposition 4); if $ (\xi_i) $ is a solution of (3) in K, then $ \sum_{i \in I} \alpha_{\mu i} p(\xi_i) = p \left( \sum_{i \in I} \alpha_{\mu i} \xi_i \right) = p(\beta_\mu) = \beta_\mu $, which proves that $ (p(\xi_i)) $ is a solution of (3) in $ K' $.
 

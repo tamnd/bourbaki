@@ -596,7 +596,7 @@ $$
 
 *such that* $ (G, G^k) \subset G^{k+1}, 1 \leq k \leq r, $ and $ G^k/G^{k+1}, 1 \leq k \leq r, $ *is cyclic of order* $ p $.
 
-The theorem is true for $ G = \{e\} $. We prove it by induction on $ \operatorname{Card}(G) $. Let Z be the centre of G, $ x \neq e $ an element of Z (Corollary to Proposition 11) and $ p^s, s \neq 0, $ the order of x. Then $ x^{p^s - 1} $ is an element of order $ p $ and therefore Z contains a subgroup $ G' $ which is cyclic of order $ p $. By the induction hypothesis, the group $ G' = G/G' $ has a series of subgroups $ (G'^k)_{1 \leq k \leq r} $ with the required properties. Let $ \pi : G \to G' $ be the canonical homomorphism. The sequence of subgroups of G defined by $ G^k = \pi^{-1}(G'^k), 1 \leq k \leq r, G^{r+1} = \{e\} $ is a solution for $ G^k/G^{k+1} $ is isomorphic to $ G'^k/G'^{k+1} $ for $ 1 \leq k \leq r $ (\S 4, no. 7, Theorem 4).
+The theorem is true for $ G = \{e\} $. We prove it by induction on $ \operatorname{Card}(G) $. Let Z be the centre of G, $ x \neq e $ an element of Z (Corollary to Proposition 11) and $ p^s, s \neq 0, $ the order of x. Then $ x^{p^s - 1} $ is an element of order $ p $ and therefore Z contains a subgroup $ G' $ which is cyclic of order $ p $. By the induction hypothesis, the group $ G' = G/G' $ has a series of subgroups $ ({G'}^k)_{1 \leq k \leq r} $ with the required properties. Let $ \pi : G \to G' $ be the canonical homomorphism. The sequence of subgroups of G defined by $ G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\} $ is a solution for $ G^k/G^{k+1} $ is isomorphic to $ {G'}^k/{G'}^{k+1} $ for $ 1 \leq k \leq r $ (\S 4, no. 7, Theorem 4).
 
 #### Corollary {#alg-i-s6-n5-cor-2 .statement}
 
@@ -708,7 +708,7 @@ This follows from Theorem 3 (b) applied to the subgroup $ f(P_1) $ of $ G_2 $.
 
 Let $ N $ be a normal subgroup of $ G $. The image in $ G/N $ of a Sylow $ p $-subgroup of $ G $ is a Sylow $ p $-subgroup of $ G/N $ and every Sylow $ p $-subgroup of $ G/N $ is obtained in this way.
 
-Let $ G' = G/N $ and $ P' $ be the image in $ G' $ of a Sylow $ p $-subgroup $ P $ of $ G $. The group $ G $ operates transitively on $ G'/P' $ and hence $ G'/P' $ is equipotent to $ G/S $, where $ S $ is a subgroup of $ G $ containing $ P $. Therefore $ (G':P') $ divides $ (G:P) $, is thus not a multiple of $ p $ and the $ p $-group $ P' $ is a Sylow $ p $-subgroup of $ G' $. Let $ Q' $ be another Sylow $ p $-subgroup of $ G' $; then $ Q' = g'P'g'^{-1} $ for some $ g' \in G' $; if $ g \in G $ is a representative of $ g' $, the group $ Q' $ is the image of $ Q = gPg^{-1} $.
+Let $ G' = G/N $ and $ P' $ be the image in $ G' $ of a Sylow $ p $-subgroup $ P $ of $ G $. The group $ G $ operates transitively on $ G'/P' $ and hence $ G'/P' $ is equipotent to $ G/S $, where $ S $ is a subgroup of $ G $ containing $ P $. Therefore $ (G':P') $ divides $ (G:P) $, is thus not a multiple of $ p $ and the $ p $-group $ P' $ is a Sylow $ p $-subgroup of $ G' $. Let $ Q' $ be another Sylow $ p $-subgroup of $ G' $; then $ Q' = g'P'{g'}^{-1} $ for some $ g' \in G' $; if $ g \in G $ is a representative of $ g' $, the group $ Q' $ is the image of $ Q = gPg^{-1} $.
 
 ### 7. FINITE NILPOTENT GROUPS
 

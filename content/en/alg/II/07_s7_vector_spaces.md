@@ -386,7 +386,7 @@ $$
 $$
 *of vector spaces over the same field* K *and linear mappings the sequence*
 $$
-0 \longrightarrow E''* \xrightarrow{t_v} E^* \xrightarrow{t_u} E'^* \longrightarrow 0
+0 \longrightarrow E''* \xrightarrow{t_v} E^* \xrightarrow{t_u} {E'}^* \longrightarrow 0
 $$
 *is exact and splits*.
 
