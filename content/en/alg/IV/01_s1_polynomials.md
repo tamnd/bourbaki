@@ -139,7 +139,7 @@ $$
 (u(g))(y) = u((g_i(y))) .
 $$
 
-If $ f = (f_i)_{i \in I} \in (\mathcal{A}[(X_j)_{j \in J}])^I $ and $ g = (g_j)_{j \in J} \in (\mathcal{A}[(Y_k)_{k \in K}])^J $, we denote by $ f \circ g $ or $ f(g) $, the family of polynomials $ (f_i(g))_{i \in I} \in (\mathcal{A}[(Y_k)_{k \in K}])^I $. If we denote by $ \tilde{f} $ the mapping $ x \mapsto (f_i(x))_{i \in I} $ of $ E'^J $ into $ E'^I $ (where $ E' $ is a unital associative and commutative $ A $-algebra), then the relation (2) implies
+If $ f = (f_i)_{i \in I} \in (\mathcal{A}[(X_j)_{j \in J}])^I $ and $ g = (g_j)_{j \in J} \in (\mathcal{A}[(Y_k)_{k \in K}])^J $, we denote by $ f \circ g $ or $ f(g) $, the family of polynomials $ (f_i(g))_{i \in I} \in (\mathcal{A}[(Y_k)_{k \in K}])^I $. If we denote by $ \tilde{f} $ the mapping $ x \mapsto (f_i(x))_{i \in I} $ of $ {E'}^J $ into $ {E'}^I $ (where $ E' $ is a unital associative and commutative $ A $-algebra), then the relation (2) implies
 
 $$(3)$$
 $$(\mathrm{fog})'' = \tilde{f} \circ \tilde{g}.$$

@@ -360,7 +360,7 @@ $$
 This follows immediately from the multinomial formula (I, § 8, no. 2)
 
 $$
-(T + T')^\alpha = \sum_{\beta + \gamma = \alpha} ((\beta, \gamma)) T^\beta T'^\gamma
+(T + T')^\alpha = \sum_{\beta + \gamma = \alpha} ((\beta, \gamma)) T^\beta {T'}^\gamma
 $$
 
 and Proposition 2.
@@ -413,7 +413,7 @@ Let $ d $ be a derivation of $ \mathbf{A} $ into $ \mathbf{E} $ and $ \bar{d} $ 
 $$
 \bar{d}(u/v) = v^{-1}du - uv^{-2}dv
 $$
-which proves the uniqueness of $ \bar{d} $. Conversely, we show that $ \bar{d} $ can be defined by formula (20); it must first be verified that if $ u/v = u'/v' $ the value of the right hand side of (20) does not change when $ u $ is replaced by $ u' $ and $ v $ by $ v' $. Now, $ uv' = vu' $, hence $ v'(du) + u(dv') = v(du') + u'(dv) $ and therefore $ v'(du - uv^{-1}dv) = v(du' - u'v'^{-1}dv') $, since $ uv'v^{-1} = u' $ and $ u'v'^{-1}v = u $. Thus a mapping $ \bar{d}: \mathbf{L} \to \mathbf{E} $ has been defined which extends $ d $; it is immediately verified that it is $ \mathbf{K} $-linear and a derivation.
+which proves the uniqueness of $ \bar{d} $. Conversely, we show that $ \bar{d} $ can be defined by formula (20); it must first be verified that if $ u/v = u'/v' $ the value of the right hand side of (20) does not change when $ u $ is replaced by $ u' $ and $ v $ by $ v' $. Now, $ uv' = vu' $, hence $ v'(du) + u(dv') = v(du') + u'(dv) $ and therefore $ v'(du - uv^{-1}dv) = v(du' - u'{v'}^{-1}dv') $, since $ uv'v^{-1} = u' $ and $ u'{v'}^{-1}v = u $. Thus a mapping $ \bar{d}: \mathbf{L} \to \mathbf{E} $ has been defined which extends $ d $; it is immediately verified that it is $ \mathbf{K} $-linear and a derivation.
 
 #### Proposition 6 {#alg-iii-s10-prop-6 .statement}
 

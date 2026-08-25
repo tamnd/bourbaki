@@ -118,7 +118,7 @@ $$
 (\alpha \delta^2 - \gamma^2 - \beta \gamma \delta, 2\gamma + \beta \delta)
 $$
 
-for all invertible $ \delta \in A $ and all $ \gamma \in A $. In particular, if $ E $ is of type $ (\alpha, 2\beta') $, $ i $ is also of type $ (\alpha + \beta'^2, 0) $ as is seen by taking $ \gamma = -\beta' $ and $ \delta = 1 $.
+for all invertible $ \delta \in A $ and all $ \gamma \in A $. In particular, if $ E $ is of type $ (\alpha, 2\beta') $, $ i $ is also of type $ (\alpha + {\beta'}^2, 0) $ as is seen by taking $ \gamma = -\beta' $ and $ \delta = 1 $.
 
 #### Proposition 2 {#alg-iii-s2-prop-2 .statement}
 
