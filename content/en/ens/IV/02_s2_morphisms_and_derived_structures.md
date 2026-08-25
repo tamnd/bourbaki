@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 6b9d4a0952309fcd8f936d6e10cc2f7f6ccb93004addab7ca8f265ab930c7cbc
+content_sha256: 33716172cbb3b2bb56712f0439f68cc2acc589398de3fe56f5601e43675e217a
 ---
 
 ## 2. MORPHISMS AND DERIVED STRUCTURES
@@ -243,7 +243,7 @@ For most of the usual structures, the condition given in CST16 is not only suffi
 
 (b) On every set $A'_i=A_i\times\prod_{x\ne i}\{a_x\}$, the structure $\mathscr{I}$ induces a structure of species $\Sigma$.
 
-¶ Let $p'_i$ denote the restriction of $p_i$ to $A'_i$. If both conditions (a) and (b) are satisfied, then $p'_i$ is an isomorphism of $A'_i$ onto $A_i$. For since $p'_i=p_i\circ j_i$, where $j_i$ is the canonical injection of $A'_i$ into $A$, $p'_i$ is a morphism by (MO$_\Pi$). Also we have $r_i=j_i\circ p_{i'}^{-1}$; hence $p_{i'}^{-1}$ is a morphism of $A_i$ into $A'_i$ by virtue of the definition of induced structure.
+¶ Let $p'_i$ denote the restriction of $p_i$ to $A'_i$. If both conditions (a) and (b) are satisfied, then $p'_i$ is an isomorphism of $A'_i$ onto $A_i$. For since $p'_i=p_i\circ j_i$, where $j_i$ is the canonical injection of $A'_i$ into $A$, $p'_i$ is a morphism by (MO$_\Pi$). Also we have $r_i=j_i\circ {p'_i}^{-1}$; hence ${p'_i}^{-1}$ is a morphism of $A_i$ into $A'_i$ by virtue of the definition of induced structure.
 
 Finally, we have the following criterion, which characterizes the morphisms in many cases :
 
