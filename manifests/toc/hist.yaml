@@ -4,6 +4,7 @@ grammar: column/bare
 chapters:
     - book: hist
       chapter: "1"
+      nominal: true
       title: ELEMENTS OF THE HISTORY OF MATHEMATICS
       page: 1
       pdf_page: 9
