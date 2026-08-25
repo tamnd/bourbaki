@@ -7,11 +7,10 @@
   "body_pages": 496,
   "front_matter_pages": 16,
   "counts": {
-    "head": 471,
-    "interpolated": 25,
+    "label": 496,
     "none": 16
   },
-  "printed_pct_of_body": 94.95967741935483,
+  "printed_pct_of_body": 100,
   "chapters": [
     {
       "chapter": "I",
@@ -50,60 +49,6 @@
       "to": 16,
       "pages": 16,
       "confidence": "none"
-    },
-    {
-      "from": 17,
-      "to": 17,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 154,
-      "to": 155,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 167,
-      "to": 167,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 231,
-      "to": 231,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 245,
-      "to": 245,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 337,
-      "to": 337,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 355,
-      "to": 355,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 471,
-      "to": 471,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 497,
-      "to": 512,
-      "pages": 16,
-      "confidence": "interpolated"
     }
   ]
 }

@@ -1,0 +1,88 @@
+{
+  "book": "alg-x-fr",
+  "grammar": "head-label",
+  "pagination": "per-chapter",
+  "prefix": "A",
+  "pdf_pages": 222,
+  "body_pages": 215,
+  "front_matter_pages": 7,
+  "counts": {
+    "interpolated": 9,
+    "label": 206,
+    "none": 7
+  },
+  "printed_pct_of_body": 95.81395348837209,
+  "chapters": [
+    {
+      "chapter": "X",
+      "first_pdf_page": 7,
+      "last_pdf_page": 221,
+      "first_page": 1,
+      "last_page": 215
+    }
+  ],
+  "steps": [],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 6,
+      "pages": 6,
+      "confidence": "none"
+    },
+    {
+      "from": 7,
+      "to": 7,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 65,
+      "to": 65,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 194,
+      "to": 194,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 198,
+      "to": 198,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 202,
+      "to": 202,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 214,
+      "to": 214,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 216,
+      "to": 217,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 220,
+      "to": 220,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 222,
+      "to": 222,
+      "pages": 1,
+      "confidence": "none"
+    }
+  ]
+}

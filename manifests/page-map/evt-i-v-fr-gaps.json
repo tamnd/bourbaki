@@ -7,11 +7,11 @@
   "body_pages": 346,
   "front_matter_pages": 26,
   "counts": {
-    "head": 306,
-    "interpolated": 40,
+    "interpolated": 13,
+    "label": 333,
     "none": 26
   },
-  "printed_pct_of_body": 88.4393063583815,
+  "printed_pct_of_body": 96.24277456647398,
   "chapters": [
     {
       "chapter": "I",
@@ -65,18 +65,6 @@
       "confidence": "interpolated"
     },
     {
-      "from": 19,
-      "to": 19,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 23,
-      "to": 23,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 28,
       "to": 28,
       "pages": 1,
@@ -89,50 +77,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 42,
-      "to": 42,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 51,
-      "to": 51,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 55,
-      "to": 55,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 65,
-      "to": 65,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 76,
-      "to": 76,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 104,
-      "to": 105,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 118,
-      "to": 118,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 132,
-      "to": 132,
+      "to": 104,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -143,44 +89,14 @@
       "confidence": "interpolated"
     },
     {
-      "from": 144,
-      "to": 144,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 149,
-      "to": 149,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 171,
-      "to": 171,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 173,
       "to": 173,
       "pages": 1,
       "confidence": "interpolated"
     },
     {
-      "from": 184,
-      "to": 184,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 187,
       "to": 187,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 196,
-      "to": 196,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -192,31 +108,13 @@
     },
     {
       "from": 233,
-      "to": 234,
-      "pages": 2,
+      "to": 233,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
       "from": 242,
       "to": 242,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 245,
-      "to": 246,
-      "pages": 2,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 251,
-      "to": 253,
-      "pages": 3,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 257,
-      "to": 257,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -227,38 +125,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 302,
-      "to": 302,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 314,
-      "to": 314,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 321,
       "to": 321,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 331,
-      "to": 331,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 334,
-      "to": 334,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 336,
-      "to": 336,
       "pages": 1,
       "confidence": "interpolated"
     },

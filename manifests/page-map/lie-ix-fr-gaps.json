@@ -7,11 +7,12 @@
   "body_pages": 132,
   "front_matter_pages": 9,
   "counts": {
-    "head": 127,
-    "interpolated": 5,
+    "head": 1,
+    "interpolated": 1,
+    "label": 130,
     "none": 9
   },
-  "printed_pct_of_body": 96.21212121212122,
+  "printed_pct_of_body": 99.24242424242425,
   "chapters": [
     {
       "chapter": "IX",
@@ -33,30 +34,6 @@
     {
       "from": 4,
       "to": 4,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 63,
-      "to": 63,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 82,
-      "to": 82,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 93,
-      "to": 93,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 99,
-      "to": 99,
       "pages": 1,
       "confidence": "interpolated"
     },
