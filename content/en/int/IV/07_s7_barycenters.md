@@ -44,11 +44,11 @@ content_sha256: 0570767550afc4ec72a1bd2d57ff21259b2713160100ad0deff3ffd79e594e1a
 
 ### 1. Definition of barycenters
 
-Let E be a Hausdorff locally convex space over $ \mathbf{R} $, $ E' $ its dual, and $ E'^* $ the algebraic dual of $ E' $, E being canonically identified with a linear subspace of $ E'^* $. Let K be a compact subset of E; the canonical injection of K into E being continuous with compact support, for every measure $ \mu $ on K the integral $ \int x\, d\mu(x) $ is therefore defined and is an element of $ E'^* $ (Ch. III, §3, No. 1). Moreover, on K, the topology induced by the weak topology $ \sigma(E'^*, E') $ is identical with the original topology. Finally, if C is the closed convex envelope of K in $ E'^* $ equipped with $ \sigma(E'^*, E') $, then $ C \cap E $ is the closed convex envelope of K in E for the original topology (or for the weakened topology $ \sigma(E, E') $).
+Let E be a Hausdorff locally convex space over $ \mathbf{R} $, $ E' $ its dual, and $ {E'}^* $ the algebraic dual of $ E' $, E being canonically identified with a linear subspace of $ {E'}^* $. Let K be a compact subset of E; the canonical injection of K into E being continuous with compact support, for every measure $ \mu $ on K the integral $ \int x\, d\mu(x) $ is therefore defined and is an element of $ {E'}^* $ (Ch. III, §3, No. 1). Moreover, on K, the topology induced by the weak topology $ \sigma({E'}^*, E') $ is identical with the original topology. Finally, if C is the closed convex envelope of K in $ {E'}^* $ equipped with $ \sigma({E'}^*, E') $, then $ C \cap E $ is the closed convex envelope of K in E for the original topology (or for the weakened topology $ \sigma(E, E') $).
 
 #### Definition 1 {#int-iv-s7-def-1 .statement}
 
-*Let K be a compact subset of a Hausdorff locally convex space E. For every positive measure $ \mu $ on K of total mass equal to 1, the vector $ b_\mu = \int x\, d\mu(x) $ (belonging to $ E'^* $) is called the barycenter of $ \mu $.*
+*Let K be a compact subset of a Hausdorff locally convex space E. For every positive measure $ \mu $ on K of total mass equal to 1, the vector $ b_\mu = \int x\, d\mu(x) $ (belonging to $ {E'}^* $) is called the barycenter of $ \mu $.*
 
 #### Example {#int-iv-s7-n1-exa-1 .statement}
 
@@ -64,7 +64,7 @@ This is nothing more than Prop. 5 of Ch. III, §3, No. 2 applied to the canonica
 
 *If the closed convex envelope C of K in E is compact, then the barycenter of every positive measure of total mass 1 on K belongs to E.*
 
-For, C is then also the closed convex envelope of K in $ E'^* $ equipped with the weak topology $ \sigma(E', E') $, and it suffices to apply, to the canonical injection of K into E, Prop. 4 of Ch. III, §3, No. 2.
+For, C is then also the closed convex envelope of K in $ {E'}^* $ equipped with the weak topology $ \sigma(E', E') $, and it suffices to apply, to the canonical injection of K into E, Prop. 4 of Ch. III, §3, No. 2.
 
 #### Remark {#int-iv-s7-n1-rem-1 .statement}
 
@@ -525,7 +525,7 @@ Since $ \varepsilon $ is an arbitrary number $ > 0 $, we have proved that $ \ove
 
 #### Theorem 3 (Choquet) {#int-iv-s7-thm-3 .statement}
 
-*Let $ E $ be a Hausdorff weak locally convex space, $ C $ a weakly complete proper convex cone with vertex 0 in $ E $, $ G $ the union of the extremal generators of $ C $, $ K $ a compact convex subset of $ C $, $ \lambda $ and $ \lambda' $ positive measures of mass 1 on $ K $, admitting the same barycenter, such that $ \lambda^*(K - (K \cap G)) = \lambda'^*(K - (K \cap G)) = 0 $. Assume that $ C $ is lattice-ordered. Then, for every lower semi-continuous, positively homogeneous convex function $ f \geq 0 $ on $ C $, $ \lambda^*(f|K) = \lambda'^*(f|K) $.*
+*Let $ E $ be a Hausdorff weak locally convex space, $ C $ a weakly complete proper convex cone with vertex 0 in $ E $, $ G $ the union of the extremal generators of $ C $, $ K $ a compact convex subset of $ C $, $ \lambda $ and $ \lambda' $ positive measures of mass 1 on $ K $, admitting the same barycenter, such that $ \lambda^*(K - (K \cap G)) = {\lambda'}^*(K - (K \cap G)) = 0 $. Assume that $ C $ is lattice-ordered. Then, for every lower semi-continuous, positively homogeneous convex function $ f \geq 0 $ on $ C $, $ \lambda^*(f|K) = {\lambda'}^*(f|K) $.*
 
 Let $ \mathcal{A} $ (resp. $ \mathcal{A}' $) be the set of restrictions to $ C $ of the continuous linear forms (resp. affine functions) on $ E $. We know (TVS, II, §5, No. 4, Remark 2) that $ f $ is the upper envelope of the set of elements of $ \mathcal{A} $ that are $ \leq f $. The set of functions of the form $ \sup(f_1, \ldots, f_p) $, where $ f_1, \ldots, f_p $ belong to $ \mathcal{A} $, $ f_1 \geq 0, \ldots, f_p \geq 0 $, is an increasing directed set and has $ f $ as its upper envelope. Taking into account §1, No. 1, Th. 1, it suffices to verify the equality $ \lambda(f|K) = \lambda'(f|K) $ when $ f $ is of the preceding form.
 
