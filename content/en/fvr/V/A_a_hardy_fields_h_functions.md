@@ -385,9 +385,9 @@ whence we obtain (11) by induction on $ n $.
 
 #### Remark 1 {#fvr-v-a0-n6-rem-1 .statement}
 
-If $ g $ is of order $ < 1 $ relative to $ x $, the function $ u(x) - u_n(x) $ tends to 0 with $ x $ once $ n $ is sufficiently large. Indeed, in the opposite case one would have $ gg''^n \gg 1 $ for every $ n $, so $ g $ would be of infinite order relative to $ 1/g' $; in other words, one would have $ \log|g| \gg \log|g'| $, whence, on differentiating, $ g'/g \gg g''/g' $. But if $ g $ is of order $ \mu < 1 $ relative to $ x $ one has $ g'/g \sim g''/g' $ when $ \mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'} $ when $ \mu \neq 0 $, and finally $ g'/g \ll g''/g' $ when $ \mu = 0 $ (V, p. 251, n 3).
+If $ g $ is of order $ < 1 $ relative to $ x $, the function $ u(x) - u_n(x) $ tends to 0 with $ x $ once $ n $ is sufficiently large. Indeed, in the opposite case one would have $ {gg''}^n \gg 1 $ for every $ n $, so $ g $ would be of infinite order relative to $ 1/g' $; in other words, one would have $ \log|g| \gg \log|g'| $, whence, on differentiating, $ g'/g \gg g''/g' $. But if $ g $ is of order $ \mu < 1 $ relative to $ x $ one has $ g'/g \sim g''/g' $ when $ \mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'} $ when $ \mu \neq 0 $, and finally $ g'/g \ll g''/g' $ when $ \mu = 0 $ (V, p. 251, n 3).
 
-In contrast, if $ g $ is of order 1 relative to $ x $ one can have $ gg''^n \gg 1 $ for every integer $ n > 0 $, as the example $ g(x) = x/\log x $ shows.
+In contrast, if $ g $ is of order 1 relative to $ x $ one can have $ {gg''}^n \gg 1 $ for every integer $ n > 0 $, as the example $ g(x) = x/\log x $ shows.
 
 #### Remark 2 {#fvr-v-a0-n6-rem-2 .statement}
 
