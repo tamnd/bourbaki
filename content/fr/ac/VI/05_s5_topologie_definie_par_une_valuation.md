@@ -24,7 +24,7 @@ subsections:
       pdf_page: 117
 statements: 10
 exercises: 3
-content_sha256: fa8492230e21a8c3dc005c91f39d1b9a0a2d617552452286b5ac88789fbb8a2f
+content_sha256: 131c1604ba3797e357fc990e0f42eb9b5afdbefaf7ede65ff11ba98e3e0c2342
 ---
 
 ## § 5. Topologie définie par une valuation.
@@ -141,11 +141,11 @@ Pour tout $x \in \hat{K}$ n’appartenant pas à $\hat{A}$, il existe $x_0 \in K
 
 **Q 1)** Soient $A$ un anneau intègre, $K$ son corps des fractions, $\mathcal{T}$ une topologie linéaire sur $A$ (chap. III, § 2, exerc. 21).
 
-$a)$ Pour que les voisinages de $0$ pour $\mathcal{T}$ constituent un système fondamental de voisinages de $0$ pour une topologie $\mathcal{T}_K$ compatible avec la structure d’anneau de $K$, il faut et il suffit que $\mathcal{T}$ soit la topologie $\mathcal{T}_u(A)$ (chap. III, § 2, exerc. 24); alors $A$ est une partie bornée pour $\mathcal{T}_K$ et $\mathcal{T}_K$ est une topologie séparée localement bornée ($Top. gén.$, chap. III, 3e éd., § 6, exerc. 12 et 20 e)). Pour que $K$ soit complet (resp. linéairement compact, resp. strictement linéairement compact (chap. III, § 2, exerc. 21)) pour $\mathcal{T}_K$, il faut et il suffit que $A$ le soit pour $\mathcal{T}$.
+$a)$ Pour que les voisinages de $0$ pour $\mathcal{T}$ constituent un système fondamental de voisinages de $0$ pour une topologie $\mathcal{T}_K$ compatible avec la structure d’anneau de $K$, il faut et il suffit que $\mathcal{T}$ soit la topologie $\mathcal{T}_u(A)$ (chap. III, § 2, exerc. 24); alors $A$ est une partie bornée pour $\mathcal{T}_K$ et $\mathcal{T}_K$ est une topologie séparée localement bornée (*Top. gén.*, chap. III, 3e éd., § 6, exerc. 12 et 20 e)). Pour que $K$ soit complet (resp. linéairement compact, resp. strictement linéairement compact (chap. III, § 2, exerc. 21)) pour $\mathcal{T}_K$, il faut et il suffit que $A$ le soit pour $\mathcal{T}$.
 
 $b)$ Pour que la topologie $\mathcal{T}_K$ (où $\mathcal{T} = \mathcal{T}_u(A)$) soit compatible avec la structure de corps de $K$, il faut et il suffit que le radical $\mathfrak{R}(A)$ de $A$ soit $\neq 0$.
 
-**Q 2)** Soient $K$ un corps (commutatif), $\mathcal{T}$ une topologie séparée non discrète sur $K$, compatible avec la structure d’anneau de $K$. Pour que la topologie $\mathcal{T}$ soit définie par une valuation de $K$ ou une valeur absolue sur $K$, il faut et il suffit que $\mathcal{T}$ soit localement rétrobornée ($Top. gén.$, chap. III, 3e éd., § 6, exerc. 22. S’il existe dans $K$ des éléments topologiquement nilpotents, utiliser l’exerc. 22 d) de $Top. gén.$, chap. III, 3e éd., § 6 et l’exerc. 13 de $Top. gén.$, chap. IX, 2e éd., § 3. Dans le cas contraire, utiliser l’exerc. 22 f) de $Top. gén.$, chap. III, 3e éd., § 6).
+**Q 2)** Soient $K$ un corps (commutatif), $\mathcal{T}$ une topologie séparée non discrète sur $K$, compatible avec la structure d’anneau de $K$. Pour que la topologie $\mathcal{T}$ soit définie par une valuation de $K$ ou une valeur absolue sur $K$, il faut et il suffit que $\mathcal{T}$ soit localement rétrobornée (*Top. gén.*, chap. III, 3e éd., § 6, exerc. 22. S’il existe dans $K$ des éléments topologiquement nilpotents, utiliser l’exerc. 22 d) de *Top. gén.*, chap. III, 3e éd., § 6 et l’exerc. 13 de *Top. gén.*, chap. IX, 2e éd., § 3. Dans le cas contraire, utiliser l’exerc. 22 f) de *Top. gén.*, chap. III, 3e éd., § 6).
 
 **Q 3)** Soient $A$ un anneau noethérien intègre, $K$ son corps des fractions, $\mathcal{T}_u$ la topologie $\mathcal{T}_u(A)$ sur $A$, $\mathcal{T}_K$ la topologie correspondante sur $K$ (exerc.
 

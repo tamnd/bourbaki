@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: 9cfc54fc3fd0d895b609ce67acdf312a766719407e25832b00a0c808df62b15d
+content_sha256: cc7783372dfd63398eb34b48f535a43f648153e181fb53a1ed27fedef04dd7e3
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -369,7 +369,7 @@ Soit A un anneau. Soient E un A-module de longueur finie et S un A-module simple
 *Soient E, E' et E'' des A-modules de longueur finie et*
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \longrightarrow & E' & \xrightarrow{i} & E & \xrightarrow{p} & E'' & \longrightarrow & 0
 \end{array}
 $$

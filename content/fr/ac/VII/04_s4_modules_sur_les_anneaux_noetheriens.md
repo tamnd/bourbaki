@@ -52,7 +52,7 @@ subsections:
       pdf_page: 272
 statements: 79
 exercises: 26
-content_sha256: 0004bf8be548865c342ff65ff5851355002d3c8bdaa8fcad0d7bf3617fc737c6
+content_sha256: 7a5259286f966c4c9a65bebe071385d980038de3188c80a349200e2d7c55297a
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -440,7 +440,7 @@ Soit a l’annulateur de T ; comme T est un A-module de torsion de type fini, on
 Prouvons maintenant le th. 4. Soit g : E → T un homomorphisme vérifiant les propriétés du lemme 3; soit h la restriction de g à T, et soit π la projection canonique de E sur M. Montrons que l’homomorphisme f = (g, π) : E → T × M répond à la question. On a en effet le diagramme commutatif:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \to & T & \longrightarrow & E & \longrightarrow & M & \to & 0 \\
 & & \downarrow h & & \downarrow f & & \downarrow ^{1_M} & \\
 0 & \to & T & \to & T \times M & \to & M & \to & 0
@@ -634,7 +634,7 @@ $$
 Pour prouver (i), considérons un sous-module libre $L_1$ (resp. $L_3$) de $M_1$ (resp. $M_3$) tel que $M_1/L_1$ (resp. $M_3/L_3$) soit un module de torsion. Puisque $L_3$ est libre et g surjectif, il existe dans $g^{-1}(L_3)$ un supplémentaire libre $L_{23}$ de $\operatorname{Ker}(g)$, isomorphe à $L_3$ ($Alg.$, chap. II, 3e éd., § 1, n° 11, prop. 21); mais $\operatorname{Ker}(g) = f(M_1)$ contient $f(L_1) = L_{12}$ qui est libre puisque $f$ est injectif. La somme $L_2 = L_{12} + L_{23}$ est directe, et $L_2$ est donc un sous-module libre de $M_2$. On a en outre le diagramme commutatif:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \to & L_1 & \to & L_2 & \to & L_3 & \to & 0 \\
    &     & \downarrow &     & \downarrow &     & \downarrow &     & \\
 0 & \to & M_1 & \xrightarrow{f} & M_2 & \xrightarrow{g} & M_3 & \to & 0
