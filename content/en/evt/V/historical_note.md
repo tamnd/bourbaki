@@ -12,7 +12,7 @@ pdf_pages: 0338-0368
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 3301b37893d77a89d49aabc34aa800501c54c374f23333cf2b037542ca81ec38
+content_sha256: 1d568cdf6b7620392b098601685ec9ec289112bf1642f357259f2fe9d3aa3c33
 ---
 
 # HISTORICAL NOTE
@@ -248,27 +248,27 @@ $\bigoplus_{i \in I} E_i :$ V, p. 18.
 $E_1 \oplus E_2 \oplus \cdots \oplus E_n$ (E_i Hilbert spaces) : V, p. 18.
 $\ell^2_E(I),\ \ell^2(\hat{I})$ (E a Hilbert space) : V, p. 18.
 
-E_1 \otimes_2 E_2, \|z\|_2 (z \in E_1 \otimes_2 E_2) : V, p. 26.
-E_1 \otimes_2 E_2 \otimes_2 \cdots \otimes_2 E_n, \bigotimes_{i=1}^n E_i, \|z\|_2 \left( z \in \bigotimes_{i=1}^n E_i \right) : V, p. 27.
-E_1 \hat{\otimes}_2 E_2 \hat{\otimes}_2 \cdots \hat{\otimes}_2 E_n, \bigotimes_{1 \leq i \leq n} E_i : V, p. 28
-u_1 \hat{\otimes}_2 u_2 \hat{\otimes}_2 \cdots \hat{\otimes}_2 u_n (u_i \text{ linear mappings}) : V, p. 28.
-\hat{T}^n(E), E^{\hat{\otimes}_n} : V, p. 29.
-\hat{S}^n(E), \hat{S}(E) : V, p. 30.
-\hat{T}^n(u), \hat{S}^n(u) (u \text{ a linear mapping}) : V, p. 31 and p. 32.
-\hat{\Lambda}^n(E), \hat{\Lambda}(E) : V, p. 33.
-\hat{\Lambda}^n(u) (u \text{ a linear mapping}) : V, p. 34.
-v.u, vu (u, v \text{ linear mappings}) : V, p. 37.
-u^* (u \text{ a linear mapping}) : V, p. 38.
-\mathcal{H}(E) (E \text{ a Hilbert space}) : V, p. 44.
-u \geq 0 (u \text{ an endomorphism of a Hilbert space}) : V, p. 45.
-\mathcal{L}_+(E) : V, p. 45.
-u \geq v (u, v \text{ in } \mathcal{L}(E), E \text{ a Hilbert space}) : V, p. 45.
-\tau(u) (u \text{ an endomorphism of finite rank}) : V, p. 48.
-\mathrm{Tr}(u) (u \geq 0 \text{ in } \mathcal{L}(E)) : V, p. 49.
-\mathcal{L}^1(E) (E \text{ a Hilbert space}) : V, p. 51.
-\mathcal{L}^2(E; F), \mathcal{L}^2(E) (E, F \text{ Hilbert spaces}) : V, p. 52.
-\|u\|_2 (u \in \mathcal{L}(E; F), E, F \text{ Hilbert spaces}) : V, p. 52.
-\mathrm{Tr}(\mathbf{Q}/H) (Q, H \text{ positive quadratic forms}) : V, p. 57.
+$E_1 \otimes_2 E_2, \|z\|_2 (z \in E_1 \otimes_2 E_2) :$ V, p. 26.
+$E_1 \otimes_2 E_2 \otimes_2 \cdots \otimes_2 E_n, \bigotimes_{i=1}^n E_i, \|z\|_2 \left( z \in \bigotimes_{i=1}^n E_i \right) :$ V, p. 27.
+$E_1 \hat{\otimes}_2 E_2 \hat{\otimes}_2 \cdots \hat{\otimes}_2 E_n, \bigotimes_{1 \leq i \leq n} E_i :$ V, p. 28
+$u_1 \hat{\otimes}_2 u_2 \hat{\otimes}_2 \cdots \hat{\otimes}_2 u_n$ (u_i linear mappings) : V, p. 28.
+$\hat{T}^n(E), E^{\hat{\otimes}_n} :$ V, p. 29.
+$\hat{S}^n(E), \hat{S}(E) :$ V, p. 30.
+$\hat{T}^n(u), \hat{S}^n(u)$ (u a linear mapping) : V, p. 31 and p. 32.
+$\hat{\Lambda}^n(E), \hat{\Lambda}(E) :$ V, p. 33.
+$\hat{\Lambda}^n(u)$ (u a linear mapping) : V, p. 34.
+$v.u, vu$ (u, v linear mappings) : V, p. 37.
+$u^*$ (u a linear mapping) : V, p. 38.
+$\mathcal{H}(E)$ (E a Hilbert space) : V, p. 44.
+$u \geq 0$ (u an endomorphism of a Hilbert space) : V, p. 45.
+$\mathcal{L}_+(E) :$ V, p. 45.
+$u \geq v$ (u, v in $\mathcal{L}(E)$, E a Hilbert space) : V, p. 45.
+$\tau(u)$ (u an endomorphism of finite rank) : V, p. 48.
+$\mathrm{Tr}(u)$ ($u \geq 0$ in $\mathcal{L}(E)$) : V, p. 49.
+$\mathcal{L}^1(E)$ (E a Hilbert space) : V, p. 51.
+$\mathcal{L}^2(E; F), \mathcal{L}^2(E)$ (E, F Hilbert spaces) : V, p. 52.
+$\|u\|_2$ ($u \in \mathcal{L}(E; F)$, E, F Hilbert spaces) : V, p. 52.
+$\mathrm{Tr}(\mathbf{Q}/H)$ (Q, H positive quadratic forms) : V, p. 57.
 
 Index of terminology
 
