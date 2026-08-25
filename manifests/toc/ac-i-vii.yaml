@@ -301,7 +301,7 @@ chapters:
               page: 156
               pdf_page: 176
             - "no": 3
-              title: Properties of the ring $ \mathbf{A}^{(d)} $
+              title: Properties of the ring $\mathbf{A}^{(d)}$
               page: 157
               pdf_page: 177
             - "no": 4
@@ -831,7 +831,7 @@ chapters:
               page: 418
               pdf_page: 436
             - "no": 3
-              title: The relation $ \sum_i e_i f_i \leq n $
+              title: The relation $\sum_i e_i f_i \leq n$
               page: 420
               pdf_page: 438
             - "no": 4
@@ -839,7 +839,7 @@ chapters:
               page: 422
               pdf_page: 440
             - "no": 5
-              title: The relation $ \sum_i e_i f_i = n $
+              title: The relation $\sum_i e_i f_i = n$
               page: 423
               pdf_page: 441
             - "no": 6

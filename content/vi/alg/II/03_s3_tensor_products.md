@@ -32,7 +32,7 @@ subsections:
       page: 0
       pdf_page: 273
     - "no": 6
-      title: PROPERTIES OF $ E \otimes_A F $ RELATIVE TO EXACT SEQUENCES
+      title: PROPERTIES OF $E \otimes_A F$ RELATIVE TO EXACT SEQUENCES
       page: 0
       pdf_page: 275
     - "no": 7
@@ -49,9 +49,9 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 861df2d2721af076358452a637d9db095bacdc37f3b1338cec29a66af3fa1d88
+content_sha256: 93950ac57776cc4fdb83f957afee2ca7ebe533992ac154a6faac33477687299e
 translated_from: content/en/alg/II/03_s3_tensor_products.md
-source_content_sha256: 221f676618cbb299fc184263a293a1650de6a90d7ef3b28b9051718bcc8e0780
+source_content_sha256: f86e70bfe930688e9124fe94af3f06d2de69c5e4f346c01d789b4ef098ccf43c
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-3b7fa4e4
 glossary_version: 34
@@ -63,7 +63,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. TÍCH TENXƠ CỦA HAI MÔĐUN
 
-Cho $ G_1, G_2 $ là hai $ \mathbf{Z} $-môđun; một ánh xạ $ u $ của tập hợp $ G = G_1 \times G_2 $ vào một $ \mathbf{Z} $-môđun được gọi là cộng tính đôi (hoặc $ \mathbf{Z} $-song tuyến tính) nếu $ u(x_1, x_2) $ là "cộng tính đối với $ x_1 $ và đối với $ x_2 $"; nói chính xác hơn, điều này có nghĩa là, với $ x_1, y_1 $ thuộc $ G_1 $, $ x_2, y_2 $ thuộc $ G_2 $,
+Cho $G_1, G_2$ là hai $\mathbf{Z}$-môđun; một ánh xạ $u$ của tập hợp $G = G_1 \times G_2$ vào một $\mathbf{Z}$-môđun được gọi là cộng tính đôi (hoặc $\mathbf{Z}$-song tuyến tính) nếu $u(x_1, x_2)$ là "cộng tính đối với $x_1$ và đối với $x_2$"; nói chính xác hơn, điều này có nghĩa là, với $x_1, y_1$ thuộc $G_1$, $x_2, y_2$ thuộc $G_2$,
 
 $$
 u(x_1 + y_1, x_2) = u(x_1, x_2) + u(y_1, x_2)
@@ -72,16 +72,16 @@ $$
 u(x_1, x_2 + y_2) = u(x_1, x_2) + u(x_1, y_2).
 $$
 
-Chú ý rằng điều này kéo theo riêng rằng $ u(0, x_2) = u(x_1, 0) = 0 $ với mọi $ x_1 \in G_1, x_2 \in G_2 $.
+Chú ý rằng điều này kéo theo riêng rằng $u(0, x_2) = u(x_1, 0) = 0$ với mọi $x_1 \in G_1, x_2 \in G_2$.
 
-Cho A là một vành, E là một A-môđun phải và F là một A-môđun trái. Ta sẽ xét bài toán ánh xạ phổ quát (Lý thuyết tập hợp, IV, § 3, no. 1) trong đó $ \Sigma $ là loài cấu trúc $ \mathbf{Z} $-môđun (khi đó các cấu xạ là các ánh xạ tuyến tính $ \mathbf{Z} $, nói cách khác là các đồng cấu nhóm cộng) và các ánh xạ $ \alpha $ là các ánh xạ $ f $ từ $ E \times F $ vào một $ \mathbf{Z} $-môđun G là $ \mathbf{Z} $-song tuyến tính và hơn nữa thỏa mãn, với mọi $ x \in E, y \in F $ và $ \lambda \in A $
+Cho A là một vành, E là một A-môđun phải và F là một A-môđun trái. Ta sẽ xét bài toán ánh xạ phổ quát (Lý thuyết tập hợp, IV, § 3, no. 1) trong đó $\Sigma$ là loài cấu trúc $\mathbf{Z}$-môđun (khi đó các cấu xạ là các ánh xạ tuyến tính $\mathbf{Z}$, nói cách khác là các đồng cấu nhóm cộng) và các ánh xạ $\alpha$ là các ánh xạ $f$ từ $E \times F$ vào một $\mathbf{Z}$-môđun G là $\mathbf{Z}$-song tuyến tính và hơn nữa thỏa mãn, với mọi $x \in E, y \in F$ và $\lambda \in A$
 
 $$(1)$$
 $$
 f(x \lambda, y) = f(x, \lambda y).
 $$
 
-Ta chứng minh rằng bài toán này có một nghiệm. Để làm điều đó, ta xét $ \mathbf{Z} $-môđun $ C = \mathbf{Z}^{(E \times F)} $ của các tổ hợp tuyến tính hình thức của các phần tử của $ E \times F $ với các hệ số trong $ \mathbf{Z} $ (\S 1, no. 11), một cơ sở của nó có thể được xem là gồm các cặp có thứ tự $ (x, y) $, trong đó $ x \in E $ và $ y \in F $. Gọi D là môđun con-$ \mathbf{Z} $ của C được sinh bởi các phần tử thuộc một trong các loại sau:
+Ta chứng minh rằng bài toán này có một nghiệm. Để làm điều đó, ta xét $\mathbf{Z}$-môđun $C = \mathbf{Z}^{(E \times F)}$ của các tổ hợp tuyến tính hình thức của các phần tử của $E \times F$ với các hệ số trong $\mathbf{Z}$ (\S 1, no. 11), một cơ sở của nó có thể được xem là gồm các cặp có thứ tự $(x, y)$, trong đó $x \in E$ và $y \in F$. Gọi D là môđun con-$\mathbf{Z}$ của C được sinh bởi các phần tử thuộc một trong các loại sau:
 
 $$(2)$$
 $$
@@ -92,75 +92,75 @@ $$
 \end{cases}
 $$
 
-trong đó $ x, x_1, x_2 $ thuộc $ E $, $ y, y_1, y_2 $ thuộc $ F $ và $ \lambda $ thuộc $ A $.
+trong đó $x, x_1, x_2$ thuộc $E$, $y, y_1, y_2$ thuộc $F$ và $\lambda$ thuộc $A$.
 
 #### Định nghĩa 1 {#alg-ii-s3-def-1 .statement}
 
-*Tích tenxơ của A-môđun phải E và A-môđun trái F*, được ký hiệu bởi $ E \otimes_A F $ hoặc $ E \otimes_A F $ (hoặc đơn giản là $ E \otimes F $ nếu không sợ nhầm lẫn) *là một $ \mathbf{Z} $-môđun thương* $ C/D $ (môđun thương của $ \mathbf{Z} $-môđun C gồm các tổ hợp tuyến tính hình thức của các phần tử của $ E \times F $ với hệ số trong $ \mathbf{Z} $, theo môđun con $ D $ sinh bởi các phần tử của một trong các dạng (2)). *Với $ x \in E $ và $ y \in F $, phần tử của $ E \otimes_A F $ là ảnh chính tắc của phần tử $ (x, y) $ của $ C = \mathbf{Z}^{(E \times F)} $ được ký hiệu bởi $ x \otimes y $ và gọi là tích tenxơ của $ x $ và $ y $.
+*Tích tenxơ của A-môđun phải E và A-môđun trái F*, được ký hiệu bởi $E \otimes_A F$ hoặc $E \otimes_A F$ (hoặc đơn giản là $E \otimes F$ nếu không sợ nhầm lẫn) *là một $\mathbf{Z}$-môđun thương* $C/D$ (môđun thương của $\mathbf{Z}$-môđun C gồm các tổ hợp tuyến tính hình thức của các phần tử của $E \times F$ với hệ số trong $\mathbf{Z}$, theo môđun con $D$ sinh bởi các phần tử của một trong các dạng (2)). *Với $x \in E$ và $y \in F$, phần tử của $E \otimes_A F$ là ảnh chính tắc của phần tử $(x, y)$ của $C = \mathbf{Z}^{(E \times F)}$ được ký hiệu bởi $x \otimes y$ và gọi là tích tenxơ của $x$ và $y$.
 
-Ánh xạ $ (x, y) \mapsto x \otimes y $ của $ E \times F $ vào $ E \otimes_A F $ được gọi là *chính tắc*. Nó là một $ \mathbf{Z}$-song tuyến tính ánh xạ thỏa mãn các điều kiện (1).
+Ánh xạ $(x, y) \mapsto x \otimes y$ của $E \times F$ vào $E \otimes_A F$ được gọi là *chính tắc*. Nó là một $\mathbf{Z}$-song tuyến tính ánh xạ thỏa mãn các điều kiện (1).
 
-Ta thấy rằng tích tenxơ $ E \otimes_A F $ và ánh xạ chính tắc ở trên tạo thành một nghiệm của bài toán ánh xạ phổ quát đã nêu trước đó. Cụ thể là:
+Ta thấy rằng tích tenxơ $E \otimes_A F$ và ánh xạ chính tắc ở trên tạo thành một nghiệm của bài toán ánh xạ phổ quát đã nêu trước đó. Cụ thể là:
 
 #### Mệnh đề 1 {#alg-ii-s3-prop-1 .statement}
 
-(a) *Cho $ g $ là một ánh xạ $ \mathbf{Z} $-tuyến tính từ $ E \otimes_A F $ vào một $ \mathbf{Z} $-môđun $ G $. Ánh xạ $ (x, y) \mapsto f(x, y) = g(x \otimes y) $ của $ E \times F $ vào $ G $ là $ \mathbf{Z} $-song tuyến tính và thỏa mãn các điều kiện (1).*
+(a) *Cho $g$ là một ánh xạ $\mathbf{Z}$-tuyến tính từ $E \otimes_A F$ vào một $\mathbf{Z}$-môđun $G$. Ánh xạ $(x, y) \mapsto f(x, y) = g(x \otimes y)$ của $E \times F$ vào $G$ là $\mathbf{Z}$-song tuyến tính và thỏa mãn các điều kiện (1).*
 
-(b) *Ngược lại, cho $ f $ là một ánh xạ $ \mathbf{Z} $-song tuyến tính của $ E \times F $ vào một $ \mathbf{Z} $-môđun $ G $ thỏa mãn các điều kiện (1). Khi đó tồn tại một và chỉ một ánh xạ $ \mathbf{Z} $-tuyến tính $ g $ của $ E \otimes_A F $ vào $ G $ sao cho $ f(x, y) = g(x \otimes y) $ với $ x \in E, y \in F $.*
+(b) *Ngược lại, cho $f$ là một ánh xạ $\mathbf{Z}$-song tuyến tính của $E \times F$ vào một $\mathbf{Z}$-môđun $G$ thỏa mãn các điều kiện (1). Khi đó tồn tại một và chỉ một ánh xạ $\mathbf{Z}$-tuyến tính $g$ của $E \otimes_A F$ vào $G$ sao cho $f(x, y) = g(x \otimes y)$ với $x \in E, y \in F$.*
 
-Nếu $ \phi $ ký hiệu ánh xạ chính tắc của $ E \times F $ vào $ E \otimes_A F $, thì $ f = g \circ \phi $; do đó (a). Để chứng minh (b), ta lưu ý rằng, theo ký hiệu của Định nghĩa 1, $ f $ mở rộng thành một ánh xạ $ \mathbf{Z} $-tuyến tính $ \bar{f} $ của $ C $ vào $ G $ (\S 1, no. 11, Mệnh đề 17). Nhờ các hệ thức (1), $ \bar{f} $ bằng không trên mọi phần tử của $ C $ thuộc một trong các kiểu (2) và do đó trên $ D $. Vì thế tồn tại một ánh xạ $ \mathbf{Z} $-tuyến tính $ g $ của $ C/D = E \otimes_A F $ vào $ G $ sao cho $ \bar{f} = g \circ \psi $, trong đó $ \psi : C \to C/D $ là đồng cấu chính tắc (\S 1, no. 8, *Nhận xét*). Tính duy nhất của $ g $ là ngay lập tức vì $ E \otimes_A F $ được sinh, như một $ \mathbf{Z} $-môđun, bởi các phần tử có dạng $ x \otimes y $.
+Nếu $\phi$ ký hiệu ánh xạ chính tắc của $E \times F$ vào $E \otimes_A F$, thì $f = g \circ \phi$; do đó (a). Để chứng minh (b), ta lưu ý rằng, theo ký hiệu của Định nghĩa 1, $f$ mở rộng thành một ánh xạ $\mathbf{Z}$-tuyến tính $\bar{f}$ của $C$ vào $G$ (\S 1, no. 11, Mệnh đề 17). Nhờ các hệ thức (1), $\bar{f}$ bằng không trên mọi phần tử của $C$ thuộc một trong các kiểu (2) và do đó trên $D$. Vì thế tồn tại một ánh xạ $\mathbf{Z}$-tuyến tính $g$ của $C/D = E \otimes_A F$ vào $G$ sao cho $\bar{f} = g \circ \psi$, trong đó $\psi : C \to C/D$ là đồng cấu chính tắc (\S 1, no. 8, *Nhận xét*). Tính duy nhất của $g$ là ngay lập tức vì $E \otimes_A F$ được sinh, như một $\mathbf{Z}$-môđun, bởi các phần tử có dạng $x \otimes y$.
 
-Mệnh đề 1 xác định một *đẳng cấu chính tắc* của môđun $ \mathbf{Z} $ gồm các ánh xạ $ \mathbf{Z} $-song tuyến tính $ f $ của $ E \times F $ vào $ G $, thỏa mãn các điều kiện (1), lên môđun $ \mathbf{Z} $ $ \mathrm{Hom}_{\mathbf{Z}}(E \otimes_A F, G) $.
+Mệnh đề 1 xác định một *đẳng cấu chính tắc* của môđun $\mathbf{Z}$ gồm các ánh xạ $\mathbf{Z}$-song tuyến tính $f$ của $E \times F$ vào $G$, thỏa mãn các điều kiện (1), lên môđun $\mathbf{Z}$ $\mathrm{Hom}_{\mathbf{Z}}(E \otimes_A F, G)$.
 
-Khi $ A = \mathbf{Z} $, các điều kiện (1) tự động được thỏa mãn bởi *mọi* ánh xạ $ \mathbf{Z} $-song tuyến tính $ f $ và môđun con $ D $ của $ C $ vốn đã được sinh bởi các phần tử của hai kiểu đầu trong (2).
+Khi $A = \mathbf{Z}$, các điều kiện (1) tự động được thỏa mãn bởi *mọi* ánh xạ $\mathbf{Z}$-song tuyến tính $f$ và môđun con $D$ của $C$ vốn đã được sinh bởi các phần tử của hai kiểu đầu trong (2).
 
-Nếu bây giờ ta trở lại trường hợp tổng quát và $ E' $ và $ F' $ lần lượt ký hiệu các môđun $ \mathbf{Z} $ nền của $ E $ và $ F $, nhận xét trên và Định nghĩa 1 cho thấy ngay lập tức rằng môđun $ \mathbf{Z} $ $ E \otimes_A F $ có thể được đồng nhất một cách chính tắc với *thương* của môđun $ \mathbf{Z} $ $ E' \otimes_{\mathbf{Z}} F' $ bởi môđun con $ \mathbf{Z} $ được sinh bởi các phần tử có dạng $ (x \lambda) \otimes y - x \otimes (\lambda y) $, trong đó $ x $ chạy qua $ E $, $ y $ chạy qua $ F $ và $ \lambda $ chạy qua $ A $.
+Nếu bây giờ ta trở lại trường hợp tổng quát và $E'$ và $F'$ lần lượt ký hiệu các môđun $\mathbf{Z}$ nền của $E$ và $F$, nhận xét trên và Định nghĩa 1 cho thấy ngay lập tức rằng môđun $\mathbf{Z}$ $E \otimes_A F$ có thể được đồng nhất một cách chính tắc với *thương* của môđun $\mathbf{Z}$ $E' \otimes_{\mathbf{Z}} F'$ bởi môđun con $\mathbf{Z}$ được sinh bởi các phần tử có dạng $(x \lambda) \otimes y - x \otimes (\lambda y)$, trong đó $x$ chạy qua $E$, $y$ chạy qua $F$ và $\lambda$ chạy qua $A$.
 
 #### Hệ quả 1 {#alg-ii-s3-prop-1-cor-1 .statement}
 
-*Cho $ H $ là một $ \mathbf{Z} $-môđun và $ h : E \times F \to H $ là một ánh xạ $ \mathbf{Z} $-song tuyến tính thỏa mãn các điều kiện (1) và sao cho $ H $ được sinh bởi $ h(E \times F) $. Giả sử rằng với mọi $ \mathbf{Z} $-môđun $ G $ và mọi ánh xạ $ \mathbf{Z} $-song tuyến tính $ f $ của $ E \times F $ vào $ G $ thỏa mãn (1)* tồn tại một ánh xạ $ \mathbf{Z} $-tuyến tính $ g : H \to G $ sao cho $ f = g \circ h $. Khi đó, nếu $ \phi $ ký hiệu ánh xạ chính tắc của $ E \times F $ vào $ E \otimes_A F $, tồn tại một và chỉ một đẳng cấu $ \theta $ của $ E \otimes_A F $ lên $ H $ sao cho $ h = \theta \circ \phi $.
+*Cho $H$ là một $\mathbf{Z}$-môđun và $h : E \times F \to H$ là một ánh xạ $\mathbf{Z}$-song tuyến tính thỏa mãn các điều kiện (1) và sao cho $H$ được sinh bởi $h(E \times F)$. Giả sử rằng với mọi $\mathbf{Z}$-môđun $G$ và mọi ánh xạ $\mathbf{Z}$-song tuyến tính $f$ của $E \times F$ vào $G$ thỏa mãn (1)* tồn tại một ánh xạ $\mathbf{Z}$-tuyến tính $g : H \to G$ sao cho $f = g \circ h$. Khi đó, nếu $\phi$ ký hiệu ánh xạ chính tắc của $E \times F$ vào $E \otimes_A F$, tồn tại một và chỉ một đẳng cấu $\theta$ của $E \otimes_A F$ lên $H$ sao cho $h = \theta \circ \phi$.
 
-Giả thiết rằng $ h(E \times F) $ sinh ra $ H $ kéo theo tính duy nhất của $ g $; hệ quả khi đó chỉ là tính chất duy nhất tổng quát của một nghiệm của bài toán ánh xạ phổ quát (Lý thuyết tập hợp, IV, § 3, no. 1).
+Giả thiết rằng $h(E \times F)$ sinh ra $H$ kéo theo tính duy nhất của $g$; hệ quả khi đó chỉ là tính chất duy nhất tổng quát của một nghiệm của bài toán ánh xạ phổ quát (Lý thuyết tập hợp, IV, § 3, no. 1).
 
 #### Hệ quả 2 {#alg-ii-s3-prop-1-cor-2 .statement}
 
-*Gọi* $ E^0 $ (tương ứng $ F^0 $) *là môđun* $ E $ (tương ứng $ F $) *được xem như một môđun trái (tương ứng phải) trên vành đối* $ A^0 $; *khi đó tồn tại một và chỉ một* $ \mathbf{Z} $*-đẳng cấu môđun* $ \sigma : E \otimes_A F \to F^0 \otimes_{A^0} E^0 $ *sao cho* $ \sigma(x \otimes y) = y \otimes x $ *với* $ x \in E $ *và* $ y \in F $ ("tính giao hoán" của các tích tenxơ).
+*Gọi* $E^0$ (tương ứng $F^0$) *là môđun* $E$ (tương ứng $F$) *được xem như một môđun trái (tương ứng phải) trên vành đối* $A^0$; *khi đó tồn tại một và chỉ một* $\mathbf{Z}$*-đẳng cấu môđun* $\sigma : E \otimes_A F \to F^0 \otimes_{A^0} E^0$ *sao cho* $\sigma(x \otimes y) = y \otimes x$ *với* $x \in E$ *và* $y \in F$ ("tính giao hoán" của các tích tenxơ).
 
-Theo định nghĩa của các cấu trúc $ A^0 $-môđun trên $ E^0 $ và $ F^0 $, ánh xạ $ (x, y) \mapsto y \otimes x $ của $ E \times F $ vào $ F^0 \otimes_{A^0} E^0 $ là $ \mathbf{Z} $-song tuyến tính và thỏa mãn các điều kiện (1), do đó tồn tại và duy nhất ánh xạ $ \mathbf{Z} $-tuyến tính $ \sigma $. Tương tự một ánh xạ $ \mathbf{Z} $-tuyến tính $ \tau : F^0 \otimes_{A^0} E^0 \to E \otimes_A F $ được xác định sao cho $ \tau(y \otimes x) = x \otimes y $ và rõ ràng $ \sigma $ và $ \tau $ là các đẳng cấu nghịch đảo.
+Theo định nghĩa của các cấu trúc $A^0$-môđun trên $E^0$ và $F^0$, ánh xạ $(x, y) \mapsto y \otimes x$ của $E \times F$ vào $F^0 \otimes_{A^0} E^0$ là $\mathbf{Z}$-song tuyến tính và thỏa mãn các điều kiện (1), do đó tồn tại và duy nhất ánh xạ $\mathbf{Z}$-tuyến tính $\sigma$. Tương tự một ánh xạ $\mathbf{Z}$-tuyến tính $\tau : F^0 \otimes_{A^0} E^0 \to E \otimes_A F$ được xác định sao cho $\tau(y \otimes x) = x \otimes y$ và rõ ràng $\sigma$ và $\tau$ là các đẳng cấu nghịch đảo.
 
 #### Nhận xét {#alg-ii-s3-n1-rem-1 .statement}
 
-Tích tenxơ của các môđun khác không có thể là không: chẳng hạn, lấy hai $ \mathbf{Z} $-môđun $ E = \mathbf{Z}/2\mathbf{Z} $ và $ F = \mathbf{Z}/3\mathbf{Z} $, $ 2x = 0 $ và $ 3y = 0 $ với mọi $ x \in E $ và $ y \in F $; do đó, trong $ E \otimes_{\mathbf{Z}} F $,
+Tích tenxơ của các môđun khác không có thể là không: chẳng hạn, lấy hai $\mathbf{Z}$-môđun $E = \mathbf{Z}/2\mathbf{Z}$ và $F = \mathbf{Z}/3\mathbf{Z}$, $2x = 0$ và $3y = 0$ với mọi $x \in E$ và $y \in F$; do đó, trong $E \otimes_{\mathbf{Z}} F$,
 $$
 x \otimes y = 3(x \otimes y) - 2(x \otimes y) = x \otimes (3y) - (2x) \otimes y = 0
 $$
-với mọi $ x $ và $ y $ (xem no. 6, Hệ quả 4 của Mệnh đề 6).
+với mọi $x$ và $y$ (xem no. 6, Hệ quả 4 của Mệnh đề 6).
 
 ### 2. TÍCH TENXƠ CỦA HAI ÁNH XẠ TUYẾN TÍNH
 
-Cho $ A $ là một vành, $ E, E' $ là hai $ A $-môđun phải, $ F, F' $ là hai $ A $-môđun trái và $ u : E \to E' $ và $ v : F \to F' $ là hai ánh xạ $ A $-tuyến tính. Dễ dàng kiểm tra rằng ánh xạ
+Cho $A$ là một vành, $E, E'$ là hai $A$-môđun phải, $F, F'$ là hai $A$-môđun trái và $u : E \to E'$ và $v : F \to F'$ là hai ánh xạ $A$-tuyến tính. Dễ dàng kiểm tra rằng ánh xạ
 $$
 (x, y) \mapsto u(x) \otimes v(y)
 $$
-của $ E \times F $ vào $ E' \oplus_A F' $ là $ \mathbf{Z} $-song tuyến tính và thỏa mãn các điều kiện (1) của no. 1. Theo Mệnh đề 1 của no. 1, do đó tồn tại duy nhất một ánh xạ $ \mathbf{Z} $-tuyến tính $ w : E \otimes_A F \to E' \otimes_A F' $ sao cho
+của $E \times F$ vào $E' \oplus_A F'$ là $\mathbf{Z}$-song tuyến tính và thỏa mãn các điều kiện (1) của no. 1. Theo Mệnh đề 1 của no. 1, do đó tồn tại duy nhất một ánh xạ $\mathbf{Z}$-tuyến tính $w : E \otimes_A F \to E' \otimes_A F'$ sao cho
 $$
 w(x \otimes y) = u(x) \otimes v(y)
 $$
-với $ x \in E, y \in F $. Ánh xạ này được ký hiệu là $ u \otimes v $ (khi không thể xảy ra nhầm lẫn) và được gọi là *tích tenxơ* của các ánh xạ tuyến tính $ u $ và $ v $.
+với $x \in E, y \in F$. Ánh xạ này được ký hiệu là $u \otimes v$ (khi không thể xảy ra nhầm lẫn) và được gọi là *tích tenxơ* của các ánh xạ tuyến tính $u$ và $v$.
 
-Ngay lập tức suy ra từ (3) rằng $ (u, v) \mapsto u \otimes v $ là một ánh xạ $ \mathbf{Z}\text{-song tuyến tính} $ được gọi là *chính tắc*
+Ngay lập tức suy ra từ (3) rằng $(u, v) \mapsto u \otimes v$ là một ánh xạ $\mathbf{Z}\text{-song tuyến tính}$ được gọi là *chính tắc*
 $$
 \operatorname{Hom}_A(E, E') \times \operatorname{Hom}_A(F, F') \to \operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, E' \otimes_A F').
 $$
 
-Tương ứng với nó theo Mệnh đề 1 của no. 1 là một ánh xạ $ \mathbf{Z} $-tuyến tính được gọi là chính tắc
+Tương ứng với nó theo Mệnh đề 1 của no. 1 là một ánh xạ $\mathbf{Z}$-tuyến tính được gọi là chính tắc
 
 (4) $$
 \operatorname{Hom}_A(E, E') \otimes_{\mathbf{Z}} \operatorname{Hom}_A(F, F') \to \operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, E' \otimes_A F')
 $$
-ánh xạ này gắn với mỗi phần tử $ u \otimes v $ của tích tenxơ ánh xạ tuyến tính $ u \otimes v : E \otimes_A F \to E' \otimes_A F' $. Chú ý rằng ánh xạ chính tắc (4) *không nhất thiết là đơn ánh cũng không nhất thiết là toàn ánh*. Ký hiệu $ u \otimes v $ vì thế có thể dẫn đến nhầm lẫn và cần phải dựa vào ngữ cảnh để chỉ rõ liệu nó biểu thị một phần tử của tích tenxơ hay một ánh xạ tuyến tính.
+ánh xạ này gắn với mỗi phần tử $u \otimes v$ của tích tenxơ ánh xạ tuyến tính $u \otimes v : E \otimes_A F \to E' \otimes_A F'$. Chú ý rằng ánh xạ chính tắc (4) *không nhất thiết là đơn ánh cũng không nhất thiết là toàn ánh*. Ký hiệu $u \otimes v$ vì thế có thể dẫn đến nhầm lẫn và cần phải dựa vào ngữ cảnh để chỉ rõ liệu nó biểu thị một phần tử của tích tenxơ hay một ánh xạ tuyến tính.
 
-Hơn nữa, cho $ E'' $ là một $ A $-môđun phải, $ F'' $ là một $ A $-môđun trái và $ u' : E' \to E'' $, $ v' : F' \to F'' $ là các ánh xạ $ A $-tuyến tính; từ (3) suy ra rằng
+Hơn nữa, cho $E''$ là một $A$-môđun phải, $F''$ là một $A$-môđun trái và $u' : E' \to E''$, $v' : F' \to F''$ là các ánh xạ $A$-tuyến tính; từ (3) suy ra rằng
 (5)
 $$
 (u' \circ u) \otimes (v' \circ v) = (u' \otimes v') \circ (u \otimes v).
@@ -170,34 +170,34 @@ $$
 
 #### Mệnh đề 2 {#alg-ii-s3-prop-2 .statement}
 
-*Cho $ A, B $ là hai vành, $ \rho : B \to A $ là một đồng cấu vành và $ E $ (tương ứng $ F $) là một $ A $-môđun phải (tương ứng trái). Khi đó tồn tại duy nhất một ánh xạ $ \mathbf{Z} $-tuyến tính*
+*Cho $A, B$ là hai vành, $\rho : B \to A$ là một đồng cấu vành và $E$ (tương ứng $F$) là một $A$-môđun phải (tương ứng trái). Khi đó tồn tại duy nhất một ánh xạ $\mathbf{Z}$-tuyến tính*
 (6)
 $$
 \phi : \rho_*(E) \otimes_B \rho_*(F) \to E \otimes_A F
 $$
-*để với mọi $ x \in E $ và $ y \in F $, ảnh theo $ \phi $ của phần tử $ x \otimes y $ của $ \rho_*(E) \otimes_B \rho_*(F) $ là phần tử $ x \otimes y $ của $ E \otimes_A F $; ánh xạ $ \mathbf{Z} $-tuyến tính này là toàn ánh.*
+*để với mọi $x \in E$ và $y \in F$, ảnh theo $\phi$ của phần tử $x \otimes y$ của $\rho_*(E) \otimes_B \rho_*(F)$ là phần tử $x \otimes y$ của $E \otimes_A F$; ánh xạ $\mathbf{Z}$-tuyến tính này là toàn ánh.*
 
-Ta xét ánh xạ $ (x, y) \mapsto x \otimes y $ của $ \rho_*(E) \times \rho_*(F) $ vào $ E \otimes_A F $; nó là $ \mathbf{Z} $-song tuyến tính và, với mọi $ \beta \in B $, theo định nghĩa $ (x \rho(\beta)) \otimes y = x \otimes (\rho(\beta)y) $, do đó các điều kiện (1) của no. 1 được thỏa mãn, từ đó suy ra sự tồn tại và tính duy nhất của $ \phi $ (no. 1, Mệnh đề 1). Mệnh đề sau cùng suy ra từ sự kiện rằng các phần tử $ x \otimes y $ sinh môđun $ \mathbf{Z} $ $ E \otimes_A F $.
+Ta xét ánh xạ $(x, y) \mapsto x \otimes y$ của $\rho_*(E) \times \rho_*(F)$ vào $E \otimes_A F$; nó là $\mathbf{Z}$-song tuyến tính và, với mọi $\beta \in B$, theo định nghĩa $(x \rho(\beta)) \otimes y = x \otimes (\rho(\beta)y)$, do đó các điều kiện (1) của no. 1 được thỏa mãn, từ đó suy ra sự tồn tại và tính duy nhất của $\phi$ (no. 1, Mệnh đề 1). Mệnh đề sau cùng suy ra từ sự kiện rằng các phần tử $x \otimes y$ sinh môđun $\mathbf{Z}$ $E \otimes_A F$.
 
 Ánh xạ (6) được gọi là *chính tắc*.
 
 #### Hệ quả {#alg-ii-s3-n3-cor-1 .statement}
 
-*Cho $ \mathfrak{J} $ là một iđêan hai phía của $ A $ sao cho $ \mathfrak{J} $ được chứa trong linh hóa tử của $ E $ và trong linh hóa tử của $ F $, do đó $ E $ (tương ứng $ F $) có một cấu trúc môđun trái (tương ứng phải) chính tắc trên $ (A/\mathfrak{J}) $-môđun* ($ \S 1 $, no. 12). *Khi đó đồng cấu chính tắc* (6)
+*Cho $\mathfrak{J}$ là một iđêan hai phía của $A$ sao cho $\mathfrak{J}$ được chứa trong linh hóa tử của $E$ và trong linh hóa tử của $F$, do đó $E$ (tương ứng $F$) có một cấu trúc môđun trái (tương ứng phải) chính tắc trên $(A/\mathfrak{J})$-môđun* ($\S 1$, no. 12). *Khi đó đồng cấu chính tắc* (6)
 $$
 \phi : E \otimes_A F \to E \otimes_{A/\mathfrak{J}} F
 $$
-*tương ứng với đồng cấu chính tắc $ \rho : A \to A/\mathfrak{J} $ là đồng nhất.*
+*tương ứng với đồng cấu chính tắc $\rho : A \to A/\mathfrak{J}$ là đồng nhất.*
 
-Với mọi $ \bar{\alpha} \in A/\mathfrak{J} $, mọi $ x \in E $ và mọi $ y \in F $, $ x \bar{\alpha} = x \alpha $ (tương ứng $ \bar{\alpha} y = \alpha y $) với mọi $ \alpha $ sao cho $ \rho(\alpha) = \bar{\alpha} $. Nếu $ C = \mathbf{Z}^{(E \times F)} $, môđun con của $ C $ được sinh bởi các phần tử $ (x \alpha, y) - (x, \alpha y) $ khi đó bằng môđun con được sinh bởi các phần tử $ (x \bar{\alpha}, y) - (x, \bar{\alpha} y) $.
+Với mọi $\bar{\alpha} \in A/\mathfrak{J}$, mọi $x \in E$ và mọi $y \in F$, $x \bar{\alpha} = x \alpha$ (tương ứng $\bar{\alpha} y = \alpha y$) với mọi $\alpha$ sao cho $\rho(\alpha) = \bar{\alpha}$. Nếu $C = \mathbf{Z}^{(E \times F)}$, môđun con của $C$ được sinh bởi các phần tử $(x \alpha, y) - (x, \alpha y)$ khi đó bằng môđun con được sinh bởi các phần tử $(x \bar{\alpha}, y) - (x, \bar{\alpha} y)$.
 
-Với các giả thiết và ký hiệu của Mệnh đề 2, cho $ E' $ là một $ B $-môđun phải, $ F' $ là một $ B $-môđun trái và xét hai ánh xạ *nửa tuyến tính* $ u : E' \to E $, v:F' \to F đối với đồng cấu $ \rho : B \to A $; $ u $ (tương ứng $ v $) có thể được xem như một ánh xạ $ B $-tuyến tính $ E' \to \rho_*(E) $ (tương ứng $ F' \to \rho_*(F') $), do đó có một ánh xạ $ \mathbf{Z} $-tuyến tính $ w : E' \otimes_B F' \to \rho_*(E) \otimes_B \rho_*(F) $ sao cho $ w(x' \otimes y') = u(x') \otimes v(y') $ với $ x' \in E',\ y' \in F' $; bằng cách hợp thành ánh xạ chính tắc (6) với ánh xạ này, thu được một ánh xạ $ \mathbf{Z} $-tuyến tính $ w' : E' \otimes_B F' \to E \otimes_A F $ sao cho $ w'(x' \otimes y') = u(x') \otimes v(y') $ với $ x' \in E',\ y' \in F' $; đây là ánh xạ thường được ký hiệu bởi $ u \otimes v $ nếu không thể xảy ra sự nhầm lẫn. Rõ ràng $ (u, v) \mapsto u \otimes v $ là một ánh xạ $ \mathbf{Z} $-song tuyến tính
+Với các giả thiết và ký hiệu của Mệnh đề 2, cho $E'$ là một $B$-môđun phải, $F'$ là một $B$-môđun trái và xét hai ánh xạ *nửa tuyến tính* $u : E' \to E$, v:F' \to F đối với đồng cấu $\rho : B \to A$; $u$ (tương ứng $v$) có thể được xem như một ánh xạ $B$-tuyến tính $E' \to \rho_*(E)$ (tương ứng $F' \to \rho_*(F')$), do đó có một ánh xạ $\mathbf{Z}$-tuyến tính $w : E' \otimes_B F' \to \rho_*(E) \otimes_B \rho_*(F)$ sao cho $w(x' \otimes y') = u(x') \otimes v(y')$ với $x' \in E',\ y' \in F'$; bằng cách hợp thành ánh xạ chính tắc (6) với ánh xạ này, thu được một ánh xạ $\mathbf{Z}$-tuyến tính $w' : E' \otimes_B F' \to E \otimes_A F$ sao cho $w'(x' \otimes y') = u(x') \otimes v(y')$ với $x' \in E',\ y' \in F'$; đây là ánh xạ thường được ký hiệu bởi $u \otimes v$ nếu không thể xảy ra sự nhầm lẫn. Rõ ràng $(u, v) \mapsto u \otimes v$ là một ánh xạ $\mathbf{Z}$-song tuyến tính
 
 $$
 \operatorname{Hom}_B(E', \rho_*(E)) \times \operatorname{Hom}_B(F', \rho_*(F)) \to \operatorname{Hom}_\mathbf{Z}(E' \otimes_B F', E \otimes_A F).
 $$
 
-Hơn nữa, nếu $ C $ là một vành thứ ba, $ \sigma : C \to B $ là một đồng cấu, $ E'' $ là một $ C $-môđun phải, $ F'' $ là một $ C $-môđun trái, $ u' : E'' \to E' $ và $ v' : F'' \to F' $ là các ánh xạ nửa tuyến tính đối với $ \sigma $, thì
+Hơn nữa, nếu $C$ là một vành thứ ba, $\sigma : C \to B$ là một đồng cấu, $E''$ là một $C$-môđun phải, $F''$ là một $C$-môđun trái, $u' : E'' \to E'$ và $v' : F'' \to F'$ là các ánh xạ nửa tuyến tính đối với $\sigma$, thì
 
 $$
 (u \circ u') \otimes (v \circ v') = (u \otimes v) \circ (u' \otimes v').
@@ -205,21 +205,21 @@ $$
 
 ### 4. TOÁN TỬ TRÊN MỘT TÍCH TENXƠ; CÁC TÍCH TENXƠ NHƯ CÁC ĐA MÔĐUN
 
-Với các giả thiết và ký hiệu của no. 1, với mọi tự đồng cấu $ u $ (tương ứng $ v $) của $ A $-môđun $ E $ (tương ứng $ F $), $ u \otimes 1_F $ (tương ứng $ 1_E \otimes v $) là một tự đồng cấu của $ \mathbf{Z} $-môđun $ E \otimes_A F $; suy ra ngay lập tức từ (5) (no. 2) rằng ánh xạ $ u \mapsto u \otimes 1_F $ (tương ứng $ v \mapsto 1_E \otimes v $) là một *đồng cấu vành*
+Với các giả thiết và ký hiệu của no. 1, với mọi tự đồng cấu $u$ (tương ứng $v$) của $A$-môđun $E$ (tương ứng $F$), $u \otimes 1_F$ (tương ứng $1_E \otimes v$) là một tự đồng cấu của $\mathbf{Z}$-môđun $E \otimes_A F$; suy ra ngay lập tức từ (5) (no. 2) rằng ánh xạ $u \mapsto u \otimes 1_F$ (tương ứng $v \mapsto 1_E \otimes v$) là một *đồng cấu vành*
 
 $$
 \operatorname{End}_A(E) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)
 $$
 
-(tương ứng $ \operatorname{End}_A(F) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F) $); hơn nữa,
+(tương ứng $\operatorname{End}_A(F) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)$); hơn nữa,
 
 $$
 (u \otimes 1_F) \circ (1_E \otimes v) = (1_E \otimes v) \circ (u \otimes 1_F) = u \otimes v
 $$
 
-và do đó (\S 1, no. 14) $ E \otimes_A F $ có một cấu trúc *song môđun trái* chính tắc đối với các vành $ \operatorname{End}_A(E) $ và $ \operatorname{End}_A(F) $.
+và do đó (\S 1, no. 14) $E \otimes_A F$ có một cấu trúc *song môđun trái* chính tắc đối với các vành $\operatorname{End}_A(E)$ và $\operatorname{End}_A(F)$.
 
-Như vậy, giả sử đã cho trên $ E $ một cấu trúc môđun nhiều $ ((B'_i); A, (C'_j)) $-môđun nhiều và trên $ F $ một cấu trúc môđun nhiều $ (A, (B''_h); (C''_{k_c})) $-môđun nhiều (\S 1, no. 14); điều đó tương đương với việc nói rằng đã cho các đồng cấu vành $ B'_i \to \operatorname{End}_A(E) $, $ C'_j{}^0 \to \operatorname{End}_A(E) $ có các ảnh từng đôi một giao hoán, và các đồng cấu vành $ B''_h \to \operatorname{End}_A(F) $, $ C''_{k_c}{}^0 \to \operatorname{End}_A(F) $ có các ảnh từng đôi một giao hoán. Nếu các đồng cấu này lần lượt được hợp thành với các đồng cấu vành chính tắc $ \operatorname{End}_A(E) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F) $ và $ \operatorname{End}_A(F) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F) $ đã định nghĩa ở trên, thì thấy được (tính đến (7)) rằng các đồng cấu vành
+Như vậy, giả sử đã cho trên $E$ một cấu trúc môđun nhiều $((B'_i); A, (C'_j))$-môđun nhiều và trên $F$ một cấu trúc môđun nhiều $(A, (B''_h); (C''_{k_c}))$-môđun nhiều (\S 1, no. 14); điều đó tương đương với việc nói rằng đã cho các đồng cấu vành $B'_i \to \operatorname{End}_A(E)$, $C'_j{}^0 \to \operatorname{End}_A(E)$ có các ảnh từng đôi một giao hoán, và các đồng cấu vành $B''_h \to \operatorname{End}_A(F)$, $C''_{k_c}{}^0 \to \operatorname{End}_A(F)$ có các ảnh từng đôi một giao hoán. Nếu các đồng cấu này lần lượt được hợp thành với các đồng cấu vành chính tắc $\operatorname{End}_A(E) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)$ và $\operatorname{End}_A(F) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)$ đã định nghĩa ở trên, thì thấy được (tính đến (7)) rằng các đồng cấu vành
 
 $$
 \begin{align*}
@@ -228,7 +228,7 @@ B''_h &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F), & C''_{k_c}{}^0 &\to \o
 \end{align*}
 $$
 
-được xác định với các ảnh *từng đôi một giao hoán*; nói cách khác, trên $ E \otimes_A F $ đã xác định một cấu trúc môđun nhiều $ ((B'_i), (B''_h); (C'_j), (C''_{k_c})) $-môđun nhiều; chính môđun nhiều này còn được gọi là *tích tenxơ* (đối với $ A $) *của*
+được xác định với các ảnh *từng đôi một giao hoán*; nói cách khác, trên $E \otimes_A F$ đã xác định một cấu trúc môđun nhiều $((B'_i), (B''_h); (C'_j), (C''_{k_c}))$-môđun nhiều; chính môđun nhiều này còn được gọi là *tích tenxơ* (đối với $A$) *của*
 
 ((B'_i); A, (C'_j))-môđun nhiều E và (A, (B''_h); (C''_k))-môđun nhiều F. Môđun nhiều này là nghiệm của một bài toán ánh xạ phổ quát tương tự với bài toán đã xét trong no. 1; chính xác hơn:
 
@@ -236,7 +236,7 @@ $$
 
 Cho G là một môđun nhiều ((B'_i), (B''_h); (C'_j), (C''_k))-môđun nhiều.
 
-(a) Cho g là một ánh xạ tuyến tính từ môđun nhiều E $ \otimes_A $ F vào G. Ánh xạ $ f : (x, y) \mapsto g(x \otimes y) $ từ E $ \times $ F vào G là $ \mathbf{Z} $-song tuyến tính và thỏa mãn các hệ thức (1) của no. 1 và các điều kiện
+(a) Cho g là một ánh xạ tuyến tính từ môđun nhiều E $\otimes_A$ F vào G. Ánh xạ $f : (x, y) \mapsto g(x \otimes y)$ từ E $\times$ F vào G là $\mathbf{Z}$-song tuyến tính và thỏa mãn các hệ thức (1) của no. 1 và các điều kiện
 
 $$
 \begin{cases}
@@ -245,93 +245,93 @@ f(x, \mu''_h y) = \mu''_h f(x, y), & f(x, y v''_k) = f(x, y) v''_k
 \end{cases}
 $$
 
-với mọi $ x \in E, y \in F, \mu'_i \in B'_i, v'_j \in C'_j, \mu''_h \in B''_h, v''_k \in C''_k, i, j, h, k $ tùy ý.
+với mọi $x \in E, y \in F, \mu'_i \in B'_i, v'_j \in C'_j, \mu''_h \in B''_h, v''_k \in C''_k, i, j, h, k$ tùy ý.
 
-(b) Ngược lại, cho f là một ánh xạ $ \mathbf{Z} $-song tuyến tính từ E $ \times $ F vào G thỏa mãn các điều kiện (1) (no. 1) và (8). Khi đó tồn tại duy nhất một ánh xạ tuyến tính g từ môđun nhiều E $ \otimes_A $ F vào môđun nhiều G sao cho $ f(x, y) = g(x \otimes y) $ với $ x \in E, y \in F $.
+(b) Ngược lại, cho f là một ánh xạ $\mathbf{Z}$-song tuyến tính từ E $\times$ F vào G thỏa mãn các điều kiện (1) (no. 1) và (8). Khi đó tồn tại duy nhất một ánh xạ tuyến tính g từ môđun nhiều E $\otimes_A$ F vào môđun nhiều G sao cho $f(x, y) = g(x \otimes y)$ với $x \in E, y \in F$.
 
-Mệnh đề (a) suy ra ngay lập tức từ định nghĩa của cấu trúc môđun nhiều trên E $ \otimes_A $ F, vì chẳng hạn $ (x \otimes y)v'_j = (xv'_j) \otimes y $. Để chứng minh (b), trước hết ta nhận xét rằng Mệnh đề 1 của no. 1 cho sự tồn tại và tính duy nhất của một ánh xạ $ \mathbf{Z} $-tuyến tính g sao cho $ g(x \otimes y) = f(x, y) $ với $ x \in E, y \in F $; tất cả những gì cần thiết là kiểm tra rằng g là tuyến tính đối với các cấu trúc môđun nhiều. Vì các phần tử $ x \otimes y $ sinh ra $ \mathbf{Z} $-môđun E $ \otimes_A $ F, chỉ cần kiểm tra các hệ thức $ g(\mu'(x \otimes y)) = \mu'_i g(x \otimes y) $ và các hệ thức tương tự; nhưng điều này suy ra ngay lập tức từ công thức $ g(x \otimes y) = f(x, y) $ và các hệ thức (8).
+Mệnh đề (a) suy ra ngay lập tức từ định nghĩa của cấu trúc môđun nhiều trên E $\otimes_A$ F, vì chẳng hạn $(x \otimes y)v'_j = (xv'_j) \otimes y$. Để chứng minh (b), trước hết ta nhận xét rằng Mệnh đề 1 của no. 1 cho sự tồn tại và tính duy nhất của một ánh xạ $\mathbf{Z}$-tuyến tính g sao cho $g(x \otimes y) = f(x, y)$ với $x \in E, y \in F$; tất cả những gì cần thiết là kiểm tra rằng g là tuyến tính đối với các cấu trúc môđun nhiều. Vì các phần tử $x \otimes y$ sinh ra $\mathbf{Z}$-môđun E $\otimes_A$ F, chỉ cần kiểm tra các hệ thức $g(\mu'(x \otimes y)) = \mu'_i g(x \otimes y)$ và các hệ thức tương tự; nhưng điều này suy ra ngay lập tức từ công thức $g(x \otimes y) = f(x, y)$ và các hệ thức (8).
 
 #### Chú giải {#alg-ii-s3-n4-sch-1 .statement}
 
-Một phần tử của E $ \otimes_A $ F nói chung có thể được viết theo nhiều cách dưới dạng $ \sum_i (x_i \otimes y_i) $, trong đó $ x_i \in E $ và $ y_i \in F $; nhưng để định nghĩa một ánh xạ tuyến tính g của song môđun E $ \otimes_A $ F vào một song môđun G, không cần phải kiểm tra rằng, nếu $ \sum_i (x_i \otimes y_i) = \sum_j (x'_j \otimes y'_j) $, thì $ \sum_i g(x_i \otimes y_i) = \sum_j g(x'_j \otimes y'_j) $; chỉ cần được cho $ g(x \otimes y) $ với $ x \in E $ và $ y \in F $ và kiểm tra rằng $ (x, y) \mapsto g(x \otimes y) $ là $ \mathbf{Z} $-song tuyến tính và thỏa mãn các điều kiện (1) (no. 1) và (8).
+Một phần tử của E $\otimes_A$ F nói chung có thể được viết theo nhiều cách dưới dạng $\sum_i (x_i \otimes y_i)$, trong đó $x_i \in E$ và $y_i \in F$; nhưng để định nghĩa một ánh xạ tuyến tính g của song môđun E $\otimes_A$ F vào một song môđun G, không cần phải kiểm tra rằng, nếu $\sum_i (x_i \otimes y_i) = \sum_j (x'_j \otimes y'_j)$, thì $\sum_i g(x_i \otimes y_i) = \sum_j g(x'_j \otimes y'_j)$; chỉ cần được cho $g(x \otimes y)$ với $x \in E$ và $y \in F$ và kiểm tra rằng $(x, y) \mapsto g(x \otimes y)$ là $\mathbf{Z}$-song tuyến tính và thỏa mãn các điều kiện (1) (no. 1) và (8).
 
-Cho E' là một song môđun ((B'_i), A, (C'_j)), F' là một song môđun (A, (B''_h); (C''_k)) và $ u : E \to E', v : F \to F' $ là các ánh xạ tuyến tính của các song môđun; từ các định nghĩa (no. 2) suy ra ngay lập tức rằng $ u \otimes v $ là một ánh xạ tuyến tính của song môđun E $ \otimes_A $ F vào song môđun E' $ \otimes_A $ F'.
+Cho E' là một song môđun ((B'_i), A, (C'_j)), F' là một song môđun (A, (B''_h); (C''_k)) và $u : E \to E', v : F \to F'$ là các ánh xạ tuyến tính của các song môđun; từ các định nghĩa (no. 2) suy ra ngay lập tức rằng $u \otimes v$ là một ánh xạ tuyến tính của song môđun E $\otimes_A$ F vào song môđun E' $\otimes_A$ F'.
 
-Với E luôn ký hiệu một A-môđun phải, cho $ _sA_d $ ký hiệu vành A được xem như một song môđun (A, A) (\S 1, no. 14, Ví dụ 1); theo điều trên, tích tenxơ E $ \otimes_A (_sA_d) $ có một cấu trúc A-môđun phải chính tắc sao cho $ (x \otimes \lambda)\mu = x \otimes (\lambda \mu) $ với $ x \in E, \lambda \in A, \mu \in A $. Ánh xạ $ (x, \lambda) \mapsto x \lambda $ của E $ \times (_sA_d) $ vào E là $ \mathbf{Z} $-song tuyến tính và thỏa mãn các điều kiện (1) (no. 1) và (8) (trong đó, trong trường hợp sau, các $ B'_i, C'_j $ và $ B''_h $ vắng mặt và họ $ (C''_k) $ rút gọn thành $ A $); do đó (Mệnh đề 3), tồn tại một ánh xạ $ A $-tuyến tính $ g $ (gọi là chính tắc) của $ E \otimes_A (sA_d) $ vào $ E $ sao cho $ g(x \otimes \lambda) = x\lambda $ với $ x \in E, \lambda \in A $.
+Với E luôn ký hiệu một A-môđun phải, cho $_sA_d$ ký hiệu vành A được xem như một song môđun (A, A) (\S 1, no. 14, Ví dụ 1); theo điều trên, tích tenxơ E $\otimes_A (_sA_d)$ có một cấu trúc A-môđun phải chính tắc sao cho $(x \otimes \lambda)\mu = x \otimes (\lambda \mu)$ với $x \in E, \lambda \in A, \mu \in A$. Ánh xạ $(x, \lambda) \mapsto x \lambda$ của E $\times (_sA_d)$ vào E là $\mathbf{Z}$-song tuyến tính và thỏa mãn các điều kiện (1) (no. 1) và (8) (trong đó, trong trường hợp sau, các $B'_i, C'_j$ và $B''_h$ vắng mặt và họ $(C''_k)$ rút gọn thành $A$); do đó (Mệnh đề 3), tồn tại một ánh xạ $A$-tuyến tính $g$ (gọi là chính tắc) của $E \otimes_A (sA_d)$ vào $E$ sao cho $g(x \otimes \lambda) = x\lambda$ với $x \in E, \lambda \in A$.
 
 #### Mệnh đề 4 {#alg-ii-s3-prop-4 .statement}
 
-*Nếu $ E $ là một A-môđun phải, ánh xạ $ h : x \mapsto x \otimes 1 $ của $ E $ vào $ E \otimes_A (sA_d) $ là một đẳng cấu A-môđun phải, mà đẳng cấu nghịch đảo $ g $ của nó thỏa mãn $ g(x \otimes \lambda) = x\lambda $ với $ x \in E, \lambda \in A $.*
+*Nếu $E$ là một A-môđun phải, ánh xạ $h : x \mapsto x \otimes 1$ của $E$ vào $E \otimes_A (sA_d)$ là một đẳng cấu A-môđun phải, mà đẳng cấu nghịch đảo $g$ của nó thỏa mãn $g(x \otimes \lambda) = x\lambda$ với $x \in E, \lambda \in A$.*
 
-Nếu $ g $ là ánh xạ chính tắc, $ g \circ h $ là ánh xạ đồng nhất $ 1_E $ và $ h \circ g $ trùng với ánh xạ đồng nhất của $ E \otimes_A (sA_d) $ lên chính nó đối với các phần tử có dạng $ x \otimes y $, chúng sinh ra $ \mathbf{Z} $-môđun sau; do đó có kết luận.
+Nếu $g$ là ánh xạ chính tắc, $g \circ h$ là ánh xạ đồng nhất $1_E$ và $h \circ g$ trùng với ánh xạ đồng nhất của $E \otimes_A (sA_d)$ lên chính nó đối với các phần tử có dạng $x \otimes y$, chúng sinh ra $\mathbf{Z}$-môđun sau; do đó có kết luận.
 
-Ta thường viết $ E \otimes_A A $ thay cho $ E \otimes_A (sA_d) $ và thường đồng nhất $ E \otimes_A A $ với $ E $ bằng các đẳng cấu chính tắc ở trên. Hãy lưu ý rằng, nếu $ E $ còn có một cấu trúc môđun $ B $ (trái hoặc phải) tương thích với cấu trúc môđun phải $ A $ của nó, thì $ g $ và $ h $ cũng là các đẳng cấu đối với các cấu trúc môđun $ B $ trên $ E $ và $ E \otimes_A A $ (và do đó là các đẳng cấu môđun).
+Ta thường viết $E \otimes_A A$ thay cho $E \otimes_A (sA_d)$ và thường đồng nhất $E \otimes_A A$ với $E$ bằng các đẳng cấu chính tắc ở trên. Hãy lưu ý rằng, nếu $E$ còn có một cấu trúc môđun $B$ (trái hoặc phải) tương thích với cấu trúc môđun phải $A$ của nó, thì $g$ và $h$ cũng là các đẳng cấu đối với các cấu trúc môđun $B$ trên $E$ và $E \otimes_A A$ (và do đó là các đẳng cấu môđun).
 
-Giả sử $ F $ là một môđun trái $ A $; khi đó $ (sA_d) \otimes_A F $ (cũng ký hiệu là $ A \otimes_A F $) có một cấu trúc môđun trái $ A $ chính tắc và, như trong Mệnh đề 4, một đẳng cấu chính tắc được xác định từ $ A \otimes_A F $ lên $ F $ gửi $ \lambda \otimes x $ tới $ \lambda x $, và đẳng cấu nghịch đảo của nó là $ x \mapsto 1 \otimes x $.
+Giả sử $F$ là một môđun trái $A$; khi đó $(sA_d) \otimes_A F$ (cũng ký hiệu là $A \otimes_A F$) có một cấu trúc môđun trái $A$ chính tắc và, như trong Mệnh đề 4, một đẳng cấu chính tắc được xác định từ $A \otimes_A F$ lên $F$ gửi $\lambda \otimes x$ tới $\lambda x$, và đẳng cấu nghịch đảo của nó là $x \mapsto 1 \otimes x$.
 
-Đặc biệt, tồn tại một đẳng cấu chính tắc của song môđun $ (A, A) $ $ (sA_d) \otimes_A (sA_d) $ lên $ sA_d $ gửi $ \lambda \otimes \mu $ tới $ \lambda \mu $.
+Đặc biệt, tồn tại một đẳng cấu chính tắc của song môđun $(A, A)$ $(sA_d) \otimes_A (sA_d)$ lên $sA_d$ gửi $\lambda \otimes \mu$ tới $\lambda \mu$.
 
 ### 5. TÍCH TENXƠ CỦA HAI MÔĐUN TRÊN MỘT VÀNH GIAO HOÁN
 
-Cho $ C $ là một vành *giao hoán*; với mọi $ C $-môđun $ E $, cấu trúc môđun trên $ E $ là *tương thích với chính nó* (\S 1, no. 14). Nếu $ E $ và $ F $ là hai $ C $-môđun, thì các xét ở no. 4 cho phép ta định nghĩa *hai* cấu trúc môđun $ C $ trên tích tenxơ $ E \otimes_C F $, lần lượt sao cho $ \gamma(x \otimes y) = (\gamma x) \otimes y $ và sao cho $ \gamma(x \otimes y) = x \otimes (\gamma y) $; nhưng vì, theo Định nghĩa 1 của no. 1, trong trường hợp này $ (\gamma x) \otimes y = x \otimes (\gamma y) $, nên hai cấu trúc này là *như nhau*. Từ nay về sau, khi nói $ E \otimes_C F $ là một $ C $-*môđun*, ta hiểu theo cấu trúc vừa định nghĩa, trừ khi có quy định khác. Đẳng cấu chính tắc.
+Cho $C$ là một vành *giao hoán*; với mọi $C$-môđun $E$, cấu trúc môđun trên $E$ là *tương thích với chính nó* (\S 1, no. 14). Nếu $E$ và $F$ là hai $C$-môđun, thì các xét ở no. 4 cho phép ta định nghĩa *hai* cấu trúc môđun $C$ trên tích tenxơ $E \otimes_C F$, lần lượt sao cho $\gamma(x \otimes y) = (\gamma x) \otimes y$ và sao cho $\gamma(x \otimes y) = x \otimes (\gamma y)$; nhưng vì, theo Định nghĩa 1 của no. 1, trong trường hợp này $(\gamma x) \otimes y = x \otimes (\gamma y)$, nên hai cấu trúc này là *như nhau*. Từ nay về sau, khi nói $E \otimes_C F$ là một $C$-*môđun*, ta hiểu theo cấu trúc vừa định nghĩa, trừ khi có quy định khác. Đẳng cấu chính tắc.
 
 $$
 \sigma : F \otimes_C E \to E \otimes_C F
 $$
 
-(no. 1, Hệ quả 2 của Mệnh đề 1) khi đó là một đẳng cấu $ C $-môđun.
+(no. 1, Hệ quả 2 của Mệnh đề 1) khi đó là một đẳng cấu $C$-môđun.
 
-Từ định nghĩa này suy ra rằng, nếu $ (a_\lambda)_{\lambda \in L} $ (tương ứng $ (b_\mu)_{\mu \in M} $) là một *hệ sinh* của $ C $-môđun $ E $ (tương ứng $ F $), thì $ (a_\lambda \otimes b_\mu) $ là một *hệ sinh* của $ C $-môđun $ E \otimes_C F $; đặc biệt, nếu $ E $ và $ F $ là các $ C $-môđun *sinh hữu hạn*, thì $ E \otimes_C F $ cũng vậy.
+Từ định nghĩa này suy ra rằng, nếu $(a_\lambda)_{\lambda \in L}$ (tương ứng $(b_\mu)_{\mu \in M}$) là một *hệ sinh* của $C$-môđun $E$ (tương ứng $F$), thì $(a_\lambda \otimes b_\mu)$ là một *hệ sinh* của $C$-môđun $E \otimes_C F$; đặc biệt, nếu $E$ và $F$ là các $C$-môđun *sinh hữu hạn*, thì $E \otimes_C F$ cũng vậy.
 
-Đối với mọi $ C $-môđun $ G $, các ánh xạ $ \mathbf{Z} $-song tuyến tính $ f $ của $ E \times F $ vào $ G $ sao cho
+Đối với mọi $C$-môđun $G$, các ánh xạ $\mathbf{Z}$-song tuyến tính $f$ của $E \times F$ vào $G$ sao cho
 
 $$
 f(\gamma x, y) = f(x, \gamma y) = \gamma f(x, y) \quad \text{cho } x \in E, y \in F, \gamma \in C
 $$
 
-khi đó được gọi là C-song tuyến tính và tạo thành một C-môđun được ký hiệu bởi $ \mathcal{L}_2(E, F; G) $; Mệnh đề 3 (no. 4) xác định một đẳng cấu C-môđun chính tắc (xem § 1, no. 14, Nhận xét 1).
+khi đó được gọi là C-song tuyến tính và tạo thành một C-môđun được ký hiệu bởi $\mathcal{L}_2(E, F; G)$; Mệnh đề 3 (no. 4) xác định một đẳng cấu C-môđun chính tắc (xem § 1, no. 14, Nhận xét 1).
 
 $$
 \mathcal{L}_2(E, F; G) \to \mathrm{Hom}_C(E \otimes_C F, G).
 $$
 
-Cho E', F' là hai C-môđun và $ u : E \to E' $, $ v : F \to F' $ là hai ánh xạ C-tuyến tính; khi đó (no. 4) $ u \otimes v $ là một ánh xạ C-tuyến tính từ $ E \otimes_C F $ vào $ E' \otimes_C F' $. Hơn nữa, hiển nhiên rằng $ (u, v) \mapsto u \otimes v $ là một ánh xạ C-song tuyến tính từ $ \mathrm{Hom}_C(E, E') \times \mathrm{Hom}_C(F, F') $ vào $ \mathrm{Hom}_C(E \otimes_C F, E' \otimes_C F') $; do đó tương ứng một cách chính tắc với nó là một ánh xạ C-tuyến tính, được gọi là chính tắc:
+Cho E', F' là hai C-môđun và $u : E \to E'$, $v : F \to F'$ là hai ánh xạ C-tuyến tính; khi đó (no. 4) $u \otimes v$ là một ánh xạ C-tuyến tính từ $E \otimes_C F$ vào $E' \otimes_C F'$. Hơn nữa, hiển nhiên rằng $(u, v) \mapsto u \otimes v$ là một ánh xạ C-song tuyến tính từ $\mathrm{Hom}_C(E, E') \times \mathrm{Hom}_C(F, F')$ vào $\mathrm{Hom}_C(E \otimes_C F, E' \otimes_C F')$; do đó tương ứng một cách chính tắc với nó là một ánh xạ C-tuyến tính, được gọi là chính tắc:
 
 $$
 \mathrm{Hom}_C(E, E') \otimes_C \mathrm{Hom}_C(F, F') \to \mathrm{Hom}_C(E \otimes_C F, E' \otimes_C F')
 $$
 
-ánh xạ này gán cho mỗi phần tử $ u \otimes v $ của tích tenxơ
+ánh xạ này gán cho mỗi phần tử $u \otimes v$ của tích tenxơ
 
 $$
 \mathrm{Hom}_C(E, E') \otimes_C \mathrm{Hom}_C(F, F')
 $$
 
-ánh xạ tuyến tính $ u \otimes v $. Chú ý rằng ánh xạ chính tắc (11) *không nhất thiết đơn ánh cũng không nhất thiết toàn ánh* (\S 4, Bài tập 2).
+ánh xạ tuyến tính $u \otimes v$. Chú ý rằng ánh xạ chính tắc (11) *không nhất thiết đơn ánh cũng không nhất thiết toàn ánh* (\S 4, Bài tập 2).
 
 #### Nhận xét {#alg-ii-s3-n5-rem-1 .statement}
 
-(1) Cho A, B là hai vành giao hoán, $ \rho : B \to A $ là một đồng cấu vành và E và F là hai A-môđun; khi đó ánh xạ chính tắc (6) của no. 3 là một ánh xạ B-tuyến tính
+(1) Cho A, B là hai vành giao hoán, $\rho : B \to A$ là một đồng cấu vành và E và F là hai A-môđun; khi đó ánh xạ chính tắc (6) của no. 3 là một ánh xạ B-tuyến tính
 
 $$
 \rho_*(E) \otimes \rho_*(F) \to \rho_*(E \otimes_A F).
 $$
 
-(2) Điều đã nói trong số này có thể được tổng quát hóa cho trường hợp sau: cho E là một A-môđun phải, F là một A-môđun trái, C là một vành giao hoán và $ \rho : C \to A $ là một đồng cấu từ C vào A sao cho $ \rho(C) $ được chứa trong tâm của A (xem III, § 1, no. 3). Khi đó ta có thể xét các C-môđun $ \rho_*(E) $ và $ \rho_*(F) $ và giả thiết về $ \rho $ kéo theo rằng các cấu trúc C-môđun này tương thích tương ứng với các cấu trúc A-môđun trên E và F (\S 1, no. 14). Tích tenxơ $ E \otimes_A F $ do đó (theo no. 4) được cho hai cấu trúc C-môđun sao cho $ \gamma(x \otimes y) = (x \rho(\gamma)) \otimes y $ và
+(2) Điều đã nói trong số này có thể được tổng quát hóa cho trường hợp sau: cho E là một A-môđun phải, F là một A-môđun trái, C là một vành giao hoán và $\rho : C \to A$ là một đồng cấu từ C vào A sao cho $\rho(C)$ được chứa trong tâm của A (xem III, § 1, no. 3). Khi đó ta có thể xét các C-môđun $\rho_*(E)$ và $\rho_*(F)$ và giả thiết về $\rho$ kéo theo rằng các cấu trúc C-môđun này tương thích tương ứng với các cấu trúc A-môđun trên E và F (\S 1, no. 14). Tích tenxơ $E \otimes_A F$ do đó (theo no. 4) được cho hai cấu trúc C-môđun sao cho $\gamma(x \otimes y) = (x \rho(\gamma)) \otimes y$ và
 
 $$
 \gamma(x \otimes y) = x \otimes (\rho(\gamma)y)
 $$
 
-tương ứng với $ \gamma \in C $, $ x \in E $, $ y \in F $ và Định nghĩa 1 (no. 1) cũng chỉ ra rằng hai cấu trúc này là đồng nhất. Nếu E' (tương ứng F') là một A-môđun phải (tương ứng trái) và $ u : E \to E' $, $ v : F \to F' $ là hai ánh xạ A-tuyến tính, thì $ u \otimes v : E \otimes_A F \to E' \otimes_A F' $ là C-tuyến tính đối với các cấu trúc C-môđun vừa xác định; ánh xạ $ (u, v) \mapsto u \otimes v $:
+tương ứng với $\gamma \in C$, $x \in E$, $y \in F$ và Định nghĩa 1 (no. 1) cũng chỉ ra rằng hai cấu trúc này là đồng nhất. Nếu E' (tương ứng F') là một A-môđun phải (tương ứng trái) và $u : E \to E'$, $v : F \to F'$ là hai ánh xạ A-tuyến tính, thì $u \otimes v : E \otimes_A F \to E' \otimes_A F'$ là C-tuyến tính đối với các cấu trúc C-môđun vừa xác định; ánh xạ $(u, v) \mapsto u \otimes v$:
 
 $$
 \mathrm{Hom}_A(E, E') \times \mathrm{Hom}_A(F, F') \to \mathrm{Hom}_C(E \otimes_A F, E' \otimes_A F')
 $$
 
-là C-song tuyến tính (đối với các cấu trúc C-môđun trên $ \mathrm{Hom}_A(E, E') $ và $ \mathrm{Hom}_A(F, F') $ được định nghĩa trong § 1, no. 14, *Nhận xét* 1), do đó ta cũng suy ra một ánh xạ *C-tuyến tính*, được gọi là *chính tắc*
+là C-song tuyến tính (đối với các cấu trúc C-môđun trên $\mathrm{Hom}_A(E, E')$ và $\mathrm{Hom}_A(F, F')$ được định nghĩa trong § 1, no. 14, *Nhận xét* 1), do đó ta cũng suy ra một ánh xạ *C-tuyến tính*, được gọi là *chính tắc*
 
-(13) $ \operatorname{Hom}_A(E, E') \otimes_C \operatorname{Hom}_A(F, F') \to \operatorname{Hom}_C(E \otimes_A F, E' \otimes_A F') $.
+(13) $\operatorname{Hom}_A(E, E') \otimes_C \operatorname{Hom}_A(F, F') \to \operatorname{Hom}_C(E \otimes_A F, E' \otimes_A F')$.
 
 (3) Cho A là một miền nguyên và K là trường các phân thức của nó. Nếu E và F là hai không gian vectơ K, ánh xạ chính tắc
 
@@ -339,7 +339,7 @@ $$
 (E_{[A]}) \otimes_A (F_{[A]}) \to E \otimes_K F
 $$
 
-(no. 3 và § 1, no. 13) là *song ánh*. Chỉ cần (no. 4) chứng minh rằng nếu $ f $ là một ánh xạ *A-song tuyến tính* từ $ E \times F $ vào một không gian vectơ K G, thì $ f $ cũng là *K-song tuyến tính*. Bây giờ, với mọi $ \alpha \neq 0 $ trong A.
+(no. 3 và § 1, no. 13) là *song ánh*. Chỉ cần (no. 4) chứng minh rằng nếu $f$ là một ánh xạ *A-song tuyến tính* từ $E \times F$ vào một không gian vectơ K G, thì $f$ cũng là *K-song tuyến tính*. Bây giờ, với mọi $\alpha \neq 0$ trong A.
 
 $$
 \alpha f(\alpha^{-1}x, y) = f(x, y) = \alpha f(x, \alpha^{-1}y)
@@ -350,7 +350,7 @@ f(\alpha^{-1}x, y) = f(x, \alpha^{-1}y) = \alpha^{-1}f(x, y)
 $$
 vì G là một không gian vectơ K.
 
-### 6. CÁC TÍNH CHẤT CỦA $ E \otimes_A F $ LIÊN QUAN ĐẾN CÁC DÃY KHỚP
+### 6. CÁC TÍNH CHẤT CỦA $E \otimes_A F$ LIÊN QUAN ĐẾN CÁC DÃY KHỚP
 
 #### Mệnh đề 5 {#alg-ii-s3-prop-5 .statement}
 
@@ -362,7 +362,7 @@ $$
 E' \xrightarrow{u} E \xrightarrow{v} E'' \to 0
 $$
 
-*là một dãy khớp của các ánh xạ tuyến tính.* *Đặt* $ \bar{u} = u \otimes 1_F, \bar{v} = v \otimes 1_F, $ *dãy*
+*là một dãy khớp của các ánh xạ tuyến tính.* *Đặt* $\bar{u} = u \otimes 1_F, \bar{v} = v \otimes 1_F,$ *dãy*
 
 (15)
 
@@ -370,11 +370,11 @@ $$
 E' \otimes_A F \xrightarrow{\bar{u}} E \otimes_A F \xrightarrow{\bar{v}} E'' \otimes_A F \to 0
 $$
 
-*của các* $ \mathbf{Z}$-*đồng cấu* *là khớp*.
+*của các* $\mathbf{Z}$-*đồng cấu* *là khớp*.
 
-Nhờ no. 2, công thức (5), $ \bar{v} \circ \bar{u} = (v \circ u) \otimes 1_F = 0 $; ảnh $ H = \bar{u}(E' \otimes F) $ được chứa trong hạt nhân $ L = \operatorname{Ker}(\bar{v}) $; do đó qua phép chuyển qua thương, ta suy ra từ $ \bar{v} $ một ánh xạ $ \mathbf{Z}$-tuyến tính $ f $ của đối hạt nhân $ M = (E \otimes F)/H $ của $ \bar{u} $ vào $ E'' \otimes F $; phải chứng minh rằng $ f $ là *song ánh* và như thế chỉ cần định nghĩa một ánh xạ $ \mathbf{Z}$-tuyến tính $ g : E'' \otimes F \to M $ sao cho $ g \circ f $ và $ f \circ g $ là các ánh xạ đồng nhất.
+Nhờ no. 2, công thức (5), $\bar{v} \circ \bar{u} = (v \circ u) \otimes 1_F = 0$; ảnh $H = \bar{u}(E' \otimes F)$ được chứa trong hạt nhân $L = \operatorname{Ker}(\bar{v})$; do đó qua phép chuyển qua thương, ta suy ra từ $\bar{v}$ một ánh xạ $\mathbf{Z}$-tuyến tính $f$ của đối hạt nhân $M = (E \otimes F)/H$ của $\bar{u}$ vào $E'' \otimes F$; phải chứng minh rằng $f$ là *song ánh* và như thế chỉ cần định nghĩa một ánh xạ $\mathbf{Z}$-tuyến tính $g : E'' \otimes F \to M$ sao cho $g \circ f$ và $f \circ g$ là các ánh xạ đồng nhất.
 
-Cho $ x'' \in E'' $, $ y \in F $; theo giả thiết tồn tại $ x \in E $ sao cho $ v(x) = x'' $. Ta chứng minh rằng, nếu $ x_1, x_2 $ là hai phần tử của E sao cho $ v(x_1) = v(x_2) = x'' $ và $ \phi : E \otimes F \to M $ là ánh xạ chính tắc, thì $ \phi(x_1 \otimes y) = \phi(x_2 \otimes y) $. Chỉ cần chứng minh rằng nếu $ v(x) = 0 $ thì $ \phi(x \otimes y) = 0 $, điều này suy ra từ việc $ x = u(x') $ với $ x' \in E' $, do đó $ x \otimes y = u(x') \otimes y = \bar{u}(x' \otimes y) \in H $. Nếu $ (x'', y) $ được gửi tới giá trị duy nhất của $ \phi(x \otimes y) $ với mọi $ x \in E $ sao cho $ v(x) = x'' $, thì một ánh xạ được định nghĩa từ $ E'' \times F $ vào M; ánh xạ này là $ \mathbf{Z}$-song tuyến tính và thỏa mãn các điều kiện (1) (no. 1), vì $ v(x \lambda) = x'' \lambda $ và $ (x \lambda) \otimes y = x \otimes (\lambda y) $ với $ x \in E $; do đó tồn tại một ánh xạ $ \mathbf{Z}$-tuyến tính $ g $ từ $ E'' \otimes F $ vào M sao cho $ g(x'' \otimes y) = \phi(x \otimes y) $ với $ y \in F, x \in E $ và $ x'' = v(x) $. Định nghĩa này còn chứng tỏ rằng $ f \circ g $ trùng với ánh xạ đồng nhất trên các phần tử của
+Cho $x'' \in E''$, $y \in F$; theo giả thiết tồn tại $x \in E$ sao cho $v(x) = x''$. Ta chứng minh rằng, nếu $x_1, x_2$ là hai phần tử của E sao cho $v(x_1) = v(x_2) = x''$ và $\phi : E \otimes F \to M$ là ánh xạ chính tắc, thì $\phi(x_1 \otimes y) = \phi(x_2 \otimes y)$. Chỉ cần chứng minh rằng nếu $v(x) = 0$ thì $\phi(x \otimes y) = 0$, điều này suy ra từ việc $x = u(x')$ với $x' \in E'$, do đó $x \otimes y = u(x') \otimes y = \bar{u}(x' \otimes y) \in H$. Nếu $(x'', y)$ được gửi tới giá trị duy nhất của $\phi(x \otimes y)$ với mọi $x \in E$ sao cho $v(x) = x''$, thì một ánh xạ được định nghĩa từ $E'' \times F$ vào M; ánh xạ này là $\mathbf{Z}$-song tuyến tính và thỏa mãn các điều kiện (1) (no. 1), vì $v(x \lambda) = x'' \lambda$ và $(x \lambda) \otimes y = x \otimes (\lambda y)$ với $x \in E$; do đó tồn tại một ánh xạ $\mathbf{Z}$-tuyến tính $g$ từ $E'' \otimes F$ vào M sao cho $g(x'' \otimes y) = \phi(x \otimes y)$ với $y \in F, x \in E$ và $x'' = v(x)$. Định nghĩa này còn chứng tỏ rằng $f \circ g$ trùng với ánh xạ đồng nhất trên các phần tử của
 
 E'' \otimes F có dạng x'' \otimes y và vì thế f \circ g là ánh xạ đồng nhất của E'' \otimes F; mặt khác, với x \in E và y \in F, f(\phi(x \otimes y)) = v(x) \otimes y theo định nghĩa, do đó g(f(\phi(x \otimes y))) = \phi(x \otimes y) và, vì các phần tử có dạng \phi(x \otimes y) sinh ra M, g \circ f là ánh xạ đồng nhất của M.
 
@@ -433,81 +433,81 @@ $$
 \operatorname{Im}(u \otimes 1_F) + \operatorname{Im}(l_E \otimes s)
 $$
 
-Bây giờ $ v \otimes t = (v \otimes 1_{F''}) \circ (1_E \otimes t) $ (no. 2, công thức (5)) và $ v \otimes t $ do đó là toàn ánh, vì nó là hợp thành của hai đồng cấu toàn ánh nhờ Mệnh đề 5 và hệ quả của nó. Mặt khác, để $ z \in E \otimes F $ thuộc hạt nhân của $ v \otimes t $, cần và đủ rằng $ (1_E \otimes t)(z) $ thuộc hạt nhân của $ v \otimes 1_{F''} $, tức là, nhờ (15), thuộc ảnh của
+Bây giờ $v \otimes t = (v \otimes 1_{F''}) \circ (1_E \otimes t)$ (no. 2, công thức (5)) và $v \otimes t$ do đó là toàn ánh, vì nó là hợp thành của hai đồng cấu toàn ánh nhờ Mệnh đề 5 và hệ quả của nó. Mặt khác, để $z \in E \otimes F$ thuộc hạt nhân của $v \otimes t$, cần và đủ rằng $(1_E \otimes t)(z)$ thuộc hạt nhân của $v \otimes 1_{F''}$, tức là, nhờ (15), thuộc ảnh của
 
 $$
 u \otimes 1_{F''}: E' \otimes F'' \to E \otimes F''.
 $$
 
-Nhưng vì đồng cấu $ t: F \to F'' $ là toàn ánh, nên
+Nhưng vì đồng cấu $t: F \to F''$ là toàn ánh, nên
 
 $$
 1_{E'} \otimes t: E' \otimes F \to E' \otimes F''
 $$
 
-cũng toàn ánh theo Hệ quả của Mệnh đề 5, do đó điều kiện đối với $ z $ quy về sự tồn tại của một $ a \in E' \otimes F $ sao cho
+cũng toàn ánh theo Hệ quả của Mệnh đề 5, do đó điều kiện đối với $z$ quy về sự tồn tại của một $a \in E' \otimes F$ sao cho
 
 $$
 (l_E \otimes t)(z) = (u \otimes t)(a).
 $$
 
-Đặt $ b = z - (u \otimes 1_F)(a) $; khi đó $ (l_E \otimes t)(b) = 0 $, và nhờ (17), $ b $ thuộc vào ảnh của $ l_E \otimes s $, điều đó chứng minh mệnh đề.
+Đặt $b = z - (u \otimes 1_F)(a)$; khi đó $(l_E \otimes t)(b) = 0$, và nhờ (17), $b$ thuộc vào ảnh của $l_E \otimes s$, điều đó chứng minh mệnh đề.
 
 Nói cách khác:
 
 #### Hệ quả 1 {#alg-ii-s3-prop-6-cor-1 .statement}
 
-*Cho $ E' $ là một môđun con của một $ A $-môđun phải $ E $, $ F' $ là một môđun con của một $ A $-môđun trái $ F $ và $ \operatorname{Im}(E' \otimes_A F) $ và $ \operatorname{Im}(E \otimes_A F') $ là các môđun con trên $ \mathbf{Z} $ của $ E \otimes_A F $, các ảnh tương ứng của các ánh xạ chính tắc $ E' \otimes_A F \to E \otimes_A F $,
+*Cho $E'$ là một môđun con của một $A$-môđun phải $E$, $F'$ là một môđun con của một $A$-môđun trái $F$ và $\operatorname{Im}(E' \otimes_A F)$ và $\operatorname{Im}(E \otimes_A F')$ là các môđun con trên $\mathbf{Z}$ của $E \otimes_A F$, các ảnh tương ứng của các ánh xạ chính tắc $E' \otimes_A F \to E \otimes_A F$,
 
 $$
 E \otimes_A F' \to E \otimes_A F.
 $$
 
-Khi đó tồn tại một đẳng cấu môđun $ \mathbf{Z} $ chính tắc*
+Khi đó tồn tại một đẳng cấu môđun $\mathbf{Z}$ chính tắc*
 
 $$(20)\quad \pi : (E/E') \otimes_A (F/F') \to (E \otimes_A F)/(\operatorname{Im}(E' \otimes_A F) + \operatorname{Im}(E \otimes_A F'))$$
 
-*sao cho, với $ \xi \in E/E' $, $ \eta \in F $, $ \pi(\xi \otimes \eta) $ là lớp của mọi phần tử $ x \otimes y \in E \otimes_A F $ thỏa $ x \in \xi $ và $ y \in \eta $.
+*sao cho, với $\xi \in E/E'$, $\eta \in F$, $\pi(\xi \otimes \eta)$ là lớp của mọi phần tử $x \otimes y \in E \otimes_A F$ thỏa $x \in \xi$ và $y \in \eta$.
 
-Chú ý rằng khi $ E $ là một $ ((B'_i); A, (C'_j)) $-môđun nhiều, $ F $ là một $ (A, (B''_h); (C''_k)) $-môđun nhiều và $ E' $ và $ F' $ là các *môđun nhiều con* của $ E $ và $ F $ tương ứng, thì đẳng cấu (20) là một đẳng cấu đối với các cấu trúc $ ((B'_i), (B''_h); (C'_j), (C''_k)) $-môđun nhiều của hai vế (no. 3).
+Chú ý rằng khi $E$ là một $((B'_i); A, (C'_j))$-môđun nhiều, $F$ là một $(A, (B''_h); (C''_k))$-môđun nhiều và $E'$ và $F'$ là các *môđun nhiều con* của $E$ và $F$ tương ứng, thì đẳng cấu (20) là một đẳng cấu đối với các cấu trúc $((B'_i), (B''_h); (C'_j), (C''_k))$-môđun nhiều của hai vế (no. 3).
 
 #### Hệ quả 2 {#alg-ii-s3-prop-6-cor-2 .statement}
 
-*Cho $ a $ là một iđêan phải của $ A $, $ F $ là một $ A $-môđun trái và $ aF $ là môđun con trên $ \mathbf{Z} $ của $ F $ sinh bởi các phần tử có dạng $ \lambda x $, với $ \lambda \in a $ và $ x \in F $. Khi đó tồn tại một đẳng cấu môđun $ \mathbf{Z} $ chính tắc*
+*Cho $a$ là một iđêan phải của $A$, $F$ là một $A$-môđun trái và $aF$ là môđun con trên $\mathbf{Z}$ của $F$ sinh bởi các phần tử có dạng $\lambda x$, với $\lambda \in a$ và $x \in F$. Khi đó tồn tại một đẳng cấu môđun $\mathbf{Z}$ chính tắc*
 
 $$(21)\quad \pi : (A/a) \otimes_A F \to F/aF$$
 
-*sao cho, với mọi $ \bar{\lambda} \in A/a $ và mọi $ x \in F $, $ \pi(\bar{\lambda} \otimes x) $ là lớp modulo $ aF $ của $ \lambda x $, với $ \lambda \in \bar{\lambda} $.
+*sao cho, với mọi $\bar{\lambda} \in A/a$ và mọi $x \in F$, $\pi(\bar{\lambda} \otimes x)$ là lớp modulo $aF$ của $\lambda x$, với $\lambda \in \bar{\lambda}$.
 
-Đặc biệt, với $ A = \mathbf{Z} $, thấy rằng với mọi số nguyên $ n $ và mọi $ \mathbf{Z} $-môđun $ F $, $ (\mathbf{Z}/n\mathbf{Z}) \otimes_{\mathbf{Z}} F $ được đồng nhất một cách chính tắc với môđun thương $ \mathbf{Z} $-môđun $ F/nF $.
+Đặc biệt, với $A = \mathbf{Z}$, thấy rằng với mọi số nguyên $n$ và mọi $\mathbf{Z}$-môđun $F$, $(\mathbf{Z}/n\mathbf{Z}) \otimes_{\mathbf{Z}} F$ được đồng nhất một cách chính tắc với môđun thương $\mathbf{Z}$-môđun $F/nF$.
 
 #### Hệ quả 3 {#alg-ii-s3-prop-6-cor-3 .statement}
 
-Cho $ A $ là một vành giao hoán, $ a $ là một iđêan của $ A $ và $ E $ và $ F $ là hai $ A $-môđun sao cho $ a $ được chứa trong linh hóa tử của $ F $. Khi đó các $ (A/a) $-môđun $ E \otimes_A F $ và $ (E/aE) \otimes_{A/a} F $ đẳng cấu chính tắc với nhau.
+Cho $A$ là một vành giao hoán, $a$ là một iđêan của $A$ và $E$ và $F$ là hai $A$-môđun sao cho $a$ được chứa trong linh hóa tử của $F$. Khi đó các $(A/a)$-môđun $E \otimes_A F$ và $(E/aE) \otimes_{A/a} F$ đẳng cấu chính tắc với nhau.
 
-$ F $ và $ E \otimes_A F $ bị $ a $ triệt tiêu và do đó có các cấu trúc $ (A/a) $-môđun chính tắc ($ \S 1 $, no. 12) và nếu ta viết $ E' = aE $, thì $ \operatorname{Im}(E' \otimes_A F) = 0 $; khi đó có một đẳng cấu chính tắc (20) từ $ E \otimes_A F $ lên $ (E/aE) \otimes_A F $ và cái sau tự nó đồng nhất với $ (E/aE) \otimes_{A/a} F $ (no. 3, Hệ quả của Mệnh đề 2).
+$F$ và $E \otimes_A F$ bị $a$ triệt tiêu và do đó có các cấu trúc $(A/a)$-môđun chính tắc ($\S 1$, no. 12) và nếu ta viết $E' = aE$, thì $\operatorname{Im}(E' \otimes_A F) = 0$; khi đó có một đẳng cấu chính tắc (20) từ $E \otimes_A F$ lên $(E/aE) \otimes_A F$ và cái sau tự nó đồng nhất với $(E/aE) \otimes_{A/a} F$ (no. 3, Hệ quả của Mệnh đề 2).
 
 #### Hệ quả 4 {#alg-ii-s3-prop-6-cor-4 .statement}
 
-Cho $ a, b $ là hai iđêan trong một vành giao hoán $ C $; khi đó $ C $-môđun $ (C/a) \otimes_C (C/b) $ đẳng cấu chính tắc với $ C(a + b) $.
+Cho $a, b$ là hai iđêan trong một vành giao hoán $C$; khi đó $C$-môđun $(C/a) \otimes_C (C/b)$ đẳng cấu chính tắc với $C(a + b)$.
 
 ### 7. TÍCH TENXƠ CỦA CÁC TÍCH VÀ CÁC TỔNG TRỰC TIẾP
 
-Cho $ (E_\lambda)_{\lambda \in L} $ là một họ các $ A $-môđun phải, $ (F_\mu)_{\mu \in M} $ là một họ các $ A $-môđun trái và xét các môđun tích $ C = \prod_{\lambda \in L} E_\lambda, D = \prod_{\mu \in M} F_\mu $. Ánh xạ $ ((x_\lambda), (y_\mu)) \mapsto (x_\lambda \otimes y_\mu) $ của $ C \times D $ vào môđun tích $ \mathbf{Z} $-môđun
+Cho $(E_\lambda)_{\lambda \in L}$ là một họ các $A$-môđun phải, $(F_\mu)_{\mu \in M}$ là một họ các $A$-môđun trái và xét các môđun tích $C = \prod_{\lambda \in L} E_\lambda, D = \prod_{\mu \in M} F_\mu$. Ánh xạ $((x_\lambda), (y_\mu)) \mapsto (x_\lambda \otimes y_\mu)$ của $C \times D$ vào môđun tích $\mathbf{Z}$-môđun
 $$
 \prod_{(\lambda, \mu) \in L \times M} (E_\lambda \otimes_A F_\mu)
 $$
-là $ \mathbf{Z} $-song tuyến tính và hiển nhiên thỏa mãn các điều kiện (1) (no. 1). Do đó tồn tại (no. 1, Mệnh đề 1) một ánh xạ tuyến tính trên $ \mathbf{Z} $, gọi là chính tắc
+là $\mathbf{Z}$-song tuyến tính và hiển nhiên thỏa mãn các điều kiện (1) (no. 1). Do đó tồn tại (no. 1, Mệnh đề 1) một ánh xạ tuyến tính trên $\mathbf{Z}$, gọi là chính tắc
 $$
 f : \left( \prod_{\lambda \in L} E_\lambda \right) \otimes_A \left( \prod_{\mu \in M} F_\mu \right) \to \prod_{(\lambda, \mu) \in L \times M} (E_\lambda \otimes_A F_\mu)
 $$
-sao cho $ f((x_\lambda) \otimes (y_\mu)) = (x_\lambda \otimes y_\mu) $.
+sao cho $f((x_\lambda) \otimes (y_\mu)) = (x_\lambda \otimes y_\mu)$.
 
-Khi $ C = R^L, D = S^M, R $ (resp. $ S $) là một $ A $-môđun phải (resp. trái), ánh xạ chính tắc (22) gán cho mỗi tích tenxơ $ u \otimes v $, trong đó $ u $ là một ánh xạ của $ L $ vào $ R $ và $ v $ một ánh xạ của $ M $ vào $ S $, ánh xạ $ (\lambda, \mu) \mapsto u(\lambda) \otimes v(\mu) $ của $ L \times M $ vào $ R \otimes_A S $; ngay cả trong trường hợp này ánh xạ chính tắc (22) nói chung không đơn ánh cũng không toàn ánh (Bài tập 3; xem Hệ quả 3 của Mệnh đề 7).
+Khi $C = R^L, D = S^M, R$ (resp. $S$) là một $A$-môđun phải (resp. trái), ánh xạ chính tắc (22) gán cho mỗi tích tenxơ $u \otimes v$, trong đó $u$ là một ánh xạ của $L$ vào $R$ và $v$ một ánh xạ của $M$ vào $S$, ánh xạ $(\lambda, \mu) \mapsto u(\lambda) \otimes v(\mu)$ của $L \times M$ vào $R \otimes_A S$; ngay cả trong trường hợp này ánh xạ chính tắc (22) nói chung không đơn ánh cũng không toàn ánh (Bài tập 3; xem Hệ quả 3 của Mệnh đề 7).
 
-Khi các $ E_\lambda $ là các $ ((B'_i); A, (C'_j)) $-đa môđun và các $ F_\mu $ là các $ (A, (B''_h); (C''_{k_c})) $-đa môđun, đồng cấu (22) cũng là một đồng cấu đối với các cấu trúc $ ((B'_i), (B''_h); (C'_j), (C''_{k_c})) $-đa môđun của hai vế.
+Khi các $E_\lambda$ là các $((B'_i); A, (C'_j))$-đa môđun và các $F_\mu$ là các $(A, (B''_h); (C''_{k_c}))$-đa môđun, đồng cấu (22) cũng là một đồng cấu đối với các cấu trúc $((B'_i), (B''_h); (C'_j), (C''_{k_c}))$-đa môđun của hai vế.
 
-Xét bây giờ môđun con $ E = \bigoplus_{\lambda \in L} E_\lambda $ (resp. $ \bigoplus_{\mu \in M} F_\mu $) của $ C $ (resp. $ D $); các ánh xạ nhúng chính tắc $ E \to C, F \to D $ định nghĩa một cách chính tắc một ánh xạ tuyến tính trên $ \mathbf{Z} $ $ E \otimes_A F \to C \otimes_A D $ mà, hợp thành với ánh xạ (22), cho một ánh xạ tuyến tính trên $ \mathbf{Z} $ $ g $ của $ E \otimes_A F $ vào $ \prod_{\lambda, \mu} (E_\lambda \otimes_A F_\mu) $ sao cho
+Xét bây giờ môđun con $E = \bigoplus_{\lambda \in L} E_\lambda$ (resp. $\bigoplus_{\mu \in M} F_\mu$) của $C$ (resp. $D$); các ánh xạ nhúng chính tắc $E \to C, F \to D$ định nghĩa một cách chính tắc một ánh xạ tuyến tính trên $\mathbf{Z}$ $E \otimes_A F \to C \otimes_A D$ mà, hợp thành với ánh xạ (22), cho một ánh xạ tuyến tính trên $\mathbf{Z}$ $g$ của $E \otimes_A F$ vào $\prod_{\lambda, \mu} (E_\lambda \otimes_A F_\mu)$ sao cho
 $$
 g((x_\lambda) \otimes (y_\mu)) = (x_\lambda \otimes y_\mu);
 $$
@@ -558,7 +558,7 @@ Cơ sở $(b_\mu)$ xác định một đẳng cấu của $F$ lên $\bigoplus_{\
 
 Nếu E là một đa môđun $((B'_i); A, (C'_j))$, đẳng cấu chính tắc E ⊗_A F → E^{(M)} là một đẳng cấu đa môđun $((B'_i); (C'_j))$.
 
-Đặc biệt, nếu E còn có một cơ sở $(a_\lambda)_{\lambda \in L}$, mọi z ∈ E ⊗_A F có thể được viết theo một và chỉ một cách dưới dạng $ \sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ $, trong đó các ξ_{λμ} thuộc A (và tạo thành một họ có giá hữu hạn); ánh xạ $ z ↦ (\xi_{λμ})_{(λ, μ) ∈ L × M} $ là một đẳng cấu của E ⊗_A F lên A^{(L × M)} đối với các cấu trúc $\mathbf{Z}$-môđun (và thậm chí các cấu trúc môđun trên tâm của A). Cụ thể hơn:
+Đặc biệt, nếu E còn có một cơ sở $(a_\lambda)_{\lambda \in L}$, mọi z ∈ E ⊗_A F có thể được viết theo một và chỉ một cách dưới dạng $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, trong đó các ξ_{λμ} thuộc A (và tạo thành một họ có giá hữu hạn); ánh xạ $z ↦ (\xi_{λμ})_{(λ, μ) ∈ L × M}$ là một đẳng cấu của E ⊗_A F lên A^{(L × M)} đối với các cấu trúc $\mathbf{Z}$-môđun (và thậm chí các cấu trúc môđun trên tâm của A). Cụ thể hơn:
 
 #### Hệ quả 2 {#alg-ii-s3-prop-7-cor-2 .statement}
 
@@ -566,7 +566,7 @@ Nếu E là một đa môđun $((B'_i); A, (C'_j))$, đẳng cấu chính tắc 
 
 Do lạm dụng ngôn ngữ, cơ sở $(a_\lambda ⊗ b_\mu)$ đôi khi được gọi là *tích tenxơ* của các cơ sở $(a_\lambda)$ và $(b_\mu)$.
 
-*Nhận xét (1)*. Cho E là một A-môđun phải tự do, F là một A-môđun trái tự do, $(a_\lambda)_{λ ∈ L}$ là một cơ sở của E và $(b_\mu)_{μ ∈ M}$ là một cơ sở của F. Mọi phần tử z ∈ E ⊗_A F có thể được viết duy nhất dưới dạng $ \sum_λ a_λ ⊗ y_λ $, trong đó y_λ ∈ F, và cũng duy nhất dưới dạng $ \sum_μ x_μ ⊗ b_μ $, trong đó x_μ ∈ E. Nếu ta viết $ y_λ = \sum_μ η_{λμ} b_μ $, $ x_μ = \sum_λ a_λ ξ_{λμ} $, trong đó các ξ_{λμ} và η_{λμ} thuộc A, thì $ ξ_{λμ} = η_{λμ} $ với mọi (λ, μ), vì
+*Nhận xét (1)*. Cho E là một A-môđun phải tự do, F là một A-môđun trái tự do, $(a_\lambda)_{λ ∈ L}$ là một cơ sở của E và $(b_\mu)_{μ ∈ M}$ là một cơ sở của F. Mọi phần tử z ∈ E ⊗_A F có thể được viết duy nhất dưới dạng $\sum_λ a_λ ⊗ y_λ$, trong đó y_λ ∈ F, và cũng duy nhất dưới dạng $\sum_μ x_μ ⊗ b_μ$, trong đó x_μ ∈ E. Nếu ta viết $y_λ = \sum_μ η_{λμ} b_μ$, $x_μ = \sum_λ a_λ ξ_{λμ}$, trong đó các ξ_{λμ} và η_{λμ} thuộc A, thì $ξ_{λμ} = η_{λμ}$ với mọi (λ, μ), vì
 
 $$
 \sum_λ \left( a_λ ⊗ \left( \sum_μ η_{λμ} b_μ \right) \right) = \sum_{λ, μ} ((a_λ η_{λμ}) ⊗ b_μ) = \sum_μ \left( \left( \sum_λ a_λ η_{λμ} \right) ⊗ b_μ \right).
@@ -582,15 +582,15 @@ $$
 
 là đơn cấu (tương ứng song ánh).*
 
-Nếu $(b_\mu)$ là một cơ sở của F, mọi phần tử của $ \left( \prod_{λ ∈ L} E_λ \right) ⊗_A F $ có thể được viết duy nhất dưới dạng $ z = \sum_μ ((x_λ^{(μ)}) ⊗ b_μ) $ (Hệ quả 1); nói rằng ảnh chính tắc của nó bằng không có nghĩa là, với mọi λ ∈ L, $ \sum_μ (x_λ^{(μ)} ⊗ b_μ) = 0 $, do đó $ x_λ^{(μ)} = 0 $ với mọi λ ∈ L và mọi μ (Hệ quả 1) và vì vậy $ z = 0 $.
+Nếu $(b_\mu)$ là một cơ sở của F, mọi phần tử của $\left( \prod_{λ ∈ L} E_λ \right) ⊗_A F$ có thể được viết duy nhất dưới dạng $z = \sum_μ ((x_λ^{(μ)}) ⊗ b_μ)$ (Hệ quả 1); nói rằng ảnh chính tắc của nó bằng không có nghĩa là, với mọi λ ∈ L, $\sum_μ (x_λ^{(μ)} ⊗ b_μ) = 0$, do đó $x_λ^{(μ)} = 0$ với mọi λ ∈ L và mọi μ (Hệ quả 1) và vì vậy $z = 0$.
 
 Việc chứng minh rằng ánh xạ chính tắc là song ánh khi F có một cơ sở hữu hạn được quy về ngay lập tức, theo Mệnh đề 7, về trường hợp
 
-F = A_s; nhưng khi đó hai vế được đồng nhất một cách chính tắc với $ \prod_{\lambda \in L} E_\lambda $ (no. 4, Mệnh đề 4) và sau các sự đồng nhất này ánh xạ chính tắc (22) trở thành đồng nhất.
+F = A_s; nhưng khi đó hai vế được đồng nhất một cách chính tắc với $\prod_{\lambda \in L} E_\lambda$ (no. 4, Mệnh đề 4) và sau các sự đồng nhất này ánh xạ chính tắc (22) trở thành đồng nhất.
 
 #### Hệ quả 4 {#alg-ii-s3-prop-7-cor-4 .statement}
 
-*Cho A là một vành không có ước của không, E là một A-môđun phải tự do và F là một A-môđun trái tự do. Khi đó quan hệ x $ \otimes $ y = 0 trong E $ \otimes_A $ F kéo theo x = 0 hoặc y = 0.*
+*Cho A là một vành không có ước của không, E là một A-môđun phải tự do và F là một A-môđun trái tự do. Khi đó quan hệ x $\otimes$ y = 0 trong E $\otimes_A$ F kéo theo x = 0 hoặc y = 0.*
 
 Cho $(a_\lambda)$ là một cơ sở của E, $(b_\mu)$ là một cơ sở của F và đặt $x = \sum_\lambda a_\lambda \xi_\lambda, y = \sum_\mu \eta_\mu b_\mu$; khi đó $x \otimes y = \sum_{\lambda, \mu} ((a_\lambda \xi_\lambda \eta_\mu) \otimes b_\mu$ và quan hệ $x \otimes y = 0$ kéo theo $\xi_\lambda \eta_\mu = 0$ đối với mọi cặp chỉ số có thứ tự $(\lambda, \mu)$ (Hệ quả 1). Vậy, nếu $x \neq 0$, tức là $\xi_\lambda \neq 0$ với ít nhất một $\lambda$, thì suy ra $\eta_\mu = 0$ với mọi $\mu$, do đó $y = 0$.
 
@@ -622,7 +622,7 @@ do đó chỉ cần chứng minh hệ quả khi P là *tự do* (\S 1, no. 6, H�
 
 #### Nhận xét 2 {#alg-ii-s3-n7-rem-2 .statement}
 
-Theo các giả thiết của Mệnh đề 7, cho $E'_\lambda$ là một môđun con của $E_\lambda$, $F'_\mu$ là một môđun con của $F_\mu$ và đặt $E' = \bigoplus_{\lambda \in L} E'_\lambda$, $F' = \bigoplus_{\mu \in M} F'_\mu$. Gọi Im$(E' \otimes_A F')$ (tương ứng Im(E'_λ ⊗_A F'_μ)) là ảnh của E' ⊗_A F' (tương ứng E'_λ ⊗_A F'_μ) trong E ⊗_A F (tương ứng E_λ ⊗_A F_μ) qua ánh xạ chính tắc; khi đó đẳng cấu (23) đồng nhất các môđun con-$ \mathbf{Z} $
+Theo các giả thiết của Mệnh đề 7, cho $E'_\lambda$ là một môđun con của $E_\lambda$, $F'_\mu$ là một môđun con của $F_\mu$ và đặt $E' = \bigoplus_{\lambda \in L} E'_\lambda$, $F' = \bigoplus_{\mu \in M} F'_\mu$. Gọi Im$(E' \otimes_A F')$ (tương ứng Im(E'_λ ⊗_A F'_μ)) là ảnh của E' ⊗_A F' (tương ứng E'_λ ⊗_A F'_μ) trong E ⊗_A F (tương ứng E_λ ⊗_A F_μ) qua ánh xạ chính tắc; khi đó đẳng cấu (23) đồng nhất các môđun con-$\mathbf{Z}$
 
 $$
 \operatorname{Im}(E' \otimes_A F') \quad \text{and} \quad \bigoplus_{(\lambda, \mu) \in I \times M} \operatorname{Im}(E'_\lambda \otimes_A F'_\mu);
@@ -644,15 +644,15 @@ trong đó các mũi tên đứng là các đẳng cấu chính tắc.
 
 #### Mệnh đề 8 {#alg-ii-s3-prop-8 .statement}
 
-*Cho A, B là hai vành, E là một A-môđun phải, F là một song môđun (A, B) và G là một A-môđun trái. Khi đó E ⊗_A F là một B-môđun phải, F ⊗_B G là một A-môđun trái và tồn tại duy nhất một ánh xạ $ \mathbf{Z} $-tuyến tính*
+*Cho A, B là hai vành, E là một A-môđun phải, F là một song môđun (A, B) và G là một A-môđun trái. Khi đó E ⊗_A F là một B-môđun phải, F ⊗_B G là một A-môđun trái và tồn tại duy nhất một ánh xạ $\mathbf{Z}$-tuyến tính*
 
 $$
 \phi : (E \otimes_A F) \otimes_B G \to E \otimes_A (F \otimes_B G)
 $$
 
-*sao cho* $ \phi((x \otimes y) \otimes z) = x \otimes (y \otimes z) $ *với* $ x \in E,\ y \in F,\ z \in G; $ hơn nữa, *ánh xạ $ \mathbf{Z} $-tuyến tính này là song ánh* ("tính kết hợp" của tích tenxơ).
+*sao cho* $\phi((x \otimes y) \otimes z) = x \otimes (y \otimes z)$ *với* $x \in E,\ y \in F,\ z \in G;$ hơn nữa, *ánh xạ $\mathbf{Z}$-tuyến tính này là song ánh* ("tính kết hợp" của tích tenxơ).
 
-Cấu trúc B-môđun phải trên E ⊗_A F và cấu trúc A-môđun trái trên F ⊗_B G đã được định nghĩa ở no. 4. Tính duy nhất của $ \phi $ là hiển nhiên vì các phần tử $ (x \otimes y) \otimes z $ sinh môđun $ \mathbf{Z} $ $ (E \otimes_A F) \otimes_B G $. Để chứng minh sự tồn tại của $ \phi $, ta nhận thấy rằng, với mọi $ z \in G,\ h_z : y \mapsto y \otimes z $ là một ánh xạ A-tuyến tính của A-môđun trái F vào A-môđun trái F ⊗_B G. Ta viết $ g_z = 1_E \otimes h_z $, do đó đây là một ánh xạ $ \mathbf{Z} $-tuyến tính từ E ⊗_A F vào E ⊗_A (F ⊗_B G) và xét ánh xạ $ (t, z) \mapsto g_z(t) $ từ $ (E \otimes_A F \times G $ vào $ E \otimes_A (F \otimes_B G) $; vì $ h_{z + z'} = h_z + h_{z'} $ với $ z \in G,\ z' \in G $, nên ánh xạ trên là $ \mathbf{Z} $-song tuyến tính ngay lập tức. Hơn nữa, ta chứng minh rằng với mọi $ \mu \in B,\ g_{\mu z}(t) = g_z(t \mu) $; hiển nhiên chỉ cần chứng minh điều này với $ t = x \otimes y $ trong đó $ x \in E $ và $ y \in F $; khi đó
+Cấu trúc B-môđun phải trên E ⊗_A F và cấu trúc A-môđun trái trên F ⊗_B G đã được định nghĩa ở no. 4. Tính duy nhất của $\phi$ là hiển nhiên vì các phần tử $(x \otimes y) \otimes z$ sinh môđun $\mathbf{Z}$ $(E \otimes_A F) \otimes_B G$. Để chứng minh sự tồn tại của $\phi$, ta nhận thấy rằng, với mọi $z \in G,\ h_z : y \mapsto y \otimes z$ là một ánh xạ A-tuyến tính của A-môđun trái F vào A-môđun trái F ⊗_B G. Ta viết $g_z = 1_E \otimes h_z$, do đó đây là một ánh xạ $\mathbf{Z}$-tuyến tính từ E ⊗_A F vào E ⊗_A (F ⊗_B G) và xét ánh xạ $(t, z) \mapsto g_z(t)$ từ $(E \otimes_A F \times G$ vào $E \otimes_A (F \otimes_B G)$; vì $h_{z + z'} = h_z + h_{z'}$ với $z \in G,\ z' \in G$, nên ánh xạ trên là $\mathbf{Z}$-song tuyến tính ngay lập tức. Hơn nữa, ta chứng minh rằng với mọi $\mu \in B,\ g_{\mu z}(t) = g_z(t \mu)$; hiển nhiên chỉ cần chứng minh điều này với $t = x \otimes y$ trong đó $x \in E$ và $y \in F$; khi đó
 
 $$
 g_{\mu z}(x \otimes y) = x \otimes (y \otimes \mu z)
@@ -661,139 +661,139 @@ $$
 g_z((x \otimes y)\mu) = g_z(x \otimes y\mu) = x \otimes (y\mu \otimes z).
 $$
 
-Mệnh đề 1 (no. 1) chứng minh sự tồn tại của một ánh xạ $ \mathbf{Z} $-tuyến tính
+Mệnh đề 1 (no. 1) chứng minh sự tồn tại của một ánh xạ $\mathbf{Z}$-tuyến tính
 
 $$
 \phi : (E \otimes_A F) \otimes_B G \to E \otimes_A (F \otimes_B G)
 $$
 
-sao cho $ \phi(t \otimes z) = g_z(t) $, do đó $ \phi((x \otimes y) \otimes z) = x \otimes (y \otimes z) $. Tương tự, một ánh xạ $ \mathbf{Z} $-tuyến tính
+sao cho $\phi(t \otimes z) = g_z(t)$, do đó $\phi((x \otimes y) \otimes z) = x \otimes (y \otimes z)$. Tương tự, một ánh xạ $\mathbf{Z}$-tuyến tính
 
 $$
 \psi : E \otimes_A (F \otimes_B G) \to (E \otimes_A F) \otimes_B G
 $$
 
-được xác định sao cho $ \psi(x \otimes (y \otimes z)) = (x \otimes y) \otimes z $ và rõ ràng $ \psi \circ \phi $ và $ \phi \circ \psi $ lần lượt là các ánh xạ đồng nhất của $ (E \otimes_A F) \otimes_B G $ và $ E \otimes_A (F \otimes_B G) $, vì chúng rút gọn thành các ánh xạ đồng nhất trên các hệ sinh của các môđun $ \mathbf{Z} $ này.
+được xác định sao cho $\psi(x \otimes (y \otimes z)) = (x \otimes y) \otimes z$ và rõ ràng $\psi \circ \phi$ và $\phi \circ \psi$ lần lượt là các ánh xạ đồng nhất của $(E \otimes_A F) \otimes_B G$ và $E \otimes_A (F \otimes_B G)$, vì chúng rút gọn thành các ánh xạ đồng nhất trên các hệ sinh của các môđun $\mathbf{Z}$ này.
 
-Ngay lập tức thấy rằng, nếu $ E $ là một $ ((C'_i); A, (D'_j)) $-multimodule, $ F $ là một $ (A, (C''_h); B, (D''_k)) $-multimodule và $ G $ là một $ (B, (C'''_l); (D'''_m)) $-multimodule, thì đẳng cấu chính tắc được xác định trong Mệnh đề 8 là một đẳng cấu $ ((C'_i), (C''_h), (C'''_l); (D'_j), (D''_k), (D'''_m)) $-multimodule. Đặc biệt, nếu $ C $ là một vành *giao hoán* và E, F, G là ba C-môđun, thì tồn tại một đẳng cấu C-môđun chính tắc
+Ngay lập tức thấy rằng, nếu $E$ là một $((C'_i); A, (D'_j))$-multimodule, $F$ là một $(A, (C''_h); B, (D''_k))$-multimodule và $G$ là một $(B, (C'''_l); (D'''_m))$-multimodule, thì đẳng cấu chính tắc được xác định trong Mệnh đề 8 là một đẳng cấu $((C'_i), (C''_h), (C'''_l); (D'_j), (D''_k), (D'''_m))$-multimodule. Đặc biệt, nếu $C$ là một vành *giao hoán* và E, F, G là ba C-môđun, thì tồn tại một đẳng cấu C-môđun chính tắc
 
 $$
 (E \otimes_C F) \otimes_C G \to E \otimes_C (F \otimes_C G).
 $$
 
-Ta sẽ thấy dưới đây rằng, dưới một số điều kiện, định nghĩa của tích tenxơ có thể được tổng quát hóa cho một họ các đa môđun, điều này đặc biệt sẽ cho ta, dưới các giả thiết của Mệnh đề 8, một $ \mathbf{Z} $-môđun $ E \otimes_A F \otimes_B G $, đẳng cấu chính tắc với từng trong các $ \mathbf{Z} $-môđun $ (E \otimes_A F) \otimes_B G $ và $ E \otimes_A (F \otimes_B G) $ và với các môđun sau thì môđun này sẽ được đồng nhất.
+Ta sẽ thấy dưới đây rằng, dưới một số điều kiện, định nghĩa của tích tenxơ có thể được tổng quát hóa cho một họ các đa môđun, điều này đặc biệt sẽ cho ta, dưới các giả thiết của Mệnh đề 8, một $\mathbf{Z}$-môđun $E \otimes_A F \otimes_B G$, đẳng cấu chính tắc với từng trong các $\mathbf{Z}$-môđun $(E \otimes_A F) \otimes_B G$ và $E \otimes_A (F \otimes_B G)$ và với các môđun sau thì môđun này sẽ được đồng nhất.
 
 ### 9. TÍCH TENXƠ CỦA HỌ CÁC ĐA MÔĐUN
 
-Cho $ (G_\lambda)_{\lambda \in L} $ là một họ các $ \mathbf{Z} $-môđun; một ánh xạ $ u $ của tập $ G = \prod_{\lambda \in L} G_\lambda $ vào một $ \mathbf{Z} $-môđun được gọi là *đa cộng tính* (hay $ \mathbf{Z} $-*đa tuyến tính*) nếu $ (x_\lambda) \mapsto u((x_\lambda)) $ là cộng tính đối với từng biến $ x_\lambda $; nói cho chính xác, điều này có nghĩa là, với mọi $ \mu \in L $ và mọi phần tử $ (a_\lambda) \in \prod_{\lambda \neq \mu} G_\lambda $, sau khi đồng nhất chính tắc $ G $ với $ G_\mu \times \prod_{\lambda \neq \mu} G_\lambda $,
+Cho $(G_\lambda)_{\lambda \in L}$ là một họ các $\mathbf{Z}$-môđun; một ánh xạ $u$ của tập $G = \prod_{\lambda \in L} G_\lambda$ vào một $\mathbf{Z}$-môđun được gọi là *đa cộng tính* (hay $\mathbf{Z}$-*đa tuyến tính*) nếu $(x_\lambda) \mapsto u((x_\lambda))$ là cộng tính đối với từng biến $x_\lambda$; nói cho chính xác, điều này có nghĩa là, với mọi $\mu \in L$ và mọi phần tử $(a_\lambda) \in \prod_{\lambda \neq \mu} G_\lambda$, sau khi đồng nhất chính tắc $G$ với $G_\mu \times \prod_{\lambda \neq \mu} G_\lambda$,
 
 $$
 u(x_\mu + y_\mu, (a_\lambda)) = u(x_\mu, (a_\lambda)) + u(y_\mu, (a_\lambda)) \quad \text{cho } x_\mu, y_\mu \text{ trong } G_\mu.
 $$
 
-Điều này đặc biệt suy ra rằng $ u((x_\lambda)) = 0 $ nếu một trong các $ x_\lambda $ bằng không.
+Điều này đặc biệt suy ra rằng $u((x_\lambda)) = 0$ nếu một trong các $x_\lambda$ bằng không.
 
-Ta cũng xét *bài toán ánh xạ phổ quát* trong đó $ \Sigma $ là loài của cấu trúc môđun trên $ \mathbf{Z} $ và các $ \alpha $-ánh xạ là các ánh xạ đa cộng tính của $ G $ vào một $ \mathbf{Z} $-môđun. Một nghiệm vẫn thu được bằng cách xét $ \mathbf{Z} $-môđun $ C = \mathbf{Z}^{(G)} $ của các tổ hợp tuyến tính hình thức của các phần tử của $ G $ với các hệ số trong $ \mathbf{Z} $ và môđun con trên $ \mathbf{Z} $ $ D $ của $ C $ được sinh bởi các phần tử có dạng
+Ta cũng xét *bài toán ánh xạ phổ quát* trong đó $\Sigma$ là loài của cấu trúc môđun trên $\mathbf{Z}$ và các $\alpha$-ánh xạ là các ánh xạ đa cộng tính của $G$ vào một $\mathbf{Z}$-môđun. Một nghiệm vẫn thu được bằng cách xét $\mathbf{Z}$-môđun $C = \mathbf{Z}^{(G)}$ của các tổ hợp tuyến tính hình thức của các phần tử của $G$ với các hệ số trong $\mathbf{Z}$ và môđun con trên $\mathbf{Z}$ $D$ của $C$ được sinh bởi các phần tử có dạng
 
 $$
 (x_\mu + y_\mu, (z_\lambda)_{\lambda \neq \mu}) - (x_\mu, (z_\lambda)_{\lambda \neq \mu}) - (y_\mu, (z_\lambda)_{\lambda \neq \mu})
 $$
 
-trong đó $ \mu \in L, x_\mu \in G_\mu, y_\mu \in G_\mu $ và các $ z_\lambda \in G_\lambda $ ($ \lambda \neq \mu $) là tùy ý. Môđun thương $ \mathbf{Z} $-môđun $ C/D $ được gọi là *tích tenxơ (trên $ \mathbf{Z} $) của họ* $ (G_\lambda)_{\lambda \in L} $ các $ \mathbf{Z} $-*môđun* và được ký hiệu bởi $ \bigotimes_{\lambda \in L} G_\lambda $; với mỗi phần tử $ (x_\lambda)_{\lambda \in L} $ của $ G $ là một phần tử của cơ sở chính tắc của $ C $, $ \bigotimes_{\lambda \in L} x_\lambda $ ký hiệu ảnh chính tắc của phần tử này trong C/D. Từ các định nghĩa trên suy ra rằng ánh xạ $ \phi : (x_\lambda) \mapsto \bigotimes_{\lambda \in L} x_\lambda $ của G vào $ \bigotimes_{\lambda \in L} G_\lambda $ là $ \mathbf{Z} $-đa tuyến tính và rằng, với mọi ánh xạ $ \mathbf{Z} $-đa tuyến tính $ f $ của G vào một $ \mathbf{Z} $-môđun H, tồn tại duy nhất một ánh xạ $ \mathbf{Z} $-tuyến tính $ g : \bigotimes_{\lambda \in L} G_\lambda \to H $ sao cho $ f = g \circ \phi $; do đó cặp có thứ tự $ \left( \bigotimes_{\lambda \in L} G_\lambda, \phi \right) $ giải quyết bài toán ánh xạ phổ quát đang xét.
+trong đó $\mu \in L, x_\mu \in G_\mu, y_\mu \in G_\mu$ và các $z_\lambda \in G_\lambda$ ($\lambda \neq \mu$) là tùy ý. Môđun thương $\mathbf{Z}$-môđun $C/D$ được gọi là *tích tenxơ (trên $\mathbf{Z}$) của họ* $(G_\lambda)_{\lambda \in L}$ các $\mathbf{Z}$-*môđun* và được ký hiệu bởi $\bigotimes_{\lambda \in L} G_\lambda$; với mỗi phần tử $(x_\lambda)_{\lambda \in L}$ của $G$ là một phần tử của cơ sở chính tắc của $C$, $\bigotimes_{\lambda \in L} x_\lambda$ ký hiệu ảnh chính tắc của phần tử này trong C/D. Từ các định nghĩa trên suy ra rằng ánh xạ $\phi : (x_\lambda) \mapsto \bigotimes_{\lambda \in L} x_\lambda$ của G vào $\bigotimes_{\lambda \in L} G_\lambda$ là $\mathbf{Z}$-đa tuyến tính và rằng, với mọi ánh xạ $\mathbf{Z}$-đa tuyến tính $f$ của G vào một $\mathbf{Z}$-môđun H, tồn tại duy nhất một ánh xạ $\mathbf{Z}$-tuyến tính $g : \bigotimes_{\lambda \in L} G_\lambda \to H$ sao cho $f = g \circ \phi$; do đó cặp có thứ tự $\left( \bigotimes_{\lambda \in L} G_\lambda, \phi \right)$ giải quyết bài toán ánh xạ phổ quát đang xét.
 
-Cho $ (G'_\lambda)_{\lambda \in L} $ là một họ khác các $ \mathbf{Z} $-môđun và, với mọi $ \lambda \in L $, cho $ v_\lambda : G_\lambda \to G'_\lambda $ là một ánh xạ $ \mathbf{Z} $-tuyến tính (nói cách khác là một đồng cấu của các nhóm giao hoán). Khi đó ánh xạ
+Cho $(G'_\lambda)_{\lambda \in L}$ là một họ khác các $\mathbf{Z}$-môđun và, với mọi $\lambda \in L$, cho $v_\lambda : G_\lambda \to G'_\lambda$ là một ánh xạ $\mathbf{Z}$-tuyến tính (nói cách khác là một đồng cấu của các nhóm giao hoán). Khi đó ánh xạ
 $$
 (x_\lambda) \mapsto \bigotimes_{\lambda \in L} v_\lambda(x_\lambda)
 $$
-từ G vào $ \bigotimes_{\lambda \in L} G'_\lambda $ là $ \mathbf{Z} $-đa tuyến tính và do đó xác định một cách chính tắc một ánh xạ $ \mathbf{Z} $-tuyến tính từ $ \bigotimes_{\lambda \in L} G_\lambda $ vào $ \bigotimes_{\lambda \in L} G'_\lambda $, được ký hiệu bởi $ \bigotimes_{\lambda \in L} v_\lambda $ và thỏa mãn
+từ G vào $\bigotimes_{\lambda \in L} G'_\lambda$ là $\mathbf{Z}$-đa tuyến tính và do đó xác định một cách chính tắc một ánh xạ $\mathbf{Z}$-tuyến tính từ $\bigotimes_{\lambda \in L} G_\lambda$ vào $\bigotimes_{\lambda \in L} G'_\lambda$, được ký hiệu bởi $\bigotimes_{\lambda \in L} v_\lambda$ và thỏa mãn
 $$
 \left( \bigotimes_{\lambda \in L} v_\lambda \right) \left( \bigotimes_{\lambda \in L} x_\lambda \right) = \bigotimes_{\lambda \in L} v_\lambda(x_\lambda).
 $$
-Đặc biệt, ta xét, với một $ \mu \in L $ nào đó, một tự đồng cấu $ \theta $ của $ G_\mu $; ta ký hiệu $ \tilde{\theta} $ là tự đồng cấu của $ \bigotimes_{\lambda \in L} G_\lambda $ bằng $ \bigotimes_{\lambda \in L} v_\lambda $, trong đó $ v_\mu = \theta $ và $ v_\lambda = 1_{G_\lambda} $ với $ \lambda \neq \mu $.
+Đặc biệt, ta xét, với một $\mu \in L$ nào đó, một tự đồng cấu $\theta$ của $G_\mu$; ta ký hiệu $\tilde{\theta}$ là tự đồng cấu của $\bigotimes_{\lambda \in L} G_\lambda$ bằng $\bigotimes_{\lambda \in L} v_\lambda$, trong đó $v_\mu = \theta$ và $v_\lambda = 1_{G_\lambda}$ với $\lambda \neq \mu$.
 
-Sau đó, giả sử cho một tập hợp $ \Omega $, một ánh xạ
+Sau đó, giả sử cho một tập hợp $\Omega$, một ánh xạ
 $$
 c : \omega \mapsto (\rho(\omega), \sigma(\omega))
 $$
-từ $ \Omega $ vào $ L \times L $ và, với mọi $ \omega \in \Omega $, một tự đồng cấu $ p_\omega $ của $ G_{\rho(\omega)} $ và một tự đồng cấu $ q_\omega $ của $ G_{\sigma(\omega)} $; tương ứng với chúng có hai tự đồng cấu $ \tilde{p}_\omega $ và $ \tilde{q}_\omega $ của $ P = \bigotimes_{\lambda \in L} G_\lambda $. Gọi R là $ \mathbf{Z} $-môđun con của P *được sinh bởi hợp của các ảnh của các tự đồng cấu* $ \tilde{p}_\omega - \tilde{q}_\omega $ khi $ \omega $ chạy qua $ \Omega $. $ \mathbf{Z} $-môđun thương $ P/R $ được gọi là *tích tenxơ của họ* $ (G_\lambda)_{\lambda \in L} $ *tương đối với* c, p, q và được ký hiệu bởi $ \bigotimes_{(c, p, q)} G_\lambda $; bằng cách hợp thành đồng cấu chính tắc $ P \to P/R $ với ánh xạ $ \phi : G \to \bigotimes_{\lambda \in L} G_\lambda $ được xác định ở trên, ta được một ánh xạ $ \mathbf{Z} $-đa tuyến tính $ \phi_{(c, p, q)} : G \to \bigotimes_{(c, p, q)} G_\lambda $ và viết $ \phi_{(c, p, q)}((x_\lambda)) = \bigotimes_{(c, p, q)} x_\lambda $ hoặc đơn giản là $ \bigotimes_{(c)} x_\lambda $. Cặp có thứ tự gồm $ \bigotimes_{(c, p, q)} x_\lambda $ và $ \phi_{(c, p, q)} $ giải quyết *bài toán ánh xạ phổ quát* sau đây: gọi $ \bar{p}_\omega $ (tương ứng $ \bar{q}_\omega $) là ánh xạ
+từ $\Omega$ vào $L \times L$ và, với mọi $\omega \in \Omega$, một tự đồng cấu $p_\omega$ của $G_{\rho(\omega)}$ và một tự đồng cấu $q_\omega$ của $G_{\sigma(\omega)}$; tương ứng với chúng có hai tự đồng cấu $\tilde{p}_\omega$ và $\tilde{q}_\omega$ của $P = \bigotimes_{\lambda \in L} G_\lambda$. Gọi R là $\mathbf{Z}$-môđun con của P *được sinh bởi hợp của các ảnh của các tự đồng cấu* $\tilde{p}_\omega - \tilde{q}_\omega$ khi $\omega$ chạy qua $\Omega$. $\mathbf{Z}$-môđun thương $P/R$ được gọi là *tích tenxơ của họ* $(G_\lambda)_{\lambda \in L}$ *tương đối với* c, p, q và được ký hiệu bởi $\bigotimes_{(c, p, q)} G_\lambda$; bằng cách hợp thành đồng cấu chính tắc $P \to P/R$ với ánh xạ $\phi : G \to \bigotimes_{\lambda \in L} G_\lambda$ được xác định ở trên, ta được một ánh xạ $\mathbf{Z}$-đa tuyến tính $\phi_{(c, p, q)} : G \to \bigotimes_{(c, p, q)} G_\lambda$ và viết $\phi_{(c, p, q)}((x_\lambda)) = \bigotimes_{(c, p, q)} x_\lambda$ hoặc đơn giản là $\bigotimes_{(c)} x_\lambda$. Cặp có thứ tự gồm $\bigotimes_{(c, p, q)} x_\lambda$ và $\phi_{(c, p, q)}$ giải quyết *bài toán ánh xạ phổ quát* sau đây: gọi $\bar{p}_\omega$ (tương ứng $\bar{q}_\omega$) là ánh xạ
 $$
 (x_{\rho(\omega)}, (x_\lambda)_{\lambda \neq \rho(\omega)}) \mapsto (p_\omega(x_{\rho(\omega)}), (x_\lambda)_{\lambda \neq \rho(\omega)})
 $$
-(tương ứng $ (x_{\sigma(\omega)}, (x_\lambda)_{\lambda \neq \sigma(\omega)}) \mapsto (q_\omega(x_{\sigma(\omega)}), (x_\lambda)_{\lambda \neq \sigma(\omega)}) $)
-từ G vào chính nó. Khi đó $ \Sigma $ được lấy là loài của cấu trúc $ \mathbf{Z} $-môđun và các ánh xạ α là các ánh xạ $ \mathbf{Z} $-đa tuyến tính $ u $ từ $ G $ vào một $ \mathbf{Z} $-môđun, hơn nữa thỏa mãn các điều kiện
+(tương ứng $(x_{\sigma(\omega)}, (x_\lambda)_{\lambda \neq \sigma(\omega)}) \mapsto (q_\omega(x_{\sigma(\omega)}), (x_\lambda)_{\lambda \neq \sigma(\omega)})$)
+từ G vào chính nó. Khi đó $\Sigma$ được lấy là loài của cấu trúc $\mathbf{Z}$-môđun và các ánh xạ α là các ánh xạ $\mathbf{Z}$-đa tuyến tính $u$ từ $G$ vào một $\mathbf{Z}$-môđun, hơn nữa thỏa mãn các điều kiện
 
 $$(26)$$
 $$
 u \circ \bar{p}_\omega = u \circ \bar{q}_\omega
 $$
 
-với mọi $ \omega \in \Omega $. Chứng minh là hiển nhiên từ các định nghĩa trên.
+với mọi $\omega \in \Omega$. Chứng minh là hiển nhiên từ các định nghĩa trên.
 
-Phép dựng này đặc biệt khôi phục phép dựng của $ E \otimes_A F $ được mô tả trong no. 1: trong trường hợp này ta lấy $ L = \{1, 2\} $, $ G_1 = E $, $ G_2 = F $, $ \Omega = A $; hơn nữa, với mọi $ \omega \in A $, ta phải có $ \rho(\omega) = 1 $, $ \sigma(\omega) = 2 $, $ \omega $ là tự đồng cấu $ x \mapsto x\omega $ của $ \mathbf{Z} $-môđun $ E $ và $ q_\omega $ là tự đồng cấu $ y \mapsto \omega y $ của $ \mathbf{Z} $-môđun $ F $.
+Phép dựng này đặc biệt khôi phục phép dựng của $E \otimes_A F$ được mô tả trong no. 1: trong trường hợp này ta lấy $L = \{1, 2\}$, $G_1 = E$, $G_2 = F$, $\Omega = A$; hơn nữa, với mọi $\omega \in A$, ta phải có $\rho(\omega) = 1$, $\sigma(\omega) = 2$, $\omega$ là tự đồng cấu $x \mapsto x\omega$ của $\mathbf{Z}$-môđun $E$ và $q_\omega$ là tự đồng cấu $y \mapsto \omega y$ của $\mathbf{Z}$-môđun $F$.
 
-Cho $ (G'_\lambda)_{\lambda \in L} $ là một họ thứ hai các $ \mathbf{Z} $-môđun; giữ ánh xạ $ c $ không đổi, giả sử đã cho với mọi $ \omega \in \Omega $, một tự đồng cấu $ p'_\omega $ của $ G'_{\rho(\omega)} $ và một tự đồng cấu $ q'_\omega $ của $ G'_{\sigma(\omega)} $. Với mọi $ \lambda \in L $, khi đó cho $ v_\lambda : G_\lambda \to G'_\lambda $ là một ánh xạ $ \mathbf{Z} $-tuyến tính sao cho, với mọi $ \omega \in \Omega $,
+Cho $(G'_\lambda)_{\lambda \in L}$ là một họ thứ hai các $\mathbf{Z}$-môđun; giữ ánh xạ $c$ không đổi, giả sử đã cho với mọi $\omega \in \Omega$, một tự đồng cấu $p'_\omega$ của $G'_{\rho(\omega)}$ và một tự đồng cấu $q'_\omega$ của $G'_{\sigma(\omega)}$. Với mọi $\lambda \in L$, khi đó cho $v_\lambda : G_\lambda \to G'_\lambda$ là một ánh xạ $\mathbf{Z}$-tuyến tính sao cho, với mọi $\omega \in \Omega$,
 
 $$(27)$$
 $$
 v_{\rho(\omega)} \circ p_\omega = p'_\omega \circ v_{\rho(\omega)} \quad \text{và} \quad v_{\sigma(\omega)} \circ q_\omega = q'_\omega \circ v_{\sigma(\omega)}
 $$
 
-(nói cách khác, với mọi $ \lambda \in L $, $ v_\lambda $ là một cấu xạ đối với các luật tác động trên $ G_\lambda $ (tương ứng $ G'_\lambda $) được xác định bởi các $ p_\xi $ và $ q_\eta $ (tương ứng $ p'_\xi $ và $ q'_\eta $) với $ \xi $ và $ \eta $ sao cho $ \rho(\xi) = \lambda $ và $ \sigma(\eta) = \lambda $). Khi đó ánh xạ
+(nói cách khác, với mọi $\lambda \in L$, $v_\lambda$ là một cấu xạ đối với các luật tác động trên $G_\lambda$ (tương ứng $G'_\lambda$) được xác định bởi các $p_\xi$ và $q_\eta$ (tương ứng $p'_\xi$ và $q'_\eta$) với $\xi$ và $\eta$ sao cho $\rho(\xi) = \lambda$ và $\sigma(\eta) = \lambda$). Khi đó ánh xạ
 $$
 u : (x_\lambda) \mapsto \bigotimes_{(c, p', q')} v_\lambda(x_\lambda)
 $$
-từ $ G $ vào $ \bigotimes_{(c, p', q')} G'_\lambda $ là $ \mathbf{Z} $-đa tuyến tính và thỏa mãn các điều kiện (26), do đó xác định một ánh xạ $ \mathbf{Z} $-tuyến tính từ $ \bigotimes_{(c, p, q)} G_\lambda $ vào $ \bigotimes_{(c, p', q')} G'_\lambda $, mà ta sẽ ký hiệu đơn giản là $ \bigotimes_{(c)} v_\lambda $ nếu không thể gây ra sự nhầm lẫn.
+từ $G$ vào $\bigotimes_{(c, p', q')} G'_\lambda$ là $\mathbf{Z}$-đa tuyến tính và thỏa mãn các điều kiện (26), do đó xác định một ánh xạ $\mathbf{Z}$-tuyến tính từ $\bigotimes_{(c, p, q)} G_\lambda$ vào $\bigotimes_{(c, p', q')} G'_\lambda$, mà ta sẽ ký hiệu đơn giản là $\bigotimes_{(c)} v_\lambda$ nếu không thể gây ra sự nhầm lẫn.
 
-Ta sẽ nêu một tính chất "kết hợp" cho các tích tenxơ tổng quát được định nghĩa như trên. Cho $ (L_i)_{1 \leq i \leq n} $ là một phân hoạch hữu hạn của $ L $; với mỗi chỉ số $ i $, đặt $ \Omega_i $ là tập con của $ \Omega $ gồm các phần tử sao cho $ \rho(\omega) \in L_i $ và $ \sigma(\omega) \in L_i $; rõ ràng các $ \Omega_i $ rời nhau từng đôi một; ta đặt $ \Omega' = \Omega - \left( \bigcup_i \Omega_i \right) $. Với mỗi chỉ số $ i $, $ c^{(i)} $ sẽ ký hiệu ánh xạ $ \omega \mapsto (\rho(\omega), \sigma(\omega)) $ của $ \Omega_i $ vào $ L_i \times L_i $; với $ \omega \in \Omega_i $, ta viết $ p^{(i)}_\omega $ và $ q^{(i)}_\omega $ thay cho $ p_\omega $ và $ q_\omega $. Khi đó với mỗi $ i $ có một tích tenxơ "riêng phần"
+Ta sẽ nêu một tính chất "kết hợp" cho các tích tenxơ tổng quát được định nghĩa như trên. Cho $(L_i)_{1 \leq i \leq n}$ là một phân hoạch hữu hạn của $L$; với mỗi chỉ số $i$, đặt $\Omega_i$ là tập con của $\Omega$ gồm các phần tử sao cho $\rho(\omega) \in L_i$ và $\sigma(\omega) \in L_i$; rõ ràng các $\Omega_i$ rời nhau từng đôi một; ta đặt $\Omega' = \Omega - \left( \bigcup_i \Omega_i \right)$. Với mỗi chỉ số $i$, $c^{(i)}$ sẽ ký hiệu ánh xạ $\omega \mapsto (\rho(\omega), \sigma(\omega))$ của $\Omega_i$ vào $L_i \times L_i$; với $\omega \in \Omega_i$, ta viết $p^{(i)}_\omega$ và $q^{(i)}_\omega$ thay cho $p_\omega$ và $q_\omega$. Khi đó với mỗi $i$ có một tích tenxơ "riêng phần"
 $$
 F_i = \bigotimes_{(c^{(i)}, p^{(i)}, q^{(i)})} G_\lambda.
 $$
 
 Ta còn đặt giả thiết "tính hoán vị" sau đây:
 
-(P) *Nếu $ \omega \in \Omega' $, $ p_\omega $ (resp. $ q_\omega $) giao hoán với từng tự đồng cấu $ p_\xi $ và $ q_\eta $ của $ G_{\rho(\omega)} $ (resp. $ G_{\sigma(\omega)} $) sao cho $ \xi \notin \Omega' $, $ \eta \notin \Omega' $ và $ \rho(\omega) = \rho(\xi) = \sigma(\eta) $ (resp. $ \sigma(\omega) = \rho(\xi) = \sigma(\eta) $).*
+(P) *Nếu $\omega \in \Omega'$, $p_\omega$ (resp. $q_\omega$) giao hoán với từng tự đồng cấu $p_\xi$ và $q_\eta$ của $G_{\rho(\omega)}$ (resp. $G_{\sigma(\omega)}$) sao cho $\xi \notin \Omega'$, $\eta \notin \Omega'$ và $\rho(\omega) = \rho(\xi) = \sigma(\eta)$ (resp. $\sigma(\omega) = \rho(\xi) = \sigma(\eta)$).*
 
-Với mỗi $ \omega \in \Omega' $, cho $ i $ là chỉ số sao cho $ \rho(\omega) \in L_i $; khi đó xét họ $ (v_\lambda)_{\lambda \in L_i} $ trong đó $ v_{\rho(\omega)} = p_\omega $ và $ v_\lambda = 1_{G_\lambda} $ đối với $ \lambda \neq \rho(\omega) $; giả thiết (P) suy ra họ $ (v_\lambda) $ thỏa các điều kiện (27) (trong đó $ p' $ và $ p $ phải được thay bởi $ p^{(i)} $, $ q' $ và $ q $ bởi $ q^{(i)} $, $ \omega $ bởi một phần tử $ \xi $ chạy qua $ \Omega_i $); do đó một tự đồng cấu $ \bigotimes_{(c^{(i)})} v_\lambda = r_\omega $ là tự đồng cấu dẫn xuất của môđun trên $ \mathbf{Z} $ $ F_i $. Tương tự, một tự đồng cấu $ s_\omega $ được xác định của môđun trên $ \mathbf{Z} $ $ F_j $ bắt đầu từ $ q_\omega $, với $ j $ là chỉ số sao cho $ \sigma(\omega) \in L_j $; cuối cùng đặt $ d(\omega) = (i, j) $. Khi đó ta có thể định nghĩa *tích tenxơ* $ \bigotimes_{(d, r, s)} F_i $ và ánh xạ chính tắc tương ứng
+Với mỗi $\omega \in \Omega'$, cho $i$ là chỉ số sao cho $\rho(\omega) \in L_i$; khi đó xét họ $(v_\lambda)_{\lambda \in L_i}$ trong đó $v_{\rho(\omega)} = p_\omega$ và $v_\lambda = 1_{G_\lambda}$ đối với $\lambda \neq \rho(\omega)$; giả thiết (P) suy ra họ $(v_\lambda)$ thỏa các điều kiện (27) (trong đó $p'$ và $p$ phải được thay bởi $p^{(i)}$, $q'$ và $q$ bởi $q^{(i)}$, $\omega$ bởi một phần tử $\xi$ chạy qua $\Omega_i$); do đó một tự đồng cấu $\bigotimes_{(c^{(i)})} v_\lambda = r_\omega$ là tự đồng cấu dẫn xuất của môđun trên $\mathbf{Z}$ $F_i$. Tương tự, một tự đồng cấu $s_\omega$ được xác định của môđun trên $\mathbf{Z}$ $F_j$ bắt đầu từ $q_\omega$, với $j$ là chỉ số sao cho $\sigma(\omega) \in L_j$; cuối cùng đặt $d(\omega) = (i, j)$. Khi đó ta có thể định nghĩa *tích tenxơ* $\bigotimes_{(d, r, s)} F_i$ và ánh xạ chính tắc tương ứng
 
 $$
 \phi_{(d, r, s)} : \prod_{i=1}^n F_i \to \bigotimes_{(d, r, s)} F_i.
 $$
 
-Mặt khác, với mỗi $ i $, ánh xạ chính tắc
+Mặt khác, với mỗi $i$, ánh xạ chính tắc
 
 $$
 \psi_i = \phi_{(c^{(i)}, p^{(i)}, q^{(i)})} : \prod_{\lambda \in L_i} G_\lambda \to F_i;
 $$
 
-sử dụng tính kết hợp của tích các tập hợp, một ánh xạ $ \mathbf{Z} $-đa tuyến tính $ \psi = \phi_{(d, r, s)} \circ (\psi_i) $ của $ G $ vào $ \bigotimes_{(d, r, s)} F_i $ được dẫn xuất. Ta chứng minh rằng *cặp có thứ tự* $ \left( \bigotimes_{(d, r, s)} F_i, \psi \right) $ *là một nghiệm của cùng bài toán phổ quát như* $ \left( \bigotimes_{(c, p, q)} G_\lambda, \phi_{(c, p, q)} \right) $, do đó suy ra sự tồn tại của một *đẳng cấu* môđun $ \mathbf{Z} $ *duy nhất*
+sử dụng tính kết hợp của tích các tập hợp, một ánh xạ $\mathbf{Z}$-đa tuyến tính $\psi = \phi_{(d, r, s)} \circ (\psi_i)$ của $G$ vào $\bigotimes_{(d, r, s)} F_i$ được dẫn xuất. Ta chứng minh rằng *cặp có thứ tự* $\left( \bigotimes_{(d, r, s)} F_i, \psi \right)$ *là một nghiệm của cùng bài toán phổ quát như* $\left( \bigotimes_{(c, p, q)} G_\lambda, \phi_{(c, p, q)} \right)$, do đó suy ra sự tồn tại của một *đẳng cấu* môđun $\mathbf{Z}$ *duy nhất*
 
 $$
 \theta : \bigotimes_{(c, p, q)} G_\lambda \to \bigotimes_{(d, r, s)} F_i
 $$
 
-sao cho $ \psi = \theta \circ \phi_{(c, p, q)} $ (*Lý thuyết Tập hợp*, IV, § 3, no. 1).
+sao cho $\psi = \theta \circ \phi_{(c, p, q)}$ (*Lý thuyết Tập hợp*, IV, § 3, no. 1).
 
-Bằng quy nạp theo $ n $, chứng minh được quy về trường hợp $ n = 2 $; để đơn giản, ta viết $ F_1 \otimes_{(d)} F_2 $ và $ y_1 \otimes_{(d)} y_2 $ thay cho $ \bigotimes_{(d, r, s)} F_i $ và $ \bigotimes_{(d, r, s)} y_i $. Xét ánh xạ từ $ G $ vào $ F_1 \otimes_{(d)} F_2 $
+Bằng quy nạp theo $n$, chứng minh được quy về trường hợp $n = 2$; để đơn giản, ta viết $F_1 \otimes_{(d)} F_2$ và $y_1 \otimes_{(d)} y_2$ thay cho $\bigotimes_{(d, r, s)} F_i$ và $\bigotimes_{(d, r, s)} y_i$. Xét ánh xạ từ $G$ vào $F_1 \otimes_{(d)} F_2$
 
 $$
 h : (x_\lambda) \to \left( \bigotimes_{(c^{(1)})} x_\lambda \right) \otimes_{(d)} \left( \bigotimes_{(c^{(2)})} x_\lambda \right).
 $$
 
-Hiển nhiên nó là $ \mathbf{Z} $-đa tuyến tính; ta chứng minh rằng nó thỏa mãn các điều kiện (26) với mọi $ \omega \in \Omega $. Điều này hiển nhiên nếu $ \omega \in \Omega_1 $ hoặc $ \omega \in \Omega_2 $; ngược lại, giả sử, để cố định ý tưởng, rằng $ \rho(\omega) \in L_1 $ và $ \sigma(\omega) \in L_2 $, các giá trị của $ h \circ \bar{p}_\omega $ và $ h \circ \bar{q}_\omega $ tại $ (x_\lambda) $ lần lượt là
+Hiển nhiên nó là $\mathbf{Z}$-đa tuyến tính; ta chứng minh rằng nó thỏa mãn các điều kiện (26) với mọi $\omega \in \Omega$. Điều này hiển nhiên nếu $\omega \in \Omega_1$ hoặc $\omega \in \Omega_2$; ngược lại, giả sử, để cố định ý tưởng, rằng $\rho(\omega) \in L_1$ và $\sigma(\omega) \in L_2$, các giá trị của $h \circ \bar{p}_\omega$ và $h \circ \bar{q}_\omega$ tại $(x_\lambda)$ lần lượt là
 
 $$
 \left( r_\omega \left( \bigotimes_{(c^{(1)})} x_\lambda \right) \right) \otimes_{(d)} \left( \bigotimes_{(c^{(2)})} x_\lambda \right) \quad \text{và} \quad \left( \bigotimes_{(c^{(1)})} x_\lambda \right) \otimes_{(d)} \left( s_\omega \left( \bigotimes_{(c^{(2)})} x_\lambda \right) \right)
 $$
 
-vốn cũng bằng nhau theo định nghĩa của $ F_1 \otimes_{(d)} F_2 $.
+vốn cũng bằng nhau theo định nghĩa của $F_1 \otimes_{(d)} F_2$.
 
-Vì vậy, cho $ u $ là một ánh xạ $ \mathbf{Z} $-đa tuyến tính của $ G $ vào một môđun $ \mathbf{Z} $ $ H $, thỏa mãn các điều kiện (26); ta sẽ định nghĩa một ánh xạ $ \mathbf{Z} $-tuyến tính $ v : F_1 \otimes_{(d)} F_2 \to H $ sao cho $ u = v \circ h $ và điều đó sẽ chứng minh mệnh đề của ta (lặp lại lập luận của no. 1, Hệ quả 1 của Mệnh đề 1). Với mọi $ z_2 = (x_\lambda)_{\lambda \in L_2} $, ta xét ánh xạ tuyến tính "bộ phận" của $ \prod_{\lambda \in L_1} G_\lambda $ vào $ H $
+Vì vậy, cho $u$ là một ánh xạ $\mathbf{Z}$-đa tuyến tính của $G$ vào một môđun $\mathbf{Z}$ $H$, thỏa mãn các điều kiện (26); ta sẽ định nghĩa một ánh xạ $\mathbf{Z}$-tuyến tính $v : F_1 \otimes_{(d)} F_2 \to H$ sao cho $u = v \circ h$ và điều đó sẽ chứng minh mệnh đề của ta (lặp lại lập luận của no. 1, Hệ quả 1 của Mệnh đề 1). Với mọi $z_2 = (x_\lambda)_{\lambda \in L_2}$, ta xét ánh xạ tuyến tính "bộ phận" của $\prod_{\lambda \in L_1} G_\lambda$ vào $H$
 
 $$
 u(., z_2): (x_\lambda)_{\lambda \in L_1} \mapsto u((x_\lambda)_{\lambda \in L_1}, z_2) = u((x_\lambda)_{\lambda \in L}).
 $$
 
-Rõ ràng nó là $ \mathbf{Z} $-đa tuyến tính và thỏa mãn các điều kiện (26) với $ \omega \in \Omega_1 $; do đó theo định nghĩa tồn tại một ánh xạ $ \mathbf{Z} $-tuyến tính $ y_1 \mapsto w_1(y_1, x_2) $ của $ F_1 $ vào $ H $ sao cho
+Rõ ràng nó là $\mathbf{Z}$-đa tuyến tính và thỏa mãn các điều kiện (26) với $\omega \in \Omega_1$; do đó theo định nghĩa tồn tại một ánh xạ $\mathbf{Z}$-tuyến tính $y_1 \mapsto w_1(y_1, x_2)$ của $F_1$ vào $H$ sao cho
 
 $$
 w_1\left( \bigotimes_{(c^{(1)})} x_\lambda, z_2 \right) = u((x_\lambda)_{\lambda \in L_1}, z_2)
@@ -805,7 +805,7 @@ $$
 u_2: (x_\lambda)_{\lambda \in L_2} \mapsto w_1(., (x_\lambda)_{\lambda \in L_2})
 $$
 
-của $ \prod_{\lambda \in L_2} G_\lambda $ vào $ \mathrm{Hom}_\mathbf{Z}(F_1, H) $; hiển nhiên nó là $ \mathbf{Z} $-đa tuyến tính và thỏa mãn các điều kiện (26) với $ \omega \in \Omega_2 $, do giả thiết về $ u $ và các quan hệ (28) và (29), đồng thời lưu ý rằng các phần tử có dạng $ \bigotimes_{(c^{(1)})} x_\lambda $ sinh môđun $ \mathbf{Z} $- $ F_1 $. Do đó tồn tại một ánh xạ $ \mathbf{Z} $-tuyến tính
+của $\prod_{\lambda \in L_2} G_\lambda$ vào $\mathrm{Hom}_\mathbf{Z}(F_1, H)$; hiển nhiên nó là $\mathbf{Z}$-đa tuyến tính và thỏa mãn các điều kiện (26) với $\omega \in \Omega_2$, do giả thiết về $u$ và các quan hệ (28) và (29), đồng thời lưu ý rằng các phần tử có dạng $\bigotimes_{(c^{(1)})} x_\lambda$ sinh môđun $\mathbf{Z}$- $F_1$. Do đó tồn tại một ánh xạ $\mathbf{Z}$-tuyến tính
 
 $$
 w_2: F_2 \to \mathrm{Hom}_\mathbf{Z}(F_1, H)
@@ -823,19 +823,19 @@ $$
 \left( w_2\left( \bigotimes_{(c^{(2)})} x_\lambda \right) \right)\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = u((x_\lambda)_{\lambda \in L}).
 $$
 
-Bây giờ, với $ y_1 \in F_1, y_2 \in F_2 $, ta xét phần tử của $ H $
+Bây giờ, với $y_1 \in F_1, y_2 \in F_2$, ta xét phần tử của $H$
 
 $$
 w(y_1, y_2) = (w_2(y_2))(y_1).
 $$
 
-Rõ ràng $ w $ là một ánh xạ $ \mathbf{Z} $-song tuyến tính từ $ F_1 \times F_2 $ vào $ H $. Ta chứng minh thêm rằng, với mọi $ \omega \in \Omega' $, (giả sử, để cố định ý tưởng, rằng $ \rho(\omega) \in L_1 $ và $ \sigma(\omega) \in L_2 $)
+Rõ ràng $w$ là một ánh xạ $\mathbf{Z}$-song tuyến tính từ $F_1 \times F_2$ vào $H$. Ta chứng minh thêm rằng, với mọi $\omega \in \Omega'$, (giả sử, để cố định ý tưởng, rằng $\rho(\omega) \in L_1$ và $\sigma(\omega) \in L_2$)
 
 $$
 w(r_\omega(y_1), y_2) = w(y_1, s_\omega(y_2)).
 $$
 
-Chỉ cần kiểm tra quan hệ này khi $ y_1 $ (tương ứng $ y_2 $) có dạng $ \bigotimes_{(c^{(1)})} x_\lambda $ (tương ứng $ \bigotimes_{(c^{(2)})} x_\lambda $), vì các phần tử này sinh môđun $ \mathbf{Z} $ $ F_1 $ (tương ứng $ F_2 $). Nhưng theo định nghĩa, $ r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda $, trong đó $ x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)}) $ và $ x'_\lambda = x_\lambda $ với λ ≠ ρ(ω) trong L₁; tương tự $ s_ω\left(\bigotimes_{(c^{(2)})} x_\lambda\right) = \bigotimes_{(c^{(2)})} x''_\lambda $, trong đó x''_{σ(ω)} = q_ω(x'_{σ(ω)}) và x''_\lambda = x_\lambda với λ ≠ σ(ω) trong L₂; sử dụng (30) và (31), quan hệ (32) suy ra từ (26). Do đó tồn tại một ánh xạ $ \mathbf{Z}$-tuyến tính v từ F₁ ⊗ F₂ vào H sao cho $ v(y_1 \otimes y_2) = w(y_1, y_2) $ và từ (30) và (31) suy ra $ v \circ h = u $.
+Chỉ cần kiểm tra quan hệ này khi $y_1$ (tương ứng $y_2$) có dạng $\bigotimes_{(c^{(1)})} x_\lambda$ (tương ứng $\bigotimes_{(c^{(2)})} x_\lambda$), vì các phần tử này sinh môđun $\mathbf{Z}$ $F_1$ (tương ứng $F_2$). Nhưng theo định nghĩa, $r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda$, trong đó $x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)})$ và $x'_\lambda = x_\lambda$ với λ ≠ ρ(ω) trong L₁; tương tự $s_ω\left(\bigotimes_{(c^{(2)})} x_\lambda\right) = \bigotimes_{(c^{(2)})} x''_\lambda$, trong đó x''_{σ(ω)} = q_ω(x'_{σ(ω)}) và x''_\lambda = x_\lambda với λ ≠ σ(ω) trong L₂; sử dụng (30) và (31), quan hệ (32) suy ra từ (26). Do đó tồn tại một ánh xạ $\mathbf{Z}$-tuyến tính v từ F₁ ⊗ F₂ vào H sao cho $v(y_1 \otimes y_2) = w(y_1, y_2)$ và từ (30) và (31) suy ra $v \circ h = u$.
 
 Trường hợp đặc biệt quan trọng nhất của tích tenxơ tổng quát được định nghĩa ở trên là trường hợp sau đây: ta bắt đầu với một họ $(A_i)_{1 \leq i \leq n-1}$ các vành và một họ $(E_i)_{1 \leq i \leq n}$, trong đó $E_1$ là một môđun phải $A_1$, $E_n$ là một môđun trái $A_{n-1}$ và, với $2 \leq i \leq n-1$, $E_i$ là một song môđun $(A_{i-1}, A_i)$. Khi đó định nghĩa ở trên được áp dụng như sau: L là tập hợp $[1, n]$, $G_i = E_i$, Ω là tập hợp tổng của các $A_i$ ($1 \leq i \leq n-1$). Với $ω ∈ A_i$ ($1 \leq i \leq n-1$), lấy $ρ(ω) = i$, $σ(ω) = i + 1$, $p_ω$ là tự đồng cấu $x ↦ xω$ của $Z$-môđun $E_i$ và $q_ω$ là tự đồng cấu $y ↦ ωy$ của $Z$-môđun $E_{i+1}$; tích tenxơ tương ứng được ký hiệu là
 
@@ -860,13 +860,13 @@ $$
 = x_1 \otimes (γx_2) \otimes \cdots \otimes x_n = \cdots = x_1 \otimes x_2 \otimes \cdots \otimes (γx_n).
 $$
 
-Khi nói về tích tenxơ (34) như một C-môđun, ta sẽ luôn hiểu là với cấu trúc này, trừ khi có nói khác, và tích tenxơ (34) cũng được ký hiệu bởi $ \bigotimes_{1 \leq i \leq n} E_i $ nếu không thể gây nhầm lẫn. Với mỗi C-môđun G, các ánh xạ đa tuyến tính $\mathbf{Z}$ của $ \prod_{i=1}^n E_i $ vào G mà, với mỗi chỉ số i, thỏa mãn quan hệ
+Khi nói về tích tenxơ (34) như một C-môđun, ta sẽ luôn hiểu là với cấu trúc này, trừ khi có nói khác, và tích tenxơ (34) cũng được ký hiệu bởi $\bigotimes_{1 \leq i \leq n} E_i$ nếu không thể gây nhầm lẫn. Với mỗi C-môđun G, các ánh xạ đa tuyến tính $\mathbf{Z}$ của $\prod_{i=1}^n E_i$ vào G mà, với mỗi chỉ số i, thỏa mãn quan hệ
 
 $$
 f(x_1, \ldots, x_{i-1}, \gamma x_i, x_{i+1}, \ldots, x_n) = \gamma f(x_1, \ldots, x_n)
 $$
 
-với $ \gamma \in \mathbf{C} $ và $ (x_i) \in \prod_i E_i $ khi đó được gọi là C-đa tuyến tính và lập thành một C-môđun ký hiệu là $ \mathcal{L}_n(E_1, \ldots, E_n; G) $; tính chất phổ quát của tích tenxơ (34) khi đó cho phép ta định nghĩa một đẳng cấu C-môđun chính tắc
+với $\gamma \in \mathbf{C}$ và $(x_i) \in \prod_i E_i$ khi đó được gọi là C-đa tuyến tính và lập thành một C-môđun ký hiệu là $\mathcal{L}_n(E_1, \ldots, E_n; G)$; tính chất phổ quát của tích tenxơ (34) khi đó cho phép ta định nghĩa một đẳng cấu C-môđun chính tắc
 
 $$
 \mathcal{L}_n(E_1, \ldots, E_n; G) \to \operatorname{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, G)
@@ -878,15 +878,15 @@ $$
 f(x_1, \ldots, x_n) = g(x_1 \otimes x_2 \otimes \cdots \otimes x_n).
 $$
 
-Một ánh xạ C-đa tuyến tính của $ E_1 \times \cdots \times E_n $ vào $ \mathbf{C} $ cũng được gọi là một dạng n-tuyến tính.
+Một ánh xạ C-đa tuyến tính của $E_1 \times \cdots \times E_n$ vào $\mathbf{C}$ cũng được gọi là một dạng n-tuyến tính.
 
-Cho $ (F_i)_{1 \leq i \leq n} $ là một họ khác các C-môđun; với mỗi hệ gồm n ánh xạ C-tuyến tính $ u_i : E_i \to F_i, u_1 \otimes u_2 \otimes \cdots \otimes u_n $ (cũng được ký hiệu bởi $ \bigotimes_{1 \leq i \leq n} u_i $) là một ánh xạ C-tuyến tính của
+Cho $(F_i)_{1 \leq i \leq n}$ là một họ khác các C-môđun; với mỗi hệ gồm n ánh xạ C-tuyến tính $u_i : E_i \to F_i, u_1 \otimes u_2 \otimes \cdots \otimes u_n$ (cũng được ký hiệu bởi $\bigotimes_{1 \leq i \leq n} u_i$) là một ánh xạ C-tuyến tính của
 
 $$
 E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n \text{ vào } F_1 \otimes_\mathbf{C} F_2 \otimes \cdots \otimes_\mathbf{C} F_n.
 $$
 
-Hơn nữa, $ (u_1, \ldots, u_n) \mapsto u_1 \otimes u_2 \otimes \cdots \otimes u_n $ là một ánh xạ C-đa tuyến tính của $ \prod_i \operatorname{Hom}_\mathbf{C}(E_i, F_i) $ vào
+Hơn nữa, $(u_1, \ldots, u_n) \mapsto u_1 \otimes u_2 \otimes \cdots \otimes u_n$ là một ánh xạ C-đa tuyến tính của $\prod_i \operatorname{Hom}_\mathbf{C}(E_i, F_i)$ vào
 
 $$
 \operatorname{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E \otimes \cdots \otimes_\mathbf{C} E_n, F_1 \otimes_\mathbf{C} F_2 \otimes \cdots \otimes_\mathbf{C} F_n).
@@ -901,9 +901,9 @@ $$
 \to \operatorname{Hom}_\mathbf{C}(E_1 \otimes_\mathbf{C} E_2 \otimes \cdots \otimes_\mathbf{C} E_n, F_1 \otimes_\mathbf{C} F_2 \otimes_\mathbf{C} \cdots \otimes_\mathbf{C} F_n)
 $$
 
-mở rộng ánh xạ được định nghĩa trong no. 5 với $ n = 2 $.
+mở rộng ánh xạ được định nghĩa trong no. 5 với $n = 2$.
 
-Tính kết hợp tổng quát đã được xét trước đây có thể được chuyên biệt hóa ở đây như sau. Cho $ (J_k)_{1 \leq k \leq m} $ là một phân hoạch của khoảng $ \{1, n\} $ của $ \mathbf{N} $, với mỗi $ k $, đặt $ F_k $ là tích tenxơ $ E_{i_1} \otimes_\mathbf{C} E_{i_2} \otimes_\mathbf{C} E_{i_r} $, trong đó $ (i_1, \ldots, i_r) $ là dãy tăng ngặt các phần tử của $ J_k $. Khi đó có một đẳng cấu C-môđun chính tắc (gọi là “đẳng cấu kết hợp”)
+Tính kết hợp tổng quát đã được xét trước đây có thể được chuyên biệt hóa ở đây như sau. Cho $(J_k)_{1 \leq k \leq m}$ là một phân hoạch của khoảng $\{1, n\}$ của $\mathbf{N}$, với mỗi $k$, đặt $F_k$ là tích tenxơ $E_{i_1} \otimes_\mathbf{C} E_{i_2} \otimes_\mathbf{C} E_{i_r}$, trong đó $(i_1, \ldots, i_r)$ là dãy tăng ngặt các phần tử của $J_k$. Khi đó có một đẳng cấu C-môđun chính tắc (gọi là “đẳng cấu kết hợp”)
 
 $$
 F_1 \otimes_C F_2 \otimes \cdots \otimes_C F_m \to E_1 \otimes_C E_2 \otimes \cdots \otimes_C E_n
@@ -915,23 +915,23 @@ $$
 y_1 \otimes y_2 \otimes \cdots \otimes y_m, \quad \text{where } y_k = x_{i_1} \otimes x_{i_2} \otimes \cdots \otimes x_{i_r},
 $$
 
-thành tích tenxơ $ x_1 \otimes x_2 \otimes \cdots \otimes x_n $ (trong đó $ x_i \in E_i $ với mọi $ i $).
+thành tích tenxơ $x_1 \otimes x_2 \otimes \cdots \otimes x_n$ (trong đó $x_i \in E_i$ với mọi $i$).
 
-Đặc biệt, nếu $ \pi $ là một phép hoán vị của $ \{1, n\} $, viết $ J_k = \{\pi(k)\} $ với $ 1 \leq k \leq n $, ta thu được một đẳng cấu (“giao hoán”) chính tắc
+Đặc biệt, nếu $\pi$ là một phép hoán vị của $\{1, n\}$, viết $J_k = \{\pi(k)\}$ với $1 \leq k \leq n$, ta thu được một đẳng cấu (“giao hoán”) chính tắc
 
 $$
 E_{\pi(1)} \otimes_C E_{\pi(2)} \otimes \cdots \otimes_C E_{\pi(n)} \to E_1 \otimes_C E_2 \otimes \cdots \otimes_C E_n
 $$
 
-ánh xạ $ x_{\pi(1)} \otimes x_{\pi(2)} \otimes \cdots \otimes x_{\pi(n)} $ thành $ x_1 \otimes x_2 \otimes \cdots \otimes x_n $. Ta sẽ thường đồng nhất các tích tenxơ khác nhau tương ứng với nhau qua các đẳng cấu chính tắc này.
+ánh xạ $x_{\pi(1)} \otimes x_{\pi(2)} \otimes \cdots \otimes x_{\pi(n)}$ thành $x_1 \otimes x_2 \otimes \cdots \otimes x_n$. Ta sẽ thường đồng nhất các tích tenxơ khác nhau tương ứng với nhau qua các đẳng cấu chính tắc này.
 
-Với $ 1 \leq i \leq n $, giả sử rằng $ E_i $ có một cơ sở $ (b^{(i)}_{\lambda_i})_{\lambda_i \in L_i} $; theo quy nạp theo $ n $, suy ra từ no. 7, Hệ quả 2 của Mệnh đề 7 rằng họ $ (b^{(1)}_{\lambda_1} \otimes b^{(2)}_{\lambda_2} \otimes \cdots \otimes b^{(n)}_{\lambda_n}) $, trong đó $ (\lambda_1, \ldots, \lambda_n) $ chạy qua $ \prod_{1 \leq i \leq n} L_i $, là một cơ sở của $ \bigoplus_{1 \leq i \leq n} E_i $, đôi khi được gọi là *tích tenxơ* của các cơ sở $ (b^{(1)}_{\lambda_1}) $ đang xét.
+Với $1 \leq i \leq n$, giả sử rằng $E_i$ có một cơ sở $(b^{(i)}_{\lambda_i})_{\lambda_i \in L_i}$; theo quy nạp theo $n$, suy ra từ no. 7, Hệ quả 2 của Mệnh đề 7 rằng họ $(b^{(1)}_{\lambda_1} \otimes b^{(2)}_{\lambda_2} \otimes \cdots \otimes b^{(n)}_{\lambda_n})$, trong đó $(\lambda_1, \ldots, \lambda_n)$ chạy qua $\prod_{1 \leq i \leq n} L_i$, là một cơ sở của $\bigoplus_{1 \leq i \leq n} E_i$, đôi khi được gọi là *tích tenxơ* của các cơ sở $(b^{(1)}_{\lambda_1})$ đang xét.
 
 #### Nhận xét {#alg-ii-s3-n9-rem-1 .statement}
 
-(1) Các nhận xét ở trên liên quan đến trường hợp các môđun trên một vành giao hoán được tổng quát hóa như trong no. 5, *Nhận xét* 2 khi có một tích tenxơ $ E_1 \otimes_{A_1} E_2 \otimes \cdots \otimes_{A_{n-1}} E_n $ trong đó các vành $ A_i $ không nhất thiết giao hoán và trong đó, với mỗi $ i $, có một đồng cấu $ \rho_i : C \to A $ của cùng một vành *giao hoán* $ C $ sao cho: (1) $ \rho_i(C) $ được chứa trong *tâm* của $ A_i $; (2) đối với $ 2 \leq i \leq n - 1 $, các cấu trúc $ C $-môđun trên $ E_i $ nhận được bằng cách sử dụng các đồng cấu $ \rho_{i-1} $ và $ \rho_i $ *trùng nhau*. Khi đó một cấu trúc $ C $-*môđun* được nhận được trên $ E_1 \otimes_{A_1} E_2 \otimes \cdots \otimes_{A_{n-1}} E_n $ và các ánh xạ chính tắc tương tự như (13) (no. 5), sẽ được để cho người đọc mô tả.
+(1) Các nhận xét ở trên liên quan đến trường hợp các môđun trên một vành giao hoán được tổng quát hóa như trong no. 5, *Nhận xét* 2 khi có một tích tenxơ $E_1 \otimes_{A_1} E_2 \otimes \cdots \otimes_{A_{n-1}} E_n$ trong đó các vành $A_i$ không nhất thiết giao hoán và trong đó, với mỗi $i$, có một đồng cấu $\rho_i : C \to A$ của cùng một vành *giao hoán* $C$ sao cho: (1) $\rho_i(C)$ được chứa trong *tâm* của $A_i$; (2) đối với $2 \leq i \leq n - 1$, các cấu trúc $C$-môđun trên $E_i$ nhận được bằng cách sử dụng các đồng cấu $\rho_{i-1}$ và $\rho_i$ *trùng nhau*. Khi đó một cấu trúc $C$-*môđun* được nhận được trên $E_1 \otimes_{A_1} E_2 \otimes \cdots \otimes_{A_{n-1}} E_n$ và các ánh xạ chính tắc tương tự như (13) (no. 5), sẽ được để cho người đọc mô tả.
 
-(2) Cho $ A, B $ là hai vành, $ E $ là một $ A $-môđun phải, $ E' $ là một $ A $-môđun trái, $ F $ là một $ B $-môđun phải và $ F' $ là một $ B $-môđun trái. Các ánh xạ $ \mathbf{Z}\text{-song tuyến tính} $ của $ (E \otimes_A E') \times (F \otimes_B F') $ vào một $ \mathbf{Z}\text{-môđun} $ $ G $ khi đó tương ứng một-một với các ánh xạ $ \mathbf{Z}\text{-đa tuyến tính} $ $ f $ của $ E \times E' \times F \times F' $ vào $ G $ thỏa mãn các điều kiện
+(2) Cho $A, B$ là hai vành, $E$ là một $A$-môđun phải, $E'$ là một $A$-môđun trái, $F$ là một $B$-môđun phải và $F'$ là một $B$-môđun trái. Các ánh xạ $\mathbf{Z}\text{-song tuyến tính}$ của $(E \otimes_A E') \times (F \otimes_B F')$ vào một $\mathbf{Z}\text{-môđun}$ $G$ khi đó tương ứng một-một với các ánh xạ $\mathbf{Z}\text{-đa tuyến tính}$ $f$ của $E \times E' \times F \times F'$ vào $G$ thỏa mãn các điều kiện
 
 $$
 \begin{cases}
@@ -940,7 +940,7 @@ f(x, x', y \mu, y') = f(x, x', y, \mu y')
 \end{cases}
 $$
 
-đối với $ \lambda \in A, \mu \in B, x \in E, x' \in E', y \in F, y' \in F' $. Các kiến tạo tổng quát được đưa ra trong số này rút gọn chứng minh của điều này vào việc định nghĩa một đẳng cấu $ \mathbf{Z}\text{-môđun} $ chính tắc giữa $ (E \otimes_A E') \otimes_{\mathbf{Z}} (F \otimes_B F') $ và $ E \otimes_A E' \otimes_{\mathbf{Z}} F \otimes_B F' $, điều này suy ra từ tính kết hợp của các tích tenxơ có dạng (33).
+đối với $\lambda \in A, \mu \in B, x \in E, x' \in E', y \in F, y' \in F'$. Các kiến tạo tổng quát được đưa ra trong số này rút gọn chứng minh của điều này vào việc định nghĩa một đẳng cấu $\mathbf{Z}\text{-môđun}$ chính tắc giữa $(E \otimes_A E') \otimes_{\mathbf{Z}} (F \otimes_B F')$ và $E \otimes_A E' \otimes_{\mathbf{Z}} F \otimes_B F'$, điều này suy ra từ tính kết hợp của các tích tenxơ có dạng (33).
 
 ### Bài tập {#alg-ii-s3-exercises}
 

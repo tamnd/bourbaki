@@ -13,9 +13,9 @@ pdf_pages: 0493-0493
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: ebd606b7f54f30164547a8f9c4a1025877e1d99fc886a0e5af8e506ef83777eb
+content_sha256: 81a8fcda7bdc0b170705d80dfbf8612c18ef816b6dc1f556d3d41ee82826b5fc
 translated_from: content/en/ac/VII/00_frontmatter.md
-source_content_sha256: 5bdae1fba33570061ef5f38320a3212bdd9261a320e49fc09d39b93c2838d309
+source_content_sha256: 0758c57ab6942833dd9219ce64906878d061350f65d3749f70a9eece667863df
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-ec51f768
 glossary_version: 34
@@ -27,4 +27,4 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 # Các ước
 
-Tất cả các vành được xét trong chương này được giả thiết là giao hoán và có một phần tử đơn vị. Tất cả các đồng cấu vành được giả thiết là ánh xạ phần tử đơn vị vào phần tử đơn vị. Mọi vành con của một vành $ A $ được giả thiết là chứa phần tử đơn vị của $ A $.
+Tất cả các vành được xét trong chương này được giả thiết là giao hoán và có một phần tử đơn vị. Tất cả các đồng cấu vành được giả thiết là ánh xạ phần tử đơn vị vào phần tử đơn vị. Mọi vành con của một vành $A$ được giả thiết là chứa phần tử đơn vị của $A$.

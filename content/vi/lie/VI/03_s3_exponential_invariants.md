@@ -28,9 +28,9 @@ subsections:
       pdf_page: 212
 statements: 12
 exercises: 2
-content_sha256: 1ee7b2c2c231a8ba68ae0349835bc8159008c312e606bf904c014d44fbf20f04
+content_sha256: 4f47126adadf3898a093b80782466a29a62247ea4558a4b17e703ea30e42e05e
 translated_from: content/en/lie/VI/03_s3_exponential_invariants.md
-source_content_sha256: 4b07c63709fd78f0bee9065c8ebbc16a4206e11b63be6995bb3658a9892a9f3b
+source_content_sha256: a1d623b664a3e6aeb9850e9dddd38396c5fe9526ee78a042d5bd1805375ab6bf
 translation_model: gpt-5.4
 translation_run: translate-vi-f41c29d2
 glossary_version: 34
@@ -93,84 +93,84 @@ Mặt khác, nếu $t = p' + r$ với $x_{p'} y_r \neq 0$, thì tồn tại $p \
 
 #### Nhận xét {#lie-vi-s3-n2-rem-1 .statement}
 
-Vì $ x \neq 0 $ có nghĩa là giá cực đại của $ x $ là không rỗng, Bổ đề 2 cho thấy rằng $ x \neq 0 $ kéo theo $ xy \neq 0 $ bất cứ khi nào $ y $ có một số hạng cực đại duy nhất có dạng $ e^q $.
+Vì $x \neq 0$ có nghĩa là giá cực đại của $x$ là không rỗng, Bổ đề 2 cho thấy rằng $x \neq 0$ kéo theo $xy \neq 0$ bất cứ khi nào $y$ có một số hạng cực đại duy nhất có dạng $e^q$.
 
 ### 3. CÁC PHẦN TỬ PHẢN-BẤT BIẾN
 
-Ta giữ lại các ký hiệu của số trước. Ký hiệu bởi $ \varepsilon(w) $ định thức của phần tử $ w \in W $. Khi đó
+Ta giữ lại các ký hiệu của số trước. Ký hiệu bởi $\varepsilon(w)$ định thức của phần tử $w \in W$. Khi đó
 $$
 \varepsilon(w) = (-1)^{l(w)},
 $$
-trong đó độ dài $ l(w) $ được lấy đối với họ các phép đối xứng $ s_{\alpha_i} $.
+trong đó độ dài $l(w)$ được lấy đối với họ các phép đối xứng $s_{\alpha_i}$.
 
 #### Định nghĩa 2 {#lie-vi-s3-def-2 .statement}
 
-*Một phần tử* $ x \in A[P] $ *được gọi là phản-bất biến dưới* $ W $ *nếu*
+*Một phần tử* $x \in A[P]$ *được gọi là phản-bất biến dưới* $W$ *nếu*
 $$
 w(x) = (-1)^{l(w)}.x
 $$
-*với mọi* $ w \in W $.
+*với mọi* $w \in W$.
 
-Các phần tử phản bất biến của $ A[P] $ tạo thành một môđun con trên $ A $ của $ A[P] $. Với mọi $ x \in A[P] $, đặt
+Các phần tử phản bất biến của $A[P]$ tạo thành một môđun con trên $A$ của $A[P]$. Với mọi $x \in A[P]$, đặt
 $$
 J(x) = \sum_{w \in W} \varepsilon(w).w(x).
 $$
 (1)
 
-Với $ x \in A[P] $ và $ w \in W $, ta có
+Với $x \in A[P]$ và $w \in W$, ta có
 $$
 w(J(x)) = \sum_{v \in W} \varepsilon(v).wv(x) = \varepsilon(w) \sum_{v \in W} \varepsilon(v).v(x) = \varepsilon(w).J(x)
 $$
-và $ J(x) $ là phản bất biến. Mặt khác, đặt $ q = \mathrm{Card}(W) $. Với mọi phần tử phản bất biến $ x $ của $ A[P] $, ta có $ J(x) = q.x $. Suy ra rằng, nếu $ q $ khả nghịch trong $ A $, thì ánh xạ $ q^{-1}J $ là một *phép chiếu* từ $ A[P] $ lên môđun con các phần tử phản bất biến.
+và $J(x)$ là phản bất biến. Mặt khác, đặt $q = \mathrm{Card}(W)$. Với mọi phần tử phản bất biến $x$ của $A[P]$, ta có $J(x) = q.x$. Suy ra rằng, nếu $q$ khả nghịch trong $A$, thì ánh xạ $q^{-1}J$ là một *phép chiếu* từ $A[P]$ lên môđun con các phần tử phản bất biến.
 
-Gọi $ \overline{\omega}_1, \ldots, \overline{\omega}_l $ là các trọng cơ bản tương ứng với buồng $ C $. Các phần tử của $ P \cap \overline{C} $ (resp. $ P \cap C $) là các trọng có dạng $ n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l $ với $ n_i \geq 0 $ (resp. $ n_i > 0 $) với $ 1 \leq i \leq l $ (\S 1, no. 10). Mặt khác,
+Gọi $\overline{\omega}_1, \ldots, \overline{\omega}_l$ là các trọng cơ bản tương ứng với buồng $C$. Các phần tử của $P \cap \overline{C}$ (resp. $P \cap C$) là các trọng có dạng $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$ với $n_i \geq 0$ (resp. $n_i > 0$) với $1 \leq i \leq l$ (\S 1, no. 10). Mặt khác,
 $$
 \rho = \overline{\omega}_1 + \cdots + \overline{\omega}_l
 $$
-là nửa tổng của các căn dương (*loc. cit.*) nên các phần tử của $ P \cap C $ là các trọng có dạng $ \rho + p $ với $ p \in P \cap \overline{C} $. Cuối cùng, nếu $ p \in P \cap C $, thì $ w(p) < p $ với mọi $ w \neq 1 $ (\S 1, no. 6, Hệ quả của Mệnh đề 18) và do đó $ e^p $ là số hạng cực đại duy nhất của $ J(e^p) $.
+là nửa tổng của các căn dương (*loc. cit.*) nên các phần tử của $P \cap C$ là các trọng có dạng $\rho + p$ với $p \in P \cap \overline{C}$. Cuối cùng, nếu $p \in P \cap C$, thì $w(p) < p$ với mọi $w \neq 1$ (\S 1, no. 6, Hệ quả của Mệnh đề 18) và do đó $e^p$ là số hạng cực đại duy nhất của $J(e^p)$.
 
 #### Mệnh đề 1 {#lie-vi-s3-prop-1 .statement}
 
-*Nếu* 2 *không phải là một ước của không trong* $ A $, *thì các phần tử* $ J(e^p) $ *với* $ p \in P \cap C $ *lập thành một cơ sở của môđun các phần tử phản bất biến của* $ A[P] $.
+*Nếu* 2 *không phải là một ước của không trong* $A$, *thì các phần tử* $J(e^p)$ *với* $p \in P \cap C$ *lập thành một cơ sở của môđun các phần tử phản bất biến của* $A[P]$.
 
-Các trọng số $ w(p) $ với $ w \in W $ và $ p \in P \cap C $ là từng đôi một phân biệt. Suy ra các $ J(e^p) $ với $ p \in P \cap C $ là độc lập tuyến tính.
+Các trọng số $w(p)$ với $w \in W$ và $p \in P \cap C$ là từng đôi một phân biệt. Suy ra các $J(e^p)$ với $p \in P \cap C$ là độc lập tuyến tính.
 
-Mặt khác, cho $ x = \sum_p x_p e^p $ là một phần tử phản bất biến của $ A[P] $. Nếu $ p_0 $ thuộc một tường, thì nó bất biến dưới một phép đối xứng $ s \in W $ và
+Mặt khác, cho $x = \sum_p x_p e^p$ là một phần tử phản bất biến của $A[P]$. Nếu $p_0$ thuộc một tường, thì nó bất biến dưới một phép đối xứng $s \in W$ và
 $$
 x = \sum_p x_p e^p = -s(x) = -\sum_p x_p e^{s(p)}.
 $$
-Suy ra $ 2x_{p_0} = 0 $, nên $ x_{p_0} = 0 $. Vì mọi phần tử không thuộc bất kỳ tường nào đều có thể được viết duy nhất dưới dạng $ w(p) $ với $ w \in W $ và $ p \in P \cap C $, do đó ta có
+Suy ra $2x_{p_0} = 0$, nên $x_{p_0} = 0$. Vì mọi phần tử không thuộc bất kỳ tường nào đều có thể được viết duy nhất dưới dạng $w(p)$ với $w \in W$ và $p \in P \cap C$, do đó ta có
 $$
 x = \sum_{p \in P \cap C} \sum_{w \in W} x_{w(p)} e^{w(p)}. \tag{2}
 $$
-Vì $ w(x) = \sum_p x_p e^{w(p)} = \varepsilon(w) \sum_p x_p e^p $, nên $ x_{w(p)} = \varepsilon(w)x_p $ và ta suy ra từ (2) rằng
+Vì $w(x) = \sum_p x_p e^{w(p)} = \varepsilon(w) \sum_p x_p e^p$, nên $x_{w(p)} = \varepsilon(w)x_p$ và ta suy ra từ (2) rằng
 $$
 x = \sum_{p \in P \cap C} x_p J(e^p),
 $$
 điều này hoàn tất chứng minh.
 
-Bây giờ xét phần tử $ d $ của đại số $ A[\frac{1}{2}P] $ được định nghĩa bởi
+Bây giờ xét phần tử $d$ của đại số $A[\frac{1}{2}P]$ được định nghĩa bởi
 $$
 d = \prod_{\alpha \in R, \alpha > 0} (e^{\alpha/2} - e^{-\alpha/2}) \\
 = e^{\rho} \cdot \prod_{\alpha \in R, \alpha > 0} (1 - e^{-\alpha}) \\
 = e^{-\rho} \cdot \prod_{\alpha \in R, \alpha > 0} (e^{\alpha} - 1).
 $$
-Vì $ \rho \in P $, nên $ d \in A[P] $.
+Vì $\rho \in P$, nên $d \in A[P]$.
 
 #### Mệnh đề 2 {#lie-vi-s3-prop-2 .statement}
 
-(i) *Phần tử d được xác định bởi (3) là một phần tử phản bất biến của A[P]; số hạng cực đại duy nhất của nó* (no. 2, Định nghĩa 1) *là* $ e^{\rho} $ *và* $ d = J(e^{\rho}) $.
-(ii) *Với mọi* $ p \in P $, *phần tử* $ J(e^p) $ *chia được duy nhất cho* $ d $ *và thương* $ J(e^p)/d $ *là một phần tử của* $ A[P] $ *bất biến dưới* $ W $.
-(iii) *Nếu 2 không phải là một ước của không trong* $ A $, *phép nhân bởi* $ d $ *là một song ánh từ tập hợp các phần tử của* $ A[P] $ *bất biến dưới* $ W $ *lên tập hợp các phần tử phản bất biến của* $ A[P] $.
+(i) *Phần tử d được xác định bởi (3) là một phần tử phản bất biến của A[P]; số hạng cực đại duy nhất của nó* (no. 2, Định nghĩa 1) *là* $e^{\rho}$ *và* $d = J(e^{\rho})$.
+(ii) *Với mọi* $p \in P$, *phần tử* $J(e^p)$ *chia được duy nhất cho* $d$ *và thương* $J(e^p)/d$ *là một phần tử của* $A[P]$ *bất biến dưới* $W$.
+(iii) *Nếu 2 không phải là một ước của không trong* $A$, *phép nhân bởi* $d$ *là một song ánh từ tập hợp các phần tử của* $A[P]$ *bất biến dưới* $W$ *lên tập hợp các phần tử phản bất biến của* $A[P]$.
 
-Ta biết rằng, với $ 1 \leq i \leq l $, phép phản xạ $ s_i = s_{\alpha_i} $ giữ ổn định tập các căn dương khác $ \alpha_i $ và rằng $ s_i(\alpha_i) = -\alpha_i $ (\S 1, no. 6, Hệ quả 1 của Mệnh đề 17). Do đó,
+Ta biết rằng, với $1 \leq i \leq l$, phép phản xạ $s_i = s_{\alpha_i}$ giữ ổn định tập các căn dương khác $\alpha_i$ và rằng $s_i(\alpha_i) = -\alpha_i$ (\S 1, no. 6, Hệ quả 1 của Mệnh đề 17). Do đó,
 $$
 s_i(d) = (e^{-\alpha_i/2} - e^{\alpha_i/2}) \prod_{\alpha \in R, \alpha > 0, \alpha \neq \alpha_i} (e^{\alpha/2} - e^{-\alpha/2}) \\
 = -d = \varepsilon(s_i).d.
 $$
-Vì các $ s_i $ sinh ra $ W $, điều này chứng minh mệnh đề thứ nhất trong (i). Mệnh đề thứ hai trong (i) suy ra ngay lập tức từ (3) và Bổ đề 2, khi lưu ý rằng 1 là số hạng cực đại duy nhất của $ 1 - e^{-\alpha} $ đối với $ \alpha \in R, \alpha > 0 $.
+Vì các $s_i$ sinh ra $W$, điều này chứng minh mệnh đề thứ nhất trong (i). Mệnh đề thứ hai trong (i) suy ra ngay lập tức từ (3) và Bổ đề 2, khi lưu ý rằng 1 là số hạng cực đại duy nhất của $1 - e^{-\alpha}$ đối với $\alpha \in R, \alpha > 0$.
 
-Bây giờ giả sử rằng $ A = \mathbf{Z} $. Theo Mệnh đề 1,
+Bây giờ giả sử rằng $A = \mathbf{Z}$. Theo Mệnh đề 1,
 
 $$
 d = \prod_{p \in P \cap C} c_p J(e^p) \quad \text{với} \quad c_p \in \mathbf{Z}.
@@ -182,45 +182,45 @@ $$
 d = e^\rho + \sum_{q < \rho} c'_q e^q.
 $$
 
-Nếu $ p \in P \cap C $ với $ p \neq \rho $, thì $ p > \rho $ và hệ số của $ e^p $ trong $ d $ bằng không theo (5). Do đó, $ c_p = 0 $. Hơn nữa, việc so sánh các hệ số của $ e^\rho $ trong (4) và (5) cho thấy $ c_\rho = 1 $ và vì thế $ d = J(e^\rho) $.
+Nếu $p \in P \cap C$ với $p \neq \rho$, thì $p > \rho$ và hệ số của $e^p$ trong $d$ bằng không theo (5). Do đó, $c_p = 0$. Hơn nữa, việc so sánh các hệ số của $e^\rho$ trong (4) và (5) cho thấy $c_\rho = 1$ và vì thế $d = J(e^\rho)$.
 
-Ta tiếp tục giả sử rằng $ A = \mathbf{Z} $. Cho $ p \in P, \alpha \in \mathbf{R} $ và $ M $ là một hệ các đại diện của các lớp kề phải của $ W $ đối với nhóm con $ \{1, s_\alpha\} $. Khi đó,
+Ta tiếp tục giả sử rằng $A = \mathbf{Z}$. Cho $p \in P, \alpha \in \mathbf{R}$ và $M$ là một hệ các đại diện của các lớp kề phải của $W$ đối với nhóm con $\{1, s_\alpha\}$. Khi đó,
 
 $$
 J(e^p) = \sum_{w \in M} \varepsilon(w) e^{w(p)} + \sum_{w \in M} \varepsilon(s_\alpha w) e^{s_\alpha w(p)}.
 $$
 
-Bây giờ $ s_\alpha w(p) = w(p) - \langle \alpha^*, w(p) \rangle \alpha = w(p) + n_w \alpha $, với $ n_w \in \mathbf{Z} $. Do đó,
+Bây giờ $s_\alpha w(p) = w(p) - \langle \alpha^*, w(p) \rangle \alpha = w(p) + n_w \alpha$, với $n_w \in \mathbf{Z}$. Do đó,
 
 $$
 J(e^p) = \sum_{w \in M} \varepsilon(w) e^{w(p)} (1 - e^{n_w \alpha}).
 $$
 
-Nếu $ n_w \geq 0 $, hiển nhiên là $ 1 - e^{n_w \alpha} $ chia được cho $ 1 - e^\alpha $ và điều này cũng đúng khi $ n_w < 0 $ vì $ 1 - e^{n_w \alpha} = -e^{n_w \alpha}(1 - e^{-n_w \alpha}) $. Vậy $ J(e^p) $ chia được cho $ 1 - e^\alpha $ trong $ \mathbf{Z}[P] $.
+Nếu $n_w \geq 0$, hiển nhiên là $1 - e^{n_w \alpha}$ chia được cho $1 - e^\alpha$ và điều này cũng đúng khi $n_w < 0$ vì $1 - e^{n_w \alpha} = -e^{n_w \alpha}(1 - e^{-n_w \alpha})$. Vậy $J(e^p)$ chia được cho $1 - e^\alpha$ trong $\mathbf{Z}[P]$.
 
-Theo Bổ đề 1, $ \mathbf{Z}[P] $ là một vành phân tích duy nhất và các phần tử $ 1 - e^\alpha $ với $ \alpha \in \mathbf{R} $ và $ \alpha > 0 $ là đôi một nguyên tố cùng nhau. Suy ra $ J(e^p) $ chia được trong $ \mathbf{Z}[P] $ cho tích $ \prod_{\alpha > 0} (1 - e^\alpha) $, và do đó cũng chia được cho $ d = e^{-\rho} \prod_{\alpha > 0} (1 - e^\alpha) $.
+Theo Bổ đề 1, $\mathbf{Z}[P]$ là một vành phân tích duy nhất và các phần tử $1 - e^\alpha$ với $\alpha \in \mathbf{R}$ và $\alpha > 0$ là đôi một nguyên tố cùng nhau. Suy ra $J(e^p)$ chia được trong $\mathbf{Z}[P]$ cho tích $\prod_{\alpha > 0} (1 - e^\alpha)$, và do đó cũng chia được cho $d = e^{-\rho} \prod_{\alpha > 0} (1 - e^\alpha)$.
 
-Trở lại trường hợp tổng quát, bằng phép mở rộng các vô hướng từ $ \mathbf{Z} $ sang $ A $, ta suy ra từ trên rằng $ d = J(e^\rho) $ và mọi phần tử $ J(e^p) $ đều chia được cho $ d $. Vì $ e^\rho $ là số hạng cực đại duy nhất của $ d $, Nhận xét của no. 2 cho thấy rằng tồn tại một phần tử duy nhất $ y \in A[P] $ sao cho $ J(e^p) = dy $ và ngay lập tức suy ra rằng $ y $ là bất biến dưới $ W $, và do đó $ d $ và $ J(e^p) $ là phản bất biến. Điều này chứng minh (i) và (ii).
+Trở lại trường hợp tổng quát, bằng phép mở rộng các vô hướng từ $\mathbf{Z}$ sang $A$, ta suy ra từ trên rằng $d = J(e^\rho)$ và mọi phần tử $J(e^p)$ đều chia được cho $d$. Vì $e^\rho$ là số hạng cực đại duy nhất của $d$, Nhận xét của no. 2 cho thấy rằng tồn tại một phần tử duy nhất $y \in A[P]$ sao cho $J(e^p) = dy$ và ngay lập tức suy ra rằng $y$ là bất biến dưới $W$, và do đó $d$ và $J(e^p)$ là phản bất biến. Điều này chứng minh (i) và (ii).
 
-Cuối cùng, nếu 2 không là một ước của không trong $ A $, thì Nhận xét của no. 2 và Mệnh đề 1 suy ra (iii).
+Cuối cùng, nếu 2 không là một ước của không trong $A$, thì Nhận xét của no. 2 và Mệnh đề 1 suy ra (iii).
 
 #### Nhận xét 1 {#lie-vi-s3-n3-rem-1 .statement}
 
-Nếu 2 không phải là một ước của không trong $ A $, thì dễ kiểm tra rằng $ d $ là phần tử phản bất biến duy nhất của $ A[P] $ có $ e^\rho $ là số hạng cực đại của nó.
+Nếu 2 không phải là một ước của không trong $A$, thì dễ kiểm tra rằng $d$ là phần tử phản bất biến duy nhất của $A[P]$ có $e^\rho$ là số hạng cực đại của nó.
 
 #### Nhận xét 2 {#lie-vi-s3-n3-rem-2 .statement}
 
-Bổ đề 2 của no. 2 cho thấy rằng số hạng cực đại duy nhất của thương $ J(e^p)/d $ (với $ p \in P \cap C $) là $ e^{p-\rho} $.
+Bổ đề 2 của no. 2 cho thấy rằng số hạng cực đại duy nhất của thương $J(e^p)/d$ (với $p \in P \cap C$) là $e^{p-\rho}$.
 
 ### 4. CÁC PHẦN TỬ BẤT BIẾN
 
-Cho $ A[P]^W $ là đại số con của $ A[P] $ gồm các phần tử bất biến dưới $ W $. Với $ p \in P $, ký hiệu bởi $ W.p $ quỹ đạo của $ p $ dưới $ W $, và đặt $ S(e^p) = \sum_{q \in W.p} e^q $ là tổng các biến đổi bởi $ W $ của $ e^p $; đây là một phần tử bất biến dưới $ W $.
+Cho $A[P]^W$ là đại số con của $A[P]$ gồm các phần tử bất biến dưới $W$. Với $p \in P$, ký hiệu bởi $W.p$ quỹ đạo của $p$ dưới $W$, và đặt $S(e^p) = \sum_{q \in W.p} e^q$ là tổng các biến đổi bởi $W$ của $e^p$; đây là một phần tử bất biến dưới $W$.
 
-Nếu $ p \in P \cap \overline{C} $, thì $ w(p) \leq p $ với mọi $ w \in W $ ($ \S $ 1, no. 6, Mệnh đề 18) và $ e^p $ là số hạng cực đại duy nhất của $ S(e^p) $.
+Nếu $p \in P \cap \overline{C}$, thì $w(p) \leq p$ với mọi $w \in W$ ($\S$ 1, no. 6, Mệnh đề 18) và $e^p$ là số hạng cực đại duy nhất của $S(e^p)$.
 
-Cho $ x = \sum_p x_p e^p \in A[P]^W $; khi đó $ x_{w(p)} = x_p $ với mọi $ p \in P $ và mọi $ w \in W $.
+Cho $x = \sum_p x_p e^p \in A[P]^W$; khi đó $x_{w(p)} = x_p$ với mọi $p \in P$ và mọi $w \in W$.
 
-Mặt khác, mọi quỹ đạo của $ W $ trong $ P $ cắt $ P \cap \overline{C} $ tại đúng một điểm ($ \S $ 1, no. 5, Định lý 2). Do đó,
+Mặt khác, mọi quỹ đạo của $W$ trong $P$ cắt $P \cap \overline{C}$ tại đúng một điểm ($\S$ 1, no. 5, Định lý 2). Do đó,
 
 $$
 x = \sum_{P \cap \overline{C}} x_p S(e^p).
@@ -230,14 +230,14 @@ Ta suy ra:
 
 #### Bổ đề 3 {#lie-vi-s3-lem-3 .statement}
 
-*Các $ S(e^p) $ với $ p \in P \cap \overline{C} $ tạo thành một cơ sở của $ A $-môđun $ A[P]^W $.*
+*Các $S(e^p)$ với $p \in P \cap \overline{C}$ tạo thành một cơ sở của $A$-môđun $A[P]^W$.*
 
 $$
 e_{i_0} = x_{i_0} - \sum_{j < i_0} a_{i_0 j} e_j,
 $$
-từ đó suy ra (b). Do đó $ J' \in \mathfrak{S} $, mâu thuẫn. Vậy $ J = I $ và bổ đề được chứng minh.
+từ đó suy ra (b). Do đó $J' \in \mathfrak{S}$, mâu thuẫn. Vậy $J = I$ và bổ đề được chứng minh.
 
-Bây giờ chúng ta chứng minh Mệnh đề 3. Ta áp dụng Bổ đề 4 với $ I = P \cap \overline{C} $. Cho $ q \in I $, và gọi $ I_q $ là tập hợp các $ p \in I $ sao cho $ p \leq q $. Nếu $ p \in I_q $, các hệ thức
+Bây giờ chúng ta chứng minh Mệnh đề 3. Ta áp dụng Bổ đề 4 với $I = P \cap \overline{C}$. Cho $q \in I$, và gọi $I_q$ là tập hợp các $p \in I$ sao cho $p \leq q$. Nếu $p \in I_q$, các hệ thức
 $$
 q - p \geq 0,\quad p \in \overline{C},\quad q \in \overline{C}
 $$
@@ -249,7 +249,7 @@ và do đó
 $$
 (p|p) \leq (p|q) \leq (q|q).
 $$
-Vậy tập hợp $ I_q $ là *bị chặn*. Vì $ I $ là rời rạc, suy ra $ I_q $ là *hữu hạn*, và hiển nhiên là $ I $ thỏa mãn điều kiện (MIN). Mặt khác, với mọi $ p \in I $,
+Vậy tập hợp $I_q$ là *bị chặn*. Vì $I$ là rời rạc, suy ra $I_q$ là *hữu hạn*, và hiển nhiên là $I$ thỏa mãn điều kiện (MIN). Mặt khác, với mọi $p \in I$,
 $$
 x_p = e^p + \sum_{q < p} c_{pq} e^q
 $$
@@ -261,18 +261,18 @@ Mệnh đề bây giờ suy ra từ các Bổ đề 3 và 4.
 
 #### Định lý 1 {#lie-vi-s3-thm-1 .statement}
 
-*Cho $ \overline{\omega}_1, \ldots, \overline{\omega}_l $ là các trọng số cơ bản tương ứng với buồng $ C $, và, với $ 1 \leq i \leq l $, cho $ x_i $ là một phần tử của $ A[P]^W $ có $ e^{\overline{\omega}_i} $ là số hạng cực đại duy nhất. Cho*
+*Cho $\overline{\omega}_1, \ldots, \overline{\omega}_l$ là các trọng số cơ bản tương ứng với buồng $C$, và, với $1 \leq i \leq l$, cho $x_i$ là một phần tử của $A[P]^W$ có $e^{\overline{\omega}_i}$ là số hạng cực đại duy nhất. Cho*
 $$
 \varphi : \Lambda[X_1, \ldots, X_l] \to A[P]^W
 $$
-*là đồng cấu từ đại số đa thức $ \Lambda[X_1, \ldots, X_l] $ vào $ A[P]^W $ biến $ X_i $ thành $ x_i $. Khi đó, ánh xạ $ \varphi $ là một đẳng cấu.*
+*là đồng cấu từ đại số đa thức $\Lambda[X_1, \ldots, X_l]$ vào $A[P]^W$ biến $X_i$ thành $x_i$. Khi đó, ánh xạ $\varphi$ là một đẳng cấu.*
 
-Bổ đề 2 kéo theo rằng ảnh qua $ \varphi $ của đơn thức $ X_1^{n_1} \ldots X_l^{n_l} $ là một phần tử có số hạng cực đại duy nhất $ e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l} $. Vì mọi phần tử của $ P \cap \overline{C} $ đều có thể viết một cách duy nhất dưới dạng $ n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l $, Mệnh đề 3 cho thấy rằng các ảnh qua $ \varphi $ của các đơn thức $ X_1^{n_1} \ldots X_l^{n_l} $ tạo thành một cơ sở của $ A[P]^W $, do đó suy ra định lý.
+Bổ đề 2 kéo theo rằng ảnh qua $\varphi$ của đơn thức $X_1^{n_1} \ldots X_l^{n_l}$ là một phần tử có số hạng cực đại duy nhất $e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l}$. Vì mọi phần tử của $P \cap \overline{C}$ đều có thể viết một cách duy nhất dưới dạng $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$, Mệnh đề 3 cho thấy rằng các ảnh qua $\varphi$ của các đơn thức $X_1^{n_1} \ldots X_l^{n_l}$ tạo thành một cơ sở của $A[P]^W$, do đó suy ra định lý.
 
 #### Ví dụ 1 {#lie-vi-s3-n4-exa-1 .statement}
 
-Ta có thể lấy $ x_i = S(e^{\overline{\omega}_i}) $.
-2) Theo *Nhận xét* 2 của no. 3, ta có thể lấy $ x_i = J(e^{\rho + \overline{\omega}_i})/d $ (với ký hiệu ở no. 3).
+Ta có thể lấy $x_i = S(e^{\overline{\omega}_i})$.
+2) Theo *Nhận xét* 2 của no. 3, ta có thể lấy $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (với ký hiệu ở no. 3).
 
 ### Bài tập {#lie-vi-s3-exercises}
 

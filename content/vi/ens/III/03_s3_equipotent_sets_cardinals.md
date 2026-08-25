@@ -45,9 +45,9 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: 73b86be13840df434f0c2cdfd6a57104ba8d3855f3ed645661eba5b814f303ba
+content_sha256: 4bcde7415ae2c39cafa0062dac1522a9c48a9eda2b17ae0626407cb7de436c76
 translated_from: content/en/ens/III/03_s3_equipotent_sets_cardinals.md
-source_content_sha256: b10e118edc3d4c8f8b3ba54c4c5c2db278e559b9b62eed130604ab192fa32c31
+source_content_sha256: b7e3283c08a7f827f94116023cea777542d6c73a0e5503a5708dedd177a32eb9
 translation_model: gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34
@@ -151,7 +151,7 @@ Cho một tập hợp bất kỳ $A$, tồn tại một tập hợp mà các ph�
 
 *Với mọi họ* $(\mathfrak{a}_\iota)_{\iota \in I}$ *các lực lượng, tồn tại một lực lượng duy nhất* $\mathfrak{b}$ *sao cho* $\mathfrak{a}_\iota \leqslant \mathfrak{b}$ *với mọi* $\iota \in I$ *và sao cho mọi lực lượng* $\mathfrak{c}$ *mà* $\mathfrak{a}_\iota \leqslant \mathfrak{c}$ *với mọi* $\iota \in I$ *đều* $\geqslant \mathfrak{b}$.
 
-Tồn tại một tập hợp E chứa mọi tập hợp $\mathfrak{a}_\iota$ (chẳng hạn, tổng của các tập hợp này (Chương II, § 4, no. 8)), do đó $\mathfrak{a}_\iota \leqslant \mathfrak{a} = $ Card (E) với mọi $\iota \in I$. Tập hợp F của các lực lượng $\leqslant \mathfrak{a}$ được sắp tốt và chứa mọi $\mathfrak{a}_\iota$, và vì vậy họ $(\mathfrak{a}_\iota)_{\iota \in I}$ có một cận trên bé nhất $\mathfrak{b}$ trong F. Cho $\mathfrak{c}$ là một lực lượng $\geqslant \mathfrak{a}_\iota$ với mọi $\iota \in I$; nếu $\mathfrak{c} < \mathfrak{b} \leqslant \mathfrak{a}$, thì $\mathfrak{c} \in F$, và bất đẳng thức $\mathfrak{a}_\iota \leqslant \mathfrak{c}$ mâu thuẫn với định nghĩa của cận trên bé nhất của họ $(\mathfrak{a}_\iota)$ trong tập hợp có thứ tự F; do đó suy ra kết quả.
+Tồn tại một tập hợp E chứa mọi tập hợp $\mathfrak{a}_\iota$ (chẳng hạn, tổng của các tập hợp này (Chương II, § 4, no. 8)), do đó $\mathfrak{a}_\iota \leqslant \mathfrak{a} =$ Card (E) với mọi $\iota \in I$. Tập hợp F của các lực lượng $\leqslant \mathfrak{a}$ được sắp tốt và chứa mọi $\mathfrak{a}_\iota$, và vì vậy họ $(\mathfrak{a}_\iota)_{\iota \in I}$ có một cận trên bé nhất $\mathfrak{b}$ trong F. Cho $\mathfrak{c}$ là một lực lượng $\geqslant \mathfrak{a}_\iota$ với mọi $\iota \in I$; nếu $\mathfrak{c} < \mathfrak{b} \leqslant \mathfrak{a}$, thì $\mathfrak{c} \in F$, và bất đẳng thức $\mathfrak{a}_\iota \leqslant \mathfrak{c}$ mâu thuẫn với định nghĩa của cận trên bé nhất của họ $(\mathfrak{a}_\iota)$ trong tập hợp có thứ tự F; do đó suy ra kết quả.
 
 ¶ Theo lối nói lạm dụng, lực lượng $\mathfrak{b}$ được gọi là *cận trên bé nhất* của họ $(\mathfrak{a}_\iota)_{\iota \in I}$ và được ký hiệu bởi $\sup_{\iota \in I} \mathfrak{a}_\iota$.
 

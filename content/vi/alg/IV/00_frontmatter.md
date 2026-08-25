@@ -13,9 +13,9 @@ pdf_pages: 0010-0010
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 39229e59416ae020fd25d99849a607fb549960f8627330b8a2dcadb6559d97f8
+content_sha256: 3d11553aafb17e8109b483ecc843c7077cb9d63c809ab61be362d98da219f11e
 translated_from: content/en/alg/IV/00_frontmatter.md
-source_content_sha256: 0b1255cf93a97b12ac3a0b525a317b8d08da2f5b2b52d7e1fb0cdc35c1af65c0
+source_content_sha256: 9225c43d416a90483ab97376284aa781b5ea8ad41382648f10ed1da8b40986ae
 translation_model: gpt-5.4
 translation_run: translate-vi-7df23a38
 glossary_version: 34
@@ -27,4 +27,4 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 # Đa thức và phân thức hữu tỉ
 
-Trong suốt chương này, $ \mathbf{A} $ ký hiệu một vành giao hoán.
+Trong suốt chương này, $\mathbf{A}$ ký hiệu một vành giao hoán.

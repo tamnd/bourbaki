@@ -24,7 +24,7 @@ subsections:
       pdf_page: 255
 statements: 10
 exercises: 0
-content_sha256: fbfa7fc6b9f5745ee2ef8bf0b1ab78bc3caef3ab514156c296816b3f7793570f
+content_sha256: 7845b7e2bd4a655ddc90c51d69de092ba1cf892797854eb6ec7e8069c2d39675
 ---
 
 ## § 2. GROUP OF TANGENT VECTORS TO A LIE GROUP
@@ -74,39 +74,39 @@ If m is associative, then $m \circ (m \times \mathrm{Id}_X) = m \circ (\mathrm{I
 
 $$T(m) \circ (T(m) \times \mathrm{Id}_{T(X)}) = T(m) \circ (\mathrm{Id}_{T(X)} \times T(m))$$
 
-and hence $ T(m) $ is associative. Let $ s $ be the mapping $ (x, y) \mapsto (y, x) $ of $ X \times X $ into $ X \times X $. If $ m $ is commutative, then $ m \circ s = m $ and hence
+and hence $T(m)$ is associative. Let $s$ be the mapping $(x, y) \mapsto (y, x)$ of $X \times X$ into $X \times X$. If $m$ is commutative, then $m \circ s = m$ and hence
 
 $$
 T(m) \circ T(s) = T(m).
 $$
 
-But $ T(s) $ is the mapping $ (u, v) \mapsto (v, u) $ of $ T(X) \times T(X) $ into $ T(X) \times T(X) $. Hence $ T(m) $ is commutative.
+But $T(s)$ is the mapping $(u, v) \mapsto (v, u)$ of $T(X) \times T(X)$ into $T(X) \times T(X)$. Hence $T(m)$ is commutative.
 
 #### Proposition 2 {#lie-iii-s2-prop-2 .statement}
 
-*Let $ X $ be a manifold of class $ C^r $, $ m $ a law of composition of class $ C^r $ on $ X $ and $ e $ an identity element for $ m $.
+*Let $X$ be a manifold of class $C^r$, $m$ a law of composition of class $C^r$ on $X$ and $e$ an identity element for $m$.
 
-(i) *The vector $ 0_e $ is an identity element for $ T(m) $.
-(ii) *$ T_e(X) $ is stable under $ T(m) $ and the law of composition induced on $ T_e(X) $ by $ T(m) $ is the vector space addition on $ T_e(X) $.
-(iii) *Let $ U $ be an open subset of $ X $ and $ \alpha $ a mapping of class $ C^r $ of $ U $ into $ X $ such that, for all $ x \in U $, $ \alpha(x) $ is the inverse of $ x $ under $ m $. Then, for all $ u \in T(U) $, $ T(\alpha)u $ is the inverse of $ u $ under $ T(m) $.
+(i) *The vector $0_e$ is an identity element for $T(m)$.
+(ii) *$T_e(X)$ is stable under $T(m)$ and the law of composition induced on $T_e(X)$ by $T(m)$ is the vector space addition on $T_e(X)$.
+(iii) *Let $U$ be an open subset of $X$ and $\alpha$ a mapping of class $C^r$ of $U$ into $X$ such that, for all $x \in U$, $\alpha(x)$ is the inverse of $x$ under $m$. Then, for all $u \in T(U)$, $T(\alpha)u$ is the inverse of $u$ under $T(m)$.
 
-Properties (3) and (4) show that $ T(m)(0_e, u) = T(m)(u, 0_e) = u $ for all $ u \in T(X) $, whence (i). For $ u, v $ in $ T_e(X) $,
+Properties (3) and (4) show that $T(m)(0_e, u) = T(m)(u, 0_e) = u$ for all $u \in T(X)$, whence (i). For $u, v$ in $T_e(X)$,
 
 $$
 T(m)(u, v) = T(m)(u, 0_e) + T(m)(0_e, v) = u + v,
 $$
 
-whence (ii). Finally the relations $ m(x, \alpha(x)) = m(\alpha(x), x) = e $ for all $ x \in U $ imply
+whence (ii). Finally the relations $m(x, \alpha(x)) = m(\alpha(x), x) = e$ for all $x \in U$ imply
 
 $$
 T(m)(u, T(\alpha)(u)) = T(m)(T(\alpha)u, u) = 0_e
 $$
 
-for all $ u \in T(U) $, whence (iii).
+for all $u \in T(U)$, whence (iii).
 
 #### Proposition 3 {#lie-iii-s2-prop-3 .statement}
 
-*Let $ X_1, X_2, \ldots, X_p, Y $ be manifolds of class $ C^r $, $ i $ an integer of $ \{1, p\} $, $ m_i $ (resp. $ n $) a law of composition of class $ C^r $ on $ X_i $ (resp. $ Y $) and $ u $ a mapping of class $ C^r $ of $ X_1 \times X_2 \times \cdots \times X_p $ into $ Y $. If $ u $ is distributive relative to the variable of index $ i $, then $ T(u) $ is distributive relative to the variable of index $ i $.
+*Let $X_1, X_2, \ldots, X_p, Y$ be manifolds of class $C^r$, $i$ an integer of $\{1, p\}$, $m_i$ (resp. $n$) a law of composition of class $C^r$ on $X_i$ (resp. $Y$) and $u$ a mapping of class $C^r$ of $X_1 \times X_2 \times \cdots \times X_p$ into $Y$. If $u$ is distributive relative to the variable of index $i$, then $T(u)$ is distributive relative to the variable of index $i$.
 
 The proof is analogous to that of Proposition 1.
 
@@ -114,61 +114,61 @@ The proof is analogous to that of Proposition 1.
 
 #### Proposition 4 {#lie-iii-s2-prop-4 .statement}
 
-*Let $ G $ be a Lie group. Then $ T(G) $, with the law of composition tangent to the multiplication of $ G $, is a Lie group. The identity element of $ T(G) $ is the vector $ 0_e $.
+*Let $G$ be a Lie group. Then $T(G)$, with the law of composition tangent to the multiplication of $G$, is a Lie group. The identity element of $T(G)$ is the vector $0_e$.
 
 This follows from Propositions 1 and 2.
 
 #### Proposition 5 {#lie-iii-s2-prop-5 .statement}
 
-*Let $ G $ and $ H $ be Lie groups and $ f $ a morphism of $ G $ into $ H $. Then $ T(f) $ is a morphism of the Lie group $ T(G) $ into the Lie group $ T(H) $.
+*Let $G$ and $H$ be Lie groups and $f$ a morphism of $G$ into $H$. Then $T(f)$ is a morphism of the Lie group $T(G)$ into the Lie group $T(H)$.
 
-We know that $ T(f') $ is analytic. On the other hand, let $ m $ (resp. $ n $) denote the multiplication on $ G $ (resp. $ H $). Then $ f \circ m = n \circ (f \times f) $, whence
+We know that $T(f')$ is analytic. On the other hand, let $m$ (resp. $n$) denote the multiplication on $G$ (resp. $H$). Then $f \circ m = n \circ (f \times f)$, whence
 
 $$
 T(f) \circ T(m) = T(n) \circ (T(f) \times T(f)),
 $$
 
-which expresses the fact that $ T(f) $ is a group homomorphism.
+which expresses the fact that $T(f)$ is a group homomorphism.
 
 #### Corollary {#lie-iii-s2-n2-cor-1 .statement}
 
-*Let $ G_1, \ldots, G_n $ be Lie groups. The canonical isomorphism of the manifold $ T(G_1 \times \cdots \times G_n) $ onto the manifold $ T(G_1) \times \cdots \times T(G_n) $ is a Lie group isomorphism.*
+*Let $G_1, \ldots, G_n$ be Lie groups. The canonical isomorphism of the manifold $T(G_1 \times \cdots \times G_n)$ onto the manifold $T(G_1) \times \cdots \times T(G_n)$ is a Lie group isomorphism.*
 
-$ \mathrm{pr}_i $ is a morphism of $ G_1 \times \cdots \times G_n $ into $ G_i $ and hence $ T(\mathrm{pr}_i) $ is a morphism of $ T(G_1 \times \cdots \times G_n) $ into $ T(G_i) $.
+$\mathrm{pr}_i$ is a morphism of $G_1 \times \cdots \times G_n$ into $G_i$ and hence $T(\mathrm{pr}_i)$ is a morphism of $T(G_1 \times \cdots \times G_n)$ into $T(G_i)$.
 
 #### Proposition 6 {#lie-iii-s2-prop-6 .statement}
 
-*Let $ G $ be a Lie group.*
-  (i) *The canonical projection $ p : T(G) \to G $ is a Lie group morphism.*
-  (ii) *The kernel of $ p $ is $ T_e(G) $. It is a Lie subgroup of $ T(G) $. The Lie group structure induced on $ T_e(G) $ by that on $ T(G) $ is the Lie group structure of the complete normable space $ T_e(G) $.*
-  (iii) *The zero section $ s $ is an isomorphism of the Lie group $ G $ onto a Lie subgroup $ s(G) $ of $ T(G) $ (which subgroup we identify with $ G $).*
-  (iv) *The Lie group $ T(G) $ is the semi-direct product of $ G $ by $ T_e(G) $.*
+*Let $G$ be a Lie group.*
+  (i) *The canonical projection $p : T(G) \to G$ is a Lie group morphism.*
+  (ii) *The kernel of $p$ is $T_e(G)$. It is a Lie subgroup of $T(G)$. The Lie group structure induced on $T_e(G)$ by that on $T(G)$ is the Lie group structure of the complete normable space $T_e(G)$.*
+  (iii) *The zero section $s$ is an isomorphism of the Lie group $G$ onto a Lie subgroup $s(G)$ of $T(G)$ (which subgroup we identify with $G$).*
+  (iv) *The Lie group $T(G)$ is the semi-direct product of $G$ by $T_e(G)$.*
 
 Assertion (i) follows from (5). Assertion (ii) is obvious taking account of Proposition 2 (ii). Assertions (iii) and (iv) follow from (6) and § 1, Proposition 8.
 
-Let $ u \in T(G) $ and $ g \in G $. By (3) and (4), the products $ ug, gu $ calculated in the group $ T(G) $ are the images of $ u $ under $ T(\delta(g^{-1})) $ and $ T(\gamma(g)) $. It follows from § 1, Corollary 2 to Proposition 17 that the mapping $ (g, u) \mapsto gu $ of $ G \times T_e(G) $ into $ T(G) $ is an isomorphism of the trivial vector bundle $ G \times T_e(G) $ with base space $ G $ onto the vector bundle $ T(G) $. The inverse isomorphism is called the *left trivialization* of $ T(G) $. By considering the mapping $ (g, u) \mapsto ug $, the *right trivialization* of $ T(G) $ is defined similarly.
+Let $u \in T(G)$ and $g \in G$. By (3) and (4), the products $ug, gu$ calculated in the group $T(G)$ are the images of $u$ under $T(\delta(g^{-1}))$ and $T(\gamma(g))$. It follows from § 1, Corollary 2 to Proposition 17 that the mapping $(g, u) \mapsto gu$ of $G \times T_e(G)$ into $T(G)$ is an isomorphism of the trivial vector bundle $G \times T_e(G)$ with base space $G$ onto the vector bundle $T(G)$. The inverse isomorphism is called the *left trivialization* of $T(G)$. By considering the mapping $(g, u) \mapsto ug$, the *right trivialization* of $T(G)$ is defined similarly.
 
 #### Proposition 7 {#lie-iii-s2-prop-7 .statement}
 
-*Let $ G $ be a Lie group, $ M $ a manifold of class $ C^r $ and $ f $ and $ g $ mappings of class $ C^r $ of $ M $ into $ G $, so that $ fg $ is a mapping of class $ C^r $ of $ M $ into $ G $. Let $ m \in M, x = f(m), y = g(m), u \in T_m(M) $. Then*
+*Let $G$ be a Lie group, $M$ a manifold of class $C^r$ and $f$ and $g$ mappings of class $C^r$ of $M$ into $G$, so that $fg$ is a mapping of class $C^r$ of $M$ into $G$. Let $m \in M, x = f(m), y = g(m), u \in T_m(M)$. Then*
 
 $$
 (T fg)u = T(f)u.y + x.T(g)u.
 $$
 
-Let $ m $ be the multiplication of $ G $. Then $ fg = m \circ (f, g) $. Now
+Let $m$ be the multiplication of $G$. Then $fg = m \circ (f, g)$. Now
 
 $$
 T(f, g)(u) = (T(f)u, T(g)u),
 $$
 
-hence $ T(fg)u = T(f)u.T(g)u $. It then suffices to apply (1) with $ f $ replaced by $ m $.
+hence $T(fg)u = T(f)u.T(g)u$. It then suffices to apply (1) with $f$ replaced by $m$.
 
 #### Corollary {#lie-iii-s2-n2-cor-2 .statement}
 
-*Let $ n \in \mathbf{Z} $. The tangent mapping at $ e $ to the mapping $ g \mapsto g^n $ of $ G $ into $ G $ is the mapping $ x \mapsto nx $ of $ T_e(G) $ into $ T_e(G) $.*
+*Let $n \in \mathbf{Z}$. The tangent mapping at $e$ to the mapping $g \mapsto g^n$ of $G$ into $G$ is the mapping $x \mapsto nx$ of $T_e(G)$ into $T_e(G)$.*
 
-For $ n \geqslant 0 $, this follows by induction on $ n $ from Proposition 7. On the other hand, the tangent mapping at $ e $ to the mapping $ g \mapsto g^{-1} $ is the mapping $ x \mapsto -x $ (no. 1, Proposition 2).
+For $n \geqslant 0$, this follows by induction on $n$ from Proposition 7. On the other hand, the tangent mapping at $e$ to the mapping $g \mapsto g^{-1}$ is the mapping $x \mapsto -x$ (no. 1, Proposition 2).
 
 Let G be a Lie group, X a manifold of class C^r and (g, x) \mapsto gx a law of left operation of class C^r of G on X. Arguing as for Proposition 1, we derive a law of left operation of class C^{r-1} of T(G) on T(X), which we shall also denote by (u, v) \mapsto uv. Identifying G (resp. X) with the image of the zero section of T(G) (resp. T(X)), we see by (6) that the law of left operation of T(G) on T(X) extends the law of left operation of G on X. For all u \in T_g(G) and v \in T_x(X), by (1),
 
@@ -210,8 +210,8 @@ Let x \in X. Using (4), ax is the image under the tangent mapping to \lambda \ma
 
 ### 3. CASE OF GROUP GERMS
 
-Let (G, e, \theta, m) be a Lie group germ and \Omega the set of definition of m. Then T(\Omega) is identified with an open subset of T(G) \times T(G) and T(m) is an analytic mapping of $ T(\Omega) $ into $ T(G) $. It can be verified as in no. 2 that $ (T(G), 0_e, T(\theta), T(m)) $ is a Lie group germ. The products of $ G $ and $ T(G) $ are often written multiplicatively. The canonical projection of $ T(G) $ onto $ G $ is a morphism of Lie group germs. The restriction of $ T_e(m) $ to $ T_e(G) $ is the vector space addition of $ T_e(G) $. The zero section of $ T(G) $ is an isomorphism of the Lie group germ $ G $ onto a Lie subgroup germ of $ T(G) $ which we identify with $ G $. If $ f $ is a morphism of $ G $ into a Lie group germ $ H $, $ T(f): T(G) \to T(H) $ is a morphism of Lie group germs.
+Let (G, e, \theta, m) be a Lie group germ and \Omega the set of definition of m. Then T(\Omega) is identified with an open subset of T(G) \times T(G) and T(m) is an analytic mapping of $T(\Omega)$ into $T(G)$. It can be verified as in no. 2 that $(T(G), 0_e, T(\theta), T(m))$ is a Lie group germ. The products of $G$ and $T(G)$ are often written multiplicatively. The canonical projection of $T(G)$ onto $G$ is a morphism of Lie group germs. The restriction of $T_e(m)$ to $T_e(G)$ is the vector space addition of $T_e(G)$. The zero section of $T(G)$ is an isomorphism of the Lie group germ $G$ onto a Lie subgroup germ of $T(G)$ which we identify with $G$. If $f$ is a morphism of $G$ into a Lie group germ $H$, $T(f): T(G) \to T(H)$ is a morphism of Lie group germs.
 
-The mapping $ \phi: (g, u) \mapsto gu $ of $ G \times T_e(G) $ into $ T(G) $ is an isomorphism of the trivial vector bundle $ G \times T_e(G) $ with base space $ G $ onto the vector bundle $ T(G) $; for $ \phi $ and $ \phi^{-1} $ are analytic and are vector bundle morphisms, so that it suffices to apply *Differentiable and Analytic Manifolds*, R, 7.2.1. (The proof of no. 2 could also be adapted.) The isomorphism $ \phi^{-1} $ is called the left trivialization of $ T(G) $. The inverse isomorphism of the mapping $ (g, u) \mapsto ug $ is called the right trivialization.
+The mapping $\phi: (g, u) \mapsto gu$ of $G \times T_e(G)$ into $T(G)$ is an isomorphism of the trivial vector bundle $G \times T_e(G)$ with base space $G$ onto the vector bundle $T(G)$; for $\phi$ and $\phi^{-1}$ are analytic and are vector bundle morphisms, so that it suffices to apply *Differentiable and Analytic Manifolds*, R, 7.2.1. (The proof of no. 2 could also be adapted.) The isomorphism $\phi^{-1}$ is called the left trivialization of $T(G)$. The inverse isomorphism of the mapping $(g, u) \mapsto ug$ is called the right trivialization.
 
-Let $ X $ be a manifold of class $ C^r $ and $ \psi $ a law chunk of left operation of class $ C^r $ of $ G $ on $ X $. Then $ T(\psi) $ is a law chunk of left operation of class $ C^{r-1} $ of $ T(G) $ on $ T(X) $ extending $ \psi $. Formulae (7), (8) and (9) remain valid if $ gx $ is defined. If $ I $ is an open subset of $ K $ containing 0, if $ \gamma: I \to G $ is a mapping of class $ C^r $ such that $ \gamma(0) = e $ and if $ a = T_0(\gamma)1 $, the vector field $ x \mapsto ax $ defined on $ X $ is the vector field defined by the mapping $ (\lambda, x) \mapsto \gamma(\lambda)x $ in the sense of *Differentiable and Analytic Manifolds*, R, 8.4.5.
+Let $X$ be a manifold of class $C^r$ and $\psi$ a law chunk of left operation of class $C^r$ of $G$ on $X$. Then $T(\psi)$ is a law chunk of left operation of class $C^{r-1}$ of $T(G)$ on $T(X)$ extending $\psi$. Formulae (7), (8) and (9) remain valid if $gx$ is defined. If $I$ is an open subset of $K$ containing 0, if $\gamma: I \to G$ is a mapping of class $C^r$ such that $\gamma(0) = e$ and if $a = T_0(\gamma)1$, the vector field $x \mapsto ax$ defined on $X$ is the vector field defined by the mapping $(\lambda, x) \mapsto \gamma(\lambda)x$ in the sense of *Differentiable and Analytic Manifolds*, R, 8.4.5.

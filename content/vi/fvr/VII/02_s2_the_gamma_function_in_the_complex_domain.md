@@ -24,9 +24,9 @@ subsections:
       pdf_page: 334
 statements: 6
 exercises: 6
-content_sha256: b7b4010961c351b7237b1591fbe3a1889f1a11cd29f1c181a0ee6c0a325321f8
+content_sha256: c2e7474c730c49e2bc9cac1c5791fd0c5afb7cf4b6bc532c3b63cfc2dc0901b1
 translated_from: content/en/fvr/VII/02_s2_the_gamma_function_in_the_complex_domain.md
-source_content_sha256: 6be47bc6aec4e2250251661d315af13917b7991b97da582bdb05fa9da882ba8a
+source_content_sha256: 437d88fbb7bfdd1173fb6523af39fd95358bf570c84e41c9bc95be7e8f1e262e
 translation_model: gpt-5.4
 translation_run: translate-vi-f1288f74
 glossary_version: 34
@@ -78,13 +78,13 @@ $$
 
 với mọi $z \neq -n$ ($n \in \mathbf{N}$).
 
-Cho $ p $ là một số nguyên tùy ý $ > 0 $, và $ K_p $ là đĩa mở $ |z| < p $; với mọi $ z \in K_p $, và mọi số nguyên $ n > p $, $ 1 + \frac{z}{n} $ không phải là một số thực âm, nên $ \log \left( 1 + \frac{z}{n} \right) $ được xác định, và từ điều trên suy ra rằng chuỗi có số hạng tổng quát $ \log \left( 1 + \frac{z}{n} \right) - \frac{z}{n} $ ($ n > p $) *hội tụ chuẩn tắc* trên $ K_p $; điều tương tự cũng đúng với chuỗi thu được bằng cách lấy đạo hàm của số hạng tổng quát một số hữu hạn lần, vì ta có
+Cho $p$ là một số nguyên tùy ý $> 0$, và $K_p$ là đĩa mở $|z| < p$; với mọi $z \in K_p$, và mọi số nguyên $n > p$, $1 + \frac{z}{n}$ không phải là một số thực âm, nên $\log \left( 1 + \frac{z}{n} \right)$ được xác định, và từ điều trên suy ra rằng chuỗi có số hạng tổng quát $\log \left( 1 + \frac{z}{n} \right) - \frac{z}{n}$ ($n > p$) *hội tụ chuẩn tắc* trên $K_p$; điều tương tự cũng đúng với chuỗi thu được bằng cách lấy đạo hàm của số hạng tổng quát một số hữu hạn lần, vì ta có
 
 $$
 \left| \frac{1}{n} - \frac{1}{z+n} \right| \leq \frac{p}{n(n-p)} \quad \text{và} \quad \left| \frac{1}{(z+n)^k} \right| \leq \frac{1}{(n-p)^k} \qquad (k > 1)
 $$
 
-với $ z \in K_p $ và $ n > p $. Khi đó ta thấy (*xem* II, p. 59, *Nhận xét 3*) rằng $ \Gamma(z) $ là *khả vi vô hạn* tại mọi điểm $ z \in \mathbf{C} $ trừ các điểm $ -n $, và tại các điểm này ta có
+với $z \in K_p$ và $n > p$. Khi đó ta thấy (*xem* II, p. 59, *Nhận xét 3*) rằng $\Gamma(z)$ là *khả vi vô hạn* tại mọi điểm $z \in \mathbf{C}$ trừ các điểm $-n$, và tại các điểm này ta có
 
 $$
 \frac{\Gamma'(z)}{\Gamma(z)} = -\gamma - \frac{1}{z} + \sum_{n=1}^{\infty} \left( \frac{1}{n} - \frac{1}{z+n} \right)
@@ -96,24 +96,24 @@ D^{k-1} \left( \frac{\Gamma'(z)}{\Gamma(z)} \right) = \sum_{n=0}^{\infty} \frac{
 $$
 (6)
 
-các vế phải của (5) và (6) là *hội tụ chuẩn tắc* trên mọi tập con compắc của $ \mathbf{C} $ không chứa số nguyên nào $ \leq 0 $. Hơn nữa, ta có thể viết
+các vế phải của (5) và (6) là *hội tụ chuẩn tắc* trên mọi tập con compắc của $\mathbf{C}$ không chứa số nguyên nào $\leq 0$. Hơn nữa, ta có thể viết
 
 $$
 \log \Gamma(z) \equiv -\gamma z - \log z + \sum_{n=1}^{\infty} \left( \frac{z}{n} - \log \left( 1 + \frac{z}{n} \right) \right) \qquad (\text{mod. } 2\pi i)
 $$
 (7)
 
-với quy ước rằng khi một lôgarit trong công thức này là lôgarit của một số thực âm thì nó nhận một trong hai giá trị giới hạn (sai khác nhau bởi $ 2\pi i $) của $ \log z $ tại điểm ấy; khi đó chuỗi ở vế phải của (7) là hội tụ chuẩn tắc trên mọi tập con compắc của $ \mathbf{C} $ không chứa số nguyên nào $ \leq 0 $.
+với quy ước rằng khi một lôgarit trong công thức này là lôgarit của một số thực âm thì nó nhận một trong hai giá trị giới hạn (sai khác nhau bởi $2\pi i$) của $\log z$ tại điểm ấy; khi đó chuỗi ở vế phải của (7) là hội tụ chuẩn tắc trên mọi tập con compắc của $\mathbf{C}$ không chứa số nguyên nào $\leq 0$.
 
 ### 2. QUAN HỆ CÁC PHẦN BÙ VÀ CÔNG THỨC PHÉP NHÂN LEGENDRE-GAUSS
 
-Từ công thức (2) của VII, p. 315, suy ra ngay lập tức rằng, với mọi $ z \in \mathbf{C} $,
+Từ công thức (2) của VII, p. 315, suy ra ngay lập tức rằng, với mọi $z \in \mathbf{C}$,
 
 $$
 \frac{1}{\Gamma(z)\Gamma(-z)} = -z^2 \prod_{n=1}^{\infty} \left( 1 - \frac{z^2}{n^2} \right).
 $$
 
-Bấy giờ khai triển Euler của $ \sin z $ (VI, p. 287, th. 2) cho thấy rằng
+Bấy giờ khai triển Euler của $\sin z$ (VI, p. 287, th. 2) cho thấy rằng
 
 $$
 z \prod_{n=1}^{\infty} \left( 1 - \frac{z^2}{n^2} \right) = \frac{1}{\pi} \sin \pi z;
@@ -123,7 +123,7 @@ tính đến phương trình phiếm hàm (4) của VII, p. 315, khi đó ta th�
 
 #### Mệnh đề 1 {#fvr-vii-s2-prop-1 .statement}
 
-Với mọi số phức $ z $ ta có
+Với mọi số phức $z$ ta có
 
 $$
 \frac{1}{\Gamma(z)\Gamma(1-z)} = \frac{1}{\pi} \sin \pi z
@@ -131,7 +131,7 @@ $$
 
 (quan hệ của các phần bù).
 
-HỆ QUẢ — Với mọi số thực $ t $ ta có
+HỆ QUẢ — Với mọi số thực $t$ ta có
 
 $$
 |\Gamma(it)| = \sqrt{\frac{\pi}{t \sinh \pi t}} \quad (t \neq 0)
@@ -141,7 +141,7 @@ $$
 |\Gamma(\frac{1}{2} + it)| = \sqrt{\frac{\pi}{\cosh \pi t}}.
 $$
 
-Thật vậy, từ (8) suy ra $ \Gamma(it)\Gamma(-it) = \frac{i\pi}{t \sin \pi it} = \frac{\pi}{t \sinh \pi t} $, và ta có $ \Gamma(-it) = \overline{\Gamma(it)} $; tương tự, (8) cho
+Thật vậy, từ (8) suy ra $\Gamma(it)\Gamma(-it) = \frac{i\pi}{t \sin \pi it} = \frac{\pi}{t \sinh \pi t}$, và ta có $\Gamma(-it) = \overline{\Gamma(it)}$; tương tự, (8) cho
 
 $$
 \Gamma\left(\frac{1}{2} + it\right)\Gamma\left(\frac{1}{2} - it\right) = \frac{\pi}{\sin (\frac{\pi}{2} + \pi it)} = \frac{\pi}{\cos \pi it} = \frac{\pi}{\cosh \pi t},
@@ -153,13 +153,13 @@ $$
 \Gamma\left(\frac{1}{2} - it\right) = \overline{\Gamma\left(\frac{1}{2} + it\right)}.
 $$
 
-Bây giờ, cho $ p $ là một số nguyên bất kỳ $ > 0 $ và xét tích
+Bây giờ, cho $p$ là một số nguyên bất kỳ $> 0$ và xét tích
 
 $$
 f(z) = \Gamma\left(\frac{z+1}{p}\right) \Gamma\left(\frac{z+2}{p}\right) \ldots \Gamma\left(\frac{z+p}{p}\right).
 $$
 
-Theo (3) (VII, p. 315), với mọi $ z \neq -n \ (n \in \mathbf{N}) $, $ f(z) $ là giới hạn của tích
+Theo (3) (VII, p. 315), với mọi $z \neq -n \ (n \in \mathbf{N})$, $f(z)$ là giới hạn của tích
 
 $$
 \frac{n^{(z+1)/p} n!}{\left(\frac{z+1}{p}\right) \left(\frac{z+1}{p} + 1\right) \ldots \left(\frac{z+1}{p} + n\right)}
@@ -177,13 +177,13 @@ $$
 = \frac{n^{z+(p+1)/2} p^{(n+1)p} (n!)^p}{(z+1)(z+2) \ldots (z+(n+1)p)}
 $$
 
-và đặc biệt $ f(0) $ là giới hạn của tích
+và đặc biệt $f(0)$ là giới hạn của tích
 
 $$
 \frac{n^{(p+1)/2} p^{(n+1)p} (n!)^p}{((n+1)p)!}
 $$
 
-từ đó suy ra rằng $ f(z)/f(0) $ là giới hạn của
+từ đó suy ra rằng $f(z)/f(0)$ là giới hạn của
 $$
 \frac{n^z ((n+1)p)!}{(z+1)(z+2)\ldots(z+(n+1)p)}
 = z\ p^{-z} \left( \frac{n}{n+1} \right)^z \cdot \frac{((n+1)p)^z ((n+1)p)!}{z(z+1)(z+2)\ldots(z+(n+1)p)}
@@ -196,15 +196,15 @@ Nhưng ta có thể viết
 $$
 f(0) = \prod_{k=1}^{p-1} \Gamma \left( \frac{k}{p} \right) = \prod_{k=1}^{p-1} \Gamma \left( 1 - \frac{k}{p} \right) = \sqrt{\prod_{k=1}^{p-1} \Gamma \left( \frac{k}{p} \right) \Gamma \left( 1 - \frac{k}{p} \right)}
 $$
-vì $ f(0) > 0 $; khi đó quan hệ bù cho
+vì $f(0) > 0$; khi đó quan hệ bù cho
 $$
 f(0) = \sqrt{\pi^{p-1} / \prod_{k=1}^{p-1} \sin \frac{k\pi}{p}}
 $$
-và vì tích ở vế phải bằng $ p/2^{p-1} $ (VI, p. 284, cor. 1), cuối cùng ta thấy rằng:
+và vì tích ở vế phải bằng $p/2^{p-1}$ (VI, p. 284, cor. 1), cuối cùng ta thấy rằng:
 
 #### Mệnh đề 2 {#fvr-vii-s2-prop-2 .statement}
 
-*Với mọi số phức* $ z $ *không là một số nguyên* $ \leqslant 0 $ *và với mọi số nguyên* $ p > 0 $ *ta có*
+*Với mọi số phức* $z$ *không là một số nguyên* $\leqslant 0$ *và với mọi số nguyên* $p > 0$ *ta có*
 $$
 \Gamma \left( \frac{z}{p} \right) \Gamma \left( \frac{z+1}{p} \right) \ldots \Gamma \left( \frac{z+p-1}{p} \right) = (2\pi)^{(p-1)/2}\ p^{\frac{1}{2}-z}\ \Gamma(z)
 $$
@@ -212,13 +212,13 @@ $$
 
 #### Mệnh đề 3 {#fvr-vii-s2-prop-3 .statement}
 
-*Với mọi số thực* $ x > 0 $ *ta có*
+*Với mọi số thực* $x > 0$ *ta có*
 $$
 \int_1^{x+1} \log \Gamma(t)\ dt = x(\log x - 1) + \frac{1}{2} \log 2\pi
 $$
 *(tích phân của Raabe)*.
 
-Trước hết ta thiết lập công thức (13) cho $ x = 0 $. Vì $ \log \Gamma(x) \sim \log \frac{1}{x} $ khi $ x $ tiến tới 0, tích phân $ \int_0^1 \log \Gamma(x)\ dx $ hội tụ. Hơn nữa, hàm $ \log \Gamma(x) $ giảm trên $ ]0, 1] $ (VII, p. 310); do đó với mọi $ \alpha > 0 $ ta có
+Trước hết ta thiết lập công thức (13) cho $x = 0$. Vì $\log \Gamma(x) \sim \log \frac{1}{x}$ khi $x$ tiến tới 0, tích phân $\int_0^1 \log \Gamma(x)\ dx$ hội tụ. Hơn nữa, hàm $\log \Gamma(x)$ giảm trên $]0, 1]$ (VII, p. 310); do đó với mọi $\alpha > 0$ ta có
 $$
 \frac{1}{n} \sum_{k=1}^q \log \Gamma \left( \frac{k}{n} \right) \leqslant \int_0^\alpha \log \Gamma(x)\ dx,
 $$
@@ -323,19 +323,19 @@ $$
 
 ![Biểu đồ mặt phức cho thấy các trục được ghi nhãn t, s, và các miền H_A, A, -A, 0](Fig. 2)
 
-trong đó C_p chỉ phụ thuộc vào p. Bây giờ cho $ \mathfrak{F} $ là bộ lọc có các tập hợp H_A làm cơ sở; tiêu chuẩn Cauchy cho thấy rằng, theo bộ lọc $ \mathfrak{F} $, hàm $ \log \Gamma(z) - g(z) $ có một giới hạn hữu hạn $ \delta $ (theo modulo $ 2\pi i $) và rằng, nếu đặt $ \omega(z) = \max(\mathcal{R}(z), |\mathcal{I}(z)|) $, thì ta có
+trong đó C_p chỉ phụ thuộc vào p. Bây giờ cho $\mathfrak{F}$ là bộ lọc có các tập hợp H_A làm cơ sở; tiêu chuẩn Cauchy cho thấy rằng, theo bộ lọc $\mathfrak{F}$, hàm $\log \Gamma(z) - g(z)$ có một giới hạn hữu hạn $\delta$ (theo modulo $2\pi i$) và rằng, nếu đặt $\omega(z) = \max(\mathcal{R}(z), |\mathcal{I}(z)|)$, thì ta có
 
 $$
 \log \Gamma(z) - g(z) - \delta \equiv O \left( \frac{1}{(\omega(z))^{2p}} \right) \quad (\text{mod. } 2\pi i).
 $$
 
-Với x thực và > 0 ta có $ \Gamma(x) > 0 $, và $ g(x) $ là thực, nên có thể giả sử rằng $ \delta $ là thực và ta có
+Với x thực và > 0 ta có $\Gamma(x) > 0$, và $g(x)$ là thực, nên có thể giả sử rằng $\delta$ là thực và ta có
 
 $$
 \log \Gamma(x) = g(x) + \delta + O \left( \frac{1}{x^{2p}} \right).
 $$
 
-Bây giờ chúng ta sẽ suy ra giá trị của hằng $ \delta $: theo mệnh đề 2 của VII, p. 318, áp dụng cho $ p = 2 $, ta có, với $ x $ thực tiến tới $ +\infty $
+Bây giờ chúng ta sẽ suy ra giá trị của hằng $\delta$: theo mệnh đề 2 của VII, p. 318, áp dụng cho $p = 2$, ta có, với $x$ thực tiến tới $+\infty$
 
 $$
 \begin{align*}
@@ -344,11 +344,11 @@ $$
 \end{align*}
 $$
 
-từ đó dễ dàng suy ra rằng $ \delta = \frac{1}{2} \log 2\pi $. Cuối cùng ta có kết quả sau:
+từ đó dễ dàng suy ra rằng $\delta = \frac{1}{2} \log 2\pi$. Cuối cùng ta có kết quả sau:
 
 #### Mệnh đề 4 {#fvr-vii-s2-prop-4 .statement}
 
-*Dọc theo bộ lọc $ \mathfrak{F} $ ta có (với mọi số nguyên $ p \geqslant 1 $) khai triển tiệm cận*
+*Dọc theo bộ lọc $\mathfrak{F}$ ta có (với mọi số nguyên $p \geqslant 1$) khai triển tiệm cận*
 
 $$
 \log \Gamma(z) \equiv z \log z - z - \frac{1}{2} \log z + \frac{1}{2} \log 2\pi
@@ -359,19 +359,19 @@ $$
 
 #### Hệ quả {#fvr-vii-s2-n3-cor-1 .statement}
 
-*Dọc theo bộ lọc $ \mathfrak{F} $ ta có*
+*Dọc theo bộ lọc $\mathfrak{F}$ ta có*
 
 $$
 \Gamma(z) \sim \sqrt{2\pi} \exp(z \log z - z - \frac{1}{2} \log z).
 $$
 
-Đặc biệt, với $ x $ thực tiến đến $ +\infty $ thì công thức (20) có thể viết thành
+Đặc biệt, với $x$ thực tiến đến $+\infty$ thì công thức (20) có thể viết thành
 
 $$
 \Gamma(x) \sim \sqrt{2\pi} \, x^{x-1/2} e^{-x},
 $$
 
-do đó, khi số nguyên $ n $ tiến đến $ +\infty $,
+do đó, khi số nguyên $n$ tiến đến $+\infty$,
 
 $$
 n! \sim \sqrt{2\pi} \, n^{n+1/2} \, e^{-n}
@@ -379,25 +379,25 @@ $$
 
 (*xem* V, p. 244).
 
-Từ đây người ta có thể suy ra nhiều công thức. Ví dụ, với mọi số phức $ \alpha $ và mọi số nguyên $ n $ ta có, khi $ n $ tiến tới $ +\infty $,
+Từ đây người ta có thể suy ra nhiều công thức. Ví dụ, với mọi số phức $\alpha$ và mọi số nguyên $n$ ta có, khi $n$ tiến tới $+\infty$,
 
 $$
 \frac{\Gamma(n+\alpha)}{\Gamma(n)} \sim n^{\alpha} \quad (= e^{\alpha \log n}).
 $$
 
-Tương tự, với mọi số phức $ a $ không là một số nguyên $ \leqslant 0 $ ta có
+Tương tự, với mọi số phức $a$ không là một số nguyên $\leqslant 0$ ta có
 
 $$
 a(a+1)(a+2)\ldots(a+n) = \frac{\Gamma(n+a+1)}{\Gamma(a)} \sim \frac{\sqrt{2\pi}}{\Gamma(a)} \, n^{n+a+1/2} \, e^n
 $$
 
-và với mọi số phức $ a $ không là một số nguyên $ \geqslant 0 $
+và với mọi số phức $a$ không là một số nguyên $\geqslant 0$
 
 $$
 \binom{a}{n} = \frac{(-1)^n}{\Gamma(-a)} \frac{\Gamma(n-a)}{\Gamma(n+1)} \sim \frac{(-1)^n}{\Gamma(-a)} \, n^{-a-1}.
 $$
 
-Cuối cùng, với mọi hằng thực $ k > 1 $ ta có
+Cuối cùng, với mọi hằng thực $k > 1$ ta có
 
 $$
 \binom{kn}{n} = \frac{\Gamma(kn+1)}{\Gamma(n+1) \Gamma((k-1)n+1)} \sim \sqrt{\frac{k}{2\pi(k-1)n}} \left( \frac{k^k}{(k-1)^{k-1}} \right)^n.
@@ -407,7 +407,7 @@ Lập luận tương tự dẫn đến mệnh đề tương tự sau đây:
 
 #### Mệnh đề 5 {#fvr-vii-s2-prop-5 .statement}
 
-Theo bộ lọc $ \mathfrak{F} $ ta có (với mọi số nguyên $ p \geqslant 1 $), khai triển tiệm cận
+Theo bộ lọc $\mathfrak{F}$ ta có (với mọi số nguyên $p \geqslant 1$), khai triển tiệm cận
 
 $$
 \frac{\Gamma'(z)}{\Gamma(z)} = \log z - \frac{1}{2z} - \sum_{k=1}^{p} \frac{b_{2k}}{2k} \frac{1}{z^{2k}} + O \left( \frac{1}{(\omega(z))^{2p+1}} \right).

@@ -12,9 +12,9 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: 0317c818260ffbfa4a3030d900f6cf053698ff49e1c9bb49cb386da2c1e35549
+content_sha256: 8b444cc13596e29b97be7fed7a8fd6ab2e18ce5aaaedba98de69d78815eeb977
 translated_from: content/en/evt/III/02_s2_bornological_spaces.md
-source_content_sha256: bb1d36cab9df89b385af8d7360027293742cb8fa7a2b0d897e890f98dbb2fbda
+source_content_sha256: c7e3321e3d8d4131883d603d9cf106f5a8ed1c2ce5cc0f579b8d581a2cc5aace
 translation_model: gpt-5.4
 translation_run: translate-vi-b564a2fb
 glossary_version: 34
@@ -24,7 +24,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 2. KHÔNG GIAN BÔNÔLÔGIC
 
-Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $ \mathcal{B} $ là bônôlôgi chính tắc của nó (III, p. 3, đn. 5).
+Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $\mathcal{B}$ là bônôlôgi chính tắc của nó (III, p. 3, đn. 5).
 
 #### Bổ đề 1 {#evt-iii-s2-lem-1 .statement}
 
@@ -32,16 +32,16 @@ Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $ 
 
 (i) *u liên tục* ;
 (ii) *ảnh của quả cầu đơn vị của G qua u bị chặn trong E* ;
-(iii) *với mọi dãy $ (x_n) $ các điểm của G hội tụ đến 0, dãy $ (u(x_n)) $ bị chặn trong E*.
+(iii) *với mọi dãy $(x_n)$ các điểm của G hội tụ đến 0, dãy $(u(x_n))$ bị chặn trong E*.
 
-Điều hiển nhiên là (i) suy ra (ii) (III, p. 4, hệ quả 1) và (ii) suy ra (iii). Cho V là một lân cận của 0 trong E ; nếu $ u^{-1}(V) $ không là một lân cận của 0 trong G, thì tồn tại một dãy $ (y_n) $ các điểm của $ G - u^{-1}(V) $ sao cho $ p(y_n) \leq \frac{1}{n^2} $. Do đó dãy $ x_n = n y_n $ hội tụ đến 0 trong G và $ u(x_n) \notin nV $, điều này suy ra rằng dãy $ (u(x_n)) $ không bị chặn. Vậy (iii) suy ra (i).
+Điều hiển nhiên là (i) suy ra (ii) (III, p. 4, hệ quả 1) và (ii) suy ra (iii). Cho V là một lân cận của 0 trong E ; nếu $u^{-1}(V)$ không là một lân cận của 0 trong G, thì tồn tại một dãy $(y_n)$ các điểm của $G - u^{-1}(V)$ sao cho $p(y_n) \leq \frac{1}{n^2}$. Do đó dãy $x_n = n y_n$ hội tụ đến 0 trong G và $u(x_n) \notin nV$, điều này suy ra rằng dãy $(u(x_n))$ không bị chặn. Vậy (iii) suy ra (i).
 
 *Mệnh đề 1.* — *Các điều kiện sau là tương đương* :
 (i) *Mọi nửa chuẩn trên E bị chặn trên các tập con bị chặn của E đều liên tục*.
 (i') *Mọi tập con lồi cân bằng của E hấp thụ các tập con bị chặn của E* (I, p. 7, def. 4) *đều là một lân cận của 0 trong E*.
-(ii) *E là giới hạn quy nạp của các không gian nửa chuẩn $ E_A $, trong đó A chạy qua tập có hướng tăng các tập con đóng, lồi, cân bằng và bị chặn của E*.
-(ii') *Tồn tại một họ $ (E_i)_{i \in I} $ các không gian nửa chuẩn, và với mọi $ i \in I $, một ánh xạ tuyến tính $ u_i : E_i \to E $ sao cho tôpô của E là tôpô lồi địa phương mịn nhất mà đối với nó các $ u_i $ là liên tục*.
-(iii) *Với một không gian lồi địa phương tùy ý F, một ánh xạ tuyến tính $ u : E \to F $ là liên tục khi và chỉ khi với mọi dãy $ (x_n) $ các điểm trong E tiến tới 0, dãy $ (u(x_n)) $ bị chặn trong F*.
+(ii) *E là giới hạn quy nạp của các không gian nửa chuẩn $E_A$, trong đó A chạy qua tập có hướng tăng các tập con đóng, lồi, cân bằng và bị chặn của E*.
+(ii') *Tồn tại một họ $(E_i)_{i \in I}$ các không gian nửa chuẩn, và với mọi $i \in I$, một ánh xạ tuyến tính $u_i : E_i \to E$ sao cho tôpô của E là tôpô lồi địa phương mịn nhất mà đối với nó các $u_i$ là liên tục*.
+(iii) *Với một không gian lồi địa phương tùy ý F, một ánh xạ tuyến tính $u : E \to F$ là liên tục khi và chỉ khi với mọi dãy $(x_n)$ các điểm trong E tiến tới 0, dãy $(u(x_n))$ bị chặn trong F*.
 
 (iii') *Với một không gian nửa chuẩn tùy ý F, một ánh xạ tuyến tính u : E → F là liên tục khi và chỉ khi u(X) bị chặn trong F với mọi tập bị chặn X trong E.*
 

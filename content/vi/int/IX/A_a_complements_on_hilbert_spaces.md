@@ -22,9 +22,9 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: 1b65be32772f347a3d0230a1727d025952190e0f918572a9df74660118fc2bd8
+content_sha256: 96b5f45d24cf4f6a3677aceffa02740999a7fc71d9f313f3798ae3eceec7c825
 translated_from: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
-source_content_sha256: d9d69ccd7a20f43bf3d7785d1e48a66da2aa3234256eb69cdd0d1cadac0459f7
+source_content_sha256: 86ae6e26f616de0aa6a22cdd5dab2607d52dc227a026998bb63b78ad07bc4819
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-df96e5cb
 glossary_version: 34
@@ -38,25 +38,25 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Vết của một dạng toàn phương đối với một dạng khác$^{(1)}$
 
-Trong No. này, ta ký hiệu bởi $ E $ một không gian vectơ thực và bởi $ Q, H $ hai dạng toàn phương dương trên $ E $. Tồn tại hai dạng song tuyến tính đối xứng $ (x, y) \mapsto (x|y)_Q $ và $ (x, y) \mapsto (x|y)_H $ được đặc trưng bởi
+Trong No. này, ta ký hiệu bởi $E$ một không gian vectơ thực và bởi $Q, H$ hai dạng toàn phương dương trên $E$. Tồn tại hai dạng song tuyến tính đối xứng $(x, y) \mapsto (x|y)_Q$ và $(x, y) \mapsto (x|y)_H$ được đặc trưng bởi
 $$
 Q(x) = (x|x)_Q , \quad H(x) = (x|x)_H
 $$
-với mọi $ x \in E $.
+với mọi $x \in E$.
 
-Ta gọi là *vết của Q đối với H* và ký hiệu bởi $ \operatorname{Tr}(Q/H) $ số thực dương, hữu hạn hoặc không, được xác định như sau:
+Ta gọi là *vết của Q đối với H* và ký hiệu bởi $\operatorname{Tr}(Q/H)$ số thực dương, hữu hạn hoặc không, được xác định như sau:
 
-$ a) $ Nếu tồn tại một $ x \in E $ sao cho $ H(x) = 0 $ và $ Q(x) \neq 0 $, ta đặt $ \operatorname{Tr}(Q/H) = +\infty $.
+$a)$ Nếu tồn tại một $x \in E$ sao cho $H(x) = 0$ và $Q(x) \neq 0$, ta đặt $\operatorname{Tr}(Q/H) = +\infty$.
 
-$ b) $ Trong trường hợp ngược lại, $ \operatorname{Tr}(Q/H) $ là cận trên đúng của tập hợp các số có dạng $ \sum_{i=1}^p Q(e_i) $, trong đó $ (e_1, \ldots, e_p) $ chạy qua tập hợp các dãy hữu hạn các phần tử của $ E $ trực chuẩn đối với $ H $.
+$b)$ Trong trường hợp ngược lại, $\operatorname{Tr}(Q/H)$ là cận trên đúng của tập hợp các số có dạng $\sum_{i=1}^p Q(e_i)$, trong đó $(e_1, \ldots, e_p)$ chạy qua tập hợp các dãy hữu hạn các phần tử của $E$ trực chuẩn đối với $H$.
 
-Cho $ E $ là một không gian Hilbert thực và $ Q $ là một dạng toàn phương dương trên $ E $. Đặt $ H(x) = \|x\|^2 $ với mọi $ x \in E $; khi đó $ H $ là một dạng toàn phương dương trên $ E $. Người ta nói rằng $ Q $ là *hạt nhân* nếu $ \operatorname{Tr}(Q/H) $ là hữu hạn. Với mọi $ x \in E $ có chuẩn bằng 1, ta có $ Q(x) \leq \operatorname{Tr}(Q/H) $, do đó $ Q \leq \operatorname{Tr}(Q/H) \cdot H $; đặc biệt, mọi dạng hạt nhân $ Q $ đều liên tục.
+Cho $E$ là một không gian Hilbert thực và $Q$ là một dạng toàn phương dương trên $E$. Đặt $H(x) = \|x\|^2$ với mọi $x \in E$; khi đó $H$ là một dạng toàn phương dương trên $E$. Người ta nói rằng $Q$ là *hạt nhân* nếu $\operatorname{Tr}(Q/H)$ là hữu hạn. Với mọi $x \in E$ có chuẩn bằng 1, ta có $Q(x) \leq \operatorname{Tr}(Q/H)$, do đó $Q \leq \operatorname{Tr}(Q/H) \cdot H$; đặc biệt, mọi dạng hạt nhân $Q$ đều liên tục.
 
 #### Nhận xét {#int-ix-a0-n1-rem-1 .statement}
 
-— 1) Với mọi không gian con $ F $ của $ E $, ký hiệu $ Q_F $ là hạn chế của $ Q $ trên $ F $, và $ H_F $ là hạn chế của $ H $. Khi đó $ \operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H) $ và $ \operatorname{Tr}(Q/H) $ là cận trên đúng của các số $ \operatorname{Tr}(Q_F/H_F) $ với $ F \subset E $ hữu hạn chiều.
+— 1) Với mọi không gian con $F$ của $E$, ký hiệu $Q_F$ là hạn chế của $Q$ trên $F$, và $H_F$ là hạn chế của $H$. Khi đó $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ và $\operatorname{Tr}(Q/H)$ là cận trên đúng của các số $\operatorname{Tr}(Q_F/H_F)$ với $F \subset E$ hữu hạn chiều.
 
-2) Cho $ E_1 $ là một không gian vectơ thực, $ Q_1 $ và $ H_1 $ là hai dạng toàn phương dương trên $ E_1 $, và $ \pi : E \to E_1 $ là một ánh xạ tuyến tính toàn ánh. Nếu $ Q = Q_1 \circ \pi $ và $ H = H_1 \circ \pi $, thì chứng minh rằng $ \operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1) $.
+2) Cho $E_1$ là một không gian vectơ thực, $Q_1$ và $H_1$ là hai dạng toàn phương dương trên $E_1$, và $\pi : E \to E_1$ là một ánh xạ tuyến tính toàn ánh. Nếu $Q = Q_1 \circ \pi$ và $H = H_1 \circ \pi$, thì chứng minh rằng $\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$.
 
 (1) Xem TVS, V, §4, No. 9.
 
@@ -144,7 +144,7 @@ $$
 
 (2) Xem TVS, V, §4, No. 7.
 
-Với mọi $ x \in E_1 $, ta có $ \|x\|^2 = \sum_{i \in I} (x|e_i)^2 $, và tương tự $ \|y\|^2 = \sum_{j \in J} (y|f_j)^2 $ với mọi $ y \in E_2 $. Do đó,
+Với mọi $x \in E_1$, ta có $\|x\|^2 = \sum_{i \in I} (x|e_i)^2$, và tương tự $\|y\|^2 = \sum_{j \in J} (y|f_j)^2$ với mọi $y \in E_2$. Do đó,
 
 $$
 \sum_{i \in I} \|u(e_i)\|^2 = \sum_{i \in I} \sum_{j \in J} (u(e_i)|f_j)^2 \\
@@ -152,31 +152,31 @@ $$
 = \sum_{j \in J} \|u^*(f_j)\|^2 .
 $$
 
-Đặc biệt, số $ \sum_{i \in I} \|u(e_i)\|^2 $ độc lập với cơ sở trực chuẩn $ (e_i)_{i \in I} $ của $ E_1 $.
+Đặc biệt, số $\sum_{i \in I} \|u(e_i)\|^2$ độc lập với cơ sở trực chuẩn $(e_i)_{i \in I}$ của $E_1$.
 
-Đặt $ t = \operatorname{Tr}(Q|H) $. Với mọi tập con hữu hạn $ I' $ của $ I $, theo định nghĩa
+Đặt $t = \operatorname{Tr}(Q|H)$. Với mọi tập con hữu hạn $I'$ của $I$, theo định nghĩa
 
 $$
 \sum_{i \in I'} \|u(e_i)\|^2 = \sum_{i \in I'} Q(e_i) \leq t ,
 $$
 
-do đó $ \sum_{i \in I} \|u(e_i)\|^2 \leq t $. Cho $ (e'_1, \ldots, e'_p) $ là một dãy trực chuẩn hữu hạn trong $ E $. Dãy này có thể được bổ sung thành một cơ sở trực chuẩn $ (e'_\alpha)_{\alpha \in A} $ của $ E_1 $. Khi đó
+do đó $\sum_{i \in I} \|u(e_i)\|^2 \leq t$. Cho $(e'_1, \ldots, e'_p)$ là một dãy trực chuẩn hữu hạn trong $E$. Dãy này có thể được bổ sung thành một cơ sở trực chuẩn $(e'_\alpha)_{\alpha \in A}$ của $E_1$. Khi đó
 
 $$
 \sum_{\alpha=1}^p \|u(e'_\alpha)\|^2 \leq \sum_{\alpha \in A} \|u(e'_\alpha)\|^2 = \sum_{i \in I} \|u(e_i)\|^2
 $$
 
-và, chuyển qua cận trên đúng trên mọi $ (e'_1, \ldots, e'_p) $, ta thu được bất đẳng thức $ t \leq \sum_{i \in I} \|u(e_i)\|^2 $. Như vậy ta đã thiết lập được đẳng thức $ t = \sum_{i \in I} \|u(e_i)\|^2 $.
+và, chuyển qua cận trên đúng trên mọi $(e'_1, \ldots, e'_p)$, ta thu được bất đẳng thức $t \leq \sum_{i \in I} \|u(e_i)\|^2$. Như vậy ta đã thiết lập được đẳng thức $t = \sum_{i \in I} \|u(e_i)\|^2$.
 
 Điều phải chứng minh.
 
-Người ta nói rằng $ u $ là một *ánh xạ Hilbert–Schmidt* từ $ E_1 $ vào $ E_2 $ nếu dạng toàn phương dương $ Q : x \mapsto \|u(x)\|^2 $ trên $ E_1 $ là hạch. Khi điều đó đúng, ta có $ Q \leq \operatorname{Tr}(Q/H) \cdot H $, do đó $ u $ liên tục và
+Người ta nói rằng $u$ là một *ánh xạ Hilbert–Schmidt* từ $E_1$ vào $E_2$ nếu dạng toàn phương dương $Q : x \mapsto \|u(x)\|^2$ trên $E_1$ là hạch. Khi điều đó đúng, ta có $Q \leq \operatorname{Tr}(Q/H) \cdot H$, do đó $u$ liên tục và
 
 $$
 \|u\| \leq \operatorname{Tr}(Q/H)^{1/2} .
 $$
 
-Cho $ u : E_1 \to E_2 $ là một ánh xạ tuyến tính liên tục. Theo Mệnh đề 3, $ u $ là một ánh xạ Hilbert–Schmidt khi và chỉ khi tồn tại một cơ sở trực chuẩn $ (e_i)_{i \in I} $ của $ E_1 $ sao cho $ \sum_{i \in I} \|u(e_i)\|^2 < +\infty $. Khi điều này đúng, mọi cơ sở trực chuẩn của $ E_1 $ đều có cùng tính chất đó. Hơn nữa, nếu $ u $ là một ánh xạ Hilbert–Schmidt, thì liên hợp $ u^* $ của nó cũng vậy nhờ công thức $ \sum_{i \in I} \|u(e_i)\|^2 = \sum_{j \in J} \|u^*(f_j)\|^2 $ (Mệnh đề 3).
+Cho $u : E_1 \to E_2$ là một ánh xạ tuyến tính liên tục. Theo Mệnh đề 3, $u$ là một ánh xạ Hilbert–Schmidt khi và chỉ khi tồn tại một cơ sở trực chuẩn $(e_i)_{i \in I}$ của $E_1$ sao cho $\sum_{i \in I} \|u(e_i)\|^2 < +\infty$. Khi điều này đúng, mọi cơ sở trực chuẩn của $E_1$ đều có cùng tính chất đó. Hơn nữa, nếu $u$ là một ánh xạ Hilbert–Schmidt, thì liên hợp $u^*$ của nó cũng vậy nhờ công thức $\sum_{i \in I} \|u(e_i)\|^2 = \sum_{j \in J} \|u^*(f_j)\|^2$ (Mệnh đề 3).
 
 Bài tập
 

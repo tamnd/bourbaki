@@ -12,7 +12,7 @@ pdf_pages: 0057-0058, 0070-0070
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: cac3ed277f56ac1aacb77c16bbd99df117f4b639b779070f738ac5925d43b640
+content_sha256: 24a301288683dac27cd58760ccbbf900299c5c25d31c3ee96a54ad58705fc000
 ---
 
 ## 4. FLAT MODULES AND "TOR" FUNCTORS
@@ -24,9 +24,9 @@ For the benefit of readers conversant with Homological Algebra (*), we shall ind
 Let E be a right A-module. The following four properties are equivalent:
 
 (a) E is flat.
-(b) For every left A-module F and every integer n $ \geq 1 $, $ \mathrm{Tor}_n^A(E, F) = 0 $.
-(c) For every left A-module F, $ \mathrm{Tor}_1^A(E, F) = 0 $.
-(d) For every finitely generated left ideal $ a $ of A,
+(b) For every left A-module F and every integer n $\geq 1$, $\mathrm{Tor}_n^A(E, F) = 0$.
+(c) For every left A-module F, $\mathrm{Tor}_1^A(E, F) = 0$.
+(d) For every finitely generated left ideal $a$ of A,
 $$
 \mathrm{Tor}_1^A(E, A_s/a) = 0.
 $$
@@ -39,7 +39,7 @@ be a free resolution of F. As E is flat, the sequence
 $$
 (1) \quad \cdots \to E \otimes L_n \to E \otimes L_{n-1} \to \cdots \to E \otimes L_0 \to E \otimes F \to 0
 $$
-is exact. As the $ \mathrm{Tor}_n^A(E, F) $ are isomorphic to homology groups of the complex (1), they are zero for $ n \geq 1 $. It is trivial that (b) implies (c) and (c) implies (d). We show finally that (d) implies (a). The exact sequence
+is exact. As the $\mathrm{Tor}_n^A(E, F)$ are isomorphic to homology groups of the complex (1), they are zero for $n \geq 1$. It is trivial that (b) implies (c) and (c) implies (d). We show finally that (d) implies (a). The exact sequence
 $$
 0 \to a \to A, \to A_s/a \to 0
 $$
@@ -61,21 +61,21 @@ $$
 \operatorname{Tor}_1^A(E', F) \to \operatorname{Tor}_1^A(E, F) \to \operatorname{Tor}_1^A(E'', F)
 $$
 
-shows that $ \operatorname{Tor}_1^A(E, F) = 0 $ for every left A-module F, hence E is flat. If E and E'' are flat, the exact sequence
+shows that $\operatorname{Tor}_1^A(E, F) = 0$ for every left A-module F, hence E is flat. If E and E'' are flat, the exact sequence
 
 $$
 \operatorname{Tor}_2^A(E'', F) \to \operatorname{Tor}_1^A(E', F) \to \operatorname{Tor}_1^A(E, F)
 $$
 
-shows that $ \operatorname{Tor}_1^A(E', F) = 0 $, hence E' is flat.
+shows that $\operatorname{Tor}_1^A(E', F) = 0$, hence E' is flat.
 
 #### Proposition 2 {#ac-i-s4-prop-2 .statement}
 
-*Let R, S be two rings, $ \rho : \mathbf{R} \to \mathbf{S} $ a homomorphism and F a left R-module. The following two properties are equivalent:*
-(a) $ \operatorname{Tor}_1^R(\rho_*(E), F) = 0 $ for every right S-module E.
-(b) *The left S-module $ \varphi^*(F) = F_{(S)} = S \otimes_R F $ is flat and $ \operatorname{Tor}_1^R(\rho_*(S_d), F) = 0 $.*
+*Let R, S be two rings, $\rho : \mathbf{R} \to \mathbf{S}$ a homomorphism and F a left R-module. The following two properties are equivalent:*
+(a) $\operatorname{Tor}_1^R(\rho_*(E), F) = 0$ for every right S-module E.
+(b) *The left S-module $\varphi^*(F) = F_{(S)} = S \otimes_R F$ is flat and $\operatorname{Tor}_1^R(\rho_*(S_d), F) = 0$.*
 
-Suppose that (a) holds. Taking $ E = S_d $, we see that $ \operatorname{Tor}_1^R(\rho_*(S_d), F) = 0 $. We show also that $ F_{(S)} $ is a flat S-module. For that, we note that, if E is a right S-module, the additive group $ E \otimes_S F_{,,} $ is identified with $ \rho_*(E) \otimes_R F $. Then if there is an exact sequence of right S-modules
+Suppose that (a) holds. Taking $E = S_d$, we see that $\operatorname{Tor}_1^R(\rho_*(S_d), F) = 0$. We show also that $F_{(S)}$ is a flat S-module. For that, we note that, if E is a right S-module, the additive group $E \otimes_S F_{,,}$ is identified with $\rho_*(E) \otimes_R F$. Then if there is an exact sequence of right S-modules
 
 $$
 0 \to E' \to E \to E'' \to 0
@@ -93,19 +93,19 @@ $$
 0 \to E' \otimes_S F_{(S)} \to E \otimes_S F_{(S)} \to E'' \otimes_S F_{(S)} \to 0
 $$
 
-which proves that $ F_{(S)} $ is flat.
+which proves that $F_{(S)}$ is flat.
 
-Conversely, if (b) holds, we have first of all, for every *free* right S-module $ L = S_d^{(I)} $, $ \operatorname{Tor}_1^R(\rho_*(L), F) = (\operatorname{Tor}_1^R(\rho_*(S_d), F))^{(I)} = 0 $. Every right S-module E can be written in the form $ E = L/H $ for a suitable free S-module L; then we have the exact sequence
+Conversely, if (b) holds, we have first of all, for every *free* right S-module $L = S_d^{(I)}$, $\operatorname{Tor}_1^R(\rho_*(L), F) = (\operatorname{Tor}_1^R(\rho_*(S_d), F))^{(I)} = 0$. Every right S-module E can be written in the form $E = L/H$ for a suitable free S-module L; then we have the exact sequence
 
-(2) $ 0 = \operatorname{Tor}_1^R(\rho_*(L), F) \to \operatorname{Tor}_1^R(\rho_*(E), F) \to \rho_*(H) \otimes_R F \to \rho_*(L) \otimes_R F. $
+(2) $0 = \operatorname{Tor}_1^R(\rho_*(L), F) \to \operatorname{Tor}_1^R(\rho_*(E), F) \to \rho_*(H) \otimes_R F \to \rho_*(L) \otimes_R F.$
 
-But as $ F_{,,} $ is flat, the homomorphism $ H \otimes_S F_{(S)} \to L \otimes_S F_{(S)} $ is injective and is identified with the homomorphism
+But as $F_{,,}$ is flat, the homomorphism $H \otimes_S F_{(S)} \to L \otimes_S F_{(S)}$ is injective and is identified with the homomorphism
 
 $$
 \rho_*(H) \otimes_R F \to \rho_*(L) \otimes_R F.
 $$
 
-Then it follows from (2) that $ \operatorname{Tor}_1^R(\rho_*(E), F) = 0 $.
+Then it follows from (2) that $\operatorname{Tor}_1^R(\rho_*(E), F) = 0$.
 
 #### Remark {#ac-i-s4-n0-rem-1 .statement}
 

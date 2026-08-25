@@ -40,7 +40,7 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: 2537428af7aa5f19bb9fe707269964c4bdf4abd3583fe582528135f8880945b9
+content_sha256: 346fa786ae647c2beb4852bcd6c8923f06ef4caf1b9f5ab62db22180acbb91d4
 ---
 
 ## § 2. TITS SYSTEMS
@@ -49,20 +49,20 @@ In this paragraph, the letters G, B, N, S, T, W have the meaning indicated in no
 
 ### 1. DEFINITIONS AND FIRST PROPERTIES
 
-Let G be a group and B a subgroup of G. The group $ B \times B $ acts on G by $ (b, b').g = bgb'^{-1} $ for $ b, b' \in B $ and $ g \in G $. The orbits of $ B \times B $ on G are the sets $ BgB $ for $ g \in G $, and are called the double cosets of G with respect to B. They form a partition of G; the corresponding quotient is denoted by $ B \backslash G / B $. If C and $ C' $ are double cosets, $ CC' $ is a union of double cosets.
+Let G be a group and B a subgroup of G. The group $B \times B$ acts on G by $(b, b').g = bgb'^{-1}$ for $b, b' \in B$ and $g \in G$. The orbits of $B \times B$ on G are the sets $BgB$ for $g \in G$, and are called the double cosets of G with respect to B. They form a partition of G; the corresponding quotient is denoted by $B \backslash G / B$. If C and $C'$ are double cosets, $CC'$ is a union of double cosets.
 
 #### Definition 1 {#lie-iv-s2-def-1 .statement}
 
-A Tits system is a quadruple $ (G, B, N, S) $, where G is a group, B and N are two subgroups of G and S is a subset of $ N/(B \cap N) $, satisfying the following axioms:
+A Tits system is a quadruple $(G, B, N, S)$, where G is a group, B and N are two subgroups of G and S is a subset of $N/(B \cap N)$, satisfying the following axioms:
 
-(T1) The set $ B \cup N $ generates G and $ B \cap N $ is a normal subgroup of N.
-(T2) The set S generates the group $ W = N/(B \cap N) $ and consists of elements of order 2.
-(T3) $ sBw \subset BwB \cup BswB $ for $ s \in S $ and $ w \in W $.
-(T4) For all $ s \in S $, $ sBs \notin B $.
+(T1) The set $B \cup N$ generates G and $B \cap N$ is a normal subgroup of N.
+(T2) The set S generates the group $W = N/(B \cap N)$ and consists of elements of order 2.
+(T3) $sBw \subset BwB \cup BswB$ for $s \in S$ and $w \in W$.
+(T4) For all $s \in S$, $sBs \notin B$.
 
-The group $ W = N/(B \cap N) $ is sometimes called the Weyl group of the Tits system $ (G, B, N, S) $.
+The group $W = N/(B \cap N)$ is sometimes called the Weyl group of the Tits system $(G, B, N, S)$.
 
-5 Every element of W is a coset modulo $ B \cap N $, and is thus a subset of G; hence products such as $ BwB $ make sense. More generally, for any subset A of W, we denote by BAB the subset $ \bigcup_{w \in A} BwB $.
+5 Every element of W is a coset modulo $B \cap N$, and is thus a subset of G; hence products such as $BwB$ make sense. More generally, for any subset A of W, we denote by BAB the subset $\bigcup_{w \in A} BwB$.
 
 #### Remark 1 {#lie-iv-s2-n1-rem-1 .statement}
 
@@ -130,7 +130,7 @@ $$
 
 #### Lemma 1 {#lie-iv-s2-lem-1 .statement}
 
-Let $ s_1, \ldots, s_q \in S $ and let $ w \in W $. We have
+Let $s_1, \ldots, s_q \in S$ and let $w \in W$. We have
 $$
 C(s_1 \ldots s_q).C(w) \subset \bigcup_{(i_1, \ldots, i_p)} C(s_{i_1} \ldots s_{i_p} w),
 $$
@@ -162,55 +162,55 @@ Let $G_j$ be the subgroup of $G$ consisting of the elements that fix the $e_i$ f
 $$
 G_j \subset (B \cap G_j)(B' \cap G_j) \cup (\cap G_j) s_j (B' \cap G_j).
 $$
-Identify $G_j$ with $\mathbf{GL}(2, k)$; the group $B \cap G_j$ is then identified with the upper triangular subgroup $B_2$ of $\mathbf{GL}(2, k)$, while the group $B' \cap G_j$ is identified with $ B_2 $ when $ w(j) < w(j+1) $ and with the lower triangular subgroup $ B_2^- $ otherwise. In the first case, the formula to be proved can be written
+Identify $G_j$ with $\mathbf{GL}(2, k)$; the group $B \cap G_j$ is then identified with the upper triangular subgroup $B_2$ of $\mathbf{GL}(2, k)$, while the group $B' \cap G_j$ is identified with $B_2$ when $w(j) < w(j+1)$ and with the lower triangular subgroup $B_2^-$ otherwise. In the first case, the formula to be proved can be written
 
 $$
 \mathbf{GL}(2, k) = B_2 \cup B_2 s B_2 \quad \text{where } s = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix};
 $$
 
-this follows for example from the fact that $ B_2 $ is the stabilizer of a point for the action of $ \mathbf{GL}(2, k) $ on the projective line $ \mathbf{P}_1(k) $, and acts transitively on the complement of this point. In the second case, the formula to be proved can be written
+this follows for example from the fact that $B_2$ is the stabilizer of a point for the action of $\mathbf{GL}(2, k)$ on the projective line $\mathbf{P}_1(k)$, and acts transitively on the complement of this point. In the second case, the formula to be proved can be written
 
 $$
 \mathbf{GL}(2, k) = B_2 B_2^- \cup B_2 s B_2^-;
 $$
 
-since $ B_2^- = s B_2 s $, this follows from the preceding formula by multiplying on the right by $ s $.
+since $B_2^- = s B_2 s$, this follows from the preceding formula by multiplying on the right by $s$.
 
 ### 3. DECOMPOSITION OF G INTO DOUBLE COSETS
 
 #### Theorem 1 {#lie-iv-s2-thm-1 .statement}
 
-*We have $ G = \mathrm{BWB} $. The map $ w \mapsto C(w) $ is a bijection from $ W $ to the set $ B \backslash G / B $ of double cosets of $ G $ with respect to $ B $.*
+*We have $G = \mathrm{BWB}$. The map $w \mapsto C(w)$ is a bijection from $W$ to the set $B \backslash G / B$ of double cosets of $G$ with respect to $B$.*
 
-It is clear that $ \mathrm{BWB} $ is stable under $ x \mapsto x^{-1} $, and Lemma 1 shows that it is stable under the product. Since it contains $ B $ and $ N $, it is equal to $ G $.
+It is clear that $\mathrm{BWB}$ is stable under $x \mapsto x^{-1}$, and Lemma 1 shows that it is stable under the product. Since it contains $B$ and $N$, it is equal to $G$.
 
-It remains to prove that $ C(w) \neq C(w') $ if $ w \neq w' $. For this, we shall prove by induction on the integer $ q $ the following assertion:
+It remains to prove that $C(w) \neq C(w')$ if $w \neq w'$. For this, we shall prove by induction on the integer $q$ the following assertion:
 
-(A_q) If $ w $ and $ w' $ are distinct elements of $ W $ such that $ l_S(w) \geq l_S(w') = q $, then $ C(w) \neq C(w') $.
+(A_q) If $w$ and $w'$ are distinct elements of $W$ such that $l_S(w) \geq l_S(w') = q$, then $C(w) \neq C(w')$.
 
-(For the definition of $ l_S(w) $, see § 1, no. 1.)
+(For the definition of $l_S(w)$, see § 1, no. 1.)
 
-This assertion is clear for $ q = 0 $, since then $ w' = 1 $ and $ w \neq 1 $, hence $ C(w') = B $ and $ C(w) \neq B $.
+This assertion is clear for $q = 0$, since then $w' = 1$ and $w \neq 1$, hence $C(w') = B$ and $C(w) \neq B$.
 
-Assume that $ q \geq 1 $ and that $ w, w' $ satisfy the hypotheses of (A_q). There exists $ s \in S $ such that $ sw' $ is of length $ q - 1 $. We have
+Assume that $q \geq 1$ and that $w, w'$ satisfy the hypotheses of (A_q). There exists $s \in S$ such that $sw'$ is of length $q - 1$. We have
 
 $$
 l_S(w) > l_S(sw')
 $$
 
-hence $ w \neq sw' $. Moreover, $ sw \neq sw' $; by formula (3) of § 1, no. 1, we have
+hence $w \neq sw'$. Moreover, $sw \neq sw'$; by formula (3) of § 1, no. 1, we have
 
 $$
 l_S(sw) \geq l_S(w) - 1 \geq l_S(sw') = q - 1.
 $$
 
-By the induction hypothesis, $ C(sw') $ is distinct from $ C(w) $ and from $ C(sw) $; from formula (2) it follows that
+By the induction hypothesis, $C(sw')$ is distinct from $C(w)$ and from $C(sw)$; from formula (2) it follows that
 
 $$
 C(sw') \cap C(s).C(w) = \varnothing.
 $$
 
-Since $ C(sw') \subset C(s).C(w') $, we have finally that $ C(w) \neq C(w') $.
+Since $C(sw') \subset C(s).C(w')$, we have finally that $C(w) \neq C(w')$.
 
 #### Remark {#lie-iv-s2-n3-rem-1 .statement}
 
@@ -220,23 +220,23 @@ Axiom (T4) was not used in the preceding proof.
 
 #### Theorem 2 {#lie-iv-s2-thm-2 .statement}
 
-The pair $ (W, S) $ is a Coxeter system. Moreover, for $ s \in S $ and $ w \in W $, the relations $ C(sw) = C(s).C(w) $ and $ l_S(sw) > l_S(w) $ are equivalent.
+The pair $(W, S)$ is a Coxeter system. Moreover, for $s \in S$ and $w \in W$, the relations $C(sw) = C(s).C(w)$ and $l_S(sw) > l_S(w)$ are equivalent.
 
-For any $ s \in S $, let $ P_s $ be the set of elements $ w \in W $ such that
+For any $s \in S$, let $P_s$ be the set of elements $w \in W$ such that
 $$
 C(s).C(w) = C(sw).
 $$
-We are going to verify that the $ P_s $ satisfy conditions (A'), (B') and (C) of § 1, no. 7; the two assertions of the theorem will then follow from Prop. 6 of § 1, no. 7.
+We are going to verify that the $P_s$ satisfy conditions (A'), (B') and (C) of § 1, no. 7; the two assertions of the theorem will then follow from Prop. 6 of § 1, no. 7.
 
 Condition (A') is clear.
 
-We verify (B'). If $ P_s $ and $ sP_s $ had an element $ w $ in common, we would have $ w \in P_s $ and $ sw \in P_s $, and hence
+We verify (B'). If $P_s$ and $sP_s$ had an element $w$ in common, we would have $w \in P_s$ and $sw \in P_s$, and hence
 $$
 C(s).C(w) = C(sw), \qquad C(s).C(sw) = C(w).
 $$
-It would follow that $ C(s).C(s).C(w) = C(w) $ and, by formula (5), this would imply that $ C(w) = C(sw) $, which would contradict Th. 1.
+It would follow that $C(s).C(s).C(w) = C(w)$ and, by formula (5), this would imply that $C(w) = C(sw)$, which would contradict Th. 1.
 
-We verify (C). Let $ s, s' \in S $ and $ w, w' \in W $ with $ w' = ws' $. The assumption that $ w \in P_s $ and $ w' \notin P_s $ implies that
+We verify (C). Let $s, s' \in S$ and $w, w' \in W$ with $w' = ws'$. The assumption that $w \in P_s$ and $w' \notin P_s$ implies that
 $$
 C(sw) = C(s).C(w) \tag{9}
 $$
@@ -245,23 +245,23 @@ C(w') \subset C(s).C(w') \tag{10}
 $$
 by (3).
 
-From (9) and the relation $ w = w's' $, it follows that
+From (9) and the relation $w = w's'$, it follows that
 $$
 C(s)w's'B = C(sw). \tag{11}
 $$
-By formula (2'), $ C(w').C(s') \subset C(w') \cup C(w's') $, which immediately implies that
+By formula (2'), $C(w').C(s') \subset C(w') \cup C(w's')$, which immediately implies that
 $$
 C(w')s'B \subset C(ws') \cup C(w). \tag{12}
 $$
-Since $ C(w') $ is a union of left cosets $ gB $ and since
+Since $C(w')$ is a union of left cosets $gB$ and since
 $$
 C(s).C(w') = C(s)w'B,
 $$
-formula (10) shows that $ C(s)w' $ meets $ C(w') $ and *a fortiori* that $ C(s)w's'B $ meets $ C(w')s'B $. It follows from formulas (11) and (12) that the double coset $ C(sw) $ is equal to one of the double cosets $ C(ws') $ and $ C(w) $; since $ sw \neq w $, Th. 1 allows us to conclude that $ sw = ws' $.
+formula (10) shows that $C(s)w'$ meets $C(w')$ and *a fortiori* that $C(s)w's'B$ meets $C(w')s'B$. It follows from formulas (11) and (12) that the double coset $C(sw)$ is equal to one of the double cosets $C(ws')$ and $C(w)$; since $sw \neq w$, Th. 1 allows us to conclude that $sw = ws'$.
 
 #### Corollary 1 {#lie-iv-s2-thm-2-cor-1 .statement}
 
-*Let* $ w_1, \ldots, w_q \in W $ *and let* $ w = w_1 \ldots w_q $. *If*
+*Let* $w_1, \ldots, w_q \in W$ *and let* $w = w_1 \ldots w_q$. *If*
 $$
 l_S(w) = l_S(w_1) + \cdots + l_S(w_q),
 $$
@@ -270,23 +270,23 @@ $$
 C(w) = C(w_1) \ldots C(w_q).
 $$
 
-On taking reduced decompositions of the $ w_i $, one is reduced to the case of a reduced decomposition
+On taking reduced decompositions of the $w_i$, one is reduced to the case of a reduced decomposition
 
 $$
 w = s_1 \ldots s_q, \quad \text{with } s_i \in S.
 $$
 
-If $ u = s_2 \ldots s_q $, then $ w = s_1 u $ and $ l_S(s_1 u) > l_S(u) $, so $ C(w) = C(s_1).C(u) $ by the theorem. The required formula follows from this by induction on $ q $.
+If $u = s_2 \ldots s_q$, then $w = s_1 u$ and $l_S(s_1 u) > l_S(u)$, so $C(w) = C(s_1).C(u)$ by the theorem. The required formula follows from this by induction on $q$.
 
 #### Corollary 2 {#lie-iv-s2-thm-2-cor-2 .statement}
 
-*Let $ w \in W $ and let $ T_w $ be the subset of $ W $ associated to $ w $ by the procedure of Lemma 2 of § 1, no. 4. If $ t \in T_w $, then*
+*Let $w \in W$ and let $T_w$ be the subset of $W$ associated to $w$ by the procedure of Lemma 2 of § 1, no. 4. If $t \in T_w$, then*
 
 $$
 C(t) \subset C(w).C(w^{-1}).
 $$
 
-If $ t \in T_w $, there exist by definition elements $ w', w'' \in W $ and $ s \in S $ such that
+If $t \in T_w$, there exist by definition elements $w', w'' \in W$ and $s \in S$ such that
 
 $$
 w = w' s w'', \quad l_S(w) = l_S(w') + l_S(w'') + 1 \quad \text{and} \quad t = w' s w'^{-1}.
@@ -304,7 +304,7 @@ $$
 C(w).C(w^{-1}) \supset C(w').C(s).C(s).C(w'^{-1}).
 $$
 
-By (4), $ C(s) \subset C(s).C(s) $. Hence,
+By (4), $C(s) \subset C(s).C(s)$. Hence,
 
 $$
 C(w).C(w^{-1}) \supset C(w').C(s).C(w'^{-1}) \supset C(t).
@@ -312,29 +312,29 @@ $$
 
 #### Corollary 3 {#lie-iv-s2-thm-2-cor-3 .statement}
 
-*Let $ w \in W $ and let $ H_w $ be the subgroup of $ G $ generated by $ C(w).C(w^{-1}) $. Then:*
+*Let $w \in W$ and let $H_w$ be the subgroup of $G$ generated by $C(w).C(w^{-1})$. Then:*
 
-a) *For any reduced decomposition $ (s_1, \ldots, s_q) $ of $ w $,*
+a) *For any reduced decomposition $(s_1, \ldots, s_q)$ of $w$,*
 
 $$
 C(s_j) \subset H_w \quad \text{for } 1 \leq j \leq q.
 $$
 
-b) *The group $ H_w $ contains $ C(w) $ and is generated by $ C(w) $.*
+b) *The group $H_w$ contains $C(w)$ and is generated by $C(w)$.*
 
-We prove a) by induction on $ j $. Assume that $ C(s_k) $ is contained in $ H_w $ for $ k < j $. Let
+We prove a) by induction on $j$. Assume that $C(s_k)$ is contained in $H_w$ for $k < j$. Let
 
 $$
 t = (s_1 \ldots s_{j-1}) s_j (s_1 \ldots s_{j-1})^{-1}.
 $$
 
-The element $ t $ belongs to the subset $ T_w $ of $ W $ defined in Lemma 2 of § 1, no. 4. By Cor. 2, $ C(t) \subset H_w $, and hence $ C(s_j) \subset H_w $.
+The element $t$ belongs to the subset $T_w$ of $W$ defined in Lemma 2 of § 1, no. 4. By Cor. 2, $C(t) \subset H_w$, and hence $C(s_j) \subset H_w$.
 
-Since $ C(w) = C(s_1) \ldots C(s_q) $, cf. Cor. 1, we have $ C(w) \subset H_w $, and b) follows.
+Since $C(w) = C(s_1) \ldots C(s_q)$, cf. Cor. 1, we have $C(w) \subset H_w$, and b) follows.
 
 #### Example {#lie-iv-s2-n4-exa-1 .statement}
 
-Th. 2, applied to the Tits system described in no. 2, shows that *the symmetric group* $ \mathfrak{S}_n $, with the set of transpositions of consecutive elements, *is a Coxeter group*.
+Th. 2, applied to the Tits system described in no. 2, shows that *the symmetric group* $\mathfrak{S}_n$, with the set of transpositions of consecutive elements, *is a Coxeter group*.
 
 ### 5. SUBGROUPS OF G CONTAINING B
 
@@ -342,25 +342,25 @@ For any subset X of S, we denote by W_X the subgroup of W generated by X (cf. §
 
 #### Theorem 3 {#lie-iv-s2-thm-3 .statement}
 
-a) For any subset X of S, the set G_X is a subgroup of G, generated by $ \bigcup_{s \in X} C(s) $.
+a) For any subset X of S, the set G_X is a subgroup of G, generated by $\bigcup_{s \in X} C(s)$.
 
-b) The map X ↦ G_X is a bijection from $ \mathcal{P}(S) $ to the set of subgroups of G containing B.
+b) The map X ↦ G_X is a bijection from $\mathcal{P}(S)$ to the set of subgroups of G containing B.
 
-c) Let (X_i)_{i \in I} be a family of subsets of X. If $ X = \bigcap_{i \in I} X_i $, then $ G_X = \bigcap_{i \in I} G_{X_i} $.
+c) Let (X_i)_{i \in I} be a family of subsets of X. If $X = \bigcap_{i \in I} X_i$, then $G_X = \bigcap_{i \in I} G_{X_i}$.
 
-d) Let X and Y be two subsets of S. Then $ G_X \subset G_Y $ (resp. $ G_X = G_Y $) if and only if $ X \subset Y $ (resp. $ X = Y $).
+d) Let X and Y be two subsets of S. Then $G_X \subset G_Y$ (resp. $G_X = G_Y$) if and only if $X \subset Y$ (resp. $X = Y$).
 
-It is clear that $ G_X = (G_X)^{-1} $; Lemma 1 of no. 1 shows that $ G_X . G_X \subset G_X $; and hence a) follows, taking into account Cor. 1 of Th. 2.
+It is clear that $G_X = (G_X)^{-1}$; Lemma 1 of no. 1 shows that $G_X . G_X \subset G_X$; and hence a) follows, taking into account Cor. 1 of Th. 2.
 
-The injectivity of X ↦ G_X follows from that of X ↦ W_X (§1, no. 8, Th. 2). Conversely, let H be a subgroup of G containing B. Let U be the set of $ w \in W $ such that $ C(w) \subset H $. We have $ H = BUB $ since H is a union of double cosets. Let $ X = U \cap S $; we show that $ H = G_X $. Clearly, $ G_X \subset H $. On the other hand, let $ u \in U $ and let $ (s_1, \ldots, s_q) $ be a reduced decomposition of u. Cor. 3 of Th. 2 implies that $ C(s_j) \subset H $, and hence that $ s_j \in X $ for $ 1 \leq j \leq q $. Thus, $ u \in W_X $, and since H is the union of the $ C(u) $ for $ u \in U $, we have $ H \subset G_X $, which proves b).
+The injectivity of X ↦ G_X follows from that of X ↦ W_X (§1, no. 8, Th. 2). Conversely, let H be a subgroup of G containing B. Let U be the set of $w \in W$ such that $C(w) \subset H$. We have $H = BUB$ since H is a union of double cosets. Let $X = U \cap S$; we show that $H = G_X$. Clearly, $G_X \subset H$. On the other hand, let $u \in U$ and let $(s_1, \ldots, s_q)$ be a reduced decomposition of u. Cor. 3 of Th. 2 implies that $C(s_j) \subset H$, and hence that $s_j \in X$ for $1 \leq j \leq q$. Thus, $u \in W_X$, and since H is the union of the $C(u)$ for $u \in U$, we have $H \subset G_X$, which proves b).
 
 Assertions c) and d) follow from analogous properties of W_X (§ 1, no. 8, Th. 2).
 
 #### Corollary {#lie-iv-s2-n5-cor-1 .statement}
 
-The set S consists of the elements $ w \in W $ such that $ w \neq 1 $ and $ B \cup C(w) $ is a subgroup of G.
+The set S consists of the elements $w \in W$ such that $w \neq 1$ and $B \cup C(w)$ is a subgroup of G.
 
-The elements $ w \in W $ such that $ B \cup C(w) $ is a subgroup of G are those for which there exists $ X \subset S $ with $ W_X = \{1, w\} $. Moreover, if $ w \neq 1 $, we necessarily have Card(X) = 1 , i.e. $ w \in S $.
+The elements $w \in W$ such that $B \cup C(w)$ is a subgroup of G are those for which there exists $X \subset S$ with $W_X = \{1, w\}$. Moreover, if $w \neq 1$, we necessarily have Card(X) = 1 , i.e. $w \in S$.
 
 #### Remark 1 {#lie-iv-s2-n5-rem-1 .statement}
 
@@ -370,17 +370,17 @@ The above corollary shows that S is determined by (G, B, N); for this reason, we
 
 Let X be a subset of S and N' a subgroup of N whose image in W is equal to W_X. Then, (G_X, B, N', X) is a Tits system.
 
-We have $ G_X = BW_XB = BN'B $, which shows that $ G_X $ is generated by $ B \cup N' $. The verification of the axioms (T1) to (T4) is now immediate.
+We have $G_X = BW_XB = BN'B$, which shows that $G_X$ is generated by $B \cup N'$. The verification of the axioms (T1) to (T4) is now immediate.
 
 #### Proposition 2 {#lie-iv-s2-prop-2 .statement}
 
-Let X, Y ⊂ S and $ w \in W $. We have
+Let X, Y ⊂ S and $w \in W$. We have
 
 $$
 G_X w G_Y = BW_X w W_Y B.
 $$
 
-Let $ s_1, \ldots, s_q \in X $ and $ t_1, \ldots, t_q \in Y $. Lemma 1 shows that
+Let $s_1, \ldots, s_q \in X$ and $t_1, \ldots, t_q \in Y$. Lemma 1 shows that
 $$
 C(s_1 \ldots s_q).C(w).C(t_1 \ldots t_q) \subset BW_X w W_Y B,
 $$
@@ -392,60 +392,60 @@ The opposite inclusion is obvious.
 
 #### Remark 2 {#lie-iv-s2-n5-rem-2 .statement}
 
-Denote by $ G_X \backslash G / G_Y $ the set of subsets of $ G $ of the form $ G_X g G_Y $, $ g \in G $; and define $ W_X \backslash W / W_Y $ analogously. The preceding proposition shows that the canonical bijection $ w \mapsto C(w) $ from $ W $ to $ B \backslash G / B $ defines by passage to the quotient a *bijection* $ W_X \backslash W / W_Y \to G_X \backslash G / G_Y $.
+Denote by $G_X \backslash G / G_Y$ the set of subsets of $G$ of the form $G_X g G_Y$, $g \in G$; and define $W_X \backslash W / W_Y$ analogously. The preceding proposition shows that the canonical bijection $w \mapsto C(w)$ from $W$ to $B \backslash G / B$ defines by passage to the quotient a *bijection* $W_X \backslash W / W_Y \to G_X \backslash G / G_Y$.
 
 #### Proposition 3 {#lie-iv-s2-prop-3 .statement}
 
-*Let $ X \subset S $ and $ g \in G $. The relation $ g B g^{-1} \subset G_X $ implies that $ g \in G_X $.*
+*Let $X \subset S$ and $g \in G$. The relation $g B g^{-1} \subset G_X$ implies that $g \in G_X$.*
 
-Let $ w \in W $ be such that $ g \in C(w) $. Since $ B $ is a subgroup of $ G_X $, the hypothesis $ g B g^{-1} \subset G_X $ implies that $ C(w).C(w^{-1}) \subset G_X $, and hence that $ C(w) \subset G_X $ by Cor. 3 of Th. 2, so $ g $ belongs to $ G_X $.
+Let $w \in W$ be such that $g \in C(w)$. Since $B$ is a subgroup of $G_X$, the hypothesis $g B g^{-1} \subset G_X$ implies that $C(w).C(w^{-1}) \subset G_X$, and hence that $C(w) \subset G_X$ by Cor. 3 of Th. 2, so $g$ belongs to $G_X$.
 
 ### 6. PARABOLIC SUBGROUPS
 
 #### Definition 2 {#lie-iv-s2-def-2 .statement}
 
-*A subgroup of $ G $ is said to be parabolic if it contains a conjugate of $ B $.*
+*A subgroup of $G$ is said to be parabolic if it contains a conjugate of $B$.*
 
 It is clear that every subgroup that contains a parabolic subgroup is parabolic.
 
 #### Proposition 4 {#lie-iv-s2-prop-4 .statement}
 
-*Let $ P $ be a subgroup of $ G $.*
+*Let $P$ be a subgroup of $G$.*
 
-a) *$ P $ is parabolic if and only if there exists a subset $ X $ of $ S $ such that $ P $ is conjugate to $ G_X $ (cf. no. 5 for the definition of $ G_X $).*
+a) *$P$ is parabolic if and only if there exists a subset $X$ of $S$ such that $P$ is conjugate to $G_X$ (cf. no. 5 for the definition of $G_X$).*
 
-b) *Let $ X, X' \subset S $ and $ g, g' \in G $ be such that $ P = g G_X g^{-1} = g' G_{X'} g'^{-1} $. Then, $ X = X' $ and $ g' g^{-1} \in P $.*
+b) *Let $X, X' \subset S$ and $g, g' \in G$ be such that $P = g G_X g^{-1} = g' G_{X'} g'^{-1}$. Then, $X = X'$ and $g' g^{-1} \in P$.*
 
 Assertion a) follows from Th. 3, b).
 Under the hypotheses of b), we have
 $$
 g^{-1} g' B g'^{-1} g \subset g^{-1} g' G_{X'} g'^{-1} = G_X,
 $$
-and Prop. 3 shows that $ g^{-1} g' \in G_X $. Hence, $ G_{X'} = G_X $ and $ X' = X $ by Th. 3, b). Finally,
+and Prop. 3 shows that $g^{-1} g' \in G_X$. Hence, $G_{X'} = G_X$ and $X' = X$ by Th. 3, b). Finally,
 $$
 g' g^{-1} = g . g^{-1} g' . g^{-1} \in g G_X g^{-1},
 $$
 which proves b).
 
-If the parabolic subgroup $ P $ is conjugate to $ G_X $, where $ X \subset S $, then $ P $ is said to be of *type X*.
+If the parabolic subgroup $P$ is conjugate to $G_X$, where $X \subset S$, then $P$ is said to be of *type X*.
 
 #### Theorem 4 {#lie-iv-s2-thm-4 .statement}
 
-(i) Let $ P_1 $ and $ P_2 $ be two parabolic subgroups of $ G $ whose intersection is parabolic and let $ g \in G $ be such that $ gP_1g^{-1} \subset P_2 $. Then $ g \in P_2 $ and $ P_1 \subset P_2 $.
+(i) Let $P_1$ and $P_2$ be two parabolic subgroups of $G$ whose intersection is parabolic and let $g \in G$ be such that $gP_1g^{-1} \subset P_2$. Then $g \in P_2$ and $P_1 \subset P_2$.
 
 (ii) Two parabolic subgroups whose intersection is parabolic are not conjugate.
 
-(iii) Let $ Q_1 $ and $ Q_2 $ be two parabolic subgroups of $ G $ contained in a subgroup $ Q $ of $ G $. Then any $ g \in G $ such that $ gQ_1g^{-1} = Q_2 $ belongs to $ Q $.
+(iii) Let $Q_1$ and $Q_2$ be two parabolic subgroups of $G$ contained in a subgroup $Q$ of $G$. Then any $g \in G$ such that $gQ_1g^{-1} = Q_2$ belongs to $Q$.
 
 (iv) Every parabolic subgroup is its own normaliser$^6$.
 
-Assertion (i) follows from Props. 3 and 4, and implies (ii). Under the hypotheses of (iii), we have $ gQ_1g^{-1} \subset Q $, which implies that $ g \in Q $ by (i). Finally, (iv) follows from (iii) by taking $ Q_1 = Q_2 = Q $.
+Assertion (i) follows from Props. 3 and 4, and implies (ii). Under the hypotheses of (iii), we have $gQ_1g^{-1} \subset Q$, which implies that $g \in Q$ by (i). Finally, (iv) follows from (iii) by taking $Q_1 = Q_2 = Q$.
 
 #### Proposition 5 {#lie-iv-s2-prop-5 .statement}
 
-Let $ P_1 $ and $ P_2 $ be two parabolic subgroups of $ G $. Then $ P_1 \cap P_2 $ contains a conjugate of $ T $.
+Let $P_1$ and $P_2$ be two parabolic subgroups of $G$. Then $P_1 \cap P_2$ contains a conjugate of $T$.
 
-By first transforming $ P_1 $ and $ P_2 $ by an inner automorphism of $ G $, we may assume that $ B \subset P_1 $. Let $ g \in G $ be such that $ gB_2g^{-1} \subset P_2 $. By Th. 1, there exist $ n \in N $ and $ b, b' \in B $ such that $ g = bn b' $. Since $ T $ is normal in $ N $,
+By first transforming $P_1$ and $P_2$ by an inner automorphism of $G$, we may assume that $B \subset P_1$. Let $g \in G$ be such that $gB_2g^{-1} \subset P_2$. By Th. 1, there exist $n \in N$ and $b, b' \in B$ such that $g = bn b'$. Since $T$ is normal in $N$,
 
 $$
 P_2 \supset gB_2g^{-1} = bnBn^{-1}b^{-1} \supset bnTn^{-1}b^{-1} = bTb^{-1}
@@ -463,33 +463,33 @@ which proves the proposition.
 
 #### Lemma 2 {#lie-iv-s2-lem-2 .statement}
 
-Let $ H $ be a normal subgroup of $ G $. There exists a subset $ X $ of $ S $ such that $ BH = G_X $ and such that every element of $ X $ commutes with every element of $ S - X $.
+Let $H$ be a normal subgroup of $G$. There exists a subset $X$ of $S$ such that $BH = G_X$ and such that every element of $X$ commutes with every element of $S - X$.
 
-Since $ BH $ is a subgroup of $ G $ containing $ B $, there exists a unique subset $ X $ of $ S $ such that $ BH = G_X $ (Th. 3).
+Since $BH$ is a subgroup of $G$ containing $B$, there exists a unique subset $X$ of $S$ such that $BH = G_X$ (Th. 3).
 
-Let $ s_1 \in X $ and $ s_2 \in S - X $; let $ n_1 $ and $ n_2 $ be representatives in $ N $ of $ s_1 $ and $ s_2 $, respectively. Then $ n_1 \in G_X = BH $ and there exists $ b \in B $ such that $ bn_1 \in H $. Since $ H $ is normal in $ G $, the element $ h = n_2 b n_1 n_2^{-1} $ of $ G $ belongs to $ H $. This means that
+Let $s_1 \in X$ and $s_2 \in S - X$; let $n_1$ and $n_2$ be representatives in $N$ of $s_1$ and $s_2$, respectively. Then $n_1 \in G_X = BH$ and there exists $b \in B$ such that $bn_1 \in H$. Since $H$ is normal in $G$, the element $h = n_2 b n_1 n_2^{-1}$ of $G$ belongs to $H$. This means that
 
 $$
 h \in C(s_2).C(s_1).C(s_2).
 $$
 
-If the length of $ s_2 s_1 s_2 $ is equal to 3, Cor. 1 of Th. 2 implies that
+If the length of $s_2 s_1 s_2$ is equal to 3, Cor. 1 of Th. 2 implies that
 
 $$
 C(s_2).C(s_1).C(s_2) = C(s_2 s_1 s_2),
 $$
 
-\footnotetext{6}{If $ H $ is a subgroup of a group $ G $, the normaliser of $ H $ in $ G $ is the subgroup $ \mathfrak{N}(H) $ consisting of the elements $ g $ of $ G $ such that $ gHg^{-1} = H $. A subgroup $ H' $ is said to normalise $ H $ if $ H' \subset \mathfrak{N}(H) $, in which case $ HH' = H'H $ is a subgroup of $ G $ in which $ H $ is normal.}
+\footnotetext{6}{If $H$ is a subgroup of a group $G$, the normaliser of $H$ in $G$ is the subgroup $\mathfrak{N}(H)$ consisting of the elements $g$ of $G$ such that $gHg^{-1} = H$. A subgroup $H'$ is said to normalise $H$ if $H' \subset \mathfrak{N}(H)$, in which case $HH' = H'H$ is a subgroup of $G$ in which $H$ is normal.}
 
-and hence that $ h \in H \cap C(s_2 s_1 s_2) $. Since $ H \cap C(s_2 s_1 s_2) $ is non-empty, $ s_2 s_1 s_2 \in W_X $. As $ (s_2, s_1, s_2) $ is a reduced decomposition, it follows that $ s_2 \in X $, contrary to our assumption.
+and hence that $h \in H \cap C(s_2 s_1 s_2)$. Since $H \cap C(s_2 s_1 s_2)$ is non-empty, $s_2 s_1 s_2 \in W_X$. As $(s_2, s_1, s_2)$ is a reduced decomposition, it follows that $s_2 \in X$, contrary to our assumption.
 
-Thus $ l_S(s_2 s_1 s_2) \leq 2 $; if $ l_S(s_2 s_1 s_2) = 1 $, then $ s_1 s_2 \in S $ and so $ (s_1 s_2)^2 = 1 $, or $ s_1 s_2 = s_2 s_1 $. If $ l_S(s_2 s_1 s_2) = 2 $, property (E) of §1, no. 5 implies that $ s_2 s_1 = s_1 s_2 $, since $ s_1 \neq s_2 $. Q.E.D.
+Thus $l_S(s_2 s_1 s_2) \leq 2$; if $l_S(s_2 s_1 s_2) = 1$, then $s_1 s_2 \in S$ and so $(s_1 s_2)^2 = 1$, or $s_1 s_2 = s_2 s_1$. If $l_S(s_2 s_1 s_2) = 2$, property (E) of §1, no. 5 implies that $s_2 s_1 = s_1 s_2$, since $s_1 \neq s_2$. Q.E.D.
 
 The following property of a group U enters into Th. 5 below:
 
 (R) *For any normal subgroup V of U distinct from U, the commutator subgroup* (cf. *Algebra*, Chap. I, §6, no. 8) *of U/V is distinct from U/V*.
 
-Every soluble group satisfies (R); in particular, every abelian group satisfies (R). It can be shown that the symmetric group $ \mathfrak{S}_n $ satisfies (R) (cf. Exerc. 29).
+Every soluble group satisfies (R); in particular, every abelian group satisfies (R). It can be shown that the symmetric group $\mathfrak{S}_n$ satisfies (R) (cf. Exerc. 29).
 
 #### Theorem 5 {#lie-iv-s2-thm-5 .statement}
 
@@ -502,7 +502,7 @@ Every soluble group satisfies (R); in particular, every abelian group satisfies 
 
 *Then every subgroup H of G normalised by G_1 is either contained in Z or contains G_1*.
 
-*First we show that G = G_1 T*. The group $ G_1 T $ contains B and hence is its own normaliser (Th. 4); but as N normalises $ G_1 $ and T, it also normalises $ G_1 T $, so $ N \subset G_1 T $. Since G is generated by B and N, it follows that $ G = G_1 T $.
+*First we show that G = G_1 T*. The group $G_1 T$ contains B and hence is its own normaliser (Th. 4); but as N normalises $G_1$ and T, it also normalises $G_1 T$, so $N \subset G_1 T$. Since G is generated by B and N, it follows that $G = G_1 T$.
 
 *Next, set*
 
@@ -511,15 +511,15 @@ G' = G_1 H, \quad B' = B \cap G', \quad N' = N \cap G',
 T' = T \cap G' = B' \cap N' \quad \text{and} \quad W' = N'/T'.
 $$
 
-We have $ G = G'T $ since $ G' $ contains $ G_1 $, and hence $ N = N'T $. The inclusion of $ N' $ into N thus defines, on passing to the quotient, an isomorphism $ \alpha : W' \to W $. Let $ S' = \alpha^{-1}(S) $.
+We have $G = G'T$ since $G'$ contains $G_1$, and hence $N = N'T$. The inclusion of $N'$ into N thus defines, on passing to the quotient, an isomorphism $\alpha : W' \to W$. Let $S' = \alpha^{-1}(S)$.
 
-*We now show that (G', B', N', S') is a Tits system*. Since $ G = BNB $ and $ B = TU = UT $, we have $ G = UNU $. Since U is a subgroup of $ G' $, it follows that $ G' = UN'U $; since $ U \subset B' $, this proves (T1). Axiom (T2) is satisfied since $ \alpha $ is an isomorphism. Let $ w \in W $ and let $ w' = \alpha^{-1}(w) $ be the corresponding element of $ W' $. We have
+*We now show that (G', B', N', S') is a Tits system*. Since $G = BNB$ and $B = TU = UT$, we have $G = UNU$. Since U is a subgroup of $G'$, it follows that $G' = UN'U$; since $U \subset B'$, this proves (T1). Axiom (T2) is satisfied since $\alpha$ is an isomorphism. Let $w \in W$ and let $w' = \alpha^{-1}(w)$ be the corresponding element of $W'$. We have
 
 $$
 BwB = BwB' = Bw'B', \quad \text{since } B = B'T.
 $$
 
-From this we conclude that $ G' \cap BwB = B'w'B' $, which means that the inclusion of $ G' $ into G defines on passing to the quotient a bijection from
+From this we conclude that $G' \cap BwB = B'w'B'$, which means that the inclusion of $G'$ into G defines on passing to the quotient a bijection from
 
 B'\setminus G'/B' to B\setminus G/B. Axiom (T3) follows immediately. Axiom (T4) follows from B = B'T.
 
@@ -559,13 +559,13 @@ Assumption (3) is implied by the following condition:
 
 #### Example 1 {#lie-iv-s2-n7-exa-1 .statement}
 
-Let k be a field, n an integer \geqslant 0, G = \mathbf{GL}(n, k), and let (G, B, N, S) be the Tits system described in no. 2. Let U be the strictly upper triangular subgroup of G, i.e. the subgroup of B consisting of the matrices whose diagonal entries are equal to 1. Condition (1) in Th. 5 is immediate, and so is (2) since U is soluble. Condition (4) is satisfied if $ n \geq 2 $. One can show (cf. *Algebra*, Chap. II, § 10, Exerc. 13) that (3) is satisfied if $ n \geq 3 $ and Card$(k) \geq 4$. Under these conditions, we conclude that $ G_1 / (G_1 \cap Z) $ is *simple* and that $ G_1 \cap Z $ is the centre of $ G_1 $ (cf. *Remark* 2).
+Let k be a field, n an integer \geqslant 0, G = \mathbf{GL}(n, k), and let (G, B, N, S) be the Tits system described in no. 2. Let U be the strictly upper triangular subgroup of G, i.e. the subgroup of B consisting of the matrices whose diagonal entries are equal to 1. Condition (1) in Th. 5 is immediate, and so is (2) since U is soluble. Condition (4) is satisfied if $n \geq 2$. One can show (cf. *Algebra*, Chap. II, § 10, Exerc. 13) that (3) is satisfied if $n \geq 3$ and Card$(k) \geq 4$. Under these conditions, we conclude that $G_1 / (G_1 \cap Z)$ is *simple* and that $G_1 \cap Z$ is the centre of $G_1$ (cf. *Remark* 2).
 
-When $ k $ is commutative, $ G_1 = \mathbf{SL}(n, k) $ (cf. *Algebra*, Chap. III, § 8, no. 9).
+When $k$ is commutative, $G_1 = \mathbf{SL}(n, k)$ (cf. *Algebra*, Chap. III, § 8, no. 9).
 
 #### Example 2 {#lie-iv-s2-n7-exa-2 .statement}
 
-Let $ g $ be a simple Lie algebra over $ \mathbf{C} $, and let $ G $ be the group of inner automorphisms of $ g $ (cf. Chap. III, § 6, no. 2, Prop. 2). By using Th. 5, one can show that $ G $ is simple non-abelian.*
+Let $g$ be a simple Lie algebra over $\mathbf{C}$, and let $G$ be the group of inner automorphisms of $g$ (cf. Chap. III, § 6, no. 2, Prop. 2). By using Th. 5, one can show that $G$ is simple non-abelian.*
 
 ### Exercises {#lie-iv-s2-exercises}
 

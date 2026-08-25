@@ -36,9 +36,9 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: 12bfbc8e59f8c553345202844b8d56d9dadc323f70883516a626c6a1c5fcc129
+content_sha256: 1b4df8de4a371078588d170214ca1e1fe463bfa5b692162a2a112c1d38a8672f
 translated_from: content/en/top/III/04_s4_groups_operating_properly_on_a.md
-source_content_sha256: 98bbe11fdf6749e206e1e4299f5988df931a0fc935bdd492e0606a77dcab9459
+source_content_sha256: d78632498d4d80f12d9feb1356772e82d6869a2b675a46084def6cb76666fe11
 translation_model: gpt-5.4
 translation_run: translate-vi-819ebfcb
 glossary_version: 34
@@ -52,7 +52,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#top-iii-s4-def-1 .statement}
 
-Cho $ G $ là một nhóm tôpô tác động liên tục trên một không gian tôpô $ X $. Ta nói $ G $ tác động thực sự trên $ X $ nếu ánh xạ
+Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian tôpô $X$. Ta nói $G$ tác động thực sự trên $X$ nếu ánh xạ
 
 $$
 \theta : (s, x) \to (x, s.x) \text{ từ } G \times X \text{ vào } X \times X
@@ -60,34 +60,34 @@ $$
 
 là thực sự (Chương I, § 10, no. 1, Định nghĩa 1).
 
-Cho $ \Gamma \subset G \times X \times X $ là đồ thị của ánh xạ $ \rho : (s, x) \to s.x $. Vì $ \rho $ liên tục, ánh xạ $ \sigma : (s, x) \to (s, x, s.x) $ là một đồng phôi từ $ G \times X $ lên $ \Gamma $, và ánh xạ hợp thành
+Cho $\Gamma \subset G \times X \times X$ là đồ thị của ánh xạ $\rho : (s, x) \to s.x$. Vì $\rho$ liên tục, ánh xạ $\sigma : (s, x) \to (s, x, s.x)$ là một đồng phôi từ $G \times X$ lên $\Gamma$, và ánh xạ hợp thành
 
 $$
 G \times X \xrightarrow{\sigma} \Gamma \xrightarrow{\mathrm{pr}_{23}} X \times X
 $$
 
-chỉ là $ \theta $. Do đó, Định nghĩa 1 tương đương với việc nói rằng hạn chế của $ \mathrm{pr}_{23} $ lên $ \Gamma $ là một ánh xạ thực sự của $ \Gamma $ vào $ X \times X $.
+chỉ là $\theta$. Do đó, Định nghĩa 1 tương đương với việc nói rằng hạn chế của $\mathrm{pr}_{23}$ lên $\Gamma$ là một ánh xạ thực sự của $\Gamma$ vào $X \times X$.
 
 Định lý 1 của Chương I, § 10, no. 2 cho thấy rằng G tác động thực sự trên X khi và chỉ khi điều kiện sau được thỏa mãn:
-Với mỗi tập hợp A được lọc bởi một siêu bộ lọc $ \mathfrak{F} $, và mỗi ánh xạ
+Với mỗi tập hợp A được lọc bởi một siêu bộ lọc $\mathfrak{F}$, và mỗi ánh xạ
 $$
 \alpha \to (s_\alpha, x_\alpha)
 $$
-từ A vào $ G \times X $, nếu ánh xạ $ \alpha \to (s_\alpha \cdot x_\alpha, x_\alpha) $ có giới hạn $(b, a)$ đối với $ \mathfrak{F} $, thì $ \alpha \to s_\alpha $ có giới hạn $ t \in G $ đối với $ \mathfrak{F} $, sao cho $ t.a = b $.
+từ A vào $G \times X$, nếu ánh xạ $\alpha \to (s_\alpha \cdot x_\alpha, x_\alpha)$ có giới hạn $(b, a)$ đối với $\mathfrak{F}$, thì $\alpha \to s_\alpha$ có giới hạn $t \in G$ đối với $\mathfrak{F}$, sao cho $t.a = b$.
 
 #### Ví dụ 1 {#top-iii-s4-n1-exa-1 .statement}
 
-Cho H là một nhóm con đóng của một nhóm tôpô G. Nếu G tác động một cách thực sự trên X, thì H cũng vậy, vì $ H \times X $ đóng trong $ G \times X $ (Chương I, § 10, no. 1, Mệnh đề 5, Hệ quả 1). Chẳng hạn nếu ta lấy $ X = G $, với G tác động lên chính nó bởi các phép tịnh tiến trái, thì ánh xạ $ G \times X \to X \times X $ là một đồng phôi, do đó là thực sự; vì thế H tác động một cách thực sự lên G bởi các phép tịnh tiến trái.
+Cho H là một nhóm con đóng của một nhóm tôpô G. Nếu G tác động một cách thực sự trên X, thì H cũng vậy, vì $H \times X$ đóng trong $G \times X$ (Chương I, § 10, no. 1, Mệnh đề 5, Hệ quả 1). Chẳng hạn nếu ta lấy $X = G$, với G tác động lên chính nó bởi các phép tịnh tiến trái, thì ánh xạ $G \times X \to X \times X$ là một đồng phôi, do đó là thực sự; vì thế H tác động một cách thực sự lên G bởi các phép tịnh tiến trái.
 
 #### Ví dụ 2 {#top-iii-s4-n1-exa-2 .statement}
 
-Nếu G tác động một cách thực sự trên X, thì nó tác động một cách thực sự trên mọi không gian con $ X' $ của X là một hợp các quỹ đạo của các điểm của X (nói cách khác, $ X' $ là bão hòa đối với quan hệ tương đương do G xác định). Thật vậy, ảnh ngược của $ X' \times X' $ trong $ G \times X $ là $ G \times X' $, và ta có thể áp dụng Mệnh đề 3 của Chương I, § 10, no. 1.
+Nếu G tác động một cách thực sự trên X, thì nó tác động một cách thực sự trên mọi không gian con $X'$ của X là một hợp các quỹ đạo của các điểm của X (nói cách khác, $X'$ là bão hòa đối với quan hệ tương đương do G xác định). Thật vậy, ảnh ngược của $X' \times X'$ trong $G \times X$ là $G \times X'$, và ta có thể áp dụng Mệnh đề 3 của Chương I, § 10, no. 1.
 
 #### Mệnh đề 1 {#top-iii-s4-prop-1 .statement}
 
-Cho G là một nhóm tôpô tác động liên tục trên một không gian tôpô X, và cho K là một tập con giả compắc của G. Khi đó ánh xạ $ \rho : (s, x) \to s.x $ từ $ K \times X $ vào X là thực sự.
+Cho G là một nhóm tôpô tác động liên tục trên một không gian tôpô X, và cho K là một tập con giả compắc của G. Khi đó ánh xạ $\rho : (s, x) \to s.x$ từ $K \times X$ vào X là thực sự.
 
-$ \rho $ phân tích thành $ K \times X \to K \times X \xrightarrow{\mathrm{pr}_2} X $, trong đó $ \alpha(s, x) = (s, s.x) $. $ \alpha $ là một đồng phôi, vì $ \alpha^{-1} : (s, y) \to (s, s^{-1}.y) $ là liên tục. Vì K là giả compắc, $ \mathrm{pr}_2 $ là riêng (Chương I, § 10, no. 2, Định lý 1, Hệ quả 5); do đó $ \rho $ là riêng (Chương I, § 10, no. 1, Mệnh đề 5).
+$\rho$ phân tích thành $K \times X \to K \times X \xrightarrow{\mathrm{pr}_2} X$, trong đó $\alpha(s, x) = (s, s.x)$. $\alpha$ là một đồng phôi, vì $\alpha^{-1} : (s, y) \to (s, s^{-1}.y)$ là liên tục. Vì K là giả compắc, $\mathrm{pr}_2$ là riêng (Chương I, § 10, no. 2, Định lý 1, Hệ quả 5); do đó $\rho$ là riêng (Chương I, § 10, no. 1, Mệnh đề 5).
 
 #### Hệ quả 1 {#top-iii-s4-prop-1-cor-1 .statement}
 
@@ -95,11 +95,11 @@ Nếu A là một tập con đóng (tương ứng, compắc) của X, thì K.A �
 
 Mệnh đề liên quan đến các tập đóng suy ra từ Mệnh đề 1 và sự kiện rằng một ánh xạ riêng là đóng (Chương I, § 10, no. 1, Mệnh đề 1). Mệnh đề liên quan đến các tập compắc là tầm thường.
 
-Cần lưu ý rằng nếu L là một tập con compắc của X, và F là một tập con đóng của G, thì F.L không nhất thiết đóng trong X ($ \S 2 $, Bài tập 29; so sánh no. 5, Hệ quả của Mệnh đề 12).
+Cần lưu ý rằng nếu L là một tập con compắc của X, và F là một tập con đóng của G, thì F.L không nhất thiết đóng trong X ($\S 2$, Bài tập 29; so sánh no. 5, Hệ quả của Mệnh đề 12).
 
 #### Hệ quả 2 {#top-iii-s4-prop-1-cor-2 .statement}
 
-Nếu K là một nhóm con giả compắc của một nhóm tôpô G, thì quan hệ tương đương $ x^{-1}y \in K $ là đóng, và ánh xạ chính tắc $ \varphi : G \to G/K $ là riêng.
+Nếu K là một nhóm con giả compắc của một nhóm tôpô G, thì quan hệ tương đương $x^{-1}y \in K$ là đóng, và ánh xạ chính tắc $\varphi : G \to G/K$ là riêng.
 
 #### Hệ quả 3 {#top-iii-s4-prop-1-cor-3 .statement}
 
@@ -133,37 +133,37 @@ Cho G là một nhóm tôpô Hausdorff và K là một nhóm con compắc của 
 
 #### Mệnh đề 3 {#top-iii-s4-prop-3 .statement}
 
-*Nếu một nhóm tôpô* $ G $ *tác động riêng lên một không gian tôpô* $ X $, *thì không gian quỹ đạo* $ X/G $ *là Hausdorff*. *Nếu thêm nữa* $ G $ *là Hausdorff*, *thì* $ X $ *là Hausdorff*.
+*Nếu một nhóm tôpô* $G$ *tác động riêng lên một không gian tôpô* $X$, *thì không gian quỹ đạo* $X/G$ *là Hausdorff*. *Nếu thêm nữa* $G$ *là Hausdorff*, *thì* $X$ *là Hausdorff*.
 
-Cho $ C \subset X \times X $ là đồ thị của quan hệ tương đương $ R $ do $ G $ xác định trên $ X $; khi đó $ C $ là ảnh của $ G \times X $ dưới ánh xạ $ \theta : (s, x) \to (x, s.x) $. Vì $ \theta $ là thực sự, $ C $ là đóng trong $ X \times X $ (Chương I, § 10, no. 1, Mệnh đề 1). Vì quan hệ $ R $ là mở ($ \S 2 $, no. 4, Bổ đề 2), suy ra $ X/G $ là Hausdorff (Chương I, § 8, no. 3, Mệnh đề 8).
+Cho $C \subset X \times X$ là đồ thị của quan hệ tương đương $R$ do $G$ xác định trên $X$; khi đó $C$ là ảnh của $G \times X$ dưới ánh xạ $\theta : (s, x) \to (x, s.x)$. Vì $\theta$ là thực sự, $C$ là đóng trong $X \times X$ (Chương I, § 10, no. 1, Mệnh đề 1). Vì quan hệ $R$ là mở ($\S 2$, no. 4, Bổ đề 2), suy ra $X/G$ là Hausdorff (Chương I, § 8, no. 3, Mệnh đề 8).
 
-Bây giờ giả sử rằng $ G $ là Hausdorff. Khi đó ánh xạ $ x \to (e, x) $ của $ X $ vào $ G \times X $ là một đồng phôi từ $ X $ lên một không gian con đóng của $ G \times X $, và vì thế là thực sự (Chương I, § 10, no. 1, Mệnh đề 2). Nếu ta hợp thành ánh xạ này với ánh xạ $ (s, x) \to (x, s.x) $ của $ G \times X $ vào $ X \times X $, mà theo giả thiết là thực sự, thì ta thu được một ánh xạ thực sự của $ X $ vào $ X \times X $, cụ thể là ánh xạ đường chéo $ x \to (x, x) $. Do đó đường chéo $ \Delta $ của $ X \times X $ là đóng trong $ X $, và vì vậy $ X $ là Hausdorff.
+Bây giờ giả sử rằng $G$ là Hausdorff. Khi đó ánh xạ $x \to (e, x)$ của $X$ vào $G \times X$ là một đồng phôi từ $X$ lên một không gian con đóng của $G \times X$, và vì thế là thực sự (Chương I, § 10, no. 1, Mệnh đề 2). Nếu ta hợp thành ánh xạ này với ánh xạ $(s, x) \to (x, s.x)$ của $G \times X$ vào $X \times X$, mà theo giả thiết là thực sự, thì ta thu được một ánh xạ thực sự của $X$ vào $X \times X$, cụ thể là ánh xạ đường chéo $x \to (x, x)$. Do đó đường chéo $\Delta$ của $X \times X$ là đóng trong $X$, và vì vậy $X$ là Hausdorff.
 
 #### Mệnh đề 4 {#top-iii-s4-prop-4 .statement}
 
-*Cho* $ G $ *là một nhóm tôpô tác động thực sự lên một không gian tôpô* $ X $, *và cho* $ x $ *là một điểm của* $ X $. *Ký hiệu* $ G.x $ *là quỹ đạo của* $ x $, *và ký hiệu* $ K_x $ *là nhóm ổn định của* $ x $. *Khi đó*:
+*Cho* $G$ *là một nhóm tôpô tác động thực sự lên một không gian tôpô* $X$, *và cho* $x$ *là một điểm của* $X$. *Ký hiệu* $G.x$ *là quỹ đạo của* $x$, *và ký hiệu* $K_x$ *là nhóm ổn định của* $x$. *Khi đó*:
 
-a) *Ánh xạ* $ s \to s.x $ *từ* $ G $ *vào* $ X $ *là thực sự*.
+a) *Ánh xạ* $s \to s.x$ *từ* $G$ *vào* $X$ *là thực sự*.
 
-b) $ K_x $ *là giả compắc*.
+b) $K_x$ *là giả compắc*.
 
-c) *Ánh xạ chính tắc từ* $ G/K_x $ *lên* $ G.x $ *là một đồng phôi*.
+c) *Ánh xạ chính tắc từ* $G/K_x$ *lên* $G.x$ *là một đồng phôi*.
 
-d) *Quỹ đạo* $ G.x $ *đóng trong* $ X $.
+d) *Quỹ đạo* $G.x$ *đóng trong* $X$.
 
-Ảnh ngược của $ \{ x \} \times X $ dưới $ \theta : (s, x) \to (x, s.x) $ là $ G \times \{ x \} $; do đó, theo Mệnh đề 3 của Chương I, § 10, no. 1, hạn chế của $ \theta $ lên $ G \times \{ x \} $ là một ánh xạ thực sự từ $ G \times \{ x \} $ vào $ \{ x \} \times X $, do đó suy ra a). Vì $ K_x $ là ảnh ngược của $ x $ dưới $ s \to s.x $, b) suy ra từ Chương I, § 10, no. 2, Định lý 1. c) và d) là các hệ quả của a), chiếu theo Chương I, § 10, no. 1, các Mệnh đề 2 và 5 b).
+Ảnh ngược của $\{ x \} \times X$ dưới $\theta : (s, x) \to (x, s.x)$ là $G \times \{ x \}$; do đó, theo Mệnh đề 3 của Chương I, § 10, no. 1, hạn chế của $\theta$ lên $G \times \{ x \}$ là một ánh xạ thực sự từ $G \times \{ x \}$ vào $\{ x \} \times X$, do đó suy ra a). Vì $K_x$ là ảnh ngược của $x$ dưới $s \to s.x$, b) suy ra từ Chương I, § 10, no. 2, Định lý 1. c) và d) là các hệ quả của a), chiếu theo Chương I, § 10, no. 1, các Mệnh đề 2 và 5 b).
 
 #### Nhận xét {#top-iii-s4-n2-rem-1 .statement}
 
-Mệnh đề 4 cho thấy rằng nếu một nhóm tôpô $ G $ tác động đúng lên một không gian thuần nhất $ G/H $, thì nhóm con $ H $ là giả compắc (và do đó compắc nếu $ G $ là Hausdorff). Có thể chứng minh rằng đây cũng là một điều kiện đủ để $ G $ tác động đúng lên $ G/H $ (Bài tập 3).
+Mệnh đề 4 cho thấy rằng nếu một nhóm tôpô $G$ tác động đúng lên một không gian thuần nhất $G/H$, thì nhóm con $H$ là giả compắc (và do đó compắc nếu $G$ là Hausdorff). Có thể chứng minh rằng đây cũng là một điều kiện đủ để $G$ tác động đúng lên $G/H$ (Bài tập 3).
 
 #### Mệnh đề 5 {#top-iii-s4-prop-5 .statement}
 
-*Cho* $ G $ *(tương ứng* $ G' $) *là một nhóm tôpô tác động liên tục trên một không gian tôpô* $ X $ *(tương ứng* $ X' $). *Cho* $ \varphi $ *là một đồng cấu liên tục* của $ G $ vào $ G' $ và cho $ \psi $ là một ánh xạ liên tục của $ X $ vào $ X' $ tương thích với $ \varphi $ (\S 2, no. 4). Khi đó:
+*Cho* $G$ *(tương ứng* $G'$) *là một nhóm tôpô tác động liên tục trên một không gian tôpô* $X$ *(tương ứng* $X'$). *Cho* $\varphi$ *là một đồng cấu liên tục* của $G$ vào $G'$ và cho $\psi$ là một ánh xạ liên tục của $X$ vào $X'$ tương thích với $\varphi$ (\S 2, no. 4). Khi đó:
 
-(i) *Nếu $ \varphi $ là toàn ánh và $ \psi $ là toàn ánh và thực sự, và nếu $ G $ tác động một cách thực sự trên $ X $, thì $ G' $ tác động một cách thực sự trên $ X' $.*
+(i) *Nếu $\varphi$ là toàn ánh và $\psi$ là toàn ánh và thực sự, và nếu $G$ tác động một cách thực sự trên $X$, thì $G'$ tác động một cách thực sự trên $X'$.*
 
-(ii) *Nếu $ \varphi $ là thực sự, nếu $ G' $ tác động một cách thực sự trên $ X' $ và nếu $ X $ là Hausdorff, thì $ G $ tác động một cách thực sự trên $ X $.*
+(ii) *Nếu $\varphi$ là thực sự, nếu $G'$ tác động một cách thực sự trên $X'$ và nếu $X$ là Hausdorff, thì $G$ tác động một cách thực sự trên $X$.*
 
 Để chứng minh (i), xét biểu đồ giao hoán
 
@@ -175,49 +175,49 @@ G' \times X' & \xrightarrow{\theta'} & X' \times X'
 \end{array}
 $$
 
-trong đó $ \alpha = \varphi \times \psi $ và $ \beta = \psi \times \psi $. Theo giả thiết, $ \theta $ là thực sự; $ \beta $ cũng vậy [Chương I, \S 10, no. 1, Mệnh đề 4 a)]; do đó $ \beta \circ \theta = \theta' \circ \alpha $ là thực sự [Chương I, \S 10, no. 1, Mệnh đề 5 a)]. Vì $ \alpha $ là toàn ánh nên suy ra $ \theta' $ là thực sự [Chương I, \S 10, no. 1, Mệnh đề 5 b)].
+trong đó $\alpha = \varphi \times \psi$ và $\beta = \psi \times \psi$. Theo giả thiết, $\theta$ là thực sự; $\beta$ cũng vậy [Chương I, \S 10, no. 1, Mệnh đề 4 a)]; do đó $\beta \circ \theta = \theta' \circ \alpha$ là thực sự [Chương I, \S 10, no. 1, Mệnh đề 5 a)]. Vì $\alpha$ là toàn ánh nên suy ra $\theta'$ là thực sự [Chương I, \S 10, no. 1, Mệnh đề 5 b)].
 
-Để chứng minh (ii), xét một siêu bộ lọc $ U $ trên $ G \times X $, sao cho các ánh xạ
+Để chứng minh (ii), xét một siêu bộ lọc $U$ trên $G \times X$, sao cho các ánh xạ
 
 $$
 (s, x) \to s.x \quad \text{và} \quad (s, x) \to x
 $$
 
-hội tụ đối với $ U $ lần lượt về $ y_0 $ và $ x_0 $. Suy ra rằng $ (s, x) \to \varphi(s).\psi(x) $ và $ (s, x) \to \psi(x) $ hội tụ đối với $ U $. Vì $ G' $ tác động thực sự trên $ X' $, điều này kéo theo (no. 1) rằng $ (s, x) \to \varphi(s) $ hội tụ đối với $ U $ về một điểm $ s'_0 \in G' $. Vì $ \varphi $ là thực sự, ta suy ra (Chương I, \S 10, no. 2, Định lý 1) rằng $ (s, x) \to s $ hội tụ đối với $ U $ về một điểm $ s_0 \in G $. Tính duy nhất của giới hạn trong $ X $ khi đó cho thấy rằng $ y_0 = s_0 x_0 $, và do đó $ G $ tác động thực sự trên $ X $ (no. 1).
+hội tụ đối với $U$ lần lượt về $y_0$ và $x_0$. Suy ra rằng $(s, x) \to \varphi(s).\psi(x)$ và $(s, x) \to \psi(x)$ hội tụ đối với $U$. Vì $G'$ tác động thực sự trên $X'$, điều này kéo theo (no. 1) rằng $(s, x) \to \varphi(s)$ hội tụ đối với $U$ về một điểm $s'_0 \in G'$. Vì $\varphi$ là thực sự, ta suy ra (Chương I, \S 10, no. 2, Định lý 1) rằng $(s, x) \to s$ hội tụ đối với $U$ về một điểm $s_0 \in G$. Tính duy nhất của giới hạn trong $X$ khi đó cho thấy rằng $y_0 = s_0 x_0$, và do đó $G$ tác động thực sự trên $X$ (no. 1).
 
 ### 3. NHÓM TÁC ĐỘNG TỰ DO TRÊN MỘT KHÔNG GIAN TÔPÔ
 
 #### Định nghĩa 2 {#top-iii-s4-def-2 .statement}
 
-*Cho $ G $ là một nhóm tác động trên một tập hợp $ X $. Ta nói $ G $ tác động tự do trên $ X $ nếu nhóm ổn định của mọi phần tử của $ X $ là $ \{e\} $, nói cách khác nếu các hệ thức $ s.x = x,\ s \in G,\ x \in X $ kéo theo $ s = e $.*
+*Cho $G$ là một nhóm tác động trên một tập hợp $X$. Ta nói $G$ tác động tự do trên $X$ nếu nhóm ổn định của mọi phần tử của $X$ là $\{e\}$, nói cách khác nếu các hệ thức $s.x = x,\ s \in G,\ x \in X$ kéo theo $s = e$.*
 
 #### Ví dụ {#top-iii-s4-n3-exa-1 .statement}
 
-Cho $ G $ là một nhóm và cho $ H $ là một nhóm con của $ G $. Khi đó $ H $ tác động tự do lên $ G $ bằng các phép tịnh tiến (trái hoặc phải).
+Cho $G$ là một nhóm và cho $H$ là một nhóm con của $G$. Khi đó $H$ tác động tự do lên $G$ bằng các phép tịnh tiến (trái hoặc phải).
 
-Cho $ G $ là một nhóm tác động tự do trên một tập hợp $ X $, gọi $ R $ là quan hệ tương đương do $ G $ xác định trên $ X $, và gọi $ C \subset X \times X $ là đồ thị của $ R $. Nếu $ (x, y) \in C $, thì tồn tại $ s \in G $ sao cho $ s.x = y $; và $ s $ là *duy nhất*, vì $ s.x = s'.x $ kéo theo $ s'^{-1}s.x = x $, và do đó $ s'^{-1}s = e $ (vì $ G $ tác động tự do). Nếu ta cho tương ứng với $ (x, y) \in C $ phần tử duy nhất $ s \in G $ sao cho $ s.x = y $, thì ta định nghĩa một ánh xạ $ \varphi : C \to G $, mà ta sẽ gọi là ánh xạ chính tắc của $ C $ vào $ G $. Với ký hiệu này:
+Cho $G$ là một nhóm tác động tự do trên một tập hợp $X$, gọi $R$ là quan hệ tương đương do $G$ xác định trên $X$, và gọi $C \subset X \times X$ là đồ thị của $R$. Nếu $(x, y) \in C$, thì tồn tại $s \in G$ sao cho $s.x = y$; và $s$ là *duy nhất*, vì $s.x = s'.x$ kéo theo $s'^{-1}s.x = x$, và do đó $s'^{-1}s = e$ (vì $G$ tác động tự do). Nếu ta cho tương ứng với $(x, y) \in C$ phần tử duy nhất $s \in G$ sao cho $s.x = y$, thì ta định nghĩa một ánh xạ $\varphi : C \to G$, mà ta sẽ gọi là ánh xạ chính tắc của $C$ vào $G$. Với ký hiệu này:
 
 #### Mệnh đề 6 {#top-iii-s4-prop-6 .statement}
 
-*Cho $ G $ là một nhóm tôpô tác động liên tục trên một không gian tôpô $ X $, và giả sử rằng $ G $ tác động tự do trên $ X $. Khi đó $ G $ tác động đúng trên $ X $ nếu và chỉ nếu điều kiện sau đây được thỏa mãn:*
+*Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian tôpô $X$, và giả sử rằng $G$ tác động tự do trên $X$. Khi đó $G$ tác động đúng trên $X$ nếu và chỉ nếu điều kiện sau đây được thỏa mãn:*
 
-(FP) *Đồ thị $ C $ của quan hệ tương đương do $ G $ xác định là đóng trong $ X \times X $, và ánh xạ chính tắc $ \varphi : C \to G $ là liên tục.*
+(FP) *Đồ thị $C$ của quan hệ tương đương do $G$ xác định là đóng trong $X \times X$, và ánh xạ chính tắc $\varphi : C \to G$ là liên tục.*
 
-Tập hợp $ C $ là ảnh của ánh xạ $ \theta : (s, x) \to (x, s.x) $ từ $ G \times X $ vào $ X \times X $. Ta biết (Chương I, § 10, no. 1, Mệnh đề 2) rằng $ \theta $ là thực sự khi và chỉ khi $ C $ đóng trong $ X \times X $ và (nếu $ \theta' $ ký hiệu ánh xạ $ \theta $ được xét như một ánh xạ từ $ G \times X $ vào $ C $) $ \theta' $ là một đồng phôi. Bây giờ giả thiết suy ra rằng $ \theta' $ là song ánh và ánh xạ nghịch đảo của nó là ánh xạ $ (x, y) \to (\varphi(x, y), x) $. Do đó $ \theta' $ là một đồng phôi khi và chỉ khi $ \varphi $ liên tục.
+Tập hợp $C$ là ảnh của ánh xạ $\theta : (s, x) \to (x, s.x)$ từ $G \times X$ vào $X \times X$. Ta biết (Chương I, § 10, no. 1, Mệnh đề 2) rằng $\theta$ là thực sự khi và chỉ khi $C$ đóng trong $X \times X$ và (nếu $\theta'$ ký hiệu ánh xạ $\theta$ được xét như một ánh xạ từ $G \times X$ vào $C$) $\theta'$ là một đồng phôi. Bây giờ giả thiết suy ra rằng $\theta'$ là song ánh và ánh xạ nghịch đảo của nó là ánh xạ $(x, y) \to (\varphi(x, y), x)$. Do đó $\theta'$ là một đồng phôi khi và chỉ khi $\varphi$ liên tục.
 
 ### 4. CÁC NHÓM ĐỊA PHƯƠNG COMPACT TÁC ĐỘNG ĐÚNG CÁCH
 
 #### Mệnh đề 7 {#top-iii-s4-prop-7 .statement}
 
-*Cho $ G $ là một nhóm địa phương compact tác động liên tục trên một không gian Hausdorff $ X $. Khi đó $ G $ tác động đúng cách trên $ X $ khi và chỉ khi, với mỗi cặp điểm $ x, y $ của $ X $, tồn tại một lân cận $ V_x $ của $ x $ và một lân cận $ V_y $ của $ y $ sao cho tập hợp $ K $ gồm tất cả các $ s \in G $ mà $ s.V_x \cap V_y \neq \emptyset $ là tương đối compact trong $ G $.*
+*Cho $G$ là một nhóm địa phương compact tác động liên tục trên một không gian Hausdorff $X$. Khi đó $G$ tác động đúng cách trên $X$ khi và chỉ khi, với mỗi cặp điểm $x, y$ của $X$, tồn tại một lân cận $V_x$ của $x$ và một lân cận $V_y$ của $y$ sao cho tập hợp $K$ gồm tất cả các $s \in G$ mà $s.V_x \cap V_y \neq \emptyset$ là tương đối compact trong $G$.*
 
-Cho $ F $ là không gian compact thu được bằng cách thêm một điểm ở vô cực $ \omega $ vào $ G $, và gọi $ \Gamma $ là đồ thị của $ \rho : (s, x) \to s.x $, được xét như một tập con của $ F \times X \times X $. Ta sẽ chỉ ra rằng nếu hạn chế của $ \mathrm{pr}_{23} $ lên $ \Gamma $ là thực sự, thì $ \Gamma $ là *đóng trong* $ F \times X \times X $. Thật vậy, giả thiết này kéo theo rằng ánh xạ $ u : (t, s, x, y) \to (t, x, y) $ từ $ F \times \Gamma $ vào $ F \times X \times X $ là đóng. Nếu $ \Gamma' $ là tập hợp các điểm $ (s, s) $ trong $ F \times G $, với $ s \in G $, thì $ \Gamma' $ đóng trong $ F \times G $, vì nó là đồ thị của đơn ánh chính tắc $ G \to F $ (Chương I, § 8, no. 1, Hệ quả 2 của Mệnh đề 2); do đó giao $ (\Gamma' \times X \times X) \cap (F \times \Gamma) $ đóng trong $ F \times \Gamma $, và thấy ngay lập tức rằng ảnh của nó qua $ u $ là tập $ \Gamma $ được xét như một tập con của $ F \times X \times X $; do đó $ \Gamma $ đóng trong $ F \times X \times X $. Bây giờ, ta có $ (\{\omega\} \times X \times X) \cap \Gamma = \emptyset $. Vậy, theo định nghĩa của $ F $, với mọi điểm $ (x, y) \in X \times X $ đều tồn tại một lân cận $ W $ của $ (x, y) $ trong $ X \times X $ và một tập con compact $ K $ của $ G $ sao cho
+Cho $F$ là không gian compact thu được bằng cách thêm một điểm ở vô cực $\omega$ vào $G$, và gọi $\Gamma$ là đồ thị của $\rho : (s, x) \to s.x$, được xét như một tập con của $F \times X \times X$. Ta sẽ chỉ ra rằng nếu hạn chế của $\mathrm{pr}_{23}$ lên $\Gamma$ là thực sự, thì $\Gamma$ là *đóng trong* $F \times X \times X$. Thật vậy, giả thiết này kéo theo rằng ánh xạ $u : (t, s, x, y) \to (t, x, y)$ từ $F \times \Gamma$ vào $F \times X \times X$ là đóng. Nếu $\Gamma'$ là tập hợp các điểm $(s, s)$ trong $F \times G$, với $s \in G$, thì $\Gamma'$ đóng trong $F \times G$, vì nó là đồ thị của đơn ánh chính tắc $G \to F$ (Chương I, § 8, no. 1, Hệ quả 2 của Mệnh đề 2); do đó giao $(\Gamma' \times X \times X) \cap (F \times \Gamma)$ đóng trong $F \times \Gamma$, và thấy ngay lập tức rằng ảnh của nó qua $u$ là tập $\Gamma$ được xét như một tập con của $F \times X \times X$; do đó $\Gamma$ đóng trong $F \times X \times X$. Bây giờ, ta có $(\{\omega\} \times X \times X) \cap \Gamma = \emptyset$. Vậy, theo định nghĩa của $F$, với mọi điểm $(x, y) \in X \times X$ đều tồn tại một lân cận $W$ của $(x, y)$ trong $X \times X$ và một tập con compact $K$ của $G$ sao cho
 
 $$
 ((G - K) \times W) \cap \Gamma;
 $$
 
-là rỗng; và vì ta có thể lấy $ W $ là một lân cận $ V_x \times V_y $, trong đó $ V_x $ và $ V_y $ lần lượt là các lân cận của $ x $ và $ y $ trong $ X $, nên mệnh đề “((G — K) × W) ∩ Γ = ∅” trở thành “nếu s ∉ K, thì s · V_x ∩ V_y = ∅”. Như vậy ta đã chứng minh được tính cần thiết của điều kiện đã phát biểu trong mệnh đề. Ngược lại, giả sử điều kiện này được thỏa mãn; cho A là một tập hợp được lọc bởi một siêu bộ lọc 𝔾, và α → (s_α, x_α) là một ánh xạ từ A vào G × X sao cho lim_𝔖 x_α = x và lim_𝔖 s_α · x_α = y. Giả sử rằng K, V_x và V_y thỏa mãn điều kiện của mệnh đề. Theo giả thiết có một tập hợp M ∈ 𝔾 sao cho nếu α ∈ M thì x_α ∈ V_x và s_α · x_α ∈ V_y, do đó s_α ∈ K. Điều này cho thấy ánh xạ α → s_α hội tụ đối với 𝔾, và chứng minh là đầy đủ.
+là rỗng; và vì ta có thể lấy $W$ là một lân cận $V_x \times V_y$, trong đó $V_x$ và $V_y$ lần lượt là các lân cận của $x$ và $y$ trong $X$, nên mệnh đề “((G — K) × W) ∩ Γ = ∅” trở thành “nếu s ∉ K, thì s · V_x ∩ V_y = ∅”. Như vậy ta đã chứng minh được tính cần thiết của điều kiện đã phát biểu trong mệnh đề. Ngược lại, giả sử điều kiện này được thỏa mãn; cho A là một tập hợp được lọc bởi một siêu bộ lọc 𝔾, và α → (s_α, x_α) là một ánh xạ từ A vào G × X sao cho lim_𝔖 x_α = x và lim_𝔖 s_α · x_α = y. Giả sử rằng K, V_x và V_y thỏa mãn điều kiện của mệnh đề. Theo giả thiết có một tập hợp M ∈ 𝔾 sao cho nếu α ∈ M thì x_α ∈ V_x và s_α · x_α ∈ V_y, do đó s_α ∈ K. Điều này cho thấy ánh xạ α → s_α hội tụ đối với 𝔾, và chứng minh là đầy đủ.
 
 Nếu G compắc, thì điều kiện của Mệnh đề 7 được thỏa mãn một cách hiển nhiên; như vậy ta thu lại Mệnh đề 2 a).
 
@@ -237,34 +237,34 @@ Việc ánh xạ chính tắc U/K_x → X/G là một đồng phôi từ U/K_x l
 
 #### Hệ quả {#top-iii-s4-n4-cor-1 .statement}
 
-*Nếu giả sử thêm rằng $ K_x = \{ e \} $, thì điểm $ x $ có một lân cận mở $ U $ sao cho hạn chế trên $ U $ của ánh xạ chính tắc $ X \to X/G $ là một đồng phôi từ $ U $ lên một tập con mở của $ X/G $.*
+*Nếu giả sử thêm rằng $K_x = \{ e \}$, thì điểm $x$ có một lân cận mở $U$ sao cho hạn chế trên $U$ của ánh xạ chính tắc $X \to X/G$ là một đồng phôi từ $U$ lên một tập con mở của $X/G$.*
 
 ### 5. CÁC NHÓM TÁC ĐỘNG LIÊN TỤC TRÊN MỘT KHÔNG GIAN ĐỊA PHƯƠNG COMPẮC
 
 #### Mệnh đề 9 {#top-iii-s4-prop-9 .statement}
 
-*Cho $ G $ là một nhóm tôpô tác động liên tục trên một không gian compact địa phương $ X $. Khi đó, nếu $ X/G $ là Hausdorff thì nó compact địa phương.*
+*Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian compact địa phương $X$. Khi đó, nếu $X/G$ là Hausdorff thì nó compact địa phương.*
 
-Vì quan hệ tương đương trên $ X $ do $ G $ xác định là mở ($ \S 2 $, no. 4, Bổ đề 2), mệnh đề này suy ra từ Chương I, $ \S 10 $, no. 4, Mệnh đề 10.
+Vì quan hệ tương đương trên $X$ do $G$ xác định là mở ($\S 2$, no. 4, Bổ đề 2), mệnh đề này suy ra từ Chương I, $\S 10$, no. 4, Mệnh đề 10.
 
 #### Mệnh đề 10 {#top-iii-s4-prop-10 .statement}
 
-*Cho $ G $ là một nhóm tôpô tác động liên tục trên một không gian compact địa phương $ X $, và giả sử rằng $ X/G $ là Hausdorff. Gọi $ \varphi $ là ánh xạ chính tắc từ $ X $ lên $ X/G $. Khi đó, nếu $ K' $ là một tập con compact bất kỳ của $ X/G $, thì tồn tại một tập con compact $ K $ của $ X $ sao cho $ \varphi(K) = K' $.*
+*Cho $G$ là một nhóm tôpô tác động liên tục trên một không gian compact địa phương $X$, và giả sử rằng $X/G$ là Hausdorff. Gọi $\varphi$ là ánh xạ chính tắc từ $X$ lên $X/G$. Khi đó, nếu $K'$ là một tập con compact bất kỳ của $X/G$, thì tồn tại một tập con compact $K$ của $X$ sao cho $\varphi(K) = K'$.*
 
-Vì quan hệ tương đương do $ G $ xác định là mở ($ \S 2 $, no. 4, Bổ đề 2), mệnh đề này là một trường hợp riêng của Mệnh đề 10 của Chương I, $ \S 10 $, no. 4.
+Vì quan hệ tương đương do $G$ xác định là mở ($\S 2$, no. 4, Bổ đề 2), mệnh đề này là một trường hợp riêng của Mệnh đề 10 của Chương I, $\S 10$, no. 4.
 
 #### Mệnh đề 11 {#top-iii-s4-prop-11 .statement}
 
-*Cho $ G $ là một nhóm tôpô Hausdorff tác động đúng trên một không gian không rỗng $ X $. Nếu $ X $ là compact (tương ứng, compact địa phương) thì $ G $ và $ X/G $ cũng vậy.*
+*Cho $G$ là một nhóm tôpô Hausdorff tác động đúng trên một không gian không rỗng $X$. Nếu $X$ là compact (tương ứng, compact địa phương) thì $G$ và $X/G$ cũng vậy.*
 
-Theo giả thiết, ánh xạ $ \theta : (s, x) \to (x, s.x) $ của $ G \times X $ vào $ X \times X $ là thực sự; nếu $ X \times X $ là compac (resp. địa phương compac) thì Hệ quả của Mệnh đề 9 của Chương I, $ \S 10 $, no. 4 cho thấy rằng $ G \times X $ cũng compac (resp. địa phương compac), và do đó $ G $ cũng vậy vì $ X \neq \emptyset $. Vì $ X/G $ là Hausdorff (no. 2, Mệnh đề 3), tính compac (resp. tính địa phương compac) của $ X $ suy ra tính compac (resp. tính địa phương compac) của $ X/G $ [Chương I, $ \S 10 $, no. 4, Mệnh đề 8 (resp. Mệnh đề 9)] (xem $ \S 2 $, Bài tập 29).
+Theo giả thiết, ánh xạ $\theta : (s, x) \to (x, s.x)$ của $G \times X$ vào $X \times X$ là thực sự; nếu $X \times X$ là compac (resp. địa phương compac) thì Hệ quả của Mệnh đề 9 của Chương I, $\S 10$, no. 4 cho thấy rằng $G \times X$ cũng compac (resp. địa phương compac), và do đó $G$ cũng vậy vì $X \neq \emptyset$. Vì $X/G$ là Hausdorff (no. 2, Mệnh đề 3), tính compac (resp. tính địa phương compac) của $X$ suy ra tính compac (resp. tính địa phương compac) của $X/G$ [Chương I, $\S 10$, no. 4, Mệnh đề 8 (resp. Mệnh đề 9)] (xem $\S 2$, Bài tập 29).
 
-Bây giờ chúng ta sẽ nêu các tiêu chuẩn cho phép khẳng định rằng một nhóm tôpô Hausdorff $ G $ tác động một cách chính quy trên một không gian địa phương compact $ X $. Với mỗi cặp tập con $ K, L $ của $ X $, ta ký hiệu bởi $ P(K, L) $ tập hợp mọi $ s \in G $ sao cho $ s.K \cap L \neq \emptyset $.
+Bây giờ chúng ta sẽ nêu các tiêu chuẩn cho phép khẳng định rằng một nhóm tôpô Hausdorff $G$ tác động một cách chính quy trên một không gian địa phương compact $X$. Với mỗi cặp tập con $K, L$ của $X$, ta ký hiệu bởi $P(K, L)$ tập hợp mọi $s \in G$ sao cho $s.K \cap L \neq \emptyset$.
 
 #### Định lý 1 {#top-iii-s4-thm-1 .statement}
 
-*Cho $ G $ là một nhóm tôpô Hausdorff tác động liên tục trên một không gian tôpô $ X $. Cho $ K $ là một tập con compact của $ X $ và $ L $ là một tập con đóng của $ X $. Khi đó:
-a) Tập hợp $ P(K, L) $ là đóng trong $ G $.*
+*Cho $G$ là một nhóm tôpô Hausdorff tác động liên tục trên một không gian tôpô $X$. Cho $K$ là một tập con compact của $X$ và $L$ là một tập con đóng của $X$. Khi đó:
+a) Tập hợp $P(K, L)$ là đóng trong $G$.*
 
 b) *Nếu G tác động chính quy trên X và nếu L là compact, thì P(K, L) là compact.*
 
@@ -288,15 +288,15 @@ Lấy ví dụ $X$ là nửa mặt phẳng trên $\mathcal{J}(z) > 0$, giải t�
 
 #### Mệnh đề 12 {#top-iii-s4-prop-12 .statement}
 
-Cho G là một nhóm tôpô Hausdorff tác động liên tục trên một không gian tôpô X. Cho K là một tập con compact của X, và cho $ \rho_K $ là ánh xạ $ (s, x) \to s.x $ từ $ G \times K $ vào X. Khi đó:
+Cho G là một nhóm tôpô Hausdorff tác động liên tục trên một không gian tôpô X. Cho K là một tập con compact của X, và cho $\rho_K$ là ánh xạ $(s, x) \to s.x$ từ $G \times K$ vào X. Khi đó:
 
-a) Nếu G tác động thực sự trên X, thì $ \rho_K $ là thực sự.
+a) Nếu G tác động thực sự trên X, thì $\rho_K$ là thực sự.
 
-b) Nếu X là compact địa phương và $ \rho_K $ là thực sự đối với mỗi tập con compact K của X, thì G tác động thực sự trên X.
+b) Nếu X là compact địa phương và $\rho_K$ là thực sự đối với mỗi tập con compact K của X, thì G tác động thực sự trên X.
 
-Ánh xạ $ \rho_K $ phân tích thành $ G \times K \xrightarrow{\theta_K} K \times X \xrightarrow{\mathrm{pr}_2} X $, trong đó $ \theta_K $ là hạn chế lên $ G \times K $ của ánh xạ $ \theta : (s, x) \to (x, s.x) $ từ $ G \times X $ vào $ X \times X $. Vì $ \theta^{-1}(K \times X) = G \times K $, nên $ \theta_K $ là thực sự nếu $ \theta $ là thực sự (Chương I, § 10, no. 1, Mệnh đề 3). Mặt khác, vì K compắc, phép chiếu $ \mathrm{pr}_2 : K \times X \to X $ là thực sự (Chương I, § 10, no. 2, Định lý 1, Hệ quả 5), do đó $ \rho_K $ là thực sự (đd., no. 1, Mệnh đề 5).
+Ánh xạ $\rho_K$ phân tích thành $G \times K \xrightarrow{\theta_K} K \times X \xrightarrow{\mathrm{pr}_2} X$, trong đó $\theta_K$ là hạn chế lên $G \times K$ của ánh xạ $\theta : (s, x) \to (x, s.x)$ từ $G \times X$ vào $X \times X$. Vì $\theta^{-1}(K \times X) = G \times K$, nên $\theta_K$ là thực sự nếu $\theta$ là thực sự (Chương I, § 10, no. 1, Mệnh đề 3). Mặt khác, vì K compắc, phép chiếu $\mathrm{pr}_2 : K \times X \to X$ là thực sự (Chương I, § 10, no. 2, Định lý 1, Hệ quả 5), do đó $\rho_K$ là thực sự (đd., no. 1, Mệnh đề 5).
 
-Giả sử ngược lại rằng $ \rho_K $ là thực sự với mỗi tập compact $ K \subset X $. Nếu L là một tập compact của X, thì $ \rho_K^{-1}(L) $ là một tập compact của $ G \times K $, và phép chiếu của nó lên G là $ P(K, L) $; do đó $ P(K, L) $ là compact. Bởi vậy, nếu X là compact địa phương thì suy ra từ Định lý 1 rằng G tác động thực sự trên X.
+Giả sử ngược lại rằng $\rho_K$ là thực sự với mỗi tập compact $K \subset X$. Nếu L là một tập compact của X, thì $\rho_K^{-1}(L)$ là một tập compact của $G \times K$, và phép chiếu của nó lên G là $P(K, L)$; do đó $P(K, L)$ là compact. Bởi vậy, nếu X là compact địa phương thì suy ra từ Định lý 1 rằng G tác động thực sự trên X.
 
 #### Hệ quả {#top-iii-s4-n5-cor-1 .statement}
 
@@ -308,21 +308,21 @@ Cho G là một nhóm tôpô Hausdorff tác động thực sự trên một khô
 
 #### Mệnh đề 13 {#top-iii-s4-prop-13 .statement}
 
-Cho G là một nhóm compact địa phương và H là một nhóm con đóng của G. Khi đó không gian thuần nhất $ G/H $ là compact địa phương và paracompact.
+Cho G là một nhóm compact địa phương và H là một nhóm con đóng của G. Khi đó không gian thuần nhất $G/H$ là compact địa phương và paracompact.
 
-Vì $ G/H $ là Hausdorff (\S 2, no. 5, Mệnh đề 13) nên nó là địa phương compact, theo Mệnh đề 9 của no. 5 áp dụng cho H tác động bên phải trên G. Do đó còn phải chứng minh rằng $ G/H $ là paracompact. Cho V là một lân cận compact đối xứng của e trong G, và đặt $ G_0 = V^\infty $ là nhóm con của G sinh bởi V. $ G_0 $ là mở (\S 2, no. 1, Hệ quả của Mệnh đề 4) và tác động liên tục trên $ G/H $ (\S 2, no. 5, Mệnh đề 12). Nếu ta có thể chứng minh rằng mỗi quỹ đạo $ G_0.z \ (z \in G/H) $ là một tập con mở của $ G/H $ và là một hợp đếm được của các tập compact, thì suy ra $ G/H $ là *tổng tôpô* của các quỹ đạo phân biệt $ G_0.z $ và là
+Vì $G/H$ là Hausdorff (\S 2, no. 5, Mệnh đề 13) nên nó là địa phương compact, theo Mệnh đề 9 của no. 5 áp dụng cho H tác động bên phải trên G. Do đó còn phải chứng minh rằng $G/H$ là paracompact. Cho V là một lân cận compact đối xứng của e trong G, và đặt $G_0 = V^\infty$ là nhóm con của G sinh bởi V. $G_0$ là mở (\S 2, no. 1, Hệ quả của Mệnh đề 4) và tác động liên tục trên $G/H$ (\S 2, no. 5, Mệnh đề 12). Nếu ta có thể chứng minh rằng mỗi quỹ đạo $G_0.z \ (z \in G/H)$ là một tập con mở của $G/H$ và là một hợp đếm được của các tập compact, thì suy ra $G/H$ là *tổng tôpô* của các quỹ đạo phân biệt $G_0.z$ và là
 
 #### Mệnh đề 14 {#top-iii-s4-prop-14 .statement}
 
-*Trong một nhóm địa phương compact $ G $, thành phần đơn vị $ C $ là giao của các nhóm con mở của $ G $.*
+*Trong một nhóm địa phương compact $G$, thành phần đơn vị $C$ là giao của các nhóm con mở của $G$.*
 
-$ C $ là một nhóm con đóng chuẩn tắc của $ G $ ($ \S 2 $, no. 2, Mệnh đề 7), và do đó $ G/C $ là địa phương compact (Mệnh đề 13) và hoàn toàn không liên thông (Chương I, $ \S 11 $, no. 5, Mệnh đề 9). Vì ảnh ngược của một nhóm con mở của $ G/C $, dưới ánh xạ chính tắc của $ G $ lên $ G/C $, là một nhóm con mở của $ G $ chứa $ C $, ta thấy rằng có thể giới hạn việc chứng minh mệnh đề cho nhóm $ G/C $. Nói cách khác, ta có thể giả sử rằng $ G $ hoàn toàn không liên thông. Khi đó ta biết (Chương II, $ \S 4 $, no. 4, Hệ quả của Mệnh đề 6) rằng mọi lân cận compact $ V $ của $ e $ đều chứa một lân cận $ U $ của $ e $ vừa mở vừa đóng. Vì $ U $ là compact và $ B = C U $ là đóng, nên tồn tại một lân cận mở đối xứng $ W $ của $ e $ sao cho $ W \subset U $ và $ UW \cap BW = \varnothing $ ($ \S 3 $, no. 1 và Chương II, $ \S 4 $, no. 3, Mệnh đề 4), và *a fortiori* $ UW \subset U $. Bằng quy nạp theo $ n $ suy ra rằng $ W^n \subset U $ với mọi số nguyên $ n > 0 $. Do đó nhóm con $ W^\infty = \bigcup_{n > 0} W^n $, sinh bởi $ W $, được chứa trong $ U $; nhưng $ W^\infty $ là mở trong $ G $ ($ \S 2 $, no. 1, Hệ quả của Mệnh đề 4). Điều này kết thúc chứng minh.
+$C$ là một nhóm con đóng chuẩn tắc của $G$ ($\S 2$, no. 2, Mệnh đề 7), và do đó $G/C$ là địa phương compact (Mệnh đề 13) và hoàn toàn không liên thông (Chương I, $\S 11$, no. 5, Mệnh đề 9). Vì ảnh ngược của một nhóm con mở của $G/C$, dưới ánh xạ chính tắc của $G$ lên $G/C$, là một nhóm con mở của $G$ chứa $C$, ta thấy rằng có thể giới hạn việc chứng minh mệnh đề cho nhóm $G/C$. Nói cách khác, ta có thể giả sử rằng $G$ hoàn toàn không liên thông. Khi đó ta biết (Chương II, $\S 4$, no. 4, Hệ quả của Mệnh đề 6) rằng mọi lân cận compact $V$ của $e$ đều chứa một lân cận $U$ của $e$ vừa mở vừa đóng. Vì $U$ là compact và $B = C U$ là đóng, nên tồn tại một lân cận mở đối xứng $W$ của $e$ sao cho $W \subset U$ và $UW \cap BW = \varnothing$ ($\S 3$, no. 1 và Chương II, $\S 4$, no. 3, Mệnh đề 4), và *a fortiori* $UW \subset U$. Bằng quy nạp theo $n$ suy ra rằng $W^n \subset U$ với mọi số nguyên $n > 0$. Do đó nhóm con $W^\infty = \bigcup_{n > 0} W^n$, sinh bởi $W$, được chứa trong $U$; nhưng $W^\infty$ là mở trong $G$ ($\S 2$, no. 1, Hệ quả của Mệnh đề 4). Điều này kết thúc chứng minh.
 
 Chúng ta cũng đã chứng minh:
 
 #### Hệ quả 1 {#top-iii-s4-prop-14-cor-1 .statement}
 
-*Nếu $ G $ là một nhóm compact địa phương phân rời hoàn toàn, thì mọi lân cận của $ e $ trong $ G $ đều chứa một nhóm con mở của $ G $.*
+*Nếu $G$ là một nhóm compact địa phương phân rời hoàn toàn, thì mọi lân cận của $e$ trong $G$ đều chứa một nhóm con mở của $G$.*
 
 #### Hệ quả 2 {#top-iii-s4-prop-14-cor-2 .statement}
 
@@ -330,11 +330,11 @@ Chúng ta cũng đã chứng minh:
 
 #### Hệ quả 3 {#top-iii-s4-prop-14-cor-3 .statement}
 
-*Cho $ G $ là một nhóm compact địa phương, cho $ H $ là một nhóm con đóng của $ G $, và cho $ \varphi $ là ánh xạ chính tắc của $ G $ lên $ G/H $. Khi đó các thành phần liên thông của $ G/H $ là các bao đóng của các ảnh, dưới $ \varphi $, của các thành phần liên thông của $ G $.*
+*Cho $G$ là một nhóm compact địa phương, cho $H$ là một nhóm con đóng của $G$, và cho $\varphi$ là ánh xạ chính tắc của $G$ lên $G/H$. Khi đó các thành phần liên thông của $G/H$ là các bao đóng của các ảnh, dưới $\varphi$, của các thành phần liên thông của $G$.*
 
-Cho $ C $ là thành phần liên thông của đơn vị của $ G $. Các thành phần của $ G $ là các tập hợp $ sC $, với $ s \in G $ ($ \S 2 $, no. 2, Mệnh đề 7); $ \varphi(sC) $ rõ ràng là liên thông, do đó $ \varphi(sC) $ cũng vậy (Chương I, $ \S 11 $, no. 1, Mệnh đề 1). Nhưng $ \varphi(sC) = \varphi(sCH) $, và vì $ sCH $ là bão hòa đối với quan hệ tương đương được xác định bởi $ H $, và vì quan hệ tương đương này là mở (§ 2, no. 4, Bổ đề 2), ta có $ \overline{\varphi(sCH)} = \varphi(\overline{sCH}) = \varphi(s.\overline{CH}) $ (Chương I, § 5, no. 3, Mệnh đề 7).
+Cho $C$ là thành phần liên thông của đơn vị của $G$. Các thành phần của $G$ là các tập hợp $sC$, với $s \in G$ ($\S 2$, no. 2, Mệnh đề 7); $\varphi(sC)$ rõ ràng là liên thông, do đó $\varphi(sC)$ cũng vậy (Chương I, $\S 11$, no. 1, Mệnh đề 1). Nhưng $\varphi(sC) = \varphi(sCH)$, và vì $sCH$ là bão hòa đối với quan hệ tương đương được xác định bởi $H$, và vì quan hệ tương đương này là mở (§ 2, no. 4, Bổ đề 2), ta có $\overline{\varphi(sCH)} = \varphi(\overline{sCH}) = \varphi(s.\overline{CH})$ (Chương I, § 5, no. 3, Mệnh đề 7).
 
-Đặt $ L = CH $. $ L $ là một nhóm con đóng của $ G $ chứa $ C $ và $ H $; do đó để chứng minh rằng các tập hợp $ \varphi(s.L) = s.\varphi(L) $ là các thành phần của $ G/H $ thì đủ chứng minh rằng không gian thương của $ G/H $ theo quan hệ tương đương mà các lớp là các tập hợp $ s.\varphi(L) $ là hoàn toàn không liên thông. Bây giờ không gian thương này đồng phôi với không gian thuần nhất $ G/L $ (Chương I, § 3, no. 4, Mệnh đề 7); như vậy ta quy được về việc chứng minh rằng khi $ C \subset H $, $ G/H $ là *hoàn toàn không liên thông*. Vì $ G/H $ có thể được đồng nhất với $ (G/C)/(H/C) $ (§ 2, no. 7, Mệnh đề 22), ta thậm chí có thể giả thiết rằng chính $ G $ là hoàn toàn không liên thông. Mọi lân cận của $ \varphi(e) $ trong $ G/H $ đều chứa một lân cận có dạng $ \varphi(V) $, trong đó $ V $ là một lân cận của $ e $ trong $ G $, và do đó (Hệ quả 1) chứa một lân cận có dạng $ \varphi(K) $, trong đó $ K $ là một nhóm con *compact mở* của $ G $. Vì thế $ \varphi(K) $ vừa mở vừa đóng trong $ G/H $, và điều này cho thấy rằng thành phần của $ \varphi(e) $ trong $ G/H $ chỉ gồm riêng $ \varphi(e) $. Bởi phép tịnh tiến, điều tương tự cũng đúng cho thành phần của mọi điểm của $ G/H $, và hệ quả được chứng minh.
+Đặt $L = CH$. $L$ là một nhóm con đóng của $G$ chứa $C$ và $H$; do đó để chứng minh rằng các tập hợp $\varphi(s.L) = s.\varphi(L)$ là các thành phần của $G/H$ thì đủ chứng minh rằng không gian thương của $G/H$ theo quan hệ tương đương mà các lớp là các tập hợp $s.\varphi(L)$ là hoàn toàn không liên thông. Bây giờ không gian thương này đồng phôi với không gian thuần nhất $G/L$ (Chương I, § 3, no. 4, Mệnh đề 7); như vậy ta quy được về việc chứng minh rằng khi $C \subset H$, $G/H$ là *hoàn toàn không liên thông*. Vì $G/H$ có thể được đồng nhất với $(G/C)/(H/C)$ (§ 2, no. 7, Mệnh đề 22), ta thậm chí có thể giả thiết rằng chính $G$ là hoàn toàn không liên thông. Mọi lân cận của $\varphi(e)$ trong $G/H$ đều chứa một lân cận có dạng $\varphi(V)$, trong đó $V$ là một lân cận của $e$ trong $G$, và do đó (Hệ quả 1) chứa một lân cận có dạng $\varphi(K)$, trong đó $K$ là một nhóm con *compact mở* của $G$. Vì thế $\varphi(K)$ vừa mở vừa đóng trong $G/H$, và điều này cho thấy rằng thành phần của $\varphi(e)$ trong $G/H$ chỉ gồm riêng $\varphi(e)$. Bởi phép tịnh tiến, điều tương tự cũng đúng cho thành phần của mọi điểm của $G/H$, và hệ quả được chứng minh.
 
 ### Bài tập {#top-iii-s4-exercises}
 

@@ -70,15 +70,15 @@ chapters:
               page: 39
               pdf_page: 38
             - "no": 2
-              title: Cas où $ \chi = 1 $
+              title: Cas où $\chi = 1$
               page: 42
               pdf_page: 41
             - "no": 3
-              title: Autre interprétation de $ \lambda^* $
+              title: Autre interprétation de $\lambda^*$
               page: 45
               pdf_page: 44
             - "no": 4
-              title: Cas où $ X/H $ est paracompact
+              title: Cas où $X/H$ est paracompact
               page: 50
               pdf_page: 49
             - "no": 5

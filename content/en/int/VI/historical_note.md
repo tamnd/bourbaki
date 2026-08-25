@@ -12,14 +12,14 @@ pdf_pages: 0463-0487
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 026e728d14dda36e570766dce82a127f081a4894e8f44581eab3b468f9064b74
+content_sha256: a61dd7fbcb476f00fb6d81a26a881a41b05dfcc0d871802f96c71dcd87d8ca48
 ---
 
 # HISTORICAL NOTE
 
 (N.B. — The Roman numerals refer to the bibliography at the end of this note.)
 
-With the development of the 'vector calculus' in the course of the 19th century, it was current practice to have to integrate vector-valued functions, but as long as it was only a question of functions with values in finite-dimensional spaces, this operation posed no problem. It is only with Hilbert's spectral theory that one meets operations that lead naturally to a more general concept of integral: this theory in effect leads to associating, with every continuous Hermitian form $ \Phi(x, y) $ on a Hilbert space $ \mathbf{H} $, a family $ (E(\lambda))_{\lambda \in \mathbf{R}} $ of orthogonal projectors having the property that, for every pair $ (x, y) $ of vectors of $ \mathbf{H} $, the function $ \lambda \mapsto (E(\lambda)x|y) $ is of bounded variation and $ \Phi(x, y) = \int \lambda d(E(\lambda)x|y) $; if one associates with $ \Phi $ the Hermitian operator $ A $ such that $ \Phi(x, y) = (Ax|y) $, it was tempting to write the preceding formula as $ A = \int \lambda dE(\lambda) $. But it was only from about 1935 on, after the introduction by Bochner of the ('strong') integration of a function with values in a Banach space, that one began to be preoccupied with defining the integral of vector-valued functions (or the integral with respect to a vectorial measure) in such a way as to be able to legitimately write formulas such as the preceding one. This extension was accomplished essentially by Gelfand (III), Dunford and Pettis (IV) and (V); their results are stated for Banach spaces, but extend without difficulty to more general locally convex spaces.
+With the development of the 'vector calculus' in the course of the 19th century, it was current practice to have to integrate vector-valued functions, but as long as it was only a question of functions with values in finite-dimensional spaces, this operation posed no problem. It is only with Hilbert's spectral theory that one meets operations that lead naturally to a more general concept of integral: this theory in effect leads to associating, with every continuous Hermitian form $\Phi(x, y)$ on a Hilbert space $\mathbf{H}$, a family $(E(\lambda))_{\lambda \in \mathbf{R}}$ of orthogonal projectors having the property that, for every pair $(x, y)$ of vectors of $\mathbf{H}$, the function $\lambda \mapsto (E(\lambda)x|y)$ is of bounded variation and $\Phi(x, y) = \int \lambda d(E(\lambda)x|y)$; if one associates with $\Phi$ the Hermitian operator $A$ such that $\Phi(x, y) = (Ax|y)$, it was tempting to write the preceding formula as $A = \int \lambda dE(\lambda)$. But it was only from about 1935 on, after the introduction by Bochner of the ('strong') integration of a function with values in a Banach space, that one began to be preoccupied with defining the integral of vector-valued functions (or the integral with respect to a vectorial measure) in such a way as to be able to legitimately write formulas such as the preceding one. This extension was accomplished essentially by Gelfand (III), Dunford and Pettis (IV) and (V); their results are stated for Banach spaces, but extend without difficulty to more general locally convex spaces.
 
 The idea of decomposing a volume into 'slices' and reducing an integral over the volume to an integral over each slice, followed by a single integration, has been used in Analysis ever since the beginning of the infinitesimal Calculus (the 'Calculus of indivisibles' of Cavalieri being nothing more than a first outline of this principle, which could even be traced back to Archimedes (see the Hist. Note for Book IV, Chs. I–III)). But in the classical applications, the 'slices' were always of a very special and very regular nature (most often open subsets of analytic surfaces, depending analytically on a parameter); it could scarcely have been otherwise in the absence of a general theory of integration. The general problem of the disintegration of a measure was posed and solved by von Neumann in 1932, in connection with ergodic theory (I); at about the same time (and independently) Kolmogoroff, while laying down axiomatic foundations for the Theory of Probability, was led to define in a general way the concept of 'conditional probability' and to prove its existence, a problem essentially equivalent to that of disintegration of a measure (II).
 
@@ -39,36 +39,36 @@ Reference numbers indicate, in order, the chapter, section and subsection (or, e
 
 Chapter III :
 
-$ \mathcal{C}(X;E), \mathcal{C}(X), \mathcal{C}(X,A;E), \mathcal{K}(X;E), \mathcal{K}(X), \mathcal{K}(X,A;E), \mathcal{K}(X,A), \mathcal{K}_+(X) $
+$\mathcal{C}(X;E), \mathcal{C}(X), \mathcal{C}(X,A;E), \mathcal{K}(X;E), \mathcal{K}(X), \mathcal{K}(X,A;E), \mathcal{K}(X,A), \mathcal{K}_+(X)$
 (X a locally compact space, E a topological vector space) : III, 1, 1.
-Supp(f) (f a function with values in a vector space or in $ \overline{\mathbf{R}} $) : III, 1, 1.
-$ \mathcal{C}^b(X;E), \mathcal{C}^0(X;E) $ : III, 1, 2.
-$ \|f\| $ (f a function with values in a normed space) : III, 1, 2.
-$ \mu(f), \langle f, \mu \rangle, \int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x) $ (f a function in $ \mathcal{K}(X;\mathbf{C}) $, $ \mu $ a (complex) measure) : III, 1, 3.
-$ \mathcal{M}(X;\mathbf{C}), \mathcal{M}(X), \mathcal{M}_\sigma(X;\mathbf{C}), \mathcal{M}_\sigma(X) $ : III, 1, 3.
-$ \varepsilon_a $ : III, 1, 3.
-g · $ \mu $ (g a function in $ \mathcal{C}(X;\mathbf{C}) $) : III, 1, 4.
-$ \overline{\mu}, \Re \mu, \Im \mu $ : III, 1, 5.
-$ \mathcal{M}(X;\mathbf{R}), \mathcal{M}(X), \mathcal{M}_+(X) $ : III, 1, 5.
-$ \mu \leq \nu $ ($ \mu, \nu $ real measures) : III, 1, 5.
-$ \mu^+, \mu^-, |\mu| $ ($ \mu $ a real measure) : III, 1, 5.
-$ |\mu| $ ($ \mu $ a complex measure) : III, 1, 6.
-$ \|\mu\| $ ($ \mu $ a measure) : III, 1, 8.
-$ \mathcal{M}^1(X,\mathbf{R}), \mathcal{M}^1(X) $ : III, 1, 8.
-$ \mu|Y $ ($ \mu $ a measure on X, Y an open subspace of X) : III, 2, 1.
-Supp($ \mu $) ($ \mu $ a measure) : III, 2, 2.
-$ \langle f, z' \rangle $ : III, 3, 1.
-$ \widetilde{\mathcal{K}}(X;E) $ : III, 3, 1.
-$ \int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x) $ (f a function in $ \widetilde{\mathcal{K}}(X;E) $) : III, 3, 1.
-$ \int d\mu(y) \int f(x,y) d\lambda(x) $ : III, 4, 1.
-$ \iint f d\lambda d\mu, \iint f d\mu d\lambda, \iint f \lambda \mu, \iint f \mu \lambda, \iint f(x,y) d\lambda(x) d\mu(y), \iint f(x,y) d\mu(y) d\lambda(x), \iint f(x,y) \lambda(x) \mu(y), \iint f(x,y) \mu(y) \lambda(x) $ : III, 4, 1.
+Supp(f) (f a function with values in a vector space or in $\overline{\mathbf{R}}$) : III, 1, 1.
+$\mathcal{C}^b(X;E), \mathcal{C}^0(X;E)$ : III, 1, 2.
+$\|f\|$ (f a function with values in a normed space) : III, 1, 2.
+$\mu(f), \langle f, \mu \rangle, \int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f a function in $\mathcal{K}(X;\mathbf{C})$, $\mu$ a (complex) measure) : III, 1, 3.
+$\mathcal{M}(X;\mathbf{C}), \mathcal{M}(X), \mathcal{M}_\sigma(X;\mathbf{C}), \mathcal{M}_\sigma(X)$ : III, 1, 3.
+$\varepsilon_a$ : III, 1, 3.
+g · $\mu$ (g a function in $\mathcal{C}(X;\mathbf{C})$) : III, 1, 4.
+$\overline{\mu}, \Re \mu, \Im \mu$ : III, 1, 5.
+$\mathcal{M}(X;\mathbf{R}), \mathcal{M}(X), \mathcal{M}_+(X)$ : III, 1, 5.
+$\mu \leq \nu$ ($\mu, \nu$ real measures) : III, 1, 5.
+$\mu^+, \mu^-, |\mu|$ ($\mu$ a real measure) : III, 1, 5.
+$|\mu|$ ($\mu$ a complex measure) : III, 1, 6.
+$\|\mu\|$ ($\mu$ a measure) : III, 1, 8.
+$\mathcal{M}^1(X,\mathbf{R}), \mathcal{M}^1(X)$ : III, 1, 8.
+$\mu|Y$ ($\mu$ a measure on X, Y an open subspace of X) : III, 2, 1.
+Supp($\mu$) ($\mu$ a measure) : III, 2, 2.
+$\langle f, z' \rangle$ : III, 3, 1.
+$\widetilde{\mathcal{K}}(X;E)$ : III, 3, 1.
+$\int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f a function in $\widetilde{\mathcal{K}}(X;E)$) : III, 3, 1.
+$\int d\mu(y) \int f(x,y) d\lambda(x)$ : III, 4, 1.
+$\iint f d\lambda d\mu, \iint f d\mu d\lambda, \iint f \lambda \mu, \iint f \mu \lambda, \iint f(x,y) d\lambda(x) d\mu(y), \iint f(x,y) d\mu(y) d\lambda(x), \iint f(x,y) \lambda(x) \mu(y), \iint f(x,y) \mu(y) \lambda(x)$ : III, 4, 1.
 
 λ ⊗ μ (λ, μ measures) : III, 4, 2.
-μ₁ ⊗ μ₂ ⊗ ⋯ ⊗ μₙ, $ \bigotimes_{i=1}^{n} \mu_i $ : III, 4, 4.
-$ \int f\ d\mu_1\ d\mu_2\ldots\ d\mu_n $, $ \iint \ldots \int f\ d\mu_1\ d\mu_2\ldots\ d\mu_n $, $ \int f(\mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n) $,
-$ \iint \ldots \int f(x_1, x_2, \ldots, x_n)\ d\mu_1(x_1)\ d\mu_2(x_2)\ldots\ d\mu_n(x_n) $,
-$ \iint \ldots \int f(x_1, x_2, \ldots, x_n)\mu_1(x_1)\mu_2(x_2)\cdots\mu_n(x_n) $ : III, 4, 4.
-$ \bigotimes_{\lambda \in L} \mu_\lambda $ : III, 4, 6.
+μ₁ ⊗ μ₂ ⊗ ⋯ ⊗ μₙ, $\bigotimes_{i=1}^{n} \mu_i$ : III, 4, 4.
+$\int f\ d\mu_1\ d\mu_2\ldots\ d\mu_n$, $\iint \ldots \int f\ d\mu_1\ d\mu_2\ldots\ d\mu_n$, $\int f(\mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n)$,
+$\iint \ldots \int f(x_1, x_2, \ldots, x_n)\ d\mu_1(x_1)\ d\mu_2(x_2)\ldots\ d\mu_n(x_n)$,
+$\iint \ldots \int f(x_1, x_2, \ldots, x_n)\mu_1(x_1)\mu_2(x_2)\cdots\mu_n(x_n)$ : III, 4, 4.
+$\bigotimes_{\lambda \in L} \mu_\lambda$ : III, 4, 6.
 
 Chapter IV :
 
@@ -163,19 +163,19 @@ Index of terminology
 Reference numbers indicate, in order, the chapter, section and subsection (or, exceptionally, exercise).
 
 Absolute value of a measure : III, 1, 6 and VI, 2, 8.
-Adapted pair, $ \mu^- $ : V, 4, 1.
+Adapted pair, $\mu^-$ : V, 4, 1.
 Additive set function : IV, 4, 9.
 Additivity, complete : IV, 4, 5.
-Adequate mapping, $ \mu^- $ : V, 3, 1 and VI, 1, 1, Footnote.
+Adequate mapping, $\mu^-$ : V, 3, 1 and VI, 1, 1, Footnote.
 Alien measures : V, 5, 7.
 Almost everywhere, function defined : IV, 2, 5.
 Almost everywhere, property true : IV, 2, 3.
 Atomic measure : III, 1, 3.
 Band, in a fully lattice-ordered space : II, 1, 5.
 Barycenter of a measure : IV, 7, 1.
-Base $ \mu $, measure with : V, 5, 2 and VI, 2, 8.
-Base $ \mu $, scalarly of (vectorial measure) : VI, 2, 5.
-Base $ \mu $, vectorial measure with : VI, 2, 4.
+Base $\mu$, measure with : V, 5, 2 and VI, 2, 8.
+Base $\mu$, scalarly of (vectorial measure) : VI, 2, 5.
+Base $\mu$, vectorial measure with : VI, 2, 4.
 Belonging to the domain of a diffusion, measure : V, 3, 5.
 Bishop’s theorem : IV, 7, 5.
 Boundary, frontier : III, 1, 1, Footnote.
@@ -199,7 +199,7 @@ Conjugate measure : III, 1, 5 and VI, 2, 8.
 Connected component : V, 6, Exer. 12, Footnote.
 Conservative mapping : V, 7, Exer. 9.
 Continuous almost everywhere : IV, 5, Exer. 16.
-Convergence in mean, convergence in mean of order $ p $, convergence in quadratic mean : IV, 3, 3.
+Convergence in mean, convergence in mean of order $p$, convergence in quadratic mean : IV, 3, 3.
 Convergence in measure : IV, 5, 11.
 Convergence, almost everywhere : IV, 2, 5.
 Convergence, compact (in the space of measures) : III, 1, 10.
@@ -212,7 +212,7 @@ Decomposition into slices, of a measure : V, 6, 6 and VI, 3. 1.
 Decreasing rearrangement of a function : IV, 5, Exer. 29.
 Defined almost everywhere (function) : IV, 2, 5.
 Defined locally almost everywhere (function) : IV, 5, 2.
-Density $ g $ (relative to $ \theta $), measure with : V, 5, 2 and VI, 2, 8.
+Density $g$ (relative to $\theta$), measure with : V, 5, 2 and VI, 2, 8.
 Density point (of a subset) : V, 6, Exer. 15.
 Density, of a vectorial measure with respect to a positive measure : VI, 2, 4.
 Density, with respect to a complex measure : III, 1, 4, V, 5, 2 and VI, 2, 8.
@@ -226,8 +226,8 @@ Direct limit, of a direct system of locally convex spaces : III, 1, 1.
 Direct sum, ordered : II, 1, 4.
 Discrete measure : III, 1, 3.
 Disintegration of a measure : V, 6, 6 and VI, 3, 1.
-Disintegration, of a measure $ \mu $ relative to a $ \mu $-proper mapping : VI, 3, 1.
-Disintegration, of a measure $ \mu $ relative to a pseudo-image of $ \mu $ : VI, 3, 3.
+Disintegration, of a measure $\mu$ relative to a $\mu$-proper mapping : VI, 3, 1.
+Disintegration, of a measure $\mu$ relative to a pseudo-image of $\mu$ : VI, 3, 3.
 Disintegration, of a measure by a measurable equivalence relation : VI, 3, 5.
 Distribution of a sequence, limit : III, 2, Exer. 5.
 Domain of a diffusion, measure belonging to : V, 3, 5.
@@ -242,58 +242,58 @@ Equivalence class of functions for a measure : IV, 2, 4, IV, 2, 5 and IV, 5, 2.
 Equivalence relation, Hausdorff : VI, 3, 4.
 Equivalence relation, measurable : VI, 3, 4.
 Equivalent measures : V, 5, 6 and VI, 2, 8.
-Equivalent, $ \mu $-equivalent (functions) : IV, 2, 4.
+Equivalent, $\mu$-equivalent (functions) : IV, 2, 4.
 Essential upper integral : V, 1, 1.
-Essentially $ \mu $-integrable (set, function) : V, 1, 3.
+Essentially $\mu$-integrable (set, function) : V, 1, 3.
 Essentially integrable function : V, 1, 3.
-Essentially integrable function, $ p $-th power : V, 1, 3.
+Essentially integrable function, $p$-th power : V, 1, 3.
 Essentially integrable function, for a vectorial measure : VI, 2, 2.
-Essentially integrable on $ A $, function : V, 5, 3.
+Essentially integrable on $A$, function : V, 5, 3.
 Expansion set (right-, left-) of a function : V, 6, Exer. 12.
-Extremal point, $ \mathcal{H}^- $ : IV, 7, 3.
+Extremal point, $\mathcal{H}^-$ : IV, 7, 3.
 Finite almost everywhere, function : IV, 2, 6.
 Form, positive linear : II, 2, 1.
 Form, relatively bounded linear : II, 2, 2.
 Fully lattice-ordered space : II, 1, 3.
 Function depending only on a finite number of variables : III, 4, 6.
-Function, $ \mu $-measurable on $ A $ : V, 5, 3.
-Function, $ \mu $-moderated : V, 1, 2.
-Function, $ \Phi $-step : IV, 4, 9.
-Function, $ p $-th power essentially integrable : V, 1, 3.
-Function, $ p $-th power integrable : IV, 3, 4.
+Function, $\mu$-measurable on $A$ : V, 5, 3.
+Function, $\mu$-moderated : V, 1, 2.
+Function, $\Phi$-step : IV, 4, 9.
+Function, $p$-th power essentially integrable : V, 1, 3.
+Function, $p$-th power integrable : IV, 3, 4.
 Function, bounded in measure : IV, 6, 2 and IV, 6, 3.
 Function, defined almost everywhere : IV, 2, 5.
 Function, defined locally almost everywhere : IV, 5, 2.
 Function, essentially integrable : V, 1, 3.
 Function, essentially integrable for a vectorial measure : VI, 2, 2.
-Function, essentially integrable on $ A $ : V, 5, 3.
+Function, essentially integrable on $A$ : V, 5, 3.
 Function, finite almost everywhere : IV, 2, 6.
 Function, having a property scalarly : VI, 1, 1.
-Function, integrable, $ \mu $-integrable : IV, 4, 1.
-Function, Lebesgue $ n $-th : IV, 6, Exer. 15.
+Function, integrable, $\mu$-integrable : IV, 4, 1.
+Function, Lebesgue $n$-th : IV, 6, Exer. 15.
 
 Function, locally integrable : V, 5, 1.
 Function, locally integrable on A : V, 5, 3.
-Function, locally negligible, locally $ \mu $-negligible : IV, 5, 2.
+Function, locally negligible, locally $\mu$-negligible : IV, 5, 2.
 Function, measurable step : IV, 5, 5.
-Function, measurable, $ \mu $-measurable : IV, 5, 1.
+Function, measurable, $\mu$-measurable : IV, 5, 1.
 Function, measurable, defined on a measurable subset of X : IV, 5, 10 and V, 5, 3.
-Function, negligible, $ \mu $-negligible : IV, 2, 1 and IV, 2, 4.
+Function, negligible, $\mu$-negligible : IV, 2, 1 and IV, 2, 4.
 Function, numerical : I, 1, 1, Footnote.
 Function, scalarly essentially integrable : V, 3, 1, VI, 1, 1 and VI, 2, 10.
 Function, scalarly well integrable : VI, 1, Exer. 19.
-Function, step, $ \Phi $-step : IV, 4, 9.
+Function, step, $\Phi$-step : IV, 4, 9.
 Function, support of : III, 1, 1.
 Function, universally measurable : V, 3, 4.
-Function, vaguely $ \mu $-measurable : V, 3, 1.
+Function, vaguely $\mu$-measurable : V, 3, 1.
 Function, vaguely continuous : V, 3, 1.
 Functions, equi-integrable : IV, 5, 11.
 Functions, equimeasurable : IV, 5, Exer. 29.
-Functions, equivalent, $ \mu $-equivalent : IV, 2, 4.
+Functions, equivalent, $\mu$-equivalent : IV, 2, 4.
 (GDF) property : VI, 1, 4.
 Gelfand–Dunford theorem : VI, 1, 4.
 Gliding hump method : V, 5, Exer. 13.
-$ \mathcal{H} $-extremal point : IV, 7, 3.
+$\mathcal{H}$-extremal point : IV, 7, 3.
 Hölder’s inequality : I, 2 and IV, 6, 4.
 Haar orthonormal system : IV, 6, Exer. 17.
 Hardy’s inequality : IV, 6, Exer. 19.
@@ -312,15 +312,15 @@ Infimum : II, 1, 1, Footnote.
 
 Inner measure : IV, 4, Exer. 7.
 Integrable function : IV, 4, 1.
-Integrable function, $ p $-th power : IV, 3, 4.
-Integrable set, $ \mu $-integrable set : IV, 4, 5.
-Integral of a function on $ A $ (or extended to $ A $) : V, 5, 3.
+Integrable function, $p$-th power : IV, 3, 4.
+Integrable set, $\mu$-integrable set : IV, 4, 5.
+Integral of a function on $A$ (or extended to $A$) : V, 5, 3.
 Integral of a scalarly essentially integrable mapping : V, 3, 1, VI, 1, 1 and VI, 2, 10.
 Integral of an essentially integrable function : V, 1, 3.
 Integral, double : III, 4, 1.
 Integral, essential upper : V, 1, 1.
 Integral, lower : IV, 4, Exer. 5.
-Integral, multiple, $ n $-tuple : III, 4, 4.
+Integral, multiple, $n$-tuple : III, 4, 4.
 Integral, of a continuous numerical function with compact support : III, 1, 3.
 Integral, of a numerical function with respect to a vectorial measure : VI, 2, 2.
 Integral, of a vector-valued function with respect to a positive measure : IV, 4, 1, V, 1, 3 and VI, 1, 1.
@@ -337,7 +337,7 @@ Isolated subspace, of a Riesz space : II, 1, Exer. 4.
 Krein’s theorem : IV, 7, Exer. 10.
 Lattice-ordered vector space : II, 1, 1.
 Latticial linear mapping : II, 2, Exer. 5.
-Lebesgue function, $ n $-th : IV, 6, Exer. 15.
+Lebesgue function, $n$-th : IV, 6, Exer. 15.
 Lebesgue measure : III, 1, 3, III, 4, 1 and III, 4, 4.
 Lebesgue’s decomposition theorem : V, 5, 7.
 Lebesgue’s theorem : IV, 3, 7 and IV, 4, 3.
@@ -356,39 +356,39 @@ Localization principle, for measurable functions : IV, 5, 2.
 Localization principle, for measures : III, 2, 1.
 Locally almost everywhere : IV, 5, 2.
 Locally countable (set of subsets) : IV, 5, 9.
-Locally countable family of functions $ \geq 0 $ : V, 5, 4.
+Locally countable family of functions $\geq 0$ : V, 5, 4.
 Locally integrable function : V, 5, 1.
-Locally integrable on $ A $, function : V, 5, 3.
-Locally negligible ($ \mu $-negligible) function : IV, 5, 2.
-Locally negligible set, locally $ \mu $-negligible set : IV, 5, 2.
+Locally integrable on $A$, function : V, 5, 3.
+Locally negligible ($\mu$-negligible) function : IV, 5, 2.
+Locally negligible set, locally $\mu$-negligible set : IV, 5, 2.
 Lower integral : IV, 4, Exer. 5.
-$ \mu $-adapted pair : V, 4, 1.
-$ \mu $-adequate mapping : V, 3, 1 and VI, 1, 1, Footnote.
-$ \mu $-dense (set of compact subsets) : IV, 5, 8.
-$ \mu $-equivalent functions : IV, 2, 4.
-$ \mu $-integrable function : IV, 4, 1.
-$ \mu $-integrable set : IV, 4, 5.
-$ \mu $-maximum, $ \mu $-minimum : IV, 6, 2.
-$ \mu $-measurable (set, function) : IV, 5, 1.
-$ \mu $-measurable equivalence relation : VI, 3, 4.
-$ \mu $-moderated (function, subset) : V, 1, 2.
-$ \mu $-negligible function : IV, 2, 1 and IV, 2, 4.
-$ \mu $-negligible set : IV, 2, 2.
-$ \mu $-pre-adequate mapping : V, 3, 1.
-$ \mu $-proper mapping : V, 6, 1, V, 6, 4 and VI, 2, 10.
+$\mu$-adapted pair : V, 4, 1.
+$\mu$-adequate mapping : V, 3, 1 and VI, 1, 1, Footnote.
+$\mu$-dense (set of compact subsets) : IV, 5, 8.
+$\mu$-equivalent functions : IV, 2, 4.
+$\mu$-integrable function : IV, 4, 1.
+$\mu$-integrable set : IV, 4, 5.
+$\mu$-maximum, $\mu$-minimum : IV, 6, 2.
+$\mu$-measurable (set, function) : IV, 5, 1.
+$\mu$-measurable equivalence relation : VI, 3, 4.
+$\mu$-moderated (function, subset) : V, 1, 2.
+$\mu$-negligible function : IV, 2, 1 and IV, 2, 4.
+$\mu$-negligible set : IV, 2, 2.
+$\mu$-pre-adequate mapping : V, 3, 1.
+$\mu$-proper mapping : V, 6, 1, V, 6, 4 and VI, 2, 10.
 Majorizable measure : VI, 2, 3.
-Mapping, $ \mu $-adequate : V, 3, 1.
-Mapping, $ \mu $-pre-adequate : V, 3, 1.
-Mapping, $ \mu $-proper (or proper for $ \mu $) : V, 6, 1, V, 6, 4 and VI, 2, 10.
+Mapping, $\mu$-adequate : V, 3, 1.
+Mapping, $\mu$-pre-adequate : V, 3, 1.
+Mapping, $\mu$-proper (or proper for $\mu$) : V, 6, 1, V, 6, 4 and VI, 2, 10.
 Mapping, conservative : V, 7, Exer. 9.
 Mapping, scalarly of compact support : III, 3, 1.
 Mapping, weakly continuous : III, 3, 1.
 Mass, total, of a bounded measure : III, 1, 8 and IV, 4, 7.
 Masses, measure defined by : III, 1, 3.
 
-Maximum in measure, $ \mu $-maximum : IV, 6, 2.
+Maximum in measure, $\mu$-maximum : IV, 6, 2.
 Mean of a function : III, 1, 8.
-Mean of order $ p $, convergence in : IV, 3. 3.
+Mean of order $p$, convergence in : IV, 3. 3.
 Mean, convergence in : IV, 3, 3.
 Mean, inequality of the : IV, 6, 2.
 Measurable (set, function) : IV, 5, 1.
@@ -400,8 +400,8 @@ Measurable step function : IV, 5, 5.
 Measure belonging to the domain of a diffusion : V, 3, 5.
 Measure concentrated on a set : V, 5, 7.
 Measure of an integrable set : IV, 4, 5.
-Measure with base $ \mu $ : V, 5, 2.
-Measure with density $ g $ (with respect to $ \theta $) : V, 5, 2.
+Measure with base $\mu$ : V, 5, 2.
+Measure with density $g$ (with respect to $\theta$) : V, 5, 2.
 Measure, absolute value of : III, 1, 6 and VI, 2, 8.
 Measure, atomic : III, 1, 3.
 Measure, bounded : III, 1, 8 and VI, 2, 9.
@@ -418,7 +418,7 @@ Measure, inner : IV, 4, Exer. 7.
 Measure, invariant under a homeomorphism : III, 1, 3.
 Measure, involving no mass in an open set : III, 2, 2.
 Measure, Lebesgue : III, 1, 3, III, 4, 1 and III, 4, 4.
-Measure, majorizable, $ q $-majorizable : VI, 2, 3.
+Measure, majorizable, $q$-majorizable : VI, 2, 3.
 Measure, norm of : III, 1, 8.
 Measure, outer : IV, 1, 2 and IV, 1, 4.
 Measure, point : III, 2, 4.
@@ -432,36 +432,36 @@ Measure, real and imaginary parts : III, 1, 5 and VI, 2, 8.
 Measure, scalar : VI, 2, 1.
 Measure, support of : III, 2, 2.
 Measure, vectorial : VI, 2, 1.
-Measure, with density $ g $ with respect to $ \mu $ : III, 1, 4, V, 5, 2 and VI, 2, 8.
+Measure, with density $g$ with respect to $\mu$ : III, 1, 4, V, 5, 2 and VI, 2, 8.
 Measures, alien : V, 5, 7.
 Measures, equivalent : V, 5, 6 and VI, 2, 8.
-Minimum in measure, $ \mu $-minimum : IV, 6, 2.
+Minimum in measure, $\mu$-minimum : IV, 6, 2.
 Minkowski’s inequality : I, 2 and IV, 3, 1.
-Moderated function, $ \mu $- : V, 1, 2.
+Moderated function, $\mu$- : V, 1, 2.
 Moderated measure : V, 1, 2.
-Moderated subset, $ \mu $- : V, 1, 2.
+Moderated subset, $\mu$- : V, 1, 2.
 Multiple integral : III, 4, 4.
-$ n $-tuple integral : III, 4, 4.
+$n$-tuple integral : III, 4, 4.
 Negligible function : IV, 2, 1 and IV, 2, 4.
 Negligible set : IV, 2, 2.
 Norm of a diffusion : V, 3, 5.
 Norm of a measure : III, 1, 8.
 Numerical function : I, 1, 1, Footnote.
-Order $ n $, multiple integral of : III, 4, 4.
-Order $ p $, convergence in mean of : IV, 3, 3.
-Order $ p $, equi-integrable of (set of functions) : IV, 5, 11.
+Order $n$, multiple integral of : III, 4, 4.
+Order $p$, convergence in mean of : IV, 3, 3.
+Order $p$, equi-integrable of (set of functions) : IV, 5, 11.
 Ordered direct sum : II, 1, 4.
-Orthonormal sequence, in $ \mathcal{L}^2 $ : IV, 6, Exer. 15.
+Orthonormal sequence, in $\mathcal{L}^2$ : IV, 6, Exer. 15.
 Orthonormal system, Haar : IV, 6, Exer. 17.
 Outer measure : IV, 1, 2 and IV, 1, 4.
-$ p $-th power integrable function : IV, 3, 4.
+$p$-th power integrable function : IV, 3, 4.
 Parts of a measure, real and imaginary : III, 1, 5 and VI, 2, 8.
-$ \Phi $-step function : IV, 4, 9.
+$\Phi$-step function : IV, 4, 9.
 Point measure : III, 2, 4.
-Point, $ \mathcal{H} $-extremal : IV, 7, 3.
+Point, $\mathcal{H}$-extremal : IV, 7, 3.
 Positive linear form : II, 2, 1.
 Positive measure : III, 1, 5.
-Pre-adequate mapping, $ \mu $- : V, 3, 1.
+Pre-adequate mapping, $\mu$- : V, 3, 1.
 Principle of localization for measurable functions : IV, 5, 2.
 Principle of localization for measures : III, 2, 1.
 
@@ -472,13 +472,13 @@ Product of a measure by a locally integrable function : V, 5, 2.
 Product of two measures : III, 4, 1 and VI, 2, 10.
 Projective limit, of a projective system of measures : see inverse limit.
 Projective system of measures : see inverse system.
-Proper mapping, $ \mu^- $ : V, 6, 1, V, 6, 4 and VI, 2, 10.
+Proper mapping, $\mu^-$ : V, 6, 1, V, 6, 4 and VI, 2, 10.
 Property (GDF) : VI, 1, 4.
 Property true almost everywhere : IV, 2, 3.
 Property true locally almost everywhere : IV, 5, 2.
 Property, lifting : VI, 2, 5.
 Pseudo-image (class, measure) : VI, 3, 2.
-$ q $-majorizable measure : VI, 2, 3.
+$q$-majorizable measure : VI, 2, 3.
 Quadrable set : IV, 5, Exer. 17.
 Quadratic mean, convergence in : IV, 3, 3.
 Quasi-integrable function : IV, 5, Exer. 15.
@@ -496,7 +496,7 @@ Riesz, F., theorem of : II, 1, 5.
 Riesz, M., inequality of : IV, 6, Exer. 18.
 Scalar measure : VI, 2, 1.
 Scalarly essentially integrable mapping : V, 3, 1, VI, 1, 1 and VI, 2, 10.
-Scalarly of base $ \mu $, vectorial measure : VI, 2, 5.
+Scalarly of base $\mu$, vectorial measure : VI, 2, 5.
 Scalarly of compact support, mapping : III, 3, 1.
 Scalarly well integrable function : VI, 1, Exer. 19.
 Scalarly, function having a property : VI, 1, 1.
@@ -511,12 +511,12 @@ Slices, decomposition into (of a measure): V, 6, 6 and VI, 3, 1.
 Space, fully lattice-ordered : II, 1, 3.
 Space, Riesz : II, 1, 1.
 Step function : IV, 4, 9.
-Step function, $ \Phi $ : IV, 4, 9.
+Step function, $\Phi$ : IV, 4, 9.
 Step function, measurable : IV, 5, 5.
 Stieltjes measure : V, 6, Exer. 5.
 Stone space : II, 1, Exer. 13.
 Strictly compact convergence (in the space of measures) : III, 1, 10.
-Strictly compact set, in $ \mathcal{K}(X;E) $ : III, 1, 1.
+Strictly compact set, in $\mathcal{K}(X;E)$ : III, 1, 1.
 Summable family of positive measures : V, 2, 1.
 Support of a function : III, 1, 1.
 Support of a measure : III, 2, 2.
@@ -535,7 +535,7 @@ Theorem, Lebesgue–Fubini : V, 8, 4.
 Theorem, Lebesgue–Nikodym : V, 5, 5.
 Theorems of Choquet : IV, 7, 2 and IV, 7, 6.
 Topology of compact convergence, of strictly compact convergence (on the space of measures) : III, 1, 10.
-Topology of convergence in mean, in mean of order $ p $, in quadratic mean : IV, 3. 3.
+Topology of convergence in mean, in mean of order $p$, in quadratic mean : IV, 3. 3.
 Topology of convergence in measure : IV, 5, 11.
 Topology, quasi-strong : III, 1, Exer. 8.
 Topology, ultrastrong : III, 1, Exer. 15.
@@ -552,13 +552,13 @@ Upper integral : IV, 1, 1, IV, 1, 3 and IV, 4, Exer. 5.
 Upper integral, essential : V, 1, 1.
 Vague convergence : III, 1, 9.
 Vague topology : III, 1, 9.
-Vaguely $ \mu $-measurable function : V, 3, 1.
+Vaguely $\mu$-measurable function : V, 3, 1.
 Vaguely continuous function : V, 3, 1.
 Vectorial measure : VI, 2, 1.
-Vectorial measure of base $ \mu $ : VI, 2, 4.
-Vectorial measure, $ q $-majorizable : VI, 2, 3.
+Vectorial measure of base $\mu$ : VI, 2, 4.
+Vectorial measure, $q$-majorizable : VI, 2, 3.
 Vectorial measure, majorizable : VI, 2, 3.
-Vectorial measure, scalarly with base $ \mu $ : VI, 2, 5.
+Vectorial measure, scalarly with base $\mu$ : VI, 2, 5.
 Vectorial measure, support of : VI, 2, 1.
 Weakly continuous mapping : III, 3, 1.
 Well integrable, scalarly : VI, 1, Exer. 19.
@@ -570,7 +570,7 @@ Introduction ......................................................... ix
 Chapter I. — Inequalities of convexity ......................... I.1
     1. The fundamental inequality of convexity ............... I.1
     2. The inequalities of Hölder and Minkowski ............. I.3
-    3. The semi-norms $ N_p $ ................................. I.4
+    3. The semi-norms $N_p$ ................................. I.4
 Exercises for Ch. I ................................................. I.6
 Historical note .................................................... I.8
 
@@ -599,7 +599,7 @@ Chapter III. — Measures on locally compact spaces ... III.1
 
 8. Bounded measures ............................................. III.16
 9. Vague topology on the space of measures ............... III.18
-10. Compact convergence in $ \mathcal{M}(X; \mathbf{C}) $ .................. III.21
+10. Compact convergence in $\mathcal{M}(X; \mathbf{C})$ .................. III.21
 
 §2. Support of a measure ............................................. III.23
     1. Restriction of a measure to an open set. Definition of a measure by means of local data .................. III.23
@@ -626,7 +626,7 @@ Exercises for §2 .................................................. III.59
 Exercises for §3 .................................................. III.60
 Exercises for §4 .................................................. III.60
 
-CHAPTER IV. — EXTENSION OF A MEASURE. $ L^p $ SPACES ....... IV.1
+CHAPTER IV. — EXTENSION OF A MEASURE. $L^p$ SPACES ....... IV.1
 
 §1. Upper integral of a positive function ....................... IV.1
     1. Upper integral of a lower semi-continuous positive function ............................................. IV.1
@@ -641,17 +641,17 @@ CHAPTER IV. — EXTENSION OF A MEASURE. $ L^p $ SPACES ....... IV.1
 
 4. Classes of equivalent functions ......................... IV.13
 5. Functions defined almost everywhere ................. IV.15
-6. Equivalence classes of functions with values in $ \overline{\mathbf{R}} $ ..... IV.16
+6. Equivalence classes of functions with values in $\overline{\mathbf{R}}$ ..... IV.16
 
-§3. $ L^p $ spaces ............................................. IV.18
+§3. $L^p$ spaces ............................................. IV.18
     1. Minkowski’s inequality .................................. IV.18
-    2. The semi-norms $ N_p $ ................................. IV.19
-    3. The spaces $ \mathcal{F}_F^p $ .......................... IV.20
-    4. $ p $-th power integrable functions .................. IV.23
-    5. Properties of $ p $-th power integrable functions .... IV.25
-    6. Directed sets in $ L^p $ and increasing sequences in $ \mathcal{L}^p $ .. IV.27
+    2. The semi-norms $N_p$ ................................. IV.19
+    3. The spaces $\mathcal{F}_F^p$ .......................... IV.20
+    4. $p$-th power integrable functions .................. IV.23
+    5. Properties of $p$-th power integrable functions .... IV.25
+    6. Directed sets in $L^p$ and increasing sequences in $\mathcal{L}^p$ .. IV.27
     7. Lebesgue’s theorem ...................................... IV.30
-    8. Relations between the spaces $ \mathcal{L}_F^p $ ($ 1 \leq p < +\infty $) ..... IV.31
+    8. Relations between the spaces $\mathcal{L}_F^p$ ($1 \leq p < +\infty$) ..... IV.31
 
 §4. Integrable functions and sets ............................ IV.32
     1. Extension of the integral ............................... IV.32
@@ -674,7 +674,7 @@ CHAPTER IV. — EXTENSION OF A MEASURE. $ L^p $ SPACES ....... IV.1
     5. Criteria for measurability ............................. IV.66
     6. Criteria for integrability .............................. IV.71
     7. Measure induced on a locally compact subspace ........ IV.73
-    8. $ \mu $-dense families of compact sets ................. IV.76
+    8. $\mu$-dense families of compact sets ................. IV.76
     9. Locally countable partitions ........................... IV.77
     10. Measurable functions defined on a measurable subset .. IV.78
     11. Convergence in measure ............................... IV.80
@@ -683,10 +683,10 @@ CHAPTER IV. — EXTENSION OF A MEASURE. $ L^p $ SPACES ....... IV.1
 §6. Convexity inequalities ............................................. IV.89
     1. The convexity theorem ............................................. IV.89
     2. Inequality of the mean ............................................. IV.90
-    3. The spaces $ L_F^\infty $ ............................................. IV.91
+    3. The spaces $L_F^\infty$ ............................................. IV.91
     4. Hölder’s inequality ............................................. IV.93
-    5. Applications: relations between the spaces $ L_F^p $
-        ($ 1 \leq p \leq +\infty $) ............................................. IV.98
+    5. Applications: relations between the spaces $L_F^p$
+        ($1 \leq p \leq +\infty$) ............................................. IV.98
 
 §7. Barycenters ......................................................... IV.101
     1. Definition of barycenters ............................................. IV.101
@@ -736,10 +736,10 @@ CHAPTER V. — Integration of measures ............................ V.1
     2. Measures defined by numerical densities ................. V.40
     3. Integration with respect to a measure defined by a density ..................................................... V.42
     4. Behavior of the product with respect to the usual operations ..................................................... V.45
-    5. Characterization of measures with base $ \mu $ ........ V.48
+    5. Characterization of measures with base $\mu$ ........ V.48
     6. Equivalent measures ...................................... V.52
     7. Alien measures ........................................... V.54
-    8. Applications: I. Duality of the spaces $ L^p $ .......... V.56
+    8. Applications: I. Duality of the spaces $L^p$ .......... V.56
     9. Applications: II. Functions of measures ................. V.60
     10. Diffuse measures; atomic measures ..................... V.61
 
@@ -762,7 +762,7 @@ CHAPTER V. — Integration of measures ............................ V.1
     4. Integration of functions with values in a Banach space ............................................. V.87
     5. Operations on the product of two measures ............... V.89
     6. Integration with respect to a finite product of measures ............................................. V.91
-    7. Application: Measure of the Euclidean ball in $ \mathbf{R}^n $ ...... V.93
+    7. Application: Measure of the Euclidean ball in $\mathbf{R}^n$ ...... V.93
 Exercises for §1 ............................................. V.94
 Exercises for §2 ............................................. V.95
 Exercises for §3 ............................................. V.96
@@ -789,18 +789,18 @@ CHAPTER VI. — Vectorial integration ......................... VI.1
     2. Integration with respect to a vectorial measure ........ VI.20
     3. Majorizable vectorial measures .......................... VI.22
 
-4. Vectorial measures with base $ \mu $ ......................... VI.25
+4. Vectorial measures with base $\mu$ ......................... VI.25
 5. The Dunford–Pettis theorem ................................. VI.27
-6. Dual of the space $ L^1_F $ (F a separable Banach space .................................................. VI.32
+6. Dual of the space $L^1_F$ (F a separable Banach space .................................................. VI.32
 7. Integration of a vector-valued function with respect to a vectorial measure ............................................. VI.33
 8. Complex measures ............................................. VI.34
 9. Bounded complex measures ................................. VI.37
 10. Image of a complex measure; induced complex measure; product of complex measures ............................ VI.39
 
 §3. Disintegration of measures ........................................ VI.40
-    1. Disintegration of a measure $ \mu $ relative to a $ \mu $-proper mapping .................................................. VI.40
+    1. Disintegration of a measure $\mu$ relative to a $\mu$-proper mapping .................................................. VI.40
     2. Pseudo-image measures ........................................ VI.44
-    3. Disintegration of a measure $ \mu $ relative to a pseudo-image of $ \mu $ .................................................. VI.45
+    3. Disintegration of a measure $\mu$ relative to a pseudo-image of $\mu$ .................................................. VI.45
     4. Measurable equivalence relations .......................... VI.46
     5. Disintegration of a measure by a measurable equivalence relation .................................................. VI.50
 

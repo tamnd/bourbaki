@@ -28,7 +28,7 @@ subsections:
       pdf_page: 212
 statements: 12
 exercises: 2
-content_sha256: 4b07c63709fd78f0bee9065c8ebbc16a4206e11b63be6995bb3658a9892a9f3b
+content_sha256: a1d623b664a3e6aeb9850e9dddd38396c5fe9526ee78a042d5bd1805375ab6bf
 ---
 
 ## § 3. EXPONENTIAL INVARIANTS
@@ -86,84 +86,84 @@ On the other hand, if $t = p' + r$ with $x_{p'} y_r \neq 0$, there exists $p \in
 
 #### Remark {#lie-vi-s3-n2-rem-1 .statement}
 
-Since $ x \neq 0 $ means that the maximal support of $ x $ is non-empty, Lemma 2 shows that $ x \neq 0 $ implies $ xy \neq 0 $ whenever $ y $ admits a unique maximal term of the form $ e^q $.
+Since $x \neq 0$ means that the maximal support of $x$ is non-empty, Lemma 2 shows that $x \neq 0$ implies $xy \neq 0$ whenever $y$ admits a unique maximal term of the form $e^q$.
 
 ### 3. ANTI-INvariant ELEMENTS
 
-We retain the notations of the preceding number. Denote by $ \varepsilon(w) $ the determinant of the element $ w \in W $. Thus
+We retain the notations of the preceding number. Denote by $\varepsilon(w)$ the determinant of the element $w \in W$. Thus
 $$
 \varepsilon(w) = (-1)^{l(w)},
 $$
-the length $ l(w) $ being taken relative to the family of reflections $ s_{\alpha_i} $.
+the length $l(w)$ being taken relative to the family of reflections $s_{\alpha_i}$.
 
 #### Definition 2 {#lie-vi-s3-def-2 .statement}
 
-*An element* $ x \in A[P] $ *is said to be anti-invariant under* $ W $ *if*
+*An element* $x \in A[P]$ *is said to be anti-invariant under* $W$ *if*
 $$
 w(x) = (-1)^{l(w)}.x
 $$
-*for all* $ w \in W $.
+*for all* $w \in W$.
 
-The anti-invariant elements of $ A[P] $ form an $ A $-submodule of $ A[P] $. For any $ x \in A[P] $, put
+The anti-invariant elements of $A[P]$ form an $A$-submodule of $A[P]$. For any $x \in A[P]$, put
 $$
 J(x) = \sum_{w \in W} \varepsilon(w).w(x).
 $$
 (1)
 
-For $ x \in A[P] $ and $ w \in W $, we have
+For $x \in A[P]$ and $w \in W$, we have
 $$
 w(J(x)) = \sum_{v \in W} \varepsilon(v).wv(x) = \varepsilon(w) \sum_{v \in W} \varepsilon(v).v(x) = \varepsilon(w).J(x)
 $$
-and $ J(x) $ is anti-invariant. On the other hand, let $ q = \mathrm{Card}(W) $. For any anti-invariant element $ x $ of $ A[P] $, we have $ J(x) = q.x $. It follows that, if $ q $ is invertible in $ A $, the map $ q^{-1}J $ is a *projection* from $ A[P] $ onto the submodule of anti-invariant elements.
+and $J(x)$ is anti-invariant. On the other hand, let $q = \mathrm{Card}(W)$. For any anti-invariant element $x$ of $A[P]$, we have $J(x) = q.x$. It follows that, if $q$ is invertible in $A$, the map $q^{-1}J$ is a *projection* from $A[P]$ onto the submodule of anti-invariant elements.
 
-Let $ \overline{\omega}_1, \ldots, \overline{\omega}_l $ be the fundamental weights corresponding to the chamber $ C $. The elements of $ P \cap \overline{C} $ (resp. $ P \cap C $) are the weights of the form $ n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l $ with $ n_i \geq 0 $ (resp. $ n_i > 0 $) for $ 1 \leq i \leq l $ (\S 1, no. 10). On the other hand,
+Let $\overline{\omega}_1, \ldots, \overline{\omega}_l$ be the fundamental weights corresponding to the chamber $C$. The elements of $P \cap \overline{C}$ (resp. $P \cap C$) are the weights of the form $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$ with $n_i \geq 0$ (resp. $n_i > 0$) for $1 \leq i \leq l$ (\S 1, no. 10). On the other hand,
 $$
 \rho = \overline{\omega}_1 + \cdots + \overline{\omega}_l
 $$
-is half the sum of the positive roots (*loc. cit.*) so the elements of $ P \cap C $ are the weights of the form $ \rho + p $ with $ p \in P \cap \overline{C} $. Finally, if $ p \in P \cap C $, then $ w(p) < p $ for all $ w \neq 1 $ (\S 1, no. 6, Cor. to Prop. 18) and $ e^p $ is thus the unique maximal term of $ J(e^p) $.
+is half the sum of the positive roots (*loc. cit.*) so the elements of $P \cap C$ are the weights of the form $\rho + p$ with $p \in P \cap \overline{C}$. Finally, if $p \in P \cap C$, then $w(p) < p$ for all $w \neq 1$ (\S 1, no. 6, Cor. to Prop. 18) and $e^p$ is thus the unique maximal term of $J(e^p)$.
 
 #### Proposition 1 {#lie-vi-s3-prop-1 .statement}
 
-*If* 2 *is not a zero divisor in* $ A $, *the elements* $ J(e^p) $ *for* $ p \in P \cap C $ *form a basis of the module of anti-invariant elements of* $ A[P] $.
+*If* 2 *is not a zero divisor in* $A$, *the elements* $J(e^p)$ *for* $p \in P \cap C$ *form a basis of the module of anti-invariant elements of* $A[P]$.
 
-The weights $ w(p) $ for $ w \in W $ and $ p \in P \cap C $ are pairwise distinct. It follows that the $ J(e^p) $ for $ p \in P \cap C $ are linearly independent.
+The weights $w(p)$ for $w \in W$ and $p \in P \cap C$ are pairwise distinct. It follows that the $J(e^p)$ for $p \in P \cap C$ are linearly independent.
 
-On the other hand, let $ x = \sum_p x_p e^p $ be an anti-invariant element of $ A[P] $. If $ p_0 $ belongs to a wall, it is invariant under a reflection $ s \in W $ and
+On the other hand, let $x = \sum_p x_p e^p$ be an anti-invariant element of $A[P]$. If $p_0$ belongs to a wall, it is invariant under a reflection $s \in W$ and
 $$
 x = \sum_p x_p e^p = -s(x) = -\sum_p x_p e^{s(p)}.
 $$
-It follows that $ 2x_{p_0} = 0 $, so $ x_{p_0} = 0 $. Since every element that does not belong to any wall can be written uniquely in the form $ w(p) $ with $ w \in W $ and $ p \in P \cap C $, we thus have
+It follows that $2x_{p_0} = 0$, so $x_{p_0} = 0$. Since every element that does not belong to any wall can be written uniquely in the form $w(p)$ with $w \in W$ and $p \in P \cap C$, we thus have
 $$
 x = \sum_{p \in P \cap C} \sum_{w \in W} x_{w(p)} e^{w(p)}. \tag{2}
 $$
-Since $ w(x) = \sum_p x_p e^{w(p)} = \varepsilon(w) \sum_p x_p e^p $, $ x_{w(p)} = \varepsilon(w)x_p $ and we deduce from (2) that
+Since $w(x) = \sum_p x_p e^{w(p)} = \varepsilon(w) \sum_p x_p e^p$, $x_{w(p)} = \varepsilon(w)x_p$ and we deduce from (2) that
 $$
 x = \sum_{p \in P \cap C} x_p J(e^p),
 $$
 which completes the proof.
 
-Consider now the element $ d $ of the algebra $ A[\frac{1}{2}P] $ defined by
+Consider now the element $d$ of the algebra $A[\frac{1}{2}P]$ defined by
 $$
 d = \prod_{\alpha \in R, \alpha > 0} (e^{\alpha/2} - e^{-\alpha/2}) \\
 = e^{\rho} \cdot \prod_{\alpha \in R, \alpha > 0} (1 - e^{-\alpha}) \\
 = e^{-\rho} \cdot \prod_{\alpha \in R, \alpha > 0} (e^{\alpha} - 1).
 $$
-Since $ \rho \in P $, $ d \in A[P] $.
+Since $\rho \in P$, $d \in A[P]$.
 
 #### Proposition 2 {#lie-vi-s3-prop-2 .statement}
 
-(i) *The element d defined by (3) is an anti-invariant element of A[P]; its unique maximal term* (no. 2, Def. 1) *is* $ e^{\rho} $ *and* $ d = J(e^{\rho}) $.
-(ii) *For any* $ p \in P $, *the element* $ J(e^p) $ *is divisible uniquely by* $ d $ *and the quotient* $ J(e^p)/d $ *is an element of* $ A[P] $ *invariant under* $ W $.
-(iii) *If 2 is not a zero divisor in* $ A $, *multiplication by* $ d $ *is a bijection from the set of elements of* $ A[P] $ *invariant under* $ W $ *to the set of anti-invariant elements of* $ A[P] $.
+(i) *The element d defined by (3) is an anti-invariant element of A[P]; its unique maximal term* (no. 2, Def. 1) *is* $e^{\rho}$ *and* $d = J(e^{\rho})$.
+(ii) *For any* $p \in P$, *the element* $J(e^p)$ *is divisible uniquely by* $d$ *and the quotient* $J(e^p)/d$ *is an element of* $A[P]$ *invariant under* $W$.
+(iii) *If 2 is not a zero divisor in* $A$, *multiplication by* $d$ *is a bijection from the set of elements of* $A[P]$ *invariant under* $W$ *to the set of anti-invariant elements of* $A[P]$.
 
-We know that, for $ 1 \leq i \leq l $, the reflection $ s_i = s_{\alpha_i} $ leaves stable the set of positive roots other than $ \alpha_i $ and that $ s_i(\alpha_i) = -\alpha_i $ (\S 1, no. 6, Cor. 1 of Prop. 17). Hence,
+We know that, for $1 \leq i \leq l$, the reflection $s_i = s_{\alpha_i}$ leaves stable the set of positive roots other than $\alpha_i$ and that $s_i(\alpha_i) = -\alpha_i$ (\S 1, no. 6, Cor. 1 of Prop. 17). Hence,
 $$
 s_i(d) = (e^{-\alpha_i/2} - e^{\alpha_i/2}) \prod_{\alpha \in R, \alpha > 0, \alpha \neq \alpha_i} (e^{\alpha/2} - e^{-\alpha/2}) \\
 = -d = \varepsilon(s_i).d.
 $$
-Since the $ s_i $ generate $ W $, this proves the first assertion in (i). The second assertion in (i) follows immediately from (3) and Lemma 2, noting that 1 is the unique maximal term of $ 1 - e^{-\alpha} $ for $ \alpha \in R, \alpha > 0 $.
+Since the $s_i$ generate $W$, this proves the first assertion in (i). The second assertion in (i) follows immediately from (3) and Lemma 2, noting that 1 is the unique maximal term of $1 - e^{-\alpha}$ for $\alpha \in R, \alpha > 0$.
 
-Assume now that $ A = \mathbf{Z} $. By Prop. 1,
+Assume now that $A = \mathbf{Z}$. By Prop. 1,
 
 $$
 d = \prod_{p \in P \cap C} c_p J(e^p) \quad \text{with} \quad c_p \in \mathbf{Z}.
@@ -175,45 +175,45 @@ $$
 d = e^\rho + \sum_{q < \rho} c'_q e^q.
 $$
 
-If $ p \in P \cap C $ with $ p \neq \rho $, then $ p > \rho $ and the coefficient of $ e^p $ in $ d $ is zero by (5). Thus, $ c_p = 0 $. Moreover, comparison of the coefficients of $ e^\rho $ in (4) and (5) shows that $ c_\rho = 1 $ and hence that $ d = J(e^\rho) $.
+If $p \in P \cap C$ with $p \neq \rho$, then $p > \rho$ and the coefficient of $e^p$ in $d$ is zero by (5). Thus, $c_p = 0$. Moreover, comparison of the coefficients of $e^\rho$ in (4) and (5) shows that $c_\rho = 1$ and hence that $d = J(e^\rho)$.
 
-We continue to assume that $ A = \mathbf{Z} $. Let $ p \in P, \alpha \in \mathbf{R} $ and $ M $ be a system of representatives of the right cosets of $ W $ with respect to the subgroup $ \{1, s_\alpha\} $. Then,
+We continue to assume that $A = \mathbf{Z}$. Let $p \in P, \alpha \in \mathbf{R}$ and $M$ be a system of representatives of the right cosets of $W$ with respect to the subgroup $\{1, s_\alpha\}$. Then,
 
 $$
 J(e^p) = \sum_{w \in M} \varepsilon(w) e^{w(p)} + \sum_{w \in M} \varepsilon(s_\alpha w) e^{s_\alpha w(p)}.
 $$
 
-Now $ s_\alpha w(p) = w(p) - \langle \alpha^*, w(p) \rangle \alpha = w(p) + n_w \alpha $, with $ n_w \in \mathbf{Z} $. Thus,
+Now $s_\alpha w(p) = w(p) - \langle \alpha^*, w(p) \rangle \alpha = w(p) + n_w \alpha$, with $n_w \in \mathbf{Z}$. Thus,
 
 $$
 J(e^p) = \sum_{w \in M} \varepsilon(w) e^{w(p)} (1 - e^{n_w \alpha}).
 $$
 
-If $ n_w \geq 0 $, it is clear that $ 1 - e^{n_w \alpha} $ is divisible by $ 1 - e^\alpha $ and this is also true when $ n_w < 0 $ since $ 1 - e^{n_w \alpha} = -e^{n_w \alpha}(1 - e^{-n_w \alpha}) $. Hence, $ J(e^p) $ is divisible by $ 1 - e^\alpha $ in $ \mathbf{Z}[P] $.
+If $n_w \geq 0$, it is clear that $1 - e^{n_w \alpha}$ is divisible by $1 - e^\alpha$ and this is also true when $n_w < 0$ since $1 - e^{n_w \alpha} = -e^{n_w \alpha}(1 - e^{-n_w \alpha})$. Hence, $J(e^p)$ is divisible by $1 - e^\alpha$ in $\mathbf{Z}[P]$.
 
-By Lemma 1, $ \mathbf{Z}[P] $ is factorial and the elements $ 1 - e^\alpha $ for $ \alpha \in \mathbf{R} $ and $ \alpha > 0 $ are mutually prime. It follows that $ J(e^p) $ is divisible in $ \mathbf{Z}[P] $ by the product $ \prod_{\alpha > 0} (1 - e^\alpha) $, and hence also by $ d = e^{-\rho} \prod_{\alpha > 0} (1 - e^\alpha) $.
+By Lemma 1, $\mathbf{Z}[P]$ is factorial and the elements $1 - e^\alpha$ for $\alpha \in \mathbf{R}$ and $\alpha > 0$ are mutually prime. It follows that $J(e^p)$ is divisible in $\mathbf{Z}[P]$ by the product $\prod_{\alpha > 0} (1 - e^\alpha)$, and hence also by $d = e^{-\rho} \prod_{\alpha > 0} (1 - e^\alpha)$.
 
-Returning to the general case, by extension of scalars from $ \mathbf{Z} $ to $ A $, we deduce from the above that $ d = J(e^\rho) $ and that every element $ J(e^p) $ is divisible by $ d $. Since $ e^\rho $ is the unique maximal term of $ d $, the Remark of no. 2 shows that there exists a unique element $ y \in A[P] $ such that $ J(e^p) = dy $ and it follows immediately that $ y $ is invariant under $ W $, and hence that $ d $ and $ J(e^p) $ are anti-invariant. This proves (i) and (ii).
+Returning to the general case, by extension of scalars from $\mathbf{Z}$ to $A$, we deduce from the above that $d = J(e^\rho)$ and that every element $J(e^p)$ is divisible by $d$. Since $e^\rho$ is the unique maximal term of $d$, the Remark of no. 2 shows that there exists a unique element $y \in A[P]$ such that $J(e^p) = dy$ and it follows immediately that $y$ is invariant under $W$, and hence that $d$ and $J(e^p)$ are anti-invariant. This proves (i) and (ii).
 
-Finally, if 2 is not a zero divisor in $ A $, the Remark of no. 2 and Prop. 1 imply (iii).
+Finally, if 2 is not a zero divisor in $A$, the Remark of no. 2 and Prop. 1 imply (iii).
 
 #### Remark 1 {#lie-vi-s3-n3-rem-1 .statement}
 
-If 2 is not a zero divisor in $ A $, it is easy to check that $ d $ is the unique anti-invariant element of $ A[P] $ with $ e^\rho $ as its maximal term.
+If 2 is not a zero divisor in $A$, it is easy to check that $d$ is the unique anti-invariant element of $A[P]$ with $e^\rho$ as its maximal term.
 
 #### Remark 2 {#lie-vi-s3-n3-rem-2 .statement}
 
-Lemma 2 of no. 2 shows that the unique maximal term of the quotient $ J(e^p)/d $ (for $ p \in P \cap C $) is $ e^{p-\rho} $.
+Lemma 2 of no. 2 shows that the unique maximal term of the quotient $J(e^p)/d$ (for $p \in P \cap C$) is $e^{p-\rho}$.
 
 ### 4. INVARIANT ELEMENTS
 
-Let $ A[P]^W $ be the subalgebra of $ A[P] $ consisting of the elements invariant under $ W $. For $ p \in P $, denote by $ W.p $ the orbit of $ p $ under $ W $, and let $ S(e^p) = \sum_{q \in W.p} e^q $ be the sum of the $ W $-transforms of $ e^p $; this is a $ W $-invariant element.
+Let $A[P]^W$ be the subalgebra of $A[P]$ consisting of the elements invariant under $W$. For $p \in P$, denote by $W.p$ the orbit of $p$ under $W$, and let $S(e^p) = \sum_{q \in W.p} e^q$ be the sum of the $W$-transforms of $e^p$; this is a $W$-invariant element.
 
-If $ p \in P \cap \overline{C} $, $ w(p) \leq p $ for all $ w \in W $ ($ \S $ 1, no. 6, Prop. 18) and $ e^p $ is the unique maximal term of $ S(e^p) $.
+If $p \in P \cap \overline{C}$, $w(p) \leq p$ for all $w \in W$ ($\S$ 1, no. 6, Prop. 18) and $e^p$ is the unique maximal term of $S(e^p)$.
 
-Let $ x = \sum_p x_p e^p \in A[P]^W $; then $ x_{w(p)} = x_p $ for all $ p \in P $ and all $ w \in W $.
+Let $x = \sum_p x_p e^p \in A[P]^W$; then $x_{w(p)} = x_p$ for all $p \in P$ and all $w \in W$.
 
-On the other hand, every orbit of $ W $ in $ P $ meets $ P \cap \overline{C} $ in exactly one point ($ \S $ 1, no. 5, Th. 2). Hence,
+On the other hand, every orbit of $W$ in $P$ meets $P \cap \overline{C}$ in exactly one point ($\S$ 1, no. 5, Th. 2). Hence,
 
 $$
 x = \sum_{P \cap \overline{C}} x_p S(e^p).
@@ -223,14 +223,14 @@ We deduce:
 
 #### Lemma 3 {#lie-vi-s3-lem-3 .statement}
 
-*The $ S(e^p) $ for $ p \in P \cap \overline{C} $ form a basis of the $ A $-module $ A[P]^W $.*
+*The $S(e^p)$ for $p \in P \cap \overline{C}$ form a basis of the $A$-module $A[P]^W$.*
 
 $$
 e_{i_0} = x_{i_0} - \sum_{j < i_0} a_{i_0 j} e_j,
 $$
-from which (b) follows. Hence $ J' \in \mathfrak{S} $, a contradiction. Thus, $ J = I $ and the lemma is proved.
+from which (b) follows. Hence $J' \in \mathfrak{S}$, a contradiction. Thus, $J = I$ and the lemma is proved.
 
-We now prove Prop. 3. We apply Lemma 4 with $ I = P \cap \overline{C} $. Let $ q \in I $, and let $ I_q $ be the set of $ p \in I $ such that $ p \leq q $. If $ p \in I_q $, the relations
+We now prove Prop. 3. We apply Lemma 4 with $I = P \cap \overline{C}$. Let $q \in I$, and let $I_q$ be the set of $p \in I$ such that $p \leq q$. If $p \in I_q$, the relations
 $$
 q - p \geq 0,\quad p \in \overline{C},\quad q \in \overline{C}
 $$
@@ -242,7 +242,7 @@ and hence that
 $$
 (p|p) \leq (p|q) \leq (q|q).
 $$
-The set $ I_q $ is thus *bounded*. Since $ I $ is discrete, it follows that $ I_q $ is *finite*, and it is clear that $ I $ satisfies the condition (MIN). On the other hand, for all $ p \in I $,
+The set $I_q$ is thus *bounded*. Since $I$ is discrete, it follows that $I_q$ is *finite*, and it is clear that $I$ satisfies the condition (MIN). On the other hand, for all $p \in I$,
 $$
 x_p = e^p + \sum_{q < p} c_{pq} e^q
 $$
@@ -254,18 +254,18 @@ The proposition now follows from Lemmas 3 and 4.
 
 #### Theorem 1 {#lie-vi-s3-thm-1 .statement}
 
-*Let $ \overline{\omega}_1, \ldots, \overline{\omega}_l $ be the fundamental weights corresponding to the chamber $ C $, and, for $ 1 \leq i \leq l $, let $ x_i $ be an element of $ A[P]^W $ with $ e^{\overline{\omega}_i} $ as its unique maximal term. Let*
+*Let $\overline{\omega}_1, \ldots, \overline{\omega}_l$ be the fundamental weights corresponding to the chamber $C$, and, for $1 \leq i \leq l$, let $x_i$ be an element of $A[P]^W$ with $e^{\overline{\omega}_i}$ as its unique maximal term. Let*
 $$
 \varphi : \Lambda[X_1, \ldots, X_l] \to A[P]^W
 $$
-*be the homomorphism from the polynomial algebra $ \Lambda[X_1, \ldots, X_l] $ to $ A[P]^W $ that takes $ X_i $ to $ x_i $. Then, the map $ \varphi $ is an isomorphism.*
+*be the homomorphism from the polynomial algebra $\Lambda[X_1, \ldots, X_l]$ to $A[P]^W$ that takes $X_i$ to $x_i$. Then, the map $\varphi$ is an isomorphism.*
 
-Lemma 2 implies that the image under $ \varphi $ of the monomial $ X_1^{n_1} \ldots X_l^{n_l} $ is an element with unique maximal term $ e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l} $. Since every element of $ P \cap \overline{C} $ can be written uniquely in the form $ n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l $, Prop. 3 shows that the images under $ \varphi $ of the monomials $ X_1^{n_1} \ldots X_l^{n_l} $ are a basis of $ A[P]^W $, hence the theorem.
+Lemma 2 implies that the image under $\varphi$ of the monomial $X_1^{n_1} \ldots X_l^{n_l}$ is an element with unique maximal term $e^{n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l}$. Since every element of $P \cap \overline{C}$ can be written uniquely in the form $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$, Prop. 3 shows that the images under $\varphi$ of the monomials $X_1^{n_1} \ldots X_l^{n_l}$ are a basis of $A[P]^W$, hence the theorem.
 
 #### Example 1 {#lie-vi-s3-n4-exa-1 .statement}
 
-We can take $ x_i = S(e^{\overline{\omega}_i}) $.
-2) By *Remark* 2 of no. 3, we can take $ x_i = J(e^{\rho + \overline{\omega}_i})/d $ (with the notation in no. 3).
+We can take $x_i = S(e^{\overline{\omega}_i})$.
+2) By *Remark* 2 of no. 3, we can take $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (with the notation in no. 3).
 
 ### Exercises {#lie-vi-s3-exercises}
 

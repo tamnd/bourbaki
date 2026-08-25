@@ -12,9 +12,9 @@ pdf_pages: 0142-0144
 extraction: ocr
 statements: 5
 exercises: 0
-content_sha256: 066349d6b9e112b459f1c10ff2a88fb1c554977afeeb9ac228902a74623c7e99
+content_sha256: 7067775f06c7b563551a168144bee87a50500af1a9c1063f6c5805d89d9e4656
 translated_from: content/en/lie/V/A_a_complements_on_linear_representations.md
-source_content_sha256: 025856794b6a2dcba491e70e6da291287582dc4f89b30bd65aa36ddd7adef08a
+source_content_sha256: 2d81808297b20691a264d3c19e5287310c7cbd4047624c58677e442a1bae2da2
 translation_model: gpt-5.4
 translation_run: translate-vi-54328539
 glossary_version: 34
@@ -39,25 +39,25 @@ $$
 a_\lambda u(e_i) = u(a_\lambda e_i) \quad \text{với mọi } \lambda \text{ và mọi } i.
 $$
 
-Đặt $ a_\lambda e_i = \sum_j \gamma_{\lambda ij} e_j, \ a_\lambda e'_i = \sum_j \gamma'_{\lambda ij} e'_j, $ trong đó các $ \gamma_{\lambda ij} $ và $ \gamma'_{\lambda ij} $ thuộc K, và $ u(e_i) = \sum_j \xi_{ij} e'_j, $ trong đó các $ \xi_{ij} $ thuộc L. Các điều kiện (1) có thể viết thành
+Đặt $a_\lambda e_i = \sum_j \gamma_{\lambda ij} e_j, \ a_\lambda e'_i = \sum_j \gamma'_{\lambda ij} e'_j,$ trong đó các $\gamma_{\lambda ij}$ và $\gamma'_{\lambda ij}$ thuộc K, và $u(e_i) = \sum_j \xi_{ij} e'_j,$ trong đó các $\xi_{ij}$ thuộc L. Các điều kiện (1) có thể viết thành
 
 $$
 \sum_j \xi_{ij} \gamma'_{\lambda jk} = \sum_j \gamma_{\lambda ij} \xi_{jk}
 $$
 
-với mọi $ \lambda, i, k $. Theo giả thiết, các phương trình tuyến tính thuần nhất (2) có một nghiệm $ (\xi_{ij}) \in L^{m^2} $ sao cho $ \det(\xi_{ij}) \neq 0 $. Vì các hệ số của hệ (2) thuộc K, ta biết (Đại số, Chương II, § 8, no. 5, Mệnh đề 6) rằng hệ này cũng có các nghiệm không tầm thường trong $ K^{m^2} $; gọi E là không gian con vectơ của $ M_m(K) = K^{m^2} $, khác không, gồm các nghiệm đó. Gọi $ (c_l)_{1 \leq l \leq p} $ là một cơ sở của $ E $, và đặt $ (\xi_{ij}) = \sum_l \eta_l c_l $ với mọi ma trận $ (\xi_{ij}) \in E $; khi đó $ \det(\xi_{ij}) $ là một đa thức $ P(\eta_1, \ldots, \eta_p) $ với các hệ số trong $ K $. Mặt khác, ta biết (*loc. cit.*) rằng các nghiệm của (2) trong $ L^{m^2} $ có dạng $ \sum_l \zeta_l c_l $, lần này với $ \zeta_l \in L $; đối với một nghiệm như vậy, $ \det(\xi_{ij}) $ bằng $ P(\zeta_1, \ldots, \zeta_p) $. Chấp nhận điều đó, nếu ta có $ P(\eta_1, \ldots, \eta_p) = 0 $ với mọi $ \eta_1, \ldots, \eta_p \in K $, thì các hệ số của $ P $ sẽ bằng không vì $ K $ là vô hạn; khi đó ta sẽ có $ P(\zeta_1, \ldots, \zeta_p) = 0 $ với mọi $ \zeta_1, \ldots, \zeta_p \in L $, trái với giả thiết của ta. Vậy ta có thể tìm được một ma trận $ (\xi_{ij}) \in E $ sao cho $ \det(\xi_{ij}) \neq 0 $, và ánh xạ tuyến tính tương ứng $ V \to W $ là một đẳng cấu.
+với mọi $\lambda, i, k$. Theo giả thiết, các phương trình tuyến tính thuần nhất (2) có một nghiệm $(\xi_{ij}) \in L^{m^2}$ sao cho $\det(\xi_{ij}) \neq 0$. Vì các hệ số của hệ (2) thuộc K, ta biết (Đại số, Chương II, § 8, no. 5, Mệnh đề 6) rằng hệ này cũng có các nghiệm không tầm thường trong $K^{m^2}$; gọi E là không gian con vectơ của $M_m(K) = K^{m^2}$, khác không, gồm các nghiệm đó. Gọi $(c_l)_{1 \leq l \leq p}$ là một cơ sở của $E$, và đặt $(\xi_{ij}) = \sum_l \eta_l c_l$ với mọi ma trận $(\xi_{ij}) \in E$; khi đó $\det(\xi_{ij})$ là một đa thức $P(\eta_1, \ldots, \eta_p)$ với các hệ số trong $K$. Mặt khác, ta biết (*loc. cit.*) rằng các nghiệm của (2) trong $L^{m^2}$ có dạng $\sum_l \zeta_l c_l$, lần này với $\zeta_l \in L$; đối với một nghiệm như vậy, $\det(\xi_{ij})$ bằng $P(\zeta_1, \ldots, \zeta_p)$. Chấp nhận điều đó, nếu ta có $P(\eta_1, \ldots, \eta_p) = 0$ với mọi $\eta_1, \ldots, \eta_p \in K$, thì các hệ số của $P$ sẽ bằng không vì $K$ là vô hạn; khi đó ta sẽ có $P(\zeta_1, \ldots, \zeta_p) = 0$ với mọi $\zeta_1, \ldots, \zeta_p \in L$, trái với giả thiết của ta. Vậy ta có thể tìm được một ma trận $(\xi_{ij}) \in E$ sao cho $\det(\xi_{ij}) \neq 0$, và ánh xạ tuyến tính tương ứng $V \to W$ là một đẳng cấu.
 
-c) *Trường hợp tổng quát*. Cho $ \Omega $ là một mở rộng đóng đại số của $ L $, và $ K_0 $ là bao đóng đại số của $ K $ trong $ \Omega $. Giả thiết kéo theo rằng $ V \otimes_K \Omega $ và $ W \otimes_K \Omega $ là các $ (A \otimes_K \Omega)$-môđun đẳng cấu. Vì $ K_0 $ là vô hạn, phần b) cho thấy rằng $ V \otimes_K K_0 $ và $ W \otimes_K K_0 $ là các $ (A \otimes_K K_0)$-môđun đẳng cấu. Giữ ký hiệu của b), hệ (2) có một nghiệm $ (\xi_{ij}) \in K_0^{m^2} $ sao cho $ \det(\xi_{ij}) \neq 0 $. Nhưng các $ \xi_{ij} $ đều thuộc một mở rộng đại số $ K_1 $ có bậc hữu hạn trên $ K $. Các $ (A \otimes_K K_1)$-môđun $ V \otimes_K K_1 $ và $ W \otimes_K K_1 $ là đẳng cấu, và chứng minh được hoàn tất bằng cách dùng a).
+c) *Trường hợp tổng quát*. Cho $\Omega$ là một mở rộng đóng đại số của $L$, và $K_0$ là bao đóng đại số của $K$ trong $\Omega$. Giả thiết kéo theo rằng $V \otimes_K \Omega$ và $W \otimes_K \Omega$ là các $(A \otimes_K \Omega)$-môđun đẳng cấu. Vì $K_0$ là vô hạn, phần b) cho thấy rằng $V \otimes_K K_0$ và $W \otimes_K K_0$ là các $(A \otimes_K K_0)$-môđun đẳng cấu. Giữ ký hiệu của b), hệ (2) có một nghiệm $(\xi_{ij}) \in K_0^{m^2}$ sao cho $\det(\xi_{ij}) \neq 0$. Nhưng các $\xi_{ij}$ đều thuộc một mở rộng đại số $K_1$ có bậc hữu hạn trên $K$. Các $(A \otimes_K K_1)$-môđun $V \otimes_K K_1$ và $W \otimes_K K_1$ là đẳng cấu, và chứng minh được hoàn tất bằng cách dùng a).
 
 #### Mệnh đề 2 (Maschke) {#lie-v-a0-prop-2 .statement}
 
-*Cho A là một vành có phần tử đơn vị, E là một A-môđun trái, F là một hạng tử trực tiếp của E, G là một nhóm cấp hữu hạn q, và $ \rho $ là một biểu diễn tuyến tính của G trên E. Giả sử rằng q.1 khả nghịch trong A và F ổn định dưới G. Khi đó tồn tại một phần bù của F trong E ổn định dưới G.*
+*Cho A là một vành có phần tử đơn vị, E là một A-môđun trái, F là một hạng tử trực tiếp của E, G là một nhóm cấp hữu hạn q, và $\rho$ là một biểu diễn tuyến tính của G trên E. Giả sử rằng q.1 khả nghịch trong A và F ổn định dưới G. Khi đó tồn tại một phần bù của F trong E ổn định dưới G.*
 
-Cho $ p $ là một phép chiếu của $ E $ lên $ F $. Với mọi $ x \in E $, đặt
+Cho $p$ là một phép chiếu của $E$ lên $F$. Với mọi $x \in E$, đặt
 $$
 f(x) = q^{-1} \sum_{s \in G} \rho(s)^{-1} p(\rho(s)x).
 $$
-Ta có $ f(x) \in F $ và $ f(y) = y $ với mọi $ y \in F $, nên $ f $ là một phép chiếu của $ E $ lên $ F $. Mặt khác, nếu $ t \in G $,
+Ta có $f(x) \in F$ và $f(y) = y$ với mọi $y \in F$, nên $f$ là một phép chiếu của $E$ lên $F$. Mặt khác, nếu $t \in G$,
 $$
 \begin{align*}
 \rho(t)f(x) &= q^{-1} \sum_{s \in G} \rho(st^{-1})^{-1} p(\rho(s)x) \\
@@ -65,7 +65,7 @@ $$
 &= f(\rho(t)x).
 \end{align*}
 $$
-Do đó $ f $ giao hoán với $ \rho(G) $, nên $ \ker(f) $ là một phần bù của $ F $ ổn định dưới $ G $.
+Do đó $f$ giao hoán với $\rho(G)$, nên $\ker(f)$ là một phần bù của $F$ ổn định dưới $G$.
 
 #### Hệ quả {#lie-v-a0-n0-cor-1 .statement}
 
@@ -75,10 +75,10 @@ Thật vậy, theo Mệnh đề 2, mọi môđun trên đại số này đều l
 
 #### Mệnh đề 3 {#lie-v-a0-prop-3 .statement}
 
-Cho $ A $ là một vành giao hoán, $ M $ là một $ A $-môđun, $ G $ là một nhóm hữu hạn tác động lên $ M $, và $ A' $ là một $ A $-môđun. Giả sử rằng cấp $ q $ của $ G $ là khả nghịch trong $ A $. Gọi $ M^G $ là tập hợp các phần tử của $ M $ bất biến dưới $ G $. Khi đó đồng cấu chính tắc từ $ M^G \otimes_A A' $ vào $ M \otimes_A A' $ xác định một đẳng cấu từ $ M^G \otimes_A A' $ lên môđun $ (M \otimes_A A')^G $ gồm các phần tử của $ M \otimes_A A' $ bất biến dưới $ G $.
+Cho $A$ là một vành giao hoán, $M$ là một $A$-môđun, $G$ là một nhóm hữu hạn tác động lên $M$, và $A'$ là một $A$-môđun. Giả sử rằng cấp $q$ của $G$ là khả nghịch trong $A$. Gọi $M^G$ là tập hợp các phần tử của $M$ bất biến dưới $G$. Khi đó đồng cấu chính tắc từ $M^G \otimes_A A'$ vào $M \otimes_A A'$ xác định một đẳng cấu từ $M^G \otimes_A A'$ lên môđun $(M \otimes_A A')^G$ gồm các phần tử của $M \otimes_A A'$ bất biến dưới $G$.
 
-Thật vậy, cho $ Q $ là phép chiếu của $ M $ lên $ M^G $ được xác định bởi $ Q(x) = q^{-1} \sum_{g \in G} g(x) $ với mọi $ x \in M $. Nếu $ i $ ký hiệu đơn ánh chính tắc của $ M^G $ vào $ M $, thì $ Q \circ i $ là ánh xạ đồng nhất của $ M^G $, nên $ (Q \otimes 1_{A'}) \circ (i \otimes 1_{A'}) $ là ánh xạ đồng nhất của $ M^G \otimes_A A' $. Vì $ Q \otimes 1_{A'} = q^{-1} \sum_{g \in G} (g \otimes 1_{A'}) $, ảnh của $ i \otimes 1_{A'} $ là $ (M \otimes A')^G $. Mặt khác, $ i \otimes 1_{A'} $ là đơn ánh theo điều đã được nói trước đó.
+Thật vậy, cho $Q$ là phép chiếu của $M$ lên $M^G$ được xác định bởi $Q(x) = q^{-1} \sum_{g \in G} g(x)$ với mọi $x \in M$. Nếu $i$ ký hiệu đơn ánh chính tắc của $M^G$ vào $M$, thì $Q \circ i$ là ánh xạ đồng nhất của $M^G$, nên $(Q \otimes 1_{A'}) \circ (i \otimes 1_{A'})$ là ánh xạ đồng nhất của $M^G \otimes_A A'$. Vì $Q \otimes 1_{A'} = q^{-1} \sum_{g \in G} (g \otimes 1_{A'})$, ảnh của $i \otimes 1_{A'}$ là $(M \otimes A')^G$. Mặt khác, $i \otimes 1_{A'}$ là đơn ánh theo điều đã được nói trước đó.
 
 #### Nhận xét {#lie-v-a0-n0-rem-1 .statement}
 
-Mệnh đề trước áp dụng đặc biệt khi $ A' $ là một $ A $-đại số. Trong trường hợp đó, $ M^G \otimes_A A' $ là một $ A' $-môđun con của $ M \otimes_A A' $.
+Mệnh đề trước áp dụng đặc biệt khi $A'$ là một $A$-đại số. Trong trường hợp đó, $M^G \otimes_A A'$ là một $A'$-môđun con của $M \otimes_A A'$.

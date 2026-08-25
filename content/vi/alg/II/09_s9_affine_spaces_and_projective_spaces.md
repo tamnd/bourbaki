@@ -57,9 +57,9 @@ subsections:
       pdf_page: 361
 statements: 12
 exercises: 6
-content_sha256: 52e572fe5a884b5a9f261bca524626851a8fe46b620eceef422c3867ecfb2b8b
+content_sha256: 6de671be9249f7114a8669ce1e0ec6e9a3458f947f3f1956bc9b4ecf8abb02e3
 translated_from: content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md
-source_content_sha256: e3465293943c05dcb209132b84aeaca7762277abbf514e5ef69a8e26ea9f9804
+source_content_sha256: e8f5479c926f36efd930209e9e33bd70d93806fd5c3cf7274d90e1ef224a7e56
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-57309ea3
 glossary_version: 34
@@ -75,15 +75,15 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 *Cho một không gian vectơ trái (resp. phải) T trên một trường K, một không gian affine gắn với T là bất kỳ không gian thuần nhất E của nhóm cộng T* (I, § 5, no. 5) *sao cho 0 là toán tử duy nhất trong T giữ bất biến mọi phần tử của E* (nghĩa là, T *tác động trung thành và bắc cầu trên E*). *Trong các điều kiện này, T được gọi là không gian tịnh tiến của E và các phần tử của nó được gọi là các phép tịnh tiến của E* (hay *các vectơ tự do của E*).
 
-Trong phần tiếp theo, ta sẽ chỉ xét trường hợp T là một không gian vectơ trái trên K. Chiều (trên K) của không gian vectơ tịnh tiến T của một không gian affine được gọi là *chiều* của E (trên K) và được ký hiệu bởi dim E hoặc $ \dim_K E $. Một không gian affine có chiều một (resp. hai) được gọi là một *đường thẳng affine* (resp. một *mặt phẳng affine*). Các phần tử của một không gian affine cũng được gọi là *điểm*.
+Trong phần tiếp theo, ta sẽ chỉ xét trường hợp T là một không gian vectơ trái trên K. Chiều (trên K) của không gian vectơ tịnh tiến T của một không gian affine được gọi là *chiều* của E (trên K) và được ký hiệu bởi dim E hoặc $\dim_K E$. Một không gian affine có chiều một (resp. hai) được gọi là một *đường thẳng affine* (resp. một *mặt phẳng affine*). Các phần tử của một không gian affine cũng được gọi là *điểm*.
 
-Dưới các điều kiện của Định nghĩa 1, với $ t \in T $ và $ a \in E $ ta sẽ ký hiệu bởi $ t + a $ hoặc $ a + t $ ảnh của điểm a dưới t. Khi đó các quan hệ
+Dưới các điều kiện của Định nghĩa 1, với $t \in T$ và $a \in E$ ta sẽ ký hiệu bởi $t + a$ hoặc $a + t$ ảnh của điểm a dưới t. Khi đó các quan hệ
 
 $$
 s + (t + a) = (s + t) + a, \quad 0 + a = a
 $$
 
-đúng với $ s \in T, t \in T, a \in E $. Ánh xạ $ x \mapsto x + t $ là một song ánh của E lên chính nó, và ta đồng nhất nó với t. Định nghĩa 1 hơn nữa suy ra rằng, với mọi $ a \in E $, ánh xạ $ t \mapsto t + a $ là một *song ánh* của T lên E. Nói cách khác, cho hai điểm $ a, b $ của E, tồn tại một và chỉ một phép tịnh tiến t sao cho $ b = t + a $; ta sẽ ký hiệu phép tịnh tiến này bởi $ b - a $; khi đó các công thức
+đúng với $s \in T, t \in T, a \in E$. Ánh xạ $x \mapsto x + t$ là một song ánh của E lên chính nó, và ta đồng nhất nó với t. Định nghĩa 1 hơn nữa suy ra rằng, với mọi $a \in E$, ánh xạ $t \mapsto t + a$ là một *song ánh* của T lên E. Nói cách khác, cho hai điểm $a, b$ của E, tồn tại một và chỉ một phép tịnh tiến t sao cho $b = t + a$; ta sẽ ký hiệu phép tịnh tiến này bởi $b - a$; khi đó các công thức
 
 $$
 a - a = 0, \quad a - b = -(b - a), \quad b = (b - a) + a
@@ -92,45 +92,45 @@ $$
 (c - b) + (b - a) = c - a
 $$
 
-đúng với $ a \in E, b \in E, c \in E $. Nếu bốn điểm $ a, b, a', b' $ của E sao cho $ b - a = b' - a' $, thì công thức
+đúng với $a \in E, b \in E, c \in E$. Nếu bốn điểm $a, b, a', b'$ của E sao cho $b - a = b' - a'$, thì công thức
 
 $$
 b' = (b' - b) + (b - a) + a = (b' - a') + (a' - a) + a
 $$
 
-và tính giao hoán của phép cộng trong T cho thấy rằng $ b' - b = a' - a $.
+và tính giao hoán của phép cộng trong T cho thấy rằng $b' - b = a' - a$.
 
-Cho một điểm $ a \in E $, ánh xạ $ x \mapsto x - a $ là một song ánh của $ E $ lên $ T $; khi E được đồng nhất với T qua ánh xạ này, ta nói rằng E được xem như không gian vectơ thu được *bằng cách lấy $ a $ làm gốc* trong $ E $. Ngược lại, mọi không gian vectơ T đều có một cách chính tắc cấu trúc của một không gian affine gắn với T, cụ thể là cấu trúc không gian thuần nhất tương ứng với nhóm con $ \{0\} $ của T (I, § 5, no. 6).
+Cho một điểm $a \in E$, ánh xạ $x \mapsto x - a$ là một song ánh của $E$ lên $T$; khi E được đồng nhất với T qua ánh xạ này, ta nói rằng E được xem như không gian vectơ thu được *bằng cách lấy $a$ làm gốc* trong $E$. Ngược lại, mọi không gian vectơ T đều có một cách chính tắc cấu trúc của một không gian affine gắn với T, cụ thể là cấu trúc không gian thuần nhất tương ứng với nhóm con $\{0\}$ của T (I, § 5, no. 6).
 
 #### Nhận xét {#alg-ii-s9-n1-rem-1 .statement}
 
-Các định nghĩa của số này và một số kết quả sau đây mở rộng ngay lập tức sang trường hợp, thay vì một không gian vectơ $ T $, ta xét một *nhóm giao hoán có toán tử* tùy ý $ T $.
+Các định nghĩa của số này và một số kết quả sau đây mở rộng ngay lập tức sang trường hợp, thay vì một không gian vectơ $T$, ta xét một *nhóm giao hoán có toán tử* tùy ý $T$.
 
 ### 2. PHÉP TÍNH TRỌNG TÂM
 
 #### Mệnh đề 1 {#alg-ii-s9-prop-1 .statement}
 
-*Cho* $ (x_i)_{i \in I} $ *là một họ các điểm trong một không gian affine* E *và* $ (\lambda_i)_{i \in L} $ *là một họ các phần tử của* K *có giá hữu hạn sao cho* $ \sum_{i \in I} \lambda_i = 1 $ *(*resp. $ \sum_{i \in I} \lambda_i = 0 $*). *Nếu* $ a $ *là một điểm bất kỳ của* E, *điểm* $ x \in E $ *được xác định bởi*
+*Cho* $(x_i)_{i \in I}$ *là một họ các điểm trong một không gian affine* E *và* $(\lambda_i)_{i \in L}$ *là một họ các phần tử của* K *có giá hữu hạn sao cho* $\sum_{i \in I} \lambda_i = 1$ *(*resp. $\sum_{i \in I} \lambda_i = 0$*). *Nếu* $a$ *là một điểm bất kỳ của* E, *điểm* $x \in E$ *được xác định bởi*
 $$
 x - a = \sum_{i \in I} \lambda_i (x_i - a)
 $$
-*(resp. vectơ tự do* $ \sum_{i \in I} \lambda_i (x_i - a) $) *không phụ thuộc vào điểm được xét.*
+*(resp. vectơ tự do* $\sum_{i \in I} \lambda_i (x_i - a)$) *không phụ thuộc vào điểm được xét.*
 
-Nếu $ a' $ là một điểm khác của E, thì
+Nếu $a'$ là một điểm khác của E, thì
 $$
 \sum_i \lambda_i (x_i - a') = \sum_i \lambda_i ((x_i - a) + (a - a')) = \sum_i \lambda_i (x - a) + \left( \sum_i \lambda_i \right) (a - a').
 $$
-Nếu $ \sum_i \lambda_i = 1 $, thì $ \sum_i \lambda_i (x_i - a) = (x - a) + (a - a') = x - a' $; nếu $ \sum_i \lambda_i = 0 $, thì $ \sum_i \lambda_i (x - a') = \sum_i \lambda_i (x - a) $; do đó mệnh đề.
+Nếu $\sum_i \lambda_i = 1$, thì $\sum_i \lambda_i (x_i - a) = (x - a) + (a - a') = x - a'$; nếu $\sum_i \lambda_i = 0$, thì $\sum_i \lambda_i (x - a') = \sum_i \lambda_i (x - a)$; do đó mệnh đề.
 
-Dưới các điều kiện của Mệnh đề 1, điểm $ x $ được xác định bởi
+Dưới các điều kiện của Mệnh đề 1, điểm $x$ được xác định bởi
 $$
 x - a = \sum_{i \in I} \lambda_i (x_i - a)
 $$
-*(resp. vectơ tự do* $ \sum_{i \in I} \lambda_i (x_i - a) $) *được ký hiệu bởi* $ \sum_{i \in I} \lambda_i x_i $.
+*(resp. vectơ tự do* $\sum_{i \in I} \lambda_i (x_i - a)$) *được ký hiệu bởi* $\sum_{i \in I} \lambda_i x_i$.
 
-Do đó, nói riêng, ký hiệu $ b - a $ được đưa vào ở no. 1 được khôi phục. Khi $ \sum_i \lambda_i = 1 $, điểm $ x = \sum_i \lambda_i x_i $ được gọi là *trọng tâm của các điểm* $ x_i $ *với các khối lượng* $ \lambda_i $.
+Do đó, nói riêng, ký hiệu $b - a$ được đưa vào ở no. 1 được khôi phục. Khi $\sum_i \lambda_i = 1$, điểm $x = \sum_i \lambda_i x_i$ được gọi là *trọng tâm của các điểm* $x_i$ *với các khối lượng* $\lambda_i$.
 
-Cho $ m $ điểm $ a_1, \ldots, a_m $ của $ E $, mà số $ m $ không là bội của đặc số của $ K $ (V, § 1), điểm $ g = \sum_{i=1}^m \frac{1}{m} a_i $ được gọi (theo một cách nói không chặt chẽ) là *trọng tâm của các điểm* $a_i$ ($1 \leq i \leq m$) (với $m = 2$, ta nói "trung điểm" thay vì "trọng tâm"); nó được đặc trưng bởi hệ thức
+Cho $m$ điểm $a_1, \ldots, a_m$ của $E$, mà số $m$ không là bội của đặc số của $K$ (V, § 1), điểm $g = \sum_{i=1}^m \frac{1}{m} a_i$ được gọi (theo một cách nói không chặt chẽ) là *trọng tâm của các điểm* $a_i$ ($1 \leq i \leq m$) (với $m = 2$, ta nói "trung điểm" thay vì "trọng tâm"); nó được đặc trưng bởi hệ thức
 $$
 \sum_{i=1}^m (a_i - g) = 0.
 $$
@@ -163,7 +163,7 @@ x - y = (x - a) - (y - a)
 $$
 và mệnh đề của ta suy ra từ Mệnh đề 2. Hiển nhiên $D$ tác động trung thành và bắc cầu lên $V$, do đó $V$ một cách chính tắc có cấu trúc của một *không gian afin gắn với* $D$. Theo *chiều* của đa tạp afin $V$, ta hiểu là chiều của $V$ với cấu trúc không gian afin này, tức là chiều của không gian vectơ $D$. Các đa tạp tuyến tính có chiều 0 là các điểm của $E$; các đa tạp có chiều 1 (tương ứng 2) được gọi là *đường thẳng* (tương ứng *mặt phẳng*) của $E$.
 
-Mọi vectơ $ \neq 0 $ thuộc phương của một đường thẳng được gọi là một *vectơ phương* của đường thẳng này; các thành phần của nó đối với một cơ sở của T tạo thành cái gọi là một hệ *tham số phương* của đường thẳng nói trên.
+Mọi vectơ $\neq 0$ thuộc phương của một đường thẳng được gọi là một *vectơ phương* của đường thẳng này; các thành phần của nó đối với một cơ sở của T tạo thành cái gọi là một hệ *tham số phương* của đường thẳng nói trên.
 
 *Đồng chiều* của một đa tạp tuyến tính V trong E là đồng chiều của phương D của nó trong T; một đa tạp tuyến tính có đồng chiều 1 trong E được gọi là một (afin) *siêu phẳng* của E.
 
@@ -276,153 +276,153 @@ do đó $u_2 = u_1$, $t_2 = u_1^{-1}t_1u_1$. Sau cùng, các ánh xạ tuyến t
 
 #### Định nghĩa 4 {#alg-ii-s9-def-4 .statement}
 
-Cho E, E' là hai không gian afin trên K. Ảnh trực tiếp (resp. ảnh nghịch đảo) của một không gian con afin của E (resp. E') dưới một ánh xạ afin u của E vào E' là một không gian con afin của E' (resp. E); hạng của u theo định nghĩa là chiều của u(E); nó bằng hạng của ánh xạ tuyến tính liên kết với u. Nếu V, V' là các không gian con afin cùng chiều hữu hạn m trong E, E' tương ứng, thì tồn tại một ánh xạ afin $ u $ của $ E $ vào $ E' $ sao cho $ u(V) = V' $: lấy làm gốc trong $ E $ và $ E' $ lần lượt các điểm của $ V $ và $ V' $, rồi lấy trong $ E $ (resp. $ E' $) một cơ sở mà $ m $ vectơ đầu tiên tạo thành một cơ sở của $ V $ (resp. $ V' $), mệnh đề suy ra ngay từ § 1, no. 11, Hệ quả 3 của Mệnh đề 17.
+Cho E, E' là hai không gian afin trên K. Ảnh trực tiếp (resp. ảnh nghịch đảo) của một không gian con afin của E (resp. E') dưới một ánh xạ afin u của E vào E' là một không gian con afin của E' (resp. E); hạng của u theo định nghĩa là chiều của u(E); nó bằng hạng của ánh xạ tuyến tính liên kết với u. Nếu V, V' là các không gian con afin cùng chiều hữu hạn m trong E, E' tương ứng, thì tồn tại một ánh xạ afin $u$ của $E$ vào $E'$ sao cho $u(V) = V'$: lấy làm gốc trong $E$ và $E'$ lần lượt các điểm của $V$ và $V'$, rồi lấy trong $E$ (resp. $E'$) một cơ sở mà $m$ vectơ đầu tiên tạo thành một cơ sở của $V$ (resp. $V'$), mệnh đề suy ra ngay từ § 1, no. 11, Hệ quả 3 của Mệnh đề 17.
 
-Vì trường $ K $ có một cách chính tắc cấu trúc không gian vectơ trái (có chiều 1) trên $ K $, nên nó có thể được xem như một không gian afin có chiều 1. Một ánh xạ afin của một không gian afin $ D $ (trên $ K $) vào không gian afin $ K $ cũng được gọi là một *hàm tuyến tính afin* (hoặc một *hàm afin*). Nếu một điểm $ a $ được lấy làm gốc trong $ E $, thì mọi hàm afin trên $ E $ khi đó có thể được viết duy nhất dưới dạng $ x \mapsto \alpha + v(x) $, trong đó $ \alpha \in K $ và $ v $ là một dạng tuyến tính trên không gian vectơ $ E $ thu được như vậy; vì thế các hàm afin trên $ E $ tạo thành một *không gian vectơ phải trên* $ K $ có chiều $ 1 + \dim E $. Nếu $ u $ là một hàm afin không hằng trên $ E $ và $ \lambda \in K $, thì tập các $ x \in E $ thỏa mãn phương trình $ u(x) = \lambda $ là một siêu phẳng; ngược lại, với mỗi siêu phẳng $ H $ trong $ E $, tồn tại một hàm afin $ u_0 $ trên $ E $ sao cho $ H = u_0^{-1}(0) $ và mọi hàm afin $ u $ sao cho $ H = u^{-1}(0) $ đều có dạng $ u_0 \mu $, với $ \mu \in K $ (\S 7, no. 5, Mệnh đề 11). Nếu $ u $ là một hàm afin trên $ E $, thì các siêu phẳng có phương trình $ u(x) = \alpha $ và $ u(x) = \beta $ là song song.
+Vì trường $K$ có một cách chính tắc cấu trúc không gian vectơ trái (có chiều 1) trên $K$, nên nó có thể được xem như một không gian afin có chiều 1. Một ánh xạ afin của một không gian afin $D$ (trên $K$) vào không gian afin $K$ cũng được gọi là một *hàm tuyến tính afin* (hoặc một *hàm afin*). Nếu một điểm $a$ được lấy làm gốc trong $E$, thì mọi hàm afin trên $E$ khi đó có thể được viết duy nhất dưới dạng $x \mapsto \alpha + v(x)$, trong đó $\alpha \in K$ và $v$ là một dạng tuyến tính trên không gian vectơ $E$ thu được như vậy; vì thế các hàm afin trên $E$ tạo thành một *không gian vectơ phải trên* $K$ có chiều $1 + \dim E$. Nếu $u$ là một hàm afin không hằng trên $E$ và $\lambda \in K$, thì tập các $x \in E$ thỏa mãn phương trình $u(x) = \lambda$ là một siêu phẳng; ngược lại, với mỗi siêu phẳng $H$ trong $E$, tồn tại một hàm afin $u_0$ trên $E$ sao cho $H = u_0^{-1}(0)$ và mọi hàm afin $u$ sao cho $H = u^{-1}(0)$ đều có dạng $u_0 \mu$, với $\mu \in K$ (\S 7, no. 5, Mệnh đề 11). Nếu $u$ là một hàm afin trên $E$, thì các siêu phẳng có phương trình $u(x) = \alpha$ và $u(x) = \beta$ là song song.
 
-*Cho một không gian vectơ trái (resp. phải)* $ V $ *trên một trường* $ K $, *không gian xạ ảnh trái (resp. phải) dẫn xuất từ* $ V $, *được ký hiệu bởi* $ \mathbf{P}(V) $, *là thương của phần bù* $ V - \{0\} $ *của* $ \{0\} $ *trong* $ V $ *theo quan hệ tương đương* $ \Delta(V) $ *"tồn tại* $ \lambda \neq 0 $ *trong* $ K $ *sao cho* $ y = \lambda x $ *(resp.* $ y = x \lambda$ )  *giữa* $ x $ *và* $ y $ *trong* $ V - \{0\} $.
+*Cho một không gian vectơ trái (resp. phải)* $V$ *trên một trường* $K$, *không gian xạ ảnh trái (resp. phải) dẫn xuất từ* $V$, *được ký hiệu bởi* $\mathbf{P}(V)$, *là thương của phần bù* $V - \{0\}$ *của* $\{0\}$ *trong* $V$ *theo quan hệ tương đương* $\Delta(V)$ *"tồn tại* $\lambda \neq 0$ *trong* $K$ *sao cho* $y = \lambda x$ *(resp.* $y = x \lambda$ )  *giữa* $x$ *và* $y$ *trong* $V - \{0\}$.
 
-Khi $ V = K_s^{n+1} $, ta cũng viết $ \mathbf{P}_n(K) $ thay cho $ \mathbf{P}(K_s^{n+1}) $ và $ \Delta_n(K) $ thay cho $ \Delta(V) $.
+Khi $V = K_s^{n+1}$, ta cũng viết $\mathbf{P}_n(K)$ thay cho $\mathbf{P}(K_s^{n+1})$ và $\Delta_n(K)$ thay cho $\Delta(V)$.
 
-Định nghĩa 4 cũng có thể được phát biểu bằng cách nói rằng $ \mathbf{P}(V) $ là tập hợp các đường thẳng (đi qua 0) trong $ V $ với gốc bị bỏ đi; do đó $ \mathbf{P}(V) $ được đồng nhất một cách chính tắc với tập hợp các đường thẳng (đi qua 0) trong $ V $. Các phần tử của một không gian xạ ảnh được gọi là *các điểm* của không gian đó.
+Định nghĩa 4 cũng có thể được phát biểu bằng cách nói rằng $\mathbf{P}(V)$ là tập hợp các đường thẳng (đi qua 0) trong $V$ với gốc bị bỏ đi; do đó $\mathbf{P}(V)$ được đồng nhất một cách chính tắc với tập hợp các đường thẳng (đi qua 0) trong $V$. Các phần tử của một không gian xạ ảnh được gọi là *các điểm* của không gian đó.
 
-Khi $ V $ có chiều $ n $, số nguyên $ n - 1 $ được gọi là *chiều* của không gian xạ ảnh $ \mathbf{P}(V) $ nếu $ n $ hữu hạn, và là lực lượng $ n $ trong trường hợp ngược lại; lực lượng này được ký hiệu bởi $ \dim_K \mathbf{P}(V) $ hoặc $ \dim \mathbf{P}(V) $. Vậy một không gian xạ ảnh có chiều $ -1 $ là rỗng và một không gian xạ ảnh có chiều 0 là một điểm duy nhất. Một không gian xạ ảnh có chiều 1 (resp. 2) được gọi là một *đường thẳng xạ ảnh* (resp. *mặt phẳng xạ ảnh*).
+Khi $V$ có chiều $n$, số nguyên $n - 1$ được gọi là *chiều* của không gian xạ ảnh $\mathbf{P}(V)$ nếu $n$ hữu hạn, và là lực lượng $n$ trong trường hợp ngược lại; lực lượng này được ký hiệu bởi $\dim_K \mathbf{P}(V)$ hoặc $\dim \mathbf{P}(V)$. Vậy một không gian xạ ảnh có chiều $-1$ là rỗng và một không gian xạ ảnh có chiều 0 là một điểm duy nhất. Một không gian xạ ảnh có chiều 1 (resp. 2) được gọi là một *đường thẳng xạ ảnh* (resp. *mặt phẳng xạ ảnh*).
 
 Từ đây trở đi, ta sẽ chỉ xét các không gian xạ ảnh trái.
 
 ### 6. TỌA ĐỘ THUẦN NHẤT
 
-Cho $ V $ là một không gian vectơ hữu hạn chiều $ n + 1 $ trên $ K $, $ \mathbf{P}(V) $ là không gian xạ ảnh có chiều $ n $ dẫn xuất từ $ V $ và $ (e_i)_{0 \leq i \leq n} $ là một cơ sở của $ V $. Ký hiệu $ \pi $ là ánh xạ chính tắc của $ V - \{0\} $ lên tập thương $ \mathbf{P}(V) $. Với mỗi điểm $ x = \sum_{i=0}^{n} \xi_i e_i $ của $ V - \{0\} $, $ (\xi_0, \xi_1, \ldots, \xi_n) $ được gọi là một *hệ tọa độ thuần nhất* của điểm $ \pi(x) $ đối với cơ sở $ (e_i) $ của $ V $. Vì vậy, mọi hệ $ (\xi_i) $ gồm $ n + 1 $ phần tử *không đồng thời bằng không* của $ K $ đều là một hệ tọa độ thuần nhất của một điểm của $ P(V) $ đối với $ (e_i) $; để hai hệ như thế $ (\xi_i) $, $ (\xi'_i) $ là các hệ tọa độ thuần nhất của cùng một điểm của $ P(V) $ đối với cùng một cơ sở $ (e_i) $, thì điều kiện cần và đủ là tồn tại một phần tử $ \lambda \neq 0 $ của $ K $ sao cho $ \xi'_i = \lambda \xi_i $ với $ 0 \leq i \leq n $.
+Cho $V$ là một không gian vectơ hữu hạn chiều $n + 1$ trên $K$, $\mathbf{P}(V)$ là không gian xạ ảnh có chiều $n$ dẫn xuất từ $V$ và $(e_i)_{0 \leq i \leq n}$ là một cơ sở của $V$. Ký hiệu $\pi$ là ánh xạ chính tắc của $V - \{0\}$ lên tập thương $\mathbf{P}(V)$. Với mỗi điểm $x = \sum_{i=0}^{n} \xi_i e_i$ của $V - \{0\}$, $(\xi_0, \xi_1, \ldots, \xi_n)$ được gọi là một *hệ tọa độ thuần nhất* của điểm $\pi(x)$ đối với cơ sở $(e_i)$ của $V$. Vì vậy, mọi hệ $(\xi_i)$ gồm $n + 1$ phần tử *không đồng thời bằng không* của $K$ đều là một hệ tọa độ thuần nhất của một điểm của $P(V)$ đối với $(e_i)$; để hai hệ như thế $(\xi_i)$, $(\xi'_i)$ là các hệ tọa độ thuần nhất của cùng một điểm của $P(V)$ đối với cùng một cơ sở $(e_i)$, thì điều kiện cần và đủ là tồn tại một phần tử $\lambda \neq 0$ của $K$ sao cho $\xi'_i = \lambda \xi_i$ với $0 \leq i \leq n$.
 
-Định nghĩa này được tổng quát hóa ngay lập tức cho trường hợp $ V $ là vô hạn chiều.
+Định nghĩa này được tổng quát hóa ngay lập tức cho trường hợp $V$ là vô hạn chiều.
 
-Cho một cơ sở khác $ (\tilde{e}_i) $ của $ V $ sao cho $ e_i = \sum_{j=0}^{n} \alpha_{ij} \tilde{e}_j $ ($ 0 \leq i \leq n $) và một hệ $ (\xi_i) $ tọa độ thuần nhất của $ \pi(x) $ đối với cơ sở $ (e_i) $, để một hệ $ (\bar{\xi}_i) $ gồm $ n + 1 $ phần tử của $ K $ là một hệ tọa độ thuần nhất của $ \pi(x) $ đối với cơ sở $ (\tilde{e}_i) $, điều kiện cần và đủ là tồn tại $ \lambda \neq 0 $ trong $ K $ sao cho
+Cho một cơ sở khác $(\tilde{e}_i)$ của $V$ sao cho $e_i = \sum_{j=0}^{n} \alpha_{ij} \tilde{e}_j$ ($0 \leq i \leq n$) và một hệ $(\xi_i)$ tọa độ thuần nhất của $\pi(x)$ đối với cơ sở $(e_i)$, để một hệ $(\bar{\xi}_i)$ gồm $n + 1$ phần tử của $K$ là một hệ tọa độ thuần nhất của $\pi(x)$ đối với cơ sở $(\tilde{e}_i)$, điều kiện cần và đủ là tồn tại $\lambda \neq 0$ trong $K$ sao cho
 
 $$
 \lambda \bar{\xi}_i = \sum_{j=0}^{n} \xi_j \alpha_{ji} \quad \text{for } 0 \leq i \leq n.
 $$
 
-Đặc biệt, nếu $ e_i = \gamma_i \tilde{e}_i $ với $ \gamma_i \neq 0 $ ($ 0 \leq i \leq n $), thì $ \bar{\xi}_i = \mu \xi_i \gamma_i $ với $ \mu \neq 0 $.
+Đặc biệt, nếu $e_i = \gamma_i \tilde{e}_i$ với $\gamma_i \neq 0$ ($0 \leq i \leq n$), thì $\bar{\xi}_i = \mu \xi_i \gamma_i$ với $\mu \neq 0$.
 
 ### 7. CÁC ĐA TẠP TUYẾN TÍNH XẠ ẢNH
 
-Cho $ W $ là một không gian con vectơ của một không gian vectơ $ V $; ảnh chính tắc của $ W - \{0\} $ trong không gian xạ ảnh $ P(V) $ dẫn xuất từ $ V $ được gọi là một *đa tạp tuyến tính xạ ảnh* (hoặc đơn giản là một *đa tạp tuyến tính* khi không sợ nhầm lẫn); vì quan hệ tương đương $ \Delta(W) $ trên $ W - \{0\} $ là cảm sinh bởi quan hệ $ \Delta(V) $, đa tạp tuyến tính xạ ảnh là ảnh của $ W - \{0\} $ trong $ P(V) $ có thể được đồng nhất với không gian xạ ảnh $ P(W) $ dẫn xuất từ $ W $ và do đó ta có thể nói về chiều của một đa tạp như vậy. Trong một không gian xạ ảnh $ P(V) $, ảnh chính tắc của một siêu phẳng (bỏ gốc) của $ V $ là một đa tạp tuyến tính được gọi là *siêu phẳng xạ ảnh* (hoặc đơn giản là *siêu phẳng*); nếu $ P(V) $ hữu hạn chiều $ n $ thì các siêu phẳng trong $ P(V) $ là các đa tạp tuyến tính có chiều $ n - 1 $.
+Cho $W$ là một không gian con vectơ của một không gian vectơ $V$; ảnh chính tắc của $W - \{0\}$ trong không gian xạ ảnh $P(V)$ dẫn xuất từ $V$ được gọi là một *đa tạp tuyến tính xạ ảnh* (hoặc đơn giản là một *đa tạp tuyến tính* khi không sợ nhầm lẫn); vì quan hệ tương đương $\Delta(W)$ trên $W - \{0\}$ là cảm sinh bởi quan hệ $\Delta(V)$, đa tạp tuyến tính xạ ảnh là ảnh của $W - \{0\}$ trong $P(V)$ có thể được đồng nhất với không gian xạ ảnh $P(W)$ dẫn xuất từ $W$ và do đó ta có thể nói về chiều của một đa tạp như vậy. Trong một không gian xạ ảnh $P(V)$, ảnh chính tắc của một siêu phẳng (bỏ gốc) của $V$ là một đa tạp tuyến tính được gọi là *siêu phẳng xạ ảnh* (hoặc đơn giản là *siêu phẳng*); nếu $P(V)$ hữu hạn chiều $n$ thì các siêu phẳng trong $P(V)$ là các đa tạp tuyến tính có chiều $n - 1$.
 
-Mọi mệnh đề về các không gian con vectơ của một không gian vectơ đều chuyển sang một mệnh đề về các đa tạp tuyến tính xạ ảnh. Chẳng hạn, nếu một không gian xạ ảnh $ P(V) $ có số chiều hữu hạn $ n $ và $ (e_i)_{0 \leq i \leq n} $ là một cơ sở của $ V $, thì mọi đa tạp tuyến tính $ L \subset P(V) $ có chiều $ r $ đều có thể được xác định bởi một hệ gồm $ n - r $ phương trình tuyến tính thuần nhất
+Mọi mệnh đề về các không gian con vectơ của một không gian vectơ đều chuyển sang một mệnh đề về các đa tạp tuyến tính xạ ảnh. Chẳng hạn, nếu một không gian xạ ảnh $P(V)$ có số chiều hữu hạn $n$ và $(e_i)_{0 \leq i \leq n}$ là một cơ sở của $V$, thì mọi đa tạp tuyến tính $L \subset P(V)$ có chiều $r$ đều có thể được xác định bởi một hệ gồm $n - r$ phương trình tuyến tính thuần nhất
 
 $$
 \sum_{i=0}^{n} \xi_i \alpha_{ij} = 0 \qquad (1 \leq j \leq n - r)
 $$
 
-giữa các tọa độ thuần nhất $ \xi_i $ ($ 0 \leq i \leq n $) của một điểm của $ \mathbf{P}(V) $ đối với cơ sở $ (e_i) $, trong đó các vế trái của (4) là các dạng tuyến tính độc lập trên V. Đặc biệt, một siêu phẳng xạ ảnh được xác định bởi một phương trình tuyến tính thuần nhất duy nhất với các hệ số không phải đều bằng không. Ngược lại, các điểm của $ \mathbf{P}(V) $ thỏa mãn một hệ tùy ý các phương trình tuyến tính thuần nhất theo các $ \xi_i $ tạo thành một đa tạp tuyến tính L; nếu hệ xét đến gồm $ k \leq n + 1 $ phương trình, thì L có chiều $ \geq n - k $.
+giữa các tọa độ thuần nhất $\xi_i$ ($0 \leq i \leq n$) của một điểm của $\mathbf{P}(V)$ đối với cơ sở $(e_i)$, trong đó các vế trái của (4) là các dạng tuyến tính độc lập trên V. Đặc biệt, một siêu phẳng xạ ảnh được xác định bởi một phương trình tuyến tính thuần nhất duy nhất với các hệ số không phải đều bằng không. Ngược lại, các điểm của $\mathbf{P}(V)$ thỏa mãn một hệ tùy ý các phương trình tuyến tính thuần nhất theo các $\xi_i$ tạo thành một đa tạp tuyến tính L; nếu hệ xét đến gồm $k \leq n + 1$ phương trình, thì L có chiều $\geq n - k$.
 
-Mọi giao của các đa tạp tuyến tính của $ \mathbf{P}(V) $ đều là một đa tạp tuyến tính; với mọi tập con A của $ \mathbf{P}(V) $, tồn tại một đa tạp tuyến tính nhỏ nhất L chứa A; nó được gọi là đa tạp tuyến tính *sinh bởi* A và A được gọi là một *hệ sinh* của L.
+Mọi giao của các đa tạp tuyến tính của $\mathbf{P}(V)$ đều là một đa tạp tuyến tính; với mọi tập con A của $\mathbf{P}(V)$, tồn tại một đa tạp tuyến tính nhỏ nhất L chứa A; nó được gọi là đa tạp tuyến tính *sinh bởi* A và A được gọi là một *hệ sinh* của L.
 
-Nếu W là không gian con vectơ của V được sinh bởi $ \pi^{-1}(A) $, thì $ L = \mathbf{P}(W) $.
+Nếu W là không gian con vectơ của V được sinh bởi $\pi^{-1}(A)$, thì $L = \mathbf{P}(W)$.
 
-Nếu L và M là bất kỳ hai đa tạp tuyến tính nào trong $ \mathbf{P}(V) $ và N là đa tạp được sinh bởi $ L \cup M $, thì (\$ 7, no. 3, Hệ quả 3 của Mệnh đề 4)
+Nếu L và M là bất kỳ hai đa tạp tuyến tính nào trong $\mathbf{P}(V)$ và N là đa tạp được sinh bởi $L \cup M$, thì (\$ 7, no. 3, Hệ quả 3 của Mệnh đề 4)
 
 $$
 \text{dim } L + \text{dim } M = \text{dim}(L \cap M) + \text{dim } N.
 $$
 
-Đặc biệt, nếu $ \mathbf{P}(V) $ hữu hạn chiều và $ \text{dim } L + \text{dim } M \geq \text{dim } \mathbf{P}(V) $, thì từ (5) suy ra $ L \cap M $ không rỗng.
+Đặc biệt, nếu $\mathbf{P}(V)$ hữu hạn chiều và $\text{dim } L + \text{dim } M \geq \text{dim } \mathbf{P}(V)$, thì từ (5) suy ra $L \cap M$ không rỗng.
 
-Cho $ (x_i), (y_i) $ là hai họ điểm trong không gian vectơ V với cùng một tập chỉ số, sao cho $ y_i = \lambda_i x_i $, với $ \lambda_i \neq 0 $ đối với mọi $ i $. Nếu họ $ (x_i) $ là tự do, thì họ $ (y_i) $ cũng tự do, và ngược lại; khi đó nói rằng họ điểm $ \pi(x_i) $ của $ \mathbf{P}(V) $ là *tự do xạ ảnh* (hoặc đơn giản là *tự do*). Điều đó tương đương với việc nói rằng với mọi chỉ số $ \kappa $, điểm $ \pi(x_\kappa) $ không thuộc vào đa tạp tuyến tính do các $ \pi(x_i) $ với $ i \neq \kappa $ sinh ra. Một họ điểm của $ \mathbf{P}(V) $ không tự do xạ ảnh được gọi là *liên quan xạ ảnh* (hoặc đơn giản là *liên quan*).
+Cho $(x_i), (y_i)$ là hai họ điểm trong không gian vectơ V với cùng một tập chỉ số, sao cho $y_i = \lambda_i x_i$, với $\lambda_i \neq 0$ đối với mọi $i$. Nếu họ $(x_i)$ là tự do, thì họ $(y_i)$ cũng tự do, và ngược lại; khi đó nói rằng họ điểm $\pi(x_i)$ của $\mathbf{P}(V)$ là *tự do xạ ảnh* (hoặc đơn giản là *tự do*). Điều đó tương đương với việc nói rằng với mọi chỉ số $\kappa$, điểm $\pi(x_\kappa)$ không thuộc vào đa tạp tuyến tính do các $\pi(x_i)$ với $i \neq \kappa$ sinh ra. Một họ điểm của $\mathbf{P}(V)$ không tự do xạ ảnh được gọi là *liên quan xạ ảnh* (hoặc đơn giản là *liên quan*).
 
-Để một họ $ (x_i) $ các điểm của $ V - \{0\} $ sao cho họ $ (\pi(x_i)) $ là tự do xạ ảnh và sinh ra $ \mathbf{P}(V) $, thì điều kiện cần và đủ là $ (x_i) $ là một cơ sở của V. Nếu $ \mathbf{P}(V) $ có chiều $ n $ thì số phần tử trong một họ như vậy do đó là $ n + 1 $. Chú ý rằng việc cho một họ như vậy $ (\pi(x_i)) $ trong $ \mathbf{P}(V) $ không xác định (ngay cả đến một thừa số trái) các tọa độ thuần nhất của một điểm cho trước của $ \mathbf{P}(V) $ đối với một cơ sở $ (y_i) $ của V sao cho $ \pi(y_i) = \pi(x_i) $ với mọi $ i $ (xem no. 6).
+Để một họ $(x_i)$ các điểm của $V - \{0\}$ sao cho họ $(\pi(x_i))$ là tự do xạ ảnh và sinh ra $\mathbf{P}(V)$, thì điều kiện cần và đủ là $(x_i)$ là một cơ sở của V. Nếu $\mathbf{P}(V)$ có chiều $n$ thì số phần tử trong một họ như vậy do đó là $n + 1$. Chú ý rằng việc cho một họ như vậy $(\pi(x_i))$ trong $\mathbf{P}(V)$ không xác định (ngay cả đến một thừa số trái) các tọa độ thuần nhất của một điểm cho trước của $\mathbf{P}(V)$ đối với một cơ sở $(y_i)$ của V sao cho $\pi(y_i) = \pi(x_i)$ với mọi $i$ (xem no. 6).
 
 ### 8. PHÉP HOÀN THIỆN XẠ ẢNH CỦA MỘT KHÔNG GIAN AFFINE
 
-Cho V là một không gian vectơ (trái) trên một trường K và xét không gian vectơ $ K_s \times V $ trên K; không gian xạ ảnh $ \mathbf{P}(K_s \times V) $ được gọi là không gian xạ ảnh *liên kết chính tắc* với không gian vectơ V. Nếu V có chiều $ n $, thì $ \mathbf{P}(K_s \times V) $ cũng có cùng chiều $ n $. Xét trong $ K_s \times V $ siêu phẳng affine $ V_1 = \{1\} \times V $, có phương (no. 3) là không gian con $ V_0 = \{0\} \times V $; nếu một đường thẳng (chuyển qua 0) của $ K_s \times V $ không được chứa trong $ V_0 $, thì nó chứa một điểm $ (\alpha, x) $ với $ \alpha \neq 0 $ và $ x \in V $, do đó nó cũng chứa điểm $ \alpha^{-1}(\alpha, x) = (1, \alpha^{-1}x) $ của $ V_1 $; điều ngược lại là hiển nhiên và thấy rằng có một tương ứng một-một giữa các điểm của $ V_1 $ và các đường thẳng (chuyển qua 0) của $ K_s \times V $ không được chứa trong $ V_0 $, mỗi đường thẳng sau cắt $ V_1 $ tại đúng một điểm. Suy ra rằng ánh xạ $ x \mapsto \phi(x) = \pi(1, x) $ là một đơn ánh (gọi là chính tắc) từ $ V $ vào không gian xạ ảnh $ P(K_s \times V) $; $ V $ thường được đồng nhất với ảnh của nó qua đơn ánh này. Phần bù của $ \phi(V) $ trong $ P(K_s \times V) $ là siêu phẳng xạ ảnh $ P(V_0) $ được gọi là siêu phẳng ở vô cực của $ P(K_s \times V) $ (hay của $ V $, theo lối nói quen); các điểm của nó cũng được gọi là "các điểm ở vô cực" của $ P(K_s \times V) $ (hay của $ V $). Nếu $ (a_i) $ là một cơ sở của $ V $ và trong $ K_s \times V $ lấy cơ sở gồm các phần tử $ e_i = (0, a_i) $ và phần tử $ e_\omega = (1, 0) $, thì các điểm ở vô cực trong $ P(K_s \times V) $ là những điểm có tọa độ thuần nhất chỉ số $ \omega $ bằng 0.
+Cho V là một không gian vectơ (trái) trên một trường K và xét không gian vectơ $K_s \times V$ trên K; không gian xạ ảnh $\mathbf{P}(K_s \times V)$ được gọi là không gian xạ ảnh *liên kết chính tắc* với không gian vectơ V. Nếu V có chiều $n$, thì $\mathbf{P}(K_s \times V)$ cũng có cùng chiều $n$. Xét trong $K_s \times V$ siêu phẳng affine $V_1 = \{1\} \times V$, có phương (no. 3) là không gian con $V_0 = \{0\} \times V$; nếu một đường thẳng (chuyển qua 0) của $K_s \times V$ không được chứa trong $V_0$, thì nó chứa một điểm $(\alpha, x)$ với $\alpha \neq 0$ và $x \in V$, do đó nó cũng chứa điểm $\alpha^{-1}(\alpha, x) = (1, \alpha^{-1}x)$ của $V_1$; điều ngược lại là hiển nhiên và thấy rằng có một tương ứng một-một giữa các điểm của $V_1$ và các đường thẳng (chuyển qua 0) của $K_s \times V$ không được chứa trong $V_0$, mỗi đường thẳng sau cắt $V_1$ tại đúng một điểm. Suy ra rằng ánh xạ $x \mapsto \phi(x) = \pi(1, x)$ là một đơn ánh (gọi là chính tắc) từ $V$ vào không gian xạ ảnh $P(K_s \times V)$; $V$ thường được đồng nhất với ảnh của nó qua đơn ánh này. Phần bù của $\phi(V)$ trong $P(K_s \times V)$ là siêu phẳng xạ ảnh $P(V_0)$ được gọi là siêu phẳng ở vô cực của $P(K_s \times V)$ (hay của $V$, theo lối nói quen); các điểm của nó cũng được gọi là "các điểm ở vô cực" của $P(K_s \times V)$ (hay của $V$). Nếu $(a_i)$ là một cơ sở của $V$ và trong $K_s \times V$ lấy cơ sở gồm các phần tử $e_i = (0, a_i)$ và phần tử $e_\omega = (1, 0)$, thì các điểm ở vô cực trong $P(K_s \times V)$ là những điểm có tọa độ thuần nhất chỉ số $\omega$ bằng 0.
 
-Cho $ M $ là một đa tạp tuyến tính afin trong $ V $ (no. 3) và $ D $ là phương của nó; ảnh chính tắc $ \phi(M) $ của $ M $ trong $ P(K_s \times V) $ được chứa trong ảnh chính tắc $ \overline{M} = \pi(M_2) $ của không gian con $ M_2 $ của $ K_s \times V $ sinh bởi đa tạp afin $ M_1 = \{1\} \times M $ của $ K_s \times V $. Chính xác hơn, nếu $ (a_i) $ là một hệ tự do afin của $ M $ sinh $ M $, thì các phần tử $ (1, a_i) $ lập thành một cơ sở của $ M_2 $ và do đó $ \overline{M} $ chỉ là đa tạp tuyến tính xạ ảnh sinh bởi $ \phi(M) $; nếu $ M $ hữu hạn chiều, thì $ \overline{M} $ có cùng chiều với $ M $. Phần bù của $ \phi(M) $ trong $ \overline{M} $ là giao của $ \overline{M} $ với siêu phẳng ở vô cực và bằng ảnh chính tắc $ \pi(M_0) $, trong đó $ M_0 = \{0\} \times D $.
+Cho $M$ là một đa tạp tuyến tính afin trong $V$ (no. 3) và $D$ là phương của nó; ảnh chính tắc $\phi(M)$ của $M$ trong $P(K_s \times V)$ được chứa trong ảnh chính tắc $\overline{M} = \pi(M_2)$ của không gian con $M_2$ của $K_s \times V$ sinh bởi đa tạp afin $M_1 = \{1\} \times M$ của $K_s \times V$. Chính xác hơn, nếu $(a_i)$ là một hệ tự do afin của $M$ sinh $M$, thì các phần tử $(1, a_i)$ lập thành một cơ sở của $M_2$ và do đó $\overline{M}$ chỉ là đa tạp tuyến tính xạ ảnh sinh bởi $\phi(M)$; nếu $M$ hữu hạn chiều, thì $\overline{M}$ có cùng chiều với $M$. Phần bù của $\phi(M)$ trong $\overline{M}$ là giao của $\overline{M}$ với siêu phẳng ở vô cực và bằng ảnh chính tắc $\pi(M_0)$, trong đó $M_0 = \{0\} \times D$.
 
-Ngược lại, cho $ N $ là một đa tạp tuyến tính xạ ảnh không được chứa trong siêu phẳng ở vô cực và đặt $ R = \pi^{-1}(N) $; $ R \cap V_1 $ là một đa tạp tuyến tính afin của $ K \times V $ có dạng $ \{1\} \times M $, trong đó $ M $ là một đa tạp tuyến tính afin của $ V $ và ta thấy ngay rằng $ N $ là đa tạp tuyến tính afin $ \overline{M} $ sinh bởi $ \phi(M) $.
+Ngược lại, cho $N$ là một đa tạp tuyến tính xạ ảnh không được chứa trong siêu phẳng ở vô cực và đặt $R = \pi^{-1}(N)$; $R \cap V_1$ là một đa tạp tuyến tính afin của $K \times V$ có dạng $\{1\} \times M$, trong đó $M$ là một đa tạp tuyến tính afin của $V$ và ta thấy ngay rằng $N$ là đa tạp tuyến tính afin $\overline{M}$ sinh bởi $\phi(M)$.
 
-Vì vậy có một sự tương ứng một-một giữa các đa tạp tuyến tính afin của $ V $ và các đa tạp tuyến tính xạ ảnh của $ P(K_s \times V) $ không được chứa trong siêu phẳng ở vô cực; để hai đa tạp tuyến tính afin của $ V $ song song với nhau, điều cần và đủ là các đa tạp tuyến tính xạ ảnh do chúng sinh ra có cùng giao với siêu phẳng ở vô cực (điều này đôi khi được nói bằng cách rằng hai đa tạp tuyến tính afin nói trên có cùng các điểm ở vô cực).
+Vì vậy có một sự tương ứng một-một giữa các đa tạp tuyến tính afin của $V$ và các đa tạp tuyến tính xạ ảnh của $P(K_s \times V)$ không được chứa trong siêu phẳng ở vô cực; để hai đa tạp tuyến tính afin của $V$ song song với nhau, điều cần và đủ là các đa tạp tuyến tính xạ ảnh do chúng sinh ra có cùng giao với siêu phẳng ở vô cực (điều này đôi khi được nói bằng cách rằng hai đa tạp tuyến tính afin nói trên có cùng các điểm ở vô cực).
 
 ### 9. MỞ RỘNG CÁC HÀM HỮU TỈ
 
-Nếu áp dụng các kết quả của no. 8 cho không gian vectơ $ V = K_s $ có chiều 1, ta thấy tồn tại một đơn ánh chính tắc $ \phi $ từ $ K_s $ vào đường thẳng xạ ảnh $ P_1(K) = P(K_s \times K_s) $; với mọi $ \xi \in K $, $ \phi(\xi) $ là điểm có tọa độ thuần nhất $ (1, \xi) $ đối với cơ sở chính tắc (\$ 1, no. 11) của $ K_s \times K_s $. Phần bù của $ \phi(K) $ trong $ P_1(K) $ chỉ gồm một điểm duy nhất có tọa độ thuần nhất $ (0, 1) $ đối với cơ sở nói trên; nó được gọi là "điểm ở vô cực". $ P_1(K) $ cũng còn được gọi là trường xạ ảnh liên kết với $ K $ và được ký hiệu bởi $ \tilde{K} $, điểm ở vô cực trong $ \tilde{K} $ được ký hiệu bởi $ \infty $.
+Nếu áp dụng các kết quả của no. 8 cho không gian vectơ $V = K_s$ có chiều 1, ta thấy tồn tại một đơn ánh chính tắc $\phi$ từ $K_s$ vào đường thẳng xạ ảnh $P_1(K) = P(K_s \times K_s)$; với mọi $\xi \in K$, $\phi(\xi)$ là điểm có tọa độ thuần nhất $(1, \xi)$ đối với cơ sở chính tắc (\$ 1, no. 11) của $K_s \times K_s$. Phần bù của $\phi(K)$ trong $P_1(K)$ chỉ gồm một điểm duy nhất có tọa độ thuần nhất $(0, 1)$ đối với cơ sở nói trên; nó được gọi là "điểm ở vô cực". $P_1(K)$ cũng còn được gọi là trường xạ ảnh liên kết với $K$ và được ký hiệu bởi $\tilde{K}$, điểm ở vô cực trong $\tilde{K}$ được ký hiệu bởi $\infty$.
 
-*Xét riêng trường hợp $ K $ là một trường giao hoán và cho f \in K(X) là một hàm hữu tỉ trên một ẩn với hệ số trong K (IV, § 4); nếu $ f \neq 0 $, ta có một biểu diễn duy nhất $ f = \alpha p/q $, trong đó $ \alpha \in K^* $ và $ p $ cùng $ q $ là hai đa thức đơn thức nguyên tố cùng nhau (VII, § 1); gọi $ m $ và $ n $ là các bậc tương ứng của chúng và đặt $ r = \sup(m, n) $. Ta viết
+*Xét riêng trường hợp $K$ là một trường giao hoán và cho f \in K(X) là một hàm hữu tỉ trên một ẩn với hệ số trong K (IV, § 4); nếu $f \neq 0$, ta có một biểu diễn duy nhất $f = \alpha p/q$, trong đó $\alpha \in K^*$ và $p$ cùng $q$ là hai đa thức đơn thức nguyên tố cùng nhau (VII, § 1); gọi $m$ và $n$ là các bậc tương ứng của chúng và đặt $r = \sup(m, n)$. Ta viết
 $$
 p_1(T, X) = T^r p(X/T), \qquad q_1(T, X) = T^r q(X/T);
 $$
-$ p_1 $ và $ q_1 $ là hai đa thức thuần nhất bậc $ r $ trên $ K $ sao cho $ p(X) = p_1(1, X) $, $ q(X) = q_1(1, X) $. Do đó, với mọi phần tử $ \xi \in K $ không là một nghiệm của $ q(X) $, $ f(\xi) = \alpha p(\xi)/q(\xi) $ được xác định và ta có thể viết
+$p_1$ và $q_1$ là hai đa thức thuần nhất bậc $r$ trên $K$ sao cho $p(X) = p_1(1, X)$, $q(X) = q_1(1, X)$. Do đó, với mọi phần tử $\xi \in K$ không là một nghiệm của $q(X)$, $f(\xi) = \alpha p(\xi)/q(\xi)$ được xác định và ta có thể viết
 $$
 f(\xi) = \alpha p_1(1, \xi)/q_1(1, \xi) = \alpha p_1(\lambda, \lambda \xi)/q_1(\lambda, \lambda \xi)
 $$
-với mọi $ \lambda \neq 0 $ trong $ K $. Khi đó xét ánh xạ
+với mọi $\lambda \neq 0$ trong $K$. Khi đó xét ánh xạ
 $$
 (\eta, \xi) \mapsto (q_1(\eta, \xi), p_1(\eta, \xi))
 $$
-từ $ K^2 $ vào chính nó; nó tương thích với quan hệ tương đương $ \Delta(K^2) $ và vì thế xác định, khi chuyển sang các thương, một ánh xạ $ \tilde{f} $ của $ \tilde{K} $ vào chính nó, trùng với $ \xi \mapsto f(\xi) $ tại các điểm mà hàm hữu tỉ này được xác định; người ta nói, theo lối nói lạm dụng, rằng $ \tilde{f} $ là mở rộng chính tắc của $ f $ lên $ \tilde{K} $.
+từ $K^2$ vào chính nó; nó tương thích với quan hệ tương đương $\Delta(K^2)$ và vì thế xác định, khi chuyển sang các thương, một ánh xạ $\tilde{f}$ của $\tilde{K}$ vào chính nó, trùng với $\xi \mapsto f(\xi)$ tại các điểm mà hàm hữu tỉ này được xác định; người ta nói, theo lối nói lạm dụng, rằng $\tilde{f}$ là mở rộng chính tắc của $f$ lên $\tilde{K}$.
 
-Chẳng hạn, nếu $ f = 1/X $, thì $ \tilde{f}(0) = \infty $ và $ \tilde{f}(\infty) = 0 $; nếu
+Chẳng hạn, nếu $f = 1/X$, thì $\tilde{f}(0) = \infty$ và $\tilde{f}(\infty) = 0$; nếu
 $$
 f = (aX + b)/(cX + d)
 $$
-với $ ad - bc \neq 0 $, thì $ \tilde{f}(-d/c) = \infty $, $ \tilde{f}(\infty) = a/c $ nếu $ c \neq 0 $, $ \tilde{f}(\infty) = \infty $ nếu $ c = 0 $. Nếu $ f = a_0 X^n + \cdots + a_n $ là một đa thức bậc $ n > 0 $, thì $ \tilde{f}(\infty) = \infty $*
+với $ad - bc \neq 0$, thì $\tilde{f}(-d/c) = \infty$, $\tilde{f}(\infty) = a/c$ nếu $c \neq 0$, $\tilde{f}(\infty) = \infty$ nếu $c = 0$. Nếu $f = a_0 X^n + \cdots + a_n$ là một đa thức bậc $n > 0$, thì $\tilde{f}(\infty) = \infty$*
 
 ### 10. CÁC ÁNH XẠ TUYẾN TÍNH XẠ ẢNH
 
-Cho $ V, V' $ là hai không gian vectơ trái trên một trường $ K $, $ f $ là một ánh xạ tuyến tính của $ V $ vào $ V' $ và $ N = \overline{f}(0) $ là hạt nhân của nó. Hiển nhiên rằng ảnh của một đường thẳng (đi qua $0$) trong $ V $ không được chứa trong $ N $ qua $ f $ là một đường thẳng (đi qua $0$) trong $ V' $; do đó, khi đi sang các thương, $ f $ xác định một ánh xạ $ g $ của $ P(V) - P(N) $ vào $ P(V') $. Một ánh xạ như vậy được gọi là một ánh xạ xạ ảnh tuyến tính (hay, nói ngắn gọn, một ánh xạ xạ ảnh); mặc dù nó được xác định trên $ P(V) - P(N) $ chứ không phải trên $ P(V) $ (khi $ N \neq \{0\} $), ta sẽ nói một cách lạm dụng ngôn ngữ rằng $ g $ là một ánh xạ xạ ảnh của $ P(V) $ vào $ P(V') $. Đa tạp xạ ảnh tuyến tính $ P(N) $, nơi $ g $ không được xác định, được gọi là tâm của $ g $.
+Cho $V, V'$ là hai không gian vectơ trái trên một trường $K$, $f$ là một ánh xạ tuyến tính của $V$ vào $V'$ và $N = \overline{f}(0)$ là hạt nhân của nó. Hiển nhiên rằng ảnh của một đường thẳng (đi qua $0$) trong $V$ không được chứa trong $N$ qua $f$ là một đường thẳng (đi qua $0$) trong $V'$; do đó, khi đi sang các thương, $f$ xác định một ánh xạ $g$ của $P(V) - P(N)$ vào $P(V')$. Một ánh xạ như vậy được gọi là một ánh xạ xạ ảnh tuyến tính (hay, nói ngắn gọn, một ánh xạ xạ ảnh); mặc dù nó được xác định trên $P(V) - P(N)$ chứ không phải trên $P(V)$ (khi $N \neq \{0\}$), ta sẽ nói một cách lạm dụng ngôn ngữ rằng $g$ là một ánh xạ xạ ảnh của $P(V)$ vào $P(V')$. Đa tạp xạ ảnh tuyến tính $P(N)$, nơi $g$ không được xác định, được gọi là tâm của $g$.
 
-Chú ý rằng, khi $ g $ được xác định trên toàn bộ $ P(V) $ (tức là khi $ N = \{0\} $), $ g $ là một đơn ánh của $ P(V) $ vào $ P(V') $.
+Chú ý rằng, khi $g$ được xác định trên toàn bộ $P(V)$ (tức là khi $N = \{0\}$), $g$ là một đơn ánh của $P(V)$ vào $P(V')$.
 
-Khi các cơ sở $ (a_\lambda)_{\lambda \in L}, (b_\mu)_{\mu \in M} $ được cho trong $ V $ và $ V' $ tương ứng, một ánh xạ xạ ảnh của $ P(V) $ vào $ P(V') $ gửi một điểm của $ P(V) $ có các tọa độ thuần nhất $ \xi_\lambda $ ($ \lambda \in L $) tới một điểm của $ \mathbf{P}(V') $ có một hệ tọa độ thuần nhất $ \eta_\mu $ ($ \mu \in M $) có dạng
+Khi các cơ sở $(a_\lambda)_{\lambda \in L}, (b_\mu)_{\mu \in M}$ được cho trong $V$ và $V'$ tương ứng, một ánh xạ xạ ảnh của $P(V)$ vào $P(V')$ gửi một điểm của $P(V)$ có các tọa độ thuần nhất $\xi_\lambda$ ($\lambda \in L$) tới một điểm của $\mathbf{P}(V')$ có một hệ tọa độ thuần nhất $\eta_\mu$ ($\mu \in M$) có dạng
 
 $$
 \eta_\mu = \sum_{\lambda \in L} \xi_\lambda \alpha_{\lambda \mu} \quad (\alpha_{\lambda \mu} \in K).
 $$
 
-Tâm của $ g $ là đa tạp tuyến tính được xác định bởi các phương trình
+Tâm của $g$ là đa tạp tuyến tính được xác định bởi các phương trình
 
 $$
 \sum_{\lambda \in L} \xi_\lambda \alpha_{\lambda \mu} = 0 \quad (\mu \in M).
 $$
 
-Nếu $ C $ là tâm của $ g $ và $ M $ là một đa tạp tuyến tính của $ \mathbf{P}(V) $, thì ảnh của $ M - (M \cap C) $ qua $ g $ là một đa tạp tuyến tính của $ \mathbf{P}(V') $ được ký hiệu (một cách lạm dụng ngôn ngữ) bởi $ g(M) $. Khi đó
+Nếu $C$ là tâm của $g$ và $M$ là một đa tạp tuyến tính của $\mathbf{P}(V)$, thì ảnh của $M - (M \cap C)$ qua $g$ là một đa tạp tuyến tính của $\mathbf{P}(V')$ được ký hiệu (một cách lạm dụng ngôn ngữ) bởi $g(M)$. Khi đó
 
 $$
 \dim g(M) + \dim(M \cap C) + 1 = \dim M
 $$
 
-(\S 7, no. 4, công thức (12)). Nếu $ M' $ là một đa tạp tuyến tính của $ \mathbf{P}(V') $, $ g^{-1}(M') \cup C $ là một đa tạp tuyến tính của $ \mathbf{P}(V) $ và
+(\S 7, no. 4, công thức (12)). Nếu $M'$ là một đa tạp tuyến tính của $\mathbf{P}(V')$, $g^{-1}(M') \cup C$ là một đa tạp tuyến tính của $\mathbf{P}(V)$ và
 
 $$
 \dim(g^{-1}(M') \cup C) = \dim C + \dim(M' \cap g(\mathbf{P}(V))) + 1.
 $$
 
-Người ta nói, một cách lạm dụng ngôn ngữ, rằng $ g^{-1}(M') \cup C $ là *ảnh ngược* của $ M' $ qua $ g $.
+Người ta nói, một cách lạm dụng ngôn ngữ, rằng $g^{-1}(M') \cup C$ là *ảnh ngược* của $M'$ qua $g$.
 
-As the values taken by a linear mapping on a basis $ (e_i) $ of $ V $ can be chosen arbitrarily in $ V' $, it is seen that there exists a projective linear mapping of $ \mathbf{P}(V) $ into $ \mathbf{P}(V') $ taking *các giá trị tùy ý* at the points $ \pi(e_i) $. But (even when $ g $ is everywhere defined) giving $ g(\pi(e_i)) $ does not determine $ g $ uniquely (Bài tập 10).
+As the values taken by a linear mapping on a basis $(e_i)$ of $V$ can be chosen arbitrarily in $V'$, it is seen that there exists a projective linear mapping of $\mathbf{P}(V)$ into $\mathbf{P}(V')$ taking *các giá trị tùy ý* at the points $\pi(e_i)$. But (even when $g$ is everywhere defined) giving $g(\pi(e_i))$ does not determine $g$ uniquely (Bài tập 10).
 
-The composition of two projective mappings which are bijections is a projective mapping; so is the inverse mapping of such a bijection. The bijective projective mappings of a projective space $ \mathbf{P}(V) $ onto itself thus form a group, called the *nhóm xạ ảnh* of $ \mathbf{P}(V) $ and denoted by $ \mathbf{PGL}(V) $; we write $ \mathbf{PGL}_n(K) $ or $ \mathbf{PGL}(n, K) $ instead of $ \mathbf{PGL}(K^n_s) $.
+The composition of two projective mappings which are bijections is a projective mapping; so is the inverse mapping of such a bijection. The bijective projective mappings of a projective space $\mathbf{P}(V)$ onto itself thus form a group, called the *nhóm xạ ảnh* of $\mathbf{P}(V)$ and denoted by $\mathbf{PGL}(V)$; we write $\mathbf{PGL}_n(K)$ or $\mathbf{PGL}(n, K)$ instead of $\mathbf{PGL}(K^n_s)$.
 
 #### Nhận xét {#alg-ii-s9-n10-rem-1 .statement}
 
-In a projective space $ \mathbf{P}(V) $ over a field $ K $, let $ H = \mathbf{P}(W) $ be a hyperplane. There exists a bijective linear mapping $ f $ of $ V $ onto $ K_s \times W $ such that $ f(W) = W $; let $ g $ be the projective mapping obtained from $ f $ by passing to the quotients. It has been seen (no. 8) that the complement of $ \mathbf{P}(W) $ in $ \mathbf{P}(K_s \times W) $ can be identified with an affine space whose translation space is $ W $. When $ \mathbf{P}(V) $ is identified with $ \mathbf{P}(K_s \times W) $ by means of $ g $, it is said that $ H $ *đã được lấy làm siêu phẳng ở vô cực* in $ \mathbf{P}(V) $; the complement of $ H $ in $ \mathbf{P}(V) $ is then identified with an affine space whose translation space is $ W $.
+In a projective space $\mathbf{P}(V)$ over a field $K$, let $H = \mathbf{P}(W)$ be a hyperplane. There exists a bijective linear mapping $f$ of $V$ onto $K_s \times W$ such that $f(W) = W$; let $g$ be the projective mapping obtained from $f$ by passing to the quotients. It has been seen (no. 8) that the complement of $\mathbf{P}(W)$ in $\mathbf{P}(K_s \times W)$ can be identified with an affine space whose translation space is $W$. When $\mathbf{P}(V)$ is identified with $\mathbf{P}(K_s \times W)$ by means of $g$, it is said that $H$ *đã được lấy làm siêu phẳng ở vô cực* in $\mathbf{P}(V)$; the complement of $H$ in $\mathbf{P}(V)$ is then identified with an affine space whose translation space is $W$.
 
 ### 11. CẤU TRÚC KHÔNG GIAN XẠ ẢNH
 
-Given a set E and a field K, a (left) projective space structure on E with respect to the field K is defined by giving a non-empty set $ \Phi $ of bijections of subsets of the projective space $ \mathbf{P}(K_s^{(E)}) $ onto E satisfying the following axioms:
+Given a set E and a field K, a (left) projective space structure on E with respect to the field K is defined by giving a non-empty set $\Phi$ of bijections of subsets of the projective space $\mathbf{P}(K_s^{(E)})$ onto E satisfying the following axioms:
 
-$$(\mathrm{EP}_I)$$ *Tập xác định của mọi ánh xạ $ f \in \Phi $ là một đa tạp tuyến tính của $ \mathbf{P}(K_s^{(E)}) $.*
+$$(\mathrm{EP}_I)$$ *Tập xác định của mọi ánh xạ $f \in \Phi$ là một đa tạp tuyến tính của $\mathbf{P}(K_s^{(E)})$.*
 
-$$(\mathrm{EP}_{II})$$ *Với mọi cặp có thứ tự các phần tử $ f, g $ của $ \Phi $ được xác định tương ứng trên các đa tạp tuyến tính $ \mathbf{P}(V) $ và $ \mathbf{P}(W) $, song ánh $ h = g^{-1} \circ f $ của $ \mathbf{P}(V) $ lên $ \mathbf{P}(W) $ là một ánh xạ xạ ảnh.*
+$$(\mathrm{EP}_{II})$$ *Với mọi cặp có thứ tự các phần tử $f, g$ của $\Phi$ được xác định tương ứng trên các đa tạp tuyến tính $\mathbf{P}(V)$ và $\mathbf{P}(W)$, song ánh $h = g^{-1} \circ f$ của $\mathbf{P}(V)$ lên $\mathbf{P}(W)$ là một ánh xạ xạ ảnh.*
 
-$$(\mathrm{EP}_{III})$$ *Ngược lại, nếu $ f \in \Phi $ được xác định trên đa tạp tuyến tính $ \mathbf{P}(V) $ và $ h $ là một ánh xạ xạ ảnh song ánh của $ \mathbf{P}(V) $ lên một đa tạp tuyến tính $ \mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)}) $, thì $ f \circ h^{-1} \in \Phi $.*
+$$(\mathrm{EP}_{III})$$ *Ngược lại, nếu $f \in \Phi$ được xác định trên đa tạp tuyến tính $\mathbf{P}(V)$ và $h$ là một ánh xạ xạ ảnh song ánh của $\mathbf{P}(V)$ lên một đa tạp tuyến tính $\mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)})$, thì $f \circ h^{-1} \in \Phi$.*
 
-Cho E là một tập hợp, $ (V_\lambda)_{\lambda \in L} $ là một họ các không gian vectơ trên K và giả sử, với mỗi $ \lambda \in L $, cho trước một song ánh $ f_\lambda $ từ $ \mathbf{P}(V_\lambda) $ lên E sao cho, với mọi cặp có thứ tự của các chỉ số $ \lambda, \mu $, $ f_\lambda^{-1} \circ f_\mu $ là một *ánh xạ xạ ảnh* từ $ \mathbf{P}(V_\mu) $ lên $ \mathbf{P}(V_\lambda) $. Khi đó ta có thể định nghĩa trên E một cấu trúc không gian xạ ảnh đối với K như sau: cho $ (e_i)_{i \in I} $ là một cơ sở của một không gian $ V_\lambda $ và viết $ a_i = f_\lambda(\pi(e_i)) $; cho $ b_i $ là phần tử có chỉ số $ a_i $ trong cơ sở chính tắc của $ K_s^{(E)} $ (\S 1, no. 11). Quan hệ $ i \neq \kappa $ kéo theo $ b_i \neq b_\kappa $ vì giả thiết rằng $ f_\lambda $ là song ánh; do đó các $ b_i $ lập thành một cơ sở của một không gian con vectơ $ W_0 $ của $ K_s^{(E)} $ và vì vậy tồn tại một ánh xạ xạ ảnh song ánh $ h $ từ $ \mathbf{P}(W_0) $ lên $ \mathbf{P}(V_\lambda) $ sao cho $ h(\pi(b_i)) = \pi(e_i) $ với mọi $ i \in I $. Nếu lấy $ \Phi $ là tập hợp tất cả các ánh xạ xạ ảnh song ánh $ f_\lambda \circ h \circ g^{-1} $, trong đó $ g $ chạy qua tập hợp tất cả các ánh xạ xạ ảnh song ánh $ \mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)}) $, thì ngay lập tức kiểm tra được rằng $ \Phi $ thỏa các tiên đề (EP_I), (EP_{II}) và (EP_{III}). Hơn nữa, ngay lập tức thấy rằng $ \Phi $ không phụ thuộc vào việc chọn chỉ số $ \lambda \in L $, cũng không phụ thuộc vào việc chọn cơ sở $ (e_i) $ trong $ V_\lambda $, cũng không phụ thuộc vào việc chọn $ h $.
+Cho E là một tập hợp, $(V_\lambda)_{\lambda \in L}$ là một họ các không gian vectơ trên K và giả sử, với mỗi $\lambda \in L$, cho trước một song ánh $f_\lambda$ từ $\mathbf{P}(V_\lambda)$ lên E sao cho, với mọi cặp có thứ tự của các chỉ số $\lambda, \mu$, $f_\lambda^{-1} \circ f_\mu$ là một *ánh xạ xạ ảnh* từ $\mathbf{P}(V_\mu)$ lên $\mathbf{P}(V_\lambda)$. Khi đó ta có thể định nghĩa trên E một cấu trúc không gian xạ ảnh đối với K như sau: cho $(e_i)_{i \in I}$ là một cơ sở của một không gian $V_\lambda$ và viết $a_i = f_\lambda(\pi(e_i))$; cho $b_i$ là phần tử có chỉ số $a_i$ trong cơ sở chính tắc của $K_s^{(E)}$ (\S 1, no. 11). Quan hệ $i \neq \kappa$ kéo theo $b_i \neq b_\kappa$ vì giả thiết rằng $f_\lambda$ là song ánh; do đó các $b_i$ lập thành một cơ sở của một không gian con vectơ $W_0$ của $K_s^{(E)}$ và vì vậy tồn tại một ánh xạ xạ ảnh song ánh $h$ từ $\mathbf{P}(W_0)$ lên $\mathbf{P}(V_\lambda)$ sao cho $h(\pi(b_i)) = \pi(e_i)$ với mọi $i \in I$. Nếu lấy $\Phi$ là tập hợp tất cả các ánh xạ xạ ảnh song ánh $f_\lambda \circ h \circ g^{-1}$, trong đó $g$ chạy qua tập hợp tất cả các ánh xạ xạ ảnh song ánh $\mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)})$, thì ngay lập tức kiểm tra được rằng $\Phi$ thỏa các tiên đề (EP_I), (EP_{II}) và (EP_{III}). Hơn nữa, ngay lập tức thấy rằng $\Phi$ không phụ thuộc vào việc chọn chỉ số $\lambda \in L$, cũng không phụ thuộc vào việc chọn cơ sở $(e_i)$ trong $V_\lambda$, cũng không phụ thuộc vào việc chọn $h$.
 
-Đặc biệt (lấy L chỉ gồm một phần tử), mọi không gian xạ ảnh $ \mathbf{P}(V) $ dẫn xuất từ một không gian vectơ V (no. 5, Định nghĩa 4) như vậy đều có một "cấu trúc không gian xạ ảnh" được xác định rõ theo nghĩa của định nghĩa đã cho trong số này. Do đó, mọi tập hợp có cấu trúc không gian xạ ảnh có thể được gọi là một *không gian xạ ảnh*.
+Đặc biệt (lấy L chỉ gồm một phần tử), mọi không gian xạ ảnh $\mathbf{P}(V)$ dẫn xuất từ một không gian vectơ V (no. 5, Định nghĩa 4) như vậy đều có một "cấu trúc không gian xạ ảnh" được xác định rõ theo nghĩa của định nghĩa đã cho trong số này. Do đó, mọi tập hợp có cấu trúc không gian xạ ảnh có thể được gọi là một *không gian xạ ảnh*.
 
-Với cùng ký hiệu, một *đa tạp tuyến tính* trong một không gian xạ ảnh E là một tập con M của E sao cho, với ít nhất *một* song ánh $ f \in \Phi $ xác định trên $ \mathbf{P}(V) \subset \mathbf{P}(K_s^{(E)}) $, $ f^{-1}(M) $ là một đa tạp tuyến tính trong $ \mathbf{P}(V) $ theo nghĩa của no. 7 (khi đó tính chất này đúng với *mọi* $ f \in \Phi $). Từ điều trên suy ra rằng mọi đa tạp tuyến tính trong một không gian xạ ảnh đều có một cách chính tắc cấu trúc không gian xạ ảnh.
+Với cùng ký hiệu, một *đa tạp tuyến tính* trong một không gian xạ ảnh E là một tập con M của E sao cho, với ít nhất *một* song ánh $f \in \Phi$ xác định trên $\mathbf{P}(V) \subset \mathbf{P}(K_s^{(E)})$, $f^{-1}(M)$ là một đa tạp tuyến tính trong $\mathbf{P}(V)$ theo nghĩa của no. 7 (khi đó tính chất này đúng với *mọi* $f \in \Phi$). Từ điều trên suy ra rằng mọi đa tạp tuyến tính trong một không gian xạ ảnh đều có một cách chính tắc cấu trúc không gian xạ ảnh.
 
-Một không gian xạ ảnh E được gọi là *có chiều n* nếu, với mọi $ f \in \Phi $, $ f^{-1}(E) $ là một đa tạp tuyến tính có chiều n (chỉ cần điều này đúng với *một* ánh xạ $ f \in \Phi $).
+Một không gian xạ ảnh E được gọi là *có chiều n* nếu, với mọi $f \in \Phi$, $f^{-1}(E)$ là một đa tạp tuyến tính có chiều n (chỉ cần điều này đúng với *một* ánh xạ $f \in \Phi$).
 
 ### Bài tập {#alg-ii-s9-exercises}
 

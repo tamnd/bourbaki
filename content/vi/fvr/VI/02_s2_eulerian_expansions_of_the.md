@@ -11,11 +11,11 @@ pdf_pages: 0298-0303, 0307-0311
 extraction: ocr
 subsections:
     - "no": 1
-      title: EULERIAN EXPANSION OF $ \cot z $
+      title: EULERIAN EXPANSION OF $\cot z$
       page: 0
       pdf_page: 298
     - "no": 2
-      title: EULERIAN EXPANSION OF $ \sin z $
+      title: EULERIAN EXPANSION OF $\sin z$
       page: 0
       pdf_page: 301
     - "no": 3
@@ -24,9 +24,9 @@ subsections:
       pdf_page: 302
 statements: 5
 exercises: 1
-content_sha256: 2622a21b2a42daa8fb9cbfd138a6197d5ea43e452c0153b0663993d5193defe2
+content_sha256: 992e31b9dca45758a4dd79e783bcd00dc6d4c610b019b6c64e8fcd3ca97188a8
 translated_from: content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md
-source_content_sha256: 0dad261156c428389028cbfb5e9f6e4e1b2a32c74de3d12c098e8bfd126ac99b
+source_content_sha256: 92a86873033ab5647903ff5650d9e5c47095c7b96eae3a0bda3888423a6612e5
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-4168b8cf
 glossary_version: 34
@@ -36,7 +36,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 2. KHAI TRIỂN EULER CỦA CÁC HÀM LƯỢNG GIÁC VÀ CÁC SỐ BERNOULLI
 
-### 1. KHAI TRIỂN EULER CỦA $ \cot z $
+### 1. KHAI TRIỂN EULER CỦA $\cot z$
 
 Theo công thức (20) của VI, p. 275, các số $b_n / n!$ là các hệ số trong khai triển của $S/(e^S - 1)$ thành một chuỗi *hình thức*; trong tiết này chúng ta sẽ chỉ ra rằng hàm $z/(e^z - 1)$ bằng tổng của một chuỗi nguyên chỉnh tuyệt đối hội tụ trên một lân cận của 0 trong $\mathbf{C}$; từ bổ đề ở VI, p. 280 sẽ suy ra rằng các hệ số của chuỗi này là các số $b_n / n!$, từ đó chúng ta sẽ suy ra các ước lượng đối với các số Bernoulli $b_n$.
 
@@ -108,7 +108,7 @@ $$
 \cot \left( z - \frac{k\pi}{n} \right) = \frac{1 + \tan z \tan \frac{k\pi}{n}}{\tan z - \tan \frac{k\pi}{n}}
 $$
 
-khi tan z hữu hạn; do đó cot $ nz $ là một hàm hữu tỉ theo $ u = \tan z $, mà tử số có bậc $ n - 1 $, và mẫu số, có bậc $ n $, có $ n $ nghiệm đơn $ \tan k\pi / n $; phân tích thành các phân thức đơn cho
+khi tan z hữu hạn; do đó cot $nz$ là một hàm hữu tỉ theo $u = \tan z$, mà tử số có bậc $n - 1$, và mẫu số, có bậc $n$, có $n$ nghiệm đơn $\tan k\pi / n$; phân tích thành các phân thức đơn cho
 
 $$
 \cot nz = \sum_{k=-m}^{m} \frac{A_k}{u - \tan \frac{k\pi}{n}}
@@ -123,39 +123,39 @@ $$
 = \lim_{h \to 0} \frac{\cos nh}{\cos \frac{k\pi}{n} \cos \left( h + \frac{k\pi}{n} \right)} \frac{\sin h}{\sin nh} = \frac{1}{n \cos^2 \frac{k\pi}{n}}
 $$
 
-do đó, khi tách riêng số hạng trong (6) tương ứng với $ k = 0 $ và gộp các số hạng tương ứng với các giá trị đối của $ k $, rồi thay thế $ z $ bởi $ z/n $,
+do đó, khi tách riêng số hạng trong (6) tương ứng với $k = 0$ và gộp các số hạng tương ứng với các giá trị đối của $k$, rồi thay thế $z$ bởi $z/n$,
 
 $$
 \cot z = \frac{1}{n \tan \frac{z}{n}} + \sum_{k=1}^{m} \frac{2n \tan \frac{z}{n}}{\cos^2 \frac{k\pi}{n} \left( n \tan \frac{z}{n} \right)^2 - \left( n \sin \frac{k\pi}{n} \right)^2}
 $$
 
-đúng với mọi số phức $ z $ không là một bội nguyên của $ \pi/2 $. Ta có thể viết công thức này dưới dạng
+đúng với mọi số phức $z$ không là một bội nguyên của $\pi/2$. Ta có thể viết công thức này dưới dạng
 
 $$
 \cot z = \frac{1}{n \tan \frac{z}{n}} + \sum_{k=1}^{\infty} v_k(n, z)
 $$
 
-với $ v_k(n, z) = 0 $ đối với $ k > m $ và
+với $v_k(n, z) = 0$ đối với $k > m$ và
 
 $$
 v_k(n, z) = \frac{2n \tan \frac{z}{n}}{\cos^2 \frac{k\pi}{n} \left( n \tan \frac{z}{n} \right)^2 - \left( n \sin \frac{k\pi}{n} \right)^2}
 $$
 
-đối với $ 1 \leq k \leq m $. Ta sẽ thấy rằng với mọi $ z $ được chứa trong một tập con compắc K của $ \mathbf{C} $, không chứa một bội nguyên nào của $ \pi $, và với mọi $ n $ lẻ đủ lớn, chuỗi có số hạng tổng quát $ v_k(n, z) $ là hội tụ chuẩn tắc. Thật vậy, khi $ n $ tiến tới $ +\infty $, $ \tan \frac{z}{n} $ tiến tới $ \frac{z}{n} $ đều trên K, nên tồn tại một số $ M > 0 $ sao cho $ \left| n \tan \frac{z}{n} \right| \leq M $ với mọi $ m $ đủ lớn và mọi $ z \in K $. Mặt khác, với $ 0 \leq x \leq \pi/2 $ ta có $ \sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2} $, nên với $ 1 \leq k \leq m $ ta có $ n \sin \frac{k\pi}{n} \geq k\pi/2 $; do đó, khi $ m $ đủ lớn, với mọi số nguyên $ k $ sao cho t $ k\pi /2 > M $ ta có $ |v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2} $, điều đó chứng minh mệnh đề của ta. Với $ k $ lẻ, $ v_k(n, z) $ tiến tới $ \frac{2z}{z^2 - k^2 \pi^2} $ (đều trên K) khi $ n $ tiến tới $ +\infty $. Do đó:
+đối với $1 \leq k \leq m$. Ta sẽ thấy rằng với mọi $z$ được chứa trong một tập con compắc K của $\mathbf{C}$, không chứa một bội nguyên nào của $\pi$, và với mọi $n$ lẻ đủ lớn, chuỗi có số hạng tổng quát $v_k(n, z)$ là hội tụ chuẩn tắc. Thật vậy, khi $n$ tiến tới $+\infty$, $\tan \frac{z}{n}$ tiến tới $\frac{z}{n}$ đều trên K, nên tồn tại một số $M > 0$ sao cho $\left| n \tan \frac{z}{n} \right| \leq M$ với mọi $m$ đủ lớn và mọi $z \in K$. Mặt khác, với $0 \leq x \leq \pi/2$ ta có $\sin x / x \geq 1 - \frac{x^2}{6} \geq \frac{1}{2}$, nên với $1 \leq k \leq m$ ta có $n \sin \frac{k\pi}{n} \geq k\pi/2$; do đó, khi $m$ đủ lớn, với mọi số nguyên $k$ sao cho t $k\pi /2 > M$ ta có $|v_k(n, z)| \leq \frac{8M}{k^2 \pi^2 - 4M^2}$, điều đó chứng minh mệnh đề của ta. Với $k$ lẻ, $v_k(n, z)$ tiến tới $\frac{2z}{z^2 - k^2 \pi^2}$ (đều trên K) khi $n$ tiến tới $+\infty$. Do đó:
 
 #### Định lý 1 {#fvr-vi-s2-thm-1 .statement}
 
-*Với mọi số phức $ z $ không phải là bội nguyên của $ \pi $ ta có*
+*Với mọi số phức $z$ không phải là bội nguyên của $\pi$ ta có*
 
 $$
 \cot z = \frac{1}{z} + \sum_{n=1}^{\infty} \frac{2z}{z^2 - n^2 \pi^2}
 $$
 
-*(chuỗi ở phải hội tụ chuẩn tắc trên mọi tập con compắc $ K \subset \mathbf{C} $ chứa bất kỳ bội số nguyên nào của $ \pi $ (khai triển Euler của $ \cot z $).)*
+*(chuỗi ở phải hội tụ chuẩn tắc trên mọi tập con compắc $K \subset \mathbf{C}$ chứa bất kỳ bội số nguyên nào của $\pi$ (khai triển Euler của $\cot z$).)*
 
-### 2. KHAI TRIỂN EULER CỦA $ \sin z $
+### 2. KHAI TRIỂN EULER CỦA $\sin z$
 
-Với mọi số nguyên *lẻ* $ n = 2m + 1 $ và mọi số phức $ z $, công thức (2) của VI, p. 283, có thể viết thành
+Với mọi số nguyên *lẻ* $n = 2m + 1$ và mọi số phức $z$, công thức (2) của VI, p. 283, có thể viết thành
 
 $$
 \sin nz = (-1)^m 2^{n-1} \prod_{k=-m}^{m} \sin \left( z - \frac{k\pi}{n} \right)
@@ -164,13 +164,13 @@ $$
 = (-1)^m 2^{n-1} \sin z \prod_{k=1}^{m} \sin \left( z - \frac{k\pi}{n} \right) \sin \left( z + \frac{k\pi}{n} \right).
 $$
 
-Mặt khác, ta có $ \sin \left( z - \frac{k\pi}{n} \right) \sin \left( z + \frac{k\pi}{n} \right) = \sin^2 z - \sin^2 \frac{k\pi}{n} $, và, theo (3) (VI, 284), $ \prod_{k=1}^{m} \sin^2 \frac{k\pi}{n} = \frac{n}{2^{n-1}} $, do đó, khi thay thế $ z $ bởi $ z/n $,
+Mặt khác, ta có $\sin \left( z - \frac{k\pi}{n} \right) \sin \left( z + \frac{k\pi}{n} \right) = \sin^2 z - \sin^2 \frac{k\pi}{n}$, và, theo (3) (VI, 284), $\prod_{k=1}^{m} \sin^2 \frac{k\pi}{n} = \frac{n}{2^{n-1}}$, do đó, khi thay thế $z$ bởi $z/n$,
 
 $$
 \sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} \left( 1 - \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}} \right).
 $$
 
-Ta có thể viết công thức này dưới dạng $ \sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z)) $, với $ w_k(n, z) = 0 $ nếu $ k > m $ và $ w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}} $ đối với $ 1 \leq k \leq m $. Ta sẽ thấy rằng với mọi $ z $ được chứa trong một tập con compắc $ K $ của $ \mathbf{C} $, và với $ n $ lẻ, chuỗi có số hạng tổng quát $ (n, z) $ là *hội tụ chuẩn tắc*. Thật vậy, khi $ n $ tiến tới $ +\infty $, $ n \sin \frac{z}{n} $ hội tụ đều trên $ K $, nên tồn tại một số $ M > 0 $ sao cho $ \left| n \sin \frac{z}{n} \right| \leq M $ với mọi số nguyên $ n $ và mọi $ z \in K $. Hơn nữa, trong chứng minh của đl. 1 của VI, p. 286, ta đã thấy rằng với $1 \leq k \leq m$ ta có $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$; do đó với mọi số nguyên $k$ sao cho $k \pi / 2 \geq M$ ta có $|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$, điều này chứng minh mệnh đề của ta. Vì, với mọi $k$ cố định, $w_k(n, z)$ tiến tới (đều trên K) $z^2 / k^2 \pi^2$ khi $n$ tiến tới $+\infty$, ta thấy rằng:
+Ta có thể viết công thức này dưới dạng $\sin z = n \sin \frac{z}{n} \prod_{k=1}^{m} (1 - w_k(n, z))$, với $w_k(n, z) = 0$ nếu $k > m$ và $w_k(n, z) = \frac{\sin^2 \frac{z}{n}}{\sin^2 \frac{k\pi}{n}}$ đối với $1 \leq k \leq m$. Ta sẽ thấy rằng với mọi $z$ được chứa trong một tập con compắc $K$ của $\mathbf{C}$, và với $n$ lẻ, chuỗi có số hạng tổng quát $(n, z)$ là *hội tụ chuẩn tắc*. Thật vậy, khi $n$ tiến tới $+\infty$, $n \sin \frac{z}{n}$ hội tụ đều trên $K$, nên tồn tại một số $M > 0$ sao cho $\left| n \sin \frac{z}{n} \right| \leq M$ với mọi số nguyên $n$ và mọi $z \in K$. Hơn nữa, trong chứng minh của đl. 1 của VI, p. 286, ta đã thấy rằng với $1 \leq k \leq m$ ta có $n \sin \frac{k \pi}{n} \geq \frac{k \pi}{2}$; do đó với mọi số nguyên $k$ sao cho $k \pi / 2 \geq M$ ta có $|w_k(n, z)| \leq 4M^2 / k^2 \pi^2$, điều này chứng minh mệnh đề của ta. Vì, với mọi $k$ cố định, $w_k(n, z)$ tiến tới (đều trên K) $z^2 / k^2 \pi^2$ khi $n$ tiến tới $+\infty$, ta thấy rằng:
 
 #### Định lý 2 {#fvr-vi-s2-thm-2 .statement}
 
@@ -216,7 +216,7 @@ $$
 b_{2n} = (-1)^{n-1} (2n)! \frac{2 S_{2n}}{(2\pi)^{2n}} \quad \text{với } n \geq 1,
 $$
 
-một công thức đặc biệt cho thấy rằng các số $ S_{2n}/\pi^{2n} $ là *hữu tỉ*. Rõ ràng $ S_{k+1} \leq S_k $ nên, với mọi số nguyên $ k \geq 2 $, ta có $ S_k \leq S_2 = \pi^2/6 \leq 2 $; từ (14) suy ra các bất đẳng thức sau đối với các số Bernoulli
+một công thức đặc biệt cho thấy rằng các số $S_{2n}/\pi^{2n}$ là *hữu tỉ*. Rõ ràng $S_{k+1} \leq S_k$ nên, với mọi số nguyên $k \geq 2$, ta có $S_k \leq S_2 = \pi^2/6 \leq 2$; từ (14) suy ra các bất đẳng thức sau đối với các số Bernoulli
 
 $$
 \frac{2 (2n)!}{(2\pi)^{2n}} \leq |b_{2n}| \leq 4 \frac{(2n)!}{(2\pi)^{2n}} \quad \text{với } n \geq 1.
@@ -244,7 +244,7 @@ $$
 \frac{1}{\sin z} = \frac{1}{z} + \sum_{n=1}^{\infty} (-1)^{n-1} 2 (2^{2n-1} - 1) b_{2n} \frac{z^{2n-1}}{(2n)!}
 $$
 
-ở đây các chuỗi ở các vế phải hội tụ tuyệt đối, chuỗi thứ nhất với $ |z| < \frac{\pi}{2} $ và chuỗi thứ hai với $ |z| < \pi $ (biểu thị $ \tan z $ và $ 1/\sin 2z $ dưới dạng các tổ hợp tuyến tính của $ \cot z $ và $ \cot 2z $). Suy ra rằng các số $ \frac{2^{2n}(2^{2n} - 1)}{2n} b_{2n} $ là các số nguyên. (Dùng bổ đề sau: trong hai chuỗi hội tụ tuyệt đối $ \sum_{n=0}^{\infty} \alpha_n \frac{z^n}{n!} $, $ \sum_{n=0}^{\infty} \beta_n \frac{z^n}{n!} $ các hệ số $ \alpha_n $ và $ \beta_n $ là các số nguyên, thì, trong tích của chúng viết dưới dạng $ \sum_{n=0}^{\infty} \gamma_n \frac{z^n}{n!} $, các $ \gamma_n $ là các số nguyên.)
+ở đây các chuỗi ở các vế phải hội tụ tuyệt đối, chuỗi thứ nhất với $|z| < \frac{\pi}{2}$ và chuỗi thứ hai với $|z| < \pi$ (biểu thị $\tan z$ và $1/\sin 2z$ dưới dạng các tổ hợp tuyến tính của $\cot z$ và $\cot 2z$). Suy ra rằng các số $\frac{2^{2n}(2^{2n} - 1)}{2n} b_{2n}$ là các số nguyên. (Dùng bổ đề sau: trong hai chuỗi hội tụ tuyệt đối $\sum_{n=0}^{\infty} \alpha_n \frac{z^n}{n!}$, $\sum_{n=0}^{\infty} \beta_n \frac{z^n}{n!}$ các hệ số $\alpha_n$ và $\beta_n$ là các số nguyên, thì, trong tích của chúng viết dưới dạng $\sum_{n=0}^{\infty} \gamma_n \frac{z^n}{n!}$, các $\gamma_n$ là các số nguyên.)
 
 Chứng minh công thức
 
@@ -252,7 +252,7 @@ $$
 (n-1)B_n(X) = n(X-1)B_{n-1}(X) - \sum_{k=0}^{n} \binom{n}{k} b_k B_{n-k}(X)
 $$
 
-lấy đạo hàm chuỗi $ S e^{SX}/(e^S - 1) $ theo S). Suy ra công thức
+lấy đạo hàm chuỗi $S e^{SX}/(e^S - 1)$ theo S). Suy ra công thức
 
 $$
 (2n+1)b_{2n} = - \sum_{k=1}^{n-1} \binom{2n}{2k} b_{2k} b_{2n-2k}
@@ -260,7 +260,7 @@ $$
 
 đối với các số Bernoulli.
 
-Hãy chứng minh rằng, với mọi số nguyên $ p > 1 $,
+Hãy chứng minh rằng, với mọi số nguyên $p > 1$,
 
 $$
 B_n \left( \frac{x}{p} \right) + B_n \left( \frac{x+1}{p} \right) + \cdots + B_n \left( \frac{x+p-1}{p} \right) = \frac{1}{p^{n-1}} B_n(X).
@@ -270,7 +270,7 @@ $$
 $$
 B_n(1 - X) = (-1)^n B_n(X)
 $$
-(dùng việc $ b_{2n-1} = 0 $ với $ n > 1 $, và hệ thức
+(dùng việc $b_{2n-1} = 0$ với $n > 1$, và hệ thức
 $$
 B_n(1 - X) - B_n(-X) = (-1)^n n X^{n-1}.
 $$)
@@ -281,36 +281,36 @@ B_n \left( \frac{1}{2} \right) = b_n \left( \frac{1}{2^n} - 1 \right)
 $$
 (dùng bài tập 3).
 
-c) Chứng minh rằng, với $ n $ chẵn, $ B_n(X) $ có hai nghiệm trong khoảng $[0, 1]$ của $ \mathbf{R} $, và rằng với $ n $ lẻ $ > 1 $, $ B_n(X) $ có một nghiệm đơn tại các điểm $ 0, \frac{1}{2} $ và $ 1 $ và không triệt tiêu tại điểm nào khác của $[0, 1]$ (dùng $ b $) và quan hệ $ B'_n = n \tilde{B}_{n-1} $).
+c) Chứng minh rằng, với $n$ chẵn, $B_n(X)$ có hai nghiệm trong khoảng $[0, 1]$ của $\mathbf{R}$, và rằng với $n$ lẻ $> 1$, $B_n(X)$ có một nghiệm đơn tại các điểm $0, \frac{1}{2}$ và $1$ và không triệt tiêu tại điểm nào khác của $[0, 1]$ (dùng $b$) và quan hệ $B'_n = n \tilde{B}_{n-1}$).
 
-d) Suy ra từ c) rằng, với $ n $ chẵn, giá trị lớn nhất của $ |B_n(x)| $ trên khoảng $[0, 1]$ là $ |b_n| $, và với $ n $ lẻ, nếu $ a_n $ là giá trị lớn nhất của $ |B_n(x)| $ trên $[0, 1]$, thì
+d) Suy ra từ c) rằng, với $n$ chẵn, giá trị lớn nhất của $|B_n(x)|$ trên khoảng $[0, 1]$ là $|b_n|$, và với $n$ lẻ, nếu $a_n$ là giá trị lớn nhất của $|B_n(x)|$ trên $[0, 1]$, thì
 $$
 \frac{4}{n+1} |b_{n+1}| \left( 1 - \frac{1}{2^n} \right) \leq a_n \leq \frac{1}{2} n |b_{n-1}|
 $$
 (dùng định lý giá trị trung bình).
 
-5) Nếu đặt $ S_n(x) = \frac{1}{n+1} (B_{n-1}(x) - B_{n+1}(0)) $ thì, với mọi số nguyên $ a > 0 $, ta có
+5) Nếu đặt $S_n(x) = \frac{1}{n+1} (B_{n-1}(x) - B_{n+1}(0))$ thì, với mọi số nguyên $a > 0$, ta có
 $$
 S_n(a) = 1^n + 2^n + \cdots + (a-1)^n.
 $$
 
-a) Chứng minh rằng với mọi số nguyên $ n \geq 0 $ và mọi số nguyên $ a > 0 $ ta có $ 2 S_{2n+1}(a) \equiv 0 $ (mod. $ a $) (xét tổng $ k^{2n+1} + (a-k)^{2n+1} $).
+a) Chứng minh rằng với mọi số nguyên $n \geq 0$ và mọi số nguyên $a > 0$ ta có $2 S_{2n+1}(a) \equiv 0$ (mod. $a$) (xét tổng $k^{2n+1} + (a-k)^{2n+1}$).
 
-b) Nếu $ r $ và $ s $ là hai số nguyên bất kỳ, hãy chứng minh rằng
+b) Nếu $r$ và $s$ là hai số nguyên bất kỳ, hãy chứng minh rằng
 $$
 S_n(rs) \equiv s S_n(r) + n r S_{n-1}(r) S_1(s) \pmod{r^2}.
 $$
 
-c) Cho $ p $ là một số nguyên tố. Chứng tỏ rằng nếu $ n $ chia hết cho $ p-1 $ thì ta có $ S_n(p) \equiv -1 $ (mod. $ p $), và nếu $ n $ không chia hết cho $ p-1 $ thì $ S_n(p) \equiv 0 $ (mod. $ p $) (nếu $ p $ không chia hết số nguyên $ g $ thì nhận xét rằng $ S_n(p) \equiv g^n S_n(p) $ (mod. $ p $)).
+c) Cho $p$ là một số nguyên tố. Chứng tỏ rằng nếu $n$ chia hết cho $p-1$ thì ta có $S_n(p) \equiv -1$ (mod. $p$), và nếu $n$ không chia hết cho $p-1$ thì $S_n(p) \equiv 0$ (mod. $p$) (nếu $p$ không chia hết số nguyên $g$ thì nhận xét rằng $S_n(p) \equiv g^n S_n(p)$ (mod. $p$)).
 
-6) a) Các số hữu tỉ $ b_n $ đã được xác định bởi công thức (20) của VI, p. 275, người ta ký hiệu bởi $ d_n $ mẫu số $ > 0 $ của $ b_n $ khi viết thành một phân số bất khả quy. Hãy chỉ ra rằng không có nhân tử nguyên tố nào của $ d_n $ có thể $ > n+1 $ (dùng công thức quy nạp (23) của VI, p. 276)
+6) a) Các số hữu tỉ $b_n$ đã được xác định bởi công thức (20) của VI, p. 275, người ta ký hiệu bởi $d_n$ mẫu số $> 0$ của $b_n$ khi viết thành một phân số bất khả quy. Hãy chỉ ra rằng không có nhân tử nguyên tố nào của $d_n$ có thể $> n+1$ (dùng công thức quy nạp (23) của VI, p. 276)
 
-b) Hãy chỉ ra rằng với mọi số nguyên $ p > 0 $ và mọi số nguyên $ n > 0 $
+b) Hãy chỉ ra rằng với mọi số nguyên $p > 0$ và mọi số nguyên $n > 0$
 $$
 S_n(p) = b_n p + \binom{n}{1} \frac{p}{2} b_{n-1} p + \cdots + \binom{n}{r} \frac{p'}{r+1} b_{n-r} p + \cdots + \frac{p^{n+1}}{n+1}.
 $$
 
-c) Suy ra từ b) bằng đệ quy theo $ n $ rằng, với mọi số nguyên tố $ p $ mẫu số của $ S_n(p) - b_n p $ khi viết thành một phân số bất khả quy, không chia hết cho $ p $ (chú ý rằng $ p' $ không thể chia hết cho $ r+1 $).
+c) Suy ra từ b) bằng đệ quy theo $n$ rằng, với mọi số nguyên tố $p$ mẫu số của $S_n(p) - b_n p$ khi viết thành một phân số bất khả quy, không chia hết cho $p$ (chú ý rằng $p'$ không thể chia hết cho $r+1$).
 
 Suy ra từ c) rằng số
 
@@ -318,22 +318,22 @@ $$
 b_n - \sum_p \frac{S_n(p)}{p}
 $$
 
-trong đó $ p $ chạy qua tập hợp các số nguyên tố $ p \leq n + 1 $ và $ n $ là chẵn, là một số nguyên. Suy ra rằng
+trong đó $p$ chạy qua tập hợp các số nguyên tố $p \leq n + 1$ và $n$ là chẵn, là một số nguyên. Suy ra rằng
 
 $$
 b_{2n} + \sum_p \frac{1}{p}
 $$
 
-trong đó $ p $ chạy qua tập hợp các số nguyên tố sao cho $ p - 1 $ chia hết $ 2n $, là một số nguyên (định lý Eisenstein-von Staudt; dùng bài tập 5 c).
+trong đó $p$ chạy qua tập hợp các số nguyên tố sao cho $p - 1$ chia hết $2n$, là một số nguyên (định lý Eisenstein-von Staudt; dùng bài tập 5 c).
 
-Ta thừa nhận rằng với mọi số nguyên $ a > 0 $ có vô hạn số nguyên tố trong tập hợp các số nguyên $ 1 + ma $ ($ m $ chạy qua tập hợp các số nguyên $ \geq 1 $; đây là một trường hợp riêng của định lý Dirichlet về các cấp số cộng).
+Ta thừa nhận rằng với mọi số nguyên $a > 0$ có vô hạn số nguyên tố trong tập hợp các số nguyên $1 + ma$ ($m$ chạy qua tập hợp các số nguyên $\geq 1$; đây là một trường hợp riêng của định lý Dirichlet về các cấp số cộng).
 
-Cho $ n $ là một số nguyên $ \geq 1 $, và cho $ s \geq 1 $ là một số nguyên sao cho $ q = 1 + (2n + 1)!s $ là nguyên tố; hãy chỉ ra rằng nếu $ p $ là một số nguyên tố sao cho $ p - 1 $ chia hết $ 2nq $ thì $ p - 1 $ phải chia hết $ 2n $ (trong trường hợp đối người ta sẽ có $ p - 1 = qd $ với $ d $ là một số nguyên, và $ p $ sẽ chia hết cho $ d + 1 $).
+Cho $n$ là một số nguyên $\geq 1$, và cho $s \geq 1$ là một số nguyên sao cho $q = 1 + (2n + 1)!s$ là nguyên tố; hãy chỉ ra rằng nếu $p$ là một số nguyên tố sao cho $p - 1$ chia hết $2nq$ thì $p - 1$ phải chia hết $2n$ (trong trường hợp đối người ta sẽ có $p - 1 = qd$ với $d$ là một số nguyên, và $p$ sẽ chia hết cho $d + 1$).
 
-Suy ra từ a) rằng với mọi số nguyên $ n > 0 $ đều tồn tại vô hạn số nguyên $ m > n $ sao cho $ b_{2m} - b_{2n} $ là một số nguyên.*
+Suy ra từ a) rằng với mọi số nguyên $n > 0$ đều tồn tại vô hạn số nguyên $m > n$ sao cho $b_{2m} - b_{2n}$ là một số nguyên.*
 
-Hãy chỉ ra rằng, với mọi số nguyên tố $ p > 3 $, $ S_{2n}(p^k) - p^k b_{2n} $, khi viết dưới dạng một phân số bất khả quy, có tử số chia được cho $ p^{2k} $ (lập luận như trong bài tập 6).
+Hãy chỉ ra rằng, với mọi số nguyên tố $p > 3$, $S_{2n}(p^k) - p^k b_{2n}$, khi viết dưới dạng một phân số bất khả quy, có tử số chia được cho $p^{2k}$ (lập luận như trong bài tập 6).
 
-Nói rằng một số hữu tỉ $ r $ là một số nguyên $ p $-adic (\emph{Gen. Top.}, III, p. 322, bài tập
+Nói rằng một số hữu tỉ $r$ là một số nguyên $p$-adic (\emph{Gen. Top.}, III, p. 322, bài tập
 
 Xem [các bài tập cho § 2](exercises/s2/).

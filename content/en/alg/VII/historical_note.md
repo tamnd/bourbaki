@@ -13,7 +13,7 @@ pdf_pages: 0432-0460
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5058d5ac2b28ead8636a280462879cbc09e58cf565584c18e65770383dc52022
+content_sha256: 0badcac98496c7f98609a5c39885b447949598116e8182f2d00bd1c60192a86d
 ---
 
 # HISTORICAL NOTE
@@ -26,11 +26,11 @@ Elementary arithmetical operations, in particular operations with fractions, ine
 
 « If as many numbers as we like are in a progression, beginning with 1, with constant ratio [i.e. geometric], and if the number following 1 is prime, then the
 
-\* If $ a_1 $ and $ a_2 $ are two integers, such that $ a_1 \geq a_2 $, one defines $ a_n $ (for $ n \geq 3 $) recursively as the remainder on dividing $ a_{n-2} $ by $ a_{n-1} $; if $ m $ is the smallest index such that $ a_m = 0 $, then $ a_1 $, $ a_2 $, is the gcd of $ a_1 $ and $ a_2 $. This is the transposition into the integers of the method of successive subtractions (sometimes also called ἀνθυφαιρεσις) for finding a common measure for two lengths. The latter no doubt goes back to the Pythagoreans, and seems to have been the basis of a pre-Eudoxean theory of irrational numbers.
+\* If $a_1$ and $a_2$ are two integers, such that $a_1 \geq a_2$, one defines $a_n$ (for $n \geq 3$) recursively as the remainder on dividing $a_{n-2}$ by $a_{n-1}$; if $m$ is the smallest index such that $a_m = 0$, then $a_1$, $a_2$, is the gcd of $a_1$ and $a_2$. This is the transposition into the integers of the method of successive subtractions (sometimes also called ἀνθυφαιρεσις) for finding a common measure for two lengths. The latter no doubt goes back to the Pythagoreans, and seems to have been the basis of a pre-Eudoxean theory of irrational numbers.
 
-largest number will not be divisible by any number except those appearing in the progression » (in other words, a power $ p^n $ of a prime number $ p $ can be divisible only by powers of $ p $ of exponent $ \leq n $).
+largest number will not be divisible by any number except those appearing in the progression » (in other words, a power $p^n$ of a prime number $p$ can be divisible only by powers of $p$ of exponent $\leq n$).
 
-« If a number is the smallest which is divisible by [given] prime numbers, it will not be divisible by any other prime number with the exception of those initially [given as] dividing it » (in other words, a product of distinct primes $ p_1, \ldots, p_k $ has no prime factor other than $ p_1, \ldots, p_k $).
+« If a number is the smallest which is divisible by [given] prime numbers, it will not be divisible by any other prime number with the exception of those initially [given as] dividing it » (in other words, a product of distinct primes $p_1, \ldots, p_k$ has no prime factor other than $p_1, \ldots, p_k$).
 
 Thus it seems that if Euclid does not state the general theorem, it is only for want of an adequate terminology and notation for arbitrary powers of an integer.*
 
@@ -61,19 +61,19 @@ But meanwhile, following its introduction by Gauss (cf. Historical Notes to Chap
 \* Gauss uses additive notation for the law of composition of classes, thus by « multiplication » he means the product of a class by an integer.
 ** Abel also proved this property en passant in his note on abelian equations ((IX), vol. I, pp. 494-497).
 
-Around the same period the theory of similarity of matrices (with real or complex entries) was also reaching completion. The notion of an eigenvalue of a linear transformation appeared explicitly in the theory of systems of linear differential equations with constant coefficients, applied by Lagrange (VIa) to the theory of small oscillations and by Lagrange (VIb) and Laplace (VIIa) to the « secular » perturbations of the planets. It is implicit in many other problems which were also attacked around the middle of the 18th century, such as that of finding the axes of a conic or a quadric (first solved by Euler (Va)), or the study (also developed by Euler (Vb)) of the principal axes of inertia of a solid body (discovered by De Segner in 1755); we know now that it is also involved (in a more disguised form) in the beginnings of the theory of partial differential equations, in particular the equation of a vibrating string. But (leaving this last case aside) the relationship between these various problems was barely recognised before Cauchy (X). Moreover, as most of them involve the use of symmetric matrices, it was principally because of the latter that eigenvalues were initially studied; we will return to this point in more detail in the Historical Notes following the chapters of this treatise devoted to hermitian operators; let us simply note here that, as early as 1826, Cauchy proved the invariance of the eigenvalues of such matrices under similarity, and proved that they are real for a $ 3 \times 3 $ symmetric matrix (Xa), a result which he generalised three years later (Xb) to arbitrary real symmetric matrices.* The general notion of a projection, introduced by Mobius in 1827, rapidly led to the problem of classifying such transformations (in 2 and 3 dimensions first of all), which is nothing other than the problem of classifying the corresponding matrices up to similarity; but for a long time this question was treated only by the « synthetic » methods which were in vogue in the mid 19th century, and its (in any case rather slow) progress does not seem to have affected the theory of eigenvalues in any way. The same is not true of another geometric question, the classification of « pencils » of conics or quadrics, which from the modern point of view amounts to the study of the elementary divisors of the matrix $ U + \lambda V $, where $ U $ and $ V $ are two symmetric matrices; it was certainly in this spirit that Sylvester attacked this problem in 1851, carefully examining (in order to find « canonical forms » for the pencil under consideration) what happens to the minors of the matrix $ U + \lambda V $ when a value for $ \lambda $ is substituted which annihilates the determinant (XIV). The purely algebraic aspect of the theory of eigenvalues was progressing simultaneously; so it was that several authors (including Sylvester himself) proved around 1850 that the eigenvalues of $ U^n $ are the n-th powers of the eigenvalues of $ U $, while Cayley
+Around the same period the theory of similarity of matrices (with real or complex entries) was also reaching completion. The notion of an eigenvalue of a linear transformation appeared explicitly in the theory of systems of linear differential equations with constant coefficients, applied by Lagrange (VIa) to the theory of small oscillations and by Lagrange (VIb) and Laplace (VIIa) to the « secular » perturbations of the planets. It is implicit in many other problems which were also attacked around the middle of the 18th century, such as that of finding the axes of a conic or a quadric (first solved by Euler (Va)), or the study (also developed by Euler (Vb)) of the principal axes of inertia of a solid body (discovered by De Segner in 1755); we know now that it is also involved (in a more disguised form) in the beginnings of the theory of partial differential equations, in particular the equation of a vibrating string. But (leaving this last case aside) the relationship between these various problems was barely recognised before Cauchy (X). Moreover, as most of them involve the use of symmetric matrices, it was principally because of the latter that eigenvalues were initially studied; we will return to this point in more detail in the Historical Notes following the chapters of this treatise devoted to hermitian operators; let us simply note here that, as early as 1826, Cauchy proved the invariance of the eigenvalues of such matrices under similarity, and proved that they are real for a $3 \times 3$ symmetric matrix (Xa), a result which he generalised three years later (Xb) to arbitrary real symmetric matrices.* The general notion of a projection, introduced by Mobius in 1827, rapidly led to the problem of classifying such transformations (in 2 and 3 dimensions first of all), which is nothing other than the problem of classifying the corresponding matrices up to similarity; but for a long time this question was treated only by the « synthetic » methods which were in vogue in the mid 19th century, and its (in any case rather slow) progress does not seem to have affected the theory of eigenvalues in any way. The same is not true of another geometric question, the classification of « pencils » of conics or quadrics, which from the modern point of view amounts to the study of the elementary divisors of the matrix $U + \lambda V$, where $U$ and $V$ are two symmetric matrices; it was certainly in this spirit that Sylvester attacked this problem in 1851, carefully examining (in order to find « canonical forms » for the pencil under consideration) what happens to the minors of the matrix $U + \lambda V$ when a value for $\lambda$ is substituted which annihilates the determinant (XIV). The purely algebraic aspect of the theory of eigenvalues was progressing simultaneously; so it was that several authors (including Sylvester himself) proved around 1850 that the eigenvalues of $U^n$ are the n-th powers of the eigenvalues of $U$, while Cayley
 
 \* An attempt to prove this result in the particular case of the « secular » perturbations of the planets had previously been made by Laplace (VIIb) in 1784. As for the third degree equation giving the axes of a real quadric, Euler had stated without proof that it has real roots, and an attempted proof by Lagrange in 1773 (VIe) was incomplete; this point was first proved rigourously by Hachette and Poisson in 1801 (Journal de l'École Polytechnique, cahier 11 (year X), pp. 170-172).
 
-announced in 1858, in the paper in which he introduced matrix arithmetic (XVI), the « Cayley-Hamilton Theorem » for an arbitrary square matrix *, though he contented himself with a direct proof for 2 x 2 and 3 x 3 matrices. Finally Weierstrass in 1868, using Sylvester's methods, obtained « canonical forms » for a « pencil » $ U + XV $ where this time $ U $ and V are square matrices, not necessarily symmetric, subject only to the condition that $ \det(U + XV) $ not be identically zero; he deduced from that the definition of the elementary divisors of an arbitrary square (complex) matrix, and proved that they characterise the latter up to similarity (XIX); these results, incidentally, were partially (and apparently independently) recovered by Jordan two years later ** (XXI). Here again it was Frobenius who showed in 1879 that Weierstrass' theorem can easily be deduced from Smith's theorem extended to polynomials ((XXII), § 13); his procedure is the basis of the proof of this theorem which we have given above (VII, p. 35).
+announced in 1858, in the paper in which he introduced matrix arithmetic (XVI), the « Cayley-Hamilton Theorem » for an arbitrary square matrix *, though he contented himself with a direct proof for 2 x 2 and 3 x 3 matrices. Finally Weierstrass in 1868, using Sylvester's methods, obtained « canonical forms » for a « pencil » $U + XV$ where this time $U$ and V are square matrices, not necessarily symmetric, subject only to the condition that $\det(U + XV)$ not be identically zero; he deduced from that the definition of the elementary divisors of an arbitrary square (complex) matrix, and proved that they characterise the latter up to similarity (XIX); these results, incidentally, were partially (and apparently independently) recovered by Jordan two years later ** (XXI). Here again it was Frobenius who showed in 1879 that Weierstrass' theorem can easily be deduced from Smith's theorem extended to polynomials ((XXII), § 13); his procedure is the basis of the proof of this theorem which we have given above (VII, p. 35).
 
-We have just referred to the theory of divisibility for polynomials in one variable; the question of division of polynomials must naturally have arisen in the earliest days of algebra, as the inverse operation to multiplication (the latter being known even to Diophantus, at least for polynomials of low degrees); but one can imagine that it is barely possible to attack this problem in a general fashion before a coherent notation for the various powers of the variable has been established. In fact we find very few examples of the « Euclidean » division procedure for polynomials, as we know it, before the middle of the 16th century ***; and S. Stevin (essentially, using exponent notation) seems to have been the first to have had the idea of deducing the extension of the « Euclidean algorithm » to find the gcd of two polynomials ((IV, vol. I, pp. 54-56). Apart from that, the theory of divisibility had been restricted to the rational integers until the mid 18th century. It was Euler in 1770 who began a new chapter in Arithmetic by somewhat rashly extending the notion of divisibility to the integers of a quadratic extension: seeking to determine the divisors of a number of the form $ x^2 + cy^2 $ (x, y and c rational integers), he put
+We have just referred to the theory of divisibility for polynomials in one variable; the question of division of polynomials must naturally have arisen in the earliest days of algebra, as the inverse operation to multiplication (the latter being known even to Diophantus, at least for polynomials of low degrees); but one can imagine that it is barely possible to attack this problem in a general fashion before a coherent notation for the various powers of the variable has been established. In fact we find very few examples of the « Euclidean » division procedure for polynomials, as we know it, before the middle of the 16th century ***; and S. Stevin (essentially, using exponent notation) seems to have been the first to have had the idea of deducing the extension of the « Euclidean algorithm » to find the gcd of two polynomials ((IV, vol. I, pp. 54-56). Apart from that, the theory of divisibility had been restricted to the rational integers until the mid 18th century. It was Euler in 1770 who began a new chapter in Arithmetic by somewhat rashly extending the notion of divisibility to the integers of a quadratic extension: seeking to determine the divisors of a number of the form $x^2 + cy^2$ (x, y and c rational integers), he put
 
 $$
 x - y \sqrt{-c} = (p + q \sqrt{-c})(r + s \sqrt{-c}) \quad (p, q, r, s \text{ rational integers})
 $$
 
-and, taking norms of each side, he had no hesitation in asserting that all the divisors of $ x^2 + cy^2 $ are obtained in this way as $ p^2 + cq^2 $ (Vc). In other words,
+and, taking norms of each side, he had no hesitation in asserting that all the divisors of $x^2 + cy^2$ are obtained in this way as $p^2 + cq^2$ (Vc). In other words,
 
 \* Hamilton, incidently, had proved this theorem for 3 x 3 matrices some years previously ((XV), pp. 566-567).
 
@@ -81,17 +81,17 @@ and, taking norms of each side, he had no hesitation in asserting that all the d
 
 *** Cf. for example H. Bosmans, Sur le « libro del Algebra » de Pedro Nuñez, Bibl. Math. (3), vol. VIII (1907-1908), pp. 154-169.
 
-Euler argued as if the ring $ \mathbf{Z}[\sqrt{-c}] $ were a principal ideal domain; a little later he used an analogous argument to apply the method of « infinite descent » to the equation $ x^3 + y^3 = z^3 $ (he reduced the problem to that of finding a cube root of $ p^2 + 3q^2 $, which he does by putting $ p + q \sqrt{-3} = (r + s \sqrt{-3})^3 $). But Lagrange proved as early as 1773 (VIc) that the divisors of numbers of the form $ x^2 + cy^2 $ are not all of this form, the first example of the fundamental difficulty which was to appear much more clearly in the studies of Gauss and his successors into divisibility in cyclotomic fields *; it is not possible, in general, to extend the essential properties of divisibility of rational integers, such as the existence of gcd's and the uniqueness of prime factorisation, directly to these fields. This is not the place to describe how Kummer, for cyclotomic fields (XII)**, and then Dedekind and Kronecker for arbitrary algebraic number fields, succeeded in overcoming this formidable obstacle by the invention of ideal theory, one of the most decisive advances of modern algebra. But Dedekind, ever curious about the foundations of various Mathematical theories, was not content with this success; and by analysing the mechanism of the divisibility relations he laid the foundations of the theory of lattice ordered groups, in a paper (unknown to his contemporaries, and lost in obscurity for 30 years) which is without doubt one of the earliest works of axiomatic Algebra (XXIV); modulo notation, his work was very close to the modern form of this theory, as we have presented it in Chap. VI, 91.
+Euler argued as if the ring $\mathbf{Z}[\sqrt{-c}]$ were a principal ideal domain; a little later he used an analogous argument to apply the method of « infinite descent » to the equation $x^3 + y^3 = z^3$ (he reduced the problem to that of finding a cube root of $p^2 + 3q^2$, which he does by putting $p + q \sqrt{-3} = (r + s \sqrt{-3})^3$). But Lagrange proved as early as 1773 (VIc) that the divisors of numbers of the form $x^2 + cy^2$ are not all of this form, the first example of the fundamental difficulty which was to appear much more clearly in the studies of Gauss and his successors into divisibility in cyclotomic fields *; it is not possible, in general, to extend the essential properties of divisibility of rational integers, such as the existence of gcd's and the uniqueness of prime factorisation, directly to these fields. This is not the place to describe how Kummer, for cyclotomic fields (XII)**, and then Dedekind and Kronecker for arbitrary algebraic number fields, succeeded in overcoming this formidable obstacle by the invention of ideal theory, one of the most decisive advances of modern algebra. But Dedekind, ever curious about the foundations of various Mathematical theories, was not content with this success; and by analysing the mechanism of the divisibility relations he laid the foundations of the theory of lattice ordered groups, in a paper (unknown to his contemporaries, and lost in obscurity for 30 years) which is without doubt one of the earliest works of axiomatic Algebra (XXIV); modulo notation, his work was very close to the modern form of this theory, as we have presented it in Chap. VI, 91.
 
-\* Gauss seems to have hoped at one time that the ring of integers in the field of n-th roots of unity would be a principal ideal domain; in a manuscript unpublished in his lifetime ((VIII), vol. II, pp. 387-397), he proves the existence of a Euclidean division process in the field of cube roots of unity, and gives some indications of an analogous process in the field of 5th roots of unity; he uses these results to prove by an « infinite descent » argument more correct than Euler’s that the equation $ x^3 + y^3 = z' $ has no solution in the field of cube roots of unity, indicates that one can extend the method to the equation $ x^5 + y^5 = z^5 $, but stops short of the equation $ x^7 + y^7 = z^7 $, saying that here it is impossible to reject apriori the case where x, y and z are not divisible by 7.
+\* Gauss seems to have hoped at one time that the ring of integers in the field of n-th roots of unity would be a principal ideal domain; in a manuscript unpublished in his lifetime ((VIII), vol. II, pp. 387-397), he proves the existence of a Euclidean division process in the field of cube roots of unity, and gives some indications of an analogous process in the field of 5th roots of unity; he uses these results to prove by an « infinite descent » argument more correct than Euler’s that the equation $x^3 + y^3 = z'$ has no solution in the field of cube roots of unity, indicates that one can extend the method to the equation $x^5 + y^5 = z^5$, but stops short of the equation $x^7 + y^7 = z^7$, saying that here it is impossible to reject apriori the case where x, y and z are not divisible by 7.
 
 ** In his earliest work on « ideal numbers », Kummer explicitly indicated the possibility of applying his method, not only to cyclotomic fields, but also to quadratic fields, and hence of recovering Gauss' results on binary quadratic forms ((XII), pp. 324-325).
 
-(Vd): for every polynomial $ f $ with real coefficients, he attempted to prove the existence of a factorisation $ f = f_1 f_2 $ into two (non constant) polynomials with *real* coefficients, which would give him a proof of the « fundamental theorem » by induction on the degree off. It even suffices, as he noticed, to stop at the first odd degree factor, and consequently all the difficulties are reduced to the consideration of the case where the degree $ n $ off is even. Euler then restricts himself to the case when the desired factors each have degree $ n/2 $, and he indicates that by a suitable process of elimination one can express the unknown coefficients of $ f_1 $ and $ f_2 $ as rational functions of a root of an equation with real coefficients, whose extreme terms have *opposite signs* and which consequently has at least one real root. But Euler's proof was only a sketch, and skipped over a number of essential points; it was not till *1772* that Lagrange succeeded in resolving the difficulties raised by this proof (*VIId*) by means of an extremely long and minute analysis, in which he demonstrated a remarkable virtuosity in the use of the « Galois methods » which he had recently created (cf. Historical Note to Chap. IV and V).
+(Vd): for every polynomial $f$ with real coefficients, he attempted to prove the existence of a factorisation $f = f_1 f_2$ into two (non constant) polynomials with *real* coefficients, which would give him a proof of the « fundamental theorem » by induction on the degree off. It even suffices, as he noticed, to stop at the first odd degree factor, and consequently all the difficulties are reduced to the consideration of the case where the degree $n$ off is even. Euler then restricts himself to the case when the desired factors each have degree $n/2$, and he indicates that by a suitable process of elimination one can express the unknown coefficients of $f_1$ and $f_2$ as rational functions of a root of an equation with real coefficients, whose extreme terms have *opposite signs* and which consequently has at least one real root. But Euler's proof was only a sketch, and skipped over a number of essential points; it was not till *1772* that Lagrange succeeded in resolving the difficulties raised by this proof (*VIId*) by means of an extremely long and minute analysis, in which he demonstrated a remarkable virtuosity in the use of the « Galois methods » which he had recently created (cf. Historical Note to Chap. IV and V).
 
 All the same, Lagrange, like Euler and all his contemporaries, had no hesitation in arguing formally within a « field of roots » of a polynomial (that is, in his language, to consider « imaginary roots » of this polynomial); the Mathematics of his period had provided no justification for this type of argument. Gauss, who was from the outset resolutely hostile to the unrestricted formalism of the 18th century, came out strongly against this abuse in his dissertation ((VIII), vol. *III*, p. 3). But it would have been unlike him not to have sensed that it was a case of a superficially faulty presentation of an argument which was intrinsically correct. We find him also, a few years later ((VIII), vol. *III*, p. 33; cf. also *(VIIIbis)*), taking up a simpler form of Euler's argument, which had been suggested in *1759* by Foncenex (who, however, had been unable to use it to any advantage), to obtain a new proof of the « fundamental theorem » in which he carefully avoids all mention of « imaginary » roots: the latter being replaced by skilful adjunction and specialisation of indeterminates. It is essentially this proof of Gauss that we have given in the text (VI, p. 26, Th. 3), with simplifications made possible by the use of algebraic extensions.
 
-The rôle of Topology in the « fundamental theorem » was thus reduced to the single theorem that a polynomial with real coefficients cannot change sign in an interval without having a zero (Bolzano's Theorem for polynomials). This theorem is also at the root of all the criteria for separation of the real roots of a polynomial (with real coefficients), which was one of the favourite Algebraic topics in the 19th century *. In the course of this research it becomes obvious that it is the order structure of $ \mathbf{R} $, much more than its topology, which plays the
+The rôle of Topology in the « fundamental theorem » was thus reduced to the single theorem that a polynomial with real coefficients cannot change sign in an interval without having a zero (Bolzano's Theorem for polynomials). This theorem is also at the root of all the criteria for separation of the real roots of a polynomial (with real coefficients), which was one of the favourite Algebraic topics in the 19th century *. In the course of this research it becomes obvious that it is the order structure of $\mathbf{R}$, much more than its topology, which plays the
 
 \* On these topics, which we will not discuss in the present work, the reader may consult for example J.-A. Serret, Cours d'Algèbre supérieure, 3rd ed., Paris (Gauthier-Villars), 1866, or B. L. van der Waerden, Moderne Algebra, vol. I (1st ed.), Berlin (Springer) 1930, pp. 223-235.
 
@@ -171,26 +171,26 @@ K[S]: V, p. 4.
 $S^{p^{-f}}, A^{p^{-\infty}}$: V, p. 5 and 6.
 [A : K]: V, p. 10.
 K(x_i), K(x), K(x_1, ..., x_n): V, p. 10.
-h(L), [A : K], $ \mathcal{H}(A) $: V, p. 31.
+h(L), [A : K], $\mathcal{H}(A)$: V, p. 31.
 E_s: V, p. 44.
 [E:K]_s, [E:K],: V, p. 31 and 46.
 N_{A/K}(x), \mathrm{Tr}_{A/K}(x), D_{A/K}(x_1, ..., x_n): V, p. 47.
 Gal(N/K): V, p. 58.
 k(\Delta), g(E): V, p. 67.
 K_{ab}: V, p. 77.
-$ \mu_m(K), \mu_\infty(K), \mathbf{Z}[1/p] $: V, p. 78.
-$ \mu_{l^\infty}(K) $: V, p. 79.
-$ \varphi(n) $: V, p. 79.
+$\mu_m(K), \mu_\infty(K), \mathbf{Z}[1/p]$: V, p. 78.
+$\mu_{l^\infty}(K)$: V, p. 79.
+$\varphi(n)$: V, p. 79.
 R_n(K), \Phi_n, \chi_n: V, p. 81.
 K(A^{1/n}), \langle \sigma, a \rangle: V, p. 88.
-$ \mathfrak{g}, K(\mathfrak{g}^{-1}(A)) $, [u, a]: V, p. 91.
+$\mathfrak{g}, K(\mathfrak{g}^{-1}(A))$, [u, a]: V, p. 91.
 F_q(\Omega), F_q: V, p. 95.
 Z_l, Z: V, p. 96.
-$ \sigma_q $: v, p. 97.
-$ \varphi_n $: V, p. 97.
+$\sigma_q$: v, p. 97.
+$\varphi_n$: V, p. 97.
 deg.tr_K E: V, p. 110.
 f^A: V, p. 127.
-$ \chi(f), f $ a linear mapping: V, p. 132.
+$\chi(f), f$ a linear mapping: V, p. 132.
 x|y, x|y: VI, p. 5.
 (x): VI, p. 6.
 x \equiv x' (\bmod y): VI, p. 6.
@@ -198,7 +198,7 @@ sup_F(x_i) (F a subset of an ordered set E): VI, p. 8.
 gcd(x_i), lcm(x_i): VI, p. 8.
 x^+, x^-, |x| (x an element of a lattice ordered group): VI, p. 12.
 sgn(x): VI, p. 20.
-$ \sqrt{a} $ (a an element $\geq 0$ of an ordered field) VI, p. 24.
+$\sqrt{a}$ (a an element $\geq 0$ of an ordered field) VI, p. 24.
 |z| (z an element of K(i). where K is an ordered field and i^2 = -1): VI, p. 27.
 GL+(E) (E an oriented vector space): VI, p. 29.
 M(\alpha), M_\alpha (M a module over A, \alpha \in A): VII, p. 7.
@@ -209,7 +209,7 @@ D(M) (M a module over a principal ideal domain A, N^0: VII, p. 25 to 27.
 c_M: M \to D(D(M)): VII, p. 26.
 M_u (M a module, u an endomorphism of M): VII, p. 28.
 V_\alpha (V a vector space, \alpha \in K): VII, p. 30.
-$ \chi_u, \chi_v $: VII, p. 30.
+$\chi_u, \chi_v$: VII, p. 30.
 U_{m,\alpha}: VII, p. 35.
 u_s, u_j (u an endomorphism): VII, p. 43 and 45.
 f_s, f_u (f an automorphism): VII, p. 46.
@@ -263,7 +263,7 @@ Compatible (preorder relation) with a commutative monoid structure : VI, p. 3.
 Complementary orientation : VI, p. 29.
 Composite extension : V, p. 12.
 Composition of series : IV, p. 97, Ex. 15.
-Conjugacy class in $ \Omega $ : V, p. 52.
+Conjugacy class in $\Omega$ : V, p. 52.
 Conjugate elements : V, p. 52 ;
 Conjugate extensions : V, p. 52.
 Constant polynomial, term : IV, p. 1.
@@ -286,7 +286,7 @@ Degree of an algebraic element : V, p. 16.
 Degree (total) of a polynomial : IV, p. 3.
 Degree (total) of a rational fraction : IV, p. 20.
 Degree (separable) of an extension : V, p. 31.
-Derivation (partial) in a p-radical extension of height $ \leq 1 $ : V, p. 103.
+Derivation (partial) in a p-radical extension of height $\leq 1$ : V, p. 103.
 Derivative (partial) of a formal power series : IV, p. 32.
 Derivative (partial) of a polynomial : IV, p. 6.
 Descartes'rule : VI, p. 42, Ex. 21.
@@ -631,7 +631,7 @@ CHAPTER V. — COMMUTATIVE FIELDS .................................. V.1
     1. Prime fields .................................................. V.1
     2. Characteristic of a ring and of a field ..................... V.2
     3. Commutative rings of characteristic p ....................... V.3
-    4. Perfect rings of characteristic $ p $ ....................... V.5
+    4. Perfect rings of characteristic $p$ ....................... V.5
     5. Characteristic exponent of a field. Perfect fields ........ V.7
     6. Characterization of polynomials with zero differential .. V.7
 
@@ -699,7 +699,7 @@ CHAPTER V. — COMMUTATIVE FIELDS .................................. V.1
 7. The fundamental theorem of Galois theory ............... V.67
 8. Change of base field ......................................... V.69
 9. The normal basis theorem .................................... V.72
-10. Finite $ \Gamma $-sets and etale algebras .................. V.75
+10. Finite $\Gamma$-sets and etale algebras .................. V.75
 11. The structure of quasi-Galois extensions ................. V.76
 
 § 11. Abelian extensions ........................................ V.77
@@ -709,7 +709,7 @@ CHAPTER V. — COMMUTATIVE FIELDS .................................. V.1
     4. Cyclotomic extensions .................................... V.81
     5. Irreducibility of cyclotomic polynomials ............... V.83
     6. Cyclic extensions ......................................... V.85
-    7. Duality of $ \mathbf{Z}/n\mathbf{Z} $-modules ............ V.86
+    7. Duality of $\mathbf{Z}/n\mathbf{Z}$-modules ............ V.86
     8. Kummer theory ........................................... V.88
     9. Artin-Schreier theory .................................... V.91
 
@@ -719,9 +719,9 @@ CHAPTER V. — COMMUTATIVE FIELDS .................................. V.1
     3. The Galois group of the algebraic closure of a finite field .................................................. V.96
     4. Cyclotomic polynomials over a finite field ............. V.97
 
-§ 13. $ p $-radical extensions of height $ \leq 1 $ .......... V.98
-    1. $ p $-free subsets and $ p $-bases ..................... V.98
-    2. Differentials and $ p $-bases .......................... V.100
+§ 13. $p$-radical extensions of height $\leq 1$ .......... V.98
+    1. $p$-free subsets and $p$-bases ..................... V.98
+    2. Differentials and $p$-bases .......................... V.100
     3. The Galois correspondence between subfields and Lie algebras of derivations ................................. V.104
 
 § 14. Transcendental extensions ................................ V.106
@@ -821,7 +821,7 @@ CHAPTER VII. — MODULES OVER PRINCIPAL IDEAL DOMAINS ........ VII.1
     1. Modules over a product of rings ................................. v11.6
     2. Canonical decomposition of a torsion module over a principal ideal domain ........................................... VII.7
     3. Applications : I. Canonical decompositions of rational numbers and of rational functions in one indeterminate .... VII.10
-    4. Applications : II. The multiplicative group of units of the integers modulo $ a $ ........................................... VII.12
+    4. Applications : II. The multiplicative group of units of the integers modulo $a$ ........................................... VII.12
 
 § 3. Free modules over a principal ideal domain .................... VII.14
 

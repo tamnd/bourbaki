@@ -12,12 +12,12 @@ pdf_pages: 0146-0148, 0176-0177
 extraction: ocr
 statements: 7
 exercises: 4
-content_sha256: dbe72fe42844e76b16c4733d97f80a7bdc97378d5a552921a91626f089aa4b8a
+content_sha256: 6d7889a2dba0d3d7d2821cdf0c44b5c828168682fe0eb790f3bbdba0bc419e5b
 ---
 
 ## § 2. ESPACES BORNOLOGIQUES
 
-Dans ce paragraphe, E désigne un espace localement convexe, et $ \mathcal{B} $ sa bornologie canonique (III, p. 3, déf. 5).
+Dans ce paragraphe, E désigne un espace localement convexe, et $\mathcal{B}$ sa bornologie canonique (III, p. 3, déf. 5).
 
 #### Lemme 1 {#evt-iii-s2-lem-1 .statement}
 
@@ -25,9 +25,9 @@ Soient G un espace semi-normé, p sa semi-norme, et soit u une application liné
 
 (i) u est continue ;
 (ii) l’image par u de la boule unité de G est bornée dans E ;
-(iii) pour toute suite $ (x_n) $ de points de G tendant vers 0, la suite $ (u(x_n)) $ est bornée dans E.
+(iii) pour toute suite $(x_n)$ de points de G tendant vers 0, la suite $(u(x_n))$ est bornée dans E.
 
-Il est immédiat que (i) entraîne (ii) (III, p. 4, cor. 1) et que (ii) entraîne (iii). Soit maintenant V un voisinage de 0 dans E ; si $ u^{-1}(V) $ n’est pas un voisinage de 0 dans G, il existe une suite $ (y_n) $ de points de G – $ u^{-1}(V) $ telle que $ p(y_n) \leqslant \frac{1}{n^2} $. Alors la suite des $ x_n = ny_n $ tend vers 0 dans G et $ u(x_n) \notin nV $, ce qui entraîne que la suite $ (u(x_n)) $ n’est pas bornée. Par suite (iii) entraîne (i).
+Il est immédiat que (i) entraîne (ii) (III, p. 4, cor. 1) et que (ii) entraîne (iii). Soit maintenant V un voisinage de 0 dans E ; si $u^{-1}(V)$ n’est pas un voisinage de 0 dans G, il existe une suite $(y_n)$ de points de G – $u^{-1}(V)$ telle que $p(y_n) \leqslant \frac{1}{n^2}$. Alors la suite des $x_n = ny_n$ tend vers 0 dans G et $u(x_n) \notin nV$, ce qui entraîne que la suite $(u(x_n))$ n’est pas bornée. Par suite (iii) entraîne (i).
 
 #### Proposition 1 {#evt-iii-s2-prop-1 .statement}
 
@@ -35,9 +35,9 @@ Les conditions suivantes sont équivalentes :
 
 (i) Toute semi-norme sur E qui est bornée sur les parties bornées de E est continue.
 (i bis) Toute partie convexe équilibrée de E qui absorbe les parties bornées de E (I, p. 7, déf. 4) est un voisinage de 0 dans E.
-(ii) E est limite inductive des espaces semi-normés $ E_A $ quand A décrit l’ensemble filtrant croissant des parties convexes, équilibrées, fermées et bornées de E.
-(ii bis) Il existe une famille $ (E_i)_{i \in I} $ d’espaces semi-normés et, pour chaque $ i \in I $, une application linéaire $ u_i : E_i \to E $ telles que la topologie de E soit la topologie localement convexe la plus fine rendant les $ u_i $ continues.
-(iii) Quel que soit l’espace localement convexe F, une application linéaire $ u : E \to F $ est continue si et seulement si pour toute suite $ (x_n) $ de points de E tendant vers 0, la suite $ (u(x_n)) $ est bornée dans F.
+(ii) E est limite inductive des espaces semi-normés $E_A$ quand A décrit l’ensemble filtrant croissant des parties convexes, équilibrées, fermées et bornées de E.
+(ii bis) Il existe une famille $(E_i)_{i \in I}$ d’espaces semi-normés et, pour chaque $i \in I$, une application linéaire $u_i : E_i \to E$ telles que la topologie de E soit la topologie localement convexe la plus fine rendant les $u_i$ continues.
+(iii) Quel que soit l’espace localement convexe F, une application linéaire $u : E \to F$ est continue si et seulement si pour toute suite $(x_n)$ de points de E tendant vers 0, la suite $(u(x_n))$ est bornée dans F.
 
 (iii bis) Quel que soit l’espace semi-normé F, une application linéaire u : E → F est continue si et seulement si u(X) est borné dans F pour tout ensemble X borné dans E.
 
@@ -69,7 +69,7 @@ En effet, les espaces E_A où A est borné et fermé sont alors des espaces de B
 
 Un espace localement convexe métrisable est bornologique.
 
-Supposons E métrisable, et soit p une semi-norme sur E, bornée sur les parties bornées de E. Supposons que p ne soit pas continue et soit A l’ensemble des x ∈ E tels que p(x) < 1. Soit (V_n)_{n \geq 1} une suite décroissante formant un système fondamental de voisinages de 0 dans E. Comme p n’est pas continue, A n’est pas un voisinage de 0 ; pour tout $ n > 0 $, on a donc $ A \not\supseteq n^{-1}V_n $ et il existe un point $ x_n $ de $ V_n $ tel que $ n^{-1}x_n \notin A $, c’est-à-dire $ p(x_n) \geq n $. La suite $ (x_n) $ tend vers 0, donc est bornée (III, p. 3, corollaire) ; ceci contredit l’hypothèse sur $ p $.
+Supposons E métrisable, et soit p une semi-norme sur E, bornée sur les parties bornées de E. Supposons que p ne soit pas continue et soit A l’ensemble des x ∈ E tels que p(x) < 1. Soit (V_n)_{n \geq 1} une suite décroissante formant un système fondamental de voisinages de 0 dans E. Comme p n’est pas continue, A n’est pas un voisinage de 0 ; pour tout $n > 0$, on a donc $A \not\supseteq n^{-1}V_n$ et il existe un point $x_n$ de $V_n$ tel que $n^{-1}x_n \notin A$, c’est-à-dire $p(x_n) \geq n$. La suite $(x_n)$ tend vers 0, donc est bornée (III, p. 3, corollaire) ; ceci contredit l’hypothèse sur $p$.
 
 #### Corollaire {#evt-iii-s2-n0-cor-2 .statement}
 

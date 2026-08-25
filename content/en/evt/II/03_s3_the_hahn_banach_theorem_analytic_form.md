@@ -21,7 +21,7 @@ subsections:
       pdf_page: 59
 statements: 6
 exercises: 8
-content_sha256: 0aea7a7a7c11a906853b8b153e32f9152738a2304edacc86af18cebd51c10233
+content_sha256: a5147d86c2ae43411a7a8933f6c307748cadd54639ce8c502a03286da01e0e92
 ---
 
 ## § 3. THE HAHN-BANACH THEOREM (ANALYTIC FORM)
@@ -30,7 +30,7 @@ content_sha256: 0aea7a7a7c11a906853b8b153e32f9152738a2304edacc86af18cebd51c10233
 
 #### Proposition 1 {#evt-ii-s3-prop-1 .statement}
 
-— Let E be a preordered vector space and V be a vector subspace of E such that every element of E is bounded above by an element of V. Given a linear form f on V that is positive for the preordered vector space structure of V (induced by that of E) there exists a non-empty set $ S_f $ of positive linear forms on E, each being an extension of f. If $ h \in S_f $ then the values $ h(a) $ for $ a \in E $ lie in the interval $ [\alpha', \alpha''] $, where
+— Let E be a preordered vector space and V be a vector subspace of E such that every element of E is bounded above by an element of V. Given a linear form f on V that is positive for the preordered vector space structure of V (induced by that of E) there exists a non-empty set $S_f$ of positive linear forms on E, each being an extension of f. If $h \in S_f$ then the values $h(a)$ for $a \in E$ lie in the interval $[\alpha', \alpha'']$, where
 
 $$
 \alpha' = \sup_{z \in V, z \leq a} f(z), \quad \alpha'' = \inf_{y \in V, y \geq a} f(y).
@@ -38,13 +38,13 @@ $$
 
 I. Special case.
 
-Suppose firstly that $ E = V + \mathbf{R}a $. Since the proposition is trivial if $ a \in V $, we confine ourselves to the case $ a \notin V $. The conditions on V imply that the set $ A'' $ of $ y \in V $ such that $ a \leq y $ is not empty; similarly the set $ A' $ of $ z \in V $ such that $ -z \geq -a $ (\emph{i.e.} $ z \leq a $) is not empty. For $ y \in A'' $ and $ z \in A' $, we have $ z \leq a \leq y $, and thus by hypothesis $ f(z) \leq f(y) $. Thus $ \alpha', \alpha'' $ are finite and $ \alpha' \leq \alpha'' $. Any linear form $ f_1 $ on E that extends $ f $ is completely determined by $ f_1(a) $ and for all $ \lambda \in \mathbf{R} $ and all $ x \in V $, we have
+Suppose firstly that $E = V + \mathbf{R}a$. Since the proposition is trivial if $a \in V$, we confine ourselves to the case $a \notin V$. The conditions on V imply that the set $A''$ of $y \in V$ such that $a \leq y$ is not empty; similarly the set $A'$ of $z \in V$ such that $-z \geq -a$ (\emph{i.e.} $z \leq a$) is not empty. For $y \in A''$ and $z \in A'$, we have $z \leq a \leq y$, and thus by hypothesis $f(z) \leq f(y)$. Thus $\alpha', \alpha''$ are finite and $\alpha' \leq \alpha''$. Any linear form $f_1$ on E that extends $f$ is completely determined by $f_1(a)$ and for all $\lambda \in \mathbf{R}$ and all $x \in V$, we have
 
 $$
 f_1(x + \lambda a) = f(x) + \lambda f_1(a).
 $$
 
-Thus $ f_1 $ is positive if and only if the relations
+Thus $f_1$ is positive if and only if the relations
 
 $$
 x \in V, \quad \lambda \in \mathbf{R}, \quad x + \lambda a \geq 0
@@ -56,11 +56,11 @@ $$
 f(x) + \lambda f_1(a) \geq 0.
 $$
 
-As $ f(\mu x) = \mu f(x) $ and the relations $ x \geq 0 $ and $ \mu x \geq 0 $ are equivalent for $ \mu > 0 $, it is sufficient to show that (2) implies (3) in the particular cases $ \lambda = 0, \lambda = 1 $ and $ \lambda = -1 $. For $ \lambda = 0 $, the fact that (2) implies (3) follows from the hypothesis that $ f $ is positive. For $ \lambda = 1 $, to say that (2) implies (3) means that for $ -x \in A' $, we have $ f_1(a) \geq f(-x) $, \emph{i.e.} $ f_1(a) \geq \alpha' $; for $ \lambda = -1 $, (2) implies (3), means that for $ x \in A'' $, we have $ f(x) \geq f_1(a) $, \emph{i.e.} $ f_1(a) \leq \alpha'' $. The proposition is therefore proved in this case.
+As $f(\mu x) = \mu f(x)$ and the relations $x \geq 0$ and $\mu x \geq 0$ are equivalent for $\mu > 0$, it is sufficient to show that (2) implies (3) in the particular cases $\lambda = 0, \lambda = 1$ and $\lambda = -1$. For $\lambda = 0$, the fact that (2) implies (3) follows from the hypothesis that $f$ is positive. For $\lambda = 1$, to say that (2) implies (3) means that for $-x \in A'$, we have $f_1(a) \geq f(-x)$, \emph{i.e.} $f_1(a) \geq \alpha'$; for $\lambda = -1$, (2) implies (3), means that for $x \in A''$, we have $f(x) \geq f_1(a)$, \emph{i.e.} $f_1(a) \leq \alpha''$. The proposition is therefore proved in this case.
 
 II. General case.
 
-Let $ \mathfrak{F} $ be the set of pairs $(W, g)$ where $W$ is a vector subspace of $E$ containing $V$ and $g$ is a positive linear form on $W$ which is an extension of $f$. We order $ \mathfrak{F} $ putting $(W, g) \leq (W', g')$ if $W \subset W'$ and if $g'$ is an extension of $g$. Clearly $ \mathfrak{F} $ is inductive and by th. 2 of S, III, § 2.4, there is a maximal element $(W_0, g_0)$. Suppose $W_0 \neq E$. Then there exists a vector $b \notin W_0$, and, if $W_1 = W_0 + \mathbf{R}b$, the special case above shows that there exists a positive linear form on $W_1$ which is an extension of $g_0$; this contradicts the hypothesis that $(W_0, g_0)$ is maximal. Thus $W_0 = E$, and the first part of the proposition is proved. When $a \in V$, the second assertion is obviously true with $\alpha' = \alpha'' = f(a)$; if, on the contrary, $a \notin V$ and one puts $V_1 = V + \mathbf{R}a$, the second assertion follows from the special case I of the proof.
+Let $\mathfrak{F}$ be the set of pairs $(W, g)$ where $W$ is a vector subspace of $E$ containing $V$ and $g$ is a positive linear form on $W$ which is an extension of $f$. We order $\mathfrak{F}$ putting $(W, g) \leq (W', g')$ if $W \subset W'$ and if $g'$ is an extension of $g$. Clearly $\mathfrak{F}$ is inductive and by th. 2 of S, III, § 2.4, there is a maximal element $(W_0, g_0)$. Suppose $W_0 \neq E$. Then there exists a vector $b \notin W_0$, and, if $W_1 = W_0 + \mathbf{R}b$, the special case above shows that there exists a positive linear form on $W_1$ which is an extension of $g_0$; this contradicts the hypothesis that $(W_0, g_0)$ is maximal. Thus $W_0 = E$, and the first part of the proposition is proved. When $a \in V$, the second assertion is obviously true with $\alpha' = \alpha'' = f(a)$; if, on the contrary, $a \notin V$ and one puts $V_1 = V + \mathbf{R}a$, the second assertion follows from the special case I of the proof.
 
 #### Corollary {#evt-ii-s3-n1-cor-1 .statement}
 
@@ -80,21 +80,21 @@ The set of pairs $(x, a)$ such that $p(x) \leq a$ is a convex subset $P$ of the 
 
 #### Corollary 1 {#evt-ii-s3-thm-1-cor-1 .statement}
 
-— Let $ p $ be a semi-norm on the vector space $ E $. Let $ V $ be a vector subspace of $ E $ and $ f $ a linear form on $ V $ such that $ |f(y)| \leq p(y) $ for all $ y \in V $. Then there exists a linear form $ h $ defined on $ E $ which is an extension of $ f $ and is such that $ |h(x)| \leq p(x) $ for $ x \in E $.
+— Let $p$ be a semi-norm on the vector space $E$. Let $V$ be a vector subspace of $E$ and $f$ a linear form on $V$ such that $|f(y)| \leq p(y)$ for all $y \in V$. Then there exists a linear form $h$ defined on $E$ which is an extension of $f$ and is such that $|h(x)| \leq p(x)$ for $x \in E$.
 
-For a semi-norm $ q $ and a linear form $ g $ on $ E $, the relation $ g \leq q $ is the same as $ |g| \leq q $. The corollary follows from th. 1.
+For a semi-norm $q$ and a linear form $g$ on $E$, the relation $g \leq q$ is the same as $|g| \leq q$. The corollary follows from th. 1.
 
 #### Corollary 2 {#evt-ii-s3-thm-1-cor-2 .statement}
 
-— Let $ p $ be a semi-norm on the vector space $ E $. Given a point $ x_0 \in E $, there exists a linear form $ f $ defined over $ E $, such that $ f(x_0) = p(x_0) $ and that $ |f(x)| \leq p(x) $ for all $ x \in E $.
+— Let $p$ be a semi-norm on the vector space $E$. Given a point $x_0 \in E$, there exists a linear form $f$ defined over $E$, such that $f(x_0) = p(x_0)$ and that $|f(x)| \leq p(x)$ for all $x \in E$.
 
-Apply cor. 1 to the vector subspace, $ V $, generated by $ x_0 $ and to the linear form $ \xi x_0 \mapsto \xi p(x_0) $ defined over $ V $.
+Apply cor. 1 to the vector subspace, $V$, generated by $x_0$ and to the linear form $\xi x_0 \mapsto \xi p(x_0)$ defined over $V$.
 
 #### Corollary 3 {#evt-ii-s3-thm-1-cor-3 .statement}
 
-— Let $ V $ be a vector subspace of the normed space $ E $ and let $ f $ be a continuous linear form over $ V $; then there exists a continuous linear form $ h $ defined over $ E $ which extends $ f $ and is of the same norm (GT, X, § 3.2).
+— Let $V$ be a vector subspace of the normed space $E$ and let $f$ be a continuous linear form over $V$; then there exists a continuous linear form $h$ defined over $E$ which extends $f$ and is of the same norm (GT, X, § 3.2).
 
-Apply cor. 1, taking $ p(x) = \|f\| \cdot \|x\| $, which gives $ \|h\| \leq \|f\| $; but clearly $ \|h\| \geq \|f\| $, and the corollary follows.
+Apply cor. 1, taking $p(x) = \|f\| \cdot \|x\|$, which gives $\|h\| \leq \|f\|$; but clearly $\|h\| \geq \|f\|$, and the corollary follows.
 
 The conclusion of cor. 3 is not necessarily valid for continuous linear mappings of a normed space into an arbitrary normed space (IV, p. 55, exerc. 16, c) and V, p. 65, exerc. 22).
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 18
 statements: 33
 exercises: 11
-content_sha256: ef057f431c155e938d9528c69196e9b9c97f384cb444dfa0a7f697ce7909d41a
+content_sha256: b80da8fc4bd9b2c66ba62bb7534455869cd480af5bb0d11f25e7a33dcb8a8ed0
 ---
 
 ## § 2. TORES MAXIMAUX DES GROUPES DE LIE COMPACTS
@@ -87,73 +87,73 @@ a) Les algèbres de Lie des tores maximaux de G sont les sous-algèbres de Carta
 b) Soient T_1 et T_2 deux tores maximaux de G. Il existe g ∈ G tel que T_2 = gT_1g^{-1}.
 c) G est la réunion de ses tores maximaux.
 
-Soit t une sous-algèbre de Cartan de L(G) ; le sous-groupe intégral de G d’algèbre de Lie t est fermé (VII, § 2, n° 1, cor. 4 à la prop. 4) et commutatif (th. 1), donc est un tore de G. Si T est un tore maximal de G, son algèbre de Lie est commutative, donc contenue dans une sous-algèbre de Cartan de $ L(G) $ (th. 1). Il en résulte que les tores maximaux de $ G $ sont exactement les sous-groupes intégraux de $ G $ associés aux sous-algèbres de Cartan de $ G $, d'où $ a $. L’assertion $ b $ résulte alors du th. 1, puisque l’homomorphisme canonique $ G \to \operatorname{Int}(L(G)) $ est surjectif (III, § 6, no 4, cor. 4 à la prop. 10).
+Soit t une sous-algèbre de Cartan de L(G) ; le sous-groupe intégral de G d’algèbre de Lie t est fermé (VII, § 2, n° 1, cor. 4 à la prop. 4) et commutatif (th. 1), donc est un tore de G. Si T est un tore maximal de G, son algèbre de Lie est commutative, donc contenue dans une sous-algèbre de Cartan de $L(G)$ (th. 1). Il en résulte que les tores maximaux de $G$ sont exactement les sous-groupes intégraux de $G$ associés aux sous-algèbres de Cartan de $G$, d'où $a$. L’assertion $b$ résulte alors du th. 1, puisque l’homomorphisme canonique $G \to \operatorname{Int}(L(G))$ est surjectif (III, § 6, no 4, cor. 4 à la prop. 10).
 
-Notons $ X $ la réunion des tores maximaux de $ G $, et soit $ T $ un tore maximal de $ G $. L’application continue $ (g, t) \mapsto gtg^{-1} $ de $ G \times T $ dans $ G $ a pour image $ X $, qui est donc fermé dans $ G $; pour démontrer $ c $, il suffit donc de prouver que $ X $ est ouvert dans $ G $; comme $ X $ est invariant par automorphismes intérieurs, il suffit de montrer que pour tout $ a \in T $, $ X $ est un voisinage de $ a $. Raisonnons par récurrence sur la dimension de $ G $ et distinguons deux cas :
+Notons $X$ la réunion des tores maximaux de $G$, et soit $T$ un tore maximal de $G$. L’application continue $(g, t) \mapsto gtg^{-1}$ de $G \times T$ dans $G$ a pour image $X$, qui est donc fermé dans $G$; pour démontrer $c$, il suffit donc de prouver que $X$ est ouvert dans $G$; comme $X$ est invariant par automorphismes intérieurs, il suffit de montrer que pour tout $a \in T$, $X$ est un voisinage de $a$. Raisonnons par récurrence sur la dimension de $G$ et distinguons deux cas :
 
-1) $ a $ n’est pas central dans $ G $. Soit alors $ H $ la composante neutre du centralisateur de $ a $ dans $ G $; c’est un sous-groupe compact connexe de $ G $ distinct de $ G $, qui contient $ T $, donc $ a $. Comme $ \operatorname{Ad}\,a $ est semi-simple ($ \S 1 $, no 1 ), l’algèbre de Lie de $ H $ est le nilspace de $ \operatorname{Ad}\,a - 1 $; il résulte alors de VII, § 4, no 2, prop. 4, que la réunion $ Y $ des conjugués de $ H $ est un voisinage de $ a $. D’après l’hypothèse de récurrence, on a $ H \subset X $, donc $ Y \subset X $; ainsi $ X $ est un voisinage de $ a $.
+1) $a$ n’est pas central dans $G$. Soit alors $H$ la composante neutre du centralisateur de $a$ dans $G$; c’est un sous-groupe compact connexe de $G$ distinct de $G$, qui contient $T$, donc $a$. Comme $\operatorname{Ad}\,a$ est semi-simple ($\S 1$, no 1 ), l’algèbre de Lie de $H$ est le nilspace de $\operatorname{Ad}\,a - 1$; il résulte alors de VII, § 4, no 2, prop. 4, que la réunion $Y$ des conjugués de $H$ est un voisinage de $a$. D’après l’hypothèse de récurrence, on a $H \subset X$, donc $Y \subset X$; ainsi $X$ est un voisinage de $a$.
 
-2) $ a $ est central dans $ G $. Il suffit de prouver que $ a \exp x $ appartient à $ X $ pour tout $ x $ dans $ L(G) $. Or tout élément $ x $ de $ L(G) $ appartient à une sous-algèbre de Cartan de $ G $ (th. 1); le sous-groupe intégral $ T' $ correspondant contient $ \exp x $; comme il est conjugué à $ T $, il contient $ a $ et donc $ a \exp x $, d’où l’assertion cherchée.
+2) $a$ est central dans $G$. Il suffit de prouver que $a \exp x$ appartient à $X$ pour tout $x$ dans $L(G)$. Or tout élément $x$ de $L(G)$ appartient à une sous-algèbre de Cartan de $G$ (th. 1); le sous-groupe intégral $T'$ correspondant contient $\exp x$; comme il est conjugué à $T$, il contient $a$ et donc $a \exp x$, d’où l’assertion cherchée.
 
 #### Corollaire 1 {#lie-ix-s2-thm-2-cor-1 .statement tag=01A3}
 
-a) *L’application exponentielle de $ G $ est surjective*.
+a) *L’application exponentielle de $G$ est surjective*.
 
-b) *Pour tout $ n \geqslant 1 $, l’application $ g \mapsto g^n $ de $ G $ dans lui-même est surjective*.
+b) *Pour tout $n \geqslant 1$, l’application $g \mapsto g^n$ de $G$ dans lui-même est surjective*.
 
-En effet, $ \exp(L(G)) $ contient tous les tores maximaux de $ G $, d’où $ a $. L’assertion $ b $ résulte alors de la formule $ (\exp x)^n = \exp nx $ pour $ x $ dans $ L(G) $.
+En effet, $\exp(L(G))$ contient tous les tores maximaux de $G$, d’où $a$. L’assertion $b$ résulte alors de la formule $(\exp x)^n = \exp nx$ pour $x$ dans $L(G)$.
 
 #### Remarque 1 {#lie-ix-s2-n2-rem-1 .statement tag=01A4}
 
-Il existe une partie *compacte* $ K $ de $ L(G) $ telle que $ \exp_G(K) = G $. En effet, si $ T $ est un tore maximal de $ G $, il existe un compact $ C \subset L(T) $ tel que $ \exp_T(C) = T $; il suffit de prendre $ K = \bigcup_{g \in G} (\operatorname{Ad}\,g)(C) $.
+Il existe une partie *compacte* $K$ de $L(G)$ telle que $\exp_G(K) = G$. En effet, si $T$ est un tore maximal de $G$, il existe un compact $C \subset L(T)$ tel que $\exp_T(C) = T$; il suffit de prendre $K = \bigcup_{g \in G} (\operatorname{Ad}\,g)(C)$.
 
 #### Corollaire 2 {#lie-ix-s2-thm-2-cor-2 .statement tag=01A5}
 
-*L’intersection des tores maximaux de $ G $ est le centre de $ G $*.
+*L’intersection des tores maximaux de $G$ est le centre de $G$*.
 
-Soit $ x $ un élément du centre de $ G $; d’après le th. 2, $ c $), il existe un tore maximal $ T $ de $ G $ contenant $ x $; alors $ x $ appartient à tous les conjugués de $ T $, donc à tous les tores maximaux de $ G $. Inversement, si $ x $ appartient à tous les tores maximaux de $ G $, il commute à tout élément de $ G $ d’après le th. 2, $ c $).
+Soit $x$ un élément du centre de $G$; d’après le th. 2, $c$), il existe un tore maximal $T$ de $G$ contenant $x$; alors $x$ appartient à tous les conjugués de $T$, donc à tous les tores maximaux de $G$. Inversement, si $x$ appartient à tous les tores maximaux de $G$, il commute à tout élément de $G$ d’après le th. 2, $c$).
 
 #### Corollaire 3 {#lie-ix-s2-thm-2-cor-3 .statement tag=01A6}
 
-*Soit $ g \in G $, et soit $ C $ son centralisateur. Alors $ g $ appartient à $ C_0 $; le groupe $ C_0 $ est la réunion des tores maximaux de $ G $ contenant $ g $*.
+*Soit $g \in G$, et soit $C$ son centralisateur. Alors $g$ appartient à $C_0$; le groupe $C_0$ est la réunion des tores maximaux de $G$ contenant $g$*.
 
-Il existe un tore maximal $ T $ de $ G $ contenant $ g $ (th. 2, $ c $), et donc contenu dans $ C_0 $. Par ailleurs, le groupe $ C_0 $ est un groupe de Lie compact connexe, donc réunion de ses tores maximaux (th. 2, $ c $); ceux-ci contiennent tous $ g $ (cor. 2), donc sont exactement les tores maximaux de $ G $ contenant $ g $.
+Il existe un tore maximal $T$ de $G$ contenant $g$ (th. 2, $c$), et donc contenu dans $C_0$. Par ailleurs, le groupe $C_0$ est un groupe de Lie compact connexe, donc réunion de ses tores maximaux (th. 2, $c$); ceux-ci contiennent tous $g$ (cor. 2), donc sont exactement les tores maximaux de $G$ contenant $g$.
 
 #### Corollaire 4 {#lie-ix-s2-thm-2-cor-4 .statement tag=01A7}
 
-Soit $ g \in G $. Si $ g $ est régulier (VII, § 4, n° 2, déf. 2), il appartient à un seul tore maximal, qui est la composante neutre de son centralisateur. Sinon, il appartient à une infinité de tores maximaux.
+Soit $g \in G$. Si $g$ est régulier (VII, § 4, n° 2, déf. 2), il appartient à un seul tore maximal, qui est la composante neutre de son centralisateur. Sinon, il appartient à une infinité de tores maximaux.
 
-Comme $ \mathrm{Ad}\,g $ est semi-simple, la dimension du nilspace de $ \mathrm{Ad}\,g - 1 $ est aussi celle du centralisateur $ C $ de $ g $. D’après loc. cit., prop. 8, et le th. 1, $ g $ est régulier si et seulement si $ C_0 $ est un tore maximal de $ G $. On conclut alors par le cor. 3.
+Comme $\mathrm{Ad}\,g$ est semi-simple, la dimension du nilspace de $\mathrm{Ad}\,g - 1$ est aussi celle du centralisateur $C$ de $g$. D’après loc. cit., prop. 8, et le th. 1, $g$ est régulier si et seulement si $C_0$ est un tore maximal de $G$. On conclut alors par le cor. 3.
 
 #### Corollaire 5 {#lie-ix-s2-thm-2-cor-5 .statement tag=01A8}
 
-a) Soit $ S $ un tore de $ G $. Le centralisateur de $ S $ est connexe ; c’est la réunion des tores maximaux de $ G $ contenant $ S $.
+a) Soit $S$ un tore de $G$. Le centralisateur de $S$ est connexe ; c’est la réunion des tores maximaux de $G$ contenant $S$.
 
-b) Soit $ s $ une sous-algèbre commutative de $ L(G) $. Le fixateur de $ s $ dans $ G $ est connexe ; c’est la réunion des tores maximaux de $ G $ dont l’algèbre de Lie contient $ s $.
+b) Soit $s$ une sous-algèbre commutative de $L(G)$. Le fixateur de $s$ dans $G$ est connexe ; c’est la réunion des tores maximaux de $G$ dont l’algèbre de Lie contient $s$.
 
-Pour démontrer $ a) $, il suffit de prouver que si un élément $ g $ de $ G $ centralise $ S $, il existe un tore maximal de $ G $ contenant $ S $ et $ g $. Or, si $ C $ est le centralisateur de $ g $, on a $ g \in C_0 $ (cor. 3) et $ S \subset C_0 $; si $ T $ est un tore maximal du groupe de Lie compact connexe $ C_0 $ contenant $ S $, on a $ g \in T $ (cor. 2), d’où $ a) $. L’assertion $ b) $ résulte de $ a) $ appliqué à l’adhérence du sous-groupe intégral d’algèbre de Lie $ s $, compte tenu de III, § 9, n° 3, prop. 9.
+Pour démontrer $a)$, il suffit de prouver que si un élément $g$ de $G$ centralise $S$, il existe un tore maximal de $G$ contenant $S$ et $g$. Or, si $C$ est le centralisateur de $g$, on a $g \in C_0$ (cor. 3) et $S \subset C_0$; si $T$ est un tore maximal du groupe de Lie compact connexe $C_0$ contenant $S$, on a $g \in T$ (cor. 2), d’où $a)$. L’assertion $b)$ résulte de $a)$ appliqué à l’adhérence du sous-groupe intégral d’algèbre de Lie $s$, compte tenu de III, § 9, n° 3, prop. 9.
 
 #### Remarque 2 {#lie-ix-s2-n2-rem-2 .statement tag=01A9}
 
-Il résulte du cor. 5 qu’un tore maximal de $ G $ en est un sous-groupe commutatif maximal. La réciproque n’est pas vraie : par exemple, dans le groupe $ SO(3, \mathbf{R}) $, les tores maximaux sont de dimension 1, et ne peuvent donc contenir le sous-groupe des matrices diagonales, qui est isomorphe à $ (\mathbf{Z}/2\mathbf{Z})^2 $. Par ailleurs, si $ g \in SO(3, \mathbf{R}) $ est une matrice diagonale non scalaire, $ g $ est un élément régulier de $ SO(3, \mathbf{R}) $ dont le centralisateur n’est pas connexe (cf. cor. 4).
+Il résulte du cor. 5 qu’un tore maximal de $G$ en est un sous-groupe commutatif maximal. La réciproque n’est pas vraie : par exemple, dans le groupe $SO(3, \mathbf{R})$, les tores maximaux sont de dimension 1, et ne peuvent donc contenir le sous-groupe des matrices diagonales, qui est isomorphe à $(\mathbf{Z}/2\mathbf{Z})^2$. Par ailleurs, si $g \in SO(3, \mathbf{R})$ est une matrice diagonale non scalaire, $g$ est un élément régulier de $SO(3, \mathbf{R})$ dont le centralisateur n’est pas connexe (cf. cor. 4).
 
 #### Corollaire 6 {#lie-ix-s2-thm-2-cor-6 .statement tag=01AA}
 
-Les tores maximaux de $ G $ sont leurs propres centralisateurs, et sont les fixateurs de leurs algèbres de Lie.
+Les tores maximaux de $G$ sont leurs propres centralisateurs, et sont les fixateurs de leurs algèbres de Lie.
 
-Soient $ T $ un tore maximal de $ G $ et $ C $ son centralisateur ; comme $ L(T) $ est une sous-algèbre de Cartan de $ L(G) $, on a $ L(T) = L(C) $, donc $ C = T $ puisque $ C $ est connexe (cor. 5).
+Soient $T$ un tore maximal de $G$ et $C$ son centralisateur ; comme $L(T)$ est une sous-algèbre de Cartan de $L(G)$, on a $L(T) = L(C)$, donc $C = T$ puisque $C$ est connexe (cor. 5).
 
 #### Corollaire 7 {#lie-ix-s2-thm-2-cor-7 .statement tag=01AB}
 
-Soient $ T $ et $ T' $ deux tores maximaux de $ G $, $ A $ une partie de $ T $ et $ s $ un automorphisme de $ G $ qui applique $ A $ dans $ T' $. Il existe $ g \in G $ tel que $ s \circ (\mathrm{Int}\,g) $ applique $ T $ sur $ T' $ et coïncide avec $ s $ sur $ A $.
+Soient $T$ et $T'$ deux tores maximaux de $G$, $A$ une partie de $T$ et $s$ un automorphisme de $G$ qui applique $A$ dans $T'$. Il existe $g \in G$ tel que $s \circ (\mathrm{Int}\,g)$ applique $T$ sur $T'$ et coïncide avec $s$ sur $A$.
 
-Soit $ C $ le centralisateur de $ A $. Alors $ T $ et $ s^{-1}(T') $ sont deux tores maximaux de $ C_0 $; tout élément $ g $ de $ C_0 $ tel que $ (\mathrm{Int}\,g)(T) = s^{-1}(T') $ répond à la question.
+Soit $C$ le centralisateur de $A$. Alors $T$ et $s^{-1}(T')$ sont deux tores maximaux de $C_0$; tout élément $g$ de $C_0$ tel que $(\mathrm{Int}\,g)(T) = s^{-1}(T')$ répond à la question.
 
 #### Corollaire 8 {#lie-ix-s2-thm-2-cor-8 .statement tag=01AC}
 
-Soient $ H $ un groupe de Lie compact, $ T $ un tore maximal de $ H $. On a alors $ H = N_H(T).H_0 $, et l’injection de $ N_H(T) $ dans $ H $ induit un isomorphisme de $ N_H(T)/N_{H_0}(T) $ sur $ H/H_0 $.
+Soient $H$ un groupe de Lie compact, $T$ un tore maximal de $H$. On a alors $H = N_H(T).H_0$, et l’injection de $N_H(T)$ dans $H$ induit un isomorphisme de $N_H(T)/N_{H_0}(T)$ sur $H/H_0$.
 
-Soit $ h \in H $. Alors $ h^{-1}Th $ est un tore maximal de $ H_0 $, donc (th. 2) il existe $ g \in H_0 $ tel que $ hg \in N_H(T) $; ainsi $ h $ appartient à $ N_H(T).H_0 $, d’où la première assertion. La seconde en résulte immédiatement.
+Soit $h \in H$. Alors $h^{-1}Th$ est un tore maximal de $H_0$, donc (th. 2) il existe $g \in H_0$ tel que $hg \in N_H(T)$; ainsi $h$ appartient à $N_H(T).H_0$, d’où la première assertion. La seconde en résulte immédiatement.
 
 #### Remarque 3 {#lie-ix-s2-n2-rem-3 .statement tag=01AD}
 
@@ -189,25 +189,25 @@ La proposition 1 se généralise aussitôt aux groupes connexes à algèbre de L
 
 #### Remarque 2 {#lie-ix-s2-n3-rem-2 .statement tag=01AG}
 
-Soient G un groupe de Lie compact connexe, $ \tilde{D}(G) $ le revêtement universel du groupe $ D(G) $ et $ f : \tilde{D}(G) \to G $ le morphisme composé des morphismes canoniques de $ \tilde{D}(G) $ sur $ D(G) $ et de $ D(G) $ dans G. Alors l’application $ T \mapsto f^{-1}(T) $ est une bijection de l’ensemble des tores maximaux de G sur l’ensemble des tores maximaux de $ \tilde{D}(G) $; la bijection réciproque associe au tore maximal $ \tilde{T} $ de $ \tilde{D}(G) $ le tore maximal $ C(G)_0 . f(\tilde{T}) $ de G.
+Soient G un groupe de Lie compact connexe, $\tilde{D}(G)$ le revêtement universel du groupe $D(G)$ et $f : \tilde{D}(G) \to G$ le morphisme composé des morphismes canoniques de $\tilde{D}(G)$ sur $D(G)$ et de $D(G)$ dans G. Alors l’application $T \mapsto f^{-1}(T)$ est une bijection de l’ensemble des tores maximaux de G sur l’ensemble des tores maximaux de $\tilde{D}(G)$; la bijection réciproque associe au tore maximal $\tilde{T}$ de $\tilde{D}(G)$ le tore maximal $C(G)_0 . f(\tilde{T})$ de G.
 
 ### 4. Sous-groupes de rang maximum
 
 Nous appellerons rang d’un groupe de Lie connexe G et noterons rg G, le rang de son algèbre de Lie. D’après le th. 2, a), le rang d’un groupe de Lie compact connexe est la dimension commune de ses tores maximaux.
 
-Soient G un groupe de Lie compact connexe et H un sous-groupe fermé de G. Si H est connexe, on a $ \mathrm{rg}\ H \leq \mathrm{rg}\ G $ (puisque les tores maximaux de H sont des tores de G). D’après le th. 2, c), dire que H est connexe et de rang maximum (c’est-à-dire de rang $ \mathrm{rg}\ G $) signifie que H est réunion de tores maximaux de G. On déduit alors aussitôt de la proposition 1 :
+Soient G un groupe de Lie compact connexe et H un sous-groupe fermé de G. Si H est connexe, on a $\mathrm{rg}\ H \leq \mathrm{rg}\ G$ (puisque les tores maximaux de H sont des tores de G). D’après le th. 2, c), dire que H est connexe et de rang maximum (c’est-à-dire de rang $\mathrm{rg}\ G$) signifie que H est réunion de tores maximaux de G. On déduit alors aussitôt de la proposition 1 :
 
 #### Proposition 2 {#lie-ix-s2-prop-2 .statement tag=01AH}
 
-Soit $ f : G \to G' $ un morphisme surjectif de groupes de Lie compacts connexes dont le noyau est central. Les applications $ H \mapsto f(H) $ et $ H' \mapsto f^{-1}(H') $ sont des bijections réciproques l’une de l’autre entre l’ensemble des sous-groupes fermés connexes de rang maximum de G et l’ensemble analogue pour $ G' $.
+Soit $f : G \to G'$ un morphisme surjectif de groupes de Lie compacts connexes dont le noyau est central. Les applications $H \mapsto f(H)$ et $H' \mapsto f^{-1}(H')$ sont des bijections réciproques l’une de l’autre entre l’ensemble des sous-groupes fermés connexes de rang maximum de G et l’ensemble analogue pour $G'$.
 
 #### Proposition 3 {#lie-ix-s2-prop-3 .statement tag=01AI}
 
 Soient G un groupe de Lie compact connexe, et H un sous-groupe fermé connexe de rang maximum.
 
-a) La variété compacte $ G/H $ est simplement connexe.
+a) La variété compacte $G/H$ est simplement connexe.
 
-b) L’homomorphisme $ \pi_1(H) \to \pi_1(G) $, déduit de l’injection canonique de H dans G, est surjectif.
+b) L’homomorphisme $\pi_1(H) \to \pi_1(G)$, déduit de l’injection canonique de H dans G, est surjectif.
 
 Comme H est connexe, on a une suite exacte (TG, XI, à paraître)
 
@@ -215,7 +215,7 @@ $$
 \pi_1(H) \to \pi_1(G) \to \pi_1(G/H, \overline{e}) \to 0
 $$
 
-où $ \overline{e} $ est l’image dans $ G/H $ de l’élément neutre de G. Comme $ G/H $ est connexe, cela entraîne aussitôt l’équivalence des assertions a) et b). Par ailleurs, si $ f : G' \to G $ est un morphisme surjectif de groupes de Lie compacts connexes dont le noyau est central, il revient au même de démontrer la proposition (sous la forme a)) pour G ou pour $ G' $ (prop. 2). On peut donc d’abord remplacer G par $ \mathrm{Ad}(G) $, donc supposer G semi-simple, puis remplacer G par un revêtement universel (\$ 1, n° 4, cor. 2), donc supposer G simplement connexe. Mais alors l’assertion b) est triviale.
+où $\overline{e}$ est l’image dans $G/H$ de l’élément neutre de G. Comme $G/H$ est connexe, cela entraîne aussitôt l’équivalence des assertions a) et b). Par ailleurs, si $f : G' \to G$ est un morphisme surjectif de groupes de Lie compacts connexes dont le noyau est central, il revient au même de démontrer la proposition (sous la forme a)) pour G ou pour $G'$ (prop. 2). On peut donc d’abord remplacer G par $\mathrm{Ad}(G)$, donc supposer G semi-simple, puis remplacer G par un revêtement universel (\$ 1, n° 4, cor. 2), donc supposer G simplement connexe. Mais alors l’assertion b) est triviale.
 
 #### Proposition 4 {#lie-ix-s2-prop-4 .statement tag=01AJ}
 
@@ -288,25 +288,25 @@ L’assertion a) résulte du cor. 8 au th. 2 (n° 2), et l’assertion b) est un
 
 ### 6. Tores maximaux et relèvement d’homomorphismes
 
-Soient G un groupe de Lie compact connexe, T un tore maximal de G. Considérons le groupe dérivé D(G) de G et son revêtement universel $ \tilde{D}(G) $; soit $ p : \tilde{D}(G) \to G $ le morphisme composé des morphismes canoniques $ \tilde{D}(G) \to D(G) $ et $ D(G) \to G $. Alors $ \tilde{D}(G) $ est un groupe de Lie compact connexe ($ \S 1 $, no 4, cor. 2 à la prop. 4); de plus, l’image réciproque $ \tilde{T} $ de T par $ p $ est un tore maximal de $ \tilde{D}(G) $ (no 3, prop. 1).
+Soient G un groupe de Lie compact connexe, T un tore maximal de G. Considérons le groupe dérivé D(G) de G et son revêtement universel $\tilde{D}(G)$; soit $p : \tilde{D}(G) \to G$ le morphisme composé des morphismes canoniques $\tilde{D}(G) \to D(G)$ et $D(G) \to G$. Alors $\tilde{D}(G)$ est un groupe de Lie compact connexe ($\S 1$, no 4, cor. 2 à la prop. 4); de plus, l’image réciproque $\tilde{T}$ de T par $p$ est un tore maximal de $\tilde{D}(G)$ (no 3, prop. 1).
 
 #### Lemme 2 {#lie-ix-s2-lem-2 .statement tag=01AO}
 
-Soient H un groupe de Lie, $ f_T : T \to H $ et $ \tilde{f} : \tilde{D}(G) \to H $ des morphismes de groupes de Lie tels que, pour tout $ t \in \tilde{T} $, on ait $ f_T(p(t)) = \tilde{f}(t) $. Il existe un unique morphisme de groupes de Lie $ f : G \to H $ tel que $ f \circ p = \tilde{f} $ et que la restriction de $ f $ à T soit $ f_T $.
+Soient H un groupe de Lie, $f_T : T \to H$ et $\tilde{f} : \tilde{D}(G) \to H$ des morphismes de groupes de Lie tels que, pour tout $t \in \tilde{T}$, on ait $f_T(p(t)) = \tilde{f}(t)$. Il existe un unique morphisme de groupes de Lie $f : G \to H$ tel que $f \circ p = \tilde{f}$ et que la restriction de $f$ à T soit $f_T$.
 
-Posons $ Z = C(G)_0 $; d’après $ \S 1 $, no 4, cor. 1 à la prop. 4, le morphisme de groupes de Lie $ g : Z \times \tilde{D}(G) \to G $ tel que $ g(z, x) = z^{-1}p(x) $ est un revêtement; son noyau est formé des couples $ (z, x) $ tels que $ p(x) = z $, pour lesquels on a donc $ x \in p^{-1}(Z) \subset \tilde{T} $. Puisque le morphisme $ (z, x) \mapsto f_T(z^{-1})\tilde{f}(x) $ de $ Z \times \tilde{D}(G) $ dans H applique Ker $ g $ dans $ \{e\} $, il existe un morphisme $ f $ de G dans H tel que $ f \circ p = \tilde{f} $ et $ f(z) = f_T(z) $ pour $ z \in Z $. Mais on a aussi $ f(t) = f_T(t) $ pour $ t \in p(\tilde{T}) $; comme $ T = Z.p(\tilde{T}) $, la restriction de $ f $ à T est bien $ f_T $.
+Posons $Z = C(G)_0$; d’après $\S 1$, no 4, cor. 1 à la prop. 4, le morphisme de groupes de Lie $g : Z \times \tilde{D}(G) \to G$ tel que $g(z, x) = z^{-1}p(x)$ est un revêtement; son noyau est formé des couples $(z, x)$ tels que $p(x) = z$, pour lesquels on a donc $x \in p^{-1}(Z) \subset \tilde{T}$. Puisque le morphisme $(z, x) \mapsto f_T(z^{-1})\tilde{f}(x)$ de $Z \times \tilde{D}(G)$ dans H applique Ker $g$ dans $\{e\}$, il existe un morphisme $f$ de G dans H tel que $f \circ p = \tilde{f}$ et $f(z) = f_T(z)$ pour $z \in Z$. Mais on a aussi $f(t) = f_T(t)$ pour $t \in p(\tilde{T})$; comme $T = Z.p(\tilde{T})$, la restriction de $f$ à T est bien $f_T$.
 
 #### Proposition 8 {#lie-ix-s2-prop-8 .statement tag=01AP}
 
-Soient G un groupe de Lie compact connexe, T un tore maximal de G, H un groupe de Lie et $ \varphi : L(G) \to L(H) $ un homomorphisme d’algèbres de Lie. Pour qu’il existe un morphisme de groupes de Lie $ f : G \to H $ tel que $ L(f) = \varphi $, il faut et il suffit qu’il existe un morphisme de groupes de Lie $ f_T : T \to H $ tel que $ L(f_T) = \varphi|L(T) $; on a alors $ f_T = f|T $.
+Soient G un groupe de Lie compact connexe, T un tore maximal de G, H un groupe de Lie et $\varphi : L(G) \to L(H)$ un homomorphisme d’algèbres de Lie. Pour qu’il existe un morphisme de groupes de Lie $f : G \to H$ tel que $L(f) = \varphi$, il faut et il suffit qu’il existe un morphisme de groupes de Lie $f_T : T \to H$ tel que $L(f_T) = \varphi|L(T)$; on a alors $f_T = f|T$.
 
-Si $ f : G \to H $ est un morphisme de groupes de Lie tel que $ L(f) = \varphi $, alors la restriction $ f_T $ de $ f $ à T est l’unique morphisme de T dans H tel que $ L(f_T) = \varphi|L(T) $. Inversement, soit $ f_T : T \to H $ un morphisme de groupes de Lie tel que $ L(f_T) = \varphi|L(T) $. Soient $ \tilde{D}(G) $ et $ p $ comme ci-dessus; l’application $ L(p) $ induit un isomorphisme de $ L(\tilde{D}(G)) $ sur l’algèbre dérivée b de $ L(G) $. Il existe un morphisme de groupes de Lie $ \tilde{f} : \tilde{D}(G) \to H $ tel que $ L(\tilde{f}) = (\varphi|b) \circ L(p) $ (III, $ \S 6 $, no 1, th. 1). Les morphismes $ t \mapsto \tilde{f}(t) $ et $ t \mapsto f_T(p(t)) $ de $ \tilde{T} $ dans H induisent le même homomorphisme des algèbres de Lie, donc coïncident. Appliquant le lemme 2, on en déduit l’existence d’un morphisme $ f : G \to H $ tel que $ L(f) $ et $ \varphi $ coïncident sur $ L(T) $ et b. Comme $ L(G) = b + L(T) $, on a bien $ L(f) = \varphi $.
+Si $f : G \to H$ est un morphisme de groupes de Lie tel que $L(f) = \varphi$, alors la restriction $f_T$ de $f$ à T est l’unique morphisme de T dans H tel que $L(f_T) = \varphi|L(T)$. Inversement, soit $f_T : T \to H$ un morphisme de groupes de Lie tel que $L(f_T) = \varphi|L(T)$. Soient $\tilde{D}(G)$ et $p$ comme ci-dessus; l’application $L(p)$ induit un isomorphisme de $L(\tilde{D}(G))$ sur l’algèbre dérivée b de $L(G)$. Il existe un morphisme de groupes de Lie $\tilde{f} : \tilde{D}(G) \to H$ tel que $L(\tilde{f}) = (\varphi|b) \circ L(p)$ (III, $\S 6$, no 1, th. 1). Les morphismes $t \mapsto \tilde{f}(t)$ et $t \mapsto f_T(p(t))$ de $\tilde{T}$ dans H induisent le même homomorphisme des algèbres de Lie, donc coïncident. Appliquant le lemme 2, on en déduit l’existence d’un morphisme $f : G \to H$ tel que $L(f)$ et $\varphi$ coïncident sur $L(T)$ et b. Comme $L(G) = b + L(T)$, on a bien $L(f) = \varphi$.
 
 #### Proposition 9 {#lie-ix-s2-prop-9 .statement tag=01AQ}
 
-Soient G un groupe de Lie compact connexe, T un tore maximal de G, H un groupe de Lie, $ f : G \to H $ un morphisme. Alors f est injectif si et seulement si sa restriction à T est injective.
+Soient G un groupe de Lie compact connexe, T un tore maximal de G, H un groupe de Lie, $f : G \to H$ un morphisme. Alors f est injectif si et seulement si sa restriction à T est injective.
 
-En effet d’après le th. 2 (no 2), le sous-groupe distingué Ker $ f $ de G est réduit à l’élément neutre si et seulement si son intersection avec T est réduite à l’élément neutre.
+En effet d’après le th. 2 (no 2), le sous-groupe distingué Ker $f$ de G est réduit à l’élément neutre si et seulement si son intersection avec T est réduite à l’élément neutre.
 
 ## EXERCICES {#lie-ix-s2-exercises}
 

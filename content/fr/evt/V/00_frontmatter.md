@@ -12,11 +12,11 @@ pdf_pages: 0263-0263
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: dc7034a2d44425e5ecc706a7bfb75f1717fc55626355a280c379668f9a9b96ae
+content_sha256: b040a2506d30f638a73f70fa5809097d5a87bb3baf5c404c67cd89b023ee9929
 ---
 
 ## CHAPITRE V
 
-# Espaces hilbertiens $ ^1 $ (théorie élémentaire)
+# Espaces hilbertiens $^1$ (théorie élémentaire)
 
-Dans tout ce chapitre, on note $ \mathbf{K} $ un corps égal à $ \mathbf{R} $ ou $ \mathbf{C} $. Pour tout nombre complexe $ \xi = \alpha + i\beta $ ($ \alpha, \beta $ réels), on note $ \overline{\xi} $ le conjugué $ \alpha - i\beta $ de $ \xi $; en particulier, on a $ \overline{\xi} = \xi $ si et seulement si $ \xi $ est réel.
+Dans tout ce chapitre, on note $\mathbf{K}$ un corps égal à $\mathbf{R}$ ou $\mathbf{C}$. Pour tout nombre complexe $\xi = \alpha + i\beta$ ($\alpha, \beta$ réels), on note $\overline{\xi}$ le conjugué $\alpha - i\beta$ de $\xi$; en particulier, on a $\overline{\xi} = \xi$ si et seulement si $\xi$ est réel.

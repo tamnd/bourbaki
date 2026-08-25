@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 41
 exercises: 8
-content_sha256: 4a0d490ac71ba13aa7d7e670ecb4d4b3c066e7a65d2da8fe78c3045c1efc39cc
+content_sha256: b680f2531b7e1b4e3afb5a63956d99d5c45a767b29095796f32a5b31f3e382d3
 ---
 
 ## § 6. ÉQUIVALENCE DE MORITA DES MODULES ET DES ALGÈBRES
@@ -270,9 +270,9 @@ Soient P un $(A,B)_k$-bimodule inversible et Q un inverse de P. Alors Q est un $
 
 #### Lemme 1 {#alg-viii-s6-lem-1 .statement tag=0071}
 
-Soient $ A $ et $ B $ des $ k $-algèbres, $ P $ un $(A, B)_k$-bimodule inversible, $ M $ et $ N $ des $ B $-modules et $ u : M \to N $ une application $ B $-linéaire. Si l’application $ 1_P \otimes u : P \otimes_B M \to P \otimes_B N $ est nulle (resp. bijective), il en est de même de $ u $.
+Soient $A$ et $B$ des $k$-algèbres, $P$ un $(A, B)_k$-bimodule inversible, $M$ et $N$ des $B$-modules et $u : M \to N$ une application $B$-linéaire. Si l’application $1_P \otimes u : P \otimes_B M \to P \otimes_B N$ est nulle (resp. bijective), il en est de même de $u$.
 
-Soient $ Q $ un bimodule inverse de $ P $ et $ \theta : Q \otimes_A P \to {}_s B_d $ un isomorphisme de $(B, B)_k$-bimodules. Le lemme résulte de la commutativité du diagramme
+Soient $Q$ un bimodule inverse de $P$ et $\theta : Q \otimes_A P \to {}_s B_d$ un isomorphisme de $(B, B)_k$-bimodules. Le lemme résulte de la commutativité du diagramme
 
 $$
 \begin{array}{ccc}
@@ -284,13 +284,13 @@ $$
 
 #### Théorème 1 {#alg-viii-s6-thm-1 .statement tag=0072}
 
-Soient $ A $ et $ B $ des $ k $-algèbres et $ P $ un $(A, B)_k$-bimodule. Notons $ P^* $ le $(B, A)_k$-bimodule $ \operatorname{Hom}_A(P, A_s) $. Les assertions suivantes sont équivalentes :
+Soient $A$ et $B$ des $k$-algèbres et $P$ un $(A, B)_k$-bimodule. Notons $P^*$ le $(B, A)_k$-bimodule $\operatorname{Hom}_A(P, A_s)$. Les assertions suivantes sont équivalentes :
 
-(i) Le $(A, B)_k$-bimodule $ P $ est inversible;
+(i) Le $(A, B)_k$-bimodule $P$ est inversible;
 
-(ii) Le $ A $-module $ P $ est projectif, de type fini et générateur, et l’application $ b \mapsto b_P $ de $ B $ dans $ \operatorname{End}_A(P)^o $ est un isomorphisme de $ k $-algèbres;
+(ii) Le $A$-module $P$ est projectif, de type fini et générateur, et l’application $b \mapsto b_P$ de $B$ dans $\operatorname{End}_A(P)^o$ est un isomorphisme de $k$-algèbres;
 
-(iii) Le $ B $-module à droite $ P $ est projectif, de type fini et générateur et l’application $ a \mapsto a_P $ de $ A $ dans $ \operatorname{End}_B(P) $ est un isomorphisme de $ k $-algèbres.
+(iii) Le $B$-module à droite $P$ est projectif, de type fini et générateur et l’application $a \mapsto a_P$ de $A$ dans $\operatorname{End}_B(P)$ est un isomorphisme de $k$-algèbres.
 
 Si ces conditions sont vérifiées, les homomorphismes
 
@@ -298,15 +298,15 @@ $$
 \Theta : P^* \otimes P \to {}_s B_d \quad \text{et} \quad \Lambda : P \otimes P^* \to {}_s A_d
 $$
 
-sont des isomorphismes de sorte que le $(B, A)_k$-bimodule $ P^* $ est un inverse de $ P $.
+sont des isomorphismes de sorte que le $(B, A)_k$-bimodule $P^*$ est un inverse de $P$.
 
-Si la condition (ii) est vérifiée, $ P $ est un $(A, B)_k$-bimodule inversible d’inverse $ P^* $ (VIII, p. 94, prop. 2 et p. 94, prop. 3). Cela démontre que (ii) implique (i) et la dernière assertion.
+Si la condition (ii) est vérifiée, $P$ est un $(A, B)_k$-bimodule inversible d’inverse $P^*$ (VIII, p. 94, prop. 2 et p. 94, prop. 3). Cela démontre que (ii) implique (i) et la dernière assertion.
 
-Supposons le $(A, B)_k$-bimodule $ P $ inversible. Alors le $ A $-module $ P $ est générateur (VIII, p. 94, prop. 3, (iii) $ \Longrightarrow $ (i)). Il est donc fidèle et équilibré (VIII, p. 78, th. 2) et, par suite, l’application $ a \mapsto a_p $ de $ A $ dans $ \operatorname{End}_B(P) $ est bijective.
+Supposons le $(A, B)_k$-bimodule $P$ inversible. Alors le $A$-module $P$ est générateur (VIII, p. 94, prop. 3, (iii) $\Longrightarrow$ (i)). Il est donc fidèle et équilibré (VIII, p. 78, th. 2) et, par suite, l’application $a \mapsto a_p$ de $A$ dans $\operatorname{End}_B(P)$ est bijective.
 
-Prouvons ensuite que l’application $ b \mapsto b_P $ de $ B $ dans $ \operatorname{End}_A(P) $ est bijective. Soit $ Q $ un $(B, A)_k$-bimodule inverse de $ P $. Soit $ u \in \operatorname{End}_A(P) $; alors $ 1_Q \otimes u $ est un endomorphisme du $ B $-module à gauche $ Q \otimes_A P $. Comme le $(B, B)_k$-bimodule $ Q \otimes_A P $ est isomorphe à $ {}_s B_d $, il existe un unique élément $ b $ de $ B $ tel que $ 1_Q \otimes u $ soit l’homothétie de rapport $ b $ du $ B $-module à droite $ Q \otimes_A P $. Par suite, on a $ 1_Q \otimes (u - b_P) = 0 $. D’où $ u = b_P $ d’après le lemme 1 ; cela prouve que l’application $ b \mapsto b_P $ de $ B $ dans $ \operatorname{End}_A(P) $ est bijective.
+Prouvons ensuite que l’application $b \mapsto b_P$ de $B$ dans $\operatorname{End}_A(P)$ est bijective. Soit $Q$ un $(B, A)_k$-bimodule inverse de $P$. Soit $u \in \operatorname{End}_A(P)$; alors $1_Q \otimes u$ est un endomorphisme du $B$-module à gauche $Q \otimes_A P$. Comme le $(B, B)_k$-bimodule $Q \otimes_A P$ est isomorphe à ${}_s B_d$, il existe un unique élément $b$ de $B$ tel que $1_Q \otimes u$ soit l’homothétie de rapport $b$ du $B$-module à droite $Q \otimes_A P$. Par suite, on a $1_Q \otimes (u - b_P) = 0$. D’où $u = b_P$ d’après le lemme 1 ; cela prouve que l’application $b \mapsto b_P$ de $B$ dans $\operatorname{End}_A(P)$ est bijective.
 
-D’après la prop. 2 de VIII, p. 94, le $ A $-module $ P $ est alors projectif de type fini. On a donc prouvé l’équivalence de (i) et (ii).
+D’après la prop. 2 de VIII, p. 94, le $A$-module $P$ est alors projectif de type fini. On a donc prouvé l’équivalence de (i) et (ii).
 
 En échangeant les rôles de A et B, on obtient l’équivalence de (i) et (iii), ce qui achève la preuve de la proposition.
 
@@ -536,15 +536,15 @@ a) Pour que le B-module V soit artinien, ou noethérien, ou indécomposable, ou 
 
 b) Pour que le B-module V soit de longueur finie, il faut et il suffit que le A-module M soit de longueur finie, et l’on a alors long$_B(V) =$ long$_A(M)$.
 
-c) *Pour que le B-module V soit semi-simple* (resp. *isotypique*), *il faut et il suffit que le A-module M soit semi-simple* (resp. *isotypique*). *S’il en est ainsi, on a* $ \operatorname{long}_B(V) = \operatorname{long}_A(M) $.
+c) *Pour que le B-module V soit semi-simple* (resp. *isotypique*), *il faut et il suffit que le A-module M soit semi-simple* (resp. *isotypique*). *S’il en est ainsi, on a* $\operatorname{long}_B(V) = \operatorname{long}_A(M)$.
 
 L’assertion a) résulte de l’inspection de la table II.
 L’assertion b) résulte de la prop. 8, d) (VIII, p. 104).
-Le module V est semi-simple si et seulement s’il est égal à son socle $ \mathscr{S}(V) $; il est isotypique si et seulement s’il existe un sous-module simple S de V tel que $ V = V_S $. L’assertion c) résulte donc des prop. 7 c), 8 c) et 9 (VIII, p. 103 et 104).
+Le module V est semi-simple si et seulement s’il est égal à son socle $\mathscr{S}(V)$; il est isotypique si et seulement s’il existe un sous-module simple S de V tel que $V = V_S$. L’assertion c) résulte donc des prop. 7 c), 8 c) et 9 (VIII, p. 103 et 104).
 
 ### 6. Autres propriétés préservées par la correspondance de Morita
 
-Soient A et B des $ k $-algèbres équivalentes au sens de Morita et P un $(A,B)_k$-bimodule inversible.
+Soient A et B des $k$-algèbres équivalentes au sens de Morita et P un $(A,B)_k$-bimodule inversible.
 
 #### Proposition 11 {#alg-viii-s6-prop-11 .statement tag=007I}
 
@@ -562,7 +562,7 @@ $$
 *le diagramme correspondant de A-modules. Pour que $(\mathcal{E})$ soit une suite exacte, il faut et il suffit que $(P \otimes \mathcal{E})$ le soit.*
 
 Supposons la suite $(\mathcal{E})$ exacte. Comme le B-module à droite P est projectif, la suite $(P \otimes \mathcal{E})$ est exacte (II, p. 58, prop. 5 et p. 63, cor. 6).
-Réciproquement, supposons la suite $(P \otimes \mathcal{E})$ exacte. Soient Q un $(B,A)_k$-bimodule inverse de P, et $ \theta : Q \otimes_A P \to {}_s B_d $ un isomorphisme. Considérons le diagramme commutatif
+Réciproquement, supposons la suite $(P \otimes \mathcal{E})$ exacte. Soient Q un $(B,A)_k$-bimodule inverse de P, et $\theta : Q \otimes_A P \to {}_s B_d$ un isomorphisme. Considérons le diagramme commutatif
 
 $$
 \begin{array}{ccc}
@@ -583,7 +583,7 @@ Puisque Q est un A-module projectif et que la suite $(P \otimes \mathcal{E})$ es
 
 #### Corollaire {#alg-viii-s6-n6-cor-1 .statement tag=007J}
 
-*Soit $ f : V \to W $ une application B-linéaire. Pour que $ f $ soit injective* (resp. *surjective*), *il faut et il suffit que $ 1_P \otimes f $ le soit.*
+*Soit $f : V \to W$ une application B-linéaire. Pour que $f$ soit injective* (resp. *surjective*), *il faut et il suffit que $1_P \otimes f$ le soit.*
 
 #### Proposition 12 {#alg-viii-s6-prop-12 .statement tag=007K}
 

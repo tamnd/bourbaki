@@ -20,9 +20,9 @@ subsections:
       pdf_page: 135
 statements: 14
 exercises: 4
-content_sha256: 8decc393e7a6141c4061492aa513cf1ee9b01294a0797e829aae95cd55f996f4
+content_sha256: a17b4644d9eb717a95839e2e93f413b7e27d99d17626e55a6c8ed0f03d179a49
 translated_from: content/en/lie/V/06_s6_the_coxeter_transformation.md
-source_content_sha256: bc25f308afcd6beaf3f3c3aeb20a13be152a5424a8f6973de9900fa14be76f75
+source_content_sha256: 76acf97304f79b3bc59f8db5ed0bd024eeb4446bfe73503d58fcec03a5df1b9e
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-1ef9ec52
 glossary_version: 34
@@ -32,55 +32,55 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 6. PHÉP BIẾN ĐỔI COXETER
 
-Trong đoạn này, V ký hiệu một không gian vectơ thực có số chiều hữu hạn l và W ký hiệu một nhóm con hữu hạn của $ \mathbf{GL}(V) $, được sinh bởi các phép phản xạ và cốt yếu (§ 3, no. 7). Trang bị cho V một tích vô hướng $ (x|y) $ bất biến dưới W. Ký hiệu bởi $ \mathfrak{H} $ tập hợp các siêu phẳng H của V sao cho phép phản xạ trực giao tương ứng $ s_H $ thuộc W.
+Trong đoạn này, V ký hiệu một không gian vectơ thực có số chiều hữu hạn l và W ký hiệu một nhóm con hữu hạn của $\mathbf{GL}(V)$, được sinh bởi các phép phản xạ và cốt yếu (§ 3, no. 7). Trang bị cho V một tích vô hướng $(x|y)$ bất biến dưới W. Ký hiệu bởi $\mathfrak{H}$ tập hợp các siêu phẳng H của V sao cho phép phản xạ trực giao tương ứng $s_H$ thuộc W.
 
 ### 1. ĐỊNH NGHĨA CÁC PHÉP BIẾN ĐỔI COXETER
 
-Một buồng có thứ tự đối với W là một cặp gồm một buồng C được xác định bởi $ \mathfrak{H} $ và một song ánh $ i \mapsto H_i $ từ $ \{1, 2, \ldots, l\} $ lên tập hợp các mặt của C (xem § 3, no. 9, Mệnh đề 7).
+Một buồng có thứ tự đối với W là một cặp gồm một buồng C được xác định bởi $\mathfrak{H}$ và một song ánh $i \mapsto H_i$ từ $\{1, 2, \ldots, l\}$ lên tập hợp các mặt của C (xem § 3, no. 9, Mệnh đề 7).
 
 #### Định nghĩa 1 {#lie-v-s6-def-1 .statement}
 
-*Phép biến đổi Coxeter được xác định bởi một buồng có thứ tự* $ (C, (H_i)_{1 \leq i \leq l}) $ *là phần tử* $ c = s_{H_1} s_{H_2} \cdots s_{H_l} $ *của W*.
+*Phép biến đổi Coxeter được xác định bởi một buồng có thứ tự* $(C, (H_i)_{1 \leq i \leq l})$ *là phần tử* $c = s_{H_1} s_{H_2} \cdots s_{H_l}$ *của W*.
 
 #### Mệnh đề 1 {#lie-v-s6-prop-1 .statement}
 
 *Tất cả các phép biến đổi Coxeter đều liên hợp trong W*.
 
-Vì W hoán vị các buồng được xác định bởi $ \mathfrak{H} $ một cách bắc cầu (§ 3, no. 2, Định lý 1), nên ta được quy về việc chứng minh điều sau: cho $ (C, (H_i)_{1 \leq i \leq l}) $ là một buồng có thứ tự và $ \pi \in S_l $; khi đó $ s_{H_1} s_{H_2} \cdots s_{H_l} $ và $ s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}} $ là liên hợp trong W. Có tính đến § 4, no. 8, Mệnh đề 8, điều này sẽ suy ra ngay lập tức từ bổ đề sau:
+Vì W hoán vị các buồng được xác định bởi $\mathfrak{H}$ một cách bắc cầu (§ 3, no. 2, Định lý 1), nên ta được quy về việc chứng minh điều sau: cho $(C, (H_i)_{1 \leq i \leq l})$ là một buồng có thứ tự và $\pi \in S_l$; khi đó $s_{H_1} s_{H_2} \cdots s_{H_l}$ và $s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}}$ là liên hợp trong W. Có tính đến § 4, no. 8, Mệnh đề 8, điều này sẽ suy ra ngay lập tức từ bổ đề sau:
 
 #### Bổ đề 1 {#lie-v-s6-lem-1 .statement}
 
-*Cho X là một rừng hữu hạn, và* $ x \mapsto g_x $ *một ánh xạ từ X vào một nhóm* $ \Gamma $ *sao cho* $ g_x $ *và* $ g_y $ *liên hợp với nhau mỗi khi* $ x $ *và* $ y $ *không được nối với nhau trong X. Gọi* $ \mathcal{T} $ *là tập hợp các thứ tự toàn phần trên X. Với mọi* $ \xi \in \mathcal{T} $, *gọi* $ p_\xi $ *là tích trong* $ \Gamma $ *của dãy* $ (g_x)_{x \in X} $ *được xác định bởi* $ \xi $. *Khi đó các phần tử* $ p_\xi $ *liên hợp với nhau trong* $ \Gamma $.*
+*Cho X là một rừng hữu hạn, và* $x \mapsto g_x$ *một ánh xạ từ X vào một nhóm* $\Gamma$ *sao cho* $g_x$ *và* $g_y$ *liên hợp với nhau mỗi khi* $x$ *và* $y$ *không được nối với nhau trong X. Gọi* $\mathcal{T}$ *là tập hợp các thứ tự toàn phần trên X. Với mọi* $\xi \in \mathcal{T}$, *gọi* $p_\xi$ *là tích trong* $\Gamma$ *của dãy* $(g_x)_{x \in X}$ *được xác định bởi* $\xi$. *Khi đó các phần tử* $p_\xi$ *liên hợp với nhau trong* $\Gamma$.*
 
-1) Ta tiến hành bằng quy nạp theo $ n = \mathrm{Card}\, X $. Trường hợp $ n = 1 $ là ngay lập tức, vậy giả sử rằng $ n \geqslant 2 $. Tồn tại trong $ X $ một đỉnh tận cùng $ a $ (Chương IV, Phụ lục, no. 3, Mệnh đề 2). Gọi $ b \in X - \{a\} $ là một đỉnh nối với $ a $ nếu có một đỉnh như vậy; nếu $ a $ không nối với đỉnh nào trong $ X - \{a\} $, lấy $ b $ trong $ X - \{a\} $ là tùy ý. Trong mọi trường hợp, $ g_a $ giao hoán với $ g_x $ với $ x \neq b $. Gọi $ \eta \in \mathcal{T} $ sao cho $ a $ là phần tử lớn nhất của $ X $ và $ b $ là phần tử lớn nhất của $ X - \{a\} $; ta lấy $ \xi \in \mathcal{T} $ và chứng minh rằng $ p_{\xi}, p_{\eta} $ là liên hợp.
+1) Ta tiến hành bằng quy nạp theo $n = \mathrm{Card}\, X$. Trường hợp $n = 1$ là ngay lập tức, vậy giả sử rằng $n \geqslant 2$. Tồn tại trong $X$ một đỉnh tận cùng $a$ (Chương IV, Phụ lục, no. 3, Mệnh đề 2). Gọi $b \in X - \{a\}$ là một đỉnh nối với $a$ nếu có một đỉnh như vậy; nếu $a$ không nối với đỉnh nào trong $X - \{a\}$, lấy $b$ trong $X - \{a\}$ là tùy ý. Trong mọi trường hợp, $g_a$ giao hoán với $g_x$ với $x \neq b$. Gọi $\eta \in \mathcal{T}$ sao cho $a$ là phần tử lớn nhất của $X$ và $b$ là phần tử lớn nhất của $X - \{a\}$; ta lấy $\xi \in \mathcal{T}$ và chứng minh rằng $p_{\xi}, p_{\eta}$ là liên hợp.
 
-2) Trước hết giả sử rằng, đối với $ \xi $, $ a $ là phần tử lớn nhất của $ X $ và $ b $ là phần tử lớn nhất của $ X - \{a\} $. Gọi $ X' $ là đồ thị con đầy đủ $ X - \{a\} $, là một rừng. Định nghĩa một ánh xạ $ x \mapsto g'_x $ từ $ X' $ vào $ \Gamma $ bằng cách đặt $ g'_x = g_x $ nếu $ x \neq b $, $ g'_b = g_bg_a $. Gọi $ \xi', \eta' $ là các hạn chế của $ \xi, \eta $ trên $ X' $. Giả thiết quy nạp áp dụng được, nên $ p_{\xi'} $ và $ p_{\eta'} $ liên hợp. Nhưng hiển nhiên $ p_{\xi'} = p_{\xi}, p_{\eta'} = p_{\eta} $, chứng minh bổ đề trong trường hợp này.
+2) Trước hết giả sử rằng, đối với $\xi$, $a$ là phần tử lớn nhất của $X$ và $b$ là phần tử lớn nhất của $X - \{a\}$. Gọi $X'$ là đồ thị con đầy đủ $X - \{a\}$, là một rừng. Định nghĩa một ánh xạ $x \mapsto g'_x$ từ $X'$ vào $\Gamma$ bằng cách đặt $g'_x = g_x$ nếu $x \neq b$, $g'_b = g_bg_a$. Gọi $\xi', \eta'$ là các hạn chế của $\xi, \eta$ trên $X'$. Giả thiết quy nạp áp dụng được, nên $p_{\xi'}$ và $p_{\eta'}$ liên hợp. Nhưng hiển nhiên $p_{\xi'} = p_{\xi}, p_{\eta'} = p_{\eta}$, chứng minh bổ đề trong trường hợp này.
 
-3) Giả sử rằng $ a $ là phần tử lớn nhất của $ X $ đối với $ \xi $. Gọi $ X_1 $ (resp. $ X_2 $) là tập hợp các phần tử của $ X - \{a\} $ lớn hơn hẳn (resp. nhỏ hơn hẳn) $ b $; gọi $ \xi_i $ là hạn chế của $ \xi $ lên $ X_i $. Khi đó
+3) Giả sử rằng $a$ là phần tử lớn nhất của $X$ đối với $\xi$. Gọi $X_1$ (resp. $X_2$) là tập hợp các phần tử của $X - \{a\}$ lớn hơn hẳn (resp. nhỏ hơn hẳn) $b$; gọi $\xi_i$ là hạn chế của $\xi$ lên $X_i$. Khi đó
 
 $$
 p_{\xi} = p_{\xi_1} g_b p_{\xi_2} g_a = p_{\xi_1} g_b g_a p_{\xi_2},
 $$
 
-và phần tử này liên hợp với $ p_{\xi_2} p_{\xi_1} g_b g_a $. Do đó ta được quy về trường hợp 2).
+và phần tử này liên hợp với $p_{\xi_2} p_{\xi_1} g_b g_a$. Do đó ta được quy về trường hợp 2).
 
-4) Trong trường hợp tổng quát, gọi $ X_3 $ (tương ứng $ X_4 $) là tập hợp các phần tử của $ X $ lớn hơn hẳn (tương ứng nhỏ hơn hẳn) $ a $; gọi $ \xi_i $ là hạn chế của $ \xi $ lên $ X_i $. Khi đó $ p_{\xi} = p_{\xi_3} g_a p_{\xi_4} $, và phần tử này liên hợp với $ p_{\xi_4} p_{\xi_3} g_a $. Như vậy ta được quy về trường hợp 3).
+4) Trong trường hợp tổng quát, gọi $X_3$ (tương ứng $X_4$) là tập hợp các phần tử của $X$ lớn hơn hẳn (tương ứng nhỏ hơn hẳn) $a$; gọi $\xi_i$ là hạn chế của $\xi$ lên $X_i$. Khi đó $p_{\xi} = p_{\xi_3} g_a p_{\xi_4}$, và phần tử này liên hợp với $p_{\xi_4} p_{\xi_3} g_a$. Như vậy ta được quy về trường hợp 3).
 
-Suy ra từ Mệnh đề 1 rằng tất cả các phép biến đổi Coxeter đều có cùng một cấp $ h = h(W) $. Số này được gọi là *số Coxeter* của $ W $.
+Suy ra từ Mệnh đề 1 rằng tất cả các phép biến đổi Coxeter đều có cùng một cấp $h = h(W)$. Số này được gọi là *số Coxeter* của $W$.
 
 #### Nhận xét {#lie-v-s6-n1-rem-1 .statement}
 
-Cho $ W_1, \ldots, W_m $ là các nhóm hữu hạn cốt yếu tác động trong các không gian $ V_1, \ldots, V_m $ và sinh bởi các phép phản xạ. Cho $ C_j $ là một buồng đối với $ W_j $. Cho $ W $ là nhóm $ W_1 \times \cdots \times W_m $ tác động trong không gian $ V_1 \times \cdots \times V_m $. Khi đó $ C_1 \times \cdots \times C_m $ là một buồng đối với $ W $. Các phép biến đổi Coxeter của $ W $ được xác định bởi $ C $ là các tích $ c_1 c_2 \ldots c_m $, trong đó $ c_j $ là một phép biến đổi Coxeter của $ W_j $ được xác định bởi $ C_j $.
+Cho $W_1, \ldots, W_m$ là các nhóm hữu hạn cốt yếu tác động trong các không gian $V_1, \ldots, V_m$ và sinh bởi các phép phản xạ. Cho $C_j$ là một buồng đối với $W_j$. Cho $W$ là nhóm $W_1 \times \cdots \times W_m$ tác động trong không gian $V_1 \times \cdots \times V_m$. Khi đó $C_1 \times \cdots \times C_m$ là một buồng đối với $W$. Các phép biến đổi Coxeter của $W$ được xác định bởi $C$ là các tích $c_1 c_2 \ldots c_m$, trong đó $c_j$ là một phép biến đổi Coxeter của $W_j$ được xác định bởi $C_j$.
 
 ### 2. CÁC GIÁ TRỊ RIÊNG CỦA MỘT PHÉP BIẾN ĐỔI COXETER
 
-Vì mọi phép biến đổi Coxeter đều liên hợp với nhau (no. 1, Mệnh đề 1), nên chúng đều có cùng đa thức đặc trưng $ P(T) $. Gọi $ h $ là số Coxeter của $ W $. Khi đó
+Vì mọi phép biến đổi Coxeter đều liên hợp với nhau (no. 1, Mệnh đề 1), nên chúng đều có cùng đa thức đặc trưng $P(T)$. Gọi $h$ là số Coxeter của $W$. Khi đó
 
 $$
 P(T) = \prod_{j=1}^l \left( T - \exp \frac{2i \pi m_j}{h} \right),
 $$
 
-trong đó $ m_1, m_2, \ldots, m_l $ là các số nguyên sao cho
+trong đó $m_1, m_2, \ldots, m_l$ là các số nguyên sao cho
 
 $$
 0 \leq m_1 \leq m_2 \leq \cdots \leq m_l < h.
@@ -88,23 +88,23 @@ $$
 
 #### Định nghĩa 2 {#lie-v-s6-def-2 .statement}
 
-*Các số nguyên* $ m_1, m_2, \ldots, m_l $ *được gọi là các số mũ của* W.
+*Các số nguyên* $m_1, m_2, \ldots, m_l$ *được gọi là các số mũ của* W.
 
-Cho C là một buồng được xác định bởi $ \mathfrak{H}, H_1, \ldots, H_l $ là các mặt của nó, và đặt $ s_i = s_{H_i} $. Ký hiệu $ e_i $ là vectơ đơn vị trực giao với $ H_i $ và ở cùng phía của $ H_i $ như C. Theo Mệnh đề 2 của phụ lục của Chương IV, ta có thể giả sử rằng các $ H_i $ được đánh số sao cho $ e_1, e_2, \ldots, e_r $ trực giao từng đôi một và $ e_{r+1}, e_{r+2}, \ldots, e_l $ trực giao từng đôi một. Khi đó $ s' = s_1 s_2 \ldots s_r $ là phép đối xứng trực giao đối với không gian con
+Cho C là một buồng được xác định bởi $\mathfrak{H}, H_1, \ldots, H_l$ là các mặt của nó, và đặt $s_i = s_{H_i}$. Ký hiệu $e_i$ là vectơ đơn vị trực giao với $H_i$ và ở cùng phía của $H_i$ như C. Theo Mệnh đề 2 của phụ lục của Chương IV, ta có thể giả sử rằng các $H_i$ được đánh số sao cho $e_1, e_2, \ldots, e_r$ trực giao từng đôi một và $e_{r+1}, e_{r+2}, \ldots, e_l$ trực giao từng đôi một. Khi đó $s' = s_1 s_2 \ldots s_r$ là phép đối xứng trực giao đối với không gian con
 
 $$
 V' = H_1 \cap H_2 \cap \cdots \cap H_r,
 $$
 
-$ s'' = s_{r+1} s_{r+2} \ldots s_l $ là phép đối xứng trực giao đối với không gian con
+$s'' = s_{r+1} s_{r+2} \ldots s_l$ là phép đối xứng trực giao đối với không gian con
 
 $$
 V'' = H_{r+1} \cap H_{r+2} \cap \cdots \cap H_l,
 $$
 
-và $ c = s' s'' $ là một phép biến đổi Coxeter. Vì $ (e_1, \ldots, e_l) $ là một cơ sở của V, nên V là tổng trực tiếp của $ V' $ và $ V'' $.
+và $c = s' s''$ là một phép biến đổi Coxeter. Vì $(e_1, \ldots, e_l)$ là một cơ sở của V, nên V là tổng trực tiếp của $V'$ và $V''$.
 
-Trước hết ta suy ra rằng 1 *không phải là một trị riêng của* c. Thật vậy, nếu $ x \in V $ sao cho $ c(x) = x $, thì $ s'(x) = s''(x) $, nên $ x - s'(x) = x - s''(x) $ trực giao với $ V' $ và $ V'' $, và do đó bằng không. Vậy, $ x = s'(x) = s''(x) \in V' \cap V'' = \{0\} $.
+Trước hết ta suy ra rằng 1 *không phải là một trị riêng của* c. Thật vậy, nếu $x \in V$ sao cho $c(x) = x$, thì $s'(x) = s''(x)$, nên $x - s'(x) = x - s''(x)$ trực giao với $V'$ và $V''$, và do đó bằng không. Vậy, $x = s'(x) = s''(x) \in V' \cap V'' = \{0\}$.
 
 Do đó,
 
@@ -112,7 +112,7 @@ $$
 0 < m_1 \leq m_2 \leq \cdots \leq m_l < h.
 $$ (1)
 
-Đa thức đặc trưng của c có các hệ số thực. Vì vậy, với mọi $ j $, lũy thừa của $ T - \exp \frac{2i\pi m_j}{h} $ trong P(T) bằng lũy thừa của $ T - \exp \frac{2i\pi (h - m_j)}{h} $. Suy ra
+Đa thức đặc trưng của c có các hệ số thực. Vì vậy, với mọi $j$, lũy thừa của $T - \exp \frac{2i\pi m_j}{h}$ trong P(T) bằng lũy thừa của $T - \exp \frac{2i\pi (h - m_j)}{h}$. Suy ra
 
 $$
 m_j + m_{l+1-j} = h \quad (1 \leq j \leq l).
@@ -126,12 +126,12 @@ $$ (3)
 
 #### Bổ đề 2 {#lie-v-s6-lem-2 .statement}
 
-*Giả sử rằng* W *là bất khả quy và* $ \dim V \geq 2 $. *Với ký hiệu trên, tồn tại hai vectơ độc lập tuyến tính* $ z', z'' $ *sao cho*
-(i) *mặt phẳng* P *sinh bởi* $ z', z'' $ *ổn định dưới* s' *và* s'';
-(ii) *s'|P và s''|P là các phép đối xứng trực giao qua* $ Rz' $ *và* $ Rz'' $;
-(iii) *$ z', z'' \in \overline{C} $, và* $ P \cap C $ *là tập hợp các tổ hợp tuyến tính của* $ z', z'' $ *với các hệ số* > 0.
+*Giả sử rằng* W *là bất khả quy và* $\dim V \geq 2$. *Với ký hiệu trên, tồn tại hai vectơ độc lập tuyến tính* $z', z''$ *sao cho*
+(i) *mặt phẳng* P *sinh bởi* $z', z''$ *ổn định dưới* s' *và* s'';
+(ii) *s'|P và s''|P là các phép đối xứng trực giao qua* $Rz'$ *và* $Rz''$;
+(iii) *$z', z'' \in \overline{C}$, và* $P \cap C$ *là tập hợp các tổ hợp tuyến tính của* $z', z''$ *với các hệ số* > 0.
 
-Cho $ (e^1, \ldots, e^l) $ là cơ sở của V sao cho $ (e^i|e_j) = \delta_{ij} $. Khi đó C là nón đơn hình mở được xác định bởi các $ e^i $ (\S 3, no. 9, Mệnh đề 7). Hiển nhiên $ V' $ được sinh bởi $ e^{r+1}, \ldots, e^l $ và $ V'' $ bởi $ e^1, \ldots, e^r $. Gọi q là tự đồng cấu của V sao cho $ q(e^1) = e_1, \ldots, q(e^l) = e_l $. Ma trận của nó đối với $ (e^1, \ldots, e^l) $ là $ Q = ((e_i|e_j)) $. Ta có $ (e_i|e_j) \leq 0 $ với $ i \neq j $ (\S 3, no. 4, Mệnh đề 3). Vì W là bất khả quy, không tồn tại phân hoạch nào $ \{1, 2, \ldots, l\} = I_1 \cup I_2 $ sao cho $ (e_i|e_j) = 0 $ với $ i \in I_1 $ và $ j \in I_2 $. Do đó (\S 3, no. 5, Bổ đề 4) Q có một vectơ riêng $ (a_1, \ldots, a_l) $ mà mọi tọa độ đều > 0; gọi a là trị riêng tương ứng. Đặt
+Cho $(e^1, \ldots, e^l)$ là cơ sở của V sao cho $(e^i|e_j) = \delta_{ij}$. Khi đó C là nón đơn hình mở được xác định bởi các $e^i$ (\S 3, no. 9, Mệnh đề 7). Hiển nhiên $V'$ được sinh bởi $e^{r+1}, \ldots, e^l$ và $V''$ bởi $e^1, \ldots, e^r$. Gọi q là tự đồng cấu của V sao cho $q(e^1) = e_1, \ldots, q(e^l) = e_l$. Ma trận của nó đối với $(e^1, \ldots, e^l)$ là $Q = ((e_i|e_j))$. Ta có $(e_i|e_j) \leq 0$ với $i \neq j$ (\S 3, no. 4, Mệnh đề 3). Vì W là bất khả quy, không tồn tại phân hoạch nào $\{1, 2, \ldots, l\} = I_1 \cup I_2$ sao cho $(e_i|e_j) = 0$ với $i \in I_1$ và $j \in I_2$. Do đó (\S 3, no. 5, Bổ đề 4) Q có một vectơ riêng $(a_1, \ldots, a_l)$ mà mọi tọa độ đều > 0; gọi a là trị riêng tương ứng. Đặt
 
 $$
 z = a_1 e^1 + \cdots + a_l e^l,
@@ -143,7 +143,7 @@ $$
 z' = a_{r+1} e^{r+1} + \cdots + a_l e^l \in V' \cap \overline{C},
 $$
 
-và gọi $ P $ là mặt phẳng sinh bởi $ z' $ và $ z'' $. Khi đó $ P \cap C $ là tập hợp các tổ hợp tuyến tính của $ z' $ và $ z'' $ với các hệ số $ > 0 $. Quan hệ $ q(z) = az $ cho $ \sum_{j=1}^l a_j e_j = \sum_{j=1}^l aa_j e^j $; lấy tích vô hướng với $ e_k $ (với $ k \leq r $) cho
+và gọi $P$ là mặt phẳng sinh bởi $z'$ và $z''$. Khi đó $P \cap C$ là tập hợp các tổ hợp tuyến tính của $z'$ và $z''$ với các hệ số $> 0$. Quan hệ $q(z) = az$ cho $\sum_{j=1}^l a_j e_j = \sum_{j=1}^l aa_j e^j$; lấy tích vô hướng với $e_k$ (với $k \leq r$) cho
 $$
 a_k + \sum_{j=r+1}^l a_j (e_j|e_k) = aa_k; \text{ do đó}
 $$
@@ -160,84 +160,84 @@ $$
 = -z' + \sum_{j=r+1}^l a_j e_j.
 $$
 
-Do đó, $ (a-1)z'' + z' $ trực giao với $ e^1, \ldots, e^r $, tức là với $ V'' $. Suy ra $ s'' $ giữ ổn định mặt phẳng sinh bởi $ z'' $ và $ (a-1)z'' + z' $, tức là $ P $. Tương tự, $ s' $ giữ $ P $ ổn định. Vì $ z' \in P \cap V' $ và $ z'' \in P \cap V'' $, $ s'|P $ và $ s''|P $ là các phép đối xứng qua $ Rz' $ và $ Rz'' $.
+Do đó, $(a-1)z'' + z'$ trực giao với $e^1, \ldots, e^r$, tức là với $V''$. Suy ra $s''$ giữ ổn định mặt phẳng sinh bởi $z''$ và $(a-1)z'' + z'$, tức là $P$. Tương tự, $s'$ giữ $P$ ổn định. Vì $z' \in P \cap V'$ và $z'' \in P \cap V''$, $s'|P$ và $s''|P$ là các phép đối xứng qua $Rz'$ và $Rz''$.
 
 #### Định lý 1 {#lie-v-s6-thm-1 .statement}
 
 *Giả sử rằng W là bất khả quy. Khi đó:*
-(i) $ m_1 = 1, m_l = h-1 $.
-(ii) $ \mathrm{Card}(\mathfrak{H}) = \frac{1}{2} lh $.
+(i) $m_1 = 1, m_l = h-1$.
+(ii) $\mathrm{Card}(\mathfrak{H}) = \frac{1}{2} lh$.
 
-Ta giữ ký hiệu trước đó. Hạn chế của $ c = s's'' $ lên $ P $ là phép quay có góc $ 2(\widehat{z'', z'}) $ (\S 2, no. 5, Hệ quả của Mệnh đề 6). Vì $ c $ có cấp $ h $, nên $ h $ phần tử $ 1, c, \ldots, c^{h-1} $ của $ W $ từng đôi một phân biệt; do đó các phần tử $ s', s'c, \ldots, s'c^{h-1} $ cũng từng đôi một phân biệt, và phân biệt với các phần tử đứng trước vì $ c^i|P $ là một phép quay còn $ s'c^j|P $ là một phép đối xứng. Tập hợp
+Ta giữ ký hiệu trước đó. Hạn chế của $c = s's''$ lên $P$ là phép quay có góc $2(\widehat{z'', z'})$ (\S 2, no. 5, Hệ quả của Mệnh đề 6). Vì $c$ có cấp $h$, nên $h$ phần tử $1, c, \ldots, c^{h-1}$ của $W$ từng đôi một phân biệt; do đó các phần tử $s', s'c, \ldots, s'c^{h-1}$ cũng từng đôi một phân biệt, và phân biệt với các phần tử đứng trước vì $c^i|P$ là một phép quay còn $s'c^j|P$ là một phép đối xứng. Tập hợp
 $$
 \{1, c, \ldots, c^{h-1}, s', s'c, \ldots, s'c^{h-1}\}
 $$
-là nhóm con $ W' $ của $ W $ sinh bởi $ s' $ và $ s'' $, và cảm sinh trên $ P $ nhóm $ W'' $ sinh bởi các phép đối xứng trực giao đối với $ Rz', Rz'' $. Biến đổi của $ C $ bởi một phần tử của $ W' $ hoặc rời nhau với $ -C $ hoặc bằng $ -C $. Do đó, biến đổi của $ P \cap C $ bởi một phần tử của $ W'' $ hoặc rời nhau với $ -(P \cap C) $ hoặc bằng $ -(P \cap C) $. Vậy, với một hướng thích hợp của P, tồn tại một số nguyên $ m > 0 $ sao cho $ (\overline{z''}, z') = \frac{\pi}{m} $ (\S 2, no. 5, Hệ quả của Mệnh đề 7). Hơn nữa, các tập hợp $ g'(C) $, với $ g' \in W' $, từng đôi một rời nhau; do đó các tập hợp $ g''(P \cap C) $, với $ g'' \in W'' $, từng đôi một rời nhau; vì thế $ W'' $ có cấp $ 2h $. Suy ra $ m = h $. Theo định nghĩa, $ c|P $ là một phép quay có góc $ \frac{2\pi}{m} $, nên có các giá trị riêng $ \exp \frac{2i\pi}{h} $, $ \exp \frac{2i\pi(h-1)}{h} $. Điều này chứng tỏ rằng $ m_1 = 1, m_l = h - 1 $.
+là nhóm con $W'$ của $W$ sinh bởi $s'$ và $s''$, và cảm sinh trên $P$ nhóm $W''$ sinh bởi các phép đối xứng trực giao đối với $Rz', Rz''$. Biến đổi của $C$ bởi một phần tử của $W'$ hoặc rời nhau với $-C$ hoặc bằng $-C$. Do đó, biến đổi của $P \cap C$ bởi một phần tử của $W''$ hoặc rời nhau với $-(P \cap C)$ hoặc bằng $-(P \cap C)$. Vậy, với một hướng thích hợp của P, tồn tại một số nguyên $m > 0$ sao cho $(\overline{z''}, z') = \frac{\pi}{m}$ (\S 2, no. 5, Hệ quả của Mệnh đề 7). Hơn nữa, các tập hợp $g'(C)$, với $g' \in W'$, từng đôi một rời nhau; do đó các tập hợp $g''(P \cap C)$, với $g'' \in W''$, từng đôi một rời nhau; vì thế $W''$ có cấp $2h$. Suy ra $m = h$. Theo định nghĩa, $c|P$ là một phép quay có góc $\frac{2\pi}{m}$, nên có các giá trị riêng $\exp \frac{2i\pi}{h}$, $\exp \frac{2i\pi(h-1)}{h}$. Điều này chứng tỏ rằng $m_1 = 1, m_l = h - 1$.
 
-Các biến đổi của $ Rz' $ và $ Rz'' $ bởi $ W' $ là $ h $ đường thẳng $ D_1, \ldots, D_h $ của P, và các điểm của $ P - (D_1 \cup \cdots \cup D_h) $ là các biến đổi, bởi các phần tử của $ W' $, của các điểm của $ P \cap C $. Vì thế, một siêu phẳng của $ \mathfrak{H} $ tất yếu cắt P theo một trong các đường thẳng $ D_i $, và do đó là một biến đổi, bởi một phép toán của $ W' $, của một siêu phẳng của $ \mathfrak{H} $ chứa $ Rz' $ hoặc $ Rz'' $.
+Các biến đổi của $Rz'$ và $Rz''$ bởi $W'$ là $h$ đường thẳng $D_1, \ldots, D_h$ của P, và các điểm của $P - (D_1 \cup \cdots \cup D_h)$ là các biến đổi, bởi các phần tử của $W'$, của các điểm của $P \cap C$. Vì thế, một siêu phẳng của $\mathfrak{H}$ tất yếu cắt P theo một trong các đường thẳng $D_i$, và do đó là một biến đổi, bởi một phép toán của $W'$, của một siêu phẳng của $\mathfrak{H}$ chứa $Rz'$ hoặc $Rz''$.
 
-Bấy giờ, mọi $ H \in \mathfrak{H} $ chứa $ Rz' $ đều là một trong các siêu phẳng $ H_1, \ldots, H_r $. Thật vậy, gọi $ e_H $ là vectơ đơn vị trực giao với H và nằm về cùng phía của H như C. Khi đó $ e_H = \lambda_1 e_1 + \cdots + \lambda_l e_l $ với các $ \lambda_i $ đều $ \geq 0 $ (\S 3, no. 5, Bổ đề 6, (i)). Bây giờ $ 0 = (e_H|z') = \lambda_{r+1} a_{r+1} + \cdots + \lambda_l a_l $, do đó
+Bấy giờ, mọi $H \in \mathfrak{H}$ chứa $Rz'$ đều là một trong các siêu phẳng $H_1, \ldots, H_r$. Thật vậy, gọi $e_H$ là vectơ đơn vị trực giao với H và nằm về cùng phía của H như C. Khi đó $e_H = \lambda_1 e_1 + \cdots + \lambda_l e_l$ với các $\lambda_i$ đều $\geq 0$ (\S 3, no. 5, Bổ đề 6, (i)). Bây giờ $0 = (e_H|z') = \lambda_{r+1} a_{r+1} + \cdots + \lambda_l a_l$, do đó
 $$
 \lambda_{r+1} = \cdots = \lambda_l = 0, \quad \text{và} \quad e_H = \lambda_1 e_1 + \cdots + \lambda_r e_r.
 $$
-Giả sử có hai trong các $ \lambda_i $ khác không, chẳng hạn $ \lambda_1 $ và $ \lambda_2 $; vì $ e_1, \ldots, e_r $ trực giao từng đôi một, ta sẽ có
+Giả sử có hai trong các $\lambda_i$ khác không, chẳng hạn $\lambda_1$ và $\lambda_2$; vì $e_1, \ldots, e_r$ trực giao từng đôi một, ta sẽ có
 $$
 s_1(e_H) = -\lambda_1 e_1 + \lambda_2 e_2 + \cdots + \lambda_r e_r
 $$
-và các tọa độ của $ s_1(e_H) $ sẽ không cùng dấu, điều này là vô lý (*loc. cit.*). Vậy $ e_H $ tỉ lệ với một trong các vectơ $ e_1, \ldots, e_r $, điều đó chứng minh mệnh đề của ta. Tương tự, mọi $ H \in \mathfrak{H} $ chứa $ Rz'' $ đều là một trong các siêu phẳng $ H_{r+1}, \ldots, H_l $.
+và các tọa độ của $s_1(e_H)$ sẽ không cùng dấu, điều này là vô lý (*loc. cit.*). Vậy $e_H$ tỉ lệ với một trong các vectơ $e_1, \ldots, e_r$, điều đó chứng minh mệnh đề của ta. Tương tự, mọi $H \in \mathfrak{H}$ chứa $Rz''$ đều là một trong các siêu phẳng $H_{r+1}, \ldots, H_l$.
 
-Vì thế, số phần tử của $ \mathfrak{H} $ chứa $ Rz' $ hoặc $ Rz'' $ là $ l $. Nếu $ h $ chẵn thì $ \mathrm{Card}(\mathfrak{H}) $ do đó bằng $ \frac{h}{2} l $. Nếu $ h $ lẻ thì $ \mathrm{Card}(\mathfrak{H}) $ bằng $ \frac{h-1}{2} l + r $, và cũng bằng $ \frac{h-1}{2} l + (l - r) $; suy ra $ r = l - r $, nên $ r = \frac{l}{2} $, và $ \mathrm{Card}(\mathfrak{H}) = \frac{h-1}{2} l + \frac{l}{2} = \frac{h}{2} l $.
+Vì thế, số phần tử của $\mathfrak{H}$ chứa $Rz'$ hoặc $Rz''$ là $l$. Nếu $h$ chẵn thì $\mathrm{Card}(\mathfrak{H})$ do đó bằng $\frac{h}{2} l$. Nếu $h$ lẻ thì $\mathrm{Card}(\mathfrak{H})$ bằng $\frac{h-1}{2} l + r$, và cũng bằng $\frac{h-1}{2} l + (l - r)$; suy ra $r = l - r$, nên $r = \frac{l}{2}$, và $\mathrm{Card}(\mathfrak{H}) = \frac{h-1}{2} l + \frac{l}{2} = \frac{h}{2} l$.
 
 #### Nhận xét {#lie-v-s6-n2-rem-1 .statement}
 
-Giữ lại ký hiệu của chứng minh trước. Gọi $ c' $ là mở rộng $ \mathbf{C} $-tuyến tính của $ c $ lên $ V \otimes_{\mathbf{R}} \mathbf{C} $, và $ c'' $ là hạn chế của $ c' $ lên $ P \otimes_{\mathbf{R}} \mathbf{C} $. Từ việc nghiên cứu $ c|P $, $ c'' $ có một vectơ riêng $ x $ tương ứng với trị riêng $ \exp \frac{2i\pi}{h} $, và vectơ riêng này không thuộc bất kỳ tập hợp nào trong các tập hợp $ D \otimes_{\mathbf{R}} \mathbf{C} $, trong đó D ký hiệu một đường thẳng của P (vì D không ổn định dưới c). Bây giờ, với mọi $ H \in \mathfrak{H} $, ta đã thấy rằng $ H \cap P $ là một đường thẳng; do đó, $ x \notin H \otimes_{\mathbf{R}} \mathbf{C} $.
+Giữ lại ký hiệu của chứng minh trước. Gọi $c'$ là mở rộng $\mathbf{C}$-tuyến tính của $c$ lên $V \otimes_{\mathbf{R}} \mathbf{C}$, và $c''$ là hạn chế của $c'$ lên $P \otimes_{\mathbf{R}} \mathbf{C}$. Từ việc nghiên cứu $c|P$, $c''$ có một vectơ riêng $x$ tương ứng với trị riêng $\exp \frac{2i\pi}{h}$, và vectơ riêng này không thuộc bất kỳ tập hợp nào trong các tập hợp $D \otimes_{\mathbf{R}} \mathbf{C}$, trong đó D ký hiệu một đường thẳng của P (vì D không ổn định dưới c). Bây giờ, với mọi $H \in \mathfrak{H}$, ta đã thấy rằng $H \cap P$ là một đường thẳng; do đó, $x \notin H \otimes_{\mathbf{R}} \mathbf{C}$.
 
 #### Hệ quả {#lie-v-s6-n2-cor-1 .statement}
 
-*Cho $ R_0 $ là tập hợp các vectơ đơn vị của $ V $ trực giao với một phần tử của $ \mathfrak{H} $. Nếu $ W $ là bất khả quy,*
+*Cho $R_0$ là tập hợp các vectơ đơn vị của $V$ trực giao với một phần tử của $\mathfrak{H}$. Nếu $W$ là bất khả quy,*
 
 $$
 \sum_{u \in R_0} (x|u)^2 = h(x|x)
 $$
 
-*với mọi $ x \in V $.*
+*với mọi $x \in V$.*
 
-Đặt $ f(x) = \sum_{u \in R_0} (x|u)^2 $. Hiển nhiên $ f $ là một dạng toàn phương dương bất biến dưới $ W $, và không suy biến vì các $ e_i $ lập thành một cơ sở của $ V $. Vì
+Đặt $f(x) = \sum_{u \in R_0} (x|u)^2$. Hiển nhiên $f$ là một dạng toàn phương dương bất biến dưới $W$, và không suy biến vì các $e_i$ lập thành một cơ sở của $V$. Vì
 
-W là bất khả quy, nên tồn tại một hằng $ \beta $ sao cho $ f(x) = \beta(x|x) $ (\S 2, no. 1, Mệnh đề 1). Nếu $ (x_i)_{1 \leq i \leq l} $ là một cơ sở trực chuẩn của V đối với tích vô hướng $ (x|y) $, thì
+W là bất khả quy, nên tồn tại một hằng $\beta$ sao cho $f(x) = \beta(x|x)$ (\S 2, no. 1, Mệnh đề 1). Nếu $(x_i)_{1 \leq i \leq l}$ là một cơ sở trực chuẩn của V đối với tích vô hướng $(x|y)$, thì
 $$
 \beta l = \sum_{i=1}^l \beta(x_i|x_i) = \sum_{i=1}^l f(x_i) = \sum_{i=1}^l \sum_{u \in R_0} (x_i|u)^2 \\
 = \sum_{u \in R_0} 1 = \mathrm{Card}(R_0) = 2\mathrm{Card}(\mathfrak{H}) = hl.
 $$
-Vậy $ \beta = h $, điều này chứng minh (4).
+Vậy $\beta = h$, điều này chứng minh (4).
 
 #### Mệnh đề 2 {#lie-v-s6-prop-2 .statement}
 
-*Nếu W là bất khả quy và h là chẵn, thì phần tử duy nhất của W biến đổi C thành −C là $ c^{h/2} $*.
+*Nếu W là bất khả quy và h là chẵn, thì phần tử duy nhất của W biến đổi C thành −C là $c^{h/2}$*.
 
-Ta dùng ký hiệu trong chứng minh của Định lý 1. Vì $ c|P $ là một phép quay qua góc $ \frac{2\pi}{h} $, $ c^{h/2} $ biến đổi $ z' $ thành $ -z' $, $ z'' $ thành $ -z'' $, và do đó $ z' + z'' = z $ thành $ -z $. Bây giờ $ z \in C $, nên buồng $ c^{h/2}(C) $ tất yếu là $ -C $.
+Ta dùng ký hiệu trong chứng minh của Định lý 1. Vì $c|P$ là một phép quay qua góc $\frac{2\pi}{h}$, $c^{h/2}$ biến đổi $z'$ thành $-z'$, $z''$ thành $-z''$, và do đó $z' + z'' = z$ thành $-z$. Bây giờ $z \in C$, nên buồng $c^{h/2}(C)$ tất yếu là $-C$.
 
 #### Mệnh đề 3 {#lie-v-s6-prop-3 .statement}
 
-*Giả sử rằng W là bất khả quy. Gọi $ u_1, \ldots, u_l $ là các phần tử thuần nhất của đại số đối xứng $ S = S(V) $, độc lập đại số trên $ \mathbf{R} $ và sinh đại số các phần tử của S bất biến dưới W (\S 5, no. 3, Đl. 3). Nếu $ p_j $ là bậc của $ u_j $, thì các số mũ của W là $ p_1 - 1, \ldots, p_l - 1 $*.
+*Giả sử rằng W là bất khả quy. Gọi $u_1, \ldots, u_l$ là các phần tử thuần nhất của đại số đối xứng $S = S(V)$, độc lập đại số trên $\mathbf{R}$ và sinh đại số các phần tử của S bất biến dưới W (\S 5, no. 3, Đl. 3). Nếu $p_j$ là bậc của $u_j$, thì các số mũ của W là $p_1 - 1, \ldots, p_l - 1$*.
 
-Đặt $ V' = V \otimes_{\mathbf{R}} \mathbf{C} $, $ S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C} $, và mở rộng tích vô hướng trên V thành một dạng Hermit trên $ V' $. Nếu $ c $ là một phép biến đổi Coxeter của W, thì tồn tại một cơ sở trực chuẩn $ (X_i)_{1 \leq i \leq l} $ của $ V' $ gồm các vectơ riêng của $ c \otimes 1 $ (*Đại số*, Chap. IX, \S 7, no. 3, Mệnh đề 4); hơn nữa, ta có thể giả sử rằng, với $ 1 \leq j \leq l $, $ X_j $ ứng với trị riêng $ \exp \frac{2i\pi m_j}{h} $ của $ c \otimes 1 $. Hiển nhiên $ S' $ có thể được đồng nhất với đại số $ \mathbf{C}[X_1, \ldots, X_l] $, và ta có thể viết $ u_j \otimes 1 = f_j(X_1, \ldots, X_l) $, trong đó $ f_j $ là một đa thức thuần nhất bậc $ p_j $ trong $ \mathbf{C}[X_1, \ldots, X_l] $. Đặt $ D_j = \frac{\partial}{\partial X_j} $ và $ J = \det(D_k f_j) $. Nhắc lại (\S 5, no. 4, Mệnh đề 5) rằng $ J(X_1, \ldots, X_l) $ tỉ lệ với tích trong $ S' $ của $ \mathrm{Card}(\mathfrak{H}) $ vectơ $ y_k $ của V mà mỗi vectơ đều trực giao với một siêu phẳng của $ \mathfrak{H} $. Vì ta có thể giả sử rằng $ X_1 \notin H \otimes \mathbf{C} $ với mọi $ H \in \mathfrak{H} $ (*Nhận xét*), thành phần theo $ X_1 $ của mỗi vectơ $ y_k $ đều khác không, nên $ J(1, 0, \ldots, 0) \neq 0 $. Quy tắc khai triển định thức khi đó chứng minh sự tồn tại của một phép hoán vị $ \sigma $ của $ \{1, 2, \ldots, l\} $ sao cho $ (D_{\sigma(j)} f_j)(1, 0, \ldots, 0) \neq 0 $ với mọi $ j $. Vì $ D_{\sigma(j)} f_j $ là thuần nhất bậc $ p_j - 1 $, hệ số của $ X_1^{p_j - 1} X_{\sigma(j)} $ trong $ f_j(X_1, \ldots, X_l) $ là khác không. Mà $ f_j(X_1, \ldots, X_l) $ là bất biến dưới $ c \otimes 1 $, và
+Đặt $V' = V \otimes_{\mathbf{R}} \mathbf{C}$, $S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C}$, và mở rộng tích vô hướng trên V thành một dạng Hermit trên $V'$. Nếu $c$ là một phép biến đổi Coxeter của W, thì tồn tại một cơ sở trực chuẩn $(X_i)_{1 \leq i \leq l}$ của $V'$ gồm các vectơ riêng của $c \otimes 1$ (*Đại số*, Chap. IX, \S 7, no. 3, Mệnh đề 4); hơn nữa, ta có thể giả sử rằng, với $1 \leq j \leq l$, $X_j$ ứng với trị riêng $\exp \frac{2i\pi m_j}{h}$ của $c \otimes 1$. Hiển nhiên $S'$ có thể được đồng nhất với đại số $\mathbf{C}[X_1, \ldots, X_l]$, và ta có thể viết $u_j \otimes 1 = f_j(X_1, \ldots, X_l)$, trong đó $f_j$ là một đa thức thuần nhất bậc $p_j$ trong $\mathbf{C}[X_1, \ldots, X_l]$. Đặt $D_j = \frac{\partial}{\partial X_j}$ và $J = \det(D_k f_j)$. Nhắc lại (\S 5, no. 4, Mệnh đề 5) rằng $J(X_1, \ldots, X_l)$ tỉ lệ với tích trong $S'$ của $\mathrm{Card}(\mathfrak{H})$ vectơ $y_k$ của V mà mỗi vectơ đều trực giao với một siêu phẳng của $\mathfrak{H}$. Vì ta có thể giả sử rằng $X_1 \notin H \otimes \mathbf{C}$ với mọi $H \in \mathfrak{H}$ (*Nhận xét*), thành phần theo $X_1$ của mỗi vectơ $y_k$ đều khác không, nên $J(1, 0, \ldots, 0) \neq 0$. Quy tắc khai triển định thức khi đó chứng minh sự tồn tại của một phép hoán vị $\sigma$ của $\{1, 2, \ldots, l\}$ sao cho $(D_{\sigma(j)} f_j)(1, 0, \ldots, 0) \neq 0$ với mọi $j$. Vì $D_{\sigma(j)} f_j$ là thuần nhất bậc $p_j - 1$, hệ số của $X_1^{p_j - 1} X_{\sigma(j)}$ trong $f_j(X_1, \ldots, X_l)$ là khác không. Mà $f_j(X_1, \ldots, X_l)$ là bất biến dưới $c \otimes 1$, và
 $$
 (c \otimes 1)(X_1^{p_j - 1} X_{\sigma(j)}) = \left( \exp \frac{2i\pi}{h} (p_j - 1 + m_{\sigma(j)}) \right) (X_1^{p_j - 1} X_{\sigma(j)}).
 $$
-Điều này chứng minh rằng $ p_j - 1 + m_{\sigma(j)} \equiv 0 $ (mod. $ h $). Khi đó $ h - m_{\sigma(j)} $ là một số mũ (công thức (2)). Hoán vị các $ u_j $ nếu cần, ta có thể giả sử rằng $ p_j - 1 \equiv m_j $ (mod. $ h $) với mọi $ j $. Vì $ p_j - 1 \geq 0 $ và $ m_j < h $, ta có $ p_j - 1 = m_j + \mu_j h $ với $ \mu_j $ là một số nguyên $ \geq 0 $. Theo \S 5, Mệnh đề 3, ta thấy rằng
+Điều này chứng minh rằng $p_j - 1 + m_{\sigma(j)} \equiv 0$ (mod. $h$). Khi đó $h - m_{\sigma(j)}$ là một số mũ (công thức (2)). Hoán vị các $u_j$ nếu cần, ta có thể giả sử rằng $p_j - 1 \equiv m_j$ (mod. $h$) với mọi $j$. Vì $p_j - 1 \geq 0$ và $m_j < h$, ta có $p_j - 1 = m_j + \mu_j h$ với $\mu_j$ là một số nguyên $\geq 0$. Theo \S 5, Mệnh đề 3, ta thấy rằng
 
 $$
 \operatorname{Card}(\mathfrak{H}) = \sum_{j=1}^{l} (p_j - 1) = \sum_{j=1}^{l} m_j + h \sum_{j=1}^{l} \mu_j.
 $$
 
-Có tính đến công thức (3) và Định lý 1 (ii), ta thu được $ h \sum_{j=1}^{l} \mu_j = 0 $, nên $ \mu_j = 0 $ với mọi $ j $, và cuối cùng $ p_j - 1 = m_j $ với mọi $ j $.
+Có tính đến công thức (3) và Định lý 1 (ii), ta thu được $h \sum_{j=1}^{l} \mu_j = 0$, nên $\mu_j = 0$ với mọi $j$, và cuối cùng $p_j - 1 = m_j$ với mọi $j$.
 
 #### Hệ quả 1 {#lie-v-s6-prop-3-cor-1 .statement}
 
 *Nếu* $(m_i)_{1 \leq i \leq l}$ *là dãy tăng các số mũ của* W, *thì cấp của* W *bằng* $(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)$.
 
-Điều này suy ra từ các hệ thức $ m_j + 1 = p_j $ và § 5, Hệ quả của Định lý 3.
+Điều này suy ra từ các hệ thức $m_j + 1 = p_j$ và § 5, Hệ quả của Định lý 3.
 
 #### Hệ quả 2 {#lie-v-s6-prop-3-cor-2 .statement}
 
@@ -253,7 +253,7 @@ Nếu không, sẽ tồn tại hai bất biến thuần nhất bậc 2 trong S k
 
 #### Hệ quả 3 {#lie-v-s6-prop-3-cor-3 .statement}
 
-*Phép vị tự tỉ số* −1 *của* V *thuộc* W *khi và chỉ khi mọi số mũ của* W *đều lẻ. Trong trường hợp đó, h chẵn và* $ c^{h/2} = -1 $ *đối với mọi phép biến đổi Coxeter* c *của* W.
+*Phép vị tự tỉ số* −1 *của* V *thuộc* W *khi và chỉ khi mọi số mũ của* W *đều lẻ. Trong trường hợp đó, h chẵn và* $c^{h/2} = -1$ *đối với mọi phép biến đổi Coxeter* c *của* W.
 
 Mệnh đề thứ nhất suy ra từ § 5, no. 3, Mệnh đề 4. Giả sử các số mũ của W đều lẻ. Khi đó h chẵn theo công thức (2), và
 
@@ -261,7 +261,7 @@ $$
 \left( \exp \frac{2i\pi m_j}{h} \right)^{h/2} = \exp(i\pi m_j) = -1;
 $$
 
-do đó $ c^{h/2} = -1 $ vì c là một tự đẳng cấu nửa đơn của V (*Đại số*, Chap. IX, § 7, no. 3, Mệnh đề 4).
+do đó $c^{h/2} = -1$ vì c là một tự đẳng cấu nửa đơn của V (*Đại số*, Chap. IX, § 7, no. 3, Mệnh đề 4).
 
 ### Bài tập {#lie-v-s6-exercises}
 

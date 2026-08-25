@@ -13,11 +13,11 @@ pdf_pages: 0493-0493
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5bdae1fba33570061ef5f38320a3212bdd9261a320e49fc09d39b93c2838d309
+content_sha256: 0758c57ab6942833dd9219ce64906878d061350f65d3749f70a9eece667863df
 ---
 
 ## CHAPTER VII
 
 # Divisors
 
-All the rings considered in this chapter are assumed to be commutative and to possess a unit element. All the ring homomorphisms are assumed to map unit element to unit element. Every subring of a ring $ A $ is assumed to contain the unit element of $ A $.
+All the rings considered in this chapter are assumed to be commutative and to possess a unit element. All the ring homomorphisms are assumed to map unit element to unit element. Every subring of a ring $A$ is assumed to contain the unit element of $A$.

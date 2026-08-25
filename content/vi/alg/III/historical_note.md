@@ -13,7 +13,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6d086b9012b66ad4afc866aea624beb6ea326b2b1bd5d8c9429f36be538ceccc
+content_sha256: 3c14dd05a7d164b088e57d9e2055bd53ac660021c557486fef9e72977b5ade91
 translated_from: content/en/alg/III/historical_note.md
 source_content_sha256: 5af65f5b13b8975b7fe850a1f1e5ddf05b39234af5824438937534fd1b3b408e
 translation_model: gpt-5-6-mini
@@ -29,7 +29,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 (Chú thích. Các số trong ngoặc vuông chỉ các tài liệu tham khảo ở cuối Ghi chú này.)
 
-Đại số tuyến tính vừa là một trong những ngành toán học cổ xưa nhất, vừa là một trong những ngành mới nhất. Mặt khác, ở nguồn gốc của toán học là các bài toán được giải bằng một phép nhân hoặc phép chia duy nhất, tức là bằng cách tính một giá trị của một hàm $ f(x) = ax $, hoặc bằng cách giải một phương trình $ ax = b $: đây là những bài toán điển hình của đại số tuyến tính và không thể xử lý chúng, thậm chí không thể đặt chúng một cách đúng đắn, nếu không "suy nghĩ tuyến tính".
+Đại số tuyến tính vừa là một trong những ngành toán học cổ xưa nhất, vừa là một trong những ngành mới nhất. Mặt khác, ở nguồn gốc của toán học là các bài toán được giải bằng một phép nhân hoặc phép chia duy nhất, tức là bằng cách tính một giá trị của một hàm $f(x) = ax$, hoặc bằng cách giải một phương trình $ax = b$: đây là những bài toán điển hình của đại số tuyến tính và không thể xử lý chúng, thậm chí không thể đặt chúng một cách đúng đắn, nếu không "suy nghĩ tuyến tính".
 
 Mặt khác, không chỉ những câu hỏi này mà hầu như mọi thứ liên quan đến các phương trình bậc nhất đều đã từ lâu bị xếp vào việc giảng dạy sơ cấp, khi sự phát triển hiện đại của các khái niệm trường, vành, không gian vectơ tôpô, v.v. đã tách ra và nhấn mạnh các khái niệm cốt yếu của đại số tuyến tính (chẳng hạn tính đối ngẫu); khi đó người ta nhận thấy đặc trưng tuyến tính cốt yếu của gần như toàn bộ toán học hiện đại, mà "tuyến tính hóa" tự nó là một trong những nét phân biệt, và đại số tuyến tính đã được dành cho vị trí xứng đáng của nó. Vì vậy, để trình bày lịch sử của nó, từ quan điểm hiện nay của chúng ta, sẽ là một công việc khó khăn cũng như quan trọng; và do đó chúng ta phải bằng lòng với việc đưa ra một bản tóm tắt ngắn gọn.
 
@@ -39,37 +39,37 @@ Từ những điều trên có thể thấy rằng đại số tuyến tính ch�
 
 Pisa và vô số "sách tính toán" của thời Trung cổ và thời Phục hưng; nhưng chúng chưa bao giờ tạo thành nhiều hơn một phần nhỏ, dành cho việc sử dụng của những người thực hành, trong các lý thuyết khoa học tiên tiến nhất.
 
-Còn đối với các nhà toán học thực sự, bản chất nghiên cứu của họ về đại số tuyến tính phụ thuộc vào cấu trúc chung của khoa học của họ. Toán học Hy Lạp cổ đại, như được trình bày trong *Cơ sở* của Euclid, đã phát triển hai lý thuyết trừu tượng có tính chất tuyến tính, một mặt là lý thuyết về đại lượng ([2], Quyển V; xem Ghi chú lịch sử về *Tôpô đại cương*, IV) và mặt khác là lý thuyết về số nguyên ([2], Quyển VII). Với người Babylon, ta tìm thấy những phương pháp gần với đại số sơ cấp của chúng ta hơn nhiều; họ biết cách giải, và rất đẹp ([1], tr. 181–183), các hệ phương trình bậc nhất. Tuy nhiên, trong một thời gian rất dài, sự tiến bộ của đại số tuyến tính chủ yếu bị giới hạn trong sự tiến bộ của các phép tính đại số và chúng phải được xem xét từ quan điểm này, vốn nằm ngoài Ghi chú này; để rút gọn một hệ tuyến tính về một phương trình kiểu $ ax = b $, chỉ cần, trong trường hợp có một ẩn số, biết các quy tắc (về bản chất đã được Diophantus phát biểu) để chuyển các số hạng từ vế này sang vế kia và kết hợp các số hạng đồng dạng; và, trong trường hợp có nhiều ẩn số, còn cần biết cách khử chúng lần lượt cho đến khi chỉ còn lại một ẩn số. Vì vậy, các Luận thuyết về đại số, cho đến thế kỷ XVIII, cho rằng mọi thứ đã hoàn tất đối với bậc nhất khi họ đã trình bày các quy tắc này; còn đối với một hệ có số phương trình bằng số ẩn số (họ không xét các hệ khác) mà các vế trái không phải là các dạng độc lập tuyến tính, họ chỉ bằng lòng nhận xét chuyển qua rằng điều này chỉ ra một bài toán được đặt không đúng. Trong các luận thuyết của thế kỷ XIX và thậm chí trong một số công trình gần đây hơn, quan điểm này chỉ được thay đổi bởi sự tiến bộ của ký hiệu, cho phép viết các hệ $ n $ phương trình với $ n $ ẩn số, và bởi việc đưa vào các định thức cho phép đưa ra các công thức của một nghiệm tường minh trong "trường hợp tổng quát"; sự tiến bộ này, công lao đáng lẽ thuộc về Leibniz ([7], p. 239) nếu ông đã phát triển và công bố các ý tưởng của mình về chủ đề này, chủ yếu là nhờ các nhà toán học của thế kỷ XVIII và đầu thế kỷ XIX.
+Còn đối với các nhà toán học thực sự, bản chất nghiên cứu của họ về đại số tuyến tính phụ thuộc vào cấu trúc chung của khoa học của họ. Toán học Hy Lạp cổ đại, như được trình bày trong *Cơ sở* của Euclid, đã phát triển hai lý thuyết trừu tượng có tính chất tuyến tính, một mặt là lý thuyết về đại lượng ([2], Quyển V; xem Ghi chú lịch sử về *Tôpô đại cương*, IV) và mặt khác là lý thuyết về số nguyên ([2], Quyển VII). Với người Babylon, ta tìm thấy những phương pháp gần với đại số sơ cấp của chúng ta hơn nhiều; họ biết cách giải, và rất đẹp ([1], tr. 181–183), các hệ phương trình bậc nhất. Tuy nhiên, trong một thời gian rất dài, sự tiến bộ của đại số tuyến tính chủ yếu bị giới hạn trong sự tiến bộ của các phép tính đại số và chúng phải được xem xét từ quan điểm này, vốn nằm ngoài Ghi chú này; để rút gọn một hệ tuyến tính về một phương trình kiểu $ax = b$, chỉ cần, trong trường hợp có một ẩn số, biết các quy tắc (về bản chất đã được Diophantus phát biểu) để chuyển các số hạng từ vế này sang vế kia và kết hợp các số hạng đồng dạng; và, trong trường hợp có nhiều ẩn số, còn cần biết cách khử chúng lần lượt cho đến khi chỉ còn lại một ẩn số. Vì vậy, các Luận thuyết về đại số, cho đến thế kỷ XVIII, cho rằng mọi thứ đã hoàn tất đối với bậc nhất khi họ đã trình bày các quy tắc này; còn đối với một hệ có số phương trình bằng số ẩn số (họ không xét các hệ khác) mà các vế trái không phải là các dạng độc lập tuyến tính, họ chỉ bằng lòng nhận xét chuyển qua rằng điều này chỉ ra một bài toán được đặt không đúng. Trong các luận thuyết của thế kỷ XIX và thậm chí trong một số công trình gần đây hơn, quan điểm này chỉ được thay đổi bởi sự tiến bộ của ký hiệu, cho phép viết các hệ $n$ phương trình với $n$ ẩn số, và bởi việc đưa vào các định thức cho phép đưa ra các công thức của một nghiệm tường minh trong "trường hợp tổng quát"; sự tiến bộ này, công lao đáng lẽ thuộc về Leibniz ([7], p. 239) nếu ông đã phát triển và công bố các ý tưởng của mình về chủ đề này, chủ yếu là nhờ các nhà toán học của thế kỷ XVIII và đầu thế kỷ XIX.
 
-Nhưng trước hết chúng ta phải nghiên cứu các dòng tư tưởng khác nhau mà, nhiều hơn nhiều so với việc nghiên cứu các phương trình tuyến tính, đã góp phần vào sự phát triển của đại số tuyến tính theo nghĩa mà chúng ta hiểu. Lấy cảm hứng từ việc nghiên cứu Apollonius, Fermat [4(a)], sau khi đã hình thành, thậm chí trước Descartes [5], nguyên lý của hình học giải tích, có ý tưởng phân loại các đường cong phẳng theo bậc của chúng (điều mà, sau khi dần dần trở nên quen thuộc với mọi nhà toán học, có thể được xem là đã được nắm bắt hoàn toàn vào cuối thế kỷ XVII) và phát biểu nguyên lý cơ bản rằng một phương trình bậc nhất, trong mặt phẳng, biểu diễn một đường thẳng và một phương trình bậc hai biểu diễn một đường conic: một nguyên lý mà từ đó ông suy ra ngay lập tức một số hệ quả "rất đẹp" liên quan đến các quỹ tích hình học. Đồng thời, ông phát biểu [4(b)] sự phân loại các bài toán thành các bài toán có một nghiệm duy nhất, các bài toán rút gọn về một phương trình với hai ẩn số, một phương trình với ba ẩn số, v.v.; và ông thêm rằng: loại thứ nhất bao gồm việc xác định một điểm, loại thứ hai một quỹ tích đường thẳng hoặc mặt phẳng, các loại khác một mặt, v.v. ("... một bài toán như vậy không chỉ tìm kiếm một điểm hay một đường thẳng, mà là toàn bộ một mặt thích hợp với câu hỏi; ở đây các mặt như các quỹ tích có nguồn gốc của chúng và tương tự đối với phần còn lại", loc. cit., p. 186; ở đây đã có mầm mống của hình học $ n $-chiều). Bài viết này, bằng việc phát biểu nguyên lý chiều trong đại số và hình học đại số, chỉ ra sự hợp nhất của đại số và hình học hoàn toàn phù hợp với các ý tưởng hiện đại, nhưng như đã thấy, đã mất hơn hai thế kỷ để thâm nhập vào tư tưởng của con người.
+Nhưng trước hết chúng ta phải nghiên cứu các dòng tư tưởng khác nhau mà, nhiều hơn nhiều so với việc nghiên cứu các phương trình tuyến tính, đã góp phần vào sự phát triển của đại số tuyến tính theo nghĩa mà chúng ta hiểu. Lấy cảm hứng từ việc nghiên cứu Apollonius, Fermat [4(a)], sau khi đã hình thành, thậm chí trước Descartes [5], nguyên lý của hình học giải tích, có ý tưởng phân loại các đường cong phẳng theo bậc của chúng (điều mà, sau khi dần dần trở nên quen thuộc với mọi nhà toán học, có thể được xem là đã được nắm bắt hoàn toàn vào cuối thế kỷ XVII) và phát biểu nguyên lý cơ bản rằng một phương trình bậc nhất, trong mặt phẳng, biểu diễn một đường thẳng và một phương trình bậc hai biểu diễn một đường conic: một nguyên lý mà từ đó ông suy ra ngay lập tức một số hệ quả "rất đẹp" liên quan đến các quỹ tích hình học. Đồng thời, ông phát biểu [4(b)] sự phân loại các bài toán thành các bài toán có một nghiệm duy nhất, các bài toán rút gọn về một phương trình với hai ẩn số, một phương trình với ba ẩn số, v.v.; và ông thêm rằng: loại thứ nhất bao gồm việc xác định một điểm, loại thứ hai một quỹ tích đường thẳng hoặc mặt phẳng, các loại khác một mặt, v.v. ("... một bài toán như vậy không chỉ tìm kiếm một điểm hay một đường thẳng, mà là toàn bộ một mặt thích hợp với câu hỏi; ở đây các mặt như các quỹ tích có nguồn gốc của chúng và tương tự đối với phần còn lại", loc. cit., p. 186; ở đây đã có mầm mống của hình học $n$-chiều). Bài viết này, bằng việc phát biểu nguyên lý chiều trong đại số và hình học đại số, chỉ ra sự hợp nhất của đại số và hình học hoàn toàn phù hợp với các ý tưởng hiện đại, nhưng như đã thấy, đã mất hơn hai thế kỷ để thâm nhập vào tư tưởng của con người.
 
-Ít nhất những ý tưởng này nhanh chóng dẫn đến sự khai triển của hình học giải tích, đạt đến sự hoàn thiện của nó vào thế kỷ XVIII với Clairaut, Euler, Cramer, Lagrange và nhiều người khác. Tính chất tuyến tính của các công thức về phép biến đổi tọa độ trong mặt phẳng và trong không gian, điều mà Fermat hẳn đã nhận thấy từ trước, được làm nổi bật chẳng hạn bởi Euler ([8(a)], Các chương II–III và Phụ lục của Chương IV), người ở đây đặt nền móng cho sự phân loại các đường cong phẳng và các mặt theo bậc của chúng (bất biến chính xác vì tính tuyến tính của các công thức này); cũng chính ông (loc. cit., Chương XVIII) đưa vào từ "affinity" để mô tả quan hệ giữa các đường cong có thể suy ra từ nhau bằng một phép biến đổi $ x' = ax, y' = by $ (nhưng không nhận thấy bất kỳ điều gì bất biến về mặt hình học trong định nghĩa này, vốn vẫn gắn với một lựa chọn cụ thể của các trục). Ít lâu sau đó, ta thấy Lagrange [9(a)] dành trọn một hồi ký, vốn trong một thời gian dài vẫn nổi tiếng một cách xứng đáng, cho các bài toán điển hình tuyến tính và đa tuyến tính của hình học giải tích trong không gian ba chiều. Vào khoảng thời gian này, liên quan đến bài toán tuyến tính được tạo thành bởi việc tìm một đường cong phẳng đi qua các điểm đã cho, khái niệm định thức hình thành, trước hết theo một cách hơi thực nghiệm, với Cramer [10] và Bezout [11]; khái niệm này sau đó được phát triển bởi nhiều tác giả và các tính chất cốt yếu của nó được xác lập một cách dứt khoát bởi Cauchy [13] và Jacobi [16(a)].
+Ít nhất những ý tưởng này nhanh chóng dẫn đến sự khai triển của hình học giải tích, đạt đến sự hoàn thiện của nó vào thế kỷ XVIII với Clairaut, Euler, Cramer, Lagrange và nhiều người khác. Tính chất tuyến tính của các công thức về phép biến đổi tọa độ trong mặt phẳng và trong không gian, điều mà Fermat hẳn đã nhận thấy từ trước, được làm nổi bật chẳng hạn bởi Euler ([8(a)], Các chương II–III và Phụ lục của Chương IV), người ở đây đặt nền móng cho sự phân loại các đường cong phẳng và các mặt theo bậc của chúng (bất biến chính xác vì tính tuyến tính của các công thức này); cũng chính ông (loc. cit., Chương XVIII) đưa vào từ "affinity" để mô tả quan hệ giữa các đường cong có thể suy ra từ nhau bằng một phép biến đổi $x' = ax, y' = by$ (nhưng không nhận thấy bất kỳ điều gì bất biến về mặt hình học trong định nghĩa này, vốn vẫn gắn với một lựa chọn cụ thể của các trục). Ít lâu sau đó, ta thấy Lagrange [9(a)] dành trọn một hồi ký, vốn trong một thời gian dài vẫn nổi tiếng một cách xứng đáng, cho các bài toán điển hình tuyến tính và đa tuyến tính của hình học giải tích trong không gian ba chiều. Vào khoảng thời gian này, liên quan đến bài toán tuyến tính được tạo thành bởi việc tìm một đường cong phẳng đi qua các điểm đã cho, khái niệm định thức hình thành, trước hết theo một cách hơi thực nghiệm, với Cramer [10] và Bezout [11]; khái niệm này sau đó được phát triển bởi nhiều tác giả và các tính chất cốt yếu của nó được xác lập một cách dứt khoát bởi Cauchy [13] và Jacobi [16(a)].
 
-Mặt khác, trong khi các nhà toán học có khuynh hướng hơi coi thường các phương trình bậc nhất, việc giải các phương trình vi phân lại được xem là một bài toán quan trọng; thật tự nhiên rằng, trong số các phương trình này, các phương trình tuyến tính, với hệ số hằng hoặc không, đã sớm được phân biệt và việc nghiên cứu chúng góp phần nhấn mạnh tính tuyến tính và các tính chất liên quan. Điều này chắc chắn thấy được trong công trình của Lagrange [9(b)] và Euler [8(b)], ít nhất là đối với các phương trình thuần nhất; vì các tác giả này không thấy có ý nghĩa gì trong việc nói rằng nghiệm tổng quát của phương trình không thuần nhất là tổng của một nghiệm riêng và nghiệm tổng quát của phương trình thuần nhất tương ứng, và họ không sử dụng nguyên lý này (tuy nhiên đã được d'Alembert biết đến); ở đây ta cũng chú ý rằng, khi họ phát biểu rằng nghiệm tổng quát của phương trình tuyến tính thuần nhất cấp $ n $ là một tổ hợp tuyến tính của $ n $ nghiệm riêng, họ không nói thêm rằng các nghiệm này phải độc lập tuyến tính và không cố gắng làm rõ tường minh khái niệm sau; có vẻ như chỉ việc giảng dạy của Cauchy tại École Polytechnique mới làm sáng tỏ ([14], pp. 573–574) các điểm này cũng như nhiều điểm khác. Nhưng ngay từ trước đó Lagrange (*loc. cit.*) cũng đưa vào (thật vậy, chỉ bằng tính toán thuần túy và không đặt tên cho nó) phương trình liên hợp $ L^*(y) = 0 $ của một phương trình vi phân tuyến tính $ L(y) = 0 $, một ví dụ điển hình của đối ngẫu nhờ quan hệ
+Mặt khác, trong khi các nhà toán học có khuynh hướng hơi coi thường các phương trình bậc nhất, việc giải các phương trình vi phân lại được xem là một bài toán quan trọng; thật tự nhiên rằng, trong số các phương trình này, các phương trình tuyến tính, với hệ số hằng hoặc không, đã sớm được phân biệt và việc nghiên cứu chúng góp phần nhấn mạnh tính tuyến tính và các tính chất liên quan. Điều này chắc chắn thấy được trong công trình của Lagrange [9(b)] và Euler [8(b)], ít nhất là đối với các phương trình thuần nhất; vì các tác giả này không thấy có ý nghĩa gì trong việc nói rằng nghiệm tổng quát của phương trình không thuần nhất là tổng của một nghiệm riêng và nghiệm tổng quát của phương trình thuần nhất tương ứng, và họ không sử dụng nguyên lý này (tuy nhiên đã được d'Alembert biết đến); ở đây ta cũng chú ý rằng, khi họ phát biểu rằng nghiệm tổng quát của phương trình tuyến tính thuần nhất cấp $n$ là một tổ hợp tuyến tính của $n$ nghiệm riêng, họ không nói thêm rằng các nghiệm này phải độc lập tuyến tính và không cố gắng làm rõ tường minh khái niệm sau; có vẻ như chỉ việc giảng dạy của Cauchy tại École Polytechnique mới làm sáng tỏ ([14], pp. 573–574) các điểm này cũng như nhiều điểm khác. Nhưng ngay từ trước đó Lagrange (*loc. cit.*) cũng đưa vào (thật vậy, chỉ bằng tính toán thuần túy và không đặt tên cho nó) phương trình liên hợp $L^*(y) = 0$ của một phương trình vi phân tuyến tính $L(y) = 0$, một ví dụ điển hình của đối ngẫu nhờ quan hệ
 
 $$
 \int z L(y)\, dx = \int L^*(z) y\, dx,
 $$
 
-đúng với $ y $ và $ z $ bằng không tại các đầu mút của khoảng lấy tích phân; chính xác hơn, và 30 năm trước khi Gauss định nghĩa tường minh phép chuyển vị của một phép thế tuyến tính trong 3 biến, ở đây ta thấy không nghi ngờ gì ví dụ đầu tiên của một "toán tử phiếm hàm" $ L^* $ là chuyển vị hay "liên hợp" của một toán tử $ L $ được cho bằng một hàm song tuyến tính (ở đây là tích phân $ \int yz\, dx $).
+đúng với $y$ và $z$ bằng không tại các đầu mút của khoảng lấy tích phân; chính xác hơn, và 30 năm trước khi Gauss định nghĩa tường minh phép chuyển vị của một phép thế tuyến tính trong 3 biến, ở đây ta thấy không nghi ngờ gì ví dụ đầu tiên của một "toán tử phiếm hàm" $L^*$ là chuyển vị hay "liên hợp" của một toán tử $L$ được cho bằng một hàm song tuyến tính (ở đây là tích phân $\int yz\, dx$).
 
-Đồng thời và một lần nữa với Lagrange [9(c)], các phép thế tuyến tính, lúc đầu trong 2 và 3 biến, đang trong quá trình chinh phục số học. Rõ ràng tập hợp các giá trị của một hàm $ F(x, y) $, khi $ x $ và $ y $ nhận mọi giá trị nguyên, không thay đổi khi thực hiện một phép thế tuyến tính với các hệ số nguyên, có định thức 1, trên $ x $ và $ y $; dựa trên nhận xét cơ bản này Lagrange xây dựng lý thuyết biểu diễn số bằng các dạng và lý thuyết rút gọn các dạng; còn Gauss, bằng một bước mà sự táo bạo của nó ngày nay đã trở nên khó để chúng ta đánh giá đúng, cô lập khái niệm tương đương và khái niệm lớp của các dạng (xem Ghi chú lịch sử cho I); về chủ đề này, ông nhận ra sự cần thiết của một số nguyên lý sơ cấp liên quan đến các phép thế tuyến tính và đưa vào đặc biệt khái niệm chuyển vị hay liên hợp ([12(a)], p. 304). Từ thời điểm này trở đi, việc nghiên cứu số học và việc nghiên cứu đại số của các dạng toàn phương, trong 2, 3 và sau đó $ n $ biến, việc nghiên cứu các dạng song tuyến tính liên quan chặt chẽ đến chúng và gần đây hơn là phép tổng quát hóa các khái niệm này đến vô hạn biến, cho đến hiện nay, đã tạo thành một trong những nguồn tiến bộ phong phú nhất của đại số tuyến tính (xem Ghi chú lịch sử cho IX).
+Đồng thời và một lần nữa với Lagrange [9(c)], các phép thế tuyến tính, lúc đầu trong 2 và 3 biến, đang trong quá trình chinh phục số học. Rõ ràng tập hợp các giá trị của một hàm $F(x, y)$, khi $x$ và $y$ nhận mọi giá trị nguyên, không thay đổi khi thực hiện một phép thế tuyến tính với các hệ số nguyên, có định thức 1, trên $x$ và $y$; dựa trên nhận xét cơ bản này Lagrange xây dựng lý thuyết biểu diễn số bằng các dạng và lý thuyết rút gọn các dạng; còn Gauss, bằng một bước mà sự táo bạo của nó ngày nay đã trở nên khó để chúng ta đánh giá đúng, cô lập khái niệm tương đương và khái niệm lớp của các dạng (xem Ghi chú lịch sử cho I); về chủ đề này, ông nhận ra sự cần thiết của một số nguyên lý sơ cấp liên quan đến các phép thế tuyến tính và đưa vào đặc biệt khái niệm chuyển vị hay liên hợp ([12(a)], p. 304). Từ thời điểm này trở đi, việc nghiên cứu số học và việc nghiên cứu đại số của các dạng toàn phương, trong 2, 3 và sau đó $n$ biến, việc nghiên cứu các dạng song tuyến tính liên quan chặt chẽ đến chúng và gần đây hơn là phép tổng quát hóa các khái niệm này đến vô hạn biến, cho đến hiện nay, đã tạo thành một trong những nguồn tiến bộ phong phú nhất của đại số tuyến tính (xem Ghi chú lịch sử cho IX).
 
-Nhưng một tiến bộ có lẽ còn quyết định hơn là việc Gauss tạo ra, trong cùng *Disquisitiones* (xem Ghi chú lịch sử cho I), lý thuyết về các nhóm giao hoán hữu hạn, xuất hiện ở đó theo bốn cách khác nhau, trong nhóm cộng của các số nguyên modulo $ m $ (với $ m $ là một số nguyên), trong nhóm nhân của các số nguyên nguyên tố cùng nhau với $ m $ modulo $ m $, trong nhóm các lớp của các dạng toàn phương nhị thức và cuối cùng trong nhóm nhân của các căn bậc $ m $ của đơn vị; và, như chúng ta đã ghi nhận, rõ ràng là với tư cách các nhóm giao hoán, hay đúng hơn là các môđun trên $ \mathbf{Z} $, Gauss xử lý tất cả các nhóm này và nghiên cứu cấu trúc, các quan hệ đẳng cấu của chúng, v.v. Trong môđun của các "số nguyên phức" $ a + bi $, về sau ta thấy ông nghiên cứu một môđun vô hạn trên $ \mathbf{Z} $, mà sự đẳng cấu của nó chắc chắn ông đã nhận thấy với môđun các chu kỳ (do ông phát hiện trong miền phức) của các hàm elliptic; trong mọi trường hợp ý tưởng này đã xuất hiện rõ ràng trong công trình của Jacobi, chẳng hạn trong chứng minh nổi tiếng của ông về tính bất khả của một hàm có 3 chu kỳ và các quan điểm của ông về bài toán đảo của các tích phân Abel [16(b)], để nhanh chóng dẫn đến các định lý của Kronecker (xem Ghi chú lịch sử cho Tôpô đại cương, VII).
+Nhưng một tiến bộ có lẽ còn quyết định hơn là việc Gauss tạo ra, trong cùng *Disquisitiones* (xem Ghi chú lịch sử cho I), lý thuyết về các nhóm giao hoán hữu hạn, xuất hiện ở đó theo bốn cách khác nhau, trong nhóm cộng của các số nguyên modulo $m$ (với $m$ là một số nguyên), trong nhóm nhân của các số nguyên nguyên tố cùng nhau với $m$ modulo $m$, trong nhóm các lớp của các dạng toàn phương nhị thức và cuối cùng trong nhóm nhân của các căn bậc $m$ của đơn vị; và, như chúng ta đã ghi nhận, rõ ràng là với tư cách các nhóm giao hoán, hay đúng hơn là các môđun trên $\mathbf{Z}$, Gauss xử lý tất cả các nhóm này và nghiên cứu cấu trúc, các quan hệ đẳng cấu của chúng, v.v. Trong môđun của các "số nguyên phức" $a + bi$, về sau ta thấy ông nghiên cứu một môđun vô hạn trên $\mathbf{Z}$, mà sự đẳng cấu của nó chắc chắn ông đã nhận thấy với môđun các chu kỳ (do ông phát hiện trong miền phức) của các hàm elliptic; trong mọi trường hợp ý tưởng này đã xuất hiện rõ ràng trong công trình của Jacobi, chẳng hạn trong chứng minh nổi tiếng của ông về tính bất khả của một hàm có 3 chu kỳ và các quan điểm của ông về bài toán đảo của các tích phân Abel [16(b)], để nhanh chóng dẫn đến các định lý của Kronecker (xem Ghi chú lịch sử cho Tôpô đại cương, VII).
 
 Ở đây, một dòng chảy khác hợp lưu với những dòng chảy mà chúng ta đã cố gắng lần theo quá trình và những chỗ quanh co đôi khi của chúng, và dòng chảy này từ lâu vẫn nằm dưới lòng đất. Như sau này sẽ được trình bày chi tiết hơn (Ghi chú lịch sử cho IX), hình học “thuần túy” theo nghĩa được hiểu vào thế kỷ trước, tức về cơ bản là hình học xạ ảnh của mặt phẳng và không gian mà không sử dụng tọa độ, đã được Desargues [6] sáng tạo vào thế kỷ XVII; những ý tưởng của ông, được một Fermat đánh giá đúng giá trị và được một Pascal đưa vào thực hành, sau đó đã bị chôn vùi trong quên lãng, bị lu mờ bởi những tiến bộ rực rỡ của hình học giải tích; nó được phục hồi vào cuối thế kỷ XVIII, với Monge, rồi Poncelet và những đối thủ của ông là Brianchon và Chasles, đôi khi hoàn toàn và có chủ ý tách khỏi các phương pháp giải tích, đôi khi (đặc biệt ở Đức) đan xen chặt chẽ với chúng. Giờ đây, các phép biến đổi xạ ảnh, xét từ bất kỳ quan điểm nào (tổng hợp hay giải tích), dĩ nhiên chỉ là các phép thế tuyến tính trên các tọa độ xạ ảnh hay “trọng tâm”; lý thuyết các đường conic (vào thế kỷ XVII) và sau đó là lý thuyết các quadric, mà các tính chất xạ ảnh của chúng là mối quan tâm chủ yếu của trường phái này trong một thời gian dài, chỉ là lý thuyết các dạng toàn phương, mà mối liên hệ chặt chẽ của chúng với đại số tuyến tính chúng ta đã chỉ ra trước đây. Thêm vào các khái niệm này là khái niệm đối cực: cũng do Desargues sáng tạo, lý thuyết các cực và đối cực, trong tay Monge và những người kế tục ông và chẳng bao lâu dưới tên gọi nguyên lý đối ngẫu, trở thành một công cụ mạnh để biến đổi các định lý hình học; nếu không thể khẳng định rằng mối quan hệ của nó với các phương trình vi phân liên hợp đã được nhận thấy trong thời kỳ đó (chúng được Pincherle chỉ ra vào cuối thế kỷ), thì ít nhất Chasles cũng không quên [17] nhận thấy mối quan hệ của nó với khái niệm các tam giác cầu đối ngẫu, được đưa vào lượng giác cầu bởi Viète ([3], p. 428) và Snellius ngay từ thế kỷ XVI. Nhưng tính đối ngẫu trong hình học xạ ảnh chỉ là một phương diện của tính đối ngẫu của các không gian vectơ, có tính đến những biến đổi do việc chuyển từ không gian afin sang không gian xạ ảnh áp đặt (là một không gian thương của nó, theo quan hệ “phép nhân vô hướng”).
 
 Thế kỷ XIX, hơn bất kỳ thời kỳ nào trong lịch sử của chúng ta, rất phong phú về các nhà toán học bậc nhất; và thật khó, trong vài trang, ngay cả khi chỉ giới hạn ở những nét nổi bật nhất, mô tả tất cả những gì được tạo ra trong tay họ do sự hội tụ của những dòng tư tưởng này. Giữa một bên là các phương pháp tổng hợp thuần túy, một kiểu giường Procrustes nơi những người theo chính thống của chúng tự đặt mình vào tình thế khổ sở, và bên kia là các phương pháp giải tích gắn với một hệ tọa độ được áp đặt tùy ý lên không gian, nhu cầu về một phép tính hình học sớm được cảm nhận, được Leibniz mơ tới nhưng không sáng tạo ra và được Carnot phác thảo một cách không hoàn chỉnh: trước hết xuất hiện phép cộng các vectơ, tiềm ẩn trong công trình của Gauss về biểu diễn hình học của các số phức và những ứng dụng ông thực hiện đối với hình học sơ cấp (xem Ghi chú lịch sử về Tôpô đại cương, VIII), được Bellavitis phát triển dưới tên gọi “phương pháp các đoạn tương đẳng” và mang hình thức cuối cùng với Grassmann, Möbius và Hamilton; đồng thời, dưới tên gọi “phép tính trọng tâm”, Möbius đưa ra một phiên bản của nó thích hợp với các nhu cầu của hình học xạ ảnh [18].
 
-Cũng trong thời kỳ ấy, và bởi chính những người đó, bước chuyển, tự nhiên đến vậy (một khi đã đi theo con đường này), từ mặt phẳng và không gian “thông thường” sang không gian $ n $-chiều được thực hiện; thực vậy, đó là một bước chuyển không thể tránh khỏi, vì các hiện tượng đại số mà trong hai hoặc ba biến có thể được giải thích bằng hình học vẫn còn đúng với một số tùy ý các biến; do đó, việc áp đặt, khi sử dụng ngôn ngữ hình học, sự hạn chế vào 2 hoặc 3 chiều, đối với nhà toán học hiện đại cũng là một ách khó chịu chẳng khác gì ách luôn ngăn cản người Hy Lạp mở rộng khái niệm số tới các tỉ số của những đại lượng không thông ước. Vì thế, ngôn ngữ và các ý tưởng liên quan đến không gian $ n $-chiều xuất hiện gần như đồng thời ở mọi nơi, một cách mơ hồ trong công trình của Gauss, một cách rõ ràng trong công trình của các nhà toán học thuộc thế hệ kế tiếp; và mức độ tự tin nhiều hay ít của họ khi sử dụng chúng có lẽ ít phụ thuộc vào khuynh hướng toán học của họ hơn là vào cách nhìn triết học hoặc thậm chí thuần túy thực tiễn của họ. Trong mọi trường hợp, Cayley và Grassmann, vào khoảng năm 1846, xử lý các khái niệm này hết sức dễ dàng (và điều này, Cayley nói, hoàn toàn trái với Grassmann ([22(a)], p. 321), “không cần viện đến bất kỳ khái niệm siêu hình nào”); Cayley không bao giờ xa rời cách giải thích giải tích và tọa độ, trong khi ngay từ đầu, trong công trình của Grassmann, phép cộng các vectơ trong không gian $ n $-chiều và phương diện hình học chiếm ưu thế, dẫn đến những phát triển mà chúng ta sẽ nói đến ngay sau đây.
+Cũng trong thời kỳ ấy, và bởi chính những người đó, bước chuyển, tự nhiên đến vậy (một khi đã đi theo con đường này), từ mặt phẳng và không gian “thông thường” sang không gian $n$-chiều được thực hiện; thực vậy, đó là một bước chuyển không thể tránh khỏi, vì các hiện tượng đại số mà trong hai hoặc ba biến có thể được giải thích bằng hình học vẫn còn đúng với một số tùy ý các biến; do đó, việc áp đặt, khi sử dụng ngôn ngữ hình học, sự hạn chế vào 2 hoặc 3 chiều, đối với nhà toán học hiện đại cũng là một ách khó chịu chẳng khác gì ách luôn ngăn cản người Hy Lạp mở rộng khái niệm số tới các tỉ số của những đại lượng không thông ước. Vì thế, ngôn ngữ và các ý tưởng liên quan đến không gian $n$-chiều xuất hiện gần như đồng thời ở mọi nơi, một cách mơ hồ trong công trình của Gauss, một cách rõ ràng trong công trình của các nhà toán học thuộc thế hệ kế tiếp; và mức độ tự tin nhiều hay ít của họ khi sử dụng chúng có lẽ ít phụ thuộc vào khuynh hướng toán học của họ hơn là vào cách nhìn triết học hoặc thậm chí thuần túy thực tiễn của họ. Trong mọi trường hợp, Cayley và Grassmann, vào khoảng năm 1846, xử lý các khái niệm này hết sức dễ dàng (và điều này, Cayley nói, hoàn toàn trái với Grassmann ([22(a)], p. 321), “không cần viện đến bất kỳ khái niệm siêu hình nào”); Cayley không bao giờ xa rời cách giải thích giải tích và tọa độ, trong khi ngay từ đầu, trong công trình của Grassmann, phép cộng các vectơ trong không gian $n$-chiều và phương diện hình học chiếm ưu thế, dẫn đến những phát triển mà chúng ta sẽ nói đến ngay sau đây.
 
-Trong khi đó, động lực do Gauss tạo ra đã thúc đẩy các nhà toán học, theo hai hướng khác nhau, tiến tới nghiên cứu các đại số hay “hệ siêu phức”. Một mặt, việc cố gắng mở rộng miền các số thực theo một cách khác với việc đưa vào “đơn vị ảo” $ i = \sqrt{-1} $ và nhờ đó có lẽ mở ra những miền rộng lớn hơn, cũng phong phú như miền các số phức, là điều không thể tránh khỏi. Bản thân Gauss tin ([12(b)], p. 178) rằng không thể có một mở rộng như vậy, chừng nào người ta còn muốn giữ lại các tính chất chính của các số phức, tức là, theo ngôn ngữ hiện đại, những tính chất làm cho nó trở thành một trường giao hoán; và, hoặc dưới ảnh hưởng của ông hoặc một cách độc lập, những người cùng thời với ông dường như cũng chia sẻ niềm tin này, mà mãi về sau Weierstrass [23] mới chứng minh được bằng một định lý chính xác. Nhưng một khi phép nhân các số phức được diễn giải bằng các phép quay trong mặt phẳng, thì nếu đề xuất mở rộng ý tưởng này lên không gian ba chiều (vì các phép quay trong không gian tạo thành một nhóm không Abel), phải xét đến các phép nhân không giao hoán; đây là một trong những ý tưởng dẫn đường của Hamilton† trong việc phát hiện ra các quaternion [20], ví dụ đầu tiên về một trường không giao hoán. Tính chất đặc biệt của ví dụ này (ví dụ duy nhất, như Frobenius về sau đã chỉ ra, có thể xây dựng trên
+Trong khi đó, động lực do Gauss tạo ra đã thúc đẩy các nhà toán học, theo hai hướng khác nhau, tiến tới nghiên cứu các đại số hay “hệ siêu phức”. Một mặt, việc cố gắng mở rộng miền các số thực theo một cách khác với việc đưa vào “đơn vị ảo” $i = \sqrt{-1}$ và nhờ đó có lẽ mở ra những miền rộng lớn hơn, cũng phong phú như miền các số phức, là điều không thể tránh khỏi. Bản thân Gauss tin ([12(b)], p. 178) rằng không thể có một mở rộng như vậy, chừng nào người ta còn muốn giữ lại các tính chất chính của các số phức, tức là, theo ngôn ngữ hiện đại, những tính chất làm cho nó trở thành một trường giao hoán; và, hoặc dưới ảnh hưởng của ông hoặc một cách độc lập, những người cùng thời với ông dường như cũng chia sẻ niềm tin này, mà mãi về sau Weierstrass [23] mới chứng minh được bằng một định lý chính xác. Nhưng một khi phép nhân các số phức được diễn giải bằng các phép quay trong mặt phẳng, thì nếu đề xuất mở rộng ý tưởng này lên không gian ba chiều (vì các phép quay trong không gian tạo thành một nhóm không Abel), phải xét đến các phép nhân không giao hoán; đây là một trong những ý tưởng dẫn đường của Hamilton† trong việc phát hiện ra các quaternion [20], ví dụ đầu tiên về một trường không giao hoán. Tính chất đặc biệt của ví dụ này (ví dụ duy nhất, như Frobenius về sau đã chỉ ra, có thể xây dựng trên
 
 † Xem lời tựa thú vị của Lectures on quaternions [20], trong đó ông thuật lại toàn bộ lịch sử phát hiện của mình.
 
-trường các số thực) phần nào hạn chế tầm quan trọng của nó, mặc dù, hay có lẽ chính vì, sự hình thành một trường phái những “nhà quaternion” cuồng tín: một hiện tượng kỳ lạ, về sau lại tái diễn quanh công trình của Grassmann, rồi quanh những nhà phổ biến hóa đã rút ra từ Hamilton và Grassmann cái được gọi là “phép tính vectơ”. Việc từ bỏ tính kết hợp ít lâu sau đó, bởi Graves và Cayley, những người xây dựng nên các “số Cayley”, không mở ra một con đường nào thật thú vị. Nhưng sau khi Sylvester đã đưa vào các ma trận và (mà không đặt tên cho nó) đã xác định rõ ràng hạng của chúng [21], thì lại chính Cayley [22(b)] đã xây dựng phép tính ma trận, không phải không nhận thấy (một sự kiện cốt yếu thường bị bỏ qua về sau) rằng một ma trận chỉ là một ký hiệu rút gọn cho một phép thế tuyến tính, cũng như Gauss đã ký hiệu dạng $ aX^2 + 2bXY + cY^2 $ bằng $(a, b, c)$. Đây dĩ nhiên chỉ là một khía cạnh, đối với chúng ta là khía cạnh thú vị nhất, của sản lượng phong phú của Sylvester và Cayley về các định thức và mọi thứ liên quan đến chúng, một sản lượng đầy những đồng nhất thức tài tình và những phép tính ấn tượng.
+trường các số thực) phần nào hạn chế tầm quan trọng của nó, mặc dù, hay có lẽ chính vì, sự hình thành một trường phái những “nhà quaternion” cuồng tín: một hiện tượng kỳ lạ, về sau lại tái diễn quanh công trình của Grassmann, rồi quanh những nhà phổ biến hóa đã rút ra từ Hamilton và Grassmann cái được gọi là “phép tính vectơ”. Việc từ bỏ tính kết hợp ít lâu sau đó, bởi Graves và Cayley, những người xây dựng nên các “số Cayley”, không mở ra một con đường nào thật thú vị. Nhưng sau khi Sylvester đã đưa vào các ma trận và (mà không đặt tên cho nó) đã xác định rõ ràng hạng của chúng [21], thì lại chính Cayley [22(b)] đã xây dựng phép tính ma trận, không phải không nhận thấy (một sự kiện cốt yếu thường bị bỏ qua về sau) rằng một ma trận chỉ là một ký hiệu rút gọn cho một phép thế tuyến tính, cũng như Gauss đã ký hiệu dạng $aX^2 + 2bXY + cY^2$ bằng $(a, b, c)$. Đây dĩ nhiên chỉ là một khía cạnh, đối với chúng ta là khía cạnh thú vị nhất, của sản lượng phong phú của Sylvester và Cayley về các định thức và mọi thứ liên quan đến chúng, một sản lượng đầy những đồng nhất thức tài tình và những phép tính ấn tượng.
 
-Ngoài ra (trong số những công trình khác), Grassmann phát hiện một đại số trên trường số thực, đại số ngoài vẫn mang tên ông. Công trình của ông, thậm chí còn sớm hơn công trình của Hamilton [19(a)], được tạo ra trong một sự cô độc tinh thần gần như hoàn toàn, trong một thời gian dài vẫn ít được biết đến, không nghi ngờ gì nữa vì tính độc đáo của nó, và cũng vì những màn sương triết học mà ngay từ đầu nó đã tự bao phủ lấy mình, đến mức chẳng hạn lúc đầu đã khiến Möbius e ngại. Được thúc đẩy bởi những mối quan tâm tương tự như Hamilton nhưng có tầm quan trọng lớn hơn (và điều mà ông sớm nhận thấy chính là những mối quan tâm của Leibniz), Grassmann xây dựng một công trình đại số-hình học đồ sộ, dựa trên một quan niệm hình học hay “nội tại” (đã được tiên đề hóa ít nhiều) về không gian vectơ $ n $-chiều; trong số những kết quả sơ cấp hơn mà ông đạt được, chúng ta nêu chẳng hạn định nghĩa về sự độc lập tuyến tính của các vectơ, định nghĩa về chiều và hệ thức cơ bản
+Ngoài ra (trong số những công trình khác), Grassmann phát hiện một đại số trên trường số thực, đại số ngoài vẫn mang tên ông. Công trình của ông, thậm chí còn sớm hơn công trình của Hamilton [19(a)], được tạo ra trong một sự cô độc tinh thần gần như hoàn toàn, trong một thời gian dài vẫn ít được biết đến, không nghi ngờ gì nữa vì tính độc đáo của nó, và cũng vì những màn sương triết học mà ngay từ đầu nó đã tự bao phủ lấy mình, đến mức chẳng hạn lúc đầu đã khiến Möbius e ngại. Được thúc đẩy bởi những mối quan tâm tương tự như Hamilton nhưng có tầm quan trọng lớn hơn (và điều mà ông sớm nhận thấy chính là những mối quan tâm của Leibniz), Grassmann xây dựng một công trình đại số-hình học đồ sộ, dựa trên một quan niệm hình học hay “nội tại” (đã được tiên đề hóa ít nhiều) về không gian vectơ $n$-chiều; trong số những kết quả sơ cấp hơn mà ông đạt được, chúng ta nêu chẳng hạn định nghĩa về sự độc lập tuyến tính của các vectơ, định nghĩa về chiều và hệ thức cơ bản
 
 $$
 \dim V + \dim W = \dim(V + W) + \dim(V \cap W)
@@ -77,9 +77,9 @@ $$
 
 (loc. cit., p. 209; cf. [19(b)], p. 21). Nhưng đặc biệt là phép nhân ngoài, rồi phép nhân nội, của các đa vectơ đã cung cấp cho ông những công cụ mà nhờ đó ông dễ dàng xử lý trước hết các bài toán của đại số tuyến tính theo đúng nghĩa, rồi đến những bài toán liên quan đến cấu trúc Euclid, tức là tính trực giao của các vectơ (nơi ông tìm thấy tương đương của đối ngẫu, cái mà ông không có).
 
-Con đường khác mà Gauss đã mở ra trong việc nghiên cứu các hệ siêu phức là con đường xuất phát từ các số nguyên phức $ a + bi $; tiếp theo đó một cách khá tự nhiên là các đại số hoặc tổng quát hơn, các hệ siêu phức, trên vành $ \mathbf{Z} $ các số nguyên và trên trường $ \mathbf{Q} $ các số hữu tỉ, trước hết là những hệ đã được Gauss hình dung, được sinh bởi các căn của đơn vị, rồi đến các trường số đại số và các môđun các số nguyên đại số: các trường này là chủ đề chính trong công trình của Kummer, còn việc nghiên cứu các môđun sau được Dirichlet, Hermite, Kronecker và Dedekind bắt đầu. Ở đây, trái với điều xảy ra với các đại số trên trường thực, không cần từ bỏ bất kỳ tính chất đặc trưng nào của các trường giao hoán, và sự chú ý trong suốt thế kỷ XIX chỉ tập trung vào các trường này. Nhưng các tính chất tuyến tính và chẳng hạn việc tìm cơ sở của các số nguyên của trường (không thể thiếu đối với một định nghĩa tổng quát của biệt thức) đóng vai trò cốt yếu tại nhiều chỗ; và ít nhất là với Dedekind, các phương pháp đã định hướng trở thành điển hình "siêu phức"; hơn nữa, bản thân Dedekind, không đặt cho mình bài toán về các đại số nói chung, ý thức được tính chất này trong các công trình của mình và điều liên hệ chúng, chẳng hạn, với các kết quả của Weierstrass về các hệ siêu phức trên trường thực ([24], đặc biệt tập 2, p. 1). Đồng thời, việc xác định cấu trúc của nhóm nhân các phần tử khả nghịch trong một trường số đại số, do Dirichlet thực hiện trong một số ghi chú nổi tiếng [15] và gần như đồng thời bởi Hermite, có tầm quan trọng sống còn trong việc làm sáng tỏ các ý niệm về các môđun trên $ \mathbf{Z} $, các hệ sinh của chúng và các cơ sở của chúng (khi chúng tồn tại). Sau đó, khái niệm iđêan, được Dedekind định nghĩa trong các trường số đại số (như một môđun trên vành các số nguyên của trường), trong khi Kronecker đưa vào các vành đa thức (dưới tên gọi "các hệ môđun") một khái niệm tương đương, cho những ví dụ đầu tiên về các môđun trên những vành tổng quát hơn $ \mathbf{Z} $; và trong công trình của chính các tác giả ấy, rồi của Hilbert, trong những trường hợp đặc biệt khái niệm nhóm với các toán tử dần dần được tách riêng, cùng với khả năng luôn luôn dựng từ một nhóm như vậy một môđun trên một vành được xác định thích hợp.
+Con đường khác mà Gauss đã mở ra trong việc nghiên cứu các hệ siêu phức là con đường xuất phát từ các số nguyên phức $a + bi$; tiếp theo đó một cách khá tự nhiên là các đại số hoặc tổng quát hơn, các hệ siêu phức, trên vành $\mathbf{Z}$ các số nguyên và trên trường $\mathbf{Q}$ các số hữu tỉ, trước hết là những hệ đã được Gauss hình dung, được sinh bởi các căn của đơn vị, rồi đến các trường số đại số và các môđun các số nguyên đại số: các trường này là chủ đề chính trong công trình của Kummer, còn việc nghiên cứu các môđun sau được Dirichlet, Hermite, Kronecker và Dedekind bắt đầu. Ở đây, trái với điều xảy ra với các đại số trên trường thực, không cần từ bỏ bất kỳ tính chất đặc trưng nào của các trường giao hoán, và sự chú ý trong suốt thế kỷ XIX chỉ tập trung vào các trường này. Nhưng các tính chất tuyến tính và chẳng hạn việc tìm cơ sở của các số nguyên của trường (không thể thiếu đối với một định nghĩa tổng quát của biệt thức) đóng vai trò cốt yếu tại nhiều chỗ; và ít nhất là với Dedekind, các phương pháp đã định hướng trở thành điển hình "siêu phức"; hơn nữa, bản thân Dedekind, không đặt cho mình bài toán về các đại số nói chung, ý thức được tính chất này trong các công trình của mình và điều liên hệ chúng, chẳng hạn, với các kết quả của Weierstrass về các hệ siêu phức trên trường thực ([24], đặc biệt tập 2, p. 1). Đồng thời, việc xác định cấu trúc của nhóm nhân các phần tử khả nghịch trong một trường số đại số, do Dirichlet thực hiện trong một số ghi chú nổi tiếng [15] và gần như đồng thời bởi Hermite, có tầm quan trọng sống còn trong việc làm sáng tỏ các ý niệm về các môđun trên $\mathbf{Z}$, các hệ sinh của chúng và các cơ sở của chúng (khi chúng tồn tại). Sau đó, khái niệm iđêan, được Dedekind định nghĩa trong các trường số đại số (như một môđun trên vành các số nguyên của trường), trong khi Kronecker đưa vào các vành đa thức (dưới tên gọi "các hệ môđun") một khái niệm tương đương, cho những ví dụ đầu tiên về các môđun trên những vành tổng quát hơn $\mathbf{Z}$; và trong công trình của chính các tác giả ấy, rồi của Hilbert, trong những trường hợp đặc biệt khái niệm nhóm với các toán tử dần dần được tách riêng, cùng với khả năng luôn luôn dựng từ một nhóm như vậy một môđun trên một vành được xác định thích hợp.
 
-Đồng thời, việc nghiên cứu số học-đại số các dạng song tuyến tính toàn phương và phép "rút gọn" của chúng (hay, điều tương đương, của các ma trận và các "bất biến" của chúng) dẫn đến việc phát hiện ra các nguyên lý tổng quát về nghiệm của các hệ phương trình tuyến tính, những nguyên lý mà do thiếu khái niệm hạng đã thoát khỏi Jacobi.\footnote{Về việc phân loại các hệ gồm $ n $ phương trình với $ n $ ẩn khi định thức bằng không, ông nói ([16(a)], p. 370): "paullo prolixum videtur negotium" (không thể làm sáng tỏ một cách ngắn gọn).} Bài toán tìm nghiệm nguyên của các hệ phương trình tuyến tính với các hệ số nguyên được Hermite tấn công và giải quyết, trước hết trong một trường hợp đặc biệt, rồi trong toàn bộ tính tổng quát bởi H. J. Smith [25]; các kết quả của người sau chỉ đến năm 1878 mới được Frobenius tìm lại, trong khuôn khổ một chương trình nghiên cứu rộng lớn do Kronecker đề xướng và trong đó Weierstrass cũng tham gia; nhân tiện, trong quá trình tiến hành những công trình này, Kronecker đã đưa các định lý về các hệ tuyến tính với các hệ số thực (hoặc phức) đến dạng hoàn chỉnh, những định lý này cũng được, trong một cuốn sách giáo khoa tối nghĩa, trình bày với sự cẩn trọng tỉ mỉ đặc trưng của ông, bởi tác giả nổi tiếng của *Alice in Wonderland*; còn về Kronecker, ông khinh thường việc công bố các kết quả này và để chúng lại cho các đồng nghiệp và môn đệ của mình; bản thân từ "hạng" chỉ được Frobenius đưa vào. Cũng trong quá trình giảng dạy tại Đại học Berlin, Kronecker [26] và Weierstrass đưa vào định nghĩa "tiên đề" của định thức (như một hàm đa tuyến tính phản xứng của $ n $ vectơ trong không gian $ n $-chiều, được chuẩn hóa sao cho nó nhận giá trị 1 tại ma trận đơn vị), một định nghĩa tương đương với định nghĩa dẫn xuất từ phép tính của Grassmann và với định nghĩa được chấp nhận trong Chuyên luận này; cũng trong các khóa giảng của mình, Kronecker, không cảm thấy cần phải đặt tên cho nó và vẫn ở một dạng chưa nội tại, đưa vào tích tenxơ của các không gian và tích "Kronecker" của các ma trận (phép thế tuyến tính cảm sinh trên một tích tenxơ bởi các phép thế tuyến tính đã cho được áp dụng lên các thừa số).
+Đồng thời, việc nghiên cứu số học-đại số các dạng song tuyến tính toàn phương và phép "rút gọn" của chúng (hay, điều tương đương, của các ma trận và các "bất biến" của chúng) dẫn đến việc phát hiện ra các nguyên lý tổng quát về nghiệm của các hệ phương trình tuyến tính, những nguyên lý mà do thiếu khái niệm hạng đã thoát khỏi Jacobi.\footnote{Về việc phân loại các hệ gồm $n$ phương trình với $n$ ẩn khi định thức bằng không, ông nói ([16(a)], p. 370): "paullo prolixum videtur negotium" (không thể làm sáng tỏ một cách ngắn gọn).} Bài toán tìm nghiệm nguyên của các hệ phương trình tuyến tính với các hệ số nguyên được Hermite tấn công và giải quyết, trước hết trong một trường hợp đặc biệt, rồi trong toàn bộ tính tổng quát bởi H. J. Smith [25]; các kết quả của người sau chỉ đến năm 1878 mới được Frobenius tìm lại, trong khuôn khổ một chương trình nghiên cứu rộng lớn do Kronecker đề xướng và trong đó Weierstrass cũng tham gia; nhân tiện, trong quá trình tiến hành những công trình này, Kronecker đã đưa các định lý về các hệ tuyến tính với các hệ số thực (hoặc phức) đến dạng hoàn chỉnh, những định lý này cũng được, trong một cuốn sách giáo khoa tối nghĩa, trình bày với sự cẩn trọng tỉ mỉ đặc trưng của ông, bởi tác giả nổi tiếng của *Alice in Wonderland*; còn về Kronecker, ông khinh thường việc công bố các kết quả này và để chúng lại cho các đồng nghiệp và môn đệ của mình; bản thân từ "hạng" chỉ được Frobenius đưa vào. Cũng trong quá trình giảng dạy tại Đại học Berlin, Kronecker [26] và Weierstrass đưa vào định nghĩa "tiên đề" của định thức (như một hàm đa tuyến tính phản xứng của $n$ vectơ trong không gian $n$-chiều, được chuẩn hóa sao cho nó nhận giá trị 1 tại ma trận đơn vị), một định nghĩa tương đương với định nghĩa dẫn xuất từ phép tính của Grassmann và với định nghĩa được chấp nhận trong Chuyên luận này; cũng trong các khóa giảng của mình, Kronecker, không cảm thấy cần phải đặt tên cho nó và vẫn ở một dạng chưa nội tại, đưa vào tích tenxơ của các không gian và tích "Kronecker" của các ma trận (phép thế tuyến tính cảm sinh trên một tích tenxơ bởi các phép thế tuyến tính đã cho được áp dụng lên các thừa số).
 
 Nghiên cứu này không thể tách rời khỏi lý thuyết về các bất biến do Cayley, Hermite và Sylvester sáng tạo (bộ ba “bất biến” mà về sau Hermite nói đến trong các bức thư của mình), và từ quan điểm hiện đại, trên hết là một lý thuyết về các biểu diễn của nhóm tuyến tính. Ở đây, với tư cách tương đương đại số của tính đối ngẫu trong hình học xạ ảnh, xuất hiện sự phân biệt giữa các chuỗi biến cogredient và contragredient, tức là các vectơ trong một không gian và các vectơ trong không gian đối ngẫu; và, sau khi trước hết xét đến các dạng bậc thấp rồi đến bậc tùy ý, trong 2 và 3 biến, hầu như ngay lập tức các dạng song tuyến tính, rồi các dạng đa tuyến tính, được khảo sát trong một số chuỗi biến “cogredient” hoặc “contragredient”, điều này tương đương với việc đưa vào các tenxơ; khái niệm sau trở nên tường minh và được phổ biến khi, dưới sự gợi ý của lý thuyết về các bất biến, Ricci và Levi-Civitá, vào năm 1900, đưa “phép tính tenxơ” vào hình học vi phân [28], mà về sau trở nên rất thịnh hành nhờ được các nhà vật lý “tương đối luận” sử dụng. Một lần nữa, sự đan xen ngày càng tăng của lý thuyết về các bất biến, hình học vi phân và lý thuyết các phương trình đạo hàm riêng (đặc biệt là bài toán gọi là bài toán Pfaff và các tổng quát hóa của nó) dần dần dẫn các nhà hình học đến việc xét các dạng song tuyến tính phản xứng của các vi phân, đặc biệt là “đối bất biến song tuyến tính” của một dạng bậc 1 (được Lipschitz đưa vào năm 1870 và sau đó được Frobenius nghiên cứu), để dẫn đến việc E. Cartan [29] và Poincaré [30] sáng tạo ra phép tính các dạng vi phân ngoài. Poincaré đưa các dạng này vào, nhằm tạo nên các bất biến nguyên của mình, dưới dạng những biểu thức xuất hiện trong các tích phân bội, trong khi Cartan, không nghi ngờ gì, được định hướng bởi các nghiên cứu của ông về các đại số, đưa chúng vào theo một cách hình thức hơn, nhưng không quên nhận thấy rằng phần đại số của phép tính của chúng đồng nhất với phép nhân ngoài của Grassmann (do đó có tên gọi mà ông chọn), qua đó dứt khoát trả lại cho công trình của người này vị trí thích đáng của nó. Việc chuyển các dạng vi phân ngoài sang ký hiệu của phép tính tenxơ, hơn nữa, cho thấy ngay lập tức mối liên hệ của chúng với các tenxơ phản đối xứng, điều này, một khi chấp nhận quan điểm thuần túy đại số, cho thấy rằng chúng đối với các dạng đa tuyến tính phản xứng cũng như các tenxơ hiệp biến đối với các dạng đa tuyến tính tùy ý; khía cạnh này được làm sáng tỏ thêm với lý thuyết hiện đại về các biểu diễn của nhóm tuyến tính; và do đó, chẳng hạn, tính đồng nhất cơ bản giữa định nghĩa các định thức do Weierstrass và Kronecker đưa ra với định nghĩa thu được từ phép tính của Grassmann được nhận ra.
 
@@ -132,7 +132,7 @@ TÀI LIỆU THAM KHẢO
 
 23. K. Weierstrass, Mathematische Werke, vol. II, Berlin, (Mayer und Müller),
 
-1895: Về lý thuyết các đại lượng phức được tạo thành từ $ n $ đơn vị chính, tr. 311–332.
+1895: Về lý thuyết các đại lượng phức được tạo thành từ $n$ đơn vị chính, tr. 311–332.
 24. R. Dedekind, Các công trình toán học tuyển tập, 3 tập, Braunschweig (Vieweg), 1930–32.
 25. H. J. Smith, Các bài báo toán học tuyển tập, tập I, Oxford, 1894: Về các hệ phương trình tuyến tính bất định và các đồng dư, p. 367 (=Phil. Trans., 1861).
 26. L. Kronecker, Bài giảng về lý thuyết các định thức . . ., Leipzig (Teubner), 1903.
@@ -142,9 +142,9 @@ TÀI LIỆU THAM KHẢO
 30. H. Poincaré, Các phương pháp mới của cơ học thiên thể, tập III, Paris (Gauthier-Villars), 1899, Chương XXII.
 31. O. Toeplitz, Về việc giải vô hạn các phương trình tuyến tính với vô hạn ẩn, Rend. Circ. Mat. Pal., tập XXVIII (1909), tr. 88–96.
 
-$ x + y, x \cdot y, xy, x \top y, x \perp y $: I, § 1, no. 1.
-$ X \top Y, X + Y, XY $ (X, Y là các tập con): I, § 1, no. 1.
-$ X \top a, a \top X $ (X là một tập con, a là một phần tử): I, § 1, no. 1.
+$x + y, x \cdot y, xy, x \top y, x \perp y$: I, § 1, no. 1.
+$X \top Y, X + Y, XY$ (X, Y là các tập con): I, § 1, no. 1.
+$X \top a, a \top X$ (X là một tập con, a là một phần tử): I, § 1, no. 1.
 
 $$
 \prod_{\alpha \in A} x_\alpha, \bigwedge_{\alpha} x_\alpha, \bigwedge x_\alpha, \bigwedge_{\alpha \in A} x, \bigwedge_{\alpha} x_\alpha, \bigwedge x_\alpha, \sum_{\alpha \in A} x_\alpha, \sum x_\alpha, \sum_{\alpha} x_\alpha, \prod_{\alpha \in A} x_\alpha, \prod x_\alpha,
@@ -158,7 +158,7 @@ $$
 \prod_{p \leq i \leq q} x_i, \prod_{i=p}^q x_i : \text{I, § 1, no. 2}.
 $$
 
-$ x_p \top x_{p+1} \top \cdots \top x_q : \text{I, § 1, no. 3} $.
+$x_p \top x_{p+1} \top \cdots \top x_q : \text{I, § 1, no. 3}$.
 
 $$
 \prod^n x, \perp x^n, nx \quad (n \in \mathbf{N}) : \text{I, § 1, no. 3}.
@@ -176,86 +176,86 @@ $$
 \prod_{0 \leq i_1 < i_2 < \cdots < i_p \leq n} x_{i_1 i_2 \cdots i_p}, \prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \cdots i_p} : \text{I, § 1, no. 5}.
 $$
 
-$ 0, 1 : \text{I, § 2, no. 1} $.
+$0, 1 : \text{I, § 2, no. 1}$.
 
-$ \gamma_a, \delta_a, \gamma(a), \delta(a) : \text{I, § 2, no. 2} $.
+$\gamma_a, \delta_a, \gamma(a), \delta(a) : \text{I, § 2, no. 2}$.
 
-$ E_S $ (S là một tập con của một nửa nhóm giao hoán E): I, § 2, no. 4.
+$E_S$ (S là một tập con của một nửa nhóm giao hoán E): I, § 2, no. 4.
 
-$ \mathbf{Z}, + $ (phép cộng trong $ \mathbf{Z} $): I, § 2, no. 5.
+$\mathbf{Z}, +$ (phép cộng trong $\mathbf{Z}$): I, § 2, no. 5.
 
-$ \leq $ (quan hệ thứ tự trên $ \mathbf{Z} $): I, § 2, no. 5.
+$\leq$ (quan hệ thứ tự trên $\mathbf{Z}$): I, § 2, no. 5.
 
-$ \mathbf{N}^* : \text{I, § 2, no. 5} $.
+$\mathbf{N}^* : \text{I, § 2, no. 5}$.
 
-$ \prod^n $ (đối với $ n \in \mathbf{Z} $): I, § 2, no. 7.
+$\prod^n$ (đối với $n \in \mathbf{Z}$): I, § 2, no. 7.
 
 $
 -x, x - y, x + y - z, x - y - z, x - y + z - t : \text{I, § 2, no. 8}.
 $
 
-$ nx $ ($ n \in \mathbf{Z} $): I, § 2, no. 8.
+$nx$ ($n \in \mathbf{Z}$): I, § 2, no. 8.
 
-$ x^n $ ($ n \in \mathbf{Z} $): I, § 2, no. 8.
+$x^n$ ($n \in \mathbf{Z}$): I, § 2, no. 8.
 
 $
 \frac{1}{x}, \frac{x}{y}, x/y : \text{I, § 2, no. 8}.
-$ $ \alpha.x, x.\alpha, x^\alpha $ ($ \alpha $ một toán tử): I, § 3, no. 1.
-$ \alpha \perp x, \alpha \perp X, \Xi \perp X $ ($ \alpha $ một toán tử, $ \Xi $ một tập hợp các toán tử): I, § 3, no. 1.
-$ \mathfrak{S}_F $: I, § 4, no. 1.
-$ (G:H), G/H $ ($H$ một nhóm con của G): I, § 4, no. 4.
-$ x \equiv y $ (mod. H), $ x \equiv y $ (H) (H một nhóm con chuẩn tắc): I, § 4, no. 4.
-Ker $ f $, Im $ f $ ($ f $ một đồng cấu nhóm): I, § 4, no. 5.
+$ $\alpha.x, x.\alpha, x^\alpha$ ($\alpha$ một toán tử): I, § 3, no. 1.
+$\alpha \perp x, \alpha \perp X, \Xi \perp X$ ($\alpha$ một toán tử, $\Xi$ một tập hợp các toán tử): I, § 3, no. 1.
+$\mathfrak{S}_F$: I, § 4, no. 1.
+$(G:H), G/H$ ($H$ một nhóm con của G): I, § 4, no. 4.
+$x \equiv y$ (mod. H), $x \equiv y$ (H) (H một nhóm con chuẩn tắc): I, § 4, no. 4.
+Ker $f$, Im $f$ ($f$ một đồng cấu nhóm): I, § 4, no. 5.
 $$
 \prod_{i \in I} G_i \quad (G_i \text{ các nhóm}): \text{I, } \S 4, \text{ no. 8}.
 $$
-$ G_1 \times_H G_2 $: I, § 4, no. 8.
+$G_1 \times_H G_2$: I, § 4, no. 8.
 $$
 \prod_{i \in I} G_i \quad (G_i \text{ các nhóm}): \text{I, } \S 4, \text{ no. 9}.
 $$
-$ x \equiv y $ (mod. $ a $), $ x \equiv y $ ($ a $) ($ a, x, y $ các số nguyên hữu tỉ): I, § 4, no. 10.
-$ v_p(a) $ ($ p $ một số nguyên tố, $ a $ một số nguyên hữu tỉ): I, § 4, no. 10.
-Aut(G), Int(G), Int(x) (G một nhóm, $ x \in G $): I, § 5, no. 3.
-$ N_G(A), N(A) $ (G một nhóm, $ A \subset G $): I, § 5, no. 3.
-$ C_G(A), C(A) $ (G một nhóm, $ A \subset G $): I, § 5, no. 3.
+$x \equiv y$ (mod. $a$), $x \equiv y$ ($a$) ($a, x, y$ các số nguyên hữu tỉ): I, § 4, no. 10.
+$v_p(a)$ ($p$ một số nguyên tố, $a$ một số nguyên hữu tỉ): I, § 4, no. 10.
+Aut(G), Int(G), Int(x) (G một nhóm, $x \in G$): I, § 5, no. 3.
+$N_G(A), N(A)$ (G một nhóm, $A \subset G$): I, § 5, no. 3.
+$C_G(A), C(A)$ (G một nhóm, $A \subset G$): I, § 5, no. 3.
 E/G, G|E (G một nhóm tác động trên E): I, § 5, no. 4.
 G|E/H (G, H các nhóm tác động trên E bằng các tác động giao hoán): I, § 5, no. 4.
-$ \mathfrak{S}_n $: I, § 5, no. 7.
-$ \tau_{x,y} $ (phép hoán vị chuyển trí có giá $ \{x, y\} $): I, § 5, no. 7.
-$ \varepsilon(\sigma), \varepsilon_\sigma $ ($ \sigma $ một phép hoán vị): I, § 5, no. 7.
-$ \mathcal{U}_E, \mathcal{U}_n $: I, § 5, no. 7.
-$ F \xrightarrow{i} E \xrightarrow{\rho} G $ (E, F, G các nhóm): I, § 6, no. 1.
-$ F \times_\tau G, \mathcal{E}_\tau $ ($ \tau $ một đồng cấu của G vào Aut(F)): I, § 6, no. 1.
-$ gf $ ($ f \in F, g \in G $): I, § 6, no. 1.
-$ (f, g) \cdot_\tau (f', g') $ ($ f, f' $ trong F, $ g, g' $ trong G): I, § 6, no. 1.
-$ (x, y), (A, B) $ ($ x, y $ các phần tử, A, B các tập con của một nhóm G): I, § 6, no. 2.
+$\mathfrak{S}_n$: I, § 5, no. 7.
+$\tau_{x,y}$ (phép hoán vị chuyển trí có giá $\{x, y\}$): I, § 5, no. 7.
+$\varepsilon(\sigma), \varepsilon_\sigma$ ($\sigma$ một phép hoán vị): I, § 5, no. 7.
+$\mathcal{U}_E, \mathcal{U}_n$: I, § 5, no. 7.
+$F \xrightarrow{i} E \xrightarrow{\rho} G$ (E, F, G các nhóm): I, § 6, no. 1.
+$F \times_\tau G, \mathcal{E}_\tau$ ($\tau$ một đồng cấu của G vào Aut(F)): I, § 6, no. 1.
+$gf$ ($f \in F, g \in G$): I, § 6, no. 1.
+$(f, g) \cdot_\tau (f', g')$ ($f, f'$ trong F, $g, g'$ trong G): I, § 6, no. 1.
+$(x, y), (A, B)$ ($x, y$ các phần tử, A, B các tập con của một nhóm G): I, § 6, no. 2.
 D(G): I, § 6, no. 2.
-$ C^n(G) $: I, § 6, no. 3.
-$ D^n(G) $: I, § 6, no. 4.
-$ E^G $ (G một nhóm tác động trên E): I, § 6, no. 5.
-$ M_n(X), M(X) $ (X một tập hợp): I, § 7, no. 1.
-$ l(w) $ ($ w $ một phần tử của M(X)): I, § 7, no. 1.
-$ ww', w.w' $ ($ w, w' $ các phần tử của M(X)): I, § 7, no. 1.
-$ l(w) $ ($ w $ một từ trên X): I, § 7, no. 2.
-$ ww', w.w' $ ($ w, w' $ các từ trên X): I, § 7, no. 2.
+$C^n(G)$: I, § 6, no. 3.
+$D^n(G)$: I, § 6, no. 4.
+$E^G$ (G một nhóm tác động trên E): I, § 6, no. 5.
+$M_n(X), M(X)$ (X một tập hợp): I, § 7, no. 1.
+$l(w)$ ($w$ một phần tử của M(X)): I, § 7, no. 1.
+$ww', w.w'$ ($w, w'$ các phần tử của M(X)): I, § 7, no. 1.
+$l(w)$ ($w$ một từ trên X): I, § 7, no. 2.
+$ww', w.w'$ ($w, w'$ các từ trên X): I, § 7, no. 2.
 Mo(X) (X một tập hợp): I, § 7, no. 2.
-$ l(\sigma) $ ($ \sigma $ một phân tích): I, § 7, no. 3.
-$ *G_i, G_1 * G_2 $ ($ G_1, G_2, G_i $ các nhóm): I, § 7, no. 3.
-$ \langle \tau_1, \ldots, \tau_n; r_1, \ldots, r_m \rangle $ ($ \tau_j $ các phần tử sinh, $ r_i $ các quan hệ): I, § 7, no. 6.
-$ \langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle $ ($ \tau_j $ các phần tử sinh, $ u_i, v_i $ các phần tử của một nhóm tự do): I, § 7, no. 6.
-$ \mathbf{Z}^{(X)}, \mathbf{N}^{(X)} $ (X một tập hợp): I, § 7, no. 7.
+$l(\sigma)$ ($\sigma$ một phân tích): I, § 7, no. 3.
+$*G_i, G_1 * G_2$ ($G_1, G_2, G_i$ các nhóm): I, § 7, no. 3.
+$\langle \tau_1, \ldots, \tau_n; r_1, \ldots, r_m \rangle$ ($\tau_j$ các phần tử sinh, $r_i$ các quan hệ): I, § 7, no. 6.
+$\langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle$ ($\tau_j$ các phần tử sinh, $u_i, v_i$ các phần tử của một nhóm tự do): I, § 7, no. 6.
+$\mathbf{Z}^{(X)}, \mathbf{N}^{(X)}$ (X một tập hợp): I, § 7, no. 7.
 
 0, 1 (các phần tử của một vành): I, § 8, no. 1.
 A^0 (A một vành): I, § 8, no. 3.
 (a) (a một phần tử của A): I, § 8, no. 6.
-$ \sum_{\lambda} a_\lambda $ (a_\lambda các iđêan): I, § 8, no. 6.
-$ x \equiv y \pmod{a} $, $ x \equiv y $ (a) (a một iđêan): I, § 8, no. 7.
+$\sum_{\lambda} a_\lambda$ (a_\lambda các iđêan): I, § 8, no. 6.
+$x \equiv y \pmod{a}$, $x \equiv y$ (a) (a một iđêan): I, § 8, no. 7.
 A/a (a một iđêan hai phía): I, § 8, no. 7.
 ab (a, b các iđêan hai phía): I, § 8, no. 9.
 A[S^{-1}] (S một tập con của một vành A): I, § 8, no. 12.
-$ F_p $ (p một số nguyên tố): I, § 9, no. 1.
-$ \mathbf{Q} $: I, § 9, no. 4.
-$ \mathbf{Q}_+ $: I, § 9, no. 4.
+$F_p$ (p một số nguyên tố): I, § 9, no. 1.
+$\mathbf{Q}$: I, § 9, no. 4.
+$\mathbf{Q}_+$: I, § 9, no. 4.
 |x|, sgn x (x một số hữu tỉ): I, § 9, no. 4.
 in(G): I, § 4, Bài tập 13.
 D_n: I, § 6, Bài tập 4.
@@ -264,86 +264,86 @@ A \approx B: I, § 6, Bài tập 39.
 e(G): I, § 7, Bài tập 39.
 d_n(X): I, § 7, Bài tập 39.
 A_s, A_d (A một vành): II, § 1, no. 1.
-$ \sum_{i \in I} x_i ((x_i)_{i \in I}) $ một họ các phần tử của một môđun có giá hữu hạn: II, § 1, no. 1.
+$\sum_{i \in I} x_i ((x_i)_{i \in I})$ một họ các phần tử của một môđun có giá hữu hạn: II, § 1, no. 1.
 Hom_A(E, F), Hom(E, F), (E, F, A-môđun): II, § 1, no. 2.
 End_A(E), End(E), Aut(E), GL(E) (E một A-môđun): II, § 1, no. 2.
 Hom_A(u, v), Hom(u, v) (u, v các ánh xạ tuyến tính): II, § 1, no. 2.
 1_E (E một môđun): II, § 1, no. 2.
 0 (môđun không): II, § 1, no. 3.
 Ker u, Im u, Coim u, Coker u (u một ánh xạ tuyến tính): II, § 1, no. 3.
-$ \prod_i f_i $ (f_i: E_i \to F_i các ánh xạ tuyến tính): II, § 1, no. 5.
-$ \bigoplus_{i \in I} E_i, E_p \oplus E_{p+1} \oplus \cdots \oplus E_q ((E_i)_{i \in I} $ một họ các A-môđun): II, § 1, no. 6.
-$ \sum_{i \in I} f_i $ (f_i: E_i \to F_i các ánh xạ tuyến tính): II, § 1, no. 6.
-$ \bigoplus_{i \in I} f_i, f_p \oplus f_{p+1} \oplus \cdots \oplus f_q $ (f_i: E_i \to F_i các ánh xạ tuyến tính): II, § 1, no. 6.
+$\prod_i f_i$ (f_i: E_i \to F_i các ánh xạ tuyến tính): II, § 1, no. 5.
+$\bigoplus_{i \in I} E_i, E_p \oplus E_{p+1} \oplus \cdots \oplus E_q ((E_i)_{i \in I}$ một họ các A-môđun): II, § 1, no. 6.
+$\sum_{i \in I} f_i$ (f_i: E_i \to F_i các ánh xạ tuyến tính): II, § 1, no. 6.
+$\bigoplus_{i \in I} f_i, f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ (f_i: E_i \to F_i các ánh xạ tuyến tính): II, § 1, no. 6.
 E^{(1)} (E một môđun): II, § 1, no. 6.
-$ \bigoplus_{i \in I} M_i $ ((M_i)_{i \in I} một họ các môđun con): II, § 1, no 7.
+$\bigoplus_{i \in I} M_i$ ((M_i)_{i \in I} một họ các môđun con): II, § 1, no 7.
 long_A(M), long(M) (M một A-môđun có độ dài hữu hạn): II, § 1, no. 10.
-$ \delta_{st} $ (ký hiệu Kronecker): II, § 1, no. 11.
-$ \sum_{t \in T} \xi_t \cdot t $ (T một tập hợp, $ \xi_t $ các phần tử của một vành): II, § 1, no. 11.
+$\delta_{st}$ (ký hiệu Kronecker): II, § 1, no. 11.
+$\sum_{t \in T} \xi_t \cdot t$ (T một tập hợp, $\xi_t$ các phần tử của một vành): II, § 1, no. 11.
 
 Ann(S), Ann(x) (S một tập con của một môđun, x một phần tử của một môđun): II, § 1, no. 12.
-$ \rho_*(E), E_{[B]} $ (E một A-môđun, $ \rho : B \to A $ một đồng cấu vành): II, § 1, no. 13.
-$ \rho_*(u) $ ($ \rho : B \to A $ một đồng cấu vành, u một ánh xạ A-tuyến tính): II, § 1, no. 13.
+$\rho_*(E), E_{[B]}$ (E một A-môđun, $\rho : B \to A$ một đồng cấu vành): II, § 1, no. 13.
+$\rho_*(u)$ ($\rho : B \to A$ một đồng cấu vành, u một ánh xạ A-tuyến tính): II, § 1, no. 13.
 E* (E một môđun): II, § 2, no. 3.
-$ \langle x, x^* \rangle $ (x một phần tử của một môđun trái E, $ x^* $ một phần tử của môđun đối ngẫu E* của nó): II, § 2, no. 3.
-$ \langle x^*, x \rangle $ (x một phần tử của một môđun phải E, $ x^* $ một phần tử của môđun đối ngẫu E* của nó): II, § 2, no. 3.
-$ t_u $ (u một ánh xạ tuyến tính hoặc nửa tuyến tính): II, § 2, no. 5.
-$ \tilde{u} $ (u một đẳng cấu): II, § 2, no. 5.
-$ E \otimes_A F, E \otimes_A F $ (E một A-môđun phải, F một A-môđun trái): II, § 3, no. 1.
-$ x \otimes y $ (x $ \in $ E (một môđun phải), y $ \in $ F (một môđun trái)): II, § 3, no. 1.
-$ u \otimes v $ (u, v các ánh xạ tuyến tính): II, § 3, no. 2.
-$ u \otimes v $ (u, v các ánh xạ nửa tuyến tính): II, § 3, no. 3.
-$ s_{A_d} $ (A một vành): II, § 3, no. 4.
-$ \mathcal{L}_2(E, F; G) $ (E, F, G các môđun trên một vành giao hoán): II, § 3, no. 5.
-$ \bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda $ (($ G_\lambda $) một họ các môđun $ \mathbf{Z} $, $ x_\lambda \in G_\lambda $ với mọi $ \lambda $): II, § 3, no. 9.
-$ \bigotimes_{\lambda \in L} v_\lambda $ ($ v_\lambda : G_\lambda \to G'_\lambda $ $ \mathbf{Z} $-các ánh xạ tuyến tính): II, § 3, no. 9.
-$ \bigotimes_{(c,p,q)} G_\lambda, \bigotimes_{(c,p,q)} x_\lambda, \bigotimes_{(c)} x_\lambda $: II, § 3, no. 9.
-$ \bigotimes_{(c)} v_\lambda $ ($ v_\lambda $ $ \mathbf{Z} $-các ánh xạ tuyến tính): II, § 3, no. 9.
-$ E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n $: II, § 3, no. 9.
-$ x_1 \otimes x_2 \otimes \cdots \otimes x_n $: II, § 3, no. 9.
-$ u_1 \otimes u_2 \otimes \cdots \otimes u_n $ ($ u_i $ các ánh xạ tuyến tính): II, § 3, no. 9.
-$ \mathcal{L}_n(E_1, \ldots, E_n; G) $ ($ E_1, \ldots, E_n, G $ các môđun trên một vành giao hoán): II, § 3, no. 9.
+$\langle x, x^* \rangle$ (x một phần tử của một môđun trái E, $x^*$ một phần tử của môđun đối ngẫu E* của nó): II, § 2, no. 3.
+$\langle x^*, x \rangle$ (x một phần tử của một môđun phải E, $x^*$ một phần tử của môđun đối ngẫu E* của nó): II, § 2, no. 3.
+$t_u$ (u một ánh xạ tuyến tính hoặc nửa tuyến tính): II, § 2, no. 5.
+$\tilde{u}$ (u một đẳng cấu): II, § 2, no. 5.
+$E \otimes_A F, E \otimes_A F$ (E một A-môđun phải, F một A-môđun trái): II, § 3, no. 1.
+$x \otimes y$ (x $\in$ E (một môđun phải), y $\in$ F (một môđun trái)): II, § 3, no. 1.
+$u \otimes v$ (u, v các ánh xạ tuyến tính): II, § 3, no. 2.
+$u \otimes v$ (u, v các ánh xạ nửa tuyến tính): II, § 3, no. 3.
+$s_{A_d}$ (A một vành): II, § 3, no. 4.
+$\mathcal{L}_2(E, F; G)$ (E, F, G các môđun trên một vành giao hoán): II, § 3, no. 5.
+$\bigotimes_{\lambda \in L} G_\lambda, \bigotimes_{\lambda \in L} x_\lambda$ (($G_\lambda$) một họ các môđun $\mathbf{Z}$, $x_\lambda \in G_\lambda$ với mọi $\lambda$): II, § 3, no. 9.
+$\bigotimes_{\lambda \in L} v_\lambda$ ($v_\lambda : G_\lambda \to G'_\lambda$ $\mathbf{Z}$-các ánh xạ tuyến tính): II, § 3, no. 9.
+$\bigotimes_{(c,p,q)} G_\lambda, \bigotimes_{(c,p,q)} x_\lambda, \bigotimes_{(c)} x_\lambda$: II, § 3, no. 9.
+$\bigotimes_{(c)} v_\lambda$ ($v_\lambda$ $\mathbf{Z}$-các ánh xạ tuyến tính): II, § 3, no. 9.
+$E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n$: II, § 3, no. 9.
+$x_1 \otimes x_2 \otimes \cdots \otimes x_n$: II, § 3, no. 9.
+$u_1 \otimes u_2 \otimes \cdots \otimes u_n$ ($u_i$ các ánh xạ tuyến tính): II, § 3, no. 9.
+$\mathcal{L}_n(E_1, \ldots, E_n; G)$ ($E_1, \ldots, E_n, G$ các môđun trên một vành giao hoán): II, § 3, no. 9.
 Tr(u) (u một tự đồng cấu của một môđun trên một vành giao hoán): II, § 4, no. 3.
-$ \rho^*(E), E_{(B)} $ (E một A-môđun, $ \rho : A \to B $ một đồng cấu vành): II, § 5, no. 1.
-$ \rho^*(u), u_{(B)} $ ($ \rho : A \to B $ một đồng cấu vành, u một đồng cấu A-môđun): II, § 5, no. 1.
+$\rho^*(E), E_{(B)}$ (E một A-môđun, $\rho : A \to B$ một đồng cấu vành): II, § 5, no. 1.
+$\rho^*(u), u_{(B)}$ ($\rho : A \to B$ một đồng cấu vành, u một đồng cấu A-môđun): II, § 5, no. 1.
 dim_K E, dim E, [E : K] (E một không gian vectơ K): II, § 7, no. 2.
 dim_A E, dim E (E một A-môđun mà mọi hai cơ sở đều có cùng lực lượng): II, § 7, no. 2.
 codim_E F, codim F (F một không gian con vectơ của một không gian vectơ E): II, § 7, no. 3.
 rg(u) (u một ánh xạ tuyến tính của các không gian vectơ): II, § 7, no. 4.
 rg(u) (u một phần tử của một tích tenxơ của các không gian vectơ): II, § 7, no. 8.
 dim_K E, dim E (E một không gian affine trên một trường K): II, § 9, no. 1.
-$ a + t, t + a $ (a một điểm, t một phép tịnh tiến của một không gian affine): II, § 9, no. 1.
+$a + t, t + a$ (a một điểm, t một phép tịnh tiến của một không gian affine): II, § 9, no. 1.
 
-$ b - a $ ($ a, b $ các điểm của một không gian affine): II, § 9, no. 1.
+$b - a$ ($a, b$ các điểm của một không gian affine): II, § 9, no. 1.
 
-$ \sum_{c \in I} \lambda_i x_i $ (($ x_i $)$_{i \in I}$ một họ các điểm của một không gian affine, $ (\lambda_i)_{i \in I} $ một họ các vô hướng, có giá hữu hạn, sao cho $ \sum_i \lambda_i = 1 $ hoặc $ \sum_i \lambda_i = 0 $): II, § 9, no. 1.
+$\sum_{c \in I} \lambda_i x_i$ (($x_i$)$_{i \in I}$ một họ các điểm của một không gian affine, $(\lambda_i)_{i \in I}$ một họ các vô hướng, có giá hữu hạn, sao cho $\sum_i \lambda_i = 1$ hoặc $\sum_i \lambda_i = 0$): II, § 9, no. 1.
 
-$ \mathbf{P}(V), \Delta(V) $ (V một không gian vectơ): II, § 9, no. 5.
-$ \mathbf{P}_n(K), \Delta_n(K) $ (K một trường): II, § 9, no. 5.
-$ \dim_K \mathbf{P}(V), \dim \mathbf{P}(V) $ (V một không gian K-vectơ): II, § 9, no. 5.
-$ \tilde{K}, \infty $ (K một trường): II, § 9, no. 9.
-$ \mathbf{PGL}(V), \mathbf{PGL}_n(K), \mathbf{PGL}(n, K) $ (K một trường, V một không gian vectơ): II, § 9, no. 10.
-$ ^tM $ ($ M $ một ma trận): II, § 10, no. 1.
-$ M' + M'' $ ($ M', M'' $ các ma trận trên một nhóm giao hoán): II, § 10, no. 2.
-$ f(M', M''), M'M'' $ ($ M', M'' $ các ma trận): II, § 10, no. 2.
-$ E_{ij} $ (các đơn vị ma trận): II, § 10, no. 3.
-$ \sigma(M), M^\sigma $ ($ M $ một ma trận, $ \sigma $ một đồng cấu vành): II, § 10, no. 3.
-$ M(x), x $ (x một phần tử của một môđun tự do sinh hữu hạn): II, § 10, no. 4.
-$ M(u) $ (u một đồng cấu của một môđun tự do vào một môđun tự do): II, § 10, no. 4.
-$ M(x), M(u) $ (các ma trận đối với các phân tích thành tổng trực tiếp): II, § 10, no. 5.
-$ M(u) $ (u một ánh xạ nửa tuyến tính): II, § 10, no. 6.
-$ \mathbf{M}_n(A), I_n, 1_n $ (A một vành): II, § 10, no. 7.
-$ \mathbf{GL}_n(A), \mathbf{GL}(n, A) $ (A một vành): II, § 10, no. 7.
-$ ^tX^{-1} $ (X một ma trận bình phương khả nghịch): II, § 10, no. 7.
-$ \operatorname{diag}(a_i)_{i \in I}, \operatorname{diag}(a_1, a_2, \ldots, a_n) $: II, § 10, no. 7.
-$ X_1 \otimes X_2 $ ($ X_1, X_2 $ các ma trận trên một vành giao hoán): II, § 10, no. 10.
-$ \operatorname{Tr}(X) $ (X một ma trận bình phương trên một vành giao hoán): II, § 10, no. 11.
-$ \operatorname{rg}(X) $ (X một ma trận trên một trường): II, § 10, no. 12.
-$ \deg(x) $ (x một phần tử của một nhóm phân bậc): II, § 11, no. 1.
-$ M(\lambda_0) $ (M một môđun phân bậc, $ \lambda_0 $ một phần tử của monoid các bậc): II, § 11, no. 2.
-$ \operatorname{Homgr}_A(M, N) $ (M, N các môđun phân bậc trên một vành phân bậc A): II, § 11, no. 6.
-$ \operatorname{Engr}_A(M), M^{*\operatorname{gr}} $ (M một môđun phân bậc): II, § 11, no. 6.
-$ M:N $ (M, N các môđun): II, § 1, Bài tập 24.
+$\mathbf{P}(V), \Delta(V)$ (V một không gian vectơ): II, § 9, no. 5.
+$\mathbf{P}_n(K), \Delta_n(K)$ (K một trường): II, § 9, no. 5.
+$\dim_K \mathbf{P}(V), \dim \mathbf{P}(V)$ (V một không gian K-vectơ): II, § 9, no. 5.
+$\tilde{K}, \infty$ (K một trường): II, § 9, no. 9.
+$\mathbf{PGL}(V), \mathbf{PGL}_n(K), \mathbf{PGL}(n, K)$ (K một trường, V một không gian vectơ): II, § 9, no. 10.
+$^tM$ ($M$ một ma trận): II, § 10, no. 1.
+$M' + M''$ ($M', M''$ các ma trận trên một nhóm giao hoán): II, § 10, no. 2.
+$f(M', M''), M'M''$ ($M', M''$ các ma trận): II, § 10, no. 2.
+$E_{ij}$ (các đơn vị ma trận): II, § 10, no. 3.
+$\sigma(M), M^\sigma$ ($M$ một ma trận, $\sigma$ một đồng cấu vành): II, § 10, no. 3.
+$M(x), x$ (x một phần tử của một môđun tự do sinh hữu hạn): II, § 10, no. 4.
+$M(u)$ (u một đồng cấu của một môđun tự do vào một môđun tự do): II, § 10, no. 4.
+$M(x), M(u)$ (các ma trận đối với các phân tích thành tổng trực tiếp): II, § 10, no. 5.
+$M(u)$ (u một ánh xạ nửa tuyến tính): II, § 10, no. 6.
+$\mathbf{M}_n(A), I_n, 1_n$ (A một vành): II, § 10, no. 7.
+$\mathbf{GL}_n(A), \mathbf{GL}(n, A)$ (A một vành): II, § 10, no. 7.
+$^tX^{-1}$ (X một ma trận bình phương khả nghịch): II, § 10, no. 7.
+$\operatorname{diag}(a_i)_{i \in I}, \operatorname{diag}(a_1, a_2, \ldots, a_n)$: II, § 10, no. 7.
+$X_1 \otimes X_2$ ($X_1, X_2$ các ma trận trên một vành giao hoán): II, § 10, no. 10.
+$\operatorname{Tr}(X)$ (X một ma trận bình phương trên một vành giao hoán): II, § 10, no. 11.
+$\operatorname{rg}(X)$ (X một ma trận trên một trường): II, § 10, no. 12.
+$\deg(x)$ (x một phần tử của một nhóm phân bậc): II, § 11, no. 1.
+$M(\lambda_0)$ (M một môđun phân bậc, $\lambda_0$ một phần tử của monoid các bậc): II, § 11, no. 2.
+$\operatorname{Homgr}_A(M, N)$ (M, N các môđun phân bậc trên một vành phân bậc A): II, § 11, no. 6.
+$\operatorname{Engr}_A(M), M^{*\operatorname{gr}}$ (M một môđun phân bậc): II, § 11, no. 6.
+$M:N$ (M, N các môđun): II, § 1, Bài tập 24.
 
 $$
 \begin{bmatrix}
@@ -352,14 +352,14 @@ d & c
 \end{bmatrix}
 $$ (a, b, c, d các điểm trên một đường thẳng xạ ảnh): II, § 9, Bài tập 11.
 
-$ \mathbf{SL}(E) $ (E một không gian vectơ): II, § 10, Bài tập 12.
-$ \mathbf{PSL}(E) $ (E một không gian vectơ): II, § 10, Bài tập 14.
-$ x.y, xy $ (phép nhân trong một đại số): III, § 1, no. 1.
-$ E^0 $ (E một đại số): III, § 1, no. 1.
-$ \operatorname{Hom}_{A-\operatorname{alg.}}(E, F) $ (E, F các A-đại số): III, § 1, no. 1.
-$ E/b $ (b một iđêan hai phía của một đại số E): III, § 1, no. 2.
-$ \hat{E} $ (E một đại số): III, § 1, no. 2.
-$ \eta_c, \eta_E, \eta $ (E một đại số, c một phần tử khả nghịch): III, § 1, no. 3.
+$\mathbf{SL}(E)$ (E một không gian vectơ): II, § 10, Bài tập 12.
+$\mathbf{PSL}(E)$ (E một không gian vectơ): II, § 10, Bài tập 14.
+$x.y, xy$ (phép nhân trong một đại số): III, § 1, no. 1.
+$E^0$ (E một đại số): III, § 1, no. 1.
+$\operatorname{Hom}_{A-\operatorname{alg.}}(E, F)$ (E, F các A-đại số): III, § 1, no. 1.
+$E/b$ (b một iđêan hai phía của một đại số E): III, § 1, no. 2.
+$\hat{E}$ (E một đại số): III, § 1, no. 2.
+$\eta_c, \eta_E, \eta$ (E một đại số, c một phần tử khả nghịch): III, § 1, no. 3.
 
 T(u), N(u): III, § 2, no. 3.
 \bar{u}: III, § 2, no. 4.
@@ -402,19 +402,19 @@ e^\alpha (\alpha \text{ một đa chỉ số}): III, § 6, no. 6.
 \wedge(M), \wedge_A(M), \mathrm{Alt}(M): III, § 7, no. 1.
 \mathfrak{g}'', \mathfrak{g}''_M, \mathfrak{g}''_n: III, § 7, no. 1.
 
-$ \wedge^n(M) $: III, § 7, no. 1.
-$ u \wedge v, x_1 \wedge x_2 \wedge \cdots \wedge x_n $: III, § 7, no. 1.
-$ \wedge(u), \wedge^n(u) $ ($ u $ một ánh xạ tuyến tính): III, § 7, no. 2.
-$ x_H $ (H là một tập con của $ \{1, n\} $): III, § 7, no. 3.
-$ u(x_1, \ldots, \hat{x}_j, \ldots, x_n) $: III, § 7, no. 4.
-$ a.z $: III, § 7, no. 4.
-$ A'_n(M), A''_n(M) $: III, § 7, no. 4.
-$ e_J $: III, § 7, no. 8.
-$ \rho_{J, K} $: III, § 7, no. 8.
-$ \det(u) $ ($ u $ một tự đồng cấu): III, § 8, no. 1.
-$ \det(x_1, x_2, \ldots, x_n) $ ($ x_j $ là các vectơ trong một A-môđun tự do $ n $-chiều): III, § 8, no. 1.
-$ \det(X) $ ($ X $ là một ma trận): III, § 8, no. 3.
-$ \det(\xi_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}, \det(\xi_{ij}) $: III, § 8, no. 3.
+$\wedge^n(M)$: III, § 7, no. 1.
+$u \wedge v, x_1 \wedge x_2 \wedge \cdots \wedge x_n$: III, § 7, no. 1.
+$\wedge(u), \wedge^n(u)$ ($u$ một ánh xạ tuyến tính): III, § 7, no. 2.
+$x_H$ (H là một tập con của $\{1, n\}$): III, § 7, no. 3.
+$u(x_1, \ldots, \hat{x}_j, \ldots, x_n)$: III, § 7, no. 4.
+$a.z$: III, § 7, no. 4.
+$A'_n(M), A''_n(M)$: III, § 7, no. 4.
+$e_J$: III, § 7, no. 8.
+$\rho_{J, K}$: III, § 7, no. 8.
+$\det(u)$ ($u$ một tự đồng cấu): III, § 8, no. 1.
+$\det(x_1, x_2, \ldots, x_n)$ ($x_j$ là các vectơ trong một A-môđun tự do $n$-chiều): III, § 8, no. 1.
+$\det(X)$ ($X$ là một ma trận): III, § 8, no. 3.
+$\det(\xi_{ij})_{1 \leq i \leq n, 1 \leq j \leq n}, \det(\xi_{ij})$: III, § 8, no. 3.
 
 $$
 \begin{vmatrix}
@@ -425,28 +425,28 @@ $$
 $$
 : III, § 8, no. 3.
 
-$ X_{H, K}, X^{H} $ ($ X $ một ma trận): III, § 8, no. 5 và 6.
-$ \mathrm{SL}_n(A), \mathrm{SL}(n, A) $: III, § 8, no. 9.
-$ p.x $ ($ p \in A[X] $, $ x $ một phần tử của một A-môđun): III, § 8, no. 10.
-$ M_u, M[X] $ ($ M $ một A-môđun, $ u $ một tự đồng cấu): III, § 8, no. 10.
-$ \chi_u(X) $ ($ u $ một tự đồng cấu A-môđun): III, § 8, no. 11.
-$ \mathrm{Tr}_{M/K}(a), N_{M/K}(a), \mathrm{Pc}_{M/K}(a; X) $ ($ A $ một đại số trên K, $ M $ một A-môđun, $ a \in A $) : III, § 9, no. 1.
-$ \mathrm{Tr}_{A/K}(a), N_{A/K}(a), \mathrm{Pc}_{A/K}(a; X) $ ($ A $ một đại số trên K, $ a \in A $) : III, § 9, no. 3.
-$ D_{A/K}(x_1, \ldots, x_n) $ ($ x_j $ các phần tử của một đại số trên K A): III, § 9, no. 5.
-$ [u, v]_g, [u, v] $ ($ u, v $ các phần tử của một đại số phân bậc): III, § 10, no. 4.
-$ P(D), P(d_1, \ldots, d_n) $ ($ P $ một đa thức, $ d_j $ các dẫn xuất): III, § 10, no. 4.
-$ \mathrm{ad}_e(a), \mathrm{ad}(a) $ ($ a $ một phần tử thuần nhất của một đại số phân bậc): III, § 10, no. 6.
-$ D_K(B, F) $ ($ B $ một đại số trên K, $ F $ một song môđun (B, B)): III, § 10, no. 7.
-$ D_{A, \rho}(B, F), D_A(B, F) $: III, § 10, no. 7.
-$ D_s $ ($ s $ một tự đồng cấu): III, § 10, no. 9.
-$ \Omega_K(A), d_{A/K}(x), dx $ ($ x $ một phần tử của một đại số trên K A): III, § 10, no. 11.
-$ D_iP, \partial P/\partial X_i $ ($ P $ một đa thức): III, § 10, no. 11.
-$ \Omega(u), \Omega_0(u) $ ($ u $ một đồng cấu vành): III, § 10, no. 12.
-$ \Omega_u $ ($ u $ một đồng cấu đại số trên K): III, § 10, no. 12.
-$ M^{*gr} $ ($ M $ một môđun phân bậc): III, § 11.
-$ u.v, u._mv $ ($ u, v $ các ánh xạ đa tuyến tính đối xứng): III, § 11, no. 2.
-$ u \wedge v $ ($ u, v $ các ánh xạ đa tuyến tính phản xứng): III, § 11, no. 2.
-$ \theta_T, \theta_S, \theta_\Lambda $: III, § 11, no. 5.
+$X_{H, K}, X^{H}$ ($X$ một ma trận): III, § 8, no. 5 và 6.
+$\mathrm{SL}_n(A), \mathrm{SL}(n, A)$: III, § 8, no. 9.
+$p.x$ ($p \in A[X]$, $x$ một phần tử của một A-môđun): III, § 8, no. 10.
+$M_u, M[X]$ ($M$ một A-môđun, $u$ một tự đồng cấu): III, § 8, no. 10.
+$\chi_u(X)$ ($u$ một tự đồng cấu A-môđun): III, § 8, no. 11.
+$\mathrm{Tr}_{M/K}(a), N_{M/K}(a), \mathrm{Pc}_{M/K}(a; X)$ ($A$ một đại số trên K, $M$ một A-môđun, $a \in A$) : III, § 9, no. 1.
+$\mathrm{Tr}_{A/K}(a), N_{A/K}(a), \mathrm{Pc}_{A/K}(a; X)$ ($A$ một đại số trên K, $a \in A$) : III, § 9, no. 3.
+$D_{A/K}(x_1, \ldots, x_n)$ ($x_j$ các phần tử của một đại số trên K A): III, § 9, no. 5.
+$[u, v]_g, [u, v]$ ($u, v$ các phần tử của một đại số phân bậc): III, § 10, no. 4.
+$P(D), P(d_1, \ldots, d_n)$ ($P$ một đa thức, $d_j$ các dẫn xuất): III, § 10, no. 4.
+$\mathrm{ad}_e(a), \mathrm{ad}(a)$ ($a$ một phần tử thuần nhất của một đại số phân bậc): III, § 10, no. 6.
+$D_K(B, F)$ ($B$ một đại số trên K, $F$ một song môđun (B, B)): III, § 10, no. 7.
+$D_{A, \rho}(B, F), D_A(B, F)$: III, § 10, no. 7.
+$D_s$ ($s$ một tự đồng cấu): III, § 10, no. 9.
+$\Omega_K(A), d_{A/K}(x), dx$ ($x$ một phần tử của một đại số trên K A): III, § 10, no. 11.
+$D_iP, \partial P/\partial X_i$ ($P$ một đa thức): III, § 10, no. 11.
+$\Omega(u), \Omega_0(u)$ ($u$ một đồng cấu vành): III, § 10, no. 12.
+$\Omega_u$ ($u$ một đồng cấu đại số trên K): III, § 10, no. 12.
+$M^{*gr}$ ($M$ một môđun phân bậc): III, § 11.
+$u.v, u._mv$ ($u, v$ các ánh xạ đa tuyến tính đối xứng): III, § 11, no. 2.
+$u \wedge v$ ($u, v$ các ánh xạ đa tuyến tính phản xứng): III, § 11, no. 2.
+$\theta_T, \theta_S, \theta_\Lambda$: III, § 11, no. 5.
 
 u \perp x, i(x): III, § 11, no. 6.
 x \perp u, i'(x): III, § 11, no. 6.
@@ -455,7 +455,7 @@ u \perp x, i'(u): III, § 11, no. 7.
 G_p(E), G_{n,p}(K): III, § 11, no. 13.
 a(x, y, z): III, Phụ lục, no. 1.
 ME: III, § 2, Bài tập 13.
-E \* F: III, § 5, Bài tập 6.
+E * F: III, § 5, Bài tập 6.
 R[a]: III, § 6, Bài tập 4.
 K[X; \sigma, d]: III, § 10, Bài tập 3.
 \tilde{X}: III, § 11, Bài tập 9.
@@ -570,10 +570,10 @@ Cơ sở của một môđun: II, § 1, no. 11.
 Cơ sở của một đại số: III, § 1, no. 7.
 Cơ sở của $T_I^J(M)$ liên kết với một cơ sở của M: III, § 5, no. 6.
 
-Cơ sở kiểu $ (\alpha, \beta) $ của một đại số bậc hai: III, § 2, no. 3.
-Cơ sở kiểu $ (\alpha, \beta, \gamma) $, kiểu $ (\alpha, \gamma) $, của một đại số quaternion: III, § 2, no. 5.
+Cơ sở kiểu $(\alpha, \beta)$ của một đại số bậc hai: III, § 2, no. 3.
+Cơ sở kiểu $(\alpha, \beta, \gamma)$, kiểu $(\alpha, \gamma)$, của một đại số quaternion: III, § 2, no. 5.
 Cơ sở, xạ ảnh: II, § 9, Bài tập 10.
-Song cộng, ánh xạ song tuyến tính $ \mathbf{Z} $: II, § 3, no. 1.
+Song cộng, ánh xạ song tuyến tính $\mathbf{Z}$: II, § 3, no. 1.
 Đối tâm hóa kép: I, § 1, no. 5.
 Đối tâm hóa kép của một đại số con: III, § 1, no. 2.
 Nhóm hai chu kỳ: I, § 6, Bài tập 26.
@@ -591,7 +591,7 @@ Công thức nhị thức: I, § 8, no. 2.
 Tích khối của các ma trận: II, § 10, no. 5.
 Vành Boolean: I, § 9, Bài tập 8.
 Ma trận viền: II, § 10, no. 1.
-Ngoặc, ngoặc $ \varepsilon $ của hai đạo hàm: III, § 10, no. 4.
+Ngoặc, ngoặc $\varepsilon$ của hai đạo hàm: III, § 10, no. 4.
 
 Giản ước được, trái, phải, phần tử giản ước được: I, § 2, no 2.
 Định lý Cartan-Brauer-Hua: I, § 9, Bài tập 18.
@@ -718,7 +718,7 @@ Phần tử giao hoán với một tập con: I, § 5, no. 3.
 Phần tử dẫn xuất từ một phần tử của đại số tự do bằng cách thế các phần tử vào các bất định: III, § 2, no. 8.
 Phần tử dẫn xuất từ một phần tử của đại số kết hợp tự do bằng cách thế các phần tử vào các bất định: III, § 2, no. 8.
 Phần tử, tự do, của một môđun: II, § 1, no. 11.
-Phần tử, thuần nhất (thuần nhất bậc $ n $), của một nhóm phân bậc: II, § 11, no. 1.
+Phần tử, thuần nhất (thuần nhất bậc $n$), của một nhóm phân bậc: II, § 11, no. 1.
 Phần tử, đơn vị: I, § 2, no. 1.
 Phần tử bất biến dưới một toán tử: I, § 3, no. 2.
 Phần tử, đẳng bậc, của một nhóm phân bậc: II, § 11, no. 1.
@@ -726,8 +726,8 @@ Phần tử, giản ước được trái, giản ước được phải, giản
 Phần tử, khả nghịch trái, khả nghịch phải, khả nghịch: I, § 2, no. 3.
 Phần tử, chính quy trái, chính quy phải, chính quy: I, § 2, no. 2.
 Phần tử chuẩn hóa một tập con: i, § 5, no. 3.
-Phần tử, $ p $-chính quy: I, § 6, Bài tập 28.
-Phần tử, $ p $-unipotent: I, § 6, Bài tập 28.
+Phần tử, $p$-chính quy: I, § 6, Bài tập 28.
+Phần tử, $p$-unipotent: I, § 6, Bài tập 28.
 Phần tử, nguyên thủy, trong một nhóm tự do: I, § 7, Bài tập 26.
 Phần tử, nguyên thủy, của một đại song đại số phân bậc: III, § 11, no. 8.
 Phần tử thu được từ việc thế các phần tử vào các bất định trong một nhóm tự do: I, § 7, no. 5.
@@ -777,10 +777,10 @@ Mở rộng vô hướng (đại số thu được bởi): III, § 1, no. 5.
 Mở rộng tầm thường: I, § 6, no. 1.
 Mở rộng tầm thường của một môđun: II, § 1, no. 9.
 Đại số ngoài của một môđun: III, § 7, no. 1.
-Lũy thừa ngoài $ p $-th của một tự đồng cấu: III, § 7, no. 4.
-Lũy thừa ngoài $ p $-th của một ma trận: III, § 8, no. 5.
-Lũy thừa ngoài $ p $-th của một môđun: III, § 7, no. 4.
-Tích ngoài của một $ p $-vectơ và một $ q $-vectơ: III, § 7, no. 1.
+Lũy thừa ngoài $p$-th của một tự đồng cấu: III, § 7, no. 4.
+Lũy thừa ngoài $p$-th của một ma trận: III, § 8, no. 5.
+Lũy thừa ngoài $p$-th của một môđun: III, § 7, no. 4.
+Tích ngoài của một $p$-vectơ và một $q$-vectơ: III, § 7, no. 1.
 Phép toán ngoài của hợp thành: I, § 3, no. 1.
 
 Nhân tử trực tiếp của một nhóm: I, § 4, no. 9.
@@ -812,8 +812,8 @@ Phép giữ cố định một tập con của một tập hợp (toán tử, t�
 Dạng song tuyến tính chính tắc: II, § 2, no. 3.
 Dạng tọa độ: II, § 2, no. 6.
 Dạng tuyến tính: II, § 2, no. 3.
-Dạng $ n $-tuyến tính: II, § 3, no. 9.
-$ n $-dạng: III, § 11, no. 7.
+Dạng $n$-tuyến tính: II, § 3, no. 9.
+$n$-dạng: III, § 11, no. 7.
 Công thức nhị thức: I, § 8, no. 2.
 Công thức Leibniz: III, § 10, no. 4.
 Các công thức Cramer: III, § 8, no. 7.
@@ -868,7 +868,7 @@ Nhóm, môđun, vành phân bậc: II, § 11, nos. 1 and 2.
 Đồng cấu phân bậc: II, § 11, no. 2.
 Đại số con phân bậc: III, § 3, no. 2.
 Vành con, môđun con, iđêan phân bậc: II, § 11, no. 3.
-Tích tenxơ phân bậc kiểu $ \Delta_0 $: III, § 4, no. 8.
+Tích tenxơ phân bậc kiểu $\Delta_0$: III, § 4, no. 8.
 
 Phân bậc tương thích với một đồng tích: III, § 11, no. 1.
 Phân bậc tương thích với một cấu trúc đại số: III, § 3, no. 1.
@@ -901,17 +901,17 @@ Nhóm tuyến tính: II, § 2, no. 6.
 Nhóm đơn cực tiểu: I, § 6, Bài tập 27.
 Nhóm đơn sinh: I, § 4, no. 10.
 Nhóm nhân của một vành: I, § 8, no. 1.
-Nhóm lũy linh, nhóm lũy linh lớp $ n $: I, § 6, no. 3.
+Nhóm lũy linh, nhóm lũy linh lớp $n$: I, § 6, no. 3.
 Nhóm hiệu, nhóm phân thức: I, § 2, no. 4.
 Nhóm kiểu mũ: I, § 7, Bài tập 39.
 Nhóm tác động trung thành: I, § 5, no. 1.
 Nhóm tác động tự do: I, § 5, no. 4.
 Nhóm tác động đơn bắc cầu: I, § 5, no. 6.
 Nhóm tác động bắc cầu: I, § 5, no. 5.
-$ p $-nhóm: I, § 6, no. 5.
+$p$-nhóm: I, § 6, no. 5.
 Nhóm xạ ảnh: II, § 9, no. 10.
 Nhóm hữu hạn dư: I, § 5, Bài tập 5.
-Nhóm giải được, nhóm giải được lớp $ n $: I, § 6, no. 4.
+Nhóm giải được, nhóm giải được lớp $n$: I, § 6, no. 4.
 Nhóm tuyến tính đặc biệt: III, § 8, no. 9.
 
 Nhóm siêu giải được: I, § 6, Bài tập 26.
@@ -931,8 +931,8 @@ Các quaternion Hamilton: III, § 2, no. 5.
 Phần tử thuần nhất trong một nhóm phân bậc: II, § 11, no. 1.
 G-tập thuần nhất: I, § 5, no. 5.
 Phương trình tuyến tính thuần nhất, hệ tuyến tính: II, § 2, no. 8.
-Tập con thuần nhất bậc $ p $ trong một chuỗi lũy thừa hình thức: III, § 2, no. 11.
-Tập con thuần nhất bậc $ p $ đối với một số bất định trong một chuỗi lũy thừa hình thức: III, § 2, no. 11.
+Tập con thuần nhất bậc $p$ trong một chuỗi lũy thừa hình thức: III, § 2, no. 11.
+Tập con thuần nhất bậc $p$ đối với một số bất định trong một chuỗi lũy thừa hình thức: III, § 2, no. 11.
 Đồng cấu đại số: III, § 1, no. 1.
 Đồng cấu A-môđun, A-đồng cấu: II, § 1, no. 2.
 Đồng cấu vành trung tâm: II, § 5, no. 3.
@@ -946,7 +946,7 @@ Tập con thuần nhất bậc $ p $ đối với một số bất định trong
 Đồng cấu M-tập: I, § 5, no. 1.
 Đồng cấu đa nút: II, § 1, no. 14.
 Đồng cấu của các nhóm với các toán tử: I, § 4, no. 2.
-$ \phi $-đồng cấu: I, § 3, no. 1.
+$\phi$-đồng cấu: I, § 3, no. 1.
 Đồng cấu phép chiếu: I, § 4, no. 8.
 Đồng cấu vành: I, § 8, no. 4.
 Đồng cấu tầm thường: I, § 2, no. 1.
@@ -975,15 +975,15 @@ Magma, có đơn vị: I, § 2, no. 1.
 Magma, đẳng cấu: I, § 1, no. 1.
 Ánh xạ, affine tuyến tính, affine: II, § 9, no. 4.
 Ánh xạ, phản xứng đa tuyến tính: III, § 7, no. 4.
-Ánh xạ, bi-cộng tính, $ \mathbf{Z} $-song tuyến tính: II, § 3, no. 1.
+Ánh xạ, bi-cộng tính, $\mathbf{Z}$-song tuyến tính: II, § 3, no. 1.
 Ánh xạ, C-song tuyến tính: II, § 3, no. 5.
 Ánh xạ tương thích với một tác động: I, § 3, no. 1.
 Ánh xạ tương thích với phép toán của một monoid: I, § 5, no. 1.
 Ánh xạ phân phối đối với một biến: I, § 3, no. 4.
 Ánh xạ, tuyến tính, A-tuyến tính: II, § 1, no. 2.
-Ánh xạ, tuyến tính, $ A_s(T) \to E $ được xác định bởi một ánh xạ $ T \to E $: II, § 1, no. 11.
+Ánh xạ, tuyến tính, $A_s(T) \to E$ được xác định bởi một ánh xạ $T \to E$: II, § 1, no. 11.
 Ánh xạ, tuyến tính, liên kết với một ánh xạ affine: II, § 9, no. 4.
-Ánh xạ, đa cộng tính, $ \mathbf{Z} $-đa tuyến tính: II, § 3, no. 9.
+Ánh xạ, đa cộng tính, $\mathbf{Z}$-đa tuyến tính: II, § 3, no. 9.
 Ánh xạ, C-đa tuyến tính: II, § 3, no. 9.
 Ánh xạ, quỹ đạo: I, § 5, no. 4.
 Ánh xạ, xạ ảnh tuyến tính, xạ ảnh: II, § 9, no. 10.
@@ -998,7 +998,7 @@ Ma trận, đường chéo: II, § 10, no. 7.
 Ma trận, rỗng: II, § 10, no. 1.
 Ma trận, khả nghịch: II, § 10, no. 7.
 Ma trận, tam giác dưới, tam giác trên: II, § 10, no. 7.
-Ma trận, ma trận kiểu $ (p, q) $: II, § 10, no. 1.
+Ma trận, ma trận kiểu $(p, q)$: II, § 10, no. 1.
 Ma trận, đơn thức: II, § 10, no. 7.
 Ma trận thu được bằng cách viền một ma trận: II, § 10, no. 1.
 Ma trận thu được bằng cách bỏ các cột, các hàng: II, § 10, no. 1.
@@ -1011,7 +1011,7 @@ Ma trận của một ánh xạ nửa tuyến tính đối với hai cơ sở: I
 Ma trận chuyển từ một cơ sở này sang một cơ sở khác: II, § 10, no. 8.
 Ma trận, vô hướng: II, § 10, no. 7.
 
-Ma trận, vuông, ma trận vuông cấp $ n $: II, § 10, no. 7.
+Ma trận, vuông, ma trận vuông cấp $n$: II, § 10, no. 7.
 Ma trận, đơn môđula: III, § 8, no. 4.
 Các đơn vị ma trận: II, § 10, no. 3.
 Ma trận chỉ có các số không bên dưới (bên trên) đường chéo: II, § 10, no. 7.
@@ -1020,7 +1020,7 @@ Iđêan cực đại: I, § 8, no. 6.
 Trung bình G: I, § 6, Bài tập 8.
 Các nhóm con ổn định chuẩn cực tiểu: I, § 4, Bài tập 15.
 Nhóm đơn cực tiểu: I, § 6, Bài tập 27.
-Minor, minor cấp $ p $ của một ma trận: III, § 8, no. 5.
+Minor, minor cấp $p$ của một ma trận: III, § 8, no. 5.
 Các minor, bổ sung: III, § 8, no. 6.
 Tenxơ hỗn hợp: III, § 5, no. 6.
 Môđun, phân bậc hai: II, § 11, no. 2.
@@ -1108,7 +1108,7 @@ Số (hữu tỉ), âm, dương, âm ngặt, dương ngặt: I, § 9, no. 4.
 Tử số: I, § 2, no. 4.
 
 Octonion Cayley: III, Phụ lục, no. 3.
-Octonion kiểu ($ \alpha, \beta, \gamma, \delta $) (đại số của): III, Phụ lục, no. 3.
+Octonion kiểu ($\alpha, \beta, \gamma, \delta$) (đại số của): III, Phụ lục, no. 3.
 Phép hoán vị lẻ: I, § 5, no. 7.
 Phép toán bởi trái, phải, tịnh tiến: I, § 5, no. 1.
 Phép toán, trái, phải (các luật của): I, § 5, no. 1.
@@ -1121,7 +1121,7 @@ Toán tử: I, § 3, no. 1.
 Đối đại số đối: III, § 11, no. 1.
 Luật đối: I, § 1, no. 1.
 Magma đối: I, § 1, no. 1.
-Đối với một M-tập, $ M^0 $-tập: I, § 5, no. 1.
+Đối với một M-tập, $M^0$-tập: I, § 5, no. 1.
 Vành đối: I, § 8, no. 3.
 Quỹ đạo: I, § 5, no. 4.
 Ánh xạ quỹ đạo: I, § 5, no. 4.
@@ -1193,8 +1193,8 @@ Bài toán, tuyến tính: II, § 2, no. 8.
 Đại số tích: III, § 1, no. 4.
 Tích, khối, của các ma trận: II, § 10, no. 5.
 Tích, chéo: III, § 2, Bài tập 11.
-Tích, ngoài, của một $ p $-vectơ và một $ q $-vectơ: III, § 7, no. 1.
-Tích, nửa trực tiếp ngoài, của G bởi F đối với $ \tau $: I, § 6, no. 1.
+Tích, ngoài, của một $p$-vectơ và một $q$-vectơ: III, § 7, no. 1.
+Tích, nửa trực tiếp ngoài, của G bởi F đối với $\tau$: I, § 6, no. 1.
 Tích, thớ, của các nhóm có toán tử: I, § 4, no. 8.
 Tích, thớ, của các môđun: II, § 1, Bài tập 4.
 Tích, tự do, của các đại số: III, § 5, Bài tập 6.
@@ -1218,7 +1218,7 @@ Tích của các iđêan hai phía: I, § 8, no. 9.
 Tích, (phải, trái) nội: III, § 11, nos. 6 and 7.
 Vành tích: I, § 8, no. 10.
 Tích, đối xứng, của các ánh xạ đa tuyến tính: III, § 11, no. 2.
-Tích, tenxơ, của một họ các $ \mathbf{Z} $-môđun đối với một bộ ba $ (c, p, q) $: II, § 3, no. 9.
+Tích, tenxơ, của một họ các $\mathbf{Z}$-môđun đối với một bộ ba $(c, p, q)$: II, § 3, no. 9.
 Tích, tenxơ, của các đại số: III, § 4, no. 1.
 Tích, tenxơ, của một họ vô hạn các đại số: III, § 4, no. 5.
 Tích, tenxơ, của các cơ sở của các đại số: III, § 4, no. 5.
@@ -1244,7 +1244,7 @@ Phép chiếu: II, § 1, no. 8.
 Giả môđun trái, phải: II, Phụ lục, no. 2.
 Giả vành: I, § 8, no. 1.
 Giả vành có bình phương không: I, § 8, no. 3.
-Vectơ $ p $-nguyên thủy: III, § 11, no. 13.
+Vectơ $p$-nguyên thủy: III, § 11, no. 13.
 Quaternion nguyên thủy: III, § 2, Bài tập 3.
 
 Đại số bậc hai: III, § 2, no. 3.
@@ -1413,7 +1413,7 @@ Nhóm con, ổn định bất biến, nhóm con bất biến: I, § 4, no. 4.
 Nhóm con, ổn định chuẩn tắc, nhóm con chuẩn tắc: I, § 4, no. 4.
 Nhóm con, ổn định, sinh bởi một tập con: I, § 4, no. 3.
 Nhóm con, nhóm con ổn định: I, § 4, no. 3.
-Nhóm con Sylow, nhóm con Sylow $ p $-nhóm: I, § 6, no. 6.
+Nhóm con Sylow, nhóm con Sylow $p$-nhóm: I, § 6, no. 6.
 Magma con: I, § 1, no. 4.
 Magma con sinh bởi một tập con: I, § 1, no. 4.
 Magma con, có đơn vị: I, § 2, no. 1.
@@ -1436,7 +1436,7 @@ Tập con affine: II, § 9, no. 3.
 
 Tập con giao hoán với một tập con: I, § 5, no. 3.
 Tập con, tự do, tập con liên quan: II, § 1, no. 11.
-Tập con, thuần nhất, bậc $ p $ đối với một số bất định trong một chuỗi lũy thừa hình thức: III, § 2, no. 11.
+Tập con, thuần nhất, bậc $p$ đối với một số bất định trong một chuỗi lũy thừa hình thức: III, § 2, no. 11.
 Tập con chuẩn hóa một tập con: I, § 5, no. 3.
 Tập con, ổn định: I, § 1, no. 4 và § 3, no. 2.
 Tập con, ổn định, được sinh bởi một tập con: I, § 1, no. 4 và § 3, no. 2.
@@ -1518,8 +1518,8 @@ Số hạng trong $X^α$ của một đa thức: III, § 2, no. 9.
 Số hạng của một chuỗi lũy thừa hình thức: III, § 2, No. 11.
 Số hạng của một đa thức: III, § 2, No. 9.
 Số hạng của một tổng: I, § 1, No. 2.
-Số hạng bậc $ p $ đối với một số bất định trong một chuỗi lũy thừa hình thức: III, § 2, No. 11.
-Số hạng có bậc toàn phần $ p $ trong một chuỗi lũy thừa hình thức: III, § 2, No. 11.
+Số hạng bậc $p$ đối với một số bất định trong một chuỗi lũy thừa hình thức: III, § 2, No. 11.
+Số hạng có bậc toàn phần $p$ trong một chuỗi lũy thừa hình thức: III, § 2, No. 11.
 Định lý về tính kết hợp: I, § 1, No. 3.
 Định lý Cayley-Hamilton: III, § 8, No. 11.
 Định lý về tính giao hoán: I, § 1, No. 5.

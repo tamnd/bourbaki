@@ -11,7 +11,7 @@ pdf_pages: 0315-0322, 0400-0401
 extraction: ocr
 subsections:
     - "no": 1
-      title: THE COEFFICIENTS $ c_{\alpha \beta \gamma} $
+      title: THE COEFFICIENTS $c_{\alpha \beta \gamma}$
       page: 0
       pdf_page: 315
     - "no": 2
@@ -28,38 +28,38 @@ subsections:
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: 3be8a17f6cc0964c47197ceb7a5dc79874139b28c957259aef32433c6ca556fd
+content_sha256: cd937d983bc405d657b449070d2500d889e40909800ae25e3707f9d043c12bc7
 ---
 
 ## § 5. FORMAL CALCULATIONS IN LIE GROUPS
 
-Let $ f, g $ be two formal power series with coefficients in $ K $ in the same indeterminates, let $ f_i $ (resp. $ g_i $) be the homogeneous component of $ f $ (resp. $ g $) of degree $ i $. We shall write
+Let $f, g$ be two formal power series with coefficients in $K$ in the same indeterminates, let $f_i$ (resp. $g_i$) be the homogeneous component of $f$ (resp. $g$) of degree $i$. We shall write
 $$
 f \equiv g \mod \deg p
 $$
-if $ f_i = g_i $ for $ i < p $.
+if $f_i = g_i$ for $i < p$.
 
-In this §, G denotes a Lie group germ of finite dimension $ n $; the base field $ K $ is assumed to be of characteristic zero. We identify once and for all, by means of a chart, an open neighbourhood of $ e $ in G with an open neighbourhood U of 0 in $ K^n $, so that $ e $ is identified with 0. For $ x, y $ in U and $ n \in \mathbf{Z} $, $ x.y $ denotes the product of $ x $ and $ y $ and $ x^{[m]} $ the m-th power of $ x $ in G (when they are defined). The coordinates of $ x \in U $ are denoted by $ x_1, x_2, \ldots, x_n $.
+In this §, G denotes a Lie group germ of finite dimension $n$; the base field $K$ is assumed to be of characteristic zero. We identify once and for all, by means of a chart, an open neighbourhood of $e$ in G with an open neighbourhood U of 0 in $K^n$, so that $e$ is identified with 0. For $x, y$ in U and $n \in \mathbf{Z}$, $x.y$ denotes the product of $x$ and $y$ and $x^{[m]}$ the m-th power of $x$ in G (when they are defined). The coordinates of $x \in U$ are denoted by $x_1, x_2, \ldots, x_n$.
 
-### 1. THE COEFFICIENTS $ c_{\alpha \beta \gamma} $
+### 1. THE COEFFICIENTS $c_{\alpha \beta \gamma}$
 
-Let $ \Omega $ be the set of $ (x, y) \in U \times U $ such that $ x.y $ is defined and belongs to U. Then $ \Omega $ is open in $ U \times U $ and the mapping $ (x, y) \mapsto x.y $ of $ \Omega $ into U is analytic. The coordinates $ z_1, \ldots, z_n $ of $ z = x.y $ therefore admit expansions as integral series about the origin in the powers of $ x_1, \ldots, x_n, y_1, \ldots, y_n $. Therefore, there exist well defined constants $ c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} \in K $, such that
+Let $\Omega$ be the set of $(x, y) \in U \times U$ such that $x.y$ is defined and belongs to U. Then $\Omega$ is open in $U \times U$ and the mapping $(x, y) \mapsto x.y$ of $\Omega$ into U is analytic. The coordinates $z_1, \ldots, z_n$ of $z = x.y$ therefore admit expansions as integral series about the origin in the powers of $x_1, \ldots, x_n, y_1, \ldots, y_n$. Therefore, there exist well defined constants $c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} \in K$, such that
 $$
 z_1^{\gamma_1} \cdots z_n^{\gamma_n} = \sum_{\alpha_1, \ldots, \beta_n \in \mathbf{N}} c_{\alpha_1, \ldots, \alpha_n, \beta_1, \ldots, \beta_n, \gamma_1, \ldots, \gamma_n} x_1^{\alpha_1} \cdots x_n^{\alpha_n} y_1^{\beta_1} \cdots y_n^{\beta_n}
 $$
-for $ \gamma_1, \ldots, \gamma_n $ in $ \mathbf{N} $. Adopting the conventions of Differentiable and Analytic Manifolds, R, we shall write these formulae more briefly:
+for $\gamma_1, \ldots, \gamma_n$ in $\mathbf{N}$. Adopting the conventions of Differentiable and Analytic Manifolds, R, we shall write these formulae more briefly:
 $$
 (x.y)^{\gamma} = \sum_{\alpha, \beta \in \mathbf{N}^n} c_{\alpha, \beta, \gamma} x^{\alpha} y^{\beta} \quad (\gamma \in \mathbf{N}^n).
 $$
-Since $ x.0 = 0.x = x $ for $ x \in U $,
+Since $x.0 = 0.x = x$ for $x \in U$,
 $$
 c_{\alpha, 0, \gamma} = c_{0, \alpha, \gamma} = \delta_{\alpha \gamma}
 $$
-where $ \delta_{\alpha \gamma} $ is the Kronecker index. In particular, writing henceforth $ k $ instead of $ \varepsilon_k $ for $ k = 1, \ldots, n $,
+where $\delta_{\alpha \gamma}$ is the Kronecker index. In particular, writing henceforth $k$ instead of $\varepsilon_k$ for $k = 1, \ldots, n$,
 $$
 (x.y)_k = x_k + y_k + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c_{\alpha, \beta, k} x^{\alpha} y^{\beta}.
 $$
-Writing $ c_{\alpha \beta} = (c_{\alpha \beta 1}, c_{\alpha \beta 2}, \ldots, c_{\alpha \beta n}) \in K^n $, it then follows that
+Writing $c_{\alpha \beta} = (c_{\alpha \beta 1}, c_{\alpha \beta 2}, \ldots, c_{\alpha \beta n}) \in K^n$, it then follows that
 $$
 x.y = x + y + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c_{\alpha \beta} x^{\alpha} y^{\beta}.
 $$
@@ -133,12 +133,12 @@ and hence
 $$
 e_\alpha * e_\beta = \sum_\gamma c_{\alpha\beta\gamma} e_\gamma.
 $$
-(Formula (10) then expresses associativity on $ U(G) $.)
-In particular, since $ L(G) $ is stable under the bracket.
+(Formula (10) then expresses associativity on $U(G)$.)
+In particular, since $L(G)$ is stable under the bracket.
 $$
 [e_i, e_j] = \sum_k (c_{ijk} - c_{jik}) e_k.
 $$
-The constants of structure of $ L(G) $ relative to the basis $ (e_1, \ldots, e_n) $ are therefore the $ c_{ijk} - c_{jik} $. In other words, canonically identifying $ L(G) $ with $ K^n $, we obtain:
+The constants of structure of $L(G)$ relative to the basis $(e_1, \ldots, e_n)$ are therefore the $c_{ijk} - c_{jik}$. In other words, canonically identifying $L(G)$ with $K^n$, we obtain:
 $$
 [x, y] = B(x, y) - B(y, x).
 $$
@@ -150,21 +150,21 @@ $$
 (iii) $$ y^{[-1]}.x.y \equiv x + [x, y] \mod \deg 3 $$
 (iv) $$ x^{[-1]}.y^{[-1]}.x.y \equiv [x, y] \mod \deg 3 $$
 (v) $$ x.y.x^{[-1]}.y^{[-1]} \equiv [x, y] \mod \deg 3. $$
-(In (i), $ x^{[-1]} $ of course represents the expansion of the function $ x \mapsto x^{[-1]} $ as an integral series about the origin; the other formulae can be interpreted analogously.)
-Let $ g_1 $ and $ g_2 $ be the homogeneous components of $ x^{[-1]} $ of degrees 1 and 2. Then
+(In (i), $x^{[-1]}$ of course represents the expansion of the function $x \mapsto x^{[-1]}$ as an integral series about the origin; the other formulae can be interpreted analogously.)
+Let $g_1$ and $g_2$ be the homogeneous components of $x^{[-1]}$ of degrees 1 and 2. Then
 $$
 0 = x.x^{[-1]} \\
 \equiv x + g_1(x) + B(x, g_1(x)) \mod \deg 2 \quad \text{(by (6))} \\
 \equiv x + g_1(x) \mod \deg 2
 $$
-and hence $ g_1(x) = -x $. Then
+and hence $g_1(x) = -x$. Then
 $$
 0 = x.x^{[-1]} \\
 \equiv x + (-x + g_2(x)) + B(x, -x + g_2(x)) \mod \deg 3 \\
 \equiv g_2(x) - B(x, x) \mod \deg 3
 $$
 
-and hence $ g_2(x) = B(x, x) $. This proves (i). Then, using (i),
+and hence $g_2(x) = B(x, x)$. This proves (i). Then, using (i),
 $$
 x.y.x^{[-1]} \equiv (x + y + B(x, y)).(-x + B(x, x)) \quad \text{mod deg 3}
 $$
@@ -235,17 +235,17 @@ $$
 \binom{t}{i} = \frac{t(t-1)\ldots(t-i+1)}{i!}
 $$
 
-for all $ t \in \mathbf{K} $.)
+for all $t \in \mathbf{K}$.)
 
-Assertion (i) is obvious from the definition of the $ \psi_j $.
+Assertion (i) is obvious from the definition of the $\psi_j$.
 
-We prove (ii) for $ t $ an integer $ \geq 0 $. By (14),
+We prove (ii) for $t$ an integer $\geq 0$. By (14),
 
 $$
 x^{[t]} = \sum_{\alpha(1), \ldots, \alpha(t) \in \mathbf{N}^n} a_{\alpha(1), \ldots, \alpha(t)} x^{\alpha(1) + \ldots + \alpha(t)}.
 $$
 
-For $ \alpha = (\alpha(1), \ldots, \alpha(t)) \in (\mathbf{N}^n)^t $, let $ \sigma(\alpha) $ denote the set of $ j \in \{1, 2, \ldots, t\} $ such that $ \alpha(j) \neq 0 $. If, in the sum (17), we group together the terms for which $ \sigma(\alpha) $ is the same, then
+For $\alpha = (\alpha(1), \ldots, \alpha(t)) \in (\mathbf{N}^n)^t$, let $\sigma(\alpha)$ denote the set of $j \in \{1, 2, \ldots, t\}$ such that $\alpha(j) \neq 0$. If, in the sum (17), we group together the terms for which $\sigma(\alpha)$ is the same, then
 
 $$
 x^{[t]} = \sum_{\sigma \subset \{1, t\}} h_{t, \sigma}(x)
@@ -257,31 +257,31 @@ $$
 h_{t, \sigma}(x) = \sum_{\sigma(\alpha) = \sigma} a_{\alpha(1), \ldots, \alpha(t)} x^{\alpha(1) + \ldots + \alpha(t)}.
 $$
 
-Let $ \sigma = \{j_1, j_2, \ldots, j_q\} $ with $ j_1 < j_2 < \ldots < j_q $. In (14) (where $ j $ is replaced by $ t $), we substitute 0 for $ x(k) $ for $ k \notin \sigma $; as 0 is the identity element of $ G $, we obtain the expansion of $ x(j_1) \cdot x(j_2) \ldots x(j_q) $ as an integral series about the origin:
+Let $\sigma = \{j_1, j_2, \ldots, j_q\}$ with $j_1 < j_2 < \ldots < j_q$. In (14) (where $j$ is replaced by $t$), we substitute 0 for $x(k)$ for $k \notin \sigma$; as 0 is the identity element of $G$, we obtain the expansion of $x(j_1) \cdot x(j_2) \ldots x(j_q)$ as an integral series about the origin:
 
 $$
 x(j_1) \cdot x(j_2) \ldots x(j_q) = \sum_{\sigma(\alpha) \subset \sigma} a_{\alpha(1), \ldots, \alpha(t)} x(j_1)^{\alpha(j_1)} x(j_2)^{\alpha(j_2)} \ldots x(j_q)^{\alpha(j_q)}
 $$
 
-and hence, by the definition of $ \psi_q $:
+and hence, by the definition of $\psi_q$:
 
 $$
 \psi_q(x) = \sum_{\sigma(\alpha) = \sigma} a_{\alpha(1), \ldots, \alpha(t)} x^{\alpha(j_1) + \ldots + \alpha(j_q)}.
 $$
 
-By (19) and (20), we see that $ h_{t, \sigma}(x) = \psi_{\mathrm{card}\,\sigma}(x) $. Then (18) implies
+By (19) and (20), we see that $h_{t, \sigma}(x) = \psi_{\mathrm{card}\,\sigma}(x)$. Then (18) implies
 
 $$
 x^{[t]} = \sum_{i=0}^t \binom{t}{i} \psi_i(x) = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x).
 $$
 
-Then we write $ x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x) $ for all $ t \in \mathbf{K} $. In the integral series $ x^{[t]} $ and $ x^{[t]'} $, each coefficient is a polynomial function of $ t $. For this is obvious for $ x^{[t]'} $. As far as $ x^{[t]} $ is concerned, it suffices to prove that, for all $ u \in \mathrm{U}(G) $, the image of $ u $ under $ x \mapsto x^{[t]} $ is a polynomial function of $ t $. Now, for $ u \in \mathrm{U}^m(G) $, this image is $ t^m u $ (\S 4, no. 3, Proposition 7 (iv)).
+Then we write $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ for all $t \in \mathbf{K}$. In the integral series $x^{[t]}$ and $x^{[t]'}$, each coefficient is a polynomial function of $t$. For this is obvious for $x^{[t]'}$. As far as $x^{[t]}$ is concerned, it suffices to prove that, for all $u \in \mathrm{U}(G)$, the image of $u$ under $x \mapsto x^{[t]}$ is a polynomial function of $t$. Now, for $u \in \mathrm{U}^m(G)$, this image is $t^m u$ (\S 4, no. 3, Proposition 7 (iv)).
 
-As $ x^{[t]} = x^{[t]'} $ for $ t $ an integer $ \geq 0 $, it then follows that $ x^{[t]} = x^{[t]'} $ for all $ t \in \mathbf{K} $.
+As $x^{[t]} = x^{[t]'}$ for $t$ an integer $\geq 0$, it then follows that $x^{[t]} = x^{[t]'}$ for all $t \in \mathbf{K}$.
 
 #### Remark {#lie-iii-s5-n3-rem-1 .statement}
 
-(1) We write condition (ii) of Proposition 2 for t an integer $ \geqslant 0 $:
+(1) We write condition (ii) of Proposition 2 for t an integer $\geqslant 0$:
 
 $$
 \begin{align*}
@@ -292,15 +292,15 @@ x^{[2]} &= \psi_0(x) + 2\psi_1(x) + \psi_2(x) \\
 \end{align*}
 $$
 
-These formulae suffice to determine the $ \psi_i $.
+These formulae suffice to determine the $\psi_i$.
 
-(2) We see that $ \psi_0(x) = 0, \psi_1(x) = x, \psi_2(x) = x^{[2]} - 2x $,
+(2) We see that $\psi_0(x) = 0, \psi_1(x) = x, \psi_2(x) = x^{[2]} - 2x$,
 
 $$
 x^{[-1]} = \sum_{i=1}^\infty (-1)^i \psi_i(x).
 $$
 
-(3) The above expression for $ \psi_2 $ and formula (6) prove that
+(3) The above expression for $\psi_2$ and formula (6) prove that
 
 $$
 \psi_2(x) \equiv \mathrm{B}(x, x) \mod \deg 3.
@@ -311,7 +311,7 @@ $$
 x^{[t]} \equiv tx + \binom{t}{2} \mathrm{B}(x, x) \mod \deg 3.
 $$
 
-(4) Let $ \psi_{p,m}(x) $ and $ h_{t,m}(x) $ denote the homogeneous components of $ \psi_p(x) $ and $ x^{[t]} $ of degree m. Then $ \psi_{p,m} = 0 $ for $ m < p $. On the other hand, Proposition 2 (ii) gives
+(4) Let $\psi_{p,m}(x)$ and $h_{t,m}(x)$ denote the homogeneous components of $\psi_p(x)$ and $x^{[t]}$ of degree m. Then $\psi_{p,m} = 0$ for $m < p$. On the other hand, Proposition 2 (ii) gives
 
 $$
 h_{t,m}(x) = \sum_{p \leq m} \frac{t(t-1)\ldots(t-p+1)}{p!} \psi_{p,m}(x)
@@ -321,7 +321,7 @@ that is
 $$
 h_{t,m}(x) = \sum_{1 \leq r \leq m} t^r \phi_{r,m}(x)
 $$
-where the $ \phi_{r,m} $ are homogeneous polynomial mappings of degree m of $ \mathbf{K}^n $ into $ \mathbf{K}^n $. In particular, by (23),
+where the $\phi_{r,m}$ are homogeneous polynomial mappings of degree m of $\mathbf{K}^n$ into $\mathbf{K}^n$. In particular, by (23),
 
 $$
 \phi_{1,m}(x) = \sum_{p \leq m} \frac{(-1)^{p-1}}{p} \psi_{p,m}(x)
@@ -330,15 +330,15 @@ $$
 \phi_{m,m}(x) = \frac{1}{m!} \psi_{m,m}(x).
 $$
 
-(5) If $ \mathbf{K} $ is of characteristic $ > 0 $, the results of nos. 1 and 2 remain true, provided $ e_\alpha $, in no. 2, is defined by $ \langle e_\alpha, \sum_\beta \lambda_\beta x^\beta \rangle = \lambda_\alpha $. In no. 3, if the $ \psi_j $ are defined as above, the argument again proves that $ x^{[t]} = \sum_{i=1}^\infty \binom{t}{i} \psi_i(x) $ if $ t \in \mathbf{N} $.
+(5) If $\mathbf{K}$ is of characteristic $> 0$, the results of nos. 1 and 2 remain true, provided $e_\alpha$, in no. 2, is defined by $\langle e_\alpha, \sum_\beta \lambda_\beta x^\beta \rangle = \lambda_\alpha$. In no. 3, if the $\psi_j$ are defined as above, the argument again proves that $x^{[t]} = \sum_{i=1}^\infty \binom{t}{i} \psi_i(x)$ if $t \in \mathbf{N}$.
 
 ### 4. EXPONENTIAL
 
-Let $ E(x) $ be the expansion of an exponential mapping of $ G $ as an integral series about 0. Let $ L(x) $ be the expansion of the inverse mapping of an injective exponential mapping of $ G $ as an integral series about 0. Since the tangent mapping at 0 to any exponential mapping is the identity of $ L(G) $, $ E(x) \equiv x \mod \deg 2 $ and $ L(x) \equiv x \mod \deg 2 $. Since $ E(L(x)) = L(E(x)) $ for $ x $ sufficiently close to 0, the formal power series $ E $ and $ L $ are such that $ E(L(X)) = L(E(X)) = X $. An analogous argument shows that
+Let $E(x)$ be the expansion of an exponential mapping of $G$ as an integral series about 0. Let $L(x)$ be the expansion of the inverse mapping of an injective exponential mapping of $G$ as an integral series about 0. Since the tangent mapping at 0 to any exponential mapping is the identity of $L(G)$, $E(x) \equiv x \mod \deg 2$ and $L(x) \equiv x \mod \deg 2$. Since $E(L(x)) = L(E(x))$ for $x$ sufficiently close to 0, the formal power series $E$ and $L$ are such that $E(L(X)) = L(E(X)) = X$. An analogous argument shows that
 $$
 E(tX) = (E(X))^{[t]}, \quad L(X^{[t]}) = tL(X)
 $$
-for $ t \in K $.
+for $t \in K$.
 
 #### Proposition 3 {#lie-iii-s5-prop-3 .statement}
 
@@ -350,14 +350,14 @@ $$
 $$
 E = \sum_{p=1}^{\infty} \frac{1}{p!} \psi_{p,p}
 $$
-(Recall that $ \psi_{p,p} $ is the homogeneous component of $ \psi_p $ of degree $ p $.)
+(Recall that $\psi_{p,p}$ is the homogeneous component of $\psi_p$ of degree $p$.)
 
 or, by (24),
 $$
 E(tx) = (E(x))^{[t]}
 $$
 
-The two sides are formal power series in $ t $ and $ x $. Equating the terms of first degree in $ t $, we obtain
+The two sides are formal power series in $t$ and $x$. Equating the terms of first degree in $t$, we obtain
 $$
 x = \sum_{m \geq 0} \phi_{1,m}(E(x)).
 $$
@@ -371,7 +371,7 @@ $$
 $$
 = \sum_p \frac{(-1)^p}{p} \psi_p(x),
 $$
-whence (i). Similarly, for $ t \neq 0 $,
+whence (i). Similarly, for $t \neq 0$,
 $$
 L(tx) = tL((tx)^{[t^{-1}]})
 $$
@@ -396,9 +396,9 @@ $$
 
 #### Proposition 4 {#lie-iii-s5-prop-4 .statement}
 
-*For the chart of G used to be canonical, it is necessary and sufficient that $ \psi_j = 0 $ for $ j \geq 2 $.*
+*For the chart of G used to be canonical, it is necessary and sufficient that $\psi_j = 0$ for $j \geq 2$.*
 
-This is sufficient by Proposition 3. Suppose that the chart is canonical and that $ \psi_i = 0 $ for $ 2 \leq i < n $. Then $ nx = x^{[n]} = \sum_{i=0}^n \binom{n}{i} \psi_i(x) = nx + \psi_n(x) $, whence $ \psi_n = 0 $. Hence $ \psi_j = 0 $ for $ j \geq 2 $ by induction on $ j $.
+This is sufficient by Proposition 3. Suppose that the chart is canonical and that $\psi_i = 0$ for $2 \leq i < n$. Then $nx = x^{[n]} = \sum_{i=0}^n \binom{n}{i} \psi_i(x) = nx + \psi_n(x)$, whence $\psi_n = 0$. Hence $\psi_j = 0$ for $j \geq 2$ by induction on $j$.
 
 ### Exercises {#lie-iii-s5-exercises}
 

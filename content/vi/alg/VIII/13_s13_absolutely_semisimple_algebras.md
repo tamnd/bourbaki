@@ -46,9 +46,9 @@ subsections:
       pdf_page: 260
 statements: 33
 exercises: 12
-content_sha256: 29fa55abe527888d3b73ddd800d870be1905dc2f6b3a929482f99f20b918d038
+content_sha256: 0f49834b57841751656925a70d2d8f18c0e2c2f9bbdda99e22f2ee907ebab03a
 translated_from: content/en/alg/VIII/13_s13_absolutely_semisimple_algebras.md
-source_content_sha256: 57a884e506d7ba3b80df5da8946039a08e199b1e2e794448769cfff9f58df488
+source_content_sha256: 20e8293964011d4b021666f811555994484c4df5ad3a8aa7a6c4c31c70bdaac0
 translation_model: gpt-5.4
 translation_run: translate-vi-cd398399
 glossary_version: 34
@@ -384,7 +384,7 @@ $$
 
 là một đẳng cấu của các K-môđun.
 
-Ta ký hiệu bởi $ \partial^n $ (với $ n \geq 0 $) ánh xạ K-tuyến tính duy nhất từ $ C^n(A, P) $ tới $ C^{n+1}(A, P) $ làm cho biểu đồ sau giao hoán:
+Ta ký hiệu bởi $\partial^n$ (với $n \geq 0$) ánh xạ K-tuyến tính duy nhất từ $C^n(A, P)$ tới $C^{n+1}(A, P)$ làm cho biểu đồ sau giao hoán:
 
 $$
 \begin{array}{ccc}
@@ -400,13 +400,13 @@ $$
 (9) \quad (\alpha^{n+1} \circ \partial^n)(f) = \alpha^n(f) \circ d_{n+1}
 $$
 
-đối với mọi $ f \in C^n(A, P) $. Nói cách khác, ta có
+đối với mọi $f \in C^n(A, P)$. Nói cách khác, ta có
 
 $$
 \partial^n(f)(x_0, \ldots, x_n) = \alpha^n(f)(d_{n+1}(1 \otimes x_0 \otimes \cdots \otimes x_n \otimes 1))
 $$
 
-với $ x_0, \ldots, x_n $ trong A và $ f $ trong $ C^n(A, P) $, nghĩa là,
+với $x_0, \ldots, x_n$ trong A và $f$ trong $C^n(A, P)$, nghĩa là,
 
 $$
 \begin{align*}
@@ -422,7 +422,7 @@ $$
 (11) \quad \partial^{n+1} \circ \partial^n = 0 \qquad \text{với mọi } n \geq 0.
 $$
 
-Ta ký hiệu K-môđun $ \operatorname{Ker} \partial^0 $ bởi $ H^0(A, P) $ và, với $ n \geq 1 $, ký hiệu K-môđun $ \operatorname{Ker} \partial^n / \operatorname{Im} \partial^{n-1} $ bởi $ H^n(A, P) $. Ta đồng nhất K-môđun $ C^0(A, P) $ với P, và ta có $ C^1(A, P) = \operatorname{Hom}_K(A, P) $. Các ánh xạ $ \partial^n $ với $ n \leq 2 $ được cho bởi các công thức
+Ta ký hiệu K-môđun $\operatorname{Ker} \partial^0$ bởi $H^0(A, P)$ và, với $n \geq 1$, ký hiệu K-môđun $\operatorname{Ker} \partial^n / \operatorname{Im} \partial^{n-1}$ bởi $H^n(A, P)$. Ta đồng nhất K-môđun $C^0(A, P)$ với P, và ta có $C^1(A, P) = \operatorname{Hom}_K(A, P)$. Các ánh xạ $\partial^n$ với $n \leq 2$ được cho bởi các công thức
 
 $$
 \begin{align*}
@@ -432,9 +432,9 @@ $$
 \end{align*}
 $$
 
-với $ f \in C^2(A, P) $.
+với $f \in C^2(A, P)$.
 
-Vậy $ H^0(A, P) $ là K-môđun con của P gồm các phần tử $ p $ sao cho $ ap = pa $ với mọi $ a \in A $, và $ H^1(A, P) $ là thương của K-môđun $ \operatorname{Der}_K(A, P) $ các K-đạo hàm từ A vào P (III, §10, No. 2, p. 553) bởi K-môđun con gồm các đạo hàm có dạng $ a \mapsto ap - pa $ với $ p \in P $ (gọi là các *đạo hàm nội*).
+Vậy $H^0(A, P)$ là K-môđun con của P gồm các phần tử $p$ sao cho $ap = pa$ với mọi $a \in A$, và $H^1(A, P)$ là thương của K-môđun $\operatorname{Der}_K(A, P)$ các K-đạo hàm từ A vào P (III, §10, No. 2, p. 553) bởi K-môđun con gồm các đạo hàm có dạng $a \mapsto ap - pa$ với $p \in P$ (gọi là các *đạo hàm nội*).
 
 ### 7. Đối đồng điều của các đại số nửa đơn tuyệt đối
 

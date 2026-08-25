@@ -22,81 +22,81 @@ subsections:
       pdf_page: 139
 statements: 8
 exercises: 3
-content_sha256: a6aac90fb95dde1ede976db5b8a9e4ce3a61bf397137340698aadb5298fcb373
+content_sha256: e15f467ba66e51edc162c41c1e6371162ece2de7935833e112af2325f1bdd5bb
 ---
 
 ## § 5. *p*-RADICAL EXTENSIONS
 
-*Throughout this paragraph the letter p denotes an integer which is either 1 or a prime number. All the fields considered are of characteristic exponent p. All the results stated in this paragraph are trivial when $ p = 1 $.*
+*Throughout this paragraph the letter p denotes an integer which is either 1 or a prime number. All the fields considered are of characteristic exponent p. All the results stated in this paragraph are trivial when $p = 1$.*
 
 ### 1. p-radical elements
 
 #### Definition 1 {#alg-v-s5-def-1 .statement}
 
-*Let K be a field and E an extension of K. A n element x of E is said to be p-radical over K if there exists an integer $ m \geq 0 $ such that $ x^{p^m} \in K $; the least of these integers is called the height of x (over K).*
+*Let K be a field and E an extension of K. A n element x of E is said to be p-radical over K if there exists an integer $m \geq 0$ such that $x^{p^m} \in K$; the least of these integers is called the height of x (over K).*
 
 #### Proposition 1 {#alg-v-s5-prop-1 .statement}
 
-*Let E be an extension of a field K and x a p-radical element of height e over K; put $ a = x^{p^e} $. Then $ a \in K $ and the minimal polynomial of x over K is $ X^{p^e} - a $: Further we have $ [K(x):K] = p^e $.*
+*Let E be an extension of a field K and x a p-radical element of height e over K; put $a = x^{p^e}$. Then $a \in K$ and the minimal polynomial of x over K is $X^{p^e} - a$: Further we have $[K(x):K] = p^e$.*
 
-It suffices to prove that the polynomial $ X^{p^e} - a $ is irreducible in $ K[X] $. By the definition of height of x we have $ a \notin K^p $, so that the proposition follows from the lemma:
+It suffices to prove that the polynomial $X^{p^e} - a$ is irreducible in $K[X]$. By the definition of height of x we have $a \notin K^p$, so that the proposition follows from the lemma:
 
-*Lemma 1. — Let K be a field and a an element of K such that $ a \notin K^p $. Then for every integer $ e \geq 0 $, the polynomial $ f(X) = X^{p^e} - a $ is irreducible in $ K[X] $.*
+*Lemma 1. — Let K be a field and a an element of K such that $a \notin K^p$. Then for every integer $e \geq 0$, the polynomial $f(X) = X^{p^e} - a$ is irreducible in $K[X]$.*
 
-Let $ \Omega $ be an algebraic closure of $ K $ and let b be the element $ a^{p^{-e}} $ of $ \Omega $; we denote by g the minimal polynomial of b over $ K $. We have $ f(X) = (X - b)^{p^e} $ and hence every irreducible polynomial in $ K[X] $ which divides $ f $ admits b as root, and hence is equal to g. There exists thus (*IV*, p. 13, Prop. 13) an integer $ q \geq 1 $ such that $ f = g^q $; since q divides the degree $ p^e $ of $ f $, there exists an integer $ e' $ such that $ 0 \leq e' \leq e $ and $ q = p^{e'} $. If c is the constant term of g, we have $ -a = c^q $; since we assumed that a does not lie in $ K^p $, we must have $ q = 1 $, that is, $ f = g $, so the lemma follows.
+Let $\Omega$ be an algebraic closure of $K$ and let b be the element $a^{p^{-e}}$ of $\Omega$; we denote by g the minimal polynomial of b over $K$. We have $f(X) = (X - b)^{p^e}$ and hence every irreducible polynomial in $K[X]$ which divides $f$ admits b as root, and hence is equal to g. There exists thus (*IV*, p. 13, Prop. 13) an integer $q \geq 1$ such that $f = g^q$; since q divides the degree $p^e$ of $f$, there exists an integer $e'$ such that $0 \leq e' \leq e$ and $q = p^{e'}$. If c is the constant term of g, we have $-a = c^q$; since we assumed that a does not lie in $K^p$, we must have $q = 1$, that is, $f = g$, so the lemma follows.
 
 ### 2. pradical extensions
 
 #### Definition 2 {#alg-v-s5-def-2 .statement}
 
-Let E be an extension of a field K. We shall say that E is p-radical $ ^1 $ (over K) if every element of E is p-radical over K. When this is so, E is said to be of finite height when the set of heights of elements of E is bounded above and we call the height of E the maximum of the heights of its elements.
+Let E be an extension of a field K. We shall say that E is p-radical $^1$ (over K) if every element of E is p-radical over K. When this is so, E is said to be of finite height when the set of heights of elements of E is bounded above and we call the height of E the maximum of the heights of its elements.
 
 We note that every p-radical extension of a perfect field (in particular of a field of characteristic 0) is trivial.
 
-Let K be a field.. The p-radical extensions of height 0 of K are the trivial extensions. Every p-radical extension of K is algebraic. If E is a p-radical extension of K and F a p-radical extension of E, then F is a p-radical extension of K : for, given any $ x \in F $, there exists an integer $ m \geq 0 $ such that $ x^{p^m} \in E $ and an integer $ n \geq 0 $ such that $ (x^{p^m})^{p^n} \in K $, that is, $ x^{p^m + n} \in K $.
+Let K be a field.. The p-radical extensions of height 0 of K are the trivial extensions. Every p-radical extension of K is algebraic. If E is a p-radical extension of K and F a p-radical extension of E, then F is a p-radical extension of K : for, given any $x \in F$, there exists an integer $m \geq 0$ such that $x^{p^m} \in E$ and an integer $n \geq 0$ such that $(x^{p^m})^{p^n} \in K$, that is, $x^{p^m + n} \in K$.
 
 #### Proposition 2 {#alg-v-s5-prop-2 .statement}
 
-Let E be an extension of a field K. For every integer $ n \geq 0 $ let $ E_n $ be the set of elements of E which are $ p\text{-radical} $ of height $ \leq n $ over K, and let $ E_r $ be the set of all elements of E that are p-radical over K. Then $ (E_n)_{n \geq 0} $ is an ascending sequence of subextensions of E whose union is $ E_\infty $, and $ E_r $ is the largest p-radical extension of K contained in E.
+Let E be an extension of a field K. For every integer $n \geq 0$ let $E_n$ be the set of elements of E which are $p\text{-radical}$ of height $\leq n$ over K, and let $E_r$ be the set of all elements of E that are p-radical over K. Then $(E_n)_{n \geq 0}$ is an ascending sequence of subextensions of E whose union is $E_\infty$, and $E_r$ is the largest p-radical extension of K contained in E.
 
-For each integer $ n \geq 0 $ the set $ E_n $ consists of all elements $ x $ of E such that $ x^{p^n} \in K $; since the mapping $ x \mapsto x^{p^n} $ is an endomorphism of the field E, we deduce that $ E_n $ is a subextension of E. The sequence $ (E_n)_{n \geq 0} $ is ascending, with union $ E_r $ and hence $ E_r $ is a subextension of E (V, p. 11, Prop. 3). It is clear that $ E_r $ is a p-radical extension of K and that $ E_r $ contains every subextension of E which is p-radical over K.
+For each integer $n \geq 0$ the set $E_n$ consists of all elements $x$ of E such that $x^{p^n} \in K$; since the mapping $x \mapsto x^{p^n}$ is an endomorphism of the field E, we deduce that $E_n$ is a subextension of E. The sequence $(E_n)_{n \geq 0}$ is ascending, with union $E_r$ and hence $E_r$ is a subextension of E (V, p. 11, Prop. 3). It is clear that $E_r$ is a p-radical extension of K and that $E_r$ contains every subextension of E which is p-radical over K.
 
 #### Corollary {#alg-v-s5-n2-cor-1 .statement}
 
-If an extension E of a field K is generated by a set of $ p\text{-radical} $ elements over K, then it is p-radical over K.
+If an extension E of a field K is generated by a set of $p\text{-radical}$ elements over K, then it is p-radical over K.
 
-For $ E_r $ is a subextension of E and by hypothesis $ E = K(E_\infty) $ whence $ E = E_r $; so E is a p-radical extension of K.
+For $E_r$ is a subextension of E and by hypothesis $E = K(E_\infty)$ whence $E = E_r$; so E is a p-radical extension of K.
 
-Under the conditions of Proposition 2, $ E_r $ is said to be the relative $ p\text{-radical} $ closure of K in E.
+Under the conditions of Proposition 2, $E_r$ is said to be the relative $p\text{-radical}$ closure of K in E.
 
-We shall apply Prop. 2 particularly to the case where E is an algebraically closed extension of K ; then E is perfect and we have $ E_n = K^{p^{-n}} $ for all $ n \geq 0 $. In this case we denote by $ K^{p^{-\infty}} $ the set of elements of E that are p-radical over K ; it is the subfield of E which is the union of the ascending sequence $ (K^{p^{-n}})_{n > 0} $ of subfields of E. By Prop. 2, $ K^{p^{-\infty}} $ is the largest subextension of E which is p-radical over K ; by Prop. 3 of V, p. 6, $ K^{p^{-\infty}} $ is a perfect closure of K and it is also the smallest perfect subfield of E containing K. When K is perfect we clearly have $ K = K^{p^{-n}} = K^{p^{-\infty}} $ for all n. If K is imperfect, we have $ K \neq K^P $, whence
+We shall apply Prop. 2 particularly to the case where E is an algebraically closed extension of K ; then E is perfect and we have $E_n = K^{p^{-n}}$ for all $n \geq 0$. In this case we denote by $K^{p^{-\infty}}$ the set of elements of E that are p-radical over K ; it is the subfield of E which is the union of the ascending sequence $(K^{p^{-n}})_{n > 0}$ of subfields of E. By Prop. 2, $K^{p^{-\infty}}$ is the largest subextension of E which is p-radical over K ; by Prop. 3 of V, p. 6, $K^{p^{-\infty}}$ is a perfect closure of K and it is also the smallest perfect subfield of E containing K. When K is perfect we clearly have $K = K^{p^{-n}} = K^{p^{-\infty}}$ for all n. If K is imperfect, we have $K \neq K^P$, whence
 
-$ ^1 $ A p-radical extension is also called a purely inseparable extension, or a radical extension.
+$^1$ A p-radical extension is also called a purely inseparable extension, or a radical extension.
 
 $$
 K^{p^{-n}} \neq (K^p)^{p^{-n}} = K^{p^{-(n-1)}}
 $$
-for $ n \geq 1 $; the subfields $ K^{p^{-n}} $ of E are then pairwise distinct and $ K^{p^{-\infty}} $ is an algebraic extension of infinite degree of K.
+for $n \geq 1$; the subfields $K^{p^{-n}}$ of E are then pairwise distinct and $K^{p^{-\infty}}$ is an algebraic extension of infinite degree of K.
 
 #### Proposition 3 {#alg-v-s5-prop-3 .statement}
 
-— Let K be a field, E an extension field of K which is p-radical over K and $ u $ a homomorphism of K into a perfect field F. Then there exists a unique homomorphism $ v $ of E into F extending $ u $.
+— Let K be a field, E an extension field of K which is p-radical over K and $u$ a homomorphism of K into a perfect field F. Then there exists a unique homomorphism $v$ of E into F extending $u$.
 
-Let $ E_n $ be the set of elements of E which are p-radical of height $ \leq n $ over K. By Prop. 2 the field E is the union of the ascending sequence $ (E_n)_{n \geq 0} $ of subfields. Let $ v $ be a homomorphism of E into F extending $ u $; for any $ x \in E_n $ we have $ x^{p^n} \in K $, whence $ v(x)^{p^n} = v(x^{p^n}) = u(x^{p^n}) $; we thus have $ v(x) = u(x^{p^n})^{p^{-n}} $ for all $ n \geq 0 $ and all $ x \in E_n $, whence the uniqueness of the extension of $ u $ to E.
+Let $E_n$ be the set of elements of E which are p-radical of height $\leq n$ over K. By Prop. 2 the field E is the union of the ascending sequence $(E_n)_{n \geq 0}$ of subfields. Let $v$ be a homomorphism of E into F extending $u$; for any $x \in E_n$ we have $x^{p^n} \in K$, whence $v(x)^{p^n} = v(x^{p^n}) = u(x^{p^n})$; we thus have $v(x) = u(x^{p^n})^{p^{-n}}$ for all $n \geq 0$ and all $x \in E_n$, whence the uniqueness of the extension of $u$ to E.
 
-Let $ n $ be a positive integer; for any $ x \in E_n $ we have $ x^{p^n} \in K $ and since F is perfect, we can define an element $ v_n(x) $ of F by $ v_n(x) = u(x^{p^n})^{p^{-n}} $. It is clear that $ v_n $ is a homomorphism of $ E_n $ into F, that $ v_0 = u $ and that $ v_{n+1} $ induces $ v_n $ on $ E_n $. Hence there exists a homomorphism $ v $ of E into F inducing $ v_n $ on $ E_n $ for all $ n \geq 0 $ and, in particular, coinciding with $ v_0 = u $ on $ E_0 = K $.
+Let $n$ be a positive integer; for any $x \in E_n$ we have $x^{p^n} \in K$ and since F is perfect, we can define an element $v_n(x)$ of F by $v_n(x) = u(x^{p^n})^{p^{-n}}$. It is clear that $v_n$ is a homomorphism of $E_n$ into F, that $v_0 = u$ and that $v_{n+1}$ induces $v_n$ on $E_n$. Hence there exists a homomorphism $v$ of E into F inducing $v_n$ on $E_n$ for all $n \geq 0$ and, in particular, coinciding with $v_0 = u$ on $E_0 = K$.
 
 #### Corollary {#alg-v-s5-n2-cor-2 .statement}
 
 — For an extension E of a field K to be a perfect closure of K it is necessary and sufficient that it should be a p-radical extension of K and that the field E should be perfect.
 
-The Corollary is trivial when $ p = 1 $; suppose then that $ p \neq 1 $. The stated conditions are necessary by V, p. 5, Th. 3 ; they are sufficient by Prop. 3.
+The Corollary is trivial when $p = 1$; suppose then that $p \neq 1$. The stated conditions are necessary by V, p. 5, Th. 3 ; they are sufficient by Prop. 3.
 
 #### Proposition 4 {#alg-v-s5-prop-4 .statement}
 
 — Let E be a p-radical extension *of finite* degree of a field K. Then $[E : K]$ is a power of the characteristic exponent p of K.
 
-Since E is a p-radical extension of finite degree of K, there are elements $ a,, \ldots, a, $ of E, p-radical over K, such that $ E = K(a,, \ldots, a,) $. Let i be in the range 1 to m ; since $ a_i $ is a fortiori p-radical over $ K(a,, \ldots, a_{i-1}) $, the degree
+Since E is a p-radical extension of finite degree of K, there are elements $a,, \ldots, a,$ of E, p-radical over K, such that $E = K(a,, \ldots, a,)$. Let i be in the range 1 to m ; since $a_i$ is a fortiori p-radical over $K(a,, \ldots, a_{i-1})$, the degree
 $$
 n_i = [K(a_1, \ldots, a_i) : K(a_1, \ldots, a_{i-1})]
 $$

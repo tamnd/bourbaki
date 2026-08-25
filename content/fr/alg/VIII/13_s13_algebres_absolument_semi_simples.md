@@ -45,7 +45,7 @@ subsections:
       pdf_page: 242
 statements: 33
 exercises: 12
-content_sha256: 3371ea4fa47ef0e515869cde5b968176aadeaa7bf7a2b12eba398feeb2deef33
+content_sha256: 69ef354b36df371c66828c6697791beb8ef7b87a519d89572e110234691e3e5a
 ---
 
 ## § 13. ALGÈBRES ABSOLUMENT SEMI-SIMPLES
@@ -346,7 +346,7 @@ $$
 
 On note $d_0=d^0_0$ l’application $\varepsilon : B_0\rightarrow A$.
 
-Soit $ n $ un entier $ \geqslant 1 $. Pour $ 0 \leqslant i < j \leqslant n $, on a
+Soit $n$ un entier $\geqslant 1$. Pour $0 \leqslant i < j \leqslant n$, on a
 
 $$
 d_{n-1}^i \circ d_n^j = d_{n-1}^{j-1} \circ d_n^i
@@ -367,7 +367,7 @@ $$
 d_{n-1} \circ d_n = 0.
 $$
 
-Soit $ P $ un $ (A, A) $-bimodule. Pour tout entier $ n \geqslant 0 $, on note $ C^n(A, P) $ le K-module des applications K-multilinéaires de $ A^n $ dans $ P $. L’application $ \alpha^n : C^n(A, P) \to \operatorname{Hom}_B(B_n, P) $ qui à $ f \in C^n(A, P) $ associe l’homomorphisme $ \alpha^n(f) $ caractérisé par
+Soit $P$ un $(A, A)$-bimodule. Pour tout entier $n \geqslant 0$, on note $C^n(A, P)$ le K-module des applications K-multilinéaires de $A^n$ dans $P$. L’application $\alpha^n : C^n(A, P) \to \operatorname{Hom}_B(B_n, P)$ qui à $f \in C^n(A, P)$ associe l’homomorphisme $\alpha^n(f)$ caractérisé par
 
 $$
 \alpha^n(f)(x_0 \otimes \cdots \otimes x_{n+1}) = x_0 f(x_1, \ldots, x_n)x_{n+1}
@@ -375,7 +375,7 @@ $$
 
 est un isomorphisme de K-modules.
 
-On note $ \partial^n $ (pour $ n \geqslant 0 $) l’unique application K-linéaire de $ C^n(A, P) $ dans $ C^{n+1}(A, P) $ rendant commutatif le diagramme
+On note $\partial^n$ (pour $n \geqslant 0$) l’unique application K-linéaire de $C^n(A, P)$ dans $C^{n+1}(A, P)$ rendant commutatif le diagramme
 
 $$
 \begin{array}{ccc}
@@ -391,13 +391,13 @@ $$
 (\alpha^{n+1} \circ \partial^n)(f) = \alpha^n(f) \circ d_{n+1}
 $$
 
-pour tout $ f \in C^n(A, P) $. Autrement dit, on a
+pour tout $f \in C^n(A, P)$. Autrement dit, on a
 
 $$
 \partial^n(f)(x_0, \ldots, x_n) = \alpha^n(f)(d_{n+1}(1 \otimes x_0 \otimes \cdots \otimes x_n \otimes 1))
 $$
 
-pour $ x_0, \ldots, x_n $ dans $ A $ et $ f $ dans $ C^n(A, P) $, c’est-à-dire
+pour $x_0, \ldots, x_n$ dans $A$ et $f$ dans $C^n(A, P)$, c’est-à-dire
 
 $$
 \begin{align*}

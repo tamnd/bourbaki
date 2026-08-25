@@ -89,11 +89,11 @@ chapters:
               page: 32
               pdf_page: 38
             - "no": 3
-              title: The vector space $ \mathbf{R}^n $
+              title: The vector space $\mathbf{R}^n$
               page: 33
               pdf_page: 39
             - "no": 4
-              title: Affine linear varieties in $ \mathbf{R}^n $
+              title: Affine linear varieties in $\mathbf{R}^n$
               page: 34
               pdf_page: 40
             - "no": 5
@@ -113,7 +113,7 @@ chapters:
           pdf_page: 44
           subsections:
             - "no": 1
-              title: Euclidean distance in $ \mathbf{R}^n $
+              title: Euclidean distance in $\mathbf{R}^n$
               page: 38
               pdf_page: 44
             - "no": 2
@@ -168,21 +168,21 @@ chapters:
         pdf_page: 70
     - book: top-v-x
       chapter: VII
-      title: The additive groups $ \mathbf{R}^n $
+      title: The additive groups $\mathbf{R}^n$
       page: 67
       pdf_page: 73
       sections:
         - section: 1
-          title: Subgroups and quotient groups of $ \mathbf{R}^n $
+          title: Subgroups and quotient groups of $\mathbf{R}^n$
           page: 67
           pdf_page: 73
           subsections:
             - "no": 1
-              title: Discrete subgroups of $ \mathbf{R}^n $
+              title: Discrete subgroups of $\mathbf{R}^n$
               page: 68
               pdf_page: 74
             - "no": 2
-              title: Closed subgroups of $ \mathbf{R}^n $
+              title: Closed subgroups of $\mathbf{R}^n$
               page: 71
               pdf_page: 77
             - "no": 3
@@ -190,7 +190,7 @@ chapters:
               page: 73
               pdf_page: 79
             - "no": 4
-              title: Hausdorff quotient groups of $ \mathbf{R}^n $
+              title: Hausdorff quotient groups of $\mathbf{R}^n$
               page: 76
               pdf_page: 82
             - "no": 5
@@ -205,16 +205,16 @@ chapters:
             page: 87
             pdf_page: 93
         - section: 2
-          title: Continuous homomorphisms of $ \mathbf{R}^n $ and its quotient groups
+          title: Continuous homomorphisms of $\mathbf{R}^n$ and its quotient groups
           page: 79
           pdf_page: 85
           subsections:
             - "no": 1
-              title: Continuous homomorphisms of the group Rᵐ into the group $ \mathbf{R}^n $
+              title: Continuous homomorphisms of the group Rᵐ into the group $\mathbf{R}^n$
               page: 79
               pdf_page: 85
             - "no": 2
-              title: Local definition of a continuous homomorphisms of $ \mathbf{R}^n $ into a topological group
+              title: Local definition of a continuous homomorphisms of $\mathbf{R}^n$ into a topological group
               page: 79
               pdf_page: 85
             - "no": 3
@@ -229,16 +229,16 @@ chapters:
             page: 93
             pdf_page: 99
         - section: 3
-          title: Infinite sums in the groups $ \mathbf{R}^n $
+          title: Infinite sums in the groups $\mathbf{R}^n$
           page: 83
           pdf_page: 89
           subsections:
             - "no": 1
-              title: Summable families in $ \mathbf{R}^n $
+              title: Summable families in $\mathbf{R}^n$
               page: 83
               pdf_page: 89
             - "no": 2
-              title: Series in $ \mathbf{R}^n $
+              title: Series in $\mathbf{R}^n$
               page: 86
               pdf_page: 92
           exercises:
@@ -605,7 +605,7 @@ chapters:
       pdf_page: 280
       sections:
         - section: 1
-          title: The uniformity of $ \mathcal{G} $-convergence
+          title: The uniformity of $\mathcal{G}$-convergence
           page: 274
           pdf_page: 280
           subsections:
@@ -614,23 +614,23 @@ chapters:
               page: 274
               pdf_page: 280
             - "no": 2
-              title: $ \mathcal{G} $-convergence
+              title: $\mathcal{G}$-convergence
               page: 275
               pdf_page: 281
             - "no": 3
-              title: Examples of $ \mathcal{G} $-convergence
+              title: Examples of $\mathcal{G}$-convergence
               page: 277
               pdf_page: 283
             - "no": 4
-              title: Properties of the spaces $ \mathcal{F}_\mathcal{G}(X; Y) $
+              title: Properties of the spaces $\mathcal{F}_\mathcal{G}(X; Y)$
               page: 278
               pdf_page: 284
             - "no": 5
-              title: Complete subsets of $ \mathcal{F}_\mathcal{G}(X; Y) $
+              title: Complete subsets of $\mathcal{F}_\mathcal{G}(X; Y)$
               page: 279
               pdf_page: 285
             - "no": 6
-              title: $ \mathcal{G} $-convergence in spaces of continuous mappings
+              title: $\mathcal{G}$-convergence in spaces of continuous mappings
               page: 280
               pdf_page: 286
           exercises:

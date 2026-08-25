@@ -49,7 +49,7 @@ subsections:
       pdf_page: 119
 statements: 17
 exercises: 3
-content_sha256: d6c7fd2882a44296a4e9b83c268872b327ceb30194985c94a03a463dd6e566f0
+content_sha256: aad69abbe9207ceb659b6ae46be4ec3a4197eb9f5d0b9926edec87f4813e211a
 ---
 
 ## § 7. FREE MONOIDS, FREE GROUPS
@@ -58,19 +58,19 @@ In this paragraph X will denote a set. Unless otherwise mentioned, the identity 
 
 ### 1. FREE MAGMAS
 
-A sequence of sets $ M_n(X) $ is defined by induction on the integer $ n \geqslant 1 $ as follows: writing $ M_1(X) = X $, for $ n \geqslant 2 $, $ M_n(X) $ is the set the sum of the sets $ M_p(X) \times M_{n-p}(X) $ for $ 1 \leqslant p \leqslant n-1 $. The set the sum of the family $ (M_n(X))_{n \geqslant 1} $ is denoted by $ M(X) $; each of the sets $ M_n(X) $ is identified with its canonical image in $ M(X) $. For every element $ w $ of $ M(X) $ there exists a unique integer $ n $ such that $ w \in M_n(X) $; it is called the length of $ w $ and denoted by $ l(w) $. The set X consists of the elements in $ M(X) $ of length 1.
+A sequence of sets $M_n(X)$ is defined by induction on the integer $n \geqslant 1$ as follows: writing $M_1(X) = X$, for $n \geqslant 2$, $M_n(X)$ is the set the sum of the sets $M_p(X) \times M_{n-p}(X)$ for $1 \leqslant p \leqslant n-1$. The set the sum of the family $(M_n(X))_{n \geqslant 1}$ is denoted by $M(X)$; each of the sets $M_n(X)$ is identified with its canonical image in $M(X)$. For every element $w$ of $M(X)$ there exists a unique integer $n$ such that $w \in M_n(X)$; it is called the length of $w$ and denoted by $l(w)$. The set X consists of the elements in $M(X)$ of length 1.
 
-Let $ w $ and $ w' $ be in $ M(X) $; write $ p = l(w) $ and $ q = l(w') $. The image of $ (w, w') $ under the canonical injection of $ M_p(X) \times M_q(X) $ into the sum set $ M_{p+q}(X) $ is called the composition of $ w $ and $ w' $ and is denoted by $ ww' $ or $ w.w' $. Then $ l(w.w') = l(w) + l(w') $ and every element of $ M(X) $ of length $ \geqslant 2 $ can be written uniquely in the form $ w'w'' $ with $ w', w'' $ in $ M(X) $.
+Let $w$ and $w'$ be in $M(X)$; write $p = l(w)$ and $q = l(w')$. The image of $(w, w')$ under the canonical injection of $M_p(X) \times M_q(X)$ into the sum set $M_{p+q}(X)$ is called the composition of $w$ and $w'$ and is denoted by $ww'$ or $w.w'$. Then $l(w.w') = l(w) + l(w')$ and every element of $M(X)$ of length $\geqslant 2$ can be written uniquely in the form $w'w''$ with $w', w''$ in $M(X)$.
 
-The set $ M(X) $ with the law of composition $ (w, w') \mapsto w.w' $ is called the free magma constructed on X (\$ 1, no. 1, Definition 1).
+The set $M(X)$ with the law of composition $(w, w') \mapsto w.w'$ is called the free magma constructed on X (\$ 1, no. 1, Definition 1).
 
 #### Proposition 1 {#alg-i-s7-prop-1 .statement}
 
-Let M be a magma. Every mapping f of X into M may be extended in a unique way to a morphism of $ M(X) $ into M.
+Let M be a magma. Every mapping f of X into M may be extended in a unique way to a morphism of $M(X)$ into M.
 
-By induction on $ n \geqslant $, mappings $ f_n : M_n(X) \to M $ are defined as follows: let f_1 = f; for n \geq 2, the mapping f_n is defined by $ f_n(w.w') = f_p(w).f_{n-p}(w') $ for $ p = 1, 2, \ldots, n-1 $ and $(w, w')$ in $ M_p(X) \times M_{n-p}(X) $. Let $ g $ be the mapping of $ M(X) $ into $ M $ which induces $ f_n $ on $ M_n(X) $ for every integer $ n \geq 1 $. Clearly $ g $ is the unique morphism of $ M(X) $ into $ M $ which extends $ f $.
+By induction on $n \geqslant$, mappings $f_n : M_n(X) \to M$ are defined as follows: let f_1 = f; for n \geq 2, the mapping f_n is defined by $f_n(w.w') = f_p(w).f_{n-p}(w')$ for $p = 1, 2, \ldots, n-1$ and $(w, w')$ in $M_p(X) \times M_{n-p}(X)$. Let $g$ be the mapping of $M(X)$ into $M$ which induces $f_n$ on $M_n(X)$ for every integer $n \geq 1$. Clearly $g$ is the unique morphism of $M(X)$ into $M$ which extends $f$.
 
-Let $ u $ be a mapping of $ X $ into a set $ Y $. By Proposition 1, there exists one and only one homomorphism of $ M(X) $ into $ M(Y) $ which coincides with $ u $ on $ X $. It will be denoted by $ M(u) $. If $ v $ is a mapping of $ Y $ into a set $ Z $, the homomorphism $ M(v) \circ M(u) $ of $ M(X) $ into $ M(Z) $ coincides with $ v \circ u $ on $ X $, whence
+Let $u$ be a mapping of $X$ into a set $Y$. By Proposition 1, there exists one and only one homomorphism of $M(X)$ into $M(Y)$ which coincides with $u$ on $X$. It will be denoted by $M(u)$. If $v$ is a mapping of $Y$ into a set $Z$, the homomorphism $M(v) \circ M(u)$ of $M(X)$ into $M(Z)$ coincides with $v \circ u$ on $X$, whence
 
 $$
 M(v) \circ M(u) = M(v \circ u).
@@ -78,25 +78,25 @@ $$
 
 #### Proposition 2 {#alg-i-s7-prop-2 .statement}
 
-*Let $ u : X \to Y $ be a mapping. If $ u $ is injective (resp. surjective, bijective), so is $ M(u) $.*
+*Let $u : X \to Y$ be a mapping. If $u$ is injective (resp. surjective, bijective), so is $M(u)$.*
 
-Suppose $ u $ is injective. When $ X $ is empty, $ M(X) $ is empty, hence $ M(u) $ is injective. If $ X $ is non-empty, there exists a mapping $ v $ of $ Y $ into $ X $ such that $ v \circ u $ is the identity mapping of $ X $ (*Set Theory*, II, § 3, no. 8, Proposition 8); the mapping $ M(v) \circ M(u) = M(v \circ u) $ is the identity mapping of $ M(X) $ and hence $ M(u) $ is injective.
+Suppose $u$ is injective. When $X$ is empty, $M(X)$ is empty, hence $M(u)$ is injective. If $X$ is non-empty, there exists a mapping $v$ of $Y$ into $X$ such that $v \circ u$ is the identity mapping of $X$ (*Set Theory*, II, § 3, no. 8, Proposition 8); the mapping $M(v) \circ M(u) = M(v \circ u)$ is the identity mapping of $M(X)$ and hence $M(u)$ is injective.
 
-When $ u $ is surjective, there exists a mapping $ w $ of $ Y $ into $ X $ such that $ u \circ w $ is the identity mapping of $ Y $ (*Set Theory*, II, § 3, no. 8, Proposition 8). Then $ M(u) \circ M(w) = M(u \circ w) $ is the identity mapping of $ M(Y) $ and hence $ M(u) $ is surjective.
+When $u$ is surjective, there exists a mapping $w$ of $Y$ into $X$ such that $u \circ w$ is the identity mapping of $Y$ (*Set Theory*, II, § 3, no. 8, Proposition 8). Then $M(u) \circ M(w) = M(u \circ w)$ is the identity mapping of $M(Y)$ and hence $M(u)$ is surjective.
 
-Finally, if $ u $ is bijective, it is injective and surjective and hence $ M(u) $ has the same properties.
+Finally, if $u$ is bijective, it is injective and surjective and hence $M(u)$ has the same properties.
 
-Let $ S $ be a subset of $ X $. By Proposition 2 the injection of $ S $ into $ X $ can be extended to an isomorphism of $ M(S) $ onto a submagma $ M'(S) $ of $ M(X) $. The magmas $ M(S) $ and $ M'(S) $ are identified by means of this isomorphism. Then $ M(S) $ is the submagma of $ M(X) $ generated by $ S $.
+Let $S$ be a subset of $X$. By Proposition 2 the injection of $S$ into $X$ can be extended to an isomorphism of $M(S)$ onto a submagma $M'(S)$ of $M(X)$. The magmas $M(S)$ and $M'(S)$ are identified by means of this isomorphism. Then $M(S)$ is the submagma of $M(X)$ generated by $S$.
 
-Let $ X $ be a set and $ (u_\alpha, v_\alpha)_{\alpha \in I} $ be a family of ordered pairs of elements of $ M(X) $. Let $ R $ be the equivalence relation on $ M(X) $ compatible with the law of $ M(X) $ and generated by the $ (u_\alpha, v_\alpha) $ (\S 1, no. 6). The magma $ M(X)/R $ is called the *magma defined by $ X $ and the relators* $ (u_\alpha, v_\alpha)_{\alpha \in I} $. Let $ h $ be the canonical morphism of $ M(X) $ onto $ M(X)/R $. Then $ M(X)/R $ is generated by $ h(X) $.
+Let $X$ be a set and $(u_\alpha, v_\alpha)_{\alpha \in I}$ be a family of ordered pairs of elements of $M(X)$. Let $R$ be the equivalence relation on $M(X)$ compatible with the law of $M(X)$ and generated by the $(u_\alpha, v_\alpha)$ (\S 1, no. 6). The magma $M(X)/R$ is called the *magma defined by $X$ and the relators* $(u_\alpha, v_\alpha)_{\alpha \in I}$. Let $h$ be the canonical morphism of $M(X)$ onto $M(X)/R$. Then $M(X)/R$ is generated by $h(X)$.
 
-Let $ N $ be a magma and $ (n_x)_{x \in X} $ a family of elements of $ N $. Let $ k $ be the morphism from $ M(X) $ to $ N $ such that $ k(x) = n_x $ for all $ x \in X $ (Proposition 1). If $ k(u_\alpha) = k(v_\alpha) $ for all $ \alpha \in I $, there exists one and only one morphism $ f : M(X)/R \to N $ such that $ f(h(x)) = n_x $ for all $ x \in X $ (\S 1, no. 6, Proposition 9).
+Let $N$ be a magma and $(n_x)_{x \in X}$ a family of elements of $N$. Let $k$ be the morphism from $M(X)$ to $N$ such that $k(x) = n_x$ for all $x \in X$ (Proposition 1). If $k(u_\alpha) = k(v_\alpha)$ for all $\alpha \in I$, there exists one and only one morphism $f : M(X)/R \to N$ such that $f(h(x)) = n_x$ for all $x \in X$ (\S 1, no. 6, Proposition 9).
 
 ### 2. FREE MONOIDS
 
-Any finite sequence $ w = (x_i)_{1 \leq i \leq n} $ of elements of $ X $ indexed by an interval $ [1, n] $ of $ \mathbf{N} $ (possibly empty) is called a *word* constructed on $ X $. The integer $ n $ is called the *length* of the word $ w $ and denoted by $ l(w) $. There is a unique word of length 0, namely the empty sequence $ e $. $ \mathbf{X} $ will be identified with the set of words of length 1.
+Any finite sequence $w = (x_i)_{1 \leq i \leq n}$ of elements of $X$ indexed by an interval $[1, n]$ of $\mathbf{N}$ (possibly empty) is called a *word* constructed on $X$. The integer $n$ is called the *length* of the word $w$ and denoted by $l(w)$. There is a unique word of length 0, namely the empty sequence $e$. $\mathbf{X}$ will be identified with the set of words of length 1.
 
-Let $ w = (x_i)_{1 \leq i \leq m} $ and $ w' = (x'_j)_{1 \leq j \leq n} $ be two words. The composition of $ w $ and $ w' $ is the word $ u = (y_k)_{1 \leq k \leq m+n} $ defined by
+Let $w = (x_i)_{1 \leq i \leq m}$ and $w' = (x'_j)_{1 \leq j \leq n}$ be two words. The composition of $w$ and $w'$ is the word $u = (y_k)_{1 \leq k \leq m+n}$ defined by
 
 $$
 y_k = \begin{cases}
@@ -105,9 +105,9 @@ x'_{k-m} & \text{for } m+1 \leq k \leq m+n.
 \end{cases}
 $$
 
-In other words, the sequence $ w'' $ is obtained by first writing the elements of the sequence $ w $ and then those of $ w' $. The composition of $ w $ and $ w' $ is generally denoted by $ ww' $ or $ w.w' $; it is sometimes said that it is obtained by juxtaposition of $ w $ and $ w' $. Then by construction $ l(w.w') = l(w) + l(w') $.
+In other words, the sequence $w''$ is obtained by first writing the elements of the sequence $w$ and then those of $w'$. The composition of $w$ and $w'$ is generally denoted by $ww'$ or $w.w'$; it is sometimes said that it is obtained by juxtaposition of $w$ and $w'$. Then by construction $l(w.w') = l(w) + l(w')$.
 
-The relation $ we = ew = w $ is immediately established for every word $ w $. Let $ w = (x_i)_{1 \leq i \leq m} $, $ w' = (x'_j)_{1 \leq j \leq n} $ and $ w'' = (x''_k)_{1 \leq k \leq p} $ be three words; clearly the words $ w(w'w'') $ and $ (ww')w'' $ are both equal to the word $ (y_l)_{1 \leq l \leq m+n+p} $ defined by
+The relation $we = ew = w$ is immediately established for every word $w$. Let $w = (x_i)_{1 \leq i \leq m}$, $w' = (x'_j)_{1 \leq j \leq n}$ and $w'' = (x''_k)_{1 \leq k \leq p}$ be three words; clearly the words $w(w'w'')$ and $(ww')w''$ are both equal to the word $(y_l)_{1 \leq l \leq m+n+p}$ defined by
 
 $$
 y_l = \begin{cases}
@@ -117,23 +117,23 @@ x''_{l-m-n} & \text{if } m+n+1 \leq l \leq m+n+p.
 \end{cases}
 $$
 
-The above shows that the set of words constructed on $ \mathbf{X} $ with the law of composition $ (w, w') \mapsto w.w' $ is a monoid with identity element $ e $. It is denoted by $ \mathrm{Mo}(\mathbf{X}) $ and called the *free monoid constructed on* $ \mathbf{X} $. It follows immediately from the definition of product of words that every word $ w = (x_i)_{1 \leq i \leq n} $ is equal to the product $ \prod_{i=1}^n x_i $. A word may therefore be written in the form $ x_1 \ldots x_n $.
+The above shows that the set of words constructed on $\mathbf{X}$ with the law of composition $(w, w') \mapsto w.w'$ is a monoid with identity element $e$. It is denoted by $\mathrm{Mo}(\mathbf{X})$ and called the *free monoid constructed on* $\mathbf{X}$. It follows immediately from the definition of product of words that every word $w = (x_i)_{1 \leq i \leq n}$ is equal to the product $\prod_{i=1}^n x_i$. A word may therefore be written in the form $x_1 \ldots x_n$.
 
 #### Proposition 3 {#alg-i-s7-prop-3 .statement}
 
 *Let M be a monoid. Every mapping f of X into M extends uniquely to a homomorphism of Mo(X) into M.*
 
-Let $ g $ be a homomorphism of $ \mathrm{Mo}(\mathbf{X}) $ into $ M $ extending $ f $. If $ w = (x_i)_{1 \leq i \leq n} $ is a word, then $ w = \prod_{i=1}^n x_i $ in the monoid $ \mathrm{Mo}(\mathbf{X}) $, whence
+Let $g$ be a homomorphism of $\mathrm{Mo}(\mathbf{X})$ into $M$ extending $f$. If $w = (x_i)_{1 \leq i \leq n}$ is a word, then $w = \prod_{i=1}^n x_i$ in the monoid $\mathrm{Mo}(\mathbf{X})$, whence
 
 $$
 g(w) = \prod_{i=1}^n g(x_i) = \prod_{i=1}^n f(x_i)
 $$
 
-in the monoid $ M $ (\S 1, no. 2, formula (2)). This proves the uniqueness of $ g $.
+in the monoid $M$ (\S 1, no. 2, formula (2)). This proves the uniqueness of $g$.
 
-Let $ h(w) = \prod_{i=1}^n f(x_i) $ for every word $ w = (x_i)_{1 \leq i \leq n} $. The associativity theorem (\S 1, no. 3, Theorem 1) and the definition of product in $ \mathrm{Mo}(\mathbf{X}) $ imply $ h(ww') = h(w)h(w') $. By convention the empty product $ h(e) $ is the identity element of $ M $ and $ h(x) = f(x) $ for $ x \in \mathbf{X} $. Hence $ h $ is a homomorphism of $ \mathrm{Mo}(x) $ into $ M $ extending $ f $.
+Let $h(w) = \prod_{i=1}^n f(x_i)$ for every word $w = (x_i)_{1 \leq i \leq n}$. The associativity theorem (\S 1, no. 3, Theorem 1) and the definition of product in $\mathrm{Mo}(\mathbf{X})$ imply $h(ww') = h(w)h(w')$. By convention the empty product $h(e)$ is the identity element of $M$ and $h(x) = f(x)$ for $x \in \mathbf{X}$. Hence $h$ is a homomorphism of $\mathrm{Mo}(x)$ into $M$ extending $f$.
 
-Let $ u : \mathbf{X} \to \mathbf{Y} $ be a mapping. By Proposition 3, there exists one and only one homomorphism of Mo(X) into Mo(Y) which coincides with u on X; it is denoted by Mo(u). It maps a word $(x_i)_{1 \leq i \leq n}$ to the word $(u(x_i))_{1 \leq i \leq n}$. As in the case of magmas (no. 1), the equation Mo(v \circ u) = Mo(v) \circ Mo(u) is established for every mapping $v : Y \to Z$ and it can be shown that Mo(u) is injective (resp. surjective, bijective) if u is. For every subset S of X, Mo(S) is identified with the submonoid of Mo(X) generated by S.
+Let $u : \mathbf{X} \to \mathbf{Y}$ be a mapping. By Proposition 3, there exists one and only one homomorphism of Mo(X) into Mo(Y) which coincides with u on X; it is denoted by Mo(u). It maps a word $(x_i)_{1 \leq i \leq n}$ to the word $(u(x_i))_{1 \leq i \leq n}$. As in the case of magmas (no. 1), the equation Mo(v \circ u) = Mo(v) \circ Mo(u) is established for every mapping $v : Y \to Z$ and it can be shown that Mo(u) is injective (resp. surjective, bijective) if u is. For every subset S of X, Mo(S) is identified with the submonoid of Mo(X) generated by S.
 
 Let X be a set and $(u_\alpha, v_\alpha)_{\alpha \in I}$ be a family of ordered pairs of elements of Mo(X). Let R be the equivalence relation on Mo(X) compatible with the law on Mo(X) and generated by the $(u_\alpha, v_\alpha)$ (\S 1, no. 6). The monoid Mo(X)/R is called the *monoid defined by X and the relators* $(u_\alpha, v_\alpha)_{\alpha \in I}$. Let h be the canonical morphism of Mo(X) onto Mo(X)/R. Then Mo(X) is generated by h(X).
 
@@ -157,35 +157,35 @@ In what follows we shall make the following hypothesis:
 
 (A) *For all $i \in I$, there exists a subset $P_i$ of $M_i$ containing $e_i$ such that the mapping $(a, p) \mapsto h_i(a).p$ of $A \times P_i$ into $M_i$ is bijective.*
 
-It implies that the homomorphisms $ h_i $ are injective. Let $ x \in M $; every finite sequence $ \sigma = (a; i_1, \ldots, i_n; p_1, \ldots, p_n) $ with $ a \in A, i_\alpha \in I $ and $ p_\alpha \in P_{i_\alpha} $ for $ 1 \leq \alpha \leq n $, satisfying
+It implies that the homomorphisms $h_i$ are injective. Let $x \in M$; every finite sequence $\sigma = (a; i_1, \ldots, i_n; p_1, \ldots, p_n)$ with $a \in A, i_\alpha \in I$ and $p_\alpha \in P_{i_\alpha}$ for $1 \leq \alpha \leq n$, satisfying
 
 $$
 x = h(a) \cdot \prod_{\alpha=1}^n \phi_{i_\alpha}(p_\alpha)
 $$
 
-is called a decomposition of $ x $. The integer $ n \geq 0 $ is called the length of the decomposition $ \sigma $ and is denoted by $ l(\sigma) $; the sequence $ (e) $ is a decomposition of length 0 of the identity element of $ M $. The decomposition $ \sigma $ is called reduced if $ i_\alpha \neq i_{\alpha+1} $ for $ 1 \leq \alpha < n $ and $ p_\alpha \neq e_{i_\alpha} $ for $ 1 \leq \alpha \leq n $.
+is called a decomposition of $x$. The integer $n \geq 0$ is called the length of the decomposition $\sigma$ and is denoted by $l(\sigma)$; the sequence $(e)$ is a decomposition of length 0 of the identity element of $M$. The decomposition $\sigma$ is called reduced if $i_\alpha \neq i_{\alpha+1}$ for $1 \leq \alpha < n$ and $p_\alpha \neq e_{i_\alpha}$ for $1 \leq \alpha \leq n$.
 
 #### Proposition 5 {#alg-i-s7-prop-5 .statement}
 
-Under hypothesis (A) every element $ x $ of $ M $ admits a unique reduced decomposition $ \sigma $. Every decomposition $ \sigma' \neq \sigma $ of $ x $ satisfies $ l(\sigma') > l(\sigma) $.
+Under hypothesis (A) every element $x$ of $M$ admits a unique reduced decomposition $\sigma$. Every decomposition $\sigma' \neq \sigma$ of $x$ satisfies $l(\sigma') > l(\sigma)$.
 
 (A) Uniqueness of a reduced decomposition:
 
-Let $ \Sigma $ denote the set of sequences $ \sigma = (a; i_1, \ldots, i_n; p_1, \ldots, p_n) $ with $ n \geq 0 $, $ a \in A, i_\alpha \in I $ and $ p_\alpha \in P_{i_\alpha} - \{e_{i_\alpha}\} $ for $ 1 \leq \alpha \leq n $, such that $ i_\alpha \neq i_{\alpha+1} $ for $ 1 \leq \alpha < n $. Let $ \Phi $ denote the mapping of $ \Sigma $ into $ M $ defined by
+Let $\Sigma$ denote the set of sequences $\sigma = (a; i_1, \ldots, i_n; p_1, \ldots, p_n)$ with $n \geq 0$, $a \in A, i_\alpha \in I$ and $p_\alpha \in P_{i_\alpha} - \{e_{i_\alpha}\}$ for $1 \leq \alpha \leq n$, such that $i_\alpha \neq i_{\alpha+1}$ for $1 \leq \alpha < n$. Let $\Phi$ denote the mapping of $\Sigma$ into $M$ defined by
 
 $$
 \Phi(a; i_1, \ldots, i_n; p_1, \ldots, p_n) = h(a) \cdot \prod_{\alpha=1}^n \phi_{i_\alpha}(p_\alpha).
 $$
 
-A reduced decomposition of $ x \in M $ is an element $ \sigma $ of $ \Sigma $ such that $ \Phi(\sigma) = x $.
+A reduced decomposition of $x \in M$ is an element $\sigma$ of $\Sigma$ such that $\Phi(\sigma) = x$.
 
-For all $ i \in I $, let $ \Sigma_i $ be the subset of $ \Sigma $ consisting of the sequences $ (e; i_1, \ldots, i_n; p_1, \ldots, p_n) $ with $ i \neq i_1 $ when $ n > 0 $. Let
+For all $i \in I$, let $\Sigma_i$ be the subset of $\Sigma$ consisting of the sequences $(e; i_1, \ldots, i_n; p_1, \ldots, p_n)$ with $i \neq i_1$ when $n > 0$. Let
 
 $$
 \sigma = (e; i_1, \ldots, i_n; p_1, \ldots, p_n)
 $$
 
-be in $ \Sigma_i $ and $ \xi $ in $ M_i $; let $ \xi = h_i(a) \cdot p $ with $ a \in A $ and $ p \in P_i $, and
+be in $\Sigma_i$ and $\xi$ in $M_i$; let $\xi = h_i(a) \cdot p$ with $a \in A$ and $p \in P_i$, and
 
 $$
 \Psi_i(\xi, \sigma) = \begin{cases}
@@ -194,73 +194,73 @@ $$
 \end{cases}
 $$
 
-It is immediate that $ \Psi_i $ is a bijection of $ M_i \times \Sigma_i $ onto $ \Sigma $.
+It is immediate that $\Psi_i$ is a bijection of $M_i \times \Sigma_i$ onto $\Sigma$.
 
-Let $ i \in I $ and $ x \in M_i $; as $ \Psi_i $ is bijective, a mapping $ f_{i,x} $ of $ \Sigma $ into itself is defined by
+Let $i \in I$ and $x \in M_i$; as $\Psi_i$ is bijective, a mapping $f_{i,x}$ of $\Sigma$ into itself is defined by
 
 $$
 f_{i,x}(\Psi_i(\xi, \sigma)) = \Psi_i(x\xi, \sigma) \quad (\xi \in M_i, \sigma \in \Sigma_i).
 $$
 
-Further, for $ a \in A, f_a $ denotes the mapping of $ \Sigma $ into itself defined by
+Further, for $a \in A, f_a$ denotes the mapping of $\Sigma$ into itself defined by
 
 $$
 f_a(a'; i_1, \ldots, i_n; p_1, \ldots, p_n) = (aa'; i_1, \ldots, i_n; p_1, \ldots, p_n).
 $$
 
-Clearly $ f_{i,e_i} $ is the identity mapping of $ \Sigma $ and $ f_{i,xx'} = f_{i,x} \circ f_{i,x'} $ for $ x, x' $ in $ M_i $ and $ f_{i,h_i(a)} = f_a $ for $ a \in A $ and $ i \in I $.
+Clearly $f_{i,e_i}$ is the identity mapping of $\Sigma$ and $f_{i,xx'} = f_{i,x} \circ f_{i,x'}$ for $x, x'$ in $M_i$ and $f_{i,h_i(a)} = f_a$ for $a \in A$ and $i \in I$.
 
-Then Proposition 4 may be applied to the case where $ M' $ is the monoid of mappings of $ \Sigma $ into itself with law of composition $ (f,f') \mapsto f \circ f' $ and where f_i is the homomorphism $ x \mapsto f_{i,x} $ of $ M_i $ into $ M' $; then there exists a homomorphism $ f $ of $ M $ into $ M' $ such that $ f_{i,x} = f(\phi_i(x)) $ for $ i \in I $ and $ x \in M_i $. Let
+Then Proposition 4 may be applied to the case where $M'$ is the monoid of mappings of $\Sigma$ into itself with law of composition $(f,f') \mapsto f \circ f'$ and where f_i is the homomorphism $x \mapsto f_{i,x}$ of $M_i$ into $M'$; then there exists a homomorphism $f$ of $M$ into $M'$ such that $f_{i,x} = f(\phi_i(x))$ for $i \in I$ and $x \in M_i$. Let
 $$
 \sigma = (a; i_1, \ldots, i_n; p_1, \ldots, p_n)
 $$
-be in $ \Sigma $. Formulae (5) to (7) imply by induction on $ n $ the relation
+be in $\Sigma$. Formulae (5) to (7) imply by induction on $n$ the relation
 $$
 \begin{align*}
 \sigma &= (f_a \circ f_{i_1, p_1} \circ \cdots \circ f_{i_n, p_n})(e) \\
 &= f(h(a)\phi_{i_1}(p_1) \ldots \phi_{i_n}(p_n))(e),
 \end{align*}
 $$
-that is $ \sigma = f(\Phi(\sigma))(e) $. This proves that $ \Phi $ is injective.
+that is $\sigma = f(\Phi(\sigma))(e)$. This proves that $\Phi$ is injective.
 
 (B) *Existence of a decomposition*:
 
-Let $ D $ be the set of elements of $ M $ admitting a decomposition. Then $ e \in D $ and $ M $ is generated by $ \bigcup_{i \in I} \phi_i(M_i) $ and hence by $ h(A) \cup \bigcup_{i \in I} \phi_i(P_i) $. Then $ D.\phi_i(P_i) \subset D $ for all $ i \in I $; to prove that $ D = M $, it thus suffices to prove the relation $ D.h(A) \subset D $. This follows from the following more precise lemma:
+Let $D$ be the set of elements of $M$ admitting a decomposition. Then $e \in D$ and $M$ is generated by $\bigcup_{i \in I} \phi_i(M_i)$ and hence by $h(A) \cup \bigcup_{i \in I} \phi_i(P_i)$. Then $D.\phi_i(P_i) \subset D$ for all $i \in I$; to prove that $D = M$, it thus suffices to prove the relation $D.h(A) \subset D$. This follows from the following more precise lemma:
 
 #### Lemma 1 {#alg-i-s7-lem-1 .statement}
 
-*Let $ i_1, \ldots, i_n $ be in $ I $ and $ p_\alpha $ in $ P_{i_\alpha} $ for $ 1 \leq \alpha \leq n $. For all $ a \in A $ there exists $ a' \in A $ and a sequence $ (p'_\alpha)_{1 \leq \alpha \leq n} $ with $ p'_\alpha \in P_{i_\alpha} $ such that*
+*Let $i_1, \ldots, i_n$ be in $I$ and $p_\alpha$ in $P_{i_\alpha}$ for $1 \leq \alpha \leq n$. For all $a \in A$ there exists $a' \in A$ and a sequence $(p'_\alpha)_{1 \leq \alpha \leq n}$ with $p'_\alpha \in P_{i_\alpha}$ such that*
 $$
 \phi_{i_1}(p_1) \ldots \phi_{i_n}(p_n)h(a) = h(a')\phi_{i_1}(p'_1) \ldots \phi_{i_n}(p'_n).
 $$
-$ h(a) = \phi_{i_n}(h_{i_n}(a)) $ and there exists $ a_n \in A $ and $ p'_n \in P_{i_n} $ with
+$h(a) = \phi_{i_n}(h_{i_n}(a))$ and there exists $a_n \in A$ and $p'_n \in P_{i_n}$ with
 $$
 p_n \cdot h_{i_n}(a) = h_{i_n}(a_n) \cdot p'_n.
 $$
-It follows that $ \phi_{i_n}(p_n)h(a) = h(a_n)\phi_{i_n}(p'_n) $, whence
+It follows that $\phi_{i_n}(p_n)h(a) = h(a_n)\phi_{i_n}(p'_n)$, whence
 $$
 \phi_{i_1}(p_1) \ldots \phi_{i_{n-1}}(p_{n-1})\phi_{i_n}(p_n)h(a) = \phi_{i_1}(p_1) \ldots \phi_{i_{n-1}}(p_{n-1})h(a_n)\phi_{i_n}(p'_n);
 $$
-the lemma follows from this by induction on $ n $.
+the lemma follows from this by induction on $n$.
 
 (C) *End of the proof*:
 
-Let $ x \in M $ and let $ n $ be the minimum of the lengths of decompositions of $ x $. We shall prove that every decomposition $ \sigma $ of $ x $ of length $ n $ is reduced. This will establish the existence of a reduced decomposition of $ x $; the uniqueness of the reduced decomposition then implies $ l(\sigma') > l(\sigma) $ for every decomposition $ \sigma' \neq \sigma $ of $ x $.
+Let $x \in M$ and let $n$ be the minimum of the lengths of decompositions of $x$. We shall prove that every decomposition $\sigma$ of $x$ of length $n$ is reduced. This will establish the existence of a reduced decomposition of $x$; the uniqueness of the reduced decomposition then implies $l(\sigma') > l(\sigma)$ for every decomposition $\sigma' \neq \sigma$ of $x$.
 
-The case $ n = 0 $ being trivial, suppose $ n > 0 $. Let
+The case $n = 0$ being trivial, suppose $n > 0$. Let
 $$
 \sigma = (a; i_1, \ldots, i_n; p_1, \ldots, p_n)
 $$
-be a decomposition of $ x $ of length $ n $. If there existed an integer $ \alpha $ with $ 1 \leq \alpha \leq n $ and $ p_\alpha = e_{i_\alpha} $, the sequence
+be a decomposition of $x$ of length $n$. If there existed an integer $\alpha$ with $1 \leq \alpha \leq n$ and $p_\alpha = e_{i_\alpha}$, the sequence
 $$
 (a; i_1, \ldots, i_{\alpha-1}, i_{\alpha+1}, \ldots, i_n; p_1, \ldots, p_{\alpha-1}, p_{\alpha+1}, \ldots, p_n)
 $$
 
-would be a decomposition of $ x $ of length $ n - 1 $, which is excluded. Suppose that there exists an integer $ \alpha $ with $ 1 \leq \alpha < n $ and $ i_{\alpha} = i_{\alpha + 1} $ and let
+would be a decomposition of $x$ of length $n - 1$, which is excluded. Suppose that there exists an integer $\alpha$ with $1 \leq \alpha < n$ and $i_{\alpha} = i_{\alpha + 1}$ and let
 $$
 p_{\alpha} p_{\alpha + 1} = h_{i_{\alpha}}(a') \cdot p'_{\alpha}
 $$
-with $ a' \in \mathbf{A} $ and $ p'_{\alpha} \in P_{i_{\alpha}} $; by Lemma 1 there exists elements $ a'' \in \mathbf{A} $,
+with $a' \in \mathbf{A}$ and $p'_{\alpha} \in P_{i_{\alpha}}$; by Lemma 1 there exists elements $a'' \in \mathbf{A}$,
 $$
 p'_{1} \in P_{i_{1}}, \ldots, p'_{\alpha - 1} \in P_{i_{\alpha - 1}}
 $$
@@ -272,33 +272,33 @@ and the sequence
 $$
 (aa''; i_{1}, \ldots, i_{\alpha - 1}, i_{\alpha}, i_{\alpha + 2}, \ldots, i_{n}; p'_{1}, \ldots, p'_{\alpha - 1}, p'_{\alpha}, p_{\alpha + 2}, \ldots, p_{n})
 $$
-is a decomposition of $ x $ of length $ n - 1 $, which is a contradiction.
+is a decomposition of $x$ of length $n - 1$, which is a contradiction.
 
-We have thus proved that $ \sigma $ is reduced.
+We have thus proved that $\sigma$ is reduced.
 
 #### Corollary {#alg-i-s7-n3-cor-1 .statement}
 
-*Under hypothesis (A) the homomorphisms $ \phi_{i} $ and $ h $ are injective. For $ i \neq j $ in $ I $, $ \phi_{i}(M_{i}) \cap \phi_{j}(M_{j}) = h(\mathbf{A}) $.*
+*Under hypothesis (A) the homomorphisms $\phi_{i}$ and $h$ are injective. For $i \neq j$ in $I$, $\phi_{i}(M_{i}) \cap \phi_{j}(M_{j}) = h(\mathbf{A})$.*
 
-First $ h $ is injective: if $ h(a) = h(a') $, then $ (a) $ and $ (a') $ are two reduced decompositions of the same element of $ M $, whence $ a = a' $. Let $ i \in I $; then $ h(\mathbf{A}) = \phi_{i}(h_{i}(\mathbf{A})) \subset \phi_{i}(M_{i}) $; the uniqueness of reduced decompositions implies
+First $h$ is injective: if $h(a) = h(a')$, then $(a)$ and $(a')$ are two reduced decompositions of the same element of $M$, whence $a = a'$. Let $i \in I$; then $h(\mathbf{A}) = \phi_{i}(h_{i}(\mathbf{A})) \subset \phi_{i}(M_{i})$; the uniqueness of reduced decompositions implies
 $$
 h(\mathbf{A}) \cap \phi_{i}(M_{i} - h_{i}(\mathbf{A})) = \varnothing,
 $$
-whence $ \phi_{i}(M_{i} - h_{i}(\mathbf{A})) = \phi_{i}(M_{i}) - h(\mathbf{A}) $.
+whence $\phi_{i}(M_{i} - h_{i}(\mathbf{A})) = \phi_{i}(M_{i}) - h(\mathbf{A})$.
 
-The injectivity of the homomorphisms $ \phi_{i} $ and the relation
+The injectivity of the homomorphisms $\phi_{i}$ and the relation
 $$
 \phi_{i}(M_{i}) \cap \phi_{j}(M_{j}) \subset h(\mathbf{A})
 $$
-for $ i \neq j $ are then consequences of the following fact: for $ i, j $ in $ I $, $ x $ in $ M_{i} - h_{i}(\mathbf{A}) $ and $ y $ in $ M_{j} - h_{j}(\mathbf{A}) $, the relation $ \phi_{i}(x) = \phi_{j}(y) $ implies $ i = j $ and $ x = y $. Let $ x = h_{i}(a) \cdot p $ and $ y = h_{j}(b) \cdot q $ with $ a, b $ in $ \mathbf{A} $, $ p $ in $ P_{i} - \{e_{i}\} $ and $ y $ in $ P_{j} - \{e_{j}\} $. Then $ \phi_{i}(x) = h(a)\phi_{i}(p) $ and $ \phi_{j}(y) = h(b)\phi_{j}(q) $ and hence $ (a; i; p) $ and $ (b; j; q) $ are two reduced decompositions of the same element of $ M $. It follows that $ i = j, a = b $ and $ p = q $, whence $ x = h_{i}(a)p = h_{j}(b)q = y $.
+for $i \neq j$ are then consequences of the following fact: for $i, j$ in $I$, $x$ in $M_{i} - h_{i}(\mathbf{A})$ and $y$ in $M_{j} - h_{j}(\mathbf{A})$, the relation $\phi_{i}(x) = \phi_{j}(y)$ implies $i = j$ and $x = y$. Let $x = h_{i}(a) \cdot p$ and $y = h_{j}(b) \cdot q$ with $a, b$ in $\mathbf{A}$, $p$ in $P_{i} - \{e_{i}\}$ and $y$ in $P_{j} - \{e_{j}\}$. Then $\phi_{i}(x) = h(a)\phi_{i}(p)$ and $\phi_{j}(y) = h(b)\phi_{j}(q)$ and hence $(a; i; p)$ and $(b; j; q)$ are two reduced decompositions of the same element of $M$. It follows that $i = j, a = b$ and $p = q$, whence $x = h_{i}(a)p = h_{j}(b)q = y$.
 
-When hypothesis (A) is fulfilled, we shall identify each monoid $ M_{i} $ with a submonoid of $ M $ by means of $ \phi_{i} $; similarly, we shall identify $ \mathbf{A} $ with a submonoid of $ M $ by $ h $. Then $ M $ is generated by $ \bigcup_{i \in I} M_{i} $ and $ M_{i} \cap M_{j} = \mathbf{A} $ for $ i \neq j $.
+When hypothesis (A) is fulfilled, we shall identify each monoid $M_{i}$ with a submonoid of $M$ by means of $\phi_{i}$; similarly, we shall identify $\mathbf{A}$ with a submonoid of $M$ by $h$. Then $M$ is generated by $\bigcup_{i \in I} M_{i}$ and $M_{i} \cap M_{j} = \mathbf{A}$ for $i \neq j$.
 
-Every element of $ M $ can be written uniquely in the form $ a \prod_{\alpha = 1}^{n} p_{\alpha} $ with $ a \in \mathbf{A}, p_{1} \in P_{i_{1}} - \{e\}, \ldots, p_{n} \in P_{i_{n}} - \{e\} $ and $ i_{\alpha} \neq i_{\alpha + 1} $ for $ 1 \leq \alpha < n $. Finally, if $ M' $ is a monoid and $ (f_{i}: M_{i} \to M') $ (for $ i \in I $) a family of homomorphisms whose restrictions to $ \mathbf{A} $ are the same homomorphism of $ \mathbf{A} $ into $ M' $, there exists one and only one homomorphism $ f: M \to M' $ inducing $ f_{i} $ on $ M_{i} $ for all $ i \in I $.
+Every element of $M$ can be written uniquely in the form $a \prod_{\alpha = 1}^{n} p_{\alpha}$ with $a \in \mathbf{A}, p_{1} \in P_{i_{1}} - \{e\}, \ldots, p_{n} \in P_{i_{n}} - \{e\}$ and $i_{\alpha} \neq i_{\alpha + 1}$ for $1 \leq \alpha < n$. Finally, if $M'$ is a monoid and $(f_{i}: M_{i} \to M')$ (for $i \in I$) a family of homomorphisms whose restrictions to $\mathbf{A}$ are the same homomorphism of $\mathbf{A}$ into $M'$, there exists one and only one homomorphism $f: M \to M'$ inducing $f_{i}$ on $M_{i}$ for all $i \in I$.
 
 Hypothesis (A) is satisfied in two important cases:
 
-(a) $ A = \{e\} $. In this case, there is a family $(M_i)_{i \in I}$ of monoids and $M$ is called the *monoidal sum* of this family. Each $M_i$ is identified with a submonoid of $M$ and $M$ is generated by $\bigcup_{i \in I} M_i$; further, $M_i \cap M_j = \{e\}$ for $i \neq j$. Every element of $M$ may be written uniquely in the form $x_1 \ldots x_n$ with
+(a) $A = \{e\}$. In this case, there is a family $(M_i)_{i \in I}$ of monoids and $M$ is called the *monoidal sum* of this family. Each $M_i$ is identified with a submonoid of $M$ and $M$ is generated by $\bigcup_{i \in I} M_i$; further, $M_i \cap M_j = \{e\}$ for $i \neq j$. Every element of $M$ may be written uniquely in the form $x_1 \ldots x_n$ with
 $$
 x_1 \in M_{i_1} - \{e\}, \ldots, x_n \in M_{i_n} - \{e\}
 $$
@@ -321,69 +321,69 @@ Let $h$ be the homomorphism of $\mathrm{Mo}(X)$ into $M$ characterized by $h(x) 
 
 † Note that $G_1 * G_2$ is not the "product" of $G_1$ and $G_2$ in the sense of *Set Theory*, IV, § 2, no. 4 (nor in the sense of the "theory of categories"; in the context of this theory, $G_1 * G_2$ is the "sum" of $G_1$ and $G_2$).
 
-$ 1 \leq \alpha \leq n $ such that $ x_\alpha \neq x_{\alpha+1} $ for $ 1 \leq \alpha < n $ and $ w = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)} $. The sequence $ (x_\alpha, m(\alpha))_{1 \leq \alpha \leq n} $ is determined uniquely by these conditions.
+$1 \leq \alpha \leq n$ such that $x_\alpha \neq x_{\alpha+1}$ for $1 \leq \alpha < n$ and $w = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)}$. The sequence $(x_\alpha, m(\alpha))_{1 \leq \alpha \leq n}$ is determined uniquely by these conditions.
 
-(b) Let $ p $ be a positive integer, $ x'_\beta $ in $ X $ and $ m'(\beta) $ in $ \mathbf{N} $ for $ 1 \leq \beta \leq p $ such that $ w = \prod_{\beta=1}^p {x'}^{m'(\beta)} $. Then $ p \geq n $. If $ p = n $, then $ x'_\beta = x_\beta $ and $ m'(\beta) = m(\beta) $ for $ 1 \leq \beta \leq p $.
+(b) Let $p$ be a positive integer, $x'_\beta$ in $X$ and $m'(\beta)$ in $\mathbf{N}$ for $1 \leq \beta \leq p$ such that $w = \prod_{\beta=1}^p {x'}^{m'(\beta)}$. Then $p \geq n$. If $p = n$, then $x'_\beta = x_\beta$ and $m'(\beta) = m(\beta)$ for $1 \leq \beta \leq p$.
 
-In the notation of Lemma 2, $ h^{-1}(\phi_x(n)) = x^n $ for $ x \in X $ and $ n \in \mathbf{N} $. Proposition 6 then follows from no. 3, Proposition 5.
+In the notation of Lemma 2, $h^{-1}(\phi_x(n)) = x^n$ for $x \in X$ and $n \in \mathbf{N}$. Proposition 6 then follows from no. 3, Proposition 5.
 
 ### 5. FREE GROUPS
 
-Let $ G_x = \mathbf{Z} $ for all $ x \in X $. The free product of the family $ (G_x)_{x \in X} $ is called the *free group constructed on* $ X $ and is denoted by $ F(X) $. Let $ \phi_x $ denote the canonical homomorphism of $ G_x = \mathbf{Z} $ into $ F(X) $. By no. 3, Corollary to Proposition 5, the mapping $ x \mapsto \phi_x(1) $ of $ X $ into $ F(X) $ is injective; we shall identify $ X $ with its image in $ F(X) $ under this mapping. Then $ X $ generates $ F(X) $ and $ e \notin X $.
+Let $G_x = \mathbf{Z}$ for all $x \in X$. The free product of the family $(G_x)_{x \in X}$ is called the *free group constructed on* $X$ and is denoted by $F(X)$. Let $\phi_x$ denote the canonical homomorphism of $G_x = \mathbf{Z}$ into $F(X)$. By no. 3, Corollary to Proposition 5, the mapping $x \mapsto \phi_x(1)$ of $X$ into $F(X)$ is injective; we shall identify $X$ with its image in $F(X)$ under this mapping. Then $X$ generates $F(X)$ and $e \notin X$.
 
 Applying no. 3, Proposition 5, we obtain the following result:
 
 #### Proposition 7 {#alg-i-s7-prop-7 .statement}
 
-*Let g be an element of the free group* $ F(X) $. *There exist an integer* $ n \geq 0 $ *and a sequence* $ (x_\alpha, m(\alpha))_{1 \leq \alpha \leq n} $ *determined uniquely by the relations* $ x_\alpha \in X $, $ x_\alpha \neq x_{\alpha+1} $ *for* $ 1 \leq \alpha < n $, $ m(\alpha) \in \mathbf{Z} $, $ m(\alpha) \neq 0 $ *for* $ 1 \leq \alpha \leq n $, *and* $ g = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)} $.
+*Let g be an element of the free group* $F(X)$. *There exist an integer* $n \geq 0$ *and a sequence* $(x_\alpha, m(\alpha))_{1 \leq \alpha \leq n}$ *determined uniquely by the relations* $x_\alpha \in X$, $x_\alpha \neq x_{\alpha+1}$ *for* $1 \leq \alpha < n$, $m(\alpha) \in \mathbf{Z}$, $m(\alpha) \neq 0$ *for* $1 \leq \alpha \leq n$, *and* $g = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)}$.
 
-The free group $ F(X) $ enjoys the following universal property:
+The free group $F(X)$ enjoys the following universal property:
 
 #### Proposition 8 {#alg-i-s7-prop-8 .statement}
 
-*Let G be a group and f a mapping of* $ X $ *into G. There exists one and only one homomorphism* $ \bar{f} $ *of* $ F(X) $ *into G which extends f*.
+*Let G be a group and f a mapping of* $X$ *into G. There exists one and only one homomorphism* $\bar{f}$ *of* $F(X)$ *into G which extends f*.
 
-The uniqueness of $ \bar{f} $ follows from the fact that the group $ F(X) $ is generated by $ X $. For all $ x $ in $ X $, let $ f_x $ be the homomorphism $ n \mapsto f(x)^n $ of $ \mathbf{Z} $ into $ G $. By no. 3, Proposition 4, there exists a homomorphism $ \bar{f} $ of $ F(X) $ into $ G $ such that $ \bar{f}(x^n) = f_x(n) $ for $ x \in X $ and $ n \in \mathbf{Z} $; in particular, $ \bar{f}(x) = f_x(1) = f(x) $ for all $ x \in X $ and hence $ \bar{f} $ extends $ f $.
+The uniqueness of $\bar{f}$ follows from the fact that the group $F(X)$ is generated by $X$. For all $x$ in $X$, let $f_x$ be the homomorphism $n \mapsto f(x)^n$ of $\mathbf{Z}$ into $G$. By no. 3, Proposition 4, there exists a homomorphism $\bar{f}$ of $F(X)$ into $G$ such that $\bar{f}(x^n) = f_x(n)$ for $x \in X$ and $n \in \mathbf{Z}$; in particular, $\bar{f}(x) = f_x(1) = f(x)$ for all $x \in X$ and hence $\bar{f}$ extends $f$.
 
-Let $ u : X \to Y $ be a mapping. By Proposition 8 there exists one and only one homomorphism of $ F(X) $ into $ F(Y) $ which coincides with $ u $ on $ X $; it is denoted by $ F(u) $. As in the case of magmas (no. 1) the formula
+Let $u : X \to Y$ be a mapping. By Proposition 8 there exists one and only one homomorphism of $F(X)$ into $F(Y)$ which coincides with $u$ on $X$; it is denoted by $F(u)$. As in the case of magmas (no. 1) the formula
 
 $$
 F(v \circ u) = F(v) \circ F(u)
 $$
 
-is established for every mapping $ v : Y \to Z $ and it is shown that $ F(u) $ is injective (resp. surjective, bijective) if $ u $ is. For every subset $ S $ of $ X $, $ F(S) $ will be identified with the subgroup of $ F(X) $ generated by $ S $.
+is established for every mapping $v : Y \to Z$ and it is shown that $F(u)$ is injective (resp. surjective, bijective) if $u$ is. For every subset $S$ of $X$, $F(S)$ will be identified with the subgroup of $F(X)$ generated by $S$.
 
-Let I be a set. In certain cases it is of interest not to identify $ i $ in I with its canonical image $ \phi_i(1) $ in the free group $ F(I) $; the latter will be denoted by $ T_i $ (or $ T'_i, X_i, \ldots $ as the case may be) and called the *indeterminate* of index $ i $. The free group $ F(I) $ is then denoted by $ F((T_i)_{i \in I}) $ or $ F(T_1, \ldots, T_n) $ if $ I = \{1, 2, \ldots, n\} $.
+Let I be a set. In certain cases it is of interest not to identify $i$ in I with its canonical image $\phi_i(1)$ in the free group $F(I)$; the latter will be denoted by $T_i$ (or $T'_i, X_i, \ldots$ as the case may be) and called the *indeterminate* of index $i$. The free group $F(I)$ is then denoted by $F((T_i)_{i \in I})$ or $F(T_1, \ldots, T_n)$ if $I = \{1, 2, \ldots, n\}$.
 
-Let $ G $ be a group and $ t = (t_i)_{i \in I} $ a family of elements of $ G $. By Proposition 8 there exists a homomorphism $ f_t $ of $ F((T_i)_{i \in I}) $ into $ G $ characterized by $ f_t(T_i) = t_i $ for all $ i \in I $. The image of an element $ w $ of $ F((T_i)_{i \in I}) $ under $ f_t $ will be denoted by $ w(t) $ or $ w(t_1, \ldots, t_n) $ if $ I = \{1, 2, \ldots, n\} $; $ w(t) $ is said to result from the *substitution* $ T_i \mapsto t_i $ in $ w $. In particular, if we take $ G = F((T_i)_{i \in I}) $ and $ (t_i) = (T_i) = T, f_T $ is the identity homomorphism of $ G $, whence $ w(T) = w $; for $ I = \{1, 2, \ldots, n\} $, then $ w(T_1, \ldots, T_n) = w $.
+Let $G$ be a group and $t = (t_i)_{i \in I}$ a family of elements of $G$. By Proposition 8 there exists a homomorphism $f_t$ of $F((T_i)_{i \in I})$ into $G$ characterized by $f_t(T_i) = t_i$ for all $i \in I$. The image of an element $w$ of $F((T_i)_{i \in I})$ under $f_t$ will be denoted by $w(t)$ or $w(t_1, \ldots, t_n)$ if $I = \{1, 2, \ldots, n\}$; $w(t)$ is said to result from the *substitution* $T_i \mapsto t_i$ in $w$. In particular, if we take $G = F((T_i)_{i \in I})$ and $(t_i) = (T_i) = T, f_T$ is the identity homomorphism of $G$, whence $w(T) = w$; for $I = \{1, 2, \ldots, n\}$, then $w(T_1, \ldots, T_n) = w$.
 
-Let $ G $ and $ G' $ be two groups, $ u $ a homomorphism of $ G $ into $ G' $ and $ t = (t_1, \ldots, t_n) $ a finite sequence of elements in $ G $. Let $ t' = (u(t_1), \ldots, u(t_n)) $; the homomorphism $ u \circ f_t $ of $ F(T_1, \ldots, T_n) $ into $ G' $ maps $ T_i $ to $ u(t_i) $ for $ 1 \leq i \leq n $ and hence is equal to $ f_{t'} $; for $ w $ in $ F(T_1, \ldots, T_n) $, then
+Let $G$ and $G'$ be two groups, $u$ a homomorphism of $G$ into $G'$ and $t = (t_1, \ldots, t_n)$ a finite sequence of elements in $G$. Let $t' = (u(t_1), \ldots, u(t_n))$; the homomorphism $u \circ f_t$ of $F(T_1, \ldots, T_n)$ into $G'$ maps $T_i$ to $u(t_i)$ for $1 \leq i \leq n$ and hence is equal to $f_{t'}$; for $w$ in $F(T_1, \ldots, T_n)$, then
 
 $$
 u(w(t_1, \ldots, t_n)) = w(u(t_1), \ldots, u(t_n)).
 $$
 
-Let $ w $ be given in $ F(T_1, \ldots, T_n) $ and elements $ v_1, \ldots, v_n $ in the free group $ F(T'_1, \ldots, T'_m) $. The substitution $ T_i \mapsto v_i $ defines an element $ w' = w(v_1, \ldots, v_n) $ of $ F(T'_1, \ldots, T'_m) $. Let $ G $ be a group, $ t_1, \ldots, t_m $ elements of $ G $ and $ u $ the homomorphism of $ F(T'_1, \ldots, T'_m) $ into $ G $ characterized by $ u(T'_j) = t_j $ for $ 1 \leq j \leq m $. Then $ u(v_i) = v_i(t_1, \ldots, t_m) $ and $ u(w') = w(t_1, \ldots, t_m) $; formula (8) thus implies
+Let $w$ be given in $F(T_1, \ldots, T_n)$ and elements $v_1, \ldots, v_n$ in the free group $F(T'_1, \ldots, T'_m)$. The substitution $T_i \mapsto v_i$ defines an element $w' = w(v_1, \ldots, v_n)$ of $F(T'_1, \ldots, T'_m)$. Let $G$ be a group, $t_1, \ldots, t_m$ elements of $G$ and $u$ the homomorphism of $F(T'_1, \ldots, T'_m)$ into $G$ characterized by $u(T'_j) = t_j$ for $1 \leq j \leq m$. Then $u(v_i) = v_i(t_1, \ldots, t_m)$ and $u(w') = w(t_1, \ldots, t_m)$; formula (8) thus implies
 
 $$
 w'(t_1, \ldots, t_m) = w(v_1(t_1, \ldots, t_m), \ldots, v_n(t_1, \ldots, t_m)).
 $$
 
-This justifies the "functional notation" $ w(t_1, \ldots, t_n) $. The reader is left to extend formulae (8) and (9) to the case of arbitrary indexing sets.
+This justifies the "functional notation" $w(t_1, \ldots, t_n)$. The reader is left to extend formulae (8) and (9) to the case of arbitrary indexing sets.
 
 ### 6. PRESENTATIONS OF A GROUP
 
-Let $ G $ be a group and $ t = (t_i)_{i \in I} $ a family of elements of $ G $. Let $ f_t $ be the unique homomorphism of the free group $ F(I) $ into $ G $ which maps $ i $ to $ t_i $. The image of $ f_t $ is the subgroup generated by the elements $ t_i $ of $ G $. The elements of the kernel of $ f_t $ are called the *relators* of the family $ t $. $ t $ is called *generating* (resp. *free*, *basic*) if $ f_t $ is surjective (resp. injective, bijective).
+Let $G$ be a group and $t = (t_i)_{i \in I}$ a family of elements of $G$. Let $f_t$ be the unique homomorphism of the free group $F(I)$ into $G$ which maps $i$ to $t_i$. The image of $f_t$ is the subgroup generated by the elements $t_i$ of $G$. The elements of the kernel of $f_t$ are called the *relators* of the family $t$. $t$ is called *generating* (resp. *free*, *basic*) if $f_t$ is surjective (resp. injective, bijective).
 
-Let $ G $ be a group. A *presentation* of $ G $ is an ordered pair $ (\mathbf{t}, \mathbf{r}) $ consisting of a generating family $ \mathbf{t} = (t_i)_{i \in I} $ and a family $ \mathbf{r} = (r_j)_{j \in J} $ of relators such that the kernel $ N_t $ of $ f_t $ is generated by the elements $ gr_jg^{-1} $ for $ g \in F(I) $ and $ j \in J $. It amounts to the same to say that $ N_t $ is the normal subgroup of $ F(I) $ generated by the $ r_j $ for $ j \in J $ (in other words, the smallest normal subgroup of $ F(I) $ containing the elements $ r_j $ ($ j \in J $), cf. § 4, no. 4). By an abuse of language the generators $ t_i $ and the relations $ r_j(\mathbf{t}) = e $ are said to constitute a *presentation* of the group $ G $.
+Let $G$ be a group. A *presentation* of $G$ is an ordered pair $(\mathbf{t}, \mathbf{r})$ consisting of a generating family $\mathbf{t} = (t_i)_{i \in I}$ and a family $\mathbf{r} = (r_j)_{j \in J}$ of relators such that the kernel $N_t$ of $f_t$ is generated by the elements $gr_jg^{-1}$ for $g \in F(I)$ and $j \in J$. It amounts to the same to say that $N_t$ is the normal subgroup of $F(I)$ generated by the $r_j$ for $j \in J$ (in other words, the smallest normal subgroup of $F(I)$ containing the elements $r_j$ ($j \in J$), cf. § 4, no. 4). By an abuse of language the generators $t_i$ and the relations $r_j(\mathbf{t}) = e$ are said to constitute a *presentation* of the group $G$.
 
-Let I be a set and $ r = (r_j)_{j \in J} $ a family of elements of the free group $ F(I) $. Let $ N(r) $ be the normal subgroup of $ F(I) $ generated by the $ r_j $ for $ j \in J $. Let $ F(I, r) = F(I)/N(r) $ and $ \tau_i $ denote the class of $ i $ modulo $ N(r) $. The ordered pair $ (\tau, r) $ with $ \tau = (\tau_i)_{i \in I} $ is a presentation of the group $ F(I, r) $; if $ G $ is a group and $ (t, r) $ is a presentation of $ G $ with $ t = (t_i)_{i \in I} $, there exists a unique isomorphism $ u $ of $ F(I, r) $ onto $ G $ such that $ u(\tau_i) = t_i $ for all $ i \in I $. The group $ F(I, r) $ is said to be defined by the generators $ \tau_i $ and the relators $ r_j $, or by an abuse of language that it is *defined by the generators $ \tau_i $ and the relations* $ r_j(\tau) = e $. When $ I = \{1, n\} $ and $ J = \{1, m\} $, it is said that $ F(I, r) $ is defined by the presentation
+Let I be a set and $r = (r_j)_{j \in J}$ a family of elements of the free group $F(I)$. Let $N(r)$ be the normal subgroup of $F(I)$ generated by the $r_j$ for $j \in J$. Let $F(I, r) = F(I)/N(r)$ and $\tau_i$ denote the class of $i$ modulo $N(r)$. The ordered pair $(\tau, r)$ with $\tau = (\tau_i)_{i \in I}$ is a presentation of the group $F(I, r)$; if $G$ is a group and $(t, r)$ is a presentation of $G$ with $t = (t_i)_{i \in I}$, there exists a unique isomorphism $u$ of $F(I, r)$ onto $G$ such that $u(\tau_i) = t_i$ for all $i \in I$. The group $F(I, r)$ is said to be defined by the generators $\tau_i$ and the relators $r_j$, or by an abuse of language that it is *defined by the generators $\tau_i$ and the relations* $r_j(\tau) = e$. When $I = \{1, n\}$ and $J = \{1, m\}$, it is said that $F(I, r)$ is defined by the presentation
 
 $$
 \langle \tau_1, \ldots, \tau_n; r_1, \ldots, r_m \rangle.
 $$
 
-If $ r_j = u_j^{-1} v_j $ with $ u_j $ and $ v_j $ in $ F(I) $, this presentation is equally denoted by the symbol
+If $r_j = u_j^{-1} v_j$ with $u_j$ and $v_j$ in $F(I)$, this presentation is equally denoted by the symbol
 
 $$
 \langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle.
@@ -391,33 +391,33 @@ $$
 
 #### Example {#alg-i-s7-n6-exa-1 .statement}
 
-(1) The group defined by the presentation $ \langle \tau; \tau^q = e \rangle $ is cyclic of order $ q $.
+(1) The group defined by the presentation $\langle \tau; \tau^q = e \rangle$ is cyclic of order $q$.
 
-(2) The group defined by the presentation $ \langle x, y; xy = yx \rangle $ is isomorphic to $ \mathbf{Z} \times \mathbf{Z} $.
+(2) The group defined by the presentation $\langle x, y; xy = yx \rangle$ is isomorphic to $\mathbf{Z} \times \mathbf{Z}$.
 
 #### Proposition 9 {#alg-i-s7-prop-9 .statement}
 
-*Let $ G $ be a group, $ t = (t_i)_{i \in I} $ a generating family of $ G $ and $ r = (r_j)_{j \in J} $ a family of relators of $ t $. The following conditions are equivalent:*
+*Let $G$ be a group, $t = (t_i)_{i \in I}$ a generating family of $G$ and $r = (r_j)_{j \in J}$ a family of relators of $t$. The following conditions are equivalent:*
 
-(a) *The ordered pair* $ (t, r) $ *is a presentation of* $ G $.
+(a) *The ordered pair* $(t, r)$ *is a presentation of* $G$.
 
-(b) *Let* $ G' $ *be a group and* $ t' = (t'_i)_{i \in I} $ *a family of elements of* $ G' $. *If* $ r_j(t') = e $ *for all* $ j \in J $, *there exists a homomorphism* $ u $ *of* $ G $ *into* $ G' $ *such that* $ u(t_i) = t'_i $ *for all* $ i \in I $.
+(b) *Let* $G'$ *be a group and* $t' = (t'_i)_{i \in I}$ *a family of elements of* $G'$. *If* $r_j(t') = e$ *for all* $j \in J$, *there exists a homomorphism* $u$ *of* $G$ *into* $G'$ *such that* $u(t_i) = t'_i$ *for all* $i \in I$.
 
-(c) *Let* $ \overline{G} $ *be a group and* $ \bar{t} = (\bar{t}_i)_{i \in I} $ *a generating family of* $ \overline{G} $ *such that* $ r_j(\bar{t}) = e $ *for all* $ j \in J $. *Every homomorphism of* $ \overline{G} $ *into* $ G $ *which maps* $ \bar{t}_i $ *to* $ t_i $ *for all* $ i \in I $ *is an isomorphism*.
+(c) *Let* $\overline{G}$ *be a group and* $\bar{t} = (\bar{t}_i)_{i \in I}$ *a generating family of* $\overline{G}$ *such that* $r_j(\bar{t}) = e$ *for all* $j \in J$. *Every homomorphism of* $\overline{G}$ *into* $G$ *which maps* $\bar{t}_i$ *to* $t_i$ *for all* $i \in I$ *is an isomorphism*.
 
-Let $ f $ denote the homomorphism of $ F(I) $ into $ G $ which maps $ i $ to $ t_i $ for all $ i \in I $ and $ N $ the kernel of $ f $.
+Let $f$ denote the homomorphism of $F(I)$ into $G$ which maps $i$ to $t_i$ for all $i \in I$ and $N$ the kernel of $f$.
 
-(a) $ \Rightarrow $ (b): Suppose that $ (t, r) $ is a presentation of $ G $ and let $ t' = (t'_i)_{i \in I} $ be a family of elements of a group $ G' $ with $ r_j(t') = e $ for all $ j \in J $. Let $ f' $ be the homomorphism of $ F(I) $ into $ G' $ characterized by $ f'(i) = t'_i $ for all $ i \in I $. By hypothesis $ f'(r_j) = e $ for all $ j \in J $ and, as $ N $ is generated by the elements $ gr_jg^{-1} $ for $ j \in J $ and $ g \in F(I), f'(N) = \{e\} $. As the homomorphism $ f \colon F(I) \to G $ is surjective with kernel $ N $, there exists a homomorphism $ u \colon G \to G' $ such that $ f' = u \circ f $. Then $ u(t_i) = u(f(i)) = f'(i) = t'_i $.
+(a) $\Rightarrow$ (b): Suppose that $(t, r)$ is a presentation of $G$ and let $t' = (t'_i)_{i \in I}$ be a family of elements of a group $G'$ with $r_j(t') = e$ for all $j \in J$. Let $f'$ be the homomorphism of $F(I)$ into $G'$ characterized by $f'(i) = t'_i$ for all $i \in I$. By hypothesis $f'(r_j) = e$ for all $j \in J$ and, as $N$ is generated by the elements $gr_jg^{-1}$ for $j \in J$ and $g \in F(I), f'(N) = \{e\}$. As the homomorphism $f \colon F(I) \to G$ is surjective with kernel $N$, there exists a homomorphism $u \colon G \to G'$ such that $f' = u \circ f$. Then $u(t_i) = u(f(i)) = f'(i) = t'_i$.
 
-(b) $ \Rightarrow $ (c): Suppose condition (b) holds. Let $ t = (t_i)_{i \in I} $ be a generating family of a group $ G $ such that $ r_j(t) = e $ for all $ j \in J $ and let $ v $ be a homomorphism of $ \overline{G} $ into $ G $ such that $ v(\bar{t}_i) = t_i $ for all $ i \in I $. As the family $ (t_i)_{i \in I} $ generates $ G $, the homomorphism $ v $ is *surjective*. By property (b) there exists a homomorphism $ u \colon G \to \overline{G} $ such that $ u(t_i) = \bar{t}_i $ for all $ i \in I $. Then $ u(v(\bar{t}_i)) = \bar{t}_i $ for all $ i \in I $ and hence $ u \circ v $ is the identity on $ \overline{G} $, which proves that $ v $ is injective. Hence $ v $ is an isomorphism and condition (c) holds.
+(b) $\Rightarrow$ (c): Suppose condition (b) holds. Let $t = (t_i)_{i \in I}$ be a generating family of a group $G$ such that $r_j(t) = e$ for all $j \in J$ and let $v$ be a homomorphism of $\overline{G}$ into $G$ such that $v(\bar{t}_i) = t_i$ for all $i \in I$. As the family $(t_i)_{i \in I}$ generates $G$, the homomorphism $v$ is *surjective*. By property (b) there exists a homomorphism $u \colon G \to \overline{G}$ such that $u(t_i) = \bar{t}_i$ for all $i \in I$. Then $u(v(\bar{t}_i)) = \bar{t}_i$ for all $i \in I$ and hence $u \circ v$ is the identity on $\overline{G}$, which proves that $v$ is injective. Hence $v$ is an isomorphism and condition (c) holds.
 
-(c) $ \Rightarrow $ (a): Suppose condition (c) holds. Let $ t'_i $ be the canonical image of $ i $ in $ F(I, r) $ and $ t' = (t'_i)_{i \in I} $; then $ r_j(t') = e $ for all $ j \in J $. As $ r_j(t) = e $ for all $ j \in J $, there exists one and only one homomorphism $ v $ of $ F(I, r) $ into $ G $ such that $ v(t_i) = t_i $ for all $ i \in I $. By (c), $ v $ is an isomorphism of $ F(I, r) $ onto $ G $ which transforms the presentation $ (t', r) $ of $ F(I, r) $ into a presentation $ (t, r) $ of $ G $.
+(c) $\Rightarrow$ (a): Suppose condition (c) holds. Let $t'_i$ be the canonical image of $i$ in $F(I, r)$ and $t' = (t'_i)_{i \in I}$; then $r_j(t') = e$ for all $j \in J$. As $r_j(t) = e$ for all $j \in J$, there exists one and only one homomorphism $v$ of $F(I, r)$ into $G$ such that $v(t_i) = t_i$ for all $i \in I$. By (c), $v$ is an isomorphism of $F(I, r)$ onto $G$ which transforms the presentation $(t', r)$ of $F(I, r)$ into a presentation $(t, r)$ of $G$.
 
 ### 7. FREE COMMUTATIVE GROUPS AND MONOIDS
 
-The set $ \mathbf{Z}^X $ of all mappings of $ X $ into $ \mathbf{Z} $ is a commutative group under the law defined by $ (\alpha + \beta)(x) = \alpha(x) + \beta(x) $ ($ \alpha, \beta \in \mathbf{Z}^X, x \in X $); the elements of $ \mathbf{Z}^X $ are sometimes called multiindices. The identity element, denoted by 0, is the constant mapping with value 0. For $ \alpha \in \mathbf{Z}^X $, the set $ S_\alpha $ of $ x \in X $ such that $ \alpha(x) \neq 0 $ is called the support of $ \alpha $; then $ S_0 = \varnothing $ and $ S_{\alpha+\beta} \subset S_\alpha \cup S_\beta $ for $ \alpha, \beta $ in $ \mathbf{Z}^X $. Therefore the set $ \mathbf{Z}^{(X)} $ of mappings $ \alpha : X \to \mathbf{Z} $ of finite support is a subgroup of $ \mathbf{Z}^X $ called the free commutative group constructed on $ X $.
+The set $\mathbf{Z}^X$ of all mappings of $X$ into $\mathbf{Z}$ is a commutative group under the law defined by $(\alpha + \beta)(x) = \alpha(x) + \beta(x)$ ($\alpha, \beta \in \mathbf{Z}^X, x \in X$); the elements of $\mathbf{Z}^X$ are sometimes called multiindices. The identity element, denoted by 0, is the constant mapping with value 0. For $\alpha \in \mathbf{Z}^X$, the set $S_\alpha$ of $x \in X$ such that $\alpha(x) \neq 0$ is called the support of $\alpha$; then $S_0 = \varnothing$ and $S_{\alpha+\beta} \subset S_\alpha \cup S_\beta$ for $\alpha, \beta$ in $\mathbf{Z}^X$. Therefore the set $\mathbf{Z}^{(X)}$ of mappings $\alpha : X \to \mathbf{Z}$ of finite support is a subgroup of $\mathbf{Z}^X$ called the free commutative group constructed on $X$.
 
-For all $ x \in X $, let $ \delta_x $ denote the element of $ \mathbf{Z}^{(X)} $ defined by
+For all $x \in X$, let $\delta_x$ denote the element of $\mathbf{Z}^{(X)}$ defined by
 
 $$
 \delta_x(y) = \begin{cases}
@@ -426,7 +426,7 @@ $$
 \end{cases}
 $$
 
-Also, for $ \alpha \in \mathbf{Z}^{(X)} $, the integer $ |\alpha| $, the length of $ \alpha $ is defined by the formula
+Also, for $\alpha \in \mathbf{Z}^{(X)}$, the integer $|\alpha|$, the length of $\alpha$ is defined by the formula
 
 $$
 |\alpha| = \sum_{x \in X} \alpha(x).
@@ -444,23 +444,23 @@ $$
 |\alpha + \beta| = |\alpha| + |\beta|
 $$
 
-for $ \alpha, \beta $ in $ \mathbf{Z}^{(X)} $ and $ x $ in $ X $.
+for $\alpha, \beta$ in $\mathbf{Z}^{(X)}$ and $x$ in $X$.
 
-The order relation $ \alpha \leq \beta $ is defined in $ \mathbf{Z}^{(X)} $ by $ \alpha(x) \leq \beta(x) $ for all $ x \in X $. The relations $ \alpha \leq \beta $ and $ \alpha' \leq \beta' $ imply $ \alpha + \alpha' \leq \beta + \beta' $, $ |\alpha| \leq |\beta| $ and $ -\alpha \geq -\beta $; further, the relation $ \alpha \leq \beta $ is equivalent to $ \beta - \alpha \geq 0 $. The set of elements $ \alpha \geq 0 $ in $ \mathbf{Z}^{(X)} $ is denoted by $ \mathbf{N}^{(X)} $; it is the set of mappings of $ X $ into $ \mathbf{N} $ of finite support and it is a submonoid of $ \mathbf{Z}^{(X)} $ called the free commutative monoid constructed on $ X $. The elements of length 1 are the minimal elements in $ \mathbf{N}^{(X)} - \{0\} $ and constitute the set of $ \delta_x $ ($ x \in X $).
+The order relation $\alpha \leq \beta$ is defined in $\mathbf{Z}^{(X)}$ by $\alpha(x) \leq \beta(x)$ for all $x \in X$. The relations $\alpha \leq \beta$ and $\alpha' \leq \beta'$ imply $\alpha + \alpha' \leq \beta + \beta'$, $|\alpha| \leq |\beta|$ and $-\alpha \geq -\beta$; further, the relation $\alpha \leq \beta$ is equivalent to $\beta - \alpha \geq 0$. The set of elements $\alpha \geq 0$ in $\mathbf{Z}^{(X)}$ is denoted by $\mathbf{N}^{(X)}$; it is the set of mappings of $X$ into $\mathbf{N}$ of finite support and it is a submonoid of $\mathbf{Z}^{(X)}$ called the free commutative monoid constructed on $X$. The elements of length 1 are the minimal elements in $\mathbf{N}^{(X)} - \{0\}$ and constitute the set of $\delta_x$ ($x \in X$).
 
-The monoid $ \mathbf{N}^{(X)} $ and the group $ \mathbf{Z}^{(X)} $ enjoy the following universal property.
+The monoid $\mathbf{N}^{(X)}$ and the group $\mathbf{Z}^{(X)}$ enjoy the following universal property.
 
 #### Proposition 10 {#alg-i-s7-prop-10 .statement}
 
-*Let M be a commutative monoid (resp. group) and f a mapping of X into M. There exists one and only one homomorphism of $ \mathbf{N}^{(X)} $ (resp. $ \mathbf{Z}^{(X)} $) into M such* that $ g(\delta_x) = f(x) $ for all $ x \in X $. *If M is written additively, then* $ g(\alpha) = \sum_{x \in X} \alpha(x) \cdot f(x) $ for all $ \alpha $ in $ \mathbf{N}^{(X)} $ (resp. $ \mathbf{Z}^{(X)} $).
+*Let M be a commutative monoid (resp. group) and f a mapping of X into M. There exists one and only one homomorphism of $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$) into M such* that $g(\delta_x) = f(x)$ for all $x \in X$. *If M is written additively, then* $g(\alpha) = \sum_{x \in X} \alpha(x) \cdot f(x)$ for all $\alpha$ in $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$).
 
-Let $ g $ be a homomorphism of $ \mathbf{N}^{(X)} $ (resp. $ \mathbf{Z}^{(X)} $) into M such that $ g(\delta_x) = f(x) $ for all $ x \in X $. For all $ \alpha $ in $ \mathbf{N}^{(X)} $ (resp. $ \mathbf{Z}^{(X)} $), it follows from (12) that
+Let $g$ be a homomorphism of $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$) into M such that $g(\delta_x) = f(x)$ for all $x \in X$. For all $\alpha$ in $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$), it follows from (12) that
 $$
 g(\alpha) = \sum_{x \in X} \alpha(x) \cdot g(\delta_x) = \sum_{x \in X} \alpha(x) \cdot f(x),
 $$
-whence the uniqueness of $ g $.
+whence the uniqueness of $g$.
 
-For all $ \alpha $ in $ \mathbf{N}^{(X)} $ (resp. $ \mathbf{Z}^{(X)} $) we write $ g(\alpha) = \sum_{x \in X} \alpha(x) \cdot f(x) $. Then obviously $ g(0) = 0 $; for $ \alpha, \beta $ in $ \mathbf{N}^{(X)} $ (resp. $ \mathbf{Z}^{(X)} $),
+For all $\alpha$ in $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$) we write $g(\alpha) = \sum_{x \in X} \alpha(x) \cdot f(x)$. Then obviously $g(0) = 0$; for $\alpha, \beta$ in $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$),
 $$
 \begin{align*}
 g(\alpha + \beta) &= \sum_{x \in X} (\alpha(x) + \beta(x)) \cdot f(x) \\
@@ -469,19 +469,19 @@ g(\alpha + \beta) &= \sum_{x \in X} (\alpha(x) + \beta(x)) \cdot f(x) \\
 &= g(\alpha) + g(\beta)
 \end{align*}
 $$
-and hence $ g $ is a homomorphism of $ \mathbf{N}^{(X)} $ (resp. $ \mathbf{Z}^{(X)} $) into M. Also, for $ y $ in $ X $,
+and hence $g$ is a homomorphism of $\mathbf{N}^{(X)}$ (resp. $\mathbf{Z}^{(X)}$) into M. Also, for $y$ in $X$,
 $$
 g(\delta_y) = \sum_{x \in X} \delta_y(x) \cdot f(x);
 $$
-now $ \delta_y(x) \cdot f(x) = 0 $ for $ x \neq y $ and $ \delta_y(y) \cdot f(y) = f(y) $, whence $ g(\delta_y) = f(y) $.
+now $\delta_y(x) \cdot f(x) = 0$ for $x \neq y$ and $\delta_y(y) \cdot f(y) = f(y)$, whence $g(\delta_y) = f(y)$.
 
-Let $ u : X \to Y $ be a mapping. By Proposition 10 there exists one and only one homomorphism of $ \mathbf{Z}^{(X)} $ into $ \mathbf{Z}^{(Y)} $ which maps $ \delta_x $ to $ \delta_{u(x)} $ for all $ x \in X $. It is denoted by $ \mathbf{Z}^{(u)} $; it is immediately seen that it maps $ \alpha \in \mathbf{Z}^{(X)} $ to the element $ \beta \in \mathbf{Z}^{(Y)} $ defined by
+Let $u : X \to Y$ be a mapping. By Proposition 10 there exists one and only one homomorphism of $\mathbf{Z}^{(X)}$ into $\mathbf{Z}^{(Y)}$ which maps $\delta_x$ to $\delta_{u(x)}$ for all $x \in X$. It is denoted by $\mathbf{Z}^{(u)}$; it is immediately seen that it maps $\alpha \in \mathbf{Z}^{(X)}$ to the element $\beta \in \mathbf{Z}^{(Y)}$ defined by
 $$
 \beta(y) = \sum_{x \in u^{-1}(y)} \alpha(x).
 $$
-As in the case of magmas (no. 1), the formula $ \mathbf{Z}^{(v \circ u)} = \mathbf{Z}^{(v)} \circ \mathbf{Z}^{(y)} $ is established for every mapping $ v : Y \to Z $; it is also shown that $ \mathbf{Z}^{(u)} $ is injective (resp. surjective, bijective) if $ u $ is.
+As in the case of magmas (no. 1), the formula $\mathbf{Z}^{(v \circ u)} = \mathbf{Z}^{(v)} \circ \mathbf{Z}^{(y)}$ is established for every mapping $v : Y \to Z$; it is also shown that $\mathbf{Z}^{(u)}$ is injective (resp. surjective, bijective) if $u$ is.
 
-Let S be a subset of X; if i is the injection of S into X, the mapping $ f = \mathbf{Z}^{(i)} $ is an isomorphism of $ \mathbf{Z}^{(S)} $ onto the subgroup H of $ \mathbf{Z}^{(X)} $ generated by the elements $ \delta_s $ for $ s \in S $. By (15),
+Let S be a subset of X; if i is the injection of S into X, the mapping $f = \mathbf{Z}^{(i)}$ is an isomorphism of $\mathbf{Z}^{(S)}$ onto the subgroup H of $\mathbf{Z}^{(X)}$ generated by the elements $\delta_s$ for $s \in S$. By (15),
 $$
 (f(\alpha))(x) = \begin{cases}
 \alpha(x) & \text{if } x \in S \\
@@ -489,9 +489,9 @@ $$
 \end{cases}
 $$
 
-and therefore $ H $ is the set of elements of $ \mathbf{Z}^{(X)} $ of support contained in $ S $. Henceforth $ \mathbf{Z}^{(S)} $ will be identified with $ H $ by means of $ f $.
+and therefore $H$ is the set of elements of $\mathbf{Z}^{(X)}$ of support contained in $S$. Henceforth $\mathbf{Z}^{(S)}$ will be identified with $H$ by means of $f$.
 
-Formula (15) shows that the restriction of $ \mathbf{Z}^{(u)} $ to $ \mathbf{N}^{(X)} $ induces a homomorphism $ \mathbf{N}^{(u)} $ of $ \mathbf{N}^{(X)} $ into $ \mathbf{N}^{(Y)} $. Then $ \mathbf{N}^{(v \circ u)} = \mathbf{N}^{(v)} \circ \mathbf{N}^{(u)} $ for every mapping $ v : Y \to Z $; further, $ \mathbf{N}^{(u)} $ is injective (resp. surjective, bijective) if $ u $ is. If $ S $ is a subset of $ X $,
+Formula (15) shows that the restriction of $\mathbf{Z}^{(u)}$ to $\mathbf{N}^{(X)}$ induces a homomorphism $\mathbf{N}^{(u)}$ of $\mathbf{N}^{(X)}$ into $\mathbf{N}^{(Y)}$. Then $\mathbf{N}^{(v \circ u)} = \mathbf{N}^{(v)} \circ \mathbf{N}^{(u)}$ for every mapping $v : Y \to Z$; further, $\mathbf{N}^{(u)}$ is injective (resp. surjective, bijective) if $u$ is. If $S$ is a subset of $X$,
 
 $$
 \mathbf{N}^{(S)} = \mathbf{Z}^{(S)} \cap \mathbf{N}^{(X)}.
@@ -499,17 +499,17 @@ $$
 
 #### Remark {#alg-i-s7-n7-rem-1 .statement}
 
-Let $ M $ be the multiplicative monoid of strictly positive integers and let $ \mathfrak{P} $ be the set of prime numbers (\S 4, no. 10, Definition 15). By Proposition 10 there exists a homomorphism $ u $ of $ \mathbf{N}^{(\mathfrak{P})} $ into $ M $ characterized by $ u(\delta_p) = p $ for every prime number $ p $. Then $ u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)} $ for $ \alpha $ in $ \mathbf{N}^{(\mathfrak{P})} $ and Theorem 7 of \S 4, no. 10 shows that $ u $ is an isomorphism of $ \mathbf{N}^{(\mathfrak{P})} $ onto $ H $.
+Let $M$ be the multiplicative monoid of strictly positive integers and let $\mathfrak{P}$ be the set of prime numbers (\S 4, no. 10, Definition 15). By Proposition 10 there exists a homomorphism $u$ of $\mathbf{N}^{(\mathfrak{P})}$ into $M$ characterized by $u(\delta_p) = p$ for every prime number $p$. Then $u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)}$ for $\alpha$ in $\mathbf{N}^{(\mathfrak{P})}$ and Theorem 7 of \S 4, no. 10 shows that $u$ is an isomorphism of $\mathbf{N}^{(\mathfrak{P})}$ onto $H$.
 
 ### 8. EXPONENTIAL NOTATION
 
-Let $ M $ be a monoid, written multiplicatively, and $ u = (u_x)_{x \in X} $ a family of elements of $ M $, commuting in pairs. Let $ \alpha $ be in $ \mathbf{N}^{(X)} $; the elements $ u_x^{\alpha(x)} $ and $ u_y^{\alpha(y)} $ of $ M $ commute for $ x, y $ in $ X $ and there exists a finite subset $ S $ of $ X $ such that $ u_x^{\alpha(x)} = 1 $ for $ x $ in $ X - S $. We may therefore write:
+Let $M$ be a monoid, written multiplicatively, and $u = (u_x)_{x \in X}$ a family of elements of $M$, commuting in pairs. Let $\alpha$ be in $\mathbf{N}^{(X)}$; the elements $u_x^{\alpha(x)}$ and $u_y^{\alpha(y)}$ of $M$ commute for $x, y$ in $X$ and there exists a finite subset $S$ of $X$ such that $u_x^{\alpha(x)} = 1$ for $x$ in $X - S$. We may therefore write:
 
 $$
 u^\alpha = \prod_{x \in X} u_x^{\alpha(x)}.
 $$
 
-Let $ M' $ be the submonoid of $ M $ generated by the family $ (u_x)_{x \in X} $; it is commutative (\S 1, no. 5, Corollary 2 to Proposition 4). There thus exists (no. 7, Proposition 10) a unique homomorphism $ f $ of $ \mathbf{N}^{(X)} $ into $ M' $ such that $ f(\delta_x) = u_x $ for all $ x \in X $ and $ f(\alpha) = u^\alpha $ for all $ \alpha $ in $ \mathbf{N}^{(X)} $. We deduce the following formulae
+Let $M'$ be the submonoid of $M$ generated by the family $(u_x)_{x \in X}$; it is commutative (\S 1, no. 5, Corollary 2 to Proposition 4). There thus exists (no. 7, Proposition 10) a unique homomorphism $f$ of $\mathbf{N}^{(X)}$ into $M'$ such that $f(\delta_x) = u_x$ for all $x \in X$ and $f(\alpha) = u^\alpha$ for all $\alpha$ in $\mathbf{N}^{(X)}$. We deduce the following formulae
 
 $$
 u^{\alpha + \beta} = u^\alpha . u^\beta
@@ -521,21 +521,21 @@ $$
 u^{\delta_x} = u_x
 $$
 
-for $ \alpha, \beta $ in $ \mathbf{N}^{(X)} $ and $ x $ in $ X $.
+for $\alpha, \beta$ in $\mathbf{N}^{(X)}$ and $x$ in $X$.
 
-Let $ v = (v_x)_{x \in X} $ be another family of elements of $ M $; suppose that $ v_x v_y = v_y v_x $ and $ u_x v_y = v_y u_x $ for $ x, y $ in $ X $. Then there exists (\S 1, no. 5, Corollary 2 to Proposition 4) a commutative submonoid $ L $ of $ M $ such that $ u_x \in L $ and $ v_x \in L $ for all $ x \in X $. The mapping $ \alpha \mapsto u^\alpha . v^\alpha $ of $ \mathbf{N}^{(X)} $ into $ L $ is then a homomorphism (\S 1, no. 5, Proposition 5) mapping $ \delta_x $ to $ u_x . v_x $. Thus we have the formula
+Let $v = (v_x)_{x \in X}$ be another family of elements of $M$; suppose that $v_x v_y = v_y v_x$ and $u_x v_y = v_y u_x$ for $x, y$ in $X$. Then there exists (\S 1, no. 5, Corollary 2 to Proposition 4) a commutative submonoid $L$ of $M$ such that $u_x \in L$ and $v_x \in L$ for all $x \in X$. The mapping $\alpha \mapsto u^\alpha . v^\alpha$ of $\mathbf{N}^{(X)}$ into $L$ is then a homomorphism (\S 1, no. 5, Proposition 5) mapping $\delta_x$ to $u_x . v_x$. Thus we have the formula
 
 $$
 u^\alpha . v^\alpha = (u . v)^\alpha,
 $$
 
-where $ u . v $ is the family $ (u_x . v_x)_{x \in X} $.
+where $u . v$ is the family $(u_x . v_x)_{x \in X}$.
 
-When M is commutative, $ u^\alpha $ can be defined for every family $ u $ of elements of M and formulae (15) to (20) hold without restriction.
+When M is commutative, $u^\alpha$ can be defined for every family $u$ of elements of M and formulae (15) to (20) hold without restriction.
 
 ### 9. RELATIONS BETWEEN THE VARIOUS FREE OBJECTS
 
-As the free monoid Mo(X) is a magma, Proposition 1, of no. 1 shows the existence of a homomorphism $ \lambda : M(X) \to Mo(X) $ whose restriction to X is the identity. Similarly, as the free group F(X) is a monoid the identity mapping of X extends to a homomorphism $ \mu : Mo(X) \to F(X) $ (no. 2, Proposition 3). By no. 4, Proposition 6 and no. 5, Proposition 7, $ \mu $ is injective. Similarly Proposition 10 of no. 7 and Proposition 8 of no. 5 show the existence of homomorphisms $ \nu : Mo(X) \to N^{(X)} $ and $ \pi : F(X) \to Z^{(X)} $ characterized by $ \nu(x) = \delta_x $ and $ \pi(x) = \delta_x $ for all $ x \in X $. If $ i $ is the injection of $ N^{(X)} $ into $ Z^{(X)} $, the two homomorphisms $ i \circ \nu $ and $ \pi \circ \mu $ of Mo(X) into $ Z^{(X)} $ coincide on X, whence $ i \circ \nu = \pi \circ \mu $. The situation may be summarized by the following commutative diagram:
+As the free monoid Mo(X) is a magma, Proposition 1, of no. 1 shows the existence of a homomorphism $\lambda : M(X) \to Mo(X)$ whose restriction to X is the identity. Similarly, as the free group F(X) is a monoid the identity mapping of X extends to a homomorphism $\mu : Mo(X) \to F(X)$ (no. 2, Proposition 3). By no. 4, Proposition 6 and no. 5, Proposition 7, $\mu$ is injective. Similarly Proposition 10 of no. 7 and Proposition 8 of no. 5 show the existence of homomorphisms $\nu : Mo(X) \to N^{(X)}$ and $\pi : F(X) \to Z^{(X)}$ characterized by $\nu(x) = \delta_x$ and $\pi(x) = \delta_x$ for all $x \in X$. If $i$ is the injection of $N^{(X)}$ into $Z^{(X)}$, the two homomorphisms $i \circ \nu$ and $\pi \circ \mu$ of Mo(X) into $Z^{(X)}$ coincide on X, whence $i \circ \nu = \pi \circ \mu$. The situation may be summarized by the following commutative diagram:
 
 $$
 \begin{array}{ccc}
@@ -545,14 +545,14 @@ M(X) & \xrightarrow{\lambda} & Mo(X) \\
 \end{array}
 $$
 
-The homomorphisms $ \lambda, \mu, \nu $ and $ \pi $ will be called canonical.
+The homomorphisms $\lambda, \mu, \nu$ and $\pi$ will be called canonical.
 
-Let w be in M(X); it is immediately shown by induction on $ l(w) $ that the length of the word $ \lambda(w) $ is equal to that of w. Moreover
+Let w be in M(X); it is immediately shown by induction on $l(w)$ that the length of the word $\lambda(w)$ is equal to that of w. Moreover
 
 $$
 \nu(x_1 \ldots x_n) = \sum_{i=1}^n \delta_{x_i}
 $$
-for $ x_1, \ldots, x_n $ in X, whence $ |\nu(x_1 \ldots x_n)| = n $ by (13) and (14). In other words,
+for $x_1, \ldots, x_n$ in X, whence $|\nu(x_1 \ldots x_n)| = n$ by (13) and (14). In other words,
 
 $$
 |\nu(u)| = l(u) \quad (u \in Mo(X)).
@@ -560,11 +560,11 @@ $$
 
 #### Proposition 11 {#alg-i-s7-prop-11 .statement}
 
-*The canonical homomorphism $ \nu $ of Mo(X) into $ N^{(X)} $ is surjective.* Let $ w = x_1 \ldots x_n $ and $ w' = x'_1 \ldots x'_m $ be two elements of Mo(X); in order that $ \nu(w) = \nu(w') $, it is necessary and sufficient that $ m = n $ and that there exist a permutation $ \sigma \in S_n $ with $ x'_i = x_{\sigma(i)} $ for $ 1 \leq i \leq n $.
+*The canonical homomorphism $\nu$ of Mo(X) into $N^{(X)}$ is surjective.* Let $w = x_1 \ldots x_n$ and $w' = x'_1 \ldots x'_m$ be two elements of Mo(X); in order that $\nu(w) = \nu(w')$, it is necessary and sufficient that $m = n$ and that there exist a permutation $\sigma \in S_n$ with $x'_i = x_{\sigma(i)}$ for $1 \leq i \leq n$.
 
-The image of $ \nu $ is a submonoid I of $ N^{(X)} $ containing the elements $ \delta_x $ (for $ x \in X $). Formula (12) (no. 7) shows that $ N^{(X)} $ is generated by the family $ (\delta_x)_{x \in X} $, where $ I = N^{(X)} $. Therefore $ \nu $ is surjective.
+The image of $\nu$ is a submonoid I of $N^{(X)}$ containing the elements $\delta_x$ (for $x \in X$). Formula (12) (no. 7) shows that $N^{(X)}$ is generated by the family $(\delta_x)_{x \in X}$, where $I = N^{(X)}$. Therefore $\nu$ is surjective.
 
-If $ m = n $ and $ x'_i = x_{\sigma(i)} $ for $ 1 \leq i \leq n $, then
+If $m = n$ and $x'_i = x_{\sigma(i)}$ for $1 \leq i \leq n$, then
 
 $$
 \nu(w') = \sum_{i=1}^n \delta_{x'_i} = \sum_{i=1}^n \delta_{x_{\sigma(i)}} = \sum_{i=1}^n \delta_{x_i} = \nu(w)
@@ -572,23 +572,23 @@ $$
 
 by formula (21) and the commutativity theorem (§ 1, no. 5, Theorem 2).
 
-Conversely, suppose that $ v(w) $ and $ v(w') $ are equal to the same element $ \alpha $ of $ \mathbf{N}^{(X)} $; by formula (22), $ n = |\alpha| = m $. For all $ x \in X $, let $ I_x $ (resp. $ I'_x $) be the set of integers $ i $ such that $ 1 \leq i \leq n $ and $ x_i = x $ (resp. $ x'_i = x $). Hence $ (I_x)_{x \in X} $ and $ (I'_x)_{x \in X} $ are partitions of the interval $ [1, n] $ of $ \mathbf{N} $; further, the formula
+Conversely, suppose that $v(w)$ and $v(w')$ are equal to the same element $\alpha$ of $\mathbf{N}^{(X)}$; by formula (22), $n = |\alpha| = m$. For all $x \in X$, let $I_x$ (resp. $I'_x$) be the set of integers $i$ such that $1 \leq i \leq n$ and $x_i = x$ (resp. $x'_i = x$). Hence $(I_x)_{x \in X}$ and $(I'_x)_{x \in X}$ are partitions of the interval $[1, n]$ of $\mathbf{N}$; further, the formula
 $$
 \alpha = \sum_{i=1}^n \delta_{x_i}
 $$
-shows that $ \alpha(x) $ is the cardinal of $ I_x $; similarly the formula
+shows that $\alpha(x)$ is the cardinal of $I_x$; similarly the formula
 $$
 \alpha = \sum_{i=1}^n \delta_{x'_i}
 $$
-shows that $ \alpha(x) $ is the cardinal of $ I'_x $. There thus exists a permutation $ \sigma $ of $ [1, n] $ such that $ \sigma(I'_x) = I_x $ for all $ x \in X $, that is $ x'_i = x_{\sigma(i)} $ for $ i = 1, \ldots, n $.
+shows that $\alpha(x)$ is the cardinal of $I'_x$. There thus exists a permutation $\sigma$ of $[1, n]$ such that $\sigma(I'_x) = I_x$ for all $x \in X$, that is $x'_i = x_{\sigma(i)}$ for $i = 1, \ldots, n$.
 
 #### Remark {#alg-i-s7-n9-rem-1 .statement}
 
-Let $ S $ be a subset of $ X $. Recall that we have identified $ M(S) $ with a submagma of $ M(X) $, $ Mo(S) $ with a submonoid of $ Mo(X) $ and $ N^{(S)} $ with a submonoid of $ N^{(X)} $. Then
+Let $S$ be a subset of $X$. Recall that we have identified $M(S)$ with a submagma of $M(X)$, $Mo(S)$ with a submonoid of $Mo(X)$ and $N^{(S)}$ with a submonoid of $N^{(X)}$. Then
 $$
 M(S) = \lambda^{-1}(Mo(S)).
 $$
-Clearly $ \lambda(M(S)) \subset Mo(S) $. Let $ w \in \lambda^{-1}(Mo(S)) $; we show by induction on $ l(w) $ that $ w \in M(S) $. It is obvious if $ l(w) = 1 $. If $ l(w) > 1 $, we may write $ w = w_1 w_2 $ with $ w_1, w_2 \in M(X) $, $ l(w_1) < l(w) $, $ l(w_2) < l(w) $. Then $ \lambda(w_1) \lambda(w_2) \in Mo(S) $, hence $ \lambda(w_1) \in Mo(S) $ and $ \lambda(w_2) \in Mo(S) $, whence $ w_1 \in M(S) $ and $ w_2 \in M(S) $ by the induction hypothesis and finally $ w \in M(S) $.
+Clearly $\lambda(M(S)) \subset Mo(S)$. Let $w \in \lambda^{-1}(Mo(S))$; we show by induction on $l(w)$ that $w \in M(S)$. It is obvious if $l(w) = 1$. If $l(w) > 1$, we may write $w = w_1 w_2$ with $w_1, w_2 \in M(X)$, $l(w_1) < l(w)$, $l(w_2) < l(w)$. Then $\lambda(w_1) \lambda(w_2) \in Mo(S)$, hence $\lambda(w_1) \in Mo(S)$ and $\lambda(w_2) \in Mo(S)$, whence $w_1 \in M(S)$ and $w_2 \in M(S)$ by the induction hypothesis and finally $w \in M(S)$.
 
 Also
 $$
@@ -596,7 +596,7 @@ Mo(S) = v^{-1}(N^{(S)}).
 $$
 This follows immediately from formula (21).
 
-Further, $ N^{(S)} $ is the set of elements of $ N^{(X)} $ whose support is contained in $ S $; if $ (S_i)_{i \in I} $ is a family of subsets of $ X $ of intersection $ S $, then $ N^{(S)} = \bigcap_{i \in I} N^{(S_i)} $ and formulae (23) and (24) imply
+Further, $N^{(S)}$ is the set of elements of $N^{(X)}$ whose support is contained in $S$; if $(S_i)_{i \in I}$ is a family of subsets of $X$ of intersection $S$, then $N^{(S)} = \bigcap_{i \in I} N^{(S_i)}$ and formulae (23) and (24) imply
 $$
 M(S) = \bigcap_{i \in I} M(S_i), \quad Mo(S) = \bigcap_{i \in I} Mo(S_i).
 $$

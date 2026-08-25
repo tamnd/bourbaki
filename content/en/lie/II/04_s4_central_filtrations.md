@@ -36,7 +36,7 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 5e03da9e1230e76177507d2fcb775069fa5151b82031b069b6376a8f9a97c222
+content_sha256: 0a51b2a1c75cc3eaf5249167c29ed52ef77294649dfee5b5f823950865264f4b
 ---
 
 ## § 4. CENTRAL FILTRATIONS
@@ -45,28 +45,28 @@ content_sha256: 5e03da9e1230e76177507d2fcb775069fa5151b82031b069b6376a8f9a97c222
 
 #### Definition 1 {#lie-ii-s4-def-1 .statement}
 
-Let $ G $ be a group. A real filtration on $ G $ is a family $ (G_\alpha)_{\alpha \in \mathbf{R}} $ of subgroups of $ G $ such that
+Let $G$ be a group. A real filtration on $G$ is a family $(G_\alpha)_{\alpha \in \mathbf{R}}$ of subgroups of $G$ such that
 $$
 G_\alpha = \bigcap_{\beta < \alpha} G_\beta \quad \text{for all } \alpha \in \mathbf{R}.
 $$
 
-Formula (1) implies $ G_\alpha \subset G_\beta $ for $ \beta < \alpha $ and hence the family $ (G_\alpha) $ is *decreasing*. The filtration $ (G_\alpha) $ is called *separated* if $ \bigcap_\alpha G_\alpha $ reduces to the identity element and is called *exhaustive* if $ G = \bigcup_\alpha G_\alpha $.
+Formula (1) implies $G_\alpha \subset G_\beta$ for $\beta < \alpha$ and hence the family $(G_\alpha)$ is *decreasing*. The filtration $(G_\alpha)$ is called *separated* if $\bigcap_\alpha G_\alpha$ reduces to the identity element and is called *exhaustive* if $G = \bigcup_\alpha G_\alpha$.
 
 #### Remark {#lie-ii-s4-n1-rem-1 .statement}
 
-Let $ (G_n)_{n \in \mathbf{Z}} $ be a decreasing sequence of subgroups of $ G $. It is a decreasing filtration in the sense of *Commutative Algebra*, Chapter III, § 2, no. 1, Definition 1. For every integer $ n $ and all $ \alpha $ in the interval $ ]n-1, n] $ of $ \mathbf{R} $, we write $ H_\alpha = G_n $, in particular $ H_n = G_n $. It is immediate that we thus obtain a real filtration $ (H_\alpha)_{\alpha \in \mathbf{R}} $ on $ G $; such a filtration will be called an *integral filtration*. Hence decreasing filtrations in the sense of *Commutative Algebra*, Chapter III, § 2, can be identified with integral filtrations.
+Let $(G_n)_{n \in \mathbf{Z}}$ be a decreasing sequence of subgroups of $G$. It is a decreasing filtration in the sense of *Commutative Algebra*, Chapter III, § 2, no. 1, Definition 1. For every integer $n$ and all $\alpha$ in the interval $]n-1, n]$ of $\mathbf{R}$, we write $H_\alpha = G_n$, in particular $H_n = G_n$. It is immediate that we thus obtain a real filtration $(H_\alpha)_{\alpha \in \mathbf{R}}$ on $G$; such a filtration will be called an *integral filtration*. Hence decreasing filtrations in the sense of *Commutative Algebra*, Chapter III, § 2, can be identified with integral filtrations.
 
-Let $ A $ be an algebra; a real filtration $ (A_\alpha) $ on the additive group of $ A $ is called compatible with the algebra structure if $ A_\alpha . A_\beta \subset A_{\alpha + \beta} $ for $ \alpha, \beta $ in $ \mathbf{R} $ and $ K . A_\alpha \subset A_\alpha $ for $ \alpha \in \mathbf{R} $. If the filtration is exhaustive, $ (A_\alpha) $ is a fundamental system of neighbourhoods of 0 under the topology on $ A $ which is compatible with the algebra structure. Let $ B $ be a unital algebra; a real filtration $ (B_\alpha) $ on the additive group of $ B $ is called compatible with the unital algebra structure if it is compatible with the algebra structure and $ 1 \in B_0 $.
+Let $A$ be an algebra; a real filtration $(A_\alpha)$ on the additive group of $A$ is called compatible with the algebra structure if $A_\alpha . A_\beta \subset A_{\alpha + \beta}$ for $\alpha, \beta$ in $\mathbf{R}$ and $K . A_\alpha \subset A_\alpha$ for $\alpha \in \mathbf{R}$. If the filtration is exhaustive, $(A_\alpha)$ is a fundamental system of neighbourhoods of 0 under the topology on $A$ which is compatible with the algebra structure. Let $B$ be a unital algebra; a real filtration $(B_\alpha)$ on the additive group of $B$ is called compatible with the unital algebra structure if it is compatible with the algebra structure and $1 \in B_0$.
 
 ### 2. ORDER FUNCTION
 
-Let $ G $ be a group with identity element $ e $. Let $ (G_\alpha) $ be a real filtration on $ G $. For all $ x $ in $ G $ let $ I_x $ denote the set of real numbers $ \alpha $ such that $ x \in G_\alpha $. If $ \alpha \in I_x $ and $ \beta < \alpha $, then $ \beta \in I_x $ and hence $ I_x $ is an interval (*General Topology*, Chapter IV, § 2, no. 4, Proposition 1). Using relation (1), we see that $ I_x $ contains its least upper bound when this is finite. Therefore $ I_x $ is of the form $ ]-\infty, v(x)] \cap \mathbf{R} $ with $ v(x) \in \overline{\mathbf{R}} $; we have $ v(x) = \sup \{ \alpha \mid x \in G_\alpha \} $.
+Let $G$ be a group with identity element $e$. Let $(G_\alpha)$ be a real filtration on $G$. For all $x$ in $G$ let $I_x$ denote the set of real numbers $\alpha$ such that $x \in G_\alpha$. If $\alpha \in I_x$ and $\beta < \alpha$, then $\beta \in I_x$ and hence $I_x$ is an interval (*General Topology*, Chapter IV, § 2, no. 4, Proposition 1). Using relation (1), we see that $I_x$ contains its least upper bound when this is finite. Therefore $I_x$ is of the form $]-\infty, v(x)] \cap \mathbf{R}$ with $v(x) \in \overline{\mathbf{R}}$; we have $v(x) = \sup \{ \alpha \mid x \in G_\alpha \}$.
 
-The mapping $ v $ of $ G $ into $ \overline{\mathbf{R}} $ is called the *order function* associated with the real filtration $ (G_\alpha) $ and $ v(x) $ is called the *order* of $ x $. This mapping has the following properties:
+The mapping $v$ of $G$ into $\overline{\mathbf{R}}$ is called the *order function* associated with the real filtration $(G_\alpha)$ and $v(x)$ is called the *order* of $x$. This mapping has the following properties:
 
-(a) *For $ x \in G $ and $ \alpha \in \mathbf{R} $, the relations $ x \in G_\alpha $ and $ v(x) \geq \alpha $ are equivalent.*
+(a) *For $x \in G$ and $\alpha \in \mathbf{R}$, the relations $x \in G_\alpha$ and $v(x) \geq \alpha$ are equivalent.*
 
-(b) *For $ x, y $ in $ G $,*
+(b) *For $x, y$ in $G$,*
 $$
 v(x^{-1}) = v(x), \qquad v(e) = +\infty.
 $$
@@ -74,11 +74,11 @@ $$
 v(xy) \geq \inf(v(x), v(y)).
 $$
 
-*Further, we have equality in (3) if $ v(x) > v(y) $.*
+*Further, we have equality in (3) if $v(x) > v(y)$.*
 
-(c) *For all $ \alpha \in \mathbf{R} $, let $ G_\alpha^+ $ denote the set of $ x \in G $ such that $ v(x) > \alpha $. Then $ G_\alpha^+ = \bigcup_{\beta > \alpha} G_\beta $ and in particular $ G_\alpha^+ $ is a subgroup of $ G $.*
+(c) *For all $\alpha \in \mathbf{R}$, let $G_\alpha^+$ denote the set of $x \in G$ such that $v(x) > \alpha$. Then $G_\alpha^+ = \bigcup_{\beta > \alpha} G_\beta$ and in particular $G_\alpha^+$ is a subgroup of $G$.*
 
-Conversely, let $ v $ be a mapping of $ G $ into $ \overline{\mathbf{R}} $ satisfying relations (2) and (3). For all $ \alpha \in \mathbf{R} $, let $ G_\alpha $ be the set of $ x \in G $ such that $ v(x) \geq \alpha $. Then $ (G_\alpha)_{\alpha \in \mathbf{R}} $ is a real filtration of $ G $ and $ v $ is the order function associated with this filtration.
+Conversely, let $v$ be a mapping of $G$ into $\overline{\mathbf{R}}$ satisfying relations (2) and (3). For all $\alpha \in \mathbf{R}$, let $G_\alpha$ be the set of $x \in G$ such that $v(x) \geq \alpha$. Then $(G_\alpha)_{\alpha \in \mathbf{R}}$ is a real filtration of $G$ and $v$ is the order function associated with this filtration.
 
 For the filtration $(G_\alpha)$ to be integral, it is necessary and sufficient that $v$ map $G$ into $\mathbf{Z} \cup \{+\infty, -\infty\}$. For it to be exhaustive (resp. separated), it is necessary and sufficient that $-v^{-1}(-\infty) = \varnothing$ (resp. $-v^{-1}(+\infty) = \{\epsilon\}$.
 
@@ -132,29 +132,29 @@ $$
 \operatorname{gr}_\alpha(A) \times \operatorname{gr}_\beta(A) \to \operatorname{gr}_{\alpha + \beta}(A).
 $$
 
-We derive a bilinear mapping of gr(A) × gr(A) into gr(A) which makes it a graded algebra (resp. unital graded algebra) of type $ \mathbf{R} $. If A is an associative (resp. commutative, resp. Lie) algebra, so is gr(A).
+We derive a bilinear mapping of gr(A) × gr(A) into gr(A) which makes it a graded algebra (resp. unital graded algebra) of type $\mathbf{R}$. If A is an associative (resp. commutative, resp. Lie) algebra, so is gr(A).
 
 ### 4. CENTRAL FILTRATIONS ON A GROUP
 
 #### Definition 2 {#lie-ii-s4-def-2 .statement}
 
-Let G be a group. A real filtration $ (G_\alpha) $ on G is called central if $ G = \bigcup_{\alpha > 0} G_\alpha $ and the commutator $ (x, y) = x^{-1}y^{-1}xy $ of an element x of $ G_\alpha $ and an element y of $ G_\beta $ belongs to $ G_{\alpha + \beta} $.
+Let G be a group. A real filtration $(G_\alpha)$ on G is called central if $G = \bigcup_{\alpha > 0} G_\alpha$ and the commutator $(x, y) = x^{-1}y^{-1}xy$ of an element x of $G_\alpha$ and an element y of $G_\beta$ belongs to $G_{\alpha + \beta}$.
 
 In terms of the order function v, the above definition translates into the relations
 $$
 v(x) > 0, \quad v((x, y)) \geq v(x) + v(y) \quad \text{for all } x, y \text{ in } G.
 $$
-We deduce that $ v((x, y)) > v(x) $ if $ v(x) \neq +\infty $; if we write $ x^y = y^{-1}xy $ (cf. Algebra, Chapter I, § 6, no. 2), then $ x^y = x.(x, y) $, whence
+We deduce that $v((x, y)) > v(x)$ if $v(x) \neq +\infty$; if we write $x^y = y^{-1}xy$ (cf. Algebra, Chapter I, § 6, no. 2), then $x^y = x.(x, y)$, whence
 $$
 v(x^y) = v(x).
 $$
-This relation expresses the fact that each of the subgroups $ G_\alpha $ of G is normal. The $ G_\alpha $ form a fundamental system of neighbourhoods of e for a topology compatible with the group structure on G (General Topology, Chapter III, § 1, no. 2, Example) said to be defined by the filtration $ (G_\alpha) $.
+This relation expresses the fact that each of the subgroups $G_\alpha$ of G is normal. The $G_\alpha$ form a fundamental system of neighbourhoods of e for a topology compatible with the group structure on G (General Topology, Chapter III, § 1, no. 2, Example) said to be defined by the filtration $(G_\alpha)$.
 
-In the rest of this no., G denotes a group with a central filtration $ (G_\alpha) $. For all $ \alpha \in \mathbf{R} $, we define the subgroup $ G_\alpha^+ $ of G by
+In the rest of this no., G denotes a group with a central filtration $(G_\alpha)$. For all $\alpha \in \mathbf{R}$, we define the subgroup $G_\alpha^+$ of G by
 $$
 G_\alpha^+ = \bigcup_{\beta > \alpha} G_\beta.
 $$
-In particular $ G_\alpha^+ = G_\alpha = G $ for $ \alpha \leq 0 $. Recall that if A and B are two subgroups of G, (A, B) denotes the subgroup of G generated by the commutators $ (a, b) $ with $ a \in A $ and $ b \in B $. With this notation we have the formulae
+In particular $G_\alpha^+ = G_\alpha = G$ for $\alpha \leq 0$. Recall that if A and B are two subgroups of G, (A, B) denotes the subgroup of G generated by the commutators $(a, b)$ with $a \in A$ and $b \in B$. With this notation we have the formulae
 $$
 (G_\alpha, G_\beta) \subset G_{\alpha + \beta}
 $$
@@ -164,11 +164,11 @@ $$
 $$
 (G, G_\alpha) \subset G_\alpha^+.
 $$
-By (14), $ G_\alpha^+ $ is a normal subgroup of $ G_\alpha $ for all $ \alpha \in \mathbf{R} $ and the quotient group $ \mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+ $ is commutative. We write $ \mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G) $ and give this group the graduation of type $ \mathbf{R} $ in which $ \mathrm{gr}_\alpha(G) $ consists of elements of degree $ \alpha $. Then $ \mathrm{gr}_\alpha(G) = \{0\} $ for $ \alpha \leq 0 $.
+By (14), $G_\alpha^+$ is a normal subgroup of $G_\alpha$ for all $\alpha \in \mathbf{R}$ and the quotient group $\mathrm{gr}_\alpha(G) = G_\alpha / G_\alpha^+$ is commutative. We write $\mathrm{gr}(G) = \bigoplus_{\alpha \in \mathbf{R}} \mathrm{gr}_\alpha(G)$ and give this group the graduation of type $\mathbf{R}$ in which $\mathrm{gr}_\alpha(G)$ consists of elements of degree $\alpha$. Then $\mathrm{gr}_\alpha(G) = \{0\}$ for $\alpha \leq 0$.
 
 #### Proposition 1 {#lie-ii-s4-prop-1 .statement}
 
-(i) Let $ \alpha, \beta $ be in $ \mathbf{R} $. There exists a biadditive mapping
+(i) Let $\alpha, \beta$ be in $\mathbf{R}$. There exists a biadditive mapping
 $$
 \phi_{\alpha \beta} : \mathrm{gr}_\alpha(G) \times \mathrm{gr}_\beta(G) \to \mathrm{gr}_{\alpha + \beta}(G)
 $$
@@ -209,34 +209,34 @@ The Lie algebra $\mathrm{gr}(G)$ over $\mathbf{Z}$ defined in Proposition 1 is c
 
 ### 5. AN EXAMPLE OF A CENTRAL FILTRATION
 
-Let $ A $ be a unital associative algebra with a unital algebra filtration $ (A_\alpha) $ such that $ A_0 = A $; then $ A_\alpha $ is a two-sided ideal of $ A $ for all $ \alpha \in \mathbf{R} $. Let $ A^* $ denote the multiplicative group of invertible elements of $ A $. For all $ \alpha > 0 $, let $ \Gamma_\alpha $ denote the set of $ x \in A^* $ such that $ x - 1 \in A_\alpha $; we write $ \Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha $ and $ \Gamma_\beta = \Gamma $ for $ \beta \leq 0 $.
+Let $A$ be a unital associative algebra with a unital algebra filtration $(A_\alpha)$ such that $A_0 = A$; then $A_\alpha$ is a two-sided ideal of $A$ for all $\alpha \in \mathbf{R}$. Let $A^*$ denote the multiplicative group of invertible elements of $A$. For all $\alpha > 0$, let $\Gamma_\alpha$ denote the set of $x \in A^*$ such that $x - 1 \in A_\alpha$; we write $\Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha$ and $\Gamma_\beta = \Gamma$ for $\beta \leq 0$.
 
 #### Proposition 2 {#lie-ii-s4-prop-2 .statement}
 
-*The set $ \Gamma $ is a subgroup of $ A^* $ and $ (\Gamma_\alpha) $ is a central filtration on $ \Gamma $.*
+*The set $\Gamma$ is a subgroup of $A^*$ and $(\Gamma_\alpha)$ is a central filtration on $\Gamma$.*
 
-$ \Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha $ by construction and the relation $ \Gamma_\alpha = \bigcap_{\beta < \alpha} \Gamma_\beta $ follows from $ A_\alpha = \bigcap_{\beta < \alpha} A_\beta $.
+$\Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha$ by construction and the relation $\Gamma_\alpha = \bigcap_{\beta < \alpha} \Gamma_\beta$ follows from $A_\alpha = \bigcap_{\beta < \alpha} A_\beta$.
 
-We show that $ \Gamma_\alpha $ is a subgroup of $ A^* $. Now $ 1 \in \Gamma_\alpha $; let $ x, y $ be in $ \Gamma_\alpha $, whence $ x - 1 \in A_\alpha, y - 1 \in A_\alpha $. As $ A_\alpha $ is a two-sided ideal of $ A $, the formulae
+We show that $\Gamma_\alpha$ is a subgroup of $A^*$. Now $1 \in \Gamma_\alpha$; let $x, y$ be in $\Gamma_\alpha$, whence $x - 1 \in A_\alpha, y - 1 \in A_\alpha$. As $A_\alpha$ is a two-sided ideal of $A$, the formulae
 $$
 (21) \quad xy - 1 = (x - 1)(y - 1) + (x - 1) + (y - 1),
 $$
 $$
 (22) \quad x^{-1} - 1 = -x^{-1}(x - 1),
 $$
-imply $ xy - 1 \in A_\alpha $ and $ x^{-1} - 1 \in A_\alpha $, whence $ xy \in \Gamma_\alpha $ and $ x^{-1} \in \Gamma_\alpha $.
+imply $xy - 1 \in A_\alpha$ and $x^{-1} - 1 \in A_\alpha$, whence $xy \in \Gamma_\alpha$ and $x^{-1} \in \Gamma_\alpha$.
 
-As $ \Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha $, this is a subgroup of $ A^* $.
+As $\Gamma = \bigcup_{\alpha > 0} \Gamma_\alpha$, this is a subgroup of $A^*$.
 
-Finally let $ \alpha > 0, \beta > 0, x \in \Gamma_\alpha $ and $ y \in \Gamma_\beta $. Let $ x - 1 = \xi $ and $ y - 1 = \eta $. Then
+Finally let $\alpha > 0, \beta > 0, x \in \Gamma_\alpha$ and $y \in \Gamma_\beta$. Let $x - 1 = \xi$ and $y - 1 = \eta$. Then
 $$
 (23) \quad (x, y) - 1 = x^{-1}y^{-1}(\xi \eta - \eta \xi);
 $$
-by hypothesis, $ \xi \in A_\alpha $ and $ \eta \in A_\beta $, whence $ \xi \eta - \eta \xi \in A_{\alpha + \beta} $. As $ A_{\alpha + \beta} $ is a two-sided ideal of $ A $, $ (x, y) - 1 \in A_{\alpha + \beta} $, whence $ (x, y) \in \Gamma_{\alpha + \beta} $.
+by hypothesis, $\xi \in A_\alpha$ and $\eta \in A_\beta$, whence $\xi \eta - \eta \xi \in A_{\alpha + \beta}$. As $A_{\alpha + \beta}$ is a two-sided ideal of $A$, $(x, y) - 1 \in A_{\alpha + \beta}$, whence $(x, y) \in \Gamma_{\alpha + \beta}$.
 
 #### Remark {#lie-ii-s4-n5-rem-1 .statement}
 
-Let $ \alpha \geq 0, \beta \geq 0 $ and $ x \in \Gamma_\alpha, y \in \Gamma_\beta $. By formulae (21), (22) and (23),
+Let $\alpha \geq 0, \beta \geq 0$ and $x \in \Gamma_\alpha, y \in \Gamma_\beta$. By formulae (21), (22) and (23),
 $$
 (24) \quad x^{-1} - 1 \equiv -(x - 1) \pmod{A_{2\alpha}}
 $$
@@ -247,17 +247,17 @@ $$
 (26) \quad (x, y) - 1 \equiv [(x - 1), (y - 1)] \pmod{A_{\alpha + \beta + \inf(\alpha, \beta)}}.
 $$
 
-We prove for example (26). If $ x - 1 = \xi $ and $ y - 1 = \eta $, (23) gives:
+We prove for example (26). If $x - 1 = \xi$ and $y - 1 = \eta$, (23) gives:
 $$
 (x, y) - 1 - [\xi, \eta] = ((x^{-1} - 1) + (y^{-1} - 1) + (x^{-1} - 1)(y^{-1} - 1))[\xi, \eta].
 $$
-Now $ [\xi, \eta] \in A_{\alpha + \beta} $, $ (x^{-1} - 1) \in A_\alpha $, $ (y^{-1} - 1) \in A_\beta $, whence we obtain (26).
+Now $[\xi, \eta] \in A_{\alpha + \beta}$, $(x^{-1} - 1) \in A_\alpha$, $(y^{-1} - 1) \in A_\beta$, whence we obtain (26).
 
-Let $ G $ be a group and $ \rho : G \to \Gamma $ a homomorphism. For all real $ \alpha $, we write $ G_\alpha = \rho^{-1}(\Gamma_\alpha) $. As $ (\Gamma_\alpha) $ is a central filtration on $ \Gamma $, it is immediate that $ (G_\alpha) $ is a central filtration on $ G $.
+Let $G$ be a group and $\rho : G \to \Gamma$ a homomorphism. For all real $\alpha$, we write $G_\alpha = \rho^{-1}(\Gamma_\alpha)$. As $(\Gamma_\alpha)$ is a central filtration on $\Gamma$, it is immediate that $(G_\alpha)$ is a central filtration on $G$.
 
 #### Proposition 3 {#lie-ii-s4-prop-3 .statement}
 
-(i) *For all $ \alpha \in \mathbf{R} $, there exists a unique group homomorphism $ g_\alpha : \mathrm{gr}_\alpha(G) \to \mathrm{gr}_\alpha(A) $ which maps the class modulo $ G_\alpha^+ $ of an element $ a \in G_\alpha $ to the class modulo $ A_\alpha^+ $ of $ \rho(a) - 1 $.*
+(i) *For all $\alpha \in \mathbf{R}$, there exists a unique group homomorphism $g_\alpha : \mathrm{gr}_\alpha(G) \to \mathrm{gr}_\alpha(A)$ which maps the class modulo $G_\alpha^+$ of an element $a \in G_\alpha$ to the class modulo $A_\alpha^+$ of $\rho(a) - 1$.*
 
 (ii) Let g be the group homomorphism of gr(G) into gr(A) whose restriction to gr_\alpha(G) is g_\alpha for all \alpha. The mapping g is an injective homomorphism of Lie \mathbf{Z}-algebras.
 
@@ -307,9 +307,9 @@ $$
 
 #### Proposition 5 {#lie-ii-s4-prop-5 .statement}
 
-Let G be a group and gr(G) the graded Lie $ \mathbf{Z} $-algebra associated with the lower central filtration on G. Then gr(G) is generated by $ \mathrm{gr}_1(G) = G/(G, G) $.
+Let G be a group and gr(G) the graded Lie $\mathbf{Z}$-algebra associated with the lower central filtration on G. Then gr(G) is generated by $\mathrm{gr}_1(G) = G/(G, G)$.
 
-Let L be the Lie subalgebra of gr(G) generated by $ \mathrm{gr}_1(G) $; we show that $ L \supset \mathrm{gr}_n(G) $ by induction on n, the assertion being trivial for $ n = 1 $. Suppose that $ n > 1 $ and $ L \supset \mathrm{gr}_{n-1}(G) $. As $ C^nG = (G, C^{n-1}G) $, the construction of the Lie algebra law on gr(G) shows immediately that
+Let L be the Lie subalgebra of gr(G) generated by $\mathrm{gr}_1(G)$; we show that $L \supset \mathrm{gr}_n(G)$ by induction on n, the assertion being trivial for $n = 1$. Suppose that $n > 1$ and $L \supset \mathrm{gr}_{n-1}(G)$. As $C^nG = (G, C^{n-1}G)$, the construction of the Lie algebra law on gr(G) shows immediately that
 
 $$
 \mathrm{gr}_n(G) = [\mathrm{gr}_1(G), \mathrm{gr}_{n-1}(G)] \subset L.
@@ -323,7 +323,7 @@ $$
 
 #### Remark {#lie-ii-s4-n6-rem-1 .statement}
 
-Let k be a ring, n an integer $ > 0 $ and A the set of lower triangular matrices with n rows and n columns and elements in k. For $ p \geq 0 $, let $ A_p $ be the set of $ (x_{ij}) \in A $ such that $ x_{ij} = 0 $ for $ i - j < p $. Then $ A_0 = A $ and $ A_pA_q \subset A_{p+q} $. Let $ \Gamma_p = 1 + A_p $. Then $ \Gamma_1 $ is a subgroup of $ \mathbf{GL}(n, k) $ called the strict lower triangular group of order n over k. By Proposition 2 of no. 5, $ (\Gamma_p) $ is an integral filtration on $ \Gamma_1 $. As $ \Gamma_n = \{1\} $, we see that the group $ \Gamma_1 $ is nilpotent (Algebra, Chapter I, \S 6, no. 3, Definition 6).
+Let k be a ring, n an integer $> 0$ and A the set of lower triangular matrices with n rows and n columns and elements in k. For $p \geq 0$, let $A_p$ be the set of $(x_{ij}) \in A$ such that $x_{ij} = 0$ for $i - j < p$. Then $A_0 = A$ and $A_pA_q \subset A_{p+q}$. Let $\Gamma_p = 1 + A_p$. Then $\Gamma_1$ is a subgroup of $\mathbf{GL}(n, k)$ called the strict lower triangular group of order n over k. By Proposition 2 of no. 5, $(\Gamma_p)$ is an integral filtration on $\Gamma_1$. As $\Gamma_n = \{1\}$, we see that the group $\Gamma_1$ is nilpotent (Algebra, Chapter I, \S 6, no. 3, Definition 6).
 
 ### Exercises {#lie-ii-s4-exercises}
 

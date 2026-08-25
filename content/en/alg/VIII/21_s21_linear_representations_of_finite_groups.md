@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: a08b33966e4211250824ddb04db1ee77dc894ab08e7740f6790fcc8b12126a24
+content_sha256: 3a934f2dfc3eb0cfb5192b3c936dde529e28389fc932fa49415435ea29558ce1
 ---
 
 ## § 21. LINEAR REPRESENTATIONS OF FINITE GROUPS
@@ -158,25 +158,25 @@ $$
 
 #### Example 5 {#alg-viii-s21-n1-exa-5 .statement tag=00NI}
 
-Suppose that G is the product $ G' \times G'' $ of two groups. The K-linear mapping from $ K[G'] \otimes_K K[G''] $ to $ K[G] $ that sends $ g' \otimes g'' $ to $ (g', g'') $ for $ g' \in G' $ and $ g'' \in G'' $ is an algebra isomorphism. Let $ (M', \pi') $ be a linear representation of $ G' $ and $ (M'', \pi'') $ a linear representation of $ G'' $. The external tensor product of $ \pi' $ and $ \pi'' $, denoted by $ \pi' \otimes \pi'' $, is the representation of $ G' \times G'' $ in the vector space $ M' \otimes M'' $ defined by $ (\pi' \otimes \pi'')(g', g'') = \pi'(g') \otimes \pi''(g'') $ for $ (g', g'') \in G' \times G'' $. If $ M' $ and $ M'' $ are finite-dimensional free K-modules, then $ M' \otimes_K M'' $ is a finite-dimensional free K-module and the character of the representation $ \pi' \otimes \pi'' $ is given by the formula
+Suppose that G is the product $G' \times G''$ of two groups. The K-linear mapping from $K[G'] \otimes_K K[G'']$ to $K[G]$ that sends $g' \otimes g''$ to $(g', g'')$ for $g' \in G'$ and $g'' \in G''$ is an algebra isomorphism. Let $(M', \pi')$ be a linear representation of $G'$ and $(M'', \pi'')$ a linear representation of $G''$. The external tensor product of $\pi'$ and $\pi''$, denoted by $\pi' \otimes \pi''$, is the representation of $G' \times G''$ in the vector space $M' \otimes M''$ defined by $(\pi' \otimes \pi'')(g', g'') = \pi'(g') \otimes \pi''(g'')$ for $(g', g'') \in G' \times G''$. If $M'$ and $M''$ are finite-dimensional free K-modules, then $M' \otimes_K M''$ is a finite-dimensional free K-module and the character of the representation $\pi' \otimes \pi''$ is given by the formula
 $$
 \chi_{\pi' \otimes \pi''}(g', g'') = \chi_{\pi'}(g') \chi_{\pi''}(g'')
 $$
-for $ g' \in G' $ and $ g'' \in G'' $ (Proposition 2 of III, §9, No. 2, p. 542).
+for $g' \in G'$ and $g'' \in G''$ (Proposition 2 of III, §9, No. 2, p. 542).
 
 #### Example 6 {#alg-viii-s21-n1-exa-6 .statement tag=00NJ}
 
-Let $ (V, \pi) $ be a linear representation of G such that V is a finite-dimensional free K-module. We define a representation $ \rho $ of $ G \times G $ in $ \operatorname{End}_K(V) $ by the formula
+Let $(V, \pi)$ be a linear representation of G such that V is a finite-dimensional free K-module. We define a representation $\rho$ of $G \times G$ in $\operatorname{End}_K(V)$ by the formula
 $$
 \rho(g, g')(u) = \pi(g') \circ u \circ \pi(g^{-1}).
 $$
-The K-module isomorphism $ \theta_V : V^* \otimes_K V \to \operatorname{End}_K(V) $ of II, §4, No. 2, p. 271 is an isomorphism of representations from the external tensor product $ \pi^\vee \otimes \pi $ to $ \rho $. The mapping $ g \mapsto \rho(1, g) $ (resp. $ g \mapsto \rho(g, 1) $) is a representation of G isomorphic to $ \pi^{\dim_K V} $ (resp. $ (\pi^\vee)^{\dim_K V} $).
+The K-module isomorphism $\theta_V : V^* \otimes_K V \to \operatorname{End}_K(V)$ of II, §4, No. 2, p. 271 is an isomorphism of representations from the external tensor product $\pi^\vee \otimes \pi$ to $\rho$. The mapping $g \mapsto \rho(1, g)$ (resp. $g \mapsto \rho(g, 1)$) is a representation of G isomorphic to $\pi^{\dim_K V}$ (resp. $(\pi^\vee)^{\dim_K V}$).
 
-Let L be a commutative K-algebra, and let $ (M, \pi) $ be a linear representation of the group G. The group homomorphism $ \pi_{(L)} : G \to \mathbf{GL}(M_{(L)}) $ defined by $ g \mapsto \operatorname{Id}_L \otimes \pi(g) $ is a linear representation of G in the L-module $ M_{(L)} $, called the linear representation of G deduced from the representation $ \pi $ by extension of the ring of scalars K to L.
+Let L be a commutative K-algebra, and let $(M, \pi)$ be a linear representation of the group G. The group homomorphism $\pi_{(L)} : G \to \mathbf{GL}(M_{(L)})$ defined by $g \mapsto \operatorname{Id}_L \otimes \pi(g)$ is a linear representation of G in the L-module $M_{(L)}$, called the linear representation of G deduced from the representation $\pi$ by extension of the ring of scalars K to L.
 
-Suppose that K is a field and that L is a nonzero commutative K algebra. Let $ (M, \pi) $ and $ (M', \pi') $ be linear representations of G. The representations $ \pi $ and $ \pi' $ are isomorphic if and only if $ \pi_{(L)} $ and $ \pi'_{(L)} $ are (VIII, p. 37, Theorem 3).
+Suppose that K is a field and that L is a nonzero commutative K algebra. Let $(M, \pi)$ and $(M', \pi')$ be linear representations of G. The representations $\pi$ and $\pi'$ are isomorphic if and only if $\pi_{(L)}$ and $\pi'_{(L)}$ are (VIII, p. 37, Theorem 3).
 
-Suppose, moreover, that the algebra L is an extension of K. Consider the rings $ R_K(G) $ and $ R_L(G) $ defined in Example 1 of VIII, p. 198. Extension of scalars defines a ring homomorphism
+Suppose, moreover, that the algebra L is an extension of K. Consider the rings $R_K(G)$ and $R_L(G)$ defined in Example 1 of VIII, p. 198. Extension of scalars defines a ring homomorphism
 $$
 u : R_K(G) \longrightarrow R_L(G).
 $$
@@ -347,39 +347,39 @@ For the remainder of this section, we assume that the group G is finite and that
 
 The algebra K[G] is semisimple (Maschke’s theorem) and finite-dimensional. Denote by $\widehat{G}$ the set of classes of simple K[G]-modules. For every $\lambda \in \widehat{G}$, choose a linear representation $(V_{\lambda}, \pi_{\lambda})$ of G such that the associated K[G]-module has class $\lambda$. The set $\widehat{G}$ is finite, and the vector spaces $V_{\lambda}$ are finite-dimensional (VIII, p. 141, Example). For any $\lambda \in \widehat{G}$, denote by $d_{\lambda}$ the degree of the representation $\pi_{\lambda}$, that is, the dimension of the K-vector space $V_{\lambda}$, and denote its character by $\chi_{\lambda}$.
 
-Denote by $ F(\widehat{G}) $ the product algebra $ \prod_{\lambda \in \widehat{G}} \operatorname{End}_K(V_\lambda) $ and by $ \overline{\mathscr{F}} $ the mapping from $ K[G] $ to $ F(\widehat{G}) $ defined by $ \overline{\mathscr{F}}(a) = (\pi_\lambda(a))_{\lambda \in \widehat{G}} $. Since the field $ K $ is algebraically closed, *the mapping $ \overline{\mathscr{F}} $ is an algebra isomorphism* (loc. cit.).
+Denote by $F(\widehat{G})$ the product algebra $\prod_{\lambda \in \widehat{G}} \operatorname{End}_K(V_\lambda)$ and by $\overline{\mathscr{F}}$ the mapping from $K[G]$ to $F(\widehat{G})$ defined by $\overline{\mathscr{F}}(a) = (\pi_\lambda(a))_{\lambda \in \widehat{G}}$. Since the field $K$ is algebraically closed, *the mapping $\overline{\mathscr{F}}$ is an algebra isomorphism* (loc. cit.).
 
-For every $ \lambda \in \widehat{G} $, the dimension of the algebra $ \operatorname{End}_K(V_\lambda) $ is $ d_\lambda^2 $; that of the algebra $ K[G] $ is $ \operatorname{Card}(G) $. We therefore have the relation
+For every $\lambda \in \widehat{G}$, the dimension of the algebra $\operatorname{End}_K(V_\lambda)$ is $d_\lambda^2$; that of the algebra $K[G]$ is $\operatorname{Card}(G)$. We therefore have the relation
 
 $$
 \operatorname{Card}(G) = \sum_{\lambda \in \widehat{G}} d_\lambda^2.
 $$
 
-Denote by $ \tau $ the trace in the algebra $ K[G] $; by definition, the trace $ \tau(a) $ of an element $ a $ of $ K[G] $ is the trace of the endomorphism $ x \mapsto ax $ of $ K[G] $ (III, §7, No. 7, p. 515). Let $ a = \sum_{g \in G} a_g g $ be an element of $ K[G] $; by formula (2), we have $ \tau(ag^{-1}) = |G| a_g $ for every $ g \in G $, and therefore the relation
+Denote by $\tau$ the trace in the algebra $K[G]$; by definition, the trace $\tau(a)$ of an element $a$ of $K[G]$ is the trace of the endomorphism $x \mapsto ax$ of $K[G]$ (III, §7, No. 7, p. 515). Let $a = \sum_{g \in G} a_g g$ be an element of $K[G]$; by formula (2), we have $\tau(ag^{-1}) = |G| a_g$ for every $g \in G$, and therefore the relation
 
 $$
 a = |G|^{-1} \sum_{g \in G} \tau(ag^{-1})\ g.
 $$
 
-Denote by $ \widehat{\tau} $ the trace in the algebra $ F(\widehat{G}) $. Let $ A = (A_\lambda)_{\lambda \in \widehat{G}} $ be an element of $ F(\widehat{G}) $; we have (cf. III, §9, No. 3, p. 545, Example 3)
+Denote by $\widehat{\tau}$ the trace in the algebra $F(\widehat{G})$. Let $A = (A_\lambda)_{\lambda \in \widehat{G}}$ be an element of $F(\widehat{G})$; we have (cf. III, §9, No. 3, p. 545, Example 3)
 
 $$
 \widehat{\tau}(A) = \sum_{\lambda \in \widehat{G}} d_\lambda \operatorname{Tr}(A_\lambda).
 $$
 
-Since the mapping $ \overline{\mathscr{F}} $ is a $ K $-algebra isomorphism, we have $ \widehat{\tau} \circ \overline{\mathscr{F}} = \tau $, and therefore
+Since the mapping $\overline{\mathscr{F}}$ is a $K$-algebra isomorphism, we have $\widehat{\tau} \circ \overline{\mathscr{F}} = \tau$, and therefore
 
 $$
 \tau(a) = \widehat{\tau}(\overline{\mathscr{F}}(a)) = \widehat{\tau}\left((\pi_\lambda(a))_{\lambda \in \widehat{G}}\right) = \sum_{\lambda \in \widehat{G}} d_\lambda \operatorname{Tr}(\pi_\lambda(a)) = \sum_{\lambda \in \widehat{G}} d_\lambda \operatorname{Tr}_\lambda(a)
 $$
 
-for every $ a \in K[G] $, that is
+for every $a \in K[G]$, that is
 
 $$
 \tau = \sum_{\lambda \in \widehat{G}} d_\lambda \operatorname{Tr}_\lambda.
 $$
 
-Therefore, by (2) of VIII, p. 399, for $ g \in G $, we have
+Therefore, by (2) of VIII, p. 399, for $g \in G$, we have
 
 $$
 \sum_{\lambda \in \widehat{G}} d_\lambda \chi_\lambda(g) = \begin{cases}
@@ -388,13 +388,13 @@ $$
 \end{cases}
 $$
 
-For $ a \in K[G] $, relation (9) takes on the following form:
+For $a \in K[G]$, relation (9) takes on the following form:
 
 $$
 a = |G|^{-1} \sum_{g \in G} \sum_{\lambda \in \widehat{G}} d_\lambda \operatorname{Tr}(\pi_\lambda(a)\pi_\lambda(g^{-1}))\ g;
 $$
 
-it follows that for every element $ A = (A_\lambda)_{\lambda \in \widehat{G}} $ of $ F(\widehat{G}) $, we have
+it follows that for every element $A = (A_\lambda)_{\lambda \in \widehat{G}}$ of $F(\widehat{G})$, we have
 
 $$
 \overline{\mathscr{F}}^{-1}(A) = |G|^{-1} \sum_{g \in G} \sum_{\lambda \in \widehat{G}} d_\lambda \operatorname{Tr}(A_\lambda \pi_\lambda(g^{-1}))\ g
@@ -762,39 +762,39 @@ $$
 
 with the following property: for every $\lambda$ in $\mathscr{S}_L$(G), the representations $\lambda$ and $\eta_G(\lambda )$ are related through $\eta$, and the representations $\lambda$ and $\eta '_G(\lambda )$ are related through $\eta '$. The bijection $\varphi_G=\eta '_G\circ \eta_G^{-1}$ has the desired properties.
 
-The bijection $ \varphi_G $ from $ \mathscr{I}_K(G) $ to $ \mathscr{I}_{K'}(G) $ extends to an isomorphism, also denoted by $ \varphi_G $, from the Grothendieck group $ R_K(G) $ to the group $ R_{K'}(G) $.
+The bijection $\varphi_G$ from $\mathscr{I}_K(G)$ to $\mathscr{I}_{K'}(G)$ extends to an isomorphism, also denoted by $\varphi_G$, from the Grothendieck group $R_K(G)$ to the group $R_{K'}(G)$.
 
 #### Remark 1 {#alg-viii-s21-n12-rem-1 .statement tag=00O2}
 
-Suppose that $ K' $ is an extension of $ K $ and that the isomorphism $ \varphi $ is the mapping $ \xi \mapsto \xi \cdot 1 $; then the mapping $ \varphi_G $ is given by extension of scalars from $ K $ to $ K' $.
+Suppose that $K'$ is an extension of $K$ and that the isomorphism $\varphi$ is the mapping $\xi \mapsto \xi \cdot 1$; then the mapping $\varphi_G$ is given by extension of scalars from $K$ to $K'$.
 
 #### Corollary 1 {#alg-viii-s21-prop-10-cor-1 .statement tag=00O3}
 
-*The mapping $ \varphi_G $ is a ring isomorphism from $ R_K(G) $ to $ R_{K'}(G) $. For every finite-dimensional representation $ \pi $ of $ G $ in a $ K $-vector space, we have $ \varphi_G([\pi]) = [\pi'] $, where $ \pi' $ is a representation related to $ \pi $ through $ \varphi $*.
+*The mapping $\varphi_G$ is a ring isomorphism from $R_K(G)$ to $R_{K'}(G)$. For every finite-dimensional representation $\pi$ of $G$ in a $K$-vector space, we have $\varphi_G([\pi]) = [\pi']$, where $\pi'$ is a representation related to $\pi$ through $\varphi$*.
 
-This follows from the semisimplicity of the representations of $ G $ and property b) of VIII, p. 416.
+This follows from the semisimplicity of the representations of $G$ and property b) of VIII, p. 416.
 
 #### Corollary 2 {#alg-viii-s21-prop-10-cor-2 .statement tag=00O4}
 
-*The dimension of each simple representation of $ G $ divides the order of $ G $*.
+*The dimension of each simple representation of $G$ divides the order of $G$*.
 
 This follows from Proposition 10 and Proposition 9 of VIII, p. 415.
 
 #### Remark 2 {#alg-viii-s21-n12-rem-2 .statement tag=00O5}
 
-Suppose that the group $ G $ is *abelian*. We saw in the remark of VIII, p. 414 that $ \mathscr{I}_K(G) $ can be identified with the set $ \operatorname{Hom}(G, \mu_n(K)) $. Likewise, $ \mathscr{I}_{K'}(G) $ can be identified with $ \operatorname{Hom}(G, \mu_n(K')) $. With these identifications, the bijection $ \varphi_G $ is simply the mapping $ \chi \mapsto \varphi \circ \chi $.
+Suppose that the group $G$ is *abelian*. We saw in the remark of VIII, p. 414 that $\mathscr{I}_K(G)$ can be identified with the set $\operatorname{Hom}(G, \mu_n(K))$. Likewise, $\mathscr{I}_{K'}(G)$ can be identified with $\operatorname{Hom}(G, \mu_n(K'))$. With these identifications, the bijection $\varphi_G$ is simply the mapping $\chi \mapsto \varphi \circ \chi$.
 
 #### Remark 3 {#alg-viii-s21-n12-rem-3 .statement tag=00O6}
 
-Let $ \pi_1 $ and $ \pi_2 $ be linear representations of $ G $ in finite-dimensional vector spaces over $ K $. For $ i = 1, 2 $, let $ \pi_i' $ be a representation related to $ \pi_i $ through $ \varphi $. We have
+Let $\pi_1$ and $\pi_2$ be linear representations of $G$ in finite-dimensional vector spaces over $K$. For $i = 1, 2$, let $\pi_i'$ be a representation related to $\pi_i$ through $\varphi$. We have
 $$
 \dim_K \operatorname{Hom}_K(\pi_1, \pi_2) = \dim_{K'} \operatorname{Hom}_{K'}(\pi_1', \pi_2') .
 $$
-The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $ \pi_i $ (and therefore the $ \pi_i' $) are simple.
+The proof follows that of Corollary VIII, p. 410, by reducing to the case when the $\pi_i$ (and therefore the $\pi_i'$) are simple.
 
 #### Remark 4 {#alg-viii-s21-n12-rem-4 .statement tag=00O7}
 
-Let $ H $ be a subgroup of $ G $ of cardinal $ m $. The isomorphism $ \varphi $ restricts to an isomorphism from $ \mu_m(K) $ to $ \mu_m(K') $ and, consequently, a ring isomorphism $ \varphi_H $ from $ R_K(H) $ to $ R_{K'}(H) $. The following diagrams commute:
+Let $H$ be a subgroup of $G$ of cardinal $m$. The isomorphism $\varphi$ restricts to an isomorphism from $\mu_m(K)$ to $\mu_m(K')$ and, consequently, a ring isomorphism $\varphi_H$ from $R_K(H)$ to $R_{K'}(H)$. The following diagrams commute:
 
 $$
 \begin{array}{ccc}

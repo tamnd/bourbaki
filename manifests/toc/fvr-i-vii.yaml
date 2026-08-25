@@ -214,11 +214,11 @@ chapters:
               page: 91
               pdf_page: 106
             - "no": 2
-              title: Derivative of $ \log_a x $
+              title: Derivative of $\log_a x$
               page: 93
               pdf_page: 108
             - "no": 3
-              title: Derivatives of the circular functions; the number $ \pi $
+              title: Derivatives of the circular functions; the number $\pi$
               page: 94
               pdf_page: 109
             - "no": 4
@@ -230,7 +230,7 @@ chapters:
               page: 97
               pdf_page: 112
             - "no": 6
-              title: Properties of the function $ e^z $
+              title: Properties of the function $e^z$
               page: 98
               pdf_page: 113
             - "no": 7
@@ -347,7 +347,7 @@ chapters:
               page: 188
               pdf_page: 203
             - "no": 7
-              title: Linear equations of order $ n $
+              title: Linear equations of order $n$
               page: 192
               pdf_page: 207
             - "no": 8
@@ -560,11 +560,11 @@ chapters:
           pdf_page: 298
           subsections:
             - "no": 1
-              title: Eulerian expansion of $ \cot z $
+              title: Eulerian expansion of $\cot z$
               page: 283
               pdf_page: 298
             - "no": 2
-              title: Eulerian expansion of $ \sin z $
+              title: Eulerian expansion of $\sin z$
               page: 286
               pdf_page: 301
             - "no": 3

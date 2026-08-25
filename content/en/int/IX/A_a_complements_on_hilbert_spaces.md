@@ -22,7 +22,7 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: d9d69ccd7a20f43bf3d7785d1e48a66da2aa3234256eb69cdd0d1cadac0459f7
+content_sha256: 86ae6e26f616de0aa6a22cdd5dab2607d52dc227a026998bb63b78ad07bc4819
 ---
 
 ## ANNEX
@@ -31,25 +31,25 @@ content_sha256: d9d69ccd7a20f43bf3d7785d1e48a66da2aa3234256eb69cdd0d1cadac0459f7
 
 ### 1. Trace of a quadratic form with respect to another$^{(1)}$
 
-In this No., we denote by $ E $ a real vector space and by $ Q, H $ two positive quadratic forms on $ E $. There exist two symmetric bilinear forms $ (x, y) \mapsto (x|y)_Q $ and $ (x, y) \mapsto (x|y)_H $ characterized by
+In this No., we denote by $E$ a real vector space and by $Q, H$ two positive quadratic forms on $E$. There exist two symmetric bilinear forms $(x, y) \mapsto (x|y)_Q$ and $(x, y) \mapsto (x|y)_H$ characterized by
 $$
 Q(x) = (x|x)_Q , \quad H(x) = (x|x)_H
 $$
-for all $ x \in E $.
+for all $x \in E$.
 
-One calls *trace of Q with respect to H* and one denotes by $ \operatorname{Tr}(Q/H) $ the positive real number, finite or not, defined as follows:
+One calls *trace of Q with respect to H* and one denotes by $\operatorname{Tr}(Q/H)$ the positive real number, finite or not, defined as follows:
 
-$ a) $ If there exists an $ x \in E $ such that $ H(x) = 0 $ and $ Q(x) \neq 0 $, one sets $ \operatorname{Tr}(Q/H) = +\infty $.
+$a)$ If there exists an $x \in E$ such that $H(x) = 0$ and $Q(x) \neq 0$, one sets $\operatorname{Tr}(Q/H) = +\infty$.
 
-$ b) $ In the contrary case, $ \operatorname{Tr}(Q/H) $ is the supremum of the set of numbers of the form $ \sum_{i=1}^p Q(e_i) $, where $ (e_1, \ldots, e_p) $ runs over the set of finite sequences of elements of $ E $ orthonormal for $ H $.
+$b)$ In the contrary case, $\operatorname{Tr}(Q/H)$ is the supremum of the set of numbers of the form $\sum_{i=1}^p Q(e_i)$, where $(e_1, \ldots, e_p)$ runs over the set of finite sequences of elements of $E$ orthonormal for $H$.
 
-Let $ E $ be a real Hilbert space and $ Q $ a positive quadratic form on $ E $. Set $ H(x) = \|x\|^2 $ for all $ x \in E $; then $ H $ is a positive quadratic form on $ E $. One says that $ Q $ is *nuclear* if $ \operatorname{Tr}(Q/H) $ is finite. For every $ x \in E $ of norm 1, one has $ Q(x) \leq \operatorname{Tr}(Q/H) $, whence $ Q \leq \operatorname{Tr}(Q/H) \cdot H $; in particular, every nuclear form $ Q $ is continuous.
+Let $E$ be a real Hilbert space and $Q$ a positive quadratic form on $E$. Set $H(x) = \|x\|^2$ for all $x \in E$; then $H$ is a positive quadratic form on $E$. One says that $Q$ is *nuclear* if $\operatorname{Tr}(Q/H)$ is finite. For every $x \in E$ of norm 1, one has $Q(x) \leq \operatorname{Tr}(Q/H)$, whence $Q \leq \operatorname{Tr}(Q/H) \cdot H$; in particular, every nuclear form $Q$ is continuous.
 
 #### Remark {#int-ix-a0-n1-rem-1 .statement}
 
-— 1) For every subspace $ F $ of $ E $, denote by $ Q_F $ the restriction of $ Q $ to $ F $, and by $ H_F $ that of $ H $. Then $ \operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H) $ and $ \operatorname{Tr}(Q/H) $ is the supremum of the numbers $ \operatorname{Tr}(Q_F/H_F) $ for $ F \subset E $ finite-dimensional.
+— 1) For every subspace $F$ of $E$, denote by $Q_F$ the restriction of $Q$ to $F$, and by $H_F$ that of $H$. Then $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ and $\operatorname{Tr}(Q/H)$ is the supremum of the numbers $\operatorname{Tr}(Q_F/H_F)$ for $F \subset E$ finite-dimensional.
 
-2) Let $ E_1 $ be a real vector space, $ Q_1 $ and $ H_1 $ two positive quadratic forms on $ E_1 $, and $ \pi : E \to E_1 $ a surjective linear mapping. If $ Q = Q_1 \circ \pi $ and $ H = H_1 \circ \pi $, then $ \operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1) $.
+2) Let $E_1$ be a real vector space, $Q_1$ and $H_1$ two positive quadratic forms on $E_1$, and $\pi : E \to E_1$ a surjective linear mapping. If $Q = Q_1 \circ \pi$ and $H = H_1 \circ \pi$, then $\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$.
 
 (1) Cf. TVS, V, §4, No. 9.
 
@@ -137,7 +137,7 @@ $$
 
 (2) Cf. TVS, V, §4, No. 7.
 
-For every $ x \in E_1 $, we have $ \|x\|^2 = \sum_{i \in I} (x|e_i)^2 $, and similarly $ \|y\|^2 = \sum_{j \in J} (y|f_j)^2 $ for every $ y \in E_2 $. Consequently,
+For every $x \in E_1$, we have $\|x\|^2 = \sum_{i \in I} (x|e_i)^2$, and similarly $\|y\|^2 = \sum_{j \in J} (y|f_j)^2$ for every $y \in E_2$. Consequently,
 
 $$
 \sum_{i \in I} \|u(e_i)\|^2 = \sum_{i \in I} \sum_{j \in J} (u(e_i)|f_j)^2 \\
@@ -145,31 +145,31 @@ $$
 = \sum_{j \in J} \|u^*(f_j)\|^2 .
 $$
 
-In particular, the number $ \sum_{i \in I} \|u(e_i)\|^2 $ is independent of the orthonormal basis $ (e_i)_{i \in I} $ of $ E_1 $.
+In particular, the number $\sum_{i \in I} \|u(e_i)\|^2$ is independent of the orthonormal basis $(e_i)_{i \in I}$ of $E_1$.
 
-Set $ t = \operatorname{Tr}(Q|H) $. For every finite subset $ I' $ of $ I $, by definition
+Set $t = \operatorname{Tr}(Q|H)$. For every finite subset $I'$ of $I$, by definition
 
 $$
 \sum_{i \in I'} \|u(e_i)\|^2 = \sum_{i \in I'} Q(e_i) \leq t ,
 $$
 
-whence $ \sum_{i \in I} \|u(e_i)\|^2 \leq t $. Let $ (e'_1, \ldots, e'_p) $ be a finite orthonormal sequence in $ E $. This sequence can be completed to an orthonormal basis $ (e'_\alpha)_{\alpha \in A} $ of $ E_1 $. Then
+whence $\sum_{i \in I} \|u(e_i)\|^2 \leq t$. Let $(e'_1, \ldots, e'_p)$ be a finite orthonormal sequence in $E$. This sequence can be completed to an orthonormal basis $(e'_\alpha)_{\alpha \in A}$ of $E_1$. Then
 
 $$
 \sum_{\alpha=1}^p \|u(e'_\alpha)\|^2 \leq \sum_{\alpha \in A} \|u(e'_\alpha)\|^2 = \sum_{i \in I} \|u(e_i)\|^2
 $$
 
-and, passing to the supremum over all $ (e'_1, \ldots, e'_p) $, one obtains the inequality $ t \leq \sum_{i \in I} \|u(e_i)\|^2 $. We have thus established the equality $ t = \sum_{i \in I} \|u(e_i)\|^2 $.
+and, passing to the supremum over all $(e'_1, \ldots, e'_p)$, one obtains the inequality $t \leq \sum_{i \in I} \|u(e_i)\|^2$. We have thus established the equality $t = \sum_{i \in I} \|u(e_i)\|^2$.
 
 Q.E.D.
 
-One says that $ u $ is a *Hilbert–Schmidt mapping* of $ E_1 $ into $ E_2 $ if the positive quadratic form $ Q : x \mapsto \|u(x)\|^2 $ on $ E_1 $ is nuclear. When this is so, one has $ Q \leq \operatorname{Tr}(Q/H) \cdot H $, therefore $ u $ is continuous and
+One says that $u$ is a *Hilbert–Schmidt mapping* of $E_1$ into $E_2$ if the positive quadratic form $Q : x \mapsto \|u(x)\|^2$ on $E_1$ is nuclear. When this is so, one has $Q \leq \operatorname{Tr}(Q/H) \cdot H$, therefore $u$ is continuous and
 
 $$
 \|u\| \leq \operatorname{Tr}(Q/H)^{1/2} .
 $$
 
-Let $ u : E_1 \to E_2 $ be a continuous linear mapping. By Prop. 3, $ u $ is a Hilbert–Schmidt mapping if and only if there exists an orthonormal basis $ (e_i)_{i \in I} $ of $ E_1 $ such that $ \sum_{i \in I} \|u(e_i)\|^2 < +\infty $. When this is so, every orthonormal basis of $ E_1 $ has the same property. Moreover, if $ u $ is a Hilbert–Schmidt mapping, then so is its adjoint $ u^* $ by virtue of the formula $ \sum_{i \in I} \|u(e_i)\|^2 = \sum_{j \in J} \|u^*(f_j)\|^2 $ (Prop. 3).
+Let $u : E_1 \to E_2$ be a continuous linear mapping. By Prop. 3, $u$ is a Hilbert–Schmidt mapping if and only if there exists an orthonormal basis $(e_i)_{i \in I}$ of $E_1$ such that $\sum_{i \in I} \|u(e_i)\|^2 < +\infty$. When this is so, every orthonormal basis of $E_1$ has the same property. Moreover, if $u$ is a Hilbert–Schmidt mapping, then so is its adjoint $u^*$ by virtue of the formula $\sum_{i \in I} \|u(e_i)\|^2 = \sum_{j \in J} \|u^*(f_j)\|^2$ (Prop. 3).
 
 Exercises
 

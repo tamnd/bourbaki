@@ -58,9 +58,9 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 57021b69079abbc90b9b642116ba050a13832295cbcddef7fff4c5fd5bdae910
+content_sha256: a4b95f74d5227bf31f1e907ee23d76417bdb313ab9ae588722d3c4929a344a62
 translated_from: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md
-source_content_sha256: 5bc3325d3592154bfa00069c17896d6ae82d958285347b0aff8f6af8457fc5bf
+source_content_sha256: 3713d8d9181c73ddbea13d385e233b08d04e96e3e2863da632e02fba79c6640c
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-0cbae7af
 glossary_version: 34
@@ -404,7 +404,7 @@ $$
 
 và từ Hệ quả 2 của VIII, p. 288; Hệ quả 2 của VIII, p. 291; và Mệnh đề 3 của VIII, p. 292.
 
-Cho $ \Delta : F \to F \times F $ là ánh xạ đường chéo $ f \mapsto (f, f) $. Cho $ \mathcal{E} = (\Gamma, \iota, \pi) $ là một $ \tau $-mở rộng. Cho $ \tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma $ là đồng cấu nhóm được cho bởi $ \gamma \mapsto (\gamma, \gamma) $. Biểu đồ sau giao hoán:
+Cho $\Delta : F \to F \times F$ là ánh xạ đường chéo $f \mapsto (f, f)$. Cho $\mathcal{E} = (\Gamma, \iota, \pi)$ là một $\tau$-mở rộng. Cho $\tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma$ là đồng cấu nhóm được cho bởi $\gamma \mapsto (\gamma, \gamma)$. Biểu đồ sau giao hoán:
 
 $$
 \begin{array}{ccc}
@@ -414,9 +414,9 @@ F \times F & \longrightarrow & \Gamma \times_G \Gamma & \longrightarrow & G.
 \end{array}
 $$
 
-Theo Mệnh đề 2 của VIII, p. 290, suy ra mở rộng theo $ (\tau \times \tau) \circ \delta $ $ \delta^*(\mathcal{E} \times \mathcal{E}) $ đẳng cấu với $ \Delta_*(\mathcal{E}) $.
+Theo Mệnh đề 2 của VIII, p. 290, suy ra mở rộng theo $(\tau \times \tau) \circ \delta$ $\delta^*(\mathcal{E} \times \mathcal{E})$ đẳng cấu với $\Delta_*(\mathcal{E})$.
 
-Kí hiệu $ c : F \to F $ là đồng cấu hằng $ f \mapsto 1 $. Theo Ví dụ 1 của VIII, p. 292, việc $ \mathscr{I}_\tau $ là một phần tử đơn vị cho luật hợp thành này suy ra từ đẳng cấu từ $ \delta^*(\mathcal{E} \times \mathcal{E}) $ đến $ \Delta_*(\mathcal{E}) $ và biểu đồ giao hoán
+Kí hiệu $c : F \to F$ là đồng cấu hằng $f \mapsto 1$. Theo Ví dụ 1 của VIII, p. 292, việc $\mathscr{I}_\tau$ là một phần tử đơn vị cho luật hợp thành này suy ra từ đẳng cấu từ $\delta^*(\mathcal{E} \times \mathcal{E})$ đến $\Delta_*(\mathcal{E})$ và biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
@@ -438,7 +438,7 @@ F \times F & \xrightarrow{m} & F.
 \end{array}
 $$
 
-Cho $ \mathcal{E}_1 = (\Gamma_1, \iota_1, \pi_1) $ và $ \mathcal{E}_2 = (\Gamma_2, \iota_2, \pi_2) $ là các $ \tau $-mở rộng. Đẳng cấu nhóm $ \Gamma_1 \times \Gamma_2 \to \Gamma_2 \times \Gamma_1 $ cho bởi $ (\gamma_1, \gamma_2) \mapsto (\gamma_2, \gamma_1) $ hạn chế thành một đẳng cấu nhóm $ \sigma : \Gamma_1 \times_G \Gamma_2 \to \Gamma_2 \times_G \Gamma_1 $. Do các quan hệ
+Cho $\mathcal{E}_1 = (\Gamma_1, \iota_1, \pi_1)$ và $\mathcal{E}_2 = (\Gamma_2, \iota_2, \pi_2)$ là các $\tau$-mở rộng. Đẳng cấu nhóm $\Gamma_1 \times \Gamma_2 \to \Gamma_2 \times \Gamma_1$ cho bởi $(\gamma_1, \gamma_2) \mapsto (\gamma_2, \gamma_1)$ hạn chế thành một đẳng cấu nhóm $\sigma : \Gamma_1 \times_G \Gamma_2 \to \Gamma_2 \times_G \Gamma_1$. Do các quan hệ
 
 $$
 \sigma(\iota_1(f), \iota_2(f)^{-1}) = (\iota_2(f^{-1}), \iota_1(f^{-1})^{-1})
@@ -712,7 +712,7 @@ $$
 \times c(h_1(x), h_2(x)h_3(x))c(h_1(x), h_2(x))^{-1})
 $$
 
-trong đó đẳng thức thứ hai suy ra từ तथ्य rằng $c$ là một 2-đối chu trình.
+trong đó đẳng thức thứ hai suy ra từ sự kiện rằng $c$ là một 2-đối chu trình.
 
 #### Bổ đề 5 {#alg-viii-s16-lem-5 .statement tag=00IU}
 
@@ -810,7 +810,7 @@ $h(x)^{-1},h(x)s(x)g_1s'(x\cdot g_1)^{-1}$, và $s'(x\cdot g_1)g_2s'(x\cdot g_1g
 
 đẳng thức thứ hai thu được bằng cách áp dụng quan hệ đối chu trình cho các phần tử
 
-$s(x)g_1s(x\cdot g_1)^{-1},h(x\cdot g_1)^{-1}$, và $h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$; và đẳng thức cuối chỉ dùng तथ्य rằng ánh xạ $x\mapsto x\cdot g_1$ là một phép hoán vị của $H\backslash G$.
+$s(x)g_1s(x\cdot g_1)^{-1},h(x\cdot g_1)^{-1}$, và $h(x\cdot g_1)s(x\cdot g_1)g_2s'(x\cdot g_1g_2)^{-1}$; và đẳng thức cuối chỉ dùng sự kiện rằng ánh xạ $x\mapsto x\cdot g_1$ là một phép hoán vị của $H\backslash G$.
 
 Hai dòng cuối của biểu thức thu được tương ứng với một 2-đối biên. Ta thấy rằng $\widetilde{c}_{s'}$ có cùng lớp trong $H^2(G,F)$ với đối chu trình có giá trị tại $(g_1, g_2)\in G^2$ được cho bởi biểu thức
 
