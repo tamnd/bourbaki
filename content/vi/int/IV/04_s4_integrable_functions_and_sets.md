@@ -781,7 +781,7 @@ Ta thấy rằng định nghĩa của $T$ kéo theo rằng, trong $\mathfrak{P}(
 
 2° Tính duy nhất của $\mu$.
 
-Ta ký hiệu $\overline{\Phi}$ là tập hợp các tập con $M \subset X$ sao cho $\alpha(N)$ tiến tới một giới hạn hữu hạn khi $N$ tiến tới $M$ (đối với tôpô $T$) trong khi vẫn ở trong $\Phi$; khi đó ta chỉ có thể mở rộng $\alpha theo một cách thành một ánh xạ liên tục $\overline{\alpha}$ từ $\overline{\Phi}$ vào $\mathbf{R}$ (GT, I, §8, No. 5, Th. 1). Nếu tồn tại một độ đo $\mu$ thỏa mãn các yêu cầu, thì các nhận xét trên chứng minh rằng lớp $\Psi$ của các tập $\mu$-khả tích được chứa trong $\overline{\Phi}$ và rằng $\mu(M) = \overline{\alpha}(M)$ với mọi $M \in \Psi$; quan hệ này đặc biệt đúng với mọi tập compact $M$ của $X$, điều đó chứng minh tính duy nhất của $\mu$ (No. 10, Hệ quả 3 của Mệnh đề 19).
+Ta ký hiệu $\overline{\Phi}$ là tập hợp các tập con $M \subset X$ sao cho $\alpha(N)$ tiến tới một giới hạn hữu hạn khi $N$ tiến tới $M$ (đối với tôpô $T$) trong khi vẫn ở trong $\Phi$; khi đó ta chỉ có thể mở rộng $\alpha$ theo một cách thành một ánh xạ liên tục $\overline{\alpha}$ từ $\overline{\Phi}$ vào $\mathbf{R}$ (GT, I, §8, No. 5, Th. 1). Nếu tồn tại một độ đo $\mu$ thỏa mãn các yêu cầu, thì các nhận xét trên chứng minh rằng lớp $\Psi$ của các tập $\mu$-khả tích được chứa trong $\overline{\Phi}$ và rằng $\mu(M) = \overline{\alpha}(M)$ với mọi $M \in \Psi$; quan hệ này đặc biệt đúng với mọi tập compact $M$ của $X$, điều đó chứng minh tính duy nhất của $\mu$ (No. 10, Hệ quả 3 của Mệnh đề 19).
 
 3° Mở rộng $\alpha$ đến các tập compact.
 

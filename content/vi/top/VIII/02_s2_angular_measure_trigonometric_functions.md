@@ -231,7 +231,7 @@ tương đương với hoặc là $x \equiv y \pmod{a}$ hoặc $x + y \equiv \fr
 
 Suy ra từ điều này rằng $\cos\_a x$ không bao giờ nhận cùng một giá trị hai lần trong khoảng $[0, \frac{1}{2} a]$; do đó, khi bị hạn chế trên khoảng này, nó là một ánh xạ \*song ánh\* của khoảng này lên khoảng $[-1, +1]$. Vì $\cos\_a 0 = 1$ và $\cos\_a (\frac{1}{2} a) = -1$, $x \to \cos\_a x$ là một ánh xạ \*giảm nghiêm ngặt\* của $[0, \frac{1}{2} a]$ lên $[-1, 1]$ (Chương IV, § 2, no. 6, Định lý 5 và Nhận xét). Ta có $\cos\_a x = 0$ với $x = a/4$, $\cos\_a x > 0$ với $0 \leq x < a/4$, $\cos\_a x < 0$ với $a/4 < x \leq a/2$. Vì $\cos\_a (-x) = \cos\_a x$ ta có thể suy ra sự biến thiên của $\cos\_a x$ trong khoảng $[- \frac{1}{2} a, 0]$, và do đó trên toàn bộ $\mathbf{R}$ nhờ tính tuần hoàn (Hình 8). Vì $\sin\_a x = -\cos\_a(x + a/4)$ ta cũng có thể suy ra sự biến thiên của $\sin\_a x$ trong $\mathbf{R}$ (Hình 8).
 
-![Đồ thị biểu diễn y = sin\_a x và y = cos\_a x]$[https://i.imgur.com/3Q5z5QG.png](https://i.imgur.com/3Q5z5QG.png))
+![Đồ thị biểu diễn y = sin\_a x và y = cos\_a x](https://i.imgur.com/3Q5z5QG.png)
 
 Hình 8.
 

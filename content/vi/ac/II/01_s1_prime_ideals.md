@@ -79,7 +79,7 @@ Nếu $A$ là một *miền iđêan chính* (*Algebra*, chương VII, § 1), đ�
 
 #### Mệnh đề 3 {#ac-ii-s1-prop-3 .statement}
 
-*Cho $a$ và $b$ là hai iđêan nguyên tố cùng nhau của một vành $A$. Cho $a'$ và $b'$ là hai iđêan của $A$ sao cho mọi phần tử của $a$ (resp. $b$) có một lũy thừa thuộc $a'$ (resp. $b' ). Khi đó $a'$ và $b'$ là nguyên tố cùng nhau.*
+*Cho $a$ và $b$ là hai iđêan nguyên tố cùng nhau của một vành $A$. Cho $a'$ và $b'$ là hai iđêan của $A$ sao cho mọi phần tử của $a$ (resp. $b$) có một lũy thừa thuộc $a'$ (resp. $b'$). Khi đó $a'$ và $b'$ là nguyên tố cùng nhau.*
 
 Theo giả thiết đã cho, mọi iđêan nguyên tố chứa $a'$ đều chứa $a$ và mọi iđêan nguyên tố chứa $b'$ đều chứa $b$. Nếu một iđêan nguyên tố chứa $a'$ và $b'$, thì nó chứa $a$ và $b$, điều này là vô lý, vì $a$ và $b$ nguyên tố cùng nhau; do đó $a'$ và $b'$ nguyên tố cùng nhau.
 

@@ -139,11 +139,11 @@ $$
 
 Mặt khác, nếu $a < 1$, hàm $a^x$ là hàm giảm, tiến tới 0 khi $x$ tiến tới $+\infty$, và tiến tới $+\infty$ khi $x$ tiến tới $-\infty$ (Hình 1).
 
-![Đồ thị biểu diễn y = a^x (a > 1) và y = a^x (a < 1)]$[https://i.imgur.com/1.png](https://i.imgur.com/1.png))
+![Đồ thị biểu diễn y = a^x (a > 1) và y = a^x (a < 1)](https://i.imgur.com/1.png)
 
 Hình 1.
 
-![Đồ thị biểu diễn y = log\_a x (a > 1) và y = log\_a x (a < 1)]$[https://i.imgur.com/2.png](https://i.imgur.com/2.png))
+![Đồ thị biểu diễn y = log\_a x (a > 1) và y = log\_a x (a < 1)](https://i.imgur.com/2.png)
 
 Hình 2.
 
