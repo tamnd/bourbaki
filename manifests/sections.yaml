@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native+ocr
-              content_sha256: 3713d8d9181c73ddbea13d385e233b08d04e96e3e2863da632e02fba79c6640c
+              content_sha256: 6c35cd6354d0f0bf0ee5aba1c12fa4ef850055db3db4c07151700df3ae0b526b
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -510,7 +510,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native+ocr
-              content_sha256: 9cfc54fc3fd0d895b609ce67acdf312a766719407e25832b00a0c808df62b15d
+              content_sha256: cc7783372dfd63398eb34b48f535a43f648153e181fb53a1ed27fedef04dd7e3
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -575,7 +575,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native+ocr
-              content_sha256: 3c248d2a6ca45b7bb1651b1e348b4218cf35d1e3276f3c2d57f97d2a870fce4e
+              content_sha256: 149c283a2de4a488478ad2fe206ea8f88f93697b456cc89f527c9ea0758c4d16
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -2072,7 +2072,7 @@ books:
               statements: 37
               exercises: 11
               extraction: ocr
-              content_sha256: 49d34236aa907fd60e4d6fb7e5142464802f3f571a834d8849ea8e147f790970
+              content_sha256: 09657f186f72956f32a3834e46ca25f5e52a2f152080a83c21123877583d9007
             - kind: section
               section: 4
               title: Union and intersection of a family of sets
@@ -3992,7 +3992,7 @@ books:
               statements: 10
               exercises: 3
               extraction: ocr
-              content_sha256: fa8492230e21a8c3dc005c91f39d1b9a0a2d617552452286b5ac88789fbb8a2f
+              content_sha256: 131c1604ba3797e357fc990e0f42eb9b5afdbefaf7ede65ff11ba98e3e0c2342
             - kind: section
               section: 6
               title: Valeurs absolues
@@ -4004,7 +4004,7 @@ books:
               statements: 13
               exercises: 2
               extraction: ocr
-              content_sha256: 493948b54839b53ba6be0eeb7756203e701c9e464dfcb436c0faf2d81c677313
+              content_sha256: 3b27ac1705ebcf95a16ed8b6b608129fa4bec0f84f87d8f7fe393803daee09c2
             - kind: section
               section: 7
               title: Théorème d’approximation
@@ -4028,7 +4028,7 @@ books:
               statements: 42
               exercises: 22
               extraction: ocr
-              content_sha256: 0640cea61d37d67ad77157b20ed04c2f0bfc6600c3fdb906326b6468e3e447e5
+              content_sha256: 5e3ba0b9b3f95b9d3d8175112f62cc09b3f4c3620639d040bc3c4da7e399a172
             - kind: section
               section: 9
               title: 'Application : corps localement compacts'
@@ -4113,7 +4113,7 @@ books:
               statements: 79
               exercises: 26
               extraction: ocr
-              content_sha256: 0004bf8be548865c342ff65ff5851355002d3c8bdaa8fcad0d7bf3617fc737c6
+              content_sha256: 7a5259286f966c4c9a65bebe071385d980038de3188c80a349200e2d7c55297a
             - kind: historical
               title: Historical Note
               path: content/fr/ac/VII/historical_note.md

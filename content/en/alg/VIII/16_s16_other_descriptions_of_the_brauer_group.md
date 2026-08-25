@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 3713d8d9181c73ddbea13d385e233b08d04e96e3e2863da632e02fba79c6640c
+content_sha256: 6c35cd6354d0f0bf0ee5aba1c12fa4ef850055db3db4c07151700df3ae0b526b
 ---
 
 ## § 16. OTHER DESCRIPTIONS OF THE BRAUER GROUP
@@ -400,7 +400,7 @@ and from Corollary 2 of VIII, p. 288; Corollary 2 of VIII, p. 291; and Propositi
 Let $\Delta : F \to F \times F$ be the diagonal mapping $f \mapsto (f, f)$. Let $\mathcal{E} = (\Gamma, \iota, \pi)$ be a $\tau$-extension. Let $\tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma$ be the group homomorphism given by $\gamma \mapsto (\gamma, \gamma)$. The following diagram commutes:
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G \\
 \downarrow \Delta & & \downarrow \tilde{\Delta} & & \parallel \\
 F \times F & \longrightarrow & \Gamma \times_G \Gamma & \longrightarrow & G.

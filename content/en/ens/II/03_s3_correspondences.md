@@ -50,7 +50,7 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: 49d34236aa907fd60e4d6fb7e5142464802f3f571a834d8849ea8e147f790970
+content_sha256: 09657f186f72956f32a3834e46ca25f5e52a2f152080a83c21123877583d9007
 ---
 
 ## 3. CORRESPONDENCES
@@ -283,7 +283,7 @@ Let A and B be two sets; a *mapping of* A *into* B is a function $f$ whose sourc
 
 Instead of the phrase "let $f$ be a mapping of A into B", the following phrases are often used : "let $f : \mathrm{A} \to \mathrm{B}$ be a mapping" or even "let $f : \mathrm{A} \to \mathrm{B}$". To simplify the presentation of an argument involving several mappings, we use *diagrams* such as
 
-$$\begin{array}{ccccccc} & f & & & g & \mathrm{C} & & i & \\ \mathrm{A} & \to & \mathrm{B} & \nearrow & & & \searrow & & \mathrm{E} \\ & & & \searrow & & \mathrm{D} & \nearrow & & \\ & & & h & & & j & & \end{array}$$
+$$\begin{array}{ccccccccc} & f & & & g & \mathrm{C} & & i & \\ \mathrm{A} & \to & \mathrm{B} & \nearrow & & & \searrow & & \mathrm{E} \\ & & & \searrow & & \mathrm{D} & \nearrow & & \\ & & & h & & & j & & \end{array}$$
 
 in which a group of signs such as $\mathrm{A} \overset{f}{\to} \mathrm{B}$ is to be interpreted as meaning that $f$ is a mapping of A into B.
 

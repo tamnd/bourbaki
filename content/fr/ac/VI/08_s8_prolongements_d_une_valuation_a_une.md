@@ -40,7 +40,7 @@ subsections:
       pdf_page: 149
 statements: 42
 exercises: 22
-content_sha256: 0640cea61d37d67ad77157b20ed04c2f0bfc6600c3fdb906326b6468e3e447e5
+content_sha256: 5e3ba0b9b3f95b9d3d8175112f62cc09b3f4c3620639d040bc3c4da7e399a172
 ---
 
 ## § 8. Prolongements d’une valuation à une extension algébrique.
@@ -226,7 +226,7 @@ $$
 Remarquons, pour cela, que $\nu$ et $\bar{\nu}$ (resp. $\nu'_i$ et $\bar{\nu}'_i$) ont même corps résiduel ($\S 4$, n° 1, cor. de la prop. 2); ceci prouve la première égalité. Pour la seconde on a, en vertu de la Remarque du $\S 4$, n° 3, le diagramme commutatif suivant, où les lignes sont des suites exactes, et où les flèches verticales représentent les injections canoniques:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \to & \Gamma_{\bar{\nu}}^- & \to & \Gamma_{\nu} & \to & \Gamma_w & \to & 0 \\
 & & \downarrow & & \downarrow & & \downarrow & & \\
 0 & \to & \Gamma_{\nu_i'}^- & \to & \Gamma_{\nu_i'} & \to & \Gamma_{w'} & \to & 0.

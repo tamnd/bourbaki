@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: 493948b54839b53ba6be0eeb7756203e701c9e464dfcb436c0faf2d81c677313
+content_sha256: 3b27ac1705ebcf95a16ed8b6b608129fa4bec0f84f87d8f7fe393803daee09c2
 ---
 
 ## § 6. Valeurs absolues.
@@ -198,12 +198,12 @@ Soit $K$ une algèbre sur le corps $\mathbf{R}$ ayant les deux propriétés suiv
 
 1° $K$ est un corps (non nécessairement commutatif).
 
-2° Il existe sur $K$ une norme $x \to ||x||$ compatible avec la structure d’algèbre de $K$ ($Top.$ gén., chap. IX, § 3, no 7, déf. 9).
+2° Il existe sur $K$ une norme $x \to ||x||$ compatible avec la structure d’algèbre de $K$ (*Top. gén.*, chap. IX, § 3, no 7, déf. 9).
 Alors l’algèbre $K$ est isomorphe à l’une des algèbres $\mathbf{R}, \mathbf{C}$ ou $\mathbf{H}$.
 
 Rappelons (loc. cit.) que l’on peut toujours supposer que l’on a $||xy|| \leq ||x||.||y||$ quels que soient $x, y$ dans $K$. Nous munirons $K$ de la topologie (compatible avec la structure d’algèbre) définie par la norme.
 
-A) Premier cas: $K$ est commutatif et il existe $j \in K$ tel que $j^2 = -1$. Il existe alors un isomorphisme $\sigma$ du corps $\mathbf{C}$ sur un sous-corps de $K$ tel que $\sigma(\xi + i\eta) = \xi . 1 + \eta . j$ pour $\xi, \eta$ dans $\mathbf{R}$. Nous allons prouver par l’absurde que l’on a $K = \sigma(\mathbf{C})$. Supposons donc qu’il existe $x \in K - \sigma(\mathbf{C})$; pour tout $z \in \mathbf{C}$, $x - \sigma(z)$ est donc inversible dans $K$; posons $F(z) = (x - \sigma(z))^{-1}$; comme $\sigma$ est continue et que l’inverse est continu dans $K$ ($Top.$ gén., chap. IX, § 3, no 7, prop. 13 appliquée à l’algèbre complétée de $K$), $F$ est une application continue de $\mathbf{C}$ dans $K$. On peut d’ailleurs écrire, pour $z \neq 0$,
+A) Premier cas: $K$ est commutatif et il existe $j \in K$ tel que $j^2 = -1$. Il existe alors un isomorphisme $\sigma$ du corps $\mathbf{C}$ sur un sous-corps de $K$ tel que $\sigma(\xi + i\eta) = \xi . 1 + \eta . j$ pour $\xi, \eta$ dans $\mathbf{R}$. Nous allons prouver par l’absurde que l’on a $K = \sigma(\mathbf{C})$. Supposons donc qu’il existe $x \in K - \sigma(\mathbf{C})$; pour tout $z \in \mathbf{C}$, $x - \sigma(z)$ est donc inversible dans $K$; posons $F(z) = (x - \sigma(z))^{-1}$; comme $\sigma$ est continue et que l’inverse est continu dans $K$ (*Top. gén.*, chap. IX, § 3, no 7, prop. 13 appliquée à l’algèbre complétée de $K$), $F$ est une application continue de $\mathbf{C}$ dans $K$. On peut d’ailleurs écrire, pour $z \neq 0$,
 
 $$
 F(z) = (\sigma(z))^{-1}(x(\sigma(z))^{-1} - 1)^{-1}.

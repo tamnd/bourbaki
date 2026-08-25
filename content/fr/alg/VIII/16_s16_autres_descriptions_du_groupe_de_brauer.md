@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: 3c248d2a6ca45b7bb1651b1e348b4218cf35d1e3276f3c2d57f97d2a870fce4e
+content_sha256: 149c283a2de4a488478ad2fe206ea8f88f93697b456cc89f527c9ea0758c4d16
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -131,7 +131,7 @@ Par conséquent, $(\Gamma', \iota', \pi')$ est une $\tau'$-extension de $G'$ par
 Le diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{\iota'} & \Gamma' & \xrightarrow{\pi'} & G' \\
 \| & & \| & & \| \\
 F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G
@@ -141,7 +141,7 @@ $$
 est commutatif. En outre, si $\mathscr{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1)$ est une $\tau'$-extension et $\varphi_1 : \Gamma'_1 \to \Gamma$ est un homomorphisme de groupes tel que le diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{\iota'_1} & \Gamma'_1 & \xrightarrow{\pi'_1} & G' \\
 \| & & \| & & \| \\
 F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G
@@ -162,7 +162,7 @@ $$
 pour tout $f \in F'_1$ et tout $g \in G'$. Soit $\mathcal{E}'_1 = (\Gamma'_1, \iota'_1, \pi'_1)$ une $\tau_1$-extension de $G'$ par $F'_1$ et $\varphi_1 : \Gamma'_1 \to \Gamma$ un homomorphisme de groupes tel que le diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F'_1 & \xrightarrow{\iota'_1} & \Gamma'_1 & \xrightarrow{\pi'_1} & G' \\
 \downarrow w & & \downarrow \varphi_1 & & \downarrow u \\
 F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G
@@ -172,7 +172,7 @@ $$
 soit commutatif. Alors il existe un unique homomorphisme de groupes $\psi : \Gamma'_1 \to \Gamma'$ tel que le diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F'_1 & \xrightarrow{\iota'_1} & \Gamma'_1 & \xrightarrow{\pi'_1} & G' \\
 \downarrow w & & \downarrow \psi & & \parallel \\
 F & \xrightarrow{\iota'} & \Gamma' & \xrightarrow{\pi'} & G'
@@ -356,7 +356,7 @@ pour $f, f' \in F'$ et $\gamma, \gamma' \in \Gamma$. Le noyau de $\tilde{\psi}$ 
 Notons $\Sigma$ l’espèce de structure de $\tau'$-extension et définissons les $\alpha$-applications comme les applications de $\Gamma$ dans un groupe $\Gamma'$ sous-jacent à une $\tau'$-extension qui sont des homomorphismes de groupes et qui rendent le diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G \\
 \downarrow v & & \downarrow \varphi & & \parallel \\
 F' & \xrightarrow{\iota'} & \Gamma' & \xrightarrow{\pi'} & G
@@ -403,7 +403,7 @@ pour $g \in G$ et $f \in F$. On note $\tau'' = \tau' \circ u$. Soit $\mathcal{E}
 On note $(\Gamma_u, \iota_u, \pi_u)$ (resp. $(\Gamma'_u, \iota'_u, \pi'_u)$) la $\tau \circ u$-extension $u^*(\mathcal{E})$ (resp. la $\tau''$-extension $u^*(v_*(\mathcal{E}))$). En appliquant le lemme 2 de VIII, p. 283 à $\varphi_v \circ \varphi_u$, on obtient qu’il existe un homomorphisme de groupes $\psi_1 : \Gamma_u \to \Gamma'_u$ tel que le diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{\iota_u} & \Gamma_u & \xrightarrow{\pi_u} & G' \\
 | & & | & & \| \\
 F' & \xrightarrow{\iota'_u} & \Gamma'_u & \xrightarrow{\pi'_u} & G'
@@ -451,7 +451,7 @@ du cor. 2 de VIII, p. 284, du cor. 2 de VIII, p. 287 et de la prop. 3 de VIII, p
 Soit $\Delta : F \to F \times F$ l’application diagonale $f \mapsto (f, f)$. Soit $\mathscr{E} = (\Gamma, \iota, \pi)$ une $\tau$-extension. Soit $\tilde{\Delta} : \Gamma \to \Gamma \times_G \Gamma$ l’homomorphisme de groupes donné par $\gamma \mapsto (\gamma, \gamma)$. Le diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{\iota} & \Gamma & \xrightarrow{\pi} & G \\
 \downarrow \Delta & & \downarrow \tilde{\Delta} & & \parallel \\
 F \times F & \longrightarrow & \Gamma \times_G \Gamma & \longrightarrow & G
