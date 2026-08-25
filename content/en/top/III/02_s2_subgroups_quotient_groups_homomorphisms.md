@@ -165,7 +165,7 @@ Let $ H $ be a subgroup of a topological group $ G $. $ H $ operates continuousl
 
 #### Example 2 {#top-iii-s2-n4-exa-2 .statement}
 
-*If* $ K $ *is a topological division ring* ($ \S 6 $, no. 7), *the multiplicative group* $ K^* $ *operates continuously on* $ K $ *by the external law* $ (s, x) \to sx. *$
+*If* $ K $ *is a topological division ring* ($ \S 6 $, no. 7), *the multiplicative group* $ K^* $ *operates continuously on* $ K $ *by the external law* $ (s, x) \to sx $.
 
 #### Example 3 {#top-iii-s2-n4-exa-3 .statement}
 
@@ -424,7 +424,7 @@ $$
 (LN)(LN)^{-1} = LNN^{-1}L^{-1} = LNL = LLN = LN
 $$
 
-Moreover, the mapping $ \varphi : (x, y) \to xy $ of $ N \times L $ into $ G $ is *injective* if and only if $ N \cap L = \{e\} $. For it is clear that if $ \varphi $ is injective, then $ N \cap L = \{e\} $; and conversely, the relation $ x'y' = xy $, where $ x, x' \in N $ and $ y, y' \in L $, implies that $ x^{-1}x' = yy'^{-1} \in N \cap L $; hence if $ N \cap L = \{e\} $, then $ \varphi $ is injective. Thus $ \varphi $ is *bijective* if and only if $ LN = G $ and $ N \cap L = \{e\} $.
+Moreover, the mapping $ \varphi : (x, y) \to xy $ of $ N \times L $ into $ G $ is *injective* if and only if $ N \cap L = \{e\} $. For it is clear that if $ \varphi $ is injective, then $ N \cap L = \{e\} $; and conversely, the relation $ x'y' = xy $, where $ x, x' \in N $ and $ y, y' \in L $, implies that $ x^{-1}x' = {yy'}^{-1} \in N \cap L $; hence if $ N \cap L = \{e\} $, then $ \varphi $ is injective. Thus $ \varphi $ is *bijective* if and only if $ LN = G $ and $ N \cap L = \{e\} $.
 
 If $ N $ is a *normal* subgroup of $ G $ (or more generally is normal in some subgroup of $ G $ containing $ N \cup L $), the condition $ LN = NL $ is automatically satisfied. Moreover, for each $ y \in L $ the mapping $ \sigma_y : x \to yxy^{-1} $ is an *automorphism* of the group $ N $, and for any two elements $ u, v $ of $ L $ we have
 
