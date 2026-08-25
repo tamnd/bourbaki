@@ -58,7 +58,7 @@ chapters:
               page: 15
               pdf_page: 39
             - "no": 4
-              title: Monoid offractions of a commutative monoid
+              title: Monoid of fractions of a commutative monoid
               page: 17
               pdf_page: 41
             - "no": 5
@@ -138,7 +138,7 @@ chapters:
               page: 38
               pdf_page: 62
             - "no": 7
-              title: Thejordan-Ho1der theorem
+              title: The Jordan-Hölder theorem
               page: 41
               pdf_page: 65
             - "no": 8
@@ -322,7 +322,7 @@ chapters:
               page: 110
               pdf_page: 134
             - "no": 12
-              title: Rings offractions
+              title: Rings of fractions
               page: 112
               pdf_page: 136
           exercises:
@@ -615,7 +615,7 @@ chapters:
               page: 292
               pdf_page: 316
             - "no": 2
-              title: Dimension ofvector spaces
+              title: Dimension of vector spaces
               page: 293
               pdf_page: 317
             - "no": 3
@@ -1078,7 +1078,7 @@ chapters:
           pdf_page: 531
           subsections:
             - "no": 1
-              title: Definition ofthe exterior algebra of a module
+              title: Definition of the exterior algebra of a module
               page: 507
               pdf_page: 531
             - "no": 2
