@@ -5403,6 +5403,17 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alg-ix-fr",
+      "chapters": [
+        {
+          "chapter": "IX",
+          "title": "Formes sesquilinéaires et formes quadratiques",
+          "total": 0,
+          "sections": null
+        }
+      ]
     }
   ]
 }

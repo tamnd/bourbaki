@@ -8554,3 +8554,148 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 1f1b1447b72bda715c9e68e773c8f5e8eef07f859df8ae505918e41da1af99cb
+    - id: alg-ix-fr
+      chapters:
+        - chapter: IX
+          title: Formes sesquilinéaires et formes quadratiques
+          sections:
+            - kind: front
+              title: Formes sesquilinéaires et formes quadratiques
+              path: content/fr/alg/IX/00_frontmatter.md
+              first_pdf_page: 5
+              last_pdf_page: 5
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: fcfd5b13cd511837bb0a13d65759be11897291699aa837245606d9f4714529ad
+            - kind: section
+              section: 1
+              title: Formes sesquilinéaires
+              path: content/fr/alg/IX/01_s1_formes_sesquilineaires.md
+              label: alg-ix-s1
+              first_pdf_page: 5
+              last_pdf_page: 38
+              subsections: 10
+              statements: 45
+              exercises: 0
+              extraction: ocr
+              content_sha256: e02ca70e6485727bec2c4fbc8b27cc8126199083a8bd87ce7a3060466b192a62
+            - kind: section
+              section: 2
+              title: Discriminant d'une forme sesquilinéaire
+              path: content/fr/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md
+              label: alg-ix-s2
+              first_pdf_page: 39
+              last_pdf_page: 47
+              subsections: 0
+              statements: 12
+              exercises: 0
+              extraction: ocr
+              content_sha256: 199682f78d4971b08776a340578d6dabcc2d99439bce9d0b644fd986838454f8
+            - kind: section
+              section: 3
+              title: Formes hermitiennes et formes quadratiques
+              path: content/fr/alg/IX/03_s3_formes_hermitiennes_et_formes.md
+              label: alg-ix-s3
+              first_pdf_page: 47
+              last_pdf_page: 61
+              subsections: 4
+              statements: 7
+              exercises: 0
+              extraction: ocr
+              content_sha256: c0d7c8b724352f8b0f88aedc95fe9241b73de923d6f20ae8f8560d6971352e3d
+            - kind: section
+              section: 4
+              title: Sous-espaces totalement isotropes. Théorème de Witt
+              path: content/fr/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
+              label: alg-ix-s4
+              first_pdf_page: 61
+              last_pdf_page: 77
+              subsections: 3
+              statements: 17
+              exercises: 0
+              extraction: ocr
+              content_sha256: bb4ffbb5baae01c35450f8e81efbba047ce95fd537e5de003babe0aee681f6ba
+            - kind: section
+              section: 5
+              title: Propriétés spéciales aux formes bilinéaires alternées
+              path: content/fr/alg/IX/05_s5_proprietes_speciales_aux_formes.md
+              label: alg-ix-s5
+              first_pdf_page: 77
+              last_pdf_page: 87
+              subsections: 3
+              statements: 11
+              exercises: 0
+              extraction: ocr
+              content_sha256: 693e6fdc19755fda00825e8c7dc2e818b1c457da08c603a8d654e97e5a9f7eb2
+            - kind: section
+              section: 6
+              title: Propriétés spéciales aux formes hermitiennes
+              path: content/fr/alg/IX/06_s6_proprietes_speciales_aux_formes.md
+              label: alg-ix-s6
+              first_pdf_page: 88
+              last_pdf_page: 112
+              subsections: 6
+              statements: 17
+              exercises: 0
+              extraction: ocr
+              content_sha256: c0f3cc4f21326efbdb0a3fcbcd98dc41f0674d36d93c33d8663ebc1f3663d133
+            - kind: section
+              section: 7
+              title: Formes hermitiennes et corps ordonnés
+              path: content/fr/alg/IX/07_s7_formes_hermitiennes_et_corps_ordonnes.md
+              label: alg-ix-s7
+              first_pdf_page: 112
+              last_pdf_page: 130
+              subsections: 3
+              statements: 42
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6446758097a7cf0a8decb14d1ea8cad0e94d908cfee02c9a6bd8c910baf27cac
+            - kind: section
+              section: 8
+              title: Types de formes quadratiques
+              path: content/fr/alg/IX/08_s8_types_de_formes_quadratiques.md
+              label: alg-ix-s8
+              first_pdf_page: 130
+              last_pdf_page: 137
+              subsections: 3
+              statements: 10
+              exercises: 0
+              extraction: ocr
+              content_sha256: 77b7b9c2f537067cfaabb2c188b9f1e66697b2a39230ebb8e9c64e68a3e658b2
+            - kind: section
+              section: 9
+              title: Algèbres de Clifford
+              path: content/fr/alg/IX/09_s9_algebres_de_clifford.md
+              label: alg-ix-s9
+              first_pdf_page: 137
+              last_pdf_page: 158
+              subsections: 5
+              statements: 24
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6bbb50da9d0318bb8d28a2c9f7f2a56eaa3ceed853091c76b7f18d3d2ceca000
+            - kind: section
+              section: 10
+              title: Angles
+              path: content/fr/alg/IX/10_s10_angles.md
+              label: alg-ix-s10
+              first_pdf_page: 158
+              last_pdf_page: 182
+              subsections: 4
+              statements: 31
+              exercises: 0
+              extraction: ocr
+              content_sha256: 62d1dda77044fe22220036ce5d238ea991c63ff24fe48896a684d10742560f77
+            - kind: historical
+              title: Historical Note
+              path: content/fr/alg/IX/historical_note.md
+              first_pdf_page: 183
+              last_pdf_page: 211
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 5dc4068f333e2b8735cdbf6a3b58a2c5f076b92da97ed7fef97bf5e366c8fdc7

@@ -1,0 +1,650 @@
+---
+book: alg
+book_title: Algebra
+chapter: IX
+chapter_title: Formes sesquilinéaires et formes quadratiques
+section: 0
+section_title: Historical Note
+kind: historical
+lang: fr
+source: alg-ix-fr
+pdf_pages: 0183-0211
+extraction: ocr
+statements: 0
+exercises: 0
+content_sha256: 5dc4068f333e2b8735cdbf6a3b58a2c5f076b92da97ed7fef97bf5e366c8fdc7
+---
+
+# NOTE HISTORIQUE
+
+(N.-B. — Les chiffres romains renvoient à la bibliographie placée à la fin de cette note.)
+
+La théorie des formes quadratiques, sous son aspect moderne, ne remonte guère au-delà de la seconde moitié du xviii\textsuperscript{e} siècle, et, comme nous le verrons, elle s’est développée surtout pour répondre aux besoins de l’Arithmétique, de l’Analyse et de la Mécanique. Mais les notions fondamentales de cette théorie ont en réalité fait leur apparition dès les débuts de la géométrie « euclidienne », dont elles forment l’armature. Pour cette raison, on ne peut en retracer l’histoire sans parler, au moins de façon sommaire, du développement de la « géométrie élémentaire » depuis l’antiquité. Bien entendu, nous ne pourrons nous attacher qu’à l’évolution de quelques idées générales, et le lecteur ne doit pas s’attendre à trouver ici de renseignements précis sur l’histoire de tel ou tel théorème particulier, au sujet desquels il nous suffira de renvoyer aux ouvrages historiques ou didactiques spécialisés (*). Il va de soi aussi, lorsque nous parlons ci-dessous des diverses interprétations possibles d’un même théorème dans divers langages algébriques ou géométriques, que nous n’entendons nullement dire que ces « traductions » aient été de tout temps aussi familières qu’aujourd’hui ; bien au contraire, c’est le principal but de cette Note que de faire voir comment, très graduellement, les mathématiciens ont pris conscience de ces parentés entre questions d’aspect souvent très différent ; nous aurons aussi à montrer comment, ce faisant, ils ont été amenés à mettre quelque cohérence dans l’amas des théorèmes de géométrie légués par les anciens, et finalement à essayer de délimiter exactement ce qu’il fallait entendre par « géométrie ».
+
+(*) Voir (II), ainsi que E. Kötter, Die Entwicklung der synthetischen Geometrie, Leipzig (Teubner), 1901 (= Jahresber. der Deutschen Math. Verein., t. V, 1\textsuperscript{tes} Heft), et l’Enzyklopädie der Math. Wiss., 1\textsuperscript{re} éd., t. III.
+
+Si l’on met à part la découverte, par les Babyloniens, de la formule de résolution de l’équation du second degré ((I), p. 183-189), c’est donc sous leur déguisement géométrique qu’il faut noter la naissance des principaux concepts de la théorie des formes quadratiques. Celles-ci se présentent d’abord comme carrés de distances (dans le plan ou l’espace à trois dimensions) et la notion d’« orthogonalité » correspondante s’introduit au moyen de l’angle droit, défini par Euclide comme moitié de l’angle plat (Eléments, Livre I, Déf. 10) ; les notions de distance et d’angle droit étant reliées par le théorème de Pythagore, clé de voûte de l’édifice euclidien (*). L’idée d’angle paraît s’être introduite très tôt dans la mathématique grecque (qui l’a sans doute reçue des Babyloniens, rompus à l’usage des angles par leur longue expérience astronomique). On sait qu’à l’époque classique, seuls les angles inférieurs à 2 droits sont définis (la « définition » d’Euclide est d’ailleurs aussi vague et inutilisable que celle qu’il donne pour la droite ou le plan) ; la notion d’orientation n’est pas dégagée, bien qu’Euclide utilise (sans axiome ni définition) le fait qu’une droite partage le plan en deux régions, qu’il distingue soigneusement lorsque cela est nécessaire (**). À ce stade, l’idée du groupe des rotations planes ne se fait donc jour que d’une manière très imparfaite, par l’addition (introduite, elle aussi, sans explication par Euclide) des angles non orientés de demi-droites, qui est seulement définie, en principe, lorsque la somme est au plus égale à deux droits (***) Quant à la trigonométrie,
+
+(*) La plupart des civilisations antiques (Égypte, Babylonie, Inde, Chine) semblent être parvenues indépendamment à des énoncés couvrant au moins certains cas particuliers du « théorème de Pythagore », et les Hindous ont même eu l’idée de principes de démonstration de ce théorème, tout à fait distincts de ceux qu’on trouve chez Euclide (qui en donne deux démonstrations, l’une par construction de figures auxiliaires, l’autre utilisant la théorie des proportions) (cf. (II), t. IV, p. 135-144).
+
+(**) La notion d’angle orienté, avec ses diverses variantes (angle de droites, angle de demi-droites) n’est apparue que très tardivement. En géométrie analytique, Euler ((VIII a), p. 217-239 et 305-307) introduit les coordonnées polaires, et la conception moderne d’un angle (mesuré en radians) prenant des valeurs arbitraires (positives ou négatives). L. Carnot (Géométrie de Position, Paris, 1803) inaugure la tendance qui opposera, pendant tout le XIXe siècle, géométrie « synthétique » à géométrie analytique; cherchant à développer la première aussi indépendamment que possible, il est conduit, pour éviter les « cas de figure » des géomètres anciens, à introduire systématiquement les grandeurs orientées, longueurs et angles ; malheureusement, son ouvrage est considérablement compliqué par son parti pris de ne pas utiliser les nombres négatifs (qu’il tenait pour contradictoires!) et de les remplacer par un système peu maniable de « correspondance de signes » entre diverses figures. Il faut attendre Möbius (XIII c) pour que le concept d’angle orienté s’introduise dans les raisonnements de géométrie synthétique ; toutefois, de même que ses successeurs jusqu’à une époque toute récente, il ne sait introduire l’orientation que par un appel direct à l’intuition spatiale (règle dite « du bonhomme d’Ampère »); ce n’est qu’avec le développement de la géométrie n-dimensionnelle et de la topologie algébrique qu’on est enfin parvenu à une définition rigoureuse d’un « espace orienté ».
+
+(***) On trouve cependant chez Euclide au moins deux passages où il parle d’angles dont la « somme » peut excéder 2 droits, savoir les inégalités satisfaites par les faces d’un trièdre (Eléments, Livre XI, prop. 20 et 21) (sans parler elle est dédaignée des géomètres, et abandonnée aux arpenteurs et aux astronomes ; ce sont ces derniers (Aristarque, Hipparque, Ptolémée surtout (V)) qui établissent les relations fondamentales entre côtés et angles d’un triangle rectangle (plan ou sphérique) et dressent les premières tables (il s’agit de tables donnant la corde de l’arc découpé par un angle $\theta < \pi$ sur un cercle de rayon $r$, autrement dit le nombre $2r \sin \frac{\theta}{2}$; l’introduction du sinus, d’un maniement plus commode, est due aux mathématiciens hindous du Moyen Age); dans le calcul de ces tables, la formule d’addition des arcs, inconnue à cette époque, est remplacée par l’emploi équivalent du théorème de Ptolémée (remontant peut-être à Hipparque) sur les quadrilatères inscrits à une cercle (cf. Esp. vect. top., chap. V, § 1, exerc. 5). Il faut noter aussi qu’Euclide et Héron donnent des propositions équivalentes à la formule
+
+$$
+a^2 = b^2 + c^2 - 2bc \cos A
+$$
+
+entre côtés et angles d’un triangle plan quelconque; mais on ne peut guère y voir une première apparition de la notion de forme bilinéaire associée à une forme métrique, faute de l’idée d’un calcul vectoriel qui n’émergera qu’au xixe siècle.
+
+Les déplacements (ou mouvements, la distinction entre les deux notions n’étant pas claire dans l’antiquité — ni même beaucoup plus tard) sont connus d’Euclide; mais, pour des raisons que nous ignorons, il semble éprouver une nette répugnance à en faire usage (par exemple dans les « cas d’égalité des triangles », où on a l’impression qu’il n’emploie la notion de déplacement que faute d’avoir su formuler un axiome approprié ((III bis), t. I, p. 225-227 et 249)); toutefois, c’est à la notion de déplacement (rotation autour d’un axe) qu’il a recours pour la définition des cônes de révolution et des sphères (Eléments, Livre XI, déf. 14 et 18), ainsi qu’Archimède pour celle des quadriques de révolution. Mais l’idée générale de transformation, appliquée à tout l’espace, est à peu près étrangère à la pensée mathématique avant la fin du xviiie siècle (*);
+
+du « raisonnement » concernant la « mesure » des angles, qui est sans doute une interpolation (cf. Note hist. du Livre III, chap. viii)); dans ces deux passages, Euclide paraît donc être entraîné par l’intuition au-delà de ce qu’autorisent ses propres définitions. Ses successeurs sont encore bien moins scrupuleux, et Proclus, par exemple (ve siècle ap. J.-C.) n’hésite pas à énoncer le « théorème » général donnant la somme des angles d’un polygone convexe ((III bis), t. I, p. 322).
+
+(*) On ne peut guère citer comme exemples d’une telle notion que les « projections » des cartographes et des dessinateurs; la projection stéréographique (§ 10, exerc. 14) est connue de Ptolémée (et au xviie siècle on sait qu’elle conserve les angles), et la projection centrale joue un rôle de premier plan dans l’œuvre de Desargues (VI); mais il s’agit là de correspondance entre l’espace tout entier (ou une surface) et un plan. Une des propriétés de l’inversion, que nous exprimons aujourd’hui en disant que le transformé d’un cercle est un cercle ou une droite (cf. § 10, exerc. 13), est connue en substance de Viète, et utilisée par lui dans des problèmes de construction de cercles; mais ni lui, ni Fermat qui étend ses constructions aux sphères, n’ont l’idée d’introduire l’inversion comme une transformation du plan ou de l’espace.
+
+et avant le xvii\textsuperscript{e} siècle, on ne trouve pas trace non plus de la notion de composition des mouvements, ni à plus forte raison de composition des déplacements. Cela ne veut pas dire, bien entendu, que les Grecs n’aient pas été particulièrement sensibles aux « régularités » et « symétries » des figures, que nous rattachons maintenant à la notion de groupe des déplacements ; leur théorie des polygones réguliers et plus encore celle des polyèdres réguliers — un des chapitres les plus remarquables de toute leur mathématique — est là pour prouver le contraire (*).
+
+Enfin, la dernière des contributions essentielles de la mathématique grecque, dans le domaine qui nous concerne, est la théorie des coniques (en ce qui concerne les quadriques, les Grecs ne connaissent que certaines quadriques de révolution, et n’en poussent pas très loin l’étude, la sphère exceptée). Il est intéressant de noter ici que, bien que les Grecs n’aient jamais eu l’idée du principe fondamental de la géométrie analytique (essentiellement faute d’une algèbre maniable), ils utilisaient couramment, pour l’étude de « figures » particulières, les « ordonnées » par rapport à deux (ou même plus de deux) axes dans le plan (en rapport étroit avec la figure, ce qui est un des points fondamentaux où leur méthode diffère de celle de Fermat et Descartes, dont les axes sont fixés indépendamment de la figure considérée). En particulier, les premiers exemples de coniques (autres que le cercle) qui s’introduisent à propos du problème de la duplication du cube, sont les courbes données par les équations $y^2 = ax$, $y = bx^2$, $xy = c$ (Ménechme, élève d’Eudoxe, milieu du iv\textsuperscript{e} siècle) (**); et c’est l’équation des coniques (d’ordinaire par rapport à deux axes obliques formés d’un diamètre et de la tangente en un de ses points de rencontre avec la courbe) qui est le plus souvent utilisée dans l’étude des problèmes relatifs à ces courbes (alors que les propriétés « focales » ne jouent qu’un rôle très effacé, contrairement à ce que pourraient faire croire des traditions scolaires ne remontant qu’au xixe siècle). De cette vaste théorie, il nous faut surtout retenir ici la notion de diamètres conjugués (déjà connue d’Archimède), et la propriété qui sert à présent de définition à la polaire d’un point, donnée par Apollonius (IV) lorsque le point est extérieur à la conique (la polaire étant donc pour lui la droite joignant les points de contact des tangentes issues de ce point); de notre point de vue, ce sont deux exemples d’« orthogonalité » par rapport à une forme quadratique distincte de la forme métrique, mais bien entendu le lien entre ces notions et la notion classique de perpendiculaires ne pouvait absolument pas être conçu à cette époque.
+
+Il n’y a guère d’autre progrès à signaler avant Descartes et Fermat; mais dès les débuts de la géométrie analytique, la théorie algébrique des
+
+(*) Voir là-dessus A. Speiser, Theorie der Gruppen von endlicher Ordnung, Basel (Birkhäuser), 4e édit., 1956, où on trouvera aussi d’intéressantes remarques sur les rapports entre la théorie des groupes de déplacements et les divers types d’ornements imaginés par les civilisations de l’antiquité et du moyen âge.
+
+(**) Il semble que l’idée de considérer ces courbes comme sections planes de cônes à base circulaire (due aussi à Ménechme) soit postérieure à leur définition au moyen des équations précédentes (cf. (IV), p. xvii-xxx).
+
+formes quadratiques commence à se dégager de sa gangue géométrique : Fermat sait qu’une équation du second degré dans le plan représente une conique ((VII a), p. 100-102) et ébauche des idées analogues sur les quadriques (VII b). Avec le développement de la géométrie analytique à 2 et 3 dimensions au cours du xviiiie siècle apparaissent (surtout à propos des coniques et des quadriques) deux des problèmes centraux de la théorie : la réduction d’une forme quadratique à une somme de carrés et la recherche de ses « axes » par rapport à la forme métrique. Pour les coniques, ces deux problèmes sont trop élémentaires pour susciter d’importants progrès algébriques ; pour un nombre quelconque de variables, le premier est résolu par Lagrange en 1759, à propos des maxima de fonctions de plusieurs variables (IX a). Mais ce problème est presque aussitôt éclipsé par celui de la recherche des axes, avant même que l’on n’eût formulé l’invariance du rang (*) ; quant à la loi d’inertie, elle n’est découverte qu’autour de 1850 par Jacobi (XIX b), qui la démontre par le même raisonnement qu’à présent, et Sylvester (XX) qui se borne à l’énoncer comme quasi-évidente (**).
+
+Le problème de la réduction d’une quadrique à ses axes présente déjà des difficultés algébriques sensiblement plus grandes que le problème analogue pour les coniques ; et Euler, qui est le premier à l’aborder, n’est pas en état de prouver la réalité des valeurs propres, qu’il admet après une ébauche de justification sans valeur probante ((VIII a), p. 379-392) (***)). Si ce point est correctement établi vers 1800, il faut attendre Cauchy pour démontrer le théorème correspondant pour les formes à un nombre $n$ quelconque de variables (XIV b). C’est aussi Cauchy qui, vers la même époque, démontre que l’équation caractéristique donnant les valeurs propres est invariante par tout changement d’axes rectangulaires ((XIV a), p. 252) (****)) ; mais pour $n = 2$ ou $n = 3$, cette inva-
+
+(*) Traitant d’un problème indépendant, par sa nature, du choix des axes de coordonnées, Lagrange ne pouvait manquer d’observer que son procédé présentait beaucoup d’arbitraire, mais il manque encore des notions permettant de préciser cette idée : « Au reste », dit-il, « pour ne pas se méprendre dans ces recherches, il faut remarquer que les transformées [en somme de carrés] pourraient bien venir différentes de celles que nous avons données ; mais, en examinant la chose de plus près, on trouvera infailliblement que, quelles qu’elles soient, elles pourront toujours se réduire à celles-ci, ou au moins y être comprises [?] » ((IX a), p. 8).
+
+(**) Gauss était parvenu de son côté à ce résultat, et le démontrait dans ses cours sur la méthode des moindres carrés, au témoignage de Riemann, qui suivit ces cours en 1846-47 (B. Riemann, Gesammelte Werke, Nachträge, Leipzig (Teubner), 1902, p. 59).
+
+(***) Il est plus heureux dans la détermination des axes principaux d’inertie d’un solide : ayant ramené le problème à une équation du troisième degré, il observe qu’une telle équation a au moins une racine réelle, donc qu’il y a au moins un axe d’inertie ; prenant cet axe comme axe de coordonnées, il est ensuite ramené au problème plan, de solution facile ((VIII b), p. 200-202).
+
+(****) Il faut noter que, jusque vers 1930, on n’entend jamais par « forme quadratique », qu’un polynôme homogène du second degré par rapport aux coordonnées prises relativement à un système d’axes donné. Il semble que ce soit seulement la théorie de l’espace de Hilbert qui ait conduit à une conception « intrinsèque » des formes quadratiques, même dans les espaces de dimension finie.
+
+riance était intuitivement « évidente » en raison de l’interprétation géométrique des valeurs propres au moyen des axes de la conique ou de la quadrique correspondante. D’ailleurs, au cours des recherches à ce sujet, les fonctions symétriques élémentaires des valeurs propres s’étaient aussi présentées de façon naturelle (avec diverses interprétations géométriques, en relation notamment avec les théorèmes d’Apollonius sur les diamètres conjugués), et en particulier le discriminant, qui (connu de longue date pour $n = 2$ en liaison avec la théorie de l’équation du second degré) apparaît pour la première fois pour $n = 3$ chez Euler ((VIII a) p. 382) ; ce dernier le rencontre à propos de la classification des quadriques (en exprimant la condition pour qu’une quadrique n’ait pas de point à l’infini) et n’en mentionne pas l’invariance vis-à-vis des changements d’axes rectangulaires. Mais un peu plus tard, avec les débuts de la théorie arithmétique des formes quadratiques à coefficients entiers, Lagrange note (pour $n = 2$) un cas particulier d’invariance du discriminant par changement de variables linéaire mais non orthogonal ((IX b), p. 699), et Gauss établit, pour $n = 3$, la « covariance » du discriminant pour toute transformation linéaire ((XI a), p. 301-302) (*). Une fois démontrée, par Cauchy et Binet, la formule générale de multiplication des déterminants, l’extension de la formule de Gauss à un nombre quelconque de variables était immédiate ; c’est elle qui, vers 1845, va donner la première impulsion à la théorie générale des invariants.
+
+Aux deux notions qui, chez les Grecs, tenaient lieu de la théorie des déplacements — celle de mouvement et celle de « symétrie » d’une figure — vient s’en ajouter une troisième aux xviiie et xviiiie siècles avec le problème du changement d’axes rectangulaires, qui est essentiellement équivalent à cette théorie. Euler consacre plusieurs travaux à cette question, s’attachant surtout à obtenir des représentations paramétriques maniables pour les formules du changement d’axes. On sait quel usage la Mécanique devait faire des trois angles qu’il introduit à cet effet pour $n = 3$ ((VIII a), p. 371-378). Mais il ne se borne pas là, envisage en 1770 le problème général des transformations orthogonales pour $n$ quelconque, remarque qu’on parvient ici au but en introduisant $n(n-1)/2$ angles comme paramètres, et enfin, pour $n = 3$ et $n = 4$, donne pour les rotations des représentations rationnelles (en fonction, respectivement, de 4 paramètres homogènes et de 8 paramètres homogènes liés par une relation), qui ne sont autres que celles obtenues plus tard au moyen de la théorie des quaternions (cf. § 9, exerc. 15 et 16), et dont il n’indique pas l’origine (VIII c) (**).
+
+(*) C’est aussi à propos de ces recherches que Gauss définit l’inverse d’une forme quadratique ((XI a), p. 301) et obtient la condition de positivité d’une telle forme (§ 7, no 1, prop. 3) faisant intervenir une suite de mineurs principaux du discriminant (ibid., p. 305-307).
+
+(**) Euler ne donne d’ailleurs pas la formule de composition des rotations exprimée à l’aide de ces paramètres ; pour $n = 3$, on ne la trouve pas avant une note de Gauss (non publiée de son vivant (XI b)) et un travail d’Olinde Rodrigues de 1840, qui retrouve la représentation paramétrique d’Euler, à peu près tombée dans l’oubli à cette époque.
+
+D’autre part, Euler indique aussi comment traduire analytiquement la recherche des « symétries » des figures planes, et c’est à ce propos qu’il est amené à démontrer, en substance, qu’un déplacement plan est une rotation, ou une translation, ou une translation suivie d’une symétrie ((VIII a), p. 197-199). L’essor de la Mécanique à cette époque mène d’ailleurs à l’étude générale des déplacements ; mais tout d’abord il n’est question que des déplacements « infiniment petits » tangents aux mouvements continus : ce sont apparemment les seuls qui interviennent dans les recherches de Torricelli, Roberval et Descartes sur la composition des mouvements et le centre instantané de rotation pour les mouvements plans (cf. Note hist. du Livre IV, chap. I-II-III). Ce dernier est défini de façon générale par Johann Bernoulli ; d’Alembert en 1749, Euler l’année suivante, étendent cette notion en démontrant l’existence d’un axe instantané de rotation pour les mouvements laissant un point fixe. Le théorème analogue pour les déplacements finis n’est énoncé qu’en 1775 par Euler (VIII d), dans un mémoire où il découvre en même temps que le déterminant d’une rotation est égal à 1 ; l’année suivante, il démontre l’existence d’un point fixe pour les similitudes planes (VIII e). Mais il faudra attendre les travaux de Chasles, à partir de 1830 (XV a), pour avoir enfin une théorie cohérente des déplacements finis et infiniment petits.
+
+Nous arrivons ainsi à ce qu’on peut appeler l’âge d’or de la géométrie, qui s’insère grosso modo entre les dates de publication de la Géométrie descriptive de Monge (1795) (X) et du « programme d’Erlangen » de F. Klein (1872) (XXV b). Les progrès essentiels que nous devons à ce brusque renouveau de la géométrie sont les suivants :
+
+A) La notion d’élément à l’infini (point, droite ou plan), introduite par Desargues au xviiie siècle (VI), mais qui ne se manifeste guère au xviiiie siècle que comme abus de langage, est réhabilitée et systématiquement utilisée par Poncelet (XII) qui fait ainsi de l’espace projectif le cadre général de tous les phénomènes géométriques.
+
+B) En même temps, avec Monge, et surtout Poncelet, s’effectue le passage à la géométrie projective complexe. La notion de point imaginaire, sporadiquement utilisée au cours du xviiiie siècle, est ici exploitée (concurrentement avec celle de point à l’infini) pour donner des énoncés indépendants des « cas de figure » de la géométrie affine réelle. Si tout d’abord les justifications apportées à l’appui de ces innovations restent fort embarrassées (surtout de la part des tenants de l’école de géométrie « synthétique », où l’emploi des coordonnées en arrive à être regardé comme une souillure), on ne saurait manquer de reconnaître là, sous le nom de « principe des relations contingentées » chez Monge, ou de « principe de continuité » chez Poncelet, le premier germe de l’idée de « spécialisation » de la géométrie algébrique moderne (*).
+
+(*) Ces « principes » se justifient bien entendu (comme l’avait déjà remarqué Cauchy) par application du principe de prolongement des identités algébriques,
+
+Un des premiers résultats découlant de ces conceptions est la remarque que, dans l’espace projectif complexe, toutes les coniques (resp. quadriques) non dégénérées sont de même nature ; ce qui amène Poncelet à la découverte des éléments « isotropes » : « Des cercles placés arbitrairement sur un plan », dit-il, « ne sont donc pas tout à fait indépendants entre eux, comme on pourrait le croire au premier abord, ils ont idéalement deux points imaginaires communs à l’infini » ((XII), p. 48). Plus loin, il introduit de même l’« ombilicale », conique imaginaire à l’infini commune à toutes les sphères ((XII), p. 370) ; et s’il ne parle pas particulièrement des génératrices isotropes de la sphère, du moins souligne-t-il explicitement l’existence de génératrices rectilignes, réelles ou imaginaires, pour toutes les quadriques (ibid., p. 371) (*) ; notions dont ses continuateurs (notamment Plücker et Chasles), plus encore que lui-même, font grand usage, en particulier dans l’étude des propriétés « focales » des coniques et des quadriques.
+
+C) Les notions de transformation ponctuelle et de composition des transformations sont, elles aussi, formulées de façon générale et introduites systématiquement comme moyens de démonstration. En dehors des déplacements et des projections, on ne connaissait jusque-là que quelques transformations particulières : certaines transformations projectives planes, du type $x' = a/x, y' = y/x$, utilisées par La Hire et Newton, l’« affinité » $x' = ax, y' = by$ de Clairaut et Euler, et enfin quelques transformations quadratiques particulières, chez Newton encore, Maclaurin et Braikenridge. Monge, dans sa Géométrie descriptive, montre tout l’usage qu’on peut tirer des projections planes dans la géométrie à 3 dimensions. Chez Poncelet, un des procédés systématiques de démonstration, employé à satiété, consiste à ramener par projection les propriétés des coniques à celles du cercle (méthode déjà appliquée à l’occasion par Desargues et Pascal) ; et pour pouvoir passer de même d’une quadrique à une sphère, il invente le premier exemple de transformation projective dans l’espace, l’« homologie » ((XII), p. 357) ; enfin c’est lui aussi qui introduit les premiers exemples de transformations birationnelles d’une courbe en elle-même. En 1827, Möbius ((XIII a), p. 217) (et indépendamment Chasles en 1830 (XV b)) définissent les transformations linéaires projectives les plus générales ; à la même époque apparaissent l’inversion (cf. § 10, exerc. 13) et d’autres types de transformations quadratiques, dont l’étude va inaugurer la théorie des transformations birationnelles, qui se développera dans la seconde moitié du xixe siècle.
+
+D) La notion de dualité apparaît en pleine lumière et se trouve consciemment rattachée à la théorie des formes bilinéaires. La théorie des
+
+en raison du fait que les géomètres « synthétiques » ne considèrent jamais que des propriétés qui se traduisent analytiquement en identités de cette nature.
+
+(*) La première mention des génératrices rectilignes des quadriques semble due à Wren (1669), qui remarque que l’hyperboloïde de révolution à une nappe peut être engendré par la rotation d’une droite autour d’un axe non dans le même plan ; mais leur étude fut seulement développée par Monge et son école.
+
+pôles et polaires par rapport aux coniques, qui, depuis Apollonius, n’avait fait quelque progrès que chez Desargues et La Hire, est étendue aux quadriques par Monge, qui, ainsi que ses élèves, aperçoit la possibilité de transformer par ce moyen des théorèmes connus en résultats nouveaux (*). Mais c’est encore à Poncelet que revient le mérite d’avoir érigé ces remarques en méthode générale dans sa théorie des transformations « par polaires réciproques », et d’en avoir fait un outil de découverte particulièrement efficace. Un peu plus tard, notamment avec Gergonne, Plücker, Möbius et Chasles, la notion générale de dualité se dégage du lien avec les formes quadratiques, encore trop étroit chez Poncelet. En particulier, Möbius, en examinant les diverses possibilités de dualité dans l’espace à 3 dimensions (définie par une forme bilinéaire), découvre en 1833 la dualité par rapport à une forme bilinéaire alternée (XIII b) (**), surtout étudiée, au xixe siècle, sous forme de la théorie des « complexes linéaires » (cf. § 10, exerc. 16) et développée en relation avec la « géométrie des droites » et les « coordonnées plückeriennes » introduites par Cayley, Grassmann et Plücker aux environs de 1860.
+
+E) Dès les débuts de la géométrie projective, l’étude intensive des propriétés de la géométrie classique dans leurs rapports avec l’espace projectif avait rapidement amené à les diviser en « propriétés projectives » et « propriétés métriques » ; et il n’est sans doute pas exagéré de voir dans cette séparation une des plus nettes manifestations, à cette époque, de ce qui devait devenir la notion moderne de structure. Mais Poncelet, qui introduit le premier cette distinction et cette terminologie, a déjà conscience de ce qui relie ces deux types de propriétés ; et, abordant dans son Traité les problèmes concernant les angles, dont les propriétés « ne semblent pas faire partie de celles que nous avons appelées projectives..., elles découlent néanmoins d’une manière si simple », dit-il, « des principes qui font la base [de cet ouvrage]..., que je ne crois pas qu’aucune autre théorie géométrique puisse y conduire d’une manière à la fois plus directe et plus simple. On n’en sera nullement étonné, si l’on considère que les propriétés projectives des figures sont nécessairement les plus générales de celles qui peuvent leur appartenir ; en sorte qu’elles doivent comprendre, comme simples corollaires, toutes les autres propriétés ou relations particulières de l’étendue » ((XII), p. 248). A vrai dire, après cette déclaration, on est un peu surpris de le voir aborder les questions d’angles de façon très détournée, en les rattachant aux propriétés focales des coniques, au lieu de faire intervenir directement les points cycliques ; et en fait, ce n’est que 30 ans plus tard que Laguerre (encore élève à l’École Polytechnique) donna l’expression d’un angle de droites à l’aide du birapport de ces droites et des droites isotropes de même origine (cf. § 10, exerc. 5) ((XXI), t. II, p. 13). Enfin, avec Cayley (XVIII d) s’exprime claire-
+
+(*) Le plus connu est le théorème de Brianchon (1810), transformé du théorème de Pascal par dualité.
+(**) En 1828, Giorgini avait déjà rencontré la polarité par rapport à une forme alternée, à propos d’un problème de Statique (Mem. Soc. Ital. Modena, t. XX (1828), p. 243-254).
+
+Bourbaki XXIV.
+
+ment l’idée fondamentale que les propriétés « métriques » d’une figure plane ne sont autres que les propriétés « projectives » de la figure augmentée des points cycliques — jalon décisif vers le « programme d’Erlangen ».
+
+F) La géométrie non-euclidienne hyperbolique, qui voit le jour aux environs de 1830, reste d’abord un peu à l’écart du mouvement dont nous retraçons les grandes lignes. Issue de préoccupations d’ordre essentiellement logique touchant les fondements de la géométrie classique, cette nouvelle géométrie est présentée par ses inventeurs (*) sous la même forme axiomatique et « synthétique » que la géométrie d’Euclide, et sans lien avec la géométrie projective (dont l’introduction suivant le modèle classique paraissait même exclue a priori, puisque la notion de parallèle unique disparaît dans cette géométrie); c’est sans doute pour cela qu’elle n’attire guère, pendant longtemps, l’intérêt des écoles française, allemande et anglaise de géométrie projective. Aussi, lorsque Cayley, dans le mémoire fondamental cité plus haut (XVIII d) a l’idée de remplacer les points cycliques (considérés comme conique « dégénérée tangentiellellement ») par une conique quelconque (qu’il nomme « absolu »), il ne songe nullement à relier cette idée à la géométrie de Lobatschevsky-Bolyai, bien qu’il indique comment sa conception conduit à de nouvelles expressions pour la « distance » de deux points, et qu’il mentionne ses liens avec la géométrie sphérique. La situation change vers 1870, lorsque les géométries non-euclidiennes, à la suite de la diffusion des œuvres de Lobatschevsky, et de la publication des œuvres de Gauss et de la leçon inaugurale de Riemann, sont venues au premier plan de l’actualité mathématique. Suivant la voie tracée par Riemann, Beltrami, sans connaître le travail de Cayley, retrouve en 1868 les expressions de la distance données par ce dernier, mais dans un tout autre contexte, en considérant l’intérieur d’un cercle comme une image d’une surface à courbure constante, dans laquelle les géodésiques sont représentées par des droites (XXIV); c’est Klein qui, deux ans plus tard, fait (indépendamment de Beltrami) la synthèse de ces divers points de vue, qu’il complète par la découverte de l’espace non euclidien elliptique (XXV a) (**).
+
+G) Dans la seconde moitié de l’époque que nous considérons ici, s’instaure une période de réflexion critique, au cours de laquelle les partisans de la géométrie « synthétique », non contents d’avoir banni les coordonnées de leurs démonstrations, prétendent se passer des nombres
+
+(*) On sait que Gauss, dès 1800, s’était convaincu de l’impossibilité de démontrer le postulat d’Euclide, et de la possibilité logique de développer une géométrie où ce postulat ne serait pas vérifié. Mais il ne publia pas ses résultats sur cette question, et ceux-ci ne furent retrouvés indépendamment que par Lobatschevsky en 1829 et Bolyai en 1832. Pour plus de détails, voir F. Engel-P. Stäckel, Die Theorie der Parallellinien von Euklid bis auf Gauss, Leipzig (Teubner), 1895, et Urkunden zur Geschichte der nichteuclidischen Geometrien, 2 vol., Leipzig (Teubner), 1898-1913.
+
+(**) L’exemple de la géométrie sphérique avait fait croire pendant quelque temps que, dans un espace à courbure constante positive, il existe toujours des couples de points par lesquels passe plus d’une géodésique.
+
+réels jusque dans les axiomes de la géométrie. Le principal représentant de cette école est von Staudt, qui parvint essentiellement à réaliser ce tour de force (XXIII), très admiré de son temps et même bien avant dans le xx\textsuperscript{e} siècle ; et si aujourd’hui on n’attribue plus la même importance aux idées de cet ordre, dont les possibilités d’application fructueuse se sont révélées assez minces, il faut cependant reconnaître que les efforts de von Staudt et de ses disciples ont contribué à éclaircir les idées sur le rôle des « scalaires » réels ou complexes dans la géométrie classique, et à introduire par là même la conception moderne des géométries sur un corps de base arbitraire.
+
+Vers 1860, la géométrie « synthétique » est à son apogée, mais la fin de son règne approche à grands pas. Restée lourde et disgracieuse pendant tout le xviii\textsuperscript{e} siècle, la géométrie analytique, entre les mains des Lamé, Bobillier, Cauchy, Plücker et Möbius, acquiert enfin l’élégance et la concision qui vont lui permettre de lutter à armes égales avec sa rivale. Surtout, à partir de 1850 environ, les idées de groupe et d’invariant, formulées enfin de façon précise, envahissent peu à peu la scène, et on s’aperçoit que les théorèmes de géométrie classique ne sont pas autre chose que l’expression de relations identiques entre invariants ou covariants du groupe des similitudes (*), de même que ceux de géométrie projective expriment les identités (ou « syzygies ») entre covariants du groupe projectif. C’est la thèse qui est magistralement exposée par F. Klein dans le célèbre « programme d’Erlangen » (XXV b), où il préconise l’abandon des controverses stériles entre la tendance « synthétique » et la tendance « analytique » ; si, dit-il, l’accusation portée contre cette dernière de donner un rôle privilégié à un système d’axes arbitraires « n’était que trop souvent justifiée en ce qui concerne la façon défectueuse dont on se servait autrefois de la méthode des coordonnées, elle s’effondre lorsqu’il s’agit d’une application rationnelle de cette méthode... Le domaine de l’intuition spatiale n’est pas interdit à la méthode analytique... », et il souligne que « l’on ne doit pas sous-estimer l’avantage qu’un formalisme bien adapté apporte aux recherches ultérieures, en ce qu’il devance pour ainsi dire la pensée » ((XXV b), p. 488-490).
+
+On aboutit ainsi à une classification rationnelle et « structurale » des théorèmes de « géométrie » suivant le groupe dont ils relèvent : groupe linéaire pour la géométrie projective, groupe orthogonal pour les questions métriques, groupe symplectique pour la géométrie du « complexe linéaire ». Mais sous cette impitoyable clarté, la géométrie classique — exceptions faites de la géométrie algébrique et de la géométrie différentielle (**), désormais constituées en sciences autonomes — se fane brus-
+
+(*) Par exemple, les premiers membres des équations des trois hauteurs d’un triangle sont des covariants des trois sommets du triangle pour le groupe des similitudes, et le théorème affirmant que ces trois hauteurs ont un point commun équivaut à dire que les trois covariants en question sont linéairement dépendants.
+
+(**) Nous n’avons pas ici à faire l’histoire de ces deux disciplines ni à examiner en détail l’influence du « programme d’Erlangen » sur leur développement quement et perd tout son éclat. Déjà la généralisation des méthodes fondées sur l’usage des transformations avait rendu quelque peu mécanique la formation de nouveaux théorèmes : « Aujourd’hui », dit Chasles en 1837 dans son Aperçu historique, « chacun peut se présenter, prendre une vérité quelconque connue, et la soumettre aux divers principes généraux de transformation ; il en retirera d’autres vérités, différentes ou plus générales ; et celles-ci seront susceptibles de pareilles opérations ; de sorte qu’on pourra multiplier, presque à l’infini, le nombre des vérités nouvelles déduites de la première… Peut donc qui voudra, dans l’état actuel de la science, généraliser et créer en Géométrie ; le génie n’est plus indispensable pour ajouter une pierre à l’édifice » ((XV b), p. 268-269). Mais la situation devient bien plus nette avec les progrès de la théorie des invariants, qui parvient enfin (tout au moins pour les groupes « classiques ») à formuler des méthodes générales permettant en principe d’écrire tous les covariants algébriques et toutes leurs « syzygies » de façon purement automatique ; victoire qui, du même coup, marque la mort, comme champ de recherches, de la théorie classique des invariants elle-même, et de la géométrie « élémentaire », qui en est devenue pratiquement un simple dictionnaire. Sans doute, rien ne permet de prévoir a priori, parmi l’infinité de « théorèmes » que l’on peut ainsi dérouler à volonté, quels seront ceux dont l’énoncé, dans un langage géométrique approprié, aura une simplicité et une élégance comparables aux résultats classiques et il reste là un domaine restreint où continuent à s’exercer avec bonheur de nombreux amateurs (géométrie du triangle, du tétraèdre, des courbes et surfaces algébriques de bas degré, etc.). Mais pour le mathématicien professionnel, la mine est tarie, puisqu’il n’y a plus là de problèmes de structure, susceptibles de retentir sur d’autres parties des mathématiques ; et ce chapitre de la théorie des groupes et des invariants peut être considéré comme clos jusqu’à nouvel ordre. (*)
+
+**
+
+Ainsi, après le programme d’Erlangen, les géométries euclidienne et non euclidiennes, du point de vue purement algébrique, sont devenues de simples langages, plus ou moins commodes, pour exprimer les résultats
+
+ultérieur. Mentionnons seulement que la géométrie algébrique, après plus de 100 ans de recherches, est plus activement étudiée que jamais ; quant à la géométrie différentielle, après une brillante floraison avec Lie, Darboux et leurs disciples, elle semblait menacée de la même sclérose que la géométrie élémentaire classique, lorsque les travaux contemporains (prenant surtout leur origine dans les idées de E. Cartan) sur les espaces fibrés et les problèmes « globaux » sont venus lui redonner toute sa vitalité.
+
+(*) Bien entendu, cette inéluctable déchéance de la géométrie (euclidienne ou projective), qui semble évidente à nos yeux, est pendant longtemps restée inaperçue des contemporains, et jusque vers 1900, cette discipline a continué à faire figure de branche importante des mathématiques, ainsi qu’en témoigne par exemple la place qu’elle occupe dans l’Enzyklopädie ; jusqu’à ces dernières années, elle occupait encore cette place dans l’enseignement des Universités.
+
+de la théorie des formes bilinéaires, dont les progrès vont de pair avec ceux de la théorie des invariants (*). Tout ce qui concerne la notion de rang d’une forme bilinéaire et les rapports entre ces formes et les transformations linéaires est définitivement éclairci par les travaux de Frobenius (XXVII a). C’est aussi à Frobenius qu’est due l’expression canonique d’une forme alternée sur un $\mathbf{Z}$-module libre ($\S 5,$ n° 1, th. 1) (XXVII b); toutefois, les déterminants symétriques gauches étaient déjà apparus chez Pfaff, au début du siècle, à propos de la réduction des formes différentielles à une forme normale; Jacobi, qui, en 1827, reprend ce problème (XIX a), sait qu’un déterminant symétrique gauche d’ordre impair est nul, et c’est lui qui forme l’expression du pfaffien et montre que c’est un facteur du déterminant symétrique gauche d’ordre pair; mais il n’avait pas aperçu que ce dernier est le carré du pfaffien, et ce point ne fut établi que par Cayley en 1849 (XVIII b). La notion de forme bilinéaire symétrique associée à une forme quadratique est le cas le plus élémentaire du processus de « polarisation », un des outils fondamentaux de la théorie des invariants. Sous le nom de « produit scalaire », cette notion connaîtra une fortune immense, d’abord avec les vulgarisateurs du « calcul vectoriel », puis, à partir du xx\textsuperscript{e} siècle, grâce à la généralisation insoupçonnée qu’en apporte la théorie de l’espace de Hilbert (voir Note hist. du Livre V). C’est aussi cette dernière théorie qui mettra en lumière la notion d’adjoint d’un opérateur (qui auparavant ne s’était guère manifestée que dans la théorie des équations différentielles linéaires, et, en calcul tensoriel, par la valse des indices co- et contravariants sous la baguette du tenseur métrique); c’est elle enfin qui donnera tout son relief à la notion de forme hermitienne, introduite d’abord par Hermite en 1853 à propos de recherches arithmétiques ((XXII), p. 237), mais restée un peu en marge des grands courants mathématiques jusqu’en vers 1925 et les applications des espaces hilbertiens complexes aux théories quantiques.
+
+L’étude du groupe orthogonal et du groupe des similitudes — clairement conçus et traités comme tels depuis le milieu du xix\textsuperscript{e} siècle, et devenus le cœur de la théorie des formes quadratiques — ainsi que des autres groupes « classiques » (groupe linéaire, groupe symplectique et groupe unitaire), prend d’autre part une importance de plus en plus grande. Nous ne pouvons que mentionner ici le rôle essentiel joué par ces groupes, dans la théorie des groupes de Lie et la géométrie différentielle d’une part, la théorie arithmétique des formes quadratiques (voir par exemple (XXXIII) et (XXXV)) de l’autre (**); à cette circonstance, ainsi qu’à
+
+(*) En particulier, l’intérêt qui s’attache à la géométrie non-euclidienne provient, non de cet aspect algébrique banal, mais bien de ses relations avec la géométrie différentielle et la théorie des fonctions de variables complexes; c’est pourquoi, dans cet ouvrage, les notions et définitions élémentaires de géométrie non-euclidienne ne seront introduites que dans les parties qui traiteront de ces théories.
+
+(**) Sans parler des théories quantiques, où les représentations linéaires des groupes orthogonaux sont fort utilisées, ni de la théorie de la relativité, qui attira l’attention sur le « groupe de Lorentz » (groupe orthogonal pour une forme de signature (3, 1)).
+
+l’extension du concept de dualité aux questions les plus diverses, est dû le fait qu’il n’est plus guère de théorie mathématique moderne où les formes bilinéaires n’interviennent d’une façon ou d’une autre. Nous devons en tout cas noter que c’est l’étude du groupe des rotations (à trois dimensions) qui conduisit Hamilton à la découverte des quaternions (XVII) ; cette découverte est généralisée par W. Clifford qui, en 1876, introduit les algèbres qui portent son nom, et prouve que ce sont des produits tensoriels d’algèbres de quaternions, ou d’algèbres de quaternions et d’une extension quadratique (XXVIII). Retrouvées quatre ans plus tard par Lipschitz (XXIX) qui les utilise pour donner une représentation paramétrique des transformations orthogonales à $n$ variables (généralisant celles que Cayley avait obtenues pour $n = 3$ (XVIII a) et $n = 4$ (XVIII c) par la théorie des quaternions (cf. § 9, exerc. 15 et 16)), ces algèbres, et la notion de « spineur » qui en dérive (voir (XXXII) et (XXXIV)), devaient aussi connaître une grande vogue à l’époque moderne en vertu de leur utilisation dans les théories quantiques.
+
+Il nous reste enfin à dire un mot de l’évolution des idées qui a conduit à l’abandon à peu près total de toute restriction sur l’anneau des scalaires dans la théorie des formes sesquilinéaires — tendance commune à toute l’algèbre moderne, mais qui s’est peut-être manifestée ici plus tôt qu’ailleurs. Nous avons déjà signalé l’introduction fructueuse de la géométrie sur le corps des nombres complexes (qui d’ailleurs, pendant tout le xixe siècle, n’allait pas sans une confusion perpétuelle et parfois périlleuse entre cette géométrie et la géométrie réelle) ; la clarté ici provient surtout des études axiomatiques de la fin du xixe siècle sur les fondements de la géométrie (XXX). Au cours de ces recherches, Hilbert et ses émules, notamment, en examinant les relations entre les divers axiomes, furent amenés à construire des contre-exemples appropriés, où le « corps de base » (commutatif ou non) possédait des propriétés plus ou moins pathologiques, et ils accoutumèrent ainsi les mathématiciens à des « géométries » d’un type tout nouveau. Du point de vue analytique, Galois avait déjà considéré des transformations linéaires où coefficients et variables prenaient leurs valeurs dans un corps premier fini ((XVI), p. 27); en développant ces idées, Jordan (XXVI) est amené de façon naturelle à envisager les groupes classiques sur ces corps, groupes dont l’intervention se manifeste dans des domaines variés des mathématiques. Dickson, vers 1900, étendit les recherches de Jordan à tous les corps finis, et plus récemment, on s’est aperçu qu’une grande partie de la théorie de Jordan-Dickson s’étend au cas d’un « corps de base » absolument quelconque ; ceci est dû essentiellement aux propriétés générales des vecteurs isotropes et au théorème de Witt, qui, triviaux dans les cas classiques, n’ont été établis pour un corps de base arbitraire qu’en 1936 (XXXI) (*).
+
+Mais en poussant ainsi vers une « abstraction » toujours plus grande l’étude des formes sesquilinéaires, il s’est avéré extrêmement suggestif de
+
+(*) Pour plus de détails sur ces questions, voir J. Dieudonné, La géométrie des groupes classiques (Erg. der Math., Neue Folge, Heft 5, Berlin-Göttingen-Heidelberg (Springer), 1955).
+
+conservver telle quelle la terminologie qui, dans le cas des espaces à 2 et 3 dimensions, provenait de la géométrie classique, et de l’étendre au cas $n$-dimensionnel et même aux espaces de dimension infinie. Dépassée en tant que science autonome et vivante, la géométrie classique s’est ainsi transfigurée en un langage universel de la mathématique contemporaine, d’une souplesse et d’une commodité incomparables.
+
+(I) O. Neugebauer, Vorlesungen über Geschichte der antiken mathematischen Wissenschaften, Bd. I : Vorgriechische Mathematik, Berlin (Springer), 1934.
+(II) J. Tropfke, Geschichte der Elementar-Mathematik, vol. IV-VI, Berlin-Leipzig (de Gruyter), 1923-24.
+(III) Euclidis Elementa, 5 vol., éd. J. L. Heiberg, Lipsiae (Teubner), 1883-88.
+(III bis) T. L. Heath, The thirteen books of Euclid’s Elements..., 3 vol., Cambridge, 1908.
+(IV) T. L. Heath, Apollonius of Perga, Treatise on conic sections, Cambridge (Univ. Press), 1896.
+(V) Ptolemaei Cl. Opera, éd. J. L. Heiberg, 2 vol., Lipsiae (Teubner), 1898-1903.
+(VI) G. Desargues, Œuvres..., t. I, Paris (Leiber), 1864 : Brouillon proiect d’une atteinte aux événements des rencontres d’un cône avec un plan, p. 103-230.
+(VII) P. Fermat, Œuvres, t. I, Paris (Gauthier-Villars), 1891 : a) Ad locos planos et solidos Isagoge, p. 91-110 (trad. française, ibid., t. III, p. 84-101); b) Isagoge ad locos ad superficiem, p. 111-117 (trad. française, ibid., t. III, p. 102-108).
+(VIII) L. Euler : a) Introductio in Analysin Infinitorum (Opera Omnia (1), t. IX, Zürich-Leipzig-Berlin (O. Füssli et B. G. Teubner), 1945); b) Theoria motus corporum solidorum seu rigidorum (Opera Omnia (2), t. III, Zürich-Leipzig-Berlin (O. Füssli et B. G. Teubner), 1948); c) Problema algebraicum ob affectiones prorsus singulares memorabile (Opera Omnia, (1), t. VI, Leipzig-Berlin (Teubner), 1921, p. 287-315); d) Formulae generales pro translatione quacunque corporum rigidorum, Novi Comm. Acad. Sc. imp. Petrop., t. XX (1776), p. 189-207; e) De centro similitudinis. (Opera Omnia (1), t. XXVI, Zürich (O. Füssli), 1956, p. 276-285).
+(IX) J. L. Lagrange, Œuvres, Paris (Gauthier-Villars), 1867-1892 : a) Recherches sur la méthode de maximis et minimis, t. I, p. 3-20 ; b) Recherches d’arithmétique, t. III, p. 695-795.
+(X) G. Monge, Géométrie descriptive, Paris, 1798.
+(XI) C. F. Gauss, Werke : a) Disquisitiones arithmeticae, t. I, Göttingen, 1870; b) Mutationen des Raumes, t. VIII, Göttingen, 1900, p. 357-362.
+(XII) J.-V. Poncelet, Traité des propriétés projectives des figures, t. I, 2e éd., Paris (Gauthier-Villars), 1865.
+(XIII) A. F. Möbius, Gesammelte Werke, Leipzig (Hirzel), 1885-87 : a) Der barycentrische Calcul, t. I, p. 1-388 ; b) Ueber eine besondere Art dualer Verhältnisse zwischen Figuren im Raume, t. I, p. 489-515 (= J. de Crelle, t. X, 1833); c) Ueber eine neue Behandlungsweise der analytischen Sphärik, t. II, p. 1-54.
+
+(XIV) A.-L. Cauchy : a) Leçons sur les applications du calcul infinitésimal à la géométrie (Œuvres complètes, (2), t. V, Paris (Gauthier-Villars), 1903) ; b) Sur l’équation à l’aide de laquelle on détermine les inégalités séculaires des planètes (Œuvres complètes (2), t. IX, Paris (Gauthier-Villars), 1891, p. 174-195).
+(XV) M. Chasles : a) Note sur les propriétés générales du système de deux corps, Bull. de Férussac, t. XIV (1830), p. 321-326 ; b) Aperçu historique sur l’origine et le développement des méthodes en géométrie, Bruxelles, 1837.
+(XVI) E. Galois, Œuvres mathématiques, Paris (Gauthier-Villars), 1897.
+(XVII) W. R. Hamilton, Lectures on Quaternions, Dublin, 1853.
+(XVIII) A. Cayley, Collected Mathematical Papers, Cambridge, 1889-1898 : a) On certain results relating to quaternions, t. I, p. 123-126 (= Phil. Mag., 1845) ; b) Sur les déterminants gauches, t. I, p. 410-413 (= J. de Crelle, t. XXXVIII (1848)) ; c) Recherches ultérieures sur les déterminants gauches, t. II, p. 202-215 (= J. de Crelle, t. L (1855)) ; d) A sixth memoir on quantics, t. II, p. 561-592 (= Phil. Trans., 1859).
+(XIX) C. G. J. Jacobi, Gesammelte Werke, Berlin (G. Reimer), 1881-1891 : a) Ueber die Pfaffsche Methode..., t. IV, p. 17-29 ; b) Ueber einen algebraischen Fundamentalsatz und seine Anwendungen, t. III, p. 593-598.
+(XX) J. J. Sylvester, Collected Mathematical Papers, vol. I, Cambridge, 1904 : A demonstration of the theorem that every homogeneous quadratic polynomial is reducible by real orthogonal substitution to the form of a sum of positive and negative squares, p. 378-381 (= Phil. Mag., 1852).
+(XXI) E. Laguerre, Œuvres, t. II, Paris (Gauthier-Villars), 1905.
+(XXII) C. Hermite, Œuvres, t. I, Paris (Gauthier-Villars), 1905 : Sur la théorie des formes quadratiques, p. 200-263 (= J. de Crelle, t. XLVII (1854)).
+(XXIII) K. G. V. von Staudt, Beiträge zur Geometrie der Lage, Nürnberg, 1856.
+(XXIV) E. Beltrami : a) Saggio di interpretazione della geometria non-euclidea, Giorn. di Mat., t. VI (1868), p. 284-312 ; b) Teoria fondamentale degli spazii di curvatura costante, Ann. di Mat. (2), t. II (1868-69), p. 232-255.
+(XXV) F. Klein, Gesammelte mathematische Abhandlungen, t. I, Berlin (Springer), 1921 : a) Ueber die sogenannte Nicht-Euklidische Geometrie, p. 254-305 (= Math. Ann., t. IV (1871)) ; b) Vergleichende Betrachtungen über neuere geometrische Forschungen, p. 460-497 (= Math. Ann., t. XLIII (1893)).
+(XXVI) C. Jordan, Traité des substitutions et des équations algébriques, Paris (Gauthier-Villars), 1870.
+(XXVII) G. Frobenius; a) Ueber lineare Substitutionen und bilineare Formen, J. de Crelle, t. LXXXIV (1878), p. 1-63 ; b) Theorie der linearen Formen mit ganzen Coefficienten, J. de Crelle, t. LXXXVI (1879), p. 146-208.
+(XXVIII) W. K. Clifford, Mathematical Papers, London (Macmillan), 1882 : a) On the classification of geometric algebras, p. 397-401 ; b) Applications of Grassmann’s extensive algebras, p. 266-276 (= Amer. Journ. of Math., t. I (1878)).
+(XXIX) R. Lipschitz, Untersuchungen ueber die Summen von Quadraten, Bonn, 1886.
+(XXX) D. Hilbert, Grundlagen der Geometrie, Leipzig (Teubner), 1899.
+(XXXI) E. Witt, Theorie der quadratischen Formen in beliebigen Körpern, J. de Crelle, t. CLXXVI (1937), p. 31-44.
+(XXXII) E. Cartan, Leçons sur la théorie des spineurs, Actual. Sci. et Industr., n°s 643 et 701, Paris (Hermann), 1938.
+(XXXIII) C. L. Siegel, Symplectic Geometry, Amer. Journ. of Math., t. LXV (1943), p. 1-86.
+(XXXIV) C. Chevalley, The algebraic theory of spinors, New York (Columbia Univ. Press), 1954.
+(XXXV) M. Eichler, Quadratische Formen und orthogonale Gruppen, Berlin-Göttingen-Heidelberg (Springer), 1952.
+
+Les chiffres de référence indiquent successivement le paragraphe et le numéro (ou, exceptionnellement, l’exercice).
+
+$d_\Phi, s_\Phi : 1, 1$ et $6.$
+$bJ, bJ' : 1, 2.$
+$F^J$ (J antiautomorphisme de l’anneau B des scalaires du module à droite F) : 1, 2.
+$N^o, M^o$ (N, M sous-modules) : 1, 3.
+$\widehat{\Phi} : 1, 7.$
+$u^*$ (u homomorphisme) : 1, 8.
+$\Phi_{(m)} : 1, 9.$
+$M(x), x$ (x élément d’un module libre) : 1, 10.
+$M(u)$ (u homomorphisme d’un module libre dans un module libre) : 1, 10.
+$^tM, M^J$ (M matrice) : 1, 10.
+$D_\Phi(x_1, \ldots, x_n), D_\Phi(S) : 2.$
+$\overline{\alpha}$ ($\alpha$ scalaire) : 3.
+$\mathrm{Pf}(R) : 5, 2.$
+$\mathbf{Sp}(\Phi), \mathbf{Sp}(2m, A), \mathbf{Sp}_{2m}(A) : 5, 3.$
+$\mathbf{U}(\Phi), \mathbf{SU}(\Phi)$ ($\Phi$ forme hermitienne) : 6, 2.
+$\mathbf{O}(Q), \mathbf{SO}(Q)$ (Q forme quadratique) : 6, 2.
+$\mathbf{U}(n, A), \mathbf{SU}(n, A), \mathbf{O}(n, A), \mathbf{SO}(n, A) : 6, 2.$
+$Q \perp Q', Q \sim Q'$ (Q, Q’ formes quadratiques) : 8, 1.
+$\theta(Q)$ (Q forme quadratique) : 8, 1.
+$T + T', a.T$ (T, T’ types de formes quadratiques) : 8, 2.
+$\delta(Q)$ (Q forme quadratique) : 8, 2.
+$Q \otimes Q'$ (Q, Q’ formes quadratiques) : 8, 3.
+$TT'$ (T, T’ types de formes quadratiques) : 8, 3.
+$T^h, T^+, T^- : 9, 1.$
+$C(Q), I(Q), \rho_Q, \rho, C^+(Q), C^-(Q), C^+, C^-$ (Q forme quadratique) : 9, 1.
+$\alpha, \beta, C(f) : 9, 1.$
+$e_x, i_f, i^F_x, \lambda_F : 9, 2.$
+$\overline{\lambda}_F : 9, 3.$
+$G, G^+, G^+_0, O^+(Q), O^+_0(Q), N(s)$ (Q forme quadratique, s élément inversible du groupe de Clifford spécial $G^+$) : 9, 5.
+$A(\Phi)$ ($\Phi$ forme bilinéaire symétrique sur un espace vectoriel de dimension 2) : 10, 1.
+$S, S^+, H, O^+ : 10, 1.$
+$\bar{u}(u$ similitude directe$), i, d : 10, 1.$
+$c_w, s_w, t_w, c, s, t : 10, 2.$
+$H^+ : 10, 3.$
+
+(D_1, D_2) (D_1, D_2 droites ou demi-droites) : 10, 3.
+\mathfrak{A}, \mathfrak{A}_0, h, h' : 10, 3.
+|x|, \langle x, y \rangle (x, y vecteurs) : 10, 3.
+\cos \theta, \sin \theta, \operatorname{tg} \theta, \operatorname{cotg} \theta : 10, 3.
+\{ D_1, D_2 \}, \{ D_1, D_2 \} (D_1, D_2 demi-droites dans un plan orienté) : 10, 4.
+
+Les chiffres de référence indiquent successivement le paragraphe et le numéro (ou exceptionnellement, l’exercice).
+
+Adjoint (à droite, à gauche) d’un homomorphisme : 1, 8.
+Adjoint d’une application semi-linéaire : 7, 3.
+Algèbre de Clifford d’une forme quadratique : 9, 1.
+Alternée (matrice) : 3, 1.
+Angle de deux et demi-droites : 10, 3, et exerc. 6.
+Angle de de deux demi-droites dans un plan affine : 10, 3.
+Angle de deux droites : 10, 3 et exerc. 2.
+Angle de deux droites dans un plan affine : 10, 3.
+Angle de deux droites pointées : 10, exerc. 2.
+Angle de deux vecteurs dans un plan : 10, 3.
+Angle de deux vecteurs dans un espace de dimension $\geqslant 2 : 10, 3$.
+Angle droit : 10, 3 et exerc. 2.
+Angle d’une rotation : 10, 3.
+Angle d’une similitude directe : 10, exerc. 6.
+Angle plat : 10, 3 et exerc. 6.
+Anneau des types de formes quadratiques : 8, 3.
+Anneau de Witt : 8, 3.
+Antiautomorphisme d’un anneau : 1, 2.
+Antiautomorphisme principal d’une algèbre de Clifford : 9, 1.
+Antihermitienne (forme) : 3, 1.
+Antihermitienne (matrice) : 3, 1.
+Antisymétrique (matrice) : 3, 1.
+Application bilinéaire : 1, 1.
+Application bilinéaire dégénérée (à droite, à gauche) : 1, 1.
+Application bilinéaire non dégénérée : 1, 1.
+Application bilinéaire non dégénérée associée à une application bilinéaire : 1, 3.
+Application bilinéaire obtenue par extension des scalaires à partir d’une application bilinéaire : 1, 4.
+Application canonique d’un module dans son algèbre de Clifford : 9, 1.
+Application canonique de l’ensemble des endomorphismes hermitiens sur l’ensemble des formes hermitiennes : 7, 3.
+Application canonique de l’ensemble $\mathfrak{A}$ sur $S^+/H : 10, 3$.
+Application canonique de l’ensemble $\mathfrak{A}$ sur $O^+ : 10, 3$.
+Application linéaire associée à droite (à gauche) à une application bilinéaire : 1, 1.
+Application semi-linéaire associée à droite (à gauche) à une forme sesquilinéaire : 1, 6.
+
+Application sesquilineaire à droite (à gauche) pour un antiautomorphisme : 1, 2.
+Application sesquilineaire dégénérée (à droite, à gauche) : 1, 2.
+Application sesquilineaire non dégénérée : 1, 2.
+Application sesquilineaire non dégénérée associée à une application sesquilineaire : 1, 3.
+Application sesquilineaire obtenue par extension des scalaires à partir d’une application sesquilineaire : 1, 4.
+Associée (application linéaire) à une application bilinéaire : 1, 1.
+Associée (application semi-linéaire) à une forme sesquilineaire : 1, 6.
+Associée (forme bilinéaire) à une forme quadratique : 3, 4.
+Automorphisme orthogonal : 6, 2.
+Automorphisme orthogonal à $n$ variables : 6, 2.
+Automorphisme principal d’une algèbre de Clifford : 9, 1.
+Automorphisme symplectique : 5, 3.
+Automorphisme symplectique à $2m$ variables : 5, 3.
+Automorphisme unitaire : 6, 2.
+Automorphisme unitaire à $n$ variables : 6, 2.
+Axe d’un complexe linéaire affine : 10, exerc. 16.
+Base orthogonale : 6, 1.
+Base orthonormale : 6, 1.
+Base symplectique : 5, 1.
+Bilinéaire (application) : 1, 1.
+Bilinéaire (forme) : 1, 6.
+Bimodule : 1, 1.
+Canonique : voir Application canonique et Homomorphisme canonique.
+Centre d’une quadrique : 6, exerc. 25 et 10, exerc. 12.
+Cercle unité : 10, exerc. 2.
+Chasles (relation de) : 10, 3.
+Clifford (algèbre de) : 9, 1.
+Clifford (groupe de) : 9, 5.
+Complexe linéaire : 10, exerc. 16.
+Condition (C) : 6, 1.
+Condition (C') : 6, 1.
+Condition (T) : 4, 2.
+Cône isotrope : 6, exerc. 23.
+Conforme (groupe) : 10, exerc. 14.
+Conique affine : 6, exerc. 25.
+Conique projective : 6, exerc. 23.
+Conjuguées (variétés linéaires affines) : 6, exerc. 25.
+Conjuguées (variétés linéaires projectives) : 6, exerc. 23.
+Cosinus d’un angle : 10, 3.
+Cotangente d’un angle : 10, 3.
+Décomposition de Witt : 4, 2.
+Dégénérée (application bilinéaire) à droite (à gauche) : 1, 1.
+Dégénérée (application sesquilineaire) à droite (à gauche) : 1, 2.
+Dégénérée (conique affine) : 6, exerc. 25.
+Dégénérée (conique projective) : 6, exerc. 23.
+Dégénérée (quadrique affine) : 6, exerc. 25.
+Dégénérée (quadrique projective) : 6, exerc. 23.
+Demi-droite : 10, 3.
+Demi-droite fermée : 10, 3.
+Demi-droite isotrope : 10, 3.
+Demi-droite ouverte : 10, 3.
+Déplacement : 6, 6.
+Dimension d’une forme quadratique : 8, 1.
+Directe (similitude) : 6, 5.
+Discriminant d’une forme sesquilineaire par rapport à un système d’éléments : 2.
+Distance : 7, 1.
+Droit (angle) : 10, 3.
+Droite pointée : 10, exerc. 2.
+
+Élément impair d'une algèbre de Clifford : 9, 1.
+Élément isotrope : 4, 1.
+Élément pair d'une algèbre de Clifford : 9, 1.
+Élément singulier : 4, 1.
+Éléments orthogonaux par rapport à une application sesquilinéaire : 1, 3.
+Éléments orthogonaux par rapport à une forme quadratique : 3, 4.
+Endomorphisme hermitien : 7, 3.
+Endomorphisme normal : 7, 3.
+ε-hermitienne (forme) : 3, 1.
+ε-hermitienne (matrice) : 3, 1.
+Équivalentes (formes quadratiques) : 3, 4.
+Équivalentes (formes sesquilinéaires) : 1, 6.
+Espace de définition d'une forme quadratique : 8, 1.
+Espace euclidien : 6, 6.
+Espace hermitien : 6, 6.
+Espace orienté : 10, 3.
+Euclidien (espace) : 6, 6.
+Extension d'une forme sesquilinéaire à une puissance tensorielle : 1, 9.
+Extension d'une forme sesquilinéaire à une puissance extérieure : 1, 9.
+Externe (somme directe) de formes quadratiques : 3, 4.
+Externe (somme directe) de modules quadratiques : 3, 4.
+Faiblement orthogonaux (sous-espaces) : 3, exerc. 11.
+Fermé (secteur angulaire) : 10, 4.
+Fermée (demi-droite) : 10, 3.
+Fonction cosinus : 10, 3.
+Fonction cotangente : 10, 3.
+Fonction sinus : 10, 3.
+Fonction tangente : 10, 3.
+Fonction trigonométrique : 10, 3.
+Forme antihermitienne : 3, 1.
+Forme bilinéaire : 1, 6.
+Forme bilinéaire associée à une forme quadratique : 3, 4.
+Forme bilinéaire hermitienne : 3, 1.
+Forme hermitienne : 3, 1.
+Forme hermitienne négative (positive) : 7, 1.
+Forme inverse d'une forme bilinéaire (sesquilinéaire) : 1 ; 7.
+Forme métrique : 6, 6.
+Forme neutre : 4, 2 et 8, 1.
+Forme quadratique : 3, 4.
+Forme quadratique négative (positive) : 7, 1.
+Forme quadratique non dégénérée : 3, 4.
+Forme quadratique obtenue par extension des scalaires à partir d'une forme quadratique : 3, 4.
+Forme sesquilinéaire : 1, 6.
+Formes quadratiques équivalentes : 3, 4.
+Formes sesquilinéaires équivalentes : 1, 6.
+Gram-Schmidt (procédé d'orthogonalisation de) : 6, 1.
+Groupe de Clifford : 9, 5.
+Groupe de Clifford réduit : 9, 5.
+Groupe de Clifford spécial : 9, 5.
+Groupe des rotations : 9, 5.
+Groupe des types de formes quadratiques : 8, 2.
+Groupe de Witt : 8, 2.
+Groupe orthogonal associé à Q : 6, 2.
+Groupe orthogonal à n variables : 6, 2.
+Groupe spécial orthogonal : 6, 2.
+Groupe spécial unitaire : 6, 2.
+Groupe symplectique associé à Φ : 5, 3.
+Groupe symplectique à 2m variables : 5, 3.
+Groupe unitaire associé à Φ : 6, 2.
+
+Groupe unitaire à $n$ variables : 6, 2.
+Hermitien (endomorphisme) : 7, 3.
+Hermitien (espace) : 6, 6.
+Hermitienne (forme) : 3, 1.
+Hermitienne (matrice) : 3, 1.
+Homomorphisme canonique de l’algèbre de Clifford d’un sous-module de E dans l’algèbre de Clifford de E : 9, 1.
+Homomorphisme métrique : 4, 3.
+Hyperplan radical de deux sphères : 10, exerc. 12.
+Image réciproque d’une application bilinéaire : 1, 1.
+Image réciproque d’une application sesquilinéaire : 1, 2.
+Impair (élément) dans une algèbre de Clifford : 9, 1.
+Indice d’une forme quadratique (sesquilinéaire) : 4, 2.
+Invariant de Dickson : 9, exerc. 9.
+Inverse (forme) : 1, 7.
+Inverse (similitude) : 6, 5.
+Inversion : 10, exerc. 13.
+Inversion de sphère C : 10, exerc. 13.
+Involution dans un groupe linéaire : 6, 3.
+Isotrope (demi-droite) : 10, 3.
+Isotrope (élément) : 4, 1.
+Isotrope (sous-module) : 4, 1.
+Isotrope (variété linéaire) : 6, 6.
+Laguerre (formule de) : 10, exerc. 5.
+Loi d’inertie : 7, 2.
+Longueur d’un vecteur : 10, 3.
+Matrice alternée : 3, 1.
+Matrice antihermitienne : 3, 1.
+Matrice antisymétrique : 3, 1.
+Matrice d’une application satisfaisant à (G), (D), (GD) ou (DG) : 1, 10.
+Matrice d’une application bilinéaire : 1, 1.
+Matrice d’une application sesquilinéaire : 1, 2.
+Matrice ε-hermitienne : 3, 1.
+Matrice hermitienne : 3, 1.
+Matrice normale : 7, exerc. 17.
+Matrice orthogonale : 6, 2.
+Matrice symétrique : 3, 1.
+Matrice symplectique : 5, 3.
+Matrice unitaire : 6, 2.
+Métrique (forme) : 6, 6.
+Métrique (homomorphisme) : 4, 3.
+Module quadratique : 3, 4.
+Multiplicateur d’une similitude : 6, 5 et 6.
+Négatif ($n$-vecteur) : 10, 3.
+Négative (forme hermitienne) : 7, 1.
+Négative (forme quadratique) : 7, 1.
+Neutre (forme quadratique) : 8, 1.
+Neutre (forme sesquilinéaire) : 4, 2.
+Non dégénérée (application bilinéaire) : 1, 1.
+Non dégénérée (application sesquilinéaire) : 1, 2.
+Non dégénérée (forme quadratique) : 3, 4.
+Normal (endomorphisme) : 7, 3.
+Norme spinorielle : 9, 5.
+Noyau d’un module quadratique : 3, 4.
+$n$-vecteur négatif (positif) : 10, 3.
+Orientation d’un espace : 10, 3.
+Orienté (espace) : 10, 3.
+Orthogonal (automorphisme) : 6, 2.
+Orthogonal (groupe) : 6, 2.
+Orthogonal (groupe spécial) : 6, 2.
+
+Orthogonal (projecteur) : 6, 3.
+Orthogonal (sous-module) à un sous-module : 1, 3.
+Orthogonal (vecteur) à une variété linéaire : 6, 6.
+Orthogonale (base) : 6, 1.
+Orthogonale (matrice) : 6, 2.
+Orthogonale (projection) sur une variété linéaire : 6, 6.
+Orthogonale (transformation) : 6, 2.
+Orthogonale (variété) à une variété linéaire : 6, 6.
+Orthogonales (parties) : 1, 3 et 3, 4.
+Orthogonales (variétés linéaires) : 6, 6.
+Orthogonalisation (procédé d') de Gram-Schmidt : 6, 1.
+Orthogonaux (éléments) : 1, 3 et 3, 4.
+Orthonormale (base) : 6, 1.
+Ouvert (secteur angulaire) : 10, 4.
+Ouverte (demi-droite) : 10, 3.
+Pair (élément) dans une algèbre de Clifford : 9, 1.
+Parties orthogonales : 1, 3 et 3, 4.
+Perpendiculaires (variétés linéaires) : 6, exerc. 22.
+Pfaffien d'une matrice alternée : 5, 2.
+Plat (angle) : 10, 3.
+Point de vue d'une projection stéréographique : 10, exerc. 14.
+Polaire d'une variété linéaire par rapport à une quadrique : 6, exerc. 23 et 25.
+Pôle d'un hyperplan par rapport à une quadrique : 6, exerc. 23 et 25.
+Pôle d'une inversion : 10, exerc. 13.
+Positif (n-vecteur) : 10, 3.
+Positive (forme hermitienne) : 7, 1.
+Positive (forme quadratique) : 7, 1.
+Principal (antiautomorphisme) : 9, 1.
+Principal (automorphisme) : 9, 1.
+Produit tensoriel de formes quadratiques : 8, 3.
+Produit tensoriel de formes sesquilinéaires : 1, 9.
+Projecteur orthogonal : 6, 3.
+Projection orthogonale sur une variété linéaire : 6, 6.
+Projection stéréographique : 10, exerc. 14.
+Pseudo-discriminant : 9, exerc. 9.
+Puissance d'un point par rapport à une sphère : 10, exerc. 12.
+Puissance d'une inversion : 10, exerc. 13.
+Pythagore (théorème de) : 6, 6.
+Quadratique (forme ) : 3, 4.
+Quadratique (module) : 3, 4.
+Quadrique affine : 6, exerc. 25.
+Quadrique projective : 6, exerc. 23.
+Rang d'une forme bilinéaire (sesquilinéaire) : 1, 6.
+Rayon d'une sphère : 10, exerc. 12.
+Réduit (groupe de Clifford) : 9, 5.
+Relation de Chasles : 10, 3.
+Représentations spinorielles : 9, 4.
+Rotation : 9, 5.
+Rotation d'angle φ : 10, 3 et exerc. 2.
+Rotations (groupe des) : 9, 5.
+Secteur angulaire fermé : 10, 4.
+Secteur angulaire ouvert : 10, 4.
+Secteur angulaire plat : 10, exerc. 8.
+Secteur angulaire rentrant : 10, exerc. 8.
+Secteur angulaire saillant : 10, exerc. 8.
+Semi-spineur : 9, 4.
+Sesquilinéaire (application) : 1, 2.
+Sesquilinéaire (forme) : 1, 6.
+Signature d'une forme hermitienne : 7, 2.
+Similitude : 6, 5 et 6.
+
+Similitude directe : 6, 5 et 9, exerc. 9.
+Similitude inverse : 6, 5.
+Singulier (élément) : 4, 1.
+Singulier (sous-module) : 4, 1.
+Sinus d’un angle : 10, 3.
+Somme directe d’applications bilinéaires (sesquilinéaires) : 1, 3.
+Somme directe externe de formes quadratiques (modules quadratiques) : 3, 4.
+Sous-module isotrope : 4, 1.
+Sous-module orthogonal à un sous-module : 1, 3.
+Sous-module singulier : 4, 1.
+Sous-module totalement isotrope : 4, 1.
+Sous-module totalement singulier : 4, 1.
+Sphère : 10, exerc. 12.
+Sphères orthogonales : 10, exerc. 12.
+Spineur : 9, 4.
+Suite directe de demi-droites : 10, 4.
+Symétrie par rapport à un hyperplan : 6, 4.
+Symétrie par rapport à un sous-espace vectoriel : 6, 3.
+Symétrie par rapport à une variété linéaire affine : 6, 6.
+Symétrique (matrice) : 3, 1.
+Symplectique (automorphisme) : 5, 3.
+Symplectique (base) : 5, 1.
+Symplectique (groupe) : 5, 3.
+Symplectique (matrice) : 5, 3.
+Symplectique (transformation) : 5, 3.
+Tangente d’un angle : 10, 3.
+Tangente (variété linéaire) à une quadrique : 6, exerc. 23 et 25.
+Théorème de Pythagore : 6, 6.
+Théorème de Witt : 4, 3.
+Totalement isotrope (sous-module) : 4, 1.
+Totalement orthogonal (sous-module) à un sous-module : 1, 3.
+Totalement orthogonale (variété) à une variété linéaire : 6, 6.
+Totalement singulier (sous-module) : 4, 1.
+Transformation orthogonale : 6, 2.
+Transformation symplectique : 5, 3.
+Transformation unitaire : 6, 2.
+Trigonométrique (fonction) : 10, 3.
+Type d’une forme quadratique : 8, 1.
+Unitaire (automorphisme) : 6, 2.
+Unitaire (groupe) : 6, 2.
+Unitaire (groupe spécial) : 6, 2.
+Unitaire (matrice) : 6, 2.
+Unitaire (transformation) : 6, 2.
+Variété linéaire isotrope : 6, 6.
+Variété linéaire orthogonale à une variété linéaire : 6, 6.
+Variété linéaire totalement isotrope : 6, 6.
+Variétés linéaires orthogonales : 6, 6.
+Vecteur orthogonal à une variété linéaire : 6, 6.
+Witt (anneau de) : 8, 3.
+Witt (décomposition de) : 4, 2.
+Witt (groupe de) : 8, 2.
+Witt (théorème de) : 4, 3.
+
+CHAPITRE IX. — Formes sesquilinéaires et formes quadratiques ............ 3
+§ 1. Formes sesquilinéaires ............................................. 7
+    1. Applications bilinéaires ........................................ 7
+    2. Applications sesquilinéaires .................................. 10
+    3. Orthogonalité. Sommes directes d'applications bilinéaires ou sesquilinéaires .................................................. 12
+    4. Changement d'anneaux de base .................................. 13
+    5. Quelques identités .................................................. 18
+    6. Formes bilinéaires et sesquilinéaires. Rang .................. 18
+    7. Forme inverse d'une forme bilinéaire ou sesquilinéaire .......... 23
+    8. Adjoint d'un homomorphisme .................................... 25
+    9. Produits tensoriels et puissances extérieures de formes sesquilinéaires ......................................................... 27
+   10. Calculs matriciels .................................................. 32
+§ 2. Discriminant d'une forme sesquilinéaire .......................... 41
+§ 3. Formes hermitiennes et formes quadratiques ....................... 49
+    1. Formes hermitiennes et ε-hermitiennes .......................... 49
+    2. Modules sur une extension quadratique .......................... 51
+    3. Formes bilinéaires associées à une forme hermitienne .......... 52
+    4. Formes quadratiques ............................................... 54
+§ 4. Sous-espaces totalement isotropes. Théorème de Witt ............... 63
+    1. Sous-espaces isotropes ........................................... 64
+    2. Décomposition de Witt ............................................. 65
+    3. Théorème de Witt .................................................. 71
+§ 5. Propriétés spéciales aux formes bilinéaires alternées ............... 79
+    1. Réduction des formes bilinéaires alternées ..................... 79
+    2. Pfaffien d'une matrice alternée .................................. 82
+    3. Groupe symplectique ................................................ 84
+§ 6. Propriétés spéciales aux formes hermitiennes ......................... 90
+    1. Bases orthogonales ................................................ 90
+    2. Groupe unitaire et groupe orthogonal ............................ 93
+    3. Projecteurs orthogonaux et involutions .......................... 95
+    4. Symétries dans le groupe orthogonal ............................. 97
+    5. Groupe des similitudes ............................................ 98
+    6. Géométrie hermitienne ............................................. 100
+§ 7. Formes hermitiennes et corps ordonnés ............................... 114
+    1. Formes hermitiennes positives ................................... 115
+    2. La loi d'inertie .................................................. 117
+    3. Réduction d'une forme par rapport à une forme hermitienne positive ............................................................. 118
+
+§ 8. Types de formes quadratiques ............................................. 132
+    1. Types de formes quadratiques ............................................. 132
+    2. Groupe des types de formes quadratiques ................................. 134
+    3. Anneau des types de formes quadratiques ................................. 137
+§ 9. Algèbres de Clifford ....................................................... 139
+    1. Définition et propriété universelle de l’algèbre de Clifford ............ 139
+    2. Quelques opérations dans l’algèbre tensorielle .......................... 141
+    3. Base de l’algèbre de Clifford ............................................. 143
+    4. Structure de l’algèbre de Clifford ........................................ 146
+    5. Groupe de Clifford ....................................................... 150
+§ 10. Angles ............................................................................. 160
+    1. Similitudes directes dans un plan .......................................... 160
+    2. Trigonométrie plane ....................................................... 164
+    3. Angles ............................................................................. 167
+    4. Secteurs angulaires ....................................................... 173
+Note historique ............................................................................. 185
+Index des notations ....................................................................... 202
+Index terminologique ...................................................................... 204
+Définitions du chapitre IX ......................................................... Dépliant
+
+Formes sesquilinéaires :
+Soient A un anneau, $\xi \to \bar{\xi}$ un antiautomorphisme involutif de A, c'est-à-dire une bijection de A sur lui-même telle que $(\xi + \eta) = \bar{\xi} + \bar{\eta}$, $(\xi \eta) = \bar{\eta} \cdot \bar{\xi}$, $\bar{\xi} = \xi$ quels que soient $\xi, \eta$ dans A. Une forme sesquilinéaire $\Phi$ sur un A-module à gauche E est une application de $E \times E$ dans A telle que
+$$
+\begin{align*}
+\Phi(x + x', y) &= \Phi(x, y) + \Phi(x', y), & \Phi(x, y + y') &= \Phi(x, y) + (x, \Phi y') \\
+\Phi(\alpha x, y) &= \alpha \Phi(x, y), & \Phi(x, \alpha y) &= \Phi(x, y) \bar{\alpha}
+\end{align*}
+$$
+quels que soient $\alpha \in A, x, x', y, y'$ dans E.
+Soit $\varepsilon$ un élément du centre de A. On dit qu'une forme sesquilinéaire $\Phi$ sur E est $\varepsilon$-hermitienne si $\Phi(y, x) = \varepsilon \overline{\Phi(x, y)}$ quels que soient $x \in E, y \in E$; si $\varepsilon = 1$ (resp. $\varepsilon = -1$) on dit que $\Phi$ est hermitienne (resp. anti-hermitienne).
+Lorsque l'antiautomorphisme $\xi \to \bar{\xi}$ est l'identité (ce qui implique que l'anneau A est commutatif), les formes sesquilinéaires correspondantes sont les formes bilinéaires. On dit alors « symétrique » au lieu de « hermitienne », et « antisymétrique » au lieu de « antihermitienne » (cf. chap. III). Une forme bilinéaire $\Phi$ telle que $\Phi(x, x) = 0$ est dite alternée ; elle est alors antisymétrique, et la réciproque est vraie lorsque A est un corps de caractéristique $\neq 2$ (cf. chap. III).
+On dit qu'une forme $\varepsilon$-hermitienne satisfait à la condition (T) si pour tout $x \in E$, il existe $\lambda \in A$ tel que $\Phi(x, x) = \lambda + \varepsilon \bar{\lambda}$. Cette condition est toujours remplie lorsque $\varepsilon = 1$ et que A est un corps de caractéristique $\neq 2$, ou lorsque $\Phi$ est alternée.
+
+Formes quadratiques :
+Soient A un anneau commutatif. Une forme quadratique Q sur un A-module E est une application de E dans A telle que $Q(\alpha x) = \alpha^2 Q(x)$ pour $\alpha \in A, x \in E$, et que l'application
+$$
+(x, y) \to \Phi(x, y) := Q(x + y) - Q(x) - Q(y)
+$$
+soit une forme bilinéaire (nécessairement symétrique), dite associée à la forme quadratique Q. On a $\Phi(x, x) = 2Q(x)$; inversement, pour toute forme bilinéaire $\Psi$ sur E, $x \to \Psi(x, x)$ est une forme quadratique sur E ;
+
+lorsque $A$ est un corps de caractéristique $\neq 2$, formes quadratiques et formes bilinéaires symétriques sur $E$ se correspondent donc biunivoquement.
+
+Eléments orthogonaux :
+Soit $\Phi$ une forme $\varepsilon$-hermitienne sur un $A$-module à gauche $E$. On dit que deux éléments $x, y$ de $E$ sont *orthogonaux* (pour $\Phi$) si $\Phi(x, y) = 0$; cette relation est symétrique en $x$ et $y$. Pour tout sous-module $M$ de $E$, l’ensemble des $x \in E$ qui sont orthogonaux à tous les éléments de $M$ est un sous-module noté $M^0$ et appelé l’*orthogonal* du sous-module $M$. On dit que $\Phi$ est *non dégénérée* si $E^0 = \{0\}$. Lorsque $E$ est un espace vectoriel de dimension finie et que $\Phi$ est non dégénérée, on a $\operatorname{codim} M^0 = \dim M$ et $M^{00} = M$ pour tout sous-espace $M$ de $E$; en outre, pour tout couple de sous-espaces $M, N$ de $E$, on a
+$$
+(M + N)^0 = M^0 \cap N^0, \qquad (M \cap N)^0 = M^0 + N^0.
+$$
+Supposons l’anneau $A$ commutatif, et soient $Q$ une forme quadratique sur le $A$-module $E$, $\Phi$ la forme bilinéaire associée à $Q$. On dit que deux éléments de $E$ sont *orthogonaux* (pour $Q$) s’ils sont orthogonaux pour $\Phi$; l’*orthogonal* d’un sous-module $M$ (pour $Q$) est l’orthogonal $M^0$ de $M$ pour $\Phi$. On dit que $Q$ est *non dégénérée* si $\Phi$ est non dégénérée.
+
+Eléments isotropes et éléments singuliers :
+Soit $\Phi$ une forme $\varepsilon$-hermitienne sur un $A$-module à gauche $E$. On dit qu’un élément $x \in E$ est *isotrope* si $\Phi(x, x) = 0$; on dit qu’un sous-module $M$ de $E$ est *isotrope* si $M \cap M^0 \neq \{0\}$ (autrement dit si la restriction de $\Phi$ à $M$ est dégénérée); on dit que $M$ est *totalement isotrope* si $M \subset M^0$ (autrement dit si la restriction de $\Phi$ à $M$ est nulle). Pour tout sous-module $M$ de $E$, $M \cap M^0$ est totalement isotrope. Si $E$ est un espace vectoriel de dimension finie et si $\Phi$ est non dégénérée, les trois conditions suivantes sont équivalentes pour un sous-espace $M$ de $E$ : $1^\circ$ $M$ est non isotrope ; $2^\circ$ $M^0$ est non isotrope ; $3^\circ$ $E$ est somme directe de $M$ et de $M^0$.
+Supposons l’anneau $A$ commutatif, et soient $Q$ une forme quadratique sur un $A$-module $E$, $\Phi$ la forme bilinéaire associée à $Q$. On dit qu’un élément $x \in E$ est *singulier* si $Q(x) = 0$; on dit qu’un sous-module $M$ de $E$ est *singulier* (resp. *totalement singulier*) si $M \cap M^0$ contient un élément singulier $\neq 0$ (resp. si la restriction de $Q$ à $M$ est nulle). Tout élément singulier (resp. sous-module singulier, sous-module totalement singulier) est isotrope (resp. isotrope, totalement isotrope); la réciproque est vraie lorsque $A$ est un corps de caractéristique $\neq 2$.
