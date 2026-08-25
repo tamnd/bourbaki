@@ -564,10 +564,6 @@ và thay $ u_i $ cho $ Y_i $ với $ 1 \leq i \leq q $ trong (32), ta thu đư�
 
 (ii) *Nếu* $ u, v $ *là các phần tử khác không của* $ A[[I]] $, *thì* $ \omega(uv) = \omega(u) + \omega(v) $.
 
-==========
-
-Đó là toàn bộ đoạn văn. Hãy viết bản dịch của tất cả những gì nằm giữa hai dòng, và dừng ở đó.
-
 Với mỗi $ J \subset I $, cho $ \varphi_J $ là đồng cấu từ $ A[[I]] $ vào $ A[[J]] $ thu được bằng cách thay trong mỗi phần tử của $ A[[I]] $, $ X_i $ bằng $ X_i $ khi $ i \in J $ và bằng 0 cho $ X_i $ khi $ i \in I - J $. Cho $ u, v $ là các phần tử khác 0 của $ A[[I]] $, $ p = \omega(u) $, $ q = \omega(v) $; tồn tại một tập con hữu hạn $ J $ của $ I $ sao cho
 
 $$

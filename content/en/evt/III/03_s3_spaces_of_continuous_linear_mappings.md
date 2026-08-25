@@ -324,11 +324,11 @@ Since the linear form \varepsilon^{-1}u belongs to (A \cap U)^\circ, there exist
 
 Now let E be a locally convex Hausdorff space and \hat{E} its completion. Every continuous linear form f on E extends to \hat{E} by continuity; hence we have (\hat{E})' = E'
 
-(III, p. 16) and every element of $ \hat{E} $ defines a linear form on $ E' $; that is, an element of the algebraic dual $ E'^* $ of $ E' $. In addition, the duality between $ E $ (resp. $ \hat{E} $) and $ E' $ is separating (II, p. 24, cor. 1). Consequently $ E $ and $ \hat{E} $ can be identified with vector subspaces of $ E'^* $.
+(III, p. 16) and every element of $ \hat{E} $ defines a linear form on $ E' $; that is, an element of the algebraic dual $ {E'}^* $ of $ E' $. In addition, the duality between $ E $ (resp. $ \hat{E} $) and $ E' $ is separating (II, p. 24, cor. 1). Consequently $ E $ and $ \hat{E} $ can be identified with vector subspaces of $ {E'}^* $.
 
 #### Theorem 2 {#evt-iii-s3-thm-2 .statement}
 
-*Let $ E $ be a locally convex Hausdorff space and $ \hat{E} $ its completion; we identify $ E $ and $ \hat{E} $ with vector subspaces of $ E'^* $. Then for an element $ f \in E'^* $ to belong to $ \hat{E} $, it is necessary and sufficient that the restriction of $ f $ to every equicontinuous subset of $ E' $ is continuous for the topology $ \sigma(E', E) $.*
+*Let $ E $ be a locally convex Hausdorff space and $ \hat{E} $ its completion; we identify $ E $ and $ \hat{E} $ with vector subspaces of $ {E'}^* $. Then for an element $ f \in {E'}^* $ to belong to $ \hat{E} $, it is necessary and sufficient that the restriction of $ f $ to every equicontinuous subset of $ E' $ is continuous for the topology $ \sigma(E', E) $.*
 
 The space $ E $ can be identified with the topological dual of $ E' $ when $ E' $ is assigned the topology $ \sigma(E', E) $ (II, p. 43, prop. 3); on the other hand, if $ \mathcal{S} $ is the set of equicontinuous subsets of $ E' $, the given topology on $ E $ is the $ \mathcal{S} $-topology (III, p. 19, cor. 1). Then it follows from III, p. 13, prop. 1, that the sets of $ \mathcal{S} $ are bounded for $ \sigma(E', E) $ (*cf.* later on, III, p. 22, prop. 9); in other words, $ \mathcal{S} $ is an adapted and covering bornology for the topology $ \sigma(E', E) $. Theorem 2 is then a consequence of th. 1 if we replace $ E $ by $ E' $ and $ E'_\mathcal{S} $ by $ E $.
 
@@ -344,7 +344,7 @@ The space $ E $ can be identified with the topological dual of $ E' $ when $ E' 
 
 *Let $ (E_i)_{i \in I} $ be a family of Hausdorff locally convex spaces and let $ E $ be their topological direct sum. Then the canonical mapping from the direct sum of the $ \hat{E}_i $ into $ \hat{E} $ is an isomorphism. In particular, $ E $ is complete if and only if all the $ E_i $ are complete.*
 
-We know that the dual of $ E $ can be identified with the product of the duals of the $ E_i $ (II, p. 30, formula (1)). Let $ u \in \hat{E} $, and let $ u_i \in E_i'^* $ be the restriction of $ u $ (considered as an element of $ E'^* $) to $ E_i' \subset E' $. It is immediate that it is enough to prove that $ u_i = 0 $ except for a finite number of indices $ i \in I $. Suppose on the contrary that there exists a sequence $ (i_n)_{n \in \mathbf{N}} $ of distinct indices such that $ u_{i_n} \neq 0 $. Then there exists $ x_{i_n} \in E_{i_n}' $ such that $ u_{i_n}(x_{i_n}) = n $. The set $ H $ of all $ x_{i_n} $ is equicontinuous in $ E' $ and the restriction of $ u $ to $ H $ is not bounded, which is impossible.
+We know that the dual of $ E $ can be identified with the product of the duals of the $ E_i $ (II, p. 30, formula (1)). Let $ u \in \hat{E} $, and let $ u_i \in E_{i'}^* $ be the restriction of $ u $ (considered as an element of $ {E'}^* $) to $ E_i' \subset E' $. It is immediate that it is enough to prove that $ u_i = 0 $ except for a finite number of indices $ i \in I $. Suppose on the contrary that there exists a sequence $ (i_n)_{n \in \mathbf{N}} $ of distinct indices such that $ u_{i_n} \neq 0 $. Then there exists $ x_{i_n} \in E_{i_n}' $ such that $ u_{i_n}(x_{i_n}) = n $. The set $ H $ of all $ x_{i_n} $ is equicontinuous in $ E' $ and the restriction of $ u $ to $ H $ is not bounded, which is impossible.
 
 ### 7. $ \mathcal{S} $-bornologies on $ \mathcal{L}(E; F) $
 

@@ -411,11 +411,11 @@ in other words $ \operatorname{long}(D(M')) = \operatorname{long}(D(M)/D(M'')) $
 
 This implies immediately that if $ u : M' \to M $ is injective, then $ D(u) : D(M) \to D(M') $ is surjective; the conclusion then follows from II, p. 199, remark 4.
 
-For every A-module M, let $ \mathfrak{S}(M) $ denote the set of submodules of M. For every submodule N of M (resp. every submodule N' of D(M)), let $ N^0 $ (resp. $ N'^0 $) denote the submodule of $ D(M) $ (resp. M) consisting of those $ x' \in D(M) $ (resp. $ x \in M $) such that $ (y, x') = 0 $ for all $ y \in N $ (resp. $ (x, y') = 0 $ for all $ y' \in N' $).
+For every A-module M, let $ \mathfrak{S}(M) $ denote the set of submodules of M. For every submodule N of M (resp. every submodule N' of D(M)), let $ N^0 $ (resp. $ {N'}^0 $) denote the submodule of $ D(M) $ (resp. M) consisting of those $ x' \in D(M) $ (resp. $ x \in M $) such that $ (y, x') = 0 $ for all $ y \in N $ (resp. $ (x, y') = 0 $ for all $ y' \in N' $).
 
 #### Proposition 12 {#alg-vii-s4-prop-12 .statement}
 
-*Let M be an A-module of finite length. Then the map which sends every submodule N of M to $ N^0 $ is a bijection from $ \mathfrak{S}(M) $ onto $ \mathfrak{S}(D(M)) $, and the inverse bijection sends every submodule N' of D(M) to the submodule $ N'^0 $ of M; the module $ D(N) $ is naturally identified with $ D(M)/N^0 $ and $ D(M/N) $ with $ N^0 $. Moreover, we have*
+*Let M be an A-module of finite length. Then the map which sends every submodule N of M to $ N^0 $ is a bijection from $ \mathfrak{S}(M) $ onto $ \mathfrak{S}(D(M)) $, and the inverse bijection sends every submodule N' of D(M) to the submodule $ {N'}^0 $ of M; the module $ D(N) $ is naturally identified with $ D(M)/N^0 $ and $ D(M/N) $ with $ N^0 $. Moreover, we have*
 
 (2)
 $$
