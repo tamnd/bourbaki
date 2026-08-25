@@ -443,6 +443,49 @@ contents:
             straight after it. The page map runs on a constant offset of two from head
             to head, 33 of them, so pdf 5 is printed 7, and the contents puts § 1 and
             no. 1 of § 1 on 7 as well. The chapter starts where the reprint starts it.
+    - book: fvr-i-vii-fr
+      errata:
+        - says: 'Fonctions (H) ..................... V.35'
+          read: 'Fonctions (H) ..................... V.36'
+          why:
+            The contents page as read, pdf 327, puts the appendix of chapter V
+            on printed page V.35. Pdf 240 is printed V.35 and carries the end
+            of § 4, closing with the remarks on the criteria of the second
+            kind, and there is no appendix heading on it. Pdf 241 opens with
+            the appendix title and its running head reads APPENDICE. Pdf 240
+            is labelled FVR V.35 and pdf 242 is labelled FVR V.37, so pdf 241
+            is printed V.36. The label on pdf 241 itself was read as A V.113
+            and is no use.
+        - says: '1. Corps de Hardy .......................................... V.37'
+          read: '1. Corps de Hardy .......................................... V.36'
+          why:
+            No. 1 is headed on pdf 241, the page the appendix opens on, two
+            lines under the title, so it is printed V.36. The contents as read
+            puts it on V.37, which is pdf 242, and pdf 242 carries the heading
+            of no. 2 and a running head reading N° 2. This is the line the
+            build refused the volume over, because a § or an appendix opens on
+            its own no. 1 or on the page after it, and this said two pages
+            later.
+        - says: '2. Extension d''un corps de Hardy .......................... V.39'
+          read: '2. Extension d''un corps de Hardy .......................... V.37'
+          why:
+            No. 2 is headed on pdf 242, which is labelled FVR V.37 and whose
+            running head reads N° 2 CORPS DE HARDY. FONCTIONS (H). The
+            contents as read puts it on V.39, which is pdf 244, and pdf 244
+            carries the heading of no. 3 under a running head reading N° 3.
+        - says: '3. Comparaison des fonctions d’un corps de Hardy .... V.40'
+          read: '3. Comparaison des fonctions d’un corps de Hardy .... V.39'
+          why:
+            No. 3 is headed on pdf 244, which is labelled FVR V.39, under a
+            running head reading N° 3 CORPS DE HARDY. FONCTIONS (H). The
+            contents as read puts it on V.40, which is pdf 245, a verso that
+            carries no heading at all. The four entries corrected here read
+            V.35, V.37, V.39 and V.40 against V.36, V.36, V.37 and V.39 on the
+            pages, and the three after them, nos 4, 5 and 6 at V.41, V.41 and
+            V.44, are right. A right-aligned column of page numbers that goes
+            wrong for four rows and then comes back on its own is the reading
+            and not the printing, so this is corrected here rather than left
+            standing as an error of the book.
 heads:
     - book: ac-v-vii-fr
       errata:
