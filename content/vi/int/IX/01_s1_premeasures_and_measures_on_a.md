@@ -175,7 +175,7 @@ $$
 *b) Ngược lại, cho p là một tải trên T thỏa mãn các điều kiện sau:
 1) Với mọi tập con compact K của T, tồn tại một độ đo dương $w_K$ trên K sao cho $p_K = (w_K)^\bullet$.
 2) Với mọi hàm $f \in \mathcal{F}_+(T)$, $p(f) = \sup_K p(f_{\varphi_K})$.
-Ánh xạ w : K \mapsto w_K khi đó là một tiền độ đo dương trên T, và p = w^\bullet$.
+Ánh xạ $w : K \mapsto w_K$ khi đó là một tiền độ đo dương trên T, và $p = w^\bullet$.
 
 Chứng minh a: cho $g \in \mathcal{F}_+(K)$ và gọi $g^0$ là phần mở rộng bằng không của g lên T; khi đó, theo định nghĩa của các tải cảm sinh,
 
@@ -201,7 +201,7 @@ Vì độ đo cảm sinh $(w^\bullet)_K$ bằng $(w_K)^\bullet$, nên không có
 
 #### Hệ quả {#int-ix-s1-n2-cor-1 .statement}
 
-— *Cho $v$ và $w$ là hai tiền độ đo dương trên $T$, sao cho $v^\bullet(L) = w^\bullet(L)$ với mọi tập compact $L$ của $T$; khi đó $v = w$. Nói riêng, quan hệ $v^\bullet = w^\bullet$ suy ra $v = w*.
+— *Cho $v$ và $w$ là hai tiền độ đo dương trên $T$, sao cho $v^\bullet(L) = w^\bullet(L)$ với mọi tập compact $L$ của $T$; khi đó $v = w$. Nói riêng, quan hệ $v^\bullet = w^\bullet$ suy ra $v = w$.*
 
 Vì, cho $K$ là một tập compact trong $T$; với mọi tập compact $L \subset K$, ta có quan hệ
 

@@ -201,7 +201,7 @@ Vì, mọi tập con bị chặn của F đều tương đối compact yếu (TV
 
 #### Mệnh đề 8 {#int-vi-s1-prop-8 .statement}
 
-*Cho $\mu$ là một độ đo dương bị chặn trên T, S là một tập đo được theo $\mu$ mang $\mu$, f là một ánh xạ đo được theo $\mu$ của T vào F, sao cho $f(S)$ được chứa trong một tập con đầy đủ, bị chặn, cân bằng lồi B của F. Khi đó, f khả tích vô hướng theo $\mu$ và $\int f d\mu \in \mu(T)B \subset F.*
+*Cho $\mu$ là một độ đo dương bị chặn trên T, S là một tập đo được theo $\mu$ mang $\mu$, f là một ánh xạ đo được theo $\mu$ của T vào F, sao cho $f(S)$ được chứa trong một tập con đầy đủ, bị chặn, cân bằng lồi B của F. Khi đó, f khả tích vô hướng theo $\mu$ và $\int f d\mu \in \mu(T)B \subset F$.*
 
 Vì $S$ là $\mu$-khả tích, tồn tại một phân hoạch của $S$ gồm một tập $\mu$-không đáng kể $N$ và một dãy $(K_n)$ các tập con compact sao cho hạn chế của $f$ trên từng $K_n$ là liên tục (Ch. IV, §4, No. 6, Hệ quả 3 của Định lý 4 và §5, No. 1, Định nghĩa 1); do đó $f(K_n)$ là một tập con compact của $F$. Bao lồi cân bằng đóng $B_n$ của $f(K_n)$ khi đó là tiền compact (TVS, II, §4, No. 1, Mệnh đề 3) và được chứa trong tập con đầy đủ $B$ của $F$, do đó nó compact, và *a fortiori* compact yếu. Do đó (Hệ quả của Mệnh đề 5) $f \varphi_{K_n}$ là $\mu$-khả tích theo vô hướng, và
 
@@ -413,7 +413,7 @@ Vì thế, giả sử rằng $U$ thỏa các điều kiện của Bổ đề 3; 
 
 Sự liên tục của $\lambda \mapsto U(t)$ như một ánh xạ của $\mathcal{C}'(T)$ vào $F$ suy ra từ Bổ đề 3 và Nhận xét 2 sau Mệnh đề 14 của No. 6. Do đó, vẫn còn phải chứng minh rằng với mọi lân cận đóng, cân bằng, lồi $V$ của 0 trong $H$ và với mọi tập con đều liên tục $N$ của $\mathcal{C}'(T)$, tồn tại một lân cận $W$ của 0 trong $G$ sao cho các điều kiện $x \in W, \lambda \in N$ suy ra rằng $U(\lambda) \cdot x \in V$. Có thể giả sử rằng $N = S^\circ$, trong đó $S$ là một lân cận của 0 trong $\mathcal{C}(T)$, do đó có thể giả sử rằng $S$ là tập các hàm $g \in \mathcal{C}(T)$ sao cho $|g(t)| \leq 1$ trên một tập con compact $K$ của $T$. Chỉ cần chứng minh rằng
 
-|⟨U(λ) · x, x′⟩| ≤ 1 với x ∈ W, x′ ∈ V° và λ ∈ S°. Bây giờ, vì $U(K)$ là đều liên tục, tồn tại một lân cận $W$ của 0 trong $G$ sao cho các điều kiện $t ∈ K, x ∈ W$ suy ra $U(t) · x ∈ V$; các điều kiện $x ∈ W, x′ ∈ V°$ do đó suy ra rằng hàm $t ↦ ⟨U(t) · x, x′⟩$ thuộc $S$, suy ra rằng $|⟨U(t) · x, x′⟩| = |∫⟨U(t) · x, x′⟩ dλ(t)| ≤ 1 theo định nghĩa của $S°$.
+|⟨U(λ) · x, x′⟩| ≤ 1 với x ∈ W, x′ ∈ V° và λ ∈ S°. Bây giờ, vì $U(K)$ là đều liên tục, tồn tại một lân cận $W$ của 0 trong $G$ sao cho các điều kiện $t ∈ K, x ∈ W$ suy ra $U(t) · x ∈ V$; các điều kiện $x ∈ W, x′ ∈ V°$ do đó suy ra rằng hàm $t ↦ ⟨U(t) · x, x′⟩$ thuộc $S$, suy ra rằng $|⟨U(t) · x, x′⟩| = |∫⟨U(t) · x, x′⟩ dλ(t)| ≤ 1$ theo định nghĩa của $S°$.
 
 Bây giờ ta giả sử rằng $U$ là một ánh xạ liên tục của $T$ vào $F$ và, hơn nữa, $U(T)$ là đều liên tục. Khi đó, cùng một lập luận như trên cho thấy (vì $H$ là gần đầy đủ) rằng với mọi độ đo dương bị chặn $\mu$ trên $T$, $\int U d\mu \in F$. Do đó có thể định nghĩa, như trên, một ánh xạ tuyến tính $\lambda \mapsto \int U d\lambda = U(\lambda)$ của $M^1(T)$ vào $F$ mở rộng ánh xạ tương tự của $\mathcal{C}'(T)$ vào $F$. Hơn nữa, với mọi lân cận đóng, cân bằng, lồi $V$ của 0 trong $H$, theo giả thiết tồn tại một lân cận $W$ của 0 trong $G$ sao cho với mọi $x \in W$ và mọi $t \in T$, ta có $U(t) · x ∈ V$, do đó (vì $V$ là đóng yếu) $\int (U(t) · x)d\lambda(t) ∈ ||\lambda|| · V$ (No. 2, Mệnh đề 5). Nói cách khác:
 
