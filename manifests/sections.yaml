@@ -158,7 +158,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native+ocr
-              content_sha256: 097072a6252a31b52549d811e4b46eabb649dfcf3a7e8686d51686c1374532a2
+              content_sha256: bc6f23569d66726f9edb899a7ea492701ad1b2a6d43e816e11728c34011d5e59
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -184,7 +184,7 @@ books:
               statements: 33
               exercises: 12
               extraction: native+ocr
-              content_sha256: 57a884e506d7ba3b80df5da8946039a08e199b1e2e794448769cfff9f58df488
+              content_sha256: 20e8293964011d4b021666f811555994484c4df5ad3a8aa7a6c4c31c70bdaac0
             - kind: section
               section: 14
               title: Central Simple Algebras
@@ -223,7 +223,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native+ocr
-              content_sha256: 5bc3325d3592154bfa00069c17896d6ae82d958285347b0aff8f6af8457fc5bf
+              content_sha256: 3713d8d9181c73ddbea13d385e233b08d04e96e3e2863da632e02fba79c6640c
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -236,7 +236,7 @@ books:
               statements: 31
               exercises: 7
               extraction: native+ocr
-              content_sha256: bde84f6dbcf91d0bcdf72573c6bb387df3d76d5b15c56546c1f7ee2706920cee
+              content_sha256: 08c1f7f51bd2df11d29e638f229d1b484c7cda3e1bc21277c413e8819b54daaf
             - kind: section
               section: 18
               title: Simple Algebras over a Finite Field
@@ -262,7 +262,7 @@ books:
               statements: 16
               exercises: 8
               extraction: native+ocr
-              content_sha256: 3a386d6bf9977c3b77d595a905a52232bbb912152085c1a821b5980f70fe6905
+              content_sha256: 108f7dda8f7849f663b2ef3f83020f45b2cebb199a339be51e597d680bf6aafa
             - kind: section
               section: 20
               title: Linear Representations of Algebras
@@ -275,7 +275,7 @@ books:
               statements: 31
               exercises: 6
               extraction: native+ocr
-              content_sha256: 5ff83d16e3a49fa515ef33dc4d59f5844d64a112e8716f6ee4b4cde01df7b682
+              content_sha256: 21c69879c69520e4304c8e59f7cf5de59d95e3feeda2214b3e1f184b31eb4b34
             - kind: section
               section: 21
               title: Linear Representations of Finite Groups
@@ -288,7 +288,7 @@ books:
               statements: 36
               exercises: 30
               extraction: native+ocr
-              content_sha256: a08b33966e4211250824ddb04db1ee77dc894ab08e7740f6790fcc8b12126a24
+              content_sha256: 3a934f2dfc3eb0cfb5192b3c936dde529e28389fc932fa49415435ea29558ce1
             - kind: appendix
               section: 1
               title: Algebras without Unit Element
