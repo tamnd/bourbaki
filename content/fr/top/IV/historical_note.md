@@ -12,7 +12,7 @@ pdf_pages: 0336-0367
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 433f89d49a83da12c418d6b8161ecfae6909e25cca4951777e53fca731176fe7
+content_sha256: 75eb7d613ba7bdac13b34dee2e9e3a3f956264ee86c43b745731a95aacf6cc55
 ---
 
 # NOTE HISTORIQUE
@@ -134,7 +134,7 @@ P(K, L) (K, L parties d’un espace à opérateurs): III, p. 33.
 K^* (K corps): III, p. 54.
 \mathbf{R}, \mathbf{R}^*, \mathbf{R}_+, \mathbf{R}_+^*: IV, p. 3–4.
 sgn x (x nombre réel): IV, p. 12.
-\sqrt{x}, \sqrt[m]{x}, x^{1/m} (x réel \geq 0): IV, p. 12.
+$\sqrt{x}$, $\sqrt[m]{x}$, $x^{1/m}$ ($x$ réel $\geqslant 0$): IV, p. 12.
 \overline{\mathbf{R}}, +\infty, -\infty: IV, p. 13.
 sup A, inf A (A partie de \overline{\mathbf{R}}): IV, p. 14.
 \overline{\mathbf{R}}^*: IV, p. 16.

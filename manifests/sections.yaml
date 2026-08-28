@@ -9719,7 +9719,7 @@ books:
               statements: 68
               exercises: 31
               extraction: ocr
-              content_sha256: 22a9b9633fca94b741fc03defb9ec4436296ca4b6fc3fd5f204072340f0c484a
+              content_sha256: e5d7acf1c65c64a513b568a23ba9414b1026c2eac0cab0f8dd7970b0d8b7dcd8
             - kind: section
               section: 3
               title: Topologies m-adiques sur les anneaux nœthériens
@@ -9918,7 +9918,7 @@ books:
               statements: 28
               exercises: 20
               extraction: ocr
-              content_sha256: 27391f8fcaca4e7509133006312134c4d9b2ec3788740552ba9d1128a71ff388
+              content_sha256: 073bb3a9e4bf91147fb097cafd414619e9e01e9285f92074e23b76aa1fddc5db
             - kind: section
               section: 7
               title: Limites
@@ -9931,7 +9931,7 @@ books:
               statements: 21
               exercises: 7
               extraction: ocr
-              content_sha256: cfb7b68d0a94a5786dfb0d7f7800cab6f6dec47b1b9010ba7043c5d6d12a9484
+              content_sha256: bc2addaaee2f4206e2ce66ef346b284e6c4baf2741fe18895a24b69310e3d606
             - kind: section
               section: 8
               title: Espaces séparés et espaces réguliers
@@ -10304,4 +10304,4 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 433f89d49a83da12c418d6b8161ecfae6909e25cca4951777e53fca731176fe7
+              content_sha256: 75eb7d613ba7bdac13b34dee2e9e3a3f956264ee86c43b745731a95aacf6cc55

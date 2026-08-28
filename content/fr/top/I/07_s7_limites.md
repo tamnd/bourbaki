@@ -37,7 +37,7 @@ subsections:
       pdf_page: 63
 statements: 21
 exercises: 7
-content_sha256: cfb7b68d0a94a5786dfb0d7f7800cab6f6dec47b1b9010ba7043c5d6d12a9484
+content_sha256: bc2addaaee2f4206e2ce66ef346b284e6c4baf2741fe18895a24b69310e3d606
 ---
 
 ## § 7. LIMITES
@@ -117,17 +117,17 @@ Un filtre sur un espace topologique n’a pas nécessairement de point adhérent
 
 #### Définition 3 {#top-i-s7-def-3 .statement}
 
-Soit f une application d’un ensemble X dans un espace topologique Y, et soit 𝔅 un filtre sur X ; on dit qu’un point y ∈ Y est valeur limite (ou simplement limite) de f suivant le filtre 𝔅 si la base de filtre f(𝔅) converge vers y. On dit que y est valeur d’adhérence de f suivant le filtre 𝔅 si y est un point adhérent à la base de filtre f(𝔅).
+Soit $f$ une application d’un ensemble $X$ dans un espace topologique $Y$, et soit $\mathcal{F}$ un filtre sur $X$; on dit qu’un point $y \in Y$ est valeur limite (ou simplement limite) de $f$ suivant le filtre $\mathcal{F}$ si la base de filtre $f(\mathcal{F})$ converge vers $y$. On dit que $y$ est valeur d’adhérence de $f$ suivant le filtre $\mathcal{F}$ si $y$ est un point adhérent à la base de filtre $f(\mathcal{F})$.
 
-La relation « y est limite de f suivant le filtre 𝔅 » s’écrit aussi lim₃₈f = y, ou limₓ₃₈f(x) = y, ou même limₓf(x) = y lorsqu’aucune confusion n’en résulte.
+La relation « $y$ est limite de $f$ suivant le filtre $\mathcal{F}$ » s’écrit aussi $\lim_{\mathcal{F}} f = y$, ou $\lim_{x, \mathcal{F}} f(x) = y$, ou même $\lim_x f(x) = y$ lorsqu’aucune confusion n’en résulte.
 
 De la déf. 3 et des prop. 1 (I, p. 46) et 3 (I, p. 47) on déduit les critères suivants :
 
 #### Proposition 7 {#top-i-s7-prop-7 .statement}
 
-Pour que y ∈ Y soit limite de f suivant le filtre 𝔅, il faut et il suffit que, pour tout voisinage V de y dans Y, il existe un ensemble M ∈ 𝔅 tel que f(M) ⊂ V (ou encore, que $f^{-1}(V) \in 𝔅$ pour tout voisinage V de y).
+Pour que $y \in Y$ soit limite de $f$ suivant le filtre $\mathcal{F}$, il faut et il suffit que, pour tout voisinage $V$ de $y$ dans $Y$, il existe un ensemble $M \in \mathcal{F}$ tel que $f(M) \subset V$ (ou encore, que $\overset{-1}{f}(V) \in \mathcal{F}$ pour tout voisinage $V$ de $y$).
 
-Pour que y soit valeur d’adhérence de f suivant 𝔅, il faut et il suffit que pour tout voisinage V de y et tout ensemble M ∈ 𝔅, il existe x ∈ M tel que f(x) ∈ V.
+Pour que $y$ soit valeur d’adhérence de $f$ suivant $\mathcal{F}$, il faut et il suffit que pour tout voisinage $V$ de $y$ et tout ensemble $M \in \mathcal{F}$, il existe $x \in M$ tel que $f(x) \in V$.
 
 #### Exemple 1 {#top-i-s7-n3-exa-1 .statement}
 

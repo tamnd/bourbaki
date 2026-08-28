@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: 22a9b9633fca94b741fc03defb9ec4436296ca4b6fc3fd5f204072340f0c484a
+content_sha256: e5d7acf1c65c64a513b568a23ba9414b1026c2eac0cab0f8dd7970b0d8b7dcd8
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -869,7 +869,7 @@ En particulier, on retrouve le cor. de la prop. 6 du n° 6 : si $C$ est un annea
 
 3) Soit α un élément non nul et non inversible d’un anneau principal A ; la topologie (α)-adique sur A est encore appelée topologie α-adique ; elle est séparée, car l’intersection des idéaux (αⁿ) est réduite à 0 (Alg., chap. VII, § 1, no 3). On notera que le complété de A pour cette topologie n’est pas nécessairement un anneau intègre (cf. no 13, Remarque 3). L’anneau gradué associé gr(A) = gr(Ā) est canoniquement isomorphe à (A/(α))[X] (no 3, Exemple 1). Lorsque A = Z, le complété de Z pour la topologie n-adique (n > 1) se note Zₙ et ses éléments s’appellent les entiers n-adiques.
 
-Tout élément de Z/nᵏZ admet un représentant et un seul de la forme $\sum_{i=0}^{k-1} a_i n^i$ avec $0 \leq a_i \leq n-1$ pour tout i ; en outre, son image canonique dans Z/nᵏ⁻¹Z est la classe de $\sum_{i=0}^{k-2} a_i n^i$. Ces remarques, et le fait que Zₙ s’identifie canoniquement à la limite projective $\lim_{\leftarrow k} \mathbf{Z}/n^k \mathbf{Z}$, montrent aussitôt que tout élément de Zₙ peut s’écrire d’une seule manière sous la forme $\sum_{i=0}^{\infty} a_i n^i$ avec $0 \leq a_i < n$ et que réciproquement une telle série est convergente dans Zₙ.
+Tout élément de $\mathbf{Z}/n^k\mathbf{Z}$ admet un représentant et un seul de la forme $\sum_{i=0}^{k-1} a_i n^i$ avec $0 \leqslant a_i \leqslant n-1$ pour tout $i$; en outre, son image canonique dans $\mathbf{Z}/n^{k-1}\mathbf{Z}$ est la classe de $\sum_{i=0}^{k-2} a_i n^i$. Ces remarques, et le fait que $\mathbf{Z}_n$ s’identifie canoniquement à la limite projective $\lim_{\leftarrow k} \mathbf{Z}/n^k \mathbf{Z}$, montrent aussitôt que tout élément de $\mathbf{Z}_n$ peut s’écrire d’une seule manière sous la forme $\sum_{i=0}^{\infty} a_i n^i$ avec $0 \leqslant a_i < n$ et que réciproquement une telle série est convergente dans $\mathbf{Z}_n$.
 
 ### 13. Séparé complété d’un anneau semi-local.
 

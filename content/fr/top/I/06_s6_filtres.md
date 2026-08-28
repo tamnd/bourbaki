@@ -53,7 +53,7 @@ subsections:
       pdf_page: 57
 statements: 28
 exercises: 20
-content_sha256: 27391f8fcaca4e7509133006312134c4d9b2ec3788740552ba9d1128a71ff388
+content_sha256: 073bb3a9e4bf91147fb097cafd414619e9e01e9285f92074e23b76aa1fddc5db
 ---
 
 ## § 6. FILTRES
@@ -137,16 +137,14 @@ Si $\mathcal{G}$ est un système générateur d’un filtre $\mathcal{F}$ sur $X
 #### Proposition 2 {#top-i-s6-prop-2 .statement}
 
 Étant donné un ensemble de parties $\mathcal{B}$ d’un ensemble $X$, pour que l’ensemble des parties de $X$ contenant un ensemble de $\mathcal{B}$ soit un filtre, il faut et il suffit que $\mathcal{B}$ possède les deux propriétés suivantes:
-$$
-\begin{align*}
-(B_I) &\quad L’intersection de deux ensembles de $ \mathcal{B} $ contient un ensemble de $ \mathcal{B} $. \\
-(B_{II}) &\quad $ \mathcal{B} $ n’est pas vide, et la partie vide de $ X $ n’appartient pas à $ \mathcal{B} $.
-\end{align*}
-$$
+
+$(\mathrm{B}_I)$ L’intersection de deux ensembles de $\mathcal{B}$ contient un ensemble de $\mathcal{B}$.
+
+$(\mathrm{B}_{II})$ $\mathcal{B}$ n’est pas vide, et la partie vide de $X$ n’appartient pas à $\mathcal{B}$.
 
 #### Définition 3 {#top-i-s6-def-3 .statement}
 
-On dit qu’un ensemble de parties $\mathcal{B}$ d’un ensemble $X$ qui satisfait aux axiomes $(B_I)$ et $(B_{II})$ est une base du filtre qu’il engendre. On dit que deux bases de filtre sont équivalentes lorsqu’elles engendrent le même filtre.
+On dit qu’un ensemble de parties $\mathcal{B}$ d’un ensemble $X$ qui satisfait aux axiomes $(\mathrm{B}_I)$ et $(\mathrm{B}_{II})$ est une base du filtre qu’il engendre. On dit que deux bases de filtre sont équivalentes lorsqu’elles engendrent le même filtre.
 
 Si $\mathcal{G}$ est un système générateur d’un filtre $\mathcal{F}$, l’ensemble $\mathcal{G}'$ des intersections finies d’ensembles de $\mathcal{G}$ est une base de $\mathcal{F}$ (I, p. 37).
 
@@ -154,7 +152,7 @@ Si $\mathcal{G}$ est un système générateur d’un filtre $\mathcal{F}$, l’e
 
 Pour qu’une partie $\mathcal{B}$ d’un filtre $\mathcal{F}$ sur $X$ soit une base de $\mathcal{F}$, il faut et il suffit que tout ensemble de $\mathcal{F}$ contienne un ensemble de $\mathcal{B}$.
 
-La condition est évidemment nécessaire; elle est suffisante, car si elle est remplie, l’ensemble des parties de $X$ contenant un ensemble de $\mathcal{B}$ est identique à $\mathcal{F}$ en vertu de $(F_I)$.
+La condition est évidemment nécessaire; elle est suffisante, car si elle est remplie, l’ensemble des parties de $X$ contenant un ensemble de $\mathcal{B}$ est identique à $\mathcal{F}$ en vertu de $(\mathrm{F}_I)$.
 
 #### Proposition 4 {#top-i-s6-prop-4 .statement}
 
