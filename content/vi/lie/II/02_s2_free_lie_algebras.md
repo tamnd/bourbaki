@@ -535,7 +535,7 @@ Khi đó tồn tại một số nguyên $i \geq 0$ và một phần tử $w$ c�
 Giả sử rằng $X$ có hai phần tử $x, y$; hãy cho $X$ có thứ tự sao cho $x < y$. Phép dựng được cho trong chứng minh của Mệnh đề 11 cho một tập hợp $H$ có 14 phần tử có độ dài $\leq 5$ được cho trong bảng sau:
 
 $$
-\begin{array}{ll}
+\begin{array}{cccc}
 H_1 & w_1 = x \\
 H_2 & w_3 = (xy) \\
 H_3 & w_4 = (x(xy)) & w_5 = (y(xy)) \\

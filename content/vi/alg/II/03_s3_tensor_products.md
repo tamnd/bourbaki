@@ -382,7 +382,7 @@ E'' \otimes F có dạng x'' \otimes y và vì thế f \circ g là ánh xạ đ�
 
 *Cho F, F', F'' là các A-môđun trái, E là một A-môđun phải và*
 $$
-\begin{array}{cccc}
+\begin{array}{ccccc}
 F' & \xrightarrow{s} & F & \xrightarrow{t} & F'' \longrightarrow 0
 \end{array}
 $$
@@ -406,14 +406,14 @@ j \otimes 1_F : E' \otimes F \to E \otimes F
 $$
 *không nhất thiết đơn ánh.* Nói cách khác, với một dãy khớp
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & E' & \xrightarrow{u} & E & \xrightarrow{v} & E'' \longrightarrow 0
 \end{array}
 $$
 *(18)*
 nói chung không thể suy ra rằng dãy
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & E' \otimes F & \xrightarrow{u} & E \otimes F & \xrightarrow{v} & E'' \otimes F \longrightarrow 0
 \end{array}
 $$

@@ -136,7 +136,7 @@ Nếu t \in \mathcal{T}^{(\infty)}(G) và g \in G, thì $\gamma(g)_* t = \vareps
 Xét biểu đồ
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 G & \xrightarrow{\phi} & G \times G & \xrightarrow{\psi} & G \\
 \end{array}
 $$

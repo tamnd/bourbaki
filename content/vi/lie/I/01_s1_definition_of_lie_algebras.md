@@ -284,7 +284,7 @@ $$
 được gọi là tương đương nếu tồn tại một đồng cấu $f$ của $g$ vào $g'$ sao cho biểu đồ sau đây:
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 a & \xrightarrow{\lambda} & g & \xrightarrow{\mu} & b \\
 & & f \downarrow & & \\
 & & g' & \xrightarrow{\mu'} & b \\
@@ -432,7 +432,7 @@ $$
 *là mở rộng không thiết yếu của $b$ bởi $a$ được $\phi$ xác định một cách chính tắc.* Khi đó ánh xạ $(a, b) \mapsto \lambda(a) + \nu(b)$ là một đẳng cấu $f$ từ $g_0$ lên $g$ và biểu đồ sau
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 & & \\
 a & \xrightarrow{\lambda_0} & g_0 & \xrightarrow{\mu_0} & b \\
 & \searrow f & \downarrow & \nearrow \mu_0 \\

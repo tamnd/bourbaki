@@ -528,7 +528,7 @@ Then there exist an integer $i \geq 0$ and an element $w$ of $M(X)$ such that $u
 Suppose that $X$ has two elements $x, y$; let $X$ be ordered such that $x < y$. The construction given in the proof of Proposition 11 gives a set $H$ with 14 elements of length $\leq 5$ given in the following table:
 
 $$
-\begin{array}{ll}
+\begin{array}{cccc}
 H_1 & w_1 = x \\
 H_2 & w_3 = (xy) \\
 H_3 & w_4 = (x(xy)) & w_5 = (y(xy)) \\

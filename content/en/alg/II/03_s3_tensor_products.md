@@ -375,7 +375,7 @@ E'' \otimes F of the form x'' \otimes y and hence f \circ g is the identity mapp
 
 *Let F, F', F'' be left A-modules, E a right A-module and*
 $$
-\begin{array}{cccc}
+\begin{array}{ccccc}
 F' & \xrightarrow{s} & F & \xrightarrow{t} & F'' \longrightarrow 0
 \end{array}
 $$
@@ -399,14 +399,14 @@ j \otimes 1_F : E' \otimes F \to E \otimes F
 $$
 *is not necessarily injective.* In other words, for an exact sequence
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & E' & \xrightarrow{u} & E & \xrightarrow{v} & E'' \longrightarrow 0
 \end{array}
 $$
 *(18)*
 it cannot in general be concluded that the sequence
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & E' \otimes F & \xrightarrow{u} & E \otimes F & \xrightarrow{v} & E'' \otimes F \longrightarrow 0
 \end{array}
 $$

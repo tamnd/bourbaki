@@ -41,7 +41,7 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: e49f6fbfa95ed268d0719b34c59a38becfcce0b552ca780ea3e2dc144c85d20e
+content_sha256: fc835dafb82892179666e1a17cd7ccd72ff8254f70295e13ff0a7b86f19eae27
 ---
 
 ## 8. EXTENSIONS OF A VALUATION TO AN ALGEBRAIC EXTENSION
@@ -262,7 +262,7 @@ $$
 For this, we note that $v$ and $\bar{v}$ (resp. $v'_i$ and $\bar{v}'_i$) have the same residue field (§ 4, no. 1, Corollary to Proposition 2); this proves the first equation. For the second there is, by virtue of the Remark in §4, no. 3, the following commutative diagram, where the rows are exact sequences and the vertical arrows represent canonical injections:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \to & \Gamma_{\bar{v}} & \to & \Gamma_v & \to & \Gamma_w & \to & 0 \\
 & & \downarrow & & \downarrow & & \downarrow & & \\
 0 & \to & \Gamma_{\bar{v}_i'} & \to & \Gamma_{v_i'} & \to & \Gamma_{w'} & \to & 0

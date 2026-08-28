@@ -1081,7 +1081,7 @@ $$
 Đồ thị Dynkin hoàn chỉnh:
 
 $$
-\begin{array}{cccc}
+\begin{array}{ccccc}
 \circ & \longrightarrow & \circ & \longrightarrow & \circ \\
 \alpha_1 & \alpha_2 & \alpha_3 & \alpha_4
 \end{array}

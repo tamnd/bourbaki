@@ -110,7 +110,7 @@ Với mọi $t \in T$, hãy ký hiệu $\varepsilon_t$ là dạng tuyến tính 
 Cho E và $E_1$ là hai không gian lồi địa phương, và $u$ là một ánh xạ tuyến tính liên tục của E vào $E_1$. Với mọi $V_1 \in \mathcal{F}(E_1)$, không gian con $V = \overline{u}^{-1}(V_1)$ của E thuộc $\mathcal{F}(E)$, và $u$ xác định, bằng cách qua các thương, một ánh xạ tuyến tính $u_{V_1}$ của $E/V$ vào $E_1/V_1$. Cho $V_1$ và $W_1$ trong $\mathcal{F}(E_1)$ sao cho $V_1 \supset W_1$; đặt $V = \overline{u}^{-1}(V_1)$ và $W = \overline{u}^{-1}(W_1)$. Ta có $V \supset W$, và một biểu đồ giao hoán
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 E & \xrightarrow{pw} & E/W & \xrightarrow{pvw} & E/V \\
 \downarrow u & & \downarrow u_{W_1} & & \downarrow u_{V_1} \\
 E_1 & \xrightarrow{pw_1} & E_1/W_1 & \xrightarrow{pv_{1W_1}} & E_1/V_1

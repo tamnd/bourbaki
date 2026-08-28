@@ -458,7 +458,7 @@ $$
 Cela résulte de A, X, p. 4, prop. 2 (diagramme du serpent), appliqué au diagramme commutatif
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \longrightarrow & N(H, T) & \longrightarrow & \Gamma(T) & \longrightarrow & \pi_1(H) & \longrightarrow & 0 \\
    &                & \downarrow      &                & \downarrow      &                & \downarrow      &                & \\
 0 & \longrightarrow & N(G, T) & \longrightarrow & \Gamma(T) & \longrightarrow & \pi_1(G) & \longrightarrow & 0 .

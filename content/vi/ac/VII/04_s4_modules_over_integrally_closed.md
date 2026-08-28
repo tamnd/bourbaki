@@ -687,7 +687,7 @@ $$
 Để chứng minh (i), xét một môđun con tự do $L_1$ (tương ứng $L_3$) của M, (tương ứng $M_3$) sao cho $M_1/L_1$ (tương ứng $M_3/L_3$) là một môđun xoắn. Vì $L_3$ là tự do và $g$ là toàn ánh, tồn tại trong $g^{-1}(L_3)$ một phần bù tự do $L_{23}$ của $\operatorname{Ker}(g)$ đẳng cấu với $L_3$ (*Đại số*, Chương II, § 1, no. 11, Mệnh đề 21); nhưng $\operatorname{Ker}(g) = f(M_1)$ chứa $f(L_1) = L_{12}$, là môđun tự do vì $f$ là đơn ánh. Tổng $L_2 = L_{12} + L_{23}$ là trực tiếp và do đó $L_2$ là một môđun con *tự do* của $M$. Hơn nữa có biểu đồ giao hoán:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \longrightarrow & L_1 & \longrightarrow & L_2 & \longrightarrow & L_3 & \longrightarrow & 0 \\
 0 & \longrightarrow & M_1 & \xrightarrow{f} & M_2 & \xrightarrow{g} & M_3 & \longrightarrow & 0
 \end{array}

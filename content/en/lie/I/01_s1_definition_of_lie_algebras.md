@@ -277,7 +277,7 @@ $$
 are said to be equivalent if there exists a homomorphism $f$ of $g$ into $g'$ such that the following diagram:
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 a & \xrightarrow{\lambda} & g & \xrightarrow{\mu} & b \\
 & & f \downarrow & & \\
 & & g' & \xrightarrow{\mu'} & b \\
@@ -425,7 +425,7 @@ $$
 *be the inessential extension of $b$ by $a$ canonically defined by $\phi$.* Then the mapping $(a, b) \mapsto \lambda(a) + \nu(b)$ is an isomorphism $f$ of $g_0$ onto $g$ and the following diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 & & \\
 a & \xrightarrow{\lambda_0} & g_0 & \xrightarrow{\mu_0} & b \\
 & \searrow f & \downarrow & \nearrow \mu_0 \\

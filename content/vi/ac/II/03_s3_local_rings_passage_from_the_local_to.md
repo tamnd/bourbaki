@@ -148,7 +148,7 @@ Nếu $a \in A$, $x \in M$ và $\bar{a}$ là lớp của $a$ trong $A/m$, thì $
 Gọi $j$ là đơn ánh chính tắc $R \to L$; khi đó có một biểu đồ giao hoán
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 m \otimes R & \xrightarrow{1 \otimes j} & m \otimes L & \xrightarrow{1 \otimes u} & m \otimes M \\
 \downarrow^a & & \downarrow^c & & \downarrow^c \\
 R & \xrightarrow{j} & L & \xrightarrow{u} & M

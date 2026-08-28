@@ -29,7 +29,7 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: b2683bd9b0a8b23c19acb6cea7ee306f1f0caa4394f0ddc30d025f3b4e49a5d3
+content_sha256: 3017e3752abcf55d187c09803065844dcbbdc79fe2e701a257f996a9e009a774
 ---
 
 ## 2. THE LIFT OF PRIME IDEALS
@@ -267,7 +267,7 @@ Let $p'_i$ be the kernel of $f_i$ ($i = 1, 2$) which is a prime ideal of $A'$; b
 (a) *The rings $A/p$ and $B/p(B)$ have the same field of fractions*.
 (b) *The maximal ideal of the local ring $B_{p(B)}$ is equal to $pB_{p(B)}$*.
 
-(iii) *Suppose further that $A'$ is an integral domain and that $\bigcap_{n \geq 0} p^nA'_p = 0$; then conditions (a) and (b) of (ii) imply that $\mathcal{G}^z(p')$ leaves invariant the elements of $B$*.
+(iii) *Suppose further that $A'$ is an integral domain and that $\bigcap_{n \geq 0} p^nA'_p = 0$; then conditions (a) and (b) & (ii) imply that $\mathcal{G}^z(p')$ leaves invariant the elements of $B$*.
 
 (i) It follows from Theorem 2 (i) that the prime ideals of $A$ lying above $p(B)$ are the ideals of the form $\sigma.p'$, where $\sigma \in \mathcal{H}$; whence immediately (i).
 

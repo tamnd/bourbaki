@@ -870,7 +870,7 @@ Nếu f ∈ F, thì δ ∘ (Int_F f) = (Int_Ḟ δ(f)) ∘ δ và Int_Ḟ δ(f) 
 Do đó có thể áp dụng Bổ đề 7, cho ta một biểu đồ
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{i} & G & \xrightarrow{p} & M \\
 \downarrow{\delta} & & \downarrow{\gamma} & & \downarrow{\mathrm{Id}} \\
 Ḟ & \xrightarrow{\tilde{i}} & Ġ & \xrightarrow{\tilde{p}} & M.

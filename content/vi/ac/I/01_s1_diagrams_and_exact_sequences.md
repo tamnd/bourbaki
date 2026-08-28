@@ -73,7 +73,7 @@ Về nguyên tắc, một biểu đồ không phải là một đối tượng t
 Xét, chẳng hạn, biểu đồ sau:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 A & \xrightarrow{f} & B & \xrightarrow{g} & C & \xrightarrow{h} & D \\
 a \downarrow & & b \downarrow & & c \downarrow & & d \downarrow \\
 A' & \xrightarrow{f'} & B' & \xrightarrow{g'} & C' & \xrightarrow{h'} & D'
@@ -128,7 +128,7 @@ Nhắc lại các kết quả sau (loc. cit.), trong đó $E, F, G$ biểu thị
 
 (d) Nếu $F$ là một môđun con của $E$ và $i$ ký hiệu đơn ánh chính tắc của $F$ vào $E$ và $p$ là toàn cấu chính tắc của $E$ lên $E/F$, thì biểu đồ
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & F & \xrightarrow{i} & E & \xrightarrow{p} & E/F \longrightarrow 0
 \end{array}
 $$
@@ -136,7 +136,7 @@ là một dãy khớp.
 
 (e) Nếu $f: E \to F$ là một đồng cấu, thì biểu đồ
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \longrightarrow & f^{-1}(0) & \xrightarrow{i} & E & \xrightarrow{f} & F & \xrightarrow{p} & F/f(E) \longrightarrow 0
 \end{array}
 $$
@@ -144,13 +144,13 @@ $$
 
 (f) Để biểu đồ
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 E & \xrightarrow{f} & F & \xrightarrow{g} & G
 \end{array}
 $$
 là một dãy khớp, điều kiện cần và đủ là tồn tại các môđun $S$, $T$ và các đồng cấu $a : E \to S$, $b : S \to F$, $c : F \to T$ và $d : T \to G$ sao cho $f = b \circ a$, $g = d \circ c$ và ba dãy
 $$
-\begin{array}{ccc}
+\begin{array}{ccccccccc}
 E & \xrightarrow{a} & S & \longrightarrow & 0 \\
 0 & \longrightarrow & S & \xrightarrow{b} & F & \xrightarrow{c} & T & \longrightarrow & 0 \\
 0 & \longrightarrow & T & \xrightarrow{d} & G
@@ -166,7 +166,7 @@ Sau cùng, nhắc rằng nếu $f: E \to F$ là một đồng cấu A-môđun, t
 
 Xét một biểu đồ giao hoán của các nhóm giao hoán:
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 A & \xrightarrow{u} & B & \xrightarrow{v} & C \\
 a \downarrow & & b \downarrow & & c \downarrow \\
 A' & \xrightarrow{u'} & B' & \xrightarrow{v'} & C'
@@ -330,7 +330,7 @@ Giả sử rằng biểu đồ (10) giao hoán và hai hàng đều khớp. Tron
 Để chứng minh (i) xét biểu đồ
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 u(A) & \xrightarrow{w} & B & \xrightarrow{v} & C \\
 a' \downarrow & & b \downarrow & & c \downarrow \\
 u'(A') & \xrightarrow{w'} & B' & \xrightarrow{v'} & C'
@@ -348,7 +348,7 @@ vì b đơn ánh và $a'$ toàn ánh; suy ra $\mathrm{Ker}(c) = 0$.
 Để chứng minh (ii) xét biểu đồ
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 A & \xrightarrow{u} & B & \xrightarrow{w} & v(B) \\
 a' \downarrow & & b \downarrow & & c' \downarrow \\
 A' & \xrightarrow{w'} & B' & \xrightarrow{\sigma'} & v'(B')

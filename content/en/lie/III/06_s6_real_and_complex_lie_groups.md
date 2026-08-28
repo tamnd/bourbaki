@@ -863,7 +863,7 @@ If f ∈ F, then δ ∘ (Int_F f) = (Int_Ḟ δ(f)) ∘ δ and Int_Ḟ δ(f) is 
 Hence Lemma 7 can be applied, which gives a diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{i} & G & \xrightarrow{p} & M \\
 \downarrow{\delta} & & \downarrow{\gamma} & & \downarrow{\mathrm{Id}} \\
 Ḟ & \xrightarrow{\tilde{i}} & Ġ & \xrightarrow{\tilde{p}} & M.

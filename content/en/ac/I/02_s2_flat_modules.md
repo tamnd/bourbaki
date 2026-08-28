@@ -57,7 +57,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 9ada776b7c0aa973a418227eaada671c4629e279b41b24c1ad82f46743b38d27
+content_sha256: c85fd29c8677420694a50ec476a995cb0ce51b281a6e47e438c2218fdbbdd659
 ---
 
 ## 2. FLAT MODULES(*)
@@ -416,7 +416,7 @@ Let E be a right A-module, F a left A-module and F', F'' two submodules of F suc
 Consider the diagram
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & F' \cap F'' & \longrightarrow & F' & \longrightarrow & F'/(F' \cap F'') \longrightarrow 0 \\
 & & \downarrow & & \downarrow & & \downarrow \\
 0 & \longrightarrow & F'' & \longrightarrow & F' + F'' & \longrightarrow & (F' + F'')/F'' \longrightarrow 0

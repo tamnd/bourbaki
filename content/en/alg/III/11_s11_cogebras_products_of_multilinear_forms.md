@@ -788,7 +788,7 @@ and an analogous commutative diagram where $T$ is replaced by $\Lambda$. The pro
 *Let*
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 X & \xrightarrow{u} & Y & \xrightarrow{v} & X \\
 f \downarrow & & g \downarrow & & f \downarrow \\
 X' & \xrightarrow{u'} & Y' & \xrightarrow{v'} & X'

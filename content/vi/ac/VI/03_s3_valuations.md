@@ -146,7 +146,7 @@ $$
 Cho $K$ là một trường (giao hoán), $f$ là một điểm đặt của $K$, $v$ là một định giá trên $K$ và $A$ là một vành định giá của $K$. Ta sẽ nói rằng $A$, $f$ và $v$ là *liên kết* nếu $A$ là vành của $f$ và vành của $v$. Nhờ no. 1 và § 2, no. 3, mỗi trong ba đối tượng $A$, $f$ và $v$ khi đó xác định hai đối tượng còn lại (xét đến tương đương đối với các điểm đặt và các định giá). Đặc biệt, ta có các tương đương sau:
 
 $$
-\begin{array}{lll}
+\begin{array}{ccccc}
 x \in A & \Leftrightarrow & f(x) \neq \infty \\
 x \in m(A) & \Leftrightarrow & f(x) = 0 \\
 x \in A - m(A) = U(A) & \Leftrightarrow & f(x) \neq 0 \quad \text{và} \quad f(x) \neq \infty \Leftrightarrow v(x) = 0 \\

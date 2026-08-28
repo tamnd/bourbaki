@@ -453,7 +453,7 @@ F_m \otimes_{A_m} A(m) & \longrightarrow & F \otimes_A A(m) \longrightarrow F(m)
 \end{array}
 $$
 
-trong đó các mũi tên ngang bên trái xuất phát từ tính kết hợp của tích tenxơ và các đẳng cấu $E_m \to E \otimes_A A_m, F_m \to F \otimes_A A_m$; vì $E$ và $F$ là các A-môđun sinh hữu hạn, nên theo no. 4, Định lý 3, các hàng của biểu đồ này gồm toàn các đẳng cấu; do đó ta được quy về việc chứng minh rằng $u_m$ là đơn ánh (tương ứng toàn ánh, song ánh, không) tương đương với việc $u_m \otimes 1$ cũng như vậy. Nhưng điều này suy ra từ तथ्य कि $\hat{A}_m$ (và do đó cả $A(m)$ nữa) là một $A_m$-môđun phẳng trung thành theo Mệnh đề 9 (Chương I, § 3, no. 1, các Mệnh đề 1 và 2).
+trong đó các mũi tên ngang bên trái xuất phát từ tính kết hợp của tích tenxơ và các đẳng cấu $E_m \to E \otimes_A A_m, F_m \to F \otimes_A A_m$; vì $E$ và $F$ là các A-môđun sinh hữu hạn, nên theo no. 4, Định lý 3, các hàng của biểu đồ này gồm toàn các đẳng cấu; do đó ta được quy về việc chứng minh rằng $u_m$ là đơn ánh (tương ứng toàn ánh, song ánh, không) tương đương với việc $u_m \otimes 1$ cũng như vậy. Nhưng điều này suy ra từ việc $\hat{A}_m$ (và do đó cả $A(m)$ nữa) là một $A_m$-môđun phẳng trung thành theo Mệnh đề 9 (Chương I, § 3, no. 1, các Mệnh đề 1 và 2).
 
 #### Mệnh đề 10 {#ac-iii-s3-prop-10 .statement}
 

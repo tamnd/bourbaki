@@ -103,7 +103,7 @@ For every $t \in T$, let $\varepsilon_t$ be the linear form $f \mapsto f(t)$ on 
 Let E and $E_1$ be two locally convex spaces, and $u$ a continuous linear mapping of E into $E_1$. For every $V_1 \in \mathcal{F}(E_1)$, the subspace $V = \overline{u}^{-1}(V_1)$ of E belongs to $\mathcal{F}(E)$, and $u$ defines, by passage to the quotients, a linear mapping $u_{V_1}$ of $E/V$ into $E_1/V_1$. Let $V_1$ and $W_1$ in $\mathcal{F}(E_1)$ be such that $V_1 \supset W_1$; set $V = \overline{u}^{-1}(V_1)$ and $W = \overline{u}^{-1}(W_1)$. We have $V \supset W$, and a commutative diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 E & \xrightarrow{pw} & E/W & \xrightarrow{pvw} & E/V \\
 \downarrow u & & \downarrow u_{W_1} & & \downarrow u_{V_1} \\
 E_1 & \xrightarrow{pw_1} & E_1/W_1 & \xrightarrow{pv_{1W_1}} & E_1/V_1

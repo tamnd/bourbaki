@@ -413,7 +413,7 @@ $$
 Theo định nghĩa của TS(u), biểu đồ
 
 $$
-\begin{array}{ccc}
+\begin{array}{cccc}
 M & \longrightarrow & TS(M) \longrightarrow T(M) \\
 u \downarrow & & \downarrow TS(u) & \downarrow T(u) \\
 N & \longrightarrow & TS(N) \longrightarrow T(N)

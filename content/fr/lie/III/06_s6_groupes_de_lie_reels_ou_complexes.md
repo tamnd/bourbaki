@@ -703,7 +703,7 @@ $$
 (4)
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 A & \xrightarrow{i} & B & \xrightarrow{p} & C \\
 \downarrow f & & \downarrow g & & \downarrow \mathrm{Id}_C \\
 A' & \xrightarrow{i'} & B' & \xrightarrow{p'} & C.
@@ -804,7 +804,7 @@ Si $f \in F$, on a $\delta \circ (\mathrm{Int}_F f) = (\mathrm{Int}_{\tilde{F}} 
 On peut donc appliquer le lemme 7, ce qui donne un diagramme
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{i} & G & \xrightarrow{p} & M \\
 \downarrow{\delta} & & \downarrow{\gamma} & & \downarrow{\mathrm{Id}} \\
 \tilde{F} & \xrightarrow{\tilde{i}} & \tilde{G} & \xrightarrow{\tilde{p}} & M.

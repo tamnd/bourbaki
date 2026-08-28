@@ -29,7 +29,7 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: 6790203cdd252786a633208363d3c57f4b6c7b2af0a1176438dd8ea954363ad2
+content_sha256: 91c566a7cecdb143718ac07860e5d6fd98267d4b75ac12334a6fbc45e5ba6b22
 ---
 
 ## 1. DIAGRAMS AND EXACT SEQUENCES
@@ -66,7 +66,7 @@ In principle, a diagram is not a mathematical object, but only a figure designed
 Consider, for example, the following diagram:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 A & \xrightarrow{f} & B & \xrightarrow{g} & C & \xrightarrow{h} & D \\
 a \downarrow & & b \downarrow & & c \downarrow & & d \downarrow \\
 A' & \xrightarrow{f'} & B' & \xrightarrow{g'} & C' & \xrightarrow{h'} & D'
@@ -123,7 +123,7 @@ A-modules, the arrows represent homomorphisms and $0$ denotes a module reduced t
 
 (d) If $F$ is a submodule of $E$ and $i$ denotes the canonical injection of $F$ into $E$ and $p$ the canonical surjection of $E$ onto $E/F$, the diagram
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & F & \xrightarrow{i} & E & \xrightarrow{p} & E/F \longrightarrow 0
 \end{array}
 $$
@@ -131,7 +131,7 @@ is an exact sequence.
 
 (e) Iff: $E \to F$ is a homomorphism, the diagram
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \longrightarrow & f^{-1}(0) & \xrightarrow{i} & E & \xrightarrow{f} & F & \xrightarrow{p} & F/f(E) \longrightarrow 0
 \end{array}
 $$
@@ -139,13 +139,13 @@ $$
 
 (f) For the diagram
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 E & \xrightarrow{f} & F & \xrightarrow{g} & G
 \end{array}
 $$
 to be an exact sequence, it is necessary and sufficient that there exist modules $S$, $T$ and homomorphisms $a : E \to S$, $b : S \to F$, $c : F \to T$ and $d : T \to G$ such that $f = b \circ a$, $g = d \circ c$ and the three sequences
 $$
-\begin{array}{ccc}
+\begin{array}{ccccccccc}
 E & \xrightarrow{a} & S & \longrightarrow & 0 \\
 0 & \longrightarrow & S & \xrightarrow{b} & F & \xrightarrow{c} & T & \longrightarrow & 0 \\
 0 & \longrightarrow & T & \xrightarrow{d} & G
@@ -161,7 +161,7 @@ Recall finally that iff: $E \to F$ is an A-module homomorphism, we set $\operato
 
 Consider a commutative diagram of commutative groups:
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 A & \xrightarrow{u} & B & \xrightarrow{v} & C \\
 a \downarrow & & b \downarrow & & c \downarrow \\
 A' & \xrightarrow{u'} & B' & \xrightarrow{v'} & C'
@@ -323,7 +323,7 @@ Suppose that the diagram (10) is commutative and the two rows are exact. Under t
 To prove (i) consider the diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 u(A) & \xrightarrow{w} & B & \xrightarrow{v} & C \\
 a' \downarrow & & b \downarrow & & c \downarrow \\
 u'(A') & \xrightarrow{w'} & B' & \xrightarrow{v'} & C'
@@ -341,7 +341,7 @@ since b is injective and $a'$ is surjective; whence $\mathrm{Ker}(c) = 0$.
 To prove (ii) consider the diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 A & \xrightarrow{u} & B & \xrightarrow{w} & v(B) \\
 a' \downarrow & & b \downarrow & & c' \downarrow \\
 A' & \xrightarrow{w'} & B' & \xrightarrow{\sigma'} & v'(B')

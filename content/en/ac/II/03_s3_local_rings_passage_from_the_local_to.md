@@ -33,7 +33,7 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: b95c1024d708413f196f7407025c624c77589ba41ff70622a5c8b484baf0c3a4
+content_sha256: f45c6bcdeb9fb4d42c827fa7a2cd2a7d6c2e247ff237017567c017989109f6ae
 ---
 
 ## 3. LOCAL RINGS. PASSAGE FROM THE LOCAL TO THE GLOBAL
@@ -141,7 +141,7 @@ If $a \in A$, $x \in M$ and $\bar{a}$ is the class of $a$ in $A/m$, then $\bar{a
 Let $j$ be the canonical injection $R \to L$; then there is a commutative diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 m \otimes R & \xrightarrow{1 \otimes j} & m \otimes L & \xrightarrow{1 \otimes u} & m \otimes M \\
 \downarrow^a & & \downarrow^c & & \downarrow^c \\
 R & \xrightarrow{j} & L & \xrightarrow{u} & M

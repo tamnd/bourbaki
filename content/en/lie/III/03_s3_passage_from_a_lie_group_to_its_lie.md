@@ -129,7 +129,7 @@ If t \in \mathcal{T}^{(\infty)}(G) and g \in G, then $\gamma(g)_* t = \varepsilo
 Consider the diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 G & \xrightarrow{\phi} & G \times G & \xrightarrow{\psi} & G \\
 \end{array}
 $$

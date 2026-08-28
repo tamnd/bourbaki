@@ -254,7 +254,7 @@ If $t \in T^n$ and $t' \in T^p$, then $\phi(t)\phi(t') = \phi(tt')$ by definitio
 Let $S$ be the symmetric algebra of the $K$-module $g$ and $\tau$ the canonical homomorphism of $T$ onto $S$. Proposition 5 proves that there exists a unique homomorphism $\omega$, called *canonical*, of the algebra $S$ onto the algebra $G$, mapping 1 to 1, such that $\phi = \omega \circ \tau$. We have $\omega(S^n) = \phi(T^n) = G^n$. Let $\tau_n$ be the restriction of $\tau$ to $T^n$, $\omega_n$ the restriction of $\omega$ to $S^n$, $\psi_n$ the canonical mapping of $T^n$ into $U_n$ and $\theta_n$ the canonical mapping of $U_n$ onto $G^n$. The definition of $\omega_n$ proves that the following diagram is commutative:
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 T^n & \xrightarrow{\psi_n} & U_n & \xrightarrow{\theta_n} & G^n \\
 & \searrow & & \swarrow & \\
 & & S^n & \xrightarrow{\omega_n} &

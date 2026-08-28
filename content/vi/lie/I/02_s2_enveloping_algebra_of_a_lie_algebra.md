@@ -261,7 +261,7 @@ Nếu $t \in T^n$ và $t' \in T^p$, thì $\phi(t)\phi(t') = \phi(tt')$ theo đ�
 Cho $S$ là đại số đối xứng của $K$-môđun $g$ và $\tau$ là đồng cấu chính tắc của $T$ lên $S$. Mệnh đề 5 chứng minh rằng tồn tại một đồng cấu duy nhất $\omega$, được gọi là *chính tắc*, của đại số $S$ lên đại số $G$, biến 1 thành 1, sao cho $\phi = \omega \circ \tau$. Ta có $\omega(S^n) = \phi(T^n) = G^n$. Gọi $\tau_n$ là hạn chế của $\tau$ vào $T^n$, $\omega_n$ là hạn chế của $\omega$ vào $S^n$, $\psi_n$ là ánh xạ chính tắc của $T^n$ vào $U_n$ và $\theta_n$ là ánh xạ chính tắc của $U_n$ lên $G^n$. Định nghĩa của $\omega_n$ chứng minh rằng biểu đồ sau là giao hoán:
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 T^n & \xrightarrow{\psi_n} & U_n & \xrightarrow{\theta_n} & G^n \\
 & \searrow & & \swarrow & \\
 & & S^n & \xrightarrow{\omega_n} &

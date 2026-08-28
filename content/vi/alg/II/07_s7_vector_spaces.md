@@ -423,7 +423,7 @@ ta suy ra, bằng phép chuyển vị (Hệ quả của Định lý 5), các dã
 
 (15)
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \to & I^* & \xrightarrow{^t p} & E^* & \to & N^* & \to & 0, \\
 0 & \to & C^* & \to & F^* & \xrightarrow{^t j} & I^* & \to & 0.
 \end{array}

@@ -269,7 +269,7 @@ $$
 Về điều này, ta nhận xét rằng $v$ và $\bar{v}$ (tương ứng $v'_i$ và $\bar{v}'_i$) có cùng trường thặng dư (§ 4, no. 1, Hệ quả của Mệnh đề 2); điều này chứng minh đẳng thức thứ nhất. Đối với đẳng thức thứ hai, theo Nhận xét trong §4, no. 3, ta có biểu đồ giao hoán sau, trong đó các hàng là các dãy khớp và các mũi tên đứng biểu diễn các đơn ánh chính tắc:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \to & \Gamma_{\bar{v}} & \to & \Gamma_v & \to & \Gamma_w & \to & 0 \\
 & & \downarrow & & \downarrow & & \downarrow & & \\
 0 & \to & \Gamma_{\bar{v}_i'} & \to & \Gamma_{v_i'} & \to & \Gamma_{w'} & \to & 0

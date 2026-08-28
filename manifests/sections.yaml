@@ -3306,7 +3306,7 @@ books:
         statements: 0
         exercises: 0
         extraction: ocr
-        content_sha256: 55e4aebe3fb2bf75240c154873fb4465f9ca1b3453ad370e80dd59140275f8a0
+        content_sha256: 1fcf4a0d74f5fdeb40d85588a3a85bcc7b377eb8269f88e8294c7a20efa351bf
       introduction:
         kind: introduction
         title: INTRODUCTION
@@ -7897,7 +7897,7 @@ books:
               statements: 7
               exercises: 7
               extraction: ocr
-              content_sha256: 6790203cdd252786a633208363d3c57f4b6c7b2af0a1176438dd8ea954363ad2
+              content_sha256: 91c566a7cecdb143718ac07860e5d6fd98267d4b75ac12334a6fbc45e5ba6b22
             - kind: section
               section: 2
               title: Flat modules
@@ -7910,7 +7910,7 @@ books:
               statements: 37
               exercises: 24
               extraction: ocr
-              content_sha256: 9ada776b7c0aa973a418227eaada671c4629e279b41b24c1ad82f46743b38d27
+              content_sha256: c85fd29c8677420694a50ec476a995cb0ce51b281a6e47e438c2218fdbbdd659
             - kind: section
               section: 3
               title: Faithfully flat modules
@@ -7989,7 +7989,7 @@ books:
               statements: 39
               exercises: 14
               extraction: ocr
-              content_sha256: b95c1024d708413f196f7407025c624c77589ba41ff70622a5c8b484baf0c3a4
+              content_sha256: f45c6bcdeb9fb4d42c827fa7a2cd2a7d6c2e247ff237017567c017989109f6ae
             - kind: section
               section: 4
               title: Spectra of rings and supports of modules
@@ -8187,7 +8187,7 @@ books:
               statements: 36
               exercises: 22
               extraction: ocr
-              content_sha256: b2683bd9b0a8b23c19acb6cea7ee306f1f0caa4394f0ddc30d025f3b4e49a5d3
+              content_sha256: 3017e3752abcf55d187c09803065844dcbbdc79fe2e701a257f996a9e009a774
             - kind: section
               section: 3
               title: Finitely generated algebras over a field
@@ -8227,7 +8227,7 @@ books:
               statements: 15
               exercises: 7
               extraction: ocr
-              content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
+              content_sha256: ffbd3bf848152eb48edda8531310619d88fb3f197008f7a39636618c6a66b3db
             - kind: section
               section: 2
               title: Places
@@ -8253,7 +8253,7 @@ books:
               statements: 15
               exercises: 8
               extraction: ocr
-              content_sha256: 7c8006eb587e0c29f6ccf241727bf3ea54908994e1ee0854ab2d41fc36b2d06d
+              content_sha256: 4c01a96f5b56dacb5b58c422ea901ae132099e793d91ecc0e08dbd4e6531aedb
             - kind: section
               section: 4
               title: The height of a valuation
@@ -8318,7 +8318,7 @@ books:
               statements: 36
               exercises: 21
               extraction: ocr
-              content_sha256: e49f6fbfa95ed268d0719b34c59a38becfcce0b552ca780ea3e2dc144c85d20e
+              content_sha256: fc835dafb82892179666e1a17cd7ccd72ff8254f70295e13ff0a7b86f19eae27
             - kind: section
               section: 9
               title: 'Application: locally compact fields'
@@ -8410,7 +8410,7 @@ books:
               statements: 56
               exercises: 26
               extraction: ocr
-              content_sha256: 2b0e46004ec0336ef8389dfa0cd64f75eed1d16406a473ee4d387f8c0fa0eaa6
+              content_sha256: 5b2d1a69edfb71ef91f4fad1bb6c0cef971f5029d2a678e30bee07ba973de772
             - kind: historical
               title: Historical Note
               path: content/en/ac/VII/historical_note.md
@@ -8433,7 +8433,7 @@ books:
         statements: 0
         exercises: 0
         extraction: ocr
-        content_sha256: 4d1de610095563f92925c64916d89d2debd9b319425bfca37ef08dbeecfc097a
+        content_sha256: d1843c8cae56b035f449f6fada8a0222786c7b86ffbc7681aaf68ef3b1150e1c
       chapters:
         - chapter: V
           title: One-parameter groups
@@ -8850,7 +8850,7 @@ books:
               statements: 31
               exercises: 10
               extraction: ocr
-              content_sha256: 9fd48fda6c93ba00fed2c64041652f863a82e9936880e73fb2c09a90216c6f27
+              content_sha256: add76cfec57ab2fd2ac840fc2052a8426356b4ffcd3261079822dd1892146270
             - kind: section
               section: 4
               title: Approximation of continuous real-valued functions

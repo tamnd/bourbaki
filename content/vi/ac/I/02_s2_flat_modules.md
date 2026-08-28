@@ -424,7 +424,7 @@ Cho E là một A-môđun phải, F là một A-môđun trái và F', F'' là ha
 Xét biểu đồ
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccc}
 0 & \longrightarrow & F' \cap F'' & \longrightarrow & F' & \longrightarrow & F'/(F' \cap F'') \longrightarrow 0 \\
 & & \downarrow & & \downarrow & & \downarrow \\
 0 & \longrightarrow & F'' & \longrightarrow & F' + F'' & \longrightarrow & (F' + F'')/F'' \longrightarrow 0
