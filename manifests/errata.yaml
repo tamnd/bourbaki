@@ -512,6 +512,19 @@ contents:
           why: The last of the four rows the printing leaves with no page number. The
             heading is on pdf 25, which is labelled A X.19.
 heads:
+    - book: ac-x-fr
+      errata:
+        - pdf_page: 1
+          says: ''
+          read: AC X.1
+          why: The page a chapter opens on carries no running head anywhere in the
+            series and is numbered all the same. This one is the opener of the
+            only chapter in the fascicle, and the leaf after it was never scanned,
+            so pdf 2 heads AC X.3 and there is no anchor in front of the gap. With
+            none the fit reads the whole chapter as printed 2 to 180. The missing
+            leaf is AC X.2 and carries the heading of § 1 and the opening of no.
+            1, which is why pdf 2 begins at Proposition 1 under the running head
+            N° 1 PROFONDEUR with nothing above it.
     - book: ac-v-vii-fr
       errata:
         - pdf_page: 195
