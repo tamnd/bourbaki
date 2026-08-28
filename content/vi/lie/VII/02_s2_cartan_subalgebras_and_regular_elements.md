@@ -29,9 +29,9 @@ subsections:
       pdf_page: 29
 statements: 40
 exercises: 16
-content_sha256: ab1c9e112a8b7b9550e84ed45e89e2805d86c9a0e208a591abfd3569d6977857
+content_sha256: 7c07fbcd20217e64845d338ac10a2c6459fcb535e8f4fe6f9e03d9c5aff195d5
 translated_from: content/en/lie/VII/02_s2_cartan_subalgebras_and_regular_elements.md
-source_content_sha256: cd216f4473ca42ded2206eb6bb0c4659b8f54dd4567c37dde5e1e1476691ef01
+source_content_sha256: 05b31ef931fa1971af6f075dc663eed9dae014f8584d9c3690519a9cceb1ce2d
 translation_model: gpt-5.4
 translation_run: translate-vi-ee98954a
 glossary_version: 34
@@ -169,7 +169,7 @@ Cho $\mathfrak{g}$ là một đại số Lie chiều $n$. Nếu $x\in \mathfrak{
 
 det(T $-$ ad $x$) $=\sum_{i=0}^na_i(x)T^i$, với $a_i(x)\in k$.
 
-Ta có $a_i(x) = (-1)^{n-i}$Tr $(\bigwedge^{n-i}$ ad $x)$, xem Đại số, Chương III, §8, no. 11. Điều này cho thấy rằng $x \rightarrow a_i(x)$ là một ánh xạ đa thức thuần nhất bậc $n-i$ từ $\mathfrak{g}$ vào $k($Đại số, Chương IV, §5, no. 9).
+Ta có $a_i(x) = (-1)^{n-i}$Tr $(\bigwedge^{n-i}$ ad x), xem Đại số, Chương III, §8, no. 11. Điều này cho thấy rằng $x \rightarrow a_i(x)$ là một ánh xạ đa thức thuần nhất bậc $n-i$ từ $\mathfrak{g}$ vào $k($Đại số, Chương IV, §5, no. 9).
 
 #### Nhận xét 1 {#lie-vii-s2-n2-rem-1 .statement tag=00U1}
 
@@ -357,7 +357,7 @@ a$)\mathfrak{h}$ là giao hoán.
 
 b) Nếu $\rho$ là một biểu diễn nửa đơn hữu hạn chiều của $\mathfrak{g}$, thì các phần tử của $\rho (\mathfrak{h})$ là nửa đơn.
 
-Cho $\mathfrak{c}$ là tâm của $\mathfrak{g}$, và $\mathfrak{s}$ là đại số dẫn xuất của nó. Khi đó $\mathfrak{g}=\mathfrak{c}\times \mathfrak{s}$, nên $\mathfrak{h}=\mathfrak{c}\times \mathfrak{h}'$, trong đó $\mathfrak{h}'$ là một đại số con Cartan của $\mathfrak{s}$ (Mệnh đề 2). Theo Định lý $2,\mathfrak{h}'$ là giao hoán, do đó $\mathfrak{h}$ cũng giao hoán. Hơn nữa, $\rho (\mathfrak{h}')$ gồm các phần tử nửa đơn và $\rho (\mathfrak{c})$ cũng vậy (Chương I, §6, no. 5, Định lý 4); mệnh đề $b)$ được suy ra.
+Cho $\mathfrak{c}$ là tâm của $\mathfrak{g}$, và $\mathfrak{s}$ là đại số dẫn xuất của nó. Khi đó $\mathfrak{g}=\mathfrak{c}\times \mathfrak{s}$, nên $\mathfrak{h}=\mathfrak{c}\times \mathfrak{h}'$, trong đó $\mathfrak{h}'$ là một đại số con Cartan của $\mathfrak{s}$ (Mệnh đề 2). Theo Định lý $2,\mathfrak{h}'$ là giao hoán, do đó $\mathfrak{h}$ cũng giao hoán. Hơn nữa, $\rho (\mathfrak{h}')$ gồm các phần tử nửa đơn và $\rho (\mathfrak{c})$ cũng vậy (Chương I, §6, no. 5, Định lý 4); mệnh đề b) được suy ra.
 
 ### Bài tập {#lie-vii-s2-exercises}
 

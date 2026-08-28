@@ -54,9 +54,9 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: 3d6a59e0f46954a7ba86646adbaeac17bc92de882458f85452b767f410203d74
+content_sha256: cc7056ffaa29d8e51804fb410bedb587ac3bba555a33f07baa867b4dd6731633
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
-source_content_sha256: ace628286fbf81aac624b68384ad96ad2fa47f69b828b87b90696e070f925f67
+source_content_sha256: 1ae2452e09c6aae656d15e99ae783f3b775e219c73ee5639bef38a58f20ea3cb
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-1e020711
 glossary_version: 34
@@ -207,7 +207,7 @@ $$
 
 Giữ nguyên ký hiệu ở trên. Nếu $u \in A[[I]]$, ảnh của $u$ qua $\varphi$ được ký hiệu là $u(x)$ hoặc $u((x_i)_{i \in I})$ (hoặc cũng là $u(x_1, ..., x_n)$ nếu $I = (1, 2, ..., n)$) và được gọi là phần tử của $E$ thu được bằng phép thế $x_i$ cho $X_i$ trong $u$, hay là giá trị của $u$ tại các giá trị $x_i$ của $X_i$ hoặc cũng là giá trị của $u$ với $X_i = x_i$. Đặc biệt ta có $u = u((X_i)_{i \in I})$.
 
-Cho $E'$ là một $A$-đại số kết hợp, giao hoán và có đơn vị, được tôpô tuyến tính, tách biệt và đầy đủ. Cho $\lambda$ là một đồng cấu có đơn vị liên tục từ $E$ vào $E'$, và $(x_i)_{i \in I}$ là một họ các phần tử của $E$ thỏa mãn các điều kiện $a)$ và $b)$ của Mệnh đề 4 (IV, p. 28). Họ $(\lambda(x_i))_{i \in I}$ thỏa mãn cùng các điều kiện $a)$ và $b)$. Với mọi $u \in A[[I]]$ ta có
+Cho $E'$ là một $A$-đại số kết hợp, giao hoán và có đơn vị, được tôpô tuyến tính, tách biệt và đầy đủ. Cho $\lambda$ là một đồng cấu có đơn vị liên tục từ $E$ vào $E'$, và $(x_i)_{i \in I}$ là một họ các phần tử của $E$ thỏa mãn các điều kiện a) và b) của Mệnh đề 4 (IV, p. 28). Họ $(\lambda(x_i))_{i \in I}$ thỏa mãn cùng các điều kiện a) và b). Với mọi $u \in A[[I]]$ ta có
 
 $$
 \lambda(u((x_i)_{i \in I})) = u((\lambda(x_i))_{i \in I}),
@@ -227,7 +227,7 @@ Cho $(g_j)_{j \in J}$ thuộc $A_{J, K}$. Theo Hệ quả của Mệnh đề 3 (
 
 Đặc biệt nếu $J = (1, ..., p)$ và $f \in A[[X_1, ..., X_p]]$, ta có thể thay cho mỗi $X_j$ một chuỗi lũy thừa hình thức $g_j \in A[[K]]$ không có số hạng tự do; kết quả của phép thế này được viết $f(g_1, ..., g_p)$.
 
-Cho $x = (x_k)_{k \in K}$ là một họ các phần tử của $E$ thỏa mãn các điều kiện $a)$ và $b)$ của Mệnh đề 4 (IV, p. 28). Áp dụng (3), lấy cho $A$ đồng cấu $u \mapsto u(x)$ của $A[[K]]$ vào $E$; ta được
+Cho $x = (x_k)_{k \in K}$ là một họ các phần tử của $E$ thỏa mãn các điều kiện a) và b) của Mệnh đề 4 (IV, p. 28). Áp dụng (3), lấy cho $A$ đồng cấu $u \mapsto u(x)$ của $A[[K]]$ vào $E$; ta được
 
 $$
 f((g_j)_{j \in J})(x) = f((g_j(x))_{j \in J}).

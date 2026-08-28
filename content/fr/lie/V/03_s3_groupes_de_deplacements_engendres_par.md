@@ -52,7 +52,7 @@ subsections:
       pdf_page: 86
 statements: 35
 exercises: 8
-content_sha256: e977c875824e5339c38db46533a873c2d3517274e8e7c3f31d275c1d4c688bf1
+content_sha256: 6b310a0bee96e8e5da0e5f34d6277443345c5742e9e42de54da749ba46f001a4
 ---
 
 ## § 3. Groupes de déplacements engendrés par des réflexions
@@ -289,7 +289,7 @@ Alors :
 
 Comme $q$ est une forme quadratique positive, le noyau $N$ de $q$ est l’ensemble des vecteurs isotropes pour $q$ (Alg., chap. IX, § 7, no 1, cor. de la prop. 2). Soit $a_1, \ldots, a_n$ la base canonique de $\mathbf{R}^n$. Si $\sum_i c_i a_i \in N$, le lemme 3 montre que l’on a aussi $\sum_i |c_i| \cdot a_i \in N$, d’où $\sum_i q_{ji}|c_i| = 0$ pour tout $j$. Soit alors $I$ l’ensemble des $i$ tels que $c_i \neq 0$. Si $j \notin I$, on a $q_{ji}|c_i| \leq 0$ pour $i \in I$ et $q_{ji}|c_i| = 0$ pour $i \notin I$, d’où $q_{ji} = 0$ pour $j \notin I$ et $i \in I$. L’hypothèse b) entraîne donc que ou bien $I = \varnothing$, ou bien $I = \{1, \ldots, n\}$. Par suite, tout vecteur non nul de $N$ a toutes ses coordonnées $\neq 0$. Si on avait $\dim N \geq 2$, l’intersection de $N$ et de l’hyperplan d’équation $x_i = 0$ serait de dimension $\geq 1$, contrairement à ce que l’on vient de voir. En outre, ce qui précède montre que, si $\dim N = 1$, alors $N$ contient un vecteur de coordonnées toutes $> 0$. Ceci achève la démonstration de (i).
 
-D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap. IX, § 7, no 3, prop. 5) et positives puisque $q$ est positive. Soit $\lambda$ la plus petite d’entre elles. La matrice $Q' = Q - \lambda I_n$ est alors la matrice d’une forme positive dégénérée $q'$ et les éléments non diagonaux de $Q'$ sont les mêmes que ceux de $Q$. Par suite, $Q'$ satisfait aux conditions $a), b)$ et $c)$ de l’énoncé. Comme le noyau $N'$ de $q'$ est le sous-espace propre de $Q$ correspondant à la valeur propre $\lambda$, l’assertion (ii) résulte de (i).
+D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap. IX, § 7, no 3, prop. 5) et positives puisque $q$ est positive. Soit $\lambda$ la plus petite d’entre elles. La matrice $Q' = Q - \lambda I_n$ est alors la matrice d’une forme positive dégénérée $q'$ et les éléments non diagonaux de $Q'$ sont les mêmes que ceux de $Q$. Par suite, $Q'$ satisfait aux conditions $a), b)$ et c) de l’énoncé. Comme le noyau $N'$ de $q'$ est le sous-espace propre de $Q$ correspondant à la valeur propre $\lambda$, l’assertion (ii) résulte de (i).
 
 #### Lemme 5 {#lie-v-s3-lem-5 .statement}
 
@@ -300,7 +300,7 @@ D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap
         1) $(e_1, \ldots, e_n)$ est une base de $T;$
         2) $n = \dim T + 1;$ *il existe une famille $(c_i)_{1 \leq i \leq n}$ de nombres réels $> 0$ tels que $\sum_i c_i e_i = 0,$ et toute famille $(c'_i)_{1 \leq i \leq n}$ de nombres réels tels que $\sum_i c'_i e_i = 0$ est proportionnelle à $(c_i)_{1 \leq i \leq n}$.*
 
-    Posons $q_{ij} = (e_i|e_j)$. La matrice $Q = (q_{ij})$ satisfait alors aux hypothèses du lemme 4 : les conditions $a)$ et $b)$ du lemme 4 sont les mêmes que les conditions $a)$ et $b)$ ci-dessus, et $c)$ est satisfaite puisque $\sum_{i,j} q_{ij} x_i x_j = \sum_i ||x_i e_i||^2$. Le noyau $N$ de la forme quadratique $q$ sur $\mathbf{R}^n$, de matrice $Q$, est l’ensemble des $(c_1, \ldots, c_n) \in \mathbf{R}^n$ tels que $\sum_i c_i e_i = 0$. Si $N = \{0\}$, les $e_i$ sont linéairement indépendants et l’on est dans le cas 1). Si $\dim N > 0$, le lemme 4 (i) montre que l’on est dans le cas 2).
+    Posons $q_{ij} = (e_i|e_j)$. La matrice $Q = (q_{ij})$ satisfait alors aux hypothèses du lemme 4 : les conditions a) et b) du lemme 4 sont les mêmes que les conditions a) et b) ci-dessus, et c) est satisfaite puisque $\sum_{i,j} q_{ij} x_i x_j = \sum_i ||x_i e_i||^2$. Le noyau $N$ de la forme quadratique $q$ sur $\mathbf{R}^n$, de matrice $Q$, est l’ensemble des $(c_1, \ldots, c_n) \in \mathbf{R}^n$ tels que $\sum_i c_i e_i = 0$. Si $N = \{0\}$, les $e_i$ sont linéairement indépendants et l’on est dans le cas 1). Si $\dim N > 0$, le lemme 4 (i) montre que l’on est dans le cas 2).
 
 #### Lemme 6 {#lie-v-s3-lem-6 .statement}
 

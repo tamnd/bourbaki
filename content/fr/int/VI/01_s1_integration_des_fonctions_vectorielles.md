@@ -40,7 +40,7 @@ subsections:
       pdf_page: 25
 statements: 35
 exercises: 27
-content_sha256: 2eaef11179d4f64065887fcec360e09a158f0c3b0b1c46a5142da4b0001403bd
+content_sha256: b8c4765c81650ff38867c6c3de3a3383e5c8c0b59371a899c7a7faa59387c539
 ---
 
 ## § 1. Intégration des fonctions vectorielles
@@ -370,9 +370,9 @@ b) *Pour toute partie compacte K de T, U(K) est équicontinu, et il existe un en
 
 *De plus, lorsque U vérifie ces conditions, U est une application continue de T dans* $\mathcal{L}(G; H)$ *muni de la topologie de la convergence compacte.*
 
-Pour voir que $a)$ entraîne $b)$, observons que pour tout voisinage V de 0 dans H et tout $t \in K$, il existe par hypothèse un voisinage $L_t$ de $t$ dans T et un voisinage $W_t$ de 0 dans G tels que les relations $t' \in L_t$ et $x \in W_t$ entraînent $U(t') . x \in V$. Il suffit de recouvrir K par un nombre fini de voisinages $L_{t_i}$ et de prendre $W = \bigcap_i W_{t_i}$ pour avoir $U(t) . x \in V$ lorsque $t \in K$ et $x \in W$, ce qui démontre l’équicontinuité de $U(K)$.
+Pour voir que a) entraîne b), observons que pour tout voisinage V de 0 dans H et tout $t \in K$, il existe par hypothèse un voisinage $L_t$ de $t$ dans T et un voisinage $W_t$ de 0 dans G tels que les relations $t' \in L_t$ et $x \in W_t$ entraînent $U(t') . x \in V$. Il suffit de recouvrir K par un nombre fini de voisinages $L_{t_i}$ et de prendre $W = \bigcap_i W_{t_i}$ pour avoir $U(t) . x \in V$ lorsque $t \in K$ et $x \in W$, ce qui démontre l’équicontinuité de $U(K)$.
 
-Inversement, supposons vérifié $b)$; il suffit de montrer que pour toute partie compacte K de T, l’application $(t, x) \to U(t) . x$ est continue dans $K \times G$. Soit $M = U(K)$; comme M est équicontinu, il en résulte que sur M, la topologie de la convergence simple dans G est identique à la topologie de la convergence simple dans D (*Top. gén.*, chap. X, 2e éd., § 2, no 4, th. 1); l’hypothèse $b)$ entraîne donc que $t \to U(t)$ est une application continue de K dans $\mathcal{L}(G; H)$ lorsqu’on munit $\mathcal{L}(G; H)$ de la topologie de la convergence simple. D’autre part, $(A, x) \to A . x$ est une application continue de $M \times G$ dans H lorsqu’on munit M de la topologie de la convergence simple (*Top. gén.*, chap. X, 2e éd., § 2, no 2, cor. 4 de la prop. 1). Comme l’application $(t, x) \to U(t) . x$ se factorise en $(t, x) \to (U(t), x) \to U(t) . x$, on en conclut qu’elle est continue.
+Inversement, supposons vérifié b); il suffit de montrer que pour toute partie compacte K de T, l’application $(t, x) \to U(t) . x$ est continue dans $K \times G$. Soit $M = U(K)$; comme M est équicontinu, il en résulte que sur M, la topologie de la convergence simple dans G est identique à la topologie de la convergence simple dans D (*Top. gén.*, chap. X, 2e éd., § 2, no 4, th. 1); l’hypothèse b) entraîne donc que $t \to U(t)$ est une application continue de K dans $\mathcal{L}(G; H)$ lorsqu’on munit $\mathcal{L}(G; H)$ de la topologie de la convergence simple. D’autre part, $(A, x) \to A . x$ est une application continue de $M \times G$ dans H lorsqu’on munit M de la topologie de la convergence simple (*Top. gén.*, chap. X, 2e éd., § 2, no 2, cor. 4 de la prop. 1). Comme l’application $(t, x) \to U(t) . x$ se factorise en $(t, x) \to (U(t), x) \to U(t) . x$, on en conclut qu’elle est continue.
 
 Enfin, la dernière assertion du lemme résulte de ce que, sur M, la topologie de la convergence compacte est identique à celle de la convergence simple (*Top. gén.*, chap. X, 2e éd., § 2, no 4, th. 1).
 

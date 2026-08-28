@@ -56,9 +56,9 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: 0e968180238781c68df628410a70360b5f09b8544543739b6c1d6f65f7b5f949
+content_sha256: f3abda162ae4f2167c2a8015e1e5e74aec3f352555bc97a7fc7601d61c84078c
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
-source_content_sha256: bb2e4dac8054be7f706d40123e45594629215f3acd354e292ab7ac1b0ae9e17c
+source_content_sha256: 419ab91b51b52ce173f1a3d494e9786a6b3f625f788e1e4f59833324cd27ed0e
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-ae8ef630
 glossary_version: 34
@@ -770,7 +770,7 @@ Các khái niệm về hàm không đáng kể, hàm không đáng kể địa p
 
 Điều kiện đủ là hiển nhiên. Cho $\nu \neq 0$ là một độ đo nửa bất biến trái, và ta hãy chứng minh rằng $\nu$ tương đương với $\mu$. Ta có thể chỉ xét trường hợp $\nu > 0$. Cho A là một tập con compact của G. Ta sẽ chứng minh, và điều đó sẽ thiết lập mệnh đề, rằng các điều kiện $\mu(A) = 0$, $\nu(A) = 0$ là tương đương (Chương V, §5, No. 5, Định lý 2).
 
-$a)$ Với mọi $f \in \mathcal{K}_+(G)$, hàm $(x, y) \mapsto f(x)\varphi_A(xy)$ trên $G \times G$ là khả tích $(\nu \otimes \mu)$, vì nó là nửa liên tục trên, bị chặn, và giá đỡ của nó được chứa trong tập compact $K \times K^{-1}A$ nếu đặt $K = \operatorname{Supp} f$. Do đó, theo định lý Lebesgue–Fubini,
+a) Với mọi $f \in \mathcal{K}_+(G)$, hàm $(x, y) \mapsto f(x)\varphi_A(xy)$ trên $G \times G$ là khả tích $(\nu \otimes \mu)$, vì nó là nửa liên tục trên, bị chặn, và giá đỡ của nó được chứa trong tập compact $K \times K^{-1}A$ nếu đặt $K = \operatorname{Supp} f$. Do đó, theo định lý Lebesgue–Fubini,
 
 $$
 \int d\nu(y) \int \varphi_A(xy)f(x)\,d\mu(x) = \int f(x)\,d\mu(x) \int \varphi_A(xy)\,d\nu(y).

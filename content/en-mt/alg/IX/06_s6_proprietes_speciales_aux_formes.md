@@ -36,11 +36,11 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: f778dfadeffab9572e74c12ac3ab2e95af84f3872015dbe7a6b793cfad78a625
+content_sha256: a07afc620cb362265de5986603e5048b5d492de96afc0a31d3799febccffe47e
 translated_from: content/fr/alg/IX/06_s6_proprietes_speciales_aux_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: c0f3cc4f21326efbdb0a3fcbcd98dc41f0674d36d93c33d8663ebc1f3663d133
+source_content_sha256: 18811443a6523c15763f72b724a529f24db99c244334693b67b5acac00f7f87c
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-bddeeb87
 glossary_version: 34
@@ -247,17 +247,17 @@ Suppose the vector space $\mathbf{E}$ to be of finite dimension n. The orthogona
 
 The proposition being obvious for $n = 0$, we reason by induction on $n$. Let $u$ be an orthogonal transformation of $E$, and let $x$ be a non-isotropic vector of $E$ (Lemma 1); distinguish three cases:
 
-$a)$ First suppose that $u(x) = x$. Then the hyperplane $H$ orthogonal to $x$ is non-isotropic, and we have $u(H) = H$. The restriction $u'$ of $u$ to $H$ therefore belongs to the orthogonal group $O(Q')$ associated with the restriction $Q'$ of $Q$ to $H$. The induction hypothesis entails, since $Q'$ is non-degenerate, that we have $u' = v_1' \ldots v_m'$, where $v_i'$ is a symmetry with respect to a hyperplane $L_i$ of $H$. The endomorphism $v_i$ of $E$ which extends $v_i'$ and is such that $v_i(x) = x$ is then the symmetry with respect to the hyperplane $Ax + L_i$ of $E$. Obviously $u = v_1 v_2 \ldots v_m$.
+a) First suppose that $u(x) = x$. Then the hyperplane $H$ orthogonal to $x$ is non-isotropic, and we have $u(H) = H$. The restriction $u'$ of $u$ to $H$ therefore belongs to the orthogonal group $O(Q')$ associated with the restriction $Q'$ of $Q$ to $H$. The induction hypothesis entails, since $Q'$ is non-degenerate, that we have $u' = v_1' \ldots v_m'$, where $v_i'$ is a symmetry with respect to a hyperplane $L_i$ of $H$. The endomorphism $v_i$ of $E$ which extends $v_i'$ and is such that $v_i(x) = x$ is then the symmetry with respect to the hyperplane $Ax + L_i$ of $E$. Obviously $u = v_1 v_2 \ldots v_m$.
 
-$b)$ In the second place, suppose that $u(x) = -x$. If $s$ denotes the symmetry with respect to the hyperplane $H$ orthogonal to $x$, and if we put $v = su$, we have $v(x) = x$, and we are reduced to case $a)$.
+b) In the second place, suppose that $u(x) = -x$. If $s$ denotes the symmetry with respect to the hyperplane $H$ orthogonal to $x$, and if we put $v = su$, we have $v(x) = x$, and we are reduced to case a).
 
-$c)$ Finally, let us pass to the general case, and put $y = u(x)$, so that $Q(y) = Q(x)$. Under these conditions, the vectors $x - y$ and $x + y$ cannot both be isotropic, for, from the relations $Q(x - y) = 0$ and $Q(x + y) = 0$, we would deduce, on adding member to member, $2(Q(x) + Q(y)) = 0$ ($\S 3$, no 4, déf. 2), whence $4Q(x) = 0$, contrary to the assumption. Suppose, for example, that $a = x - y$ is not isotropic; we then have
+c) Finally, let us pass to the general case, and put $y = u(x)$, so that $Q(y) = Q(x)$. Under these conditions, the vectors $x - y$ and $x + y$ cannot both be isotropic, for, from the relations $Q(x - y) = 0$ and $Q(x + y) = 0$, we would deduce, on adding member to member, $2(Q(x) + Q(y)) = 0$ ($\S 3$, no 4, déf. 2), whence $4Q(x) = 0$, contrary to the assumption. Suppose, for example, that $a = x - y$ is not isotropic; we then have
 
 $$
 \Phi(y, a) = Q(y + a) - Q(y) - Q(a) = Q(x) - Q(y) - Q(a) = -Q(a);
 $$
 
-consequently, if $s$ denotes the symmetry with respect to the hyperplane orthogonal to $a$, formula (6) proves that $s(y) = y + a = x$; on putting $v = su$, we have $v(x) = x$, and we are reduced to case $a)$. If $a = x - y$ is isotropic and $b = x + y$ is not isotropic, we see analogously that we are reduced to case $b)$.
+consequently, if $s$ denotes the symmetry with respect to the hyperplane orthogonal to $a$, formula (6) proves that $s(y) = y + a = x$; on putting $v = su$, we have $v(x) = x$, and we are reduced to case a). If $a = x - y$ is isotropic and $b = x + y$ is not isotropic, we see analogously that we are reduced to case b).
 
 ### 5. Group of similitudes.
 
@@ -324,13 +324,13 @@ Suppose that A is a field of characteristic $\neq 2$. Every displacement $u$ of 
 
 a) If a principal minor of order $r$ of $R$ is not zero, but if all the principal minors of orders $r + 1$ and $r + 2$ which contain this minor of order $r$ are zero, now prove that $R$ is of rank $r$ (cf. Chapter III, § 7, Exercise 1 and § 8, Exercise 11 and Chapter IV, § 2, Exercise 10). Deduce that, in order that $R$ be of rank $r$, it is necessary and sufficient that there exist a principal minor of order $r$ which is $\neq 0$, and that all the principal minors of orders $r + 1$ and $r + 2$ be zero.
 
-b) Deduce from $a)$ that if $R$ is of rank $r$, there exists a permutation $\sigma \in \mathfrak{S}_n$ such that, if the same permutation $\sigma$ is performed on the rows and columns of $R$, and if $S$ denotes the matrix obtained, and $\Delta_k$ the principal minor of order $k$ of $S$ obtained by suppressing in $S$ the rows and columns of index $> k$, the following two properties hold: $1^\circ \Delta_r \neq 0$; $2^\circ$ there is no index $k < r$ such that $\Delta_k = \Delta_{k+1} = 0$.
+b) Deduce from a) that if $R$ is of rank $r$, there exists a permutation $\sigma \in \mathfrak{S}_n$ such that, if the same permutation $\sigma$ is performed on the rows and columns of $R$, and if $S$ denotes the matrix obtained, and $\Delta_k$ the principal minor of order $k$ of $S$ obtained by suppressing in $S$ the rows and columns of index $> k$, the following two properties hold: $1^\circ \Delta_r \neq 0$; $2^\circ$ there is no index $k < r$ such that $\Delta_k = \Delta_{k+1} = 0$.
 
 2) Suppose that $A$ is a commutative field, and that $E$ is of finite dimension $n$. Let $\Phi$ be a hermitian sesquilinear form on $E$, satisfying condition (T) of § 4, No. 2, $R = (\alpha_{ij})$ the matrix of $\Phi$ with respect to a basis $(e_i)$ of $E$.
 
-$a)$ If $\Phi$ is of rank $r$, and if the principal minor (Exercise 1) obtained by suppressing in $R$ the rows and columns of indices $> r$ is not zero, show that there exists a new basis $(f_i)$ of $E$ such that $e_i = f_i$ for $1 \leq i \leq r$ and that the matrix of $\Phi$ with respect to $(f_i)$ is obtained by replacing by 0 in $R$ all the $\alpha_{ij}$ such that $i > r$ or $j > r$ (consider the subspace $E^0$ orthogonal to $E$).
+a) If $\Phi$ is of rank $r$, and if the principal minor (Exercise 1) obtained by suppressing in $R$ the rows and columns of indices $> r$ is not zero, show that there exists a new basis $(f_i)$ of $E$ such that $e_i = f_i$ for $1 \leq i \leq r$ and that the matrix of $\Phi$ with respect to $(f_i)$ is obtained by replacing by 0 in $R$ all the $\alpha_{ij}$ such that $i > r$ or $j > r$ (consider the subspace $E^0$ orthogonal to $E$).
 
-$b)$ Deduce from $a)$ that if $\Phi$ is of rank $n$, and if the cofactor $\Delta_{n-1}$ of $\alpha_{nn}$ in the determinant $\Delta = \det R$ is not zero, there exists a new basis $(f_i)$ of $E$ such that $f_i = e_i$ for $1 \leq i \leq n-1$, and such that
+b) Deduce from a) that if $\Phi$ is of rank $n$, and if the cofactor $\Delta_{n-1}$ of $\alpha_{nn}$ in the determinant $\Delta = \det R$ is not zero, there exists a new basis $(f_i)$ of $E$ such that $f_i = e_i$ for $1 \leq i \leq n-1$, and such that
 
 $$
 \Phi(x, y) = \Phi\left( \sum_{i=1}^n \xi_i f_i, \sum_{i=1}^n \eta_i f_i \right) = \sum_{i=1}^{n-1} \sum_{j=1}^{n-1} \alpha_{ij} \xi_i \overline{\eta_j} + \frac{\Delta}{\Delta_{n-1}} \xi_n \overline{\eta_n}
@@ -338,7 +338,7 @@ $$
 
 (consider the hermitian form whose matrix with respect to $(e_i)$ is obtained by replacing $\alpha_{nn}$ by $\alpha_{nn} - \frac{\Delta}{\Delta_{n-1}}$ in $R$).
 
-$c)$ Suppose that $\Phi$ is of rank $n$, that $\Delta_{n-1} = 0$, but that the principal minor $\Delta_{n-2}$ of $R$ obtained by deleting the rows and columns with indices $n-1$ and $n$ in $R$ is not zero. Now prove that there exists a new basis $(f_i)$ of $E$ such that $f_i = e_i$ for $1 \leq i \leq n-2$, and such that
+c) Suppose that $\Phi$ is of rank $n$, that $\Delta_{n-1} = 0$, but that the principal minor $\Delta_{n-2}$ of $R$ obtained by deleting the rows and columns with indices $n-1$ and $n$ in $R$ is not zero. Now prove that there exists a new basis $(f_i)$ of $E$ such that $f_i = e_i$ for $1 \leq i \leq n-2$, and such that
 
 $$
 \Phi(x, y) = \left( \sum_{i=1}^n \xi_i f_i, \sum_{i=1}^n \eta_i f_i \right) = \sum_{i=1}^{n-2} \sum_{j=1}^{n-2} \alpha_{ij} \xi_i \overline{\eta_j} + \xi_{n-1} \overline{\eta_n} + \xi_n \overline{\eta_{n-1}}.
@@ -350,7 +350,7 @@ $$
 
 4) Let $A$ be a finite field of characteristic $\neq 2$, $E$ a finite-dimensional vector space of dimension $n$ over $A$.
 
-$a)$ Prove that for every non-degenerate symmetric bilinear form $\Phi$ on $E$, there exists an orthogonal basis $(e_i)$ of $E$ such that $\Phi(e_i, e_i) = 1$ for $1 \leq i \leq n-1$, $\Phi(e_n, e_n) = \Delta$ (discriminant of $\Phi$ with respect to $(e_i)$). (Remark that if $\alpha \beta \neq 0$, the equation $\alpha \xi^2 + \beta \eta^2 = \gamma$ always admits solutions $(\xi, \eta)$ in $A$ if $\gamma \neq 0$ (chap. V, § 11, exerc. 4)).
+a) Prove that for every non-degenerate symmetric bilinear form $\Phi$ on $E$, there exists an orthogonal basis $(e_i)$ of $E$ such that $\Phi(e_i, e_i) = 1$ for $1 \leq i \leq n-1$, $\Phi(e_n, e_n) = \Delta$ (discriminant of $\Phi$ with respect to $(e_i)$). (Remark that if $\alpha \beta \neq 0$, the equation $\alpha \xi^2 + \beta \eta^2 = \gamma$ always admits solutions $(\xi, \eta)$ in $A$ if $\gamma \neq 0$ (chap. V, § 11, exerc. 4)).
 
 b) In order that two non-degenerate symmetric bilinear forms on E be equivalent, it is necessary and sufficient that the quotient of their discriminants (with respect to the same basis of E) be a square in A. Deduce that, if n is odd, for every non-degenerate symmetric bilinear form $\Phi$ on E, there exists an orthogonal basis with respect to which the matrix of $\Phi$ is of the form $\lambda I_n \ (\lambda \in A)$; the index of $\Phi$ is then $(n-1)/2$.
 
@@ -392,7 +392,7 @@ These ideals are called the invariant factors of the form $\Phi$. Give an exampl
 
 d) Soient $F$ un sous-module de $E$, $\Phi_F$ la restriction de $\Phi$ à $F \times F$, $A\alpha_i$ ($1 \leq i \leq r$) les facteurs invariants non nuls de $\Phi$, rangés de sorte que $\alpha_i$ divise $\alpha_{i+1}$, $A\beta_i$ ($1 \leq i \leq s$) les facteurs invariants non nuls de $\Phi_F$, rangés de sorte que $\beta_i$ divise $\beta_{i+1}$. Montrer que l’on a $s \leq r$ et que $\beta_i$ est multiple de $\alpha_i$ pour $1 \leq i \leq s$ (même méthode que dans l’exerc. 1 a) du § 5).
 
-$e)$ Suppose $\Phi$ is non-degenerate; let $F$, $G$ be two non-isotropic submodules of $E$ such that $F^0$ (resp. $G^0$) is supplementary to $F$ (resp. $G$). Suppose that the restrictions of $\Phi$ to $F$ and to $G$ are equivalent; now prove that there exists an automorphism $u$ of $E$, leaving $\Phi$ invariant, and such that $u(F) = G$. (Using $a$), reduce to the case where $F = Aa, G = Ab, \Phi(a, a) = \Phi(b, b)$. Let $(c_j)$ be a base of $G^0$, and let $b', c'_j$ ($1 \leq j \leq n-1$) be the components of $b$ and $c_j$ respectively in $F^0$; now prove that there exist scalars $\mu_j$ ($1 \leq j \leq n-1$) such that the elements $d_j = c'_j + \mu_j b'$ satisfy the relations $\Phi(d_j, d_k) = \Phi(c_j, c_k)$ for every pair of indices; one will note for this that for every $\lambda \in A$, one of the elements $1 \pm \lambda$ is invertible in $A$.
+e) Suppose $\Phi$ is non-degenerate; let $F$, $G$ be two non-isotropic submodules of $E$ such that $F^0$ (resp. $G^0$) is supplementary to $F$ (resp. $G$). Suppose that the restrictions of $\Phi$ to $F$ and to $G$ are equivalent; now prove that there exists an automorphism $u$ of $E$, leaving $\Phi$ invariant, and such that $u(F) = G$. (Using $a$), reduce to the case where $F = Aa, G = Ab, \Phi(a, a) = \Phi(b, b)$. Let $(c_j)$ be a base of $G^0$, and let $b', c'_j$ ($1 \leq j \leq n-1$) be the components of $b$ and $c_j$ respectively in $F^0$; now prove that there exist scalars $\mu_j$ ($1 \leq j \leq n-1$) such that the elements $d_j = c'_j + \mu_j b'$ satisfy the relations $\Phi(d_j, d_k) = \Phi(c_j, c_k)$ for every pair of indices; one will note for this that for every $\lambda \in A$, one of the elements $1 \pm \lambda$ is invertible in $A$.
 
 11) Let $A$ be a principal ideal domain of characteristic 0, in which there is only one principal ideal $\pi$, such that 2 is divisible by $\pi$. If $(e_1, e_2)$ is the canonical basis of $E = A^2$, $\Phi$ the symmetric bilinear form on $E$ defined by $\Phi(\xi_1 e_1 + \xi_2 e_2, \eta_1 e_1 + \eta_2 e_2) = \xi_1 \eta_2 + \xi_2 \eta_1$, now prove that there is no orthogonal base of $E$ for $\Phi$.
 
@@ -403,11 +403,11 @@ $$
 (method analogous to that of Exercise 10 of § 5, using Exercise 3).
 
 13) Let $A$ be the finite field $\mathbf{F}_q$ ($q$ not a multiple of 2), $E$ a vector space of dimension $n$ over $A$, $Q$ a non-degenerate quadratic form on $E$. Now prove that:
-$a)$ If $n$ is odd, the order of the group $\mathbf{SO}(Q)$ is
+a) If $n$ is odd, the order of the group $\mathbf{SO}(Q)$ is
 $$
 (q^{n-1} - 1) q^{n-2}(q^{n-3} - 1) q^{n-4} \ldots (q^2 - 1) q.
 $$
-$b)$ If $n = 2m$ is even, the order of the group $\mathbf{SO}(Q)$ is equal to
+b) If $n = 2m$ is even, the order of the group $\mathbf{SO}(Q)$ is equal to
 $$
 (q^{2m-1} - \varepsilon q^{m-1}) (q^{2m-2} - 1) q^{2m-3} \ldots (q^2 - 1) q
 $$
@@ -528,7 +528,7 @@ c) The index of $Q$ is called the maximum dimension of the totally singular subs
 
 d) We suppose $q = 0$; let $O(Q)$ be the automorphism group of $E$ leaving $Q$ invariant. If $u \in O(Q)$, now prove that $u(x) = x$ for every $x \in E^0$. For every $x \in E_2$, let $u(x) = u_0(x) + u_2(x)$, where $u_0(x) \in E^0$ and $u_2(x) \in E_2$; show that $u_2$ belongs to the symplectic group $Sp(\Phi_2)$ (where $\Phi_2$ is the restriction of $\Phi$ to $E_2$) and that $Q(u_2(x)) + Q(x) \in Q(E^0)$. Conversely, for every automorphism $u_2 \in Sp(\Phi_2)$ such that $Q(u_2(x)) + Q(x) \in Q(E^0)$ for every $x \in E_2$, show that there exists one and only one linear mapping $u_0$ of $E_2$ into $E^0$ such that the linear mapping equal to $u_0 + u_2$ in $E_2$, to the identity in $E^0$, belongs to $\mathbf{O}(Q)$.
 
-$e)$ We suppose that $A$ is a *perfect* field ($A^2 = A$) and that $q = 0$. Deduce from $b)$ that every vector subspace of $E$, of dimension $\geqslant 3$, contains at least one vector $x$ such that $Q(x) = 0$. If $n$ is *odd*, one necessarily has $m = \nu$ and $n = 2m + 1$, so that there exists a basis $(e_i)$ of $E$ with respect to which one has
+e) We suppose that $A$ is a *perfect* field ($A^2 = A$) and that $q = 0$. Deduce from b) that every vector subspace of $E$, of dimension $\geqslant 3$, contains at least one vector $x$ such that $Q(x) = 0$. If $n$ is *odd*, one necessarily has $m = \nu$ and $n = 2m + 1$, so that there exists a basis $(e_i)$ of $E$ with respect to which one has
 
 $$
 Q(\sum_{i=1}^n \xi_i e_i) = \xi_1 \xi_{m+1} + \cdots + \xi_m \xi_{2m} + \xi_{2m+1}^2,
@@ -544,11 +544,11 @@ where $\lambda \in A$. Let $A_1$ be the field obtained by adjoining to $A$ the r
 
 **¶ 28**) Let $A$ be a commutative field of characteristic 2, distinct from $\mathbf{F}_2$, $E$ a vector space of dimension $n = 2m$ over $A$, $Q$ a non-degenerate quadratic form on $E$.
 
-$a)$ Prove that the orthogonal group $\mathbf{O}(Q)$ is generated by the symmetries (which here are nothing other than the transvections belonging to $\mathbf{O}(Q)$ ($\S 4$, exercise 6)) (reason as in exercise 11 of $\S 5$). Deduce that the commutator group of $\mathbf{O}(Q)$ is generated by the squares of the elements of $\mathbf{O}(Q)$ (cf. exercise 17).
+a) Prove that the orthogonal group $\mathbf{O}(Q)$ is generated by the symmetries (which here are nothing other than the transvections belonging to $\mathbf{O}(Q)$ ($\S 4$, exercise 6)) (reason as in exercise 11 of $\S 5$). Deduce that the commutator group of $\mathbf{O}(Q)$ is generated by the squares of the elements of $\mathbf{O}(Q)$ (cf. exercise 17).
 
-$b)$ Suppose that $Q$ is of maximum index; let $V, W$ be two totally singular subspaces of $E$ ($\S 4$, No. 1) of dimension $m$. Let $u$ be a symmetry $x \to x + \frac{\Phi(x, a)}{Q(a)} a$ ($\S 4$, exercise 6) ; let $k$ be the dimension of $V \cap W$. Prove that the dimension of $V \cap u(W)$ is $k + 1$ if $a$ is orthogonal to $V \cap W, k - 1$ otherwise (in the first case remark that $a = x + y$, or $x \in V, y \in W$, and prove that $u(y) = x$; in the second, remark that $u$ cannot leave invariant any non-orthogonal singular vector to $a$).
+b) Suppose that $Q$ is of maximum index; let $V, W$ be two totally singular subspaces of $E$ ($\S 4$, No. 1) of dimension $m$. Let $u$ be a symmetry $x \to x + \frac{\Phi(x, a)}{Q(a)} a$ ($\S 4$, exercise 6) ; let $k$ be the dimension of $V \cap W$. Prove that the dimension of $V \cap u(W)$ is $k + 1$ if $a$ is orthogonal to $V \cap W, k - 1$ otherwise (in the first case remark that $a = x + y$, or $x \in V, y \in W$, and prove that $u(y) = x$; in the second, remark that $u$ cannot leave invariant any non-orthogonal singular vector to $a$).
 
-$c)$ Suppose again that the index of $Q$ is arbitrary. Prove that the subgroup $\mathbf{SO}(Q)$ of $\mathbf{O}(Q)$, formed by the automorphisms of $E$ which are products of an *even* number of symmetries, is a distinguished subgroup of index 2 of $\mathbf{O}(Q)$. (Prove that the product of an odd number of symmetries cannot be the identity, by considering the extension of $Q$ to the es-
+c) Suppose again that the index of $Q$ is arbitrary. Prove that the subgroup $\mathbf{SO}(Q)$ of $\mathbf{O}(Q)$, formed by the automorphisms of $E$ which are products of an *even* number of symmetries, is a distinguished subgroup of index 2 of $\mathbf{O}(Q)$. (Prove that the product of an odd number of symmetries cannot be the identity, by considering the extension of $Q$ to the es-
 
 Bourbaki XXIV.
 

@@ -56,7 +56,7 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: bb2e4dac8054be7f706d40123e45594629215f3acd354e292ab7ac1b0ae9e17c
+content_sha256: 419ab91b51b52ce173f1a3d494e9786a6b3f625f788e1e4f59833324cd27ed0e
 ---
 
 ## § 1. CONSTRUCTION OF A HAAR MEASURE
@@ -763,7 +763,7 @@ The concepts of negligible, locally negligible, measurable and locally integrabl
 
 Sufficiency is obvious. Let $\nu \neq 0$ be a left quasi-invariant measure, and let us show that $\nu$ is equivalent to $\mu$. We can restrict ourselves to the case that $\nu > 0$. Let A be a compact subset of G. We will show, as will establish the proposition, that the conditions $\mu(A) = 0$, $\nu(A) = 0$ are equivalent (Ch. V, §5, No. 5, Th. 2).
 
-$a)$ For every $f \in \mathcal{K}_+(G)$, the function $(x, y) \mapsto f(x)\varphi_A(xy)$ on $G \times G$ is $(\nu \otimes \mu)$-integrable, because it is upper semi-continuous, bounded, and its support is contained in the compact set $K \times K^{-1}A$ if one sets $K = \operatorname{Supp} f$. Therefore, by the Lebesgue–Fubini theorem,
+a) For every $f \in \mathcal{K}_+(G)$, the function $(x, y) \mapsto f(x)\varphi_A(xy)$ on $G \times G$ is $(\nu \otimes \mu)$-integrable, because it is upper semi-continuous, bounded, and its support is contained in the compact set $K \times K^{-1}A$ if one sets $K = \operatorname{Supp} f$. Therefore, by the Lebesgue–Fubini theorem,
 
 $$
 \int d\nu(y) \int \varphi_A(xy)f(x)\,d\mu(x) = \int f(x)\,d\mu(x) \int \varphi_A(xy)\,d\nu(y).

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 228
 statements: 16
 exercises: 18
-content_sha256: 7bc764a9b78ff43fbe0ede2d34d02c8291669a44121e1fd0b1781b5cd157cf3d
+content_sha256: 12a82d7a333f3a8a462df6bd779a464199724e4351715ac4cc176bb24336e2a0
 ---
 
 ## § 3. MEASURES AND ADDITIVE SET FUNCTIONS
@@ -248,9 +248,9 @@ $$
 \sup_n \lambda^\bullet(K_n) = J(T) = \lambda^\bullet(C).
 $$
 
-Set $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ is Borel in $X$, $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, therefore these three sets differ only by $\lambda$-negligible sets, and so $T$ is $\lambda$-measurable. This completes the proof of $a)$.
+Set $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ is Borel in $X$, $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, therefore these three sets differ only by $\lambda$-negligible sets, and so $T$ is $\lambda$-measurable. This completes the proof of a).
 
-Let us pass to $b)$. Suppose that $X$ is a Radon space, and that $T$ is universally measurable in $X$. Let $I$ be a positive function on $\mathcal{B}(T)$ that is countably additive and bounded; the function $A \mapsto I(A \cap T)$ on $\mathcal{B}(X)$ is then positive, countably additive and bounded, therefore there exists a bounded measure $\nu$ on $X$ such that $I(A \cap T) = \nu^*(A)$ for all $A \in \mathcal{B}(X)$. Now, $T$ is $\nu$-measurable; the preceding relation shows that $\nu^*(K) = 0$ for every compact subset $K$ of $X$ that is disjoint from $T$, therefore $\nu$ is concentrated on $T$. Consequently, for every Borel set $A$ of $X$, we have $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, where $\mu$ is the measure induced by $\nu$ on $T$. Finally, it follows that $I(B) = \mu^*(B)$ for every set $B \in \mathcal{B}(T)$ (GT, IX, §6, No. 3, *Remark 2*), and $I$ is indeed inner regular.
+Let us pass to b). Suppose that $X$ is a Radon space, and that $T$ is universally measurable in $X$. Let $I$ be a positive function on $\mathcal{B}(T)$ that is countably additive and bounded; the function $A \mapsto I(A \cap T)$ on $\mathcal{B}(X)$ is then positive, countably additive and bounded, therefore there exists a bounded measure $\nu$ on $X$ such that $I(A \cap T) = \nu^*(A)$ for all $A \in \mathcal{B}(X)$. Now, $T$ is $\nu$-measurable; the preceding relation shows that $\nu^*(K) = 0$ for every compact subset $K$ of $X$ that is disjoint from $T$, therefore $\nu$ is concentrated on $T$. Consequently, for every Borel set $A$ of $X$, we have $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, where $\mu$ is the measure induced by $\nu$ on $T$. Finally, it follows that $I(B) = \mu^*(B)$ for every set $B \in \mathcal{B}(T)$ (GT, IX, §6, No. 3, *Remark 2*), and $I$ is indeed inner regular.
 
 #### Corollary {#int-ix-s3-n3-cor-1 .statement}
 

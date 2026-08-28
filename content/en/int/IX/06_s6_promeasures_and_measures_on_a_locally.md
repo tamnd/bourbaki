@@ -57,7 +57,7 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: 58e45819d7a42959dc83ab3b30467ce024124a58cd273e90753ba86f78cc31a1
+content_sha256: f5af6278d6bcac9db62099468624d04d8e4f8c4d55064bcd03a2261c3d9724ac
 ---
 
 ## § 6. PROMEASURES AND MEASURES ON A LOCALLY CONVEX SPACE
@@ -413,7 +413,7 @@ $$
 
 If these formulas are true for an element $x'$ of $E'$, then they are true for all of its multiples $t \cdot x'$ (with $t$ real). We may therefore content ourselves with establishing them when $Q(x')$ is equal to 0 or 1.
 
-$a)$ Suppose $Q(x') = 0$. The measure $x'(\mu)$ is equal to $\gamma_0 = \varepsilon_0$, therefore $x'$ is zero $\mu$-almost everywhere; the formulas (16) to (19) are then obvious.
+a) Suppose $Q(x') = 0$. The measure $x'(\mu)$ is equal to $\gamma_0 = \varepsilon_0$, therefore $x'$ is zero $\mu$-almost everywhere; the formulas (16) to (19) are then obvious.
 
 b) Suppose $Q(x') = 1$, whence $x'(\mu) = \gamma_1$. Then
 $$
@@ -1053,7 +1053,7 @@ $$
 < Q(x) + \varepsilon
 $$
 
-for all $x \in E$. Thus $b)$ is verified.
+for all $x \in E$. Thus b) is verified.
 
 Q.E.D.
 
@@ -1067,7 +1067,7 @@ With the identifications of $E_1$ and $E_2$ with their duals introduced in this 
 
 — *Let $Q$ be a nuclear positive quadratic form on the Hilbert space $E$. The Gaussian promeasure $\Gamma_Q$ on $E$ with variance $Q$ is a measure on $E_s$.*
 
-The Fourier transform $\Phi$ of $\Gamma_Q$ is equal to $e^{-Q/2}$. Now, $e^t \geq 1 + t$ for every real number $t$, whence $\Phi(0) - \Re \Phi \leq Q/2$. The condition $b)$ of Theorem 3 is therefore verified and $\Gamma_Q$ is a measure on $E_s$.
+The Fourier transform $\Phi$ of $\Gamma_Q$ is equal to $e^{-Q/2}$. Now, $e^t \geq 1 + t$ for every real number $t$, whence $\Phi(0) - \Re \Phi \leq Q/2$. The condition b) of Theorem 3 is therefore verified and $\Gamma_Q$ is a measure on $E_s$.
 
 #### Remark {#int-ix-s6-n11-rem-1 .statement}
 

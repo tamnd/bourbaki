@@ -45,11 +45,11 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: 2e225aff9d336098123f6a04b553bca80ecbfede3d28c21e9ac1e09a70727f39
+content_sha256: c0158ff0fca29a6c022ba154b7a5d2962e4d246ffba5dba8e9f489b8bb2152f1
 translated_from: content/fr/ac/IX/01_s1_vecteurs_de_witt.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 1bf90a4c3564b98f34f18ff8237f5d8a6d0deeaca092b966e89f64752a810f7a
+source_content_sha256: 18354c626dd9c636314d443a2d42f81a66f14088339262d25bc4eedae5c9dfa6
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-en-mt-115f0bd4
 glossary_version: 34
@@ -165,9 +165,9 @@ u_n = \Phi_{n-1}(a_0^p, ..., a_{n-1}^p) + p^n \cdot a_n & \text{for all } n \geq
 \end{cases}
 $$
 
-Let $u = (u_n)_{n \in \mathbf{N}}$ be in $\mathbf{A}^{\mathbf{N}}$. When $p \cdot 1_A$ is not a divisor of 0 in $\mathbf{A}$ (resp. when $p \cdot 1_A$ is invertible in $\mathbf{A}$), there exists at most one sequence $(a_n)_{n \in \mathbf{N}}$ in $\mathbf{A}$ (resp. exactly one sequence $(a_n)_{n \in \mathbf{N}}$ in $\mathbf{A}$) satisfying the equalities (10), whence $a)$ and $b)$.
+Let $u = (u_n)_{n \in \mathbf{N}}$ be in $\mathbf{A}^{\mathbf{N}}$. When $p \cdot 1_A$ is not a divisor of 0 in $\mathbf{A}$ (resp. when $p \cdot 1_A$ is invertible in $\mathbf{A}$), there exists at most one sequence $(a_n)_{n \in \mathbf{N}}$ in $\mathbf{A}$ (resp. exactly one sequence $(a_n)_{n \in \mathbf{N}}$ in $\mathbf{A}$) satisfying the equalities (10), whence a) and b).
 
-Let us prove $c)$. According to Lemma 2, the image $\mathbf{A}'$ of $\mathbf{A}^{\mathbf{N}}$ by $\Phi_A$ is the set of $u = (u_n)_{n \in \mathbf{N}}$ in $\mathbf{A}^{\mathbf{N}}$ such that $\sigma(u_n) \equiv u_{n+1} \mod. p^{n+1} \cdot \mathbf{A}$ for every $n \in \mathbf{N}$. It follows immediately that $\mathbf{A}'$ is a subring of $\mathbf{A}^{\mathbf{N}}$, stable under $f_A$ and $v_A$.
+Let us prove c). According to Lemma 2, the image $\mathbf{A}'$ of $\mathbf{A}^{\mathbf{N}}$ by $\Phi_A$ is the set of $u = (u_n)_{n \in \mathbf{N}}$ in $\mathbf{A}^{\mathbf{N}}$ such that $\sigma(u_n) \equiv u_{n+1} \mod. p^{n+1} \cdot \mathbf{A}$ for every $n \in \mathbf{N}$. It follows immediately that $\mathbf{A}'$ is a subring of $\mathbf{A}^{\mathbf{N}}$, stable under $f_A$ and $v_A$.
 
 #### Remark {#ac-ix-s1-n2-rem-1 .statement}
 
@@ -181,7 +181,7 @@ If $A$ is endowed with a graduation of type $\mathbf{N}$, if $p.1_A$ is not a di
 
 Let $A$ be the ring $\mathbf{Z}[X, Y]$ of polynomials with integer coefficients in two families of indeterminates $X = (X_n)_{n \in \mathbf{N}}$ and $Y = (Y_n)_{n \in \mathbf{N}}$. Let $\theta$ be the endomorphism of $A$ defined by $\theta(X_n) = X_n^p$ and $\theta(Y_n) = Y_n^p$ for all $n \in \mathbf{N}$. Then $p$ is not a divisor of 0 in $A$ and the set of the $a$ in $A$ such that $\theta(a) \equiv a^p \mod. p.A$ is a subring of $A$ containing the $X_n$ and the $Y_n$, hence equal to $A$ itself.
 
-By the prop. 2, $a)$ and $c)$ of no 2, there exist elements $S = (S_n)_{n \in \mathbf{N}}, P = (P_n)_{n \in \mathbf{N}}, I = (I_n)_{n \in \mathbf{N}}$ and $F = (F_n)_{n \in \mathbf{N}}$ of $A^\mathbf{N}$ characterized respectively by the equalities
+By the prop. 2, a) and c) of no 2, there exist elements $S = (S_n)_{n \in \mathbf{N}}, P = (P_n)_{n \in \mathbf{N}}, I = (I_n)_{n \in \mathbf{N}}$ and $F = (F_n)_{n \in \mathbf{N}}$ of $A^\mathbf{N}$ characterized respectively by the equalities
 
 $$
 \left\{
@@ -203,10 +203,10 @@ The elements $S_n, P_n, I_n$ and $F_n$ of $A$ are therefore characterized by the
 
 Assign $X_n$ and $Y_n$ the weight $p^n$ for every $n \in \mathbf{N}$. We deduce from the remark of no 2 the following assertions:
 
-$a)$ We have $S_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ and $S_n$ is isobaric of weight $p^n$.
-$b)$ We have $P_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ and $P_n$ is isobaric of weight $p^n$ in each of the families $(X_0, ..., X_n)$ and $(Y_0, ..., Y_n)$.
-$c)$ We have $I_n \in \mathbf{Z}[X_0, ..., X_n]$ and $I_n$ is isobaric of weight $p^n$.
-$d)$ We have $F_n \in \mathbf{Z}[X_0, ..., X_{n+1}]$ and $F_n$ is isobaric of weight $p^{n+1}$.
+a) We have $S_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ and $S_n$ is isobaric of weight $p^n$.
+b) We have $P_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ and $P_n$ is isobaric of weight $p^n$ in each of the families $(X_0, ..., X_n)$ and $(Y_0, ..., Y_n)$.
+c) We have $I_n \in \mathbf{Z}[X_0, ..., X_n]$ and $I_n$ is isobaric of weight $p^n$.
+d) We have $F_n \in \mathbf{Z}[X_0, ..., X_{n+1}]$ and $F_n$ is isobaric of weight $p^{n+1}$.
 
 Formula (2) makes it possible in practice to determine the polynomials $S_n, P_n, I_n$ and $F_n$ successively.
 
@@ -760,7 +760,7 @@ a) For every integer $k \geqslant 1$, one has $(V_1(A))^k = p^{k-1} \cdot V_1(A)
 
 b) Suppose that $A$ is a ring of characteristic $p$. On the ring $W(A)$, the $V_1(A)$-adic topology and the $p$-adic topology coincide, and they are finer than the product topology $\mathcal{C}$ (cf. No. 6). The ring $W(A)$ is separated and complete for the $p$-adic topology.
 
-Let us prove $a)$ by induction on $k$. The case $k = 1$ is evident. Suppose $k \geqslant 2$. By the induction hypothesis, one has $V_1(A)^{k-1} = p^{k-2} \cdot V_1(A)$ and consequently $V_1(A)^k = p^{k-2} \cdot (V_1(A))^2$. But it follows from prop. 3, $d)$, formula (31), of No. 5 that one has $(V_1(A))^2 = p \cdot V_1(A)$, whence $a)$.
+Let us prove a) by induction on $k$. The case $k = 1$ is evident. Suppose $k \geqslant 2$. By the induction hypothesis, one has $V_1(A)^{k-1} = p^{k-2} \cdot V_1(A)$ and consequently $V_1(A)^k = p^{k-2} \cdot (V_1(A))^2$. But it follows from prop. 3, d), formula (31), of No. 5 that one has $(V_1(A))^2 = p \cdot V_1(A)$, whence a).
 
 Suppose now that $A$ is of characteristic $p$. As one has
 
@@ -768,7 +768,7 @@ $$
 p \cdot W(A) = VF(W(A)) \subset V_1(A) \quad (\text{formula (52)}) ,
 $$
 
-one deduces from $a)$ the inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A)$, and from the corollary to prop. 5 the inclusion $(V_1(A))^k \subset V_k(A)$, for every integer $k \geqslant 1$. The first assertion of $b)$ follows.
+one deduces from a) the inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A)$, and from the corollary to prop. 5 the inclusion $(V_1(A))^k \subset V_k(A)$, for every integer $k \geqslant 1$. The first assertion of b) follows.
 
 Let $k$ be an integer $\geqslant 1$. According to formula (52), the ideal $p^k.W(A)$ of $W(A)$ is the set of elements $a = (a_n)_{n \in \mathbf{N}}$ of $W(A)$ such that one has $a_n = 0$ for $n < k$ and $a_n \in A^{p^k}$ for $n \geqslant k$. It is therefore closed for the topology $\mathcal{G}$. Since $W(A)$ is separated and complete for the topology $\mathcal{G}$ (no 6) and since the ideals $p^k.W(A)$ of $W(A)$, for $k \geqslant 1$, form a basis of neighbourhoods of $0$ in $W(A)$ for the $p$-adic topology, the ring $W(A)$ is separated and complete for the $p$-adic topology (TG, III, p. 26, cor. 1 to prop. 10).
 
@@ -776,9 +776,9 @@ Let $k$ be an integer $\geqslant 1$. According to formula (52), the ideal $p^k.W
 
 *Let A be a perfect ring of characteristic p.*
 
-$a)$ *For every element $a = (a_n)_{n \in \mathbf{N}}$ of $W(A)$, the series with general term $p^n \tau(a_n^{p^{-n}})$ is convergent in $W(A)$, with sum $a$.*
+a) *For every element $a = (a_n)_{n \in \mathbf{N}}$ of $W(A)$, the series with general term $p^n \tau(a_n^{p^{-n}})$ is convergent in $W(A)$, with sum $a$.*
 
-$b)$ *On $W(A)$, the $V_1(A)$-adic topology, the $p$-adic topology and the topology $\mathcal{G}$ coincide. More precisely, one has $V_n(A) = p^n.W(A) = (V_1(A))^n$ for every integer $n \geqslant 0$. In particular $\Phi_0$ defines an isomorphism of $W(A)/p.W(A)$ onto $A$.*
+b) *On $W(A)$, the $V_1(A)$-adic topology, the $p$-adic topology and the topology $\mathcal{G}$ coincide. More precisely, one has $V_n(A) = p^n.W(A) = (V_1(A))^n$ for every integer $n \geqslant 0$. In particular $\Phi_0$ defines an isomorphism of $W(A)/p.W(A)$ onto $A$.*
 
 By definition (A, V, p. 5), the mapping $a \mapsto a^p$ is an automorphism of the ring $A$. According to prop. 5, F is therefore an automorphism of the ring $W(A)$, and one has, for every $n \in \mathbf{N}$,
 
@@ -786,7 +786,7 @@ $$
 p^n.W(A) = V^n F^n(W(A)) = V^n(W(A)) = V_n(A).
 $$
 
-In particular, one has $(V_1(A))^n = (p.W(A))^n = p^n.W(A)$. The assertion $b)$ follows from this.
+In particular, one has $(V_1(A))^n = (p.W(A))^n = p^n.W(A)$. The assertion b) follows from this.
 
 According to prop. 5, one has
 
@@ -794,7 +794,7 @@ $$
 p^n.\tau(a_n^{p^{-n}}) = V^n F^n \tau(a_n^{p^{-n}}) = V^n \tau(a_n),
 $$
 
-and the assertion $a)$ follows from prop. 4 of no 6.
+and the assertion a) follows from prop. 4 of no 6.
 
 #### Proposition 8 {#ac-ix-s1-prop-8 .statement}
 

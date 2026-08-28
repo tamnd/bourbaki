@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: 2a82e6269703610eb0aec6a364adfc78d840c576702417f4d79de46898d441fb
+content_sha256: dbd6a8fe77e36a2dde3d4d956d5fc6fd2a6bf284a5e6f34dca83531dabcebd7f
 ---
 
 ## § 9. COMPACT LIE GROUPS OPERATING ON MANIFOLDS
@@ -80,7 +80,7 @@ Let A be a compact subset of X. The set $\mathscr{P}$ of morphisms $\varphi \in 
 
 Clearly, it suffices to prove the proposition for $r= 1$.
 
-$a)$ We show first that the subset J of $\mathscr{C}^1(X;Y)$ consisting of the morphisms that are immersions at every point of A is open. Consider the map $j_A:\mathscr{C}^1(X;Y)\times A\rightarrow J^1(X;Y)$ such that $j_A(\varphi , x) =j_x^1(\varphi ) ($Differentiable and Analytic Manifolds, Results, 12.1).
+a) We show first that the subset J of $\mathscr{C}^1(X;Y)$ consisting of the morphisms that are immersions at every point of A is open. Consider the map $j_A:\mathscr{C}^1(X;Y)\times A\rightarrow J^1(X;Y)$ such that $j_A(\varphi , x) =j_x^1(\varphi ) ($Differentiable and Analytic Manifolds, Results, 12.1).
 
 By definition of the topology on $\mathscr{C}^1$(X;Y), the map $\widetilde{j}_A:\varphi \rightarrow j_A(\varphi , .)$ from $\mathscr{C}^1(X;Y)$ to $\mathscr{C}(A;J^1(X;Y))$ is continuous; it now follows from General Topology, Chap. X, §3, no. 4, Th. 3, that $j_A$ is continuous.
 
@@ -88,7 +88,7 @@ On the other hand, let M be the set of jets $j$ in $J^1(X;Y)$ whose tangent map 
 
 We conclude from the preceding that the set $j_A^{-1}(M)$ is open in $\mathscr{C}^1(X;Y)\times A$, hence that its complement $\mathscr{F}$ is closed. Since A is compact, the projection pr$_1:\mathscr{C}^1(X;Y)\times A\rightarrow \mathscr{C}^1(X;Y)$ is a proper morphism, hence closed; consequently, the set J, which is equal to $\mathscr{C}^1(X;Y)$ **--** pr$_1(\mathscr{F})$, is open in $\mathscr{C}^1(X;Y)$.
 
-$b)$ Let H be the subset of $J\times A\times A$ consisting of the elements $(f, x, y)$ such that $f(x) =f(y)$. It is clear that H contains $J\times \Delta$, where $\Delta$ denotes the diagonal in the product $A\times A$; we show that $H'= H$ **--** $(J\times \Delta )$ is closed in $J\times A\times A$. Since $\mathscr{P}$ is the complement in J of the image of $H'$ under the proper projection pr$_1: J\times A\times A\rightarrow J$, this will imply the proposition.
+b) Let H be the subset of $J\times A\times A$ consisting of the elements $(f, x, y)$ such that $f(x) =f(y)$. It is clear that H contains $J\times \Delta$, where $\Delta$ denotes the diagonal in the product $A\times A$; we show that $H'= H$ **--** $(J\times \Delta )$ is closed in $J\times A\times A$. Since $\mathscr{P}$ is the complement in J of the image of $H'$ under the proper projection pr$_1: J\times A\times A\rightarrow J$, this will imply the proposition.
 
 The topology of $\mathscr{C}^1(X;Y)$ being finer than the topology of compact convergence, the map $(\varphi , x) \rightarrow \varphi (x)$ from $\mathscr{C}^1(X;Y)\times A$ to Y is continuous (General Topology, Chap. X, §3, no. 4, Cor. 1 of Th. 3); it follows that H is closed in $J\times A\times A$. Hence, it suffices to show that $J\times \Delta$ is open in H, in other words, that for all $\varphi \in J$ and all $x\in A$ there exists a neighbourhood $\Omega$ of $\varphi$ in J and a neighbourhood B of $x$ in X such that, for any morphism $\psi$ in $\Omega$, the restriction of $\psi$ to $A\cap B$ is injective.
 
@@ -242,7 +242,7 @@ Under the conditions of Prop. 6, the image of $\alpha$ is an open neighbourhood 
 
 Let G be a topological group operating continuously on a separated topological space E. For every point $x$ of E, denote by $G_x$ the fixer of $x$ in G, and assume that the canonical map $G/G_x\rightarrow Gx$ is a homeomorphism; this is notably the case in the following two situations:
 
-$a)$ the topologies of G and E are discrete;
+a) the topologies of G and E are discrete;
 
 $b) G$ operates properly on E (General Topology, Chap. III, §4, no. 2, Prop. 4), for example, G is compact (General Topology, Chap. III, §4, no. 1, Prop. 2).
 
@@ -266,17 +266,17 @@ b) Let H and $H'$ be two compact subgroups of G such that $H\subset H'$ and such
 
 c) With the relation $t\leq t'$, the set $\mathscr{T}$ is a noetherian ordered set (Theory of Sets, Chap. III, §6, no. 5, text preceding Prop. 7).
 
-$a)$ Let $(H_i)_{i\geq 1}$ be a decreasing sequence of compact subgroups of G; these are Lie subgroups of G (Chap. III, §8, no. 2, Th. 2). The sequence of integers (dim $H_i$)$_{i\geq 1}$ is decreasing, hence stationary, so there exists an integer N such that the subgroups $H_i$ have the same identity component for $i\geq N$. Then the decreasing sequence of positive integers $(H_i: (H_i)_0)_{i\geq N}$ is stationary, so $H_i= H_{i+1}$ for $i$ sufficiently large.
+a) Let $(H_i)_{i\geq 1}$ be a decreasing sequence of compact subgroups of G; these are Lie subgroups of G (Chap. III, §8, no. 2, Th. 2). The sequence of integers (dim $H_i$)$_{i\geq 1}$ is decreasing, hence stationary, so there exists an integer N such that the subgroups $H_i$ have the same identity component for $i\geq N$. Then the decreasing sequence of positive integers $(H_i: (H_i)_0)_{i\geq N}$ is stationary, so $H_i= H_{i+1}$ for $i$ sufficiently large.
 
-$b)$ Let $f$ be an isomorphism from $H'$ to H. The sequence $(f^n(H))_{n\geq 0}$ is a decreasing sequence of compact subgroups of G, so $f^n(H) =f^{n+1}(H)$ for $n$ sufficiently large, by $a)$. Since $f$ is an isomorphism, this implies that $f(H) = H =f(H')$, so $H = H'$.
+b) Let $f$ be an isomorphism from $H'$ to H. The sequence $(f^n(H))_{n\geq 0}$ is a decreasing sequence of compact subgroups of G, so $f^n(H) =f^{n+1}(H)$ for $n$ sufficiently large, by a). Since $f$ is an isomorphism, this implies that $f(H) = H =f(H')$, so $H = H'$.
 
-$c)$ Let $t, t'\in \mathscr{T}$ be such that $t\leq t'$ and $t'\leq t$. Then, there exist $H,H_1\in t$ and $H',H'_1\in t'$ such that $H\supset H'$ and $H_1\subset H'_1$. Let $g$ and $g'$ be two elements of G such that $H_1=gHg^{-1}$ and $H'_1=g'H'g^{'-1}$; put $u=g^{'-1}g$. Then
+c) Let $t, t'\in \mathscr{T}$ be such that $t\leq t'$ and $t'\leq t$. Then, there exist $H,H_1\in t$ and $H',H'_1\in t'$ such that $H\supset H'$ and $H_1\subset H'_1$. Let $g$ and $g'$ be two elements of G such that $H_1=gHg^{-1}$ and $H'_1=g'H'g^{'-1}$; put $u=g^{'-1}g$. Then
 
 $$
 uHu^{-1}\subset H'\subset H
 $$
 
-by $b)$, this implies that $uHu^{-1}= H$, so $H'= H$ and $t'=t$. Thus, the set $\mathscr{T}$ is ordered, and it is noetherian by $a)$.
+by b), this implies that $uHu^{-1}= H$, so $H'= H$ and $t'=t$. Thus, the set $\mathscr{T}$ is ordered, and it is noetherian by a).
 
 #### Theorem 2 {#lie-ix-s9-thm-2 .statement tag=01HU}
 
@@ -288,21 +288,21 @@ b) For all $t\in \mathscr{T},X_{(t)}$ is a submanifold of X, the equivalence rel
 
 c) Assume that $X/G$ is connected. Then the set of orbit types of elements of X has a largest element $\tau$; moreover, $X_{(\tau)}$ is a dense open subset of X and $X_{(\tau)}/G$ is connected.
 
-Let $x$ be a point of X and $t\in \mathscr{T}$ its type. To prove $a)$ and $b)$, we can replace X by a stable open set containing $x$, and hence (Prop. 6) can assume that X is of the form $G\times^HW$, where W is the space of a finite dimensional analytic linear representation of a compact subgroup H of G, the point $x$ being the image $p(e,0)$ of $(e,0)\in G\times W$ under the canonical projection $p: G\times W\rightarrow G\times^HW$. If $u=p(g, y)\in G\times^HW$ and $a\in G$, then $au=u$ if and only if there exists $h\in H$ with $(ag, y) = (gh^{-1}, hy)$, that is, if $a\in gH_yg^{-1}$. Thus, $G_u=gH_yg^{-1}$; in particular, $G_x= H$, so $G_u$ is conjugate to a subgroup of $G_x$, which proves that the type of $u$ is $\geq t$, hence $a)$.
+Let $x$ be a point of X and $t\in \mathscr{T}$ its type. To prove a) and b), we can replace X by a stable open set containing $x$, and hence (Prop. 6) can assume that X is of the form $G\times^HW$, where W is the space of a finite dimensional analytic linear representation of a compact subgroup H of G, the point $x$ being the image $p(e,0)$ of $(e,0)\in G\times W$ under the canonical projection $p: G\times W\rightarrow G\times^HW$. If $u=p(g, y)\in G\times^HW$ and $a\in G$, then $au=u$ if and only if there exists $h\in H$ with $(ag, y) = (gh^{-1}, hy)$, that is, if $a\in gH_yg^{-1}$. Thus, $G_u=gH_yg^{-1}$; in particular, $G_x= H$, so $G_u$ is conjugate to a subgroup of $G_x$, which proves that the type of $u$ is $\geq t$, hence a).
 
-Moreover, $u$ is of type $t$ if and only if $G_u$ is conjugate to H in G, or equivalently that $H_y$ is conjugate to H in G; by Lemma $6b)$, this means that $H_y= H$, and hence that $y$ is fixed by H. If $W'$ is the vector subspace of W consisting of the elements fixed by H, it follows that $X_{(t)}$ can be identified with $G\times^HW'$, and hence also with $G/H\times W'$, hence $b)$.
+Moreover, $u$ is of type $t$ if and only if $G_u$ is conjugate to H in G, or equivalently that $H_y$ is conjugate to H in G; by Lemma $6b)$, this means that $H_y= H$, and hence that $y$ is fixed by H. If $W'$ is the vector subspace of W consisting of the elements fixed by H, it follows that $X_{(t)}$ can be identified with $G\times^HW'$, and hence also with $G/H\times W'$, hence b).
 
-To prove $c)$, observe that the assumption that $X/G$ is connected implies that X is pure of finite dimension: indeed, for all $k\geq 0$, denote by $X_k$ the set of points $x\in X$ such that dim$_xX =k$; then $X_k$ is open and closed in X, and stable under G, so X is equal to one of the $X_k$.
+To prove c), observe that the assumption that $X/G$ is connected implies that X is pure of finite dimension: indeed, for all $k\geq 0$, denote by $X_k$ the set of points $x\in X$ such that dim$_xX =k$; then $X_k$ is open and closed in X, and stable under G, so X is equal to one of the $X_k$.
 
-We now prove $c)$ by induction on the dimension of X, the assertion being clear for dim X = 0. Let $\tau$ be a maximal element among the orbit types of the points of X (such an element exists by Lemma $6c$)$)$. We shall prove the following:
+We now prove c) by induction on the dimension of X, the assertion being clear for dim X = 0. Let $\tau$ be a maximal element among the orbit types of the points of X (such an element exists by Lemma $6c$)$)$. We shall prove the following:
 
 $c')$ For every subset A of $X_{(t)}$, open and closed in $X_{(\tau)}$ and stable under G, the closure $\overline{A}$ of A in X is open.
 
-This assertion implies $c)$. Indeed, note first that $X_{(\tau)}$ is open in X, by $a)$; assertion $c')$ implies that $\overline{X}_{(\tau)}$ is open and closed in X, hence equal to X since it is stable under G and $X/G$ is connected. Let A be a non-empty open and closed subset of $X_{(\tau)}$ stable under G; by $c'),\overline{A}$ is open and closed in X and stable under G, hence equal to X; this implies that A is dense in $X_{(\tau)}$, hence equal to $X_{(\tau)}$. Consequently, every non-empty open and closed subset of $X_{(\tau)}/G$ is equal to $X_{(\tau)}/G$, which proves that $X_{(\tau)}/G$ is connected. Finally, since $X_{(\tau)}$ is dense in X, it follows from $a)$ that every point of X is of type $\leq \tau$; in other words, $\tau$ is the largest element among the orbit types of the points of X.
+This assertion implies c). Indeed, note first that $X_{(\tau)}$ is open in X, by a); assertion $c')$ implies that $\overline{X}_{(\tau)}$ is open and closed in X, hence equal to X since it is stable under G and $X/G$ is connected. Let A be a non-empty open and closed subset of $X_{(\tau)}$ stable under G; by $c'),\overline{A}$ is open and closed in X and stable under G, hence equal to X; this implies that A is dense in $X_{(\tau)}$, hence equal to $X_{(\tau)}$. Consequently, every non-empty open and closed subset of $X_{(\tau)}/G$ is equal to $X_{(\tau)}/G$, which proves that $X_{(\tau)}/G$ is connected. Finally, since $X_{(\tau)}$ is dense in X, it follows from a) that every point of X is of type $\leq \tau$; in other words, $\tau$ is the largest element among the orbit types of the points of X.
 
 We now prove $c')$. We can assume that A is non-empty; let $x\in A$. It suffices to prove that A is a neighbourhood of $x$. For this we can, as above, assume that $X = G\times^HW$ with H compact, $x$ being the canonical image of $(e,0)$. Assume first that H operates trivially on W: then X can be identified with $(G/H)\times W$, and $X_{(\tau)}/G = X/G$ is homeomorphic to W, hence connected; thus, $A/G = X/G$, so A = X. Assume from now on that H does not operate trivially on W. Choose a scalar product on W invariant under the compact group H; let S be the unit sphere in W (the set of vectors of norm 1). Note that $S/H$ is connected: indeed, if dim(W) $\geq 2, S$ is connected, and if dim(W) = 1, S is a space of two points on which H operates non-trivially. Put $Y = G\times^HS$; this is a closed submanifold of X, stable under G, of codimension 1, and $Y/G$, which is homeomorphic to $S/H$, is connected. Thus, by the induction hypothesis, there exists a maximal orbit type $\theta$ for Y, the set $Y_{(\theta)}$ is open and dense in Y, and $Y_{(\theta)}/G$ is connected.
 
-Consider the operation of $\mathbf{R}^*_+$ on X induced by passage to the quotient by the law of operation $(\lambda ,(g, w)) \rightarrow (g, \lambda w)$ of $\mathbf{R}^*_+$ on $G\times W$. Two points of X conjugate under this operation are of the same orbit type; consequently, $X_{(\theta)}$ contains $\mathbf{R}^*_+Y_{(\theta)}$, which is a dense open subset of X. But $X_{(\tau)}$ is open by $a)$, and hence meets $X_{(\theta)}$, so $\theta =\tau$.
+Consider the operation of $\mathbf{R}^*_+$ on X induced by passage to the quotient by the law of operation $(\lambda ,(g, w)) \rightarrow (g, \lambda w)$ of $\mathbf{R}^*_+$ on $G\times W$. Two points of X conjugate under this operation are of the same orbit type; consequently, $X_{(\theta)}$ contains $\mathbf{R}^*_+Y_{(\theta)}$, which is a dense open subset of X. But $X_{(\tau)}$ is open by a), and hence meets $X_{(\theta)}$, so $\theta =\tau$.
 
 On the other hand, the homeomorphism $(\lambda , w) \rightarrow \lambda w$ from $\mathbf{R}^*_+\times S$ to W **--** $\{0\}($General Topology, Chap. VI, §2, no. 3, Prop. 3) induces a homeomorphism from $\mathbf{R}^*_+\times (S/H)$ to $(\mathbf{R}^*_+S)/H$, hence also from $\mathbf{R}^*_+\times (Y/G)$ to $(\mathbf{R}^*_+Y)/G$, and from $\mathbf{R}^*_+\times (Y_{(\theta)}/G)$ to $(\mathbf{R}^*_+Y_{(\theta)})/G$. Thus, $(\mathbf{R}^*_+Y_{(\theta)})/G$ is connected, and $X_{(\tau)}/G$, which contains a connected dense subset, is itself connected (General Topology, Chap. I, §11, no. 1, Prop. 1). Consequently, A is equal to $X_{(\tau)}$, hence is dense in X, and A is a neighbourhood of $x$. This completes the proof of the theorem.
 

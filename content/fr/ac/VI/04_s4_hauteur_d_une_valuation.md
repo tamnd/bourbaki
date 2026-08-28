@@ -32,7 +32,7 @@ subsections:
       pdf_page: 111
 statements: 21
 exercises: 5
-content_sha256: 617c278212d55b2fd898a526aeb5b6cb1a4bcea3b4ebecadf3bfe91399e020db
+content_sha256: f4e200fce05b68baa9e9dad9c6a147094e3de4017cb3ee6b930e1981dc0d9157
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -203,7 +203,7 @@ a) A est l’anneau d’une valuation de hauteur 1 de K ;
 b) A est un anneau de valuation pour K, et n’a d’autres idéaux premiers que (0) et m(A) ;
 c) A est maximal parmi les sous-anneaux de K distincts de K.
 
-La prop. 5 du n° 4 montre que $a)$ implique $b)$, et la prop. 1 du n° 1 montre que $b)$ implique $c)$. Reste à montrer que $c)$ implique $a)$. Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($\S 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $\nu$ de $K$. Ceci étant, $\nu$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
+La prop. 5 du n° 4 montre que a) implique b), et la prop. 1 du n° 1 montre que b) implique c). Reste à montrer que c) implique a). Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($\S 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $\nu$ de $K$. Ceci étant, $\nu$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
 
 #### Proposition 7 {#ac-vi-s4-prop-7 .statement}
 
@@ -218,15 +218,15 @@ a) $G$ est de hauteur 1 ;
 b) quels que soient $x > 0$ et $y \geqslant 0$ dans $G$, il existe un entier $n \geqslant 0$ tel que $y \leqslant nx$ ;
 c) $G$ est isomorphe à un sous-groupe non réduit à 0 du groupe additif ordonné $\mathbf{R}$*.
 
-Soit $x$ un élément positif de $G$, et soit $H_x$ l’ensemble des $y \in G$ tels qu’il existe un entier $n \geqslant 0$ vérifiant $|y| \leqslant nx$. On vérifie aisément que $H_x$ est un sous-groupe isolé de $G$, et que tout sous-groupe isolé de $G$ contenant $x$ contient $H_x$. La condition $a)$ équivaut donc à « $H_x = G$ pour tout $x > 0$ », c’est-à-dire à la condition $b)$.
+Soit $x$ un élément positif de $G$, et soit $H_x$ l’ensemble des $y \in G$ tels qu’il existe un entier $n \geqslant 0$ vérifiant $|y| \leqslant nx$. On vérifie aisément que $H_x$ est un sous-groupe isolé de $G$, et que tout sous-groupe isolé de $G$ contenant $x$ contient $H_x$. La condition a) équivaut donc à « $H_x = G$ pour tout $x > 0$ », c’est-à-dire à la condition b).
 
-Il est clair que $c)$ implique $b)$. Réciproquement, supposons vérifiée la condition $b)$, et notons $Q$ l’ensemble des éléments $> 0$ de $G$. Supposons d’abord que $Q$ ait un plus petit élément $x$; pour tout $y \in Q$, soit $n$ le plus petit entier tel que $y \leqslant nx$; si l’on avait $y < nx$, on aurait aussi $nx - y \geqslant x$, d’où $y \leqslant (n - 1)x$ contrairement au choix de $n$; on a donc $y = nx$, ce qui montre que $G = \mathbf{Z}x$ est isomorphe à $\mathbf{Z} \subset \mathbf{R}$. Supposons maintenant que $Q$ n’ait pas de plus petit élément; appliquons à l’ensemble ordonné $P = Q \cup \{0\}$ la prop. 1 de *Top. Gén.*, chap. V, § 2 (ce qui est possible, puisque la condition $b$) n’est autre que « l’axiome d’Archimède »); on voit qu’il existe une application strictement croissante $f$ de $P$ dans $\mathbf{R}_+$ telle que
+Il est clair que c) implique b). Réciproquement, supposons vérifiée la condition b), et notons $Q$ l’ensemble des éléments $> 0$ de $G$. Supposons d’abord que $Q$ ait un plus petit élément $x$; pour tout $y \in Q$, soit $n$ le plus petit entier tel que $y \leqslant nx$; si l’on avait $y < nx$, on aurait aussi $nx - y \geqslant x$, d’où $y \leqslant (n - 1)x$ contrairement au choix de $n$; on a donc $y = nx$, ce qui montre que $G = \mathbf{Z}x$ est isomorphe à $\mathbf{Z} \subset \mathbf{R}$. Supposons maintenant que $Q$ n’ait pas de plus petit élément; appliquons à l’ensemble ordonné $P = Q \cup \{0\}$ la prop. 1 de *Top. Gén.*, chap. V, § 2 (ce qui est possible, puisque la condition $b$) n’est autre que « l’axiome d’Archimède »); on voit qu’il existe une application strictement croissante $f$ de $P$ dans $\mathbf{R}_+$ telle que
 
 $$
 f(x + y) = f(x) + f(y)
 $$
 
-pour $x \in P$ et $y \in P$; par linéarité $f$ se prolonge en un isomorphisme de $G$ sur un sous-groupe de $\mathbf{R}$, ce qui prouve que $b)$ implique $c)$.
+pour $x \in P$ et $y \in P$; par linéarité $f$ se prolonge en un isomorphisme de $G$ sur un sous-groupe de $\mathbf{R}$, ce qui prouve que b) implique c).
 
 #### Proposition 9 {#ac-vi-s4-prop-9 .statement}
 

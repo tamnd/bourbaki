@@ -30,7 +30,7 @@ subsections:
       pdf_page: 230
 statements: 10
 exercises: 8
-content_sha256: a80b966ec29aaa7766f1bffddc53ecffe923f837317f31cc03fad49c10edbdd1
+content_sha256: c61a70ac29d03bb98f227c516178cf19072b5f1973e9793f7c8684d56c158439
 ---
 
 ## APPENDICE
@@ -201,7 +201,7 @@ L’espace $F^G$ des éléments de E invariants par $\lambda(G)$ se compose des 
 1) si E est de dimension infinie, on a $F^G = \{0\}$;
 2) si E est de dimension finie, on a $F = \mathcal{L}(E)$ et $F^G = \mathbf{C}.1_E$.
 
-Par application du résultat de $A)$ à la représentation unitaire $\lambda$, on obtient le théorème suivant :
+Par application du résultat de A) à la représentation unitaire $\lambda$, on obtient le théorème suivant :
 
 Soit $u \in \mathcal{L}^2(E)$, et soit $A_u$ l’enveloppe fermée convexe dans $\mathcal{L}^2(E)$ de l’ensemble des endomorphismes $\pi(g)\ u\pi(g)^{-1}$ de $E$, où $g$ parcourt $G$. Si $E$ est de dimension infinie, on a $0 \in A_u$. Si $E$ est de dimension finie $d$, il existe une unique homothétie dans $A_u$, à savoir la projection $\frac{1}{d}\ \mathrm{Tr}(u).\ 1_E$ de $u$ sur le sous-espace $\mathbf{C}.1_E$ de $\mathcal{L}^2(E)$.
 

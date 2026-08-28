@@ -5414,6 +5414,123 @@
           "sections": null
         }
       ]
+    },
+    {
+      "id": "alg-i-iii-fr",
+      "chapters": [
+        {
+          "chapter": "III",
+          "title": "ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES",
+          "total": 100,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-iii-s1",
+              "dir": "s1",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-iii-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 3,
+              "label": "alg-iii-s3",
+              "dir": "s3",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 4,
+              "label": "alg-iii-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 2
+            },
+            {
+              "section": 5,
+              "label": "alg-iii-s5",
+              "dir": "s5",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 5
+            },
+            {
+              "section": 6,
+              "label": "alg-iii-s6",
+              "dir": "s6",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 2
+            },
+            {
+              "section": 7,
+              "label": "alg-iii-s7",
+              "dir": "s7",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 5
+            },
+            {
+              "section": 8,
+              "label": "alg-iii-s8",
+              "dir": "s8",
+              "count": 26,
+              "first": 1,
+              "last": 26,
+              "starred": 3
+            },
+            {
+              "section": 9,
+              "label": "alg-iii-s9",
+              "dir": "s9",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 10,
+              "label": "alg-iii-s10",
+              "dir": "s10",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1,
+              "supplementary": 1
+            },
+            {
+              "section": 11,
+              "label": "alg-iii-s11",
+              "dir": "s11",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 2
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "alg-iii-a0",
+              "dir": "a0",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
     }
   ]
 }

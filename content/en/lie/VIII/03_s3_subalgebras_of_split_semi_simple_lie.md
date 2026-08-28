@@ -33,7 +33,7 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: 9ae8307f81c9beada1d35ee81235b6c65219ba74547064ac8a3df4e9c1395509
+content_sha256: 043e172960e451fa011db5fc5b2cdd69d22334e7720054bdacde767c930f9a50
 ---
 
 ## § 3. SUBALGEBRAS OF SPLIT SEMI-SIMPLE LIE ALGEBRAS
@@ -346,7 +346,7 @@ If $P\in \mathscr{P}$, let F(P) be the set of $v\in V$ such that $\alpha (v)\geq
 
 Then $F \rightarrow P(F)$ is a bijection from $\mathscr{F}$ to $\mathscr{P}$; for all $F\in \mathscr{F}$, F(P(F)) is the closure of F.
 
-$a)$ Let $P\in \mathscr{P}$. There exists a chamber C of S and a subset $\Sigma$ of the basis B(C) such that $P = S_+(C)\cup Q$ where Q is the set of linear combinations of elements of $\Sigma$ with non-positive integer coefficients (Chap. VI, §1, no. 7, Prop. 20). Put
+a) Let $P\in \mathscr{P}$. There exists a chamber C of S and a subset $\Sigma$ of the basis B(C) such that $P = S_+(C)\cup Q$ where Q is the set of linear combinations of elements of $\Sigma$ with non-positive integer coefficients (Chap. VI, §1, no. 7, Prop. 20). Put
 
 $$
 B(C) =\{\alpha_1, . . . , \alpha_l\}, \Sigma =\{\alpha_1, . . . , \alpha_m\}
@@ -384,7 +384,7 @@ $$
 
 so P(F) = P.
 
-$b)$ Let $F\in \mathscr{F}$. It is clear that $P(F)\in \mathscr{P}$. On the other hand, F is contained in the closure of a chamber relative to $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), and so is a facet relative to the set of walls of this chamber (Chap. V, §1, no. 4, Prop. 9). Consequently, $\overline{F}$ is of the form $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, where T is a subset of S which we can clearly take to be equal to P(F). Thus, $\overline{F}= F(P(F))$. Q.E.D.
+b) Let $F\in \mathscr{F}$. It is clear that $P(F)\in \mathscr{P}$. On the other hand, F is contained in the closure of a chamber relative to $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), and so is a facet relative to the set of walls of this chamber (Chap. V, §1, no. 4, Prop. 9). Consequently, $\overline{F}$ is of the form $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, where T is a subset of S which we can clearly take to be equal to P(F). Thus, $\overline{F}= F(P(F))$. Q.E.D.
 
 If $P\in \mathscr{P}$, the facet F such that P = P(F) is said to be associated to P; we denote it by F(P). We extend these conventions to the case in which $(\mathfrak{g},\mathfrak{h})$ is split reductive.
 

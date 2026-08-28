@@ -33,7 +33,7 @@ subsections:
       pdf_page: 164
 statements: 16
 exercises: 15
-content_sha256: 5d33698cee35dc6eb343bf8be269c10b1f66662defc3d540ebe69adfaa305a8c
+content_sha256: b5755948295cc28eeaa8a16dd678ffa2ce677b2bb914f5ea6530d05c0e05a8cd
 ---
 
 ## § 5. HYPOCONTINUOUS BILINEAR MAPPINGS
@@ -173,7 +173,7 @@ from $E \times F_\alpha$ into $G$ is $\mathcal{S}$-hypocontinuous.
 
 Now suppose that $E$ is a locally convex space which is the *strict* inductive limit of an increasing sequence $(E_n)$ of closed vector subspaces of $E$ (II, p. 33); then every set $M \in \mathcal{S}$ is contained in one of the $E_n$ and is bounded in this subspace (III, p. 5, prop. 6). We denote by $\mathcal{S}_n$ the family of all subsets belonging to $\mathcal{S}$ contained in $E_n$.
 
-Condition $a)$ of prop. 3 (III, p. 30) shows that for a bilinear mapping $u : E \times F \to G$ to be $\mathfrak{S}$-hypocontinuous, it is necessary and sufficient that each of the restrictions $u_n : E_n \times F \to G$ of $u$ is $\mathfrak{S}_n$-hypocontinuous.
+Condition a) of prop. 3 (III, p. 30) shows that for a bilinear mapping $u : E \times F \to G$ to be $\mathfrak{S}$-hypocontinuous, it is necessary and sufficient that each of the restrictions $u_n : E_n \times F \to G$ of $u$ is $\mathfrak{S}_n$-hypocontinuous.
 
 ### 4. Extension of a hypocontinuous bilinear mapping
 

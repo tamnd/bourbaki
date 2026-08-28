@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: bb4ffbb5baae01c35450f8e81efbba047ce95fd537e5de003babe0aee681f6ba
+content_sha256: 6501e14acfaa6e7ef3faff319553f4fa16f2473df952a0c3d55ef2d0084076ae
 ---
 
 ## § 4. Sous-espaces totalement isotropes. Théorème de Witt
@@ -150,9 +150,9 @@ $$
 y \in S_1 \cap F_2 = S_1 \cap F_1 \cap F_2 = S_1 \cap F = \{0\}.
 $$
 
-On a donc $S_1 \cap S_2^0 = \{0\}$, et de même $S_2 \cap S_1^0 = \{0\}$. Comme l’un des deux sous-espaces $F_1, F_2$, par exemple $F_1$, est de dimension finie, $S_1$ est de dimension finie, donc $S_1^0$ est de codimension finie ($\S 1, \mathrm{n}^\circ 6, \mathrm{cor.\ 1\ de\ la\ prop.\ 4}$), et par conséquent $S_2$ est de dimension finie puisque $S_2 \cap S_1^0 = \{0\}$; de plus ceci montre que l’on a $\dim S_2 \leqslant \operatorname{codim} S_1^0 = \dim S_1$; de même $\dim S_1 \leqslant \dim S_2$, d’où $\dim S_1 = \dim S_2$. La prop. 2 $a)$ montre alors que $S = S_1 + S_2$ est non isotrope.
+On a donc $S_1 \cap S_2^0 = \{0\}$, et de même $S_2 \cap S_1^0 = \{0\}$. Comme l’un des deux sous-espaces $F_1, F_2$, par exemple $F_1$, est de dimension finie, $S_1$ est de dimension finie, donc $S_1^0$ est de codimension finie ($\S 1, \mathrm{n}^\circ 6, \mathrm{cor.\ 1\ de\ la\ prop.\ 4}$), et par conséquent $S_2$ est de dimension finie puisque $S_2 \cap S_1^0 = \{0\}$; de plus ceci montre que l’on a $\dim S_2 \leqslant \operatorname{codim} S_1^0 = \dim S_1$; de même $\dim S_1 \leqslant \dim S_2$, d’où $\dim S_1 = \dim S_2$. La prop. 2 a) montre alors que $S = S_1 + S_2$ est non isotrope.
 
-Ceci étant, l’orthogonal $N$ de $S$ est non isotrope ($\mathrm{n}^\circ 1, \mathrm{cor.\ de\ la\ prop.\ 1}$) et contient $F$; le cor. 1 de la prop. 2 montre donc qu’il existe un sous-espace $G$ totalement isotrope (resp. totalement singulier) de $N$ tel que $\dim G = \dim F$, que $G \cap F = \{0\}$ et que $G + F$ soit non isotrope. Ainsi $d)$ est vérifiée par $G$. On satisfera alors à $a)$ et $b)$ en prenant pour $H$ l’orthogonal de $G + F$ dans $N$. Quant à $c)$, l’on remarque que, comme $H$ est orthogonal à $F_1 = S_1 + F$, il n’y a aucun vecteur isotrope (resp. singulier) non nul dans $H$ en vertu de ce qui a été remarqué au début de la démonstration et du fait que $H \cap F_1 = \{0\}$. Enfin certaines des assertions relatives aux dimensions ont été démontrées en cours de route ; les autres s’en déduisent trivialement.
+Ceci étant, l’orthogonal $N$ de $S$ est non isotrope ($\mathrm{n}^\circ 1, \mathrm{cor.\ de\ la\ prop.\ 1}$) et contient $F$; le cor. 1 de la prop. 2 montre donc qu’il existe un sous-espace $G$ totalement isotrope (resp. totalement singulier) de $N$ tel que $\dim G = \dim F$, que $G \cap F = \{0\}$ et que $G + F$ soit non isotrope. Ainsi d) est vérifiée par $G$. On satisfera alors à a) et b) en prenant pour $H$ l’orthogonal de $G + F$ dans $N$. Quant à c), l’on remarque que, comme $H$ est orthogonal à $F_1 = S_1 + F$, il n’y a aucun vecteur isotrope (resp. singulier) non nul dans $H$ en vertu de ce qui a été remarqué au début de la démonstration et du fait que $H \cap F_1 = \{0\}$. Enfin certaines des assertions relatives aux dimensions ont été démontrées en cours de route ; les autres s’en déduisent trivialement.
 
 #### Corollaire 1 {#alg-ix-s4-prop-3-cor-1 .statement}
 
@@ -319,19 +319,19 @@ b) On suppose que $uu^* = u^*u$ (cas où on dit que u est un endomorphisme norma
 
 c) On suppose que J n’est pas l’identité ou que A n’est pas de caractéristique 2, et que $u^* = u$. Soit $\mathcal{M}$ l’ensemble des sous-espaces non isotropes $M \subset G(p, \bar{p})$, stables pour u (donc sous-modules du $A[X]$-module $E_u$ (chap. VII, § 5, no 1)). Montrer que si $M$ est un élément minimal de $\mathfrak{M}$, $M$ est un sous-module *indécomposable* de $E_u$ (chap. VII, § 4, no 7). (Supposer que $M$ soit somme directe d’un sous-module indécomposable $M_1$ et d’un sous-module $M_2 \neq \{0\}$, les polynômes minimaux $p^h$ et $p^k$ des restrictions de $u$ à $M_1$ et $M_2$ respectivement étant tels que $h \geq k$. Remarquer alors que $M_1$ est nécessairement isotrope et que tout $z \neq 0$ dans $M_1$ tel que $p(u).z = 0$ est orthogonal à $M_1$ (utiliser le fait que tout sous-module de $M_1$ est monogène) ; écrire que $z = (p(u))^{h-1}.x$ et que $z$ n’est pas orthogonal à $M_2$, et en déduire qu’on a nécessairement $k = h$. Montrer ensuite qu’il existe un sous-module indécomposable $N_2$ de $M_2$ tel que $p^h$ soit le polynôme minimal de la restriction de $u$ à $N_2$, et que $M_1 + N_2$ soit non isotrope ; en conclure que $M_2 = N_2$. Enfin, si $y \in M_2$ n’est pas orthogonal à $z$, considérer le sous-module $P$ de $M$ engendré par $w = x + \lambda y$, où $\lambda \in \mathbf{A}$, et montrer qu’on peut prendre $\lambda$ tel que $P$ soit non isotrope, en prouvant qu’on a $\Phi((p(u))^{h-1}.w, w) \neq 0$; ce qui aboutit à une contradiction).
 
-$d)$ Déduire de c) que $G(p, \overline{p})$ est somme directe de sous-modules indécomposables $H_i$, deux à deux orthogonaux. Si $p^h$ est le polynôme minimal de la restriction de $u$ à $H_i$, et si $d$ est le degré de $p$, montrer qu’il existe dans $H_i$ un sous-espace totalement isotrope de dimension $d.[h/2]$. Cas où $E$ ne contient aucun vecteur isotrope $\neq 0$ (cf. § 7, no 3).
+d) Déduire de c) que $G(p, \overline{p})$ est somme directe de sous-modules indécomposables $H_i$, deux à deux orthogonaux. Si $p^h$ est le polynôme minimal de la restriction de $u$ à $H_i$, et si $d$ est le degré de $p$, montrer qu’il existe dans $H_i$ un sous-espace totalement isotrope de dimension $d.[h/2]$. Cas où $E$ ne contient aucun vecteur isotrope $\neq 0$ (cf. § 7, no 3).
 
-$e)$ Enoncer et démontrer les propriétés analogues à celles de c) et d) lorsqu’on a $u^* = -u$ ou $u^*u = 1$.
+e) Enoncer et démontrer les propriétés analogues à celles de c) et d) lorsqu’on a $u^* = -u$ ou $u^*u = 1$.
 
-$f)$ Donner un exemple où $n = 4$, $\Phi$ est symétrique et d’indice 2, $p = \overline{p} = X - 1$, $u$ est normal, $E = G(p, \overline{p})$, mais $E$ n’est pas somme directe de sous-modules minimaux de $\mathfrak{M}$, et où il existe un vecteur propre de $u$ qui n’est pas vecteur propre de $u^*$ (cf. § 7, no 3).
+f) Donner un exemple où $n = 4$, $\Phi$ est symétrique et d’indice 2, $p = \overline{p} = X - 1$, $u$ est normal, $E = G(p, \overline{p})$, mais $E$ n’est pas somme directe de sous-modules minimaux de $\mathfrak{M}$, et où il existe un vecteur propre de $u$ qui n’est pas vecteur propre de $u^*$ (cf. § 7, no 3).
 
 13) Les hypothèses sont celles de l’exerc. 2, et on suppose en outre que $E$ admette une base dénombrable $(e_n)$. Soit $F$ un sous-espace totalement isotrope (resp. totalement singulier) de $E$ tel que $F^{00} = F$; montrer qu’il existe un sous-espace totalement isotrope (resp. totalement singulier) $F'$ tel que : $1^\circ \ F \cap F' = \{0\}$; $2^\circ$ il existe une base $(a_m)_{m \in I}$ de $F$ et une base $(a'_m)_{m \in I}$ de $F'$ (l’intervalle de $\mathbf{N}$ d’origine 0) telles que $\Phi(a_i, a'_j) = \delta_{ij}$ pour tout couple d’indices ; $3^\circ$ $(F + F')^{00} = F + F'$ et $E$ est somme directe de $F + F'$ et de $G = (F + F')^0$. (Former par récurrence une suite croissante $(L_n)$ de sous-espaces non isotropes, de réunion $E$, tels que $\dim L_{n+1} - \dim L_n = 2$, et appliquer la prop. 2 du no 2 à chacun des $L_n$; pour former cette suite, on considérera, pour tout $n$, le plus petit entier $k$ tel que $e_k \notin L_n$, et on utilisera l’exerc. 9 b) du § 1).
 
 14) Soient $A$ un corps de caractéristique 2, $E$ un espace vectoriel de dimension finie $n$ sur $A$, $\Phi$ une forme hermitienne non dégénérée sur $E$, ne satisfaisant pas nécessairement à la condition (T).
 
-$a)$ Montrer que l’ensemble $V$ des $x \in E$ tels que $\Phi(x, x)$ soit de la forme $\alpha + \overline{\alpha}$ est un sous-espace vectoriel de $E$.
+a) Montrer que l’ensemble $V$ des $x \in E$ tels que $\Phi(x, x)$ soit de la forme $\alpha + \overline{\alpha}$ est un sous-espace vectoriel de $E$.
 
-$b)$ Soient $V_1 = V \cap V^0$, $q = \dim V_1$, $V_2$ un supplémentaire de $V_1$ par rapport à $V$, $V_3$ un supplémentaire de $V_1$ par rapport à $V^0$. Montrer qu’il existe une base $(e_i)_{1 \leq i \leq 2q}$ de $(V_2 + V_3)^0 = V_2^0 \cap V_3^0$ telle que les vecteurs $e_1, \ldots, e_q$ forment une base de $V_1$ et que l’on ait $\Phi(e_i, e_{q+j}) = \delta_{ij}$ pour $1 \leq i \leq q, 1 \leq j \leq q$.
+b) Soient $V_1 = V \cap V^0$, $q = \dim V_1$, $V_2$ un supplémentaire de $V_1$ par rapport à $V$, $V_3$ un supplémentaire de $V_1$ par rapport à $V^0$. Montrer qu’il existe une base $(e_i)_{1 \leq i \leq 2q}$ de $(V_2 + V_3)^0 = V_2^0 \cap V_3^0$ telle que les vecteurs $e_1, \ldots, e_q$ forment une base de $V_1$ et que l’on ait $\Phi(e_i, e_{q+j}) = \delta_{ij}$ pour $1 \leq i \leq q, 1 \leq j \leq q$.
 
 c) Soit $G(\Phi)$ le groupe des automorphismes métriques de $E$ (pour $\Phi$). Montrer que pour tout $u \in G(\Phi)$, on a $u(x) = x$ pour tout $x \in V^0$.
 

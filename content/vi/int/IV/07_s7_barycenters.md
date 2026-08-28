@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 294f2dac7473648cb0f6d5894e53ff68d6877a0b3376ff59752368a71467ba7f
+content_sha256: 7b0078f189d2e0520641ffad053c55d827a4c54ee7b250463d0cb92db33c9935
 translated_from: content/en/int/IV/07_s7_barycenters.md
 source_content_sha256: 0570767550afc4ec72a1bd2d57ff21259b2713160100ad0deff3ffd79e594e1a
 translation_model: gpt-5.4-mini
@@ -347,7 +347,7 @@ $$
 a) $F$ chứa $\check{S}_{\mathcal{H}}(X)$.
 b) Với mọi hàm $f \in \mathcal{H}$, $F$ cắt tập các điểm của $X$ tại đó $|f|$ đạt cận trên đúng.
 c) Với mọi điểm $x \in X$, tồn tại một độ đo dương $\mu$ có tổng khối lượng 1 trên $X$ sao cho $\mathrm{Supp}(\mu) \subset F$ và $f(x) = \int f d\mu$ với mọi hàm $f \in \mathcal{H}$.
-Hãy chứng minh tính tương đương của các điều kiện a) và c): viết $f = f_1 + i f_2$ với $f_1, f_2$ trong $\mathcal{H}_r$; quan hệ $f(x) = \int f d\mu$ tương đương với hai quan hệ $f_1(x) = \int f_1 d\mu$ và $f_2(x) = \int f_2 d\mu$; do đó chỉ cần áp dụng cho $\mathcal{H}_r$ tính tương đương của các điều kiện $a)$ và $c)$ của Mệnh đề 7 của No. 3. Việc $a)$ kéo theo $b)$ suy ra từ Mệnh đề 9. Hãy chứng minh rằng $b)$ kéo theo $a)$; điều đó chỉ là thấy rằng nếu $b)$ được thỏa mãn, thì, với mọi $h \in \mathcal{H}_r$, F cắt tập các điểm mà tại đó $h$ đạt cận dưới đúng trong X. Điều kiện $b)$ kéo theo rằng F khác rỗng; vì F là compact, tồn tại $a \in F$ sao cho $h(a) \leq h(y)$ với mọi $y \in F$. Cho $f \in \mathcal{H}$ sao cho $h = \mathcal{R}(f)$; với mọi $\varepsilon > 0$, hàm $g = f - h(a) + \varepsilon$ thuộc $\mathcal{H}$, và
+Hãy chứng minh tính tương đương của các điều kiện a) và c): viết $f = f_1 + i f_2$ với $f_1, f_2$ trong $\mathcal{H}_r$; quan hệ $f(x) = \int f d\mu$ tương đương với hai quan hệ $f_1(x) = \int f_1 d\mu$ và $f_2(x) = \int f_2 d\mu$; do đó chỉ cần áp dụng cho $\mathcal{H}_r$ tính tương đương của các điều kiện a) và c) của Mệnh đề 7 của No. 3. Việc a) kéo theo b) suy ra từ Mệnh đề 9. Hãy chứng minh rằng b) kéo theo a); điều đó chỉ là thấy rằng nếu b) được thỏa mãn, thì, với mọi $h \in \mathcal{H}_r$, F cắt tập các điểm mà tại đó $h$ đạt cận dưới đúng trong X. Điều kiện b) kéo theo rằng F khác rỗng; vì F là compact, tồn tại $a \in F$ sao cho $h(a) \leq h(y)$ với mọi $y \in F$. Cho $f \in \mathcal{H}$ sao cho $h = \mathcal{R}(f)$; với mọi $\varepsilon > 0$, hàm $g = f - h(a) + \varepsilon$ thuộc $\mathcal{H}$, và
 $$
 \mathcal{R}(g(y)) = h(y) - h(a) + \varepsilon \geq \varepsilon
 $$
@@ -464,7 +464,7 @@ $$
 \mathrm{Ch}_{\mathcal{A}}(X) = \bigcap_{M \in \mathfrak{M}} M = \bigcap_{N \in \mathfrak{N}} N.
 $$
 
-Vì, trong một không gian mêtric, mọi điểm đều thừa nhận một hệ cơ sở lân cận đếm được, nên tính tương đương của $a)$ và $b)$ suy ra từ ĐL. 2. Ta hãy chứng minh rằng $b)$ kéo theo $c)$: thật vậy, $a$ là điểm duy nhất tại đó $|u|$ đạt cận trên của nó; mặt khác, $c)$ kéo theo $a)$ vì, với mọi $f \in \mathcal{A}$, $\mathrm{Ch}_{\mathcal{A}}(X)$ cắt tập hợp các điểm tại đó $|f|$ đạt cận trên của nó (No. 4, Mệnh đề 9). Cùng lập luận ấy, dùng Mệnh đề 5 của No. 3, cho thấy rằng $d)$ kéo theo $a)$. Sau cùng, để thấy rằng $b)$ kéo theo $d)$, ta có thể chỉ xét trường hợp $X$ không rút gọn về điểm duy nhất $a$, do đó $u(a) \neq 0$; khi đó hàm $v = u/u(a)$ thuộc $\mathcal{A}$, và ta có $v(a) = 1$ và $|v(x)| < 1$ với $x \neq a$, do đó $\mathcal{R}(v(a)) = 1$ và $\mathcal{R}(v(x)) < 1$ với $x \neq a$. Vì hàm $\mathcal{R}(v)$ đạt cận trên của nó chỉ tại điểm $a$, nên thật vậy $a \in N$ với mọi $N \in \mathfrak{N}$.
+Vì, trong một không gian mêtric, mọi điểm đều thừa nhận một hệ cơ sở lân cận đếm được, nên tính tương đương của a) và b) suy ra từ ĐL. 2. Ta hãy chứng minh rằng b) kéo theo c): thật vậy, $a$ là điểm duy nhất tại đó $|u|$ đạt cận trên của nó; mặt khác, c) kéo theo a) vì, với mọi $f \in \mathcal{A}$, $\mathrm{Ch}_{\mathcal{A}}(X)$ cắt tập hợp các điểm tại đó $|f|$ đạt cận trên của nó (No. 4, Mệnh đề 9). Cùng lập luận ấy, dùng Mệnh đề 5 của No. 3, cho thấy rằng d) kéo theo a). Sau cùng, để thấy rằng b) kéo theo d), ta có thể chỉ xét trường hợp $X$ không rút gọn về điểm duy nhất $a$, do đó $u(a) \neq 0$; khi đó hàm $v = u/u(a)$ thuộc $\mathcal{A}$, và ta có $v(a) = 1$ và $|v(x)| < 1$ với $x \neq a$, do đó $\mathcal{R}(v(a)) = 1$ và $\mathcal{R}(v(x)) < 1$ với $x \neq a$. Vì hàm $\mathcal{R}(v)$ đạt cận trên của nó chỉ tại điểm $a$, nên thật vậy $a \in N$ với mọi $N \in \mathfrak{N}$.
 
 #### Ví dụ {#int-iv-s7-n5-exa-1 .statement}
 

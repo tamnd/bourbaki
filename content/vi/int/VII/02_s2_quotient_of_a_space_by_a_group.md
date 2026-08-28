@@ -53,9 +53,9 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: ce15ec55927ab71005f3bacd65302b5d3d20b915697d1a12e07e0c8e6cbdab11
+content_sha256: 939ff670cb5b87ad85c88c8ec9bacfed6b57fd21ab7cfa239855ff129b5ad38e
 translated_from: content/en/int/VII/02_s2_quotient_of_a_space_by_a_group.md
-source_content_sha256: aa5da82a7db2a4fcd3f02956e627a46809b6c4112bb85259576d359ac3e9cfeb
+source_content_sha256: ecbc07a7990489579c04b0500567975dfe58a40a4b6c09cd615187b6ac3c2c1b
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-bacf869e
 glossary_version: 34
@@ -195,14 +195,14 @@ Nếu $f \in \mathcal{K}(X)$, thì $f^b \in \mathcal{K}(X/H)$. Ánh xạ $f \map
 
 — Ta sẽ chứng minh rằng ánh xạ $f \mapsto f^b$ là một *cấu xạ ngặt* (GT, III, §2, No. 8) từ $\mathcal{K}(X)$ lên $\mathcal{K}(X/H)$.
 
-$a)$ Ánh xạ là liên tục: chỉ cần chứng minh rằng, với mọi tập con compact $K$ của $X$, hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một ánh xạ liên tục của $\mathcal{K}(X, K)$ vào $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Mệnh đề 5); vì $H$ tác động đúng trong $X$, tập hợp $P$ của các $\xi \in H$ sao cho $K\xi$ giao với $K$ là compact; từ (3) suy ra $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, và điều này chứng minh mệnh đề của chúng ta.
+a) Ánh xạ là liên tục: chỉ cần chứng minh rằng, với mọi tập con compact $K$ của $X$, hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một ánh xạ liên tục của $\mathcal{K}(X, K)$ vào $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Mệnh đề 5); vì $H$ tác động đúng trong $X$, tập hợp $P$ của các $\xi \in H$ sao cho $K\xi$ giao với $K$ là compact; từ (3) suy ra $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, và điều này chứng minh mệnh đề của chúng ta.
 
-$b)$ Cho $K'$ là một tập con compact của $X/H$. Hãy chọn một tập con compact $K$ của $X$ sao cho $\pi(K) = K'$, và hãy chứng minh rằng hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một cấu xạ ngặt của $\mathcal{K}(X, K)$ lên $\mathcal{K}(X/H, K')$. Chỉ cần xây dựng một ánh xạ nghịch đảo phải cho hạn chế này (GT, III, §6, No. 2, Mệnh đề 3). Bây giờ, theo Bổ đề 1 của No. 1 (với các ký hiệu của bổ đề đó), ta thu được một ánh xạ nghịch đảo như vậy bằng cách hợp thành các ánh xạ sau:
+b) Cho $K'$ là một tập con compact của $X/H$. Hãy chọn một tập con compact $K$ của $X$ sao cho $\pi(K) = K'$, và hãy chứng minh rằng hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một cấu xạ ngặt của $\mathcal{K}(X, K)$ lên $\mathcal{K}(X/H, K')$. Chỉ cần xây dựng một ánh xạ nghịch đảo phải cho hạn chế này (GT, III, §6, No. 2, Mệnh đề 3). Bây giờ, theo Bổ đề 1 của No. 1 (với các ký hiệu của bổ đề đó), ta thu được một ánh xạ nghịch đảo như vậy bằng cách hợp thành các ánh xạ sau:
 $\alpha)$ ánh xạ $f' \mapsto f' \circ \pi$ của $\mathcal{K}(X/H, K')$ vào tập hợp $E$ các hàm của $\mathcal{K}^1(X)$ có giá được chứa trong $KH$;
 $\beta)$ ánh xạ của $E$ vào $E$ mà, với mỗi $g \in E$, tương ứng hàm bằng $g/u^1$ trên $KH$, và bằng 0 trên $X - KH$;
 $\gamma)$ ánh xạ của $E$ vào $\mathcal{K}(X)$ mà, với mỗi hàm $h \in E$, tương ứng $uh$.
 
-$c)$ Điều này đã được thiết lập, nếu $V$ là một lân cận lồi của 0 trong $\mathcal{K}(X)$, thì $V \cap \mathcal{K}(X, K)$ là một lân cận lồi của 0 trong $\mathcal{K}(X, K)$, do đó $V^b \cap \mathcal{K}(X/H, K')$ là một lân cận lồi của 0 trong $\mathcal{K}(X/H, K')$ theo b), do đó $V^b$ là một lân cận của 0 trong $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). Điều này hoàn tất chứng minh.
+c) Điều này đã được thiết lập, nếu $V$ là một lân cận lồi của 0 trong $\mathcal{K}(X)$, thì $V \cap \mathcal{K}(X, K)$ là một lân cận lồi của 0 trong $\mathcal{K}(X, K)$, do đó $V^b \cap \mathcal{K}(X/H, K')$ là một lân cận lồi của 0 trong $\mathcal{K}(X/H, K')$ theo b), do đó $V^b$ là một lân cận của 0 trong $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). Điều này hoàn tất chứng minh.
 
 #### Mệnh đề 4 {#int-vii-s2-prop-4 .statement}
 

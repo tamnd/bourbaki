@@ -40,7 +40,7 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: 10e79a35f8fb6784904e1324cd6246891046c2219592c361c5e9cb40a2de8c4f
+content_sha256: 8b0735f9661569735192e866f56800cc2ca77e68b63b4e1c9aade01fcd82bfa5
 ---
 
 ## 3. METRIZABLE GROUPS, VALUED FIELDS, NORMED SPACES AND ALGEBRAS
@@ -240,7 +240,7 @@ The absolute value of a real number (Chapter IV, § 1, no. 6) satisfies axioms (
 
 #### Example 3 {#top-ix-s3-n2-exa-3 .statement}
 
-On a division ring $K$, a real valuation is a function $v$ defined on $K^*$ with values in $\mathbf{R}$ which satisfies the following conditions: $a)$ if $x \in K^*$ and $y \in K^*$, then $v(xy) = v(x) + v(y)$; $b)$ if in addition $x + y \neq 0$, then $v(x + y) \geq \inf(v(x), v(y))$. If $a$ is any real number $> 1$, we can then define an absolute value on $K$ by putting $|x| = a^{-v(x)}$ for $x \neq 0$, and $|0| = 0$. For the relation $v(xy) = v(x) + v(y)$ for $x \neq 0$ and $y \neq 0$ implies the relation $|xy| = |x|.|y|$ for these values of $x$ and $y$, and this relation is trivially true if one of $x, y$ is zero; likewise, from the relation $v(x + y) \geq \inf(v(x), v(y))$ for $x \neq 0, y \neq 0$ and $x + y \neq 0$ we deduce $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, and these inequalities are still satisfied if one of $x, y, x + y$ is zero. In particular, if $v_p(x)$ is the $p$-adic valuation on the field $\mathbf{Q}$ of rational numbers (the exponent of $p$ in the decomposition of $x$ into a product of prime factors), then the corresponding absolute value $|x|_p = p^{-v_p(x)}$ is called the $p$-adic absolute value on the field $\mathbf{Q}$ (cf. Chapter III, § 6, Exercise 23).
+On a division ring $K$, a real valuation is a function $v$ defined on $K^*$ with values in $\mathbf{R}$ which satisfies the following conditions: a) if $x \in K^*$ and $y \in K^*$, then $v(xy) = v(x) + v(y)$; b) if in addition $x + y \neq 0$, then $v(x + y) \geq \inf(v(x), v(y))$. If $a$ is any real number $> 1$, we can then define an absolute value on $K$ by putting $|x| = a^{-v(x)}$ for $x \neq 0$, and $|0| = 0$. For the relation $v(xy) = v(x) + v(y)$ for $x \neq 0$ and $y \neq 0$ implies the relation $|xy| = |x|.|y|$ for these values of $x$ and $y$, and this relation is trivially true if one of $x, y$ is zero; likewise, from the relation $v(x + y) \geq \inf(v(x), v(y))$ for $x \neq 0, y \neq 0$ and $x + y \neq 0$ we deduce $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, and these inequalities are still satisfied if one of $x, y, x + y$ is zero. In particular, if $v_p(x)$ is the $p$-adic valuation on the field $\mathbf{Q}$ of rational numbers (the exponent of $p$ in the decomposition of $x$ into a product of prime factors), then the corresponding absolute value $|x|_p = p^{-v_p(x)}$ is called the $p$-adic absolute value on the field $\mathbf{Q}$ (cf. Chapter III, § 6, Exercise 23).
 
 #### Remark {#top-ix-s3-n2-rem-1 .statement}
 

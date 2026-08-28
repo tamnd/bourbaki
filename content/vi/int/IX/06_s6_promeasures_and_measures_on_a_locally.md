@@ -57,9 +57,9 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: 0b402f887e234adb1f9211f657c5d4831ee5024a8a7ceaeb4ab2f4dd58f737ec
+content_sha256: e0d0e01292f1757196d93ff07df77c5294d37b88558319f6118506292c65c707
 translated_from: content/en/int/IX/06_s6_promeasures_and_measures_on_a_locally.md
-source_content_sha256: 58e45819d7a42959dc83ab3b30467ce024124a58cd273e90753ba86f78cc31a1
+source_content_sha256: f5af6278d6bcac9db62099468624d04d8e4f8c4d55064bcd03a2261c3d9724ac
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-9d47048b
 glossary_version: 34
@@ -420,7 +420,7 @@ $$
 
 Nếu các công thức này đúng với một phần tử $x'$ của E', thì chúng cũng đúng với mọi bội $t \cdot x'$ của nó (với $t$ thực). Vì vậy, ta chỉ cần chứng minh chúng trong trường hợp $Q(x')$ bằng 0 hoặc 1.
 
-$a)$ Giả sử $Q(x') = 0$. Độ đo $x'(\mu)$ bằng $\gamma_0 = \varepsilon_0$, do đó $x'$ bằng không $\mu$-hầu khắp nơi; các công thức (16) đến (19) khi đó hiển nhiên.
+a) Giả sử $Q(x') = 0$. Độ đo $x'(\mu)$ bằng $\gamma_0 = \varepsilon_0$, do đó $x'$ bằng không $\mu$-hầu khắp nơi; các công thức (16) đến (19) khi đó hiển nhiên.
 
 b) Giả sử $Q(x') = 1$, do đó $x'(\mu) = \gamma_1$. Khi đó
 $$
@@ -1060,7 +1060,7 @@ $$
 < Q(x) + \varepsilon
 $$
 
-với mọi $x \in E$. Vậy $b)$ được xác minh.
+với mọi $x \in E$. Vậy b) được xác minh.
 
 Q.E.D.
 
@@ -1074,7 +1074,7 @@ Với các đồng nhất hóa của $E_1$ và $E_2$ với các đối ngẫu c�
 
 — *Cho $Q$ là một dạng toàn phương dương hạt nhân trên không gian Hilbert $E$. Tiền độ đo Gauss $\Gamma_Q$ trên $E$ với phương sai $Q$ là một độ đo trên $E_s$.*
 
-Biến đổi Fourier $\Phi$ của $\Gamma_Q$ bằng $e^{-Q/2}$. Mặt khác, $e^t \geq 1 + t$ với mọi số thực $t$, do đó $\Phi(0) - \Re \Phi \leq Q/2$. Vì vậy điều kiện $b)$ của Định lý 3 được thỏa mãn và $\Gamma_Q$ là một độ đo trên $E_s$.
+Biến đổi Fourier $\Phi$ của $\Gamma_Q$ bằng $e^{-Q/2}$. Mặt khác, $e^t \geq 1 + t$ với mọi số thực $t$, do đó $\Phi(0) - \Re \Phi \leq Q/2$. Vì vậy điều kiện b) của Định lý 3 được thỏa mãn và $\Gamma_Q$ là một độ đo trên $E_s$.
 
 #### Nhận xét {#int-ix-s6-n11-rem-1 .statement}
 

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 117
 statements: 10
 exercises: 3
-content_sha256: 131c1604ba3797e357fc990e0f42eb9b5afdbefaf7ede65ff11ba98e3e0c2342
+content_sha256: a1965a9f802ef126f91a91d748ac2b8df02c1607e44a7ab770320d7671407481
 ---
 
 ## § 5. Topologie définie par une valuation.
@@ -127,11 +127,11 @@ D’après la prop. 1 du no 1, $\varphi|K^*$ est une représentation continue de
 $$
 \hat{\nu}(x + y) \geq \inf (\hat{\nu}(x), \hat{\nu}(y))
 $$
-est vraie dans $K^*$, donc reste vraie dans $\hat{K}^*$ par continuité. Ainsi $\hat{\nu}$ (prolongée par $\hat{\nu}(0) = +\infty$) est une valuation de $\hat{K}$, et $b)$ est démontré.
+est vraie dans $K^*$, donc reste vraie dans $\hat{K}^*$ par continuité. Ainsi $\hat{\nu}$ (prolongée par $\hat{\nu}(0) = +\infty$) est une valuation de $\hat{K}$, et b) est démontré.
 
-Démontrons $d)$. Soient $\alpha \in G$ et $x \in \overline{V}_\alpha - \{0\}$. Pour $y$ dans $V_\alpha$ assez voisin de $x$, on a $\hat{\nu}(x) = \hat{\nu}(y) = \nu(y)$, donc $\hat{\nu}(x) > \alpha$. Réciproquement, soit $x \in \hat{K}^*$ tel que $\hat{\nu}(x) > \alpha$; pour $y$ dans $K^*$ assez voisin de $x$, on a $\nu(y) = \hat{\nu}(y) = \hat{\nu}(x)$, donc $y \in V_\alpha$, d’où $x \in \overline{V}_\alpha$. Ainsi $\overline{V}_\alpha$ est l’ensemble des $x \in \hat{K}$ tels que $\hat{\nu}(x) > \alpha$. On raisonne de façon analogue pour $V'_\alpha$. Ceci prouve $d)$.
+Démontrons d). Soient $\alpha \in G$ et $x \in \overline{V}_\alpha - \{0\}$. Pour $y$ dans $V_\alpha$ assez voisin de $x$, on a $\hat{\nu}(x) = \hat{\nu}(y) = \nu(y)$, donc $\hat{\nu}(x) > \alpha$. Réciproquement, soit $x \in \hat{K}^*$ tel que $\hat{\nu}(x) > \alpha$; pour $y$ dans $K^*$ assez voisin de $x$, on a $\nu(y) = \hat{\nu}(y) = \hat{\nu}(x)$, donc $y \in V_\alpha$, d’où $x \in \overline{V}_\alpha$. Ainsi $\overline{V}_\alpha$ est l’ensemble des $x \in \hat{K}$ tels que $\hat{\nu}(x) > \alpha$. On raisonne de façon analogue pour $V'_\alpha$. Ceci prouve d).
 
-Compte tenu de la prop. 7 de Top. gén., chap. III, 3e éd., § 3, no 4, l’assertion $c)$ est une conséquence de $d)$. L’assertion $e)$ est un cas particulier de $d)$. Enfin, soit $x \in \hat{A}$; il existe $y \in A$ tel que $\hat{\nu}(x - y) > 0$; alors $z = x - y \in \hat{m}$, donc $x = y + z \in A + \hat{m}$; ainsi $\hat{A} = A + \hat{m}$, ce qui démontre $f)$.
+Compte tenu de la prop. 7 de Top. gén., chap. III, 3e éd., § 3, no 4, l’assertion c) est une conséquence de d). L’assertion e) est un cas particulier de d). Enfin, soit $x \in \hat{A}$; il existe $y \in A$ tel que $\hat{\nu}(x - y) > 0$; alors $z = x - y \in \hat{m}$, donc $x = y + z \in A + \hat{m}$; ainsi $\hat{A} = A + \hat{m}$, ce qui démontre f).
 
 #### Remarque {#ac-vi-s5-n3-rem-1 .statement}
 
@@ -141,9 +141,9 @@ Pour tout $x \in \hat{K}$ n’appartenant pas à $\hat{A}$, il existe $x_0 \in K
 
 **Q 1)** Soient $A$ un anneau intègre, $K$ son corps des fractions, $\mathcal{T}$ une topologie linéaire sur $A$ (chap. III, § 2, exerc. 21).
 
-$a)$ Pour que les voisinages de $0$ pour $\mathcal{T}$ constituent un système fondamental de voisinages de $0$ pour une topologie $\mathcal{T}_K$ compatible avec la structure d’anneau de $K$, il faut et il suffit que $\mathcal{T}$ soit la topologie $\mathcal{T}_u(A)$ (chap. III, § 2, exerc. 24); alors $A$ est une partie bornée pour $\mathcal{T}_K$ et $\mathcal{T}_K$ est une topologie séparée localement bornée (*Top. gén.*, chap. III, 3e éd., § 6, exerc. 12 et 20 e)). Pour que $K$ soit complet (resp. linéairement compact, resp. strictement linéairement compact (chap. III, § 2, exerc. 21)) pour $\mathcal{T}_K$, il faut et il suffit que $A$ le soit pour $\mathcal{T}$.
+a) Pour que les voisinages de $0$ pour $\mathcal{T}$ constituent un système fondamental de voisinages de $0$ pour une topologie $\mathcal{T}_K$ compatible avec la structure d’anneau de $K$, il faut et il suffit que $\mathcal{T}$ soit la topologie $\mathcal{T}_u(A)$ (chap. III, § 2, exerc. 24); alors $A$ est une partie bornée pour $\mathcal{T}_K$ et $\mathcal{T}_K$ est une topologie séparée localement bornée (*Top. gén.*, chap. III, 3e éd., § 6, exerc. 12 et 20 e)). Pour que $K$ soit complet (resp. linéairement compact, resp. strictement linéairement compact (chap. III, § 2, exerc. 21)) pour $\mathcal{T}_K$, il faut et il suffit que $A$ le soit pour $\mathcal{T}$.
 
-$b)$ Pour que la topologie $\mathcal{T}_K$ (où $\mathcal{T} = \mathcal{T}_u(A)$) soit compatible avec la structure de corps de $K$, il faut et il suffit que le radical $\mathfrak{R}(A)$ de $A$ soit $\neq 0$.
+b) Pour que la topologie $\mathcal{T}_K$ (où $\mathcal{T} = \mathcal{T}_u(A)$) soit compatible avec la structure de corps de $K$, il faut et il suffit que le radical $\mathfrak{R}(A)$ de $A$ soit $\neq 0$.
 
 **Q 2)** Soient $K$ un corps (commutatif), $\mathcal{T}$ une topologie séparée non discrète sur $K$, compatible avec la structure d’anneau de $K$. Pour que la topologie $\mathcal{T}$ soit définie par une valuation de $K$ ou une valeur absolue sur $K$, il faut et il suffit que $\mathcal{T}$ soit localement rétrobornée (*Top. gén.*, chap. III, 3e éd., § 6, exerc. 22. S’il existe dans $K$ des éléments topologiquement nilpotents, utiliser l’exerc. 22 d) de *Top. gén.*, chap. III, 3e éd., § 6 et l’exerc. 13 de *Top. gén.*, chap. IX, 2e éd., § 3. Dans le cas contraire, utiliser l’exerc. 22 f) de *Top. gén.*, chap. III, 3e éd., § 6).
 

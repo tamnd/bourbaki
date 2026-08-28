@@ -11,7 +11,7 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: 199682f78d4971b08776a340578d6dabcc2d99439bce9d0b644fd986838454f8
+content_sha256: 5dbc5ed3a53dfa6b55d96e7a4316f573d2decb606bc51731e517a0a666b36ca7
 ---
 
 ## § 2. DISCRIMINANT D’UNE FORME SESQUILINÉAIRE
@@ -110,9 +110,9 @@ a) Pour qu’un système $(x_1, \ldots, x_n)$ de $n$ éléments de $E$ soit libr
 
 b) Pour qu’un système $(x_1, \ldots, x_n)$ de $n$ éléments de $E$ soit une base de $E$, il faut et il suffit que $D_\Phi(x_1, \ldots, x_n)$ et $D_\Phi(e_1, \ldots, e_n)$ soient des éléments associés dans $A$ (cf. chap. VI, § 1, no 5).
 
-Posons $x_j = \sum_{i=1}^n a_{ji} e_i$ ($a_{ji} \in A$). Démontrons d’abord $a)$. Si $D_\Phi(x_1, \ldots, x_n) = 0$, on a $\det(a_{ji}) \cdot \det(a_{ji})' = 0$ (prop. 1) puisque $D_\Phi(e_1, \ldots, e_n) \neq 0$ et que $A$ est intègre ; on a donc $\det(a_{ji}) = 0$, et les vecteurs $x_j$ sont linéairement dépendants (chap. III, § 7, no 1, th. 1, appliqué à l’espace vectoriel $K \otimes_A E$, où $K$ désigne le corps des fractions de $A$). Réciproquement, si ces vecteurs sont linéairement dépendants on a $\det(a_{ji}) = 0$ (*ibid.*), d’où $D_\Phi(x_1, \ldots, x_n) = 0$ (prop. 1).
+Posons $x_j = \sum_{i=1}^n a_{ji} e_i$ ($a_{ji} \in A$). Démontrons d’abord a). Si $D_\Phi(x_1, \ldots, x_n) = 0$, on a $\det(a_{ji}) \cdot \det(a_{ji})' = 0$ (prop. 1) puisque $D_\Phi(e_1, \ldots, e_n) \neq 0$ et que $A$ est intègre ; on a donc $\det(a_{ji}) = 0$, et les vecteurs $x_j$ sont linéairement dépendants (chap. III, § 7, no 1, th. 1, appliqué à l’espace vectoriel $K \otimes_A E$, où $K$ désigne le corps des fractions de $A$). Réciproquement, si ces vecteurs sont linéairement dépendants on a $\det(a_{ji}) = 0$ (*ibid.*), d’où $D_\Phi(x_1, \ldots, x_n) = 0$ (prop. 1).
 
-Démontrons maintenant $b)$. Si $D_\Phi(x_1, \ldots, x_n)$ et $D_\Phi(e_1, \ldots, e_n)$ sont associés dans $A$, la prop. 1 montre que $\det(a_{ij}) \cdot \det(a_{ij})'$ est inversible dans $A$. Ainsi $\det(a_{ij})$ est lui aussi inversible dans $A$; donc la matrice $(a_{ij})$ sur $A$ est inversible (chap. III, § 6, no 5, th. 2), et l’endomorphisme $g$ de $E$ défini par $g(e_i) = x_i$ ($i = 1, \ldots, n$) est un automorphisme ; par conséquent $(x_1, \ldots, x_n)$ est une base de $E$. La réciproque résulte aussitôt de la prop. 1.
+Démontrons maintenant b). Si $D_\Phi(x_1, \ldots, x_n)$ et $D_\Phi(e_1, \ldots, e_n)$ sont associés dans $A$, la prop. 1 montre que $\det(a_{ij}) \cdot \det(a_{ij})'$ est inversible dans $A$. Ainsi $\det(a_{ij})$ est lui aussi inversible dans $A$; donc la matrice $(a_{ij})$ sur $A$ est inversible (chap. III, § 6, no 5, th. 2), et l’endomorphisme $g$ de $E$ défini par $g(e_i) = x_i$ ($i = 1, \ldots, n$) est un automorphisme ; par conséquent $(x_1, \ldots, x_n)$ est une base de $E$. La réciproque résulte aussitôt de la prop. 1.
 
 #### Proposition 3 {#alg-ix-s2-prop-3 .statement}
 

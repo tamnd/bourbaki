@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 52
 exercises: 34
-content_sha256: 37a7d642ac7a7dee72cee2ece12e8931a6cf6229c3d76466597e27b1ed1cfcd1
+content_sha256: 6496b958cd7442cf5370b720a63191e448d7f0c236cd9f4712b0ea493b7f984e
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 source_content_sha256: 7807160be0ee4703e84d6ac63919ca0a7e810af32944eb915f0916f77170d87d
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -649,9 +649,9 @@ b) $G$ là sắp thứ tự dàn và thỏa mãn điều kiện sau :
 c) $G$ thỏa mãn điều kiện (MIN) và mọi phần tử bất khả quy của $G$ đều có tính chất (P).
 d) $G$ được sinh bởi các phần tử bất khả quy của nó, và mọi phần tử bất khả quy của $G$ đều có tính chất (P).
 
-Trước hết ta chứng minh rằng $a)$ kéo theo $b)$. Nhóm $\mathbf{Z}^{(1)}$ là một dàn có thứ tự, như là tổng trực tiếp của các nhóm được sắp thứ tự toàn phần. Mặt khác, cho $E$ là một tập hợp khác rỗng các phần tử dương của $\mathbf{Z}^{(1)}$ và cho $x = \sum n_\iota e_\iota$ là một phần tử của $E$ (trong đó $(e_\iota)$ ký hiệu cơ sở tự nhiên của $\mathbf{Z}^{(1)}$) ; có một số hữu hạn $\prod (n_\iota + 1)$ các phần tử $y$ của $\mathbf{Z}^{(1)}$ sao cho $0 \leq y \leq x$, do đó tập hợp $F$ các phần tử của $E$ nhỏ hơn hoặc bằng $x$ là $a$ fortiori hữu hạn ; vì nó khác rỗng, nó chứa một phần tử cực tiểu (Lý thuyết tập hợp, III, p. 170, Hệ quả 2), rõ ràng đó là một phần tử cực tiểu của $E$.
+Trước hết ta chứng minh rằng a) kéo theo b). Nhóm $\mathbf{Z}^{(1)}$ là một dàn có thứ tự, như là tổng trực tiếp của các nhóm được sắp thứ tự toàn phần. Mặt khác, cho $E$ là một tập hợp khác rỗng các phần tử dương của $\mathbf{Z}^{(1)}$ và cho $x = \sum n_\iota e_\iota$ là một phần tử của $E$ (trong đó $(e_\iota)$ ký hiệu cơ sở tự nhiên của $\mathbf{Z}^{(1)}$) ; có một số hữu hạn $\prod (n_\iota + 1)$ các phần tử $y$ của $\mathbf{Z}^{(1)}$ sao cho $0 \leq y \leq x$, do đó tập hợp $F$ các phần tử của $E$ nhỏ hơn hoặc bằng $x$ là $a$ fortiori hữu hạn ; vì nó khác rỗng, nó chứa một phần tử cực tiểu (Lý thuyết tập hợp, III, p. 170, Hệ quả 2), rõ ràng đó là một phần tử cực tiểu của $E$.
 
-Hiển nhiên $b)$ kéo theo $c)$, theo Mệnh đề 14. Ta chứng minh rằng $c)$ kéo theo $d)$. Vì $G$ là lọc, chỉ cần (VI, p. 4, Mệnh đề 4) kiểm tra rằng tập hợp $F$ các phần tử dương của $G$ là tổng của các phần tử bất khả quy bằng với $G_+ - \{0\}$. Nếu điều này không đúng, thì từ (MIN) suy ra rằng phần bù của $F$ trong $G_+ - \{0\}$ sẽ có một phần tử cực tiểu $a$; theo định nghĩa $a$ không bất khả quy, do đó là tổng của hai phần tử dương ngặt $x$ và $y$; vì $x < a$ và $y < a$, các phần tử này thuộc $F$, và do đó là các tổng của các phần tử bất khả quy, và suy ra $a$ cũng như vậy, điều này là một mâu thuẫn. Cuối cùng, $d)$ kéo theo $a)$ theo Mệnh đề 15.
+Hiển nhiên b) kéo theo c), theo Mệnh đề 14. Ta chứng minh rằng c) kéo theo d). Vì $G$ là lọc, chỉ cần (VI, p. 4, Mệnh đề 4) kiểm tra rằng tập hợp $F$ các phần tử dương của $G$ là tổng của các phần tử bất khả quy bằng với $G_+ - \{0\}$. Nếu điều này không đúng, thì từ (MIN) suy ra rằng phần bù của $F$ trong $G_+ - \{0\}$ sẽ có một phần tử cực tiểu $a$; theo định nghĩa $a$ không bất khả quy, do đó là tổng của hai phần tử dương ngặt $x$ và $y$; vì $x < a$ và $y < a$, các phần tử này thuộc $F$, và do đó là các tổng của các phần tử bất khả quy, và suy ra $a$ cũng như vậy, điều này là một mâu thuẫn. Cuối cùng, d) kéo theo a) theo Mệnh đề 15.
 
 Ta sẽ áp dụng Định lý 2 vào lý thuyết về tính chia hết trong các iđêan chính (VII, p. 4) và trong các vành phân tích duy nhất (AC, VII, § 3), cũng như vào việc nghiên cứu các iđêan trong một vành Dedekind (AC, VII, § 2).
 

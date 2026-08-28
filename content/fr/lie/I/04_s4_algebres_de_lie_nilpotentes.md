@@ -32,7 +32,7 @@ subsections:
       pdf_page: 59
 statements: 18
 exercises: 27
-content_sha256: 251fc88df160ba8a4b3c460f88a92772017e2f4c4280d3d3aad56d4f2f857a38
+content_sha256: c35350897e3bf539e9f0d223d72b1f2656df90de5b3cebb086afd464affcec4f
 ---
 
 ## § 4. Algèbres de Lie nilpotentes
@@ -149,9 +149,9 @@ Si ces conditions sont remplies, $\mathfrak{a}$ est orthogonal à $\mathfrak{g}$
 
 $b) \Rightarrow a)$ : comme $A$ est de dimension finie sur $K$, le radical de $A$ est un idéal nilpotent ($Alg.$, chap. VIII, § 6, n° 4, th. 3), donc tout élément de ce radical est nilpotent.
 
-$a) \Rightarrow c)$ : chaque $Q_i = M_i/M_{i+1}$ ($0 \leq i < n$) est un $\mathfrak{g}$-module simple. Pour tout $x \in \mathfrak{a}$, l’endomorphisme $x_{Q_i}$ (qui se déduit de $x_{\mathbf{M}}$ par restriction à $M_i$ et passage au quotient) est nilpotent si la condition $a)$ est satisfaite, donc nul d’après le lemme 2 ; autrement dit, $x_{\mathbf{M}}(M_i) \subset M_{i+1}$.
+$a) \Rightarrow c)$ : chaque $Q_i = M_i/M_{i+1}$ ($0 \leq i < n$) est un $\mathfrak{g}$-module simple. Pour tout $x \in \mathfrak{a}$, l’endomorphisme $x_{Q_i}$ (qui se déduit de $x_{\mathbf{M}}$ par restriction à $M_i$ et passage au quotient) est nilpotent si la condition a) est satisfaite, donc nul d’après le lemme 2 ; autrement dit, $x_{\mathbf{M}}(M_i) \subset M_{i+1}$.
 
-$c) \Rightarrow b)$ : supposons satisfaite la condition $c)$; soient $x \in \mathfrak{a}$ et $z \in A$. On a $z(M_i) \subset M_i$ ($0 \leq i < n$), donc $(zx_{\mathbf{M}})^n(M) = \{0\}$; ainsi $Ax_{\mathbf{M}}$ est un nilidéal à gauche de $A$, donc est contenu dans le radical de $A$ ($Alg.$, chap. VIII, § 6, n° 3, cor. 3 du th. 1).
+$c) \Rightarrow b)$ : supposons satisfaite la condition c); soient $x \in \mathfrak{a}$ et $z \in A$. On a $z(M_i) \subset M_i$ ($0 \leq i < n$), donc $(zx_{\mathbf{M}})^n(M) = \{0\}$; ainsi $Ax_{\mathbf{M}}$ est un nilidéal à gauche de $A$, donc est contenu dans le radical de $A$ ($Alg.$, chap. VIII, § 6, n° 3, cor. 3 du th. 1).
 
 Enfin, supposons satisfaites les conditions $a),\ b),\ c)$. Soient $x \in \mathfrak{a}$ et $y \in \mathfrak{g}$. On vient de voir que $y_{\mathbf{M}}x_{\mathbf{M}}$ est nilpotent, donc $\operatorname{Tr}(y_{\mathbf{M}}x_{\mathbf{M}}) = 0$, ce qui prouve la dernière assertion du lemme.
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 84
 statements: 23
 exercises: 18
-content_sha256: ddd67782e479737cd9e6a578dce15e4eb2c5856730a131492492bd97145ecd22
+content_sha256: d56ad334c8b961365f3d72d7c521802edd95553bc6c867158ffa18290345692f
 ---
 
 ## § 1. THE LIE ALGEBRA $\mathfrak{s}\mathfrak{l}$(2$\boldsymbol{, k}$) AND ITS REPRESENTATIONS
@@ -390,7 +390,7 @@ $(1t)(($ 1 $0)((1t)$
 
 = 0 1 $-t^{-1}$ 1 0 1
 
-$($ 0 $t)$
+$($ 0 t)
 
 = $-t^{-1}$ 0
 

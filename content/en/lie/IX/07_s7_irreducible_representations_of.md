@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: e5d4512731c2c4775f6967a56df8bfea9f2c9f836e9424ff340a85f1fc7ae72d
+content_sha256: 375df81cdee840da6e0b458ac2f5db5264d7654fce07a342d3dce277a3f78519
 ---
 
 ## § 7. IRREDUCIBLE REPRESENTATIONS OF CONNECTED COMPACT LIE GROUPS
@@ -454,9 +454,9 @@ a) sup$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|^N<\infty$, where $N = 
 
 b) If G is semi-simple, inf$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|>0$.
 
-$a)$ For all $\alpha \in R_+$, there exists $A_{\alpha}>0$ with $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\|\lambda +\rho \|$, hence $d(\lambda )/\|\lambda +\rho \|^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
+a) For all $\alpha \in R_+$, there exists $A_{\alpha}>0$ with $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\|\lambda +\rho \|$, hence $d(\lambda )/\|\lambda +\rho \|^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
 
-$b)$ Assume that G is semi-simple, denote by $\beta_1, . . . , \beta_r$ the simple roots and put $N_i=K_{\beta_i}$. Then
+b) Assume that G is semi-simple, denote by $\beta_1, . . . , \beta_r$ the simple roots and put $N_i=K_{\beta_i}$. Then
 
 $$
 d(\lambda )\geq \prod_{i=1}^r\frac{\langle\lambda + \rho , N_i\rangle}{\langle\rho , N_i\rangle}=\prod_{i=1}^r\langle \lambda +\rho , N_i\rangle
@@ -466,7 +466,7 @@ since $\langle \lambda +\rho , N_i\rangle  \geq  \langle \rho , N_i\rangle = 1$,
 
 $d(\lambda )\geq$ sup$_i|\langle \lambda +\rho , N_i\rangle |$.
 
-If G is semi-simple, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ is a norm on $X(T)\otimes \mathbf{R}$, necessarily equivalent to the given norm, hence $b)$.
+If G is semi-simple, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ is a norm on $X(T)\otimes \mathbf{R}$, necessarily equivalent to the given norm, hence b).
 
 #### Corollary 2 {#lie-ix-s7-lem-5-cor-2 .statement tag=01GO}
 
@@ -504,7 +504,7 @@ $$
 =\sum_i\langle (e_i)_Vv,(e_i)_Vv\rangle >0
 $$
 
-hence $a)$.
+hence a).
 
 Let B be the inverse form on $\mathfrak{t}^*_{\mathbf{C}}$ of the restriction to $\mathfrak{t}_{\mathbf{C}}$ of the bilinear form on $\mathfrak{g}_{\mathbf{C}}$ induced by F by extension of scalars. By the Cor. of Prop. 7 of Chap. VIII, §6, no. 4, we have$^5\widetilde{\Gamma}(\tau ) = B(\delta (\lambda ), \delta (\lambda +2\rho ))$. Extend $\delta : X(T)\rightarrow$ $\mathfrak{t}^*_{\mathbf{C}}$ to an $\mathbf{R}$-linear map from $X(T)\otimes \mathbf{R}$ to $\mathfrak{t}^*_{\mathbf{C}}$ and let $Q_{\Gamma}$ be the quadratic form $x \rightarrow B(\delta (x), \delta (x))$ on $X(T)\otimes \mathbf{R}$; it is separating and invariant under W, and
 
@@ -514,7 +514,7 @@ $$
 
 We show that the form $Q_{\Gamma}$ is positive. Indeed, if $x\in X(T)\otimes \mathbf{Q}$, the element $\delta (x)$ of $\mathfrak{t}^*_{\mathbf{C}}$ takes purely imaginary values on $\mathfrak{t}$, hence real values on $i\mathfrak{t}$; we conclude by remarking that, for $y\in i\mathfrak{t}$, we have $F(y, y)\geq 0$.
 
-It remains to prove the uniqueness assertion in $b)$. Let Q be a quadratic form on $X(T)\otimes \mathbf{R}$ satisfying the required condition, and let $\Phi$ (resp. $\Phi_{\Gamma}$) be the bilinear form associated to Q (resp. $Q_{\Gamma}$). For $\lambda , \mu\in X_{++}$, we have
+It remains to prove the uniqueness assertion in b). Let Q be a quadratic form on $X(T)\otimes \mathbf{R}$ satisfying the required condition, and let $\Phi$ (resp. $\Phi_{\Gamma}$) be the bilinear form associated to Q (resp. $Q_{\Gamma}$). For $\lambda , \mu\in X_{++}$, we have
 
 $$
 \Phi (\lambda , \mu) = (Q(\lambda +\mu+\rho )-Q(\rho ))-(Q(\lambda +\rho )-Q(\rho ))-(Q(\mu+\rho )-Q(\rho ))

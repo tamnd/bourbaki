@@ -52,9 +52,9 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: 4ebdc69262b9ba757683c1563fb65dd6ff00b75d6d6f9bc41dc02ea69ca0d031
+content_sha256: 45b80d7041304b92562358308b241d9b2e06fbcbaf4913af303e0fcf49ec1639
 translated_from: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
-source_content_sha256: 08cd64a9f736fcf3e935c7f25b844b7cb16ccedcafa8c3831a78cdb4a9369a30
+source_content_sha256: 9859e7a3f8376bf9f90c18133336b365f7165b349bb413a9bb4f7f1d076f2e28
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-3557822e
 glossary_version: 34
@@ -124,7 +124,7 @@ $$
 f \varphi_B \leq (+\infty) \cdot \varphi_B = \sup_{n \in \mathbf{N}} n \varphi_B,
 $$
 
-do đó $p(f \varphi_B) = 0$ theo các tính chất $a), b), d)$ của Định nghĩa 1. Suy ra từ $c)$ rằng $p(f) \leq p(f \varphi_A) + p(f \varphi_B) = p(f \varphi_A)$, và cuối cùng $p(f) = p(f \varphi_A)$ theo $a)$.
+do đó $p(f \varphi_B) = 0$ theo các tính chất $a), b), d)$ của Định nghĩa 1. Suy ra từ c) rằng $p(f) \leq p(f \varphi_A) + p(f \varphi_B) = p(f \varphi_A)$, và cuối cùng $p(f) = p(f \varphi_A)$ theo a).
 
 ### 2. Tiền độ đo và độ đo
 
@@ -573,7 +573,7 @@ Một hàm $f$ có giá trị trong một không gian Banach hoặc trong $\over
 
 *Hàm $\mu^*$ là một gánh nặng trên $T$.*
 
-Các tính chất $a), b), c)$ của Định nghĩa 1 của No. 1 là hiển nhiên. Chứng minh của tính chất $d)$ giống hệt chứng minh của Định lý 3 của Ch. IV, §1, No. 3, khi xét đến các Mệnh đề 4 và 5 *a)*.
+Các tính chất $a), b), c)$ của Định nghĩa 1 của No. 1 là hiển nhiên. Chứng minh của tính chất d) giống hệt chứng minh của Định lý 3 của Ch. IV, §1, No. 3, khi xét đến các Mệnh đề 4 và 5 *a)*.
 
 #### Hệ quả {#int-ix-s1-n9-cor-1 .statement}
 

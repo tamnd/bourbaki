@@ -9018,3 +9018,204 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 5dc4068f333e2b8735cdbf6a3b58a2c5f076b92da97ed7fef97bf5e366c8fdc7
+    - id: alg-i-iii-fr
+      reader_note:
+        kind: reader
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        path: content/fr/alg/00_to_the_reader_i_iii.md
+        first_pdf_page: 5
+        last_pdf_page: 7
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: fa1bf079e19ab796f64a5475bfa06d06f5c84dc984e68af31de8853d90a2efd4
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/fr/alg/00_introduction_i_iii.md
+        first_pdf_page: 8
+        last_pdf_page: 10
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 0b2d5b2ba96472d6417114545b9beae5edd0f341399096b1f0fed67a1f6753d4
+      chapters:
+        - chapter: III
+          title: ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES
+          sections:
+            - kind: front
+              title: ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES
+              path: content/fr/alg/III/00_frontmatter.md
+              first_pdf_page: 388
+              last_pdf_page: 388
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 380c252d0d80d76a8eb6a81c6e6aeec31ffe094d2729be4a076947624ba9c783
+            - kind: section
+              section: 1
+              title: Algèbres
+              path: content/fr/alg/III/01_s1_algebres.md
+              label: alg-iii-s1
+              first_pdf_page: 389
+              last_pdf_page: 565
+              subsections: 7
+              statements: 5
+              exercises: 1
+              extraction: ocr
+              content_sha256: 2d5e926b08c68d5e7ca5beba37db0cfedb5584bfc190c8df4ab07597ba9427c7
+            - kind: section
+              section: 2
+              title: Exemples d’algèbres
+              path: content/fr/alg/III/02_s2_exemples_d_algebres.md
+              label: alg-iii-s2
+              first_pdf_page: 399
+              last_pdf_page: 570
+              book_pages: A III.12-A III.30
+              subsections: 11
+              statements: 20
+              exercises: 4
+              extraction: ocr
+              content_sha256: fb6149a42aba6ef50daf9c75130cb0bd6b5a674778856537214849a1d2de9e25
+            - kind: section
+              section: 3
+              title: Algèbres graduées
+              path: content/fr/alg/III/03_s3_algebres_graduees.md
+              label: alg-iii-s3
+              first_pdf_page: 417
+              last_pdf_page: 570
+              book_pages: A III.30-A III.33, A III.183
+              subsections: 3
+              statements: 6
+              exercises: 1
+              extraction: ocr
+              content_sha256: 6f21229504e496b104498446d4de3ebeae83d02b31cb596d657fcf1f1e55bbfb
+            - kind: section
+              section: 4
+              title: Produits tensoriels d’algèbres
+              path: content/fr/alg/III/04_s4_produits_tensoriels_d_algebres.md
+              label: alg-iii-s4
+              first_pdf_page: 420
+              last_pdf_page: 571
+              book_pages: A III.33-A III.55, A III.183-A III.184
+              subsections: 9
+              statements: 47
+              exercises: 2
+              extraction: ocr
+              content_sha256: 59645096ae90f853ea564641855a3e82cc91f3c460007a1723aae13682f0c924
+            - kind: section
+              section: 5
+              title: Algèbre tensorielle, tenseurs
+              path: content/fr/alg/III/05_s5_algebre_tensorielle_tenseurs.md
+              label: alg-iii-s5
+              first_pdf_page: 442
+              last_pdf_page: 575
+              book_pages: A III.184-A III.188
+              subsections: 6
+              statements: 14
+              exercises: 10
+              extraction: ocr
+              content_sha256: ceb2e95c31600cd3b62847d1749282130c65a55180c65d257ce221f0d319002c
+            - kind: section
+              section: 6
+              title: Algèbre symétrique
+              path: content/fr/alg/III/06_s6_algebre_symetrique.md
+              label: alg-iii-s6
+              first_pdf_page: 454
+              last_pdf_page: 576
+              book_pages: A III.188-A III.189
+              subsections: 6
+              statements: 19
+              exercises: 5
+              extraction: ocr
+              content_sha256: 40f152bcd1e869e851df2deb19631a5d9be1b26d27d6a38bfc42fdabc3f51e63
+            - kind: section
+              section: 7
+              title: Algèbre extérieure
+              path: content/fr/alg/III/07_s7_algebre_exterieure.md
+              label: alg-iii-s7
+              first_pdf_page: 463
+              last_pdf_page: 578
+              book_pages: A III.76-A III.90, A III.189-A III.191
+              subsections: 9
+              statements: 30
+              exercises: 15
+              extraction: ocr
+              content_sha256: 50eb4d0f6b35bf47dec4073c1ae82fe5673ae979ce273833b17ead7fdc947f74
+            - kind: section
+              section: 8
+              title: Déterminants
+              path: content/fr/alg/III/08_s8_determinants.md
+              label: alg-iii-s8
+              first_pdf_page: 477
+              last_pdf_page: 583
+              book_pages: A III.90-A III.107, A III.191-A III.196
+              subsections: 11
+              statements: 38
+              exercises: 26
+              extraction: ocr
+              content_sha256: f14742f5d87ea50c10c3c63903bc1086452d4e9b2213b7d83714481f7b4af3cf
+            - kind: section
+              section: 9
+              title: Normes et traces
+              path: content/fr/alg/III/09_s9_normes_et_traces.md
+              label: alg-iii-s9
+              first_pdf_page: 494
+              last_pdf_page: 583
+              book_pages: A III.107-A III.116, A III.196
+              subsections: 5
+              statements: 19
+              exercises: 1
+              extraction: ocr
+              content_sha256: 5fd5332d97634f65f0700d65e62ddf4fb51bdfdab9e4d726d3944f066bc41ebd
+            - kind: section
+              section: 10
+              title: Dérivations
+              path: content/fr/alg/III/10_s10_derivations.md
+              label: alg-iii-s10
+              first_pdf_page: 503
+              last_pdf_page: 584
+              book_pages: A III.116-A III.138, A III.196-A III.197
+              subsections: 12
+              statements: 41
+              exercises: 5
+              extraction: ocr
+              content_sha256: ec11c092ad2c10f9443e0cb8b0f8da5b2e8d5e6d6b47e47c445e0bb38174c88e
+            - kind: section
+              section: 11
+              title: Cogèbres, produits de formes multilinéaires, produits intérieurs et dualité
+              path: content/fr/alg/III/11_s11_cogebres_produits_de_formes.md
+              label: alg-iii-s11
+              first_pdf_page: 525
+              last_pdf_page: 590
+              book_pages: A III.138-A III.172, A III.198-A III.203
+              subsections: 13
+              statements: 52
+              exercises: 27
+              extraction: ocr
+              content_sha256: 2e16d6b059fe7ddf4bc94fb3442430c0dcddc9cf0b5661ae740053067d632525
+            - kind: appendix
+              title: Algèbres alternatives. Octonions
+              path: content/fr/alg/III/A_a_algebres_alternatives_octonions.md
+              label: alg-iii-a0
+              first_pdf_page: 559
+              last_pdf_page: 590
+              book_pages: A III.203
+              subsections: 3
+              statements: 11
+              exercises: 3
+              extraction: ocr
+              content_sha256: 3a47a3d2be32bed91a1d03fa3ff7423d81ccf2e7b20b7bab881dbeb7405ff7a3
+            - kind: historical
+              title: Historical Note
+              path: content/fr/alg/III/historical_note.md
+              first_pdf_page: 591
+              last_pdf_page: 645
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 794c7f10882cc7edf566a88fdf1ae03b6081d36f425120b6081a7805ffa72c79

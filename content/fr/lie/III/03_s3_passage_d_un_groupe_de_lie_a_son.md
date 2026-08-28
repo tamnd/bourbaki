@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: 1f5a11246817b1049347e874ac40eff9cdd1c9272e29d5de4d941f672862efa6
+content_sha256: 59472d06a88ac27930826e4b39d5a57f08024e7ca603af84f91d7f7fa1af3cd2
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -702,7 +702,7 @@ En particulier, chaque champ de vecteurs $D_a$ est de classe $C^{r-1}$.
 
 #### Remarque {#lie-iii-s3-n7-rem-1 .statement}
 
-Soient $X$ une variété de classe $C^r$, $g$ une algèbre de Lie de dimension finie, $a \mapsto D_a$ une application linéaire de $g$ dans l’espace vectoriel des champs de vecteurs de classe $C^{r-1}$ sur $X$. Alors la condition $a)$ de la déf. 7 est vérifiée. En effet, en considérant une base de $g$ et en appliquant VAR, R, 7.7.1, on se ramène au cas où $\dim g = 1$, et notre assertion est alors évidente.
+Soient $X$ une variété de classe $C^r$, $g$ une algèbre de Lie de dimension finie, $a \mapsto D_a$ une application linéaire de $g$ dans l’espace vectoriel des champs de vecteurs de classe $C^{r-1}$ sur $X$. Alors la condition a) de la déf. 7 est vérifiée. En effet, en considérant une base de $g$ et en appliquant VAR, R, 7.7.1, on se ramène au cas où $\dim g = 1$, et notre assertion est alors évidente.
 
 #### Proposition 27 {#lie-iii-s3-prop-27 .statement}
 

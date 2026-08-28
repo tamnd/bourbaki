@@ -41,9 +41,9 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 8bae4b164451cbbec4ad5be76fea1b313cbfaffd513c53d5dd5fd429e8005915
+content_sha256: f21401a6e3559aba0856e1c3dd718455b5c625e97a896fc7425db4eb68ffd2b9
 translated_from: content/en/int/IX/05_s5_measures_on_completely_regular_spaces.md
-source_content_sha256: 160d9c32a593ae0e84dcbc7a401963428f6758eb7ce0601b9dfaf2c7ddeb7626
+source_content_sha256: fcbde3227ae2c8a07d15e11152623c5b8ec445be66fbe7f38c00957838c44bc2
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-bb57bc71
 glossary_version: 34
@@ -398,7 +398,7 @@ a) Hàm $F_\mu$ liên tục và bị chặn với mọi độ đo bị chặn $\
 
 b) Giả sử rằng $T$ là địa phương compact. Ánh xạ $\mu \mapsto F_\mu$ của $\mathcal{M}_+^b(T)$ vào $C^b(X; \mathbf{C})$ khi đó liên tục, nếu $\mathcal{M}_+^b(T)$ được trang bị tôpô chặt, và $C^b(X; \mathbf{C})$ với tôpô hội tụ trên các tập compact.
 
-Với mọi $x \in X$, ký hiệu $f_x$ là hàm liên tục và bị chặn $t \mapsto f(t, x)$ trên $T$; ánh xạ $x \mapsto f_x$ của $X$ vào $C^b(T; \mathbf{C})$ có ảnh bị chặn, và nó liên tục nếu $C^b(T; \mathbf{C})$ được trang bị tôpô hội tụ trên các tập compact (GT, X, §3, No. 4, Định lý 3). Vì $F_\mu(x) = \mu(f_x)$, hàm $F_\mu$ liên tục theo Mệnh đề 12. Giả sử $T$ là địa phương compact; Mệnh đề 13 cho thấy rằng ánh xạ $(\mu, x) \mapsto F_\mu(x)$ của $\mathcal{M}_+^b(T) \times X$ vào $\mathbf{C}$ là liên tục; mệnh đề $b)$ suy ra từ đó (*loc. cit.*).
+Với mọi $x \in X$, ký hiệu $f_x$ là hàm liên tục và bị chặn $t \mapsto f(t, x)$ trên $T$; ánh xạ $x \mapsto f_x$ của $X$ vào $C^b(T; \mathbf{C})$ có ảnh bị chặn, và nó liên tục nếu $C^b(T; \mathbf{C})$ được trang bị tôpô hội tụ trên các tập compact (GT, X, §3, No. 4, Định lý 3). Vì $F_\mu(x) = \mu(f_x)$, hàm $F_\mu$ liên tục theo Mệnh đề 12. Giả sử $T$ là địa phương compact; Mệnh đề 13 cho thấy rằng ánh xạ $(\mu, x) \mapsto F_\mu(x)$ của $\mathcal{M}_+^b(T) \times X$ vào $\mathbf{C}$ là liên tục; mệnh đề b) suy ra từ đó (*loc. cit.*).
 
 ### 7. Ứng dụng: phép biến đổi Laplace
 
@@ -454,7 +454,7 @@ b) *Ánh xạ $\lambda \mapsto (\mathcal{L} \lambda)_S$ là một đồng phôi 
 
 c) *Tôpô hội tụ điểm và tôpô hội tụ trên compact trùng nhau trên $L$.*
 
-Các mệnh đề $a)$ và $b)$ là những hệ quả ngay lập tức của Th. 3; mệnh đề $c)$ suy ra từ $b)$ và Mệnh đề 14, vì tôpô hội tụ trên compact mịn hơn tôpô hội tụ điểm.
+Các mệnh đề a) và b) là những hệ quả ngay lập tức của Th. 3; mệnh đề c) suy ra từ b) và Mệnh đề 14, vì tôpô hội tụ trên compact mịn hơn tôpô hội tụ điểm.
 
 Cần lưu ý rằng L không đóng trong tập tất cả các hàm phức bị chặn trên S, được trang bị tôpô hội tụ điểm. Chẳng hạn, hãy xét các ký hiệu của Ví dụ 2 dưới đây (M = \mathbf{R}_+, S được đồng nhất với \mathbf{R}_+). Các biến đổi Laplace của các độ đo $\varepsilon_n$ ($n \in \mathbf{N}$) là các hàm $t \mapsto e^{-nt}$ trên $\mathbf{R}_+$; khi $n$ tiến tới $+\infty$, các hàm này hội tụ điểm đến hàm bằng 1 khi $t = 0$ và bằng 0 khi $t \neq 0$, hàm này không thuộc L.
 

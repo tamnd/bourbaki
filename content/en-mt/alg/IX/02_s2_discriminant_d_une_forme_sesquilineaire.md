@@ -11,11 +11,11 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: 81690f038ad86dac22a84b4d7a97ca9f94052a29ca048c4fbcabbe5fd2af83ce
+content_sha256: f7ba257d562053dd8171f5ccc038367684eb2c7d7edac14a1e9fd6603bbcdc76
 translated_from: content/fr/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 199682f78d4971b08776a340578d6dabcc2d99439bce9d0b644fd986838454f8
+source_content_sha256: 5dbc5ed3a53dfa6b55d96e7a4316f573d2decb606bc51731e517a0a666b36ca7
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-d8dbaedb
 glossary_version: 34
@@ -119,9 +119,9 @@ a) For a system $(x_1, \ldots, x_n)$ of $n$ elements of $E$ to be free, it is ne
 
 b) For a system $(x_1, \ldots, x_n)$ of $n$ elements of $E$ to be a basis of $E$, it is necessary and sufficient that $D_\Phi(x_1, \ldots, x_n)$ and $D_\Phi(e_1, \ldots, e_n)$ be associated elements in $A$ (cf. Chapter VI, § 1, No. 5).
 
-Let $x_j = \sum_{i=1}^n a_{ji} e_i$ ($a_{ji} \in A$). Let us first prove $a)$. If $D_\Phi(x_1, \ldots, x_n) = 0$, we have $\det(a_{ji}) \cdot \det(a_{ji})' = 0$ (Prop. 1) since $D_\Phi(e_1, \ldots, e_n) \neq 0$ and $A$ is integral; we therefore have $\det(a_{ji}) = 0$, and the vectors $x_j$ are linearly dependent (Chapter III, § 7, No. 1, Th. 1, applied to the vector space $K \otimes_A E$, where $K$ denotes the field of fractions of $A$). Conversely, if these vectors are linearly dependent we have $\det(a_{ji}) = 0$ (*ibid.*), whence $D_\Phi(x_1, \ldots, x_n) = 0$ (Prop. 1).
+Let $x_j = \sum_{i=1}^n a_{ji} e_i$ ($a_{ji} \in A$). Let us first prove a). If $D_\Phi(x_1, \ldots, x_n) = 0$, we have $\det(a_{ji}) \cdot \det(a_{ji})' = 0$ (Prop. 1) since $D_\Phi(e_1, \ldots, e_n) \neq 0$ and $A$ is integral; we therefore have $\det(a_{ji}) = 0$, and the vectors $x_j$ are linearly dependent (Chapter III, § 7, No. 1, Th. 1, applied to the vector space $K \otimes_A E$, where $K$ denotes the field of fractions of $A$). Conversely, if these vectors are linearly dependent we have $\det(a_{ji}) = 0$ (*ibid.*), whence $D_\Phi(x_1, \ldots, x_n) = 0$ (Prop. 1).
 
-Let us now prove $b)$. If $D_\Phi(x_1, \ldots, x_n)$ and $D_\Phi(e_1, \ldots, e_n)$ are associated in $A$, Prop. 1 shows that $\det(a_{ij}) \cdot \det(a_{ij})'$ is invertible in $A$. Thus $\det(a_{ij})$ is itself invertible in $A$; hence the matrix $(a_{ij})$ over $A$ is invertible (Chapter III, § 6, No. 5, Th. 2), and the endomorphism $g$ of $E$ defined by $g(e_i) = x_i$ ($i = 1, \ldots, n$) is an automorphism; consequently $(x_1, \ldots, x_n)$ is a basis of $E$. The converse follows immediately from Prop. 1.
+Let us now prove b). If $D_\Phi(x_1, \ldots, x_n)$ and $D_\Phi(e_1, \ldots, e_n)$ are associated in $A$, Prop. 1 shows that $\det(a_{ij}) \cdot \det(a_{ij})'$ is invertible in $A$. Thus $\det(a_{ij})$ is itself invertible in $A$; hence the matrix $(a_{ij})$ over $A$ is invertible (Chapter III, § 6, No. 5, Th. 2), and the endomorphism $g$ of $E$ defined by $g(e_i) = x_i$ ($i = 1, \ldots, n$) is an automorphism; consequently $(x_1, \ldots, x_n)$ is a basis of $E$. The converse follows immediately from Prop. 1.
 
 #### Proposition 3 {#alg-ix-s2-prop-3 .statement}
 

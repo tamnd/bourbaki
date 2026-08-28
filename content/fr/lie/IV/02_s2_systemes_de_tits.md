@@ -40,7 +40,7 @@ subsections:
       pdf_page: 29
 statements: 31
 exercises: 29
-content_sha256: 828d95b4c8251b17fdf7d584cf9b8b93aff889aefd6afb347a148d54528f3f9e
+content_sha256: deb36ce1ee638d8755f25803d603187d1b22b18c6854e52925925f2e3c08cec9
 ---
 
 ## § 2. Systèmes de Tits
@@ -331,11 +331,11 @@ c) Soit $(X_i)_{i \in I}$ une famille de parties de $S$. Si $X = \bigcap_{i \in 
 
 d) Soient $X$ et $Y$ deux parties de $S$. On a $G_X \subset G_Y$ (resp. $G_X = G_Y$) si et seulement si l’on a $X \subset Y$ (resp. $X = Y$).
 
-Il est clair que $G_X = (G_X)^{-1}$; le lemme 1 du n° 1 montre que $G_X . G_X \subset G_X$; d’où $a)$, compte tenu du cor. 1 du th. 2.
+Il est clair que $G_X = (G_X)^{-1}$; le lemme 1 du n° 1 montre que $G_X . G_X \subset G_X$; d’où a), compte tenu du cor. 1 du th. 2.
 
 L’injectivité de $X \mapsto G_X$ résulte de celle de $X \mapsto W_X$ (\S 1, n° 8, th. 2). Soit d’autre part $H$ un sous-groupe de $G$ contenant $B$. Soit $U$ l’ensemble des $w \in W$ tels que $C(w) \subset H$. On a $H = BUB$ puisque $H$ est réunion de doubles classes. Soit $X = U \cap S$; montrons que $H = G_X$. On a évidemment $G_X \subset H$. D’autre part, soit $u \in U$, et soit $(s_1, \ldots, s_q)$ une décomposition réduite de $u$. Le cor. 3 du th. 2 entraîne $C(s_j) \subset H$, d’où $s_j \in X$ pour $1 \leq j \leq q$. On a donc $u \in W_X$, et comme $H$ est réunion des $C(u)$ pour $u \in U$, on a bien $H \subset G_X$, ce qui achève de prouver $(b)$.
 
-Les assertions $c)$ et $d)$ résultent des propriétés analogues des groupes $W_X$ (\S 1, n° 8, th. 2).
+Les assertions c) et d) résultent des propriétés analogues des groupes $W_X$ (\S 1, n° 8, th. 2).
 
 #### Corollaire {#lie-iv-s2-n5-cor-1 .statement}
 

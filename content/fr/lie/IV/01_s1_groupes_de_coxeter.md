@@ -48,7 +48,7 @@ subsections:
       pdf_page: 19
 statements: 31
 exercises: 12
-content_sha256: 344e98146d46f14480eedf7b9a3a5d2b53b5780b966f3b4aa0e3bdc54cbee38a
+content_sha256: b8df5ccf953c21e327a192568af1e0940e7af07b9c39dff0750989a86175d9f1
 ---
 
 ## § 1. Groupes de Coxeter
@@ -364,7 +364,7 @@ b) Il existe $s$ et $s'$ dans $S$ tels que $s_j = s'_k = s$ et $s_k = s'_j = s'$
 
 Alors $F$ est constante.
 
-A) Soient $s, s' \in D$; posons $t = (s'_1, s_1, \ldots, s_{q-1})$. Nous allons montrer que si $F(s) \neq F(s')$, on a $t \in D$ et $F(t) \neq F(s)$. On a en effet $w = s'_1 \ldots s'_q$, donc $s'_1 w = s'_2 \ldots s'_q$ est de longueur $< q$. D’après la prop. 4, il existe un entier $j$ tel que $1 \leq j \leq q$ et que la suite $u = (s'_1, s_1, \ldots, s_{j-1}, s_{j+1}, \ldots, s_q)$ appartienne à $D$. On a $F(u) = F(s')$ d’après la condition $a)$; si l’on avait $j \neq q$, on aurait $F(s) = F(u)$ pour la même raison, d’où $F(s) = F(s')$ contrairement à l’hypothèse. On a donc $j = q$, d’où $t = u \in D$ et $F(t) = F(s') \neq F(s)$.
+A) Soient $s, s' \in D$; posons $t = (s'_1, s_1, \ldots, s_{q-1})$. Nous allons montrer que si $F(s) \neq F(s')$, on a $t \in D$ et $F(t) \neq F(s)$. On a en effet $w = s'_1 \ldots s'_q$, donc $s'_1 w = s'_2 \ldots s'_q$ est de longueur $< q$. D’après la prop. 4, il existe un entier $j$ tel que $1 \leq j \leq q$ et que la suite $u = (s'_1, s_1, \ldots, s_{j-1}, s_{j+1}, \ldots, s_q)$ appartienne à $D$. On a $F(u) = F(s')$ d’après la condition a); si l’on avait $j \neq q$, on aurait $F(s) = F(u)$ pour la même raison, d’où $F(s) = F(s')$ contrairement à l’hypothèse. On a donc $j = q$, d’où $t = u \in D$ et $F(t) = F(s') \neq F(s)$.
 
 B) Soient $s$ et $s'$ dans $D$. Pour tout entier $j$ avec $0 \leq j \leq q$, définissons une suite $s_j$ de $q$ éléments de $S$ de la manière suivante :
 
@@ -377,7 +377,7 @@ s_{q+1-k} = (s'_1, s_1, \ldots, s_1, s'_1, s_1, s_2, \ldots, s_k) & \text{pour }
 \end{cases}
 $$
 
-Notons $(H_j)$ l’assertion « $s_j \in D, s_{j+1} \in D$ et $F(s_j) \neq F(s_{j+1})$ ». D’après (A), on a $(H_j) \implies (H_{j+1})$ pour $0 \leq j < q$, et $(H_q)$ n’est pas satisfaite d’après la condition $b)$. Par suite, $(H_0)$ n’est pas satisfaite. Comme $s_0 = s'$ et $s_1 = s$, il en résulte que $F(s) = F(s')$.
+Notons $(H_j)$ l’assertion « $s_j \in D, s_{j+1} \in D$ et $F(s_j) \neq F(s_{j+1})$ ». D’après (A), on a $(H_j) \implies (H_{j+1})$ pour $0 \leq j < q$, et $(H_q)$ n’est pas satisfaite d’après la condition b). Par suite, $(H_0)$ n’est pas satisfaite. Comme $s_0 = s'$ et $s_1 = s$, il en résulte que $F(s) = F(s')$.
 
 #### Proposition 5 {#lie-iv-s1-prop-5 .statement}
 
@@ -407,9 +407,9 @@ $$
 
 n° 1.6.
 
-Nous allons prouver par récurrence sur la longueur de $w$ que $F_w$ est constante, ce qui établira la prop. 5. Les cas $l(w) = 0, 1$ étant triviaux, nous supposons $q \geq 2$ et notre assertion prouvée pour les éléments $w$ avec $l(w) < q$. Soient $w$ de longueur $q$ et $s, s'$ dans $D_w$; d’après le lemme 4, il suffit de prouver que l’on a $F_w(s) = F_w(s')$ dans les cas $a)$ et $b)$ dudit lemme.
+Nous allons prouver par récurrence sur la longueur de $w$ que $F_w$ est constante, ce qui établira la prop. 5. Les cas $l(w) = 0, 1$ étant triviaux, nous supposons $q \geq 2$ et notre assertion prouvée pour les éléments $w$ avec $l(w) < q$. Soient $w$ de longueur $q$ et $s, s'$ dans $D_w$; d’après le lemme 4, il suffit de prouver que l’on a $F_w(s) = F_w(s')$ dans les cas a) et b) dudit lemme.
 
-$a)$ La formule
+a) La formule
 
 $$
 F_w(s_1, \ldots, s_q) = f(s_1) F_{w''}(s_2, \ldots, s_q) = F_{w'}(s_1, \ldots, s_{q-1}) f(s_q)
@@ -417,7 +417,7 @@ $$
 
 pour $w' = s_1 \ldots s_{q-1}$ et $w'' = s_2 \ldots s_q$ et l’hypothèse de récurrence montrent que l’on a $F_w(s) = F_w(s')$ si $s_1 = s'_1$ ou $s_q = s'_q$.
 
-$b)$ Supposons qu’il existe deux éléments $s$ et $s'$ de $S$ tels que $s_j = s'_k = s$ et $s_k = s'_j = s'$ pour $j$ impair et $k$ pair. Il suffit de traiter le cas $s \neq s'$. Les suites $s$ et $s'$ sont alors deux décompositions réduites distinctes de $w$ dans le groupe diédral engendré par $s$ et $s'$. D’après la Remarque du n° 2, l’ordre $m$ de $ss'$ est nécessairement fini et l’on a, avec les notations de cette remarque, $s = s_m$ et $s' = s'_m$. Par suite, on a $F_w(s) = a(s, s')$ et $F_w(s') = a(s', s)$, d’où
+b) Supposons qu’il existe deux éléments $s$ et $s'$ de $S$ tels que $s_j = s'_k = s$ et $s_k = s'_j = s'$ pour $j$ impair et $k$ pair. Il suffit de traiter le cas $s \neq s'$. Les suites $s$ et $s'$ sont alors deux décompositions réduites distinctes de $w$ dans le groupe diédral engendré par $s$ et $s'$. D’après la Remarque du n° 2, l’ordre $m$ de $ss'$ est nécessairement fini et l’on a, avec les notations de cette remarque, $s = s_m$ et $s' = s'_m$. Par suite, on a $F_w(s) = a(s, s')$ et $F_w(s') = a(s', s)$, d’où
 
 $$
 F_w(s) = F_w(s').
@@ -445,9 +445,9 @@ $$
 
 puisque $S$ engendre $W$. D’après la prop. 4 du n° 5, deux cas seulement sont possibles :
 
-$a)$ $l(sw) = l(w) + 1$: si $(s_1, \ldots, s_q)$ est une décomposition réduite de $w$, alors $(s, s_1, \ldots, s_q)$ est une décomposition réduite de $sw$, d’où (21).
+a) $l(sw) = l(w) + 1$: si $(s_1, \ldots, s_q)$ est une décomposition réduite de $w$, alors $(s, s_1, \ldots, s_q)$ est une décomposition réduite de $sw$, d’où (21).
 
-$b)$ $l(sw) = l(w) - 1$: posons $w' = sw$; on a $w = sw'$ et $l(sw') = l(w') + 1$. D’après $a)$, on a donc $g(w) = f(s)g(sw)$, d’où $f(s)g(w) = g(sw)$ puisque l’on a $(f(s))^2 = 1$.
+b) $l(sw) = l(w) - 1$: posons $w' = sw$; on a $w = sw'$ et $l(sw') = l(w') + 1$. D’après a), on a donc $g(w) = f(s)g(sw)$, d’où $f(s)g(w) = g(sw)$ puisque l’on a $(f(s))^2 = 1$.
 
 ### 7. Familles de partitions
 
@@ -509,9 +509,9 @@ $$
 
 qui entraîne $sw = s_1 \ldots s_{j-1}s_{j+1} \ldots s_q$ et $l(sw) < l(w)$.
 
-$b) \ w \in P_s :$ posons $w' = sw$, d’où $w' \notin P_s$ d’après (B’). D’après $a)$, on a alors $l(sw') < l(w')$, c’est-à-dire $l(w) < l(sw)$.
+$b) \ w \in P_s :$ posons $w' = sw$, d’où $w' \notin P_s$ d’après (B’). D’après a), on a alors $l(sw') < l(w')$, c’est-à-dire $l(w) < l(sw)$.
 
-La comparaison de $a)$ et $b)$ prouve que $P_s$ se compose des $w \in W$ tels que $l(sw) > l(w)$. La condition d’échange résulte de ce qui a été vu en $a)$, donc $(W, S)$ est un système de Coxeter (th. 1 du n° 6).
+La comparaison de a) et b) prouve que $P_s$ se compose des $w \in W$ tels que $l(sw) > l(w)$. La condition d’échange résulte de ce qui a été vu en a), donc $(W, S)$ est un système de Coxeter (th. 1 du n° 6).
 
 ### 8. Sous-groupes des groupes de Coxeter
 

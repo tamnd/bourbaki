@@ -33,9 +33,9 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 15
-content_sha256: d364c69f5c34457fb64557d886d54b80b00289ea706d8ac77d126aaae5bdd554
+content_sha256: 1b4b114726c46a580420574d39cff78887cdb6e9fd5d646dad275452a0315447
 translated_from: content/en/alg/VII/01_s1_principal_ideal_domains.md
-source_content_sha256: 8391d460561adeb449ac1dffa38cdbf8ce479bf1cd6f9f8c60527fcfd05e8a6f
+source_content_sha256: d2178e31c081e0480a4d4b238d5f836620d03ea14b805f7aa3091d47b48f145d
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-a52a80a1
 glossary_version: 34
@@ -103,7 +103,7 @@ a) « $d$ là một ước chung lớn nhất của $a$ và $b$ » tương đư�
 b) « $m$ là một bội chung nhỏ nhất của $a$ và $b$ » tương đương với « $m = (a) \cap (b)$ ».
 c) « $p$ là một phần tử bất khả quy của $A$ » tương đương với « $(p)$ là một iđêan cực đại khác không của $A$ » và với « $(p)$ là một iđêan nguyên tố khác không của $A$ ».
 
-Ta đã chứng minh $a)$ (Mệnh đề *1*). Vì các bội chung của $a$ và $b$ là các phần tử của $(a) \cap (b)$, và vì, theo giả thiết, iđêan $(a) \cap (b)$ là chính, giả sử $(a) \cap (b) = (m)$, nên suy ra rằng $m$ là một bội chung nhỏ nhất của $a$ và $b$, điều này chứng minh $b)$. Cuối cùng, nói rằng $p \neq 0$ là một phần tử bất khả quy của $A$ có nghĩa theo định nghĩa (VI, p. *17*) rằng $(p)$ là một phần tử cực đại của họ các iđêan chính $\neq A$ của $A$, có thứ tự bởi quan hệ bao hàm; vì $A$ không có iđêan nào khác ngoài các iđêan chính, điều này có nghĩa rằng $(p)$ là một iđêan cực đại của $A$, do đó có $c)$, theo nhận xét trong VI, p. 17.
+Ta đã chứng minh a) (Mệnh đề *1*). Vì các bội chung của $a$ và $b$ là các phần tử của $(a) \cap (b)$, và vì, theo giả thiết, iđêan $(a) \cap (b)$ là chính, giả sử $(a) \cap (b) = (m)$, nên suy ra rằng $m$ là một bội chung nhỏ nhất của $a$ và $b$, điều này chứng minh b). Cuối cùng, nói rằng $p \neq 0$ là một phần tử bất khả quy của $A$ có nghĩa theo định nghĩa (VI, p. *17*) rằng $(p)$ là một phần tử cực đại của họ các iđêan chính $\neq A$ của $A$, có thứ tự bởi quan hệ bao hàm; vì $A$ không có iđêan nào khác ngoài các iđêan chính, điều này có nghĩa rằng $(p)$ là một iđêan cực đại của $A$, do đó có c), theo nhận xét trong VI, p. 17.
 
 Trong một miền iđêan chính $A$, tổng (tương ứng, giao) của một số hữu hạn các iđêan cũng được gọi là gcd (tương ứng, lcm) của các iđêan này.
 

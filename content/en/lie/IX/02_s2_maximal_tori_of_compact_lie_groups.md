@@ -37,7 +37,7 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: c325701fafe83ff98a87561b934f3da09b5a895b57956ea7453a3b2a69d0d21c
+content_sha256: 7f3f516023b889ee7bda8bc2eaf1db34f631f9e82b0893192ae78e729b16bdce
 ---
 
 ## § 2. MAXIMAL TORI OF COMPACT LIE GROUPS
@@ -86,9 +86,9 @@ b) Let $T_1$ and $T_2$ be two maximal tori of G. There exists $g\in G$ such that
 
 c) G is the union of its maximal tori.
 
-Let $\mathfrak{t}$ be a Cartan subalgebra of L(G); the integral subgroup of G whose Lie algebra is $\mathfrak{t}$ is closed (Chap. VII, §2, no. 1, Cor. 4 of Prop. 4) and commutative (Th. 1), and hence is a torus of G. If T is a maximal torus of G, its Lie algebra is commutative, hence is contained in a Cartan subalgebra of L(G) (Th. 1). It follows that the maximal tori of G are exactly the integral subgroups of G associated to the Cartan subalgebras of L(G), hence $a)$. Assertion $b)$ follows from Th. 1, since the canonical homomorphism $G\rightarrow$ Int(L(G)) is surjective (Chap. III, §6, no. 4, Cor. 4 of Prop. 10).
+Let $\mathfrak{t}$ be a Cartan subalgebra of L(G); the integral subgroup of G whose Lie algebra is $\mathfrak{t}$ is closed (Chap. VII, §2, no. 1, Cor. 4 of Prop. 4) and commutative (Th. 1), and hence is a torus of G. If T is a maximal torus of G, its Lie algebra is commutative, hence is contained in a Cartan subalgebra of L(G) (Th. 1). It follows that the maximal tori of G are exactly the integral subgroups of G associated to the Cartan subalgebras of L(G), hence a). Assertion b) follows from Th. 1, since the canonical homomorphism $G\rightarrow$ Int(L(G)) is surjective (Chap. III, §6, no. 4, Cor. 4 of Prop. 10).
 
-Denote by X the union of the maximal tori of G, and let T be a maximal torus of G. The continuous map $(g, t) \rightarrow gtg^{-1}$ from $G\times T$ to G has image X, which is therefore closed in G; thus, to prove $c)$, it suffices to prove that X is open in G; since X is invariant under inner automorphisms, it suffices to show that, for all $a\in T, X$ is a neighbourhood of $a$. We argue by induction on the dimension of G and distinguish two cases:
+Denote by X the union of the maximal tori of G, and let T be a maximal torus of G. The continuous map $(g, t) \rightarrow gtg^{-1}$ from $G\times T$ to G has image X, which is therefore closed in G; thus, to prove c), it suffices to prove that X is open in G; since X is invariant under inner automorphisms, it suffices to show that, for all $a\in T, X$ is a neighbourhood of $a$. We argue by induction on the dimension of G and distinguish two cases:
 
 $1)a$ is not central in G. Let H be the identity component of the centralizer of $a$ in G; this is a connected compact subgroup of G distinct from G, which contains T, and hence $a$. Since Ad $a$ is semi-simple (§1, no. 1), the Lie algebra of H is the nilspace of Ad $a-1$; it now follows from Chap. VII, §4, no. 2, Prop. 4, that the union Y of the conjugates of H is a neighbourhood of $a$. By the induction hypothesis, $H\subset X$, and hence $Y\subset X$; thus, X is a neighbourhood of $a$.
 
@@ -100,7 +100,7 @@ a) The exponential map of G is surjective.
 
 b) For all $n\geq 1$, the map $g \rightarrow g^n$ from G to itself is surjective.
 
-Indeed, exp(L(G)) contains all the maximal tori of G, hence $a)$. Assertion $b)$ follows from the formula (exp $x$)$^n=$ exp $nx$ for $x$ in L(G).
+Indeed, exp(L(G)) contains all the maximal tori of G, hence a). Assertion b) follows from the formula (exp $x$)$^n=$ exp $nx$ for $x$ in L(G).
 
 #### Remark 1 {#lie-ix-s2-n2-rem-1 .statement tag=01A4}
 
@@ -130,7 +130,7 @@ a) Let S be a torus of G. The centralizer of S is connected; it is the union of 
 
 b) Let $\mathfrak{s}$ be a commutative subalgebra of L(G). The fixer of $\mathfrak{s}$ in G is connected; it is the union of the maximal tori of G whose Lie algebras contain $\mathfrak{s}$.
 
-To prove $a)$, it suffices to prove that if an element $g$ of G centralizes S, there exists a maximal torus of G containing S and $g$. Now, if C is the centralizer of $g$, we have $g\in C_0$ (Cor. 3) and $S\subset C_0$; if T is a maximal torus of the connected compact Lie group $C_0$ containing S, we have $g\in T$ (Cor. 2), hence $a)$. Assertion $b)$ follows from $a)$ applied to the closure of the integral subgroup with Lie algebra $\mathfrak{s}$, in view of Chap. III, §9, no. 3, Prop. 9.
+To prove a), it suffices to prove that if an element $g$ of G centralizes S, there exists a maximal torus of G containing S and $g$. Now, if C is the centralizer of $g$, we have $g\in C_0$ (Cor. 3) and $S\subset C_0$; if T is a maximal torus of the connected compact Lie group $C_0$ containing S, we have $g\in T$ (Cor. 2), hence a). Assertion b) follows from a) applied to the closure of the integral subgroup with Lie algebra $\mathfrak{s}$, in view of Chap. III, §9, no. 3, Prop. 9.
 
 #### Remark 2 {#lie-ix-s2-n2-rem-2 .statement tag=01A9}
 
@@ -158,7 +158,7 @@ Let $h\in H$. Then $h^{-1}Th$ is a maximal torus of $H_0$, hence (Th. 2) there e
 
 Let G be a connected Lie group whose Lie algebra is compact. The Cartan subgroups of G are the integral subgroups whose Lie algebras are the Cartan subalgebras of L(G) (the Cartan subgroups of a connected compact group are thus its maximal tori). Theorem 2 and its corollaries remain valid for G, if we replace everywhere the expression “maximal torus” by “Cartan subgroup”. This follows immediately from the fact that, in view of Prop. 5 of §1, no. 4, G is the direct product of a vector group V and a connected compact group K and that the Cartan subgroups of G are the products of V with the maximal tori of K. Moreover, note that it follows from Cor. 6 above that the Cartan subgroups of G can also be defined as the fixers of the Cartan subalgebras of L(G).
 
-$^*4)$ Part $c)$ of Theorem 2 can also be proved in the following way. Give G an invariant riemannian metric (§1, no. 3, Prop. 3). Then, for any element $g$ of G, there exists a maximal geodesic passing through $g$ and the identity element of G (Hopf-Rinow theorem), and it can be verified that the closure of such a geodesic is a subtorus of $G._*$
+$^*4)$ Part c) of Theorem 2 can also be proved in the following way. Give G an invariant riemannian metric (§1, no. 3, Prop. 3). Then, for any element $g$ of G, there exists a maximal geodesic passing through $g$ and the identity element of G (Hopf-Rinow theorem), and it can be verified that the closure of such a geodesic is a subtorus of $G._*$
 
 ### 3. MAXIMAL TORI OF SUBGROUPS AND QUOTIENT GROUPS
 
@@ -172,13 +172,13 @@ b) Let H be a connected closed subgroup of G. Every maximal torus of H is the in
 
 c) Let H be a connected closed normal subgroup of G. The maximal tori of H are the intersections with H of the maximal tori of G.
 
-$a)$ Let T be a maximal torus of G; then L(T) is a Cartan subalgebra of L(G) (no. 2, Th. $2a$)$)$, so $L(f(T))$ is a Cartan subalgebra of $L(G')$ (Chap. VII, §2, no. 1, Cor. 2 of Prop. 4); it follows that $f(T)$ is a maximal torus of $G'$ (no. 2, Th. $2a$)$)$. If Ker $f$ is central in G, it is contained in T (Cor. 2 of Th. 2), so $T =f^{-1}(f(T))$.
+a) Let T be a maximal torus of G; then L(T) is a Cartan subalgebra of L(G) (no. 2, Th. $2a$)$)$, so $L(f(T))$ is a Cartan subalgebra of $L(G')$ (Chap. VII, §2, no. 1, Cor. 2 of Prop. 4); it follows that $f(T)$ is a maximal torus of $G'$ (no. 2, Th. $2a$)$)$. If Ker $f$ is central in G, it is contained in T (Cor. 2 of Th. 2), so $T =f^{-1}(f(T))$.
 
 Conversely, let $T'$ be a maximal torus of $G'$; we show that there exists a maximal torus T of G such that $f(T) = T'$. Let $T_1$ be a maximal torus of G; then $f(T_1)$ is a maximal torus of $G'$ and there exists $g'\in G'$ such that $T'=g'f(T_1)g^{'-1}$ (Th. $2b$)$)$; if $g\in G$ is such that $f(g) =g'$, we have $T'=f(T)$ with $T =gT_1g^{-1}$.
 
-$b)$ Let S be a maximal torus of H; this is a torus of G so there exists a maximal torus T of G containing S. Then $T\cap H$ is a commutative subgroup of H containing S, hence is equal to S (no. 2, Remark 2).
+b) Let S be a maximal torus of H; this is a torus of G so there exists a maximal torus T of G containing S. Then $T\cap H$ is a commutative subgroup of H containing S, hence is equal to S (no. 2, Remark 2).
 
-$c)$ By §1, no. 3, Prop. $2c), L(G)$ is the direct product of L(H) with an ideal; thus, the Cartan subalgebras of L(H) are the intersections with L(H) of the Cartan subalgebras of L(G). Thus, for any maximal torus T of $G, T\cap H$ contains a maximal torus S of H and $S = T\cap H$ (no. 2, Remark 2).
+c) By §1, no. 3, Prop. $2c), L(G)$ is the direct product of L(H) with an ideal; thus, the Cartan subalgebras of L(H) are the intersections with L(H) of the Cartan subalgebras of L(G). Thus, for any maximal torus T of $G, T\cap H$ contains a maximal torus S of H and $S = T\cap H$ (no. 2, Remark 2).
 
 #### Remark 1 {#lie-ix-s2-n3-rem-1 .statement tag=01AF}
 
@@ -202,9 +202,9 @@ Let $f$ : G $\rightarrow G'$ be a surjective morphism of connected compact Lie g
 
 Let G be a connected compact Lie group, and H a connected closed subgroup of maximal rank.
 
-$a)$ The compact manifold $G/H$ is simply-connected.
+a) The compact manifold $G/H$ is simply-connected.
 
-$b)$ The homomorphism $\pi_1(H)\rightarrow \pi_1(G)$, induced by the canonical injection of H into G, is surjective.
+b) The homomorphism $\pi_1(H)\rightarrow \pi_1(G)$, induced by the canonical injection of H into G, is surjective.
 
 Since H is connected, we have an exact sequence (General Topology, Chap. XI, in preparation)
 
@@ -212,7 +212,7 @@ $$
 \pi_1(H)\rightarrow \pi_1(G)\rightarrow \pi_1(G/H,\overline{e})\rightarrow 0
 $$
 
-where $\overline{e}$ is the image in $G/H$ of the identity element of G. Since $G/H$ is connected, this immediately implies the equivalence of assertions $a)$ and $b)$. Moreover, if $f: G'\rightarrow G$ is a surjective morphism of connected compact Lie groups whose kernel is central, proving the proposition (in the form $a$)$)$ for G is the same as proving it for $G'$ (Prop. 2). Thus, we can first of all replace G by Ad(G), then assume that G is semi-simple, and then by replacing G by a universal covering (§1, no. 4, Cor. 2), assume that G is simply-connected. But then assertion $b)$ is trivial.
+where $\overline{e}$ is the image in $G/H$ of the identity element of G. Since $G/H$ is connected, this immediately implies the equivalence of assertions a) and b). Moreover, if $f: G'\rightarrow G$ is a surjective morphism of connected compact Lie groups whose kernel is central, proving the proposition (in the form $a$)$)$ for G is the same as proving it for $G'$ (Prop. 2). Thus, we can first of all replace G by Ad(G), then assume that G is semi-simple, and then by replacing G by a universal covering (§1, no. 4, Cor. 2), assume that G is simply-connected. But then assertion b) is trivial.
 
 #### Proposition 4 {#lie-ix-s2-prop-4 .statement tag=01AJ}
 
@@ -236,11 +236,11 @@ If $T'$ is another maximal torus of G and if $g\in G$ is such that Int $g$ maps 
 
 #### Proposition 5 {#lie-ix-s2-prop-5 .statement tag=01J9}
 
-$a)$ Every conjugacy class of G meets T.
+a) Every conjugacy class of G meets T.
 
-$b)$ The intersections with T of the conjugacy classes of G are the orbits of the Weyl group.
+b) The intersections with T of the conjugacy classes of G are the orbits of the Weyl group.
 
-Let $g\in G$; by Th. 2 of no. 2, there exists $h\in G$ such that $g\in hTh^{-1}$, hence $a)$. By definition of the Weyl group, any two elements in the same orbit of $W_G(T)$ on T are conjugate in G; conversely, let $a, b$ be two elements of T conjugate under G. There exists $h\in G$ such that $b=hah^{-1}$; applying Cor. 7 of Th. 2 (no. 2) with $A =\{a\},s=$ Int $h, T'= T$, we see that there exists $g\in G$ such that Int $hg$ maps T to T and $a$ to $b$. The class of $hg$ in $W_G(T)$ then maps $a$ to $b$, hence the proposition.
+Let $g\in G$; by Th. 2 of no. 2, there exists $h\in G$ such that $g\in hTh^{-1}$, hence a). By definition of the Weyl group, any two elements in the same orbit of $W_G(T)$ on T are conjugate in G; conversely, let $a, b$ be two elements of T conjugate under G. There exists $h\in G$ such that $b=hah^{-1}$; applying Cor. 7 of Th. 2 (no. 2) with $A =\{a\},s=$ Int $h, T'= T$, we see that there exists $g\in G$ such that Int $hg$ maps T to T and $a$ to $b$. The class of $hg$ in $W_G(T)$ then maps $a$ to $b$, hence the proposition.
 
 #### Corollary 1 {#lie-ix-s2-prop-5-cor-1 .statement tag=01JA}
 
@@ -258,11 +258,11 @@ Denote the Lie algebra of $\mathrm{G}$ by $\mathfrak{g}$, and that of $\mathrm{T
 
 #### Proposition 6 {#lie-ix-s2-prop-6 .statement tag=01JC}
 
-$a)$ *Every orbit of $\mathrm{G}$ on $\mathfrak{g}$ (for the adjoint representation) meets $\mathfrak{t}$.*
+a) *Every orbit of $\mathrm{G}$ on $\mathfrak{g}$ (for the adjoint representation) meets $\mathfrak{t}$.*
 
-$b)$ *The intersections with $\mathfrak{t}$ of the orbits of $\mathrm{G}$ are the orbits of $\mathrm{W}_{G}(\mathrm{T})$ on $\mathfrak{t}$.*
+b) *The intersections with $\mathfrak{t}$ of the orbits of $\mathrm{G}$ are the orbits of $\mathrm{W}_{G}(\mathrm{T})$ on $\mathfrak{t}$.*
 
-Assertion $a)$ follows from Th. 1 (no. 1). Let $x,y$ be two elements of $\mathfrak{t}$ conjugate under $\mathrm{Ad}(\mathrm{G})$, and let $h\in\mathrm{G}$ be such that $(\mathrm{Ad}\,h)(x)=y$. Applying the corollary of Th. 1 (no. 1) with $\mathfrak{a}=\{x\}$, $u=\mathrm{Ad}\,h$, $\mathfrak{t}'=\mathfrak{t}$, we see that there exists $g\in\mathrm{G}$ such that $\mathrm{Ad}\,hg$ maps $\mathfrak{t}$ to $\mathfrak{t}$ and $x$ to $y$. Then $hg\in\mathrm{N}_{G}(\mathrm{T})$ (Chap. III, §9, no. 4, Prop. 11), and the class of $hg$ in $\mathrm{W}_{G}(\mathrm{T})$ maps $x$ to $y$, hence the proposition.
+Assertion a) follows from Th. 1 (no. 1). Let $x,y$ be two elements of $\mathfrak{t}$ conjugate under $\mathrm{Ad}(\mathrm{G})$, and let $h\in\mathrm{G}$ be such that $(\mathrm{Ad}\,h)(x)=y$. Applying the corollary of Th. 1 (no. 1) with $\mathfrak{a}=\{x\}$, $u=\mathrm{Ad}\,h$, $\mathfrak{t}'=\mathfrak{t}$, we see that there exists $g\in\mathrm{G}$ such that $\mathrm{Ad}\,hg$ maps $\mathfrak{t}$ to $\mathfrak{t}$ and $x$ to $y$. Then $hg\in\mathrm{N}_{G}(\mathrm{T})$ (Chap. III, §9, no. 4, Prop. 11), and the class of $hg$ in $\mathrm{W}_{G}(\mathrm{T})$ maps $x$ to $y$, hence the proposition.
 
 #### Corollary {#lie-ix-s2-n5-cor-1 .statement tag=01JD}
 
@@ -284,11 +284,11 @@ where $p$ and $q$ are quotient maps, and $i$ is the canonical injection. Since $
 
 *Let $H$ be a closed subgroup of $\mathrm{G}$ containing $\mathrm{T}$.*
 
-$a)$ *Denote by $\mathrm{W}_{H}(\mathrm{T})$ the subgroup $\mathrm{N}_{H}(\mathrm{T})/\mathrm{T}$ of $\mathrm{W}_{G}(\mathrm{T})$; the group $H/H_{0}$ is isomorphic to the quotient group $\mathrm{W}_{H}(\mathrm{T})/\mathrm{W}_{H_{0}}(\mathrm{T})$.*
+a) *Denote by $\mathrm{W}_{H}(\mathrm{T})$ the subgroup $\mathrm{N}_{H}(\mathrm{T})/\mathrm{T}$ of $\mathrm{W}_{G}(\mathrm{T})$; the group $H/H_{0}$ is isomorphic to the quotient group $\mathrm{W}_{H}(\mathrm{T})/\mathrm{W}_{H_{0}}(\mathrm{T})$.*
 
-$b)$ *$H$ is connected if and only if every element of $\mathrm{W}_{G}(\mathrm{T})$ that has a representative in $H$ belongs to $\mathrm{W}_{H_{0}}(\mathrm{T})$.*
+b) *$H$ is connected if and only if every element of $\mathrm{W}_{G}(\mathrm{T})$ that has a representative in $H$ belongs to $\mathrm{W}_{H_{0}}(\mathrm{T})$.*
 
-Assertion $a)$ follows from Cor. 8 of Th. 2 (no. 2), and assertion $b)$ is a particular case of $a)$.
+Assertion a) follows from Cor. 8 of Th. 2 (no. 2), and assertion b) is a particular case of a).
 
 ### 6. MAXIMAL TORI AND COVERING OF HOMOMORPHISMS
 

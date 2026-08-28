@@ -33,11 +33,11 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: 24b703972494d9952a22538df5a7d675959e881aacf9edbfe6b525b05d1b7eaa
+content_sha256: 6e8860981324d52d377b100066fdbecb26fceadecd64dc3be15a92a54e8fa693
 translated_from: content/fr/ac/IX/02_s2_anneaux_de_cohen.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 7145dc9e275e6c620ef3f8584b3c77f0cf520f2f7af51faf4e903a4a5aacc0e9
+source_content_sha256: 0fdc2956e848c1bc0958511ea7eceea5dd8893532c764935e56746e10f1e943d
 translation_model: gpt-5.4
 translation_run: translate-en-mt-eb8fbb4e
 glossary_version: 34
@@ -67,11 +67,11 @@ b) Suppose $p1_C$ nilpotent. Let $d$ be the smallest positive integer such that 
 
 c) Suppose that $p1_C$ is not nilpotent. Then $C$ is a discrete valuation ring whose residue field is of characteristic $p$, and whose field of fractions is of characteristic $0$. The ideals of the form $p^nC$, with $n \in \mathbf{N}$, are pairwise distinct; they form all the non-zero ideals of $C$. The $C$-module $C$ is not of finite length.
 
-Assertion $a)$ follows from prop. 19 of III, $\S 2$, no. 13.
+Assertion a) follows from prop. 19 of III, $\S 2$, no. 13.
 
 By hypothesis, one has $\bigcap_{n \geqslant 0} p^n C = \{0\}$. Let $x \neq 0$ in $C$; there exists an integer $n \geqslant 0$ such that $x \in p^n C$, $x \notin p^{n+1} C$; therefore there exists an element $y$ of $C$ such that $x = p^n y$; since $y$ does not belong to $pC$, $y$ is invertible.
 
-Suppose that $p 1_C$ is not nilpotent. If $x$ and $x'$ are two non-zero elements of $C$, there exist two integers $n \geqslant 0$, $n' \geqslant 0$ and two invertible elements $y$, $y'$ of $C$ such that $x = p^n y$, $x' = p^{n'} y'$. We then have $xx' = p^{n+n'} yy' \neq 0$, hence $C$ is an integral domain. Since $C$ is a local ring, but is not a field, and since the maximal ideal $m_C = pC$ of $C$ is principal, $C$ is a discrete valuation ring (VI, $\S 3$, no 6, prop. 9). The non-zero ideals of $C$ are then of the form $p^n C$ by *loc. cit.*, prop. 8, and are pairwise distinct. In particular, the ring $C$ is not artinian, hence the $C$-module $C$ is not of finite length. The residue field $C/pC$ of $C$ is of characteristic $p$. Let $q$ be the characteristic of the field of fractions of $C$. We have $p 1_C \neq 0$, whence $p \neq q$. Moreover, if $q$ were non-zero, we should have $q 1_C = 0$ hence $C/pC$ would be of characteristic $q \neq p$, which is absurd. This proves $c)$.
+Suppose that $p 1_C$ is not nilpotent. If $x$ and $x'$ are two non-zero elements of $C$, there exist two integers $n \geqslant 0$, $n' \geqslant 0$ and two invertible elements $y$, $y'$ of $C$ such that $x = p^n y$, $x' = p^{n'} y'$. We then have $xx' = p^{n+n'} yy' \neq 0$, hence $C$ is an integral domain. Since $C$ is a local ring, but is not a field, and since the maximal ideal $m_C = pC$ of $C$ is principal, $C$ is a discrete valuation ring (VI, $\S 3$, no 6, prop. 9). The non-zero ideals of $C$ are then of the form $p^n C$ by *loc. cit.*, prop. 8, and are pairwise distinct. In particular, the ring $C$ is not artinian, hence the $C$-module $C$ is not of finite length. The residue field $C/pC$ of $C$ is of characteristic $p$. Let $q$ be the characteristic of the field of fractions of $C$. We have $p 1_C \neq 0$, whence $p \neq q$. Moreover, if $q$ were non-zero, we should have $q 1_C = 0$ hence $C/pC$ would be of characteristic $q \neq p$, which is absurd. This proves c).
 
 Suppose that $p 1_C$ is nilpotent. Let $d$ be the smallest positive integer such that $p^d 1_C = 0$. We have a sequence of ideals
 
@@ -92,7 +92,7 @@ contrary to the hypothesis $p^{d-1} 1_C \neq 0$. Therefore the elements of the s
 
 If the $p$-ring $C$ is an integral domain, it is a discrete valuation ring, or a field of characteristic $p$.
 
-Suppose $C$ is an integral domain. If $p 1_C$ is nilpotent, one has $p 1_C = 0$, and $\{0\}$ is a maximal ideal of $C$, hence $C$ is a field of characteristic $p$. If $p 1_C$ is not nilpotent, then $C$ is a discrete valuation ring by Prop. 1, $c)$.
+Suppose $C$ is an integral domain. If $p 1_C$ is nilpotent, one has $p 1_C = 0$, and $\{0\}$ is a maximal ideal of $C$, hence $C$ is a field of characteristic $p$. If $p 1_C$ is not nilpotent, then $C$ is a discrete valuation ring by Prop. 1, c).
 
 #### Corollary 2 {#ac-ix-s2-prop-1-cor-2 .statement}
 
@@ -124,17 +124,17 @@ b) In order that $u$ be surjective, it is necessary and sufficient that $v$ be a
 
 c) In order that $u$ be an isomorphism, it is necessary and sufficient that $v$ be an isomorphism and that one have $l(C) = l(C')$.
 
-Let $n \geqslant 1$ be an integer. We have $u(p^{n-1}1_C) = p^{n-1}1_{C'}$, hence the relation $p^{n-1}1_{C'} \neq 0$ implies $p^{n-1}1_C \neq 0$ and is equivalent to it if $u$ is injective. Therefore $l(C') \leqslant l(C)$, with equality if $u$ is injective. If $u$ is not injective, there exists an integer $i < l(C)$ such that the kernel of $u$ is the ideal $p^iC$ of $C$; then $p^i1_{C'} = 0$, whence $l(C') \leqslant i$. This proves $a)$.
+Let $n \geqslant 1$ be an integer. We have $u(p^{n-1}1_C) = p^{n-1}1_{C'}$, hence the relation $p^{n-1}1_{C'} \neq 0$ implies $p^{n-1}1_C \neq 0$ and is equivalent to it if $u$ is injective. Therefore $l(C') \leqslant l(C)$, with equality if $u$ is injective. If $u$ is not injective, there exists an integer $i < l(C)$ such that the kernel of $u$ is the ideal $p^iC$ of $C$; then $p^i1_{C'} = 0$, whence $l(C') \leqslant i$. This proves a).
 
-Since $\kappa_C$ and $\kappa_{C'}$ are fields, the homomorphism $v$ is injective. If $u$ is surjective, the same is true of $v$, which is therefore an isomorphism. Conversely, suppose $v$ surjective. Then for every integer $n \geqslant 0$, the mapping $v_n : p^nC/p^{n+1}C \to p^nC'/p^{n+1}C'$ induced by $u$ is surjective. Since $C$ is complete for the $pC$-adic filtration and $C'$ separated for the $pC'$-adic filtration, $u$ is surjective by Cor. 2 of Th. 1 of III, § 2, No. 8. This proves $b)$.
+Since $\kappa_C$ and $\kappa_{C'}$ are fields, the homomorphism $v$ is injective. If $u$ is surjective, the same is true of $v$, which is therefore an isomorphism. Conversely, suppose $v$ surjective. Then for every integer $n \geqslant 0$, the mapping $v_n : p^nC/p^{n+1}C \to p^nC'/p^{n+1}C'$ induced by $u$ is surjective. Since $C$ is complete for the $pC$-adic filtration and $C'$ separated for the $pC'$-adic filtration, $u$ is surjective by Cor. 2 of Th. 1 of III, § 2, No. 8. This proves b).
 
-Finally, $c)$ follows from $a)$ and $b)$.
+Finally, c) follows from a) and b).
 
 #### Proposition 3 {#ac-ix-s2-prop-3 .statement}
 
 Let $(C_n, \pi_{n,m})$ be a projective system of rings relative to the set of indices $\mathbf{N}$. Suppose that $C_n$ is a $p$-ring for every $n \in \mathbf{N}$ and that the homomorphisms $\pi_{n,m}$ are surjective. Then $C = \varprojlim C_n$ is a $p$-ring, and for every $n \in \mathbf{N}$, the canonical homomorphism $\pi_n : C \to C_n$ is surjective and induces an isomorphism of $\kappa_C$ onto $\kappa_{C_n}$.
 
-Since the mappings $\pi_{n,m}$ are surjective, the same is true of the mappings $\pi_n$ (E, III, p. 58, prop. 5). Let us show that $C$ is a $p$-ring. Let $d_n$ be the length of $C_n$. By prop. 2, $a)$, the sequence of the elements $d_n$ of $\mathbf{N} \cup \{ + \infty \}$ is increasing; if it is stationary, there exists an integer $n_0$ such that $\pi_{n,m}$ is an isomorphism of $C_m$ onto $C_n$ whenever $n_0 \leqslant n \leqslant m$, so that $C$, isomorphic to $C_{n_0}$, is a $p$-ring.
+Since the mappings $\pi_{n,m}$ are surjective, the same is true of the mappings $\pi_n$ (E, III, p. 58, prop. 5). Let us show that $C$ is a $p$-ring. Let $d_n$ be the length of $C_n$. By prop. 2, a), the sequence of the elements $d_n$ of $\mathbf{N} \cup \{ + \infty \}$ is increasing; if it is stationary, there exists an integer $n_0$ such that $\pi_{n,m}$ is an isomorphism of $C_m$ onto $C_n$ whenever $n_0 \leqslant n \leqslant m$, so that $C$, isomorphic to $C_{n_0}$, is a $p$-ring.
 
 It is therefore enough to consider the case where each $d_n$ is finite, and where the sequence $(d_n)$ tends to $+ \infty$. Endow the ring $C$ with the trivial filtration (III, § 2, No. 1, example 5). For $n \in \mathbf{N}$, let $I_n$ be the kernel of $\pi_n$; put $I_n = C$ if $n < 0$. Let $E$ denote the $C$-module $C$ endowed with the filtration $(I_n)_{n \in \mathbf{Z}}$. It is separated and complete, for the topology $\mathcal{T}$ defined by the filtration $(I_n)_{n \in \mathbf{Z}}$ is the projective limit topology of the discrete topologies on the $C_n$.
 
@@ -195,7 +195,7 @@ x = \sum_{\alpha \in \Lambda} c_\alpha^{p^m} Z_\alpha + py
 $$
 with $c_\alpha \in A$ for every $\alpha \in \Lambda$, and $y \in C_{m-1} = C$. If $x$ belongs to $C \cap m_A$, one has $\pi(x) = 0$, whence $\sum_{\alpha \in \Lambda} \pi(c_\alpha)^{p^m} \pi(Z_\alpha) = 0$. Since $\pi(S)$ is a $p$-base of $k$, one has $\pi(c_\alpha) = 0$ for every $\alpha \in \Lambda$ from A, V, p. 96. One then has $c_\alpha \in m_A$, whence $c_\alpha^m = 0$ and a fortiori $c_\alpha^{p^m} = 0$. From (1), one has $x = py$, whence lemma 2.
 
-One has $p^m C = m_A^m = \{0\}$ for $m$ sufficiently large, and assertion $b)$ is therefore trivial. Assertion $c)$ results from lemma 1. If $C'$ is a Cohen subring of $A$ containing $S$, one has $C' \supset C$ from lemma 1. But since the inclusion of $C$ in $C'$ induces an isomorphism of $\kappa_C$ onto $\kappa_{C'}$, one has $C = C'$ (No. 1, prop. 2, b)), and this completes the proving of a).
+One has $p^m C = m_A^m = \{0\}$ for $m$ sufficiently large, and assertion b) is therefore trivial. Assertion c) results from lemma 1. If $C'$ is a Cohen subring of $A$ containing $S$, one has $C' \supset C$ from lemma 1. But since the inclusion of $C$ in $C'$ induces an isomorphism of $\kappa_C$ onto $\kappa_{C'}$, one has $C = C'$ (No. 1, prop. 2, b)), and this completes the proving of a).
 
 B) *General case*
 
@@ -269,7 +269,7 @@ a) One has $S \subset T$ : Let $a \in S$ and $n \in \mathbf{N}$; since the field
 
 b) The restriction of $\pi$ to T is injective: let a and b be two elements of T such that $\pi(a) = \pi(b)$. Let $n \in \mathbf{N}$; there exist two elements $a_n$ and $b_n$ of A such that $a = a_n^{p^n}, b = b_n^{p^n}$. We then have $\pi(a_n)^{p^n} = \pi(b_n)^{p^n}$, whence $\pi(a_n) = \pi(b_n)$, that is to say $a_n \equiv b_n$ mod. $m_A$. By Lemma 1 of § 1, No. 1, we have $a_n^{p^n} \equiv b_n^{p^n}$ mod. $m_A^{n+1}$ that is to say $a \equiv b$ mod. $m_A^{n+1}$. Since n is arbitrary, we have $a = b$.
 
-Properties $a)$ and $b)$ above, together with the formula $\pi(S) = k$, imply the relation $S = T$, whence uniqueness.
+Properties a) and b) above, together with the formula $\pi(S) = k$, imply the relation $S = T$, whence uniqueness.
 
 Let us now prove the existence of S. With the notation of Theorem 2, put $\varphi = u \circ \tau_k$, that is to say (\S 1, No. 6)
 

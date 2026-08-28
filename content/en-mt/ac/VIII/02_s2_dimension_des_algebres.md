@@ -29,11 +29,11 @@ subsections:
       pdf_page: 23
 statements: 32
 exercises: 18
-content_sha256: 346ffdb27f56d0c44ce41a40d0d4dcaca59de75ad1e75a4cfdea729b1d558d70
+content_sha256: 6e077cad49ae3e2da32fd5564bf2cf5e04d17f49d0b7ab4becc8fc297c059a89
 translated_from: content/fr/ac/VIII/02_s2_dimension_des_algebres.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: c86244d422d6c60cb2f20f1a01352191bb788823ec5b67c00e0e84019615637c
+source_content_sha256: adc2a4e954a088d296502eb1f4f4669ae89dd263f74cfb2153cbce9b5d909848
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-en-mt-8df9cd5f
 glossary_version: 34
@@ -375,7 +375,7 @@ $$
 \dim_r(A \otimes_k B) = \dim_p(A) + \dim_q(B).
 $$
 
-Put $n = \dim(A)$ and $m = \dim(B)$. By Cor. 1 to Theorem 3 there exist injective algebra homomorphisms $\varphi : k[X_1, ..., X_n] \to A$ and $\psi : k'[Y_1, ..., Y_m] \to B$ making $A$ and $B$ respectively finite algebras over $k[X_1, ..., X_n]$ and $k'[Y_1, ..., Y_m]$. The homomorphism $\varphi \otimes \psi$ is then injective and makes $A \otimes_k B$ into a finite algebra over the $k'$-algebra $k[X_1, ..., X_n] \otimes_k k'[Y_1, ..., Y_m]$, which is identified with $k'[X_1, ..., X_n, Y_1, ..., Y_m]$. Therefore $\dim(A \otimes_k B) = n + m$ by Cor. 1 to Theorem 3, which proves $a)$.
+Put $n = \dim(A)$ and $m = \dim(B)$. By Cor. 1 to Theorem 3 there exist injective algebra homomorphisms $\varphi : k[X_1, ..., X_n] \to A$ and $\psi : k'[Y_1, ..., Y_m] \to B$ making $A$ and $B$ respectively finite algebras over $k[X_1, ..., X_n]$ and $k'[Y_1, ..., Y_m]$. The homomorphism $\varphi \otimes \psi$ is then injective and makes $A \otimes_k B$ into a finite algebra over the $k'$-algebra $k[X_1, ..., X_n] \otimes_k k'[Y_1, ..., Y_m]$, which is identified with $k'[X_1, ..., X_n, Y_1, ..., Y_m]$. Therefore $\dim(A \otimes_k B) = n + m$ by Cor. 1 to Theorem 3, which proves a).
 
 Let us remark that when $A$ and $B$ are integral, $A \otimes_k B$ is a torsion-free $k'[X_1, ..., X_n, Y_1, ..., Y_m]$-module by Lemma 4, and that therefore one has
 $$
@@ -383,7 +383,7 @@ $$
 $$
 for every prime ideal $r$ of $A \otimes_k B$ by Remark 1.
 
-Prove now $b)$. Let $r_0$ be a minimal prime ideal of $A \otimes_k B$ contained in $r$, and denote by $p_0$ (resp. $q_0$) the inverse image of $r_0$ in $A$ (resp. $B$). The ring
+Prove now b). Let $r_0$ be a minimal prime ideal of $A \otimes_k B$ contained in $r$, and denote by $p_0$ (resp. $q_0$) the inverse image of $r_0$ in $A$ (resp. $B$). The ring
 
 (A \otimes_k B)/r_0 is isomorphic to a quotient of the ring (A/p_0) \otimes_k (B/q_0). We have therefore, by $a$,
 

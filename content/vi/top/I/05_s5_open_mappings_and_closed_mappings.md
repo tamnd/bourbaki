@@ -28,9 +28,9 @@ subsections:
       pdf_page: 62
 statements: 19
 exercises: 7
-content_sha256: cd1a72e383169b998fb5d95dff891964f3f3863d9a2324efc6b219eba0719471
+content_sha256: 20a04c3c76a8fb7649c034520a683c784ed58c75bb56494f41b988a65fffbafd
 translated_from: content/en/top/I/05_s5_open_mappings_and_closed_mappings.md
-source_content_sha256: 4bd44bbdc7549036da9b797314f4f397254ee681b4ed5c187bdeceb598f632df
+source_content_sha256: 11521c20fdafc2a28ae1fe99f2ad238394f02d44313e71c97ba6893b7ec4f268
 translation_model: gpt-5.4
 translation_run: translate-vi-c488f15b
 glossary_version: 34
@@ -86,7 +86,7 @@ b) *Cho $(T(i))_{i \in I}$ là một họ các tập con của $Y$ mà các ph�
 
 a) Nếu $A$ là một tập con mở (tương ứng, đóng) của $f^{-1}(T)$, thì tồn tại một tập con mở (tương ứng, đóng) $B$ của $X$ sao cho $A = B \cap f^{-1}(T)$, và do đó f_T(A) = f(B) \cap T; theo giả thiết, $f(B)$ là mở (tương ứng, đóng), nên $f_T(A)$ là mở (tương ứng, đóng) trong $T$.
 
-$b)$ Cho $B$ là một tập con mở (tương ứng, đóng) của $X$, và ký hiệu $B_i$ là $B \cap f^{-1}(T(i))$; khi đó $f(B) \cap T(i) = f_{T(i)}(B_i)$. Vì $f_{T(i)}(B_i)$ là mở (tương ứng, đóng) trong $T(i)$ theo giả thiết, suy ra $f(B)$ là mở (tương ứng, đóng) trong $Y$, theo Mệnh đề 3 của § 3, no. 1.
+b) Cho $B$ là một tập con mở (tương ứng, đóng) của $X$, và ký hiệu $B_i$ là $B \cap f^{-1}(T(i))$; khi đó $f(B) \cap T(i) = f_{T(i)}(B_i)$. Vì $f_{T(i)}(B_i)$ là mở (tương ứng, đóng) trong $T(i)$ theo giả thiết, suy ra $f(B)$ là mở (tương ứng, đóng) trong $Y$, theo Mệnh đề 3 của § 3, no. 1.
 
 #### Hệ quả {#top-i-s5-n1-cor-1 .statement}
 

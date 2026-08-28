@@ -30,9 +30,9 @@ subsections:
       pdf_page: 48
 statements: 0
 exercises: 8
-content_sha256: e6e77e1333f4247f8a64a9395143f6605faf2cfbac59f0471cbd301bc4594104
+content_sha256: 624620524dc56562f360419349b801cb616480461522f91e89d9e1d2284ab7ef
 translated_from: content/en/ens/I/04_s4_quantified_theories.md
-source_content_sha256: 925e2bcab4be745aed7f8144472e31fbff6ba56d97432fbf6fd6794efb7b351c
+source_content_sha256: 07568a80b2b793e5dd22b88d7dc9caf03ded631f676da9f844c975c64e8b5a2c
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-c460cede
 glossary_version: 34
@@ -161,7 +161,7 @@ $$
 
 Đủ để chứng minh các tiêu chuẩn này trong $\mathscr{T}_0$, trong đó $x$ không phải là một hằng. Nếu $(\forall x)(R\text{ và }S)$ là đúng, thì “$R$ và $S$” là đúng, và do đó mỗi quan hệ $R$, $S$ là đúng. Do đó mỗi quan hệ $(\forall x)R$, $(\forall x)S$ là đúng, và suy ra “$(\forall x)R$ và $(\forall x)S$” là đúng. Tương tự, ta chứng minh rằng nếu “$(\forall x)R$ và $(\forall x)S$” là đúng, thì $(\forall x)(R\text{ và }S)$ là đúng. Suy ra định lý thứ nhất. Định lý thứ hai suy ra bằng cách áp dụng C29.
 
-Cần lưu ý rằng nếu $(\forall x) (R$ or $S)$ là một định lý trong $\mathscr{T}$, ta không thể kết luận rằng $((\forall x)R$ or $(\forall x)S)$ là một định lý trong $\mathscr{T}$. Về trực giác, nói rằng quan hệ $(\forall x) (R$ or $S)$ là đúng có nghĩa là với mỗi đối tượng $x$, ít nhất một trong các quan hệ $R$, $S$ là đúng; nhưng nói chung chỉ một trong hai quan hệ sẽ đúng, và việc đó là $R$ hay $S$ sẽ phụ thuộc vào lựa chọn của $x$. Tương tự, nếu $((\forall x)R$ and $(\exists x)S)$ là một định lý trong $\mathscr{T}$, ta không thể kết luận rằng $(\exists x)(R$ and $S)$ là một định lý trong $\mathscr{T}$. Tuy nhiên, có tiêu chuẩn sau:
+Cần lưu ý rằng nếu $(\forall x) (R$ or S) là một định lý trong $\mathscr{T}$, ta không thể kết luận rằng $((\forall x)R$ or $(\forall x)S)$ là một định lý trong $\mathscr{T}$. Về trực giác, nói rằng quan hệ $(\forall x) (R$ or S) là đúng có nghĩa là với mỗi đối tượng $x$, ít nhất một trong các quan hệ $R$, $S$ là đúng; nhưng nói chung chỉ một trong hai quan hệ sẽ đúng, và việc đó là $R$ hay $S$ sẽ phụ thuộc vào lựa chọn của $x$. Tương tự, nếu $((\forall x)R$ and $(\exists x)S)$ là một định lý trong $\mathscr{T}$, ta không thể kết luận rằng $(\exists x)(R$ and S) là một định lý trong $\mathscr{T}$. Tuy nhiên, có tiêu chuẩn sau:
 
 C33. *Cho $R$ và $S$ là các quan hệ trong $\mathscr{T}$, và cho $x$ là một chữ không xuất hiện trong $R$. Khi đó các quan hệ*
 
@@ -170,11 +170,11 @@ $$(\exists x)(R \text{ và } S) \iff (R \text{ và } (\exists x)S)$$
 
 *là các định lý trong $\mathscr{T}$.*
 
-Chỉ cần thiết lập tiêu chuẩn trong $\mathscr{T}_0$, trong đó $x$ không phải là một hằng. Gọi $\mathscr{T}'$ là lý thuyết thu được bằng cách thêm $(\forall x)(R$ or $S)$ vào các tiên đề của $\mathscr{T}_0$. Trong $\mathscr{T}'$, "$R$ or $S$", và do đó (not $R$) $\Rightarrow S$, là các định lý. Nếu "not $R$" là đúng (một giả thiết trong đó $x$ không xuất hiện), thì $S$ và do đó cả $(\forall x)S$ cũng đúng. Do đó
+Chỉ cần thiết lập tiêu chuẩn trong $\mathscr{T}_0$, trong đó $x$ không phải là một hằng. Gọi $\mathscr{T}'$ là lý thuyết thu được bằng cách thêm $(\forall x)(R$ or S) vào các tiên đề của $\mathscr{T}_0$. Trong $\mathscr{T}'$, "$R$ or $S$", và do đó (not $R$) $\Rightarrow S$, là các định lý. Nếu "not $R$" là đúng (một giả thiết trong đó $x$ không xuất hiện), thì $S$ và do đó cả $(\forall x)S$ cũng đúng. Do đó
 
 $$(\text{không } R) \Rightarrow (\forall x)S$$
 
-là một định lý trong $\mathscr{T}'$, và do đó $(\forall x)(R$ hoặc $S) \Rightarrow (R$ hoặc $(\forall x)S)$ là một định lý trong $\mathscr{T}_0$. Tương tự, nếu "$R$ hoặc $(\forall x)S$" là đúng, thì "$R$ hoặc $S$" và do đó $(\forall x)(R$ hoặc $S)$ là đúng. Do đó
+là một định lý trong $\mathscr{T}'$, và do đó $(\forall x)(R$ hoặc $S) \Rightarrow (R$ hoặc $(\forall x)S)$ là một định lý trong $\mathscr{T}_0$. Tương tự, nếu "$R$ hoặc $(\forall x)S$" là đúng, thì "$R$ hoặc $S$" và do đó $(\forall x)(R$ hoặc S) là đúng. Do đó
 
 $$(R \text{ hoặc } (\forall x)S) \Rightarrow (\forall x)(R \text{ hoặc } S)$$
 
@@ -194,7 +194,7 @@ Mặt khác, nếu $(\forall y)(\exists x)R$ là một định lý trong $\maths
 
 ### 4. CÁC LƯỢNG TỪ ĐIỂN HÌNH
 
-Cho $A$ và $R$ là các dãy ký hiệu và cho $x$ là một chữ cái. Ta ký hiệu dãy ký hiệu $(\exists x)(A$ và $R)$ bởi $(\exists_A x)R$, và dãy ký hiệu
+Cho $A$ và $R$ là các dãy ký hiệu và cho $x$ là một chữ cái. Ta ký hiệu dãy ký hiệu $(\exists x)(A$ và R) bởi $(\exists_A x)R$, và dãy ký hiệu
 
 $$\text{“không } (\exists_A x) \text{ (không } R)\text{”}$$
 

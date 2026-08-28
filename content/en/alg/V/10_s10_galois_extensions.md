@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: bb424b0fb2ae9f504120455a04488e0309edc0e44d61041d427cf30a9a80ec43
+content_sha256: 04a0e3e1b69842c09f7f728c2902f6049fba186df55774b462f62edfb7d791a9
 ---
 
 ## § 10. GALOIS EXTENSIONS
@@ -239,13 +239,13 @@ b) If $\Gamma$ is finite, then $\varphi$ is bijective and $V_0$ is a K-structure
 
 It is clear that $V_0$ is a vector sub-K-space of $V$.
 
-The formula $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ shows that the kernel $W$ of $\varphi$ is stable under the mappings $\sigma \otimes \mathrm{Id}_{V_0}$; by the Cor. to Prop. 6 there exists therefore a subspace $W_0$ of $V_0$ such that $W = N \otimes_K W_0$. If $x$ belongs to $W_0$ we then have $x = \varphi(1 \otimes x) = 0$, hence $W_0 = 0$ and so $W = 0$. This proves $a)$.
+The formula $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ shows that the kernel $W$ of $\varphi$ is stable under the mappings $\sigma \otimes \mathrm{Id}_{V_0}$; by the Cor. to Prop. 6 there exists therefore a subspace $W_0$ of $V_0$ such that $W = N \otimes_K W_0$. If $x$ belongs to $W_0$ we then have $x = \varphi(1 \otimes x) = 0$, hence $W_0 = 0$ and so $W = 0$. This proves a).
 
 Suppose now that $\Gamma$ is finite; we have to show that $\varphi$ is surjective, or equivalently that $V_0$ generates the vector N-space $V$. Thus let $f$ be an N-linear form on $V$ whose restriction to $V_0$ is zero. Let $x \in V$; for every $A \in N$ the element $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ of $V$ clearly belongs to $V_0$, whence $f(y,) = 0$, that is,
 $$
 \sum_{\sigma \in \Gamma} f(u_\sigma(x)) \sigma(A) = 0.
 $$
-By Dedekind's theorem (V, p. 27, Cor. 2) we thus have $f(u_\sigma(x)) = 0$ for each $\sigma \in \Gamma$; in particular, taking $\sigma = \varepsilon$ we find $f(x) = 0$, which means that $f = 0$. This proves $b)$.
+By Dedekind's theorem (V, p. 27, Cor. 2) we thus have $f(u_\sigma(x)) = 0$ for each $\sigma \in \Gamma$; in particular, taking $\sigma = \varepsilon$ we find $f(x) = 0$, which means that $f = 0$. This proves b).
 
 Let $M$ be a vector space over $N$; for each $\sigma \in \Gamma$ let $M^\sigma$ be the vector space over $N$ with the same underlying additive group as $M$, with the external law $(A, x) \mapsto \sigma(\lambda) x$. Write $V = \prod_{\sigma \in \Gamma} M^\sigma$; the underlying additive group of $V$ is that of all mappings of $\Gamma$ into $M$, with the external law defined by
 $$

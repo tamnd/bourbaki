@@ -37,9 +37,9 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: e36abd1812d0d83d2f06ad1bc2ca3cc7fef6f5e1ec28e839fa038055fbf1718b
+content_sha256: ec319df3d8eebfed5378248df658fff8852daa9d5fb56f1c7e042f467002e8cb
 translated_from: content/en/lie/IX/03_s3_compact_forms_of_complex_semi_simple.md
-source_content_sha256: d2af991f38e9e504f57a7cd19f5c382f7ebc4c745f78e8dd74f267d00f224a98
+source_content_sha256: 6271d1681696bbcba9661379ea2e719cf21e3d751a07ad4cac4ddcf3be65cb5b
 translation_model: gpt-5.4
 translation_run: translate-vi-ca8df590
 glossary_version: 34
@@ -65,13 +65,13 @@ $$
 
 #### Mệnh đề 1 {#lie-ix-s3-prop-1 .statement tag=01JF}
 
-$a)$ Cho $\mathfrak{g}$ là một dạng thực của $\mathfrak{a}$ và $\sigma$ là phép liên hợp của $\mathfrak{a}$ đối với $\mathfrak{g}$. Khi đó:
+a) Cho $\mathfrak{g}$ là một dạng thực của $\mathfrak{a}$ và $\sigma$ là phép liên hợp của $\mathfrak{a}$ đối với $\mathfrak{g}$. Khi đó:
 
 $\sigma^2=$ Id$_{\mathfrak{a}}, \sigma (\lambda x+\mu y) = \overline{\lambda \sigma}(x) + \overline{\mu\sigma}(y),[\sigma (x), \sigma (y)] =\sigma [x, y]$ (2)
 
 với $\lambda , \mu\in \mathbf{C},x, y\in \mathfrak{a}$. Một phần tử $x$ của $\mathfrak{a}$ thuộc $\mathfrak{g}$ khi và chỉ khi $\sigma (x) =x$.
 
-$b)$ Cho $\sigma :\mathfrak{a}\rightarrow \mathfrak{a}$ là một ánh xạ thỏa mãn (2). Khi đó tập hợp $\mathfrak{g}$ các điểm bất động của $\sigma$ là một dạng thực của $\mathfrak{a}$, và $\sigma$ là phép liên hợp của $\mathfrak{a}$ đối với $\mathfrak{g}$.
+b) Cho $\sigma :\mathfrak{a}\rightarrow \mathfrak{a}$ là một ánh xạ thỏa mãn (2). Khi đó tập hợp $\mathfrak{g}$ các điểm bất động của $\sigma$ là một dạng thực của $\mathfrak{a}$, và $\sigma$ là phép liên hợp của $\mathfrak{a}$ đối với $\mathfrak{g}$.
 
 Chứng minh là ngay lập tức.
 
@@ -101,13 +101,13 @@ $B(H, X_{\alpha}) = 0,B(X_{\alpha}, X_{\beta}) = 0$ nếu $\alpha +\beta \not= 0
 
 #### Mệnh đề 2 {#lie-ix-s3-prop-2 .statement tag=01JG}
 
-$a)$ Không gian con vectơ thực $\mathfrak{a}_0=\mathfrak{h}_0+\sum_{\alpha\in R}\mathbf{R}X_{\alpha}$ của $\mathfrak{a}$ là một
+a) Không gian con vectơ thực $\mathfrak{a}_0=\mathfrak{h}_0+\sum_{\alpha\in R}\mathbf{R}X_{\alpha}$ của $\mathfrak{a}$ là một
 
 dạng thực của $\mathfrak{a}$, trong đó $\mathfrak{h}_0$ là một đại số con Cartan. Cặp $(\mathfrak{a}_0,\mathfrak{h}_0)$ là một đại số Lie thực nửa đơn tách, trong đó $(X_{\alpha})$ là một hệ Chevalley.
 
-$b)$ Cho $\sigma$ là phép liên hợp của $\mathfrak{a}$ đối với $\mathfrak{a}_0$. Khi đó $\sigma \circ \theta =\theta \circ \sigma$. Tập hợp các điểm bất động của $\sigma \circ \theta$ là một dạng thực compắc $\mathfrak{a}_u$ của $\mathfrak{a}$, mà $i\mathfrak{h}_0$ là một đại số con Cartan của nó.
+b) Cho $\sigma$ là phép liên hợp của $\mathfrak{a}$ đối với $\mathfrak{a}_0$. Khi đó $\sigma \circ \theta =\theta \circ \sigma$. Tập hợp các điểm bất động của $\sigma \circ \theta$ là một dạng thực compắc $\mathfrak{a}_u$ của $\mathfrak{a}$, mà $i\mathfrak{h}_0$ là một đại số con Cartan của nó.
 
-Phần $a)$ suy ra ngay lập tức từ điều đi trước. Ta chứng minh $b)$. Vì $\sigma \circ \theta$ và $\theta \circ \sigma$ là hai ánh xạ nửa tuyến tính từ $\mathfrak{a}$ vào $\mathfrak{a}$ trùng nhau trên $\mathfrak{a}_0$, nên chúng trùng nhau. Bây giờ $\sigma \circ \theta$ thỏa mãn các điều kiện (2) của no. 1, do đó là phép liên hợp của $\mathfrak{a}$ đối với dạng thực $\mathfrak{a}_u$ gồm các $x\in \mathfrak{a}$ sao cho $\sigma \circ \theta (x) =x$ (Mệnh đề 1). Với mọi $\alpha \in R$ đặt
+Phần a) suy ra ngay lập tức từ điều đi trước. Ta chứng minh b). Vì $\sigma \circ \theta$ và $\theta \circ \sigma$ là hai ánh xạ nửa tuyến tính từ $\mathfrak{a}$ vào $\mathfrak{a}$ trùng nhau trên $\mathfrak{a}_0$, nên chúng trùng nhau. Bây giờ $\sigma \circ \theta$ thỏa mãn các điều kiện (2) của no. 1, do đó là phép liên hợp của $\mathfrak{a}$ đối với dạng thực $\mathfrak{a}_u$ gồm các $x\in \mathfrak{a}$ sao cho $\sigma \circ \theta (x) =x$ (Mệnh đề 1). Với mọi $\alpha \in R$ đặt
 
 $$
 u_{\alpha}=X_{\alpha}+X_{-\alpha},v_{\alpha}=i(X_{\alpha}-X_{-\alpha}) \tag{6}
@@ -191,7 +191,7 @@ a$)\mathfrak{a}$ có các dạng thực compact (tương ứng phân rã).
 
 b) Nhóm Int($\mathfrak{a}$) tác động bắc cầu trên tập hợp các dạng thực compact (tương ứng phân rã) của $\mathfrak{a}$.
 
-Cho $\mathfrak{h}$ là một đại số con Cartan của $\mathfrak{a}$. Khi đó $(\mathfrak{a},\mathfrak{h})$ là tách (Chương VIII, §2, no. 1, Nhận xét 2), và có một hệ Chevalley $(X_{\alpha})$ (Chương VIII, §4, no. 4, Hệ quả của Mệnh đề 5). Phần $a)$ bây giờ suy ra từ Mệnh đề 2. Cho $\mathfrak{g}$ là một dạng thực compact của $\mathfrak{a}$; ta sẽ chứng minh rằng tồn tại $v\in$ Int($\mathfrak{a}$) sao cho $v(\mathfrak{a}_u) =\mathfrak{g}$. Cho $\mathfrak{t}$ là một đại số con Cartan của $\mathfrak{g}$; khi đó $\mathfrak{t}_{(\mathbf{C})}$ là một đại số con Cartan của $\mathfrak{a}$; vì Int($\mathfrak{a}$) tác động bắc cầu trên tập hợp các đại số con Cartan của $\mathfrak{a}$ (Chương VII, §3, no. 2, Định lý 1), ta được đưa về trường hợp $\mathfrak{t}_{(\mathbf{C})}=\mathfrak{h}$. Vì $\mathfrak{g}$ là một dạng compact, các giá trị riêng của các nội cấu ad $h$, với $h\in \mathfrak{t}$, là thuần ảo (§1, no. 3, Mệnh đề 1), nên các căn $\alpha \in R$ ánh xạ $\mathfrak{t}$ vào $i\mathbf{R}$; điều này kéo theo $\mathfrak{t}=i\mathfrak{h}_0$. Khi đó, theo Mệnh đề 3 (no. 2), tồn tại $v\in$ Int($\mathfrak{a}$) sao cho $v(\mathfrak{a}_u) =\mathfrak{g}$, do đó có $b)$ trong trường hợp các dạng compact. Cuối cùng, cho $\mathfrak{m}_1$ và $\mathfrak{m}_2$ là hai dạng thực khả phân của $\mathfrak{a}$. Tồn tại các repère $(\mathfrak{m}_1,\mathfrak{h}_1,B_1,(X_{\alpha}^1))$ và $(\mathfrak{m}_2,\mathfrak{h}_2,B_2,(X_{\alpha}^2))$ (Chương VIII, §4, no. 1). Chúng mở rộng một cách hiển nhiên thành các cơ sở $e_1$ và $e_2$ của $\mathfrak{a}$. Một tự đẳng cấu của $\mathfrak{a}$ ánh xạ $e_1$ lên $e_2$ sẽ ánh xạ $\mathfrak{m}_1$ lên $\mathfrak{m}_2$; vì thế, chỉ cần áp dụng Mệnh đề 5 của Chương VIII, §5, no. 3, để thu được sự tồn tại của một phần tử $u$ của Aut$_0(\mathfrak{a}) =$ Int($\mathfrak{a}$) sao cho $u(\mathfrak{m}_1) =\mathfrak{m}_2$.
+Cho $\mathfrak{h}$ là một đại số con Cartan của $\mathfrak{a}$. Khi đó $(\mathfrak{a},\mathfrak{h})$ là tách (Chương VIII, §2, no. 1, Nhận xét 2), và có một hệ Chevalley $(X_{\alpha})$ (Chương VIII, §4, no. 4, Hệ quả của Mệnh đề 5). Phần a) bây giờ suy ra từ Mệnh đề 2. Cho $\mathfrak{g}$ là một dạng thực compact của $\mathfrak{a}$; ta sẽ chứng minh rằng tồn tại $v\in$ Int($\mathfrak{a}$) sao cho $v(\mathfrak{a}_u) =\mathfrak{g}$. Cho $\mathfrak{t}$ là một đại số con Cartan của $\mathfrak{g}$; khi đó $\mathfrak{t}_{(\mathbf{C})}$ là một đại số con Cartan của $\mathfrak{a}$; vì Int($\mathfrak{a}$) tác động bắc cầu trên tập hợp các đại số con Cartan của $\mathfrak{a}$ (Chương VII, §3, no. 2, Định lý 1), ta được đưa về trường hợp $\mathfrak{t}_{(\mathbf{C})}=\mathfrak{h}$. Vì $\mathfrak{g}$ là một dạng compact, các giá trị riêng của các nội cấu ad $h$, với $h\in \mathfrak{t}$, là thuần ảo (§1, no. 3, Mệnh đề 1), nên các căn $\alpha \in R$ ánh xạ $\mathfrak{t}$ vào $i\mathbf{R}$; điều này kéo theo $\mathfrak{t}=i\mathfrak{h}_0$. Khi đó, theo Mệnh đề 3 (no. 2), tồn tại $v\in$ Int($\mathfrak{a}$) sao cho $v(\mathfrak{a}_u) =\mathfrak{g}$, do đó có b) trong trường hợp các dạng compact. Cuối cùng, cho $\mathfrak{m}_1$ và $\mathfrak{m}_2$ là hai dạng thực khả phân của $\mathfrak{a}$. Tồn tại các repère $(\mathfrak{m}_1,\mathfrak{h}_1,B_1,(X_{\alpha}^1))$ và $(\mathfrak{m}_2,\mathfrak{h}_2,B_2,(X_{\alpha}^2))$ (Chương VIII, §4, no. 1). Chúng mở rộng một cách hiển nhiên thành các cơ sở $e_1$ và $e_2$ của $\mathfrak{a}$. Một tự đẳng cấu của $\mathfrak{a}$ ánh xạ $e_1$ lên $e_2$ sẽ ánh xạ $\mathfrak{m}_1$ lên $\mathfrak{m}_2$; vì thế, chỉ cần áp dụng Mệnh đề 5 của Chương VIII, §5, no. 3, để thu được sự tồn tại của một phần tử $u$ của Aut$_0(\mathfrak{a}) =$ Int($\mathfrak{a}$) sao cho $u(\mathfrak{m}_1) =\mathfrak{m}_2$.
 
 #### Nhận xét {#lie-ix-s3-n3-rem-1 .statement tag=01B5}
 

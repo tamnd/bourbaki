@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: 0eaa05a0b24a70005dc662566fd46b522e63527cbed27a5495cf7f4d12cfff1b
+content_sha256: be677066476dbf3cf8384795015568903ee9136525b4cf0d48570cf43694b42c
 translated_from: content/en/int/II/01_s1_riesz_spaces_and_fully_lattice_ordered.md
 source_content_sha256: 1c5b35994e63e08eefdec012225c55b7a20f08890336b7db13ea7edf2feca562
 translation_model: gpt-5.4
@@ -153,8 +153,8 @@ P + P ⊂ P và λP ⊂ P với mọi λ > 0. Ngược lại, nếu trong một 
 $1^\circ$ P sinh ra E, nghĩa là, mọi $z \in E$ đều có dạng $y - x$, trong đó x và y thuộc P;
 
 $2^\circ$ P thỏa mãn một trong hai điều kiện sau đây:
-$a)$ mọi cặp phần tử của P đều có một cận trên đúng trong P;
-$b)$ mọi cặp phần tử của P đều có một cận dưới đúng trong P (A, VI, §1, No. 9, Mệnh đề 8).
+a) mọi cặp phần tử của P đều có một cận trên đúng trong P;
+b) mọi cặp phần tử của P đều có một cận dưới đúng trong P (A, VI, §1, No. 9, Mệnh đề 8).
 
 ### 3. Không gian được sắp thứ tự đầy đủ theo dàn
 
@@ -174,7 +174,7 @@ Ngay lập tức thấy rằng trong một không gian được sắp thứ tự
 
 *Để một không gian vectơ có thứ tự E được sắp thứ tự dàn đầy đủ, điều kiện cần và đủ là E là một không gian Riesz và thỏa mãn một trong hai điều kiện sau đây:*
 
-$a)$ *mọi tập con khác rỗng A, gồm các phần tử $\geq 0$ của E, bị chặn trên và có hướng đối với quan hệ $\leq$, đều có một cận trên đúng trong E;*
+a) *mọi tập con khác rỗng A, gồm các phần tử $\geq 0$ của E, bị chặn trên và có hướng đối với quan hệ $\leq$, đều có một cận trên đúng trong E;*
 
 b) *mọi tập con khác rỗng* $A$, *gồm các phần tử* $\geqslant 0$ *của* $E$ *và có hướng đối với quan hệ* $\geqslant$, *đều có một cận dưới đúng trong* $E$.
 

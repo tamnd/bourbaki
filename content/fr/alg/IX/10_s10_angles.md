@@ -28,7 +28,7 @@ subsections:
       pdf_page: 171
 statements: 31
 exercises: 0
-content_sha256: 62d1dda77044fe22220036ce5d238ea991c63ff24fe48896a684d10742560f77
+content_sha256: 0b84a77cc13c427d65a3661f23bd3ba63c6c888b0221377a85fb74aed39e12a6
 ---
 
 ## § 10. Angles
@@ -162,7 +162,7 @@ t(\varphi + \varphi') = (t(\varphi) + t(\varphi'))/(1 + \delta t(\varphi)t(\varp
 $$
 lorsque $t(\varphi)$ et $t(\varphi')$ sont finis et que $1 + t(\varphi)t(\varphi')$ est $\neq 0$.
 
-En effet, comme $S^+/H$ est un ensemble de droites (privées de 0) de $A(\Phi)$ considéré comme plan vectoriel sur $A$, $t$ est injective. D’autre part, pour qu’un élément $a + b\omega$ ($a \in A, b \in A$) de $A(\Phi)$ soit une similitude directe, il faut et il suffit qu’il soit inversible, c’est-à-dire que l’on ait $N(a + b\omega) = a^2 - \delta b^2 \neq 0$, ou encore $(b/a)^2 \neq 1/\delta$; ceci démontre les assertions de surjectivité dans $a)$ et $b)$. Enfin le produit des similitudes $1 + t(\varphi)\omega$ et $1 + t(\varphi')\omega$ est la similitude $1 + \delta t(\varphi)t(\varphi') + (t(\varphi) + t(\varphi'))\omega$, ce qui démontre $c)$.
+En effet, comme $S^+/H$ est un ensemble de droites (privées de 0) de $A(\Phi)$ considéré comme plan vectoriel sur $A$, $t$ est injective. D’autre part, pour qu’un élément $a + b\omega$ ($a \in A, b \in A$) de $A(\Phi)$ soit une similitude directe, il faut et il suffit qu’il soit inversible, c’est-à-dire que l’on ait $N(a + b\omega) = a^2 - \delta b^2 \neq 0$, ou encore $(b/a)^2 \neq 1/\delta$; ceci démontre les assertions de surjectivité dans a) et b). Enfin le produit des similitudes $1 + t(\varphi)\omega$ et $1 + t(\varphi')\omega$ est la similitude $1 + \delta t(\varphi)t(\varphi') + (t(\varphi) + t(\varphi'))\omega$, ce qui démontre c).
 
 #### Proposition 5 {#alg-ix-s10-prop-5 .statement}
 

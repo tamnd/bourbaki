@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: c0d7c8b724352f8b0f88aedc95fe9241b73de923d6f20ae8f8560d6971352e3d
+content_sha256: a6c9b85a1d35e79e683f7533b64cee18a37c243923fadc9dcf9eea771dd32bda
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -305,13 +305,13 @@ on a alors $Q(\sum a_i x_i) = \sum_{\{i, j\}} b_{ij} a_i a_j$. En déduire une n
 
 ¶ 7) Soient $A$ un anneau commutatif, $E, F$ deux $A$-modules. On dit qu’une application $Q$ de $E$ dans $F$ est *quadratique* si elle satisfait aux conditions suivantes : $1^\circ$ $Q(\alpha x) = \alpha^2 Q(x)$ pour $\alpha \in A, x \in E$; $2^\circ$ l’application $(x, y) \to Q(x + y) - Q(x) - Q(y)$ de $E \times E$ dans $F$ est bilinéaire. Si $f$ est une application linéaire d’un $A$-module $E_1$ dans $E$, $Q \circ f$ est une application quadratique de $E_1$ dans $F$.
 
-$a)$ Soient $E$ un $A$-module, $A^{(E)}$ le module des combinaisons linéaires formelles des éléments de $E$ à coefficients dans $A$ (chap. II, § 1, no 8), et pour tout $x \in E$, soit $\varepsilon_x$ l’élément correspondant de la base canonique de $A^{(E)}$. Soit $\Gamma^2(E)$ le quotient de $A^{(E)} \times (E \otimes_A E)$ par le sous-module $R$ engendré par les éléments $(\varepsilon_{x+y} - \varepsilon_x - \varepsilon_y, -x \otimes y)$ et $(\varepsilon_{\lambda x} - \lambda^2 \varepsilon_x, 0)$, pour $x \in E, y \in E, \lambda \in A$. Pour tout $x \in E$, on pose $\gamma(x) = \varphi(\varepsilon_x, 0)$, en désignant par $\varphi$ l’application canonique de $A^{(E)} \times (E \otimes E)$ sur $\Gamma^2(E)$; on dit que $\gamma$ est l'*application canonique* de $E$ dans $\Gamma^2(E)$. Montrer que $\gamma$ est une application quadratique de $E$ dans $\Gamma^2(E)$ et que, pour toute application quadratique $Q$ de $E$ dans un $A$-module $F$, il existe une application *linéaire* et une seule $q$ de $\Gamma^2(E)$ dans $F$ telle que $Q = q \circ \gamma$ (en d’autres termes, $(\Gamma^2(E), \gamma)$ est solution d’un problème d’application universelle ; cf. *Ens.*, chap. IV, § 3).
+a) Soient $E$ un $A$-module, $A^{(E)}$ le module des combinaisons linéaires formelles des éléments de $E$ à coefficients dans $A$ (chap. II, § 1, no 8), et pour tout $x \in E$, soit $\varepsilon_x$ l’élément correspondant de la base canonique de $A^{(E)}$. Soit $\Gamma^2(E)$ le quotient de $A^{(E)} \times (E \otimes_A E)$ par le sous-module $R$ engendré par les éléments $(\varepsilon_{x+y} - \varepsilon_x - \varepsilon_y, -x \otimes y)$ et $(\varepsilon_{\lambda x} - \lambda^2 \varepsilon_x, 0)$, pour $x \in E, y \in E, \lambda \in A$. Pour tout $x \in E$, on pose $\gamma(x) = \varphi(\varepsilon_x, 0)$, en désignant par $\varphi$ l’application canonique de $A^{(E)} \times (E \otimes E)$ sur $\Gamma^2(E)$; on dit que $\gamma$ est l'*application canonique* de $E$ dans $\Gamma^2(E)$. Montrer que $\gamma$ est une application quadratique de $E$ dans $\Gamma^2(E)$ et que, pour toute application quadratique $Q$ de $E$ dans un $A$-module $F$, il existe une application *linéaire* et une seule $q$ de $\Gamma^2(E)$ dans $F$ telle que $Q = q \circ \gamma$ (en d’autres termes, $(\Gamma^2(E), \gamma)$ est solution d’un problème d’application universelle ; cf. *Ens.*, chap. IV, § 3).
 
 Pour tout couple de $A$-modules $E, E'$ et toute application linéaire $f$ de $E$ dans $E'$, montrer que, si $\gamma'$ désigne l’application canonique de $E'$ dans $\Gamma^2(E')$, il existe une et une seule application linéaire $\bar{f}$ de $\Gamma^2(E)$ dans $\Gamma^2(E')$ telle que $\gamma' \circ f = \bar{f} \circ \gamma$.
 
-$b)$ On suppose que $E$ est somme directe de deux sous-modules $M, N$. Définir un isomorphisme canonique de $\Gamma^2(E)$ sur la somme directe des modules $\Gamma^2(M), \Gamma^2(N)$ et $M \otimes N$ (montrer que cette somme directe est solution du même problème d’application universelle que $\Gamma^2(E)$).
+b) On suppose que $E$ est somme directe de deux sous-modules $M, N$. Définir un isomorphisme canonique de $\Gamma^2(E)$ sur la somme directe des modules $\Gamma^2(M), \Gamma^2(N)$ et $M \otimes N$ (montrer que cette somme directe est solution du même problème d’application universelle que $\Gamma^2(E)$).
 
-$c)$ Soient $F$ un sous-module de $E$, $j$ l’injection canonique de $F$ dans $E$. Définir un isomorphisme canonique de $\Gamma^2(E/F)$ sur
+c) Soient $F$ un sous-module de $E$, $j$ l’injection canonique de $F$ dans $E$. Définir un isomorphisme canonique de $\Gamma^2(E/F)$ sur
 
 $$
 \Gamma^2(E)/(\bar{j}(\Gamma^2(F)) + \psi(E \times F)),
@@ -319,9 +319,9 @@ $$
 
 où $\psi(x, y) = \varphi(0, x \otimes j(y))$ pour $x \in E, y \in F$. (Même méthode).
 
-$d)$ Soient $A'$ un anneau commutatif, $h$ un homomorphisme de $A$ dans $A'$. Définir un isomorphisme canonique de $\Gamma^2(A' \otimes_A E)$ sur $A' \otimes_A \Gamma^2(E)$ (même méthode).
+d) Soient $A'$ un anneau commutatif, $h$ un homomorphisme de $A$ dans $A'$. Définir un isomorphisme canonique de $\Gamma^2(A' \otimes_A E)$ sur $A' \otimes_A \Gamma^2(E)$ (même méthode).
 
-$e)$ Il existe une application linéaire et une seule $s$ de $\Gamma^2(E)$ dans $E \otimes E$ telle que $s(\gamma(x)) = x \otimes x$ pour tout $x \in E$; montrer que si $E$ est un module libre, s est un isomorphisme sur le sous-module des tenseurs symétriques d’ordre 2 sur E.
+e) Il existe une application linéaire et une seule $s$ de $\Gamma^2(E)$ dans $E \otimes E$ telle que $s(\gamma(x)) = x \otimes x$ pour tout $x \in E$; montrer que si $E$ est un module libre, s est un isomorphisme sur le sous-module des tenseurs symétriques d’ordre 2 sur E.
 
 f) On suppose que $A = \mathbf{Z}$ et que E est un groupe cyclique fini d’ordre n. Montrer que $\Gamma^2(E)$ est un groupe cyclique d’ordre n si n est impair, d’ordre $2n$ si n est pair. (Remarquer d’abord que si a est un générateur de E, $\gamma(a)$ est un générateur de $\Gamma^2(E)$, et que $\gamma(-ha) = \gamma(ha)$ pour tout entier h ; déduire de là que si n est impair, $n\gamma(a) = 0$ en prenant $h = (n-1)/2$; montrer de même que $2n\gamma(a) = 0$ si n est pair. Prouver enfin que si n est impair (resp. pair), il existe une application quadratique Q de E dans un groupe cyclique d’ordre n (resp. $2n$) appliquant a sur un générateur de ce groupe).
 

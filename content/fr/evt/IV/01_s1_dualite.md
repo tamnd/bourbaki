@@ -32,7 +32,7 @@ subsections:
       pdf_page: 197
 statements: 37
 exercises: 15
-content_sha256: f80dff3a3050a781f0f70f941f94f7ab3a2bbce94e05271d6811d9ceeaf4c457
+content_sha256: 186722ef637cedee684a2c29fed403224ce2a5d82af1e169a07b6d8298a78f1b
 ---
 
 ## § 1. DUALITÉ
@@ -204,7 +204,7 @@ Remarquons d’abord que la topologie de Mackey de $E$ est identique à la topol
 
 Supposons $E$ bornologique, et soit $V$ un voisinage convexe et équilibré de 0 dans $E$ pour la topologie $\tau(E, E')$. Soit $B$ une partie de $E$ bornée pour la topologie initiale. Comme $B$ est bornée pour la topologie de Mackey, $V$ absorbe $B$, et comme $E$ est bornologique, $V$ est un voisinage de 0 pour la topologie initiale.
 
-Dans le cas $c)$, l’espace $E$ est bornologique (III, p. 12, prop. 2).
+Dans le cas c), l’espace $E$ est bornologique (III, p. 12, prop. 2).
 
 ### 3. Transposée d’une application linéaire continue
 

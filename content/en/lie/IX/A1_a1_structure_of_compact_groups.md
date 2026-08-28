@@ -26,7 +26,7 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: 64ab48477612464d09be52483d3c37fef377ffe8341eda5273211213f4a90e0f
+content_sha256: 5e7319fca99d12df0397567af8fdb7c23d7ffbc97775400d0463c84a608eb608
 ---
 
 ## APPENDIX I
@@ -75,7 +75,7 @@ b) We have D(G) = lim$_{_{\leftarrow -}\alpha}\overline{D(G_{\alpha})}$ and C(G)
 
 c) If $G_{\alpha}$ is compact for all $\alpha \in I$, then $C(G)_0=$ lim$_{_{\leftarrow -}\alpha}C(G_{\alpha})_0$.
 
-Let $\alpha , \beta$ be two elements of I, with $\alpha \leq \beta$. Then $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$, and $f_{\alpha \beta}(C(G_{\beta}))\subset C(G_{\alpha})$ since $f_{\alpha \beta}$ is surjective; since $f_{\alpha \beta}$ is continuous, it follows that $f_{\alpha \beta}(\overline{D(G_{\beta})})\subset \overline{D(G_{\alpha})}$ and $f_{\alpha \beta}(C(G_{\beta})_0)\subset C(G_{\alpha})_0$, hence $a)$. Since $f_{\alpha}$ is surjective, $f_{\alpha}(D(G)) = D(G_{\alpha})$ (Algebra, Chap. I, §6, no. 2, Prop. 6), so $\overline{D(G)}=$ lim$_{\leftarrow -}\overline{D(G_{\alpha})}$ (General Topology, Chap. I, §4, no. 4, Cor. of Prop. 9). The surjectivity of $f_{\alpha}$ also implies the inclusion $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ and hence $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; the opposite inclusion is immediate. Finally, assertion $c)$ follows from $b)$ and General Topology, Chap. III, §7, no. 2, Prop. 4).
+Let $\alpha , \beta$ be two elements of I, with $\alpha \leq \beta$. Then $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$, and $f_{\alpha \beta}(C(G_{\beta}))\subset C(G_{\alpha})$ since $f_{\alpha \beta}$ is surjective; since $f_{\alpha \beta}$ is continuous, it follows that $f_{\alpha \beta}(\overline{D(G_{\beta})})\subset \overline{D(G_{\alpha})}$ and $f_{\alpha \beta}(C(G_{\beta})_0)\subset C(G_{\alpha})_0$, hence a). Since $f_{\alpha}$ is surjective, $f_{\alpha}(D(G)) = D(G_{\alpha})$ (Algebra, Chap. I, §6, no. 2, Prop. 6), so $\overline{D(G)}=$ lim$_{\leftarrow -}\overline{D(G_{\alpha})}$ (General Topology, Chap. I, §4, no. 4, Cor. of Prop. 9). The surjectivity of $f_{\alpha}$ also implies the inclusion $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ and hence $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; the opposite inclusion is immediate. Finally, assertion c) follows from b) and General Topology, Chap. III, §7, no. 2, Prop. 4).
 
 #### Lemma 2 {#lie-ix-a1-lem-2 .statement tag=01IN}
 
@@ -137,15 +137,15 @@ which is surjective (General Topology, Chap. I, §9, no. 6, Cor. 2 of Prop. 8).
 
 Now observe that the group $\prod_{\lambda\in L}S_{\lambda}$ is equal to its derived group: this
 
-follows from §4, no. 5, Cor. of Prop. 10. The same is true for D(G), since $\pi$ is surjective. Consequently, $D(G)\supset D(D(G)) = D(G)$. Thus, the group D(G) is compact and equal to its derived group; this proves $a)$, since the assertions concerning $C(G)_0$ are trivial.
+follows from §4, no. 5, Cor. of Prop. 10. The same is true for D(G), since $\pi$ is surjective. Consequently, $D(G)\supset D(D(G)) = D(G)$. Thus, the group D(G) is compact and equal to its derived group; this proves a), since the assertions concerning $C(G)_0$ are trivial.
 
 On the other hand, the kernel of $\pi :\prod_{\lambda\in L}S_{\lambda}\rightarrow D(G)$ can be identified
 
 with lim$_{\leftarrow -}$ Ker($\pi_{\alpha}$) $($Algebra, Chap. II, §6, no. 1, Remark 1), and thus with a
 
-compact, totally discontinuous, central subgroup, hence $c)$.
+compact, totally discontinuous, central subgroup, hence c).
 
-We prove $b)$. For all $\alpha$ in I, the morphism $s_{\alpha}: C(G_{\alpha})_0\times D(G_{\alpha})\rightarrow G_{\alpha}$ such that $s_{\alpha}(x, y) =xy$ for $x\in C(G_{\alpha})_0, y\in D(G_{\alpha})$, is surjective and its kernel is a finite central subgroup (§1, no. 4, Cor. 1 of Prop. 4). The $s_{\alpha}$ form a projective system of maps, whose limit can, by the preceding, be identified with the homomorphism $(x, y) \rightarrow xy$ from $C(G)_0\times D(G)$ to G. We now see as before that this map is surjective and that its kernel is central and totally discontinuous, hence $b)$.
+We prove b). For all $\alpha$ in I, the morphism $s_{\alpha}: C(G_{\alpha})_0\times D(G_{\alpha})\rightarrow G_{\alpha}$ such that $s_{\alpha}(x, y) =xy$ for $x\in C(G_{\alpha})_0, y\in D(G_{\alpha})$, is surjective and its kernel is a finite central subgroup (§1, no. 4, Cor. 1 of Prop. 4). The $s_{\alpha}$ form a projective system of maps, whose limit can, by the preceding, be identified with the homomorphism $(x, y) \rightarrow xy$ from $C(G)_0\times D(G)$ to G. We now see as before that this map is surjective and that its kernel is central and totally discontinuous, hence b).
 
 #### Corollary {#lie-ix-a1-n3-cor-1 .statement tag=01IQ}
 

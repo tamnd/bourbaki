@@ -36,7 +36,7 @@ subsections:
       pdf_page: 219
 statements: 26
 exercises: 10
-content_sha256: be713b3c3a50cf3d05db89ec2e044110f9d050f185218a8a1335557021a0bfc6
+content_sha256: 6db6deea12418d3fa86b34126c8c3657ff8130e1c66c8da83b2721dd4012f8c2
 ---
 
 ## § 7. Groupes de Lie sur un corps ultramétrique
@@ -308,7 +308,7 @@ d’où notre assertion. Posons $\psi(x) = \frac{1}{m} \varphi^{-1}(x^m)$. On a 
 $$
 \psi(x^n) = \frac{1}{m} \varphi^{-1}(x^{nm}) = \frac{n}{m} \varphi^{-1}(x^m) = n \psi(x).
 $$
-Donc $\psi$ possède les propriétés $a)$ et $b)$ de la proposition. Au voisinage de $x$, $\psi$ est composée des applications $x \mapsto x^m, y \mapsto \varphi^{-1}(y)$ et $z \mapsto \frac{1}{m} z$; donc $\psi$ est analytique dans $G_f$.
+Donc $\psi$ possède les propriétés a) et b) de la proposition. Au voisinage de $x$, $\psi$ est composée des applications $x \mapsto x^m, y \mapsto \varphi^{-1}(y)$ et $z \mapsto \frac{1}{m} z$; donc $\psi$ est analytique dans $G_f$.
 
 Enfin, soient $\psi'$ une application de $G_f$ dans $\mathrm{L}(G)$, et $V'$ un voisinage de $e$ dans $G_f$, tels que $\psi'(x^n) = n \psi'(x)$ pour $x \in G_f$ et $n \in \mathbf{Z}$, et tels que $\psi'|V'$ soit l’application réciproque d’une application exponentielle injective. Alors $\psi$ et $\psi'$ coïncident dans un voisinage $W$ de $e$. Si $x \in G_f$, il existe $n \in \mathbf{Z}$ tel que $x^n \in W$. Alors
 $$

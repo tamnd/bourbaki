@@ -41,9 +41,9 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 32d5dec4bca5382737d75cd64a51c422e13fc1cb54f637229e4155d0e09a5358
+content_sha256: 52d56aa3c5192aeb30ddad853ea861af6eb58a7bc2af166333f325daf5db84fe
 translated_from: content/en/lie/VIII/07_s7_finite_dimensional_modules_over_a_split.md
-source_content_sha256: 07b1f00fe3cea79efdf639a1f4947eddb8bebdd9fb3701734ea3bf156aa46bd8
+source_content_sha256: ed5e53f6a5d3e5a763b2ce062b4bcc72122e2012ef339cee5d3bb3a328b965ff
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5-6
 translation_run: translate-vi-e69c3a82
 glossary_version: 34
@@ -497,13 +497,13 @@ Cho E là một môđun đơn hữu hạn chiều của $\mathfrak{g}$, $\omega$
 
 (ii) Giả sử rằng $w_0(\omega ) =-\omega$. Khi đó $\mathscr{B}$ có chiều 1, và mọi phần tử khác không của $\mathscr{B}$ đều không suy biến. Nếu $m$ là chẵn (tương ứng lẻ), mọi phần tử của $\mathscr{B}$ đều đối xứng (tương ứng phản xứng).
 
-$a)$ Cho $\Phi \in \mathscr{B}$. Ánh xạ $\varphi$ từ E vào $E^*$ được xác định, với $x, y\in E$, bởi $\varphi (x)(y) =$ $\Phi (x, y)$ là một đồng cấu của các $\mathfrak{g}$-môđun. Nếu $\Phi \not= 0$, thì $\varphi \not= 0$, do đó $\varphi$ là một đẳng cấu theo Bổ đề Schur, và do đó $\Phi$ không suy biến. Do đó, môđun $\mathfrak{g}$ E là đẳng cấu với môđun $\mathfrak{g}$ $E^*$, sao cho $w_0(\omega ) =-\omega$. Như vậy ta đã chứng minh (i).
+a) Cho $\Phi \in \mathscr{B}$. Ánh xạ $\varphi$ từ E vào $E^*$ được xác định, với $x, y\in E$, bởi $\varphi (x)(y) =$ $\Phi (x, y)$ là một đồng cấu của các $\mathfrak{g}$-môđun. Nếu $\Phi \not= 0$, thì $\varphi \not= 0$, do đó $\varphi$ là một đẳng cấu theo Bổ đề Schur, và do đó $\Phi$ không suy biến. Do đó, môđun $\mathfrak{g}$ E là đẳng cấu với môđun $\mathfrak{g}$ $E^*$, sao cho $w_0(\omega ) =-\omega$. Như vậy ta đã chứng minh (i).
 
-$b)$ Từ đây giả sử rằng $w_0(\omega)=-\omega$. Khi đó E đẳng cấu với $E^*$. Không gian vectơ $\mathscr B$ đẳng cấu với $\operatorname{Hom}_{\mathfrak g}(E,E^*)$, và do đó với $\operatorname{Hom}_{\mathfrak g}(E,E)$ có chiều 1 (§6, no. 1, Mệnh đề 1 (iii)). Suy ra $\dim \mathscr B=1$. Mọi phần tử khác không $\Phi$ của $\mathscr B$ đều không suy biến theo a). Đặt $\Phi_1(x,y)=\Phi(y,x)$ với $x,y\in E$. Theo điều trên, tồn tại $\lambda\in k$ sao cho $\Phi_1(x,y)=\lambda\Phi(x,y)$ với mọi $x,y\in E$. Khi đó $\Phi(y,x)=\lambda\Phi(x,y)=\lambda^2\Phi(y,x)$, nên $\lambda^2=1$ và $\lambda=\pm1$. Do đó, $\Phi$ hoặc đối xứng hoặc phản xứng.
+b) Từ đây giả sử rằng $w_0(\omega)=-\omega$. Khi đó E đẳng cấu với $E^*$. Không gian vectơ $\mathscr B$ đẳng cấu với $\operatorname{Hom}_{\mathfrak g}(E,E^*)$, và do đó với $\operatorname{Hom}_{\mathfrak g}(E,E)$ có chiều 1 (§6, no. 1, Mệnh đề 1 (iii)). Suy ra $\dim \mathscr B=1$. Mọi phần tử khác không $\Phi$ của $\mathscr B$ đều không suy biến theo a). Đặt $\Phi_1(x,y)=\Phi(y,x)$ với $x,y\in E$. Theo điều trên, tồn tại $\lambda\in k$ sao cho $\Phi_1(x,y)=\lambda\Phi(x,y)$ với mọi $x,y\in E$. Khi đó $\Phi(y,x)=\lambda\Phi(x,y)=\lambda^2\Phi(y,x)$, nên $\lambda^2=1$ và $\lambda=\pm1$. Do đó, $\Phi$ hoặc đối xứng hoặc phản xứng.
 
-$c)$ Theo Chương VII, §1, no. 3, Mệnh đề 9 (v), $E^\lambda$ và $E^\mu$ là trực giao đối với $\Phi$ nếu $\lambda+\mu\ne0$. Vì $\Phi$ không suy biến, suy ra rằng $E^\omega,E^{-\omega}$ không trực giao đối với $\Phi$.
+c) Theo Chương VII, §1, no. 3, Mệnh đề 9 (v), $E^\lambda$ và $E^\mu$ là trực giao đối với $\Phi$ nếu $\lambda+\mu\ne0$. Vì $\Phi$ không suy biến, suy ra rằng $E^\omega,E^{-\omega}$ không trực giao đối với $\Phi$.
 
-$d)$ Tồn tại một đồng cấu $\varphi$ từ $\mathfrak{sl}(2,k)$ lên một đại số con của $\mathfrak g$ biến $H$ thành
+d) Tồn tại một đồng cấu $\varphi$ từ $\mathfrak{sl}(2,k)$ lên một đại số con của $\mathfrak g$ biến $H$ thành
 $$
 \sum_{\alpha\in R_+}H_\alpha
 $$

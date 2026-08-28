@@ -25,7 +25,7 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: cc509bcb798ea7e4a952cb37673057b3029e76b3360b2b4288406331099feba7
+content_sha256: 4d9f753ed58d33db4d4b3dea16cf8a66e6a7677f9073f91db993b2b4767b89f4
 ---
 
 ## § 4. STRICT MORPHISMS OF FRÉCHET SPACES
@@ -94,9 +94,9 @@ g) $^t u$ is a strict morphism from $F'_c$ into $E'_c$ (the duals endowed with t
 
 The equivalence of a), b) and e) follows from prop. 3 of IV, p. 28 and the remark preceding it. That of a) and c) is precisely cor. 3 of I, p. 19. The remark of IV, p. 28, also shows that d) is equivalent to the fact that, the image of $u$ is closed for the weakened topology $\sigma(F, F')$ of F; the equivalence of c) and d) then follows from prop. 2 of IV, p. 4.
 
-We now prove the equivalence of e) and f). It is enough to prove that f) implies e). Suppose that the image of $^t u$ is closed for $\beta(E', E)$ in $E'$. On account of the Banach-Dieudonné theorem (IV, p. 25, cor. 2), it is enough to prove that for every convex balanced neighbourhood U of 0 in E, the intersection $B = ^t u(F') \cap U$ is compact for $\sigma(E', E)$. The strong dual $E'_b$ of the Fréchet space E is complete (IV, p. 22, prop. 2), hence the closed subset B of $E'_b$ is complete, and so the normed space $E'_B$ is complete (III, p. 8, corollary). Let $(V_n)$ be a decreasing sequence forming a fundamental system of neighbourhoods of 0 in F. Then $F'$ is the union of sets $C = V_n^\circ$ which are compact for $\sigma(F', F)$, hence $E'_B = \bigcup_n B_n$, with $B_n = E'_B \cap ^t u(C_n)$. Since $E'_B$ is a Baire space, and each of the sets $B_n$ is convex balanced and closed, there exists a real number $r > 0$ and an integer $n$ such that $B \subset r.B_n$. Then we have $B = U^\circ \cap {}^t u(r.C_n)$; since the sets $U^\circ$ and $r.C_n$ are compact and ${}^t u$ is continuous for the weak topologies, $B$ is compact for $\sigma(E', E)$. This completes the proof of the equivalence of $e)$ and $f)$.
+We now prove the equivalence of e) and f). It is enough to prove that f) implies e). Suppose that the image of $^t u$ is closed for $\beta(E', E)$ in $E'$. On account of the Banach-Dieudonné theorem (IV, p. 25, cor. 2), it is enough to prove that for every convex balanced neighbourhood U of 0 in E, the intersection $B = ^t u(F') \cap U$ is compact for $\sigma(E', E)$. The strong dual $E'_b$ of the Fréchet space E is complete (IV, p. 22, prop. 2), hence the closed subset B of $E'_b$ is complete, and so the normed space $E'_B$ is complete (III, p. 8, corollary). Let $(V_n)$ be a decreasing sequence forming a fundamental system of neighbourhoods of 0 in F. Then $F'$ is the union of sets $C = V_n^\circ$ which are compact for $\sigma(F', F)$, hence $E'_B = \bigcup_n B_n$, with $B_n = E'_B \cap ^t u(C_n)$. Since $E'_B$ is a Baire space, and each of the sets $B_n$ is convex balanced and closed, there exists a real number $r > 0$ and an integer $n$ such that $B \subset r.B_n$. Then we have $B = U^\circ \cap {}^t u(r.C_n)$; since the sets $U^\circ$ and $r.C_n$ are compact and ${}^t u$ is continuous for the weak topologies, $B$ is compact for $\sigma(E', E)$. This completes the proof of the equivalence of e) and f).
 
-Finally the equivalence of $g)$ and the preceding conditions follows from prop. 18 of GT, X, § 2, No. 10 and the following lemma.
+Finally the equivalence of g) and the preceding conditions follows from prop. 18 of GT, X, § 2, No. 10 and the following lemma.
 
 #### Lemma 1 {#evt-iv-s4-lem-1 .statement}
 
@@ -111,7 +111,7 @@ By Mackey’s th. (IV, p. 2, th. 1) and the fact that on $E'$ (resp. F) the topo
 (ii) *${}^t u$ is a strict surjective morphism for the weak topologies.*
 (iii) *${}^t u$ is surjective.*
 
-The implication (i) $\Rightarrow$ (ii) follows immediately from the equivalence of conditions $a)$, $d)$ and $e)$ of th. 1 and from IV, p. 6, prop. 5. It is clear that (ii) implies (iii). Finally, we prove that (iii) implies (i) : if ${}^t u$ is surjective $u$ is a strict morphism by the equivalence of $a)$ and $e)$ in th. 1 ; that $u$ is injective follows from prop. 5 of IV, p. 6.
+The implication (i) $\Rightarrow$ (ii) follows immediately from the equivalence of conditions a), d) and e) of th. 1 and from IV, p. 6, prop. 5. It is clear that (ii) implies (iii). Finally, we prove that (iii) implies (i) : if ${}^t u$ is surjective $u$ is a strict morphism by the equivalence of a) and e) in th. 1 ; that $u$ is injective follows from prop. 5 of IV, p. 6.
 
 #### Corollary 2 {#evt-iv-s4-lem-1-cor-2 .statement}
 
@@ -122,7 +122,7 @@ The implication (i) $\Rightarrow$ (ii) follows immediately from the equivalence 
 
 The equivalence of (i) and (ii) follows from Banach’s th. (I, p. 17, th. 1).
 
-In view of the equivalence of $a)$ and $c)$ in th. 1, condition (ii) says that $u$ is a strict morphism and that its image is dense in F for $\sigma(F, F')$. The equivalence of (ii) and (iii) then follows from the equivalence of $a)$ and $d)$ in th. 1 and from prop. 5 of IV, p. 6.
+In view of the equivalence of a) and c) in th. 1, condition (ii) says that $u$ is a strict morphism and that its image is dense in F for $\sigma(F, F')$. The equivalence of (ii) and (iii) then follows from the equivalence of a) and d) in th. 1 and from prop. 5 of IV, p. 6.
 
 If $u : E \to F$ is a strict morphism of Fréchet spaces, the transpose ${}^t u$ is not necessarily a strict morphism from $F'_b$ into $E'_b$ (IV, p. 62, exerc. 3). However, we have the following partial result :
 

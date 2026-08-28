@@ -48,7 +48,7 @@ subsections:
       pdf_page: 99
 statements: 23
 exercises: 20
-content_sha256: 8957119c2feaddf48f0207ca3043c3d03233f33b54024287ab81e313dfd51f8f
+content_sha256: d174f4a0062639a75e80d935a7ed7b8739343b89dd6a774962b297cb0c0e8426
 ---
 
 ## § 4. Représentation géométrique d’un groupe de Coxeter
@@ -419,8 +419,8 @@ Soit $E'$ un sous-espace de E stable par W. Soient $s, s' \in S$ deux éléments
 Supposons que $(W, S)$ soit irréductible. Alors:
 a) Si $B_M$ est non dégénérée, le $W$-module $E$ est absolument simple.
 b) Si $B_M$ est dégénérée, le $W$-module $E$ n’est pas semi-simple.
-Dans le cas $a)$, la prop. 7 montre que $E$ est simple, donc aussi absolument simple ($\S 2$, no 1, prop. 1).
-Dans le cas $b)$, on a $E^0 \neq 0$, $E \neq E^0$ (puisque $B_M \neq 0$), et la prop. 7 montre que $E^0$ n’admet pas de supplémentaire stable par $W$; le $W$-module $E$ n’est donc pas semi-simple.
+Dans le cas a), la prop. 7 montre que $E$ est simple, donc aussi absolument simple ($\S 2$, no 1, prop. 1).
+Dans le cas b), on a $E^0 \neq 0$, $E \neq E^0$ (puisque $B_M \neq 0$), et la prop. 7 montre que $E^0$ n’admet pas de supplémentaire stable par $W$; le $W$-module $E$ n’est donc pas semi-simple.
 
 ### 8. Critère de finitude
 

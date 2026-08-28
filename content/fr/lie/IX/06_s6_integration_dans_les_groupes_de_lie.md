@@ -33,7 +33,7 @@ subsections:
       pdf_page: 66
 statements: 22
 exercises: 13
-content_sha256: 01455d3fe45fcb2237c0119f6103448dafdbd52db692efbadfd787efc24e72d9
+content_sha256: 3479027e1e4eab6ad694050f6ee8c5ccb07a17750b74d13da1211dd3cd34a65e
 ---
 
 ## § 6. INTÉGRATION DANS LES GROUPES DE LIE COMPACTS
@@ -81,7 +81,7 @@ $$
 
 or un élément de $Alt^{s+r}(M)$ est déterminé par sa valeur sur une base.
 
-Il résulte de ce qui précède que chacune des conditions $a)$ ou $b)$ détermine le produit $u \cap v$ de manière unique ; il est clair que ce produit est bilinéaire. Enfin la dernière assertion du lemme résulte de la formule (2).
+Il résulte de ce qui précède que chacune des conditions a) ou b) détermine le produit $u \cap v$ de manière unique ; il est clair que ce produit est bilinéaire. Enfin la dernière assertion du lemme résulte de la formule (2).
 
 ### 2. La formule d’intégration de H. Weyl
 

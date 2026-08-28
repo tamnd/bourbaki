@@ -25,9 +25,9 @@ subsections:
       pdf_page: 228
 statements: 16
 exercises: 18
-content_sha256: 52ff2322a9621390e516a52f8f3c9daa05f376063ab4268b1ef2ae9412aad15e
+content_sha256: 42b53f0eb62051f4005b137a2bafcbd1a82489c0e880e5d306dc86465142d32a
 translated_from: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
-source_content_sha256: 7bc764a9b78ff43fbe0ede2d34d02c8291669a44121e1fd0b1781b5cd157cf3d
+source_content_sha256: 12a82d7a333f3a8a462df6bd779a464199724e4351715ac4cc176bb24336e2a0
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-6850220c
 glossary_version: 34
@@ -255,9 +255,9 @@ $$
 \sup_n \lambda^\bullet(K_n) = J(T) = \lambda^\bullet(C).
 $$
 
-Đặt $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ là Borel trong $X$, $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, do đó ba tập hợp này chỉ khác nhau bởi các tập $\lambda$-không đáng kể, và vì vậy T là $\lambda$-đo được. Điều này hoàn tất chứng minh của $a)$.
+Đặt $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ là Borel trong $X$, $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, do đó ba tập hợp này chỉ khác nhau bởi các tập $\lambda$-không đáng kể, và vì vậy T là $\lambda$-đo được. Điều này hoàn tất chứng minh của a).
 
-Ta chuyển sang $b)$. Giả sử rằng $X$ là một không gian Radon, và rằng T là đo được phổ quát trong $X$. Cho $I$ là một hàm dương trên $\mathcal{B}(T)$ cộng tính đếm được và bị chặn; hàm $A \mapsto I(A \cap T)$ trên $\mathcal{B}(X)$ khi đó là dương, cộng tính đếm được và bị chặn, do đó tồn tại một độ đo bị chặn $\nu$ trên $X$ sao cho $I(A \cap T) = \nu^*(A)$ với mọi $A \in \mathcal{B}(X)$. Khi đó, $T$ là $\nu$-đo được; quan hệ trước đó chỉ ra rằng $\nu^*(K) = 0$ với mọi tập con compact $K$ của $X$ rời nhau với T, do đó $\nu$ tập trung trên T. Do đó, với mọi tập Borel $A$ của $X$, ta có $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, trong đó $\mu$ là độ đo cảm sinh bởi $\nu$ trên T. Cuối cùng, suy ra rằng $I(B) = \mu^*(B)$ với mọi tập hợp $B \in \mathcal{B}(T)$ (GT, IX, §6, No. 3, *Nhận xét 2*), và $I$ thực sự là nội chính quy.
+Ta chuyển sang b). Giả sử rằng $X$ là một không gian Radon, và rằng T là đo được phổ quát trong $X$. Cho $I$ là một hàm dương trên $\mathcal{B}(T)$ cộng tính đếm được và bị chặn; hàm $A \mapsto I(A \cap T)$ trên $\mathcal{B}(X)$ khi đó là dương, cộng tính đếm được và bị chặn, do đó tồn tại một độ đo bị chặn $\nu$ trên $X$ sao cho $I(A \cap T) = \nu^*(A)$ với mọi $A \in \mathcal{B}(X)$. Khi đó, $T$ là $\nu$-đo được; quan hệ trước đó chỉ ra rằng $\nu^*(K) = 0$ với mọi tập con compact $K$ của $X$ rời nhau với T, do đó $\nu$ tập trung trên T. Do đó, với mọi tập Borel $A$ của $X$, ta có $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, trong đó $\mu$ là độ đo cảm sinh bởi $\nu$ trên T. Cuối cùng, suy ra rằng $I(B) = \mu^*(B)$ với mọi tập hợp $B \in \mathcal{B}(T)$ (GT, IX, §6, No. 3, *Nhận xét 2*), và $I$ thực sự là nội chính quy.
 
 #### Hệ quả {#int-ix-s3-n3-cor-1 .statement}
 

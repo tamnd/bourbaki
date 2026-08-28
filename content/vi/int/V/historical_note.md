@@ -12,9 +12,9 @@ pdf_pages: 0378-0391
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6168a9dfe96e45730cffac2b94fc409b1d8b6f116853770f0e5168ad4a1d9e1d
+content_sha256: afb31ecced4210440d9500350ce83ff92b7fc8762e482bd88019448ca2800cef
 translated_from: content/en/int/V/historical_note.md
-source_content_sha256: 26a1fdf4a1535394faf5833c0dccef58ea89878c24d5a371c795de7c7bd47d93
+source_content_sha256: de9c8c802c394e314ca6c9e4a81858bb488b10a79f1988b006573d45b08db7f0
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-9e5fa939
 glossary_version: 34
@@ -96,7 +96,7 @@ $$
 
 Các đạo hàm phụ trái được định nghĩa tương tự.
 
-** Các hàm này đã được Jordan đưa vào trong mối liên hệ với việc cải chính các đường cong (VI); ông đã chỉ ra rằng có thể cho chúng các định nghĩa tương đương sau đây: $a)$ $f$ là hiệu của hai hàm tăng; $b)$ với mọi phép chia khoảng $[a, b]$ bằng một dãy hữu hạn tăng các điểm $(x_i)_{0 \leq i \leq n}$, với $a = x_0$, $b = x_n$, tổng $\sum_{i=1}^n |f(x_i) - f(x_{i-1})|$ bị chặn bởi một số độc lập với phép chia đang xét. Cận trên của các tổng này là *tổng biến thiên* của $f$ trên $[a, b]$.
+** Các hàm này đã được Jordan đưa vào trong mối liên hệ với việc cải chính các đường cong (VI); ông đã chỉ ra rằng có thể cho chúng các định nghĩa tương đương sau đây: a) $f$ là hiệu của hai hàm tăng; b) với mọi phép chia khoảng $[a, b]$ bằng một dãy hữu hạn tăng các điểm $(x_i)_{0 \leq i \leq n}$, với $a = x_0$, $b = x_n$, tổng $\sum_{i=1}^n |f(x_i) - f(x_{i-1})|$ bị chặn bởi một số độc lập với phép chia đang xét. Cận trên của các tổng này là *tổng biến thiên* của $f$ trên $[a, b]$.
 
 hiệu giữa hai thành phần của quan hệ này là một hàm có biến thiên bị chặn không hằng và có đạo hàm bằng không hầu khắp nơi (một hàm 'kỳ dị'). Còn lại là đặc trưng các hàm $g$ có biến thiên bị chặn sao cho quan hệ (2) đúng. Lebesgue đã thiết lập rằng các hàm này (được Vitali gọi là 'tuyệt đối liên tục', người đã nghiên cứu chi tiết chúng) là những hàm có tính chất sau đây: tổng biến thiên của $g$ trên một tập mở U (tổng các tổng biến thiên của $g$ trên mỗi thành phần liên thông của U) tiến tới 0 cùng với độ đo của U.
 

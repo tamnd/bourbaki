@@ -42,7 +42,7 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: c5967631d4b873f6621a264fcd7bd519740785457f8ecaaf6d701cbd38dcdc83
+content_sha256: f1860a661be0ffeb94fb88c2baabcbe156de98405a992c63b56483b3f9dbcecf
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
 source_content_sha256: c0d6d98ff4015c3c6fee324330e8258f97161700ae1a515e8b9b28fc72039a2d
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -504,15 +504,15 @@ $$
 p_k = (-1)^{k+1} k s_k + g_k(s_1, \ldots, s_s) \quad (1 \leq k \leq n).
 $$
 
-Vì $k! . 1$ là khả nghịch trong $\mathbf{A}$, Bổ đề 2 của IV, p. 35 chứng minh sự tồn tại của một tự đẳng cấu $T$ của $\mathbf{A}$-đại số tôpô $\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$ biến $s_k$ thành $p_k$ với $l \leq k \leq n$. Khi đó Mệnh đề 3, $a)$ là một hệ quả ngay lập tức.
+Vì $k! . 1$ là khả nghịch trong $\mathbf{A}$, Bổ đề 2 của IV, p. 35 chứng minh sự tồn tại của một tự đẳng cấu $T$ của $\mathbf{A}$-đại số tôpô $\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$ biến $s_k$ thành $p_k$ với $l \leq k \leq n$. Khi đó Mệnh đề 3, a) là một hệ quả ngay lập tức.
 
 #### Hệ quả {#alg-iv-s6-n4-cor-1 .statement}
 
 — *Cho $\xi_1, \ldots, \xi_n, \eta_1, \ldots, \eta_n$ là các phần tử của $\mathbf{A}$ và giả sử rằng $\mathbf{A}$ là một miền nguyên.*
 
-$a)$ *Nếu $s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)$ với $1 \leq k \leq n$, thì tồn tại một phép hoán vị $\sigma \in \mathfrak{S}_n$ sao cho $\eta_i = \xi_{\sigma(i)}$ với $1 \leq i \leq n$.*
+a) *Nếu $s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)$ với $1 \leq k \leq n$, thì tồn tại một phép hoán vị $\sigma \in \mathfrak{S}_n$ sao cho $\eta_i = \xi_{\sigma(i)}$ với $1 \leq i \leq n$.*
 
-$b)$ *Giả sử rằng $n! . 1 \neq 0$ trong $\mathbf{A}$ và*
+b) *Giả sử rằng $n! . 1 \neq 0$ trong $\mathbf{A}$ và*
 
 $$
 \xi_1^k + \cdots + \xi_n^k = \eta_1^k + \cdots + \eta_n^k
@@ -520,15 +520,15 @@ $$
 
 với $1 \leq k \leq n$. *Khi đó tồn tại một phép hoán vị $\sigma \in \mathfrak{S}_n$ sao cho $\eta_i = \xi_{\sigma(i)}$ với $1 \leq i \leq n$.*
 
-Dưới các giả thiết $a)$ ta có $\prod_{i=1}^n (X - \xi_i) = \prod_{i=1}^n (X - \eta_i)$. Nếu ta thay $\eta_n$ vào $X$, ta thấy rằng $\prod_{i=1}^n (\eta_n - \xi_i) = 0$ và vì $\mathbf{A}$ là một miền nguyên, tồn tại một số nguyên $\sigma(n)$ sao cho $l \ s \ \sigma(n) \leq n$ và $\eta_n = \xi_{\sigma(n)}$. Bây giờ mệnh đề $a)$ suy ra dễ dàng bằng quy nạp vì $\mathbf{A}[X]$ là một miền nguyên.
+Dưới các giả thiết a) ta có $\prod_{i=1}^n (X - \xi_i) = \prod_{i=1}^n (X - \eta_i)$. Nếu ta thay $\eta_n$ vào $X$, ta thấy rằng $\prod_{i=1}^n (\eta_n - \xi_i) = 0$ và vì $\mathbf{A}$ là một miền nguyên, tồn tại một số nguyên $\sigma(n)$ sao cho $l \ s \ \sigma(n) \leq n$ và $\eta_n = \xi_{\sigma(n)}$. Bây giờ mệnh đề a) suy ra dễ dàng bằng quy nạp vì $\mathbf{A}[X]$ là một miền nguyên.
 
-Dưới các giả thiết của $b)$, theo Mệnh đề 3 tồn tại các đa thức $\Pi_1, \ldots, \Pi_n$ theo $n$ bất định, với các hệ số trong trường các phân thức của $\mathbf{A}$ sao cho $s_k = \Pi_k(p_1, \ldots, p_n)$ với $1 \leq k \leq n$. Khi đó quan hệ (23) suy ra
+Dưới các giả thiết của b), theo Mệnh đề 3 tồn tại các đa thức $\Pi_1, \ldots, \Pi_n$ theo $n$ bất định, với các hệ số trong trường các phân thức của $\mathbf{A}$ sao cho $s_k = \Pi_k(p_1, \ldots, p_n)$ với $1 \leq k \leq n$. Khi đó quan hệ (23) suy ra
 
 $$
 s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)
 $$
 
-với $1 \leq k \leq n$ và do đó $b)$ suy ra từ $a)$.
+với $1 \leq k \leq n$ và do đó b) suy ra từ a).
 
 ### 5. Các hàm đối xứng trong các nghiệm của một đa thức
 

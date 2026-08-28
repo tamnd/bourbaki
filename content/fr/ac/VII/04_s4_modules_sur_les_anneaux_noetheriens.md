@@ -52,7 +52,7 @@ subsections:
       pdf_page: 272
 statements: 79
 exercises: 26
-content_sha256: 7a5259286f966c4c9a65bebe071385d980038de3188c80a349200e2d7c55297a
+content_sha256: 2da0f6fe114297e3ac39578a8dccc8fe5a6dfff73a23862c4e5086edc56519c9
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -204,7 +204,7 @@ a) M est réflexif.
 b) $M = \bigcap_{p \in P} M_p$.
 c) On a Ass(V/M) ⊂ P.
 
-L’équivalence de $a)$ et $b)$ résulte du cor. du th. 1. Si $b)$ est vérifiée, $V/M$ s’identifie canoniquement à un sous-A-module du produit $\prod_{p \in P} (V/M_p)$; mais en fait, il est contenu dans la *somme directe* $\bigoplus_{p \in P} (V/M_p)$: en effet, si $L \subset M$ est un réseau libre et $(e_i)_{1 \leq i \leq n}$ une base de $L$, chacune des coordonnées $x_i$ d’un point $x \in V$ par rapport à $(e_i)$ appartient à $A_p$ sauf pour un nombre fini de valeurs de $p$ (\S 1, n° 6, th. 4), donc $x \in L_p \subset M_p$ sauf pour un nombre fini de valeurs de $p \in P$. La relation $V/M \subset \bigoplus_{p \in P} (V/M_p)$ entraîne alors:
+L’équivalence de a) et b) résulte du cor. du th. 1. Si b) est vérifiée, $V/M$ s’identifie canoniquement à un sous-A-module du produit $\prod_{p \in P} (V/M_p)$; mais en fait, il est contenu dans la *somme directe* $\bigoplus_{p \in P} (V/M_p)$: en effet, si $L \subset M$ est un réseau libre et $(e_i)_{1 \leq i \leq n}$ une base de $L$, chacune des coordonnées $x_i$ d’un point $x \in V$ par rapport à $(e_i)$ appartient à $A_p$ sauf pour un nombre fini de valeurs de $p$ (\S 1, n° 6, th. 4), donc $x \in L_p \subset M_p$ sauf pour un nombre fini de valeurs de $p \in P$. La relation $V/M \subset \bigoplus_{p \in P} (V/M_p)$ entraîne alors:
 
 $$
 \operatorname{Ass}(V/M) \subset \bigcup_{p \in P} \operatorname{Ass}(V/M_p).
@@ -232,7 +232,7 @@ Tout réseau *libre* est réflexif.
 
 #### Exemple 2 {#ac-vii-s4-n2-exa-2 .statement}
 
-Prenons $V = K$. Pour qu’un idéal fractionnaire $a$ de $K$ soit un réseau réflexif, il faut et il suffit qu’il soit un *idéal divisoriel*, en vertu du critère $b)$ du th. 2 et du § 1, n° 4, prop. 5 et 7.
+Prenons $V = K$. Pour qu’un idéal fractionnaire $a$ de $K$ soit un réseau réflexif, il faut et il suffit qu’il soit un *idéal divisoriel*, en vertu du critère b) du th. 2 et du § 1, n° 4, prop. 5 et 7.
 
 #### Exemple 3 {#ac-vii-s4-n2-exa-3 .statement}
 

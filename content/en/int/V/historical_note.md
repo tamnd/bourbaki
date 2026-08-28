@@ -12,7 +12,7 @@ pdf_pages: 0378-0391
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 26a1fdf4a1535394faf5833c0dccef58ea89878c24d5a371c795de7c7bd47d93
+content_sha256: de9c8c802c394e314ca6c9e4a81858bb488b10a79f1988b006573d45b08db7f0
 ---
 
 # HISTORICAL NOTE
@@ -86,7 +86,7 @@ $$
 
 The left derivates are defined similarly.
 
-** These functions had been introduced by Jordan in connection with the rectification of curves (VI); he showed that one can give for them the following equivalent definitions: $a)$ $f$ is the difference of two increasing functions; $b)$ for every subdivision of the interval $[a, b]$ by an increasing finite sequence of points $(x_i)_{0 \leq i \leq n}$, with $a = x_0$, $b = x_n$, the sum $\sum_{i=1}^n |f(x_i) - f(x_{i-1})|$ is bounded by a number independent of the subdivision under consideration. The supremum of these sums is the *total variation* of $f$ on $[a, b]$.
+** These functions had been introduced by Jordan in connection with the rectification of curves (VI); he showed that one can give for them the following equivalent definitions: a) $f$ is the difference of two increasing functions; b) for every subdivision of the interval $[a, b]$ by an increasing finite sequence of points $(x_i)_{0 \leq i \leq n}$, with $a = x_0$, $b = x_n$, the sum $\sum_{i=1}^n |f(x_i) - f(x_{i-1})|$ is bounded by a number independent of the subdivision under consideration. The supremum of these sums is the *total variation* of $f$ on $[a, b]$.
 
 the difference between the two members of this relation is a function of bounded variation that is nonconstant and has derivative zero almost everywhere (a 'singular' function). It remained to characterize the functions $g$ of bounded variation such that relation (2) holds. Lebesgue established that these functions (called 'absolutely continuous' by Vitali, who made a detailed study of them) are those having the following property: the total variation of $g$ on an open set U (the sum of the total variations of $g$ on each of the connected components of U) tends to 0 with the measure of U.
 

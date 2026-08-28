@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: ace628286fbf81aac624b68384ad96ad2fa47f69b828b87b90696e070f925f67
+content_sha256: 1ae2452e09c6aae656d15e99ae783f3b775e219c73ee5639bef38a58f20ea3cb
 ---
 
 ## § 4. FORMAL POWER SERIES
@@ -199,7 +199,7 @@ This shows that $\psi$ is continuous if we equip $A[(X_i)_{i \in I}]$ with the t
 
 Let us keep the previous notation. If $u \in A[[I]]$, the image of $u$ by $\varphi$ is denoted by $u(x)$ or $u((x_i)_{i \in I})$ (or also $u(x_1, ..., x_n)$ if $I = (1, 2, ..., n)$) and is called the element of $E$ obtained by substitution of $x_i$ for $X_i$ in $u$, or the value of $u$ for the values $x_i$ of the $X_i$ or also the value of $u$ for $X_i = x_i$. In particular we have $u = u((X_i)_{i \in I})$.
 
-Let $E'$ be an associative commutative and unital linearly topologized separated and complete $A$-algebra. Let $\lambda$ be a continuous unital homomorphism of $E$ into $E'$, and $(x_i)_{i \in I}$ a family of elements of $E$ satisfying conditions $a)$ and $b)$ of Prop. 4 (IV, p. 28). The family $(\lambda(x_i))_{i \in I}$ satisfies the same conditions $a)$ and $b)$. For every $u \in A[[I]]$ we have
+Let $E'$ be an associative commutative and unital linearly topologized separated and complete $A$-algebra. Let $\lambda$ be a continuous unital homomorphism of $E$ into $E'$, and $(x_i)_{i \in I}$ a family of elements of $E$ satisfying conditions a) and b) of Prop. 4 (IV, p. 28). The family $(\lambda(x_i))_{i \in I}$ satisfies the same conditions a) and b). For every $u \in A[[I]]$ we have
 
 $$
 \lambda(u((x_i)_{i \in I})) = u((\lambda(x_i))_{i \in I}),
@@ -217,7 +217,7 @@ Let $(g_j)_{j \in J}$ be in $A_{J, K}$. By the Cor. of Prop. 3 (IV, p. 28) we ha
 
 In particular if $J = (1, ..., p)$ and $f \in A[[X_1, ..., X_p]]$, we can substitute for each $X_j$ a formal power series $g_j \in A[[K]]$ without constant term; the result of this substitution is written $f(g_1, ..., g_p)$.
 
-Let $x = (x_k)_{k \in K}$ be a family of elements of $E$ satisfying conditions $a)$ and $b)$ of Prop. 4 (IV, p. 28). Let us apply (3), taking for $A$ the homomorphism $u \mapsto u(x)$ of $A[[K]]$ into $E$; we obtain
+Let $x = (x_k)_{k \in K}$ be a family of elements of $E$ satisfying conditions a) and b) of Prop. 4 (IV, p. 28). Let us apply (3), taking for $A$ the homomorphism $u \mapsto u(x)$ of $A[[K]]$ into $E$; we obtain
 
 $$
 f((g_j)_{j \in J})(x) = f((g_j(x))_{j \in J}).

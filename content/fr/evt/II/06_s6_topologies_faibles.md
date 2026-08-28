@@ -45,7 +45,7 @@ subsections:
       pdf_page: 91
 statements: 42
 exercises: 19
-content_sha256: 9b5c1e05b19569e66bd56fae06fd15d96d9cddf25df03b3dcbcd669980a57839
+content_sha256: b67581e55667ce4c6fed36477fbccbbc0a829b84be705bdefa860adeba60e879
 ---
 
 ## § 6. TOPOLOGIES FAIBLES
@@ -264,7 +264,7 @@ est continue pour $\sigma(F, G)$; il résulte de la définition des topologies f
 
 #### Remarque {#evt-ii-s6-n4-rem-1 .statement}
 
-Supposons la dualité entre F et G séparante en G et la dualité entre $F_1$ et $G_1$ séparante en $G_1$. Si on identifie G et $G_1$ à des sous-espaces de $F^*$ et $F_1^*$ respectivement, les conditions $a)$ et $b)$ équivalent encore à $'u(G_1) \subset G$; $v$ est la restriction de la transposée $'u$ de $u$ (A, II, p. 42) à $G_1$.
+Supposons la dualité entre F et G séparante en G et la dualité entre $F_1$ et $G_1$ séparante en $G_1$. Si on identifie G et $G_1$ à des sous-espaces de $F^*$ et $F_1^*$ respectivement, les conditions a) et b) équivalent encore à $'u(G_1) \subset G$; $v$ est la restriction de la transposée $'u$ de $u$ (A, II, p. 42) à $G_1$.
 
 Par abus de langage, on dira (lorsqu’il n’en résulte pas de confusion) que $v$ est la transposée de $u$ (relativement aux dualités entre F et G d’une part, $F_1$ et $G_1$ de l’autre), et on la notera encore $'u$.
 

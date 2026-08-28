@@ -41,9 +41,9 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: d3fe053d1967b0b4411638eb7e8018a94e03cc225af6f20cb67651810410eb36
+content_sha256: e1147e7196b6734044bdb2f6704dea91bd69d41ee4b09f2bb091d7638984d309
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
-source_content_sha256: 60a0a8276ead3ec3b06557c9aa5ca4937f00aaedc3fd871494cee87e933f7e09
+source_content_sha256: 6f807978223af09ea691f4a718f88a33ce5fb2f48cdd35a565edd9d39edc944d
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-59d57011
 glossary_version: 34
@@ -287,7 +287,7 @@ Hai độ đo $\mu$ và $\mu'$ do đó có cùng tích phân trên cốt yếu, 
 
 Giả sử rằng $\pi$ là đơn ánh. Gọi $\theta$ là một độ đo phức sao cho $\pi$ là $\theta$-thực sự và $\pi(\theta) = 0$; khi đó $\theta = 0$. Thật vậy, bằng cách tách $\theta$ thành các phần thực và ảo của nó, ta có thể rút gọn về trường hợp $\theta$ là thực. Khi đó ta có $\pi(\theta^+) = \pi(\theta^-)$, do đó $\theta^+ = \theta^-$ (Mệnh đề 8), và cuối cùng $\theta = 0$.
 
-Sau đây là một trường hợp quan trọng trong đó điều kiện $a)$ của Mệnh đề 8 luôn được thỏa mãn.
+Sau đây là một trường hợp quan trọng trong đó điều kiện a) của Mệnh đề 8 luôn được thỏa mãn.
 
 #### Mệnh đề 9 {#int-ix-s2-prop-9 .statement}
 
@@ -435,7 +435,7 @@ $$
 ta thấy ngay rằng dãy $(u_n(x))_{n \geqslant 1}$ là tăng và nhận x làm giới hạn. Dãy các hàm $f_n = u_n \circ f$ do đó là tăng và hội tụ về $f$, và ta có $f_n = 2^{-n} \sum_{k=1}^{n \cdot 2^n} \varphi_{U(k,n)}$,
 trong đó $U(k,n)$ là tập mở $f^{-1}([k/2^n, +\infty])$ của $X$.
 
-Ta chuyển qua chứng minh của $b)$. Vì hàm $I_f$ là bao trên của họ có hướng tăng của các hàm $I_f^L$, trong đó $L$ chạy trên tập hợp các tập con compact của $T$ (Bổ đề 2), nên chỉ cần chứng minh rằng các hàm $I_f^L$ là nửa liên tục dưới; khi đó công thức (9) có thể được suy ra từ (6) bằng cách chuyển qua bao trên theo $L$ (\$1, No. 6, Mệnh đề 5).
+Ta chuyển qua chứng minh của b). Vì hàm $I_f$ là bao trên của họ có hướng tăng của các hàm $I_f^L$, trong đó $L$ chạy trên tập hợp các tập con compact của $T$ (Bổ đề 2), nên chỉ cần chứng minh rằng các hàm $I_f^L$ là nửa liên tục dưới; khi đó công thức (9) có thể được suy ra từ (6) bằng cách chuyển qua bao trên theo $L$ (\$1, No. 6, Mệnh đề 5).
 
 Vậy cho $\mathcal{H}$ là tập hợp các hàm dương nửa liên tục dưới $f$ trên $S \times T$ sao cho $I_f^L$ là nửa liên tục dưới với mọi tập con compact $L$ của $T$. Theo Mệnh đề 5 của \$1, No. 6, bao trên của mọi tập có hướng tăng các phần tử của $\mathcal{H}$ thuộc về $\mathcal{H}$. Theo Bổ đề 3, do đó chỉ cần chứng minh rằng hàm đặc số của một tập mở $W$ của $S \times T$ thuộc về $\mathcal{H}$. Hơn nữa, theo định nghĩa của tôpô tích trên $S \times T$, tập mở $W$ là hợp của một họ có hướng tăng $(W_\alpha)_{\alpha \in A}$ các tập mở có dạng
 $$
@@ -525,7 +525,7 @@ $$
 \int_{X'} f'(x') \, d\nu'(x') = \int_{T'} d\mu'(t') \int_{X'} f'(x') \, d\lambda'_{t'}(x').
 $$
 
-Cho $t \in T$; nếu $t$ thuộc $T'$, ký hiệu $\lambda_t$ là ảnh của $\lambda'_t$ qua đơn ánh chính tắc của $X'$ vào $X$, và nếu $t$ thuộc $T - T'$ ta đặt $\lambda_t = 0$. Người đọc sẽ dễ dàng kiểm tra rằng ánh xạ $t \mapsto \lambda_t$ thỏa mãn các điều kiện $a)$ và $b)$ của mệnh đề.
+Cho $t \in T$; nếu $t$ thuộc $T'$, ký hiệu $\lambda_t$ là ảnh của $\lambda'_t$ qua đơn ánh chính tắc của $X'$ vào $X$, và nếu $t$ thuộc $T - T'$ ta đặt $\lambda_t = 0$. Người đọc sẽ dễ dàng kiểm tra rằng ánh xạ $t \mapsto \lambda_t$ thỏa mãn các điều kiện a) và b) của mệnh đề.
 
 C) *Tồn tại trong trường hợp tổng quát*:
 
@@ -547,7 +547,7 @@ $$
 
 hơn nữa, rõ ràng là hàm $t \mapsto q_t(f)$ trên $T$ đo được phổ quát.
 
-Với mọi $m \in \mathbf{N}$, gọi $E_m$ là tập hợp các $t \in T$ sao cho $q_t(U_m) = +\infty$; tập hợp $E_m$ đo được phổ quát vì điều này đúng đối với ánh xạ $t \mapsto q_t(U_m)$, và $E_m$ là không đáng kể địa phương đối với $\mu$ theo công thức (14) áp dụng cho $f = \varphi_{U_m}$, vì $\nu^*(U_m)$ là hữu hạn. Tập hợp $E = \bigcup_{m \in \mathbf{N}} E_m$ do đó đo được phổ quát và không đáng kể địa phương đối với $\mu$. Ta đặt $\lambda_t = 0$ với $t \in E$. Hơn nữa, cho $t \in T - E$; hàm tải $q_t$ bị chặn địa phương vì các tập mở $U_m$ phủ $X$ và vì $q_t(U_m)$ là hữu hạn; theo Mệnh đề 7 của \S 1, No. 7, tồn tại một độ đo $\lambda_t$ trên $X$ sao cho $q_t = \lambda_t^*$ và $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. Ngay lập tức, ánh xạ $t \mapsto \lambda_t$ thỏa mãn các điều kiện $a)$ và $b)$ của mệnh đề.
+Với mọi $m \in \mathbf{N}$, gọi $E_m$ là tập hợp các $t \in T$ sao cho $q_t(U_m) = +\infty$; tập hợp $E_m$ đo được phổ quát vì điều này đúng đối với ánh xạ $t \mapsto q_t(U_m)$, và $E_m$ là không đáng kể địa phương đối với $\mu$ theo công thức (14) áp dụng cho $f = \varphi_{U_m}$, vì $\nu^*(U_m)$ là hữu hạn. Tập hợp $E = \bigcup_{m \in \mathbf{N}} E_m$ do đó đo được phổ quát và không đáng kể địa phương đối với $\mu$. Ta đặt $\lambda_t = 0$ với $t \in E$. Hơn nữa, cho $t \in T - E$; hàm tải $q_t$ bị chặn địa phương vì các tập mở $U_m$ phủ $X$ và vì $q_t(U_m)$ là hữu hạn; theo Mệnh đề 7 của \S 1, No. 7, tồn tại một độ đo $\lambda_t$ trên $X$ sao cho $q_t = \lambda_t^*$ và $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. Ngay lập tức, ánh xạ $t \mapsto \lambda_t$ thỏa mãn các điều kiện a) và b) của mệnh đề.
 
 D) *Chứng minh c)*:
 Cho $f$ là một hàm đo được phổ quát trên $X$, dương và bị chặn; ta sẽ chứng minh rằng hàm đo được phổ quát $h_f : t \mapsto \lambda_t^\bullet(f)$ trên $T$ là một mật độ của độ đo $\mu_f = p(f \cdot \nu)$ đối với $\mu = p(\nu)$. Cho $K$ là một tập con compact của $T$ và đặt $A = \overline{p}^{-1}(K)$. Với mọi $t \in T$, độ đo $\lambda_t$ tập trung trên $\overline{p}^{-1}(t)$; nếu $t$ thuộc $K$ thì $\overline{p}^{-1}(t) \subset A$, do đó $\lambda_t^\bullet(f \varphi_A) = \lambda_t^\bullet(f)$; ngược lại, nếu $t$ thuộc $T - K$ thì $\overline{p}^{-1}(t) \subset X - A$, do đó $\lambda_t^\bullet(f \varphi_A) = 0$. Áp dụng công thức (12) cho $f \cdot \varphi_A$,$^{(1)}$ ta được
@@ -561,7 +561,7 @@ $$
 Đặt $f = 1$, ta thấy rằng hàm $h_1 : t \mapsto \| \lambda_t \|$ là một mật độ của độ đo $\mu_1 = \mu$ đối với $\mu$, do đó bằng 1 hầu khắp nơi địa phương đối với $\mu$ trong $T$.
 
 E) *Tính duy nhất*:
-Cho $t \mapsto \lambda_t^i$ (với $i = 1, 2$) là hai ánh xạ của $T$ vào $\mathcal{M}_+(X)$ thỏa mãn các điều kiện $a)$ và $b)$ của mệnh đề. Như trong C), chọn một $(X_n)_{n \in \mathbf{N}}$ $\mu$-nghiền của $X$ sao cho $p_{X_n}$ liên tục với mọi $n \in \mathbf{N}$, và đặt $N = X - \bigcup_{n \in \mathbf{N}} X_n$. Với mọi số nguyên $n \in \mathbf{N}$, chọn một tập hợp đếm được $D_n$ các hàm dương trên $X$, bằng không bên ngoài $X_n$, mà các hạn chế của chúng lên $X_n$ tạo thành một tập hợp trù mật trong không gian định chuẩn $\mathcal{C}(X_n)$ (áp dụng Định lý 1 của GT, X, §3, No. 3 cho không gian compact mêtric hóa $X_n$). Ta đặt $D = \bigcup_{n \in \mathbf{N}} D_n$.
+Cho $t \mapsto \lambda_t^i$ (với $i = 1, 2$) là hai ánh xạ của $T$ vào $\mathcal{M}_+(X)$ thỏa mãn các điều kiện a) và b) của mệnh đề. Như trong C), chọn một $(X_n)_{n \in \mathbf{N}}$ $\mu$-nghiền của $X$ sao cho $p_{X_n}$ liên tục với mọi $n \in \mathbf{N}$, và đặt $N = X - \bigcup_{n \in \mathbf{N}} X_n$. Với mọi số nguyên $n \in \mathbf{N}$, chọn một tập hợp đếm được $D_n$ các hàm dương trên $X$, bằng không bên ngoài $X_n$, mà các hạn chế của chúng lên $X_n$ tạo thành một tập hợp trù mật trong không gian định chuẩn $\mathcal{C}(X_n)$ (áp dụng Định lý 1 của GT, X, §3, No. 3 cho không gian compact mêtric hóa $X_n$). Ta đặt $D = \bigcup_{n \in \mathbf{N}} D_n$.
 
 Cho $f \in D$; theo D), các hàm $t \mapsto (\lambda_t^1)^\bullet(f)$ và $t \mapsto (\lambda_t^2)^\bullet(f)$ là các mật độ của độ đo $\mu_f$ đối với $\mu$, và do đó tồn tại một tập hợp $E_f$ địa phương $\mu$-không đáng kể trong $T$ sao cho $(\lambda_t^1)^\bullet(f) = (\lambda_t^2)^\bullet(f)$ với $t \in T - E_f$. Hơn nữa, theo (12), tập hợp $F_i$ các $t \in T$ sao cho $(\lambda_t^i)^\bullet(N) \neq 0$ là địa phương $\mu$-không đáng kể với $i = 1, 2$. Vì $D$ là đếm được, tập hợp $G = (\bigcup_{f \in D} E_f) \cup F_1 \cup F_2$ là địa phương $\mu$-không đáng kể; với $t \in T - G$, ta có $(\lambda_t^1)^\bullet(N) = (\lambda_t^2)^\bullet(N) = 0$ và $(\lambda_t^1)_{X_n} = (\lambda_t^2)_{X_n}$, do đó $\lambda_t^1 = \lambda_t^2$ theo Mệnh đề 9 của §1, No. 8.
 

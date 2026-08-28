@@ -52,7 +52,7 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: 08cd64a9f736fcf3e935c7f25b844b7cb16ccedcafa8c3831a78cdb4a9369a30
+content_sha256: 9859e7a3f8376bf9f90c18133336b365f7165b349bb413a9bb4f7f1d076f2e28
 ---
 
 ## § 1. PREMEASURES AND MEASURES ON A TOPOLOGICAL SPACE
@@ -117,7 +117,7 @@ $$
 f \varphi_B \leq (+\infty) \cdot \varphi_B = \sup_{n \in \mathbf{N}} n \varphi_B,
 $$
 
-therefore $p(f \varphi_B) = 0$ by properties $a), b), d)$ of Def. 1. It follows from $c)$ that $p(f) \leq p(f \varphi_A) + p(f \varphi_B) = p(f \varphi_A)$, and finally $p(f) = p(f \varphi_A)$ by $a)$.
+therefore $p(f \varphi_B) = 0$ by properties $a), b), d)$ of Def. 1. It follows from c) that $p(f) \leq p(f \varphi_A) + p(f \varphi_B) = p(f \varphi_A)$, and finally $p(f) = p(f \varphi_A)$ by a).
 
 ### 2. Premeasures and measures
 
@@ -568,7 +568,7 @@ A function $f$ with values in a Banach space or in $\overline{\mathbf{R}}$ such 
 
 *The function $\mu^*$ is an encumbrance on $T$.*
 
-The properties $a), b), c)$ of Def. 1 of No. 1 are obvious. The proof of the property $d)$ is identical to that of Th. 3 of Ch. IV, §1, No. 3, on taking into account Props. 4 and 5 *a)*.
+The properties $a), b), c)$ of Def. 1 of No. 1 are obvious. The proof of the property d) is identical to that of Th. 3 of Ch. IV, §1, No. 3, on taking into account Props. 4 and 5 *a)*.
 
 #### Corollary {#int-ix-s1-n9-cor-1 .statement}
 

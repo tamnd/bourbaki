@@ -33,11 +33,11 @@ subsections:
       pdf_page: 40
 statements: 37
 exercises: 7
-content_sha256: 43702cdac3a95fc5a552eeee19de5c121fc5874d0987f7b2276307e5d5f41f57
+content_sha256: 2fd2f4f94134b42e113dfa6bd1ba467036e80912efebdf836b37d728b8128f63
 translated_from: content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: b0be3ab6fbc02d449cb2d96364b0f2e4a609ded6b8b6737e8633b76ea270b5af
+source_content_sha256: 390f143777bdecb507cfc5436fbf6d87ac2c74cd2956da55d7e235ef0ab6af02
 translation_model: gpt-5.4
 translation_run: translate-en-mt-1f3a519c
 glossary_version: 34
@@ -115,11 +115,11 @@ Let $A$ be a local noetherian ring.
 a) Let $x \in m_A$. Then $\dim(A/xA)$ is equal to $\dim(A)$ or to $\dim(A) - 1$. In order that one have $\dim(A/xA) = \dim(A) - 1$, it is necessary and sufficient that $x$ belong to none of the minimal prime ideals $p$ of $A$ such that $\dim(A/p) = \dim(A)$, and it suffices that $x$ be not a zero divisor in $A$.
 b) Let $a$ be an ideal of $A$ distinct from $A$ such that $\dim(A/a) < \dim(A)$. There exists $x \in a$ such that $\dim(A/xA) = \dim(A) - 1$.
 c) If $\dim(A) \geqslant 1$, there exists $x \in m_A$ such that $\dim(A/xA) = \dim(A) - 1$.
-By Prop. 2, $\dim(A/xA)$ is equal to $\dim(A)$ or to $\dim(A) - 1$. In order that one have $\dim(A/xA) = \dim(A)$, it is necessary and sufficient that there exist a chain $p_0 \subset ... \subset p_n$ of prime ideals of $A$ such that $x \in p_0$ and $n = \dim(A)$, that is to say, that there exist a prime ideal $p_0$ of $A$ containing $x$ such that $\dim(A/p_0) = \dim(A)$. But such a prime ideal $p_0$ is necessarily minimal, and every element of $p_0$ is therefore a zero divisor in $A$ (IV, § 1, No. 1, Cor. 3 of Prop. 2 and No. 4, Th. 2). This proves $a)$.
+By Prop. 2, $\dim(A/xA)$ is equal to $\dim(A)$ or to $\dim(A) - 1$. In order that one have $\dim(A/xA) = \dim(A)$, it is necessary and sufficient that there exist a chain $p_0 \subset ... \subset p_n$ of prime ideals of $A$ such that $x \in p_0$ and $n = \dim(A)$, that is to say, that there exist a prime ideal $p_0$ of $A$ containing $x$ such that $\dim(A/p_0) = \dim(A)$. But such a prime ideal $p_0$ is necessarily minimal, and every element of $p_0$ is therefore a zero divisor in $A$ (IV, § 1, No. 1, Cor. 3 of Prop. 2 and No. 4, Th. 2). This proves a).
 
-Let $\Phi$ be the set of minimal prime ideals of $A$, and $\Phi'$ the set of $p \in \Phi$ such that $\dim(A/p) = \dim(A)$. We know (II, § 4, No. 3, Corollary 3 of Proposition 14) that $\Phi$ is finite, hence $\Phi'$ is finite. Let $a$ be an ideal of $A$ such that $\dim(A/a) < \dim(A)$. For every $p \in \Phi'$, one has $\dim(A/a) < \dim(A/p)$, hence $a \not\subset p$. By Proposition 2 of II, § 1, No. 1, there exists therefore an element $x$ of $a$ which does not belong to any of the $p \in \Phi'$, and one then has $\dim(A/xA) = \dim(A) - 1$ by $a)$. This proves $b)$.
+Let $\Phi$ be the set of minimal prime ideals of $A$, and $\Phi'$ the set of $p \in \Phi$ such that $\dim(A/p) = \dim(A)$. We know (II, § 4, No. 3, Corollary 3 of Proposition 14) that $\Phi$ is finite, hence $\Phi'$ is finite. Let $a$ be an ideal of $A$ such that $\dim(A/a) < \dim(A)$. For every $p \in \Phi'$, one has $\dim(A/a) < \dim(A/p)$, hence $a \not\subset p$. By Proposition 2 of II, § 1, No. 1, there exists therefore an element $x$ of $a$ which does not belong to any of the $p \in \Phi'$, and one then has $\dim(A/xA) = \dim(A) - 1$ by a). This proves b).
 
-The assertion $c)$ is the particular case $a = m_A$ of $b)$.
+The assertion c) is the particular case $a = m_A$ of b).
 
 ### 2. Dimension and secant sequences
 
@@ -209,17 +209,17 @@ c) The following properties are equivalent:
 (iii) $M/SM$ is of finite length and $\mathrm{Card}(S) = \dim_A(M)$;
 (iv) $S$ is a secant subset for $M$ and $M/SM$ is of finite length.
 
-Since one has $S \subset m_A$, Nakayama's lemma shows that one has $M/SM \neq \{0\}$, whence $\dim_A(M/SM) \geqslant 0$ with equality if and only if $M/SM$ is of finite length. Assertion $a)$ then results from formulas (8) and (9), as well as the equivalence of properties (ii), (iii) and (iv).
+Since one has $S \subset m_A$, Nakayama's lemma shows that one has $M/SM \neq \{0\}$, whence $\dim_A(M/SM) \geqslant 0$ with equality if and only if $M/SM$ is of finite length. Assertion a) then results from formulas (8) and (9), as well as the equivalence of properties (ii), (iii) and (iv).
 
-Assertion $b)$ results from the fact that the cardinal of every subset of $m_A$ secant for $M$ is bounded above by the integer $\dim_A(M)$.
+Assertion b) results from the fact that the cardinal of every subset of $m_A$ secant for $M$ is bounded above by the integer $\dim_A(M)$.
 
-By $a)$, every secant subset for $M$, of cardinal equal to $\dim_A(M)$, is maximal. It remains to prove that, if $S$ is secant for $M$ and if $\mathrm{Card}(S) < \dim_A(M)$, then $S$ is not maximal. Let $a$ be the annihilator of $M$, and $B$ the noetherian local ring $A/(a + SA)$. By cor. 2 of prop. 2 of No. 1, there exists an element $x$ of $m_A$ such that $\dim(B/xB) = \dim(B) - 1$ whence $x \notin S$. By remark 2, the subset $S \cup \{x\}$ of $m_A$ is secant for $A/a$, hence for $M$ by remark 1.
+By a), every secant subset for $M$, of cardinal equal to $\dim_A(M)$, is maximal. It remains to prove that, if $S$ is secant for $M$ and if $\mathrm{Card}(S) < \dim_A(M)$, then $S$ is not maximal. Let $a$ be the annihilator of $M$, and $B$ the noetherian local ring $A/(a + SA)$. By cor. 2 of prop. 2 of No. 1, there exists an element $x$ of $m_A$ such that $\dim(B/xB) = \dim(B) - 1$ whence $x \notin S$. By remark 2, the subset $S \cup \{x\}$ of $m_A$ is secant for $A/a$, hence for $M$ by remark 1.
 
 #### Corollary {#ac-viii-s3-n2-cor-2 .statement}
 
 The dimension of $M$ is the smallest of the integers $d \geqslant 0$ for which there exists a sequence $(x_1, ..., x_d)$ of elements of $m_A$ such that the $A$-module $M / \sum_{i=1}^d x_i M$ is of finite length.
 
-Since $\varnothing$ is a secant subset for $M$, Theorem 1, $b)$ proves the existence of a maximal secant sequence for $M$, say $(x_1, ..., x_d)$. But then one has $d = \dim_A(M)$ and the $A$-module $M / \sum_{i=1}^d x_i M$ is of finite length by property (iii) of Theorem 1, $c)$. Conversely, if $(x'_1, ..., x'_{d'})$ is a sequence of elements of $m_A$ such that the $A$-module $M / \sum_{j=1}^{d'} x'_j M$ is of finite length, one has $d' \geqslant \dim_A(M)$ by Theorem 1, $a)$.
+Since $\varnothing$ is a secant subset for $M$, Theorem 1, b) proves the existence of a maximal secant sequence for $M$, say $(x_1, ..., x_d)$. But then one has $d = \dim_A(M)$ and the $A$-module $M / \sum_{i=1}^d x_i M$ is of finite length by property (iii) of Theorem 1, c). Conversely, if $(x'_1, ..., x'_{d'})$ is a sequence of elements of $m_A$ such that the $A$-module $M / \sum_{j=1}^{d'} x'_j M$ is of finite length, one has $d' \geqslant \dim_A(M)$ by Theorem 1, a).
 
 Recall (III, § 3, No. 2, Definition 1) that an ideal $q$ of a noetherian local ring $A$ is an ideal of definition of $A$ if the $q$-adic and $m_A$-adic topologies of $A$ coincide.
 
@@ -486,19 +486,19 @@ whence the corollary.
 
 Let $A$ be a noetherian ring, $a$ an ideal of $A$, $M$ a finitely generated $A$-module, $\hat{A}$ and $\hat{M}$ the separated completions of $A$ and $M$ respectively for the $a$-adic topology.
 
-$a)$ Let $m$ be a prime ideal of $A$ containing $a$ and $\hat{m} = m\hat{A}$. Then $\hat{m}$ is a prime ideal of $\hat{A}$ and one has $\dim_{\hat{A}_{\hat{m}}}(\hat{M}_{\hat{m}}) = \dim_{A_m}(M_m)$.
+a) Let $m$ be a prime ideal of $A$ containing $a$ and $\hat{m} = m\hat{A}$. Then $\hat{m}$ is a prime ideal of $\hat{A}$ and one has $\dim_{\hat{A}_{\hat{m}}}(\hat{M}_{\hat{m}}) = \dim_{A_m}(M_m)$.
 
-$b)$ One has $\dim_{\hat{A}}(\hat{M}) = \sup_m \dim_{A_m}(M_m)$, where $m$ ranges over the set of prime (resp. maximal) ideals of $A$ containing $a$. In particular, one has $\dim_{\hat{A}}(\hat{M}) \leqslant \dim_A(M)$.
+b) One has $\dim_{\hat{A}}(\hat{M}) = \sup_m \dim_{A_m}(M_m)$, where $m$ ranges over the set of prime (resp. maximal) ideals of $A$ containing $a$. In particular, one has $\dim_{\hat{A}}(\hat{M}) \leqslant \dim_A(M)$.
 
-$a)$ Since $\hat{A}/\hat{m}$ is identified with $A/m$, $\hat{m}$ is a prime ideal of $\hat{A}$. By Theorem 3 of III, $\S 3$, No. 4, $\hat{A}$ is flat over $A$, hence $\hat{A}_{\hat{m}}$ is flat over $A_m$. Moreover the canonical mapping of $A$ into $\hat{A}$ induces an isomorphism of $A/a$ onto $\hat{A}/a\hat{A}$, hence also an isomorphism of $A_m/mA_m$ onto $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. The conclusion follows by applying Proposition 7 to the rings $A_m$ and $\hat{A}_{\hat{m}}$ and to the modules $M_m$ and $\hat{A}_{\hat{m}}$ since $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ is isomorphic to $\hat{M}_{\hat{m}}$ (III, loc. cit. and Proposition 8).
+a) Since $\hat{A}/\hat{m}$ is identified with $A/m$, $\hat{m}$ is a prime ideal of $\hat{A}$. By Theorem 3 of III, $\S 3$, No. 4, $\hat{A}$ is flat over $A$, hence $\hat{A}_{\hat{m}}$ is flat over $A_m$. Moreover the canonical mapping of $A$ into $\hat{A}$ induces an isomorphism of $A/a$ onto $\hat{A}/a\hat{A}$, hence also an isomorphism of $A_m/mA_m$ onto $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. The conclusion follows by applying Proposition 7 to the rings $A_m$ and $\hat{A}_{\hat{m}}$ and to the modules $M_m$ and $\hat{A}_{\hat{m}}$ since $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ is isomorphic to $\hat{M}_{\hat{m}}$ (III, loc. cit. and Proposition 8).
 
-$b)$ By Proposition 8 of III, $\S 3$, No. 4, the mapping $m \mapsto \hat{m}$ is a bijection of the set of maximal ideals of $A$ containing $a$ onto the set of maximal ideals of $\hat{A}$. Assertion $b)$ follows from this and from Proposition 9 of $\S 1$, No. 4.
+b) By Proposition 8 of III, $\S 3$, No. 4, the mapping $m \mapsto \hat{m}$ is a bijection of the set of maximal ideals of $A$ containing $a$ onto the set of maximal ideals of $\hat{A}$. Assertion b) follows from this and from Proposition 9 of $\S 1$, No. 4.
 
 #### Corollary 1 {#ac-viii-s3-prop-8-cor-1 .statement}
 
 Let $A$ be a Zariski ring (III, $\S 3$, No. 3, Definition 2). For every $A$-module $M$ of finite type, one has $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
 
-In fact, the topology of $A$ is the $a$-adic topology, where $a$ is an ideal contained in the radical of $A$ (*loc. cit.*), that is, contained in every maximal ideal $m$ of $A$. It is therefore enough to apply assertion $b)$ of Proposition 8.
+In fact, the topology of $A$ is the $a$-adic topology, where $a$ is an ideal contained in the radical of $A$ (*loc. cit.*), that is, contained in every maximal ideal $m$ of $A$. It is therefore enough to apply assertion b) of Proposition 8.
 
 #### Corollary 2 {#ac-viii-s3-prop-8-cor-2 .statement}
 

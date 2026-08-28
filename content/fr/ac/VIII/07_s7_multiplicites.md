@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: ab27f72b6ebd27b6e701e4d27ec3936f05f3a650bcf1b98764fd2ae1cd70f4ff
+content_sha256: 7d27f7af9a7636d37dc907e076096955063e5e6fb20fe656bf883ebb44e84d33
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -197,7 +197,7 @@ $$
 \dim(A/p) = \dim(B/pB) = \dim_A(B/pB)
 $$
 
-d’après le th. 1, $b)$ et $c)$ du § 2, no 3. Par suite, on a
+d’après le th. 1, b) et c) du § 2, no 3. Par suite, on a
 
 $$
 \dim_A(B) \geq \dim_A(B/pB) = \dim(A/p) = \dim(A) \geq \dim_A(B).
@@ -313,15 +313,15 @@ Posant $R(T) = (1 - T^\delta)/(1 - T) = 1 + T + \cdots + T^{\delta-1}$, cela s�
 (1) $$ (1 - T)^{-d} R(T) R_M(T) \leq (1 - T)^{-d''-1} R_{M''}(T) \leq $$
 $$ \leq (1 - T)^{-d} R(T) R_M(T) + (1 - T)^{-1} T^\delta P(T) . $$
 
-D’après le lemme 2 du § 4, n° 1, la première inégalité (1) implique soit $d'' \geq d$, soit $d'' = d - 1$ et $R(1) R_M(1) \leq R_{M''}(1)$, c’est-à-dire $\delta e_q(M) \leq e_q(M'')$. Cela démontre $a)$, puisque $d'' \leq d$.
+D’après le lemme 2 du § 4, n° 1, la première inégalité (1) implique soit $d'' \geq d$, soit $d'' = d - 1$ et $R(1) R_M(1) \leq R_{M''}(1)$, c’est-à-dire $\delta e_q(M) \leq e_q(M'')$. Cela démontre a), puisque $d'' \leq d$.
 
-Sous l’hypothèse de $b)$, on a $P(T) \in \mathbf{Z}[T]$ et $P(1) = \operatorname{long}_A(\operatorname{Ker} \varphi)$. La seconde inégalité (1) s’écrit
+Sous l’hypothèse de b), on a $P(T) \in \mathbf{Z}[T]$ et $P(1) = \operatorname{long}_A(\operatorname{Ker} \varphi)$. La seconde inégalité (1) s’écrit
 
 $$
 (1 - T)^{-d''-1} R_{M''}(T) \leq (1 - T)^{-d}(R(T) R_M(T) + T^\delta (1 - T)^{d-1} P(T)) .
 $$
 
-Supposons qu’on ait $d > 1$; alors le lemme 2 du § 4, n° 1 entraîne $d'' + 1 \leq d$, d’où $d'' = d - 1$ d’après la partie $a)$ de la démonstration; on a alors
+Supposons qu’on ait $d > 1$; alors le lemme 2 du § 4, n° 1 entraîne $d'' + 1 \leq d$, d’où $d'' = d - 1$ d’après la partie a) de la démonstration; on a alors
 
 $$
 R_{M''}(1) \leq R(1). R_M(1)
@@ -393,7 +393,7 @@ $$
 e_q(M) = e_x(M) \leq \operatorname{long}(M/xM) < + \infty .
 $$
 
-Les parties $a), b),$ et $c)$ résultent pour $m = 1$ de la prop. 8, et le cas général s’en déduit par récurrence. Supposons les hypothèses de $d)$ satisfaites et posons $x' = Ax_1 + \cdots + Ax_{m-1}$ et $M' = M/x'M$ de sorte que $M/xM$ s’identifie à $M'/x_mM'$. Alors, d’après $c)$, on a $\dim_A(M') = 1$ et $e_q(M) = e_q(M')$. D’après la prop. 8, $M/xM$ est de longueur finie et l’on a $e_q(M') = e_{x_mA}(M') \leq \operatorname{long}(M/xM)$. Mais, puisque $x_m^nM' = x^nM'$ pour tout $n$, on a $e_{x_mA}(M') = e_x(M')$. On a par ailleurs $e_x(M') \geq e_x(M)$ : cela résulte de $b)$ où l’on remplace $m$ par $m - 1$, $x$ par $x'$ et $q$ par $x$. Par conséquent, on a
+Les parties $a), b),$ et c) résultent pour $m = 1$ de la prop. 8, et le cas général s’en déduit par récurrence. Supposons les hypothèses de d) satisfaites et posons $x' = Ax_1 + \cdots + Ax_{m-1}$ et $M' = M/x'M$ de sorte que $M/xM$ s’identifie à $M'/x_mM'$. Alors, d’après c), on a $\dim_A(M') = 1$ et $e_q(M) = e_q(M')$. D’après la prop. 8, $M/xM$ est de longueur finie et l’on a $e_q(M') = e_{x_mA}(M') \leq \operatorname{long}(M/xM)$. Mais, puisque $x_m^nM' = x^nM'$ pour tout $n$, on a $e_{x_mA}(M') = e_x(M')$. On a par ailleurs $e_x(M') \geq e_x(M)$ : cela résulte de b) où l’on remplace $m$ par $m - 1$, $x$ par $x'$ et $q$ par $x$. Par conséquent, on a
 
 $$
 e_x(M) \leq e_x(M') = e_{x_mA}(M') = e_q(M') = e_q(M) .

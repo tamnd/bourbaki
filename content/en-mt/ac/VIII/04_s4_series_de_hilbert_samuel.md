@@ -33,11 +33,11 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: cac4b3e0d3a15c5af598b6cdc04ef5c6bb1753152f85aaf10d83ec91a6e3a5d2
+content_sha256: 8518b17dacc0f03ac30617ca34c9f6bdc5c164f581fb18cb0106084a763f0d6c
 translated_from: content/fr/ac/VIII/04_s4_series_de_hilbert_samuel.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 29a4140957a78efcaa97fc8a2eb1ebfb09a3abda73ca5eb1f03e64e664ab0af7
+source_content_sha256: f91639f7d7cb284f8e82df2e8c5a6d8828ff744149f2b0de169070ff32670b04
 translation_model: gpt-5.4
 translation_run: translate-en-mt-99f56812
 glossary_version: 34
@@ -130,7 +130,7 @@ $$
 
 then either $d < d'$, or else $d = d'$ and $Q(1) \leq R(1)$.
 
-a) We may write $F = (1-T)^{-r} T^n P(T)$ with $r, n \in \mathbf{Z}$ and $P(T) \in \mathbf{Z}[T]$. By euclidean division, we may write $P(T) = (1-T)^p R(T)$ with $R(T) \in \mathbf{Z}[T]$ and $R(1) \neq 0$. Hence $F = (1-T)^{-(r-p)} Q(T)$, where $Q(T) = T^n R(T) \in \mathbf{Z}[T, T^{-1}]$ and $Q(1) \neq 0$. This proves the existence of $d$ and $Q$. Moreover, if $(1-T)^r Q(T) = (1-T)^s R(T)$ with $r > s$ and $Q, R$ in $\mathbf{Z}[T, T^{-1}]$, we have $R(T) = (1-T)^{r-s} Q(T)$, hence $R(1) = 0$; this proves the uniqueness. Suppose that $F$ is $\geq 0$; if we had $d < 0$, then we should have $F(1) = 0$, which is impossible since $F$ is nonzero and all its coefficients are positive; thus we have $d \geq 0$. If $d = 0$, then $Q = F \geq 0$, hence $Q(1)$ is positive. If $d \geq 1$, then $Q(1)$ is positive by formula (3). This proves $a)$.
+a) We may write $F = (1-T)^{-r} T^n P(T)$ with $r, n \in \mathbf{Z}$ and $P(T) \in \mathbf{Z}[T]$. By euclidean division, we may write $P(T) = (1-T)^p R(T)$ with $R(T) \in \mathbf{Z}[T]$ and $R(1) \neq 0$. Hence $F = (1-T)^{-(r-p)} Q(T)$, where $Q(T) = T^n R(T) \in \mathbf{Z}[T, T^{-1}]$ and $Q(1) \neq 0$. This proves the existence of $d$ and $Q$. Moreover, if $(1-T)^r Q(T) = (1-T)^s R(T)$ with $r > s$ and $Q, R$ in $\mathbf{Z}[T, T^{-1}]$, we have $R(T) = (1-T)^{r-s} Q(T)$, hence $R(1) = 0$; this proves the uniqueness. Suppose that $F$ is $\geq 0$; if we had $d < 0$, then we should have $F(1) = 0$, which is impossible since $F$ is nonzero and all its coefficients are positive; thus we have $d \geq 0$. If $d = 0$, then $Q = F \geq 0$, hence $Q(1)$ is positive. If $d \geq 1$, then $Q(1)$ is positive by formula (3). This proves a).
 
 b) Suppose $d \geq d'$. Then $(1-T)^{-d} ((1-T)^{d-d'} R - Q) \geq 0$; since $S(T) = (1-T)^{d-d'} R - Q$ belong to $\mathbf{Z}[T, T^{-1}]$, this implies $S(1) \geq 0$ by what precedes. If $d > d'$, we have $S(1) = -Q(1) < 0$, whence a contradiction; if $d = d'$, we have $S(1) = R(1) - Q(1)$, whence $Q(1) \leq R(1)$.
 

@@ -24,11 +24,11 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: a59efcfcd6bf5c10b360c1d4ed73e7ae3569e4b50a637050f82c8ee32fd93e93
+content_sha256: 4b43194d901ac4ec0d47d5ea3bf86cd02c3117b9611413860f25e81b10a0e219
 translated_from: content/fr/alg/IX/05_s5_proprietes_speciales_aux_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 693e6fdc19755fda00825e8c7dc2e818b1c457da08c603a8d654e97e5a9f7eb2
+source_content_sha256: a7513191f15f67a01c59f7e85ca5a39815f6c65786bce9974fe7a37f3801ddc0
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-b0ed719d
 glossary_version: 34
@@ -201,13 +201,13 @@ If $A$ is a commutative field and $\Phi$ an alternating non-degenerate bilinear 
 
 *Exercises.* — ¶ 1) Let $A$ be a commutative principal ring, $E$ a free $A$-module of finite dimension $n$, $\Phi$ an alternating bilinear form on $E$; the ideals $A \alpha_i$ ($1 \leq i \leq r$) defined in Theorem 1 of No. 1 are called the *invariant factors* of $\Phi$.
 
-$a)$ Let $F$ be a submodule of $E$, and let $\Phi_F$ be the restriction of $\Phi$ to $F \times F$. Show that if $A \beta_i$ ($1 \leq i \leq s$) are the invariant factors of $\Phi_F$ (where $\beta_i$ divides $\beta_{i+1}$), then $s \leq r$ and $\beta_i$ is a multiple of $\alpha_i$ for $1 \leq i \leq s$. (Reduce to the case where $r = s = n/2$, and use Exercises 9 b) and 9 c) of Chapter VII, § 4).
+a) Let $F$ be a submodule of $E$, and let $\Phi_F$ be the restriction of $\Phi$ to $F \times F$. Show that if $A \beta_i$ ($1 \leq i \leq s$) are the invariant factors of $\Phi_F$ (where $\beta_i$ divides $\beta_{i+1}$), then $s \leq r$ and $\beta_i$ is a multiple of $\alpha_i$ for $1 \leq i \leq s$. (Reduce to the case where $r = s = n/2$, and use Exercises 9 b) and 9 c) of Chapter VII, § 4).
 
-$b)$ Let $E_1$ be a second free $A$-module of finite dimension, $\Phi_1$ an alternating bilinear form on $E_1$, $A \gamma_1, \ldots, A \gamma_s$ its invariant factors ($\gamma_i$ dividing $\gamma_{i+1}$). In order that $\Phi_1$ be the inverse image of $\Phi$ by a linear mapping of $E_1$ into $E$, it is necessary and sufficient that $s \leq r$ and that $\gamma_i$ be a multiple of $\alpha_i$ for $1 \leq i \leq s$. (Use $a)$ and Proposition 4 of Chapter VII, § 4, No. 5).
+b) Let $E_1$ be a second free $A$-module of finite dimension, $\Phi_1$ an alternating bilinear form on $E_1$, $A \gamma_1, \ldots, A \gamma_s$ its invariant factors ($\gamma_i$ dividing $\gamma_{i+1}$). In order that $\Phi_1$ be the inverse image of $\Phi$ by a linear mapping of $E_1$ into $E$, it is necessary and sufficient that $s \leq r$ and that $\gamma_i$ be a multiple of $\alpha_i$ for $1 \leq i \leq s$. (Use a) and Proposition 4 of Chapter VII, § 4, No. 5).
 
-$c)$ Let $F, G$ be two submodules of $E$, such that $F^0$ (resp. $G^0$) is supplementary to $F$ (resp. $G$) in $E$. If the restrictions of $\Phi$ to $F$ and $G$ are equivalent, show that the same is true of the restrictions of $\Phi$ to $F^0$ and to $G^0$, and that there exists an automorphism of $E$ leaving $\Phi$ invariant and transforming $F$ into $G$.
+c) Let $F, G$ be two submodules of $E$, such that $F^0$ (resp. $G^0$) is supplementary to $F$ (resp. $G$) in $E$. If the restrictions of $\Phi$ to $F$ and $G$ are equivalent, show that the same is true of the restrictions of $\Phi$ to $F^0$ and to $G^0$, and that there exists an automorphism of $E$ leaving $\Phi$ invariant and transforming $F$ into $G$.
 
-$d)$ Give an example of two submodules $F, G$ of $E$, of dimension 2, such that $F$ and $G$ admit complements in $E$ and such that the restrictions $\Phi_F$ and $\Phi_G$ are equivalent, but that there is no automorphism of $E$ leaving $\Phi$ invariant and transforming $F$ into $G$ (take $n = 4$).
+d) Give an example of two submodules $F, G$ of $E$, of dimension 2, such that $F$ and $G$ admit complements in $E$ and such that the restrictions $\Phi_F$ and $\Phi_G$ are equivalent, but that there is no automorphism of $E$ leaving $\Phi$ invariant and transforming $F$ into $G$ (take $n = 4$).
 
 2) Let $\Phi$ be an alternating bilinear form on a finite-dimensional vector space $E$. Show that for every vector subspace $M$ of $E$, the difference dim M – dim (M ∩ M^0) is even. (Consider first the case where $\Phi$ is non-degenerate).
 

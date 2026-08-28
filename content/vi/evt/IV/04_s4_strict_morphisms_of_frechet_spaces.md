@@ -25,9 +25,9 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: 5afadce9b2278bd417b40e11522977236ed7817fccfd8183243b8bf763e7caad
+content_sha256: a3028ae0aab75ee80b041c51eeea5e335259789a3ec59194d01dda918683cce4
 translated_from: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
-source_content_sha256: cc509bcb798ea7e4a952cb37673057b3029e76b3360b2b4288406331099feba7
+source_content_sha256: 4d9f753ed58d33db4d4b3dea16cf8a66e6a7677f9073f91db993b2b4767b89f4
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-8fdd1692
 glossary_version: 34
@@ -101,9 +101,9 @@ g) $^t u$ là một cấu xạ ngặt từ $F'_c$ vào $E'_c$ (các đối ngẫ
 
 Sự tương đương của a), b) và e) suy ra từ mệnh đề 3 của IV, p. 28 và nhận xét đứng trước nó. Sự tương đương của a) và c) chính xác là hệ quả 3 của I, p. 19. Nhận xét của IV, p. 28, cũng cho thấy rằng d) tương đương với việc ảnh của $u$ là đóng đối với tôpô yếu đi $\sigma(F, F')$ của F; khi đó sự tương đương của c) và d) suy ra từ mệnh đề 2 của IV, p. 4.
 
-Bây giờ ta chứng minh tính tương đương của e) và f). Chỉ cần chứng minh rằng f) kéo theo e). Giả sử rằng ảnh của $^t u$ là đóng đối với $\beta(E', E)$ trong $E'$. Chiếu theo định lý Banach-Dieudonné (IV, p. 25, hệ quả 2), chỉ cần chứng minh rằng với mọi lân cận lồi cân bằng U của 0 trong E, giao $B = ^t u(F') \cap U$ là compắc đối với $\sigma(E', E)$. Đối ngẫu mạnh $E'_b$ của không gian Fréchet E là đầy đủ (IV, p. 22, mệnh đề 2), do đó tập con đóng B của $E'_b$ là đầy đủ, và vì thế không gian định chuẩn $E'_B$ là đầy đủ (III, p. 8, hệ quả). Gọi $(V_n)$ là một dãy giảm tạo thành một hệ cơ bản các lân cận của 0 trong F. Khi đó $F'$ là hợp của các tập $C = V_n^\circ$ compắc đối với $\sigma(F', F)$, do đó $E'_B = \bigcup_n B_n$, với $B_n = E'_B \cap ^t u(C_n)$. Vì $E'_B$ là một không gian Baire, và mỗi tập $B_n$ đều lồi, cân bằng và đóng, tồn tại một số thực $r > 0$ và một số nguyên $n$ sao cho $B \subset r.B_n$. Khi đó ta có $B = U^\circ \cap {}^t u(r.C_n)$; vì các tập $U^\circ$ và $r.C_n$ là compắc và ${}^t u$ liên tục đối với các tôpô yếu, nên $B$ compắc đối với $\sigma(E', E)$. Điều này hoàn tất chứng minh tính tương đương của $e)$ và $f)$.
+Bây giờ ta chứng minh tính tương đương của e) và f). Chỉ cần chứng minh rằng f) kéo theo e). Giả sử rằng ảnh của $^t u$ là đóng đối với $\beta(E', E)$ trong $E'$. Chiếu theo định lý Banach-Dieudonné (IV, p. 25, hệ quả 2), chỉ cần chứng minh rằng với mọi lân cận lồi cân bằng U của 0 trong E, giao $B = ^t u(F') \cap U$ là compắc đối với $\sigma(E', E)$. Đối ngẫu mạnh $E'_b$ của không gian Fréchet E là đầy đủ (IV, p. 22, mệnh đề 2), do đó tập con đóng B của $E'_b$ là đầy đủ, và vì thế không gian định chuẩn $E'_B$ là đầy đủ (III, p. 8, hệ quả). Gọi $(V_n)$ là một dãy giảm tạo thành một hệ cơ bản các lân cận của 0 trong F. Khi đó $F'$ là hợp của các tập $C = V_n^\circ$ compắc đối với $\sigma(F', F)$, do đó $E'_B = \bigcup_n B_n$, với $B_n = E'_B \cap ^t u(C_n)$. Vì $E'_B$ là một không gian Baire, và mỗi tập $B_n$ đều lồi, cân bằng và đóng, tồn tại một số thực $r > 0$ và một số nguyên $n$ sao cho $B \subset r.B_n$. Khi đó ta có $B = U^\circ \cap {}^t u(r.C_n)$; vì các tập $U^\circ$ và $r.C_n$ là compắc và ${}^t u$ liên tục đối với các tôpô yếu, nên $B$ compắc đối với $\sigma(E', E)$. Điều này hoàn tất chứng minh tính tương đương của e) và f).
 
-Sau cùng sự tương đương của $g)$ với các điều kiện trước đó suy ra từ mệnh đề 18 của GT, X, § 2, No. 10 và bổ đề sau đây.
+Sau cùng sự tương đương của g) với các điều kiện trước đó suy ra từ mệnh đề 18 của GT, X, § 2, No. 10 và bổ đề sau đây.
 
 #### Bổ đề 1 {#evt-iv-s4-lem-1 .statement}
 
@@ -118,7 +118,7 @@ Theo định lý của Mackey (IV, p. 2, th. 1) và sự kiện là trên $E'$ (
 (ii) *${}^t u$ là một cấu xạ toàn ánh ngặt đối với các tôpô yếu.*
 (iii) *${}^t u$ là toàn ánh.*
 
-Hàm ý (i) $\Rightarrow$ (ii) suy ra ngay lập tức từ sự tương đương của các điều kiện $a)$, $d)$ và $e)$ của đl. 1 và từ IV, p. 6, mđ. 5. Rõ ràng là (ii) kéo theo (iii). Sau cùng, ta chứng minh rằng (iii) kéo theo (i) : nếu ${}^t u$ là toàn ánh thì $u$ là một cấu xạ ngặt theo sự tương đương của $a)$ và $e)$ trong đl. 1 ; việc $u$ là đơn ánh suy ra từ mđ. 5 của IV, p. 6.
+Hàm ý (i) $\Rightarrow$ (ii) suy ra ngay lập tức từ sự tương đương của các điều kiện a), d) và e) của đl. 1 và từ IV, p. 6, mđ. 5. Rõ ràng là (ii) kéo theo (iii). Sau cùng, ta chứng minh rằng (iii) kéo theo (i) : nếu ${}^t u$ là toàn ánh thì $u$ là một cấu xạ ngặt theo sự tương đương của a) và e) trong đl. 1 ; việc $u$ là đơn ánh suy ra từ mđ. 5 của IV, p. 6.
 
 #### Hệ quả 2 {#evt-iv-s4-lem-1-cor-2 .statement}
 
@@ -129,7 +129,7 @@ Hàm ý (i) $\Rightarrow$ (ii) suy ra ngay lập tức từ sự tương đươn
 
 Sự tương đương của (i) và (ii) suy ra từ đl. của Banach (I, p. 17, đl. 1).
 
-Do sự tương đương của $a)$ và $c)$ trong định lý 1, điều kiện (ii) nói rằng $u$ là một cấu xạ ngặt và ảnh của nó trù mật trong F đối với $\sigma(F, F')$. Khi đó sự tương đương của (ii) và (iii) suy ra từ sự tương đương của $a)$ và $d)$ trong định lý 1 và từ mệnh đề 5 của IV, p. 6.
+Do sự tương đương của a) và c) trong định lý 1, điều kiện (ii) nói rằng $u$ là một cấu xạ ngặt và ảnh của nó trù mật trong F đối với $\sigma(F, F')$. Khi đó sự tương đương của (ii) và (iii) suy ra từ sự tương đương của a) và d) trong định lý 1 và từ mệnh đề 5 của IV, p. 6.
 
 Nếu $u : E \to F$ là một cấu xạ ngặt của các không gian Fréchet, cấu xạ chuyển vị ${}^t u$ không nhất thiết là một cấu xạ ngặt từ $F'_b$ vào $E'_b$ (IV, p. 62, bài tập 3). Tuy nhiên, ta có kết quả bộ phận sau :
 

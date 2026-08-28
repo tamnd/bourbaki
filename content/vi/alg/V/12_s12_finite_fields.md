@@ -30,9 +30,9 @@ subsections:
       pdf_page: 211
 statements: 11
 exercises: 14
-content_sha256: 4fcfe75acb90771cb99f3bc92d8ded7dc8a8a057846b1da96f1d313dbdf753a2
+content_sha256: 072715d9d83bb07d43d7a32300f7c4df0e9edbc9f31b8892c735d4e130e7fe48
 translated_from: content/en/alg/V/12_s12_finite_fields.md
-source_content_sha256: e60a2a890add7e12050f25d7a498d8768d7ca3d96969eb55b1ce5018b03c8a13
+source_content_sha256: 015df9588250490b3cf29a4070314574c53be485d5b18a0be1ed1cd6516770b3
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-826667eb
 glossary_version: 34
@@ -110,7 +110,7 @@ Cho $p$ là đặc số của $K$ và $f$ là bậc của $K$ trên $\mathbf{F}_
 
 Bây giờ cho L là một mở rộng con của $\Omega$, có bậc $m$ trên $K$. Với tư cách là không gian vectơ trên $K$, $L$ đẳng cấu với $K^m$ nên có $q^m$ phần tử. Do đó ta có $x^{q^m} = x$ với mọi $x \in L$ (Mệnh đề 2), do đó $L \subset K_m$. Vì $[L : K] = [K_m : K] = m$, cuối cùng suy ra $L = K_m$.
 
-Vậy ta đã chứng minh các khẳng định $a)$ và $b)$, còn $c)$ là tầm thường.
+Vậy ta đã chứng minh các khẳng định a) và b), còn c) là tầm thường.
 
 #### Hệ quả {#alg-v-s12-n2-cor-1 .statement}
 
@@ -130,7 +130,7 @@ b) Với mỗi $x \in \mathbf{K}_m$, chuẩn của $x$ đối với $K$ bằng $
 
 c) Mọi phần tử của $K$ đều là vết (resp. chuẩn) của một phần tử của $\mathbf{K}_m$.*
 
-Cho $\Gamma$ là nhóm cyclic các tự đẳng cấu của $\mathbf{K}_m$ sinh bởi $\sigma_q$. Trường bất biến của $\Gamma$ gồm các phần tử $x$ của $\mathbf{K}_m$ sao cho $x^q = x$, do đó bằng $K$. Vậy $\mathbf{K}_m$ là một mở rộng Galois của $K$ với nhóm Galois $\Gamma$, và nhóm sau có cấp bằng $[K_m : K] = m$ (V, p. 66, Định lý 3). Do đó suy ra $a)$.
+Cho $\Gamma$ là nhóm cyclic các tự đẳng cấu của $\mathbf{K}_m$ sinh bởi $\sigma_q$. Trường bất biến của $\Gamma$ gồm các phần tử $x$ của $\mathbf{K}_m$ sao cho $x^q = x$, do đó bằng $K$. Vậy $\mathbf{K}_m$ là một mở rộng Galois của $K$ với nhóm Galois $\Gamma$, và nhóm sau có cấp bằng $[K_m : K] = m$ (V, p. 66, Định lý 3). Do đó suy ra a).
 
 Ta có $\Gamma = \{1, \sigma_q, \sigma_q^2, \ldots, \sigma_q^{m-1}\}$; do đó chuẩn của một phần tử $x$ của $\mathbf{K}_m$ đối với $K$ là $N(x) = \prod_{i=0}^{m-1} \sigma_q^i(x) = x^{1 + q + \cdots + q^{m-1}}$ và ta có $1 + q + \cdots + q^{m-1} = \frac{q^m - 1}{q - 1}$. Điều này chứng minh b). Cho $\xi$ là một phần tử sinh của nhóm cyclic $\mathbf{K}_m^*$; ảnh của chuẩn $N : \mathbf{K}_m^* \to K^*$ là nhóm con cyclic của $K^*$ được sinh bởi phần tử $\xi = N(\xi) = \xi^{(q^m - 1)/(q - 1)}$; vì $\xi$ có cấp $q^m - 1$, nên $\xi$ có cấp $q - 1$, và do đó sinh ra $K^*$. Điều này chứng minh rằng mọi phần tử khác không của K đều là chuẩn của một phần tử khác không của K; hơn nữa, ta có $0 = N(0)$.
 

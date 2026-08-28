@@ -29,7 +29,7 @@ subsections:
       pdf_page: 29
 statements: 40
 exercises: 16
-content_sha256: cd216f4473ca42ded2206eb6bb0c4659b8f54dd4567c37dde5e1e1476691ef01
+content_sha256: 05b31ef931fa1971af6f075dc663eed9dae014f8584d9c3690519a9cceb1ce2d
 ---
 
 ## § 2. CARTAN SUBALGEBRAS AND REGULAR ELEMENTS OF A LIE ALGEBRA
@@ -162,7 +162,7 @@ Let $\mathfrak{g}$ be a Lie algebra of dimension $n$. If $x\in \mathfrak{g}$, wr
 
 det(T $-$ ad $x$) $=\sum_{i=0}^na_i(x)T^i$, with $a_i(x)\in k$.
 
-We have $a_i(x) = (-1)^{n-i}$Tr $(\bigwedge^{n-i}$ ad $x)$, cf. Algebra, Chap. III, §8, no. 11. This shows that $x \rightarrow a_i(x)$ is a homogeneous polynomial map of degree $n-i$ from $\mathfrak{g}$ to $k($Algebra, Chap. IV, §5, no. 9).
+We have $a_i(x) = (-1)^{n-i}$Tr $(\bigwedge^{n-i}$ ad x), cf. Algebra, Chap. III, §8, no. 11. This shows that $x \rightarrow a_i(x)$ is a homogeneous polynomial map of degree $n-i$ from $\mathfrak{g}$ to $k($Algebra, Chap. IV, §5, no. 9).
 
 #### Remark 1 {#lie-vii-s2-n2-rem-1 .statement tag=00U1}
 
@@ -350,7 +350,7 @@ a$)\mathfrak{h}$ is commutative.
 
 b) If $\rho$ is a finite dimensional semi-simple representation of $\mathfrak{g}$, the elements of $\rho (\mathfrak{h})$ are semi-simple.
 
-Let $\mathfrak{c}$ be the centre of $\mathfrak{g}$, and $\mathfrak{s}$ its derived algebra. Then $\mathfrak{g}=\mathfrak{c}\times \mathfrak{s}$, so $\mathfrak{h}=\mathfrak{c}\times \mathfrak{h}'$, where $\mathfrak{h}'$ is a Cartan subalgebra of $\mathfrak{s}$ (Prop. 2). In view of Th. $2,\mathfrak{h}'$ is commutative, hence so is $\mathfrak{h}$. Moreover, $\rho (\mathfrak{h}')$ consists of semi-simple elements and so does $\rho (\mathfrak{c})$ (Chap. I, §6, no. 5, Th. 4); assertion $b)$ follows.
+Let $\mathfrak{c}$ be the centre of $\mathfrak{g}$, and $\mathfrak{s}$ its derived algebra. Then $\mathfrak{g}=\mathfrak{c}\times \mathfrak{s}$, so $\mathfrak{h}=\mathfrak{c}\times \mathfrak{h}'$, where $\mathfrak{h}'$ is a Cartan subalgebra of $\mathfrak{s}$ (Prop. 2). In view of Th. $2,\mathfrak{h}'$ is commutative, hence so is $\mathfrak{h}$. Moreover, $\rho (\mathfrak{h}')$ consists of semi-simple elements and so does $\rho (\mathfrak{c})$ (Chap. I, §6, no. 5, Th. 4); assertion b) follows.
 
 ### Exercises {#lie-vii-s2-exercises}
 

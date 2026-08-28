@@ -40,9 +40,9 @@ subsections:
       pdf_page: 141
 statements: 30
 exercises: 16
-content_sha256: 670f0ecc210b3f4e72bf27defc032db9ab96fdac6d93832273e87ff746c6f976
+content_sha256: 821d2793f0968215825c0c0f20dce6dfde8b9878e77827ffbab9492c85729d60
 translated_from: content/en/evt/III/01_s1_bornology_in_a_topological_vector_space.md
-source_content_sha256: d71d0969533dd7f5fff98cca3d3702c7e8c3ccc31a6fa2115384c36fec2e38a7
+source_content_sha256: f0367575f236480d19bac46c262f379ed1995cd00476c147df4184564e42e7b4
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ef9d8679
 glossary_version: 34
@@ -117,11 +117,11 @@ Do đó, nếu $E$ là lồi địa phương và mêtric hóa được, và nế
 *Cho $E$ là một không gian lồi địa phương. Tập hợp các tập con bị chặn của $E$ là một bornology thích nghi.*
 
 Ta cần thiết lập các tính chất sau:
-$a)$ Nếu $B$ là một tập con bị chặn của $E$, mọi tập con của $B$ đều bị chặn.
-$b)$ Hợp của hai tập con bị chặn là bị chặn.
-$c)$ Mọi tập hợp đồng dạng với một tập bị chặn đều bị chặn.
-$d)$ Bao lồi cân bằng đóng (II, p. 13) của một tập con bị chặn là bị chặn.
-Nếu $p$ là một nửa chuẩn liên tục trên $E$, các quả cầu của $p$ là lồi, cân bằng, đóng và tập hợp đồng dạng với một quả cầu là một quả cầu. Do đó, nếu $p$ bị chặn trên hai tập con $X$ và $Y$ của $E$, thì nó cũng bị chặn trên bao lồi cân bằng đóng của $X \cup Y$, và trên các tập hợp đồng dạng với chúng. Điều này thiết lập các tính chất $b), c)$ và $d)$, còn $a)$ là hiển nhiên.
+a) Nếu $B$ là một tập con bị chặn của $E$, mọi tập con của $B$ đều bị chặn.
+b) Hợp của hai tập con bị chặn là bị chặn.
+c) Mọi tập hợp đồng dạng với một tập bị chặn đều bị chặn.
+d) Bao lồi cân bằng đóng (II, p. 13) của một tập con bị chặn là bị chặn.
+Nếu $p$ là một nửa chuẩn liên tục trên $E$, các quả cầu của $p$ là lồi, cân bằng, đóng và tập hợp đồng dạng với một quả cầu là một quả cầu. Do đó, nếu $p$ bị chặn trên hai tập con $X$ và $Y$ của $E$, thì nó cũng bị chặn trên bao lồi cân bằng đóng của $X \cup Y$, và trên các tập hợp đồng dạng với chúng. Điều này thiết lập các tính chất $b), c)$ và d), còn a) là hiển nhiên.
 
 #### Định nghĩa 5 {#evt-iii-s1-def-5 .statement}
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 98
 statements: 21
 exercises: 5
-content_sha256: d5ba8729e49a5c92f5deb98930280d399305ae7aa0e2ba2ff48dc698b66ef057
+content_sha256: 78703e6d58720e263be19c51e2fa693696c9cc42a9bed494acc2297bb920b9cf
 ---
 
 ## § 7. POINTS EXTRÉMAUX ET GÉNÉRATRICES EXTRÉMALES
@@ -113,7 +113,7 @@ Pour tout demi-espace ouvert $D$ de $E$ contenant $x$, $A \cap \overline{D}$ est
 
 *Dans un espace localement convexe séparé*, *soient* $A$ *un ensemble convexe compact*, $K$ *une partie compacte de* $A$. *Les conditions suivantes sont équivalentes* :
 
-$a)$ *A est l’enveloppe fermée convexe de* $K$.
+a) *A est l’enveloppe fermée convexe de* $K$.
 
 b) K rencontre l’intersection de A et d’un quelconque de ses hyperplans d’appui.
 c) K contient l’ensemble des points extrémaux de A.

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 74
 statements: 27
 exercises: 12
-content_sha256: efef60106549fed117211899cca477680fe6017ef38411a3238436c9a89e9f04
+content_sha256: 0579a874882d9e7d3c1b38a078e814db3421c17202711fc74c4f641509ba64bf
 ---
 
 ## § 6. DIMENSION DES ANNEAUX GRADUÉS
@@ -197,9 +197,9 @@ a) Soient $a_1, ..., a_n$ des éléments de $H$, homogènes de degrés $> 0$, et
 
 b) Il existe une famille $(a_1, ..., a_d)$ d’éléments de $H$, tous homogènes d’un même degré $> 0$, avec $d = \dim_H(M)$, et telle que $(a_1/1, ..., a_d/1)$ soit une suite sécante maximale pour le $S^{-1}H$-module $S^{-1}M$. Si de plus $H$ est engendré par $H_1$ comme $H_0$-algèbre, et si le corps résiduel de $H_0$ est infini, on peut prendre les $a_i$ de degré 1.
 
-a) Posons $N = M / \sum_{i=1}^n a_i M$. On a $\dim_H(N) = \dim_{S^{-1}H}(S^{-1}N)$ d’après la prop. 4. Par suite, le $S^{-1}H$-module $S^{-1}N$ est de longueur finie si et seulement si le $H$-module $N$ est de longueur finie, c’est-à-dire si et seulement si $N$ est un $H_0$-module de type fini. Si $\varphi_*(M)$ est le module sur $H_0[X_1, ..., X_n]$ déduit de $M$ par l’homomorphisme $\varphi : H_0[X_1, ..., X_n] \to M$, on a $N = \varphi_*(M)/\sum_{i=1}^n X_i \cdot \varphi_*(M)$. Par suite (A, II, p. 171, cor. 3 et remarque) $\varphi_*(M)$ est un module de type fini sur $H_0[X_1, ..., X_n]$ si et seulement si $N$ est un $H_0$-module de type fini. Ceci prouve $a)$.
+a) Posons $N = M / \sum_{i=1}^n a_i M$. On a $\dim_H(N) = \dim_{S^{-1}H}(S^{-1}N)$ d’après la prop. 4. Par suite, le $S^{-1}H$-module $S^{-1}N$ est de longueur finie si et seulement si le $H$-module $N$ est de longueur finie, c’est-à-dire si et seulement si $N$ est un $H_0$-module de type fini. Si $\varphi_*(M)$ est le module sur $H_0[X_1, ..., X_n]$ déduit de $M$ par l’homomorphisme $\varphi : H_0[X_1, ..., X_n] \to M$, on a $N = \varphi_*(M)/\sum_{i=1}^n X_i \cdot \varphi_*(M)$. Par suite (A, II, p. 171, cor. 3 et remarque) $\varphi_*(M)$ est un module de type fini sur $H_0[X_1, ..., X_n]$ si et seulement si $N$ est un $H_0$-module de type fini. Ceci prouve a).
 
-Pour prouver $b)$, nous établirons d’abord un lemme.
+Pour prouver b), nous établirons d’abord un lemme.
 
 #### Lemme 4 {#ac-viii-s6-lem-4 .statement}
 
@@ -219,7 +219,7 @@ $$
 $$
 d’après la prop. 4. On a donc $\dim_H(M/bM) \geq d - 1$, d’où le lemme 4.
 
-Reprenons la démonstration de la prop. 6, $b)$. On peut supposer $\dim_H(M) > 0$. Remarquons que tout élément minimal de $\mathrm{Supp}(M)$ est gradué (appliquer le lemme 1 du no 2 au quotient de $H$ par l’annulateur de $M$). D’après la prop. 8 de III, § 1, no 4, il existe donc un élément homogène $b$ de $H$, de degré $> 0$, n’appartenant à aucun des éléments minimaux $p$ de $\mathrm{Supp}(M)$ tels que $\dim(H/p) = \dim_H(M)$. D’après le lemme 4, on a $\dim_H(M/bM) = \dim_H(M) - 1$. Supposons de plus $H$ engendrée par $H_1$ comme $H_0$-algèbre et le corps résiduel $k$ de $H_0$ infini. Pour tout élément minimal $p$ de $\mathrm{Supp}(M)$, tel que $\dim(H/p) = \dim_H(M)$, considérons le sous-espace vectoriel $V_p = (p \cap H_1) \otimes_{H_0} k$ du $k$-espace vectoriel $V = H_1 \otimes_{H_0} k$. Si on avait $V_p = V$, on aurait $\mathfrak{p} \cap H_1 = H_1$ (II, § 3, n° 2, prop. 4), d’où $H_1 \subset \mathfrak{p}$ et $\dim_H(M) = \dim(H/\mathfrak{p}) \leq \dim(H/H_{\geq 1}) = 0$, ce qui n’est pas. Puisque $k$ est supposé infini, la réunion des $V_p$ est distincte de $V$; si $b \in H_1$ est tel que $b \otimes 1$ n’appartient à aucun des $V_p$, on a $\dim(M/bM) = \dim_H(M) - 1$.
+Reprenons la démonstration de la prop. 6, b). On peut supposer $\dim_H(M) > 0$. Remarquons que tout élément minimal de $\mathrm{Supp}(M)$ est gradué (appliquer le lemme 1 du no 2 au quotient de $H$ par l’annulateur de $M$). D’après la prop. 8 de III, § 1, no 4, il existe donc un élément homogène $b$ de $H$, de degré $> 0$, n’appartenant à aucun des éléments minimaux $p$ de $\mathrm{Supp}(M)$ tels que $\dim(H/p) = \dim_H(M)$. D’après le lemme 4, on a $\dim_H(M/bM) = \dim_H(M) - 1$. Supposons de plus $H$ engendrée par $H_1$ comme $H_0$-algèbre et le corps résiduel $k$ de $H_0$ infini. Pour tout élément minimal $p$ de $\mathrm{Supp}(M)$, tel que $\dim(H/p) = \dim_H(M)$, considérons le sous-espace vectoriel $V_p = (p \cap H_1) \otimes_{H_0} k$ du $k$-espace vectoriel $V = H_1 \otimes_{H_0} k$. Si on avait $V_p = V$, on aurait $\mathfrak{p} \cap H_1 = H_1$ (II, § 3, n° 2, prop. 4), d’où $H_1 \subset \mathfrak{p}$ et $\dim_H(M) = \dim(H/\mathfrak{p}) \leq \dim(H/H_{\geq 1}) = 0$, ce qui n’est pas. Puisque $k$ est supposé infini, la réunion des $V_p$ est distincte de $V$; si $b \in H_1$ est tel que $b \otimes 1$ n’appartient à aucun des $V_p$, on a $\dim(M/bM) = \dim_H(M) - 1$.
 
 Procédant par récurrence sur $d = \dim_H(M)$, on construit alors une suite $(b_1, ..., b_d)$ d’éléments de $H$, avec $b_i$ homogène de degré $n_i > 0$ et telle que $M / \sum_{i=1}^n b_i M$ soit un $H$-module de longueur finie. Si on suppose $H$ engendrée par $H_1$ comme $H_0$-algèbre et le corps résiduel de $H_0$ infini, on peut supposer $n_i = 1$ pour $i = 1, ..., d$. D’après la prop. 4, on a $\dim_{S^{-1}H}(S^{-1}M) = d$ et
 $$

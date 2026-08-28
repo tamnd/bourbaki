@@ -52,7 +52,7 @@ subsections:
       pdf_page: 208
 statements: 76
 exercises: 30
-content_sha256: cab6a0979c591c6441cc1365cc5797d0d0c056c4296e4a011be2206016a05305
+content_sha256: acfd62aad6c0bad51a748ba75bf35dbc1ae5b649cfb29a539c6d24f3c15c4356
 ---
 
 ## § 6. Groupes de Lie réels ou complexes
@@ -229,7 +229,7 @@ Soit $G$ un groupe de Lie de dimension finie. Soit $H$ un sous-groupe de $G$. No
 #### Remarque 3 {#lie-iii-s6-n2-rem-3 .statement}
 
 Soit $V$ une variété de classe $C^r$. Soient $M$ une partie de $V$, $x$ et $y$ des éléments de $M$. Considérons la propriété suivante:
-$P_{M,x,y}$: il existe $I, x_0, x_1, \ldots, x_n f_1, \ldots, f_n$ tels que: $a)$ $I$ est une partie ouverte connexe de $K$; $b)$ $x_0, \ldots, x_n$ sont dans $M$, $x_0 = x, x_n = y$; $c)$ pour $1 \leq i \leq n$, $f_i$ est une application de classe $C^r$ de $I$ dans $V$ qui prend les valeurs $x_{i-1}$ et $x_i$, et $f_i(I) \subset M$.
+$P_{M,x,y}$: il existe $I, x_0, x_1, \ldots, x_n f_1, \ldots, f_n$ tels que: a) $I$ est une partie ouverte connexe de $K$; b) $x_0, \ldots, x_n$ sont dans $M$, $x_0 = x, x_n = y$; c) pour $1 \leq i \leq n$, $f_i$ est une application de classe $C^r$ de $I$ dans $V$ qui prend les valeurs $x_{i-1}$ et $x_i$, et $f_i(I) \subset M$.
 Nous dirons que $M$ est une partie $C^r$-connexe de $V$ si, quels que soient les éléments $x, y$ de $M$, on a la propriété $P_{M,x,y}$.
 
 #### Proposition 4 {#lie-iii-s6-prop-4 .statement}
@@ -795,7 +795,7 @@ $$
 
 d’où $\psi \circ \gamma = \varphi$. Il est clair que $L(\psi)$, donc $\psi$, sont déterminés de manière unique par l’égalité $\psi \circ \gamma = \varphi$. On a ainsi prouvé que le couple $(\tilde{G}, \gamma)$ possède les propriétés (i) et (iii).
 
-$b)$ Passons au cas général. Soient $F$ la composante neutre de $G$, $M = G/F$, $i : F \to G$ et $p : G \to M$ les morphismes canoniques. Appliquons à $F$ la partie $a)$ de la démonstration. On obtient un couple $(\tilde{F}, \delta)$. Pour tout $g \in G$, $\mathrm{Int}\,g|F = \omega'(g)$ est un automorphisme de $F$. D’après la propriété universelle de $\tilde{F}$, il existe un automorphisme $\omega(g)$ du groupe de Lie complexe $\tilde{F}$, et un seul, tel que $\delta \circ \omega'(g) = \omega(g) \circ \delta$. Il est clair que $\omega$ est un morphisme de $G$ dans $\mathrm{Aut}(\tilde{H})$. Si $g \in G$ et $f \in F$, on a
+b) Passons au cas général. Soient $F$ la composante neutre de $G$, $M = G/F$, $i : F \to G$ et $p : G \to M$ les morphismes canoniques. Appliquons à $F$ la partie a) de la démonstration. On obtient un couple $(\tilde{F}, \delta)$. Pour tout $g \in G$, $\mathrm{Int}\,g|F = \omega'(g)$ est un automorphisme de $F$. D’après la propriété universelle de $\tilde{F}$, il existe un automorphisme $\omega(g)$ du groupe de Lie complexe $\tilde{F}$, et un seul, tel que $\delta \circ \omega'(g) = \omega(g) \circ \delta$. Il est clair que $\omega$ est un morphisme de $G$ dans $\mathrm{Aut}(\tilde{H})$. Si $g \in G$ et $f \in F$, on a
 $$
 \delta(gf g^{-1}) = (\delta \circ \omega'(g)) (f) = (\omega(g) \circ \delta)(f) = \omega(g)(\delta(f)).
 $$

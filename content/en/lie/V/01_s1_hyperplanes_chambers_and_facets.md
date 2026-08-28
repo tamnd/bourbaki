@@ -36,7 +36,7 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: 08d3ad7c38a9e145a52c4176809f3769f2c3ee8866bc7e2d946613a4ee1b611a
+content_sha256: d79a67a6abd874fd314fbe2bcdfe35f01a4dbed5de50756cdd3d83045e3a21ea
 ---
 
 ## § 1. HYPERPLANES, CHAMBERS AND FACETS
@@ -175,7 +175,7 @@ a) For any $H \in \mathfrak{H}'$, there exists an open half-space $D_H$ bounded 
 
 b) *The set C does not meet any hyperplane belonging to $\mathfrak{H} - \mathfrak{H}'$. Under these conditions, C is a chamber defined by $\mathfrak{H}$ in E, and $D_H = D_H(C)$ for all $H \in \mathfrak{H}$.
 
-Properties $a)$ and $b)$ show that C is a convex subset of U; hence there is a chamber $C'$ with $C \subset C'$. Since $C \subset D_H$, we have $D_H = D_H(C)$ for all H in $\mathfrak{H}'$, hence $C = D_{\mathfrak{H}'}(C) \supset D_{\mathfrak{H}}(C)$ since $\mathfrak{H}' \subset \mathfrak{H}$; we have $D_{\mathfrak{H}}(C) = C'$ by (6), hence $C \supset C'$. Finally therefore, $C = C'$.
+Properties a) and b) show that C is a convex subset of U; hence there is a chamber $C'$ with $C \subset C'$. Since $C \subset D_H$, we have $D_H = D_H(C)$ for all H in $\mathfrak{H}'$, hence $C = D_{\mathfrak{H}'}(C) \supset D_{\mathfrak{H}}(C)$ since $\mathfrak{H}' \subset \mathfrak{H}$; we have $D_{\mathfrak{H}}(C) = C'$ by (6), hence $C \supset C'$. Finally therefore, $C = C'$.
 
 #### Proposition 6 {#lie-v-s1-prop-6 .statement}
 
@@ -219,13 +219,13 @@ By Prop. 7, (iii), there exists a point $a$ of $H$ that does not belong to any h
 
 *Let* $C$ *be a chamber and* $\mathcal{M}$ *the set of walls of* $C$. *Then* $C = D_{\mathcal{M}}(C)$ *and every subset* $\mathcal{L}$ *of* $\mathfrak{H}$ *such that* $C = D_{\mathcal{L}}(C)$ *contains* $\mathcal{M}$. *A subset* $F$ *of* $\overline{C}$ *is a facet if and only if it is a facet of* $E$ *relative to the family* $\mathcal{M}$.
 
-$a)$ Let $\mathcal{L}$ be a subset of $\mathfrak{H}$ such that $C = D_{\mathcal{L}}(C)$. Consider a hyperplane $L$ belonging to $\mathfrak{H}$ but not to $\mathcal{L}$; let $\mathfrak{N}$ be the set of hyperplanes $H \neq L$ belonging to $\mathfrak{H}$. Then $\mathcal{L} \subset \mathfrak{N}$, hence $C = D_{\mathfrak{N}}(C)$, and $L$ does not meet $D_{\mathfrak{N}}(C)$. By the implication (i) $\Longrightarrow$ (iii) in Prop. 4, the hyperplane $L$ is not a wall of $C$. Consequently, every wall of $C$ belongs to $\mathcal{L}$.
+a) Let $\mathcal{L}$ be a subset of $\mathfrak{H}$ such that $C = D_{\mathcal{L}}(C)$. Consider a hyperplane $L$ belonging to $\mathfrak{H}$ but not to $\mathcal{L}$; let $\mathfrak{N}$ be the set of hyperplanes $H \neq L$ belonging to $\mathfrak{H}$. Then $\mathcal{L} \subset \mathfrak{N}$, hence $C = D_{\mathfrak{N}}(C)$, and $L$ does not meet $D_{\mathfrak{N}}(C)$. By the implication (i) $\Longrightarrow$ (iii) in Prop. 4, the hyperplane $L$ is not a wall of $C$. Consequently, every wall of $C$ belongs to $\mathcal{L}$.
 
-$b)$ We assume that $C = D_{\mathcal{L}}(C)$. Let $H$ be a hyperplane belonging to $\mathcal{L}$ that is not a wall of $C$, and put $\mathcal{L}' = \mathcal{L} - \{ H \}$. By the implication (iii) $\Longrightarrow$ (i) in Prop. 4, the convex set $D_{\mathcal{L}'}(C)$ does not meet $H$, so $D_{\mathcal{L}'}(C) \subset D_H(C)$ and $C = D_{\mathcal{L}'}(C)$. If $\mathfrak{F}$ is a finite subset of $\mathcal{L}$ that does not contain any wall of $C$, we conclude by induction on the cardinal of $\mathfrak{F}$ that $C = D_{\mathcal{L} - \mathfrak{F}}(C)$.
+b) We assume that $C = D_{\mathcal{L}}(C)$. Let $H$ be a hyperplane belonging to $\mathcal{L}$ that is not a wall of $C$, and put $\mathcal{L}' = \mathcal{L} - \{ H \}$. By the implication (iii) $\Longrightarrow$ (i) in Prop. 4, the convex set $D_{\mathcal{L}'}(C)$ does not meet $H$, so $D_{\mathcal{L}'}(C) \subset D_H(C)$ and $C = D_{\mathcal{L}'}(C)$. If $\mathfrak{F}$ is a finite subset of $\mathcal{L}$ that does not contain any wall of $C$, we conclude by induction on the cardinal of $\mathfrak{F}$ that $C = D_{\mathcal{L} - \mathfrak{F}}(C)$.
 
-$c)$ Let $a$ be a point of $C$; clearly, $C \subset D_{\mathfrak{M}}(a)$. Let $a'$ be a point of $D_{\mathfrak{M}}(a)$; since the closed segment $[aa']$ is compact, the set $\mathfrak{F}$ of hyperplanes $H \in \mathfrak{H}$ that meet $[aa']$ is finite. Since $a$ and $a'$ are strictly on the same side of every wall of $C$, no wall of $C$ belongs to $\mathfrak{F}$; by $b)$, we have $C = D_{\mathfrak{H} - \mathfrak{F}}(C)$. Since $a' \in D_{\mathfrak{H} - \mathfrak{F}}(a)$, we have $a' \in C$. We have therefore proved that $D_{\mathfrak{M}}(a) \subset C$, which establishes the first part of the proposition.
+c) Let $a$ be a point of $C$; clearly, $C \subset D_{\mathfrak{M}}(a)$. Let $a'$ be a point of $D_{\mathfrak{M}}(a)$; since the closed segment $[aa']$ is compact, the set $\mathfrak{F}$ of hyperplanes $H \in \mathfrak{H}$ that meet $[aa']$ is finite. Since $a$ and $a'$ are strictly on the same side of every wall of $C$, no wall of $C$ belongs to $\mathfrak{F}$; by b), we have $C = D_{\mathfrak{H} - \mathfrak{F}}(C)$. Since $a' \in D_{\mathfrak{H} - \mathfrak{F}}(a)$, we have $a' \in C$. We have therefore proved that $D_{\mathfrak{M}}(a) \subset C$, which establishes the first part of the proposition.
 
-$d)$ To prove the last assertion of the proposition, it clearly suffices to show that a subset $F$ of $\overline{C}$ that is a facet of $E$ relative to $\mathcal{M}$ is a facet of $E$ relative to $\mathfrak{H}$, or that every hyperplane $H \in \mathfrak{H}$ that meets $F$ contains $F$. So let $H$ be a hyperplane that meets $F$ but does not contain it. Since $F$ is open in its affine support, it is not completely on one side of $H$. It follows that $\overline{C}$ is not completely on one side of $H$ and hence that the hyperplane $H$ does not belong to $\mathfrak{H}$, which completes the proof.
+d) To prove the last assertion of the proposition, it clearly suffices to show that a subset $F$ of $\overline{C}$ that is a facet of $E$ relative to $\mathcal{M}$ is a facet of $E$ relative to $\mathfrak{H}$, or that every hyperplane $H \in \mathfrak{H}$ that meets $F$ contains $F$. So let $H$ be a hyperplane that meets $F$ but does not contain it. Since $F$ is open in its affine support, it is not completely on one side of $H$. It follows that $\overline{C}$ is not completely on one side of $H$ and hence that the hyperplane $H$ does not belong to $\mathfrak{H}$, which completes the proof.
 
 #### Remark 1 {#lie-v-s1-n4-rem-1 .statement}
 

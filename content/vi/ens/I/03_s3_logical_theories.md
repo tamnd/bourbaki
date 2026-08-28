@@ -34,9 +34,9 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: 2b2a666131e748aa5a4aa051e8fe1f090649b8af414572aef224f61948987ec4
+content_sha256: 6a2d7dda8f5f4d337b8766c66ff66bde0b47a745cf53db11a57921368f70c7e7
 translated_from: content/en/ens/I/03_s3_logical_theories.md
-source_content_sha256: a310534540adf256129872d501d90fc5778da7cea7f38586a64dd9e2bdb19c94
+source_content_sha256: 37ec32a3c0cdf2c61a57848be909293d325cc40d690c0e328f7cb619bf02c9e1
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-5cba219d
 glossary_version: 34
@@ -52,9 +52,9 @@ Một *lý thuyết lôgic* là bất kỳ lý thuyết $\mathscr{T}$ nào trong
 
 S1. *Nếu $A$ là một quan hệ trong $\mathscr{T}$, thì quan hệ $(A$ or $A) \Rightarrow A$ là một tiên đề của $\mathscr{T}$* [^1].
 
-S2. *Nếu $A$ và $B$ là các quan hệ trong $\mathscr{T}$, thì quan hệ $A \Rightarrow (A$ or $B)$ là một tiên đề của $\mathscr{T}$.*
+S2. *Nếu $A$ và $B$ là các quan hệ trong $\mathscr{T}$, thì quan hệ $A \Rightarrow (A$ or B) là một tiên đề của $\mathscr{T}$.*
 
-S3. *Nếu $A$ và $B$ là các quan hệ trong $\mathscr{T}$, thì quan hệ $(A$ hoặc $B) \Rightarrow (B$ hoặc $A)$ là một tiên đề của $\mathscr{T}$.*
+S3. *Nếu $A$ và $B$ là các quan hệ trong $\mathscr{T}$, thì quan hệ $(A$ hoặc $B) \Rightarrow (B$ hoặc A) là một tiên đề của $\mathscr{T}$.*
 
 S4. *Nếu $A$, $B$, và $C$ là các quan hệ trong $\mathscr{T}$, thì quan hệ*
 
@@ -62,7 +62,7 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ hoặc } A) \Rightarrow (C \text{ ho�
 
 *là một tiên đề của $\mathscr{T}$.*
 
-Những quy tắc này thực ra là các sơ đồ; hãy kiểm tra điều này, chẳng hạn đối với S2. Cho $R$ là một quan hệ thu được bằng cách áp dụng S2; khi đó tồn tại các quan hệ $A$ và $B$ trong $\mathscr{T}$ sao cho $R$ là quan hệ $A \Rightarrow (A$ hoặc $B)$. Cho $T$ là một số hạng trong $\mathscr{T}$, cho $x$ là một chữ cái, và cho $A'$ và $B'$ là các quan hệ $(T|x)A$ và $(T|x)B$; khi đó $(T|x)R$ chính là $A' \Rightarrow (A'$ hoặc $B')$, và do đó có thể thu được bằng cách áp dụng S2.
+Những quy tắc này thực ra là các sơ đồ; hãy kiểm tra điều này, chẳng hạn đối với S2. Cho $R$ là một quan hệ thu được bằng cách áp dụng S2; khi đó tồn tại các quan hệ $A$ và $B$ trong $\mathscr{T}$ sao cho $R$ là quan hệ $A \Rightarrow (A$ hoặc B). Cho $T$ là một số hạng trong $\mathscr{T}$, cho $x$ là một chữ cái, và cho $A'$ và $B'$ là các quan hệ $(T|x)A$ và $(T|x)B$; khi đó $(T|x)R$ chính là $A' \Rightarrow (A'$ hoặc $B')$, và do đó có thể thu được bằng cách áp dụng S2.
 
 Một cách trực giác, các quy tắc S1 đến S4 chỉ đơn thuần biểu thị ý nghĩa gắn với các từ "hoặc" và "kéo theo" trong ngôn ngữ thông thường của toán học [^2].
 
@@ -76,17 +76,17 @@ C6. *Cho $A$, $B$, $C$ là các quan hệ trong $\mathscr{T}$. Nếu $A \Rightar
 
 Đối với $(B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))$ là một tiên đề của $\mathscr{T}$, bằng cách thay thế $A$ bởi $B$, $B$ bởi $C$, và $C$ bởi "không phải $A$" trong S4. Theo C1 (§ 2, no. 2), $(A \Rightarrow B) \Rightarrow (A \Rightarrow C)$ là một định lý trong $\mathscr{T}$. Một lần áp dụng C1 nữa hoàn tất chứng minh.
 
-C7. *Nếu $A$ và $B$ là các quan hệ trong $\mathscr{T}$, thì $B \Rightarrow (A$ hoặc $B)$ là một định lý trong $\mathscr{T}$. \*
+C7. *Nếu $A$ và $B$ là các quan hệ trong $\mathscr{T}$, thì $B \Rightarrow (A$ hoặc B) là một định lý trong $\mathscr{T}$. \*
 
-Vì $B \Rightarrow (B$ hoặc $A)$ và $(B$ hoặc $A) \Rightarrow (A$ hoặc $B)$ là các tiên đề của $\mathscr{T}$ do S2 và S3. Bây giờ dùng C6.
+Vì $B \Rightarrow (B$ hoặc A) và $(B$ hoặc $A) \Rightarrow (A$ hoặc B) là các tiên đề của $\mathscr{T}$ do S2 và S3. Bây giờ dùng C6.
 
 C8. *Nếu $A$ là một quan hệ trong $\mathscr{T}$, $A \Rightarrow A$ là một định lý trong $\mathscr{T}$.*
 
-Vì $A \Rightarrow (A$ hoặc $A)$ và $(A$ hoặc $A) \Rightarrow A$ là các tiên đề, theo S2 và S1. Bây giờ dùng C6.
+Vì $A \Rightarrow (A$ hoặc A) và $(A$ hoặc $A) \Rightarrow A$ là các tiên đề, theo S2 và S1. Bây giờ dùng C6.
 
 C9. *Nếu $A$ là một quan hệ và $B$ là một định lý trong $\mathscr{T}$, thì $A \Rightarrow B$ là một định lý trong $\mathscr{T}$.*
 
-Vì $B \Rightarrow ((\text{không phải } A)$ or $B)$ là một định lý theo C7, và do đó "(không phải $A$) or $B$", tức là $A \Rightarrow B$, là một định lý theo C1.
+Vì $B \Rightarrow ((\text{không phải } A)$ or B) là một định lý theo C7, và do đó "(không phải $A$) or $B$", tức là $A \Rightarrow B$, là một định lý theo C1.
 
 C10. *Nếu $A$ là một quan hệ trong $\mathscr{T}$, thì "$A$ or (không phải $A$)" là một định lý trong $\mathscr{T}$.*
 

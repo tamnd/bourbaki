@@ -33,7 +33,7 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: 7145dc9e275e6c620ef3f8584b3c77f0cf520f2f7af51faf4e903a4a5aacc0e9
+content_sha256: 0fdc2956e848c1bc0958511ea7eceea5dd8893532c764935e56746e10f1e943d
 ---
 
 ## § 2. ANNEAUX DE COHEN
@@ -58,11 +58,11 @@ b) Supposons $p1_C$ nilpotent. Soit $d$ le plus petit entier positif tel que $p^
 
 c) Supposons que $p1_C$ ne soit pas nilpotent. Alors $C$ est un anneau de valuation discrète dont le corps résiduel est de caractéristique $p$, et le corps des fractions de caractéristique $0$. Les idéaux de la forme $p^nC$, avec $n \in \mathbf{N}$, sont deux à deux distincts ; ils forment tous les idéaux non nuls de $C$. Le $C$-module $C$ n’est pas de longueur finie.
 
-L’assertion $a)$ résulte de la prop. 19 de III, $\S 2$, no 13.
+L’assertion a) résulte de la prop. 19 de III, $\S 2$, no 13.
 
 On a $\bigcap_{n \geqslant 0} p^n C = \{0\}$ par hypothèse. Soit $x \neq 0$ dans $C$; il existe un entier $n \geqslant 0$ tel que $x \in p^n C$, $x \notin p^{n+1} C$; il existe donc un élément $y$ de $C$ tel que $x = p^n y$; comme $y$ n’appartient pas à $pC$, $y$ est inversible.
 
-Supposons que $p 1_C$ ne soit pas nilpotent. Si $x$ et $x'$ sont deux éléments non nuls de $C$, il existe deux entiers $n \geqslant 0$, $n' \geqslant 0$ et deux éléments inversibles $y$, $y'$ de $C$ tels que $x = p^n y$, $x' = p^{n'} y'$. On a alors $xx' = p^{n+n'} yy' \neq 0$, donc $C$ est intègre. Comme $C$ est un anneau local, mais n’est pas un corps et que l’idéal maximal $m_C = pC$ de $C$ est principal, $C$ est un anneau de valuation discrète (VI, $\S 3$, no 6, prop. 9). Les idéaux non nuls de $C$ sont alors de la forme $p^n C$ d’après *loc. cit.*, prop. 8, et sont deux à deux distincts. En particulier, l’anneau $C$ n’est pas artinien, donc le $C$-module $C$ n’est pas de longueur finie. Le corps résiduel $C/pC$ de $C$ est de caractéristique $p$. Soit $q$ la caractéristique du corps des fractions de $C$. On a $p 1_C \neq 0$, d’où $p \neq q$. Par ailleurs, si $q$ était non nulle, on aurait $q 1_C = 0$ donc $C/pC$ serait de caractéristique $q \neq p$, ce qui est absurde. Ceci prouve $c)$.
+Supposons que $p 1_C$ ne soit pas nilpotent. Si $x$ et $x'$ sont deux éléments non nuls de $C$, il existe deux entiers $n \geqslant 0$, $n' \geqslant 0$ et deux éléments inversibles $y$, $y'$ de $C$ tels que $x = p^n y$, $x' = p^{n'} y'$. On a alors $xx' = p^{n+n'} yy' \neq 0$, donc $C$ est intègre. Comme $C$ est un anneau local, mais n’est pas un corps et que l’idéal maximal $m_C = pC$ de $C$ est principal, $C$ est un anneau de valuation discrète (VI, $\S 3$, no 6, prop. 9). Les idéaux non nuls de $C$ sont alors de la forme $p^n C$ d’après *loc. cit.*, prop. 8, et sont deux à deux distincts. En particulier, l’anneau $C$ n’est pas artinien, donc le $C$-module $C$ n’est pas de longueur finie. Le corps résiduel $C/pC$ de $C$ est de caractéristique $p$. Soit $q$ la caractéristique du corps des fractions de $C$. On a $p 1_C \neq 0$, d’où $p \neq q$. Par ailleurs, si $q$ était non nulle, on aurait $q 1_C = 0$ donc $C/pC$ serait de caractéristique $q \neq p$, ce qui est absurde. Ceci prouve c).
 
 Supposons que $p 1_C$ soit nilpotent. Soit $d$ le plus petit entier positif tel que $p^d 1_C = 0$. On a une suite d’idéaux
 
@@ -83,7 +83,7 @@ contrairement à l’hypothèse $p^{d-1} 1_C \neq 0$. Donc les éléments de la 
 
 Si le $p$-anneau $C$ est intègre, c’est un anneau de valuation discrète, ou un corps de caractéristique $p$.
 
-Supposons $C$ intègre. Si $p 1_C$ est nilpotent, on a $p 1_C = 0$, et $\{0\}$ est un idéal maximal de $C$, donc $C$ est un corps de caractéristique $p$. Si $p 1_C$ n’est pas nilpotent, alors $C$ est un anneau de valuation discrète d’après la prop. 1, $c)$.
+Supposons $C$ intègre. Si $p 1_C$ est nilpotent, on a $p 1_C = 0$, et $\{0\}$ est un idéal maximal de $C$, donc $C$ est un corps de caractéristique $p$. Si $p 1_C$ n’est pas nilpotent, alors $C$ est un anneau de valuation discrète d’après la prop. 1, c).
 
 #### Corollaire 2 {#ac-ix-s2-prop-1-cor-2 .statement}
 
@@ -115,17 +115,17 @@ b) Pour que $u$ soit surjectif, il faut et il suffit que $v$ soit un isomorphism
 
 c) Pour que $u$ soit un isomorphisme, il faut et il suffit que $v$ soit un isomorphisme et qu’on ait $l(C) = l(C')$.
 
-Soit $n \geqslant 1$ un entier. On a $u(p^{n-1}1_C) = p^{n-1}1_{C'}$, donc la relation $p^{n-1}1_{C'} \neq 0$ entraîne $p^{n-1}1_C \neq 0$ et lui est équivalente si $u$ est injectif. On a donc $l(C') \leqslant l(C)$ avec égalité si $u$ est injectif. Si $u$ n’est pas injectif, il existe un entier $i < l(C)$ tel que le noyau de $u$ soit l’idéal $p^iC$ de $C$; on a alors $p^i1_{C'} = 0$, d’où $l(C') \leqslant i$. Ceci prouve $a)$.
+Soit $n \geqslant 1$ un entier. On a $u(p^{n-1}1_C) = p^{n-1}1_{C'}$, donc la relation $p^{n-1}1_{C'} \neq 0$ entraîne $p^{n-1}1_C \neq 0$ et lui est équivalente si $u$ est injectif. On a donc $l(C') \leqslant l(C)$ avec égalité si $u$ est injectif. Si $u$ n’est pas injectif, il existe un entier $i < l(C)$ tel que le noyau de $u$ soit l’idéal $p^iC$ de $C$; on a alors $p^i1_{C'} = 0$, d’où $l(C') \leqslant i$. Ceci prouve a).
 
-Comme $\kappa_C$ et $\kappa_{C'}$ sont des corps, l’homomorphisme $v$ est injectif. Si $u$ est surjectif, il en est de même de $v$ qui est donc un isomorphisme. Réciproquement, supposons $v$ surjectif. Alors pour tout entier $n \geqslant 0$, l’application $v_n : p^nC/p^{n+1}C \to p^nC'/p^{n+1}C'$ déduite de $u$ est surjective. Comme $C$ est complet pour la filtration $pC$-adique et $C'$ séparé pour la filtration $pC'$-adique, $u$ est surjectif d’après le cor. 2 du th. 1 de III, § 2, no 8. Ceci prouve $b)$.
+Comme $\kappa_C$ et $\kappa_{C'}$ sont des corps, l’homomorphisme $v$ est injectif. Si $u$ est surjectif, il en est de même de $v$ qui est donc un isomorphisme. Réciproquement, supposons $v$ surjectif. Alors pour tout entier $n \geqslant 0$, l’application $v_n : p^nC/p^{n+1}C \to p^nC'/p^{n+1}C'$ déduite de $u$ est surjective. Comme $C$ est complet pour la filtration $pC$-adique et $C'$ séparé pour la filtration $pC'$-adique, $u$ est surjectif d’après le cor. 2 du th. 1 de III, § 2, no 8. Ceci prouve b).
 
-Enfin, $c)$ résulte de $a)$ et $b)$.
+Enfin, c) résulte de a) et b).
 
 #### Proposition 3 {#ac-ix-s2-prop-3 .statement}
 
 Soit $(C_n, \pi_{n,m})$ un système projectif d’anneaux relatif à l’ensemble d’indices $\mathbf{N}$. On suppose que $C_n$ est un $p$-anneau pour tout $n \in \mathbf{N}$ et que les homomorphismes $\pi_{n,m}$ sont surjectifs. Alors $C = \varprojlim C_n$ est un $p$-anneau, et pour tout $n \in \mathbf{N}$, l’homomorphisme canonique $\pi_n : C \to C_n$ est surjectif et induit un isomorphisme de $\kappa_C$ sur $\kappa_{C_n}$.
 
-Comme les applications $\pi_{n,m}$ sont surjectives, il en est de même des applications $\pi_n$ (E, III, p. 58, prop. 5). Montrons que $C$ est un $p$-anneau. Soit $d_n$ la longueur de $C_n$. D’après la prop. 2, $a)$, la suite des éléments $d_n$ de $\mathbf{N} \cup \{ + \infty \}$ est croissante ; si elle est stationnaire, il existe un entier $n_0$ tel que $\pi_{n,m}$ soit un isomorphisme de $C_m$ sur $C_n$ lorsque $n_0 \leqslant n \leqslant m$, de sorte que $C$, isomorphe à $C_{n_0}$, est un $p$-anneau.
+Comme les applications $\pi_{n,m}$ sont surjectives, il en est de même des applications $\pi_n$ (E, III, p. 58, prop. 5). Montrons que $C$ est un $p$-anneau. Soit $d_n$ la longueur de $C_n$. D’après la prop. 2, a), la suite des éléments $d_n$ de $\mathbf{N} \cup \{ + \infty \}$ est croissante ; si elle est stationnaire, il existe un entier $n_0$ tel que $\pi_{n,m}$ soit un isomorphisme de $C_m$ sur $C_n$ lorsque $n_0 \leqslant n \leqslant m$, de sorte que $C$, isomorphe à $C_{n_0}$, est un $p$-anneau.
 
 Il suffit donc de considérer le cas où chaque $d_n$ est fini, et où la suite $(d_n)$ tend vers $+ \infty$. Munissons l’anneau $C$ de la filtration triviale (III, § 2, no 1, exemple 5). Pour $n \in \mathbf{N}$, soit $I_n$ le noyau de $\pi_n$; posons $I_n = C$ si $n < 0$. Notons $E$ le $C$-module $C$ muni de la filtration $(I_n)_{n \in \mathbf{Z}}$. Il est séparé et complet, car la topologie $\mathcal{T}$ définie par la filtration $(I_n)_{n \in \mathbf{Z}}$ est la topologie limite projective des topologies discrètes sur les $C_n$.
 
@@ -186,7 +186,7 @@ x = \sum_{\alpha \in \Lambda} c_\alpha^{p^m} Z_\alpha + py
 $$
 avec $c_\alpha \in A$ pour tout $\alpha \in \Lambda$, et $y \in C_{m-1} = C$. Si $x$ appartient à $C \cap m_A$, on a $\pi(x) = 0$ d’où $\sum_{\alpha \in \Lambda} \pi(c_\alpha)^{p^m} \pi(Z_\alpha) = 0$. Comme $\pi(S)$ est une $p$-base de $k$, on a $\pi(c_\alpha) = 0$ pour tout $\alpha \in \Lambda$ d’après A, V, p. 96. On a alors $c_\alpha \in m_A$, d’où $c_\alpha^m = 0$ et $a fortiori$ $c_\alpha^{p^m} = 0$. D’après (1), on a $x = py$, d’où le lemme 2.
 
-On a $p^m C = m_A^m = \{0\}$ pour $m$ assez grand et l’assertion $b)$ est donc triviale. L’assertion $c)$ résulte du lemme 1. Si $C'$ est un sous-anneau de Cohen de $A$ contenant $S$, on a $C' \supset C$ d’après le lemme 1. Mais comme l’inclusion de $C$ dans $C'$ induit un isomorphisme de $\kappa_C$ sur $\kappa_{C'}$, on a $C = C'$ (no 1, prop. 2, b)), et ceci achève de prouver a).
+On a $p^m C = m_A^m = \{0\}$ pour $m$ assez grand et l’assertion b) est donc triviale. L’assertion c) résulte du lemme 1. Si $C'$ est un sous-anneau de Cohen de $A$ contenant $S$, on a $C' \supset C$ d’après le lemme 1. Mais comme l’inclusion de $C$ dans $C'$ induit un isomorphisme de $\kappa_C$ sur $\kappa_{C'}$, on a $C = C'$ (no 1, prop. 2, b)), et ceci achève de prouver a).
 
 B) *Cas général*
 
@@ -260,7 +260,7 @@ a) On a $S \subset T$ : Soient $a \in S$ et $n \in \mathbf{N}$; comme le corps k
 
 b) La restriction de $\pi$ à T est injective : soient a et b deux éléments de T tels que $\pi(a) = \pi(b)$. Soit $n \in \mathbf{N}$; il existe deux éléments $a_n$ et $b_n$ de A tels que $a = a_n^{p^n}, b = b_n^{p^n}$. On a alors $\pi(a_n)^{p^n} = \pi(b_n)^{p^n}$, d’où $\pi(a_n) = \pi(b_n)$, c’est-à-dire $a_n \equiv b_n$ mod. $m_A$. D’après le lemme 1 du § 1, n° 1, on a $a_n^{p^n} \equiv b_n^{p^n}$ mod. $m_A^{n+1}$ c’est-à-dire $a \equiv b$ mod. $m_A^{n+1}$. Comme n est arbitraire, on a $a = b$.
 
-Les propriétés $a)$ et $b)$ ci-dessus, jointes à la formule $\pi(S) = k$, entraînent la relation $S = T$, d’où l’unicité.
+Les propriétés a) et b) ci-dessus, jointes à la formule $\pi(S) = k$, entraînent la relation $S = T$, d’où l’unicité.
 
 Prouvons maintenant l’existence de S. Avec les notations du th. 2, posons $\varphi = u \circ \tau_k$, c’est-à-dire (\S 1, n° 6)
 

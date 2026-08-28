@@ -42,9 +42,9 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: 3315d67a3e71400f9390f591d66a6ec33beb2346c2f6275e4e825ce460d39b7a
+content_sha256: 0729704699049f0b56ca8a3b77897585945f70b9ade2432257e3ddaaf1e61690
 translated_from: content/en/ens/II/01_s1_collectivizing_relations.md
-source_content_sha256: d56a752b9382bcb5c79d67d5985b55c2f3bd6fb3df74a70fba0b4987d204ff5e
+source_content_sha256: 66b930eb506c3b51a953913202d2c09d32c287559d09b0d8e113dcf5a16a08ac
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-bc006553
 glossary_version: 34
@@ -256,7 +256,7 @@ là một định lý, và mệnh đề suy ra từ C52. Cũng lưu ý rằng tr
 
 C53. *Cho $T$ là một số hạng, $A$ là một tập hợp, $x$ và $y$ là các chữ cái phân biệt. Giả sử rằng $x$ không xuất hiện trong $A$ và rằng $y$ không xuất hiện trong $A$ cũng như trong $T$. Khi đó quan hệ $(\exists x)(y = T$ và $x \in A)$ là xác định tập theo $y$.*
 
-Cho $R$ là quan hệ $y = T$. Quan hệ $(\forall y)(R \Rightarrow (y \in \{T\}))$ là đúng, do đó $(\forall x)(\exists X)(\forall y)(R \Rightarrow (y \in X))$ cũng đúng, trong đó $X$ là một chữ cái, phân biệt với $y$, không xuất hiện trong $R$. Theo S8, quan hệ $(\exists x)(x \in A$ and $R)$ là xác định tập theo $y$, và C53 được chứng minh.
+Cho $R$ là quan hệ $y = T$. Quan hệ $(\forall y)(R \Rightarrow (y \in \{T\}))$ là đúng, do đó $(\forall x)(\exists X)(\forall y)(R \Rightarrow (y \in X))$ cũng đúng, trong đó $X$ là một chữ cái, phân biệt với $y$, không xuất hiện trong $R$. Theo S8, quan hệ $(\exists x)(x \in A$ and R) là xác định tập theo $y$, và C53 được chứng minh.
 
 ¶ Quan hệ $(\exists x)(y = T$ và $x \in A)$ thường được đọc như sau: "$y$ có thể được đưa về dạng $T$ với một $x$ nào đó thuộc $A$". Tập hợp
 

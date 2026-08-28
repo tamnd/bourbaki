@@ -26,7 +26,7 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: 65f8820e4d64e153ee7f5c1a05752a873834c45994a25c3be9329dff8efe4b63
+content_sha256: 79621cc362921900b2880147d98a69d3c70fd45a623941128cab378eac8bd66c
 ---
 
 ## § 8. NORMS AND TRACES
@@ -202,13 +202,13 @@ $$
 
 For the rest of this No. we denote by E an extension of finite degree of K and by $x$ an element of E. We shall indicate how to calculate the norm and trace of $x$ in various cases.
 
-$a)$ *Case of a separable extension*: suppose that E is separable of degree $n$ over K, denote by $\Omega$ an algebraic closure of K and by $\sigma_1, \ldots, \sigma_n$ the $n$ distinct $K$-homomorphisms of E into R. By Formula (3) ($V$, p. 48) we have in R
+a) *Case of a separable extension*: suppose that E is separable of degree $n$ over K, denote by $\Omega$ an algebraic closure of K and by $\sigma_1, \ldots, \sigma_n$ the $n$ distinct $K$-homomorphisms of E into R. By Formula (3) ($V$, p. 48) we have in R
 
 $$
 \text{Tr}_{E/K}(x) = \sum_{i=1}^n \sigma_i(x) , \quad N_{E/K}(x) = \prod_{i=1}^n \sigma_i(x) .
 $$
 
-$b)$ *Case of a p-radical extension*: suppose that K is of characteristic $p > 0$ and that the extension E is p-radical; there exists an integer $e \geq 0$ such that $[E:K] = p^e$ ($V$, p. 26, Prop. 4). If $f$ is the height of $x$ over K, the minimal polynomial of $x$ over K is $X^{p^f} - x^{p^f}$ ($V$, p. 24, Prop. 1). By Prop. 3 we have $N_{E/K}(x) = (x^{p^f})^{p^e/p^f}$, whence
+b) *Case of a p-radical extension*: suppose that K is of characteristic $p > 0$ and that the extension E is p-radical; there exists an integer $e \geq 0$ such that $[E:K] = p^e$ ($V$, p. 26, Prop. 4). If $f$ is the height of $x$ over K, the minimal polynomial of $x$ over K is $X^{p^f} - x^{p^f}$ ($V$, p. 24, Prop. 1). By Prop. 3 we have $N_{E/K}(x) = (x^{p^f})^{p^e/p^f}$, whence
 
 $$
 N_{E/K}(x) = x^{p^e} = x^{[E:K]}
@@ -220,7 +220,7 @@ $$
 \text{Tr}_{E/K}(x) = p^e \cdot x = [E:K] x = \begin{cases} x & \text{if } [E:K] = 1 \\ 0 & \text{if } [E:K] > 1 . \end{cases}
 $$
 
-$c)$ *General case*: we can summarize the calculation of norm and trace in the following proposition:
+c) *General case*: we can summarize the calculation of norm and trace in the following proposition:
 
 #### Proposition 4 {#alg-v-s8-prop-4 .statement}
 

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 55
 statements: 46
 exercises: 27
-content_sha256: b02e1311c2ff0a23ff6c124913cfb6d3650bcde817306e1dbf56e2aaa92763a8
+content_sha256: 23e49e1cb4d4ecf0b9179744e76a93dd40bd81e41f49b5a37db2603ddab93cef
 ---
 
 ## § 2. Mesures vectorielles
@@ -217,9 +217,9 @@ a) tout élément de $\mathcal{L}_0$ est adhérent à une partie bornée de $\ma
 
 b) tout élément de $\mathcal{L}^1((\mu_i)_{i \in I})$ est adhérent à une partie bornée de $\mathcal{L}_0$.
 
-Pour démontrer $a)$, on peut se restreindre au cas d’un élément de la forme $f = g \varphi_K$ ($g \in C(T)$, K compact dans T). Il est immédiat (en vertu du th. d’Urysohn) que $f$ est adhérente à l’ensemble B des fonctions de la forme $gh$, où $h$ décrit l’ensemble des applications continues de T dans $[0, 1]$, égale à 1 dans K et à 0 dans le complémentaire d’un voisinage compact fixe H de K. De plus, l’ensemble B est borné, car $\mu_i(|gh|) \leq \mu_i(|g \varphi_H|)$ pour toute fonction $h$ ayant les propriétés précédentes.
+Pour démontrer a), on peut se restreindre au cas d’un élément de la forme $f = g \varphi_K$ ($g \in C(T)$, K compact dans T). Il est immédiat (en vertu du th. d’Urysohn) que $f$ est adhérente à l’ensemble B des fonctions de la forme $gh$, où $h$ décrit l’ensemble des applications continues de T dans $[0, 1]$, égale à 1 dans K et à 0 dans le complémentaire d’un voisinage compact fixe H de K. De plus, l’ensemble B est borné, car $\mu_i(|gh|) \leq \mu_i(|g \varphi_H|)$ pour toute fonction $h$ ayant les propriétés précédentes.
 
-Démontrons maintenant $b)$ : on peut se restreindre au cas d’un élément $f \geq 0$ de $\mathcal{L}^1((\mu_i)_{i \in I})$. Pour tout $i \in I$ et tout $\varepsilon > 0$, il existe une partie compacte $K(i, \varepsilon)$ de T telle que la restriction de $f$ à $K(i, \varepsilon)$ soit continue et que $\mu_i(|f - f \varphi_{K(i, \varepsilon)}|) \leq \varepsilon$. Il est clair que $f$ est adhérente à l’ensemble C des $f \varphi_{K(i, \varepsilon)}$ (où $i \in I, \varepsilon > 0$). En vertu du th. d’Urysohn, l’ensemble C est contenu dans $\mathcal{L}_0$; de plus, il est borné, car on a $\mu_x(f \varphi_{K(i, \varepsilon)}) \leq \mu_x(f)$ quels que soient $i \in I, x \in I$ et $\varepsilon > 0$.
+Démontrons maintenant b) : on peut se restreindre au cas d’un élément $f \geq 0$ de $\mathcal{L}^1((\mu_i)_{i \in I})$. Pour tout $i \in I$ et tout $\varepsilon > 0$, il existe une partie compacte $K(i, \varepsilon)$ de T telle que la restriction de $f$ à $K(i, \varepsilon)$ soit continue et que $\mu_i(|f - f \varphi_{K(i, \varepsilon)}|) \leq \varepsilon$. Il est clair que $f$ est adhérente à l’ensemble C des $f \varphi_{K(i, \varepsilon)}$ (où $i \in I, \varepsilon > 0$). En vertu du th. d’Urysohn, l’ensemble C est contenu dans $\mathcal{L}_0$; de plus, il est borné, car on a $\mu_x(f \varphi_{K(i, \varepsilon)}) \leq \mu_x(f)$ quels que soient $i \in I, x \in I$ et $\varepsilon > 0$.
 
 Démontrons maintenant la prop. 6 : pour toute fonction $g \in \mathcal{J}(T)$ et toute semi-norme continue $q$ sur F, on a
 $$

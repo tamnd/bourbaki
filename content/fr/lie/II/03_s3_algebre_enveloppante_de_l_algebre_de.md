@@ -24,7 +24,7 @@ subsections:
       pdf_page: 33
 statements: 10
 exercises: 4
-content_sha256: 2710c57d6254eb41ad2ed3c2cce87034680840acbd9b1dffbcf10c482af146d7
+content_sha256: 8e67284651045a700a67dbcb545887f81a8fbe0cbd98b7244242686345694ce3
 ---
 
 ## § 3. Algèbre enveloppante de l’algèbre de Lie libre
@@ -47,7 +47,7 @@ Enfin, comme $L(X)$ est un $K$-module libre (§ 2, n° 11, cor. du th. 1), $\sig
 
 Il existe sur l’algèbre $A(X)$ un unique coproduit faisant de $A(X)$ une bigèbre et tel que les éléments de $X$ soient primitifs. De plus, $\beta$ est un isomorphisme de la bigèbre $U(L(X))$ sur $A(X)$ munie de cette structure de bigèbre.
 
-Cela résulte de l’assertion $b)$ du théorème et du fait que $X$ engendre l’algèbre unifère $A(X)$.
+Cela résulte de l’assertion b) du théorème et du fait que $X$ engendre l’algèbre unifère $A(X)$.
 
 Dorénavant, on munit $A(X)$ de cette structure de bigèbre et *on identifie* $L(X)$ à son image par $\alpha$, c’est-à-dire *à la sous-algèbre de Lie de $A(X)$ engendrée par $X$*.
 
@@ -261,7 +261,7 @@ $$
 1 - \sum_{x \in X} T_x = \prod_{\alpha \in \mathbf{N}^X - \{0\}} (1 - T^\alpha)^{c(\alpha)}.
 $$
 
-Le lemme 1 donne alors $b)$.
+Le lemme 1 donne alors b).
 
 Substituant maintenant une même indéterminée $U$ aux $T_x$ pour $x \in X$, dans la formule (20), on obtient
 
@@ -269,7 +269,7 @@ $$
 1 - nU = \prod_{\alpha \in \mathbf{N}^X - \{0\}} (1 - U^{|c(\alpha)|})^{c(\alpha)} = \prod_{r > 0} (1 - U^r)^{c(r)}.
 $$
 
-En appliquant de nouveau le lemme 1, on en déduit $a)$.
+En appliquant de nouveau le lemme 1, on en déduit a).
 
 #### Exemple {#lie-ii-s3-n3-exa-1 .statement}
 

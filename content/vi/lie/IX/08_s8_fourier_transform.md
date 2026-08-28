@@ -29,9 +29,9 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 0ab895d033fa8a8f1df8149a8693d30f5f1cc5e10a12cfed39275d39541d0531
+content_sha256: 0e5ede1a2f9e3fa34eac4c19ec9fe6f8444157d7832c554639657a8d0ed1abc6
 translated_from: content/en/lie/IX/08_s8_fourier_transform.md
-source_content_sha256: 5c04fb9747792c80021adfdf8ba74d886810070b809ae6894a3b9cfbc17ca32c
+source_content_sha256: 7146b47c4591798a6237702fc9df4724c46d7ba060e5bca3cd680259b2af702e
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-33b0919e
 glossary_version: 34
@@ -211,13 +211,13 @@ $$
 0\leq \widetilde{\Gamma}(u) =\|\lambda (u) +\rho \|^2- \|\rho \|^2
 $$
 
-nên $\widetilde{\Gamma}(u) + 1\preccurlyeq (\|\lambda (u)\|+ 1)^2\preccurlyeq \widetilde{\Gamma}(u) + 1$, do đó suy ra $a)$.
+nên $\widetilde{\Gamma}(u) + 1\preccurlyeq (\|\lambda (u)\|+ 1)^2\preccurlyeq \widetilde{\Gamma}(u) + 1$, do đó suy ra a).
 
 Hơn nữa, nếu G là nửa đơn,
 
 $\|\lambda (u) +\rho \|\preccurlyeq d(u)\preccurlyeq \|\lambda (u) +\rho \|^N$, trong đó $N = 1/$2(dim $G-$ dim T)
 
-(§7, no. 5, Cor. 1 of Th. 3), nên $\|\lambda (u)\|+ 1\preccurlyeq d(u)\preccurlyeq (\|\lambda (u)\|+ 1)^N$, do đó suy ra $b)$.
+(§7, no. 5, Cor. 1 of Th. 3), nên $\|\lambda (u)\|+ 1\preccurlyeq d(u)\preccurlyeq (\|\lambda (u)\|+ 1)^N$, do đó suy ra b).
 
 Từ Mệnh đề 2 suy ra rằng điều kiện (i) độc lập với lựa chọn xuyến cực đại, buồng, và chuẩn, và rằng điều kiện (ii) độc lập với lựa chọn phần tử Casimir. Một hàm $\varphi$ thỏa mãn các điều kiện (i) và (ii) được gọi là tăng vừa phải (tương ứng, giảm nhanh). Tích của hai hàm tăng vừa phải là tăng vừa phải; tích của một hàm tăng vừa phải và một hàm giảm nhanh là giảm nhanh. Nếu $\varphi$ giảm nhanh, họ $(\varphi (u))_{u\in\widehat{G}}$ là tổng được.
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 18
 statements: 33
 exercises: 11
-content_sha256: b80da8fc4bd9b2c66ba62bb7534455869cd480af5bb0d11f25e7a33dcb8a8ed0
+content_sha256: d0b3b077c1955f69849dda6a726d1bd24d1564acc1742282499e9a40fa3374d9
 ---
 
 ## § 2. TORES MAXIMAUX DES GROUPES DE LIE COMPACTS
@@ -131,7 +131,7 @@ a) Soit $S$ un tore de $G$. Le centralisateur de $S$ est connexe ; c’est la r�
 
 b) Soit $s$ une sous-algèbre commutative de $L(G)$. Le fixateur de $s$ dans $G$ est connexe ; c’est la réunion des tores maximaux de $G$ dont l’algèbre de Lie contient $s$.
 
-Pour démontrer $a)$, il suffit de prouver que si un élément $g$ de $G$ centralise $S$, il existe un tore maximal de $G$ contenant $S$ et $g$. Or, si $C$ est le centralisateur de $g$, on a $g \in C_0$ (cor. 3) et $S \subset C_0$; si $T$ est un tore maximal du groupe de Lie compact connexe $C_0$ contenant $S$, on a $g \in T$ (cor. 2), d’où $a)$. L’assertion $b)$ résulte de $a)$ appliqué à l’adhérence du sous-groupe intégral d’algèbre de Lie $s$, compte tenu de III, § 9, n° 3, prop. 9.
+Pour démontrer a), il suffit de prouver que si un élément $g$ de $G$ centralise $S$, il existe un tore maximal de $G$ contenant $S$ et $g$. Or, si $C$ est le centralisateur de $g$, on a $g \in C_0$ (cor. 3) et $S \subset C_0$; si $T$ est un tore maximal du groupe de Lie compact connexe $C_0$ contenant $S$, on a $g \in T$ (cor. 2), d’où a). L’assertion b) résulte de a) appliqué à l’adhérence du sous-groupe intégral d’algèbre de Lie $s$, compte tenu de III, § 9, n° 3, prop. 9.
 
 #### Remarque 2 {#lie-ix-s2-n2-rem-2 .statement tag=01A9}
 

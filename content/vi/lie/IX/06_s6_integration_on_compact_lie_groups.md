@@ -33,9 +33,9 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 6a8878d875468c6ec5dc11d56985832a4ea01d859a5b9c94b9204720f8ff2eef
+content_sha256: 185874cefc5ee2b589419ee7445951bb5d29059f2237e9b5484b5208867e328a
 translated_from: content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md
-source_content_sha256: 615a424395d02536abb89648bf8742fcbb947b618f6b73bb94673f242901bf18
+source_content_sha256: 746c6186434593ae87ea52347a193f0e294cca0a933dcfbfbd4549276c4b772c
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini
 translation_run: translate-vi-fbf2713e
 glossary_version: 34
@@ -77,7 +77,7 @@ $$
 
 Ánh xạ $\varphi :$ Alt$^s(M'')\otimes_A$Alt$^r(M')\rightarrow$ Alt$^{s+r}(M)$ sao cho $\varphi (u\otimes v) =u\cap v$ là một đẳng cấu của các A-môđun tự do hạng một.
 
-Sự tồn tại của một dạng $v_1$ thỏa mãn điều kiện $a)$ suy ra từ sự kiện rằng $\wedge \wedge^r(i)$ cảm sinh một đẳng cấu từ $\wedge \wedge^r(M')$ lên một môđun con hạng tử trực tiếp của $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 2). Cho $v_1$ là một dạng như vậy; đặt $u\cap v=u_1\wedge v_1$. Công thức (1) khi đó được thỏa mãn, vì nếu đặt $i(x'_k) =x_{s+k}$ với $1\leq k\leq r$, thì phần tử duy nhất $\sigma$ của $\mathfrak{S}_{s,r}$ sao cho $p(x_{\sigma(i)})\not= 0$ với $1\leq i\leq s$ là phép hoán vị đơn vị. Mặt khác, công thức (1) xác định $u\cap v$ một cách duy nhất: thật vậy, gọi $(e'_1, . . . , e'_r)$ là một cơ sở của $M', (f''_1, . . . , f''_s)$ là một cơ sở của $M''$, và $f_1, . . . , f_s$ là các phần tử của M sao cho $p(f_i) =f''_i$ với $1\leq i\leq s$. Khi đó $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ là một cơ sở của M (Algebra, Chap. II, §1, no. 11, Prop. 21), và công thức (1) có thể được viết
+Sự tồn tại của một dạng $v_1$ thỏa mãn điều kiện a) suy ra từ sự kiện rằng $\wedge \wedge^r(i)$ cảm sinh một đẳng cấu từ $\wedge \wedge^r(M')$ lên một môđun con hạng tử trực tiếp của $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 2). Cho $v_1$ là một dạng như vậy; đặt $u\cap v=u_1\wedge v_1$. Công thức (1) khi đó được thỏa mãn, vì nếu đặt $i(x'_k) =x_{s+k}$ với $1\leq k\leq r$, thì phần tử duy nhất $\sigma$ của $\mathfrak{S}_{s,r}$ sao cho $p(x_{\sigma(i)})\not= 0$ với $1\leq i\leq s$ là phép hoán vị đơn vị. Mặt khác, công thức (1) xác định $u\cap v$ một cách duy nhất: thật vậy, gọi $(e'_1, . . . , e'_r)$ là một cơ sở của $M', (f''_1, . . . , f''_s)$ là một cơ sở của $M''$, và $f_1, . . . , f_s$ là các phần tử của M sao cho $p(f_i) =f''_i$ với $1\leq i\leq s$. Khi đó $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ là một cơ sở của M (Algebra, Chap. II, §1, no. 11, Prop. 21), và công thức (1) có thể được viết
 
 $$
 (u\cap v)(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r)) =u(f''_1, . . . , f''_s)v(e'_1, . . . , e'_r) \tag{2}
@@ -85,7 +85,7 @@ $$
 
 nhưng một phần tử của Alt$^{s+r}(M)$ được xác định bởi giá trị của nó trên một cơ sở.
 
-Từ điều đã nêu trước đó suy ra rằng mỗi điều kiện $a)$ và $b)$ xác định tích $u\cap v$ một cách duy nhất; rõ ràng tích này là song tuyến tính. Cuối cùng, khẳng định cuối cùng của bổ đề suy ra từ công thức (2).
+Từ điều đã nêu trước đó suy ra rằng mỗi điều kiện a) và b) xác định tích $u\cap v$ một cách duy nhất; rõ ràng tích này là song tuyến tính. Cuối cùng, khẳng định cuối cùng của bổ đề suy ra từ công thức (2).
 
 ### 2. CÔNG THỨC TÍCH PHÂN CỦA H. WEYL
 
@@ -601,11 +601,11 @@ b) Cho $\omega \in$ Alt($\mathfrak{g}$). Khi đó $\omega$ thuộc Alt($\mathfra
 
 c) Không gian vectơ phân bậc $H(\Omega (G))$ đẳng cấu với Alt($\mathfrak{g}$)$^G$.
 
-Định lý, áp dụng cho tác động của G lên G bởi các phép tịnh tiến trái (tương ứng, cho tác động $((g, h);x) \rightarrow gxh^{-1}$ của $G\times G$ lên G) suy ra rằng đơn ánh chính tắc $\Omega (G)^G\rightarrow \Omega (G)$ (tương ứng, $^G\Omega (G)^G\rightarrow \Omega (G)$) là một tương đương đồng luân; theo Algèbre, Chap. X, p. 34, Cor., suy ra mệnh đề $a)$.
+Định lý, áp dụng cho tác động của G lên G bởi các phép tịnh tiến trái (tương ứng, cho tác động $((g, h);x) \rightarrow gxh^{-1}$ của $G\times G$ lên G) suy ra rằng đơn ánh chính tắc $\Omega (G)^G\rightarrow \Omega (G)$ (tương ứng, $^G\Omega (G)^G\rightarrow \Omega (G)$) là một tương đương đồng luân; theo Algèbre, Chap. X, p. 34, Cor., suy ra mệnh đề a).
 
-Ta chứng minh $b)$. Theo Prop. 51 của Chap. III, §3, no. 14, ta có $d\alpha =-d\alpha$, tức là $d\alpha = 0$, với mọi dạng vi phân $\alpha$ trên G vừa bất biến trái vừa bất biến phải. Do đó, nếu $\omega \in$ Alt($\mathfrak{g}$)$^G$, thì $d\omega = 0$, và do đó $d(i(\xi )\omega ) =$ $\theta (\xi )\omega -i(\xi )d\omega = 0$. Ngược lại, nếu $d\omega = 0$ và $d(i(\xi )d\omega ) = 0$, thì $\theta (\xi )\omega = 0$.
+Ta chứng minh b). Theo Prop. 51 của Chap. III, §3, no. 14, ta có $d\alpha =-d\alpha$, tức là $d\alpha = 0$, với mọi dạng vi phân $\alpha$ trên G vừa bất biến trái vừa bất biến phải. Do đó, nếu $\omega \in$ Alt($\mathfrak{g}$)$^G$, thì $d\omega = 0$, và do đó $d(i(\xi )\omega ) =$ $\theta (\xi )\omega -i(\xi )d\omega = 0$. Ngược lại, nếu $d\omega = 0$ và $d(i(\xi )d\omega ) = 0$, thì $\theta (\xi )\omega = 0$.
 
-Mệnh đề $c)$ suy ra từ $a)$ và $b)$.
+Mệnh đề c) suy ra từ a) và b).
 
 #### Nhận xét {#lie-ix-s6-n5-rem-1 .statement tag=01FK}
 

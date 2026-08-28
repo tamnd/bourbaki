@@ -37,9 +37,9 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: d0979066547d5133e3be9b94ad6495d07899a2fa10e910bac103db69d609f90c
+content_sha256: 2faffa84f47679c4e1edea6408b444e31b2855ae12ec85a90b5b21d70cff11ed
 translated_from: content/en/lie/IX/02_s2_maximal_tori_of_compact_lie_groups.md
-source_content_sha256: c325701fafe83ff98a87561b934f3da09b5a895b57956ea7453a3b2a69d0d21c
+source_content_sha256: 7f3f516023b889ee7bda8bc2eaf1db34f631f9e82b0893192ae78e729b16bdce
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-fac2a5a0
 glossary_version: 34
@@ -93,9 +93,9 @@ b) Cho $T_1$ và $T_2$ là hai xuyến cực đại của G. Tồn tại $g\in G
 
 c) G là hợp của các xuyến cực đại của nó.
 
-Cho $\mathfrak{t}$ là một đại số con Cartan của L(G); nhóm con nguyên của G có đại số Lie là $\mathfrak{t}$ thì đóng (Chương VII, §2, no. 1, Hệ quả 4 của Mệnh đề 4) và giao hoán (Định lý 1), và do đó là một xuyến của G. Nếu T là một xuyến cực đại của G, thì đại số Lie của nó là giao hoán, nên được chứa trong một đại số con Cartan của L(G) (Định lý 1). Suy ra các xuyến cực đại của G chính là các nhóm con nguyên của G liên kết với các đại số con Cartan của L(G), do đó $a)$. Mệnh đề $b)$ suy ra từ Định lý 1, vì đồng cấu chính tắc $G\rightarrow$ Int(L(G)) là toàn ánh (Chương III, §6, no. 4, Hệ quả 4 của Mệnh đề 10).
+Cho $\mathfrak{t}$ là một đại số con Cartan của L(G); nhóm con nguyên của G có đại số Lie là $\mathfrak{t}$ thì đóng (Chương VII, §2, no. 1, Hệ quả 4 của Mệnh đề 4) và giao hoán (Định lý 1), và do đó là một xuyến của G. Nếu T là một xuyến cực đại của G, thì đại số Lie của nó là giao hoán, nên được chứa trong một đại số con Cartan của L(G) (Định lý 1). Suy ra các xuyến cực đại của G chính là các nhóm con nguyên của G liên kết với các đại số con Cartan của L(G), do đó a). Mệnh đề b) suy ra từ Định lý 1, vì đồng cấu chính tắc $G\rightarrow$ Int(L(G)) là toàn ánh (Chương III, §6, no. 4, Hệ quả 4 của Mệnh đề 10).
 
-Ký hiệu X là hợp của các xuyến cực đại của G, và cho T là một xuyến cực đại của G. Ánh xạ liên tục $(g, t) \rightarrow gtg^{-1}$ từ $G\times T$ vào G có ảnh là X, vì thế X đóng trong G; do đó, để chứng minh $c)$, chỉ cần chứng minh rằng X mở trong G; vì X là bất biến dưới các tự đẳng cấu nội, chỉ cần chỉ ra rằng, với mọi $a\in T, X$ là một lân cận của $a$. Ta lập luận bằng quy nạp theo chiều của G và phân biệt hai trường hợp:
+Ký hiệu X là hợp của các xuyến cực đại của G, và cho T là một xuyến cực đại của G. Ánh xạ liên tục $(g, t) \rightarrow gtg^{-1}$ từ $G\times T$ vào G có ảnh là X, vì thế X đóng trong G; do đó, để chứng minh c), chỉ cần chứng minh rằng X mở trong G; vì X là bất biến dưới các tự đẳng cấu nội, chỉ cần chỉ ra rằng, với mọi $a\in T, X$ là một lân cận của $a$. Ta lập luận bằng quy nạp theo chiều của G và phân biệt hai trường hợp:
 
 $1)a$ không thuộc tâm của G. Gọi H là thành phần đơn vị của tập trung hóa của $a$ trong G; đó là một nhóm con compact liên thông của G, phân biệt với G, chứa T, và do đó chứa $a$. Vì Ad $a$ là nửa đơn (§1, no. 1), đại số Lie của H là không gian-không của Ad $a-1$; từ Chap. VII, §4, no. 2, Prop. 4, suy ra rằng hợp Y của các liên hợp của H là một lân cận của $a$. Theo giả thiết quy nạp, $H\subset X$, và do đó $Y\subset X$; vì vậy, X là một lân cận của $a$.
 
@@ -107,7 +107,7 @@ a) Ánh xạ mũ của G là toàn ánh.
 
 b) Với mọi $n\geq 1$, ánh xạ $g \rightarrow g^n$ từ G vào chính nó là toàn ánh.
 
-Thật vậy, exp(L(G)) chứa mọi xuyến cực đại của G, do đó có $a)$. Mệnh đề $b)$ suy ra từ công thức (exp $x$)$^n=$ exp $nx$ với $x$ thuộc L(G).
+Thật vậy, exp(L(G)) chứa mọi xuyến cực đại của G, do đó có a). Mệnh đề b) suy ra từ công thức (exp $x$)$^n=$ exp $nx$ với $x$ thuộc L(G).
 
 #### Nhận xét 1 {#lie-ix-s2-n2-rem-1 .statement tag=01A4}
 
@@ -137,7 +137,7 @@ a) Cho S là một xuyến của G. Bộ tập trung hóa của S là liên thô
 
 b) Cho $\mathfrak{s}$ là một đại số con giao hoán của L(G). Bộ bất động của $\mathfrak{s}$ trong G là liên thông; nó là hợp của các xuyến cực đại của G mà các đại số Lie của chúng chứa $\mathfrak{s}$.
 
-Để chứng minh $a)$, chỉ cần chứng minh rằng nếu một phần tử $g$ của G tập trung hóa S thì tồn tại một xuyến cực đại của G chứa S và $g$. Bây giờ, nếu C là bộ tập trung hóa của $g$, thì ta có $g\in C_0$ (Hệ quả 3) và $S\subset C_0$; nếu T là một xuyến cực đại của nhóm Lie compact liên thông $C_0$ chứa S, thì ta có $g\in T$ (Hệ quả 2), do đó suy ra $a)$. Mệnh đề $b)$ suy ra từ $a)$ khi áp dụng cho bao đóng của nhóm con nguyên có đại số Lie là $\mathfrak{s}$, theo Chương III, §9, no. 3, Mệnh đề 9.
+Để chứng minh a), chỉ cần chứng minh rằng nếu một phần tử $g$ của G tập trung hóa S thì tồn tại một xuyến cực đại của G chứa S và $g$. Bây giờ, nếu C là bộ tập trung hóa của $g$, thì ta có $g\in C_0$ (Hệ quả 3) và $S\subset C_0$; nếu T là một xuyến cực đại của nhóm Lie compact liên thông $C_0$ chứa S, thì ta có $g\in T$ (Hệ quả 2), do đó suy ra a). Mệnh đề b) suy ra từ a) khi áp dụng cho bao đóng của nhóm con nguyên có đại số Lie là $\mathfrak{s}$, theo Chương III, §9, no. 3, Mệnh đề 9.
 
 #### Nhận xét 2 {#lie-ix-s2-n2-rem-2 .statement tag=01A9}
 
@@ -165,7 +165,7 @@ Cho $h\in H$. Khi đó $h^{-1}Th$ là một xuyến cực đại của $H_0$, do
 
 Cho G là một nhóm Lie liên thông mà đại số Lie của nó là compact. Các nhóm con Cartan của G là các nhóm con nguyên có đại số Lie là các đại số con Cartan của L(G) (do đó các nhóm con Cartan của một nhóm compact liên thông chính là các xuyến cực đại của nó). Định lý 2 và các hệ quả của nó vẫn còn đúng cho G, nếu ở mọi chỗ ta thay thế cụm từ “xuyến cực đại” bằng “nhóm con Cartan”. Điều này suy ra ngay lập tức từ sự kiện rằng, theo Mệnh đề 5 của §1, no. 4, G là tích trực tiếp của một nhóm vectơ V và một nhóm compact liên thông K, và các nhóm con Cartan của G là các tích của V với các xuyến cực đại của K. Hơn nữa, chú ý rằng từ Hệ quả 6 ở trên cũng suy ra rằng các nhóm con Cartan của G cũng có thể được định nghĩa như các bộ cố định của các đại số con Cartan của L(G).
 
-$^*4)$ Phần $c)$ của Định lý 2 cũng có thể được chứng minh theo cách sau. Trang bị cho G một metric Riemann bất biến (§1, no. 3, Mệnh đề 3). Khi đó, với mọi phần tử $g$ của G, tồn tại một đường trắc địa cực đại đi qua $g$ và phần tử đơn vị của G (định lý Hopf-Rinow), và có thể kiểm tra rằng bao đóng của một đường trắc địa như vậy là một xuyến con của $G._*$
+$^*4)$ Phần c) của Định lý 2 cũng có thể được chứng minh theo cách sau. Trang bị cho G một metric Riemann bất biến (§1, no. 3, Mệnh đề 3). Khi đó, với mọi phần tử $g$ của G, tồn tại một đường trắc địa cực đại đi qua $g$ và phần tử đơn vị của G (định lý Hopf-Rinow), và có thể kiểm tra rằng bao đóng của một đường trắc địa như vậy là một xuyến con của $G._*$
 
 ### 3. XUYẾN CỰC ĐẠI CỦA CÁC NHÓM CON VÀ CÁC NHÓM THƯƠNG
 
@@ -179,13 +179,13 @@ b) Cho H là một nhóm con đóng liên thông của G. Mọi xuyến cực đ
 
 c) Cho H là một nhóm con đóng chuẩn tắc liên thông của G. Các xuyến cực đại của H là các giao với H của các xuyến cực đại của G.
 
-$a)$ Cho T là một xuyến cực đại của G; khi đó L(T) là một đại số con Cartan của L(G) (no. 2, Định lý $2a$)$)$, nên $L(f(T))$ là một đại số con Cartan của $L(G')$ (Chương VII, §2, no. 1, Hệ quả 2 của Mệnh đề 4); do đó $f(T)$ là một xuyến cực đại của $G'$ (no. 2, Định lý $2a$)$)$. Nếu Ker $f$ là trung tâm trong G, thì nó được chứa trong T (Hệ quả 2 của Định lý 2), nên $T =f^{-1}(f(T))$.
+a) Cho T là một xuyến cực đại của G; khi đó L(T) là một đại số con Cartan của L(G) (no. 2, Định lý $2a$)$)$, nên $L(f(T))$ là một đại số con Cartan của $L(G')$ (Chương VII, §2, no. 1, Hệ quả 2 của Mệnh đề 4); do đó $f(T)$ là một xuyến cực đại của $G'$ (no. 2, Định lý $2a$)$)$. Nếu Ker $f$ là trung tâm trong G, thì nó được chứa trong T (Hệ quả 2 của Định lý 2), nên $T =f^{-1}(f(T))$.
 
 Ngược lại, cho $T'$ là một xuyến cực đại của $G'$; ta chứng minh rằng tồn tại một xuyến cực đại T của G sao cho $f(T) = T'$. Cho $T_1$ là một xuyến cực đại của G; khi đó $f(T_1)$ là một xuyến cực đại của $G'$ và tồn tại $g'\in G'$ sao cho $T'=g'f(T_1)g^{'-1}$ (Đl. $2b$)$)$; nếu $g\in G$ sao cho $f(g) =g'$, ta có $T'=f(T)$ với $T =gT_1g^{-1}$.
 
-$b)$ Cho S là một xuyến cực đại của H; đây là một xuyến của G nên tồn tại một xuyến cực đại T của G chứa S. Khi đó $T\cap H$ là một nhóm con giao hoán của H chứa S, do đó bằng S (no. 2, Nhận xét 2).
+b) Cho S là một xuyến cực đại của H; đây là một xuyến của G nên tồn tại một xuyến cực đại T của G chứa S. Khi đó $T\cap H$ là một nhóm con giao hoán của H chứa S, do đó bằng S (no. 2, Nhận xét 2).
 
-$c)$ Theo §1, no. 3, Mệnh đề $2c), L(G)$ là tích trực tiếp của L(H) với một iđêan; vì vậy, các đại số con Cartan của L(H) là các giao với L(H) của các đại số con Cartan của L(G). Do đó, với mọi xuyến cực đại T của $G, T\cap H$ chứa một xuyến cực đại S của H và $S = T\cap H$ (no. 2, Nhận xét 2).
+c) Theo §1, no. 3, Mệnh đề $2c), L(G)$ là tích trực tiếp của L(H) với một iđêan; vì vậy, các đại số con Cartan của L(H) là các giao với L(H) của các đại số con Cartan của L(G). Do đó, với mọi xuyến cực đại T của $G, T\cap H$ chứa một xuyến cực đại S của H và $S = T\cap H$ (no. 2, Nhận xét 2).
 
 #### Nhận xét 1 {#lie-ix-s2-n3-rem-1 .statement tag=01AF}
 
@@ -209,9 +209,9 @@ Cho $f$ : G $\rightarrow G'$ là một cấu xạ toàn ánh của các nhóm Li
 
 Cho G là một nhóm Lie compact liên thông, và H là một nhóm con đóng liên thông có hạng cực đại.
 
-$a)$ Đa tạp compact $G/H$ là đơn liên.
+a) Đa tạp compact $G/H$ là đơn liên.
 
-$b)$ Đồng cấu $\pi_1(H)\rightarrow \pi_1(G)$, cảm sinh bởi đơn ánh chính tắc của H vào G, là toàn ánh.
+b) Đồng cấu $\pi_1(H)\rightarrow \pi_1(G)$, cảm sinh bởi đơn ánh chính tắc của H vào G, là toàn ánh.
 
 Vì H liên thông, ta có một dãy khớp (Tôpô đại cương, Chương XI, đang chuẩn bị)
 
@@ -219,7 +219,7 @@ $$
 \pi_1(H)\rightarrow \pi_1(G)\rightarrow \pi_1(G/H,\overline{e})\rightarrow 0
 $$
 
-trong đó $\overline{e}$ là ảnh của phần tử đơn vị của G trong $G/H$. Vì $G/H$ liên thông, điều này ngay lập tức suy ra sự tương đương của các mệnh đề $a)$ và $b)$. Hơn nữa, nếu $f: G'\rightarrow G$ là một cấu xạ toàn ánh của các nhóm Lie compact liên thông mà hạt nhân là trung tâm, thì việc chứng minh mệnh đề (dưới dạng $a$)$)$ đối với G cũng chính là việc chứng minh nó đối với $G'$ (Mệnh đề 2). Do đó, trước hết ta có thể thay thế G bằng Ad(G), rồi giả sử rằng G là nửa đơn, và sau đó, bằng cách thay thế G bởi một phủ phổ quát (§1, no. 4, Hệ quả 2), giả sử rằng G là đơn liên. Nhưng khi đó mệnh đề $b)$ là tầm thường.
+trong đó $\overline{e}$ là ảnh của phần tử đơn vị của G trong $G/H$. Vì $G/H$ liên thông, điều này ngay lập tức suy ra sự tương đương của các mệnh đề a) và b). Hơn nữa, nếu $f: G'\rightarrow G$ là một cấu xạ toàn ánh của các nhóm Lie compact liên thông mà hạt nhân là trung tâm, thì việc chứng minh mệnh đề (dưới dạng $a$)$)$ đối với G cũng chính là việc chứng minh nó đối với $G'$ (Mệnh đề 2). Do đó, trước hết ta có thể thay thế G bằng Ad(G), rồi giả sử rằng G là nửa đơn, và sau đó, bằng cách thay thế G bởi một phủ phổ quát (§1, no. 4, Hệ quả 2), giả sử rằng G là đơn liên. Nhưng khi đó mệnh đề b) là tầm thường.
 
 #### Mệnh đề 4 {#lie-ix-s2-prop-4 .statement tag=01AJ}
 
@@ -243,11 +243,11 @@ Nếu $T'$ là một xuyến cực đại khác của G và nếu $g\in G$ sao c
 
 #### Mệnh đề 5 {#lie-ix-s2-prop-5 .statement tag=01J9}
 
-$a)$ Mọi lớp liên hợp của G đều cắt T.
+a) Mọi lớp liên hợp của G đều cắt T.
 
-$b)$ Các giao với T của các lớp liên hợp của G là các quỹ đạo của nhóm Weyl.
+b) Các giao với T của các lớp liên hợp của G là các quỹ đạo của nhóm Weyl.
 
-Cho $g\in G$; theo Đl. 2 của no. 2, tồn tại $h\in G$ sao cho $g\in hTh^{-1}$, do đó có $a)$. Theo định nghĩa của nhóm Weyl, hai phần tử bất kỳ trong cùng một quỹ đạo của $W_G(T)$ trên T thì liên hợp trong G; ngược lại, cho $a, b$ là hai phần tử của T liên hợp dưới tác động của G. Tồn tại $h\in G$ sao cho $b=hah^{-1}$; áp dụng Hq. 7 của Đl. 2 (no. 2) với $A =\{a\},s=$ Int $h, T'= T$, ta thấy rằng tồn tại $g\in G$ sao cho Int $hg$ biến T thành T và $a$ thành $b$. Lớp của $hg$ trong $W_G(T)$ khi đó biến $a$ thành $b$, do đó mệnh đề được chứng minh.
+Cho $g\in G$; theo Đl. 2 của no. 2, tồn tại $h\in G$ sao cho $g\in hTh^{-1}$, do đó có a). Theo định nghĩa của nhóm Weyl, hai phần tử bất kỳ trong cùng một quỹ đạo của $W_G(T)$ trên T thì liên hợp trong G; ngược lại, cho $a, b$ là hai phần tử của T liên hợp dưới tác động của G. Tồn tại $h\in G$ sao cho $b=hah^{-1}$; áp dụng Hq. 7 của Đl. 2 (no. 2) với $A =\{a\},s=$ Int $h, T'= T$, ta thấy rằng tồn tại $g\in G$ sao cho Int $hg$ biến T thành T và $a$ thành $b$. Lớp của $hg$ trong $W_G(T)$ khi đó biến $a$ thành $b$, do đó mệnh đề được chứng minh.
 
 #### Hệ quả 1 {#lie-ix-s2-prop-5-cor-1 .statement tag=01JA}
 
@@ -265,11 +265,11 @@ Ký hiệu đại số Lie của $\mathrm{G}$ là $\mathfrak{g}$, và của $\ma
 
 #### Mệnh đề 6 {#lie-ix-s2-prop-6 .statement tag=01JC}
 
-$a)$ *Mọi quỹ đạo của $\mathrm{G}$ trên $\mathfrak{g}$ (đối với biểu diễn phụ hợp) đều cắt $\mathfrak{t}$.*
+a) *Mọi quỹ đạo của $\mathrm{G}$ trên $\mathfrak{g}$ (đối với biểu diễn phụ hợp) đều cắt $\mathfrak{t}$.*
 
-$b)$ *Các giao với $\mathfrak{t}$ của các quỹ đạo của $\mathrm{G}$ là các quỹ đạo của $\mathrm{W}_{G}(\mathrm{T})$ trên $\mathfrak{t}$.*
+b) *Các giao với $\mathfrak{t}$ của các quỹ đạo của $\mathrm{G}$ là các quỹ đạo của $\mathrm{W}_{G}(\mathrm{T})$ trên $\mathfrak{t}$.*
 
-Mệnh đề $a)$ suy ra từ ĐL. 1 (no. 1). Cho $x,y$ là hai phần tử của $\mathfrak{t}$ liên hợp dưới $\mathrm{Ad}(\mathrm{G})$, và cho $h\in\mathrm{G}$ sao cho $(\mathrm{Ad}\,h)(x)=y$. Áp dụng hệ quả của ĐL. 1 (no. 1) với $\mathfrak{a}=\{x\}$, $u=\mathrm{Ad}\,h$, $\mathfrak{t}'=\mathfrak{t}$, ta thấy tồn tại $g\in\mathrm{G}$ sao cho $\mathrm{Ad}\,hg$ ánh xạ $\mathfrak{t}$ lên $\mathfrak{t}$ và $x$ lên $y$. Khi đó $hg\in\mathrm{N}_{G}(\mathrm{T})$ (Chương III, §9, no. 4, Mệnh đề 11), và lớp của $hg$ trong $\mathrm{W}_{G}(\mathrm{T})$ ánh xạ $x$ lên $y$, do đó suy ra mệnh đề.
+Mệnh đề a) suy ra từ ĐL. 1 (no. 1). Cho $x,y$ là hai phần tử của $\mathfrak{t}$ liên hợp dưới $\mathrm{Ad}(\mathrm{G})$, và cho $h\in\mathrm{G}$ sao cho $(\mathrm{Ad}\,h)(x)=y$. Áp dụng hệ quả của ĐL. 1 (no. 1) với $\mathfrak{a}=\{x\}$, $u=\mathrm{Ad}\,h$, $\mathfrak{t}'=\mathfrak{t}$, ta thấy tồn tại $g\in\mathrm{G}$ sao cho $\mathrm{Ad}\,hg$ ánh xạ $\mathfrak{t}$ lên $\mathfrak{t}$ và $x$ lên $y$. Khi đó $hg\in\mathrm{N}_{G}(\mathrm{T})$ (Chương III, §9, no. 4, Mệnh đề 11), và lớp của $hg$ trong $\mathrm{W}_{G}(\mathrm{T})$ ánh xạ $x$ lên $y$, do đó suy ra mệnh đề.
 
 #### Hệ quả {#lie-ix-s2-n5-cor-1 .statement tag=01JD}
 
@@ -291,11 +291,11 @@ trong đó $p$ và $q$ là các ánh xạ thương, và $i$ là đơn ánh chín
 
 *Cho $H$ là một nhóm con đóng của $\mathrm{G}$ chứa $\mathrm{T}$.*
 
-$a)$ *Ký hiệu bởi $\mathrm{W}_{H}(\mathrm{T})$ nhóm con $\mathrm{N}_{H}(\mathrm{T})/\mathrm{T}$ của $\mathrm{W}_{G}(\mathrm{T})$; nhóm $H/H_{0}$ đẳng cấu với nhóm thương $\mathrm{W}_{H}(\mathrm{T})/\mathrm{W}_{H_{0}}(\mathrm{T})$.*
+a) *Ký hiệu bởi $\mathrm{W}_{H}(\mathrm{T})$ nhóm con $\mathrm{N}_{H}(\mathrm{T})/\mathrm{T}$ của $\mathrm{W}_{G}(\mathrm{T})$; nhóm $H/H_{0}$ đẳng cấu với nhóm thương $\mathrm{W}_{H}(\mathrm{T})/\mathrm{W}_{H_{0}}(\mathrm{T})$.*
 
-$b)$ *$H$ liên thông khi và chỉ khi mọi phần tử của $\mathrm{W}_{G}(\mathrm{T})$ có một đại diện trong $H$ đều thuộc về $\mathrm{W}_{H_{0}}(\mathrm{T})$.*
+b) *$H$ liên thông khi và chỉ khi mọi phần tử của $\mathrm{W}_{G}(\mathrm{T})$ có một đại diện trong $H$ đều thuộc về $\mathrm{W}_{H_{0}}(\mathrm{T})$.*
 
-Mệnh đề $a)$ suy ra từ Hệ quả 8 của Định lý 2 (no. 2), và mệnh đề $b)$ là một trường hợp riêng của $a)$.
+Mệnh đề a) suy ra từ Hệ quả 8 của Định lý 2 (no. 2), và mệnh đề b) là một trường hợp riêng của a).
 
 ### 6. XUYẾN CỰC ĐẠI VÀ PHỦ CỦA CÁC ĐỒNG CẤU
 

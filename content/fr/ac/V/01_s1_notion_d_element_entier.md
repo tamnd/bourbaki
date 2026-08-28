@@ -48,7 +48,7 @@ subsections:
       pdf_page: 28
 statements: 77
 exercises: 19
-content_sha256: 00b2137387cf81009a498b1d36eaeafaa5af7662fcf247a3cad9b56d72562efb
+content_sha256: 52ab9c5b62875738bf190445877aa62f2e222b491fc36a660020cfa62861ef3f
 ---
 
 ## § 1. Notion d’élément entier.
@@ -483,9 +483,9 @@ c) Les coefficients du polynôme caractéristique de $X$ sont entiers sur $A$.
 
 Si $\chi(T) = \det(T.1 - X)$ est le polynôme caractéristique de $X$, le th. de Hamilton-Cayley montre que $\chi(X) = 0$ (Alg., chap. VII, § 5, no 4, Remarque 1) et comme $\chi$ est un polynôme unitaire, c) implique a) en vertu du no 1, prop. 6.
 
-Supposons en second lieu $a)$ vérifiée. Si $(e_i)_{1 \leq i \leq n}$ est la base canonique de $B^n$, le sous-A-module $M$ de $B$ engendré par les $X^k.e_i$ $(1 \leq i \leq n, k \geq 0)$ est un $A$-module de type fini, puisque la $A$-algèbre $A[X]$ est un $A$-module de type fini (no 1, th. 1); comme $M$ contient les $e_i$, on voit que $a)$ implique $b)$; la réciproque est une conséquence du no 1, th. 1, condition $(E_{III})$.
+Supposons en second lieu a) vérifiée. Si $(e_i)_{1 \leq i \leq n}$ est la base canonique de $B^n$, le sous-A-module $M$ de $B$ engendré par les $X^k.e_i$ $(1 \leq i \leq n, k \geq 0)$ est un $A$-module de type fini, puisque la $A$-algèbre $A[X]$ est un $A$-module de type fini (no 1, th. 1); comme $M$ contient les $e_i$, on voit que a) implique b); la réciproque est une conséquence du no 1, th. 1, condition $(E_{III})$.
 
-Prouvons enfin que $a)$ implique $c)$; comme $X$ est entière sur $A$, et $a$ fortiori sur l’anneau de polynômes $A[T]$, T.1 — $X$ est aussi entier sur $A[T]$, et en vertu du no 3, prop. 12, on voit qu’on est ramené (en remplaçant $X$ par T.1 — $X$ et $A$ par $A[T]$) à prouver que si $X$ est entière sur $A$, $d = \det(X)$ est un élément de $B$ entier sur $A$. Or, on a vu ci-dessus que l’endomorphisme $u$ de $B^n$ défini par $X$ laisse stable un sous-A-module $M$ de type fini contenant les $e_i$; les $n$-vecteurs $x_1 \wedge x_2 \wedge \cdots \wedge x_n$, où $x_i \in M$ pour $1 \leq i \leq n$, engendrent donc dans $\bigwedge^n(B^n)$ un sous-A-module de type fini contenant $e_1 \wedge e_2 \wedge \ldots \wedge e_n$, et qui est stable par $\bigwedge^n u$, autrement dit par l’homothétie de rapport $d$; comme l’annulateur de
+Prouvons enfin que a) implique c); comme $X$ est entière sur $A$, et $a$ fortiori sur l’anneau de polynômes $A[T]$, T.1 — $X$ est aussi entier sur $A[T]$, et en vertu du no 3, prop. 12, on voit qu’on est ramené (en remplaçant $X$ par T.1 — $X$ et $A$ par $A[T]$) à prouver que si $X$ est entière sur $A$, $d = \det(X)$ est un élément de $B$ entier sur $A$. Or, on a vu ci-dessus que l’endomorphisme $u$ de $B^n$ défini par $X$ laisse stable un sous-A-module $M$ de type fini contenant les $e_i$; les $n$-vecteurs $x_1 \wedge x_2 \wedge \cdots \wedge x_n$, où $x_i \in M$ pour $1 \leq i \leq n$, engendrent donc dans $\bigwedge^n(B^n)$ un sous-A-module de type fini contenant $e_1 \wedge e_2 \wedge \ldots \wedge e_n$, et qui est stable par $\bigwedge^n u$, autrement dit par l’homothétie de rapport $d$; comme l’annulateur de
 $$
 e_1 \wedge e_2 \wedge \cdots \wedge e_n
 $$

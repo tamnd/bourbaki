@@ -48,7 +48,7 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: 3fcb16a92ff3acdfb4833175991fb8e24a346ffee44fc898d148b16fa356f668
+content_sha256: d7696b46d873d6245526f7cad852ead92a748116121ffa2b4682e16692098a5c
 translated_from: content/en/fvr/III/01_s1_derivatives_of_the_exponential_and.md
 source_content_sha256: f6d280b87294e7ccbf5da008fbb8c99fc9b148507e42e21b94db3deb3fbc13f4
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -437,13 +437,13 @@ là một công thức tổng quát hóa công thức (10) của III, p. 93.
 
 Công thức (31) cho phép ta tính nguyên thủy của một hàm hữu tỉ tùy ý $r(x)$ của một biến thực $x$, với các hệ số thực hoặc phức. Ta biết (A.VII.7) rằng một hàm như vậy có thể được viết (một cách duy nhất) thành một tổng hữu hạn các hạng, đó là:
 
-$a)$ hoặc có dạng $ax^p$ ($p$ là một số nguyên $\geqslant 0$, $a$ là một số phức);
-$b)$ hoặc có dạng $a/(x-b)^m$ ($m$ là một số nguyên $\geqslant 0$, $a$ và $b$ là các số phức).
+a) hoặc có dạng $ax^p$ ($p$ là một số nguyên $\geqslant 0$, $a$ là một số phức);
+b) hoặc có dạng $a/(x-b)^m$ ($m$ là một số nguyên $\geqslant 0$, $a$ và $b$ là các số phức).
 
 Bây giờ thật dễ để tìm một nguyên thủy của mỗi hạng này:
-$a)$ một nguyên thủy của $ax^p$ là $a \frac{x^{p+1}}{p+1}$;
-$b)$ nếu $m > 1$ thì một nguyên thủy của $a/(x-b)^m$ là $\frac{a}{(1-m)(x-b)^{m-1}}$;
-$c)$ sau hết, từ các công thức (10) (III, p. 93) và (31) (III, p. 101), một nguyên thủy của $\frac{a}{x-b}$ là $a \log |x-b|$ nếu $b$ là thực, $a \log(x-b)$ nếu $b$ là phức. Trong trường hợp cuối, nếu $b = p + iq$, ta còn có (III, p. 100, các công thức (30))
+a) một nguyên thủy của $ax^p$ là $a \frac{x^{p+1}}{p+1}$;
+b) nếu $m > 1$ thì một nguyên thủy của $a/(x-b)^m$ là $\frac{a}{(1-m)(x-b)^{m-1}}$;
+c) sau hết, từ các công thức (10) (III, p. 93) và (31) (III, p. 101), một nguyên thủy của $\frac{a}{x-b}$ là $a \log |x-b|$ nếu $b$ là thực, $a \log(x-b)$ nếu $b$ là phức. Trong trường hợp cuối, nếu $b = p + iq$, ta còn có (III, p. 100, các công thức (30))
 $$
 \log(x-b) = \log \sqrt{(x-p)^2 + q^2} + i \operatorname{Arc tan} \frac{x-p}{q} \pm i \frac{\pi}{2}.
 $$

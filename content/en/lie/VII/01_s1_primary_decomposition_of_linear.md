@@ -33,7 +33,7 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: 6b3a7f44b594659cd25df9f6c944977706304b56c54522de1260ddcaf18891f2
+content_sha256: 6d999a4f63ad71547f9729f56137320e39f7832c9c6c88d90de525d543eda5ce
 ---
 
 ## § 1. PRIMARY DECOMPOSITION OF LINEAR REPRESENTATIONS
@@ -148,9 +148,9 @@ $P(r(s))v_0=\sum_{i=1}^nP(r(s))v_i= 0$. Since P and Q are relatively prime, the 
 
 $c) S$ is finite and non-empty. We argue by induction on the cardinal of S. Let $s\in S$ and $S'= S$**--** $\{s\}$. Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $\sum_{\lambda\in P}v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $\lambda_0\in P$. Let $P'$ be the set of $\lambda \in P$ such that $\lambda |S'=\lambda_0|S'$. By the induction hypothesis applied to $S'$, we have $\sum_{\lambda\in P'}v_{\lambda}= 0$. If $\lambda , \mu$ are distinct elements of $P',\lambda (s)\not=\mu(s)$.
 
-Since the sum $\sum_{\alpha\in k}V^{\alpha}(s)$ is direct by $b)$, and since $v_{\lambda}\in V^{\lambda(s)}(s),v_{\lambda}= 0$ for all $\lambda \in P'$, and in particular $v_{\lambda_0}= 0$, which we had to prove.
+Since the sum $\sum_{\alpha\in k}V^{\alpha}(s)$ is direct by b), and since $v_{\lambda}\in V^{\lambda(s)}(s),v_{\lambda}= 0$ for all $\lambda \in P'$, and in particular $v_{\lambda_0}= 0$, which we had to prove.
 
-$d)$ General case. Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $\sum_{\lambda\in P}v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $P'$ be the finite set of $\lambda \in P$ such that $v_{\lambda}\not= 0$, and let $S'$ be a finite subset of S such that the conditions $\lambda \in P'$, $\mu\in P',\lambda |S'=\mu|S'$ imply that $\lambda =\mu$. We have $v_{\lambda}\in V^{\lambda|S'}(S')$; applying $c)$, we see that $v_{\lambda}= 0$ for $\lambda \in P'$, which completes the proof.
+d) General case. Let $(v_{\lambda})_{\lambda\in P}$ be a finitely-supported family of elements of V such that $\sum_{\lambda\in P}v_{\lambda}= 0$ and $v_{\lambda}\in V^{\lambda}(S)$. Let $P'$ be the finite set of $\lambda \in P$ such that $v_{\lambda}\not= 0$, and let $S'$ be a finite subset of S such that the conditions $\lambda \in P'$, $\mu\in P',\lambda |S'=\mu|S'$ imply that $\lambda =\mu$. We have $v_{\lambda}\in V^{\lambda|S'}(S')$; applying c), we see that $v_{\lambda}= 0$ for $\lambda \in P'$, which completes the proof.
 
 Recall that, if $x\in$ End(V), we denote by ad $x$ the map $y \rightarrow xy-yx= [x, y]$ from End(V) to itself.
 
@@ -198,9 +198,9 @@ If $V =\sum_{\lambda\in P}V^{\lambda}$(S), then $V =\sum_{a\in k}V^a(s)$ for all
 
 Lemma 1 that (ii) implies (i). Assume that condition (i) is satisfied. Lemma 1 and formula (1) imply that each $V^{\lambda}(S)$ is stable under $r(S)$. It remains to prove that $V =\sum_{\lambda\in P}V^{\lambda}(S)$. We argue by induction on dim V. We distinguish two cases.
 
-$a)$ For all $s\in S,r(s)$ has a single eigenvalue $\lambda (s)$. Then $V = V^{\lambda}(S)$.
+a) For all $s\in S,r(s)$ has a single eigenvalue $\lambda (s)$. Then $V = V^{\lambda}(S)$.
 
-$b)$ There exists $s\in S$ such that $r(s)$ has at least two distinct eigenvalues. Then V is the direct sum of the $V^a(s)$ for $a\in k$, and dim $V^a(s)<$ dim V for all $a$. Each $V^a(s)$ is stable under $r$(S), and it suffices to apply the induction hypothesis.
+b) There exists $s\in S$ such that $r(s)$ has at least two distinct eigenvalues. Then V is the direct sum of the $V^a(s)$ for $a\in k$, and dim $V^a(s)<$ dim V for all $a$. Each $V^a(s)$ is stable under $r$(S), and it suffices to apply the induction hypothesis.
 
 #### Corollary 1 {#lie-vii-s1-thm-1-cor-1 .statement tag=00SP}
 

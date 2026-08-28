@@ -28,7 +28,7 @@ subsections:
       pdf_page: 62
 statements: 19
 exercises: 7
-content_sha256: 4bd44bbdc7549036da9b797314f4f397254ee681b4ed5c187bdeceb598f632df
+content_sha256: 11521c20fdafc2a28ae1fe99f2ad238394f02d44313e71c97ba6893b7ec4f268
 ---
 
 ## 5. OPEN MAPPINGS AND CLOSED MAPPINGS
@@ -79,7 +79,7 @@ b) *Let $(T(i))_{i \in I}$ be a family of subsets of $Y$ whose interiors cover $
 
 a) If $A$ is an open (resp. closed) subset of $f^{-1}(T)$, then there is an open (resp. closed) subset $B$ of $X$ such that $A = B \cap f^{-1}(T)$, and therefore f_T(A) = f(B) \cap T; by hypothesis, $f(B)$ is open (resp. closed), so that $f_T(A)$ is open (resp. closed) in $T$.
 
-$b)$ Let $B$ be an open (resp. closed) subset of $X$, and let $B_i$ denote $B \cap f^{-1}(T(i))$; then $f(B) \cap T(i) = f_{T(i)}(B_i)$. Since $f_{T(i)}(B_i)$ is open (resp. closed) in $T(i)$ by hypothesis, it follows that $f(B)$ is open (resp. closed) in $Y$, by Proposition 3 of § 3, no. 1.
+b) Let $B$ be an open (resp. closed) subset of $X$, and let $B_i$ denote $B \cap f^{-1}(T(i))$; then $f(B) \cap T(i) = f_{T(i)}(B_i)$. Since $f_{T(i)}(B_i)$ is open (resp. closed) in $T(i)$ by hypothesis, it follows that $f(B)$ is open (resp. closed) in $Y$, by Proposition 3 of § 3, no. 1.
 
 #### Corollary {#top-i-s5-n1-cor-1 .statement}
 

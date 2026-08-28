@@ -24,7 +24,7 @@ subsections:
       pdf_page: 161
 statements: 14
 exercises: 2
-content_sha256: 5c336863a6067c1a78258033859c6870cf016bf2079166e1467649d9e004802b
+content_sha256: d217186b3da9590252a5ad143d5faf17a27de8a195c0c8c6369c6d313172c28b
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
@@ -152,7 +152,7 @@ Or $G/G_{n-1}$ est un groupe totalement ordonné non réduit à 0; ce n’est do
 
 D’où, d’après (4), $r(G/H) \geq r(G_{n-1}/H) + 1$. En portant dans (8), on obtient bien l’inégalité (6) cherchée.
 
-$b)$ On a $H \cap G_{n-1} \neq H$. Comme $H \cap G_{n-1}$ est un sous-groupe isolé de $H$, on en conclut que $h(H) \geq h(H \cap G_{n-1}) + 1$. D’autre part on a évidemment $r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$. En portant dans (7), on obtient encore (6).
+b) On a $H \cap G_{n-1} \neq H$. Comme $H \cap G_{n-1}$ est un sous-groupe isolé de $H$, on en conclut que $h(H) \geq h(H \cap G_{n-1}) + 1$. D’autre part on a évidemment $r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$. En portant dans (7), on obtient encore (6).
 
 #### Corollaire {#ac-vi-s10-n2-cor-1 .statement}
 
@@ -195,7 +195,7 @@ a) On a un élément $x$ de l’anneau de $\nu'$ tel que $\overline{x}$ soit tra
 
 b) On a un élément $y$ de $K'$ tel que les relations $n\nu'(y) \in \Gamma$ et $n \in \mathbf{Z}$ entraînent $n=0$; il s’agit de montrer que $y$ est transcendant sur $K$, et que la restriction de $\nu'$ à $K(y)$ admet $k$ pour corps résiduel, et $\Gamma + \mathbf{Z}\nu'(y)$ pour groupe des ordres.
 
-Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de $a)$ (resp. $b$)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
+Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de a) (resp. $b$)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
 
 #### Corollaire 1 {#ac-vi-s10-thm-1-cor-1 .statement}
 

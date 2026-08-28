@@ -42,9 +42,9 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: 80fc6c5ea973cf282636b4f6ccc9be503482c635582897d7ed47e0ae0164f07c
+content_sha256: 23ff307b952da78cbece2bd1ffac7b19c9d0c9a93bac2afc3f1a4f9965d45ca1
 translated_from: content/en/alg/V/14_s14_transcendental_extensions.md
-source_content_sha256: eb35fff77acc6bd8e77061717af100108c134eeee56b2d3ebd744782ee54fafb
+source_content_sha256: 96acc445fe1ac21789277cae9b626dfd3b7587df6b094c92c7477d5a1cf37432
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-22b61d8f
 glossary_version: 34
@@ -105,9 +105,9 @@ Mệnh đề này suy ra ngay từ Định nghĩa 1.
 — *Cho E là một mở rộng của trường K và S, T là hai tập con của E. Khi đó các tính chất sau là tương đương:
 a) $S \cup T$ là độc lập đại số trên K và $S \cap T = \varnothing$.*
 
-Hiển nhiên chỉ cần chứng minh rằng $a)$ và $b)$ là tương đương.
+Hiển nhiên chỉ cần chứng minh rằng a) và b) là tương đương.
 
-$a) \Rightarrow b)$: Giả sử rằng $a)$ đúng. Vì $S$ được chứa trong $S \cup T$, nên $S$ độc lập đại số trên $K$. Nếu $T$ không độc lập đại số trên $K(S)$, thì tồn tại (Mệnh đề 3) một họ hữu hạn $(y_j)_{1 \leq j \leq n}$ gồm các phần tử phân biệt của $T$ phụ thuộc đại số trên $K(S)$. Do đó tồn tại một đa thức khác không $f$ trong vành $K(S)[Y_1, ..., Y_n]$ sao cho $f(y,, ..., y,) = 0$; sau khi nhân $f$ nếu cần với một phần tử khác không của $K[S]$ ta có thể giả sử rằng mọi hệ số của f đều thuộc $K[S]$. Các hệ số của f là các đa thức trong một số hữu hạn các phần tử phân biệt $x_i \ (1 \leq i \leq m )$ của $S$, với hệ số trong $K$. Các phần tử $x_1, ..., x,, y_1, ..., y,$ từng đôi một phân biệt vì $S \cap T = (21$. Quan hệ $f(y,, ..., y,) = 0$ vì thế có thể viết thành
+$a) \Rightarrow b)$: Giả sử rằng a) đúng. Vì $S$ được chứa trong $S \cup T$, nên $S$ độc lập đại số trên $K$. Nếu $T$ không độc lập đại số trên $K(S)$, thì tồn tại (Mệnh đề 3) một họ hữu hạn $(y_j)_{1 \leq j \leq n}$ gồm các phần tử phân biệt của $T$ phụ thuộc đại số trên $K(S)$. Do đó tồn tại một đa thức khác không $f$ trong vành $K(S)[Y_1, ..., Y_n]$ sao cho $f(y,, ..., y,) = 0$; sau khi nhân $f$ nếu cần với một phần tử khác không của $K[S]$ ta có thể giả sử rằng mọi hệ số của f đều thuộc $K[S]$. Các hệ số của f là các đa thức trong một số hữu hạn các phần tử phân biệt $x_i \ (1 \leq i \leq m )$ của $S$, với hệ số trong $K$. Các phần tử $x_1, ..., x,, y_1, ..., y,$ từng đôi một phân biệt vì $S \cap T = (21$. Quan hệ $f(y,, ..., y,) = 0$ vì thế có thể viết thành
 
 $$
 g(x_1, ..., x_m ; y_1, ..., y_n) = 0 ,
@@ -115,7 +115,7 @@ $$
 
 trong đó $g$ là một đa thức khác không của $K[X_1, ..., X_m, Y_1, ..., Y_n]$, và một quan hệ như vậy mâu thuẫn với giả thiết rằng $S \cup T$ là độc lập đại số.
 
-$b) \Rightarrow a)$: Giả sử $b)$ đúng. Trước hết, hiển nhiên là $T \cap K(S) = \varnothing$ và $a fortiori \ S \cap T = (21$. Chỉ cần chứng minh rằng nếu $x_i \ (1 \leq i \leq m )$ là các phần tử phân biệt của $S$, hữu hạn về số lượng, và $y_j \ (1 \leq j \leq n )$ là các phần tử phân biệt của $T$, hữu hạn về số lượng, thì tập hợp các $x_i$ và $y,$ là độc lập đại số trên $K$ (Mệnh đề 3). Xét một đa thức $f \in K[X_1, ..., X,, Y_1, ..., Y_n]$ sao cho $f(x_1, ..., x_m, y_1, ..., y,) = 0$ và đặt $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ với $\varphi_\alpha \in K[X_1, ..., X_m]$ cho mọi $\alpha = (\alpha,, ..., \alpha_n) \in \mathbf{N}^n$. Đặt $g = f(x,, ..., x,, Y_1, ..., Y,)$; khi đó $g$ là một đa thức trong vành $K[S][Y_1, ..., Y,]$ và đẳng thức $f(x_1, ..., x_m, y_1, ..., y,) = 0$ có thể viết thành $g(y_1, ..., y,) = 0$. Vì $T$ độc lập đại số trên $K(S)$, mỗi hệ số $\varphi_\alpha(x_1, ..., x,)$ của $g$ đều bằng không; vì $S$ độc lập đại số trên $K$, ta có $\varphi_\alpha = 0$ với mọi $\alpha \in \mathbf{N}^n$, và do đó $f = 0$.
+$b) \Rightarrow a)$: Giả sử b) đúng. Trước hết, hiển nhiên là $T \cap K(S) = \varnothing$ và $a fortiori \ S \cap T = (21$. Chỉ cần chứng minh rằng nếu $x_i \ (1 \leq i \leq m )$ là các phần tử phân biệt của $S$, hữu hạn về số lượng, và $y_j \ (1 \leq j \leq n )$ là các phần tử phân biệt của $T$, hữu hạn về số lượng, thì tập hợp các $x_i$ và $y,$ là độc lập đại số trên $K$ (Mệnh đề 3). Xét một đa thức $f \in K[X_1, ..., X,, Y_1, ..., Y_n]$ sao cho $f(x_1, ..., x_m, y_1, ..., y,) = 0$ và đặt $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ với $\varphi_\alpha \in K[X_1, ..., X_m]$ cho mọi $\alpha = (\alpha,, ..., \alpha_n) \in \mathbf{N}^n$. Đặt $g = f(x,, ..., x,, Y_1, ..., Y,)$; khi đó $g$ là một đa thức trong vành $K[S][Y_1, ..., Y,]$ và đẳng thức $f(x_1, ..., x_m, y_1, ..., y,) = 0$ có thể viết thành $g(y_1, ..., y,) = 0$. Vì $T$ độc lập đại số trên $K(S)$, mỗi hệ số $\varphi_\alpha(x_1, ..., x,)$ của $g$ đều bằng không; vì $S$ độc lập đại số trên $K$, ta có $\varphi_\alpha = 0$ với mọi $\alpha \in \mathbf{N}^n$, và do đó $f = 0$.
 
 #### Hệ quả {#alg-v-s14-n2-cor-1 .statement}
 
@@ -360,13 +360,13 @@ b) Với mỗi $i \in I$ mở rộng $E_i$ rời nhau đại số trên $K$ vớ
 
 c) Tồn tại một họ $(B_i)_{i \in I}$ gồm các tập con rời nhau của $L$, sao cho $B_i$ là một cơ sở siêu việt của $E_i$ trên $K$ đối với mỗi $i \in I$, và $B = \bigcup_{i \in I} B_i$ là tự do đại số trên $K$.
 
-Rõ ràng là $a)$ kéo theo $c)$.
+Rõ ràng là a) kéo theo c).
 
-Giả sử $c)$, ta chọn $i$ trong $I$; đặt $C_i = \bigcup_{j \neq i} B_j$. Với mỗi $j \neq i$, mọi phần tử của $E_j$ đều đại số trên $K(B_j)$ và do đó a fortiori trên $K(C_i)$. Theo Hệ quả 1 của $V$, p. 18, trường $F_i$ vì thế đại số trên $K(C_i)$. Hơn nữa, ta có $B_i \cap C_i = \varnothing$ và $B - B_i \cup C_i$ là tự do đại số trên $K$; do đó $B_i$ là tự do đại số trên $K(C_i)$ ($V$, p. 107, Mệnh đề 4), vì thế cũng tự do đại số trên $F_i$ (là đại số trên $K(C_i)$) theo Mệnh đề 6 của $V$, p. 108. Vậy ta đã chứng minh rằng $E_i$ rời nhau về đại số với $F_i$ trên $K$ ($V$, p. 113, Mệnh đề 12), do đó $c)$ suy ra $b)$.
+Giả sử c), ta chọn $i$ trong $I$; đặt $C_i = \bigcup_{j \neq i} B_j$. Với mỗi $j \neq i$, mọi phần tử của $E_j$ đều đại số trên $K(B_j)$ và do đó a fortiori trên $K(C_i)$. Theo Hệ quả 1 của $V$, p. 18, trường $F_i$ vì thế đại số trên $K(C_i)$. Hơn nữa, ta có $B_i \cap C_i = \varnothing$ và $B - B_i \cup C_i$ là tự do đại số trên $K$; do đó $B_i$ là tự do đại số trên $K(C_i)$ ($V$, p. 107, Mệnh đề 4), vì thế cũng tự do đại số trên $F_i$ (là đại số trên $K(C_i)$) theo Mệnh đề 6 của $V$, p. 108. Vậy ta đã chứng minh rằng $E_i$ rời nhau về đại số với $F_i$ trên $K$ ($V$, p. 113, Mệnh đề 12), do đó c) suy ra b).
 
-Bây giờ giả sử $b)$ và chứng minh $a)$. Chỉ cần chứng tỏ rằng nếu $i_1, \ldots, i_n$ là các phần tử phân biệt của $I$, thì họ các mở rộng $(E_{i_1}, \ldots, E_{i_n})$ là tự do đại số; ta chứng minh bằng quy nạp theo $n$, trường hợp $n = 1$ là tầm thường. Giả sử thế thì $n > 1$ và họ $(E_{i_1}, \ldots, E_{i_{n-1}})$ là tự do đại số; với $1 \leq k \leq n$ chọn một tập con $A_k$ của $E_{i_k}$ tự do đại số trên $K$ và đặt
+Bây giờ giả sử b) và chứng minh a). Chỉ cần chứng tỏ rằng nếu $i_1, \ldots, i_n$ là các phần tử phân biệt của $I$, thì họ các mở rộng $(E_{i_1}, \ldots, E_{i_n})$ là tự do đại số; ta chứng minh bằng quy nạp theo $n$, trường hợp $n = 1$ là tầm thường. Giả sử thế thì $n > 1$ và họ $(E_{i_1}, \ldots, E_{i_{n-1}})$ là tự do đại số; với $1 \leq k \leq n$ chọn một tập con $A_k$ của $E_{i_k}$ tự do đại số trên $K$ và đặt
 
-B = A, U ... U A_{n-1}. Theo giả thiết quy nạp, các tập con $A_1, \ldots, A_{n-1}$ đôi một rời nhau và $B$ là tự do đại số trên $K$; theo $b)$ thì $E_{i_n}$ rời nhau về đại số với $F_i$ và vì $B$ được chứa trong $F_{i_n}$ nên ta có $B \cap A_i = \varnothing$ và $B \cup A_i = A, U ... U A_i$ là tự do đại số trên $K$. Vậy ta đã chỉ ra rằng họ $(E_{i_1}, \ldots, E_{i_n})$ là tự do đại số.
+B = A, U ... U A_{n-1}. Theo giả thiết quy nạp, các tập con $A_1, \ldots, A_{n-1}$ đôi một rời nhau và $B$ là tự do đại số trên $K$; theo b) thì $E_{i_n}$ rời nhau về đại số với $F_i$ và vì $B$ được chứa trong $F_{i_n}$ nên ta có $B \cap A_i = \varnothing$ và $B \cup A_i = A, U ... U A_i$ là tự do đại số trên $K$. Vậy ta đã chỉ ra rằng họ $(E_{i_1}, \ldots, E_{i_n})$ là tự do đại số.
 
 Định lý sau khái quát hóa phần b) của Mệnh đề 13 ($V$, p. 113).
 

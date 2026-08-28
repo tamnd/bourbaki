@@ -28,7 +28,7 @@ subsections:
       pdf_page: 45
 statements: 21
 exercises: 10
-content_sha256: ebbd1d31e07628013fc7f5c1aa1c85e2cc3cfd3cbf3381af000826188d729aa0
+content_sha256: 7ce62adb175e316461e0076f49e0da867be5dc77b36f37f3c179a2545bb96dd9
 ---
 
 ## § 4. CONVEX FUNCTIONS OF A REAL VARIABLE
@@ -39,11 +39,11 @@ Let $H$ be a subset of $\mathbf{R}$. $f$ a finite real function defined on $H$, 
 
 *Let $A = (a, a')$, $B = (b, b')$, $C = (c, c')$ be three points in $\mathbf{R}^2$ such that $a < b < c$. The following statements are equivalent:*
 
-$a)$ *B is below AC;*
-$b)$ *C lies above the line passing through A and B;*
-$c)$ *A is above the line passing through B and C;*
-$d)$ $p(AB) \leq p(AC)$;
-$e)$ $p(AC) \leq p(BC)$.
+a) *B is below AC;*
+b) *C lies above the line passing through A and B;*
+c) *A is above the line passing through B and C;*
+d) $p(AB) \leq p(AC)$;
+e) $p(AC) \leq p(BC)$.
 
 The lemma still holds when one replaces "above" (resp. "below") by "strictly above" (resp. "strictly below") and the sign $\leq$ by < (fig. 1).
 

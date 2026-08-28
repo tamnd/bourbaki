@@ -41,9 +41,9 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: 5a935f4165ab1ebcdc6e23b783d7a08cc3102b8b9369da68d714e534ff9c8d27
+content_sha256: 261818e93c747756526d700415a86f072d20a9755c5c69f0a05ec7bf49844f9e
 translated_from: content/en/int/VIII/02_s2_linear_representations_of_groups.md
-source_content_sha256: dcacb32e43faf87afa9b413eaa1d8bbbe9c968d661d131b722608dd9e997415d
+source_content_sha256: de9d66c070bec3d1eba64a70ec1e3b4b86ade342c02d3e9c462619ed0a196238
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-6cdc5c31
 glossary_version: 34
@@ -75,14 +75,14 @@ Nói rằng $U$ liên tục tương đương với tập hợp ba điều kiện
 
 a) với mọi $s \in G$, $U(s)$ là liên tục; b) tồn tại một lân cận $V$ của $e$ sao cho $U(V)$ là liên tục đều; c) tồn tại một tập hợp toàn phần $D$ trong $E$ sao cho, với mọi $x \in D$, ánh xạ $s \mapsto U(s)x$ là liên tục.
 
-Các điều kiện này hiển nhiên là cần thiết. Ngược lại, giả sử các điều kiện $a)$, $b)$, $c)$ được thỏa mãn. Trên $U(V)$, tôpô hội tụ điểm đồng nhất với tôpô hội tụ điểm trên $D$ (TVS, III, §3, No. 4, Prop. 5). Do đó ánh xạ $(s, x) \mapsto U(s)x$ của $V \times E$ vào $E$ là liên tục (GT, X, §2, No. 1, Cor. 3 of Prop. 1). Vì $U(s_0s)x = U(s_0)(U(s)x)$ với mọi $s_0 \in G$, $s \in G$, $x \in E$, ta thấy rằng $U$ là liên tục.
+Các điều kiện này hiển nhiên là cần thiết. Ngược lại, giả sử các điều kiện a), b), c) được thỏa mãn. Trên $U(V)$, tôpô hội tụ điểm đồng nhất với tôpô hội tụ điểm trên $D$ (TVS, III, §3, No. 4, Prop. 5). Do đó ánh xạ $(s, x) \mapsto U(s)x$ của $V \times E$ vào $E$ là liên tục (GT, X, §2, No. 1, Cor. 3 of Prop. 1). Vì $U(s_0s)x = U(s_0)(U(s)x)$ với mọi $s_0 \in G$, $s \in G$, $x \in E$, ta thấy rằng $U$ là liên tục.
 
-Khi $G$ là compact địa phương, các điều kiện $a)$ và $b)$ tương đương với điều kiện:
+Khi $G$ là compact địa phương, các điều kiện a) và b) tương đương với điều kiện:
 $a')$ với mọi tập con compact $K$ của $G$, $U(K)$ là liên tục đều.
 
 #### Nhận xét 3 {#int-viii-s2-n1-rem-3 .statement}
 
-Giả sử $U$ là một biểu diễn tuyến tính liên tục của $G$ trong $E$. Với mỗi $s \in G$, gọi $\widehat{U}(s)$ là mở rộng liên tục của $U(s)$ lên phần hoàn thành $\widehat{E}$ của $E$. Khi đó $\widehat{U}$ là một biểu diễn tuyến tính của $G$ trong $\widehat{E}$, thỏa mãn các điều kiện $a)$ và $c)$ của Nhận xét 2, và cả điều kiện $b)$ theo GT, X, §2, No. 2, Prop. 4. Vậy nên $\widehat{U}$ là một biểu diễn tuyến tính liên tục của $G$ trong $\widehat{E}$.
+Giả sử $U$ là một biểu diễn tuyến tính liên tục của $G$ trong $E$. Với mỗi $s \in G$, gọi $\widehat{U}(s)$ là mở rộng liên tục của $U(s)$ lên phần hoàn thành $\widehat{E}$ của $E$. Khi đó $\widehat{U}$ là một biểu diễn tuyến tính của $G$ trong $\widehat{E}$, thỏa mãn các điều kiện a) và c) của Nhận xét 2, và cả điều kiện b) theo GT, X, §2, No. 2, Prop. 4. Vậy nên $\widehat{U}$ là một biểu diễn tuyến tính liên tục của $G$ trong $\widehat{E}$.
 
 #### Nhận xét 4 {#int-viii-s2-n1-rem-4 .statement}
 

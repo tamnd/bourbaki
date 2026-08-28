@@ -52,7 +52,7 @@ subsections:
       pdf_page: 72
 statements: 48
 exercises: 31
-content_sha256: 312252413c61d1da95832808a1190156aa21deaeec52b1d5f54d5f01d7636fbe
+content_sha256: 838332284d3fb18b12f26cf7d31c73229e98682a0633cad5f51565e8646d6220
 ---
 
 ## § 5. Mesures définies par des densités numériques
@@ -69,7 +69,7 @@ b) La fonction $g$ est $\mu$-mesurable et, pour tout ensemble compact $K \subset
 
 c) Pour toute fonction numérique $h \in \mathcal{K}(T)$, $gh$ est $\mu$-intégrable.
 
-Montrons que $a)$ entraîne $b)$; la fonction $g$ est en effet mesurable en vertu du principe de localisation (chap. IV, § 5, n° 2, prop. 4). D’autre part, pour tout $t \in K$, il existe par hypothèse un voisinage $V_t$ de $t$ dans $T$ tel que $g \varphi_{V_t}$ soit intégrable; on peut donc recouvrir $K$ par un nombre fini de voisinages $V_i (1 \leq i \leq n)$ tels que les fonctions $g \varphi_{V_i}$ soient intégrables. Comme
+Montrons que a) entraîne b); la fonction $g$ est en effet mesurable en vertu du principe de localisation (chap. IV, § 5, n° 2, prop. 4). D’autre part, pour tout $t \in K$, il existe par hypothèse un voisinage $V_t$ de $t$ dans $T$ tel que $g \varphi_{V_t}$ soit intégrable; on peut donc recouvrir $K$ par un nombre fini de voisinages $V_i (1 \leq i \leq n)$ tels que les fonctions $g \varphi_{V_i}$ soient intégrables. Comme
 
 $$
 |g| \varphi_K \leq \sum_{i=1}^n |g| \varphi_{V_i},
@@ -77,9 +77,9 @@ $$
 
 on a $\int^* |g| \varphi_K d\mu < +\infty$.
 
-En second lieu, $b)$ entraîne $c)$, car $gh$ est alors mesurable, et si $L$ est le support compact de $h$, on a $|gh| \leq \|h\| \cdot |g| \varphi_L$, donc $\int^* |gh| d\mu < +\infty$ par hypothèse; $gh$ est par suite intégrable en vertu du critère d’intégrabilité (chap. IV, § 5, n° 6, th. 5).
+En second lieu, b) entraîne c), car $gh$ est alors mesurable, et si $L$ est le support compact de $h$, on a $|gh| \leq \|h\| \cdot |g| \varphi_L$, donc $\int^* |gh| d\mu < +\infty$ par hypothèse; $gh$ est par suite intégrable en vertu du critère d’intégrabilité (chap. IV, § 5, n° 6, th. 5).
 
-Enfin, $c)$ entraîne $a)$. En effet, pour tout $t \in T$, soit $V$ un voisinage compact de $t$. Il existe une application continue $h$ de $T$ dans $[0, 1]$, égale à 1 dans $V$ et à support compact (chap. III, 2e éd., § 1, n° 2, lemme 1); par hypothèse $gh$ est intégrable, donc il en est de même de $g \varphi_V = (gh) \varphi_V$ (chap. IV, § 5, n° 6, cor. 3 du th. 5).
+Enfin, c) entraîne a). En effet, pour tout $t \in T$, soit $V$ un voisinage compact de $t$. Il existe une application continue $h$ de $T$ dans $[0, 1]$, égale à 1 dans $V$ et à support compact (chap. III, 2e éd., § 1, n° 2, lemme 1); par hypothèse $gh$ est intégrable, donc il en est de même de $g \varphi_V = (gh) \varphi_V$ (chap. IV, § 5, n° 6, cor. 3 du th. 5).
 
 #### Définition 1 {#int-v-s5-def-1 .statement}
 

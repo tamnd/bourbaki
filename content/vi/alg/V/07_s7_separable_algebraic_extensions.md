@@ -50,9 +50,9 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: 2c7d2306adfc48ac6863ea31efb548fe36f5d9d146597c83125150fba5cafbbc
+content_sha256: fee8431bc0f45fe6cfab20dc0407aedf62e9ef8c13c2796b1c638721b90f2851
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
-source_content_sha256: 457e0969d8a65a8d0ac531e9ded6cf0fc4bcffb779afaee416c5d69718bce01a
+source_content_sha256: 0a083ae6551757fc227e315fe223e0308ff89ccd72c0b4cb26806e4b9f41bf1e
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-93c80b86
 glossary_version: 34
@@ -127,7 +127,7 @@ $$
 
 — 1) Cho L là một mở rộng của K và f là một đa thức không hằng trong K[X]. Theo *e)* của Mệnh đề 3 và V, p. 32, Hệ quả 2, việc giả sử f là tách được là như nhau, dù xét như phần tử của K[X] hay của L[X]. Mặt khác, hoàn toàn có thể xảy ra trường hợp f là bất khả quy trong K[X] nhưng không bất khả quy trong L[X].
 
-2) Cho $f \in K[X]$; ta biết (IV, p. 13, Mệnh đề 13) rằng tồn tại các đa thức bất khả quy $f_1, \ldots, f_m$ trong $K[X]$ sao cho $f = f_1 \ldots f_m$. Cho $\Omega$ là một bao đóng đại số của $K$; vì một đa thức bất khả quy $g \in K[X]$ là đa thức tối tiểu trên $K$ của mỗi nghiệm của nó trong $\Omega$, nên hai đa thức bất khả quy phân biệt trong $K[X]$ không có nghiệm chung nào trong $\Omega$. Điều kiện $d)$ của Mệnh đề 3 khi đó cho thấy rằng $f$ là tách được khi và chỉ khi các đa thức $f_1, \ldots, f_m$ là tách được và từng đôi một phân biệt.
+2) Cho $f \in K[X]$; ta biết (IV, p. 13, Mệnh đề 13) rằng tồn tại các đa thức bất khả quy $f_1, \ldots, f_m$ trong $K[X]$ sao cho $f = f_1 \ldots f_m$. Cho $\Omega$ là một bao đóng đại số của $K$; vì một đa thức bất khả quy $g \in K[X]$ là đa thức tối tiểu trên $K$ của mỗi nghiệm của nó trong $\Omega$, nên hai đa thức bất khả quy phân biệt trong $K[X]$ không có nghiệm chung nào trong $\Omega$. Điều kiện d) của Mệnh đề 3 khi đó cho thấy rằng $f$ là tách được khi và chỉ khi các đa thức $f_1, \ldots, f_m$ là tách được và từng đôi một phân biệt.
 
 #### Mệnh đề 4 {#alg-v-s7-prop-4 .statement}
 
@@ -138,15 +138,15 @@ b) *Tồn tại một mở rộng $L$ của $K$ mà trong đó $f$ có một ngh
 c) *Đạo hàm $f'$ của f khác không.*
 d) *Trường $K$ có đặc số $0$, hoặc có đặc số $p \neq 0$ và $f \not\in K[X^p]$*.
 
-Trước hết nhận thấy rằng một đa thức bất khả quy trong $K[X]$ không phải là hằng. Hiển nhiên $a)$ kéo theo $b)$ (lấy một bao đóng đại số của $K$ làm $L$). Nếu $x$ là một nghiệm đơn của nó trong một mở rộng $L$ của $K$, thì ta có $f'(x) \neq 0$ (IV, p. 17, Mệnh đề 7), do đó $b)$ kéo theo $c)$, và tính tương đương của $c)$ và $d)$ suy ra từ V, p. 9, Hệ quả.
+Trước hết nhận thấy rằng một đa thức bất khả quy trong $K[X]$ không phải là hằng. Hiển nhiên a) kéo theo b) (lấy một bao đóng đại số của $K$ làm $L$). Nếu $x$ là một nghiệm đơn của nó trong một mở rộng $L$ của $K$, thì ta có $f'(x) \neq 0$ (IV, p. 17, Mệnh đề 7), do đó b) kéo theo c), và tính tương đương của c) và d) suy ra từ V, p. 9, Hệ quả.
 
-Giả sử cuối cùng rằng $f \neq 0$; gọi $x$ là một nghiệm của $f$ trong một mở rộng đóng đại số $\Omega$ của $K$. Vì $f$ là đa thức tối tiểu của $x$ trên $K$ và $\deg f' < \deg f$, ta có $f'(x) \neq 0$, và do đó $x$ là một nghiệm đơn của $f$ (IV, p. 17, Prop. 7). Vậy $f$ là tách được và ta đã chỉ ra rằng $c)$ kéo theo $a)$.
+Giả sử cuối cùng rằng $f \neq 0$; gọi $x$ là một nghiệm của $f$ trong một mở rộng đóng đại số $\Omega$ của $K$. Vì $f$ là đa thức tối tiểu của $x$ trên $K$ và $\deg f' < \deg f$, ta có $f'(x) \neq 0$, và do đó $x$ là một nghiệm đơn của $f$ (IV, p. 17, Prop. 7). Vậy $f$ là tách được và ta đã chỉ ra rằng c) kéo theo a).
 
 #### Hệ quả 1 {#alg-v-s7-prop-4-cor-1 .statement}
 
 — *Để một trường $K$ là hoàn hảo thì điều kiện cần và đủ là mọi đa thức bất khả quy của $K[X]$ đều tách được*.
 
-Nếu trường $K$ có đặc số $0$, thì $K$ là hoàn hảo và mọi đa thức bất khả quy của $K[X]$ đều tách được, theo $d)$ ở trên. Vậy giả sử rằng $K$ có đặc số $p \neq 0$.
+Nếu trường $K$ có đặc số $0$, thì $K$ là hoàn hảo và mọi đa thức bất khả quy của $K[X]$ đều tách được, theo d) ở trên. Vậy giả sử rằng $K$ có đặc số $p \neq 0$.
 
 Trước hết giả sử rằng $K$ là hoàn hảo. Ta có $K[X^p] = K[X]^p$, do đó không tồn tại đa thức bất khả quy nào của $K[X]$ thuộc $K[X^p]$. Theo Mệnh đề 4, khi đó mọi đa thức bất khả quy của $K[X]$ đều tách được.
 
@@ -223,7 +223,7 @@ Tiếp theo ta nhận thấy rằng điều kiện b) suy ra rằng mở rộng 
 Để chứng minh rằng b) $\Rightarrow$ a), bây giờ ta phân biệt hai trường hợp:
 A) Nếu trường $K$ là *hữu hạn*, trường $E$ là một không gian vectơ có số chiều hữu hạn trên K và do đó là một tập hợp hữu hạn. Vì thế $^1$ (V, p. 78, Bổ đề 1) tồn tại một phần tử $x$ của $E$ sinh nhóm nhân của $E$, và ta có $E = K[x]$.
 
-B) Bây giờ giả sử rằng trường $K$ là vô hạn. Nếu $b)$ đúng, thì mở rộng $E$ có bậc hữu hạn, nên $b)$ cũng có thể được phát biểu bằng cách nói rằng $E$ chỉ có một số hữu hạn các đại số con. Như vậy, hệ quả $b) \Rightarrow a)$ là một hệ quả của mệnh đề tổng quát hơn sau đây (mà giả thiết trường $K$ là vô hạn là không thể thiếu được, xem V, p. 153, Bài tập 5 của § 7):
+B) Bây giờ giả sử rằng trường $K$ là vô hạn. Nếu b) đúng, thì mở rộng $E$ có bậc hữu hạn, nên b) cũng có thể được phát biểu bằng cách nói rằng $E$ chỉ có một số hữu hạn các đại số con. Như vậy, hệ quả $b) \Rightarrow a)$ là một hệ quả của mệnh đề tổng quát hơn sau đây (mà giả thiết trường $K$ là vô hạn là không thể thiếu được, xem V, p. 153, Bài tập 5 của § 7):
 
 #### Mệnh đề 7 {#alg-v-s7-prop-7 .statement}
 
@@ -235,7 +235,7 @@ Cho $A_1, \ldots, A_n$ là các đại số con của $A$ phân biệt với $A$
 
 Lập luận bằng quy nạp theo $n$, ta chỉ cần chứng minh rằng nếu $V \subset A$, và $V \subset A_1 \cup \ldots \cup A_n$, thì $V \subset A_1 \cup \ldots \cup A_{n-1}$. Lấy $x \in V, x \notin A_n$, và lấy $y$ tùy ý trong $V$. Nếu $y \in Kx$, ta có $y \in A_1 \cup \ldots \cup A_{n-1}$; nếu không, thì các phần tử $x$ và $y + \lambda x, \lambda \in K$ có số lớn hơn hẳn $n$ và thuộc $A_1 \cup \ldots \cup A_n$, nên có hai phần tử trong số đó thuộc cùng một $A_i$. Do đó tồn tại $i, 1 \leq i \leq n$ sao cho hoặc $x \in A_i$ và $y + \lambda x \in A_i$ với một $\lambda \in K$, hoặc $y + \mu x \in A_i$ và $y + \mu x \in A_i$ với hai vô hướng phân biệt $\lambda, \mu \in K$. Trong cả hai trường hợp ta kết luận rằng $x \in A_i$ và $y \in A_i$; nhưng điều này kéo theo $i \neq n$, do đó $y \in A_1 \cup \ldots \cup A_{n-1}$, như điều phải chứng minh.
 
-Điều này hoàn tất chứng minh về tính tương đương của $a)$ và $b)$ trong Định lý 1. Cuối cùng, nếu mở rộng $E$ là tách được và có bậc hữu hạn, thì điều kiện $b)$ đúng, theo V, p. 30, Mệnh đề 3.
+Điều này hoàn tất chứng minh về tính tương đương của a) và b) trong Định lý 1. Cuối cùng, nếu mở rộng $E$ là tách được và có bậc hữu hạn, thì điều kiện b) đúng, theo V, p. 30, Mệnh đề 3.
 
 ### 5. Các tính chất ổn định của các mở rộng đại số tách được
 

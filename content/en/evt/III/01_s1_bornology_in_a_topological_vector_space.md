@@ -40,7 +40,7 @@ subsections:
       pdf_page: 141
 statements: 30
 exercises: 16
-content_sha256: d71d0969533dd7f5fff98cca3d3702c7e8c3ccc31a6fa2115384c36fec2e38a7
+content_sha256: f0367575f236480d19bac46c262f379ed1995cd00476c147df4184564e42e7b4
 ---
 
 ## § 1. BORNOLOGY IN A TOPOLOGICAL VECTOR SPACE
@@ -110,11 +110,11 @@ Thus, if $E$ is locally convex and metrizable, and if its topology cannot be def
 *Let $E$ be a locally convex space. The set of bounded subsets of $E$ is an adapted bornology.*
 
 We need to establish the following properties :
-$a)$ If $B$ is a bounded subset of $E$, every subset of $B$ is bounded.
-$b)$ The union of two bounded subsets is bounded.
-$c)$ Every set that is homothetic to a bounded set is bounded.
-$d)$ The closed convex balanced envelope (II, p. 13) of a bounded subset is bounded.
-If $p$ is a continuous semi-norm on $E$, the balls of $p$ are convex, balanced, closed and the set homothetic to a ball is a ball. Hence, if $p$ is bounded on two subsets $X$ and $Y$ of $E$, it is also bounded on the closed convex balanced envelope of $X \cup Y$, and on the sets homothetic to these. This establishes properties $b), c)$ and $d)$, and $a)$ is obvious.
+a) If $B$ is a bounded subset of $E$, every subset of $B$ is bounded.
+b) The union of two bounded subsets is bounded.
+c) Every set that is homothetic to a bounded set is bounded.
+d) The closed convex balanced envelope (II, p. 13) of a bounded subset is bounded.
+If $p$ is a continuous semi-norm on $E$, the balls of $p$ are convex, balanced, closed and the set homothetic to a ball is a ball. Hence, if $p$ is bounded on two subsets $X$ and $Y$ of $E$, it is also bounded on the closed convex balanced envelope of $X \cup Y$, and on the sets homothetic to these. This establishes properties $b), c)$ and d), and a) is obvious.
 
 #### Definition 5 {#evt-iii-s1-def-5 .statement}
 

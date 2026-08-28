@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: 89349cf7107620b7e5bc04afe41fb8048d6909491c6c0cc0a7af48db2dfc246c
+content_sha256: f2c69323fa8510d34d18016aab8b766ce7e266aa40b3c50bb217de766f896339
 ---
 
 ## § 1. Groupes de Lie
@@ -819,7 +819,7 @@ est un voisinage de $x$. Si $x \in X_i \cap X_j$, on a $V_1(x) \subset X_i \cap 
 
 Soient $G$ un groupuscule de Lie, $X$ une variété de classe $C^r$, $(X_i)_{i \in I}$ un recouvrement ouvert localement fini de $X$. Pour tout $i \in I$, soit $\psi_i$ un morceau de loi d’opération à gauche de classe $C^r$ de $G$ dans $X_i$. On suppose que l’espace topologique sous-jacent à $X$ est normal et que, pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, $\psi_i$ et $\psi_j$ coïncident dans un voisinage de $(e, x)$. Il existe un morceau de loi d’opération à gauche de classe $C^r$ de $G$ dans $X$ tel que, pour tout $i \in I$ et tout $x \in X_i$, $\psi_i$ et $\psi$ coïncident dans un voisinage de $(e, x)$.
 
-Pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, choisissons un voisinage ouvert $V_{ij}(x)$ de $x$ dans $X_i \cap X_j$ tel que $\psi_i$ et $\psi_j$ soient définies et égales sur un voisinage de $\{e\} \times V_{ij}(x)$ dans $G \times X$. Pour tout $x \in X$, choisissons un voisinage ouvert $V(x)$ de $x$ dans $X$ de telle sorte que les conditions $a)$ et $b)$ du lemme 3 soient vérifiées. Soit $I_x$ l’ensemble des $i \in I$ tels que $x \in X_i$. C’est un ensemble fini. Soit $U_x$ l’ensemble des $(g, y) \in G \times V(x)$ tels que les $\psi_i$, pour $i \in I_x$, soient définies et coïncident dans un voisinage de $(g, y)$. Alors $U_x$ est ouvert et $(e, x) \in U_x$. Les $\psi_i$, pour $i \in I_x$, ont toutes même restriction à $U_x$. Soient $x, y$ dans $X$. Si $U_x$ et $U_y$ se rencontrent, $V(x)$ et $V(y)$ se rencontrent, donc il existe $i \in I$ tel que
+Pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, choisissons un voisinage ouvert $V_{ij}(x)$ de $x$ dans $X_i \cap X_j$ tel que $\psi_i$ et $\psi_j$ soient définies et égales sur un voisinage de $\{e\} \times V_{ij}(x)$ dans $G \times X$. Pour tout $x \in X$, choisissons un voisinage ouvert $V(x)$ de $x$ dans $X$ de telle sorte que les conditions a) et b) du lemme 3 soient vérifiées. Soit $I_x$ l’ensemble des $i \in I$ tels que $x \in X_i$. C’est un ensemble fini. Soit $U_x$ l’ensemble des $(g, y) \in G \times V(x)$ tels que les $\psi_i$, pour $i \in I_x$, soient définies et coïncident dans un voisinage de $(g, y)$. Alors $U_x$ est ouvert et $(e, x) \in U_x$. Les $\psi_i$, pour $i \in I_x$, ont toutes même restriction à $U_x$. Soient $x, y$ dans $X$. Si $U_x$ et $U_y$ se rencontrent, $V(x)$ et $V(y)$ se rencontrent, donc il existe $i \in I$ tel que
 
 $$
 V(x) \cup V(y) \subset X_i.

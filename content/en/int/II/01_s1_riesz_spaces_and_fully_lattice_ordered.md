@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: b36064e2cd4db20377f16f7440dc1bbd00a06ca024bacdbe0a50b77c71f0c491
+content_sha256: 3b9eb027da08c7a53f7df3e86e6b00d1cb2b27951fa304777c39b88f1388325d
 ---
 
 ## § 1. RIESZ SPACES AND FULLY LATTICE-ORDERED SPACES
@@ -146,8 +146,8 @@ P + P ⊂ P and λP ⊂ P for all λ > 0. Conversely, if, in a vector space E ov
 $1^\circ$ P generates E, that is, every $z \in E$ is of the form $y - x$, where x and y belong to P;
 
 $2^\circ$ P satisfies one of the following two conditions:
-$a)$ every pair of elements of P has a supremum in P;
-$b)$ every pair of elements of P has an infimum in P (A, VI, §1, No. 9, Prop. 8).
+a) every pair of elements of P has a supremum in P;
+b) every pair of elements of P has an infimum in P (A, VI, §1, No. 9, Prop. 8).
 
 ### 3. Fully lattice-ordered spaces
 
@@ -167,7 +167,7 @@ It is immediate that in a fully lattice-ordered space E, every nonempty subset t
 
 *For an ordered vector space E to be fully lattice-ordered, it is necessary and sufficient that E be a Riesz space and that it satisfy one of the following two conditions:*
 
-$a)$ *every nonempty subset A, consisting of elements $\geq 0$ of E, that is bounded above and directed for the relation $\leq$, has a supremum in E;*
+a) *every nonempty subset A, consisting of elements $\geq 0$ of E, that is bounded above and directed for the relation $\leq$, has a supremum in E;*
 
 b) *every nonempty subset* $A$, *consisting of elements* $\geqslant 0$ *of* $E$ *and directed for the relation* $\geqslant$, *has an infimum in* $E$.
 

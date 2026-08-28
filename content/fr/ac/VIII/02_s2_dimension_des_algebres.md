@@ -29,7 +29,7 @@ subsections:
       pdf_page: 23
 statements: 32
 exercises: 18
-content_sha256: c86244d422d6c60cb2f20f1a01352191bb788823ec5b67c00e0e84019615637c
+content_sha256: adc2a4e954a088d296502eb1f4f4669ae89dd263f74cfb2153cbce9b5d909848
 ---
 
 ## § 2. DIMENSION DES ALGÈBRES
@@ -366,7 +366,7 @@ $$
 \dim_r(A \otimes_k B) = \dim_p(A) + \dim_q(B).
 $$
 
-Posons $n = \dim(A)$ et $m = \dim(B)$. Il existe d’après le cor. 1 au th. 3 des homomorphismes injectifs d’algèbres $\varphi : k[X_1, ..., X_n] \to A$ et $\psi : k'[Y_1, ..., Y_m] \to B$ faisant respectivement de $A$ et $B$ des algèbres finies sur $k[X_1, ..., X_n]$ et $k'[Y_1, ..., Y_m]$. L’homomorphisme $\varphi \otimes \psi$ est alors injectif et fait de $A \otimes_k B$ une algèbre finie sur la $k'$-algèbre $k[X_1, ..., X_n] \otimes_k k'[Y_1, ..., Y_m]$ qui s’identifie à $k'[X_1, ..., X_n, Y_1, ..., Y_m]$. On a donc $\dim(A \otimes_k B) = n + m$ d’après le cor. 1 au th. 3, ce qui prouve $a)$.
+Posons $n = \dim(A)$ et $m = \dim(B)$. Il existe d’après le cor. 1 au th. 3 des homomorphismes injectifs d’algèbres $\varphi : k[X_1, ..., X_n] \to A$ et $\psi : k'[Y_1, ..., Y_m] \to B$ faisant respectivement de $A$ et $B$ des algèbres finies sur $k[X_1, ..., X_n]$ et $k'[Y_1, ..., Y_m]$. L’homomorphisme $\varphi \otimes \psi$ est alors injectif et fait de $A \otimes_k B$ une algèbre finie sur la $k'$-algèbre $k[X_1, ..., X_n] \otimes_k k'[Y_1, ..., Y_m]$ qui s’identifie à $k'[X_1, ..., X_n, Y_1, ..., Y_m]$. On a donc $\dim(A \otimes_k B) = n + m$ d’après le cor. 1 au th. 3, ce qui prouve a).
 
 Remarquons que lorsque $A$ et $B$ sont intègres, $A \otimes_k B$ est un $k'[X_1, ..., X_n, Y_1, ..., Y_m]$-module sans torsion d’après le lemme 4 et qu’on a donc
 $$
@@ -374,7 +374,7 @@ $$
 $$
 pour tout idéal premier $r$ de $A \otimes_k B$ d’après la remarque 1.
 
-Prouvons maintenant $b)$. Soit $r_0$ un idéal premier minimal de $A \otimes_k B$ contenu dans $r$, et notons $p_0$ (resp. $q_0$) l’image réciproque de $r_0$ dans $A$ (resp. $B$). L’anneau
+Prouvons maintenant b). Soit $r_0$ un idéal premier minimal de $A \otimes_k B$ contenu dans $r$, et notons $p_0$ (resp. $q_0$) l’image réciproque de $r_0$ dans $A$ (resp. $B$). L’anneau
 
 (A \otimes_k B)/r_0 est isomorphe à un quotient de l’anneau (A/p_0) \otimes_k (B/q_0). On a donc, d’après $a$,
 

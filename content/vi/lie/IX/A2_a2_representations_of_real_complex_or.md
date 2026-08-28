@@ -22,9 +22,9 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: 1309b9880050dcb2afc601cd36ac40996b6a4f1eb72a3b7156195c7852a8eb2a
+content_sha256: 5b3522ce7f0ebfd846b40d68e702cd567d4af809ed79f729ed49f0a2d0d0ac77
 translated_from: content/en/lie/IX/A2_a2_representations_of_real_complex_or.md
-source_content_sha256: b1abe927440628b085d7a372f483b3d90c467463452fcb1aefa24f60c64818f0
+source_content_sha256: 166c8e4a3ff2601758b90e2cbc28e90c5ad2ac9dc57f18a2eb1d30f70fa6ca87
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-dced90e6
 glossary_version: 34
@@ -70,19 +70,19 @@ c) Tồn tại một $A_{(\mathbf{C})}$-đẳng cấu $\theta$ từ W đến $\o
 
 Không gian vectơ phức Hom$_{A_{(\mathbf{C})}}(W,W)$ có chiều $\leq 1 ($Đại số, Chương VIII, §3, no. 2); nếu $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$, thì tự đồng cấu $\theta \circ \theta$ của W là một phép vị tự, có tỷ số $\alpha \in \mathbf{C}$. Với mọi $w\in W$, ta có $\alpha \theta (w) =\theta \circ \theta \circ \theta (w) =$ $\theta (\alpha w) = \overline{\alpha \theta}(w)$, nên $\alpha$ là thực. Nếu $\theta '=\lambda \theta$, với $\lambda \in \mathbf{C}$, thì $\theta '\circ \theta '=|\lambda |^2\theta \circ \theta$; do đó, chính xác một trong ba khả năng sau đây xảy ra:
 
-$a)$ Tồn tại $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ sao cho $\theta \circ \theta = 1_W$;
+a) Tồn tại $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ sao cho $\theta \circ \theta = 1_W$;
 
-$b)$ Hom$_{A_{(\mathbf{C})}}(W,W) =\{0\}$;
+b) Hom$_{A_{(\mathbf{C})}}(W,W) =\{0\}$;
 
-$c)$ Tồn tại $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ sao cho $\theta \circ \theta =-1_W$.
+c) Tồn tại $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ sao cho $\theta \circ \theta =-1_W$.
 
-Trong trường hợp $a)$, tập hợp V các điểm bất động của $\theta$ là một cấu trúc $\mathbf{R}$ trên W (Đại số, Chương V, p. 61, Mệnh đề 7); vì $V_{(\mathbf{C})}$ đẳng cấu với W, A-môđun V là đơn với hoán tập $\mathbf{R}.1_V$ (Mệnh đề 1), và $W_{[\mathbf{R}]}$ không đơn.
+Trong trường hợp a), tập hợp V các điểm bất động của $\theta$ là một cấu trúc $\mathbf{R}$ trên W (Đại số, Chương V, p. 61, Mệnh đề 7); vì $V_{(\mathbf{C})}$ đẳng cấu với W, A-môđun V là đơn với hoán tập $\mathbf{R}.1_V$ (Mệnh đề 1), và $W_{[\mathbf{R}]}$ không đơn.
 
 Ngược lại, nếu $W_{[\mathbf{R}]}$ không đơn, cho V là một A-môđun con đơn của $W_{[\mathbf{R}]}$; vì $A_{(\mathbf{C})}$-môđun W là đơn, nên $V +iV = W$ và $V\cap iV =\{0\}$, nghĩa là $W = V\oplus iV$. Do đó, V là một cấu trúc $\mathbf{R}$ trên W, và đẳng cấu $\theta$ từ W đến $\overline{W}$ sao cho $\theta (v+iv') =v-iv'$ với $v$ và $v'$ trong V thỏa mãn $\theta \circ \theta = 1_W$.
 
-Do đó, trong các trường hợp $b)$ và $c)$, A-môđun $W_{[\mathbf{R}]}$ là đơn; theo Mệnh đề 1, hoán tập E của nó đẳng cấu với $\mathbf{C}$ trong trường hợp $b)$, và với $\mathbf{H}$ trong trường hợp $c)$. Hơn nữa, hiển nhiên là E chứa $\mathbf{C}.1_W$, và chứa $\mathbf{C}.\theta$ trong trường hợp $c)$, suy ra mệnh đề.
+Do đó, trong các trường hợp b) và c), A-môđun $W_{[\mathbf{R}]}$ là đơn; theo Mệnh đề 1, hoán tập E của nó đẳng cấu với $\mathbf{C}$ trong trường hợp b), và với $\mathbf{H}$ trong trường hợp c). Hơn nữa, hiển nhiên là E chứa $\mathbf{C}.1_W$, và chứa $\mathbf{C}.\theta$ trong trường hợp c), suy ra mệnh đề.
 
-Với các giả thiết trong mệnh đề, $A_{(\mathbf{C})}$-môđun W được gọi là thuộc kiểu thực, kiểu phức hoặc kiểu quaternion (đối với A) tương ứng trong các trường hợp $a),b)$ hoặc $c)$.
+Với các giả thiết trong mệnh đề, $A_{(\mathbf{C})}$-môđun W được gọi là thuộc kiểu thực, kiểu phức hoặc kiểu quaternion (đối với A) tương ứng trong các trường hợp $a),b)$ hoặc c).
 
 Đối với $K =\mathbf{R}$ hoặc $\mathbf{C}$, ký hiệu $\mathfrak{S}_K(A)$ là tập hợp các lớp của các $A_{(K)}$-môđun đơn hữu hạn chiều trên K. Nhóm $\Gamma =$ Gal($\mathbf{C}/\mathbf{R}$) tác động trên $\mathfrak{S}_{\mathbf{C}}(A)$; hai mệnh đề trước thiết lập một sự tương ứng song ánh giữa $\mathfrak{S}_{\mathbf{R}}(A)$ và tập thương $\mathfrak{S}_{\mathbf{C}}(A)/\Gamma$.
 
@@ -100,7 +100,7 @@ b) Biểu diễn $\rho$ có kiểu phức nếu và chỉ nếu không tồn t�
 
 c) Biểu diễn $\rho$ có kiểu quaternion nếu và chỉ nếu tồn tại một dạng song tuyến tính phản xứng khác không trên W, bất biến dưới G; một dạng như vậy tất yếu là phân ly.
 
-Với $\theta \in$ Hom$_{\mathbf{C}^{(G)}}(W,W)$ và $x, y\in W$, đặt $B_{\theta}(x, y) = H(\theta x, y)$. Khi đó $B_{\theta}$ là một dạng song tuyến tính trên W, bất biến dưới G, và phân ly nếu $\theta$ khác không. Ký hiệu bởi $\mathscr{B}(W)^G$ không gian các dạng song tuyến tính trên W bất biến dưới G; ánh xạ $\theta  \rightarrow B_{\theta}$ từ Hom$_{\mathbf{C}^{(G)}}(W,W)$ vào $\mathscr{B}(W)^G$ là một đẳng cấu của các $\mathbf{C}$-không gian vectơ. Điều này, đặc biệt, kéo theo mệnh đề $b)$.
+Với $\theta \in$ Hom$_{\mathbf{C}^{(G)}}(W,W)$ và $x, y\in W$, đặt $B_{\theta}(x, y) = H(\theta x, y)$. Khi đó $B_{\theta}$ là một dạng song tuyến tính trên W, bất biến dưới G, và phân ly nếu $\theta$ khác không. Ký hiệu bởi $\mathscr{B}(W)^G$ không gian các dạng song tuyến tính trên W bất biến dưới G; ánh xạ $\theta  \rightarrow B_{\theta}$ từ Hom$_{\mathbf{C}^{(G)}}(W,W)$ vào $\mathscr{B}(W)^G$ là một đẳng cấu của các $\mathbf{C}$-không gian vectơ. Điều này, đặc biệt, kéo theo mệnh đề b).
 
 Cho $\theta$ là một $\mathbf{C}^{(G)}$-đẳng cấu từ W đến $\overline{W}$ sao cho $\theta \circ \theta =\alpha_W$, với $\alpha \in  \{-1,+1\}$ (Mệnh đề 2); vì $\mathscr{B}(W)^G$ có chiều bằng 1, nên tồn tại $\varepsilon \in \mathbf{C}$ sao cho
 
@@ -112,7 +112,7 @@ $$
 H(\theta x, \theta x) = B_{\theta}(x, \theta x) =\varepsilon B_{\theta}(\theta x, x) =\varepsilon H(\theta \circ \theta (x), x) =\varepsilon \alpha H(x, x)
 $$
 
-vì vậy $\varepsilon \alpha  >0$ vì H là dương, nghĩa là $\varepsilon =\alpha$. Các khẳng định $a)$ và $c)$ bây giờ suy ra từ Mệnh đề 2.
+vì vậy $\varepsilon \alpha  >0$ vì H là dương, nghĩa là $\varepsilon =\alpha$. Các khẳng định a) và c) bây giờ suy ra từ Mệnh đề 2.
 
 Ký hiệu $dg$ là độ đo Haar có tổng khối lượng bằng 1 trên G.
 

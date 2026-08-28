@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: 5225c61ea5dc1a952d38fe07735c8588075848460b3c57f5fb8d179cac224f66
+content_sha256: d08c430660606ead0875127cb3c65c0e0dd20ea4d59a7344ef20e308cdb9fbe7
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 source_content_sha256: 4bfeeee4e5c1a6ce99f5c929d436d1d7c6606ff2f9558da7d47b0ffdba15c626
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -608,13 +608,13 @@ và do đó $p_N(x) \in M$. Ta kết luận rằng $x - p_N(x) \in M$, do đó $
 
 Ta đã chứng minh a) và phần đầu của b). Bây giờ giả sử rằng $p_M$ và $p_N$ giao hoán và đặt $q = p_M + p_N - p_M p_N$; vì $p_M$ và $p_N$ là các lũy đẳng trong đại số $\mathcal{L}(E)$, q cũng vậy; do đó (GT, III, § 6, No. 2) ảnh của q là một không gian con vectơ đóng của E.
 
-Hiển nhiên ảnh của $q$ được chứa trong $M + N$; tuy nhiên, ta có $p_N(x) = x$, do đó $q(x) = x$ với mọi $x \in N$; vì ta cũng có $q = p_M + p_N - p_N p_M$, suy ra $q(x) = x$ với mọi $x \in M$. Ta kết luận rằng ảnh của $q$ bằng $M + N$. Phần trực giao của $M + N$ bằng $M^\circ \cap N^\circ$, và hạt nhân của $q$ hiển nhiên chứa $M^\circ \cap N^\circ$, do đó $q = p_{M+N}$. Điều này chứng minh $b)$.
+Hiển nhiên ảnh của $q$ được chứa trong $M + N$; tuy nhiên, ta có $p_N(x) = x$, do đó $q(x) = x$ với mọi $x \in N$; vì ta cũng có $q = p_M + p_N - p_N p_M$, suy ra $q(x) = x$ với mọi $x \in M$. Ta kết luận rằng ảnh của $q$ bằng $M + N$. Phần trực giao của $M + N$ bằng $M^\circ \cap N^\circ$, và hạt nhân của $q$ hiển nhiên chứa $M^\circ \cap N^\circ$, do đó $q = p_{M+N}$. Điều này chứng minh b).
 
-Ta có $p_M p_N = 0$ khi và chỉ khi ảnh $N$ của $p_N$ được chứa trong hạt nhân $M^\circ$ của $p_M$, tức là, khi và chỉ khi $M$ vuông góc với $N$. Phần còn lại của mệnh đề $c)$ khi đó là một trường hợp riêng của $b)$.
+Ta có $p_M p_N = 0$ khi và chỉ khi ảnh $N$ của $p_N$ được chứa trong hạt nhân $M^\circ$ của $p_M$, tức là, khi và chỉ khi $M$ vuông góc với $N$. Phần còn lại của mệnh đề c) khi đó là một trường hợp riêng của b).
 
 #### Nhận xét {#evt-v-s1-n6-rem-1 .statement}
 
-— Cho $E$ là một không gian Hilbert và $M, N$ là hai không gian con vectơ đóng của $E$. Quan hệ $M \subset N$ tương đương với tính trực giao của $M$ và $N^\circ$, tức là, với quan hệ $p_M p_{N^\circ} = 0$ theo mệnh đề 9, $c)$. Vì ta có $p_{N^\circ} = 1 - p_N$, ta kết luận rằng *các quan hệ* $M \subset N$ *và* $p_M = p_M p_N$ *là tương đương* (« định lý ba đường vuông góc », *xem* hình 3).
+— Cho $E$ là một không gian Hilbert và $M, N$ là hai không gian con vectơ đóng của $E$. Quan hệ $M \subset N$ tương đương với tính trực giao của $M$ và $N^\circ$, tức là, với quan hệ $p_M p_{N^\circ} = 0$ theo mệnh đề 9, c). Vì ta có $p_{N^\circ} = 1 - p_N$, ta kết luận rằng *các quan hệ* $M \subset N$ *và* $p_M = p_M p_N$ *là tương đương* (« định lý ba đường vuông góc », *xem* hình 3).
 
 ![Biểu đồ cho thấy các không gian con M, N, và các phép chiếu p_M(x), p_N(x)](https://i.imgur.com/3Q5z5QG.png)
 

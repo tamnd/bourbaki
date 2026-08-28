@@ -58,9 +58,9 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 5f3dd48af337619c27d4fbcc03b8dfdc26d47c52a29abd8098a7d58cedca39a4
+content_sha256: fab6f45edba9c959fe31b1c305959ca3e903a5ab810ba8cad98c57f3d90d2862
 translated_from: content/en/alg/V/10_s10_galois_extensions.md
-source_content_sha256: bb424b0fb2ae9f504120455a04488e0309edc0e44d61041d427cf30a9a80ec43
+source_content_sha256: 04a0e3e1b69842c09f7f728c2902f6049fba186df55774b462f62edfb7d791a9
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-19dbb229
 glossary_version: 34
@@ -246,13 +246,13 @@ b) Nếu $\Gamma$ hữu hạn, thì $\varphi$ là song ánh và $V_0$ là một 
 
 Rõ ràng $V_0$ là một không gian con-K vectơ của $V$.
 
-Công thức $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ cho thấy hạt nhân $W$ của $\varphi$ ổn định dưới các ánh xạ $\sigma \otimes \mathrm{Id}_{V_0}$; do Hệ quả của Mệnh đề 6, do đó tồn tại một không gian con $W_0$ của $V_0$ sao cho $W = N \otimes_K W_0$. Nếu $x$ thuộc $W_0$ thì ta có $x = \varphi(1 \otimes x) = 0$, suy ra $W_0 = 0$ và do đó $W = 0$. Điều này chứng minh $a)$.
+Công thức $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ cho thấy hạt nhân $W$ của $\varphi$ ổn định dưới các ánh xạ $\sigma \otimes \mathrm{Id}_{V_0}$; do Hệ quả của Mệnh đề 6, do đó tồn tại một không gian con $W_0$ của $V_0$ sao cho $W = N \otimes_K W_0$. Nếu $x$ thuộc $W_0$ thì ta có $x = \varphi(1 \otimes x) = 0$, suy ra $W_0 = 0$ và do đó $W = 0$. Điều này chứng minh a).
 
 Giả sử $\Gamma$ là hữu hạn; ta phải chứng minh rằng $\varphi$ là toàn ánh, hay tương đương rằng $V_0$ sinh ra không gian vectơ N $V$. Do đó, cho $f$ là một dạng N-tuyến tính trên $V$ mà hạn chế của nó lên $V_0$ bằng không. Cho $x \in V$; với mọi $A \in N$ phần tử $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ của $V$ rõ ràng thuộc $V_0$, do đó $f(y,) = 0$, nghĩa là,
 $$
 \sum_{\sigma \in \Gamma} f(u_\sigma(x)) \sigma(A) = 0.
 $$
-Theo định lý Dedekind (V, p. 27, Hệ quả 2), do đó ta có $f(u_\sigma(x)) = 0$ với mỗi $\sigma \in \Gamma$; đặc biệt, lấy $\sigma = \varepsilon$ ta được $f(x) = 0$, điều này có nghĩa là $f = 0$. Điều này chứng minh $b)$.
+Theo định lý Dedekind (V, p. 27, Hệ quả 2), do đó ta có $f(u_\sigma(x)) = 0$ với mỗi $\sigma \in \Gamma$; đặc biệt, lấy $\sigma = \varepsilon$ ta được $f(x) = 0$, điều này có nghĩa là $f = 0$. Điều này chứng minh b).
 
 Cho $M$ là một không gian vectơ trên $N$; với mỗi $\sigma \in \Gamma$, cho $M^\sigma$ là không gian vectơ trên $N$ có cùng nhóm cộng cơ sở như $M$, với phép toán ngoài $(A, x) \mapsto \sigma(\lambda) x$. Viết $V = \prod_{\sigma \in \Gamma} M^\sigma$; nhóm cộng cơ sở của $V$ là nhóm của tất cả các ánh xạ từ $\Gamma$ vào $M$, với phép toán ngoài được định nghĩa bởi
 $$

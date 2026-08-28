@@ -32,7 +32,7 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: 6bbb50da9d0318bb8d28a2c9f7f2a56eaa3ceed853091c76b7f18d3d2ceca000
+content_sha256: c43c0a30a8fa0a2a37c54b6842de0c441a6c3dbc3ee3d0fbff2fbb8361a536d9
 ---
 
 ## § 9. Algèbres de Clifford
@@ -366,11 +366,11 @@ c) Si $\dim(E)$ est paire, on a $\varphi(G) = O(Q)$, $\varphi(G^+)$ est d’indi
 
 d) Si $\dim(E)$ est impaire (ce qui entraîne que $A$ est de caractéristique $\neq 2$), on a $\varphi(G) = \varphi(G^+) = SO(Q)$.
 
-On a en effet $Q(sxs^{-1}) = (sxs^{-1})^2 = sx^2 s^{-1} = Q(x)$ pour $s \in G$ et $x \in E$, ce qui montre que $\varphi(s) \in O(Q)$. Pour que $\varphi(s) = 1$, il faut et il suffit que $s$ commute avec les éléments de $E$, c’est-à-dire appartienne au centre $Z$ de $C(Q)$. Ceci démontre $a)$.
+On a en effet $Q(sxs^{-1}) = (sxs^{-1})^2 = sx^2 s^{-1} = Q(x)$ pour $s \in G$ et $x \in E$, ce qui montre que $\varphi(s) \in O(Q)$. Pour que $\varphi(s) = 1$, il faut et il suffit que $s$ commute avec les éléments de $E$, c’est-à-dire appartienne au centre $Z$ de $C(Q)$. Ceci démontre a).
 
 Pour qu’un élément $x$ de $E$ appartienne à $G$, il faut qu’il soit inversible, c’est-à-dire que ce soit un vecteur non singulier (puisque $x^2 = Q(x)$). S’il en est ainsi, on a $x^{-1} = Q(x)^{-1} x$, d’où, pour tout $y \in E$,
 $$ xy x^{-1} = Q(x)^{-1} xy x = Q(x)^{-1} x (\Phi(x, y) - xy) = - (y - \Phi(x, y) Q(x)^{-1} x); $$
-ceci démontre $b)$ (\S 6, no 4).
+ceci démontre b) (\S 6, no 4).
 
 #### Lemme 5 {#alg-ix-s9-lem-5 .statement}
 
@@ -540,20 +540,20 @@ b) Pour que $C(Q)$ soit isomorphe à l’algèbre de matrices $\mathbf{M}_2(A)$ 
 
 a) Montrer que $C^+(Q)$ est isomorphe à une algèbre de quaternions sur $A$ et que $\beta$ est l’antiautomorphisme $z \mapsto \bar{z}$ de cette algèbre dont l’ensemble des invariants est le centre de $C^+(Q)$; si $P$ est le sous-espace de $C^+(Q)$ formé des quaternions purs (c’est-à-dire tels que $z = -\bar{z}$; chap. VIII, § 11, exerc. 6), la restriction à $P$ de la forme quadratique $z \mapsto z \bar{z}$ est équivalente à $\lambda Q$, où $\lambda \in A$. En déduire que, pour que $C^+(Q)$ soit un corps, il faut et il suffit que $Q$ soit d’indice 0.
 
-$b)$ Montrer que si $\tilde{\Delta} = \tilde{\Delta}_1$ et si les algèbres de Clifford $C(Q)$ et $C(Q_1)$ sont isomorphes, $Q$ et $Q_1$ sont équivalentes. (Considérer d’abord le cas où $-\Delta$ est un carré dans $K$, et montrer que dans ce cas $C^+(Q)$ et $C^+(Q_1)$ sont isomorphes ; raisonner ensuite comme dans l’exerc. 14 $a$), en utilisant $a)$ et l’exerc. 6 du chap. VIII, § 11. Dans le cas général, utiliser l’exerc. 12 $a))$.
+b) Montrer que si $\tilde{\Delta} = \tilde{\Delta}_1$ et si les algèbres de Clifford $C(Q)$ et $C(Q_1)$ sont isomorphes, $Q$ et $Q_1$ sont équivalentes. (Considérer d’abord le cas où $-\Delta$ est un carré dans $K$, et montrer que dans ce cas $C^+(Q)$ et $C^+(Q_1)$ sont isomorphes ; raisonner ensuite comme dans l’exerc. 14 $a$), en utilisant a) et l’exerc. 6 du chap. VIII, § 11. Dans le cas général, utiliser l’exerc. 12 $a))$.
 
-$c)$ Montrer que le groupe de Clifford spécial $G^+$ (pour la forme $Q$) est identique au groupe des éléments inversibles de $C^+(Q)$. (Si $(e_1, e_2, e_3)$ est une base orthogonale de $E$, et si $j = e_1 e_2 e_3$ dans $C(Q)$, remarquer que $x \to xj$ est un isomorphisme d’espace vectoriel de $E$ sur $P$).
+c) Montrer que le groupe de Clifford spécial $G^+$ (pour la forme $Q$) est identique au groupe des éléments inversibles de $C^+(Q)$. (Si $(e_1, e_2, e_3)$ est une base orthogonale de $E$, et si $j = e_1 e_2 e_3$ dans $C(Q)$, remarquer que $x \to xj$ est un isomorphisme d’espace vectoriel de $E$ sur $P$).
 
-$d)$ Déduire de $a)$ et $c)$ que si $Q$ est d’indice 1, le groupe des rotations $O^+(Q)$ est isomorphe au groupe projectif $\mathbf{PGL}_2(A)$ (chap. II, 2e éd., App. III, no 6).
+d) Déduire de a) et c) que si $Q$ est d’indice 1, le groupe des rotations $O^+(Q)$ est isomorphe au groupe projectif $\mathbf{PGL}_2(A)$ (chap. II, 2e éd., App. III, no 6).
 
 ¶ 16) On garde les hypothèses et notations générales de l’exerc. 14, mais on suppose $n = 4$.
 
-$a)$ Donner un exemple où $\tilde{\Delta} = \tilde{\Delta}_1$ et où $C(Q)$ et $C(Q_1)$ sont isomorphes, mais où $Q$ et $Q_1$ ne sont pas équivalentes (cf. exerc. 7).
+a) Donner un exemple où $\tilde{\Delta} = \tilde{\Delta}_1$ et où $C(Q)$ et $C(Q_1)$ sont isomorphes, mais où $Q$ et $Q_1$ ne sont pas équivalentes (cf. exerc. 7).
 
-$b)$ Soient $(e_i)_{1 \leq i \leq 4}$ une base orthogonale de $E$ pour $Q$, $Q_0$ la restriction de $Q$ à l’hyperplan $H = Ae_1 + Ae_2 + Ae_3$. Montrer que, si $Z$ est le centre de $C^+(Q)$, l’algèbre $C^+(Q)$ est isomorphe au produit tensoriel $Z \otimes_A C^+(Q_0)$. Pour tout $z \in C^+(Q)$, on a $\beta(z)z \in Z$; pour que $z$ appartienne au groupe de Clifford spécial $G^+$, il faut et il suffit que $z$ soit inversible et que $\beta(z)z \in A.1$. En déduire que le groupe $O_0^+(Q)$ est isomorphe au quotient par $\{1, -1\}$ du groupe des éléments $z \in Z \otimes_A C^+(Q_0)$ tels que $\beta(z)z = 1$.
+b) Soient $(e_i)_{1 \leq i \leq 4}$ une base orthogonale de $E$ pour $Q$, $Q_0$ la restriction de $Q$ à l’hyperplan $H = Ae_1 + Ae_2 + Ae_3$. Montrer que, si $Z$ est le centre de $C^+(Q)$, l’algèbre $C^+(Q)$ est isomorphe au produit tensoriel $Z \otimes_A C^+(Q_0)$. Pour tout $z \in C^+(Q)$, on a $\beta(z)z \in Z$; pour que $z$ appartienne au groupe de Clifford spécial $G^+$, il faut et il suffit que $z$ soit inversible et que $\beta(z)z \in A.1$. En déduire que le groupe $O_0^+(Q)$ est isomorphe au quotient par $\{1, -1\}$ du groupe des éléments $z \in Z \otimes_A C^+(Q_0)$ tels que $\beta(z)z = 1$.
 
-$c)$ On suppose que $\Delta$ n’est pas un carré dans $A$ (ce qui implique, en vertu du th. de Witt, que l’indice de $Q$ est 0 ou 1). Si $Q_0'$ est la forme quadratique obtenue à partir de $Q_0$ par extension à $A' = A(\sqrt{\Delta})$ du corps des scalaires, déduire de $b)$ que $O_0^+(Q)$ est isomorphe à $O_0^+(Q_0')$. En particulier, si $Q$ est d’indice 1, $O_0^+(Q)$ est le groupe des commutateurs de $O(Q)$ et est isomorphe à $\mathbf{PSL}_2(A')$ (cf. exerc. 15 $d$) et chap. III, § 7, exerc. 8).
+c) On suppose que $\Delta$ n’est pas un carré dans $A$ (ce qui implique, en vertu du th. de Witt, que l’indice de $Q$ est 0 ou 1). Si $Q_0'$ est la forme quadratique obtenue à partir de $Q_0$ par extension à $A' = A(\sqrt{\Delta})$ du corps des scalaires, déduire de b) que $O_0^+(Q)$ est isomorphe à $O_0^+(Q_0')$. En particulier, si $Q$ est d’indice 1, $O_0^+(Q)$ est le groupe des commutateurs de $O(Q)$ et est isomorphe à $\mathbf{PSL}_2(A')$ (cf. exerc. 15 $d$) et chap. III, § 7, exerc. 8).
 
-$d)$ On suppose que $\Delta$ est un carré dans $A$ (ce qui implique, en vertu du th. de Witt, que $Q$ est d’indice 0 ou 2) et que $Q(e_4) = 1$. Si on pose $j = e_1 e_2 e_3$, tout $x \in E$ peut s’écrire d’une seule manière $x = \alpha e_4 + jz$, où $\alpha \in A$ et $z$ est un quaternion pur (exerc. 15 $a$)) dans $L = C^+(Q_0)$; si on pose $\psi(x) = \alpha + z$, $\psi$ est un isomorphisme d’espace vectoriel de $E$ sur $L$. Soit $Z = Ac' + Ac''$, où $c'$ et $c''$ sont les deux idempotents orthogonaux dans $Z$; tout élément inversible $s \in C^+(Q)$ s’écrit d’une seule manière $s = uc' + vc''$, où $u$ et $v$ appartiennent à $L$; pour que $s$ appartienne au groupe de Clifford spécial $G^+$, il faut et il suffit que $u \bar{u} = v \bar{v}$, et on a alors $\psi(sxs^{-1}) = u \psi(x) v^{-1}$ pour tout $x \in E$. En déduire que le quotient de $O_0^+(Q)$ par son centre (qui est un groupe à 2 éléments, cf. exerc. 11 $c$)) est isomorphe au produit $O_0^+(Q_0) \times O_0^+(Q_0)$; en particulier, si $Q$ est d’indice 2, ce groupe quotient est isomorphe à $\mathbf{PSL}_2(A) \times \mathbf{PSL}_2(A)$.
+d) On suppose que $\Delta$ est un carré dans $A$ (ce qui implique, en vertu du th. de Witt, que $Q$ est d’indice 0 ou 2) et que $Q(e_4) = 1$. Si on pose $j = e_1 e_2 e_3$, tout $x \in E$ peut s’écrire d’une seule manière $x = \alpha e_4 + jz$, où $\alpha \in A$ et $z$ est un quaternion pur (exerc. 15 $a$)) dans $L = C^+(Q_0)$; si on pose $\psi(x) = \alpha + z$, $\psi$ est un isomorphisme d’espace vectoriel de $E$ sur $L$. Soit $Z = Ac' + Ac''$, où $c'$ et $c''$ sont les deux idempotents orthogonaux dans $Z$; tout élément inversible $s \in C^+(Q)$ s’écrit d’une seule manière $s = uc' + vc''$, où $u$ et $v$ appartiennent à $L$; pour que $s$ appartienne au groupe de Clifford spécial $G^+$, il faut et il suffit que $u \bar{u} = v \bar{v}$, et on a alors $\psi(sxs^{-1}) = u \psi(x) v^{-1}$ pour tout $x \in E$. En déduire que le quotient de $O_0^+(Q)$ par son centre (qui est un groupe à 2 éléments, cf. exerc. 11 $c$)) est isomorphe au produit $O_0^+(Q_0) \times O_0^+(Q_0)$; en particulier, si $Q$ est d’indice 2, ce groupe quotient est isomorphe à $\mathbf{PSL}_2(A) \times \mathbf{PSL}_2(A)$.
 
 17) Soient K un corps commutatif de caractéristique $\neq 2$, A le corps $K(X_n)_{n \in \mathbf{N}}$ des fractions rationnelles sur K, par rapport à une famille dénombrable d’indéterminées (chap. IV, § 3, n° 1). Soit E un espace vectoriel sur A, ayant une base dénombrable $(e_n)_{n \in \mathbf{N}}$, et soit $\Phi$ une forme bilinéaire symétrique sur E, pour laquelle $(e_n)$ est une base orthogonale et telle que $\Phi(e_n, e_n) = X_n$ pour tout $n \in \mathbf{N}$. Si on pose $Q(x) = \Phi(x, x)$, montrer que l’algèbre de Clifford C(Q) est un corps (cf. chap. VIII, § 12, exerc. 14).

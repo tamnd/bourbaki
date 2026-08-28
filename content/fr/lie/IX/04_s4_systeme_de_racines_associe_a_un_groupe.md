@@ -53,7 +53,7 @@ subsections:
       pdf_page: 44
 statements: 56
 exercises: 22
-content_sha256: e0ae4caa66baf66e3e69a40cd1c30451ad6ca4ec5a92ec320fbab6076334313b
+content_sha256: 81d2d52739402a8cfffee2069f51659c89741d6b70b8f33e50210e2ec5a69770
 ---
 
 ## § 4. SYSTÈME DE RACINES ASSOCIÉ À UN GROUPE COMPACT
@@ -603,9 +603,9 @@ De même, soit $N$ un groupe commutatif fini, et $\varphi : \pi_1(G) \to N$ un h
 
 Soit $c$ le centre de $g_C$; on a donc $c = L(C(G))_{(C)}$. On a les relations suivantes entre les diagrammes de $G$ relativement à $T$ et les systèmes de racines direct et inverse de l’algèbre réductive déployée $(g_C, t_C)$ :
 
-$a)$ L’isomorphisme canonique de $C \otimes \Gamma(T)$ sur $t_C$ induit une bijection de $C \otimes \Gamma(C(G)_0)$ sur $c$ et une bijection de $1 \otimes R^\vee(G, T)$ sur $2\pi i . R^\vee(g_C, t_C)$.
+a) L’isomorphisme canonique de $C \otimes \Gamma(T)$ sur $t_C$ induit une bijection de $C \otimes \Gamma(C(G)_0)$ sur $c$ et une bijection de $1 \otimes R^\vee(G, T)$ sur $2\pi i . R^\vee(g_C, t_C)$.
 
-$b)$ L’isomorphisme canonique de $C \otimes X(T)$ sur le dual $t_C^*$ de $t_C$ induit une bijection de $C \otimes X(T/(T \cap D(G)))$ sur l’orthogonal de $t_C \cap \mathcal{D}(g)_C$, et une bijection de $1 \otimes R(G, T)$ sur $R(g_C, t_C)$.
+b) L’isomorphisme canonique de $C \otimes X(T)$ sur le dual $t_C^*$ de $t_C$ induit une bijection de $C \otimes X(T/(T \cap D(G)))$ sur l’orthogonal de $t_C \cap \mathcal{D}(g)_C$, et une bijection de $1 \otimes R(G, T)$ sur $R(g_C, t_C)$.
 
 #### Remarque 2 {#lie-ix-s4-n9-rem-2 .statement tag=01CW}
 

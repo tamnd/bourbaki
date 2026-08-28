@@ -48,7 +48,7 @@ subsections:
       pdf_page: 236
 statements: 22
 exercises: 27
-content_sha256: f3267f440db862e6b7093e84d125354563722426794e7d36029f8cc36cdbddfd
+content_sha256: f9115337946d836e538150f038e0bd85e2d6d0692d78578054c8a64fbf3b5962
 ---
 
 ## § 3. Anneaux factoriels
@@ -101,15 +101,15 @@ e & \leftrightarrow & b \\
 \end{array}
 $$
 
-Montrons que $a)$ implique $b)$: en effet, si $A$ est factoriel, $\mathcal{P}^*$ est isomorphe au groupe des diviseurs de $A$, donc à une somme directe de groupes $\mathbf{Z}$ ($\S 1$, no 3, th. 2).
+Montrons que a) implique b): en effet, si $A$ est factoriel, $\mathcal{P}^*$ est isomorphe au groupe des diviseurs de $A$, donc à une somme directe de groupes $\mathbf{Z}$ ($\S 1$, no 3, th. 2).
 
-Notons maintenant que la relation « l’intersection de deux idéaux principaux entiers de $A$ est un idéal principal » veut dire que tout couple d’éléments de $A$ admet un p.p.c.m., c’est-à-dire que $\mathcal{P}^*$ est un groupe réticulé (*Alg.*, chap. VI, $\S 1$, no 9, prop. 8). Le fait que $b)$ implique $c)$ (et lui est même équivalent) résulte donc d’*Alg.*, chap. VI, $\S 1$, no 13, th. 2. Le fait que $c)$ implique $d)$ résulte d’*Alg.*, chap. VI, $\S 1$, no 13, prop. 14, (DIV).
+Notons maintenant que la relation « l’intersection de deux idéaux principaux entiers de $A$ est un idéal principal » veut dire que tout couple d’éléments de $A$ admet un p.p.c.m., c’est-à-dire que $\mathcal{P}^*$ est un groupe réticulé (*Alg.*, chap. VI, $\S 1$, no 9, prop. 8). Le fait que b) implique c) (et lui est même équivalent) résulte donc d’*Alg.*, chap. VI, $\S 1$, no 13, th. 2. Le fait que c) implique d) résulte d’*Alg.*, chap. VI, $\S 1$, no 13, prop. 14, (DIV).
 
-Le fait que $d)$ implique $b)$ résulte d’*Alg.*, chap. VI, $\S 1$, no 13, th. 2 appliqué au groupe $\mathcal{P}^*$.
+Le fait que d) implique b) résulte d’*Alg.*, chap. VI, $\S 1$, no 13, th. 2 appliqué au groupe $\mathcal{P}^*$.
 
-Montrons que $b)$ implique $e)$. Si $b)$ est vérifiée, on a un isomorphisme de $\mathcal{P}^*$ sur $\mathbf{Z}^{(l)}$; notons $(v_i(x))_{i \in I}$ l’élément de $\mathbf{Z}^{(l)}$ correspondant à l’idéal $Ax$ ($x \in K^*$). On voit aussitôt que chaque $v_i$ est une valuation discrète de $K$, que $A$ est l’intersection des anneaux des $v_i$, et que, pour $x \in K^*$, on a $v_i(x) = 0$ sauf pour un nombre fini d’indices $i$; donc $A$ est un anneau de Krull. D’autre part, soit $q$ un idéal premier de hauteur 1 de $A$; il contient un élément non nul $a$, nécessairement non inversible, donc aussi (par définition d’un idéal premier) l’un des éléments extrémaux $p$ de $A$; comme $Ap$ est premier non nul, on a $q = Ap$, ce qui montre bien que $q$ est principal.
+Montrons que b) implique e). Si b) est vérifiée, on a un isomorphisme de $\mathcal{P}^*$ sur $\mathbf{Z}^{(l)}$; notons $(v_i(x))_{i \in I}$ l’élément de $\mathbf{Z}^{(l)}$ correspondant à l’idéal $Ax$ ($x \in K^*$). On voit aussitôt que chaque $v_i$ est une valuation discrète de $K$, que $A$ est l’intersection des anneaux des $v_i$, et que, pour $x \in K^*$, on a $v_i(x) = 0$ sauf pour un nombre fini d’indices $i$; donc $A$ est un anneau de Krull. D’autre part, soit $q$ un idéal premier de hauteur 1 de $A$; il contient un élément non nul $a$, nécessairement non inversible, donc aussi (par définition d’un idéal premier) l’un des éléments extrémaux $p$ de $A$; comme $Ap$ est premier non nul, on a $q = Ap$, ce qui montre bien que $q$ est principal.
 
-Montrons enfin que $e)$ implique $a)$. Soit $a$ un idéal divisoriel de A. Il existe des idéaux premiers $p_i$ de hauteur 1 de A tels que $\operatorname{div}\alpha = \sum_i n_i \operatorname{div} p_i$ avec $n_i \in \mathbf{Z}$. Si e) est satisfaite, $p_i$ est de la forme $Ap_i$, d’où $\operatorname{div}\alpha = \operatorname{div}\left( \prod_i Ap_i^{n_i} \right)$, donc $\alpha = \prod_i Ap_i^{n_i}$ puisque $\alpha$ est divisoriel.
+Montrons enfin que e) implique a). Soit $a$ un idéal divisoriel de A. Il existe des idéaux premiers $p_i$ de hauteur 1 de A tels que $\operatorname{div}\alpha = \sum_i n_i \operatorname{div} p_i$ avec $n_i \in \mathbf{Z}$. Si e) est satisfaite, $p_i$ est de la forme $Ap_i$, d’où $\operatorname{div}\alpha = \operatorname{div}\left( \prod_i Ap_i^{n_i} \right)$, donc $\alpha = \prod_i Ap_i^{n_i}$ puisque $\alpha$ est divisoriel.
 
 C.Q.F.D.
 

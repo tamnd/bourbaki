@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: cb741e61f964fb6a820cb3fd4102c1c5402efb6275d4f24b252e2abd9a91147c
+content_sha256: 3d17c966d69171e8d653683de206a3ba30cca6eb8de3f8fd0cd8b5105dcf851c
 ---
 
 ## § 3. DISTRIBUTIONS ET DISTRIBUTIONS TEMPÉRÉES
@@ -1020,7 +1020,7 @@ pour tout $\varphi \in \mathscr{S}(\mathbf{R}^n)$.
 
 #### Proposition 19 {#ts-iv-s3-prop-19 .statement tag=031I}
 
-Soit $f$ une distribution tempérée associée à une mesure bornée $\nu \in \mathscr{M}^1(\mathbf{R}^n) ($resp. à $g\in L^2(\mathbf{R}^n))$. La transformée de Fourier de $f$ dans $\mathscr{S}'(\mathbf{R}^n)$ est la distribution tempérée associée à la transformée de Fourier de la mesure $\nu ($resp. à la transformée de Fourier de $g)$.
+Soit $f$ une distribution tempérée associée à une mesure bornée $\nu \in \mathscr{M}^1(\mathbf{R}^n) ($resp. à $g\in L^2(\mathbf{R}^n))$. La transformée de Fourier de $f$ dans $\mathscr{S}'(\mathbf{R}^n)$ est la distribution tempérée associée à la transformée de Fourier de la mesure $\nu ($resp. à la transformée de Fourier de g).
 
 Soit $\nu$ une mesure bornée sur $\mathbf{R}^n$ et $f$ la distribution tempérée associée à $\nu$. La transformée de Fourier $\mathscr{F}(\nu )$ est une fonction continue et bornée sur $\mathbf{R}^n$ (prop. 3 de II, p. 207). La distribution tempérée associée à cette fonction vérifie
 

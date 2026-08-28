@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: aa5da82a7db2a4fcd3f02956e627a46809b6c4112bb85259576d359ac3e9cfeb
+content_sha256: ecbc07a7990489579c04b0500567975dfe58a40a4b6c09cd615187b6ac3c2c1b
 ---
 
 ## § 2. QUOTIENT OF A SPACE BY A GROUP; HOMOGENEOUS SPACES
@@ -188,14 +188,14 @@ If $f \in \mathcal{K}(X)$, then $f^b \in \mathcal{K}(X/H)$. The mapping $f \maps
 
 — We are going to show that the mapping $f \mapsto f^b$ is a *strict morphism* (GT, III, §2, No. 8) of $\mathcal{K}(X)$ onto $\mathcal{K}(X/H)$.
 
-$a)$ The mapping is continuous: it suffices to prove that, for every compact subset $K$ of $X$, the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a continuous mapping of $\mathcal{K}(X, K)$ into $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Prop. 5); since $H$ operates properly in $X$, the set $P$ of $\xi \in H$ such that $K\xi$ intersects $K$ is compact; one concludes from (3) that $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, and this proves our assertion.
+a) The mapping is continuous: it suffices to prove that, for every compact subset $K$ of $X$, the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a continuous mapping of $\mathcal{K}(X, K)$ into $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Prop. 5); since $H$ operates properly in $X$, the set $P$ of $\xi \in H$ such that $K\xi$ intersects $K$ is compact; one concludes from (3) that $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, and this proves our assertion.
 
-$b)$ Let $K'$ be a compact subset of $X/H$. Let us choose a compact subset $K$ of $X$ such that $\pi(K) = K'$, and let us show that the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a strict morphism of $\mathcal{K}(X, K)$ onto $\mathcal{K}(X/H, K')$. It suffices to construct a right inverse for this restriction (GT, III, §6, No. 2, Prop. 3). Now, by Lemma 1 of No. 1 (whose notations we adopt), one obtains such an inverse by composing the following mappings:
+b) Let $K'$ be a compact subset of $X/H$. Let us choose a compact subset $K$ of $X$ such that $\pi(K) = K'$, and let us show that the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a strict morphism of $\mathcal{K}(X, K)$ onto $\mathcal{K}(X/H, K')$. It suffices to construct a right inverse for this restriction (GT, III, §6, No. 2, Prop. 3). Now, by Lemma 1 of No. 1 (whose notations we adopt), one obtains such an inverse by composing the following mappings:
 $\alpha)$ the mapping $f' \mapsto f' \circ \pi$ of $\mathcal{K}(X/H, K')$ into the set $E$ of functions of $\mathcal{K}^1(X)$ whose support is contained in $KH$;
 $\beta)$ the mapping of $E$ into $E$ that, to every $g \in E$, makes correspond the function equal to $g/u^1$ on $KH$, and to 0 on $X - KH$;
 $\gamma)$ the mapping of $E$ into $\mathcal{K}(X)$ that, to every function $h \in E$, makes correspond $uh$.
 
-$c)$ This established, if $V$ is a convex neighborhood of 0 in $\mathcal{K}(X)$, then $V \cap \mathcal{K}(X, K)$ is a convex neighborhood of 0 in $\mathcal{K}(X, K)$, therefore $V^b \cap \mathcal{K}(X/H, K')$ is a convex neighborhood of 0 in $\mathcal{K}(X/H, K')$ by b), therefore $V^b$ is a neighborhood of 0 in $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). This completes the proof.
+c) This established, if $V$ is a convex neighborhood of 0 in $\mathcal{K}(X)$, then $V \cap \mathcal{K}(X, K)$ is a convex neighborhood of 0 in $\mathcal{K}(X, K)$, therefore $V^b \cap \mathcal{K}(X/H, K')$ is a convex neighborhood of 0 in $\mathcal{K}(X/H, K')$ by b), therefore $V^b$ is a neighborhood of 0 in $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). This completes the proof.
 
 #### Proposition 4 {#int-vii-s2-prop-4 .statement}
 

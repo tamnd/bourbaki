@@ -36,7 +36,7 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: c0f3cc4f21326efbdb0a3fcbcd98dc41f0674d36d93c33d8663ebc1f3663d133
+content_sha256: 18811443a6523c15763f72b724a529f24db99c244334693b67b5acac00f7f87c
 ---
 
 ## § 6. Propriétés spéciales aux formes hermitiennes
@@ -238,17 +238,17 @@ On suppose l’espace vectoriel $\mathbf{E}$ de dimension finie n. Le groupe ort
 
 La proposition étant évidente pour $n = 0$, nous raisonnons par récurrence sur $n$. Soit $u$ une transformation orthogonale de $E$, et soit $x$ un vecteur non isotrope de $E$ (lemme 1); distinguons trois cas:
 
-$a)$ Supposons d’abord que $u(x) = x$. Alors l’hyperplan $H$ orthogonal à $x$ est non isotrope, et on a $u(H) = H$. La restriction $u'$ de $u$ à $H$ appartient donc au groupe orthogonal $O(Q')$ associé à la restriction $Q'$ de $Q$ à $H$. L’hypothèse de récurrence entraîne, puisque $Q'$ est non dégénérée, que l’on a $u' = v_1' \ldots v_m'$, où $v_i'$ est une symétrie par rapport à un hyperplan $L_i$ de $H$. L’endomorphisme $v_i$ de $E$ qui prolonge $v_i'$ et est tel que $v_i(x) = x$ est alors la symétrie par rapport à l’hyperplan $Ax + L_i$ de $E$. On a évidemment $u = v_1 v_2 \ldots v_m$.
+a) Supposons d’abord que $u(x) = x$. Alors l’hyperplan $H$ orthogonal à $x$ est non isotrope, et on a $u(H) = H$. La restriction $u'$ de $u$ à $H$ appartient donc au groupe orthogonal $O(Q')$ associé à la restriction $Q'$ de $Q$ à $H$. L’hypothèse de récurrence entraîne, puisque $Q'$ est non dégénérée, que l’on a $u' = v_1' \ldots v_m'$, où $v_i'$ est une symétrie par rapport à un hyperplan $L_i$ de $H$. L’endomorphisme $v_i$ de $E$ qui prolonge $v_i'$ et est tel que $v_i(x) = x$ est alors la symétrie par rapport à l’hyperplan $Ax + L_i$ de $E$. On a évidemment $u = v_1 v_2 \ldots v_m$.
 
-$b)$ Supposons en second lieu que $u(x) = -x$. Si l’on note $s$ la symétrie par rapport à l’hyperplan $H$ orthogonal à $x$, et si l’on pose $v = su$, on a $v(x) = x$, et on est ramené au cas $a)$.
+b) Supposons en second lieu que $u(x) = -x$. Si l’on note $s$ la symétrie par rapport à l’hyperplan $H$ orthogonal à $x$, et si l’on pose $v = su$, on a $v(x) = x$, et on est ramené au cas a).
 
-$c)$ Passons enfin au cas général, et posons $y = u(x)$, de sorte que $Q(y) = Q(x)$. Dans ces conditions, les vecteurs $x - y$ et $x + y$ ne peuvent être tous deux isotropes, car, des relations $Q(x - y) = 0$ et $Q(x + y) = 0$, on tirerait, en ajoutant membre à membre, $2(Q(x) + Q(y)) = 0$ ($\S 3$, no 4, déf. 2), d’où $4Q(x) = 0$ contrairement à l’hypothèse. Supposons, par exemple, que $a = x - y$ ne soit pas isotrope ; on a alors
+c) Passons enfin au cas général, et posons $y = u(x)$, de sorte que $Q(y) = Q(x)$. Dans ces conditions, les vecteurs $x - y$ et $x + y$ ne peuvent être tous deux isotropes, car, des relations $Q(x - y) = 0$ et $Q(x + y) = 0$, on tirerait, en ajoutant membre à membre, $2(Q(x) + Q(y)) = 0$ ($\S 3$, no 4, déf. 2), d’où $4Q(x) = 0$ contrairement à l’hypothèse. Supposons, par exemple, que $a = x - y$ ne soit pas isotrope ; on a alors
 
 $$
 \Phi(y, a) = Q(y + a) - Q(y) - Q(a) = Q(x) - Q(y) - Q(a) = -Q(a);
 $$
 
-par suite, si l’on note $s$ la symétrie par rapport à l’hyperplan orthogonal à $a$, la formule (6) prouve que $s(y) = y + a = x$; en posant $v = su$, on a $v(x) = x$, et on est ramené au cas $a)$. Si $a = x - y$ est isotrope et $b = x + y$ non isotrope, on voit de même qu’on est ramené au cas $b)$.
+par suite, si l’on note $s$ la symétrie par rapport à l’hyperplan orthogonal à $a$, la formule (6) prouve que $s(y) = y + a = x$; en posant $v = su$, on a $v(x) = x$, et on est ramené au cas a). Si $a = x - y$ est isotrope et $b = x + y$ non isotrope, on voit de même qu’on est ramené au cas b).
 
 ### 5. Groupe des similitudes.
 
@@ -315,13 +315,13 @@ Supposons que A soit un corps de caractéristique $\neq 2$. Tout déplacement $u
 
 a) Si un mineur principal d’ordre $r$ de $R$ n’est pas nul, mais si tous les mineurs principaux d’ordres $r + 1$ et $r + 2$ qui contiennent ce mineur d’ordre $r$ sont nuls, montrer que $R$ est de rang $r$ (cf. chap. III, § 7, exerc. 1 et § 8, exerc. 11 et chap. IV, § 2, exerc. 10). En déduire que, pour que $R$ soit de rang $r$, il faut et il suffit qu’il existe un mineur principal d’ordre $r$ qui soit $\neq 0$, et que tous les mineurs principaux d’ordres $r + 1$ et $r + 2$ soient nuls.
 
-b) Déduire de $a)$ que si $R$ est de rang $r$, il existe une permutation $\sigma \in \mathfrak{S}_n$ telle que, si on effectue sur les lignes et les colonnes de $R$ la même permutation $\sigma$, et si on désigne par $S$ la matrice obtenue, par $\Delta_k$ le mineur principal d’ordre $k$ de $S$ obtenu en supprimant dans $S$ les lignes et les colonnes d’indice $> k$, on ait les deux propriétés suivantes : $1^\circ \Delta_r \neq 0$; $2^\circ$ il n’existe pas d’indice $k < r$ tel que $\Delta_k = \Delta_{k+1} = 0$.
+b) Déduire de a) que si $R$ est de rang $r$, il existe une permutation $\sigma \in \mathfrak{S}_n$ telle que, si on effectue sur les lignes et les colonnes de $R$ la même permutation $\sigma$, et si on désigne par $S$ la matrice obtenue, par $\Delta_k$ le mineur principal d’ordre $k$ de $S$ obtenu en supprimant dans $S$ les lignes et les colonnes d’indice $> k$, on ait les deux propriétés suivantes : $1^\circ \Delta_r \neq 0$; $2^\circ$ il n’existe pas d’indice $k < r$ tel que $\Delta_k = \Delta_{k+1} = 0$.
 
 2) On suppose que $A$ est un corps commutatif, et que $E$ est de dimension finie $n$. Soient $\Phi$ une forme sesquilinéaire hermitienne sur $E$, vérifiant la condition (T) du § 4, no 2, $R = (\alpha_{ij})$ la matrice de $\Phi$ par rapport à une base $(e_i)$ de $E$.
 
-$a)$ Si $\Phi$ est de rang $r$, et si le mineur principal (exerc. 1) obtenu en supprimant dans $R$ les lignes et les colonnes d’indices $> r$ n’est pas nul, montrer qu’il existe une nouvelle base $(f_i)$ de $E$ telle que $e_i = f_i$ pour $1 \leq i \leq r$ et que la matrice de $\Phi$ par rapport à $(f_i)$ s’obtienne en remplaçant par 0 dans $R$ tous les $\alpha_{ij}$ tels que $i > r$ ou $j > r$ (considérer le sous-espace $E^0$ orthogonal à $E$).
+a) Si $\Phi$ est de rang $r$, et si le mineur principal (exerc. 1) obtenu en supprimant dans $R$ les lignes et les colonnes d’indices $> r$ n’est pas nul, montrer qu’il existe une nouvelle base $(f_i)$ de $E$ telle que $e_i = f_i$ pour $1 \leq i \leq r$ et que la matrice de $\Phi$ par rapport à $(f_i)$ s’obtienne en remplaçant par 0 dans $R$ tous les $\alpha_{ij}$ tels que $i > r$ ou $j > r$ (considérer le sous-espace $E^0$ orthogonal à $E$).
 
-$b)$ Déduire de $a)$ que si $\Phi$ est de rang $n$, et si le cofacteur $\Delta_{n-1}$ de $\alpha_{nn}$ dans le déterminant $\Delta = \det R$ n’est pas nul, il existe une nouvelle base $(f_i)$ de $E$ telle que $f_i = e_i$ pour $1 \leq i \leq n-1$, et que l’on ait
+b) Déduire de a) que si $\Phi$ est de rang $n$, et si le cofacteur $\Delta_{n-1}$ de $\alpha_{nn}$ dans le déterminant $\Delta = \det R$ n’est pas nul, il existe une nouvelle base $(f_i)$ de $E$ telle que $f_i = e_i$ pour $1 \leq i \leq n-1$, et que l’on ait
 
 $$
 \Phi(x, y) = \Phi\left( \sum_{i=1}^n \xi_i f_i, \sum_{i=1}^n \eta_i f_i \right) = \sum_{i=1}^{n-1} \sum_{j=1}^{n-1} \alpha_{ij} \xi_i \overline{\eta_j} + \frac{\Delta}{\Delta_{n-1}} \xi_n \overline{\eta_n}
@@ -329,7 +329,7 @@ $$
 
 (considérer la forme hermitienne dont la matrice par rapport à $(e_i)$ s’obtient en remplaçant $\alpha_{nn}$ par $\alpha_{nn} - \frac{\Delta}{\Delta_{n-1}}$ dans $R$).
 
-$c)$ On suppose que $\Phi$ est de rang $n$, que $\Delta_{n-1} = 0$, mais que le mineur principal $\Delta_{n-2}$ de $R$ obtenu en supprimant les lignes et les colonnes d’indices $n-1$ et $n$ dans $R$ n’est pas nul. Montrer qu’il existe une nouvelle base $(f_i)$ de $E$ telle que $f_i = e_i$ pour $1 \leq i \leq n-2$, et que l’on ait
+c) On suppose que $\Phi$ est de rang $n$, que $\Delta_{n-1} = 0$, mais que le mineur principal $\Delta_{n-2}$ de $R$ obtenu en supprimant les lignes et les colonnes d’indices $n-1$ et $n$ dans $R$ n’est pas nul. Montrer qu’il existe une nouvelle base $(f_i)$ de $E$ telle que $f_i = e_i$ pour $1 \leq i \leq n-2$, et que l’on ait
 
 $$
 \Phi(x, y) = \left( \sum_{i=1}^n \xi_i f_i, \sum_{i=1}^n \eta_i f_i \right) = \sum_{i=1}^{n-2} \sum_{j=1}^{n-2} \alpha_{ij} \xi_i \overline{\eta_j} + \xi_{n-1} \overline{\eta_n} + \xi_n \overline{\eta_{n-1}}.
@@ -341,7 +341,7 @@ $$
 
 4) Soient $A$ un corps fini de caractéristique $\neq 2$, $E$ un espace vectoriel de dimension finie $n$ sur $A$.
 
-$a)$ Montrer que pour toute forme bilinéaire symétrique $\Phi$ non dégénérée sur $E$, il existe une base orthogonale $(e_i)$ de $E$ telle que $\Phi(e_i, e_i) = 1$ pour $1 \leq i \leq n-1$, $\Phi(e_n, e_n) = \Delta$ (discriminant de $\Phi$ par rapport à $(e_i)$). (Remarquer que si $\alpha \beta \neq 0$, l’équation $\alpha \xi^2 + \beta \eta^2 = \gamma$ admet toujours des solutions $(\xi, \eta)$ dans $A$ si $\gamma \neq 0$ (chap. V, § 11, exerc. 4)).
+a) Montrer que pour toute forme bilinéaire symétrique $\Phi$ non dégénérée sur $E$, il existe une base orthogonale $(e_i)$ de $E$ telle que $\Phi(e_i, e_i) = 1$ pour $1 \leq i \leq n-1$, $\Phi(e_n, e_n) = \Delta$ (discriminant de $\Phi$ par rapport à $(e_i)$). (Remarquer que si $\alpha \beta \neq 0$, l’équation $\alpha \xi^2 + \beta \eta^2 = \gamma$ admet toujours des solutions $(\xi, \eta)$ dans $A$ si $\gamma \neq 0$ (chap. V, § 11, exerc. 4)).
 
 b) Pour que deux formes bilinéaires symétriques non dégénérées sur E soient équivalentes, il faut et il suffit que le rapport de leurs discriminants (par rapport à une même base de E) soit un carré dans A. En déduire que, si n est impair, pour toute forme bilinéaire symétrique $\Phi$ non dégénérée sur E, il existe une base orthogonale par rapport à laquelle la matrice de $\Phi$ est de la forme $\lambda I_n \ (\lambda \in A)$; l’indice de $\Phi$ est alors $(n-1)/2$.
 
@@ -381,9 +381,9 @@ c) Soient $(e_i)$ une base orthogonale pour $\Phi$, et $\alpha_i = \Phi(e_i, e_i
 
 On dit que ces idéaux sont les facteurs invariants de la forme $\Phi$. Donner un exemple de deux formes ayant mêmes facteurs invariants et non équivalentes (prendre deux formes dont le quotient des discriminants n’est pas un carré).
 
-$d)$ Soient $F$ un sous-module de $E$, $\Phi_F$ la restriction de $\Phi$ à $F \times F$, $A\alpha_i$ ($1 \leq i \leq r$) les facteurs invariants non nuls de $\Phi$, rangés de sorte que $\alpha_i$ divise $\alpha_{i+1}$, $A\beta_i$ ($1 \leq i \leq s$) les facteurs invariants non nuls de $\Phi_F$, rangés de sorte que $\beta_i$ divise $\beta_{i+1}$. Montrer que l’on a $s \leq r$ et que $\beta_i$ est multiple de $\alpha_i$ pour $1 \leq i \leq s$ (même méthode que dans l’exerc. 1 a) du § 5).
+d) Soient $F$ un sous-module de $E$, $\Phi_F$ la restriction de $\Phi$ à $F \times F$, $A\alpha_i$ ($1 \leq i \leq r$) les facteurs invariants non nuls de $\Phi$, rangés de sorte que $\alpha_i$ divise $\alpha_{i+1}$, $A\beta_i$ ($1 \leq i \leq s$) les facteurs invariants non nuls de $\Phi_F$, rangés de sorte que $\beta_i$ divise $\beta_{i+1}$. Montrer que l’on a $s \leq r$ et que $\beta_i$ est multiple de $\alpha_i$ pour $1 \leq i \leq s$ (même méthode que dans l’exerc. 1 a) du § 5).
 
-$e)$ On suppose $\Phi$ non dégénérée ; soient $F$, $G$ deux sous-modules non isotropes de $E$ tels que $F^0$ (resp. $G^0$) soit supplémentaire de $F$ (resp. $G$). On suppose que les restrictions de $\Phi$ à $F$ et à $G$ soient équivalentes ; montrer qu’il existe alors un automorphisme $u$ de $E$, laissant invariante $\Phi$, et tel que $u(F) = G$. (En utilisant $a$), se ramener au cas où $F = Aa, G = Ab, \Phi(a, a) = \Phi(b, b)$. Soit $(c_j)$ une base de $G^0$, et soient $b', c'_j$ ($1 \leq j \leq n-1$) les composantes de $b$ et $c_j$ respectivement dans $F^0$; montrer qu’il existe des scalaires $\mu_j$ ($1 \leq j \leq n-1$) tels que les éléments $d_j = c'_j + \mu_j b'$ satisfassent aux relations $\Phi(d_j, d_k) = \Phi(c_j, c_k)$ pour tout couple d’indices ; on remarquera pour cela que pour tout $\lambda \in A$, l’un des éléments $1 \pm \lambda$ est inversible dans $A$.
+e) On suppose $\Phi$ non dégénérée ; soient $F$, $G$ deux sous-modules non isotropes de $E$ tels que $F^0$ (resp. $G^0$) soit supplémentaire de $F$ (resp. $G$). On suppose que les restrictions de $\Phi$ à $F$ et à $G$ soient équivalentes ; montrer qu’il existe alors un automorphisme $u$ de $E$, laissant invariante $\Phi$, et tel que $u(F) = G$. (En utilisant $a$), se ramener au cas où $F = Aa, G = Ab, \Phi(a, a) = \Phi(b, b)$. Soit $(c_j)$ une base de $G^0$, et soient $b', c'_j$ ($1 \leq j \leq n-1$) les composantes de $b$ et $c_j$ respectivement dans $F^0$; montrer qu’il existe des scalaires $\mu_j$ ($1 \leq j \leq n-1$) tels que les éléments $d_j = c'_j + \mu_j b'$ satisfassent aux relations $\Phi(d_j, d_k) = \Phi(c_j, c_k)$ pour tout couple d’indices ; on remarquera pour cela que pour tout $\lambda \in A$, l’un des éléments $1 \pm \lambda$ est inversible dans $A$.
 
 11) Soit $A$ un anneau principal de caractéristique 0, dans lequel il n’y a qu’un seul idéal principal $\pi$, tel que 2 soit divisible par $\pi$. Si $(e_1, e_2)$ est la base canonique de $E = A^2$, $\Phi$ la forme bilinéaire symétrique sur $E$ définie par $\Phi(\xi_1 e_1 + \xi_2 e_2, \eta_1 e_1 + \eta_2 e_2) = \xi_1 \eta_2 + \xi_2 \eta_1$, montrer qu’il n’existe pas de base orthogonale de $E$ pour $\Phi$.
 
@@ -394,11 +394,11 @@ $$
 (méthode analogue à celle de l’exerc. 10 du § 5, en utilisant l’exerc. 3).
 
 13) Soient $A$ le corps fini $\mathbf{F}_q$ ($q$ non multiple de 2), $E$ un espace vectoriel de dimension $n$ sur $A$, $Q$ une forme quadratique non dégénérée sur $E$. Montrer que :
-$a)$ Si $n$ est impair, l’ordre du groupe $\mathbf{SO}(Q)$ est
+a) Si $n$ est impair, l’ordre du groupe $\mathbf{SO}(Q)$ est
 $$
 (q^{n-1} - 1) q^{n-2}(q^{n-3} - 1) q^{n-4} \ldots (q^2 - 1) q.
 $$
-$b)$ Si $n = 2m$ est pair, l’ordre du groupe $\mathbf{SO}(Q)$ est égal à
+b) Si $n = 2m$ est pair, l’ordre du groupe $\mathbf{SO}(Q)$ est égal à
 $$
 (q^{2m-1} - \varepsilon q^{m-1}) (q^{2m-2} - 1) q^{2m-3} \ldots (q^2 - 1) q
 $$
@@ -519,7 +519,7 @@ c) On appelle indice de $Q$ la dimension maxima des sous-espaces totalement sing
 
 d) On suppose $q = 0$; soit $O(Q)$ le groupe des automorphismes de $E$ laissant invariante $Q$. Si $u \in O(Q)$, montrer que $u(x) = x$ pour tout $x \in E^0$. Pour tout $x \in E_2$, soit $u(x) = u_0(x) + u_2(x)$, où $u_0(x) \in E^0$ et $u_2(x) \in E_2$; montrer que $u_2$ appartient au groupe symplectique $Sp(\Phi_2)$ (où $\Phi_2$ est la restriction de $\Phi$ à $E_2$) et que l’on a $Q(u_2(x)) + Q(x) \in Q(E^0)$. Réciproquement, pour tout automorphisme $u_2 \in Sp(\Phi_2)$ tel que $Q(u_2(x)) + Q(x) \in Q(E^0)$ pour tout $x \in E_2$, montrer qu’il existe une application linéaire $u_0$ de $E_2$ dans $E^0$ et une seule telle que l’application linéaire égale à $u_0 + u_2$ dans $E_2$, à l’identité dans $E^0$, appartienne à $\mathbf{O}(Q)$.
 
-$e)$ On suppose que $A$ soit un corps *parfait* ($A^2 = A$) et que $q = 0$. Déduire de $b)$ que tout sous-espace vectoriel de $E$, de dimension $\geqslant 3$, contient au moins un vecteur $x$ tel que $Q(x) = 0$. Si $n$ est *impair*, on a nécessairement $m = \nu$ et $n = 2m + 1$, de sorte qu’il existe une base $(e_i)$ de $E$ par rapport à laquelle on a
+e) On suppose que $A$ soit un corps *parfait* ($A^2 = A$) et que $q = 0$. Déduire de b) que tout sous-espace vectoriel de $E$, de dimension $\geqslant 3$, contient au moins un vecteur $x$ tel que $Q(x) = 0$. Si $n$ est *impair*, on a nécessairement $m = \nu$ et $n = 2m + 1$, de sorte qu’il existe une base $(e_i)$ de $E$ par rapport à laquelle on a
 
 $$
 Q(\sum_{i=1}^n \xi_i e_i) = \xi_1 \xi_{m+1} + \cdots + \xi_m \xi_{2m} + \xi_{2m+1}^2,
@@ -535,11 +535,11 @@ où $\lambda \in A$. Soit $A_1$ le corps obtenu en adjoignant à $A$ les racines
 
 **¶ 28**) Soient $A$ un corps commutatif de caractéristique 2, distinct de $\mathbf{F}_2$, $E$ un espace vectoriel de dimension $n = 2m$ sur $A$, $Q$ une forme quadratique non dégénérée sur $E$.
 
-$a)$ Montrer que le groupe orthogonal $\mathbf{O}(Q)$ est engendré par les symétries (qui ne sont autres ici que les transvections appartenant à $\mathbf{O}(Q)$ ($\S 4$, exerc. 6)) (raisonner comme dans l’exerc. 11 du $\S 5$). En déduire que le groupe des commutateurs de $\mathbf{O}(Q)$ est engendré par les carrés des éléments de $\mathbf{O}(Q)$ (cf. exerc. 17).
+a) Montrer que le groupe orthogonal $\mathbf{O}(Q)$ est engendré par les symétries (qui ne sont autres ici que les transvections appartenant à $\mathbf{O}(Q)$ ($\S 4$, exerc. 6)) (raisonner comme dans l’exerc. 11 du $\S 5$). En déduire que le groupe des commutateurs de $\mathbf{O}(Q)$ est engendré par les carrés des éléments de $\mathbf{O}(Q)$ (cf. exerc. 17).
 
-$b)$ On suppose que $Q$ soit d’indice maximum ; soient $V, W$ deux sous-espaces totalement singuliers de $E$ ($\S 4$, no 1) de dimension $m$. Soit $u$ une symétrie $x \to x + \frac{\Phi(x, a)}{Q(a)} a$ ($\S 4$, exerc. 6) ; soit $k$ la dimension de $V \cap W$. Montrer que la dimension de $V \cap u(W)$ est $k + 1$ si $a$ est orthogonal à $V \cap W, k - 1$ dans le cas contraire (dans le premier cas remarquer que $a = x + y$, ou $x \in V, y \in W$, et montrer que $u(y) = x$; dans le second, remarquer que $u$ ne peut laisser invariant aucun vecteur singulier non orthogonal à $a$).
+b) On suppose que $Q$ soit d’indice maximum ; soient $V, W$ deux sous-espaces totalement singuliers de $E$ ($\S 4$, no 1) de dimension $m$. Soit $u$ une symétrie $x \to x + \frac{\Phi(x, a)}{Q(a)} a$ ($\S 4$, exerc. 6) ; soit $k$ la dimension de $V \cap W$. Montrer que la dimension de $V \cap u(W)$ est $k + 1$ si $a$ est orthogonal à $V \cap W, k - 1$ dans le cas contraire (dans le premier cas remarquer que $a = x + y$, ou $x \in V, y \in W$, et montrer que $u(y) = x$; dans le second, remarquer que $u$ ne peut laisser invariant aucun vecteur singulier non orthogonal à $a$).
 
-$c)$ On suppose de nouveau que l’indice de $Q$ soit quelconque. Montrer que le sous-groupe $\mathbf{SO}(Q)$ de $\mathbf{O}(Q)$, formé des automorphismes de $E$ qui sont produits d’un nombre *pair* de symétries, est un sous-groupe distingué d’indice 2 de $\mathbf{O}(Q)$. (Montrer que le produit d’un nombre impair de symétries ne peut être l’identité, en considérant l’extension de $Q$ à l’es-
+c) On suppose de nouveau que l’indice de $Q$ soit quelconque. Montrer que le sous-groupe $\mathbf{SO}(Q)$ de $\mathbf{O}(Q)$, formé des automorphismes de $E$ qui sont produits d’un nombre *pair* de symétries, est un sous-groupe distingué d’indice 2 de $\mathbf{O}(Q)$. (Montrer que le produit d’un nombre impair de symétries ne peut être l’identité, en considérant l’extension de $Q$ à l’es-
 
 Bourbaki XXIV.
 

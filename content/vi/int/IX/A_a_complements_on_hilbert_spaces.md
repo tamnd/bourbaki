@@ -22,9 +22,9 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: 96b5f45d24cf4f6a3677aceffa02740999a7fc71d9f313f3798ae3eceec7c825
+content_sha256: 79d346d07e4b44beac09b854f0dd0cec6f0f697832af931483086d08ec6bc392
 translated_from: content/en/int/IX/A_a_complements_on_hilbert_spaces.md
-source_content_sha256: 86ae6e26f616de0aa6a22cdd5dab2607d52dc227a026998bb63b78ad07bc4819
+source_content_sha256: aa78d7417dc812e3fe49b768fcc72481a0fc960e63e09218c2f7ad67767169c0
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-df96e5cb
 glossary_version: 34
@@ -46,9 +46,9 @@ với mọi $x \in E$.
 
 Ta gọi là *vết của Q đối với H* và ký hiệu bởi $\operatorname{Tr}(Q/H)$ số thực dương, hữu hạn hoặc không, được xác định như sau:
 
-$a)$ Nếu tồn tại một $x \in E$ sao cho $H(x) = 0$ và $Q(x) \neq 0$, ta đặt $\operatorname{Tr}(Q/H) = +\infty$.
+a) Nếu tồn tại một $x \in E$ sao cho $H(x) = 0$ và $Q(x) \neq 0$, ta đặt $\operatorname{Tr}(Q/H) = +\infty$.
 
-$b)$ Trong trường hợp ngược lại, $\operatorname{Tr}(Q/H)$ là cận trên đúng của tập hợp các số có dạng $\sum_{i=1}^p Q(e_i)$, trong đó $(e_1, \ldots, e_p)$ chạy qua tập hợp các dãy hữu hạn các phần tử của $E$ trực chuẩn đối với $H$.
+b) Trong trường hợp ngược lại, $\operatorname{Tr}(Q/H)$ là cận trên đúng của tập hợp các số có dạng $\sum_{i=1}^p Q(e_i)$, trong đó $(e_1, \ldots, e_p)$ chạy qua tập hợp các dãy hữu hạn các phần tử của $E$ trực chuẩn đối với $H$.
 
 Cho $E$ là một không gian Hilbert thực và $Q$ là một dạng toàn phương dương trên $E$. Đặt $H(x) = \|x\|^2$ với mọi $x \in E$; khi đó $H$ là một dạng toàn phương dương trên $E$. Người ta nói rằng $Q$ là *hạt nhân* nếu $\operatorname{Tr}(Q/H)$ là hữu hạn. Với mọi $x \in E$ có chuẩn bằng 1, ta có $Q(x) \leq \operatorname{Tr}(Q/H)$, do đó $Q \leq \operatorname{Tr}(Q/H) \cdot H$; đặc biệt, mọi dạng hạt nhân $Q$ đều liên tục.
 

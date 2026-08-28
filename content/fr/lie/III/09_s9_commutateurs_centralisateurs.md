@@ -44,7 +44,7 @@ subsections:
       pdf_page: 240
 statements: 54
 exercises: 16
-content_sha256: 109986749383b217d0c46ad2877b500a3a378fd480c3bba88251c24d0f838385
+content_sha256: 643f7dd03d0d152f484d65615d46575ae343bc7230794af5e202de1a77d1a01a
 ---
 
 ## § 9. Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
@@ -182,9 +182,9 @@ b) Soit $G'$ un sous-groupe ouvert de $G$ tel que, pour $i \leq n$, $D^i G'$ soi
 $$
 D^0 G'' \subset D^0 G', \quad D^1 G'' \subset D^1 G', \ldots, D^n G'' \subset D^n G', \quad D^{n+1} G'' \subset (H_1, H_2)
 $$
-prouvent, compte tenu de $a)$, que $D^i G''$ est, pour $i \leq n + 1$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$.
+prouvent, compte tenu de a), que $D^i G''$ est, pour $i \leq n + 1$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$.
 
-c) Il existe un entier $p$ tel que $\mathcal{D}^p g = \mathcal{D}^{p+1} g = \ldots$. D’après ce qui précède, il existe un sous-groupe ouvert $G_0$ de $G$ tel que $D^i G_0$ soit, pour $i \leq p$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$. Mais, compte tenu de $a)$, la même assertion reste vraie pour $i > p$ puisque $D^p G_0 \supset D^i G_0$ pour $i > p$.
+c) Il existe un entier $p$ tel que $\mathcal{D}^p g = \mathcal{D}^{p+1} g = \ldots$. D’après ce qui précède, il existe un sous-groupe ouvert $G_0$ de $G$ tel que $D^i G_0$ soit, pour $i \leq p$, un sous-groupe de Lie de $G$ d’algèbre de Lie $\mathcal{D}^i g$. Mais, compte tenu de a), la même assertion reste vraie pour $i > p$ puisque $D^p G_0 \supset D^i G_0$ pour $i > p$.
 
 d) On raisonne de même pour les $C^i$.
 

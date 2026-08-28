@@ -30,9 +30,9 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: acfb467ac25bc53d26efc77efdfb21d76a813ae827ab80a73689fca61d776531
+content_sha256: 7ef13ffa3bcea1a11222edc254aa4201da7a8951ed2fe85ad922b2817fbaa5be
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
-source_content_sha256: c71157cd922d476b1b228708495f9f9f1ee9a9b4740af6b3058e100e9e1d1ca3
+source_content_sha256: 0d4d0127bd0f36cbd3c2a6be311c933fe5929eadbf69e81319cc08695d227e44
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-3c913cac
 glossary_version: 34
@@ -84,11 +84,11 @@ $$
 f(y) = f(u(x)) = u(f(x)) = 0,
 $$
 
-và $f$ là một đa thức bất khả quy đơn nhất trong $\mathbf{K}[X]$; do đó ($V$, p. 16, Định lý 1, c)), $f$ là đa thức tối tiểu của $y$ trên $K$. Vậy $a)$ kéo theo $c)$.
+và $f$ là một đa thức bất khả quy đơn nhất trong $\mathbf{K}[X]$; do đó ($V$, p. 16, Định lý 1, c)), $f$ là đa thức tối tiểu của $y$ trên $K$. Vậy a) kéo theo c).
 
-Giả sử giờ đây $x$ và $y$ có cùng đa thức tối tiểu $f$ trên $K$. Tồn tại một $K$-đẳng cấu của trường $\mathbf{K}[X]/(f)$ lên $\mathbf{K}(x)$ (resp. lên $\mathbf{K}(y)$) gửi lớp thặng dư của $X$ modulo $(f)$ đến $x$ (resp. $y$) ($V$, p. 16, ĐL. 1, b)); do đó tồn tại một $K$-đẳng cấu $v$ của $\mathbf{K}(x)$ lên $\mathbf{K}(y)$ sao cho $v(x) = y$. Vì vậy $c)$ suy ra $b)$.
+Giả sử giờ đây $x$ và $y$ có cùng đa thức tối tiểu $f$ trên $K$. Tồn tại một $K$-đẳng cấu của trường $\mathbf{K}[X]/(f)$ lên $\mathbf{K}(x)$ (resp. lên $\mathbf{K}(y)$) gửi lớp thặng dư của $X$ modulo $(f)$ đến $x$ (resp. $y$) ($V$, p. 16, ĐL. 1, b)); do đó tồn tại một $K$-đẳng cấu $v$ của $\mathbf{K}(x)$ lên $\mathbf{K}(y)$ sao cho $v(x) = y$. Vì vậy c) suy ra b).
 
-Sau cùng, dưới giả thiết $b)$, Mệnh đề 1 suy ra tồn tại một $K$-tự đẳng cấu $u$ của $\Omega$ kéo dài $v$; khi đó ta có $u(x) = y$, do đó $x$ và $y$ liên hợp trên $K$, nên $b)$ suy ra $a)$.
+Sau cùng, dưới giả thiết b), Mệnh đề 1 suy ra tồn tại một $K$-tự đẳng cấu $u$ của $\Omega$ kéo dài $v$; khi đó ta có $u(x) = y$, do đó $x$ và $y$ liên hợp trên $K$, nên b) suy ra a).
 
 #### Hệ quả 1 {#alg-v-s9-prop-2-cor-1 .statement}
 

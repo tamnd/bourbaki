@@ -33,7 +33,7 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: d3c05797fa6759d3e121c8bb13944632a7b77c3923d5c20eb54c878ebde76832
+content_sha256: 24cd43812ef1976a490cf9851e6095dc2002480d9c6d6f45be98dfa57b86113e
 ---
 
 ## § 8. SYMMETRIC INVARIANTS
@@ -217,19 +217,19 @@ Let $I(\mathfrak{g}^*)$ be the algebra of invariant polynomial functions on $\ma
 
 (iii) Let $l=$ rk($\mathfrak{g}$). There exist $l$ algebraically independent homogeneous elements of $I(\mathfrak{g}^*)$ that generate the algebra $I(\mathfrak{g}^*)$.
 
-$a)$ Let $f\in I(\mathfrak{g}^*)$ and $w\in W$. There exists $s\in$ Aut$_e(\mathfrak{g},\mathfrak{h})$ such that $s|\mathfrak{h}=w($§2, no. 2, Cor. of Th. 2). Since $f$ is invariant under $s$ (Prop. $3$)$,i(f)$ is invariant under $w$. Hence $i(I(\mathfrak{g}^*))\subset \mathbf{S}(\mathfrak{h}^*)^W$.
+a) Let $f\in I(\mathfrak{g}^*)$ and $w\in W$. There exists $s\in$ Aut$_e(\mathfrak{g},\mathfrak{h})$ such that $s|\mathfrak{h}=w($§2, no. 2, Cor. of Th. 2). Since $f$ is invariant under $s$ (Prop. $3$)$,i(f)$ is invariant under $w$. Hence $i(I(\mathfrak{g}^*))\subset \mathbf{S}(\mathfrak{h}^*)^W$.
 
-$b)$ We prove that, if $f\in I(\mathfrak{g}^*)$ is such that $i(f) = 0$, then $f= 0$. Extending the base field if necessary, we can assume that $k$ is algebraically closed. By Prop. $3,f$ vanishes on $s(\mathfrak{h})$ for all $s\in$ Aut$_e(\mathfrak{g})$. Hence $f$ vanishes on every Cartan subalgebra of $\mathfrak{g}$ (Chap. VII, §3, no. 2, Th. 1), and in particular on the set of regular elements of $\mathfrak{g}$. But this set is dense in $\mathfrak{g}$ for the Zariski topology (Chap. VII, §2, no. 2).
+b) We prove that, if $f\in I(\mathfrak{g}^*)$ is such that $i(f) = 0$, then $f= 0$. Extending the base field if necessary, we can assume that $k$ is algebraically closed. By Prop. $3,f$ vanishes on $s(\mathfrak{h})$ for all $s\in$ Aut$_e(\mathfrak{g})$. Hence $f$ vanishes on every Cartan subalgebra of $\mathfrak{g}$ (Chap. VII, §3, no. 2, Th. 1), and in particular on the set of regular elements of $\mathfrak{g}$. But this set is dense in $\mathfrak{g}$ for the Zariski topology (Chap. VII, §2, no. 2).
 
-$c)$ Let $n$ be an integer $\geq 0$. Let $L^n$ be the set of linear combinations of functions of the form $x \rightarrow$ Tr($\rho (x)^n$) on $\mathfrak{g}$, where $\rho$ is a finite dimensional linear representation of $\mathfrak{g}$. By Lemma $2, L^n\subset I^n(\mathfrak{g}^*)$. Thus
+c) Let $n$ be an integer $\geq 0$. Let $L^n$ be the set of linear combinations of functions of the form $x \rightarrow$ Tr($\rho (x)^n$) on $\mathfrak{g}$, where $\rho$ is a finite dimensional linear representation of $\mathfrak{g}$. By Lemma $2, L^n\subset I^n(\mathfrak{g}^*)$. Thus
 
 $$
 i(L^n)\subset i(I^n(\mathfrak{g}^*))\subset \mathbf{S}^n(\mathfrak{h}^*)^W
 $$
 
-By Cor. 2 of Prop. $2,\mathbf{S}^n(\mathfrak{h}^*)^W\subset i(L^n)$. Hence $i(I^n(\mathfrak{g}^*)) =\mathbf{S}^n(\mathfrak{h}^*)^W$, which proves (i), and $i(L^n) =i(I^n(\mathfrak{g}^*))$ so $L^n= I^n(\mathfrak{g}^*)$ by $b)$. Thus (ii) is proved.
+By Cor. 2 of Prop. $2,\mathbf{S}^n(\mathfrak{h}^*)^W\subset i(L^n)$. Hence $i(I^n(\mathfrak{g}^*)) =\mathbf{S}^n(\mathfrak{h}^*)^W$, which proves (i), and $i(L^n) =i(I^n(\mathfrak{g}^*))$ so $L^n= I^n(\mathfrak{g}^*)$ by b). Thus (ii) is proved.
 
-$d)$ Assertion (iii) follows from (i) and Chap. V, §5, no. 3, Th. 3.
+d) Assertion (iii) follows from (i) and Chap. V, §5, no. 3, Th. 3.
 
 #### Corollary 1 {#lie-viii-s8-thm-1-cor-1 .statement tag=015B}
 
@@ -406,13 +406,13 @@ $$
 
 is bijective (Commutative Algebra, Chap. III, §2, no. 8, Cor. 1 and 2 of Th. 1).
 
-$d)$ Recall the notations in $a)$. Let E be a simple $\mathfrak{g}$-module of highest weight $\lambda$, and $\chi$ its central character (§6, no. 1, Def. 2). Let $\varphi '$ and $\delta '$ be the homomorphisms analogous to $\varphi$ and $\delta$ relative to the basis $w(B)$. The highest weight of E relative to $w(B)$ is $w(\lambda )$. By §6, no. 4, Prop. 7,
+d) Recall the notations in a). Let E be a simple $\mathfrak{g}$-module of highest weight $\lambda$, and $\chi$ its central character (§6, no. 1, Def. 2). Let $\varphi '$ and $\delta '$ be the homomorphisms analogous to $\varphi$ and $\delta$ relative to the basis $w(B)$. The highest weight of E relative to $w(B)$ is $w(\lambda )$. By §6, no. 4, Prop. 7,
 
 $$
 \varphi (u)(\lambda ) =\chi (u) =\varphi '(u)(w\lambda )
 $$
 
-for all $u\in Z$, so, by $a)$,
+for all $u\in Z$, so, by a),
 
 $$
 (\delta \circ \varphi )(u)(w\lambda +w\rho ) = (\delta \circ \varphi )(u)(\lambda +\rho ) =\varphi (u)(\lambda ) =\varphi '(u)(w\lambda )

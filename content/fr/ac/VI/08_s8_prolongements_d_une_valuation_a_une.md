@@ -40,7 +40,7 @@ subsections:
       pdf_page: 149
 statements: 42
 exercises: 22
-content_sha256: 5e3ba0b9b3f95b9d3d8175112f62cc09b3f4c3620639d040bc3c4da7e399a172
+content_sha256: 39d2e8a38c299bc8a020e873511132d2e893a6effbb30473532cca65a2808c58
 ---
 
 ## § 8. Prolongements d’une valuation à une extension algébrique.
@@ -216,7 +216,7 @@ $$
 \sum_{i=1}^{s} e(\omega'/\omega) e(\bar{\nu}'_i/\bar{\nu}) f(\bar{\nu}'_i/\bar{\nu}) \leq e(\omega'/\omega) f(\omega'/\omega) \leq n \quad (\text{n° 1, lemme 1}).
 $$
 
-La démonstration de $a)$ et $b)$ sera donc terminée si nous prouvons que l’on a
+La démonstration de a) et b) sera donc terminée si nous prouvons que l’on a
 
 $$(8)$$
 $$
@@ -241,7 +241,7 @@ $$
 
 en vertu du chap. I, $\S 1$, n° 4, prop. 2.
 
-Pour terminer la démonstration du th. 1, il reste à prouver $c)$. Si l’anneau de $\nu'_i$ contient celui de $\nu'_j$, $\Gamma_{\nu_i'}$ s’identifie à un groupe quotient $\Gamma_{\nu_j'}/H$, $H$ étant un sous-groupe isolé ($\S 4$, n° 3). Comme l’application canonique composée $\Gamma_{\nu} \to \Gamma_{\nu_j'} \to \Gamma_{\nu_j'}/H = \Gamma_{\nu_i'}$ est injective, on a $H \cap \Gamma_{\nu} = \{0\}$, d’où $H = \{0\}$ (lemme 3, n° 1). Alors $\nu'_i$ et $\nu'_j$ sont équivalentes, d’où $i = j$.
+Pour terminer la démonstration du th. 1, il reste à prouver c). Si l’anneau de $\nu'_i$ contient celui de $\nu'_j$, $\Gamma_{\nu_i'}$ s’identifie à un groupe quotient $\Gamma_{\nu_j'}/H$, $H$ étant un sous-groupe isolé ($\S 4$, n° 3). Comme l’application canonique composée $\Gamma_{\nu} \to \Gamma_{\nu_j'} \to \Gamma_{\nu_j'}/H = \Gamma_{\nu_i'}$ est injective, on a $H \cap \Gamma_{\nu} = \{0\}$, d’où $H = \{0\}$ (lemme 3, n° 1). Alors $\nu'_i$ et $\nu'_j$ sont équivalentes, d’où $i = j$.
 
 #### Remarque {#ac-vi-s8-n3-rem-1 .statement}
 
@@ -323,7 +323,7 @@ C.Q.F.D.
 
 #### Remarque 1 {#ac-vi-s8-n5-rem-1 .statement}
 
-Lorsque $\nu$ est discrète, on a $\varepsilon(\nu_i'/\nu) = e(\nu_i'/\nu)$ (no 4), et la condition $d)$ se réduit à $\sum_{i=1}^s e(\nu_i'/\nu)f(\nu_i'/\nu) = n.$
+Lorsque $\nu$ est discrète, on a $\varepsilon(\nu_i'/\nu) = e(\nu_i'/\nu)$ (no 4), et la condition d) se réduit à $\sum_{i=1}^s e(\nu_i'/\nu)f(\nu_i'/\nu) = n.$
 
 #### Corollaire 1 {#ac-vi-s8-thm-2-cor-1 .statement}
 

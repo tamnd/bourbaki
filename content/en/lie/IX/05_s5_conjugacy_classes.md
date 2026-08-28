@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 5ccf5c9edd26e6c041542a3b7f3699151765c58b6cb7db2c78180e723a3f0822
+content_sha256: 67b7c3bf0335e1b8bfbe872472e7bd56c7dbf0d52741cf029286e2edabbf3e06
 ---
 
 ## § 5. CONJUGACY CLASSES
@@ -40,7 +40,7 @@ We retain the notations of §4.
 
 By Cor. 4 of Th. 2 of §2, no. 2, the regular elements $g$ of G can be characterized by either of the following properties:
 
-$a)$ The subalgebra of $\mathfrak{g}$ fixed by Ad $g$ is a Cartan subalgebra.
+a) The subalgebra of $\mathfrak{g}$ fixed by Ad $g$ is a Cartan subalgebra.
 
 $b) Z(g)_0$ is a maximal torus of G.
 
@@ -92,7 +92,7 @@ c) Let C be a chamber and A an alcove. Then $\overline{C}$ (resp. A, resp. A) is
 
 d) For every chamber C, there exists a unique alcove A such that $A\subset C$ and$\gamma \in \frac{0}{A}.\in \overline{A}$. For every alcove A, there exists a unique $\gamma \in N(G,T)$ such that
 
-If $w\in W$ and $\gamma \in \Gamma$(T), then $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ and $wt_{\gamma}w^{-1}t^{-1}_{\gamma}=t_{w(\gamma)-\gamma}$, with $w(\gamma )-\gamma \in N(G,T)$; this immediately implies $a)$. The rest of the proposition follows from Chap. VI, §1, no. 5 and §2, nos. 1 and 2.
+If $w\in W$ and $\gamma \in \Gamma$(T), then $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ and $wt_{\gamma}w^{-1}t^{-1}_{\gamma}=t_{w(\gamma)-\gamma}$, with $w(\gamma )-\gamma \in N(G,T)$; this immediately implies a). The rest of the proposition follows from Chap. VI, §1, no. 5 and §2, nos. 1 and 2.
 
 #### Corollary 1 {#lie-ix-s5-prop-2-cor-1 .statement tag=01DY}
 
@@ -106,9 +106,9 @@ $\overline{A}/H_A\rightarrow T/W\rightarrow G/$Int(G)
 
 $A/H_A\rightarrow T_r/W\rightarrow G_r/$Int(G).
 
-Let $w'\in W'_a$; then $w'(A)$ is an alcove of $\mathfrak{t}$, and there exists (Prop. $2b$)$)$ a unique element $w$ of $W_a$ such that $w(A) =w'$(A), that is $w^{-1}w'\in H_A$. Since $W_a$ is normal in $W'_a$, this proves $a)$.
+Let $w'\in W'_a$; then $w'(A)$ is an alcove of $\mathfrak{t}$, and there exists (Prop. $2b$)$)$ a unique element $w$ of $W_a$ such that $w(A) =w'$(A), that is $w^{-1}w'\in H_A$. Since $W_a$ is normal in $W'_a$, this proves a).
 
-The canonical injection of $\overline{A}$ into $\mathfrak{t}$ induces a continuous bijection $\theta :\overline{A}\rightarrow$ $\mathfrak{t}/W_a$ (Prop. $2c$)$)$, and this is a homeomorphism since A is compact. Since $W_a$ is normal in $W'_a$, the group $H_A$ operates canonically on $\mathfrak{t}/W_a($Algebra, Chap. I, §5, no. 4) and $\mathfrak{t}/W'_a$ can be identified with the quotient $(\mathfrak{t}/W_a)/H_A$; the map $\theta$ is compatible with the operations of $H_A$, hence induces by passage to the quotient a homeomorphism $A/H_A\rightarrow \mathfrak{t}/W'_a$. Further, exp$_{\Gamma}$ induces a homeomorphism from $\mathfrak{t}/\Gamma (T)$ to T, hence also a homeomorphism from $\mathfrak{t}/W'_a$ to $T/W$. Assertion $b)$ follows from that and Cor. 1 of Prop. 5 of §2, no. 4.
+The canonical injection of $\overline{A}$ into $\mathfrak{t}$ induces a continuous bijection $\theta :\overline{A}\rightarrow$ $\mathfrak{t}/W_a$ (Prop. $2c$)$)$, and this is a homeomorphism since A is compact. Since $W_a$ is normal in $W'_a$, the group $H_A$ operates canonically on $\mathfrak{t}/W_a($Algebra, Chap. I, §5, no. 4) and $\mathfrak{t}/W'_a$ can be identified with the quotient $(\mathfrak{t}/W_a)/H_A$; the map $\theta$ is compatible with the operations of $H_A$, hence induces by passage to the quotient a homeomorphism $A/H_A\rightarrow \mathfrak{t}/W'_a$. Further, exp$_{\Gamma}$ induces a homeomorphism from $\mathfrak{t}/\Gamma (T)$ to T, hence also a homeomorphism from $\mathfrak{t}/W'_a$ to $T/W$. Assertion b) follows from that and Cor. 1 of Prop. 5 of §2, no. 4.
 
 #### Remark 1 {#lie-ix-s5-n2-rem-1 .statement tag=01DZ}
 
@@ -156,7 +156,7 @@ a) H is a closed subgroup of G.
 
 b) If $H_0$ is central in G, then G is commutative (so G = T).
 
-Assertion $a)$ is clear. To prove $b)$, we can replace G by D(G) (§1, Cor. 1 of Prop. 4), and hence can assume that G is semi-simple. Then, if $H_0$ is central in G, we have $L(H) =\{0\}$, so the endomorphism $L(u)-$Id of $\mathfrak{g}$ is bijective. Let $f$ be the endomorphism of the manifold G defined by $f(g) =u(g)^{-1}g$ for $g\in G$; it is étale, for if $g\in G$ and $x\in \mathfrak{g}$, we have $T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$, so the tangent map of $f$ at $g$ is bijective. It follows that the image of $f$ is open and compact, hence coincides with G since G is connected. Now let E be a framing of G (§4, no. 10, Def. 3) and $u(E)$ its image under $u$. By Prop. 19 of loc. cit., there exists an element $h$ of G such that (Int $h$)$(E) =u(E)$. Let $g\in G$ be such that $h=f(g) =u(g)^{-1}g$; then
+Assertion a) is clear. To prove b), we can replace G by D(G) (§1, Cor. 1 of Prop. 4), and hence can assume that G is semi-simple. Then, if $H_0$ is central in G, we have $L(H) =\{0\}$, so the endomorphism $L(u)-$Id of $\mathfrak{g}$ is bijective. Let $f$ be the endomorphism of the manifold G defined by $f(g) =u(g)^{-1}g$ for $g\in G$; it is étale, for if $g\in G$ and $x\in \mathfrak{g}$, we have $T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$, so the tangent map of $f$ at $g$ is bijective. It follows that the image of $f$ is open and compact, hence coincides with G since G is connected. Now let E be a framing of G (§4, no. 10, Def. 3) and $u(E)$ its image under $u$. By Prop. 19 of loc. cit., there exists an element $h$ of G such that (Int $h$)$(E) =u(E)$. Let $g\in G$ be such that $h=f(g) =u(g)^{-1}g$; then
 
 $u\circ$ Int $g=$ (Int $u(g)$)$\circ u=$ Int $g\circ$ (Int $h$)$^{-1}\circ u$,
 
@@ -188,7 +188,7 @@ $$
 S\subset V_0\subset K\cap H\subset Z(S)\cap Z(x)\cap H
 $$
 
-so $V_0$ is contained in the centralizer of S in $(Z(x)\cap H)_0$; but the latter reduces to S (loc. cit., Cor. 6), hence finally $V_0= S$. Lemma 1 now implies that K is commutative, hence is a maximal torus of G (since it is connected and of maximal rank). It contains S and $x$, and is equal to the identity component of $Z(S)\cap Z(x)$; assertion $a)$ now follows from Lemma 2. We deduce $b)$ by taking $g=x$ exp $a$.
+so $V_0$ is contained in the centralizer of S in $(Z(x)\cap H)_0$; but the latter reduces to S (loc. cit., Cor. 6), hence finally $V_0= S$. Lemma 1 now implies that K is commutative, hence is a maximal torus of G (since it is connected and of maximal rank). It contains S and $x$, and is equal to the identity component of $Z(S)\cap Z(x)$; assertion a) now follows from Lemma 2. We deduce b) by taking $g=x$ exp $a$.
 
 #### Corollary {#lie-ix-s5-n3-cor-1 .statement tag=01E9}
 
@@ -206,9 +206,9 @@ b) There exists a maximal torus K of G and a chamber of L(K) that are stable und
 
 c) If G is simply-connected, the set of fixed points of $u$ is connected.
 
-Assertion $a)$ is the particular case $x=e$ of Prop. 3. We assume now that G is simply-connected and prove $b)$ and $c)$. Let $x$ be an element of G fixed by $u$, and let $g$ be a regular element of G, fixed by $u$ and commuting with $x$ (Prop. 3). The centralizer K of $g$ is a maximal torus of G (no. 2, Remark 2), stable under $u$, and containing $x$ and $g$. By Cor. 3 of Prop. 2 of no. 2, there exists a unique alcove A of L(K) such that $g\in$ exp A and $0\in A$; since $g$ is fixed by $u, L(u)$ leaves A, and hence also the chamber of L(K) containing A, stable. This proves $b)$; further, the set of points of K fixed by $u$ is connected (Lemma 3) and contains $x$ and $e$, hence $c) ($General Topology, Chap. I, §11, no. 1, Prop. 2).
+Assertion a) is the particular case $x=e$ of Prop. 3. We assume now that G is simply-connected and prove b) and c). Let $x$ be an element of G fixed by $u$, and let $g$ be a regular element of G, fixed by $u$ and commuting with $x$ (Prop. 3). The centralizer K of $g$ is a maximal torus of G (no. 2, Remark 2), stable under $u$, and containing $x$ and $g$. By Cor. 3 of Prop. 2 of no. 2, there exists a unique alcove A of L(K) such that $g\in$ exp A and $0\in A$; since $g$ is fixed by $u, L(u)$ leaves A, and hence also the chamber of L(K) containing A, stable. This proves b); further, the set of points of K fixed by $u$ is connected (Lemma 3) and contains $x$ and $e$, hence $c) ($General Topology, Chap. I, §11, no. 1, Prop. 2).
 
-It remains to prove $b)$ in the general case. Now, if $\widetilde{D}(G)$ is the universal covering of D(G), and if $f: \widetilde{D}(G)\rightarrow G$ is the canonical morphism, there exists an automorphism $\widetilde{u}$ of $\widetilde{D}(G)$ such that $f\circ \widetilde{u}=u\circ f$. If $\widetilde{K}$ is a maximal torus of $\widetilde{D}(G)$ and $\widetilde{C}$ a chamber of $L( \widetilde{K})$, stable under $\widetilde{u}$ (this exists by what has already been proved), there exists (§2, no. 3, Remark 2) a unique maximal torus K of G and a unique chamber C of L(K) such that $\widetilde{K} =f^{-1}(K)$ and $\widetilde{C} = L(f)^{-1}$(C), and we see immediately that K and C are stable under $u$, hence assertion $b)$ in the general case.
+It remains to prove b) in the general case. Now, if $\widetilde{D}(G)$ is the universal covering of D(G), and if $f: \widetilde{D}(G)\rightarrow G$ is the canonical morphism, there exists an automorphism $\widetilde{u}$ of $\widetilde{D}(G)$ such that $f\circ \widetilde{u}=u\circ f$. If $\widetilde{K}$ is a maximal torus of $\widetilde{D}(G)$ and $\widetilde{C}$ a chamber of $L( \widetilde{K})$, stable under $\widetilde{u}$ (this exists by what has already been proved), there exists (§2, no. 3, Remark 2) a unique maximal torus K of G and a unique chamber C of L(K) such that $\widetilde{K} =f^{-1}(K)$ and $\widetilde{C} = L(f)^{-1}$(C), and we see immediately that K and C are stable under $u$, hence assertion b) in the general case.
 
 #### Corollary 1 {#lie-ix-s5-thm-1-cor-1 .statement tag=01EB}
 
@@ -218,7 +218,7 @@ a) The centralizer of every element of G is connected.
 
 b) Any two commuting elements of G belong to the same maximal torus.
 
-By Cor. 3 of Prop. 11 of §4, no. 6, D(G) is simply-connected. We have $G = C(G)_0.D(G)$; let $x\in G$; write $x=uv$, with $u\in C(G)_0$ and $v\in D(G)$. Then $Z(x) = C(G)_0.Z_{D(G)}(v)$. By Th. $1c), Z_{D(G)}(v)$ is connected, so $Z(x)$ is connected, hence $a)$. Thus, by Cor. 3 of Th. 2 of §2, no. $2, Z(x)$ is the union of the maximal tori of G containing $x$, hence $b)$.
+By Cor. 3 of Prop. 11 of §4, no. 6, D(G) is simply-connected. We have $G = C(G)_0.D(G)$; let $x\in G$; write $x=uv$, with $u\in C(G)_0$ and $v\in D(G)$. Then $Z(x) = C(G)_0.Z_{D(G)}(v)$. By Th. $1c), Z_{D(G)}(v)$ is connected, so $Z(x)$ is connected, hence a). Thus, by Cor. 3 of Th. 2 of §2, no. $2, Z(x)$ is the union of the maximal tori of G containing $x$, hence b).
 
 #### Corollary 2 {#lie-ix-s5-thm-1-cor-2 .statement tag=01EC}
 
@@ -332,7 +332,7 @@ a) Let $g\in G, t\in T, x\in \mathfrak{t}$, and let $\overline{g}$ be the image 
 
 b) The map $f_r$ (resp. $\varphi_r$, resp. $\varphi_A$) makes $(G/T)\times T_r$ (resp. $(G/T)\times \mathfrak{t}_r$, resp. $(G/T)\times A$) a principal covering of $G_r$ with group W (resp. $W'_a$, resp. $H_A$).
 
-$a)$ The equivalence of (i) and (i bis) is clear; that of (ii) and (ii bis) follows from the relations dim((G$/T$)$\times T$) $=$ dim((G$/T$)$\times \mathfrak{t}$) $=$ dim(G). By Lemma 4, $f$ is a submersion at the point $(\overline{g}, t)$ if and only if $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id), which means that $t$ is regular. Finally, since $\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T$)$,\varphi$ is étale at the point $(\overline{g}, x)$ if and only if $f$ is étale at the point $(\overline{g}$, exp $x$), which by the preceding means that $x$ belongs to $\mathfrak{t}_r$.
+a) The equivalence of (i) and (i bis) is clear; that of (ii) and (ii bis) follows from the relations dim((G$/T$)$\times T$) $=$ dim((G$/T$)$\times \mathfrak{t}$) $=$ dim(G). By Lemma 4, $f$ is a submersion at the point $(\overline{g}, t)$ if and only if $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id), which means that $t$ is regular. Finally, since $\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T$)$,\varphi$ is étale at the point $(\overline{g}, x)$ if and only if $f$ is étale at the point $(\overline{g}$, exp $x$), which by the preceding means that $x$ belongs to $\mathfrak{t}_r$.
 
 b) The morphisms $f_r, \varphi_r, \varphi_A$ are thus étale. On the other hand, W operates freely on $G/T$, and a fortiori on $(G/T)\times T$. Let $g, g'$ in G and $t, t'$ in $T_r$ be such that $f(\overline{g}, t) =f(\overline{g}', t')$; then Int $g^{-1}g'$ maps $t'$ to $t$, and hence normalizes T, since $T = Z(t)_0= Z(t')_0$, and the class $w$ of $g^{-1}g'$ in W maps $(\overline{g}, t)$ to $(\overline{g}', t')$. It follows that $f_r$ is a principal covering with group W; this immediately implies that $\varphi_r$ is a principal covering with group $W'_a$, and hence by restriction to the connected component $(G/T)\times A$ of $(G/T)\times \mathfrak{t}_r$, that $\varphi_A$ is a principal covering with group $H_A$.
 

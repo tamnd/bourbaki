@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: 60a0a8276ead3ec3b06557c9aa5ca4937f00aaedc3fd871494cee87e933f7e09
+content_sha256: 6f807978223af09ea691f4a718f88a33ce5fb2f48cdd35a565edd9d39edc944d
 ---
 
 ## § 2. OPERATIONS ON MEASURES
@@ -280,7 +280,7 @@ The two measures $\mu$ and $\mu'$ thus have the same essential upper integral, w
 
 Suppose that $\pi$ is injective. Let $\theta$ be a complex measure such that $\pi$ is $\theta$-proper and $\pi(\theta) = 0$; then $\theta = 0$. Indeed, by separating $\theta$ into its real and imaginary parts, one can reduce to the case that $\theta$ is real. We then have $\pi(\theta^+) = \pi(\theta^-)$, therefore $\theta^+ = \theta^-$ (Prop. 8), and finally $\theta = 0$.
 
-Here is an important case where condition $a)$ of Prop. 8 is always satisfied.
+Here is an important case where condition a) of Prop. 8 is always satisfied.
 
 #### Proposition 9 {#int-ix-s2-prop-9 .statement}
 
@@ -428,7 +428,7 @@ $$
 it is immediate that the sequence $(u_n(x))_{n \geqslant 1}$ is increasing and admits x as limit. The sequence of functions $f_n = u_n \circ f$ is therefore increasing and converges to $f$, and one has $f_n = 2^{-n} \sum_{k=1}^{n \cdot 2^n} \varphi_{U(k,n)}$,
 where $U(k,n)$ is the open set $f^{-1}([k/2^n, +\infty])$ of $X$.
 
-Let us pass to the proof of $b)$. The function $I_f$ being the upper envelope of the increasing directed family of functions $I_f^L$, where $L$ runs over the set of compact subsets of $T$ (Lemma 2), it will suffice to show that the functions $I_f^L$ are lower semi-continuous; the formula (9) may then be deduced from (6) by passing to the upper envelope over $L$ (\$1, No. 6, Prop. 5).
+Let us pass to the proof of b). The function $I_f$ being the upper envelope of the increasing directed family of functions $I_f^L$, where $L$ runs over the set of compact subsets of $T$ (Lemma 2), it will suffice to show that the functions $I_f^L$ are lower semi-continuous; the formula (9) may then be deduced from (6) by passing to the upper envelope over $L$ (\$1, No. 6, Prop. 5).
 
 Thus let $\mathcal{H}$ be the set of positive lower semi-continuous functions $f$ on $S \times T$ such that $I_f^L$ is lower semi-continuous for every compact subset $L$ of $T$. By Prop. 5 of \$1, No. 6, the supremum of every increasing directed set of elements of $\mathcal{H}$ belongs to $\mathcal{H}$. By Lemma 3, it will therefore suffice to prove that the characteristic function of an open set $W$ of $S \times T$ belongs to $\mathcal{H}$. Moreover, by the definition of the product topology on $S \times T$, the open set $W$ is the union of an increasing directed family $(W_\alpha)_{\alpha \in A}$ of open sets of the form
 $$
@@ -518,7 +518,7 @@ $$
 \int_{X'} f'(x') \, d\nu'(x') = \int_{T'} d\mu'(t') \int_{X'} f'(x') \, d\lambda'_{t'}(x').
 $$
 
-Let $t \in T$; if $t$ belongs to $T'$, let us denote by $\lambda_t$ the image of $\lambda'_t$ under the canonical injection of $X'$ into $X$, and if $t$ belongs to $T - T'$ we set $\lambda_t = 0$. The reader will verify without difficulty that the mapping $t \mapsto \lambda_t$ satisfies the conditions $a)$ and $b)$ of the statement.
+Let $t \in T$; if $t$ belongs to $T'$, let us denote by $\lambda_t$ the image of $\lambda'_t$ under the canonical injection of $X'$ into $X$, and if $t$ belongs to $T - T'$ we set $\lambda_t = 0$. The reader will verify without difficulty that the mapping $t \mapsto \lambda_t$ satisfies the conditions a) and b) of the statement.
 
 C) *Existence in the general case*:
 
@@ -540,7 +540,7 @@ $$
 
 it is moreover clear that the function $t \mapsto q_t(f)$ on $T$ is universally measurable.
 
-For every $m \in \mathbf{N}$, let $E_m$ be the set of $t \in T$ such that $q_t(U_m) = +\infty$; the set $E_m$ is universally measurable because this is true of the mapping $t \mapsto q_t(U_m)$, and $E_m$ is locally $\mu$-negligible by the formula (14) applied to $f = \varphi_{U_m}$, since $\nu^*(U_m)$ is finite. The set $E = \bigcup_{m \in \mathbf{N}} E_m$ is therefore universally measurable and locally $\mu$-negligible. We set $\lambda_t = 0$ for $t \in E$. Moreover, let $t \in T - E$; the encumbrance $q_t$ is locally bounded since the open sets $U_m$ cover $X$ and since $q_t(U_m)$ is finite; by Prop. 7 of \S 1, No. 7, there exists a measure $\lambda_t$ on $X$ such that $q_t = \lambda_t^*$ and $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. It is immediate that the mapping $t \mapsto \lambda_t$ satisfies the conditions $a)$ and $b)$ of the statement.
+For every $m \in \mathbf{N}$, let $E_m$ be the set of $t \in T$ such that $q_t(U_m) = +\infty$; the set $E_m$ is universally measurable because this is true of the mapping $t \mapsto q_t(U_m)$, and $E_m$ is locally $\mu$-negligible by the formula (14) applied to $f = \varphi_{U_m}$, since $\nu^*(U_m)$ is finite. The set $E = \bigcup_{m \in \mathbf{N}} E_m$ is therefore universally measurable and locally $\mu$-negligible. We set $\lambda_t = 0$ for $t \in E$. Moreover, let $t \in T - E$; the encumbrance $q_t$ is locally bounded since the open sets $U_m$ cover $X$ and since $q_t(U_m)$ is finite; by Prop. 7 of \S 1, No. 7, there exists a measure $\lambda_t$ on $X$ such that $q_t = \lambda_t^*$ and $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. It is immediate that the mapping $t \mapsto \lambda_t$ satisfies the conditions a) and b) of the statement.
 
 D) *Proof of c)*:
 Let $f$ be a universally measurable function on $X$ that is positive and bounded; we are going to show that the universally measurable function $h_f : t \mapsto \lambda_t^\bullet(f)$ on $T$ is a density for the measure $\mu_f = p(f \cdot \nu)$ with respect to $\mu = p(\nu)$. Let $K$ be a compact subset of $T$ and let $A = \overline{p}^{-1}(K)$. For every $t \in T$, the measure $\lambda_t$ is carried by $\overline{p}^{-1}(t)$; if $t$ belongs to $K$ then $\overline{p}^{-1}(t) \subset A$, whence $\lambda_t^\bullet(f \varphi_A) = \lambda_t^\bullet(f)$; on the other hand, if $t$ belongs to $T - K$ then $\overline{p}^{-1}(t) \subset X - A$, whence $\lambda_t^\bullet(f \varphi_A) = 0$. Applying the formula (12) to $f \cdot \varphi_A$,$^{(1)}$ we obtain
@@ -554,7 +554,7 @@ which establishes the relation $\mu_f = h_f \cdot \mu$.
 Letting $f = 1$, one sees that the function $h_1 : t \mapsto \| \lambda_t \|$ is a density of the measure $\mu_1 = \mu$ with respect to $\mu$, hence is equal to 1 locally $\mu$-almost everywhere in $T$.
 
 E) *Uniqueness*:
-Let $t \mapsto \lambda_t^i$ (for $i = 1, 2$) be two mappings of $T$ into $\mathcal{M}_+(X)$ satisfying the conditions $a)$ and $b)$ of the statement. As in C), choose a $\mu$-crushing $(X_n)_{n \in \mathbf{N}}$ of $X$ such that $p_{X_n}$ is continuous for every $n \in \mathbf{N}$, and set $N = X - \bigcup_{n \in \mathbf{N}} X_n$. For every integer $n \in \mathbf{N}$, choose a countable set $D_n$ of positive functions on $X$, zero outside $X_n$, whose restrictions to $X_n$ form a dense set in the normed space $\mathcal{C}(X_n)$ (apply Th. 1 of GT, X, §3, No. 3 to the metrizable compact space $X_n$). We set $D = \bigcup_{n \in \mathbf{N}} D_n$.
+Let $t \mapsto \lambda_t^i$ (for $i = 1, 2$) be two mappings of $T$ into $\mathcal{M}_+(X)$ satisfying the conditions a) and b) of the statement. As in C), choose a $\mu$-crushing $(X_n)_{n \in \mathbf{N}}$ of $X$ such that $p_{X_n}$ is continuous for every $n \in \mathbf{N}$, and set $N = X - \bigcup_{n \in \mathbf{N}} X_n$. For every integer $n \in \mathbf{N}$, choose a countable set $D_n$ of positive functions on $X$, zero outside $X_n$, whose restrictions to $X_n$ form a dense set in the normed space $\mathcal{C}(X_n)$ (apply Th. 1 of GT, X, §3, No. 3 to the metrizable compact space $X_n$). We set $D = \bigcup_{n \in \mathbf{N}} D_n$.
 
 Let $f \in D$; by D), the functions $t \mapsto (\lambda_t^1)^\bullet(f)$ and $t \mapsto (\lambda_t^2)^\bullet(f)$ are densities of the measure $\mu_f$ with respect to $\mu$, and so there exists a locally $\mu$-negligible set $E_f$ in $T$ such that $(\lambda_t^1)^\bullet(f) = (\lambda_t^2)^\bullet(f)$ for $t \in T - E_f$. Moreover, by (12), the set $F_i$ of $t \in T$ such that $(\lambda_t^i)^\bullet(N) \neq 0$ is locally $\mu$-negligible for $i = 1, 2$. Since $D$ is countable, the set $G = (\bigcup_{f \in D} E_f) \cup F_1 \cup F_2$ is locally $\mu$-negligible; for $t \in T - G$, we have $(\lambda_t^1)^\bullet(N) = (\lambda_t^2)^\bullet(N) = 0$ and $(\lambda_t^1)_{X_n} = (\lambda_t^2)_{X_n}$, whence $\lambda_t^1 = \lambda_t^2$ by Prop. 9 of §1, No. 8.
 

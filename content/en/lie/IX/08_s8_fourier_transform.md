@@ -29,7 +29,7 @@ subsections:
       pdf_page: 375
 statements: 9
 exercises: 6
-content_sha256: 5c04fb9747792c80021adfdf8ba74d886810070b809ae6894a3b9cfbc17ca32c
+content_sha256: 7146b47c4591798a6237702fc9df4724c46d7ba060e5bca3cd680259b2af702e
 ---
 
 ## § 8. FOURIER TRANSFORM
@@ -204,13 +204,13 @@ $$
 0\leq \widetilde{\Gamma}(u) =\|\lambda (u) +\rho \|^2- \|\rho \|^2
 $$
 
-so $\widetilde{\Gamma}(u) + 1\preccurlyeq (\|\lambda (u)\|+ 1)^2\preccurlyeq \widetilde{\Gamma}(u) + 1$, hence $a)$.
+so $\widetilde{\Gamma}(u) + 1\preccurlyeq (\|\lambda (u)\|+ 1)^2\preccurlyeq \widetilde{\Gamma}(u) + 1$, hence a).
 
 Further, if G is semi-simple,
 
 $\|\lambda (u) +\rho \|\preccurlyeq d(u)\preccurlyeq \|\lambda (u) +\rho \|^N$, where $N = 1/$2(dim $G-$ dim T)
 
-(§7, no. 5, Cor. 1 of Th. 3), so $\|\lambda (u)\|+ 1\preccurlyeq d(u)\preccurlyeq (\|\lambda (u)\|+ 1)^N$, hence $b)$.
+(§7, no. 5, Cor. 1 of Th. 3), so $\|\lambda (u)\|+ 1\preccurlyeq d(u)\preccurlyeq (\|\lambda (u)\|+ 1)^N$, hence b).
 
 It follows from Prop. 2 that condition (i) is independent of the choice of maximal torus, chamber, and norm, and that condition (ii) is independent of the choice of Casimir element. A function $\varphi$ satisfying conditions (i) and (ii) is said to be moderately increasing (resp. rapidly decreasing). The product of two moderately increasing functions is moderately increasing; the product of a moderately increasing function and a rapidly decreasing function is rapidly decreasing. If $\varphi$ is rapidly decreasing, the family $(\varphi (u))_{u\in\widehat{G}}$ is summable.
 

@@ -56,7 +56,7 @@ subsections:
       pdf_page: 28
 statements: 31
 exercises: 16
-content_sha256: 5b8fb0ba30f5eee5091da918471033f28e6a73be1b8791fc9ee22aa7f69bdc56
+content_sha256: 94d37f46a3727af4e40cb66ef6e6c0d9e72be8bac95f1ce35b4437e4dc88ae16
 ---
 
 ## § 2. Algèbres de Lie libres
@@ -511,9 +511,9 @@ Comme $X$ est fini, chacun des ensembles $M^n(X)$ est fini. Posons $H_n = H \cap
 
 Posons $P_0 = X$ et pour tout entier $p \geq 1$, soit $P_p$ l’ensemble des éléments $w$ de $H$ tels que $w \geq w_p$ et que l’on ait, ou bien $w \in X$, ou bien $\alpha(w) < w_p$ (remarquons que si $w$ est de longueur $\geq 2$, la relation $w \in H$ entraîne $\alpha(w) \in H$ d’après la condition (C) de la déf. 2). On a $w_p \in P_p$; cela est clair si $w_p \in X$ et cela résulte de l’inégalité $l(\alpha(w_p)) < l(w_p)$ et de la condition (A) de la déf. 2 lorsque $w_p \notin X$.
 
-Les conditions $a)$ et $b)$ sont donc satisfaites.
+Les conditions a) et b) sont donc satisfaites.
 
-Soit $n$ un entier $\geq 1$ et soit $p \geq v_n$. Pour tout $w \in P_p$, on a $l(w) \geq l(w_p) > n$ d’après la définition même de l’application $p \mapsto w_p$. Ceci établit $c)$.
+Soit $n$ un entier $\geq 1$ et soit $p \geq v_n$. Pour tout $w \in P_p$, on a $l(w) \geq l(w_p) > n$ d’après la définition même de l’application $p \mapsto w_p$. Ceci établit c).
 
 Montrons que tout élément de la forme $u = w_p^i w$ avec $i \geq 0$, $w \in P_p$ et $w \neq w_p$ appartient à $P_{p+1}$. Si $i \neq 0$, on a $l(u) > l(w_p)$ d’où $u > w_p$ et $u \geq w_{p+1}$; on a $u \notin X$ et $\alpha(u) = w_p < w_{p+1}$, d’où $u \in P_{p+1}$. Si $i = 0$, on a $u \in P_p$ et $u \neq w_p$; on a donc $u > w_p$, d’où $u \geq w_{p+1}$; si $u$ n’appartient pas à $X$, on a $\alpha(w) < w_p$ d’où $\alpha(w) < w_{p+1}$; on a encore $u \in P_{p+1}$.
 

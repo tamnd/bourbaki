@@ -32,7 +32,7 @@ subsections:
       pdf_page: 70
 statements: 17
 exercises: 12
-content_sha256: 615bf0256d9f7e340645044d055af847f7929d1c1a230e4b083a1369078da416
+content_sha256: ef1a67eae0d2ce309ea462bbe0f3a17ae9a25f5e17429d80b70096a07d518a97
 ---
 
 ## § 3. Désintégration des mesures
@@ -101,7 +101,7 @@ Cela étant, on peut remplacer $\lambda_b$ par 0 pour tout $b \in N$ sans modifi
 
 3) *Extensions de la formule (3)*.
 
-$a)$ Pour toute fonction $f \in L^1(\nu)$, il résulte de (3) que l’application $b \to \lambda_b$ de $B$ dans $\mathcal{M}(T)$ est scalairement intégrable pour la mesure $|f . \nu|$ et pour la topologie $\sigma(\mathcal{M}(T), \mathcal{K}(T))$, donc (lemme 3) la famille $b \to \lambda_b$ est $|f . \nu|$-*adéquate*. Soit alors $g$ une fonction numérique définie dans T, intégrable pour la mesure $|(f \circ p) \cdot \mu|$, c'est-à-dire (chap. V, § 5, no 3, th. 1) telle que $t \to g(t)f(p(t))$ soit $\mu$-intégrable ; il résulte alors de (2), du th. 1 du chap. V, § 3, no 4 et du th. 1 du chap. V, § 5, no 3 que, pour presque tout $b \in B$, $g$ est intégrable pour $\lambda_b$, que la fonction (définie presque partout)
+a) Pour toute fonction $f \in L^1(\nu)$, il résulte de (3) que l’application $b \to \lambda_b$ de $B$ dans $\mathcal{M}(T)$ est scalairement intégrable pour la mesure $|f . \nu|$ et pour la topologie $\sigma(\mathcal{M}(T), \mathcal{K}(T))$, donc (lemme 3) la famille $b \to \lambda_b$ est $|f . \nu|$-*adéquate*. Soit alors $g$ une fonction numérique définie dans T, intégrable pour la mesure $|(f \circ p) \cdot \mu|$, c'est-à-dire (chap. V, § 5, no 3, th. 1) telle que $t \to g(t)f(p(t))$ soit $\mu$-intégrable ; il résulte alors de (2), du th. 1 du chap. V, § 3, no 4 et du th. 1 du chap. V, § 5, no 3 que, pour presque tout $b \in B$, $g$ est intégrable pour $\lambda_b$, que la fonction (définie presque partout)
 $$
 b \to \int g(t)d\lambda_b(t)
 $$

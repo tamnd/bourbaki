@@ -32,11 +32,11 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: 5edc057b72dfc6e18d2c1bcc045019d820cf890d474142c1622bdb822644be92
+content_sha256: 8174a562908b8b3e4080452fd955f51d15397dd093d161bb7eae58b7aaf0d814
 translated_from: content/fr/alg/IX/09_s9_algebres_de_clifford.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 6bbb50da9d0318bb8d28a2c9f7f2a56eaa3ceed853091c76b7f18d3d2ceca000
+source_content_sha256: c43c0a30a8fa0a2a37c54b6842de0c441a6c3dbc3ee3d0fbff2fbb8361a536d9
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-43da8062
 glossary_version: 34
@@ -375,11 +375,11 @@ c) If $\dim(E)$ is even, one has $\varphi(G) = O(Q)$, $\varphi(G^+)$ is of index
 
 d) If $\dim(E)$ is odd (which implies that $A$ is of characteristic $\neq 2$), one has $\varphi(G) = \varphi(G^+) = SO(Q)$.
 
-Indeed, one has $Q(sxs^{-1}) = (sxs^{-1})^2 = sx^2 s^{-1} = Q(x)$ for $s \in G$ and $x \in E$, which shows that $\varphi(s) \in O(Q)$. For $\varphi(s) = 1$ to hold, it is necessary and sufficient that $s$ commute with the elements of $E$, that is to say, belong to the center $Z$ of $C(Q)$. This proves $a)$.
+Indeed, one has $Q(sxs^{-1}) = (sxs^{-1})^2 = sx^2 s^{-1} = Q(x)$ for $s \in G$ and $x \in E$, which shows that $\varphi(s) \in O(Q)$. For $\varphi(s) = 1$ to hold, it is necessary and sufficient that $s$ commute with the elements of $E$, that is to say, belong to the center $Z$ of $C(Q)$. This proves a).
 
 For an element $x$ of $E$ to belong to $G$, it is necessary that it be invertible, that is to say, that it be a nonsingular vector (since $x^2 = Q(x)$). If this is so, one has $x^{-1} = Q(x)^{-1} x$, whence, for every $y \in E$,
 $$ xy x^{-1} = Q(x)^{-1} xy x = Q(x)^{-1} x (\Phi(x, y) - xy) = - (y - \Phi(x, y) Q(x)^{-1} x); $$
-this proves $b)$ (\S 6, no 4).
+this proves b) (\S 6, no 4).
 
 #### Lemma 5 {#alg-ix-s9-lem-5 .statement}
 
@@ -419,7 +419,7 @@ In what case does this result apply when $A$ is a field of characteristic $\neq 
 
 3) a) With the notation of No. 2, let $x_i$ ($1 \leqslant i \leqslant n$) be elements of $E$ such that $f(x_i) = 0$; show that we have $i_f(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = 0$. In particular, if $F$ is a bilinear form on $E$ such that $F(x_i, x_j) = 0$ for $i > j$, we have $i_F^E(x_2 \otimes x_3 \otimes \cdots \otimes x_n) = 0$.
 
-b) With the notation of Prop. 3 of No. 3, let $x_i$ ($1 \leqslant i \leqslant n$) be elements of $E$ such that $F(x_i, x_j) = 0$ for $i > j$. Show that we have $\overline{\lambda}_F(\rho_{Q'}(x_1) \ldots \rho_{Q'}(x_n)) = \rho_Q(x_1) \ldots \rho_Q(x_n)$ (use $a)$ and formula (10) of No. 2).
+b) With the notation of Prop. 3 of No. 3, let $x_i$ ($1 \leqslant i \leqslant n$) be elements of $E$ such that $F(x_i, x_j) = 0$ for $i > j$. Show that we have $\overline{\lambda}_F(\rho_{Q'}(x_1) \ldots \rho_{Q'}(x_n)) = \rho_Q(x_1) \ldots \rho_Q(x_n)$ (use a) and formula (10) of No. 2).
 
 c) We suppose that $A$ is a field of characteristic $\neq 2$; for every quadratic form $Q$ on $E$, let $\mu_Q$ be the mapping $\overline{\lambda}_F$ of $C(Q)$ onto $\wedge E$ corresponding to $F(x, y) = \frac{1}{2} \Phi(x, y)$. Now prove that if the vectors $x_i$ ($1 \leqslant i \leqslant n$) are pairwise orthogonal, one has
 $$
@@ -549,20 +549,20 @@ a) Prove that if $\tilde{\Delta} = \tilde{\Delta}_1$ and if the Clifford algebra
 
 (a) Now prove that $C^+(Q)$ is isomorphic to a quaternion algebra over $A$ and that $\beta$ is the antiautomorphism $z \mapsto \bar{z}$ of this algebra whose set of invariants is the center of $C^+(Q)$; if $P$ is the subspace of $C^+(Q)$ formed by the pure quaternions (that is, such that $z = -\bar{z}$; chap. VIII, § 11, Exercise 6), the restriction to $P$ of the quadratic form $z \mapsto z \bar{z}$ is equivalent to $\lambda Q$, where $\lambda \in A$. Deduce that, in order that $C^+(Q)$ be a field, it is necessary and sufficient that $Q$ have index 0.
 
-(b) Now prove that if $\tilde{\Delta} = \tilde{\Delta}_1$ and if the Clifford algebras $C(Q)$ and $C(Q_1)$ are isomorphic, $Q$ and $Q_1$ are equivalent. (Consider first the case where $-\Delta$ is a square in $K$, and show that in this case $C^+(Q)$ and $C^+(Q_1)$ are isomorphic; then reason as in Exercise 14 $a)$, using $a)$ and Exercise 6 of chap. VIII, § 11. In the general case, use Exercise 12 $a))$.
+(b) Now prove that if $\tilde{\Delta} = \tilde{\Delta}_1$ and if the Clifford algebras $C(Q)$ and $C(Q_1)$ are isomorphic, $Q$ and $Q_1$ are equivalent. (Consider first the case where $-\Delta$ is a square in $K$, and show that in this case $C^+(Q)$ and $C^+(Q_1)$ are isomorphic; then reason as in Exercise 14 a), using a) and Exercise 6 of chap. VIII, § 11. In the general case, use Exercise 12 $a))$.
 
 (c) Now prove that the special Clifford group $G^+$ (for the form $Q$) is identical with the group of invertible elements of $C^+(Q)$. (If $(e_1, e_2, e_3)$ is an orthogonal basis of $E$, and if $j = e_1 e_2 e_3$ in $C(Q)$, observe that $x \to xj$ is an isomorphism of vector spaces of $E$ onto $P$).
 
-(d) Deduce from $a)$ and $c)$ that if $Q$ has index 1, the group of rotations $O^+(Q)$ is isomorphic to the projective group $\mathbf{PGL}_2(A)$ (chap. II, 2e éd., App. III, No. 6).
+(d) Deduce from a) and c) that if $Q$ has index 1, the group of rotations $O^+(Q)$ is isomorphic to the projective group $\mathbf{PGL}_2(A)$ (chap. II, 2e éd., App. III, No. 6).
 
 ¶ 16) We retain the general hypotheses and notation of Exercise 14, but suppose $n = 4$.
 
-$a)$ Give an example where $\tilde{\Delta} = \tilde{\Delta}_1$ and where $C(Q)$ and $C(Q_1)$ are isomorphic, but where $Q$ and $Q_1$ are not equivalent (cf. exerc. 7).
+a) Give an example where $\tilde{\Delta} = \tilde{\Delta}_1$ and where $C(Q)$ and $C(Q_1)$ are isomorphic, but where $Q$ and $Q_1$ are not equivalent (cf. exerc. 7).
 
-$b)$ Let $(e_i)_{1 \leq i \leq 4}$ be an orthogonal basis of $E$ for $Q$, $Q_0$ the restriction of $Q$ to the hyperplane $H = Ae_1 + Ae_2 + Ae_3$. Now prove that, if $Z$ is the center of $C^+(Q)$, the algebra $C^+(Q)$ is isomorphic to the tensor product $Z \otimes_A C^+(Q_0)$. For all $z \in C^+(Q)$, one has $\beta(z)z \in Z$; for $z$ to belong to the special Clifford group $G^+$, it is necessary and sufficient that $z$ be invertible and that $\beta(z)z \in A.1$. Deduce that the group $O_0^+(Q)$ is isomorphic to the quotient by $\{1, -1\}$ of the group of elements $z \in Z \otimes_A C^+(Q_0)$ such that $\beta(z)z = 1$.
+b) Let $(e_i)_{1 \leq i \leq 4}$ be an orthogonal basis of $E$ for $Q$, $Q_0$ the restriction of $Q$ to the hyperplane $H = Ae_1 + Ae_2 + Ae_3$. Now prove that, if $Z$ is the center of $C^+(Q)$, the algebra $C^+(Q)$ is isomorphic to the tensor product $Z \otimes_A C^+(Q_0)$. For all $z \in C^+(Q)$, one has $\beta(z)z \in Z$; for $z$ to belong to the special Clifford group $G^+$, it is necessary and sufficient that $z$ be invertible and that $\beta(z)z \in A.1$. Deduce that the group $O_0^+(Q)$ is isomorphic to the quotient by $\{1, -1\}$ of the group of elements $z \in Z \otimes_A C^+(Q_0)$ such that $\beta(z)z = 1$.
 
-$c)$ Assume that $\Delta$ is not a square in $A$ (which implies, by virtue of Witt's theorem, that the index of $Q$ is 0 or 1). If $Q_0'$ is the quadratic form obtained from $Q_0$ by extension to $A' = A(\sqrt{\Delta})$ of the field of scalars, deduce from $b)$ that $O_0^+(Q)$ is isomorphic to $O_0^+(Q_0')$. In particular, if $Q$ has index 1, $O_0^+(Q)$ is the group of commutators of $O(Q)$ and is isomorphic to $\mathbf{PSL}_2(A')$ (cf. exerc. 15 $d$) and chap. III, § 7, exerc. 8).
+c) Assume that $\Delta$ is not a square in $A$ (which implies, by virtue of Witt's theorem, that the index of $Q$ is 0 or 1). If $Q_0'$ is the quadratic form obtained from $Q_0$ by extension to $A' = A(\sqrt{\Delta})$ of the field of scalars, deduce from b) that $O_0^+(Q)$ is isomorphic to $O_0^+(Q_0')$. In particular, if $Q$ has index 1, $O_0^+(Q)$ is the group of commutators of $O(Q)$ and is isomorphic to $\mathbf{PSL}_2(A')$ (cf. exerc. 15 $d$) and chap. III, § 7, exerc. 8).
 
-$d)$ We suppose that $\Delta$ is a square in $A$ (which implies, by virtue of Witt’s theorem, that $Q$ is of index 0 or 2) and that $Q(e_4) = 1$. If we put $j = e_1 e_2 e_3$, every $x \in E$ can be written in one and only one way $x = \alpha e_4 + jz$, where $\alpha \in A$ and $z$ is a pure quaternion (Exercise 15 $a$)) in $L = C^+(Q_0)$; if we put $\psi(x) = \alpha + z$, $\psi$ is an isomorphism of vector spaces from $E$ onto $L$. Let $Z = Ac' + Ac''$, where $c'$ and $c''$ are the two orthogonal idempotents in $Z$; every invertible element $s \in C^+(Q)$ can be written in one and only one way $s = uc' + vc''$, where $u$ and $v$ belong to $L$; for $s$ to belong to the special Clifford group $G^+$, it is necessary and sufficient that $u \bar{u} = v \bar{v}$, and we then have $\psi(sxs^{-1}) = u \psi(x) v^{-1}$ for every $x \in E$. Deduce that the quotient of $O_0^+(Q)$ by its center (which is a group with 2 elements, cf. Exercise 11 $c$)) is isomorphic to the product $O_0^+(Q_0) \times O_0^+(Q_0)$; in particular, if $Q$ is of index 2, this quotient group is isomorphic to $\mathbf{PSL}_2(A) \times \mathbf{PSL}_2(A)$.
+d) We suppose that $\Delta$ is a square in $A$ (which implies, by virtue of Witt’s theorem, that $Q$ is of index 0 or 2) and that $Q(e_4) = 1$. If we put $j = e_1 e_2 e_3$, every $x \in E$ can be written in one and only one way $x = \alpha e_4 + jz$, where $\alpha \in A$ and $z$ is a pure quaternion (Exercise 15 $a$)) in $L = C^+(Q_0)$; if we put $\psi(x) = \alpha + z$, $\psi$ is an isomorphism of vector spaces from $E$ onto $L$. Let $Z = Ac' + Ac''$, where $c'$ and $c''$ are the two orthogonal idempotents in $Z$; every invertible element $s \in C^+(Q)$ can be written in one and only one way $s = uc' + vc''$, where $u$ and $v$ belong to $L$; for $s$ to belong to the special Clifford group $G^+$, it is necessary and sufficient that $u \bar{u} = v \bar{v}$, and we then have $\psi(sxs^{-1}) = u \psi(x) v^{-1}$ for every $x \in E$. Deduce that the quotient of $O_0^+(Q)$ by its center (which is a group with 2 elements, cf. Exercise 11 $c$)) is isomorphic to the product $O_0^+(Q_0) \times O_0^+(Q_0)$; in particular, if $Q$ is of index 2, this quotient group is isomorphic to $\mathbf{PSL}_2(A) \times \mathbf{PSL}_2(A)$.
 
 17) Let K be a commutative field of characteristic $\neq 2$, $A$ the field $K(X_n)_{n \in \mathbf{N}}$ of rational fractions over K, with respect to a countable family of indeterminates (Chapter IV, § 3, No. 1). Let E be a vector space over A, having a countable basis $(e_n)_{n \in \mathbf{N}}$, and let $\Phi$ be a symmetric bilinear form on E, for which $(e_n)$ is an orthogonal basis and such that $\Phi(e_n, e_n) = X_n$ for every $n \in \mathbf{N}$. If we put $Q(x) = \Phi(x, x)$, show that the Clifford algebra C(Q) is a field (cf. Chapter VIII, § 12, Exercise 14).

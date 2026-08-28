@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 77
 exercises: 30
-content_sha256: 5ba3ee0d2c7ca413203f603333c5f208a79c2fec56e11ffba7dccd4184fea742
+content_sha256: 401bb48c84dc89cc3ef03469db1c681fb6e60a729428a2fb81353c94d344070c
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
 source_content_sha256: 3f175377897ccedfa96de56dfcfb6acce32206426b0261e76bfacb02aa00d38a
 translation_model: gpt-5.4-mini
@@ -553,9 +553,9 @@ b) Với mọi tập con compact $K_0$ của $A$ và mọi $\varepsilon > 0$, t�
 c) Với mọi tập con compact $B$ của $A$, tồn tại một phân hoạch của $B$ được tạo bởi một tập hợp $N$ không đáng kể theo $\mu$ và một dãy $(H_n)$ các tập hợp compact thuộc $\mathcal{K}$.
 d) Với mọi tập con compact $B$ của $A$, tồn tại một dãy tăng $(K_n)$ các tập hợp compact thuộc $\mathcal{K}$, nằm trong $B$ và sao cho tập hợp $N = B - \bigcup_n K_n$ là không đáng kể theo $\mu$.
 
-Hiển nhiên (No. 2, Mệnh đề 5) rằng $d)$ suy ra $a); c)$ suy ra $d)$ khi lấy $K_n$ là hợp của các $H_p$ với $p \leq n$ và viện dẫn (PLII). Để chứng minh rằng $b)$ suy ra $c)$, ta định nghĩa đệ quy một dãy $(H_p)$ các tập hợp thuộc $\mathcal{K}$ sao cho $H_{n+1} \subset B - \bigcup_{p \leq n} H_p$ và $|\mu|(B - \bigcup_{p \leq n} H_p) \leq 1/n$ (\S 4, No. 6, Th. 4).
+Hiển nhiên (No. 2, Mệnh đề 5) rằng d) suy ra $a); c)$ suy ra d) khi lấy $K_n$ là hợp của các $H_p$ với $p \leq n$ và viện dẫn (PLII). Để chứng minh rằng b) suy ra c), ta định nghĩa đệ quy một dãy $(H_p)$ các tập hợp thuộc $\mathcal{K}$ sao cho $H_{n+1} \subset B - \bigcup_{p \leq n} H_p$ và $|\mu|(B - \bigcup_{p \leq n} H_p) \leq 1/n$ (\S 4, No. 6, Th. 4).
 
-Còn lại phải chứng minh rằng $a)$ suy ra $b)$. Ta lập luận bằng phản chứng, và giả sử rằng cận trên $\alpha$ của các số $|\mu|(K)$, trong đó $K$ chạy qua tập hợp các tập con của $K_0$ thuộc $\mathcal{K}$, là $< |\mu|(K_0)$. Theo (PLII), tồn tại một dãy tăng $(L_n)$ gồm các tập con compact của $K_0$, thuộc $\mathcal{K}$ và thỏa mãn $\sup_n |\mu|(L_n) = \alpha$. Đặt $B = \bigcup_n L_n$; $B$ khả tích và $|\mu|(B) = \alpha$, do đó $|\mu|(K_0 - B) = |\mu|(K_0) - \alpha > 0$. Mặt khác, ta sẽ thấy rằng với mọi tập $K \in \mathcal{K}$, $|\mu|(K \cap (K_0 - B)) = 0$, điều này, do $a)$, sẽ suy ra mâu thuẫn. Thật vậy, nếu tồn tại một tập $K \in \mathcal{K}$ sao cho $|\mu|(K \cap (K_0 - B)) > 0$, thì sẽ tồn tại một tập con compact $H$ của $K \cap (K_0 - B)$ sao cho $|\mu|(H) > 0$. Theo (PLI), ta có $H \in \mathcal{K}$, và, với $n$ đủ lớn,
+Còn lại phải chứng minh rằng a) suy ra b). Ta lập luận bằng phản chứng, và giả sử rằng cận trên $\alpha$ của các số $|\mu|(K)$, trong đó $K$ chạy qua tập hợp các tập con của $K_0$ thuộc $\mathcal{K}$, là $< |\mu|(K_0)$. Theo (PLII), tồn tại một dãy tăng $(L_n)$ gồm các tập con compact của $K_0$, thuộc $\mathcal{K}$ và thỏa mãn $\sup_n |\mu|(L_n) = \alpha$. Đặt $B = \bigcup_n L_n$; $B$ khả tích và $|\mu|(B) = \alpha$, do đó $|\mu|(K_0 - B) = |\mu|(K_0) - \alpha > 0$. Mặt khác, ta sẽ thấy rằng với mọi tập $K \in \mathcal{K}$, $|\mu|(K \cap (K_0 - B)) = 0$, điều này, do a), sẽ suy ra mâu thuẫn. Thật vậy, nếu tồn tại một tập $K \in \mathcal{K}$ sao cho $|\mu|(K \cap (K_0 - B)) > 0$, thì sẽ tồn tại một tập con compact $H$ của $K \cap (K_0 - B)$ sao cho $|\mu|(H) > 0$. Theo (PLI), ta có $H \in \mathcal{K}$, và, với $n$ đủ lớn,
 
 $$
 |\mu|(L_n \cup H) = |\mu|(L_n) + |\mu|(H) > \alpha .
@@ -621,7 +621,7 @@ c) Tồn tại một phép đồng phôi $j$ của $F$ lên một không gian co
 
 d) Mọi mở rộng của $f$ thành một ánh xạ của $X$ vào $F$, hằng trên $X - A$, đều là $\mu$-đo được.
 
-Rõ ràng là $a)$ suy ra $b)$ và rằng $d)$ suy ra $c)$. Việc $c)$ suy ra $a)$ theo từ điều kiện $c)$ của Mệnh đề 12 của No. 8. Mặt khác, $b)$ suy ra $a)$: vì, Định nghĩa 1 cho thấy rằng, với mỗi $K \in \mathcal{K}$, tập hợp các tập con $H \in \mathcal{H}$ được chứa trong $K$ là $\mu_K$-trù mật trong $K$ (No. 8, Mệnh đề 12, $c$) ), và Mệnh đề 13 của No. 8 cho thấy rằng $\mathcal{H}$ là $\mu$-trù mật trong $A$. Còn lại phải chứng minh rằng $a)$ suy ra $d)$. Cho $g$ là một mở rộng của $f$ lên $X$, hằng trên $X - A$. Với mọi tập compact $L$ của $X$, $L \cap A$ và $L \cap (X - A)$ là $\mu$-khả tích; do đó, với mọi $\varepsilon > 0$, tồn tại một tập compact $P \subset L \cap A$ và một tập compact $Q \subset L \cap (X - A)$ sao cho
+Rõ ràng là a) suy ra b) và rằng d) suy ra c). Việc c) suy ra a) theo từ điều kiện c) của Mệnh đề 12 của No. 8. Mặt khác, b) suy ra a): vì, Định nghĩa 1 cho thấy rằng, với mỗi $K \in \mathcal{K}$, tập hợp các tập con $H \in \mathcal{H}$ được chứa trong $K$ là $\mu_K$-trù mật trong $K$ (No. 8, Mệnh đề 12, $c$) ), và Mệnh đề 13 của No. 8 cho thấy rằng $\mathcal{H}$ là $\mu$-trù mật trong $A$. Còn lại phải chứng minh rằng a) suy ra d). Cho $g$ là một mở rộng của $f$ lên $X$, hằng trên $X - A$. Với mọi tập compact $L$ của $X$, $L \cap A$ và $L \cap (X - A)$ là $\mu$-khả tích; do đó, với mọi $\varepsilon > 0$, tồn tại một tập compact $P \subset L \cap A$ và một tập compact $Q \subset L \cap (X - A)$ sao cho
 
 $$
 |\mu|((L \cap A) - P) \leq \varepsilon/4 \quad \text{và} \quad |\mu|\left((L \cap (X - A)) - Q\right) \leq \varepsilon/4.
@@ -639,13 +639,13 @@ Nếu $A$ là địa phương $\mu$-không đáng kể, thì *mọi* ánh xạ c
 
 *Cho $X$ là một không gian compact địa phương, $\mu$ là một độ đo trên $X$, $A$ là một tập con $\mu$-đo được của $X$, và $f$ là một ánh xạ $\mu$-đo được của $A$ vào một không gian tôpô $F$. Cho $\mathcal{K}$ là một tập hợp các tập con compact của $X$, $\mu$-trù mật trong $X$. Khi đó, tồn tại một phân hoạch của $A$ gồm một tập không đáng kể địa phương $N$ và một họ đếm được địa phương $(K_\lambda)_{\lambda \in L}$ các tập hợp $K_\lambda \in \mathcal{K}$, sao cho $f|K_\lambda$ liên tục với mọi $\lambda \in L$.*
 
-Xét theo No. 9, Mệnh đề 14, chỉ cần chứng minh rằng tập hợp $\mathcal{H} \subset \mathcal{K}$ gồm các tập con $K \in \mathcal{K}$ sao cho $K \subset A$ và $f|K$ liên tục, là $\mu$-trù mật trong $A$. Bây giờ, suy ra ngay từ Mệnh đề 1 của No. 1 và điều kiện $d)$ của Mệnh đề 15 rằng, với mọi tập con compact $K_0$ của $A$ và mọi $\varepsilon > 0$, tồn tại một tập con $K \subset K_0$ thuộc $\mathcal{K}$ sao cho $|\mu|(K_0 - K) \leq \varepsilon$ và $f|K$ liên tục; do đó kết luận suy ra từ Mệnh đề 12 của No. 8.
+Xét theo No. 9, Mệnh đề 14, chỉ cần chứng minh rằng tập hợp $\mathcal{H} \subset \mathcal{K}$ gồm các tập con $K \in \mathcal{K}$ sao cho $K \subset A$ và $f|K$ liên tục, là $\mu$-trù mật trong $A$. Bây giờ, suy ra ngay từ Mệnh đề 1 của No. 1 và điều kiện d) của Mệnh đề 15 rằng, với mọi tập con compact $K_0$ của $A$ và mọi $\varepsilon > 0$, tồn tại một tập con $K \subset K_0$ thuộc $\mathcal{K}$ sao cho $|\mu|(K_0 - K) \leq \varepsilon$ và $f|K$ liên tục; do đó kết luận suy ra từ Mệnh đề 12 của No. 8.
 
 #### Hệ quả 2 {#int-iv-s5-def-8-cor-2 .statement}
 
 *Cho $K$ là một không gian con compact của $X$; để một ánh xạ $f$ của $K$ vào một không gian tôpô $F$ là $\mu$-đo được, điều kiện cần và đủ là nó $\mu_K$-đo được.*
 
-Xét theo Bổ đề 2 của No. 7, điều này suy ra ngay từ Mệnh đề 1 của No. 1 và điều kiện $a)$ của Mệnh đề 15.
+Xét theo Bổ đề 2 của No. 7, điều này suy ra ngay từ Mệnh đề 1 của No. 1 và điều kiện a) của Mệnh đề 15.
 
 #### Mệnh đề 16 {#int-iv-s5-prop-16 .statement}
 
@@ -655,9 +655,9 @@ Chúng ta đã nhận thấy (No. 9) rằng $B$ là $\mu$-khả đo. Điều ki�
 $$
 C_n = K \cap A_n \cap \mathbf{C}\left( \bigcup_{i < n} C_i \right)
 $$
-với $n > 0$, sao cho các $C_n$ khác rỗng lập thành một phân hoạch của $K$ thành các tập hợp $\mu$-tích phân được. Do hạn chế của $f$ trên $C_n$ là $\mu$-khả đo, tồn tại một phân hoạch của $C_n$ gồm một tập hợp $\mu$-không đáng kể $N_n$ và một dãy $(L_{mn})_{m \geq 0}$ các tập compact sao cho $f|L_{mn}$ liên tục. Vì $N = \bigcup_n N_n$ là $\mu$-không đáng kể, ta thấy rằng điều kiện $a)$ của Mệnh đề 15 được thỏa mãn, do đó suy ra mệnh đề.
+với $n > 0$, sao cho các $C_n$ khác rỗng lập thành một phân hoạch của $K$ thành các tập hợp $\mu$-tích phân được. Do hạn chế của $f$ trên $C_n$ là $\mu$-khả đo, tồn tại một phân hoạch của $C_n$ gồm một tập hợp $\mu$-không đáng kể $N_n$ và một dãy $(L_{mn})_{m \geq 0}$ các tập compact sao cho $f|L_{mn}$ liên tục. Vì $N = \bigcup_n N_n$ là $\mu$-không đáng kể, ta thấy rằng điều kiện a) của Mệnh đề 15 được thỏa mãn, do đó suy ra mệnh đề.
 
-Tính chất $d)$ của Mệnh đề 15 cho phép ngay lập tức khái quát hóa các tính chất của các hàm khả đo xác định trên toàn bộ $X$, đã nhận thấy ở các No. 2 đến 5, sang các hàm khả đo xác định trên một tập con khả đo $A$ của $X$; những sự khái quát hóa này để lại cho bạn đọc. Chúng tôi chỉ nêu tường minh rằng nguyên lý địa phương hóa (Số 2, Mệnh đề 4) vẫn đúng khi giả sử rằng mỗi hàm $g_x$ chỉ được xác định trong $V_x$ (hoặc hầu khắp nơi trong $V_x$) và là khả đo.
+Tính chất d) của Mệnh đề 15 cho phép ngay lập tức khái quát hóa các tính chất của các hàm khả đo xác định trên toàn bộ $X$, đã nhận thấy ở các No. 2 đến 5, sang các hàm khả đo xác định trên một tập con khả đo $A$ của $X$; những sự khái quát hóa này để lại cho bạn đọc. Chúng tôi chỉ nêu tường minh rằng nguyên lý địa phương hóa (Số 2, Mệnh đề 4) vẫn đúng khi giả sử rằng mỗi hàm $g_x$ chỉ được xác định trong $V_x$ (hoặc hầu khắp nơi trong $V_x$) và là khả đo.
 
 ### 11. Hội tụ theo độ đo
 

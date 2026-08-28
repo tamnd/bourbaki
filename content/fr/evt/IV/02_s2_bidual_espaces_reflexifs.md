@@ -33,7 +33,7 @@ subsections:
       pdf_page: 204
 statements: 31
 exercises: 21
-content_sha256: 1792de3b3eac570386dd901c16a5b1279b22a37c6267f5680bf00969504ab474
+content_sha256: 97a8807e4fe31ace98597312ec287b1cba29695327dc1d924cc16612e52c2e40
 ---
 
 ## § 2. BIDUAL. ESPACES RÉFLEXIFS
@@ -266,7 +266,7 @@ a) Aucun des ensembles $C_m$ n’est dénombrable.
 b) Pour tout $m \geq 0$, l’ensemble $\operatorname{pr}_k(C_m)$ est borné dans $F_k$ pour $0 \leq k \leq m$.
 c) On a $x_m \in C_m - C_{m+1}$ pour tout $m \geq 0$.
 
-On pose $C_0 = A$. Supposons définis les ensembles $C_m$ pour $0 \leq m \leq n$, satisfaisant à $a)$ et $b)$ pour $0 \leq m \leq n$, et les points $x_m$ de $C_m - C_{m+1}$ pour $0 \leq m < n$.
+On pose $C_0 = A$. Supposons définis les ensembles $C_m$ pour $0 \leq m \leq n$, satisfaisant à a) et b) pour $0 \leq m \leq n$, et les points $x_m$ de $C_m - C_{m+1}$ pour $0 \leq m < n$.
 Pour tout entier $r \geq 1$, soit $C_{n,r}$ l’ensemble des $x \in C_n$ tels que
 $$
 r - 1 \leq \| \operatorname{pr}_{n+1}(x) \| < r .

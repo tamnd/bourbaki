@@ -36,7 +36,7 @@ subsections:
       pdf_page: 13
 statements: 24
 exercises: 12
-content_sha256: 8eecf5d7c68dd67423c45d39069050c72af6bf0f079d3f72783eeb604a02965b
+content_sha256: 22da2cbed45b4318678470dd7c4d3b005e983ff04abf7ebf7469adeb16a4c033
 ---
 
 ## § 1. Bigèbre enveloppante d’une algèbre de Lie
@@ -368,7 +368,7 @@ $$
 (\eta \otimes \eta)(c_S(x^n)) = c(\eta(x^n)).
 $$
 Comme les $x^n$, pour $x \in g$ et $n \in \mathbf{N}$, engendrent l’espace vectoriel $S(g)$, on a $(\eta \otimes \eta) \circ c_S = c \circ \eta$, et $\eta$ est un isomorphisme de cogèbres.
-Par ailleurs, la formule (10) montre que $\eta(S^n(g)) = U^n$, ce qui achève de démontrer $a)$ et $b)$ compte tenu de ce que la graduation de $S(g)$ est compatible avec sa structure de cogèbre.
+Par ailleurs, la formule (10) montre que $\eta(S^n(g)) = U^n$, ce qui achève de démontrer a) et b) compte tenu de ce que la graduation de $S(g)$ est compatible avec sa structure de cogèbre.
 
 La graduation $(U^n)_{n \geqslant 0}$ de $U$ est appelée graduation canonique.
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: 3b27ac1705ebcf95a16ed8b6b608129fa4bec0f84f87d8f7fe393803daee09c2
+content_sha256: 35554ce234a74fedcfcbc63f30d7c781ed0bae0cd26de430a50d4b554e69cbff
 ---
 
 ## § 6. Valeurs absolues.
@@ -113,7 +113,7 @@ b) Il existe une valuation $v$ de $K$, à valeurs dans $\mathbf{R}$, et un nombr
 c) $f$ appartient à $\mathcal{V}(K)$ et l’on a $f(n.1) \leq 1$ pour tout entier $n > 0$.
 
 d) Pour tout $s > 0$, $f^s$ est une valeur absolue.
-Pour tout nombre réel $c$ tel que $0 < c < 1$, l’application $t \to c^t$ est un isomorphisme du groupe ordonné $\mathbf{R}$ (muni de l’ordre opposé à l’ordre usuel) sur le groupe ordonné $\mathbf{R}_+^*$; cela montre l’équivalence de $a)$ et $b)$. Il est clair que $a)$ implique $c);$ $c)$ entraîne $d)$, car on déduit de $c)$ que $(f(n.1))^s \leqslant 1 \leqslant n$ pour tout entier $n > 0$ et la prop. 2 du no 1 montre que $f^s$ est une valeur absolue. Enfin $d)$ entraîne $a)$: en effet, si $f^s$ est une valeur absolue, elle vérifie $(\mathrm{U}_2)$, donc $f$ vérifie $\mathrm{U}_{2^{1/s}}$ pour tout $s > 0$, et par suite aussi $(\mathrm{U}_1)$ en faisant tendre $s$ vers $+ \infty$.
+Pour tout nombre réel $c$ tel que $0 < c < 1$, l’application $t \to c^t$ est un isomorphisme du groupe ordonné $\mathbf{R}$ (muni de l’ordre opposé à l’ordre usuel) sur le groupe ordonné $\mathbf{R}_+^*$; cela montre l’équivalence de a) et b). Il est clair que a) implique $c);$ c) entraîne d), car on déduit de c) que $(f(n.1))^s \leqslant 1 \leqslant n$ pour tout entier $n > 0$ et la prop. 2 du no 1 montre que $f^s$ est une valeur absolue. Enfin d) entraîne a): en effet, si $f^s$ est une valeur absolue, elle vérifie $(\mathrm{U}_2)$, donc $f$ vérifie $\mathrm{U}_{2^{1/s}}$ pour tout $s > 0$, et par suite aussi $(\mathrm{U}_1)$ en faisant tendre $s$ vers $+ \infty$.
 
 #### Corollaire {#ac-vi-s6-n2-cor-1 .statement}
 

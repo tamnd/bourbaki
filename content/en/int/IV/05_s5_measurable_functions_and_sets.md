@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 77
 exercises: 30
-content_sha256: b315905b6070e219d92537242dbaa4592ee9388b21a0536d0b7ae9ae05386b65
+content_sha256: 5871ff8637ee96bfccb24d1226b533b92d9e2db4910b9bd204a634cd832a040f
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
@@ -546,9 +546,9 @@ b) For every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exis
 c) For every compact subset $B$ of $A$, there exists a partition of $B$ formed by a $\mu$-negligible set $N$ and a sequence $(H_n)$ of compact sets belonging to $\mathcal{K}$.
 d) For every compact subset $B$ of $A$, there exists an increasing sequence $(K_n)$ of compact sets belonging to $\mathcal{K}$, contained in $B$ and such that the set $N = B - \bigcup_n K_n$ is $\mu$-negligible.
 
-It is immediate (No. 2, Prop. 5) that $d)$ implies $a); c)$ implies $d)$ on taking $K_n$ to be the union of the $H_p$ for $p \leq n$ and citing (PLII). To prove that $b)$ implies $c)$, one defines recursively a sequence $(H_p)$ of sets of $\mathcal{K}$ such that $H_{n+1} \subset B - \bigcup_{p \leq n} H_p$ and $|\mu|(B - \bigcup_{p \leq n} H_p) \leq 1/n$ (\S 4, No. 6, Th. 4).
+It is immediate (No. 2, Prop. 5) that d) implies $a); c)$ implies d) on taking $K_n$ to be the union of the $H_p$ for $p \leq n$ and citing (PLII). To prove that b) implies c), one defines recursively a sequence $(H_p)$ of sets of $\mathcal{K}$ such that $H_{n+1} \subset B - \bigcup_{p \leq n} H_p$ and $|\mu|(B - \bigcup_{p \leq n} H_p) \leq 1/n$ (\S 4, No. 6, Th. 4).
 
-It remains to prove that $a)$ implies $b)$. Let us argue by contradiction, and suppose that the supremum $\alpha$ of the numbers $|\mu|(K)$, where $K$ runs over the set of subsets of $K_0$ belonging to $\mathcal{K}$, is $< |\mu|(K_0)$. By (PLII), there exists an increasing sequence $(L_n)$ of compact subsets of $K_0$, belonging to $\mathcal{K}$ and such that $\sup_n |\mu|(L_n) = \alpha$. Set $B = \bigcup_n L_n$; $B$ is integrable and $|\mu|(B) = \alpha$, therefore $|\mu|(K_0 - B) = |\mu|(K_0) - \alpha > 0$. On the other hand, we shall see that for every set $K \in \mathcal{K}$, $|\mu|(K \cap (K_0 - B)) = 0$, which, by virtue of $a)$, will imply a contradiction. Indeed, if there existed a set $K \in \mathcal{K}$ such that $|\mu|(K \cap (K_0 - B)) > 0$, then there would exist a compact subset $H$ of $K \cap (K_0 - B)$ such that $|\mu|(H) > 0$. By (PLI), we would have $H \in \mathcal{K}$, and, for $n$ sufficiently large,
+It remains to prove that a) implies b). Let us argue by contradiction, and suppose that the supremum $\alpha$ of the numbers $|\mu|(K)$, where $K$ runs over the set of subsets of $K_0$ belonging to $\mathcal{K}$, is $< |\mu|(K_0)$. By (PLII), there exists an increasing sequence $(L_n)$ of compact subsets of $K_0$, belonging to $\mathcal{K}$ and such that $\sup_n |\mu|(L_n) = \alpha$. Set $B = \bigcup_n L_n$; $B$ is integrable and $|\mu|(B) = \alpha$, therefore $|\mu|(K_0 - B) = |\mu|(K_0) - \alpha > 0$. On the other hand, we shall see that for every set $K \in \mathcal{K}$, $|\mu|(K \cap (K_0 - B)) = 0$, which, by virtue of a), will imply a contradiction. Indeed, if there existed a set $K \in \mathcal{K}$ such that $|\mu|(K \cap (K_0 - B)) > 0$, then there would exist a compact subset $H$ of $K \cap (K_0 - B)$ such that $|\mu|(H) > 0$. By (PLI), we would have $H \in \mathcal{K}$, and, for $n$ sufficiently large,
 
 $$
 |\mu|(L_n \cup H) = |\mu|(L_n) + |\mu|(H) > \alpha .
@@ -618,7 +618,7 @@ c) There exist a homeomorphism $j$ of $F$ onto a subspace of a topological space
 
 d) Every extension of $f$ to a mapping of $X$ into $F$, constant on $X - A$, is $\mu$-measurable.
 
-It is clear that $a)$ implies $b)$ and that $d)$ implies $c)$. The fact that $c)$ implies $a)$ follows from condition $c)$ of Prop. 12 of No. 8. On the other hand, $b)$ implies $a)$: for, Def. 1 shows that, for each $K \in \mathcal{K}$, the set of subsets $H \in \mathcal{H}$ contained in $K$ is $\mu_K$-dense in $K$ (No. 8, Prop. 12, $c$)), and Prop. 13 of No. 8 shows that $\mathcal{H}$ is $\mu$-dense in $A$. It remains to see that $a)$ implies $d)$. Let $g$ be an extension of $f$ to $X$, constant on $X - A$. For every compact subset $L$ of $X$, $L \cap A$ and $L \cap (X - A)$ are $\mu$-integrable; therefore, for every $\varepsilon > 0$, there exist a compact subset $P \subset L \cap A$ and a compact subset $Q \subset L \cap (X - A)$ such that
+It is clear that a) implies b) and that d) implies c). The fact that c) implies a) follows from condition c) of Prop. 12 of No. 8. On the other hand, b) implies a): for, Def. 1 shows that, for each $K \in \mathcal{K}$, the set of subsets $H \in \mathcal{H}$ contained in $K$ is $\mu_K$-dense in $K$ (No. 8, Prop. 12, $c$)), and Prop. 13 of No. 8 shows that $\mathcal{H}$ is $\mu$-dense in $A$. It remains to see that a) implies d). Let $g$ be an extension of $f$ to $X$, constant on $X - A$. For every compact subset $L$ of $X$, $L \cap A$ and $L \cap (X - A)$ are $\mu$-integrable; therefore, for every $\varepsilon > 0$, there exist a compact subset $P \subset L \cap A$ and a compact subset $Q \subset L \cap (X - A)$ such that
 
 $$
 |\mu|((L \cap A) - P) \leq \varepsilon/4 \quad \text{and} \quad |\mu|\left((L \cap (X - A)) - Q\right) \leq \varepsilon/4.
@@ -636,13 +636,13 @@ If $A$ is locally $\mu$-negligible, then *every* mapping of $A$ into $F$ is ther
 
 *Let $X$ be a locally compact space, $\mu$ a measure on $X$, $A$ a $\mu$-measurable subset of $X$, and $f$ a $\mu$-measurable mapping of $A$ into a topological space $F$. Let $\mathcal{K}$ be a set of compact subsets of $X$, $\mu$-dense in $X$. Then, there exists a partition of $A$ formed by a locally negligible set $N$ and a locally countable family $(K_\lambda)_{\lambda \in L}$ of sets $K_\lambda \in \mathcal{K}$, such that $f|K_\lambda$ is continuous for every $\lambda \in L$.
 
-In view of No. 9, Prop. 14, it suffices to show that the set $\mathcal{H} \subset \mathcal{K}$ of subsets $K \in \mathcal{K}$ such that $K \subset A$ and $f|K$ is continuous, is $\mu$-dense in $A$. Now, it follows at once from Prop. 1 of No. 1 and condition $d)$ of Prop. 15 that, for every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exists a subset $K \subset K_0$ belonging to $\mathcal{K}$ such that $|\mu|(K_0 - K) \leq \varepsilon$ and $f|K$ is continuous; the conclusion therefore follows from Prop. 12 of No. 8.
+In view of No. 9, Prop. 14, it suffices to show that the set $\mathcal{H} \subset \mathcal{K}$ of subsets $K \in \mathcal{K}$ such that $K \subset A$ and $f|K$ is continuous, is $\mu$-dense in $A$. Now, it follows at once from Prop. 1 of No. 1 and condition d) of Prop. 15 that, for every compact subset $K_0$ of $A$ and every $\varepsilon > 0$, there exists a subset $K \subset K_0$ belonging to $\mathcal{K}$ such that $|\mu|(K_0 - K) \leq \varepsilon$ and $f|K$ is continuous; the conclusion therefore follows from Prop. 12 of No. 8.
 
 #### Corollary 2 {#int-iv-s5-def-8-cor-2 .statement}
 
 *Let $K$ be a compact subspace of $X$; in order that a mapping $f$ of $K$ into a topological space $F$ be $\mu$-measurable, it is necessary and sufficient that it be $\mu_K$-measurable.*
 
-In view of Lemma 2 of No. 7, this follows at once from Prop. 1 of No. 1 and condition $a)$ of Prop. 15.
+In view of Lemma 2 of No. 7, this follows at once from Prop. 1 of No. 1 and condition a) of Prop. 15.
 
 #### Proposition 16 {#int-iv-s5-prop-16 .statement}
 
@@ -652,9 +652,9 @@ We have already observed (No. 9) that $B$ is $\mu$-measurable. The condition bei
 $$
 C_n = K \cap A_n \cap \mathbf{C}\left( \bigcup_{i < n} C_i \right)
 $$
-for $n > 0$, so that the nonempty $C_n$ form a partition of $K$ into $\mu$-integrable sets. Since the restriction of $f$ to $C_n$ is $\mu$-measurable, there exists a partition of $C_n$ formed by a $\mu$-negligible set $N_n$ and a sequence $(L_{mn})_{m \geq 0}$ of compact sets such that $f|L_{mn}$ is continuous. Since $N = \bigcup_n N_n$ is $\mu$-negligible, we see that condition $a)$ of Prop. 15 is satisfied, whence the proposition.
+for $n > 0$, so that the nonempty $C_n$ form a partition of $K$ into $\mu$-integrable sets. Since the restriction of $f$ to $C_n$ is $\mu$-measurable, there exists a partition of $C_n$ formed by a $\mu$-negligible set $N_n$ and a sequence $(L_{mn})_{m \geq 0}$ of compact sets such that $f|L_{mn}$ is continuous. Since $N = \bigcup_n N_n$ is $\mu$-negligible, we see that condition a) of Prop. 15 is satisfied, whence the proposition.
 
-Property $d)$ of Prop. 15 makes it possible to immediately generalize the properties of measurable functions defined on all of $X$, observed in Nos. 2 to 5, to measurable functions defined on a measurable subset $A$ of $X$; these generalizations are left to the reader. We only point out explicitly that the principle of localization (No. 2, Prop. 4) remains valid when it is assumed that each of the functions $g_x$ is only defined in $V_x$ (or almost everywhere in $V_x$) and is measurable.
+Property d) of Prop. 15 makes it possible to immediately generalize the properties of measurable functions defined on all of $X$, observed in Nos. 2 to 5, to measurable functions defined on a measurable subset $A$ of $X$; these generalizations are left to the reader. We only point out explicitly that the principle of localization (No. 2, Prop. 4) remains valid when it is assumed that each of the functions $g_x$ is only defined in $V_x$ (or almost everywhere in $V_x$) and is measurable.
 
 ### 11. Convergence in measure
 

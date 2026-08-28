@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: e69ea53271bb8075f8d762c7e9c446bf7e5efa0e0729c716a20cb05bccd07396
+content_sha256: 8fcedbfe0628c86057164c4379e875afa32cf556d96488150fe7dbda9c9467d8
 ---
 
 ## APPENDIX
@@ -121,10 +121,10 @@ It is enough to apply prop. 1 to the solvable group $G \times G$ acting on $G$ b
 
 In this section, $E$ denotes a normed *space* over the field $\mathbf{R}$ and $\mathcal{T}$ a Hausdorff locally convex topology on $E$ for which the norm of $E$ is *lower semi-continuous*. These hypotheses are in particular satisfied in the following cases :
 
-$a)$ $\mathcal{T}$ is the topology induced by the norm of the normed space $E$.
-$b)$ $\mathcal{T}$ is the weakened topology $\sigma(E, E')$ of the normed space $E$.
-$c)$ $E$ is the dual of a normed space $F$ and $\mathcal{T} = \sigma(F', F)$.
-$d)$ There exist two normed spaces $F_1$ and $F_2$ such that $E = \mathscr{L}(F_1 ; F_2)$ and $\mathcal{T}$ is the topology of simple convergence.
+a) $\mathcal{T}$ is the topology induced by the norm of the normed space $E$.
+b) $\mathcal{T}$ is the weakened topology $\sigma(E, E')$ of the normed space $E$.
+c) $E$ is the dual of a normed space $F$ and $\mathcal{T} = \sigma(F', F)$.
+d) There exist two normed spaces $F_1$ and $F_2$ such that $E = \mathscr{L}(F_1 ; F_2)$ and $\mathcal{T}$ is the topology of simple convergence.
 
 *Unless otherwise expressly stated, the topological notions refer to the topology $\mathcal{T}$.*
 

@@ -26,9 +26,9 @@ subsections:
       pdf_page: 164
 statements: 9
 exercises: 2
-content_sha256: a5219e1322161e2e9c07b553a45b032f2e0e06290fef11b42b3621324cfb860d
+content_sha256: b4a2346a026952272b71df50b79a9c1e3873caa4e37286e5553b6db753aac00d
 translated_from: content/en/alg/V/08_s8_norms_and_traces.md
-source_content_sha256: 65f8820e4d64e153ee7f5c1a05752a873834c45994a25c3be9329dff8efe4b63
+source_content_sha256: 79621cc362921900b2880147d98a69d3c70fd45a623941128cab378eac8bd66c
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-a02df5e1
 glossary_version: 34
@@ -211,13 +211,13 @@ $$
 
 Trong phần còn lại của số này, ta ký hiệu E là một mở rộng bậc hữu hạn của K và $x$ là một phần tử của E. Chúng tôi sẽ chỉ ra cách tính chuẩn và vết của $x$ trong các trường hợp khác nhau.
 
-$a)$ *Trường hợp của một mở rộng tách được*: giả sử E là tách được bậc $n$ trên K, ký hiệu $\Omega$ là một bao đóng đại số của K và $\sigma_1, \ldots, \sigma_n$ là $n$ đồng cấu K phân biệt của E vào R. Theo Công thức (3) ($V$, p. 48) ta có trong R
+a) *Trường hợp của một mở rộng tách được*: giả sử E là tách được bậc $n$ trên K, ký hiệu $\Omega$ là một bao đóng đại số của K và $\sigma_1, \ldots, \sigma_n$ là $n$ đồng cấu K phân biệt của E vào R. Theo Công thức (3) ($V$, p. 48) ta có trong R
 
 $$
 \text{Tr}_{E/K}(x) = \sum_{i=1}^n \sigma_i(x) , \quad N_{E/K}(x) = \prod_{i=1}^n \sigma_i(x) .
 $$
 
-$b)$ *Trường hợp của một mở rộng p-căn*: giả sử K có đặc số $p > 0$ và mở rộng E là p-căn; tồn tại một số nguyên $e \geq 0$ sao cho $[E:K] = p^e$ ($V$, p. 26, Mệnh đề 4). Nếu $f$ là bậc của x trên K, đa thức tối tiểu của x trên K là $X^{p^f} - x^{p^f}$ ($V$, p. 24, Mệnh đề 1). Theo Mệnh đề 3 ta có $N_{E/K}(x) = (x^{p^f})^{p^e/p^f}$, do đó
+b) *Trường hợp của một mở rộng p-căn*: giả sử K có đặc số $p > 0$ và mở rộng E là p-căn; tồn tại một số nguyên $e \geq 0$ sao cho $[E:K] = p^e$ ($V$, p. 26, Mệnh đề 4). Nếu $f$ là bậc của x trên K, đa thức tối tiểu của x trên K là $X^{p^f} - x^{p^f}$ ($V$, p. 24, Mệnh đề 1). Theo Mệnh đề 3 ta có $N_{E/K}(x) = (x^{p^f})^{p^e/p^f}$, do đó
 
 $$
 N_{E/K}(x) = x^{p^e} = x^{[E:K]}
@@ -229,7 +229,7 @@ $$
 \text{Tr}_{E/K}(x) = p^e \cdot x = [E:K] x = \begin{cases} x & \text{nếu } [E:K] = 1 \\ 0 & \text{nếu } [E:K] > 1 . \end{cases}
 $$
 
-$c)$ *Trường hợp tổng quát*: ta có thể tóm tắt việc tính chuẩn và vết trong mệnh đề sau:
+c) *Trường hợp tổng quát*: ta có thể tóm tắt việc tính chuẩn và vết trong mệnh đề sau:
 
 #### Mệnh đề 4 {#alg-v-s8-prop-4 .statement}
 

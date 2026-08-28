@@ -50,7 +50,7 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 9
-content_sha256: b25458c070af45046693295a308b446c50f7cd4ef2f571f9811a3094bbb978a8
+content_sha256: 3d95195626fece546a0d626955de497f8025825746d4625a7da3100a8409f35d
 translated_from: content/en/alg/VII/04_s4_finitely_generated_modules_over_a.md
 source_content_sha256: 47e1f7b20c598278d3283f70227fe7863b421a8ea32d75c1e037bb13db45ff08
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6
@@ -348,8 +348,8 @@ Khi đó các nhân tử bất biến là các tích của các phần tử tron
 #### Nhận xét 4 {#alg-vii-s4-n8-rem-4 .statement}
 
 Một $A$-môđun được gọi là đơn ($I$, p. 37) nếu khác không và không có môđun con nào ngoài chính nó và $0$; khi đó nó nhất thiết là cyclic, do đó sinh hữu hạn, và không phân tích được; vì các môđun $A/(p^n)$ không đơn với $n \neq 1$, trong khi các môđun $A/(p)$ là đơn, và vì $A$ đơn khi và chỉ khi vành $A$ là một trường, ta suy ra rằng các $A$-môđun đơn là:
-$a)$ các môđun tự do hạng 1, khi $A$ là một trường;
-$b)$ các môđun đẳng cấu với các thương $A/(p)$, trong đó $p$ là một phần tử bất khả quy của $A$, khi $A$ không phải là một trường.
+a) các môđun tự do hạng 1, khi $A$ là một trường;
+b) các môđun đẳng cấu với các thương $A/(p)$, trong đó $p$ là một phần tử bất khả quy của $A$, khi $A$ không phải là một trường.
 
 ### 9. Đối ngẫu trong các môđun có độ dài hữu hạn trên một miền iđêan chính
 

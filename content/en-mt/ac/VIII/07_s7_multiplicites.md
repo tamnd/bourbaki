@@ -33,11 +33,11 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: 5e26504a0f5b5569f939a060fa77afe6e55574755284c4f13187435e0ede14b9
+content_sha256: 68115c9d8bf4b1a2b06c471d9339d5bb6256d795fcf17a9f580d192667524606
 translated_from: content/fr/ac/VIII/07_s7_multiplicites.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: ab27f72b6ebd27b6e701e4d27ec3936f05f3a650bcf1b98764fd2ae1cd70f4ff
+source_content_sha256: 7d27f7af9a7636d37dc907e076096955063e5e6fb20fe656bf883ebb44e84d33
 translation_model: gpt-5.4
 translation_run: translate-en-mt-a9139937
 glossary_version: 34
@@ -206,7 +206,7 @@ $$
 \dim(A/p) = \dim(B/pB) = \dim_A(B/pB)
 $$
 
-by th. 1, $b)$ and $c)$ of § 2, no. 3. Consequently, one has
+by th. 1, b) and c) of § 2, no. 3. Consequently, one has
 
 $$
 \dim_A(B) \geq \dim_A(B/pB) = \dim(A/p) = \dim(A) \geq \dim_A(B).
@@ -322,15 +322,15 @@ Putting $R(T) = (1 - T^\delta)/(1 - T) = 1 + T + \cdots + T^{\delta-1}$, this ma
 (1) $$ (1 - T)^{-d} R(T) R_M(T) \leq (1 - T)^{-d''-1} R_{M''}(T) \leq $$
 $$ \leq (1 - T)^{-d} R(T) R_M(T) + (1 - T)^{-1} T^\delta P(T) . $$
 
-By Lemma 2 of § 4, No. 1, the first inequality (1) implies either $d'' \geq d$, or $d'' = d - 1$ and $R(1) R_M(1) \leq R_{M''}(1)$, that is to say $\delta e_q(M) \leq e_q(M'')$. This proves $a)$, since $d'' \leq d$.
+By Lemma 2 of § 4, No. 1, the first inequality (1) implies either $d'' \geq d$, or $d'' = d - 1$ and $R(1) R_M(1) \leq R_{M''}(1)$, that is to say $\delta e_q(M) \leq e_q(M'')$. This proves a), since $d'' \leq d$.
 
-Under the assumption of $b)$, one has $P(T) \in \mathbf{Z}[T]$ and $P(1) = \operatorname{long}_A(\operatorname{Ker} \varphi)$. The second inequality (1) is written
+Under the assumption of b), one has $P(T) \in \mathbf{Z}[T]$ and $P(1) = \operatorname{long}_A(\operatorname{Ker} \varphi)$. The second inequality (1) is written
 
 $$
 (1 - T)^{-d''-1} R_{M''}(T) \leq (1 - T)^{-d}(R(T) R_M(T) + T^\delta (1 - T)^{d-1} P(T)) .
 $$
 
-Suppose that one has $d > 1$; then Lemma 2 of § 4, No. 1 yields $d'' + 1 \leq d$, whence $d'' = d - 1$ by part $a)$ of the proof; one then has
+Suppose that one has $d > 1$; then Lemma 2 of § 4, No. 1 yields $d'' + 1 \leq d$, whence $d'' = d - 1$ by part a) of the proof; one then has
 
 $$
 R_{M''}(1) \leq R(1). R_M(1)
@@ -402,7 +402,7 @@ $$
 e_q(M) = e_x(M) \leq \operatorname{long}(M/xM) < + \infty .
 $$
 
-Parts $a), b),$ and $c)$ follow, for $m = 1$, from Prop. 8, and the general case is deduced by induction. Suppose the hypotheses of $d)$ are satisfied and set $x' = Ax_1 + \cdots + Ax_{m-1}$ and $M' = M/x'M$, so that $M/xM$ is identified with $M'/x_mM'$. Then, by $c)$, one has $\dim_A(M') = 1$ and $e_q(M) = e_q(M')$. By Prop. 8, $M/xM$ is of finite length and one has $e_q(M') = e_{x_mA}(M') \leq \operatorname{long}(M/xM)$. But, since $x_m^nM' = x^nM'$ for every $n$, one has $e_{x_mA}(M') = e_x(M')$. On the other hand, one has $e_x(M') \geq e_x(M)$: this follows from $b)$, where $m$ is replaced by $m - 1$, $x$ by $x'$, and $q$ by $x$. Consequently, one has
+Parts $a), b),$ and c) follow, for $m = 1$, from Prop. 8, and the general case is deduced by induction. Suppose the hypotheses of d) are satisfied and set $x' = Ax_1 + \cdots + Ax_{m-1}$ and $M' = M/x'M$, so that $M/xM$ is identified with $M'/x_mM'$. Then, by c), one has $\dim_A(M') = 1$ and $e_q(M) = e_q(M')$. By Prop. 8, $M/xM$ is of finite length and one has $e_q(M') = e_{x_mA}(M') \leq \operatorname{long}(M/xM)$. But, since $x_m^nM' = x^nM'$ for every $n$, one has $e_{x_mA}(M') = e_x(M')$. On the other hand, one has $e_x(M') \geq e_x(M)$: this follows from b), where $m$ is replaced by $m - 1$, $x$ by $x'$, and $q$ by $x$. Consequently, one has
 
 $$
 e_x(M) \leq e_x(M') = e_{x_mA}(M') = e_q(M') = e_q(M) .

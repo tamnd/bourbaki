@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: 2ea5079734abfef9e78b1a3ac436ae9cdec39173e81795c1df445327c08ad47c
+content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -607,13 +607,13 @@ and so $p_N(x) \in M$. We conclude that $x - p_N(x) \in M$, hence $x$ is the sum
 
 We have proved a) and the first part of b). Assume now that $p_M$ and $p_N$ commute and put $q = p_M + p_N - p_M p_N$; since $p_M$ and $p_N$ are idempotents in the algebra $\mathcal{L}(E)$, so is q; hence (GT, III, § 6, No. 2) the image of q is a closed vector subspace of E.
 
-It is clear that the image of $q$ is contained in $M + N$; however, we have $p_N(x) = x$, hence $q(x) = x$ for all $x \in N$; since we also have $q = p_M + p_N - p_N p_M$, we get $q(x) = x$ for all $x \in M$. We conclude that the image of $q$ is equal to $M + N$. The orthogonal of $M + N$ is equal to $M^\circ \cap N^\circ$, and the kernel of $q$ obviously contains $M^\circ \cap N^\circ$, hence $q = p_{M+N}$. This proves $b)$.
+It is clear that the image of $q$ is contained in $M + N$; however, we have $p_N(x) = x$, hence $q(x) = x$ for all $x \in N$; since we also have $q = p_M + p_N - p_N p_M$, we get $q(x) = x$ for all $x \in M$. We conclude that the image of $q$ is equal to $M + N$. The orthogonal of $M + N$ is equal to $M^\circ \cap N^\circ$, and the kernel of $q$ obviously contains $M^\circ \cap N^\circ$, hence $q = p_{M+N}$. This proves b).
 
-We have $p_M p_N = 0$ if and only if the image $N$ of $p_N$ is contained in the kernel $M^\circ$ of $p_M$, that is, if and only if $M$ is orthogonal to $N$. The rest of the assertion $c)$ is then a particular case of $b)$.
+We have $p_M p_N = 0$ if and only if the image $N$ of $p_N$ is contained in the kernel $M^\circ$ of $p_M$, that is, if and only if $M$ is orthogonal to $N$. The rest of the assertion c) is then a particular case of b).
 
 #### Remark {#evt-v-s1-n6-rem-1 .statement}
 
-— Let $E$ be a hilbertian space and $M, N$ two closed vector subspaces of $E$. The relation $M \subset N$ is equivalent to the orthogonality of $M$ and $N^\circ$, that is to say, to the relation $p_M p_{N^\circ} = 0$ by prop. 9, $c)$. Since we have $p_{N^\circ} = 1 - p_N$, we conclude that *the relations* $M \subset N$ *and* $p_M = p_M p_N$ *are equivalent* (« the three perpendicular theorem », *cf.* fig. 3).
+— Let $E$ be a hilbertian space and $M, N$ two closed vector subspaces of $E$. The relation $M \subset N$ is equivalent to the orthogonality of $M$ and $N^\circ$, that is to say, to the relation $p_M p_{N^\circ} = 0$ by prop. 9, c). Since we have $p_{N^\circ} = 1 - p_N$, we conclude that *the relations* $M \subset N$ *and* $p_M = p_M p_N$ *are equivalent* (« the three perpendicular theorem », *cf.* fig. 3).
 
 ![Diagram showing subspaces M, N, and projections p_M(x), p_N(x)](https://i.imgur.com/3Q5z5QG.png)
 

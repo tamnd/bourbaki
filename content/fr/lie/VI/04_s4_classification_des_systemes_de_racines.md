@@ -68,7 +68,7 @@ subsections:
       pdf_page: 221
 statements: 19
 exercises: 10
-content_sha256: 4dd36c9ae6f13bc152f3e126b5e40b1b6d55d8af81243949cd557cb70061bbea
+content_sha256: 87e924732fb81e26f6841a677253e89e0878f90f47e9bc3c9ae0ca23ca054890
 ---
 
 ## § 4. Classification des systèmes de racines
@@ -177,7 +177,7 @@ b) $X$ est une chaîne, et possède au plus une arête d’ordre $\geqslant 4$.
 Raisonnons par récurrence sur $l$.
 a) Supposons que $X$ possède un point de ramification $i$. Alors $i$ appartient à 3 arêtes d’ordre 3, $\{i, k_1\}, \{i, k_2\}, \{i, k_3\}$ (lemmes 2 et 3). Si $l = 4$, le lemme est démontré. Sinon, $k_1$ par exemple appartient à une arête distincte des précédentes puisque $X$ est connexe. Identifions $i$ et $k_1$ dans le graphe de Coxeter de $M$. On obtient un nouveau graphe auquel on peut appliquer l’hypothèse de récurrence grâce au lemme 6. Or l’image $p$ de $i$ est point de ramification du nouveau graphe $X'$. Donc $X'$ n’a aucun autre point de ramification et a toutes ses arêtes d’ordre 3. Donc $X$ a toutes ses arêtes d’ordre 3, et n’a aucun point de ramification distinct de $i$ et $k_1$. Si $k_1$ était point de ramification dans $X$, $p$ appartiendrait à au moins 4 arêtes dans $X'$, contrairement au lemme 2.
 
-$b)$ Supposons que $X$ ne possède aucun point de ramification. Alors $X$ est une chaîne (chap. IV, Annexe, n° 3, prop. 3). Soit $\{i, j\}$ une arête d’ordre $\geqslant 4$. Si $l = 2$, le lemme est trivial. Sinon, $i$ par exemple appartient à une arête $\{i, k\}$ avec $k \neq j$ (puisque $X$ est connexe). Cette arête est d’ordre 3 (lemme 5). Identifions $i$ et $k$ dans le graphe de Coxeter de $M$. Grâce au lemme 6, on peut appliquer l’hypothèse de récurrence. Soit $p$ l’image de $i$ dans le nouveau graphe $X'$. Dans $X'$, $\{p, j\}$ est une arête d’ordre $\geqslant 4$, donc $X'$ n’a aucune autre arête d’ordre $\geqslant 4$, donc $\{i, j\}$ est la seule arête d’ordre $\geqslant 4$ dans $X$.
+b) Supposons que $X$ ne possède aucun point de ramification. Alors $X$ est une chaîne (chap. IV, Annexe, n° 3, prop. 3). Soit $\{i, j\}$ une arête d’ordre $\geqslant 4$. Si $l = 2$, le lemme est trivial. Sinon, $i$ par exemple appartient à une arête $\{i, k\}$ avec $k \neq j$ (puisque $X$ est connexe). Cette arête est d’ordre 3 (lemme 5). Identifions $i$ et $k$ dans le graphe de Coxeter de $M$. Grâce au lemme 6, on peut appliquer l’hypothèse de récurrence. Soit $p$ l’image de $i$ dans le nouveau graphe $X'$. Dans $X'$, $\{p, j\}$ est une arête d’ordre $\geqslant 4$, donc $X'$ n’a aucune autre arête d’ordre $\geqslant 4$, donc $\{i, j\}$ est la seule arête d’ordre $\geqslant 4$ dans $X$.
 
 #### Lemme 8 {#lie-vi-s4-lem-8 .statement}
 

@@ -40,9 +40,9 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: 59e5bdf257a6761ba95f3d15483294c163890598c3da69ede4125dfb753e105d
+content_sha256: 43eea9c619372c2df354ddab959ee245f95c5c9e40315025ac2258ab6dc0d304
 translated_from: content/en/top/IX/03_s3_metrizable_groups_valued_fields_normed.md
-source_content_sha256: 10e79a35f8fb6784904e1324cd6246891046c2219592c361c5e9cb40a2de8c4f
+source_content_sha256: 8b0735f9661569735192e866f56800cc2ca77e68b63b4e1c9aade01fcd82bfa5
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-45e66895
 glossary_version: 34
@@ -247,7 +247,7 @@ Giá trị tuyệt đối của một số thực (Chương IV, § 1, no. 6) th�
 
 #### Ví dụ 3 {#top-ix-s3-n2-exa-3 .statement}
 
-Trên một vành chia $K$, một định giá thực là một hàm $v$ xác định trên $K^*$ với các giá trị trong $\mathbf{R}$ thỏa mãn các điều kiện sau: $a)$ nếu $x \in K^*$ và $y \in K^*$, thì $v(xy) = v(x) + v(y)$; $b)$ nếu ngoài ra $x + y \neq 0$, thì $v(x + y) \geq \inf(v(x), v(y))$. Nếu $a$ là một số thực $> 1$, ta có thể khi đó định nghĩa một giá trị tuyệt đối trên $K$ bằng cách đặt $|x| = a^{-v(x)}$ với $x \neq 0$, và $|0| = 0$. Vì quan hệ $v(xy) = v(x) + v(y)$ với $x \neq 0$ và $y \neq 0$ suy ra quan hệ $|xy| = |x|.|y|$ đối với các giá trị này của $x$ và $y$, và quan hệ này hiển nhiên đúng nếu một trong $x, y$ bằng không; tương tự, từ quan hệ $v(x + y) \geq \inf(v(x), v(y))$ với $x \neq 0, y \neq 0$ và $x + y \neq 0$ ta suy ra $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, và các bất đẳng thức này vẫn được thỏa mãn nếu một trong $x, y, x + y$ bằng không. Đặc biệt, nếu $v_p(x)$ là định giá $p$-adic trên trường $\mathbf{Q}$ của các số hữu tỉ (số mũ của $p$ trong phân tích của $x$ thành tích của các thừa số nguyên tố), thì giá trị tuyệt đối tương ứng $|x|_p = p^{-v_p(x)}$ được gọi là giá trị tuyệt đối $p$-adic trên trường $\mathbf{Q}$ (xem Chương III, § 6, Bài tập 23).
+Trên một vành chia $K$, một định giá thực là một hàm $v$ xác định trên $K^*$ với các giá trị trong $\mathbf{R}$ thỏa mãn các điều kiện sau: a) nếu $x \in K^*$ và $y \in K^*$, thì $v(xy) = v(x) + v(y)$; b) nếu ngoài ra $x + y \neq 0$, thì $v(x + y) \geq \inf(v(x), v(y))$. Nếu $a$ là một số thực $> 1$, ta có thể khi đó định nghĩa một giá trị tuyệt đối trên $K$ bằng cách đặt $|x| = a^{-v(x)}$ với $x \neq 0$, và $|0| = 0$. Vì quan hệ $v(xy) = v(x) + v(y)$ với $x \neq 0$ và $y \neq 0$ suy ra quan hệ $|xy| = |x|.|y|$ đối với các giá trị này của $x$ và $y$, và quan hệ này hiển nhiên đúng nếu một trong $x, y$ bằng không; tương tự, từ quan hệ $v(x + y) \geq \inf(v(x), v(y))$ với $x \neq 0, y \neq 0$ và $x + y \neq 0$ ta suy ra $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, và các bất đẳng thức này vẫn được thỏa mãn nếu một trong $x, y, x + y$ bằng không. Đặc biệt, nếu $v_p(x)$ là định giá $p$-adic trên trường $\mathbf{Q}$ của các số hữu tỉ (số mũ của $p$ trong phân tích của $x$ thành tích của các thừa số nguyên tố), thì giá trị tuyệt đối tương ứng $|x|_p = p^{-v_p(x)}$ được gọi là giá trị tuyệt đối $p$-adic trên trường $\mathbf{Q}$ (xem Chương III, § 6, Bài tập 23).
 
 #### Nhận xét {#top-ix-s3-n2-rem-1 .statement}
 

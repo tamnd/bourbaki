@@ -52,7 +52,7 @@ subsections:
       pdf_page: 92
 statements: 53
 exercises: 27
-content_sha256: b388112e370167856a847a79c13dc500c5d5ceb9f4270bda614d687d87267d65
+content_sha256: d5a09c94c24d970599fca224af613497df895bea31b1faa65377989f216fb13a
 ---
 
 ## § 6. Algèbres de Lie semi-simples
@@ -139,7 +139,7 @@ a) *Toutes les représentations linéaires de dimension finie de $g$ sont semi-s
 
 b) *Etant donnés une représentation linéaire $\rho$ de $g$ dans un espace vectoriel $V$ de dimension finie et un sous-espace vectoriel $W$ de codimension 1 tel que $\rho(x)(V) \subset W$ pour tout $x \in g$, il existe une droite supplémentaire de $W$ stable pour $\rho(g)$ (donc annulée par $\rho(g)$).
 
-Il est clair que $a)$ entraîne $b)$. Supposons $b)$ vraie. Soient $\sigma$ une représentation de dimension finie de $g$ dans un espace vectoriel $M$, et $N$ un sous-espace vectoriel stable pour $\sigma(g)$. Soit $\mu$ la représentation de $g$ dans $\mathcal{L}(M)$ canoniquement déduite de $\sigma$ ($\S 3$, no 3) : rappelons que $\mu(x) = \operatorname{ad}_{\mathcal{L}(M)} \sigma(x)$. Soit $V$ (resp. $W$) le sous-espace de $\mathcal{L}(M)$ formé des applications linéaires de $M$ dans $N$ dont la restriction à $N$ est une homothétie (resp. est nulle) ; alors $W$ est de codimension 1 dans $V$, et $\mu(x)(V) \subset W$ pour tout $x \in g$. D’après la condition $b)$, il existe un $u \in V$ annulé par $\mu(x)$ pour tout $x \in g$, et dont la restriction à $N$ est une homothétie non nulle. En multipliant $u$ par un scalaire convenable, on peut supposer que $u$ est un projecteur de $M$ sur $N$. Dire que $\mu(x) \cdot u = 0$ signifie que $u$ est permutable à $\sigma(x)$. Donc le noyau de $u$ est un supplémentaire de $N$ dans $M$ stable pour $\sigma(x)$, quel que soit $x \in g$. Donc $\sigma$ est semi-simple.
+Il est clair que a) entraîne b). Supposons b) vraie. Soient $\sigma$ une représentation de dimension finie de $g$ dans un espace vectoriel $M$, et $N$ un sous-espace vectoriel stable pour $\sigma(g)$. Soit $\mu$ la représentation de $g$ dans $\mathcal{L}(M)$ canoniquement déduite de $\sigma$ ($\S 3$, no 3) : rappelons que $\mu(x) = \operatorname{ad}_{\mathcal{L}(M)} \sigma(x)$. Soit $V$ (resp. $W$) le sous-espace de $\mathcal{L}(M)$ formé des applications linéaires de $M$ dans $N$ dont la restriction à $N$ est une homothétie (resp. est nulle) ; alors $W$ est de codimension 1 dans $V$, et $\mu(x)(V) \subset W$ pour tout $x \in g$. D’après la condition b), il existe un $u \in V$ annulé par $\mu(x)$ pour tout $x \in g$, et dont la restriction à $N$ est une homothétie non nulle. En multipliant $u$ par un scalaire convenable, on peut supposer que $u$ est un projecteur de $M$ sur $N$. Dire que $\mu(x) \cdot u = 0$ signifie que $u$ est permutable à $\sigma(x)$. Donc le noyau de $u$ est un supplémentaire de $N$ dans $M$ stable pour $\sigma(x)$, quel que soit $x \in g$. Donc $\sigma$ est semi-simple.
 
 #### Lemme 3 {#lie-i-s6-lem-3 .statement}
 
@@ -300,7 +300,7 @@ a) $s = [g, r] = \mathcal{O}g \cap r$.
 
 b) s est l’intersection des orthogonaux de g pour les formes bilinéaires associées aux représentations de dimension finie de g.
 
-Il est clair que $[g, r] \subset \mathcal{O}g \cap r$. On a $\mathcal{O}g \cap r = s$ d’après le th. 1 du § 5, n° 3. Soient $g' = g/[g, r]$, et f l’homomorphisme canonique de g sur $g'$; alors $f(r)$ est le radical $r'$ de $g'$ (cor. 3 de la prop. 2, n° 2), donc $[g', r'] = \{0\}$ et $r'$ est le centre de $g'$; par suite (prop. 5) $g'$ possède une représentation semi-simple fidèle de dimension finie, d’où $s \subset [g, r]$. On a prouvé $a)$.
+Il est clair que $[g, r] \subset \mathcal{O}g \cap r$. On a $\mathcal{O}g \cap r = s$ d’après le th. 1 du § 5, n° 3. Soient $g' = g/[g, r]$, et f l’homomorphisme canonique de g sur $g'$; alors $f(r)$ est le radical $r'$ de $g'$ (cor. 3 de la prop. 2, n° 2), donc $[g', r'] = \{0\}$ et $r'$ est le centre de $g'$; par suite (prop. 5) $g'$ possède une représentation semi-simple fidèle de dimension finie, d’où $s \subset [g, r]$. On a prouvé a).
 
 Soit $t$ l’intersection des orthogonaux de $g$ pour les formes bilinéaires associées aux représentations de dimension finie de $g$. On a $s \subset t$ (\$ 4, n° 3, prop. 4 d)). D'autre part, $g/s$ possède une représentation semi-simple fidèle de dimension finie, donc (prop. 5) une représentation $\rho$ de dimension finie telle que la forme bilinéaire associée soit non dégénérée; considérée comme représentation de $g$, $\rho$ possède une forme bilinéaire associée $\beta$ sur $g$, et l'orthogonal de $g$ pour $\beta$ est $s$, d'où $t \subset s$. Donc $t = s$.
 
@@ -312,7 +312,7 @@ Même si $s \neq \{0\}$, il peut exister des formes bilinéaires invariantes sym
 a) *On a s' = f(s)*.
 b) *g' est réductive si et seulement si le noyau de f contient s*.
 
-En effet, si $r, r'$ sont les radicaux de $g, g'$, on a $s' = [g', r'] = [f(g), f(r)] = f([g, r]) = f(s)$. L'assertion $b)$ est conséquence immédiate de $a)$.
+En effet, si $r, r'$ sont les radicaux de $g, g'$, on a $s' = [g', r'] = [f(g), f(r)] = f([g, r]) = f(s)$. L'assertion b) est conséquence immédiate de a).
 
 ### 5. Application : un critère de semi-simplicité pour les représentations
 

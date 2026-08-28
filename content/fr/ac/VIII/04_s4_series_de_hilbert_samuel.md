@@ -33,7 +33,7 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: 29a4140957a78efcaa97fc8a2eb1ebfb09a3abda73ca5eb1f03e64e664ab0af7
+content_sha256: f91639f7d7cb284f8e82df2e8c5a6d8828ff744149f2b0de169070ff32670b04
 ---
 
 ## § 4. SÉRIES DE HILBERT-SAMUEL
@@ -121,7 +121,7 @@ $$
 
 alors, ou bien $d < d'$, ou bien $d = d'$ et $Q(1) \leq R(1)$.
 
-a) On peut écrire $F = (1-T)^{-r} T^n P(T)$ avec $r, n \in \mathbf{Z}$ et $P(T) \in \mathbf{Z}[T]$. Par division euclidienne, on peut écrire $P(T) = (1-T)^p R(T)$ avec $R(T) \in \mathbf{Z}[T]$ et $R(1) \neq 0$. Donc $F = (1-T)^{-(r-p)} Q(T)$, où $Q(T) = T^n R(T) \in \mathbf{Z}[T, T^{-1}]$ et $Q(1) \neq 0$. Cela démontre l’existence de $d$ et $Q$. Par ailleurs, si $(1-T)^r Q(T) = (1-T)^s R(T)$ avec $r > s$ et $Q, R$ dans $\mathbf{Z}[T, T^{-1}]$, on a $R(T) = (1-T)^{r-s} Q(T)$, donc $R(1) = 0$; cela démontre l’unicité. Supposons que $F$ soit $\geq 0$; si on avait $d < 0$, alors on aurait $F(1) = 0$, ce qui est impossible puisque $F$ est non nul et que tous ses coefficients sont positifs ; on a donc $d \geq 0$. Si $d = 0$, alors $Q = F \geq 0$, donc $Q(1)$ est positif. Si $d \geq 1$, alors $Q(1)$ est positif d’après la formule (3). Cela démontre $a)$.
+a) On peut écrire $F = (1-T)^{-r} T^n P(T)$ avec $r, n \in \mathbf{Z}$ et $P(T) \in \mathbf{Z}[T]$. Par division euclidienne, on peut écrire $P(T) = (1-T)^p R(T)$ avec $R(T) \in \mathbf{Z}[T]$ et $R(1) \neq 0$. Donc $F = (1-T)^{-(r-p)} Q(T)$, où $Q(T) = T^n R(T) \in \mathbf{Z}[T, T^{-1}]$ et $Q(1) \neq 0$. Cela démontre l’existence de $d$ et $Q$. Par ailleurs, si $(1-T)^r Q(T) = (1-T)^s R(T)$ avec $r > s$ et $Q, R$ dans $\mathbf{Z}[T, T^{-1}]$, on a $R(T) = (1-T)^{r-s} Q(T)$, donc $R(1) = 0$; cela démontre l’unicité. Supposons que $F$ soit $\geq 0$; si on avait $d < 0$, alors on aurait $F(1) = 0$, ce qui est impossible puisque $F$ est non nul et que tous ses coefficients sont positifs ; on a donc $d \geq 0$. Si $d = 0$, alors $Q = F \geq 0$, donc $Q(1)$ est positif. Si $d \geq 1$, alors $Q(1)$ est positif d’après la formule (3). Cela démontre a).
 
 b) Supposons $d \geq d'$. Alors $(1-T)^{-d} ((1-T)^{d-d'} R - Q) \geq 0$; comme $S(T) = (1-T)^{d-d'} R - Q$ appartient à $\mathbf{Z}[T, T^{-1}]$, cela implique $S(1) \geq 0$ d’après ce qui précède. Si $d > d'$, on a $S(1) = -Q(1) < 0$, d’où une contradiction ; si $d = d'$, on a $S(1) = R(1) - Q(1)$ d’où $Q(1) \leq R(1)$.
 

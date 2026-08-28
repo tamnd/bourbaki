@@ -26,7 +26,7 @@ subsections:
       pdf_page: 104
 statements: 9
 exercises: 1
-content_sha256: c10a7650b7ae8bcc59ef3d37384dd64d68d8e4c177052b0d9caccdb11e42b6ad
+content_sha256: e21a8158044168a83c575c5c668176995560eb366203923aa8656af2870522f2
 ---
 
 ## APPENDICE 1
@@ -119,11 +119,11 @@ Soit $(G_\alpha, f_{\alpha\beta})$ un système projectif de groupes de Lie compa
 
 Il résulte de ce lemme que le groupe topologique $\lim_{\leftarrow} \tilde{D}(G_\alpha)$ est isomorphe au produit d'une famille $(S_\lambda)_{\lambda \in L}$ de groupes de Lie compacts presque simples. La limite du système projectif d'homomorphismes $(\pi_\alpha)$ s'identifie d'après le lemme 1 à un homomorphisme continu $\pi : \prod_{\lambda \in L} S_\lambda \to \overline{D(G)}$, qui est surjectif (TG, I, p. 65, cor. 2).
 
-Observons maintenant que le groupe $\prod_{\lambda \in L} S_\lambda$ est égal à son groupe dérivé : cela résulte du § 4, no 5, cor. à la prop. 10. Il en est donc de même pour $\overline{D(G)}$, puisque $\pi$ est surjectif. On a par conséquent $D(G) \supset D(\overline{D(G)}) = \overline{D(G)}$. Ainsi le groupe $D(G)$ est compact et égal à son groupe dérivé ; ceci prouve $a)$, car les assertions concernant $C(G)_0$ sont triviales.
+Observons maintenant que le groupe $\prod_{\lambda \in L} S_\lambda$ est égal à son groupe dérivé : cela résulte du § 4, no 5, cor. à la prop. 10. Il en est donc de même pour $\overline{D(G)}$, puisque $\pi$ est surjectif. On a par conséquent $D(G) \supset D(\overline{D(G)}) = \overline{D(G)}$. Ainsi le groupe $D(G)$ est compact et égal à son groupe dérivé ; ceci prouve a), car les assertions concernant $C(G)_0$ sont triviales.
 
-D'autre part le noyau de $\pi : \prod_{\lambda \in L} S_\lambda \to D(G)$ s'identifie à $\lim_{\leftarrow} \mathrm{Ker}(\pi_\alpha)$ (A, II, p. 89, remarque 1), donc à un sous-groupe central, compact et totalement discontinu, d'où $c)$.
+D'autre part le noyau de $\pi : \prod_{\lambda \in L} S_\lambda \to D(G)$ s'identifie à $\lim_{\leftarrow} \mathrm{Ker}(\pi_\alpha)$ (A, II, p. 89, remarque 1), donc à un sous-groupe central, compact et totalement discontinu, d'où c).
 
-Prouvons $b)$. Pour tout $\alpha$ dans $I$, le morphisme $s_\alpha : C(G_\alpha)_0 \times D(G_\alpha) \to G_\alpha$ tel que $s_\alpha(x, y) = xy$ pour $x \in C(G_\alpha)_0,\ y \in D(G_\alpha)$, est surjectif et a pour noyau un sous-groupe fini central (\S 1, no 4, cor. 1 à la prop. 4). Les $s_\alpha$ forment un système projectif d'applications, dont la limite s'identifie d'après ce qui précède à l'homomorphisme $(x, y) \mapsto xy$ de $C(G)_0 \times D(G)$ dans $G$. On voit alors comme précédemment que celui-ci est surjectif et que son noyau est central et totalement discontinu, d'où $b)$.
+Prouvons b). Pour tout $\alpha$ dans $I$, le morphisme $s_\alpha : C(G_\alpha)_0 \times D(G_\alpha) \to G_\alpha$ tel que $s_\alpha(x, y) = xy$ pour $x \in C(G_\alpha)_0,\ y \in D(G_\alpha)$, est surjectif et a pour noyau un sous-groupe fini central (\S 1, no 4, cor. 1 à la prop. 4). Les $s_\alpha$ forment un système projectif d'applications, dont la limite s'identifie d'après ce qui précède à l'homomorphisme $(x, y) \mapsto xy$ de $C(G)_0 \times D(G)$ dans $G$. On voit alors comme précédemment que celui-ci est surjectif et que son noyau est central et totalement discontinu, d'où b).
 
 #### Corollaire {#lie-ix-a1-n3-cor-1 .statement tag=01IQ}
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 40
 statements: 37
 exercises: 7
-content_sha256: b0be3ab6fbc02d449cb2d96364b0f2e4a609ded6b8b6737e8633b76ea270b5af
+content_sha256: 390f143777bdecb507cfc5436fbf6d87ac2c74cd2956da55d7e235ef0ab6af02
 ---
 
 ## § 3. DIMENSION DES ANNEAUX NOETHÉRIENS
@@ -106,11 +106,11 @@ Soit $A$ un anneau local noethérien.
 a) Soit $x \in m_A$. Alors $\dim(A/xA)$ est égal à $\dim(A)$ ou à $\dim(A) - 1$. Pour que l’on ait $\dim(A/xA) = \dim(A) - 1$, il faut et il suffit que $x$ n’appartienne à aucun des idéaux premiers minimaux $p$ de $A$ tels que $\dim(A/p) = \dim(A)$, et il suffit que $x$ ne soit pas diviseur de 0 dans $A$.
 b) Soit $a$ un idéal de $A$ distinct de $A$ tel que $\dim(A/a) < \dim(A)$. Il existe $x \in a$ tel que $\dim(A/xA) = \dim(A) - 1$.
 c) Si $\dim(A) \geqslant 1$, il existe $x \in m_A$ tel que $\dim(A/xA) = \dim(A) - 1$.
-D’après la prop. 2, $\dim(A/xA)$ est égal à $\dim(A)$ ou à $\dim(A) - 1$. Pour que l’on ait $\dim(A/xA) = \dim(A)$, il faut et il suffit qu’il existe une chaîne $p_0 \subset ... \subset p_n$ d’idéaux premiers de $A$ telle que $x \in p_0$ et $n = \dim(A)$, c’est-à-dire qu’il existe un idéal premier $p_0$ de $A$ contenant $x$ tel que $\dim(A/p_0) = \dim(A)$. Mais un tel idéal premier $p_0$ est nécessairement minimal, et tout élément de $p_0$ est donc diviseur de 0 dans $A$ (IV, § 1, no 1, cor. 3 de la prop. 2 et no 4, th. 2). Ceci prouve $a)$.
+D’après la prop. 2, $\dim(A/xA)$ est égal à $\dim(A)$ ou à $\dim(A) - 1$. Pour que l’on ait $\dim(A/xA) = \dim(A)$, il faut et il suffit qu’il existe une chaîne $p_0 \subset ... \subset p_n$ d’idéaux premiers de $A$ telle que $x \in p_0$ et $n = \dim(A)$, c’est-à-dire qu’il existe un idéal premier $p_0$ de $A$ contenant $x$ tel que $\dim(A/p_0) = \dim(A)$. Mais un tel idéal premier $p_0$ est nécessairement minimal, et tout élément de $p_0$ est donc diviseur de 0 dans $A$ (IV, § 1, no 1, cor. 3 de la prop. 2 et no 4, th. 2). Ceci prouve a).
 
-Soient $\Phi$ l’ensemble des idéaux premiers minimaux de $A$, et $\Phi'$ l’ensemble des $p \in \Phi$ tels que $\dim(A/p) = \dim(A)$. On sait (II, § 4, no 3, cor. 3 de la prop. 14) que $\Phi$ est fini, donc $\Phi'$ est fini. Soit $a$ un idéal de $A$ tel que $\dim(A/a) < \dim(A)$. Pour tout $p \in \Phi'$, on a $\dim(A/a) < \dim(A/p)$, donc $a \not\subset p$. D’après la prop. 2 de II, § 1, no 1, il existe donc un élément $x$ de $a$ qui n’appartient à aucun des $p \in \Phi'$, et l’on a alors $\dim(A/xA) = \dim(A) - 1$ d’après $a)$. Ceci prouve $b)$.
+Soient $\Phi$ l’ensemble des idéaux premiers minimaux de $A$, et $\Phi'$ l’ensemble des $p \in \Phi$ tels que $\dim(A/p) = \dim(A)$. On sait (II, § 4, no 3, cor. 3 de la prop. 14) que $\Phi$ est fini, donc $\Phi'$ est fini. Soit $a$ un idéal de $A$ tel que $\dim(A/a) < \dim(A)$. Pour tout $p \in \Phi'$, on a $\dim(A/a) < \dim(A/p)$, donc $a \not\subset p$. D’après la prop. 2 de II, § 1, no 1, il existe donc un élément $x$ de $a$ qui n’appartient à aucun des $p \in \Phi'$, et l’on a alors $\dim(A/xA) = \dim(A) - 1$ d’après a). Ceci prouve b).
 
-L’assertion $c)$ est le cas particulier $a = m_A$ de $b)$.
+L’assertion c) est le cas particulier $a = m_A$ de b).
 
 ### 2. Dimension et suites sécantes
 
@@ -200,17 +200,17 @@ c) Les propriétés suivantes sont équivalentes :
 (iii) $M/SM$ est de longueur finie et $\mathrm{Card}(S) = \dim_A(M)$;
 (iv) $S$ est une partie sécante pour $M$ et $M/SM$ est de longueur finie.
 
-Comme on a $S \subset m_A$, le lemme de Nakayama montre que l’on a $M/SM \neq \{0\}$, d’où $\dim_A(M/SM) \geqslant 0$ avec égalité si et seulement si $M/SM$ est de longueur finie. L’assertion $a)$ résulte alors des formules (8) et (9), ainsi que l’équivalence des propriétés (ii), (iii) et (iv).
+Comme on a $S \subset m_A$, le lemme de Nakayama montre que l’on a $M/SM \neq \{0\}$, d’où $\dim_A(M/SM) \geqslant 0$ avec égalité si et seulement si $M/SM$ est de longueur finie. L’assertion a) résulte alors des formules (8) et (9), ainsi que l’équivalence des propriétés (ii), (iii) et (iv).
 
-L’assertion $b)$ résulte du fait que le cardinal de toute partie de $m_A$ sécante pour $M$ est majorée par l’entier $\dim_A(M)$.
+L’assertion b) résulte du fait que le cardinal de toute partie de $m_A$ sécante pour $M$ est majorée par l’entier $\dim_A(M)$.
 
-D’après $a)$, toute partie sécante pour $M$, de cardinal égal à $\dim_A(M)$, est maximale. Il reste à prouver que, si $S$ est sécante pour $M$ et si $\mathrm{Card}(S) < \dim_A(M)$, alors $S$ n’est pas maximale. Soient $a$ l’annulateur de $M$, et $B$ l’anneau local noethérien $A/(a + SA)$. D’après le cor. 2 de la prop. 2 du no 1, il existe un élément $x$ de $m_A$ tel que $\dim(B/xB) = \dim(B) - 1$ d’où $x \notin S$. D’après la remarque 2, la partie $S \cup \{x\}$ de $m_A$ est sécante pour $A/a$, donc pour $M$ d’après la remarque 1.
+D’après a), toute partie sécante pour $M$, de cardinal égal à $\dim_A(M)$, est maximale. Il reste à prouver que, si $S$ est sécante pour $M$ et si $\mathrm{Card}(S) < \dim_A(M)$, alors $S$ n’est pas maximale. Soient $a$ l’annulateur de $M$, et $B$ l’anneau local noethérien $A/(a + SA)$. D’après le cor. 2 de la prop. 2 du no 1, il existe un élément $x$ de $m_A$ tel que $\dim(B/xB) = \dim(B) - 1$ d’où $x \notin S$. D’après la remarque 2, la partie $S \cup \{x\}$ de $m_A$ est sécante pour $A/a$, donc pour $M$ d’après la remarque 1.
 
 #### Corollaire {#ac-viii-s3-n2-cor-2 .statement}
 
 La dimension de $M$ est le plus petit des entiers $d \geqslant 0$ pour lesquels il existe une suite $(x_1, ..., x_d)$ d’éléments de $m_A$ telle que le $A$-module $M / \sum_{i=1}^d x_i M$ soit de longueur finie.
 
-Comme $\varnothing$ est une partie sécante pour $M$, le th. 1, $b)$ démontre l’existence d’une suite sécante pour $M$ maximale, soit $(x_1, ..., x_d)$. Mais alors on a $d = \dim_A(M)$ et le $A$-module $M / \sum_{i=1}^d x_i M$ est de longueur finie d’après la propriété (iii) du th. 1, $c)$. Réciproquement si $(x'_1, ..., x'_{d'})$ est une suite d’éléments de $m_A$ telle que le $A$-module $M / \sum_{j=1}^{d'} x'_j M$ soit de longueur finie, on a $d' \geqslant \dim_A(M)$ d’après le th. 1, $a)$.
+Comme $\varnothing$ est une partie sécante pour $M$, le th. 1, b) démontre l’existence d’une suite sécante pour $M$ maximale, soit $(x_1, ..., x_d)$. Mais alors on a $d = \dim_A(M)$ et le $A$-module $M / \sum_{i=1}^d x_i M$ est de longueur finie d’après la propriété (iii) du th. 1, c). Réciproquement si $(x'_1, ..., x'_{d'})$ est une suite d’éléments de $m_A$ telle que le $A$-module $M / \sum_{j=1}^{d'} x'_j M$ soit de longueur finie, on a $d' \geqslant \dim_A(M)$ d’après le th. 1, a).
 
 Rappelons (III, § 3, no 2, déf. 1) qu’un idéal $q$ d’un anneau local noethérien $A$ est un idéal de définition de $A$ si les topologies $q$-adique et $m_A$-adique de $A$ coïncident.
 
@@ -477,19 +477,19 @@ d’où le corollaire.
 
 Soient $A$ un anneau noethérien, $a$ un idéal de $A$, $M$ un $A$-module de type fini, $\hat{A}$ et $\hat{M}$ les séparés complétés de $A$ et $M$ respectivement pour la topologie $a$-adique.
 
-$a)$ Soient $m$ un idéal premier de $A$ contenant $a$ et $\hat{m} = m\hat{A}$. Alors $\hat{m}$ est un idéal premier de $\hat{A}$ et on a $\dim_{\hat{A}_{\hat{m}}}(\hat{M}_{\hat{m}}) = \dim_{A_m}(M_m)$.
+a) Soient $m$ un idéal premier de $A$ contenant $a$ et $\hat{m} = m\hat{A}$. Alors $\hat{m}$ est un idéal premier de $\hat{A}$ et on a $\dim_{\hat{A}_{\hat{m}}}(\hat{M}_{\hat{m}}) = \dim_{A_m}(M_m)$.
 
-$b)$ On a $\dim_{\hat{A}}(\hat{M}) = \sup_m \dim_{A_m}(M_m)$, où $m$ parcourt l’ensemble des idéaux premiers (resp. maximaux) de $A$ contenant $a$. En particulier, on a $\dim_{\hat{A}}(\hat{M}) \leqslant \dim_A(M)$.
+b) On a $\dim_{\hat{A}}(\hat{M}) = \sup_m \dim_{A_m}(M_m)$, où $m$ parcourt l’ensemble des idéaux premiers (resp. maximaux) de $A$ contenant $a$. En particulier, on a $\dim_{\hat{A}}(\hat{M}) \leqslant \dim_A(M)$.
 
-$a)$ Puisque $\hat{A}/\hat{m}$ s’identifie à $A/m$, $\hat{m}$ est un idéal premier de $\hat{A}$. D’après le th. 3 de III, $\S 3$, no 4, $\hat{A}$ est plat sur $A$, donc $\hat{A}_{\hat{m}}$ est plat sur $A_m$. Par ailleurs l’application canonique de $A$ dans $\hat{A}$ induit un isomorphisme de $A/a$ sur $\hat{A}/a\hat{A}$, donc aussi un isomorphisme de $A_m/mA_m$ sur $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. On conclut en appliquant la prop. 7 aux anneaux $A_m$ et $\hat{A}_{\hat{m}}$ et aux modules $M_m$ et $\hat{A}_{\hat{m}}$ car $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ est isomorphe à $\hat{M}_{\hat{m}}$ (III, loc. cit. et prop. 8).
+a) Puisque $\hat{A}/\hat{m}$ s’identifie à $A/m$, $\hat{m}$ est un idéal premier de $\hat{A}$. D’après le th. 3 de III, $\S 3$, no 4, $\hat{A}$ est plat sur $A$, donc $\hat{A}_{\hat{m}}$ est plat sur $A_m$. Par ailleurs l’application canonique de $A$ dans $\hat{A}$ induit un isomorphisme de $A/a$ sur $\hat{A}/a\hat{A}$, donc aussi un isomorphisme de $A_m/mA_m$ sur $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. On conclut en appliquant la prop. 7 aux anneaux $A_m$ et $\hat{A}_{\hat{m}}$ et aux modules $M_m$ et $\hat{A}_{\hat{m}}$ car $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ est isomorphe à $\hat{M}_{\hat{m}}$ (III, loc. cit. et prop. 8).
 
-$b)$ D’après la prop. 8 de III, $\S 3$, no 4, l’application $m \mapsto \hat{m}$ est une bijection de l’ensemble des idéaux maximaux de $A$ contenant $a$ sur l’ensemble des idéaux maximaux de $\hat{A}$. L’assertion $b)$ résulte de là et de la prop. 9 du $\S 1$, no 4.
+b) D’après la prop. 8 de III, $\S 3$, no 4, l’application $m \mapsto \hat{m}$ est une bijection de l’ensemble des idéaux maximaux de $A$ contenant $a$ sur l’ensemble des idéaux maximaux de $\hat{A}$. L’assertion b) résulte de là et de la prop. 9 du $\S 1$, no 4.
 
 #### Corollaire 1 {#ac-viii-s3-prop-8-cor-1 .statement}
 
 Soit $A$ un anneau de Zariski (III, $\S 3$, no 3, déf. 2). Pour tout $A$-module $M$ de type fini, on a $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
 
-En effet, la topologie de $A$ est la topologie $a$-adique, où $a$ est un idéal contenu dans le radical de $A$ (*loc. cit.*), c’est-à-dire contenu dans tout idéal maximal $m$ de $A$. Il suffit donc d’appliquer l’assertion $b)$ de la prop. 8.
+En effet, la topologie de $A$ est la topologie $a$-adique, où $a$ est un idéal contenu dans le radical de $A$ (*loc. cit.*), c’est-à-dire contenu dans tout idéal maximal $m$ de $A$. Il suffit donc d’appliquer l’assertion b) de la prop. 8.
 
 #### Corollaire 2 {#ac-viii-s3-prop-8-cor-2 .statement}
 

@@ -33,9 +33,9 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: aee3979b6c38e16114c72f4f042747d7c850ccfad268598c8aff3eecfd62aa43
+content_sha256: 0391640104bcce98fca442c010f7816c78f434dbb67880922ed87d3fd15ad81b
 translated_from: content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md
-source_content_sha256: f39f78e5e768eaa875cc9e5c66d099af4d6fb213b7eac794d0dda54d2fbca97d
+source_content_sha256: 3fa30c6fba10fffca825520c5c62e37059e144cf09425181ebf911b2d7791257
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-72ce60e8
 glossary_version: 34
@@ -411,7 +411,7 @@ Các phần tử nửa đơn (resp. lũy linh) của $\mathfrak{g}$ tạo thành
 
 b) $\mathfrak{g}$ khả quy.
 
-Then $\mathfrak{g}=\mathfrak{g}'\times \mathfrak{c}$ với $\mathfrak{g}'$ nửa đơn và $\mathfrak{c}$ giao hoán. Theo Mệnh đề $2,\mathfrak{g}'$ là phân tích được. Cho $x=a+b\in \mathfrak{g}$ với $a\in \mathfrak{g}',b\in \mathfrak{c}$. Gọi $a_s, a_n, b_s, b_n$ là các thành phần nửa đơn và lũy linh của $a, b$. Vì $a_s, a_n, b_s, b_n$ giao hoán đôi một, nên các thành phần nửa đơn và lũy linh của $x$ là $a_s+b_s, a_n+b_n$. Nay $a_s, a_n\in \mathfrak{g}'$. Nếu $x$ là nửa đơn, thì $x=a_s+b_s$; vì $a_s\in \mathfrak{g}'$, ta có $b_s\in \mathfrak{g}$, nên $b_s\in \mathfrak{c}$ vì $b_s$ giao hoán với $\mathfrak{g}$; do đó, $a=a_s$ và $b=b_s$. Tương tự, nếu $x$ là lũy linh, thì $a=a_n$ và $b=b_n$. Suy ra rằng các ảnh chiếu lên $\mathfrak{c}$ của các phần tử của X hoặc là nửa đơn hoặc là lũy linh; theo $a)$, điều này kéo theo rằng $\mathfrak{c}$ là phân tích được. Giữ nguyên ký hiệu trước đó, nhưng không còn giả thiết về $x$, ta có $b_s, b_n\in \mathfrak{c}$, nên $a_s+b_s, a_n+b_n\in \mathfrak{g}$, điều này chứng minh định lý trong trường hợp này.
+Then $\mathfrak{g}=\mathfrak{g}'\times \mathfrak{c}$ với $\mathfrak{g}'$ nửa đơn và $\mathfrak{c}$ giao hoán. Theo Mệnh đề $2,\mathfrak{g}'$ là phân tích được. Cho $x=a+b\in \mathfrak{g}$ với $a\in \mathfrak{g}',b\in \mathfrak{c}$. Gọi $a_s, a_n, b_s, b_n$ là các thành phần nửa đơn và lũy linh của $a, b$. Vì $a_s, a_n, b_s, b_n$ giao hoán đôi một, nên các thành phần nửa đơn và lũy linh của $x$ là $a_s+b_s, a_n+b_n$. Nay $a_s, a_n\in \mathfrak{g}'$. Nếu $x$ là nửa đơn, thì $x=a_s+b_s$; vì $a_s\in \mathfrak{g}'$, ta có $b_s\in \mathfrak{g}$, nên $b_s\in \mathfrak{c}$ vì $b_s$ giao hoán với $\mathfrak{g}$; do đó, $a=a_s$ và $b=b_s$. Tương tự, nếu $x$ là lũy linh, thì $a=a_n$ và $b=b_n$. Suy ra rằng các ảnh chiếu lên $\mathfrak{c}$ của các phần tử của X hoặc là nửa đơn hoặc là lũy linh; theo a), điều này kéo theo rằng $\mathfrak{c}$ là phân tích được. Giữ nguyên ký hiệu trước đó, nhưng không còn giả thiết về $x$, ta có $b_s, b_n\in \mathfrak{c}$, nên $a_s+b_s, a_n+b_n\in \mathfrak{g}$, điều này chứng minh định lý trong trường hợp này.
 
 c) Trường hợp chung.
 
@@ -447,7 +447,7 @@ $$
 
 #### Hệ quả 3 {#lie-vii-s5-thm-1-cor-3 .statement tag=00X4}
 
-Cho $\mathfrak{g}$ là một đại số con Lie của $\mathfrak{g}\mathfrak{l}(V)$, và cho X là một tập con của $\mathfrak{g}$ sinh ra $\mathfrak{g}($như một đại số Lie trên $k)$.
+Cho $\mathfrak{g}$ là một đại số con Lie của $\mathfrak{g}\mathfrak{l}(V)$, và cho X là một tập con của $\mathfrak{g}$ sinh ra $\mathfrak{g}($như một đại số Lie trên k).
 
 (i) Bao phân tích được $e(\mathfrak{g})$ của $\mathfrak{g}$ được sinh bởi các thành phần nửa đơn và lũy linh của các phần tử của X.
 

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 127
 statements: 29
 exercises: 58
-content_sha256: 1bf90a4c3564b98f34f18ff8237f5d8a6d0deeaca092b966e89f64752a810f7a
+content_sha256: 18354c626dd9c636314d443a2d42f81a66f14088339262d25bc4eedae5c9dfa6
 ---
 
 ## § 1. VECTEURS DE WITT
@@ -156,9 +156,9 @@ u_n = \Phi_{n-1}(a_0^p, ..., a_{n-1}^p) + p^n \cdot a_n & \text{pour tout } n \g
 \end{cases}
 $$
 
-Soit $u = (u_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}^{\mathbf{N}}$. Lorsque $p \cdot 1_A$ est non diviseur de 0 dans $\mathbf{A}$ (resp. lorsque $p \cdot 1_A$ est inversible dans $\mathbf{A}$), il existe au plus une suite $(a_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}$ (resp. exactement une suite $(a_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}$) satisfaisant aux égalités (10), d’où $a)$ et $b)$.
+Soit $u = (u_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}^{\mathbf{N}}$. Lorsque $p \cdot 1_A$ est non diviseur de 0 dans $\mathbf{A}$ (resp. lorsque $p \cdot 1_A$ est inversible dans $\mathbf{A}$), il existe au plus une suite $(a_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}$ (resp. exactement une suite $(a_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}$) satisfaisant aux égalités (10), d’où a) et b).
 
-Démontrons $c)$. D’après le lemme 2, l’image $\mathbf{A}'$ de $\mathbf{A}^{\mathbf{N}}$ par $\Phi_A$ est l’ensemble des $u = (u_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}^{\mathbf{N}}$ tels que $\sigma(u_n) \equiv u_{n+1} \mod. p^{n+1} \cdot \mathbf{A}$ pour tout $n \in \mathbf{N}$. Il en résulte aussitôt que $\mathbf{A}'$ est un sous-anneau de $\mathbf{A}^{\mathbf{N}}$, stable par $f_A$ et $v_A$.
+Démontrons c). D’après le lemme 2, l’image $\mathbf{A}'$ de $\mathbf{A}^{\mathbf{N}}$ par $\Phi_A$ est l’ensemble des $u = (u_n)_{n \in \mathbf{N}}$ dans $\mathbf{A}^{\mathbf{N}}$ tels que $\sigma(u_n) \equiv u_{n+1} \mod. p^{n+1} \cdot \mathbf{A}$ pour tout $n \in \mathbf{N}$. Il en résulte aussitôt que $\mathbf{A}'$ est un sous-anneau de $\mathbf{A}^{\mathbf{N}}$, stable par $f_A$ et $v_A$.
 
 #### Remarque {#ac-ix-s1-n2-rem-1 .statement}
 
@@ -172,7 +172,7 @@ Si $A$ est muni d’une graduation de type $\mathbf{N}$, si $p.1_A$ est non divi
 
 Soit $A$ l’anneau $\mathbf{Z}[X, Y]$ des polynômes à coefficients entiers en deux familles d’indéterminées $X = (X_n)_{n \in \mathbf{N}}$ et $Y = (Y_n)_{n \in \mathbf{N}}$. Soit $\theta$ l’endomorphisme de $A$ défini par $\theta(X_n) = X_n^p$ et $\theta(Y_n) = Y_n^p$ pour tout $n \in \mathbf{N}$. Alors $p$ n’est pas diviseur de 0 dans $A$ et l’ensemble des $a$ dans $A$ tels que $\theta(a) \equiv a^p \mod. p.A$ est un sous-anneau de $A$ contenant les $X_n$ et les $Y_n$, donc égal à $A$ tout entier.
 
-D’après la prop. 2, $a)$ et $c)$ du no 2, il existe des éléments $S = (S_n)_{n \in \mathbf{N}}, P = (P_n)_{n \in \mathbf{N}}, I = (I_n)_{n \in \mathbf{N}}$ et $F = (F_n)_{n \in \mathbf{N}}$ de $A^\mathbf{N}$ caractérisés respectivement par les égalités
+D’après la prop. 2, a) et c) du no 2, il existe des éléments $S = (S_n)_{n \in \mathbf{N}}, P = (P_n)_{n \in \mathbf{N}}, I = (I_n)_{n \in \mathbf{N}}$ et $F = (F_n)_{n \in \mathbf{N}}$ de $A^\mathbf{N}$ caractérisés respectivement par les égalités
 
 $$
 \left\{
@@ -194,10 +194,10 @@ Les éléments $S_n, P_n, I_n$ et $F_n$ de $A$ sont donc caractérisés par les 
 
 Affectons $X_n$ et $Y_n$ du poids $p^n$ pour tout $n \in \mathbf{N}$. On déduit de la remarque du no 2 les assertions suivantes :
 
-$a)$ On a $S_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ et $S_n$ est isobare de poids $p^n$.
-$b)$ On a $P_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ et $P_n$ est isobare de poids $p^n$ en chacune des familles $(X_0, ..., X_n)$ et $(Y_0, ..., Y_n)$.
-$c)$ On a $I_n \in \mathbf{Z}[X_0, ..., X_n]$ et $I_n$ est isobare de poids $p^n$.
-$d)$ On a $F_n \in \mathbf{Z}[X_0, ..., X_{n+1}]$ et $F_n$ est isobare de poids $p^{n+1}$.
+a) On a $S_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ et $S_n$ est isobare de poids $p^n$.
+b) On a $P_n \in \mathbf{Z}[X_0, ..., X_n, Y_0, ..., Y_n]$ et $P_n$ est isobare de poids $p^n$ en chacune des familles $(X_0, ..., X_n)$ et $(Y_0, ..., Y_n)$.
+c) On a $I_n \in \mathbf{Z}[X_0, ..., X_n]$ et $I_n$ est isobare de poids $p^n$.
+d) On a $F_n \in \mathbf{Z}[X_0, ..., X_{n+1}]$ et $F_n$ est isobare de poids $p^{n+1}$.
 
 La formule (2) permet dans la pratique de déterminer les polynômes $S_n, P_n, I_n$ et $F_n$ de proche en proche.
 
@@ -751,7 +751,7 @@ a) Pour tout entier $k \geqslant 1$, on a $(V_1(A))^k = p^{k-1} \cdot V_1(A)$.
 
 b) Supposons que $A$ soit un anneau de caractéristique $p$. Sur l’anneau $W(A)$, la topologie $V_1(A)$-adique et la topologie $p$-adique coïncident, et elles sont plus fines que la topologie produit $\mathcal{C}$ (cf. n° 6). L’anneau $W(A)$ est séparé et complet pour la topologie $p$-adique.
 
-Prouvons $a)$ par récurrence sur $k$. Le cas $k = 1$ est évident. Supposons $k \geqslant 2$. D’après l’hypothèse de récurrence, on a $V_1(A)^{k-1} = p^{k-2} \cdot V_1(A)$ et par suite $V_1(A)^k = p^{k-2} \cdot (V_1(A))^2$. Mais il résulte de la prop. 3, $d)$, formule (31), du n° 5 qu’on a $(V_1(A))^2 = p \cdot V_1(A)$, d’où $a)$.
+Prouvons a) par récurrence sur $k$. Le cas $k = 1$ est évident. Supposons $k \geqslant 2$. D’après l’hypothèse de récurrence, on a $V_1(A)^{k-1} = p^{k-2} \cdot V_1(A)$ et par suite $V_1(A)^k = p^{k-2} \cdot (V_1(A))^2$. Mais il résulte de la prop. 3, d), formule (31), du n° 5 qu’on a $(V_1(A))^2 = p \cdot V_1(A)$, d’où a).
 
 Supposons maintenant que $A$ soit de caractéristique $p$. Comme on a
 
@@ -759,7 +759,7 @@ $$
 p \cdot W(A) = VF(W(A)) \subset V_1(A) \quad (\text{formule (52)}) ,
 $$
 
-on déduit de $a)$ les inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A)$, et du corollaire à la prop. 5 l’inclusion $(V_1(A))^k \subset V_k(A)$, pour tout entier $k \geqslant 1$. La première assertion de $b)$ en résulte.
+on déduit de a) les inclusions $p^k.W(A) \subset (V_1(A))^k \subset p^{k-1}.W(A)$, et du corollaire à la prop. 5 l’inclusion $(V_1(A))^k \subset V_k(A)$, pour tout entier $k \geqslant 1$. La première assertion de b) en résulte.
 
 Soit $k$ un entier $\geqslant 1$. D’après la formule (52), l’idéal $p^k.W(A)$ de $W(A)$ est l’ensemble des éléments $a = (a_n)_{n \in \mathbf{N}}$ de $W(A)$ tels qu’on ait $a_n = 0$ pour $n < k$ et $a_n \in A^{p^k}$ pour $n \geqslant k$. Il est donc fermé pour la topologie $\mathcal{G}$. Comme $W(A)$ est séparé et complet pour la topologie $\mathcal{G}$ (no 6) et que les idéaux $p^k.W(A)$ de $W(A)$, pour $k \geqslant 1$, forment une base de voisinages de $0$ dans $W(A)$ pour la topologie $p$-adique, l’anneau $W(A)$ est séparé et complet pour la topologie $p$-adique (TG, III, p. 26, cor. 1 à la prop. 10).
 
@@ -767,9 +767,9 @@ Soit $k$ un entier $\geqslant 1$. D’après la formule (52), l’idéal $p^k.W(
 
 *Soit A un anneau parfait de caractéristique p.*
 
-$a)$ *Pour tout élément $a = (a_n)_{n \in \mathbf{N}}$ de $W(A)$, la série de terme général $p^n \tau(a_n^{p^{-n}})$ est convergente dans $W(A)$, de somme $a$.*
+a) *Pour tout élément $a = (a_n)_{n \in \mathbf{N}}$ de $W(A)$, la série de terme général $p^n \tau(a_n^{p^{-n}})$ est convergente dans $W(A)$, de somme $a$.*
 
-$b)$ *Sur $W(A)$, la topologie $V_1(A)$-adique, la topologie $p$-adique et la topologie $\mathcal{G}$ coïncident. Plus précisément, on a $V_n(A) = p^n.W(A) = (V_1(A))^n$ pour tout entier $n \geqslant 0$. En particulier $\Phi_0$ définit un isomorphisme de $W(A)/p.W(A)$ sur $A$.*
+b) *Sur $W(A)$, la topologie $V_1(A)$-adique, la topologie $p$-adique et la topologie $\mathcal{G}$ coïncident. Plus précisément, on a $V_n(A) = p^n.W(A) = (V_1(A))^n$ pour tout entier $n \geqslant 0$. En particulier $\Phi_0$ définit un isomorphisme de $W(A)/p.W(A)$ sur $A$.*
 
 Par définition (A, V, p. 5), l’application $a \mapsto a^p$ est un automorphisme de l’anneau $A$. D’après la prop. 5, F est donc un automorphisme de l’anneau $W(A)$, et l’on a, pour tout $n \in \mathbf{N}$,
 
@@ -777,7 +777,7 @@ $$
 p^n.W(A) = V^n F^n(W(A)) = V^n(W(A)) = V_n(A).
 $$
 
-En particulier, on a $(V_1(A))^n = (p.W(A))^n = p^n.W(A)$. L’assertion $b)$ résulte de là.
+En particulier, on a $(V_1(A))^n = (p.W(A))^n = p^n.W(A)$. L’assertion b) résulte de là.
 
 D’après la prop. 5, on a
 
@@ -785,7 +785,7 @@ $$
 p^n.\tau(a_n^{p^{-n}}) = V^n F^n \tau(a_n^{p^{-n}}) = V^n \tau(a_n),
 $$
 
-et l’assertion $a)$ résulte de la prop. 4 du no 6.
+et l’assertion a) résulte de la prop. 4 du no 6.
 
 #### Proposition 8 {#ac-ix-s1-prop-8 .statement}
 

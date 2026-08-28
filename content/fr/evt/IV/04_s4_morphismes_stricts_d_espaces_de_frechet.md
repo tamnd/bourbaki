@@ -25,7 +25,7 @@ subsections:
       pdf_page: 216
 statements: 13
 exercises: 23
-content_sha256: b9998a7b218f6ef8780fed9ae6996d5d7de396981f85e4de36f4ce106816fd85
+content_sha256: 3c0665c596284824d3cf1dbbf32aea4f2cc9912ddc82867421041d5ecdbc0285
 ---
 
 ## § 4. MORPHISMES STRICTS D’ESPACES DE FRÉCHET
@@ -110,7 +110,7 @@ Sous les hypothèses du th. 1, les conditions suivantes sont équivalentes :
 (i) $u$ est un morphisme strict injectif ;
 (ii) $^t u$ est un morphisme strict surjectif pour les topologies faibles ;
 (iii) $^t u$ est surjectif.
-L’implication (i) $\Rightarrow$ (ii) résulte aussitôt de l’équivalence des conditions $a), d)$ et $e)$ du th. 1 et de IV, p. 6, prop. 5. Il est clair que (ii) entraîne (iii). Montrons enfin que (iii) entraîne (i) : si $^t u$ est surjectif, $u$ est un morphisme strict d’après l’équivalence de $a)$ et $e)$ dans le th. 1 ; que $u$ soit injectif résulte de la prop. 5 de IV, p. 6.
+L’implication (i) $\Rightarrow$ (ii) résulte aussitôt de l’équivalence des conditions $a), d)$ et e) du th. 1 et de IV, p. 6, prop. 5. Il est clair que (ii) entraîne (iii). Montrons enfin que (iii) entraîne (i) : si $^t u$ est surjectif, $u$ est un morphisme strict d’après l’équivalence de a) et e) dans le th. 1 ; que $u$ soit injectif résulte de la prop. 5 de IV, p. 6.
 
 #### Corollaire 2 {#evt-iv-s4-lem-1-cor-2 .statement}
 
@@ -119,7 +119,7 @@ Sous les hypothèses du th. 1, les conditions suivantes sont équivalentes :
 (ii) $u$ est un morphisme strict surjectif ;
 (iii) $^t u$ est un morphisme strict injectif pour les topologies faibles.
 L’équivalence de (i) et (ii) résulte du th. de Banach (I, p. 17, th. 1).
-D’après l’équivalence de $a)$ et $c)$ dans le th. 1, la condition (ii) signifie que $u$ est un morphisme strict et que son image est dense dans F pour $\sigma(F, F')$. L’équivalence de (ii) et (iii) résulte alors de l’équivalence de $a)$ et $d)$ dans le th. 1 et de la prop. 5 de IV, p. 6.
+D’après l’équivalence de a) et c) dans le th. 1, la condition (ii) signifie que $u$ est un morphisme strict et que son image est dense dans F pour $\sigma(F, F')$. L’équivalence de (ii) et (iii) résulte alors de l’équivalence de a) et d) dans le th. 1 et de la prop. 5 de IV, p. 6.
 
 Si $u : E \to F$ est un morphisme strict d’espaces de Fréchet, la transposée $^t u$ n’est pas nécessairement un morphisme strict de $F'_b$ dans $E'_b$ (IV, p. 62, exerc. 3). On a cependant le résultat partiel suivant :
 

@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: 885359a9c4e02d6b1527af01d724b4902eb3a452b5e0d78c02818d8657250018
+content_sha256: 50f43a34a9ae42cb38e10e1f32022dc1fddb5d2b07911570fec5baa09a40ebdf
 ---
 
 ## § 12. CHEVALLEY ORDERS
@@ -772,9 +772,9 @@ We have obtained in passing a new proof of the existence of Chevalley systems (c
 
 Let $(\mathfrak{g},\mathfrak{h})$ be a split reductive Lie algebra over $\mathbf{Q}, R$ its root system. Choose:
 
-$a)$ a permissible lattice $\mathscr{H}$ in $\mathfrak{h}$ (no. 6, Def. 1);
+a) a permissible lattice $\mathscr{H}$ in $\mathfrak{h}$ (no. 6, Def. 1);
 
-$b)$ for all $\alpha \in R$, a lattice $\mathscr{G}^{\alpha}$ in $\mathfrak{g}^{\alpha}$.
+b) for all $\alpha \in R$, a lattice $\mathscr{G}^{\alpha}$ in $\mathfrak{g}^{\alpha}$.
 
 Put $\mathscr{G}=\mathscr{H}\oplus \sum_{\alpha\in R}\mathscr{G}^{\alpha}$. This is a lattice in $\mathfrak{g}$. Denote by $\mathscr{U}$ the $\mathbf{Z}$-subalgebra
 
@@ -860,9 +860,9 @@ Generalizing the terminology adopted for vector spaces, an endomorphism $u$ of a
 
 Let M be a free $\mathbf{Z}$-module of finite type, $u$ an endomorphism of M, and $v$ the endomorphism $u\otimes 1$ of $M\otimes_{\mathbf{Z}}\mathbf{Q}$. Assume that $(^v_n)(M)\subset M$ for all $n\in \mathbf{N}$. Then $u$ is diagonalizable.
 
-$a)$ For any polynomial $P\in \mathbf{Q}[T]$ such that $P(\mathbf{Z})\subset \mathbf{Z}$, we have $P(v)(M)\subset M$ (no. 4, Cor. of Prop. 2), so det $P(v)\in \mathbf{Z}$.
+a) For any polynomial $P\in \mathbf{Q}[T]$ such that $P(\mathbf{Z})\subset \mathbf{Z}$, we have $P(v)(M)\subset M$ (no. 4, Cor. of Prop. 2), so det $P(v)\in \mathbf{Z}$.
 
-$b)$ Denote by $\chi_v(t) =t^d+\alpha_1t^{d-1}+\cdots$ the characteristic polynomial of $v$. Let $k\in \mathbf{Z}, n\in \mathbf{N}$. Applying $a)$ to the polynomial $(^{T-k}_n)$, we see that the number
+b) Denote by $\chi_v(t) =t^d+\alpha_1t^{d-1}+\cdots$ the characteristic polynomial of $v$. Let $k\in \mathbf{Z}, n\in \mathbf{N}$. Applying a) to the polynomial $(^{T-k}_n)$, we see that the number
 
 $a_n=$ det $(v-k)=1_d$ det($v-k$) det($v-k-1$)$. .$. det($v-k-n+ 1$)
 
@@ -892,7 +892,7 @@ $$
 
 hence, if $a_n\not= 0$ for all $n\in \mathbf{N}$, the sequence of the $|a_n|$ is strictly decreasing for $n$ sufficiently large, which is absurd. It follows that $v$ has an integer eigenvalue $\lambda$. Put $M'=$ Ker($u-\lambda .1$) and $M''= M/M'$. Then $M'$ is the intersection with M of a vector subspace of $M\otimes_{\mathbf{Z}}\mathbf{Q}$, so the $\mathbf{Z}$-module $M''$ is torsion-free of finite type, and consequently free of rank $< d$. Arguing by induction on $d$ and applying the induction hypothesis to the endomorphism of $M''$ induced by $u$, we conclude that all the eigenvalues of $v$ in an algebraically closed extension of $\mathbf{Q}$ are integers.
 
-$c)$ We show that $v$ is diagonalizable. Let $\lambda$ be an eigenvalue of $v$ and let $x\in M\otimes_{\mathbf{Z}}\mathbf{Q}$ be such that $(v-\lambda )^2x= 0$. We have $v(vx-\lambda x) =\lambda (vx-\lambda x)$, so
+c) We show that $v$ is diagonalizable. Let $\lambda$ be an eigenvalue of $v$ and let $x\in M\otimes_{\mathbf{Z}}\mathbf{Q}$ be such that $(v-\lambda )^2x= 0$. We have $v(vx-\lambda x) =\lambda (vx-\lambda x)$, so
 
 $n1$!$(v-\lambda -n+ 1)(v-\lambda -n+ 2). . .(v-\lambda -1)(v-\lambda )x$
 
@@ -900,9 +900,9 @@ $$
 =\frac{(-1)^{n-1}}{n}(vx-\lambda x)
 $$
 
-By $a)$, this implies that $vx-\lambda x\in nM$ for all $n\in \mathbf{N}$, so $(v-\lambda )x= 0$.
+By a), this implies that $vx-\lambda x\in nM$ for all $n\in \mathbf{N}$, so $(v-\lambda )x= 0$.
 
-$d)$ Let $\lambda$ be an eigenvalue of $v$ and let $\lambda -a, \lambda +b$ be an interval in $\mathbf{Z}$ containing all the eigenvalues of $v$. Consider the polynomial
+d) Let $\lambda$ be an eigenvalue of $v$ and let $\lambda -a, \lambda +b$ be an interval in $\mathbf{Z}$ containing all the eigenvalues of $v$. Consider the polynomial
 
 $$
 (T-\lambda -1)(T-\lambda -2). . .(T-\lambda -b)
