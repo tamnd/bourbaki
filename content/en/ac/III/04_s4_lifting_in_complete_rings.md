@@ -37,7 +37,7 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: fd6d32d67de2e7a2c06665c283c603769abbecc18a747834d78b6d8b219cd8d3
+content_sha256: c6b3ea44a708bb83dba19feee4cfba38a7155245a73e59d9cdc9572a3a9fc3b4
 ---
 
 ## 4. LIFTING IN COMPLETE RINGS
@@ -284,7 +284,7 @@ $$
 which satisfies relation (4). Since $\bar{\varphi}(P) = \overline{P}$ and $\bar{\varphi}(Q) = \overline{Q}$, $P$ and $Q$ are strongly relatively prime (no. 1, Proposition 2); finally, if $P_1$ and $Q_1$ are two other polynomials in $A[X]$ satisfying (4) and such that $P_1$ is monic, then necessarily, setting $S'_1 = P_1 - S, \ T'_1 = Q_1 - T, \ \deg(S'_1) < \deg(S)$ and $R - ST = ST'_1 + TS'_1$ since $S'_1$ and $T'_1$ have their coefficients in $m$; but Proposition 1 then proves that $S' = S'_1$ and $T' = T'_1$, which proves the uniqueness of the ordered pair $(P, Q)$.
 
 (2) $m$ is nilpotent
-Let $n$ be the smallest integer such that $m^n = 0$ and let us argue by induction on $n > 2$, the theorem having been shown for $n = 2$. Let $A = A/m^{n-1}$, $m' = m/m^{n-1}$; as $m'^{n-1} = 0$, there exists a unique ordered pair $(P', Q')$ of polynomials in $A'[X]$ such that $P'$ is monic, $R' = P'Q'$, $\psi(P') = \overline{P}$ and $\psi(Q') = \overline{Q}$, where $\psi$ denotes the canonical homomorphism $A' \to A'/m' = B$, $\theta$ the canonical homomorphism $A \to A'$ and $R' = \tilde{\theta}(R)$. On the other hand, as $(m^{n-1})^2 = 0$, there exists a unique ordered pair $(P, Q)$ of polynomials in $A[X]$ such that $P$ is monic and $R = PQ$, $\bar{\theta}(P) = \overline{P}$, $\bar{\theta}(Q) = \overline{Q}$; as $\phi = \psi \circ \theta$, this shows the existence and uniqueness of $P$ and $Q$ satisfying (4); moreover $P'$ and $Q'$ are strongly relatively prime by the induction hypothesis and hence so are $P$ and $Q$.
+Let $n$ be the smallest integer such that $m^n = 0$ and let us argue by induction on $n > 2$, the theorem having been shown for $n = 2$. Let $A = A/m^{n-1}$, $m' = m/m^{n-1}$; as ${m'}^{n-1} = 0$, there exists a unique ordered pair $(P', Q')$ of polynomials in $A'[X]$ such that $P'$ is monic, $R' = P'Q'$, $\psi(P') = \overline{P}$ and $\psi(Q') = \overline{Q}$, where $\psi$ denotes the canonical homomorphism $A' \to A'/m' = B$, $\theta$ the canonical homomorphism $A \to A'$ and $R' = \tilde{\theta}(R)$. On the other hand, as $(m^{n-1})^2 = 0$, there exists a unique ordered pair $(P, Q)$ of polynomials in $A[X]$ such that $P$ is monic and $R = PQ$, $\bar{\theta}(P) = \overline{P}$, $\bar{\theta}(Q) = \overline{Q}$; as $\phi = \psi \circ \theta$, this shows the existence and uniqueness of $P$ and $Q$ satisfying (4); moreover $P'$ and $Q'$ are strongly relatively prime by the induction hypothesis and hence so are $P$ and $Q$.
 
 (3) **A is discrete**
 
@@ -431,7 +431,7 @@ $$
 A[[X_1, \ldots, X_q]] \quad \text{and} \quad A[[X_1, \ldots, X_n]]
 $$
 
-respectively, clearly the relation $f \in m'^k$ implies $f(g_1, \ldots, g_q) \in m'^k$. The two sides of (18) are therefore continuous functions of $f$ to $(A[[X_1, \ldots, X_q]])^p$ if $A[[X_1, \ldots, X_q]]$ is given the $m$-adic topology, by virtue of the above remark and Proposition 6; whence relation (18).
+respectively, clearly the relation $f \in {m'}^k$ implies $f(g_1, \ldots, g_q) \in {m'}^k$. The two sides of (18) are therefore continuous functions of $f$ to $(A[[X_1, \ldots, X_q]])^p$ if $A[[X_1, \ldots, X_q]]$ is given the $m$-adic topology, by virtue of the above remark and Proposition 6; whence relation (18).
 
 In what follows, for a ring $A$ and an ideal $m$ of $A$ we shall denote by $m^{x^n}$ the product set $\prod_{i=1}^n m$, in $A^n$, where $m_i = m$ for $1 \leq i \leq n$, to avoid ambiguity.
 

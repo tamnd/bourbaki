@@ -44,7 +44,7 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: d47b69c760ec9ca07b43866d6c0037136015de0e33ab88f2bb4e3378d95efb38
+content_sha256: 28599142f274ec5813551cdbb3bbe444ef139fc7c26b1c613596b1ce9597e9d3
 ---
 
 ## § 9. COMMUTATORS, CENTRALIZERS AND NORMALIZERS IN A LIE GROUP
@@ -343,13 +343,13 @@ $$
 (x'_1, x'_2, \ldots, x'_p) \mapsto x'_1 \mathbf{H} x'_2 \mathbf{H} \cdots \mathbf{H} x'_p
 $$
 
-of $a'_1 \times a'_2 \times \cdots \times a'_p$ into $g'$. By the induction hypothesis, $\phi'$ is bijective and $\phi', \phi'^{-1}$ are polynomial mappings.
+of $a'_1 \times a'_2 \times \cdots \times a'_p$ into $g'$. By the induction hypothesis, $\phi'$ is bijective and $\phi', {\phi'}^{-1}$ are polynomial mappings.
 
 Let $x \in g$. We write
 
 (1)
 $$
-\phi'^{-1}(\theta(x)) = (x'_1(x), x'_2(x), \ldots, x'_p(x)).
+{\phi'}^{-1}(\theta(x)) = (x'_1(x), x'_2(x), \ldots, x'_p(x)).
 $$
 Then
 (2)
@@ -393,7 +393,7 @@ Then by (5)
 $$
 \psi(x) = (x_1, \ldots, \eta \theta(x_j) + x_j - \eta \theta(x_j), \ldots, x_p) = (x_1, x_2, \ldots, x_p).
 $$
-Hence $\psi \circ \phi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. This proves (i). As the Hausdorff law is polynomial, $\phi$ is polynomial. By the induction hypothesis, $\phi'^{-1}$ is polynomial; by formula (1), the functions $x_j'$ are polynomial, hence $\zeta$ is polynomial (formula (3)), $y$ is polynomial (formula (4)) and $\psi$ is polynomial (formula (5)). This proves (ii). Assertion (iii) follows from (i) and (ii) and the fact that the Hausdorff law is polynomial.
+Hence $\psi \circ \phi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. This proves (i). As the Hausdorff law is polynomial, $\phi$ is polynomial. By the induction hypothesis, ${\phi'}^{-1}$ is polynomial; by formula (1), the functions $x_j'$ are polynomial, hence $\zeta$ is polynomial (formula (3)), $y$ is polynomial (formula (4)) and $\psi$ is polynomial (formula (5)). This proves (ii). Assertion (iii) follows from (i) and (ii) and the fact that the Hausdorff law is polynomial.
 
 **Example of a nilpotent Lie group.** Let $G$ be the lower strict triangular subgroup of $\mathbf{GL}(n, K)$. It is a Lie subgroup of $\mathbf{GL}(n, K)$ and $L(G) \subset \mathfrak{gl}(n, K)$ is the Lie algebra of lower triangular matrices with zero diagonal (\S 3, no. 10, Proposition 36). By Chapter II, \S 4, no. 6, *Remark*, $G$ is nilpotent. Suppose henceforth that $K = \mathbf{R}$ or $\mathbf{C}$. As $G$ is homeomorphic to $K^{n(n-1)/2}$, $G$ is simply connected. The exponential mapping of $L(G)$ into $G$ is just the mapping
 $$

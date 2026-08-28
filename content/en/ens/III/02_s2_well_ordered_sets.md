@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: 99e23b3436ca4b6d843107f58900119e0912e966f7d9b5f9e4cda130442d7adf
+content_sha256: c4d656736e563f6ac82971fd4e1ec144ad45c95e80a8241c21c0579eaa1576cb
 ---
 
 ## 2. WELL-ORDERED SETS
@@ -153,9 +153,9 @@ is usually called the “inductive hypothesis”.
 
 C60. (Definition of a mapping by transfinite induction.) *Let $u$ be a letter, $\mathrm{T}\{u\}$ a term in the theory $\mathscr{T}$. There exists a set $U$ and a mapping $f$ of $E$ onto $U$ such that for all $x\in E$ we have $f(x)=\mathrm{T}\{f^{(x)}\}$. Furthermore, the set $U$ and the mapping $f$ are uniquely determined by these conditions.*
 
-Let us first prove the uniqueness. Suppose that $f'$ and $\mathrm{U}'$ also satisfy the conditions of the criterion. Let $\mathfrak{S}$ be the set of segments S of E such that $f$ and $f'$ coincide on S. It is clear that every union of segments belonging to $\mathfrak{S}$ also belongs to $\mathfrak{S}$. On the other hand, if $\mathrm{S}_x \in \mathfrak{S}$, then $f$ and $f'$ agree on $\mathrm{S}_x$ and therefore $f^{(x)} = f'^{(x)}$; consequently
+Let us first prove the uniqueness. Suppose that $f'$ and $\mathrm{U}'$ also satisfy the conditions of the criterion. Let $\mathfrak{S}$ be the set of segments S of E such that $f$ and $f'$ coincide on S. It is clear that every union of segments belonging to $\mathfrak{S}$ also belongs to $\mathfrak{S}$. On the other hand, if $\mathrm{S}_x \in \mathfrak{S}$, then $f$ and $f'$ agree on $\mathrm{S}_x$ and therefore $f^{(x)} = {f'}^{(x)}$; consequently
 
-$$f(x) = \mathrm{T}\{f^{(x)}\} = \mathrm{T}\{f'^{(x)}\} = f'(x),$$
+$$f(x) = \mathrm{T}\{f^{(x)}\} = \mathrm{T}\{{f'}^{(x)}\} = f'(x),$$
 
 which shows that $\mathrm{S}_x \cup \{x\} \in \mathfrak{S}$. It follows that $\mathrm{E} \in \mathfrak{S}$ (Lemma 2), hence $f' = f$ and $\mathrm{U}' = f'(\mathrm{E}) = f(\mathrm{E}) = \mathrm{U}$.
 

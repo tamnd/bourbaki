@@ -37,7 +37,7 @@ subsections:
       pdf_page: 450
 statements: 14
 exercises: 10
-content_sha256: ceb2e95c31600cd3b62847d1749282130c65a55180c65d257ce221f0d319002c
+content_sha256: 06b53b876114cba75ae4c0014d6ae6dfc48cf40de6aaf3b4739f8867e2c85cb3
 ---
 
 ## § 5. ALGÈBRE TENSORIELLE, TENSEURS
@@ -325,7 +325,7 @@ $$
 
 alors $(\mathcal{T}^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ est la seule graduation de type $\Delta \times \mathbf{N}$ compatible avec la structure d’algèbre de $\mathcal{T}(M)$ et qui induise sur $M = \mathcal{T}^1(M)$ la graduation donnée.
 
-On a vu au début de ce n° que $\mathcal{T}(M)$ est somme directe des $\mathcal{T}^{\alpha, n}(M)$, et le fait qu’il s’agisse d’une graduation compatible avec la structure d’algèbre résulte aussitôt des définitions. Si $(\mathcal{T}'^{\alpha, n})$ est une autre graduation de type $\Delta \times \mathbf{N}$ sur
+On a vu au début de ce n° que $\mathcal{T}(M)$ est somme directe des $\mathcal{T}^{\alpha, n}(M)$, et le fait qu’il s’agisse d’une graduation compatible avec la structure d’algèbre résulte aussitôt des définitions. Si $(\mathcal{{T}'}^{\alpha, n})$ est une autre graduation de type $\Delta \times \mathbf{N}$ sur
 
 T(M), compatible avec la structure d’algèbre, et telle que $T^{\alpha,1}(M) = T^{\prime\alpha,1}$ pour $\alpha \in \Delta$, il résulte aussitôt des définitions que l’on aura, pour tout $n \geq 1$ et tout $\alpha \in \Delta$, $T^{\alpha,n}(M) \subset T^{\prime\alpha,n}$; mais puisque $T(M)$ est aussi somme directe des $T^{\alpha,n}(M)$, cela entraîne $T^{\prime\alpha,n} = T^{\alpha,n}(M)$ (II, p. 18, Remarque).
 

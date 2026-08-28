@@ -68,7 +68,7 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: 572d7cb4fc698e0ffc55b44c48e584788afd2e0674d75a7b827538e148357aee
+content_sha256: bb1ab56fd6e939281ba8a544bc972d679eb454991ed8e33e3a50576bce931861
 translated_from: content/en/lie/VI/04_s4_classification_of_root_systems.md
 source_content_sha256: 0c153ae39564b4d702d2c032dca1d31b01e6780eaeb4dcb9c8642c3524393f7c
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini, gpt-5-6
@@ -735,7 +735,7 @@ Với $l \geq 2$. $(\tilde{\alpha}|\alpha\_i) = 0$ với $0 < i < l$ và $(\tild
 
 ![Dynkin graph](https://i.imgur.com/3Q5z5QG.png)
 
-(V) Đồng nhất $V$ với đối ngẫu của nó bằng cách sử dụng tích vô hướng, ta có $\tilde{\alpha} = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$ với mọi $\alpha \in \mathbf{R}$, do đó $R^\* = R$.
+(V) Đồng nhất $V$ với đối ngẫu của nó bằng cách sử dụng tích vô hướng, ta có $\tilde{\alpha} = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$ với mọi $\alpha \in \mathbf{R}$, do đó $R^* = R$.
 
 Đối với dạng $\Phi\_R$, độ dài của các nghiệm là $h^{-1/2} = (l+1)^{-1/2}$ (\S 1, no. 12); do đó $\Phi\_r(x, y) = (x|y)/2(l+1)$.
 
@@ -756,20 +756,20 @@ $$
 dẫn dễ dàng đến
 
 $$
-\begin{align\*}
+\begin{align*}
 \omega\_i &= \varepsilon\_1 + \cdots + \varepsilon\_i - \frac{i}{l+1}(\varepsilon\_1 + \cdots + \varepsilon\_{l+1}) \\\\
 &= \frac{1}{l+1}((l-i+1)(\alpha\_1 + 2\alpha\_2 + \cdots + (i-1)\alpha\_{i-1}) \\\\
 &\qquad + i((l-i+1)\alpha\_i + (l-i)\alpha\_{i+1} + \cdots + \alpha\_l)).
-\end{align\*}
+\end{align*}
 $$
 
 (VII) Tổng các nghiệm dương là
 
 $$
-\begin{align\*}
+\begin{align*}
 2\rho &= l\varepsilon\_1 + (l-2)\varepsilon\_2 + (l-4)\varepsilon\_3 + \cdots - (l-2)\varepsilon\_l - l\varepsilon\_{l+1} \\\\
 &= l\alpha\_1 + 2(l-1)\alpha\_2 + \cdots + i(l-i+1)\alpha\_i + \cdots + l\alpha\_l.
-\end{align\*}
+\end{align*}
 $$
 
 (VIII) Đưa vào $E = \mathbf{R}^{l+1}$ nhóm con $L\_0$ của no. 4. Gọi $p$ là phép chiếu trực giao của $E$ lên $V$. Theo \S 1, no. 10, Mệnh đề 28, ta có
@@ -1134,7 +1134,7 @@ $$
 
 (VI) Tính các trọng số cơ bản cho
 $$
-\begin{align\*}
+\begin{align*}
 \omega\_1 &= \varepsilon\_8 - \varepsilon\_7 = 2\alpha\_1 + 2\alpha\_2 + 3\alpha\_3 + 4\alpha\_4 + 3\alpha\_5 + 2\alpha\_6 + \alpha\_7 \\\\
 \omega\_2 &= \frac{1}{2}(\varepsilon\_1 + \varepsilon\_2 + \varepsilon\_3 + \varepsilon\_4 + \varepsilon\_5 + \varepsilon\_6 - 2\varepsilon\_7 + 2\varepsilon\_8) \\\\
 &= \frac{1}{2}(4\alpha\_1 + 7\alpha\_2 + 8\alpha\_3 + 12\alpha\_4 + 9\alpha\_5 + 8\alpha\_6 + 3\alpha\_7) \\\\
@@ -1148,7 +1148,7 @@ $$
 &= 2\alpha\_1 + 3\alpha\_2 + 4\alpha\_3 + 6\alpha\_4 + 5\alpha\_5 + 4\alpha\_6 + 2\alpha\_7 \\\\
 \omega\_7 &= \varepsilon\_6 + \frac{1}{2}(\varepsilon\_8 - \varepsilon\_7) \\\\
 &= \frac{1}{2}(2\alpha\_1 + 3\alpha\_2 + 4\alpha\_3 + 6\alpha\_4 + 5\alpha\_5 + 4\alpha\_6 + 3\alpha\_7).
-\end{align\*}
+\end{align*}
 $$
 
 ### 12. HỆ KIỂU E_6

@@ -49,9 +49,9 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 23
-content_sha256: 235f61c06d2f64fecfccabff049e990a1b65df69af0f3f35c46c9ee23d26fbcc
+content_sha256: ac8be9a9a0714da48fb4a1b90469606e89c86286946e5128bf74f8954a9cd7f9
 translated_from: content/en/ac/II/02_s2_rings_and_modules_of_fractions.md
-source_content_sha256: 9f1f5f9c5514b2794ba0ec9a33af1ecc2a4418688ec8e42c5d1afce974d20ea8
+source_content_sha256: 2567d0d53dd55c777a0ec321261a3e19900344eba7df32b8cbab70baea7d231d
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-9a26a26c
 glossary_version: 34
@@ -197,9 +197,9 @@ Nhận xét (7). Chú ý rằng, nếu $i_A^T$ là đơn ánh, thì $i_A^{T,S}$ 
 
 #### Hệ quả 4 {#ac-ii-s2-prop-2-cor-4 .statement}
 
-*Cho $S$ là một tập con của một vành $A$, $B$ là một vành con của $A[S^{-1}]$ chứa $i_A^S(A)$ và $S'$ là tập hợp $i_A^S(A)$. Gọi $j$ là đơn ánh chính tắc của $B$ vào $A[S^{-1}]$; đồng cấu duy nhất $g$ từ $B[S'^{-1}]$ đến $A[S^{-1}]$ sao cho $g \circ i_A^S = j$ là một đẳng cấu.*
+*Cho $S$ là một tập con của một vành $A$, $B$ là một vành con của $A[S^{-1}]$ chứa $i_A^S(A)$ và $S'$ là tập hợp $i_A^S(A)$. Gọi $j$ là đơn ánh chính tắc của $B$ vào $A[S^{-1}]$; đồng cấu duy nhất $g$ từ $B[{S'}^{-1}]$ đến $A[S^{-1}]$ sao cho $g \circ i_A^S = j$ là một đẳng cấu.*
 
-Ánh xạ $g$ là đơn ánh theo Hệ quả 1; vành $g(B[S'^{-1}])$ chứa $i_A^S(A)$ và các nghịch đảo của các phần tử của $S'$; do đó nó bằng $A[S^{-1}]$.
+Ánh xạ $g$ là đơn ánh theo Hệ quả 1; vành $g(B[{S'}^{-1}])$ chứa $i_A^S(A)$ và các nghịch đảo của các phần tử của $S'$; do đó nó bằng $A[S^{-1}]$.
 
 Nếu $A$ là một miền nguyên và $0 \notin S$, ký hiệu $A[S^{-1}]$ trùng với ký hiệu trong Đại số, Chương IV, § 2, no. 1; hơn nữa, nếu $S$ là nhân, $A[S^{-1}]$ trong trường hợp này trùng với tập hợp được ký hiệu là $S^{-1}A$ trong Đại số, Chương I, § 1, no. 1.
 
@@ -356,7 +356,7 @@ $$
 \begin{array}{ccc}
 A & \xrightarrow{i_A^S} & S^{-1}A \\
 i_M^{ST} \downarrow & & \downarrow i_{S^{-1}A}^{T'-1A} \\
-(ST)^{-1}A & \xrightarrow{j} & T'^{-1}(S^{-1}A)
+(ST)^{-1}A & \xrightarrow{j} & {T'}^{-1}(S^{-1}A)
 \end{array}
 $$
 
@@ -368,7 +368,7 @@ $$
 \begin{array}{ccc}
 M & \xrightarrow{i_M^S} & S^{-1}M \\
 i_A^{ST} \downarrow & & \downarrow i_{S^{-1}M}^{T'-1M} \\
-(ST)^{-1}M & \xrightarrow{k} & T'^{-1}(S^{-1}M)
+(ST)^{-1}M & \xrightarrow{k} & {T'}^{-1}(S^{-1}M)
 \end{array}
 $$
 
@@ -376,9 +376,9 @@ là giao hoán.
 
 (i) Ta dùng định nghĩa của (ST)^{-1}A như nghiệm của một bài toán ánh xạ phổ quát. Cho B là một vành và f là một đồng cấu từ A đến B sao cho f(ST) gồm các phần tử khả nghịch. Vì f(S) do đó gồm các phần tử khả nghịch, tồn tại một đồng cấu duy nhất f': S^{-1}A \to B sao cho f = f' \circ i_A^S (no. 1, Mệnh đề 1). Với mọi t \in T, f'(i_A^S(t)) = f(t) là khả nghịch trong B theo giả thiết. do đó f'(T') gồm các phần tử khả nghịch; khi đó tồn tại, theo no. 1, Mệnh đề 1, một đồng cấu duy nhất f'' từ T'^{-1}(S^{-1}A) đến B sao cho f'' = f'' \circ i_{S^{-1}A}^{T'}, do đó f = f'' \circ u, đặt u = i_{S^{-1}A}^{T'} \circ i_S^A.
 
-Hơn nữa, nếu $f''_1 : T'^{-1}(S^{-1}A) \to B$ là một đồng cấu thứ hai sao cho $f''_1 \circ u = f$, thì $(f''_1 \circ i^{T'}_{S^{-1}A}) \circ i^S_A = (f'' \circ i^{T'}_{S^{-1}A}) \circ i^S_A$, do đó $f''_1 \circ i^{T'}_{S^{-1}A} = f'' \circ i^{T'}_{S^{-1}A}$ và do đó $f''_1 = f''$.
+Hơn nữa, nếu $f''_1 : {T'}^{-1}(S^{-1}A) \to B$ là một đồng cấu thứ hai sao cho $f''_1 \circ u = f$, thì $(f''_1 \circ i^{T'}_{S^{-1}A}) \circ i^S_A = (f'' \circ i^{T'}_{S^{-1}A}) \circ i^S_A$, do đó $f''_1 \circ i^{T'}_{S^{-1}A} = f'' \circ i^{T'}_{S^{-1}A}$ và do đó $f''_1 = f''$.
 
-Vì các ảnh theo $u$ của các phần tử của ST trong $T'^{-1}(S^{-1}A)$ là khả nghịch, cặp có thứ tự $(T'^{-1}(S^{-1}A), u)$ là một nghiệm của bài toán ánh xạ phổ quát (đối với A và ST) được xét trong no. 1. Điều này chứng minh sự tồn tại và tính duy nhất của $j$.
+Vì các ảnh theo $u$ của các phần tử của ST trong ${T'}^{-1}(S^{-1}A)$ là khả nghịch, cặp có thứ tự $({T'}^{-1}(S^{-1}A), u)$ là một nghiệm của bài toán ánh xạ phổ quát (đối với A và ST) được xét trong no. 1. Điều này chứng minh sự tồn tại và tính duy nhất của $j$.
 
 (ii) Chứng minh hoàn toàn tương tự với chứng minh của (i), dùng trong trường hợp này no. 2, Mệnh đề 3, và để lại cho người đọc.
 
@@ -391,7 +391,7 @@ Cho A là một vành và S, T là hai tập con nhân của A sao cho $S \subse
 (c) *Với mọi* $t \in T$, *tồn tại* $a \in A$ *sao cho* $at \in S$ *(nói cách khác, mọi phần tử của T chia hết một phần tử của S)*.
 (d) *Mọi iđêan nguyên tố giao với T đều giao với S*.
 
-Ta đã thấy ở trên rằng $i^{T,S}_A = 1_M \otimes i^{T,S}_A$, điều này chứng minh ngay lập tức sự tương đương của (a) và (b). Đặt $T' = i^S_A(T)$; khi đó (Mệnh đề 7) $T^{-1}A$ được đồng nhất với $T'^{-1}(S^{-1}A)$ và (a) tương đương với việc nói rằng các phần tử của $T'$ là *khả nghịch* trong $S^{-1}A$ (no. 1, *Nhận xét 5*). Bây giờ, nói rằng $(t/1)(a/s) = 1/1$ ($t \in T$, $a \in A, s \in S$) có nghĩa là tồn tại $s' \in S$ sao cho $tas' = ss'$, điều này chỉ ra sự tương đương của (a) và (c). Ta chứng minh rằng (d) kéo theo (c). Cho $t$ là một phần tử của T và giả sử rằng $t/1$ không khả nghịch trong $S^{-1}A$; khi đó tồn tại một iđêan cực đại $m'$ của $S^{-1}A$ chứa $t/1$ (*Đại số*, Chương I, § 8, no. 7, Định lý 2) và $p = (i^S_A)^{-1}(m')$ là một iđêan nguyên tố của A chứa $t$ và không giao với S (vì ảnh theo $i^S_A$ của một phần tử của S là khả nghịch). Ngược lại, nếu tồn tại một iđêan nguyên tố $p$ giao với T mà không giao với S, thì không có phần tử nào của $p \cap T$ có thể chia hết một phần tử của S; điều này chứng minh rằng (c) kéo theo (d) và hoàn tất chứng minh.
+Ta đã thấy ở trên rằng $i^{T,S}_A = 1_M \otimes i^{T,S}_A$, điều này chứng minh ngay lập tức sự tương đương của (a) và (b). Đặt $T' = i^S_A(T)$; khi đó (Mệnh đề 7) $T^{-1}A$ được đồng nhất với ${T'}^{-1}(S^{-1}A)$ và (a) tương đương với việc nói rằng các phần tử của $T'$ là *khả nghịch* trong $S^{-1}A$ (no. 1, *Nhận xét 5*). Bây giờ, nói rằng $(t/1)(a/s) = 1/1$ ($t \in T$, $a \in A, s \in S$) có nghĩa là tồn tại $s' \in S$ sao cho $tas' = ss'$, điều này chỉ ra sự tương đương của (a) và (c). Ta chứng minh rằng (d) kéo theo (c). Cho $t$ là một phần tử của T và giả sử rằng $t/1$ không khả nghịch trong $S^{-1}A$; khi đó tồn tại một iđêan cực đại $m'$ của $S^{-1}A$ chứa $t/1$ (*Đại số*, Chương I, § 8, no. 7, Định lý 2) và $p = (i^S_A)^{-1}(m')$ là một iđêan nguyên tố của A chứa $t$ và không giao với S (vì ảnh theo $i^S_A$ của một phần tử của S là khả nghịch). Ngược lại, nếu tồn tại một iđêan nguyên tố $p$ giao với T mà không giao với S, thì không có phần tử nào của $p \cap T$ có thể chia hết một phần tử của S; điều này chứng minh rằng (c) kéo theo (d) và hoàn tất chứng minh.
 
 Suy ra từ Mệnh đề 8 rằng, trong số các tập con nhân T của A chứa S và thỏa mãn các điều kiện tương đương của Mệnh đề 8, tồn tại một tập *lớn nhất*, gồm *tất cả* các phần tử của A chia hết một phần tử của S (xem Bài tập 1).
 
@@ -518,13 +518,13 @@ $$
 
 (ii) Trước hết, ta lưu ý rằng quan hệ b' = S^{-1}A tương đương với quan hệ b \cap S \neq \varnothing, quan hệ sau biểu thị rằng b' chứa các phần tử khả nghịch của S^{-1}A. Theo no. 4, Mệnh đề 10 (iii), suy ra rằng b' \mapsto b = (i_A^S)^{-1}(b') là một đẳng cấu (đối với quan hệ bao hàm) từ tập hợp các iđêan của S^{-1}A phân biệt với S^{-1}A lên tập hợp \mathcal{F} các iđêan của A không gặp S và thỏa mãn điều kiện (MS) của Mệnh đề 10. Nếu b' là cực đại (resp. nguyên tố), thì hiển nhiên b' là cực đại trong \mathcal{F} (resp. nguyên tố) và ngược lại (theo (i)). Mặt khác, nếu r là một iđêan của A rời nhau với S, phần bão hòa r_1 của nó đối với S là một iđêan của A chứa t và rời nhau với S: không có phần tử $a \in S$ nào có thể thỏa mãn $sa \in t$ với một $s \in S$ nào đó, vì khi đó sẽ suy ra $sa \in t \cap S$. Ta kết luận rằng, nếu r là cực đại trong các iđêan của $A$ gặp S, thì nó là cực đại trong \mathcal{F}. Tương tự, nếu r là một iđêan nguyên tố không gặp S, thì theo định nghĩa của các iđêan nguyên tố, nó thỏa mãn điều kiện (MS) của no. 4, Mệnh đề 10 và do đó thuộc \mathcal{F}. Điều này hoàn tất chứng minh (ii).
 
-(iii) Giả sử rằng $q'$ là nguyên tố và $q$ cũng là nguyên tố. Tập hợp $T = A - q$ là một tập con nhân của A chứa S, do đó $ST = T$. Ta viết $T' = i_A^S(T)$; theo no. 3, Mệnh đề 7 (i), tồn tại duy nhất một đẳng cấu $j$ từ $T^{-1}A = A$ lên $T'^{-1}(S^{-1}A)$ sao cho
+(iii) Giả sử rằng $q'$ là nguyên tố và $q$ cũng là nguyên tố. Tập hợp $T = A - q$ là một tập con nhân của A chứa S, do đó $ST = T$. Ta viết $T' = i_A^S(T)$; theo no. 3, Mệnh đề 7 (i), tồn tại duy nhất một đẳng cấu $j$ từ $T^{-1}A = A$ lên ${T'}^{-1}(S^{-1}A)$ sao cho
 
 $$
 j(a/b) = (a/1)/(b/1),
 $$
 
-trong đó $a \in A$ và $b \in T$. Mặt khác, $T'$ hiển nhiên không gặp $q'$; ngược lại, cho $a/s \in S^{-1}A$; vì $1/s$ khả nghịch trong $S^{-1}A$, điều kiện $a/s \notin q'$ tương đương với $i_A^S(a) = a/1 \notin q'$ và do đó tương đương với $a \notin q$; suy ra $S^{-1}A - q' = S^{-1}T'$ và do đó, theo Mệnh đề 8 của no. 3, $T'^{-1}(S^{-1}A) = (S^{-1}A)_{q'}$.
+trong đó $a \in A$ và $b \in T$. Mặt khác, $T'$ hiển nhiên không gặp $q'$; ngược lại, cho $a/s \in S^{-1}A$; vì $1/s$ khả nghịch trong $S^{-1}A$, điều kiện $a/s \notin q'$ tương đương với $i_A^S(a) = a/1 \notin q'$ và do đó tương đương với $a \notin q$; suy ra $S^{-1}A - q' = S^{-1}T'$ và do đó, theo Mệnh đề 8 của no. 3, ${T'}^{-1}(S^{-1}A) = (S^{-1}A)_{q'}$.
 
 Đẳng cấu được xác định trong (iii) được gọi là chính tắc. Nếu $A$ là một miền nguyên, các đẳng cấu chính tắc của $A$, và $(S^{-1}A)_{q'}$ lên các vành con của trường phân thức $K$ của $A$ có cùng ảnh.
 
@@ -567,7 +567,7 @@ theo Hệ quả 2 tồn tại một iđêan nguyên tố $p'$ của $B$ chứa $
 
 *Mệnh đề $A$ là một vành, $S$ là một tập con nhân của $A$ và $B$ là một vành sao cho $i_A^S(A) \subset B \subset S^{-1}A$. Cho $q$ là một iđêan nguyên tố của $B$ sao cho iđêan nguyên tố $p = (i_A^S)^{-1}(q)$ của $A$ không giao với $S$ và cho $p'$ là iđêan nguyên tố $S^{-1}p$ của $S^{-1}A$. Khi đó $p' \cap B = q$.*
 
-Cho $S' = i_A^S(S)$; một đẳng cấu chính tắc đã được xác định từ $S'^{-1}B$ đến $S^{-1}A$ (no. 1, Hệ quả 4 của Mệnh đề 2); ta đồng nhất hai vành này bằng đẳng cấu này. Vì $q \cap S' = \varnothing$, $q' = S'^{-1}q$ là iđêan nguyên tố duy nhất của $S^{-1}A = S'^{-1}B$ sao cho $q' \cap B = (i_A^S)^{-1}(q') = q$ (Mệnh đề 11 (ii)), do đó $(i_A^S)^{-1}(q') = p$; do đó $q' = p'$ (Mệnh đề 11 (ii)).
+Cho $S' = i_A^S(S)$; một đẳng cấu chính tắc đã được xác định từ ${S'}^{-1}B$ đến $S^{-1}A$ (no. 1, Hệ quả 4 của Mệnh đề 2); ta đồng nhất hai vành này bằng đẳng cấu này. Vì $q \cap S' = \varnothing$, $q' = {S'}^{-1}q$ là iđêan nguyên tố duy nhất của $S^{-1}A = {S'}^{-1}B$ sao cho $q' \cap B = (i_A^S)^{-1}(q') = q$ (Mệnh đề 11 (ii)), do đó $(i_A^S)^{-1}(q') = p$; do đó $q' = p'$ (Mệnh đề 11 (ii)).
 
 Theo ký hiệu của Hệ quả 5, có các đẳng cấu chính tắc của $A$, và $B_q$ lên $(S^{-1}A)_q$. (Mệnh đề 11 (iii)) và do đó một *đẳng cấu chính tắc* $A, \to B_q$.
 
@@ -721,25 +721,25 @@ Vì $S^{-1}A$ là một $A$-môđun phẳng, (i) là một trường hợp riên
 
 #### Mệnh đề 20 {#ac-ii-s2-prop-20 .statement}
 
-Cho $A, A'$ là hai vành, $p : A \to A'$ là một đồng cấu, $S$ là một tập con nhân của $A$, $S' = \rho(S)$ và $\rho' : S^{-1}A \to S'^{-1}A'$ là đồng cấu tương ứng với $p$ (no. 1, Mệnh đề 2).
+Cho $A, A'$ là hai vành, $p : A \to A'$ là một đồng cấu, $S$ là một tập con nhân của $A$, $S' = \rho(S)$ và $\rho' : S^{-1}A \to {S'}^{-1}A'$ là đồng cấu tương ứng với $p$ (no. 1, Mệnh đề 2).
 
 (i) *Với mọi* $A'$-môđun $M'$ tồn tại một đẳng cấu $S^{-1}A$-duy nhất
 $$
-j : S^{-1}\rho_*(M') \to \rho'_*(S'^{-1}M')
+j : S^{-1}\rho_*(M') \to \rho'_*({S'}^{-1}M')
 $$
 *thỏa mãn* $j(m'/s) = m'/\rho(s)$ *với mọi* $m' \in M', s \in S$.
 
 (ii) *Với mọi* $A$-môđun $M$, tồn tại một đẳng cấu duy nhất
 $$
-j' : (S^{-1}M) \otimes_{S^{-1}A} (S'^{-1}A') \to S'^{-1}(M \otimes_A A')
+j' : (S^{-1}M) \otimes_{S^{-1}A} ({S'}^{-1}A') \to {S'}^{-1}(M \otimes_A A')
 $$
-*giữa các* $S'^{-1}A'$*-môđun* *thỏa mãn* $j'((m/s) \otimes (a'/s')) = (m \otimes a')/(\rho(s)s')$.
+*giữa các* ${S'}^{-1}A'$*-môđun* *thỏa mãn* $j'((m/s) \otimes (a'/s')) = (m \otimes a')/(\rho(s)s')$.
 
-(i) Nếu ta xem $S'^{-1}M'$ như một $A$-môđun thông qua đồng cấu hợp thành $i^{S'}_{M'} \circ p$, các phép vị tự cảm sinh bởi các phần tử của $S$ đều song ánh, do đó tồn tại một đồng cấu $j$ duy nhất thỏa mãn tính chất đã nêu (No. 2, Mệnh đề 3). Vì $\rho(S) = S'$, $j$ là toàn ánh; hơn nữa, nếu $m' \in M'$, $s \in S$, $m'/\rho(s) = 0$, thì tồn tại $t' \in S'$ sao cho $t'm' = 0$; vì tồn tại $t \in S$ sao cho $\rho(t) = t', t'.m' = 0$ trong $\rho_*(M')$, suy ra $m'/s = 0$ trong $S^{-1}\rho_*(M')$.
+(i) Nếu ta xem ${S'}^{-1}M'$ như một $A$-môđun thông qua đồng cấu hợp thành $i^{S'}_{M'} \circ p$, các phép vị tự cảm sinh bởi các phần tử của $S$ đều song ánh, do đó tồn tại một đồng cấu $j$ duy nhất thỏa mãn tính chất đã nêu (No. 2, Mệnh đề 3). Vì $\rho(S) = S'$, $j$ là toàn ánh; hơn nữa, nếu $m' \in M'$, $s \in S$, $m'/\rho(s) = 0$, thì tồn tại $t' \in S'$ sao cho $t'm' = 0$; vì tồn tại $t \in S$ sao cho $\rho(t) = t', t'.m' = 0$ trong $\rho_*(M')$, suy ra $m'/s = 0$ trong $S^{-1}\rho_*(M')$.
 
-(ii) Vì $(S^{-1}M) \otimes_{S^{-1}A} (S'^{-1}A') = (M \otimes_A S^{-1}A) \otimes_{S^{-1}A} (S'^{-1}A')$ và
+(ii) Vì $(S^{-1}M) \otimes_{S^{-1}A} ({S'}^{-1}A') = (M \otimes_A S^{-1}A) \otimes_{S^{-1}A} ({S'}^{-1}A')$ và
 $$
-S'^{-1}(M \otimes_A A') = (M \otimes_A A') \otimes_{A'} (S'^{-1}A'),
+{S'}^{-1}(M \otimes_A A') = (M \otimes_A A') \otimes_{A'} ({S'}^{-1}A'),
 $$
 sự tồn tại của $j'$ suy ra từ tính kết hợp của các tích tenxơ.
 

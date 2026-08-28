@@ -20,9 +20,9 @@ subsections:
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: 1238ff0028a17e7c53f08f7079b49c286422c183cf20715e6feb7a8c411b265c
+content_sha256: ffe2c8b1391dd25726edb35f357fcd412ff5ec564c5710bf2a88f19ea87bca4a
 translated_from: content/en/lie/III/08_s8_lie_groups_over_r_or_qp.md
-source_content_sha256: 1721d86a3f42951517b0823bf79374dd686f85624f871d5d4ea8c5ee70882ad3
+source_content_sha256: d48cff3608394e0ece5f613b8605904b3d3dfbf75e89fa6fec2532a22ecc23fc
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-600c1f3e
 glossary_version: 34
@@ -128,7 +128,7 @@ Trường hợp (a). Gọi $G_0$ là thành phần đơn vị của G. Khi đó 
 
 Trường hợp (b). Gọi $V'$ là một lân cận của $e$ trong $G'$ sao cho mọi nhóm con của $G'$ được chứa trong $V'$ đều thu gọn về $\{e\}$ (\S 4, no. 2, Hệ quả 1 của Định lý 2). Tồn tại một lân cận V của $e$ trong G sao cho $f(V) \subset V'$. Khi đó tồn tại một nhóm con mở $G_1$ của G sao cho $G_1 \subset V$ (\S 7, no. 1, Mệnh đề 1). Khi đó $f(G_1) = \{e\}$.
 
-Trường hợp (c). Theo \S 7, Định lý 4 và Hệ quả của Mệnh đề 8, tồn tại một lân cận $V'$ của $e$ trong $G'$ sao cho, với mọi $x' \in V' - \{e\}$, $x'^{p^n}$ không hội tụ
+Trường hợp (c). Theo \S 7, Định lý 4 và Hệ quả của Mệnh đề 8, tồn tại một lân cận $V'$ của $e$ trong $G'$ sao cho, với mọi $x' \in V' - \{e\}$, ${x'}^{p^n}$ không hội tụ
 
 † Xem chẳng hạn D. Montgomery và L. Zippin, *Topological transformation groups*, Interscience tracts in pure and applied mathematics, no. 1, Interscience publishers, New York 1955 (đặc biệt các trang 169 và 184).
 

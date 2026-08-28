@@ -37,9 +37,9 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: 0c18e3ecba56fd218bf6fbaa147bc44b6f6f2b47d386dced05f23531591c268d
+content_sha256: 1ec1c3fd40941f86205e481b1bf927fb384fa82abc246ffaaaede2cd50a012be
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
-source_content_sha256: fd6d32d67de2e7a2c06665c283c603769abbecc18a747834d78b6d8b219cd8d3
+source_content_sha256: c6b3ea44a708bb83dba19feee4cfba38a7155245a73e59d9cdc9572a3a9fc3b4
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-76b01779
 glossary_version: 34
@@ -291,7 +291,7 @@ $$
 thỏa mãn quan hệ (4). Vì $\bar{\varphi}(P) = \overline{P}$ và $\bar{\varphi}(Q) = \overline{Q}$, $P$ và $Q$ nguyên tố cùng nhau mạnh (no. 1, Mệnh đề 2); cuối cùng, nếu $P_1$ và $Q_1$ là hai đa thức khác trong $A[X]$ thỏa mãn (4) và sao cho $P_1$ là đơn khởi, thì tất yếu, đặt $S'_1 = P_1 - S, \ T'_1 = Q_1 - T, \ \deg(S'_1) < \deg(S)$ và $R - ST = ST'_1 + TS'_1$ vì $S'_1$ và $T'_1$ có các hệ số của chúng thuộc $m$; nhưng Mệnh đề 1 khi đó chứng minh rằng $S' = S'_1$ và $T' = T'_1$, điều này chứng minh tính duy nhất của cặp có thứ tự $(P, Q)$.
 
 (2) $m$ là lũy linh
-Cho $n$ là số nguyên nhỏ nhất sao cho $m^n = 0$ và ta lập luận bằng quy nạp theo $n > 2$, định lý đã được chứng minh cho $n = 2$. Đặt $A = A/m^{n-1}$, $m' = m/m^{n-1}$; vì $m'^{n-1} = 0$, tồn tại một cặp có thứ tự duy nhất $(P', Q')$ các đa thức trong $A'[X]$ sao cho $P'$ là monic, $R' = P'Q'$, $\psi(P') = \overline{P}$ và $\psi(Q') = \overline{Q}$, trong đó $\psi$ ký hiệu đồng cấu chính tắc $A' \to A'/m' = B$, $\theta$ ký hiệu đồng cấu chính tắc $A \to A'$ và $R' = \tilde{\theta}(R)$. Mặt khác, vì $(m^{n-1})^2 = 0$, tồn tại một cặp có thứ tự duy nhất $(P, Q)$ các đa thức trong $A[X]$ sao cho $P$ là monic và $R = PQ$, $\bar{\theta}(P) = \overline{P}$, $\bar{\theta}(Q) = \overline{Q}$; vì $\phi = \psi \circ \theta$, điều này chỉ ra sự tồn tại và tính duy nhất của $P$ và $Q$ thỏa mãn (4); hơn nữa $P'$ và $Q'$ nguyên tố cùng nhau mạnh theo giả thiết quy nạp và do đó $P$ và $Q$ cũng vậy.
+Cho $n$ là số nguyên nhỏ nhất sao cho $m^n = 0$ và ta lập luận bằng quy nạp theo $n > 2$, định lý đã được chứng minh cho $n = 2$. Đặt $A = A/m^{n-1}$, $m' = m/m^{n-1}$; vì ${m'}^{n-1} = 0$, tồn tại một cặp có thứ tự duy nhất $(P', Q')$ các đa thức trong $A'[X]$ sao cho $P'$ là monic, $R' = P'Q'$, $\psi(P') = \overline{P}$ và $\psi(Q') = \overline{Q}$, trong đó $\psi$ ký hiệu đồng cấu chính tắc $A' \to A'/m' = B$, $\theta$ ký hiệu đồng cấu chính tắc $A \to A'$ và $R' = \tilde{\theta}(R)$. Mặt khác, vì $(m^{n-1})^2 = 0$, tồn tại một cặp có thứ tự duy nhất $(P, Q)$ các đa thức trong $A[X]$ sao cho $P$ là monic và $R = PQ$, $\bar{\theta}(P) = \overline{P}$, $\bar{\theta}(Q) = \overline{Q}$; vì $\phi = \psi \circ \theta$, điều này chỉ ra sự tồn tại và tính duy nhất của $P$ và $Q$ thỏa mãn (4); hơn nữa $P'$ và $Q'$ nguyên tố cùng nhau mạnh theo giả thiết quy nạp và do đó $P$ và $Q$ cũng vậy.
 
 (3) **A là rời rạc**
 
@@ -438,7 +438,7 @@ $$
 A[[X_1, \ldots, X_q]] \quad \text{và} \quad A[[X_1, \ldots, X_n]]
 $$
 
-tương ứng, rõ ràng quan hệ $f \in m'^k$ kéo theo $f(g_1, \ldots, g_q) \in m'^k$. Do đó hai vế của (18) là các hàm liên tục của $f$ vào $(A[[X_1, \ldots, X_q]])^p$ nếu $A[[X_1, \ldots, X_q]]$ được trang bị tôpô $m$-adic, theo nhận xét trên và Mệnh đề 6; do đó quan hệ (18).
+tương ứng, rõ ràng quan hệ $f \in {m'}^k$ kéo theo $f(g_1, \ldots, g_q) \in {m'}^k$. Do đó hai vế của (18) là các hàm liên tục của $f$ vào $(A[[X_1, \ldots, X_q]])^p$ nếu $A[[X_1, \ldots, X_q]]$ được trang bị tôpô $m$-adic, theo nhận xét trên và Mệnh đề 6; do đó quan hệ (18).
 
 Trong phần sau, với một vành $A$ và một iđêan $m$ của $A$ chúng tôi sẽ ký hiệu bởi $m^{x^n}$ tập hợp tích $\prod_{i=1}^n m$, trong $A^n$, ở đó $m_i = m$ với $1 \leq i \leq n$, để tránh nhập nhằng.
 

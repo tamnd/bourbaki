@@ -45,9 +45,9 @@ errata:
     - says: § 6, no. 3, Theorem 3
       read: § 6, no. 3, Theorem 2
       why: Section 6 has no Theorem 3. No. 3 prints Theorem 2 on page 186, then Lemma 1 and Lemma 2, then the proof of Theorem 2 on page 187, then four corollaries on page 188. The Corollary 4 this sentence cites with it is the one that puts the product of two cardinals, one of them infinite, at their supremum, which is Corollary 4 of Theorem 2 and is what the sentence is about.
-content_sha256: 4bcde7415ae2c39cafa0062dac1522a9c48a9eda2b17ae0626407cb7de436c76
+content_sha256: 8e4b4909b293780e01818ff18560a9e5265231cc72eade0c4f65fb7820cec706
 translated_from: content/en/ens/III/03_s3_equipotent_sets_cardinals.md
-source_content_sha256: b7e3283c08a7f827f94116023cea777542d6c73a0e5503a5708dedd177a32eb9
+source_content_sha256: c902dc669492f42e103c83347628e5280d0bb46423b48b49ff0eaa6044b32edb
 translation_model: gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34
@@ -343,9 +343,9 @@ Bất đẳng thức thứ hai suy ra từ các quan hệ bao hàm giữa các t
 
 #### Hệ quả 2 {#ens-iii-s3-prop-14-cor-2 .statement tag=03L1}
 
-*Nếu* $\mathfrak{a}$, $\mathfrak{a}'$, $\mathfrak{b}$, $\mathfrak{b}'$ *là các lực lượng sao cho* $\mathfrak{a} \leqslant \mathfrak{a}'$, $\mathfrak{b} \leqslant \mathfrak{b}'$, *và* $\mathfrak{a}' > 0$, *thì* $\mathfrak{a}^\mathfrak{b} \leqslant \mathfrak{a}'^{\mathfrak{b}'}$.
+*Nếu* $\mathfrak{a}$, $\mathfrak{a}'$, $\mathfrak{b}$, $\mathfrak{b}'$ *là các lực lượng sao cho* $\mathfrak{a} \leqslant \mathfrak{a}'$, $\mathfrak{b} \leqslant \mathfrak{b}'$, *và* $\mathfrak{a}' > 0$, *thì* $\mathfrak{a}^\mathfrak{b} \leqslant \mathfrak{{a}'}^{\mathfrak{b}'}$.
 
-Vì $\mathfrak{a}^\mathfrak{b} \leqslant \mathfrak{a}'^\mathfrak{b}$ theo các Mệnh đề 10 và 14, và $\mathfrak{a}'^\mathfrak{b} \leqslant \mathfrak{a}'^{\mathfrak{b}'}$ theo Mệnh đề 10 và Hệ quả 1 của Mệnh đề 14.
+Vì $\mathfrak{a}^\mathfrak{b} \leqslant \mathfrak{{a}'}^\mathfrak{b}$ theo các Mệnh đề 10 và 14, và $\mathfrak{{a}'}^\mathfrak{b} \leqslant \mathfrak{{a}'}^{\mathfrak{b}'}$ theo Mệnh đề 10 và Hệ quả 1 của Mệnh đề 14.
 
 #### Định lý 2 (Cantor) {#ens-iii-s3-thm-2 .statement tag=03R8}
 

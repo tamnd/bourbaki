@@ -61,7 +61,7 @@ subsections:
       pdf_page: 522
 statements: 41
 exercises: 5
-content_sha256: ec11c092ad2c10f9443e0cb8b0f8da5b2e8d5e6d6b47e47c445e0bb38174c88e
+content_sha256: 5967d5f78522738e08118204b3d8794c1c7b323d7f835110ffde11c6a5076c65
 ---
 
 ## § 10. DÉRIVATIONS
@@ -367,7 +367,7 @@ où l'on a posé (avec les notations introduites au début du chapitre)
 Cela résulte aussitôt de la formule multinomiale (I, p. 95)
 
 $$
-(\mathbf{T} + \mathbf{T}')^\alpha = \sum_{\beta + \gamma = \alpha} ((\beta, \gamma)) \mathbf{T}^\beta \mathbf{T}'^\gamma
+(\mathbf{T} + \mathbf{T}')^\alpha = \sum_{\beta + \gamma = \alpha} ((\beta, \gamma)) \mathbf{T}^\beta \mathbf{{T}'}^\gamma
 $$
 
 et de la prop. 2.
@@ -422,7 +422,7 @@ $$
 \overline{d}(u/v) = v^{-1}du - uv^{-2}dv
 $$
 
-ce qui prouve l’unicité de $\overline{d}$. Inversement, montrons qu’on peut définir $\overline{d}$ par la formule (20); on doit d’abord vérifier que si $u/v = u'/v'$, la valeur du second membre de (20) ne change pas quand on remplace u par u’ et v par v’. Or, on a $uv' = vu'$, donc $v'(du) + u(dv') = v(du') + u'(dv)$, et par suite $v'(du - uv^{-1}dv) = v(du' - u'v'^{-1}dv')$, puisque $uv'v^{-1} = u'$ et $u'v'^{-1}v = u$. On a ainsi défini une application $\overline{d} : L \to E$, qui prolonge d; on vérifie aussitôt qu’elle est K-linéaire et est une dérivation.
+ce qui prouve l’unicité de $\overline{d}$. Inversement, montrons qu’on peut définir $\overline{d}$ par la formule (20); on doit d’abord vérifier que si $u/v = u'/v'$, la valeur du second membre de (20) ne change pas quand on remplace u par u’ et v par v’. Or, on a $uv' = vu'$, donc $v'(du) + u(dv') = v(du') + u'(dv)$, et par suite $v'(du - uv^{-1}dv) = v(du' - u'{v'}^{-1}dv')$, puisque $uv'v^{-1} = u'$ et $u'{v'}^{-1}v = u$. On a ainsi défini une application $\overline{d} : L \to E$, qui prolonge d; on vérifie aussitôt qu’elle est K-linéaire et est une dérivation.
 
 #### Proposition 6 {#alg-iii-s10-prop-6 .statement}
 

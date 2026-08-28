@@ -29,9 +29,9 @@ subsections:
       pdf_page: 180
 statements: 13
 exercises: 3
-content_sha256: 0bb44f147c2499fffebd4e88994b638b790f4506a90dbdcc2356451298ffc052
+content_sha256: fa0bbcf884263947828b08562c18f205aebe6e8505c2af6ac678fac51c6381ce
 translated_from: content/en/ac/III/01_s1_finitely_generated_graded_algebras.md
-source_content_sha256: 91f52b8ee552f51f2f9983f2b181714c7c33ea17947d2ce7286c36c1ca020a86
+source_content_sha256: f5a839fc9eb2de4a6348015dd8cd693291996b095c75da79331ecfb76c8dfc47
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-78d3ca82
 glossary_version: 34
@@ -190,7 +190,7 @@ Cho $A$ là một vành giao hoán phân bậc với các bậc dương và $p$ 
 
 *Cho $p$ là một iđêan nguyên tố phân bậc của $A$, $d$ là một số nguyên $\geq 1$ và $p'$ là iđêan nguyên tố phân bậc $p \cap A^{(d)}$ của $A^{(d)}$; với mọi A-môđun phân bậc $M$, đồng cấu $(M^{(d)})_{(p')} \to M_{(p)}$ dẫn xuất từ đơn ánh chính tắc $M^{(d)} \to M$ là song ánh.*
 
-Nếu $S$ là tập hợp các phần tử thuần nhất của $A$ không thuộc $p$ và $S' = S \cap A^{(d)}$, thì đồng cấu chính tắc $\phi : S'^{-1}M^{(d)} \to S^{-1}M$ là một đồng cấu thuần nhất bậc 0 và nó đơn ánh, vì nếu $x \in M_{nd}$ thỏa mãn $sx = 0$ với $s \in A_n, s \notin p$, thì cũng có $s^dx = 0$ và $s^d \in A_{md}, s^d \notin p'$. Còn lại phải chứng minh rằng ảnh dưới $\phi$ của $(M^{(d)})_{(p')}$ là toàn bộ $M_{(p)}$; nhưng nếu $x \in M_n, s \in A_n$ và $s \notin p$, thì cũng có $x/s = (xs^{d-1})/s^d$ trong đó $xs^{d-1} \in A_{nd}, s^d \in A_n$ và $s^d \notin p'$, do đó mệnh đề của chúng ta.
+Nếu $S$ là tập hợp các phần tử thuần nhất của $A$ không thuộc $p$ và $S' = S \cap A^{(d)}$, thì đồng cấu chính tắc $\phi : {S'}^{-1}M^{(d)} \to S^{-1}M$ là một đồng cấu thuần nhất bậc 0 và nó đơn ánh, vì nếu $x \in M_{nd}$ thỏa mãn $sx = 0$ với $s \in A_n, s \notin p$, thì cũng có $s^dx = 0$ và $s^d \in A_{md}, s^d \notin p'$. Còn lại phải chứng minh rằng ảnh dưới $\phi$ của $(M^{(d)})_{(p')}$ là toàn bộ $M_{(p)}$; nhưng nếu $x \in M_n, s \in A_n$ và $s \notin p$, thì cũng có $x/s = (xs^{d-1})/s^d$ trong đó $xs^{d-1} \in A_{nd}, s^d \in A_n$ và $s^d \notin p'$, do đó mệnh đề của chúng ta.
 
 #### Mệnh đề 8 {#ac-iii-s1-prop-8 .statement}
 

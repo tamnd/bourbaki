@@ -28,7 +28,7 @@ subsections:
       pdf_page: 171
 statements: 31
 exercises: 0
-content_sha256: 0b84a77cc13c427d65a3661f23bd3ba63c6c888b0221377a85fb74aed39e12a6
+content_sha256: 60e386d106e63fd5f95a6e26a5e56c6b1328b9c97cd76b72599d871f6ffdff06
 ---
 
 ## § 10. Angles
@@ -242,7 +242,7 @@ Nous supposerons désormais que A est un *corps ordonné maximal*, et que la for
 
 Démontrons la nécessité de la condition énoncée. Soit u une similitude directe (resp. une rotation) telle que $u(D_1) = D'_1$ et $u(D_2) = D'_2$. Il existe, d’après le cor. 3 de la prop. 1, une similitude directe (resp. d’après le cor. de la prop. 7, une rotation) v telle que $v(D_1) = D_2$. Comme le groupe $S^+$ (resp. $O^+$) est *commutatif*, on a $D'_2 = u(v(D_1)) = v(u(D_1)) = v(D'_1)$, et ceci montre que $(\widehat{D_1, D'_1}) = (\widehat{D_2, D'_2})$. La suffisance se déduit de la nécessité en échangeant $D_2$ et $D'_1$.
 
-Il résulte de la prop. 8 que, à tout angle $(\widehat{D_1, D_2})$ de droites (resp. demi-droites) d’origine 0 de E, est canoniquement associé un élément bien déterminé de $S^+/H$ (resp. $O^+$), à savoir la classe mod. H des similitudes directes $\varphi$ (resp. la rotation $\varphi$) telles que $u(D_1) = D_2$ pour n’importe quel représentant $(D_1, D_2)$ de l’angle $(\widehat{D_1, D_2})$. On a ainsi défini une bijection canonique $h$ (resp. $h'$) de l’ensemble $\mathfrak{A}_0$ des angles de droites (resp. $\mathfrak{A}$ des angles de demi-droites) sur $S^+/H$ (resp. $O^+$) ; en particulier, pour tout $\varphi \in \mathfrak{A}$, on dit que $h(\varphi)$ est la rotation d’angle $\varphi$. Nous transporterons à $\mathfrak{A}_0$ et $\mathfrak{A}$, au moyen de $h^{-1}$ et de $h'^{-1}$, les structures de groupes commutatifs de $S^+/H$ et de $O^+$, et nous noterons additivement les groupes $\mathfrak{A}_0$ et $\mathfrak{A}$ ainsi obtenus. Si l’on désigne par $D, D', D''$ des droites (resp. demi-droites) d’origine 0 de E, on a par définition
+Il résulte de la prop. 8 que, à tout angle $(\widehat{D_1, D_2})$ de droites (resp. demi-droites) d’origine 0 de E, est canoniquement associé un élément bien déterminé de $S^+/H$ (resp. $O^+$), à savoir la classe mod. H des similitudes directes $\varphi$ (resp. la rotation $\varphi$) telles que $u(D_1) = D_2$ pour n’importe quel représentant $(D_1, D_2)$ de l’angle $(\widehat{D_1, D_2})$. On a ainsi défini une bijection canonique $h$ (resp. $h'$) de l’ensemble $\mathfrak{A}_0$ des angles de droites (resp. $\mathfrak{A}$ des angles de demi-droites) sur $S^+/H$ (resp. $O^+$) ; en particulier, pour tout $\varphi \in \mathfrak{A}$, on dit que $h(\varphi)$ est la rotation d’angle $\varphi$. Nous transporterons à $\mathfrak{A}_0$ et $\mathfrak{A}$, au moyen de $h^{-1}$ et de ${h'}^{-1}$, les structures de groupes commutatifs de $S^+/H$ et de $O^+$, et nous noterons additivement les groupes $\mathfrak{A}_0$ et $\mathfrak{A}$ ainsi obtenus. Si l’on désigne par $D, D', D''$ des droites (resp. demi-droites) d’origine 0 de E, on a par définition
 
 $$
 (9) \quad (\widehat{D, D''}) = (\widehat{D, D'}) + (\widehat{D', D''}) \tag{relation de Chasles};
@@ -386,7 +386,7 @@ En vertu du corollaire qui précède, le secteur angulaire ouvert (resp. fermé)
 Soit, en effet, $(x, y)$ une base de E telle que $x \in - D_0$ et le bivecteur $x \wedge y$ soit $> 0$. À tout élément $t$ de A faisons correspondre la demi-droite $f(t)$ à laquelle appartient le vecteur $(1 - t^2)x + 2ty$. Il est clair que $f(A) \subset G$. Montrons que $f$ est strictement croissante. En effet, pour que la suite $D_0, f(t), f(t')$ ($t, t'$ dans A) soit directe, il faut et il suffit, par définition, que deux au moins des éléments
 
 $$
--2t, \quad (1-t^2)2t' - (1-t'^2)2t, \quad 2t'
+-2t, \quad (1-t^2)2t' - (1-{t'}^2)2t, \quad 2t'
 $$
 
 soient $> 0$. Or le second est égal à $2(t' - t)(1 + tt')$. Donc, si $t < t'$, on a, soit $tt' \geqslant 0$, donc $t' > 0$ ou $-t > 0$, soit $tt' < 0$, donc $-t > 0$ et $t' > 0$; en tous cas $D_0, f(t), f(t')$ est directe. Comme $A$ est totalement ordonné, $f$ est un isomorphisme de $A$ sur l’ensemble ordonné $f(A)$ (*Ens*, chap. III, § 1, no 14, prop. 13).

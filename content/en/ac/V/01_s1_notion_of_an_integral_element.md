@@ -49,7 +49,7 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: b337d342b6babab0c6b02f64471e31ee927565e55a6466a64bf4f9ce1fce980c
+content_sha256: 2f79a65f77c0aff7fecf7b74bea588fece9fce74137af610f9bfb9d0274e5dc9
 ---
 
 ## 1. NOTION OF AN INTEGRAL ELEMENT
@@ -408,7 +408,7 @@ it follows immediately from the hypothesis that also $Q(P - P_1)^m \in A[X]$ (re
 
 Let $(A_n)_{n \in \mathbf{Z}}$ be the filtration defined on $A$; as $\bigcap_{n \in \mathbf{Z}} A_n$, is the closure of the ideal (0) (Chapter III, § 2, no. 5), the hypothesis implies first that the filtration $(A,,)$ is separated and, as $\mathrm{gr}(A)$ is an integral domain, so then is $A$ (Chapter III, § 2, no. 3, Corollary to Proposition 1). Let $x = b/a$ be an element of the field of fractions $K$ of $A$ ($a \in A, b \in A$) for which there exists an element $d \neq 0$ of $A$ such that $dx^n \in A$ for all $n \geq 0$. We must prove that $b \in A a$ and, as by hypothesis the ideal $A a$ is closed, it is sufficient to show that, for all $n \in \mathbf{Z}, b \in A a + A$. As the filtration of $A$ is exhaustive, there exists an integer $q \in \mathbf{Z}$ such that $b \in A a + A_q$. It will therefore suffice to prove that the relation $b \in A a + A_q$ implies $b \in A a + A_{q+1}$.
 
-Suppose then that $b = a y + z$ where $y \in A, z \in A_{q+1}$. Then by hypothesis $dx^n \in A$ for all $n \geq 0$, whence we obtain immediately $d(x - y)^n \in A$ for all $n \geq 0$; in other words, $dz^n = a^n t_n$ where $t_n \in A$ for all $n \geq 0$. We can obviously limit our attention to the case where $z \neq 0$. Let $v$ denote the order function on $A$ (Chapter III, § 1, no. 2) and let us write $v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$; let $d', z', a'$ be the respective images of $d, z, a$ in $A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$. For all $n \geq 0,\ v(dz^n) = n_1 + nn_2$ (Chapter III, § 2, no. 3, Proposition 1) and hence the canonical image in $\mathrm{gr}(A)$ of $dz^n$ is $d'z'^n$; similarly it is seen that the canonical image in $\mathrm{gr}(A)$ of $a^n t_n$ is of the form $d'^n t'_n$ where $t'_n \in \mathrm{gr}(A)$ and, as $a' \neq 0$ we deduce that, for all $n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$. The hypothesis that $\mathrm{gr}(A)$ is completely integrally closed therefore implies the existence of an $s' \in \mathrm{gr}(A)$ such that $z' = a's'$; decomposing $s'$ into a sum of homogeneous elements, it is further seen (since $z'$ and $a'$ are homogeneous) that $s'$ may be assumed to be homogeneous, that is the image of an element $s \in A$; then $v(as) = v(z) = n_2$ and $z \equiv as \pmod{A_{n_2+1}}$; as $n_2 \geq m, a fortiori$ $z \equiv as \pmod{A_{m+1}}$, hence $b \equiv a(y+s) \pmod{A,,+,}$.
+Suppose then that $b = a y + z$ where $y \in A, z \in A_{q+1}$. Then by hypothesis $dx^n \in A$ for all $n \geq 0$, whence we obtain immediately $d(x - y)^n \in A$ for all $n \geq 0$; in other words, $dz^n = a^n t_n$ where $t_n \in A$ for all $n \geq 0$. We can obviously limit our attention to the case where $z \neq 0$. Let $v$ denote the order function on $A$ (Chapter III, § 1, no. 2) and let us write $v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$; let $d', z', a'$ be the respective images of $d, z, a$ in $A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$. For all $n \geq 0,\ v(dz^n) = n_1 + nn_2$ (Chapter III, § 2, no. 3, Proposition 1) and hence the canonical image in $\mathrm{gr}(A)$ of $dz^n$ is $d'{z'}^n$; similarly it is seen that the canonical image in $\mathrm{gr}(A)$ of $a^n t_n$ is of the form ${d'}^n t'_n$ where $t'_n \in \mathrm{gr}(A)$ and, as $a' \neq 0$ we deduce that, for all $n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$. The hypothesis that $\mathrm{gr}(A)$ is completely integrally closed therefore implies the existence of an $s' \in \mathrm{gr}(A)$ such that $z' = a's'$; decomposing $s'$ into a sum of homogeneous elements, it is further seen (since $z'$ and $a'$ are homogeneous) that $s'$ may be assumed to be homogeneous, that is the image of an element $s \in A$; then $v(as) = v(z) = n_2$ and $z \equiv as \pmod{A_{n_2+1}}$; as $n_2 \geq m, a fortiori$ $z \equiv as \pmod{A_{m+1}}$, hence $b \equiv a(y+s) \pmod{A,,+,}$.
 
 ### 5. THE INTEGRAL CLOSURE OF A RING OF FRACTIONS
 
@@ -442,7 +442,7 @@ $$
 (sr^n + a_1 r^{n-1} + \ldots + a_n)/s = 0
 $$
 
-and therefore there exists $s' \in S$ such that $s'^n(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; we deduce that $(s'sr)^n + s'a_1(s'sr)^{n-1} + \ldots + s'^ns^{n-1}a_n = 0$. By definition therefore $s'sr \in A'$, whence $r/1 \in S^{-1}A'$ and $r/t \in S^{-1}A'$.
+and therefore there exists $s' \in S$ such that ${s'}^n(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; we deduce that $(s'sr)^n + s'a_1(s'sr)^{n-1} + \ldots + {s'}^ns^{n-1}a_n = 0$. By definition therefore $s'sr \in A'$, whence $r/1 \in S^{-1}A'$ and $r/t \in S^{-1}A'$.
 
 #### Corollary 1 {#ac-v-s1-prop-16-cor-1 .statement}
 

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 2040523dede8afee58e4a45c119ab669292c56dd9057a1e8cc61c8464b88b8b2
+content_sha256: 6e0f3c0dcca4e43967d837376321cc1a4c52f1a6db2f93a6d83517013f13a9a1
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
-source_content_sha256: be892f61702ef86e17887833e3b3fd6b0a97a2edac49c09d4edd4594b5071311
+source_content_sha256: 078f19722008dfae813e659f6b11ae7131834f184493c91a7d14517868b1259e
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-cb2d1caa
 glossary_version: 34
@@ -219,13 +219,13 @@ $$
 do đó, với mọi $x', y', z'$ trong $K$,
 
 $$
--\varphi(x', y') = \varphi(z', x'y') - y'^{-1}\varphi(z', x') - \varphi(z'x', y').
+-\varphi(x', y') = \varphi(z', x'y') - {y'}^{-1}\varphi(z', x') - \varphi(z'x', y').
 $$
 
 Ta hãy lấy tích phân theo $z'$ bằng độ đo Haar chuẩn hóa $\alpha$ của $K$. Đặt $\psi(x') = \int \varphi(z', x')\, d\alpha(z')$, $\psi$ là một hàm liên tục trên K, và (nhận thấy rằng các phép toán của K trong $\mathbf{R}^n$ tôn trọng cấu trúc không gian vectơ của $\mathbf{R}^n$ theo GT, VII, §2, No. 1, Mệnh đề 1), ta thu được
 
 $$
--\varphi(x', y') = \psi(x'y') - y'^{-1}\psi(x') - \psi(y').
+-\varphi(x', y') = \psi(x'y') - {y'}^{-1}\psi(x') - \psi(y').
 $$
 
 Nói cách khác, đặt $k - \psi \circ \pi$, là một hàm liên tục trên $G$,

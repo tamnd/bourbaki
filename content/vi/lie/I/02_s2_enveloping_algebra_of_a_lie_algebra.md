@@ -48,9 +48,9 @@ subsections:
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: 47387a1a6858f3fbe6e31b3437b7b55a5ab55aa816bcbf4e13c43bc558269f9e
+content_sha256: 553342d82c0ed860d37db32925ff3fc7f0bbb4d83f5b8d24030521dcecdcddba
 translated_from: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
-source_content_sha256: 3127508d5f90527bbaa3864a5157edf0393e092e04b8b4b66bf8624c8bc2e2f0
+source_content_sha256: 7c5e0173708758daaf1de76c3fa9fffdb5ef6051a22ee9beb926543178eb668e
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-a4a762ec
 glossary_version: 34
@@ -222,18 +222,18 @@ Cho V là một K-môđun. V có thể được xem theo một cách duy nhất 
 
 Nhắc lại (*Algebra*, Chương III, § 6) rằng S được gọi là đại số đối xứng của V, ta tóm tắt ngắn gọn các tính chất cần dùng trong chương này, mà các chứng minh của chúng là ngay lập tức. Cho $T^n$ là tập hợp các tenxơ thuần nhất cấp n trong T. Khi đó $I = (I \cap T^2) + (I \cap T^3) + \cdots$ và do đó S là tổng trực tiếp của các ảnh chính tắc $S^n$ của các $T^n$. Các phần tử của $S^n$ được gọi là thuần nhất bậc n. $S^0 = K.1, S^1$ được đồng nhất với V và $S^n S^p \subset S^{n+p}$. Đại số S được sinh bởi 1 và $S^1 = V$. Rõ ràng hai phần tử bất kỳ của $S^1$ đều hoán vị được và do đó S là giao hoán. Nếu V là một K-môđun tự do với cơ sở $(x_\lambda)_{\lambda \in \Lambda}$, đồng cấu chính tắc f của đại số đa thức $K[X_\lambda]_{\lambda \in \Lambda}$ lên S biến 1 thành 1 và $X_\lambda$ thành $x_\lambda$ với mọi $\lambda \in \Lambda$ là một đẳng cấu: vì theo tính chất phổ quát của S (no. 1, Mệnh đề 1) tồn tại một đồng cấu g của S vào $K[X_\lambda]_{\lambda \in \Lambda}$ biến 1 thành 1 và $x_\lambda$ thành $X_\lambda$ với mọi $\lambda \in \Lambda$ và f và g là các đồng cấu nghịch đảo của nhau.
 
-Cho $S'^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n (*Đại số*, Chương III, § 5, no. 1, Định nghĩa 2). Nếu K là một trường có đặc số 0, $S'^n$ và $I \cap T^n$ là bù nhau trong $T^n$. Thật vậy, cho $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của V. Ta trang bị cho $\Lambda$ một thứ tự toàn phần (*Lý thuyết tập hợp*, Chương III, § 2, no. 3, Định lý 1). Gọi $\Lambda_n$ là tập hợp các dãy tăng gồm n phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt
+Cho ${S'}^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n (*Đại số*, Chương III, § 5, no. 1, Định nghĩa 2). Nếu K là một trường có đặc số 0, ${S'}^n$ và $I \cap T^n$ là bù nhau trong $T^n$. Thật vậy, cho $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của V. Ta trang bị cho $\Lambda$ một thứ tự toàn phần (*Lý thuyết tập hợp*, Chương III, § 2, no. 3, Định lý 1). Gọi $\Lambda_n$ là tập hợp các dãy tăng gồm n phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt
 
 $$
 y_M = \frac{1}{n!} \sum_{\sigma \in S_n} x_{\lambda_{\sigma(n)}} \otimes \cdots \otimes x_{\lambda_{\sigma(n)}}.
 $$
 
-Các $y_M$ với $M \in \Lambda_n$ tạo thành một hệ sinh của không gian vectơ K $S'^n$. Khi đó các ảnh chính tắc của chúng trong $S^n$, theo đoạn trên, tạo thành một cơ sở của $S^n$. Do đó $(y_M)_{M \in \Lambda_n}$ là một cơ sở của một không gian con bù của $I \cap T^n$ trong $T^n$ (*Đại số*, Chương II, § 1, no. 6, Mệnh đề 4), điều này thiết lập mệnh đề của chúng ta.
+Các $y_M$ với $M \in \Lambda_n$ tạo thành một hệ sinh của không gian vectơ K ${S'}^n$. Khi đó các ảnh chính tắc của chúng trong $S^n$, theo đoạn trên, tạo thành một cơ sở của $S^n$. Do đó $(y_M)_{M \in \Lambda_n}$ là một cơ sở của một không gian con bù của $I \cap T^n$ trong $T^n$ (*Đại số*, Chương II, § 1, no. 6, Mệnh đề 4), điều này thiết lập mệnh đề của chúng ta.
 
-Như vậy, khi K là một trường có đặc số 0, hạn chế vào $S'^n$ của ánh xạ chính tắc $T^n \to S^n$ là một đẳng cấu của không gian $S'^n$ lên không gian $S^n$ và do đó có một đẳng cấu nghịch đảo. Các đẳng cấu nghịch đảo thu được như vậy với mỗi n định nghĩa một đẳng cấu chính tắc của không gian S lên không gian
+Như vậy, khi K là một trường có đặc số 0, hạn chế vào ${S'}^n$ của ánh xạ chính tắc $T^n \to S^n$ là một đẳng cấu của không gian ${S'}^n$ lên không gian $S^n$ và do đó có một đẳng cấu nghịch đảo. Các đẳng cấu nghịch đảo thu được như vậy với mỗi n định nghĩa một đẳng cấu chính tắc của không gian S lên không gian
 
 $$
-S' = \sum_{n \geq 0} S'^n \text{ của các tenxơ đối xứng}.
+S' = \sum_{n \geq 0} {S'}^n \text{ của các tenxơ đối xứng}.
 $$
 
 ### 6. LỌC CỦA ĐẠI SỐ BAO
@@ -285,7 +285,7 @@ Bằng quy nạp theo m, chỉ cần xét trường hợp, chẳng hạn, của 
 Cho g' là một đại số Lie khác trên vành K, U' là đại số bao quanh của nó, U'_n là tập hợp các phần tử của U' có lọc $\leq n$ và U^n (tương ứng U'^n) là tập hợp các ảnh chính tắc trong U (tương ứng U') của các tenxơ đối xứng thuần nhất của g (tương ứng g') cấp n. Cho $\eta$ là một đồng cấu của g vào g' và $\tilde{\eta}$ là đồng cấu tương ứng của U vào U'. Khi đó
 
 $$
-\tilde{\eta}(U_n) \subset U'_n, \quad \tilde{\eta}(U^n) \subset U'^n.
+\tilde{\eta}(U_n) \subset U'_n, \quad \tilde{\eta}(U^n) \subset {U'}^n.
 $$
 
 Đặc biệt, phản tự đẳng cấu chính của U giữ ổn định U_n và U^n. Ánh xạ K-tuyến tính của T^n lên chính nó biến
@@ -413,15 +413,15 @@ do đó có hệ quả.
 
 #### Hệ quả 4 {#lie-i-s2-lem-3-cor-4 .statement}
 
-*Cho $S'^n \subset T^n$ là tập hợp các tensor đối xứng thuần nhất cấp n. Giả sử rằng K là một trường có đặc số 0. Khi đó ánh xạ hợp thành của các ánh xạ chính tắc*
+*Cho ${S'}^n \subset T^n$ là tập hợp các tensor đối xứng thuần nhất cấp n. Giả sử rằng K là một trường có đặc số 0. Khi đó ánh xạ hợp thành của các ánh xạ chính tắc*
 
 $$
-S^n \to S'^n \to U_n
+S^n \to {S'}^n \to U_n
 $$
 
 *là một đẳng cấu của không gian vectơ $S^n$ lên một phần bù của $U_{n-1}$ trong $U_n$.*
 
-Điều này suy ra từ Hệ quả 1 bằng cách lấy $W = S'^n$.
+Điều này suy ra từ Hệ quả 1 bằng cách lấy $W = {S'}^n$.
 
 Từ nay về sau, giả sử rằng K là một trường có đặc số 0. Cho $\eta_n$ là ánh xạ từ $S^n$ vào $U_n$ vừa được định nghĩa. Đặt $U^n = \eta_n(S^n)$. Không gian vectơ $U$ là tổng trực tiếp của các $U^n$. Các $\eta_n$ định nghĩa một đẳng cấu $\eta$ của không gian vectơ $S = \sum_n S^n$ lên không gian vectơ $U = \sum_n U^n$, được gọi là *đẳng cấu chính tắc của S lên U*; đây *không* phải là một đẳng cấu đại số. Ta có biểu đồ giao hoán:
 
@@ -429,7 +429,7 @@ $$
 \begin{array}{ccccc}
 & & U^n & & \\
 & \nearrow \psi_n & \uparrow \eta_n & \searrow \theta_n & \\
-S'^n & & & & G^n \\
+{S'}^n & & & & G^n \\
 & \searrow \tau_n & & \nearrow \omega_n & \\
 & & S^n & &
 \end{array}
@@ -562,7 +562,7 @@ do đó $\Delta \circ \sigma = \sigma \circ \mathrm{ad}\, x$. Điều này hoàn
 
 Áp dụng Mệnh đề 7 vào trường hợp một đại số Lie giao hoán, ta thấy rằng mọi tự đồng cấu $u$ của một $K$-môđun đều có thể được mở rộng một cách duy nhất thành một đạo hàm của đại số đối xứng của môđun này; đạo hàm này được dẫn xuất khi chuyển qua thương từ đạo hàm của đại số tenxơ mở rộng $u$.
 
-Ta lại lấy một đại số Lie $g$ trên $K$ và gọi $D$ là một đạo hàm của $g$. Ta sử dụng các ký hiệu trước đó $T, S, U, G$. Gọi $D_T, D_S$ là các đạo hàm của $T, S$ mở rộng $D$ và gọi $D_U$ là đạo hàm duy nhất của $U$ sao cho $\sigma \circ D = D_U \circ \sigma$. Vì $D_U$ giữ các $U_n$ ổn định, $D_U$ xác định, khi lấy các thương, một đạo hàm $D_G$ của $G$. Vì $D_U$ và $D_S$ được dẫn xuất từ $D_T$ khi chuyển qua các thương, biểu đồ giao hoán (3) chứng minh rằng $D_G$ cũng có thể được dẫn xuất từ $D_S$ bởi đồng cấu $\omega$ được xác định trong no. 6. Nếu hơn nữa $K$ là một trường có đặc số 0, các đẳng cấu của biểu đồ (4) ánh xạ lẫn nhau các hạn chế của $D_T, D_S, D_U, D_G$ lên $S'^n, S^n, U^n, G^n$. Do đó đẳng cấu chính tắc của $S$ lên $U$ ánh xạ $D_S$ thành $D_U$.
+Ta lại lấy một đại số Lie $g$ trên $K$ và gọi $D$ là một đạo hàm của $g$. Ta sử dụng các ký hiệu trước đó $T, S, U, G$. Gọi $D_T, D_S$ là các đạo hàm của $T, S$ mở rộng $D$ và gọi $D_U$ là đạo hàm duy nhất của $U$ sao cho $\sigma \circ D = D_U \circ \sigma$. Vì $D_U$ giữ các $U_n$ ổn định, $D_U$ xác định, khi lấy các thương, một đạo hàm $D_G$ của $G$. Vì $D_U$ và $D_S$ được dẫn xuất từ $D_T$ khi chuyển qua các thương, biểu đồ giao hoán (3) chứng minh rằng $D_G$ cũng có thể được dẫn xuất từ $D_S$ bởi đồng cấu $\omega$ được xác định trong no. 6. Nếu hơn nữa $K$ là một trường có đặc số 0, các đẳng cấu của biểu đồ (4) ánh xạ lẫn nhau các hạn chế của $D_T, D_S, D_U, D_G$ lên ${S'}^n, S^n, U^n, G^n$. Do đó đẳng cấu chính tắc của $S$ lên $U$ ánh xạ $D_S$ thành $D_U$.
 
 ### 9. MỞ RỘNG VÀNH CƠ SỞ
 

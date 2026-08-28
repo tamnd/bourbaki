@@ -25,7 +25,7 @@ subsections:
       pdf_page: 98
 statements: 21
 exercises: 5
-content_sha256: 78703e6d58720e263be19c51e2fa693696c9cc42a9bed494acc2297bb920b9cf
+content_sha256: 825c3897c1301031050f2a51d46d1bac1af9f15d6cd89ce5c50735334a20be3f
 ---
 
 ## § 7. POINTS EXTRÉMAUX ET GÉNÉRATRICES EXTRÉMALES
@@ -181,9 +181,9 @@ Il suffit de démontrer cette dernière lorsque $x \neq 0$ et $y \neq 0$; on a d
 
 Soient E un espace localement convexe séparé, C un cône convexe pointé de sommet 0 dans E, A un chapeau de C, p la jauge de A. Les points extrémaux de A sont alors : le point 0, et les points x situés sur les génératrices extrémales de C et tels que $p(x) = 1$.
 
-Il est clair que 0 est un point extrémal de A. Soit x un point situé sur une génératrice extrémale L de C et tel que $p(x) = 1$. Soient y, z deux points de A tels que $x = \frac{1}{2}(y + z)$. Comme L est extrémale, on a $y = \lambda x$ et $z = \mu x$, où $\lambda$ et $\mu$ sont des nombres $\geq 0$ tels que $\frac{1}{2}(\lambda + \mu) = 1$, $\lambda = \lambda p(x) = p(y) \leq 1$ et $\mu = \mu p(x) = p(z) \leq 1$, d’où $\lambda = \mu = 1$ et par suite $y = z = x$; ainsi, x est point extrémal de A. Réciproquement, soit $x \neq 0$ un point extrémal de A. Il est clair que $p(x) = 1$. Soient y, $y'$ deux points de C tels que $x = y + y'$, et montrons que y, $y'$ sont proportionnels à x. On peut se limiter au cas où les nombres $\lambda = p(y)$ et $\lambda' = p(y')$ sont finis et $> 0$. Alors $\lambda^{-1} y \in A, \lambda'^{-1} y' \in A, \lambda + \lambda' = 1$ en vertu de la prop. 4, (i), et l’égalité $x = \lambda (\lambda^{-1} y) + \lambda' (\lambda'^{-1} y')$ entraîne par hypothèse
+Il est clair que 0 est un point extrémal de A. Soit x un point situé sur une génératrice extrémale L de C et tel que $p(x) = 1$. Soient y, z deux points de A tels que $x = \frac{1}{2}(y + z)$. Comme L est extrémale, on a $y = \lambda x$ et $z = \mu x$, où $\lambda$ et $\mu$ sont des nombres $\geq 0$ tels que $\frac{1}{2}(\lambda + \mu) = 1$, $\lambda = \lambda p(x) = p(y) \leq 1$ et $\mu = \mu p(x) = p(z) \leq 1$, d’où $\lambda = \mu = 1$ et par suite $y = z = x$; ainsi, x est point extrémal de A. Réciproquement, soit $x \neq 0$ un point extrémal de A. Il est clair que $p(x) = 1$. Soient y, $y'$ deux points de C tels que $x = y + y'$, et montrons que y, $y'$ sont proportionnels à x. On peut se limiter au cas où les nombres $\lambda = p(y)$ et $\lambda' = p(y')$ sont finis et $> 0$. Alors $\lambda^{-1} y \in A, {\lambda'}^{-1} y' \in A, \lambda + \lambda' = 1$ en vertu de la prop. 4, (i), et l’égalité $x = \lambda (\lambda^{-1} y) + \lambda' ({\lambda'}^{-1} y')$ entraîne par hypothèse
 $$
-x = \lambda^{-1} y = \lambda'^{-1} y'.
+x = \lambda^{-1} y = {\lambda'}^{-1} y'.
 $$
 
 #### Corollaire 2 {#evt-ii-s7-prop-4-cor-2 .statement}

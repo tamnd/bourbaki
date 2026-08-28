@@ -41,9 +41,9 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 8
-content_sha256: 1685abd656447bf6d00a300ded22e12a04d0e0eab9d2d0d9c0dd307e14838972
+content_sha256: 92d636d2f57f1c947a0bcff6c246f6e062e68562972a9a06c360454be321e17d
 translated_from: content/en/ac/II/05_s5_finitely_generated_projective_modules.md
-source_content_sha256: b0d54943b748610ad0e7af93405f294a99c6edab5712a336877d7ebc3241e9b3
+source_content_sha256: 1cbbdb2e32921c4f6ee5337af18e13c88d05528cbdfb0af689b4b382c3f1454e
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-5e8c59f3
 glossary_version: 34
@@ -79,7 +79,7 @@ $$
 (R_{g'})_{pR_{g'}} = R_p = 0;
 $$
 
-do đó tồn tại $g_1 \in A, - pA_{g'}$ sao cho $g_1 R_{g'} = 0$ (\S 2, no. 2, Hệ quả 2 của Mệnh đề 4). Khi đó $g_1 = g''/g'^h$, trong đó $g'' \in A - p$; vì $g'/1$ khả nghịch trong $R_{g'}$, $(g''/1)R_{g'} = 0$, do đó $R_{g'g''} = (R_{g'})_{g''/1} = 0$. Nếu $f = g'g''$, $f \in A - p$, $Q_f = 0$ và $R_f = 0$, nên $u_f$ song ánh.
+do đó tồn tại $g_1 \in A, - pA_{g'}$ sao cho $g_1 R_{g'} = 0$ (\S 2, no. 2, Hệ quả 2 của Mệnh đề 4). Khi đó $g_1 = g''/{g'}^h$, trong đó $g'' \in A - p$; vì $g'/1$ khả nghịch trong $R_{g'}$, $(g''/1)R_{g'} = 0$, do đó $R_{g'g''} = (R_{g'})_{g''/1} = 0$. Nếu $f = g'g''$, $f \in A - p$, $Q_f = 0$ và $R_f = 0$, nên $u_f$ song ánh.
 
 #### Hệ quả {#ac-ii-s5-n1-cor-1 .statement}
 
@@ -372,7 +372,7 @@ $$
 
 Với mọi $x \in M$, đặt $v_i(x) = n_i x$; các $v_i$ là các dạng tuyến tính trên M và theo (9) $x = \sum_{i=1}^{n} m_i v_i(x)$ với mọi $x \in M$; điều này chứng minh (Đại số, Chương 11, §2, no. 6, Mệnh đề 12) rằng M là xạ ảnh và được sinh bởi các $m_i$; do đó M là một môđun xạ ảnh hữu hạn sinh.
 
-Cho m là một iđêan cực đại của A; ta chứng minh rằng số nguyên $r = \mathrm{rg}_m(M)$ bằng 1. Gọi S' là ảnh của S trong $\mathbf{A}_{m'}$; vì các phần tử của S không là các ước của 0 trong A, nên các phần tử của S' không là các ước của 0 trong $\mathbf{A}_{m'}$ vì $\mathbf{A}_{m'}$ là một A-môđun phẳng (\S 2, no. 4, Định lý 1 và Chương I, §2, no. 4, Mệnh đề 3); khi đó $S'^{-1}A_m \neq 0$ và, vì $M_m$ là một $A_m$-môđun tự do có hạng $r$, $S'^{-1}M_m$ là một $S'^{-1}A_m$-môđun tự do có hạng $r$. Nhưng nếu T' là ảnh của A $-m$ trong $S^{-1}A$, thì $S'^{-1}A$, (tương ứng $S'^{-1}M_m$) được đồng nhất một cách chính tắc với $T'^{-1}(S^{-1}A)$ (tương ứng $T'^{-1}(S^{-1}M)$) (\S 2, no. 3, Mệnh đề 7). Bây giờ $S^{-1}M = B$ (Mệnh đề 8 (c)) và do đó $T'^{-1}(S^{-1}M)$ là một A-môđun tự do có hạng 1 trên $T'^{-1}(S^{-1}A)$, điều này chứng minh rằng $r = 1$ và chỉ ra kéo theo (a) $\Rightarrow$ (c).
+Cho m là một iđêan cực đại của A; ta chứng minh rằng số nguyên $r = \mathrm{rg}_m(M)$ bằng 1. Gọi S' là ảnh của S trong $\mathbf{A}_{m'}$; vì các phần tử của S không là các ước của 0 trong A, nên các phần tử của S' không là các ước của 0 trong $\mathbf{A}_{m'}$ vì $\mathbf{A}_{m'}$ là một A-môđun phẳng (\S 2, no. 4, Định lý 1 và Chương I, §2, no. 4, Mệnh đề 3); khi đó ${S'}^{-1}A_m \neq 0$ và, vì $M_m$ là một $A_m$-môđun tự do có hạng $r$, ${S'}^{-1}M_m$ là một ${S'}^{-1}A_m$-môđun tự do có hạng $r$. Nhưng nếu T' là ảnh của A $-m$ trong $S^{-1}A$, thì ${S'}^{-1}A$, (tương ứng ${S'}^{-1}M_m$) được đồng nhất một cách chính tắc với ${T'}^{-1}(S^{-1}A)$ (tương ứng ${T'}^{-1}(S^{-1}M)$) (\S 2, no. 3, Mệnh đề 7). Bây giờ $S^{-1}M = B$ (Mệnh đề 8 (c)) và do đó ${T'}^{-1}(S^{-1}M)$ là một A-môđun tự do có hạng 1 trên ${T'}^{-1}(S^{-1}A)$, điều này chứng minh rằng $r = 1$ và chỉ ra kéo theo (a) $\Rightarrow$ (c).
 
 Kéo theo (c) $\Rightarrow$ (b) là tầm thường. Ta hãy chứng minh rằng (b) $\Rightarrow$ (a). Theo giả thiết, tồn tại một họ (không nhất thiết hữu hạn) $(f_\lambda)_{\lambda \in L}$ các dạng tuyến tính trên M và một họ $(m_\lambda)_{\lambda \in L}$ các phần tử của M sao cho, với mọi $x \in M$, họ $(f_\lambda(x))$ có giá hữu hạn và $x = \sum_{\lambda \in L} m_\lambda f_\lambda(x)$ (Đại số, Chương II, §2, no. 6, Mệnh đề 12). Vì M không suy biến, $f_\lambda(x) = n_\lambda x$ với một $n_\lambda \in A$: M theo Mệnh đề 9 của no. 5. Lấy x là một phần tử của M $\cap S$ (no. 5, Mệnh đề 8), ta thấy tất yếu rằng $n_\lambda = 0$ ngoại trừ một số hữu hạn các chỉ số và $\sum_{\lambda \in L} m_\lambda n_\lambda = 1$. Điều này hiển nhiên kéo theo M . (A: M) = A, do đó có (a).
 

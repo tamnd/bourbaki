@@ -53,7 +53,7 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: e6fbeed416ce5223d2083efdf2930c58be6c35b9febe48f9870b9bb5669b3907
+content_sha256: 6fdd18062de015dd5e49685237342c49c081e4f2523d31a66527ab133256fe12
 ---
 
 ## § 4. GROUPS AND GROUPS WITH OPERATORS
@@ -193,7 +193,7 @@ Let $f : G \to G'$ be a homomorphism of groups with operators and X a subset of 
 
 Let $X' = f(X)$. Then $\hat{X}' = f(\hat{X})$ and ${X'}^{-1} = f(X^{-1})$. Hence
 $$
-f(\hat{X} \cup \hat{X}^{-1}) = \hat{X}' \cup \hat{X}'^{-1}.
+f(\hat{X} \cup \hat{X}^{-1}) = \hat{X}' \cup \hat{{X}'}^{-1}.
 $$
 The corollary then follows from § 1, no. 4, Proposition 1.
 

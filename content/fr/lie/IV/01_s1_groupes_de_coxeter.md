@@ -48,7 +48,7 @@ subsections:
       pdf_page: 19
 statements: 31
 exercises: 12
-content_sha256: b8df5ccf953c21e327a192568af1e0940e7af07b9c39dff0750989a86175d9f1
+content_sha256: f2356272f503afb616694c1e4b9abcdc2aefc35b15b273b4f4664c7e826b7320
 ---
 
 ## § 1. Groupes de Coxeter
@@ -86,7 +86,7 @@ Par hypothèse, on a $l(w) \leq p$, $l(w') \leq q$ et $l(w w') = p + q$. D’apr
 
 #### Remarque {#lie-iv-s1-n1-rem-1 .statement}
 
-La formule $d(w, w') = l(w w'^{-1})$ définit une distance $d$ sur $W$, invariante par les translations à droite, en vertu des formules (1) et (2).
+La formule $d(w, w') = l(w {w'}^{-1})$ définit une distance $d$ sur $W$, invariante par les translations à droite, en vertu des formules (1) et (2).
 
 ### 2. Groupes diédraux
 
@@ -108,7 +108,7 @@ $$
 \rho = (-1, 0), \quad \rho' = (-1, t), \quad \pi = (1, t);
 $$
 
-on a alors $\rho^2 = \rho'^2 = 1$ et $\pi = \rho \rho'$. Les formules
+on a alors $\rho^2 = {\rho'}^2 = 1$ et $\pi = \rho \rho'$. Les formules
 
 $$
 \pi^n = (1, n t), \quad \rho \pi^n = (-1, n t)
@@ -130,7 +130,7 @@ $$
 sp^n s^{-1} = p^{-n}
 $$
 
-pour tout entier $n$. Comme $W$ est engendré par $\{s, s'\}$, donc par $\{s, p\}$, le sous-groupe $P$ de $W$ est distingué. Par suite, TP est un sous-groupe de $W$; comme TP contient $s$ et $s' = sp$, on a donc $W = TP = P \cup sP$. Pour prouver (i), il suffit donc de montrer que l’on a $W \neq P$. Si l’on avait $W = P$, le groupe $W$ serait commutatif, d’où $p^2 = s^2 s'^2 = 1$; les seuls éléments de $W = P$ seraient 1 n° 1.3.
+pour tout entier $n$. Comme $W$ est engendré par $\{s, s'\}$, donc par $\{s, p\}$, le sous-groupe $P$ de $W$ est distingué. Par suite, TP est un sous-groupe de $W$; comme TP contient $s$ et $s' = sp$, on a donc $W = TP = P \cup sP$. Pour prouver (i), il suffit donc de montrer que l’on a $W \neq P$. Si l’on avait $W = P$, le groupe $W$ serait commutatif, d’où $p^2 = s^2 {s'}^2 = 1$; les seuls éléments de $W = P$ seraient 1 n° 1.3.
 
 et $p$, contrairement à l’hypothèse que $W$ contient au moins trois éléments, à savoir $1, s$ et $s'$.
 
@@ -165,7 +165,7 @@ Lorsque $(W, S)$ est un système de Coxeter, on dit aussi, par abus de langage, 
 
 #### Exemple 1 {#lie-iv-s1-n3-exa-1 .statement}
 
-Soit $m$ un entier $\geq 2$ ou $\infty$ et soit $W$ un groupe défini par un ensemble générateur $S = \{s, s'\}$ et les relations $s^2 = s'^2 = 1$ lorsque $m = \infty$, $s^2 = s'^2 = (ss')^m = 1$ lorsque $m$ est fini. Considérons d’autre part le groupe diédral $D_m$ (n° 2, Exemple) et les éléments $\rho$ et $\rho'$ de $D_m$ définis par (7). Puisque $\rho^2 = \rho'^2 = 1$ et que $(\rho\rho')^m = 1$ lorsque $m$ est fini, il existe un homomorphisme $f$ et un seul de $W$ sur $D_m$ tel que $f(s) = \rho$ et $f(s') = \rho'$. Comme $\rho\rho'$ est d’ordre $m$, il en résulte que $ss'$ est lui aussi d’ordre $m$. Par suite, $(W, S)$ est un système de Coxeter, $W$ est un groupe diédral d’ordre $2m$ et $f$ est un isomorphisme (prop. 2).
+Soit $m$ un entier $\geq 2$ ou $\infty$ et soit $W$ un groupe défini par un ensemble générateur $S = \{s, s'\}$ et les relations $s^2 = {s'}^2 = 1$ lorsque $m = \infty$, $s^2 = {s'}^2 = (ss')^m = 1$ lorsque $m$ est fini. Considérons d’autre part le groupe diédral $D_m$ (n° 2, Exemple) et les éléments $\rho$ et $\rho'$ de $D_m$ définis par (7). Puisque $\rho^2 = {\rho'}^2 = 1$ et que $(\rho\rho')^m = 1$ lorsque $m$ est fini, il existe un homomorphisme $f$ et un seul de $W$ sur $D_m$ tel que $f(s) = \rho$ et $f(s') = \rho'$. Comme $\rho\rho'$ est d’ordre $m$, il en résulte que $ss'$ est lui aussi d’ordre $m$. Par suite, $(W, S)$ est un système de Coxeter, $W$ est un groupe diédral d’ordre $2m$ et $f$ est un isomorphisme (prop. 2).
 
 Par transport de structure, on en déduit que tout groupe diédral est un groupe de Coxeter.
 
@@ -251,11 +251,11 @@ $$
 En utilisant l’hypothèse de récurrence, on obtient :
 
 $$
-U_s(\varepsilon, t) = U_{s_q}(\varepsilon \cdot (-1)^{n(s', t)}, w't w'^{-1})
-= (\varepsilon \cdot (-1)^{n(s', t) + \delta_{s_q, w't w'^{-1}}}, wt w^{-1})
+U_s(\varepsilon, t) = U_{s_q}(\varepsilon \cdot (-1)^{n(s', t)}, w't {w'}^{-1})
+= (\varepsilon \cdot (-1)^{n(s', t) + \delta_{s_q, w't {w'}^{-1}}}, wt w^{-1})
 $$
 
-Or $\Phi(s) = (\Phi(s'), w'^{-1}s_qw')$ et $n(s, t) = n(s', t) + \delta_{w'^{-1}s_qw', t}$ d’où la formule (14).
+Or $\Phi(s) = (\Phi(s'), {w'}^{-1}s_qw')$ et $n(s, t) = n(s', t) + \delta_{{w'}^{-1}s_qw', t}$ d’où la formule (14).
 
 Soient alors $s, s' \in S$, tels que $p = ss'$ soit d’ordre fini $m$. Soit $s = (s_1, \ldots, s_{2m})$ la suite d’éléments de $S$ définie par $s_j = s$ pour $j$ impair et $s_j = s'$ pour $j$ pair. On a $s_{2m} \ldots s_1 = p^{-m} = 1$ et la formule (11) entraîne :
 
@@ -288,7 +288,7 @@ $$
 Soient $p$ la longueur de $w$ et $w' = sw$. D’après la *Remarque* du no 3, on a $l(w') \equiv l(w) + 1$ mod. 2; l’hypothèse $l(w') \leq l(w)$ et la relation
 
 $$
-|l(w) - l(w')| \leq l(ww'^{-1}) = l(s) = 1
+|l(w) - l(w')| \leq l(w{w'}^{-1}) = l(s) = 1
 $$
 
 entraînent $l(w') = p - 1$. Choisissons une décomposition réduite
@@ -303,7 +303,7 @@ de $w'$ et posons $s' = (s, s'_1, \ldots, s'_{p-1})$ et $\Phi(s') = (t'_1, \ldot
 
 #### Remarque {#lie-iv-s1-n4-rem-1 .statement}
 
-L’ensemble $T_w$ défini au lemme 2 se compose des éléments de la forme $w''sw''^{-1}$ correspondant aux triplets $(w', w'', s) \in W \times W \times S$ tels que $w = w''sw'$ et $l(w') + l(w'') + 1 = l(w)$.
+L’ensemble $T_w$ défini au lemme 2 se compose des éléments de la forme $w''s{w''}^{-1}$ correspondant aux triplets $(w', w'', s) \in W \times W \times S$ tels que $w = w''sw'$ et $l(w') + l(w'') + 1 = l(w)$.
 
 ### 5. La condition d’échange
 

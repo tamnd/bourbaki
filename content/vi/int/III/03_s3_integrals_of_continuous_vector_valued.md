@@ -29,7 +29,7 @@ subsections:
       pdf_page: 84
 statements: 16
 exercises: 4
-content_sha256: 51fd4d5286217d65e3af9180d16280ca37ecf5bbf6131006d0146b9b026752c3
+content_sha256: 14e44087d707a8aed3236809ce3a8ceb1709906d8aefac10bc4250a040dcdb5e
 translated_from: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
 source_content_sha256: 19ec3def3746b167ecb2eedaa43c825aad749c933e84bbb7cfc506fe29f914f0
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -41,9 +41,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 3. TÍCH PHÂN CÁC HÀM LIÊN TỤC NHẬN GIÁ TRỊ VECTƠ
 
-*Trong suốt tiết diện này, X ký hiệu một không gian địa phương compact, E một không gian lồi địa phương trên $\mathbf{R}$ hoặc $\mathbf{C}$. Ta ký hiệu $E'$ là đối ngẫu của E (không gian các dạng tuyến tính liên tục trên E) và $E'^*$ là đối ngẫu đại số của $E'$ (không gian tất cả các dạng tuyến tính trên $E'$); với $z \in E$, $z' \in E'$, $z'^* \in E'^*$, ta viết $\langle z, z' \rangle = z'(z)$, $\langle z'^*, z' \rangle = z'^*(z')$.
+*Trong suốt tiết diện này, X ký hiệu một không gian địa phương compact, E một không gian lồi địa phương trên $\mathbf{R}$ hoặc $\mathbf{C}$. Ta ký hiệu $E'$ là đối ngẫu của E (không gian các dạng tuyến tính liên tục trên E) và ${E'}^*$ là đối ngẫu đại số của $E'$ (không gian tất cả các dạng tuyến tính trên $E'$); với $z \in E$, $z' \in E'$, ${z'}^* \in {E'}^*$, ta viết $\langle z, z' \rangle = z'(z)$, $\langle {z'}^*, z' \rangle = {z'}^*(z')$.
 
-Nhắc lại rằng nếu E là Hausdorff, thì E có thể được đồng nhất với một không gian con tuyến tính của $E'^*$ bằng cách đồng nhất một phần tử $z \in E$ với dạng tuyến tính $z' \mapsto \langle z, z' \rangle$ trên $E'$, và rằng $E'^*$, được trang bị tôpô yếu $\sigma(E'^*, E')$, có thể được đồng nhất một cách chính tắc với sự hoàn thành của E được trang bị tôpô yếu $\sigma(E, E')$.
+Nhắc lại rằng nếu E là Hausdorff, thì E có thể được đồng nhất với một không gian con tuyến tính của ${E'}^*$ bằng cách đồng nhất một phần tử $z \in E$ với dạng tuyến tính $z' \mapsto \langle z, z' \rangle$ trên $E'$, và rằng ${E'}^*$, được trang bị tôpô yếu $\sigma({E'}^*, E')$, có thể được đồng nhất một cách chính tắc với sự hoàn thành của E được trang bị tôpô yếu $\sigma(E, E')$.
 
 ### 1. Định nghĩa của tích phân của một hàm nhận giá trị vectơ
 
@@ -59,11 +59,11 @@ $$
 \varphi(z') = \int \langle f(x), z' \rangle d\mu(x) = \mu(z' \circ f).
 $$
 
-Hiển nhiên $\varphi$ là một dạng tuyến tính trên $E'$, do đó là *một phần tử của $E'^*$*.
+Hiển nhiên $\varphi$ là một dạng tuyến tính trên $E'$, do đó là *một phần tử của ${E'}^*$*.
 
 #### Định nghĩa 1 {#int-iii-s3-def-1 .statement}
 
-*Với mọi hàm $f \in \widetilde{\mathcal{K}}(X;E)$ ta gọi tích phân của $f$ đối với $\mu$, và ký hiệu bởi $\int f d\mu$ hoặc $\int f(x) d\mu(x)$, hoặc $\int f \mu$, hoặc $\int f(x)\mu(x)$, là phần tử của $E'^*$ được định nghĩa bởi*
+*Với mọi hàm $f \in \widetilde{\mathcal{K}}(X;E)$ ta gọi tích phân của $f$ đối với $\mu$, và ký hiệu bởi $\int f d\mu$ hoặc $\int f(x) d\mu(x)$, hoặc $\int f \mu$, hoặc $\int f(x)\mu(x)$, là phần tử của ${E'}^*$ được định nghĩa bởi*
 
 $$
 \left\langle \int f d\mu, z' \right\rangle = \int \langle f, z' \rangle d\mu \quad \text{với mọi } z' \in E'.
@@ -79,7 +79,7 @@ $$
 (\xi_1, \ldots \xi_n) \mapsto \sum_{i=1}^n \xi_i e_i
 $$
 
-là một *đẳng cấu* từ $\mathbf{C}^n$ lên $E$. Khi đó ta biết rằng mọi dạng tuyến tính trên $E$ đều liên tục, nói cách khác $E'$ đồng nhất với đối ngẫu đại số $E^*$ của $E$, và $E'^*$ có thể được đồng nhất với $E$ một cách chính tắc. Gọi $(e'_i)_{1 \leq i \leq n}$ là cơ sở của $E'$ đối ngẫu với $(e_i)$; để một ánh xạ $f$ từ $X$ vào $E$ là liên tục yếu và có giá vô hướng với giá đỡ compact, điều kiện cần và đủ là các hàm $f_i = e'_i \circ f$ liên tục và có giá đỡ compact; khi đó ta có $f(x) = \sum_{i=1}^n f_i(x) e_i$ với mọi $x \in X$, và
+là một *đẳng cấu* từ $\mathbf{C}^n$ lên $E$. Khi đó ta biết rằng mọi dạng tuyến tính trên $E$ đều liên tục, nói cách khác $E'$ đồng nhất với đối ngẫu đại số $E^*$ của $E$, và ${E'}^*$ có thể được đồng nhất với $E$ một cách chính tắc. Gọi $(e'_i)_{1 \leq i \leq n}$ là cơ sở của $E'$ đối ngẫu với $(e_i)$; để một ánh xạ $f$ từ $X$ vào $E$ là liên tục yếu và có giá vô hướng với giá đỡ compact, điều kiện cần và đủ là các hàm $f_i = e'_i \circ f$ liên tục và có giá đỡ compact; khi đó ta có $f(x) = \sum_{i=1}^n f_i(x) e_i$ với mọi $x \in X$, và
 
 $$
 \int f d\mu = \sum_{i=1}^n \mu(f_i) e_i.
@@ -129,7 +129,7 @@ từ $\widetilde{\mathcal{K}}(X; E) \times \mathcal{M}(X; \mathbf{C})$ vào $E'*
 
 Mệnh đề này suy ra ngay lập tức từ Định nghĩa 1 của No. 1.
 
-Cho $u$ là một ánh xạ tuyến tính liên tục từ $E$ vào một không gian lồi địa phương $F$; ta biết rằng ánh xạ chuyển vị $^t u$ là một ánh xạ tuyến tính từ đối ngẫu $F'$ của $F$ vào đối ngẫu $E'$ của $E$; ta sẽ ký hiệu bởi $^{tt} u$ ánh xạ $E'^* \to F'^*$, là chuyển vị của $^t u$ (theo nghĩa đại số); khi $E$ và $F$ là Hausdorff và được đồng nhất một cách chính tắc với các không gian con của $E'^*$ và $F'^*$ tương ứng, thì $^{tt} u$ mở rộng ánh xạ $u$. Với các ký hiệu này:
+Cho $u$ là một ánh xạ tuyến tính liên tục từ $E$ vào một không gian lồi địa phương $F$; ta biết rằng ánh xạ chuyển vị $^t u$ là một ánh xạ tuyến tính từ đối ngẫu $F'$ của $F$ vào đối ngẫu $E'$ của $E$; ta sẽ ký hiệu bởi $^{tt} u$ ánh xạ ${E'}^* \to {F'}^*$, là chuyển vị của $^t u$ (theo nghĩa đại số); khi $E$ và $F$ là Hausdorff và được đồng nhất một cách chính tắc với các không gian con của ${E'}^*$ và ${F'}^*$ tương ứng, thì $^{tt} u$ mở rộng ánh xạ $u$. Với các ký hiệu này:
 
 #### Mệnh đề 2 {#int-iii-s3-prop-2 .statement}
 
@@ -167,7 +167,7 @@ do đó suy ra (3).
 
 #### Mệnh đề 4 {#int-iii-s3-prop-4 .statement}
 
-— Cho $\mu$ là một độ đo dương trên $X$, $S$ là giá của nó, và $f$ là một hàm trong $\widetilde{\mathcal{K}}(X;E)$. Giả sử $E$ là Hausdorff, và trang bị cho không gian $E'^*$ tôpô yếu $\sigma(E'^*, E')$.
+— Cho $\mu$ là một độ đo dương trên $X$, $S$ là giá của nó, và $f$ là một hàm trong $\widetilde{\mathcal{K}}(X;E)$. Giả sử $E$ là Hausdorff, và trang bị cho không gian ${E'}^*$ tôpô yếu $\sigma({E'}^*, E')$.
 
 (i) *Tích phân* $\int f\, d\mu$ *thuộc bao đóng* C *trong* E'** *của nón lồi sinh bởi* f(S).
 
@@ -209,7 +209,7 @@ Giả sử trước hết rằng $\mu$ là dương; theo giả thiết, giá c�
 
 *Giả sử rằng không gian* X *là compact, và cho* f *là một ánh xạ liên tục từ* X *vào một không gian lồi địa phương Hausdorff* E. *Bao lồi đóng của* f(X) *trong* E'** *(đối với* $\sigma(E', E')$) *bằng tập hợp các vectơ* $\int f\, d\mu$ *khi* $\mu$ *chạy qua mọi độ đo dương trên* X *có tổng khối lượng bằng* 1.
 
-Gọi C là bao lồi đóng của f(X) trong E'**; vì f(X) là compact và E'** là *đầy đủ*, C là compact. Ta đã biết (Mệnh đề 4) rằng $\int f d\mu \in C$ với mọi độ đo $\mu$ thuộc tập lồi $H$ các độ đo dương trên $X$ có khối lượng toàn phần bằng 1. Mặt khác, $H$ là lồi và *compact* đối với tôpô mơ hồ (\S 1, No. 9, Hệ quả 3 của Mệnh đề 15) và là bao đóng (đối với tôpô này) của tập lồi $H_0$ các độ đo dương có khối lượng 1 và giá *hữu hạn* (\S 2, No. 4, Hệ quả 3 của Định lý 1). Khi đó, ảnh của $H_0$ dưới ánh xạ $\mu \mapsto \int f d\mu$ là bao lồi $C_0$ của $f(X)$ trong $E'^*$. Mặt khác, ánh xạ này liên tục đối với tôpô mơ hồ trên $\mathcal{M}(X; C)$ và tôpô $\sigma(E'^*, E')$ trên $E'^*$ vì $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ theo định nghĩa; do đó ảnh của $H = \overline{H_0}$ là một tập lồi *compact* chứa $C_0$ và được chứa trong $C$; vì $C = \overline{C_0}$, ảnh này bằng $C$.
+Gọi C là bao lồi đóng của f(X) trong E'**; vì f(X) là compact và E'** là *đầy đủ*, C là compact. Ta đã biết (Mệnh đề 4) rằng $\int f d\mu \in C$ với mọi độ đo $\mu$ thuộc tập lồi $H$ các độ đo dương trên $X$ có khối lượng toàn phần bằng 1. Mặt khác, $H$ là lồi và *compact* đối với tôpô mơ hồ (\S 1, No. 9, Hệ quả 3 của Mệnh đề 15) và là bao đóng (đối với tôpô này) của tập lồi $H_0$ các độ đo dương có khối lượng 1 và giá *hữu hạn* (\S 2, No. 4, Hệ quả 3 của Định lý 1). Khi đó, ảnh của $H_0$ dưới ánh xạ $\mu \mapsto \int f d\mu$ là bao lồi $C_0$ của $f(X)$ trong ${E'}^*$. Mặt khác, ánh xạ này liên tục đối với tôpô mơ hồ trên $\mathcal{M}(X; C)$ và tôpô $\sigma({E'}^*, E')$ trên ${E'}^*$ vì $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ theo định nghĩa; do đó ảnh của $H = \overline{H_0}$ là một tập lồi *compact* chứa $C_0$ và được chứa trong $C$; vì $C = \overline{C_0}$, ảnh này bằng $C$.
 
 #### Mệnh đề 6 {#int-iii-s3-prop-6 .statement}
 

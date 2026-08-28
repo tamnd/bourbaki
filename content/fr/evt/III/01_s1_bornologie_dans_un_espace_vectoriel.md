@@ -40,7 +40,7 @@ subsections:
       pdf_page: 144
 statements: 33
 exercises: 18
-content_sha256: 900d3937eb1e4c2f117534a53720212a89478b9c51cb019d016f7b23ede16893
+content_sha256: 13bcd0f4c224851c808e715184359c6158205ca15d338d6372fdb3edb887ad1b
 ---
 
 ## § 1. BORNOLOGIE DANS UN ESPACE VECTORIEL TOPOLOGIQUE
@@ -328,13 +328,13 @@ pour tout $f \in \mathcal{G}_{s,M}(I)$. On note $\mathcal{G}_s(I)$ la réunion d
 Soit $M < M'$ et soit B la boule unité (fermée) dans $\mathcal{G}_{s,M}(I)$. Nous allons montrer que B est une partie *compacte* de l’espace de Banach $\mathcal{G}_{s,M'}(I)$. Il est clair que B est fermée dans $\mathcal{G}_{s,M'}(I)$ et il suffit donc de prouver que B est précompacte dans $\mathcal{G}_{s,M'}(I)$. Soit $\varepsilon > 0$ et soit N un entier positif tel que $(M/M')^N \leqslant \varepsilon/2$. Soit k un entier positif ; l’ensemble des fonctions $D^{k+1} f$, pour $f$ parcourant B, est borné dans $\mathcal{C}(I)$, donc l’ensemble des fonctions $D^k f$, où $f$ parcourt B, est relativement compact dans $\mathcal{C}(I)$ : cela résulte du th. des accroissements finis (FVR, I, p. 23, cor. 1) et du th. d’Ascoli (TG, X, p. 17). Définissons une norme q sur $\mathcal{G}_{s,M}(I)$ par
 
 $$
-q(f) = \sup_{\substack{0 \leqslant n \leqslant N \\ x \in I}} |D^n f(x)|/M'^n(n!)^s .
+q(f) = \sup_{\substack{0 \leqslant n \leqslant N \\ x \in I}} |D^n f(x)|/{M'}^n(n!)^s .
 $$
 
 Ce qui précède montre que B est précompacte pour la topologie associée à la norme q ; autrement dit, il existe une partie finie C de B telle que, pour toute $f \in B$, il existe $g \in C$ pour laquelle $q(f - g) \leqslant \varepsilon$. Pour tout $n > N$, on a alors
 
 $$
-|D^n f(x) - D^n g(x)|/M'^n(n!)^s \leqslant 2(M/M')^n \leqslant \varepsilon ,
+|D^n f(x) - D^n g(x)|/{M'}^n(n!)^s \leqslant 2(M/M')^n \leqslant \varepsilon ,
 $$
 
 d’où finalement $\|f - g\|_{s,M'} \leqslant \varepsilon$. Ceci prouve que B est précompacte dans $\mathcal{G}_{s,M'}(I)$.

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: bac6f92ff3385e420bd634c888abf33125d3a7afc537be352959a2bec64f72e9
+content_sha256: 4bdfd45d074b8fb1fc45bbdbf705e28e2b73e20a27681320842f9ce58bd4d2d5
 ---
 
 ## § 4. CONVOLUTION OF MEASURES AND FUNCTIONS
@@ -524,9 +524,9 @@ $$
 \| \mu * f \|_p \leq \| \mu \|_{\chi^{-1/q}} \| f \|_p .
 $$
 
-If $\mu \in \mathcal{M}^{\chi'^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $f$ and $\mu$ are convolvable, and $f * \mu$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has $\| f * \mu \|_p \leq \| \mu \|_{\chi'^{-1/q}} \| f \|_p$.
+If $\mu \in \mathcal{M}^{{\chi'}^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $f$ and $\mu$ are convolvable, and $f * \mu$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has $\| f * \mu \|_p \leq \| \mu \|_{{\chi'}^{-1/q}} \| f \|_p$.
 
-3) The mappings $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ define on $L^p(G, \beta)$ the structures of a left module over $\mathcal{M}^{\chi^{-1/q}}(G)$ and a right module over $\mathcal{M}^{\chi'^{-1/q}}(G)$. The two external laws on $L^p(G, \beta)$ are permutable by the associativity of convolution.
+3) The mappings $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ define on $L^p(G, \beta)$ the structures of a left module over $\mathcal{M}^{\chi^{-1/q}}(G)$ and a right module over $\mathcal{M}^{{\chi'}^{-1/q}}(G)$. The two external laws on $L^p(G, \beta)$ are permutable by the associativity of convolution.
 
 4) If $\mu * f$ is continuous and is given at every point by (10), then
 
@@ -605,15 +605,15 @@ This follows from Props. 3 and 4 of No. 2.
 $$
 \|f * g\|_p \leq \|f \chi^{-1/q}\|_1 \|g\|_p.
 $$
-If $f \in L^p(G, \beta)$ and $g \chi'^{-1/q} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, $f * g$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$, and
+If $f \in L^p(G, \beta)$ and $g {\chi'}^{-1/q} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, $f * g$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$, and
 $$
-\|f * g\|_p \leq \|f\|_p \|g \chi'^{-1/q}\|_1.
+\|f * g\|_p \leq \|f\|_p \|g {\chi'}^{-1/q}\|_1.
 $$
 This follows from Props. 5 and 6 of No. 2 and the remarks in No. 4.
 
 #### Proposition 13 {#int-viii-s4-prop-13 .statement}
 
-— If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in \overline{\mathcal{K}(G)}$, or if $f \in \mathcal{K}(G)$ and $g \chi'^{-1} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, and (15) defines for every $x \in G$ a product $f * g$ that belongs to $\mathcal{K}(G)$.
+— If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in \overline{\mathcal{K}(G)}$, or if $f \in \mathcal{K}(G)$ and $g {\chi'}^{-1} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, and (15) defines for every $x \in G$ a product $f * g$ that belongs to $\mathcal{K}(G)$.
 
 This follows from Prop. 5 of No. 2, and the remarks in No. 4.
 
@@ -621,7 +621,7 @@ This follows from Prop. 5 of No. 2, and the remarks in No. 4.
 
 — If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in L^\infty(G, \beta)$, then the formula (15) defines for every $x \in G$ a product $f * g$ that is bounded and is uniformly continuous for the right uniform structure of $G$.
 
-We already know that $f * g$ belongs to $L^\infty(G, \beta)$ (No. 2, Prop. 5); moreover, $(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$, on setting $\nu = \chi'^{-1} \cdot \beta$; $\nu$ is a right Haar measure. Therefore
+We already know that $f * g$ belongs to $L^\infty(G, \beta)$ (No. 2, Prop. 5); moreover, $(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$, on setting $\nu = {\chi'}^{-1} \cdot \beta$; $\nu$ is a right Haar measure. Therefore
 $$
 |(f * g)(x) - (f * g)(x')| \leq \|g\|_\infty \int |f(xs^{-1}) - f(x's^{-1})|\, d\nu(s)
 $$

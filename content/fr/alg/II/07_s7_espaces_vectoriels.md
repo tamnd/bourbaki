@@ -53,7 +53,7 @@ subsections:
       pdf_page: 291
 statements: 90
 exercises: 39
-content_sha256: b11e71e8b09f4551ae55f53e4c42181148c8ecfc4b718389cf2007b5f3dd33b3
+content_sha256: 386b4d53f1bf1b11f241fa5820cbc5ce9e01de77eef1252ee5d8401beab95644
 ---
 
 ## § 7. ESPACES VECTORIELS.
@@ -397,7 +397,7 @@ Soient E, F deux espaces vectoriels sur un corps K, $u : E \to F$ une applicatio
 
 1° Du dual de $\operatorname{Im}(u) = u(E)$ sur $\operatorname{Im}(t^u) = t^u(F^*)$.
 2° Du dual de $\operatorname{Ker}(u) = \overline{u}^{-1}(0)$ sur $\operatorname{Coker}(t^u) = E^*/t^u(F^*)$.
-3° Du dual de $\operatorname{Coker}(u) = F/u(E)$ sur $\operatorname{Ker}(t^u) = t^u^{-1}(0)$.
+3° Du dual de $\operatorname{Coker}(u) = F/u(E)$ sur $\operatorname{Ker}({}^t u) = {}^t u^{-1}(0)$.
 
 Posons en effet $I = \operatorname{Im}(u)$, $N = \operatorname{Ker}(u)$, $C = \operatorname{Coker}(u)$; des suites exactes
 

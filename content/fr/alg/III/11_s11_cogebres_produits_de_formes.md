@@ -800,31 +800,31 @@ $$
 
 d’abord pour $x, y$ homogènes, puis, par linéarité, pour $x, y$ quelconques dans $E$; cela s’écrit aussi
 $$(36)$$
-$$(u \sqsubset x) \sqsubset y = u \sqsubset (xy)$$
-pour $x, y$ dans $E$ et $u \in \mathrm{Homgr}_A(E, P)$; comme d’autre part il est clair que $i(1)$ est l’application identique (puisqu’il en est ainsi de $e(1) = 1_E$), et que $x \mapsto i(x)$ est $A$-linéaire, on voit que la loi d’action $(x, u) \mapsto u \sqsubset x$ ($x \in E, u \in \mathrm{Homgr}_A(E, P)$) définit, avec l’addition, une structure de $E$-module à droite sur $\mathrm{Homgr}_A(E, P)$.
+$$(u \llcorner x) \llcorner y = u \llcorner (xy)$$
+pour $x, y$ dans $E$ et $u \in \mathrm{Homgr}_A(E, P)$; comme d’autre part il est clair que $i(1)$ est l’application identique (puisqu’il en est ainsi de $e(1) = 1_E$), et que $x \mapsto i(x)$ est $A$-linéaire, on voit que la loi d’action $(x, u) \mapsto u \llcorner x$ ($x \in E, u \in \mathrm{Homgr}_A(E, P)$) définit, avec l’addition, une structure de $E$-module à droite sur $\mathrm{Homgr}_A(E, P)$.
 
 On aura en particulier à considérer le cas $P = A$, $\mathrm{Homgr}_A(E, P)$ étant dans ce cas le dual gradué $E^{*\mathrm{gr}}$ de $E$; $i(x)$ est alors la transposée graduée de l’application $A$-linéaire $e(x)$ (II, p. 176), autrement dit, quels que soient $x, y$ dans $E, u \in E^{*\mathrm{gr}}$, on a
 $$(37)$$
-$$\langle u \sqsubset x, y \rangle = \langle u, xy \rangle.$$
+$$\langle u \llcorner x, y \rangle = \langle u, xy \rangle.$$
 
 Avec la convention du début du paragraphe, on notera que si $x \in E_p, i(x)$ est un endomorphisme de $E^{*\mathrm{gr}}$ de degré $-p$.
 
-Pour tout élément homogène $x \in E_p$, on note de même $e'(x)$ la multiplication à droite par $x$, par $x \sqleftarrow u$ l’élément $u \circ e'(x)$ de $\mathrm{Homgr}_A(E, P)$, qu’on appelle le produit intérieur gauche de $u$ par $x$; on pose $i'(x)(u) = x \sqleftarrow u$, et $i'(x)$ est donc un endomorphisme gradué de degré $p$ de $\mathrm{Homgr}_A(E, P)$; on étend comme ci-dessus cette définition au cas où $x$ est un élément quelconque de $E$. Comme ici $e'(xy) = e'(y) \circ e'(x)$, on a
+Pour tout élément homogène $x \in E_p$, on note de même $e'(x)$ la multiplication à droite par $x$, par $x \lrcorner u$ l’élément $u \circ e'(x)$ de $\mathrm{Homgr}_A(E, P)$, qu’on appelle le produit intérieur gauche de $u$ par $x$; on pose $i'(x)(u) = x \lrcorner u$, et $i'(x)$ est donc un endomorphisme gradué de degré $p$ de $\mathrm{Homgr}_A(E, P)$; on étend comme ci-dessus cette définition au cas où $x$ est un élément quelconque de $E$. Comme ici $e'(xy) = e'(y) \circ e'(x)$, on a
 $$(38)$$
 $$i'(xy) = i'(x) \circ i'(y)$$
 qui s’écrit aussi
 $$(39)$$
-$$x \sqleftarrow (y \sqleftarrow u) = (xy) \sqleftarrow u$$
-et montre que la loi d’action $(x, u) \mapsto x \sqleftarrow u$ définit, avec l’addition, une structure de $E$-module à gauche sur $\mathrm{Homgr}_A(E, P)$. L’associativité de $E$ entraîne d’autre part que $e(x) \circ e'(y) = e'(y) \circ e(x)$ pour $x, y$ homogènes dans $E$, d’où la relation
+$$x \lrcorner (y \lrcorner u) = (xy) \lrcorner u$$
+et montre que la loi d’action $(x, u) \mapsto x \lrcorner u$ définit, avec l’addition, une structure de $E$-module à gauche sur $\mathrm{Homgr}_A(E, P)$. L’associativité de $E$ entraîne d’autre part que $e(x) \circ e'(y) = e'(y) \circ e(x)$ pour $x, y$ homogènes dans $E$, d’où la relation
 $$(40)$$
-$$(y \sqleftarrow u) \sqsubset x = y \sqleftarrow (u \sqsubset x)$$
+$$(y \lrcorner u) \llcorner x = y \lrcorner (u \llcorner x)$$
 de sorte que les deux lois d’action sur $\mathrm{Homgr}_A(E, P)$ définissent sur cet ensemble une structure de $(E, E)$-bimodule (II, p. 33).
 
 Lorsqu’on prend $P = A$, $i'(x)$ est la transposée graduée de $e'(x)$; autrement dit, quels que soient $x, y$ dans $E, u \in E^{*\mathrm{gr}}$, on a
 $$(41)$$
-$$\langle y, x \sqleftarrow u \rangle = \langle yx, u \rangle.$$
+$$\langle y, x \lrcorner u \rangle = \langle yx, u \rangle.$$
 
-Lorsque l’algèbre graduée $E$ est commutative, on a évidemment $u \sqsubset x = x \sqleftarrow u$. Lorsque $E$ est anticommutative et $P = A$, on a, pour $x \in E_p, y \in E_r$ et $u \in E_q^*$, $yx = (-1)^{pr} xy$, d’où par (37) et (41), $\langle u \sqsubset x, y \rangle = (-1)^{pr} \langle y, x \sqleftarrow u \rangle$. Mais comme les deux membres de cette relation sont nuls sauf pour $r = q - p$, on a $x \sqleftarrow u = (-1)^{p(q-p)} u \sqsubset x$.
+Lorsque l’algèbre graduée $E$ est commutative, on a évidemment $u \llcorner x = x \lrcorner u$. Lorsque $E$ est anticommutative et $P = A$, on a, pour $x \in E_p, y \in E_r$ et $u \in E_q^*$, $yx = (-1)^{pr} xy$, d’où par (37) et (41), $\langle u \llcorner x, y \rangle = (-1)^{pr} \langle y, x \lrcorner u \rangle$. Mais comme les deux membres de cette relation sont nuls sauf pour $r = q - p$, on a $x \lrcorner u = (-1)^{p(q-p)} u \llcorner x$.
 
 Soient F une seconde A-algèbre graduée et $\varphi : E \to F$ un A-homomorphisme d’algèbres graduées; alors $\tilde{\varphi} = \mathrm{Hom}(\varphi, 1_P) : \mathrm{Homgr}_A(F, P) \to \mathrm{Homgr}_A(E, P)$ est un A-homomorphisme gradué de degré 0; par définition, pour $x, y$ dans E et $u \in \mathrm{Homgr}_A(F, P)$
 
@@ -1049,7 +1049,7 @@ Soit $E$ une bigèbre graduée (resp. une bigèbre graduée gauche) (III, p. 148
 Les notations étant celles de III, p. 156, on a, pour tout élément $x$ homogène et de degré 1 dans une bigèbre graduée (resp. une bigèbre graduée gauche) $E$, c(x) = x \otimes 1 + 1 \otimes x, en vertu de la prop. 5 de III, p. 147 et du fait que c est un homomorphisme de degré 0. Supposons d’abord que E soit une bigèbre graduée. Pour tout $y \in E$, on a par définition
 
 $$
-\langle (uv) \sqsubset x, y \rangle = \langle uv, xy \rangle = m((u \otimes v)(c(xy)))
+\langle (uv) \llcorner x, y \rangle = \langle uv, xy \rangle = m((u \otimes v)(c(xy)))
 $$
 
 et puisque c est un homomorphisme d’algèbres, $c(xy) = c(x)c(y)$. Posons $c(y) = \sum_i s_i \otimes t_i$ avec $s_i$ et $t_i$ dans E; on a par suite
@@ -1058,16 +1058,16 @@ $$
 c(xy) = \sum_i (xs_i) \otimes t_i + \sum_i s_i \otimes (xt_i).
 $$
 
-On a donc $\langle (uv) \sqsubset x, y \rangle = \sum_i u(xs_i)v(t_i) + \sum_i u(s_i)v(xt_i)$. Mais on peut écrire
+On a donc $\langle (uv) \llcorner x, y \rangle = \sum_i u(xs_i)v(t_i) + \sum_i u(s_i)v(xt_i)$. Mais on peut écrire
 
 $$
-\sum_i u(xs_i)v(t_i) = m(((u \sqsubset x) \otimes v)(c(y))) = \langle (u \sqsubset x)v, y \rangle,
+\sum_i u(xs_i)v(t_i) = m(((u \llcorner x) \otimes v)(c(y))) = \langle (u \llcorner x)v, y \rangle,
 $$
 
 et de même
 
 $$
-\sum_i u(s_i)v(xt_i) = m((u \otimes (v \sqsubset x))(c(y))) = \langle u(v \sqsubset x), y \rangle,
+\sum_i u(s_i)v(xt_i) = m((u \otimes (v \llcorner x))(c(y))) = \langle u(v \llcorner x), y \rangle,
 $$
 
 d’où, en revenant à la notation $i(x)$ pour le produit intérieur
@@ -1094,13 +1094,13 @@ $$
 d’où cette fois
 
 $$
-\langle (uv) \sqsubset x, y \rangle = \sum_{0 \leq j \leq r} \left( \sum_i u(xs_{ij})v(t_{i,r-j}) + (-1)^j \sum_i u(s_{ij})v(xt_{i,r-j}) \right)
+\langle (uv) \llcorner x, y \rangle = \sum_{0 \leq j \leq r} \left( \sum_i u(xs_{ij})v(t_{i,r-j}) + (-1)^j \sum_i u(s_{ij})v(xt_{i,r-j}) \right)
 $$
 
-On a encore $\sum_{0 \leq j \leq r} (\sum_i u(xs_{ij})v(t_{i,r-j})) = \langle (u \sqsubset x)v, y \rangle$. D’autre part, on a $u(s_{ij}) = 0$ sauf si $j = -p$, donc on peut aussi écrire
+On a encore $\sum_{0 \leq j \leq r} (\sum_i u(xs_{ij})v(t_{i,r-j})) = \langle (u \llcorner x)v, y \rangle$. D’autre part, on a $u(s_{ij}) = 0$ sauf si $j = -p$, donc on peut aussi écrire
 
 $$
-\sum_{0 \leq j \leq r} (-1)^j (\sum_i u(s_{ij})v(xt_{i,r-j})) = (-1)^p \langle u(v \sqsubset x), y \rangle.
+\sum_{0 \leq j \leq r} (-1)^j (\sum_i u(s_{ij})v(xt_{i,r-j})) = (-1)^p \langle u(v \llcorner x), y \rangle.
 $$
 
 On conclut donc que l’on a
@@ -1306,7 +1306,7 @@ $$
 (77) \quad B(\varphi'_p(u^*), v^*) = (-1)^{p(n-p)} B(u^*, \varphi'_{n-p}(v^*)).
 $$
 
-Le fait que $\varphi$ soit $\wedge(M)$-linéaire et que $\varphi'$ soit $\wedge(M^*)$-linéaire résulte des formules $(u \wedge v) \hook e^* = u \hook (v \hook e^*)$ et $(u^* \wedge v^*) \hook e = u^* \hook (v^* \hook e)$ (III, p. 157, formule (37)), compte tenu de ce que $\theta_\wedge$ est un isomorphisme de $\wedge(M^*)$ sur l’algèbre opposée à $\wedge(M)^*$). Il existe d’autre part une base $(e_i)_{1 \leq i \leq n}$ de $M$ telle que $e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$ et $e^* = (-1)^{n(n-1)/2} e_1^* \wedge e_2^* \wedge \cdots \wedge e_n^*$, où $(e_i^*)$ est la base duale de $(e_i)$. Posons $I = \{1, n\}$; il résulte de (76) (III, p. 168) que l’on a, pour toute partie $J$ de $I$ à $p$ éléments
+Le fait que $\varphi$ soit $\wedge(M)$-linéaire et que $\varphi'$ soit $\wedge(M^*)$-linéaire résulte des formules $(u \wedge v) \lrcorner e^* = u \lrcorner (v \lrcorner e^*)$ et $(u^* \wedge v^*) \lrcorner e = u^* \lrcorner (v^* \lrcorner e)$ (III, p. 157, formule (37)), compte tenu de ce que $\theta_\wedge$ est un isomorphisme de $\wedge(M^*)$ sur l’algèbre opposée à $\wedge(M)^*$). Il existe d’autre part une base $(e_i)_{1 \leq i \leq n}$ de $M$ telle que $e = e_1 \wedge e_2 \wedge \cdots \wedge e_n$ et $e^* = (-1)^{n(n-1)/2} e_1^* \wedge e_2^* \wedge \cdots \wedge e_n^*$, où $(e_i^*)$ est la base duale de $(e_i)$. Posons $I = \{1, n\}$; il résulte de (76) (III, p. 168) que l’on a, pour toute partie $J$ de $I$ à $p$ éléments
 
 $$
 \begin{cases}
@@ -1328,15 +1328,15 @@ est *pair*, on en conclut que $\varphi$ et $\varphi'$ sont réciproques l’une 
 *Avec les hypothèses et notations de la prop. 11, on a, pour tout endomorphisme g du A-module M*
 
 $$
-(\det g)\varphi = \wedge(tg) \circ \varphi \circ \wedge(g).
+(\det g)\varphi = \wedge({}^t g) \circ \varphi \circ \wedge(g).
 $$
 
-Il est clair que l’on a $\wedge(tg) = \theta_\wedge^{-1} \circ (t \wedge(g)) \circ \theta_\wedge$; puisque $\wedge(g)$ est un endomorphisme de l’algèbre $\wedge(M)$, et que par définition, on a, pour tout $z \in \wedge(M)$,
-$\theta_\wedge(\wedge(g)(z) \hook e^*) = \theta_\wedge(e^*) \hook \theta_\wedge(\wedge(g)(z))$, on déduit de la formule (42) de III, p. 158 que
+Il est clair que l’on a $\wedge({}^t g) = \theta_\wedge^{-1} \circ ({}^t \wedge(g)) \circ \theta_\wedge$; puisque $\wedge(g)$ est un endomorphisme de l’algèbre $\wedge(M)$, et que par définition, on a, pour tout $z \in \wedge(M)$,
+$\theta_\wedge(\wedge(g)(z) \lrcorner e^*) = \theta_\wedge(e^*) \llcorner \theta_\wedge(\wedge(g)(z))$, on déduit de la formule (42) de III, p. 158 que
 
 $$
-((\theta_\wedge^{-1} \circ (t \wedge(g)) \circ \theta_\wedge) \circ \varphi \circ \wedge(g))(z) = \theta_\wedge^{-1}(t \wedge(g)(\theta_\wedge(e^*)) \hook z)
-= z \hook (\wedge(tg)(e^*)) = (\det g)(z \hook e^*) = (\det g)\varphi(z)
+((\theta_\wedge^{-1} \circ ({}^t \wedge(g)) \circ \theta_\wedge) \circ \varphi \circ \wedge(g))(z) = \theta_\wedge^{-1}({}^t \wedge(g)(\theta_\wedge(e^*)) \llcorner z)
+= z \lrcorner (\wedge({}^t g)(e^*)) = (\det g)(z \lrcorner e^*) = (\det g)\varphi(z)
 $$
 
 compte tenu de III, p. 95, prop. 8.
@@ -1346,7 +1346,7 @@ compte tenu de III, p. 95, prop. 8.
 *Pour tout automorphisme g de E, on a*
 
 $$
-\wedge(tg^{-1}) = (\det g)^{-1}\varphi \circ (\wedge(g)) \circ \varphi^{-1}
+\wedge({}^t g^{-1}) = (\det g)^{-1}\varphi \circ (\wedge(g)) \circ \varphi^{-1}
 $$
 
 ### 12. Application au sous-espace associé à un p-vecteur

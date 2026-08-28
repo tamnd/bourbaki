@@ -33,9 +33,9 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 7
-content_sha256: 024a25a71a1d8d32c2898845b7cc084edb9d2ef0fd98e5555b4b59a1a65f1603
+content_sha256: 94f58c4fd555fcbf861010e7bb49fd9a0a1223e0969ae92a54fbf75a8839c765
 translated_from: content/en/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md
-source_content_sha256: a2bb35cfe2d14c222748ac9ab0cd56ab79a3337067d7023054b9fe4c23f83710
+source_content_sha256: 2cfc22739b5794ceaede94d77249f17f10a52a23ce8ea60f1d3b869603e20895
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-04807a92
 glossary_version: 34
@@ -226,7 +226,7 @@ Giả thiết rằng $A$ là *Noether* là cốt yếu trong hệ quả này. V�
 
 *Cho $\mathbf{A}$ là một vành tôpô. Nếu một iđêan hai phía $m$ của $\mathbf{A}$ sao cho tôpô đã cho trên $\mathbf{A}$ là tôpô $m$-adic, thì $m$ được gọi là một iđêan xác định & tôpô trên $\mathbf{A}$.*
 
-Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $t$ là căn của nó (Chương II, § 2, no. 6). Nếu $m'$ là một iđêan xác định của tôpô $m$-adic, thì tồn tại một số nguyên $n > 0$ sao cho $m'^n \subset m$ ($\S 2$, no. 5) và do đó $m' \subset t$; ngược lại, vì $A$ là Noether, tồn tại một số nguyên $k > 0$ sao cho $t^k \subset m$ (Chương II, § 2, no. 6, Mệnh đề 15) và do đó $t$ là *iđêan xác định lớn nhất* của tôpô $m$-adic.
+Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $t$ là căn của nó (Chương II, § 2, no. 6). Nếu $m'$ là một iđêan xác định của tôpô $m$-adic, thì tồn tại một số nguyên $n > 0$ sao cho ${m'}^n \subset m$ ($\S 2$, no. 5) và do đó $m' \subset t$; ngược lại, vì $A$ là Noether, tồn tại một số nguyên $k > 0$ sao cho $t^k \subset m$ (Chương II, § 2, no. 6, Mệnh đề 15) và do đó $t$ là *iđêan xác định lớn nhất* của tôpô $m$-adic.
 
 ### 3. CÁC VÀNH ZARISKI
 

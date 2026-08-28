@@ -52,7 +52,7 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: 9859e7a3f8376bf9f90c18133336b365f7165b349bb413a9bb4f7f1d076f2e28
+content_sha256: 396f9305e8378565df6b6843f0c7f2210c00d7f2557e26f83d0d7eb3f062b066
 ---
 
 ## § 1. PREMEASURES AND MEASURES ON A TOPOLOGICAL SPACE
@@ -536,7 +536,7 @@ Consider a crushing $(K_\alpha)_{\alpha \in A}$ of T for $\mu$. Since the mappin
 
 #### Scholium {#int-ix-s1-n8-sch-1 .statement}
 
-— Let $(K_\alpha)_{\alpha \in A}$ be a crushing of T, and let $N = T - \bigcup_\alpha K_\alpha$. We denote by $T'$ the locally compact space obtained by equipping $T'$ with the sum topology of the topologies of the subspaces $K_\alpha$ and any locally compact topology on $N$ (unless expressly mentioned to the contrary, $N$ will always be equipped with the discrete topology). For each $\alpha \in A$, let $i_\alpha$ be the canonical injection of $K_\alpha$ into $T'$, and let $\mu'_\alpha$ be the measure on $T'$ that is the image of $\mu_{K_\alpha}$ under $i_\alpha$. The family $(\mu'_\alpha)$ is summable: for, if $f$ is a continuous function on $T'$ with compact support, then $\operatorname{Supp}(f)$ intersects $K_\alpha$ for only a finite number of indices $\alpha$. We set $\mu' = \sum_{\alpha \in A} \mu'_\alpha$. The set $N$ being locally negligible for $\mu'$, since it is so for each $\mu'_\alpha$ (Prop. 9), the family $(K_\alpha)_{\alpha \in A}$ is a $\mu'$-crushing of $T'$; now, the measure induced by $\mu'$ on $K_\alpha$ is obviously $\mu_{K_\alpha}$ and the formula (7), applied to $\mu$ and to $\mu'$, shows that $\mu^\bullet = \mu'^\bullet$. Similarly, the last assertion of the statement of Prop. 9, applied to $\mu$ and to $\mu'$, shows that *the measurable mappings are the same for the two measures $\mu$ and $\mu'$*.
+— Let $(K_\alpha)_{\alpha \in A}$ be a crushing of T, and let $N = T - \bigcup_\alpha K_\alpha$. We denote by $T'$ the locally compact space obtained by equipping $T'$ with the sum topology of the topologies of the subspaces $K_\alpha$ and any locally compact topology on $N$ (unless expressly mentioned to the contrary, $N$ will always be equipped with the discrete topology). For each $\alpha \in A$, let $i_\alpha$ be the canonical injection of $K_\alpha$ into $T'$, and let $\mu'_\alpha$ be the measure on $T'$ that is the image of $\mu_{K_\alpha}$ under $i_\alpha$. The family $(\mu'_\alpha)$ is summable: for, if $f$ is a continuous function on $T'$ with compact support, then $\operatorname{Supp}(f)$ intersects $K_\alpha$ for only a finite number of indices $\alpha$. We set $\mu' = \sum_{\alpha \in A} \mu'_\alpha$. The set $N$ being locally negligible for $\mu'$, since it is so for each $\mu'_\alpha$ (Prop. 9), the family $(K_\alpha)_{\alpha \in A}$ is a $\mu'$-crushing of $T'$; now, the measure induced by $\mu'$ on $K_\alpha$ is obviously $\mu_{K_\alpha}$ and the formula (7), applied to $\mu$ and to $\mu'$, shows that $\mu^\bullet = {\mu'}^\bullet$. Similarly, the last assertion of the statement of Prop. 9, applied to $\mu$ and to $\mu'$, shows that *the measurable mappings are the same for the two measures $\mu$ and $\mu'$*.
 
 These two properties permit reducing nearly all of the theory of integration with respect to $\mu$ to the theory elaborated for locally compact spaces. These considerations will be developed in No. 10.
 
@@ -676,7 +676,7 @@ The above notations are often abbreviated to $\overline{\mathcal{L}}_F^p(\mu)$, 
 
 We saw in No. 8 (*Scholium*) that one can construct a locally compact space T', having the same underlying set as T and a topology finer than that of T, and equip T' with a measure $\mu'$ such that the $\mu$-measurable functions and the $\mu'$-measurable functions are the same, and such that the essential upper integrals of positive functions for $\mu$ and $\mu'$ are equal. It follows that the sets $\overline{\mathcal{L}}_F^p(\mu)$ and $\overline{\mathcal{L}}_F^p(\mu')$ are identical for $1 \leq p \leq +\infty$ $^{(1)}$. This also implies without new proof that $\overline{\mathcal{L}}_F^p$ is a vector space, and that the function $\overline{N}_p$ is a semi-norm on $\overline{\mathcal{L}}_F^p(\mu)$, for which this space is complete.
 
-Let $\mathbf{f}$ be an element of $\overline{\mathcal{L}}_F^p$ ($1 \leq p < +\infty$); since one has $\mu^\bullet(|\mathbf{f}|^p) = \mu'^\bullet(|\mathbf{f}|^p) < +\infty$, Prop. 7 of Ch. V, §1, No. 2 implies that $\mathbf{f}$ is zero outside
+Let $\mathbf{f}$ be an element of $\overline{\mathcal{L}}_F^p$ ($1 \leq p < +\infty$); since one has $\mu^\bullet(|\mathbf{f}|^p) = {\mu'}^\bullet(|\mathbf{f}|^p) < +\infty$, Prop. 7 of Ch. V, §1, No. 2 implies that $\mathbf{f}$ is zero outside
 
 (1) Note that the space $\mathcal{L}_F^p(\mu)$ is contained in $\mathcal{L}_F^p(\mu')$, but is in general distinct from it.
 
@@ -701,7 +701,7 @@ Let us pass to the definition of the integral.
 *There exists one and only one continuous linear mapping $f \mapsto \int f d\mu$, of the space $\overline{\mathcal{L}}_F^1(\mu)$ into F, having the following property:
 If f is of the form $t \mapsto g(t)a$, where $a \in F$, and where g is a positive function, finite, $\mu$-measurable and such that $\mu^*(g) < +\infty$, then $\int f d\mu = \mu^*(g) \cdot a$.*
 
-For, the semi-normed spaces $\overline{\mathcal{L}}_F^1(\mu)$ and $\overline{\mathcal{L}}_F^1(\mu')$ are identical. Since $\mu^* = \mu'^*$, the mapping $f \mapsto \int f d\mu'$ satisfies the conditions of the statement. On the other hand, the set of functions of the form $f = g \cdot a$ considered in the statement is *total* in $\overline{\mathcal{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Prop. 10), whence uniqueness.
+For, the semi-normed spaces $\overline{\mathcal{L}}_F^1(\mu)$ and $\overline{\mathcal{L}}_F^1(\mu')$ are identical. Since $\mu^* = {\mu'}^*$, the mapping $f \mapsto \int f d\mu'$ satisfies the conditions of the statement. On the other hand, the set of functions of the form $f = g \cdot a$ considered in the statement is *total* in $\overline{\mathcal{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Prop. 10), whence uniqueness.
 
 One says that $\int f\, d\mu$ is the integral of $f$ with respect to $\mu$, and this vector is also denoted $\mu(f)$ or $\int f(t)\, d\mu(t)$.
 

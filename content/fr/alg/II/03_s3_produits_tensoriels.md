@@ -49,7 +49,7 @@ subsections:
       pdf_page: 242
 statements: 30
 exercises: 4
-content_sha256: b28aa9ba5da82ab13bd8a0b86b506db6372623388c4fd44c594b7ece0775bd9b
+content_sha256: d26ec4b68efcde524605462fda65b1b4beac96752c5790a331e7f59fa5f3203d
 ---
 
 ## § 3. PRODUITS TENSORIELS
@@ -184,12 +184,12 @@ $$(u \otimes 1_F) \circ (1_E \otimes v) = (1_E \otimes v) \circ (u \otimes 1_F) 
 
 et par suite (II, p. 33) $E \otimes_A F$ est canoniquement muni d’une structure de *bimodule à gauche* par rapport aux anneaux $\operatorname{End}_A(E)$ et $\operatorname{End}_A(F)$.
 
-Cela étant, supposons données sur E une structure de $((B'_i); A, (C'_j))-multimodule$, et sur F une structure de $(A, (B''_h); (C''_k))-multimodule$ (II, p. 33); il revient au même de dire que l’on s’est donné des homomorphismes d’anneaux $B'_i \to \operatorname{End}_A(E)$, $C'_j^0 \to \operatorname{End}_A(E)$ d’images deux à deux permutables, et des homomorphismes d’anneaux $B''_h \to \operatorname{End}_A(F)$, $C''_k^0 \to \operatorname{End}_A(F)$ d’images deux à deux permutables. Si l’on compose respectivement avec ces homomorphismes les homomorphismes canoniques $\operatorname{End}_A(E) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)$ et $\operatorname{End}_A(F) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)$ définis plus haut, on voit (compte tenu de (7)) que l’on définit ainsi des homomorphismes d’anneaux
+Cela étant, supposons données sur E une structure de $((B'_i); A, (C'_j))-multimodule$, et sur F une structure de $(A, (B''_h); (C''_k))-multimodule$ (II, p. 33); il revient au même de dire que l’on s’est donné des homomorphismes d’anneaux $B'_i \to \operatorname{End}_A(E)$, ${C'_j}^0 \to \operatorname{End}_A(E)$ d’images deux à deux permutables, et des homomorphismes d’anneaux $B''_h \to \operatorname{End}_A(F)$, ${C''_k}^0 \to \operatorname{End}_A(F)$ d’images deux à deux permutables. Si l’on compose respectivement avec ces homomorphismes les homomorphismes canoniques $\operatorname{End}_A(E) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)$ et $\operatorname{End}_A(F) \to \operatorname{End}_\mathbf{Z}(E \otimes_A F)$ définis plus haut, on voit (compte tenu de (7)) que l’on définit ainsi des homomorphismes d’anneaux
 
 $$
 \begin{align*}
-B'_i &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F), & C'_j^0 &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F) \\
-B''_h &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F), & C''_k^0 &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F)
+B'_i &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F), & {C'_j}^0 &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F) \\
+B''_h &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F), & {C''_k}^0 &\to \operatorname{End}_\mathbf{Z}(E \otimes_A F)
 \end{align*}
 $$
 

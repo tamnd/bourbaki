@@ -45,7 +45,7 @@ subsections:
       pdf_page: 157
 statements: 40
 exercises: 13
-content_sha256: 99aac48e724c4da681aa9499cb008da2967772ca0420af1e23b6f88ba19688cf
+content_sha256: f508fcbe4d0916b9a5190a34fe4c6dc5c2620d2024e8da0df8074c776e5a7395
 ---
 
 ## § 3. ESPACES D’APPLICATIONS LINÉAIRES CONTINUES
@@ -325,11 +325,11 @@ $$
 
 Comme la forme linéaire $\varepsilon^{-1}u$ appartient à $(A \cap U)^°$, il existe donc $v \in A°$ et $w \in U°$ tels que $u = \varepsilon(v + w)$. Alors $x' = \varepsilon w$ appartient à $E'$ et $u - x' = \varepsilon v$ est majorée en valeur absolue par $\varepsilon$ sur $A$, d’où le lemme.
 
-Soit maintenant $E$ un espace localement convexe séparé, et soit $\hat{E}$ son complété. Toute forme linéaire $f$ continue sur $E$ se prolonge par continuité à $\hat{E}$; on a donc $(\hat{E})' = E'$ (III, p. 16) et tout élément de $\hat{E}$ définit une forme linéaire sur $E'$, c’est-à-dire un élément du dual algébrique $E'^*$ de $E'$. De plus, la dualité entre $E$ (resp. $\hat{E}$) et $E'$ est séparante (II, p. 26, cor. 1). Par suite $E$ et $\hat{E}$ s’identifient à des sous-espaces vectoriels de $E'^*$.
+Soit maintenant $E$ un espace localement convexe séparé, et soit $\hat{E}$ son complété. Toute forme linéaire $f$ continue sur $E$ se prolonge par continuité à $\hat{E}$; on a donc $(\hat{E})' = E'$ (III, p. 16) et tout élément de $\hat{E}$ définit une forme linéaire sur $E'$, c’est-à-dire un élément du dual algébrique ${E'}^*$ de $E'$. De plus, la dualité entre $E$ (resp. $\hat{E}$) et $E'$ est séparante (II, p. 26, cor. 1). Par suite $E$ et $\hat{E}$ s’identifient à des sous-espaces vectoriels de ${E'}^*$.
 
 #### Théorème 2 {#evt-iii-s3-thm-2 .statement}
 
-*Soit E un espace localement convexe séparé, et soit $\hat{E}$ son complété ; on identifie E et $\hat{E}$ à des sous-espaces vectoriels de $E'^*$. Pour qu’un élément $f \in E'^*$ appartienne à $\hat{E}$, il faut et il suffit que la restriction de $f$ à toute partie équicontinue de $E'$ soit continue pour la topologie $\sigma(E', E)$.*
+*Soit E un espace localement convexe séparé, et soit $\hat{E}$ son complété ; on identifie E et $\hat{E}$ à des sous-espaces vectoriels de ${E'}^*$. Pour qu’un élément $f \in {E'}^*$ appartienne à $\hat{E}$, il faut et il suffit que la restriction de $f$ à toute partie équicontinue de $E'$ soit continue pour la topologie $\sigma(E', E)$.*
 
 L’espace $E$ s’identifie au dual topologique de $E'$ lorsqu’on munit $E'$ de la topologie $\sigma(E', E)$ (II, p. 46, prop. 3) ; d’autre part, si $\mathcal{S}$ est l’ensemble des parties équicontinues de $E'$, la topologie donnée sur $E$ est la $\mathcal{S}$-topologie (III, p. 19, cor. 1). Il résulte alors de III, p. 13, prop. 1, que les ensembles de $\mathcal{S}$ sont bornés pour $\sigma(E', E)$ (*cf.* plus loin, III, p. 22, prop. 9), autrement dit $\mathcal{S}$ est une bornologie adaptée et couvrante pour la topologie $\sigma(E', E)$. Le th. 2 est alors conséquence du th. 1, où l’on remplace $E$ par $E'$ et $E'_\mathcal{S}$ par $E$.
 

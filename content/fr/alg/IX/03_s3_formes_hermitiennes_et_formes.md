@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: a6c9b85a1d35e79e683f7533b64cee18a37c243923fadc9dcf9eea771dd32bda
+content_sha256: 5790df32f2d6f2b4485955da48c6bd0f08570178fcc151d1804e40328b975718
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -260,7 +260,7 @@ b) Si $M_1, M_2$ sont deux sous-espaces vectoriels de $E$, montrer que l’on a 
 ¶ 4) a) Soient $A$ un anneau (commutatif ou non), $\sigma$ un automorphisme de $A$ tel qu’il existe un élément inversible $\gamma \in A$ vérifiant $\gamma^\sigma = \gamma$, et tel que l’on ait $\xi^{\sigma^2} = \gamma \xi \gamma^{-1}$ pour tout $\xi \in A$. Soit $B$ un $A$-module à gauche ayant une base de deux éléments $(e_1, e_2)$; montrer qu’on définit sur $B$ une structure d’anneau en prenant comme multiplication dans $B$ la loi de composition
 
 $$
-(\xi e_1 + \eta e_2)(\xi' e_1 + \eta' e_2) = (\xi \xi' + \eta \eta' \gamma) e_1 + (\eta \xi'^\sigma + \xi \eta') e_2.
+(\xi e_1 + \eta e_2)(\xi' e_1 + \eta' e_2) = (\xi \xi' + \eta \eta' \gamma) e_1 + (\eta {\xi'}^\sigma + \xi \eta') e_2.
 $$
 
 Pour cette structure d’anneau, $e_1$ est élément unité (qu’on identifie avec l’élément unité 1 de $A$); si on pose $e_2 = \rho$, on a $\rho^2 = \gamma$ et $\rho \xi = \xi^\sigma \rho$ pour tout $\xi \in A$; en outre, $B$ est un $A$-module à droite, dont 1 et $\rho$ forment une base. Si $A$ est un corps, une condition nécessaire et suffisante pour que $B$ soit un corps est que $\gamma$ ne soit pas de la forme $\lambda^\sigma \lambda$ (où $\lambda \in A$). (Cf. chap. VIII, § 12, exerc. 8).
@@ -299,7 +299,7 @@ d) Soit $u$ un automorphisme du A-module E. Pour que $u$ soit un automorphisme d
 $$
 \sum_{\{i, j\}} b_{ij} a_{\lambda i} a_{\lambda j} = \sum_{j \neq i} b_{ij} a_{\lambda j} + 2b_{ii} a_{\lambda i} = 0;
 $$
-on a alors $Q(\sum a_i x_i) = \sum_{\{i, j\}} b_{ij} a_i a_j$. En déduire une nouvelle démonstration de la prop. 3 du no 4. (Remarquer que les $x'_i = 1 \otimes x_i$ forment un système de générateurs de $A' \otimes_A E$, et que le $A'$-module $A' \otimes_A E$ est isomorphe à $A'^{(1)}/R'$, où $A'^{(1)}$ est identifié à $A' \otimes_A A^{(1)}$ et $R'$ est engendré par l’image de R par l’application canonique de $A^{(1)}$ dans $A'^{(1)}$.
+on a alors $Q(\sum a_i x_i) = \sum_{\{i, j\}} b_{ij} a_i a_j$. En déduire une nouvelle démonstration de la prop. 3 du no 4. (Remarquer que les $x'_i = 1 \otimes x_i$ forment un système de générateurs de $A' \otimes_A E$, et que le $A'$-module $A' \otimes_A E$ est isomorphe à ${A'}^{(1)}/R'$, où ${A'}^{(1)}$ est identifié à $A' \otimes_A A^{(1)}$ et $R'$ est engendré par l’image de R par l’application canonique de $A^{(1)}$ dans ${A'}^{(1)}$.
 
 6) Soient $A$ un anneau commutatif de caractéristique 2, $E$ un $A$-module libre, $\mathcal{A}$ (resp. $\mathcal{S}$, $\mathcal{Q}$) le $A$-module des formes bilinéaires alternées (resp. bilinéaires symétriques, quadratiques) sur $E$. On a $\mathcal{A} \subset \mathcal{S}$; on définit en outre une application linéaire $\omega$ de $\mathcal{S}$ dans $\mathcal{Q}$, et une application linéaire $\theta$ de $\mathcal{Q}$ dans $\mathcal{A}$ de la façon suivante : pour toute forme bilinéaire $\Phi \in \mathcal{S}$, $\omega(\Phi)$ est la forme quadratique $x \to \Phi(x, x)$, et pour toute forme quadratique $Q \in \mathcal{Q}$, $\theta(Q)$ est la forme bilinéaire associée à $Q$, qui est alternée. Montrer que $\omega(0) = \mathcal{A}$, $\theta(\mathcal{Q}) = \mathcal{A}$ et $\theta(0) = \omega(\mathcal{S})$.
 

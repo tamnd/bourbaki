@@ -33,7 +33,7 @@ subsections:
       pdf_page: 200
 statements: 30
 exercises: 24
-content_sha256: 72d0e59f5c18ed423491784c4b84436cb8fd841e26535f7ef6e736673d4234e5
+content_sha256: 2460868d77bbcafb9c8af152d53bf0a02b1238ec843cfba5ca9da02e7f59ec33
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 source_content_sha256: c8f008de2daf8653ce90dda0cbafdb04b9e1842cb6daff4312ae7ca854ca1ef6
 translation_model: gpt-5.4-mini
@@ -81,7 +81,7 @@ Các tập con đều liên tục của $E''$ là các tập con được chứa
 
 #### Nhận xét {#evt-iv-s2-n1-rem-1 .statement}
 
-Nếu $B$ là một tập con bị chặn của $E$, thì bao đóng $\overline{B}$ của nó trong $E'^*$ được trang bị bởi $\sigma(E'^*, E')$ được chứa trong $E''$: vì, đối cực $U = B^\circ$ của $B$ trong $E'$ là một lân cận của 0 trong $E'_b$, và ta có $\overline{B} \subset U^\circ \subset E''$.
+Nếu $B$ là một tập con bị chặn của $E$, thì bao đóng $\overline{B}$ của nó trong ${E'}^*$ được trang bị bởi $\sigma({E'}^*, E')$ được chứa trong $E''$: vì, đối cực $U = B^\circ$ của $B$ trong $E'$ là một lân cận của 0 trong $E'_b$, và ta có $\overline{B} \subset U^\circ \subset E''$.
 
 ### 2. Không gian nửa phản xạ
 

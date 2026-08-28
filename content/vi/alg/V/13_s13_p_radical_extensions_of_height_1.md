@@ -26,9 +26,9 @@ subsections:
       pdf_page: 218
 statements: 21
 exercises: 6
-content_sha256: 67e2def94c2b38f08d30fccbf253f9ac90edcf63875433dee6588bca6c27d050
+content_sha256: 92a2f35c1715913bbc13d270839d3c3d138a41845483501d46bb0fa484205095
 translated_from: content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md
-source_content_sha256: f8da8ab2642bd1ae3f1e8044d43e31c18d232f0f5a7188103cfd8e7e1d4becd2
+source_content_sha256: 2e86155015b6398452126421acca82c8b97152bd71e23dcc83bf4cd83ef2aabb
 translation_model: gpt-5.4, gpt-5-6-mini, copied
 translation_run: translate-vi-d004b81c
 glossary_version: 34
@@ -56,7 +56,7 @@ Cho $K$ là một trường, $L$ là một mở rộng căn $p$ có chiều cao 
 
 — Cho L' là một mở rộng của một trường K, được sinh bởi hai mở rộng con K' và L rời nhau tuyến tính. Giả sử rằng L là p-căn cấp $\leq 1$ trên K; *khi đó* L' là p-căn cấp $\leq 1$ trên K'. Hơn nữa, để một họ phần tử của L là p-tự do trên K (tương ứng, một p-cơ sở của $L$ trên K) thì điều kiện cần và đủ là nó p-tự do trên K' (tương ứng, một p-cơ sở của L' trên K').
 
-Ta có $L'^p \subset K \subset K'$ và $L' = K'(L)$, do đó $L'^p = K'^p(L'^p) \subset K'$. Nói cách khác, L' là một mở rộng p-căn cấp $\leq 1$ của K'. Các khẳng định khác của hệ quả suy ra ngay từ Mệnh đề 1 và từ V, p. 14, Mệnh đề 5.
+Ta có ${L'}^p \subset K \subset K'$ và $L' = K'(L)$, do đó ${L'}^p = {K'}^p({L'}^p) \subset K'$. Nói cách khác, L' là một mở rộng p-căn cấp $\leq 1$ của K'. Các khẳng định khác của hệ quả suy ra ngay từ Mệnh đề 1 và từ V, p. 14, Mệnh đề 5.
 
 #### Nhận xét {#alg-v-s13-n1-rem-1 .statement}
 

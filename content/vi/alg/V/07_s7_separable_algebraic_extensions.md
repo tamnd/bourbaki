@@ -50,9 +50,9 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: fee8431bc0f45fe6cfab20dc0407aedf62e9ef8c13c2796b1c638721b90f2851
+content_sha256: 8b1a9c4da317b4c964aa2b143d4f2d70629c02af1d05b111e19ec01e4649fd00
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
-source_content_sha256: 0a083ae6551757fc227e315fe223e0308ff89ccd72c0b4cb26806e4b9f41bf1e
+source_content_sha256: 636e7419f5096aeaae07da1eedab8fcc50aecad050561d6f5aa49f9685bdb9d7
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-93c80b86
 glossary_version: 34
@@ -283,7 +283,7 @@ $$
 
 Nếu E có bậc hữu hạn trên K, thì nó là một mở rộng tách được của K khi và chỉ khi nó là một đại số étale trên K; Hệ quả ở V, p. 35 cho thấy điều này xảy ra khi và chỉ khi $E = K[E^p]$.
 
-Giả sử bây giờ rằng $E$ tách được và có bậc vô hạn trên $K$. Khi đó $K[E^p]$ là hợp của các vành con $K[E'^p]$ khi $E'$ chạy qua tập hợp các mở rộng con của $E$ có bậc hữu hạn trên $K$; nhưng một mở rộng như vậy $E'$ là tách được trên $K$ ($V$, p. 36, Mệnh đề 1), do đó $E' = K[E'^p] \subset K[E^p]$ theo điều đã nói; cuối cùng ta có $E = K[E^p]$. Bằng quy nạp theo $n \geq 0$, quan hệ $E = K[E^p]$ kéo theo rằng $E = K[E^{p^n}]$.
+Giả sử bây giờ rằng $E$ tách được và có bậc vô hạn trên $K$. Khi đó $K[E^p]$ là hợp của các vành con $K[{E'}^p]$ khi $E'$ chạy qua tập hợp các mở rộng con của $E$ có bậc hữu hạn trên $K$; nhưng một mở rộng như vậy $E'$ là tách được trên $K$ ($V$, p. 36, Mệnh đề 1), do đó $E' = K[{E'}^p] \subset K[E^p]$ theo điều đã nói; cuối cùng ta có $E = K[E^p]$. Bằng quy nạp theo $n \geq 0$, quan hệ $E = K[E^p]$ kéo theo rằng $E = K[E^{p^n}]$.
 
 #### Hệ quả 1 {#alg-v-s7-prop-11-cor-1 .statement}
 

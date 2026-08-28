@@ -36,7 +36,7 @@ subsections:
       pdf_page: 83
 statements: 29
 exercises: 22
-content_sha256: 3e399d876bc27db867da74ec49726ca49037a86fa5babca54071af65a15fb95d
+content_sha256: ee8a61fda4c4bb0770ce4ab749dc8b1788e45276257a9a89a1cabdf019cf6e14
 ---
 
 ## § 6. — Images d’une mesure
@@ -163,7 +163,7 @@ a) Supposons que π soit μ-propre et soit μ' = π(μ). Pour que π' soit μ'-p
 
 b) Supposons que π' soit continue, et que π'' soit μ-propre ; π est alors μ-propre, π' est π(μ)-propre, et on a π''(μ) = π'(π(μ)).
 
-Sous les hypothèses de a), pour que π'' soit μ-mesurable, il faut et il suffit que π' soit μ'-mesurable (n° 2, prop. 3). D’autre part, si K est une partie compacte de T'', on a $\pi''^{-1}(K) = \pi'^{-1}(\pi'(K))$; pour que $\pi''^{-1}(K)$ soit essentiellement μ-intégrable, il faut et il suffit que $\pi'^{-1}(K)$ soit essentiellement μ'-intégrable, en vertu du cor. du th. 1. Enfin, si π'' est μ-propre, en posant $\mu'' = \pi''(\mu)$, on a, pour toute fonction $f \in \mathcal{K}(T'')$,
+Sous les hypothèses de a), pour que π'' soit μ-mesurable, il faut et il suffit que π' soit μ'-mesurable (n° 2, prop. 3). D’autre part, si K est une partie compacte de T'', on a ${\pi''}^{-1}(K) = {\pi'}^{-1}(\pi'(K))$; pour que ${\pi''}^{-1}(K)$ soit essentiellement μ-intégrable, il faut et il suffit que ${\pi'}^{-1}(K)$ soit essentiellement μ'-intégrable, en vertu du cor. du th. 1. Enfin, si π'' est μ-propre, en posant $\mu'' = \pi''(\mu)$, on a, pour toute fonction $f \in \mathcal{K}(T'')$,
 
 $$
 \int f(t'')\,d\mu''(t'') = \int f(\pi''(t))\,d\mu(t)
@@ -174,11 +174,11 @@ $$
 
 en vertu du th. 1 du n° 2, ce qui achève la démonstration de a).
 
-Sous les hypothèses de b), soit K' une partie compacte de T'. Alors $K'' = \pi'(K')$ est compact, donc $\pi''^{-1}(K'')$ est essentiellement μ-intégrable, donc $\pi'^{-1}(K') \subset \pi''^{-1}(K'')$ est essentiellement μ-intégrable (chap. IV, 2e éd., § 5, n° 5, prop. 7), de sorte que π est μ-propre. On achève alors en appliquant la partie a) de l’énoncé.
+Sous les hypothèses de b), soit K' une partie compacte de T'. Alors $K'' = \pi'(K')$ est compact, donc ${\pi''}^{-1}(K'')$ est essentiellement μ-intégrable, donc ${\pi'}^{-1}(K') \subset {\pi''}^{-1}(K'')$ est essentiellement μ-intégrable (chap. IV, 2e éd., § 5, n° 5, prop. 7), de sorte que π est μ-propre. On achève alors en appliquant la partie a) de l’énoncé.
 
 #### Corollaire {#int-v-s6-n3-cor-1 .statement}
 
-Soient T et T' deux espaces localement compacts, μ une mesure positive sur T, π une application bijective de T sur T', $\pi'^{-1}$ l’application réciproque. Supposons que π soit μ-propre, et soit $\mu' = \pi(\mu)$. Alors $\pi'^{-1}$ est μ'-propre et on a $\pi'^{-1}(\pi(\mu)) = \mu$.
+Soient T et T' deux espaces localement compacts, μ une mesure positive sur T, π une application bijective de T sur T', ${\pi'}^{-1}$ l’application réciproque. Supposons que π soit μ-propre, et soit $\mu' = \pi(\mu)$. Alors ${\pi'}^{-1}$ est μ'-propre et on a ${\pi'}^{-1}(\pi(\mu)) = \mu$.
 
 #### Proposition 5 {#int-v-s6-prop-5 .statement}
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 64
 exercises: 26
-content_sha256: bda5594231442ab85407b0e2e6ee091d902ae7805933caafef6a5a2fa00fca5c
+content_sha256: 6e3a120c392ef8be041cdb35e438115941e77709f0edc4b4e421209c2e07c876
 ---
 
 ## § 4. GROUPES ET GROUPES A OPÉRATEURS
@@ -186,7 +186,7 @@ Si $G$ est un groupe à opérateurs, le sous-groupe *stable* engendré par une p
 
 *Soient $f : G \to G'$ un homomorphisme de groupes à opérateurs et $X$ une partie de $G$. L’image par $f$ du sous-groupe stable de $G$ engendré par $X$ est le sous-groupe stable de $G'$ engendré par $f(X)$.*
 
-Posons $X' = f(X)$. On a $\hat{X}' = f(\hat{X})$ et $X'^{-1} = f(X^{-1})$. Par suite $f(\hat{X} \cup \hat{X}^{-1}) = \hat{X}' \cup \hat{X}'^{-1}$. Le corollaire résulte donc de I, p. 6, prop. 1.
+Posons $X' = f(X)$. On a $\hat{X}' = f(\hat{X})$ et ${X'}^{-1} = f(X^{-1})$. Par suite $f(\hat{X} \cup \hat{X}^{-1}) = \hat{X}' \cup \hat{{X}'}^{-1}$. Le corollaire résulte donc de I, p. 6, prop. 1.
 
 *Exemple 2).* — Soient $G$ un groupe et $x$ un élément de $G$. Le sous-groupe engendré par $\{x\}$ (qu’on appelle plus simplement le sous-groupe engendré par $x$) est l’ensemble des $x^n$ pour $n \in \mathbf{Z}$. La partie stable (pour la loi de $G$) engendrée par $\{x\}$ est l’ensemble des $x^n$ où $n \in \mathbf{N}^*$. Ces deux ensembles sont en général distincts.
 
@@ -343,7 +343,7 @@ G; soient $a \in H'$ et $b \in H$; il existe $x \in G'$ et $y \in G$ tels que $a
 
 *Soient $f : G \to H$ un homomorphisme des groupes à opérateurs, $N$ le noyau de $f$, $G'$ un sous-groupe stable de $G$ et $L$ un sous-groupe stable distingué de $G'$. Alors $LN, L.(G' \cap N)$ et $f(L)$ sont des sous-groupes stables distingués de $G'N, G'$ et $f(G')$ respectivement, et les trois groupes à opérateurs quotients $G'N/LN, G'/(L.(G' \cap N))$ et $f(G')/f(L)$ sont isomorphes.
 
-Posons $H' = f(G')$ et notons $f'$ l’homomorphisme de $G'$ sur $H'$ qui coïncide avec $f$ sur $G'$; le noyau de $f'$ est $G' \cap N$ et l’on a $f'(L) = f(L)$; d’après la prop. 7 (I, p. 37), $f'(L)$ est un sous-groupe stable distingué de $H'$ et $f'^{-1}(f'(L)) = L.(G' \cap N)$ est un sous-groupe stable distingué de $G'$. Soit $\lambda$ l’homomorphisme canonique de $H'$ sur $H'/f'(L) = f(G')/f(L)$; comme $\lambda \circ f'$ est surjectif de noyau $f'^{-1}(f'(L)) = L.(G' \cap N)$, il définit un isomorphisme de $G'/(L.(G' \cap N))$ sur $f(G')/f(L)$. D’après la prop. 7, b) (I, p. 37), on a $f^{-1}(H') = G'N$; si $f''$ est l’homomorphisme de $G'N$ sur $H'$ qui coïncide avec $f$ sur $G'N$, l’homomorphisme $\lambda \circ f''$ de $G'N$ sur $f(G')/f(L)$ est surjectif, de noyau $f^{-1}(f(L)) = LN$; ceci prouve que $LN$ est un sous-groupe stable distingué de $G'N$ et que $\lambda \circ f''$ définit un isomorphisme de $G'N/LN$ sur $f(G')/f(L)$.
+Posons $H' = f(G')$ et notons $f'$ l’homomorphisme de $G'$ sur $H'$ qui coïncide avec $f$ sur $G'$; le noyau de $f'$ est $G' \cap N$ et l’on a $f'(L) = f(L)$; d’après la prop. 7 (I, p. 37), $f'(L)$ est un sous-groupe stable distingué de $H'$ et ${f'}^{-1}(f'(L)) = L.(G' \cap N)$ est un sous-groupe stable distingué de $G'$. Soit $\lambda$ l’homomorphisme canonique de $H'$ sur $H'/f'(L) = f(G')/f(L)$; comme $\lambda \circ f'$ est surjectif de noyau ${f'}^{-1}(f'(L)) = L.(G' \cap N)$, il définit un isomorphisme de $G'/(L.(G' \cap N))$ sur $f(G')/f(L)$. D’après la prop. 7, b) (I, p. 37), on a $f^{-1}(H') = G'N$; si $f''$ est l’homomorphisme de $G'N$ sur $H'$ qui coïncide avec $f$ sur $G'N$, l’homomorphisme $\lambda \circ f''$ de $G'N$ sur $f(G')/f(L)$ est surjectif, de noyau $f^{-1}(f(L)) = LN$; ceci prouve que $LN$ est un sous-groupe stable distingué de $G'N$ et que $\lambda \circ f''$ définit un isomorphisme de $G'N/LN$ sur $f(G')/f(L)$.
 
 #### Corollaire 3 {#alg-i-s4-prop-7-cor-3 .statement}
 
@@ -371,7 +371,7 @@ On suppose que les relations $a \in A$ et $b \in B$ impliquent $aba^{-1} \in B$ 
 
 Les formules
 $$
-(ab)(a'b') = aa'(a'^{-1}ba'.b')
+(ab)(a'b') = aa'({a'}^{-1}ba'.b')
 $$
 $$
 (ab)^{-1} = a^{-1}(ab^{-1}a^{-1})
@@ -550,7 +550,7 @@ $$(H_1 H_2 \ldots H_i) \cap H_{i+1} = \{e\} \quad \text{pour } 1 \leq i \leq n -
 
 *L’ensemble $H_1 H_2 \ldots H_n$ est un sous-groupe stable distingué de G, somme restreinte des $H_i$*
 
-Par récurrence sur $n$, on se ramène aussitôt à démontrer la proposition pour $n = 2$. Montrons d’abord que, si $x \in H_1$, $y \in H_2$, $x$ et $y$ sont *permutables*; en effet, on a $xyx^{-1}y^{-1} = (xyx^{-1})y^{-1} = x(yx^{-1}y^{-1})$ donc ($H_1$ et $H_2$ étant distingués) $xyx^{-1}y^{-1} \in H_1 \cap H_2$, c’est-à-dire $xyx^{-1}y^{-1} = e$, d’après l’hypothèse. Par ailleurs $H_1 H_2$ est une partie de G stable par les homothéties de G. Il en résulte (I, p. 31, prop. 1) que $H_1 H_2$ est un sous-groupe stable de G, et on vérifie immédiatement que ce sous-groupe est distingué. Supposons enfin qu’on ait $xy = x'y'$, avec $x \in H_1$, $x' \in H_1$, $y \in H_2$, $y' \in H_2$; on en tire $x'^{-1}x = y'y^{-1}$, donc $x'^{-1}x \in H_1 \cap H_2 = \{e\}$, $x' = x$, et de même $y' = y$; $H_1 H_2$ est bien produit direct de $H_1$ et $H_2$.
+Par récurrence sur $n$, on se ramène aussitôt à démontrer la proposition pour $n = 2$. Montrons d’abord que, si $x \in H_1$, $y \in H_2$, $x$ et $y$ sont *permutables*; en effet, on a $xyx^{-1}y^{-1} = (xyx^{-1})y^{-1} = x(yx^{-1}y^{-1})$ donc ($H_1$ et $H_2$ étant distingués) $xyx^{-1}y^{-1} \in H_1 \cap H_2$, c’est-à-dire $xyx^{-1}y^{-1} = e$, d’après l’hypothèse. Par ailleurs $H_1 H_2$ est une partie de G stable par les homothéties de G. Il en résulte (I, p. 31, prop. 1) que $H_1 H_2$ est un sous-groupe stable de G, et on vérifie immédiatement que ce sous-groupe est distingué. Supposons enfin qu’on ait $xy = x'y'$, avec $x \in H_1$, $x' \in H_1$, $y \in H_2$, $y' \in H_2$; on en tire ${x'}^{-1}x = y'y^{-1}$, donc ${x'}^{-1}x \in H_1 \cap H_2 = \{e\}$, $x' = x$, et de même $y' = y$; $H_1 H_2$ est bien produit direct de $H_1$ et $H_2$.
 
 Lorsque les groupes considérés sont commutatifs, on emploie le terme de *somme directe* au lieu de somme restreinte.
 

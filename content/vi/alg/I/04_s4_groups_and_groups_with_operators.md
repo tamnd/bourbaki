@@ -53,9 +53,9 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: a9b7860fbdf9433ce2143124fb6587fe2d42760a3c0febebf15cdac7c63da9d9
+content_sha256: aa5bc8a02710f1b5ae2f28d39bad82109f5ace42d0a48d84fff08b1e75c201df
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
-source_content_sha256: e6fbeed416ce5223d2083efdf2930c58be6c35b9febe48f9870b9bb5669b3907
+source_content_sha256: 6fdd18062de015dd5e49685237342c49c081e4f2523d31a66527ab133256fe12
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-8494d73e
 glossary_version: 34
@@ -200,7 +200,7 @@ Cho $f : G \to G'$ là một đồng cấu của các nhóm có toán tử và X
 
 Đặt $X' = f(X)$. Khi đó $\hat{X}' = f(\hat{X})$ và ${X'}^{-1} = f(X^{-1})$. Do đó
 $$
-f(\hat{X} \cup \hat{X}^{-1}) = \hat{X}' \cup \hat{X}'^{-1}.
+f(\hat{X} \cup \hat{X}^{-1}) = \hat{X}' \cup \hat{{X}'}^{-1}.
 $$
 Hệ quả suy ra từ § 1, no. 4, Mệnh đề 1.
 

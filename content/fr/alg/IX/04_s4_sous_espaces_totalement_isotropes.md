@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 6501e14acfaa6e7ef3faff319553f4fa16f2473df952a0c3d55ef2d0084076ae
+content_sha256: 937260b1121a4dbb109ea678e508a26d0a49e9c7a60add573afec0d0a94af5d2
 ---
 
 ## § 4. Sous-espaces totalement isotropes. Théorème de Witt
@@ -109,7 +109,7 @@ a) Si $F'$ est un sous-espace totalement isotrope de dimension r tel que $F' \ca
 
 b) Si G est un sous-espace totalement isotrope (resp. totalement singulier) de dimension $\leq r$ tel que $G \cap F^0 = \{0\}$, il existe un sous-espace totalement isotrope (resp. totalement singulier) $F' \supset G$ de dimension r tel que $F' \cap F^0 = \{0\}$.
 
-Soit $\Psi$ la restriction de $\Phi$ à $F \times F'$; pour $x' \in F'$, la relation «$\Phi(x, x') = 0$ pour tout $x \in F$ » entraîne $x = 0$ puisque $F' \cap F^0 = \{0\}$. L’assertion a) résulte alors du cor. de la prop. 6 du § 1, n° 6, à l’exception du fait que $F + F'$ est non isotrope. Or le sous-espace $H = (F + F') \cap (F + F')^0$ est égal à $(F + F') \cap F^0 \cap F'^0$. Comme $F \subset F^0$, on a $(F + F') \cap F^0 = F + (F' \cap F^0) = F$, d’où $H = F \cap F'^0$; donc $H = \{0\}$ puisqu’on a vu que $\Psi$ est non dégénérée. Ceci prouve bien que $F + F'$ est non isotrope.
+Soit $\Psi$ la restriction de $\Phi$ à $F \times F'$; pour $x' \in F'$, la relation «$\Phi(x, x') = 0$ pour tout $x \in F$ » entraîne $x = 0$ puisque $F' \cap F^0 = \{0\}$. L’assertion a) résulte alors du cor. de la prop. 6 du § 1, n° 6, à l’exception du fait que $F + F'$ est non isotrope. Or le sous-espace $H = (F + F') \cap (F + F')^0$ est égal à $(F + F') \cap F^0 \cap {F'}^0$. Comme $F \subset F^0$, on a $(F + F') \cap F^0 = F + (F' \cap F^0) = F$, d’où $H = F \cap {F'}^0$; donc $H = \{0\}$ puisqu’on a vu que $\Psi$ est non dégénérée. Ceci prouve bien que $F + F'$ est non isotrope.
 
 Pour démontrer b), nous procéderons par récurrence descendante sur $s = \dim G$. Il nous suffit ainsi de prouver que, si $s < r$, il existe un sous-espace totalement isotrope (resp. totalement singulier) $G'$ contenant G, de dimension $s + 1$, et tel que $G' \cap F^0 = \{0\}$. Comme $\dim G < \dim F$, la restriction de $\Phi$ à $F \times G$ est dégénérée, et comme $G \cap F^0$ est nul, $F \cap G^0$ est non nul. Si l’on avait alors $G + F^0 \supset G^0$, on en déduirait, en prenant les sous-espaces orthogonaux et en remarquant que $F = F^{00}$ et que $G = G^{00}$ ($\S 1$, n° 6, cor. 1 de la prop. 4), que $G^0 \cap F \subset G$, d’où
 

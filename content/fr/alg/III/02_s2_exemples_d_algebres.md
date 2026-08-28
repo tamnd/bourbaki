@@ -57,7 +57,7 @@ subsections:
       pdf_page: 415
 statements: 20
 exercises: 4
-content_sha256: fb6149a42aba6ef50daf9c75130cb0bd6b5a674778856537214849a1d2de9e25
+content_sha256: 13eb8ae334e2c27bb261675f7ae2326e6c05f328bc68c6450bead53a15ffe82c
 ---
 
 ## § 2. EXEMPLES D’ALGÈBRES
@@ -111,7 +111,7 @@ on voit donc que E est de type
 $$(3)$$
 $$(\alpha \delta^2 - \gamma^2 - \beta \gamma \delta, 2\gamma + \beta \delta)$$
 
-pour tout $\delta \in A$ inversible et tout $\gamma \in A$. En particulier, si E est de type $(\alpha, 2\beta')$, elle est aussi de type $(\alpha + \beta'^2, 0)$ comme on le voit en prenant $\gamma = -\beta'$ et $\delta = 1$.
+pour tout $\delta \in A$ inversible et tout $\gamma \in A$. En particulier, si E est de type $(\alpha, 2\beta')$, elle est aussi de type $(\alpha + {\beta'}^2, 0)$ comme on le voit en prenant $\gamma = -\beta'$ et $\delta = 1$.
 
 #### Proposition 2 {#alg-iii-s2-prop-2 .statement}
 
@@ -577,7 +577,7 @@ $$
 
 *Soient $A[(X_i)_{i \in I}]$ une algèbre de polynômes, $J$ une partie de $I$, K le complémentaire de $J$ dans $I$. Si on pose $A' = A[(X_j)_{j \in J}]$ et si on note $X'_k$ ($k \in K$) les indéterminées dans l’algèbre de polynômes Libasc$_A'$(K) = $A'[(X'_k)_{k \in K}]$, il existe un isomorphisme unique d’anneaux de $A'[(X'_k)_{k \in K}]$ sur $A[(X_i)_{i \in I}]$ qui coïncide avec l’identité dans $A'$ et transforme $X'_k$ en $X_k$ pour tout $k \in K$.*
 
-En effet, il est clair que $A[(X_i)_{i \in I}]$ est une $A'$-algèbre engendrée par les $X_k$ pour $k \in K$. D’autre part, comme un relateur polynomial entre les $X_k$ ($k \in K$) à coefficients dans $A'$ s’écrit d’une seule manière $\sum h_\nu((X_j)_{j \in J}) X'^\nu$ où $\nu$ parcourt une partie finie de $\mathbf{N}^{(\mathbf{K})}$ et où les $h_v$ sont des éléments de $A[(X_j)_{j \in J}]$, les $h_v$ doivent être des relateurs polynomiaux entre les $X_j$ à coefficients dans $A$, donc sont tous nuls, ce qui prouve la proposition.
+En effet, il est clair que $A[(X_i)_{i \in I}]$ est une $A'$-algèbre engendrée par les $X_k$ pour $k \in K$. D’autre part, comme un relateur polynomial entre les $X_k$ ($k \in K$) à coefficients dans $A'$ s’écrit d’une seule manière $\sum h_\nu((X_j)_{j \in J}) {X'}^\nu$ où $\nu$ parcourt une partie finie de $\mathbf{N}^{(\mathbf{K})}$ et où les $h_v$ sont des éléments de $A[(X_j)_{j \in J}]$, les $h_v$ doivent être des relateurs polynomiaux entre les $X_j$ à coefficients dans $A$, donc sont tous nuls, ce qui prouve la proposition.
 
 On utilise souvent l’isomorphisme décrit dans la prop. 8 pour identifier les éléments de $A[(X_i)_{i \in I}]$ à des polynômes à coefficients dans $A' = A[(X_j)_{j \in J}]$. Si $u$ est un élément $\neq 0$ de $A[(X_i)_{i \in I}]$, son degré total quand on le considère comme élément de $A'[(X_k)_{k \in K}]$ est encore appelé son *degré par rapport aux* $X_i$ *d’indice* $i \in K$.
 

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 208
 statements: 76
 exercises: 30
-content_sha256: acfd62aad6c0bad51a748ba75bf35dbc1ae5b649cfb29a539c6d24f3c15c4356
+content_sha256: fe38d0e07965528001fa474c2453af125868ae27bc80af5a2f745d9e63d29fe6
 ---
 
 ## § 6. Groupes de Lie réels ou complexes
@@ -725,8 +725,8 @@ bh(a)b^{-1} = bf(a^{-1})ab^{-1} = (\omega(b)f(a^{-1}))(bab^{-1})
 = f(ba^{-1}b^{-1})(bab^{-1}) = h(bab^{-1})
 $$
 $$
-a'h(a)a'^{-1} = a'f(a^{-1})aa'^{-1} = a'f(a^{-1})(\omega(a)a'^{-1})a
-= a'f(a^{-1})f(a)a'^{-1}f(a^{-1})a = h(a)
+a'h(a){a'}^{-1} = a'f(a^{-1})a{a'}^{-1} = a'f(a^{-1})(\omega(a){a'}^{-1})a
+= a'f(a^{-1})f(a){a'}^{-1}f(a^{-1})a = h(a)
 $$
 donc $h(\mathbf{A}) = \mathbf{D}$ est distingué dans $\mathbf{B}''$.
 (ii) Pour $a \in \mathbf{A}$, on a
@@ -849,7 +849,7 @@ définit par passage au quotient un isomorphisme de $G/G_0$ sur $\tilde{G}/\tild
 
 #### Remarque 2 {#lie-iii-s6-n10-rem-2 .statement}
 
-Supposons $G$ simplement connexe. Soient $g = L(G)$, $g_C$ la complexification de $g$, $S'$ le groupe de Lie complexe simplement connexe d’algèbre de Lie $g_C$, $\sigma$ le morphisme de $G$ dans $S'$ tel que $L(\sigma)$ soit l’injection canonique de $g$ dans $g_C$. Reprenons les notations de la démonstration de la prop. 20, partie *a*). Si $H = S'$ et $\varphi = \sigma$, on a $\varphi^* = \mathrm{Id}_{S'}$. Donc $(S', \sigma)$ est la complexification universelle de $G$. On notera que $\sigma$ n’est pas injectif en général (exerc. 16); toutefois *son noyau est discret* puisque $L(\sigma)$ est injectif. D’autre part, soit $\theta$ l’involution de $g_C$ définie par $g$, et soit $\eta$ l’automorphisme correspondant du groupe de Lie réel sous-jacent à $S'$; soit $S'^n$ l’ensemble des points de $S'$ invariants par $\eta$; c’est un sous-groupe de Lie réel de $S'$ d’algèbre de Lie $g$ (\S 3, n° 8, cor. 1 de la prop. 29). D’après le n° 1, cor. 1 de la prop. 1, $\sigma(G)$ est le sous-groupe intégral réel de $S'$ d’algèbre de Lie $g$, donc $\sigma(G)$ *est la composante neutre de* $S'^n$; en particulier $\sigma(G)$ est un sous-groupe de Lie réel de $S'$.
+Supposons $G$ simplement connexe. Soient $g = L(G)$, $g_C$ la complexification de $g$, $S'$ le groupe de Lie complexe simplement connexe d’algèbre de Lie $g_C$, $\sigma$ le morphisme de $G$ dans $S'$ tel que $L(\sigma)$ soit l’injection canonique de $g$ dans $g_C$. Reprenons les notations de la démonstration de la prop. 20, partie *a*). Si $H = S'$ et $\varphi = \sigma$, on a $\varphi^* = \mathrm{Id}_{S'}$. Donc $(S', \sigma)$ est la complexification universelle de $G$. On notera que $\sigma$ n’est pas injectif en général (exerc. 16); toutefois *son noyau est discret* puisque $L(\sigma)$ est injectif. D’autre part, soit $\theta$ l’involution de $g_C$ définie par $g$, et soit $\eta$ l’automorphisme correspondant du groupe de Lie réel sous-jacent à $S'$; soit ${S'}^n$ l’ensemble des points de $S'$ invariants par $\eta$; c’est un sous-groupe de Lie réel de $S'$ d’algèbre de Lie $g$ (\S 3, n° 8, cor. 1 de la prop. 29). D’après le n° 1, cor. 1 de la prop. 1, $\sigma(G)$ est le sous-groupe intégral réel de $S'$ d’algèbre de Lie $g$, donc $\sigma(G)$ *est la composante neutre de* ${S'}^n$; en particulier $\sigma(G)$ est un sous-groupe de Lie réel de $S'$.
 
 ## EXERCICES {#lie-iii-s6-exercises}
 

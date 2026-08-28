@@ -53,7 +53,7 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 18
-content_sha256: 88bdf0541a3e68126fee0babd3923bf24af11066f20dc5acfa25e32172ff0110
+content_sha256: b77bf541e3e518abb93045c369a3f6999436d7a2399899fc0be5bccd95724fc8
 translated_from: content/en/int/VI/02_s2_vectorial_measures.md
 source_content_sha256: b2224e3ba44c39c383bed9964f3920718fdcd7f727ed0fef49058dbd1cef0556
 translation_model: gpt-5.4-mini
@@ -107,7 +107,7 @@ Ký hiệu ánh xạ này là $\Phi$, ta hiển nhiên có $\Phi(\lambda z') = \
 
 #### Định nghĩa 2 {#int-vi-s2-def-2 .statement}
 
-*Cho $m$ là một độ đo vectơ trên $T$ với giá trị trong $F$, $f$ là một hàm số vô hướng trên $T$ gần như khả tích đối với $m$. Người ta gọi tích phân của $f$ đối với $m$, và ký hiệu bởi $m(f)$ hay $\int f \, dm$ hay cũng $\int f(t) \, dm(t)$, phần tử của $F'^*$ được xác định bởi*
+*Cho $m$ là một độ đo vectơ trên $T$ với giá trị trong $F$, $f$ là một hàm số vô hướng trên $T$ gần như khả tích đối với $m$. Người ta gọi tích phân của $f$ đối với $m$, và ký hiệu bởi $m(f)$ hay $\int f \, dm$ hay cũng $\int f(t) \, dm(t)$, phần tử của ${F'}^*$ được xác định bởi*
 
 $$
 \langle z', \int f \, dm \rangle = \int f \, d(z' \circ m)^+ - \int f \, d(z' \circ m)^-.
@@ -127,7 +127,7 @@ Rõ ràng là tập hợp các hàm số vô hướng hữu hạn khả tích th
 
 — Ta lấy cho $m$ ánh xạ đồng nhất của $\mathscr{K}(T)$ lên chính nó. Vì không gian đối ngẫu của $\mathscr{K}(T)$ là không gian $\mathscr{M}(T)$ của các độ đo vô hướng trên $T$, các hàm $f \in \mathcal{L}(m)$ là những hàm khả tích theo nghĩa thiết yếu đối với *mọi* độ đo vô hướng $\mu$ (xem Bài tập 1), và tích phân $\int f dm$ là dạng tuyến tính $\mu \mapsto \int f d\mu$ trên $\mathscr{M}(T)$. Không thể có $\int f d\mu = 0$ với mọi độ đo $\mu \in \mathscr{M}(T)$ trừ khi $f = 0$, như thấy khi lấy $\mu = \varepsilon_t$, với $t$ tùy ý trong $T$; nói cách khác, ánh xạ $f \mapsto \int f dm$ là một *đơn ánh* từ $\mathcal{L}(m)$ vào đối ngẫu đại số của $\mathscr{M}(T)$, và nó mở rộng ánh xạ đồng nhất của $\mathscr{K}(T)$. Do đó, quan hệ $\int f dm \in F = \mathscr{K}(T)$ tương đương với $f \in \mathscr{K}(T)$.
 
-Cho $u$ là một ánh xạ tuyến tính liên tục của $F$ vào một không gian lồi địa phương Hausdorff $G$, và cũng ký hiệu bằng $u$ phép mở rộng của nó bằng song chuyển vị thành một ánh xạ tuyến tính của $F'^*$ vào $G'^*$ (\S 1, No. 1). Với quy ước này:
+Cho $u$ là một ánh xạ tuyến tính liên tục của $F$ vào một không gian lồi địa phương Hausdorff $G$, và cũng ký hiệu bằng $u$ phép mở rộng của nó bằng song chuyển vị thành một ánh xạ tuyến tính của ${F'}^*$ vào ${G'}^*$ (\S 1, No. 1). Với quy ước này:
 
 #### Mệnh đề 2 {#int-vi-s2-prop-2 .statement}
 
@@ -135,13 +135,13 @@ Cho $u$ là một ánh xạ tuyến tính liên tục của $F$ vào một khôn
 
 Mệnh đề là hiển nhiên, do đẳng thức $y' \circ u \circ m = {}^t u(y') \circ m$ với mọi $y \in G'$.
 
-Nói chung, nếu $f \in \mathcal{L}(m)$, thì tích phân $\int f dm$ thuộc $F'^*$ nhưng không thuộc $F$ (xem *Ví dụ* trên). Tuy nhiên:
+Nói chung, nếu $f \in \mathcal{L}(m)$, thì tích phân $\int f dm$ thuộc ${F'}^*$ nhưng không thuộc $F$ (xem *Ví dụ* trên). Tuy nhiên:
 
 #### Mệnh đề 3 {#int-vi-s2-prop-3 .statement}
 
 *Nếu ảnh qua* $m$ *của tập hợp các* $f \in \mathscr{K}(T)$ *sao cho* $\sup_{t \in T} |f(t)| \leq 1$ *là tương đối compact yếu trong* $F$, *thì* $\int f dm \in F$ *với mọi hàm số vô hướng bị chặn* $f$ *khả tích theo nghĩa thiết yếu đối với* $m$.
 
-Cho $A$ là tập hợp các $f \in \mathcal{L}(m)$ sao cho $\sup_{t \in T} |f(t)| \leq 1$, và cho $B = A \cap \mathscr{K}(T)$; theo giả thiết, $m(B)$ là tương đối compact yếu trong $F$, do đó đủ để chỉ ra rằng $m(A)$ được chứa trong bao đóng (trong $F'^*$) của $m(B)$ đối với tôpô $\sigma(F'^*, F')$; vì $m(B)$ là lồi và cân bằng, đủ để chứng minh rằng đối cực của $m(B)$ trong $F'$ được chứa trong đối cực của $m(A)$ (TVS, II, §6, No. 3, ĐL. 1). Bây giờ, để một dạng tuyến tính $z' \in F'$ thuộc $(m(B))^\circ$, cần và đủ rằng $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ đối với mọi hàm $g \in B$, điều đó có nghĩa là độ đo vô hướng $|z'\circ m|$ bị chặn và có chuẩn $\leq 1$ (Ch. III, §1, No. 8); nhưng theo (2) điều kiện sau suy ra rằng $|\langle z', m(f)\rangle| \leq 1$ đối với mọi hàm $f \in A$, suy ra $z' \in (m(A))^\circ$.
+Cho $A$ là tập hợp các $f \in \mathcal{L}(m)$ sao cho $\sup_{t \in T} |f(t)| \leq 1$, và cho $B = A \cap \mathscr{K}(T)$; theo giả thiết, $m(B)$ là tương đối compact yếu trong $F$, do đó đủ để chỉ ra rằng $m(A)$ được chứa trong bao đóng (trong ${F'}^*$) của $m(B)$ đối với tôpô $\sigma({F'}^*, F')$; vì $m(B)$ là lồi và cân bằng, đủ để chứng minh rằng đối cực của $m(B)$ trong $F'$ được chứa trong đối cực của $m(A)$ (TVS, II, §6, No. 3, ĐL. 1). Bây giờ, để một dạng tuyến tính $z' \in F'$ thuộc $(m(B))^\circ$, cần và đủ rằng $|\langle z', m(g)\rangle| = |\int g d(z'\circ m)| \leq 1$ đối với mọi hàm $g \in B$, điều đó có nghĩa là độ đo vô hướng $|z'\circ m|$ bị chặn và có chuẩn $\leq 1$ (Ch. III, §1, No. 8); nhưng theo (2) điều kiện sau suy ra rằng $|\langle z', m(f)\rangle| \leq 1$ đối với mọi hàm $f \in A$, suy ra $z' \in (m(A))^\circ$.
 
 #### Hệ quả 1 {#int-vi-s2-prop-3-cor-1 .statement}
 
@@ -149,7 +149,7 @@ Cho $A$ là tập hợp các $f \in \mathcal{L}(m)$ sao cho $\sup_{t \in T} |f(t
 
 Mệnh đề đầu tiên có thể suy ra ngay lập tức từ Mệnh đề 3: nếu $f$ bị chặn và có giá compact, và nếu U là một lân cận mở tương đối compact của giá của $f$, thì phần hạn chế của $m$ lên không gian con $\mathcal{H}(U)$ là một độ đo $m_U$ trên U thỏa mãn các điều kiện của Mệnh đề 3, và $\int f dm_U = \int f dm$ (Ch. V, §7, No. 1, ĐL. 1), do đó $\int f dm \in F$.
 
-Now let $f$ be any element of $\mathcal{L}(m)$; for every compact subset K of T and every integer $n > 0$, let $f_{n,K}$ be the numerical function on T defined as follows: if $t \notin K$, $f_{n,K}(t) = 0$; if $t \in K$ and $|f(t)| \leq n$, $f_{n,K}(t) = f(t)$; finally, if $t \in K$ and $|f(t)| > n$, $f_{n,K}(t) = nf(t)/|f(t)|$. It is clear that for every $t \in T$, $f(t)$ is the limit of $f_{n,K}(t)$ with respect to the product filter of the Fréchet filter by the section filter of the (increasing directed) ordered set of compact subsets of T. Since $|f_{n,K}| \leq |f|$, it follows from Lebesgue’s theorem and Prop. 10 of Ch. V, §1, No. 3, applied to each scalar measure $|z'\circ m|$, that $f_{n,K}$ converges to $f$ in $\mathcal{L}(m)$ with respect to the preceding filter. Consequently, the integral $\int f dm$ is in the closure in $F'^*$ (for the topology $\sigma(F'^*, F')$) of the set M of $m(f_{n,K})$. But the first part of the corollary shows that $M \subset F$, and, on the other hand, for every $z' \in F'$ one has $|\langle z', m(f_{n,K})\rangle| \leq \int |f| d|z'\circ m|$, which shows that M is bounded in $F_\sigma$, hence also in F (TVS, IV, §1, No. 1, Prop. 1). Lemma 1 of §1, No. 2 therefore shows that $\int f dm \in F''$.
+Now let $f$ be any element of $\mathcal{L}(m)$; for every compact subset K of T and every integer $n > 0$, let $f_{n,K}$ be the numerical function on T defined as follows: if $t \notin K$, $f_{n,K}(t) = 0$; if $t \in K$ and $|f(t)| \leq n$, $f_{n,K}(t) = f(t)$; finally, if $t \in K$ and $|f(t)| > n$, $f_{n,K}(t) = nf(t)/|f(t)|$. It is clear that for every $t \in T$, $f(t)$ is the limit of $f_{n,K}(t)$ with respect to the product filter of the Fréchet filter by the section filter of the (increasing directed) ordered set of compact subsets of T. Since $|f_{n,K}| \leq |f|$, it follows from Lebesgue’s theorem and Prop. 10 of Ch. V, §1, No. 3, applied to each scalar measure $|z'\circ m|$, that $f_{n,K}$ converges to $f$ in $\mathcal{L}(m)$ with respect to the preceding filter. Consequently, the integral $\int f dm$ is in the closure in ${F'}^*$ (for the topology $\sigma({F'}^*, F')$) of the set M of $m(f_{n,K})$. But the first part of the corollary shows that $M \subset F$, and, on the other hand, for every $z' \in F'$ one has $|\langle z', m(f_{n,K})\rangle| \leq \int |f| d|z'\circ m|$, which shows that M is bounded in $F_\sigma$, hence also in F (TVS, IV, §1, No. 1, Prop. 1). Lemma 1 of §1, No. 2 therefore shows that $\int f dm \in F''$.
 
 #### Hệ quả 2 {#int-vi-s2-prop-3-cor-2 .statement}
 

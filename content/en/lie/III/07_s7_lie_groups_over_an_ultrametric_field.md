@@ -36,7 +36,7 @@ subsections:
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: 99933437c8c4d2e2f5fcf1297f50f16501e540051b440dd1d8a6c64abe8c68f7
+content_sha256: 5f3b22a09c2b7f10b2ea9721dc07fd7842702806075b9d03184179d32e6594b6
 ---
 
 ## § 7. LIE GROUPS OVER AN ULTRAMETRIC FIELD
@@ -143,9 +143,9 @@ By replacing G by a group isomorphic to an open subgroup of G, the problem is re
 
 where the series on the right hand side are convergent for x, y in G (§ 5, no. 1). Let λ ∈ K* and let the group law be transported from G to G' = λG by the homothety of ratio λ. For x', y' in G', the product x'.y' and the inverse x'^{[-1]} evaluated in G' have coordinates
 
-$$(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} x'^\alpha y'^\beta \quad (i = 1, 2, \ldots, r)$$
+$$(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} {x'}^\alpha {y'}^\beta \quad (i = 1, 2, \ldots, r)$$
 
-$$(x'^{[-1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} x'^\alpha \quad (i = 1, 2, \ldots, r)$$
+$$({x'}^{[-1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} {x'}^\alpha \quad (i = 1, 2, \ldots, r)$$
 
 where
 
@@ -425,7 +425,7 @@ L'(E'(x)) = E'(L'(x)) = x
 $$
 for $x \in \Delta$. Hence $E'$ is an isomorphism of the manifold $\Delta$ onto itself and the inverse isomorphism is the restriction of $L'$ to $\Delta$.
 
-$L(X^{[n]}) = nL(X)$ for $n$ an integer $> 0$ (cf. § 5, no. 4). As $G$ is contained in the domain of absolute convergence of $L$ and $X^{[n]}$, therefore $L'(x^n) = nL'(x)$ for all $x \in G$. The relation $L'|_{\Delta} = E'^{-1}$ implies that $L'(x^n) = \log x^n$ for $n$ sufficiently large. Hence $L'(x) = \log x$. We have thus proved (i) and (ii).
+$L(X^{[n]}) = nL(X)$ for $n$ an integer $> 0$ (cf. § 5, no. 4). As $G$ is contained in the domain of absolute convergence of $L$ and $X^{[n]}$, therefore $L'(x^n) = nL'(x)$ for all $x \in G$. The relation $L'|_{\Delta} = {E'}^{-1}$ implies that $L'(x^n) = \log x^n$ for $n$ sufficiently large. Hence $L'(x) = \log x$. We have thus proved (i) and (ii).
 
 Let $H = \sum_{r,s \geq 0} H_{r,s}$ be the Hausdorff formal power series and $h$ the Hausdorff function relative to $L(G)$. The domain of absolute convergence of $\tilde{H}$ contains $\Delta \times \Delta$ and $h$ is defined on $\Delta \times \Delta$ (Chapter II, § 8, Proposition 2). Then
 $$

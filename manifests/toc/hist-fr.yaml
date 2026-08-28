@@ -4,7 +4,6 @@ grammar: pilcrow/bare
 chapters:
     - book: hist-fr
       chapter: "1"
-      nominal: true
       title: ÉLÉMENTS D'HISTOIRE DES MATHÉMATIQUES
       page: 9
       pdf_page: 7
@@ -113,3 +112,4 @@ chapters:
           title: Groupes engendrés par des réflexions. Systèmes de racines
           page: 327
           pdf_page: 325
+      nominal: true

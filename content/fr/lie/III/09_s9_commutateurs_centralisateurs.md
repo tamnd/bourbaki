@@ -44,7 +44,7 @@ subsections:
       pdf_page: 240
 statements: 54
 exercises: 16
-content_sha256: 643f7dd03d0d152f484d65615d46575ae343bc7230794af5e202de1a77d1a01a
+content_sha256: 24832ddd2325ac6b18a9260479a595709bb97baa8959b61c88aee4e1497c1f1e
 ---
 
 ## § 9. Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
@@ -312,13 +312,13 @@ $$
 (x'_1, x'_2, \ldots, x'_p) \mapsto x'_1 \mathsf{H} x'_2 \mathsf{H} \ldots \mathsf{H} x'_p
 $$
 
-*de $a'_1 \times a'_2 \times \cdots \times a'_p$ dans $g'$. D’après l’hypothèse de récurrence, $\varphi'$ est bijective et $\varphi', \varphi'^{-1}$ sont des applications polynomiales.
+*de $a'_1 \times a'_2 \times \cdots \times a'_p$ dans $g'$. D’après l’hypothèse de récurrence, $\varphi'$ est bijective et $\varphi', {\varphi'}^{-1}$ sont des applications polynomiales.
 
 Soit $x \in g$. Posons
 
 (1)
 $$
-\varphi'^{-1}(\theta(x)) = (x'_1(x), x'_2(x), \ldots, x'_p(x)).
+{\varphi'}^{-1}(\theta(x)) = (x'_1(x), x'_2(x), \ldots, x'_p(x)).
 $$
 On a donc
 (2)
@@ -361,7 +361,7 @@ Alors, d’après (5),
 $$
 \psi(x) = (x_1, \ldots, \eta \theta(x_j) + x_j - \eta \theta(x_j), \ldots, x_p) = (x_1, x_2, \ldots, x_p).
 $$
-Donc $\psi \circ \varphi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. Cela prouve (i). Comme la loi de Hausdorff est polynomiale, $\varphi$ est polynomiale. D’après l’hypothèse de récurrence, $\varphi'^{-1}$ est polynomiale; d’après la formule (1), les fonctions $x_j'$ sont polynomiales, donc $\zeta$ est polynomiale (formule (3)), $y$ est polynomiale (formule (4)), $\psi$ est polynomiale (formule (5)). Cela prouve (ii). L’assertion (iii) résulte de (i) et (ii) et du fait que la loi de Hausdorff est polynomiale. C.Q.F.D.
+Donc $\psi \circ \varphi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. Cela prouve (i). Comme la loi de Hausdorff est polynomiale, $\varphi$ est polynomiale. D’après l’hypothèse de récurrence, ${\varphi'}^{-1}$ est polynomiale; d’après la formule (1), les fonctions $x_j'$ sont polynomiales, donc $\zeta$ est polynomiale (formule (3)), $y$ est polynomiale (formule (4)), $\psi$ est polynomiale (formule (5)). Cela prouve (ii). L’assertion (iii) résulte de (i) et (ii) et du fait que la loi de Hausdorff est polynomiale. C.Q.F.D.
 
 Exemple de groupe de Lie nilpotent. — Soit G le sous-groupe trigonal strict inférieur de $\mathbf{GL}(n, K)$. C’est un sous-groupe de Lie de $\mathbf{GL}(n, K)$, et $L(G) \subset \mathfrak{gl}(n, K)$ est l’algèbre de Lie des matrices triangulaires inférieures de diagonale nulle (\S 3, n° 10, prop. 36). D’après le chap. II, § 4, n° 6, Remarque, G est nilpotent. Supposons désormais que $K = \mathbf{R}$ ou $\mathbf{C}$. Comme G est homéomorphe à $K^{n(n-1)/2}$, G est simplement connexe. L’application exponentielle de $L(G)$ dans G n’est autre que l’application
 $$

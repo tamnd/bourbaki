@@ -40,9 +40,9 @@ subsections:
       pdf_page: 312
 statements: 40
 exercises: 8
-content_sha256: e7df828f400d76a3b15860f86adea3f888736429cd8516520616f3839854a8d3
+content_sha256: 843c508af0eb4e6932fcceb86d969cfb0c36d8602a1f129f72e2fd3525654061
 translated_from: content/en/lie/III/04_s4_passage_from_lie_algebras_to_lie_groups.md
-source_content_sha256: f6119fafd0c50520cc240963bc402a61a2e75894df4eadd672f32edea82dae6f
+source_content_sha256: 15037400c4cf04836cdcbb1cc5df11c077fc63331e83bcc3b8132bb244c069d8
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-cbb0aad0
 glossary_version: 34
@@ -519,7 +519,7 @@ f^{-1}.df = f^*(\omega) \quad (\S 3, \text{no. 18.9}) \\
 = \alpha \quad (\text{vì } \mathrm{pr}_1 \circ \phi = \mathrm{Id}_U).
 $$
 
-Cho $f'$ là một ánh xạ lớp $C^{r-1}$ từ U vào G sao cho $f'(x) = g$ và $f'^{-1}df' = \alpha$. Theo \S 3, 18.9, $f'^{-1}$ là hằng địa phương và do đó $f' = f$ trong một lân cận của $x$.
+Cho $f'$ là một ánh xạ lớp $C^{r-1}$ từ U vào G sao cho $f'(x) = g$ và ${f'}^{-1}df' = \alpha$. Theo \S 3, 18.9, ${f'}^{-1}$ là hằng địa phương và do đó $f' = f$ trong một lân cận của $x$.
 
 #### Mệnh đề 10 {#lie-iii-s4-prop-10 .statement}
 

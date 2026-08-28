@@ -52,7 +52,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 532e6b91ea742fe6cdf1e76c5f9b064a8adb5f9b7f53de5e2c9a067fa23efbc9
+content_sha256: 803604a811504c87fc4ceb1081eed8c02ca8766e1a5c157c84f5f0928a9452b5
 ---
 
 ## § 6. REAL AND COMPLEX LIE GROUPS
@@ -776,8 +776,8 @@ bh(a)b^{-1} = bf(a^{-1})ab^{-1} = (\omega(b)f(a^{-1}))(bab^{-1})
 = f(ba^{-1}b^{-1})(bab^{-1}) = h(bab^{-1})
 $$
 $$
-a'h(a)a'^{-1} = a'f(a^{-1})aa'^{-1} = a'f(a^{-1})(\omega(a)a'^{-1})a
-= a'f(a^{-1})f(a)a'^{-1}f(a^{-1})a = h(a)
+a'h(a){a'}^{-1} = a'f(a^{-1})a{a'}^{-1} = a'f(a^{-1})(\omega(a){a'}^{-1})a
+= a'f(a^{-1})f(a){a'}^{-1}f(a^{-1})a = h(a)
 $$
 and hence $h(A) = D$ is normal in $B''$.
 
@@ -905,7 +905,7 @@ G \to \tilde{G} \to \tilde{G}/\tilde{G}_0
 $$
 defines on passing to the quotient an isomorphism of $G/G_0$ onto $\tilde{G}/\tilde{G}_0$.
 
-(2) Suppose that $G$ is simply connected. Let $g = L(G)$, $g_C$ be the complexification of $g$, $S'$ the simply connected complex Lie group with Lie algebra $g_C$ and $\sigma$ the morphism of $G$ into $S'$ such that $L(\sigma)$ is the canonical injection of $g$ into $g_C$. We again use the notation of the proof of Proposition 20, part (a). If $H = S'$ and $\phi = \sigma$, then $\phi^* = \mathrm{Id}_{S'}$. Hence $(S', \sigma)$ is the universal complexification of $G$. Note that $\sigma$ is not in general injective (Exercise 16); however *its kernel is discrete* since $L(\sigma)$ is injective. On the other hand, let $\theta$ be the involution of $g_C$ defined by $g$ and let $\eta$ be the corresponding automorphism of the underlying real Lie group of $S'$; let $S'^\eta$ be the set of points of $S'$ invariant under $\eta$; it is a real Lie subgroup of $S'$ with Lie algebra $g$ (\S 3, no. 8, Corollary 1 to Proposition 29). By no. 1, Corollary 1 to Proposition 1, $\sigma(G)$ is a real integral subgroup of $S'$ with Lie algebra $g$ and hence $\sigma(G)$ *is the identity component of* $S'^\eta$; in particular $\sigma(G)$ is a real Lie subgroup of $S'$.
+(2) Suppose that $G$ is simply connected. Let $g = L(G)$, $g_C$ be the complexification of $g$, $S'$ the simply connected complex Lie group with Lie algebra $g_C$ and $\sigma$ the morphism of $G$ into $S'$ such that $L(\sigma)$ is the canonical injection of $g$ into $g_C$. We again use the notation of the proof of Proposition 20, part (a). If $H = S'$ and $\phi = \sigma$, then $\phi^* = \mathrm{Id}_{S'}$. Hence $(S', \sigma)$ is the universal complexification of $G$. Note that $\sigma$ is not in general injective (Exercise 16); however *its kernel is discrete* since $L(\sigma)$ is injective. On the other hand, let $\theta$ be the involution of $g_C$ defined by $g$ and let $\eta$ be the corresponding automorphism of the underlying real Lie group of $S'$; let ${S'}^\eta$ be the set of points of $S'$ invariant under $\eta$; it is a real Lie subgroup of $S'$ with Lie algebra $g$ (\S 3, no. 8, Corollary 1 to Proposition 29). By no. 1, Corollary 1 to Proposition 1, $\sigma(G)$ is a real integral subgroup of $S'$ with Lie algebra $g$ and hence $\sigma(G)$ *is the identity component of* ${S'}^\eta$; in particular $\sigma(G)$ is a real Lie subgroup of $S'$.
 
 ### Exercises {#lie-iii-s6-exercises}
 

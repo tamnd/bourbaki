@@ -24,7 +24,7 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: 6446758097a7cf0a8decb14d1ea8cad0e94d908cfee02c9a6bd8c910baf27cac
+content_sha256: f47e9068a5a29a62aa1e03fbc2cea7b53e2e09fa563848111ea03c2bd478819d
 ---
 
 ## § 7. Formes hermitiennes et corps ordonnés
@@ -449,7 +449,7 @@ $$
 \Phi(u(x), u(x)) = \Phi(u^*(x), u^*(x)).
 $$)
 
-Se ramener au cas où A est égal à K(i) ou au corps des quaternions sur K ; F admet alors une base formée de vecteurs propres pour u (et u*) ; remarquer que pour un tel vecteur z, on a $\Phi(u^*u v(z), v(z)) = \beta \Phi(v(z), v(z))$. En déduire que $\nu u$ est normal (raisonner par récurrence sur le nombre des valeurs propres distinctes de $u^*u$). Si h (resp. $h'$) est l’endomorphisme hermitien positif tel que $h^2 = uu^*$ (resp. $h'^2 = \nu \nu^*$) et si on pose $u = hu_1, \nu = h'\nu_1$, où $u_1$ et $\nu_1$ sont unitaires, h permutable à $u_1$ et $h'$ à $\nu_1$ (exerc. 14 a)), montrer que les couples $(h, h'), (h, \nu_1)$ et $(h', u_1)$ sont permutables ; réciproque. En déduire que $u^m \nu^n, \nu^n u^m, u \nu^*$ et $\nu^* u$ sont alors normaux ($m$ et $n$ entiers $> 0$ arbitraires).
+Se ramener au cas où A est égal à K(i) ou au corps des quaternions sur K ; F admet alors une base formée de vecteurs propres pour u (et u*) ; remarquer que pour un tel vecteur z, on a $\Phi(u^*u v(z), v(z)) = \beta \Phi(v(z), v(z))$. En déduire que $\nu u$ est normal (raisonner par récurrence sur le nombre des valeurs propres distinctes de $u^*u$). Si h (resp. $h'$) est l’endomorphisme hermitien positif tel que $h^2 = uu^*$ (resp. ${h'}^2 = \nu \nu^*$) et si on pose $u = hu_1, \nu = h'\nu_1$, où $u_1$ et $\nu_1$ sont unitaires, h permutable à $u_1$ et $h'$ à $\nu_1$ (exerc. 14 a)), montrer que les couples $(h, h'), (h, \nu_1)$ et $(h', u_1)$ sont permutables ; réciproque. En déduire que $u^m \nu^n, \nu^n u^m, u \nu^*$ et $\nu^* u$ sont alors normaux ($m$ et $n$ entiers $> 0$ arbitraires).
 
 #### Remarque 24 {#alg-ix-s7-n3-rem-24 .statement}
 

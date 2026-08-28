@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: de9d66c070bec3d1eba64a70ec1e3b4b86ade342c02d3e9c462619ed0a196238
+content_sha256: b0678881b7cd3a56d5f8b131d0c35b22044fde9c44f2a5b66f9c2d07b90f0958
 ---
 
 ## § 2. LINEAR REPRESENTATIONS OF GROUPS
@@ -154,7 +154,7 @@ Then $\gamma_\chi(e)f = f$ and
 $$
 \begin{align*}
 (\gamma_\chi(s)\gamma_\chi(s')f)(x) &= \chi(s^{-1}, x)(\gamma_\chi(s')f)(s^{-1}x) \\
-&= \chi(s^{-1}, x)\chi(s'^{-1}, s^{-1}x)f(s'^{-1}s^{-1}x) \\
+&= \chi(s^{-1}, x)\chi({s'}^{-1}, s^{-1}x)f({s'}^{-1}s^{-1}x) \\
 &= \chi((ss')^{-1}, x))f((ss')^{-1}x) = (\gamma_\chi(ss')f)(x),
 \end{align*}
 $$

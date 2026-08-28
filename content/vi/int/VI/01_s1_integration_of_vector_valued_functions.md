@@ -40,7 +40,7 @@ subsections:
       pdf_page: 406
 statements: 34
 exercises: 27
-content_sha256: 22b3ba1b78f67ee8eb2a7350f57ab1a78ce5ff438856797947f57797006e91ff
+content_sha256: cbfd70ac35e050b5eb368caedaa63d1a96a44cf631be0c83399b86b1dad51823
 translated_from: content/en/int/VI/01_s1_integration_of_vector_valued_functions.md
 source_content_sha256: 0b2c492b6e4f982a6b14689c7015f7e4bafa51b9eb3f437d2d4cdf8f4278da11
 translation_model: gpt-5.4-mini
@@ -58,11 +58,11 @@ Chú ý rằng trong định nghĩa này, tôpô của F chỉ can thiệp thôn
 
 ### 1. Các hàm khả tích gần như khắp nơi theo vô hướng
 
-Nếu f là một ánh xạ khả tích gần như khắp nơi theo $\mu$ theo vô hướng từ T vào F, thì ánh xạ $z' \mapsto \int \langle f(t), z' \rangle d\mu(t)$ là một dạng tuyến tính trên $F'$, nghĩa là một phần tử của đối ngẫu đại số $F'^*$.
+Nếu f là một ánh xạ khả tích gần như khắp nơi theo $\mu$ theo vô hướng từ T vào F, thì ánh xạ $z' \mapsto \int \langle f(t), z' \rangle d\mu(t)$ là một dạng tuyến tính trên $F'$, nghĩa là một phần tử của đối ngẫu đại số ${F'}^*$.
 
 #### Định nghĩa 1 {#int-vi-s1-def-1 .statement}
 
-*Người ta gọi* tích phân của f theo $\mu$, *và ký hiệu bởi* $\int f d\mu$ *hoặc* $\int f(t) d\mu(t)$, *phần tử của* $F'^*$ *được xác định bởi*
+*Người ta gọi* tích phân của f theo $\mu$, *và ký hiệu bởi* $\int f d\mu$ *hoặc* $\int f(t) d\mu(t)$, *phần tử của* ${F'}^*$ *được xác định bởi*
 $$
 \left\langle z', \int f d\mu \right\rangle = \int \langle z', f \rangle d\mu
 $$
@@ -84,7 +84,7 @@ Nếu $F$ hữu hạn chiều, thì mọi ánh xạ từ $T$ vào $F$ khả tíc
 
 Rõ ràng là tích phân của $f$ chỉ phụ thuộc vào lớp của $f$ modulo không gian các ánh xạ của $T$ vào $F$ mà theo vô hướng là địa phương $\mu$-không đáng kể. Chú ý rằng một hàm $g$ vô hướng địa phương không đáng kể không nhất thiết bằng không hầu khắp nơi (Exer. 12). Tuy nhiên, điều này quả thật đúng khi trong $F'$ tồn tại một dãy $(\mathbf{z}'_n)$ trù mật đối với tôpô $\sigma(F', F)$: vì nếu $H_n$ là tập hợp không đáng kể địa phương của các điểm $t \in T$ sao cho $\langle g(t), \mathbf{z}'_n \rangle \neq 0$, thì hợp $H$ của các $H_n$ là không đáng kể địa phương và, với mọi $t \notin H$, ta có $\langle g(t), \mathbf{z}'_n \rangle = 0$ với mọi $n$, do đó $g(t) = 0$.
 
-Cho $u$ là một ánh xạ tuyến tính liên tục của $F$ vào một không gian lồi địa phương Hausdorff $G$; chuyển vị $^t u$ của nó là một ánh xạ tuyến tính của $G'$ vào $F'$, và chuyển vị (đại số) $^t(^t u)$ là một ánh xạ tuyến tính của $F'^*$ vào $G'^*$, mở rộng $u$, mà ta cũng sẽ ký hiệu là $u$. Với quy ước này:
+Cho $u$ là một ánh xạ tuyến tính liên tục của $F$ vào một không gian lồi địa phương Hausdorff $G$; chuyển vị $^t u$ của nó là một ánh xạ tuyến tính của $G'$ vào $F'$, và chuyển vị (đại số) $^t(^t u)$ là một ánh xạ tuyến tính của ${F'}^*$ vào ${G'}^*$, mở rộng $u$, mà ta cũng sẽ ký hiệu là $u$. Với quy ước này:
 
 #### Mệnh đề 1 {#int-vi-s1-prop-1 .statement}
 
@@ -129,7 +129,7 @@ $$
 $$
 
 $^3$Chỉ cần giả sử rằng họ này gần khắp khả tích theo từng vô hướng đối với $\mu$, do đó mệnh đề đúng theo một trong hai cách hiểu của ' $\mu$-adequate'.
-$^4$Đẳng thức như các phần tử của $F'^*$.
+$^4$Đẳng thức như các phần tử của ${F'}^*$.
 
 ### 2. Các tính chất của nguyên của một hàm gần khắp khả tích theo từng vô hướng
 
@@ -179,7 +179,7 @@ $$
 \int \langle z', f \rangle d\mu = \lim_K \int \langle z', f \rangle \varphi_K d\mu,
 $$
 
-giới hạn được lấy theo tập có hướng tăng của các tập con compact của T. Suy ra rằng, đối với tập có hướng này, $\int f \varphi_K d\mu$ hội tụ đến $\int f d\mu$ theo tôpô $\sigma(F'^*, F')$. Bây giờ,
+giới hạn được lấy theo tập có hướng tăng của các tập con compact của T. Suy ra rằng, đối với tập có hướng này, $\int f \varphi_K d\mu$ hội tụ đến $\int f d\mu$ theo tôpô $\sigma({F'}^*, F')$. Bây giờ,
 
 $$
 \left| \left\langle z', \int f \varphi_K d\mu \right\rangle \right| = \left| \int \langle z', f \rangle \varphi_K d\mu \right| \leq \int |\langle z', f \rangle| d\mu,
@@ -189,9 +189,9 @@ $$
 
 #### Bổ đề 1 {#int-vi-s1-lem-1 .statement}
 
-*Bao đóng trong $F'^*$ (với tôpô $\sigma(F'^*, F')$) của mọi tập con bị chặn của F đều được chứa trong đối ngẫu kép $F''$.*
+*Bao đóng trong ${F'}^*$ (với tôpô $\sigma({F'}^*, F')$) của mọi tập con bị chặn của F đều được chứa trong đối ngẫu kép $F''$.*
 
-Vì, một tập con bị chặn của F được chứa trong tập đối cực (trong $F''$) của một lân cận của 0 trong đối ngẫu mạnh $F'$ của F, do đó tương đối compact trong $F''$ đối với $\sigma(F'', F')$ (TVS, III, §3, No. 5, Mệnh đề 7 và No. 4, Hệ quả 2 của Mệnh đề 4); vì $\sigma(F'', F')$ được cảm sinh bởi $\sigma(F'^*, F')$, nên bổ đề được chứng minh.
+Vì, một tập con bị chặn của F được chứa trong tập đối cực (trong $F''$) của một lân cận của 0 trong đối ngẫu mạnh $F'$ của F, do đó tương đối compact trong $F''$ đối với $\sigma(F'', F')$ (TVS, III, §3, No. 5, Mệnh đề 7 và No. 4, Hệ quả 2 của Mệnh đề 4); vì $\sigma(F'', F')$ được cảm sinh bởi $\sigma({F'}^*, F')$, nên bổ đề được chứng minh.
 
 #### Hệ quả {#int-vi-s1-n2-cor-2 .statement}
 
@@ -323,7 +323,7 @@ Nhờ tính chất (GDF), chỉ cần chứng minh rằng với mọi dãy $(z_n
 
 *Cho $G_i$ ($1 \leq i \leq n$) là $n$ không gian lồi địa phương Hausdorff có tính chất (GDF), và cho $F$ là không gian các dạng đa tuyến tính liên tục riêng rẽ trên $\prod_{i=1}^n G_i$, được trang bị tôpô hội tụ điểm. Với mọi ánh xạ $f$ của $T$ vào $F$ mà khả tích theo vô hướng một cách hầu khắp đối với $\mu$, ta có $\int f d\mu \in F$.*
 
-Không gian $F$ ở trong đối ngẫu với tích tenxơ $\bigotimes_{i=1}^n G_i$, và tôpô hội tụ điểm trên $F$ chẳng qua là tôpô $\sigma(F, \bigotimes_{i=1}^n G_i)$. Do đó đối ngẫu đại số $F'^*$ là không gian của mọi dạng đa tuyến tính trên $\prod_{i=1}^n G_i$. Cho $z = (z_1, \ldots, z_n)$ là một phần tử của $\prod_{i=1}^n G_i$; với mọi dạng đa tuyến tính $u \in F'^*$, ánh xạ $x \mapsto u(z_1, \ldots, z_{i-1}, x, z_{i+1}, \ldots, z_n)$ là một dạng tuyến tính trên $G_i$, mà ta sẽ ký hiệu bởi $\lambda_i(z)(u)$; do đó ta thu được một ánh xạ tuyến tính $\lambda_i(z)$ của $F'^*$ vào đối ngẫu đại số $G_i^*$ của $G_i$, liên tục đối với các tôpô $\sigma(F'^*, \bigotimes_{i=1}^n G_i)$ và $\sigma(G_i^*, G_i)$. Nói rằng $u \in F$ có nghĩa là với mọi chỉ số $i$ và mọi $z \in \prod_{i=1}^n G_i$, ta có $\lambda_i(z)(u) \in G_i'$. Bây giờ, nhờ Mệnh đề 1 của No. 1, ánh xạ $\lambda_i(z)$ của $F$ là một ánh xạ khả tích theo vô hướng một cách hầu khắp đối với $\mu$ từ $T$ vào $G_i'$ được trang bị tôpô $\sigma(G_i', G_i)$, và
+Không gian $F$ ở trong đối ngẫu với tích tenxơ $\bigotimes_{i=1}^n G_i$, và tôpô hội tụ điểm trên $F$ chẳng qua là tôpô $\sigma(F, \bigotimes_{i=1}^n G_i)$. Do đó đối ngẫu đại số ${F'}^*$ là không gian của mọi dạng đa tuyến tính trên $\prod_{i=1}^n G_i$. Cho $z = (z_1, \ldots, z_n)$ là một phần tử của $\prod_{i=1}^n G_i$; với mọi dạng đa tuyến tính $u \in {F'}^*$, ánh xạ $x \mapsto u(z_1, \ldots, z_{i-1}, x, z_{i+1}, \ldots, z_n)$ là một dạng tuyến tính trên $G_i$, mà ta sẽ ký hiệu bởi $\lambda_i(z)(u)$; do đó ta thu được một ánh xạ tuyến tính $\lambda_i(z)$ của ${F'}^*$ vào đối ngẫu đại số $G_i^*$ của $G_i$, liên tục đối với các tôpô $\sigma({F'}^*, \bigotimes_{i=1}^n G_i)$ và $\sigma(G_i^*, G_i)$. Nói rằng $u \in F$ có nghĩa là với mọi chỉ số $i$ và mọi $z \in \prod_{i=1}^n G_i$, ta có $\lambda_i(z)(u) \in G_i'$. Bây giờ, nhờ Mệnh đề 1 của No. 1, ánh xạ $\lambda_i(z)$ của $F$ là một ánh xạ khả tích theo vô hướng một cách hầu khắp đối với $\mu$ từ $T$ vào $G_i'$ được trang bị tôpô $\sigma(G_i', G_i)$, và
 $$
 \int (\lambda_i(z) \circ f) d\mu = \lambda_i(z) \left( \int f d\mu \right).
 $$

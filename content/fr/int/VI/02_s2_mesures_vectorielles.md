@@ -52,7 +52,7 @@ subsections:
       pdf_page: 55
 statements: 46
 exercises: 27
-content_sha256: 23e49e1cb4d4ecf0b9179744e76a93dd40bd81e41f49b5a37db2603ddab93cef
+content_sha256: 8eabdba2c994b950a0b03682b704a45c98415d9c6356934565ae9299e3b68b17
 ---
 
 ## § 2. Mesures vectorielles
@@ -127,7 +127,7 @@ Il est clair que l’ensemble des fonctions numériques finies essentiellement i
 
 Prenons pour $m$ l’application identique de $\mathcal{K}(T)$ sur lui-même. Comme le dual de $\mathcal{K}(T)$ est l’espace $\mathcal{M}(T)$ des mesures scalaires sur $T$, les fonctions $f \in \mathcal{L}(m)$ sont celles qui sont essentiellement intégrables pour toute mesure scalaire $\mu$ (cf. exerc. 1), et l’intégrale $\int f d\mathbf{m}$ est la forme linéaire $\mu \to \int f d\mu$ sur $\mathcal{M}(T)$. On ne peut avoir $\int f d\mu = 0$ pour toute mesure $\mu \in \mathcal{M}(T)$ que si $f = 0$, comme on le voit en prenant $\mu = \varepsilon_t$, où $t$ est arbitraire dans $T$; autrement dit l’application $f \to \int f d\mathbf{m}$ est une injection de $\mathcal{L}(m)$ dans le dual algébrique de $\mathcal{K}(T)$, qui prolonge l’application identique de $\mathcal{K}(T)$. La relation $\int f d\mathbf{m} \in F = \mathcal{K}(T)$ est donc équivalente à $f \in \mathcal{K}(T)$.
 
-Soit $u$ une application linéaire continue de $F$ dans un espace localement convexe séparé $G$, et notons encore $u$ son prolongement par bitransposition en une application linéaire de $F'^*$ dans $G'^*$ (\$ 1, no 1). Avec cette convention :
+Soit $u$ une application linéaire continue de $F$ dans un espace localement convexe séparé $G$, et notons encore $u$ son prolongement par bitransposition en une application linéaire de ${F'}^*$ dans ${G'}^*$ (\$ 1, no 1). Avec cette convention :
 
 #### Proposition 2 {#int-vi-s2-prop-2 .statement}
 
@@ -137,7 +137,7 @@ $$
 $$
 La proposition est évidente, compte tenu de l’égalité $y' \circ u \circ m = 'u(y') \circ m$ pour tout $y' \in G'$.
 
-En général, si $f \in \mathcal{L}(m)$, l’intégrale $\int f d\mathbf{m}$ appartient à $F'^*$ mais non à $F$ (voir Exemple ci-dessus). Cependant :
+En général, si $f \in \mathcal{L}(m)$, l’intégrale $\int f d\mathbf{m}$ appartient à ${F'}^*$ mais non à $F$ (voir Exemple ci-dessus). Cependant :
 
 #### Proposition 3 {#int-vi-s2-prop-3 .statement}
 

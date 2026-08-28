@@ -50,7 +50,7 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: 0a083ae6551757fc227e315fe223e0308ff89ccd72c0b4cb26806e4b9f41bf1e
+content_sha256: 636e7419f5096aeaae07da1eedab8fcc50aecad050561d6f5aa49f9685bdb9d7
 ---
 
 ## § 7. SEPARABLE ALGEBRAIC EXTENSIONS
@@ -277,7 +277,7 @@ $$
 
 If E is of finite degree over K, it is a separable extension of K if and only if it is an etale algebra over K; the Cor. of V, p. 35 shows that this happens if and only if $E = K[E^p]$.
 
-Suppose now that $E$ is separable and of infinite degree over $K$. Then $K[E^p]$ is the union of the subrings $K[E'^p]$ where $E'$ ranges over the set of subextensions of $E$ of finite degree over $K$; but such an extension $E'$ is separable over $K$ ($V$, p. 36, Prop. 1), whence $E' = K[E'^p] \subset K[E^p]$ by what has been said; finally we have $E = K[E^p]$. By induction on $n \geq 0$, the relation $E = K[E^p]$ implies that $E = K[E^{p^n}]$.
+Suppose now that $E$ is separable and of infinite degree over $K$. Then $K[E^p]$ is the union of the subrings $K[{E'}^p]$ where $E'$ ranges over the set of subextensions of $E$ of finite degree over $K$; but such an extension $E'$ is separable over $K$ ($V$, p. 36, Prop. 1), whence $E' = K[{E'}^p] \subset K[E^p]$ by what has been said; finally we have $E = K[E^p]$. By induction on $n \geq 0$, the relation $E = K[E^p]$ implies that $E = K[E^{p^n}]$.
 
 #### Corollary 1 {#alg-v-s7-prop-11-cor-1 .statement}
 

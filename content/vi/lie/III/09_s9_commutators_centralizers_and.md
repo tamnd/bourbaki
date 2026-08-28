@@ -44,9 +44,9 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: 06de0ab3c2171ce6b7c296134dfbcea5706d78d5f220c8682955dd82fbb2a904
+content_sha256: f351442ebb73dd761070ddf1e9419995c758f1fd188ac6fef106d1d925148a98
 translated_from: content/en/lie/III/09_s9_commutators_centralizers_and.md
-source_content_sha256: d47b69c760ec9ca07b43866d6c0037136015de0e33ab88f2bb4e3378d95efb38
+source_content_sha256: 28599142f274ec5813551cdbb3bbe444ef139fc7c26b1c613596b1ce9597e9d3
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-36e3818b
 glossary_version: 34
@@ -350,13 +350,13 @@ $$
 (x'_1, x'_2, \ldots, x'_p) \mapsto x'_1 \mathbf{H} x'_2 \mathbf{H} \cdots \mathbf{H} x'_p
 $$
 
-của $a'_1 \times a'_2 \times \cdots \times a'_p$ vào $g'$. Theo giả thiết quy nạp, $\phi'$ là song ánh và $\phi', \phi'^{-1}$ là các ánh xạ đa thức.
+của $a'_1 \times a'_2 \times \cdots \times a'_p$ vào $g'$. Theo giả thiết quy nạp, $\phi'$ là song ánh và $\phi', {\phi'}^{-1}$ là các ánh xạ đa thức.
 
 Cho $x \in g$. Ta viết
 
 (1)
 $$
-\phi'^{-1}(\theta(x)) = (x'_1(x), x'_2(x), \ldots, x'_p(x)).
+{\phi'}^{-1}(\theta(x)) = (x'_1(x), x'_2(x), \ldots, x'_p(x)).
 $$
 Khi đó
 (2)
@@ -400,7 +400,7 @@ Khi đó theo (5)
 $$
 \psi(x) = (x_1, \ldots, \eta \theta(x_j) + x_j - \eta \theta(x_j), \ldots, x_p) = (x_1, x_2, \ldots, x_p).
 $$
-Do đó $\psi \circ \phi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. Điều này chứng minh (i). Vì luật Hausdorff là đa thức, $\phi$ là đa thức. Theo giả thiết quy nạp, $\phi'^{-1}$ là đa thức; theo công thức (1), các hàm $x_j'$ là đa thức, do đó $\zeta$ là đa thức (công thức (3)), $y$ là đa thức (công thức (4)) và $\psi$ là đa thức (công thức (5)). Điều này chứng minh (ii). Mệnh đề (iii) suy ra từ (i) và (ii) và sự kiện rằng luật Hausdorff là đa thức.
+Do đó $\psi \circ \phi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. Điều này chứng minh (i). Vì luật Hausdorff là đa thức, $\phi$ là đa thức. Theo giả thiết quy nạp, ${\phi'}^{-1}$ là đa thức; theo công thức (1), các hàm $x_j'$ là đa thức, do đó $\zeta$ là đa thức (công thức (3)), $y$ là đa thức (công thức (4)) và $\psi$ là đa thức (công thức (5)). Điều này chứng minh (ii). Mệnh đề (iii) suy ra từ (i) và (ii) và sự kiện rằng luật Hausdorff là đa thức.
 
 **Ví dụ về một nhóm Lie lũy linh.** Cho $G$ là nhóm con tam giác ngặt dưới của $\mathbf{GL}(n, K)$. Nó là một nhóm con Lie của $\mathbf{GL}(n, K)$ và $L(G) \subset \mathfrak{gl}(n, K)$ là đại số Lie của các ma trận tam giác dưới với đường chéo bằng không (\S 3, no. 10, Mệnh đề 36). Theo Chương II, \S 4, no. 6, *Nhận xét*, $G$ là lũy linh. Từ đây về sau giả sử rằng $K = \mathbf{R}$ hoặc $\mathbf{C}$. Vì $G$ là đồng phôi với $K^{n(n-1)/2}$, $G$ là đơn liên. Ánh xạ mũ từ $L(G)$ vào $G$ chính là ánh xạ
 $$

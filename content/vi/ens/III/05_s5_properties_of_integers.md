@@ -46,9 +46,9 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: b63037c4e1a742b3473a853cdef3b814d24ecb139300893f28653562a9fb1235
+content_sha256: 360a82fc5a257e4bf201349b95981cf9a7a57f90ce3df9765675156ae170ddae
 translated_from: content/en/ens/III/05_s5_properties_of_integers.md
-source_content_sha256: 227995e3e40c42d7aac3c7fee7b0de8741d20ea57828a02e3dc9788ffdb8e502
+source_content_sha256: 21f4df17f9ad65567a7ae230b36d060577ae866fcfdd26e671761437b3221fce
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34
@@ -138,9 +138,9 @@ Vì $c_j$ và tất cả các $b_i$ đều $\neq 0$, tích $c_j . \prod_{i \in J
 
 #### Hệ quả 1 {#ens-iii-s5-prop-3-cor-1 .statement tag=03LW}
 
-*Cho $a$, $a'$, và $b$ là các số nguyên sao cho $a < a'$ và $b > 0$. Khi đó $a^b < a'^b$.*
+*Cho $a$, $a'$, và $b$ là các số nguyên sao cho $a < a'$ và $b > 0$. Khi đó $a^b < {a'}^b$.*
 
-Chỉ cần biểu diễn $a^b$ và $a'^b$ dưới dạng các tích của các họ hữu hạn các số nguyên (§ 3, no. 5, Mệnh đề 10) và áp dụng Mệnh đề 3, nhận thấy rằng quan hệ $a < a'$ kéo theo $a' > 0$.
+Chỉ cần biểu diễn $a^b$ và ${a'}^b$ dưới dạng các tích của các họ hữu hạn các số nguyên (§ 3, no. 5, Mệnh đề 10) và áp dụng Mệnh đề 3, nhận thấy rằng quan hệ $a < a'$ kéo theo $a' > 0$.
 
 #### Hệ quả 2 {#ens-iii-s5-prop-3-cor-2 .statement tag=03LX}
 

@@ -84,7 +84,7 @@ subsections:
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: e090b39b6829a3b5aab768859eec4c860b0bcb114797109d764f3c993c7b88da
+content_sha256: 116ee476020d95a20632b0a93e7c92ab47b1013c10697310c58d2ebb5dec4db5
 ---
 
 ## § 3. PASSAGE FROM A LIE GROUP TO ITS LIE ALGEBRA
@@ -235,7 +235,7 @@ Let G be a Lie group. Let t, t' be in $\mathcal{T}^{(\infty)}(G)$.
 
 (i) The product $t * t'$ calculated relative to $G^\vee$ is equal to the product $t' * t$ calculated relative to G.
 
-(ii) $(t * t')^\vee = t'^\vee * t^\vee$.
+(ii) $(t * t')^\vee = {t'}^\vee * t^\vee$.
 
 Consider the diagram
 
@@ -319,13 +319,13 @@ Let G be a Lie group.
 $$
 c(t) = \sum_{i=1}^n t_i \otimes t_i'.
 $$
-Then $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_i'^\vee$.
+Then $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
 
 We prove (i). In the definition of bigebra referred to, condition (1) follows from Propositions 2 and 3 and condition (2) follows from Differentiable and Analytic Manifolds, R, 13.5.1. Let d be the mapping $g \mapsto (g, g)$ of G into $G \times G$. Then $c = d_*$ and hence c is an algebra morphism (Propositions 6 and 9), which is condition (3). Let $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$ have no constant term and $\lambda, \lambda'$ be elements of K; then $\varepsilon_g \otimes t', t \otimes \varepsilon_{g'}, t \otimes t'$ are without constant term (Differentiable and Analytic Manifolds, R, 13.4.1) and hence the constant term of $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ is $\lambda \lambda'$; hence condition (4) holds.
 
 We prove (ii). By Propositions 8 and 9,
 $$
-c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_i'^\vee \otimes t_i'^\vee.
+c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_{i'}^\vee \otimes t_{i'}^\vee.
 $$
 
 #### Proposition 12 {#lie-iii-s3-prop-12 .statement}
@@ -454,7 +454,7 @@ For all $x \in X$,
 $$
 \begin{align*}
 \langle \varepsilon_x, (t * t') * f \rangle &= \langle ((t * t')^\vee * \varepsilon_x), f \rangle \quad \text{by (5)} \\
-&= \langle t'^\vee * (t^\vee * \varepsilon_x), f \rangle \quad (\text{Propositions 2 and 7}) \\
+&= \langle {t'}^\vee * (t^\vee * \varepsilon_x), f \rangle \quad (\text{Propositions 2 and 7}) \\
 &= \langle t^\vee * \varepsilon_x, t' * f \rangle \quad (\text{Proposition 17}) \\
 &= \langle \varepsilon_x, t * (t' * f) \rangle \quad (\text{Proposition 17}).
 \end{align*}
@@ -476,7 +476,7 @@ Let $x \in X$ and let $\rho(x)$ denote the orbital mapping of $x$. Then
 $$
 \langle \varepsilon_x, t * (ff') \rangle = \langle t^\vee, (ff') \circ \rho(x) \rangle \quad \text{by (4)} \\
 = \langle t^\vee, (f \circ \rho(x))(f' \circ \rho(x)) \rangle \\
-= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_i'^\vee, f' \circ \rho(x) \rangle \tag{Diff. \& Man. Anal., R, 13.5.2} \\
+= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_{i'}^\vee, f' \circ \rho(x) \rangle \tag{Diff. \& Man. Anal., R, 13.5.2} \\
 = \sum_{i=1}^n \langle \varepsilon_x, t_i * f \rangle \langle \varepsilon_x, t_i' * f' \rangle \quad \text{by (4).}
 $$
 
@@ -516,8 +516,8 @@ $$
 $$
 For all $x \in X$,
 $$
-\langle \varepsilon_x, (t * f) * t' \rangle = \langle \varepsilon_x * t'^\vee, t * f \rangle \quad \text{by (8)} \\
-= \langle t^\vee * (\varepsilon_x * t'^\vee), f \rangle \quad \text{(Proposition 17)} \\
+\langle \varepsilon_x, (t * f) * t' \rangle = \langle \varepsilon_x * {t'}^\vee, t * f \rangle \quad \text{by (8)} \\
+= \langle t^\vee * (\varepsilon_x * {t'}^\vee), f \rangle \quad \text{(Proposition 17)} \\
 = \langle t^\vee * \varepsilon_x, f * t' \rangle \quad \text{(Proposition 2 and (11))} \\
 = \langle \varepsilon_x, t * (f * t') \rangle \quad \text{by (5).}
 $$
@@ -616,7 +616,7 @@ $$
 for $g, g'$ in $G$.
 It is right invariant if
 $$
-\Delta_{gg'} = \delta(g'^{-1}) * \Delta_g
+\Delta_{gg'} = \delta({g'}^{-1}) * \Delta_g
 $$
 for $g, g'$ in $G$,
 or again if:
@@ -645,8 +645,8 @@ $$
 In $G$ every right translation commutes with every left translation. By Proposition 21 of no. 5, $L_t$ is therefore left invariant. As $(L_t)_e = t$, the mapping $t \mapsto L_t$ is injective. Let $\Delta$ be a field of left invariant distributions on $G$; let $t = \Delta_e$; then $\Delta$ and $L_t$ have the same value at $e$ and are left invariant and hence $\Delta = L_t$. This proves (i) for $L_t$ and the argument is similar for $R_t$. The formulae $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$ follow from (21) and (18). Let $t \in U_s(G)$, $t' \in U_{s'}(G)$, $f \in C^r(\Omega, F)$, where $\Omega$ is open in $G$ and $s + s' \leq r$; then
 $$
 \begin{align*}
-L_t R_{t'} f &= L_t (t'^\vee * f) = (t'^\vee * f) * t \\
-&= t'^\vee * (f * t^\vee) \tag{Proposition 20} \\
+L_t R_{t'} f &= L_t ({t'}^\vee * f) = ({t'}^\vee * f) * t \\
+&= {t'}^\vee * (f * t^\vee) \tag{Proposition 20} \\
 &= R_{t'} L_t f
 \end{align*}
 $$
@@ -866,7 +866,7 @@ H and H' Lie subgroups of G. Suppose that K is of characteristic 0 and that HH' 
 
 (ii) Suppose that every element of H commutes with every element of H'. Then HH' is a Lie subgroup of G. Let $\phi$ be the mapping $(h, h') \mapsto hh'$ of $H \times H'$ onto HH'. The kernel of $\phi$ is the set of $(m, m^{-1})$ where $m \in H \cap H'$ and the morphism of $(H \times H')/\mathrm{Ker}\ \phi$ onto HH' derived from $\phi$ by passing to the quotient is a Lie group isomorphism.
 
-Let $H \times H'$ operate on G on the right by the mapping $((h, h'), g) \mapsto hgh'^{-1}$. The orbital mapping $\rho$ of e is $(h, h') \mapsto hh'^{-1}$. By Proposition 14 (iii) of § 1, no. 7, HH' is a submanifold of G and $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Now
+Let $H \times H'$ operate on G on the right by the mapping $((h, h'), g) \mapsto hg{h'}^{-1}$. The orbital mapping $\rho$ of e is $(h, h') \mapsto h{h'}^{-1}$. By Proposition 14 (iii) of § 1, no. 7, HH' is a submanifold of G and $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Now
 
 $$
 T_e(\rho)(L(H) \times \{0\}) = L(H) \quad \text{and} \quad T_e(\rho)(\{0\} \times L(H')) = L(H')
@@ -1264,7 +1264,7 @@ By definition, $t \top u$ is the image of $t \otimes u$ under the mapping $(g, g
 $$
 \begin{aligned}
 \alpha & : (g, g') \mapsto (g, g, g') & \text{of } G \times G \text{ into } G \times G \times G \\
-\beta & : (g, g', g'') \mapsto (g, g'^{-1}, g'') & \text{of } G \times G \times G \text{ into } G \times G \times G \\
+\beta & : (g, g', g'') \mapsto (g, {g'}^{-1}, g'') & \text{of } G \times G \times G \text{ into } G \times G \times G \\
 \gamma & : (g, g', g'') \mapsto gg''g' & \text{of } G \times G \times G \text{ into } G.
 \end{aligned}
 $$
@@ -1413,7 +1413,7 @@ $$
 We now consider $G \times G$ as operating on $G$ on the left by
 
 $$
-((g, g'), g'') \mapsto gg''g'^{-1}.
+((g, g'), g'') \mapsto gg''{g'}^{-1}.
 $$
 
 Then G is a left Lie homogeneous space of $G \times G$ (\S 1, no. 6, *Example*). Hence $\lambda(\mathrm{TG})$ is an analytic left vector $(G \times G)$-bundle. A section of $\lambda(\mathrm{TG})$ is called *biinvariant* if it is invariant under the action of $G \times G$ on $\lambda(\mathrm{TG})$, in other words if it is invariant under left and right translations. Let $\lambda(\mathrm{L}(G))_0$ be the set of elements of $\lambda(\mathrm{L}(G))$ invariant under $\lambda(\mathrm{Ad}(G))$. For all $u \in \lambda(\mathrm{L}(G))_0$, let $\sigma_u$ be the mapping of $G$ into $\lambda(\mathrm{TG})$ defined by $\sigma_u(g) = gu = ug$. Then $u \mapsto \sigma_u$ is a bijection of $\lambda(\mathrm{L}(G))_0$ onto the set of biinvariant sections of $\lambda(\mathrm{TG})$ (\S 1, no. 8, Corollary 1 to Proposition 17).
@@ -1795,7 +1795,7 @@ In this no. $(G, e, \theta, m)$ denotes a Lie group germ. A large part of the re
 
 18.1. Let $\Omega$ be the set of definition of $m$. Let $(g, g') \in \Omega,\ t \in T_e^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. As in no. 1, the convolution product of $t$ and $t'$, denoted by $t * t'$, is the image of $t \otimes t'$ under $m$. We write $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. For $t, t'$ in $U(G)$, $t * t'$ is defined and belongs to $U(G)$. With the convolution product, $U(G)$ is an associative algebra with unit element $\varepsilon_e$, filtered by the $U_s(G)$. The canonical isomorphism $i_{G,e}$ of gr $U(G)$ onto $TS(T_e(G))$ is an algebra isomorphism.
 
-18.2. Let $G, H$ be Lie group germs and $\phi : G \to H$ a morphism. If $t \in U(G)$, the image $U(\phi)(t)$ of $t$ under $\phi_*$ is an element of $U(H)$ and $U(\phi)$ is a morphism of the algebra $U(G)$ into the algebra $U(H)$. The mapping $\theta : x \mapsto x^{-1}$ of $G$ into $G$ defines a mapping $t \mapsto t^\vee$ of $U(G)$ into $U(G)$. For $t, t'$ in $U(G)$, the product $t * t'$ evaluated relative to $G^\vee$ is equal to the product $t' * t$ evaluated relative to $G$ and $(t * t')^\vee = t'^\vee * t^\vee$. Then $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. If $G_1, \ldots, G_n$ are Lie group germs and $G = G_1 \times \cdots \times G_n$, the canonical isomorphism of $U(G_1) \otimes \cdots \otimes U(G_n)$ onto $U(G)$ is an algebra isomorphism;
+18.2. Let $G, H$ be Lie group germs and $\phi : G \to H$ a morphism. If $t \in U(G)$, the image $U(\phi)(t)$ of $t$ under $\phi_*$ is an element of $U(H)$ and $U(\phi)$ is a morphism of the algebra $U(G)$ into the algebra $U(H)$. The mapping $\theta : x \mapsto x^{-1}$ of $G$ into $G$ defines a mapping $t \mapsto t^\vee$ of $U(G)$ into $U(G)$. For $t, t'$ in $U(G)$, the product $t * t'$ evaluated relative to $G^\vee$ is equal to the product $t' * t$ evaluated relative to $G$ and $(t * t')^\vee = {t'}^\vee * t^\vee$. Then $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. If $G_1, \ldots, G_n$ are Lie group germs and $G = G_1 \times \cdots \times G_n$, the canonical isomorphism of $U(G_1) \otimes \cdots \otimes U(G_n)$ onto $U(G)$ is an algebra isomorphism;
 
 for $t_1, \ldots, t_n$ in $U(G)$, $(t_1 \otimes \cdots \otimes t_n)^{\vee} = t_1^{\vee} \otimes \cdots \otimes t_n^{\vee}$. Let $H$ be a Lie subgroup germ of $G$ and $i : H \to G$ the canonical injection. Then $U(i)$ is an injective homomorphism of the algebra $U(H)$ into $U(G)$ and
 $$

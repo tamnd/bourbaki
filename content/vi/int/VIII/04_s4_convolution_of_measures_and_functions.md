@@ -41,9 +41,9 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: d060b95de128811ccf091055245202433e9b5086396fc44dabb86f23f128fc32
+content_sha256: aaddfaf1028a4f72ac725f6e2e2f8e41125dabb15f4c66690e545c9b6a2dd6f4
 translated_from: content/en/int/VIII/04_s4_convolution_of_measures_and_functions.md
-source_content_sha256: bac6f92ff3385e420bd634c888abf33125d3a7afc537be352959a2bec64f72e9
+source_content_sha256: 4bdfd45d074b8fb1fc45bbdbf705e28e2b73e20a27681320842f9ce58bd4d2d5
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-22bd618f
 glossary_version: 34
@@ -531,9 +531,9 @@ $$
 \| \mu * f \|_p \leq \| \mu \|_{\chi^{-1/q}} \| f \|_p .
 $$
 
-Nếu $\mu \in \mathcal{M}^{\chi'^{-1/q}}(G)$ và $f \in L^p(G, \beta)$, thì $f$ và $\mu$ liên tục xoắn được, và $f * \mu$ bằng địa phương $\beta$-hầu khắp nơi với một hàm thuộc $L^p(G, \beta)$; ta có $\| f * \mu \|_p \leq \| \mu \|_{\chi'^{-1/q}} \| f \|_p$.
+Nếu $\mu \in \mathcal{M}^{{\chi'}^{-1/q}}(G)$ và $f \in L^p(G, \beta)$, thì $f$ và $\mu$ liên tục xoắn được, và $f * \mu$ bằng địa phương $\beta$-hầu khắp nơi với một hàm thuộc $L^p(G, \beta)$; ta có $\| f * \mu \|_p \leq \| \mu \|_{{\chi'}^{-1/q}} \| f \|_p$.
 
-3) Các ánh xạ $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ xác định trên $L^p(G, \beta)$ các cấu trúc của một môđun trái trên $\mathcal{M}^{\chi^{-1/q}}(G)$ và một môđun phải trên $\mathcal{M}^{\chi'^{-1/q}}(G)$. Hai phép toán ngoài trên $L^p(G, \beta)$ hoán vị được do tính kết hợp của phép xoắn.
+3) Các ánh xạ $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ xác định trên $L^p(G, \beta)$ các cấu trúc của một môđun trái trên $\mathcal{M}^{\chi^{-1/q}}(G)$ và một môđun phải trên $\mathcal{M}^{{\chi'}^{-1/q}}(G)$. Hai phép toán ngoài trên $L^p(G, \beta)$ hoán vị được do tính kết hợp của phép xoắn.
 
 4) Nếu $\mu * f$ liên tục và được cho tại mọi điểm bởi (10), thì
 
@@ -612,15 +612,15 @@ $$
 $$
 \|f * g\|_p \leq \|f \chi^{-1/q}\|_1 \|g\|_p.
 $$
-Nếu $f \in L^p(G, \beta)$ và $g \chi'^{-1/q} \in L^1(G, \beta)$, thì $f$ và $g$ chập được với nhau, $f * g$ bằng địa phương $\beta$-hầu khắp nơi với một hàm thuộc $L^p(G, \beta)$, và
+Nếu $f \in L^p(G, \beta)$ và $g {\chi'}^{-1/q} \in L^1(G, \beta)$, thì $f$ và $g$ chập được với nhau, $f * g$ bằng địa phương $\beta$-hầu khắp nơi với một hàm thuộc $L^p(G, \beta)$, và
 $$
-\|f * g\|_p \leq \|f\|_p \|g \chi'^{-1/q}\|_1.
+\|f * g\|_p \leq \|f\|_p \|g {\chi'}^{-1/q}\|_1.
 $$
 Điều này suy ra từ các Mệnh đề 5 và 6 của No. 2 và các nhận xét trong No. 4.
 
 #### Mệnh đề 13 {#int-viii-s4-prop-13 .statement}
 
-— Nếu $f \chi^{-1} \in L^1(G, \beta)$ và $g \in \overline{\mathcal{K}(G)}$, hoặc nếu $f \in \mathcal{K}(G)$ và $g \chi'^{-1} \in L^1(G, \beta)$, thì $f$ và $g$ chập được với nhau, và (15) xác định với mọi $x \in G$ một tích $f * g$ thuộc $\mathcal{K}(G)$.
+— Nếu $f \chi^{-1} \in L^1(G, \beta)$ và $g \in \overline{\mathcal{K}(G)}$, hoặc nếu $f \in \mathcal{K}(G)$ và $g {\chi'}^{-1} \in L^1(G, \beta)$, thì $f$ và $g$ chập được với nhau, và (15) xác định với mọi $x \in G$ một tích $f * g$ thuộc $\mathcal{K}(G)$.
 
 Điều này suy ra từ Mệnh đề 5 của No. 2, và các nhận xét trong No. 4.
 
@@ -628,7 +628,7 @@ $$
 
 — Nếu $f \chi^{-1} \in L^1(G, \beta)$ và $g \in L^\infty(G, \beta)$, thì công thức (15) xác định với mọi $x \in G$ một tích $f * g$ bị chặn và liên tục đều đối với cấu trúc đều phải của $G$.
 
-Ta đã biết rằng $f * g$ thuộc $L^\infty(G, \beta)$ (No. 2, Mệnh đề 5); hơn nữa, $(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$, khi đặt $\nu = \chi'^{-1} \cdot \beta$; $\nu$ là một độ đo Haar phải. Do đó
+Ta đã biết rằng $f * g$ thuộc $L^\infty(G, \beta)$ (No. 2, Mệnh đề 5); hơn nữa, $(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$, khi đặt $\nu = {\chi'}^{-1} \cdot \beta$; $\nu$ là một độ đo Haar phải. Do đó
 $$
 |(f * g)(x) - (f * g)(x')| \leq \|g\|_\infty \int |f(xs^{-1}) - f(x's^{-1})|\, d\nu(s)
 $$

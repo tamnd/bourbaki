@@ -40,7 +40,7 @@ subsections:
       pdf_page: 312
 statements: 40
 exercises: 8
-content_sha256: f6119fafd0c50520cc240963bc402a61a2e75894df4eadd672f32edea82dae6f
+content_sha256: 15037400c4cf04836cdcbb1cc5df11c077fc63331e83bcc3b8132bb244c069d8
 ---
 
 ## § 4. PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
@@ -507,7 +507,7 @@ f^{-1}.df = f^*(\omega) \quad (\S 3, \text{no. 18.9}) \\
 = \alpha \quad (\text{for } \mathrm{pr}_1 \circ \phi = \mathrm{Id}_U).
 $$
 
-Let $f'$ be a mapping of class $C^{r-1}$ of U into G such that $f'(x) = g$ and $f'^{-1}df' = \alpha$. By \S 3, 18.9, $f'^{-1}$ is locally constant and hence $f' = f$ in a neighbourhood of $x$.
+Let $f'$ be a mapping of class $C^{r-1}$ of U into G such that $f'(x) = g$ and ${f'}^{-1}df' = \alpha$. By \S 3, 18.9, ${f'}^{-1}$ is locally constant and hence $f' = f$ in a neighbourhood of $x$.
 
 #### Proposition 10 {#lie-iii-s4-prop-10 .statement}
 

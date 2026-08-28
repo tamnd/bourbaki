@@ -40,7 +40,7 @@ subsections:
       pdf_page: 25
 statements: 31
 exercises: 9
-content_sha256: a411ec6338883a3109c8cef83bc1bd84e50d906c78f0da4e98858ad55ca77a45
+content_sha256: 5ac79d247600e1af8da17be22be9f55ff6aac813b9c80ef686bdb4b3e310cfcd
 ---
 
 ## § 1. FIRST DERIVATIVE
@@ -300,7 +300,7 @@ for $y \neq y_0$. When $y$ tends to $y_0$ while remaining in $J$ and $\neq y_0$,
 
 For example, for each integer $n > 0$, the function $x^{1/n}$ is a homeomorphism of $\mathbf{R}_+$ onto itself, is the inverse of $x^n$, and has derivative $\frac{1}{n} x^{\frac{1}{n} - 1}$ at each $x > 0$.
 
-One deduces easily, from prop. 5, that for every rational number $r = p/q > 0$ the function $x^r = (x^{1/q})^p$ has derivative $rx'^{-1}$ at every $x > 0$.
+One deduces easily, from prop. 5, that for every rational number $r = p/q > 0$ the function $x^r = (x^{1/q})^p$ has derivative $r{x'}^{-1}$ at every $x > 0$.
 
 $^3$ For $f$ to be a homeomorphism of $I$ onto a subset of $\mathbf{R}$ we know that it is necessary and sufficient that $f$ be continuous and strictly monotone on $I$ (*Gen. Top.*, IV, p. 338, th. 5).
 

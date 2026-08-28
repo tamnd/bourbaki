@@ -40,7 +40,7 @@ subsections:
       pdf_page: 191
 statements: 29
 exercises: 18
-content_sha256: 65ff8b2c431fdf69cdce050d31a7ca5da1fd757aec6f408b162080db799b6261
+content_sha256: 365b7abae6386a7f8ca023e244e718651dc0eba4a2f9e803d42137613cf21d16
 ---
 
 ## § 1. EXISTENCE THEOREMS
@@ -58,7 +58,7 @@ on the understanding that x belongs to the set $\mathcal{D}(A, B)$.
 For example, for $I = E = \mathbf{R}$ the relations
 
 $$
-x' = 2t, \qquad tx' - 2x = 0, \qquad x'^2 - 4x = 0, \qquad x - t^2 = 0
+x' = 2t, \qquad tx' - 2x = 0, \qquad {x'}^2 - 4x = 0, \qquad x - t^2 = 0
 $$
 
 are differential equations, all four of which admit the function $x(t) = t^2$ as a solution

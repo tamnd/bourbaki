@@ -24,7 +24,7 @@ subsections:
       pdf_page: 97
 statements: 5
 exercises: 3
-content_sha256: 339de6daa991ab17374c3e2e3705963e7c21541c7af192be97426dda50db8b62
+content_sha256: b387fe415d9bce3a525c07db625922a01304c441271b507f245aaf5f9abe9d6a
 ---
 
 ## § 7. Le théorème d’Ado
@@ -55,7 +55,7 @@ $$
 
 3) $x \in \mathfrak{h}, y \in \mathfrak{h}$: alors, $[x, y]_{U'}$ et $[x_{U'}, y_{U'}]$ sont deux dérivations de $U'$ dont les restrictions à $g'$ coïncident avec celles de $\operatorname{ad}_g [x, y]$ et $[\operatorname{ad}_g x, \operatorname{ad}_g y]$; donc ces dérivations sont égales.
 
-Nous considérerons aussi la représentation duale $x \mapsto -{}^t x_{U'}$ de $g$ dans $U'^*$. Pour $x \in g'$, $-{}^t x_{U'}$ est la transposée de la multiplication à droite par $x$ dans $U'$; la représentation correspondante de $U'$ est donc la représentation corégulière de $U'$.
+Nous considérerons aussi la représentation duale $x \mapsto -{}^t x_{U'}$ de $g$ dans ${U'}^*$. Pour $x \in g'$, $-{}^t x_{U'}$ est la transposée de la multiplication à droite par $x$ dans $U'$; la représentation correspondante de $U'$ est donc la représentation corégulière de $U'$.
 
 #### Définition 1 {#lie-i-s7-def-1 .statement}
 
@@ -71,22 +71,22 @@ a) Il existe un agrandissement de dimension finie $\varphi$ de $\rho'$ à $g$ do
 
 b) Si, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $\operatorname{ad}_g x$ est nilpotente, on peut choisir $\varphi$ de façon qu’en outre le plus grand idéal de nilpotence de $\varphi$ contienne $\mathfrak{h}$.
 
-Soit $U'$ l’algèbre enveloppante de $g'$. On supposera $U'$ et $U'^*$ munis des structures de $g$-modules définies au début de ce no.
+Soit $U'$ l’algèbre enveloppante de $g'$. On supposera $U'$ et ${U'}^*$ munis des structures de $g$-modules définies au début de ce no.
 
 U'*
-Soit $I \subset U'$ le noyau de $\rho'$ (identifiée à une représentation de $U'$). C’est un idéal bilatère de codimension finie de $U'$. Le sous-espace $C(\rho')$ de $U'^*$ (cf. no 1) est orthogonal à $I$. Soit $S$ le sous-g-module de $U'^*$ engendré par $C(\rho')$.
+Soit $I \subset U'$ le noyau de $\rho'$ (identifiée à une représentation de $U'$). C’est un idéal bilatère de codimension finie de $U'$. Le sous-espace $C(\rho')$ de ${U'}^*$ (cf. no 1) est orthogonal à $I$. Soit $S$ le sous-g-module de ${U'}^*$ engendré par $C(\rho')$.
 
 Nous allons montrer que $S$ est de dimension finie sur $K$. Soient $V'$ l’espace où opère $\rho'$, et $V' = V'_0 \supset V'_1 \supset \cdots \supset V'_d = \{0\}$ une suite de Jordan-Hölder du $g'$-module $V'$. Soit $\rho'_i$ la représentation de $g'$ dans $V'_{i-1}/V'_i$ déduite de $\rho'$ ($1 \leq i \leq d$). Soit $I' \subset U'$ l’intersection des noyaux des $\rho'_i$ (identifiées à des représentations de $U'$). On a
 
 $$
-I'^d \subset I \subset I'
+{I'}^d \subset I \subset I'
 $$
 
-et $I' \cap g'$ est le plus grand idéal de nilpotence de $\rho'$. D’après le § 2, no 6, cor. de la prop. 6, $I'^d$ est de codimension finie dans $U'$. Si $x \in \mathfrak{h}$, la dérivation $u \to xu - ux$ de $U'$ applique $g'$ dans $[\mathfrak{h}, g'] \subset I'$, donc $U'$ dans $I'$, donc $I'^d$ dans $I'^d$. Par ailleurs, il est clair que $I'^d$ est un sous-$g'$-module de $U'$. Donc $I'^d$ est un sous-g-module de $U'$. L’orthogonal de $I'^d$ dans $U'^*$ est un sous-g-module de dimension finie qui contient $C(\rho')$, donc $S$. Ceci montre bien que $S$ est de dimension finie sur $K$. Pour $x \in I' \cap g'$, $x^d$ est évidemment contenu dans l’annulateur du $g$-module $U'/I'^d$, donc aussi dans l’annulateur du $g$-module $S$.
+et $I' \cap g'$ est le plus grand idéal de nilpotence de $\rho'$. D’après le § 2, no 6, cor. de la prop. 6, ${I'}^d$ est de codimension finie dans $U'$. Si $x \in \mathfrak{h}$, la dérivation $u \to xu - ux$ de $U'$ applique $g'$ dans $[\mathfrak{h}, g'] \subset I'$, donc $U'$ dans $I'$, donc ${I'}^d$ dans ${I'}^d$. Par ailleurs, il est clair que ${I'}^d$ est un sous-$g'$-module de $U'$. Donc ${I'}^d$ est un sous-g-module de $U'$. L’orthogonal de ${I'}^d$ dans ${U'}^*$ est un sous-g-module de dimension finie qui contient $C(\rho')$, donc $S$. Ceci montre bien que $S$ est de dimension finie sur $K$. Pour $x \in I' \cap g'$, $x^d$ est évidemment contenu dans l’annulateur du $g$-module $U'/{I'}^d$, donc aussi dans l’annulateur du $g$-module $S$.
 
 On a vu au no 1 que le $g'$-module $V'$ est isomorphe à un sous-$g'$-module d’un produit $(C(\rho'))^n$. Donc le $g$-module $S^n$ fournit un agrandissement de dimension finie $\rho$ de $\rho'$ à $g$. En outre, $\rho(x)$ est nilpotent pour $x \in I' \cap g'$; comme $I' \cap g'$ est un idéal de $g$ (car il contient $[\mathfrak{h}, g']$ par hypothèse), on voit que $I' \cap g'$ est contenu dans le plus grand idéal de nilpotence de $\rho$. On a ainsi prouvé a).
 
-Supposons enfin que, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $\mathrm{ad}_g x$ soit nilpotente. Comme les éléments de $\mathfrak{h}$ opèrent dans $U'$ par des dérivations, il existe, pour tout $u \in U'$ et tout $x \in \mathfrak{h}$, un entier $e$ tel que $(x_{v'})^e \cdot u = 0$; les endomorphismes déduits de $x_{v'}$ dans $U'/I'^d$ et dans $S$ (qui sont des espaces de dimension finie) sont donc nilpotents. Ainsi, $\rho(x)$ est nilpotent pour tout $x \in \mathfrak{h}$. On a vu plus haut qu’il en est de même pour $x \in I' \cap g'$. Comme $I' \cap g'$ est un idéal de $g'$ contenant $[h, g']$, la somme $h + (I' \cap g')$ est aussi un idéal de $g$. L’assertion b) du th. 1 résulte donc du lemme suivant :
+Supposons enfin que, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $\mathrm{ad}_g x$ soit nilpotente. Comme les éléments de $\mathfrak{h}$ opèrent dans $U'$ par des dérivations, il existe, pour tout $u \in U'$ et tout $x \in \mathfrak{h}$, un entier $e$ tel que $(x_{v'})^e \cdot u = 0$; les endomorphismes déduits de $x_{v'}$ dans $U'/{I'}^d$ et dans $S$ (qui sont des espaces de dimension finie) sont donc nilpotents. Ainsi, $\rho(x)$ est nilpotent pour tout $x \in \mathfrak{h}$. On a vu plus haut qu’il en est de même pour $x \in I' \cap g'$. Comme $I' \cap g'$ est un idéal de $g'$ contenant $[h, g']$, la somme $h + (I' \cap g')$ est aussi un idéal de $g$. L’assertion b) du th. 1 résulte donc du lemme suivant :
 
 #### Lemme 1 {#lie-i-s7-lem-1 .statement}
 

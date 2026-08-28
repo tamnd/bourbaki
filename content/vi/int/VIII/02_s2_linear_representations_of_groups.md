@@ -41,9 +41,9 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: 261818e93c747756526d700415a86f072d20a9755c5c69f0a05ec7bf49844f9e
+content_sha256: b5a447ceeeae250cec6fe20bf2b118b24f29dad9c92071ded7f47868587ea3fb
 translated_from: content/en/int/VIII/02_s2_linear_representations_of_groups.md
-source_content_sha256: de9d66c070bec3d1eba64a70ec1e3b4b86ade342c02d3e9c462619ed0a196238
+source_content_sha256: b0678881b7cd3a56d5f8b131d0c35b22044fde9c44f2a5b66f9c2d07b90f0958
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-6cdc5c31
 glossary_version: 34
@@ -161,7 +161,7 @@ Khi đó $\gamma_\chi(e)f = f$ và
 $$
 \begin{align*}
 (\gamma_\chi(s)\gamma_\chi(s')f)(x) &= \chi(s^{-1}, x)(\gamma_\chi(s')f)(s^{-1}x) \\
-&= \chi(s^{-1}, x)\chi(s'^{-1}, s^{-1}x)f(s'^{-1}s^{-1}x) \\
+&= \chi(s^{-1}, x)\chi({s'}^{-1}, s^{-1}x)f({s'}^{-1}s^{-1}x) \\
 &= \chi((ss')^{-1}, x))f((ss')^{-1}x) = (\gamma_\chi(ss')f)(x),
 \end{align*}
 $$

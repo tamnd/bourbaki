@@ -36,7 +36,7 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: 1b4df8de4a371078588d170214ca1e1fe463bfa5b692162a2a112c1d38a8672f
+content_sha256: 6d101569d0d2774f7d9c52c70234db0b5ef88be0e7fcd00ee85a19deb8f0e031
 translated_from: content/en/top/III/04_s4_groups_operating_properly_on_a.md
 source_content_sha256: d78632498d4d80f12d9feb1356772e82d6869a2b675a46084def6cb76666fe11
 translation_model: gpt-5.4
@@ -195,7 +195,7 @@ hội tụ đối với $U$ lần lượt về $y_0$ và $x_0$. Suy ra rằng $(
 
 Cho $G$ là một nhóm và cho $H$ là một nhóm con của $G$. Khi đó $H$ tác động tự do lên $G$ bằng các phép tịnh tiến (trái hoặc phải).
 
-Cho $G$ là một nhóm tác động tự do trên một tập hợp $X$, gọi $R$ là quan hệ tương đương do $G$ xác định trên $X$, và gọi $C \subset X \times X$ là đồ thị của $R$. Nếu $(x, y) \in C$, thì tồn tại $s \in G$ sao cho $s.x = y$; và $s$ là *duy nhất*, vì $s.x = s'.x$ kéo theo $s'^{-1}s.x = x$, và do đó $s'^{-1}s = e$ (vì $G$ tác động tự do). Nếu ta cho tương ứng với $(x, y) \in C$ phần tử duy nhất $s \in G$ sao cho $s.x = y$, thì ta định nghĩa một ánh xạ $\varphi : C \to G$, mà ta sẽ gọi là ánh xạ chính tắc của $C$ vào $G$. Với ký hiệu này:
+Cho $G$ là một nhóm tác động tự do trên một tập hợp $X$, gọi $R$ là quan hệ tương đương do $G$ xác định trên $X$, và gọi $C \subset X \times X$ là đồ thị của $R$. Nếu $(x, y) \in C$, thì tồn tại $s \in G$ sao cho $s.x = y$; và $s$ là *duy nhất*, vì $s.x = s'.x$ kéo theo ${s'}^{-1}s.x = x$, và do đó ${s'}^{-1}s = e$ (vì $G$ tác động tự do). Nếu ta cho tương ứng với $(x, y) \in C$ phần tử duy nhất $s \in G$ sao cho $s.x = y$, thì ta định nghĩa một ánh xạ $\varphi : C \to G$, mà ta sẽ gọi là ánh xạ chính tắc của $C$ vào $G$. Với ký hiệu này:
 
 #### Mệnh đề 6 {#top-iii-s4-prop-6 .statement}
 

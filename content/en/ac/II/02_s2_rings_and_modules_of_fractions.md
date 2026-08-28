@@ -49,7 +49,7 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 23
-content_sha256: 9f1f5f9c5514b2794ba0ec9a33af1ecc2a4418688ec8e42c5d1afce974d20ea8
+content_sha256: 2567d0d53dd55c777a0ec321261a3e19900344eba7df32b8cbab70baea7d231d
 ---
 
 ## 2. RINGS AND MODULES OF FRACTIONS
@@ -190,9 +190,9 @@ In particular, if $S, T, U$ are three multiplicative subsets of $A$ such that $S
 
 #### Corollary 4 {#ac-ii-s2-prop-2-cor-4 .statement}
 
-*Let $S$ be a subset of a ring $A$, $B$ a subring of $A[S^{-1}]$ containing $i_A^S(A)$ and $S'$ the set $i_A^S(A)$. Let $j$ be the canonical injection of $B$ into $A[S^{-1}]$; the unique homomorphism $g$ from $B[S'^{-1}]$ to $A[S^{-1}]$ such that $g \circ i_A^S = j$ is an isomorphism.*
+*Let $S$ be a subset of a ring $A$, $B$ a subring of $A[S^{-1}]$ containing $i_A^S(A)$ and $S'$ the set $i_A^S(A)$. Let $j$ be the canonical injection of $B$ into $A[S^{-1}]$; the unique homomorphism $g$ from $B[{S'}^{-1}]$ to $A[S^{-1}]$ such that $g \circ i_A^S = j$ is an isomorphism.*
 
-The mapping $g$ is injective by Corollary 1; the ring $g(B[S'^{-1}])$ contains $i_A^S(A)$ and the inverse of the elements of $S'$; hence it is equal to $A[S^{-1}]$.
+The mapping $g$ is injective by Corollary 1; the ring $g(B[{S'}^{-1}])$ contains $i_A^S(A)$ and the inverse of the elements of $S'$; hence it is equal to $A[S^{-1}]$.
 
 If $A$ is an integral domain and $0 \notin S$, the notation $A[S^{-1}]$ agrees with that of Algebra, Chapter IV, § 2, no. 1; also, if $S$ is multiplicative, $A[S^{-1}]$ coincides in this case with the set denoted by $S^{-1}A$ in Algebra, Chapter I, § 1, no. 1.
 
@@ -349,7 +349,7 @@ $$
 \begin{array}{ccc}
 A & \xrightarrow{i_A^S} & S^{-1}A \\
 i_M^{ST} \downarrow & & \downarrow i_{S^{-1}A}^{T'-1A} \\
-(ST)^{-1}A & \xrightarrow{j} & T'^{-1}(S^{-1}A)
+(ST)^{-1}A & \xrightarrow{j} & {T'}^{-1}(S^{-1}A)
 \end{array}
 $$
 
@@ -361,7 +361,7 @@ $$
 \begin{array}{ccc}
 M & \xrightarrow{i_M^S} & S^{-1}M \\
 i_A^{ST} \downarrow & & \downarrow i_{S^{-1}M}^{T'-1M} \\
-(ST)^{-1}M & \xrightarrow{k} & T'^{-1}(S^{-1}M)
+(ST)^{-1}M & \xrightarrow{k} & {T'}^{-1}(S^{-1}M)
 \end{array}
 $$
 
@@ -369,9 +369,9 @@ is commutative.
 
 (i) We use the definition of (ST)^{-1}A as the solution of a universal mapping Problem. Let B be a ring and f a homomorphism from A to B such that f(ST) consists of invertible elements. As f(S) consequently consists of invertible elements, there exists a unique homomorphism f': S^{-1}A \to B such that f = f' \circ i_A^S (no. 1, Proposition 1). For all t \in T, f'(i_A^S(t)) = f(t) is invertible in B by hypo-\&\&. hence f'(T') consists of invertible elements; then there exists, by no. 1, Proposition 1, a unique homomorphism f'' from T'^{-1}(S^{-1}A) to B such that f'' = f'' \circ i_{S^{-1}A}^{T'}, whence f = f'' \circ u, setting u = i_{S^{-1}A}^{T'} \circ i_S^A.
 
-Moreover, iff $f''_1 : T'^{-1}(S^{-1}A) \to B$ is a second homomorphism such that $f''_1 \circ u = f$, then $(f''_1 \circ i^{T'}_{S^{-1}A}) \circ i^S_A = (f'' \circ i^{T'}_{S^{-1}A}) \circ i^S_A$, whence $f''_1 \circ i^{T'}_{S^{-1}A} = f'' \circ i^{T'}_{S^{-1}A}$ and consequently $f''_1 = f''$.
+Moreover, iff $f''_1 : {T'}^{-1}(S^{-1}A) \to B$ is a second homomorphism such that $f''_1 \circ u = f$, then $(f''_1 \circ i^{T'}_{S^{-1}A}) \circ i^S_A = (f'' \circ i^{T'}_{S^{-1}A}) \circ i^S_A$, whence $f''_1 \circ i^{T'}_{S^{-1}A} = f'' \circ i^{T'}_{S^{-1}A}$ and consequently $f''_1 = f''$.
 
-As the images under $u$ of the elements of ST in $T'^{-1}(S^{-1}A)$ are invertible, the ordered pair $(T'^{-1}(S^{-1}A), u)$ is a solution of the universal mapping problem (relative to A and ST) considered in no. 1. This shows the existence and uniqueness of $j$.
+As the images under $u$ of the elements of ST in ${T'}^{-1}(S^{-1}A)$ are invertible, the ordered pair $({T'}^{-1}(S^{-1}A), u)$ is a solution of the universal mapping problem (relative to A and ST) considered in no. 1. This shows the existence and uniqueness of $j$.
 
 (ii) The proof is completely analogous with that of (i), using in this case no. 2, Proposition 3, and is left to the reader.
 
@@ -384,7 +384,7 @@ Let A be a ring and S, T two multiplicative subsets of A such that $S \subset T$
 (c) *For all* $t \in T$, *there exists* $a \in A$ *such that* $at \in S$ (in other words, every element of T *divides* an element of S).
 (d) *Every prime ideal which meets T meets S*.
 
-It has been seen above that $i^{T,S}_A = 1_M \otimes i^{T,S}_A$, which immediately proves the equivalence of (a) and (b). Set $T' = i^S_A(T)$; then (Proposition 7) $T^{-1}A$ is identified with $T'^{-1}(S^{-1}A)$ and (a) is equivalent to saying that the elements of $T'$ are *invertible* in $S^{-1}A$ (no. 1, *Remark 5*). Now, to say that $(t/1)(a/s) = 1/1$ ($t \in T$, $a \in A, s \in S$) means that there exists $s' \in S$ such that $tas' = ss'$, which shows the equivalence of (a) and (c). We show that (d) implies (c). Let $t$ be an element of T and suppose that $t/1$ is not invertible in $S^{-1}A$; then there exists a maximal ideal $m'$ of $S^{-1}A$ containing $t/1$ (*Algebra*, Chapter I, § 8, no. 7, Theorem 2) and $p = (i^S_A)^{-1}(m')$ is a prime ideal of A containing $t$ and not meeting S (since the image under $i^S_A$ of an element of S is invertible). Conversely, if there exists a prime ideal $p$ which meets T without meeting S, then no element of $p \cap T$ can divide an element of S; this proves that (c) implies (d) and completes the proof.
+It has been seen above that $i^{T,S}_A = 1_M \otimes i^{T,S}_A$, which immediately proves the equivalence of (a) and (b). Set $T' = i^S_A(T)$; then (Proposition 7) $T^{-1}A$ is identified with ${T'}^{-1}(S^{-1}A)$ and (a) is equivalent to saying that the elements of $T'$ are *invertible* in $S^{-1}A$ (no. 1, *Remark 5*). Now, to say that $(t/1)(a/s) = 1/1$ ($t \in T$, $a \in A, s \in S$) means that there exists $s' \in S$ such that $tas' = ss'$, which shows the equivalence of (a) and (c). We show that (d) implies (c). Let $t$ be an element of T and suppose that $t/1$ is not invertible in $S^{-1}A$; then there exists a maximal ideal $m'$ of $S^{-1}A$ containing $t/1$ (*Algebra*, Chapter I, § 8, no. 7, Theorem 2) and $p = (i^S_A)^{-1}(m')$ is a prime ideal of A containing $t$ and not meeting S (since the image under $i^S_A$ of an element of S is invertible). Conversely, if there exists a prime ideal $p$ which meets T without meeting S, then no element of $p \cap T$ can divide an element of S; this proves that (c) implies (d) and completes the proof.
 
 It follows from Proposition 8 that, amongst the multiplicative subsets T of A containing S and satisfying the equivalent conditions of Proposition 8, there exists a *greatest*, consisting of *all* the elements of A which divide an element of S (cf. Exercise 1).
 
@@ -511,13 +511,13 @@ $$
 
 (ii) We note first that the relation b' = S^{-1}A is equivalent to the relation b \cap S \neq \varnothing, the latter expressing the fact that b' contains invertible elements of S^{-1}A. It follows from no. 4, Proposition 10 (iii) that b' \mapsto b = (i_A^S)^{-1}(b') is an isomorphism (with respect to inclusion) of the set of ideals of S^{-1}A distinct from S^{-1}A onto the set \mathcal{F} of ideals of A not meeting S and satisfying condition (MS) of Proposition 10. If b' is maximal (resp. prime), clearly b' is maximal in \mathcal{F} (resp. prime) and conversely (by (i)). On the other hand, if r is an ideal of A disjoint from S, its saturation r_1 with respect to S is an ideal of A containing t and disjoint from S : for no element $a \in S$ can satisfy $sa \in t$ for some $s \in S$, since it would follow that $sa \in t \cap S$. We conclude that, if $r$ is maximal among the ideals of $A$ meeting $S$, it is maximal in $\mathcal{F}$. Similarly, if $r$ is a prime ideal not meeting $S$, it satisfies condition (MS) of no. 4, Proposition 10 by definition of prime ideals and hence belongs to $\mathcal{F}$. This completes the proof of (ii).
 
-(iii) Suppose that $q'$ is prime and such that $q$ is also prime. The set $T = A - q$ is a multiplicative subset of $A$ which contains $S$, whence $ST = T$. We write $T' = i_A^S(T)$; it follows from no. 3, Proposition 7 (i) that there exists a unique isomorphism $j$ of $T^{-1}A = A$, onto $T'^{-1}(S^{-1}A)$ such that
+(iii) Suppose that $q'$ is prime and such that $q$ is also prime. The set $T = A - q$ is a multiplicative subset of $A$ which contains $S$, whence $ST = T$. We write $T' = i_A^S(T)$; it follows from no. 3, Proposition 7 (i) that there exists a unique isomorphism $j$ of $T^{-1}A = A$, onto ${T'}^{-1}(S^{-1}A)$ such that
 
 $$
 j(a/b) = (a/1)/(b/1),
 $$
 
-where $a \in A$ and $b \in T$. On the other hand $T'$ obviously does not meet $q'$; conversely, let $a/s \in S^{-1}A$; since $1/s$ is invertible in $S^{-1}A$, the condition $a/s \notin q'$ is equivalent to $i_A^S(a) = a/1 \notin q'$ and hence to $a \notin q$; it follows that $S^{-1}A - q' = S^{-1}T'$ and hence, by Proposition 8 of no. 3, $T'^{-1}(S^{-1}A) = (S^{-1}A)_{q'}$.
+where $a \in A$ and $b \in T$. On the other hand $T'$ obviously does not meet $q'$; conversely, let $a/s \in S^{-1}A$; since $1/s$ is invertible in $S^{-1}A$, the condition $a/s \notin q'$ is equivalent to $i_A^S(a) = a/1 \notin q'$ and hence to $a \notin q$; it follows that $S^{-1}A - q' = S^{-1}T'$ and hence, by Proposition 8 of no. 3, ${T'}^{-1}(S^{-1}A) = (S^{-1}A)_{q'}$.
 
 The isomorphism defined in (iii) is called canonical. If $A$ is an integral domain, the canonical isomorphisms of $A$, and $(S^{-1}A)_{q'}$ onto subrings of the field of fractions $K$ of $A$ have the same image.
 
@@ -560,7 +560,7 @@ by Corollary 2 there exists a prime ideal $p'$ of $B$ containing $B_{\rho}(p)$ a
 
 *Let $A$ be a ring, $S$ a multiplicative subset of $A$ and $B$ a ring such that $i_A^S(A) \subset B \subset S^{-1}A$. Let $q$ be a prime ideal of $B$ such that the prime ideal $p = (i_A^S)^{-1}(q)$ of $A$ does not meet $S$ and let $p'$ be the prime ideal $S^{-1}p$ of $S^{-1}A$. Then $p' \cap B = q$.*
 
-Let $S' = i_A^S(S)$; a canonical isomorphism has been defined from $S'^{-1}B$ to $S^{-1}A$ (no. 1, Corollary 4 to Proposition 2); we identify these two rings by means of this isomorphism. As $q \cap S' = \varnothing$, $q' = S'^{-1}q$ is the unique prime ideal of $S^{-1}A = S'^{-1}B$ such that $q' \cap B = (i_A^S)^{-1}(q') = q$ (Proposition 11 (ii)), whence $(i_A^S)^{-1}(q') = p$; consequently $q' = p'$ (Proposition 11 (ii)).
+Let $S' = i_A^S(S)$; a canonical isomorphism has been defined from ${S'}^{-1}B$ to $S^{-1}A$ (no. 1, Corollary 4 to Proposition 2); we identify these two rings by means of this isomorphism. As $q \cap S' = \varnothing$, $q' = {S'}^{-1}q$ is the unique prime ideal of $S^{-1}A = {S'}^{-1}B$ such that $q' \cap B = (i_A^S)^{-1}(q') = q$ (Proposition 11 (ii)), whence $(i_A^S)^{-1}(q') = p$; consequently $q' = p'$ (Proposition 11 (ii)).
 
 In the notation of Corollary 5, there are canonical isomorphisms of $A$, and $B_q$ onto $(S^{-1}A)_q$. (Proposition 11 (iii)) and hence a *canonical isomorphism* $A, \to B_q$.
 
@@ -713,25 +713,25 @@ As $S^{-1}A$ is a flat $A$-module, (i) is a particular case of Chapter I, §2, n
 
 #### Proposition 20 {#ac-ii-s2-prop-20 .statement}
 
-Let $A, A'$ be two rings, $p : A \to A'$ a homomorphism, $S$ a multiplicative subset of $A$, $S' = \rho(S)$ and $\rho' : S^{-1}A \to S'^{-1}A'$ the homomorphism corresponding to $p$ (no. 1, Proposition 2).
+Let $A, A'$ be two rings, $p : A \to A'$ a homomorphism, $S$ a multiplicative subset of $A$, $S' = \rho(S)$ and $\rho' : S^{-1}A \to {S'}^{-1}A'$ the homomorphism corresponding to $p$ (no. 1, Proposition 2).
 
 (i) *For every* $A'$-module $M'$ there exists a unique $S^{-1}A$-isomorphism
 $$
-j : S^{-1}\rho_*(M') \to \rho'_*(S'^{-1}M')
+j : S^{-1}\rho_*(M') \to \rho'_*({S'}^{-1}M')
 $$
 *such that* $j(m'/s) = m'/\rho(s)$ *for all* $m' \in M', s \in S$.
 
 (ii) *For every* $A$-module $M$, there exists a unique isomorphism
 $$
-j' : (S^{-1}M) \otimes_{S^{-1}A} (S'^{-1}A') \to S'^{-1}(M \otimes_A A')
+j' : (S^{-1}M) \otimes_{S^{-1}A} ({S'}^{-1}A') \to {S'}^{-1}(M \otimes_A A')
 $$
-*of* $S'^{-1}A'$*-modules* *such that* $j'((m/s) \otimes (a'/s')) = (m \otimes a')/(\rho(s)s')$.
+*of* ${S'}^{-1}A'$*-modules* *such that* $j'((m/s) \otimes (a'/s')) = (m \otimes a')/(\rho(s)s')$.
 
-(i) If we consider $S'^{-1}M'$ as an $A$-module by means of the composite homomorphism $i^{S'}_{M'} \circ p$, the homotheties induced by the elements of $S$ are bijective, hence there exists a unique homomorphism $j$ with the stated property (no. 2, Proposition 3). As $\rho(S) = S'$, $j$ is surjective; moreover, if $m' \in M'$, $s \in S$, $m'/\rho(s) = 0$, there exists $t' \in S'$ such that $t'm' = 0$; as there exists $t \in S$ such that $\rho(t) = t', t'.m' = 0$ in $\rho_*(M')$, hence $m'/s = 0$ in $S^{-1}\rho_*(M')$.
+(i) If we consider ${S'}^{-1}M'$ as an $A$-module by means of the composite homomorphism $i^{S'}_{M'} \circ p$, the homotheties induced by the elements of $S$ are bijective, hence there exists a unique homomorphism $j$ with the stated property (no. 2, Proposition 3). As $\rho(S) = S'$, $j$ is surjective; moreover, if $m' \in M'$, $s \in S$, $m'/\rho(s) = 0$, there exists $t' \in S'$ such that $t'm' = 0$; as there exists $t \in S$ such that $\rho(t) = t', t'.m' = 0$ in $\rho_*(M')$, hence $m'/s = 0$ in $S^{-1}\rho_*(M')$.
 
-(ii) As $(S^{-1}M) \otimes_{S^{-1}A} (S'^{-1}A') = (M \otimes_A S^{-1}A) \otimes_{S^{-1}A} (S'^{-1}A')$ and
+(ii) As $(S^{-1}M) \otimes_{S^{-1}A} ({S'}^{-1}A') = (M \otimes_A S^{-1}A) \otimes_{S^{-1}A} ({S'}^{-1}A')$ and
 $$
-S'^{-1}(M \otimes_A A') = (M \otimes_A A') \otimes_{A'} (S'^{-1}A'),
+{S'}^{-1}(M \otimes_A A') = (M \otimes_A A') \otimes_{A'} ({S'}^{-1}A'),
 $$
 the existence of $j'$ follows from the associativity of tensor products.
 

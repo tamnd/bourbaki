@@ -65,9 +65,9 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: 04b3647ed9ff12715e19844e7d9041e2dda3224d087d7ea50eda906ce4fe3f2a
+content_sha256: 0c2eeb3417bc190cf7ca0f1c758e61a3e6a18c3ef1e769d52edad39a953134e2
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
-source_content_sha256: 95f347dde4bad64d15b77043241d26aae796defe4bd7b89294a510f8f01c36ce
+source_content_sha256: b4049d938eec5ecd1b702c35abe78a71285cff298d5cac6318733f0844555518
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-61e6febe
 glossary_version: 34
@@ -428,7 +428,7 @@ Ta biết rằng gr(A/p) đẳng cấu với gr(A)/gr(p) (no. 4, Proposition 2) 
 
 Cho $A$ là một vành và $m$ là một iđêan hai phía của $A$; tôpô được xác định trên $A$ bởi lọc $m$-adic (no. 1, Example 3) được gọi là *tôpô m-adic*; vì lọc *m*-adic là phủ hết, $A$ là một vành tôpô đối với tôpô này (Corollary to Proposition 3). Tương tự, với mọi $A$-môđun $E$, tôpô được xác định bởi lọc $m$-adic được gọi là *tôpô m-adic* trên $E$; $E$ là một $A$-môđun tôpô đối với tôpô này.
 
-Cho $m'$ là một iđêan hai phía khác của $A$; để tôpô $m'$-adic trên $A$ mịn hơn tôpô $m$-adic, điều kiện cần và đủ là tồn tại một số nguyên $n > 0$ sao cho $m'^n \subset m$; điều kiện này là cần và, nếu nó được thỏa mãn, thì $m'^{hn} \subset m^h$ với mọi $h > 0$ và do đó điều kiện này là đủ. Nếu $A$ là một *vành Noether giao hoán*, thì điều đó tương đương với việc nói rằng $V(m) \subset V(m')$ trong phổ nguyên tố của $A$ (Chương II, § 4, no. 3, Hệ quả 2 của Mệnh đề 11 và § 2, no. 6, Mệnh đề 15).
+Cho $m'$ là một iđêan hai phía khác của $A$; để tôpô $m'$-adic trên $A$ mịn hơn tôpô $m$-adic, điều kiện cần và đủ là tồn tại một số nguyên $n > 0$ sao cho ${m'}^n \subset m$; điều kiện này là cần và, nếu nó được thỏa mãn, thì ${m'}^{hn} \subset m^h$ với mọi $h > 0$ và do đó điều kiện này là đủ. Nếu $A$ là một *vành Noether giao hoán*, thì điều đó tương đương với việc nói rằng $V(m) \subset V(m')$ trong phổ nguyên tố của $A$ (Chương II, § 4, no. 3, Hệ quả 2 của Mệnh đề 11 và § 2, no. 6, Mệnh đề 15).
 
 ### 6. MÔĐUN LỌC ĐẦY ĐỦ
 

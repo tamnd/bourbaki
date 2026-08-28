@@ -33,11 +33,11 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: 8518b17dacc0f03ac30617ca34c9f6bdc5c164f581fb18cb0106084a763f0d6c
+content_sha256: 87018211394cb0aaef072b84196f3a4f58bcad0226040355dc64c77d87a6b55f
 translated_from: content/fr/ac/VIII/04_s4_series_de_hilbert_samuel.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: f91639f7d7cb284f8e82df2e8c5a6d8828ff744149f2b0de169070ff32670b04
+source_content_sha256: 1f4a5a3e84799205ef066dca65beb8b5d30a41db27c0eb4dda950fd73a226a00
 translation_model: gpt-5.4
 translation_run: translate-en-mt-99f56812
 glossary_version: 34
@@ -587,7 +587,7 @@ $$
 0 \longrightarrow M/M' \xrightarrow{f'} M \longrightarrow M/f(M) \longrightarrow 0,
 $$
 
-where $f'$ is deduced from $f$ by passing to the quotient. If $\varphi$ is injective, one has as above $f'^{-1}(F_n) = F_{n-\delta}/M'$. It follows that the filtration on $M/M'$ deduced as inverse image by $f'$ of the filtration $F$ on $M$ is the filtration $n \mapsto F_{n-\delta}/M'$; the associated graded is $\mathrm{gr}(M)(-\delta)$ and there is an exact sequence of graded modules (III, § 2, no. 4, prop. 2)
+where $f'$ is deduced from $f$ by passing to the quotient. If $\varphi$ is injective, one has as above ${f'}^{-1}(F_n) = F_{n-\delta}/M'$. It follows that the filtration on $M/M'$ deduced as inverse image by $f'$ of the filtration $F$ on $M$ is the filtration $n \mapsto F_{n-\delta}/M'$; the associated graded is $\mathrm{gr}(M)(-\delta)$ and there is an exact sequence of graded modules (III, § 2, no. 4, prop. 2)
 
 $$
 0 \longrightarrow \mathrm{gr}(M)(-\delta) \xrightarrow{\varphi'} \mathrm{gr}(M) \longrightarrow \mathrm{gr}(M'') \longrightarrow 0,

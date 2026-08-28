@@ -14,7 +14,7 @@ statements: 0
 exercises: 0
 content_sha256: a0d418e204f4ee12e970c14f1934a332bc3f3481588e93906d104551d8ec11fd
 translated_from: content/en/fvr/III/historical_note.md
-source_content_sha256: 7f1dda6e8abf9d818f3bfc4b32cc4ee0a1da67befcaff863bc23cbfb7b524bbb
+source_content_sha256: ac8030febf5ebeaf9d3f3f00a8fb9dc684af309e0cdfd42e236e2af2749abf31
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-508f9b9c
 glossary_version: 34

@@ -11,11 +11,11 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: f7ba257d562053dd8171f5ccc038367684eb2c7d7edac14a1e9fd6603bbcdc76
+content_sha256: 3eab284ba2474393c61ceeaac12f5d262c77155988e95419b9adcddb16ebd1e5
 translated_from: content/fr/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 5dbc5ed3a53dfa6b55d96e7a4316f573d2decb606bc51731e517a0a666b36ca7
+source_content_sha256: f3140c619fb912b4b127edb64a0352d45722f2a328076238307c0c7e0f929b02
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-d8dbaedb
 glossary_version: 34
@@ -145,7 +145,7 @@ Indeed, let K be the field of fractions of A, and let $\Phi'$ be the extension o
 
 *Let A be a field, B a commutative algebra of finite dimension n over A, and S a basis of B. In order that B be separable (chap. VIII, § 7, No. 5, def. 1), it is necessary and sufficient that one have* $D_{B/A}(S) \neq 0$.
 
-Indeed, let $A'$ be the algebraic closure of A, and let $B'$ be the algebra $A' \otimes_A B$ over $A'$. If B is separable, $B'$ is semisimple (chap. VIII, § 7, No. 5, cor. of prop. 7) and is therefore the direct sum of n fields isomorphic to $A'$ (chap. VIII, § 6, No. 4, cor. of prop. 9). If $S'$ denotes the canonical basis of $B'$ (identified with $A'^n$), one has $D_{B'/A'}(S') = 1$, whence $D_{B'/A'}(S) \neq 0$ (prop. 1) and $D_{B/A}(S) \neq 0$ (formula (6)).
+Indeed, let $A'$ be the algebraic closure of A, and let $B'$ be the algebra $A' \otimes_A B$ over $A'$. If B is separable, $B'$ is semisimple (chap. VIII, § 7, No. 5, cor. of prop. 7) and is therefore the direct sum of n fields isomorphic to $A'$ (chap. VIII, § 6, No. 4, cor. of prop. 9). If $S'$ denotes the canonical basis of $B'$ (identified with ${A'}^n$), one has $D_{B'/A'}(S') = 1$, whence $D_{B'/A'}(S) \neq 0$ (prop. 1) and $D_{B/A}(S) \neq 0$ (formula (6)).
 
 Conversely suppose that one has $D_{B/A}(S) \neq 0$. To prove that B is separable, it is enough to prove that $B'$ is semisimple, that is to say that it admits no nonzero nilpotent element. Now, if $x'$ were a nonzero nilpotent element of $B'$, it could be taken as the first element of a basis $S'$ of $B'$, and one would then have $\mathrm{Tr}_{B'/A'}(x'y') = 0$ for every $y' \in S'$ since a nilpotent endomorphism has its eigenvalues zero (chap. VII, § 5, No. 3, cor. 3 of prop. 8), and hence a zero trace. It would follow that $D_{B'/A'}(S') = 0$, whence $D_{B'/A'}(S) = 0$ (prop. 1) and $D_{B/A}(S) = 0$ (formula (6)), contrary to the assumption.
 
@@ -208,7 +208,7 @@ b) Let $\varphi$ be a Frobenius homomorphism of B into A; every A-linear form on
 
 c) For every $x \in B$, let $x^\sigma$ be the unique element (cf. b)) such that $\varphi(xy) = \varphi(yx^\sigma)$ for every $y \in B$. Show that $x \to x^\sigma$ is an A-automorphism of B. One says that the Frobenius algebra B is symmetric if $\sigma$ is an inner automorphism of B; there is then a Frobenius homomorphism of B into A for which $\sigma$ is the identity (cf. b)). It amounts to the same thing to say that the (B, B)-bimodules B and $^sB^* = ^dB^*$ (which is written B*) are isomorphic (exerc. 2 c)).
 
-d) Let E be a left b-module of finite length, E’ its dual, E’* the dual of E’ considered as vector space over A; E’* is endowed with a structure of left B-module by putting, for $x' \in E'$, $x'' \in E'^*$, $b \in B$, $\langle x', bx'' \rangle = \langle x'b, x'' \rangle$ (Chapter III, 2nd ed., App. II, No. 7). For every $x \in E$, let $f_E(x)$ (or simply $f(x)$) be the element of E’* such that $\langle x', f(x) \rangle = \varphi(\langle x, x' \rangle)$ for every $x' \in E'$; now prove that $f$ is a semilinear bijection for the automorphism $\sigma$, of the left B-module E onto the left B-module E’* (use Exercise 10 of Chapter VIII, § 4). For $E = B_s$, one has (with the notations of Exercise 2 b)) $d_\Phi(x^\sigma) = f_{B_s}(x)$ for every $x \in B$.
+d) Let E be a left b-module of finite length, E’ its dual, E’* the dual of E’ considered as vector space over A; E’* is endowed with a structure of left B-module by putting, for $x' \in E'$, $x'' \in {E'}^*$, $b \in B$, $\langle x', bx'' \rangle = \langle x'b, x'' \rangle$ (Chapter III, 2nd ed., App. II, No. 7). For every $x \in E$, let $f_E(x)$ (or simply $f(x)$) be the element of E’* such that $\langle x', f(x) \rangle = \varphi(\langle x, x' \rangle)$ for every $x' \in E'$; now prove that $f$ is a semilinear bijection for the automorphism $\sigma$, of the left B-module E onto the left B-module E’* (use Exercise 10 of Chapter VIII, § 4). For $E = B_s$, one has (with the notations of Exercise 2 b)) $d_\Phi(x^\sigma) = f_{B_s}(x)$ for every $x \in B$.
 
 4) a) Let G be a finite group. Show that the algebra B of the group G over any commutative field A is a symmetric Frobenius algebra (Exercise 3). (Consider the mapping $\varphi$ of B into A which associates, with every element $x = \sum_{s \in G} \xi_s . s$, the element $\varphi(x) = \xi_e$, e denoting the identity element of G).
 

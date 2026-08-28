@@ -25,7 +25,7 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: 9eff7c6a0280da4b1e8af55ded1b0ed49581a030ba55f842924130f3789cbb4d
+content_sha256: 60507908e102514ec0b9c54e87ae98a572e5242d6bb4f4d9c4521dbee84b74b1
 translated_from: content/en/evt/II/07_s7_extremal_points_and_extremal_generators.md
 source_content_sha256: bf23b70355aed84093184969e6c0730616120ed746f1eb87003a705d19e73634
 translation_model: gpt-5-6, gpt-5-6-mini
@@ -199,10 +199,10 @@ Chỉ cần chứng minh điều cuối cùng này khi x ≠ 0 và y ≠ 0; do �
 
 — Cho C là một nón lồi nhọn có đỉnh 0 trong E, một không gian lồi địa phương Hausdorff và cho p là hàm gauge của A, một mũ của C. Khi đó các điểm cực biên của A là điểm 0 và các điểm x trên các phần tử sinh cực biên của C sao cho p(x) = 1.
 
-Hiển nhiên rằng 0 là một điểm cực biên của A. Cho x là một điểm trên L, một phần tử sinh cực biên của C và sao cho p(x) = 1. Cho y, z là hai điểm của A sao cho x = $\frac{1}{2}(y + z)$. Vì L là cực biên, ta có y = λx và z = μx, trong đó λ và μ là các số ≥ 0 sao cho $\frac{1}{2}(\lambda + \mu) = 1$, $\lambda = \lambda p(x) = p(y) \leq 1$ và $\mu = \mu p(x) = p(z) \leq 1$, từ đó $\lambda = \mu = 1$ và do đó y = z = x; vậy x là một điểm cực biên của A. Ngược lại, cho x ≠ 0 là một điểm cực biên của A. Hiển nhiên p(x) = 1. Cho y, y' là hai điểm của C sao cho x = y + y', và ta sẽ chứng minh rằng y, y' tỉ lệ với x. Không mất tính tổng quát, ta có thể giả sử rằng các số $\lambda = p(y)$ và $\lambda' = p(y')$ là hữu hạn và > 0. Khi đó $\lambda^{-1}y \in A, \lambda'^{-1}y' \in A, \lambda + \lambda' = 1$ theo mệnh đề 4, (i) và đẳng thức $x = \lambda(\lambda^{-1}y) + \lambda'(\lambda'^{-1}y')$ kéo theo, theo giả thiết rằng
+Hiển nhiên rằng 0 là một điểm cực biên của A. Cho x là một điểm trên L, một phần tử sinh cực biên của C và sao cho p(x) = 1. Cho y, z là hai điểm của A sao cho x = $\frac{1}{2}(y + z)$. Vì L là cực biên, ta có y = λx và z = μx, trong đó λ và μ là các số ≥ 0 sao cho $\frac{1}{2}(\lambda + \mu) = 1$, $\lambda = \lambda p(x) = p(y) \leq 1$ và $\mu = \mu p(x) = p(z) \leq 1$, từ đó $\lambda = \mu = 1$ và do đó y = z = x; vậy x là một điểm cực biên của A. Ngược lại, cho x ≠ 0 là một điểm cực biên của A. Hiển nhiên p(x) = 1. Cho y, y' là hai điểm của C sao cho x = y + y', và ta sẽ chứng minh rằng y, y' tỉ lệ với x. Không mất tính tổng quát, ta có thể giả sử rằng các số $\lambda = p(y)$ và $\lambda' = p(y')$ là hữu hạn và > 0. Khi đó $\lambda^{-1}y \in A, {\lambda'}^{-1}y' \in A, \lambda + \lambda' = 1$ theo mệnh đề 4, (i) và đẳng thức $x = \lambda(\lambda^{-1}y) + \lambda'({\lambda'}^{-1}y')$ kéo theo, theo giả thiết rằng
 
 $$
-x = \lambda^{-1}y = \lambda'^{-1}y'.
+x = \lambda^{-1}y = {\lambda'}^{-1}y'.
 $$
 
 #### Hệ quả 2 {#evt-ii-s7-prop-4-cor-2 .statement}

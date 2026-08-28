@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: f2c69323fa8510d34d18016aab8b766ce7e266aa40b3c50bb217de766f896339
+content_sha256: 427b313e76cebec41bbf0bb56ec5600875cdf079e2a2e1c113f1d156ebff0c59
 ---
 
 ## § 1. Groupes de Lie
@@ -258,8 +258,8 @@ Soient $L$ et $M$ des groupes de Lie, $\sigma$ un homomorphisme de $L$ dans le g
 
 En effet, on a, pour $l, l'$ dans $L$ et $m, m'$ dans $M$,
 $$
-(m, l)(m', l')^{-1} = mll'^{-1}m'^{-1} = m(\sigma(ll'^{-1})m'^{-1})ll'^{-1}
-= (m(\sigma(ll'^{-1})m'^{-1}), ll'^{-1})
+(m, l)(m', l')^{-1} = ml{l'}^{-1}{m'}^{-1} = m(\sigma(l{l'}^{-1}){m'}^{-1})l{l'}^{-1}
+= (m(\sigma(l{l'}^{-1}){m'}^{-1}), l{l'}^{-1})
 $$
 d’où la proposition.
 
@@ -546,7 +546,7 @@ Reprenons les hypothèses et notations de la prop. 16, et soit $F$ un espace nor
 
 *Soient $G$ un groupe de Lie, $X$ un espace homogène de Lie à gauche pour $G$, $x_0$ un point de $X$, $G_0$ le stabilisateur de $x_0$ dans $G$, $E$ et $E'$ des $G$-fibrés vectoriels à gauche de classe $C^r$ et de base $X$, $E_0$ (resp. $E'_0$) la fibre en $x_0$ de $E$ (resp. $E'$), $f$ un élément de $\mathcal{L}(E_0, E'_0)$ tel que $f(gu) = gf(u)$ quels que soient $u \in E_0$ et $g \in G_0$. Alors il existe un morphisme et un seul de $E$ dans $E'$, compatible avec les opérations de $G$, et prolongeant $f$.
 
-L’unicité de ce morphisme est évidente. Prouvons son existence. Soient $g$, $g'$ dans $G$ et $u \in E_0$ tels que $gu = g'u$. On a $g'^{-1}g \in G_0$ et $g'^{-1}gu = u$, donc $g'^{-1}gf(u) = f(u)$, c’est-à-dire $gf(u) = g'f(u)$. On définit donc une application $\varphi$ de $E$ dans $E'$ en posant $\varphi(gu) = gf(u)$. Il est clair que cette application prolonge $f$, et qu’elle est compatible avec les opérations de $G$. Montrons que $\varphi$ est un morphisme de fibrés vectoriels de classe $C^r$. Soit $x_1 \in X$. Il existe un voisinage ouvert $V$ de $x_1$ dans $X$ et une sous-variété $W$ de $G$, tels que l’application $g \mapsto gx_0$ soit un isomorphisme $\theta$ de classe $C^r$ de $W$ sur $V$. En diminuant $V$ et $W$, on peut supposer que:
+L’unicité de ce morphisme est évidente. Prouvons son existence. Soient $g$, $g'$ dans $G$ et $u \in E_0$ tels que $gu = g'u$. On a ${g'}^{-1}g \in G_0$ et ${g'}^{-1}gu = u$, donc ${g'}^{-1}gf(u) = f(u)$, c’est-à-dire $gf(u) = g'f(u)$. On définit donc une application $\varphi$ de $E$ dans $E'$ en posant $\varphi(gu) = gf(u)$. Il est clair que cette application prolonge $f$, et qu’elle est compatible avec les opérations de $G$. Montrons que $\varphi$ est un morphisme de fibrés vectoriels de classe $C^r$. Soit $x_1 \in X$. Il existe un voisinage ouvert $V$ de $x_1$ dans $X$ et une sous-variété $W$ de $G$, tels que l’application $g \mapsto gx_0$ soit un isomorphisme $\theta$ de classe $C^r$ de $W$ sur $V$. En diminuant $V$ et $W$, on peut supposer que:
 
 1) $E \mid V$ (resp. $E' \mid V$) s’identifie à un fibré vectoriel trivial de fibre $M$ (resp. $M'$);
 2) si l’on note $\psi_g$ (resp. $\psi'_g$) l’application $u \mapsto gu$ de $E_0$ (resp. $E'_0$) dans $E_{gx_0}$ (resp. $E'_{gx_0}$), alors les applications $g \mapsto \psi_g$ et $g \mapsto \psi_g^{-1}$ (resp. $g \mapsto \psi'_g$ et $g \mapsto {\psi'_g}^{-1}$) de $W$ dans $\mathcal{L}(E_0, M)$ et $\mathcal{L}(M, E_0)$ (resp. $\mathcal{L}(E'_0, M')$ et $\mathcal{L}(M', E'_0)$) sont de classe $C^r$.

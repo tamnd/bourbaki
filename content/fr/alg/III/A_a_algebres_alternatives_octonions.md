@@ -26,7 +26,7 @@ subsections:
       pdf_page: 563
 statements: 11
 exercises: 3
-content_sha256: 3a47a3d2be32bed91a1d03fa3ff7423d81ccf2e7b20b7bab881dbeb7405ff7a3
+content_sha256: 82ab9a33f3a100f739e32b7b60484e5cad6ddc66b5ff9a2c17d00898dfd480a3
 ---
 
 ## APPENDICE
@@ -235,7 +235,7 @@ Pour tout $\lambda \in V$, notons alors $e'_\lambda$ l’élément de $(e_i)_{0 
 
 Comme $\bar{e}'_\lambda = -e'_\lambda$ pour $\lambda \neq 0$, on a
 $$
-e'^2_\lambda = -e_0 \quad \text{pour } \lambda \neq 0,
+{e'}^2_\lambda = -e_0 \quad \text{pour } \lambda \neq 0,
 $$
 $$
 e'_\mu e'_\lambda = -e'_\lambda e'_\mu \quad \text{pour } \lambda \neq 0, \mu \neq 0 \text{ et } \mu \neq \lambda.

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 29
 statements: 31
 exercises: 29
-content_sha256: deb36ce1ee638d8755f25803d603187d1b22b18c6854e52925925f2e3c08cec9
+content_sha256: 5a16d612521017b3ed47f884fc18806ef333bf1cb3d3b7c07f367f5dfe43b398
 ---
 
 ## § 2. Systèmes de Tits
@@ -49,7 +49,7 @@ Dans ce paragraphe, les lettres G, B, N, S, T, W ont la signification indiquée 
 
 ### 1. Définition et premières propriétés
 
-Soient G un groupe et B un sous-groupe de G. On fait opérer le groupe $B \times B$ sur G par la loi $(b, b') . g = bgb'^{-1}$ pour $b, b' \in B$ et $g \in G$. Les orbites de $B \times B$ dans G sont les ensembles $BgB$, pour $g \in G$, qu’on appelle *doubles classes* de G suivant B. Elles forment une *partition* de G ; l’ensemble quotient correspondant se note $B \backslash G / B$. Si C et C’ sont deux doubles classes, CC’ est *réunion* de doubles classes.
+Soient G un groupe et B un sous-groupe de G. On fait opérer le groupe $B \times B$ sur G par la loi $(b, b') . g = bg{b'}^{-1}$ pour $b, b' \in B$ et $g \in G$. Les orbites de $B \times B$ dans G sont les ensembles $BgB$, pour $g \in G$, qu’on appelle *doubles classes* de G suivant B. Elles forment une *partition* de G ; l’ensemble quotient correspondant se note $B \backslash G / B$. Si C et C’ sont deux doubles classes, CC’ est *réunion* de doubles classes.
 
 #### Définition 1 {#lie-iv-s2-def-1 .statement}
 
@@ -284,19 +284,19 @@ C(t) \subset C(w) \cdot C(w^{-1}).
 $$
 Si $t \in T_w$, il existe par définition des éléments $w', w'' \in W$ et $s \in S$ tels que
 $$
-w = w' s w'', \quad l_s(w) = l_s(w') + l_s(w'') + 1 \quad \text{et} \quad t = w' s w'^{-1}.
+w = w' s w'', \quad l_s(w) = l_s(w') + l_s(w'') + 1 \quad \text{et} \quad t = w' s {w'}^{-1}.
 $$
 D’après le cor. 1, on a
 $$
-C(w) \cdot C(w^{-1}) = C(w') \cdot C(s) \cdot C(w'') \cdot C(w''^{-1}) \cdot C(s) \cdot C(w'^{-1}).
+C(w) \cdot C(w^{-1}) = C(w') \cdot C(s) \cdot C(w'') \cdot C({w''}^{-1}) \cdot C(s) \cdot C({w'}^{-1}).
 $$
 D’où :
 $$
-C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C(s) \cdot C(w'^{-1}).
+C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C(s) \cdot C({w'}^{-1}).
 $$
 D’après (4), on a $C(s) \subset C(s) \cdot C(s)$. D’où :
 $$
-C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C(w'^{-1}) \supset C(t).
+C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C({w'}^{-1}) \supset C(t).
 $$
 
 #### Corollaire 3 {#lie-iv-s2-thm-2-cor-3 .statement}
@@ -396,11 +396,11 @@ Il est clair que tout sous-groupe qui contient un sous-groupe parabolique est pa
 
 Soit $P$ un sous-groupe de $G$.
 a) Pour que $P$ soit parabolique, il faut et il suffit qu’il existe une partie $X$ de $S$ telle que $P$ soit conjugué de $G_X$ (cf. n° 5 pour la définition de $G_X$).
-b) Soient $X, X' \subset S$ et $g, g' \in G$ tels que $P = g G_X g^{-1} = g' G_{X'} g'^{-1}$. On a alors $X = X'$ et $g' g^{-1} \in P$.
+b) Soient $X, X' \subset S$ et $g, g' \in G$ tels que $P = g G_X g^{-1} = g' G_{X'} {g'}^{-1}$. On a alors $X = X'$ et $g' g^{-1} \in P$.
 L’assertion a) résulte du th. 3, b).
 Sous les hypothèses de b), on a
 $$
-g^{-1} g' B g'^{-1} g \subset g^{-1} g' G_{X'} g'^{-1} g = G_X,
+g^{-1} g' B {g'}^{-1} g \subset g^{-1} g' G_{X'} {g'}^{-1} g = G_X,
 $$
 et la prop. 3 montre que $g^{-1} g' \in G_X$. D’où $G_{X'} = G_X$ et $X' = X$ d’après le th. 3, b). Enfin, on a :
 $$

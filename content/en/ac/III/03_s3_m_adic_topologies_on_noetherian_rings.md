@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 7
-content_sha256: a2bb35cfe2d14c222748ac9ab0cd56ab79a3337067d7023054b9fe4c23f83710
+content_sha256: 2cfc22739b5794ceaede94d77249f17f10a52a23ce8ea60f1d3b869603e20895
 ---
 
 ## 3. $\mathfrak{m}$-adic topologies on Noetherian rings
@@ -219,7 +219,7 @@ The hypothesis that $A$ is *Noetherian* is essential in this corollary. For exam
 
 *Let $\mathbf{A}$ be a topological ring. If a two-sided ideal $m$ of $\mathbf{A}$ is such that the given topology on $\mathbf{A}$ is the $m$-adic topology, $m$ is called a defining ideal & the topology on $\mathbf{A}$.*
 
-Let $A$ be a commutative Noetherian ring, $m$ an ideal of $A$ and $t$ its radical (Chapter II, § 2, no. 6). If $m'$ is a defining ideal of the $m$-adic topology, there exists an integer $n > 0$ such that $m'^n \subset m$ ($\S 2$, no. 5) and hence $m' \subset t$; conversely, since $A$ is Noetherian, there exists an integer $k > 0$ such that $t^k \subset m$ (Chapter II, § 2, no. 6, Proposition 15) and hence $t$ is *the largest defining ideal* of the $m$-adic topology.
+Let $A$ be a commutative Noetherian ring, $m$ an ideal of $A$ and $t$ its radical (Chapter II, § 2, no. 6). If $m'$ is a defining ideal of the $m$-adic topology, there exists an integer $n > 0$ such that ${m'}^n \subset m$ ($\S 2$, no. 5) and hence $m' \subset t$; conversely, since $A$ is Noetherian, there exists an integer $k > 0$ such that $t^k \subset m$ (Chapter II, § 2, no. 6, Proposition 15) and hence $t$ is *the largest defining ideal* of the $m$-adic topology.
 
 ### 3. ZARISKI RINGS
 

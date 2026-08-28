@@ -48,9 +48,9 @@ subsections:
       pdf_page: 26
 statements: 30
 exercises: 16
-content_sha256: 366ca6a5d5522dffa822c7bc14c4c955c09d3ddb4eb1600ad3c05f4924f580f0
+content_sha256: e31898cbf27b3b1df38aac4a7710e9bdaed0b39ead888f0c73e109e4689d6b37
 translated_from: content/en/lie/IV/01_s1_coxeter_groups.md
-source_content_sha256: 846049a9e3a37f523599bdee0b7a1e284e6822579c039f0c2d0832710fdc4cd5
+source_content_sha256: e21e9157d9b83420982a6387b3aa2e1a20f94990bb5e1be3c98102e297f3b6de
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-80dc7717
 glossary_version: 34
@@ -81,19 +81,19 @@ $$
 l(w^{-1}) = l(w), \tag{2}
 $$
 $$
-|l(w) - l(w')| \leq l(ww'^{-1}). \tag{3}
+|l(w) - l(w')| \leq l(w{w'}^{-1}). \tag{3}
 $$
 
 Cho (s_1, \ldots, s_p) và (s'_1, \ldots, s'_q) lần lượt là các phân tích rút gọn của w và w'. Khi đó l(w) = p và l(w') = q. Vì ww' = s_1 \ldots s_p s'_1 \ldots s'_q, ta có l(ww') \leq p + q, chứng minh (1). Vì S = S^{-1} và w^{-1} = s_p^{-1} \ldots s_1^{-1}, ta có l(w^{-1}) \leq p = l(w). Thay w bởi w^{-1} cho bất đẳng thức đối l(w) \leq l(w^{-1}), chứng minh (2). Thay w bởi ww'^{-1} trong (1) và (2) cho các hệ thức
 
 $$
-l(w) - l(w') \leq l(ww'^{-1}), \tag{4}
+l(w) - l(w') \leq l(w{w'}^{-1}), \tag{4}
 $$
 $$
-l(ww'^{-1}) = l(w'w^{-1}). \tag{5}
+l(w{w'}^{-1}) = l(w'w^{-1}). \tag{5}
 $$
 
-Đổi chỗ $w$ và $w'$ trong (4) cho $l(w') - l(w) \leq l(ww'^{-1})$ theo (5), chứng minh (3).
+Đổi chỗ $w$ và $w'$ trong (4) cho $l(w') - l(w) \leq l(w{w'}^{-1})$ theo (5), chứng minh (3).
 
 #### Hệ quả {#lie-iv-s1-n1-cor-1 .statement}
 
@@ -101,7 +101,7 @@ $$
 
 Theo giả thiết, $l(w) \leq p$, $l(w') \leq q$ và $l(ww') = p + q$. Theo (1), ta phải có $l(w) = p$ và $l(w') = q$, do đó có hệ quả.
 
-*Nhận xét* Theo các công thức (1) và (2), công thức $d(w, w') = l(ww'^{-1})$ xác định một khoảng cách trên $W$, bất biến qua các phép tịnh tiến phải.
+*Nhận xét* Theo các công thức (1) và (2), công thức $d(w, w') = l(w{w'}^{-1})$ xác định một khoảng cách trên $W$, bất biến qua các phép tịnh tiến phải.
 
 ### 2. CÁC NHÓM NHỊ DIỆN
 
@@ -119,7 +119,7 @@ Ta ký hiệu $\iota$ là lớp của 1 modulo $m$ (tương ứng. $\iota = 1$) 
 $$
 \rho = (-1, 0), \quad \rho' = (-1, \iota), \quad \pi = (1, \iota).
 $$
-Khi đó $\rho^2 = \rho'^2 = 1$ và $\pi = \rho \rho'$. Các công thức
+Khi đó $\rho^2 = {\rho'}^2 = 1$ và $\pi = \rho \rho'$. Các công thức
 $$
 \pi^n = (1, n\iota), \quad \rho \pi^n = (-1, n\iota)
 $$
@@ -138,7 +138,7 @@ $$
 sp^n s^{-1} = p^{-n}
 $$
 
-với mọi số nguyên $n$. Vì $W$ được sinh bởi $\{ s, s' \}$, và do đó bởi $\{ s, p \}$, nên nhóm con $P$ là chuẩn. Suy ra rằng $TP$ là một nhóm con của $W$, và vì $TP$ chứa $s$ và $s' = sp$, ta có $W = TP = P \cup sP$. Để chứng minh (i), do đó chỉ cần chỉ ra rằng $W \neq P$. Nếu $W = P$, nhóm $W$ sẽ giao hoán, nên $p^2 = s^2 s'^2 = 1$. Nhưng khi đó các phần tử duy nhất của $W = P$ sẽ là 1 và $p$, mâu thuẫn với giả thiết rằng $W$ chứa ít nhất ba phần tử, cụ thể là 1, $s$ và $s'$.
+với mọi số nguyên $n$. Vì $W$ được sinh bởi $\{ s, s' \}$, và do đó bởi $\{ s, p \}$, nên nhóm con $P$ là chuẩn. Suy ra rằng $TP$ là một nhóm con của $W$, và vì $TP$ chứa $s$ và $s' = sp$, ta có $W = TP = P \cup sP$. Để chứng minh (i), do đó chỉ cần chỉ ra rằng $W \neq P$. Nếu $W = P$, nhóm $W$ sẽ giao hoán, nên $p^2 = s^2 {s'}^2 = 1$. Nhưng khi đó các phần tử duy nhất của $W = P$ sẽ là 1 và $p$, mâu thuẫn với giả thiết rằng $W$ chứa ít nhất ba phần tử, cụ thể là 1, $s$ và $s'$.
 
 (ii) Vì $s \neq s'$, ta có $p \neq 1$ và do đó $m \geq 2$. Vì $P$ có cấp $m$ và $(W : P) = 2$, cấp của $W$ là $2m$. Nếu $m$ hữu hạn (tương ứng vô hạn), tồn tại một đẳng cấu $\varphi'$ từ $\mathbf{Z}/m\mathbf{Z}$ (tương ứng $\mathbf{Z}$) đến $P$ đưa $\pi$ đến $p$. Hơn nữa, tồn tại một đẳng cấu $\varphi''$ từ $M = \{ 1, -1 \}$ đến $T$ đưa $-1$ đến $s$. Nhóm $W$ là tích nửa trực tiếp của $T$ và $P$. Theo các công thức (9) và $\rho \pi^n \rho^{-1} = \pi^{-n}$, $\varphi'$ và $\varphi''$ cảm sinh một đẳng cấu $\varphi$ từ $D_m$ đến $W$ sao cho $\varphi(\rho) = s$ và $\varphi(\pi) = p$, và do đó $\varphi(\rho') = s'$. Tính duy nhất của $\varphi$ suy ra từ sự kiện rằng $D_m$ được sinh bởi $\{ \rho, \rho' \}$.
 
@@ -173,7 +173,7 @@ Khi $(W, S)$ là một hệ Coxeter, người ta cũng nói, bằng sự lạm d
 
 #### Ví dụ 1 {#lie-iv-s1-n3-exa-1 .statement}
 
-Cho $m$ là một số nguyên $\geq 2$ hoặc $\infty$ và cho $W$ là một nhóm được xác định bởi một tập các phần tử sinh $S = {s, s'}$ và các hệ thức $s^2 = s'^2 = 1$ khi $m = \infty$, $s^2 = s'^2 = (ss')^m = 1$ khi $m$ là hữu hạn. Xét mặt khác nhóm nhị diện $D_m$ (no. 2, Ví dụ) và các phần tử $\rho$ và $\rho'$ của $D_m$ được xác định bởi (7). Vì $\rho^2 = (\rho')^2 = 1$ và $(\rho\rho')^m = 1$ khi $m$ là hữu hạn, tồn tại một đồng cấu duy nhất $f$ từ $W$ vào $D_m$ sao cho $f(s) = \rho$ và $f(s') = \rho'$. Vì $\rho\rho'$ có cấp $m$, suy ra rằng bản thân $ss'$ có cấp $m$. Do đó, $(W, S)$ là một hệ Coxeter, $W$ là một nhóm nhị diện có cấp $2m$ và $f$ là một đẳng cấu (Mệnh đề 2).
+Cho $m$ là một số nguyên $\geq 2$ hoặc $\infty$ và cho $W$ là một nhóm được xác định bởi một tập các phần tử sinh $S = {s, s'}$ và các hệ thức $s^2 = {s'}^2 = 1$ khi $m = \infty$, $s^2 = {s'}^2 = (ss')^m = 1$ khi $m$ là hữu hạn. Xét mặt khác nhóm nhị diện $D_m$ (no. 2, Ví dụ) và các phần tử $\rho$ và $\rho'$ của $D_m$ được xác định bởi (7). Vì $\rho^2 = (\rho')^2 = 1$ và $(\rho\rho')^m = 1$ khi $m$ là hữu hạn, tồn tại một đồng cấu duy nhất $f$ từ $W$ vào $D_m$ sao cho $f(s) = \rho$ và $f(s') = \rho'$. Vì $\rho\rho'$ có cấp $m$, suy ra rằng bản thân $ss'$ có cấp $m$. Do đó, $(W, S)$ là một hệ Coxeter, $W$ là một nhóm nhị diện có cấp $2m$ và $f$ là một đẳng cấu (Mệnh đề 2).
 
 Bằng phép chuyển cấu trúc, suy ra rằng mọi nhóm nhị diện đều là một nhóm Coxeter.
 
@@ -254,11 +254,11 @@ $$
 Sử dụng giả thiết quy nạp, ta thu được
 $$
 \begin{align*}
-U_s(\varepsilon, t) &= U_{s_q}(U_{s_q}(\varepsilon.(-1)^{n(s',t)}, w't w'^{-1})) \\
-&= (\varepsilon.(-1)^{n(s',t)+\delta_{s_q,w't w'^{-1}}}, wt w^{-1}).
+U_s(\varepsilon, t) &= U_{s_q}(U_{s_q}(\varepsilon.(-1)^{n(s',t)}, w't {w'}^{-1})) \\
+&= (\varepsilon.(-1)^{n(s',t)+\delta_{s_q,w't {w'}^{-1}}}, wt w^{-1}).
 \end{align*}
 $$
-Nhưng $\Phi(s) = (\Phi(s'), w'^{-1} s_q w')$ và $n(s, t) = n(s', t) + \delta_{w', -1} s_q w', t$, chứng minh công thức (14).
+Nhưng $\Phi(s) = (\Phi(s'), {w'}^{-1} s_q w')$ và $n(s, t) = n(s', t) + \delta_{w', -1} s_q w', t$, chứng minh công thức (14).
 
 Bây giờ cho $s, s' \in S$ sao cho $p = ss'$ có cấp hữu hạn $m$. Cho $s = (s_1, \ldots, s_{2m})$ là dãy các phần tử của $S$ được xác định bởi $s_j = s$ với $j$ lẻ và $s_j = s'$ với $j$ chẵn. Khi đó $s_{2m} \ldots s_1 = p^{-m} = 1$ và công thức (11) suy ra rằng
 $$
@@ -289,7 +289,7 @@ $$
 Gọi $p$ là độ dài của $w$ và $w' = sw$. Theo *Nhận xét* của no. 3, $l(w') \equiv l(w) + 1$ mod. 2. Giả thiết $l(w') \leq l(w)$ và quan hệ
 
 $$
-|l(w) - l(w')| \leq l(ww'^{-1}) = l(s) = 1
+|l(w) - l(w')| \leq l(w{w'}^{-1}) = l(s) = 1
 $$
 
 do đó dẫn đến $l(w') = p - 1$. Chọn một phân tích rút gọn
@@ -302,7 +302,7 @@ của $w'$ và đặt $s = (s, s'_1, \ldots, s'_{p-1})$ và $\Phi(s') = (t'_1, \
 
 #### Nhận xét {#lie-iv-s1-n4-rem-1 .statement}
 
-Tập hợp $T_w$ được định nghĩa trong Bổ đề 2 gồm các phần tử có dạng $w''sw''^{-1}$ tương ứng với các bộ ba $(w', w'', s) \in W \times W \times S$ sao cho $w = w''sw'$ và $l(w') + l(w'') + 1 = l(w)$.
+Tập hợp $T_w$ được định nghĩa trong Bổ đề 2 gồm các phần tử có dạng $w''s{w''}^{-1}$ tương ứng với các bộ ba $(w', w'', s) \in W \times W \times S$ sao cho $w = w''sw'$ và $l(w') + l(w'') + 1 = l(w)$.
 
 ### 5. ĐIỀU KIỆN TRAO ĐỔI
 

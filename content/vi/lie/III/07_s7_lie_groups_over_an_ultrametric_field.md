@@ -36,9 +36,9 @@ subsections:
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: d2160344699d1c7f7c55cce0254246881d03bf4bcda0816116a4cc3b859296cc
+content_sha256: 25ad99374ed17b645e655584cb0a56e322e8e5ae608409638d0a3db0a181c244
 translated_from: content/en/lie/III/07_s7_lie_groups_over_an_ultrametric_field.md
-source_content_sha256: 99933437c8c4d2e2f5fcf1297f50f16501e540051b440dd1d8a6c64abe8c68f7
+source_content_sha256: 5f3b22a09c2b7f10b2ea9721dc07fd7842702806075b9d03184179d32e6594b6
 translation_model: gpt-5-mini, gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-a6d5466a
 glossary_version: 34
@@ -150,9 +150,9 @@ Bằng cách thay G bởi một nhóm đẳng cấu với một nhóm con mở c
 
 trong đó các chuỗi ở vế phải là hội tụ với x, y trong G (§ 5, no. 1). Cho λ ∈ K* và luật nhóm được chuyển từ G sang G' = λG bởi phép vị tự tỉ số λ. Với x', y' trong G', tích x'.y' và nghịch đảo x'^{[-1]} được tính trong G' có các tọa độ
 
-$$(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} x'^\alpha y'^\beta \quad (i = 1, 2, \ldots, r)$$
+$$(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} {x'}^\alpha {y'}^\beta \quad (i = 1, 2, \ldots, r)$$
 
-$$(x'^{[-1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} x'^\alpha \quad (i = 1, 2, \ldots, r)$$
+$$({x'}^{[-1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} {x'}^\alpha \quad (i = 1, 2, \ldots, r)$$
 
 trong đó
 
@@ -432,7 +432,7 @@ L'(E'(x)) = E'(L'(x)) = x
 $$
 với $x \in \Delta$. Do đó $E'$ là một đẳng cấu của đa tạp $\Delta$ lên chính nó và đẳng cấu nghịch đảo là hạn chế của $L'$ lên $\Delta$.
 
-$L(X^{[n]}) = nL(X)$ với $n$ là một số nguyên $> 0$ (xem § 5, no. 4). Vì $G$ được chứa trong miền hội tụ tuyệt đối của $L$ và $X^{[n]}$, do đó $L'(x^n) = nL'(x)$ với mọi $x \in G$. Quan hệ $L'|_{\Delta} = E'^{-1}$ kéo theo rằng $L'(x^n) = \log x^n$ với $n$ đủ lớn. Suy ra $L'(x) = \log x$. Như vậy ta đã chứng minh được (i) và (ii).
+$L(X^{[n]}) = nL(X)$ với $n$ là một số nguyên $> 0$ (xem § 5, no. 4). Vì $G$ được chứa trong miền hội tụ tuyệt đối của $L$ và $X^{[n]}$, do đó $L'(x^n) = nL'(x)$ với mọi $x \in G$. Quan hệ $L'|_{\Delta} = {E'}^{-1}$ kéo theo rằng $L'(x^n) = \log x^n$ với $n$ đủ lớn. Suy ra $L'(x) = \log x$. Như vậy ta đã chứng minh được (i) và (ii).
 
 Gọi $H = \sum_{r,s \geq 0} H_{r,s}$ là chuỗi lũy thừa hình thức Hausdorff và $h$ là hàm Hausdorff tương ứng với $L(G)$. Miền hội tụ tuyệt đối của $\tilde{H}$ chứa $\Delta \times \Delta$ và $h$ được xác định trên $\Delta \times \Delta$ (Chương II, § 8, Mệnh đề 2). Khi đó
 $$

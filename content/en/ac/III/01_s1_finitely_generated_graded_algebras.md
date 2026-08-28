@@ -29,7 +29,7 @@ subsections:
       pdf_page: 180
 statements: 13
 exercises: 3
-content_sha256: 91f52b8ee552f51f2f9983f2b181714c7c33ea17947d2ce7286c36c1ca020a86
+content_sha256: f5a839fc9eb2de4a6348015dd8cd693291996b095c75da79331ecfb76c8dfc47
 ---
 
 ## 1. FINITELY GENERATED GRADED ALGEBRAS
@@ -188,7 +188,7 @@ Let $A$ be a graded commutative ring with positive degrees and $p$ an essential 
 
 *Let $p$ be a graded prime ideal of $A$, $d$ an integer $\geq 1$ and $p'$ the graded prime ideal $p \cap A^{(d)}$ of $A^{(d)}$; for every graded $A$-module $M$, the homomorphism $(M^{(d)})_{(p')} \to M_{(p)}$ derived from the canonical injection $M^{(d)} \to M$ is bijective.*
 
-If $S$ is the set of homogeneous elements of $A$ not belonging to $p$ and $S' = S \cap A^{(d)}$, the canonical homomorphism $\phi : S'^{-1}M^{(d)} \to S^{-1}M$ is a homogeneous homomorphism of degree 0 and it is injective, for, if $x \in M_{nd}$ satisfies $sx = 0$ for $s \in A_n, s \notin p$, then also $s^dx = 0$ and $s^d \in A_{md}, s^d \notin p'$. It remains to show that the image under $\phi$ of $(M^{(d)})_{(p')}$ is the whole of $M_{(p)}$; but if $x \in M_n, s \in A_n$ and $s \notin p$, then also $x/s = (xs^{d-1})/s^d$ where $xs^{d-1} \in A_{nd}, s^d \in A_n$ and $s^d \notin p'$, whence our assertion.
+If $S$ is the set of homogeneous elements of $A$ not belonging to $p$ and $S' = S \cap A^{(d)}$, the canonical homomorphism $\phi : {S'}^{-1}M^{(d)} \to S^{-1}M$ is a homogeneous homomorphism of degree 0 and it is injective, for, if $x \in M_{nd}$ satisfies $sx = 0$ for $s \in A_n, s \notin p$, then also $s^dx = 0$ and $s^d \in A_{md}, s^d \notin p'$. It remains to show that the image under $\phi$ of $(M^{(d)})_{(p')}$ is the whole of $M_{(p)}$; but if $x \in M_n, s \in A_n$ and $s \notin p$, then also $x/s = (xs^{d-1})/s^d$ where $xs^{d-1} \in A_{nd}, s^d \in A_n$ and $s^d \notin p'$, whence our assertion.
 
 #### Proposition 8 {#ac-iii-s1-prop-8 .statement}
 

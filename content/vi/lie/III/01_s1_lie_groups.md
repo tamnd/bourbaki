@@ -56,9 +56,9 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: 4bdfc293d1f16b398c8ea54d542999896a8b6d2d566c3d1f0d1197be51f8b5a9
+content_sha256: 1a268c0d2884a832642706fe570daa502ad300d04db4fe7921086deb7bf3f771
 translated_from: content/en/lie/III/01_s1_lie_groups.md
-source_content_sha256: dd2d78e49a8cf1c806338cbfc272462a001b25086267bd90fe9ce27fd5ddf915
+source_content_sha256: 1d086b2132020ca1ae70342f05ee30e3bf32e38ffd0a0c2a6d1cdfbca1dc4cf8
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-6a201bc1
 glossary_version: 34
@@ -276,8 +276,8 @@ Cho L và M là các nhóm Lie và σ là một đồng cấu từ L vào nhóm 
 Với $l, l'$ trong $L$ và $m, m'$ trong $M$,
 
 $$
-(m, l)(m', l')^{-1} = mll'^{-1}m'^{-1} = m(\sigma(ll'^{-1})m'^{-1})ll'^{-1}
-= (m(\sigma(ll'^{-1})m'^{-1}), ll'^{-1})
+(m, l)(m', l')^{-1} = ml{l'}^{-1}{m'}^{-1} = m(\sigma(l{l'}^{-1}){m'}^{-1})l{l'}^{-1}
+= (m(\sigma(l{l'}^{-1}){m'}^{-1}), l{l'}^{-1})
 $$
 
 do đó mệnh đề.
@@ -581,9 +581,9 @@ Với các giả thiết và ký hiệu của Mệnh đề 16, cho F là một k
 
 *Cho G là một nhóm Lie, X là một không gian thuần nhất Lie trái của G, $x_0$ là một điểm của X, $G_0$ là nhóm ổn định của $x_0$ trong G, E và E' là các bó G-vectơ trái lớp C^r có không gian cơ sở X, E_0 (tương ứng E'_0) là thớ của E (tương ứng E') tại $x_0$ và f là một phần tử của $\mathcal{L}(E_0, E'_0)$ sao cho $f(gu) = gf(u)$ với mọi $u ∈ E_0$ và $g ∈ G_0$. Khi đó tồn tại duy nhất một cấu xạ của E vào E' tương thích với các phép toán của G và mở rộng f.*
 
-Tính duy nhất của cấu xạ này là hiển nhiên. Ta chứng minh sự tồn tại của nó. Cho g, g' là các phần tử của G và $u ∈ E_0$ sao cho $gu = g'u$. Khi đó $g'^{-1}g ∈ G_0$ và $g'^{-1}gu = u$ và do đó $g'^{-1}gf(u) = f(u)$, nghĩa là $gf(u) = g'f(u)$. Do đó một ánh xạ φ được xác định từ E vào E' bằng cách viết $φ(gu) = gf(u)$. Rõ ràng ánh xạ này mở rộng f và nó tương thích với các phép toán của G. Ta chứng minh rằng φ là một cấu xạ bó vectơ lớp C^r. Cho $x_1 ∈ X$. Tồn tại một lân cận mở V của $x_1$ trong X và một đa tạp con W của G sao cho ánh xạ $g ↦ gx_0$ là một đẳng cấu θ lớp C^r của W lên V. Bằng cách thu nhỏ V và W, có thể giả sử rằng:
+Tính duy nhất của cấu xạ này là hiển nhiên. Ta chứng minh sự tồn tại của nó. Cho g, g' là các phần tử của G và $u ∈ E_0$ sao cho $gu = g'u$. Khi đó ${g'}^{-1}g ∈ G_0$ và ${g'}^{-1}gu = u$ và do đó ${g'}^{-1}gf(u) = f(u)$, nghĩa là $gf(u) = g'f(u)$. Do đó một ánh xạ φ được xác định từ E vào E' bằng cách viết $φ(gu) = gf(u)$. Rõ ràng ánh xạ này mở rộng f và nó tương thích với các phép toán của G. Ta chứng minh rằng φ là một cấu xạ bó vectơ lớp C^r. Cho $x_1 ∈ X$. Tồn tại một lân cận mở V của $x_1$ trong X và một đa tạp con W của G sao cho ánh xạ $g ↦ gx_0$ là một đẳng cấu θ lớp C^r của W lên V. Bằng cách thu nhỏ V và W, có thể giả sử rằng:
 (1) $E | V$ (tương ứng $E' | V$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng M');
-(2) nếu ψ_g (tương ứng ψ'_g) ký hiệu ánh xạ $u ↦ gu$ của E_0 (tương ứng E'_0) vào $E_{gx_0}$ (tương ứng $E'_{gx_0}$), thì các ánh xạ $g ↦ ψ_g$ và $g ↦ ψ_g^{-1}$ (tương ứng $g ↦ ψ'_g$ và $g ↦ ψ'_g^{-1}$) của W vào 𝓛(E_0, M) và 𝓛(M, E_0) (tương ứng 𝓛(E'_0, M') và 𝓛(M', E'_0)) là lớp C^r.
+(2) nếu ψ_g (tương ứng ψ'_g) ký hiệu ánh xạ $u ↦ gu$ của E_0 (tương ứng E'_0) vào $E_{gx_0}$ (tương ứng $E'_{gx_0}$), thì các ánh xạ $g ↦ ψ_g$ và $g ↦ ψ_g^{-1}$ (tương ứng $g ↦ ψ'_g$ và $g ↦ {ψ'_g}^{-1}$) của W vào 𝓛(E_0, M) và 𝓛(M, E_0) (tương ứng 𝓛(E'_0, M') và 𝓛(M', E'_0)) là lớp C^r.
 
 Với x ∈ V, gọi φ_x : M → N là hạn chế của φ lên E_x = M. Khi đó φ_x thu được bằng cách hợp thành các ánh xạ sau:
 (1) ánh xạ (ψ_θ^{-1,x})^{-1} từ M vào E_0;

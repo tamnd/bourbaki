@@ -40,9 +40,9 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: fc2b05c2065d3f9c7289fd9d092c291489740115ca0e1173cd7905f0d8ddf979
+content_sha256: a6d2b37cb4a22aabc30d10c65f1a391b2ff69a44cf5e32f3b7fbcc62711193e4
 translated_from: content/en/lie/IV/02_s2_tits_systems.md
-source_content_sha256: 346fa786ae647c2beb4852bcd6c8923f06ef4caf1b9f5ab62db22180acbb91d4
+source_content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-c6e81366
 glossary_version: 34
@@ -56,7 +56,7 @@ Trong đoạn này, các chữ G, B, N, S, T, W có nghĩa được chỉ ra tro
 
 ### 1. ĐỊNH NGHĨA VÀ CÁC TÍNH CHẤT ĐẦU TIÊN
 
-Cho G là một nhóm và B là một nhóm con của G. Nhóm $B \times B$ tác động lên G bởi $(b, b').g = bgb'^{-1}$ với $b, b' \in B$ và $g \in G$. Các quỹ đạo của $B \times B$ trên G là các tập hợp $BgB$ với $g \in G$, và được gọi là các lớp ghép kép của G đối với B. Chúng lập thành một phân hoạch của G; thương tương ứng được ký hiệu bởi $B \backslash G / B$. Nếu C và $C'$ là các lớp ghép kép, $CC'$ là một hợp của các lớp ghép kép.
+Cho G là một nhóm và B là một nhóm con của G. Nhóm $B \times B$ tác động lên G bởi $(b, b').g = bg{b'}^{-1}$ với $b, b' \in B$ và $g \in G$. Các quỹ đạo của $B \times B$ trên G là các tập hợp $BgB$ với $g \in G$, và được gọi là các lớp ghép kép của G đối với B. Chúng lập thành một phân hoạch của G; thương tương ứng được ký hiệu bởi $B \backslash G / B$. Nếu C và $C'$ là các lớp ghép kép, $CC'$ là một hợp của các lớp ghép kép.
 
 #### Định nghĩa 1 {#lie-iv-s2-def-1 .statement}
 
@@ -296,25 +296,25 @@ $$
 Nếu $t \in T_w$, theo định nghĩa tồn tại các phần tử $w', w'' \in W$ và $s \in S$ sao cho
 
 $$
-w = w' s w'', \quad l_S(w) = l_S(w') + l_S(w'') + 1 \quad \text{và} \quad t = w' s w'^{-1}.
+w = w' s w'', \quad l_S(w) = l_S(w') + l_S(w'') + 1 \quad \text{và} \quad t = w' s {w'}^{-1}.
 $$
 
 Theo Hệ quả 1,
 
 $$
-C(w).C(w^{-1}) = C(w').C(s).C(w'').C(w''^{-1}).C(s).C(w'^{-1}).
+C(w).C(w^{-1}) = C(w').C(s).C(w'').C({w''}^{-1}).C(s).C({w'}^{-1}).
 $$
 
 Do đó,
 
 $$
-C(w).C(w^{-1}) \supset C(w').C(s).C(s).C(w'^{-1}).
+C(w).C(w^{-1}) \supset C(w').C(s).C(s).C({w'}^{-1}).
 $$
 
 Theo (4), $C(s) \subset C(s).C(s)$. Do đó,
 
 $$
-C(w).C(w^{-1}) \supset C(w').C(s).C(w'^{-1}) \supset C(t).
+C(w).C(w^{-1}) \supset C(w').C(s).C({w'}^{-1}) \supset C(t).
 $$
 
 #### Hệ quả 3 {#lie-iv-s2-thm-2-cor-3 .statement}
@@ -421,12 +421,12 @@ Rõ ràng rằng mọi nhóm con chứa một nhóm con parabolic đều là par
 
 a) *$P$ là parabolic khi và chỉ khi tồn tại một tập con $X$ của $S$ sao cho $P$ liên hợp với $G_X$ (xem no. 5 về định nghĩa của $G_X$).*
 
-b) *Cho $X, X' \subset S$ và $g, g' \in G$ sao cho $P = g G_X g^{-1} = g' G_{X'} g'^{-1}$. Khi đó, $X = X'$ và $g' g^{-1} \in P$.*
+b) *Cho $X, X' \subset S$ và $g, g' \in G$ sao cho $P = g G_X g^{-1} = g' G_{X'} {g'}^{-1}$. Khi đó, $X = X'$ và $g' g^{-1} \in P$.*
 
 Mệnh đề a) suy ra từ Đl. 3, b).
 Dưới các giả thiết của b), ta có
 $$
-g^{-1} g' B g'^{-1} g \subset g^{-1} g' G_{X'} g'^{-1} = G_X,
+g^{-1} g' B {g'}^{-1} g \subset g^{-1} g' G_{X'} {g'}^{-1} = G_X,
 $$
 và Mđ. 3 chỉ ra rằng $g^{-1} g' \in G_X$. Do đó, $G_{X'} = G_X$ và $X' = X$ theo Đl. 3, b). Cuối cùng,
 $$

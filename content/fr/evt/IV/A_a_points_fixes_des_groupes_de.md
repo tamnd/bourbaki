@@ -30,7 +30,7 @@ subsections:
       pdf_page: 230
 statements: 10
 exercises: 8
-content_sha256: c61a70ac29d03bb98f227c516178cf19072b5f1973e9793f7c8684d56c158439
+content_sha256: a50fe53e1e92cccf208144f33d5cc8cae97d257dd48338d2315f380c2f77246b
 ---
 
 ## APPENDICE
@@ -109,7 +109,7 @@ Le corollaire du th. 1 (IV, p. 40) entraîne de manière analogue le résultat s
 
 *Soit $G$ un groupe topologique résoluble. Il existe sur $G$ une moyenne invariante par les translations à gauche et à droite.
 
-Il suffit d’appliquer la prop. 1 au groupe résoluble $G \times G$ agissant sur $G$ par $(g, g').x = gxg'^{-1}$.
+Il suffit d’appliquer la prop. 1 au groupe résoluble $G \times G$ agissant sur $G$ par $(g, g').x = gx{g'}^{-1}$.
 
 ### 3. Le théorème de Ryll-Nardzewski
 

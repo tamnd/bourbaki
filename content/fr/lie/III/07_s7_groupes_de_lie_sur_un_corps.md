@@ -36,7 +36,7 @@ subsections:
       pdf_page: 219
 statements: 26
 exercises: 10
-content_sha256: 6db6deea12418d3fa86b34126c8c3657ff8130e1c66c8da83b2721dd4012f8c2
+content_sha256: 0267354d0f0076d5e121f08b9c07f55051a80af3273931457acfca54c73ff5f2
 ---
 
 ## § 7. Groupes de Lie sur un corps ultramétrique
@@ -133,14 +133,14 @@ $$
 (x^{[−1]})_i = -x_i + \sum_{|\alpha| > 1} d_{\alpha i} x^\alpha \quad (i = 2, 2, \ldots, r)
 $$
 
-les séries des seconds membres étant convergentes pour $x, y$ dans $G$ (\S 5, n° 1). Soit $\lambda \in K^*$, et transportons la loi de groupe de $G$ à $G' = \lambda G$ par l’homothétie de rapport $\lambda$. Pour $x', y'$ dans $G'$, le produit $x'.y'$ et l’inverse $x'^{[−1]}$ calculés dans $G'$ ont pour coordonnées
+les séries des seconds membres étant convergentes pour $x, y$ dans $G$ (\S 5, n° 1). Soit $\lambda \in K^*$, et transportons la loi de groupe de $G$ à $G' = \lambda G$ par l’homothétie de rapport $\lambda$. Pour $x', y'$ dans $G'$, le produit $x'.y'$ et l’inverse ${x'}^{[−1]}$ calculés dans $G'$ ont pour coordonnées
 
 $$
-(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} x'^\alpha y'^\beta \quad (i = 1, 2, \ldots, r)
+(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} {x'}^\alpha {y'}^\beta \quad (i = 1, 2, \ldots, r)
 $$
 
 $$
-(x'^{[−1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} x'^\alpha \quad (i = 1, 2, \ldots, r)
+({x'}^{[−1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} {x'}^\alpha \quad (i = 1, 2, \ldots, r)
 $$
 
 avec
@@ -405,7 +405,7 @@ Par suite, si $\omega(x) > 0$, $\| L_m \| \cdot \| x \|^{m}$ tend vers 0 quand $
 
 Comme les séries formelles $L(E(X))$ et $E(L(X))$ sont égales à $X$, le n° 4.1.5 de VAR, R, prouve que $L'(E'(x)) = E'(L'(x)) = x$ pour $x \in \Delta$. Donc $E'$ est un isomorphisme de la variété $\Delta$ sur elle-même, et l’isomorphisme réciproque est la restriction de $L'$ à $\Delta$.
 
-On a $L(X^{[n]}) = nL(X)$ pour $n$ entier $> 0$ (cf. § 5, n° 4). Comme $G$ est contenu dans le domaine de convergence stricte de $L$ et de $X^{[n]}$, on a donc $L'(x^n) = nL'(x)$ pour tout $x \in G$. La relation $L'|_{\Delta} = E'^{-1}$ entraîne que $L'(x^n) = \log x^n$ pour assez grand. Donc $L'(x) = \log x$. On a ainsi prouvé (i) et (ii).
+On a $L(X^{[n]}) = nL(X)$ pour $n$ entier $> 0$ (cf. § 5, n° 4). Comme $G$ est contenu dans le domaine de convergence stricte de $L$ et de $X^{[n]}$, on a donc $L'(x^n) = nL'(x)$ pour tout $x \in G$. La relation $L'|_{\Delta} = {E'}^{-1}$ entraîne que $L'(x^n) = \log x^n$ pour assez grand. Donc $L'(x) = \log x$. On a ainsi prouvé (i) et (ii).
 
 Soient $H = \sum_{r,s \geq 0} H_{r,s}$ la série formelle de Hausdorff, et $h$ la fonction de
 

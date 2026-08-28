@@ -53,9 +53,9 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: 939ff670cb5b87ad85c88c8ec9bacfed6b57fd21ab7cfa239855ff129b5ad38e
+content_sha256: 98b3a37206867db8b21647f3102e86ebbc7c6cccfe72a04f63f438ccd4a75b6f
 translated_from: content/en/int/VII/02_s2_quotient_of_a_space_by_a_group.md
-source_content_sha256: ecbc07a7990489579c04b0500567975dfe58a40a4b6c09cd615187b6ac3c2c1b
+source_content_sha256: 99ba561aafca40f963d3f96797899f8fc83f5e667a8708612f7fd51b6fd36471
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-bacf869e
 glossary_version: 34
@@ -350,7 +350,7 @@ do đó $h \circ \pi$ là địa phương $\lambda^\#$-khả tích.
 
 #### Hệ quả 1 {#int-vii-s2-prop-6-cor-1 .statement}
 
-— Cho $\lambda, \lambda'$ là hai độ đo dương trên X/H. Để $\lambda'$ có cơ sở $\lambda$, cần và đủ rằng $\lambda'^\#$ có cơ sở $\lambda^\#$. Để $\lambda$ và $\lambda'$ tương đương, cần và đủ rằng $\lambda^\#$ và $\lambda'^\#$ tương đương.
+— Cho $\lambda, \lambda'$ là hai độ đo dương trên X/H. Để $\lambda'$ có cơ sở $\lambda$, cần và đủ rằng ${\lambda'}^\#$ có cơ sở $\lambda^\#$. Để $\lambda$ và $\lambda'$ tương đương, cần và đủ rằng $\lambda^\#$ và ${\lambda'}^\#$ tương đương.
 
 Mệnh đề đầu suy ra từ Mệnh đề 6, a) và c). Mệnh đề thứ hai suy ra từ mệnh đề đầu.
 
@@ -358,7 +358,7 @@ Mệnh đề đầu suy ra từ Mệnh đề 6, a) và c). Mệnh đề thứ ha
 
 — Cho $\lambda$ là một độ đo dương trên $X/H$, và $f$ là một hàm số trị số đo được theo $\lambda^\#$ trên $X$. Giả sử rằng, với mọi $\xi \in H$, $\delta(\xi)f = f$ địa phương $\lambda^\#$-hầu khắp nơi. Khi đó, tồn tại một hàm $\lambda$-đo được $g$ trên $X/H$ sao cho $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
 
-Thay $f$ bằng $f/(1+|f|)$, ta quy về trường hợp $f$ bị chặn, do đó khả tích địa phương theo $\lambda^\#$. Đặt $\mu = f \cdot \lambda^\#$. Giả thiết về $f$ suy ra rằng $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ với mọi $\xi \in H$. Khi đó tồn tại (Mệnh đề 4) một độ đo $\lambda'$ trên $X/H$ sao cho $\mu = \lambda'^\#$. Theo Hệ quả 1, tồn tại một hàm khả tích địa phương theo $\lambda$ $g$ trên $X/H$ sao cho $\lambda' = g \cdot \lambda$. Theo Mệnh đề 6, $f \cdot \lambda^\# = \lambda'^\# = (g \circ \pi) \cdot \lambda^\#$, do đó $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
+Thay $f$ bằng $f/(1+|f|)$, ta quy về trường hợp $f$ bị chặn, do đó khả tích địa phương theo $\lambda^\#$. Đặt $\mu = f \cdot \lambda^\#$. Giả thiết về $f$ suy ra rằng $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ với mọi $\xi \in H$. Khi đó tồn tại (Mệnh đề 4) một độ đo $\lambda'$ trên $X/H$ sao cho $\mu = {\lambda'}^\#$. Theo Hệ quả 1, tồn tại một hàm khả tích địa phương theo $\lambda$ $g$ trên $X/H$ sao cho $\lambda' = g \cdot \lambda$. Theo Mệnh đề 6, $f \cdot \lambda^\# = {\lambda'}^\# = (g \circ \pi) \cdot \lambda^\#$, do đó $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
 
 #### Hệ quả 3 {#int-vii-s2-prop-6-cor-3 .statement}
 
@@ -378,7 +378,7 @@ $$
 (\sup \lambda_\iota)^\# \geq \sup(\lambda_\iota^\#).
 $$
 
-Ngược lại, giả sử họ $(\lambda_\iota^\#)$ bị chặn trên và đặt $\nu = \sup(\lambda_\iota^\#)$. Vì $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ với mọi $\xi \in H$, hiển nhiên $\delta(\xi)\nu = \Delta_H(\xi)\nu$, do đó tồn tại một độ đo $\mu' \in \mathcal{M}(X/H)$ sao cho $\nu = \mu'^\#$. Vì $\lambda^\# \geq 0$ suy ra $\lambda \geq 0$, ta có $\mu' \geq \lambda_\iota$ với mọi $\iota$, điều này cho thấy họ $(\lambda_\iota)$ bị chặn trên và rằng $\nu = \mu'^\# \geq (\sup \lambda_\iota)^\#$, do đó
+Ngược lại, giả sử họ $(\lambda_\iota^\#)$ bị chặn trên và đặt $\nu = \sup(\lambda_\iota^\#)$. Vì $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ với mọi $\xi \in H$, hiển nhiên $\delta(\xi)\nu = \Delta_H(\xi)\nu$, do đó tồn tại một độ đo $\mu' \in \mathcal{M}(X/H)$ sao cho $\nu = {\mu'}^\#$. Vì $\lambda^\# \geq 0$ suy ra $\lambda \geq 0$, ta có $\mu' \geq \lambda_\iota$ với mọi $\iota$, điều này cho thấy họ $(\lambda_\iota)$ bị chặn trên và rằng $\nu = {\mu'}^\# \geq (\sup \lambda_\iota)^\#$, do đó
 
 $$
 \sup(\lambda_\iota^\#) \geq (\sup \lambda_\iota)^\#,
@@ -490,7 +490,7 @@ $$
 \gamma(s)\nu = (\gamma(s)\rho) \cdot \mu, \qquad \gamma(s)\nu' = (\gamma(s)\rho') \cdot \mu,
 $$
 
-và giả thiết suy ra rằng $\rho^{-1} \cdot \gamma(s)\rho = \rho'^{-1} \cdot \gamma(s)\rho'$ địa phương $\mu$-gần khắp nơi. Đặt $\sigma = \rho'/\rho$, là một hàm $\mu$-đo được trên $G$. Với mọi $s \in G$, $\gamma(s)\sigma = \sigma$ địa phương $\mu$-gần khắp nơi. Do đó $\sigma$ bằng một hằng số địa phương $\mu$-gần khắp nơi, theo Hệ quả 2 của Mệnh đề 6 áp dụng với $X = H = G$.
+và giả thiết suy ra rằng $\rho^{-1} \cdot \gamma(s)\rho = {\rho'}^{-1} \cdot \gamma(s)\rho'$ địa phương $\mu$-gần khắp nơi. Đặt $\sigma = \rho'/\rho$, là một hàm $\mu$-đo được trên $G$. Với mọi $s \in G$, $\gamma(s)\sigma = \sigma$ địa phương $\mu$-gần khắp nơi. Do đó $\sigma$ bằng một hằng số địa phương $\mu$-gần khắp nơi, theo Hệ quả 2 của Mệnh đề 6 áp dụng với $X = H = G$.
 
 Cho $G$ là một nhóm địa phương compact, $H$ là một nhóm con đóng của $G$. Xét không gian thuần nhất $G/H$ của các lớp ghép trái theo $H$, trên đó $G$ tác động liên tục ở bên trái. Ta sẽ ցույց rằng tồn tại một và chỉ một lớp các độ đo khác không gần bất biến trên $G/H$.
 
@@ -554,7 +554,7 @@ a) *Bất kỳ hai độ đo gần bất biến không bằng không nào trên 
 
 b) *Cho $\lambda, \lambda'$ là hai độ đo gần bất biến không bằng không trên $G/H$. Nếu, với mọi $s \in G$, các mật độ của $\gamma_{G/H}(s)\lambda$ đối với $\lambda$ và của $\gamma_{G/H}(s)\lambda'$ đối với $\lambda'$ bằng nhau hầu khắp nơi theo $\lambda$ (hoặc $\lambda'$), thì $\lambda$ và $\lambda'$ tỉ lệ với nhau.*
 
-Mệnh đề a) suy ra ngay từ Bổ đề 4. Cho $\lambda$ và $\lambda'$ là hai độ đo gần bất biến không bằng không thỏa mãn điều kiện của b). Khi đó, với mọi $s \in G$, các mật độ của $\gamma_G(s)\lambda^\#$ đối với $\lambda^\#$ và của $\gamma_G(s)\lambda'^\#$ đối với $\lambda'^\#$ bằng nhau địa phương $\mu$-hầu khắp nơi, do đó (Bổ đề 3) $\lambda^\#$ và $\lambda'^\#$ tỉ lệ với nhau, suy ra $\lambda$ và $\lambda'$ tỉ lệ với nhau.
+Mệnh đề a) suy ra ngay từ Bổ đề 4. Cho $\lambda$ và $\lambda'$ là hai độ đo gần bất biến không bằng không thỏa mãn điều kiện của b). Khi đó, với mọi $s \in G$, các mật độ của $\gamma_G(s)\lambda^\#$ đối với $\lambda^\#$ và của $\gamma_G(s){\lambda'}^\#$ đối với ${\lambda'}^\#$ bằng nhau địa phương $\mu$-hầu khắp nơi, do đó (Bổ đề 3) $\lambda^\#$ và ${\lambda'}^\#$ tỉ lệ với nhau, suy ra $\lambda$ và $\lambda'$ tỉ lệ với nhau.
 
 Mặt khác, Bổ đề 4 rút việc tìm các độ đo gần bất biến không bằng không trên $G/H$ về việc tìm các độ đo trên $G$ tương đương với
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 106
 statements: 32
 exercises: 21
-content_sha256: 48b6392485704cebfa0776ee98533615adc0992ae238bb84b98cd9fab5b7fe0b
+content_sha256: 0f0311374a61057cbbcb3bed140f1e6e572befbb6ca4857cfee60eea900dc513
 ---
 
 ## § 8. — Produits de mesures
@@ -443,7 +443,7 @@ a) Si $\pi$ (resp. $\pi'$) est $\mu$-propre (resp. $\mu'$-propre), l’applicati
 
 b) Inversement, si $\pi \times \pi'$ est $(\mu \otimes \mu')$-propre, et si $\mu' \neq 0$, $\pi$ est $\mu$-propre.
 
-a) En effet, $\pi \times \pi'$ est $(\mu \otimes \mu')$-mesurable en vertu du cor. 1 de la prop. 3 du n° 2. D’autre part, si K (resp. K') est une partie compacte de $T_1$ (resp. $T'_1$), $\pi^{-1}(K)$ et $\pi'^{-1}(K')$ sont essentiellement intégrables pour $\mu$ et $\mu'$ respectivement, donc $\pi^{-1}(K) \times \pi'^{-1}(K')$ est essentiellement intégrable pour $\mu \otimes \mu'$ (cor. 2 de la prop. 8). Ceci prouve que $\pi \times \pi'$ est $(\mu \otimes \mu')$-propre. Soient alors $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $v_1 = (\pi \times \pi')(\mu \otimes \mu')$; pour $f \in \mathcal{K}(T_1)$ et $f' \in \mathcal{K}(T'_1)$, on a
+a) En effet, $\pi \times \pi'$ est $(\mu \otimes \mu')$-mesurable en vertu du cor. 1 de la prop. 3 du n° 2. D’autre part, si K (resp. K') est une partie compacte de $T_1$ (resp. $T'_1$), $\pi^{-1}(K)$ et ${\pi'}^{-1}(K')$ sont essentiellement intégrables pour $\mu$ et $\mu'$ respectivement, donc $\pi^{-1}(K) \times {\pi'}^{-1}(K')$ est essentiellement intégrable pour $\mu \otimes \mu'$ (cor. 2 de la prop. 8). Ceci prouve que $\pi \times \pi'$ est $(\mu \otimes \mu')$-propre. Soient alors $\mu_1 = \pi(\mu)$, $\mu'_1 = \pi'(\mu')$, $v_1 = (\pi \times \pi')(\mu \otimes \mu')$; pour $f \in \mathcal{K}(T_1)$ et $f' \in \mathcal{K}(T'_1)$, on a
 $$
 \iint f(\pi(t))f'(\pi'(t'))\ d\mu(t)\ d\mu'(t') = \left( \int f(\pi(t))\ d\mu(t) \right) \left( \int f'(\pi'(t'))\ d\mu'(t') \right)
 $$
@@ -453,7 +453,7 @@ b) Supposons maintenant que $\pi \times \pi'$ soit $\mu \otimes \mu'$-propre, et
 $$
 \langle (\pi \times \pi')(\mu \otimes \mu'), g \otimes g' \rangle \neq 0.
 $$
-Cette expression étant égale à $\langle \mu \otimes \mu', (g \circ \pi) \otimes (g' \circ \pi') \rangle$ d’après la définition des mesures images, la prop. 8 entraîne que $\mu'^*(g' \circ \pi') \neq 0$. Nous avons alors, d’après la prop. 8 et la prop. 2 du § 6, n° 2,
+Cette expression étant égale à $\langle \mu \otimes \mu', (g \circ \pi) \otimes (g' \circ \pi') \rangle$ d’après la définition des mesures images, la prop. 8 entraîne que ${\mu'}^*(g' \circ \pi') \neq 0$. Nous avons alors, d’après la prop. 8 et la prop. 2 du § 6, n° 2,
 $$
 \left| \int^\bullet (f \circ \pi)\ d\mu \right| \left| \int^\bullet (g' \circ \pi')\ d\mu' \right| = \iint^\bullet (f \circ \pi) \otimes (g' \circ \pi')\ d\mu\ d\mu'
 $$

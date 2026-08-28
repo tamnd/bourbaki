@@ -40,7 +40,7 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: 346fa786ae647c2beb4852bcd6c8923f06ef4caf1b9f5ab62db22180acbb91d4
+content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
 ---
 
 ## § 2. TITS SYSTEMS
@@ -49,7 +49,7 @@ In this paragraph, the letters G, B, N, S, T, W have the meaning indicated in no
 
 ### 1. DEFINITIONS AND FIRST PROPERTIES
 
-Let G be a group and B a subgroup of G. The group $B \times B$ acts on G by $(b, b').g = bgb'^{-1}$ for $b, b' \in B$ and $g \in G$. The orbits of $B \times B$ on G are the sets $BgB$ for $g \in G$, and are called the double cosets of G with respect to B. They form a partition of G; the corresponding quotient is denoted by $B \backslash G / B$. If C and $C'$ are double cosets, $CC'$ is a union of double cosets.
+Let G be a group and B a subgroup of G. The group $B \times B$ acts on G by $(b, b').g = bg{b'}^{-1}$ for $b, b' \in B$ and $g \in G$. The orbits of $B \times B$ on G are the sets $BgB$ for $g \in G$, and are called the double cosets of G with respect to B. They form a partition of G; the corresponding quotient is denoted by $B \backslash G / B$. If C and $C'$ are double cosets, $CC'$ is a union of double cosets.
 
 #### Definition 1 {#lie-iv-s2-def-1 .statement}
 
@@ -289,25 +289,25 @@ $$
 If $t \in T_w$, there exist by definition elements $w', w'' \in W$ and $s \in S$ such that
 
 $$
-w = w' s w'', \quad l_S(w) = l_S(w') + l_S(w'') + 1 \quad \text{and} \quad t = w' s w'^{-1}.
+w = w' s w'', \quad l_S(w) = l_S(w') + l_S(w'') + 1 \quad \text{and} \quad t = w' s {w'}^{-1}.
 $$
 
 By Cor. 1,
 
 $$
-C(w).C(w^{-1}) = C(w').C(s).C(w'').C(w''^{-1}).C(s).C(w'^{-1}).
+C(w).C(w^{-1}) = C(w').C(s).C(w'').C({w''}^{-1}).C(s).C({w'}^{-1}).
 $$
 
 Hence,
 
 $$
-C(w).C(w^{-1}) \supset C(w').C(s).C(s).C(w'^{-1}).
+C(w).C(w^{-1}) \supset C(w').C(s).C(s).C({w'}^{-1}).
 $$
 
 By (4), $C(s) \subset C(s).C(s)$. Hence,
 
 $$
-C(w).C(w^{-1}) \supset C(w').C(s).C(w'^{-1}) \supset C(t).
+C(w).C(w^{-1}) \supset C(w').C(s).C({w'}^{-1}) \supset C(t).
 $$
 
 #### Corollary 3 {#lie-iv-s2-thm-2-cor-3 .statement}
@@ -414,12 +414,12 @@ It is clear that every subgroup that contains a parabolic subgroup is parabolic.
 
 a) *$P$ is parabolic if and only if there exists a subset $X$ of $S$ such that $P$ is conjugate to $G_X$ (cf. no. 5 for the definition of $G_X$).*
 
-b) *Let $X, X' \subset S$ and $g, g' \in G$ be such that $P = g G_X g^{-1} = g' G_{X'} g'^{-1}$. Then, $X = X'$ and $g' g^{-1} \in P$.*
+b) *Let $X, X' \subset S$ and $g, g' \in G$ be such that $P = g G_X g^{-1} = g' G_{X'} {g'}^{-1}$. Then, $X = X'$ and $g' g^{-1} \in P$.*
 
 Assertion a) follows from Th. 3, b).
 Under the hypotheses of b), we have
 $$
-g^{-1} g' B g'^{-1} g \subset g^{-1} g' G_{X'} g'^{-1} = G_X,
+g^{-1} g' B {g'}^{-1} g \subset g^{-1} g' G_{X'} {g'}^{-1} = G_X,
 $$
 and Prop. 3 shows that $g^{-1} g' \in G_X$. Hence, $G_{X'} = G_X$ and $X' = X$ by Th. 3, b). Finally,
 $$

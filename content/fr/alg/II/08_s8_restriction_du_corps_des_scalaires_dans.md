@@ -41,7 +41,7 @@ subsections:
       pdf_page: 302
 statements: 17
 exercises: 5
-content_sha256: d612be2fb12e6742ce57803093c0fb1db0dfbfcc9c02f7d1fb99c61ad61c7333
+content_sha256: 4729d446b1507616c621f4747b8a2f39bd8ee7b4be4522eb01d76377e8bc1968
 ---
 
 ## § 8. RESTRICTION DU CORPS DES SCALAIRE S DANS LES ESPACES VECTORIELS
@@ -151,13 +151,13 @@ Soit $g$ l’application $x_1 \mapsto (x_1, f(x_1))$ de $V_1$ dans $V_1 \times V
 
 ### 4. Formes linéaires rationnelles
 
-Soit $V$ un espace vectoriel à droite sur $K$, muni d’une $K'$-structure $V'$. Comme $K'_d$ est une $K'$-structure sur le $K$-espace vectoriel à droite $K_d$, on peut définir les *formes linéaires* $x^* \in V^*$, *rationnelles sur $K'$*, comme les applications linéaires de $V$ dans $K_d$, rationnelles sur $K'$ pour les $K'$-structures de $V$ et de $K_d$. En vertu de II, p. 121, prop. 3, l’ensemble $R'$ de ces formes linéaires est l’image du dual $V'^*$ de $V'$ par l’application composée
+Soit $V$ un espace vectoriel à droite sur $K$, muni d’une $K'$-structure $V'$. Comme $K'_d$ est une $K'$-structure sur le $K$-espace vectoriel à droite $K_d$, on peut définir les *formes linéaires* $x^* \in V^*$, *rationnelles sur $K'$*, comme les applications linéaires de $V$ dans $K_d$, rationnelles sur $K'$ pour les $K'$-structures de $V$ et de $K_d$. En vertu de II, p. 121, prop. 3, l’ensemble $R'$ de ces formes linéaires est l’image du dual ${V'}^*$ de $V'$ par l’application composée
 
 $$
-V'^* \xrightarrow{\varphi} K \otimes_{K'} V'^* \xrightarrow{\upsilon} V^*
+{V'}^* \xrightarrow{\varphi} K \otimes_{K'} {V'}^* \xrightarrow{\upsilon} V^*
 $$
 
-où $\varphi(x'^*) = 1 \otimes x'^*$, et $\upsilon(\xi \otimes x'^*)$ est la forme linéaire $y^*$ sur $V$ telle que $y^*(x') = \xi \langle x'^*, x' \rangle$ pour tout $x' \in V'$ (II, p. 87). On sait que cette application est injective (II, p. 114, prop. 20 et p. 113, prop. 19) et il est clair que $R'$ est un sous-$K'$-espace vectoriel à gauche de $V^*$; en outre toute partie de $R'$ libre sur $K'$ est libre sur $K$. Mais en général $R'$ *n’engendre pas nécessairement* $V^*$ sur $K$ et ne définit donc pas une $K'$-structure sur $V^*$ (II, p. 199, exerc. 2). Toutefois, si $V$ est de dimension *finie* $n$ sur $K$, $V'^*$ est de dimension $n$ sur $K'$, et $R'$ définit alors canoniquement une $K'$-structure sur $V^*$.
+où $\varphi({x'}^*) = 1 \otimes {x'}^*$, et $\upsilon(\xi \otimes {x'}^*)$ est la forme linéaire $y^*$ sur $V$ telle que $y^*(x') = \xi \langle {x'}^*, x' \rangle$ pour tout $x' \in V'$ (II, p. 87). On sait que cette application est injective (II, p. 114, prop. 20 et p. 113, prop. 19) et il est clair que $R'$ est un sous-$K'$-espace vectoriel à gauche de $V^*$; en outre toute partie de $R'$ libre sur $K'$ est libre sur $K$. Mais en général $R'$ *n’engendre pas nécessairement* $V^*$ sur $K$ et ne définit donc pas une $K'$-structure sur $V^*$ (II, p. 199, exerc. 2). Toutefois, si $V$ est de dimension *finie* $n$ sur $K$, ${V'}^*$ est de dimension $n$ sur $K'$, et $R'$ définit alors canoniquement une $K'$-structure sur $V^*$.
 
 #### Proposition 5 {#alg-ii-s8-prop-5 .statement}
 
@@ -165,7 +165,7 @@ où $\varphi(x'^*) = 1 \otimes x'^*$, et $\upsilon(\xi \otimes x'^*)$ est la for
 
 Soit $H$ une partie de $V^*$ dont les éléments sont des formes linéaires rationnelles sur $K'$. Pour tout $x^* \in H$, le noyau de $x^*$ est un sous-$K$-espace vectoriel de $V$, rationnel sur $K'$ (II, p. 121, cor. 2); l’intersection de ces noyaux est donc aussi un sous-$K$-espace vectoriel de $V$, rationnel sur $K'$ (II, p. 120, cor. 1).
 
-Inversement, soit $W$ un sous-$K$-espace vectoriel de $V$, rationnel sur $K'$, de sorte que $W$ s’identifie à $W' \otimes_{K'} K$, où $W' = W \cap V'$ (II, p. 120, prop. 2). Pour qu’une forme linéaire $x'^* \in V'^*$ soit nulle dans $W'$, il faut et il suffit que la forme linéaire $x^* \in V^*$ qui lui correspond par (1) (II, p. 122) soit nulle dans $W$, car en vertu de II, p. 121, cor. 1, on a $\mathrm{Ker}(x^*) = (\mathrm{Ker}(x'^*)) \otimes_{K'} K$, et $\mathrm{Ker}(x'^*) = (\mathrm{Ker}(x^*)) \cap V'$. Soit $H'$ l’orthogonal de $W'$ dans $V'^*$; on sait (II, p. 104, th. 7) que $W'$ est l’orthogonal de $H'$ dans $V'$; si $H$ est l’image de $H'$ dans $V^*$ par l’application (1), il résulte de ce qui précède que $W$ est l’orthogonal de $H$ dans $V$, compte tenu de II, p. 109, cor. de la prop. 14.
+Inversement, soit $W$ un sous-$K$-espace vectoriel de $V$, rationnel sur $K'$, de sorte que $W$ s’identifie à $W' \otimes_{K'} K$, où $W' = W \cap V'$ (II, p. 120, prop. 2). Pour qu’une forme linéaire ${x'}^* \in {V'}^*$ soit nulle dans $W'$, il faut et il suffit que la forme linéaire $x^* \in V^*$ qui lui correspond par (1) (II, p. 122) soit nulle dans $W$, car en vertu de II, p. 121, cor. 1, on a $\mathrm{Ker}(x^*) = (\mathrm{Ker}({x'}^*)) \otimes_{K'} K$, et $\mathrm{Ker}({x'}^*) = (\mathrm{Ker}(x^*)) \cap V'$. Soit $H'$ l’orthogonal de $W'$ dans ${V'}^*$; on sait (II, p. 104, th. 7) que $W'$ est l’orthogonal de $H'$ dans $V'$; si $H$ est l’image de $H'$ dans $V^*$ par l’application (1), il résulte de ce qui précède que $W$ est l’orthogonal de $H$ dans $V$, compte tenu de II, p. 109, cor. de la prop. 14.
 
 ### 5. Applications aux systèmes linéaires
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: ecbc07a7990489579c04b0500567975dfe58a40a4b6c09cd615187b6ac3c2c1b
+content_sha256: 99ba561aafca40f963d3f96797899f8fc83f5e667a8708612f7fd51b6fd36471
 ---
 
 ## § 2. QUOTIENT OF A SPACE BY A GROUP; HOMOGENEOUS SPACES
@@ -343,7 +343,7 @@ therefore $h \circ \pi$ is locally $\lambda^\#$-integrable.
 
 #### Corollary 1 {#int-vii-s2-prop-6-cor-1 .statement}
 
-— Let $\lambda, \lambda'$ be two positive measures on $X/H$. For $\lambda'$ to have base $\lambda$, it is necessary and sufficient that $\lambda'^\#$ have base $\lambda^\#$. For $\lambda$ and $\lambda'$ to be equivalent, it is necessary and sufficient that $\lambda^\#$ and $\lambda'^\#$ be equivalent.
+— Let $\lambda, \lambda'$ be two positive measures on $X/H$. For $\lambda'$ to have base $\lambda$, it is necessary and sufficient that ${\lambda'}^\#$ have base $\lambda^\#$. For $\lambda$ and $\lambda'$ to be equivalent, it is necessary and sufficient that $\lambda^\#$ and ${\lambda'}^\#$ be equivalent.
 
 The first assertion follows from Prop. 6, a) and c). The second follows from the first.
 
@@ -351,7 +351,7 @@ The first assertion follows from Prop. 6, a) and c). The second follows from the
 
 — Let $\lambda$ be a positive measure on $X/H$, and $f$ a $\lambda^\#$-measurable numerical function on $X$. Suppose that, for every $\xi \in H$, $\delta(\xi)f = f$ locally $\lambda^\#$-almost everywhere. Then, there exists a $\lambda$-measurable function $g$ on $X/H$ such that $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
 
-Replacing $f$ by $f/(1+|f|)$, one reduces to the case that $f$ is bounded, hence locally $\lambda^\#$-integrable. Let $\mu = f \cdot \lambda^\#$. The hypothesis on $f$ implies that $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ for all $\xi \in H$. There then exists (Prop. 4) a measure $\lambda'$ on $X/H$ such that $\mu = \lambda'^\#$. By Cor. 1, there exists a locally $\lambda$-integrable function $g$ on $X/H$ such that $\lambda' = g \cdot \lambda$. By Prop. 6, $f \cdot \lambda^\# = \lambda'^\# = (g \circ \pi) \cdot \lambda^\#$, whence $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
+Replacing $f$ by $f/(1+|f|)$, one reduces to the case that $f$ is bounded, hence locally $\lambda^\#$-integrable. Let $\mu = f \cdot \lambda^\#$. The hypothesis on $f$ implies that $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ for all $\xi \in H$. There then exists (Prop. 4) a measure $\lambda'$ on $X/H$ such that $\mu = {\lambda'}^\#$. By Cor. 1, there exists a locally $\lambda$-integrable function $g$ on $X/H$ such that $\lambda' = g \cdot \lambda$. By Prop. 6, $f \cdot \lambda^\# = {\lambda'}^\# = (g \circ \pi) \cdot \lambda^\#$, whence $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
 
 #### Corollary 3 {#int-vii-s2-prop-6-cor-3 .statement}
 
@@ -371,7 +371,7 @@ $$
 (\sup \lambda_\iota)^\# \geq \sup(\lambda_\iota^\#).
 $$
 
-Conversely, assume the family $(\lambda_\iota^\#)$ to be bounded above and let $\nu = \sup(\lambda_\iota^\#)$. Since $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ for all $\xi \in H$, obviously $\delta(\xi)\nu = \Delta_H(\xi)\nu$, therefore there exists a measure $\mu' \in \mathcal{M}(X/H)$ such that $\nu = \mu'^\#$. Since $\lambda^\# \geq 0$ implies $\lambda \geq 0$, we have $\mu' \geq \lambda_\iota$ for all $\iota$, which shows that the family $(\lambda_\iota)$ is bounded above and that $\nu = \mu'^\# \geq (\sup \lambda_\iota)^\#$, whence
+Conversely, assume the family $(\lambda_\iota^\#)$ to be bounded above and let $\nu = \sup(\lambda_\iota^\#)$. Since $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ for all $\xi \in H$, obviously $\delta(\xi)\nu = \Delta_H(\xi)\nu$, therefore there exists a measure $\mu' \in \mathcal{M}(X/H)$ such that $\nu = {\mu'}^\#$. Since $\lambda^\# \geq 0$ implies $\lambda \geq 0$, we have $\mu' \geq \lambda_\iota$ for all $\iota$, which shows that the family $(\lambda_\iota)$ is bounded above and that $\nu = {\mu'}^\# \geq (\sup \lambda_\iota)^\#$, whence
 
 $$
 \sup(\lambda_\iota^\#) \geq (\sup \lambda_\iota)^\#,
@@ -483,7 +483,7 @@ $$
 \gamma(s)\nu = (\gamma(s)\rho) \cdot \mu, \qquad \gamma(s)\nu' = (\gamma(s)\rho') \cdot \mu,
 $$
 
-and the hypothesis implies that $\rho^{-1} \cdot \gamma(s)\rho = \rho'^{-1} \cdot \gamma(s)\rho'$ locally $\mu$-almost everywhere. Set $\sigma = \rho'/\rho$, which is a $\mu$-measurable function on $G$. For every $s \in G$, $\gamma(s)\sigma = \sigma$ locally $\mu$-almost everywhere. Therefore $\sigma$ is equal to a constant locally $\mu$-almost everywhere, by Cor. 2 of Prop. 6 applied with $X = H = G$.
+and the hypothesis implies that $\rho^{-1} \cdot \gamma(s)\rho = {\rho'}^{-1} \cdot \gamma(s)\rho'$ locally $\mu$-almost everywhere. Set $\sigma = \rho'/\rho$, which is a $\mu$-measurable function on $G$. For every $s \in G$, $\gamma(s)\sigma = \sigma$ locally $\mu$-almost everywhere. Therefore $\sigma$ is equal to a constant locally $\mu$-almost everywhere, by Cor. 2 of Prop. 6 applied with $X = H = G$.
 
 Let $G$ be a locally compact group, $H$ a closed subgroup of $G$. Consider the homogeneous space $G/H$ of left cosets with respect to $H$, on which $G$ operates continuously on the left. We are going to show that there exists one and only one class of nonzero quasi-invariant measures on $G/H$.
 
@@ -547,7 +547,7 @@ a) *Any two nonzero quasi-invariant measures on $G/H$ are equivalent; the subset
 
 b) *Let $\lambda, \lambda'$ be two nonzero quasi-invariant measures on $G/H$. If, for every $s \in G$, the densities of $\gamma_{G/H}(s)\lambda$ with respect to $\lambda$ and of $\gamma_{G/H}(s)\lambda'$ with respect to $\lambda'$ are equal almost everywhere for $\lambda$ (or $\lambda'$), then $\lambda$ and $\lambda'$ are proportional.*
 
-The assertion a) follows at once from Lemma 4. Let $\lambda$ and $\lambda'$ be two nonzero quasi-invariant measures satisfying the condition of b). Then, for every $s \in G$, the densities of $\gamma_G(s)\lambda^\#$ with respect to $\lambda^\#$ and of $\gamma_G(s)\lambda'^\#$ with respect to $\lambda'^\#$ are equal locally $\mu$-almost everywhere, therefore (Lemma 3) $\lambda^\#$ and $\lambda'^\#$ are proportional, hence $\lambda$ and $\lambda'$ are proportional.
+The assertion a) follows at once from Lemma 4. Let $\lambda$ and $\lambda'$ be two nonzero quasi-invariant measures satisfying the condition of b). Then, for every $s \in G$, the densities of $\gamma_G(s)\lambda^\#$ with respect to $\lambda^\#$ and of $\gamma_G(s){\lambda'}^\#$ with respect to ${\lambda'}^\#$ are equal locally $\mu$-almost everywhere, therefore (Lemma 3) $\lambda^\#$ and ${\lambda'}^\#$ are proportional, hence $\lambda$ and $\lambda'$ are proportional.
 
 On the other hand, Lemma 4 reduces the search for nonzero quasi-invariant measures on $G/H$ to that for the measures on $G$ equivalent to
 

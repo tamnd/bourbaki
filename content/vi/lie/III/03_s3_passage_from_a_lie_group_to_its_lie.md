@@ -84,9 +84,9 @@ subsections:
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: 5586a05b76eb16494c0b12e85419fc4fe4e7a0698cf5329d3efe0ed7b4c72334
+content_sha256: dfe18c4bb11db708279cb8621a98df1d977e1a0141f13398284f9306b35c25e4
 translated_from: content/en/lie/III/03_s3_passage_from_a_lie_group_to_its_lie.md
-source_content_sha256: e090b39b6829a3b5aab768859eec4c860b0bcb114797109d764f3c993c7b88da
+source_content_sha256: 116ee476020d95a20632b0a93e7c92ab47b1013c10697310c58d2ebb5dec4db5
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-36d03b2e
 glossary_version: 34
@@ -242,7 +242,7 @@ Cho G là một nhóm Lie. Cho t, t' thuộc $\mathcal{T}^{(\infty)}(G)$.
 
 (i) Tích $t * t'$ được tính đối với $G^\vee$ bằng tích $t' * t$ được tính đối với G.
 
-(ii) $(t * t')^\vee = t'^\vee * t^\vee$.
+(ii) $(t * t')^\vee = {t'}^\vee * t^\vee$.
 
 Xét biểu đồ
 
@@ -326,13 +326,13 @@ Cho G là một nhóm Lie.
 $$
 c(t) = \sum_{i=1}^n t_i \otimes t_i'.
 $$
-Khi đó $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_i'^\vee$.
+Khi đó $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
 
 Ta chứng minh (i). Trong định nghĩa về đại đối đại số được dẫn chiếu, điều kiện (1) suy ra từ các Mệnh đề 2 và 3 và điều kiện (2) suy ra từ Differentiable and Analytic Manifolds, R, 13.5.1. Cho d là ánh xạ $g \mapsto (g, g)$ của G vào $G \times G$. Khi đó $c = d_*$ và do đó c là một cấu xạ đại số (các Mệnh đề 6 và 9), đó là điều kiện (3). Cho $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$ không có số hạng hằng và $\lambda, \lambda'$ là các phần tử của K; khi đó $\varepsilon_g \otimes t', t \otimes \varepsilon_{g'}, t \otimes t'$ không có số hạng hằng (Differentiable and Analytic Manifolds, R, 13.4.1) và do đó số hạng hằng của $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ là $\lambda \lambda'$; do đó điều kiện (4) được thỏa mãn.
 
 Ta chứng minh (ii). Theo các Mệnh đề 8 và 9,
 $$
-c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_i'^\vee \otimes t_i'^\vee.
+c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_{i'}^\vee \otimes t_{i'}^\vee.
 $$
 
 #### Mệnh đề 12 {#lie-iii-s3-prop-12 .statement}
@@ -461,7 +461,7 @@ Với mọi $x \in X$,
 $$
 \begin{align*}
 \langle \varepsilon_x, (t * t') * f \rangle &= \langle ((t * t')^\vee * \varepsilon_x), f \rangle \quad \text{theo (5)} \\
-&= \langle t'^\vee * (t^\vee * \varepsilon_x), f \rangle \quad (\text{Mệnh đề 2 và 7}) \\
+&= \langle {t'}^\vee * (t^\vee * \varepsilon_x), f \rangle \quad (\text{Mệnh đề 2 và 7}) \\
 &= \langle t^\vee * \varepsilon_x, t' * f \rangle \quad (\text{Mệnh đề 17}) \\
 &= \langle \varepsilon_x, t * (t' * f) \rangle \quad (\text{Mệnh đề 17}).
 \end{align*}
@@ -483,7 +483,7 @@ Cho $x \in X$ và cho $\rho(x)$ ký hiệu ánh xạ quỹ đạo của $x$. Khi
 $$
 \langle \varepsilon_x, t * (ff') \rangle = \langle t^\vee, (ff') \circ \rho(x) \rangle \quad \text{theo (4)} \\
 = \langle t^\vee, (f \circ \rho(x))(f' \circ \rho(x)) \rangle \\
-= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_i'^\vee, f' \circ \rho(x) \rangle \tag{Diff. \& Man. Anal., R, 13.5.2} \\
+= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_{i'}^\vee, f' \circ \rho(x) \rangle \tag{Diff. \& Man. Anal., R, 13.5.2} \\
 = \sum_{i=1}^n \langle \varepsilon_x, t_i * f \rangle \langle \varepsilon_x, t_i' * f' \rangle \quad \text{theo (4).}
 $$
 
@@ -523,8 +523,8 @@ $$
 $$
 Với mọi $x \in X$,
 $$
-\langle \varepsilon_x, (t * f) * t' \rangle = \langle \varepsilon_x * t'^\vee, t * f \rangle \quad \text{theo (8)} \\
-= \langle t^\vee * (\varepsilon_x * t'^\vee), f \rangle \quad \text{(Mệnh đề 17)} \\
+\langle \varepsilon_x, (t * f) * t' \rangle = \langle \varepsilon_x * {t'}^\vee, t * f \rangle \quad \text{theo (8)} \\
+= \langle t^\vee * (\varepsilon_x * {t'}^\vee), f \rangle \quad \text{(Mệnh đề 17)} \\
 = \langle t^\vee * \varepsilon_x, f * t' \rangle \quad \text{(Mệnh đề 2 và (11))} \\
 = \langle \varepsilon_x, t * (f * t') \rangle \quad \text{theo (5).}
 $$
@@ -623,7 +623,7 @@ $$
 với $g, g'$ trong $G$.
 Nó là bất biến phải nếu
 $$
-\Delta_{gg'} = \delta(g'^{-1}) * \Delta_g
+\Delta_{gg'} = \delta({g'}^{-1}) * \Delta_g
 $$
 với $g, g'$ trong $G$,
 hoặc cũng vậy nếu:
@@ -652,8 +652,8 @@ $$
 Trong $G$ mọi phép tịnh tiến phải giao hoán với mọi phép tịnh tiến trái. Theo Mệnh đề 21 của no. 5, $L_t$ do đó là bất biến trái. Vì $(L_t)_e = t$, ánh xạ $t \mapsto L_t$ là đơn ánh. Cho $\Delta$ là một trường các phân bố bất biến trái trên $G$; đặt $t = \Delta_e$; khi đó $\Delta$ và $L_t$ có cùng giá trị tại $e$ và đều bất biến trái, do đó $\Delta = L_t$. Điều này chứng minh (i) đối với $L_t$ và lập luận tương tự đối với $R_t$. Các công thức $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$ suy ra từ (21) và (18). Cho $t \in U_s(G)$, $t' \in U_{s'}(G)$, $f \in C^r(\Omega, F)$, trong đó $\Omega$ là mở trong $G$ và $s + s' \leq r$; khi đó
 $$
 \begin{align*}
-L_t R_{t'} f &= L_t (t'^\vee * f) = (t'^\vee * f) * t \\
-&= t'^\vee * (f * t^\vee) \tag{Proposition 20} \\
+L_t R_{t'} f &= L_t ({t'}^\vee * f) = ({t'}^\vee * f) * t \\
+&= {t'}^\vee * (f * t^\vee) \tag{Proposition 20} \\
 &= R_{t'} L_t f
 \end{align*}
 $$
@@ -873,7 +873,7 @@ $H$ và $H'$ là các nhóm con Lie của $G$. Giả sử $K$ có đặc số $0
 
 (ii) Giả sử mọi phần tử của $H$ giao hoán với mọi phần tử của $H'$. Khi đó $HH'$ là một nhóm con Lie của $G$. Cho $\phi$ là ánh xạ $(h, h') \mapsto hh'$ của $H \times H'$ lên $HH'$. Hạt nhân của $\phi$ là tập hợp các $(m, m^{-1})$ với $m \in H \cap H'$ và cấu xạ của $(H \times H')/\mathrm{Ker}\ \phi$ lên $HH'$ suy ra từ $\phi$ khi chuyển qua thương là một đẳng cấu nhóm Lie.
 
-Cho $H \times H'$ tác động lên $G$ bên phải bởi ánh xạ $((h, h'), g) \mapsto hgh'^{-1}$. Ánh xạ quỹ đạo $\rho$ của $e$ là $(h, h') \mapsto hh'^{-1}$. Theo Mệnh đề 14 (iii) của § 1, no. 7, $HH'$ là một đa tạp con của $G$ và $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Khi đó
+Cho $H \times H'$ tác động lên $G$ bên phải bởi ánh xạ $((h, h'), g) \mapsto hg{h'}^{-1}$. Ánh xạ quỹ đạo $\rho$ của $e$ là $(h, h') \mapsto h{h'}^{-1}$. Theo Mệnh đề 14 (iii) của § 1, no. 7, $HH'$ là một đa tạp con của $G$ và $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Khi đó
 
 $$
 T_e(\rho)(L(H) \times \{0\}) = L(H) \quad \text{và} \quad T_e(\rho)(\{0\} \times L(H')) = L(H')
@@ -1268,7 +1268,7 @@ Theo định nghĩa, $t \top u$ là ảnh của $t \otimes u$ dưới ánh xạ 
 $$
 \begin{aligned}
 \alpha & : (g, g') \mapsto (g, g, g') & \text{của } G \times G \text{ vào } G \times G \times G \\
-\beta & : (g, g', g'') \mapsto (g, g'^{-1}, g'') & \text{của } G \times G \times G \text{ vào } G \times G \times G \\
+\beta & : (g, g', g'') \mapsto (g, {g'}^{-1}, g'') & \text{của } G \times G \times G \text{ vào } G \times G \times G \\
 \gamma & : (g, g', g'') \mapsto gg''g' & \text{của } G \times G \times G \text{ vào } G.
 \end{aligned}
 $$
@@ -1779,7 +1779,7 @@ Trong số này, $(G, e, \theta, m)$ ký hiệu một mầm nhóm Lie. Phần l�
 
 18.1. Cho $\Omega$ là miền xác định của $m$. Cho $(g, g') \in \Omega,\ t \in T_e^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. Như ở no. 1, tích chập của $t$ và $t'$, ký hiệu là $t * t'$, là ảnh của $t \otimes t'$ dưới $m$. Ta viết $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. Với $t, t'$ trong $U(G)$, $t * t'$ được xác định và thuộc $U(G)$. Với tích chập, $U(G)$ là một đại số kết hợp có phần tử đơn vị $\varepsilon_e$, được lọc bởi các $U_s(G)$. Đẳng cấu chính tắc $i_{G,e}$ của gr $U(G)$ lên $TS(T_e(G))$ là một đẳng cấu đại số.
 
-18.2. Cho $G, H$ là các mầm nhóm Lie và $\phi : G \to H$ là một cấu xạ. Nếu $t \in U(G)$, ảnh $U(\phi)(t)$ của $t$ dưới $\phi_*$ là một phần tử của $U(H)$ và $U(\phi)$ là một cấu xạ của đại số $U(G)$ vào đại số $U(H)$. Ánh xạ $\theta : x \mapsto x^{-1}$ của $G$ vào $G$ xác định một ánh xạ $t \mapsto t^\vee$ của $U(G)$ vào $U(G)$. Với $t, t'$ trong $U(G)$, tích $t * t'$ được xét tương ứng với $G^\vee$ bằng tích $t' * t$ được xét tương ứng với $G$ và $(t * t')^\vee = t'^\vee * t^\vee$. Khi đó $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. Nếu $G_1, \ldots, G_n$ là các mầm nhóm Lie và $G = G_1 \times \cdots \times G_n$, thì đẳng cấu chính tắc của $U(G_1) \otimes \cdots \otimes U(G_n)$ lên $U(G)$ là một đẳng cấu đại số;
+18.2. Cho $G, H$ là các mầm nhóm Lie và $\phi : G \to H$ là một cấu xạ. Nếu $t \in U(G)$, ảnh $U(\phi)(t)$ của $t$ dưới $\phi_*$ là một phần tử của $U(H)$ và $U(\phi)$ là một cấu xạ của đại số $U(G)$ vào đại số $U(H)$. Ánh xạ $\theta : x \mapsto x^{-1}$ của $G$ vào $G$ xác định một ánh xạ $t \mapsto t^\vee$ của $U(G)$ vào $U(G)$. Với $t, t'$ trong $U(G)$, tích $t * t'$ được xét tương ứng với $G^\vee$ bằng tích $t' * t$ được xét tương ứng với $G$ và $(t * t')^\vee = {t'}^\vee * t^\vee$. Khi đó $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. Nếu $G_1, \ldots, G_n$ là các mầm nhóm Lie và $G = G_1 \times \cdots \times G_n$, thì đẳng cấu chính tắc của $U(G_1) \otimes \cdots \otimes U(G_n)$ lên $U(G)$ là một đẳng cấu đại số;
 
 với $t_1, \ldots, t_n$ trong $U(G)$, $(t_1 \otimes \cdots \otimes t_n)^{\vee} = t_1^{\vee} \otimes \cdots \otimes t_n^{\vee}$. Cho $H$ là một mầm nhóm con Lie của $G$ và $i : H \to G$ là đơn ánh chính tắc. Khi đó $U(i)$ là một đồng cấu đơn cấu của đại số $U(H)$ vào $U(G)$ và
 $$

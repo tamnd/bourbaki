@@ -45,7 +45,7 @@ subsections:
       pdf_page: 225
 statements: 43
 exercises: 24
-content_sha256: a16fcea469f7617b4cb515f538fe2347feec60d2b1100dab2116cb6bce3a199d
+content_sha256: 6fdcfa5713a3f71bb37e31c09d327449f1f66ff64a8caee1f42d7e5c6821200b
 ---
 
 ## § 2. MODULES D’APPLICATIONS LINÉAIRES. DUALITÉ
@@ -410,7 +410,7 @@ E' \xrightarrow{u} E \xrightarrow{v} E'' \longrightarrow 0
 $$
 *une suite exacte d’applications linéaires.* *Alors la suite des applications transposées*
 $$
-0 \longrightarrow E''^* \xrightarrow{^t v} E^* \xrightarrow{^t u} E'^*
+0 \longrightarrow {E''}^* \xrightarrow{^t v} E^* \xrightarrow{^t u} {E'}^*
 $$
 *est exacte.*
 

@@ -52,9 +52,9 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 70ce5cfb50b5f70a22dde3fa17b219914abe122e58e542beaaf27e02cd0b5764
+content_sha256: e4308513eafcf831627a9b6c2757f3a2479509353ab2123d2fedc562061949e7
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
-source_content_sha256: 532e6b91ea742fe6cdf1e76c5f9b064a8adb5f9b7f53de5e2c9a067fa23efbc9
+source_content_sha256: 803604a811504c87fc4ceb1081eed8c02ca8766e1a5c157c84f5f0928a9452b5
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-f0c4fab8
 glossary_version: 34
@@ -783,8 +783,8 @@ bh(a)b^{-1} = bf(a^{-1})ab^{-1} = (\omega(b)f(a^{-1}))(bab^{-1})
 = f(ba^{-1}b^{-1})(bab^{-1}) = h(bab^{-1})
 $$
 $$
-a'h(a)a'^{-1} = a'f(a^{-1})aa'^{-1} = a'f(a^{-1})(\omega(a)a'^{-1})a
-= a'f(a^{-1})f(a)a'^{-1}f(a^{-1})a = h(a)
+a'h(a){a'}^{-1} = a'f(a^{-1})a{a'}^{-1} = a'f(a^{-1})(\omega(a){a'}^{-1})a
+= a'f(a^{-1})f(a){a'}^{-1}f(a^{-1})a = h(a)
 $$
 và do đó $h(A) = D$ là chuẩn trong $B''$.
 
@@ -912,7 +912,7 @@ G \to \tilde{G} \to \tilde{G}/\tilde{G}_0
 $$
 khi chuyển qua thương xác định một đẳng cấu từ $G/G_0$ lên $\tilde{G}/\tilde{G}_0$.
 
-(2) Giả sử rằng $G$ là liên thông đơn liên. Cho $g = L(G)$, $g_C$ là phức hóa của $g$, $S'$ là nhóm Lie phức đơn liên với đại số Lie $g_C$ và $\sigma$ là cấu xạ từ $G$ vào $S'$ sao cho $L(\sigma)$ là đơn ánh chính tắc của $g$ vào $g_C$. Ta lại dùng ký hiệu trong chứng minh của Mệnh đề 20, phần (a). Nếu $H = S'$ và $\phi = \sigma$, thì $\phi^* = \mathrm{Id}_{S'}$. Do đó $(S', \sigma)$ là phức hóa phổ quát của $G$. Chú ý rằng $\sigma$ nói chung không đơn ánh (Bài tập 16); tuy nhiên *hạt nhân của nó là rời rạc* vì $L(\sigma)$ là đơn ánh. Mặt khác, hãy để $\theta$ là phép đối hợp của $g_C$ được xác định bởi $g$ và hãy để $\eta$ là tự đẳng cấu tương ứng của nhóm Lie thực nền của $S'$; hãy để $S'^\eta$ là tập hợp các điểm của $S'$ bất biến dưới $\eta$; đó là một nhóm con Lie thực của $S'$ với đại số Lie $g$ (\S 3, no. 8, Hệ quả 1 của Mệnh đề 29). Theo no. 1, Hệ quả 1 của Mệnh đề 1, $\sigma(G)$ là một nhóm con nguyên thực của $S'$ với đại số Lie $g$ và do đó $\sigma(G)$ *là thành phần liên thông chứa đơn vị của* $S'^\eta$; nói riêng $\sigma(G)$ là một nhóm con Lie thực của $S'$.
+(2) Giả sử rằng $G$ là liên thông đơn liên. Cho $g = L(G)$, $g_C$ là phức hóa của $g$, $S'$ là nhóm Lie phức đơn liên với đại số Lie $g_C$ và $\sigma$ là cấu xạ từ $G$ vào $S'$ sao cho $L(\sigma)$ là đơn ánh chính tắc của $g$ vào $g_C$. Ta lại dùng ký hiệu trong chứng minh của Mệnh đề 20, phần (a). Nếu $H = S'$ và $\phi = \sigma$, thì $\phi^* = \mathrm{Id}_{S'}$. Do đó $(S', \sigma)$ là phức hóa phổ quát của $G$. Chú ý rằng $\sigma$ nói chung không đơn ánh (Bài tập 16); tuy nhiên *hạt nhân của nó là rời rạc* vì $L(\sigma)$ là đơn ánh. Mặt khác, hãy để $\theta$ là phép đối hợp của $g_C$ được xác định bởi $g$ và hãy để $\eta$ là tự đẳng cấu tương ứng của nhóm Lie thực nền của $S'$; hãy để ${S'}^\eta$ là tập hợp các điểm của $S'$ bất biến dưới $\eta$; đó là một nhóm con Lie thực của $S'$ với đại số Lie $g$ (\S 3, no. 8, Hệ quả 1 của Mệnh đề 29). Theo no. 1, Hệ quả 1 của Mệnh đề 1, $\sigma(G)$ là một nhóm con nguyên thực của $S'$ với đại số Lie $g$ và do đó $\sigma(G)$ *là thành phần liên thông chứa đơn vị của* ${S'}^\eta$; nói riêng $\sigma(G)$ là một nhóm con Lie thực của $S'$.
 
 ### Bài tập {#lie-iii-s6-exercises}
 

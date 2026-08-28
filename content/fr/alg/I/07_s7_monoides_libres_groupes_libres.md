@@ -49,7 +49,7 @@ subsections:
       pdf_page: 100
 statements: 18
 exercises: 40
-content_sha256: 12c52784939bf2fc3c72d9893f11993286f4b2130d14cb070da05f31f5af57bc
+content_sha256: ae092cf6b666b6c86ea8a228f4763c233e8aeaec628ebd083b299dc49465b61a
 ---
 
 ## § 7. MONOÏDES LIBRES, GROUPES LIBRES
@@ -291,7 +291,7 @@ Soit $w$ un élément de $Mo(X)$.
 
 a) Il existe un entier $n \geq 0$, des éléments $x_\alpha$ de $X$ et des entiers $m(\alpha) > 0$ (pour $1 \leq \alpha \leq n$) tels que $x_\alpha \neq x_{\alpha+1}$ pour $1 \leq \alpha < n$ et $w = \prod_{\alpha=1}^n x_\alpha^{m(\alpha)}$. La suite $(x_\alpha, m(\alpha))_{1 \leq \alpha \leq n}$ est déterminée de manière unique par ces conditions.
 
-b) Soient $p$ un entier positif, $x'_\beta$ dans $X$ et $m'(\beta)$ dans $\mathbf{N}$ pour $1 \leq \beta \leq p$, tels que $w = \prod_{\beta=1}^p x'_\beta^{m'(\beta)}$. On a $p \geq n$. Si $p = n$, on a $x'_\beta = x_\beta$ et $m'(\beta) = m(\beta)$ pour $1 \leq \beta \leq p$.
+b) Soient $p$ un entier positif, $x'_\beta$ dans $X$ et $m'(\beta)$ dans $\mathbf{N}$ pour $1 \leq \beta \leq p$, tels que $w = \prod_{\beta=1}^p {x'_\beta}^{m'(\beta)}$. On a $p \geq n$. Si $p = n$, on a $x'_\beta = x_\beta$ et $m'(\beta) = m(\beta)$ pour $1 \leq \beta \leq p$.
 
 Avec les notations du lemme 2, on a $h^{-1}(\varphi_x(n)) = x^n$ pour $x \in X$ et $n \in \mathbf{N}$. La prop. 6 résulte alors de I, p. 81, prop. 5.
 

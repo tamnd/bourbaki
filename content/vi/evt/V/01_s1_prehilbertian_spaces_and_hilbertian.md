@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: d08c430660606ead0875127cb3c65c0e0dd20ea4d59a7344ef20e308cdb9fbe7
+content_sha256: c4bf422bc15d2018220d988275a58b7bf494d90b74c7c4ead2a076c3fe077f29
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 source_content_sha256: 4bfeeee4e5c1a6ce99f5c929d436d1d7c6606ff2f9558da7d47b0ffdba15c626
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -628,10 +628,10 @@ Hình 3.
 
 Ánh xạ $x \mapsto x^*$ là nửa tuyến tính theo (2) (V, p. 1) và nhờ bất đẳng thức Cauchy-Schwarz, ta có $\|x^*\| = \sup_{\|y\| \leq 1} |\langle x | y \rangle| = \|x\|$, do đó $x \mapsto x^*$ là một đẳng cự từ $E$ vào $E'$, và đặc biệt là đơn ánh. Để hoàn tất chứng minh, ta cần chứng minh rằng với mọi $x' \neq 0$ trong $E'$, tồn tại $x \in E$ sao cho $x' = x^*$. Nhưng siêu phẳng $H = \mathrm{Ker}\, x'$ là đóng trong $E$; phần trực giao của nó là một đường thẳng $D$. Gọi $b$ là một phần tử khác không của $D$; hạt nhân của dạng tuyến tính $b^*$ bằng $H$ và vì thế tồn tại một vô hướng $\lambda \neq 0$ sao cho $x' = \lambda \cdot b^* = (\overline{\lambda} \cdot b)^*$. ĐPCM.
 
-Ánh xạ $x \mapsto x^*$ từ $E$ lên đối ngẫu của nó $E'$ được gọi là *chính tắc*. Ánh xạ nghịch đảo từ $E'$ lên $E$ cũng được gọi là chính tắc và được ký hiệu bởi $x' \mapsto x'^*$. Ta có
+Ánh xạ $x \mapsto x^*$ từ $E$ lên đối ngẫu của nó $E'$ được gọi là *chính tắc*. Ánh xạ nghịch đảo từ $E'$ lên $E$ cũng được gọi là chính tắc và được ký hiệu bởi $x' \mapsto {x'}^*$. Ta có
 
 $$
-\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle x'^* | x \rangle
+\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle {x'}^* | x \rangle
 $$
 
 với $x, y$ trong $E$ và $x'$ trong $E'$. Cũng vậy $(x^*)^* = x$ với $x \in E$.

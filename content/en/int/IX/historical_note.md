@@ -12,7 +12,7 @@ pdf_pages: 0302-0332
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9e9f1f84c67db9c69cde0179be0fe5c5635e6c7e33ace4ff973f8c0694e1f28b
+content_sha256: abb1893fb2899b6a20fb9698c1b8ee3e9593900ea616ec2b346d2184220b3477
 ---
 
 # HISTORICAL NOTE
@@ -682,13 +682,13 @@ $$
 f \chi^{-1/q} \in L^1(G, \beta) \text{ and } g \in L^p(G, \beta), \text{ where } 1/p + 1/q = 1 \text{ (then } f * g \in L^p(G, \beta) \text{ and } \|f * g\|_p \leq \|f \chi^{-1/q}\|_1 \|g\|_p).
 $$
 $$
-f \in L^p(G, \beta) \text{ and } g \chi'^{-1/q} \in L^1(G, \beta) \text{ (then } f * g \in L^p(G, \beta) \text{ and } \|f * g\|_p \leq \|f\|_p \|g \chi'^{-1/q}\|_1 ).
+f \in L^p(G, \beta) \text{ and } g {\chi'}^{-1/q} \in L^1(G, \beta) \text{ (then } f * g \in L^p(G, \beta) \text{ and } \|f * g\|_p \leq \|f\|_p \|g {\chi'}^{-1/q}\|_1 ).
 $$
 $$
 f \chi^{-1} \in L^1(G, \beta) \text{ and } g \in \mathcal{C}^\infty(G) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ (then } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
 $$
 $$
-f \in \mathcal{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ and } g \chi'^{-1} \in L^1(G, \beta) \text{ (then } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
+f \in \mathcal{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ and } g {\chi'}^{-1} \in L^1(G, \beta) \text{ (then } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
 $$
 $$
 f \in L^p(G, \beta), \ g \in L^q(G, \dot{\beta}) \text{ with } 1/p + 1/q = 1, \ 1 < p < +\infty, \ \beta \text{ left-invariant (then } f * g \in \overline{\mathcal{K}(G)} \text{ and } \|f * g\|_\infty \leq \|f\|_p \|g\|_q ).

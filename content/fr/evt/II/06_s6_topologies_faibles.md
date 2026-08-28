@@ -45,7 +45,7 @@ subsections:
       pdf_page: 91
 statements: 42
 exercises: 19
-content_sha256: b67581e55667ce4c6fed36477fbccbbc0a829b84be705bdefa860adeba60e879
+content_sha256: 1527446aae67136cbc754e88d40d8bb394d4f796e17447b5a4c6901ee8837f4b
 ---
 
 ## § 6. TOPOLOGIES FAIBLES
@@ -452,7 +452,7 @@ Soient $G$ un espace vectoriel réel, $F = G^*$ son dual muni de la topologie $\
 
 En vertu du th. des bipolaires (II, p. 48, cor. 2), $V \mapsto V^\circ$ est une bijection de l’ensemble des sous-espaces vectoriels $V$ de $G$, fermés pour $\sigma(G, G^*)$, sur l’ensemble des sous-espaces vectoriels fermés de $F$. Mais par définition, toute forme linéaire sur $G$ est continue pour $\sigma(G, G^*)$, donc tout sous-espace vectoriel dans $G$ est fermé, étant défini par un système d’équations $\langle y, y_\lambda^* \rangle = 0$ (où $y_\lambda^* \in G^*$); ceci prouve (i).
 
-Soit maintenant $W$ un sous-espace fermé de $F$; on a donc $W = V^\circ$ avec $V = W^\circ$ dans $G$. Soit $V'$ un supplémentaire de $V$ dans $G$. On sait que $F = G^*$ s’identifie canoniquement à $V^* \oplus V'^*$, $V'^*$ s’identifiant à $V^\circ = W$ (A, II, p. 45, corollaire); en outre (II, p. 53, prop. 8) la topologie $\sigma(G^*, G)$ s’identifie au profit des topologies $\sigma(V^*, V)$ et $\sigma(V'^*, V')$; cela prouve l’assertion (ii).
+Soit maintenant $W$ un sous-espace fermé de $F$; on a donc $W = V^\circ$ avec $V = W^\circ$ dans $G$. Soit $V'$ un supplémentaire de $V$ dans $G$. On sait que $F = G^*$ s’identifie canoniquement à $V^* \oplus {V'}^*$, ${V'}^*$ s’identifiant à $V^\circ = W$ (A, II, p. 45, corollaire); en outre (II, p. 53, prop. 8) la topologie $\sigma(G^*, G)$ s’identifie au profit des topologies $\sigma(V^*, V)$ et $\sigma({V'}^*, V')$; cela prouve l’assertion (ii).
 
 Bien que, pour la topologie $\sigma(G, G^*)$, tout sous-espace vectoriel de $G$ soit fermé, on notera que si $G$ est de dimension infinie, la topologie $\sigma(G, G^*)$ n’est pas la topologie localement convexe la plus fine sur $G$, tout voisinage de 0 pour $\sigma(G, G^*)$ contenant un sous-espace vectoriel de dimension infinie; c’est toutefois la plus fine des topologies faibles sur $G$ (II, p. 46, cor. 3).
 

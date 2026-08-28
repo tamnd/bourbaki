@@ -36,9 +36,9 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: e78d20d768a99831189c63030e3f339b7aa77dbb73f6906664b0384d35bd6ec1
+content_sha256: 25e90f5c97abf509f5001fd04d9e2af7ceb1d5b82622b1657330c25288ce5ae4
 translated_from: content/en/top/VI/03_s3_real_projective_spaces.md
-source_content_sha256: b099f45ab79d6a87dd633788b15801b9ec85477d80a3c4fc4267f343f00718ba
+source_content_sha256: 53d9a6c6d16fec228a219b9d179e95bab1a2ba49b45ee6d650a09b758196d514
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-1fc55e42
 glossary_version: 34
@@ -88,7 +88,7 @@ Không gian xạ ảnh $P_n$ là Hausdorff.
 
 Ta bắt đầu bằng việc chỉ ra rằng quan hệ $\Delta_n$ là mở (Chương I, § 5, no. 2). Cho $A$ là một tập hợp mở trong $\mathbf{R}_{n+1}^*$; để làm bão hòa $A$ đối với $\Delta_n$ ta phải lấy hợp của các tập hợp $tA$ đồng dạng với $A$, khi $t$ chạy qua tập hợp các số thực $\neq 0$; vì mỗi tập hợp này là mở, nên hợp của chúng cũng là mở.
 
-Theo Mệnh đề 8 của Chương I, § 8, no. 3, mệnh đề sẽ được chứng minh nếu ta chỉ ra rằng tập con $M$ của $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ được xác định bởi quan hệ $\Delta_n$ là đóng. Khi đó cho $(x, y)$ là một điểm của $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ nằm trong bao đóng của $M$. Nếu $x = (x_i)$, có một chỉ số $i$ sao cho $x_i \neq 0$; do đó có một lân cận $V$ của $(x, y)$ sao cho với mọi điểm $(x', y') \in M \cap V$ tọa độ thứ i $x'_i$ của $x'$ không là 0. Khi $(x', y')$ tiến tới $(x, y)$ trong khi vẫn thuộc $M$, $y'_i x'^{-1}_i$ tiến tới $t = y_i x_i^{-1}$; vì $y' = (y'_i x'^{-1}_i) x'$, ta thấy bằng cách chuyển qua giới hạn rằng $y = x$, điều này chỉ ra rằng $(x, y) \in M$.
+Theo Mệnh đề 8 của Chương I, § 8, no. 3, mệnh đề sẽ được chứng minh nếu ta chỉ ra rằng tập con $M$ của $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ được xác định bởi quan hệ $\Delta_n$ là đóng. Khi đó cho $(x, y)$ là một điểm của $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ nằm trong bao đóng của $M$. Nếu $x = (x_i)$, có một chỉ số $i$ sao cho $x_i \neq 0$; do đó có một lân cận $V$ của $(x, y)$ sao cho với mọi điểm $(x', y') \in M \cap V$ tọa độ thứ i $x'_i$ của $x'$ không là 0. Khi $(x', y')$ tiến tới $(x, y)$ trong khi vẫn thuộc $M$, $y'_i {x'}^{-1}_i$ tiến tới $t = y_i x_i^{-1}$; vì $y' = (y'_i {x'}^{-1}_i) x'$, ta thấy bằng cách chuyển qua giới hạn rằng $y = x$, điều này chỉ ra rằng $(x, y) \in M$.
 
 #### Mệnh đề 2 {#top-vi-s3-prop-2 .statement}
 

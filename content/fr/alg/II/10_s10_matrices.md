@@ -64,7 +64,7 @@ subsections:
       pdf_page: 337
 statements: 38
 exercises: 17
-content_sha256: 8209de03a91cc9dce75cc23eb2f0eefcd134e20e90ff6d5759a3bcb22a05a002
+content_sha256: 76410c99c15d209b17769ce2ba680c239cb11617ff2dfbd57b3ff2cf866b1ca4
 ---
 
 ## § 10. MATRICES
@@ -649,17 +649,17 @@ Partons maintenant d’un A-module à gauche E ayant deux bases (e_i), (e'_i) de
 
 #### Remarque 2 {#alg-ii-s10-n8-rem-2 .statement}
 
-Sous les hypothèses de II, p. 152, prop. 4, considérons un élément $x^* \in \mathbf{E}^*$; comme la matrice de passage de $(e_i^*)$ à $(e_i'^*)$ est $^tP^{-1}$ (II, p, 153, prop. 5) on a, pour les matrices $M(x^*)$ et $M'(x^*)$ de $x^*$ par rapport à ces deux bases respectivement,
+Sous les hypothèses de II, p. 152, prop. 4, considérons un élément $x^* \in \mathbf{E}^*$; comme la matrice de passage de $(e_i^*)$ à $(e_{i'}^*)$ est $^tP^{-1}$ (II, p, 153, prop. 5) on a, pour les matrices $M(x^*)$ et $M'(x^*)$ de $x^*$ par rapport à ces deux bases respectivement,
 $$
 ^tM(x^*) = ^tM'(x^*) . P^{-1}
 $$
 ou encore
 (37 D) $$ ^tM'(x^*) = ^tM(x^*) . P $$
 ce qui est équivalent au système d’équations
-(38 D) $$ x_i'^* = \sum_{j=1}^n x_j^* a_{ji} \quad (1 \leq i \leq n) $$
-pour les éléments $(x_i^*)$ et $(x_i'^*)$ des matrices $M(x^*)$ et $M'(x^*)$. Les formules correspondantes pour un A-module à gauche E sont
+(38 D) $$ x_{i'}^* = \sum_{j=1}^n x_j^* a_{ji} \quad (1 \leq i \leq n) $$
+pour les éléments $(x_i^*)$ et $(x_{i'}^*)$ des matrices $M(x^*)$ et $M'(x^*)$. Les formules correspondantes pour un A-module à gauche E sont
 (37 G) $$ M'(x^*) = ^tP . M(x^*) $$
-(38 G) $$ x_i'^* = \sum_{j=1}^n a_{ji} x_j^* \quad (1 \leq i \leq n). $$
+(38 G) $$ x_{i'}^* = \sum_{j=1}^n a_{ji} x_j^* \quad (1 \leq i \leq n). $$
 
 #### Remarque 3 {#alg-ii-s10-n8-rem-3 .statement}
 

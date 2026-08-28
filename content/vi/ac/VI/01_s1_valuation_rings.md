@@ -29,9 +29,9 @@ subsections:
       pdf_page: 397
 statements: 15
 exercises: 7
-content_sha256: cf8d86aa11d3334a6802fd6c3689089314013cf55ff1487cce1de28d9746c585
+content_sha256: fc1eb0edf2f336b115fbbb559dd3bef64caecab9bd67755860d0aa66245d2159
 translated_from: content/en/ac/VI/01_s1_valuation_rings.md
-source_content_sha256: a947fe432911be13d4aa196ac570607e0088749f8ccb41825c16db8646985cc3
+source_content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-6a818b3d
 glossary_version: 34
@@ -123,7 +123,7 @@ Cuối cùng giả sử rằng (e) được thỏa mãn. Vì $V$ có một iđê
 
 #### Định lý 2 {#ac-vi-s1-thm-2 .statement}
 
-*Cho $K$ là một trường và $h$ là một đồng cấu từ một vành con $A$ của $K$ đến một trường đóng đại số $L$. Khi đó tồn tại một vành định giá $V$ đối với $K$ và một đồng cấu $h'$ từ $V$ đến $L$ sao cho $V$ chứa $A$, $h'$ mở rộng $h$ và $h'^{-1}(O) = m(V)$.*
+*Cho $K$ là một trường và $h$ là một đồng cấu từ một vành con $A$ của $K$ đến một trường đóng đại số $L$. Khi đó tồn tại một vành định giá $V$ đối với $K$ và một đồng cấu $h'$ từ $V$ đến $L$ sao cho $V$ chứa $A$, $h'$ mở rộng $h$ và ${h'}^{-1}(O) = m(V)$.*
 
 Cho $\mathfrak{S}$ là tập hợp các đồng cấu của các vành con của $K$ vào $L$, được sắp thứ tự bởi quan hệ mở rộng. Tập hợp này là quy nạp; vì nếu $(h_\alpha)_{\alpha \in I}$ là một họ không rỗng có thứ tự toàn phần của các phần tử của $\mathfrak{S}$ và $B$, là vành xác định của $h_\alpha$, thì các $B_\alpha$ tạo thành một họ có thứ tự toàn phần của các vành con của $K$ và hợp của chúng $B$ do đó là một vành con của $K$; do đó tồn tại một ánh xạ duy nhất $\bar{h}$ từ $B$ vào $L$ mở rộng các $h_\alpha$ (*Set Theory*, Chương II, § 4, no. 6, Mệnh đề 7) và người ta thấy ngay lập tức rằng $\bar{h}$ là một đồng cấu từ $B$ vào $L$. Bổ đề Zorn khi đó chỉ ra rằng tồn tại một phần tử cực đại $h'$ của $\mathfrak{S}$ mở rộng $h$. Vành xác định $V$ của $h'$ là một vành định giá của $K$ (Định lý 1); nếu $p$ là hạt nhân của $h'$, $h'$ có thể được mở rộng thành một đồng cấu từ $V_p$ vào $L$ (Chương II, § 2, no. 1, Mệnh đề 1), do đó $V_p = V$ và $p = m(V)$.
 

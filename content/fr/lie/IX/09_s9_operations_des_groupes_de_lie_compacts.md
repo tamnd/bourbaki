@@ -29,7 +29,7 @@ subsections:
       pdf_page: 98
 statements: 19
 exercises: 3
-content_sha256: cbc156d4150f5158b93536e6ee6e31f8b7d220c9f01fff2cf181b19c2de8795a
+content_sha256: 0e06a92c35d32fba219d769e02325c84a2bfc7ce3236882f5946e68fe4f06580
 ---
 
 ## § 9. OPÉRATIONS DES GROUPES DE LIE COMPACTS SUR LES VARIÉTÉS
@@ -268,7 +268,7 @@ Soient $x, x'$ dans $E$, $t$ et $t'$ leurs types ; pour que $t \leq t'$, il faut
 
 *b)* Soit $f$ un isomorphisme de $H'$ sur $H$. La suite $(f^n(H))_{n \geq 0}$ est une suite décroissante de sous-groupes compacts de $G$, de sorte qu’on a $f^n(H) = f^{n+1}(H)$ pour $n$ assez grand, d’après *a)*. Comme $f$ est un isomorphisme, ceci entraîne $f(H) = H = f(H')$, d’où $H = H'$.
 
-*c)* Soient $t, t' \in \mathcal{C}$ tels que $t \leq t'$ et $t' \leq t$. Il existe alors $H, H_1 \in t$ et $H', H'_1 \in t'$ tels que $H \supset H'$ et $H_1 \subset H'_1$. Soient $g$ et $g'$ deux éléments de $G$ tels que $H_1 = g H g^{-1}$ et $H'_1 = g' H' g'^{-1}$; posons $u = g'^{-1} g$. On a
+*c)* Soient $t, t' \in \mathcal{C}$ tels que $t \leq t'$ et $t' \leq t$. Il existe alors $H, H_1 \in t$ et $H', H'_1 \in t'$ tels que $H \supset H'$ et $H_1 \subset H'_1$. Soient $g$ et $g'$ deux éléments de $G$ tels que $H_1 = g H g^{-1}$ et $H'_1 = g' H' {g'}^{-1}$; posons $u = {g'}^{-1} g$. On a
 
 $$
 u H u^{-1} \subset H' \subset H ;

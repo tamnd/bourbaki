@@ -41,9 +41,9 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: e1147e7196b6734044bdb2f6704dea91bd69d41ee4b09f2bb091d7638984d309
+content_sha256: 687e96f5b863b064d76854d9bc864cc04dcd9f96a8e211ee00155239db36666a
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
-source_content_sha256: 6f807978223af09ea691f4a718f88a33ce5fb2f48cdd35a565edd9d39edc944d
+source_content_sha256: 9bdd3f2d607abf6ea4e4531c024551071a2ecbc35d9074925a7e09d1be80e3b4
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-59d57011
 glossary_version: 34
@@ -147,7 +147,7 @@ $$
 
 Trước hết suy ra rằng $f$ khả tích địa phương theo $\mu$: nếu $x$ là một điểm của T, và nếu $V$ là một lân cận của $x$ sao cho $\nu^\bullet(V) < +\infty$, thì $\mu^\bullet(f \varphi_V) < +\infty$. Tiếp theo, Mệnh đề 2 chỉ ra rằng các độ đo $\nu$ và $f \cdot \mu$ có cùng nguyên trên cốt yếu. Do đó chúng bằng nhau (§1, No. 2, Hệ quả của Mệnh đề 2). Tính duy nhất của $f$ là hiển nhiên dựa trên trường hợp các không gian compact, nên mệnh đề được chứng minh.
 
-Nhận xét 3). — Lý thuyết về tích phân đối với một độ đo $\nu = f \cdot \mu$ được quy về ngay lý thuyết đã xét trong Ch. V. Thật vậy, cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T đối với $\mu$, do đó đối với $\nu$, và cho $T'$ là không gian compact địa phương được xác định trong Chú giải của §1, No. 8; ta có thể liên kết với $\mu$ (tương ứng với $\nu$) một độ đo $\mu'$ (tương ứng với $\nu'$) trên $T'$, sao cho các hàm đo được, các hàm khả tích cốt yếu nhận giá trị trong một không gian Banach, và các tích phân trên cốt yếu của các hàm dương, là như nhau đối với $\mu$ và $\mu'$ (tương ứng đối với $\nu$ và $\nu'$). Do đó hàm $f$ là $\mu'$-đo được; nó là $\mu'$-khả tích địa phương, vì $T'$ là compact địa phương, và một tập con compact của $T'$ chỉ giao với một số hữu hạn các tập compact $K_\alpha$ ($\alpha \in A$). Cuối cùng, quan hệ $\nu'^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = \mu'^\bullet(fg)$ chứng minh rằng $\nu' = f \cdot \mu'$ (Ch. V, §5, No. 3, Prop. 3). Ta để lại cho người đọc nhiệm vụ chuyển các kết quả của Ch. V, §5.
+Nhận xét 3). — Lý thuyết về tích phân đối với một độ đo $\nu = f \cdot \mu$ được quy về ngay lý thuyết đã xét trong Ch. V. Thật vậy, cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T đối với $\mu$, do đó đối với $\nu$, và cho $T'$ là không gian compact địa phương được xác định trong Chú giải của §1, No. 8; ta có thể liên kết với $\mu$ (tương ứng với $\nu$) một độ đo $\mu'$ (tương ứng với $\nu'$) trên $T'$, sao cho các hàm đo được, các hàm khả tích cốt yếu nhận giá trị trong một không gian Banach, và các tích phân trên cốt yếu của các hàm dương, là như nhau đối với $\mu$ và $\mu'$ (tương ứng đối với $\nu$ và $\nu'$). Do đó hàm $f$ là $\mu'$-đo được; nó là $\mu'$-khả tích địa phương, vì $T'$ là compact địa phương, và một tập con compact của $T'$ chỉ giao với một số hữu hạn các tập compact $K_\alpha$ ($\alpha \in A$). Cuối cùng, quan hệ ${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$ chứng minh rằng $\nu' = f \cdot \mu'$ (Ch. V, §5, No. 3, Prop. 3). Ta để lại cho người đọc nhiệm vụ chuyển các kết quả của Ch. V, §5.
 
 ### 3. Ảnh của một độ đo
 
@@ -169,7 +169,7 @@ Cho $\pi$ là một ánh xạ $\mu$-thực sự từ T vào một không gian t�
 Tính duy nhất là hiển nhiên (§1, No. 2, Hệ quả của Mệnh đề 2). Để thiết lập sự tồn tại, trước hết ta xét trường hợp $\mu$ được mang bởi một tập compact K, sao cho hạn chế của $\pi$ trên K là liên tục. Khi đó $L = \pi(K)$ là compact; gọi $\pi'$ là ánh xạ liên tục từ K vào L cảm sinh bởi $\pi$, và gọi $\nu'$ là độ đo ảnh $\pi'(\mu_K)$ trên L, $\nu$ là độ đo trên X được xác định bởi $\nu'$ (§1, No. 3, Ví dụ 2). Với mọi $g \in \mathcal{F}_+(X)$,
 
 $$
-\nu^\bullet(g) = \nu'^\bullet(g_L) = \mu_K^\bullet(g_L \circ \pi') = \mu_K^\bullet((g \circ \pi)_K) = \mu^\bullet((g \circ \pi)_K^0) = \mu^\bullet(g \circ \pi)
+\nu^\bullet(g) = {\nu'}^\bullet(g_L) = \mu_K^\bullet(g_L \circ \pi') = \mu_K^\bullet((g \circ \pi)_K) = \mu^\bullet((g \circ \pi)_K^0) = \mu^\bullet(g \circ \pi)
 $$
 
 (ta đã lần lượt sử dụng công thức (3) của §1, No. 3; Mệnh đề 2 của Ch. V, §6, No. 2; định nghĩa của $\mu_K^\bullet$; và sự kiện rằng $\mu$ được mang bởi K). Nói cách khác, $\nu^\bullet = \pi(\mu^\bullet)$.
@@ -206,7 +206,7 @@ Ta xét lại chứng minh của Mệnh đề 4, và bắt đầu với trườn
 
 — *Cho X và Y là hai không gian tôpô, $\pi$ là một ánh xạ $\mu$-thực sự của T vào X, và $\pi'$ là một ánh xạ $\pi(\mu)$-thực sự của X vào Y. Ánh xạ $\pi'' = \pi' \circ \pi$ khi đó là $\mu$-thực sự, và $\pi''(\mu) = \pi'(\pi(\mu))$ ('tính bắc cầu của các ảnh của độ đo').*
 
-Vì, $\pi''$ là $\mu$-đo được (Mệnh đề 5). Đặt $\mu' = \pi(\mu)$; bao hàm ảnh $\pi'(\mu'^\bullet) = \pi'(\pi(\mu^\bullet))$ hiển nhiên bằng $\pi''(\mu^\bullet)$. Vì nó bị chặn địa phương, $\pi''$ là $\mu$-thực sự. Khi đó các độ đo $\pi''(\mu)$ và $\pi'(\mu')$ có cùng tích phân trên cốt yếu, do đó bằng nhau.
+Vì, $\pi''$ là $\mu$-đo được (Mệnh đề 5). Đặt $\mu' = \pi(\mu)$; bao hàm ảnh $\pi'({\mu'}^\bullet) = \pi'(\pi(\mu^\bullet))$ hiển nhiên bằng $\pi''(\mu^\bullet)$. Vì nó bị chặn địa phương, $\pi''$ là $\mu$-thực sự. Khi đó các độ đo $\pi''(\mu)$ và $\pi'(\mu')$ có cùng tích phân trên cốt yếu, do đó bằng nhau.
 
 #### Mệnh đề 6 {#int-ix-s2-prop-6 .statement}
 
@@ -236,7 +236,7 @@ a) Đặt $\nu = i(\mu)$; quan hệ $\nu^\bullet(A) = \mu^\bullet(A \cap T)$, á
 
 b) Cho $f$ là một hàm dương xác định trên X; đặt $\mu = \lambda_T$, ta có $\mu^\bullet(f \circ i) = \lambda_T^\bullet(f_T) = \lambda^\bullet(f \varphi_T) \leq \lambda^\bullet(f)$ (Mệnh đề 1); suy ra rằng i là $\mu$-thực sự. Mặt khác, $\mu^\bullet(f \circ i)$ (tương ứng $\lambda^\bullet(f \varphi_T)$) là tích phân trên cốt yếu của $f$ đối với $i(\mu)$ (tương ứng $\varphi_T \cdot \lambda$). Do đó hai độ đo này bằng nhau.
 
-*Nhận xét 6).* — Cho $\pi$ là một ánh xạ $\mu$-thực sự từ $T$ vào một không gian tôpô $X$. Người ta quy giản lý thuyết tích phân đối với độ đo ảnh $\nu = \pi(\mu)$ về lý thuyết đã xét trong Ch. V, §6, theo cách sau. Cho $(K_\alpha)_{\alpha \in A}$ (tương ứng $(L_\beta)_{\beta \in B}$) là một phép chia vụn của $T$ (tương ứng của $X$) đối với $\mu$ (tương ứng đối với $\nu$), và đặt $N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$. Ta có thể giả sử rằng hạn chế của $\pi$ trên mỗi $K_\alpha$ là liên tục (§1, No. 8, Mệnh đề 10). Gọi $T', X'$ là các không gian compact địa phương được xây dựng như trong Chú giải của §1, No. 8 và gọi $\mu'$ và $\nu'$ là các độ đo trên các không gian này liên kết với $\mu$ và $\nu$. Tôpô của $T'$ là tổng của các tôpô của các không gian con $K_\alpha$ và tôpô rời rạc trên $N$, $\pi$ là một ánh xạ liên tục từ $T'$ vào $X$ và quan hệ $\mu'^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$ (với $g \in \mathcal{F}_+(X)$) chỉ ra rằng $\pi$ là $\mu'$-thực sự và $\pi(\mu') = \nu$. Mặt khác, ánh xạ đồng nhất $i$ của $X$ lên $X'$ là $\nu$-thực sự, và $i(\nu) = \nu'$. Suy ra rằng $\pi$ là một ánh xạ $\mu'$-thực sự từ $T'$ vào $X'$, và ảnh của $\mu'$ qua $\pi$ là $\nu'$ (Hệ quả của Mệnh đề 5). Ta để lại cho người đọc nhiệm vụ chuyển các kết quả của Ch. V, §6.
+*Nhận xét 6).* — Cho $\pi$ là một ánh xạ $\mu$-thực sự từ $T$ vào một không gian tôpô $X$. Người ta quy giản lý thuyết tích phân đối với độ đo ảnh $\nu = \pi(\mu)$ về lý thuyết đã xét trong Ch. V, §6, theo cách sau. Cho $(K_\alpha)_{\alpha \in A}$ (tương ứng $(L_\beta)_{\beta \in B}$) là một phép chia vụn của $T$ (tương ứng của $X$) đối với $\mu$ (tương ứng đối với $\nu$), và đặt $N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$. Ta có thể giả sử rằng hạn chế của $\pi$ trên mỗi $K_\alpha$ là liên tục (§1, No. 8, Mệnh đề 10). Gọi $T', X'$ là các không gian compact địa phương được xây dựng như trong Chú giải của §1, No. 8 và gọi $\mu'$ và $\nu'$ là các độ đo trên các không gian này liên kết với $\mu$ và $\nu$. Tôpô của $T'$ là tổng của các tôpô của các không gian con $K_\alpha$ và tôpô rời rạc trên $N$, $\pi$ là một ánh xạ liên tục từ $T'$ vào $X$ và quan hệ ${\mu'}^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$ (với $g \in \mathcal{F}_+(X)$) chỉ ra rằng $\pi$ là $\mu'$-thực sự và $\pi(\mu') = \nu$. Mặt khác, ánh xạ đồng nhất $i$ của $X$ lên $X'$ là $\nu$-thực sự, và $i(\nu) = \nu'$. Suy ra rằng $\pi$ là một ánh xạ $\mu'$-thực sự từ $T'$ vào $X'$, và ảnh của $\mu'$ qua $\pi$ là $\nu'$ (Hệ quả của Mệnh đề 5). Ta để lại cho người đọc nhiệm vụ chuyển các kết quả của Ch. V, §6.
 
 ### 4. Nâng độ đo
 
@@ -278,7 +278,7 @@ Lấy $g = 1$ trong công thức này, ta thấy rằng họ $(\mu_n)$ là khả
 Cuối cùng, giả sử rằng $\pi$ là đơn ánh, và ta chứng minh b). Gọi f là một phần tử của $\mathcal{F}_+(T)$; vì $\pi$ là đơn ánh, tồn tại một hàm $g \in \mathcal{F}_+(X)$ sao cho $f = g \circ \pi$ và, đặt $\nu = \pi(\mu) = \pi(\mu')$, theo Mệnh đề 4 của No. 3 ta có
 
 $$
-\mu^\bullet(f) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g) = \mu'^\bullet(g \circ \pi) = \mu'^\bullet(f).
+\mu^\bullet(f) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g) = {\mu'}^\bullet(g \circ \pi) = {\mu'}^\bullet(f).
 $$
 
 Hai độ đo $\mu$ và $\mu'$ do đó có cùng tích phân trên cốt yếu, điều này kéo theo chúng bằng nhau (\$1, No. 2, Hệ quả của Mệnh đề 2).
@@ -485,7 +485,7 @@ Giả sử rằng $\mu$ được mang bởi một tập con compact $L$ của $T
 
 #### Nhận xét {#int-ix-s2-n6-rem-1 .statement}
 
-— Cho $(K_\alpha)_{\alpha \in A}$ là một phép co của $S$ đối với $\lambda$ và đặt $M = S - \bigcup_{\alpha \in A} K_\alpha$; định nghĩa một cách tương tự $(L_\beta)_{\beta \in B}$ và $N$ đối với độ đo $\mu$ trên $T$. Ta ký hiệu bởi $S'$ không gian compact địa phương là tổng của các không gian con $K_\alpha$ của $S$ và không gian *rời rạc* $M$; không gian $T'$ được định nghĩa tương tự, và ta đặt $X' = S' \times T'$. Không gian compact địa phương $X'$ là tổng của họ $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ các không gian con compact của $X$ và không gian con $P = (M \times T) \cup (S \times N)$ là một tập con không đáng kể địa phương theo $\nu$ của $X$ (ta nhận thấy rằng nói chung $P$ không phải là một không gian rời rạc). Trong *Chú giải* của $\S 1$, No. 8 ta đã thấy rằng tồn tại một độ đo $\lambda'$ trên $S'$ sao cho các hàm đo được, tích phân trên cốt yếu của các hàm dương, các hàm khả tích cốt yếu và các tích phân của chúng, là như nhau đối với $\lambda$ và $\lambda'$. Ta liên kết độ đo $\mu'$ trên $T'$ với $\mu$, và độ đo $\nu'$ trên $X'$ với $\nu$, phù hợp với Chú giải đã dẫn; ta thấy ngay lập tức rằng $\nu'^\bullet(f \otimes g) = \lambda'^\bullet(f) \mu'^\bullet(g)$ đối với $f \in \mathcal{F}_+(S)$ và $g \in \mathcal{F}_+(T)$; do đó $\nu' = \lambda' \otimes \mu'$ theo Mệnh đề 10 của No. 5. Vì tôpô của $X'$ mịn hơn tôpô của $X$, mọi hàm $\nu$-điều hòa đều là $\nu'$-điều hòa. Thủ tục này cho phép mở rộng không cần chứng minh mới định lý Lebesgue–Fubini (Ch. V, $\S 8$, No. 4, Th. 1) sang tình huống hiện tại.
+— Cho $(K_\alpha)_{\alpha \in A}$ là một phép co của $S$ đối với $\lambda$ và đặt $M = S - \bigcup_{\alpha \in A} K_\alpha$; định nghĩa một cách tương tự $(L_\beta)_{\beta \in B}$ và $N$ đối với độ đo $\mu$ trên $T$. Ta ký hiệu bởi $S'$ không gian compact địa phương là tổng của các không gian con $K_\alpha$ của $S$ và không gian *rời rạc* $M$; không gian $T'$ được định nghĩa tương tự, và ta đặt $X' = S' \times T'$. Không gian compact địa phương $X'$ là tổng của họ $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ các không gian con compact của $X$ và không gian con $P = (M \times T) \cup (S \times N)$ là một tập con không đáng kể địa phương theo $\nu$ của $X$ (ta nhận thấy rằng nói chung $P$ không phải là một không gian rời rạc). Trong *Chú giải* của $\S 1$, No. 8 ta đã thấy rằng tồn tại một độ đo $\lambda'$ trên $S'$ sao cho các hàm đo được, tích phân trên cốt yếu của các hàm dương, các hàm khả tích cốt yếu và các tích phân của chúng, là như nhau đối với $\lambda$ và $\lambda'$. Ta liên kết độ đo $\mu'$ trên $T'$ với $\mu$, và độ đo $\nu'$ trên $X'$ với $\nu$, phù hợp với Chú giải đã dẫn; ta thấy ngay lập tức rằng ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ đối với $f \in \mathcal{F}_+(S)$ và $g \in \mathcal{F}_+(T)$; do đó $\nu' = \lambda' \otimes \mu'$ theo Mệnh đề 10 của No. 5. Vì tôpô của $X'$ mịn hơn tôpô của $X$, mọi hàm $\nu$-điều hòa đều là $\nu'$-điều hòa. Thủ tục này cho phép mở rộng không cần chứng minh mới định lý Lebesgue–Fubini (Ch. V, $\S 8$, No. 4, Th. 1) sang tình huống hiện tại.
 
 ### 7. Một kết quả về sự phân rã của các độ đo
 

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: c43c0a30a8fa0a2a37c54b6842de0c441a6c3dbc3ee3d0fbff2fbb8361a536d9
+content_sha256: 2a500a7549e56905be9bc09ce400c6f4cd4e6cc2214970a64c59e9676425ae87
 ---
 
 ## § 9. Algèbres de Clifford
@@ -342,7 +342,7 @@ Soit maintenant $(x_1, \ldots, x_{2r})$ une base orthogonale de $F$; posons $z =
 
 #### Remarque {#alg-ix-s9-n4-rem-3 .statement}
 
-Le discriminant $D$ de $\Phi$ par rapport à la base $(x_j)_{(j=0,\ldots,2r)}$ est égal à $2^{2r+1} Q(x_0) \ldots Q(x_{2r})$. Par suite $Z$ est engendré par $1$ et par l’élément impair $z' = 2^{r+1} z$ tel que $z'^2 = (-1)^r 2D$. L’algèbre $C(Q)$ est donc simple si et seulement si $2(-1)^r D$ n’est pas un carré dans $A$.
+Le discriminant $D$ de $\Phi$ par rapport à la base $(x_j)_{(j=0,\ldots,2r)}$ est égal à $2^{2r+1} Q(x_0) \ldots Q(x_{2r})$. Par suite $Z$ est engendré par $1$ et par l’élément impair $z' = 2^{r+1} z$ tel que ${z'}^2 = (-1)^r 2D$. L’algèbre $C(Q)$ est donc simple si et seulement si $2(-1)^r D$ n’est pas un carré dans $A$.
 
 ### 5. Groupe de Clifford.
 

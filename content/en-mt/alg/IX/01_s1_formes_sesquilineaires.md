@@ -52,11 +52,11 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: e76fb0438722289fbc8c2383914fbad39c6dbe7f5c414f844dcea16759cd1349
+content_sha256: a788ed40848999c0d18ff945a803189841c5bd0cc9a81227b38d5b0ae7369e0a
 translated_from: content/fr/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: e02ca70e6485727bec2c4fbc8b27cc8126199083a8bd87ce7a3060466b192a62
+source_content_sha256: b21644da462961bf5e76bb84af83bd25fbddfd44913e5d77b17fe0efb600df69
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-019184ab
 glossary_version: 34
@@ -195,7 +195,7 @@ In this No., A and B denote rings, E a left A-module, F a right B-module (resp. 
 
 *Two elements $x \in E$ and $y \in F$ are said to be orthogonal with respect to $\Phi$ if $\Phi(x, y) = 0$. Two subsets $E' \subset E$ and $F' \subset F$ are said to be orthogonal if, whatever $x \in E'$ and $y \in F'$, $x$ and $y$ are orthogonal. The set of elements of $E$ (resp. F) orthogonal to a given submodule N of F (resp. M of E) is a submodule of E (resp. F), called the totally orthogonal submodule (or simply orthogonal submodule) to N (resp. M), and denoted by $N^0$ (resp. $M^0$).*
 
-Let H and $H'$ be two submodules of E or F. We have $H \subset (H^0)^0$ (denoted by $H^{00}$); if $H \subset H'$, we have $H'^0 \supset H^0$. It follows that we have $H^0 \supset (H^{00})^0$ and $H^0 \subset (H^0)^{00}$; on putting
+Let H and $H'$ be two submodules of E or F. We have $H \subset (H^0)^0$ (denoted by $H^{00}$); if $H \subset H'$, we have ${H'}^0 \supset H^0$. It follows that we have $H^0 \supset (H^{00})^0$ and $H^0 \subset (H^0)^{00}$; on putting
 
 $$
 H^{000} = (H^{00})^0 = (H^0)^{00} = ((H^0)^0)^0,
@@ -280,15 +280,15 @@ $$ h'(b^J) = h'(b)^I \quad \text{for tout } b \in B. $$
 *Let E be a left A-module and F a left B-module; put $E' = A' \otimes_A E$ and $F' = B' \otimes_B F$. For every sesquilinear mapping (for J) $\Phi$ of $E \times F$ into $G$, there exists one and only one sesquilinear mapping (for I) $\Phi'$ of $E' \times F'$ into $G'$ such that*
 
 $$(16)$$
-$$ \Phi'(a' \otimes x, b' \otimes y) = a'.u(\Phi(x, y)).b'^I $$
+$$ \Phi'(a' \otimes x, b' \otimes y) = a'.u(\Phi(x, y)).{b'}^I $$
 
 *for all $a' \in A'$, $b' \in B'$, $x \in E$, $y \in F$.*
 
 The uniqueness of $\Phi'$ follows from the fact that the tensor products $a' \otimes x$ and $b' \otimes y$ generate $E'$ and $F'$, respectively. To establish its existence, consider the mapping
 
-$$ m : (a, x, b', y) \to a'.u(\Phi(x, y)).b'^I $$
+$$ m : (a, x, b', y) \to a'.u(\Phi(x, y)).{b'}^I $$
 
-from $A' \times E \times B' \times F$ into $G'$. It is obviously $\mathbf{Z}$-multilinear, and, in view of (11) and (15), satisfies $m(a', ax, b', y) = m(a'h(a), x, b', y)$ and $m(a', x, b', by) = a'.u(\Phi(x, y)).h'(b^J)b'^I = m(a', x, b'h'(b), y)$ ($a \in A, b \in B, a' \in A', b' \in B', x \in E, y \in F$). There therefore exists a $\mathbf{Z}$-bilinear mapping $\Phi'$ of $E' \times F'$ into $G'$ satisfying (16) (chap. III, 2e éd., App. II, no 1, prop. 2). This relation, together with the definition of the module structures of E' and F' by (12), shows, in view of (15), that $\Phi'$ is sesquilinear for I, which completes the proof.
+from $A' \times E \times B' \times F$ into $G'$. It is obviously $\mathbf{Z}$-multilinear, and, in view of (11) and (15), satisfies $m(a', ax, b', y) = m(a'h(a), x, b', y)$ and $m(a', x, b', by) = a'.u(\Phi(x, y)).h'(b^J){b'}^I = m(a', x, b'h'(b), y)$ ($a \in A, b \in B, a' \in A', b' \in B', x \in E, y \in F$). There therefore exists a $\mathbf{Z}$-bilinear mapping $\Phi'$ of $E' \times F'$ into $G'$ satisfying (16) (chap. III, 2e éd., App. II, no 1, prop. 2). This relation, together with the definition of the module structures of E' and F' by (12), shows, in view of (15), that $\Phi'$ is sesquilinear for I, which completes the proof.
 
 The most important examples of $(A', B')$-bimodules G', provided with $\mathbf{Z}$-linear mappings $u$ from G into G' satisfying (11), are the following:
 
@@ -319,9 +319,9 @@ where $y_i \in F$ ($1 \leq i \leq s$), and where the $b'_i$ are elements of B' w
 $$
 0 = \Phi'(x', y') = \sum_i u(\Phi(x, y_i)) b'_i = \beta(\sum_i \Phi(x, y_i) \otimes b'_i)
 $$
-(resp. $0 = \Phi'(x', y') = \sum_i u(\Phi(x, y_i)) b'^I_i = \beta(\sum_i \Phi(x, y_i) \otimes b'^I_i)$.
+(resp. $0 = \Phi'(x', y') = \sum_i u(\Phi(x, y_i)) {b'}^I_i = \beta(\sum_i \Phi(x, y_i) \otimes {b'}^I_i)$.
 
-Comme $\beta$ is injective and the $b'_i$ (resp. the $b'^I_i$, taking account of (15)) are linearly independent over B for the structure of left B-module of B', this implies $\Phi(x, y_i) = 0$ for $i = 1, \ldots, s$. Since this last relation is true for all $x \in M$, we have $y_i \in M^0$ for $i = 1, \ldots, s$, whence $y' \in (M^0)'$. QED.
+Comme $\beta$ is injective and the $b'_i$ (resp. the ${b'}^I_i$, taking account of (15)) are linearly independent over B for the structure of left B-module of B', this implies $\Phi(x, y_i) = 0$ for $i = 1, \ldots, s$. Since this last relation is true for all $x \in M$, we have $y_i \in M^0$ for $i = 1, \ldots, s$, whence $y' \in (M^0)'$. QED.
 
 #### Corollary {#alg-ix-s1-n4-cor-1 .statement}
 
@@ -570,7 +570,7 @@ $$
 
 Moreover, if $E''$ is a third $A$-left module, $F''$ a third $A$-right module (resp. left module), $\Phi''$ a bilinear form (resp. sesquilinear for $J$) on $E'' \times F''$, and if $u'$ is a homomorphism from $E'$ into $E''$ admitting an everywhere defined (left) adjoint, one has
 
-$$(u' \circ u)^* = u^* \circ u'^*.$$
+$$(u' \circ u)^* = u^* \circ {u'}^*.$$
 
 In particular, if $u$ is an *isomorphism* of $E$ onto $E'$, and if the adjoints $u^*$ and $(u^{-1})^*$ are everywhere defined, $u^*$ is an isomorphism of $F'$ onto $F$, and one has $(u^*)^{-1} = (u^{-1})^*$. Analogous properties for right adjoints.
 
@@ -623,7 +623,7 @@ $$
 $$
 of $(E^j)^m$ into $(\wedge^m E)^j$ is obviously A-multilinear and alternating. It therefore defines an A-linear mapping $f$ of $\wedge^m E^j$ into $(\wedge^m E)^j$, which is obviously an isomorphism. We shall identify $\wedge^m E^j$ and $(\wedge^m E)^j$ by means of this isomorphism.
 
-Let $x'$ be an element of the dual $E^*$ of $E$. The mapping $x \to \langle x, x' \rangle^j$ ($x \in E$) is an element $x'^j$ of $(E^j)^*$, and it is immediate that $x' \to x'^j$ is a bijection $g$ of $E^*$ onto $(E^j)^*$ satisfying $g(ax') = a^j g(x')$ for all $a \in A$. Consequently the composite mapping of $g$ and the identity mapping of $(E^*)^j$ onto $E^*$ is an isomorphism of $(E^*)^j$ onto $(E^j)^*$. We shall identify these modules by means of this isomorphism, and shall denote them by $E_j^*$.
+Let $x'$ be an element of the dual $E^*$ of $E$. The mapping $x \to \langle x, x' \rangle^j$ ($x \in E$) is an element ${x'}^j$ of $(E^j)^*$, and it is immediate that $x' \to {x'}^j$ is a bijection $g$ of $E^*$ onto $(E^j)^*$ satisfying $g(ax') = a^j g(x')$ for all $a \in A$. Consequently the composite mapping of $g$ and the identity mapping of $(E^*)^j$ onto $E^*$ is an isomorphism of $(E^*)^j$ onto $(E^j)^*$. We shall identify these modules by means of this isomorphism, and shall denote them by $E_j^*$.
 
 Let $E_i, F_i \ (i = 1, \ldots, m)$ be A-modules, and $\Phi_i \ (i = 1, \ldots, m)$ a sesquilinear form for $J$ on $E_i \times F_i$. The mapping
 $$
@@ -947,7 +947,7 @@ Let $A$ be a field, $E, F$ two left vector spaces over $A$, $\Phi$ a non-degener
 
 a) Let $M$ be a subspace of $E$, $N$ a subspace of $F$ such that $N \supset M^0$ and $M \supset N^0$. Show that if one of the spaces $N/M^0, M/N^0$ is of finite dimension, the same is true of the other, and the dimensions of these two spaces are equal.
 
-b) Let $M, M'$ be two subspaces of $E$ such that $M^{00} = M$ and that $M'$ is of finite dimension; show that one has $(M \cap M')^0 = M^0 + M'^0$ and $(M + M')^{00} = M + M'$. (Applying $a$) to the subspaces $M'$ and $M^0 + M'^0$, show that $\dim(M \cap M') = \operatorname{codim}(M^0 + M'^0)$; applying $a$ to the subspaces $M + M'$ and $M^0$, show that
+b) Let $M, M'$ be two subspaces of $E$ such that $M^{00} = M$ and that $M'$ is of finite dimension; show that one has $(M \cap M')^0 = M^0 + {M'}^0$ and $(M + M')^{00} = M + M'$. (Applying $a$) to the subspaces $M'$ and $M^0 + {M'}^0$, show that $\dim(M \cap M') = \operatorname{codim}(M^0 + {M'}^0)$; applying $a$ to the subspaces $M + M'$ and $M^0$, show that
 $$
 \dim((M + M')^{00}/M) = \dim((M + M')/M)).
 $$

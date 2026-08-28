@@ -29,9 +29,9 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: 9ba04e12259ee878ac1fefd9b6f2f877e7ef5f7cfda970c04bb439bcbbf4de7b
+content_sha256: 7d88004a5e4f02c10424eb3a56c01fe58e1b35dfcb02bf3db9695e1aa7b48966
 translated_from: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
-source_content_sha256: e0949cbca821dc828cb233084f536457cc1372d91205e8e082bc00f0d79fdc85
+source_content_sha256: b2683bd9b0a8b23c19acb6cea7ee306f1f0caa4394f0ddc30d025f3b4e49a5d3
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
 translation_run: translate-vi-4c7244ec
 glossary_version: 34
@@ -163,7 +163,7 @@ Nhận xét (2). Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ l
 
 #### Mệnh đề 2 {#ac-v-s2-prop-2 .statement}
 
-Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$, $\mathfrak{p}$ là một iđêan nguyên tố của $A$, $S = A - \mathfrak{p}$, $(p'_i)_{i \in I}$ là họ tất cả các iđêan nguyên tố $\mathfrak{p}$ của $A'$ nằm trên $\mathfrak{p}$ và $S' = \bigcap_{i \in I} (A' - p_i)$; khi đó $S^{-1}A' = S'^{-1}A'$.
+Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$, $\mathfrak{p}$ là một iđêan nguyên tố của $A$, $S = A - \mathfrak{p}$, $(p'_i)_{i \in I}$ là họ tất cả các iđêan nguyên tố $\mathfrak{p}$ của $A'$ nằm trên $\mathfrak{p}$ và $S' = \bigcap_{i \in I} (A' - p_i)$; khi đó $S^{-1}A' = {S'}^{-1}A'$.
 
 Thật vậy, theo định nghĩa $h(S) \subset S'$ và, vì
 

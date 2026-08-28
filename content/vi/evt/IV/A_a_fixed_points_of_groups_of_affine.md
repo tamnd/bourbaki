@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: a4f20c8563746c66e6bbd150a14a0cd937d63ea1ee1cf9c00e703ea0904b14ee
+content_sha256: 2b9898e7e1c551fd2f2e4d6de81ed0733d278dbb80cdfba0d211001c785db71d
 translated_from: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
 source_content_sha256: 7eb54e9666dc4f954bc5363b6489301c8e109bec69185ed8316bea9f05a72696
 translation_model: gpt-5.4
@@ -122,7 +122,7 @@ Theo một cách tương tự, hệ quả của đl. 1 (IV, p. 40) kéo theo k�
 
 *Cho $G$ là một nhóm tôpô giải được. Khi đó tồn tại một trung bình trên $G$ bất biến dưới các phép tịnh tiến trái và phải.*
 
-Chỉ cần áp dụng mệnh đề 1 cho nhóm giải được $G \times G$ tác động trên $G$ bởi $(g.g').x = gxg'^{-1}$.
+Chỉ cần áp dụng mệnh đề 1 cho nhóm giải được $G \times G$ tác động trên $G$ bởi $(g.g').x = gx{g'}^{-1}$.
 
 ### 3. Định lý Ryll-Nardzewski
 

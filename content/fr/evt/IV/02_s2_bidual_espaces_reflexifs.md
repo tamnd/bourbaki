@@ -33,7 +33,7 @@ subsections:
       pdf_page: 204
 statements: 31
 exercises: 21
-content_sha256: 97a8807e4fe31ace98597312ec287b1cba29695327dc1d924cc16612e52c2e40
+content_sha256: a6f71770eb1f225069d87623e20c52bda11c78510530f61de6cdda8373fe2609
 ---
 
 ## § 2. BIDUAL. ESPACES RÉFLEXIFS
@@ -70,7 +70,7 @@ En effet, les parties équicontinues de $E''$ sont les parties contenues dans le
 
 #### Remarque {#evt-iv-s2-n1-rem-1 .statement}
 
-Soient E un espace localement convexe séparé, $E'$ son dual et $E''$ son bidual. On a $E \subset E'' \subset E'^*$, où $E'^*$ est le dual algébrique de $E'$. Si B est une partie bornée de E, son adhérence $\overline{B}$ dans $E'^*$ muni de $\sigma(E'^*, E')$ est contenue dans $E''$ : en effet, le polaire $U = B^\circ$ de B dans $E'$ est un voisinage de 0 dans $E'_b$, et l’on a
+Soient E un espace localement convexe séparé, $E'$ son dual et $E''$ son bidual. On a $E \subset E'' \subset {E'}^*$, où ${E'}^*$ est le dual algébrique de $E'$. Si B est une partie bornée de E, son adhérence $\overline{B}$ dans ${E'}^*$ muni de $\sigma({E'}^*, E')$ est contenue dans $E''$ : en effet, le polaire $U = B^\circ$ de B dans $E'$ est un voisinage de 0 dans $E'_b$, et l’on a
 $$
 \overline{B} \subset U^\circ \subset E''.
 $$

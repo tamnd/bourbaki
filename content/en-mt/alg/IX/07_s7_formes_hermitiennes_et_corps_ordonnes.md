@@ -24,11 +24,11 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: e4a5d0d895c3c77d6599e80b8db6362eb71112a9e4ee24cc3beb257a46e92c15
+content_sha256: da73d314a6be3ca1f84d85a99e878adaff297608aeb5178fda10fec0b6cd1fd8
 translated_from: content/fr/alg/IX/07_s7_formes_hermitiennes_et_corps_ordonnes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 6446758097a7cf0a8decb14d1ea8cad0e94d908cfee02c9a6bd8c910baf27cac
+source_content_sha256: f47e9068a5a29a62aa1e03fbc2cea7b53e2e09fa563848111ea03c2bd478819d
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-9574439c
 glossary_version: 34
@@ -458,7 +458,7 @@ $$
 \Phi(u(x), u(x)) = \Phi(u^*(x), u^*(x)).
 $$)
 
-Reduce to the case where A is equal to K(i) or to the quaternion field over K; F then admits a basis formed by eigenvectors for u (and u*); remark that for such a vector z, one has $\Phi(u^*u v(z), v(z)) = \beta \Phi(v(z), v(z))$. Deduce that νu is normal (reason by induction on the number of distinct eigenvalues of $u^*u$). If h (resp. $h'$) is the positive hermitian endomorphism such that $h^2 = uu^*$ (resp. $h'^2 = \nu \nu^*$) and if one sets $u = hu_1, \nu = h'\nu_1$, where $u_1$ and $\nu_1$ are unitary, h permutable with $u_1$ and $h'$ with $\nu_1$ (exerc. 14 a)), prove that the pairs $(h, h'), (h, \nu_1)$ and $(h', u_1)$ are permutable; converse. Deduce that $u^m \nu^n, \nu^n u^m, u \nu^*$ and $\nu^* u$ are then normal ($m$ and $n$ arbitrary integers $> 0$).
+Reduce to the case where A is equal to K(i) or to the quaternion field over K; F then admits a basis formed by eigenvectors for u (and u*); remark that for such a vector z, one has $\Phi(u^*u v(z), v(z)) = \beta \Phi(v(z), v(z))$. Deduce that νu is normal (reason by induction on the number of distinct eigenvalues of $u^*u$). If h (resp. $h'$) is the positive hermitian endomorphism such that $h^2 = uu^*$ (resp. ${h'}^2 = \nu \nu^*$) and if one sets $u = hu_1, \nu = h'\nu_1$, where $u_1$ and $\nu_1$ are unitary, h permutable with $u_1$ and $h'$ with $\nu_1$ (exerc. 14 a)), prove that the pairs $(h, h'), (h, \nu_1)$ and $(h', u_1)$ are permutable; converse. Deduce that $u^m \nu^n, \nu^n u^m, u \nu^*$ and $\nu^* u$ are then normal ($m$ and $n$ arbitrary integers $> 0$).
 
 #### Remark 24 {#alg-ix-s7-n3-rem-24 .statement}
 

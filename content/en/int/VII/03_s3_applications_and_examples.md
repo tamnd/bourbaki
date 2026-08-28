@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: be892f61702ef86e17887833e3b3fd6b0a97a2edac49c09d4edd4594b5071311
+content_sha256: 078f19722008dfae813e659f6b11ae7131834f184493c91a7d14517868b1259e
 ---
 
 ## § 3. APPLICATIONS AND EXAMPLES
@@ -212,13 +212,13 @@ $$
 therefore, for all $x', y', z'$ in $K$,
 
 $$
--\varphi(x', y') = \varphi(z', x'y') - y'^{-1}\varphi(z', x') - \varphi(z'x', y').
+-\varphi(x', y') = \varphi(z', x'y') - {y'}^{-1}\varphi(z', x') - \varphi(z'x', y').
 $$
 
 Let us integrate with respect to $z'$ by means of the normalized Haar measure $\alpha$ of $K$. Setting $\psi(x') = \int \varphi(z', x')\, d\alpha(z')$, $\psi$ is a continuous function on K, and (on observing that the operations of K in $\mathbf{R}^n$ respect the vector space structure of $\mathbf{R}^n$ by GT, VII, §2, No. 1, Prop. 1), one obtains
 
 $$
--\varphi(x', y') = \psi(x'y') - y'^{-1}\psi(x') - \psi(y').
+-\varphi(x', y') = \psi(x'y') - {y'}^{-1}\psi(x') - \psi(y').
 $$
 
 In other words, setting $k - \psi \circ \pi$, which is a continuous function on G,

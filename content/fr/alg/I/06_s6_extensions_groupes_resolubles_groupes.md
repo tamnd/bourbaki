@@ -41,7 +41,7 @@ subsections:
       pdf_page: 86
 statements: 58
 exercises: 41
-content_sha256: 629515721a9707e549fc9fb505895fb003d4946f8cca38a76a7a15697d46b542
+content_sha256: 0ae630f61cc53951743edd4f0e5b7c76430c2a6a6d46316e733556a4456ac5a5
 ---
 
 ## § 6. EXTENSIONS, GROUPES RÉSOLUBLES, GROUPES NILPOTENTS
@@ -568,7 +568,7 @@ G = G^1 \supset G^2 \supset \ldots \supset G^{r+1} = \{e\},
 $$
 telle que $(G, G^k) \subset G^{k+1}$, pour $1 \leq k \leq r$, et que $G^k/G^{k+1}$, pour $1 \leq k \leq r$, soit cyclique d’ordre $p$.
 
-Le théorème est vrai pour $G = \{e\}$. Démontrons-le par récurrence sur $\operatorname{Card}(G)$. Soient Z le centre de G, $x \neq e$ un élément de Z (cor. de la prop. 11) et $p^s$, avec $s \neq 0$, l’ordre de $x$. Alors $x^{p^{s-1}}$ est un élément d’ordre $p$ et par suite Z contient un sous-groupe $G^r$ cyclique d’ordre $p$. Par l’hypothèse de récurrence, le groupe $G' = G/G^r$ possède une suite de sous-groupes $(G'^k)_{1 \leq k \leq r}$ ayant les propriétés demandées. Soit $\pi : G \to G'$ l’homomorphisme canonique. La suite de sous-groupes de G définie par $G^k = \pi^{-1}(G'^k)$ pour $1 \leq k \leq r$, $G^{r+1} = \{e\}$, répond à la question, car $G^k/G^{k+1}$ est isomorphe à $G'^k/G'^{k+1}$ pour $1 \leq k < r$ (I, p. 39, th. 4).
+Le théorème est vrai pour $G = \{e\}$. Démontrons-le par récurrence sur $\operatorname{Card}(G)$. Soient Z le centre de G, $x \neq e$ un élément de Z (cor. de la prop. 11) et $p^s$, avec $s \neq 0$, l’ordre de $x$. Alors $x^{p^{s-1}}$ est un élément d’ordre $p$ et par suite Z contient un sous-groupe $G^r$ cyclique d’ordre $p$. Par l’hypothèse de récurrence, le groupe $G' = G/G^r$ possède une suite de sous-groupes $({G'}^k)_{1 \leq k \leq r}$ ayant les propriétés demandées. Soit $\pi : G \to G'$ l’homomorphisme canonique. La suite de sous-groupes de G définie par $G^k = \pi^{-1}({G'}^k)$ pour $1 \leq k \leq r$, $G^{r+1} = \{e\}$, répond à la question, car $G^k/G^{k+1}$ est isomorphe à ${G'}^k/{G'}^{k+1}$ pour $1 \leq k < r$ (I, p. 39, th. 4).
 
 #### Corollaire {#alg-i-s6-n5-cor-2 .statement}
 
@@ -677,7 +677,7 @@ b) Soit $P'$ un $p$-sous-groupe de Sylow de $H$. Il existe un élément $g \in G
 
 *Soit $N$ un sous-groupe distingué de $G$. L’image dans $G/N$ d’un $p$-sous-groupe de Sylow de $G$ est un $p$-sous-groupe de Sylow de $G/N$, et tout $p$-sous-groupe de Sylow de $G/N$ s’obtient de cette façon.*
 
-Soient $G' = G/N$ et $P'$ l’image dans $G'$ d’un $p$-sous-groupe de Sylow $P$ de $G$. Le groupe $G$ opère transitivement sur $G'/P'$, donc $G'/P'$ est équipotent à $G/S$, où $S$ est un sous-groupe de $G$ contenant $P$. Par suite $(G': P')$ divise $(G: P)$, donc n’est pas multiple de $p$, et le $p$-groupe $P'$ est un $p$-sous-groupe de Sylow de $G'$. Soit $Q'$ un autre $p$-sous-groupe de Sylow de $G'$; on a $Q' = g'Pg'^{-1}$ pour un $g' \in G'$; si $g \in G$ est un représentant de $g'$, le groupe $Q'$ est l’image de $Q = gPg^{-1}$.
+Soient $G' = G/N$ et $P'$ l’image dans $G'$ d’un $p$-sous-groupe de Sylow $P$ de $G$. Le groupe $G$ opère transitivement sur $G'/P'$, donc $G'/P'$ est équipotent à $G/S$, où $S$ est un sous-groupe de $G$ contenant $P$. Par suite $(G': P')$ divise $(G: P)$, donc n’est pas multiple de $p$, et le $p$-groupe $P'$ est un $p$-sous-groupe de Sylow de $G'$. Soit $Q'$ un autre $p$-sous-groupe de Sylow de $G'$; on a $Q' = g'P{g'}^{-1}$ pour un $g' \in G'$; si $g \in G$ est un représentant de $g'$, le groupe $Q'$ est l’image de $Q = gPg^{-1}$.
 
 ### 7. Groupes nilpotents finis
 

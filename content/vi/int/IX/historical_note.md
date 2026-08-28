@@ -12,9 +12,9 @@ pdf_pages: 0302-0332
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 16b54a9dcbf829c76d6623648e190c441f7206eb0d541e7a264a6eafad153784
+content_sha256: 9959313667cf90ab4b38be612e9b39277075de28698113854cd3a02bb263600d
 translated_from: content/en/int/IX/historical_note.md
-source_content_sha256: 9e9f1f84c67db9c69cde0179be0fe5c5635e6c7e33ace4ff973f8c0694e1f28b
+source_content_sha256: abb1893fb2899b6a20fb9698c1b8ee3e9593900ea616ec2b346d2184220b3477
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-780f05a6
 glossary_version: 34
@@ -686,13 +686,13 @@ $$
 f \chi^{-1/q} \in L^1(G, \beta) \text{ và } g \in L^p(G, \beta), \text{ với } 1/p + 1/q = 1 \text{ (thì } f * g \in L^p(G, \beta) \text{ và } \|f * g\|_p \leq \|f \chi^{-1/q}\|_1 \|g\|_p).
 $$
 $$
-f \in L^p(G, \beta) \text{ và } g \chi'^{-1/q} \in L^1(G, \beta) \text{ (thì } f * g \in L^p(G, \beta) \text{ và } \|f * g\|_p \leq \|f\|_p \|g \chi'^{-1/q}\|_1 ).
+f \in L^p(G, \beta) \text{ và } g {\chi'}^{-1/q} \in L^1(G, \beta) \text{ (thì } f * g \in L^p(G, \beta) \text{ và } \|f * g\|_p \leq \|f\|_p \|g {\chi'}^{-1/q}\|_1 ).
 $$
 $$
 f \chi^{-1} \in L^1(G, \beta) \text{ và } g \in \mathcal{C}^\infty(G) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ (thì } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
 $$
 $$
-f \in \mathcal{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ và } g \chi'^{-1} \in L^1(G, \beta) \text{ (thì } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
+f \in \mathcal{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ và } g {\chi'}^{-1} \in L^1(G, \beta) \text{ (thì } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
 $$
 $$
 f \in L^p(G, \beta), \ g \in L^q(G, \dot{\beta}) \text{ với } 1/p + 1/q = 1, \ 1 < p < +\infty, \ \beta \text{ trái bất biến (thì } f * g \in \overline{\mathcal{K}(G)} \text{ và } \|f * g\|_\infty \leq \|f\|_p \|g\|_q ).

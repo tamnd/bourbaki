@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: e02ca70e6485727bec2c4fbc8b27cc8126199083a8bd87ce7a3060466b192a62
+content_sha256: b21644da462961bf5e76bb84af83bd25fbddfd44913e5d77b17fe0efb600df69
 ---
 
 ## § 1. Formes sesquilinéaires
@@ -186,7 +186,7 @@ Dans ce no , A et B désignent des anneaux, E un A-module à gauche, F un B-modu
 
 *Deux éléments $x \in E$ et $y \in F$ sont dits orthogonaux par rapport à $\Phi$ si $\Phi(x, y) = 0$. Deux parties $E' \subset E$ et $F' \subset F$ sont dites orthogonales si, quels que soient $x \in E'$ et $y \in F'$, $x$ et $y$ sont orthogonaux. L’ensemble des éléments de $E$ (resp. F) orthogonaux à un sous-module donné N de F (resp. M de E) est un sous-module de E (resp. F), qu’on appelle le sous-module totalement orthogonal (ou simplement orthogonal) à N (resp. M), et qu’on note $N^0$ (resp. $M^0$).
 
-Soient H et $H'$ deux sous-modules de E ou de F. On a $H \subset (H^0)^0$ (que l’on note $H^{00}$) ; si $H \subset H'$, on a $H'^0 \supset H^0$. Il en résulte que l’on a $H^0 \supset (H^{00})^0$ et $H^0 \subset (H^0)^{00}$ ; en posant
+Soient H et $H'$ deux sous-modules de E ou de F. On a $H \subset (H^0)^0$ (que l’on note $H^{00}$) ; si $H \subset H'$, on a ${H'}^0 \supset H^0$. Il en résulte que l’on a $H^0 \supset (H^{00})^0$ et $H^0 \subset (H^0)^{00}$ ; en posant
 
 $$
 H^{000} = (H^{00})^0 = (H^0)^{00} = ((H^0)^0)^0,
@@ -271,15 +271,15 @@ $$ h'(b^J) = h'(b)^I \quad \text{pour tout } b \in B. $$
 *Soient E un A-module à gauche et F un B-module à gauche ; posons $E' = A' \otimes_A E$ et $F' = B' \otimes_B F$. Pour toute application sesquilinéaire (pour J) $\Phi$ de $E \times F$ dans $G$, il existe une application sesquilinéaire (pour I) $\Phi'$ et une seule de $E' \times F'$ dans $G'$ telle que*
 
 $$(16)$$
-$$ \Phi'(a' \otimes x, b' \otimes y) = a'.u(\Phi(x, y)).b'^I $$
+$$ \Phi'(a' \otimes x, b' \otimes y) = a'.u(\Phi(x, y)).{b'}^I $$
 
 *quels que soient $a' \in A'$, $b' \in B'$, $x \in E$, $y \in F$.*
 
 L’unicité de $\Phi'$ résulte du fait que les produits tensoriels $a' \otimes x$ et $b' \otimes y$ engendrent $E'$ et $F'$ respectivement. Pour en établir l’existence, considérons l’application
 
-$$ m : (a, x, b', y) \to a'.u(\Phi(x, y)).b'^I $$
+$$ m : (a, x, b', y) \to a'.u(\Phi(x, y)).{b'}^I $$
 
-de $A' \times E \times B' \times F$ dans $G'$. Elle est évidemment $\mathbf{Z}$-multilinéaire, et, compte tenu de (11) et (15), vérifie $m(a', ax, b', y) = m(a'h(a), x, b', y)$ et $m(a', x, b', by) = a'.u(\Phi(x, y)).h'(b^J)b'^I = m(a', x, b'h'(b), y)$ ($a \in A, b \in B, a' \in A', b' \in B', x \in E, y \in F$). Il existe donc une application $\mathbf{Z}$-bilinéaire $\Phi'$ de $E' \times F'$ dans $G'$ vérifiant (16) (chap. III, 2e éd., App. II, no 1, prop. 2). Cette relation, ainsi que la définition des structures de modules de E' et F' par (12), montrent, compte tenu de (15), que $\Phi'$ est sesquilinéaire pour I, ce qui achève la démonstration.
+de $A' \times E \times B' \times F$ dans $G'$. Elle est évidemment $\mathbf{Z}$-multilinéaire, et, compte tenu de (11) et (15), vérifie $m(a', ax, b', y) = m(a'h(a), x, b', y)$ et $m(a', x, b', by) = a'.u(\Phi(x, y)).h'(b^J){b'}^I = m(a', x, b'h'(b), y)$ ($a \in A, b \in B, a' \in A', b' \in B', x \in E, y \in F$). Il existe donc une application $\mathbf{Z}$-bilinéaire $\Phi'$ de $E' \times F'$ dans $G'$ vérifiant (16) (chap. III, 2e éd., App. II, no 1, prop. 2). Cette relation, ainsi que la définition des structures de modules de E' et F' par (12), montrent, compte tenu de (15), que $\Phi'$ est sesquilinéaire pour I, ce qui achève la démonstration.
 
 Les exemples les plus importants de (A', B')-bimodules G', munis d’applications $\mathbf{Z}$-linéaires $u$ de G dans G' vérifiant (11), sont les suivants :
 
@@ -310,9 +310,9 @@ où $y_i \in F$ ($1 \leq i \leq s$), et où les $b'_i$ sont des éléments de B'
 $$
 0 = \Phi'(x', y') = \sum_i u(\Phi(x, y_i)) b'_i = \beta(\sum_i \Phi(x, y_i) \otimes b'_i)
 $$
-(resp. $0 = \Phi'(x', y') = \sum_i u(\Phi(x, y_i)) b'^I_i = \beta(\sum_i \Phi(x, y_i) \otimes b'^I_i)$.
+(resp. $0 = \Phi'(x', y') = \sum_i u(\Phi(x, y_i)) {b'}^I_i = \beta(\sum_i \Phi(x, y_i) \otimes {b'}^I_i)$.
 
-Comme $\beta$ est injective et que les $b'_i$ (resp. les $b'^I_i$, compte tenu de (15)) sont linéairement indépendants sur B pour la structure de B-module à gauche de B', ceci entraîne $\Phi(x, y_i) = 0$ pour $i = 1, \ldots, s$. Comme cette dernière relation est vraie pour tout $x \in M$, on a $y_i \in M^0$ pour $i = 1, \ldots, s$, d’où $y' \in (M^0)'$. CQFD.
+Comme $\beta$ est injective et que les $b'_i$ (resp. les ${b'}^I_i$, compte tenu de (15)) sont linéairement indépendants sur B pour la structure de B-module à gauche de B', ceci entraîne $\Phi(x, y_i) = 0$ pour $i = 1, \ldots, s$. Comme cette dernière relation est vraie pour tout $x \in M$, on a $y_i \in M^0$ pour $i = 1, \ldots, s$, d’où $y' \in (M^0)'$. CQFD.
 
 #### Corollaire {#alg-ix-s1-n4-cor-1 .statement}
 
@@ -561,7 +561,7 @@ $$
 
 De plus, si $E''$ est un troisième $A$-module à gauche, $F''$ un troisième $A$-module à droite (resp. à gauche), $\Phi''$ une forme bilinéaire (resp. sesquilinéaire pour $J$) sur $E'' \times F''$, et si $u'$ est un homomorphisme de $E'$ dans $E''$ admettant un adjoint (à gauche) partout défini, on a
 
-$$(u' \circ u)^* = u^* \circ u'^*.$$
+$$(u' \circ u)^* = u^* \circ {u'}^*.$$
 
 En particulier, si $u$ est un *isomorphisme* de $E$ sur $E'$, et si les adjoints $u^*$ et $(u^{-1})^*$ sont partout définis, $u^*$ est un isomorphisme de $F'$ sur $F$, et l’on a $(u^*)^{-1} = (u^{-1})^*$. Propriétés analogues pour les adjoints à droite.
 
@@ -614,7 +614,7 @@ $$
 $$
 de $(E^j)^m$ dans $(\wedge^m E)^j$ est évidemment A-multilinéaire et alternée. Elle définit donc une application A-linéaire $f$ de $\wedge^m E^j$ dans $(\wedge^m E)^j$, qui est évidemment un isomorphisme. Nous identifierons $\wedge^m E^j$ et $(\wedge^m E)^j$ au moyen de cet isomorphisme.
 
-Soit $x'$ un élément du dual $E^*$ de $E$. L’application $x \to \langle x, x' \rangle^j$ ($x \in E$) est un élément $x'^j$ de $(E^j)^*$, et il est immédiat que $x' \to x'^j$ est une bijection $g$ de $E^*$ sur $(E^j)^*$ vérifiant $g(ax') = a^j g(x')$ pour tout $a \in A$. Par suite l’application composée de $g$ et de l’application identique de $(E^*)^j$ sur $E^*$ est un isomorphisme de $(E^*)^j$ sur $(E^j)^*$. Nous identifierons ces modules au moyen de cet isomorphisme, et nous les noterons $E_j^*$.
+Soit $x'$ un élément du dual $E^*$ de $E$. L’application $x \to \langle x, x' \rangle^j$ ($x \in E$) est un élément ${x'}^j$ de $(E^j)^*$, et il est immédiat que $x' \to {x'}^j$ est une bijection $g$ de $E^*$ sur $(E^j)^*$ vérifiant $g(ax') = a^j g(x')$ pour tout $a \in A$. Par suite l’application composée de $g$ et de l’application identique de $(E^*)^j$ sur $E^*$ est un isomorphisme de $(E^*)^j$ sur $(E^j)^*$. Nous identifierons ces modules au moyen de cet isomorphisme, et nous les noterons $E_j^*$.
 
 Soient $E_i, F_i \ (i = 1, \ldots, m)$ des A-modules, et $\Phi_i \ (i = 1, \ldots, m)$ une forme sesquilinéaire pour $J$ sur $E_i \times F_i$. L’application
 $$
@@ -938,7 +938,7 @@ Soient $A$ un corps, $E, F$ deux espaces vectoriels à gauche sur $A$, $\Phi$ un
 
 a) Soient $M$ un sous-espace de $E$, $N$ un sous-espace de $F$ tels que $N \supset M^0$ et $M \supset N^0$. Montrer que si l’un des espaces $N/M^0, M/N^0$ est de dimension finie, il en est de même de l’autre, et les dimensions de ces deux espaces sont égales.
 
-b) Soient $M, M'$ deux sous-espaces de $E$ tels que $M^{00} = M$ et que $M'$ soit de dimension finie ; montrer que l’on a $(M \cap M')^0 = M^0 + M'^0$ et $(M + M')^{00} = M + M'$. (En appliquant $a$) aux sous-espaces $M'$ et $M^0 + M'^0$, montrer que $\dim(M \cap M') = \operatorname{codim}(M^0 + M'^0)$; en appliquant $a$ aux sous-espaces $M + M'$ et $M^0$, montrer que
+b) Soient $M, M'$ deux sous-espaces de $E$ tels que $M^{00} = M$ et que $M'$ soit de dimension finie ; montrer que l’on a $(M \cap M')^0 = M^0 + {M'}^0$ et $(M + M')^{00} = M + M'$. (En appliquant $a$) aux sous-espaces $M'$ et $M^0 + {M'}^0$, montrer que $\dim(M \cap M') = \operatorname{codim}(M^0 + {M'}^0)$; en appliquant $a$ aux sous-espaces $M + M'$ et $M^0$, montrer que
 $$
 \dim((M + M')^{00}/M) = \dim((M + M')/M)).
 $$

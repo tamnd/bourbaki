@@ -40,7 +40,7 @@ subsections:
       pdf_page: 25
 statements: 35
 exercises: 27
-content_sha256: b8c4765c81650ff38867c6c3de3a3383e5c8c0b59371a899c7a7faa59387c539
+content_sha256: 17cf0ae507efd8b0c82660237a41bd845fa95e0499b25b224e7c703269e142ee
 ---
 
 ## § 1. Intégration des fonctions vectorielles
@@ -51,11 +51,11 @@ On notera que dans cette définition, la topologie de $F$ n'intervient que par l
 
 ### 1. Fonctions scalairement essentiellement intégrables.
 
-Si $f$ est une application scalairement essentiellement $\mu$-intégrable de $T$ dans $F$, l'application $z' \to \int \langle f(t), z' \rangle d\mu(t)$ est une forme linéaire sur $F'$, c'est-à-dire un élément du dual algébrique $F'^*$.
+Si $f$ est une application scalairement essentiellement $\mu$-intégrable de $T$ dans $F$, l'application $z' \to \int \langle f(t), z' \rangle d\mu(t)$ est une forme linéaire sur $F'$, c'est-à-dire un élément du dual algébrique ${F'}^*$.
 
 #### Définition 1 {#int-vi-s1-def-1 .statement}
 
-On appelle intégrale de $f$ par rapport à $\mu$ et on note $\int f d\mu$, ou $\int f(t) d\mu(t)$, l'élément de $F'^*$ défini par
+On appelle intégrale de $f$ par rapport à $\mu$ et on note $\int f d\mu$, ou $\int f(t) d\mu(t)$, l'élément de ${F'}^*$ défini par
 $$
 \langle z', \int f d\mu \rangle = \int \langle z', f \rangle d\mu
 $$
@@ -75,7 +75,7 @@ Si F est de dimension finie, toute application scalairement essentiellement int�
 
 Il est clair que l'intégrale de $f$ ne dépend que de la classe de $f$ modulo l'espace des applications de T dans F qui sont scalairement localement $\mu$-négligeables. On notera qu'une fonction g scalairement localement négligeable n'est pas nécessairement nulle localement presque partout (exerc. 12). Toutefois, il en est bien ainsi lorsqu'il existe dans $F'$ une suite $(z'_n)$ partout dense pour la topologie $\sigma(F', F)$ : en effet, si $H_n$ est l'ensemble localement négligeable des points $t \in T$ tels que $\langle g(t), z'_n \rangle \neq 0$, la réunion H des $H_n$ est localement négligeable, et pour tout $t \in H$, on a $\langle g(t), z'_n \rangle = 0$ pour tout $n$, d'où $g(t) = 0$.
 
-Soit $u$ une application linéaire continue de F dans un espace localement convexe séparé G ; sa transposée $^t u$ est une application linéaire de $G'$ dans $F'$, et la transposée (algébrique) $' (t u)$ est une application linéaire de $F'^*$ dans $G'^*$ qui prolonge $u$, et que nous noterons encore $u$. Avec cette convention :
+Soit $u$ une application linéaire continue de F dans un espace localement convexe séparé G ; sa transposée $^t u$ est une application linéaire de $G'$ dans $F'$, et la transposée (algébrique) $' (t u)$ est une application linéaire de ${F'}^*$ dans ${G'}^*$ qui prolonge $u$, et que nous noterons encore $u$. Avec cette convention :
 
 #### Proposition 1 {#int-vi-s1-prop-1 .statement}
 
@@ -162,7 +162,7 @@ $$
 $$
 on peut appliquer à la mesure bornée $\varphi_K \cdot \mu$ et à la fonction $f_{\varphi_K}$ le cor. de la prop. 5, et on a par suite $\int f_{\varphi_K} d\mu \in F$. Pour tout $z' \in F'$, $\langle z', f \rangle$ est essentiellement $\mu$-intégrable, et par suite (chap. V, § 2, no 2, prop. 8) on a $\int \langle z', f \rangle d\mu = \lim_K \int \langle z', f \rangle_{\varphi_K} d\mu$, la limite étant prise suivant l’ensemble filtrant croissant des parties compactes de $T$. On en conclut que, suivant cet ensemble,
 $$
-\int f_{\varphi_K} d\mu \text{ converge vers } \int f d\mu \text{ pour la topologie } \sigma(F'^*, F').
+\int f_{\varphi_K} d\mu \text{ converge vers } \int f d\mu \text{ pour la topologie } \sigma({F'}^*, F').
 $$
 Or, on a
 $$
@@ -172,9 +172,9 @@ ce qui prouve que l’ensemble des éléments $\int f_{\varphi_K} d\mu$ est une 
 
 #### Lemme 1 {#int-vi-s1-lem-1 .statement}
 
-L’adhérence dans $F'^*$ (pour la topologie $\sigma(F'^*, F')$) de toute partie bornée de $F$ est contenue dans le bidual $F''$.
+L’adhérence dans ${F'}^*$ (pour la topologie $\sigma({F'}^*, F')$) de toute partie bornée de $F$ est contenue dans le bidual $F''$.
 
-En effet, une partie bornée de $F$ est contenue dans le polaire (dans $F''$) d’un voisinage de 0 dans le dual fort $F'$ de $F$, donc est relativement compacte dans $F''$ pour $\sigma(F'', F')$ (*Esp. vect. top.*, chap. IV, § 2, no 2, prop. 1 et 2); comme $\sigma(F'', F')$ est induite par $\sigma(F'^*, F')$ le lemme est démontré.
+En effet, une partie bornée de $F$ est contenue dans le polaire (dans $F''$) d’un voisinage de 0 dans le dual fort $F'$ de $F$, donc est relativement compacte dans $F''$ pour $\sigma(F'', F')$ (*Esp. vect. top.*, chap. IV, § 2, no 2, prop. 1 et 2); comme $\sigma(F'', F')$ est induite par $\sigma({F'}^*, F')$ le lemme est démontré.
 
 #### Corollaire {#int-vi-s1-n2-cor-2 .statement}
 

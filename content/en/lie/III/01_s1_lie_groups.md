@@ -56,7 +56,7 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: dd2d78e49a8cf1c806338cbfc272462a001b25086267bd90fe9ce27fd5ddf915
+content_sha256: 1d086b2132020ca1ae70342f05ee30e3bf32e38ffd0a0c2a6d1cdfbca1dc4cf8
 ---
 
 ## § 1. LIE GROUPS
@@ -269,8 +269,8 @@ Let L and M be Lie groups and σ a homomorphism of L into the automorphism group
 For $l, l'$ in $L$ and $m, m'$ in $M$,
 
 $$
-(m, l)(m', l')^{-1} = mll'^{-1}m'^{-1} = m(\sigma(ll'^{-1})m'^{-1})ll'^{-1}
-= (m(\sigma(ll'^{-1})m'^{-1}), ll'^{-1})
+(m, l)(m', l')^{-1} = ml{l'}^{-1}{m'}^{-1} = m(\sigma(l{l'}^{-1}){m'}^{-1})l{l'}^{-1}
+= (m(\sigma(l{l'}^{-1}){m'}^{-1}), l{l'}^{-1})
 $$
 
 whence the proposition.

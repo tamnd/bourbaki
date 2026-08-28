@@ -29,7 +29,7 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: e0949cbca821dc828cb233084f536457cc1372d91205e8e082bc00f0d79fdc85
+content_sha256: b2683bd9b0a8b23c19acb6cea7ee306f1f0caa4394f0ddc30d025f3b4e49a5d3
 ---
 
 ## 2. THE LIFT OF PRIME IDEALS
@@ -156,7 +156,7 @@ Remark (2). Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral
 
 #### Proposition 2 {#ac-v-s2-prop-2 .statement}
 
-Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$, $\mathfrak{p}$ a prime ideal of $A$, $S = A - \mathfrak{p}$, $(p'_i)_{i \in I}$ the family of all the prime ideals $\mathfrak{p}$ of $A'$ lying above $\mathfrak{p}$ and $S' = \bigcap_{i \in I} (A' - p_i)$; then $S^{-1}A' = S'^{-1}A'$.
+Let $h : A \to A'$ be a ring homomorphism such that $A'$ is integral over $A$, $\mathfrak{p}$ a prime ideal of $A$, $S = A - \mathfrak{p}$, $(p'_i)_{i \in I}$ the family of all the prime ideals $\mathfrak{p}$ of $A'$ lying above $\mathfrak{p}$ and $S' = \bigcap_{i \in I} (A' - p_i)$; then $S^{-1}A' = {S'}^{-1}A'$.
 
 In fact, by definition $h(S) \subset S'$ and, as
 

@@ -11,7 +11,7 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: 5dbc5ed3a53dfa6b55d96e7a4316f573d2decb606bc51731e517a0a666b36ca7
+content_sha256: f3140c619fb912b4b127edb64a0352d45722f2a328076238307c0c7e0f929b02
 ---
 
 ## § 2. DISCRIMINANT D’UNE FORME SESQUILINÉAIRE
@@ -136,7 +136,7 @@ Soit en effet K le corps des fractions de A, et soit $\Phi'$ l’extension de $\
 
 *Soient A un corps, B une algèbre commutative de dimension finie n sur A, et S une base de B. Pour que B soit séparable (chap. VIII, § 7, no 5, déf. 1) il faut et il suffit que l’on ait* $D_{B/A}(S) \neq 0$.
 
-Soient en effet $A'$ la clôture algébrique de A, et $B'$ l’algèbre $A' \otimes_A B$ sur $A'$. Si B est séparable, $B'$ est semi-simple (chap. VIII, § 7, no 5, cor. de la prop. 7) et est donc composée directe de n corps isomorphes à $A'$ (chap. VIII, § 6, no 4, cor. de la prop. 9). Si $S'$ désigne la base canonique de $B'$ (identifiée à $A'^n$), on a $D_{B'/A'}(S') = 1$, d’où $D_{B'/A'}(S) \neq 0$ (prop. 1) et $D_{B/A}(S) \neq 0$ (formule (6)).
+Soient en effet $A'$ la clôture algébrique de A, et $B'$ l’algèbre $A' \otimes_A B$ sur $A'$. Si B est séparable, $B'$ est semi-simple (chap. VIII, § 7, no 5, cor. de la prop. 7) et est donc composée directe de n corps isomorphes à $A'$ (chap. VIII, § 6, no 4, cor. de la prop. 9). Si $S'$ désigne la base canonique de $B'$ (identifiée à ${A'}^n$), on a $D_{B'/A'}(S') = 1$, d’où $D_{B'/A'}(S) \neq 0$ (prop. 1) et $D_{B/A}(S) \neq 0$ (formule (6)).
 
 Réciproquement supposons que l’on ait $D_{B/A}(S) \neq 0$. Pour montrer que B est séparable, il suffit de montrer que $B'$ est semi-simple, c’est-à-dire qu’elle n’admet pas d’élément nilpotent $\neq 0$. Or, si $x'$ était un élément nilpotent non nul de $B'$, on pourrait le prendre comme premier élément d’une base $S'$ de $B'$, et on aurait alors $\mathrm{Tr}_{B'/A'}(x'y') = 0$ pour tout $y' \in S'$ puisqu’un endomorphisme nilpotent a ses valeurs propres nulles (chap. VII, § 5, no 3, cor. 3 de la prop. 8), donc une trace nulle. Il en résulterait que $D_{B'/A'}(S') = 0$, d’où $D_{B'/A'}(S) = 0$ (prop. 1) et $D_{B/A}(S) = 0$ (formule (6)), contrairement à l’hypothèse.
 
@@ -199,7 +199,7 @@ b) Soit $\varphi$ un homomorphisme frobeniusien de B dans A ; toute forme A-lin�
 
 c) Pour tout $x \in B$, soit $x^\sigma$ l’unique élément (cf. b)) tel que $\varphi(xy) = \varphi(yx^\sigma)$ pour tout $y \in B$. Montrer que $x \to x^\sigma$ est un A-automorphisme de B. On dit que l’algèbre frobeniusienne B est symétrique si $\sigma$ est un automorphisme intérieur de B ; il y a alors un homomorphisme frobeniusien de B dans A pour lequel $\sigma$ est l’identité (cf. b)). Il revient au même de dire que les (B, B)-bimodules B et $^sB^* = ^dB^*$ (qu’on écrit B*) sont isomorphes (exerc. 2 c)).
 
-d) Soient E un B-module à gauche de longueur finie, E’ son dual, E’* le dual de E’ considéré comme espace vectoriel sur A ; E’* est muni d’une structure de B-module à gauche en posant, pour $x' \in E'$, $x'' \in E'^*$, $b \in B$, $\langle x', bx'' \rangle = \langle x'b, x'' \rangle$ (chap. III, 2e éd., App. II, n° 7). Pour tout $x \in E$, soit $f_E(x)$ (ou simplement $f(x)$) l’élément de E’*tel que $\langle x', f(x) \rangle = \varphi(\langle x, x' \rangle)$ pour tout $x' \in E'$; montrer que $f$ est une bijection semi-linéaire pour l’automorphisme $\sigma$, du B-module à gauche E sur le B-module à gauche E’* (utiliser l’exerc. 10 du chap. VIII, § 4). Pour $E = B_s$, on a (avec les notations de l’exerc. 2 b)) $d_\Phi(x^\sigma) = f_{B_s}(x)$ pour tout $x \in B$.
+d) Soient E un B-module à gauche de longueur finie, E’ son dual, E’* le dual de E’ considéré comme espace vectoriel sur A ; E’* est muni d’une structure de B-module à gauche en posant, pour $x' \in E'$, $x'' \in {E'}^*$, $b \in B$, $\langle x', bx'' \rangle = \langle x'b, x'' \rangle$ (chap. III, 2e éd., App. II, n° 7). Pour tout $x \in E$, soit $f_E(x)$ (ou simplement $f(x)$) l’élément de E’*tel que $\langle x', f(x) \rangle = \varphi(\langle x, x' \rangle)$ pour tout $x' \in E'$; montrer que $f$ est une bijection semi-linéaire pour l’automorphisme $\sigma$, du B-module à gauche E sur le B-module à gauche E’* (utiliser l’exerc. 10 du chap. VIII, § 4). Pour $E = B_s$, on a (avec les notations de l’exerc. 2 b)) $d_\Phi(x^\sigma) = f_{B_s}(x)$ pour tout $x \in B$.
 
 4) a) Soit G un groupe fini. Montrer que l’algèbre B du groupe G sur un corps commutatif quelconque A est une algèbre frobeniusienne symétrique (exerc. 3). (Considérer l’application $\varphi$ de B dans A qui, à tout élément $x = \sum_{s \in G} \xi_s . s$, associe $\varphi(x) = \xi_e$, e désignant l’élément neutre de G).
 
