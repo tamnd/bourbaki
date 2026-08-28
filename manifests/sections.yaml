@@ -11129,3 +11129,320 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: d16e40b85fc7d78734cba014cc144d3d726378853279d5bd4dd9aa7ff2a19f09
+    - id: hist
+      chapters:
+        - chapter: "1"
+          title: ELEMENTS OF THE HISTORY OF MATHEMATICS
+          sections:
+            - kind: section
+              section: 1
+              title: Foundations of Mathematics; Logic; Set Theory
+              path: content/en/hist/1/01_s1_foundations_of_mathematics_logic_set.md
+              label: hist-1-s1
+              first_pdf_page: 9
+              last_pdf_page: 52
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8eccbe30040d8e0e7b4c7b4f961d2ef1a3957f6c229f65acc6a0a74201556443
+            - kind: section
+              section: 2
+              title: Notation; Combinatorial Analysis
+              path: content/en/hist/1/02_s2_notation_combinatorial_analysis.md
+              label: hist-1-s2
+              first_pdf_page: 53
+              last_pdf_page: 54
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 50e1a342a0a592c7a473558e4860dbc474278faf2ca2d642da7993737f2de484
+            - kind: section
+              section: 3
+              title: The Evolution of Algebra
+              path: content/en/hist/1/03_s3_the_evolution_of_algebra.md
+              label: hist-1-s3
+              first_pdf_page: 55
+              last_pdf_page: 63
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c9dd08805187c94210f9df14f7eaa4c91bcfa63506007d6278a5749850b503e8
+            - kind: section
+              section: 4
+              title: Linear Algebra and Multilinear Algebra
+              path: content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md
+              label: hist-1-s4
+              first_pdf_page: 64
+              last_pdf_page: 74
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 3cbfd665b0272fabbfa9bb4593dec57ecd616327edec4af7e2c0fb38432bf1d5
+            - kind: section
+              section: 5
+              title: Polynomials and Commutative Fields
+              path: content/en/hist/1/05_s5_polynomials_and_commutative_fields.md
+              label: hist-1-s5
+              first_pdf_page: 75
+              last_pdf_page: 89
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 476463410dc102c8e43dd1917fec1e6fb32f2a322a7dfc33679a42e6a62cc602
+            - kind: section
+              section: 6
+              title: Divisibility; Ordered Fields
+              path: content/en/hist/1/06_s6_divisibility_ordered_fields.md
+              label: hist-1-s6
+              first_pdf_page: 90
+              last_pdf_page: 97
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8a55d5ef2afabdbb87e557470cab8f91868726c91701d246d93cd33b04d62b39
+            - kind: section
+              section: 7
+              title: Commutative Algebra. Algebraic Number Theory
+              path: content/en/hist/1/07_s7_commutative_algebra_algebraic_number.md
+              label: hist-1-s7
+              first_pdf_page: 98
+              last_pdf_page: 120
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 3b31d464af31968dcdc847f7f824b02d09c229887c69e8220696365ea28795e4
+            - kind: section
+              section: 8
+              title: Non Commutative Algebra
+              path: content/en/hist/1/08_s8_non_commutative_algebra.md
+              label: hist-1-s8
+              first_pdf_page: 121
+              last_pdf_page: 127
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 245a394e63183118bf1f067e9b2e63ead0a5cf5551bf21c89abb4f99fc16ed61
+            - kind: section
+              section: 9
+              title: Quadratic Forms; Elementary Geometry
+              path: content/en/hist/1/09_s9_quadratic_forms_elementary_geometry.md
+              label: hist-1-s9
+              first_pdf_page: 128
+              last_pdf_page: 141
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 3aef357b6f97b9fcb0b59c83dd3242fcc38d806c6b52436ba9ab2c799e4471c8
+            - kind: section
+              section: 10
+              title: Topological Spaces
+              path: content/en/hist/1/10_s10_topological_spaces.md
+              label: hist-1-s10
+              first_pdf_page: 142
+              last_pdf_page: 146
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 019513268c75c68c402ed1990e7bd3b66e2aaf227fa377b0ebf159d48ba0be2b
+            - kind: section
+              section: 11
+              title: Uniform Spaces
+              path: content/en/hist/1/11_s11_uniform_spaces.md
+              label: hist-1-s11
+              first_pdf_page: 147
+              last_pdf_page: 148
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 2860052876fd130ce2e248a166f6a973e304ef320bb3054ac1d9d92b237812ff
+            - kind: section
+              section: 12
+              title: Real Numbers
+              path: content/en/hist/1/12_s12_real_numbers.md
+              label: hist-1-s12
+              first_pdf_page: 149
+              last_pdf_page: 158
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: ce41aaca3c43ea067e77e252e19c22092b9d9ad893d845a44a7763bc0118c4c8
+            - kind: section
+              section: 13
+              title: Exponentials and Logarithms
+              path: content/en/hist/1/13_s13_exponentials_and_logarithms.md
+              label: hist-1-s13
+              first_pdf_page: 159
+              last_pdf_page: 160
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 50689abd9c7185633a30290d86d3bc87b0da563ba03899d30508b9b32066189d
+            - kind: section
+              section: 14
+              title: n Dimensional Spaces
+              path: content/en/hist/1/14_s14_n_dimensional_spaces.md
+              label: hist-1-s14
+              first_pdf_page: 161
+              last_pdf_page: 162
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 064bf6017efcb44a9b40846585a1dbc8a084a17c648d63d0427aa0f41d61d44b
+            - kind: section
+              section: 15
+              title: Complex Numbers; Measurement of Angles
+              path: content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md
+              label: hist-1-s15
+              first_pdf_page: 163
+              last_pdf_page: 166
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 519eeb1441ec990499d5edf0dcced26f5938d33699fb2d691ac64c29f7d0aa2a
+            - kind: section
+              section: 16
+              title: Metric Spaces
+              path: content/en/hist/1/16_s16_metric_spaces.md
+              label: hist-1-s16
+              first_pdf_page: 167
+              last_pdf_page: 168
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 43ec71caac5f831ec1591275988c6e92ca0d4a2cead947f638d93d8066c80d1c
+            - kind: section
+              section: 17
+              title: Infinitesimal Calculus
+              path: content/en/hist/1/17_s17_infinitesimal_calculus.md
+              label: hist-1-s17
+              first_pdf_page: 169
+              last_pdf_page: 200
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 31a2a855be02ee84078e97f838591b5052150c4fc6de2b5f740ca40cef0e8130
+            - kind: section
+              section: 18
+              title: Asymptotic Expansions
+              path: content/en/hist/1/18_s18_asymptotic_expansions.md
+              label: hist-1-s18
+              first_pdf_page: 201
+              last_pdf_page: 204
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9e0ecd11eb4436e4794e19710da53ec78deea64cf184c8d01618eac0fec088a7
+            - kind: section
+              section: 19
+              title: The Gamma Function
+              path: content/en/hist/1/19_s19_the_gamma_function.md
+              label: hist-1-s19
+              first_pdf_page: 205
+              last_pdf_page: 205
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 7092fa519a4f115973a096a09aabbecb5a46cdac0f410b2a08e230e4c0142ff8
+            - kind: section
+              section: 20
+              title: Function Spaces
+              path: content/en/hist/1/20_s20_function_spaces.md
+              label: hist-1-s20
+              first_pdf_page: 206
+              last_pdf_page: 207
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 15f512382572169b2ba08ef7018fc21077872e17cc4c3a1f5f42740f62a1f89b
+            - kind: section
+              section: 21
+              title: Topological Vector Spaces
+              path: content/en/hist/1/21_s21_topological_vector_spaces.md
+              label: hist-1-s21
+              first_pdf_page: 208
+              last_pdf_page: 219
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: f152705138d1dfd8534eb38b097026bfccf4de116a2e6e5413752bb9ced38b03
+            - kind: section
+              section: 22
+              title: Integration in Locally Compact Spaces
+              path: content/en/hist/1/22_s22_integration_in_locally_compact_spaces.md
+              label: hist-1-s22
+              first_pdf_page: 220
+              last_pdf_page: 230
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: bcbfac4b733714ae012c7ab76187653a8906f050773300d6880a36896e92accb
+            - kind: section
+              section: 23
+              title: Haar Measure. Convolution
+              path: content/en/hist/1/23_s23_haar_measure_convolution.md
+              label: hist-1-s23
+              first_pdf_page: 231
+              last_pdf_page: 236
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6c5bfd83ec24e61d922eb5f7b88482c4f2f16c95ea8ff64abaf9cc786012597b
+            - kind: section
+              section: 24
+              title: Integration in Non Locally Compact Spaces
+              path: content/en/hist/1/24_s24_integration_in_non_locally_compact.md
+              label: hist-1-s24
+              first_pdf_page: 237
+              last_pdf_page: 246
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9cb4ee60adeb6f91acfd2e6f54cec33bd5962e0a2645da7b642e4fb0d7ad3705
+            - kind: section
+              section: 25
+              title: Lie Groups and Lie Algebras
+              path: content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md
+              label: hist-1-s25
+              first_pdf_page: 247
+              last_pdf_page: 267
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 758f790e5baf428b457b35b0bb0942e6c9333e16ace540ad6af8edad1dd35da6
+            - kind: section
+              section: 26
+              title: Groups Generated by Reflections; Root Systems
+              path: content/en/hist/1/26_s26_groups_generated_by_reflections_root.md
+              label: hist-1-s26
+              first_pdf_page: 268
+              last_pdf_page: 273
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 44620240ed7994f05291860d839e1c97f632ba17704d2e0de289ddebfe57f479
