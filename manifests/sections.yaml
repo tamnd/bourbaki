@@ -9805,3 +9805,503 @@ books:
               exercises: 3
               extraction: ocr
               content_sha256: dc0a6f54f1b8abb8c9630f3eb4e31df53e150e4b7dcbfc0858d85afcbaa111ed
+    - id: top-i-iv-fr
+      reader_note:
+        kind: reader
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        path: content/fr/top/00_to_the_reader_i_iv.md
+        first_pdf_page: 5
+        last_pdf_page: 7
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: e0d94fe690f3a2766ba8bfab58f4a9292fe9b6af8f2daa0ec64c15aa93a7e9e4
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/fr/top/00_introduction.md
+        first_pdf_page: 8
+        last_pdf_page: 12
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: ef9b6947c551a3fa6b2b44bbebf569c6528c8e63389564395e147773c7dae72b
+      chapters:
+        - chapter: I
+          title: STRUCTURES TOPOLOGIQUES
+          sections:
+            - kind: front
+              title: STRUCTURES TOPOLOGIQUES
+              path: content/fr/top/I/00_frontmatter.md
+              first_pdf_page: 13
+              last_pdf_page: 13
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 5fa816646a975d87ec61a3adf347e952cf34d1f7cba7d591d959c32f5228d0cb
+            - kind: section
+              section: 1
+              title: Ensembles ouverts; voisinages; ensembles fermés
+              path: content/fr/top/I/01_s1_ensembles_ouverts_voisinages_ensembles.md
+              label: top-i-s1
+              first_pdf_page: 13
+              last_pdf_page: 102
+              subsections: 6
+              statements: 22
+              exercises: 10
+              extraction: ocr
+              content_sha256: 55ce406216071ae78a5b7bacb6d9a1b2f9a055661ed275955d15cb0ff4e8d7fb
+            - kind: section
+              section: 2
+              title: Fonctions continues
+              path: content/fr/top/I/02_s2_fonctions_continues.md
+              label: top-i-s2
+              first_pdf_page: 20
+              last_pdf_page: 105
+              book_pages: TG I.8-TG I.17
+              subsections: 5
+              statements: 26
+              exercises: 12
+              extraction: ocr
+              content_sha256: 0038af79f1d2e2b23cb5cd08e582c142580cc5d23ac6aff2875571f498c5b32e
+            - kind: section
+              section: 3
+              title: Sous-espaces; espaces quotients
+              path: content/fr/top/I/03_s3_sous_espaces_espaces_quotients.md
+              label: top-i-s3
+              first_pdf_page: 29
+              last_pdf_page: 106
+              book_pages: TG I.17-TG I.24
+              subsections: 6
+              statements: 23
+              exercises: 16
+              extraction: ocr
+              content_sha256: 8f3e8c51c65e8658f192fbec94abe7c09eee805e66a19ea2daa3243d1a0988ef
+            - kind: section
+              section: 4
+              title: Produit d’espaces topologiques
+              path: content/fr/top/I/04_s4_produit_d_espaces_topologiques.md
+              label: top-i-s4
+              first_pdf_page: 36
+              last_pdf_page: 108
+              book_pages: TG I.24-TG I.29, TG I.94-TG I.96
+              subsections: 4
+              statements: 21
+              exercises: 10
+              extraction: ocr
+              content_sha256: c5e8bc3d0246c8dffd05dcc00a8d75345c75d23ad88acc1bae1dccf4b636ecd7
+            - kind: section
+              section: 5
+              title: Applications ouvertes et applications fermées
+              path: content/fr/top/I/05_s5_applications_ouvertes_et_applications.md
+              label: top-i-s5
+              first_pdf_page: 42
+              last_pdf_page: 108
+              book_pages: TG I.30-TG I.35, TG I.96
+              subsections: 4
+              statements: 25
+              exercises: 7
+              extraction: ocr
+              content_sha256: 4020d4a2dd332ee47e49fa05c38fcf9c87134c29dfa27ba1909ac716e5aa3558
+            - kind: section
+              section: 6
+              title: Filtres
+              path: content/fr/top/I/06_s6_filtres.md
+              label: top-i-s6
+              first_pdf_page: 48
+              last_pdf_page: 111
+              book_pages: TG I.36-TG I.46
+              subsections: 10
+              statements: 28
+              exercises: 20
+              extraction: ocr
+              content_sha256: 27391f8fcaca4e7509133006312134c4d9b2ec3788740552ba9d1128a71ff388
+            - kind: section
+              section: 7
+              title: Limites
+              path: content/fr/top/I/07_s7_limites.md
+              label: top-i-s7
+              first_pdf_page: 58
+              last_pdf_page: 112
+              book_pages: TG I.46-TG I.51, TG I.99-TG I.100
+              subsections: 6
+              statements: 21
+              exercises: 7
+              extraction: ocr
+              content_sha256: cfb7b68d0a94a5786dfb0d7f7800cab6f6dec47b1b9010ba7043c5d6d12a9484
+            - kind: section
+              section: 8
+              title: Espaces séparés et espaces réguliers
+              path: content/fr/top/I/08_s8_espaces_separes_et_espaces_reguliers.md
+              label: top-i-s8
+              first_pdf_page: 64
+              last_pdf_page: 117
+              subsections: 6
+              statements: 28
+              exercises: 29
+              extraction: ocr
+              content_sha256: cce74d2df88a64d676300feacac6c04c83e3b53a68854d681394c7cf50a19e8d
+            - kind: section
+              section: 9
+              title: Espaces compacts et espaces localement compacts
+              path: content/fr/top/I/09_s9_espaces_compacts_et_espaces_localement.md
+              label: top-i-s9
+              first_pdf_page: 71
+              last_pdf_page: 123
+              book_pages: TG I.59-TG I.71
+              subsections: 10
+              statements: 48
+              exercises: 31
+              extraction: ocr
+              content_sha256: 3860aec594aa68b86a44725b56f6eb22a136dac4a050301c0019ce468b15b289
+            - kind: section
+              section: 10
+              title: Applications propres
+              path: content/fr/top/I/10_s10_applications_propres.md
+              label: top-i-s10
+              first_pdf_page: 84
+              last_pdf_page: 127
+              book_pages: TG I.111-TG I.115
+              subsections: 4
+              statements: 30
+              exercises: 25
+              extraction: ocr
+              content_sha256: b7c0026c11a62e7e8bc121c792ef5e6cf80c8525c8f16f001bedf5104a303325
+            - kind: section
+              section: 11
+              title: Connexion
+              path: content/fr/top/I/11_s11_connexion.md
+              label: top-i-s11
+              first_pdf_page: 92
+              last_pdf_page: 133
+              subsections: 7
+              statements: 28
+              exercises: 29
+              extraction: ocr
+              content_sha256: e9eff3ed60be295fd962cd027968f4afe1c217f0dc7647c97b8bb23ce797063a
+            - kind: historical
+              title: Historical Note
+              path: content/fr/top/I/historical_note.md
+              first_pdf_page: 134
+              last_pdf_page: 139
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a0fe682a00cce2f49dcc8352197a718d1c9334c6dc8043ad4ae371e226ef92fc
+        - chapter: II
+          title: STRUCTURES UNIFORMES
+          sections:
+            - kind: front
+              title: STRUCTURES UNIFORMES
+              path: content/fr/top/II/00_frontmatter.md
+              first_pdf_page: 140
+              last_pdf_page: 140
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: ad0f6bdceb494de6c93a2b8d6a1e2a445764022a25f56b6f5690dcd351cc2ba7
+            - kind: section
+              section: 1
+              title: Espaces uniformes
+              path: content/fr/top/II/01_s1_espaces_uniformes.md
+              label: top-ii-s1
+              first_pdf_page: 140
+              last_pdf_page: 174
+              subsections: 2
+              statements: 13
+              exercises: 5
+              extraction: ocr
+              content_sha256: 7bb54d9be7420ea7071c88fd80783d6eac017db28793506c339ed40a34221d63
+            - kind: section
+              section: 2
+              title: Fonctions uniformément continues
+              path: content/fr/top/II/02_s2_fonctions_uniformement_continues.md
+              label: top-ii-s2
+              first_pdf_page: 145
+              last_pdf_page: 174
+              book_pages: TG II.6-TG II.12, TG II.35
+              subsections: 7
+              statements: 24
+              exercises: 6
+              extraction: ocr
+              content_sha256: bfb04ecdf1f9360e7000738526e7648065d67c1912d1d3570bfd26485e9fc429
+            - kind: section
+              section: 3
+              title: Espaces complets
+              path: content/fr/top/II/03_s3_espaces_complets.md
+              label: top-ii-s3
+              first_pdf_page: 151
+              last_pdf_page: 175
+              book_pages: TG II.12-TG II.26, TG II.35-TG II.36
+              subsections: 9
+              statements: 47
+              exercises: 7
+              extraction: ocr
+              content_sha256: 7b3962f40687de1412eac7b21507079e0cc5f58948a2fab1fecfc3ae3fc562cc
+            - kind: section
+              section: 4
+              title: Relations entre espaces uniformes et espaces compacts
+              path: content/fr/top/II/04_s4_relations_entre_espaces_uniformes_et.md
+              label: top-ii-s4
+              first_pdf_page: 166
+              last_pdf_page: 180
+              book_pages: TG II.36-TG II.41
+              subsections: 4
+              statements: 24
+              exercises: 26
+              extraction: ocr
+              content_sha256: 24a2100c7cc0d3ea1bced67c85c6191269d314297435893540570ef24dc000ed
+            - kind: historical
+              title: Historical Note
+              path: content/fr/top/II/historical_note.md
+              first_pdf_page: 181
+              last_pdf_page: 183
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 3a92d1e25994be857bf3c10ad728ba2a9ac33cdd889be93ffd565e1aa8087a91
+        - chapter: III
+          title: GROUPES TOPOLOGIQUES
+          sections:
+            - kind: front
+              title: GROUPES TOPOLOGIQUES
+              path: content/fr/top/III/00_frontmatter.md
+              first_pdf_page: 184
+              last_pdf_page: 184
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a6ade1177b386853d614021f353617b9b860365c35b23833ab016403c268dd0c
+            - kind: section
+              section: 1
+              title: Topologies de groupes
+              path: content/fr/top/III/01_s1_topologies_de_groupes.md
+              label: top-iii-s1
+              first_pdf_page: 184
+              last_pdf_page: 250
+              subsections: 3
+              statements: 10
+              exercises: 9
+              extraction: ocr
+              content_sha256: bfeade3aa0b3b3023ecc16a65220bfffdd3050bd0ba1e1fd0b30d600039ca897
+            - kind: section
+              section: 2
+              title: Sous-groupes; groupes quotients; homomorphismes; espaces homogènes; groupes produits
+              path: content/fr/top/III/02_s2_sous_groupes_groupes_quotients.md
+              label: top-iii-s2
+              first_pdf_page: 189
+              last_pdf_page: 255
+              book_pages: TG III.6-TG III.19, TG III.67-TG III.72
+              subsections: 10
+              statements: 44
+              exercises: 31
+              extraction: ocr
+              content_sha256: 53dcee520db44f494dfad065c5f0a848807b61ba005df7a20c2e488bf6829ce6
+            - kind: section
+              section: 3
+              title: Structures uniformes de groupes
+              path: content/fr/top/III/03_s3_structures_uniformes_de_groupes.md
+              label: top-iii-s3
+              first_pdf_page: 202
+              last_pdf_page: 257
+              book_pages: TG III.19-TG III.27, TG III.72-TG III.74
+              subsections: 5
+              statements: 19
+              exercises: 12
+              extraction: ocr
+              content_sha256: b5d803ce4aeed8102e51e5356d16ec750a2ff3e58b462fa6ba5877831112f0cb
+            - kind: section
+              section: 4
+              title: Groupes opérant proprement dans un espace topologique. Compacité dans les groupes topologiques et les espaces à opérateurs
+              path: content/fr/top/III/04_s4_groupes_operant_proprement_dans_un.md
+              label: top-iii-s4
+              first_pdf_page: 210
+              last_pdf_page: 261
+              book_pages: TG III.27-TG III.36, TG III.74-TG III.78
+              subsections: 6
+              statements: 33
+              exercises: 25
+              extraction: ocr
+              content_sha256: 8f8e406c4f43a7ad7c78f10282c1fa4ef54b3c6d5a8681180780e2f6a40e23d2
+            - kind: section
+              section: 5
+              title: Sommes infinies dans les groupes commutatifs
+              path: content/fr/top/III/05_s5_sommes_infinies_dans_les_groupes.md
+              label: top-iii-s5
+              first_pdf_page: 219
+              last_pdf_page: 262
+              book_pages: TG III.36-TG III.45, TG III.78-TG III.79
+              subsections: 7
+              statements: 21
+              exercises: 6
+              extraction: ocr
+              content_sha256: 4feb8ea76c1b1eafb8f7f4a619f2881784f62ff52bacf148b3e50053f846ff44
+            - kind: section
+              section: 6
+              title: Groupes topologiques à opérateurs ; anneaux topologiques ; corps topologiques
+              path: content/fr/top/III/06_s6_groupes_topologiques_a_operateurs.md
+              label: top-iii-s6
+              first_pdf_page: 228
+              last_pdf_page: 268
+              book_pages: TG III.45-TG III.56, TG III.79-TG III.85
+              subsections: 8
+              statements: 20
+              exercises: 29
+              extraction: ocr
+              content_sha256: d9372c11396f6f8af17b5a832d391657f022a49ad7fb9031449217f3aa3234c5
+            - kind: section
+              section: 7
+              title: Limites projectives de groupes et d’anneaux topologiques
+              path: content/fr/top/III/07_s7_limites_projectives_de_groupes_et_d.md
+              label: top-iii-s7
+              first_pdf_page: 240
+              last_pdf_page: 270
+              book_pages: TG III.85-TG III.87
+              subsections: 3
+              statements: 16
+              exercises: 6
+              extraction: ocr
+              content_sha256: c7807319adb537d56b965861ed731b38f67148ba59ad9a2cabfad494d6ae1bea
+            - kind: historical
+              title: Historical Note
+              path: content/fr/top/III/historical_note.md
+              first_pdf_page: 271
+              last_pdf_page: 271
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 645b9395208912d71f92dac3aeae8f142a6b15d8c2cc8b6402dd1e44091aec9f
+        - chapter: IV
+          title: NOMBRES RÉELS
+          sections:
+            - kind: front
+              title: NOMBRES RÉELS
+              path: content/fr/top/IV/00_frontmatter.md
+              first_pdf_page: 272
+              last_pdf_page: 272
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1528b322df3c7c56ec10eb7e08249552db49526fbdb3a418a9dfdce99a4e862d
+            - kind: section
+              section: 1
+              title: Définition des nombres réels
+              path: content/fr/top/IV/01_s1_definition_des_nombres_reels.md
+              label: top-iv-s1
+              first_pdf_page: 272
+              last_pdf_page: 318
+              subsections: 6
+              statements: 10
+              exercises: 4
+              extraction: ocr
+              content_sha256: fd5df639616d82158cf8dca2be2e0311092966782b7f22cb8d09501aa2eff54e
+            - kind: section
+              section: 2
+              title: Propriétés topologiques fondamentales de la droite numérique
+              path: content/fr/top/IV/02_s2_proprietes_topologiques_fondamentales.md
+              label: top-iv-s2
+              first_pdf_page: 277
+              last_pdf_page: 322
+              book_pages: TG IV.6-TG IV.10, TG IV.47-TG IV.51
+              subsections: 6
+              statements: 13
+              exercises: 16
+              extraction: ocr
+              content_sha256: 842a87d576784909c12db349ec9b48782447457e381a492f4bfcc8417b49fe3b
+            - kind: section
+              section: 3
+              title: Le corps des nombres réels
+              path: content/fr/top/IV/03_s3_le_corps_des_nombres_reels.md
+              label: top-iv-s3
+              first_pdf_page: 281
+              last_pdf_page: 323
+              book_pages: TG IV.10-TG IV.12, TG IV.51-TG IV.52
+              subsections: 3
+              statements: 2
+              exercises: 3
+              extraction: ocr
+              content_sha256: 4129deba33be1efb7e47422fe54b0ec337320d02914e0b8adb5465c22b24ea28
+            - kind: section
+              section: 4
+              title: La droite numérique achevée
+              path: content/fr/top/IV/04_s4_la_droite_numerique_achevee.md
+              label: top-iv-s4
+              first_pdf_page: 284
+              last_pdf_page: 324
+              book_pages: TG IV.13-TG IV.17, TG IV.52-TG IV.53
+              subsections: 3
+              statements: 11
+              exercises: 7
+              extraction: ocr
+              content_sha256: af63fd49662b26044df6b743e044f17da548890c091998233d4421ac7411fd07
+            - kind: section
+              section: 5
+              title: Fonctions numériques
+              path: content/fr/top/IV/05_s5_fonctions_numeriques.md
+              label: top-iv-s5
+              first_pdf_page: 288
+              last_pdf_page: 326
+              book_pages: TG IV.17-TG IV.27, TG IV.53-TG IV.55
+              subsections: 7
+              statements: 29
+              exercises: 18
+              extraction: ocr
+              content_sha256: 8ec7cc47403277d79bf66884ad4d3671e9b0ad48466a3154d7d41196f4a8fda9
+            - kind: section
+              section: 6
+              title: Fonctions numériques continues et fonctions numériques semi-continues
+              path: content/fr/top/IV/06_s6_fonctions_numeriques_continues_et.md
+              label: top-iv-s6
+              first_pdf_page: 298
+              last_pdf_page: 329
+              book_pages: TG IV.27-TG IV.31, TG IV.55-TG IV.58
+              subsections: 2
+              statements: 15
+              exercises: 16
+              extraction: ocr
+              content_sha256: f7a41b4d735f549c22bac960df620992dc601aaa0a74c22e9a97bf836dde103d
+            - kind: section
+              section: 7
+              title: Sommes et produits infinis de nombres réels
+              path: content/fr/top/IV/07_s7_sommes_et_produits_infinis_de_nombres.md
+              label: top-iv-s7
+              first_pdf_page: 303
+              last_pdf_page: 332
+              book_pages: TG IV.32-TG IV.39, TG IV.59-TG IV.61
+              subsections: 6
+              statements: 25
+              exercises: 22
+              extraction: ocr
+              content_sha256: c5cf4e84b532067825b7cfdd7f1d44c588b392d7de45c68930efc3767c2807f1
+            - kind: section
+              section: 8
+              title: Développements usuels des nombres réels
+              path: content/fr/top/IV/08_s8_developpements_usuels_des_nombres_reels.md
+              label: top-iv-s8
+              first_pdf_page: 311
+              last_pdf_page: 335
+              book_pages: TG IV.62-TG IV.64
+              subsections: 6
+              statements: 3
+              exercises: 17
+              extraction: ocr
+              content_sha256: c0e4c70a6e778ef71ceaffe15a445ecf38a19ce2a86aa00397867e1e26e55e37
+            - kind: historical
+              title: Historical Note
+              path: content/fr/top/IV/historical_note.md
+              first_pdf_page: 336
+              last_pdf_page: 367
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 433f89d49a83da12c418d6b8161ecfae6909e25cca4951777e53fca731176fe7
