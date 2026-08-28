@@ -6477,6 +6477,17 @@
           "sections": null
         }
       ]
+    },
+    {
+      "id": "hist-fr",
+      "chapters": [
+        {
+          "chapter": "1",
+          "title": "ÉLÉMENTS D'HISTOIRE DES MATHÉMATIQUES",
+          "total": 0,
+          "sections": null
+        }
+      ]
     }
   ]
 }

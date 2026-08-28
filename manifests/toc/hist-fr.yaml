@@ -14,12 +14,12 @@ chapters:
           pdf_page: 7
         - section: 2
           title: Numération; analyse combinatoire
-          page: 65
-          pdf_page: 63
+          page: 64
+          pdf_page: 62
         - section: 3
           title: L'évolution de l'algèbre
-          page: 68
-          pdf_page: 66
+          page: 67
+          pdf_page: 65
         - section: 4
           title: Algèbre linéaire et algèbre multilinéaire
           page: 78
@@ -82,8 +82,8 @@ chapters:
           pdf_page: 248
         - section: 19
           title: La fonction gamma
-          page: 253
-          pdf_page: 251
+          page: 255
+          pdf_page: 253
         - section: 20
           title: Espaces fonctionnels
           page: 257
@@ -106,10 +106,10 @@ chapters:
           pdf_page: 294
         - section: 25
           title: Groupes de Lie et algèbres de Lie
-          page: 307
-          pdf_page: 305
+          page: 309
+          pdf_page: 307
         - section: 26
           title: Groupes engendrés par des réflexions. Systèmes de racines
-          page: 327
-          pdf_page: 325
+          page: 334
+          pdf_page: 332
       nominal: true

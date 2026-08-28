@@ -10801,3 +10801,331 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 4f5da2d5f93a17339b36e8b289bea09365035864aa242bc99e5291d21d3b274d
+    - id: hist-fr
+      reader_note:
+        kind: reader
+        title: AVERTISSEMENT
+        path: content/fr/hist/00_to_the_reader.md
+        first_pdf_page: 5
+        last_pdf_page: 5
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 1001405ce848c63054838b55a6bc5e6a76809b973618798051c024184ec7577c
+      chapters:
+        - chapter: "1"
+          title: ÉLÉMENTS D'HISTOIRE DES MATHÉMATIQUES
+          sections:
+            - kind: section
+              section: 1
+              title: Fondements des mathématiques; logique; théorie des ensembles
+              path: content/fr/hist/1/01_s1_fondements_des_mathematiques_logique.md
+              label: hist-1-s1
+              first_pdf_page: 7
+              last_pdf_page: 61
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 4b346034f80346b8ae114cf5af25beb8e6cc3999ad1794c8beab53848f85600f
+            - kind: section
+              section: 2
+              title: Numération; analyse combinatoire
+              path: content/fr/hist/1/02_s2_numeration_analyse_combinatoire.md
+              label: hist-1-s2
+              first_pdf_page: 62
+              last_pdf_page: 64
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9b64bcdd7a962f10417ac39132181a10a7dd7178e2eec2aeebc82d881c793345
+            - kind: section
+              section: 3
+              title: L'évolution de l'algèbre
+              path: content/fr/hist/1/03_s3_l_evolution_de_l_algebre.md
+              label: hist-1-s3
+              first_pdf_page: 65
+              last_pdf_page: 75
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 60db8b6ba9aa7aaa829cba675124e650d18ca466c62dab485468b3ba63e3be58
+            - kind: section
+              section: 4
+              title: Algèbre linéaire et algèbre multilinéaire
+              path: content/fr/hist/1/04_s4_algebre_lineaire_et_algebre.md
+              label: hist-1-s4
+              first_pdf_page: 76
+              last_pdf_page: 89
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 31e831606fad42013effe3ca44ba0a89b3aac1a399e6873b09a884aa08c16be5
+            - kind: section
+              section: 5
+              title: Polynômes et corps commutatifs
+              path: content/fr/hist/1/05_s5_polynomes_et_corps_commutatifs.md
+              label: hist-1-s5
+              first_pdf_page: 90
+              last_pdf_page: 107
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c79fb814683fd5b715c3d32b8e3775753d5f59e95e757008d2842c717856f234
+            - kind: section
+              section: 6
+              title: Divisibilité; corps ordonnés
+              path: content/fr/hist/1/06_s6_divisibilite_corps_ordonnes.md
+              label: hist-1-s6
+              first_pdf_page: 108
+              last_pdf_page: 117
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1b3ea043453dc7662f04fa34b45066e04e03f7bd0770f4a14c68e92ac60907f9
+            - kind: section
+              section: 7
+              title: Algèbre commutative; théorie des nombres algébriques
+              path: content/fr/hist/1/07_s7_algebre_commutative_theorie_des_nombres.md
+              label: hist-1-s7
+              first_pdf_page: 118
+              last_pdf_page: 146
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 54a1c938f7a9f872f83c9bab39ffa70a8ca555fc91811530430072c398630ccb
+            - kind: section
+              section: 8
+              title: Algèbre non commutative
+              path: content/fr/hist/1/08_s8_algebre_non_commutative.md
+              label: hist-1-s8
+              first_pdf_page: 147
+              last_pdf_page: 155
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 2d637c3273e33aac3943559772e133153f68c3c3636a2ef7f2a76039008ee286
+            - kind: section
+              section: 9
+              title: Formes quadratiques; géométrie élémentaire
+              path: content/fr/hist/1/09_s9_formes_quadratiques_geometrie.md
+              label: hist-1-s9
+              first_pdf_page: 156
+              last_pdf_page: 172
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 8e4d4a5874094458ae92d5664eb91a66ecfec51d01f3bf63659aee4f6ed75dea
+            - kind: section
+              section: 10
+              title: Espaces topologiques
+              path: content/fr/hist/1/10_s10_espaces_topologiques.md
+              label: hist-1-s10
+              first_pdf_page: 173
+              last_pdf_page: 178
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9cbb8012e244c1188605a84dbaccc4d8cf99449b94da6a51f02bd03d4c248f8c
+            - kind: section
+              section: 11
+              title: Espaces uniformes
+              path: content/fr/hist/1/11_s11_espaces_uniformes.md
+              label: hist-1-s11
+              first_pdf_page: 179
+              last_pdf_page: 181
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 9be96ea16dbc14d28e10624a3c7c80be29722f8cf2fe560f5436e01f203412ef
+            - kind: section
+              section: 12
+              title: Nombres réels
+              path: content/fr/hist/1/12_s12_nombres_reels.md
+              label: hist-1-s12
+              first_pdf_page: 182
+              last_pdf_page: 193
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 5ec12159f8bdbb26f88baad11d02f6b6dbcc66fa73908a1eef87eaeb35e90f55
+            - kind: section
+              section: 13
+              title: Exponentielles et logarithmes
+              path: content/fr/hist/1/13_s13_exponentielles_et_logarithmes.md
+              label: hist-1-s13
+              first_pdf_page: 194
+              last_pdf_page: 195
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: f73892293dc191a6255d4ebbf9f5fd34ea70e8121eb77101cde6543da7abf778
+            - kind: section
+              section: 14
+              title: Espaces à n dimensions
+              path: content/fr/hist/1/14_s14_espaces_a_n_dimensions.md
+              label: hist-1-s14
+              first_pdf_page: 196
+              last_pdf_page: 197
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: f805b1a5f737b7b0f64b27e375de6497fd1782f29705323c7131f8c1a184a50f
+            - kind: section
+              section: 15
+              title: Nombres complexes; mesure des angles
+              path: content/fr/hist/1/15_s15_nombres_complexes_mesure_des_angles.md
+              label: hist-1-s15
+              first_pdf_page: 198
+              last_pdf_page: 202
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 07a6e02e95cfc1d00f71d5134de9a61a060a8920b7685a583b1ed87fcf1c90a4
+            - kind: section
+              section: 16
+              title: Espaces métriques
+              path: content/fr/hist/1/16_s16_espaces_metriques.md
+              label: hist-1-s16
+              first_pdf_page: 203
+              last_pdf_page: 204
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 7a02b46de13ab8e0361754bfeeed06d28322cedf48c343e2169f0255c9f3a886
+            - kind: section
+              section: 17
+              title: Calcul infinitésimal
+              path: content/fr/hist/1/17_s17_calcul_infinitesimal.md
+              label: hist-1-s17
+              first_pdf_page: 205
+              last_pdf_page: 247
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 251ac90263fb6b043ff32a8240515a85a9fce193eecf81b1cbe9e3ff7620bcf8
+            - kind: section
+              section: 18
+              title: Développements asymptotiques
+              path: content/fr/hist/1/18_s18_developpements_asymptotiques.md
+              label: hist-1-s18
+              first_pdf_page: 248
+              last_pdf_page: 252
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 50ad2908fb92b5da799c80cd7fc6b4a1d018980b83fde99eb313ed6253d7087a
+            - kind: section
+              section: 19
+              title: La fonction gamma
+              path: content/fr/hist/1/19_s19_la_fonction_gamma.md
+              label: hist-1-s19
+              first_pdf_page: 253
+              last_pdf_page: 254
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 7ffea6c7a3ebb2c35c10d984f8aeb59c0298bc7a9d6371edfcdc5ae7a12875d5
+            - kind: section
+              section: 20
+              title: Espaces fonctionnels
+              path: content/fr/hist/1/20_s20_espaces_fonctionnels.md
+              label: hist-1-s20
+              first_pdf_page: 255
+              last_pdf_page: 256
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: f9fd2be2a9a12efc5966ad83091296a1abd51a1b77916c4e6051f99c19135b81
+            - kind: section
+              section: 21
+              title: Espaces vectoriels topologiques
+              path: content/fr/hist/1/21_s21_espaces_vectoriels_topologiques.md
+              label: hist-1-s21
+              first_pdf_page: 257
+              last_pdf_page: 272
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 3fbfc9040740775613fdcd4f356c01f6e165c3e64968d335364a65a18c161fd2
+            - kind: section
+              section: 22
+              title: Intégration dans les espaces localement compacts
+              path: content/fr/hist/1/22_s22_integration_dans_les_espaces_localement.md
+              label: hist-1-s22
+              first_pdf_page: 273
+              last_pdf_page: 286
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 262e8691de2e85d70f1f879d5fbbd63b787a3665298dfa32b1c6a0d18231e203
+            - kind: section
+              section: 23
+              title: Mesure de Haar; convolution
+              path: content/fr/hist/1/23_s23_mesure_de_haar_convolution.md
+              label: hist-1-s23
+              first_pdf_page: 287
+              last_pdf_page: 293
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 84c1559f7300bc8ede59c9eb1a7f8a4541e22a0bccb4bd46ea998f97b28a7ae7
+            - kind: section
+              section: 24
+              title: Intégration dans les espaces non localement compacts
+              path: content/fr/hist/1/24_s24_integration_dans_les_espaces_non.md
+              label: hist-1-s24
+              first_pdf_page: 294
+              last_pdf_page: 306
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: b38d6a15029a4edcb03ca4d668623b507c913495d68d5d3accd9267eba5ca777
+            - kind: section
+              section: 25
+              title: Groupes de Lie et algèbres de Lie
+              path: content/fr/hist/1/25_s25_groupes_de_lie_et_algebres_de_lie.md
+              label: hist-1-s25
+              first_pdf_page: 307
+              last_pdf_page: 331
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1271bc08eebd59c729cae3cb5b7aa2288df606f0768dfd0031fc17ebf9bf2c5b
+            - kind: section
+              section: 26
+              title: Groupes engendrés par des réflexions. Systèmes de racines
+              path: content/fr/hist/1/26_s26_groupes_engendres_par_des_reflexions.md
+              label: hist-1-s26
+              first_pdf_page: 332
+              last_pdf_page: 339
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: d16e40b85fc7d78734cba014cc144d3d726378853279d5bd4dd9aa7ff2a19f09

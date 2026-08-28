@@ -1,0 +1,27 @@
+---
+book: hist
+book_title: Elements of the History of Mathematics
+chapter: "1"
+chapter_title: ÉLÉMENTS D'HISTOIRE DES MATHÉMATIQUES
+section: 11
+section_title: Espaces uniformes
+lang: fr
+source: hist-fr
+pdf_pages: 0179-0181
+extraction: ocr
+statements: 0
+exercises: 0
+content_sha256: 9be96ea16dbc14d28e10624a3c7c80be29722f8cf2fe560f5436e01f203412ef
+---
+
+## 11. ESPACES UNIFORMES
+
+Les principales notions et propositions relatives aux espaces uniformes se sont dégagées peu à peu de la théorie des variables réelles, et n’ont fait l’objet d’une étude systématique qu’à date récente. Cauchy, cherchant à fonder rigoureusement la théorie des séries (cf. p. 192), y prit comme point de départ un principe qu’il semble avoir considéré comme évident, d’après lequel une condition nécessaire et suffisante pour la convergence d’une suite $(a_n)$ est que $|a_{n+p} - a_n|$ soit aussi petit qu’on veut dès que $n$ est assez grand (v. p. ex. ([56 a], (2), t. VII, p. 267)). Avec Bolzano [27 c], il fut sans doute l’un des premiers à énoncer ce principe explicitement, et à en reconnaître l’importance : d’où le nom de « suite de Cauchy » donné aux suites de nombre réels qui satisfont à la condition dont il s’agit, et, par extension, aux suites $(x_n)$ de points dans un espace métrique telles que la distance de $x_{n+p}$ à $x_n$ soit aussi petite qu’on veut dès que $n$ est assez grand ; de là enfin le nom de « filtre de Cauchy » donné à la généralisation des suites de Cauchy dans les espaces uniformes.
+
+Lorsque par la suite on ne se contenta plus de la notion intuitive de nombre réel, et qu’on chercha, afin de donner à l’Analyse un fondement solide, à définir les nombres réels à partir des nombres rationnels, ce fut précisément le principe de Cauchy qui fournit la plus féconde des définitions proposées dans la deuxième moitié du xixe siècle ; c’est la définition de Cantor ([47], p. 93-96) (développée aussi, entre autres, d’après les idées de Cantor, par Heine [154 b], et, indépendamment, par Méray), d’après laquelle on fait correspondre un nombre réel à toute suite de Cauchy (« suite fondamentale » dans la terminologie de Cantor) de nombres rationnels ; un même nombre réel correspondra à deux suites de Cauchy de nombres rationnels $(a_n)$ et $(b_n)$ si $|a_n - b_n|$ tend vers 0, et dans ce cas seulement. L’idée essentielle est ici que, d’un certain point de vue, l’ensemble $\mathbf{Q}$ des nombres rationnels est « incomplet », et que l’ensemble des nombres réels est l’ensemble « complet » qu’on déduit de $\mathbf{Q}$ en le « complétant ».
+
+D’autre part, Heine, dans des travaux largement inspirés par les idées de Weierstrass et de Cantor, définit le premier la continuité uniforme pour les fonctions numériques d’une ou plusieurs variables réelles [154 a], et démontra que toute fonction numérique, continue sur un intervalle fermé borné de $\mathbf{R}$, y est uniformément continue [154 b] : c’est le « théorème de Heine ». Ce résultat est lié à la compacité d’un intervalle fermé borné dans $\mathbf{R}$ (« théorème de Borel-Lebesgue », cf. p. 178), et la démonstration donnée par Heine de son théorème peut aussi servir, avec quelques modifications, à démontrer le théorème de Borel-Lebesgue (ce qui a paru à quelques auteurs une raison suffisante pour donner à celui-ci le nom de « théorème de Heine-Borel »).
+
+L’extension de ces idées à des espaces plus généraux se fit lorsqu’on étudia, d’abord sur des cas particuliers, puis en général, les espaces métriques, où une distance (fonction numérique des couples de points, satisfaisant à certains axiomes) est donnée et définit à la fois une topologie et une structure uniforme. Fréchet, qui le premier posa la définition générale de ces espaces, reconnut l’importance du principe de Cauchy [115 a], et introduisit aussi pour les espaces métriques, la notion d’espace précompact (ou « totalement borné » [115 a et b]). Hausdorff, qui, dans sa «Mengenlehre» [152 a et b] développa beaucoup la théorie des espaces métriques, reconnut en particulier qu’on peut appliquer à ces espaces la construction de Cantor dont il a été question plus haut, et déduire ainsi, de tout espace métrique non « complet » (c’est-à-dire où le principe de Cauchy n’est pas valable), un espace métrique « complet ».
+
+Les espaces métriques sont des « espaces uniformes » de nature particulière ; les espaces uniformes n’ont été définis d’une manière générale que récemment, par A. Weil [330 b]. Auparavant on ne savait utiliser les notions et les résultats relatifs à la « structure uniforme » que lorsqu’il s’agissait d’espaces métriques : ce qui explique le rôle important joué dans beaucoup de travaux modernes sur la topologie, par les espaces métriques ou métrisables (et en particulier par les espaces compacts métrisables) dans des questions où la distance n’est d’aucune utilité véritable. Une fois posée la définition des espaces uniformes, il n’y a aucune difficulté (surtout lorsqu’on dispose aussi de la notion de filtre) à étendre à ces espaces presque toute la théorie des espaces métriques, telle qu’elle est exposée par exemple par Hausdorff (et à étendre de même, par exemple, à tous les espaces compacts, les résultats exposés pour les espaces compacts métriques dans la Topologie d’Alexandroff-Hopf [4]). En particulier, le théorème de complétion des espaces uniformes n’est que la transposition, sans aucune modification essentielle, de la construction de Cantor pour les nombres réels.
