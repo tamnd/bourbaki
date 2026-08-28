@@ -459,8 +459,6 @@ $$
 f_J((x_i)_{i \in J}) = f_{J'}((x_i)_{i \in J'}).
 $$
 
-### 6. CÁC BỔ ĐỀ GIAO HOÁN
-
 Giá trị chung của các $f_J((x_i)_{i \in J})$ đối với các tập con hữu hạn $J \supset H$ của $I$ được ký hiệu là $\bigotimes_{i \in I} x_i$.
 
 #### Mệnh đề 9 {#alg-iii-s4-prop-9 .statement}
@@ -470,6 +468,10 @@ Giá trị chung của các $f_J((x_i)_{i \in J})$ đối với các tập con h
 Với mọi tập con hữu hạn $J$ của $I$, cho $B_J$ là cơ sở của $E_J = \bigotimes_{i \in J} E_i$ tích tenxơ của các cơ sở $B_i$ với $i \in J$ (II, § 3, no. 9). Từ các định nghĩa suy ra ngay rằng $B$ là hợp của các $f_J(B_J)$ khi $J$ chạy qua $\mathcal{F}(I)$ và rằng $f_{J',J}(B_J) \subset B_{J'}$ khi $J \subset J'$; do đó $(B_J)$ là một hệ trực tiếp các tập con của các $E_J$ và $B = \lim \rightarrow B_J$; kết luận sau đó suy ra từ II, § 6, no. 2, Hệ quả của Mệnh đề 5.
 
 Cơ sở $B$ cũng được gọi là *tích tenxơ* của các cơ sở $B_i$ với $i \in I$; khi các điều kiện của Mệnh đề 9 được thỏa mãn, các đồng cấu chính tắc $f_J : E_J \to E = \bigotimes_{i \in I} E_i$ là *đơn ánh* đối với mọi tập con $J$ của $I$, vì nếu $B_J$ là cơ sở của $E_J$ là tích tenxơ của các $B_i$ với $i \in J$, thì ngay lập tức kiểm tra được rằng hạn chế của $f_J$ lên $B_J$ là đơn ánh và ánh xạ $B_J$ lên một tập con của $B$.
+
+### 6. CÁC BỔ ĐỀ GIAO HOÁN
+
+#### Bổ đề 1 {#alg-iii-s4-lem-1 .statement}
 
 *Cho* $A$ *là một vành giao hoán, $E$ là một* $A$*-đại số, $(x_i)_{1 \leq i \leq n}$ là một dãy hữu hạn các phần tử của* $E$, $(\lambda_i)_{1 \leq i \leq n}$ *là một dãy hữu hạn các phần tử của* $A$ *và* $y$ *là một phần tử của* $E$; *giả sử rằng*
 $$

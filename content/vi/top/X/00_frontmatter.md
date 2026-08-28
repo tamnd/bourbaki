@@ -22,4 +22,6 @@ glossary_terms_sha256: 3a28f02c9007d69cb1c44dcdd9c81eb58ac4f1ebb8866c461f6a7c81b
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## Các không gian hàm
+## CHƯƠNG X
+
+# Các không gian hàm
