@@ -29,7 +29,7 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: 796ce55dcb8b832fec5b692fbef3a3e1dfe88b97c1c13bbe6d9c3e380ed74e30
+content_sha256: 9ba04e12259ee878ac1fefd9b6f2f877e7ef5f7cfda970c04bb439bcbbf4de7b
 translated_from: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
 source_content_sha256: e0949cbca821dc828cb233084f536457cc1372d91205e8e082bc00f0d79fdc85
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
@@ -466,7 +466,7 @@ $$
 
 (ii) *Nếu $L$ được chứa trong $K^{\mathbf{Z}}$, thì $A/p$ và $(A' \cap L)/p(L)$ có cùng trường các phân thức và trong vành địa phương $A' \cap L$ tương ứng với iđêan nguyên tố $p(L)$, iđêan cực đại được sinh bởi $p$. Ngược lại, nếu hai điều kiện này được thỏa mãn và hơn nữa $\bigcap_{n > 0} p^n A'_p = 0$, thì $L$ được chứa trong $K^{\mathbf{Z}}$.
 
-(i) Nếu $\mathcal{H}$$ là nhóm con của $\mathcal{G}$ bất biến mọi phần tử của $L$, thì rõ ràng nhóm phân tích (tương ứng nhóm quán tính) của $p'$ đối với $L$ là $G^{\mathbf{Z}} \cap \mathcal{H}$ (tương ứng $G^T \cap \mathcal{H}$) và mệnh đề thứ nhất suy ra từ lý thuyết Galois nếu $K'$ là một mở rộng Galois *hữu hạn* của $K$ (*Đại số*, Chương V, § 10, no. 6, Hệ quả 1 của Định lý 3); trong trường hợp tổng quát nó suy ra từ việc $A^{\mathbf{Z}}$ (tương ứng $A^T$) là hợp của các $A^{\mathbf{Z}}(p' \cap K_\alpha)$ (tương ứng $A^T(p' \cap K_\beta)$) theo ký hiệu của *Nhận xét 2*: mọi phần tử $x \in K'$ thuộc một $K$ nào đó, và nếu nó bất biến dưới $G^{\mathbf{Z}}(p') \cap \mathcal{H}$ (tương ứng $G^T(p') \cap \mathcal{H}$) thì nó cũng bất biến dưới $G^{\mathbf{Z}}(p' \cap K_{\beta'}) \cap \mathcal{H}$ (tương ứng $G^T(p' \cap K_{\beta'}) \cap \mathcal{H}$) với một $\beta'$ thích hợp; do đó, theo phần đầu của lập luận, nó thuộc*
+(i) Nếu $\mathcal{H}$ là nhóm con của $\mathcal{G}$ bất biến mọi phần tử của $L$, thì rõ ràng nhóm phân tích (tương ứng nhóm quán tính) của $p'$ đối với $L$ là $G^{\mathbf{Z}} \cap \mathcal{H}$ (tương ứng $G^T \cap \mathcal{H}$) và mệnh đề thứ nhất suy ra từ lý thuyết Galois nếu $K'$ là một mở rộng Galois *hữu hạn* của $K$ (*Đại số*, Chương V, § 10, no. 6, Hệ quả 1 của Định lý 3); trong trường hợp tổng quát nó suy ra từ việc $A^{\mathbf{Z}}$ (tương ứng $A^T$) là hợp của các $A^{\mathbf{Z}}(p' \cap K_\alpha)$ (tương ứng $A^T(p' \cap K_\beta)$) theo ký hiệu của *Nhận xét 2*: mọi phần tử $x \in K'$ thuộc một $K$ nào đó, và nếu nó bất biến dưới $G^{\mathbf{Z}}(p') \cap \mathcal{H}$ (tương ứng $G^T(p') \cap \mathcal{H}$) thì nó cũng bất biến dưới $G^{\mathbf{Z}}(p' \cap K_{\beta'}) \cap \mathcal{H}$ (tương ứng $G^T(p' \cap K_{\beta'}) \cap \mathcal{H}$) với một $\beta'$ thích hợp; do đó, theo phần đầu của lập luận, nó thuộc*
 
 $$
 L(K^{\mathbf{Z}}(p' \cap K_{\alpha})) \subset L(K^{\mathbf{Z}}) \quad (\text{resp. } L(K^T(p' \cap K_{\beta})) \subset L(K^T)).

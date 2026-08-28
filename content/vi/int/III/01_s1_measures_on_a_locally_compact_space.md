@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 537a1077247b8bc3b925580a9e360ade89eb6f7add7ead3d6efb9731ff48fde0
+content_sha256: 2e47cfb8e6d6fa7630efe1d6acc56507a4838f2b4f1be0eb9220ebffa4c6d386
 translated_from: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
 source_content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
@@ -544,7 +544,7 @@ $$
 
 điều này chứng tỏ rằng không tồn tại số hữu hạn nào M thỏa mãn quan hệ (19).
 
-3) Trên đường thẳng thực $\mathbf{R}$$, ánh xạ
+3) Trên đường thẳng thực $\mathbf{R}$, ánh xạ
 
 $$
 f \mapsto \int_{-\infty}^{+\infty} \frac{f(x)\,dx}{1 + x^2}

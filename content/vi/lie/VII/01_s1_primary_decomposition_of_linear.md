@@ -33,7 +33,7 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: e2d6c65bcfb3a572479c2fb8098624402158a0c5a5ef20ce48dea6619dedd5e1
+content_sha256: 15a77d0b314a0b2f47512590bd3e203e835e4f71404ae0e3e4a510bd5fa5fa2a
 translated_from: content/en/lie/VII/01_s1_primary_decomposition_of_linear.md
 source_content_sha256: 6b3a7f44b594659cd25df9f6c944977706304b56c54522de1260ddcaf18891f2
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -439,7 +439,7 @@ Cho $\mathfrak{g}$ là một đại số Lie, $\mathfrak{h}$ là một đại s�
 
 Ánh xạ $(x, y) \rightarrow [x, y]$ từ $\mathfrak{g}\times \mathfrak{g}$ đến $\mathfrak{g}$ là bất biến theo $\mathfrak{g}$ theo đồng nhất thức Jacobi, do đó bất biến theo $\mathfrak{h}$. Phần đầu của (i) vì thế suy ra từ Mệnh đề 2 (ii). Phần (ii) được chứng minh tương tự.
 
-Nếu $x$ thuộc bộ chuẩn hóa của $\mathfrak{g}^0(\mathfrak{h})$ trong $\mathfrak{g}$, (ad $y$).x=-[x, y]\in \mathfrak{g}^0(\mathfrak{h})$ với mọi $y\in \mathfrak{h}$, nên (ad $y$)$^n.x= 0$ với $n$ đủ lớn. Điều này chứng tỏ rằng $x\in \mathfrak{g}^0(\mathfrak{h})$. Mệnh đề (i) nay đã được chứng minh hoàn toàn.
+Nếu $x$ thuộc bộ chuẩn hóa của $\mathfrak{g}^0(\mathfrak{h})$ trong $\mathfrak{g}$, (ad $y$)$.x=-[x, y]\in \mathfrak{g}^0(\mathfrak{h})$ với mọi $y\in \mathfrak{h}$, nên (ad $y$)$^n.x= 0$ với $n$ đủ lớn. Điều này chứng tỏ rằng $x\in \mathfrak{g}^0(\mathfrak{h})$. Mệnh đề (i) nay đã được chứng minh hoàn toàn.
 
 Mệnh đề (iii) suy ra từ Mệnh đề 9 (v).
 

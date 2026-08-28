@@ -53,7 +53,7 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 4c27bdbb5f190c0588028eccebcc56eca9a61c6cf2723c90870ecacf6f7e5ff9
+content_sha256: a9b7860fbdf9433ce2143124fb6587fe2d42760a3c0febebf15cdac7c63da9d9
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
 source_content_sha256: e6fbeed416ce5223d2083efdf2930c58be6c35b9febe48f9870b9bb5669b3907
 translation_model: gpt-5-6-mini
@@ -629,7 +629,7 @@ Với $a > 0$, thương của $\mathbf{Z}$ theo đồng dư $x \equiv y(a)$, t�
 
 #### Mệnh đề 16 {#alg-i-s4-prop-16 .statement}
 
-*Cho $a$ là một số nguyên $> 0$. Các số nguyên $r$ sao cho $0 \leqslant r < a$ lập thành một hệ các đại diện của quan hệ tương đương $x \equiv y \pmod{a}$ trên $\mathbf{Z}.*
+*Cho $a$ là một số nguyên $> 0$. Các số nguyên $r$ sao cho $0 \leqslant r < a$ lập thành một hệ các đại diện của quan hệ tương đương $x \equiv y \pmod{a}$ trên $\mathbf{Z}$.*
 
 Nếu $x$ là một số nguyên $\geqslant 0$, tồn tại các số nguyên $q$ và $r$ (Lý thuyết tập hợp, III, § 5, no. 6) sao cho $x = aq + r$ và $0 \leqslant r < a$ và $x \equiv r \pmod{a}$. Nếu $x$ là một số nguyên $\leqslant 0$, số nguyên $-x$ là $\geqslant 0$ và theo điều trên tồn tại một số nguyên $r$ sao cho $0 \leqslant r < a$ và $-x \equiv r \pmod{a}$. Đặt $r' = 0$ nếu $r = 0$ và $r' = a - r$ nếu $r > 0$, khi đó
 

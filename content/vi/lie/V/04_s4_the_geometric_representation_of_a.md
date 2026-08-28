@@ -48,7 +48,7 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: f69a0101294a4320185a95da674bccbc8f4b104a08dc25cec438ae77740a8447
+content_sha256: c79c904e636e49ef9b9cf392452a3a2e14f7bf2341b180c60b5bf94fe6f7adc2
 translated_from: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
 source_content_sha256: 5021df5e2a7b11b0c834f2fb2e676b42a4dacb732a0bd97707442cbf9c1ff7ef
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini, gpt-5-6
@@ -317,7 +317,7 @@ Cho $E_{s,s'}^*$ là đối ngẫu của mặt phẳng $E_{s,s'} = \mathbf{R}e_s
 
 $p : E^* \to E_{s,s'}^*$
 
-giao hoán với tác động của nhóm $W_{s,s'}$. Rõ ràng $A_s, $A_{s'}$ và $A_s \cap A_{s'}$ là các ảnh ngược qua $p$ của các tập con tương ứng của $E_{s,s'}^*$ (xét như không gian của biểu diễn phản biến của nhóm Coxeter $W_{s,s'}$). Hơn nữa, vì độ dài của một phần tử của $W_{s,s'}$ là như nhau theo $\{s, s'\}$ và theo $S$ (Chương IV, § 1, no. 8), cuối cùng ta quy về trường hợp $S = \{s, s'\}$; nếu $m = m(s, s')$, thì nhóm $W$ khi đó là một nhóm nhị diện có cấp $2m$.
+giao hoán với tác động của nhóm $W_{s,s'}$. Rõ ràng $A_s$, $A_{s'}$ và $A_s \cap A_{s'}$ là các ảnh ngược qua $p$ của các tập con tương ứng của $E_{s,s'}^*$ (xét như không gian của biểu diễn phản biến của nhóm Coxeter $W_{s,s'}$). Hơn nữa, vì độ dài của một phần tử của $W_{s,s'}$ là như nhau theo $\{s, s'\}$ và theo $S$ (Chương IV, § 1, no. 8), cuối cùng ta quy về trường hợp $S = \{s, s'\}$; nếu $m = m(s, s')$, thì nhóm $W$ khi đó là một nhóm nhị diện có cấp $2m$.
 
 Ta xét hai trường hợp:
 a) $m = +\infty$.
@@ -523,7 +523,7 @@ Cho $G$ là nhóm con của $\mathbf{GL}(E)$ gồm các tự đẳng cấu giữ
 
 Theo Hệ quả 3 của Định lý 1, $W$ rời rạc trong $\mathbf{GL}(E)$, và do đó trong $G$, và tác động đúng trên $A$. Cho $s \in S$. Vì Card $S \ge 2$, siêu phẳng của $E^*$ trực giao với $e_s$ không trực giao với $v$ và giao của nó với $A$, tức $L_s$, thật sự là một siêu phẳng. Phép dời hình ứng với $s$ vì thế là một phép dời hình có cấp 2, giữ cố định mọi điểm của $L_s$: nó tất yếu là phép phản xạ trực giao gắn với $L_s$. Suy ra $W$ được sinh bởi các phép phản xạ trực giao. Định lý 2 cho thấy ngay rằng nó là vô hạn và Mệnh đề 7 rằng nó là cốt yếu và bất khả quy.
 
-Vì $C$ là một nón đơn hình mở, có các vách là các siêu phẳng có phương trình $\langle x^*, e_s \rangle = 0$ (với $s \in S$), nên giao $C \cap A$ là một tập con lồi, do đó liên thông, vừa mở vừa đóng, của phần bù của hợp các $L_s$ trong $A$. Hơn nữa, $C \cap A$ không rỗng, vì nếu $x^* \in C$ thì $\langle x^*, v \rangle = \sum_s v_s \langle x^*, e_s \rangle > 0$ và $\langle x^*, v \rangle^{-1} x^* \in C \cap A$. Suy ra $C \cap A$ là một buồng của $A$ đối với hệ các $L_s$. Hơn nữa, $w(C \cap A) \cap L_s = \varnothing$ với mọi $w \in W$ (xem no. 4, tính chất (P_n)) và suy ra $C \cap A$ là một buồng của $A$ đối với hệ gồm các ảnh của các $L_s bởi các phần tử của W; theo Hệ quả của Định lý 1 của § 3, no. 2, suy ra $C \cap A$ là một buồng của $A$ đối với W.
+Vì $C$ là một nón đơn hình mở, có các vách là các siêu phẳng có phương trình $\langle x^*, e_s \rangle = 0$ (với $s \in S$), nên giao $C \cap A$ là một tập con lồi, do đó liên thông, vừa mở vừa đóng, của phần bù của hợp các $L_s$ trong $A$. Hơn nữa, $C \cap A$ không rỗng, vì nếu $x^* \in C$ thì $\langle x^*, v \rangle = \sum_s v_s \langle x^*, e_s \rangle > 0$ và $\langle x^*, v \rangle^{-1} x^* \in C \cap A$. Suy ra $C \cap A$ là một buồng của $A$ đối với hệ các $L_s$. Hơn nữa, $w(C \cap A) \cap L_s = \varnothing$ với mọi $w \in W$ (xem no. 4, tính chất (P_n)) và suy ra $C \cap A$ là một buồng của $A$ đối với hệ gồm các ảnh của các $L_s$ bởi các phần tử của W; theo Hệ quả của Định lý 1 của § 3, no. 2, suy ra $C \cap A$ là một buồng của $A$ đối với W.
 
 Cho $a_s^*$ là đỉnh của đơn hình $C \cap A$ không thuộc $L_s$. Ta có
 

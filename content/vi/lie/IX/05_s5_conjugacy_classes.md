@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 582fbb045468492b0d5d36a3c37a7781d9fdffbb3b7007e6b9039ecef20fab70
+content_sha256: 8ef34e5a105eeb339ec44a9f322621c5aff2b1345abacbac955fce80d3b4e06f
 translated_from: content/en/lie/IX/05_s5_conjugacy_classes.md
 source_content_sha256: 5ccf5c9edd26e6c041542a3b7f3699151765c58b6cb7db2c78180e723a3f0822
 translation_model: gpt-5.4-mini, gpt-5-mini
@@ -213,7 +213,7 @@ b) Tồn tại một xuyến cực đại K của G và một buồng của L(K)
 
 c) Nếu G là đơn liên, tập các điểm bất động của $u$ liên thông.
 
-Mệnh đề a) là trường hợp riêng $x=e$ của Mđề. 3. Giờ ta giả sử rằng G là đơn liên và chứng minh b) và c). Cho $x$ là một phần tử của G được $u$ cố định, và cho $g$ là một phần tử chính quy của G, được $u$ cố định và giao hoán với $x$ (Mđề. 3). Bộ trung tâm của $g$ là một xuyến cực đại của G (mục 2, Nhận xét 2), ổn định dưới $u$, và chứa $x$ và $g$. Theo Hệ quả 3 của Mđề. 2 của mục 2, tồn tại một alcove duy nhất A của L(K) sao cho $g\in$ exp A và $0\in A$; vì $g$ được cố định bởi $u, L(u)$ để lại A, và do đó cũng để lại buồng của L(K) chứa A, ổn định. Điều này chứng minh b); hơn nữa, tập hợp các điểm của K được $u$ cố định là liên thông (Bổ đề 3) và chứa $x$ và $e$, suy ra c) ($Tôpô học Đại cương, Ch. I, §11, mục 1, Mđề. 2).
+Mệnh đề a) là trường hợp riêng $x=e$ của Mđề. 3. Giờ ta giả sử rằng G là đơn liên và chứng minh b) và c). Cho $x$ là một phần tử của G được $u$ cố định, và cho $g$ là một phần tử chính quy của G, được $u$ cố định và giao hoán với $x$ (Mđề. 3). Bộ trung tâm của $g$ là một xuyến cực đại của G (mục 2, Nhận xét 2), ổn định dưới $u$, và chứa $x$ và $g$. Theo Hệ quả 3 của Mđề. 2 của mục 2, tồn tại một alcove duy nhất A của L(K) sao cho $g\in$ exp A và $0\in A$; vì $g$ được cố định bởi $u, L(u)$ để lại A, và do đó cũng để lại buồng của L(K) chứa A, ổn định. Điều này chứng minh b); hơn nữa, tập hợp các điểm của K được $u$ cố định là liên thông (Bổ đề 3) và chứa $x$ và $e$, suy ra c) (Tôpô học Đại cương, Ch. I, §11, mục 1, Mđề. 2).
 
 Còn phải chứng minh $b)$ trong trường hợp tổng quát. Bây giờ, nếu $\widetilde{D}(G)$ là bao phủ phổ quát của D(G), và nếu $f: \widetilde{D}(G)\rightarrow G$ là cấu xạ chính tắc, thì tồn tại một tự đẳng cấu $\widetilde{u}$ của $\widetilde{D}(G)$ sao cho $f\circ \widetilde{u}=u\circ f$. Nếu $\widetilde{K}$ là một xuyến cực đại của $\widetilde{D}(G)$ và $\widetilde{C}$ một buồng của $L( \widetilde{K})$, ổn định dưới $\widetilde{u}$ (điều này tồn tại theo những gì đã được chứng minh), thì tồn tại (§2, mục 3, Nhận xét 2) một xuyến cực đại duy nhất K của G và một buồng duy nhất C của L(K) sao cho $\widetilde{K} =f^{-1}(K)$ và $\widetilde{C} = L(f)^{-1}$(C), và ta thấy ngay rằng K và C ổn định dưới $u$, do đó mệnh đề $b)$ trong trường hợp tổng quát.
 

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 8de5ab3fb6e5c38d64f4688f29f6b890edd404e47cd79d35b943c6267fb9f794
+content_sha256: ec8ac1a671349934fd9be471f9bb3a52d13500f5e04610ce2f18ceb71140eb1c
 translated_from: content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md
 source_content_sha256: fbea58f10a6728a76148dca7971a337d3f9c2d87c3edf12d96a91f1434fc25b7
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini
@@ -517,7 +517,7 @@ Có thể chứng minh (xem Bài tập 2 của §5) rằng $\pi_2(G/H)$ bằng k
 
 Đồng cấu $\pi_1(D(G))\rightarrow \pi_1(G)$ tương ứng với sự nhúng của D(G) vào G cảm sinh một đẳng cấu từ $\pi_1(D(G))$ lên nhóm con xoắn của $\pi_1(G)$.
 
-Thật vậy, $T\cap D(G)$ là một xuyến cực đại của D(G) (§2, no. 3, Mệnh đề $1c$)$); từ dãy khớp
+Thật vậy, $T\cap D(G)$ là một xuyến cực đại của D(G) (§2, no. 3, Mệnh đề $1c$)); từ dãy khớp
 
 $$
 0\longrightarrow \Gamma (T\cap D(G))\longrightarrow \Gamma (T)\longrightarrow \Gamma (T/(T\cap D(G)))\longrightarrow 0
@@ -627,7 +627,7 @@ Với thuật ngữ đã đưa vào ở số trước, một phần quan trọng
 
 #### Định lý 2 {#lie-ix-s4-thm-2 .statement tag=01CQ}
 
-a$) $(X(T),X(T/(T\cap D(G)),R(G,T)))$ là một biểu đồ nghiệm rút gọn; nhóm Weyl của nó gồm các $X(w)$ với $w\in W$; nhóm X(C(G)) đẳng cấu với thương của X(T) theo nhóm con sinh bởi R(G,T).
+a) $(X(T),X(T/(T\cap D(G)),R(G,T)))$ là một biểu đồ nghiệm rút gọn; nhóm Weyl của nó gồm các $X(w)$ với $w\in W$; nhóm X(C(G)) đẳng cấu với thương của X(T) theo nhóm con sinh bởi R(G,T).
 
 b) $(\Gamma (T), \Gamma (C(G)_0),R^{\vee}(G,T))$ là một biểu đồ nghiệm gốc rút gọn; nhóm Weyl của nó gồm các $\Gamma (w)$, với $w\in W$; nhóm $\pi_1(G)$ đẳng cấu với thương của $\Gamma (T)$ theo nhóm con được sinh bởi $R^{\vee}(G,T)$.
 
@@ -685,7 +685,7 @@ Bây giờ cho $G'$ là một nhóm Lie compact liên thông khác, $T'$ là m�
 
 Cho $\varphi$ là một đẳng cấu từ $D^*(G',T')$ đến $D^*(G,T)$ (tương ứng từ $D_*(G,T)$ đến $D_*(G',T')$). Tồn tại một đẳng cấu $f: G\rightarrow G'$ sao cho $f(T) = T'$ và $\varphi = D^*(f)$ (tương ứng $\varphi = D_*(f)$); nếu $f_1$ và $f_2$ là hai đẳng cấu như thế, thì tồn tại một phần tử $t$ của T sao cho $f_2=f_1\circ$ tự đẳng cấu trong $t$.
 
-Mệnh đề thứ hai suy ra ngay từ Mệnh đề 9 (no. 4); chẳng hạn, ta chứng minh mệnh đề thứ nhất cho các sơ đồ đồng biến. Ký hiệu bởi $\mathfrak{g}'$ (tương ứng $\mathfrak{t}'$) đại số Lie của $G'$ (tương ứng $T'$), và bởi $\mathfrak{g}'_{\mathbf{C}}$ (tương ứng $\mathfrak{t}'_{\mathbf{C}}$) đại số Lie phức hóa của nó. Theo Chương VIII, §4, no. 4, Định lý 2 (i), tồn tại một đẳng cấu $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ ánh xạ $\mathfrak{t}_{\mathbf{C}}$ thành $\mathfrak{t}'_{\mathbf{C}}$ và cảm sinh trên $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ đẳng cấu đã cho $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. Khi đó $\mathfrak{g}$ và $\psi^{-1}(\mathfrak{g}')$ là hai dạng compact của $\mathfrak{g}_{\mathbf{C}}$ có cùng giao $\mathfrak{t}$ với $\mathfrak{t}_{\mathbf{C}}$; theo §3, no. 2, Mệnh đề 3, tồn tại một tự đẳng cấu trong $\theta$ của $\mathfrak{g}_{\mathbf{C}}$ cảm sinh đồng nhất trên $\mathfrak{t}_{\mathbf{C}}$ và sao cho $\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$. Bằng cách thay thế $\psi$ bởi $\psi \circ \theta$, ta có thể giả sử rằng $\psi$ ánh xạ $\mathfrak{g}$ vào $\mathfrak{g}'$. Hơn nữa, theo Mệnh đề 4 của no. 2, tồn tại một cấu xạ duy nhất $f_T: T\rightarrow T'$ sao cho $\Gamma (f_T) =\varphi$. Khi đó, hạn chế của $\psi$ lên $\mathfrak{t}$ là $L(f_T)$, và theo §2, no. 6, Mệnh đề 8, tồn tại một cấu xạ duy nhất $f: G\rightarrow G'$ cảm sinh $f_T$ trên T và $\psi$ trên $\mathfrak{g}_{\mathbf{C}}$. Áp dụng điều trên cho $\varphi^{-1}$ và $\psi^{-1}$ ta thu được một cấu xạ nghịch đảo của $f$, do đó $f là một đẳng cấu. Khi đó $D_*(f) =\Gamma (f_T) =\varphi$, suy ra mệnh đề.
+Mệnh đề thứ hai suy ra ngay từ Mệnh đề 9 (no. 4); chẳng hạn, ta chứng minh mệnh đề thứ nhất cho các sơ đồ đồng biến. Ký hiệu bởi $\mathfrak{g}'$ (tương ứng $\mathfrak{t}'$) đại số Lie của $G'$ (tương ứng $T'$), và bởi $\mathfrak{g}'_{\mathbf{C}}$ (tương ứng $\mathfrak{t}'_{\mathbf{C}}$) đại số Lie phức hóa của nó. Theo Chương VIII, §4, no. 4, Định lý 2 (i), tồn tại một đẳng cấu $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ ánh xạ $\mathfrak{t}_{\mathbf{C}}$ thành $\mathfrak{t}'_{\mathbf{C}}$ và cảm sinh trên $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ đẳng cấu đã cho $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. Khi đó $\mathfrak{g}$ và $\psi^{-1}(\mathfrak{g}')$ là hai dạng compact của $\mathfrak{g}_{\mathbf{C}}$ có cùng giao $\mathfrak{t}$ với $\mathfrak{t}_{\mathbf{C}}$; theo §3, no. 2, Mệnh đề 3, tồn tại một tự đẳng cấu trong $\theta$ của $\mathfrak{g}_{\mathbf{C}}$ cảm sinh đồng nhất trên $\mathfrak{t}_{\mathbf{C}}$ và sao cho $\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$. Bằng cách thay thế $\psi$ bởi $\psi \circ \theta$, ta có thể giả sử rằng $\psi$ ánh xạ $\mathfrak{g}$ vào $\mathfrak{g}'$. Hơn nữa, theo Mệnh đề 4 của no. 2, tồn tại một cấu xạ duy nhất $f_T: T\rightarrow T'$ sao cho $\Gamma (f_T) =\varphi$. Khi đó, hạn chế của $\psi$ lên $\mathfrak{t}$ là $L(f_T)$, và theo §2, no. 6, Mệnh đề 8, tồn tại một cấu xạ duy nhất $f: G\rightarrow G'$ cảm sinh $f_T$ trên T và $\psi$ trên $\mathfrak{g}_{\mathbf{C}}$. Áp dụng điều trên cho $\varphi^{-1}$ và $\psi^{-1}$ ta thu được một cấu xạ nghịch đảo của $f$, do đó $f$ là một đẳng cấu. Khi đó $D_*(f) =\Gamma (f_T) =\varphi$, suy ra mệnh đề.
 
 Chú ý rằng, nếu T và $T'$ là hai xuyến cực đại của G, thì các biểu đồ $D^*(G,T)$ và $D^*(G,T')$ đẳng cấu với nhau (nếu $g\in G$ sao cho $gTg^{-1}= T'$, thì Int $g$ là một đẳng cấu từ G đến G ánh xạ T thành $T'$). Kí hiệu $D^*(G)$ là lớp đẳng cấu của $D^*(G,T)$ (xem Lý thuyết tập hợp, Chương II, §6, no. 2); đây là một biểu đồ nghiệm chỉ phụ thuộc vào G và được gọi là biểu đồ phản biến của G. Biểu đồ đồng biến $D_*(G)$ của G được định nghĩa tương tự, và ta thu được:
 

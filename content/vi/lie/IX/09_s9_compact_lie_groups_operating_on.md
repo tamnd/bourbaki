@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: b308a8c406a09479ac4d6c41168bff4088f9d912ac3ee621ad5111da37c28fb1
+content_sha256: d78e014d5eeb9d9c1783fc6ed8b06f3e8b0fb3b96a05eda419cf3bbfe55f3707
 translated_from: content/en/lie/IX/09_s9_compact_lie_groups_operating_on.md
 source_content_sha256: 2a82e6269703610eb0aec6a364adfc78d840c576702417f4d79de46898d441fb
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini
@@ -275,7 +275,7 @@ $b)$ Cho $f$ là một đẳng cấu từ $H'$ đến H. Dãy $(f^n(H))_{n\geq 0
 
 Đó là toàn bộ đoạn văn. Hãy viết bản dịch của mọi thứ nằm giữa hai dòng đó, và dừng ở đó.
 
-c)$ Cho $t, t'\in \mathscr{T}$ sao cho $t\leq t'$ và $t'\leq t$. Khi đó, tồn tại $H,H_1\in t$ và $H',H'_1\in t'$ sao cho $H\supset H'$ và $H_1\subset H'_1$. Gọi $g$ và $g'$ là hai phần tử của G sao cho $H_1=gHg^{-1}$ và $H'_1=g'H'g^{'-1}$; đặt $u=g^{'-1}g$. Khi đó
+c) Cho $t, t'\in \mathscr{T}$ sao cho $t\leq t'$ và $t'\leq t$. Khi đó, tồn tại $H,H_1\in t$ và $H',H'_1\in t'$ sao cho $H\supset H'$ và $H_1\subset H'_1$. Gọi $g$ và $g'$ là hai phần tử của G sao cho $H_1=gHg^{-1}$ và $H'_1=g'H'g^{'-1}$; đặt $u=g^{'-1}g$. Khi đó
 
 $$
 uHu^{-1}\subset H'\subset H
@@ -299,7 +299,7 @@ Hơn nữa, $u$ có kiểu $t$ khi và chỉ khi $G_u$ liên hợp với H trong
 
 Để chứng minh $c)$, xét rằng giả thiết $X/G$ liên thông ngụ ý rằng X thuần có số chiều hữu hạn: thật vậy, với mọi $k\geq 0$, ký hiệu bởi $X_k$ tập các điểm $x\in X$ sao cho dim$_xX =k$; khi đó $X_k$ mở và đóng trong X, và ổn định dưới tác dụng của G, nên X bằng một trong các $X_k$.
 
-Ta nay chứng minh $c)$ bằng quy nạp theo chiều của X, mệnh đề hiển nhiên khi dim X = 0. Cho $\tau$ là một phần tử cực đại trong số các kiểu quỹ đạo của các điểm của X (một phần tử như vậy tồn tại theo Bổ đề $6c$)$). Ta sẽ chứng minh điều sau:
+Ta nay chứng minh $c)$ bằng quy nạp theo chiều của X, mệnh đề hiển nhiên khi dim X = 0. Cho $\tau$ là một phần tử cực đại trong số các kiểu quỹ đạo của các điểm của X (một phần tử như vậy tồn tại theo Bổ đề $6c$)). Ta sẽ chứng minh điều sau:
 
 $c')$ Với mọi tập con A của $X_{(t)}$, mở và đóng trong $X_{(\tau)}$ và ổn định dưới tác dụng của G, bao đóng $\overline{A}$ của A trong X là mở.
 
@@ -315,7 +315,7 @@ Với ký hiệu trong Định lý $2c)$, các điểm của $X_{(\tau)}$ đư�
 
 #### Ví dụ 1 {#lie-ix-s9-n4-exa-1 .statement tag=01HV}
 
-Cho G là một nhóm Lie compact liên thông, tác động lên chính nó bởi các tự đẳng cấu nội. Nhóm ổn định của một phần tử $x$ của G đơn giản là tập trung hóa $Z(x)$ của $x$ trong G; nó chứa mọi xuyến cực đại chứa $x$. Do đó kiểu quỹ đạo lớn nhất $\tau$ là lớp liên hợp của các xuyến cực đại của G. Tập mở $G_{(\tau)}$ là tập các phần tử rất chính quy của G (§5, no. 1, Nhận xét). Giả sử rằng G là đơn liên thông. Khi đó $G_{(\tau)}$ bằng với tập $G_r$ của các phần tử chính quy của G (§5, no. 2, Nhận xét 2); nếu A là một alcove của một đại số con Cartan $\mathfrak{t}$ của $\mathfrak{g}= L(G)$, thì ánh xạ hợp thành $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) là một đẳng cấu của các đa tạp giải tích. Thật vậy, đây là một đồng phôi (§5, no. 2, Hệ quả của Mệnh đề 2); lấy $a\in A$, đặt t=$ exp $a$ và đồng nhất $T_t(G)$ với $\mathfrak{g}$ bằng phép tịnh tiến $\gamma (t)$. Khi đó, ánh xạ tiếp tuyến $T_a(\pi )$ có thể được đồng nhất với hợp thành của đơn ánh chính tắc $\mathfrak{t}\rightarrow \mathfrak{g}$ và ánh xạ thương $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1$). Vì $t$ là chính quy, $T_a(\pi )$ là một đẳng cấu, do đó có kết quả đã nêu (Differentiable and Analytic Manifolds, Kết quả, 5.7.8).
+Cho G là một nhóm Lie compact liên thông, tác động lên chính nó bởi các tự đẳng cấu nội. Nhóm ổn định của một phần tử $x$ của G đơn giản là tập trung hóa $Z(x)$ của $x$ trong G; nó chứa mọi xuyến cực đại chứa $x$. Do đó kiểu quỹ đạo lớn nhất $\tau$ là lớp liên hợp của các xuyến cực đại của G. Tập mở $G_{(\tau)}$ là tập các phần tử rất chính quy của G (§5, no. 1, Nhận xét). Giả sử rằng G là đơn liên thông. Khi đó $G_{(\tau)}$ bằng với tập $G_r$ của các phần tử chính quy của G (§5, no. 2, Nhận xét 2); nếu A là một alcove của một đại số con Cartan $\mathfrak{t}$ của $\mathfrak{g}= L(G)$, thì ánh xạ hợp thành $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) là một đẳng cấu của các đa tạp giải tích. Thật vậy, đây là một đồng phôi (§5, no. 2, Hệ quả của Mệnh đề 2); lấy $a\in A$, đặt $t=$ exp $a$ và đồng nhất $T_t(G)$ với $\mathfrak{g}$ bằng phép tịnh tiến $\gamma (t)$. Khi đó, ánh xạ tiếp tuyến $T_a(\pi )$ có thể được đồng nhất với hợp thành của đơn ánh chính tắc $\mathfrak{t}\rightarrow \mathfrak{g}$ và ánh xạ thương $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1$). Vì $t$ là chính quy, $T_a(\pi )$ là một đẳng cấu, do đó có kết quả đã nêu (Differentiable and Analytic Manifolds, Kết quả, 5.7.8).
 
 #### Ví dụ 2 {#lie-ix-s9-n4-exa-2 .statement tag=01HW}
 

@@ -52,7 +52,7 @@ subsections:
       pdf_page: 86
 statements: 50
 exercises: 27
-content_sha256: bdb3caedb5662f51a80305eb3132726db81e0e318033307a2040c717da673bd3
+content_sha256: d78791fb9f3be6beede29ddd0ed1596d7e24d3cca6dcb5d8d5a40dc7fdf5bd6d
 translated_from: content/en/lie/I/06_s6_semi_simple_lie_algebras.md
 source_content_sha256: b1e634de71044113952c7b93184eddb90c01c9866c2a39749c1000a89ffd9f13
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
@@ -513,7 +513,7 @@ Theo Mệnh đề 5, khi đó $g$ là tích của tâm $r$ của nó với $\mat
 
 (b) $[g, r] \neq \{0\}$ và các iđêan duy nhất của $g$ được chứa trong $r$ là $\{0\}$ và $r$.
 
-Sau đó $[g, r] = r,\ [r, r] = \{0\}$ và tâm của $g$ là không. Gọi $M$ (tương ứng $N$) là không gian con của $\mathcal{L}(g)$ gồm các ánh xạ tuyến tính từ $g$ vào $r$ mà hạn chế lên $r$ là một phép vị tự (tương ứng không); do đó $N$ có đối chiều 1 trong $M$. Với $m \in M$, ký hiệu $\lambda(m)$ là tỉ số của phép vị tự của $r$ được xác định bởi $m$. Gọi $\sigma$ là biểu diễn của $g$ trên $\mathcal{L}(g) được dẫn xuất một cách chính tắc từ biểu diễn liên hợp; nhắc lại rằng $\sigma(x).u = [\mathrm{ad}_g x, u]$ với mọi $x \in g$ và mọi $u \in \mathcal{L}(g)$.
+Sau đó $[g, r] = r,\ [r, r] = \{0\}$ và tâm của $g$ là không. Gọi $M$ (tương ứng $N$) là không gian con của $\mathcal{L}(g)$ gồm các ánh xạ tuyến tính từ $g$ vào $r$ mà hạn chế lên $r$ là một phép vị tự (tương ứng không); do đó $N$ có đối chiều 1 trong $M$. Với $m \in M$, ký hiệu $\lambda(m)$ là tỉ số của phép vị tự của $r$ được xác định bởi $m$. Gọi $\sigma$ là biểu diễn của $g$ trên $\mathcal{L}(g)$ được dẫn xuất một cách chính tắc từ biểu diễn liên hợp; nhắc lại rằng $\sigma(x).u = [\mathrm{ad}_g x, u]$ với mọi $x \in g$ và mọi $u \in \mathcal{L}(g)$.
 
 Rõ ràng $\sigma(x)(M) \subset N$ với mọi $x \in g$. Hơn nữa, nếu $x \in r, y \in g$ và $u \in M$, thì
 $$
@@ -618,7 +618,7 @@ Do tính tuyến tính, chỉ cần xét trường hợp $n \in N_\delta$. Nếu
 
 (b) *Với mỗi lớp $\delta$ của các biểu diễn đơn của $g$ hữu hạn chiều trên $K$, gọi $S_\delta$ là thành phần đẳng kiểu của $S$ thuộc loài $\delta$. Khi đó $S_\delta$ là một $S_0$-môđun sinh hữu hạn.*
 
-Gọi $\overline{S} \subset S$ là iđêan của các phần tử của $S$ không có số hạng hằng. Gọi $I$ là iđêan của $S$ được sinh bởi $S_0 \cap \overline{S}$ và gọi $(s_1, s_2, \ldots, s_p)$ là một hệ hữu hạn các phần tử sinh của iđêan $I$ (Đại số giao hoán, Chương III, § 3). Có thể giả thiết rằng các $s_i$ thuộc $S_0 \cap S̄$ và thuần nhất (các $x_S$ bảo toàn các bậc và do đó mỗi $S_\delta$ là một môđun con phân bậc). Gọi $S_1$ là đại số con của $S$ được sinh bởi 1 và các $s_i$. Khi đó $S_1 \subset S_0$. Ta chứng minh rằng $S_1 = S_0$. Vì mục đích này, ta chứng minh rằng mọi phần tử thuần nhất $s$ của $S_0$ đều thuộc $S_1$, bằng cách quy nạp theo bậc $n$ của $s$. Nếu $n = 0$, mệnh đề của ta là hiển nhiên. Do đó giả sử $n > 0$ và mệnh đề của ta đã được chứng minh khi bậc của $s$ là $< n$. Vì $s \in I$, $s = $\sum_{i=1}^{p} s_i s'_i$, trong đó các $s'_i$ là các phần tử của $S$ có thể giả thiết là thuần nhất, với deg(s'_i) = deg(s) − deg(s_i) < n. Có thể áp dụng Bổ đề 5, vì $g$-môđun $S$ là nửa đơn (no. 5, Hệ quả 2 của Định lý 4); theo ký hiệu của bổ đề này,
+Gọi $\overline{S} \subset S$ là iđêan của các phần tử của $S$ không có số hạng hằng. Gọi $I$ là iđêan của $S$ được sinh bởi $S_0 \cap \overline{S}$ và gọi $(s_1, s_2, \ldots, s_p)$ là một hệ hữu hạn các phần tử sinh của iđêan $I$ (Đại số giao hoán, Chương III, § 3). Có thể giả thiết rằng các $s_i$ thuộc $S_0 \cap S̄$ và thuần nhất (các $x_S$ bảo toàn các bậc và do đó mỗi $S_\delta$ là một môđun con phân bậc). Gọi $S_1$ là đại số con của $S$ được sinh bởi 1 và các $s_i$. Khi đó $S_1 \subset S_0$. Ta chứng minh rằng $S_1 = S_0$. Vì mục đích này, ta chứng minh rằng mọi phần tử thuần nhất $s$ của $S_0$ đều thuộc $S_1$, bằng cách quy nạp theo bậc $n$ của $s$. Nếu $n = 0$, mệnh đề của ta là hiển nhiên. Do đó giả sử $n > 0$ và mệnh đề của ta đã được chứng minh khi bậc của $s$ là $< n$. Vì $s \in I$, $s = \sum_{i=1}^{p} s_i s'_i$, trong đó các $s'_i$ là các phần tử của $S$ có thể giả thiết là thuần nhất, với deg(s'_i) = deg(s) − deg(s_i) < n. Có thể áp dụng Bổ đề 5, vì $g$-môđun $S$ là nửa đơn (no. 5, Hệ quả 2 của Định lý 4); theo ký hiệu của bổ đề này,
 
 $$
 s = s^{\natural} = \sum_{i=1}^{p} (s_i s'_i)^{\natural} = \sum_{i=1}^{p} s_i {s'_i}^{\natural}.

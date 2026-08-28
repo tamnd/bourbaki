@@ -68,7 +68,7 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: bdc8fed3213ab3fd019c65a67d192da4679d94c9f8afbc50def989256d5022a5
+content_sha256: 572d7cb4fc698e0ffc55b44c48e584788afd2e0674d75a7b827538e148357aee
 translated_from: content/en/lie/VI/04_s4_classification_of_root_systems.md
 source_content_sha256: 0c153ae39564b4d702d2c032dca1d31b01e6780eaeb4dcb9c8642c3524393f7c
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini, gpt-5-6
@@ -733,7 +733,7 @@ $$
 
 Với $l \geq 2$. $(\tilde{\alpha}|\alpha\_i) = 0$ với $0 < i < l$ và $(\tilde{\alpha}|\alpha\_1) = (\tilde{\alpha}|\alpha\_l) = 1$. Do đó đồ thị Dynkin hoàn chỉnh là:
 
-![Dynkin graph]$[https://i.imgur.com/3Q5z5QG.png](https://i.imgur.com/3Q5z5QG.png))
+![Dynkin graph](https://i.imgur.com/3Q5z5QG.png)
 
 (V) Đồng nhất $V$ với đối ngẫu của nó bằng cách sử dụng tích vô hướng, ta có $\tilde{\alpha} = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$ với mọi $\alpha \in \mathbf{R}$, do đó $R^\* = R$.
 

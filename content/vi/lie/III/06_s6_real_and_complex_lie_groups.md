@@ -52,7 +52,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: c89c0aaa097556152d5f726849d5c4adac4ecff2948d8fd49b39909d8727de75
+content_sha256: 70ce5cfb50b5f70a22dde3fa17b219914abe122e58e542beaaf27e02cd0b5764
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 source_content_sha256: 532e6b91ea742fe6cdf1e76c5f9b064a8adb5f9b7f53de5e2c9a067fa23efbc9
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
@@ -638,7 +638,7 @@ Tính duy nhất của $\psi$ suy ra từ Bổ đề 4. Cho P là nhóm phép ho
 
 $$ f(u_1u_2u_3) = f(u_1)f(u_2)f(u_3) $$
 
-với $u_1, u_2, u_3$ trong W. Áp dụng Bổ đề 1 của no. 1, ta thu được một cấu xạ f' của G vào P mở rộng $f|W$. Đặt $\psi'(g, x) = f'(g)(x)$ với mọi $(g, x) \in G \times X$. Khi đó $\psi'$ là một luật phép toán trái của G trên X và trùng với $\psi$ trên $W \times X$. Vì $\psi'(g, \psi'(g', x)) = \psi'(gg', x)$ với $(g, g', x) \in G \times G \times X$, tính liên tục của $\psi$ trên $W \times X$ suy ra tính liên tục của $\psi'$ trên $gW \times X$ với mọi $g \in G$. Do đó $\psi'$ liên tục. Nếu $\psi` có lớp $C^r$, ta thấy tương tự rằng $\psi'$ có lớp $C^r$.
+với $u_1, u_2, u_3$ trong W. Áp dụng Bổ đề 1 của no. 1, ta thu được một cấu xạ f' của G vào P mở rộng $f|W$. Đặt $\psi'(g, x) = f'(g)(x)$ với mọi $(g, x) \in G \times X$. Khi đó $\psi'$ là một luật phép toán trái của G trên X và trùng với $\psi$ trên $W \times X$. Vì $\psi'(g, \psi'(g', x)) = \psi'(gg', x)$ với $(g, g', x) \in G \times G \times X$, tính liên tục của $\psi$ trên $W \times X$ suy ra tính liên tục của $\psi'$ trên $gW \times X$ với mọi $g \in G$. Do đó $\psi'$ liên tục. Nếu $\psi'$ có lớp $C^r$, ta thấy tương tự rằng $\psi'$ có lớp $C^r$.
 
 #### Định lý 5 {#lie-iii-s6-thm-5 .statement}
 

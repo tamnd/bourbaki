@@ -42,7 +42,7 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: 143e0aebc57a162d0ed904fa579b6e2872116b2683bc13ca17010e7e0b630d91
+content_sha256: 80fc6c5ea973cf282636b4f6ccc9be503482c635582897d7ed47e0ae0164f07c
 translated_from: content/en/alg/V/14_s14_transcendental_extensions.md
 source_content_sha256: eb35fff77acc6bd8e77061717af100108c134eeee56b2d3ebd744782ee54fafb
 translation_model: gpt-5.4-mini
@@ -374,7 +374,7 @@ B = A, U ... U A_{n-1}. Theo giả thiết quy nạp, các tập con $A_1, \ldot
 
 — *Cho* (E_i)_{i \in I} *là một họ các mở rộng con của một mở rộng của một trường K*, và đặt E là trường sinh bởi $\bigcup_{i \in I} E_i$.
 
-a) *Ta có* tr . deg$_K$ E \leq \sum_{i \in I} \text{tr . deg}_K E_i$, *với đẳng thức khi họ* (E_i)_{i \in I} *là tự do đại số trên K*.
+a) *Ta có* tr . deg$_K$ E $\leq \sum_{i \in I} \text{tr . deg}_K E_i$, *với đẳng thức khi họ* $(E_i)_{i \in I}$ *là tự do đại số trên K*.
 
 b) *Ngược lại, giả sử rằng* tr . deg$_K$ E = \sum_{i \in I} \text{tr . deg}_K E_i *và* tr . deg$_K$ E *hữu hạn; khi đó họ* (E_i)_{i \in I}, *là tự do đại số trên K*.
 

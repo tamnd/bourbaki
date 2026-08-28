@@ -33,7 +33,7 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: dee7e8cb1e1ee6b070aa1127bac339907b57e1cfdc7f90ee3d2b75b36a518dfb
+content_sha256: aee3979b6c38e16114c72f4f042747d7c850ccfad268598c8aff3eecfd62aa43
 translated_from: content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md
 source_content_sha256: f39f78e5e768eaa875cc9e5c66d099af4d6fb213b7eac794d0dda54d2fbca97d
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -239,7 +239,7 @@ Bây giờ cho $\mathfrak{m}'$ là một đại số Lie con của $\mathfrak{g}
 
 #### Bổ đề 1 {#lie-vii-s5-lem-1 .statement tag=00WZ}
 
-Cho $\mathfrak{n}$ là một đại số Lie con của $\mathfrak{g}\mathfrak{l}(V)$ gồm các tự đồng cấu lũy linh, và N là nhóm con exp$\mathfrak{n}$ của $\mathbf{G}\mathbf{L}(V)$ ($§3, no. 1, Bổ đề 1).
+Cho $\mathfrak{n}$ là một đại số Lie con của $\mathfrak{g}\mathfrak{l}(V)$ gồm các tự đồng cấu lũy linh, và N là nhóm con exp$\mathfrak{n}$ của $\mathbf{G}\mathbf{L}(V)$ (§3, no. 1, Bổ đề 1).
 
 (i) Cho $\rho$ là một biểu diễn tuyến tính hữu hạn chiều của $\mathfrak{n}$ trên W, sao cho các phần tử của $\rho (\mathfrak{n})$ là lũy linh, $W'$ là một không gian con vectơ của W ổn định dưới $\rho ,\rho_1$ và $\rho_2$ là biểu diễn con và biểu diễn thương của $\rho$ được xác định bởi $W',\pi , \pi_1, \pi_2$ là các biểu diễn của N tương thích với $\rho , \rho_1, \rho_2($§3, no. 1). Khi đó $\pi_1, \pi_2$ là biểu diễn con và biểu diễn thương của $\pi$ được xác định bởi $W'$.
 

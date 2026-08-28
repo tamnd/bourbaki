@@ -33,7 +33,7 @@ subsections:
       pdf_page: 156
 statements: 24
 exercises: 18
-content_sha256: f7158f18aa265f23293ef1c9913793e81bf47aec219ecb6b7ff63c3a77ad5b18
+content_sha256: 2906a1496becb15621176ff104fe79158e7c329e842cd88ae28860cb37424907
 translated_from: content/en/lie/VIII/08_s8_symmetric_invariants.md
 source_content_sha256: d3c05797fa6759d3e121c8bb13944632a7b77c3923d5c20eb54c878ebde76832
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -188,11 +188,11 @@ Với mọi $x\in \mathfrak{a}$, ta có $\theta^*(x)h= 0$ và Tr($\rho (x)^m$) $
 
 #### Bổ đề 3 {#lie-viii-s8-lem-3 .statement tag=0158}
 
-Cho E là một $\mathfrak{g}$-môđun hữu hạn chiều, và $x\in E$. Khi đó $x$ là một phần tử bất biến của $\mathfrak{g}$-môđun E khi và chỉ khi (exp $a_E$).x=x$ với mọi phần tử lũy linh $a$ của $\mathfrak{g}$.
+Cho E là một $\mathfrak{g}$-môđun hữu hạn chiều, và $x\in E$. Khi đó $x$ là một phần tử bất biến của $\mathfrak{g}$-môđun E khi và chỉ khi (exp $a_E$)$.x=x$ với mọi phần tử lũy linh $a$ của $\mathfrak{g}$.
 
 Điều kiện này rõ ràng là cần thiết. Giả sử bây giờ nó được thỏa mãn. Cho $a$ là một phần tử lũy linh của $\mathfrak{g}$. Tồn tại một số nguyên $n$ sao cho $a^n_E= 0$. Với mọi $t\in k$, ta có
 
-0 = exp($ta_E$).x-x=ta_Ex+$ 2!$1t^2a^2_Ex+\cdots +(n-1$ 1)! $t^{n-1}a^{n-1}_Ex$,
+$0 = \exp(ta_E).x - x = ta_Ex + \frac{1}{2!}t^2a^2_Ex + \cdots + \frac{1}{(n-1)!}t^{n-1}a^{n-1}_Ex,$
 
 suy ra $a_Ex= 0$. Nhưng đại số Lie $\mathfrak{g}$ được sinh bởi các phần tử lũy linh của nó (§4, no. 1, Mệnh đề 1). Do đó $x$ là một phần tử bất biến của $\mathfrak{g}$-môđun E. Q.E.D.
 
@@ -332,7 +332,7 @@ Cho $\mathfrak{a}$ là một đại số Lie nửa đơn và $s\in$ Aut($\mathfr
 
 (ii) với mọi hàm đa thức bất biến $f$ trên $\mathfrak{a}$, ta có $f\circ s=f$.
 
-Bằng cách mở rộng vô hướng nếu cần, ta có thể giả sử rằng $k$ là đóng đại số. Kéo theo (i) $=\Rightarrow$ (ii) suy ra từ Mệnh đề 3. Ta giả sử rằng điều kiện (ii) được thỏa mãn và chứng minh (i). Theo Mệnh đề 3, và §5, no. 3, Hệ quả 1 của Mệnh đề 5, ta có thể giả sử rằng $s\in$ Aut($\mathfrak{g},\mathfrak{h}$) và rằng $s$ giữ ổn định một buồng Weyl C. Cho $x\in C\cap \mathfrak{h}_{\mathbf{Q}}$. Ta có $sx\in C$. Nếu $g$ là một hàm đa thức W-bất biến trên $\mathfrak{h}$, ta có $g(x) =g(sx)$ (Định lý 1 (i)). Theo Bổ đề 6, suy ra rằng $sx\in Wx$. Vì $sx\in C$, ta có $x=sx$ (Chap. V, §3, no. 3, Định lý 2). Khi đó $s|\mathfrak{h}=$ Id$_{\mathfrak{h}}$, và $s\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$ ($§5, no. 2, Mệnh đề 4).
+Bằng cách mở rộng vô hướng nếu cần, ta có thể giả sử rằng $k$ là đóng đại số. Kéo theo (i) $=\Rightarrow$ (ii) suy ra từ Mệnh đề 3. Ta giả sử rằng điều kiện (ii) được thỏa mãn và chứng minh (i). Theo Mệnh đề 3, và §5, no. 3, Hệ quả 1 của Mệnh đề 5, ta có thể giả sử rằng $s\in$ Aut($\mathfrak{g},\mathfrak{h}$) và rằng $s$ giữ ổn định một buồng Weyl C. Cho $x\in C\cap \mathfrak{h}_{\mathbf{Q}}$. Ta có $sx\in C$. Nếu $g$ là một hàm đa thức W-bất biến trên $\mathfrak{h}$, ta có $g(x) =g(sx)$ (Định lý 1 (i)). Theo Bổ đề 6, suy ra rằng $sx\in Wx$. Vì $sx\in C$, ta có $x=sx$ (Chap. V, §3, no. 3, Định lý 2). Khi đó $s|\mathfrak{h}=$ Id$_{\mathfrak{h}}$, và $s\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$ (§5, no. 2, Mệnh đề 4).
 
 #### Hệ quả {#lie-viii-s8-n4-cor-1 .statement tag=015I}
 

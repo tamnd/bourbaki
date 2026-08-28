@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: 8ceb19005604f3ff7be29acee5a8d15003ea176d39698c94afe3137b638ca87c
+content_sha256: b67b9b7df6df2f68f7603eed446a754a8a5c9551c716516623f43abd4c982d87
 translated_from: content/en/alg/V/11_s11_abelian_extensions.md
 source_content_sha256: 59b836b035495edfdf1402c42c8c9377eff55f5660611ac36d05aba9452ca433
 translation_model: gpt-5.4-mini
@@ -647,7 +647,7 @@ c) Cho $A$ là một nhóm con của $K$ chứa $\mathcal{P}(K)$ và cho $B$ là
 
 #### Ví dụ 1 {#alg-v-s11-n9-exa-1 .statement}
 
-Tồn tại một mở rộng Abel lớn nhất của $K$ có số mũ chia hết cho $p$, nằm trong $\Omega$; đó là $K(B^1(K))$, nhóm Galois của nó có thể được đồng nhất với Horn(K/\mathfrak{p}(K),\mathbf{F}_p)$.
+Tồn tại một mở rộng Abel lớn nhất của $K$ có số mũ chia hết cho $p$, nằm trong $\Omega$; đó là $K(B^1(K))$, nhóm Galois của nó có thể được đồng nhất với $\mathrm{Hom}(K/\mathfrak{p}(K),\mathbf{F}_p)$.
 
 #### Ví dụ 2 {#alg-v-s11-n9-exa-2 .statement}
 

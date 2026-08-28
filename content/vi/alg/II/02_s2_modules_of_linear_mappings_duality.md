@@ -45,7 +45,7 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 3
-content_sha256: 16cc5a4021eda3c51112dfaa0f25b1ec95eb271b7a7235f43b49555048efdf14
+content_sha256: 85a340479c03f041f03a6ba7e7a812bdd83a20aa4181af4ef61a4a7c4293d79b
 translated_from: content/en/alg/II/02_s2_modules_of_linear_mappings_duality.md
 source_content_sha256: 26b9a8607d873ffba075835bfd0cb249da81ce7c11440fe7597e9fadd99ec0ce
 translation_model: gpt-5.4-mini
@@ -75,7 +75,7 @@ $$
 
 *(trong đó $\bar{u} = \mathrm{Hom}(u, 1_F)$, $\bar{v} = \mathrm{Hom}(v, 1_F)$) *khớp*.
 
-Giả sử rằng dãy (1) khớp. Nếu $w \in \mathrm{Hom}(E'', F)$ và $\bar{v}(w) = w \circ v = 0$, thì $w = 0$ vì $v$ toàn ánh. Do đó dãy (2) khớp tại $\mathrm{Hom}(E'', F)$. Ta chứng minh rằng nó khớp tại $\mathrm{Hom}(E, F)$. $\bar{u} \circ \bar{v} = \mathrm{Hom}(v \circ u, 1_F)$ (\S 1, no. 2, công thức (10)) và $v \circ u = 0$ vì dãy (1) khớp tại E. Do đó $\bar{u} \circ \bar{v} = 0$, tức là $\mathrm{Im}(\bar{v}) \subset \mathrm{Ker}(\bar{u})$. Mặt khác, nếu $w \in \mathrm{Ker}(\bar{u})$, thì $w \circ u = 0$ và suy ra $\mathrm{Ker}(w) \supset \mathrm{Im}(u)$. Nhưng vì dãy (1) khớp tại E, $\mathrm{Im}(u) = \mathrm{Ker}(v)$ nên $\mathrm{Ker}(w) \supset \mathrm{Ker}(v)$; vì $v$ toàn ánh, suy ra từ \S 1, no. 3, *Nhận xét* rằng tồn tại một $w' \in \mathrm{Hom}(E'', F)$ sao cho w = w' \circ v = \bar{v}(w')$. Do đó Ker(\bar{u}) \subset \operatorname{Im}(\bar{v}), điều này hoàn tất chứng minh rằng dãy (2) khớp.
+Giả sử rằng dãy (1) khớp. Nếu $w \in \mathrm{Hom}(E'', F)$ và $\bar{v}(w) = w \circ v = 0$, thì $w = 0$ vì $v$ toàn ánh. Do đó dãy (2) khớp tại $\mathrm{Hom}(E'', F)$. Ta chứng minh rằng nó khớp tại $\mathrm{Hom}(E, F)$. $\bar{u} \circ \bar{v} = \mathrm{Hom}(v \circ u, 1_F)$ (\S 1, no. 2, công thức (10)) và $v \circ u = 0$ vì dãy (1) khớp tại E. Do đó $\bar{u} \circ \bar{v} = 0$, tức là $\mathrm{Im}(\bar{v}) \subset \mathrm{Ker}(\bar{u})$. Mặt khác, nếu $w \in \mathrm{Ker}(\bar{u})$, thì $w \circ u = 0$ và suy ra $\mathrm{Ker}(w) \supset \mathrm{Im}(u)$. Nhưng vì dãy (1) khớp tại E, $\mathrm{Im}(u) = \mathrm{Ker}(v)$ nên $\mathrm{Ker}(w) \supset \mathrm{Ker}(v)$; vì $v$ toàn ánh, suy ra từ \S 1, no. 3, *Nhận xét* rằng tồn tại một $w' \in \mathrm{Hom}(E'', F)$ sao cho $w = w' \circ v = \bar{v}(w')$. Do đó $\mathrm{Ker}(\bar{u}) \subset \mathrm{Im}(\bar{v})$, điều này hoàn tất chứng minh rằng dãy (2) khớp.
 
 Ngược lại, giả sử rằng (2) khớp với mọi A-môđun F. Vì $\bar{u} \circ \bar{v} = \operatorname{Hom}(v \circ u, 1_F) = 0, w \circ v \circ u = 0$ với mọi đồng cấu $w : E'' \to F$. Lấy $F = E''$ và $w = 1_{E''}$, trước hết thấy rằng $v \circ u = 0$ và do đó $u(E') \subset \operatorname{Ker}(v)$. Bây giờ lấy $F = \operatorname{Coker}(u)$ và đặt $\phi : E \to F = E/u(E')$ là ánh xạ chính tắc. Khi đó $\bar{u}(\phi) = \phi \circ u = 0$ theo định nghĩa và do đó tồn tại một $\psi \in \operatorname{Hom}(E'', F)$ sao cho $\phi = \bar{v}(\psi) = \psi \circ v$; điều này hiển nhiên suy ra $u(E') = \operatorname{Ker}(\phi) \supset \operatorname{Ker}(v)$, điều đó chứng minh rằng dãy (1) khớp tại E. Cuối cùng, đặt $\theta$ là đồng cấu chính tắc của $E''$ lên $F = E''/v(E)$; khi đó $\bar{v}(\theta) = \theta \circ v = 0$, suy ra $\theta = 0$; do đó $F = \{0\}$ và $v$ toàn ánh. Vì vậy dãy (1) khớp tại $E''$.
 

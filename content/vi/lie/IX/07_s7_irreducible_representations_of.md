@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 0b053e711c1073ce145636f61e396419e0d88d45f8757d6e011282d247b48049
+content_sha256: bf745ad7d616247079dc8d4ff8eaccea9b34909364c76fac74cb387b10f8c61d
 translated_from: content/en/lie/IX/07_s7_irreducible_representations_of.md
 source_content_sha256: e5d4512731c2c4775f6967a56df8bfea9f2c9f836e9424ff340a85f1fc7ae72d
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini
@@ -473,7 +473,7 @@ vì $\langle \lambda +\rho , N_i\rangle  \geq  \langle \rho , N_i\rangle = 1$, �
 
 $d(\lambda )\geq$ sup$_i|\langle \lambda +\rho , N_i\rangle |$.
 
-Nếu G là nửa đơn, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ là một chuẩn trên $X(T)\otimes \mathbf{R}$, tất yếu tương đương với chuẩn đã cho, nên b)$.
+Nếu G là nửa đơn, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ là một chuẩn trên $X(T)\otimes \mathbf{R}$, tất yếu tương đương với chuẩn đã cho, nên b).
 
 #### Hệ quả 2 {#lie-ix-s7-lem-5-cor-2 .statement tag=01GO}
 

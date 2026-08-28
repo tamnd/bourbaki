@@ -49,7 +49,7 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 23
-content_sha256: 24550046d24fcbf8ee2bd01b09553479f4017b60ba3014ecaf516a513d8a73f9
+content_sha256: 235f61c06d2f64fecfccabff049e990a1b65df69af0f3f35c46c9ee23d26fbcc
 translated_from: content/en/ac/II/02_s2_rings_and_modules_of_fractions.md
 source_content_sha256: 9f1f5f9c5514b2794ba0ec9a33af1ecc2a4418688ec8e42c5d1afce974d20ea8
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
@@ -518,7 +518,7 @@ $$
 
 (ii) Trước hết, ta lưu ý rằng quan hệ b' = S^{-1}A tương đương với quan hệ b \cap S \neq \varnothing, quan hệ sau biểu thị rằng b' chứa các phần tử khả nghịch của S^{-1}A. Theo no. 4, Mệnh đề 10 (iii), suy ra rằng b' \mapsto b = (i_A^S)^{-1}(b') là một đẳng cấu (đối với quan hệ bao hàm) từ tập hợp các iđêan của S^{-1}A phân biệt với S^{-1}A lên tập hợp \mathcal{F} các iđêan của A không gặp S và thỏa mãn điều kiện (MS) của Mệnh đề 10. Nếu b' là cực đại (resp. nguyên tố), thì hiển nhiên b' là cực đại trong \mathcal{F} (resp. nguyên tố) và ngược lại (theo (i)). Mặt khác, nếu r là một iđêan của A rời nhau với S, phần bão hòa r_1 của nó đối với S là một iđêan của A chứa t và rời nhau với S: không có phần tử $a \in S$ nào có thể thỏa mãn $sa \in t$ với một $s \in S$ nào đó, vì khi đó sẽ suy ra $sa \in t \cap S$. Ta kết luận rằng, nếu r là cực đại trong các iđêan của $A$ gặp S, thì nó là cực đại trong \mathcal{F}. Tương tự, nếu r là một iđêan nguyên tố không gặp S, thì theo định nghĩa của các iđêan nguyên tố, nó thỏa mãn điều kiện (MS) của no. 4, Mệnh đề 10 và do đó thuộc \mathcal{F}. Điều này hoàn tất chứng minh (ii).
 
-(iii) Giả sử rằng $q'$ là nguyên tố và $q$ cũng là nguyên tố. Tập hợp $T = A - q$ là một tập con nhân của A chứa S, do đó ST = T$. Ta viết $T' = i_A^S(T)$; theo no. 3, Mệnh đề 7 (i), tồn tại duy nhất một đẳng cấu $j$ từ $T^{-1}A = A$ lên $T'^{-1}(S^{-1}A)$ sao cho
+(iii) Giả sử rằng $q'$ là nguyên tố và $q$ cũng là nguyên tố. Tập hợp $T = A - q$ là một tập con nhân của A chứa S, do đó $ST = T$. Ta viết $T' = i_A^S(T)$; theo no. 3, Mệnh đề 7 (i), tồn tại duy nhất một đẳng cấu $j$ từ $T^{-1}A = A$ lên $T'^{-1}(S^{-1}A)$ sao cho
 
 $$
 j(a/b) = (a/1)/(b/1),

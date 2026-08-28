@@ -57,7 +57,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 95eec6cab711babc2f6847cec9db3f009400c129cb28c7bd72219969013b29d4
+content_sha256: 46703582e490494ae14604a14446f76d5d0b9a87ea22388f84989197512c6261
 translated_from: content/en/ac/I/02_s2_flat_modules.md
 source_content_sha256: 9ada776b7c0aa973a418227eaada671c4629e279b41b24c1ad82f46743b38d27
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -332,7 +332,7 @@ Ta chứng minh (ii). Theo (i), nếu $E$ là phẳng, $E$ là không xoắn. Ng
 
 #### Ví dụ {#ac-i-s2-n4-exa-1 .statement}
 
-Áp dụng Mệnh đề 3 cho vành $\mathbf{Z}$$, ta thấy rằng $\mathbf{Q}$ là một $\mathbf{Z}$-môđun phẳng, nhưng $\mathbf{Z}/n\mathbf{Z}$ (với $n \geq 2$) không phải là một $\mathbf{Z}$-môđun phẳng.
+Áp dụng Mệnh đề 3 cho vành $\mathbf{Z}$, ta thấy rằng $\mathbf{Q}$ là một $\mathbf{Z}$-môđun phẳng, nhưng $\mathbf{Z}/n\mathbf{Z}$ (với $n \geq 2$) không phải là một $\mathbf{Z}$-môđun phẳng.
 
 ### 5. TÍNH PHẲNG CỦA CÁC MÔĐUN THƯƠNG
 

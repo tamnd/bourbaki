@@ -84,7 +84,7 @@ subsections:
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: 5c0c2d7dba64a35d0c9228e00799483ffb71f65ed0014cb0fede4f4d310b9263
+content_sha256: 5586a05b76eb16494c0b12e85419fc4fe4e7a0698cf5329d3efe0ed7b4c72334
 translated_from: content/en/lie/III/03_s3_passage_from_a_lie_group_to_its_lie.md
 source_content_sha256: e090b39b6829a3b5aab768859eec4c860b0bcb114797109d764f3c993c7b88da
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini, gpt-5-mini
@@ -711,7 +711,7 @@ là khai triển của m dưới dạng một chuỗi nguyên quanh (0, 0), tron
 
 (i) $m_{i,0} = m_{0,j} = 0$ đối với mọi $i \neq 1$ và $j \neq 1$.
 (ii) $m_{1,0}(a, b) = a$ và $m_{0,1}(a, b) = b$ với mọi $a \in E, b \in E$.
-(iii) *Cho $\psi : T_e(G) \to E$ là vi phân của $\phi$ tại e. Với mọi $u, v$ trong $T_e(G),*
+(iii) *Cho $\psi : T_e(G) \to E$ là vi phân của $\phi$ tại e. Với mọi $u, v$ trong $T_e(G)$,*
 
 $$
 \psi([u, v]) = m_{1,1}(\psi(u), \psi(v)) - m_{1,1}(\psi(v), \psi(u)).
@@ -1362,7 +1362,7 @@ $$
 
 #### Mệnh đề 47 {#lie-iii-s3-prop-47 .statement}
 
-Cho $G$ là một nhóm Lie, $H$ và $E$ là các nhóm con Lie của $G$ và giả sử rằng $hEh$^{-1}$ = E với mọi $h \in H$. Khi đó $\mathcal{T}^{(\infty)}(H) \subset \mathcal{T}^{(\infty)}(E) \subset \mathcal{T}^{(\infty)}(E)$. Đặc biệt, $\mathrm{Ad}(H)(L(E)) \subset L(E)$ và $[L(H), L(E)] \subset L(E)$.
+Cho $G$ là một nhóm Lie, $H$ và $E$ là các nhóm con Lie của $G$ và giả sử rằng $hEh^{-1} = E$ với mọi $h \in H$. Khi đó $\mathcal{T}^{(\infty)}(H) \subset \mathcal{T}^{(\infty)}(E) \subset \mathcal{T}^{(\infty)}(E)$. Đặc biệt, $\mathrm{Ad}(H)(L(E)) \subset L(E)$ và $[L(H), L(E)] \subset L(E)$.
 
 Nếu $t \in \mathcal{T}^{(\infty)}(H)$ và $t' \in \mathcal{T}^{(\infty)}(E)$, thì $t \otimes t' \in \mathcal{T}^{(\infty)}(H \times E)$ và ảnh của $H \times E$ dưới ánh xạ $(g, g') \mapsto gg'g^{-1}$ được chứa trong $E$.
 
