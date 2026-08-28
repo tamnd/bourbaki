@@ -5419,6 +5419,217 @@
       "id": "alg-i-iii-fr",
       "chapters": [
         {
+          "chapter": "I",
+          "title": "STRUCTURES ALGÉBRIQUES",
+          "total": 218,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-i-s1",
+              "dir": "s1",
+              "count": 16,
+              "first": 1,
+              "last": 16
+            },
+            {
+              "section": 2,
+              "label": "alg-i-s2",
+              "dir": "s2",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 5
+            },
+            {
+              "section": 3,
+              "label": "alg-i-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 3
+            },
+            {
+              "section": 4,
+              "label": "alg-i-s4",
+              "dir": "s4",
+              "count": 26,
+              "first": 1,
+              "last": 26,
+              "starred": 9
+            },
+            {
+              "section": 5,
+              "label": "alg-i-s5",
+              "dir": "s5",
+              "count": 29,
+              "first": 1,
+              "last": 29,
+              "starred": 9
+            },
+            {
+              "section": 6,
+              "label": "alg-i-s6",
+              "dir": "s6",
+              "count": 41,
+              "first": 1,
+              "last": 41,
+              "starred": 15
+            },
+            {
+              "section": 7,
+              "label": "alg-i-s7",
+              "dir": "s7",
+              "count": 40,
+              "first": 1,
+              "last": 40,
+              "starred": 13
+            },
+            {
+              "section": 8,
+              "label": "alg-i-s8",
+              "dir": "s8",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "alg-i-s9",
+              "dir": "s9",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "starred": 2
+            },
+            {
+              "section": 10,
+              "label": "alg-i-s10",
+              "dir": "s10",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "ALGÈBRE LINÉAIRE",
+          "total": 157,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-ii-s1",
+              "dir": "s1",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 2,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-ii-s2",
+              "dir": "s2",
+              "count": 24,
+              "first": 1,
+              "last": 24,
+              "starred": 10
+            },
+            {
+              "section": 3,
+              "label": "alg-ii-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "alg-ii-s4",
+              "dir": "s4",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 1
+            },
+            {
+              "section": 5,
+              "label": "alg-ii-s5",
+              "dir": "s5",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 6,
+              "label": "alg-ii-s6",
+              "dir": "s6",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 7,
+              "label": "alg-ii-s7",
+              "dir": "s7",
+              "count": 39,
+              "first": 1,
+              "last": 39,
+              "starred": 8,
+              "supplementary": 2
+            },
+            {
+              "section": 8,
+              "label": "alg-ii-s8",
+              "dir": "s8",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "alg-ii-s9",
+              "dir": "s9",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 2,
+              "supplementary": 6
+            },
+            {
+              "section": 10,
+              "label": "alg-ii-s10",
+              "dir": "s10",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 6
+            },
+            {
+              "section": 11,
+              "label": "alg-ii-s11",
+              "dir": "s11",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "alg-ii-a0",
+              "dir": "a0",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            }
+          ]
+        },
+        {
           "chapter": "III",
           "title": "ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES",
           "total": 100,

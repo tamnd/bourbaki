@@ -9042,6 +9042,323 @@ books:
         extraction: ocr
         content_sha256: 0b2d5b2ba96472d6417114545b9beae5edd0f341399096b1f0fed67a1f6753d4
       chapters:
+        - chapter: I
+          title: STRUCTURES ALGÉBRIQUES
+          sections:
+            - kind: front
+              title: STRUCTURES ALGÉBRIQUES
+              path: content/fr/alg/I/00_frontmatter.md
+              first_pdf_page: 11
+              last_pdf_page: 11
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 86268b1b3774ec8627a40f0efc7f9c29eb4555b6511ef15290774b23e48c027a
+            - kind: section
+              section: 1
+              title: Lois de composition ; associativité ; commutativité
+              path: content/fr/alg/I/01_s1_lois_de_composition_associativite.md
+              label: alg-i-s1
+              first_pdf_page: 11
+              last_pdf_page: 129
+              subsections: 6
+              statements: 31
+              exercises: 16
+              extraction: ocr
+              content_sha256: 9bf5da9f5a0e6717b3426434925ad79cb690c3a40d6527c17d75cd18b28d0942
+            - kind: section
+              section: 2
+              title: Élément neutre ; éléments simplifiables ; éléments inversibles
+              path: content/fr/alg/I/02_s2_element_neutre_elements_simplifiables.md
+              label: alg-i-s2
+              first_pdf_page: 22
+              last_pdf_page: 132
+              book_pages: A I.12-A I.23, A I.119-A I.122
+              subsections: 8
+              statements: 30
+              exercises: 17
+              extraction: ocr
+              content_sha256: 7f909885aa65ab7cf5e7e291cf91c1df75f83a7a5ec37dbb397e4a2ae5063959
+            - kind: section
+              section: 3
+              title: Actions
+              path: content/fr/alg/I/03_s3_actions.md
+              label: alg-i-s3
+              first_pdf_page: 33
+              last_pdf_page: 133
+              book_pages: A I.23-A I.28, A I.122-A I.123
+              subsections: 5
+              statements: 23
+              exercises: 10
+              extraction: ocr
+              content_sha256: ee4b2e3ff8b24219c1460bf40c37c82b11b0657ccfb5d0937024d65174be79fe
+            - kind: section
+              section: 4
+              title: Groupes et groupes à opérateurs
+              path: content/fr/alg/I/04_s4_groupes_et_groupes_a_operateurs.md
+              label: alg-i-s4
+              first_pdf_page: 38
+              last_pdf_page: 139
+              book_pages: A I.28-A I.49, A I.123-A I.129
+              subsections: 10
+              statements: 64
+              exercises: 26
+              extraction: ocr
+              content_sha256: bda5594231442ab85407b0e2e6ee091d902ae7805933caafef6a5a2fa00fca5c
+            - kind: section
+              section: 5
+              title: Groupes opérant sur un ensemble
+              path: content/fr/alg/I/05_s5_groupes_operant_sur_un_ensemble.md
+              label: alg-i-s5
+              first_pdf_page: 59
+              last_pdf_page: 144
+              book_pages: A I.49-A I.62, A I.129-A I.134
+              subsections: 7
+              statements: 40
+              exercises: 29
+              extraction: ocr
+              content_sha256: 8a47449c7d1053ca46bafaaa447f99547892ef36eff0d8372e8b340edbf75877
+            - kind: section
+              section: 6
+              title: Extensions, groupes résolubles, groupes nilpotents
+              path: content/fr/alg/I/06_s6_extensions_groupes_resolubles_groupes.md
+              label: alg-i-s6
+              first_pdf_page: 72
+              last_pdf_page: 153
+              book_pages: A I.62-A I.77, A I.134-A I.143
+              subsections: 7
+              statements: 58
+              exercises: 41
+              extraction: ocr
+              content_sha256: 629515721a9707e549fc9fb505895fb003d4946f8cca38a76a7a15697d46b542
+            - kind: section
+              section: 7
+              title: Monoïdes libres, groupes libres
+              path: content/fr/alg/I/07_s7_monoides_libres_groupes_libres.md
+              label: alg-i-s7
+              first_pdf_page: 87
+              last_pdf_page: 161
+              book_pages: A I.77-A I.91, A I.143-A I.151
+              subsections: 9
+              statements: 18
+              exercises: 40
+              extraction: ocr
+              content_sha256: 12c52784939bf2fc3c72d9893f11993286f4b2130d14cb070da05f31f5af57bc
+            - kind: section
+              section: 8
+              title: Anneaux
+              path: content/fr/alg/I/08_s8_anneaux.md
+              label: alg-i-s8
+              first_pdf_page: 102
+              last_pdf_page: 163
+              book_pages: A I.151-A I.153
+              subsections: 12
+              statements: 40
+              exercises: 16
+              extraction: ocr
+              content_sha256: bf3ea45c41f5440bd1c826701322175fa5fb68e476ae52dac742e21634f09164
+            - kind: section
+              section: 9
+              title: Corps
+              path: content/fr/alg/I/09_s9_corps.md
+              label: alg-i-s9
+              first_pdf_page: 118
+              last_pdf_page: 167
+              book_pages: A I.153-A I.157
+              subsections: 4
+              statements: 17
+              exercises: 21
+              extraction: ocr
+              content_sha256: a39d654de2d46a15dc782fe2db07454b2b4367832a6258b29d4e46169768a183
+            - kind: section
+              section: 10
+              title: Limites projectives et inductives
+              path: content/fr/alg/I/10_s10_limites_projectives_et_inductives.md
+              label: alg-i-s10
+              first_pdf_page: 122
+              last_pdf_page: 167
+              book_pages: A I.157
+              subsections: 4
+              statements: 5
+              exercises: 2
+              extraction: ocr
+              content_sha256: cd4ebcd580756750a371bafeb1a9e2b804c75724354b5aa0193b9a1b9afda980
+            - kind: historical
+              title: Historical Note
+              path: content/fr/alg/I/historical_note.md
+              first_pdf_page: 168
+              last_pdf_page: 177
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: b383bcec3f1f3cca46f02ae4023c90e5917ff62ec4bb9e3e9e089dd2f84fd634
+        - chapter: II
+          title: ALGÈBRE LINÉAIRE
+          sections:
+            - kind: front
+              title: ALGÈBRE LINÉAIRE
+              path: content/fr/alg/II/00_frontmatter.md
+              first_pdf_page: 178
+              last_pdf_page: 178
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 48c6fe8a093ee4546e03436c6ba160ca81d788283fd61477e0b142272dc90b85
+            - kind: section
+              section: 1
+              title: Modules
+              path: content/fr/alg/II/01_s1_modules.md
+              label: alg-ii-s1
+              first_pdf_page: 178
+              last_pdf_page: 360
+              subsections: 14
+              statements: 96
+              exercises: 27
+              extraction: ocr
+              content_sha256: 541009217501b48aba121fdfb9d7ef38eb49ac0209cf5466304591971b9b1863
+            - kind: section
+              section: 2
+              title: Modules d’applications linéaires. Dualité
+              path: content/fr/alg/II/02_s2_modules_d_applications_lineaires_dualite.md
+              label: alg-ii-s2
+              first_pdf_page: 213
+              last_pdf_page: 366
+              book_pages: A II.183-A II.189
+              subsections: 8
+              statements: 43
+              exercises: 24
+              extraction: ocr
+              content_sha256: a16fcea469f7617b4cb515f538fe2347feec60d2b1100dab2116cb6bce3a199d
+            - kind: section
+              section: 3
+              title: Produits tensoriels
+              path: content/fr/alg/II/03_s3_produits_tensoriels.md
+              label: alg-ii-s3
+              first_pdf_page: 227
+              last_pdf_page: 367
+              book_pages: A II.50-A II.72, A II.189-A II.190
+              subsections: 9
+              statements: 30
+              exercises: 4
+              extraction: ocr
+              content_sha256: b28aa9ba5da82ab13bd8a0b86b506db6372623388c4fd44c594b7ece0775bd9b
+            - kind: section
+              section: 4
+              title: Relations entre produits tensoriels et modules d'homomorphismes
+              path: content/fr/alg/II/04_s4_relations_entre_produits_tensoriels_et.md
+              label: alg-ii-s4
+              first_pdf_page: 250
+              last_pdf_page: 368
+              book_pages: A II.190-A II.191
+              subsections: 4
+              statements: 15
+              exercises: 9
+              extraction: ocr
+              content_sha256: b14f871e442d2c9eb946f3fc7cf7f12be5c3e58f35a9cdf3ae02e8ccec04e962
+            - kind: section
+              section: 5
+              title: Extension de l'anneau des scalaires
+              path: content/fr/alg/II/05_s5_extension_de_l_anneau_des_scalaires.md
+              label: alg-ii-s5
+              first_pdf_page: 258
+              last_pdf_page: 368
+              book_pages: A II.191
+              subsections: 5
+              statements: 15
+              exercises: 7
+              extraction: ocr
+              content_sha256: 5afb5d1e0795a8a611f1168349701804055a8be5b265bde56e85b3cdb44780eb
+            - kind: section
+              section: 6
+              title: Limites projectives et limites inductives de modules
+              path: content/fr/alg/II/06_s6_limites_projectives_et_limites.md
+              label: alg-ii-s6
+              first_pdf_page: 265
+              last_pdf_page: 369
+              book_pages: A II.88-A II.95
+              subsections: 3
+              statements: 16
+              exercises: 4
+              extraction: ocr
+              content_sha256: 63d8d2cebc6c0f675c817df332ab0733170640ec053774350910359412f9f7f8
+            - kind: section
+              section: 7
+              title: Espaces vectoriels
+              path: content/fr/alg/II/07_s7_espaces_vectoriels.md
+              label: alg-ii-s7
+              first_pdf_page: 272
+              last_pdf_page: 375
+              book_pages: A II.95-A II.118
+              subsections: 10
+              statements: 90
+              exercises: 39
+              extraction: ocr
+              content_sha256: b11e71e8b09f4551ae55f53e4c42181148c8ecfc4b718389cf2007b5f3dd33b3
+            - kind: section
+              section: 8
+              title: Restriction du corps des scalaires dans les espaces vectoriels
+              path: content/fr/alg/II/08_s8_restriction_du_corps_des_scalaires_dans.md
+              label: alg-ii-s8
+              first_pdf_page: 295
+              last_pdf_page: 377
+              book_pages: A II.118-A II.126
+              subsections: 7
+              statements: 17
+              exercises: 5
+              extraction: ocr
+              content_sha256: d612be2fb12e6742ce57803093c0fb1db0dfbfcc9c02f7d1fb99c61ad61c7333
+            - kind: section
+              section: 9
+              title: Espaces affines et espaces projectifs
+              path: content/fr/alg/II/09_s9_espaces_affines_et_espaces_projectifs.md
+              label: alg-ii-s9
+              first_pdf_page: 303
+              last_pdf_page: 382
+              book_pages: A II.126-A II.138, A II.200-A II.205
+              subsections: 11
+              statements: 12
+              exercises: 19
+              extraction: ocr
+              content_sha256: 1d7531690af2a3fe0e1c72b9ec9d09166704bcb341f6cfad216a6511a30de7f8
+            - kind: section
+              section: 10
+              title: Matrices
+              path: content/fr/alg/II/10_s10_matrices.md
+              label: alg-ii-s10
+              first_pdf_page: 316
+              last_pdf_page: 386
+              subsections: 13
+              statements: 38
+              exercises: 17
+              extraction: ocr
+              content_sha256: 8209de03a91cc9dce75cc23eb2f0eefcd134e20e90ff6d5759a3bcb22a05a002
+            - kind: section
+              section: 11
+              title: Modules et anneaux gradués
+              path: content/fr/alg/II/11_s11_modules_et_anneaux_gradues.md
+              label: alg-ii-s11
+              first_pdf_page: 340
+              last_pdf_page: 387
+              subsections: 6
+              statements: 34
+              exercises: 1
+              extraction: ocr
+              content_sha256: b47e2f7501b600faa17f06a2c6b1c731b715b6679f70aecc6250626bcea6a495
+            - kind: appendix
+              title: Pseudomodules
+              path: content/fr/alg/II/A_a_pseudomodules.md
+              label: alg-ii-a0
+              first_pdf_page: 353
+              last_pdf_page: 387
+              book_pages: A II.210
+              subsections: 2
+              statements: 0
+              exercises: 1
+              extraction: ocr
+              content_sha256: d1d81eabc2be6768af1f9aa999692e418b79979ac3ddd846772e2e1ebfabcdf9
         - chapter: III
           title: ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES
           sections:
