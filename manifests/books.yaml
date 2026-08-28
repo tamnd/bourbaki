@@ -1173,7 +1173,6 @@ books:
       edition: ""
       chapters:
         - VII
-        - VIII
       pdf: pdf/fr/Groupes et algèbres de Lie_ Chapitres 7 et 8.pdf
       pdf_sha256: eb1f7887a5ca216c4361708ac11e9e5250f5586c8c63c6462bb7f01cb080e9ab
       pdf_bytes: 2805285

@@ -11446,3 +11446,228 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 44620240ed7994f05291860d839e1c97f632ba17704d2e0de289ddebfe57f479
+    - id: lie-vii-viii-fr
+      chapters:
+        - chapter: VII
+          title: Sous-algèbres de Cartan. Éléments réguliers
+          sections:
+            - kind: front
+              title: Sous-algèbres de Cartan. Éléments réguliers
+              path: content/fr/lie/VII/00_frontmatter.md
+              first_pdf_page: 1
+              last_pdf_page: 1
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 94360bf7d49e378f3ab2dbcd1103d3d2bb9a27de01eb604c2faf0bcb160c6e3e
+            - kind: section
+              section: 1
+              title: Décomposition primaire des représentations linéaires
+              path: content/fr/lie/VII/01_s1_decomposition_primaire_des.md
+              label: lie-vii-s1
+              first_pdf_page: 1
+              last_pdf_page: 52
+              subsections: 5
+              statements: 25
+              exercises: 11
+              extraction: ocr
+              content_sha256: 93055c29b31ba278750646b090533b3f67516ae2208265d1bf0262d77022244c
+            - kind: section
+              section: 2
+              title: Sous-algèbres de Cartan et éléments réguliers d’une algèbre de Lie
+              path: content/fr/lie/VII/02_s2_sous_algebres_de_cartan_et_elements.md
+              label: lie-vii-s2
+              first_pdf_page: 12
+              last_pdf_page: 53
+              subsections: 4
+              statements: 38
+              exercises: 16
+              extraction: ocr
+              content_sha256: ff1750425f668356caf192d33e90c882698aecaa0ee00b9858ee8a2613dfc827
+            - kind: section
+              section: 3
+              title: Théorèmes de conjugaison
+              path: content/fr/lie/VII/03_s3_theoremes_de_conjugaison.md
+              label: lie-vii-s3
+              first_pdf_page: 20
+              last_pdf_page: 57
+              subsections: 5
+              statements: 17
+              exercises: 18
+              extraction: ocr
+              content_sha256: 42d5e6ec1bc68c2e4139ceaa466630284080c37badd58933afd6c420c57592d2
+            - kind: section
+              section: 4
+              title: Eléments réguliers d’un groupe de Lie
+              path: content/fr/lie/VII/04_s4_elements_reguliers_d_un_groupe_de_lie.md
+              label: lie-vii-s4
+              first_pdf_page: 27
+              last_pdf_page: 58
+              subsections: 4
+              statements: 18
+              exercises: 4
+              extraction: ocr
+              content_sha256: 5667ae0fbb8b281fd7472fa139995aa1d1ba9dce33920fdf7a31ab895e4b113d
+            - kind: section
+              section: 5
+              title: Algèbres de Lie linéaires scindables
+              path: content/fr/lie/VII/05_s5_algebres_de_lie_lineaires_scindables.md
+              label: lie-vii-s5
+              first_pdf_page: 34
+              last_pdf_page: 61
+              subsections: 5
+              statements: 28
+              exercises: 11
+              extraction: ocr
+              content_sha256: a24d978da4af3d8ad9b83d93064b0453b1784b2438c3b5e6aedb1c71a8f69ecf
+            - kind: appendix
+              section: 1
+              title: Applications polynomiales et topologie de Zariski
+              path: content/fr/lie/VII/A1_a1_applications_polynomiales_et_topologie.md
+              label: lie-vii-a1
+              first_pdf_page: 45
+              last_pdf_page: 49
+              subsections: 2
+              statements: 10
+              exercises: 0
+              extraction: ocr
+              content_sha256: b0e358a55949c56323f16579e6b156c21b5a698fe5a7c1c68f36f6da38a197df
+    - id: ac-x-fr
+      chapters:
+        - chapter: X
+          title: Profondeur, régularité, dualité
+          sections:
+            - kind: front
+              title: Profondeur, régularité, dualité
+              path: content/fr/ac/X/00_frontmatter.md
+              first_pdf_page: 1
+              last_pdf_page: 1
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 2d3cc4038022de0b318995265bb538fd05ef6f3026466febe488cbdc6ce185e6
+            - kind: section
+              section: 1
+              title: Profondeur
+              path: content/fr/ac/X/01_s1_profondeur.md
+              label: ac-x-s1
+              first_pdf_page: 2
+              last_pdf_page: 153
+              book_pages: AC X.3-AC X.22
+              subsections: 9
+              statements: 53
+              exercises: 18
+              extraction: ocr
+              content_sha256: 381601f9ea0be9f0dc743302a0a9dacb97e65c0f0fc5773f9ddb7b5c9310b657
+            - kind: section
+              section: 2
+              title: Modules et anneaux macaulayens
+              path: content/fr/ac/X/02_s2_modules_et_anneaux_macaulayens.md
+              label: ac-x-s2
+              first_pdf_page: 22
+              last_pdf_page: 156
+              book_pages: AC X.154-AC X.157
+              subsections: 7
+              statements: 42
+              exercises: 11
+              extraction: ocr
+              content_sha256: 45befdd5bcd0e751997053ae6e5718b0a75bd67fbf772fba847c945e42dd1b49
+            - kind: section
+              section: 3
+              title: Profondeur et dimension homologique
+              path: content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md
+              label: ac-x-s3
+              first_pdf_page: 36
+              last_pdf_page: 161
+              subsections: 8
+              statements: 26
+              exercises: 16
+              extraction: ocr
+              content_sha256: 368543644bd264c2543c7fe61456948403e44a81447152dff4e406a7c7ea5786
+            - kind: section
+              section: 4
+              title: Anneaux réguliers
+              path: content/fr/ac/X/04_s4_anneaux_reguliers.md
+              label: ac-x-s4
+              first_pdf_page: 52
+              last_pdf_page: 164
+              subsections: 5
+              statements: 25
+              exercises: 13
+              extraction: ocr
+              content_sha256: 627586783da1c4cf8e8ca211c55aa5bda2405916d81ceb5d4444b3de5b2c26b9
+            - kind: section
+              section: 5
+              title: Intersections complètes
+              path: content/fr/ac/X/05_s5_intersections_completes.md
+              label: ac-x-s5
+              first_pdf_page: 61
+              last_pdf_page: 167
+              subsections: 6
+              statements: 17
+              exercises: 11
+              extraction: ocr
+              content_sha256: 88c868cf777a1fb3d37328fd5ea267c57fb35ffc01909e91577ffeb6df4cfb40
+            - kind: section
+              section: 6
+              title: Extension des scalaires dans les algèbres régulières
+              path: content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md
+              label: ac-x-s6
+              first_pdf_page: 70
+              last_pdf_page: 169
+              subsections: 5
+              statements: 31
+              exercises: 7
+              extraction: ocr
+              content_sha256: 0efe6b59d303ee94ae3a6812482dddc5208450e8aae3110aa7e70e4b9c8ef47b
+            - kind: section
+              section: 7
+              title: Algèbres lisses
+              path: content/fr/ac/X/07_s7_algebres_lisses.md
+              label: ac-x-s7
+              first_pdf_page: 82
+              last_pdf_page: 172
+              book_pages: AC X.170-AC X.173
+              subsections: 10
+              statements: 30
+              exercises: 15
+              extraction: ocr
+              content_sha256: f64a0816a024e5cc89b2252c2ac75bfa34b44616951ef7a39a61544d5451d071
+            - kind: section
+              section: 8
+              title: Dualité des modules de longueur finie
+              path: content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
+              label: ac-x-s8
+              first_pdf_page: 104
+              last_pdf_page: 174
+              subsections: 7
+              statements: 23
+              exercises: 10
+              extraction: ocr
+              content_sha256: 582d0dd11bfb6a22854911e1ca944d48bf7da42e120f17aa0cfb037e301d5459
+            - kind: section
+              section: 9
+              title: Modules dualisants
+              path: content/fr/ac/X/09_s9_modules_dualisants.md
+              label: ac-x-s9
+              first_pdf_page: 124
+              last_pdf_page: 177
+              subsections: 6
+              statements: 21
+              exercises: 12
+              extraction: ocr
+              content_sha256: c1b6427cdd99a4208a73daf080c250c6621ff1606750753e2f947d45a4247728
+            - kind: section
+              section: 10
+              title: Cohomologie locale, dualité de Grothendieck
+              path: content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md
+              label: ac-x-s10
+              first_pdf_page: 141
+              last_pdf_page: 180
+              subsections: 3
+              statements: 17
+              exercises: 11
+              extraction: ocr
+              content_sha256: 40a61da1749c5ffe94bfadf1c1ff5de518d53eebe5bdbda1e7990108ff3db0d5
