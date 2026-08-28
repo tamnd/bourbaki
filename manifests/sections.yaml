@@ -9536,3 +9536,272 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 794c7f10882cc7edf566a88fdf1ae03b6081d36f425120b6081a7805ffa72c79
+    - id: ac-i-iv-fr
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/fr/ac/00_introduction.md
+        first_pdf_page: 5
+        last_pdf_page: 10
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: b7bba9dde72330951f573406dd26684da013cdb4e80479220b2ccb341ad5ece1
+      chapters:
+        - chapter: I
+          title: Modules plats
+          sections:
+            - kind: front
+              title: Modules plats
+              path: content/fr/ac/I/00_frontmatter.md
+              first_pdf_page: 11
+              last_pdf_page: 11
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: db0dc3371195f4cd976363cd281998fde1e92188cc54b731a680fa96200a117c
+            - kind: section
+              section: 1
+              title: Diagrammes et suites exactes
+              path: content/fr/ac/I/01_s1_diagrammes_et_suites_exactes.md
+              label: ac-i-s1
+              first_pdf_page: 12
+              last_pdf_page: 57
+              subsections: 4
+              statements: 7
+              exercises: 7
+              extraction: ocr
+              content_sha256: ce055ee638cb307cbacad4f748d112d368d0a0bf40e424626d097fe771250063
+            - kind: section
+              section: 2
+              title: Modules plats
+              path: content/fr/ac/I/02_s2_modules_plats.md
+              label: ac-i-s2
+              first_pdf_page: 20
+              last_pdf_page: 65
+              subsections: 11
+              statements: 41
+              exercises: 15
+              extraction: ocr
+              content_sha256: ec97bc7a393823b9cd8d0e4852352e483d84024e3e6e846b22bfd6a4bf8c69f7
+            - kind: section
+              section: 3
+              title: Modules fidèlement plats
+              path: content/fr/ac/I/03_s3_modules_fidelement_plats.md
+              label: ac-i-s3
+              first_pdf_page: 42
+              last_pdf_page: 66
+              subsections: 7
+              statements: 23
+              exercises: 10
+              extraction: ocr
+              content_sha256: 4b5cda87ad52435cdd5b6839e30e09b7ccd28fca67c332897a6b360a304421ca
+            - kind: section
+              section: 4
+              title: Modules plats et foncteurs « Tor »
+              path: content/fr/ac/I/04_s4_modules_plats_et_foncteurs_tor.md
+              label: ac-i-s4
+              first_pdf_page: 53
+              last_pdf_page: 66
+              subsections: 0
+              statements: 3
+              exercises: 1
+              extraction: ocr
+              content_sha256: 78461ea869f1c13f6f558494c4d70ea41c45ebe6a3cfebee4d5b11026e5ee03a
+        - chapter: II
+          title: Localisation
+          sections:
+            - kind: front
+              title: Localisation
+              path: content/fr/ac/II/00_frontmatter.md
+              first_pdf_page: 67
+              last_pdf_page: 67
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 16792521269cfb1731520ed478075429e8c180f503644586658ada4824e549f4
+            - kind: section
+              section: 1
+              title: Idéaux premiers
+              path: content/fr/ac/II/01_s1_ideaux_premiers.md
+              label: ac-ii-s1
+              first_pdf_page: 67
+              last_pdf_page: 152
+              subsections: 2
+              statements: 9
+              exercises: 11
+              extraction: ocr
+              content_sha256: 3f5986b3b0b9fc5bf46e08c855d7c25a7cdd2ae8e0bfc096ae2ca1109fc46ebc
+            - kind: section
+              section: 2
+              title: Anneaux et modules de fractions
+              path: content/fr/ac/II/02_s2_anneaux_et_modules_de_fractions.md
+              label: ac-ii-s2
+              first_pdf_page: 72
+              last_pdf_page: 164
+              subsections: 9
+              statements: 58
+              exercises: 18
+              extraction: ocr
+              content_sha256: 03d8f12a1da7663bf3462c6ccca593052b8d01d3e133fd3f29414fa762a96eb0
+            - kind: section
+              section: 3
+              title: Anneaux locaux. Passage du local au global
+              path: content/fr/ac/II/03_s3_anneaux_locaux_passage_du_local_au.md
+              label: ac-ii-s3
+              first_pdf_page: 100
+              last_pdf_page: 168
+              subsections: 5
+              statements: 47
+              exercises: 16
+              extraction: ocr
+              content_sha256: 010e41d5004143fcf4757aeabc84e0dc373fd9d62aaf60673aa90c5b67840ed3
+            - kind: section
+              section: 4
+              title: Spectres d’anneaux et supports de modules
+              path: content/fr/ac/II/04_s4_spectres_d_anneaux_et_supports_de.md
+              label: ac-ii-s4
+              first_pdf_page: 117
+              last_pdf_page: 174
+              subsections: 4
+              statements: 51
+              exercises: 17
+              extraction: ocr
+              content_sha256: 09d8c983ce499791dac38520e1e02e0a00fce9a93da53ad207057672940643e7
+            - kind: section
+              section: 5
+              title: Modules projectifs de type fini. Idéaux fractionnaires inversibles
+              path: content/fr/ac/II/05_s5_modules_projectifs_de_type_fini_ideaux.md
+              label: ac-ii-s5
+              first_pdf_page: 134
+              last_pdf_page: 180
+              subsections: 7
+              statements: 33
+              exercises: 25
+              extraction: ocr
+              content_sha256: 0ff523e5d5f2c323ee054e42091efca38799fd9de2cd23436a9d309c54b3aa61
+        - chapter: III
+          title: Graduations, filtrations et topologies
+          sections:
+            - kind: front
+              title: Graduations, filtrations et topologies
+              path: content/fr/ac/III/00_frontmatter.md
+              first_pdf_page: 181
+              last_pdf_page: 181
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 5dcd7a8b31ab2a5cb23bfada1e758cc8a0747b6207ce5e17b410804a4de5d4dc
+            - kind: section
+              section: 1
+              title: Algèbres graduées de type fini
+              path: content/fr/ac/III/01_s1_algebres_graduees_de_type_fini.md
+              label: ac-iii-s1
+              first_pdf_page: 181
+              last_pdf_page: 279
+              subsections: 4
+              statements: 13
+              exercises: 3
+              extraction: ocr
+              content_sha256: cefdabf8444c22722d075e8e5b095d8320f52ed3cbb929bd8070daf4172e4127
+            - kind: section
+              section: 2
+              title: Généralités sur les anneaux et modules filtrés
+              path: content/fr/ac/III/02_s2_generalites_sur_les_anneaux_et_modules.md
+              label: ac-iii-s2
+              first_pdf_page: 190
+              last_pdf_page: 290
+              subsections: 13
+              statements: 68
+              exercises: 31
+              extraction: ocr
+              content_sha256: 22a9b9633fca94b741fc03defb9ec4436296ca4b6fc3fd5f204072340f0c484a
+            - kind: section
+              section: 3
+              title: Topologies m-adiques sur les anneaux nœthériens
+              path: content/fr/ac/III/03_s3_topologies_m_adiques_sur_les_anneaux.md
+              label: ac-iii-s3
+              first_pdf_page: 233
+              last_pdf_page: 299
+              subsections: 5
+              statements: 37
+              exercises: 9
+              extraction: ocr
+              content_sha256: a930a57cc68133a0752ad2e45fbd56a9286b0b1dd65838fcb468772bac7cd2fb
+            - kind: section
+              section: 4
+              title: Relèvement dans les anneaux complets
+              path: content/fr/ac/III/04_s4_relevement_dans_les_anneaux_complets.md
+              label: ac-iii-s4
+              first_pdf_page: 250
+              last_pdf_page: 303
+              subsections: 6
+              statements: 27
+              exercises: 6
+              extraction: ocr
+              content_sha256: 3ae60667ac59c964ae5e4bcb3db2bbf1df89e8dee0dd6c9ccb80a1a716f90200
+            - kind: section
+              section: 5
+              title: Propriétés de platitude des modules filtrés
+              path: content/fr/ac/III/05_s5_proprietes_de_platitude_des_modules.md
+              label: ac-iii-s5
+              first_pdf_page: 271
+              last_pdf_page: 304
+              subsections: 4
+              statements: 11
+              exercises: 8
+              extraction: ocr
+              content_sha256: 027647b256ef4b582d8f1e7c8248bf63f20a78764e2ce2f372c52dc1ce8df431
+        - chapter: IV
+          title: Idéaux premiers associés et décomposition primaire
+          sections:
+            - kind: front
+              title: Idéaux premiers associés et décomposition primaire
+              path: content/fr/ac/IV/00_frontmatter.md
+              first_pdf_page: 305
+              last_pdf_page: 305
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: fb2ff22e7d6d1e50042c785bfb420d72da87fb18cf1dfd701d026e73515f5ffe
+            - kind: section
+              section: 1
+              title: Idéaux premiers associés à un module
+              path: content/fr/ac/IV/01_s1_ideaux_premiers_associes_a_un_module.md
+              label: ac-iv-s1
+              first_pdf_page: 305
+              last_pdf_page: 341
+              subsections: 4
+              statements: 24
+              exercises: 19
+              extraction: ocr
+              content_sha256: 12e3449cdea5d289e622c60a35c5b01f157790d8830cb1e8b0cf0903b1563fde
+            - kind: section
+              section: 2
+              title: Décomposition primaire
+              path: content/fr/ac/IV/02_s2_decomposition_primaire.md
+              label: ac-iv-s2
+              first_pdf_page: 313
+              last_pdf_page: 351
+              subsections: 6
+              statements: 46
+              exercises: 35
+              extraction: ocr
+              content_sha256: 1d4458820fdbeea04d5c68b27efb24645fbef58d1f0cb8c161ca57a697e2d080
+            - kind: section
+              section: 3
+              title: Décomposition primaire dans les modules gradués
+              path: content/fr/ac/IV/03_s3_decomposition_primaire_dans_les_modules.md
+              label: ac-iv-s3
+              first_pdf_page: 332
+              last_pdf_page: 361
+              subsections: 3
+              statements: 6
+              exercises: 3
+              extraction: ocr
+              content_sha256: dc0a6f54f1b8abb8c9630f3eb4e31df53e150e4b7dcbfc0858d85afcbaa111ed
