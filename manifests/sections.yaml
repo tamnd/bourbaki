@@ -10305,3 +10305,146 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 75eb7d613ba7bdac13b34dee2e9e3a3f956264ee86c43b745731a95aacf6cc55
+    - id: alg-x-fr
+      reader_note:
+        kind: reader
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        path: content/fr/alg/00_to_the_reader_x.md
+        first_pdf_page: 4
+        last_pdf_page: 6
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 7a1afffc0ad9e61a6fa90d645007160fa503a99b88fd78a4fe77bb3ebb7ff868
+      chapters:
+        - chapter: X
+          title: ALGÈBRE HOMOLOGIQUE
+          sections:
+            - kind: front
+              title: ALGÈBRE HOMOLOGIQUE
+              path: content/fr/alg/X/00_frontmatter.md
+              first_pdf_page: 7
+              last_pdf_page: 7
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: b20dc8a44c4ec0bb52d7e38af62075d892ddcb4d4947a22cd8bd1ce97b3168cb
+            - kind: section
+              section: 1
+              title: Compléments d’algèbre linéaire
+              path: content/fr/alg/X/01_s1_complements_d_algebre_lineaire.md
+              label: alg-x-s1
+              first_pdf_page: 7
+              last_pdf_page: 179
+              book_pages: A X.168-A X.173
+              subsections: 10
+              statements: 54
+              exercises: 17
+              extraction: ocr
+              content_sha256: bd3c41963bcd4825d6836308d2ec8fec47621486e6b81283e3fadd4d739f6f4a
+            - kind: section
+              section: 2
+              title: Complexes de A-modules
+              path: content/fr/alg/X/02_s2_complexes_de_a_modules.md
+              label: alg-x-s2
+              first_pdf_page: 29
+              last_pdf_page: 184
+              book_pages: A X.23-A X.46, A X.173-A X.178
+              subsections: 10
+              statements: 56
+              exercises: 18
+              extraction: ocr
+              content_sha256: e39dbf624efa7299900b2ff6aa5b6b432df163fe6dd11f43a39e7879f80cefb3
+            - kind: section
+              section: 3
+              title: Résolutions
+              path: content/fr/alg/X/03_s3_resolutions.md
+              label: alg-x-s3
+              first_pdf_page: 52
+              last_pdf_page: 190
+              book_pages: A X.46-A X.61, A X.178-A X.184
+              subsections: 9
+              statements: 29
+              exercises: 19
+              extraction: ocr
+              content_sha256: 5ebb6c8a429b73fb0e96f7c1b840436916f3f85cfd822df95c442238a2791ff1
+            - kind: section
+              section: 4
+              title: Produits de torsion
+              path: content/fr/alg/X/04_s4_produits_de_torsion.md
+              label: alg-x-s4
+              first_pdf_page: 67
+              last_pdf_page: 192
+              book_pages: A X.61-A X.81, A X.184-A X.186
+              subsections: 9
+              statements: 39
+              exercises: 9
+              extraction: ocr
+              content_sha256: 0dd07ce8e9ce8109b1e39864b92a50b62e2990891ab5bf56dbf260ccfcff8d83
+            - kind: section
+              section: 5
+              title: Modules d’extensions
+              path: content/fr/alg/X/05_s5_modules_d_extensions.md
+              label: alg-x-s5
+              first_pdf_page: 87
+              last_pdf_page: 194
+              book_pages: A X.81-A X.100
+              subsections: 7
+              statements: 36
+              exercises: 8
+              extraction: ocr
+              content_sha256: a8e0b6026ac3a6b3cf91b3261cf288e27bfe5f90539217221d869c3e7ea01bd3
+            - kind: section
+              section: 6
+              title: Utilisation de résolutions non canoniques
+              path: content/fr/alg/X/06_s6_utilisation_de_resolutions_non.md
+              label: alg-x-s6
+              first_pdf_page: 106
+              last_pdf_page: 203
+              book_pages: A X.100-A X.113, A X.189-A X.197
+              subsections: 8
+              statements: 30
+              exercises: 18
+              extraction: ocr
+              content_sha256: 908be744602e152c7d063ad7bc7de7071838f03e3a57fb041dfa7346f158a9b6
+            - kind: section
+              section: 7
+              title: Produit de composition
+              path: content/fr/alg/X/07_s7_produit_de_composition.md
+              label: alg-x-s7
+              first_pdf_page: 119
+              last_pdf_page: 208
+              book_pages: A X.113-A X.134, A X.197-A X.202
+              subsections: 9
+              statements: 34
+              exercises: 11
+              extraction: ocr
+              content_sha256: 8030f2c6ec5b3b69eb251de1fd3bb272ebbe075c7b637f8643776b9f19219334
+            - kind: section
+              section: 8
+              title: Dimension homologique
+              path: content/fr/alg/X/08_s8_dimension_homologique.md
+              label: alg-x-s8
+              first_pdf_page: 140
+              last_pdf_page: 212
+              book_pages: A X.134-A X.146, A X.202-A X.206
+              subsections: 7
+              statements: 34
+              exercises: 22
+              extraction: ocr
+              content_sha256: 01423d7f9d05c6000bce1884bf08ce49ac1e4be4045d9ae6bb8edef4dbad7463
+            - kind: section
+              section: 9
+              title: Complexes de Koszul
+              path: content/fr/alg/X/09_s9_complexes_de_koszul.md
+              label: alg-x-s9
+              first_pdf_page: 153
+              last_pdf_page: 222
+              book_pages: A X.147-A X.168, A X.206-A X.216
+              subsections: 10
+              statements: 35
+              exercises: 10
+              extraction: ocr
+              content_sha256: 234fe2945aa4e961036016372d407d506dc8b4e0d5b9dad9251bdb87e41d0c74

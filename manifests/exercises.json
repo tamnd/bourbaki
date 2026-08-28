@@ -6239,6 +6239,98 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alg-x-fr",
+      "chapters": [
+        {
+          "chapter": "X",
+          "title": "ALGÈBRE HOMOLOGIQUE",
+          "total": 132,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-x-s1",
+              "dir": "s1",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-x-s2",
+              "dir": "s2",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "alg-x-s3",
+              "dir": "s3",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 1,
+              "supplementary": 2
+            },
+            {
+              "section": 4,
+              "label": "alg-x-s4",
+              "dir": "s4",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 5,
+              "label": "alg-x-s5",
+              "dir": "s5",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 6,
+              "label": "alg-x-s6",
+              "dir": "s6",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 1
+            },
+            {
+              "section": 7,
+              "label": "alg-x-s7",
+              "dir": "s7",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 3,
+              "supplementary": 1
+            },
+            {
+              "section": 8,
+              "label": "alg-x-s8",
+              "dir": "s8",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 3
+            },
+            {
+              "section": 9,
+              "label": "alg-x-s9",
+              "dir": "s9",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            }
+          ]
+        }
+      ]
     }
   ]
 }
