@@ -53,10 +53,10 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 5d64b4dd6d8674ea4793e05d57b77571eda9680cc57ea021294b685b8a92bf94
+content_sha256: 879bf51b2e3654d85e7008f58ddb654b5bcd91488326ca395817dea8c2c05941
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
-source_content_sha256: 335993d84faf2b8a46dcdfc6a136fa0e5662783a19c2b83d242352acfe244652
-translation_model: gpt-5-6, gpt-5-6-mini
+source_content_sha256: e6fbeed416ce5223d2083efdf2930c58be6c35b9febe48f9870b9bb5669b3907
+translation_model: gpt-5-6-mini
 translation_run: translate-vi-8494d73e
 glossary_version: 34
 glossary_terms_sha256: 9a825f5c62e874cb85898a1e2a6c9ee9516526b52543eb303194249f6b50e9be
@@ -71,41 +71,41 @@ Nhắc lại định nghĩa sau (§ 2, no. 3, Định nghĩa 6).
 
 #### Định nghĩa 1 {#alg-i-s4-def-1 .statement}
 
-*Một tập hợp với một luật hợp thành kết hợp, có phần tử đơn vị và trong đó mọi phần tử đều khả nghịch, được gọi là một nhóm.*
+*Một tập hợp có một luật hợp thành kết hợp, có phần tử đơn vị và theo đó mọi phần tử đều khả nghịch, được gọi là một nhóm.*
 
-Nói cách khác, một nhóm là một *nửa nhóm có đơn vị* (§ 2, no. 1, Định nghĩa 1) trong đó mọi phần tử đều khả nghịch. Một luật hợp thành trên một tập hợp xác định trên đó một cấu trúc nhóm được gọi là một *luật nhóm*. Nếu G và H là hai nhóm, một đồng cấu magma từ G vào H cũng được gọi là một *đồng cấu nhóm*. Đồng cấu $f$ này ánh xạ phần tử đơn vị vào phần tử đơn vị; thật vậy, gọi $e$ (t.ư. $e'$) là phần tử đơn vị của G (t.ư. H); viết các luật nhóm của G và H dưới dạng nhân, ta có $e \cdot e = e$, do đó $f(e) \cdot f(e) = f(e)$ và, nhân với $f(e)^{-1}, f(e) = e'$. Vậy $f$ có đơn vị. Từ đó, theo no. 3 của § 2, suy ra $f(x^{-1}) = f(x)^{-1}$ với mọi $x \in G$.
+Nói cách khác, một nhóm là một *mônôit* (§ 2, no. 1, Định nghĩa 1) trong đó mọi phần tử đều khả nghịch. Một luật hợp thành trên một tập hợp xác định trên đó một cấu trúc nhóm được gọi là một *luật nhóm*. Nếu G và H là hai nhóm, một đồng cấu magma từ G vào H cũng được gọi là một *đồng cấu nhóm*. Một đồng cấu như vậy $f$ ánh xạ phần tử đơn vị vào phần tử đơn vị; thật vậy, gọi $e$ (resp. $e'$) là phần tử đơn vị của G (resp. H); viết các luật nhóm của G và H dưới dạng nhân, $e \cdot e = e$, do đó $f(e) \cdot f(e) = f(e)$ và, nhân với $f(e)^{-1}, f(e) = e'$. Do đó $f$ có đơn vị. Từ no. 3 của § 2, suy ra $f(x^{-1}) = f(x)^{-1}$ với mọi $x \in G$.
 
 #### Ví dụ {#alg-i-s4-n1-exa-1 .statement}
 
-Trong mọi nửa nhóm có đơn vị E, tập hợp các phần tử khả nghịch cùng với cấu trúc cảm sinh bởi cấu trúc trên E là một nhóm. Đặc biệt, tập hợp các ánh xạ song ánh của một tập hợp F lên chính nó (hay tập hợp các *phép hoán vị* của F) là một nhóm đối với luật $(f, g) \mapsto f \circ g$, được gọi là *nhóm đối xứng của tập hợp* F và ký hiệu là $\mathfrak{S}_F$.
+Trong mọi mônôit E, tập hợp các phần tử khả nghịch với cấu trúc cảm sinh từ cấu trúc trên E là một nhóm. Đặc biệt, tập hợp các ánh xạ song ánh của một tập hợp F lên chính nó (hay tập hợp các *hoán vị* của F) là một nhóm theo luật $(f, g) \mapsto f \circ g$, được gọi là *nhóm đối xứng của tập hợp* F và ký hiệu bởi $\mathfrak{S}_F$.
 
 Trong đoạn này, trừ khi có chỉ dẫn khác, luật hợp thành của một nhóm sẽ luôn được viết dưới dạng *nhân* và $e$ sẽ ký hiệu phần tử đơn vị của một luật nhóm như vậy.
 
-Một nhóm G được gọi là *hữu hạn* nếu tập hợp nền của G là hữu hạn; ngược lại, nó được gọi là *vô hạn*; lực lượng của một nhóm được gọi là *cấp* của nhóm đó.
+Một nhóm G được gọi là *hữu hạn* nếu tập nền của G là hữu hạn; ngược lại, nó được gọi là *vô hạn*; lực lượng của một nhóm được gọi là *cấp* của nhóm đó.
 
-Nếu một luật hợp thành trên G xác định trên G một cấu trúc nhóm, thì luật đối cũng vậy. Ánh xạ của một nhóm G lên chính nó, gán cho mỗi $x \in G$ phần tử nghịch đảo của $x$, là một *đẳng cấu* của G lên nhóm đối (§ 2, no. 3, Mệnh đề 4).
+Nếu một luật hợp thành trên G xác định một cấu trúc nhóm trên G, thì luật đối cũng vậy. Ánh xạ của một nhóm G lên chính nó, ánh xạ mỗi $x \in G$ vào nghịch đảo của $x$, là một *đẳng cấu* từ G lên nhóm đối (§ 2, no. 3, Mệnh đề 4).
 
-Theo các quy ước chung của chúng ta (*Lý thuyết tập hợp*, II, § 3, no. 1), ta ký hiệu bằng $A^{-1}$ ảnh của một tập con A của G qua ánh xạ $x \mapsto x^{-1}$. Tuy nhiên, cần lưu ý rằng, mặc dù có sự tương tự về ký hiệu, $A^{-1}$ hoàn toàn không phải là phần tử nghịch đảo của A đối với luật hợp thành $(X, Y) \mapsto XY$ giữa các tập con của G (nhắc lại rằng XY là tập hợp các $xy$ với $x \in X, y \in Y$): phần tử đơn vị đối với luật này là $\{e\}$ và các phần tử khả nghịch duy nhất của $\mathcal{P}(G)$ đối với luật này là các tập hợp A gồm một phần tử (hơn nữa, một A như vậy chắc chắn có phần tử nghịch đảo $A^{-1}$). Đẳng thức
+Theo các quy ước chung của chúng ta (*Lý thuyết tập hợp*, II, § 3, no. 1), ta sẽ ký hiệu $A^{-1}$ là ảnh của một tập con A của G qua ánh xạ $x \mapsto x^{-1}$. Nhưng điều quan trọng cần lưu ý là, mặc dù có sự tương tự về ký hiệu, $A^{-1}$ hoàn toàn không phải là phần tử nghịch đảo của A theo luật hợp thành $(X, Y) \mapsto XY$ giữa các tập con của G (nhắc lại rằng XY là tập hợp các $xy$ với $x \in X, y \in Y$): phần tử đơn vị theo luật này là $\{e\}$ và các phần tử khả nghịch duy nhất của $\mathcal{P}(G)$ theo luật này là các tập hợp A gồm một phần tử (hơn nữa, một A như vậy chắc chắn có nghịch đảo $A^{-1}$). Đẳng thức
 
-$(AB)^{-1}=B^{-1}A^{-1}$ giữ đối với $A\subset G$, $B\subset G$. $A$ được gọi là một tập con đối xứng của $G$ nếu $A=A^{-1}$. Với mọi $A\subset G$, $A\cup A^{-1}$, $A\cap A^{-1}$ và $AA^{-1}$ đều đối xứng.
+$(AB)^{-1}=B^{-1}A^{-1}$ đúng với $A\subset G$, $B\subset G$. A được gọi là một tập con đối xứng của G nếu $A=A^{-1}$. Với mọi $A\subset G$, $A\cup A^{-1}$, $A\cap A^{-1}$ và $AA^{-1}$ đều đối xứng.
 
 ### 2. NHÓM CÓ TOÁN TỬ
 
 #### Định nghĩa 2 {#alg-i-s4-def-2 .statement}
 
-Cho $\Omega$ là một tập hợp. Một nhóm $G$ cùng với một tác động của $\Omega$ trên $G$ phân phối đối với luật nhóm, được gọi là một nhóm có toán tử trong $\Omega$.
+Cho $\Omega$ là một tập hợp. Một nhóm G cùng với một tác động của $\Omega$ trên G có tính phân phối đối với luật nhóm, được gọi là một nhóm có toán tử trong $\Omega$.
 
-Trong phần sau, $x^\alpha$ sẽ ký hiệu hợp thành của $\alpha\in\Omega$ và $x\in G$. Tính phân phối được biểu thị bởi đẳng thức $(xy)^\alpha=x^\alpha y^\alpha$.
+Trong phần tiếp theo, $x^\alpha$ sẽ ký hiệu hợp thành của $\alpha\in\Omega$ và $x\in G$. Tính phân phối được biểu thị bởi đẳng thức $(xy)^\alpha=x^\alpha y^\alpha$.
 
-Trong một nhóm có toán tử $G$, mỗi toán tử xác định một *tự đồng cấu* của *cấu trúc nhóm* nền; các tự đồng cấu này đôi khi sẽ được gọi là *các phép vị tự* của nhóm có toán tử $G$.
+Trong một nhóm có toán tử G, mỗi toán tử xác định một *tự đồng cấu* của *cấu trúc nhóm* nền; đôi khi các tự đồng cấu này sẽ được gọi là *các phép vị tự* của nhóm có toán tử G.
 
-Một nhóm có toán tử $G$ được gọi là *giao hoán* (hay *Abel*) nếu luật nhóm của nó là giao hoán.
+Một nhóm có toán tử G được gọi là *giao hoán* (hay *Abel*) nếu luật nhóm của nó giao hoán.
 
-Trong phần sau, một nhóm $G$ sẽ được đồng nhất với nhóm có toán tử trong $\varnothing$ nhận được bằng cách trang bị cho $G$ tác động duy nhất của $\varnothing$ trên $G$. Điều này cho phép ta xem các nhóm như những trường hợp riêng của các nhóm có toán tử và áp dụng cho chúng các định nghĩa và kết quả liên quan đến các nhóm có toán tử mà ta sẽ phát biểu.
+Trong phần tiếp theo, một nhóm G sẽ được đồng nhất với nhóm có toán tử trong $\varnothing$ thu được bằng cách trang bị cho G tác động duy nhất của $\varnothing$ trên G. Điều này cho phép ta xem các nhóm như những trường hợp đặc biệt của các nhóm có toán tử và áp dụng cho chúng các định nghĩa và kết quả liên quan đến các nhóm có toán tử mà ta sẽ nêu.
 
 #### Ví dụ {#alg-i-s4-n2-exa-1 .statement}
 
-Trong một nhóm giao hoán $G$, viết dưới dạng nhân, $(xy)^n=x^ny^n$ với mọi $n\in\mathbf{Z}$ (§ 2, no. 8, phương trình (1)); do đó, tác động $n\mapsto(x\mapsto x^n)$ của $\mathbf{Z}$ trên $G$, cùng với luật nhóm, xác định trên $G$ cấu trúc của một nhóm có toán tử.
+Trong một nhóm giao hoán G, được viết dưới dạng nhân, $(xy)^n=x^ny^n$ với mọi $n\in\mathbf{Z}$ (§ 2, no. 8, phương trình (1)); do đó tác động $n\mapsto(x\mapsto x^n)$ của $\mathbf{Z}$ trên G xác định, cùng với luật nhóm, cấu trúc của một nhóm có toán tử trên G.
 
 #### Định nghĩa 3 {#alg-i-s4-def-3 .statement}
 
@@ -117,15 +117,15 @@ $$
 
 với mọi $\alpha\in\Omega$ và mọi $x\in G$.
 
-Một *tự đồng cấu* của nhóm có toán tử $G$ là một tự đồng cấu của nhóm $G$ *giao hoán* với mọi *phép vị tự* của $G$.
+Một *tự đồng cấu* của nhóm có toán tử $G$ là một tự đồng cấu của nhóm $G$ *hoán vị* với mọi *phép vị tự* của $G$.
 
-Vì hai phép vị tự của một nhóm có toán tử $G$ không nhất thiết giao hoán với nhau, *một phép vị tự của $G$ nói chung không phải là một tự đồng cấu của nhóm có toán tử $G$.*
+Vì hai phép vị tự của một nhóm có toán tử $G$ không nhất thiết hoán vị với nhau, *một phép vị tự của $G$ nói chung không phải là một tự đồng cấu của nhóm có toán tử $G$.*
 
 Ánh xạ đồng nhất của một nhóm có toán tử là một đồng cấu của các nhóm có toán tử; hợp thành của hai đồng cấu của các nhóm có toán tử cũng là một đồng cấu như vậy. Để một ánh xạ là một đẳng cấu của các nhóm có toán tử, điều kiện cần và đủ là nó là một đồng cấu song ánh của các nhóm có toán tử, và khi đó ánh xạ nghịch đảo là một đẳng cấu của các nhóm có toán tử.
 
 31
 
-Tổng quát hơn, cho G (tương ứng G') là một nhóm có toán tử trong $\Omega$ (tương ứng $\Omega'$). Cho $\phi$ là một ánh xạ từ $\Omega$ vào $\Omega'$. Một đồng cấu-$\phi$ từ G vào G' là một đồng cấu của nhóm G vào nhóm G' sao cho
+Tổng quát hơn, cho G (resp. G') là một nhóm có toán tử trong $\Omega$ (resp. $\Omega'$). Cho $\phi$ là một ánh xạ từ $\Omega$ vào $\Omega'$. Một $\phi$-đồng cấu từ G vào G' là một đồng cấu của nhóm G vào nhóm G' sao cho
 
 $$
 f(x^\alpha) = (f(x))^{(\phi(\alpha))}
@@ -133,70 +133,70 @@ $$
 
 với mọi $\alpha \in \Omega$ và mọi $x \in G$.
 
-Trong phần còn lại của đoạn này, ta cho trước một tập hợp $\Omega$. Trừ khi có nói khác, các nhóm có toán tử được xét sẽ nhận $\Omega$ làm tập các toán tử.
+Trong phần còn lại của đoạn này, ta cố định một tập hợp $\Omega$. Trừ khi có nói khác đi, các nhóm có toán tử được xét sẽ nhận $\Omega$ làm tập hợp các toán tử.
 
-### 3. CÁC NHÓM CON
+### 3. NHÓM CON
 
 #### Định nghĩa 4 {#alg-i-s4-def-4 .statement}
 
-*Một nhóm G có toán tử. Một nhóm con ổn định của G là một tập con H của G có các tính chất sau*:
+*Cho G là một nhóm có toán tử. Một nhóm con ổn định của G là một tập con H của G có các tính chất sau*:
 
 (i) $e \in H$;
 (ii) $x, y \in H \implies xy \in H$;
 (iii) $x \in H \implies x^{-1} \in H$;
-(iv) $x \in H$ và $\alpha \in \Omega$ kéo theo $x^\alpha \in H$.
+(iv) $x \in H$ và $\alpha \in \Omega$ suy ra $x^\alpha \in H$.
 
-Nếu H là một nhóm con ổn định của G, cấu trúc cảm sinh trên H bởi cấu trúc của một nhóm có toán tử trên G là cấu trúc của một nhóm có toán tử và đơn ánh chính tắc của H vào G là một đồng cấu của các nhóm có toán tử.
+Nếu H là một nhóm con ổn định của G, cấu trúc cảm sinh trên H bởi cấu trúc của một nhóm có toán tử trên G là một cấu trúc của nhóm có toán tử và đơn ánh chính tắc của H vào G là một đồng cấu của các nhóm có toán tử.
 
-Cho G là một nhóm. Một nhóm con ổn định của G đối với tác động của $\varnothing$ (no. 2), là một tập con của G thỏa mãn các điều kiện (i), (ii), (iii) của Định nghĩa 4, được gọi là một *nhóm con* của G. Khi nói đến một nhóm con của một nhóm toán tử, ta luôn hiểu đó là một nhóm con của nhóm cơ sở của G. Một nhóm con của một nhóm có toán tử G không nhất thiết là một nhóm con ổn định của G.
+Cho G là một nhóm. Một nhóm con ổn định của G với tác động của $\varnothing$ (no. 2), tức là một tập con của G thỏa mãn các điều kiện (i), (ii), (iii) của Định nghĩa 4, được gọi là một *nhóm con* của G. Khi nói đến một nhóm con của một nhóm toán tử, ta luôn hiểu đó là một nhóm con của nhóm cơ sở của G. Một nhóm con của một nhóm có toán tử G không nhất thiết là một nhóm con ổn định của G.
 
-*Ví dụ* (1). Cho $\Sigma$ là một loài cấu trúc (*Lý thuyết Tập hợp*, IV, § 1, no. 4) và S là một cấu trúc thuộc loài $\Sigma$ trên một tập hợp E (*loc. cit.*). Tập hợp các *tự đẳng cấu* của S là một *nhóm con* của $\mathcal{G}_E$.
+*Ví dụ* (1). Cho $\Sigma$ là một loài cấu trúc (*Set Theory*, IV, § 1, no. 4) và S là một cấu trúc thuộc loài $\Sigma$ trên một tập hợp E (*loc. cit.*). Tập hợp các *tự đẳng cấu* của S là một nhóm con của $\mathcal{G}_E$.
 
 #### Mệnh đề 1 {#alg-i-s4-prop-1 .statement}
 
-*Cho G là một nhóm có toán tử và H là một tập con của G ổn định đối với các phép vị tự của G. Các điều kiện sau là tương đương*:
+*Cho G là một nhóm có toán tử và H là một tập con của G ổn định dưới các phép vị tự của G. Các điều kiện sau là tương đương*:
 
 (a) *H là một nhóm con ổn định của G*.
-(b) *H khác rỗng và các quan hệ* $x \in H, y \in H \implies xy \in H$ *và* $x^{-1} \in H$.
-(c) *H khác rỗng và các quan hệ* $x \in H, y \in H \implies xy^{-1} \in H$.
+(b) *H là khác rỗng và các quan hệ* $x \in H, y \in H \implies xy \in H$ *và* $x^{-1} \in H$.
+(c) *H là khác rỗng và các quan hệ* $x \in H, y \in H \implies xy^{-1} \in H$.
 (d) *H ổn định đối với luật trên G và luật hợp thành cảm sinh trên H bởi luật hợp thành trên G là một luật nhóm*.
 
-Rõ ràng (a) kéo theo (b). Ta chứng minh (b) kéo theo (a). Chỉ cần chứng minh rằng H chứa phần tử đơn vị của G. Vì tập con H khác rỗng, lấy $x \in H$. Khi đó $x^{-1} \in H$ và $e = xx^{-1} \in H$. Rõ ràng (b) kéo theo (c). Ta chứng minh (c) kéo theo (b). Trước hết vì H khác rỗng nên nó chứa một phần tử x. Do đó xx^{-1} = e là một phần tử của H. Với mọi phần tử x của H, $x^{-1} = ex^{-1}$ thuộc H; do đó các quan hệ $x \in H, y \in H$ kéo theo $x(y^{-1})^{-1} = xy \in H$. Rõ ràng (a) kéo theo (d). Ta chứng minh (d) kéo theo (a): đơn ánh chính tắc của H vào G là một đồng cấu nhóm; do đó $e \in H$ và quan hệ $x \in H$ kéo theo $x^{-1} \in H$ (no. 1).
+Rõ ràng (a) suy ra (b). Ta chứng minh (b) suy ra (a). Chỉ cần chứng minh rằng H chứa phần tử đơn vị của G. Vì tập con H khác rỗng, lấy $x \in H$. Khi đó $x^{-1} \in H$ và $e = xx^{-1} \in H$. Rõ ràng (b) suy ra (c). Ta chứng minh (c) suy ra (b). Trước hết vì H khác rỗng nên nó chứa một phần tử x. Do đó $xx^{-1} = e$ là một phần tử của H. Với mọi phần tử x của H, $x^{-1} = ex^{-1}$ thuộc H; do đó các quan hệ $x \in H, y \in H$ suy ra $x(y^{-1})^{-1} = xy \in H$. Rõ ràng (a) suy ra (d). Ta chứng minh (d) suy ra (a): đơn ánh chính tắc của H vào G là một đồng cấu nhóm; do đó $e \in H$ và quan hệ $x \in H$ suy ra $x^{-1} \in H$ (no. 1).
 
 #### Nhận xét {#alg-i-s4-n3-rem-1 .statement}
 
 (1) Tương tự, có thể chứng minh rằng điều kiện (b) tương đương với điều kiện
-(c') $H \neq \varnothing$ và các quan hệ $x \in H$ và $y \in H$ kéo theo $y^{-1}x \in H$.
-(2) Với mọi nhóm con H của G có các quan hệ sau
+(c') $H \neq \varnothing$ và các quan hệ $x \in H$ và $y \in H$ suy ra $y^{-1}x \in H$.
+(2) Với mọi nhóm con H của G, có các quan hệ sau
 $$(1)$$
-$$H.H = H \quad \text{và} \quad H^{-1} = H.$$
-Vì $H.H \subset H$ và $H^{-1} \subset H$ theo (b). Vì $e \in H, H.H \supset e.H = H$ và lấy nghịch đảo biến bao hàm $H^{-1} \subset H$ thành $H \subset H^{-1}$, do đó các công thức (1).
+$$H.H = H \quad \text{and} \quad H^{-1} = H.$$
+Vì $H.H \subset H$ và $H^{-1} \subset H$ theo (b). Do $e \in H, H.H \supset e.H = H$ và lấy nghịch đảo biến bao hàm $H^{-1} \subset H$ thành $H \subset H^{-1}$, do đó các công thức (1).
 
 Nếu H là một nhóm con ổn định của G và K là một nhóm con ổn định của H, thì rõ ràng K là một nhóm con ổn định của G.
 
-Tập hợp $\{e\}$ là nhóm con ổn định nhỏ nhất của G. Giao của một họ các nhóm con ổn định của G là một nhóm con ổn định. Do đó tồn tại một nhóm con ổn định nhỏ nhất H của G chứa một tập con X đã cho của G; nó được gọi là *nhóm con ổn định sinh bởi* X và X được gọi là một *hệ sinh* (hoặc *tập sinh*) của H.
+Tập $\{e\}$ là nhóm con ổn định nhỏ nhất của G. Giao của một họ các nhóm con ổn định của G là một nhóm con ổn định. Do đó tồn tại một nhóm con ổn định nhỏ nhất H của G chứa một tập con X đã cho của G; nó được gọi là *nhóm con ổn định sinh bởi* X và X được gọi là một *hệ sinh* (hay *tập sinh*) của H.
 
 #### Mệnh đề 2 {#alg-i-s4-prop-2 .statement}
 
-*Cho X là một tập con khác rỗng của một nhóm có toán tử G và $\hat{X}$ là tập con ổn định đối với tác động của $\Omega$ trên G sinh bởi X. Nhóm con ổn định sinh bởi X là tập con ổn định đối với luật trên G sinh bởi tập hợp $Y = \hat{X} \cup \hat{X}^{-1}$.*
+*Cho X là một tập con không rỗng của một nhóm có toán tử G và $\hat{X}$ là tập con ổn định dưới tác động của $\Omega$ trên G sinh bởi X. Nhóm con ổn định sinh bởi X là tập con ổn định dưới luật trên G sinh bởi tập $Y = \hat{X} \cup \hat{X}^{-1}$.*
 
-Tập con sau cùng Z là tập hợp các hợp thành của các dãy hữu hạn mà mọi số hạng đều là các phần tử của $\hat{X}$ hoặc nghịch đảo của các phần tử của $\hat{X}$: nghịch đảo của một hợp thành như vậy là một hợp thành cùng dạng (\S 2, no. 3, Hệ quả 1 của Mệnh đề 5) và Z ổn định đối với tác động của $\Omega$, như thấy được bằng cách áp dụng \S 3, no. 4, Mệnh đề 1 cho các phép vị tự của G, do đó (Mệnh đề 1) Z là một *nhóm con ổn định* của G. Ngược lại, mọi nhóm con ổn định chứa X hiển nhiên chứa Y và do đó Z.
+Tập con sau cùng Z là tập hợp các hợp thành của những dãy hữu hạn mà mọi số hạng của chúng là các phần tử của $\hat{X}$ hoặc nghịch đảo của các phần tử của $\hat{X}$: nghịch đảo của một hợp thành như vậy là một hợp thành cùng dạng (\S 2, no. 3, Hệ quả 1 của Mệnh đề 5) và Z ổn định dưới tác động của $\Omega$, như thấy được bằng cách áp dụng \S 3, no. 4, Mệnh đề 1 cho các phép vị tự của G, do đó (Mệnh đề 1) Z là một *nhóm con ổn định* của G. Ngược lại, mọi nhóm con ổn định chứa X hiển nhiên chứa Y và do đó chứa Z.
 
 #### Hệ quả 1 {#alg-i-s4-prop-2-cor-1 .statement}
 
-*Cho G là một nhóm có toán tử và X là một tập con của G ổn định đối với tác động của $\Omega$. Nhóm con sinh bởi X và nhóm con ổn định sinh bởi X trùng nhau.*
+*Cho G là một nhóm có toán tử và X là một tập con của G ổn định dưới tác động của $\Omega$. Nhóm con sinh bởi X và nhóm con ổn định sinh bởi X trùng nhau.*
 
 #### Hệ quả 2 {#alg-i-s4-prop-2-cor-2 .statement}
 
 *Cho G là một nhóm và X là một tập con của G gồm các phần tử từng đôi một hoán vị được. Nhóm con của G sinh bởi X là giao hoán.*
 
-Tập hợp $Y = X \cup X^{-1}$ gồm các phần tử từng đôi một hoán vị được (\S 2, no. 3, Mệnh đề 5) và luật cảm sinh trên tập con ổn định sinh bởi Y là giao hoán (\S 1, no. 5, Hệ quả 2).
+Tập $Y = X \cup X^{-1}$ gồm các phần tử từng đôi một hoán vị được (\S 2, no. 3, Mệnh đề 5) và luật cảm sinh trên tập con ổn định sinh bởi Y là giao hoán (\S 1, no. 5, Hệ quả 2).
 
 Nếu G là một nhóm có toán tử, nhóm con ổn định sinh bởi một tập con của G gồm các phần tử từng đôi một hoán vị được không nhất thiết là giao hoán.
 
 #### Hệ quả 3 {#alg-i-s4-prop-2-cor-3 .statement}
 
-Cho $f : G \to G'$ là một đồng cấu các nhóm có toán tử và X là một tập con của G. Ảnh qua f của nhóm con ổn định của G sinh bởi X là nhóm con ổn định của G' sinh bởi $f(X)$.
+Cho $f : G \to G'$ là một đồng cấu của các nhóm có toán tử và X là một tập con của G. Ảnh qua f của nhóm con ổn định của G sinh bởi X là nhóm con ổn định của G' sinh bởi $f(X)$.
 
 Đặt $X' = f(X)$. Khi đó $\hat{X}' = f(\hat{X})$ và ${X'}^{-1} = f(X^{-1})$. Do đó
 $$
@@ -204,31 +204,31 @@ f(\hat{X} \cup \hat{X}^{-1}) = \hat{X}' \cup \hat{X}'^{-1}.
 $$
 Hệ quả suy ra từ § 1, no. 4, Mệnh đề 1.
 
-Ví dụ (2). Cho G là một nhóm và x là một phần tử của G. Nhóm con sinh bởi $\{x\}$ (gọi đơn giản hơn là nhóm con sinh bởi x) là tập hợp các $x^n, n \in \mathbf{Z}$. Tập con ổn định (đối với luật trên G) sinh bởi $\{x\}$ là tập hợp các $x^n$ trong đó $n \in \mathbf{N}^*$. Nói chung, hai tập hợp này phân biệt.
+Ví dụ (2). Cho G là một nhóm và x là một phần tử của G. Nhóm con sinh bởi $\{x\}$ (được gọi đơn giản hơn là nhóm con sinh bởi x) là tập hợp của $x^n, n \in \mathbf{Z}$. Tập con ổn định (dưới luật trên G) sinh bởi $\{x\}$ là tập hợp của $x^n$ trong đó $n \in \mathbf{N}^*$. Hai tập hợp này nói chung là phân biệt.
 
-Do đó, trong nhóm cộng $\mathbf{Z}$, nhóm con sinh bởi một phần tử x là tập hợp $x.\mathbf{Z}$ gồm các $xn, n \in \mathbf{Z}$, và tập con ổn định sinh bởi x là tập hợp các $xn, n \in \mathbf{N}^*$. Hai tập hợp này luôn phân biệt nếu $x \neq 0$.
+Do đó, trong nhóm cộng $\mathbf{Z}$, nhóm con sinh bởi một phần tử x là tập $x.\mathbf{Z}$ của $xn, n \in \mathbf{Z}$, và tập con ổn định sinh bởi x là tập của $xn, n \in \mathbf{N}^*$. Hai tập hợp này luôn phân biệt nếu $x \neq 0$.
 
-Hợp của một họ có hướng phải các nhóm con ổn định của G hiển nhiên là một nhóm con ổn định. Suy ra rằng, nếu P là một tập con của G và H là một nhóm con ổn định của G không giao với P, thì tập hợp các nhóm con ổn định của G chứa H và không giao với P, được sắp thứ tự bởi quan hệ bao hàm, là quy nạp (Lý thuyết Tập hợp, III, § 2, no. 4). Áp dụng Bổ đề Zorn (Lý thuyết Tập hợp, III, § 2, no. 4), ta thu được kết quả sau:
+Hợp của một họ có hướng phải các nhóm con ổn định của G hiển nhiên là một nhóm con ổn định. Suy ra rằng, nếu P là một tập con của G và H là một nhóm con ổn định của G không giao với P, tập các nhóm con ổn định của G chứa H và không giao với P, được sắp thứ tự bởi phép bao hàm, là quy nạp (Lý thuyết tập hợp, III, § 2, no. 4). Áp dụng Bổ đề Zorn (Lý thuyết tập hợp, III, § 2, no. 4), ta thu được kết quả sau:
 
 #### Mệnh đề 3 {#alg-i-s4-prop-3 .statement}
 
-Cho G là một nhóm có toán tử, P là một tập con của G và H là một nhóm con ổn định của G không giao với P. Tập hợp các nhóm con ổn định của G chứa H và không giao với P có một phần tử cực đại.
+Cho G là một nhóm có toán tử, P là một tập con của G và H là một nhóm con ổn định G không giao với P. Tập các nhóm con ổn định của G chứa H và không giao với P có một phần tử cực đại.
 
-### 4. CÁC NHÓM THƯƠNG
+### 4. NHÓM THƯƠNG
 
 #### Định lý 1 {#alg-i-s4-thm-1 .statement}
 
-Cho R là một quan hệ tương đương trên một nhóm có toán tử G; nếu R tương thích bên trái (tương ứng bên phải) (§ 3, no. 3) với luật nhóm trên G và tương thích với tác động của $\Omega$, thì lớp tương đương của e là một nhóm con ổn định H của G và quan hệ R tương đương với $x^{-1}y \in H$ (tương ứng $yx^{-1} \in H$). Ngược lại, nếu H là một nhóm con ổn định của G, quan hệ $x^{-1}y \in H$ (tương ứng $yx^{-1} \in H$) là một quan hệ tương đương tương thích bên trái (tương ứng bên phải) với luật nhóm trên G và tương thích với tác động của $\Omega$, theo đó H là lớp tương đương của e.
+Cho R là một quan hệ tương đương trên một nhóm có toán tử G; nếu R là tương thích trái (tương ứng phải) (§ 3, no. 3) với luật nhóm trên G và tương thích với tác động của $\Omega$, lớp tương đương của e là một nhóm con ổn định H của G và quan hệ R tương đương với $x^{-1}y \in H$ (tương ứng $yx^{-1} \in H$). Ngược lại, nếu H là một nhóm con ổn định của G, quan hệ $x^{-1}y \in H$ (tương ứng $yx^{-1} \in H$) là một quan hệ tương đương tương thích trái (tương ứng phải) với luật nhóm trên G và tương thích với tác động của $\Omega$, dưới đó H là lớp tương đương của e.
 
-Ta chỉ xét trường hợp quan hệ R tương thích bên trái với luật trên G (trường hợp quan hệ tương thích bên phải suy ra bằng cách thay luật trên G bằng luật đối). Quan hệ $y \equiv x \pmod{R}$ tương đương với $x^{-1}y \equiv e \pmod{R}$, vì $y \equiv x$ suy ra $x^{-1}y \equiv x^{-1}x = e$ và ngược lại $x^{-1}y \equiv e$ suy ra $y = x(x^{-1}y) \equiv x$. Nếu H ký hiệu lớp tương đương của e, thì quan hệ R tương đương với $x^{-1}y \in H$. Ta chứng minh H là một nhóm con ổn định của G. Với mọi toán tử $\alpha$, quan hệ $x \equiv e$ suy ra $x^\alpha \equiv e^\alpha = e$, do đó $H^\alpha \subset H$ và H ổn định đối với tác động của $\Omega$. Chỉ cần chứng minh (Mệnh đề 1) rằng $x \in H$ và $y \in H$ kéo theo $x^{-1}y \in H$, tức là $x \equiv e$ và $y \equiv e$ kéo theo $x \equiv y$, điều này là hệ quả của tính bắc cầu của R.
+Ta giới hạn sự chú ý vào trường hợp quan hệ R tương thích trái với luật trên G (trường hợp quan hệ tương thích phải suy ra bằng cách thay thế luật trên G bởi luật đối). Quan hệ $y \equiv x \pmod{R}$ tương đương với $x^{-1}y \equiv e \pmod{R}$, vì $y \equiv x$ kéo theo $x^{-1}y \equiv x^{-1}x = e$ và ngược lại $x^{-1}y \equiv e$ kéo theo $y = x(x^{-1}y) \equiv x$. Nếu H ký hiệu lớp tương đương của e, thì quan hệ R tương đương với $x^{-1}y \in H$. Ta chứng minh rằng H là một nhóm con ổn định của G. Với mọi toán tử $\alpha$, quan hệ $x \equiv e$ kéo theo $x^\alpha \equiv e^\alpha = e$, do đó $H^\alpha \subset H$ và H ổn định dưới tác động của $\Omega$. Chỉ cần thiết lập (Mệnh đề 1) rằng $x \in H$ và $y \in H$ kéo theo $x^{-1}y \in H$, nghĩa là $x \equiv e$ và $y \equiv e$ kéo theo $x \equiv y$, điều này là hệ quả của tính bắc cầu của R.
 
-Ngược lại, cho H là một nhóm con ổn định của G; quan hệ $x^{-1}y \in H$ là phản xạ vì $x^{-1}x = e \in H$; nó đối xứng vì $x^{-1}y \in H$ suy ra $y^{-1}x = (x^{-1}y)^{-1} \in H$; nó bắc cầu, vì $x^{-1}y \in H$ và $y^{-1}z \in H$ suy ra $x^{-1}z = (x^{-1}y)(y^{-1}z) \in H$; nó tương thích bên trái với luật hợp thành trên G, vì $x^{-1}y = (zx)^{-1}(zy)$ với mọi $z \in G$; cuối cùng, với mọi toán tử $\alpha$, quan hệ $y \in xH$ suy ra $y^\alpha \in x^\alpha H^\alpha \subset x^\alpha H$ và do đó quan hệ tương đương $x^{-1}y \in H$ tương thích với tác động của $\Omega$ trên G.
+Ngược lại, cho H là một nhóm con ổn định của G; quan hệ $x^{-1}y \in H$ có tính phản xạ vì $x^{-1}x = e \in H$; nó có tính đối xứng vì $x^{-1}y \in H$ kéo theo $y^{-1}x = (x^{-1}y)^{-1} \in H$; nó có tính bắc cầu, vì $x^{-1}y \in H$ và $y^{-1}z \in H$ kéo theo $x^{-1}z = (x^{-1}y)(y^{-1}z) \in H$; nó tương thích trái với luật hợp thành trên G, vì $x^{-1}y = (zx)^{-1}(zy)$ với mọi $z \in G$; cuối cùng, với mọi tác tử $\alpha$, quan hệ $y \in xH$ kéo theo $y^\alpha \in x^\alpha H^\alpha \subset x^\alpha H$ và do đó quan hệ tương đương $x^{-1}y \in H$ tương thích với tác động của $\Omega$ trên G.
 
-Cho G là một nhóm và H là một nhóm con của G; quan hệ $x^{-1}y \in H$ (t.ư. $yx^{-1} \in H$) cũng được viết dưới dạng tương đương $y \in xH$ (t.ư. $y \in Hx$). Như vậy, mỗi nhóm con H của G xác định hai quan hệ tương đương trên G, đó là $y \in xH$ và $y \in Hx$: các lớp tương đương theo các quan hệ này lần lượt là các tập $xH$, được gọi là *lớp ghép trái của H* (hay *môđun H*), và các tập $Hx$, được gọi là *lớp ghép phải của H* (hay *môđun H*). Bằng cách *bão hòa* một tập con $A \subset G$ đối với các quan hệ này (*Lý thuyết tập hợp*, II, § 6, no. 4), ta lần lượt thu được các tập AH và HA. Ánh xạ $x \mapsto x^{-1}$ biến các lớp ghép trái môđun H thành các lớp ghép phải môđun H và ngược lại.
+Cho G là một nhóm và H là một nhóm con của G; quan hệ $x^{-1}y \in H$ (resp. $yx^{-1} \in H$) cũng được viết dưới dạng tương đương $y \in xH$ (resp. $y \in Hx$). Như vậy, mỗi nhóm con H của G xác định hai quan hệ tương đương trên G, cụ thể là $y \in xH$ và $y \in Hx$: các lớp tương đương theo các quan hệ này lần lượt là các tập hợp $xH$, được gọi là các *lớp ghép trái của H* (hoặc *modulo H*), và các tập hợp $Hx$, được gọi là các *lớp ghép phải của H* (hoặc *modulo H*). Bằng cách *làm bão hòa* một tập con $A \subset G$ đối với các quan hệ này (*Set Theory*, II, § 6, no. 4), ta lần lượt thu được các tập hợp AH và HA. Ánh xạ $x \mapsto x^{-1}$ biến các lớp ghép trái modulo H thành các lớp ghép phải modulo H và ngược lại.
 
-Lực lượng của tập các lớp ghép trái (mod. H) được gọi là *chỉ số* của nhóm con H đối với G và được ký hiệu bởi $(G:H)$; nó cũng bằng lực lượng của tập các lớp ghép phải.
+Lực lượng của tập hợp các lớp ghép trái (mod. H) được gọi là *chỉ số* của nhóm con H đối với G và được ký hiệu bởi $(G:H)$; nó cũng bằng lực lượng của tập hợp các lớp ghép phải.
 
-Nếu một nhóm con K của G chứa H thì nó là hợp của các lớp ghép trái (hoặc phải) của H. Vì một lớp ghép trái của K nhận được từ K bằng một phép tịnh tiến trái, tập các lớp ghép trái của H chứa trong một lớp ghép trái của K có lực lượng độc lập với lớp sau. Do đó (*Lý thuyết tập hợp*, III, § 5, no. 8, Mệnh đề 9):
+Nếu một nhóm con K của G chứa H, thì nó là một hợp của các lớp ghép trái (hoặc phải) của H. Vì một lớp ghép trái của K thu được từ K bằng phép tịnh tiến trái, tập hợp các lớp ghép trái của H được chứa trong một lớp ghép trái của K có lực lượng độc lập với lớp ghép trái đó. Do đó (*Set Theory*, III, § 5, no. 8, Mệnh đề 9):
 
 #### Mệnh đề 4 {#alg-i-s4-prop-4 .statement}
 
@@ -243,35 +243,35 @@ $$
 $$
 h \cdot (G:H) = g
 $$
-(đặc biệt, cấp và chỉ số của H là các *ước* của cấp của G).
+(đặc biệt, cấp và chỉ số của H là *các ước* của cấp của G).
 
-Định lý 1 cho phép ta xác định các quan hệ tương đương tương thích với các luật trên một nhóm có toán tử G: nếu R là một quan hệ như vậy, thì nó vừa tương thích bên trái vừa tương thích bên phải với luật nhóm trên G và với tác động của $\Omega$. Do đó, nếu H là lớp của $e$ (mod. R), thì H là một nhóm con ổn định sao cho các quan hệ $y \in xH$ và $y \in Hx$ là tương đương (vì cả hai đều tương đương với R); do đó $xH = Hx$ với mọi $x \in G$. Ngược lại, nếu điều này đúng, một trong hai quan hệ tương đương $y \in xH, y \in Hx$ tương thích với luật nhóm, vì nó vừa tương thích bên trái vừa tương thích bên phải với luật này ($\S$ 3, no. 4) và tương thích với tác động của $\Omega$. Vì phương trình $xH = Hx$ tương đương với $xHx^{-1} = H$, ta đưa ra định nghĩa sau:
+Định lý 1 cho phép ta xác định các quan hệ tương đương tương thích với các luật trên một nhóm có tác tử G: nếu R là một quan hệ như vậy, thì nó vừa tương thích trái vừa tương thích phải với luật nhóm trên G và với tác động của $\Omega$. Do đó, nếu H là lớp của $e$ (mod. R), thì H là một nhóm con ổn định sao cho các quan hệ $y \in xH$ và $y \in Hx$ là tương đương (vì cả hai đều tương đương với R); do đó $xH = Hx$ với mọi $x \in G$. Ngược lại, nếu điều này đúng, một trong hai quan hệ tương đương $y \in xH, y \in Hx$ tương thích với luật nhóm, vì nó vừa tương thích trái vừa tương thích phải với luật này ($\S$ 3, no. 4) và tương thích với tác động của $\Omega$. Vì phương trình $xH = Hx$ tương đương với $xHx^{-1} = H$, ta đưa ra định nghĩa sau:
 
 #### Định nghĩa 5 {#alg-i-s4-def-5 .statement}
 
-*Cho G là một nhóm có toán tử. Một nhóm con ổn định H của G được gọi là một nhóm con ổn định chuẩn (hay bất biến) của G nếu $xHx^{-1} = H$ với mọi $x \in G$.*
+*Một nhóm G có tác tử. Một nhóm con ổn định H của G được gọi là một nhóm con ổn định chuẩn (hoặc bất biến) của G nếu $xHx^{-1} = H$ với mọi $x \in G$.*
 
-Nếu $\Omega = \varnothing$, một nhóm con ổn định chuẩn của G được gọi là một *nhóm con chuẩn* (hay *bất biến*) của G. Trong một nhóm giao hoán, mọi nhóm con đều chuẩn.
+Nếu $\Omega = \varnothing$, một nhóm con ổn định chuẩn của G được gọi là một *nhóm con chuẩn* (hoặc *bất biến*) của G. Trong một nhóm giao hoán, mọi nhóm con đều là chuẩn.
 
 Để kiểm tra rằng một nhóm con ổn định H là chuẩn, chỉ cần chứng minh rằng $xHx^{-1} \subset H$ với mọi $x \in G$; vì nếu vậy thì $x^{-1}Hx \subset H$ với mọi $x \in G$, tức là $H \subset xHx^{-1}$, và do đó $H = xHx^{-1}$.
 
-Cho H là một nhóm con ổn định chuẩn của G và R là quan hệ tương đương $y \in xH$ xác định bởi H; trên tập thương $G/R$, luật nội tại, tức thương bởi R của luật nhóm của G, là kết hợp; lớp của e là phần tử đơn vị của luật thương này; các lớp của hai phần tử nghịch đảo trong G là các phần tử nghịch đảo theo luật thương và tác động của $\Omega$, tức thương bởi R của tác động của $\Omega$ trên G, phân phối đối với luật nội tại trên $G/R$ ($\S$ 3, no. 5). Do đó, tóm tắt các kết quả đã thu được:
+Cho H là một nhóm con ổn định chuẩn của G và R là quan hệ tương đương $y \in xH$ được xác định bởi H; trên tập thương $G/R$, luật nội, tức thương theo R của luật nhóm của G, có tính kết hợp; lớp của e là phần tử đơn vị của luật thương này; các lớp của hai phần tử nghịch đảo trong G là các phần tử nghịch đảo theo luật thương và tác động của $\Omega$, tức thương theo R của tác động của $\Omega$ trên G, phân phối đối với luật nội trên $G/R$ ($\S$ 3, no. 5). Do đó, tóm tắt các kết quả đã thu được:
 
 #### Định lý 2 {#alg-i-s4-thm-2 .statement}
 
-*Một nhóm G có tác động của các toán tử. Đối với một quan hệ tương đương R trên G tương thích với luật nhóm và tác động của $\Omega$, điều kiện cần và đủ là nó có dạng $x^{-1}y \in H$, trong đó H là một nhóm con chuẩn tắc ổn định của G (hơn nữa, quan hệ $x^{-1}y \in H$ tương đương với $yx^{-1} \in H$ đối với một nhóm con như vậy). Luật hợp thành trên $G/R$ là thương của luật trên G và tác động của $\Omega$ trên $G/R$ là thương của tác động của $\Omega$ trên G theo một quan hệ R như vậy, trang bị cho $G/R$ cấu trúc của một nhóm có toán tử, gọi là cấu trúc thương, và ánh xạ chính tắc của phép chuyển qua thương là một đồng cấu của các nhóm có toán tử.*
+*Một nhóm có tác động G. Đối với một quan hệ tương đương R trên G tương thích với luật nhóm và tác động của $\Omega$, điều kiện cần và đủ là nó có dạng $x^{-1}y \in H$, trong đó H là một nhóm con chuẩn ổn định của G (hơn nữa, đối với một nhóm con như vậy, quan hệ $x^{-1}y \in H$ tương đương với $yx^{-1} \in H$). Luật hợp thành trên $G/R$, thương của luật đó trên G, và tác động của $\Omega$ trên $G/R$, thương của tác động của $\Omega$ trên G theo một quan hệ R như vậy, trang bị cho $G/R$ cấu trúc của một nhóm có tác động, gọi là cấu trúc thương, và ánh xạ chính tắc của phép chuyển qua thương là một đồng cấu của các nhóm có tác động.*
 
 #### Định nghĩa 6 {#alg-i-s4-def-6 .statement}
 
-*Thương của một nhóm có toán tử G theo quan hệ tương đương được xác định bởi một nhóm con chuẩn tắc H của G, cùng với cấu trúc thương, được gọi là nhóm có toán tử thương của G theo H và được ký hiệu bởi $G/H$. Ánh xạ chính tắc $G \to G/H$ được gọi là một đồng cấu chính tắc*
+*Thương của một nhóm có tác động G theo một quan hệ tương đương xác định bởi một nhóm con chuẩn H của G, với cấu trúc thương, được gọi là nhóm có tác động thương của G theo H và được ký hiệu bởi $G/H$. Ánh xạ chính tắc $G \to G/H$ được gọi là một đồng cấu chính tắc*
 
-Cho G là một nhóm và H là một nhóm con chuẩn tắc của G. Thương $G/H$, với cấu trúc nhóm của nó, được gọi là *nhóm thương* của G theo H. Để một ánh xạ từ $G/H$ vào một nhóm có toán tử là một đồng cấu của các nhóm có toán tử, điều kiện cần và đủ là hợp thành của nó với ánh xạ chính tắc của G lên $G/H$ là một: điều này biện minh cho tên gọi "nhóm thương" (*Lý thuyết tập hợp*, IV, $\S$ 2, no. 6).
+Cho G là một nhóm và H là một nhóm con chuẩn của G. Thương $G/H$, với cấu trúc nhóm của nó, được gọi là *nhóm thương* của G theo H. Để một ánh xạ từ $G/H$ vào một nhóm có tác động là một đồng cấu của các nhóm có tác động, điều kiện cần và đủ là hợp thành của nó với ánh xạ chính tắc từ G lên $G/H$ là một: điều này biện minh cho tên gọi "nhóm thương" (*Lý thuyết tập hợp*, IV, $\S$ 2, no. 6).
 
-Quan hệ tương đương được xác định bởi một nhóm con chuẩn tắc ổn định của G được ký hiệu bởi $x \equiv y \pmod{H}$ hoặc $x \equiv y(H)$.
+Quan hệ tương đương xác định bởi một nhóm con chuẩn ổn định của G được ký hiệu bởi $x \equiv y \pmod{H}$ hoặc $x \equiv y(H)$.
 
 #### Mệnh đề 5 {#alg-i-s4-prop-5 .statement}
 
-Cho $f : G \to G'$ là một đồng cấu của các nhóm có toán tử và $H$ và $H'$ lần lượt là các nhóm con chuẩn tắc ổn định của $G$ và $G'$ sao cho $f(H) \subset H'$. Ánh xạ $f$ tương thích với các quan hệ tương đương được xác định bởi $H$ và $H'$. Gọi $\pi : G \to G/H$ và $\pi' : G' \to G'/H'$ là các đồng cấu chính tắc. Ánh xạ $\bar{f} : G/H \to G'/H'$ dẫn xuất từ $f$ bằng cách chuyển qua các thương là một đồng cấu.
+Cho $f : G \to G'$ là một đồng cấu của các nhóm có tác động và H và H' lần lượt là các nhóm con chuẩn ổn định của G và G' sao cho $f(H) \subset H'$. Ánh xạ $f$ tương thích với các quan hệ tương đương xác định bởi H và H'. Gọi $\pi : G \to G/H$ và $\pi' : G' \to G'/H'$ là các đồng cấu chính tắc. Ánh xạ $\bar{f} : G/H \to G'/H'$ dẫn xuất từ f bằng cách chuyển qua các thương là một đồng cấu.
 
 Nếu $x \equiv y \pmod{H}$, thì $x^{-1}y \in H$, do đó
 $$
@@ -281,47 +281,47 @@ và do đó $f(x) \equiv f(y) \pmod{H'}$. Mệnh đề thứ hai suy ra từ tí
 
 #### Nhận xét {#alg-i-s4-n4-rem-1 .statement}
 
-(1) Nếu $A$ là một tập con bất kỳ của một nhóm $G$ và $H$ là một nhóm con chuẩn tắc của $G$, thì $AH = HA$; tập hợp này thu được bằng cách làm bão hòa $A$ đối với quan hệ $x \equiv y \pmod{H}$.
+(1) Nếu $A$ là một tập con bất kỳ của một nhóm G và H là một nhóm con chuẩn của G, thì $AH = HA$; tập hợp này thu được bằng cách bão hòa A đối với quan hệ $x \equiv y \pmod{H}$.
 
-(2) Nếu $H$ là một nhóm con chuẩn tắc của $G$ có chỉ số hữu hạn, thì nhóm thương $G/H$ là một nhóm hữu hạn có cấp $(G:H)$.
+(2) Nếu H là một nhóm con chuẩn của G có chỉ số hữu hạn, thì nhóm thương $G/H$ là một nhóm hữu hạn có cấp $(G:H)$.
 
-Chú ý rằng nếu $H$ là một nhóm con chuẩn tắc của một nhóm $G$ và $K$ là một nhóm con chuẩn tắc của $H$, thì $K$ không nhất thiết là một nhóm con chuẩn tắc của $G$ (I, $\S 5$, Bài tập 10).
+Lưu ý rằng nếu H là một nhóm con chuẩn của một nhóm G và K là một nhóm con chuẩn của H, thì K không nhất thiết là một nhóm con chuẩn của G (I, $\S 5$, Bài tập 10).
 
-Cho $G$ là một nhóm có toán tử. Giao của mọi họ các nhóm con chuẩn tắc ổn định của $G$ là một nhóm con chuẩn tắc ổn định. Do đó, với mọi tập con $X$ của $G$, tồn tại một nhóm con chuẩn tắc ổn định nhỏ nhất chứa $X$, được gọi là nhóm con chuẩn tắc ổn định *sinh bởi* $X$.
+Cho $G$ là một nhóm có tác động. Giao của mọi họ các nhóm con chuẩn ổn định của G là một nhóm con chuẩn ổn định. Do đó, với mọi tập con $X$ của G, tồn tại một nhóm con chuẩn ổn định nhỏ nhất chứa X, gọi là nhóm con chuẩn ổn định *sinh bởi* X.
 
-Trong một nhóm với các toán tử $G$, các nhóm con ổn định $G$ và $\{e\}$ là chuẩn.
+Trong một nhóm với toán tử $G$, các nhóm con ổn định $G$ và $\{e\}$ là chuẩn.
 
 #### Định nghĩa 7 {#alg-i-s4-def-7 .statement}
 
-*Một nhóm với các toán tử* $G$ *được gọi là đơn nếu* $G \neq \{e\}$ *và không tồn tại nhóm con ổn định chuẩn nào của* $G$ *khác với* $G$ *và* $\{e\}$.
+*Một nhóm với toán tử* $G$ *được gọi là đơn nếu* $G \neq \{e\}$ *và không tồn tại nhóm con ổn định chuẩn nào của* $G$ *khác với* $G$ *và* $\{e\}$.
 
-### 5. PHÂN TÍCH MỘT ĐỒNG CẤU
+### 5. PHÂN TÍCH CỦA MỘT ĐỒNG CẤU
 
 #### Mệnh đề 6 {#alg-i-s4-prop-6 .statement}
 
-*Cho* $G$ *là một nhóm với các toán tử và* $G'$ *là một magma với một tác động bởi* $\Omega$, *được viết dưới dạng lũy thừa*. *Cho* $f : G \to G'$ *là một đồng cấu của magma* $G$ *vào magma* $G'$ *sao cho, với mọi* $\alpha \in \Omega$ *và mọi* $x \in G$, $f(x^\alpha) = f(x)^\alpha$. *Khi đó* $f(G)$ *là một tập con ổn định của* $G'$ *đối với luật trên* $G'$ *và tác động của* $\Omega$; *tập hợp* $f(G)$ *với các luật cảm sinh là một nhóm với các toán tử và ánh xạ* $x \mapsto f(x)$ *của* $G$ *vào* $f(G)$ *là một đồng cấu của các nhóm với các toán tử*.
+*Cho* $G$ *là một nhóm với toán tử và* $G'$ *là một magma với một tác động bởi* $\Omega$, *được viết dưới dạng lũy thừa*. *Cho* $f : G \to G'$ *là một đồng cấu của magma* $G$ *vào magma* $G'$ *sao cho, với mọi* $\alpha \in \Omega$ *và mọi* $x \in G$, $f(x^\alpha) = f(x)^\alpha$. *Khi đó* $f(G)$ *là một tập con ổn định của* $G'$ *đối với luật trên* $G'$ *và tác động của* $\Omega$; *tập hợp* $f(G)$ *với các luật cảm sinh là một nhóm với toán tử và ánh xạ* $x \mapsto f(x)$ *của* $G$ *vào* $f(G)$ *là một đồng cấu của các nhóm với toán tử*.
 
-Theo $\S 1$, no. 4, Mệnh đề 1, $f(G)$ là một tập con ổn định của $G'$ đối với luật nội tại trên $G'$. Với mọi phần tử $x \in G$ và mọi toán tử $\alpha$,
-$f(x)^\alpha = f(x^\alpha) \in f(G)$ và do đó $f(G)$ ổn định đối với tác động của $\Omega$ trên $G'$. Viết luật nội tại của $G'$ dưới dạng nhân,
+Theo $\S 1$, no. 4, Mệnh đề 1, $f(G)$ là một tập con ổn định của $G'$ đối với luật nội tại trên $G'$. Với mỗi phần tử $x \in G$ và với mỗi toán tử $\alpha$,
+$f(x)^\alpha = f(x^\alpha) \in f(G)$ và do đó $f(G)$ là ổn định đối với tác động của $\Omega$ trên $G'$. Viết luật nội tại của $G'$ dưới dạng nhân,
 $$
 (f(x)f(y))f(z) = f(xy)f(z) = f((xy)z) = f(x(yz)) = f(x)f(yz)
 = f(x)(f(y)f(z))
 $$
 với mọi phần tử $x, y, z$ trong $G$; do đó luật cảm sinh trên $f(G)$ là kết hợp.
 
-Cho $e$ là phần tử đơn vị của $G$. Ảnh $f(e)$ của nó là một phần tử đơn vị của $f(G)$ ($\S 2$, no. 1). Mọi phần tử của $f(G)$ đều khả nghịch trong $f(G)$ ($\S 2$, no. 3). Do đó luật được cảm sinh trên $f(G)$ bởi luật nội tại trên $G'$ là một luật nhóm. Với mọi phần tử $x$ và $y$ trong $G$ và mọi toán tử $\alpha$,
+Cho $e$ là phần tử đơn vị của $G$. Ảnh của nó $f(e)$ là một phần tử đơn vị của $f(G)$ ($\S 2$, no. 1). Mọi phần tử của $f(G)$ đều khả nghịch trong $f(G)$ ($\S 2$, no. 3). Do đó luật cảm sinh trên $f(G)$ bởi luật nội tại trên $G'$ là một luật nhóm. Với mọi phần tử $x$ và $y$ trong $G$ và mọi toán tử $\alpha$,
 
 $$
 (f(x)f(y))^\alpha = (f(xy))^\alpha = f((xy)^\alpha) = f(x^\alpha y^\alpha) = f(x^\alpha)f(y^\alpha) = (f(x))^\alpha(f(y))^\alpha
 $$
 
-điều này cho thấy tác động của $\Omega$ phân phối đối với luật nhóm trên $f(G)$. Do đó $f(G)$ với các luật cảm sinh là một nhóm với các toán tử và rõ ràng ánh xạ $x \mapsto f(x)$ là một đồng cấu của các nhóm với các toán tử.
+điều này chỉ ra rằng tác động của $\Omega$ là phân phối đối với luật nhóm trên $f(G)$. Do đó $f(G)$ với các luật cảm sinh là một nhóm với toán tử và rõ ràng ánh xạ $x \mapsto f(x)$ là một đồng cấu của các nhóm với toán tử.
 
 #### Định nghĩa 8 {#alg-i-s4-def-8 .statement}
 
 *Cho $f : G \to G'$ là một đồng cấu của các nhóm có toán tử. Ảnh ngược của phần tử đơn vị của $G'$ được gọi là hạt nhân của $f$.*
 
-Hạt nhân của $f$ thường được ký hiệu là $\mathrm{Ker}(f)$ và ảnh $f(G)$ của $f$ đôi khi được ký hiệu là $\mathrm{Im}(f)$.
+Hạt nhân của $f$ thường được ký hiệu bởi $\mathrm{Ker}(f)$ và ảnh $f(G)$ của $f$ đôi khi được ký hiệu bởi $\mathrm{Im}(f)$.
 
 #### Định lý 3 {#alg-i-s4-thm-3 .statement}
 
@@ -332,54 +332,54 @@ Hạt nhân của $f$ thường được ký hiệu là $\mathrm{Ker}(f)$ và �
 (d) *ánh xạ $\tilde{f} : G/\mathrm{Ker}(f) \to \mathrm{Im}(f)$ dẫn xuất từ $f$ bằng cách chuyển qua thương là một đẳng cấu của các nhóm có toán tử;*
 (e) *$f = i \circ \tilde{f} \circ \pi$, trong đó $i$ là đơn ánh chính tắc của $\mathrm{Im}(f)$ vào $G'$ và $\pi$ là đồng cấu chính tắc của $G$ lên $G/\mathrm{Ker}(f)$.*
 
-Mệnh đề (b) suy ra từ Mệnh đề 6. Quan hệ tương đương $f(x) = f(y)$ trên $G$ tương thích với cấu trúc nhóm có toán tử trên $G$. Theo Định lý 2 (no. 4), do đó nó có dạng $y \in xH$, trong đó $H$ là một nhóm con chuẩn ổn định của $G$ và $H$ là lớp của phần tử đơn vị, do đó $H = \mathrm{Ker}(f)$. Các mệnh đề (a), (c) và (d) suy ra ngay. Mệnh đề (e) là hiển nhiên (*Lý thuyết tập hợp*, II, § 6, no. 5).
+Mệnh đề (b) suy ra từ Mệnh đề 6. Quan hệ tương đương $f(x) = f(y)$ trên $G$ tương thích với cấu trúc nhóm có toán tử trên $G$. Theo Định lý 2 (no. 4), do đó nó có dạng $y \in xH$, trong đó $H$ là một nhóm con chuẩn ổn định của $G$ và $H$ là lớp của phần tử đơn vị, do đó $H = \mathrm{Ker}(f)$. Các mệnh đề (a), (c) và (d) khi đó suy ra. Mệnh đề (e) là hiển nhiên (*Lý thuyết tập hợp*, II, § 6, no. 5).
 
 ### 6. CÁC NHÓM CON CỦA MỘT NHÓM THƯƠNG
 
 #### Mệnh đề 7 {#alg-i-s4-prop-7 .statement}
 
-*Cho $G$ và $H$ là hai nhóm có toán tử, $f$ là một đồng cấu từ $G$ vào $H$ và $N$ là hạt nhân của $f$.*
-(a) *Cho $H'$ là một nhóm con ổn định của $H$. Ảnh ngược $G' = f^{-1}(H')$ là một nhóm con ổn định của $G$ và $G'$ là chuẩn tắc trong $G$ nếu $H'$ là chuẩn tắc trong $H$. Hơn nữa, $N$ là một nhóm con chuẩn tắc của $G'$. Nếu $f$ là toàn ánh, thì $H' = f(G')$ và $f$ xác định một đẳng cấu từ $G'/N$ lên $H'$ khi chuyển qua thương.*
+*Cho $G$ và $H$ là hai nhóm có toán tử, $f$ là một đồng cấu của $G$ vào $H$ và $N$ là hạt nhân của $f$.*
+(a) *Cho $H'$ là một nhóm con ổn định của $H$. Ảnh ngược $G' = f^{-1}(H')$ là một nhóm con ổn định của $G$ và $G'$ là chuẩn tắc trong $G$ nếu $H'$ là chuẩn tắc trong $H$. Hơn nữa, $N$ là một nhóm con chuẩn tắc của $G'$. Nếu $f$ là toàn ánh, thì $H' = f(G')$ và $f$ xác định một đẳng cấu của $G'/N$ lên $H'$ khi chuyển qua thương.*
 (b) *Cho $G'$ là một nhóm con ổn định của $G$. Ảnh $H' = f(G')$ là một nhóm con ổn định của $H$ và $f^{-1}(H') = G'N = NG'$. Đặc biệt, $f^{-1}(H') = G'$ khi và chỉ khi $N \subset G'$. Nếu $f$ là toàn ánh và $G'$ là chuẩn tắc trong $G$, thì $H'$ là chuẩn tắc trong $H$.*
 
-(a) Cho $x$ và $y$ thuộc $G'$ và $\alpha \in \Omega$; khi đó $f(x) \in H'$ và $f(y) \in H'$, do đó $f(xy^{-1}) = f(x)f(y)^{-1} \in H'$, tức là $xy^{-1} \in G'$; suy ra $G'$ là một nhóm con của $G$. Bây giờ $f(x^\alpha) = f(x)^\alpha \in H'$, do đó $x^\alpha \in G'$ và vì vậy $G'$ là ổn định. Giả sử $H'$ là chuẩn tắc trong $H$ và cho $x \in G', y \in G$; khi đó $f(x) \in H'$ và
+(a) Cho $x$ và $y$ thuộc $G'$ và $\alpha \in \Omega$; khi đó $f(x) \in H'$ và $f(y) \in H'$, do đó $f(xy^{-1}) = f(x)f(y)^{-1} \in H'$, nghĩa là $xy^{-1} \in G'$; suy ra $G'$ là một nhóm con của $G$. Bây giờ $f(x^\alpha) = f(x)^\alpha \in H'$, do đó $x^\alpha \in G'$ và vì vậy $G'$ là ổn định. Giả sử $H'$ là chuẩn tắc trong $H$ và cho $x \in G', y \in G$; khi đó $f(x) \in H'$ và
 $$
 f(yxy^{-1}) = f(y)f(x)f(y)^{-1} \in H'
 $$
-do đó $yxy^{-1} \in G'$; suy ra $G'$ là chuẩn tắc trong $G$. Với mọi $n \in N, f(n) = e \in H'$, do đó $N \subset G'$; vì $N$ là chuẩn tắc trong $G$, nên nó chuẩn tắc trong $G'$. Cuối cùng, nếu $f$ là toàn ánh,
+do đó $yxy^{-1} \in G'$; suy ra $G'$ là chuẩn tắc trong $G$. Với mọi $n \in N, f(n) = e \in H'$, do đó $N \subset G'$; vì $N$ là chuẩn tắc trong $G$, nó là chuẩn tắc trong $G'$. Cuối cùng, nếu $f$ là toàn ánh,
 $$
 f(f^{-1}(A)) = A \text{ với mọi tập con } A \text{ của } H,
 $$
-do đó $H' = f(G')$; hạn chế của $f$ lên $G'$ là một đồng cấu $f'$ của $G'$ lên $H'$ có hạt nhân $N$, do đó $f'$ xác định, khi chuyển qua thương, một đẳng cấu của $G'/N$ lên $H'$.
+do đó $H' = f(G')$; hạn chế của $f$ trên $G'$ là một đồng cấu $f'$ từ $G'$ lên $H'$ có hạt nhân $N$, do đó $f'$ xác định qua chuyển qua thương một đẳng cấu của $G'/N$ lên $H'$.
 
-(b) Cho $a$ và $b$ thuộc $H'$ và $\alpha$ thuộc $\Omega$; tồn tại $x, y$ thuộc $G'$ sao cho $a = f(x)$ và $b = f(y)$, do đó $ab^{-1} = f(xy^{-1}) \in H'$, suy ra $H'$ là một nhóm con của $H$ ổn định, vì $a^\alpha = f(x^\alpha) \in H'$. Cho $x \in G$; khi đó $x \in f^{-1}(H')$ khi và chỉ khi $f(x) \in H' = f(G')$, tức là khi và chỉ khi tồn tại $y$ thuộc $G'$ sao cho $f(x) = f(y)$; quan hệ $f(x) = f(y)$ tương đương với sự tồn tại của $n \in N$ sao cho $x = yn$; cuối cùng, $x \in f^{-1}(H')$ tương đương với $x \in G'N = NG'$. Rõ ràng quan hệ $G' = G'N$ tương đương với $G' \supset N$. Cuối cùng, giả sử $f$ toàn ánh và $G'$ là chuẩn trong $G$; cho $a \in H'$ và $b \in H$; tồn tại $x \in G'$ và $y \in G$ sao cho $a = f(x)$ và $b = f(y)$, do đó $bab^{-1} = f(yxy^{-1}) \in f(G') = H'$. Do đó $H'$ là chuẩn trong $H$.
+(b) Cho $a$ và $b$ thuộc $H'$ và $\alpha$ thuộc $\Omega$; tồn tại $x, y$ thuộc $G'$ sao cho $a = f(x)$ và $b = f(y)$, do đó $ab^{-1} = f(xy^{-1}) \in H'$, suy ra $H'$ là một nhóm con của $H$ ổn định, vì $a^\alpha = f(x^\alpha) \in H'$. Cho $x \in G$; khi đó $x \in f^{-1}(H')$ khi và chỉ khi $f(x) \in H' = f(G')$, nghĩa là khi và chỉ khi tồn tại $y$ thuộc $G'$ sao cho $f(x) = f(y)$; quan hệ $f(x) = f(y)$ tương đương với sự tồn tại của $n \in N$ sao cho $x = yn$; cuối cùng, $x \in f^{-1}(H')$ tương đương với $x \in G'N = NG'$. Rõ ràng quan hệ $G' = G'N$ tương đương với $G' \supset N$. Cuối cùng giả sử rằng $f$ là toàn ánh và $G'$ là chuẩn trong $G$; cho $a \in H'$ và $b \in H$; tồn tại $x \in G'$ và $y \in G$ sao cho $a = f(x)$ và $b = f(y)$, do đó $bab^{-1} = f(yxy^{-1}) \in f(G') = H'$. Suy ra $H'$ là chuẩn trong $H$.
 
 #### Hệ quả 1 {#alg-i-s4-prop-7-cor-1 .statement}
 
-*Giả sử rằng $f$ là toàn ánh. Gọi $\mathcal{G}$ (tương ứng $\mathcal{G}'$) là tập hợp các nhóm con ổn định (tương ứng các nhóm con ổn định chuẩn) của $G$ chứa $N$ và $\mathfrak{H}$ (tương ứng $\mathfrak{H}'$) là tập hợp các nhóm con ổn định (tương ứng các nhóm con ổn định chuẩn) của $H$, các tập hợp này có thứ tự bởi quan hệ bao hàm. Ánh xạ $G' \mapsto f(G')$ là một đẳng cấu tập hợp có thứ tự $\Phi : \mathcal{G} \to \mathfrak{H}$; đẳng cấu nghịch đảo $\Psi : \mathfrak{H} \to \mathcal{G}$ là ánh xạ $H' \mapsto f^{-1}(H')$. Hơn nữa $\Phi$ và $\Psi$ cảm sinh các đẳng cấu $\Phi' : \mathcal{G}' \to \mathfrak{H}'$ và $\Psi' : \mathfrak{H}' \to \mathcal{G}'$.*
+*Giả sử rằng $f$ là toàn ánh. Gọi $\mathcal{G}$ (tương ứng $\mathcal{G}'$) là tập hợp các nhóm con ổn định (tương ứng ổn định chuẩn) của $G$ chứa $N$ và $\mathfrak{H}$ (tương ứng $\mathfrak{H}'$) là tập hợp các nhóm con ổn định (tương ứng ổn định chuẩn) của $H$, các tập hợp này được có thứ tự bởi quan hệ bao hàm. Ánh xạ $G' \mapsto f(G')$ là một đẳng cấu tập hợp có thứ tự $\Phi : \mathcal{G} \to \mathfrak{H}$; đẳng cấu nghịch đảo $\Psi : \mathfrak{H} \to \mathcal{G}$ là ánh xạ $H' \mapsto f^{-1}(H')$. Hơn nữa $\Phi$ và $\Psi$ cảm sinh các đẳng cấu $\Phi' : \mathcal{G}' \to \mathfrak{H}'$ và $\Psi' : \mathfrak{H}' \to \mathcal{G}'$.
 
 #### Hệ quả 2 {#alg-i-s4-prop-7-cor-2 .statement}
 
-*Mọi $f : G \to H$ là một đồng cấu của các nhóm có toán tử, $N$ là hạt nhân của $f$, $G'$ là một nhóm con ổn định của $G$ và $L$ là một nhóm con chuẩn tắc ổn định của $G'$. Khi đó $LN, L.(G' \cap N)$ và $f(L)$ lần lượt là các nhóm con chuẩn tắc ổn định của $G'N, G'$ và $f(G')$, và ba nhóm thương có toán tử $G'N/LN, G'/L.(G' \cap N)$ và $f(G')/f(L)$ là đẳng cấu.
+*Cho $f : G \to H$ là một đồng cấu của các nhóm có toán tử, $N$ là hạt nhân của $f$, $G'$ là một nhóm con ổn định của $G$ và $L$ là một nhóm con ổn định chuẩn của $G'$. Khi đó $LN, L.(G' \cap N)$ và $f(L)$ lần lượt là các nhóm con ổn định chuẩn của $G'N, G'$ và $f(G')$ và ba nhóm thương có toán tử $G'N/LN, G'/L.(G' \cap N)$ và $f(G')/f(L)$ là đẳng cấu.
 
-Đặt $H' = f(G')$ và ký hiệu $f'$ là đồng cấu của $G'$ lên $H'$ trùng với $f$ trên $G'$; hạt nhân của $f'$ là $G \cap N$ và $f'(L) = f(L)$; theo Mệnh đề 7, $f'(L)$ là một nhóm con chuẩn tắc ổn định của $H'$ và
+Cho $H' = f(G')$ và ký hiệu $f'$ là đồng cấu của $G'$ lên $H'$ trùng với $f$ trên $G'$; hạt nhân của $f'$ là $G \cap N$ và $f'(L) = f(L)$; theo Mệnh đề 7, $f'(L)$ là một nhóm con ổn định chuẩn của $H'$ và
 $$
 {f'}^{-1}(f'(L)) = L.(G' \cap N)
 $$
-là một nhóm con chuẩn tắc ổn định của $G'$. Gọi $\lambda$ là đồng cấu chính tắc của $H'$ lên $H'/f'(L) = f(G')/f(L)$: vì $\lambda \circ f'$ là toàn ánh với hạt nhân
+là một nhóm con ổn định chuẩn của $G'$. Gọi $\lambda$ là đồng cấu chính tắc của $H'$ lên $H'/f'(L) = f(G')/f(L)$: vì $\lambda \circ f'$ là toàn ánh với hạt nhân
 $$
 {f'}^{-1}(f'(L)) = L.(G' \cap N),
 $$
 
-nó xác định một đẳng cấu từ $G'/L\cdot(G'\cap N)$ lên $f(G')/f(L)$. Theo Mệnh đề 7, (b), $f^{-1}(H')=G'N$; nếu $f''$ là đồng cấu của $G'N$ lên $H'$ trùng với $f$ trên $G'N$, thì đồng cấu $\lambda\circ f''$ của $G'N$ lên $f(G')/f(L)$ là toàn ánh với hạt nhân $f^{-1}(f(L))=LN$; điều này chứng minh rằng $LN$ là một nhóm con chuẩn tắc ổn định của $G'N$ và rằng $\lambda\circ f''$ xác định một đẳng cấu từ $G'N/LN$ lên $f(G')/f(L)$.
+nó xác định một đẳng cấu của $G'/L\cdot(G'\cap N)$ lên $f(G')/f(L)$. Theo Mệnh đề 7, (b), $f^{-1}(H')=G'N$; nếu $f''$ là đồng cấu của $G'N$ lên $H'$ trùng với $f$ trên $G'N$, thì đồng cấu $\lambda\circ f''$ của $G'N$ lên $f(G')/f(L)$ là toàn ánh với hạt nhân $f^{-1}(f(L))=LN$; điều này chứng minh rằng $LN$ là một nhóm con ổn định chuẩn của $G'N$ và rằng $\lambda\circ f''$ xác định một đẳng cấu của $G'N/LN$ lên $f(G')/f(L)$.
 
 #### Hệ quả 3 {#alg-i-s4-prop-7-cor-3 .statement}
 
 Cho $f:G\to H$ là một đồng cấu của các nhóm có toán tử, $N$ là hạt nhân của nó, $X$ là một tập con của $G$ sao cho $f(X)$ sinh ra $H$ và $Y$ là một tập con của $N$ sinh ra $N$. Khi đó $X\cup Y$ sinh ra $N$.
 
-Cho $G'$ là nhóm con ổn định của $G$ sinh bởi $X\cup Y$. Vì $Y\subset G'$, nên $N\subset G'$.
+Cho $G'$ là nhóm con ổn định của $G$ sinh bởi $X\cup Y$. Vì $Y\subset G'$, $N\subset G'$.
 
-Vì $f(X)\subset f(G')$, nên $f(G')=H$, do đó $G'=f^{-1}(H)=G$.
+Vì $f(X)\subset f(G')$, $f(G')=H$, do đó $G'=f^{-1}(H)=G$.
 
 #### Nhận xét {#alg-i-s4-n6-rem-1 .statement}
 
@@ -392,11 +392,11 @@ f^{-1}(A\cdot B)=f^{-1}(A)\cdot f^{-1}(B),\qquad
 f^{-1}(A^{-1})=f^{-1}(A)^{-1}.
 $$
 
-Hiển nhiên $f^{-1}(A)\cdot f^{-1}(B)\subset f^{-1}(A\cdot B)$; mặt khác, nếu $z\in f^{-1}(A\cdot B)$, tồn tại $a\in A$ và $b\in B$ sao cho $f(z)=ab$; vì $f$ là toàn ánh, tồn tại $x\in G$ sao cho $f(x)=a$; đặt $y=x^{-1}z$, ta có $f(y)=a^{-1}f(z)=b$ và $z=xy$, do đó $z\in f^{-1}(A)\cdot f^{-1}(B)$. Quan hệ $x\in f^{-1}(A^{-1})$ tương đương với $f(x)\in A^{-1}$, do đó tương đương với $f(x^{-1})\in A$, tức là $x^{-1}\in f^{-1}(A)$ và cuối cùng tương đương với $x\in f^{-1}(A)^{-1}$.
+Hiển nhiên $f^{-1}(A)\cdot f^{-1}(B)\subset f^{-1}(A\cdot B)$; mặt khác, nếu $z\in f^{-1}(A\cdot B)$, tồn tại $a\in A$ và $b\in B$ sao cho $f(z)=ab$; vì $f$ là toàn ánh, tồn tại $x\in G$ sao cho $f(x)=a$; viết $y=x^{-1}z$, ta có $f(y)=a^{-1}f(z)=b$ và $z=xy$, do đó $z\in f^{-1}(A)\cdot f^{-1}(B)$. Quan hệ $x\in f^{-1}(A^{-1})$ là tương đương với $f(x)\in A^{-1}$, do đó tương đương với $f(x^{-1})\in A$, nghĩa là $x^{-1}\in f^{-1}(A)$ và cuối cùng là $x\in f^{-1}(A)^{-1}$.
 
 #### Mệnh đề 8 {#alg-i-s4-prop-8 .statement}
 
-Cho $G$ là một nhóm có toán tử và $A$ và $B$ là hai nhóm con ổn định của $G$. Giả sử rằng các quan hệ $a\in A$ và $b\in B$ suy ra $aba^{-1}\in B^{*}$ (nói cách khác, $A$ chuẩn hóa $B$)$^{*}$. Khi đó $AB=BA$ là một nhóm con ổn định của $G$, $A\cap B$ là một nhóm con chuẩn tắc ổn định của $A$ và $B$ là một nhóm con chuẩn tắc ổn định của $AB$. Đơn ánh chính tắc của $A$ vào $AB$ xác định, khi chuyển qua thương, một đẳng cấu của $A/(A\cap B)$ lên $AB/B$.
+Cho $G$ là một nhóm với các toán tử và $A$ và $B$ là hai nhóm con ổn định của $G$. Giả sử rằng các quan hệ $a\in A$ và $b\in B$ kéo theo $aba^{-1}\in B^{*}$ (nói cách khác, $A$ chuẩn hóa $B$)$^{*}$. Khi đó $AB=BA$ là một nhóm con ổn định của $G$, $A\cap B$ là một nhóm con ổn định chuẩn tắc của $A$ và $B$ là một nhóm con ổn định chuẩn tắc của $AB$. Đơn ánh chính tắc của $A$ vào $AB$ xác định, khi chuyển qua thương, một đẳng cấu của $A/(A\cap B)$ lên $AB/B$.
 
 Các công thức
 
@@ -412,37 +412,37 @@ $$
 (ab)^\alpha=a^\alpha b^\alpha
 $$
 
-pour $a,a'\in A$, $b,b'\in B$ và mọi toán tử $\alpha$ trên $G$, hãy chứng minh rằng $AB$ là một nhóm con ổn định của $G$. Cho $a\in A$ và $x\in A\cap B$; khi đó $axa^{-1}\in B$ theo các giả thiết đặt ra trên $A$ và $B$ và rõ ràng $axa^{-1}$ thuộc $A$, do đó $A\cap B$ là chuẩn tắc trong $A$. Cho $a\in A$ và $b,b'$ thuộc $B$; công thức $(ab)b'(ab)^{-1}=a(bb'b^{-1})a^{-1}$ cho thấy $B$ là chuẩn tắc trong $AB$. Gọi $\phi$ là hạn chế lên $A$ của đồng cấu chính tắc
+for $a,a'\in A$, $b,b'\in B$ và mọi toán tử $\alpha$ trên $G$, hãy chứng minh rằng $AB$ là một nhóm con ổn định của $G$. Cho $a\in A$ và $x\in A\cap B$; khi đó $axa^{-1}\in B$ theo các giả thiết đã đặt ra trên $A$ và $B$ và rõ ràng $axa^{-1}$ thuộc $A$, do đó $A\cap B$ là chuẩn trong $A$. Cho $a\in A$ và $b,b'$ thuộc $B$; công thức $(ab)b'(ab)^{-1}=a(bb'b^{-1})a^{-1}$ cho thấy rằng $B$ là chuẩn trong $AB$. Cho $\phi$ là hạn chế xuống $A$ của đồng cấu chính tắc
 
-40 từ $AB$ lên $AB/B$; khi đó $\phi(a) = aB$ và do đó hạt nhân của $\phi$ bằng $A \cap B$. Rõ ràng $\phi$ là toàn ánh và do đó xác định một đẳng cấu của $A/(A \cap B)$ lên $AB/B$.
+40 của $AB$ lên $AB/B$; khi đó $\phi(a) = aB$ và do đó hạt nhân của $\phi$ bằng $A \cap B$. Rõ ràng $\phi$ là toàn ánh và vì vậy xác định một đẳng cấu của $A/(A \cap B)$ lên $AB/B$.
 
 #### Định lý 4 {#alg-i-s4-thm-4 .statement}
 
-*Cho G là một nhóm có toán tử và N là một nhóm con chuẩn tắc ổn định của G.*
+*Cho $G$ là một nhóm với các toán tử và $N$ là một nhóm con ổn định chuẩn của $G$.*
 
-(a) *Ánh xạ $G' \mapsto G'/N$ là một song ánh từ tập hợp các nhóm con ổn định của G chứa N lên tập hợp các nhóm con ổn định của G/N.*
+(a) *Ánh xạ $G' \mapsto G'/N$ là một song ánh của tập hợp các nhóm con ổn định của $G$ chứa $N$ lên tập hợp các nhóm con ổn định của $G/N$.*
 
-(b) *Cho $G'$ là một nhóm con ổn định của G chứa N. Để $G'/N$ là chuẩn tắc trong $G/N$, điều kiện cần và đủ là $G'$ chuẩn tắc trong G và khi đó các nhóm $G/G'$ và $(G/N)/(G'/N)$ đẳng cấu với nhau.*
+(b) *Cho $G'$ là một nhóm con ổn định của $G$ chứa $N$. Để $G'/N$ là chuẩn trong $G/N$, điều cần và đủ là $G'$ là chuẩn trong $G$ và khi đó các nhóm $G/G'$ và $(G/N)/(G'/N)$ là đẳng cấu.*
 
-(c) *Cho $G'$ là một nhóm con ổn định của G. Khi đó $G'N$ là một nhóm con ổn định của G và N là chuẩn tắc trong $G'N$. Hơn nữa $G' \cap N$ là chuẩn tắc trong $G'$ và các nhóm $G'/(G' \cap N)$ và $G'N/N$ đẳng cấu với nhau.*
+(c) *Cho $G'$ là một nhóm con ổn định của $G$. Khi đó $G'N$ là một nhóm con ổn định của $G$ và $N$ là chuẩn trong $G'N$. Hơn nữa $G' \cap N$ là chuẩn trong $G'$ và các nhóm $G'/(G' \cap N)$ và $G'N/N$ là đẳng cấu.*
 
-Cho $f$ là đồng cấu chính tắc của G lên $G/N$. Với mọi $x \in G$, $f(x) \in xN$; do đó, $f(G') = G'/N$ với mọi nhóm con $G'$ của G chứa N. Vì $f$ toàn ánh, mệnh đề (a) suy ra từ Hệ quả 1 của Mệnh đề 7; tương tự đối với tương đương "G' normal" $\Leftrightarrow$ "G'/N normal". Giả sử $G'$ là một nhóm con chuẩn ổn định của G chứa N. Theo no. 4, Mệnh đề 5 áp dụng cho $\mathrm{Id}_G$, tồn tại một đồng cấu $u$ từ $G/N$ vào $G/G'$ được xác định bởi $u(xN) = xG'$ với mọi $x \in G$. Ngay lập tức thấy rằng $u$ toàn ánh với hạt nhân $G'/N$; do đó có đẳng cấu mong muốn của $(G/N)/(G'/N)$ lên $G/G'$. Cuối cùng, (c) suy ra ngay lập tức từ Mệnh đề 8.
+Cho $f$ là đồng cấu chính tắc của G lên $G/N$. Với mọi $x \in G$, $f(x) \in xN$; do đó, $f(G') = G'/N$ đối với mọi nhóm con $G'$ của G chứa N. Vì $f$ là toàn ánh, mệnh đề (a) suy ra từ Hệ quả 1 của Mệnh đề 7; tương tự đối với sự tương đương "G' chuẩn" $\Leftrightarrow$ "G'/N chuẩn". Giả sử rằng $G'$ là một nhóm con chuẩn ổn định của G chứa N. Theo no. 4, Mệnh đề 5 áp dụng cho $\mathrm{Id}_G$, tồn tại một đồng cấu $u$ của $G/N$ vào $G/G'$ được xác định bởi $u(xN) = xG'$ với mọi $x \in G$. Hiển nhiên rằng $u$ là toàn ánh với hạt nhân $G'/N$, do đó có đẳng cấu mong muốn của $(G/N)/(G'/N)$ lên $G/G'$. Cuối cùng, (c) suy ra ngay lập tức từ Mệnh đề 8.
 
 ### 7. ĐỊNH LÝ JORDAN-HÖLDER
 
 #### Định nghĩa 9 {#alg-i-s4-def-9 .statement}
 
-*Một chuỗi hợp thành của một nhóm có toán tử G là một dãy hữu hạn $(G_i)_{0 \leq i \leq n}$ các nhóm con ổn định của G, với $G_0 = G$ và $G_n = \{e\}$ và sao cho $G_{i+1}$ là một nhóm con chuẩn của $G_i$ với $0 \leq i \leq n-1$. Các nhóm thương $G_i/G_{i+1}$ được gọi là các nhóm thương của chuỗi. Một chuỗi hợp thành $\Sigma'$ được gọi là mịn hơn một chuỗi hợp thành $\Sigma$ nếu $\Sigma$ là một chuỗi lấy từ $\Sigma'$.
+*Một chuỗi hợp thành của một nhóm có toán tử G là một dãy hữu hạn $(G_i)_{0 \leq i \leq n}$ các nhóm con ổn định của G, với $G_0 = G$ và $G_n = \{e\}$ và sao cho $G_{i+1}$ là một nhóm con chuẩn của $G_i$ với $0 \leq i \leq n-1$. Các nhóm thương $G_i/G_{i+1}$ được gọi là các thương của chuỗi. Một chuỗi hợp thành $\Sigma'$ được gọi là mịn hơn một chuỗi hợp thành $\Sigma$ nếu $\Sigma$ là một chuỗi lấy từ $\Sigma'$.*
 
-Nếu $(G_i)_{0 \leq i \leq n}$ và $(H_j)_{0 \leq j \leq m}$ lần lượt là các chuỗi hợp thành của hai nhóm có toán tử G và H, thì chúng được gọi là tương đương nếu $m = n$ và tồn tại một phép hoán vị $\phi$ của khoảng $\{0, n-1\}$ của $\mathbf{N}$, sao cho các nhóm có toán tử $G_i/G_{i+1}$ và $H_{\phi(i)}/H_{\phi(i)+1}$ là đẳng cấu với mọi $i$.
+Nếu $(G_i)_{0 \leq i \leq n}$ và $(H_j)_{0 \leq j \leq m}$ lần lượt là các chuỗi hợp thành của hai nhóm có toán tử G và H, chúng được gọi là tương đương nếu $m = n$ và tồn tại một phép hoán vị $\phi$ của khoảng $\{0, n-1\}$ của $\mathbf{N}$, sao cho các nhóm có toán tử $G_i/G_{i+1}$ và $H_{\phi(i)}/H_{\phi(i)+1}$ là đẳng cấu với mọi $i$.
 
 Chú ý rằng nói chung một chuỗi lấy từ một chuỗi hợp thành $(G_i)$ không phải là một chuỗi hợp thành, vì với $j > i + 1$, $G_j$ nói chung không phải là một nhóm con chuẩn của $G_i$.
 
-**Định lý 5 (Schreier).** *Cho hai chuỗi hợp thành $\Sigma_1, \Sigma_2$ của một nhóm có toán tử G, tồn tại hai chuỗi hợp thành tương đương $\Sigma'_1, \Sigma'_2$, lần lượt mịn hơn $\Sigma_1$ và $\Sigma_2$.
+**Định lý 5 (Schreier).** *Cho hai chuỗi hợp thành $\Sigma_1, \Sigma_2$ của một nhóm có toán tử G, tồn tại hai chuỗi hợp thành tương đương $\Sigma'_1, \Sigma'_2$, lần lượt mịn hơn $\Sigma_1$ và $\Sigma_2$.*
 
-Cho $\Sigma_1 = (H_i)_{0 \leq i \leq n}$ và $\Sigma_2 = (K_j)_{0 \leq j \leq p}$ là hai chuỗi hợp thành đã cho, lần lượt có $n + 1$ và $p + 1$ số hạng; ta sẽ thấy rằng chuỗi hợp thành $\Sigma'_1$ có thể được tạo thành bằng cách chèn $p - 1$ nhóm con $H'_{i,j}$ (1 \leq j \leq p - 1) giữa H_i và H_{i+1} với 0 \leq i \leq n - 1 và chuỗi \Sigma_2' bằng cách chèn n - 1 nhóm con K_{j,i}' (1 \leq i \leq n - 1) giữa K_j và K_{j+1} với 0 \leq j \leq p - 1; do đó thu được hai chuỗi gồm pn + 1 nhóm con ổn định của G; bằng cách chọn thích hợp các nhóm con ổn định được chèn vào, ta sẽ chỉ ra rằng các chuỗi này là các chuỗi hợp thành tương đương.
+Cho $\Sigma_1 = (H_i)_{0 \leq i \leq n}$ và $\Sigma_2 = (K_j)_{0 \leq j \leq p}$ là hai chuỗi hợp thành đã cho với lần lượt $n + 1$ và $p + 1$ số hạng; ta sẽ thấy rằng chuỗi hợp thành $\Sigma'_1$ có thể được tạo thành bằng cách chèn $p - 1$ nhóm con $H'_{i,j}$ (1 \leq j \leq p - 1) giữa H_i và H_{i+1} với 0 \leq i \leq n - 1 và chuỗi \Sigma_2' bằng cách chèn n - 1 nhóm con K_{j,i}' (1 \leq i \leq n - 1) giữa K_j và K_{j+1} với 0 \leq j \leq p - 1; do đó thu được hai chuỗi gồm pn + 1 nhóm con ổn định của G; bằng cách chọn thích hợp các nhóm con ổn định được chèn vào, ta sẽ chứng minh rằng các chuỗi này là các chuỗi hợp thành tương đương.
 
-Để làm điều này, chú ý rằng H_i \cap K_j là một nhóm con ổn định của H_i và của K_j, và do đó (Định lý 4) H_{i+1}.(H_i \cap K_j) là một nhóm con ổn định của H_i chứa H_{i+1} và K_{j+1}.(H_i \cap K_j) là một nhóm con ổn định của K_j chứa K_{j+1}. Nếu viết H_{i,j}' = H_{i+1}.(H_i \cap K_j) và K_{j,i}' = K_{j+1}.(H_i \cap K_j), thì H_{i,j+1}' là một nhóm con ổn định của H_{i,j}' (0 \leq j \leq p - 1) và K_{j,i+1}' là một nhóm con ổn định của K_{j,i}' (0 \leq i \leq n - 1). Hơn nữa H_{i,0}' = H_i, H_{i,p}' = H_{i+1}, K_{j,0}' = K_j và K_{j,p}' = K_{j+1}. Để chứng minh định lý, chỉ cần chứng minh rằng H_{i,j+1}' (resp. K_{j,i+1}') là một nhóm con chuẩn ổn định của H_{i,j}' (resp. K_{j,i}') và rằng các nhóm thương H_{i,j}'/H_{i,j+1}' và K_{j,i}'/K_{j,i+1}' là đẳng cấu (0 \leq i \leq n - 1, 0 \leq j \leq p - 1). Điều này suy ra từ bổ đề sau đây bằng cách lấy H = H_i, H' = H_{i+1}, K = K_j, K' = K_{j+1}.
+Để làm điều này, chú ý rằng H_i \cap K_j là một nhóm con ổn định của H_i và của K_j, và do đó (Định lý 4) H_{i+1}.(H_i \cap K_j) là một nhóm con ổn định của H_i chứa H_{i+1} và K_{j+1}.(H_i \cap K_j) là một nhóm con ổn định của K_j chứa K_{j+1}. Nếu ta viết H_{i,j}' = H_{i+1}.(H_i \cap K_j) và K_{j,i}' = K_{j+1}.(H_i \cap K_j), H_{i,j+1}' là một nhóm con ổn định của H_{i,j}' (0 \leq j \leq p - 1) và K_{j,i+1}' là một nhóm con ổn định của K_{j,i}' (0 \leq i \leq n - 1). Hơn nữa H_{i,0}' = H_i, H_{i,p}' = H_{i+1}, K_{j,0}' = K_j và K_{j,p}' = K_{j+1}. Để chứng minh định lý, chỉ cần chứng minh rằng H_{i,j+1}' (tương ứng K_{j,i+1}') là một nhóm con chuẩn ổn định của H_{i,j}' (tương ứng K_{j,i}') và các nhóm thương H_{i,j}'/H_{i,j+1}' và K_{j,i}'/K_{j,i+1}' là đẳng cấu (0 \leq i \leq n - 1, 0 \leq j \leq p - 1). Điều này suy ra từ bổ đề sau bằng cách lấy H = H_i, H' = H_{i+1}, K = K_j, K' = K_{j+1}.
 
 Bổ đề 1 (Zassenhaus). Cho H và K là hai nhóm con ổn định của một nhóm có toán tử G và H' và K' lần lượt là các nhóm con chuẩn ổn định của H và K; khi đó H'.(H \cap K') là một nhóm con chuẩn ổn định của H'.(H \cap K), K'.(K \cap H') là một nhóm con chuẩn ổn định của K'.(K \cap H) và các nhóm thương có toán tử (H'.(H \cap K))/(H'.(H \cap K')) và (K'.(K \cap H))/(K'.(K \cap H')) là đẳng cấu.
 
@@ -464,7 +464,7 @@ $$
 (H \cap K)/((H' \cap K).(K' \cap H)).
 $$
 
-Trong nhóm thương cuối cùng, H và H' một mặt, K và K' mặt khác, xuất hiện một cách đối xứng; thực hiện phép hoán vị chúng, ta thu được kết quả đã nêu.
+Trong nhóm thương cuối cùng, H và H' một mặt và K và K' mặt khác xuất hiện một cách đối xứng; bằng cách hoán vị chúng ta thu được kết quả đã nêu.
 
 #### Định nghĩa 10 {#alg-i-s4-def-10 .statement}
 
@@ -472,33 +472,33 @@ Một chuỗi Jordan-Hölder của một nhóm có toán tử G là một chuỗ
 
 #### Mệnh đề 9 {#alg-i-s4-prop-9 .statement}
 
-Để một chuỗi phân tích của G là một chuỗi Jordan-Hölder, điều kiện cần và đủ là tất cả các nhóm thương của chuỗi đều đơn.
+Đối với một chuỗi phân tích của G là một chuỗi Jordan-Hölder, điều kiện cần và đủ là tất cả các thương của chuỗi đều đơn.
 
-Một chuỗi phân tích là giảm nghiêm ngặt khi và chỉ khi không có thương liên tiếp nào của nó được rút gọn thành phần tử đơn vị. Nếu một chuỗi hợp thành giảm nghiêm ngặt $\Sigma$ không phải là chuỗi Jordan-Hölder, thì tồn tại một chuỗi hợp thành giảm nghiêm ngặt $\Sigma'$ mịn hơn $\Sigma$ và phân biệt với $\Sigma$. Do đó có hai số hạng liên tiếp $G_i, G_{i+1}$ của $\Sigma$ không liên tiếp trong $\Sigma'$; gọi $H$ là số hạng đầu tiên theo sau $G_i$ trong $\Sigma'$; $H$ là một nhóm con ổn định chuẩn tắc của $G_i$, chứa $G_{i+1}$ và phân biệt với nhóm sau; do đó $H/G_{i+1}$ là một nhóm con ổn định chuẩn tắc của $G_i/G_{i+1}$, phân biệt với nhóm sau và với phần tử đơn vị; vậy $G_i/G_{i+1}$ không đơn. Ngược lại, nếu $\Sigma$ là một chuỗi hợp thành giảm nghiêm ngặt mà một trong các thương $G_i/G_{i+1}$ không đơn, thì thương này chứa một nhóm con ổn định chuẩn tắc khác với chính nó và $\{e\}$, có ảnh ngược trong $G_i$ là một nhóm con ổn định chuẩn tắc $H$ của $G_i$, phân biệt với $G_i$ và $G_{i+1}$ (Định lý 4); chỉ cần chèn $H$ giữa $G_i$ và $G_{i+1}$ để thu được một chuỗi hợp thành giảm nghiêm ngặt phân biệt với $\Sigma$ và mịn hơn $\Sigma$.
+Một chuỗi phân tích giảm nghiêm ngặt khi và chỉ khi không có thương liên tiếp nào của nó rút gọn thành phần tử đơn vị. Nếu một chuỗi hợp thành giảm nghiêm ngặt $\Sigma$ không phải là một chuỗi Jordan-Hölder, thì tồn tại một chuỗi hợp thành giảm nghiêm ngặt $\Sigma'$ mịn hơn $\Sigma$ và phân biệt với $\Sigma$. Do đó có hai số hạng liên tiếp $G_i, G_{i+1}$ của $\Sigma$ không liên tiếp trong $\Sigma'$; gọi $H$ là số hạng đầu tiên đứng sau $G_i$ trong $\Sigma'$; $H$ là một nhóm con ổn định chuẩn của $G_i$, chứa $G_{i+1}$ và phân biệt với nhóm sau; do đó $H/G_{i+1}$ là một nhóm con ổn định chuẩn của $G_i/G_{i+1}$, phân biệt với nhóm sau và với phần tử đơn vị; vậy $G_i/G_{i+1}$ không đơn. Ngược lại, nếu $\Sigma$ là một chuỗi hợp thành giảm nghiêm ngặt mà một trong các thương $G_i/G_{i+1}$ của nó không đơn, thì thương này chứa một nhóm con ổn định chuẩn khác với chính nó và $\{e\}$, có ảnh ngược trong $G_i$ là một nhóm con ổn định chuẩn $H$ của $G_i$, phân biệt với $G_i$ và $G_{i+1}$ (Định lý 4); chỉ cần chèn $H$ vào giữa $G_i$ và $G_{i+1}$ để thu được một chuỗi hợp thành giảm nghiêm ngặt phân biệt với $\Sigma$ và mịn hơn $\Sigma$.
 
 **Định lý 6 (Jordan-Hölder).** *Hai chuỗi Jordan-Hölder của một nhóm có toán tử là tương đương.*
 
-Cho $\Sigma_1, \Sigma_2$ là hai chuỗi Jordan-Hölder của một nhóm có toán tử $G$; bằng cách áp dụng Định lý 5, thu được hai chuỗi hợp thành *tương đương* $\Sigma'_1, \Sigma'_2$, lần lượt mịn hơn $\Sigma_1$ và $\Sigma_2$; vì các chuỗi sau là những chuỗi Jordan-Hölder, $\Sigma'_1$ đồng nhất với $\Sigma_1$ hoặc được dẫn xuất từ nó bằng cách lặp lại một số số hạng; chuỗi các thương của $\Sigma'_1$ được dẫn xuất từ chuỗi các thương của $\Sigma_1$ bằng cách chèn vào một số số hạng đẳng cấu với nhóm $\{e\}$; vì $\Sigma_1$ giảm nghiêm ngặt, chuỗi các thương của $\Sigma_1$ được dẫn xuất từ chuỗi các thương của $\Sigma'_1$ bằng cách loại bỏ trong chuỗi sau *tất cả* các số hạng đẳng cấu với $\{e\}$. Tương tự đối với $\Sigma_2$ và $\Sigma'_2$. Vì các chuỗi các thương của $\Sigma'_1$ và $\Sigma'_2$ chỉ khác nhau (tới đẳng cấu) về thứ tự của các số hạng, điều tương tự cũng đúng với $\Sigma_1$ và $\Sigma_2$; định lý được chứng minh.
+Cho $\Sigma_1, \Sigma_2$ là hai chuỗi Jordan-Hölder của một nhóm có toán tử $G$; bằng cách áp dụng Định lý 5 thu được hai chuỗi hợp thành *tương đương* $\Sigma'_1, \Sigma'_2$ lần lượt mịn hơn $\Sigma_1$ và $\Sigma_2$; vì các chuỗi sau là các chuỗi Jordan-Hölder, $\Sigma'_1$ đồng nhất với $\Sigma_1$ hoặc được dẫn xuất từ nó bằng cách lặp lại một số số hạng nhất định; chuỗi các thương của $\Sigma'_1$ được dẫn xuất từ chuỗi tương ứng của $\Sigma_1$ bằng cách chèn một số số hạng đẳng cấu với nhóm $\{e\}$; vì $\Sigma_1$ giảm nghiêm ngặt, chuỗi các thương của $\Sigma_1$ được dẫn xuất từ chuỗi của $\Sigma'_1$ bằng cách loại bỏ trong chuỗi sau *tất cả* các số hạng đẳng cấu với $\{e\}$. Tương tự đối với $\Sigma_2$ và $\Sigma'_2$. Vì chuỗi các thương của $\Sigma'_1$ và $\Sigma'_2$ chỉ khác nhau (sai khác đẳng cấu) về cấp của các số hạng, điều tương tự cũng đúng đối với $\Sigma_1$ và $\Sigma_2$; định lý được chứng minh.
 
 #### Hệ quả {#alg-i-s4-n7-cor-1 .statement}
 
 *Cho $G$ là một nhóm có toán tử trong đó tồn tại một chuỗi Jordan-Hölder. Nếu $\Sigma$ là một chuỗi hợp thành giảm nghiêm ngặt bất kỳ của $G$, thì tồn tại một chuỗi Jordan-Hölder mịn hơn $\Sigma$.*
 
-Cho $\Sigma_0$ là một chuỗi Jordan-Hölder của $G$; theo Định lý 5, tồn tại hai chuỗi hợp thành tương đương, $\Sigma'$ và $\Sigma'_0$ lần lượt mịn hơn $\Sigma$ và $\Sigma_0$; lập luận của Định lý 6 cho thấy rằng, bằng cách loại bỏ khỏi $\Sigma'$ các sự lặp lại, thu được một dãy $\Sigma''$ tương đương với $\Sigma_0$ và do đó là một chuỗi Jordan-Hölder, vì tất cả các thương của nó đều đơn (Mệnh đề 9). Vì $\Sigma$ giảm nghiêm ngặt, $\Sigma''$ mịn hơn $\Sigma$, do đó có hệ quả.
+Cho $\Sigma_0$ là một chuỗi Jordan-Hölder của $G$; theo Định lý 5, tồn tại hai chuỗi hợp thành tương đương, $\Sigma'$ và $\Sigma'_0$, lần lượt mịn hơn $\Sigma$ và $\Sigma_0$; lập luận của Định lý 6 cho thấy rằng, bằng cách loại bỏ khỏi $\Sigma'$ các sự lặp lại, thu được một dãy $\Sigma''$ tương đương với $\Sigma_0$ và do đó là một chuỗi Jordan-Hölder, vì tất cả các thương của nó đều đơn (Mệnh đề 9). Vì $\Sigma$ giảm nghiêm ngặt, $\Sigma''$ mịn hơn $\Sigma$, do đó có hệ quả.
 
 #### Nhận xét {#alg-i-s4-n7-rem-1 .statement}
 
-Một nhóm có toán tử không phải lúc nào cũng có một chuỗi Jordan-Hölder; một ví dụ được cho bởi nhóm cộng $\mathbf{Z}$ của các số nguyên hữu tỉ: dãy $(2^n \cdot \mathbf{Z})_{n \geq 0}$ là một dãy vô hạn giảm nghiêm ngặt của các nhóm con (chuẩn) của $\mathbf{Z}$; với mọi $p$, $p$ số hạng đầu tiên của dãy này cùng với nhóm $\{0\}$ tạo thành một chuỗi hợp thành giảm nghiêm ngặt; nếu tồn tại một chuỗi Jordan-Hölder cho $\mathbf{Z}$, nó sẽ có ít nhất $p+1$ số hạng, theo Hệ quả của Định lý 6; vô lý, vì $p$ là tùy ý.
+Một nhóm với toán tử không phải lúc nào cũng có một chuỗi Jordan-Hölder; một ví dụ được cho bởi nhóm cộng $\mathbf{Z}$ của các số nguyên hữu tỉ: dãy $(2^n \cdot \mathbf{Z})_{n \geq 0}$ là một dãy vô hạn giảm nghiêm ngặt của các nhóm con (chuẩn) của $\mathbf{Z}$; với mọi $p$, $p$ số hạng đầu của dãy này cùng với nhóm $\{0\}$ tạo thành một chuỗi hợp thành giảm nghiêm ngặt; nếu tồn tại một chuỗi Jordan-Hölder cho $\mathbf{Z}$, nó sẽ có ít nhất $p+1$ số hạng, theo Hệ quả của Định lý 6; vô lý, vì $p$ là tùy ý.
 
-Mặt khác, tồn tại một chuỗi Jordan-Hölder trong mọi nhóm *hữu hạn* có toán tử G: nếu $G \ne \{e\}$, trong các nhóm con ổn định chuẩn của G khác với G, lấy $H_1$ là một nhóm con cực đại; tương tự định nghĩa $H_{n+1}$ bằng quy nạp là một phần tử cực đại trong tập hợp các nhóm con chuẩn của $H_n$, phân biệt với $H_n$, khi $H_n \ne \{e\}$; dãy các cấp của các $H_n$ giảm nghiêm ngặt, do đó tồn tại $n$ sao cho $H_n = \{e\}$ và dãy gồm G và các $H_i$ ($1 \leq i \leq n$) theo cách xây dựng của nó là một chuỗi Jordan-Hölder.
+Mặt khác, tồn tại một chuỗi Jordan-Hölder trong mọi nhóm *hữu hạn* với toán tử G: nếu $G \ne \{e\}$, trong số các nhóm con ổn định chuẩn của G khác với G, lấy $H_1$ là một nhóm con cực đại; tương tự định nghĩa $H_{n+1}$ bằng quy nạp như một phần tử cực đại trong tập hợp các nhóm con chuẩn của $H_n$, khác với $H_n$, khi $H_n \ne \{e\}$; dãy các cấp của $H_n$ giảm nghiêm ngặt, do đó tồn tại $n$ sao cho $H_n = \{e\}$ và dãy gồm G và các $H_i$ ($1 \leq i \leq n$) theo cách xây dựng của nó là một chuỗi Jordan-Hölder.
 
 #### Định nghĩa 11 {#alg-i-s4-def-11 .statement}
 
-Cho G là một nhóm có toán tử; độ dài của G là cận trên của các số nguyên $n$ sao cho tồn tại một chuỗi hợp thành giảm nghiêm ngặt của G $(G_i)_{0\leq i\leq n}$.
+Cho G là một nhóm với toán tử; độ dài của G là cận trên của các số nguyên $n$ sao cho tồn tại một chuỗi hợp thành giảm nghiêm ngặt của G $(G_i)_{0\leq i\leq n}$.
 
-Nếu G thừa nhận một chuỗi Jordan-Hölder, độ dài của G là số các thương liên tiếp của chuỗi này, như suy ra từ Hệ quả của Định lý 6. Nếu G không thừa nhận một chuỗi Jordan-Hölder, độ dài của nó là vô hạn; theo Mệnh đề 9, với mọi chuỗi giảm nghiêm ngặt của G tồn tại một chuỗi giảm nghiêm ngặt mịn hơn. Nhóm gồm phần tử đơn vị là nhóm có toán tử duy nhất có độ dài bằng không. Một nhóm có toán tử là đơn khi và chỉ khi nó có độ dài 1.
+Nếu G thừa nhận một chuỗi Jordan-Hölder, độ dài của G là số các thương liên tiếp của chuỗi này, như suy ra từ Hệ quả của Định lý 6. Nếu G không thừa nhận một chuỗi Jordan-Hölder, độ dài của nó là vô hạn; theo Mệnh đề 9, đối với mọi chuỗi giảm nghiêm ngặt của G tồn tại một chuỗi giảm nghiêm ngặt mịn hơn. Nhóm gồm phần tử đơn vị là nhóm duy nhất với toán tử có độ dài không. Một nhóm với toán tử là đơn khi và chỉ khi nó có độ dài 1.
 
-Cho G là một nhóm có toán tử, H một nhóm con ổn định chuẩn của G, K thương G/H và $\pi:G\to K$ là đồng cấu chính tắc. Gọi
+Cho G là một nhóm với toán tử, H một nhóm con ổn định chuẩn của G, K thương G/H và $\pi:G\to K$ là đồng cấu chính tắc. Cho
 
 $$
 \Sigma'=(H_i)_{0\leq i\leq n}
@@ -516,17 +516,17 @@ $$
 \Sigma=(G_i)_{0\leq i\leq n+p}
 $$
 
-của G. Dãy các thương của $\Sigma$ thu được bằng cách ghép dãy các thương của $\Sigma''$ và dãy các thương của $\Sigma'$. Nếu $\Sigma'$ và $\Sigma''$ là các chuỗi Jordan-Hölder, $\Sigma$ là một chuỗi Jordan-Hölder của G, theo Mệnh đề 9. Nếu H hoặc K thừa nhận các chuỗi hợp thành với độ dài tùy ý, thì G cũng vậy. Ta đã chứng minh:
+của G. Dãy các thương của $\Sigma$ thu được bằng cách ghép nối dãy các thương của $\Sigma''$ và dãy các thương của $\Sigma'$. Nếu $\Sigma'$ và $\Sigma''$ là các chuỗi Jordan-Hölder, thì $\Sigma$ là một chuỗi Jordan-Hölder của G, theo Mệnh đề 9. Nếu H hoặc K thừa nhận các chuỗi hợp thành có độ dài tùy ý, thì G cũng vậy. Ta đã chứng minh:
 
 #### Mệnh đề 10 {#alg-i-s4-prop-10 .statement}
 
-Cho G là một nhóm có toán tử và H một nhóm con ổn định chuẩn của G. Độ dài của G là tổng độ dài của H và G/H.
+Cho G là một nhóm với toán tử và H một nhóm con ổn định chuẩn của G. Độ dài của G là tổng độ dài của H và G/H.
 
 #### Hệ quả {#alg-i-s4-n7-cor-2 .statement}
 
-Cho G là một nhóm có toán tử và $(G_i)_{0\leq i\leq n}$ là một chuỗi hợp thành của G. Độ dài của G là tổng độ dài của các $G_i/G_{i+1}$, $0\leq i\leq n-1$.
+Cho G là một nhóm với toán tử và $(G_i)_{0\leq i\leq n}$ là một chuỗi hợp thành của G. Độ dài của G là tổng độ dài của các $G_i/G_{i+1}$, $0\leq i\leq n-1$.
 
-Nếu G và $G'$ là các nhóm có toán tử đẳng cấu và G thừa nhận một chuỗi Jordan-Hölder, thì $G'$ cũng vậy và các chuỗi Jordan-Hölder của G và $G'$ là tương đương. Tuy nhiên, các nhóm không đẳng cấu có thể có các chuỗi Jordan-Hölder tương đương; điều này đúng với $\mathbf{Z}/4\mathbf{Z}$ và $(\mathbf{Z}/2\mathbf{Z})\times(\mathbf{Z}/2\mathbf{Z})$, xem no. 10.
+Nếu G và $G'$ là các nhóm đẳng cấu với toán tử và G thừa nhận một chuỗi Jordan-Hölder, thì $G'$ cũng vậy và các chuỗi Jordan-Hölder của G và $G'$ là tương đương. Tuy nhiên, các nhóm không đẳng cấu có thể có các chuỗi Jordan-Hölder tương đương; điều này đúng với $\mathbf{Z}/4\mathbf{Z}$ và $(\mathbf{Z}/2\mathbf{Z})\times(\mathbf{Z}/2\mathbf{Z})$, cf. no. 10.
 
 44
 
@@ -567,21 +567,19 @@ Cho $(\phi_i : H_i \to G_i)_{i \in I}$ là một họ các đồng cấu của c
 
 Điều này là ngay lập tức.
 
-Đặc biệt, cho $(G_i)_{i \in I}$ là một họ các nhóm có toán tử và, với mọi $i$, cho $H_i$ là một nhóm con ổn định (tương ứng, nhóm con ổn định chuẩn tắc) của $G_i$. Tích $\prod_{i \in I} H_i$ là một nhóm con ổn định (tương ứng, nhóm con ổn định chuẩn tắc) của $\prod_{i \in I} G_i$ và ánh xạ chính tắc của $\prod_{i \in I} G_i$ lên $\prod_{i \in I} (G_i / H_i)$ xác định khi chuyển qua thương một đẳng cấu của
+Đặc biệt, cho $(G_i)_{i \in I}$ là một họ các nhóm có toán tử và, với mọi $i$, cho $H_i$ là một nhóm con ổn định (tương ứng, nhóm con ổn định chuẩn tắc) của $G_i$. Tích $\prod_{i \in I} H_i$ là một nhóm con ổn định (tương ứng, nhóm con ổn định chuẩn tắc) của $\prod_{i \in I} G_i$ và ánh xạ chính tắc của $\prod_{i \in I} G_i$ lên $\prod_{i \in I} (G_i / H_i)$ xác định khi chuyển qua thương một đẳng cấu từ
 $$
 \left( \prod_{i \in I} G_i \right) / \left( \prod_{i \in I} H_i \right)
 $$
-lên $\prod_{i \in I} (G_i / H_i)$. Chẳng hạn, cho $J$ là một tập con của $I$. Nhóm con $G_J$ của $\prod_{i \in I} G_i$ gồm các $(x_i)_{i \in I}$ sao cho $x_i = e_i$ với $i \notin J$ là một nhóm con ổn định chuẩn tắc. Ánh xạ $\iota_J$ gán cho $x = (x_j)_{j \in J}$ phần tử $y = (y_i)_{i \in I}$ sao cho $y_i = e_i$ với $i \notin J$ và $y_i = x_i$ với $i \in J$, là một đẳng cấu của $\prod_{j \in J} G_j$ lên $G_J$. Ánh xạ $\mathrm{pr}_{I-J}$ xác định khi chuyển qua thương một đẳng cấu $\theta_J$ của nhóm thương $G / G_J$ lên $\prod_{i \in I-J} G_i$. Hợp thành $\mathrm{pr}_J \circ \iota_J$ là ánh xạ đồng nhất của $\prod_{j \in J} G_j$. $G / G_J$ thường được đồng nhất với $\prod_{i \in I-J} G_i$ nhờ $\theta_J$ và $\prod_{i \in J} G_i$ với $G_J$ nhờ $\iota_J$.
+lên $\prod_{i \in I} (G_i / H_i)$. Ví dụ, cho $J$ là một tập con của $I$. Nhóm con $G_J$ của $\prod_{i \in I} G_i$ gồm các $(x_i)_{i \in I}$ sao cho $x_i = e_i$ với $i \notin J$ là một nhóm con ổn định chuẩn tắc. Ánh xạ $\iota_J$ gán cho $x = (x_j)_{j \in J}$ phần tử $y = (y_i)_{i \in I}$ sao cho $y_i = e_i$ với $i \notin J$ và $y_i = x_i$ với $i \in J$, là một đẳng cấu của $\prod_{j \in J} G_j$ lên $G_J$. Ánh xạ $\mathrm{pr}_{I-J}$ xác định khi chuyển qua thương một đẳng cấu $\theta_J$ của nhóm thương $G / G_J$ lên $\prod_{i \in I-J} G_i$. Hợp thành $\mathrm{pr}_J \circ \iota_J$ là ánh xạ đồng nhất của $\prod_{j \in J} G_j$. $G / G_J$ thường được đồng nhất với $\prod_{i \in I-J} G_i$ nhờ $\theta_J$ và $\prod_{i \in J} G_i$ với $G_J$ nhờ $\iota_J$.
 
-Nếu $J_1$ và $J_2$ là các tập con rời nhau của $I$, theo các định nghĩa, suy ra rằng mọi phần tử của $G_{J_1}$ giao hoán với mọi phần tử của $G_{J_2}$.
+Nếu $J_1$ và $J_2$ là các tập con rời nhau của $I$, theo các định nghĩa, mọi phần tử của $G_{J_1}$ giao hoán với mọi phần tử của $G_{J_2}$.
 
 #### Định nghĩa 13 {#alg-i-s4-def-13 .statement}
 
-*Cho $G$ là một nhóm có toán tử và $(H_i)_{i \in I}$ là một họ các nhóm con ổn định chuẩn tắc của $G$. Cho $p_i : G \to G / H_i$ là đồng cấu chính tắc. $G$ được gọi là tích nội (hay tích) của họ các nhóm thương $(G / H_i)$ nếu đồng cấu $g \mapsto (p_i(g))_{i \in I}$ là một đẳng cấu của $G$ lên $\prod_{i \in I} G / H_i$.*
+*Cho $G$ là một nhóm có toán tử và $(H_i)_{i \in I}$ là một họ các nhóm con ổn định chuẩn tắc của $G$. Cho $p_i : G \to G / H_i$ là đồng cấu chính tắc. $G$ được gọi là tích nội tại (hay tích) của họ các nhóm thương $(G / H_i)$ nếu đồng cấu $g \mapsto (p_i(g))_{i \in I}$ là một đẳng cấu của $G$ lên $\prod_{i \in I} G / H_i$.*
 
-Cho $G$ và $H$ là các nhóm có toán tử và cho $\phi$ và $\psi$ là hai đồng cấu từ $G$ vào $H$. Tập hợp các phần tử $x$ trong $G$ sao cho $\phi(x) = \psi(x)$ là một nhóm con ổn định của $G$, gọi là *nhóm trùng hợp* của $\phi$ và $\psi$. Đặc biệt, cho $\phi_1 : G_1 \to H$ và $\phi_2 : G_2 \to H$ là các đồng cấu của các nhóm có toán tử; nhóm trùng hợp của các đồng cấu $\phi_1 \circ \mathrm{pr}_1$ và $\phi_2 \circ \mathrm{pr}_2$ từ $G_1 \times G_2$ vào $H$ được gọi là *tích sợi* của $G_1$ và $G_2$ trên $H$ tương ứng với $\phi_1$ và $\phi_2$. Nó được ký hiệu là $G_1 \times_H G_2$ khi không có sự nhập nhằng về $\phi_1$ và $\phi_2$ và các hạn chế $p_1$ và $p_2$ của $\mathrm{pr}_1$ và $\mathrm{pr}_2$ lên $G_1 \times_H G_2$ cũng được gọi là các đồng cấu phép chiếu. Khi đó $\phi_1 \circ p_1 = \phi_2 \circ p_2$. Các phần tử của $G_1 \times_H G_2$ là các cặp có thứ tự $(g_1, g_2) \in G_1 \times G_2$ sao cho $\phi_1(g_1) = \phi_2(g_2)$. Nếu $f_i$ là một đồng cấu từ một nhóm có toán tử $K$ vào $G_i$ ($i = 1, 2$) và $\phi_1 \circ f_1 = \phi_2 \circ f_2$, tồn tại duy nhất một đồng cấu $f$ từ $K$ vào $G_1 \times_H G_2$ sao cho $f_i = p_i \circ f$ với $i = 1, 2$.
-
-### 9. CÁC TỔNG HẠN CHẾ
+Cho $G$ và $H$ là các nhóm có toán tử và $\phi$ và $\psi$ là hai đồng cấu từ $G$ vào $H$. Tập hợp các phần tử $x$ trong $G$ sao cho $\phi(x) = \psi(x)$ là một nhóm con ổn định của $G$, được gọi là *nhóm trùng hợp* của $\phi$ và $\psi$. Đặc biệt, cho $\phi_1 : G_1 \to H$ và $\phi_2 : G_2 \to H$ là các đồng cấu của các nhóm có toán tử; nhóm trùng hợp của các đồng cấu $\phi_1 \circ \mathrm{pr}_1$ và $\phi_2 \circ \mathrm{pr}_2$ từ $G_1 \times G_2$ vào $H$ được gọi là *tích thớ* của $G_1$ và $G_2$ trên $H$ tương ứng với $\phi_1$ và $\phi_2$. Nó được ký hiệu là $G_1 \times_H G_2$ khi không có sự mơ hồ về $\phi_1$ và $\phi_2$ và các hạn chế $p_1$ và $p_2$ của $\mathrm{pr}_1$ và $\mathrm{pr}_2$ lên $G_1 \times_H G_2$ cũng được gọi là các phép chiếu đồng cấu. Khi đó $\phi_1 \circ p_1 = \phi_2 \circ p_2$. Các phần tử của $G_1 \times_H G_2$ là các cặp có thứ tự $(g_1, g_2) \in G_1 \times G_2$ sao cho $\phi_1(g_1) = \phi_2(g_2)$. Nếu $f_i$ là một đồng cấu từ một nhóm có toán tử $K$ vào $G_i$ ($i = 1, 2$) và $\phi_1 \circ f_1 = \phi_2 \circ f_2$, thì tồn tại duy nhất một đồng cấu $f$ từ $K$ vào $G_1 \times_H G_2$ sao cho $f_i = p_i \circ f$ với $i = 1, 2$.
 
 Cho $(G_i)_{i \in I}$ là một họ các nhóm có toán tử và, với $i \in I$, cho $H_i$ là một nhóm con ổn định của $G_i$. Tập con của $\prod_{i \in I} G_i$ gồm các $(x_i)_{i \in I}$ sao cho tập hợp các $i \in I$ với $x_i \notin H_i$ là hữu hạn là một nhóm con ổn định của $\prod_{i \in I} G_i$ bằng $\prod_{i \in I} G_i$ nếu $I$ là hữu hạn. Nó được gọi là *tổng hạn chế của các $G_i$ đối với các $H_i$*. Khi, với mọi $i$ ngoại trừ một số hữu hạn, $H_i$ là một nhóm con ổn định chuẩn của $G_i$, tổng hạn chế là một nhóm con ổn định chuẩn của tích. Khi, với mọi $i$, nhóm con $H_i$ được thu gọn thành phần tử đơn vị của $G_i$, tổng trực tiếp của các $G_i$ đối với các $H_i$ được gọi đơn giản là *tổng hạn chế của các $G_i$* và đôi khi được ký hiệu bởi $\prod_{i \in I} G_i$. Với mọi $i_0 \in I$, ánh xạ $\iota_{i_0}: G_{i_0} \to \prod_{i \in I} G_i$ xác định bởi $\iota_{i_0}(x) = (x_i)_{i \in I}$, trong đó $x_{i_0} = x$ và $x_i = e_i$ nếu $i \neq i_0$, là một đơn cấu các nhóm có toán tử được gọi là *đơn ánh chính tắc*. $G_i$ được đồng nhất với nhóm con ổn định $\operatorname{Im}(\iota_i)$. Các nhóm con $G_i$ là chuẩn. Với $i \neq j$, các phần tử của $G_i$ và $G_j$ giao hoán và $G_i \cap G_j = \{e\}$. Nhóm $\prod_{i \in I} G_i$ được sinh bởi tập hợp $\bigcup_{i \in I} G_i$.
 
@@ -589,55 +587,55 @@ Cho $(G_i)_{i \in I}$ là một họ các nhóm có toán tử và, với $i \in
 
 *Cho $(\phi_i: G_i \to K)_{i \in I}$ là một họ các đồng cấu của các nhóm có toán tử sao cho, với mọi $i \in I$ và $j \in I$ với $i \neq j$, $x \in G_i$, $y \in G_j$, các phần tử $\phi_i(x)$ và $\phi_j(y)$ của $K$ giao hoán; tồn tại duy nhất một đồng cấu của các nhóm có toán tử $\Phi$ từ $\prod_{i \in I} G_i$ vào $K$ sao cho $\phi_i = \Phi \circ \iota_i$ với mọi $i \in I$. Với mọi phần tử $x = (x_i)_{i \in I}$ của $\prod_{i \in I} G_i$, $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$.*
 
-Nếu $\Phi$ và $\Phi$ là các nghiệm của bài toán, chúng trùng nhau trên $\bigcup_{i \in I} G_i$ và do đó trên $\prod_{i \in I} G_i$, do đó có tính duy nhất của $\Phi$. Bây giờ ta chứng minh sự tồn tại của $\Phi$: với mỗi phần tử $x = (x_i)_{i \in I}$ của $\prod_{i \in I} G_i$, đặt $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ (\S 1, no. 5). Hiển nhiên $\Phi \circ \iota_i = \phi_i$ với mọi $i$ và $\Phi$ giao hoán với các phép vị tự; công thức $\Phi(xy) = \Phi(x)\Phi(y)$ suy ra từ \S 1, no. 5, công thức (9).
+Nếu $\Phi$ và $\Phi$ là các nghiệm của bài toán, chúng trùng nhau trên $\bigcup_{i \in I} G_i$ và do đó trên $\prod_{i \in I} G_i$, do đó có tính duy nhất của $\Phi$. Bây giờ ta chứng minh sự tồn tại của $\Phi$: với mọi phần tử $x = (x_i)_{i \in I}$ của $\prod_{i \in I} G_i$, đặt $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ (\S 1, no. 5). Hiển nhiên $\Phi \circ \iota_i = \phi_i$ với mọi $i$ và $\Phi$ giao hoán với các phép vị tự; công thức $\Phi(xy) = \Phi(x)\Phi(y)$ suy ra từ \S 1, no. 5, công thức (9).
 
 #### Định nghĩa 14 {#alg-i-s4-def-14 .statement}
 
-*Một nhóm $G$ với các toán tử và $(H_i)_{i \in I}$ một họ các nhóm con ổn định của $G$ được gọi là tổng hạn chế nội tại (hay tổng hạn chế) của họ các nhóm con $(H_i)$ nếu mọi phần tử của $H_i$ hoán vị được với mọi phần tử của $H_j$ với $j \neq i$ và đồng cấu duy nhất của $\prod_{i \in I} H_i$ vào $G$ mà hạn chế của nó trên mỗi $H_i$ là đơn ánh chính tắc là một đẳng cấu.*
+*Cho $G$ là một nhóm với các toán tử và $(H_i)_{i \in I}$ là một họ các nhóm con ổn định của $G$. $G$ được gọi là tổng hạn chế nội tại (hoặc tổng hạn chế) của họ các nhóm con $(H_i)$ nếu mọi phần tử của $H_i$ hoán vị được với mọi phần tử của $H_j$ với $j \neq i$ và đồng cấu duy nhất của $\prod_{i \in I} H_i$ vào $G$ mà hạn chế của nó trên mỗi $H_i$ là đơn ánh chính tắc là một đẳng cấu.*
 
-Khi $I$ là hữu hạn, ta cũng nói, do lạm dụng ngôn ngữ, *tích trực tiếp nội tại* (hay *tích trực tiếp*, hay *tích*) thay cho tổng hạn chế nội tại. Mọi nhóm con ổn định H của G mà tồn tại một nhóm con ổn định H' của G sao cho G là tích trực tiếp của H và H' được gọi là một *nhân tử trực tiếp* của G.
+Khi $I$ là hữu hạn, ta cũng nói, do một sự lạm dụng ngôn ngữ, *tích trực tiếp nội tại* (hoặc *tích trực tiếp*, hoặc *tích*) thay cho tổng hạn chế nội tại. Mọi nhóm con ổn định H của G mà tồn tại một nhóm con ổn định H' của G sao cho G là tích trực tiếp của H và H' được gọi là một *nhân tử trực tiếp* của G.
 
 #### Mệnh đề 13 {#alg-i-s4-prop-13 .statement}
 
-*Một nhóm $G$ với các toán tử và $(H_i)_{i \in I}$ một họ các nhóm con ổn định của G sao cho mọi phần tử của $H_i$ hoán vị được với mọi phần tử của $H_j$ với $j \neq i$. Để G là tổng hạn chế của họ các nhóm con $(H_i)_{i \in I}$, điều kiện cần và đủ là mọi phần tử x của G được biểu diễn duy nhất dưới dạng $\prod_{i \in I} y_i$, trong đó $(y_i)_{i \in I}$ là một họ có giá hữu hạn các phần tử của G với $y_i \in H_i$ với mọi i.*
+*Cho $G$ là một nhóm với các toán tử và $(H_i)_{i \in I}$ là một họ các nhóm con ổn định của G sao cho mọi phần tử của $H_i$ hoán vị được với mọi phần tử của $H_j$ với $j \neq i$. Để G là tổng hạn chế của họ các nhóm con $(H_i)_{i \in I}$, điều kiện cần và đủ là mọi phần tử x của G được biểu diễn duy nhất dưới dạng $\prod_{i \in I} y_i$, trong đó $(y_i)_{i \in I}$ là một họ có giá hữu hạn các phần tử của G với $y_i \in H_i$ với mọi i.*
 
 Hiển nhiên.
 
 #### Mệnh đề 14 {#alg-i-s4-prop-14 .statement}
 
-*Một nhóm G với các toán tử và $(H_i)_{i \in I}$ một họ hữu hạn các nhóm con ổn định của G. Để G là tổng hạn chế của họ các nhóm con $(H_i)$, điều kiện cần và đủ là mỗi $H_i$ là chuẩn và G là tích của các nhóm thương $(G/H^i)$, trong đó $H^i$ là nhóm con sinh bởi các $H_j$ với $j \neq i$.*
+*Cho $G$ là một nhóm với các toán tử và $(H_i)_{i \in I}$ là một họ hữu hạn các nhóm con ổn định của G. Để G là tổng hạn chế của họ các nhóm con $(H_i)$, điều kiện cần và đủ là mỗi $H_i$ là chuẩn và G là tích của các nhóm thương $(G/H^i)$, trong đó $H^i$ là nhóm con sinh bởi các $H_j$ với $j \neq i$.*
 
-Điều kiện hiển nhiên là cần. Ngược lại, giả sử G là tích của các $K_i = G/H^i$ và đồng nhất G với tích của các $K_i$. Khi đó $H_i$ được đồng nhất với một nhóm con của $K_i$, sao cho, với $i \neq j$, mọi phần tử của $H_i$ hoán vị được với mọi phần tử của $H_j$; mặt khác, $H^i$ được đồng nhất với tích của các $K_j$ với $j \neq i$, do đó $H_i = K_i$ với mọi $i$ và G là tích trực tiếp của các $H_i$.
+Điều kiện rõ ràng là cần thiết. Ngược lại, giả sử G là tích của các $K_i = G/H^i$ và đồng nhất G với tích của các $K_i$. Khi đó $H_i$ được đồng nhất với một nhóm con của $K_i$, do đó, với $i \neq j$, mọi phần tử của $H_i$ hoán vị được với mọi phần tử của $H_j$; mặt khác, $H^i$ được đồng nhất với tích của các $K_j$ với $j \neq i$, do đó $H_i = K_i$ với mọi $i$ và G là tích trực tiếp của các $H_i$.
 
 #### Mệnh đề 15 {#alg-i-s4-prop-15 .statement}
 
-*Một nhóm G với các toán tử và $(H_i)_{1 \leq i \leq n}$ một dãy các nhóm con chuẩn ổn định của G sao cho*
+*Cho $G$ là một nhóm với các toán tử và $(H_i)_{1 \leq i \leq n}$ là một dãy các nhóm con ổn định chuẩn của G sao cho*
 $$
-(H_1 H_2 \ldots H_i) \cap H_{i+1} = \{e\} \quad \text{với } 1 \leq i \leq n-1,
+(H_1 H_2 \ldots H_i) \cap H_{i+1} = \{e\} \quad \text{cho } 1 \leq i \leq n-1,
 $$
-*tập hợp $H_1 H_2 \ldots H_n$ là một nhóm con chuẩn ổn định của G, là tổng hạn chế của các $H_i$.*
+*tập hợp $H_1 H_2 \ldots H_n$ là một nhóm con ổn định chuẩn của G, là tổng hạn chế của các $H_i$.*
 
-Bằng quy nạp theo $n$, điều này được quy về ngay lập tức về việc chứng minh mệnh đề với $n = 2$. Trước hết, ta chứng minh rằng, nếu $x \in H_1$ và $y \in H_2$, thì x và y *hoán vị được*; vì $xyx^{-1}y^{-1} = (xyx^{-1})y^{-1} = x(yx^{-1}y^{-1})$ và do đó (vì $H_1$ và $H_2$ là các nhóm con chuẩn tắc) $xyx^{-1}y^{-1} \in H_1 \cap H_2$, tức là $xyx^{-1}y^{-1} = e$, theo giả thiết. Hơn nữa $H_1 H_2$ là một tập con của G ổn định dưới các phép vị tự của G. Suy ra (theo no. 3, Mệnh đề 1) rằng $H_1 H_2$ là một nhóm con ổn định của G và ngay lập tức kiểm tra được rằng nhóm con này là chuẩn tắc. Cuối cùng, giả sử rằng $xy = x'y'$, với $x \in H_1, x' \in H_1, y \in H_2, y' \in H_2$; khi đó ${x'}^{-1}x = y'y^{-1}$, do đó ${x'}^{-1} \in H_1 \cap H_2 = \{e\}$, $x' = x$ và tương tự $y' = y$; vì vậy $H_1 H_2$ là tích trực tiếp của $H_1$ và $H_2$.
+Bằng quy nạp theo $n$, điều này được quy về ngay lập tức việc chứng minh mệnh đề với $n = 2$. Trước hết, ta chứng minh rằng, nếu $x \in H_1$ và $y \in H_2$, x và y là *hoán vị được*; vì $xyx^{-1}y^{-1} = (xyx^{-1})y^{-1} = x(yx^{-1}y^{-1})$ và do đó (vì $H_1$ và $H_2$ là chuẩn tắc) $xyx^{-1}y^{-1} \in H_1 \cap H_2$, tức là $xyx^{-1}y^{-1} = e$, theo giả thiết. Hơn nữa $H_1 H_2$ là một tập con của G ổn định đối với các phép vị tự của G. Suy ra (theo no. 3, Mệnh đề 1) rằng $H_1 H_2$ là một nhóm con ổn định của G và ngay lập tức kiểm tra được rằng nhóm con này là chuẩn tắc. Cuối cùng, giả sử rằng $xy = x'y'$, với $x \in H_1, x' \in H_1, y \in H_2, y' \in H_2$; khi đó ${x'}^{-1}x = y'y^{-1}$, do đó ${x'}^{-1} \in H_1 \cap H_2 = \{e\}$, $x' = x$ và tương tự $y' = y$; vì vậy $H_1 H_2$ là tích trực tiếp của $H_1$ và $H_2$.
 
-Khi nhóm được xét là giao hoán, người ta dùng thuật ngữ *tổng trực tiếp* thay cho tích trực tiếp.
+Khi các nhóm được xét là giao hoán, số hạng *tổng trực tiếp* được dùng thay cho tích trực tiếp.
 
-### 10. CÁC NHÓM ĐƠN SINH
+### 10. NHÓM ĐƠN SINH
 
-Cho $a \in \mathbf{Z}$; vì $a\mathbf{Z}$ là một nhóm con của $\mathbf{Z}$, quan hệ giữa các phần tử $x, y$ của $\mathbf{Z}$ phát biểu rằng "tồn tại $z \in \mathbf{Z}$ sao cho $x - y = az$" là một quan hệ tương đương, mà ta thống nhất, một lần cho tất cả, viết là $x \equiv y \pmod{a}$ hoặc $x \equiv y(a)$ và gọi là *đồng dư modulo* $a$. Thay $a$ bằng $-a$ ta thu được một quan hệ tương đương, do đó có thể giả sử rằng $a \geqslant 0$; với $a = 0$, $x \equiv y(0)$ có nghĩa là $x = y$, do đó chỉ khi $a \neq 0$ ta mới thu được một quan hệ phân biệt với đẳng thức: vì vậy trong phần sau ta sẽ giả sử rằng $a > 0$ trừ khi có chỉ dẫn khác.
+Cho $a \in \mathbf{Z}$; vì $a\mathbf{Z}$ là một nhóm con của $\mathbf{Z}$, quan hệ giữa các phần tử $x, y$ của $\mathbf{Z}$ phát biểu rằng "tồn tại $z \in \mathbf{Z}$ sao cho $x - y = az$" là một quan hệ tương đương, mà ta quy ước, một lần cho tất cả, viết dưới dạng $x \equiv y \pmod{a}$ hoặc $x \equiv y(a)$ và gọi là *đồng dư modulo* $a$. Thay $a$ bởi $-a$ ta thu được một quan hệ tương đương, do đó có thể giả sử rằng $a \geqslant 0$; với $a = 0$, $x \equiv y(0)$ có nghĩa là $x = y$, do đó chỉ khi $a \neq 0$ mới thu được một quan hệ phân biệt với đẳng thức: vì vậy trong phần sau ta sẽ giả sử rằng $a > 0$ trừ khi có chỉ dẫn khác.
 
 Với $a > 0$, thương của $\mathbf{Z}$ theo đồng dư $x \equiv y(a)$, tức là nhóm $\mathbf{Z}/a\mathbf{Z}$, được gọi là *nhóm các số nguyên hữu tỉ modulo* $a$.
 
 #### Mệnh đề 16 {#alg-i-s4-prop-16 .statement}
 
-*Cho $a$ là một số nguyên $> 0$. Các số nguyên $r$ sao cho $0 \leqslant r < a$ tạo thành một hệ các đại diện của quan hệ tương đương $x \equiv y \pmod{a}$ trên $\mathbf{Z}$.*
+*Cho $a$ là một số nguyên $> 0$. Các số nguyên $r$ sao cho $0 \leqslant r < a$ lập thành một hệ các đại diện của quan hệ tương đương $x \equiv y \pmod{a}$ trên $\mathbf{Z}.*
 
-Nếu $x$ là một số nguyên $\geqslant 0$, tồn tại ( *Lý thuyết tập hợp*, III, § 5, no. 6) các số nguyên $q$ và $r$ sao cho $x = aq + r$ và $0 \leqslant r < a$ và $x \equiv r \pmod{a}$. Nếu $x$ là một số nguyên $\leqslant 0$, số nguyên $-x$ là $\geqslant 0$ và theo điều trên tồn tại một số nguyên $r$ sao cho $0 \leqslant r < a$ và $-x \equiv r \pmod{a}$. Đặt $r' = 0$ nếu $r = 0$ và $r' = a - r$ nếu $r > 0$, khi đó
+Nếu $x$ là một số nguyên $\geqslant 0$, tồn tại các số nguyên $q$ và $r$ (Lý thuyết tập hợp, III, § 5, no. 6) sao cho $x = aq + r$ và $0 \leqslant r < a$ và $x \equiv r \pmod{a}$. Nếu $x$ là một số nguyên $\leqslant 0$, số nguyên $-x$ là $\geqslant 0$ và theo điều trên tồn tại một số nguyên $r$ sao cho $0 \leqslant r < a$ và $-x \equiv r \pmod{a}$. Đặt $r' = 0$ nếu $r = 0$ và $r' = a - r$ nếu $r > 0$, khi đó
 
 $$
 x \equiv -r \equiv r' \pmod{a}
 $$
 
-và $0 \leqslant r' < a$. Ta chứng minh rằng nếu $0 \leqslant r < r' < a$, thì $r \not\equiv r' \pmod{a}$. Bây giờ $r' - r < na$ với $n \geqslant 1$ và $r' - r > na$ với $n \leqslant 0$, do đó $r' - r \notin a\mathbf{Z}$.
+và $0 \leqslant r' < a$. Bây giờ ta chứng minh rằng nếu $0 \leqslant r < r' < a$, thì $r \not\equiv r' \pmod{a}$. Ta có $r' - r < na$ với $n \geqslant 1$ và $r' - r > na$ với $n \leqslant 0$, do đó $r' - r \notin a\mathbf{Z}$.
 
 #### Hệ quả {#alg-i-s4-n10-cor-1 .statement}
 
@@ -645,37 +643,37 @@ và $0 \leqslant r' < a$. Ta chứng minh rằng nếu $0 \leqslant r < r' < a$,
 
 #### Mệnh đề 17 {#alg-i-s4-prop-17 .statement}
 
-*Cho $\mathrm{H}$ là một nhóm con của $\mathbf{Z}$. Tồn tại một và chỉ một số nguyên $a \geqslant 0$ sao cho $\mathrm{H} = a\mathbf{Z}$.*
+*Cho $\mathrm{H}$ là một nhóm con của $\mathbf{Z}$. Tồn tại duy nhất một số nguyên $a \geqslant 0$ sao cho $\mathrm{H} = a\mathbf{Z}$.*
 
-Nếu $\mathrm{H} = \{0\}$, thì $\mathrm{H} = 0\mathbf{Z}$. Giả sử rằng $\mathrm{H} \neq \{0\}$. Nhóm con $\mathrm{H}$ có một phần tử $x \neq 0$. Khi đó $x > 0$ hoặc $-x > 0$, và do đó $\mathrm{H}$ có các phần tử $> 0$. Gọi $a$ là phần tử nhỏ nhất $> 0$ trong $\mathrm{H}$. Nhóm con $a\mathbf{Z}$ sinh bởi $a$ được chứa trong $\mathrm{H}$; ta chứng minh rằng $\mathrm{H} \subset a\mathbf{Z}$. Cho $y \in \mathrm{H}$. Theo Mệnh đề 16, tồn tại một số nguyên $r$ sao cho $y \equiv r \pmod{a}$ và $0 \leqslant r < a$. *a fortiori* $y \equiv r \pmod{\mathrm{H}}$, do đó $r \in \mathrm{H}$. Nhưng điều này chỉ có thể xảy ra nếu $r = 0$ và do đó $y \in a\mathbf{Z}$. Số nguyên $a$ là duy nhất: nếu $\mathrm{H} = \{0\}$, thì tất nhiên $a = 0$, và nếu $\mathrm{H} \neq \{0\}$, số nguyên $a$ là cấp của $\mathbf{Z}/\mathrm{H}$.
+Nếu $\mathrm{H} = \{0\}$, thì $\mathrm{H} = 0\mathbf{Z}$. Giả sử $\mathrm{H} \neq \{0\}$. Nhóm con $\mathrm{H}$ có một phần tử $x \neq 0$. Khi đó $x > 0$ hoặc $-x > 0$, và do đó $\mathrm{H}$ có các phần tử $> 0$. Gọi $a$ là phần tử nhỏ nhất $> 0$ trong $\mathrm{H}$. Nhóm con $a\mathbf{Z}$ sinh bởi $a$ được chứa trong $\mathrm{H}$; ta chứng minh rằng $\mathrm{H} \subset a\mathbf{Z}$. Cho $y \in \mathrm{H}$. Theo Mệnh đề 16, tồn tại một số nguyên $r$ sao cho $y \equiv r \pmod{a}$ và $0 \leqslant r < a$. *A fortiori* $y \equiv r \pmod{\mathrm{H}}$, do đó $r \in \mathrm{H}$. Nhưng điều này chỉ có thể xảy ra khi $r = 0$ và do đó $y \in a\mathbf{Z}$. Số nguyên $a$ là duy nhất: nếu $\mathrm{H} = \{0\}$, thì tất nhiên $a = 0$, còn nếu $\mathrm{H} \neq \{0\}$, số nguyên $a$ là cấp của $\mathbf{Z}/\mathrm{H}$.
 
 #### Định nghĩa 15 {#alg-i-s4-def-15 .statement}
 
-*Một nhóm được gọi là đơn sinh nếu nó thừa nhận một hệ các phần tử sinh gồm một phần tử duy nhất. Một nhóm đơn sinh hữu hạn được gọi là xyclic.*
+*Một nhóm được gọi là đơn sinh nếu nó có một hệ phần tử sinh gồm một phần tử duy nhất. Một nhóm đơn sinh hữu hạn được gọi là nhóm cyclic.*
 
 Mọi nhóm đơn sinh đều giao hoán (no. 3, Hệ quả 2 của Mệnh đề 2). Mọi nhóm thương của một nhóm đơn sinh đều đơn sinh (no. 3, Hệ quả 3 của Mệnh đề 2).
 
-Nhóm cộng $\mathbf{Z}$ là đơn sinh: nó được sinh bởi $\{1\}$. Với mọi số nguyên dương $a$, nhóm $\mathbf{Z}/a\mathbf{Z}$ là đơn sinh, vì nó là một thương của $\mathbf{Z}$.
+Nhóm cộng $\mathbf{Z}$ là đơn sinh: nó được sinh bởi $\{1\}$. Với mọi số nguyên dương $a$, nhóm $\mathbf{Z}/a\mathbf{Z}$ là đơn sinh, vì nó là một nhóm thương của $\mathbf{Z}$.
 
 #### Mệnh đề 18 {#alg-i-s4-prop-18 .statement}
 
-*Một nhóm đơn sinh hữu hạn cấp a là đẳng cấu với $\mathbf{Z}/a\mathbf{Z}$. Một nhóm đơn sinh vô hạn là đẳng cấu với $\mathbf{Z}$.*
+*Một nhóm đơn sinh hữu hạn cấp $a$ đẳng cấu với $\mathbf{Z}/a\mathbf{Z}$. Một nhóm đơn sinh vô hạn đẳng cấu với $\mathbf{Z}$.*
 
-Cho G là một nhóm đơn sinh (viết theo phép nhân) và x là một phần tử sinh của G. Đồng nhất thức $x^m x^n = x^{m+n}$ (\S 1, no. 3, công thức (1)) chỉ ra rằng ánh xạ $n \mapsto x^n$ là một đồng cấu từ $\mathbf{Z}$ vào G. Ảnh của nó là một nhóm con của G chứa x và do đó nó là G. Theo no. 5, Định lý 3, nhóm G là đẳng cấu với nhóm thương của $\mathbf{Z}$ bởi một nhóm con, mà nhất thiết có dạng $a\mathbf{Z}$ (Mệnh đề 17). Nếu $a > 0$, nhóm G là hữu hạn cấp a và nếu $a = 0$, nhóm G là đẳng cấu với $\mathbf{Z}$.
+Cho G là một nhóm đơn sinh (viết theo phép nhân) và x là một phần tử sinh của G. Đồng nhất thức $x^m x^n = x^{m+n}$ (\S 1, no. 3, công thức (1)) cho thấy ánh xạ $n \mapsto x^n$ là một đồng cấu từ $\mathbf{Z}$ vào G. Ảnh của nó là một nhóm con của G chứa x và do đó nó là G. Theo no. 5, Định lý 3, nhóm G đẳng cấu với thương của $\mathbf{Z}$ theo một nhóm con, mà nhất thiết có dạng $a\mathbf{Z}$ (Mệnh đề 17). Nếu $a > 0$, nhóm G hữu hạn có cấp a và nếu $a = 0$, nhóm G đẳng cấu với $\mathbf{Z}$.
 
 #### Mệnh đề 19 {#alg-i-s4-prop-19 .statement}
 
-*Cho a là một số nguyên > 0. Cho H là một nhóm con của $\mathbf{Z}/a\mathbf{Z}$, b là cấp của H và c là chỉ số của nó trong $\mathbf{Z}/a\mathbf{Z}$. Khi đó $a = bc$, $H = c\mathbf{Z}/a\mathbf{Z}$ và H là đẳng cấu với $\mathbf{Z}/b\mathbf{Z}$.
+*Cho a là một số nguyên $> 0$. Cho H là một nhóm con của $\mathbf{Z}/a\mathbf{Z}$, b là cấp của H và c là chỉ số của nó trong $\mathbf{Z}/a\mathbf{Z}$. Khi đó $a = bc$, $H = c\mathbf{Z}/a\mathbf{Z}$ và H đẳng cấu với $\mathbf{Z}/b\mathbf{Z}$.
 
-Ngược lại, cho b và c là hai số nguyên > 0 sao cho $a = bc$. Khi đó $a\mathbf{Z} \subset c\mathbf{Z}$ và $c\mathbf{Z}/a\mathbf{Z}$ là một nhóm con của $\mathbf{Z}/a\mathbf{Z}$, có cấp b và chỉ số c.*
+Ngược lại, cho b và c là hai số nguyên $> 0$ sao cho $a = bc$. Khi đó $a\mathbf{Z} \subset c\mathbf{Z}$ và $c\mathbf{Z}/a\mathbf{Z}$ là một nhóm con của $\mathbf{Z}/a\mathbf{Z}$, có cấp b và chỉ số c.*
 
-$a = bc$ theo no. 4, Hệ quả của Mệnh đề 4. Theo no. 7, Định lý 4, H có dạng $H'/a\mathbf{Z}$, trong đó $H'$ là một nhóm con của $\mathbf{Z}$ và $\mathbf{Z}/H'$ đẳng cấu với $(\mathbf{Z}/a\mathbf{Z})/H$ và do đó có cấp c. Theo Mệnh đề 17 và Hệ quả của Mệnh đề 16, $H' = c\mathbf{Z}$ và do đó H là đơn sinh. Cuối cùng, H đẳng cấu với $\mathbf{Z}/b\mathbf{Z}$ theo Mệnh đề 18. Ngược lại, nếu $a = bc$, thì $a\mathbf{Z} \subset c\mathbf{Z}$ vì $a \in c\mathbf{Z}$: nhóm thương $(\mathbf{Z}/a\mathbf{Z})/(c\mathbf{Z}/a\mathbf{Z})$ đẳng cấu với $\mathbf{Z}/c\mathbf{Z}$ (no. 7, Định lý 4) và do đó có cấp c (no. 4, Hệ quả của Mệnh đề 4) và chỉ số b (no. 4, Hệ quả của Mệnh đề 4).
+$a = bc$ theo no. 4, Hệ quả của Mệnh đề 4. Theo no. 7, Định lý 4, H có dạng $H'/a\mathbf{Z}$, trong đó $H'$ là một nhóm con của $\mathbf{Z}$ và $\mathbf{Z}/H'$ đẳng cấu với $(\mathbf{Z}/a\mathbf{Z})/H$ và do đó có cấp c. Theo Mệnh đề 17 và Hệ quả của Mệnh đề 16, $H' = c\mathbf{Z}$ và do đó H là đơn sinh. Cuối cùng, H đẳng cấu với $\mathbf{Z}/b\mathbf{Z}$ theo Mệnh đề 18. Ngược lại, nếu $a = bc$, thì $a\mathbf{Z} \subset c\mathbf{Z}$ với $a \in c\mathbf{Z}$: nhóm thương $(\mathbf{Z}/a\mathbf{Z})/(c\mathbf{Z}/a\mathbf{Z})$ đẳng cấu với $\mathbf{Z}/c\mathbf{Z}$ (no. 7, Định lý 4) và do đó có cấp c (no. 4, Hệ quả của Mệnh đề 4) và chỉ số b (no. 4, Hệ quả của Mệnh đề 4).
 
 #### Hệ quả {#alg-i-s4-n10-cor-2 .statement}
 
-*Mọi nhóm con của một nhóm đơn sinh đều là đơn sinh.*
+*Mọi nhóm con của một nhóm đơn sinh đều đơn sinh.*
 
-Cho a và b là hai số nguyên $\neq 0$. Quan hệ $b \in a\mathbf{Z}$ cũng được viết là: *b là một bội của a*, và cũng là *a chia hết b* hoặc *a là một ước của b*.
+Cho a và b là hai số nguyên $\neq 0$. Quan hệ $b \in a\mathbf{Z}$ cũng được viết: *b là một bội của a*, và cũng *a chia hết b* hoặc *a là một ước của b*.
 
 #### Định nghĩa 16 {#alg-i-s4-def-16 .statement}
 
@@ -691,7 +689,7 @@ Cho a và b là hai số nguyên $\neq 0$. Quan hệ $b \in a\mathbf{Z}$ cũng �
 
 *Mọi nhóm đơn giao hoán đều là cyclic có cấp nguyên tố.*
 
-Cho G là một nhóm như vậy. Khi đó $G \neq \{e\}$; lấy $a \neq e$ là một phần tử của G. Nhóm con sinh bởi a là chuẩn vì G giao hoán, nó không rút gọn về $\{e\}$ và do đó bằng G. Vậy G là đơn sinh và do đó đẳng cấu với một nhóm có dạng $\mathbf{Z}/p\mathbf{Z}$ với $p > 0$, vì $\mathbf{Z}$ không đơn, và $p$ nhất thiết là nguyên tố.
+Cho G là một nhóm như vậy. Khi đó $G \neq \{e\}$; lấy $a \neq e$ là một phần tử của G. Nhóm con sinh bởi a là chuẩn tắc vì G giao hoán, nó không rút gọn thành $\{e\}$ và do đó bằng G. Vậy G là đơn sinh và do đó đẳng cấu với một nhóm có dạng $\mathbf{Z}/p\mathbf{Z}$ với $p > 0$, vì $\mathbf{Z}$ không đơn, và p nhất thiết là nguyên tố.
 
 #### Nhận xét {#alg-i-s4-n10-rem-1 .statement}
 
@@ -699,33 +697,33 @@ Một nhóm hữu hạn G có cấp nguyên tố nhất thiết là cyclic. G kh
 
 #### Bổ đề 2 {#alg-i-s4-lem-2 .statement}
 
-Cho $a$ là một số nguyên $> 0$. Bằng cách gắn với mỗi chuỗi hợp thành $(\mathbf{H}_i)_{0 \leq i \leq n}$ của nhóm $\mathbf{Z}/a\mathbf{Z}$ dãy $(s_i)_{1 \leq i \leq n}$, trong đó $s_i$ là cấp của $\mathbf{H}_{i-1}/\mathbf{H}_i$, ta thu được một sự tương ứng một-một giữa các chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$ và các dãy hữu hạn $(s_i)$ của các số nguyên $> 0$ sao cho $a = s_1 \ldots s_n$. Chuỗi hợp thành $(\mathbf{H}_i)_{0 \leq i \leq n}$ là một chuỗi Jordan-Hölder khi và chỉ khi các $s_i$ là nguyên tố.
+Cho $a$ là một số nguyên $> 0$. Bằng cách gán cho mỗi chuỗi hợp thành $(\mathbf{H}_i)_{0 \leq i \leq n}$ của nhóm $\mathbf{Z}/a\mathbf{Z}$ dãy $(s_i)_{1 \leq i \leq n}$, trong đó $s_i$ là cấp của $\mathbf{H}_{i-1}/\mathbf{H}_i$, ta được một sự tương ứng một-một giữa các chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$ và các dãy hữu hạn $(s_i)$ của các số nguyên $> 0$ sao cho $a = s_1 \ldots s_n$. Chuỗi hợp thành $(\mathbf{H}_i)_{0 \leq i \leq n}$ là chuỗi Jordan-Hölder khi và chỉ khi các $s_i$ là nguyên tố.
 
-Nếu $(\mathbf{H}_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$, thì từ no. 4, Mệnh đề 4, bằng quy nạp theo $n$, suy ra rằng $a = \prod_{i=1}^n (\mathbf{H}_{i-1} : \mathbf{H}_i)$.
+Nếu $(\mathbf{H}_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$, thì theo quy nạp theo n, từ no. 4, Mệnh đề 4, suy ra rằng $a = \prod_{i=1}^n (\mathbf{H}_{i-1} : \mathbf{H}_i)$.
 
-Ngược lại, cho $(s_i)_{1 \leq i \leq n}$ là một dãy các số nguyên $> 0$ sao cho $a = s_1 \ldots s_n$. Nếu $(\mathbf{H}_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$ sao cho $(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$ với $1 \leq i \leq n$, thì nhất thiết $((\mathbf{Z}/a\mathbf{Z}) : \mathbf{H}_i) = \prod_{1 \leq j \leq i} s_j$ như thấy được bằng quy nạp theo $i$, do đó $\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$ (Mệnh đề 19), điều này chứng tỏ tính đơn ánh của ánh xạ đang xét. Bây giờ ta chứng minh tính toàn ánh của nó. Viết $\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$ với $0 \leq i \leq n$, ta thu được một chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$ sao cho $(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$ (Mệnh đề 19). Mệnh đề thứ hai suy ra từ Mệnh đề 20 và no. 7, Mệnh đề 9.
+Ngược lại, cho $(s_i)_{1 \leq i \leq n}$ là một dãy các số nguyên $> 0$ sao cho $a = s_1 \ldots s_n$. Nếu $(\mathbf{H}_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$ sao cho $(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$ với $1 \leq i \leq n$, thì nhất thiết $((\mathbf{Z}/a\mathbf{Z}) : \mathbf{H}_i) = \prod_{1 \leq j \leq i} s_j$ như thấy được bằng quy nạp theo i, do đó $\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$ (Mệnh đề 19), điều này chứng tỏ tính đơn ánh của ánh xạ đang xét. Bây giờ ta chứng minh tính toàn ánh của nó. Viết $\mathbf{H}_i = \left( \prod_{j=1}^i s_j \right) \mathbf{Z}/a\mathbf{Z}$ với $0 \leq i \leq n$, ta thu được một chuỗi hợp thành của $\mathbf{Z}/a\mathbf{Z}$ sao cho $(\mathbf{H}_{i-1} : \mathbf{H}_i) = s_i$ (Mệnh đề 19). Mệnh đề thứ hai suy ra từ Mệnh đề 20 và no. 7, Mệnh đề 9.
 
-Cho $\mathfrak{P}$ là tập hợp các số nguyên tố.
+Gọi $\mathfrak{P}$ là tập hợp các số nguyên tố.
 
 #### Định lý 7 (phân tích thành các thừa số nguyên tố) {#alg-i-s4-thm-7 .statement}
 
-*Cho $a$ là một số nguyên dương ngặt. Tồn tại một và chỉ một họ $(v_p(a))_{p \in \mathfrak{P}}$ các số nguyên $> 0$ sao cho tập hợp các $p \in \mathfrak{P}$ với $v_p(a) \neq 0$ là hữu hạn và*
+*Cho $a$ là một số nguyên dương. Tồn tại duy nhất một họ $(v_p(a))_{p \in \mathfrak{P}}$ các số nguyên $> 0$ sao cho tập hợp các $p \in \mathfrak{P}$ với $v_p(a) \neq 0$ là hữu hạn và*
 
 $$
 a = \prod_{p \in \mathfrak{P}} p^{v_p(a)}.
 $$
 
-Vì nhóm $\mathbf{Z}/a\mathbf{Z}$ là hữu hạn, nó thừa nhận một chuỗi Jordan-Hölder. Bổ đề 2 khi đó suy ra rằng $a$ là một tích của các số nguyên nguyên tố, do đó sự tồn tại của họ $(v_p(a))$; hơn nữa, đối với mọi họ $(v_p(a))_{p \in \mathfrak{P}}$ thỏa mãn các điều kiện của Định lý 7, số nguyên $v_p(a)$ là, với mọi $p \in \mathfrak{P}$, bằng số các thừa số của một chuỗi Jordan-Hölder của $\mathbf{Z}/a\mathbf{Z}$ đẳng cấu với $\mathbf{Z}/p\mathbf{Z}$ (Bổ đề 2). Tính duy nhất của họ $(v_p(a))$ do đó suy ra từ định lý Jordan-Hölder (no. 7, Định lý 6).
+Vì nhóm $\mathbf{Z}/a\mathbf{Z}$ là hữu hạn, nó có một chuỗi Jordan-Hölder. Bổ đề 2 khi đó suy ra rằng $a$ là một tích các số nguyên nguyên tố, do đó tồn tại họ $(v_p(a))$; hơn nữa, với mọi họ $(v_p(a))_{p \in \mathfrak{P}}$ thỏa mãn các điều kiện của Định lý 7, số nguyên $v_p(a)$, với mọi $p \in \mathfrak{P}$, bằng số các nhân tử của một chuỗi Jordan-Hölder của $\mathbf{Z}/a\mathbf{Z}$ đẳng cấu với $\mathbf{Z}/p\mathbf{Z}$ (Bổ đề 2). Do đó, tính duy nhất của họ $(v_p(a))$ suy ra từ định lý Jordan-Hölder (no. 7, Định lý 6).
 
 #### Hệ quả {#alg-i-s4-n10-cor-4 .statement}
 
 *Cho $a$ và $b$ là hai số nguyên $> 0$. Khi đó $v_p(ab) = v_p(a) + v_p(b)$. Để $a$ chia hết $b$, điều kiện cần và đủ là $v_p(a) \leq v_p(b)$ với mọi số nguyên tố $p$.*
 
-Trong mọi nhóm $G$, nếu nhóm con (đơn sinh) sinh bởi một phần tử $x \in G$ có cấp hữu hạn $d$, $x$ được gọi là một phần tử có *cấp* $d$; số $d$ do đó là số nguyên dương nhỏ nhất $> 0$ sao cho $x^d = e$; nếu nhóm con sinh bởi $x$ là vô hạn, $x$ được nói là có *cấp vô hạn*. Các định nghĩa này, cùng với Mệnh đề 4 (no. 4), suy ra đặc biệt rằng trong một nhóm hữu hạn G cấp của mọi phần tử của G là một ước của cấp của G.
+Trong một nhóm $G$ bất kỳ, nếu nhóm con (đơn sinh) sinh bởi một phần tử $x \in G$ có cấp hữu hạn $d$, thì $x$ được gọi là một phần tử có *cấp* $d$; do đó số $d$ là số nguyên $> 0$ nhỏ nhất sao cho $x^d = e$; nếu nhóm con sinh bởi $x$ là vô hạn, thì $x$ được gọi là có *cấp vô hạn*. Các định nghĩa này, cùng với Mệnh đề 4 (no. 4), đặc biệt suy ra rằng trong một nhóm hữu hạn $G$, cấp của mọi phần tử của $G$ là một ước của cấp của $G$.
 
 #### Mệnh đề 21 {#alg-i-s4-prop-21 .statement}
 
-Trong một nhóm hữu hạn G cấp n, $x^n = e$ với mọi $x \in G$.
+Trong một nhóm hữu hạn $G$ có cấp $n$, $x^n = e$ với mọi $x \in G$.
 
 Nếu $p$ là cấp của $x$, thì $n = pq$, với $q$ là một số nguyên, và do đó $x^n = (x^p)^q = e$.
 
