@@ -161,7 +161,7 @@ This formula shows that Proposition 5 generalizes the separability condition giv
 
 #### Proposition 6 {#alg-ix-s2-prop-6 .statement}
 
-Let $\Phi$ be an A-bilinear form on E, and K a subring of A such that A is a K-module free of finite dimension q. If $(e_i)_{i=1,\ldots,n}$ is a basis of E over A and $(a_j)_{a_j)_{j=1,\ldots,q}$ a basis of A over K, then $(a_j e_i)$ is a basis of E over K. The mapping $\Phi'$ of $E \times E$ into K defined by $\Phi'(x, y) = \mathrm{Tr}_{A/K}(\Phi(x, y))$ is a K-bilinear form on E, and one has
+Let $\Phi$ be an A-bilinear form on E, and K a subring of A such that A is a K-module free of finite dimension q. If $(e_i)_{i=1,\ldots,n}$ is a basis of E over A and $(a_j)_{j=1,\ldots,q}$ a basis of A over K, then $(a_j e_i)$ is a basis of E over K. The mapping $\Phi'$ of $E \times E$ into K defined by $\Phi'(x, y) = \mathrm{Tr}_{A/K}(\Phi(x, y))$ is a K-bilinear form on E, and one has
 
 $$(8)\quad D_{\Phi'}(a_j e_i) = N_{A/K}(D_\Phi(e_1, \ldots, e_n)) \cdot (D_{A/K}(a_1, \ldots, a_q))^n.$$
 
