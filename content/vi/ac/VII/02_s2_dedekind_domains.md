@@ -33,7 +33,7 @@ subsections:
       pdf_page: 517
 statements: 14
 exercises: 27
-content_sha256: c91aa14a76bc0013ef99b52136b66a76cfd9027af11d6b4f8ba9af416df73583
+content_sha256: 8fab7b205d2c225c990867dd8ecf39292fb9a2b89944ec5ee41d0b6a60bd72eb
 translated_from: content/en/ac/VII/02_s2_dedekind_domains.md
 source_content_sha256: cc7d7aebe3c9feefed99d2b6823c6c99ac2960660a90318e1a3fa69f6af4754d
 translation_model: gpt-5.4-mini

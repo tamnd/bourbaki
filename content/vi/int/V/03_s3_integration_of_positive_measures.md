@@ -37,7 +37,7 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: 51255682deb1e8860072d28bd022fa60ff11cc3750126956704769c05b84415a
+content_sha256: 11306991b1b7f0dcd6ac0bb13b57ca9f2559ef18b13a0939259151792731d3c3
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
 source_content_sha256: e1261c3f72bc79e2b7cb47c3cf24fb5d5a8d76df9ace5b843b9c4605464b3519
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini

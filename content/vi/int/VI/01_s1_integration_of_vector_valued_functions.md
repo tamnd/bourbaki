@@ -40,7 +40,7 @@ subsections:
       pdf_page: 406
 statements: 34
 exercises: 27
-content_sha256: aa4b18e15c775fca728796a5311c257ce710f37ba4ad6575a08d765b35cd9787
+content_sha256: 22b3ba1b78f67ee8eb2a7350f57ab1a78ce5ff438856797947f57797006e91ff
 translated_from: content/en/int/VI/01_s1_integration_of_vector_valued_functions.md
 source_content_sha256: 0b2c492b6e4f982a6b14689c7015f7e4bafa51b9eb3f437d2d4cdf8f4278da11
 translation_model: gpt-5.4-mini

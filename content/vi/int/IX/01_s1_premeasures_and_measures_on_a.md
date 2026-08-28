@@ -52,7 +52,7 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: ffd5be365ad9e2da598667bdde9ac1c334b5b1b847bb60f1daeb5f15b3f4e4e5
+content_sha256: 4ebdc69262b9ba757683c1563fb65dd6ff00b75d6d6f9bc41dc02ea69ca0d031
 translated_from: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
 source_content_sha256: 08cd64a9f736fcf3e935c7f25b844b7cb16ccedcafa8c3831a78cdb4a9369a30
 translation_model: gpt-5.4-mini

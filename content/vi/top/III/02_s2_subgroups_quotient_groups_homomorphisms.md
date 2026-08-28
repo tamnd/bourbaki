@@ -52,7 +52,7 @@ subsections:
       pdf_page: 245
 statements: 45
 exercises: 31
-content_sha256: d255f27abf0aa3c652bebd0490a2c70dd31da5e5eaf995c5f623e5476a791f60
+content_sha256: 8294354a93d9e9d751f4afba22ab4a3daa6478620c046dee8036440eae1f2a0f
 translated_from: content/en/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md
 source_content_sha256: 47d9658517b4c1e8958f34e74e02f8ba4e12d17566a6a1aa7278c3a125d4cebb
 translation_model: gpt-5-6-mini, gpt-5.4-mini

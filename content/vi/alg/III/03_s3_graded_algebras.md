@@ -25,7 +25,7 @@ subsections:
       pdf_page: 484
 statements: 4
 exercises: 1
-content_sha256: d802410ed8c1f057c7a2908c990cb9e332e7bbb99dcee5dbae38a09cefe5ad71
+content_sha256: 6d2e36ac6fe30673aaac7b1d34e85d4951cdb6f91d3483f0e38f68294e6c0dcb
 translated_from: content/en/alg/III/03_s3_graded_algebras.md
 source_content_sha256: 38b7965ea4ef3a096ea51873d498f423f82feaa31641e8044291d726b3d90f91
 translation_model: gpt-5-6-mini

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: a531fe9beccf215a8a0f9555b22db6790f37519ec3d3f80156a3291c50eab95d
+content_sha256: 413c4e77950f8e7b1380f0bbd512ff59bb9f48942d7f589ed00ffe1392087d27
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
 source_content_sha256: 76952264b959dbe591e68dd36c4ec6f02ba9ab7f809b7a19e628b038082dd550
 translation_model: gpt-5.4-mini, gpt-5-6-mini

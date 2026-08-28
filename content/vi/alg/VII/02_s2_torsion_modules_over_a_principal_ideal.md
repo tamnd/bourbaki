@@ -30,7 +30,7 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: 6fe5d1bba49dc35142fccf6e41e6e7e40100526247a121513607cadf91ca9a96
+content_sha256: 74231c1b9c69bfeed2753efcd52d52c59f4266dcd06eb563885a45a0c5a2b53f
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
 source_content_sha256: b73a5f55a0428c0bfdc4c56f769d57b1fd5438c4b81624e9f5d24d90a72de89f
 translation_model: gpt-5.4-mini

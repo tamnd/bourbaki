@@ -57,7 +57,7 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: 22e7c37f47db5d85a175744d0ea734cd873da7423f08ee17cc1be650dfb63a7c
+content_sha256: bebc02d59515f7884fd70a710aa5e345f828048aa775f893ec3e5bf4fe8e17d1
 translated_from: content/en/int/IV/04_s4_integrable_functions_and_sets.md
 source_content_sha256: 0ed829bdb9429c53a14581a0ac74380edb378faf3a99fb841ad0b702a0e36f2c
 translation_model: gpt-5-6-mini, gpt-5.4-mini

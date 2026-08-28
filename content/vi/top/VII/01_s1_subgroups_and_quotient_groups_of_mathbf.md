@@ -36,7 +36,7 @@ subsections:
       pdf_page: 84
 statements: 19
 exercises: 15
-content_sha256: 8cda3aaf5264e083001d53732e5724860e8d274593be523eb6d4ea3785900063
+content_sha256: 2943f4e2c59b72d7dd7452b28ad8dcd58672c26264e99271ee1bae0d5ad50ed8
 translated_from: content/en/top/VII/01_s1_subgroups_and_quotient_groups_of_mathbf.md
 source_content_sha256: 3722fa7cbaf1b9d82abf2e8703d36456761eeefc481d2d26de9e167e71488cc2
 translation_model: gpt-5.4-mini, gpt-5-6-mini

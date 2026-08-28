@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 6f2a24024d2c615d1b66c211b1cded0dc2185408fb5db31cce205817ac9a52bc
+content_sha256: 294f2dac7473648cb0f6d5894e53ff68d6877a0b3376ff59752368a71467ba7f
 translated_from: content/en/int/IV/07_s7_barycenters.md
 source_content_sha256: 0570767550afc4ec72a1bd2d57ff21259b2713160100ad0deff3ffd79e594e1a
 translation_model: gpt-5.4-mini

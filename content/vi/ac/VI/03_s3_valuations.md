@@ -37,7 +37,7 @@ subsections:
       pdf_page: 410
 statements: 15
 exercises: 8
-content_sha256: 3d809d52d19e50d490a8d0a9245c2534d181f547c83e3a2690ad861da5f7e7f3
+content_sha256: d062de812b1e808bd183b7e7d1f58436917c39d3c77acb8ae6bf5de0504917d2
 translated_from: content/en/ac/VI/03_s3_valuations.md
 source_content_sha256: 7c8006eb587e0c29f6ccf241727bf3ea54908994e1ee0854ab2d41fc36b2d06d
 translation_model: gpt-5.4-mini

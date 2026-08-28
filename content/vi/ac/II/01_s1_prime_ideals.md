@@ -21,7 +21,7 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: fab5215f082e4c031600953d19212036e9e4af1dd35be7fb2e7390bef1e07aea
+content_sha256: 870dc5a3798adb1453d440d2364ee590175ade40b80ceed2f603ca9546e8c942
 translated_from: content/en/ac/II/01_s1_prime_ideals.md
 source_content_sha256: 1b5bfd8804f03cc3ee0ccdadad5a967b6ee8842cca8b6471ecb23b5ec4046120
 translation_model: gpt-5-6-mini

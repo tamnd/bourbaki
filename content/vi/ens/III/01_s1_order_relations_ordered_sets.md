@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: 666087c07459299433b3334d932fcebde3e3f645db3ffcd29895f2668a630d55
+content_sha256: 48e54e30e846cde922d53d5cd62e4d8034d1d0e2eb2acb6e9d925fc19692fb7c
 translated_from: content/en/ens/III/01_s1_order_relations_ordered_sets.md
 source_content_sha256: dcf5b22649cb0eac4cf9ac3e2ac260375cc8586fc48653ab2f306ed22a25c53d
 translation_model: gpt-5.4, gpt-5-6-mini

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 234
 statements: 38
 exercises: 3
-content_sha256: 6e0979e46483b296b2ed97466cb240d9b675187146d09a24612bf7eeab71d549
+content_sha256: 7fefedd862e74f9559502ec3ef98b4294d50d2acf24df75301c4d52a4a1b6a5b
 translated_from: content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md
 source_content_sha256: f90de3067099cf19260303b9de7511a8e7908cc1fc7dbeb7ba244aa4277da258
 translation_model: gpt-5.4-mini
