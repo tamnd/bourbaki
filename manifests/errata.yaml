@@ -486,6 +486,31 @@ contents:
             wrong for four rows and then comes back on its own is the reading
             and not the printing, so this is corrected here rather than left
             standing as an error of the book.
+    - book: alg-x-fr
+      errata:
+        - says: '6. Structure des modules plats ............................................. X.12'
+          read: '6. Structure des modules plats ............................................. X.13'
+          why: The printing gives no page at all for nos 6 to 9 of chapter X § 1. On
+            pdf 220 the leader dots of those four rows run to the right margin and the
+            number column beside them is empty, where every other row on the page ends
+            in a number. The reading filled the gap in, and the four numbers it wrote
+            are not the ones the volume uses. No. 6 is set on X.13, no. 7 on X.15,
+            no. 8 on X.18 and no. 9 on X.19, which pdf 19, 21, 24 and 25 carry with
+            their page labels on them. No. 5 really is on X.12 and no. 10 really is on
+            X.22, so the run the reading invented would have put nos 5 and 6 on one
+            page and then jumped seven.
+        - says: '7. Modules injectifs ......................................................... X.19'
+          read: '7. Modules injectifs ......................................................... X.15'
+          why: The second of the four rows the printing leaves with no page number. The
+            heading is on pdf 21, which is labelled A X.15.
+        - says: '8. Modules cogénérateurs injectifs ...................................... X.20'
+          read: '8. Modules cogénérateurs injectifs ...................................... X.18'
+          why: The third of the four rows the printing leaves with no page number. The
+            heading is on pdf 24, which is labelled A X.18.
+        - says: '9. Enveloppes injectives ................................................... X.21'
+          read: '9. Enveloppes injectives ................................................... X.19'
+          why: The last of the four rows the printing leaves with no page number. The
+            heading is on pdf 25, which is labelled A X.19.
 heads:
     - book: ac-v-vii-fr
       errata:
