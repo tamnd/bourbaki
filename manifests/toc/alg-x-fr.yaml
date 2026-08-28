@@ -35,20 +35,20 @@ chapters:
               pdf_page: 18
             - "no": 6
               title: Structure des modules plats
-              page: 12
-              pdf_page: 18
+              page: 13
+              pdf_page: 19
             - "no": 7
               title: Modules injectifs
-              page: 19
-              pdf_page: 25
+              page: 15
+              pdf_page: 21
             - "no": 8
               title: Modules cogénérateurs injectifs
-              page: 20
-              pdf_page: 26
+              page: 18
+              pdf_page: 24
             - "no": 9
               title: Enveloppes injectives
-              page: 21
-              pdf_page: 27
+              page: 19
+              pdf_page: 25
             - "no": 10
               title: Structure des modules injectifs
               page: 22

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 370
 statements: 17
 exercises: 9
-content_sha256: 29ae787aa896e7797f551dd6f65fe419b73384223996d5e1cbae7ba99419433b
+content_sha256: a2022c5aaae101593b65f0503b21c086fdb7198b81dcad3af4a9fdc27f295e7b
 translated_from: content/en/ac/V/03_s3_finitely_generated_algebras_over_a_field.md
 source_content_sha256: 20f26dd22ad25491f63900b8e15ca528067c4aa99a1970e5d38a3f0eced5a686
 translation_model: gpt-5.4-mini

@@ -8,6 +8,7 @@ This repo is the corpus only. The code that builds it lives in [tamnd/bourbaki-s
 
 ## What is in scope
 
+<!-- BEGIN LIBRARY -->
 All twelve Books of the *Éléments*, in the English translation where one was printed and in the French original everywhere else. 43 volumes, 14989 pages, of which 15 volumes and 6648 pages are English and 28 volumes and 8341 pages are French.
 
 | Book | English | French | Volumes | Pages |
@@ -19,15 +20,18 @@ All twelve Books of the *Éléments*, in the English translation where one was p
 | Topological Vector Spaces | I to V | I to V | 2 | 740 |
 | Integration | I to IX | I to IX | 7 | 1732 |
 | Commutative Algebra | I to VII | I to X | 5 | 1733 |
-| Variétés différentielles et analytiques | never translated | fascicule de résultats | 1 | 190 |
+| Variétés différentielles et analytiques | none held | fascicule de résultats | 1 | 190 |
 | Lie Groups and Lie Algebras | I to IX | I to IX | 8 | 2182 |
-| Théories spectrales | never translated | I to V | 2 | 925 |
-| Topologie algébrique | never translated | I to IV | 1 | 512 |
+| Théories spectrales | none held | I to V | 2 | 925 |
+| Topologie algébrique | none held | I to IV | 1 | 512 |
 | Elements of the History of Mathematics | whole | whole | 2 | 673 |
+<!-- END LIBRARY -->
 
 The French is not a fallback for the English. Three Books were never translated, Algèbre chapters IX and X and Algèbre commutative chapters VIII, IX and X exist in French only, and where both printings are held the French is the original a disputed English sentence gets checked against. So both are in scope and both carry the same tags.
 
-Two gaps worth stating plainly. There is no French Théorie des ensembles here, only the English translation of it. And *Groupes et algèbres de Lie, Chapitres 7 et 8* is a partial file: 61 pages that open at Chapitre VII and stop in the middle of the exercises around printed page 65, so the English *Chapters 7-9* is the only complete copy of that material.
+None held in a column means one of two things, and the table cannot tell them apart. Théories spectrales, Topologie algébrique and Variétés différentielles et analytiques have no English printing because none was ever made. Théorie des ensembles has a French printing, the original one, and this corpus holds only the English translation of it.
+
+One more gap worth stating plainly. *Groupes et algèbres de Lie, Chapitres 7 et 8* is a partial file: 61 pages that open at Chapitre VII and stop in the middle of the exercises around printed page 65, so the English *Chapters 7-9* is the only complete copy of that material.
 
 `bourbaki books list` prints the volume by volume detail, and `manifests/books.yaml` carries it as data, with the SHA-256 and page count of every file so that a swapped or re-downloaded PDF is caught rather than silently extracted.
 
@@ -37,15 +41,17 @@ The PDFs are not here and will not be. They are copyright Springer and N. Bourba
 
 What a volume costs to read depends entirely on what its own text layer is worth, and the library splits three ways. `bourbaki books add` measures this rather than guessing it, by sampling the images and the text of a band of body pages, and records the answer as `text_layer` in the manifest.
 
+<!-- BEGIN TEXTLAYER -->
 | Text layer | Volumes | What it means |
 | --- | --- | --- |
 | native | 6 | Born digital. `pdftotext -layout` gives real text and real mathematics. |
 | ocr | 34 | A scan somebody has already run OCR over. Good enough to read a running head off, useless for mathematics. |
 | none | 3 | A scan with no text at all. Even the page map has to come out of vision OCR. |
 
-The six native volumes are *Algebra, Chapter 8* and *Lie Groups and Lie Algebras, Chapters 7-9* in English, and *Algèbre chapitre 8*, *Théories spectrales chapitres 1 et 2*, *Théories spectrales chapitres 3 à 5* and *Topologie algébrique chapitres 1 à 4* in French. They are cheap and they go first. The three with no text at all are *Commutative Algebra* at 642 pages, *General Topology Chapters 5-10* at 372 pages and *Algèbre chapitre 10* at 222 pages, and they are the most expensive volumes in the library.
+The six native volumes are *Algebra, Chapter 8* and *Lie Groups and Lie Algebras, Chapters 7-9* in English, and *Algèbre, Chapitre 8*, *Théories spectrales, Chapitres 1 et 2*, *Théories spectrales, Chapitres 3 à 5* and *Topologie algébrique, Chapitres 1 à 4* in French. They are cheap and they go first. The three with no text at all are *Algèbre, Chapitre 10* at 222 pages, *General Topology, Chapters 5-10* at 372 pages and *Commutative Algebra, Chapters 1-7* at 642 pages, and they are the most expensive volumes in the library. The other 34 are the ordinary case.
+<!-- END TEXTLAYER -->
 
-The 34 in the middle are the ordinary case. Their OCR layer renders a pair of braces in *Theory of Sets* as `R! x, y I`, so nothing in it can be trusted as mathematics, but it is legible enough to build the page map from before a single page goes to vision OCR, which saves the expensive pass on all 34.
+Their OCR layer renders a pair of braces in *Theory of Sets* as `R! x, y I`, so nothing in it can be trusted as mathematics, but it is legible enough to build the page map from before a single page goes to vision OCR, which saves the expensive pass on every one of them.
 
 ## Running heads differ per volume
 
@@ -98,75 +104,91 @@ Because the two printings sit side by side, the places they disagree get noticed
 
 `pdf/`, `images/` and `work/` are gitignored. Nothing large or copyrighted is committed.
 
-`imports/` is deliberately outside `content/`. It holds sections read off public ChatGPT share links, which cost an HTTP GET rather than 150 seconds of a browser per page, and which nobody has yet held against the printed book. The audit runs over `content/`, so anything dropped in there would pass all 66 rules by default. See [imports/README.md](imports/README.md).
+`imports/` is deliberately outside `content/`. It holds sections read off public ChatGPT share links, which cost an HTTP GET rather than 150 seconds of a browser per page, and which nobody has yet held against the printed book. The audit runs over `content/`, so anything dropped in there would pass every rule in it by default. See [imports/README.md](imports/README.md).
 
 ## Coverage
 
 <!-- BEGIN COVERAGE -->
 | Book | Chapter | Sections | Statements | Exercises | Tagged | Pages |
 | --- | --- | --- | --- | --- | --- | --- |
-| Commutative Algebra | V | 0 of 3 | 0 | 0 | 0 | 79 |
-| Commutative Algebra | VI | 0 of 10 | 0 | 0 | 0 | 111 |
-| Commutative Algebra | VII | 0 of 4 | 0 | 0 | 0 | 152 |
-| Algebra | I | 0 of 10 | 0 | 0 | 0 | 253 |
-| Algebra | II | 0 of 12 | 0 | 0 | 0 | 193 |
-| Algebra | III | 0 of 12 | 0 | 0 | 0 | 238 |
-| Algebra | IV | 6 of 6 | 147 | 53 | 0 | 194 |
-| Algebra | V | 17 of 17 | 388 | 156 | 0 | 359 |
-| Algebra | VI | 2 of 2 | 81 | 75 | 0 | 91 |
-| Algebra | VII | 5 of 5 | 136 | 64 | 0 | 161 |
-| Algebra | VIII | 25 of 25 | 697 | 317 | 1010 | 964 |
+| Commutative Algebra | I | 4 of 4 | 65 | 42 | 0 | 116 |
+| Commutative Algebra | II | 5 of 5 | 183 | 84 | 0 | 218 |
+| Commutative Algebra | III | 5 of 5 | 143 | 39 | 0 | 230 |
+| Commutative Algebra | IV | 3 of 3 | 69 | 50 | 0 | 98 |
+| Commutative Algebra | V | 3 of 3 | 122 | 60 | 0 | 150 |
+| Commutative Algebra | VI | 10 of 10 | 151 | 71 | 0 | 211 |
+| Commutative Algebra | VII | 4 of 4 | 130 | 85 | 0 | 302 |
+| Commutative Algebra | VIII | 0 of 7 | 0 | 0 | 0 | 108 |
+| Commutative Algebra | IX | 0 of 5 | 0 | 0 | 0 | 85 |
+| Algebra | I | 10 of 10 | 293 | 148 | 0 | 357 |
+| Algebra | II | 12 of 12 | 384 | 118 | 0 | 446 |
+| Algebra | III | 12 of 12 | 273 | 97 | 0 | 542 |
+| Algebra | IV | 6 of 6 | 157 | 53 | 0 | 202 |
+| Algebra | V | 17 of 17 | 425 | 156 | 0 | 382 |
+| Algebra | VI | 2 of 2 | 83 | 75 | 0 | 92 |
+| Algebra | VII | 5 of 5 | 146 | 64 | 0 | 162 |
+| Algebra | VIII | 25 of 25 | 709 | 317 | 1024 | 964 |
+| Algebra | IX | 0 of 10 | 0 | 0 | 0 | 207 |
+| Algebra | X | 0 of 7 | 0 | 0 | 0 | 215 |
 | Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 50 |
 | Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 65 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 127 |
-| Theory of Sets | IV | 3 of 3 | 23 | 15 | 38 | 147 |
-| Topological Vector Spaces | I | 3 of 3 | 58 | 35 | 0 | 39 |
-| Topological Vector Spaces | II | 8 of 8 | 176 | 162 | 0 | 192 |
-| Topological Vector Spaces | III | 6 of 6 | 108 | 75 | 0 | 101 |
-| Topological Vector Spaces | IV | 0 of 6 | 0 | 0 | 0 | 130 |
-| Topological Vector Spaces | V | 0 of 4 | 0 | 0 | 0 | 76 |
-| Functions of a Real Variable | I | 0 of 4 | 0 | 0 | 0 | 52 |
-| Functions of a Real Variable | II | 0 of 3 | 0 | 0 | 0 | 38 |
-| Functions of a Real Variable | III | 0 of 2 | 0 | 0 | 0 | 63 |
-| Functions of a Real Variable | IV | 0 of 2 | 0 | 0 | 0 | 42 |
-| Functions of a Real Variable | V | 0 of 5 | 0 | 0 | 0 | 54 |
-| Functions of a Real Variable | VI | 0 of 3 | 0 | 0 | 0 | 32 |
-| Functions of a Real Variable | VII | 0 of 2 | 0 | 0 | 0 | 38 |
+| Theory of Sets | IV | 3 of 3 | 23 | 15 | 38 | 155 |
+| Topological Vector Spaces | I | 3 of 3 | 64 | 35 | 0 | 58 |
+| Topological Vector Spaces | II | 8 of 8 | 203 | 162 | 0 | 195 |
+| Topological Vector Spaces | III | 6 of 6 | 123 | 75 | 0 | 101 |
+| Topological Vector Spaces | IV | 6 of 6 | 111 | 100 | 0 | 152 |
+| Topological Vector Spaces | V | 4 of 4 | 132 | 37 | 0 | 181 |
+| Functions of a Real Variable | I | 4 of 4 | 81 | 51 | 0 | 100 |
+| Functions of a Real Variable | II | 3 of 3 | 54 | 29 | 0 | 78 |
+| Functions of a Real Variable | III | 2 of 2 | 10 | 48 | 0 | 141 |
+| Functions of a Real Variable | IV | 2 of 2 | 54 | 28 | 0 | 94 |
+| Functions of a Real Variable | V | 5 of 5 | 107 | 28 | 0 | 113 |
+| Functions of a Real Variable | VI | 3 of 3 | 25 | 7 | 0 | 67 |
+| Functions of a Real Variable | VII | 2 of 2 | 14 | 12 | 0 | 73 |
+| Elements of the History of Mathematics | 1 | 0 of 26 | 0 | 0 | 0 | 665 |
 | Integration | I | 0 of 1 | 0 | 0 | 0 | 25 |
-| Integration | II | 2 of 2 | 24 | 21 | 0 | 35 |
-| Integration | III | 4 of 4 | 105 | 35 | 0 | 134 |
-| Integration | IV | 7 of 7 | 279 | 94 | 0 | 278 |
-| Integration | V | 0 of 8 | 0 | 0 | 0 | 154 |
-| Integration | VI | 0 of 4 | 0 | 0 | 0 | 0 |
-| Integration | VII | 5 of 5 | 112 | 48 | 0 | 126 |
-| Integration | VIII | 5 of 5 | 102 | 59 | 0 | 188 |
-| Integration | IX | 7 of 7 | 165 | 56 | 0 | 134 |
-| Lie Groups and Lie Algebras | I | 7 of 7 | 166 | 125 | 0 | 249 |
-| Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 66 | 0 | 185 |
-| Lie Groups and Lie Algebras | III | 0 of 11 | 0 | 0 | 0 | 245 |
-| Lie Groups and Lie Algebras | IV | 0 of 3 | 0 | 0 | 0 | 48 |
-| Lie Groups and Lie Algebras | V | 0 of 7 | 0 | 0 | 0 | 87 |
-| Lie Groups and Lie Algebras | VI | 0 of 4 | 0 | 0 | 0 | 105 |
-| Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 126 |
+| Integration | II | 2 of 2 | 29 | 21 | 0 | 35 |
+| Integration | III | 4 of 4 | 106 | 35 | 0 | 134 |
+| Integration | IV | 7 of 7 | 285 | 94 | 0 | 335 |
+| Integration | V | 8 of 8 | 206 | 108 | 0 | 290 |
+| Integration | VI | 4 of 4 | 98 | 57 | 0 | 173 |
+| Integration | VII | 5 of 5 | 120 | 48 | 0 | 207 |
+| Integration | VIII | 5 of 5 | 109 | 59 | 0 | 188 |
+| Integration | IX | 7 of 7 | 184 | 56 | 0 | 259 |
+| Lie Groups and Lie Algebras | I | 7 of 7 | 166 | 125 | 0 | 250 |
+| Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 66 | 0 | 186 |
+| Lie Groups and Lie Algebras | III | 11 of 11 | 393 | 108 | 0 | 481 |
+| Lie Groups and Lie Algebras | IV | 3 of 3 | 66 | 45 | 0 | 108 |
+| Lie Groups and Lie Algebras | V | 7 of 7 | 139 | 44 | 0 | 179 |
+| Lie Groups and Lie Algebras | VI | 4 of 4 | 128 | 47 | 0 | 291 |
+| Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 127 |
 | Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 172 | 471 | 211 |
-| Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 282 |
+| Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 284 |
 | Topologie algébrique | I | 0 of 6 | 0 | 0 | 0 | 150 |
 | Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 78 |
 | Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 110 |
 | Topologie algébrique | IV | 0 of 6 | 0 | 0 | 0 | 158 |
-| General Topology | I | 11 of 11 | 302 | 82 | 0 | 268 |
-| General Topology | II | 4 of 4 | 110 | 21 | 0 | 93 |
-| General Topology | III | 7 of 7 | 164 | 42 | 0 | 198 |
-| General Topology | IV | 8 of 8 | 106 | 42 | 0 | 190 |
+| General Topology | I | 11 of 11 | 302 | 152 | 0 | 279 |
+| General Topology | II | 4 of 4 | 110 | 41 | 0 | 94 |
+| General Topology | III | 7 of 7 | 164 | 113 | 0 | 198 |
+| General Topology | IV | 8 of 8 | 106 | 91 | 0 | 204 |
+| General Topology | V | 4 of 4 | 24 | 8 | 0 | 45 |
+| General Topology | VI | 3 of 3 | 37 | 36 | 0 | 66 |
+| General Topology | VII | 3 of 3 | 38 | 24 | 0 | 61 |
+| General Topology | VIII | 4 of 4 | 25 | 22 | 0 | 71 |
+| General Topology | IX | 7 of 8 | 191 | 48 | 0 | 266 |
+| General Topology | X | 4 of 4 | 106 | 43 | 0 | 173 |
 | Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
 | Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
 | Théories spectrales | III | 0 of 6 | 0 | 0 | 0 | 143 |
 | Théories spectrales | IV | 0 of 5 | 0 | 0 | 0 | 228 |
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
+| Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-201 of 369 sections are in the corpus, 54 per cent. 4599 statements and 2189 exercises, 2623 of them carrying a permanent tag.
+362 of 475 sections are in the corpus, 76 per cent. 8616 statements and 4123 exercises, 2637 of them carrying a permanent tag.
 
-The table is one row per chapter of the volumes that have a table of contents. 26 further volumes and 7384 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
+The table is one row per chapter of the volumes that have a table of contents. 4 further volumes and 960 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->
 
 ## Building it
@@ -207,7 +229,7 @@ The rest is corpus wide and runs after any volume changes:
 ```sh
 bourbaki tags assign && bourbaki tags merge && bourbaki tags verify
 bourbaki refs build
-bourbaki report coverage --write-readme
+bourbaki report readme --write
 bourbaki audit --report reports/audit.md
 ```
 
@@ -218,6 +240,10 @@ OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 
 ## Where the numbers are
 
 `reports/` is generated and checked by CI, so it is the state of the corpus rather than a snapshot somebody remembered to update. `audit.md` lists every finding by file and line. `extraction-quality.md` says how much of each volume has been read and how much of that passes the rules. `refs-unresolved.md` and `out-of-corpus.md` are the references that resolve to nothing and the ones that point outside the corpus.
+
+<!-- BEGIN RULES -->
+The audit is 72 rules in nine groups: 12 structure, 9 tags, 13 mathematics, 6 figures, 3 references, 15 translation, 6 solutions, 1 publication and 7 hygiene. 58 of them are hard, which means a finding fails the build, and 14 are soft.
+<!-- END RULES -->
 
 `what-it-cost.md` and `reproduction.md` are the two written by hand. The first says what the transport cost, which checks caught what, and what is still wrong, including the numbers that do not flatter the project. The second is the record of cloning both repositories fresh and running the pipeline from the PDFs to see whether it produces what is committed: 2775 of 2868 pages of the six deterministic volumes came back byte for byte, and everything derived from the pages came back identical.
 

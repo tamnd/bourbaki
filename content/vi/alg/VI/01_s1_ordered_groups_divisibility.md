@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 52
 exercises: 34
-content_sha256: 50ab853bd7c843bcad36e4a32075d098b5c7529a3f69c5271e775c48d304b6fd
+content_sha256: 37a7d642ac7a7dee72cee2ece12e8931a6cf6229c3d76466597e27b1ed1cfcd1
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 source_content_sha256: 7807160be0ee4703e84d6ac63919ca0a7e810af32944eb915f0916f77170d87d
 translation_model: gpt-5-6-mini, gpt-5.4-mini

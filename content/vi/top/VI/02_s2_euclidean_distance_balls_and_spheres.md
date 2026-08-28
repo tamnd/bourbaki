@@ -28,7 +28,7 @@ subsections:
       pdf_page: 48
 statements: 12
 exercises: 13
-content_sha256: 4ed51a78cfa7ef4fd31b4b691ee049bcd84a71481fc4a2b269a9dffaaa97af91
+content_sha256: 10f77d4e16726e952997c7ef262b55b4492db6c0cee8b83dedc7e5cf87fa666c
 translated_from: content/en/top/VI/02_s2_euclidean_distance_balls_and_spheres.md
 source_content_sha256: 53800ca4058547c35fef37e7f527ff82b2f4389303c83c04603fc0826bb3f6b6
 translation_model: gpt-5.4-mini

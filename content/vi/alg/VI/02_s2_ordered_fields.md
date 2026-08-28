@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 31
 exercises: 41
-content_sha256: 3ca3ee68b8b8a3dada054097d1e83b98d330c58f533b6a5f7b607374c5b02eef
+content_sha256: e483f0afb9acff2b819a43221ebfb2f4a9c65e7f6cf979332ba1b6eea74f77fb
 translated_from: content/en/alg/VI/02_s2_ordered_fields.md
 source_content_sha256: a9ea185b5e464ae853d3c2d17a543197771aae8cf459215a2571972f9b8e5a6a
 translation_model: gpt-5-6-mini, gpt-5.4-mini

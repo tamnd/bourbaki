@@ -56,7 +56,7 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: d9f52fcec12a7b06c31da5e28cb36eda40b69775b78aa9b6e2522f14f5cd28d7
+content_sha256: 0e968180238781c68df628410a70360b5f09b8544543739b6c1d6f65f7b5f949
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
 source_content_sha256: bb2e4dac8054be7f706d40123e45594629215f3acd354e292ab7ac1b0ae9e17c
 translation_model: gpt-5.4-mini

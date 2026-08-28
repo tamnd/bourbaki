@@ -49,7 +49,7 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: a716c838360631db13809bc6b3d54f0d895bdd0ebe508a908648feb22c255d15
+content_sha256: 3fc3231b230cd48877e058771d91d85fedeca843bc4d17b397a631b27c21e3b5
 translated_from: content/en/alg/III/04_s4_tensor_products_of_algebras.md
 source_content_sha256: 49f95c708f427e2fa95fa3af1f1ba7efb0d6fbfdf94099d282881d1313bbff03
 translation_model: gpt-5.4-mini

@@ -31,7 +31,7 @@ subsections:
       pdf_page: 60
 statements: 7
 exercises: 8
-content_sha256: 80a61228b43b59ad6e44b716b5c6f20e1315b70f2ee869a7f4dca74cc009dda8
+content_sha256: ba56e1afc5c29fbd9e965c5b4ced24039dbd68722559a5a28a03688c8a4240f3
 translated_from: content/en/ens/I/A_a_characterization_of_terms_and_relations.md
 source_content_sha256: 13db39e88a8780043e156517521974c8c14af043efeaa643d5625514ba9d1ea2
 translation_model: gpt-5-6, gpt-5-6-mini, copied, gpt-5-mini

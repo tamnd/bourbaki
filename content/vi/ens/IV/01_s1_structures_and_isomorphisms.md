@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 11
 exercises: 1
-content_sha256: 9a94895fcf21ea4697e291b6b83b535988a44d04f88baef18113b00ccfdbe398
+content_sha256: 89a4b8eea7161ee905df541f9f39dac32d5013de6fea9fabf60d00a3393721cb
 translated_from: content/en/ens/IV/01_s1_structures_and_isomorphisms.md
 source_content_sha256: bc1d66409698eb85af0a8703ebbb4f2e02ccf95db168e9c8733b781c5739452a
 translation_model: gpt-5.4-mini

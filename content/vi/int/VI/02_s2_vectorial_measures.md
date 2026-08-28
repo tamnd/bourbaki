@@ -53,7 +53,7 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 18
-content_sha256: fe007a79f616928d57289bdb59c0dc227d5083bc0fe4a69f43a0bd02f2d5ac16
+content_sha256: 88bdf0541a3e68126fee0babd3923bf24af11066f20dc5acfa25e32172ff0110
 translated_from: content/en/int/VI/02_s2_vectorial_measures.md
 source_content_sha256: b2224e3ba44c39c383bed9964f3920718fdcd7f727ed0fef49058dbd1cef0556
 translation_model: gpt-5.4-mini

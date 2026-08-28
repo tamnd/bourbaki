@@ -40,7 +40,7 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: cd00ca3179d0583b1b548192bd9ac77bbffd56a036ad9d5cdd1275ab9a2d89f2
+content_sha256: 59e5bdf257a6761ba95f3d15483294c163890598c3da69ede4125dfb753e105d
 translated_from: content/en/top/IX/03_s3_metrizable_groups_valued_fields_normed.md
 source_content_sha256: 10e79a35f8fb6784904e1324cd6246891046c2219592c361c5e9cb40a2de8c4f
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini

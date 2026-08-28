@@ -36,7 +36,7 @@ subsections:
       pdf_page: 119
 statements: 5
 exercises: 4
-content_sha256: c7fd303372f2c6d1e5017b28c00ead70a15cdae2ca0de85bd63ceb5c48e21d62
+content_sha256: fec720590bc8aa7130bf7311b65e3e743eb6eb5ac1a52eca01770f673ccf5ac3
 translated_from: content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md
 source_content_sha256: a5d3b8b9967c53f54bbfeea4b7d7a20401592cd9d0f1108eb802855c2c0273b1
 translation_model: gpt-5-6-mini, gpt-5-6

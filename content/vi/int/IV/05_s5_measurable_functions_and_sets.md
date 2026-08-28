@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 77
 exercises: 30
-content_sha256: a2db37ed25d0baa9287e25c5f300e214dffe97a4e357faa0fba5cc413d373aba
+content_sha256: 5ba3ee0d2c7ca413203f603333c5f208a79c2fec56e11ffba7dccd4184fea742
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
 source_content_sha256: 3f175377897ccedfa96de56dfcfb6acce32206426b0261e76bfacb02aa00d38a
 translation_model: gpt-5.4-mini
