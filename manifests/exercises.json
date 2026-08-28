@@ -6466,6 +6466,17 @@
           ]
         }
       ]
+    },
+    {
+      "id": "var-fr",
+      "chapters": [
+        {
+          "chapter": "1",
+          "title": "VARIÉTÉS DIFFÉRENTIELLES ET ANALYTIQUES, FASCICULE DE RÉSULTATS",
+          "total": 0,
+          "sections": null
+        }
+      ]
     }
   ]
 }

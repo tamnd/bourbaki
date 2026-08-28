@@ -10679,3 +10679,125 @@ books:
               exercises: 3
               extraction: ocr
               content_sha256: df721c772753141cef873961e889653b0e17d83473fb7f57196784c8de58fbca
+    - id: var-fr
+      reader_note:
+        kind: reader
+        title: AVERTISSEMENT
+        path: content/fr/var/00_to_the_reader.md
+        first_pdf_page: 4
+        last_pdf_page: 4
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: ea824de3e7069c1996f4898881d5666ae9740ef7b0a0de6690510af63b2298d6
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/fr/var/00_introduction.md
+        first_pdf_page: 6
+        last_pdf_page: 6
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: af2c7956096d6bf0db9e5c5aaa69c76bdb757409a4ead43d0168b8193dd1f658
+      chapters:
+        - chapter: "1"
+          title: VARIÉTÉS DIFFÉRENTIELLES ET ANALYTIQUES, FASCICULE DE RÉSULTATS
+          sections:
+            - kind: section
+              section: 1
+              title: Fonctions différentiables
+              path: content/fr/var/1/01_s1_fonctions_differentiables.md
+              label: var-1-s1
+              first_pdf_page: 9
+              last_pdf_page: 14
+              subsections: 7
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 68a240194e02f682042deb25f428d16a60db5f87c651da158fc9feeead037a42
+            - kind: section
+              section: 2
+              title: Fonctions différentiables réelles
+              path: content/fr/var/1/02_s2_fonctions_differentiables_reelles.md
+              label: var-1-s2
+              first_pdf_page: 15
+              last_pdf_page: 19
+              subsections: 6
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 751c6249671612296169a2ada973673daef293ce7e4ae1a9d165e88250336f6c
+            - kind: section
+              section: 3
+              title: Fonctions analytiques réelles ou complexes
+              path: content/fr/var/1/03_s3_fonctions_analytiques_reelles_ou.md
+              label: var-1-s3
+              first_pdf_page: 20
+              last_pdf_page: 28
+              subsections: 4
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: cfe146e6a40be8be1b051f760f4e1533856f7696cddc3e4c6f58c02e159289ef
+            - kind: section
+              section: 4
+              title: Fonctions analytiques (cas non archimédien)
+              path: content/fr/var/1/04_s4_fonctions_analytiques_cas_non.md
+              label: var-1-s4
+              first_pdf_page: 29
+              last_pdf_page: 32
+              subsections: 3
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6c33d48ae550ea870abdc7669dc0ffa3b18d55302bafba43eeb9d2a04fcc67f0
+            - kind: section
+              section: 5
+              title: Variétés
+              path: content/fr/var/1/05_s5_varietes.md
+              label: var-1-s5
+              first_pdf_page: 33
+              last_pdf_page: 58
+              subsections: 14
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: dd71956a97de3213da051d44a027f3c8f14a9f8fda6946fb9eaa04f9cbbd04ed
+            - kind: section
+              section: 6
+              title: Fibrations
+              path: content/fr/var/1/06_s6_fibrations.md
+              label: var-1-s6
+              first_pdf_page: 59
+              last_pdf_page: 67
+              subsections: 7
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 041a801bb9638dc98ed267f9a74ade144cc09841cb4d2f742e4682ab57d1cafb
+            - kind: section
+              section: 7
+              title: Fibrés vectoriels
+              path: content/fr/var/1/07_s7_fibres_vectoriels.md
+              label: var-1-s7
+              first_pdf_page: 68
+              last_pdf_page: 85
+              subsections: 11
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: fe137a4e6ae9d21a89fb2166378f27a2362444957d7ddf2dad763fead7f89cf4
+            - kind: appendix
+              title: Polynômes-continus et séries formelles
+              path: content/fr/var/1/A_a_polynomes_continus_et_series_formelles.md
+              label: var-1-a0
+              first_pdf_page: 86
+              last_pdf_page: 87
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 4f5da2d5f93a17339b36e8b289bea09365035864aa242bc99e5291d21d3b274d
