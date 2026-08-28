@@ -29,7 +29,7 @@ subsections:
       pdf_page: 84
 statements: 16
 exercises: 4
-content_sha256: afe3a4675a33ba9dd517390662999304efce7a0bca9a97b23b77e89cad255f4f
+content_sha256: 51fd4d5286217d65e3af9180d16280ca37ecf5bbf6131006d0146b9b026752c3
 translated_from: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
 source_content_sha256: 19ec3def3746b167ecb2eedaa43c825aad749c933e84bbb7cfc506fe29f914f0
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -107,11 +107,13 @@ $$
 
 vì $\int \langle f, z' \rangle d\varepsilon_y = \langle f(y), z' \rangle$ theo định nghĩa.
 
-#### Nhận xét {#int-iii-s3-n1-rem-1 .statement}
+#### Nhận xét 1 {#int-iii-s3-n1-rem-1 .statement}
 
-— 1) Nếu $E$ là một không gian lồi địa phương và $N$ là bao đóng của $\{0\}$ trong $E$, sao cho $E_1 = E/N$ là không gian lồi địa phương Hausdorff liên kết với $E$, thì ta biết rằng các đối ngẫu $E'$ và $E'_1$ là đồng nhất; để một hàm $f$ thuộc $\widetilde{\mathcal{K}}(X; E)$, điều kiện cần và đủ là $f_1 = \pi \circ f$ (trong đó $\pi : E \to E_1$ là đồng cấu chính tắc) thuộc $\widetilde{\mathcal{K}}(X; E_1)$, khi đó $\int f d\mu = \int f_1 d\mu$. Vậy nên ta có thể chỉ giới hạn vào việc xét các không gian lồi địa phương *Hausdorff*.
+Nếu $E$ là một không gian lồi địa phương và $N$ là bao đóng của $\{0\}$ trong $E$, sao cho $E_1 = E/N$ là không gian lồi địa phương Hausdorff liên kết với $E$, thì ta biết rằng các đối ngẫu $E'$ và $E'_1$ là đồng nhất; để một hàm $f$ thuộc $\widetilde{\mathcal{K}}(X; E)$, điều kiện cần và đủ là $f_1 = \pi \circ f$ (trong đó $\pi : E \to E_1$ là đồng cấu chính tắc) thuộc $\widetilde{\mathcal{K}}(X; E_1)$, khi đó $\int f d\mu = \int f_1 d\mu$. Vậy nên ta có thể chỉ giới hạn vào việc xét các không gian lồi địa phương *Hausdorff*.
 
-2) Cho $E$ là một không gian lồi địa phương *trên* $\mathbf{C}$, và gọi $E_0$ là không gian lồi địa phương *trên* $\mathbf{R}$ nằm dưới $E$; ta biết rằng ánh xạ $z' \mapsto \Re z'$ mà với mọi dạng tuyến tính liên tục (phức) $z'$ trên $E$, cho tương ứng dạng tuyến tính liên tục (thực) $z \mapsto \Re \langle z, z' \rangle$ trên $E_0$, là một $\mathbf{R}$-đẳng cấu của đối ngẫu $E'$ lên đối ngẫu $E'_0$ của $E_0$ (TVS, II, §8, No. 1). Tương tự, đối ngẫu đại số $E'_0*$ của không gian vectơ thực $E'_0$ có thể được đồng nhất một cách chính tắc với không gian thực nằm dưới đối ngẫu đại số $E'*$ của $E'$. Suy ra rằng nếu $\mu$ là một *độ đo thực* và $f$ là một ánh xạ trong $\widetilde{\mathcal{K}}(X; E)$, thì công thức (1) vẫn đúng khi coi $f$ như nhận giá trị trong $E_0$ và các dạng song tuyến tính chính tắc xuất hiện trong hai vế lần lượt là tương đối với đối ngẫu giữa $E'_0$ và $E'_0*$ đối với vế thứ nhất và đối ngẫu giữa $E_0$ và $E'_0$ đối với vế thứ hai.
+#### Nhận xét 2 {#int-iii-s3-n1-rem-2 .statement}
+
+Cho $E$ là một không gian lồi địa phương *trên* $\mathbf{C}$, và gọi $E_0$ là không gian lồi địa phương *trên* $\mathbf{R}$ nằm dưới $E$; ta biết rằng ánh xạ $z' \mapsto \Re z'$ mà với mọi dạng tuyến tính liên tục (phức) $z'$ trên $E$, cho tương ứng dạng tuyến tính liên tục (thực) $z \mapsto \Re \langle z, z' \rangle$ trên $E_0$, là một $\mathbf{R}$-đẳng cấu của đối ngẫu $E'$ lên đối ngẫu $E'_0$ của $E_0$ (TVS, II, §8, No. 1). Tương tự, đối ngẫu đại số $E'_0*$ của không gian vectơ thực $E'_0$ có thể được đồng nhất một cách chính tắc với không gian thực nằm dưới đối ngẫu đại số $E'*$ của $E'$. Suy ra rằng nếu $\mu$ là một *độ đo thực* và $f$ là một ánh xạ trong $\widetilde{\mathcal{K}}(X; E)$, thì công thức (1) vẫn đúng khi coi $f$ như nhận giá trị trong $E_0$ và các dạng song tuyến tính chính tắc xuất hiện trong hai vế lần lượt là tương đối với đối ngẫu giữa $E'_0$ và $E'_0*$ đối với vế thứ nhất và đối ngẫu giữa $E_0$ và $E'_0$ đối với vế thứ hai.
 
 ### 2. Các tính chất của tích phân vectơ
 

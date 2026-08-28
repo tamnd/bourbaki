@@ -42,7 +42,7 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: 1cbb5b12525b3d20e5c535daaa1b2eef1096f89d6b1124e5dba6d2dc5279fc94
+content_sha256: 030b873d56d48e0c86d452faf3ec0cf2dc0c1d54d5fb9ff120a7a194c6748a2d
 translated_from: content/en/alg/V/06_s6_etale_algebras.md
 source_content_sha256: 35e97934a59d56121249975b87c015808ae4d6daaeb6af73190878d88dd2f0f8
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -89,6 +89,27 @@ Khẳng định cuối cùng suy ra từ khẳng định đầu tiên, có tính
 ### 2. Độc lập đại số của các đồng cấu
 
 #### Định lý 2 {#alg-v-s6-thm-2 .statement}
+
+— *Cho K là một trường vô hạn, L là một mở rộng của K và A là một đại số trên K. Cho $u_1, \ldots, u_n$ là các đồng cấu K-đại số phân biệt từ A vào L và f là một đa thức trong $L[X_1, \ldots, X_n]$. Nếu ta có $f(u_1(x), \ldots, u_n(x)) = 0$ với mọi $x \in A$, thì $f = 0$.*
+
+Cho B là tập hợp các phần tử của $L^n$ có dạng $(u_1(x), \ldots, u_n(x))$ với $x \in A$. Theo Định lý 1, không tồn tại dãy $(\alpha_1, \ldots, \alpha_n)$ gồm các phần tử không đồng thời bằng không trong L sao cho $\sum_{i=1}^n \alpha_i u_i(x) = 0$ với mọi $x \in A$; do đó (II, p. 301, Định lý 7) B sinh ra không gian vectơ $L^n$ trên L. Vậy tồn tại các phần tử $a_1, \ldots, a_n$ của $A$ sao cho ma trận $(u_i(a_j))_{1 \leq i,j \leq n}$ là khả nghịch.
+
+Ta định nghĩa đa thức $g \in L[Y_1, \ldots, Y_n]$ bởi
+$$
+g(Y_1, \ldots, Y_n) = f \left( \sum_{j=1}^n u_1(a_j) Y_j, \ldots, \sum_{j=1}^n u_n(a_j) Y_j \right).
+$$
+Cho $y_1, \ldots, y_n$ thuộc $K$; đặt $x = \sum_{i=1}^n y_i a_i$, ta có
+$$
+g(y_1, \ldots, y_n) = f(u_1(x), \ldots, u_n(x)),
+$$
+từ đó $g(y_1, \ldots, y_n) = 0$
+theo giả thiết về $f$. Vì trường $K$ là vô hạn, ta có $g = 0$ (IV, p. 18, Hệ quả 2); mặt khác ma trận $(u_i(a_j))$ có nghịch đảo $(b_{ij})$ và ta có
+$$
+f(X_1, \ldots, X_n) = g \left( \sum_{j=1}^n b_{1j} X_j, \ldots, \sum_{j=1}^n b_{nj} X_j \right),
+$$
+từ đó $f = 0$.
+
+Định lý 2 không có tương tự cho các trường hữu hạn. Chẳng hạn cho $K$ là một trường hữu hạn có q phần tử, $A = L = K$ và $f(X) = X^q - X$. Ta có $x^q = x$ với mọi $x \in K$ (V, p. 93, Mệnh đề 2); do đó nếu $u$ là tự đẳng cấu đồng nhất của $K$, ta có $f(u(x)) = 0$ với mọi $x \in K$, mặc dù $f$ không bằng không.
 
 ### 3. Các đại số chéo hóa được và các đại số etale
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: 2c978e2c92bc2d501f5594b46b8387b4a9bb48b6f311e6ce27a71a8a11f86a6e
+content_sha256: 3fe04d6a558db7d99263bf2025ccc0a84556eb5ce2d728b81393bf15310b175d
 translated_from: content/en/alg/II/06_s6_inverse_and_direct_limits_of_modules.md
 source_content_sha256: a1515ab6768817cbe115497d6702cf82a7485fb8884978d8ac4f8bcce1a61027
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -203,8 +203,6 @@ d_F : \operatorname{Hom}_A(\lim \overrightarrow{E_\alpha}, F) \to \lim \leftarro
 $$
 
 #### Hệ quả 1 {#alg-ii-s6-prop-6-cor-1 .statement}
-
-#### Mệnh đề 6 {#alg-ii-s6-prop-6 .statement}
 
 *Với mọi* $A$*-đồng cấu môđun* $v : F \to F'$, *các*
 $$

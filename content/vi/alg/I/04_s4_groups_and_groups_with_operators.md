@@ -53,7 +53,7 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 879bf51b2e3654d85e7008f58ddb654b5bcd91488326ca395817dea8c2c05941
+content_sha256: 4c27bdbb5f190c0588028eccebcc56eca9a61c6cf2723c90870ecacf6f7e5ff9
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
 source_content_sha256: e6fbeed416ce5223d2083efdf2930c58be6c35b9febe48f9870b9bb5669b3907
 translation_model: gpt-5-6-mini

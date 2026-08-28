@@ -24,7 +24,7 @@ subsections:
       pdf_page: 28
 statements: 1
 exercises: 2
-content_sha256: 9ddf4e114ec0ab44c9ec0988949c9019fdb762dbb9840786757887b53b742657
+content_sha256: e1c199832feb5479cd6daba497bffab3faee58865c4bfbf276cb1827a0eb6b6e
 translated_from: content/en/top/V/04_s4_exponentials_and_logarithms.md
 source_content_sha256: 253a1c01cd6f9c44097f66ce6edc145a7650e56bfa06ec21ab22bc689a764fbb
 translation_model: gpt-5-6-mini
@@ -123,7 +123,7 @@ Do công thức (4) biến mọi phép nhân thành một phép cộng (phép to
 
 Khi được dùng cho mục đích này, cơ sở được chọn là $a = 10$; và có những bảng cho các giá trị của hàm $\log_{10} x$ (với một độ chính xác nhất định). Trong giải tích, người ta dẫn đến việc chọn một cơ sở khác (ký hiệu là $e$) sao cho $\lim_{x \to 1, x \neq 1} \frac{\log_e x}{(x - 1)} = 1$ (xem Bài tập 1).
 
-\### 2. TÍNH CHẤT CỦA CÁC HÀM $a^x$ VÀ $\log_a x$
+### 2. HÀNH VI CỦA CÁC HÀM $a^x$ VÀ $\log_a x$
 
 Theo Định lý 5 của Chương IV, § 2, no. 6, nếu $a \neq 1$, $x \to a^x$ là một ánh xạ đơn điệu nghiêm ngặt của $\mathbf{R}$ lên khoảng $\mathbf{R}_+^* = ]0, + \infty[$. Nếu $a > 1$, ta có $a^1 = a \geq 1 = a^0$, do đó $a^x$ là hàm tăng ngặt; hơn nữa, vì $\mathbf{R}_+^*$ không bị chặn trên, $a^x$ không bị chặn trên trong $\mathbf{R}$, nên
 

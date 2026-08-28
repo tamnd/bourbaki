@@ -52,7 +52,7 @@ subsections:
       pdf_page: 100
 statements: 50
 exercises: 4
-content_sha256: b593b02024618452560551048a62e91ad8c4d4c748ba0ea7c5c7024c7c51f0ee
+content_sha256: f07889b8907965e59c18324473a9c1e7def5c4df6bd73bb2506572cd8ac912fa
 translated_from: content/en/top/I/09_s9_compact_spaces_and_locally_compact.md
 source_content_sha256: b65d41a77c052d5753a2658e2818484b22b7778cc9306f9a3b3851cf55439a91
 translation_model: gpt-5.4-mini
@@ -103,6 +103,12 @@ Nếu $X$ là quasi-compact, thì mọi *phủ hữu hạn địa phương* $\ma
 Mọi không gian *hữu hạn* đều *quasi-compact*, và nói chung mọi không gian chỉ có một số hữu hạn các tập hợp mở đều quasi-compact. Một không gian hữu hạn là compact khi và chỉ khi nó rời rạc, vì một không gian Hausdorff hữu hạn là rời rạc ($\S 8$, no. 1, Hệ quả của Mệnh đề 3). Ngược lại, *mọi không gian compact rời rạc đều hữu hạn*, vì trong một không gian như vậy các tập hợp gồm một điểm là mở; do đó không gian là hữu hạn bởi $(C''')$.
 
 #### Ví dụ 2 {#top-i-s9-n1-exa-2 .statement}
+
+Cho $X$ là một tập hợp, và trang bị cho $X$ tôpô trong đó các tập đóng là $X$ và tất cả các tập con hữu hạn của $X$ [tập hợp các tập con này hiển nhiên thỏa mãn các tiên đề $(O'_1)$ và $(O'_{II})$ của $\S 1$, no. 4]. Không gian tôpô được định nghĩa như vậy là *quasi-compact*. Thật vậy, nếu $(F_i)_{i \in I}$ là một họ các tập con đóng của $X$ có giao rỗng, thì $F_\alpha$ là hữu hạn với một chỉ số $\alpha \in I$ nào đó. Cho $a_k$ ($1 \leq k \leq n$) là các phần tử của $F_\alpha$; khi đó theo giả thiết, với mỗi chỉ số $k$ có một chỉ số $i_k \in I$ sao cho $a_k \notin F_{i_k}$; do đó giao của các $F_{i_k}$ ($1 \leq k \leq n$) với $F_\alpha$ là rỗng, từ đó tiên đề $(C'')$ được thỏa mãn. Nếu $X$ là vô hạn thì nó không Hausdorff.
+
+#### Nhận xét {#top-i-s9-n1-rem-1 .statement}
+
+Các không gian quasi-compact (không Hausdorff) chủ yếu có ích trong các ứng dụng của tôpô vào hình học đại số và hiếm khi xuất hiện trong các lý thuyết toán học khác, nơi mà ngược lại các không gian compact đóng một vai trò quan trọng.
 
 #### Định lý 1 {#top-i-s9-thm-1 .statement}
 

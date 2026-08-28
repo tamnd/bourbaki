@@ -37,7 +37,7 @@ subsections:
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: d443428924b062e186cff045b5a775b937232c7f4f21129535592ad2662ab0c5
+content_sha256: 87be2523ae17de6b4449ab44c97fcdb13da429a68a40d303504356e241a3096a
 translated_from: content/en/fvr/V/A_a_hardy_fields_h_functions.md
 source_content_sha256: 211cef728f92b9ed4d60cc34a4d1f0d68ce047104889cba432f95522f59df089
 translation_model: gpt-5-6, gpt-5-6-mini
@@ -296,6 +296,8 @@ $$
 $$
 
 Rõ ràng phần dư trong khai triển này tương đương với $\frac{1}{(n+1)!} \frac{e^x}{x^{n+1}}$, nên không tiến tới 0. Vì vậy $f$ không có phần chính đối với $\mathcal{E}$.
+
+### 6. HÀM NGƯỢC CỦA MỘT HÀM (H)
 
 Nếu $f$ là một hàm (H), thì $f$ là đơn điệu và liên tục trên một khoảng $[x_0, +\infty[$, do đó hàm ngược $\varphi$ của hạn chế của $f$ trên khoảng này là đơn điệu và liên tục trên một lân cận của điểm $a = \lim_{x \to +\infty} f(x)$; nhưng, nếu $a$ bằng $+\infty$ (resp. $-\infty$, hữu hạn), ta có thể chỉ ra rằng $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$ hoặc $\varphi \left( a - \frac{1}{y} \right)$) nói chung không bằng một hàm (H) trên một lân cận của $+\infty$. Tuy nhiên ta sẽ thấy rằng trong một số trường hợp quan trọng có thể thu được một hàm (H) tương đương với $\varphi(y)$ (resp. $\varphi(-y)$, $\varphi \left( a + \frac{1}{y} \right)$, $\varphi \left( a - \frac{1}{y} \right)$) và đôi khi thậm chí một khai triển tiệm cận của hàm này đối với thang $\mathcal{E}$ được định nghĩa trong V, p. 254.
 

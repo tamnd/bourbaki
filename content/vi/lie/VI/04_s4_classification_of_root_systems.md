@@ -68,7 +68,7 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: 2d2856bd173e1a3df0620c31b86687b96342d4bef8aa8911e76b93d85129e3e0
+content_sha256: bdc8fed3213ab3fd019c65a67d192da4679d94c9f8afbc50def989256d5022a5
 translated_from: content/en/lie/VI/04_s4_classification_of_root_systems.md
 source_content_sha256: 0c153ae39564b4d702d2c032dca1d31b01e6780eaeb4dcb9c8642c3524393f7c
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini, gpt-5-6
@@ -1150,6 +1150,8 @@ $$
 &= \frac{1}{2}(2\alpha\_1 + 3\alpha\_2 + 4\alpha\_3 + 6\alpha\_4 + 5\alpha\_5 + 4\alpha\_6 + 3\alpha\_7).
 \end{align\*}
 $$
+
+### 12. HỆ KIỂU E_6
 
 (I) và (II) Cho $E = \mathbf{R}^8$, và cho $R_8$ là hệ nghiệm trong $E$ được xây dựng ở no. 10. Cho $V$ là không gian con vectơ của $E$ sinh bởi các nghiệm $\alpha_1, \ldots, \alpha_6$ của $R_8$; đây là phần bù trực giao của mặt phẳng sinh bởi hai trọng số cơ bản cuối cùng $\omega = \varepsilon_7 + \varepsilon_8$ và $\pi = \varepsilon_6 + \varepsilon_7 + 2\varepsilon_8$ của $R_8$.
 

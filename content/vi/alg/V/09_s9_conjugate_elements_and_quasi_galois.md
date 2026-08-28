@@ -30,7 +30,7 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 7af7583b97126535ccf75c270699be5819d53207d17c034bf3c23606fc333878
+content_sha256: acfb467ac25bc53d26efc77efdfb21d76a813ae827ab80a73689fca61d776531
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
 source_content_sha256: c71157cd922d476b1b228708495f9f9f1ee9a9b4740af6b3058e100e9e1d1ca3
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -151,7 +151,7 @@ Cho $w$ là một K-tự đẳng cấu của $\Omega$ mở rộng $u$ (V, p. 52,
 
 Cho $(f_i)_{i \in I}$ là một họ các đa thức không hằng trong $K[X]$ mà trường phân rã trên $K$ của chúng là $E$. Khi đó hiển nhiên $E'$ là trường phân rã của họ $(f_i)_{i \in I}$ trên $K'$, nên nó là quasi-Galois trên $K'$.
 
-#### Nhận xét 1 {#alg-v-s9-prop-3-cor-1 .statement}
+#### Nhận xét 1 {#alg-v-s9-n3-rem-1 .statement}
 
 Cho $F$ là một mở rộng của $K$ và $E$ là một mở rộng trung gian của $F$, và giả sử rằng $E$ là quasi-Galois trên $K$. Ta hãy chứng minh rằng mọi $K$-tự đẳng cấu $u$ của $F$ đều để $E$ bất biến. Thật vậy, lấy $x \in E$ và $f$ là đa thức tối tiểu của $x$ trên $K$. Vì $E$ là quasi-Galois trên $K$, tồn tại $a_1, \ldots, a_n \in E$ sao cho $f(X) = \Pi(X - a_i)$; ta có $f(u(x)) = u(f(x)) = 0$, do đó $u(x)$ là một trong các $a_i$ và vì thế thuộc $E$. Ta đã chứng minh $u(E) \subset E$, và giờ $u(E) = E$ suy ra theo V, p. 52, Mệnh đề 1.
 
