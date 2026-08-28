@@ -773,7 +773,7 @@ M'(M'' + M''_1) = M'M'' + M'M''_1,
 \end{array}
 \right.
 $$
-where $M', M'_1$ are matrices on $\mathbf{H}'$, $M'', M''_1$ matrices on $\mathbf{H}'', and where the sums and products written are supposed to be defined. Let $M', M''$ be matrices on the sets $\mathbf{H}', \mathbf{H}''$, and $f^0$ the mapping from $\mathbf{H}'' \times \mathbf{H}'$ into $\mathbf{H}$ defined by $(h'', h') \to h'h''$; then one has
+where $M', M'_1$ are matrices on $\mathbf{H}'$, $M'', M''_1$ matrices on $\mathbf{H}''$, and where the sums and products written are supposed to be defined. Let $M', M''$ be matrices on the sets $\mathbf{H}', \mathbf{H}''$, and $f^0$ the mapping from $\mathbf{H}'' \times \mathbf{H}'$ into $\mathbf{H}$ defined by $(h'', h') \to h'h''$; then one has
 $$
 t(M'M'') = tM'' . tM'
 $$

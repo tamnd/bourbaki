@@ -429,7 +429,7 @@ Suppose that the conditions of No. 3 are satisfied. Let $M$ be a square matrix o
 
 #### Remark 20 {#alg-ix-s7-n3-rem-20 .statement}
 
-Suppose that the conditions of No. 3 are satisfied and in addition that $A$ is equal to $K$ or to $K(i)$. Apply the results of Exercises 17 to 19 to the extension of $\Phi$ to the $p$-th exterior powers (\$ 1, No. 9) and to the $p$-th exterior powers of the endomorphisms or matrices considered. In particular, now prove that, if $\prod_{i=1}^n (X - \lambda_i)$ and $\prod_{i=1}^n (X - \rho_i^2)$ are the decompositions into linear factors of the characteristic polynomials of an endomorphism $u$ of $E$ and of the endomorphism $u^*u$, and if one supposes $|\lambda_i| \geqslant |\lambda_{i+1}|$ and $\rho_i \geqslant \rho_{i+1} \geqslant 0$ for $1 \leqslant i \leqslant n-1$, one has
+Suppose that the conditions of No. 3 are satisfied and in addition that $A$ is equal to $K$ or to $K(i)$. Apply the results of Exercises 17 to 19 to the extension of $\Phi$ to the $p$-th exterior powers (§ 1, No. 9) and to the $p$-th exterior powers of the endomorphisms or matrices considered. In particular, now prove that, if $\prod_{i=1}^n (X - \lambda_i)$ and $\prod_{i=1}^n (X - \rho_i^2)$ are the decompositions into linear factors of the characteristic polynomials of an endomorphism $u$ of $E$ and of the endomorphism $u^*u$, and if one supposes $|\lambda_i| \geqslant |\lambda_{i+1}|$ and $\rho_i \geqslant \rho_{i+1} \geqslant 0$ for $1 \leqslant i \leqslant n-1$, one has
 $$
 |\lambda_1 \lambda_2 \ldots \lambda_h| \leqslant \rho_1 \rho_2 \ldots \rho_h
 $$
@@ -458,7 +458,7 @@ $$
 \Phi(u(x), u(x)) = \Phi(u^*(x), u^*(x)).
 $$)
 
-Reduce to the case where A is equal to K(i) or to the quaternion field over K; F then admits a basis formed by eigenvectors for u (and u*); remark that for such a vector z, one has $\Phi(u^*u v(z), v(z)) = \beta \Phi(v(z), v(z))$. Deduce that νu is normal (reason by induction on the number of distinct eigenvalues of $u^*u$). If h (resp. $h'$) is the positive hermitian endomorphism such that $h^2 = uu^*$ (resp. $h'^2 = \nu \nu^*$) and if one sets $u = hu_1, \nu = h'\nu_1$, where $u_1$ and $\nu_1$ are unitary, h permutable with $u_1$ and $h'$ with $\nu_1$ (exerc. 14 a)), prove that the pairs $(h, h'), (h, \nu_1)$ and $(h', u_1)$ are permutable; converse. Deduce that $u^m \nu^n, \nu^n u^m, u \nu^*$ and \nu^* u$ are then normal ($m$ and $n$ arbitrary integers $> 0$).
+Reduce to the case where A is equal to K(i) or to the quaternion field over K; F then admits a basis formed by eigenvectors for u (and u*); remark that for such a vector z, one has $\Phi(u^*u v(z), v(z)) = \beta \Phi(v(z), v(z))$. Deduce that νu is normal (reason by induction on the number of distinct eigenvalues of $u^*u$). If h (resp. $h'$) is the positive hermitian endomorphism such that $h^2 = uu^*$ (resp. $h'^2 = \nu \nu^*$) and if one sets $u = hu_1, \nu = h'\nu_1$, where $u_1$ and $\nu_1$ are unitary, h permutable with $u_1$ and $h'$ with $\nu_1$ (exerc. 14 a)), prove that the pairs $(h, h'), (h, \nu_1)$ and $(h', u_1)$ are permutable; converse. Deduce that $u^m \nu^n, \nu^n u^m, u \nu^*$ and $\nu^* u$ are then normal ($m$ and $n$ arbitrary integers $> 0$).
 
 #### Remark 24 {#alg-ix-s7-n3-rem-24 .statement}
 
