@@ -25,9 +25,9 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: 3fe04d6a558db7d99263bf2025ccc0a84556eb5ce2d728b81393bf15310b175d
+content_sha256: 9fa38064e7213ea2b4792ce8b1515e24bce9af4814b7e73c2158406e240a9cda
 translated_from: content/en/alg/II/06_s6_inverse_and_direct_limits_of_modules.md
-source_content_sha256: a1515ab6768817cbe115497d6702cf82a7485fb8884978d8ac4f8bcce1a61027
+source_content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-44386587
 glossary_version: 34
@@ -41,11 +41,11 @@ Trong suốt đoạn này, ta ký hiệu một tập tiền thứ tự khác r�
 
 ### 1. GIỚI HẠN NGƯỢC CỦA CÁC MÔĐUN
 
-Cho $(A_\alpha, \phi_{\alpha \beta})$ là một hệ ngược các vành (I, \S 10, no. 1), $(E_\alpha, f_{\alpha \beta})$ là một hệ ngược các nhóm giao hoán (viết theo phép cộng) (I, \S 10, no. 1) và giả sử mỗi $E_\alpha$ có một cấu trúc môđun trái trên $A_\alpha$; hơn nữa, giả sử rằng với $\alpha \leq \beta$ $(f_{\alpha \beta}, \phi_{\alpha \beta})$ là một dimorphism của $E_\beta$ vào $E_\alpha$ (\S 1, no. 13), nói cách khác,
+Cho $(A_\alpha, \phi_{\alpha \beta})$ là một hệ ngược các vành (I, § 10, no. 1), $(E_\alpha, f_{\alpha \beta})$ là một hệ ngược các nhóm giao hoán (viết theo phép cộng) (I, § 10, no. 1) và giả sử mỗi $E_\alpha$ có một cấu trúc môđun trái trên $A_\alpha$; hơn nữa, giả sử rằng với $\alpha \leq \beta$ $(f_{\alpha \beta}, \phi_{\alpha \beta})$ là một dimorphism của $E_\beta$ vào $E_\alpha$ (§ 1, no. 13), nói cách khác,
 $$
 f_{\alpha \beta}(\lambda_\beta x_\beta) = \phi_{\alpha \beta}(\lambda_\beta) f_{\alpha \beta}(x_\beta),
 $$
-với $x_\beta \in E_\beta$, $\lambda_\beta \in A_\beta$; khi đó từ I, \S 10, no. 2 suy ra rằng $E = \lim \leftarrow E_\alpha$ có một cấu trúc môđun trái trên $A = \lim \leftarrow A_\alpha$. Với mọi $\alpha \in I$, gọi $f : E \to E_\alpha$, $\phi_\alpha : A \to A_\alpha$ là các ánh xạ chính tắc; khi đó $(f_\alpha, \phi_\alpha)$ là một dimorphism của E vào $E_\alpha$. Ta sẽ nói rằng $(E_\alpha, f_{\alpha\beta})$ là một *hệ ngược các môđun trái $A_\alpha$* và môđun $A$ $E$ là *giới hạn ngược* của nó.
+với $x_\beta \in E_\beta$, $\lambda_\beta \in A_\beta$; khi đó từ I, § 10, no. 2 suy ra rằng $E = \lim \leftarrow E_\alpha$ có một cấu trúc môđun trái trên $A = \lim \leftarrow A_\alpha$. Với mọi $\alpha \in I$, gọi $f : E \to E_\alpha$, $\phi_\alpha : A \to A_\alpha$ là các ánh xạ chính tắc; khi đó $(f_\alpha, \phi_\alpha)$ là một dimorphism của E vào $E_\alpha$. Ta sẽ nói rằng $(E_\alpha, f_{\alpha\beta})$ là một *hệ ngược các môđun trái $A_\alpha$* và môđun $A$ $E$ là *giới hạn ngược* của nó.
 
 Cho $(E'_\alpha, f'_{\alpha\beta})$ là một hệ ngược khác của các môđun trái $A_\alpha$ và, với mọi $\alpha$, gọi $u_\alpha : E'_\alpha \to E_\alpha$ là một *ánh xạ tuyến tính $A_\alpha$*, các ánh xạ này lập thành một *hệ ngược*; khi đó $u = \lim u_\alpha$ là một *ánh xạ tuyến tính $A$* của $\lim E'_\alpha$ vào $\lim E_\alpha$.
 
@@ -245,7 +245,7 @@ $$
 (E_\beta)_{[A_\alpha]} \otimes_{A_\alpha} (F_\beta)_{[A_\alpha]} \to E_\beta \otimes_{A_\beta} F_\beta
 $$
 
-tương ứng với đồng cấu vành $\rho_{\beta \alpha}$ ($\S 3$, no. 3, Mệnh đề 2); do đó bằng hợp thành ta thu được một đồng cấu môđun $\mathbf{Z}$*-*
+tương ứng với đồng cấu vành $\rho_{\beta \alpha}$ ($§ 3$, no. 3, Mệnh đề 2); do đó bằng hợp thành ta thu được một đồng cấu môđun $\mathbf{Z}$*-*
 
 $$
 h_{\beta \alpha}: E_\alpha \otimes_{A_\alpha} F_\alpha \to E_\beta \otimes_{A_\beta} F_\beta

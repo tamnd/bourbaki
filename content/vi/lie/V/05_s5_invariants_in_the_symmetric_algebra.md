@@ -32,9 +32,9 @@ subsections:
       pdf_page: 132
 statements: 24
 exercises: 9
-content_sha256: 36cf77e0c90e4a43738fa27cb972aa2a6e61f4026d6b85f3c5ed1b7549301287
+content_sha256: 3653266c38b87cf8a7383229c3e79b7e48d5b301b5f287df511daf1d06b92051
 translated_from: content/en/lie/V/05_s5_invariants_in_the_symmetric_algebra.md
-source_content_sha256: 2fd7ad6448226ec77b1d466d61669c079266a3c329efb5508fc26f516b7bfed7
+source_content_sha256: f50c33a45eeffcb4b8b0020b5a8192ce8b9794c14827e47163a2aaaa08bb950f
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-2e73f674
 glossary_version: 34
@@ -147,7 +147,7 @@ Với mọi đại số phân bậc $A = A_0 \oplus A_1 \oplus \cdots \oplus A_n
 
 #### Định lý 1 {#lie-v-s5-thm-1 .statement}
 
-*Cho K là một trường giao hoán, V là một không gian vectơ hữu hạn chiều trên K, S = S(V) là đại số đối xứng của V, G là một nhóm hữu hạn các tự đẳng cấu của V, và R là đại số con phân bậc của S gồm các phần tử bất biến dưới tác động của G. Giả sử rằng G được sinh bởi các phản xạ giả (\S 2, no. 1) và rằng $q = \mathrm{Card}(G)$ nguyên tố cùng nhau với đặc số của K. Khi đó R-môđun S có một cơ sở gồm q phần tử thuần nhất.*
+*Cho K là một trường giao hoán, V là một không gian vectơ hữu hạn chiều trên K, S = S(V) là đại số đối xứng của V, G là một nhóm hữu hạn các tự đẳng cấu của V, và R là đại số con phân bậc của S gồm các phần tử bất biến dưới tác động của G. Giả sử rằng G được sinh bởi các phản xạ giả (§ 2, no. 1) và rằng $q = \mathrm{Card}(G)$ nguyên tố cùng nhau với đặc số của K. Khi đó R-môđun S có một cơ sở gồm q phần tử thuần nhất.*
 
 a) Vì mọi môđun con của $S/(R_+S)$ đều tự do trên $R_0 = K$, nên chỉ cần chứng minh (theo Đại số, Chap. II, §11, no. 4, Mệnh đề 7) rằng đồng cấu chính tắc từ $R_+ \otimes_R S$ vào S là đơn ánh. Với mọi R-môđun E, ký hiệu T(E) là R-môđun $\mathrm{Ker}(R_+ \otimes_R E \to E)$ (*nói cách khác, $T(E) = \mathrm{Tor}_1^R(R/R_+, E)_*$). Nếu E, $E'$ là hai R-môđun và $u$ là một đồng cấu từ E vào $E'$, đồng cấu $1 \otimes u$ từ $R_+ \otimes E$ vào $R_+ \otimes E'$ xác định bởi hạn chế lên T(E) một đồng cấu từ T(E) vào T($E'$) mà ta ký hiệu là $T(u)$. Nếu $u'$ là một đồng cấu từ $E'$ vào một R-môđun $E''$, ta có $T(u' \circ u) = T(u') \circ T(u)$. Do đó, nếu G tác động R-tuyến tính trên E, thì G tác động trên T(E).
 
@@ -480,7 +480,7 @@ Sự tương đương của (ii) và (iii) suy ra từ no. 2 và Bổ đề 5. H
 Ta chứng minh rằng (iii) $\Longrightarrow$ (i). Cho G' là nhóm con của G được sinh bởi các giả phản xạ thuộc G, và cho R' là đại số con của S gồm các phần tử bất biến dưới G'. Ta có R $\subset$ R' $\subset$ S. Theo Bổ đề 4, div(D_{S/R}) = div(D_{S/R'}), nên div(D_{R'/R}) = 0. Giả sử khi đó R là một đại số đa thức phân bậc. Vì điều này cũng đúng với R' (do G' được sinh bởi các giả phản xạ), Bổ đề 5 cho thấy môđun R' trên R có một cơ sở thuần nhất $(Q_1, ..., Q_m)$; đặt $q_i = \deg(Q_i)$. Đặt
 
 $$
-d = \det(\operatorname{Tr}_{R'/R}(Q_i Q_j)), \text{ xem Đại số, Chương IX, } \S 2.
+d = \det(\operatorname{Tr}_{R'/R}(Q_i Q_j)), \text{ xem Đại số, Chương IX, } § 2.
 $$
 
 Việc div(D_{R'/R}) bằng 0 cho thấy div(d) = 0 (Đại số giao hoán), nghĩa là d thuộc K*. Mặt khác $\operatorname{Tr}_{R'/R}(Q_i Q_j)$ là một phần tử thuần nhất bậc q_i + q_j, và d là thuần nhất bậc $2 \sum_i q_i$. Do đó, $\sum_i q_i = 0$, tức là $q_i = 0$ với mọi i, nghĩa là R' = R, và suy ra G' = G theo lý thuyết Galois. Điều này chứng minh rằng G được sinh bởi các giả phản xạ. Q.E.D.

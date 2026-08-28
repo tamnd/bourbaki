@@ -25,9 +25,9 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: 94a888bdc5712bc68bbe1226b048bcf0c6046114c395d4390799779c159b730e
+content_sha256: f48585208cb7e6d951f003312b91bff4d77e509f8f6ca5f5ece8489386b05c9d
 translated_from: content/en/int/IX/04_s4_inverse_limits_of_measures.md
-source_content_sha256: aa4d547d2b59667d4b6a9c6560eb3a9d0270aca967cd7924b7b700b6cb81c4e8
+source_content_sha256: b4e7cd1d1788dbad199a14046cb0e8a2678d3219bed052cfd2b9150b2bbab48e
 translation_model: gpt-5.4
 translation_run: translate-vi-145f2a6b
 glossary_version: 34
@@ -40,7 +40,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 *Trong suốt tiết này, I ký hiệu một tập hợp khác rỗng, được trang bị một quan hệ tiền thứ tự, ký hiệu là $i \leq j$, và có hướng đối với quan hệ này. Nhắc lại (GT, I, §4, No. 4) rằng một hệ ngược các không gian tôpô được đánh chỉ số bởi I là một họ $(T_i, p_{ij})$ trong đó $T_i$ là một không gian tôpô và $p_{ij}$ là một ánh xạ liên tục từ $T_j$ vào $T_i$ với $i \leq j$, trong đó $p_{ii}$ là ánh xạ đồng nhất của $T_i$, và trong đó $p_{ik} = p_{ij} \circ p_{jk}$ với $i \leq j \leq k$. Cho T là một không gian tôpô và $(p_i)_{i \in I}$ một họ các ánh xạ liên tục $p_i : T \to T_i$. Họ $(p_i)_{i \in I}$ được gọi là tương thích nếu $p_i = p_{ij} \circ p_j$ với $i \leq j$, và được gọi là phân ly nếu với mọi $x, y$ phân biệt trong T, tồn tại một $i \in I$ sao cho $p_i(x) \neq p_i(y)$. Khi $T = \varprojlim T_i$ và $p_i$ là ánh xạ chính tắc từ T vào $T_i$, thì họ $(p_i)_{i \in I}$ là tương thích và phân ly.*
 
 (3) Trong một không gian Souslin, mọi tập Borel đều là một tập Souslin (GT, IX, §6, No. 3, Mệnh đề 11).
-(4) Tổng quát hơn, nếu $f : X \to Y$ là một song ánh liên tục giữa các không gian Souslin, thì $\mu \mapsto f(\mu)$ là một ánh xạ song ánh từ tập hợp các độ đo bị chặn trên X lên tập hợp các độ đo bị chặn trên Y (\S2, No. 4, Mệnh đề 9).
+(4) Tổng quát hơn, nếu $f : X \to Y$ là một song ánh liên tục giữa các không gian Souslin, thì $\mu \mapsto f(\mu)$ là một ánh xạ song ánh từ tập hợp các độ đo bị chặn trên X lên tập hợp các độ đo bị chặn trên Y (§ 2, No. 4, Mệnh đề 9).
 
 ### 1. Bổ túc về các không gian compắc và các giới hạn ngược
 
@@ -106,14 +106,14 @@ $$
 $$
 
 do đó $J(K \cup L) = J(K) + J(L)$ khi chuyển qua giới hạn đối với bộ lọc $\mathfrak{F}$.
-4) Cho $(K_\alpha)_{\alpha \in A}$ là một họ có hướng giảm các tập compact của $T$, với giao là $K$. Theo Mệnh đề 1 của No. 1, $p_i(K) = \bigcap_{\alpha \in A} p_i(K_\alpha)$ và do đó $\mu_i^\bullet(p_i(K)) = \inf_{\alpha \in A} \mu_i^\bullet(p_i(K_\alpha))$ với mọi $i \in I$ (\S1, No. 6, Hệ quả của Mệnh đề 5). Từ đó, suy ra
+4) Cho $(K_\alpha)_{\alpha \in A}$ là một họ có hướng giảm các tập compact của $T$, với giao là $K$. Theo Mệnh đề 1 của No. 1, $p_i(K) = \bigcap_{\alpha \in A} p_i(K_\alpha)$ và do đó $\mu_i^\bullet(p_i(K)) = \inf_{\alpha \in A} \mu_i^\bullet(p_i(K_\alpha))$ với mọi $i \in I$ (§ 1, No. 6, Hệ quả của Mệnh đề 5). Từ đó, suy ra
 $$
 J(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)) = \inf_{i \in I} \inf_{\alpha \in A} \mu_i^\bullet(p_i(K_\alpha))
 = \inf_{\alpha \in A} \inf_{i \in I} \mu_i^\bullet(p_i(K_\alpha)) = \inf_{\alpha \in A} J(K_\alpha).
 $$
 5) Hãy chọn một $i \in I$ và đặt $c = \mu_i^\bullet(T_i)$. Khi đó $c$ là hữu hạn và $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(T_i)$, vậy $J(K) \leq c$ với mọi tập compact $K$ trong $T$.
 
-Các tính chất đi trước cho phép áp dụng Đl. 1 của \S3, No. 1; ta kết luận rằng tồn tại một và chỉ một độ đo bị chặn $\pi$ trên $T$ sao cho $\pi^\bullet(K) = J(K)$ với mọi tập con compắc $K$ của $T$. Với mỗi $i \in I$, ký hiệu bởi $\nu_i$ độ đo trên $T_i$ là ảnh của $\pi$ qua $p_i$. Cho $i \in I$, $A$ là một tập con compắc của $T_i$, và $\mathcal{L}$ là tập hợp các tập con compắc của $\overline{p_i^{-1}(A)}$. Theo Nhận xét 3 của \S1, No. 2, ta có $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathcal{L}} \pi^\bullet(K)$; hơn nữa, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ và $J(K) = \pi^\bullet(K)$ với $K \in \mathcal{L}$, do đó $\nu_i^\bullet(A) = \sup_{K \in \mathcal{L}} J(K)$.
+Các tính chất đi trước cho phép áp dụng Đl. 1 của § 3, No. 1; ta kết luận rằng tồn tại một và chỉ một độ đo bị chặn $\pi$ trên $T$ sao cho $\pi^\bullet(K) = J(K)$ với mọi tập con compắc $K$ của $T$. Với mỗi $i \in I$, ký hiệu bởi $\nu_i$ độ đo trên $T_i$ là ảnh của $\pi$ qua $p_i$. Cho $i \in I$, $A$ là một tập con compắc của $T_i$, và $\mathcal{L}$ là tập hợp các tập con compắc của $\overline{p_i^{-1}(A)}$. Theo Nhận xét 3 của § 1, No. 2, ta có $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathcal{L}} \pi^\bullet(K)$; hơn nữa, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ và $J(K) = \pi^\bullet(K)$ với $K \in \mathcal{L}$, do đó $\nu_i^\bullet(A) = \sup_{K \in \mathcal{L}} J(K)$.
 
 Với $K \in \mathcal{L}$, ta có $p_i(K) \subset A$, do đó $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(A)$ và cuối cùng $\nu_i^\bullet(A) \leq \mu_i^\bullet(A)$. Vì $A$ là một tập compact tùy ý trong $T_i$, ta kết luận rằng $\nu_i \leq \mu_i$. Khẳng định cuối cùng của mệnh đề là hiển nhiên.
 
@@ -133,18 +133,18 @@ $$
 $$
 *đối với mọi tập compact $K$ trong $T$*.
 
-Trước hết ta hãy chứng minh tính duy nhất của $\mu$. Cho $\mu$ là một độ đo bị chặn trên $T$ sao cho $p_i(\mu) = \mu_i$ với mọi $i \in I$. Gọi $K$ là một tập con compact của $T$; theo Mệnh đề 2 của No. 1, tập hợp $K$ là giao của họ có hướng giảm $(\overline{p_i^{-1}(p_i(K))})_{i \in I}$ các tập con *đóng* của $T$. Bởi Hệ quả của Mệnh đề 5 của \S1, No. 6, do đó ta có
+Trước hết ta hãy chứng minh tính duy nhất của $\mu$. Cho $\mu$ là một độ đo bị chặn trên $T$ sao cho $p_i(\mu) = \mu_i$ với mọi $i \in I$. Gọi $K$ là một tập con compact của $T$; theo Mệnh đề 2 của No. 1, tập hợp $K$ là giao của họ có hướng giảm $(\overline{p_i^{-1}(p_i(K))})_{i \in I}$ các tập con *đóng* của $T$. Bởi Hệ quả của Mệnh đề 5 của § 1, No. 6, do đó ta có
 $$
 \mu^\bullet(K) = \inf_{i \in I} \mu^\bullet(\overline{p_i^{-1}(p_i(K))}) = \inf_{i \in I} \mu_i^\bullet(p_i(K)),
 $$
 
-điều này thiết lập công thức (2). Vì hai độ đo trùng nhau trên tập hợp các tập compact thì bằng nhau (\S 1, No. 2, Hệ quả của Mệnh đề 2), suy ra $\mu$ là duy nhất.
+điều này thiết lập công thức (2). Vì hai độ đo trùng nhau trên tập hợp các tập compact thì bằng nhau (§ 1, No. 2, Hệ quả của Mệnh đề 2), suy ra $\mu$ là duy nhất.
 
 Theo Mệnh đề 3, tồn tại một độ đo bị chặn $\pi$ trên $T$ sao cho $\pi^\bullet(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K))$ với mọi tập con compắc $K$ của $T$. Theo công thức (2), vì thế sự tồn tại của một độ đo bị chặn $\mu$ trên $T$ sao cho $p_i(\mu) = \mu_i$ với mọi $i \in I$ là tương đương với quan hệ:
 
 (P') $p_i(\pi) = \mu_i$ với mọi $i \in I$.
 
-Với $i \leq j$, ta có $\mu_i = p_{ij}(\mu_j)$, do đó $\mu_i^\bullet(T_i) = \mu_j^\bullet(T_j)$; vì $I$ có hướng, tồn tại một số hữu hạn $c \geq 0$ sao cho $\mu_i^\bullet(T_i) = c$ với mọi $i \in I$. Theo Mệnh đề 3, độ đo $\mu_i - p_i(\pi)$ là dương, do đó nó bằng không khi và chỉ khi khối lượng toàn phần của nó bằng không, nghĩa là khi $\mu_i(T_i) = p_i(\pi)^\bullet(T_i)$. Vì $p_i(\pi)^\bullet(T_i) = \pi^\bullet(T)$, nên điều kiện (P') do đó tương đương với $\pi^\bullet(T) = c$, tức là (\S 1, No. 2, Nhận xét 3) với tính chất:
+Với $i \leq j$, ta có $\mu_i = p_{ij}(\mu_j)$, do đó $\mu_i^\bullet(T_i) = \mu_j^\bullet(T_j)$; vì $I$ có hướng, tồn tại một số hữu hạn $c \geq 0$ sao cho $\mu_i^\bullet(T_i) = c$ với mọi $i \in I$. Theo Mệnh đề 3, độ đo $\mu_i - p_i(\pi)$ là dương, do đó nó bằng không khi và chỉ khi khối lượng toàn phần của nó bằng không, nghĩa là khi $\mu_i(T_i) = p_i(\pi)^\bullet(T_i)$. Vì $p_i(\pi)^\bullet(T_i) = \pi^\bullet(T)$, nên điều kiện (P') do đó tương đương với $\pi^\bullet(T) = c$, tức là (§ 1, No. 2, Nhận xét 3) với tính chất:
 
 (P'') $\sup_{K \in \mathcal{K}} \pi^\bullet(K) = c$, trong đó $\mathcal{K}$ là tập hợp các tập con compact của $T$.
 
@@ -158,7 +158,7 @@ và công thức này ngay lập tức suy ra tính tương đương của (P) v
 
 Q.E.D.
 
-Cho $(T_i, p_{ij})$ là một hệ ngược các không gian tôpô. Đặt $T = \lim_{\leftarrow} T_i$ và ký hiệu bởi $p_i$ ánh xạ chính tắc từ $T$ vào $T_i$. Tổng quát hóa Định nghĩa 2 của Ch. III, \S 4, No. 5, ta sẽ nói rằng một độ đo bị chặn $\mu$ trên $T$ là *giới hạn ngược của một hệ ngược* $(\mu_i)_{i \in I}$ *các độ đo* nếu $\mu_i = p_i(\mu)$ với mọi $i \in I$. Định lý 1 cho một tiêu chuẩn về sự tồn tại của các giới hạn ngược của độ đo. Khi các không gian $T_i$ là *compact*, và các ánh xạ $p_{ij}$ toàn ánh, thì $T$ là compact và $p_i(T) = T_i$ với mọi $i \in I$; do đó điều kiện (P) được thỏa mãn, và trong trường hợp này ta thu lại Mệnh đề 8, (iv) của Ch. III, \S 4, No. 5.
+Cho $(T_i, p_{ij})$ là một hệ ngược các không gian tôpô. Đặt $T = \lim_{\leftarrow} T_i$ và ký hiệu bởi $p_i$ ánh xạ chính tắc từ $T$ vào $T_i$. Tổng quát hóa Định nghĩa 2 của Ch. III, § 4, No. 5, ta sẽ nói rằng một độ đo bị chặn $\mu$ trên $T$ là *giới hạn ngược của một hệ ngược* $(\mu_i)_{i \in I}$ *các độ đo* nếu $\mu_i = p_i(\mu)$ với mọi $i \in I$. Định lý 1 cho một tiêu chuẩn về sự tồn tại của các giới hạn ngược của độ đo. Khi các không gian $T_i$ là *compact*, và các ánh xạ $p_{ij}$ toàn ánh, thì $T$ là compact và $p_i(T) = T_i$ với mọi $i \in I$; do đó điều kiện (P) được thỏa mãn, và trong trường hợp này ta thu lại Mệnh đề 8, (iv) của Ch. III, § 4, No. 5.
 
 #### Nhận xét {#int-ix-s4-n2-rem-1 .statement}
 

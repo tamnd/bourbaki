@@ -36,7 +36,7 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 0a51b2a1c75cc3eaf5249167c29ed52ef77294649dfee5b5f823950865264f4b
+content_sha256: 1325ad90b6f64f40c918361f53780fe37c172750b745daa70223fd8d6caff02f
 ---
 
 ## § 4. CENTRAL FILTRATIONS
@@ -315,7 +315,7 @@ $$
 \mathrm{gr}_n(G) = [\mathrm{gr}_1(G), \mathrm{gr}_{n-1}(G)] \subset L.
 $$
 
-The above proof shows that the lower central series of the Lie algebra gr(G) (\S 2, no. 7) is given by
+The above proof shows that the lower central series of the Lie algebra gr(G) (§ 2, no. 7) is given by
 
 $$
 \mathcal{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
@@ -323,7 +323,7 @@ $$
 
 #### Remark {#lie-ii-s4-n6-rem-1 .statement}
 
-Let k be a ring, n an integer $> 0$ and A the set of lower triangular matrices with n rows and n columns and elements in k. For $p \geq 0$, let $A_p$ be the set of $(x_{ij}) \in A$ such that $x_{ij} = 0$ for $i - j < p$. Then $A_0 = A$ and $A_pA_q \subset A_{p+q}$. Let $\Gamma_p = 1 + A_p$. Then $\Gamma_1$ is a subgroup of $\mathbf{GL}(n, k)$ called the strict lower triangular group of order n over k. By Proposition 2 of no. 5, $(\Gamma_p)$ is an integral filtration on $\Gamma_1$. As $\Gamma_n = \{1\}$, we see that the group $\Gamma_1$ is nilpotent (Algebra, Chapter I, \S 6, no. 3, Definition 6).
+Let k be a ring, n an integer $> 0$ and A the set of lower triangular matrices with n rows and n columns and elements in k. For $p \geq 0$, let $A_p$ be the set of $(x_{ij}) \in A$ such that $x_{ij} = 0$ for $i - j < p$. Then $A_0 = A$ and $A_pA_q \subset A_{p+q}$. Let $\Gamma_p = 1 + A_p$. Then $\Gamma_1$ is a subgroup of $\mathbf{GL}(n, k)$ called the strict lower triangular group of order n over k. By Proposition 2 of no. 5, $(\Gamma_p)$ is an integral filtration on $\Gamma_1$. As $\Gamma_n = \{1\}$, we see that the group $\Gamma_1$ is nilpotent (Algebra, Chapter I, § 6, no. 3, Definition 6).
 
 ### Exercises {#lie-ii-s4-exercises}
 

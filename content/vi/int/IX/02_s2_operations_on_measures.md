@@ -41,9 +41,9 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: 687e96f5b863b064d76854d9bc864cc04dcd9f96a8e211ee00155239db36666a
+content_sha256: f5201c6760988d888d46af4fc5ef7a13540966321f09ac382ac07d73867e9d56
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
-source_content_sha256: 9bdd3f2d607abf6ea4e4531c024551071a2ecbc35d9074925a7e09d1be80e3b4
+source_content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-59d57011
 glossary_version: 34
@@ -200,7 +200,7 @@ $$
 
 *Cho $\pi$ là một ánh xạ $\mu$-thực sự của T vào một không gian tôpô X, và cho f là một ánh xạ của X vào một không gian tôpô F (Hausdorff hoặc không). Để f là $\pi(\mu)$-đo được, điều kiện cần và đủ là $f \circ \pi$ là $\mu$-đo được.*
 
-Ta xét lại chứng minh của Mệnh đề 4, và bắt đầu với trường hợp đặc biệt được xét ở đầu, với cùng các ký hiệu; g là đo được đối với độ đo $\pi(\mu) = \nu$ khi và chỉ khi $g_L$ là $\nu'$-đo được (§1, No. 5, *Ví dụ*); khi đó, điều này tương đương với việc nói rằng $g_L \circ \pi' = (g \circ \pi)_K$ là $\mu_K$-đo được (Ch. V, §6, No. 2, Mệnh đề 3), và cuối cùng là $g \circ \pi$ là $\mu$-đo được (§1, No. 5, *Ví dụ*). Bây giờ ta chuyển sang trường hợp tổng quát, với cùng các ký hiệu như trong chứng minh của Mệnh đề 4; f là $\nu$-đo được khi và chỉ khi f là $\nu_\alpha$-đo được với mọi $\alpha \in A$ (§1, No. 7, Mệnh đề 8), do đó khi và chỉ khi $f \circ \pi$ là $\mu_\alpha$-đo được với mọi $\alpha \in A$ (trường hợp đặc biệt vừa xét) và cuối cùng khi và chỉ khi $f \circ \pi$ là $\mu$-đo được ($\S 1$, No. 7, Mệnh đề 8).
+Ta xét lại chứng minh của Mệnh đề 4, và bắt đầu với trường hợp đặc biệt được xét ở đầu, với cùng các ký hiệu; g là đo được đối với độ đo $\pi(\mu) = \nu$ khi và chỉ khi $g_L$ là $\nu'$-đo được (§1, No. 5, *Ví dụ*); khi đó, điều này tương đương với việc nói rằng $g_L \circ \pi' = (g \circ \pi)_K$ là $\mu_K$-đo được (Ch. V, §6, No. 2, Mệnh đề 3), và cuối cùng là $g \circ \pi$ là $\mu$-đo được (§1, No. 5, *Ví dụ*). Bây giờ ta chuyển sang trường hợp tổng quát, với cùng các ký hiệu như trong chứng minh của Mệnh đề 4; f là $\nu$-đo được khi và chỉ khi f là $\nu_\alpha$-đo được với mọi $\alpha \in A$ (§1, No. 7, Mệnh đề 8), do đó khi và chỉ khi $f \circ \pi$ là $\mu_\alpha$-đo được với mọi $\alpha \in A$ (trường hợp đặc biệt vừa xét) và cuối cùng khi và chỉ khi $f \circ \pi$ là $\mu$-đo được ($§ 1$, No. 7, Mệnh đề 8).
 
 #### Hệ quả {#int-ix-s2-n3-cor-1 .statement}
 
@@ -281,7 +281,7 @@ $$
 \mu^\bullet(f) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g) = {\mu'}^\bullet(g \circ \pi) = {\mu'}^\bullet(f).
 $$
 
-Hai độ đo $\mu$ và $\mu'$ do đó có cùng tích phân trên cốt yếu, điều này kéo theo chúng bằng nhau (\$1, No. 2, Hệ quả của Mệnh đề 2).
+Hai độ đo $\mu$ và $\mu'$ do đó có cùng tích phân trên cốt yếu, điều này kéo theo chúng bằng nhau (§ 1, No. 2, Hệ quả của Mệnh đề 2).
 
 #### Nhận xét {#int-ix-s2-n4-rem-1 .statement}
 
@@ -295,7 +295,7 @@ Sau đây là một trường hợp quan trọng trong đó điều kiện a) c�
 
 Các giả thiết hiển nhiên kéo theo rằng X là một không gian Souslin.
 
-Ta xét hàm tập hợp $c : A \mapsto \nu^\bullet(\pi(A))$ trên $\mathfrak{P}(T)$. Quan hệ $A \subset B$ kéo theo $c(A) \leq c(B)$; nếu $(A_n)$ là một dãy tăng các tập con của T, và nếu $A = \bigcup_{n \in \mathbf{N}} A_n$, thì $c(A) = \sup_n c(A_n)$ do tính chất $\nu^\bullet$ là một độ cản. Cuối cùng, cho $A \subset T$ và cho $\varepsilon$ là một số $> 0$; chọn một tập con mở G của X chứa $\pi(A)$, sao cho $\nu^\bullet(G) \leq \nu^\bullet(\pi(A)) + \varepsilon$ (\$1, No. 9, Mệnh đề 13); tập con mở $H = \overline{\pi^{-1}(G)}$ của T chứa A, và $c(H) \leq c(A) + \varepsilon$. Do đó hàm c là một dung lượng liên tục phải trên T (TG, IX, §6, No. 10, Định nghĩa 9)(1) và định lý về khả năng dung lượng (*loc. cit.*, Th. 6) suy ra đẳng thức $c(T) = \sup_K c(K)$, trong đó K chạy trên tập hợp các tập con compact của T. Mệnh đề 8 sau đó suy ra sự tồn tại của độ đo cần tìm $\mu$.
+Ta xét hàm tập hợp $c : A \mapsto \nu^\bullet(\pi(A))$ trên $\mathfrak{P}(T)$. Quan hệ $A \subset B$ kéo theo $c(A) \leq c(B)$; nếu $(A_n)$ là một dãy tăng các tập con của T, và nếu $A = \bigcup_{n \in \mathbf{N}} A_n$, thì $c(A) = \sup_n c(A_n)$ do tính chất $\nu^\bullet$ là một độ cản. Cuối cùng, cho $A \subset T$ và cho $\varepsilon$ là một số $> 0$; chọn một tập con mở G của X chứa $\pi(A)$, sao cho $\nu^\bullet(G) \leq \nu^\bullet(\pi(A)) + \varepsilon$ (§ 1, No. 9, Mệnh đề 13); tập con mở $H = \overline{\pi^{-1}(G)}$ của T chứa A, và $c(H) \leq c(A) + \varepsilon$. Do đó hàm c là một dung lượng liên tục phải trên T (TG, IX, §6, No. 10, Định nghĩa 9)(1) và định lý về khả năng dung lượng (*loc. cit.*, Th. 6) suy ra đẳng thức $c(T) = \sup_K c(K)$, trong đó K chạy trên tập hợp các tập con compact của T. Mệnh đề 8 sau đó suy ra sự tồn tại của độ đo cần tìm $\mu$.
 
 ### 5. Tích của hai độ đo
 
@@ -371,7 +371,7 @@ Kết quả này mở rộng ngay lập tức đến các độ đo phức.
 
 — *Giả sử rằng $\lambda$ (tương ứng $\mu$) là tổng của một họ cộng được $(\lambda_\alpha)_{\alpha \in A}$ (tương ứng $(\mu_\beta)_{\beta \in B}$) các độ đo trên $S$ (tương ứng $T$). Khi đó họ $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ là cộng được, và tổng của nó là $\lambda \otimes \mu$.*
 
-Thật vậy, cho $p$ là bao hàm $\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^\bullet$; nếu $f \in \mathcal{F}_+(S)$ và $g \in \mathcal{F}_+(T)$, thì hiển nhiên $p(f \otimes g) = \lambda^\bullet(f)\mu^\bullet(g)$. Chứng minh của Hệ quả 1 khi đó chỉ ra rằng $p$ bị chặn địa phương, do đó họ $(\lambda_\alpha \otimes \mu_\beta)$ là cộng được (\S 1, No. 7, Prop. 7). Tổng của nó $\eta$ khi đó thỏa mãn $\eta^\bullet = p$ (\S 1, No. 7, Prop. 7), và Mệnh đề 10 suy ra $\eta = \nu$.
+Thật vậy, cho $p$ là bao hàm $\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^\bullet$; nếu $f \in \mathcal{F}_+(S)$ và $g \in \mathcal{F}_+(T)$, thì hiển nhiên $p(f \otimes g) = \lambda^\bullet(f)\mu^\bullet(g)$. Chứng minh của Hệ quả 1 khi đó chỉ ra rằng $p$ bị chặn địa phương, do đó họ $(\lambda_\alpha \otimes \mu_\beta)$ là cộng được (§ 1, No. 7, Prop. 7). Tổng của nó $\eta$ khi đó thỏa mãn $\eta^\bullet = p$ (§ 1, No. 7, Prop. 7), và Mệnh đề 10 suy ra $\eta = \nu$.
 
 ### 6. Tích phân đối với tích của hai độ đo
 
@@ -435,9 +435,9 @@ $$
 ta thấy ngay rằng dãy $(u_n(x))_{n \geqslant 1}$ là tăng và nhận x làm giới hạn. Dãy các hàm $f_n = u_n \circ f$ do đó là tăng và hội tụ về $f$, và ta có $f_n = 2^{-n} \sum_{k=1}^{n \cdot 2^n} \varphi_{U(k,n)}$,
 trong đó $U(k,n)$ là tập mở $f^{-1}([k/2^n, +\infty])$ của $X$.
 
-Ta chuyển qua chứng minh của b). Vì hàm $I_f$ là bao trên của họ có hướng tăng của các hàm $I_f^L$, trong đó $L$ chạy trên tập hợp các tập con compact của $T$ (Bổ đề 2), nên chỉ cần chứng minh rằng các hàm $I_f^L$ là nửa liên tục dưới; khi đó công thức (9) có thể được suy ra từ (6) bằng cách chuyển qua bao trên theo $L$ (\$1, No. 6, Mệnh đề 5).
+Ta chuyển qua chứng minh của b). Vì hàm $I_f$ là bao trên của họ có hướng tăng của các hàm $I_f^L$, trong đó $L$ chạy trên tập hợp các tập con compact của $T$ (Bổ đề 2), nên chỉ cần chứng minh rằng các hàm $I_f^L$ là nửa liên tục dưới; khi đó công thức (9) có thể được suy ra từ (6) bằng cách chuyển qua bao trên theo $L$ (§ 1, No. 6, Mệnh đề 5).
 
-Vậy cho $\mathcal{H}$ là tập hợp các hàm dương nửa liên tục dưới $f$ trên $S \times T$ sao cho $I_f^L$ là nửa liên tục dưới với mọi tập con compact $L$ của $T$. Theo Mệnh đề 5 của \$1, No. 6, bao trên của mọi tập có hướng tăng các phần tử của $\mathcal{H}$ thuộc về $\mathcal{H}$. Theo Bổ đề 3, do đó chỉ cần chứng minh rằng hàm đặc số của một tập mở $W$ của $S \times T$ thuộc về $\mathcal{H}$. Hơn nữa, theo định nghĩa của tôpô tích trên $S \times T$, tập mở $W$ là hợp của một họ có hướng tăng $(W_\alpha)_{\alpha \in A}$ các tập mở có dạng
+Vậy cho $\mathcal{H}$ là tập hợp các hàm dương nửa liên tục dưới $f$ trên $S \times T$ sao cho $I_f^L$ là nửa liên tục dưới với mọi tập con compact $L$ của $T$. Theo Mệnh đề 5 của § 1, No. 6, bao trên của mọi tập có hướng tăng các phần tử của $\mathcal{H}$ thuộc về $\mathcal{H}$. Theo Bổ đề 3, do đó chỉ cần chứng minh rằng hàm đặc số của một tập mở $W$ của $S \times T$ thuộc về $\mathcal{H}$. Hơn nữa, theo định nghĩa của tôpô tích trên $S \times T$, tập mở $W$ là hợp của một họ có hướng tăng $(W_\alpha)_{\alpha \in A}$ các tập mở có dạng
 $$
 W = \bigcup_{1 \leq i \leq n} (U_i \times V_i),
 $$
@@ -473,19 +473,19 @@ $$
 \iint_X^\bullet f(s, t) \, d\nu(s, t) = \int_S^\bullet d\lambda(s) \int_T^\bullet f(s, t) \, d\mu(t).
 $$
 
-Ta bắt đầu bằng cách thiết lập b) khi $f$ là $\nu$-điều độ. Theo Bổ đề 2, phần này của mệnh đề đúng khi tồn tại một tập con compact $L$ của $T$ sao cho $f$ bằng không ngoài $S \times L$; vì, trong trường hợp này $I_f = I_f^{L'}$ với mọi tập con compact $L'$ của $T$ chứa $L$, và công thức (11) rút về (6). Đặc biệt, b) được thiết lập cho một hàm $f$ bằng không ngoài một tập con compact của $S \times T$. Mặt khác, Hệ quả 1 của Mệnh đề 11 suy ra rằng b) đúng khi $f$ là $\nu$-không đáng kể. Vì mọi hàm $\nu$-điều độ đều là tổng của một hàm $\nu$-không đáng kể và một dãy các hàm có giá compact (\S 1, No. 9, Hệ quả 3 của Mệnh đề 14), nên mệnh đề b) đúng khi $f$ là $\nu$-điều độ.
+Ta bắt đầu bằng cách thiết lập b) khi $f$ là $\nu$-điều độ. Theo Bổ đề 2, phần này của mệnh đề đúng khi tồn tại một tập con compact $L$ của $T$ sao cho $f$ bằng không ngoài $S \times L$; vì, trong trường hợp này $I_f = I_f^{L'}$ với mọi tập con compact $L'$ của $T$ chứa $L$, và công thức (11) rút về (6). Đặc biệt, b) được thiết lập cho một hàm $f$ bằng không ngoài một tập con compact của $S \times T$. Mặt khác, Hệ quả 1 của Mệnh đề 11 suy ra rằng b) đúng khi $f$ là $\nu$-không đáng kể. Vì mọi hàm $\nu$-điều độ đều là tổng của một hàm $\nu$-không đáng kể và một dãy các hàm có giá compact (§ 1, No. 9, Hệ quả 3 của Mệnh đề 14), nên mệnh đề b) đúng khi $f$ là $\nu$-điều độ.
 
-Tương tự, mệnh đề b) là hiển nhiên khi $\mu$ được mang bởi một tập con compact $L$ của $T$ (Bổ đề 2). Giả sử rằng $\mu$ là điều độ; khi đó tồn tại một dãy $(\mu_n)_{n \in \mathbf{N}}$ các độ đo trên $T$ có giá compact, sao cho $\mu = \sum_n \mu_n$ (\S 1, No. 9, Hệ quả 5 của Mệnh đề 14), do đó $\nu = \sum_n \lambda \otimes \mu_n$ (No. 5, Hệ quả 3 của Mệnh đề 10). Mệnh đề b), vì đúng cho từng độ đo $\nu_n = \lambda \otimes \mu_n$, cũng đúng cho $\nu = \sum_n \nu_n$.
+Tương tự, mệnh đề b) là hiển nhiên khi $\mu$ được mang bởi một tập con compact $L$ của $T$ (Bổ đề 2). Giả sử rằng $\mu$ là điều độ; khi đó tồn tại một dãy $(\mu_n)_{n \in \mathbf{N}}$ các độ đo trên $T$ có giá compact, sao cho $\mu = \sum_n \mu_n$ (§ 1, No. 9, Hệ quả 5 của Mệnh đề 14), do đó $\nu = \sum_n \lambda \otimes \mu_n$ (No. 5, Hệ quả 3 của Mệnh đề 10). Mệnh đề b), vì đúng cho từng độ đo $\nu_n = \lambda \otimes \mu_n$, cũng đúng cho $\nu = \sum_n \nu_n$.
 
-Chúng ta chứng minh a); ký hiệu $N$ là tập hợp các $s \in S$ sao cho $f_s$ không phải là $\mu$-đo được; với mọi tập con compact $L$ của $T$, tương tự ký hiệu $N_L$ là tập hợp các $s \in S$ sao cho $f_s \varphi_L$ không phải là $\mu$-đo được. Nếu $K$ và $L$ là các tập compact trong $S$ và $T$ tương ứng, thì $f_{K \times L}$ đo được đối với độ đo $\nu_{K \times L} = \lambda_K \otimes \mu_L$, và Mệnh đề 2 của Ch. V, \S 8, No. 2 cho thấy rằng tập $N_L$ là không đáng kể địa phương đối với $\lambda_K$; vì $K$ tùy ý, nên $N_L$ là $\lambda$-không đáng kể địa phương.
+Chúng ta chứng minh a); ký hiệu $N$ là tập hợp các $s \in S$ sao cho $f_s$ không phải là $\mu$-đo được; với mọi tập con compact $L$ của $T$, tương tự ký hiệu $N_L$ là tập hợp các $s \in S$ sao cho $f_s \varphi_L$ không phải là $\mu$-đo được. Nếu $K$ và $L$ là các tập compact trong $S$ và $T$ tương ứng, thì $f_{K \times L}$ đo được đối với độ đo $\nu_{K \times L} = \lambda_K \otimes \mu_L$, và Mệnh đề 2 của Ch. V, § 8, No. 2 cho thấy rằng tập $N_L$ là không đáng kể địa phương đối với $\lambda_K$; vì $K$ tùy ý, nên $N_L$ là $\lambda$-không đáng kể địa phương.
 
 Giả sử rằng $f$ bằng không ở ngoài một tập compact dạng $K \times L$; khi đó $N = N_L$, và $N$ được chứa trong $K$; suy ra $N$ là $\lambda$-không đáng kể. Tương tự, nếu $f$ là $\nu$-không đáng kể, Hệ quả 2 của Mệnh đề 11 suy ra rằng $N$ là $\lambda$-không đáng kể. Trường hợp $f$ là $\nu$-điều hòa thì có thể xử lý như trên, bằng cách kết hợp hai trường hợp trước.
 
-Giả sử rằng $\mu$ được mang bởi một tập con compact $L$ của $T$; khi đó lại $N = N_L$, do đó $N$ là $\lambda$-không đáng kể địa phương. Vì mọi độ đo điều hòa đều là tổng của một dãy các độ đo có giá đỡ compact ($\S 1$, No. 9, Hệ quả 5 của Mệnh đề 14), kết quả này được suy rộng ngay sang trường hợp $\mu$ là điều hòa, bằng cách dùng Mệnh đề 8 của $\S 1$, No. 7.
+Giả sử rằng $\mu$ được mang bởi một tập con compact $L$ của $T$; khi đó lại $N = N_L$, do đó $N$ là $\lambda$-không đáng kể địa phương. Vì mọi độ đo điều hòa đều là tổng của một dãy các độ đo có giá đỡ compact ($§ 1$, No. 9, Hệ quả 5 của Mệnh đề 14), kết quả này được suy rộng ngay sang trường hợp $\mu$ là điều hòa, bằng cách dùng Mệnh đề 8 của $§ 1$, No. 7.
 
 #### Nhận xét {#int-ix-s2-n6-rem-1 .statement}
 
-— Cho $(K_\alpha)_{\alpha \in A}$ là một phép co của $S$ đối với $\lambda$ và đặt $M = S - \bigcup_{\alpha \in A} K_\alpha$; định nghĩa một cách tương tự $(L_\beta)_{\beta \in B}$ và $N$ đối với độ đo $\mu$ trên $T$. Ta ký hiệu bởi $S'$ không gian compact địa phương là tổng của các không gian con $K_\alpha$ của $S$ và không gian *rời rạc* $M$; không gian $T'$ được định nghĩa tương tự, và ta đặt $X' = S' \times T'$. Không gian compact địa phương $X'$ là tổng của họ $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ các không gian con compact của $X$ và không gian con $P = (M \times T) \cup (S \times N)$ là một tập con không đáng kể địa phương theo $\nu$ của $X$ (ta nhận thấy rằng nói chung $P$ không phải là một không gian rời rạc). Trong *Chú giải* của $\S 1$, No. 8 ta đã thấy rằng tồn tại một độ đo $\lambda'$ trên $S'$ sao cho các hàm đo được, tích phân trên cốt yếu của các hàm dương, các hàm khả tích cốt yếu và các tích phân của chúng, là như nhau đối với $\lambda$ và $\lambda'$. Ta liên kết độ đo $\mu'$ trên $T'$ với $\mu$, và độ đo $\nu'$ trên $X'$ với $\nu$, phù hợp với Chú giải đã dẫn; ta thấy ngay lập tức rằng ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ đối với $f \in \mathcal{F}_+(S)$ và $g \in \mathcal{F}_+(T)$; do đó $\nu' = \lambda' \otimes \mu'$ theo Mệnh đề 10 của No. 5. Vì tôpô của $X'$ mịn hơn tôpô của $X$, mọi hàm $\nu$-điều hòa đều là $\nu'$-điều hòa. Thủ tục này cho phép mở rộng không cần chứng minh mới định lý Lebesgue–Fubini (Ch. V, $\S 8$, No. 4, Th. 1) sang tình huống hiện tại.
+— Cho $(K_\alpha)_{\alpha \in A}$ là một phép co của $S$ đối với $\lambda$ và đặt $M = S - \bigcup_{\alpha \in A} K_\alpha$; định nghĩa một cách tương tự $(L_\beta)_{\beta \in B}$ và $N$ đối với độ đo $\mu$ trên $T$. Ta ký hiệu bởi $S'$ không gian compact địa phương là tổng của các không gian con $K_\alpha$ của $S$ và không gian *rời rạc* $M$; không gian $T'$ được định nghĩa tương tự, và ta đặt $X' = S' \times T'$. Không gian compact địa phương $X'$ là tổng của họ $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ các không gian con compact của $X$ và không gian con $P = (M \times T) \cup (S \times N)$ là một tập con không đáng kể địa phương theo $\nu$ của $X$ (ta nhận thấy rằng nói chung $P$ không phải là một không gian rời rạc). Trong *Chú giải* của $§ 1$, No. 8 ta đã thấy rằng tồn tại một độ đo $\lambda'$ trên $S'$ sao cho các hàm đo được, tích phân trên cốt yếu của các hàm dương, các hàm khả tích cốt yếu và các tích phân của chúng, là như nhau đối với $\lambda$ và $\lambda'$. Ta liên kết độ đo $\mu'$ trên $T'$ với $\mu$, và độ đo $\nu'$ trên $X'$ với $\nu$, phù hợp với Chú giải đã dẫn; ta thấy ngay lập tức rằng ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ đối với $f \in \mathcal{F}_+(S)$ và $g \in \mathcal{F}_+(T)$; do đó $\nu' = \lambda' \otimes \mu'$ theo Mệnh đề 10 của No. 5. Vì tôpô của $X'$ mịn hơn tôpô của $X$, mọi hàm $\nu$-điều hòa đều là $\nu'$-điều hòa. Thủ tục này cho phép mở rộng không cần chứng minh mới định lý Lebesgue–Fubini (Ch. V, $§ 8$, No. 4, Th. 1) sang tình huống hiện tại.
 
 ### 7. Một kết quả về sự phân rã của các độ đo
 
@@ -500,7 +500,7 @@ $$
 \int_X f(x)\, d\nu(x) = \int_T d\mu(t) \int_X f(x)\, d\lambda_t(x);
 $$
 
-\footnotetext{(1) Một ánh xạ của một không gian tôpô $X$ vào một không gian tôpô $Y$ được gọi là *đo được phổ quát* nếu nó là $\mu$-đo được đối với mọi độ đo $\mu$ trên $X$ (xem Ch. V, $\S 3$, No. 4).}
+\footnotetext{(1) Một ánh xạ của một không gian tôpô $X$ vào một không gian tôpô $Y$ được gọi là *đo được phổ quát* nếu nó là $\mu$-đo được đối với mọi độ đo $\mu$ trên $X$ (xem Ch. V, $§ 3$, No. 4).}
 
 c) tập hợp các $t \in T$ sao cho $\lambda_t(1) \neq 1$ là địa phương $\mu$-không đáng kể.
 Ngoài ra, nếu $t \mapsto \lambda'_t$ là một ánh xạ của $T$ vào $\mathcal{M}_+(X)$ thỏa mãn các điều kiện a) và b), thì tập hợp các $t \in T$ sao cho $\lambda_t \neq \lambda'_t$ là địa phương $\mu$-không đáng kể.
@@ -529,7 +529,7 @@ Cho $t \in T$; nếu $t$ thuộc $T'$, ký hiệu $\lambda_t$ là ảnh của $\
 
 C) *Tồn tại trong trường hợp tổng quát*:
 
-Vì độ đo $\nu$ trên $X$ là điều hòa, ta có thể chọn một phủ $(U_m)_{m \in \mathbf{N}}$ của $X$ gồm các tập mở khả tích theo $\nu$. Ngoài ra, cho $(X_n)_{n \in \mathbf{N}}$ là một phân hoạch $\nu$ của $X$ sao cho hạn chế của $p$ trên mỗi tập $X_n$ là liên tục (\S 1, No. 8, Props. 10 and 11); ký hiệu $\nu_n$ là độ đo $\varphi_{X_n} \cdot \nu$ trên $X$ và $\mu_n$ là ảnh của nó qua $p$. Theo B), với mỗi số nguyên $n \in \mathbf{N}$, tồn tại một ánh xạ $t \mapsto \alpha^n_t$ của $T$ vào $\mathcal{M}_+(X)$ thỏa mãn các điều kiện sau:
+Vì độ đo $\nu$ trên $X$ là điều hòa, ta có thể chọn một phủ $(U_m)_{m \in \mathbf{N}}$ của $X$ gồm các tập mở khả tích theo $\nu$. Ngoài ra, cho $(X_n)_{n \in \mathbf{N}}$ là một phân hoạch $\nu$ của $X$ sao cho hạn chế của $p$ trên mỗi tập $X_n$ là liên tục (§ 1, No. 8, Props. 10 and 11); ký hiệu $\nu_n$ là độ đo $\varphi_{X_n} \cdot \nu$ trên $X$ và $\mu_n$ là ảnh của nó qua $p$. Theo B), với mỗi số nguyên $n \in \mathbf{N}$, tồn tại một ánh xạ $t \mapsto \alpha^n_t$ của $T$ vào $\mathcal{M}_+(X)$ thỏa mãn các điều kiện sau:
 
 $a'')$ Độ đo $\alpha^n_t$ được mang bởi $\overline{p}(t)$ với mọi $t \in T$.
 
@@ -547,7 +547,7 @@ $$
 
 hơn nữa, rõ ràng là hàm $t \mapsto q_t(f)$ trên $T$ đo được phổ quát.
 
-Với mọi $m \in \mathbf{N}$, gọi $E_m$ là tập hợp các $t \in T$ sao cho $q_t(U_m) = +\infty$; tập hợp $E_m$ đo được phổ quát vì điều này đúng đối với ánh xạ $t \mapsto q_t(U_m)$, và $E_m$ là không đáng kể địa phương đối với $\mu$ theo công thức (14) áp dụng cho $f = \varphi_{U_m}$, vì $\nu^*(U_m)$ là hữu hạn. Tập hợp $E = \bigcup_{m \in \mathbf{N}} E_m$ do đó đo được phổ quát và không đáng kể địa phương đối với $\mu$. Ta đặt $\lambda_t = 0$ với $t \in E$. Hơn nữa, cho $t \in T - E$; hàm tải $q_t$ bị chặn địa phương vì các tập mở $U_m$ phủ $X$ và vì $q_t(U_m)$ là hữu hạn; theo Mệnh đề 7 của \S 1, No. 7, tồn tại một độ đo $\lambda_t$ trên $X$ sao cho $q_t = \lambda_t^*$ và $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. Ngay lập tức, ánh xạ $t \mapsto \lambda_t$ thỏa mãn các điều kiện a) và b) của mệnh đề.
+Với mọi $m \in \mathbf{N}$, gọi $E_m$ là tập hợp các $t \in T$ sao cho $q_t(U_m) = +\infty$; tập hợp $E_m$ đo được phổ quát vì điều này đúng đối với ánh xạ $t \mapsto q_t(U_m)$, và $E_m$ là không đáng kể địa phương đối với $\mu$ theo công thức (14) áp dụng cho $f = \varphi_{U_m}$, vì $\nu^*(U_m)$ là hữu hạn. Tập hợp $E = \bigcup_{m \in \mathbf{N}} E_m$ do đó đo được phổ quát và không đáng kể địa phương đối với $\mu$. Ta đặt $\lambda_t = 0$ với $t \in E$. Hơn nữa, cho $t \in T - E$; hàm tải $q_t$ bị chặn địa phương vì các tập mở $U_m$ phủ $X$ và vì $q_t(U_m)$ là hữu hạn; theo Mệnh đề 7 của § 1, No. 7, tồn tại một độ đo $\lambda_t$ trên $X$ sao cho $q_t = \lambda_t^*$ và $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. Ngay lập tức, ánh xạ $t \mapsto \lambda_t$ thỏa mãn các điều kiện a) và b) của mệnh đề.
 
 D) *Chứng minh c)*:
 Cho $f$ là một hàm đo được phổ quát trên $X$, dương và bị chặn; ta sẽ chứng minh rằng hàm đo được phổ quát $h_f : t \mapsto \lambda_t^\bullet(f)$ trên $T$ là một mật độ của độ đo $\mu_f = p(f \cdot \nu)$ đối với $\mu = p(\nu)$. Cho $K$ là một tập con compact của $T$ và đặt $A = \overline{p}^{-1}(K)$. Với mọi $t \in T$, độ đo $\lambda_t$ tập trung trên $\overline{p}^{-1}(t)$; nếu $t$ thuộc $K$ thì $\overline{p}^{-1}(t) \subset A$, do đó $\lambda_t^\bullet(f \varphi_A) = \lambda_t^\bullet(f)$; ngược lại, nếu $t$ thuộc $T - K$ thì $\overline{p}^{-1}(t) \subset X - A$, do đó $\lambda_t^\bullet(f \varphi_A) = 0$. Áp dụng công thức (12) cho $f \cdot \varphi_A$,$^{(1)}$ ta được
@@ -574,9 +574,9 @@ Q.E.D.
 (1) Trong trường hợp $f \cdot \varphi_A$ không đo được phổ quát, hãy sử dụng *Nhận xét 2*) dưới đây.
 (2) Kết quả này không xuất hiện trong GT (xem chú thích cuối trang của *Nhận xét 1* của §1, No. 9).
 
-và mọi độ đo trên X đều được điều hòa (\S 1, No. 9, Nhận xét 1). Theo Mệnh đề 13, mọi độ đo $\nu$ trên X do đó thừa nhận một phân rã đối với mọi ánh xạ $\nu$-thực sự.
+và mọi độ đo trên X đều được điều hòa (§ 1, No. 9, Nhận xét 1). Theo Mệnh đề 13, mọi độ đo $\nu$ trên X do đó thừa nhận một phân rã đối với mọi ánh xạ $\nu$-thực sự.
 
-2) Với các ký hiệu của Mệnh đề 13, cho $f$ là một hàm $\nu$-đo được dương. Có thể chứng minh, như trong Ch. V, \S 3, No. 2, Mệnh đề 5, rằng tập hợp các $t \in T$ sao cho $f$ không $\lambda_t$-đo được là địa phương $\mu$-không đáng kể, rằng $t \mapsto \lambda_t^\bullet(f)$ là $\mu$-đo được, và rằng quan hệ (12) lại đúng.
+2) Với các ký hiệu của Mệnh đề 13, cho $f$ là một hàm $\nu$-đo được dương. Có thể chứng minh, như trong Ch. V, § 3, No. 2, Mệnh đề 5, rằng tập hợp các $t \in T$ sao cho $f$ không $\lambda_t$-đo được là địa phương $\mu$-không đáng kể, rằng $t \mapsto \lambda_t^\bullet(f)$ là $\mu$-đo được, và rằng quan hệ (12) lại đúng.
 
 ### Bài tập {#int-ix-s2-exercises}
 

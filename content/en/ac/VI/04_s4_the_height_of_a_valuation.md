@@ -33,7 +33,7 @@ subsections:
       pdf_page: 415
 statements: 18
 exercises: 11
-content_sha256: 241b523bbe6a35c37704c2aac29a38f7afcc9e1e0df9204c949f3665e008f232
+content_sha256: d2591aefd185cd8a9d79b29d0b2bd6b892a0e8d7c6f6ca84c843946be63124d9
 ---
 
 ## 4. THE HEIGHT OF A VALUATION
@@ -155,13 +155,13 @@ $$
 E = k(X) \quad \text{and} \quad K = k(X, Y) = E(Y)
 $$
 
-$(X, Y$ indeterminates). Let $B = E[Y]_{(Y)}$ be the valuation ring of $K$ defined by the extremal element $Y$ of the principal ideal domain $E[Y]$ (\S 1, no. 4, Proposition 3). The residue field $\kappa(B)$ is canonically identified with $E[Y]/(Y) = E$. Similarly, let $A' = k[X]_{(X)}$ be the valuation ring of $E = k(X)$ defined by the extremal element $X$ of $k[X]$. Denoting by $h$, the place of $E$ associated with $B$ and writing $A = h_B^{-1}(A')$, a valuation ring $A$ of $K$ is defined which is contained in $B$ and $\kappa(A) = \kappa(A') = k$. The canonical place $h$: $K \to k$ can be described as follows: iff $(X, Y)$ is an element of $K$, then we first put $Y = 0$ inf (which gives an element of $\tilde{E} = k(X)^*$), then $X = 0$ in the result obtained. The groups $\Gamma_{A'}$ and $\Gamma_B$ are canonically isomorphic to $\mathbf{Z}$ (\S 3, no. 4, Example 4). *It is not difficult to show (cf. \S 10, no. 2, Lemma 2) that the group $\Gamma_A$ is isomorphic to the lexicographic product $\mathbf{Z} \times \mathbf{Z}$ and that the valuation $v_A$ is equivalent to the valuation defined in \S 3, no. 4, end of Example 6.*
+$(X, Y$ indeterminates). Let $B = E[Y]_{(Y)}$ be the valuation ring of $K$ defined by the extremal element $Y$ of the principal ideal domain $E[Y]$ (§ 1, no. 4, Proposition 3). The residue field $\kappa(B)$ is canonically identified with $E[Y]/(Y) = E$. Similarly, let $A' = k[X]_{(X)}$ be the valuation ring of $E = k(X)$ defined by the extremal element $X$ of $k[X]$. Denoting by $h$, the place of $E$ associated with $B$ and writing $A = h_B^{-1}(A')$, a valuation ring $A$ of $K$ is defined which is contained in $B$ and $\kappa(A) = \kappa(A') = k$. The canonical place $h$: $K \to k$ can be described as follows: iff $(X, Y)$ is an element of $K$, then we first put $Y = 0$ inf (which gives an element of $\tilde{E} = k(X)^*$), then $X = 0$ in the result obtained. The groups $\Gamma_{A'}$ and $\Gamma_B$ are canonically isomorphic to $\mathbf{Z}$ (§ 3, no. 4, Example 4). *It is not difficult to show (cf. § 10, no. 2, Lemma 2) that the group $\Gamma_A$ is isomorphic to the lexicographic product $\mathbf{Z} \times \mathbf{Z}$ and that the valuation $v_A$ is equivalent to the valuation defined in § 3, no. 4, end of Example 6.*
 
 ### 4. THE HEIGHT OF A VALUATION
 
 Let $G$ be a totally ordered group. Given two isolated subgroups $H$ and $H'$ of $G$, one of them is contained in the order: for otherwise there would exist a positive element $x$ of $H$ not belonging to $H'$ and a positive element $x'$ of $H'$ not belonging to H; let, for example $x \geq x'$; as H is isolated, $x' \in H$, which is a contradiction.
 
-This also follows from Proposition 4 of no. 3 and the Corollary to Proposition 1 of no. 1, taking account of the fact that every totally ordered group is the order group of a valuation (\$ 3, no. 4, Example 6).
+This also follows from Proposition 4 of no. 3 and the Corollary to Proposition 1 of no. 1, taking account of the fact that every totally ordered group is the order group of a valuation (§ 3, no. 4, Example 6).
 
 #### Definition 2 {#ac-vi-s4-def-2 .statement}
 

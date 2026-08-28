@@ -36,7 +36,7 @@ subsections:
       pdf_page: 383
 statements: 3
 exercises: 6
-content_sha256: d761c077501377ceeab84374ca512fcd6975784dba66e86cf8a3fa55e597bfd8
+content_sha256: cc580553600faae651b7943eeadba958e4028101a52e112dfe1c9051a2cb6aa3
 ---
 
 ## 8. USUAL EXPANSIONS OF REAL NUMBERS; THE POWER OF R
@@ -51,7 +51,7 @@ Let $A$ be a dense subset of $\mathbf{R}$. For each $x \in \mathbf{R}$ and each 
 
 In the case where $A$ is a subgroup of the additive group $\mathbf{R}$, and we restrict the $\varepsilon_n$ to belong to $A$, we can define canonically for each $x \in \mathbf{R}$ a sequence $(r_n)$ of approximations to $x$ by defect, belonging to $A$.
 
-For by Archimedes' axiom (\S 2, no. 1, Theorem 1), the set of integers $p$ such that $p \varepsilon_n \leq x$ has a greatest element $p_n$; in other words, there is a unique integer $p_n$ such that
+For by Archimedes' axiom (§ 2, no. 1, Theorem 1), the set of integers $p$ such that $p \varepsilon_n \leq x$ has a greatest element $p_n$; in other words, there is a unique integer $p_n$ such that
 
 $$
 p_n \varepsilon_n \leq x < (p_n + 1) \varepsilon_n.
@@ -91,7 +91,7 @@ For each integer $m > 0$ we have (by the principle of comparison)
 $$
 \sum_{n=m+1}^\infty \frac{v_n}{d_n} \leq \sum_{n=m+1}^\infty \frac{a_n - 1}{d_n} = \sum_{n=m+1}^\infty \left( \frac{1}{d_{n-1}} - \frac{1}{d_n} \right) = \frac{1}{d_m}
 $$
-and the extreme left-hand and right-hand terms are equal only if $v_n = a_n - 1$ for each $n > m$ (\S 7, no. 1, Theorem 2). Hence the series whose general term is $\frac{v_n}{d_n}$ is convergent; moreover, if $x = q_0 + \sum_{n=1}^\infty \frac{v_n}{d_n}$, we have
+and the extreme left-hand and right-hand terms are equal only if $v_n = a_n - 1$ for each $n > m$ (§ 7, no. 1, Theorem 2). Hence the series whose general term is $\frac{v_n}{d_n}$ is convergent; moreover, if $x = q_0 + \sum_{n=1}^\infty \frac{v_n}{d_n}$, we have
 $$
 s_m = q_0 + \sum_{n=1}^m \frac{v_n}{d_n} \leq x \leq s_m + \frac{1}{d_m}
 $$

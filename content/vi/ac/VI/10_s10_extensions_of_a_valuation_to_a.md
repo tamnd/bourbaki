@@ -25,9 +25,9 @@ subsections:
       pdf_page: 456
 statements: 14
 exercises: 2
-content_sha256: fed06df1a84e7b1774a43ca60ba52f4cd4b1027d427215632314764b062902d0
+content_sha256: 0feda9fa8613a79d8478c32d496a3932f293f8b29c609e229eab54dc93a3d9a8
 translated_from: content/en/ac/VI/10_s10_extensions_of_a_valuation_to_a.md
-source_content_sha256: e3c861ffcd021309856ff685759ee07561069de46e3d425be802720ae6d29f75
+source_content_sha256: 34f40a243b26113b5ca170f44a53946190e03c0c9c5132625229fb3ca220d4f2
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-aaf67f5f
 glossary_version: 34
@@ -136,7 +136,7 @@ $$
 
 #### Mệnh đề 3 {#ac-vi-s10-prop-3 .statement}
 
-*Cho G là một nhóm giao hoán được sắp thứ tự toàn phần và H là một nhóm con của G. Nếu $h(G)$ và $h(H)$ ký hiệu các chiều cao của G và H* ($\S 4$, no. 4), *thì bất đẳng thức*
+*Cho G là một nhóm giao hoán được sắp thứ tự toàn phần và H là một nhóm con của G. Nếu $h(G)$ và $h(H)$ ký hiệu các chiều cao của G và H* ($§ 4$, no. 4), *thì bất đẳng thức*
 
 $$
 h(G) \leq h(H) + r(G/H)
@@ -236,7 +236,7 @@ Cho $r$ và $s$ là các số tự nhiên sao cho $r \leq r(v'/v)$ và $s \leq s
 
 Vì thế chúng độc lập đại số trên $K$, điều đó cho thấy bất đẳng thức $r + s < d(K'/K)$.
 
-Nếu $K'$ là một mở rộng sinh hữu hạn của $K$, $d(K'/K)$ là hữu hạn, do đó $s(v'/v)$ và $r(v'/v)$ cũng hữu hạn; ta ký hiệu chúng lần lượt là $s$ và $r$. Có các phần tử $x_1, \ldots, x_s, y_1, \ldots, y_r$ của $K'$ thỏa mãn các giả thiết của Định lý 1. Nếu $r + s = d(K'/K)$, các phần tử này tạo thành một cơ sở siêu việt của $K'$ trên $K$ và do đó $K'$ là một mở rộng đại số hữu hạn của $K'' = K(x_1, \ldots, y_r)$. Gọi $\Gamma''$ và $k''$ là nhóm cấp và trường thặng dư của hạn chế của $v'$ lên $K''$. Theo Định lý 1, $\Gamma''/\Gamma$ là một $\mathbf{Z}$-môđun sinh hữu hạn và $k''$ là một mở rộng thuần sinh hữu hạn của $k$. Mặt khác, vì $K'$ là một mở rộng đại số hữu hạn của $K$, $\Gamma'/\Gamma$ là một nhóm hữu hạn và $k'$ là một mở rộng đại số hữu hạn của $k''$ (\S 8, no. 1, Bổ đề 2). Điều này chứng minh hệ quả.
+Nếu $K'$ là một mở rộng sinh hữu hạn của $K$, $d(K'/K)$ là hữu hạn, do đó $s(v'/v)$ và $r(v'/v)$ cũng hữu hạn; ta ký hiệu chúng lần lượt là $s$ và $r$. Có các phần tử $x_1, \ldots, x_s, y_1, \ldots, y_r$ của $K'$ thỏa mãn các giả thiết của Định lý 1. Nếu $r + s = d(K'/K)$, các phần tử này tạo thành một cơ sở siêu việt của $K'$ trên $K$ và do đó $K'$ là một mở rộng đại số hữu hạn của $K'' = K(x_1, \ldots, y_r)$. Gọi $\Gamma''$ và $k''$ là nhóm cấp và trường thặng dư của hạn chế của $v'$ lên $K''$. Theo Định lý 1, $\Gamma''/\Gamma$ là một $\mathbf{Z}$-môđun sinh hữu hạn và $k''$ là một mở rộng thuần sinh hữu hạn của $k$. Mặt khác, vì $K'$ là một mở rộng đại số hữu hạn của $K$, $\Gamma'/\Gamma$ là một nhóm hữu hạn và $k'$ là một mở rộng đại số hữu hạn của $k''$ (§ 8, no. 1, Bổ đề 2). Điều này chứng minh hệ quả.
 
 #### Hệ quả 2 {#ac-vi-s10-thm-1-cor-2 .statement}
 

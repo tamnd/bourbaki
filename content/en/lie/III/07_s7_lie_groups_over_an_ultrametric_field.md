@@ -36,12 +36,12 @@ subsections:
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: 5f3b22a09c2b7f10b2ea9721dc07fd7842702806075b9d03184179d32e6594b6
+content_sha256: 0c680762cdc1f3ee887ddeb36734fc91db046db61ac47e4409f0c49baf665b4b
 ---
 
 ## § 7. LIE GROUPS OVER AN ULTRAMETRIC FIELD
 
-In this paragraph, the valued field $K$ is assumed to be ultrametric and of characteristic 0. Let $A$ denote the valuation ring of $K$, $m$ the maximal ideal of $A$ and $p$ the characteristic of the residue field $A/m$. If $K$ is locally compact, then $p \neq 0$ (*Commutative Algebra*, Chapter VI, \S 9, Theorem 1).
+In this paragraph, the valued field $K$ is assumed to be ultrametric and of characteristic 0. Let $A$ denote the valuation ring of $K$, $m$ the maximal ideal of $A$ and $p$ the characteristic of the residue field $A/m$. If $K$ is locally compact, then $p \neq 0$ (*Commutative Algebra*, Chapter VI, § 9, Theorem 1).
 
 ### 1. PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
 
@@ -94,7 +94,7 @@ Let G be a Lie group. There exists an exponential mapping $\phi$ of G with the f
 (ii) $\phi(U)$ is an open subgroup of G and $\phi$ is an isomorphism of the analytic manifold U onto the analytic manifold $\phi(U)$;
 (iii) $\phi(nx) = \phi(x)^n$ for all $x \in U$ and all $n \in \mathbf{Z}$.
 
-Let $L(G)$ be given a norm compatible with its topology and such that $\| [x, y] \| \leq \| x \| \| y \|$ for $x, y$ in $L(G)$. Let $G_1$ be the Lie group defined by $L(G)$. Let $\psi = \mathrm{Id}_{G_1}$, which is an exponential mapping of $G_1$. For all $\mu > 0$, let $L_\mu$ be the set of $x \in L(G)$ such that $\| x \| < \mu$. Then, for $\mu$ sufficiently small, $L_\mu$ is an open subgroup of the additive group $L(G)$, $\psi(L_\mu)$ is an open subgroup of $G_1$ (\S 4, no. 2, Lemma 3), $\psi|L_\mu$ is an isomorphism of analytic manifolds of $L_\mu$ onto $\psi(L_\mu)$ and $\psi(nx) = \psi(x)^n$ for all $x \in L_\mu$ and all $n \in \mathbf{Z}$. The $L_\mu$ form a fundamental system of neighbourhoods of 0 in $L(G)$. By Theorem 1, there exist $\mu$ and an open subgroup $G'$ of G such that $\psi(L_\mu)$ and $G'$ are isomorphic, whence the proposition.
+Let $L(G)$ be given a norm compatible with its topology and such that $\| [x, y] \| \leq \| x \| \| y \|$ for $x, y$ in $L(G)$. Let $G_1$ be the Lie group defined by $L(G)$. Let $\psi = \mathrm{Id}_{G_1}$, which is an exponential mapping of $G_1$. For all $\mu > 0$, let $L_\mu$ be the set of $x \in L(G)$ such that $\| x \| < \mu$. Then, for $\mu$ sufficiently small, $L_\mu$ is an open subgroup of the additive group $L(G)$, $\psi(L_\mu)$ is an open subgroup of $G_1$ (§ 4, no. 2, Lemma 3), $\psi|L_\mu$ is an isomorphism of analytic manifolds of $L_\mu$ onto $\psi(L_\mu)$ and $\psi(nx) = \psi(x)^n$ for all $x \in L_\mu$ and all $n \in \mathbf{Z}$. The $L_\mu$ form a fundamental system of neighbourhoods of 0 in $L(G)$. By Theorem 1, there exist $\mu$ and an open subgroup $G'$ of G such that $\psi(L_\mu)$ and $G'$ are isomorphic, whence the proposition.
 
 #### Proposition 4 {#lie-iii-s7-prop-4 .statement}
 
@@ -109,7 +109,7 @@ $$
 [x, y] = \lim_{n \to +\infty} p^{-2n} \phi^{-1}(\phi(p^n x) \phi(p^n y) \phi(-p^n x) \phi(-p^n y)).
 $$
 
-These are special cases of Proposition 4 of \S 4, no. 3.
+These are special cases of Proposition 4 of § 4, no. 3.
 
 ### 3. STANDARD GROUPS†
 
@@ -389,7 +389,7 @@ We again use the notation of nos. 3, 4 and 5.
 
 (iii) *The mapping $E'$ is an isomorphism of $\Delta$, with the Hausdorff law, onto the subgroup $\Delta$ of G.*
 
-Using the notation of § 5, nos. 3 and 4, $E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$ ($\S 5$, no. 4, Proposition 3). As the coefficients $c_{\alpha \beta \gamma}$ belong to A, $\| \psi_{m,m} \| \leq 1$ (Differentiable and Analytic Manifolds, R, Appendix) $K^r$ is assumed to have the norm
+Using the notation of § 5, nos. 3 and 4, $E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$ ($§ 5$, no. 4, Proposition 3). As the coefficients $c_{\alpha \beta \gamma}$ belong to A, $\| \psi_{m,m} \| \leq 1$ (Differentiable and Analytic Manifolds, R, Appendix) $K^r$ is assumed to have the norm
 
 $$
 \| (\lambda_1, \ldots, \lambda_r ) \| = \sup(|\lambda_1|, \ldots, |\lambda_r|)
@@ -431,7 +431,7 @@ Let $H = \sum_{r,s \geq 0} H_{r,s}$ be the Hausdorff formal power series and $h$
 $$
 E'(x)E'(y) = E'(h(x, y))
 $$
-for $x, y$ sufficiently close to 0 ($\S 4$, Theorem 4 (v)). Hence, in the notation of no. 3, Definition 1, the formal power series $F(E(X), E(Y))$ and $E(H(X, Y))$ are equal. Let $x, y$ be elements of $\Delta$. Then
+for $x, y$ sufficiently close to 0 ($§ 4$, Theorem 4 (v)). Hence, in the notation of no. 3, Definition 1, the formal power series $F(E(X), E(Y))$ and $E(H(X, Y))$ are equal. Let $x, y$ be elements of $\Delta$. Then
 $$
 \sup_m \left| \frac{\psi_{m,m}}{m!} \right| (\sup \|x\|, \|y\|)^m < 1 \\
 \sup_{r,s} \|H_{r,s}\| \|x\|^r \|y\|^s < |\rho|^{1/(p-1)}

@@ -20,17 +20,17 @@ subsections:
       pdf_page: 116
 statements: 14
 exercises: 4
-content_sha256: aef30dc7ca559392b46ef6dd97b0bfe4a41ce470e3a631f7c76c02fd30963b86
+content_sha256: ed349ba7048860eed5ba0c0f75184dd24dbdc02b5b44c9113c54df9e611786e4
 ---
 
 ## § 6. Transformation de Coxeter
 
-Dans ce paragraphe, $V$ désigne un espace vectoriel réel de dimension finie $l$ et $W$ désigne un sous-groupe fini de $\mathbf{GL}(V)$, engendré par des réflexions, et essentiel (\S 3, n° 7). On munit $V$ d’un produit scalaire $(x|y)$ invariant par $W$
+Dans ce paragraphe, $V$ désigne un espace vectoriel réel de dimension finie $l$ et $W$ désigne un sous-groupe fini de $\mathbf{GL}(V)$, engendré par des réflexions, et essentiel (§ 3, n° 7). On munit $V$ d’un produit scalaire $(x|y)$ invariant par $W$
 On note $\mathfrak{H}$ l’ensemble des hyperplans $H$ de $V$ tels que la réflexion orthogonale $s_H$ correspondante appartienne à $W$.
 
 ### 1. Définition des transformations de Coxeter
 
-Nous appellerons chambre ordonnée relative à $W$ le couple formé d’une chambre $C$ déterminée par $\mathfrak{H}$ et d’une bijection $i \mapsto H_i$ de $\{1, 2, \ldots, l\}$ sur l’ensemble des murs de $C$ (cf. \S 3, n° 9, prop. 7).
+Nous appellerons chambre ordonnée relative à $W$ le couple formé d’une chambre $C$ déterminée par $\mathfrak{H}$ et d’une bijection $i \mapsto H_i$ de $\{1, 2, \ldots, l\}$ sur l’ensemble des murs de $C$ (cf. § 3, n° 9, prop. 7).
 
 #### Définition 1 {#lie-v-s6-def-1 .statement}
 
@@ -40,7 +40,7 @@ On appelle transformation de Coxeter définie par une chambre ordonnée $(C, (H_
 
 Toutes les transformations de Coxeter de $W$ sont conjuguées dans $W$.
 
-Comme $W$ permutte transitivement les chambres déterminées par $\mathfrak{H}$ (\S 3, n° 2, th. 1), tout revient à prouver ceci : soient $(C, (H_i)_{1 \leq i \leq l})$ une chambre ordonnée, et $\pi \in \mathfrak{S}_l$; alors $s_{H_1} s_{H_2} \cdots s_{H_l}$ et $s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}}$ sont conjugués dans W. Compte tenu du § 4, n° 8, prop. 8, ceci résultera aussitôt du lemme suivant:
+Comme $W$ permutte transitivement les chambres déterminées par $\mathfrak{H}$ (§ 3, n° 2, th. 1), tout revient à prouver ceci : soient $(C, (H_i)_{1 \leq i \leq l})$ une chambre ordonnée, et $\pi \in \mathfrak{S}_l$; alors $s_{H_1} s_{H_2} \cdots s_{H_l}$ et $s_{H_{\pi(1)}} s_{H_{\pi(2)}} \cdots s_{H_{\pi(l)}}$ sont conjugués dans W. Compte tenu du § 4, n° 8, prop. 8, ceci résultera aussitôt du lemme suivant:
 
 #### Lemme 1 {#lie-v-s6-lem-1 .statement}
 
@@ -132,7 +132,7 @@ Supposons W irréductible. Avec les notations précédentes, il existe deux vect
 
 (iii) $z', z'' \in \overline{C}$, et $P \cap C$ est l’ensemble des combinaisons linéaires de $z'$, $z''$ à coefficients $> 0$.
 
-Soit $(e^1, \ldots, e^l)$ la base de $V$ telle que $(e^i|e_j) = \delta_{ij}$. Alors $C$ est le cône simplicial ouvert déterminé par les $e^i$ (\S 3, no 9, prop. 7). Il est clair que $V'$ est engendré par $e^{r+1}, \ldots, e^l$ et $V''$ par $e^1, \ldots, e^r$. Soit $q$ l’endomorphisme de $V$ tel que $q(e^1) = e_1, \ldots, q(e^l) = e_l$. Sa matrice par rapport à $(e^1, \ldots, e^l)$ est $Q = ((e_i|e_j))$. On a $(e_i|e_j) \leq 0$ pour $i \neq j$ (\S 3, no 4, prop. 3). Puisque $W$ est irréductible, il n’existe pas de partition $\{1, 2, \ldots, l\} = I_1 \cup I_2$ telle que $(e_i|e_j) = 0$ pour $i \in I_1$ et $j \in I_2$. Donc (\S 3, no 5, lemme 4) $Q$ admet un vecteur propre $(a_1, \ldots, a_l)$ à coordonnées toutes $> 0$; soit $a$ la valeur propre correspondante. Posons
+Soit $(e^1, \ldots, e^l)$ la base de $V$ telle que $(e^i|e_j) = \delta_{ij}$. Alors $C$ est le cône simplicial ouvert déterminé par les $e^i$ (§ 3, no 9, prop. 7). Il est clair que $V'$ est engendré par $e^{r+1}, \ldots, e^l$ et $V''$ par $e^1, \ldots, e^r$. Soit $q$ l’endomorphisme de $V$ tel que $q(e^1) = e_1, \ldots, q(e^l) = e_l$. Sa matrice par rapport à $(e^1, \ldots, e^l)$ est $Q = ((e_i|e_j))$. On a $(e_i|e_j) \leq 0$ pour $i \neq j$ (§ 3, no 4, prop. 3). Puisque $W$ est irréductible, il n’existe pas de partition $\{1, 2, \ldots, l\} = I_1 \cup I_2$ telle que $(e_i|e_j) = 0$ pour $i \in I_1$ et $j \in I_2$. Donc (§ 3, no 5, lemme 4) $Q$ admet un vecteur propre $(a_1, \ldots, a_l)$ à coordonnées toutes $> 0$; soit $a$ la valeur propre correspondante. Posons
 
 $$
 z = a_1 e^1 + \cdots + a_l e^l,
@@ -166,17 +166,17 @@ On suppose $W$ irréductible. Alors :
 (i) $m_1 = 1,\ m_l = h - 1$.
 (ii) Card ($\xi$) = $\frac{1}{2} lh$.
 
-Conservons les notations précédentes. La restriction de $c = s's''$ à P est la rotation d’angle $2(\overline{z''}, z')$ (\S 2, n° 5, cor. de la prop. 6). Comme $c$ est d’ordre $h$, les $h$ éléments $1, c, \ldots, c^{h-1}$ de W sont deux à deux distincts; les éléments $s'$, $s'c, \ldots, s'c^{h-1}$ sont donc deux à deux distincts, et sont distincts des précédents car $c^i|P$ est une rotation et $s'c^j|P$ est une réflexion. L’ensemble
+Conservons les notations précédentes. La restriction de $c = s's''$ à P est la rotation d’angle $2(\overline{z''}, z')$ (§ 2, n° 5, cor. de la prop. 6). Comme $c$ est d’ordre $h$, les $h$ éléments $1, c, \ldots, c^{h-1}$ de W sont deux à deux distincts; les éléments $s'$, $s'c, \ldots, s'c^{h-1}$ sont donc deux à deux distincts, et sont distincts des précédents car $c^i|P$ est une rotation et $s'c^j|P$ est une réflexion. L’ensemble
 
 $$
 \{1, c, \ldots, c^{h-1}, s', s'c, \ldots, s'c^{h-1}\}
 $$
 
-est le sous-groupe $W'$ de W engendré par $s'$ et $s''$, et induit dans P le groupe $W''$ engendré par les réflexions orthogonales par rapport à $Rz', Rz''$. Le transformé de C par un élément de $W'$ est disjoint de — C ou égal à — C. Donc le transformé de $P \cap C$ par un élément de $W''$ est disjoint de — (P $\cap$ C) ou égal à — (P $\cap$ C). Donc, pour une orientation convenable de P, il existe un entier $m > 0$ tel que $(\overline{z''}, z') = \frac{\pi}{m}$ (\S 2, n° 5, cor. de la prop. 7). Par ailleurs, les ensembles $g'(C)$, pour $g' \in W'$, sont deux à deux disjoints; les ensembles $g''(P \cap C)$, pour $g'' \in W''$, sont donc deux à deux disjoints; ainsi, $W''$ est d’ordre $2h$. D’où $m = h$. En définitive, $c|P$ est une rotation d’angle $\frac{2\pi}{h}$, et admet par suite les valeurs propres $\exp \frac{2i\pi}{h}$, $\exp \frac{2i\pi(h-1)}{h}$. Ceci prouve que $m_1 = 1$, $m_l = h - 1$.
+est le sous-groupe $W'$ de W engendré par $s'$ et $s''$, et induit dans P le groupe $W''$ engendré par les réflexions orthogonales par rapport à $Rz', Rz''$. Le transformé de C par un élément de $W'$ est disjoint de — C ou égal à — C. Donc le transformé de $P \cap C$ par un élément de $W''$ est disjoint de — (P $\cap$ C) ou égal à — (P $\cap$ C). Donc, pour une orientation convenable de P, il existe un entier $m > 0$ tel que $(\overline{z''}, z') = \frac{\pi}{m}$ (§ 2, n° 5, cor. de la prop. 7). Par ailleurs, les ensembles $g'(C)$, pour $g' \in W'$, sont deux à deux disjoints; les ensembles $g''(P \cap C)$, pour $g'' \in W''$, sont donc deux à deux disjoints; ainsi, $W''$ est d’ordre $2h$. D’où $m = h$. En définitive, $c|P$ est une rotation d’angle $\frac{2\pi}{h}$, et admet par suite les valeurs propres $\exp \frac{2i\pi}{h}$, $\exp \frac{2i\pi(h-1)}{h}$. Ceci prouve que $m_1 = 1$, $m_l = h - 1$.
 
 Les transformées de $Rz'$ et $Rz''$ par $W'$ sont $h$ droites $D_1, \ldots, D_h$ de P, et les points de $P - (D_1 \cup \cdots \cup D_h)$ sont transformés par des éléments de $W'$ de points de $P \cap C$. Donc un hyperplan de $\mathfrak{g}$ coupe nécessairement P suivant l’une des droites $D_i$, et par suite est transformé, par une opération de $W'$, d’un hyperplan de $\mathfrak{g}$ contenant $Rz'$ ou $Rz''$.
 
-Or, tout $H \in \mathfrak{g}$ qui contient $Rz'$ est l’un des hyperplans $H_1, \ldots, H_r$. En effet, soit $e_H$ le vecteur unitaire orthogonal à H et situé du même côté de H que C. On a $e_H = \lambda_1 e_1 + \cdots + \lambda_l e_l$ avec des $\lambda_i$ tous $\geq 0$ (\S 3, n° 5, lemme 6, (i)). Or $0 = (e_H|z') = \lambda_{r+1} a_{r+1} + \cdots + \lambda_l a_l$, donc
+Or, tout $H \in \mathfrak{g}$ qui contient $Rz'$ est l’un des hyperplans $H_1, \ldots, H_r$. En effet, soit $e_H$ le vecteur unitaire orthogonal à H et situé du même côté de H que C. On a $e_H = \lambda_1 e_1 + \cdots + \lambda_l e_l$ avec des $\lambda_i$ tous $\geq 0$ (§ 3, n° 5, lemme 6, (i)). Or $0 = (e_H|z') = \lambda_{r+1} a_{r+1} + \cdots + \lambda_l a_l$, donc
 
 $$
 \lambda_{r+1} = \cdots = \lambda_l = 0, \quad \text{et} \quad e_H = \lambda_1 e_1 + \cdots + \lambda_r e_r.
@@ -209,7 +209,7 @@ $$
 \sum_{u \in R_0} (x|u)^2 = h(x|x).
 $$
 
-Posons $f(x) = \sum_{u \in R_0} (x|u)^2$. Il est clair que $f$ est une forme quadratique positive invariante par $W$, non dégénérée puisque les $e_i$ forment une base de $V$. Comme $W$ est irréductible, il existe une constante $\beta$ telle que $f(x) = \beta (x|x)$ (\S 2, n° 1, prop. 1). Si $(x_i)_{1 \leq i \leq l}$ est une base orthonormale de $V$ pour le produit scalaire $(x|y)$, on a
+Posons $f(x) = \sum_{u \in R_0} (x|u)^2$. Il est clair que $f$ est une forme quadratique positive invariante par $W$, non dégénérée puisque les $e_i$ forment une base de $V$. Comme $W$ est irréductible, il existe une constante $\beta$ telle que $f(x) = \beta (x|x)$ (§ 2, n° 1, prop. 1). Si $(x_i)_{1 \leq i \leq l}$ est une base orthonormale de $V$ pour le produit scalaire $(x|y)$, on a
 
 $$
 \begin{align*}
@@ -228,13 +228,13 @@ Adoptons les notations de la démonstration du th. 1. Puisque $c|P$ est une rota
 
 #### Proposition 3 {#lie-v-s6-prop-3 .statement}
 
-*Supposons $W$ irréductible. Soient $u_1, \ldots, u_l$ des éléments homogènes de l’algèbre symétrique $S = S(V)$, algébriquement indépendants sur $\mathbf{R}$ et engendrant l’algèbre des éléments de $S$ invariants par $W$ (\S 5, n° 3, th. 3). Si $p_j$ est le degré de $u_j$, les exposants de $W$ sont $p_1 - 1, \ldots, p_l - 1$.
+*Supposons $W$ irréductible. Soient $u_1, \ldots, u_l$ des éléments homogènes de l’algèbre symétrique $S = S(V)$, algébriquement indépendants sur $\mathbf{R}$ et engendrant l’algèbre des éléments de $S$ invariants par $W$ (§ 5, n° 3, th. 3). Si $p_j$ est le degré de $u_j$, les exposants de $W$ sont $p_1 - 1, \ldots, p_l - 1$.
 
-Posons $V' = V \otimes_{\mathbf{R}} \mathbf{C}$, $S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C}$, et prolongeons le produit scalaire de $V$ en une forme hermitienne sur $V'$. Si $c$ est une transformation de Coxeter de W, il existe une base orthonormale $(\mathbf{X}_i)_{1 \leq i \leq l}$ de $V'$ formée de vecteurs propres de $c \otimes 1$ (*Alg.*, chap. IX, § 7, n° 3, prop. 4); on peut supposer en outre que, pour $1 \leq j \leq l$, $\mathbf{X}_j$ correspond à la valeur propre $\exp \frac{2i\pi m_j}{h}$ de $c \otimes 1$. Il est clair que $S'$ s’identifie à l’algèbre $\mathbf{C}[\mathbf{X}_1, \ldots, \mathbf{X}_l]$, et l’on peut écrire $u_j \otimes 1 = f_j(\mathbf{X}_1, \ldots, \mathbf{X}_l)$, où $f_j$ est un polynôme homogène de degré $p_j$ dans $\mathbf{C}[\mathbf{X}_1, \ldots, \mathbf{X}_l]$. Posons $D_j = \frac{\partial}{\partial \mathbf{X}_j}$, et $J(\mathbf{X}_1, \ldots, \mathbf{X}_l) = \det(D_k f_j)$. Rappelons (\S 5, n° 4, prop. 5) que $J(\mathbf{X}_1, \ldots, \mathbf{X}_l)$ est proportionnel au produit dans $S'$ de $\mathrm{Card}(\mathfrak{S})$ vecteurs $y_k$ de $V$ donc chacun est orthogonal à un hyperplan de $\mathfrak{S}$. Comme on peut supposer que $\mathbf{X}_1 \notin H \otimes \mathbf{C}$ pour tout $H \in \mathfrak{S}$ (*Remarque*), les composantes sur $\mathbf{X}_1$ de chacun des vecteurs $y_k$ sont $\neq 0$, donc $J(1, 0, 0, \ldots, 0) \neq 0$. La règle de développement d’un déterminant prouve alors l’existence d’une permutation $\sigma$ de $\{1, 2, \ldots, l\}$ telle que $(D_{\sigma(j)} f_j)(1, 0, 0, \ldots, 0) \neq 0$ pour tout $j$. Comme $D_{\sigma(j)} f_j$ est homogène de degré $p_j - 1$, le coefficient de $X_1^{p_j-1} X_{\sigma(j)}$ dans $f_j(\mathbf{X}_1, \ldots, \mathbf{X}_l)$ est non nul. Or $f_j(\mathbf{X}_1, \ldots, \mathbf{X}_l)$ est invariant par $c \otimes 1$, et
+Posons $V' = V \otimes_{\mathbf{R}} \mathbf{C}$, $S' = S(V') = S \otimes_{\mathbf{R}} \mathbf{C}$, et prolongeons le produit scalaire de $V$ en une forme hermitienne sur $V'$. Si $c$ est une transformation de Coxeter de W, il existe une base orthonormale $(\mathbf{X}_i)_{1 \leq i \leq l}$ de $V'$ formée de vecteurs propres de $c \otimes 1$ (*Alg.*, chap. IX, § 7, n° 3, prop. 4); on peut supposer en outre que, pour $1 \leq j \leq l$, $\mathbf{X}_j$ correspond à la valeur propre $\exp \frac{2i\pi m_j}{h}$ de $c \otimes 1$. Il est clair que $S'$ s’identifie à l’algèbre $\mathbf{C}[\mathbf{X}_1, \ldots, \mathbf{X}_l]$, et l’on peut écrire $u_j \otimes 1 = f_j(\mathbf{X}_1, \ldots, \mathbf{X}_l)$, où $f_j$ est un polynôme homogène de degré $p_j$ dans $\mathbf{C}[\mathbf{X}_1, \ldots, \mathbf{X}_l]$. Posons $D_j = \frac{\partial}{\partial \mathbf{X}_j}$, et $J(\mathbf{X}_1, \ldots, \mathbf{X}_l) = \det(D_k f_j)$. Rappelons (§ 5, n° 4, prop. 5) que $J(\mathbf{X}_1, \ldots, \mathbf{X}_l)$ est proportionnel au produit dans $S'$ de $\mathrm{Card}(\mathfrak{S})$ vecteurs $y_k$ de $V$ donc chacun est orthogonal à un hyperplan de $\mathfrak{S}$. Comme on peut supposer que $\mathbf{X}_1 \notin H \otimes \mathbf{C}$ pour tout $H \in \mathfrak{S}$ (*Remarque*), les composantes sur $\mathbf{X}_1$ de chacun des vecteurs $y_k$ sont $\neq 0$, donc $J(1, 0, 0, \ldots, 0) \neq 0$. La règle de développement d’un déterminant prouve alors l’existence d’une permutation $\sigma$ de $\{1, 2, \ldots, l\}$ telle que $(D_{\sigma(j)} f_j)(1, 0, 0, \ldots, 0) \neq 0$ pour tout $j$. Comme $D_{\sigma(j)} f_j$ est homogène de degré $p_j - 1$, le coefficient de $X_1^{p_j-1} X_{\sigma(j)}$ dans $f_j(\mathbf{X}_1, \ldots, \mathbf{X}_l)$ est non nul. Or $f_j(\mathbf{X}_1, \ldots, \mathbf{X}_l)$ est invariant par $c \otimes 1$, et
 
 $$(c \otimes 1)(X_1^{p_j-1} X_{\sigma(j)}) = (\exp \frac{2i\pi}{h} (p_j - 1 + m_{\sigma(j)}))(X_1^{p_j-1} X_{\sigma(j)}).$$
 
-Ceci prouve que $p_j - 1 + m_{\sigma(j)} \equiv 0$ (mod. $h$). Or $h - m_{\sigma(j)}$ est un exposant (formule (2)). En permutant les $u_j$, on peut donc supposer que $p_j - 1 \equiv m_j$ (mod. $h$) pour tout $j$. Comme $p_j - 1 \geq 0$ et $m_j < h$, on a $p_j - 1 = m_j + \mu_j h$ avec $\mu_j$ entier $\geq 0$. D’après le \S 5, prop. 3, on voit que
+Ceci prouve que $p_j - 1 + m_{\sigma(j)} \equiv 0$ (mod. $h$). Or $h - m_{\sigma(j)}$ est un exposant (formule (2)). En permutant les $u_j$, on peut donc supposer que $p_j - 1 \equiv m_j$ (mod. $h$) pour tout $j$. Comme $p_j - 1 \geq 0$ et $m_j < h$, on a $p_j - 1 = m_j + \mu_j h$ avec $\mu_j$ entier $\geq 0$. D’après le § 5, prop. 3, on voit que
 
 $$\mathrm{Card}(\mathfrak{S}) = \sum_{j=1}^l (p_j - 1) = \sum_{j=1}^l m_j + h \sum_{j=1}^l \mu_j.$$
 
@@ -243,7 +243,7 @@ Compte tenu de la formule (3) et du th. 1 (ii), on obtient $h \sum_{j=1}^l \mu_j
 #### Corollaire 1 {#lie-v-s6-prop-3-cor-1 .statement}
 
 *Si* $(m_i)_{1 \leq i \leq l}$ *est la suite croissante des exposants de* $W$, *l’ordre de* $W$ *est égal à* $(m_1 + 1)(m_2 + 1) \ldots (m_l + 1)$.
-Ceci résulte des relations $m_j + 1 = p_j$ et du \S 5, n° 3, cor. du th. 3.
+Ceci résulte des relations $m_j + 1 = p_j$ et du § 5, n° 3, cor. du th. 3.
 
 #### Corollaire 2 {#lie-v-s6-prop-3-cor-2 .statement}
 
@@ -253,7 +253,7 @@ $$\exp \left( \frac{2i\pi}{h} \right) \text{ et } \exp \left( -\frac{2i\pi}{h} \
 
 *sont des valeurs propres de multiplicité* 1 *de* $c$.
 
-Dans le cas contraire, il existerait deux invariants homogènes de degré 2 non proportionnels dans $S$, d’où deux formes quadratiques non proportionnelles sur $V^*$ invariantes par $W$, contrairement au \S 2, n° 1, prop. 1.
+Dans le cas contraire, il existerait deux invariants homogènes de degré 2 non proportionnels dans $S$, d’où deux formes quadratiques non proportionnelles sur $V^*$ invariantes par $W$, contrairement au § 2, n° 1, prop. 1.
 
 #### Corollaire 3 {#lie-v-s6-prop-3-cor-3 .statement}
 

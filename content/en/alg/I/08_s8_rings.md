@@ -61,7 +61,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 16
-content_sha256: d6d2b6c428964b0044a3bec3a5ca13459ca21de10ffcf02600892b46734789d7
+content_sha256: 82f3b9f6c044b6246eb0c2be0d3c2c67423e560bf34edc83e7cf960aed7cd234
 ---
 
 ## § 8. RINGS
@@ -124,7 +124,7 @@ $$
 1 + x + x^2 + \cdots + x^{n-1}.
 $$
 
-As A is a commutative group under addition, the element $nx$ for $n \in \mathbf{Z}$ and $x \in \mathbf{A}$ has been defined (\S 2, no. 8). As $\gamma_x$ and $\delta_x$ are endomorphisms of the additive group A, $\gamma_x(ny) = n\gamma_x(y)$ and $\delta_y(nx) = n\delta_y(x)$, whence
+As A is a commutative group under addition, the element $nx$ for $n \in \mathbf{Z}$ and $x \in \mathbf{A}$ has been defined (§ 2, no. 8). As $\gamma_x$ and $\delta_x$ are endomorphisms of the additive group A, $\gamma_x(ny) = n\gamma_x(y)$ and $\delta_y(nx) = n\delta_y(x)$, whence
 $$
 x.(ny) = (nx).y = n.(xy).
 $$
@@ -134,7 +134,7 @@ A set A with addition and multiplication satisfying the axioms of a ring with th
 
 ### 2. CONSEQUENCES OF DISTRIBUTIVITY
 
-Distributivity of multiplication with respect to addition allows us to apply Proposition 1 of \S 3, no. 4, which gives
+Distributivity of multiplication with respect to addition allows us to apply Proposition 1 of § 3, no. 4, which gives
 $$
 \prod_{i=1}^n \left( \sum_{\lambda \in L_i} x_{i,\lambda} \right) = \sum_{\alpha_1, \ldots, \alpha_n} \prod_{i=1}^n x_{i, \alpha_i}
 $$
@@ -298,7 +298,7 @@ Let $f : A \to B$ be a ring homomorphism. The mapping $f$ is a homomorphism of t
 
 (1) Let A be a ring. It is immediately seen that the mapping $n \mapsto n \cdot 1$ of $\mathbf{Z}$ into A is the unique homomorphism of $\mathbf{Z}$ into A. In particular, the identity mapping of $\mathbf{Z}$ is the unique endomorphism of the ring $\mathbf{Z}$.
 
-In particular, take A to be the endomorphism ring of the additive group $\mathbf{Z}$ (no. 3, Example VI). The mapping $n \mapsto n \cdot 1$ of $\mathbf{Z}$ into A is an isomorphism of $\mathbf{Z}$ onto A by the very construction of multiplication in $\mathbf{Z}$ (\S 2, no. 6).
+In particular, take A to be the endomorphism ring of the additive group $\mathbf{Z}$ (no. 3, Example VI). The mapping $n \mapsto n \cdot 1$ of $\mathbf{Z}$ into A is an isomorphism of $\mathbf{Z}$ onto A by the very construction of multiplication in $\mathbf{Z}$ (§ 2, no. 6).
 
 (2) Let $a$ be an invertible element of a ring A. The mapping $x \mapsto axa^{-1}$ is an endomorphism of A for
 
@@ -430,7 +430,7 @@ Let $A$ be a ring and $a$ a two-sided ideal of $A$.
 
 By construction, $\pi(x + y) = \pi(x) + \pi(y)$ and $\pi(xy) = \pi(x)\pi(y)$ for $x, y$ in $A$; also $\pi(1)$ is the unit $\varepsilon$ of $A/a$, whence (a).
 
-Let $A^+$ be the additive group of $A$ and $B^+$ that of $B$; as $f$ is a homomorphism of $A^+$ into $B^+$, zero on the subgroup $a$ of $A^+$, there exists (\S 4, no. 4, Proposition 5) one and only one homomorphism $\bar{f}$ of $A^+/a$ into $B^+$ such that $f = \bar{f} \circ \pi$. Let $\xi, \eta$ be in $A/a$; choose $x, y$ in $A$ with $\pi(x) = \xi$ and $\pi(y) = \eta$; then $\xi \eta = \pi(xy)$, whence
+Let $A^+$ be the additive group of $A$ and $B^+$ that of $B$; as $f$ is a homomorphism of $A^+$ into $B^+$, zero on the subgroup $a$ of $A^+$, there exists (§ 4, no. 4, Proposition 5) one and only one homomorphism $\bar{f}$ of $A^+/a$ into $B^+$ such that $f = \bar{f} \circ \pi$. Let $\xi, \eta$ be in $A/a$; choose $x, y$ in $A$ with $\pi(x) = \xi$ and $\pi(y) = \eta$; then $\xi \eta = \pi(xy)$, whence
 
 $$
 \bar{f}(\xi \eta) = \bar{f}(\pi(xy)) = f(xy) = f(x)f(y) = \bar{f}(\xi)\bar{f}(\eta)
@@ -445,7 +445,7 @@ Let $A$ and $B$ be rings and $f$ a homomorphism of $A$ into $B$.
 (b) The image $B' = f(B)$ of $f$ is a subring of $B$.
 (c) Let $\pi : A \to A/a$ and $i : B' \to B$ be the canonical morphisms. There exists one and only one morphism $\bar{f}$ of $A/a$ into $B'$ such that $f = i \circ \bar{f} \circ \pi$ and $\bar{f}$ is an isomorphism.
 
-As $f$ is a morphism of the additive group of $A$ into that of $B$, $a$ is a subgroup of $A$. If $x \in a$ and $a \in A$, then $f(ax) = f(a)f(x) = 0$, hence $ax \in a$ and similarly $xa \in a$; hence $a$ is a two-sided ideal of $A$. Assertion (b) is obvious. As $f$ is zero on $a$, there exists a morphism $\bar{f}$ of $A/a$ into $B'$ such that $f = i \circ \bar{f} \circ \pi$ (Theorem 2). The uniqueness of $\bar{f}$ and the fact that $\bar{f}$ is an isomorphism follow from Set Theory, II, \S 6, no. 4.
+As $f$ is a morphism of the additive group of $A$ into that of $B$, $a$ is a subgroup of $A$. If $x \in a$ and $a \in A$, then $f(ax) = f(a)f(x) = 0$, hence $ax \in a$ and similarly $xa \in a$; hence $a$ is a two-sided ideal of $A$. Assertion (b) is obvious. As $f$ is zero on $a$, there exists a morphism $\bar{f}$ of $A/a$ into $B'$ such that $f = i \circ \bar{f} \circ \pi$ (Theorem 2). The uniqueness of $\bar{f}$ and the fact that $\bar{f}$ is an isomorphism follow from Set Theory, II, § 6, no. 4.
 
 ### 8. SUBRINGS AND IDEALS IN A QUOTIENT RING
 
@@ -461,7 +461,7 @@ Let $A$ and $A'$ be two rings, $f$ a homomorphism of $A$ into $A'$ and $a$ the k
 
 (a) and (b) are obvious, except the last assertion of (a) which follows from no. 7, Theorem 3.
 
-The composite morphism $g : A \to A' \to A'/b'$ considered in (c) has kernel $b$ and hence $\bar{f}$ is an injective morphism of $A/b$ into $A'/b'$ (\S 8, no. 7, Theorem 3). If $f$ is surjective, $g$ is surjective and hence $\bar{f}$ is surjective.
+The composite morphism $g : A \to A' \to A'/b'$ considered in (c) has kernel $b$ and hence $\bar{f}$ is an injective morphism of $A/b$ into $A'/b'$ (§ 8, no. 7, Theorem 3). If $f$ is surjective, $g$ is surjective and hence $\bar{f}$ is surjective.
 
 Suppose $f$ is surjective. By the above, the mapping $\theta : B' \mapsto \bar{f}(B')^{-1}$ is a mapping of $\Phi'$ into $\Phi$. Clearly the mapping $\eta : B \mapsto f(B)$ is a mapping of $\Phi$ into $\Phi'$. Then $\theta \circ \eta = \mathrm{Id}_{\Phi}, \eta \circ \theta = \mathrm{Id}_{\Phi'},$ whence (d).
 
@@ -535,7 +535,7 @@ Suppose that $a_i$ is a two-sided ideal for all $i \in I$ and let $f_i$ denote t
 
 Let $(I_\lambda)_{\lambda \in L}$ be a partition of $I$. The canonical bijection of $\prod_{i \in I} A_i$ onto $\prod_{\lambda \in L} \left( \prod_{i \in I_\lambda} A_i \right)$ is a ring isomorphism, under which these two rings are identified.
 
-Let $J \subset I$. Let $e_J$ denote the element $(x_i)_{i \in I}$ of $A$ defined by $x_i = 1_i$ for $i \in J$, $x_i = 0_i$ for $i \in I - J$. Then $e_J$ is a central idempotent ($\S 1$, no. 4) of $A$. The following formulae follow immediately:
+Let $J \subset I$. Let $e_J$ denote the element $(x_i)_{i \in I}$ of $A$ defined by $x_i = 1_i$ for $i \in J$, $x_i = 0_i$ for $i \in I - J$. Then $e_J$ is a central idempotent ($§ 1$, no. 4) of $A$. The following formulae follow immediately:
 
 $$
 \begin{align*}
@@ -621,7 +621,7 @@ Let A be a ring. Let $(a_i)_{i \in I}$ be a finite family of subgroups of the ad
 
 *Example*: *Ideals and quotient rings of* $\mathbf{Z}$
 
-An ideal of $\mathbf{Z}$ is an additive subgroup of $\mathbf{Z}$ and hence of the form $n.\mathbf{Z}$ with $n \geqslant 0$; conversely, for every integer $n \geqslant 0$, the set $n.\mathbf{Z}$ is an ideal, the principal ideal $(n)$. Thus every ideal of $\mathbf{Z}$ is principal and is represented uniquely in the form $n\mathbf{Z}$ with $n \geqslant 0$. The ideal $(1)$ is equal to $\mathbf{Z}$, the ideal $(0)$ consists of 0 and the ideals distinct from $\mathbf{Z}$ and $\{0\}$ are therefore of the form $n\mathbf{Z}$ with $n > 1$. If $m \geqslant 1$ and $n \geqslant 1$, $m\mathbf{Z} \supset n\mathbf{Z}$ if and only if $n \in m.\mathbf{Z}$, that is $m$ divides $n$. Therefore, for the ideal $n\mathbf{Z}$ to be maximal, it is necessary and sufficient that there exist no integer $m > 1$ distinct from $n$ and dividing $n$; in other words, *the maximal ideals of* $\mathbf{Z}$ *are the ideals of the form* $p\mathbf{Z}$ *where* $p$ *is a prime number* (\$ 4, no. 10, Definition 16).
+An ideal of $\mathbf{Z}$ is an additive subgroup of $\mathbf{Z}$ and hence of the form $n.\mathbf{Z}$ with $n \geqslant 0$; conversely, for every integer $n \geqslant 0$, the set $n.\mathbf{Z}$ is an ideal, the principal ideal $(n)$. Thus every ideal of $\mathbf{Z}$ is principal and is represented uniquely in the form $n\mathbf{Z}$ with $n \geqslant 0$. The ideal $(1)$ is equal to $\mathbf{Z}$, the ideal $(0)$ consists of 0 and the ideals distinct from $\mathbf{Z}$ and $\{0\}$ are therefore of the form $n\mathbf{Z}$ with $n > 1$. If $m \geqslant 1$ and $n \geqslant 1$, $m\mathbf{Z} \supset n\mathbf{Z}$ if and only if $n \in m.\mathbf{Z}$, that is $m$ divides $n$. Therefore, for the ideal $n\mathbf{Z}$ to be maximal, it is necessary and sufficient that there exist no integer $m > 1$ distinct from $n$ and dividing $n$; in other words, *the maximal ideals of* $\mathbf{Z}$ *are the ideals of the form* $p\mathbf{Z}$ *where* $p$ *is a prime number* (§ 4, no. 10, Definition 16).
 
 Let $m$ and $n$ be two integers $\geqslant 1$. The ideal $m\mathbf{Z} + n\mathbf{Z}$ is principal, whence there is an integer $d \geqslant 1$ characterized by $d\mathbf{Z} = m\mathbf{Z} + n\mathbf{Z}$; for every integer r \geqslant 1, the relation "r divides d" is equivalent to $r\mathbf{Z} \supset d\mathbf{Z}$ and hence to "$r\mathbf{Z} \supset m\mathbf{Z}$ and $r\mathbf{Z} \supset n\mathbf{Z}$", that is to "r divides m and n". It is thus seen that the common divisors of m and n are the divisors of d and that d is *the greatest* of the divisors $\geqslant 1$ common to m and n; d is called *the greatest common divisor* (abbreviated to g.c.d.) of m and n. As $d\mathbf{Z} = m\mathbf{Z} + n\mathbf{Z}$, there exist two integers x and y such that $d = mx + ny$. m and n are said to be *relatively prime* if their g.c.d. is equal to 1. It amounts to the same to assume that there exist integers x and y with $mx + ny = 1$.
 
@@ -643,7 +643,7 @@ The above results, as also those concerning decomposition into prime factors, wi
 
 #### Theorem 4 {#alg-i-s8-thm-4 .statement}
 
-*Let A be a commutative ring and S a subset of A. Let $A_S$ be the monoid of fractions of A (provided only with multiplication) with denominators in S (\S 2, no. 4). Let $\varepsilon : A \to A_S$ be the canonical morphism. There exists on $A_S$ one and only one addition satisfying the following conditions:
+*Let A be a commutative ring and S a subset of A. Let $A_S$ be the monoid of fractions of A (provided only with multiplication) with denominators in S (§ 2, no. 4). Let $\varepsilon : A \to A_S$ be the canonical morphism. There exists on $A_S$ one and only one addition satisfying the following conditions:
 (a) $A_S$, with this addition and its multiplication, is a commutative ring;
 (b) $\varepsilon$ is a ring homomorphism.*
 

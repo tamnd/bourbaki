@@ -32,9 +32,9 @@ subsections:
       pdf_page: 40
 statements: 26
 exercises: 10
-content_sha256: 556f4c2f6c94f50800aa22649fb911162efa4e5992d47e88744e3f86aab409e0
+content_sha256: 5562b4681c83c20050e0ed264482614f3e968e4e9928eaf76464b16d881221e1
 translated_from: content/en/top/I/02_s2_continuous_functions.md
-source_content_sha256: de676d150cd076c42ee9491ceb3438511e6983bcd98ca888740383d9a0a55b16
+source_content_sha256: 16e7ac6daa7f6e8d5016ffb450612e74265560ae6512c3a4b479d5b88d5f0cf7
 translation_model: gpt-5.4
 translation_run: translate-vi-a475e41b
 glossary_version: 34
@@ -52,7 +52,7 @@ Một ánh xạ $f$ từ một không gian tôpô $X$ vào một không gian tô
 
 Định nghĩa 1 có thể được phát biểu lại dưới dạng trực quan hơn sau đây: nói rằng $f$ liên tục tại điểm $x_0$ có nghĩa là $f(x)$ gần $f(x_0)$ đến mức tùy ý mỗi khi $x$ đủ gần $x_0$.
 
-Quan hệ "với mỗi $x \in V, f(x) \in V'$" là tương đương với $f(V) \subset V'$ hoặc cũng tương đương với $V \subset \overline{f}^{-1}(V')$; xét theo tiên đề lân cận ($V_I$), ta thấy rằng Định nghĩa 1 tương đương với điều sau đây: $f : X \to X'$ được gọi là liên tục tại điểm $x_0$ nếu, với mỗi lân cận $V'$ của $f(x_0)$ trong $X'$, $\overline{f}^{-1}(V')$ là một lân cận của $x_0$ trong $X$. Hơn nữa, chỉ cần $\overline{f}^{-1}(V')$ là một lân cận của $x_0$ đối với mỗi lân cận $V'$ thuộc một hệ lân cận cơ bản của $f(x_0)$ trong $X'$ ($\S 1$, no. 3).
+Quan hệ "với mỗi $x \in V, f(x) \in V'$" là tương đương với $f(V) \subset V'$ hoặc cũng tương đương với $V \subset \overline{f}^{-1}(V')$; xét theo tiên đề lân cận ($V_I$), ta thấy rằng Định nghĩa 1 tương đương với điều sau đây: $f : X \to X'$ được gọi là liên tục tại điểm $x_0$ nếu, với mỗi lân cận $V'$ của $f(x_0)$ trong $X'$, $\overline{f}^{-1}(V')$ là một lân cận của $x_0$ trong $X$. Hơn nữa, chỉ cần $\overline{f}^{-1}(V')$ là một lân cận của $x_0$ đối với mỗi lân cận $V'$ thuộc một hệ lân cận cơ bản của $f(x_0)$ trong $X'$ ($§ 1$, no. 3).
 
 #### Mệnh đề 1 {#top-i-s2-prop-1 .statement}
 
@@ -96,7 +96,7 @@ $$
 
 và do đó $x \in \overline{f^{-1}(A')} \subset \overline{f^{-1}(V')}$. Theo giả thiết, $\overline{f^{-1}(A')}$ là mở trong $X$, nên $\overline{f^{-1}(V')}$ là một lân cận của $x$ trong $X$. Vậy d) suy ra a).
 
-Nhận xét. 1) Cho $\mathcal{B}$ là một cơ sở (\S 1, no. 3) của tôpô của $X'$; khi đó để $f : X \to X'$ liên tục, điều kiện cần và đủ là $\overline{f^{-1}(U')}$ mở trong $X$ với mọi $U' \in \mathcal{B}$.
+Nhận xét. 1) Cho $\mathcal{B}$ là một cơ sở (§ 1, no. 3) của tôpô của $X'$; khi đó để $f : X \to X'$ liên tục, điều kiện cần và đủ là $\overline{f^{-1}(U')}$ mở trong $X$ với mọi $U' \in \mathcal{B}$.
 
 #### Ví dụ {#top-i-s2-n1-exa-2 .statement}
 
@@ -120,7 +120,7 @@ Tương tự, ánh xạ $x \to ax$ là liên tục trên $\mathbf{Q}$; điều n
 
 2) Để một song ánh $f$ của một không gian tôpô $X$ lên một không gian tôpô $X'$ là một đồng phôi, điều kiện cần và đủ là $f$ và nghịch đảo của $f$ đều liên tục (hay, như người ta cũng nói, là $f$ song liên tục).
 
-Mệnh đề thứ nhất là một hệ quả ngay lập tức của Mệnh đề 2; mệnh đề thứ hai suy ra từ Định lý 1, d) và định nghĩa của một đồng phôi (\$ 1, no. 1).
+Mệnh đề thứ nhất là một hệ quả ngay lập tức của Mệnh đề 2; mệnh đề thứ hai suy ra từ Định lý 1, d) và định nghĩa của một đồng phôi (§ 1, no. 1).
 
 #### Nhận xét 1 {#top-i-s2-n1-rem-1 .statement}
 
@@ -132,7 +132,7 @@ Có thể có một song ánh liên tục của một không gian tôpô $X$ lê
 
 #### Nhận xét 3 {#top-i-s2-n1-rem-3 .statement}
 
-Cho $X$ là một không gian tôpô, và với mỗi $x \in X$ gọi $\mathcal{B}(x)$ là tập hợp tất cả các lân cận của $x$. Cho $x_0$ là một điểm của $X$; với mỗi $x \in X$, định nghĩa một tập hợp $\mathcal{B}_0(x)$ gồm các tập hợp con của $X$ như sau: $\mathcal{B}_0(x_0) = \mathcal{B}(x_0)$, và nếu $x \neq x_0$ thì $\mathcal{B}_0(x)$ là tập hợp tất cả các tập hợp con của $X$ chứa $x$. Kiểm tra ngay lập tức được (\$ 1, no. 2, Mệnh đề 2) rằng các tập hợp $\mathcal{B}_0(x)$ là các hệ lân cận của các điểm của $X$ đối với một tôpô trên $X$; gọi $X_0$ là không gian tôpô nhận được như vậy, và gọi $j : X_0 \to X$ là ánh xạ đồng nhất, liên tục nhưng nói chung không song liên tục. Một ánh xạ $f$ từ $X$ vào một không gian tôpô $X'$ là liên tục tại điểm $x_0$ nếu và chỉ nếu hợp thành $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ là liên tục trên $X_0$; điều này suy ra ngay lập tức từ các định nghĩa.
+Cho $X$ là một không gian tôpô, và với mỗi $x \in X$ gọi $\mathcal{B}(x)$ là tập hợp tất cả các lân cận của $x$. Cho $x_0$ là một điểm của $X$; với mỗi $x \in X$, định nghĩa một tập hợp $\mathcal{B}_0(x)$ gồm các tập hợp con của $X$ như sau: $\mathcal{B}_0(x_0) = \mathcal{B}(x_0)$, và nếu $x \neq x_0$ thì $\mathcal{B}_0(x)$ là tập hợp tất cả các tập hợp con của $X$ chứa $x$. Kiểm tra ngay lập tức được (§ 1, no. 2, Mệnh đề 2) rằng các tập hợp $\mathcal{B}_0(x)$ là các hệ lân cận của các điểm của $X$ đối với một tôpô trên $X$; gọi $X_0$ là không gian tôpô nhận được như vậy, và gọi $j : X_0 \to X$ là ánh xạ đồng nhất, liên tục nhưng nói chung không song liên tục. Một ánh xạ $f$ từ $X$ vào một không gian tôpô $X'$ là liên tục tại điểm $x_0$ nếu và chỉ nếu hợp thành $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ là liên tục trên $X_0$; điều này suy ra ngay lập tức từ các định nghĩa.
 
 ### 2. SO SÁNH CÁC TÔPÔ
 
@@ -277,7 +277,7 @@ khi đó cũng có $x = h_{\lambda \mu}(y)$ và do đó, theo (ii), $x \in A_{\l
 
 Bây giờ giả sử rằng mỗi $X_\lambda$ là một *không gian tôpô*, và gọi $\mathcal{T}_\lambda$ là tôpô của nó. Gọi $\mathcal{T}$ là tôpô mịn nhất trên tập hợp $X/R$ sao cho các ánh xạ $\varphi \circ j_\lambda$ là liên tục; $\mathcal{T}$ là thương theo $R$ của tôpô trên $X$ là *tổng* của các tôpô $\mathcal{T}_\lambda$. Ta nói rằng không gian tôpô $X/R$ (với tôpô $\mathcal{T}$) thu được bằng cách *dán các không gian tôpô* $X_\lambda$ *dọc theo các* $A_{\lambda \mu}$ *bằng các song ánh* $h_{\mu \lambda}$. Khi đó, các tập con *mở* (ứng với *đóng*) của $X/R$ là các ảnh chính tắc của các tập con $B$ của $X$ *bão hòa* đối với $R$ và sao cho $B \cap X_\lambda$ là *mở* (ứng với *đóng*) trong $X_\lambda$ với mỗi $\lambda \in L$.
 
-Vì hạn chế của $\varphi$ trên mỗi $X_\lambda$ là một song ánh lên tập con $X'_\lambda = \varphi(X_\lambda)$ của $X/R$, ta có thể chuyển tôpô $\mathcal{T}_\lambda$ sang $X'_\lambda$ bằng song ánh này, sao cho $X'_\lambda$ mang một tôpô $\mathcal{T}'_\lambda$; và tôpô $\mathcal{T}$ trên $X/R$ là tôpô *mịn nhất* mà đối với nó các đơn ánh chính tắc $X'_\lambda \to X/R$ là liên tục. Nói chung, tôpô cảm sinh bởi $\mathcal{T}$ trên $X'_\lambda$ *thô hơn* $\mathcal{T}'_\lambda$, nhưng không đồng nhất với tôpô sau; ngay cả khi các $h_{\mu \lambda}$ là những đồng phôi (\S 3, Bài tập 15). Tuy nhiên, suy ra từ no. 4, Mệnh đề 8 rằng, với các ký hiệu trên đây:
+Vì hạn chế của $\varphi$ trên mỗi $X_\lambda$ là một song ánh lên tập con $X'_\lambda = \varphi(X_\lambda)$ của $X/R$, ta có thể chuyển tôpô $\mathcal{T}_\lambda$ sang $X'_\lambda$ bằng song ánh này, sao cho $X'_\lambda$ mang một tôpô $\mathcal{T}'_\lambda$; và tôpô $\mathcal{T}$ trên $X/R$ là tôpô *mịn nhất* mà đối với nó các đơn ánh chính tắc $X'_\lambda \to X/R$ là liên tục. Nói chung, tôpô cảm sinh bởi $\mathcal{T}$ trên $X'_\lambda$ *thô hơn* $\mathcal{T}'_\lambda$, nhưng không đồng nhất với tôpô sau; ngay cả khi các $h_{\mu \lambda}$ là những đồng phôi (§ 3, Bài tập 15). Tuy nhiên, suy ra từ no. 4, Mệnh đề 8 rằng, với các ký hiệu trên đây:
 
 #### Mệnh đề 9 {#top-i-s2-prop-9 .statement}
 

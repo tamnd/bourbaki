@@ -52,9 +52,9 @@ subsections:
       pdf_page: 104
 statements: 37
 exercises: 8
-content_sha256: 2c986b99d5442799eb77cdf2d89a4c5ecee359a8959743015897075306ff44b7
+content_sha256: 3ffaad69e4c51cb0c52b78fd4cc19798e08f050732b281cc2569a1c7dfe32e40
 translated_from: content/en/lie/V/03_s3_groups_of_displacements_generated_by.md
-source_content_sha256: d48de084541fb3d9180791989dbb7e58c409b75d10c12c207e63d55ed9f6a535
+source_content_sha256: 1c842248981aa3499f6d0c694b091d7fdc85d7891f8b8c4597b78898e623b377
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-19cfa37a
 glossary_version: 34
@@ -66,12 +66,12 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong đoạn này, ta ký hiệu bởi E một không gian affine thực có số chiều hữu hạn d, và bởi T không gian các phép tịnh tiến của E. Ta giả sử rằng T được trang bị một tích vô hướng (nghĩa là một dạng song tuyến tính không suy biến, dương, đối xứng), ký hiệu bởi $(t|t')$. Với $t \in T$, đặt $\|t\| = (t|t)^{1/2}$. Hàm $d(x, y) = \|x - y\|$ là một khoảng cách trên E, xác định tôpô của E (§ 1).
 
-Ta ký hiệu bởi $\mathfrak{H}$ một tập hợp các siêu phẳng của E và bởi W nhóm các phép dời của không gian Euclid E sinh bởi các phản xạ trực giao s_H đối với các siêu phẳng H ∈ 𝓗 ($\S 2$, no. 4). Ta giả sử rằng các điều kiện sau được thỏa mãn:
+Ta ký hiệu bởi $\mathfrak{H}$ một tập hợp các siêu phẳng của E và bởi W nhóm các phép dời của không gian Euclid E sinh bởi các phản xạ trực giao s_H đối với các siêu phẳng H ∈ 𝓗 ($§ 2$, no. 4). Ta giả sử rằng các điều kiện sau được thỏa mãn:
 
 (D1) Với mọi w ∈ W và mọi H ∈ 𝓗, siêu phẳng w(H) thuộc về 𝓗;
 (D2) Nhóm W, được trang bị tôpô rời rạc, tác động đúng trên E.
 
-Vì E là compact địa phương, từ Nhận xét của $\S 4$, no. 5 của Tôpô đại cương, Ch. III, suy ra rằng điều kiện (D2) tương đương với điều kiện sau:
+Vì E là compact địa phương, từ Nhận xét của $§ 4$, no. 5 của Tôpô đại cương, Ch. III, suy ra rằng điều kiện (D2) tương đương với điều kiện sau:
 
 (D'2) Với mọi hai tập con compact K và L của E, tập hợp các w ∈ W sao cho w(K) gặp L là hữu hạn.
 
@@ -83,7 +83,7 @@ Tập hợp các siêu phẳng 𝓗 là hữu hạn địa phương.
 
 Thật vậy, cho K là một tập con compact của E. Nếu một siêu phẳng H ∈ 𝓗 gặp K, thì tập hợp s_H(K) cũng gặp K, vì mọi điểm của K ∩ H đều bất động qua s_H. Tập hợp các H ∈ 𝓗 gặp K do đó là hữu hạn theo (D'2).
 
-Do đó ta có thể áp dụng cho E và 𝓗 các định nghĩa và các kết quả của $\S 1$. Ta sẽ gọi các buồng, mặt, tường, v.v. được xác định trong E bởi 𝓗 đơn giản là các buồng, mặt, tường, v.v. tương đối với W. Mọi phép dời w ∈ W hoán vị các buồng, mặt, tường, v.v.
+Do đó ta có thể áp dụng cho E và 𝓗 các định nghĩa và các kết quả của $§ 1$. Ta sẽ gọi các buồng, mặt, tường, v.v. được xác định trong E bởi 𝓗 đơn giản là các buồng, mặt, tường, v.v. tương đối với W. Mọi phép dời w ∈ W hoán vị các buồng, mặt, tường, v.v.
 
 #### Bổ đề 2 {#lie-v-s3-lem-2 .statement}
 
@@ -102,7 +102,7 @@ $$
 d(a, y) \leq d(a, y') \quad \text{với mọi } y' \text{ trong } J.
 $$
 
-Ta sẽ chứng minh rằng y ∈ $\overline{C}$. Để làm điều này, chỉ cần chỉ ra rằng nếu H là một tường của C thì y ∈ D_H(C) (xem $\S 1$, no. 4, Mệnh đề 9). Vì s_H ∈ W_M, ta có s_H(y) ∈ J và do đó (hình 1)
+Ta sẽ chứng minh rằng y ∈ $\overline{C}$. Để làm điều này, chỉ cần chỉ ra rằng nếu H là một tường của C thì y ∈ D_H(C) (xem $§ 1$, no. 4, Mệnh đề 9). Vì s_H ∈ W_M, ta có s_H(y) ∈ J và do đó (hình 1)
 
 $$
 d(a, y)^2 \leq d(a, s_H(y))^2
@@ -112,9 +112,9 @@ theo (1). Có b ∈ H và hai vectơ t và u sao cho a = b + t và y = b + u, ve
 
 ![Biểu đồ chỉ các điểm a, b, y và một đường thẳng được ghi nhãn s_H(y)](Fig. 1)
 
-(ii) Cho $C'$ là một buồng và $a' \in C'$. Theo điều đã chứng minh, tồn tại $w \in W_{\mathfrak{m}}$ sao cho $w^{-1}(a') \in \overline{C}$; do đó, buồng $C'$ gặp $w(C)$; vì $w(C)$ là hợp của $w(C)$ và các mặt có phần trong rỗng (\S 1, no. 2, Mệnh đề 3), ta có $C' = w(C)$.
+(ii) Cho $C'$ là một buồng và $a' \in C'$. Theo điều đã chứng minh, tồn tại $w \in W_{\mathfrak{m}}$ sao cho $w^{-1}(a') \in \overline{C}$; do đó, buồng $C'$ gặp $w(C)$; vì $w(C)$ là hợp của $w(C)$ và các mặt có phần trong rỗng (§ 1, no. 2, Mệnh đề 3), ta có $C' = w(C)$.
 
-(iii) Ta phải chứng minh rằng $W = W_{\mathfrak{m}}$ và để làm điều này chỉ cần chứng minh rằng $s_{H'} \in W_{\mathfrak{m}}$ với mọi $H' \in \mathfrak{H}$. Bây giờ $H'$ là một tường của ít nhất một buồng $C'$ (\S 1, no. 4, Mệnh đề 8); ta đã thấy rằng tồn tại $w \in W_{\mathfrak{m}}$ sao cho $C' = w(C)$; do đó, tồn tại một tường $H$ của $C$ sao cho $H' = w(H)$, suy ra $s_{H'} = w.s_H.w^{-1} \in W_{\mathfrak{m}}$.
+(iii) Ta phải chứng minh rằng $W = W_{\mathfrak{m}}$ và để làm điều này chỉ cần chứng minh rằng $s_{H'} \in W_{\mathfrak{m}}$ với mọi $H' \in \mathfrak{H}$. Bây giờ $H'$ là một tường của ít nhất một buồng $C'$ (§ 1, no. 4, Mệnh đề 8); ta đã thấy rằng tồn tại $w \in W_{\mathfrak{m}}$ sao cho $C' = w(C)$; do đó, tồn tại một tường $H$ của $C$ sao cho $H' = w(H)$, suy ra $s_{H'} = w.s_H.w^{-1} \in W_{\mathfrak{m}}$.
 
 ### 2. QUAN HỆ VỚI CÁC HỆ COXETER
 
@@ -130,7 +130,7 @@ Cho $C$ là một buồng và cho $S$ là tập hợp các phản xạ đối v�
 
 (iv) Tập hợp các siêu phẳng $H$ sao cho $s_H \in W$ bằng $\mathfrak{H}$.
 
-Mọi phần tử của $S$ có cấp 2 và Bổ đề 2 chỉ ra rằng $S$ sinh $W$. Với mọi tường $H$ của $C$, ký hiệu $P_H$ là tập hợp các phần tử $w \in W$ sao cho các phòng $C$ và $w(C)$ (không gặp $H$) nằm cùng phía của $H$. Ta sẽ kiểm tra các điều kiện (A'), (B') và (C) của Chương IV, \S 1, no. 7.
+Mọi phần tử của $S$ có cấp 2 và Bổ đề 2 chỉ ra rằng $S$ sinh $W$. Với mọi tường $H$ của $C$, ký hiệu $P_H$ là tập hợp các phần tử $w \in W$ sao cho các phòng $C$ và $w(C)$ (không gặp $H$) nằm cùng phía của $H$. Ta sẽ kiểm tra các điều kiện (A'), (B') và (C) của Chương IV, § 1, no. 7.
 
 (A') $1 \in P_H$: Tầm thường.
 
@@ -146,7 +146,7 @@ $$
 
 Bổ đề 2 chỉ ra rằng W tác động bắc cầu trên tập hợp các phòng. Hơn nữa, nếu $w \in W$ sao cho $w(C) = C$, thì $w \in P_H$ với mọi tường H của C, do đó $w = 1$ theo (3). Điều này chứng minh (iii).
 
-Cuối cùng, cho H là một siêu phẳng sao cho $s_H \in W$. Nếu H không thuộc về $\mathfrak{H}$, thì sẽ có ít nhất một phòng $C'$ gặp H (\$1, no. 3, Mệnh đề 7). Mọi điểm của $H \cap C'$ đều bất biến dưới tác động của $s_H$, và do đó thuộc về các phòng $C'$ và $s_H(C')$; vậy $C' = s_H(C')$, điều này mâu thuẫn với (iii) vì $s_H \neq 1$.
+Cuối cùng, cho H là một siêu phẳng sao cho $s_H \in W$. Nếu H không thuộc về $\mathfrak{H}$, thì sẽ có ít nhất một phòng $C'$ gặp H (§ 1, no. 3, Mệnh đề 7). Mọi điểm của $H \cap C'$ đều bất biến dưới tác động của $s_H$, và do đó thuộc về các phòng $C'$ và $s_H(C')$; vậy $C' = s_H(C')$, điều này mâu thuẫn với (iii) vì $s_H \neq 1$.
 
 #### Hệ quả {#lie-v-s3-n2-cor-1 .statement}
 
@@ -183,7 +183,7 @@ Với mọi tập con $A$ của $E$, ký hiệu $W(A)$ là nhóm con của $W$ g
 
 #### Mệnh đề 2 {#lie-v-s3-prop-2 .statement}
 
-Cho $A$ là một tập con không rỗng của $E$, cho $\mathfrak{H}_A$ là tập các siêu phẳng $H \in \mathfrak{H}$ chứa $A$, cho $A'$ là giao của các $H \in \mathfrak{H}_A$, và cho $F$ là một diện của E mở trong $A'$ (\S 1, no. 3, Mệnh đề 7). Khi đó $W(A) = W(A') = W(F)$, và $W(A)$ được sinh bởi các phép phản xạ đối với các siêu phẳng trong $\mathfrak{H}_A$.
+Cho $A$ là một tập con không rỗng của $E$, cho $\mathfrak{H}_A$ là tập các siêu phẳng $H \in \mathfrak{H}$ chứa $A$, cho $A'$ là giao của các $H \in \mathfrak{H}_A$, và cho $F$ là một diện của E mở trong $A'$ (§ 1, no. 3, Mệnh đề 7). Khi đó $W(A) = W(A') = W(F)$, và $W(A)$ được sinh bởi các phép phản xạ đối với các siêu phẳng trong $\mathfrak{H}_A$.
 
 Trước hết ta chứng minh mệnh đề sau:
 
@@ -193,7 +193,7 @@ Ta lập luận bằng quy nạp theo độ dài $q$ của $w$ (đối với t�
 
 Chứng minh Định lý 2: điều này suy ra từ (I) và Bổ đề 2.
 
-Chứng minh Mệnh đề 1: ta biết rằng hai diện phân biệt là rời nhau và có các bao đóng phân biệt (\S 1, no. 2, Hệ quả của Mệnh đề 3). Sự tương đương của (i), (ii) và (iii) suy ra. Mặt khác, rõ ràng là
+Chứng minh Mệnh đề 1: ta biết rằng hai diện phân biệt là rời nhau và có các bao đóng phân biệt (§ 1, no. 2, Hệ quả của Mệnh đề 3). Sự tương đương của (i), (ii) và (iii) suy ra. Mặt khác, rõ ràng là
 
 $$
 \text{(vii)} \Longrightarrow \text{(vi)} \Longrightarrow \text{(v)} \Longrightarrow \text{(iv)} \Longrightarrow \text{(i)}
@@ -201,7 +201,7 @@ $$
 
 và mệnh đề (I) chỉ ra rằng (i) $\Longrightarrow$ (vii).
 
-Chứng minh Mệnh đề 2: cho $A''$ là không gian con afin của $E$ sinh bởi $A$. Rõ ràng, $W(A) = W(A'')$. Theo Mệnh đề 7 của \S 1, no. 3, tồn tại một điểm $x \in A''$ không thuộc bất kỳ siêu phẳng nào $H \in \mathfrak{H} - \mathfrak{H}_A$. Gọi $F_x$ là diện chứa $x$: nó mở trong $A''$ và Mệnh đề 1 chỉ ra rằng
+Chứng minh Mệnh đề 2: cho $A''$ là không gian con afin của $E$ sinh bởi $A$. Rõ ràng, $W(A) = W(A'')$. Theo Mệnh đề 7 của § 1, no. 3, tồn tại một điểm $x \in A''$ không thuộc bất kỳ siêu phẳng nào $H \in \mathfrak{H} - \mathfrak{H}_A$. Gọi $F_x$ là diện chứa $x$: nó mở trong $A''$ và Mệnh đề 1 chỉ ra rằng
 
 $$
 W(F_x) \subset W(A') \subset W(A) = W(A'') \subset W(\{x\}) = W(F_x),
@@ -253,13 +253,13 @@ $$
 
 (iii) Ta có $(e_i|e_j) \leq 0$.
 
-Nếu $H_i$ và $H_j$ song song, $s_i s_j$ là một phép tịnh tiến (\S 2, no. 4, Mệnh đề 5), do đó $m_{ij} = \infty$. Hơn nữa, hoặc là $e_i = e_j$ hoặc là $e_i = -e_j$. Bây giờ, tồn tại một điểm $a$ (tương ứng $a'$) trong bao đóng của C thuộc về $H_i$ (tương ứng $H_j$) nhưng không thuộc về $H_j$ (tương ứng $H_i$). Khi đó $(a' - a|e_i) > 0$ và $(a - a'|e_j) > 0$, điều này loại trừ trường hợp $e_i = e_j$ và chứng minh (i).
+Nếu $H_i$ và $H_j$ song song, $s_i s_j$ là một phép tịnh tiến (§ 2, no. 4, Mệnh đề 5), do đó $m_{ij} = \infty$. Hơn nữa, hoặc là $e_i = e_j$ hoặc là $e_i = -e_j$. Bây giờ, tồn tại một điểm $a$ (tương ứng $a'$) trong bao đóng của C thuộc về $H_i$ (tương ứng $H_j$) nhưng không thuộc về $H_j$ (tương ứng $H_i$). Khi đó $(a' - a|e_i) > 0$ và $(a - a'|e_j) > 0$, điều này loại trừ trường hợp $e_i = e_j$ và chứng minh (i).
 
-Giả sử bây giờ rằng $H_i$ và $H_j$ không song song. Chọn một gốc $a \in H_i \cap H_j$ và đồng nhất T với E bằng song ánh $t \mapsto a + t$. Gọi V là mặt phẳng vuông góc với $H_i \cap H_j$ và đi qua $a$. Đặt $\Gamma = V \cap D_{H_i}(C) \cap D_{H_j}(C)$ (trong đó $D_H(C)$ ký hiệu nửa không gian mở bị chặn bởi H và chứa C ($\S 1$, no. 1)) và gọi D (tương ứng, $D'$) là nửa đường thẳng trong V được chứa trong $H_i \cap V$ (tương ứng, $H_j \cap V$) và trong bao đóng của $\Gamma$. Với một định hướng thích hợp của V, tập hợp $\Gamma$ là hợp của các nửa đường thẳng mở $\Delta$ trong V sao cho
+Giả sử bây giờ rằng $H_i$ và $H_j$ không song song. Chọn một gốc $a \in H_i \cap H_j$ và đồng nhất T với E bằng song ánh $t \mapsto a + t$. Gọi V là mặt phẳng vuông góc với $H_i \cap H_j$ và đi qua $a$. Đặt $\Gamma = V \cap D_{H_i}(C) \cap D_{H_j}(C)$ (trong đó $D_H(C)$ ký hiệu nửa không gian mở bị chặn bởi H và chứa C ($§ 1$, no. 1)) và gọi D (tương ứng, $D'$) là nửa đường thẳng trong V được chứa trong $H_i \cap V$ (tương ứng, $H_j \cap V$) và trong bao đóng của $\Gamma$. Với một định hướng thích hợp của V, tập hợp $\Gamma$ là hợp của các nửa đường thẳng mở $\Delta$ trong V sao cho
 $$
 0 < (\widehat{D}, \widehat{\Delta}) < (\widehat{D}, \widehat{D'}).
 $$
-Gọi $W'$ là nhóm con của W sinh bởi $s_i$ và $s_j$. Với mọi $w \in W'$, các siêu phẳng $w(H_i)$ và $w(H_j)$ thuộc $\mathcal{H}$, chứa $H_i \cap H_j$ và không gặp C. Suy ra rằng chúng không gặp $\Gamma$ ($\S 1$, no. 5, Prop. 10). Hệ quả của Mệnh đề 7 của $\S 2$, no. 5 do đó kéo theo (ii).
+Gọi $W'$ là nhóm con của W sinh bởi $s_i$ và $s_j$. Với mọi $w \in W'$, các siêu phẳng $w(H_i)$ và $w(H_j)$ thuộc $\mathcal{H}$, chứa $H_i \cap H_j$ và không gặp C. Suy ra rằng chúng không gặp $\Gamma$ ($§ 1$, no. 5, Prop. 10). Hệ quả của Mệnh đề 7 của $§ 2$, no. 5 do đó kéo theo (ii).
 
 Cuối cùng, mệnh đề (iii) suy ra ngay lập tức từ (i) và (ii), vì $m_{ij} \geq 2$ với $i \neq j$.
 
@@ -357,7 +357,7 @@ $$
 
 Mệnh đề (i) suy ra ngay lập tức từ Mệnh đề 3, (iii) và Bổ đề 7.
 
-Ta chứng minh (ii). Cho $C$ là một phòng và $M$ là tập hợp các tường của nó. Các mặt của $\overline{C}$ (đối với $\mathfrak{H}$) cũng chính là các mặt đối với $M$ (\S 1, no. 4, Mệnh đề 9).
+Ta chứng minh (ii). Cho $C$ là một phòng và $M$ là tập hợp các tường của nó. Các mặt của $\overline{C}$ (đối với $\mathfrak{H}$) cũng chính là các mặt đối với $M$ (§ 1, no. 4, Mệnh đề 9).
 
 Vì $\mathfrak{M}$ là hữu hạn, chúng có số lượng hữu hạn. Vì một mặt bên chỉ gặp hữu hạn siêu phẳng thuộc $\mathfrak{H}$, tập hợp các siêu phẳng thuộc $\mathfrak{H}$ và gặp $\overline{C}$ là hữu hạn, do đó tập hợp $A(C)$ các vectơ đơn vị trong $T$ vuông góc với một siêu phẳng nào đó thuộc $\mathfrak{H}$ và gặp $\overline{C}$ cũng là hữu hạn. Do đó, tồn tại một số thực $\lambda < 1$ sao cho $(a|a') \leq \lambda$ với $a, a' \in A(C)$ và $a \neq a'$.
 
@@ -421,7 +421,7 @@ $$
 
 Mệnh đề (i) suy ra từ Chap. IV, §1, no. 9. Mặt khác, ta đã thấy rằng các không gian con T_p là bất biến dưới U(W), và T_0 cũng vậy. Cho C là một buồng; vì W_p được sinh bởi các phép phản xạ $s_i(C)$ với $i \in J_p$, rõ ràng rằng $T'_p$ là không gian con trực giao với các $e_i(C)$ với $i \in J_p$, do đó (iv). Hơn nữa, nếu $i \in J_p, j \in J_q$ với $p \neq q$, thì $m_{ij} = 2$ vì $\{i, j\}$ không là một cạnh của đồ thị Coxeter của W, nên $(e_i|e_j) = 0$. Mệnh đề (ii) bây giờ là ngay lập tức. Và mệnh đề (iii) suy ra, vì $T'_q$ là phần bù trực giao của $T_q$.
 
-Cuối cùng, cho V là một không gian con của T_p bất biến dưới U(W_p). Với mọi $i \in J_p$, hoặc $e_i \in V$ hoặc $e_i$ trực giao với V (\S 2, no. 2, Mệnh đề 3). Gọi A (resp. B) là tập hợp các $i \in J_p$ sao cho $e_i \in V$ (resp. $e_i$ trực giao với V). Rõ ràng $(e_i|e_j) = 0$ với $i \in A$ và $j \in B$, và vì $J_p$ liên thông, suy ra hoặc $A = \varnothing$ và $V = \{0\}$, hoặc $A = J_p$ và $V = T_p$. Do đó, biểu diễn của $W_p$ trên $T_p$ là bất khả quy, nên tuyệt đối bất khả quy (\S 2, no. 1, Mệnh đề 1). Nó không tầm thường theo đúng định nghĩa của $T_p$. Cuối cùng, khẳng định cuối cùng trong (v) suy ra ngay lập tức từ (iii).
+Cuối cùng, cho V là một không gian con của T_p bất biến dưới U(W_p). Với mọi $i \in J_p$, hoặc $e_i \in V$ hoặc $e_i$ trực giao với V (§ 2, no. 2, Mệnh đề 3). Gọi A (resp. B) là tập hợp các $i \in J_p$ sao cho $e_i \in V$ (resp. $e_i$ trực giao với V). Rõ ràng $(e_i|e_j) = 0$ với $i \in A$ và $j \in B$, và vì $J_p$ liên thông, suy ra hoặc $A = \varnothing$ và $V = \{0\}$, hoặc $A = J_p$ và $V = T_p$. Do đó, biểu diễn của $W_p$ trên $T_p$ là bất khả quy, nên tuyệt đối bất khả quy (§ 2, no. 1, Mệnh đề 1). Nó không tầm thường theo đúng định nghĩa của $T_p$. Cuối cùng, khẳng định cuối cùng trong (v) suy ra ngay lập tức từ (iii).
 
 Nếu không gian con $T_0$ của các vectơ trong T bất biến dưới U(W) thu về $\{0\}$, thì W được gọi là cốt yếu; nếu biểu diễn U của W trên T là bất khả quy, thì W được gọi là bất khả quy.
 
@@ -571,7 +571,7 @@ Rõ ràng là (i) $\Leftrightarrow$ (ii), vì $L$ là hạt nhân của $U$ và 
 
 Giả sử (i) và lấy $H \in \mathfrak{H}$; khi đó $s_H \in W_a.L$ nên tồn tại một vectơ $t \in \Lambda$ sao cho $a = s_H(a) + t$; vectơ $t$ vuông góc với $H$, và nếu $H' = H + \frac{1}{2} t$ thì $s_{H'}(x) = s_H(x) + t$ với mọi $x \in E$ (xem § 2, no. 4, Mệnh đề 5). Vì $t \in \Lambda$ và $s_H \in W$, ta có $s_{H'} \in W$, do đó $H' \in \mathfrak{H}$; ta cũng có $a = s_{H'}(a)$, nên $a \in H'$. Vậy (i) suy ra (iii).
 
-Giả sử (iii). Cho $H \in \mathfrak{H}$; lấy $H'$ như trong (iii). Khi đó $s_{H'}(a) = a$, nên $s_{H'} \in W_a$; vì $H$ song song với $H'$, phần tử $w = s_{H'} s_H$ của $W$ là một phép tịnh tiến (\S 2, no. 4, Mệnh đề 5), nên $w \in L$; do đó $s_H = s_{H'} w \in W_a . L$. Vì $W$ được sinh bởi họ $(s_H)_{H \in \mathfrak{H}}$, suy ra $W = W_a . L$ và do đó (iii) suy ra (i).
+Giả sử (iii). Cho $H \in \mathfrak{H}$; lấy $H'$ như trong (iii). Khi đó $s_{H'}(a) = a$, nên $s_{H'} \in W_a$; vì $H$ song song với $H'$, phần tử $w = s_{H'} s_H$ của $W$ là một phép tịnh tiến (§ 2, no. 4, Mệnh đề 5), nên $w \in L$; do đó $s_H = s_{H'} w \in W_a . L$. Vì $W$ được sinh bởi họ $(s_H)_{H \in \mathfrak{H}}$, suy ra $W = W_a . L$ và do đó (iii) suy ra (i).
 
 #### Định nghĩa 1 {#lie-v-s3-def-1 .statement}
 

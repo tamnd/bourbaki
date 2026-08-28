@@ -33,9 +33,9 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 3
-content_sha256: 539f8a9893125fe545b5e78ad46cddf42f6b4d8151132f9e53dc586a84bc8474
+content_sha256: 5c39b84d2cb670e1522ae7b420aa7ff83f17bb8855d20d95205cdb3b000208a1
 translated_from: content/en/ac/VI/02_s2_places.md
-source_content_sha256: 77317d3d786c749ffbfb7d9d7477860a00cdaffa086276cdf73ac7a545e3297d
+source_content_sha256: b544413d10331937b891740ab23ca115c16171f1f2b46cac7186286bd8362f62
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ae5239b0
 glossary_version: 34
@@ -165,8 +165,8 @@ Phân tích $f = j \circ h_A$ được gọi là phân tích chính tắc của 
 
 Các ví dụ về các điểm
 (1) Cho $K$ là một trường. Ánh xạ đồng nhất trên $K$ là một điểm tầm thường với vành $K$ và iđêan $(0)$.
-(2) Cho $k$ là một trường. Với mọi $u \in k((T))^\sim$, ta viết $f(u) = \infty$ nếu $u \notin k[[T]]$ và định nghĩa $f(u)$ là số hạng hằng của $u$ nếu $u \in k[[T]]$. Khi đó $f$ là một điểm của $k((T))$, với trường thặng dư $k$ và vành $k[[T]]$. Vì $k[[T]]$ là một vành định giá của $k((T))$ (\S 1, no. 4, Ví dụ 3 ) và hạn chế của $f$ trên $k[[T]]$ được đồng nhất với đồng cấu chính tắc của $k[[T]]$ lên trường thặng dư của nó.
-(3) Cho $k$ là một trường, $a$ là một phần tử của $k$ và $A$ là tập hợp các $u \in k(X)$ sao cho $a$ có thể thế vào $u$ (Đại số, Chương IV, \S 3, no. 2). Nếu $p$ ký hiệu iđêan nguyên tố $(X - a)$ của $k[X]$, thì $A = k[X]_p$, do đó $A$ là một vành định giá của $k(X)$ (\S 1, no. 4, Mệnh đề 2). Với mọi $u \in k(X)^\sim$, ta viết $f(u) = \infty$ nếu $u \notin A$ và $f(u) = u(a)$ nếu $u \in A$. Khi đó $f$ là một điểm của $k(X)$ với trường thặng dư $k$ và vành $A$; vì hạn chế của f trên $A$ là một đồng cấu từ $A$ lên $k$ (Đại số, Chương IV, \S 3, Mệnh đề 2) có hạt nhân $pA = m(A)$. Phần tử $f(u) \in k$ được gọi là thu được bằng cách đặt $X = a$ trong $u$.
+(2) Cho $k$ là một trường. Với mọi $u \in k((T))^\sim$, ta viết $f(u) = \infty$ nếu $u \notin k[[T]]$ và định nghĩa $f(u)$ là số hạng hằng của $u$ nếu $u \in k[[T]]$. Khi đó $f$ là một điểm của $k((T))$, với trường thặng dư $k$ và vành $k[[T]]$. Vì $k[[T]]$ là một vành định giá của $k((T))$ (§ 1, no. 4, Ví dụ 3 ) và hạn chế của $f$ trên $k[[T]]$ được đồng nhất với đồng cấu chính tắc của $k[[T]]$ lên trường thặng dư của nó.
+(3) Cho $k$ là một trường, $a$ là một phần tử của $k$ và $A$ là tập hợp các $u \in k(X)$ sao cho $a$ có thể thế vào $u$ (Đại số, Chương IV, § 3, no. 2). Nếu $p$ ký hiệu iđêan nguyên tố $(X - a)$ của $k[X]$, thì $A = k[X]_p$, do đó $A$ là một vành định giá của $k(X)$ (§ 1, no. 4, Mệnh đề 2). Với mọi $u \in k(X)^\sim$, ta viết $f(u) = \infty$ nếu $u \notin A$ và $f(u) = u(a)$ nếu $u \in A$. Khi đó $f$ là một điểm của $k(X)$ với trường thặng dư $k$ và vành $A$; vì hạn chế của f trên $A$ là một đồng cấu từ $A$ lên $k$ (Đại số, Chương IV, § 3, Mệnh đề 2) có hạt nhân $pA = m(A)$. Phần tử $f(u) \in k$ được gọi là thu được bằng cách đặt $X = a$ trong $u$.
 \* (4) Cho $S$ là một đa tạp giải tích phức liên thông có chiều 1 và $K$ là trường các hàm phân hình trên $S$. Với mọi $z_0 \in S$, ánh xạ $f \mapsto f(z_0)$ từ $K$ đến $\mathbf{C}$ là một điểm của $K$, có vành là tập hợp các $f \in K$ giải tích tại $z_0$ và có iđêan là tập hợp các $f \in K$ bằng không tại $z_0$. Chính ví dụ này và các ví dụ tương tự khác là nguồn gốc của thuật ngữ "điểm".*
 
 ### 4. MỞ RỘNG CỦA CÁC VỊ TRÍ
@@ -175,7 +175,7 @@ Các ví dụ về các điểm
 
 Cho $K$ là một trường, $S$ là một vành con của $K$ và $f$ là một đồng cấu từ $S$ vào một trường đóng đại số $L$. Khi đó tồn tại một vị trí của $K$ với giá trị trong $L$ mở rộng $f$.
 
-Xét đến Mệnh đề 1, đây là bản dịch của Định lý 2 của \S 1, no. 2.
+Xét đến Mệnh đề 1, đây là bản dịch của Định lý 2 của § 1, no. 2.
 
 #### Mệnh đề 4 {#ac-vi-s2-prop-4 .statement}
 

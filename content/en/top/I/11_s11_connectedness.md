@@ -40,7 +40,7 @@ subsections:
       pdf_page: 120
 statements: 28
 exercises: 25
-content_sha256: 46a76d7161a5e446e720a88934e907c604f3c6614dbbd865ff54f5f6fbc61c20
+content_sha256: f12b0f535c856eb0eec6548992165cda0fcb6dde9247c96a02db10d1ed77685b
 ---
 
 ## 11. CONNECTEDNESS
@@ -142,7 +142,7 @@ Suppose $X$ is not connected. Then there is a partition of $X$ into two open set
 
 Every product of connected spaces is connected. Conversely, if a product of non-empty spaces is connected, then each of the factors is connected.
 
-Let $X = \prod_{i \in I} X_i$ be a product of topological spaces. If the $X_i$ are non-empty, we have $X_i = \operatorname{pr}_i X$ for each $i \in I$; hence if $X$ is connected so are the $X_i$ (no. 2, Proposition 4). Conversely, suppose that each of the $X_i$ is connected and $X$ is not. By Proposition 5 of no. 2, there exists a continuous surjective mapping $f : X \to X'$, where $X'$ is a discrete space which contains more than one point. Let $a = (a_i)$ be any point of $X$, and $x$ any index; the partial mapping $f_x : X_x \to X'$, defined by $f_x(x) = f((y_i))$ where $y_x = x$ and $y_i = a_i$ if $i \neq x$, is continuous on $X_x$; since $X_x$ is connected, $f_x$ must be constant on $X_x$. It follows immediately by induction that $f(x) = f(a)$ for all points $x = (x_i)$ such that $x_i = a_i$ for all but a finite number of indices $i \in I$. But these points $x$ form a dense subset of $X$ (\S 4, no. 3, Proposition 8). Hence $f$ is continuous on $X$ and constant on a dense subset of $X$, and therefore constant on $X$ (\S 8, no. 1, Proposition 2, Corollary 1). But this contradicts the definition of $f$.
+Let $X = \prod_{i \in I} X_i$ be a product of topological spaces. If the $X_i$ are non-empty, we have $X_i = \operatorname{pr}_i X$ for each $i \in I$; hence if $X$ is connected so are the $X_i$ (no. 2, Proposition 4). Conversely, suppose that each of the $X_i$ is connected and $X$ is not. By Proposition 5 of no. 2, there exists a continuous surjective mapping $f : X \to X'$, where $X'$ is a discrete space which contains more than one point. Let $a = (a_i)$ be any point of $X$, and $x$ any index; the partial mapping $f_x : X_x \to X'$, defined by $f_x(x) = f((y_i))$ where $y_x = x$ and $y_i = a_i$ if $i \neq x$, is continuous on $X_x$; since $X_x$ is connected, $f_x$ must be constant on $X_x$. It follows immediately by induction that $f(x) = f(a)$ for all points $x = (x_i)$ such that $x_i = a_i$ for all but a finite number of indices $i \in I$. But these points $x$ form a dense subset of $X$ (§ 4, no. 3, Proposition 8). Hence $f$ is continuous on $X$ and constant on a dense subset of $X$, and therefore constant on $X$ (§ 8, no. 1, Proposition 2, Corollary 1). But this contradicts the definition of $f$.
 
 ### 5. COMPONENTS
 
@@ -187,9 +187,9 @@ A necessary and sufficient condition for a space $X$ to be locally connected is 
 
 The condition is sufficient, since the component of $x$ relative to an open neighbourhood of $x$ is then a neighbourhood of $x$ in $X$.
 
-Conversely, let $A$ be an open subset of a locally connected space $X$, let $B$ be a component of $A$, and let $x \in B$. Let $V$ be a connected neighbourhood of $x$ contained in $A$; by the definition of components, $V$ is contained in $B$; hence $B$ is open in $X$ (\S 1, no. 2, Proposition 1).
+Conversely, let $A$ be an open subset of a locally connected space $X$, let $B$ be a component of $A$, and let $x \in B$. Let $V$ be a connected neighbourhood of $x$ contained in $A$; by the definition of components, $V$ is contained in $B$; hence $B$ is open in $X$ (§ 1, no. 2, Proposition 1).
 
-The components of a locally connected space $X$ therefore form a partition of $X$ into open sets, and hence $X$ is the sum (\S 2, no. 4, Example 3) of its components.
+The components of a locally connected space $X$ therefore form a partition of $X$ into open sets, and hence $X$ is the sum (§ 2, no. 4, Example 3) of its components.
 
 #### Corollary {#top-i-s11-n6-cor-1 .statement}
 
@@ -221,11 +221,11 @@ V = \prod_{i \in I} V_i
 $$
 is connected (by Proposition 8 of no. 4) and is a neighbourhood of $x$ contained in U. Hence X is locally connected.
 
-b) Let $a = (a_i)$ be a point of X and let V be a connected neighbourhood of $a$ in X. Since we have $\mathrm{pr}_i V = X_i$ except for a finite number of indices (\S 4, no. 1) it follows from no. 2, Proposition 4 that the $X_i$ are connected, for all but a finite number of indices. On the other hand, for each $x \in I$, each $a_x \in X_x$ and each neighbourhood $V_x$ of $a_x$ in $X_x$, there is a point $x$ of X such that $\mathrm{pr}_x x = a_x$, and
+b) Let $a = (a_i)$ be a point of X and let V be a connected neighbourhood of $a$ in X. Since we have $\mathrm{pr}_i V = X_i$ except for a finite number of indices (§ 4, no. 1) it follows from no. 2, Proposition 4 that the $X_i$ are connected, for all but a finite number of indices. On the other hand, for each $x \in I$, each $a_x \in X_x$ and each neighbourhood $V_x$ of $a_x$ in $X_x$, there is a point $x$ of X such that $\mathrm{pr}_x x = a_x$, and
 $$
 V = V_x \times \prod_{i \neq x} X_i
 $$
-is a neighbourhood of $x$ in X; V therefore contains a connected neighbourhood W of $x$, whose projection $\mathrm{pr}_x W$ is a connected neighbourhood of $a_x$ contained in $V_x$ (no. 2, Proposition 4 and \S 4, no. 2, Proposition 5). Hence each $X_x$ is locally connected.
+is a neighbourhood of $x$ in X; V therefore contains a connected neighbourhood W of $x$, whose projection $\mathrm{pr}_x W$ is a connected neighbourhood of $a_x$ contained in $V_x$ (no. 2, Proposition 4 and § 4, no. 2, Proposition 5). Hence each $X_x$ is locally connected.
 
 ### 7. APPLICATION : THE POINCARÉ-VOLTERRA THEOREM
 
@@ -267,13 +267,13 @@ Let Y be a regular space whose topology has a countable base (*). Let X be a con
 
 First, the hypotheses imply that X is regular (§ 8, no. 4, Proposition 13). Let us show that the conditions of Theorem 1 are satisfied if we take \mathfrak{B} to be the set of all closed subsets V of X such that the restriction of p to V is a homeomorphism of V onto a closed subspace of Y. By hypothesis, the interiors of the sets of \mathfrak{B} cover Y and, by virtue of the assumption on Y, each V \in \mathfrak{B} has a countable base and therefore contains a countable dense subset (§ 1, no. 6, Proposition 6). Furthermore, if x \in p^{-1}(y), there is a neighbourhood V \in \mathfrak{B} of x in X such that V con-
 
-(*) \* It can be shown that these conditions imply that the topology of Y is metrizable (Chapter IX, § 4, Exercise 22). \* tains no point of $\overline{p}^{-1}(y)$ other than $x$, and hence $\overline{p}^{-1}(y)$ is a discrete space. We may therefore apply Theorem 1, which shows that $X$ is the union of a countable family $(T_n)_{n \geq 0}$ of open sets, such that each subspace $T_n$ has a countable base $(U_{mn})_{m \geq 0}$. Then the $U_{mn}$ ($m \geq 0, n \geq 0$) form a base of the topology of $X$ ($\S 3$, no. 1, Remark).
+(*) \* It can be shown that these conditions imply that the topology of Y is metrizable (Chapter IX, § 4, Exercise 22). \* tains no point of $\overline{p}^{-1}(y)$ other than $x$, and hence $\overline{p}^{-1}(y)$ is a discrete space. We may therefore apply Theorem 1, which shows that $X$ is the union of a countable family $(T_n)_{n \geq 0}$ of open sets, such that each subspace $T_n$ has a countable base $(U_{mn})_{m \geq 0}$. Then the $U_{mn}$ ($m \geq 0, n \geq 0$) form a base of the topology of $X$ ($§ 3$, no. 1, Remark).
 
 #### Corollary 2 {#top-i-s11-lem-2-cor-2 .statement}
 
 *Let $X$ be locally compact, connected and locally connected, and suppose each point of $X$ has a neighbourhood which has a countable base. Let $Y$ be a Hausdorff space whose topology has a countable base, and let $p : X \to Y$ be a continuous mapping such that, for each $y \in Y$, $\overline{p}^{-1}(y)$ is a discrete subspace of $X$. Then the topology of $X$ has a countable base.*
 
-For each $x \in X$, let $V_x$ be a compact neighbourhood of $x$ in $X$ which has a countable base. It follows from $\S 9$, no. 4, Theorem 2, Corollary 2, that the set $\mathcal{B}$ of the $V_x$ satisfies the conditions of Theorem 1, and we complete the proof as in Corollary 1.
+For each $x \in X$, let $V_x$ be a compact neighbourhood of $x$ in $X$ which has a countable base. It follows from $§ 9$, no. 4, Theorem 2, Corollary 2, that the set $\mathcal{B}$ of the $V_x$ satisfies the conditions of Theorem 1, and we complete the proof as in Corollary 1.
 
 Notice that, in this corollary, it can happen that the restriction of $p$ to an arbitrarily small neighbourhood $V$ of a point of $X$ *is not a homeomorphism of $V$ onto $p(V)$*.
 
@@ -281,7 +281,7 @@ Notice that, in this corollary, it can happen that the restriction of $p$ to an 
 
 *Let $Y$ be a locally compact, locally connected space whose topology has a countable base. Let $X$ be a connected Hausdorff space, and let $p : X \to Y$ be a continuous mapping which has the following property : for each $x \in X$ there is an open neighbourhood $U$ of $x$ in $X$ such that the restriction of $p$ to $U$ is a homeomorphism of $U$ onto an open subspace of $Y$. Then $X$ is locally compact and locally connected, and the topology of $X$ has a countable base.*
 
-Clearly $X$ is locally connected. Also each $x \in X$ has an open neighbourhood $U$ in $X$ such that the restriction of $p$ to $U$ maps $U$ homeomorphically onto an open subspace $p(U)$ of $Y$. Since $p(U)$ is a locally compact subspace of $Y$ ($\S 9$, no. 7, Proposition 13), there is a compact neighbourhood $W$ of $p(x)$ contained in $p(U)$, whence $U \cap \overline{p}^{-1}(W)$ is a compact neighbourhood of $x$ contained in $U$; thus $X$ is locally compact, since by hypothesis $X$ is Hausdorff. $U \cap \overline{p}^{-1}(W)$, being compact, is closed in $X$ ($\S 9$, no. 3, Proposition 4) and the conditions of Corollary 1 are therefore satisfied; hence the topology of $X$ has a countable base.
+Clearly $X$ is locally connected. Also each $x \in X$ has an open neighbourhood $U$ in $X$ such that the restriction of $p$ to $U$ maps $U$ homeomorphically onto an open subspace $p(U)$ of $Y$. Since $p(U)$ is a locally compact subspace of $Y$ ($§ 9$, no. 7, Proposition 13), there is a compact neighbourhood $W$ of $p(x)$ contained in $p(U)$, whence $U \cap \overline{p}^{-1}(W)$ is a compact neighbourhood of $x$ contained in $U$; thus $X$ is locally compact, since by hypothesis $X$ is Hausdorff. $U \cap \overline{p}^{-1}(W)$, being compact, is closed in $X$ ($§ 9$, no. 3, Proposition 4) and the conditions of Corollary 1 are therefore satisfied; hence the topology of $X$ has a countable base.
 
 ### Exercises {#top-i-s11-exercises}
 

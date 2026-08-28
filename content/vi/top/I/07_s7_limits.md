@@ -36,9 +36,9 @@ subsections:
       pdf_page: 80
 statements: 23
 exercises: 7
-content_sha256: 92b070747ad61a3fbd2013d61946e7f39b68c9228397cf43abe28472cff13701
+content_sha256: cb184c1203214613c5ce5967da10c8fd934e60481be31c4f37ae6f9f564f22ad
 translated_from: content/en/top/I/07_s7_limits.md
-source_content_sha256: 8fe36d3d61f3f8eba3dff884ac608e18a0cc790c414cc3bec399444177eeb152
+source_content_sha256: f4465bca5af48f4fe2251f95b010c5ca18b72eba266e16cfbc6dacf8a1cb9584
 translation_model: gpt-5.4
 translation_run: translate-vi-65ba7a71
 glossary_version: 34
@@ -137,9 +137,9 @@ Từ Định nghĩa 3 và các Mệnh đề 1 (no. 1) và 3 (no. 2) suy ra các 
 
 #### Ví dụ 1 {#top-i-s7-n3-exa-1 .statement}
 
-Một dãy các điểm $(x_n)_{n \in \mathbf{N}}$ của một không gian tôpô là một ánh xạ $n \to x_n$ từ $\mathbf{N}$ vào $X$. Trong giải tích người ta thường dùng các khái niệm điểm giới hạn và điểm tụ của một ánh xạ như thế *đối với bộ lọc Fréchet* (\S 6, no. 1) trên $\mathbf{N}$; nếu $y$ là một giới hạn của $n \to x_n$ đối với bộ lọc Fréchet, thì $y$ được gọi là một *giới hạn của dãy* $(x_n)$ *khi n tiến ra vô hạn*, và ta viết $\lim_{n \to \infty} x_n = y$. Một điểm tụ của ánh xạ $n \to x_n$ đối với bộ lọc Fréchet được gọi là một *điểm tụ của dãy* $(x_n)$.
+Một dãy các điểm $(x_n)_{n \in \mathbf{N}}$ của một không gian tôpô là một ánh xạ $n \to x_n$ từ $\mathbf{N}$ vào $X$. Trong giải tích người ta thường dùng các khái niệm điểm giới hạn và điểm tụ của một ánh xạ như thế *đối với bộ lọc Fréchet* (§ 6, no. 1) trên $\mathbf{N}$; nếu $y$ là một giới hạn của $n \to x_n$ đối với bộ lọc Fréchet, thì $y$ được gọi là một *giới hạn của dãy* $(x_n)$ *khi n tiến ra vô hạn*, và ta viết $\lim_{n \to \infty} x_n = y$. Một điểm tụ của ánh xạ $n \to x_n$ đối với bộ lọc Fréchet được gọi là một *điểm tụ của dãy* $(x_n)$.
 
-Như vậy một điểm $y \in X$ là một giới hạn (tương ứng, điểm tụ) của một dãy $(x_n)$ các điểm của $X$ nếu nó là một điểm giới hạn (tương ứng, điểm tụ) của *bộ lọc sơ cấp liên kết với* $(x_n)$ (\S 6, no. 8).
+Như vậy một điểm $y \in X$ là một giới hạn (tương ứng, điểm tụ) của một dãy $(x_n)$ các điểm của $X$ nếu nó là một điểm giới hạn (tương ứng, điểm tụ) của *bộ lọc sơ cấp liên kết với* $(x_n)$ (§ 6, no. 8).
 
 Điểm $y$ là một giới hạn của một dãy $(x_n)$ trong $X$ khi và chỉ khi, với *mọi* lân cận $V$ của $y$ trong $X$, *mọi số hạng trừ một số hữu hạn của dãy* $(x_n)$ *đều thuộc* $V$, tức là tồn tại một số nguyên $n_0$ sao cho $x_n \in V$ với mọi $n \geq n_0$. Tương tự, $y$ là một điểm tụ của dãy $(x_n)$ khi và chỉ khi, với *mọi* lân cận $V$ của $y$ trong $X$ và *mọi* số nguyên $n_0$, tồn tại một số nguyên $n \geq n_0$ sao cho $x_n \in V$.
 
@@ -153,13 +153,13 @@ Nếu $y$ là một giới hạn (tương ứng, điểm tụ) của một ánh 
 
 *Cho $f$ là một ánh xạ từ một tập hợp $X$ vào một không gian tôpô $Y$; khi đó $y \in Y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$ nếu và chỉ nếu tồn tại một bộ lọc $\mathfrak{G}$ trên $X$ mịn hơn $\mathfrak{F}$ và sao cho $y$ là một giới hạn của $f$ đối với $\mathfrak{G}$.*
 
-Vì nếu $y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$, và nếu $\mathcal{B}$ là bộ lọc lân cận của $y$, thì $\overline{f}^{-1}(\mathcal{B})$ là một cơ sở bộ lọc trên $X$ vì mọi tập hợp của $\overline{f}^{-1}(\mathcal{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$ (\S 6, no. 6). Nhận xét này cũng cho thấy rằng có một bộ lọc $\mathcal{G}$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở $\overline{f}^{-1}(\mathcal{B})$ (\S 6, no. 2, Mệnh đề 1, Hệ quả 2), do đó $y$ là một điểm giới hạn của $f$ đối với $\mathcal{G}$.
+Vì nếu $y$ là một điểm tụ của $f$ đối với $\mathfrak{F}$, và nếu $\mathcal{B}$ là bộ lọc lân cận của $y$, thì $\overline{f}^{-1}(\mathcal{B})$ là một cơ sở bộ lọc trên $X$ vì mọi tập hợp của $\overline{f}^{-1}(\mathcal{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$ (§ 6, no. 6). Nhận xét này cũng cho thấy rằng có một bộ lọc $\mathcal{G}$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở $\overline{f}^{-1}(\mathcal{B})$ (§ 6, no. 2, Mệnh đề 1, Hệ quả 2), do đó $y$ là một điểm giới hạn của $f$ đối với $\mathcal{G}$.
 
 Sau cùng, hãy lưu ý rằng nếu $f$ là một ánh xạ của một tập hợp $X$ vào một không gian tôpô $Y$, thì tập hợp các điểm tụ của $f$ đối với một bộ lọc $\mathfrak{F}$ trên $X$ là *đóng* trong $Y$ (no. 2, Mệnh đề 5) và có thể rỗng.
 
 #### Nhận xét {#top-i-s7-n3-rem-1 .statement}
 
-Nếu $y \in Y$ là một giới hạn (tương ứng, điểm tụ) của một ánh xạ $f : X \to Y$ đối với một bộ lọc $\mathfrak{F}$ trên $X$, thì $y$ cũng là một giới hạn (tương ứng, điểm tụ) của mọi hàm $g : X \to Y$ có *cùng mầm* với $f$ đối với $\mathfrak{F}$ (\S 6, no. 9); khi đó nói rằng $y$ là một *giới hạn* (tương ứng, *điểm tụ*) *của mầm* $\tilde{f}$ *của* $f$ đối với $\mathfrak{F}$.
+Nếu $y \in Y$ là một giới hạn (tương ứng, điểm tụ) của một ánh xạ $f : X \to Y$ đối với một bộ lọc $\mathfrak{F}$ trên $X$, thì $y$ cũng là một giới hạn (tương ứng, điểm tụ) của mọi hàm $g : X \to Y$ có *cùng mầm* với $f$ đối với $\mathfrak{F}$ (§ 6, no. 9); khi đó nói rằng $y$ là một *giới hạn* (tương ứng, *điểm tụ*) *của mầm* $\tilde{f}$ *của* $f$ đối với $\mathfrak{F}$.
 
 ### 4. GIỚI HẠN VÀ TÍNH LIÊN TỤC
 
@@ -171,7 +171,7 @@ $$
 
 và ta nói rằng $y$ là *giới hạn của* $f$ *tại điểm* $a$, hoặc rằng $f(x)$ *tiến tới* $y$ *khi* $x$ *tiến tới* $a$. Tương tự, thay vì nói rằng $y$ là một điểm tụ của $f$ đối với $\mathcal{B}$, ta nói rằng $y$ *là một điểm tụ của* $f$ *tại điểm* $a$.
 
-Việc xét định nghĩa của tính liên tục (\S 2, no. 1, Định nghĩa 1) và Mệnh đề 7 của no. 3 cho thấy rằng:
+Việc xét định nghĩa của tính liên tục (§ 2, no. 1, Định nghĩa 1) và Mệnh đề 7 của no. 3 cho thấy rằng:
 
 #### Mệnh đề 9 {#top-i-s7-prop-9 .statement}
 
@@ -181,7 +181,7 @@ Việc xét định nghĩa của tính liên tục (\S 2, no. 1, Định nghĩa 
 
 *Cho* $X, Y$ *là hai không gian tôpô, $f$ là một ánh xạ của* $X$ *vào* $Y$ *liên tục tại một điểm* $a \in X$; *khi đó, với mọi cơ sở lọc* $\mathcal{B}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở lọc* $f(\mathcal{B})$ *hội tụ đến* $f(a)$. *Ngược lại, nếu với mọi siêu lọc* $\mathcal{U}$ *trên* $X$ *hội tụ đến* $a$, *cơ sở siêu lọc* $f(\mathcal{U})$ *hội tụ đến* $f(a)$, *thì* $f$ *liên tục tại* $a$.
 
-Mệnh đề thứ nhất là một hệ quả ngay lập tức của Mệnh đề 9. Để chứng minh mệnh đề thứ hai, giả sử rằng $f$ không liên tục tại $a$; khi đó tồn tại một lân cận W của $f(a)$ trong Y sao cho $\overline{f}^{-1}(W)$ không thuộc bộ lọc $\mathfrak{B}$ các lân cận của $a$ trong X. Do đó (\S 6, no. 4, Mệnh đề 7) tồn tại một siêu bộ lọc $\mathfrak{U}$, mịn hơn $\mathfrak{B}$, không chứa $\overline{f}^{-1}(W)$ và vì thế chứa phần bù của nó $A = X - \overline{f}^{-1}(W)$ (\S 6, no. 4, Mệnh đề 5); vì $f(A) \cap W = \varnothing$, $f(\mathfrak{U})$ không hội tụ tới $f(a)$.
+Mệnh đề thứ nhất là một hệ quả ngay lập tức của Mệnh đề 9. Để chứng minh mệnh đề thứ hai, giả sử rằng $f$ không liên tục tại $a$; khi đó tồn tại một lân cận W của $f(a)$ trong Y sao cho $\overline{f}^{-1}(W)$ không thuộc bộ lọc $\mathfrak{B}$ các lân cận của $a$ trong X. Do đó (§ 6, no. 4, Mệnh đề 7) tồn tại một siêu bộ lọc $\mathfrak{U}$, mịn hơn $\mathfrak{B}$, không chứa $\overline{f}^{-1}(W)$ và vì thế chứa phần bù của nó $A = X - \overline{f}^{-1}(W)$ (§ 6, no. 4, Mệnh đề 5); vì $f(A) \cap W = \varnothing$, $f(\mathfrak{U})$ không hội tụ tới $f(a)$.
 
 #### Hệ quả 2 {#top-i-s7-prop-9-cor-2 .statement}
 
@@ -221,7 +221,7 @@ Cho $a$ là một điểm *không cô lập* của X, sao cho $a$ thuộc bao đ
 
 Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Cho $X$ được trang bị tôpô thô nhất $\mathcal{T}$ sao cho các $f_i$ là liên tục. Khi đó, điều kiện cần và đủ để một bộ lọc $\mathfrak{F}$ trên $X$ hội tụ đến $a \in X$ là, với mỗi $i \in I$, cơ sở bộ lọc $f_i(\mathfrak{F})$ hội tụ đến $f_i(a)$ trong $Y_i$.
 
-Điều kiện là cần thiết vì các $f_i$ là liên tục (no. 4, Mệnh đề 9, Hệ quả 1). Ngược lại, giả sử rằng điều kiện được thỏa mãn, và cho $V$ là một lân cận mở của $a$ trong $X$. Theo định nghĩa của $\mathcal{T}$ (\S 2, no. 3, Mệnh đề 4), tồn tại một tập con hữu hạn $J$ của $I$, và với mỗi $i \in J$ một tập con mở $U_i$ của $Y_i$, sao cho $f_i(a) \in U_i$ với $i \in J$ và sao cho $V$ chứa tập hợp
+Điều kiện là cần thiết vì các $f_i$ là liên tục (no. 4, Mệnh đề 9, Hệ quả 1). Ngược lại, giả sử rằng điều kiện được thỏa mãn, và cho $V$ là một lân cận mở của $a$ trong $X$. Theo định nghĩa của $\mathcal{T}$ (§ 2, no. 3, Mệnh đề 4), tồn tại một tập con hữu hạn $J$ của $I$, và với mỗi $i \in J$ một tập con mở $U_i$ của $Y_i$, sao cho $f_i(a) \in U_i$ với $i \in J$ và sao cho $V$ chứa tập hợp
 $$
 \bigcap_{i \in J} f_i^{-1}(U_i).
 $$
@@ -243,7 +243,7 @@ Cho $f = (f_i)$ là một ánh xạ từ một tập hợp $X$ vào một không
 
 Cho $R$ là một quan hệ tương đương mở trên một không gian tôpô $X$ và gọi $\varphi$ là ánh xạ chính tắc $X \to X/R$. Khi đó, với mỗi $x \in X$ và mỗi cơ sở bộ lọc $\mathcal{B}'$ trên $X/R$ hội tụ đến $\varphi(x)$, tồn tại một cơ sở bộ lọc $\mathcal{B}$ trên $X$ hội tụ đến $x$ và sao cho $\varphi(\mathcal{B})$ tương đương với $\mathcal{B}'$.
 
-Nếu $U$ là một lân cận bất kỳ của $x$ trong $X$, thì $\varphi(U)$ là một lân cận của $\varphi(x)$ trong $X/R$ (\S 5, no. 3, Mệnh đề 5), do đó tồn tại một tập hợp $M' \in \mathcal{B}'$ sao cho $M' \subset \varphi(U)$; nếu đặt $M = U \cap \varphi^{-1}(M')$, thì $M' = \varphi(M)$. Điều này cho thấy rằng khi $M'$ chạy qua $\mathcal{B}'$ và $U$ chạy qua bộ lọc lân cận của $x$, thì các tập hợp $U \cap \varphi^{-1}(M')$ tạo thành một cơ sở của bộ lọc $\mathcal{B}$ trên $X$; rõ ràng $\mathcal{B}$ hội tụ đến $x$ và $\varphi(\mathcal{B})$ tương đương với $\mathcal{B}'$.
+Nếu $U$ là một lân cận bất kỳ của $x$ trong $X$, thì $\varphi(U)$ là một lân cận của $\varphi(x)$ trong $X/R$ (§ 5, no. 3, Mệnh đề 5), do đó tồn tại một tập hợp $M' \in \mathcal{B}'$ sao cho $M' \subset \varphi(U)$; nếu đặt $M = U \cap \varphi^{-1}(M')$, thì $M' = \varphi(M)$. Điều này cho thấy rằng khi $M'$ chạy qua $\mathcal{B}'$ và $U$ chạy qua bộ lọc lân cận của $x$, thì các tập hợp $U \cap \varphi^{-1}(M')$ tạo thành một cơ sở của bộ lọc $\mathcal{B}$ trên $X$; rõ ràng $\mathcal{B}$ hội tụ đến $x$ và $\varphi(\mathcal{B})$ tương đương với $\mathcal{B}'$.
 
 ### Bài tập {#top-i-s7-exercises}
 

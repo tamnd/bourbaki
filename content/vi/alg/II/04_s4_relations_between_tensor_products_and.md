@@ -29,9 +29,9 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: c65d2dfa2549f74bebefde7456fed0c07fac976f38a26e7246ca9009c23a7897
+content_sha256: cc8999d9258969646b8348f24960d0a2f00f3d166e01742a3faabbdb1f5a819f
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
-source_content_sha256: d1a95efda999da8a9d1e6a36d3399faf5cff5df77aee956d80020824624e0224
+source_content_sha256: 4daa0198f39eb8665aeb0fb853979c7c3f01d43e4213ff03ca386beeb56265ae
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-ee3a5201
 glossary_version: 34
@@ -50,14 +50,14 @@ $$
 f(x \lambda, y) = f(x, \lambda y) \quad \text{cho } x \in E, y \in F, \lambda \in A.
 $$
 
-Đã thấy (\S 3, no. 1, Mệnh đề 1) rằng tồn tại một đồng cấu $\mathbf{Z}$-môđun chính tắc
+Đã thấy (§ 3, no. 1, Mệnh đề 1) rằng tồn tại một đồng cấu $\mathbf{Z}$-môđun chính tắc
 
 (2)
 $$
 H \to \operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, G).
 $$
 
-Mặt khác, một cấu trúc A-môđun trái đã được đưa vào trên $\operatorname{Hom}_{\mathbf{Z}}(E, G)$ và một cấu trúc A-môđun phải trên $\operatorname{Hom}_{\mathbf{Z}}(F, G)$ (\S 3, no. 3); do đó ta có thể xét các $\mathbf{Z}$-môđun $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$ và $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$. Một ánh xạ $f$ của $E \times F$ vào G được đồng nhất một cách chính tắc với một ánh xạ của E vào tập hợp $G^F$ các ánh xạ từ F vào G (*Lý thuyết tập hợp*, II, \S 5, no. 2); bằng cách biểu diễn sự kiện rằng ánh xạ sau thuộc về $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$, ta thu được chính xác sự kiện rằng $f$ là song cộng tính và các điều kiện (1); do đó có một đẳng cấu chính tắc
+Mặt khác, một cấu trúc A-môđun trái đã được đưa vào trên $\operatorname{Hom}_{\mathbf{Z}}(E, G)$ và một cấu trúc A-môđun phải trên $\operatorname{Hom}_{\mathbf{Z}}(F, G)$ (§ 3, no. 3); do đó ta có thể xét các $\mathbf{Z}$-môđun $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$ và $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$. Một ánh xạ $f$ của $E \times F$ vào G được đồng nhất một cách chính tắc với một ánh xạ của E vào tập hợp $G^F$ các ánh xạ từ F vào G (*Lý thuyết tập hợp*, II, § 5, no. 2); bằng cách biểu diễn sự kiện rằng ánh xạ sau thuộc về $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$, ta thu được chính xác sự kiện rằng $f$ là song cộng tính và các điều kiện (1); do đó có một đẳng cấu chính tắc
 
 (3)
 $$
@@ -70,7 +70,7 @@ $$
 H \to \operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G)).
 $$
 
-Giả sử bây giờ rằng E và G cũng có các cấu trúc B-môđun trái (tương ứng phải) và rằng các cấu trúc A-môđun và B-môđun trên E là tương thích. Khi đó $E \otimes_A F$ có một cấu trúc B-môđun trái (tương ứng phải) một cách chính tắc (\S 3, no. 4) và mặt khác $\operatorname{Hom}_B(E, G)$ có một cấu trúc A-môđun trái một cách chính tắc (\S 1, no. 14). Do đó ta có thể xét các $\mathbf{Z}$-môđun $\operatorname{Hom}_B(E \otimes_A F, G)$ và $\operatorname{Hom}_A(F, \operatorname{Hom}_B(E, G))$, lần lượt là các môđun con của $\operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, G)$ và $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$ (\S 2, no. 1, Định lý 2). Ta xét điều kiện để một ánh xạ $f \in H$ có ảnh qua các đẳng cấu (2) và (4) là một phần tử của $\operatorname{Hom}_B(E \otimes_A F, G)$ và một phần tử của $\operatorname{Hom}_A(E, \operatorname{Hom}_B(F, G))$ tương ứng; trong mỗi trường hợp trong hai trường hợp ta tìm được *cùng một* điều kiện
+Giả sử bây giờ rằng E và G cũng có các cấu trúc B-môđun trái (tương ứng phải) và rằng các cấu trúc A-môđun và B-môđun trên E là tương thích. Khi đó $E \otimes_A F$ có một cấu trúc B-môđun trái (tương ứng phải) một cách chính tắc (§ 3, no. 4) và mặt khác $\operatorname{Hom}_B(E, G)$ có một cấu trúc A-môđun trái một cách chính tắc (§ 1, no. 14). Do đó ta có thể xét các $\mathbf{Z}$-môđun $\operatorname{Hom}_B(E \otimes_A F, G)$ và $\operatorname{Hom}_A(F, \operatorname{Hom}_B(E, G))$, lần lượt là các môđun con của $\operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, G)$ và $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$ (§ 2, no. 1, Định lý 2). Ta xét điều kiện để một ánh xạ $f \in H$ có ảnh qua các đẳng cấu (2) và (4) là một phần tử của $\operatorname{Hom}_B(E \otimes_A F, G)$ và một phần tử của $\operatorname{Hom}_A(E, \operatorname{Hom}_B(F, G))$ tương ứng; trong mỗi trường hợp trong hai trường hợp ta tìm được *cùng một* điều kiện
 
 $$
 f(\beta x, y) = \beta f(x, y)
@@ -127,13 +127,13 @@ $$
 
 ### 2. ĐỒNG CẤU** $E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
 
-Cho A, B là hai vành, E là một A-môđun trái, F là một B-môđun trái và G là một (A, B)-*song môđun*. $\mathbf{Z}$-môđun $\mathrm{Hom}_A(E, G)$ có một cấu trúc *B-môđun phải* một cách chính tắc (\S 1, no. 14) sao cho $(u\beta)(x) = u(x)\beta$ với $\beta \in B$, $u \in \mathrm{Hom}_A(E, G)$, $x \in E$. Mặt khác, $G \otimes_B F$ có một cấu trúc *A-môđun trái* một cách chính tắc (\S 3, no. 4). Ta sẽ định nghĩa một *$\mathbf{Z}$-đồng cấu chính tắc*
+Cho A, B là hai vành, E là một A-môđun trái, F là một B-môđun trái và G là một (A, B)-*song môđun*. $\mathbf{Z}$-môđun $\mathrm{Hom}_A(E, G)$ có một cấu trúc *B-môđun phải* một cách chính tắc (§ 1, no. 14) sao cho $(u\beta)(x) = u(x)\beta$ với $\beta \in B$, $u \in \mathrm{Hom}_A(E, G)$, $x \in E$. Mặt khác, $G \otimes_B F$ có một cấu trúc *A-môđun trái* một cách chính tắc (§ 3, no. 4). Ta sẽ định nghĩa một *$\mathbf{Z}$-đồng cấu chính tắc*
 
 $$
 \nu : \mathrm{Hom}_A(E, G) \otimes_B F \to \mathrm{Hom}_A(E, G \otimes_B F).
 $$
 
-Để làm điều đó, ta xét, với mọi $y \in F$ và mọi $u \in \mathrm{Hom}_A(E, G)$, ánh xạ $\nu'(u, y) : x \mapsto u(x) \otimes y$ của $E$ lên $G \otimes_B F$. Ngay lập tức kiểm tra được rằng $\nu'(u, y)$ là $A$-tuyến tính và rằng $\nu'$ là một ánh xạ $\mathbf{Z}$-song tuyến tính của $\mathrm{Hom}_A(E, G) \times F$ vào $\mathrm{Hom}_A(E, G \otimes_B F)$; hơn nữa, với mọi $\beta \in B$, $\nu'(u\beta, y)$ và $\nu'(u, \beta y)$ bằng nhau, vì $(u(x)\beta) \otimes y = u(x) \otimes (\beta y)$. Ta kết luận (\S 3, no. 1, Mệnh đề 1) sự tồn tại của đồng cấu mong muốn $\nu$ sao cho $\nu(u \otimes y)$ là ánh xạ $A$-tuyến tính $x \mapsto u(x) \otimes y$.
+Để làm điều đó, ta xét, với mọi $y \in F$ và mọi $u \in \mathrm{Hom}_A(E, G)$, ánh xạ $\nu'(u, y) : x \mapsto u(x) \otimes y$ của $E$ lên $G \otimes_B F$. Ngay lập tức kiểm tra được rằng $\nu'(u, y)$ là $A$-tuyến tính và rằng $\nu'$ là một ánh xạ $\mathbf{Z}$-song tuyến tính của $\mathrm{Hom}_A(E, G) \times F$ vào $\mathrm{Hom}_A(E, G \otimes_B F)$; hơn nữa, với mọi $\beta \in B$, $\nu'(u\beta, y)$ và $\nu'(u, \beta y)$ bằng nhau, vì $(u(x)\beta) \otimes y = u(x) \otimes (\beta y)$. Ta kết luận (§ 3, no. 1, Mệnh đề 1) sự tồn tại của đồng cấu mong muốn $\nu$ sao cho $\nu(u \otimes y)$ là ánh xạ $A$-tuyến tính $x \mapsto u(x) \otimes y$.
 
 Ngay lập tức kiểm tra được rằng, nếu E là một (A, (C'_i); (D'_j))-đa môđun, F là một (B, (C''_h); (D''_k))-đa môđun và G là một (A, (C'''_1); B, (D'''_m))-đa môđun, thì ánh xạ (7) là một đồng cấu đa môđun ((D'_j), (C''_h), (C'''_1); (C'_i), (D''_k), (D'''_m)).
 
@@ -195,7 +195,7 @@ Với các giả thiết của Bổ đề 2, để $\nu_F$ là đơn ánh (resp.
 
 Điều này suy ra từ Bổ đề 2 và § 1, no. 6, Hệ quả 1 của Mệnh đề 6.
 
-Khi đó Bổ đề 3, cùng với § 2, no. 2, Mệnh đề 4, cho thấy chỉ cần xét trường hợp $F$ là một môđun tự do. Nhưng, nếu $(b_\mu)$ là một cơ sở của $F$, thì mọi phần tử của $\mathrm{Hom}_A(E, G) \otimes_B F$ khi đó đều được viết duy nhất dưới dạng $\sum_\mu u_\mu \otimes b_\mu$, trong đó $u_\mu \in \mathrm{Hom}_A(E, G)$ (\S 3, no. 7, Hệ quả 1 của Mệnh đề 7); ảnh của phần tử này qua $\nu$ là ánh xạ $A$-tuyến tính $x \mapsto \sum_\mu u_\mu(x) \otimes b_\mu$; nó không thể bằng không với mọi $x \in E$ trừ khi $u_\mu(x) = 0$ với mọi $x \in E$ và mọi $\mu$, điều này tương đương với việc nói rằng $u_\mu = 0$ với mọi $\mu$; do đó $\nu$ là đơn ánh. Khi $F$ cũng có một cơ sở hữu hạn, Bổ đề 3 cho thấy (bằng quy nạp theo số phần tử trong cơ sở của $F$) rằng để chứng minh $\nu$ là toàn ánh, chỉ cần làm điều đó khi $F = B_s$; nhưng trong trường hợp này hai vế của (7) được đồng nhất một cách chính tắc với $\mathrm{Hom}_A(E, G)$ (\S 3, no. 4, Mệnh đề 4) và $\nu$ trở thành ánh xạ đồng nhất.
+Khi đó Bổ đề 3, cùng với § 2, no. 2, Mệnh đề 4, cho thấy chỉ cần xét trường hợp $F$ là một môđun tự do. Nhưng, nếu $(b_\mu)$ là một cơ sở của $F$, thì mọi phần tử của $\mathrm{Hom}_A(E, G) \otimes_B F$ khi đó đều được viết duy nhất dưới dạng $\sum_\mu u_\mu \otimes b_\mu$, trong đó $u_\mu \in \mathrm{Hom}_A(E, G)$ (§ 3, no. 7, Hệ quả 1 của Mệnh đề 7); ảnh của phần tử này qua $\nu$ là ánh xạ $A$-tuyến tính $x \mapsto \sum_\mu u_\mu(x) \otimes b_\mu$; nó không thể bằng không với mọi $x \in E$ trừ khi $u_\mu(x) = 0$ với mọi $x \in E$ và mọi $\mu$, điều này tương đương với việc nói rằng $u_\mu = 0$ với mọi $\mu$; do đó $\nu$ là đơn ánh. Khi $F$ cũng có một cơ sở hữu hạn, Bổ đề 3 cho thấy (bằng quy nạp theo số phần tử trong cơ sở của $F$) rằng để chứng minh $\nu$ là toàn ánh, chỉ cần làm điều đó khi $F = B_s$; nhưng trong trường hợp này hai vế của (7) được đồng nhất một cách chính tắc với $\mathrm{Hom}_A(E, G)$ (§ 3, no. 4, Mệnh đề 4) và $\nu$ trở thành ánh xạ đồng nhất.
 
 (ii) Để chứng minh mệnh đề khi $E$ là xạ ảnh và sinh hữu hạn, lần này ta cố định $F$ và $G$ và viết, với mọi $A$-môđun trái $E$,
 
@@ -243,7 +243,7 @@ Chúng được chứng minh như các Bổ đề 1 và 2, có tính đến § 1
 
 Phần còn lại của chứng minh được tiến hành như trong (i) và quy về trường hợp $E = A_s$; khi đó hai vế của (7) được đồng nhất một cách chính tắc với $G \otimes_B F$ và $\nu$ trở thành ánh xạ đồng nhất.
 
-Đặc biệt, lấy $B = A$ và $G$ là $(A, A)$-song môđun ${}_sA_d$ ($\S 3$, no. 4), nên A-môđun phải $\mathrm{Hom}_A(E, {}_sA_d)$ chỉ là đối ngẫu $E^*$ của $E$ và $({}_sA_d) \otimes_A F$ được đồng nhất một cách chính tắc với $F$ ($\S 3$, no. 4, Mệnh đề 4). Đồng cấu (7) khi đó trở thành một đồng cấu chính tắc $\mathbf{Z}$-homomorphism
+Đặc biệt, lấy $B = A$ và $G$ là $(A, A)$-song môđun ${}_sA_d$ ($§ 3$, no. 4), nên A-môđun phải $\mathrm{Hom}_A(E, {}_sA_d)$ chỉ là đối ngẫu $E^*$ của $E$ và $({}_sA_d) \otimes_A F$ được đồng nhất một cách chính tắc với $F$ ($§ 3$, no. 4, Mệnh đề 4). Đồng cấu (7) khi đó trở thành một đồng cấu chính tắc $\mathbf{Z}$-homomorphism
 
 $$(11)$$
 $$
@@ -254,7 +254,7 @@ $$
 x \mapsto \langle x, x^* \rangle y.
 $$
 
-Nhận xét (1). Đặc trưng hóa các *xạ ảnh* $A$-môđun được cho trong $\S 2$, no. 6, Mệnh đề 12, cũng có thể được phát biểu như sau: để một trái $A$-môđun $E$ là xạ ảnh, điều cần và đủ là đồng cấu chính tắc
+Nhận xét (1). Đặc trưng hóa các *xạ ảnh* $A$-môđun được cho trong $§ 2$, no. 6, Mệnh đề 12, cũng có thể được phát biểu như sau: để một trái $A$-môđun $E$ là xạ ảnh, điều cần và đủ là đồng cấu chính tắc
 $$
 \theta_E : E^* \otimes_A E \to \mathrm{Hom}_A(E, E) = \mathrm{End}_A(E)
 $$
@@ -267,7 +267,7 @@ sao cho $1_E$ thuộc ảnh của $\theta_E$.
 
 Ngay cả khi $E$ và $F$ đều sinh hữu hạn, $\theta$ cũng không nhất thiết toàn ánh, như được chỉ ra bởi ví dụ $A = \mathbf{Z}, E = F = \mathbf{Z}/2\mathbf{Z}$; vế phải của (11) khác không nhưng $E^* = 0$. Mặt khác, có thể cho ví dụ trong đó $E$ là *tự do*, nhưng (11) vừa không đơn ánh vừa không toàn ánh (Bài tập 3(b)).
 
-Khi $E$ có một cơ sở hữu hạn $(e_i)$, đẳng cấu nghịch đảo $\theta^{-1}$ của $\theta$ có thể được tìm một cách tường minh như sau. Gọi $(e_i^*)$ là cơ sở đối ngẫu của $(e_i)$ (\S 2, no. 6); với mọi $u \in \mathrm{Hom}(E, F)$ và mọi $x = \sum_i \xi_i e_i$ với $\xi_i \in A$,
+Khi $E$ có một cơ sở hữu hạn $(e_i)$, đẳng cấu nghịch đảo $\theta^{-1}$ của $\theta$ có thể được tìm một cách tường minh như sau. Gọi $(e_i^*)$ là cơ sở đối ngẫu của $(e_i)$ (§ 2, no. 6); với mọi $u \in \mathrm{Hom}(E, F)$ và mọi $x = \sum_i \xi_i e_i$ với $\xi_i \in A$,
 
 $$
 u(x) = \sum_i \xi_i u(e_i) = \sum_i \langle x, e_i^* \rangle u(e_i)
@@ -305,9 +305,9 @@ $$
 x^* \mapsto \langle x, x^* \rangle y.
 $$
 
-Nếu E *và* F là các môđun *xạ ảnh*, thì ánh xạ (15) là *đơn ánh*. Thật vậy, $c_E$ khi đó là đơn ánh (\S 2, no. 7, Hệ quả 4 của Mệnh đề 13) và vì F là xạ ảnh, nên $\mathbf{Z}$-đồng cấu $c_E \otimes 1_F : E \otimes_A F \to E^{**} \otimes_A F$ cũng là đơn ánh (\S 3, no. 7, Hệ quả 6 của Mệnh đề 7); cuối cùng, đã thấy (Mệnh đề 2) rằng đồng cấu (14) là đơn ánh, do đó suy ra kết luận.
+Nếu E *và* F là các môđun *xạ ảnh*, thì ánh xạ (15) là *đơn ánh*. Thật vậy, $c_E$ khi đó là đơn ánh (§ 2, no. 7, Hệ quả 4 của Mệnh đề 13) và vì F là xạ ảnh, nên $\mathbf{Z}$-đồng cấu $c_E \otimes 1_F : E \otimes_A F \to E^{**} \otimes_A F$ cũng là đơn ánh (§ 3, no. 7, Hệ quả 6 của Mệnh đề 7); cuối cùng, đã thấy (Mệnh đề 2) rằng đồng cấu (14) là đơn ánh, do đó suy ra kết luận.
 
-Nếu E là *xạ ảnh* và *sinh hữu hạn*, thì ánh xạ (15) là *song ánh* vì hai ánh xạ mà nó gồm thành khi đó đều song ánh (\S 2, no. 7, Hệ quả 4 của Mệnh đề 13 và Mệnh đề 2 ở trên).
+Nếu E là *xạ ảnh* và *sinh hữu hạn*, thì ánh xạ (15) là *song ánh* vì hai ánh xạ mà nó gồm thành khi đó đều song ánh (§ 2, no. 7, Hệ quả 4 của Mệnh đề 13 và Mệnh đề 2 ở trên).
 
 ### 3. VẾT CỦA MỘT TỰ ĐỒNG CẤU
 
@@ -317,10 +317,10 @@ $$
 \tau : E^* \otimes_C E \to C
 $$
 
-sao cho $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (\S 3, no. 5). Giả sử nay thêm rằng $E$ là một $C$-môđun *xạ ảnh sinh hữu hạn*; đẳng cấu chính tắc (11) của no. 2 khi đó là một đẳng cấu $C$*-môđun* và vì thế ta có thể định nghĩa bằng cách chuyển cấu trúc một *dạng tuyến tính chính tắc* $\mathrm{Tr} = \tau \circ \theta_E^{-1}$ trên $C$-môđun $\mathrm{End}_C(E)$. Với mọi $u \in \mathrm{End}_C(E)$ thì vô hướng $\mathrm{Tr}(u)$ được gọi là *vết* của tự đồng cấu $u$; mọi $u \in \mathrm{End}_C(E)$ đều có thể viết được (nói chung theo vô số cách) dưới dạng $x \mapsto \sum_i \langle x, x_i^* \rangle y_i$ trong đó $x_i^* \in E^*$ và $y_i \in E_i$ do kết quả của no. 2, Hệ quả của Mệnh đề 2; khi đó
+sao cho $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (§ 3, no. 5). Giả sử nay thêm rằng $E$ là một $C$-môđun *xạ ảnh sinh hữu hạn*; đẳng cấu chính tắc (11) của no. 2 khi đó là một đẳng cấu $C$*-môđun* và vì thế ta có thể định nghĩa bằng cách chuyển cấu trúc một *dạng tuyến tính chính tắc* $\mathrm{Tr} = \tau \circ \theta_E^{-1}$ trên $C$-môđun $\mathrm{End}_C(E)$. Với mọi $u \in \mathrm{End}_C(E)$ thì vô hướng $\mathrm{Tr}(u)$ được gọi là *vết* của tự đồng cấu $u$; mọi $u \in \mathrm{End}_C(E)$ đều có thể viết được (nói chung theo vô số cách) dưới dạng $x \mapsto \sum_i \langle x, x_i^* \rangle y_i$ trong đó $x_i^* \in E^*$ và $y_i \in E_i$ do kết quả của no. 2, Hệ quả của Mệnh đề 2; khi đó
 
 $$
-\mathrm{Tr}(u) = \sum_i \langle y_i, x_i^* \rangle \quad \text{(xem \S 10, no. 11).}
+\mathrm{Tr}(u) = \sum_i \langle y_i, x_i^* \rangle \quad \text{(xem § 10, no. 11).}
 $$
 
 Theo định nghĩa,
@@ -404,7 +404,7 @@ $$T'(u) = \operatorname{Hom}(1_C \otimes 1_{E_2}, u \otimes 1_{F_2}).$$
 
 Lần này ta kiểm tra ngay lập tức rằng *Các Bổ đề 1 và 2* (no. 2) (*trong đó $\lambda$ luôn thay thế v*) *đều đúng*.
 
-Do đó, ta chứng minh mệnh đề trước hết khi $E_1 = C$ và $F_1$ là xạ ảnh và sinh hữu hạn. Lập luận của no. 2 (dựa trên Các Bổ đề 1 và 2), cùng với các nhận xét trên, quy về việc chứng minh mệnh đề khi đồng thời $F_1 = C$; khi đó $\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$ và $F_1 \otimes F_2$ lần lượt được đồng nhất với C, $E_2$ và $F_2$ (\S 3, no. 4, Mệnh đề 4); hai vế của (21)
+Do đó, ta chứng minh mệnh đề trước hết khi $E_1 = C$ và $F_1$ là xạ ảnh và sinh hữu hạn. Lập luận của no. 2 (dựa trên Các Bổ đề 1 và 2), cùng với các nhận xét trên, quy về việc chứng minh mệnh đề khi đồng thời $F_1 = C$; khi đó $\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$ và $F_1 \otimes F_2$ lần lượt được đồng nhất với C, $E_2$ và $F_2$ (§ 3, no. 4, Mệnh đề 4); hai vế của (21)
 
 ĐỒNG CẤU $\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}(E_2, F_2)$
 

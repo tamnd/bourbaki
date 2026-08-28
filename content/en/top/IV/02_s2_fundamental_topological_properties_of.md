@@ -36,7 +36,7 @@ subsections:
       pdf_page: 344
 statements: 15
 exercises: 16
-content_sha256: 6696bb5fa08accd0b6144828d1d539cb5024a066162e459953b37132c7805a3d
+content_sha256: 78166c2d5dee3bc8332921039bf6cfd6746b0350be828fb6b987ae23db2d3530
 ---
 
 ## 2. FUNDAMENTAL TOPOLOGICAL PROPERTIES OF THE REAL LINE
@@ -156,7 +156,7 @@ If $K'$ is the complement of the union of the $I_{n,p}$, the closed set $K = A \
 
 It follows that if $x$ and $y$ are any two points of I such that $x < y$, then $f(x) < f(y)$; for we have $f(a) < f(x) < f(b)$ if $a < x < b$, $f(a) < f(b) < f(x)$ if $b < x$, and $f(x) < f(a) < f(b)$ if $x < a$; repeating the argument with $a, x, y$ in place of $a, b, x$ respectively, we see that $f(x) < f(y)$.
 
-2) The condition is *sufficient*. Suppose that $f$ is continuous and strictly monotonic on I (say, strictly increasing): $f(I)$ is connected and is therefore an interval, and since $f$ is strictly increasing, $f$ is a bijective mapping of I onto $f(I)$. Moreover, the image under $f$ of an open interval *in* I is an open interval *in* $f(I)$, and therefore (\$1, no, 4, Proposition 5) $f$ is a homeomorphism of I onto $f(I)$.
+2) The condition is *sufficient*. Suppose that $f$ is continuous and strictly monotonic on I (say, strictly increasing): $f(I)$ is connected and is therefore an interval, and since $f$ is strictly increasing, $f$ is a bijective mapping of I onto $f(I)$. Moreover, the image under $f$ of an open interval *in* I is an open interval *in* $f(I)$, and therefore (§ 1, no, 4, Proposition 5) $f$ is a homeomorphism of I onto $f(I)$.
 
 #### Remark {#top-iv-s2-n6-rem-1 .statement}
 

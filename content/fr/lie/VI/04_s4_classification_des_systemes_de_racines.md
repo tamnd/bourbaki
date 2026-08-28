@@ -68,7 +68,7 @@ subsections:
       pdf_page: 221
 statements: 19
 exercises: 10
-content_sha256: 87e924732fb81e26f6841a677253e89e0878f90f47e9bc3c9ae0ca23ca054890
+content_sha256: 3cb9c39e5e6c71fb5afd6be6bbb5db13dd92c1d149df1d23ad55a691b7989acb
 ---
 
 ## § 4. Classification des systèmes de racines
@@ -463,13 +463,13 @@ $$
 
 On vérifie aussitôt que le graphe $\tilde{X}$ et l’application $\tilde{f}$ ainsi définis ne dépendent pas du choix de B ni du produit scalaire.
 
-Si le rang $l$ de R est égal à 1, on a $I = \{i\}$ et $\alpha_0 = -\alpha_i$; d’où $\tilde{f}(0, i) = 1$. Si $l \geq 2$, $\alpha_0$ n’est proportionnelle à aucune des $\alpha_i$ et $(\alpha_0|\alpha_i)$ est $\leq 0$ (\S 1, no 8, prop. 25). Pour tout couple $(i, j)$ d’éléments distincts de $\tilde{I}$, les seules possibilités sont celles notées 1), 2), 3), 4) au numéro précédent (en posant par exemple $n_{0i} = n(\alpha_0, \alpha_i)$ et $m_{0i} =$ ordre de $s_{\alpha_0}s_{\alpha_i}$ pour tout $i \in I$).
+Si le rang $l$ de R est égal à 1, on a $I = \{i\}$ et $\alpha_0 = -\alpha_i$; d’où $\tilde{f}(0, i) = 1$. Si $l \geq 2$, $\alpha_0$ n’est proportionnelle à aucune des $\alpha_i$ et $(\alpha_0|\alpha_i)$ est $\leq 0$ (§ 1, no 8, prop. 25). Pour tout couple $(i, j)$ d’éléments distincts de $\tilde{I}$, les seules possibilités sont celles notées 1), 2), 3), 4) au numéro précédent (en posant par exemple $n_{0i} = n(\alpha_0, \alpha_i)$ et $m_{0i} =$ ordre de $s_{\alpha_0}s_{\alpha_i}$ pour tout $i \in I$).
 
-Dans le cas $l \geq 2$, on représente le graphe de Dynkin complété par une figure avec les mêmes conventions qu’au numéro précédent, on indique parfois en pointillé les traits joignent le sommet 0 aux autres sommets. Remarquons que le signe d’inégalité $>$ placé sur un tel trait, s’il existe, est toujours dirigé vers le sommet distinct de 0, puisque $\alpha_0$ est une racine de la plus grande longueur possible (\S 1, no 8, prop. 25). On identifie $(X, f)$ au sous-graphe de $(\tilde{X}, \tilde{f})$ obtenu en supprimant le sommet 0.
+Dans le cas $l \geq 2$, on représente le graphe de Dynkin complété par une figure avec les mêmes conventions qu’au numéro précédent, on indique parfois en pointillé les traits joignent le sommet 0 aux autres sommets. Remarquons que le signe d’inégalité $>$ placé sur un tel trait, s’il existe, est toujours dirigé vers le sommet distinct de 0, puisque $\alpha_0$ est une racine de la plus grande longueur possible (§ 1, no 8, prop. 25). On identifie $(X, f)$ au sous-graphe de $(\tilde{X}, \tilde{f})$ obtenu en supprimant le sommet 0.
 
 L’action de $A(R)$ sur $(X, f)$ se prolonge en une action sur $(\tilde{X}, \tilde{f})$, laissant 0 fixe, et $W(R)$ opère trivialement sur $(\tilde{X}, \tilde{f})$.
 
-Reprenons les notations du \S 2. La prop. 5 du \S 2, no 2, jointe au th. 1 du chap. V, \S 3, no 2, montre que le graphe de Coxeter $\Sigma$ du groupe de Weyl affine $W_a(R)$ se déduit de $(\tilde{X}, \tilde{f})$ par les mêmes règles que celles permettant de passer de $(X, f)$ au graphe de Coxeter de $W(R)$. D’autre part, soit G le normalisateur de $W_a(R)$ (\S 2, no 3). À tout $g \in G$ correspond un automorphisme $\varphi(g)$ de $\Sigma$ et on a $\varphi(g) = \mathrm{Id}$ si $g \in W_a(R)$. Inversement, à tout automorphisme $\lambda$ de $\Sigma$ correspond, d’après la prop. 11 du chap. V, \S 4, no 9, un élément $g = \psi(\lambda)$ et un seul, conservant une alcôve C donnée et tel que $\varphi(g) = \lambda$. Comme G est produit semi-direct du sous-groupe $G_C$ des éléments conservant C et de $W_a(R)$ (\S 2, no 3), on en déduit que $\varphi$ fournit par passage au quotient un *isomorphisme de* $G/W_a$ (ou de $G_C$) *sur* $\mathrm{Aut}(\Sigma)$. On vérifie aussitôt que le composé de cet isomorphisme avec l’application canonique de $A(R)/W(R)$ dans $G/W_a$ coïncide avec l’homomorphisme de $A(R)/W(R)$ dans $\mathrm{Aut}(\Sigma)$ déduit de l’homomorphisme de $A(R)/W(R)$ dans $\mathrm{Aut}(\tilde{X}, \tilde{f})$ défini plus haut. D’après le § 2, n° 3, le groupe $\mathrm{Aut}(\Sigma)$ est isomorphe au produit semi-direct de $A(R)/W(R)$ par $P(R^\vee)/Q(R^\vee)$, et $P(R^\vee)/Q(R^\vee)$ est isomorphe au groupe $\Gamma_C = G_C \cap W'_a$ (avec les notations du § 2, n° 3); l’élément de $\mathrm{Aut}(\Sigma)$ correspondant à l’élément $\gamma_i$ de $\Gamma_C$ transforme le sommet 0 en le sommet $i$ de $\Sigma$.
+Reprenons les notations du § 2. La prop. 5 du § 2, no 2, jointe au th. 1 du chap. V, § 3, no 2, montre que le graphe de Coxeter $\Sigma$ du groupe de Weyl affine $W_a(R)$ se déduit de $(\tilde{X}, \tilde{f})$ par les mêmes règles que celles permettant de passer de $(X, f)$ au graphe de Coxeter de $W(R)$. D’autre part, soit G le normalisateur de $W_a(R)$ (§ 2, no 3). À tout $g \in G$ correspond un automorphisme $\varphi(g)$ de $\Sigma$ et on a $\varphi(g) = \mathrm{Id}$ si $g \in W_a(R)$. Inversement, à tout automorphisme $\lambda$ de $\Sigma$ correspond, d’après la prop. 11 du chap. V, § 4, no 9, un élément $g = \psi(\lambda)$ et un seul, conservant une alcôve C donnée et tel que $\varphi(g) = \lambda$. Comme G est produit semi-direct du sous-groupe $G_C$ des éléments conservant C et de $W_a(R)$ (§ 2, no 3), on en déduit que $\varphi$ fournit par passage au quotient un *isomorphisme de* $G/W_a$ (ou de $G_C$) *sur* $\mathrm{Aut}(\Sigma)$. On vérifie aussitôt que le composé de cet isomorphisme avec l’application canonique de $A(R)/W(R)$ dans $G/W_a$ coïncide avec l’homomorphisme de $A(R)/W(R)$ dans $\mathrm{Aut}(\Sigma)$ déduit de l’homomorphisme de $A(R)/W(R)$ dans $\mathrm{Aut}(\tilde{X}, \tilde{f})$ défini plus haut. D’après le § 2, n° 3, le groupe $\mathrm{Aut}(\Sigma)$ est isomorphe au produit semi-direct de $A(R)/W(R)$ par $P(R^\vee)/Q(R^\vee)$, et $P(R^\vee)/Q(R^\vee)$ est isomorphe au groupe $\Gamma_C = G_C \cap W'_a$ (avec les notations du § 2, n° 3); l’élément de $\mathrm{Aut}(\Sigma)$ correspondant à l’élément $\gamma_i$ de $\Gamma_C$ transforme le sommet 0 en le sommet $i$ de $\Sigma$.
 
 #### Remarque {#lie-vi-s4-n3-rem-1 .statement}
 
@@ -584,7 +584,7 @@ $$
 \end{align*}
 $$
 
-Donc $(\alpha_1, \alpha_2, \ldots, \alpha_l)$ est une base de $R$ ($\S 1$, n° 7, cor. 3 de la prop. 20). En outre, on a $\|\alpha_i\|^2 = 2$ pour $i < l$, $\|\alpha_l\|^2 = 1$, $(\alpha_i|\alpha_{i+1}) = -1$ pour $1 \leqslant i \leqslant l-1$, $(\alpha_i|\alpha_j) = 0$ pour $j > i + 1$; le graphe de Dynkin de $R$ est donc de type $B_l$, ce qui montre que $R$ est irréductible. Les racines positives sont les $\varepsilon_i$ et les $\varepsilon_i \pm \varepsilon_j$ ($i < j$).
+Donc $(\alpha_1, \alpha_2, \ldots, \alpha_l)$ est une base de $R$ ($§ 1$, n° 7, cor. 3 de la prop. 20). En outre, on a $\|\alpha_i\|^2 = 2$ pour $i < l$, $\|\alpha_l\|^2 = 1$, $(\alpha_i|\alpha_{i+1}) = -1$ pour $1 \leqslant i \leqslant l-1$, $(\alpha_i|\alpha_j) = 0$ pour $j > i + 1$; le graphe de Dynkin de $R$ est donc de type $B_l$, ce qui montre que $R$ est irréductible. Les racines positives sont les $\varepsilon_i$ et les $\varepsilon_i \pm \varepsilon_j$ ($i < j$).
 
 (III) D’après le th. 1 (ii) du chap. V, § 6, n° 2, on a
 
@@ -724,7 +724,7 @@ $$
 
 Comme $\alpha_1, \ldots, \alpha_l$ engendrent $V$, $R = R' \cap V$ est un système de racines dans
 
-V, de base $(\alpha_1, \ldots, \alpha_l)$ (\S 1, n° 7, cor. 4 de la prop. 20). D’après les calculs de produits scalaires du n° 5, il est immédiat que R est de type $A_l$. Les éléments de R sont les $\varepsilon_i - \varepsilon_j$ ($i \neq j, 1 \leq i \leq l + 1, 1 \leq j \leq l + 1$). Leur nombre est $n = l(l + 1)$. Les racines positives sont les $\varepsilon_i - \varepsilon_j$ où $i < j$.
+V, de base $(\alpha_1, \ldots, \alpha_l)$ (§ 1, n° 7, cor. 4 de la prop. 20). D’après les calculs de produits scalaires du n° 5, il est immédiat que R est de type $A_l$. Les éléments de R sont les $\varepsilon_i - \varepsilon_j$ ($i \neq j, 1 \leq i \leq l + 1, 1 \leq j \leq l + 1$). Leur nombre est $n = l(l + 1)$. Les racines positives sont les $\varepsilon_i - \varepsilon_j$ où $i < j$.
 
 (III) On a $h = \frac{n}{l} = l + 1$.
 
@@ -748,8 +748,8 @@ $$
 $$
 
 (V) Identifiant V à son dual grâce au produit scalaire, on a $\alpha^\vee = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$ pour tout $\alpha \in R$, donc $R^\vee = R$.
-Pour la forme $\Phi_R$, la longueur des racines est $h^{-1/2} = (l + 1)^{-1/2}$ (\S 1, n° 12); donc $\Phi_R(x, y) = (x|y)/2(l + 1)$.
-On a $\gamma(R) = (l + 1)^2$ (\S 1, n° 12, formule (20)).
+Pour la forme $\Phi_R$, la longueur des racines est $h^{-1/2} = (l + 1)^{-1/2}$ (§ 1, n° 12); donc $\Phi_R(x, y) = (x|y)/2(l + 1)$.
+On a $\gamma(R) = (l + 1)^2$ (§ 1, n° 12, formule (20)).
 (VI) Soit $(\varpi_i)_{1 \leq i \leq l}$ la famille des poids fondamentaux. Posons
 
 $$
@@ -837,7 +837,7 @@ $$
 \end{align*}
 $$
 
-donc $(\alpha_1, \ldots, \alpha_l)$ est une base de $R$ ($\S 1$, n° 7, cor. 3 de la prop. 20). En outre, on a $\| \alpha_i \|^2 = 2$ pour tout $i$, $(\alpha_i|\alpha_j) = 0$ pour $i + 1 < j$ sauf pour $i = l-2$, $j = l$ qui donne $(\alpha_{l-2}|\alpha_l) = -1$, $(\alpha_i|\alpha_{i+1}) = -1$ pour $i \leq l-2$, et enfin $(\alpha_{l-1}|\alpha_l) = 0$; le graphe de Dynkin de $R$ est donc de type $D_l$. Les racines positives sont les $\varepsilon_i \pm \varepsilon_j$ pour $i < j$.
+donc $(\alpha_1, \ldots, \alpha_l)$ est une base de $R$ ($§ 1$, n° 7, cor. 3 de la prop. 20). En outre, on a $\| \alpha_i \|^2 = 2$ pour tout $i$, $(\alpha_i|\alpha_j) = 0$ pour $i + 1 < j$ sauf pour $i = l-2$, $j = l$ qui donne $(\alpha_{l-2}|\alpha_l) = -1$, $(\alpha_i|\alpha_{i+1}) = -1$ pour $i \leq l-2$, et enfin $(\alpha_{l-1}|\alpha_l) = 0$; le graphe de Dynkin de $R$ est donc de type $D_l$. Les racines positives sont les $\varepsilon_i \pm \varepsilon_j$ pour $i < j$.
 
 (III) On a $h = \frac{n}{l} = 2(l-1)$.
 
@@ -936,7 +936,7 @@ $$
 \varepsilon_i,\quad \varepsilon_i \pm \varepsilon_j\ (i < j),\quad \frac{1}{2}\ (\varepsilon_1 \pm \varepsilon_2 \pm \varepsilon_3 \pm \varepsilon_4).
 $$
 
-La plus petite est $\alpha_3 = \varepsilon_4$. Parmi les racines positives appartenant à $\mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$ mais non à $\mathbf{R}\varepsilon_4$, la plus petite est $\alpha_2 = \varepsilon_3 - \varepsilon_4$. Parmi les racines positives appartenant à $\mathbf{R}\varepsilon_2 + \mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$ mais non à $\mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$, la plus petite est $\alpha_1 = \varepsilon_2 - \varepsilon_3$. Parmi les racines positives n’appartenant pas à $\mathbf{R}\varepsilon_2 + \mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$, la plus petite est $\alpha_4 = \frac{1}{2}\ (\varepsilon_1 - \varepsilon_2 - \varepsilon_3 - \varepsilon_4)$. Aucune $\alpha_i$ n’est somme de 2 racines positives. Donc $(\alpha_1, \alpha_2, \alpha_3, \alpha_4)$ est une base de $\mathbf{R}$ (\S 1, n° 6, cor. 1 de la prop. 19). On a $\| \alpha_1 \|^2 = \| \alpha_2 \|^2 = 2, \| \alpha_3 \|^2 = \| \alpha_4 \|^2 = 1,$
+La plus petite est $\alpha_3 = \varepsilon_4$. Parmi les racines positives appartenant à $\mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$ mais non à $\mathbf{R}\varepsilon_4$, la plus petite est $\alpha_2 = \varepsilon_3 - \varepsilon_4$. Parmi les racines positives appartenant à $\mathbf{R}\varepsilon_2 + \mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$ mais non à $\mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$, la plus petite est $\alpha_1 = \varepsilon_2 - \varepsilon_3$. Parmi les racines positives n’appartenant pas à $\mathbf{R}\varepsilon_2 + \mathbf{R}\varepsilon_3 + \mathbf{R}\varepsilon_4$, la plus petite est $\alpha_4 = \frac{1}{2}\ (\varepsilon_1 - \varepsilon_2 - \varepsilon_3 - \varepsilon_4)$. Aucune $\alpha_i$ n’est somme de 2 racines positives. Donc $(\alpha_1, \alpha_2, \alpha_3, \alpha_4)$ est une base de $\mathbf{R}$ (§ 1, n° 6, cor. 1 de la prop. 19). On a $\| \alpha_1 \|^2 = \| \alpha_2 \|^2 = 2, \| \alpha_3 \|^2 = \| \alpha_4 \|^2 = 1,$
 $(\alpha_1|\alpha_2) = (\alpha_2|\alpha_3) = -1, (\alpha_3|\alpha_4) = -\frac{1}{2}, (\alpha_1|\alpha_3) = (\alpha_1|\alpha_4) = (\alpha_2|\alpha_4) = 0$.
 
 On voit que $\mathbf{R}$ a un graphe de Dynkin de type $F_4$, donc est irréductible.
@@ -992,7 +992,7 @@ $$
 
 (VIII) On a $Q(R) = L_2$ (no 4), et $P(R) = Q(R)$ d’après (VI). L’indice de connexion est donc 1.
 
-(IX) La famille des exposants a 4 termes, et puisque $h = 12$, les entiers 1, 5, 7, 11, étrangers à 12, doivent figurer dans cette famille (\$ 1, no 11, prop. 30); ce sont par suite tous les exposants de $W(R)$.
+(IX) La famille des exposants a 4 termes, et puisque $h = 12$, les entiers 1, 5, 7, 11, étrangers à 12, doivent figurer dans cette famille (§ 1, no 11, prop. 30); ce sont par suite tous les exposants de $W(R)$.
 
 (X) et (XI) Le seul automorphisme du graphe de Dynkin est l’identité, donc $A(R) = W(R)$ et $w_0 = -1$. Soit $R'$ l’ensemble des éléments de $R$ de plus grande longueur, c’est-à-dire les $\pm \varepsilon_i \pm \varepsilon_j : R'$ est le système de racines de type $D_4$ construit au no 8. Tout élément de $A(R)$ est évidemment un élément de $A(R')$. Réciproquement, un élément de $A(R')$ laisse stable $L_1$ (qui est engendré par $R'$), donc son associé $L_2$, donc $R$. D’où $W(R) = A(R) = A(R')$. D’après le no 8, $W(R)$ est donc produit semi-direct de $S_3$ et de $W(R')$, $W(R')$ étant lui-même produit semi-direct de $S_4$ et de $(\mathbf{Z}/2\mathbf{Z})^3$. L’ordre de $W(R)$ est $3!4!2^3 = 2^7.3^2$.
 
@@ -1010,7 +1010,7 @@ avec $\sum_{i=1}^8 \nu(i)$ pair.
 
 On a vu (n° 4) que $(\alpha|\beta) \in \mathbf{Z}$ quels que soient $\alpha, \beta \in L_3$. Donc $R$ est un système de racines réduit. Le nombre de racines est $n = \binom{8}{2} . 4 + 2^7 = 240$.
 
-(II) Soit $\rho$ le vecteur $(0, 1, 2, 3, 4, 5, 6, 23)$ de $L_3$. Aucun élément de $R$ n’est orthogonal à $\rho$ (c’est clair pour les $\pm \varepsilon_i \pm \varepsilon_j$; si $\frac{1}{2} \sum_{i=1}^8 (-1)^{\nu(i)} \varepsilon_i$ était orthogonal à $\rho$, on aurait $\sum_{i=1}^6 i(-1)^{\nu(i+1)} + 23(-1)^{\nu(8)} = 0$, ce qui est impossible puisque $\sum_{i=1}^6 i < 23$). Donc (\S 1, n° 7, cor. 2 de la prop. 20) les $\alpha \in R$ telles que $(\alpha|\rho) > 0$ sont les racines positives relativement à une certaine chambre. Ces racines sont les $\pm \varepsilon_i + \varepsilon_j (i < j)$, et les
+(II) Soit $\rho$ le vecteur $(0, 1, 2, 3, 4, 5, 6, 23)$ de $L_3$. Aucun élément de $R$ n’est orthogonal à $\rho$ (c’est clair pour les $\pm \varepsilon_i \pm \varepsilon_j$; si $\frac{1}{2} \sum_{i=1}^8 (-1)^{\nu(i)} \varepsilon_i$ était orthogonal à $\rho$, on aurait $\sum_{i=1}^6 i(-1)^{\nu(i+1)} + 23(-1)^{\nu(8)} = 0$, ce qui est impossible puisque $\sum_{i=1}^6 i < 23$). Donc (§ 1, n° 7, cor. 2 de la prop. 20) les $\alpha \in R$ telles que $(\alpha|\rho) > 0$ sont les racines positives relativement à une certaine chambre. Ces racines sont les $\pm \varepsilon_i + \varepsilon_j (i < j)$, et les
 
 $$
 \frac{1}{2} (\varepsilon_8 + \sum_{i=1}^7 (-1)^{\nu(i)} \varepsilon_i)
@@ -1026,7 +1026,7 @@ $$
 \end{align*}
 $$
 
-et ces huit vecteurs forment une base de $R^8$. D’après le \S 1, n° 6, cor. 1 de la prop. 19, $(\alpha_1, \alpha_2, \ldots, \alpha_8)$ est la base de $R$ pour laquelle les racines positives sont celles qui ont été définies plus haut. On a
+et ces huit vecteurs forment une base de $R^8$. D’après le § 1, n° 6, cor. 1 de la prop. 19, $(\alpha_1, \alpha_2, \ldots, \alpha_8)$ est la base de $R$ pour laquelle les racines positives sont celles qui ont été définies plus haut. On a
 
 $$(\alpha_4|\alpha_5) = (\alpha_5|\alpha_6) = (\alpha_6|\alpha_7) = (\alpha_7|\alpha_8) = (\alpha_4|\alpha_2) = (\alpha_4|\alpha_3) = (\alpha_3|\alpha_1) = -1,$$
 
@@ -1050,7 +1050,7 @@ $$
 
 (V) Comme $(\alpha|\alpha) = 2$ pour tout $\alpha \in R$, on a $R^\vee = R$.
 
-Pour $\Phi_R$, le carré de la longueur des racines est $\frac{1}{30}$ (\S 1, no 12). Donc $\Phi_R(x, y) = (x|y)/60$, et $\gamma(R) = 900$ (\S 1, no 12, formule (20)).
+Pour $\Phi_R$, le carré de la longueur des racines est $\frac{1}{30}$ (§ 1, no 12). Donc $\Phi_R(x, y) = (x|y)/60$, et $\gamma(R) = 900$ (§ 1, no 12, formule (20)).
 
 (VI) Le calcul des poids fondamentaux donne
 
@@ -1074,7 +1074,7 @@ $$
 \end{align*}
 $$
 
-(VII) La demi-somme des racines positives est la somme des poids fondamentaux (\S 1, no 10, prop. 29) et vaut donc
+(VII) La demi-somme des racines positives est la somme des poids fondamentaux (§ 1, no 10, prop. 29) et vaut donc
 
 $$
 \rho = \varepsilon_2 + 2\varepsilon_3 + 3\varepsilon_4 + 4\varepsilon_5 + 5\varepsilon_6 + 6\varepsilon_7 + 23\varepsilon_8 \\
@@ -1163,13 +1163,13 @@ $$
 = \frac{1}{2} (2\alpha_1 + 3\alpha_2 + 4\alpha_3 + 6\alpha_4 + 5\alpha_5 + 4\alpha_6 + 3\alpha_7).
 $$
 
-(VII) La somme $2\rho$ des racines positives est $2 \sum_{i=1}^{7} \overline{\omega}_i$ (\S 1, n° 10, prop. 29), d'où
+(VII) La somme $2\rho$ des racines positives est $2 \sum_{i=1}^{7} \overline{\omega}_i$ (§ 1, n° 10, prop. 29), d'où
 $$
 2\rho = 2\varepsilon_2 + 4\varepsilon_3 + 6\varepsilon_4 + 8\varepsilon_5 + 10\varepsilon_6 - 17\varepsilon_7 + 17\varepsilon_8
 = 34\alpha_1 + 49\alpha_2 + 66\alpha_3 + 96\alpha_4 + 75\alpha_5 + 52\alpha_6 + 27\alpha_7.
 $$
 
-(VIII) D'après le n° 10 (VIII) et le \S 1, n° 10, prop. 28, on a
+(VIII) D'après le n° 10 (VIII) et le § 1, n° 10, prop. 28, on a
 $$
 \mathbf{Q}(R) = \mathbf{Q}(R_8) \cap V = L_3 \cap V \quad \text{et} \quad P(R) = p(P(R_8)) = p(L_3),
 $$
@@ -1183,12 +1183,12 @@ On voit ainsi que $P(R)/\mathbf{Q}(R)$ est isomorphe à $\mathbf{Z}/2\mathbf{Z}$
 
 L'indice de connexion est 2.
 
-(IX) La suite des exposants de $W(R)$ a 7 termes. Les nombres 1, 5, 7, 11, 13, 17, étrangers à $h = 18$, figurent dans cette suite. Le dernier exposant $m$ doit donc être que tel $m + m = 18$ (chap. V, \S 6, n° 2, formule (2)). Donc la suite des exposants est
+(IX) La suite des exposants de $W(R)$ a 7 termes. Les nombres 1, 5, 7, 11, 13, 17, étrangers à $h = 18$, figurent dans cette suite. Le dernier exposant $m$ doit donc être que tel $m + m = 18$ (chap. V, § 6, n° 2, formule (2)). Donc la suite des exposants est
 $$
 1, 5, 7, 9, 11, 13, 17.
 $$
 
-(X) On déduit de (IX) et du chap. V, \S 6, n° 2, cor. 1 de la prop. 3, que l'ordre de $W(R)$ est
+(X) On déduit de (IX) et du chap. V, § 6, n° 2, cor. 1 de la prop. 3, que l'ordre de $W(R)$ est
 $$
 2.6.8.10.12.14.18 = 2^{10}.3^4.5.7.
 $$

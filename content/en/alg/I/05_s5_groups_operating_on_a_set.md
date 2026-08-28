@@ -41,7 +41,7 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: 1bfc7d980bffef016673f763fb429cbbf5132ed5919da50c944ba75ba35ea265
+content_sha256: 605c0e618797b31a8a044a2bed5b6ec188866b18a0efb8640705a9dbb17c2a1b
 ---
 
 ## § 5. GROUPS OPERATING ON A SET
@@ -66,9 +66,9 @@ Let M be a monoid; a set E with a left (resp. right) operation of M on E is call
 
 #### Example {#alg-i-s5-n1-exa-1 .statement}
 
-(1) Let E be a set; the canonical action of $E^E$ on E (\S 3, no. 1, Example 3) is a left operation.
+(1) Let E be a set; the canonical action of $E^E$ on E (§ 3, no. 1, Example 3) is a left operation.
 
-(2) Let M be a monoid. The left (resp. right) action of M on itself derived from the law on M (\S 3, no. 3, Example 7) is a left (resp. right) operation of M on itself. When considering this operation, we say that M operates on itself by left (resp. right) translation.
+(2) Let M be a monoid. The left (resp. right) action of M on itself derived from the law on M (§ 3, no. 3, Example 7) is a left (resp. right) operation of M on itself. When considering this operation, we say that M operates on itself by left (resp. right) translation.
 
 Let E be a left (resp. right) M-set and $M^0$ the opposite monoid to M. Under the same action, the monoid $M^0$ operates on E on the right (resp. left). The $M^0$-set obtained is called opposite to the M-set E. The definitions and results relating to left M-sets carry over to right $M^0$-sets when passing to the opposite structures.
 
@@ -128,7 +128,7 @@ Let e be the identity element of M; then $ea = a$ for every element $a \in A$ an
 
 The first assertion follows from the proposition and F is the kernel of the homomorphism of S into $\mathfrak{S}_A$ associated with the operation of S on A.
 
-A group G operates faithfully on a set E if and only if the fixer of E consists of the identity element of G. The fixer of E is the kernel of the given homomorphism of G into $\mathfrak{S}_E$; this homomorphism is injective if and only if its kernel consists of the identity element (\S 4, no. 5, Theorem 3).
+A group G operates faithfully on a set E if and only if the fixer of E consists of the identity element of G. The fixer of E is the kernel of the given homomorphism of G into $\mathfrak{S}_E$; this homomorphism is injective if and only if its kernel consists of the identity element (§ 4, no. 5, Theorem 3).
 
 Let M be a monoid, E an M-set and $a$ an element of E. The fixer, strict stabilizer and stabilizer of $\{a\}$ are equal; this monoid is called equally the fixer or stabilizer of $a$. The fixer of a subset A of E is the intersection of the fixers of the elements of A. $a$ is called an invariant element of E if the fixer of $a$ is the monoid M. M is said to operate trivially on E if every element of E is invariant.
 
@@ -142,7 +142,7 @@ It is seen similarly that, if A and B are two subsets of E and T is the transpor
 
 ### 3. INNER AUTOMORPHISMS
 
-Let G be a group. The set Aut(G) of automorphisms of the group G is a subgroup of $\mathcal{G}_G$ (\S 4, no. 1, Example 2).
+Let G be a group. The set Aut(G) of automorphisms of the group G is a subgroup of $\mathcal{G}_G$ (§ 4, no. 1, Example 2).
 
 #### Proposition 3 {#alg-i-s5-prop-3 .statement}
 
@@ -154,7 +154,7 @@ $$
 \operatorname{Int}(x) \circ \operatorname{Int}(y) = \operatorname{Int}(xy):
 $$
 
-for all $z \in G$, $x(yzy^{-1})x^{-1} = (xy)z(xy)^{-1}$. On the other hand, $\operatorname{Int}(e)$ is the identity mapping of G. The mapping Int is therefore a monoid homomorphism from G to the monoid End(G) of endomorphisms of the group G. As the elements of G are invertible, the mapping Int takes its values in the set Aut(G) of invertible elements of End(G) (\S 2, no. 3). Now $xyx^{-1} = y$ if and only if $x$ and $y$ commute and hence $\operatorname{Int}(x)$ is the identity mapping of G if and only if $x$ is a central element. Finally, let $\alpha$ be an automorphism of G and let $x \in G$; then
+for all $z \in G$, $x(yzy^{-1})x^{-1} = (xy)z(xy)^{-1}$. On the other hand, $\operatorname{Int}(e)$ is the identity mapping of G. The mapping Int is therefore a monoid homomorphism from G to the monoid End(G) of endomorphisms of the group G. As the elements of G are invertible, the mapping Int takes its values in the set Aut(G) of invertible elements of End(G) (§ 2, no. 3). Now $xyx^{-1} = y$ if and only if $x$ and $y$ commute and hence $\operatorname{Int}(x)$ is the identity mapping of G if and only if $x$ is a central element. Finally, let $\alpha$ be an automorphism of G and let $x \in G$; then
 
 $$
 \operatorname{Int}(\alpha(x)) = \alpha \circ \operatorname{Int}(x) \circ \alpha^{-1}.
@@ -174,7 +174,7 @@ Hence $\alpha \cdot \operatorname{Int}(G) \cdot \alpha^{-1} \subset \operatornam
 
 For $x, y \in G$, we also write $x^y = y^{-1}xy = (\operatorname{Int} y^{-1})(x)$.
 
-A subgroup of G is normal if and only if it is stable under all inner automorphisms of G (\S 4, no. 4, Definition 5). A subgroup of G is called characteristic if it stable under all automorphisms of G. The centre of a group G is a characteristic subgroup (formula (2)).
+A subgroup of G is normal if and only if it is stable under all inner automorphisms of G (§ 4, no. 4, Definition 5). A subgroup of G is called characteristic if it stable under all automorphisms of G. The centre of a group G is a characteristic subgroup (formula (2)).
 
 The centre of a group G is not necessarily stable under all endomorphisms of G (Exercise 22). In particular, the centre of a group with operators is not necessarily a stable subgroup.
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 46
 exercises: 12
-content_sha256: 17380362b68d847e817a4493bcca94c0aa933579e99309a2467e71e7208cfc17
+content_sha256: 59ba782df2b2b7f4bba637ba9f3e5d827f36e369b586e284d638a57804dd3805
 ---
 
 ## § 2. Relèvement des idéaux premiers.
@@ -80,13 +80,13 @@ Donc on a $h_1^{-1}(S^{-1}a') = S^{-1}\mathfrak{p}$, ce qui achève de prouver q
 
 *Soient* $h : A \to A'$ *un homomorphisme d’anneaux tel que* $A'$ *soit entier sur* $A$, $\mathfrak{p}'$ *un idéal premier de* $A'$, *et* $\mathfrak{p} = h^{-1}(\mathfrak{p}')$. *Pour que* $\mathfrak{p}$ *soit maximal, il faut et il suffit que* $\mathfrak{p}'$ *le soit*.
 
-Posons en effet $B = A/\mathfrak{p}$, $B' = A'/\mathfrak{p}'$ et soit $h_1 : B \to B'$ l’homomorphisme déduit de $h$ par passage aux quotients; $B$ et $B'$ sont intègres et $B'$ est entier sur $B$ (\S 1, no 1, prop. 2). Dire que $\mathfrak{p}$ (resp. $\mathfrak{p}'$) est maximal signifie que $B$ (resp. $B'$) est un corps. La proposition résulte donc du lemme suivant:
+Posons en effet $B = A/\mathfrak{p}$, $B' = A'/\mathfrak{p}'$ et soit $h_1 : B \to B'$ l’homomorphisme déduit de $h$ par passage aux quotients; $B$ et $B'$ sont intègres et $B'$ est entier sur $B$ (§ 1, no 1, prop. 2). Dire que $\mathfrak{p}$ (resp. $\mathfrak{p}'$) est maximal signifie que $B$ (resp. $B'$) est un corps. La proposition résulte donc du lemme suivant:
 
 #### Lemme 2 {#ac-v-s2-lem-2 .statement}
 
 *Soient* $B$ *un anneau intègre, A un sous-anneau de* $B$ *tel que* $B$ *soit entier sur* $A$. *Pour que* $B$ *soit un corps, il faut et il suffit que* $A$ *soit un corps*.
 
-Si $A$ est un corps, alors, pour tout $y \neq 0$ dans $B$, $A[y]$ est par hypothèse (\S 1, th. 1) un $A$-module de type fini; comme $A[y]$ est intègre, c’est un corps (*Alg.*, chap. V, § 2, no 1, prop. 1), et *a fortiori* $y$ est inversible dans $B$, donc $B$ est un corps. Inversement, supposons que $B$ soit un corps, et soit $z \neq 0$ dans $A$; comme $z^{-1} \in B, z^{-1}$ est entier sur $A$, autrement dit on a une équation de dépendance intégrale
+Si $A$ est un corps, alors, pour tout $y \neq 0$ dans $B$, $A[y]$ est par hypothèse (§ 1, th. 1) un $A$-module de type fini; comme $A[y]$ est intègre, c’est un corps (*Alg.*, chap. V, § 2, no 1, prop. 1), et *a fortiori* $y$ est inversible dans $B$, donc $B$ est un corps. Inversement, supposons que $B$ soit un corps, et soit $z \neq 0$ dans $A$; comme $z^{-1} \in B, z^{-1}$ est entier sur $A$, autrement dit on a une équation de dépendance intégrale
 
 $$
 z^{-n} + a_1 z^{-(n-1)} + \cdots + a_n = 0
@@ -104,7 +104,7 @@ donc $A$ est bien un corps.
 
 *Soient* $h : A \to A'$ *un homomorphisme d’anneaux tel que* $A'$ *soit entier sur* $A$, $\mathfrak{p}$ *un idéal premier de* $A$, $\mathfrak{p}'$ *et* $a'$ *deux idéaux de* $A'$ *au-dessus de* $\mathfrak{p}$ *tels que* $\mathfrak{p}' \subset a'$. *Si* $\mathfrak{p}'$ *est premier, on a* $a' = \mathfrak{p}'$.
 
-Posons $S = A - \mathfrak{p}$; alors $S^{-1}A'$ est entier sur $S^{-1}A$ ($\S 1$, n° 5, prop. 16), $S^{-1}\mathfrak{p}$ est un idéal maximal de $S^{-1}A$ (chap. II, $\S 2$, n° 5, prop. 11), $S^{-1}\mathfrak{a}'$ et $S^{-1}\mathfrak{p}'$ sont des idéaux de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$ (lemme 1) et l’on a $S^{-1}\mathfrak{a}' \supset S^{-1}\mathfrak{p}'$. Comme $S^{-1}\mathfrak{p}'$ est premier, il est maximal en vertu de la prop. 1, donc $S^{-1}\mathfrak{p}' = S^{-1}\mathfrak{a}'$; par suite $\mathfrak{a}'$ est contenu dans le saturé de $\mathfrak{p}'$ pour $h(S)$, qui est égal à $\mathfrak{p}'$ (chap. II, $\S 2$, n° 5, prop. 11).
+Posons $S = A - \mathfrak{p}$; alors $S^{-1}A'$ est entier sur $S^{-1}A$ ($§ 1$, n° 5, prop. 16), $S^{-1}\mathfrak{p}$ est un idéal maximal de $S^{-1}A$ (chap. II, $§ 2$, n° 5, prop. 11), $S^{-1}\mathfrak{a}'$ et $S^{-1}\mathfrak{p}'$ sont des idéaux de $S^{-1}A'$ au-dessus de $S^{-1}\mathfrak{p}$ (lemme 1) et l’on a $S^{-1}\mathfrak{a}' \supset S^{-1}\mathfrak{p}'$. Comme $S^{-1}\mathfrak{p}'$ est premier, il est maximal en vertu de la prop. 1, donc $S^{-1}\mathfrak{p}' = S^{-1}\mathfrak{a}'$; par suite $\mathfrak{a}'$ est contenu dans le saturé de $\mathfrak{p}'$ pour $h(S)$, qui est égal à $\mathfrak{p}'$ (chap. II, $§ 2$, n° 5, prop. 11).
 
 #### Corollaire 2 {#ac-v-s2-lem-2-cor-2 .statement}
 
@@ -114,7 +114,7 @@ En effet, si $\mathfrak{a}'$ est le noyau de $f$, l’hypothèse signifie que $\
 
 #### Corollaire 3 {#ac-v-s2-lem-2-cor-3 .statement}
 
-Soient $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur $A$, $m$ un idéal maximal de $A$, et supposons qu’il n’y ait dans $A'$ qu’un nombre fini d’idéaux maximaux distincts $m'_j$ ($1 \leq j \leq n$) au-dessus de $m$. Soit $q'_j$ le saturé de $mA'$ pour $m'_j$ (chap. II, $\S 2$, n° 4). Alors :
+Soient $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur $A$, $m$ un idéal maximal de $A$, et supposons qu’il n’y ait dans $A'$ qu’un nombre fini d’idéaux maximaux distincts $m'_j$ ($1 \leq j \leq n$) au-dessus de $m$. Soit $q'_j$ le saturé de $mA'$ pour $m'_j$ (chap. II, $§ 2$, n° 4). Alors :
 
 (i) Dans l’anneau $A'/q'_j$, les diviseurs de zéro sont les éléments de $m'_j/q'_j$ et ils sont nilpotents ($1 \leq j \leq n$).
 
@@ -122,7 +122,7 @@ Soient $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur 
 
 (iii) L’homomorphisme canonique $A'/mA' \to \prod_j (A'/q'_j)$ est bijectif.
 
-Pour qu’un idéal premier de $A'$ contienne $mA'$, il faut et il suffit que son image réciproque par $h$ contienne $m$, donc qu’il soit au-dessus de $m$, puisque $m$ est maximal dans $A$; les $m'_j$ sont donc les seuls idéaux premiers de $A'$ contenant $mA'$ (prop. 1), et par suite $r' = \bigcap_j m'_j$ est la racine de $mA'$ (chap. II, $\S 2$, n° 6, cor. 1 de la prop. 13). Par définition de $q'_j$, la classe mod. $q'_j$ d’un élément de $A' - m'_j$ n’est pas diviseur de 0 dans $A'/q'_j$; d’autre part, comme les $m'_j$ sont des idéaux maximaux distincts, pour tout indice $j$ il existe un élément $a'_j$ appartenant à $\bigcap_{i \neq j} m'_j$ et non à $m'_j$ (chap. II, $\S 1$, n° 1, prop. 4); pour tout $x \in m'_j$, on a alors $a'_j x \in r'$, donc la classe mod. $q'_j$ de $a'_j x$ est nilpotente, et comme celle de $a'_j$ n’est pas diviseur de 0, on en conclut que la classe de $x$ est nilpotente;
+Pour qu’un idéal premier de $A'$ contienne $mA'$, il faut et il suffit que son image réciproque par $h$ contienne $m$, donc qu’il soit au-dessus de $m$, puisque $m$ est maximal dans $A$; les $m'_j$ sont donc les seuls idéaux premiers de $A'$ contenant $mA'$ (prop. 1), et par suite $r' = \bigcap_j m'_j$ est la racine de $mA'$ (chap. II, $§ 2$, n° 6, cor. 1 de la prop. 13). Par définition de $q'_j$, la classe mod. $q'_j$ d’un élément de $A' - m'_j$ n’est pas diviseur de 0 dans $A'/q'_j$; d’autre part, comme les $m'_j$ sont des idéaux maximaux distincts, pour tout indice $j$ il existe un élément $a'_j$ appartenant à $\bigcap_{i \neq j} m'_j$ et non à $m'_j$ (chap. II, $§ 1$, n° 1, prop. 4); pour tout $x \in m'_j$, on a alors $a'_j x \in r'$, donc la classe mod. $q'_j$ de $a'_j x$ est nilpotente, et comme celle de $a'_j$ n’est pas diviseur de 0, on en conclut que la classe de $x$ est nilpotente;
 
 #### Remarque 1 {#ac-v-s2-n1-rem-1 .statement}
 
@@ -146,7 +146,7 @@ En effet, on a $\mathfrak{p}A' \subset \mathfrak{p}'$ et $h^{-1}(\mathfrak{p}') 
 
 Soient $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur $A$, $a$ et $\mathfrak{p}$ deux idéaux de $A$ tels que $a \subset \mathfrak{p}$, $a'$ un idéal de $A'$ au-dessus de $a$. On suppose $\mathfrak{p}$ premier. Il existe alors un idéal premier $\mathfrak{p}'$ de $A'$ au-dessus de $\mathfrak{p}$ et contenant $a'$.
 
-Si $h_1 : A/a \to A'/a'$ est l’homomorphisme déduit de $h$ par passage aux quotients, $h_1$ est injectif par hypothèse et $A'/a'$ est entier sur $A/a$ ($\S 1$, n° 1, prop. 2); il existe donc un idéal premier $\mathfrak{p}'/a'$ de $A'/a'$ ($\mathfrak{p}'$ premier dans $A'$) au-dessus de $\mathfrak{p}/a$ (th. 1), et $\mathfrak{p}'$ répond à la question.
+Si $h_1 : A/a \to A'/a'$ est l’homomorphisme déduit de $h$ par passage aux quotients, $h_1$ est injectif par hypothèse et $A'/a'$ est entier sur $A/a$ ($§ 1$, n° 1, prop. 2); il existe donc un idéal premier $\mathfrak{p}'/a'$ de $A'/a'$ ($\mathfrak{p}'$ premier dans $A'$) au-dessus de $\mathfrak{p}/a$ (th. 1), et $\mathfrak{p}'$ répond à la question.
 
 #### Corollaire 3 {#ac-v-s2-thm-1-cor-3 .statement}
 
@@ -158,11 +158,11 @@ Soit $\mathfrak{R}$ le radical de $A$. Pour tout idéal maximal $m'$ de $A'$, $m
 
 Soient $A$ un anneau, $A'$ un anneau contenant $A$ et entier sur $A$, et $f$ un homomorphisme de $A$ dans un corps algébriquement clos $L$. Alors $f$ se prolonge en un homomorphisme de $A'$ dans $L$.
 
-En effet, soit $\mathfrak{p}$ le noyau de $f$, qui est un idéal premier puisque $f(A) \subset L$ est intègre; soit $\mathfrak{p}'$ un idéal premier de $A'$ au-dessus de $\mathfrak{p}$ (th. 1). Alors $A/\mathfrak{p}$ s’identifie canoniquement à un sous-anneau de $A'/\mathfrak{p}'$ et $A'/\mathfrak{p}'$ est entier sur $A/\mathfrak{p}$ ($\S 1$, n° 1, prop. 2). L’homomorphisme $f$ définit, par passage au quotient, un isomorphisme de $A/\mathfrak{p}$ sur le sous-anneau $f(A)$ de $L$, qui se prolonge en un isomorphisme $g$ du corps des fractions $K$ de $A/\mathfrak{p}$ sur un sous-corps de $L$. Comme le corps des fractions $K'$ de $A'/\mathfrak{p}'$ est algébrique sur $K$, $g$ se prolonge en un isomorphisme $g'$ de $K'$ sur un sous-corps de $L$ (*Alg.*, chap. V, § 4, n° 2, cor. du th. 1); si $\pi' : A' \to A'/\mathfrak{p}'$ est l’homomorphisme canonique, $g' \circ \pi'$ est un homomorphisme de $A'$ dans $L$ prolongeant $f$.
+En effet, soit $\mathfrak{p}$ le noyau de $f$, qui est un idéal premier puisque $f(A) \subset L$ est intègre; soit $\mathfrak{p}'$ un idéal premier de $A'$ au-dessus de $\mathfrak{p}$ (th. 1). Alors $A/\mathfrak{p}$ s’identifie canoniquement à un sous-anneau de $A'/\mathfrak{p}'$ et $A'/\mathfrak{p}'$ est entier sur $A/\mathfrak{p}$ ($§ 1$, n° 1, prop. 2). L’homomorphisme $f$ définit, par passage au quotient, un isomorphisme de $A/\mathfrak{p}$ sur le sous-anneau $f(A)$ de $L$, qui se prolonge en un isomorphisme $g$ du corps des fractions $K$ de $A/\mathfrak{p}$ sur un sous-corps de $L$. Comme le corps des fractions $K'$ de $A'/\mathfrak{p}'$ est algébrique sur $K$, $g$ se prolonge en un isomorphisme $g'$ de $K'$ sur un sous-corps de $L$ (*Alg.*, chap. V, § 4, n° 2, cor. du th. 1); si $\pi' : A' \to A'/\mathfrak{p}'$ est l’homomorphisme canonique, $g' \circ \pi'$ est un homomorphisme de $A'$ dans $L$ prolongeant $f$.
 
 #### Remarque 2 {#ac-v-s2-n1-rem-2 .statement}
 
-Soit $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur $A$; alors l’application continue associée $^ah : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ est *fermée*. En effet, pour tout idéal $a'$ de $A'$, $A'/a'$ est entier sur $A'$, donc aussi sur $A$ ($\S 1$, n° 1, prop. 6) et $\mathrm{Spec}(A'/a')$ s’identifie au sous-espace fermé $V(a')$ de $\mathrm{Spec}(A')$; pour montrer que $^ah$ est fermée, on voit donc (en remplaçant $A'$ par $A'/a'$) qu’il suffit de prouver que l’image de $\mathrm{Spec}(A')$ par $^ah$ est une partie *fermée* de $\mathrm{Spec}(A)$; or il résulte du th. 1 que cette image n’est autre que l’ensemble des idéaux premiers de $A$ contenant l’idéal $\mathrm{Ker}(h)$, et cet ensemble est fermé par définition de la topologie de $\mathrm{Spec}(A)$.
+Soit $h : A \to A'$ un homomorphisme d’anneaux tel que $A'$ soit entier sur $A$; alors l’application continue associée $^ah : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ est *fermée*. En effet, pour tout idéal $a'$ de $A'$, $A'/a'$ est entier sur $A'$, donc aussi sur $A$ ($§ 1$, n° 1, prop. 6) et $\mathrm{Spec}(A'/a')$ s’identifie au sous-espace fermé $V(a')$ de $\mathrm{Spec}(A')$; pour montrer que $^ah$ est fermée, on voit donc (en remplaçant $A'$ par $A'/a'$) qu’il suffit de prouver que l’image de $\mathrm{Spec}(A')$ par $^ah$ est une partie *fermée* de $\mathrm{Spec}(A)$; or il résulte du th. 1 que cette image n’est autre que l’ensemble des idéaux premiers de $A$ contenant l’idéal $\mathrm{Ker}(h)$, et cet ensemble est fermé par définition de la topologie de $\mathrm{Spec}(A)$.
 
 #### Proposition 2 {#ac-v-s2-prop-2 .statement}
 
@@ -273,7 +273,7 @@ b) L’idéal maximal de l’anneau local $B_{\mathfrak{p}(B)}$ est égal à $\m
 
 (i) Il résulte du th. 2, (i) que les idéaux premiers de $A'$ au-dessus de $\mathfrak{p}(B)$ sont les idéaux de la forme $\sigma.\mathfrak{p}'$, où $\sigma \in \mathcal{H}$; d’où aussitôt (i).
 
-(ii) Posons $S = A - \mathfrak{p}$; on sait que les anneaux d’invariants de $G$ et $\mathcal{H}$ dans $S^{-1}A'$ sont respectivement $S^{-1}A$ et $S^{-1}B$ (\$ 1, no 9, prop. 23) et l’on a $G^z(S^{-1}\mathfrak{p}') = G^z(\mathfrak{p}')$ (lemme 3); enfin on a $S^{-1}\mathfrak{p}(B) = S^{-1}\mathfrak{p}' \cap S^{-1}B$ (chap. II, § 2, no 4), l’anneau local de l’idéal premier $S^{-1}\mathfrak{p}(B)$ de l’anneau $S^{-1}B$ est canoniquement isomorphe à $B_{\mathfrak{p}(B)}$ et son corps résiduel est isomorphe au corps des fractions de $B/\mathfrak{p}(B)$ (chap. II, § 2, no 5, prop. 11). On peut donc, pour démontrer (ii), se borner au cas où $\mathfrak{p}$ est maximal. Pour établir a), il nous suffira de prouver que l’on a
+(ii) Posons $S = A - \mathfrak{p}$; on sait que les anneaux d’invariants de $G$ et $\mathcal{H}$ dans $S^{-1}A'$ sont respectivement $S^{-1}A$ et $S^{-1}B$ (§ 1, no 9, prop. 23) et l’on a $G^z(S^{-1}\mathfrak{p}') = G^z(\mathfrak{p}')$ (lemme 3); enfin on a $S^{-1}\mathfrak{p}(B) = S^{-1}\mathfrak{p}' \cap S^{-1}B$ (chap. II, § 2, no 4), l’anneau local de l’idéal premier $S^{-1}\mathfrak{p}(B)$ de l’anneau $S^{-1}B$ est canoniquement isomorphe à $B_{\mathfrak{p}(B)}$ et son corps résiduel est isomorphe au corps des fractions de $B/\mathfrak{p}(B)$ (chap. II, § 2, no 5, prop. 11). On peut donc, pour démontrer (ii), se borner au cas où $\mathfrak{p}$ est maximal. Pour établir a), il nous suffira de prouver que l’on a
 
 (3)
 $$
@@ -317,7 +317,7 @@ Sous les hypothèses du th. 2, les anneaux $A/\mathfrak{p}$ et $A^z/(\mathfrak{p
 
 Soient $A'$ un anneau intègre, $G$ un groupe fini opérant sur $A'$, $A$ l’anneau des invariants de $G$, $\mathfrak{p}'$ un idéal premier de $A'$; soient $K, K^z$ et $K'$ les corps des fractions de $A, A^z$ et $A'$ respectivement. Alors $K'$ est extension galoisienne de $K$, et les sous-corps $L$ de $K'$ contenant $K$ et tels que $\mathfrak{p}'$ soit le seul idéal premier de $A'$ au-dessus de l’idéal $\mathfrak{p}' \cap L$ de $A' \cap L$, ne sont autres que ceux qui contiennent $K^z$.
 
-En effet, $G$ opère sur $K'$ et $K$ est le corps des invariants de $G$ dans $K'$ (\$ 1, no 9, prop. 23 appliquée à $S = A - \{0\}$), et de même $K^z$ est le corps des invariants de $G^z$; par définition $K'$ est donc extension galoisienne de $K$. Si $\mathcal{H}$ est le sous-groupe de $G$ formé des $\sigma \in G$ laissant invariants les éléments de $L$, dire que $L$ contient $K^z$ signifie que $\mathcal{H}$ est contenu dans $G^z$ (Alg., chap. V, § 10, no 5, th. 3), et comme $L$ est le corps des invariants de $\mathcal{H}$ dans $K'$, $A' \cap L$ est l’anneau des invariants de $\mathcal{H}$ dans $A'$; la seconde assertion résulte donc de la prop. 4, (i).
+En effet, $G$ opère sur $K'$ et $K$ est le corps des invariants de $G$ dans $K'$ (§ 1, no 9, prop. 23 appliquée à $S = A - \{0\}$), et de même $K^z$ est le corps des invariants de $G^z$; par définition $K'$ est donc extension galoisienne de $K$. Si $\mathcal{H}$ est le sous-groupe de $G$ formé des $\sigma \in G$ laissant invariants les éléments de $L$, dire que $L$ contient $K^z$ signifie que $\mathcal{H}$ est contenu dans $G^z$ (Alg., chap. V, § 10, no 5, th. 3), et comme $L$ est le corps des invariants de $\mathcal{H}$ dans $K'$, $A' \cap L$ est l’anneau des invariants de $\mathcal{H}$ dans $A'$; la seconde assertion résulte donc de la prop. 4, (i).
 
 #### Définition 4 {#ac-v-s2-def-4 .statement}
 
@@ -379,7 +379,7 @@ B) Supposons en second lieu que $K'$ soit une extension galoisienne quelconque d
 
 Pour démontrer (ii), notons que $k'$ est réunion de la famille filtrante croissante $(k_α)_{α∈I}$, où $k_α$ est le corps des fractions de $(A' ∩ K_α)/(p' ∩ K_α)$. Comme chaque $k_α$ est extension quasi-galoisienne de $k$ en vertu de A), il en est de même de $k'$ (*Alg.*, chap. V, § 6, n° 3, prop. 8). D’autre part, soit $u$ un $k$-automorphisme de $k'$, et soit $π': A' → A'/p'$ l’homomorphisme canonique. En vertu du n° 2, th. 2 appliqué à $A' ∩ K_α$, il existe, pour tout $α$, un ensemble non vide $F_α$ d’éléments $σ ∈ G$ tels que $σ.(p' ∩ K_α) = p' ∩ K_α$ et $u(π'(x)) = π'(σ.x)$ pour tout $x ∈ A' ∩ K_α$. On voit comme ci-dessus que $F_α$ est fermé dans $G$, et comme $(F_α)$ est une famille filtrante décroissante, son intersection $F$ est non vide. Il est clair que pour $σ ∈ F$, on a $σ ∈ G^z(p')$ et $\overline{σ} = u$, ce qui achève de prouver (ii) dans ce cas.
 
-C) *Cas général.* — Le corps des invariants $K_1$ de $G$ est une extension radicielle de $K$ (*Alg.*, chap. V, § 10, n° 9, prop. 14); il existe donc un seul idéal premier $p_1$ de $A_1 = A' ∩ K_1$ au-dessus de $p$ (lemme 4). Si $p'$ et $q'$ sont deux idéaux premiers de $A'$ au-dessus de $p$, ils sont par suite au-dessus de $p_1$; comme $K'$ est une extension galoisienne de $K_1$ et que $A' ∩ K_1$ est intégralement clos (\$ 1, n° 2, prop. 7 et cor. de la prop. 8), il résulte de B) qu’il existe $σ ∈ G$ tel que $σ.p' = q'$; d’où (i). D’autre part, il est clair que le corps des fractions $k_1$ de $A_1/p_1$ est extension radicielle de $k$ (A étant intégralement clos); comme $k'$ est extension quasi-galoisienne de $k_1$ d’après B), $k'$ est extension quasi-galoisienne de $k$, tout $k$-isomorphisme de $k'$ dans une extension algébriquement close de $k'$ étant un $k_1$-isomorphisme. Cette dernière remarque montre aussi, compte tenu de B), que tout $k$-automorphisme de $k'$ est de la forme $\overline{σ}$ où $σ ∈ G^z(p')$, ce qui achève de démontrer (ii).
+C) *Cas général.* — Le corps des invariants $K_1$ de $G$ est une extension radicielle de $K$ (*Alg.*, chap. V, § 10, n° 9, prop. 14); il existe donc un seul idéal premier $p_1$ de $A_1 = A' ∩ K_1$ au-dessus de $p$ (lemme 4). Si $p'$ et $q'$ sont deux idéaux premiers de $A'$ au-dessus de $p$, ils sont par suite au-dessus de $p_1$; comme $K'$ est une extension galoisienne de $K_1$ et que $A' ∩ K_1$ est intégralement clos (§ 1, n° 2, prop. 7 et cor. de la prop. 8), il résulte de B) qu’il existe $σ ∈ G$ tel que $σ.p' = q'$; d’où (i). D’autre part, il est clair que le corps des fractions $k_1$ de $A_1/p_1$ est extension radicielle de $k$ (A étant intégralement clos); comme $k'$ est extension quasi-galoisienne de $k_1$ d’après B), $k'$ est extension quasi-galoisienne de $k$, tout $k$-isomorphisme de $k'$ dans une extension algébriquement close de $k'$ étant un $k_1$-isomorphisme. Cette dernière remarque montre aussi, compte tenu de B), que tout $k$-automorphisme de $k'$ est de la forme $\overline{σ}$ où $σ ∈ G^z(p')$, ce qui achève de démontrer (ii).
 
 C.Q.F.D.
 

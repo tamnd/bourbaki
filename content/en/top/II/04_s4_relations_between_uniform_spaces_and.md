@@ -28,7 +28,7 @@ subsections:
       pdf_page: 210
 statements: 24
 exercises: 23
-content_sha256: 33d413c1fed78b55146ebc22613f337b5e448d7bf43b8d118b1324178c5c0724
+content_sha256: f2dc3cc5503e99d5ecfce12eecbf253bb8a3c69fb5a816888a36223120556915
 ---
 
 ## 4. RELATIONS BETWEEN UNIFORM SPACES AND COMPACT SPACES
@@ -41,19 +41,19 @@ content_sha256: 33d413c1fed78b55146ebc22613f337b5e448d7bf43b8d118b1324178c5c0724
 
 A topological space is said to be uniformizable, and its topology is said to be uniformizable, if there exists a uniformity on the space which is compatible with its topology.
 
-There are topological spaces which are not uniformizable, for example any space which does not satisfy axiom $(O_{III})$ ($\S 1$, no. 2, Corollary 3 of Proposition 2); hence the question arises of determining under what conditions a topological space is uniformizable.
+There are topological spaces which are not uniformizable, for example any space which does not satisfy axiom $(O_{III})$ ($§ 1$, no. 2, Corollary 3 of Proposition 2); hence the question arises of determining under what conditions a topological space is uniformizable.
 
-We shall not give a complete answer to this question until Chapter IX, $\S 1$. In this section we shall examine only one important particular case, that in which $X$ is compact. We have then the following theorem:
+We shall not give a complete answer to this question until Chapter IX, $§ 1$. In this section we shall examine only one important particular case, that in which $X$ is compact. We have then the following theorem:
 
 #### Theorem 1 {#top-ii-s4-thm-1 .statement}
 
 *On a compact space $X$ there is exactly one uniformity compatible with the topology of $X$; the entourages of this uniformity are all the neighbourhoods of the diagonal $\Delta$ in $X \times X$. Furthermore, $X$ endowed with this uniformity is a complete uniform space.*
 
-The last part of the theorem is straightforward; for every Cauchy filter on $X$ has a cluster point [axiom (C)] and is therefore convergent ($\S 3$, no. 2, Proposition 5, Corollary 2).
+The last part of the theorem is straightforward; for every Cauchy filter on $X$ has a cluster point [axiom (C)] and is therefore convergent ($§ 3$, no. 2, Proposition 5, Corollary 2).
 
-Let us show next that if there is a uniformity on $X$ compatible with the topology of $X$, then the set $U$ of entourages of this uniformity is the set of all neighbourhoods of $\Delta$. We know already that every entourage is a neighbourhood of $\Delta$ ($\S 1$, no. 2, Proposition 2), hence we have to show that conversely every neighbourhood of $\Delta$ belongs to $U$. Suppose that there is a neighbourhood $U$ of $\Delta$ which is not in $U$; then the sets $V \cap C_U$, as $V$ runs through $U$, form a base of a filter $G$ on the compact space $X \times X$; consequently $G$ has a cluster point $(a, b)$ not belonging to $\Delta$. Since $U$ is a filter coarser than $G$, $(a, b)$ is also a cluster point of $U$. But the uniformity defined by $U$ is Hausdorff by hypothesis; hence the intersection of the closures of the sets of $U$ is $\Delta$ ($\S 1$, no. 2, Corollary 2 to Proposition 2 and Proposition 3); thus we arrive at a contradiction.
+Let us show next that if there is a uniformity on $X$ compatible with the topology of $X$, then the set $U$ of entourages of this uniformity is the set of all neighbourhoods of $\Delta$. We know already that every entourage is a neighbourhood of $\Delta$ ($§ 1$, no. 2, Proposition 2), hence we have to show that conversely every neighbourhood of $\Delta$ belongs to $U$. Suppose that there is a neighbourhood $U$ of $\Delta$ which is not in $U$; then the sets $V \cap C_U$, as $V$ runs through $U$, form a base of a filter $G$ on the compact space $X \times X$; consequently $G$ has a cluster point $(a, b)$ not belonging to $\Delta$. Since $U$ is a filter coarser than $G$, $(a, b)$ is also a cluster point of $U$. But the uniformity defined by $U$ is Hausdorff by hypothesis; hence the intersection of the closures of the sets of $U$ is $\Delta$ ($§ 1$, no. 2, Corollary 2 to Proposition 2 and Proposition 3); thus we arrive at a contradiction.
 
-It remains therefore to show that the set $B$ of neighbourhoods of $\Delta$ in $X \times X$ is the set of entourages of a uniformity compatible with the topology of $X$. For this it is enough to show that $B$ is the set of entourages of a *Hausdorff* uniformity on $X$; for then the topology induced by this uniformity will be *coarser* than the topology of $X$ (Chapter I, $\S 2$, no. 2, Proposition 3) and must therefore coincide with the latter (Chapter I, $\S 9$, no. 4, Theorem 2, Corollary 3).
+It remains therefore to show that the set $B$ of neighbourhoods of $\Delta$ in $X \times X$ is the set of entourages of a uniformity compatible with the topology of $X$. For this it is enough to show that $B$ is the set of entourages of a *Hausdorff* uniformity on $X$; for then the topology induced by this uniformity will be *coarser* than the topology of $X$ (Chapter I, $§ 2$, no. 2, Proposition 3) and must therefore coincide with the latter (Chapter I, $§ 9$, no. 4, Theorem 2, Corollary 3).
 
 $B$ clearly satisfies axioms $(F_I)$ and $(F_{II})$. Let us show that axioms $(U_{II})$ and $(U_{III})$ are also satisfied and that $\Delta$ is the intersection of the sets of $B$. Take the last point first: every set consisting of a single point $(x, y) \in X \times X$ is closed, since $X$ is Hausdorff; hence if $x \neq y$, the complement of $(x, y)$ in $X \times X$ is a neighbourhood of $\Delta$. Since the symmetry $(x, y) \to (y, x)$ is a homeomorphism of $X \times X$ onto itself,
 
@@ -123,11 +123,11 @@ A uniform space $X$ is precompact if and only if, for each entourage $V$ of $X$,
 
 We may express this condition more intuitively by saying that $X$ can be covered by a finite number of sets which are as small as we please.
 
-Let $i : X \to \hat{X}$ be the canonical mapping, then the entourages of $X$ are the inverse images under $i \times i$ of the entourages of $\hat{X}$ (\S 3, no. 7, Proposition 12). Suppose $X$ is precompact, and let $U$ be any entourage of $\hat{X}$; then there is a symmetric entourage $U'$ of $\hat{X}$ such that $\hat{U}' \subset U$. Since $\hat{X}$ is compact, there exist a finite number of points $x_j \in \hat{X}$ such that the $U'(x_j)$ (which are $U$-small) cover $\hat{X}$. If $V$ is the inverse image of $U$ by $i \times i$, the sets $i^{-1}(U'(x_j))$ are $V$-small and cover $X$. Conversely, suppose that for each entourage $V$ of $X$ there is a finite covering of $X$ by $V$-small sets. We have to show that every ultrafilter $\mathfrak{F}$ on $\hat{X}$ is convergent; since $\hat{X}$ is complete, it is enough to show that $\mathfrak{F}$ is a *Cauchy filter*, i.e. that for each *closed* entourage $U$ of $\hat{X}$ there is a $U$-small set in $\mathfrak{F}$ (\S 1, no. 2, Proposition 2, Corollary 2). Let $V$ be the inverse image of $U$ under $i \times i$, and let $(B_j)$ be a finite covering of $X$ by $V$-small sets; then the sets $C_j = i(B_j)$ are $U$-small and cover $i(X)$, so that
+Let $i : X \to \hat{X}$ be the canonical mapping, then the entourages of $X$ are the inverse images under $i \times i$ of the entourages of $\hat{X}$ (§ 3, no. 7, Proposition 12). Suppose $X$ is precompact, and let $U$ be any entourage of $\hat{X}$; then there is a symmetric entourage $U'$ of $\hat{X}$ such that $\hat{U}' \subset U$. Since $\hat{X}$ is compact, there exist a finite number of points $x_j \in \hat{X}$ such that the $U'(x_j)$ (which are $U$-small) cover $\hat{X}$. If $V$ is the inverse image of $U$ by $i \times i$, the sets $i^{-1}(U'(x_j))$ are $V$-small and cover $X$. Conversely, suppose that for each entourage $V$ of $X$ there is a finite covering of $X$ by $V$-small sets. We have to show that every ultrafilter $\mathfrak{F}$ on $\hat{X}$ is convergent; since $\hat{X}$ is complete, it is enough to show that $\mathfrak{F}$ is a *Cauchy filter*, i.e. that for each *closed* entourage $U$ of $\hat{X}$ there is a $U$-small set in $\mathfrak{F}$ (§ 1, no. 2, Proposition 2, Corollary 2). Let $V$ be the inverse image of $U$ under $i \times i$, and let $(B_j)$ be a finite covering of $X$ by $V$-small sets; then the sets $C_j = i(B_j)$ are $U$-small and cover $i(X)$, so that
 $$
 \hat{X} = \bigcup_j \overline{C}_j.
 $$
-On the other hand, since $C_j \times C_j \subset U$, and $U$ is closed in $\hat{X} \times \hat{X}$, we have $\overline{C}_j \times \overline{C}_j \subset U$, so that the $\overline{C}_j$ are also $U$-small. Since $\mathfrak{F}$ is an ultrafilter, one of the $\overline{C}_j$ belongs to $\mathfrak{F}$ (Chapter I, \S 6, no. 4, Corollary to Proposition 5).
+On the other hand, since $C_j \times C_j \subset U$, and $U$ is closed in $\hat{X} \times \hat{X}$, we have $\overline{C}_j \times \overline{C}_j \subset U$, so that the $\overline{C}_j$ are also $U$-small. Since $\mathfrak{F}$ is an ultrafilter, one of the $\overline{C}_j$ belongs to $\mathfrak{F}$ (Chapter I, § 6, no. 4, Corollary to Proposition 5).
 
 Q.E.D.
 
@@ -139,13 +139,13 @@ This follows from Theorem 3 and Theorem 1 of no. 1.
 
 #### Remark 1 {#top-ii-s4-n2-rem-1 .statement}
 
-A non-Hausdorff *quasi-compact* space is not necessarily uniformizable, since it need not satisfy axiom $(O_{III})$ (cf. Chapter I, \S 9, no. 2); for example most of the non-Hausdorff quasi-compact spaces which appear in algebraic geometry do not satisfy axiom $(O_{III})$ (cf. Exercise 2).
+A non-Hausdorff *quasi-compact* space is not necessarily uniformizable, since it need not satisfy axiom $(O_{III})$ (cf. Chapter I, § 9, no. 2); for example most of the non-Hausdorff quasi-compact spaces which appear in algebraic geometry do not satisfy axiom $(O_{III})$ (cf. Exercise 2).
 
 #### Proposition 1 {#top-ii-s4-prop-1 .statement}
 
 *In a uniform space every subset of a precompact set, every finite union of precompact sets and the closure of every precompact set are precompact.*
 
-The first two assertions are immediate consequences of Theorem 3. Let $X$ be a uniform space, $A$ a precompact subset of $X$, and let $i : X \to \hat{X}$ be the canonical mapping. $i(\overline{A})$ is contained in the closure of $i(A)$ in $\hat{X}$ (Chapter I, \S 2, no. 1, Theorem 1), hence the closure of $i(\overline{A})$ in $\hat{X}$ is contained in a compact set and is therefore compact.
+The first two assertions are immediate consequences of Theorem 3. Let $X$ be a uniform space, $A$ a precompact subset of $X$, and let $i : X \to \hat{X}$ be the canonical mapping. $i(\overline{A})$ is contained in the closure of $i(A)$ in $\hat{X}$ (Chapter I, § 2, no. 1, Theorem 1), hence the closure of $i(\overline{A})$ in $\hat{X}$ is contained in a compact set and is therefore compact.
 
 #### Remark 2 {#top-ii-s4-n2-rem-2 .statement}
 
@@ -155,17 +155,17 @@ In a uniform space $X$ a *relatively compact* set $A$ is *precompact*, since $A$
 
 *Let $f : X \to Y$ be a uniformly continuous mapping. If $A$ is any precompact subset of $X$, then $f(A)$ is a precompact subset of $Y$.*
 
-For if $i : X \to \hat{X}$ and $j : Y \to \hat{Y}$ are the canonical mappings, we have $j(f(A)) = \hat{f}(i(A))$ (\S 3, no. 7, Proposition 15) and hence $j(f(A))$ is relatively compact in $\hat{Y}$ (Chapter I, \S 9, no. 4, Theorem 2, Corollary 1).
+For if $i : X \to \hat{X}$ and $j : Y \to \hat{Y}$ are the canonical mappings, we have $j(f(A)) = \hat{f}(i(A))$ (§ 3, no. 7, Proposition 15) and hence $j(f(A))$ is relatively compact in $\hat{Y}$ (Chapter I, § 9, no. 4, Theorem 2, Corollary 1).
 
 #### Proposition 3 {#top-ii-s4-prop-3 .statement}
 
 *Let $X$ be a set, let $(Y_\lambda)_{\lambda \in L}$ be a family of uniform spaces, and for each $\lambda \in L$ let $f_\lambda$ be a mapping of $X$ into $Y_\lambda$. Let $X$ carry the coarsest uniformity for which the $f_\lambda$ are uniformly continuous. Then a subset $A$ of $X$ is precompact if and only if $f_\lambda(A)$ is a precompact subset of $Y_\lambda$ for each $\lambda \in L$.*
 
-The condition is necessary by virtue of Proposition 2. Sufficiency follows from the characterization of the Hausdorff completion of $X$ given in \S 3, no. 9, Proposition 18, and Tychonoff’s theorem (Chapter I, \S 9, Theorem 3, Corollary).
+The condition is necessary by virtue of Proposition 2. Sufficiency follows from the characterization of the Hausdorff completion of $X$ given in § 3, no. 9, Proposition 18, and Tychonoff’s theorem (Chapter I, § 9, Theorem 3, Corollary).
 
 ### 3. COMPACT SETS IN A UNIFORM SPACE
 
-The following proposition for an arbitrary uniform space is a sharper form of Proposition 2 of Chapter I, \S 9, no. 2 for compact spaces.
+The following proposition for an arbitrary uniform space is a sharper form of Proposition 2 of Chapter I, § 9, no. 2 for compact spaces.
 
 #### Proposition 4 {#top-ii-s4-prop-4 .statement}
 

@@ -48,7 +48,7 @@ subsections:
       pdf_page: 236
 statements: 22
 exercises: 27
-content_sha256: f9115337946d836e538150f038e0bd85e2d6d0692d78578054c8a64fbf3b5962
+content_sha256: b1e9ab611ce58d86671164118c9b605a4b85fff95031242f5a068f5b2585953c
 ---
 
 ## § 3. Anneaux factoriels
@@ -101,11 +101,11 @@ e & \leftrightarrow & b \\
 \end{array}
 $$
 
-Montrons que a) implique b): en effet, si $A$ est factoriel, $\mathcal{P}^*$ est isomorphe au groupe des diviseurs de $A$, donc à une somme directe de groupes $\mathbf{Z}$ ($\S 1$, no 3, th. 2).
+Montrons que a) implique b): en effet, si $A$ est factoriel, $\mathcal{P}^*$ est isomorphe au groupe des diviseurs de $A$, donc à une somme directe de groupes $\mathbf{Z}$ ($§ 1$, no 3, th. 2).
 
-Notons maintenant que la relation « l’intersection de deux idéaux principaux entiers de $A$ est un idéal principal » veut dire que tout couple d’éléments de $A$ admet un p.p.c.m., c’est-à-dire que $\mathcal{P}^*$ est un groupe réticulé (*Alg.*, chap. VI, $\S 1$, no 9, prop. 8). Le fait que b) implique c) (et lui est même équivalent) résulte donc d’*Alg.*, chap. VI, $\S 1$, no 13, th. 2. Le fait que c) implique d) résulte d’*Alg.*, chap. VI, $\S 1$, no 13, prop. 14, (DIV).
+Notons maintenant que la relation « l’intersection de deux idéaux principaux entiers de $A$ est un idéal principal » veut dire que tout couple d’éléments de $A$ admet un p.p.c.m., c’est-à-dire que $\mathcal{P}^*$ est un groupe réticulé (*Alg.*, chap. VI, $§ 1$, no 9, prop. 8). Le fait que b) implique c) (et lui est même équivalent) résulte donc d’*Alg.*, chap. VI, $§ 1$, no 13, th. 2. Le fait que c) implique d) résulte d’*Alg.*, chap. VI, $§ 1$, no 13, prop. 14, (DIV).
 
-Le fait que d) implique b) résulte d’*Alg.*, chap. VI, $\S 1$, no 13, th. 2 appliqué au groupe $\mathcal{P}^*$.
+Le fait que d) implique b) résulte d’*Alg.*, chap. VI, $§ 1$, no 13, th. 2 appliqué au groupe $\mathcal{P}^*$.
 
 Montrons que b) implique e). Si b) est vérifiée, on a un isomorphisme de $\mathcal{P}^*$ sur $\mathbf{Z}^{(l)}$; notons $(v_i(x))_{i \in I}$ l’élément de $\mathbf{Z}^{(l)}$ correspondant à l’idéal $Ax$ ($x \in K^*$). On voit aussitôt que chaque $v_i$ est une valuation discrète de $K$, que $A$ est l’intersection des anneaux des $v_i$, et que, pour $x \in K^*$, on a $v_i(x) = 0$ sauf pour un nombre fini d’indices $i$; donc $A$ est un anneau de Krull. D’autre part, soit $q$ un idéal premier de hauteur 1 de $A$; il contient un élément non nul $a$, nécessairement non inversible, donc aussi (par définition d’un idéal premier) l’un des éléments extrémaux $p$ de $A$; comme $Ap$ est premier non nul, on a $q = Ap$, ce qui montre bien que $q$ est principal.
 
@@ -117,11 +117,11 @@ C.Q.F.D.
 
 Soit A un anneau de Krull. Si tout idéal divisoriel de A est inversible, alors, pour tout idéal maximal m de A, $A_m$ est factoriel. La réciproque est vraie si on suppose en outre que tout idéal divisoriel de A est de type fini (en particulier si A est noethérien).
 
-Supposons que tout idéal divisoriel de A soit inversible; comme $A_m$ est un anneau de Krull (\S 1, n° 4, prop. 6), tout idéal divisoriel $\alpha$ de $A_m$ est intersection de deux idéaux fractionnaires principaux (\S 1, n° 5, cor. 2 de la prop. 9); donc $\alpha = bA_m$, où b est un idéal divisoriel de A (chap. II, \S 2, n° 4); comme b est inversible par hypothèse, on déduit du chap. II, \S 5, n° 6, th. 4 que $\alpha$ est principal, donc $A_m$ est un anneau factoriel (n° .1, déf. 1). Inversement, si tous les $A_m$ sont factoriels, et si c est un idéal divisoriel de type fini de A, $cA_m$ est un idéal divisoriel de $A_m$, comme il résulte du \S 1, n° 5, cor. 2 de la prop. 9 et du chap. II, \S 2, n° 4; par hypothèse $cA_m$ est principal, donc il résulte du chap. II, \S 5, n° 6, th. 4 que c est inversible.
+Supposons que tout idéal divisoriel de A soit inversible; comme $A_m$ est un anneau de Krull (§ 1, n° 4, prop. 6), tout idéal divisoriel $\alpha$ de $A_m$ est intersection de deux idéaux fractionnaires principaux (§ 1, n° 5, cor. 2 de la prop. 9); donc $\alpha = bA_m$, où b est un idéal divisoriel de A (chap. II, § 2, n° 4); comme b est inversible par hypothèse, on déduit du chap. II, § 5, n° 6, th. 4 que $\alpha$ est principal, donc $A_m$ est un anneau factoriel (n° .1, déf. 1). Inversement, si tous les $A_m$ sont factoriels, et si c est un idéal divisoriel de type fini de A, $cA_m$ est un idéal divisoriel de $A_m$, comme il résulte du § 1, n° 5, cor. 2 de la prop. 9 et du chap. II, § 2, n° 4; par hypothèse $cA_m$ est principal, donc il résulte du chap. II, § 5, n° 6, th. 4 que c est inversible.
 
 ### 3. Décomposition en éléments extrémaux
 
-Soient A un anneau intègre, K son corps des fractions, et U le groupe multiplicatif des éléments inversibles de A. Rappelons (Alg., chap. VI, \S 1, n° 5) qu’on a un isomorphisme canonique de $K^*/U$ sur le groupe $\mathcal{P}^*$ des idéaux principaux fractionnaires non nuls de A. La condition b) du th. 1 se traduit alors de la manière suivante:
+Soient A un anneau intègre, K son corps des fractions, et U le groupe multiplicatif des éléments inversibles de A. Rappelons (Alg., chap. VI, § 1, n° 5) qu’on a un isomorphisme canonique de $K^*/U$ sur le groupe $\mathcal{P}^*$ des idéaux principaux fractionnaires non nuls de A. La condition b) du th. 1 se traduit alors de la manière suivante:
 
 #### Proposition 2 {#ac-vii-s3-prop-2 .statement}
 

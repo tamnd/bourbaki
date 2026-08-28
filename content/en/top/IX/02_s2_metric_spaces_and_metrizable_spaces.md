@@ -52,7 +52,7 @@ subsections:
       pdf_page: 165
 statements: 32
 exercises: 9
-content_sha256: d91bfa26d214950517e689f6f767256e96a8448b834eb94092542b61fc3619d5
+content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
 ---
 
 ## 2. METRIC SPACES AND METRIZABLE SPACES
@@ -216,7 +216,7 @@ In order that $\omega(x; f) = 0$ at a point $x \in \overline{X}$ it is necessary
 *A metric on a set $X$ is said to be compatible with a uniformity $U$ on $X$ if the uniformity defined by the metric coincides with $U$.
 A uniformity on a set $X$ is said to be metrizable if there is a metric on $X$ compatible with this uniformity. A uniform space is said to be metrizable if its uniformity is metrizable.*
 
-Distinct metrics can be compatible with the same uniformity; they are then *equivalent* (\S 1, no. 2, Definition 2).
+Distinct metrics can be compatible with the same uniformity; they are then *equivalent* (§ 1, no. 2, Definition 2).
 
 #### Theorem 1 {#top-ix-s2-thm-1 .statement}
 
@@ -224,7 +224,7 @@ Distinct metrics can be compatible with the same uniformity; they are then *equi
 
 The condition is *necessary*, for (with the notation of no. 2) the entourages $V_{1/n} (n \geq 1)$ form a base of the filter of entourages of the uniformity of a metric space.
 
-The condition is *sufficient*, for, if it is satisfied, the uniformity under consideration is defined by a single pseudometric, by Proposition 2 of \S 1, no. 4; since the uniformity is Hausdorff, this pseudometric is a metric.
+The condition is *sufficient*, for, if it is satisfied, the uniformity under consideration is defined by a single pseudometric, by Proposition 2 of § 1, no. 4; since the uniformity is Hausdorff, this pseudometric is a metric.
 
 #### Corollary 1 {#top-ix-s2-thm-1-cor-1 .statement}
 
@@ -236,7 +236,7 @@ For if $(f_n)$ is a sequence of pseudometrics defining such a structure, the fil
 
 *Every countable product of metrizable uniform spaces is metrizable.*
 
-For such a space is Hausdorff and its uniformity has a countable fundamental system of entourages (Chapter II, \S 2, no. 6).
+For such a space is Hausdorff and its uniformity has a countable fundamental system of entourages (Chapter II, § 2, no. 6).
 
 ### 5. METRIZABLE TOPOLOGICAL SPACES
 
@@ -250,7 +250,7 @@ The subspace $\mathbf{R}_+^*$ of $\mathbf{R}$ provides an example of this. Both 
 
 We remark also that there can exist *non-metrizable* uniformities compatible with the topology of a *metrizable* topological space (Exercise 7).
 
-We shall content ourselves here with *necessary* conditions for the metrizability of a topological space (for a necessary and sufficient condition, cf. \S 4, Exercise 22). In the first place, a space cannot be metrizable unless it is completely regular (indeed we shall see, in § 4, no. 1, Proposition 2, that a metrizable space is necessarily "normal", which is a stronger condition). On the other hand, Theorem 1 shows that:
+We shall content ourselves here with *necessary* conditions for the metrizability of a topological space (for a necessary and sufficient condition, cf. § 4, Exercise 22). In the first place, a space cannot be metrizable unless it is completely regular (indeed we shall see, in § 4, no. 1, Proposition 2, that a metrizable space is necessarily "normal", which is a stronger condition). On the other hand, Theorem 1 shows that:
 
 #### Proposition 6 {#top-ix-s2-prop-6 .statement}
 

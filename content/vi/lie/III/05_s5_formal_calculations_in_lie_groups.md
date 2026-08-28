@@ -28,9 +28,9 @@ subsections:
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: fd44041a354b12ad1414a3c2e7cc1c0cf6a3db3a0486ddf23cbd7ffec81830fb
+content_sha256: d1d19e24cf4ed8d66580726ee75b119d30fde466bcd457e46f663230736b5b44
 translated_from: content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md
-source_content_sha256: cd937d983bc405d657b449070d2500d889e40909800ae25e3707f9d043c12bc7
+source_content_sha256: 4018c4beb2ee03f8be21f730d567b35b84d29744806b1d273615632c7f2274ba
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-09d05e9d
 glossary_version: 34
@@ -282,7 +282,7 @@ $$
 x^{[t]} = \sum_{i=0}^t \binom{t}{i} \psi_i(x) = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x).
 $$
 
-Sau đó ta viết $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ với mọi $t \in \mathbf{K}$. Trong các chuỗi nguyên $x^{[t]}$ và $x^{[t]'}$, mỗi hệ số là một hàm đa thức của $t$. Điều này là hiển nhiên đối với $x^{[t]'}$. Đối với $x^{[t]}$, chỉ cần chứng minh rằng, với mọi $u \in \mathrm{U}(G)$, ảnh của $u$ qua $x \mapsto x^{[t]}$ là một hàm đa thức của $t$. Bây giờ, với $u \in \mathrm{U}^m(G)$, ảnh này là $t^m u$ (\S 4, no. 3, Mệnh đề 7 (iv)).
+Sau đó ta viết $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ với mọi $t \in \mathbf{K}$. Trong các chuỗi nguyên $x^{[t]}$ và $x^{[t]'}$, mỗi hệ số là một hàm đa thức của $t$. Điều này là hiển nhiên đối với $x^{[t]'}$. Đối với $x^{[t]}$, chỉ cần chứng minh rằng, với mọi $u \in \mathrm{U}(G)$, ảnh của $u$ qua $x \mapsto x^{[t]}$ là một hàm đa thức của $t$. Bây giờ, với $u \in \mathrm{U}^m(G)$, ảnh này là $t^m u$ (§ 4, no. 3, Mệnh đề 7 (iv)).
 
 Vì $x^{[t]} = x^{[t]'}$ với $t$ là một số nguyên $\geq 0$, suy ra $x^{[t]} = x^{[t]'}$ với mọi $t \in \mathbf{K}$.
 

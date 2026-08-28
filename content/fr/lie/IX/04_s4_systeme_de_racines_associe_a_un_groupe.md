@@ -53,22 +53,22 @@ subsections:
       pdf_page: 44
 statements: 56
 exercises: 22
-content_sha256: 81d2d52739402a8cfffee2069f51659c89741d6b70b8f33e50210e2ec5a69770
+content_sha256: 6c8ce2a468fd123c4b2deff92ec07f306040ddb61732bf78892a91d9081f250b
 ---
 
 ## § 4. SYSTÈME DE RACINES ASSOCIÉ À UN GROUPE COMPACT
 
-Dans les paragraphes 4 à 8, on désigne par $G$ un groupe de Lie compact connexe et par $T$ un tore maximal de $G$. On note $g$ (resp. $t$) l’algèbre de Lie de $G$ (resp. $T$), $g_c$ (resp. $t_c$) l’algèbre de Lie complexifiée de $g$ (resp. $t$), et $W$ le groupe de Weyl de $G$ relativement à $T$ ($\S 2$, no 5).
+Dans les paragraphes 4 à 8, on désigne par $G$ un groupe de Lie compact connexe et par $T$ un tore maximal de $G$. On note $g$ (resp. $t$) l’algèbre de Lie de $G$ (resp. $T$), $g_c$ (resp. $t_c$) l’algèbre de Lie complexifiée de $g$ (resp. $t$), et $W$ le groupe de Weyl de $G$ relativement à $T$ ($§ 2$, no 5).
 
 ### 1. Le groupe $X(H)$
 
-Soit $H$ un groupe de Lie compact. On note $X(H)$ le groupe (commutatif) des homomorphismes continus de $H$ dans le groupe topologique $C^*$. D’après III, $\S 8$, no 1, th. 1, les éléments de $X(H)$ sont des morphismes de groupes de Lie ; pour tout $a \in X(H)$, la différentielle de $a$ est une application $\mathbf{R}$-linéaire $L(a) : L(H) \to L(C^*)$. Nous identifierons désormais l’algèbre de Lie de $C^*$ à $C$ de façon que l’application exponentielle de $C^*$ coïncide avec l’application $z \mapsto e^z$ de $C$ dans $C^*$. A tout élément $a$ de $X(H)$ est alors associé un élément $L(a) \in \mathrm{Hom}_{\mathbf{R}}(L(H), C)$; on note $\delta(a)$ l’élément de $\mathrm{Hom}_C(L(H)_c, C)$ qui lui correspond (c’est-à-dire dont la restriction à $L(H) \subset L(H)_c$ est égale à $L(a)$).
+Soit $H$ un groupe de Lie compact. On note $X(H)$ le groupe (commutatif) des homomorphismes continus de $H$ dans le groupe topologique $C^*$. D’après III, $§ 8$, no 1, th. 1, les éléments de $X(H)$ sont des morphismes de groupes de Lie ; pour tout $a \in X(H)$, la différentielle de $a$ est une application $\mathbf{R}$-linéaire $L(a) : L(H) \to L(C^*)$. Nous identifierons désormais l’algèbre de Lie de $C^*$ à $C$ de façon que l’application exponentielle de $C^*$ coïncide avec l’application $z \mapsto e^z$ de $C$ dans $C^*$. A tout élément $a$ de $X(H)$ est alors associé un élément $L(a) \in \mathrm{Hom}_{\mathbf{R}}(L(H), C)$; on note $\delta(a)$ l’élément de $\mathrm{Hom}_C(L(H)_c, C)$ qui lui correspond (c’est-à-dire dont la restriction à $L(H) \subset L(H)_c$ est égale à $L(a)$).
 
 Pour tout $x \in L(H)$ et tout $a \in X(H)$, on a
 $$
 a(\exp_H x) = e^{\delta(a)(x)},
 $$
-par fonctorialité de l’application exponentielle (III, $\S 6$, no 4, prop. 10).
+par fonctorialité de l’application exponentielle (III, $§ 6$, no 4, prop. 10).
 
 On notera le plus souvent additivement le groupe $X(H)$; en ce cas, on notera $g^a$ l’élément $a(g)$ de $C^*$. Avec cette notation, on a les formules
 $$
@@ -81,7 +81,7 @@ $$
 
 Puisque $H$ est compact, les éléments de $X(H)$ prennent leurs valeurs dans le sous-groupe $U = U(1, C)$ des nombres complexes de valeur absolue 1, de sorte que $X(H)$ s’identifie au groupe des homomorphismes continus (ou analytiques) de $H$ dans $U$. Il en résulte que, pour tout $a \in L(H)$, l’application $L(a)$ prend ses valeurs dans le sous-espace $Ri$ de $C$, donc $\delta(a)$ applique $L(H)$ dans $Ri$.
 
-Si $H$ est commutatif, $X(H)$ n’est autre que le groupe (discret) dual de $H$ (TS, II, $\S 1$, no 1). Si $H$ est commutatif et fini, $X(H)$ s’identifie au groupe fini dual $D(H) = \mathrm{Hom}_\mathbf{Z}(H, \mathbf{Q}/\mathbf{Z})$ (où conformément à A, VII, p. 27, exemple 1, on identifie $\mathbf{Q}/\mathbf{Z}$ à un sous-groupe de $C^*$ par l’homomorphisme $r \mapsto \exp(2\pi i r)$).
+Si $H$ est commutatif, $X(H)$ n’est autre que le groupe (discret) dual de $H$ (TS, II, $§ 1$, no 1). Si $H$ est commutatif et fini, $X(H)$ s’identifie au groupe fini dual $D(H) = \mathrm{Hom}_\mathbf{Z}(H, \mathbf{Q}/\mathbf{Z})$ (où conformément à A, VII, p. 27, exemple 1, on identifie $\mathbf{Q}/\mathbf{Z}$ à un sous-groupe de $C^*$ par l’homomorphisme $r \mapsto \exp(2\pi i r)$).
 
 Pour tout morphisme $f : H \to H'$ de groupes de Lie compacts, on note $X(f)$ l’homomorphisme $a \mapsto a \circ f$ de $X(H')$ dans $X(H)$. Si $K$ est un sous-groupe distingué fermé du groupe de Lie compact $H$, on a une suite exacte de $\mathbf{Z}$-modules $0 \to X(H/K) \to X(H) \to X(K)$.
 
@@ -275,7 +275,7 @@ $$
 g_c = t_c \oplus \bigoplus_{\alpha \in \mathbf{R}} g^\alpha.
 $$
 
-Pour chaque $\alpha \in \mathbf{R}$, désignons par $V(\alpha)$ le sous-espace de dimension 2 de g tel que $V(\alpha)_{(c)} = g^\alpha + g^{-\alpha}$; les composants isotypiques non nuls de g pour la représentation adjointe de T sont t et les $V(\alpha)$. Soit par ailleurs K la forme quadratique associée à la forme de Killing de g ; elle est négative (\$ 1, no 3, prop. 1) et sa restriction $K(\alpha)$ à $V(\alpha)$ est négative et séparante. Pour chaque élément $t$ de T, Ad $t$ laisse stable $K(\alpha)$, d’où un morphisme de groupes de Lie
+Pour chaque $\alpha \in \mathbf{R}$, désignons par $V(\alpha)$ le sous-espace de dimension 2 de g tel que $V(\alpha)_{(c)} = g^\alpha + g^{-\alpha}$; les composants isotypiques non nuls de g pour la représentation adjointe de T sont t et les $V(\alpha)$. Soit par ailleurs K la forme quadratique associée à la forme de Killing de g ; elle est négative (§ 1, no 3, prop. 1) et sa restriction $K(\alpha)$ à $V(\alpha)$ est négative et séparante. Pour chaque élément $t$ de T, Ad $t$ laisse stable $K(\alpha)$, d’où un morphisme de groupes de Lie
 
 $$
 \iota_\alpha : T \to \mathrm{SO}(K(\alpha)).
@@ -355,13 +355,13 @@ b) Pour tout $a \in U$, on a $v \begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{p
 
 Si $v_1$ et $v_2$ sont deux morphismes de $\mathbf{SU}(2, C)$ dans $G$ possédant les propriétés précédentes, il existe $a \in U$ tel que $v_2 = v_1 \circ \mathrm{Int} \begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix}$.
 
-D’après le th. 1 et la prop. 6 du § 3, no 6, il existe un morphisme de groupes de Lie $\nu : \mathrm{SU}(2, \mathbf{C}) \to S_\alpha$, surjectif à noyau discret. Alors $\nu^{-1}(T \cap S_\alpha)$ est un tore maximal de $\mathrm{SU}(2, \mathbf{C})$ ($\S 2$, no 3, prop. 1). Puisque les tores maximaux de $\mathrm{SU}(2, \mathbf{C})$ sont conjugués ($\S 2$, no 2, th. 2), on peut supposer, quitte à remplacer $\nu$ par $\nu \circ \mathrm{Int}\ s$ (avec $s \in \mathrm{SU}(2, \mathbf{C})$), que $\nu^{-1}(T \cap S_\alpha)$ est le groupe des matrices diagonales de $\mathrm{SU}(2, \mathbf{C})$. On a alors $\nu \begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \in T$ pour tout $a \in U$, et l’application
+D’après le th. 1 et la prop. 6 du § 3, no 6, il existe un morphisme de groupes de Lie $\nu : \mathrm{SU}(2, \mathbf{C}) \to S_\alpha$, surjectif à noyau discret. Alors $\nu^{-1}(T \cap S_\alpha)$ est un tore maximal de $\mathrm{SU}(2, \mathbf{C})$ ($§ 2$, no 3, prop. 1). Puisque les tores maximaux de $\mathrm{SU}(2, \mathbf{C})$ sont conjugués ($§ 2$, no 2, th. 2), on peut supposer, quitte à remplacer $\nu$ par $\nu \circ \mathrm{Int}\ s$ (avec $s \in \mathrm{SU}(2, \mathbf{C})$), que $\nu^{-1}(T \cap S_\alpha)$ est le groupe des matrices diagonales de $\mathrm{SU}(2, \mathbf{C})$. On a alors $\nu \begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \in T$ pour tout $a \in U$, et l’application
 
 $$
 \begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \mapsto \alpha \circ \nu \begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix}
 $$
 
-est une racine de $\mathrm{SU}(2, \mathbf{C})$, donc est égale à l’une des deux applications $\begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \mapsto a^2$ ou $\begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \mapsto a^{-2}$ ($\S 3$, no 6, formules (19)). Dans le premier cas, l’homomorphisme $\nu$ convient ; dans le second cas, l’homomorphisme $\nu \circ \mathrm{Int}\ \theta$ convient (*loc. cit.*, formules (18)).
+est une racine de $\mathrm{SU}(2, \mathbf{C})$, donc est égale à l’une des deux applications $\begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \mapsto a^2$ ou $\begin{pmatrix} a & 0 \\ 0 & \overline{a} \end{pmatrix} \mapsto a^{-2}$ ($§ 3$, no 6, formules (19)). Dans le premier cas, l’homomorphisme $\nu$ convient ; dans le second cas, l’homomorphisme $\nu \circ \mathrm{Int}\ \theta$ convient (*loc. cit.*, formules (18)).
 
 Si $\nu_1$ et $\nu_2$ sont deux morphismes de $\mathrm{SU}(2, \mathbf{C})$ dans $G$ répondant aux conditions exigées, ils appliquent tous deux $\mathrm{SU}(2, \mathbf{C})$ dans $S_\alpha$ (condition *a*)), donc sont tous deux des revêtements universels de $S_\alpha$. Il existe donc un automorphisme $\varphi$ de $\mathrm{SU}(2, \mathbf{C})$ tel que $\nu_2 = \nu_1 \circ \varphi$, et on conclut par la prop. 9 du no 4.
 
@@ -391,7 +391,7 @@ Il en résulte que $\nu$ est *injectif* si et seulement si $K_\alpha \notin 2\Ga
 
 On note dans la suite de ce paragraphe $R^\vee(G, T)$ l’ensemble des vecteurs nodaux $K_\alpha$ pour $\alpha \in R(G, T)$. C’est une partie de $\Gamma(T)$ que l’injection canonique de $\Gamma(T)$ dans $t_C$ identifie à l’homothétique de rapport $2\pi i$ du système de racines inverse $R^\vee(g_C, t_C) = \{ H_{\delta(\alpha)} \}$ de $\delta(R)$. Il en résulte que $R^\vee(G, T)$ engendre le $\mathbf{R}$-espace vectoriel $L(T \cap D(G))$, donc que son orthogonal dans $X(T)$ est $X(T/(T \cap D(G)))$.
 
-Notons $\mathrm{Aut}(T)$ le groupe des automorphismes du groupe de Lie $T$; le groupe de Weyl $W = W_G(T)$ (\S 2, no 5) s’identifie à un sous-groupe de $\mathrm{Aut}(T)$. Rappelons d’autre part (VIII, \S 2, no 2, remarque 4) que le groupe de Weyl $W(g_C, t_C)$ de l’algèbre réductive déployée $(g_C, t_C)$ opère dans $t_C$, et s’identifie donc canoniquement à un sous-groupe de $\mathbf{GL}(t_C)$.
+Notons $\mathrm{Aut}(T)$ le groupe des automorphismes du groupe de Lie $T$; le groupe de Weyl $W = W_G(T)$ (§ 2, no 5) s’identifie à un sous-groupe de $\mathrm{Aut}(T)$. Rappelons d’autre part (VIII, § 2, no 2, remarque 4) que le groupe de Weyl $W(g_C, t_C)$ de l’algèbre réductive déployée $(g_C, t_C)$ opère dans $t_C$, et s’identifie donc canoniquement à un sous-groupe de $\mathbf{GL}(t_C)$.
 
 #### Proposition 10 {#lie-ix-s4-prop-10 .statement tag=01C6}
 
@@ -399,9 +399,9 @@ Notons $\mathrm{Aut}(T)$ le groupe des automorphismes du groupe de Lie $T$; le g
 
 L’application considérée est injective. Il s’agit de montrer que son image est égale à $W(g_C, t_C)$.
 
-Soit $g \in N_G(T)$. Avec les notations de VIII, \S 5, no 2, on a $\mathrm{Ad}\, g \in \mathrm{Aut}(g_C, t_C) \cap \mathrm{Int}(g_C)$, donc $\mathrm{Ad}\, g \in \mathrm{Aut}_0(g_C, t_C)$ (*loc. cit.*, no 5, prop. 11). D’après *loc. cit.*, no 2, prop. 4, l’automorphisme de $t_C$ induit par $\mathrm{Ad}\, g$ appartient à $W(g_C, t_C)$. L’image de $W$ dans $\mathbf{GL}(t_C)$ est donc contenue dans $W(g_C, t_C)$.
+Soit $g \in N_G(T)$. Avec les notations de VIII, § 5, no 2, on a $\mathrm{Ad}\, g \in \mathrm{Aut}(g_C, t_C) \cap \mathrm{Int}(g_C)$, donc $\mathrm{Ad}\, g \in \mathrm{Aut}_0(g_C, t_C)$ (*loc. cit.*, no 5, prop. 11). D’après *loc. cit.*, no 2, prop. 4, l’automorphisme de $t_C$ induit par $\mathrm{Ad}\, g$ appartient à $W(g_C, t_C)$. L’image de $W$ dans $\mathbf{GL}(t_C)$ est donc contenue dans $W(g_C, t_C)$.
 
-Soit $\alpha \in R(G, T)$, et soit $v : \mathrm{SU}(2, \mathbf{C}) \to G$ un morphisme de groupes de Lie ayant les propriétés du cor. au th. 1. L’image par $v$ de l’élément $\theta$ de $\mathrm{SU}(2, \mathbf{C})$ a les propriétés suivantes (\S 3, no 6, formules (17)) :
+Soit $\alpha \in R(G, T)$, et soit $v : \mathrm{SU}(2, \mathbf{C}) \to G$ un morphisme de groupes de Lie ayant les propriétés du cor. au th. 1. L’image par $v$ de l’élément $\theta$ de $\mathrm{SU}(2, \mathbf{C})$ a les propriétés suivantes (§ 3, no 6, formules (17)) :
 
 $a) \quad (\mathrm{Int}\, v(\theta))(t) = t$ si $t \in \mathrm{Ker}\, \alpha$,
 
@@ -413,9 +413,9 @@ Il s’ensuit que $\mathrm{Ad}\, v(\theta)$ induit l’identité sur $\mathrm{Ke
 
 *Supposons* $G$ *semi-simple*. *Alors tout élément de* $G$ *est le commutateur de deux éléments de* $G$.
 
-Soit $c$ une transformation de Coxeter du groupe de Weyl $W(g_C, t_C)$ (V, \S 6, no 1), et soit $n$ un élément de $N_G(T)$ dont la classe dans $W$ s’identifie à $c$ par l’isomorphisme défini dans la proposition. Notons $f_c$ le morphisme $t \mapsto (n, t)$ de $T$ dans $T$; pour $x \in t_C$, on a $L(f_c)_{(C)}(x) = (\mathrm{Ad}\, n)(x) - x = c(x) - x$.
+Soit $c$ une transformation de Coxeter du groupe de Weyl $W(g_C, t_C)$ (V, § 6, no 1), et soit $n$ un élément de $N_G(T)$ dont la classe dans $W$ s’identifie à $c$ par l’isomorphisme défini dans la proposition. Notons $f_c$ le morphisme $t \mapsto (n, t)$ de $T$ dans $T$; pour $x \in t_C$, on a $L(f_c)_{(C)}(x) = (\mathrm{Ad}\, n)(x) - x = c(x) - x$.
 
-D’après le th. 1 de V, \S 6, no 2, l’endomorphisme $c$ de $t_C$ n’a pas de valeur propre égale à 1. Par suite, $L(f_c)$ est surjectif, et il en est de même de $f_c$. Il en résulte que tout élément de $T$ est le commutateur de deux éléments de $G$, ce qui entraîne le corollaire compte tenu du th. 2, \S 2, no 2.
+D’après le th. 1 de V, § 6, no 2, l’endomorphisme $c$ de $t_C$ n’a pas de valeur propre égale à 1. Par suite, $L(f_c)$ est surjectif, et il en est de même de $f_c$. Il en résulte que tout élément de $T$ est le commutateur de deux éléments de $G$, ce qui entraîne le corollaire compte tenu du th. 2, § 2, no 2.
 
 ### 6. Groupe fondamental
 
@@ -425,13 +425,13 @@ Dans la proposition qui suit, on note $f(G, T)$ l’homomorphisme de $\Gamma(T)$
 
 *L’homomorphisme* $f(G, T): \Gamma(T) \to \pi_1(G)$ *est surjectif*. *Son noyau est le sous-groupe* $N(G, T)$ *de* $\Gamma(T)$ *engendré par la famille des vecteurs nodaux* $(K_\alpha)_{\alpha \in R(G, T)}$.
 
-L’homomorphisme $f(G, T)$ est surjectif d’après la prop. 3 (\S 2, n° 4). Notons $A(G, T)$ l’assertion : « le noyau de $f(G, T)$ est engendré par les $K_\alpha$ » qu’il nous reste à démontrer, et distinguons plusieurs cas :
+L’homomorphisme $f(G, T)$ est surjectif d’après la prop. 3 (§ 2, n° 4). Notons $A(G, T)$ l’assertion : « le noyau de $f(G, T)$ est engendré par les $K_\alpha$ » qu’il nous reste à démontrer, et distinguons plusieurs cas :
 
 *a) G est simplement connexe.* Soit $\rho: g_C \to \mathrm{gl}(V)$ une représentation linéaire de $g_C$ dans un espace vectoriel complexe $V$ de dimension finie. Par restriction à $g$, on en déduit une représentation de $g$ dans l’espace vectoriel réel $V_{[\mathbf{R}]}$; puisque $G$ est simplement connexe, il existe une représentation linéaire analytique $\pi$ de $G$ dans $V_{[\mathbf{R}]}$ telle que $\rho = L(\pi)$. On déduit alors de la prop. 7 du n° 3 que l’image $\delta(X(T))$ de $X(T)$ dans $t_C^*$ contient tous les poids de $\rho$ dans $V$. Ceci étant vrai pour toute représentation $\rho$ de $g_C$, il résulte de VIII, § 7, n° 2, th. 1 que $\delta(X(T))$ contient le groupe des poids de $\delta(R)$, qui est par définition l’ensemble des $\lambda \in t_C^*$ tels que $\lambda(H_{\delta(\alpha)}) \in \mathbf{Z}$ pour tout $\alpha \in R$, c’est-à-dire $\lambda(K_\alpha) \in 2\pi i \mathbf{Z}$ pour tout $\alpha \in R$. Le groupe $X(T)$ contient donc tous les éléments $\lambda$ de $X(T) \otimes \mathbf{Q}$ tels que $\langle \lambda, K_\alpha \rangle \in \mathbf{Z}$ pour tout $\alpha \in R$, ce qui entraîne par dualité que $\Gamma(T)$ est engendré par les $K_\alpha$, d’où l’assertion $A(G, T)$.
 
 *b) G est produit direct d’un groupe simplement connexe $G'$ par un tore S.* Alors $T$ est le produit direct d’un tore maximal $T'$ de $G'$ par $S$, $\Gamma(T)$ s’identifie à $\Gamma(T') \times \Gamma(S)$, $\pi_1(G)$ à $\pi_1(G') \times \pi_1(S)$, et $f(G, T)$ à l’homomorphisme de composantes $f(G', T')$ et $f(S, S)$. Comme $f(S, S)$ est bijectif, l’application canonique $\Gamma(T') \to \Gamma(T)$ applique bijectivement $\mathrm{Ker}\, f(G', T')$ sur $\mathrm{Ker}\, f(G, T)$. Par ailleurs, les $K_\alpha$ appartiennent à l’algèbre de Lie du groupe dérivé $G'$ de $G$, donc à l’image de $\Gamma(T')$, et il est alors immédiat que $A(G', T')$ implique $A(G, T)$, d’où l’assertion $A(G, T)$, vu *a*.
 
-*c) Cas général.* Il existe un morphisme surjectif de noyau fini $p: G' \to G$, où $G'$ est produit direct d’un groupe simplement connexe par un tore (\S 1, n° 4, prop. 4). Si $T'$ est l’image réciproque de $T$ dans $G'$ (c’est un tore maximal de $G'$ d’après § 2, n° 3, prop. 1), et $N$ le noyau de $p$, on a des suites exactes $0 \to N \to G' \to G \to 0$ et $0 \to N \to T' \to T \to 0$, d’où un diagramme commutatif à lignes exactes (n° 2, remarque 1 et TG, XI, à paraître)
+*c) Cas général.* Il existe un morphisme surjectif de noyau fini $p: G' \to G$, où $G'$ est produit direct d’un groupe simplement connexe par un tore (§ 1, n° 4, prop. 4). Si $T'$ est l’image réciproque de $T$ dans $G'$ (c’est un tore maximal de $G'$ d’après § 2, n° 3, prop. 1), et $N$ le noyau de $p$, on a des suites exactes $0 \to N \to G' \to G \to 0$ et $0 \to N \to T' \to T \to 0$, d’où un diagramme commutatif à lignes exactes (n° 2, remarque 1 et TG, XI, à paraître)
 
 $$
 \begin{array}{ccccccccc}
@@ -473,7 +473,7 @@ On peut montrer (cf. exercice 2 du § 5) que $\pi_2(G)$ est nul. On déduit alor
 
 L’homomorphisme $\pi_1(D(G)) \to \pi_1(G)$ déduit de l’inclusion de D(G) dans G induit un isomorphisme de $\pi_1(D(G))$ sur le sous-groupe de torsion de $\pi_1(G)$.
 
-En effet, $T \cap D(G)$ est un tore maximal de D(G) ($\S 2, n^o 3,$ prop. 1, c)) ; de la suite exacte
+En effet, $T \cap D(G)$ est un tore maximal de D(G) ($§ 2, n^o 3,$ prop. 1, c)) ; de la suite exacte
 
 $$
 0 \to \Gamma(T \cap D(G)) \to \Gamma(T) \to \Gamma(T/(T \cap D(G))) \to 0 ,
@@ -495,17 +495,17 @@ Rappelons (VI, § 1, n° 7) qu’une partie P de $R = R(G, T)$ est dite close si
 
 Soit $\mathcal{H}$ l’ensemble des sous-groupes fermés connexes de G contenant T, ordonné par inclusion. L’application $H \mapsto R(H, T)$ est une bijection croissante de $\mathcal{H}$ sur l’ensemble des parties closes et symétriques de $R(G, T)$, ordonné par inclusion.
 
-Si $H \in \mathcal{H}$, alors $L(H)_c$ est somme directe de $t_c$ et des $g^\alpha$ pour $\alpha \in R(H, T)$; comme c’est une sous-algèbre réductive dans $g_c$, la partie $R(H, T)$ de R satisfait aux conditions énoncées (VIII, § 3, n° 1, lemme 2 et prop. 2). Inversement, si P est une partie de R satisfaisant à ces conditions, alors $t_c \oplus \sum_{\alpha \in P} g^\alpha$ est une sous-algèbre de $g_c$ (loc. cit.) qui est rationnelle sur $\mathbf{R}$ (n° 3), donc de la forme $h_{(c)}$, où $h$ est une sous-algèbre de g. Soit $H(P)$ le sous-groupe intégral de G défini par $h$; il est fermé ($\S 2, n^o 4$, remarque 1). On vérifie aussitôt que les applications $H \mapsto R(H, T)$ et $P \mapsto H(P)$ sont croissantes et réciproques l'une de l'autre.
+Si $H \in \mathcal{H}$, alors $L(H)_c$ est somme directe de $t_c$ et des $g^\alpha$ pour $\alpha \in R(H, T)$; comme c’est une sous-algèbre réductive dans $g_c$, la partie $R(H, T)$ de R satisfait aux conditions énoncées (VIII, § 3, n° 1, lemme 2 et prop. 2). Inversement, si P est une partie de R satisfaisant à ces conditions, alors $t_c \oplus \sum_{\alpha \in P} g^\alpha$ est une sous-algèbre de $g_c$ (loc. cit.) qui est rationnelle sur $\mathbf{R}$ (n° 3), donc de la forme $h_{(c)}$, où $h$ est une sous-algèbre de g. Soit $H(P)$ le sous-groupe intégral de G défini par $h$; il est fermé ($§ 2, n^o 4$, remarque 1). On vérifie aussitôt que les applications $H \mapsto R(H, T)$ et $P \mapsto H(P)$ sont croissantes et réciproques l'une de l'autre.
 
 #### Corollaire 1 {#lie-ix-s4-prop-12-cor-1 .statement tag=01CE}
 
 Les sous-groupes fermés de $G$ contenant $T$ sont en nombre fini.
-Soit $H$ un tel sous-groupe ; on a $H_0 \in \mathcal{H}$, et $\mathcal{H}$ est fini. Par ailleurs, $H$ est un sous-groupe de $N_G(H_0)$ contenant $H_0$, et $N_G(H_0)/H_0$ est fini (\S 2, no 4, prop. 4 et remarque 2).
+Soit $H$ un tel sous-groupe ; on a $H_0 \in \mathcal{H}$, et $\mathcal{H}$ est fini. Par ailleurs, $H$ est un sous-groupe de $N_G(H_0)$ contenant $H_0$, et $N_G(H_0)/H_0$ est fini (§ 2, no 4, prop. 4 et remarque 2).
 
 #### Corollaire 2 {#lie-ix-s4-prop-12-cor-2 .statement tag=01CF}
 
 Soit $H$ un sous-groupe fermé connexe de $G$ contenant $T$, et soit $W_G^H(T)$ le stabilisateur dans $W_G(T)$ de la partie $R(H, T)$ de $R$. Le groupe $N_G(H)/H$ est isomorphe au groupe quotient $W_G^H(T)/W_H(T)$.
-Il résulte en effet de la prop. 7 du \S 2, no 5, appliquée à $N_G(H)$, que $N_G(H)/H$ est isomorphe à $W_{N(H)}(T)/W_H(T)$, où $W_{N(H)}(T)$ est l'ensemble des éléments de $W_G(T)$ dont les représentants dans $N_G(T)$ normalisent $H$. Soit $n \in N_G(T)$, et soit $w$ sa classe dans $W_G(T)$. D'après III, \S 9, no 4, prop. 11, $n$ normalise $H$ si et seulement si on a $(\mathrm{Ad}\ n)\ (L(H)) = L(H)$; compte tenu de la prop. 5 du no 3, cela signifie aussi que la partie $R(H, T)$ de $R$ est stable par $w$, d'où le corollaire.
+Il résulte en effet de la prop. 7 du § 2, no 5, appliquée à $N_G(H)$, que $N_G(H)/H$ est isomorphe à $W_{N(H)}(T)/W_H(T)$, où $W_{N(H)}(T)$ est l'ensemble des éléments de $W_G(T)$ dont les représentants dans $N_G(T)$ normalisent $H$. Soit $n \in N_G(T)$, et soit $w$ sa classe dans $W_G(T)$. D'après III, § 9, no 4, prop. 11, $n$ normalise $H$ si et seulement si on a $(\mathrm{Ad}\ n)\ (L(H)) = L(H)$; compte tenu de la prop. 5 du no 3, cela signifie aussi que la partie $R(H, T)$ de $R$ est stable par $w$, d'où le corollaire.
 
 #### Remarque 1 {#lie-ix-s4-n7-rem-1 .statement tag=01CG}
 
@@ -514,7 +514,7 @@ Le groupe $W_G^H(T)$ est aussi le stabilisateur dans $W_G(T)$ du sous-groupe $C(
 #### Proposition 13 {#lie-ix-s4-prop-13 .statement tag=01CH}
 
 Soient $H$ un sous-groupe fermé connexe de $G$ de rang maximum, $C$ son centre. Alors $C$ contient le centre de $G$, et $H$ est la composante neutre du centralisateur de $C$.
-Soit $S$ un tore maximal de $H$. Puisque le centre de $G$ est contenu dans $S$, il est contenu dans $C$. Posons $L = Z(C)_0$ ; c'est un sous-groupe fermé connexe de $G$ contenant $H$, donc de rang maximum, et son centre est égal à $C$. Notons $R_H$ et $R_L$ les systèmes de racines de $H$ et $L$ respectivement, relativement à $S$ ; on a $R_H \subset R_L \subset R(G, S)$. Puisque $C(H) = C(L)$, la prop. 8 (no 4) entraîne l'égalité $Q(R_H) = Q(R_L)$ ; mais on a $Q(R_H) \cap R_L = R_H$ (VI, \S 1, no 7, prop. 23), d'où $R_H = R_L$ et $H = L$ (prop. 12).
+Soit $S$ un tore maximal de $H$. Puisque le centre de $G$ est contenu dans $S$, il est contenu dans $C$. Posons $L = Z(C)_0$ ; c'est un sous-groupe fermé connexe de $G$ contenant $H$, donc de rang maximum, et son centre est égal à $C$. Notons $R_H$ et $R_L$ les systèmes de racines de $H$ et $L$ respectivement, relativement à $S$ ; on a $R_H \subset R_L \subset R(G, S)$. Puisque $C(H) = C(L)$, la prop. 8 (no 4) entraîne l'égalité $Q(R_H) = Q(R_L)$ ; mais on a $Q(R_H) \cap R_L = R_H$ (VI, § 1, no 7, prop. 23), d'où $R_H = R_L$ et $H = L$ (prop. 12).
 
 #### Remarque 2 {#lie-ix-s4-n7-rem-2 .statement tag=01CI}
 
@@ -523,7 +523,7 @@ Disons qu'un sous-groupe $C$ de $G$ est radiciel s'il existe un tore maximal $S$
 #### Corollaire {#lie-ix-s4-n7-cor-1 .statement tag=01CJ}
 
 L'ensemble des $g \in G$ tels que $T \cap gTg^{-1} \neq C(G)$ est une réunion finie de sous-variétés analytiques fermées de $G$ distinctes de $G$.
-En effet, posons $A_g = T \cap gTg^{-1}$ ; on a $T \subset Z(A_g)$ et $gTg^{-1} \subset Z(A_g)$. Il existe donc $x \in Z(A_g)$ tel que $xTx^{-1} = gTg^{-1}$ (\S 2, no 2, th. 2), ce qui implique $g \in Z(A_g).N_G(T)$. Notons $\mathcal{A}$ l'ensemble fini (cor. 1) des sous-groupes fermés de $G$ contenant $T$ et distincts de $G$, et posons $X = \bigcup_{H \in \mathcal{A}} H.N_G(T)$ ; c'est une réunion finie de sous-variétés fermées de G, distinctes de G. Si $A_g \neq C(G)$, on a $Z(A_g) \in \mathcal{A}$, et $g$ appartient à X. Inversement si $g \in H.N_G(T)$, avec $H \in \mathcal{A}$, alors $A_g$ contient $C(H)$, donc $A_g \neq C(G)$ (prop. 13).
+En effet, posons $A_g = T \cap gTg^{-1}$ ; on a $T \subset Z(A_g)$ et $gTg^{-1} \subset Z(A_g)$. Il existe donc $x \in Z(A_g)$ tel que $xTx^{-1} = gTg^{-1}$ (§ 2, no 2, th. 2), ce qui implique $g \in Z(A_g).N_G(T)$. Notons $\mathcal{A}$ l'ensemble fini (cor. 1) des sous-groupes fermés de $G$ contenant $T$ et distincts de $G$, et posons $X = \bigcup_{H \in \mathcal{A}} H.N_G(T)$ ; c'est une réunion finie de sous-variétés fermées de G, distinctes de G. Si $A_g \neq C(G)$, on a $Z(A_g) \in \mathcal{A}$, et $g$ appartient à X. Inversement si $g \in H.N_G(T)$, avec $H \in \mathcal{A}$, alors $A_g$ contient $C(H)$, donc $A_g \neq C(G)$ (prop. 13).
 
 #### Proposition 14 {#lie-ix-s4-prop-14 .statement tag=01CK}
 
@@ -646,7 +646,7 @@ Notons que, si $T$ et $T'$ sont deux tores maximaux de $G$, les diagrammes $D^*(
 
 a) Remplaçant éventuellement $D$ par son diagramme inverse, on se ramène à construire $G$ tel que $D^*(G)$ soit isomorphe à $D$. Posons $D = (M, M_0, R)$ ; alors $Q \otimes M$ est somme directe de $Q \otimes M_0$ et du sous-espace vectoriel $V(R)$ engendré par $R$. De plus, puisque les racines inverses prennent des valeurs entières sur $M$, la projection de $M$ dans $V(R)$ parallèlement à $Q \otimes M_0$ est contenue dans le groupe des poids $P(R)$ de $R$, de sorte que $M$ est un sous-groupe d’indice fini de $M_0 \oplus P(R)$. Notons $D'$ le diagramme $(M_0 \oplus P(R), M_0, R)$.
 
-b) Soit $\alpha$ une algèbre de Lie semi-simple complexe dont le système de racines canonique soit isomorphe à $R \subset C \otimes V(R)$ (VIII, § 4, n° 3), et soit $g_1$ une forme réelle compacte de $\alpha$ ($\S 3$, no 2, th. 1). Soit $G_1$ un groupe de Lie réel simplement connexe d’algèbre de Lie isomorphe à $g_1$; alors $G_1$ est compact ($\S 1$, no 4, th. 1). Soit $T_1$ un tore maximal de $G_1$. D’après le th. 1, le diagramme $D^*(G_1, T_1)$ est isomorphe à $(P(\mathbf{R}), 0, \mathbf{R})$.
+b) Soit $\alpha$ une algèbre de Lie semi-simple complexe dont le système de racines canonique soit isomorphe à $R \subset C \otimes V(R)$ (VIII, § 4, n° 3), et soit $g_1$ une forme réelle compacte de $\alpha$ ($§ 3$, no 2, th. 1). Soit $G_1$ un groupe de Lie réel simplement connexe d’algèbre de Lie isomorphe à $g_1$; alors $G_1$ est compact ($§ 1$, no 4, th. 1). Soit $T_1$ un tore maximal de $G_1$. D’après le th. 1, le diagramme $D^*(G_1, T_1)$ est isomorphe à $(P(\mathbf{R}), 0, \mathbf{R})$.
 
 c) Soit $T_0$ un tore de dimension égale au rang de $M_0$; alors $D^*(T_0, T_0)$ est isomorphe à $(M_0, M_0, \varnothing)$, donc $D^*(G_1 \times T_0, T_1 \times T_0)$ isomorphe à $D'$ (exemple 2).
 
@@ -658,11 +658,11 @@ d) Enfin, soit $N$ le sous-groupe fini de $T_1 \times T_0$ orthogonal à $M$. Po
 
 #### Remarque 3 {#lie-ix-s4-n9-rem-3 .statement tag=01D1}
 
-Soient $T'$ un autre tore maximal de $G$, $B$ (resp. $B'$) une base du système de racines $R(G, T)$ (resp. $R(G', T')$) (VI, $\S 1$, no 5, déf. 2). Il existe des éléments $g \in G$ tels que $\operatorname{Int} g$ applique $T$ sur $T'$ et $B$ sur $B'$, et ces éléments forment une unique classe modulo $\operatorname{Int}(T)$ (comme $T$ et $T'$ sont conjugués, on peut supposer $T = T'$, et il suffit d’appliquer VI, $\S 1$, no 5, remarque 4 et la prop. 9 du no 4). Il en résulte que l’isomorphisme de $T$ sur $T'$ déduit de $\operatorname{Int} g$ est indépendant du choix de $g$; il en est par conséquent de même pour $D_*(\operatorname{Int} g)$ et $D^*(\operatorname{Int} g)$. Paraphrasant alors VIII, $\S 5$, no 3, remarque 2, *mutatis mutandis*, on définit le tore maximal canonique de $G$, les diagrammes radiciels covariant et contravariant canoniques de $G$, ...
+Soient $T'$ un autre tore maximal de $G$, $B$ (resp. $B'$) une base du système de racines $R(G, T)$ (resp. $R(G', T')$) (VI, $§ 1$, no 5, déf. 2). Il existe des éléments $g \in G$ tels que $\operatorname{Int} g$ applique $T$ sur $T'$ et $B$ sur $B'$, et ces éléments forment une unique classe modulo $\operatorname{Int}(T)$ (comme $T$ et $T'$ sont conjugués, on peut supposer $T = T'$, et il suffit d’appliquer VI, $§ 1$, no 5, remarque 4 et la prop. 9 du no 4). Il en résulte que l’isomorphisme de $T$ sur $T'$ déduit de $\operatorname{Int} g$ est indépendant du choix de $g$; il en est par conséquent de même pour $D_*(\operatorname{Int} g)$ et $D^*(\operatorname{Int} g)$. Paraphrasant alors VIII, $§ 5$, no 3, remarque 2, *mutatis mutandis*, on définit le tore maximal canonique de $G$, les diagrammes radiciels covariant et contravariant canoniques de $G$, ...
 
 ### 10. Automorphismes d’un groupe de Lie compact connexe
 
-On note $\operatorname{Aut}(G)$ le groupe de Lie des automorphismes de $G$ (III, $\S 10$, no 2), et $\operatorname{Aut}(G, T)$ le sous-groupe fermé de $\operatorname{Aut}(G)$ formé des éléments $u$ tels que $u(T) = T$. On a vu ($\S 1$, no 4, cor. 5 à la prop. 4) que la composante neutre de $\operatorname{Aut}(G)$ est le sous-groupe $\operatorname{Int}(G)$ des automorphismes intérieurs; on note $\operatorname{Int}_G(H)$ l’image dans $\operatorname{Int}(G)$ d’un sous-groupe $H$ de $G$.
+On note $\operatorname{Aut}(G)$ le groupe de Lie des automorphismes de $G$ (III, $§ 10$, no 2), et $\operatorname{Aut}(G, T)$ le sous-groupe fermé de $\operatorname{Aut}(G)$ formé des éléments $u$ tels que $u(T) = T$. On a vu ($§ 1$, no 4, cor. 5 à la prop. 4) que la composante neutre de $\operatorname{Aut}(G)$ est le sous-groupe $\operatorname{Int}(G)$ des automorphismes intérieurs; on note $\operatorname{Int}_G(H)$ l’image dans $\operatorname{Int}(G)$ d’un sous-groupe $H$ de $G$.
 
 Soit $D$ le diagramme covariant de $G$ relativement à $T$; notons $\operatorname{Aut}(D)$ le groupe de ses automorphismes, et $W(D)$ son groupe de Weyl. L’application $u \mapsto D_*(u)$ est un homomorphisme de $\operatorname{Aut}(G, T)$ dans $\operatorname{Aut}(D)$. La prop. 15 du no 9 donne aussitôt :
 

@@ -28,9 +28,9 @@ subsections:
       pdf_page: 111
 statements: 30
 exercises: 20
-content_sha256: a74bdd5d9bdb5e8046af297fc1412f851c7230fcc474d496128b496a1d1878b3
+content_sha256: d022289888d8f07e9399efd680fa81eef58ccfeecfdfcf09cdd0f6f79b2eabe3
 translated_from: content/en/top/I/10_s10_proper_mappings.md
-source_content_sha256: 752a3f2114b7b2e1b937e4b72de178e2444ea673ea6b132cd42fb8856f3499dd
+source_content_sha256: 4090cf2d28c3566332e20a1f373d65f57c9a4a96f1defbe488f43340f5366b01
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ad2f2242
 glossary_version: 34
@@ -48,7 +48,7 @@ Nếu $f : X \to Y$ và $f' : X' \to Y'$ là hai ánh xạ *liên tục đóng*,
 
 #### Ví dụ {#top-i-s10-n1-exa-1 .statement}
 
-Mọi ánh xạ hằng vào một không gian Hausdorff đều đóng. Nhưng nếu $f$ là ánh xạ hằng $Q \to 0$, thì $f \times \iota_Q$ là ánh xạ $(x, y) \to (0, y)$ của $Q^2$ vào $Q^2$, do đó nó là phép chiếu thứ hai và không đóng (\S 4, no. 2, Nhận xét 1).
+Mọi ánh xạ hằng vào một không gian Hausdorff đều đóng. Nhưng nếu $f$ là ánh xạ hằng $Q \to 0$, thì $f \times \iota_Q$ là ánh xạ $(x, y) \to (0, y)$ của $Q^2$ vào $Q^2$, do đó nó là phép chiếu thứ hai và không đóng (§ 4, no. 2, Nhận xét 1).
 
 #### Định nghĩa 1 {#top-i-s10-def-1 .statement}
 
@@ -101,9 +101,9 @@ a) Giả sử rằng $f_1, f_2$ là thực sự, và cho $Z$ là một không gi
 $$
 f_1 \times \iota_{X_2} \times \iota_Z;
 $$
-hai ánh xạ này là đóng theo giả thiết, do đó $f_1 \times f_2 \times \iota_Z$ cũng là đóng [\S 5, no. 1, Mệnh đề 1 a)], do đó $f_1 \times f_2$ là thực sự.
+hai ánh xạ này là đóng theo giả thiết, do đó $f_1 \times f_2 \times \iota_Z$ cũng là đóng [§ 5, no. 1, Mệnh đề 1 a)], do đó $f_1 \times f_2$ là thực sự.
 
-b) Bây giờ giả sử $f$ là thực sự. Cho $F$ là một tập con đóng của $X_2 \times Z$ và cho $G$ là ảnh của $F$ trong $Y_2 \times Z$ theo ánh xạ $f_2 \times \iota_Z$. Khi đó ảnh của $X_1 \times F$ trong $Y_1 \times Y_2 \times Z$ theo $f_1 \times f_2 \times \iota_Z$ là $f_1(X_1) \times G$. Theo giả thiết, tập này là đóng trong $Y_1 \times Y_2 \times Z$; nếu $X_1 \neq \emptyset$, thì $f_1(X_1)$ không rỗng, điều này suy ra rằng $G$ là đóng trong $Y_2 \times Z$ (\S 4, no. 3, Hệ quả của Mệnh đề 7); do đó $f_2$ là thực sự. Tương tự $f_1$ là thực sự nếu $X_2 \neq \emptyset$.
+b) Bây giờ giả sử $f$ là thực sự. Cho $F$ là một tập con đóng của $X_2 \times Z$ và cho $G$ là ảnh của $F$ trong $Y_2 \times Z$ theo ánh xạ $f_2 \times \iota_Z$. Khi đó ảnh của $X_1 \times F$ trong $Y_1 \times Y_2 \times Z$ theo $f_1 \times f_2 \times \iota_Z$ là $f_1(X_1) \times G$. Theo giả thiết, tập này là đóng trong $Y_1 \times Y_2 \times Z$; nếu $X_1 \neq \emptyset$, thì $f_1(X_1)$ không rỗng, điều này suy ra rằng $G$ là đóng trong $Y_2 \times Z$ (§ 4, no. 3, Hệ quả của Mệnh đề 7); do đó $f_2$ là thực sự. Tương tự $f_1$ là thực sự nếu $X_2 \neq \emptyset$.
 
 #### Mệnh đề 5 {#top-i-s10-prop-5 .statement}
 
@@ -117,7 +117,7 @@ Cho $Z$ là một không gian tôpô. Ta có
 $$
 (g \circ f) \times \iota_Z = (g \times \iota_Z) \circ (f \times \iota_Z);
 $$
-nếu $f$ và $g$ là thực sự, thì $f \times \iota_Z$ và $g \times \iota_Z$ là đóng; do đó [\S 5, no. 1, Mệnh đề 1 a)] $(g \circ f) \times \iota_Z$ là đóng; điều này chứng minh a). Chứng minh của b) [tương ứng c)] được tiến hành theo cùng các bước, sử dụng phần b) [tương ứng c)] của Mệnh đề 1 của \S 5, no. 1, và nhận xét rằng nếu $f$ là toàn ánh (tương ứng nếu $g$ là đơn ánh) thì $f \times \iota_Z$ là toàn ánh (tương ứng $g \times \iota_Z$ là đơn ánh). Cuối cùng, để chứng minh d), xét biểu đồ giao hoán
+nếu $f$ và $g$ là thực sự, thì $f \times \iota_Z$ và $g \times \iota_Z$ là đóng; do đó [§ 5, no. 1, Mệnh đề 1 a)] $(g \circ f) \times \iota_Z$ là đóng; điều này chứng minh a). Chứng minh của b) [tương ứng c)] được tiến hành theo cùng các bước, sử dụng phần b) [tương ứng c)] của Mệnh đề 1 của § 5, no. 1, và nhận xét rằng nếu $f$ là toàn ánh (tương ứng nếu $g$ là đơn ánh) thì $f \times \iota_Z$ là toàn ánh (tương ứng $g \times \iota_Z$ là đơn ánh). Cuối cùng, để chứng minh d), xét biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
@@ -127,7 +127,7 @@ X' & \underset{\psi}{\to} & X'' \times X'
 \end{array}
 $$
 
-trong đó $\varphi(x) = (x, f(x))$ và $\psi(x') = (g(x'), x')$. Ánh xạ $\varphi$ (tương ứng $\psi$) là một đồng phôi của $X$ (tương ứng $X'$) lên đồ thị của $f$ (tương ứng ảnh phản xạ của đồ thị của $g$) (\S 4, no. 1, Mệnh đề 1, Hệ quả 2). Hơn nữa, vì $X'$ là Hausdorff, đồ thị $\varphi(X)$ của $f$ là đóng trong $X \times X'$ (\S 8, no. 1, Mệnh đề 2, Hệ quả 2). Do đó (Mệnh đề 2) $\varphi$ là thực sự; mặt khác Mệnh đề 4 chỉ ra rằng $(g \circ f) \times i_{X'}$ là thực sự. Theo a) ở trên và tính giao hoán của biểu đồ (1), $\psi \circ f$ là thực sự; nhưng $\psi$ là đơn ánh và do đó $f$ là thực sự theo c) ở trên.
+trong đó $\varphi(x) = (x, f(x))$ và $\psi(x') = (g(x'), x')$. Ánh xạ $\varphi$ (tương ứng $\psi$) là một đồng phôi của $X$ (tương ứng $X'$) lên đồ thị của $f$ (tương ứng ảnh phản xạ của đồ thị của $g$) (§ 4, no. 1, Mệnh đề 1, Hệ quả 2). Hơn nữa, vì $X'$ là Hausdorff, đồ thị $\varphi(X)$ của $f$ là đóng trong $X \times X'$ (§ 8, no. 1, Mệnh đề 2, Hệ quả 2). Do đó (Mệnh đề 2) $\varphi$ là thực sự; mặt khác Mệnh đề 4 chỉ ra rằng $(g \circ f) \times i_{X'}$ là thực sự. Theo a) ở trên và tính giao hoán của biểu đồ (1), $\psi \circ f$ là thực sự; nhưng $\psi$ là đơn ánh và do đó $f$ là thực sự theo c) ở trên.
 
 #### Nhận xét {#top-i-s10-n1-rem-1 .statement}
 
@@ -143,13 +143,13 @@ Vì hạn chế này là hợp thành $f \circ j$, trong đó $j : F \to X$ là 
 
 *Cho $f : X \to Y$ là một ánh xạ thực sự, trong đó $X$ là Hausdorff. Khi đó không gian con $f(X)$ của $Y$ là Hausdorff.*
 
-Theo Mệnh đề 5 c), ta chỉ cần xét trường hợp $f(X) = Y$. Khi đó đường chéo của $Y \times Y$ là ảnh qua $f \times f$ của đường chéo của $X$, vốn đóng (\S 8, no. 1, Mệnh đề 1); $f \times f$ là thực sự (Mệnh đề 4); do đó đường chéo của $Y \times Y$ là đóng (Mệnh đề 1) và vì vậy $Y$ là Hausdorff (\S 8, no. 1, Mệnh đề 1).
+Theo Mệnh đề 5 c), ta chỉ cần xét trường hợp $f(X) = Y$. Khi đó đường chéo của $Y \times Y$ là ảnh qua $f \times f$ của đường chéo của $X$, vốn đóng (§ 8, no. 1, Mệnh đề 1); $f \times f$ là thực sự (Mệnh đề 4); do đó đường chéo của $Y \times Y$ là đóng (Mệnh đề 1) và vì vậy $Y$ là Hausdorff (§ 8, no. 1, Mệnh đề 1).
 
 #### Hệ quả 3 {#top-i-s10-prop-5-cor-3 .statement}
 
 *Cho $I$ là một tập hợp hữu hạn và với mỗi $i \in I$, cho $f_i : X \to Y_i$ là một ánh xạ thực sự. Nếu $X$ là Hausdorff, thì ánh xạ $x \mapsto (f_i(x))$ của $X$ vào $\prod_{i \in I} Y_i$ là thực sự.*
 
-Ánh xạ này là hợp thành của ánh xạ tích $(x_i) \mapsto (f_i(x_i))$ của $X^I$ vào $\prod_i Y_i$ và ánh xạ đường chéo của $X$ vào $X^I$; vì ánh xạ sau là thực sự (theo Mệnh đề 2 và \S 8, no. 1, Mệnh đề 1) nên kết luận suy ra từ Mệnh đề 4 và Mệnh đề 5 a).
+Ánh xạ này là hợp thành của ánh xạ tích $(x_i) \mapsto (f_i(x_i))$ của $X^I$ vào $\prod_i Y_i$ và ánh xạ đường chéo của $X$ vào $X^I$; vì ánh xạ sau là thực sự (theo Mệnh đề 2 và § 8, no. 1, Mệnh đề 1) nên kết luận suy ra từ Mệnh đề 4 và Mệnh đề 5 a).
 
 #### Hệ quả 4 {#top-i-s10-prop-5-cor-4 .statement}
 
@@ -159,7 +159,7 @@ X \xrightarrow{p} X/R \xrightarrow{h} f(X) \xrightarrow{i} Y
 $$
 *là phân tích chính tắc của $f$.* *Khi đó để $f$ là thực sự thì cần và đủ rằng $p$ là thực sự, $h$ là một phép đồng phôi và $f(X)$ là một tập con đóng của $Y$.*
 
-Các điều kiện là đủ theo Mệnh đề 5 a) và Mệnh đề 2. Ngược lại, nếu $f$ là thực sự, thì $f$ là đóng; do đó $f(X)$ là đóng trong $Y$ và $h$ là một phép đồng phôi ($\S 5$, no. 2, Mệnh đề 3); đồng thời $h \circ p$ là thực sự theo Mệnh đề 5 c); do đó $p = h^{-1} \circ (h \circ p)$ là thực sự theo Mệnh đề 5 a).
+Các điều kiện là đủ theo Mệnh đề 5 a) và Mệnh đề 2. Ngược lại, nếu $f$ là thực sự, thì $f$ là đóng; do đó $f(X)$ là đóng trong $Y$ và $h$ là một phép đồng phôi ($§ 5$, no. 2, Mệnh đề 3); đồng thời $h \circ p$ là thực sự theo Mệnh đề 5 c); do đó $p = h^{-1} \circ (h \circ p)$ là thực sự theo Mệnh đề 5 a).
 
 ### 2. ĐẶC TRƯNG HÓA CÁC ÁNH XẠ THỰC SỰ BẰNG CÁC TÍNH CHẤT COMPACT
 
@@ -171,7 +171,7 @@ Trong tiểu mục này ta sẽ ký hiệu bởi $P$ một không gian gồm m�
 
 (Ta sẽ thấy sau đây một chút (Định lý 1, Hệ quả 1) rằng tính chất này đặc trưng hóa các không gian quasi-compact.)
 
-Chúng ta có thể tự hạn chế vào trường hợp $X$ không rỗng. Cho $\mathcal{F}$ là một lọc trên $X$, và $X' = X \cup \{ \omega \}$ là không gian tôpô liên kết với $\mathcal{F}$ ($\S 6$, no. 5, Ví dụ). Gọi $\Delta$ là tập con của $X \times X'$ gồm tất cả các $(x, x)$ trong đó $x \in X$, và gọi $F = \overline{\Delta}$ là bao đóng của $\Delta$ trong $X \times X'$. Theo giả thiết về $X$, ảnh của $F$ qua phép chiếu $X \times X' \to X'$ là đóng trong $X'$; ảnh này chứa $X$ và do đó chứa $\omega$, là điểm thuộc bao đóng của $X$; nói cách khác, tồn tại một điểm $x \in X$ sao cho $(x, \omega) \in F$. Theo định nghĩa của tôpô của $X \times X'$, điều này có nghĩa là, với mỗi lân cận $V$ của $x$ trong $X$ và mỗi $M \in \mathcal{F}$, ta có $(V \times M) \cap \Delta \neq \emptyset$, tức là $V \cap M \neq \emptyset$, do đó $x$ là một điểm tụ của lọc $\mathcal{F}$, và vì vậy $X$ là quasi-compact.
+Chúng ta có thể tự hạn chế vào trường hợp $X$ không rỗng. Cho $\mathcal{F}$ là một lọc trên $X$, và $X' = X \cup \{ \omega \}$ là không gian tôpô liên kết với $\mathcal{F}$ ($§ 6$, no. 5, Ví dụ). Gọi $\Delta$ là tập con của $X \times X'$ gồm tất cả các $(x, x)$ trong đó $x \in X$, và gọi $F = \overline{\Delta}$ là bao đóng của $\Delta$ trong $X \times X'$. Theo giả thiết về $X$, ảnh của $F$ qua phép chiếu $X \times X' \to X'$ là đóng trong $X'$; ảnh này chứa $X$ và do đó chứa $\omega$, là điểm thuộc bao đóng của $X$; nói cách khác, tồn tại một điểm $x \in X$ sao cho $(x, \omega) \in F$. Theo định nghĩa của tôpô của $X \times X'$, điều này có nghĩa là, với mỗi lân cận $V$ của $x$ trong $X$ và mỗi $M \in \mathcal{F}$, ta có $(V \times M) \cap \Delta \neq \emptyset$, tức là $V \cap M \neq \emptyset$, do đó $x$ là một điểm tụ của lọc $\mathcal{F}$, và vì vậy $X$ là quasi-compact.
 
 Q.E.D.
 
@@ -186,11 +186,11 @@ d) *Nếu $\mathcal{U}$ là một siêu lọc trên $X$ và nếu $y \in Y$ là 
 
 a) $\Longrightarrow$ b): Nếu $f$ là thực sự thì $f$ là đóng (no. 1, Mệnh đề 1) và với mỗi $y \in Y$ ánh xạ $f_{|y|} : \overline{f}^{-1}(y) \to \{ y \}$ là thực sự [no. 1, Mệnh đề 3a)]. Theo Bổ đề 1, điều này suy ra rằng $\overline{f}^{-1}(y)$ là quasi-compact.
 
-b) $\Longrightarrow$ c): Giả sử $\mathfrak{F}$ và $y$ thỏa mãn các giả thiết của c). Gọi $\mathcal{B}$ là cơ sở lọc trên $X$ được tạo bởi các bao đóng của các tập hợp thuộc $\mathfrak{F}$. Vì $f$ là đóng, ta có $f(\overline{M}) = f(M)$ với mỗi $M \in \mathfrak{F}$ (\S 5, no. 4, Mệnh đề 9). Điều này cho thấy các tập hợp $\overline{M} \cap \overline{f}^{-1}(y)$ là không rỗng với mọi $M \in \mathfrak{F}$, và do đó tạo thành một cơ sở lọc trên $\overline{f}^{-1}(y)$ mà các phần tử của nó là các tập con đóng của $\overline{f}^{-1}(y)$. Vì $\overline{f}^{-1}(y)$ là quasi-compact, tồn tại một điểm $x \in \overline{f}^{-1}(y)$ thuộc tất cả các tập hợp $M$ khi $M$ chạy qua $\mathfrak{F}$. Do đó $f(x) = y$ và $x$ là một điểm tụ của $\mathfrak{F}$.
+b) $\Longrightarrow$ c): Giả sử $\mathfrak{F}$ và $y$ thỏa mãn các giả thiết của c). Gọi $\mathcal{B}$ là cơ sở lọc trên $X$ được tạo bởi các bao đóng của các tập hợp thuộc $\mathfrak{F}$. Vì $f$ là đóng, ta có $f(\overline{M}) = f(M)$ với mỗi $M \in \mathfrak{F}$ (§ 5, no. 4, Mệnh đề 9). Điều này cho thấy các tập hợp $\overline{M} \cap \overline{f}^{-1}(y)$ là không rỗng với mọi $M \in \mathfrak{F}$, và do đó tạo thành một cơ sở lọc trên $\overline{f}^{-1}(y)$ mà các phần tử của nó là các tập con đóng của $\overline{f}^{-1}(y)$. Vì $\overline{f}^{-1}(y)$ là quasi-compact, tồn tại một điểm $x \in \overline{f}^{-1}(y)$ thuộc tất cả các tập hợp $M$ khi $M$ chạy qua $\mathfrak{F}$. Do đó $f(x) = y$ và $x$ là một điểm tụ của $\mathfrak{F}$.
 
 c) $\Longrightarrow$ d): Tầm thường.
 
-d) $\Longrightarrow$ a): Trước hết, ta chứng minh rằng nếu d) được thỏa mãn thì $f$ là một ánh xạ đóng. Cho $A$ là một tập con đóng khác rỗng của $X$ và cho $\mathfrak{F}$ là bộ lọc gồm các tập con của $X$ chứa $A$. Khi đó $A$ là tập hợp các điểm tụ của $\mathfrak{F}$. Cho $B$ là tập hợp các điểm tụ của cơ sở lọc $f(\mathfrak{F})$ trên $Y$; $B$ là đóng và rõ ràng chứa $f(A)$; ta sẽ chứng minh rằng $B = f(A)$. Cho $y \in B$ và cho $\mathcal{B}$ là bộ lọc lân cận của $y$ trong $Y$; theo giả thiết, mọi tập hợp của $\mathfrak{W} = \overline{f}^{-1}(\mathcal{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$; do đó $\mathfrak{W}$ là một cơ sở lọc trên $X$ và tồn tại một siêu lọc $U$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở là $\mathfrak{W}$ (\S 6, no. 2, Mệnh đề 1, Hệ quả 1 và no. 4, Định lý 1). Siêu lọc có cơ sở là $f(U)$ mịn hơn $\mathcal{B}$ và do đó hội tụ về $y$. Theo d), tồn tại một điểm $x \in X$ sao cho $f(x) = y$ và $U$ hội tụ về $x$; vì $U$ mịn hơn $\mathfrak{F}$, $x$ là một điểm tụ của $\mathfrak{F}$; do đó $x \in A$. Điều này chứng tỏ rằng $B = f(A)$ và do đó $f$ là đóng.
+d) $\Longrightarrow$ a): Trước hết, ta chứng minh rằng nếu d) được thỏa mãn thì $f$ là một ánh xạ đóng. Cho $A$ là một tập con đóng khác rỗng của $X$ và cho $\mathfrak{F}$ là bộ lọc gồm các tập con của $X$ chứa $A$. Khi đó $A$ là tập hợp các điểm tụ của $\mathfrak{F}$. Cho $B$ là tập hợp các điểm tụ của cơ sở lọc $f(\mathfrak{F})$ trên $Y$; $B$ là đóng và rõ ràng chứa $f(A)$; ta sẽ chứng minh rằng $B = f(A)$. Cho $y \in B$ và cho $\mathcal{B}$ là bộ lọc lân cận của $y$ trong $Y$; theo giả thiết, mọi tập hợp của $\mathfrak{W} = \overline{f}^{-1}(\mathcal{B})$ đều gặp mọi tập hợp của $\mathfrak{F}$; do đó $\mathfrak{W}$ là một cơ sở lọc trên $X$ và tồn tại một siêu lọc $U$ trên $X$ mịn hơn cả $\mathfrak{F}$ lẫn bộ lọc có cơ sở là $\mathfrak{W}$ (§ 6, no. 2, Mệnh đề 1, Hệ quả 1 và no. 4, Định lý 1). Siêu lọc có cơ sở là $f(U)$ mịn hơn $\mathcal{B}$ và do đó hội tụ về $y$. Theo d), tồn tại một điểm $x \in X$ sao cho $f(x) = y$ và $U$ hội tụ về $x$; vì $U$ mịn hơn $\mathfrak{F}$, $x$ là một điểm tụ của $\mathfrak{F}$; do đó $x \in A$. Điều này chứng tỏ rằng $B = f(A)$ và do đó $f$ là đóng.
 
 Để hoàn tất chứng minh, ta phải chỉ ra rằng $f \times \iota_Z$ là đóng với mọi không gian tôpô $Z$. Từ những gì đã chứng minh, chỉ cần chỉ ra rằng nếu $f$ thỏa mãn điều kiện d), thì $f \times \iota_Z$ cũng vậy. Đây là một hệ quả của bổ đề tổng quát sau:
 
@@ -202,7 +202,7 @@ f : (x_i) \to (f_i(x_i))
 $$
 *cũng thỏa mãn* d).
 
-Cho $U$ là một siêu lọc trên $X = \prod_i X_i$, và cho $y = (y_i)$ là một điểm của $Y = \prod_i Y_i$ sao cho $f(U)$ hội tụ về $y$. Điều này có nghĩa là mỗi cơ sở siêu lọc $\operatorname{pr}_i(f(U)) = f_i(\operatorname{pr}_i(U))$ đều hội tụ về $y_i$ (\S 7, no. 6, Mệnh đề 10, Hệ quả 1). Theo điều kiện d), với mỗi $i \in I$ tồn tại $x_i \in X_i$ sao cho $f_i(x_i) = y_i$ và $\operatorname{pr}_i(U)$ hội tụ về $x_i$; nhưng khi đó $U$ hội tụ về $x = (x_i)$ (_chỗ đã dẫn_) và ta có $f(x) = y$. Điều này hoàn tất chứng minh Bổ đề 2 và do đó cả Định lý 1.
+Cho $U$ là một siêu lọc trên $X = \prod_i X_i$, và cho $y = (y_i)$ là một điểm của $Y = \prod_i Y_i$ sao cho $f(U)$ hội tụ về $y$. Điều này có nghĩa là mỗi cơ sở siêu lọc $\operatorname{pr}_i(f(U)) = f_i(\operatorname{pr}_i(U))$ đều hội tụ về $y_i$ (§ 7, no. 6, Mệnh đề 10, Hệ quả 1). Theo điều kiện d), với mỗi $i \in I$ tồn tại $x_i \in X_i$ sao cho $f_i(x_i) = y_i$ và $\operatorname{pr}_i(U)$ hội tụ về $x_i$; nhưng khi đó $U$ hội tụ về $x = (x_i)$ (_chỗ đã dẫn_) và ta có $f(x) = y$. Điều này hoàn tất chứng minh Bổ đề 2 và do đó cả Định lý 1.
 
 #### Hệ quả 1 {#top-i-s10-lem-2-cor-1 .statement}
 
@@ -270,7 +270,7 @@ Nếu f là thực sự và K là một tập con compact của Y, thì $\overli
 
 #### Hệ quả {#top-i-s10-n3-cor-1 .statement}
 
-*Cho X, X' là hai không gian địa phương compact, và cho Y (t.ư. Y') là không gian compact thu được bằng cách thêm một điểm ở vô cực $\omega$ (t.ư. $\omega'$) vào X (t.ư. X') (\S 9, no. 8). Khi đó một ánh xạ liên tục $f : X \to X'$ là thực sự khi và chỉ khi mở rộng của nó $\overline{f} : Y \to Y'$, sao cho $\overline{f}(\omega) = \omega'$, là liên tục.*
+*Cho X, X' là hai không gian địa phương compact, và cho Y (t.ư. Y') là không gian compact thu được bằng cách thêm một điểm ở vô cực $\omega$ (t.ư. $\omega'$) vào X (t.ư. X') (§ 9, no. 8). Khi đó một ánh xạ liên tục $f : X \to X'$ là thực sự khi và chỉ khi mở rộng của nó $\overline{f} : Y \to Y'$, sao cho $\overline{f}(\omega) = \omega'$, là liên tục.*
 
 Theo Mệnh đề 7, f là thực sự khi và chỉ khi, với mỗi tập con compact K' của X', $\overline{f}^{-1}(X' - K') = X - \overline{f}^{-1}(K')$ là phần bù của một tập con compact của X; theo định nghĩa các lân cận của $\omega$ (t.ư. $\omega'$) trong Y (t.ư. Y') điều này xảy ra khi và chỉ khi $\overline{f}$ liên tục tại $\omega$.
 
@@ -312,15 +312,15 @@ a) $\Longrightarrow$ b): Vì $X/R = f(X)$ và $f$ là thực sự, nên $X/R$ l�
 
 Bão hòa của $K$ đối với $R$ là $\overline{f}^{-1}(f(K))$ và do đó là compact theo no. 2, Mệnh đề 6.
 
-b) $\Longrightarrow$ c) : Nếu $F'$ đóng trong $X'$ và không chứa $\omega$, thì $F'$ là một tập con compact của $X$; do đó, bao hòa của nó đối với $R'$, cũng chính là bao hòa của nó đối với $R$, là compact và *a fortiori* đóng trong $X'$. Nếu $\omega \in F'$ và $F = F' \cap X = F' - \{ \omega \}$, thì bao hòa của $F'$ đối với $R'$ là hợp của $\{ \omega \}$ và bao hòa $H$ của $F$ đối với $R$; do đó chỉ cần chứng minh rằng $H$ *đóng* trong $X$ (tức là $R$ là một quan hệ *đóng*). Để làm điều này, chỉ cần chứng minh rằng nếu $K$ là một tập con compact bất kỳ của $X$ thì $H \cap K$ là compact ($\S 9$, no. 7, Mệnh đề 11). Theo giả thiết, bao hòa $L$ của $K$ đối với $R$ là compact, và $H \cap L$ là bao hòa của $F \cap L$, cũng compact; *a fortiori* $H \cap K = (H \cap L) \cap K$ là compact.
+b) $\Longrightarrow$ c) : Nếu $F'$ đóng trong $X'$ và không chứa $\omega$, thì $F'$ là một tập con compact của $X$; do đó, bao hòa của nó đối với $R'$, cũng chính là bao hòa của nó đối với $R$, là compact và *a fortiori* đóng trong $X'$. Nếu $\omega \in F'$ và $F = F' \cap X = F' - \{ \omega \}$, thì bao hòa của $F'$ đối với $R'$ là hợp của $\{ \omega \}$ và bao hòa $H$ của $F$ đối với $R$; do đó chỉ cần chứng minh rằng $H$ *đóng* trong $X$ (tức là $R$ là một quan hệ *đóng*). Để làm điều này, chỉ cần chứng minh rằng nếu $K$ là một tập con compact bất kỳ của $X$ thì $H \cap K$ là compact ($§ 9$, no. 7, Mệnh đề 11). Theo giả thiết, bao hòa $L$ của $K$ đối với $R$ là compact, và $H \cap L$ là bao hòa của $F \cap L$, cũng compact; *a fortiori* $H \cap K = (H \cap L) \cap K$ là compact.
 
-c) $\Longrightarrow$ d) : Vì $X'$ là chính quy ($\S 9$, no. 2, Hệ quả của Mệnh đề 1), $C'$ *đóng* trong $X' \times X'$ ($\S 8$, no. 6, Mệnh đề 14) và do đó compact. Suy ra $C'$ là compact hóa một điểm của $C$ ($\S 9$, no. 8, Định lý 4). Vì hạn chế trên $C'$ của $pr_2 : X' \times X' \to X'$ liên tục tại $\omega$, kết quả suy ra từ no. 3, Hệ quả của Mệnh đề 7.
+c) $\Longrightarrow$ d) : Vì $X'$ là chính quy ($§ 9$, no. 2, Hệ quả của Mệnh đề 1), $C'$ *đóng* trong $X' \times X'$ ($§ 8$, no. 6, Mệnh đề 14) và do đó compact. Suy ra $C'$ là compact hóa một điểm của $C$ ($§ 9$, no. 8, Định lý 4). Vì hạn chế trên $C'$ của $pr_2 : X' \times X' \to X'$ liên tục tại $\omega$, kết quả suy ra từ no. 3, Hệ quả của Mệnh đề 7.
 
 d) $\Longrightarrow$ e) : Nếu $F$ là một tập con đóng bất kỳ của $X$, thì $C \cap (F \times X)$ đóng trong $C$, do đó bao hòa của $F$ đối với $R$, bằng $pr_2(C \cap (F \times X))$, là đóng trong $X$ (no. 1, Mệnh đề 1). Ngoài ra, lớp tương đương của $x \in X$ mod $R$ đồng phôi với ảnh ngược của $\{ x \}$ qua hạn chế của $pr_2$ lên $C$ và do đó compact [no. 2, Định lý 1 b)].
 
 e) $\Longrightarrow$ a) : Nếu $R$ đóng, thì theo định nghĩa $f$ đóng, và với mỗi $z \in X/R$, $f^{-1}(z)$ là một lớp tương đương mod $R$ và do đó compact; suy ra $f$ là thực sự theo Định lý 1 b) của no. 2.
 
-Cuối cùng ta phải chứng minh rằng $X/R$ là compact địa phương. $X'/R'$ là compact theo c) và Mệnh đề 8; quan hệ $R$ là quan hệ cảm sinh trên $X$ bởi $R'$; $X$ là mở trong $X'$ và bão hòa đối với $R'$; do đó $X/R$ đẳng cấu tôpô với ảnh $f'(X)$ của $X$ qua ánh xạ chính tắc $f' : X' \to X'/R'$ ($\S 3$, no. 6, Mệnh đề 10, Hệ quả 1). Khi đó $f'(X)$ là mở trong $X'/R'$, và do đó là một không gian con compact địa phương của $X'/R'$.
+Cuối cùng ta phải chứng minh rằng $X/R$ là compact địa phương. $X'/R'$ là compact theo c) và Mệnh đề 8; quan hệ $R$ là quan hệ cảm sinh trên $X$ bởi $R'$; $X$ là mở trong $X'$ và bão hòa đối với $R'$; do đó $X/R$ đẳng cấu tôpô với ảnh $f'(X)$ của $X$ qua ánh xạ chính tắc $f' : X' \to X'/R'$ ($§ 3$, no. 6, Mệnh đề 10, Hệ quả 1). Khi đó $f'(X)$ là mở trong $X'/R'$, và do đó là một không gian con compact địa phương của $X'/R'$.
 
 Q.E.D.
 
@@ -336,7 +336,7 @@ Nếu X compact địa phương nhưng không compact, thì một quan hệ tư�
 
 Cho X là một không gian compact địa phương, R là một quan hệ tương đương mở Hausdorff trên X, và cho f : X \to X/R là ánh xạ chính tắc. Khi đó X/R compact địa phương, và nếu K' là một tập con compact bất kỳ của X/R thì tồn tại một tập con compact K của X sao cho f(K) = K'.
 
-Mệnh đề đầu tiên là hệ quả của các sự kiện rằng mỗi x \in X có một lân cận compact V và f(V) là một lân cận compact của f(x) (\S 5, no. 3, Mệnh đề 5 và § 9, no. 4, Định lý 2, Hệ quả 1). Với mỗi y \in K' gọi V(y) là một lân cận compact của một điểm nào đó của f^{-1}(y) trong X, sao cho f(V(y)) là một lân cận compact của y. Có hữu hạn điểm y_i \in K' sao cho các f(V(y_i)) phủ K'. Gọi K_1 là tập compact $\bigcup_i V(y_i)$ trong X; ta có K' \subset f(K_1); do đó K = K_1 \cap f^{-1}(K') là compact (vì nó đóng trong K_1) và f(K) = K'.
+Mệnh đề đầu tiên là hệ quả của các sự kiện rằng mỗi x \in X có một lân cận compact V và f(V) là một lân cận compact của f(x) (§ 5, no. 3, Mệnh đề 5 và § 9, no. 4, Định lý 2, Hệ quả 1). Với mỗi y \in K' gọi V(y) là một lân cận compact của một điểm nào đó của f^{-1}(y) trong X, sao cho f(V(y)) là một lân cận compact của y. Có hữu hạn điểm y_i \in K' sao cho các f(V(y_i)) phủ K'. Gọi K_1 là tập compact $\bigcup_i V(y_i)$ trong X; ta có K' \subset f(K_1); do đó K = K_1 \cap f^{-1}(K') là compact (vì nó đóng trong K_1) và f(K) = K'.
 
 ### Bài tập {#top-i-s10-exercises}
 

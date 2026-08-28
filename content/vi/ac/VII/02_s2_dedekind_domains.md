@@ -33,9 +33,9 @@ subsections:
       pdf_page: 517
 statements: 14
 exercises: 27
-content_sha256: 8fab7b205d2c225c990867dd8ecf39292fb9a2b89944ec5ee41d0b6a60bd72eb
+content_sha256: 5de502a1537176de3e23dc221a0d149b572de630bd39535be890a8f89a5b2ecb
 translated_from: content/en/ac/VII/02_s2_dedekind_domains.md
-source_content_sha256: cc7d7aebe3c9feefed99d2b6823c6c99ac2960660a90318e1a3fa69f6af4754d
+source_content_sha256: 16fa7953b099cb50ab812cae794d31718963a0e7a0358d8c489c21f500087f43
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-026a06a8
 glossary_version: 34
@@ -58,9 +58,9 @@ Một miền Krull mà mọi iđêan nguyên tố khác không của nó đều 
 
 Các ví dụ về miền Dedekind
 (1) Mọi miền iđêan chính đều là một miền Dedekind.
-(2) Cho K là một mở rộng hữu hạn của $\mathbf{Q}$ và A là bao đóng nguyên của $\mathbf{Z}$ trong K. Vành A là một miền Krull (\$ 1, no. 8, Mệnh đề 12). Cho $\mathfrak{p}$ là một iđêan nguyên tố khác không của A. Khi đó $\mathfrak{p} \cap \mathbf{Z}$ khác không (Chương V, \$ 2, no. 1, Hệ quả của Mệnh đề 1) và do đó là một iđêan cực đại của $\mathbf{Z}$; suy ra $\mathfrak{p}$ là một iđêan cực đại của A (*loc. cit.*, Mệnh đề 1). Vậy A là một miền Dedekind. Nói chung, A không phải là một miền iđêan chính (*Algebra*, Chương VII, \$ 1, Bài tập 12).
+(2) Cho K là một mở rộng hữu hạn của $\mathbf{Q}$ và A là bao đóng nguyên của $\mathbf{Z}$ trong K. Vành A là một miền Krull (§ 1, no. 8, Mệnh đề 12). Cho $\mathfrak{p}$ là một iđêan nguyên tố khác không của A. Khi đó $\mathfrak{p} \cap \mathbf{Z}$ khác không (Chương V, § 2, no. 1, Hệ quả của Mệnh đề 1) và do đó là một iđêan cực đại của $\mathbf{Z}$; suy ra $\mathfrak{p}$ là một iđêan cực đại của A (*loc. cit.*, Mệnh đề 1). Vậy A là một miền Dedekind. Nói chung, A không phải là một miền iđêan chính (*Algebra*, Chương VII, § 1, Bài tập 12).
 (3) \* Cho V là một đa tạp đại số afin và A là vành các hàm chính quy trên V. Giả sử rằng A không phải là một trường (tức là V không bị thu gọn về một điểm). Để A là một miền Dedekind, cần và đủ là V là một đường cong bất khả quy không có điểm kỳ dị: vì nói rằng A là một miền nguyên tức là nói rằng V bất khả quy; nói rằng mọi iđêan nguyên tố khác không của A đều cực đại tức là nói rằng A là một đường cong; cuối cùng, vì A là Noether, nói rằng nó là một miền Krull tức là nói rằng nó đóng nguyên, nghĩa là V là một đường cong chuẩn tắc, hoặc cũng là rằng nó không có điểm kỳ dị. \*
-(4) Một vành phân thức $S^{-1}A$ của một miền Dedekind A là một miền Dedekind nếu $0 \notin S$. Vì $S^{-1}A$ là một miền Krull (\$ 1, no. 4, Mệnh đề 6) và mọi iđêan nguyên tố khác không của $S^{-1}A$ đều cực đại theo Chương II, \$ 2, no. 5, Mệnh đề 11.
+(4) Một vành phân thức $S^{-1}A$ của một miền Dedekind A là một miền Dedekind nếu $0 \notin S$. Vì $S^{-1}A$ là một miền Krull (§ 1, no. 4, Mệnh đề 6) và mọi iđêan nguyên tố khác không của $S^{-1}A$ đều cực đại theo Chương II, § 2, no. 5, Mệnh đề 11.
 
 ### 2. CÁC ĐẶC TRƯNG CỦA CÁC MIỀN DEDEKIND
 
@@ -75,7 +75,7 @@ Cho A là một miền nguyên và K là trường phân thức của nó. Các 
 (f) A là Noether và, với mọi iđêan cực đại m của A, $A_m$ hoặc là một trường hoặc là một vành định giá rời rạc;
 (g) A là Noether và, với mọi iđêan cực đại m của A, $A_m$ là một miền iđêan chính.
 
-Trước hết ta chứng minh sự tương đương của (a) và (b). Hệ quả 2 của Định lý 3, \$ 1, no. 6, cho thấy ngay lập tức rằng (a) suy ra (b). Ngược lại, (b) suy ra (a), vì, với mọi iđêan nguyên tố $p$ của $A$, tồn tại một vành định giá của $K$ khống chế $A_p$ (Chương VI, § 1, no. 2, Hệ quả của Định lý 2).
+Trước hết ta chứng minh sự tương đương của (a) và (b). Hệ quả 2 của Định lý 3, § 1, no. 6, cho thấy ngay lập tức rằng (a) suy ra (b). Ngược lại, (b) suy ra (a), vì, với mọi iđêan nguyên tố $p$ của $A$, tồn tại một vành định giá của $K$ khống chế $A_p$ (Chương VI, § 1, no. 2, Hệ quả của Định lý 2).
 
 Phần còn lại của chứng minh được thực hiện bằng cách chứng minh các kéo theo sau:
 
@@ -83,35 +83,35 @@ $$
 (a) \Rightarrow (c) \Rightarrow (d) \Rightarrow (e) \Rightarrow (f) \Rightarrow (g) \Rightarrow (a).
 $$
 
-Nếu $A$ là một miền Dedekind và $b$ là một iđêan phân thức khác không, thì $bA_p = bA_p$ với mọi iđêan cực đại $p$ ($\S 1$, no. 4, Mệnh đề 7) và do đó $b = 6$ (Chương II, $\S 3$, no. 3, Hệ quả 3 của Định lý 1); vì vậy (a) suy ra (c).
+Nếu $A$ là một miền Dedekind và $b$ là một iđêan phân thức khác không, thì $bA_p = bA_p$ với mọi iđêan cực đại $p$ ($§ 1$, no. 4, Mệnh đề 7) và do đó $b = 6$ (Chương II, $§ 3$, no. 3, Hệ quả 3 của Định lý 1); vì vậy (a) suy ra (c).
 
-Ta nay chứng minh rằng (c) suy ra (d). Nếu (c) đúng, ánh xạ $a \mapsto \operatorname{div} a$ là một song ánh của $I(A)$ lên $D(A)$ (xem $\S 1$, no. 1); vì nó là một đồng cấu ($\S 1$, no. 2) và $D(A)$ là một nhóm, mọi phần tử của $I(A)$ đều khả nghịch.
+Ta nay chứng minh rằng (c) suy ra (d). Nếu (c) đúng, ánh xạ $a \mapsto \operatorname{div} a$ là một song ánh của $I(A)$ lên $D(A)$ (xem $§ 1$, no. 1); vì nó là một đồng cấu ($§ 1$, no. 2) và $D(A)$ là một nhóm, mọi phần tử của $I(A)$ đều khả nghịch.
 
-Ta chứng minh rằng (d) suy ra (e). Nếu (d) đúng, mọi iđêan nguyên khác $(0)$ của A đều sinh hữu hạn (Chương 11, $\S 5$, no. 6, Định lý 4) và do đó A là Noether; vì $I(A)$ là một nhóm, $D(A)$ là một nhóm và do đó A đóng nguyên hoàn toàn ($\S 1$, no. 2, Định lý 1). Cuối cùng, nếu $p$ là một iđêan nguyên tố khác không của $A$ và $m$ là một iđêan cực đại của $A$ chứa $p$, thì vành $A_{m}$ là một miền iđêan chính (Chương II, $\S 5$, no. 6, Định lý 4); vì $pA_m$ là nguyên tố và khác không, tất yếu $pA_m = mA_m$ (vì một miền iđêan chính là một miền Dedekind) do đó $p = m$ (Chương 11, $\S 2$, no. 5, Mệnh đề 11) và $p$ là cực đại.
+Ta chứng minh rằng (d) suy ra (e). Nếu (d) đúng, mọi iđêan nguyên khác $(0)$ của A đều sinh hữu hạn (Chương 11, $§ 5$, no. 6, Định lý 4) và do đó A là Noether; vì $I(A)$ là một nhóm, $D(A)$ là một nhóm và do đó A đóng nguyên hoàn toàn ($§ 1$, no. 2, Định lý 1). Cuối cùng, nếu $p$ là một iđêan nguyên tố khác không của $A$ và $m$ là một iđêan cực đại của $A$ chứa $p$, thì vành $A_{m}$ là một miền iđêan chính (Chương II, $§ 5$, no. 6, Định lý 4); vì $pA_m$ là nguyên tố và khác không, tất yếu $pA_m = mA_m$ (vì một miền iđêan chính là một miền Dedekind) do đó $p = m$ (Chương 11, $§ 2$, no. 5, Mệnh đề 11) và $p$ là cực đại.
 
-Ta chứng minh rằng (e) suy ra (f). Nếu $m$ là một iđêan cực đại của $A$ và (e) đúng, thì $A_{m}$ là một miền Noether đóng nguyên và iđêan cực đại $mA_m$ của nó, hoặc là $(0)$, hoặc là iđêan nguyên tố khác không duy nhất của $A_{m}$; do đó $A_{m}$ là một trường hoặc một vành định giá rời rạc theo Mệnh đề 11 của $\S 1$, no. 7.
+Ta chứng minh rằng (e) suy ra (f). Nếu $m$ là một iđêan cực đại của $A$ và (e) đúng, thì $A_{m}$ là một miền Noether đóng nguyên và iđêan cực đại $mA_m$ của nó, hoặc là $(0)$, hoặc là iđêan nguyên tố khác không duy nhất của $A_{m}$; do đó $A_{m}$ là một trường hoặc một vành định giá rời rạc theo Mệnh đề 11 của $§ 1$, no. 7.
 
 Việc (f) suy ra (g) là hiển nhiên.
 
-Cuối cùng ta chứng minh rằng (g) suy ra (a). Vì $A$ là giao của các $A_{m}$, khi $m$ chạy qua tập hợp các iđêan cực đại (Chương II, $\S 3$, no. 3, Hệ quả 4 của Định lý 1), nên (g) suy ra rằng $A$ là đóng nguyên và Noether và do đó $A$ là một miền Krull ($\S 1$, no. 3, Hệ quả của Định lý 2). Mặt khác, có thể chứng minh rằng mọi iđêan nguyên tố khác không của $A$ đều cực đại như trong chứng minh rằng (d) $\Rightarrow$ (e).
+Cuối cùng ta chứng minh rằng (g) suy ra (a). Vì $A$ là giao của các $A_{m}$, khi $m$ chạy qua tập hợp các iđêan cực đại (Chương II, $§ 3$, no. 3, Hệ quả 4 của Định lý 1), nên (g) suy ra rằng $A$ là đóng nguyên và Noether và do đó $A$ là một miền Krull ($§ 1$, no. 3, Hệ quả của Định lý 2). Mặt khác, có thể chứng minh rằng mọi iđêan nguyên tố khác không của $A$ đều cực đại như trong chứng minh rằng (d) $\Rightarrow$ (e).
 
 #### Mệnh đề 1 {#ac-vii-s2-prop-1 .statement}
 
 *Một miền Đêđekind bán địa phương là một miền iđêan chính.*
 
-Cho $A$ là một miền Đêđekind bán địa phương, $K$ là trường phân thức của nó, $p_1, \ldots, p_n$ là các iđêan cực đại của nó và $v_1, \ldots, v$, là các định giá cốt yếu tương ứng; đó là các định giá cốt yếu duy nhất của $A$. Cho $a$ là một iđêan nguyên khác không của $A$. Vì nó là iđêan divisorial, tồn tại ($\S 1$, no. 4, Mệnh đề 5) các số nguyên $q_1, \ldots, q_n$ sao cho $a$ là tập hợp các $x \in K$ sao cho $v_i(x) \geq q_i$ với $1 \leq i \leq n$. Cho $x_0$ là một phần tử của $K$ sao cho $v_i(x_0) = q_i$ với $1 \leq i \leq n$ (Chương VI, $\S 7$, no. 2, Hệ quả 1 của Định lý 1). Khi đó $a$ là tập hợp các $x \in K$ sao cho $v_i(xx_0^{-1}) \geq 0$ với $1 \leq i \leq n$. Do đó $a = Ax_0$.
+Cho $A$ là một miền Đêđekind bán địa phương, $K$ là trường phân thức của nó, $p_1, \ldots, p_n$ là các iđêan cực đại của nó và $v_1, \ldots, v$, là các định giá cốt yếu tương ứng; đó là các định giá cốt yếu duy nhất của $A$. Cho $a$ là một iđêan nguyên khác không của $A$. Vì nó là iđêan divisorial, tồn tại ($§ 1$, no. 4, Mệnh đề 5) các số nguyên $q_1, \ldots, q_n$ sao cho $a$ là tập hợp các $x \in K$ sao cho $v_i(x) \geq q_i$ với $1 \leq i \leq n$. Cho $x_0$ là một phần tử của $K$ sao cho $v_i(x_0) = q_i$ với $1 \leq i \leq n$ (Chương VI, $§ 7$, no. 2, Hệ quả 1 của Định lý 1). Khi đó $a$ là tập hợp các $x \in K$ sao cho $v_i(xx_0^{-1}) \geq 0$ với $1 \leq i \leq n$. Do đó $a = Ax_0$.
 
-Nếu $A$ là một miền Đêđekind, trong chứng minh của Định lý 1 đã thấy rằng nhóm D(A) của các ước của A được đồng nhất với nhóm I(A) của các iđêan phân thức $a \neq (0)$ (vì A là Noether, mọi iđêan phân thức khác không đều sinh hữu hạn). Nhóm lớp ước C(A) của A ($\S 1$, no. 2) khi đó được đồng nhất với nhóm các lớp của các iđêan $\neq 0$ của A (được định nghĩa ở Chương II, $\S 5$, no. 7).
+Nếu $A$ là một miền Đêđekind, trong chứng minh của Định lý 1 đã thấy rằng nhóm D(A) của các ước của A được đồng nhất với nhóm I(A) của các iđêan phân thức $a \neq (0)$ (vì A là Noether, mọi iđêan phân thức khác không đều sinh hữu hạn). Nhóm lớp ước C(A) của A ($§ 1$, no. 2) khi đó được đồng nhất với nhóm các lớp của các iđêan $\neq 0$ của A (được định nghĩa ở Chương II, $§ 5$, no. 7).
 
 ### 3. PHÂN TÍCH CÁC IĐÊAN THÀNH TÍCH CỦA CÁC IĐÊAN NGUYÊN TỐ
 
-Cho $A$ là một miền Đêđekind, I(A) là nhóm nhân có thứ tự của các iđêan phân thức khác không của A và D(A) là nhóm các ước của A. Đẳng cấu $a \mapsto \operatorname{div} a$ của I(A) lên D(A) gửi các ước cực biên vào các iđêan nguyên tố khác không của A ($\S 1$, no. 6, Định lý 3) và do đó nhóm nhân I(A) nhận tập hợp các iđêan nguyên tố khác không của A làm cơ sở ($\S 1$, no. 3, Định lý 2). Nói cách khác, *mọi iđêan phân thức khác không a của A đều có một phân tích duy nhất có dạng*:
+Cho $A$ là một miền Đêđekind, I(A) là nhóm nhân có thứ tự của các iđêan phân thức khác không của A và D(A) là nhóm các ước của A. Đẳng cấu $a \mapsto \operatorname{div} a$ của I(A) lên D(A) gửi các ước cực biên vào các iđêan nguyên tố khác không của A ($§ 1$, no. 6, Định lý 3) và do đó nhóm nhân I(A) nhận tập hợp các iđêan nguyên tố khác không của A làm cơ sở ($§ 1$, no. 3, Định lý 2). Nói cách khác, *mọi iđêan phân thức khác không a của A đều có một phân tích duy nhất có dạng*:
 
 $$
 a = \prod_p p^{n(p)}
 $$
 
-trong đó tích chạy qua các iđêan nguyên tố khác không của A, các số mũ $n(p)$ đều bằng không trừ ra một số hữu hạn. Hơn nữa a là nguyên khi và chỉ khi mọi $n(p)$ đều dương. Quan hệ (1) được gọi là *phân tích của a thành các thừa số nguyên tố*. Đặc biệt, nếu a là iđêan chính $Ax$, thì, với mọi $p$, $n(p) = v_p(x)$, trong đó $v_p$ ký hiệu định giá cốt yếu tương ứng với $p$; điều này suy ra từ công thức (4) của $\S 1$, no. 3. Cho
+trong đó tích chạy qua các iđêan nguyên tố khác không của A, các số mũ $n(p)$ đều bằng không trừ ra một số hữu hạn. Hơn nữa a là nguyên khi và chỉ khi mọi $n(p)$ đều dương. Quan hệ (1) được gọi là *phân tích của a thành các thừa số nguyên tố*. Đặc biệt, nếu a là iđêan chính $Ax$, thì, với mọi $p$, $n(p) = v_p(x)$, trong đó $v_p$ ký hiệu định giá cốt yếu tương ứng với $p$; điều này suy ra từ công thức (4) của $§ 1$, no. 3. Cho
 
 $$
 a = \prod_p p^{m(p)}, \quad b = \prod_p p^{n(p)}
@@ -138,7 +138,7 @@ $$
 \operatorname{div}(a : b) = \operatorname{div} a - \operatorname{div} b
 $$
 
-($\S 1$, no. 2, Hệ quả của Định lý 1); các công thức (4) và (5) suy ra từ Mệnh đề 2, $\S 1$, no. 1.
+($§ 1$, no. 2, Hệ quả của Định lý 1); các công thức (4) và (5) suy ra từ Mệnh đề 2, $§ 1$, no. 1.
 
 Những kết quả này áp dụng, đặc biệt, cho phần đóng nguyên của $\mathbf{Z}$ trong một mở rộng hữu hạn của $\mathbf{Q}$.
 

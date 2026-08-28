@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: b4049d938eec5ecd1b702c35abe78a71285cff298d5cac6318733f0844555518
+content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -750,13 +750,13 @@ This follows from Corollary 1 by induction on $n$.
 
 *If C is a commutative Noetherian ring, every finitely generated commutative C-algebra is a Noetherian ring.*
 
-Such an algebra is isomorphic to a quotient of a polynomial algebra C[X_1, ..., X_n] (\S 1, no. 1).
+Such an algebra is isomorphic to a quotient of a polynomial algebra C[X_1, ..., X_n] (§ 1, no. 1).
 
 #### Corollary 4 {#ac-iii-s2-thm-2-cor-4 .statement}
 
 *Let A be a graded commutative ring of type $\mathbf{N}$ and let $(A_n)$ be its graduation. For A to be Noetherian, it is necessary and sufficient that $A_n$ be Noetherian and that A be ajinitely generated A,-algebra.*
 
-The condition is sufficient by Corollary 3. Conversely, suppose A is Noetherian; $m = \sum_{n \geq 1} A_n$ which is an ideal of A, is then finitely generated; then A is a finitely generated A,-algebra (\S 1, no. 2, Corollary to Proposition 1); on the other hand $A_n$, which is isomorphic to $A/m$, is a Noetherian ring.
+The condition is sufficient by Corollary 3. Conversely, suppose A is Noetherian; $m = \sum_{n \geq 1} A_n$ which is an ideal of A, is then finitely generated; then A is a finitely generated A,-algebra (§ 1, no. 2, Corollary to Proposition 1); on the other hand $A_n$, which is isomorphic to $A/m$, is a Noetherian ring.
 
 #### Corollary 5 {#ac-iii-s2-thm-2-cor-5 .statement}
 

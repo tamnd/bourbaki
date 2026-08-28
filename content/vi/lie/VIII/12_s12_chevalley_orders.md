@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: 69c961f5fc9a723d6bf5458ccd70ecab8b7a92a22f58d6d0b5189c95e8d63c8a
+content_sha256: 1dc2f1e5eec1cb09a9c7399fb05a18edbf8557f45d278e76c8c960cfffb7e4e8
 translated_from: content/en/lie/VIII/12_s12_chevalley_orders.md
 source_content_sha256: 50f43a34a9ae42cb38e10e1f32022dc1fddb5d2b07911570fec5baa09a40ebdf
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini
@@ -811,7 +811,7 @@ Các điều kiện sau là tương đương:
 
 (iii) Với mọi $\alpha \in R, x\in \mathscr{G}^{\alpha}, n\in \mathbf{N}$, tự đồng cấu (ad $x$)$^n/n$! của $\mathfrak{g}$ biến $\mathscr{G}$ thành $\mathscr{G}$, và $[\mathscr{G}^{\alpha},\mathscr{G}^{-\alpha}] =\mathbf{Z}H_{\alpha}$.
 
-Với mọi $\alpha \in R$ và mọi cơ sở $x$ của $\mathscr{G}^{\alpha},w_{\alpha}(x)$ ánh xạ $\mathscr{G}$ vào $\mathscr{G}$($\text{nghĩa là, }\!$ ánh xạ $\mathscr{G}^{\beta}$ vào $\mathscr{G}^{s_{\alpha}(\beta)}$ với mọi $\beta \in R)$.
+Với mọi $\alpha \in R$ và mọi cơ sở $x$ của $\mathscr{G}^{\alpha},w_{\alpha}(x)$ ánh xạ $\mathscr{G}$ vào $\mathscr{G}$($\text{nghĩa là, }\!$ ánh xạ $\mathscr{G}^{\beta}$ vào $\mathscr{G}^{s_{\alpha}(\beta)}$ với mọi $\beta \in R$).
 
 (i) $=\Rightarrow$ (ii): cho $(X_{\alpha})_{\alpha\in R}$ là một hệ Chevalley trong $(\mathfrak{g},\mathfrak{h})$ sao cho $\mathscr{G}^{\alpha}=$ $\mathbf{Z}X_{\alpha}$ với mọi $\alpha \in R$, và cho B là một cơ sở của R. Với $\alpha \in B$, đặt $x_{\alpha}=X_{\alpha}, y_{\alpha}=$ $X_{-\alpha}$. Cho $\mathscr{U}'$ là song thứ tự liên kết theo Mệnh đề 3 của no. 6 với $\mathscr{H}$, các $x_{\alpha}$ và các $y_{\alpha}$. Rõ ràng là $\mathscr{U}'\subset \mathscr{U}$. Theo Hệ quả 3 và 4 của Mệnh đề $3,x^{(n)}\in \mathscr{U}'$ với mọi $\alpha \in R,x\in \mathscr{G}^{\alpha}$ và $n\in \mathbf{N}$. Vậy $\mathscr{U}=\mathscr{U}'$, điều đó chứng minh (ii).
 

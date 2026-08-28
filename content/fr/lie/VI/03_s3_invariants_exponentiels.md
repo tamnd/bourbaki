@@ -28,7 +28,7 @@ subsections:
       pdf_page: 185
 statements: 15
 exercises: 2
-content_sha256: bb1db560e35092c386909565c1a8a5bef22762783dd3507f7b08ff6cf7440693
+content_sha256: 49437c544b71618efc5dd3ff3097a1aad64022cb699760034bd6e58a21ac0971
 ---
 
 ## § 3. Invariants exponentiels
@@ -69,9 +69,9 @@ Ainsi, $1 - X_1^j$ et $1 - X_1^m X_2^n$ sont étrangers dans $B$. Par suite un d
 
 ### 2. Cas du groupe des poids; termes maximaux
 
-Gardons les notations du numéro précédent et soit R un système de racines réduit dans un espace vectoriel réel V. Dans la suite de ce paragraphe, nous prendrons pour P le groupe des poids de R (\S 1, no 9). Le groupe W = W(R) opère dans P, donc aussi dans l’algèbre A[P]; on a $w(e^p) = e^{w(p)}$ pour $w \in W$ et $p \in P$.
+Gardons les notations du numéro précédent et soit R un système de racines réduit dans un espace vectoriel réel V. Dans la suite de ce paragraphe, nous prendrons pour P le groupe des poids de R (§ 1, no 9). Le groupe W = W(R) opère dans P, donc aussi dans l’algèbre A[P]; on a $w(e^p) = e^{w(p)}$ pour $w \in W$ et $p \in P$.
 
-Soit C une chambre de R (\S 1, no 5) et soit B = $(\alpha_i)_{1 \leq i \leq l}$ la base correspondante de R. Nous munirons V (donc aussi P) de la structure d’ordre définie par C. Si $p, p' \in P$, on a $p \geq p'$ si et seulement si $p - p'$ est combinaison linéaire à coefficients positifs des $\alpha_i$.
+Soit C une chambre de R (§ 1, no 5) et soit B = $(\alpha_i)_{1 \leq i \leq l}$ la base correspondante de R. Nous munirons V (donc aussi P) de la structure d’ordre définie par C. Si $p, p' \in P$, on a $p \geq p'$ si et seulement si $p - p'$ est combinaison linéaire à coefficients positifs des $\alpha_i$.
 
 #### Définition 1 {#lie-vi-s3-def-1 .statement}
 
@@ -122,11 +122,11 @@ w(J(x)) = \sum_{v \in W} \varepsilon(v) \cdot wv(x) = \varepsilon(w) \sum_{v \in
 $$
 et $J(x)$ est anti-invariant. D’autre part, soit $q = \mathrm{Card}(W)$. Pour tout élément anti-invariant $x$ de $A[P]$, on a $J(x) = q \cdot x$. Il en résulte que, si $q$ est inversible dans $A$, l’application $q^{-1}J$ est un projecteur de $A[P]$ sur le sous-module des éléments anti-invariants.
 
-Soient $\varpi_1, \ldots, \varpi_l$ les poids fondamentaux correspondants à la chambre $C$. Les éléments de $P \cap \overline{C}$ (resp. $P \cap C$) sont les poids de la forme $n_1 \varpi_1 + \cdots + n_l \varpi_l$ avec $n_i \geqslant 0$ (resp. $n_i > 0$) pour $1 \leqslant i \leqslant l$ (\S 1, no 10). D’autre part,
+Soient $\varpi_1, \ldots, \varpi_l$ les poids fondamentaux correspondants à la chambre $C$. Les éléments de $P \cap \overline{C}$ (resp. $P \cap C$) sont les poids de la forme $n_1 \varpi_1 + \cdots + n_l \varpi_l$ avec $n_i \geqslant 0$ (resp. $n_i > 0$) pour $1 \leqslant i \leqslant l$ (§ 1, no 10). D’autre part,
 $$
 \rho = \varpi_1 + \cdots + \varpi_l
 $$
-est la demi-somme des racines positives (*loc. cit.*) et les éléments de $P \cap C$ sont encore les poids de la forme $\rho + p$ avec $p \in P \cap \overline{C}$. Enfin, si $p \in P \cap C$, on a $w(p) < p$ pour tout $w \neq 1$ (\S 1, no 6, cor. à la prop. 18) et $e^p$ est par suite l’unique terme maximal de $J(e^p)$.
+est la demi-somme des racines positives (*loc. cit.*) et les éléments de $P \cap C$ sont encore les poids de la forme $\rho + p$ avec $p \in P \cap \overline{C}$. Enfin, si $p \in P \cap C$, on a $w(p) < p$ pour tout $w \neq 1$ (§ 1, no 6, cor. à la prop. 18) et $e^p$ est par suite l’unique terme maximal de $J(e^p)$.
 
 #### Proposition 1 {#lie-vi-s3-prop-1 .statement}
 
@@ -167,7 +167,7 @@ Puisque $\rho \in P$, on a $d \in A[P]$.
 (ii) *Pour tout $p \in P$, l’élément $J(e^p)$ est divisible de façon unique par d et le quotient $J(e^p)/d$ est un élément de A[P] invariant par W.*
 (iii) *Si 2 n’est pas diviseur de zéro dans A, la multiplication par d est une bijection de l’ensemble des éléments de A[P] invariants par W sur l’ensemble des éléments anti-invariants de A[P].*
 
-On sait que, pour $1 \leq i \leq l$, la réflexion $s_i = s_{\alpha_i}$ laisse stable l’ensemble des racines positives distinctes de $\alpha_i$ et que $s_i(\alpha_i) = -\alpha_i$ (\S 1, n° 6, cor. 1 de la prop. 17). On a donc
+On sait que, pour $1 \leq i \leq l$, la réflexion $s_i = s_{\alpha_i}$ laisse stable l’ensemble des racines positives distinctes de $\alpha_i$ et que $s_i(\alpha_i) = -\alpha_i$ (§ 1, n° 6, cor. 1 de la prop. 17). On a donc
 $$
 s_i(d) = (e^{-x_i/2} - e^{x_i/2}) \cdot \sum_{\alpha \in \mathbf{R}, \alpha > 0, \alpha \neq \alpha_i} (e^{\alpha/2} - e^{-\alpha/2})
 $$
@@ -216,9 +216,9 @@ Le lemme 2 du no 2 montre que l'unique terme maximal du quotient $J(e^p)/d$ (pou
 
 ### 4. Éléments invariants
 
-Soit $A[P]^W$ la sous-algèbre de $A[P]$ formée des éléments invariants par $W$. Pour $p \in P$, notons $W.p$ l'orbite de $p$ par $W$, et soit $S(e^p) = \sum_{q \in W.p} e^q$ la somme des différents transformés de $e^p$ par $W$; c'est un élément invariant par $W$. Si $p \in P \cap \overline{C}$, on a $w(p) \leq p$ pour tout $w \in W$ ($\S 1$, no 6, prop. 18) et $e^p$ est l'unique terme maximal de $S(e^p)$.
+Soit $A[P]^W$ la sous-algèbre de $A[P]$ formée des éléments invariants par $W$. Pour $p \in P$, notons $W.p$ l'orbite de $p$ par $W$, et soit $S(e^p) = \sum_{q \in W.p} e^q$ la somme des différents transformés de $e^p$ par $W$; c'est un élément invariant par $W$. Si $p \in P \cap \overline{C}$, on a $w(p) \leq p$ pour tout $w \in W$ ($§ 1$, no 6, prop. 18) et $e^p$ est l'unique terme maximal de $S(e^p)$.
 
-Soit $x = \sum_p x_p e^p \in A[P]^W$; on a $x_{w(p)} = x_p$ pour tout $p \in P$ et tout $w \in W$. D'autre part, toute orbite de $W$ dans $P$ rencontre $P \cap \overline{C}$ en un point et un seul ($\S 1$, no 5, th. 2). Par suite, on a :
+Soit $x = \sum_p x_p e^p \in A[P]^W$; on a $x_{w(p)} = x_p$ pour tout $p \in P$ et tout $w \in W$. D'autre part, toute orbite de $W$ dans $P$ rencontre $P \cap \overline{C}$ en un point et un seul ($§ 1$, no 5, th. 2). Par suite, on a :
 
 $$
 x = \sum_{p \in P \cap \overline{C}} x_p S(e^p).

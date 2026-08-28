@@ -28,7 +28,7 @@ subsections:
       pdf_page: 48
 statements: 12
 exercises: 13
-content_sha256: 53800ca4058547c35fef37e7f527ff82b2f4389303c83c04603fc0826bb3f6b6
+content_sha256: 3b83149e3e57fb51a7a0ee1c20b1a71de3ebc196deeb88d41acbfe2b056d2573
 ---
 
 ## 2. EUCLIDEAN DISTANCE; BALLS AND SPHERES
@@ -85,7 +85,7 @@ $$
 \sup_{1 \leq i \leq n} |x_i - y_i| \leq d(x, y) \leq \sqrt{n} \cdot \sup_{1 \leq i \leq n} |x_i - y_i|.
 $$
 
-Hence a subset $A$ of $\mathbf{R}^n$ is *bounded* (\S 1, no. 1) if and only if
+Hence a subset $A$ of $\mathbf{R}^n$ is *bounded* (§ 1, no. 1) if and only if
 
 $$
 \sup_{x \in A} \|x\| < +\infty.

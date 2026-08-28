@@ -21,9 +21,9 @@ subsections:
       pdf_page: 34
 statements: 13
 exercises: 9
-content_sha256: bc2287f9aa33913aafa270e9a0c0df34e4fb3d19e66cc0d2872fa91d400ea20e
+content_sha256: 1e25f2ce84e070d2124701f33c7a9fc9469590c1c86df4251da2348de38a8b71
 translated_from: content/en/int/II/02_s2_linear_forms_on_a_riesz_space.md
-source_content_sha256: 1c27dd83f37c11f72464d35b191e3e5c9908ef64cef4df0011b1a62023bb0238
+source_content_sha256: f261078ae1db1a985db1c8cbda6a7a6f980a9e5c399f533b3b3eabf7b1f185bd
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-90bd1f49
 glossary_version: 34
@@ -116,7 +116,7 @@ M(x) + M(x') = \sup_{0 \leq y \leq x} L(y) + \sup_{0 \leq y' \leq x'} L(y')
 = \sup_{0 \leq y \leq x,\ 0 \leq y' \leq x'} L(y + y') \leq M(x + x').
 $$
 
-Mặt khác, với mọi $z$ sao cho $0 \leq z \leq x + x'$, ta có $x + x' = z + u$ với $u \geq 0$; theo bổ đề phân tích (\S 1, No. 1), tồn tại hai phần tử $y,\ y'$ sao cho $0 \leq y \leq x,\ 0 \leq y' \leq x'$ và sao cho $z = y + y',\ u = (x - y) + (x' - y')$; khi đó
+Mặt khác, với mọi $z$ sao cho $0 \leq z \leq x + x'$, ta có $x + x' = z + u$ với $u \geq 0$; theo bổ đề phân tích (§ 1, No. 1), tồn tại hai phần tử $y,\ y'$ sao cho $0 \leq y \leq x,\ 0 \leq y' \leq x'$ và sao cho $z = y + y',\ u = (x - y) + (x' - y')$; khi đó
 
 $$
 L(z) = L(y) + L(y') \leq M(x) + M(x'),
@@ -188,7 +188,7 @@ Thật vậy, theo công thức thứ hai của (3), điều kiện này biểu 
 
 — Cho $L$ là một dạng tuyến tính dương trên một không gian Riesz $E$. Để một dạng tuyến tính dương $M$ trên $E$ thuộc dải sinh bởi $L$ trong $\Omega$, điều kiện cần và đủ là, với mọi $x \geq 0$ trong $E$ và mọi số $\varepsilon > 0$, tồn tại một số $\delta > 0$ sao cho các quan hệ $0 \leq y \leq x$ và $L(y) \leq \delta$ kéo theo $M(y) \leq \varepsilon$.
 
-Trước hết, hãy chứng minh rằng điều kiện là cần thiết. Nếu $M \geq 0$ thuộc dải sinh bởi $L$ trong $\Omega$, thì (\S 1, No. 5, Hệ quả của Mệnh đề 6)
+Trước hết, hãy chứng minh rằng điều kiện là cần thiết. Nếu $M \geq 0$ thuộc dải sinh bởi $L$ trong $\Omega$, thì (§ 1, No. 5, Hệ quả của Mệnh đề 6)
 
 $$
 M = \sup_n \left( \inf(nL, M) \right).
@@ -208,7 +208,7 @@ $$
 
 nếu $y$ sao cho $L(y) \leq \varepsilon/2n$ thì suy ra $M(y) \leq \varepsilon$, điều này thiết lập mệnh đề của chúng ta.
 
-Bây giờ ta hãy chỉ ra rằng điều kiện đó là đủ. Với mọi dạng tuyến tính dương $M$ trên $E$, ta có thể viết $M = U + V$, trong đó $U$ thuộc dải sinh bởi $L$ trong $\Omega$ và $V$ ngoại lai đối với $L$, còn $U$ và $V$ đều dương (\S 1, No. 5, Định lý 1). Nếu $M$ thỏa mãn điều kiện của mệnh đề thì $V = M - U$ cũng thỏa mãn điều kiện ấy, vì $0 \leq V \leq M$. Từ đó ta sẽ suy ra rằng $V = 0$. Với mọi $x \geq 0$ trong $E$ và mọi số $\eta > 0$, tồn tại hai phần tử $y \geq 0, z \geq 0$ của $E$ sao cho $x = y + z$ và $L(y) + V(z) \leq \eta$ (Mệnh đề 4); cho một số tùy ý $\varepsilon > 0$, chọn $\eta \leq \varepsilon$ sao cho các hệ thức $0 \leq u \leq x$ và $L(u) \leq \eta$ kéo theo $V(u) \leq \varepsilon$; với $y$ và $z$ được xác định như trên, ta có $L(y) \leq \eta$, do đó $V(y) \leq \varepsilon$ và vì thế
+Bây giờ ta hãy chỉ ra rằng điều kiện đó là đủ. Với mọi dạng tuyến tính dương $M$ trên $E$, ta có thể viết $M = U + V$, trong đó $U$ thuộc dải sinh bởi $L$ trong $\Omega$ và $V$ ngoại lai đối với $L$, còn $U$ và $V$ đều dương (§ 1, No. 5, Định lý 1). Nếu $M$ thỏa mãn điều kiện của mệnh đề thì $V = M - U$ cũng thỏa mãn điều kiện ấy, vì $0 \leq V \leq M$. Từ đó ta sẽ suy ra rằng $V = 0$. Với mọi $x \geq 0$ trong $E$ và mọi số $\eta > 0$, tồn tại hai phần tử $y \geq 0, z \geq 0$ của $E$ sao cho $x = y + z$ và $L(y) + V(z) \leq \eta$ (Mệnh đề 4); cho một số tùy ý $\varepsilon > 0$, chọn $\eta \leq \varepsilon$ sao cho các hệ thức $0 \leq u \leq x$ và $L(u) \leq \eta$ kéo theo $V(u) \leq \varepsilon$; với $y$ và $z$ được xác định như trên, ta có $L(y) \leq \eta$, do đó $V(y) \leq \varepsilon$ và vì thế
 
 $$
 V(x) = V(y) + V(z) \leq \varepsilon + \eta \leq 2\varepsilon;
@@ -218,7 +218,7 @@ vì $\varepsilon$ là tùy ý, ta có $V(x) = 0$ với mọi $x \geq 0$, tức l
 
 #### Ví dụ {#int-ii-s2-n2-exa-1 .statement}
 
-Cho E là một không gian Riesz được trang bị một tôpô lồi địa phương tương thích với cấu trúc không gian vectơ có thứ tự của nó (TVS, II, §2, No. 7). Gọi E' là đối ngẫu tôpô của E, và giả sử thêm rằng nón P gồm các phần tử $\geqslant 0$ của E là *đầy đủ đối với tôpô yếu đi* $\sigma(E, E')$. Khi đó mọi dạng tuyến tính liên tục $x' \in E'$ đều *bị chặn tương đối*, vì người ta biết (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11) rằng dưới các điều kiện ấy, với mọi $x \geqslant 0$ trong E, tập các $y \in E$ sao cho $|y| \leqslant x$ là *compact* đối với $\sigma(E, E')$. Từ đó ta suy ra rằng khi đó E là *dàn đầy đủ*; thật vậy, theo ($\S 1$, No. 3, Mệnh đề 2), chỉ cần chỉ ra rằng với mọi tập hợp $H \subset E$ bị chặn trên và có hướng đối với $\leqslant$, bộ lọc tiết diện $\mathcal{F}$ của H là *hội tụ trong E đối với tôpô* $\sigma(E, E')$ (tôpô sau tương thích với cấu trúc không gian vectơ có thứ tự của E). Bằng phép tịnh tiến, ta có thể giả sử rằng $H \subset P$, và khi đó chỉ cần chỉ ra rằng $\mathcal{F}$ là một *bộ lọc Cauchy* đối với $\sigma(E, E')$, hay cũng thế, rằng mọi dạng tuyến tính liên tục $x' \in E'$ đều có một giới hạn đối với $\mathcal{F}$. Nhưng điều này suy ra ngay từ định lý giới hạn đơn điệu khi $x'$ là một dạng tuyến tính *dương*, và vì mọi dạng tuyến tính $x' \in E'$ là hiệu của hai dạng tuyến tính dương (Định lý 1) nên mệnh đề của chúng ta được chứng minh.
+Cho E là một không gian Riesz được trang bị một tôpô lồi địa phương tương thích với cấu trúc không gian vectơ có thứ tự của nó (TVS, II, §2, No. 7). Gọi E' là đối ngẫu tôpô của E, và giả sử thêm rằng nón P gồm các phần tử $\geqslant 0$ của E là *đầy đủ đối với tôpô yếu đi* $\sigma(E, E')$. Khi đó mọi dạng tuyến tính liên tục $x' \in E'$ đều *bị chặn tương đối*, vì người ta biết (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11) rằng dưới các điều kiện ấy, với mọi $x \geqslant 0$ trong E, tập các $y \in E$ sao cho $|y| \leqslant x$ là *compact* đối với $\sigma(E, E')$. Từ đó ta suy ra rằng khi đó E là *dàn đầy đủ*; thật vậy, theo ($§ 1$, No. 3, Mệnh đề 2), chỉ cần chỉ ra rằng với mọi tập hợp $H \subset E$ bị chặn trên và có hướng đối với $\leqslant$, bộ lọc tiết diện $\mathcal{F}$ của H là *hội tụ trong E đối với tôpô* $\sigma(E, E')$ (tôpô sau tương thích với cấu trúc không gian vectơ có thứ tự của E). Bằng phép tịnh tiến, ta có thể giả sử rằng $H \subset P$, và khi đó chỉ cần chỉ ra rằng $\mathcal{F}$ là một *bộ lọc Cauchy* đối với $\sigma(E, E')$, hay cũng thế, rằng mọi dạng tuyến tính liên tục $x' \in E'$ đều có một giới hạn đối với $\mathcal{F}$. Nhưng điều này suy ra ngay từ định lý giới hạn đơn điệu khi $x'$ là một dạng tuyến tính *dương*, và vì mọi dạng tuyến tính $x' \in E'$ là hiệu của hai dạng tuyến tính dương (Định lý 1) nên mệnh đề của chúng ta được chứng minh.
 
 Bài tập
 

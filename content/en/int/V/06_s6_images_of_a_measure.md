@@ -37,7 +37,7 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: 07fd8c147bf3436d7be92d0c198a63d1b8de55bbf0e6a850e0e091eeadc33991
+content_sha256: a70560a7e81a1387fafead635105a8388c5e8d3f23436033725b34a2d8dcc990
 ---
 
 ## § 6. IMAGES OF A MEASURE
@@ -54,7 +54,7 @@ a) *for every function* $f \in \mathcal{K}(X)$, $f \circ \pi$ *is essentially* $
 
 b) *for every compact set* $K \subset X$, $\overline{\pi}^{-1}(K)$ *is essentially* $\mu$-*integrable*.
 
-We have just observed that a) implies that the pair $(\pi, 1)$ is $\mu$-adapted. Consequently (\S 4, No. 4, Th. 2), for every compact set $K \subset X$, the function $\varphi_K \circ \pi = \varphi_A$, where $A = \overline{\pi}^{-1}(K)$, is essentially $\mu$-integrable, in other words, a) implies b).
+We have just observed that a) implies that the pair $(\pi, 1)$ is $\mu$-adapted. Consequently (§ 4, No. 4, Th. 2), for every compact set $K \subset X$, the function $\varphi_K \circ \pi = \varphi_A$, where $A = \overline{\pi}^{-1}(K)$, is essentially $\mu$-integrable, in other words, a) implies b).
 
 Conversely, suppose that $\overline{\pi}^{-1}(K)$ is essentially $\mu$-integrable for every compact subset $K$ of $X$, and let us show that a) is verified. Indeed, let $S$ be the support of $f$; since $S$ is compact, setting $A = \overline{\pi}^{-1}(S)$ we have, by hypothesis,
 
@@ -62,7 +62,7 @@ $$
 \int^\bullet |f(\pi(t))| \, d\mu(t) \leq \|f\| \int^\bullet \varphi_S(\pi(t)) \, d\mu(t) = \|f\| \int^\bullet \varphi_A(t) \, d\mu(t) < +\infty.
 $$
 
-Since $f \circ \pi$ is $\mu$-measurable (Ch. IV, \S 5, No. 3, Th. 1), we see that $f \circ \pi$ is essentially $\mu$-integrable (\S 1, No. 3, Prop. 9).
+Since $f \circ \pi$ is $\mu$-measurable (Ch. IV, § 5, No. 3, Th. 1), we see that $f \circ \pi$ is essentially $\mu$-integrable (§ 1, No. 3, Prop. 9).
 
 Property b) is obviously equivalent to the following (which is therefore also equivalent to a)):
 
@@ -70,7 +70,7 @@ c) *For every point* $x$ *of* $X$, *there exists a neighborhood* $V$ *of* $x$ *s
 
 #### Definition 1 {#int-v-s6-def-1 .statement}
 
-*Let* $\mu$ *be a positive measure on a locally compact space* $T$. *A mapping* $\pi$ *of* $T$ *into a locally compact space* $X$ *is said to be* $\mu$*-proper* (*or proper for the measure* $\mu$) *if the pair* $(\pi, 1)$ *is* $\mu$*-adapted*, *that is* (\S 4, No. 1), *if* $\pi$ *is* $\mu$*-measurable and satisfies the (equivalent) conditions of Prop. 1*. *The measure* $\int \varepsilon_{\pi(t)} \, d\mu(t)$ *on* $X$ *is then called the image of* $\mu$ *under* $\pi$ *and is denoted* $\pi(\mu)$.
+*Let* $\mu$ *be a positive measure on a locally compact space* $T$. *A mapping* $\pi$ *of* $T$ *into a locally compact space* $X$ *is said to be* $\mu$*-proper* (*or proper for the measure* $\mu$) *if the pair* $(\pi, 1)$ *is* $\mu$*-adapted*, *that is* (§ 4, No. 1), *if* $\pi$ *is* $\mu$*-measurable and satisfies the (equivalent) conditions of Prop. 1*. *The measure* $\int \varepsilon_{\pi(t)} \, d\mu(t)$ *on* $X$ *is then called the image of* $\mu$ *under* $\pi$ *and is denoted* $\pi(\mu)$.
 
 Thus if $\nu = \pi(\mu)$ then, by definition, for $f \in \mathcal{K}(X)$ one has
 
@@ -80,9 +80,9 @@ $$
 
 #### Remark {#int-v-s6-n1-rem-1 .statement}
 
-— 1) If $\mu$ is *bounded* (in particular, if $\mu$ has compact support) then every $\mu$-measurable mapping of $T$ into $X$ is $\mu$-proper (Ch. IV, \S 5, No. 3, Th. 1 and No. 6, Th. 5).
+— 1) If $\mu$ is *bounded* (in particular, if $\mu$ has compact support) then every $\mu$-measurable mapping of $T$ into $X$ is $\mu$-proper (Ch. IV, § 5, No. 3, Th. 1 and No. 6, Th. 5).
 
-2) If $\pi$ is $\mu$-measurable and if, for every compact subset $K$ of $X$, $\overline{\pi}^{-1}(K)$ is relatively compact, then $\pi$ is $\mu$-proper (Ch. IV, \S 5, No. 5, Prop. 7 and No. 6, Th. 5); in particular, every *proper* continuous mapping of $T$ into $X$ (GT, I, \S 10, No. 2, Th. 1) is $\mu$-proper for every positive measure $\mu$ on $T$. More particularly, this is true of every *homeomorphism* $\pi$ of $T$ onto X; the measure $\nu = \pi(\mu)$ is then none other than the measure on X that is the transport of $\mu$ by $\pi$ (Ch. III, §1, No. 3).
+2) If $\pi$ is $\mu$-measurable and if, for every compact subset $K$ of $X$, $\overline{\pi}^{-1}(K)$ is relatively compact, then $\pi$ is $\mu$-proper (Ch. IV, § 5, No. 5, Prop. 7 and No. 6, Th. 5); in particular, every *proper* continuous mapping of $T$ into $X$ (GT, I, § 10, No. 2, Th. 1) is $\mu$-proper for every positive measure $\mu$ on $T$. More particularly, this is true of every *homeomorphism* $\pi$ of $T$ onto X; the measure $\nu = \pi(\mu)$ is then none other than the measure on X that is the transport of $\mu$ by $\pi$ (Ch. III, §1, No. 3).
 
 3) Suppose that the topology of X admits a countable base; then every mapping $\pi$ of T into X that satisfies condition b) of Prop. 1 is $\mu$-measurable, hence is $\mu$-proper. It suffices to apply Th. 4 of Ch. IV, §5, No. 5, on observing that X is then metrizable (GT, IX, §2, No. 9, Cor. of Prop. 16) and that, for any metric compatible with the topology of X, every closed ball is a countable union of compact sets.
 
@@ -151,7 +151,7 @@ It suffices to apply Th. 2 of §4, No. 4.
 
 — For a subset A of X to be essentially $\nu$-integrable, it is necessary and sufficient that $\pi^{-1}(A)$ be essentially $\mu$-integrable, in which case $\nu(A) = \mu(\pi^{-1}(A))$.
 
-In particular, for every compact set $K \subset X$, $\nu(K) = \mu(\pi^{-1}(K))$. It follows from this and Cor. 3 of Prop. 2 that if $\mu$ is atomic (\S5, No. 10) then so is $\pi(\mu) = \nu$. For, let M be the set of $t \in T$ such that $\mu(\{t\}) \neq 0$; since $\mu$ is carried by M, $\nu$ is carried by $\pi(M)$; moreover, for every $x \in \pi(M)$ we have $\nu(\{x\}) = \mu(\pi^{-1}(x)) > 0$, since $\pi^{-1}(x)$ contains at least one point of M. Therefore $\nu$ is atomic (\S5, No. 10, Prop. 15).
+In particular, for every compact set $K \subset X$, $\nu(K) = \mu(\pi^{-1}(K))$. It follows from this and Cor. 3 of Prop. 2 that if $\mu$ is atomic (§ 5, No. 10) then so is $\pi(\mu) = \nu$. For, let M be the set of $t \in T$ such that $\mu(\{t\}) \neq 0$; since $\mu$ is carried by M, $\nu$ is carried by $\pi(M)$; moreover, for every $x \in \pi(M)$ we have $\nu(\{x\}) = \mu(\pi^{-1}(x)) > 0$, since $\pi^{-1}(x)$ contains at least one point of M. Therefore $\nu$ is atomic (§ 5, No. 10, Prop. 15).
 
 ### 3. Properties of the image of a positive measure
 
@@ -204,7 +204,7 @@ $$
 \pi(\mu) = \sup_\alpha \pi(\lambda_\alpha).
 $$
 
-For $\pi$ to be $\mu$-measurable, it is necessary and sufficient that $\pi$ be $\lambda_\alpha$-measurable for all $\alpha \in A$ (\S 1, No. 4, Cor. 2 of Prop. 11). Suppose that this condition is satisfied; to say that $\pi$ is $\mu$-proper is then equivalent to saying that, for every function $f \in \mathcal{K}_+(X)$,
+For $\pi$ to be $\mu$-measurable, it is necessary and sufficient that $\pi$ be $\lambda_\alpha$-measurable for all $\alpha \in A$ (§ 1, No. 4, Cor. 2 of Prop. 11). Suppose that this condition is satisfied; to say that $\pi$ is $\mu$-proper is then equivalent to saying that, for every function $f \in \mathcal{K}_+(X)$,
 
 $$
 \mu^\bullet(f \circ \pi) < +\infty.
@@ -216,7 +216,7 @@ $$
 \int^\bullet (f \circ \pi)\, d\mu = \sup_\alpha \int^\bullet (f \circ \pi)\, d\lambda_\alpha = \sup_\alpha \int^\bullet f\, d(\pi(\lambda_\alpha))
 $$
 
-(\S 1, No. 4, Prop. 11); the first member is thus finite for every $f \in \mathcal{K}_+(X)$ if and only if the family $(\pi(\lambda_\alpha))$ admits a supremum $\theta$ in $\mathcal{M}(X)$, in which case $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, a relation equivalent to (5).
+(§ 1, No. 4, Prop. 11); the first member is thus finite for every $f \in \mathcal{K}_+(X)$ if and only if the family $(\pi(\lambda_\alpha))$ admits a supremum $\theta$ in $\mathcal{M}(X)$, in which case $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, a relation equivalent to (5).
 
 #### Corollary 1 {#int-v-s6-prop-6-cor-1 .statement}
 
@@ -354,7 +354,7 @@ $$
 \int^\bullet (f \circ \pi)\, d\nu = \int^\bullet d\mu(t) \int^\bullet (f \circ \pi)\, d\lambda_t = \int^\bullet f(t)g(t)\, d\mu(t),
 $$
 
-from the fact that $\lambda_t$ is concentrated on $\overline{\pi}^{-1}(t)$. We know that $g$ is $\mu$-measurable, since $\Lambda$ is $\mu$-adequate (\S3, No. 1, Def. 1). To say that the first member is finite for every $f \in \mathcal{K}_+(T)$ is therefore equivalent to saying that $g$ is locally $\mu$-integrable (\S5, Prop. 1), and in this case (14) follows at once from the above relations.
+from the fact that $\lambda_t$ is concentrated on $\overline{\pi}^{-1}(t)$. We know that $g$ is $\mu$-measurable, since $\Lambda$ is $\mu$-adequate (§ 3, No. 1, Def. 1). To say that the first member is finite for every $f \in \mathcal{K}_+(T)$ is therefore equivalent to saying that $g$ is locally $\mu$-integrable (§ 5, Prop. 1), and in this case (14) follows at once from the above relations.
 
 It therefore only remains to eliminate the auxiliary hypothesis. If $g$ is locally $\mu$-integrable, then $g$ is finite locally $\mu$-almost everywhere, and the hypothesis is indeed satisfied. Let us assume that $\pi$ is $\nu$-proper, and let us show that $g$ is finite locally almost everywhere. Let $\mathfrak{K}$ be the $\mu$-dense set of compact sets $K$ such that $\Lambda|K$ is vaguely continuous; since $g$ is measurable, we are reduced to showing that every compact set $K \in \mathfrak{K}$ such that $g|K = +\infty$ is $\mu$-negligible. Now, let $\mathcal{H}$ be the set of functions $h \in \mathcal{K}_+(X)$ such that $h \leq 1$; set $g_h(t) = \lambda_t(h)$, denote by $\Lambda_h$ the $\mu$-adequate mapping $t \mapsto h \cdot \lambda_t$, by $\nu_h$ the integral of $\Lambda_h$, and by $f$ an element of $\mathcal{K}_+(T)$ such that $f \geq \varphi_K$. Applying formula (14) to $\Lambda_h$, which does satisfy the auxiliary hypothesis, we obtain:
 
@@ -371,7 +371,7 @@ But the functions $fg_h|K$ form an increasing directed set of continuous functio
 a) *If $N \subset T$ is locally $\mu$-negligible, then $\overline{\pi}^{-1}(N)$ is locally $\nu$-negligible.*
 b) *If $f$ is a $\mu$-measurable mapping of $T$ into a topological space $G$, then $f \circ \pi$ is $\nu$-measurable.*
 
-We take up again the notations $\Lambda_h$, $\nu_h$, $g_h$ of the end of the preceding proof: $\nu_h$ being a bounded measure for every $h \in \mathcal{H}$, $\pi$ is $\nu_h$-proper, $g_h$ is locally $\mu$-integrable, and $\pi(\nu_h) = g_h \cdot \mu$, a measure with base $\mu$. It follows that $N$ is locally negligible (resp. that $f$ is measurable) for the measure $\pi(\nu_h)$ (\S5, No. 3, Cor. 1 of Prop. 3 and Prop. 4). Consequently $\overline{\pi}^{-1}(N)$ is locally negligible (resp. $f \circ \pi$ is measurable) for the measure $\nu_h$ (Cor. 2 of
+We take up again the notations $\Lambda_h$, $\nu_h$, $g_h$ of the end of the preceding proof: $\nu_h$ being a bounded measure for every $h \in \mathcal{H}$, $\pi$ is $\nu_h$-proper, $g_h$ is locally $\mu$-integrable, and $\pi(\nu_h) = g_h \cdot \mu$, a measure with base $\mu$. It follows that $N$ is locally negligible (resp. that $f$ is measurable) for the measure $\pi(\nu_h)$ (§ 5, No. 3, Cor. 1 of Prop. 3 and Prop. 4). Consequently $\overline{\pi}^{-1}(N)$ is locally negligible (resp. $f \circ \pi$ is measurable) for the measure $\nu_h$ (Cor. 2 of
 
 Prop. 2, resp. Prop. 3). Finally, one notes that the measures $\nu_h$ form an increasing directed family of positive measures whose supremum is $\nu$, and one applies Cor. 1 (resp. Cor. 2) of Prop. 11 of §1, No. 4.
 

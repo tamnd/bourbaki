@@ -24,7 +24,7 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: 195704c1333f5f2d91a6ce305c05eaeb27c6a686881d525615a04e249dba1f90
+content_sha256: 09a06def0cc19a2ce6d07eac5e95043aaf4755cf250d11490f88581170d128d1
 ---
 
 ## 3. THE FIELD OF REAL NUMBERS
@@ -79,11 +79,11 @@ $$
 For each $x \neq 0$ let $\operatorname{sgn} x$ denote $\frac{x}{|x|}$ (*sign of* $x$). The function $\operatorname{sgn}$ is a homomorphism of $\mathbf{R}^*$ onto $\mathbf{U}_0$. We have $x = |x|\operatorname{sgn} x$, and this decomposition of $x$ as the product of an element of $\mathbf{R}_+^*$ and an element of $\mathbf{U}_0$ is unique; hence the group structure of $\mathbf{R}^*$ is the product of the group structures of $\mathbf{R}_+^*$ and $\mathbf{U}_0$. On the other hand, the mapping $x \to |x|$ is continuous, and so is $x \to \operatorname{sgn} x = \frac{x}{|x|}$, since $x \neq 0$. Hence the result.
 We extend the function $\operatorname{sgn}$ to the whole of $\mathbf{R}$ by putting $\operatorname{sgn} 0 = 0$.
 
-We shall see in Chapter V (\S 4, no. 1, Theorem 1) that the topological group $\mathbf{R}_+^*$ is *isomorphic* to the *additive* group $\mathbf{R}$; this will complete the determination of the structure of the topological group $\mathbf{R}_*$.
+We shall see in Chapter V (§ 4, no. 1, Theorem 1) that the topological group $\mathbf{R}_+^*$ is *isomorphic* to the *additive* group $\mathbf{R}$; this will complete the determination of the structure of the topological group $\mathbf{R}_*$.
 
 ### 3. *n*TH ROOTS
 
-Let $n$ be any integer $> 0$. From the relation $0 < x < y$ we deduce, by induction on $n$, that $0 < x^n < y^n$. In other words, the function $x \to x^n$ is *strictly increasing* for $x \geq 0$; it is clearly continuous at every point and therefore (\S 2, no. 6, Theorem 5) it is a homeomorphism of $\mathbf{R}_+$ onto an interval $I$. On the other hand, since $x \geqslant 1$ implies $x^{n-1} \geqslant 1$ and therefore $x^n \geqslant x$, it follows that $I$ is not bounded and hence $I = \mathbf{R}_+$. The value, for $x \geqslant 0$, of the inverse of the mapping $x \to x^n$ is denoted by $x^{1/n}$ or $\sqrt[n]{x}$ and is called $x$ to the power $1/n$ or the nth root of $x$ (for $n = 2, 3$ we say square root, cube root; for $n = 2$ we write $\sqrt{x}$ in place of $\sqrt[2]{x}$). The positive number $x^{1/n}$ is thus defined as the unique positive solution of the equation
+Let $n$ be any integer $> 0$. From the relation $0 < x < y$ we deduce, by induction on $n$, that $0 < x^n < y^n$. In other words, the function $x \to x^n$ is *strictly increasing* for $x \geq 0$; it is clearly continuous at every point and therefore (§ 2, no. 6, Theorem 5) it is a homeomorphism of $\mathbf{R}_+$ onto an interval $I$. On the other hand, since $x \geqslant 1$ implies $x^{n-1} \geqslant 1$ and therefore $x^n \geqslant x$, it follows that $I$ is not bounded and hence $I = \mathbf{R}_+$. The value, for $x \geqslant 0$, of the inverse of the mapping $x \to x^n$ is denoted by $x^{1/n}$ or $\sqrt[n]{x}$ and is called $x$ to the power $1/n$ or the nth root of $x$ (for $n = 2, 3$ we say square root, cube root; for $n = 2$ we write $\sqrt{x}$ in place of $\sqrt[2]{x}$). The positive number $x^{1/n}$ is thus defined as the unique positive solution of the equation
 
 $$
 y^n = x \quad (x \geqslant 0).
@@ -99,7 +99,7 @@ $$
 
 hence $x \to x^{1/n}$ is an automorphism of the topological group $\mathbf{R}_+^*$.
 
-In Chapter V, \S 4, no. 1, we shall generalize this result by finding all the automorphisms of the multiplicative group $\mathbf{R}_+^*$.
+In Chapter V, § 4, no. 1, we shall generalize this result by finding all the automorphisms of the multiplicative group $\mathbf{R}_+^*$.
 
 ### Exercises {#top-iv-s3-exercises}
 

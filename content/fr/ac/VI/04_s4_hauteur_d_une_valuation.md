@@ -32,7 +32,7 @@ subsections:
       pdf_page: 111
 statements: 21
 exercises: 5
-content_sha256: f4e200fce05b68baa9e9dad9c6a147094e3de4017cb3ee6b930e1981dc0d9157
+content_sha256: b183165ffbef744b18bb24fd033dc8b81bbf2f8dd70c28bdec14b9f83e6eb755
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -52,7 +52,7 @@ Si $\mathbf{B}$ est un anneau tel que $\mathbf{A} \subset \mathbf{B} \subset \ma
 
 *L’ensemble des sous-anneaux de* $K$ *contenant* $A$ *est totalement ordonné par inclusion*.
 
-En effet, l’ensemble des idéaux premiers de $A$ est totalement ordonné par inclusion ($\S 1$, no 2, th. 1 e)), et l’application $\mathfrak{p} \to A_{\mathfrak{p}}$ renverse les relations d’inclusion.
+En effet, l’ensemble des idéaux premiers de $A$ est totalement ordonné par inclusion ($§ 1$, no 2, th. 1 e)), et l’application $\mathfrak{p} \to A_{\mathfrak{p}}$ renverse les relations d’inclusion.
 
 #### Proposition 2 {#ac-vi-s4-prop-2 .statement}
 
@@ -106,7 +106,7 @@ Si nous reprenons l’exemple où $G$ est un produit lexicographique $A \times B
 
 ### 3. Comparaison des valuations
 
-Soient $K$ un corps, et $A$ un anneau de valuation pour $K$. Pour tout sous-anneau $B$ de $K$ contenant $A$, on a $U(A) \subset U(B)$. On a donc un homomorphisme canonique $\lambda$ de $\Gamma_A = K^*/U(A)$ sur $\Gamma_B = K^*/U(B)$, dont le noyau est $U(B)/U(A)$. Notant $\varphi_A$ et $\varphi_B$ les valuations canoniques de $K$ définies par $A$ et $B$ (\S 3, no 2), on a donc
+Soient $K$ un corps, et $A$ un anneau de valuation pour $K$. Pour tout sous-anneau $B$ de $K$ contenant $A$, on a $U(A) \subset U(B)$. On a donc un homomorphisme canonique $\lambda$ de $\Gamma_A = K^*/U(A)$ sur $\Gamma_B = K^*/U(B)$, dont le noyau est $U(B)/U(A)$. Notant $\varphi_A$ et $\varphi_B$ les valuations canoniques de $K$ définies par $A$ et $B$ (§ 3, no 2), on a donc
 
 $$
 \varphi_B = \lambda \circ \varphi_A.
@@ -154,7 +154,7 @@ $$
 E = k(X) \quad \text{et} \quad K = k(X, Y) = E(Y)
 $$
 
-$(X, Y$ indéterminées). Soit $B = E[Y]_{(Y)}$ l’anneau de valuation pour $K$ défini par l’élément extrémal $Y$ de l’anneau principal $E[Y]$ (\S 1, no 4, prop. 3). Le corps résiduel $\kappa(B)$ s’identifie canoniquement à $E[Y]/(Y) = E$. Soit, de même, $A' = k[X]_{(X)}$ l’anneau de valuation pour $E = k(X)$ défini par l’élément extrémal $X$ de $k[X]$. En désignant par $h_B$ la place de $E$ associée à $B$, et en posant $A = \overline{h_B}(A')$, on définit un anneau de valuation $A$ pour $K$ contenu dans $B$, et l’on a $\kappa(A) = \kappa(A') = k$. La place canonique $h_A : K \to k$ peut se décrire ainsi : si $f(X, Y)$ est un élément de $K$, on fait d’abord $Y = 0$ dans $f$ (ce qui donne un élément de $\widetilde{E} = k(X)$), puis $X = 0$ dans le résultat obtenu. Les groupes $\Gamma_{A'}$ et $\Gamma_B$ sont canoniquement isomorphes à $\mathbf{Z}$ (\S 3, no 4, Exemple 4).
+$(X, Y$ indéterminées). Soit $B = E[Y]_{(Y)}$ l’anneau de valuation pour $K$ défini par l’élément extrémal $Y$ de l’anneau principal $E[Y]$ (§ 1, no 4, prop. 3). Le corps résiduel $\kappa(B)$ s’identifie canoniquement à $E[Y]/(Y) = E$. Soit, de même, $A' = k[X]_{(X)}$ l’anneau de valuation pour $E = k(X)$ défini par l’élément extrémal $X$ de $k[X]$. En désignant par $h_B$ la place de $E$ associée à $B$, et en posant $A = \overline{h_B}(A')$, on définit un anneau de valuation $A$ pour $K$ contenu dans $B$, et l’on a $\kappa(A) = \kappa(A') = k$. La place canonique $h_A : K \to k$ peut se décrire ainsi : si $f(X, Y)$ est un élément de $K$, on fait d’abord $Y = 0$ dans $f$ (ce qui donne un élément de $\widetilde{E} = k(X)$), puis $X = 0$ dans le résultat obtenu. Les groupes $\Gamma_{A'}$ et $\Gamma_B$ sont canoniquement isomorphes à $\mathbf{Z}$ (§ 3, no 4, Exemple 4).
 
 *On montre sans difficulté (cf. § 10, no 2, lemme 2) que le groupe $\Gamma_A$ est isomorphe au produit lexicographique $\mathbf{Z} \times \mathbf{Z}$, et que la valuation $\varphi_A$ est équivalente à la valuation définie au § 3, no 4, fin de l’Exemple 6.*
 
@@ -162,7 +162,7 @@ $(X, Y$ indéterminées). Soit $B = E[Y]_{(Y)}$ l’anneau de valuation pour $K$
 
 Soit $G$ un groupe totalement ordonné. Étant donnés deux sous-groupes isolés $H$ et $H'$ de $G$, l’un d’eux est contenu dans l’autre : en effet, dans le cas contraire, il existerait un élément positif $x$ de $H$ n’appartenant pas à $H'$ et un élément positif $x'$ de $H'$ n’appartenant pas à $H$; soit, par exemple, $x \geqslant x'$; comme $H$ est isolé, on obtient $x' \in H$, d’où contradiction.
 
-Ceci résulte aussi de la prop. 4 du no 3 et du cor. de la prop. 1 du no 1, en tenant compte du fait que tout groupe totalement ordonné est le groupe des ordres d’une valuation (\S 3, no 4, Exemple 6).
+Ceci résulte aussi de la prop. 4 du no 3 et du cor. de la prop. 1 du no 1, en tenant compte du fait que tout groupe totalement ordonné est le groupe des ordres d’une valuation (§ 3, no 4, Exemple 6).
 
 #### Définition 2 {#ac-vi-s4-def-2 .statement}
 
@@ -203,7 +203,7 @@ a) A est l’anneau d’une valuation de hauteur 1 de K ;
 b) A est un anneau de valuation pour K, et n’a d’autres idéaux premiers que (0) et m(A) ;
 c) A est maximal parmi les sous-anneaux de K distincts de K.
 
-La prop. 5 du n° 4 montre que a) implique b), et la prop. 1 du n° 1 montre que b) implique c). Reste à montrer que c) implique a). Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($\S 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $\nu$ de $K$. Ceci étant, $\nu$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
+La prop. 5 du n° 4 montre que a) implique b), et la prop. 1 du n° 1 montre que b) implique c). Reste à montrer que c) implique a). Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($§ 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $\nu$ de $K$. Ceci étant, $\nu$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
 
 #### Proposition 7 {#ac-vi-s4-prop-7 .statement}
 

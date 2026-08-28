@@ -52,12 +52,12 @@ subsections:
       pdf_page: 272
 statements: 79
 exercises: 26
-content_sha256: 2da0f6fe114297e3ac39578a8dccc8fe5a6dfff73a23862c4e5086edc56519c9
+content_sha256: 9c845f08d747a5ee0f4e1efceea7114db7a10061ee182b2649eabee2e93ab7d6
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
 
-Dans tout ce paragraphe, A est un anneau commutatif intègre, de corps des fractions K. A partir du n° 2, on suppose en outre que A est noethérien et intégralement clos (donc un anneau de Krull (§ 1, n° 3, cor. du th. 2)); on note alors respectivement P(A), D(A) et C(A) l’ensemble des idéaux premiers de A de hauteur 1 ($\S 1, n° 6$), le groupe des diviseurs de A ($\S 1, n° 3$), et le groupe des classes de diviseurs de A ($\S 1, n° 10$), ces derniers étant notés additivement.
+Dans tout ce paragraphe, A est un anneau commutatif intègre, de corps des fractions K. A partir du n° 2, on suppose en outre que A est noethérien et intégralement clos (donc un anneau de Krull (§ 1, n° 3, cor. du th. 2)); on note alors respectivement P(A), D(A) et C(A) l’ensemble des idéaux premiers de A de hauteur 1 ($§ 1, n° 6$), le groupe des diviseurs de A ($§ 1, n° 3$), et le groupe des classes de diviseurs de A ($§ 1, n° 10$), ces derniers étant notés additivement.
 
 La méthode générale d’étude des modules de type fini sur un anneau noethérien intégralement clos A consiste à « localiser » les modules pour tous les idéaux premiers $p \in P(A)$ de hauteur 1 dans A; comme $A_p$ est alors un anneau de valuation discrète
 
@@ -204,7 +204,7 @@ a) M est réflexif.
 b) $M = \bigcap_{p \in P} M_p$.
 c) On a Ass(V/M) ⊂ P.
 
-L’équivalence de a) et b) résulte du cor. du th. 1. Si b) est vérifiée, $V/M$ s’identifie canoniquement à un sous-A-module du produit $\prod_{p \in P} (V/M_p)$; mais en fait, il est contenu dans la *somme directe* $\bigoplus_{p \in P} (V/M_p)$: en effet, si $L \subset M$ est un réseau libre et $(e_i)_{1 \leq i \leq n}$ une base de $L$, chacune des coordonnées $x_i$ d’un point $x \in V$ par rapport à $(e_i)$ appartient à $A_p$ sauf pour un nombre fini de valeurs de $p$ (\S 1, n° 6, th. 4), donc $x \in L_p \subset M_p$ sauf pour un nombre fini de valeurs de $p \in P$. La relation $V/M \subset \bigoplus_{p \in P} (V/M_p)$ entraîne alors:
+L’équivalence de a) et b) résulte du cor. du th. 1. Si b) est vérifiée, $V/M$ s’identifie canoniquement à un sous-A-module du produit $\prod_{p \in P} (V/M_p)$; mais en fait, il est contenu dans la *somme directe* $\bigoplus_{p \in P} (V/M_p)$: en effet, si $L \subset M$ est un réseau libre et $(e_i)_{1 \leq i \leq n}$ une base de $L$, chacune des coordonnées $x_i$ d’un point $x \in V$ par rapport à $(e_i)$ appartient à $A_p$ sauf pour un nombre fini de valeurs de $p$ (§ 1, n° 6, th. 4), donc $x \in L_p \subset M_p$ sauf pour un nombre fini de valeurs de $p \in P$. La relation $V/M \subset \bigoplus_{p \in P} (V/M_p)$ entraîne alors:
 
 $$
 \operatorname{Ass}(V/M) \subset \bigcup_{p \in P} \operatorname{Ass}(V/M_p).
@@ -338,7 +338,7 @@ Soient $V$ un espace vectoriel de rang fini sur $K$, $M$ un réseau de $V$ par r
 
 (ii) Réciproquement, supposons donné pour tout $p \in P$ un réseau $N(p)$ de $V$ par rapport à $A_p$ tel que $N(p) = M_p$ pour presque tout $p \in P$. Alors $N = \bigcap_{p \in P} N(p)$ est un réseau réflexif de $V$ par rapport à $A$, et c’est le seul réseau réflexif $N'$ de $V$ par rapport à $A$ tel que $N'_p = N(p)$ pour tout $p \in P$.
 
-(i) La première assertion résulte du n° 1, prop. 4. En outre, il existe $x, y$ dans $K^*$ tels que $xN \subset M \subset yN$ (n° 1, prop. 2); on sait que pour presque tout $p \in P$, on a $v_p(x) = v_p(y) = 0$ (\S 1, n° 6, th. 4), ce qui montre que $x$ et $y$ sont inversibles dans $A_p$, donc $M_p = N_p$.
+(i) La première assertion résulte du n° 1, prop. 4. En outre, il existe $x, y$ dans $K^*$ tels que $xN \subset M \subset yN$ (n° 1, prop. 2); on sait que pour presque tout $p \in P$, on a $v_p(x) = v_p(y) = 0$ (§ 1, n° 6, th. 4), ce qui montre que $x$ et $y$ sont inversibles dans $A_p$, donc $M_p = N_p$.
 
 (ii) Quitte à remplacer $M$ par $x^{-1}M$ avec $x \neq 0$ dans $A$, on peut supposer que l’on a $N(p) \subset M_p$ pour tout $p \in P$. Soient $p_1, \ldots, p_h$ les éléments de $P$ tels que $N(p) = M_p$ pour $p$ distinct des $p_i$ ($1 \leq i \leq h$); posons :
 
@@ -371,7 +371,7 @@ On a donc prouvé que $Q_p = N(p)$ quel que soit $p \in P$. Alors $N = Q^{**} = 
 
 Soit $L$ un réseau libre de $V$ par rapport à $A$. Puisque $A_p$ est un anneau principal pour $p \in P$, $N(p)$ est un $A_p$-module libre de même rang que $L$, et il existe $u(p) \in \mathbf{GL}(V)$ tel que $u(p)(L_p) = N_p$; cette condition détermine d’ailleurs $u(p)$ à la multiplication à droite près par un élément de $\mathbf{GL}(L_p)$. La condition $N(p) = L_p$ pour presque tout $p \in P$ signifie que l’on doit avoir $u(p) \in \mathbf{GL}(L_p)$ pour presque tout $p \in P$. Les familles $(u(p))_{p \in P}$ vérifiant cette dernière propriété forment un groupe multiplicatif $\mathbf{GL}_a(V)$ contenant comme sous-groupe le produit $\prod_{p \in P} \mathbf{GL}(L_p)$.
 
-Le th. 3 montre alors que *l’ensemble des réseaux réflexifs de $V$ est* canoniquement en correspondance biunivoque avec l’espace homogène $\mathrm{GL}_a(V)/\prod_{p \in P} \mathrm{GL}(L_p)$. Si on choisit une base $(e_i)_{1 \leq i \leq n}$ de $L$ sur $A$, $\mathrm{GL}(V)$ (resp. $\mathrm{GL}(L_p)$) s’identifie au groupe de matrices inversibles $\mathrm{GL}(n, K)$ (resp. $\mathrm{GL}(n, A_p)$) et le groupe $\mathrm{GL}_a(V)$ au groupe des systèmes de matrices d’ordre $n$, $(U(p))_{p \in P}$, tels que $U(p) \in \mathrm{GL}(n, K)$ pour tout $p \in P$ et $U(p) \in \mathrm{GL}(n, A_p)$ pour presque tout $p \in P$. Lorsque $A$ est un anneau de Dedekind, le groupe $\mathrm{GL}_a(V)$ s’identifie aussi au groupe $\mathrm{GL}(n, A)$, où $A$ est l’anneau des adèles restreints ($\S 2$, n° 4).
+Le th. 3 montre alors que *l’ensemble des réseaux réflexifs de $V$ est* canoniquement en correspondance biunivoque avec l’espace homogène $\mathrm{GL}_a(V)/\prod_{p \in P} \mathrm{GL}(L_p)$. Si on choisit une base $(e_i)_{1 \leq i \leq n}$ de $L$ sur $A$, $\mathrm{GL}(V)$ (resp. $\mathrm{GL}(L_p)$) s’identifie au groupe de matrices inversibles $\mathrm{GL}(n, K)$ (resp. $\mathrm{GL}(n, A_p)$) et le groupe $\mathrm{GL}_a(V)$ au groupe des systèmes de matrices d’ordre $n$, $(U(p))_{p \in P}$, tels que $U(p) \in \mathrm{GL}(n, K)$ pour tout $p \in P$ et $U(p) \in \mathrm{GL}(n, A_p)$ pour presque tout $p \in P$. Lorsque $A$ est un anneau de Dedekind, le groupe $\mathrm{GL}_a(V)$ s’identifie aussi au groupe $\mathrm{GL}(n, A)$, où $A$ est l’anneau des adèles restreints ($§ 2$, n° 4).
 
 ### 4. *Pseudo-isomorphismes*
 
@@ -381,9 +381,9 @@ Les notations et hypothèses sont celles des n°s 2 et 3.
 
 Soit $M$ un $A$-module de type fini. Les conditions suivantes sont équivalentes:
 a) $M_p = 0$ pour tout idéal premier $p$ de hauteur $\leq 1$.
-b) L’annulateur $a$ de $M$ est un idéal $\neq (0)$, et on a $A : a = A$ ($A : a$ désignant, comme au $\S 1$, n° 1, l’ensemble des $x \in K$ tels que $xa \subset A$).
+b) L’annulateur $a$ de $M$ est un idéal $\neq (0)$, et on a $A : a = A$ ($A : a$ désignant, comme au $§ 1$, n° 1, l’ensemble des $x \in K$ tels que $xa \subset A$).
 
-On sait (chap. II, $\S 2$, n° 2, cor. 2 de la prop. 4) que la condition $M_p = 0$ équivaut à $a \not\subset p$, donc à $aA_p = A_p$ (chap. II, $\S 2$, n° 5, Remarque); d’autre part, pour tout idéal entier $b \neq 0$ de $A$, la relation « $bA_p = A_p$ pour tout $p \in P$ » équivaut à div $b =$ div $A = 0$ dans $D(A)$ ($\S 1$, n° 4, prop. 7), ou encore à div($A : b$) = 0, et comme $A : b$ est divisoriel ($\S 1$, n° 1, prop. 1), cette relation est aussi équivalente à $A : b = A$. La proposition en résulte, en remarquant que dire que $a \not\subset p$ pour $p = (0)$ signifie que $a \neq (0)$.
+On sait (chap. II, $§ 2$, n° 2, cor. 2 de la prop. 4) que la condition $M_p = 0$ équivaut à $a \not\subset p$, donc à $aA_p = A_p$ (chap. II, $§ 2$, n° 5, Remarque); d’autre part, pour tout idéal entier $b \neq 0$ de $A$, la relation « $bA_p = A_p$ pour tout $p \in P$ » équivaut à div $b =$ div $A = 0$ dans $D(A)$ ($§ 1$, n° 4, prop. 7), ou encore à div($A : b$) = 0, et comme $A : b$ est divisoriel ($§ 1$, n° 1, prop. 1), cette relation est aussi équivalente à $A : b = A$. La proposition en résulte, en remarquant que dire que $a \not\subset p$ pour $p = (0)$ signifie que $a \neq (0)$.
 
 #### Remarque 1 {#ac-vii-s4-n4-rem-1 .statement}
 
@@ -401,7 +401,7 @@ Si $A$ est un anneau de Dedekind, tout idéal premier de $A$ est de hauteur $\le
 
 #### Exemple 2 {#ac-vii-s4-n4-exa-2 .statement}
 
-Soient $k$ un corps, $A = k[X, Y]$ l’anneau des polynômes sur $k$ à deux indéterminées ; si $m$ est l’idéal maximal $AX + AY$ de $A$, le $A$-module $A/m$ est pseudo-nul ; en effet, son annulateur $m$ n’est pas de hauteur $\leqslant 1$ puisqu’il contient les idéaux premiers principaux $AX$ et $AY$ et en est distinct ; on a donc $A : m = A$ ($\S 1$, n° 6, cor. 1 du th. 3).
+Soient $k$ un corps, $A = k[X, Y]$ l’anneau des polynômes sur $k$ à deux indéterminées ; si $m$ est l’idéal maximal $AX + AY$ de $A$, le $A$-module $A/m$ est pseudo-nul ; en effet, son annulateur $m$ n’est pas de hauteur $\leqslant 1$ puisqu’il contient les idéaux premiers principaux $AX$ et $AY$ et en est distinct ; on a donc $A : m = A$ ($§ 1$, n° 6, cor. 1 du th. 3).
 
 #### Définition 3 {#ac-vii-s4-def-3 .statement}
 
@@ -429,13 +429,13 @@ Nous démontrerons d’abord deux lemmes.
 
 Soit $(p_i)_{1 \leq i \leq k}$ une famille finie non vide d’idéaux premiers de $A$ de hauteur 1, et soit $S = \bigcap_i (A - p_i)$; alors l’anneau $S^{-1}A$ est principal.
 
-En effet, $S^{-1}A$ est un anneau semi-local dont les idéaux maximaux sont les $m_i = p_i S^{-1}A$ pour $1 \leq i \leq k$, l’anneau local $(S^{-1}A)_{m_i}$ étant isomorphe à $A_{p_i}$ (chap. II, § 3, n° 5, prop. 17), donc un anneau de valuation discrète. L’anneau S^{-1}A est donc un anneau de Dedekind (\S 2, n° 2, th. 1, f)), et comme il est semi-local, il est principal (\S 2, n° 2, prop. 1).
+En effet, $S^{-1}A$ est un anneau semi-local dont les idéaux maximaux sont les $m_i = p_i S^{-1}A$ pour $1 \leq i \leq k$, l’anneau local $(S^{-1}A)_{m_i}$ étant isomorphe à $A_{p_i}$ (chap. II, § 3, n° 5, prop. 17), donc un anneau de valuation discrète. L’anneau S^{-1}A est donc un anneau de Dedekind (§ 2, n° 2, th. 1, f)), et comme il est semi-local, il est principal (§ 2, n° 2, prop. 1).
 
 #### Lemme 3 {#ac-vii-s4-lem-3 .statement}
 
 Il existe un homomorphisme g : E → T dont la restriction à T est à la fois une homothétie et un pseudo-isomorphisme.
 
-Soit a l’annulateur de T ; comme T est un A-module de torsion de type fini, on a a ≠ 0. Soient p_i (1 ≤ i ≤ k) les idéaux premiers de hauteur 1 contenant ·a (qui sont en nombre fini (\S 1, n° 6, th. 4)) ; si ce nombre est 0, T est pseudo-nul (prop. 9, a)), et on peut prendre g = 0. Sinon, soit S = \bigcap_i (A - p_i); en vertu du lemme 2, S^{-1}A est un anneau principal, donc S^{-1}M, qui est un S^{-1}A-module de type fini sans torsion, est libre (Alg., chap. VII, \S 4, n° 3, cor. 2 du th. 2), et comme S^{-1}M = (S^{-1}E)/(S^{-1}T), S^{-1}T est facteur direct de S^{-1}E (Alg., chap. II, 3e éd., \S 1, n° 11, prop. 21). Or, on a Hom_{S^{-1}A}(S^{-1}E, S^{-1}T) = S^{-1}\mathrm{Hom}_A(E, T) (chap. II, \S 2, n° 7, prop. 19); donc il existe s_0 ∈ S et g_0 ∈ Hom_A(E, T) tel que s_0^{-1}g_0 soit un projecteur de S^{-1}E sur S^{-1}T. Si l’on note h_0 ∈ Hom_A(T, T) la restriction de g_0 à T, il existe par suite s_1 ∈ S tel que s_1h_0(x) = s_1s_0x pour tout x ∈ T; posant s = s_1s_0, g = s_1g, h = s_1h_0, h est donc l’homothétie de rapport s dans T et est la restriction de g à T. Reste à vérifier que h est un pseudo-isomorphisme. Or, si p = 0, ou si p ∈ P est distinct des p_i (1 ≤ i ≤ k), on a T_p = 0 (chap. II, \S 4, n° 4, prop. 17), et h_p : T_p → T_p est un isomorphisme; si au contraire p est égal à l’un des p_i (1 ≤ i ≤ k), s est inversible dans A_{p_i}, et h_{p_i}, homothétie de rapport s dans T_{p_i}, est encore un isomorphisme, ce qui achève la démonstration du lemme 3.
+Soit a l’annulateur de T ; comme T est un A-module de torsion de type fini, on a a ≠ 0. Soient p_i (1 ≤ i ≤ k) les idéaux premiers de hauteur 1 contenant ·a (qui sont en nombre fini (§ 1, n° 6, th. 4)) ; si ce nombre est 0, T est pseudo-nul (prop. 9, a)), et on peut prendre g = 0. Sinon, soit S = \bigcap_i (A - p_i); en vertu du lemme 2, S^{-1}A est un anneau principal, donc S^{-1}M, qui est un S^{-1}A-module de type fini sans torsion, est libre (Alg., chap. VII, § 4, n° 3, cor. 2 du th. 2), et comme S^{-1}M = (S^{-1}E)/(S^{-1}T), S^{-1}T est facteur direct de S^{-1}E (Alg., chap. II, 3e éd., § 1, n° 11, prop. 21). Or, on a Hom_{S^{-1}A}(S^{-1}E, S^{-1}T) = S^{-1}\mathrm{Hom}_A(E, T) (chap. II, § 2, n° 7, prop. 19); donc il existe s_0 ∈ S et g_0 ∈ Hom_A(E, T) tel que s_0^{-1}g_0 soit un projecteur de S^{-1}E sur S^{-1}T. Si l’on note h_0 ∈ Hom_A(T, T) la restriction de g_0 à T, il existe par suite s_1 ∈ S tel que s_1h_0(x) = s_1s_0x pour tout x ∈ T; posant s = s_1s_0, g = s_1g, h = s_1h_0, h est donc l’homothétie de rapport s dans T et est la restriction de g à T. Reste à vérifier que h est un pseudo-isomorphisme. Or, si p = 0, ou si p ∈ P est distinct des p_i (1 ≤ i ≤ k), on a T_p = 0 (chap. II, § 4, n° 4, prop. 17), et h_p : T_p → T_p est un isomorphisme; si au contraire p est égal à l’un des p_i (1 ≤ i ≤ k), s est inversible dans A_{p_i}, et h_{p_i}, homothétie de rapport s dans T_{p_i}, est encore un isomorphisme, ce qui achève la démonstration du lemme 3.
 
 Prouvons maintenant le th. 4. Soit g : E → T un homomorphisme vérifiant les propriétés du lemme 3; soit h la restriction de g à T, et soit π la projection canonique de E sur M. Montrons que l’homomorphisme f = (g, π) : E → T × M répond à la question. On a en effet le diagramme commutatif:
 
@@ -471,15 +471,15 @@ C.Q.F.D.
 
 #### Remarque 2 {#ac-vii-s4-n4-rem-2 .statement}
 
-Dans l’énoncé du th. 5, on peut remplacer les modules A/p_i^{n_i} par A/p_i^{(n_i)} (\S 1, n° 4, prop. 8). En effet, pour tout p \in P, l’application canonique g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p) est un pseudo-isomorphisme, car pour q \in P distinct de p, on a A_q/p^nA_q = A_q/p^{(n)}A_q = 0, et A_p/p^nA_p = A_p/p^{(n)}A_p.
+Dans l’énoncé du th. 5, on peut remplacer les modules A/p_i^{n_i} par A/p_i^{(n_i)} (§ 1, n° 4, prop. 8). En effet, pour tout p \in P, l’application canonique g : A/p^n \to A/p^{(n)} = A/(A \cap p^nA_p) est un pseudo-isomorphisme, car pour q \in P distinct de p, on a A_q/p^nA_q = A_q/p^{(n)}A_q = 0, et A_p/p^nA_p = A_p/p^{(n)}A_p.
 
 \* Etant donnée une suite exacte de A-modules, E \to F \to G, si E et G sont pseudo-nuls, il en est de même de F, comme il résulte de la déf. 2 et du chap. II, § 2, n° 4, th. 1. Dans le langage des catégories, on peut donc dire que dans la catégorie C des A-modules, la sous-catégorie C' des modules pseudo-nuls est épaisse, et on peut alors définir la catégorie quotient C/C' : les objets de cette catégorie sont encore les A-modules, mais l’ensemble des morphismes de E dans F (pour E, F dans C/C') est la limite inductive de l’ensemble des groupes commutatifs Hom_A(E', F'), où E' (resp. F') parcourt l’ensemble des sous-modules de E (resp. l’ensemble des modules quotients F/F'' de F) tels que E/E' (resp. F'') soit pseudo-nul. On a bien entendu, pour tout couple de A-modules E, F, un homomorphisme canonique Hom_C(E, F) \to Hom_{C/C'}(E, F). Dire qu’un homomorphisme u \in Hom_A(E, F) est pseudo-nul (resp. pseudo-injectif, pseudo-surjectif, pseudo-bijectif) signifie que son image canonique dans Hom_{C/C'}(E, F) est nulle (resp. un monomorphisme, un épimorphisme, un isomorphisme).
 
 ### 5. Diviseurs attachés aux modules de torsion
 
-Les notations et hypothèses sont celles des n°s 2, 3 et 4. Rappelons que D(A) (ou simplement D) désigne le groupe des diviseurs de A, noté additivement : on sait (\S 1, n° 3, th. 2) que D est le \mathbf{Z}-module libre engendré par les éléments de P.
+Les notations et hypothèses sont celles des n°s 2, 3 et 4. Rappelons que D(A) (ou simplement D) désigne le groupe des diviseurs de A, noté additivement : on sait (§ 1, n° 3, th. 2) que D est le \mathbf{Z}-module libre engendré par les éléments de P.
 
-Soit T un A-module de torsion de type fini. Pour tout $p \in P$, $T_p$ est un $A_p$-module de torsion de type fini, donc un module de longueur finie (chap. IV, § 2, n° 5, cor. 2 de la prop. 7); nous noterons $l_p(T)$ cette longueur. On a $T_p = 0$ pour tout $p$ ne contenant pas l’annulateur de T, donc pour presque tout $p$ ($\S 1$, n° 6, th. 4), ce qui justifie la définition suivante:
+Soit T un A-module de torsion de type fini. Pour tout $p \in P$, $T_p$ est un $A_p$-module de torsion de type fini, donc un module de longueur finie (chap. IV, § 2, n° 5, cor. 2 de la prop. 7); nous noterons $l_p(T)$ cette longueur. On a $T_p = 0$ pour tout $p$ ne contenant pas l’annulateur de T, donc pour presque tout $p$ ($§ 1$, n° 6, th. 4), ce qui justifie la définition suivante:
 
 #### Définition 4 {#ac-vii-s4-def-4 .statement}
 
@@ -753,7 +753,7 @@ où $h_x$ est la multiplication par $x$, il vient $\varphi(A/xA) = 0$, d’où �
 
 Dans ce n°, A et B désignent deux anneaux noethériens intégralement clos tels que $A \subset B$ et que B soit un A-module de type fini, K et L les corps des fractions de A et B respectivement. On écrira div_A, $\chi_A$, c_A, $\gamma_A$, r_A au lieu de div, $\chi$, c, $\gamma$, r respectivement lorsqu’il s’agira de A-modules, et on utilisera des notations analogues pour les B-modules.
 
-On sait (\S 1, n° 10) que pour qu’un idéal premier $\mathfrak{P}$ de B soit de hauteur 1, il faut et il suffit que $p = \mathfrak{P} \cap A$ soit de hauteur 1; en outre (loc. cit., prop 14) pour $p \in P(A)$, il n’y a qu’un nombre fini d’idéaux premiers $\mathfrak{P} \in P(B)$ au-dessus de p. Pour abréger, nous noterons $\mathfrak{P}|p$ la relation « $\mathfrak{P}$ est au-dessus de $p$ » (c’est-à-dire $p = \mathfrak{P} \cap A$); nous noterons alors $e_{\mathfrak{P}/p}$ ou $e(\mathfrak{P}/p)$ l’indice de ramification $e(v_{\mathfrak{P}}/v_p)$ de la valuation $v_{\mathfrak{P}}$ par rapport à la valuation $v_p$ (chap. VI, § 8, n° 1) et $f_{\mathfrak{P}/p}$ ou $f(\mathfrak{P}/p)$ le degré résiduel $f(v_{\mathfrak{P}}/v_p)$ (loc. cit.); rappelons que les valuations discrètes $v_p$ et $v_{\mathfrak{P}}$ sont normées, et que $f_{\mathfrak{P}/p}$ est le degré du corps des fractions de $B/\mathfrak{P}$ sur le corps des fractions de $A/p$. Posons $n = r_A(B)$, où B est considéré comme A-module; on a donc par définition $n = [L : K]$, et, pour tout $p \in P(A)$, n est aussi le rang du $A_p$-module libre $B_{\mathfrak{P}}$ pour tout $\mathfrak{P}|p$. Il résulte donc du chap. VI,
+On sait (§ 1, n° 10) que pour qu’un idéal premier $\mathfrak{P}$ de B soit de hauteur 1, il faut et il suffit que $p = \mathfrak{P} \cap A$ soit de hauteur 1; en outre (loc. cit., prop 14) pour $p \in P(A)$, il n’y a qu’un nombre fini d’idéaux premiers $\mathfrak{P} \in P(B)$ au-dessus de p. Pour abréger, nous noterons $\mathfrak{P}|p$ la relation « $\mathfrak{P}$ est au-dessus de $p$ » (c’est-à-dire $p = \mathfrak{P} \cap A$); nous noterons alors $e_{\mathfrak{P}/p}$ ou $e(\mathfrak{P}/p)$ l’indice de ramification $e(v_{\mathfrak{P}}/v_p)$ de la valuation $v_{\mathfrak{P}}$ par rapport à la valuation $v_p$ (chap. VI, § 8, n° 1) et $f_{\mathfrak{P}/p}$ ou $f(\mathfrak{P}/p)$ le degré résiduel $f(v_{\mathfrak{P}}/v_p)$ (loc. cit.); rappelons que les valuations discrètes $v_p$ et $v_{\mathfrak{P}}$ sont normées, et que $f_{\mathfrak{P}/p}$ est le degré du corps des fractions de $B/\mathfrak{P}$ sur le corps des fractions de $A/p$. Posons $n = r_A(B)$, où B est considéré comme A-module; on a donc par définition $n = [L : K]$, et, pour tout $p \in P(A)$, n est aussi le rang du $A_p$-module libre $B_{\mathfrak{P}}$ pour tout $\mathfrak{P}|p$. Il résulte donc du chap. VI,
 
 (9)
 $$
@@ -767,7 +767,7 @@ $$
 N(\mathfrak{P}) = f_{\mathfrak{P}/p} \cdot p \quad \text{pour } \mathfrak{P} \in P(B), \text{ avec } p = \mathfrak{P} \cap A.
 $$
 
-On a d’autre part ($\S 1,$ n° 10, prop. 14) défini un homomorphisme croissant de groupes ordonnés $i : D(A) \to D(B)$ (aussi noté $i_{B/A}$), par la condition:
+On a d’autre part ($§ 1,$ n° 10, prop. 14) défini un homomorphisme croissant de groupes ordonnés $i : D(A) \to D(B)$ (aussi noté $i_{B/A}$), par la condition:
 
 (11)
 $$
@@ -792,7 +792,7 @@ $$
 N \circ i = n \cdot 1_{D(A)}.
 $$
 
-Pour tout $a \in A$, on a ($\S 1,$ n° 10, prop. 14):
+Pour tout $a \in A$, on a ($§ 1,$ n° 10, prop. 14):
 
 (15)
 $$
@@ -806,7 +806,7 @@ $$
 i(\operatorname{div}_A(a)) = \operatorname{div}_B(aB).
 $$
 
-Pour tout élément $b \in B$, on sait (chap. V, $\S 1,$ n° 3, cor. de la prop. 11) que $N_{L/K}(b) \in A$; en outre (chap. VI, $\S 8,$ n° 5, formule (9)) on a:
+Pour tout élément $b \in B$, on sait (chap. V, $§ 1,$ n° 3, cor. de la prop. 11) que $N_{L/K}(b) \in A$; en outre (chap. VI, $§ 8,$ n° 5, formule (9)) on a:
 
 (17)
 $$
@@ -824,9 +824,9 @@ $$
 N : C(B) \to C(A), \qquad i : C(A) \to C(B).
 $$
 
-On notera que l’homomorphisme $i : C(A) \to C(B)$ n’est pas injectif en général ($\S 3$, exerc. 7).
+On notera que l’homomorphisme $i : C(A) \to C(B)$ n’est pas injectif en général ($§ 3$, exerc. 7).
 
-Rappelons que pour tout B-module R, on note $R_{[A]}$ le A-module obtenu à partir de R par restriction des scalaires à A (*Alg.*, chap. II, 3\textsuperscript{e} éd., $\S 1$, no 13).
+Rappelons que pour tout B-module R, on note $R_{[A]}$ le A-module obtenu à partir de R par restriction des scalaires à A (*Alg.*, chap. II, 3\textsuperscript{e} éd., $§ 1$, no 13).
 
 #### Proposition 18 {#ac-vii-s4-prop-18 .statement}
 
@@ -847,9 +847,9 @@ $$
 r_A(R_{[A]}) = n \cdot r_B(R) \quad \text{(on rappelle que } n = r_A(B)).
 $$
 
-Comme B est un A-module de type fini, pour que R soit un B-module de type fini, il faut et il suffit que $R_{[A]}$ soit un A-module de type fini. En outre, si b est l’annulateur de R, $b \cap A = a$ est l’annulateur de $R_{[A]}$; comme B est entier sur A, il n’y a pas d’autre idéal que 0 au-dessus de l’idéal 0 de A (chap. V, $\S 2$, no 1, cor. 1 de la prop. 1), donc il revient au même de dire que $a \neq 0$ ou que $b \neq 0$.
+Comme B est un A-module de type fini, pour que R soit un B-module de type fini, il faut et il suffit que $R_{[A]}$ soit un A-module de type fini. En outre, si b est l’annulateur de R, $b \cap A = a$ est l’annulateur de $R_{[A]}$; comme B est entier sur A, il n’y a pas d’autre idéal que 0 au-dessus de l’idéal 0 de A (chap. V, $§ 2$, no 1, cor. 1 de la prop. 1), donc il revient au même de dire que $a \neq 0$ ou que $b \neq 0$.
 
-(i) En vertu de cette dernière remarque, on peut se borner au cas où R est un B-module de torsion. Si b est contenu dans un idéal premier $\mathfrak{P} \in P(B)$, a est contenu dans $\mathfrak{P} \cap A = p$, qui est de hauteur 1. Inversement, si a est contenu dans un idéal premier $p \in P(A)$, il existe un idéal premier $\mathfrak{P}$ de B qui contient b et est au-dessus de p (chap. V, $\S 2$, no 1, cor. 2 du th. 1). L’assertion (i) résulte de ces remarques et du no 4, déf. 2.
+(i) En vertu de cette dernière remarque, on peut se borner au cas où R est un B-module de torsion. Si b est contenu dans un idéal premier $\mathfrak{P} \in P(B)$, a est contenu dans $\mathfrak{P} \cap A = p$, qui est de hauteur 1. Inversement, si a est contenu dans un idéal premier $p \in P(A)$, il existe un idéal premier $\mathfrak{P}$ de B qui contient b et est au-dessus de p (chap. V, $§ 2$, no 1, cor. 2 du th. 1). L’assertion (i) résulte de ces remarques et du no 4, déf. 2.
 
 (ii) Pour tout B-module de torsion de type fini R, posons $\varphi(R) = \chi_A(R_{[A]})$; il est clair que (pour les B-modules de torsion de type fini) $\varphi$ vérifie les conditions 1) et 2) de la prop. 11 du no 5 (compte tenu de (i)). Il existe par suite un homomorphisme $\theta : D(B) \to D(A)$ tel que $\varphi(R) = \theta(\chi_B(R))$ pour tout B-module de torsion R de type fini. L’homomorphisme $\theta$ est déterminé par sa valeur pour tout B-module de la forme $B/\mathfrak{P}$ où $\mathfrak{P} \in P(B)$, puisque $\chi_B(B/\mathfrak{P}) = \mathfrak{P}$. Or, pour tout idéal premier $q \neq p = \mathfrak{P} \cap A$ dans $P(A)$, on a $p \not\subset q$, donc $(B/\mathfrak{P})_q = 0$. D’autre part, si on pose
 
@@ -1025,7 +1025,7 @@ Si $M$ est réflexif, il n’en est pas nécessairement de même de $M/L$ (exerc
 
 ### 10. Modules sur les anneaux de Dedekind
 
-On suppose maintenant que $A$ soit un *anneau de Dedekind*; on sait alors que les idéaux $p \in P$ sont *maximaux* et que ce sont les seuls idéaux premiers $\neq 0$ de $A$ (\S 2, no 1); le groupe $D(A)$ s’identifie au groupe $I(A)$ des idéaux fractionnaires $\neq 0$ de $A$.
+On suppose maintenant que $A$ soit un *anneau de Dedekind*; on sait alors que les idéaux $p \in P$ sont *maximaux* et que ce sont les seuls idéaux premiers $\neq 0$ de $A$ (§ 2, no 1); le groupe $D(A)$ s’identifie au groupe $I(A)$ des idéaux fractionnaires $\neq 0$ de $A$.
 
 #### Proposition 21 {#ac-vii-s4-prop-21 .statement}
 

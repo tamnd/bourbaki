@@ -40,7 +40,7 @@ subsections:
       pdf_page: 180
 statements: 41
 exercises: 13
-content_sha256: 5dd629b2c0c53e1204f77740b8e77616da63f208c189155d785a0eb2587714b0
+content_sha256: 2b8808d3226f4d6fde10f5454f4c1903bd1465520628d0009d243f9d6697ddb2
 ---
 
 ## § 4. Passage des algèbres de Lie aux groupes de Lie
@@ -179,13 +179,13 @@ Soient G un groupuscule de Lie, H et H' deux sous-groupuscules de Lie. Pour que 
 
 Si H ∩ H' est ouvert dans H', on a L(H') = L(H ∩ H') ⊂ L(H). Supposons L(H) ⊃ L(H'). Soient i, i' les injections canoniques de H, H' dans G. En diminuant au besoin H', on peut supposer qu’il existe un morphisme ψ de H' dans H tel que L(ψ) soit l’injection canonique de L(H') dans L(H) (n° 1, th. 1).
 
-Alors $L(i \circ \psi) = L(i')$, donc il existe un voisinage $V$ de $e_{H'}$ dans $H'$ tel que $i \circ \psi$ et $i'$ coïncident dans $V$ (th. 1). Par suite, $V \subset H$, donc $V \subset H \cap H'$, et $H \cap H'$ est ouvert dans $H'$ (\S 1, no 10).
+Alors $L(i \circ \psi) = L(i')$, donc il existe un voisinage $V$ de $e_{H'}$ dans $H'$ tel que $i \circ \psi$ et $i'$ coïncident dans $V$ (th. 1). Par suite, $V \subset H$, donc $V \subset H \cap H'$, et $H \cap H'$ est ouvert dans $H'$ (§ 1, no 10).
 
 #### Proposition 2 {#lie-iii-s4-prop-2 .statement}
 
 *Soient G un groupe de Lie sur K, k un sous-corps fermé non discret de K, H un sous-groupe de Lie du k-groupe de Lie G. On suppose que L(H) est un sous-K-espace vectoriel de L(G) admettant un supplémentaire topologique. Alors H est un sous-groupe de Lie du K-groupe de Lie G.*
 
-Il existe un sous-groupuscule de Lie $H'$ du K-groupe de Lie G tel que $L(H') = L(H)$ (th. 3). Considérons G, H, H' comme des k-groupuscules de Lie ; le th. 3 prouve alors que $H \cap H'$ est ouvert dans H et $H'$. Donc il existe un voisinage ouvert U de $e$ dans G tel que $U \cap H$ soit une sous-variété de G sur K. Par suite, H est un sous-groupe de Lie du K-groupe de Lie G (\S 1, no 3, prop. 6).
+Il existe un sous-groupuscule de Lie $H'$ du K-groupe de Lie G tel que $L(H') = L(H)$ (th. 3). Considérons G, H, H' comme des k-groupuscules de Lie ; le th. 3 prouve alors que $H \cap H'$ est ouvert dans H et $H'$. Donc il existe un voisinage ouvert U de $e$ dans G tel que $U \cap H$ soit une sous-variété de G sur K. Par suite, H est un sous-groupe de Lie du K-groupe de Lie G (§ 1, no 3, prop. 6).
 
 ### 3. Applications exponentielles
 
@@ -425,7 +425,7 @@ D’après VAR, R, 7.7.1, θ et θ' sont des morphismes du fibré vectoriel F �
 
 #### Lemme 6 {#lie-iii-s4-lem-6 .statement}
 
-Soient G un groupuscule de Lie, ω la forme différentielle gauche canonique de G (\S 3, n° 18.9), M une variété de classe C^r (r ≥ 2), α une forme différentielle de classe C^{r-1} et de degré 1 sur M, à valeurs dans L(G).
+Soient G un groupuscule de Lie, ω la forme différentielle gauche canonique de G (§ 3, n° 18.9), M une variété de classe C^r (r ≥ 2), α une forme différentielle de classe C^{r-1} et de degré 1 sur M, à valeurs dans L(G).
 
 (i) Les éléments de $T(M \times G)$ en lesquels s’annule la forme différentielle
 $$
@@ -512,7 +512,7 @@ et
 
 $$
 \begin{align*}
-(\alpha)^2 &= \sum_{k=1}^n [\omega_k e_k]^2 + \sum_{i < j} (\omega_i e_i) \wedge (\omega_j e_j) \quad (\S 3, \text{formule (30)}) \\
+(\alpha)^2 &= \sum_{k=1}^n [\omega_k e_k]^2 + \sum_{i < j} (\omega_i e_i) \wedge (\omega_j e_j) \quad (§ 3, \text{formule (30)}) \\
 &= \sum_{i < j} (\omega_i \wedge \omega_j)[e_i, e_j] \\
 &= - \sum_{k=1}^n \sum_{i < j} (c_{ijk} \omega_i \wedge \omega_j) e_k \\
 &= - d\alpha.
@@ -573,7 +573,7 @@ Soit $S_{(g, x)}$ l’ensemble des $Q_a(g, x)$ pour $a \in L(G)$. D’après le 
 $$
 \begin{align*}
 [Q_a, Q_b](g, x) &= ([R_a, R_b](g), [D_a, D_b](x)) \\
-&= (-R_{[a, b]}(g), -D_{[a, b]}(x)) \tag{\S 3, 18.6} \\
+&= (-R_{[a, b]}(g), -D_{[a, b]}(x)) \tag{§ 3, 18.6} \\
 &= Q_{-[a, b]}(g, x)
 \end{align*}
 $$

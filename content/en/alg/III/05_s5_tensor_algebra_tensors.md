@@ -37,7 +37,7 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: 5e694bf63163c343522e25ec2e20029f6421afbfdb882680198af253edaeb7bc
+content_sha256: b01af1209083500779bdaaa884eccbc676d09c23fa0febe97dcb3f92583136bd
 ---
 
 ## § 5. TENSOR ALGEBRA, TENSORS
@@ -48,7 +48,7 @@ Let A be a commutative ring and M an A-module. For every integer $n \geqslant 0$
 $$
 m_{pq} : T^p(M) \otimes_A T^q(M) \to T^{p+q}(M)
 $$
-($\S 3$, no. 1, *Remark*). For $p > 0$ and $q > 0$, $m_{pq}$ is the associativity isomorphism (II, $\S 3$, no. 9) and, when $p = 0$ (resp. $q = 0$), $m_{0,q}$ is the canonical isomorphism of $A \otimes_A T^q(M)$ onto $T^q(M)$ (resp. $m_{p,0}$ is the canonical isomorphism of $T^p(M) \otimes_A A$ onto $T^p(M)$ (II, $\S 3$, no. 4, Proposition 4)). Then, for $x_i \in M$, $\alpha \in A$,
+($§ 3$, no. 1, *Remark*). For $p > 0$ and $q > 0$, $m_{pq}$ is the associativity isomorphism (II, $§ 3$, no. 9) and, when $p = 0$ (resp. $q = 0$), $m_{0,q}$ is the canonical isomorphism of $A \otimes_A T^q(M)$ onto $T^q(M)$ (resp. $m_{p,0}$ is the canonical isomorphism of $T^p(M) \otimes_A A$ onto $T^p(M)$ (II, $§ 3$, no. 4, Proposition 4)). Then, for $x_i \in M$, $\alpha \in A$,
 $$
 \begin{align}
 (x_1 \otimes \cdots \otimes x_p) \cdot (x_{p+1} \otimes \cdots \otimes x_{p+q}) &= x_1 \otimes \cdots \otimes x_p \otimes x_{p+1} \otimes \cdots \otimes x_{p+q} \\
@@ -75,7 +75,7 @@ of $M^n$ into $E$ is $A$-multilinear; hence there corresponds to it an $A$-linea
 $$
 g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n).
 $$
-Also we define the mapping $g_0 : T^0(M) \to E$ as equal to $\eta_E$ ($\S 1$, no. 3), in other words $g_0(\alpha) = \alpha e$ for $\alpha \in A$. Let $g$ be the unique $A$-linear mapping of $T(M)$ into $E$ whose restriction to $T^n(M)$ is $g_n$ ($n \geq 0$); it is immediate that $g \circ \phi = g_1 = f$ and it remains to verify that $g$ is an $A$-algebra homomorphism. By construction $g(1) = e$ and it suffices by linearity to show that $g(uv) = g(u)g(v)$ for $u \in T^p(M)$ and $v \in T^q(M)$ ($p > 0, q > 0$); now it follows from formulae (1) and (2) that this relation is true when $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ and $v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$ (where the $x_i$ belong to $E$). It is therefore true for $u \in T^p(M)$ and $v \in T^q(M)$ by linearity.
+Also we define the mapping $g_0 : T^0(M) \to E$ as equal to $\eta_E$ ($§ 1$, no. 3), in other words $g_0(\alpha) = \alpha e$ for $\alpha \in A$. Let $g$ be the unique $A$-linear mapping of $T(M)$ into $E$ whose restriction to $T^n(M)$ is $g_n$ ($n \geq 0$); it is immediate that $g \circ \phi = g_1 = f$ and it remains to verify that $g$ is an $A$-algebra homomorphism. By construction $g(1) = e$ and it suffices by linearity to show that $g(uv) = g(u)g(v)$ for $u \in T^p(M)$ and $v \in T^q(M)$ ($p > 0, q > 0$); now it follows from formulae (1) and (2) that this relation is true when $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ and $v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$ (where the $x_i$ belong to $E$). It is therefore true for $u \in T^p(M)$ and $v \in T^q(M)$ by linearity.
 
 #### Remark {#alg-iii-s5-n1-rem-1 .statement}
 
@@ -375,7 +375,7 @@ $$
 
 where $st$ denotes the sequence of elements of $L$ obtained by *juxtaposing* the sequences $s$ and $t$ (I, § 7, no. 2).
 
-It is seen that the basis $(e_s)$ of $T(M)$, with the multiplicative law (10), is canonically isomorphic to the *free monoid* of the set $L$ (I, § 7, no. 2), the isomorphism being obtained by mapping each word $s$ of this monoid to the element $e_s$. It follows (\S 2, no. 7) that *the tensor algebra $T(M)$ of a free module $M$, with a basis of indexing set $L$, is canonically isomorphic to the free associative algebra of $L$ over $A$*. In particular (\S 2, no. 7, Proposition 7), for every mapping $f : L \to E$ from $L$ to an $A$-algebra $E$, there exists one and only one $A$-algebra homomorphism $\bar{f} : T(M) \to E$ such that $\bar{f}(e_\lambda) = f(\lambda)$.
+It is seen that the basis $(e_s)$ of $T(M)$, with the multiplicative law (10), is canonically isomorphic to the *free monoid* of the set $L$ (I, § 7, no. 2), the isomorphism being obtained by mapping each word $s$ of this monoid to the element $e_s$. It follows (§ 2, no. 7) that *the tensor algebra $T(M)$ of a free module $M$, with a basis of indexing set $L$, is canonically isomorphic to the free associative algebra of $L$ over $A$*. In particular (§ 2, no. 7, Proposition 7), for every mapping $f : L \to E$ from $L$ to an $A$-algebra $E$, there exists one and only one $A$-algebra homomorphism $\bar{f} : T(M) \to E$ such that $\bar{f}(e_\lambda) = f(\lambda)$.
 
 #### Remark {#alg-iii-s5-n5-rem-1 .statement}
 
@@ -529,7 +529,7 @@ Hence, by means of $\chi_M$, $T_{\{1, 2\}}^{(3)}(M)$ (isomorphic to $T_2^1(M)$) 
 $$
 \sum_{\nu \in L} \zeta_{\lambda \mu \nu} e_\nu
 $$
-and therefore the $\zeta_{\lambda \mu \nu}$ are just the *constants of structure* of the (in general non-associative) algebra defined on M by the bilinear mapping $\chi_M(z)$, with respect to the basis $(e_\lambda)$ (\S 1, no. 7).
+and therefore the $\zeta_{\lambda \mu \nu}$ are just the *constants of structure* of the (in general non-associative) algebra defined on M by the bilinear mapping $\chi_M(z)$, with respect to the basis $(e_\lambda)$ (§ 1, no. 7).
 
 #### Remark 2 {#alg-iii-s5-n6-rem-2 .statement}
 

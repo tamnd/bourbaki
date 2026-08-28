@@ -24,7 +24,7 @@ subsections:
       pdf_page: 33
 statements: 10
 exercises: 4
-content_sha256: 8e67284651045a700a67dbcb545887f81a8fbe0cbd98b7244242686345694ce3
+content_sha256: d6c2a564c559d519032904eead59c46cead0d98512d7563ff451634779824a5c
 ---
 
 ## § 3. Algèbre enveloppante de l’algèbre de Lie libre
@@ -209,14 +209,14 @@ c(r) = \frac{1}{r} \sum_{d|r} \mu(d) n^{r/d},
 $$
 
 *où $\mu$ est la fonction de Möbius.*
-    *b)* *Pour tout $\alpha \in \mathbf{N}^X - \{0\}$, le K-module L^\alpha(X) (\S 2, n° 6) est libre de rang*
+    *b)* *Pour tout $\alpha \in \mathbf{N}^X - \{0\}$, le K-module L^\alpha(X) (§ 2, n° 6) est libre de rang*
 
 $$(16)$$
 $$
 c(\alpha) = \frac{1}{|\alpha|} \sum_{d|\alpha} \mu(d) \frac{(|\alpha|/d)!}{(\alpha/d)!}.
 $$
 
-Nous savons déjà que les modules L^r(X) pour $r \in \mathbf{N}$, et L^\alpha(X) pour $\alpha \in \mathbf{N}^X$, sont libres (\S 2, n° 11, cor. du th. 1). Considérons la multigraduation $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ de A(X) définie par l’homomorphisme canonique $\varphi$ de Mo(X) dans $\mathbf{N}^X$ (A, III, p. 31, *Exemple 3*) ; on a $A^\alpha(X) \cap L(X) = L^\alpha(X)$ d’après la *Remarque 3* du n° 1. Pour $\alpha \in \mathbf{N}^X$, le K-module A^\alpha(X) admet pour base l’ensemble des mots dans lesquels chaque lettre x de X apparaît $\alpha(x)$ fois. Soit $d(\alpha)$ le nombre de ces mots, c’est-à-dire le rang de $A^\alpha(X)$; nous allons calculer de deux manières différentes la série formelle $P((T_x)_{x \in X}) \in \mathbf{Z}[[(T_x)_{x \in X}]]$ définie par
+Nous savons déjà que les modules L^r(X) pour $r \in \mathbf{N}$, et L^\alpha(X) pour $\alpha \in \mathbf{N}^X$, sont libres (§ 2, n° 11, cor. du th. 1). Considérons la multigraduation $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ de A(X) définie par l’homomorphisme canonique $\varphi$ de Mo(X) dans $\mathbf{N}^X$ (A, III, p. 31, *Exemple 3*) ; on a $A^\alpha(X) \cap L(X) = L^\alpha(X)$ d’après la *Remarque 3* du n° 1. Pour $\alpha \in \mathbf{N}^X$, le K-module A^\alpha(X) admet pour base l’ensemble des mots dans lesquels chaque lettre x de X apparaît $\alpha(x)$ fois. Soit $d(\alpha)$ le nombre de ces mots, c’est-à-dire le rang de $A^\alpha(X)$; nous allons calculer de deux manières différentes la série formelle $P((T_x)_{x \in X}) \in \mathbf{Z}[[(T_x)_{x \in X}]]$ définie par
 
 $$
 P(T) = \sum_{\alpha \in \mathbf{N}^X} d(\alpha) T^\alpha.

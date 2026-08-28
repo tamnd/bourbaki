@@ -32,7 +32,7 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 3
-content_sha256: bacac94e6ac5a533dd38b39cb1c88f3d3b2715bd7069f41f11b91d4c5eaa2aeb
+content_sha256: 0784af06abccc4ac51e2a4bf54599a3d414a0162e422d6ea3345f1958570374c
 ---
 
 ## § 6. THE HAUSDORFF SERIES
@@ -119,7 +119,7 @@ We deduce from the relations $e(l(X)) = l(e(X)) = X$ that the mapping $a \mapsto
 
 ### 2. HAUSDORFF GROUP
 
-Let X be a set. We use the notation of § 5, nos. 1 and 2. The free Lie algebra L(X) is identified with its canonical image in A(X) (\S 3, no. 1, Theorem 1). We denote by $\hat{L}(X)$ the closure of L(X) in $\hat{A}(X)$, that is the set of elements of $\hat{A}(X)$ of the form $a = \sum_{n \geq 1} a_n$ such that $a_n \in L^n(X)$ for all $n \geq 0$; this is filtered Lie subalgebra of $\hat{A}(X)$.
+Let X be a set. We use the notation of § 5, nos. 1 and 2. The free Lie algebra L(X) is identified with its canonical image in A(X) (§ 3, no. 1, Theorem 1). We denote by $\hat{L}(X)$ the closure of L(X) in $\hat{A}(X)$, that is the set of elements of $\hat{A}(X)$ of the form $a = \sum_{n \geq 1} a_n$ such that $a_n \in L^n(X)$ for all $n \geq 0$; this is filtered Lie subalgebra of $\hat{A}(X)$.
 
 #### Theorem 1 {#lie-ii-s6-thm-1 .statement}
 
@@ -193,7 +193,7 @@ For every integer $m \geq 1$ we denote by $\hat{\mathbf{L}}_m$ the set of elemen
 
 *Let $\mathfrak{g}$ be a filtered Lie algebra (§ 4, no. 1), $(\mathfrak{g}_\alpha)_{\alpha \in \mathbf{R}}$ its filtration and let $\alpha \in \mathbf{R}$. Let P be a homogeneous Lie polynomial of degree n in the indeterminates $(\Gamma_i)_{i \in I}$ (§ 2, no. 4). Then $P((a_i)) \in \mathfrak{g}_{n\alpha}$ for every family $(a_i)_{i \in I}$ of elements of $\mathfrak{g}_\alpha$*.
 
-Every Lie polynomial of degree $n \geqslant 2$ is a finite sum of terms of the form $[Q, R]$ where $Q$ and $R$ are of degree $< n$ and the sum their degrees is equal to $n$ (\S 2, no. 7, Proposition 7). The lemma follows by induction on $n$.
+Every Lie polynomial of degree $n \geqslant 2$ is a finite sum of terms of the form $[Q, R]$ where $Q$ and $R$ are of degree $< n$ and the sum their degrees is equal to $n$ (§ 2, no. 7, Proposition 7). The lemma follows by induction on $n$.
 
 A *Lie formal power series*† (with coefficients in $K$) *in the indeterminates* $(T_i)_{i \in I}$ is any element of the Lie algebra $\hat{L}((T_i)_{i \in I}) = \hat{L}(I)$. Such an element $u$ can be written uniquely as the sum of a summable family $(u_\nu)_{\nu \in \mathbf{N}^{(I)}}$ where $u_\nu \in L^\nu(I)$.
 
@@ -201,7 +201,7 @@ Suppose that $I$ is *finite*. Let $g$ be a complete Hausdorff filtered Lie algeb
 
 #### Proposition 2 {#lie-ii-s6-prop-2 .statement}
 
-*The homomorphism* $f_t : L(I) \to g$ *such that* $f_t(T_i) = t_i$ (\S 2, no. 4) *can be extended by continuity to one and only one continuous homomorphism* $\hat{f}_t$ *of* $\hat{L}(I)$ *into* $g$.
+*The homomorphism* $f_t : L(I) \to g$ *such that* $f_t(T_i) = t_i$ (§ 2, no. 4) *can be extended by continuity to one and only one continuous homomorphism* $\hat{f}_t$ *of* $\hat{L}(I)$ *into* $g$.
 
 There exists $\alpha > 0$ such that $t_i \in g_\alpha$ for all $i \in I$; hence $f_t(L^\nu(I)) \subset g_{|\nu| \wedge \alpha}$ for all $\nu$ (Lemma 1), which implies the continuity of $\hat{f}_t$.
 
@@ -270,7 +270,7 @@ H_{r,s} = \sum_{m \geq 1} \frac{(-1)^{m-1}}{m}
 \prod_{i=1}^m \frac{U^{r_i} V^{s_i}}{r_i! s_i!}.
 $$
 
-The linear mapping $P_n$, defined by $P_n(x_1, \ldots, x_n) = \frac{1}{n} \left( \prod_{i=1}^{n-1} (\mathrm{ad}\, x_i) \right)(x_n)$ for $n \geq 1$ and $x_1, \ldots, x_n$ in $\{U, V\}$, is a projector of $A^n_\mathbf{Q}(\{U, V\})$ onto $L^n_\mathbf{Q}(\{U, V\})$ (\S 3, no. 2, Corollary to Proposition 1); as $H_{r,s}$ belongs to $L^{r+s}_\mathbf{Q}(\{U, V\})$, $H_{r,s} = P_{r+s}(H_{r,s})$. Now
+The linear mapping $P_n$, defined by $P_n(x_1, \ldots, x_n) = \frac{1}{n} \left( \prod_{i=1}^{n-1} (\mathrm{ad}\, x_i) \right)(x_n)$ for $n \geq 1$ and $x_1, \ldots, x_n$ in $\{U, V\}$, is a projector of $A^n_\mathbf{Q}(\{U, V\})$ onto $L^n_\mathbf{Q}(\{U, V\})$ (§ 3, no. 2, Corollary to Proposition 1); as $H_{r,s}$ belongs to $L^{r+s}_\mathbf{Q}(\{U, V\})$, $H_{r,s} = P_{r+s}(H_{r,s})$. Now
 
 $$
 P_{r+s} \left( \prod_{i=1}^m \frac{U^{r_i} V^{s_i}}{r_i! s_i!} \right)
@@ -287,7 +287,7 @@ when $r_m \geqslant 1$ and $s_m = 0$. Moreover, obviously $(\mathrm{ad}\ t)^{p-1
 
 #### Remark {#lie-ii-s6-n4-rem-1 .statement}
 
-(1) We have defined (\S 3, no. 2, Remark) a projector $Q$ of $A(X)$ onto $L(X)$ such that $Q(a^m) = 0$ for $a \in L(X)$ and $m \geqslant 2$ and $Q(1) = 0$. Then $H = Q(\exp H) = Q(\exp U.\exp V)$, whence immediately
+(1) We have defined (§ 3, no. 2, Remark) a projector $Q$ of $A(X)$ onto $L(X)$ such that $Q(a^m) = 0$ for $a \in L(X)$ and $m \geqslant 2$ and $Q(1) = 0$. Then $H = Q(\exp H) = Q(\exp U.\exp V)$, whence immediately
 
 $$
 (14)\quad H_{r,s} = Q \left( \frac{U^r V^s}{r! s!} \right) \quad \text{for } r + s \geqslant 1.
@@ -315,7 +315,7 @@ $$
 
 ### 5. SUBSTITUTIONS IN THE HAUSDORFF SERIES
 
-As $K$ is a field containing $\mathbf{Q}$, the Hausdorff series can be considered as a Lie formal power series with coefficients in $K$. Therefore, if $g$ is a complete Hausdorff filtered Lie algebra with $g = \bigcup_{\alpha > 0} g_\alpha$, then, for $a, b$ in $g$, $a$ and $b$ can be substituted for $U$ and $V$ in $H$ (cf. no. 3 and \S 2, no. 5, Remark).
+As $K$ is a field containing $\mathbf{Q}$, the Hausdorff series can be considered as a Lie formal power series with coefficients in $K$. Therefore, if $g$ is a complete Hausdorff filtered Lie algebra with $g = \bigcup_{\alpha > 0} g_\alpha$, then, for $a, b$ in $g$, $a$ and $b$ can be substituted for $U$ and $V$ in $H$ (cf. no. 3 and § 2, no. 5, Remark).
 
 In particular, let $A$ be a complete Hausdorff filtered unital associative algebra. We write $m = \bigcup_{\alpha > 0} A_\alpha$ and $m_\alpha = A_\alpha \cap m$ for $\alpha \in \mathbf{R}$; hence $m_\alpha = A_\alpha$ for $\alpha > 0$ and $m_\alpha = m$ for $\alpha \leqslant 0$. With the bracket $[a, b] = ab - ba$, $m$ is a complete Hausdorff filtered Lie algebra, to which the above can be applied. With this notation, we have the following result which completes Proposition 1 of no. 1.
 
@@ -323,7 +323,7 @@ In particular, let $A$ be a complete Hausdorff filtered unital associative algeb
 
 *If $a \in m, b \in m$, then $\exp H(a, b) = \exp a . \exp b$.*
 
-Let $a, b$ be in $m$; there exists $\alpha > 0$ such that $a \in A_\alpha$ and $b \in A_\alpha$. Then there exists a continuous homomorphism $\theta$ of the Magnus algebra $\hat{A}(\{U, V\})$ into $A$ mapping $U$ to $a$ and $V$ to $b$ (\S 5, no. 1, Proposition 1).
+Let $a, b$ be in $m$; there exists $\alpha > 0$ such that $a \in A_\alpha$ and $b \in A_\alpha$. Then there exists a continuous homomorphism $\theta$ of the Magnus algebra $\hat{A}(\{U, V\})$ into $A$ mapping $U$ to $a$ and $V$ to $b$ (§ 5, no. 1, Proposition 1).
 
 The restriction of $\theta$ to $\hat{L}(\{U, V\})$ is a continuous homomorphism of Lie algebras of $L(\{U, V\})$ into $m$ which maps $U$ (resp. $V$) to $a$ (resp. $b$). By formula (6) of no. 3, therefore $\theta(H) = H(a, b)$. It then suffices to apply the continuous homomorphism $\theta$ to the two sides of the relation
 $$
@@ -370,7 +370,7 @@ a \mathbin{\mathbf{h}} b = H(a, b) \quad \text{for } a, b \text{ in } \hat{L}(X)
 $$
 thus the Hausdorff group law is given by the Hausdorff series.
 
-(3) Let $g$ be a Lie algebra with the integral filtration ($\mathcal{C}^n g$) defined by the lower central series. Suppose that there exists $m \geq 1$ such that $\mathcal{C}^m g = \{0\}$. With the topology derived from the filtration $(\mathcal{C}^n g)_{n \geq 1}$, the Lie algebra $g$ is Hausdorff, complete and even discrete. Then $P(a_1, \ldots, a_r) = 0$ for $a_1, \ldots, a_r$ in $g$ and for every homogeneous Lie polynomial $P$ of degree $\geq m$; in particular, $H_{r,s}(a, b) = 0$ for $r + s \geq m$ and the series $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ has only a finite number of non-zero terms. The group law $(a, b) \mapsto H(a, b)$ on $g$ is then a polynomial mapping (\$ 2, no. 4).
+(3) Let $g$ be a Lie algebra with the integral filtration ($\mathcal{C}^n g$) defined by the lower central series. Suppose that there exists $m \geq 1$ such that $\mathcal{C}^m g = \{0\}$. With the topology derived from the filtration $(\mathcal{C}^n g)_{n \geq 1}$, the Lie algebra $g$ is Hausdorff, complete and even discrete. Then $P(a_1, \ldots, a_r) = 0$ for $a_1, \ldots, a_r$ in $g$ and for every homogeneous Lie polynomial $P$ of degree $\geq m$; in particular, $H_{r,s}(a, b) = 0$ for $r + s \geq m$ and the series $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ has only a finite number of non-zero terms. The group law $(a, b) \mapsto H(a, b)$ on $g$ is then a polynomial mapping (§ 2, no. 4).
 
 #### Proposition 5 {#lie-ii-s6-prop-5 .statement}
 

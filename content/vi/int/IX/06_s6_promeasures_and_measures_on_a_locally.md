@@ -57,7 +57,7 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: e0d0e01292f1757196d93ff07df77c5294d37b88558319f6118506292c65c707
+content_sha256: 5fcdf9c5e9af6d4422e46ef050b97a54be5e62135c96b49981ea913eb09f8676
 translated_from: content/en/int/IX/06_s6_promeasures_and_measures_on_a_locally.md
 source_content_sha256: f5af6278d6bcac9db62099468624d04d8e4f8c4d55064bcd03a2261c3d9724ac
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -79,11 +79,11 @@ Có thể chứng minh rằng giới hạn ngược của hệ ngược $\mathca
 
 #### Định nghĩa 1 {#int-ix-s6-def-1 .statement}
 
-*Cho $E$ là một không gian lồi địa phương. Người ta gọi tiền độ đo trên $E$ là mọi hệ ngược$^{(1)}$ các độ đo (\S 4, No. 2, Định nghĩa 1) trên hệ ngược các thương hữu hạn chiều của $E$.*
+*Cho $E$ là một không gian lồi địa phương. Người ta gọi tiền độ đo trên $E$ là mọi hệ ngược$^{(1)}$ các độ đo (§ 4, No. 2, Định nghĩa 1) trên hệ ngược các thương hữu hạn chiều của $E$.*
 
 Nói cách khác, một tiền độ đo $\mu$ trên $E$ là một họ $(\mu_V)_{V \in \mathscr{F}(E)}$, trong đó $\mu_V$ là một độ đo bị chặn (dương) trên không gian hữu hạn chiều $E/V$, và trong đó $\mu_V = p_{VW}(\mu_W)$ khi $V \supset W$. Tất cả các độ đo $\mu_V$ đều có cùng tổng khối lượng, gọi là *tổng khối lượng* của tiền độ đo $\mu$.
 
-Để một không gian con $V$ của $E$ thuộc $\mathscr{F}(E)$, điều kiện cần và đủ là tồn tại một số hữu hạn phần tử $x'_1, \ldots, x'_n$ của $E'$ sao cho $V$ gồm các $x \in E$ thỏa mãn $\langle x, x'_i \rangle = 0$ với $1 \leq i \leq n$ (TVS, II, \S 6, No. 3, Hệ quả 2 của Định lý 1 và No. 5, Hệ quả 2 của Mệnh đề 7). Hơn nữa, trên một không gian vectơ hữu hạn chiều chỉ tồn tại một và chỉ một tôpô không gian vectơ Hausdorff (TVS, I, \S 2, No. 3, Định lý 2). Do đó, khái niệm tiền độ đo trên $E$ chỉ phụ thuộc vào đối ngẫu $E'$ của $E$.
+Để một không gian con $V$ của $E$ thuộc $\mathscr{F}(E)$, điều kiện cần và đủ là tồn tại một số hữu hạn phần tử $x'_1, \ldots, x'_n$ của $E'$ sao cho $V$ gồm các $x \in E$ thỏa mãn $\langle x, x'_i \rangle = 0$ với $1 \leq i \leq n$ (TVS, II, § 6, No. 3, Hệ quả 2 của Định lý 1 và No. 5, Hệ quả 2 của Mệnh đề 7). Hơn nữa, trên một không gian vectơ hữu hạn chiều chỉ tồn tại một và chỉ một tôpô không gian vectơ Hausdorff (TVS, I, § 2, No. 3, Định lý 2). Do đó, khái niệm tiền độ đo trên $E$ chỉ phụ thuộc vào đối ngẫu $E'$ của $E$.
 
 Cho $\lambda$ là một độ đo bị chặn trên $E$. Với mọi $V \in \mathscr{F}(E)$, ta ký hiệu bởi $\widetilde{\lambda}_V$ ảnh của $\lambda$ qua ánh xạ chính tắc $p_V$ của $E$ lên $E/V$. Ta có $p_V = p_{VW} \circ p_W$ đối với hai phần tử bất kỳ $V$ và $W$ của $\mathscr{F}(E)$ sao cho $V \supset W$; do đó, họ $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ là một độ đo tiền trên $E$. Ta sẽ nói rằng $\widetilde{\lambda}$ là độ đo tiền *liên kết* với độ đo $\lambda$. Ta thấy ngay lập tức rằng $\lambda$ và $\widetilde{\lambda}$ có cùng khối lượng toàn phần.
 
@@ -93,7 +93,7 @@ Cho $\lambda$ là một độ đo bị chặn trên $E$. Với mọi $V \in \mat
 
 Với mọi $\varepsilon > 0$, tồn tại một tập con compact $K$ của $E$ sao cho $\mu_V(E/V - p_V(K)) \leq \varepsilon$ với mọi $V \in \mathscr{F}(E)$.*
 
-Người ta biết rằng giao của các hạt nhân của các dạng tuyến tính liên tục trên $E$ bằng 0 (TVS, II, \S 4, No. 1, Cor. 1 of Prop. 2); do đó $\bigcap_{V \in \mathscr{F}(E)} V = \{0\}$ và họ $(p_V)_{V \in \mathscr{F}(E)}$ là nhất quán và phân tách. Mệnh đề khi đó suy ra từ Th. 1 của \S 4, No. 2.
+Người ta biết rằng giao của các hạt nhân của các dạng tuyến tính liên tục trên $E$ bằng 0 (TVS, II, § 4, No. 1, Cor. 1 of Prop. 2); do đó $\bigcap_{V \in \mathscr{F}(E)} V = \{0\}$ và họ $(p_V)_{V \in \mathscr{F}(E)}$ là nhất quán và phân tách. Mệnh đề khi đó suy ra từ Th. 1 của § 4, No. 2.
 
 Đặc biệt, ánh xạ $\lambda \mapsto \widetilde{\lambda}$ là đơn ánh. Nếu $\mu$ là một độ đo tiền trên $E$, và nếu tồn tại một độ đo bị chặn $\lambda$ trên $E$ sao cho $\mu = \widetilde{\lambda}$, ta sẽ nói, bằng một sự lạm dụng ngôn ngữ, rằng $\mu$ là một độ đo. Nếu $E$ là hữu hạn chiều, mọi độ đo tiền $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ đều là một độ đo: vì, $\{0\} \in \mathscr{F}(E)$, $E/\{0\} = E$ và $p_{V,\{0\}} = p_V$, do đó $\mu_V = p_V(\mu_{\{0\}})$ với mọi $V \in \mathscr{F}(E)$; nói cách khác, $\mu = \widetilde{\lambda}$ với $\lambda = \mu_{\{0\}}$.
 
@@ -1078,7 +1078,7 @@ Biến đổi Fourier $\Phi$ của $\Gamma_Q$ bằng $e^{-Q/2}$. Mặt khác, $e
 
 #### Nhận xét {#int-ix-s6-n11-rem-1 .statement}
 
-— 1) Cho $E$ là một không gian Hilbert, $E_s$ là không gian $E$ được trang bị tôpô yếu, và $j$ là ánh xạ đồng nhất của $E$ vào $E_s$. Ta biết rằng $j$ xác định một song ánh của tập hợp các tiền độ đo trên $E$ lên tập hợp tương ứng cho $E_s$. Hơn nữa, nếu $E$ tách được thì $E$ là một không gian Polish và $j$ xác định một song ánh của tập hợp các độ đo bị chặn trên $E$ lên tập hợp các độ đo bị chặn trên $E_s$ (\S 3, No. 3, *Nhận xét*); có thể chứng minh (định lý của Phillips) rằng định lý này vẫn đúng nếu $E$ không tách được. Do đó, Định lý 3 cung cấp các tiêu chuẩn để một tiền độ đo trên $E$ là một độ đo.
+— 1) Cho $E$ là một không gian Hilbert, $E_s$ là không gian $E$ được trang bị tôpô yếu, và $j$ là ánh xạ đồng nhất của $E$ vào $E_s$. Ta biết rằng $j$ xác định một song ánh của tập hợp các tiền độ đo trên $E$ lên tập hợp tương ứng cho $E_s$. Hơn nữa, nếu $E$ tách được thì $E$ là một không gian Polish và $j$ xác định một song ánh của tập hợp các độ đo bị chặn trên $E$ lên tập hợp các độ đo bị chặn trên $E_s$ (§ 3, No. 3, *Nhận xét*); có thể chứng minh (định lý của Phillips) rằng định lý này vẫn đúng nếu $E$ không tách được. Do đó, Định lý 3 cung cấp các tiêu chuẩn để một tiền độ đo trên $E$ là một độ đo.
 
 2) Có thể chứng minh (Phụ lục, Bài tập 7) rằng tôpô Sazonov trên một không gian Hilbert $E$ được xác định bởi các nửa chuẩn kiểu $Q^{1/2}$ trong đó $Q$ là một dạng toàn phương dương *hạt nhân* trên $E$.
 

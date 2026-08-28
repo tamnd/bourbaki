@@ -33,7 +33,7 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: df598e18c3253b00b7d41079ac3300a4c9d742fd23b8d2c9c9597157c6a49b59
+content_sha256: 8434084d69552b8f7b8ee7ec79fb769815bf1868b7a0b4a9cde2013668383c85
 ---
 
 ## § 9. NORMS AND TRACES
@@ -65,7 +65,7 @@ Let $(e_i)_{1 \leq i \leq n}$ be a basis of the $K$-module $M$ and $(m_{ij}(a))$
 (5)    $N_M(a) = \det(m_{ij}(a))$
 (6)    $\mathrm{Pc}(a; X) = \det(\delta_{ij}X - m_{ij}(a)).$
 
-It follows from the method of calculating a determinant (\S 8, no. 11, formula (50)) that
+It follows from the method of calculating a determinant (§ 8, no. 11, formula (50)) that
 
 (7)    $\mathrm{Pc}_M(a; X) = X^n + c_1 X^{n-1} + \cdots + c_n$
 
@@ -77,7 +77,7 @@ For $\lambda \in K$,
 
 (9)    $\mathrm{Tr}_M(\lambda) = n.\lambda, \quad N_M(\lambda) = \lambda^n, \quad \mathrm{Pc}_M(\lambda; X) = (X - \lambda)^n.$
 
-Let $K'$ be a commutative $K$-algebra. Let $M' = K' \otimes_K M$ and $A' = K' \otimes_K A$, so that $M'$ has an $A'$-module structure (\S 4, Example 2). As a $K'$-module $M'$ admits the basis consisting of the $1 \otimes e_i$ ($1 \leq i \leq n$) and the matrix of $a_M$ with respect to $(e_i)$ is equal to the matrix of $(1 \otimes a)_M'$ with respect to $(e'_i)$. Then
+Let $K'$ be a commutative $K$-algebra. Let $M' = K' \otimes_K M$ and $A' = K' \otimes_K A$, so that $M'$ has an $A'$-module structure (§ 4, Example 2). As a $K'$-module $M'$ admits the basis consisting of the $1 \otimes e_i$ ($1 \leq i \leq n$) and the matrix of $a_M$ with respect to $(e_i)$ is equal to the matrix of $(1 \otimes a)_M'$ with respect to $(e'_i)$. Then
 
 (12)    $\mathrm{Tr}_{M'}(1 \otimes a) = \mathrm{Tr}_M(a).1, \quad N_{M'}(1 \otimes a) = N_M(a).1$
         $\mathrm{Pc}_{M'}(1 \otimes a; X) = \mathrm{Pc}_M(a; X).1$
@@ -122,7 +122,7 @@ and the proposition follows from formulae (4), (5) and (6) of no. 1 and formula 
 
 #### Proposition 2 {#alg-iii-s9-prop-2 .statement}
 
-Let $A, A'$ be two $K$-algebras, $M$ an $A$-module and $M'$ an $A'$-module. Suppose that $M$ and $M'$ are free $K$-modules of respective dimensions $n$ and $n'$ and consider $M \otimes_K M'$ as an $(A \otimes_K A')$-module ($\S 4$, no. 3, Example 2). Then, for $a \in A$ and $a' \in A'$,
+Let $A, A'$ be two $K$-algebras, $M$ an $A$-module and $M'$ an $A'$-module. Suppose that $M$ and $M'$ are free $K$-modules of respective dimensions $n$ and $n'$ and consider $M \otimes_K M'$ as an $(A \otimes_K A')$-module ($§ 4$, no. 3, Example 2). Then, for $a \in A$ and $a' \in A'$,
 
 $$
 \operatorname{Tr}_{M \otimes M'}(a \otimes a') = \operatorname{Tr}_M(a) \operatorname{Tr}_{M'}(a')
@@ -197,11 +197,11 @@ $$
 
 #### Example {#alg-iii-s9-n3-exa-1 .statement}
 
-(1) Let $A$ be a quadratic algebra over $K$ of type $(\alpha, \beta)$ and $(e_1, e_2)$ a basis of type $(\alpha, \beta)$ (\S 2, no. 3). For $x = \xi e_1 + \eta e_2$, $\mathrm{Tr}_{A/K}(x) = 2\xi + \beta \eta$ and $N_{A/K}(x) = \xi^2 + \beta \xi \eta - \alpha \eta^2$; these functions are therefore identical with the Cayley trace and norm of $x$ (\S 2, no. 24).
+(1) Let $A$ be a quadratic algebra over $K$ of type $(\alpha, \beta)$ and $(e_1, e_2)$ a basis of type $(\alpha, \beta)$ (§ 2, no. 3). For $x = \xi e_1 + \eta e_2$, $\mathrm{Tr}_{A/K}(x) = 2\xi + \beta \eta$ and $N_{A/K}(x) = \xi^2 + \beta \xi \eta - \alpha \eta^2$; these functions are therefore identical with the Cayley trace and norm of $x$ (§ 2, no. 24).
 
-(2) Let $A$ be a quaternion algebra over $K$. A direct calculation allows us to verify that $\mathrm{Tr}_{A/\mathbf{K}}(x) = 2T(x)$ and $N_{A/\mathbf{K}}(x) = (N(x))^2$, where T and N are the Cayley trace and norm (\S 2, no. 4).
+(2) Let $A$ be a quaternion algebra over $K$. A direct calculation allows us to verify that $\mathrm{Tr}_{A/\mathbf{K}}(x) = 2T(x)$ and $N_{A/\mathbf{K}}(x) = (N(x))^2$, where T and N are the Cayley trace and norm (§ 2, no. 4).
 
-(3) Let $A = \mathbf{M}_n(\mathbf{K})$ and let the canonical basis $(E_{ij})$ of A (II, \S 10, no. 3) be arranged in lexicographic order. Then it is immediately seen that for every matrix $X = \sum_{i,j} \xi_{ij} E_{ij}$ the matrix (of order $n^2$) of the endomorphism $Y \mapsto XY$ is of the form
+(3) Let $A = \mathbf{M}_n(\mathbf{K})$ and let the canonical basis $(E_{ij})$ of A (II, § 10, no. 3) be arranged in lexicographic order. Then it is immediately seen that for every matrix $X = \sum_{i,j} \xi_{ij} E_{ij}$ the matrix (of order $n^2$) of the endomorphism $Y \mapsto XY$ is of the form
 
 $$
 \begin{pmatrix}
@@ -226,13 +226,13 @@ $$
 N_{A/\mathbf{K}}(a) N_{A/\mathbf{K}}(a') = N_{A/\mathbf{K}}(aa') = N_{A/\mathbf{K}}(1) = 1
 $$
 
-by formula (3) of no. 1. Conversely, if $N_{A/\mathbf{K}}(a)$ is invertible, the endomorphism $h : x \mapsto ax$ is bijective (\S 8, no. 2, Theorem 1). Then there exists $a' \in A$ such that $aa' = 1$; then $h(a'a - 1) = aa'a - a = (aa' - 1)a = 0$, whence $aa' = 1$ since $h$ is injective. Hence $a'$ is the inverse of $a$.
+by formula (3) of no. 1. Conversely, if $N_{A/\mathbf{K}}(a)$ is invertible, the endomorphism $h : x \mapsto ax$ is bijective (§ 8, no. 2, Theorem 1). Then there exists $a' \in A$ such that $aa' = 1$; then $h(a'a - 1) = aa'a - a = (aa' - 1)a = 0$, whence $aa' = 1$ since $h$ is injective. Hence $a'$ is the inverse of $a$.
 
 #### Proposition 4 {#alg-iii-s9-prop-4 .statement}
 
 *Let A be a K-algebra admitting a finite basis. For all $a \in A$, $\mathrm{Pc}_{A/\mathbf{K}}(a; a) = 0$.*
 
-This follows immediately from the Cayley-Hamilton theorem (\S 8, no. 11, Proposition 20).
+This follows immediately from the Cayley-Hamilton theorem (§ 8, no. 11, Proposition 20).
 
 #### Proposition 5 {#alg-iii-s9-prop-5 .statement}
 
@@ -245,7 +245,7 @@ $$
 \mathrm{Pc}_A(a; X) = (\mathrm{Pc}_{A_0}(a_0; X))^s.
 $$
 
-By virtue of II, \S 1, no. 13, Proposition 25, $m^{i-1}/m^i$ is a free K-module of dimension $ns_i$. Hence Proposition 1 of no. 2 can be applied with $P_i = m^{i-1}/m^i$;
+By virtue of II, § 1, no. 13, Proposition 25, $m^{i-1}/m^i$ is a free K-module of dimension $ns_i$. Hence Proposition 1 of no. 2 can be applied with $P_i = m^{i-1}/m^i$;
 
 this shows in the first place that $A$ is a free $K$-module of dimension $n(s_1 + \cdots + s_r) = ns$. Moreover, the hypothesis implies that the $A$-module $P_i$ is isomorphic to a direct sum of $s_i$ submodules isomorphic to the $A$-module $A_0$; by Proposition 1 of no. 2, therefore $N_{P_i}(a) = N_{A_0}(a)^{s_i}$; finally therefore
 $$
@@ -264,7 +264,7 @@ $$
 $$
 (24)
 
-Let $(a_i)_{1 \leq i \leq m}$ be a basis of $A$ over $K$ and $(e_j)_{1 \leq j \leq n}$ a basis of $V$ over $A$; then $(a_i e_j)$ is a basis of $V$ over $K$ (II, § 1, no. 13, Proposition 25). On the other hand the third of formulae (24) can be deduced from the second applied to the endomorphism $X - \bar{u}$ of the $A[X]$-module $A[X] \otimes_A V$ (\S 8, no. 10). It will therefore suffice to show the first two formulae in (24). We shall first establish the following lemma:
+Let $(a_i)_{1 \leq i \leq m}$ be a basis of $A$ over $K$ and $(e_j)_{1 \leq j \leq n}$ a basis of $V$ over $A$; then $(a_i e_j)$ is a basis of $V$ over $K$ (II, § 1, no. 13, Proposition 25). On the other hand the third of formulae (24) can be deduced from the second applied to the endomorphism $X - \bar{u}$ of the $A[X]$-module $A[X] \otimes_A V$ (§ 8, no. 10). It will therefore suffice to show the first two formulae in (24). We shall first establish the following lemma:
 
 *Lemma 1. Let $X_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) be $n^2$ indeterminates, $X$ the square matrix $(X_{ij})$ of order $n$ and $D(X_{11}, \ldots, X_{nn}) \in \mathbf{Z}[X_{11}, \ldots, X_{nn}]$ the determinant $\det(X)$. On the other hand let $A$ be a commutative ring, $M_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) $n^2$ matrices of order $m$ over $A$, which are pairwise permutable, and $M$ the square matrix of order $mn$ over $A$ which can be expressed as a square matrix of matrices (II, § 10, no. 7)
 $$
@@ -363,7 +363,7 @@ N_{A/K}(s(a)) &= s(N_{A/K}(a)).
 \end{align*}
 $$
 (27) (28)
-*Consider also a derivation D of A ($\S 10$, no. 2) such that $D(K) \subset K$ and write $D(e_i) = \sum_{j=1}^n e_j \mu_{ji}$ where $\mu_{ji} \in K$; write*
+*Consider also a derivation D of A ($§ 10$, no. 2) such that $D(K) \subset K$ and write $D(e_i) = \sum_{j=1}^n e_j \mu_{ji}$ where $\mu_{ji} \in K$; write*
 $$
 ae_i = \sum_{j=1}^n e_j \lambda_{ji} \quad \text{with} \quad \lambda_{ji} \in K.
 $$

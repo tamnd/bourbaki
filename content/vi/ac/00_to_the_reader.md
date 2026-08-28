@@ -12,17 +12,17 @@ pdf_pages: 0003-0005
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 288003bd5ea134ed05b8edef49bd0c09ef723d0f8d1127af94ee32cdc6f85b19
+content_sha256: aa1fd10c2440d8a87850451c7a60cf2a538575add41156dcccb89988cf170a08
 translated_from: content/en/ac/00_to_the_reader.md
 source_content_sha256: 520727d2f0c3c39dfc15530c2ae084306af8d1b5f8ede0214634e7b9cc416ed0
-translation_model: gpt-5-mini
+translation_model: gpt-5.4
 translation_run: translate-vi-a80fb1dc
 glossary_version: 34
 glossary_terms_sha256: 3a1e6f307d4198920f0e77be1c07da4c1b81da8655346d06cda0d878288bd023
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## ĐỐI VỚI ĐỘC GIẢ
+## GỬI BẠN ĐỌC
 
 1. This series of volumes, a list of which is given on pages ix and x, takes up mathematics at the beginning, and gives complete proofs. In principle, it requires no particular knowledge of mathematics on the reader’s part, but only a certain familiarity with mathematical reasoning and a certain capacity for abstract thought. Nevertheless, it is directed especially to those who have a good knowledge of at least the content of the first year or two of a university mathematics course.
 
@@ -34,7 +34,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 5. The logical framework of each chapter consists of the definitions, the axioms, and the theorems of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as "propositions," "lemmas," "corollaries," "remarks," etc. Those which may be omitted at a first reading are printed in small type. A commentary on a particularly important theorem appears occasionally under the name of "scholium."
 
-Để tránh những sự lặp lại phiền toái, đôi khi thuận tiện khi đưa vào các ký hiệu hoặc các chữ viết tắt chỉ có hiệu lực trong một chương nhất định hoặc trong một tiết nhất định của một chương (chẳng hạn, trong một chương chỉ xét các vành giao hoán, từ "vành" sẽ luôn có nghĩa là "vành giao hoán"). Các quy ước như vậy luôn được nêu tường minh, nói chung là ở đầu chương nơi chúng xuất hiện.
+Để tránh những sự lặp lại tẻ nhạt, đôi khi thuận tiện khi đưa vào các ký hiệu hoặc các chữ viết tắt chỉ có hiệu lực trong một chương nhất định hoặc một tiết diện nhất định của một chương (ví dụ, trong một chương chỉ xét các vành giao hoán, từ "vành" sẽ luôn luôn có nghĩa là "vành giao hoán"). Những quy ước như vậy luôn luôn được nêu ra một cách tường minh, nói chung ở đầu chương nơi chúng xuất hiện.
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ☡ ("dangerous bend").
 
@@ -46,15 +46,15 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 10. Since in principle the text consists of the dogmatic exposition of a theory, it contains in general no references to the literature. Bibliographical references are gathered together in Historical Notes, usually at the end of each chapter. These notes also contain indications, where appropriate, of the unsolved problems of the theory.
 
-Thư mục đi sau mỗi ghi chú lịch sử nói chung chỉ chứa những sách và hồi ký nguyên thủy có tầm quan trọng lớn nhất trong sự phát triển của lý thuyết đang được xét. Nó không hề có ý định đầy đủ; đặc biệt, các tài liệu tham khảo chỉ nhằm xác định các vấn đề về quyền ưu tiên hầu như luôn được bỏ qua.
+Thư mục theo sau mỗi ghi chú lịch sử nói chung chỉ chứa những sách và chuyên khảo gốc đã có tầm quan trọng lớn nhất trong sự phát triển của lý thuyết đang được bàn tới. Nó hoàn toàn không có tham vọng là đầy đủ; đặc biệt, các tài liệu dẫn chỉ nhằm xác định các vấn đề về tính ưu tiên hầu như luôn luôn bị lược bỏ.
 
-Đối với các bài tập, nói chung chúng tôi không thấy đáng để chỉ ra nguồn gốc của chúng, vì chúng được lấy từ nhiều nguồn khác nhau (các bài báo nguyên thủy, sách giáo khoa, các tuyển tập bài tập).
+Về các bài tập, nói chung chúng tôi không thấy cần phải chỉ ra nguồn gốc của chúng, vì chúng đã được lấy từ nhiều nguồn khác nhau (các bài báo gốc, giáo trình, các tuyển tập bài tập).
 
 11. References to a part of this series are given as follows:
 
-a) Nếu tham chiếu đến các định lý, tiên đề hoặc định nghĩa được trình bày trong cùng một tiết, chúng được trích dẫn bằng số của chúng.
-b) Nếu chúng xuất hiện trong một tiết khác của cùng một chương, tiết này cũng được trích dẫn trong tham chiếu.
-c) Nếu chúng xuất hiện trong một chương khác của cùng một Quyển, chương và tiết được trích dẫn.
-d) Nếu chúng xuất hiện trong một Quyển khác, Quyển này trước hết được trích dẫn bằng nhan đề của nó.
+a) Nếu có dẫn chiếu đến các định lý, tiên đề, hoặc định nghĩa được trình bày trong cùng tiết diện, thì chúng được dẫn bằng số của chúng.
+b) Nếu chúng nằm trong một tiết diện khác của cùng chương, thì tiết diện này cũng được nêu trong dẫn chiếu.
+c) Nếu chúng nằm trong một chương khác của cùng một Sách, thì chương và tiết diện được nêu ra.
+d) Nếu chúng nằm trong một Sách khác, thì Sách này trước hết được nêu bằng nhan đề của nó.
 
-Các Bản tóm tắt & Kết quả được trích dẫn bằng chữ R: như vậy Lý thuyết tập hợp, R có nghĩa là "Bản tóm tắt các Kết quả của Lý thuyết tập hợp".
+Các Summaries & Results được dẫn bằng chữ cái R: do đó Set Theory, R có nghĩa là "Tóm tắt các kết quả của lý thuyết tập hợp."

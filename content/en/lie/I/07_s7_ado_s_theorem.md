@@ -24,7 +24,7 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 5735deb018b1a737694e79b755969c29fd474a4760146cd240bbcae6e913572f
+content_sha256: 88c99569fd7f93541de8470999a923ed72c5b349486bddb4207865298e2f0c53
 ---
 
 ## § 7. ADO'S THEOREM
@@ -60,7 +60,7 @@ We shall also consider the dual representation $x \mapsto {}^t x_{U'}$ of g on $
 
 Let $g$ be a Lie algebra, $g'$ a subalgebra of $g$ and $\rho'$ a representation of $g'$ on $V'$. A representation $\rho$ of $g$ on $V$ is called an extension of $\rho'$ to $g$ if there exists an injective homomorphism of the $g'$-module into the $g'$-module $V$. We also say that the $g$-module $V$ is an extension of the $g'$-module $V'$.
 
-If $\rho'$ is finite-dimensional and $g'$ is a solvable ideal of $g$, it is necessary for the existence of a finite-dimensional extension that $[g, g']$ be contained in the largest nilpotency ideal of $\rho'$ (\S 5, no. 3, Theorem 1).
+If $\rho'$ is finite-dimensional and $g'$ is a solvable ideal of $g$, it is necessary for the existence of a finite-dimensional extension that $[g, g']$ be contained in the largest nilpotency ideal of $\rho'$ (§ 5, no. 3, Theorem 1).
 
 #### Theorem 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement}
 
@@ -85,7 +85,7 @@ $$
 {I'}^d \subset I \subset I'
 $$
 
-and $I' \cap g'$ is the largest nilpotency ideal of $\rho'$. By \S 2, no. 6, Corollary to Proposition 6, ${I'}^d$ is of finite codimension in $U'$. If $x \in h$, the derivation $u \mapsto xu - ux$ of $U'$ maps $g'$ into $[h, g'] \subset I'$, hence $U'$ into $I'$ and hence ${I'}^d$ into ${I'}^d$. On the other hand, clearly ${I'}^d$ is a sub-$g'$-module of $U'$. Hence ${I'}^d$ is a sub-$g$-module of $U'$. The orthogonal of ${I'}^d$ in ${U'}^*$ is a finite-dimensional sub-$g$-module which contains $C(\rho')$ and therefore $S$. This shows that $S$ is finite-dimensional over $K$. For $x \in I' \cap g'$, $x^d$ is obviously contained in the annihilator of the $g$-module $U'/{I'}^d$ and hence also in the annihilator of the $g$-module $S$.
+and $I' \cap g'$ is the largest nilpotency ideal of $\rho'$. By § 2, no. 6, Corollary to Proposition 6, ${I'}^d$ is of finite codimension in $U'$. If $x \in h$, the derivation $u \mapsto xu - ux$ of $U'$ maps $g'$ into $[h, g'] \subset I'$, hence $U'$ into $I'$ and hence ${I'}^d$ into ${I'}^d$. On the other hand, clearly ${I'}^d$ is a sub-$g'$-module of $U'$. Hence ${I'}^d$ is a sub-$g$-module of $U'$. The orthogonal of ${I'}^d$ in ${U'}^*$ is a finite-dimensional sub-$g$-module which contains $C(\rho')$ and therefore $S$. This shows that $S$ is finite-dimensional over $K$. For $x \in I' \cap g'$, $x^d$ is obviously contained in the annihilator of the $g$-module $U'/{I'}^d$ and hence also in the annihilator of the $g$-module $S$.
 
 We saw in no. 1 that the $g'$-module $V'$ is isomorphic to a sub-$g'$-module of a product $(C(\rho'))^n$. Hence the $g$-module $S^n$ provides a finite-dimensional extension $\rho$ of $\rho'$ to $g$. Moreover, $\rho(x)$ is nilpotent for $x \in I' \cap g'$; as $I' \cap g'$ is an ideal of $g$ (for it contains $[h, g']$ by hypothesis), we see that $I' \cap g'$ is contained in the largest nilpotency ideal of $\rho$. Thus (a) is proved.
 
@@ -95,7 +95,7 @@ Suppose finally that for all $x \in h$ the restriction to $g'$ of $\mathrm{ad}_{
 
 *Let $g = g' + h$ be a Lie algebra which is the sum of an ideal $g'$ and a subalgebra $h$. Let $\sigma$ be a finite-dimensional representation of $g$. Suppose that $\sigma(x)$ is nilpotent for all $x \in g'$ and all $x \in h$. Then $\sigma(x)$ is nilpotent for all $x \in g$.*
 
-Passing to the quotient by the kernel of $\sigma$, $\sigma$ may be assumed to be faithful. Then $g'$ and $h$ are nilpotent and hence $g$, which is an extension of a quotient of $h$ by $g'$, is solvable. Then $h$ and $g'$ are contained in the largest nilpotency ideal of $\sigma$ (\S 5, no. 3, Corollary 6 to Theorem 1).
+Passing to the quotient by the kernel of $\sigma$, $\sigma$ may be assumed to be faithful. Then $g'$ and $h$ are nilpotent and hence $g$, which is an extension of a quotient of $h$ by $g'$, is solvable. Then $h$ and $g'$ are contained in the largest nilpotency ideal of $\sigma$ (§ 5, no. 3, Corollary 6 to Theorem 1).
 
 For an improvement of Theorem 1, cf. Exercise 4.
 
@@ -105,11 +105,11 @@ For an improvement of Theorem 1, cf. Exercise 4.
 
 *Let $g$ be a Lie algebra, $n$ its largest nilpotent ideal, $a$ a nilpotent ideal of $g$ and $\rho$ a finite-dimensional representation of $a$ such that every element of $\rho(a)$ is nilpotent. Then $\rho$ admits a finite-dimensional extension $\sigma$ to $g$ such that every element of $\sigma(n)$ is nilpotent.*
 
-Let $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ be a sequence of subalgebras of $n$ such that $n_{i-1}$ is an ideal of $n_i$ of codimension 1 for $1 \leq i \leq p$ (\S 4, no. 1, Proposition 1 (e)). The algebra $n_i$ is therefore the direct sum of $n_{i-1}$ and a 1-dimensional subalgebra. As $\mathrm{ad}_{n}x$ is nilpotent for all $x \in n$, it is possible (Theorem 1) to find one by one finite-dimensional extensions $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ of $\rho$ to $n_1, n_2, \ldots, n_p = n$ such that every element of $\rho'(n)$ is nilpotent.
+Let $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ be a sequence of subalgebras of $n$ such that $n_{i-1}$ is an ideal of $n_i$ of codimension 1 for $1 \leq i \leq p$ (§ 4, no. 1, Proposition 1 (e)). The algebra $n_i$ is therefore the direct sum of $n_{i-1}$ and a 1-dimensional subalgebra. As $\mathrm{ad}_{n}x$ is nilpotent for all $x \in n$, it is possible (Theorem 1) to find one by one finite-dimensional extensions $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ of $\rho$ to $n_1, n_2, \ldots, n_p = n$ such that every element of $\rho'(n)$ is nilpotent.
 
-Let $r$ be the radical of $g$ and let $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ be a sequence of subalgebras of $r$ such that $r_{i-1}$ is an ideal of $r_i$ of codimension 1 for $1 \leq i \leq q$ (\S 5, no. 1, Proposition 2 (d)). The algebra $r_i$ is thus the direct sum of $r_{i-1}$ and a 1-dimensional subalgebra. As $[r, r] \subset n$, it is possible (Theorem 1) to find one by one finite-dimensional extensions $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ of $\rho'$ to $r_1, r_2, \ldots, r_q = r$ such that every element of $\rho''(n)$ is nilpotent.
+Let $r$ be the radical of $g$ and let $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ be a sequence of subalgebras of $r$ such that $r_{i-1}$ is an ideal of $r_i$ of codimension 1 for $1 \leq i \leq q$ (§ 5, no. 1, Proposition 2 (d)). The algebra $r_i$ is thus the direct sum of $r_{i-1}$ and a 1-dimensional subalgebra. As $[r, r] \subset n$, it is possible (Theorem 1) to find one by one finite-dimensional extensions $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ of $\rho'$ to $r_1, r_2, \ldots, r_q = r$ such that every element of $\rho''(n)$ is nilpotent.
 
-Finally $g$ is the direct sum of $r$ and a subalgebra $s$ (\S 6, no. 8, Theorem 5). As $[s, r] \subset n$, it is possible (Theorem 1) to find a finite-dimensional extension $\sigma$ of $\rho''$ to $g$ such that every element of $\sigma(n)$ is nilpotent.
+Finally $g$ is the direct sum of $r$ and a subalgebra $s$ (§ 6, no. 8, Theorem 5). As $[s, r] \subset n$, it is possible (Theorem 1) to find a finite-dimensional extension $\sigma$ of $\rho''$ to $g$ such that every element of $\sigma(n)$ is nilpotent.
 
 #### Theorem 2 {#lie-i-s7-thm-2 .statement}
 

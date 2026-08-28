@@ -32,12 +32,12 @@ subsections:
       pdf_page: 177
 statements: 16
 exercises: 5
-content_sha256: 078ab7f5ae297883685316ef8e65cb2edce20068b558de1ca3f80215372f6e44
+content_sha256: f89d635d8d27096164f5126eab7f56700e438fd7464a738e1019996b0250f27d
 ---
 
 ## § 2. Groupe de Weyl affine
 
-Dans ce paragraphe (n° 5 excepté), on désigne par R un système de racines réduit dans un espace vectoriel réel V. On désigne par W le groupe de Weyl de R ; on l’identifie à un groupe d’automorphismes du dual V* de V (\S 1, n° 1), et l’on munit V* d’un produit scalaire invariant par W. Soit E l’espace affine sous-jacent à V* ; pour $v \in V^*$, on désigne par $t(v)$ la translation de E de vecteur v. Enfin, on désigne par P (resp. Q ) le groupe des translations $t(v)$ dont le vecteur v appartient au groupe des poids P(R$^\vee$) (resp. au groupe des poids radiciels Q (R$^\vee$)) du système de racines R$^\vee$ inverse de R.
+Dans ce paragraphe (n° 5 excepté), on désigne par R un système de racines réduit dans un espace vectoriel réel V. On désigne par W le groupe de Weyl de R ; on l’identifie à un groupe d’automorphismes du dual V* de V (§ 1, n° 1), et l’on munit V* d’un produit scalaire invariant par W. Soit E l’espace affine sous-jacent à V* ; pour $v \in V^*$, on désigne par $t(v)$ la translation de E de vecteur v. Enfin, on désigne par P (resp. Q ) le groupe des translations $t(v)$ dont le vecteur v appartient au groupe des poids P(R$^\vee$) (resp. au groupe des poids radiciels Q (R$^\vee$)) du système de racines R$^\vee$ inverse de R.
 
 ### 1. Groupe de Weyl affine.
 
@@ -74,7 +74,7 @@ Le groupe $W_a$ est produit semi-direct de W par Q .
 
 Comme W est engendré par les réflexions $s_\alpha$, il est contenu dans $W_a$. D’autre part, on a $t(\alpha^\vee) = s_{\alpha, 1} \circ s_\alpha$ si $\alpha \in R$, ce qui montre que $Q \subset W_a$.
 
-Comme W laisse stable $Q(R^\vee)$ (\S 1, no 9), le groupe de transformations affines G engendré par W et Q est le produit semi-direct de W par Q. On a $G \subset W_a$ d’après ce qui précède et $s_{\alpha, k} \in G$ quels que soient $\alpha \in \mathbf{R}$ et $k \in \mathbf{Z}$ d’après (1). On en conclut que $W_a = G$.
+Comme W laisse stable $Q(R^\vee)$ (§ 1, no 9), le groupe de transformations affines G engendré par W et Q est le produit semi-direct de W par Q. On a $G \subset W_a$ d’après ce qui précède et $s_{\alpha, k} \in G$ quels que soient $\alpha \in \mathbf{R}$ et $k \in \mathbf{Z}$ d’après (1). On en conclut que $W_a = G$.
 
 #### Proposition 2 {#lie-vi-s2-prop-2 .statement}
 
@@ -91,17 +91,17 @@ $$
 
 où $n(\alpha, \beta) = \langle \beta^\vee, \alpha \rangle$ est un entier, d’où la deuxième assertion.
 
-On peut donc appliquer à $W_a$ opérant sur E les résultats du chapitre V, \S 3. Pour éviter toute confusion avec les chambres du groupe de Weyl W dans $V^*$, nous appellerons *alcôves* les chambres déterminées par le système des hyperplans $L_{\alpha, k}$ (pour $\alpha \in \mathbf{R}$ et $k \in \mathbf{Z}$) dans E. *Le groupe $W_a$ opère donc de façon simplement transitive sur l’ensemble des alcôves et l’adhérence d’une alcôve est un domaine fondamental pour $W_a$ opérant sur E* (chap. V, \S 3, no 2, th. 1 et no 3, th. 2). Il est clair que le groupe de Weyl W s’identifie à l’image canonique $U(W_a)$ de $W_a$ dans le groupe orthogonal de $V^*$ (cf. chap. V, \S 3, no 6). Il en résulte que $W_a$ est *essentiel* (chap. V, \S 3, no 7) et que $W_a$ est *irréductible* si et seulement si le système de racines R l’est (\S 1, no 2, cor. de la prop. 5). Si R est irréductible, chaque alcôve est un simplexe ouvert (chap. V, \S 3, no 9, prop. 8). Dans le cas général, la décomposition canonique de l’espace affine E en produit (chap. V, \S 3, no 8) correspond à la décomposition de R en composants irréductibles. En particulier, les alcôves sont des produits de simplexés ouverts.
+On peut donc appliquer à $W_a$ opérant sur E les résultats du chapitre V, § 3. Pour éviter toute confusion avec les chambres du groupe de Weyl W dans $V^*$, nous appellerons *alcôves* les chambres déterminées par le système des hyperplans $L_{\alpha, k}$ (pour $\alpha \in \mathbf{R}$ et $k \in \mathbf{Z}$) dans E. *Le groupe $W_a$ opère donc de façon simplement transitive sur l’ensemble des alcôves et l’adhérence d’une alcôve est un domaine fondamental pour $W_a$ opérant sur E* (chap. V, § 3, no 2, th. 1 et no 3, th. 2). Il est clair que le groupe de Weyl W s’identifie à l’image canonique $U(W_a)$ de $W_a$ dans le groupe orthogonal de $V^*$ (cf. chap. V, § 3, no 6). Il en résulte que $W_a$ est *essentiel* (chap. V, § 3, no 7) et que $W_a$ est *irréductible* si et seulement si le système de racines R l’est (§ 1, no 2, cor. de la prop. 5). Si R est irréductible, chaque alcôve est un simplexe ouvert (chap. V, § 3, no 9, prop. 8). Dans le cas général, la décomposition canonique de l’espace affine E en produit (chap. V, § 3, no 8) correspond à la décomposition de R en composants irréductibles. En particulier, les alcôves sont des produits de simplexés ouverts.
 
-Notons encore que le cor. du th. 1 du chap. V, \S 3, no 2 montre que les $s_{\alpha, k}$ sont les seules réflexions appartenant à $W_a$.
+Notons encore que le cor. du th. 1 du chap. V, § 3, no 2 montre que les $s_{\alpha, k}$ sont les seules réflexions appartenant à $W_a$.
 
 ### 2. Poids et points spéciaux
 
 #### Proposition 3 {#lie-vi-s2-prop-3 .statement}
 
-*Les points spéciaux* (chap. V, \S 3, no 10, déf. 1) *de $W_a$ sont les poids de $R^\vee$*.
+*Les points spéciaux* (chap. V, § 3, no 10, déf. 1) *de $W_a$ sont les poids de $R^\vee$*.
 
-Soit $x_0 \in E$ et soit $\alpha \in \mathbf{R}$. L’hyperplan L parallèle à Ker $\alpha$ et passant par $x_0$ a pour équation $\langle \alpha, x \rangle = \langle \alpha, x_0 \rangle$. Pour qu’il soit égal à $L_{\beta, k}$, il faut d’une part que $\alpha$ et $\beta$ soient proportionnelles, ou encore, puisque R est réduit, que $\beta = \pm \alpha$, et d’autre part que $\langle \alpha, x_0 \rangle$ soit entier. On en déduit aussitôt que $x_0$ est un point spécial de $W_a$ si et seulement si $\langle \alpha, x_0 \rangle \in \mathbf{Z}$ pour tout $\alpha \in \mathbf{R}$, c’est-à-dire si et seulement si $x_0 \in P(R^\vee)$ (\S 1, no 9).
+Soit $x_0 \in E$ et soit $\alpha \in \mathbf{R}$. L’hyperplan L parallèle à Ker $\alpha$ et passant par $x_0$ a pour équation $\langle \alpha, x \rangle = \langle \alpha, x_0 \rangle$. Pour qu’il soit égal à $L_{\beta, k}$, il faut d’une part que $\alpha$ et $\beta$ soient proportionnelles, ou encore, puisque R est réduit, que $\beta = \pm \alpha$, et d’autre part que $\langle \alpha, x_0 \rangle$ soit entier. On en déduit aussitôt que $x_0$ est un point spécial de $W_a$ si et seulement si $\langle \alpha, x_0 \rangle \in \mathbf{Z}$ pour tout $\alpha \in \mathbf{R}$, c’est-à-dire si et seulement si $x_0 \in P(R^\vee)$ (§ 1, no 9).
 
 #### Corollaire {#lie-vi-s2-n2-cor-1 .statement}
 
@@ -153,13 +153,13 @@ Or, le groupe des automorphismes de E est le produit semi-direct du groupe ortho
 $$
 \langle t u^{-1}(\alpha), x \rangle = k + \langle \alpha, v \rangle.
 $$
-Par suite, on a $g \in G$ si et seulement si d’une part $t u$ permutte entre elles les racines, c’est-à-dire appartient à $A(\mathbf{R})$, d’autre part $\langle \alpha, v \rangle \in \mathbf{Z}$ pour tout $\alpha \in \mathbf{R}$, c’est-à-dire si $v \in P(R^\vee)$. Autrement dit, le groupe G est produit semi-direct de $A(\mathbf{R})$ par P. Comme $Q \subset P$ et $W \subset A(\mathbf{R})$, on voit que le groupe quotient $G/W_a$ est produit semi-direct de $A(\mathbf{R})/W$ par $P(R^\vee)/Q(R^\vee)$; l’action correspondante de $A(\mathbf{R})/W$ sur $P(R^\vee)/Q(R^\vee)$ est l’action canonique (\$ 1, no 9), comme on le vérifie immédiatement.
+Par suite, on a $g \in G$ si et seulement si d’une part $t u$ permutte entre elles les racines, c’est-à-dire appartient à $A(\mathbf{R})$, d’autre part $\langle \alpha, v \rangle \in \mathbf{Z}$ pour tout $\alpha \in \mathbf{R}$, c’est-à-dire si $v \in P(R^\vee)$. Autrement dit, le groupe G est produit semi-direct de $A(\mathbf{R})$ par P. Comme $Q \subset P$ et $W \subset A(\mathbf{R})$, on voit que le groupe quotient $G/W_a$ est produit semi-direct de $A(\mathbf{R})/W$ par $P(R^\vee)/Q(R^\vee)$; l’action correspondante de $A(\mathbf{R})/W$ sur $P(R^\vee)/Q(R^\vee)$ est l’action canonique (§ 1, no 9), comme on le vérifie immédiatement.
 
 Nous désignerons par $W'_a$ le sous-groupe de G produit semi-direct de W par P. C’est un sous-groupe distingué de G, et $G/W'_a$ est canoniquement isomorphe à $A(\mathbf{R})/W$; de plus, l’application canonique de $P(R^\vee)$ dans $W'_a/W_a$ donne par passage au quotient un isomorphisme de $P(R^\vee)/Q(R^\vee)$ sur $W'_a/W_a$.
 
 Soit maintenant C une alcôve de E, et soit $G_C$ le sous-groupe formé des éléments $g \in G$ tels que $g(C) = C$. Comme $W_a$ est simplement transitif sur les alcôves, le groupe G est produit semi-direct de $G_C$ et de $W_a$. L’isomorphisme correspondant de $G/W_a$ sur $G_C$ fournit en particulier un isomorphisme canonique de $P(R^\vee)/Q(R^\vee)$ sur le groupe $\Gamma_C = G_C \cap W'_a$.
 
-Supposons que R soit irréductible, et reprenons les notations de la prop. 5 du no 2. Posons $R_0 = R$, et soit $R_i$ ($i \in I$) le système de racines engendré par les $\alpha_j$, pour $j \neq i$. Pour $i = 0$ (resp. $i \in I$), soit $w_i$ l’unique élément de $W(R_i)$ (identifié à un sous-groupe de W) qui transforme les racines positives de $R_i$ relativement à la base $(\alpha_j)_{j \neq i}$ en racines négatives (\$ 1, no 6, cor. 3 de la prop. 17).
+Supposons que R soit irréductible, et reprenons les notations de la prop. 5 du no 2. Posons $R_0 = R$, et soit $R_i$ ($i \in I$) le système de racines engendré par les $\alpha_j$, pour $j \neq i$. Pour $i = 0$ (resp. $i \in I$), soit $w_i$ l’unique élément de $W(R_i)$ (identifié à un sous-groupe de W) qui transforme les racines positives de $R_i$ relativement à la base $(\alpha_j)_{j \neq i}$ en racines négatives (§ 1, no 6, cor. 3 de la prop. 17).
 
 #### Proposition 6 {#lie-vi-s2-prop-6 .statement}
 
@@ -215,7 +215,7 @@ Soit $(s_\lambda)_{\lambda \in \Lambda}$ une famille de représentants des class
 
 #### Proposition 7 {#lie-vi-s2-prop-7 .statement}
 
-*Supposons R irréductible. Soient B = \{ \alpha_1, \ldots, \alpha_l \} une base de R, f l’indice de connexion de R (\S 1, n° 9) et $\tilde{\alpha} = n_1 \alpha_1 + \cdots + n_l \alpha_l$ la plus grande racine de R (pour l’ordre défini par B). Alors l’ordre de W est égal à*
+*Supposons R irréductible. Soient B = \{ \alpha_1, \ldots, \alpha_l \} une base de R, f l’indice de connexion de R (§ 1, n° 9) et $\tilde{\alpha} = n_1 \alpha_1 + \cdots + n_l \alpha_l$ la plus grande racine de R (pour l’ordre défini par B). Alors l’ordre de W est égal à*
 
 $$
 (l!) n_1 n_2 \ldots n_l f.

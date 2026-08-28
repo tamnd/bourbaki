@@ -57,7 +57,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 46703582e490494ae14604a14446f76d5d0b9a87ea22388f84989197512c6261
+content_sha256: 32b762a764e9df8bf2665bc56e2fcabe443a835a10fcaacc4464a531ac1f42b9
 translated_from: content/en/ac/I/02_s2_flat_modules.md
 source_content_sha256: 9ada776b7c0aa973a418227eaada671c4629e279b41b24c1ad82f46743b38d27
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -260,7 +260,7 @@ $$
 T(M') \xrightarrow{T(v)} T(M) \xrightarrow{T(w)} T(M'')
 $$
 
-*là khớp.* (\S 1, no. 3.)
+*là khớp.* (§ 1, no. 3.)
 
 #### Định nghĩa 2 {#ac-i-s2-def-2 .statement}
 
@@ -383,7 +383,7 @@ $$
 H \otimes F = \operatorname{Coker}(l_H \otimes i);
 $$
 
-$w \otimes 1_1$ là toàn ánh (no. 1, Bổ đề 1); sau cùng, vì L là tự do và do đó phẳng, $v \otimes 1_L$ là đơn ánh. Như vậy có thể áp dụng biểu đồ rắn (\$ 1, no. 4, Mệnh đề 2, (iii)) để chứng minh sự tồn tại của một dãy khớp
+$w \otimes 1_1$ là toàn ánh (no. 1, Bổ đề 1); sau cùng, vì L là tự do và do đó phẳng, $v \otimes 1_L$ là đơn ánh. Như vậy có thể áp dụng biểu đồ rắn (§ 1, no. 4, Mệnh đề 2, (iii)) để chứng minh sự tồn tại của một dãy khớp
 
 (4) $$ \operatorname{Ker}(l_H \otimes i) \longrightarrow \operatorname{Ker}(l_E \otimes i) \xrightarrow{d} G \otimes F \xrightarrow{v \otimes 1_F} H \otimes F. $$
 

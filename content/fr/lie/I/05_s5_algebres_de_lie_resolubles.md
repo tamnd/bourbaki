@@ -36,7 +36,7 @@ subsections:
       pdf_page: 68
 statements: 31
 exercises: 17
-content_sha256: c61f4da8b9dab6fd6ed58c202af7035399677bcf0889c5cb17b19305f8e66b90
+content_sha256: 92c59100943c2827b9f36c287d8bb5cf7fb9727029ae0476849c7530ba5db090
 ---
 
 ## § 5. Algèbres de Lie résolubles
@@ -214,7 +214,7 @@ $$
 \mathrm{Tr}\,(t[x, y]) = \beta([t, x], y) = 0
 $$
 
-d’où par linéarité $\operatorname{Tr}(tu) = 0$ pour tout $u \in \mathcal{O}g$. Par ailleurs, il est clair que $\mathcal{O}g \subset T$. Donc (lemme 3) tout élément de $\mathcal{O}g$ est nilpotent. Il est résulte que $\mathcal{O}g$ est nilpotente ($\S 4$, cor. 3 du th. 1), donc que $g$ est résoluble (no 3, cor. 5 du th. 1).
+d’où par linéarité $\operatorname{Tr}(tu) = 0$ pour tout $u \in \mathcal{O}g$. Par ailleurs, il est clair que $\mathcal{O}g \subset T$. Donc (lemme 3) tout élément de $\mathcal{O}g$ est nilpotent. Il est résulte que $\mathcal{O}g$ est nilpotente ($§ 4$, cor. 3 du th. 1), donc que $g$ est résoluble (no 3, cor. 5 du th. 1).
 
 ### 5. Nouvelles propriétés du radical
 
@@ -224,7 +224,7 @@ Soient $g$ une algèbre de Lie, $r$ son radical.
 a) Si $\rho$ est une représentation de dimension finie de $g$, et si $\beta$ est la forme bilinéaire associée, $r$ et $\mathcal{O}g$ sont orthogonaux pour $\beta$.
 b) $r$ est l’orthogonal de $\mathcal{O}g$ pour la forme de Killing.
 Soient $x, y$ dans $g, z \in r$. On a $[y, z] \in \mathcal{O}g \cap r$, donc $\beta([x, y], z) = \beta(x, [y, z]) = 0$ (th. 1). D’où a).
-Soit $r'$ l’orthogonal de $\mathcal{O}g$ pour la forme de Killing. C’est un idéal de $g$ ($\S 3$, no 6, prop. 7 a)) qui contient $r$ d’après ce qui précède. D’autre part, l’image $s$ de $r'$ par la représentation adjointe de $g$ est résoluble (th. 2), donc $r'$ est résoluble comme extension centrale de $s$. Donc $r' \subset r$.
+Soit $r'$ l’orthogonal de $\mathcal{O}g$ pour la forme de Killing. C’est un idéal de $g$ ($§ 3$, no 6, prop. 7 a)) qui contient $r$ d’après ce qui précède. D’autre part, l’image $s$ de $r'$ par la représentation adjointe de $g$ est résoluble (th. 2), donc $r'$ est résoluble comme extension centrale de $s$. Donc $r' \subset r$.
 
 #### Corollaire 1 {#lie-i-s5-prop-5-cor-1 .statement}
 
@@ -234,12 +234,12 @@ C’est une conséquence immédiate de la prop. 5 b).
 #### Corollaire 2 {#lie-i-s5-prop-5-cor-2 .statement}
 
 Le radical $r$ d’une algèbre de Lie $g$ est un idéal caractéristique.
-En effet, $\mathcal{O}g$ est un idéal caractéristique, et la forme de Killing est complètement invariante ($\S 3$, no 6, prop. 10). Donc l’orthogonal de $\mathcal{O}g$ pour la forme de Killing est un idéal caractéristique ($\S 3$, no 6, prop. 7 b)).
+En effet, $\mathcal{O}g$ est un idéal caractéristique, et la forme de Killing est complètement invariante ($§ 3$, no 6, prop. 10). Donc l’orthogonal de $\mathcal{O}g$ pour la forme de Killing est un idéal caractéristique ($§ 3$, no 6, prop. 7 b)).
 
 #### Corollaire 3 {#lie-i-s5-prop-5-cor-3 .statement}
 
 Soient $g$ une algèbre de Lie, $r$ son radical, $a$ un idéal de $g$. Alors, le radical de $a$ est égal à $r \cap a$.
-En effet, $r \cap a$ est un idéal résoluble de $a$, donc est contenu dans le radical $r'$ de $a$. Réciproquement, $r'$ est un idéal de $g$ (cor. 2, et $\S 1$, no 4, prop. 2), donc $r' \subset r$.
+En effet, $r \cap a$ est un idéal résoluble de $a$, donc est contenu dans le radical $r'$ de $a$. Réciproquement, $r'$ est un idéal de $g$ (cor. 2, et $§ 1$, no 4, prop. 2), donc $r' \subset r$.
 
 Le cor. 2 peut être précisé de la manière suivante :
 
@@ -247,7 +247,7 @@ Le cor. 2 peut être précisé de la manière suivante :
 
 Soient g une algèbre de Lie, r son radical, n son plus grand idéal nilpotent. Toute dérivation de g applique r dans n.
 
-Soit D une dérivation de g. Soit g' = g + Kx_0 une algèbre de Lie dans laquelle g est un idéal de codimension 1, telle que Dx = [x_0, x] pour tout x ∈ g (\S 1, n° 8, exemple 1). D’après le cor. 3 de la prop. 5, r est contenu dans le radical r' de g'. On a D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. Pour tout x ∈ s', ad_{g'} x est nilpotent (th. 1). Donc, pour tout x ∈ s' ∩ g, ad_g x est nilpotent. Donc D(r) est contenu dans l’idéal nilpotent s' ∩ g de g.
+Soit D une dérivation de g. Soit g' = g + Kx_0 une algèbre de Lie dans laquelle g est un idéal de codimension 1, telle que Dx = [x_0, x] pour tout x ∈ g (§ 1, n° 8, exemple 1). D’après le cor. 3 de la prop. 5, r est contenu dans le radical r' de g'. On a D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. Pour tout x ∈ s', ad_{g'} x est nilpotent (th. 1). Donc, pour tout x ∈ s' ∩ g, ad_g x est nilpotent. Donc D(r) est contenu dans l’idéal nilpotent s' ∩ g de g.
 
 #### Corollaire {#lie-i-s5-n5-cor-1 .statement}
 
@@ -265,7 +265,7 @@ L’inclusion r ⊃ f résulte de la prop. 5 b). L’inclusion f ⊃ n résulte 
 
 Soient g une K-algèbre de Lie, et K_1 une extension de K. Il est clair que g_{(K_1)} est résoluble si et seulement si g est résoluble, puisque $\mathcal{O}^n(g_{(K_1)}) = (\mathcal{O}^n g)_{(K_1)}$.
 
-Soit r le radical de g. Alors, r_{(K_1)} est le radical de g_{(K_1)}. En effet, soit β la forme de Killing de g. Comme r est l’orthogonal de $\mathcal{O}g$ pour β (prop. 5 b)), r_{(K_1)} est l’orthogonal de $(\mathcal{O}g)_{(K_1)} = \mathcal{O}(g_{(K_1)})$ pour la forme déduite de β par extension de K à K_1, c’est-à-dire pour la forme de Killing de g_{(K_1)} (\S 3, n° 8). Notre assertion résulte alors d’une nouvelle application de la prop. 5 b).
+Soit r le radical de g. Alors, r_{(K_1)} est le radical de g_{(K_1)}. En effet, soit β la forme de Killing de g. Comme r est l’orthogonal de $\mathcal{O}g$ pour β (prop. 5 b)), r_{(K_1)} est l’orthogonal de $(\mathcal{O}g)_{(K_1)} = \mathcal{O}(g_{(K_1)})$ pour la forme déduite de β par extension de K à K_1, c’est-à-dire pour la forme de Killing de g_{(K_1)} (§ 3, n° 8). Notre assertion résulte alors d’une nouvelle application de la prop. 5 b).
 
 ## EXERCICES {#lie-i-s5-exercises}
 

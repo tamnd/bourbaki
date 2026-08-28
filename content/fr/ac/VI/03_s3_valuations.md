@@ -36,7 +36,7 @@ subsections:
       pdf_page: 104
 statements: 21
 exercises: 8
-content_sha256: bde80fed0e1077b48ee38146787f10ed845b2d8c120268195cb816f1c4a460a7
+content_sha256: cb962a9e1de7dbc0919ab4b3a3677fc2dce3757ec3b25d14f45c1f9ee9bd6230
 ---
 
 ## § 3. Valuations.
@@ -255,7 +255,7 @@ La prop. 8 montre que a) entraîne b), d) et e). Si A est principal, on a $m(A) 
 
 Soit $\mathbf{A}$ un anneau de valuation. Tout $\mathbf{A}$-module sans torsion de type fini est libre. Tout idéal de type fini de $\mathbf{A}$ est principal. Tout $\mathbf{A}$-module sans torsion est plat.
 
-Soit E un $\mathbf{A}$-module sans torsion de type fini, et soient $x_1, \ldots, x_n$ des générateurs de E en nombre minimum; montrons qu’ils sont linéairement indépendants. Si $\sum_{i=1}^n a_i x_i = 0$ ($a_i \in \mathbf{A}$) est une relation non triviale entre les $x_i$, l’un des $a_i$, soit $a_1$, divise tous les autres puisque l’ensemble des idéaux principaux de $\mathbf{A}$ est totalement ordonné par inclusion ($\S 1$, n° 2, th. 1); on a $a_1 \neq 0$ puisque la relation est non triviale. Comme E est sans torsion, on peut diviser par $a_1$, ce qui revient à supposer qu’on a $a_1 = 1$. Mais alors $x_1$ est combinaison linéaire de $x_2, \ldots, x_n$, contrairement au caractère minimal de $n$. Donc E est libre.
+Soit E un $\mathbf{A}$-module sans torsion de type fini, et soient $x_1, \ldots, x_n$ des générateurs de E en nombre minimum; montrons qu’ils sont linéairement indépendants. Si $\sum_{i=1}^n a_i x_i = 0$ ($a_i \in \mathbf{A}$) est une relation non triviale entre les $x_i$, l’un des $a_i$, soit $a_1$, divise tous les autres puisque l’ensemble des idéaux principaux de $\mathbf{A}$ est totalement ordonné par inclusion ($§ 1$, n° 2, th. 1); on a $a_1 \neq 0$ puisque la relation est non triviale. Comme E est sans torsion, on peut diviser par $a_1$, ce qui revient à supposer qu’on a $a_1 = 1$. Mais alors $x_1$ est combinaison linéaire de $x_2, \ldots, x_n$, contrairement au caractère minimal de $n$. Donc E est libre.
 
 En particulier tout idéal $a$ de type fini de $\mathbf{A}$ est principal, tous les éléments d’un système de générateurs de $a$ étant multiples de l’un d’eux. La prop. 3 du chap. I, § 2, n° 4 montre alors que tout $\mathbf{A}$-module sans torsion est plat.
 

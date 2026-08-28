@@ -57,9 +57,9 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: bebc02d59515f7884fd70a710aa5e345f828048aa775f893ec3e5bf4fe8e17d1
+content_sha256: bfdf4b08fc966ea07af8005ee38d12ee9b54b396670463079d200bfddd213318
 translated_from: content/en/int/IV/04_s4_integrable_functions_and_sets.md
-source_content_sha256: 0ed829bdb9429c53a14581a0ac74380edb378faf3a99fb841ad0b702a0e36f2c
+source_content_sha256: 04515fb1fa953c06cc0b2f25528b8c99e5a79b5ad3a2d7ec3b4743f52081eec4
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-20725f8a
 glossary_version: 34
@@ -71,9 +71,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Mở rộng của nguyên hàm
 
-Từ định nghĩa của không gian $\mathcal{L}_F^p$ suy ra rằng không gian con $\mathcal{K}_F$ của các hàm liên tục có giá compact là *trù mật* trong $\mathcal{L}_F^p$ (\S 3, No. 4, Định nghĩa 2). Mọi hàm tuyến tính liên tục (đối với tôpô hội tụ trung bình cấp $p$), xác định trên $\mathcal{K}_F$ và nhận các giá trị của nó trong một không gian vectơ tôpô Hausdorff *đầy đủ* $G$, do đó có thể được *mở rộng bằng tính liên tục* một cách duy nhất, thành một hàm tuyến tính liên tục xác định trên $\mathcal{L}_F^p$ với các giá trị trong $G$ (GT, II, \S 3, No. 6, Định lý 2 và III, \S 3, No. 1, Mệnh đề 3).
+Từ định nghĩa của không gian $\mathcal{L}_F^p$ suy ra rằng không gian con $\mathcal{K}_F$ của các hàm liên tục có giá compact là *trù mật* trong $\mathcal{L}_F^p$ (§ 3, No. 4, Định nghĩa 2). Mọi hàm tuyến tính liên tục (đối với tôpô hội tụ trung bình cấp $p$), xác định trên $\mathcal{K}_F$ và nhận các giá trị của nó trong một không gian vectơ tôpô Hausdorff *đầy đủ* $G$, do đó có thể được *mở rộng bằng tính liên tục* một cách duy nhất, thành một hàm tuyến tính liên tục xác định trên $\mathcal{L}_F^p$ với các giá trị trong $G$ (GT, II, § 3, No. 6, Định lý 2 và III, § 3, No. 1, Mệnh đề 3).
 
-Bây giờ, đối với mọi hàm liên tục $f$ có giá compact, nhận các giá trị trong không gian Banach $F$, ta đã định nghĩa (trong Ch. III, \S 3, No. 1) *nguyên* $\mu(f) = \int f \, d\mu$ đối với $\mu$, là một phần tử của $F$, và ta đã chứng minh (Ch. III, \S 3, No. 2, Mệnh đề 6) bất đẳng thức
+Bây giờ, đối với mọi hàm liên tục $f$ có giá compact, nhận các giá trị trong không gian Banach $F$, ta đã định nghĩa (trong Ch. III, § 3, No. 1) *nguyên* $\mu(f) = \int f \, d\mu$ đối với $\mu$, là một phần tử của $F$, và ta đã chứng minh (Ch. III, § 3, No. 2, Mệnh đề 6) bất đẳng thức
 
 $$
 \left| \int f \, d\mu \right| \leqslant \int |f| \, d|\mu| = N_1(f).
@@ -93,7 +93,7 @@ $$
 \int f\, d\mu = \sum_{x \in X} \alpha(x)f(x).
 $$
 
-Thật vậy, cho $f \in \mathcal{F}_F^1$; ta có $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (\S 1, No. 3, *Ví dụ*); với mọi $\varepsilon > 0$, tồn tại một tập con hữu hạn $M$ của $X$ sao cho
+Thật vậy, cho $f \in \mathcal{F}_F^1$; ta có $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *Ví dụ*); với mọi $\varepsilon > 0$, tồn tại một tập con hữu hạn $M$ của $X$ sao cho
 
 $$
 \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon.
@@ -169,7 +169,7 @@ $$
 \int u(f(x)) \, d\mu(x) = u \left( \int f(x) \, d\mu(x) \right).
 $$
 
-Ta đã biết rằng $u \circ f$ là khả tích (\S 3, No. 5, Định lý 4); quan hệ (6), vì đúng với mọi $f \in \mathcal{H}_F$, được mở rộng cho mọi hàm khả tích $f$ bởi nguyên lý mở rộng các đẳng thức: thật vậy, $f \mapsto u \circ f$ là liên tục đối với tôpô hội tụ theo trung bình, như suy ra từ bất đẳng thức $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
+Ta đã biết rằng $u \circ f$ là khả tích (§ 3, No. 5, Định lý 4); quan hệ (6), vì đúng với mọi $f \in \mathcal{H}_F$, được mở rộng cho mọi hàm khả tích $f$ bởi nguyên lý mở rộng các đẳng thức: thật vậy, $f \mapsto u \circ f$ là liên tục đối với tôpô hội tụ theo trung bình, như suy ra từ bất đẳng thức $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
 #### Hệ quả 1 {#int-iv-s4-thm-1-cor-1 .statement}
 
@@ -179,7 +179,7 @@ $$
 \int \langle f(x), a' \rangle \, d\mu(x) = \left\langle \int f(x) \, d\mu(x), a' \right\rangle.
 $$
 
-Ta sẽ thấy ở Ch. VI, \S 1, Bài tập 7, 11 và 12 rằng có thể tồn tại các hàm $f$, với giá trị trong một không gian Banach vô hạn chiều $F$, sao cho $\langle f, a' \rangle$ khả tích với mọi dạng tuyến tính liên tục $a'$ trên $F$, mà $f$ không khả tích.
+Ta sẽ thấy ở Ch. VI, § 1, Bài tập 7, 11 và 12 rằng có thể tồn tại các hàm $f$, với giá trị trong một không gian Banach vô hạn chiều $F$, sao cho $\langle f, a' \rangle$ khả tích với mọi dạng tuyến tính liên tục $a'$ trên $F$, mà $f$ không khả tích.
 
 #### Hệ quả 2 {#int-iv-s4-thm-1-cor-2 .statement}
 
@@ -199,7 +199,7 @@ $$
 \int f_0 \, d\mu = \lim_{\mathcal{B}} \int f \, d\mu .
 $$
 
-Thật vậy, $\mathcal{B}$ hội tụ theo trung bình đến $f_0$ (\S 3, No. 3, Mệnh đề 4).
+Thật vậy, $\mathcal{B}$ hội tụ theo trung bình đến $f_0$ (§ 3, No. 3, Mệnh đề 4).
 
 #### Mệnh đề 4 {#int-iv-s4-prop-4 .statement}
 
@@ -209,7 +209,7 @@ $$
 \int f \, d\mu = \lim_{n \to \infty} \int f_n \, d\mu .
 $$
 
-Chúng tôi chỉ xét một dãy tăng. Dãy $g_n = f_n + f_1^-$ là tăng và gồm các hàm khả tích $\geqslant 0$; vì hàm bao trên của nó là $g = f + f_1^-$, mệnh đề suy ra từ Định lý 5 của \S 3, No. 6.
+Chúng tôi chỉ xét một dãy tăng. Dãy $g_n = f_n + f_1^-$ là tăng và gồm các hàm khả tích $\geqslant 0$; vì hàm bao trên của nó là $g = f + f_1^-$, mệnh đề suy ra từ Định lý 5 của § 3, No. 6.
 
 #### Định lý 2 {#int-iv-s4-thm-2 .statement}
 
@@ -221,7 +221,7 @@ $$
 \int f \, d\mu = \lim_{\mathfrak{F}} \int f_\alpha \, d\mu .
 $$
 
-Định lý suy ra từ định lý của Lebesgue (\S 3, No. 7, Hệ quả của Định lý 6) vì, dưới các điều kiện của phát biểu, $f_\alpha$ hội tụ theo trung bình đến $f$ đối với $\mathfrak{F}$.
+Định lý suy ra từ định lý của Lebesgue (§ 3, No. 7, Hệ quả của Định lý 6) vì, dưới các điều kiện của phát biểu, $f_\alpha$ hội tụ theo trung bình đến $f$ đối với $\mathfrak{F}$.
 
 #### Hệ quả 1 {#int-iv-s4-thm-2-cor-1 .statement}
 
@@ -249,13 +249,13 @@ $$
 
 — Để một hàm số $f \geqslant 0$ (hữu hạn hoặc không), nửa liên tục dưới trên X, khả tích, điều kiện cần và đủ là $\int^* f d|\mu| < +\infty$.
 
-Mọi việc quy về chứng minh rằng điều kiện ấy là đủ. Định nghĩa của $|\mu|^*(f)$ (\S 1, No. 1, Định nghĩa 1) cho thấy rằng, với mọi $\varepsilon > 0$, tồn tại một hàm liên tục $g \geqslant 0$, có giá compact, sao cho $g \leqslant f$ và $|\mu|^*(f) \leqslant |\mu|(g) + \varepsilon$. Nhưng $f - g$ là nửa liên tục dưới và $\geqslant 0$, do đó (\S 1, No. 1, Định lý 2)
+Mọi việc quy về chứng minh rằng điều kiện ấy là đủ. Định nghĩa của $|\mu|^*(f)$ (§ 1, No. 1, Định nghĩa 1) cho thấy rằng, với mọi $\varepsilon > 0$, tồn tại một hàm liên tục $g \geqslant 0$, có giá compact, sao cho $g \leqslant f$ và $|\mu|^*(f) \leqslant |\mu|(g) + \varepsilon$. Nhưng $f - g$ là nửa liên tục dưới và $\geqslant 0$, do đó (§ 1, No. 1, Định lý 2)
 
 $$
 |\mu|^*(f) = |\mu|(g) + |\mu|^*(f - g),
 $$
 
-nói cách khác $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leqslant \varepsilon$, điều đó chứng tỏ rằng $f$ khả tích (\S 3, No. 4, Mệnh đề 7).
+nói cách khác $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leqslant \varepsilon$, điều đó chứng tỏ rằng $f$ khả tích (§ 3, No. 4, Mệnh đề 7).
 
 #### Hệ quả 1 {#int-iv-s4-prop-5-cor-1 .statement}
 
@@ -281,7 +281,7 @@ $$
 
 và $\int g \, d|\mu| = \sup_{f \in \mathbf{H}} \int f \, d|\mu|$ (resp. $\int g \, d|\mu| = \inf_{f \in \mathbf{H}} \int f \, d|\mu|$).
 
-Ta có thể giới hạn ở trường hợp các hàm nửa liên tục dưới; khi $f$ chạy qua $\mathbf{H}$, các hàm $f^+$ (resp. $f^-$) khi đó tạo thành một tập có hướng đối với $\leqslant$ (resp. $\geqslant$) của các hàm nửa liên tục dưới (resp. nửa liên tục trên) $\geqslant 0$; bao trên (resp. bao dưới) của các $f^+$ (resp. $f^-$), với $f \in \mathbf{H}$, bằng $g^+$ (resp. $g^-$). Mặt khác, ta có thể thay thế $\mathbf{H}$ bằng một trong các đoạn của nó (đoạn này đồng cuối với nó), gồm các $f \in \mathbf{H}$ thỏa $\geqslant f_0$, với một hàm $f_0 \in \mathbf{H}$ nào đó; khi đó $\int f^+ \, d|\mu| \leqslant \int f \, d|\mu| + \int f_0^- \, d|\mu|$; do đó ta thấy rằng ta quy về việc chứng minh hai mệnh đề của hệ quả trong trường hợp $\mathbf{H}$ gồm các hàm dương. Nếu $\mathbf{H}$ có hướng đối với $\leqslant$ và gồm các hàm nửa liên tục dưới $\geqslant 0$, thì ta biết (\S 1, No. 1, Th. 1) rằng
+Ta có thể giới hạn ở trường hợp các hàm nửa liên tục dưới; khi $f$ chạy qua $\mathbf{H}$, các hàm $f^+$ (resp. $f^-$) khi đó tạo thành một tập có hướng đối với $\leqslant$ (resp. $\geqslant$) của các hàm nửa liên tục dưới (resp. nửa liên tục trên) $\geqslant 0$; bao trên (resp. bao dưới) của các $f^+$ (resp. $f^-$), với $f \in \mathbf{H}$, bằng $g^+$ (resp. $g^-$). Mặt khác, ta có thể thay thế $\mathbf{H}$ bằng một trong các đoạn của nó (đoạn này đồng cuối với nó), gồm các $f \in \mathbf{H}$ thỏa $\geqslant f_0$, với một hàm $f_0 \in \mathbf{H}$ nào đó; khi đó $\int f^+ \, d|\mu| \leqslant \int f \, d|\mu| + \int f_0^- \, d|\mu|$; do đó ta thấy rằng ta quy về việc chứng minh hai mệnh đề của hệ quả trong trường hợp $\mathbf{H}$ gồm các hàm dương. Nếu $\mathbf{H}$ có hướng đối với $\leqslant$ và gồm các hàm nửa liên tục dưới $\geqslant 0$, thì ta biết (§ 1, No. 1, Th. 1) rằng
 
 $$
 |\mu|^*(g) = \sup_{f \in \mathbf{H}} |\mu|^*(f) = \sup_{f \in \mathbf{H}} \int f \, d|\mu| < +\infty,
@@ -376,7 +376,7 @@ $$
 \mu \left( \bigcup_{i=1}^n A_i \right) = \sum_{i=1}^n \mu(A_i).
 $$
 
-Vì, nếu $A = \bigcup_{i=1}^n A_i$ thì $\varphi_A = \sup \varphi_{A_i}$, do đó (\S3, No. 5, Hệ quả của Mệnh đề 12) nếu các $A_i$ khả tích thì $A$ cũng vậy; quan hệ (13) là một trường hợp riêng của quan hệ tương tự đối với các độ đo ngoài (\S 1, No. 4, Mệnh đề 18), khi xét tới quan hệ $|\mu|(A) = |\mu|^*(A)$; cuối cùng, nếu các $A_i$ từng đôi một rời nhau, thì $\varphi_A = \sum_{i=1}^n \varphi_{A_i}$, suy ra (14).
+Vì, nếu $A = \bigcup_{i=1}^n A_i$ thì $\varphi_A = \sup \varphi_{A_i}$, do đó (§ 3, No. 5, Hệ quả của Mệnh đề 12) nếu các $A_i$ khả tích thì $A$ cũng vậy; quan hệ (13) là một trường hợp riêng của quan hệ tương tự đối với các độ đo ngoài (§ 1, No. 4, Mệnh đề 18), khi xét tới quan hệ $|\mu|(A) = |\mu|^*(A)$; cuối cùng, nếu các $A_i$ từng đôi một rời nhau, thì $\varphi_A = \sum_{i=1}^n \varphi_{A_i}$, suy ra (14).
 
 #### Mệnh đề 7 {#int-iv-s4-prop-7 .statement}
 
@@ -420,7 +420,7 @@ $$
 |\mu|^*(A) \leq \sum_{n=1}^\infty |\mu|^*(A_n) = \sum_{n=1}^\infty |\mu|(A_n) < +\infty
 $$
 
-(\S1, No. 4, Mệnh đề 18); do đó A khả tích (\S3, No. 6, Hệ quả 2 của Định lý 5) và, vì $|\mu|(A) = |\mu|^*(A)$, ta quả thật có (17).
+(§ 1, No. 4, Mệnh đề 18); do đó A khả tích (§ 3, No. 6, Hệ quả 2 của Định lý 5) và, vì $|\mu|(A) = |\mu|^*(A)$, ta quả thật có (17).
 
 #### Mệnh đề 9 {#int-iv-s4-prop-9 .statement}
 
@@ -458,7 +458,7 @@ Vì khi đó $\varphi_A$ nửa liên tục dưới (tương ứng, nửa liên t
 
 — Cho $\mathcal{G}$ là một tập hợp, có hướng theo quan hệ $\subset$, gồm các tập hợp mở khả tích trong $X$; để $A = \bigcup_{G \in \mathcal{G}} G$ là khả tích, cần và đủ rằng $\sup_{G \in \mathcal{G}} |\mu|(G) < +\infty$, trong trường hợp đó $\mu(A) = \lim_\mathcal{G} \mu(G)$ và $|\mu|(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$.
 
-Vì, ta biết rằng $|\mu|^*(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$ (\S1, No. 2, Mệnh đề 7); do đó mệnh đề suy ra từ Mệnh đề 10.
+Vì, ta biết rằng $|\mu|^*(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$ (§ 1, No. 2, Mệnh đề 7); do đó mệnh đề suy ra từ Mệnh đề 10.
 
 #### Hệ quả {#int-iv-s4-n6-cor-1 .statement}
 
@@ -466,7 +466,7 @@ Vì, ta biết rằng $|\mu|^*(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$ (\S1, No.
 $$
 \mu(B) = \lim_{\mathfrak{F}} \mu(H) \quad \text{và} \quad |\mu|(B) = \inf_{H \in \mathfrak{F}} |\mu|(H).
 $$
-Vì, cho $H_0$ là một tập hợp trong $\mathfrak{F}$; vì $H_0$ khả tích, nên nó được chứa trong một tập hợp mở khả tích $U$ (\S 1, No. 4, Mệnh đề 19); các tập hợp mở $U \cap \mathbf{C}H$ lập thành một tập hợp có hướng theo quan hệ $\subset$, được chứa trong $U$, và có hợp là $U \cap \mathbf{C}B$; do đó ta được quy về Mệnh đề 11.
+Vì, cho $H_0$ là một tập hợp trong $\mathfrak{F}$; vì $H_0$ khả tích, nên nó được chứa trong một tập hợp mở khả tích $U$ (§ 1, No. 4, Mệnh đề 19); các tập hợp mở $U \cap \mathbf{C}H$ lập thành một tập hợp có hướng theo quan hệ $\subset$, được chứa trong $U$, và có hợp là $U \cap \mathbf{C}B$; do đó ta được quy về Mệnh đề 11.
 
 #### Định lý 4 {#int-iv-s4-thm-4 .statement}
 
@@ -475,9 +475,9 @@ $$
 |\mu|(G - K) = |\mu|(G) - |\mu|(K) \leq \varepsilon.
 $$
 
-a) Điều kiện là *đủ*, vì điều đó có nghĩa là $\varphi_K \leq \varphi_A \leq \varphi_G$ và $\int (\varphi_G - \varphi_K) d|\mu| \leq \varepsilon$; vì $\varphi_G$ và $\varphi_K$ khả tích, nên $\varphi_A$ cũng khả tích (\S 3, No. 4, Mệnh đề 8).
+a) Điều kiện là *đủ*, vì điều đó có nghĩa là $\varphi_K \leq \varphi_A \leq \varphi_G$ và $\int (\varphi_G - \varphi_K) d|\mu| \leq \varepsilon$; vì $\varphi_G$ và $\varphi_K$ khả tích, nên $\varphi_A$ cũng khả tích (§ 3, No. 4, Mệnh đề 8).
 
-b) Điều kiện là *cần*. Nếu $A$ khả tích, tồn tại một tập hợp mở $G \supset A$ sao cho $|\mu|^*(G)$ tùy ý gần với $|\mu|^*(A) = |\mu|(A)$ (\S 1, No. 4, Mệnh đề 19); vì vậy, tất cả quy về việc chứng minh rằng với mọi $\varepsilon > 0$, tồn tại một tập compact $K \subset A$ sao cho $|\mu|(A) - |\mu|(K) \leq \varepsilon$. Vì $\varphi_A$ khả tích, tồn tại một hàm $f \geq 0$, nửa liên tục trên và có giá compact $S$, sao cho $f \leq \varphi_A$ và $\int (\varphi_A - f) d|\mu| \leq \varepsilon/2$ (No. 4, Định lý 3). Cho $\delta > 0$ là một số tùy ý và cho $K$ là tập hợp các điểm $x \in X$ sao cho $f(x) \geq \delta$; $K$ là đóng và được chứa trong $S$, do đó là *compact*, và vì $f \leq \varphi_A$ nên ta có $K \subset A$. Tập hợp $B = A - K$ là khả tích, và $f \leq \varphi_K + \delta \varphi_B$, suy ra
+b) Điều kiện là *cần*. Nếu $A$ khả tích, tồn tại một tập hợp mở $G \supset A$ sao cho $|\mu|^*(G)$ tùy ý gần với $|\mu|^*(A) = |\mu|(A)$ (§ 1, No. 4, Mệnh đề 19); vì vậy, tất cả quy về việc chứng minh rằng với mọi $\varepsilon > 0$, tồn tại một tập compact $K \subset A$ sao cho $|\mu|(A) - |\mu|(K) \leq \varepsilon$. Vì $\varphi_A$ khả tích, tồn tại một hàm $f \geq 0$, nửa liên tục trên và có giá compact $S$, sao cho $f \leq \varphi_A$ và $\int (\varphi_A - f) d|\mu| \leq \varepsilon/2$ (No. 4, Định lý 3). Cho $\delta > 0$ là một số tùy ý và cho $K$ là tập hợp các điểm $x \in X$ sao cho $f(x) \geq \delta$; $K$ là đóng và được chứa trong $S$, do đó là *compact*, và vì $f \leq \varphi_A$ nên ta có $K \subset A$. Tập hợp $B = A - K$ là khả tích, và $f \leq \varphi_K + \delta \varphi_B$, suy ra
 $$
 \int f d|\mu| \leq |\mu|(K) + \delta \cdot |\mu|(B) \leq |\mu|(K) + \delta \cdot |\mu|(A),
 $$
@@ -531,7 +531,7 @@ $$
 \| \mu \| = | \mu |(X) = \int d|\mu|.
 $$
 
-Thật vậy, ta đã thấy rằng $|\mu|^*(X) = \| \mu \|$ (\S1, No. 2); do đó mệnh đề suy ra từ Mệnh đề 10 của No. 6.
+Thật vậy, ta đã thấy rằng $|\mu|^*(X) = \| \mu \|$ (§ 1, No. 2); do đó mệnh đề suy ra từ Mệnh đề 10 của No. 6.
 
 Đối với mọi độ đo bị chặn $\mu$, ta lại gọi $\mu(X)$ là khối lượng toàn phần của $\mu$.
 
@@ -718,7 +718,7 @@ Vì $f$ liên tục đều trên $K$, ta có thể phủ $K$ bởi một số h�
 
 *Cho $\mu$ là một độ đo trên $X$; không gian $\mathcal{E}_F(\Phi)$ trù mật trong mỗi không gian của các không gian $\mathcal{L}_F^p$ ($1 \leq p < +\infty$).*
 
-Vì, từ Mệnh đề 19 và tiêu chuẩn hội tụ theo trung bình cho các giới hạn đều của các hàm có giá compact (\S 3, No. 3, Mệnh đề 4) suy ra rằng $\mathcal{E}_F(\Phi)$ là trù mật, đối với tôpô của sự hội tụ theo trung bình cấp $p$, trong bao đóng của không gian $\mathcal{K}_F$ gồm các hàm liên tục có giá compact, do đó suy ra hệ quả.
+Vì, từ Mệnh đề 19 và tiêu chuẩn hội tụ theo trung bình cho các giới hạn đều của các hàm có giá compact (§ 3, No. 3, Mệnh đề 4) suy ra rằng $\mathcal{E}_F(\Phi)$ là trù mật, đối với tôpô của sự hội tụ theo trung bình cấp $p$, trong bao đóng của không gian $\mathcal{K}_F$ gồm các hàm liên tục có giá compact, do đó suy ra hệ quả.
 
 #### Hệ quả 2 {#int-iv-s4-prop-19-cor-2 .statement}
 

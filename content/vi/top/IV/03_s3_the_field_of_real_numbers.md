@@ -24,9 +24,9 @@ subsections:
       pdf_page: 347
 statements: 2
 exercises: 3
-content_sha256: 7e9fd20a5f07701f8b8136c006c7d342796e0cab1dd5c9335841bda2be273887
+content_sha256: 1fe054439774090d3b4bb329ef70bc28888d07985768483e9bc5ac5a431e07f7
 translated_from: content/en/top/IV/03_s3_the_field_of_real_numbers.md
-source_content_sha256: 195704c1333f5f2d91a6ce305c05eaeb27c6a686881d525615a04e249dba1f90
+source_content_sha256: 09a06def0cc19a2ce6d07eac5e95043aaf4755cf250d11490f88581170d128d1
 translation_model: gpt-5.4
 translation_run: translate-vi-cf7e820d
 glossary_version: 34
@@ -86,11 +86,11 @@ $$
 Với mỗi $x \neq 0$ ký hiệu $\operatorname{sgn} x$ chỉ $\frac{x}{|x|}$ (*dấu của* $x$). Hàm $\operatorname{sgn}$ là một đồng cấu từ $\mathbf{R}^*$ lên $\mathbf{U}_0$. Ta có $x = |x|\operatorname{sgn} x$, và phân tích này của $x$ thành tích của một phần tử của $\mathbf{R}_+^*$ và một phần tử của $\mathbf{U}_0$ là duy nhất; do đó cấu trúc nhóm của $\mathbf{R}^*$ là tích của các cấu trúc nhóm của $\mathbf{R}_+^*$ và $\mathbf{U}_0$. Mặt khác, ánh xạ $x \to |x|$ là liên tục, và ánh xạ $x \to \operatorname{sgn} x = \frac{x}{|x|}$ cũng vậy, vì $x \neq 0$. Do đó có kết quả.
 Ta mở rộng hàm $\operatorname{sgn}$ ra toàn bộ $\mathbf{R}$ bằng cách đặt $\operatorname{sgn} 0 = 0$.
 
-Ta sẽ thấy trong Chương V (\S 4, no. 1, Định lý 1) rằng nhóm tôpô $\mathbf{R}_+^*$ *đẳng cấu* với nhóm *cộng tính* $\mathbf{R}$; điều này sẽ hoàn tất việc xác định cấu trúc của nhóm tôpô $\mathbf{R}_*$.
+Ta sẽ thấy trong Chương V (§ 4, no. 1, Định lý 1) rằng nhóm tôpô $\mathbf{R}_+^*$ *đẳng cấu* với nhóm *cộng tính* $\mathbf{R}$; điều này sẽ hoàn tất việc xác định cấu trúc của nhóm tôpô $\mathbf{R}_*$.
 
 ### 3. CĂN BẬC *n*
 
-Cho $n$ là một số nguyên bất kỳ $> 0$. Từ quan hệ $0 < x < y$ ta suy ra, bằng quy nạp theo $n$, rằng $0 < x^n < y^n$. Nói cách khác, hàm $x \to x^n$ là *tăng ngặt* với $x \geq 0$; nó rõ ràng liên tục tại mọi điểm và vì thế (\S 2, no. 6, Định lý 5) là một đồng phôi từ $\mathbf{R}_+$ lên một khoảng $I$. Mặt khác, vì $x \geqslant 1$ kéo theo $x^{n-1} \geqslant 1$ và do đó $x^n \geqslant x$, nên suy ra $I$ không bị chặn và vì thế $I = \mathbf{R}_+$. Giá trị, với $x \geqslant 0$, của ánh xạ nghịch đảo của ánh xạ $x \to x^n$ được ký hiệu bởi $x^{1/n}$ hoặc $\sqrt[n]{x}$ và được gọi là $x$ lũy thừa $1/n$ hoặc căn bậc n của $x$ (với $n = 2, 3$ ta nói căn bậc hai, căn bậc ba; với $n = 2$ ta viết $\sqrt{x}$ thay cho $\sqrt[2]{x}$). Vì vậy, số dương $x^{1/n}$ được định nghĩa là nghiệm dương duy nhất của phương trình
+Cho $n$ là một số nguyên bất kỳ $> 0$. Từ quan hệ $0 < x < y$ ta suy ra, bằng quy nạp theo $n$, rằng $0 < x^n < y^n$. Nói cách khác, hàm $x \to x^n$ là *tăng ngặt* với $x \geq 0$; nó rõ ràng liên tục tại mọi điểm và vì thế (§ 2, no. 6, Định lý 5) là một đồng phôi từ $\mathbf{R}_+$ lên một khoảng $I$. Mặt khác, vì $x \geqslant 1$ kéo theo $x^{n-1} \geqslant 1$ và do đó $x^n \geqslant x$, nên suy ra $I$ không bị chặn và vì thế $I = \mathbf{R}_+$. Giá trị, với $x \geqslant 0$, của ánh xạ nghịch đảo của ánh xạ $x \to x^n$ được ký hiệu bởi $x^{1/n}$ hoặc $\sqrt[n]{x}$ và được gọi là $x$ lũy thừa $1/n$ hoặc căn bậc n của $x$ (với $n = 2, 3$ ta nói căn bậc hai, căn bậc ba; với $n = 2$ ta viết $\sqrt{x}$ thay cho $\sqrt[2]{x}$). Vì vậy, số dương $x^{1/n}$ được định nghĩa là nghiệm dương duy nhất của phương trình
 
 $$
 y^n = x \quad (x \geqslant 0).
@@ -106,7 +106,7 @@ $$
 
 do đó $x \to x^{1/n}$ là một tự đẳng cấu của nhóm tôpô $\mathbf{R}_+^*$.
 
-Trong Chương V, \S 4, no. 1, ta sẽ tổng quát hóa kết quả này bằng cách tìm tất cả các tự đẳng cấu của nhóm nhân $\mathbf{R}_+^*$.
+Trong Chương V, § 4, no. 1, ta sẽ tổng quát hóa kết quả này bằng cách tìm tất cả các tự đẳng cấu của nhóm nhân $\mathbf{R}_+^*$.
 
 ### Bài tập {#top-iv-s3-exercises}
 

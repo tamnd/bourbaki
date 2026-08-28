@@ -45,9 +45,9 @@ subsections:
       pdf_page: 47
 statements: 25
 exercises: 17
-content_sha256: 7e32d708614ec6db0d4c3be0995c9892007f8ecc68cfdbe548d415bf96fe2d5d
+content_sha256: 67b5e6d2a424bbd2d2ecd6557887a91d89f3a03f640ad3c934bf8ca7fddbfe50
 translated_from: content/en/alg/I/02_s2_identity_element_cancellable_elements.md
-source_content_sha256: cc62dde4f620501b1c1bf68a6fda4a9cfec608416078d5f1a3f2dd2034f84283
+source_content_sha256: 14262eeea309ef0eeb9e6269c13480b3d9f7d00e819290b8524e10ac95ff8282
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-f1e6c316
 glossary_version: 34
@@ -79,7 +79,7 @@ Nếu $E, E'$ là các monođ, một cấu xạ có đơn vị của $E$ vào $E
 
 (3) Tập hợp $\mathbf{N}$ không có phần tử đơn vị đối với luật $(x, y) \mapsto x^y$. Đối với luật $(X, Y) \mapsto X \circ Y$ giữa các tập con của $E \times E$ đường chéo $\Delta$ là phần tử đơn vị. Đối với luật $(f, g) \mapsto f \circ g$ giữa các ánh xạ của $E$ vào $E$, ánh xạ đồng nhất của $E$ lên $E$ là phần tử đơn vị.
 
-(4) Cho $E$ là một magma và $R$ là một quan hệ tương đương trên $E$ tương thích với luật trên $E$ (\S 1, no. 6). Nếu $e$ là một phần tử đơn vị của $E$ thì ảnh chính tắc của $e$ trong $E/R$ là một phần tử đơn vị của magma $E/R$.
+(4) Cho $E$ là một magma và $R$ là một quan hệ tương đương trên $E$ tương thích với luật trên $E$ (§ 1, no. 6). Nếu $e$ là một phần tử đơn vị của $E$ thì ảnh chính tắc của $e$ trong $E/R$ là một phần tử đơn vị của magma $E/R$.
 
 Phần tử đơn vị của một magma có đơn vị là một đồng cấu có đơn vị; hợp thành của hai đồng cấu có đơn vị cũng là một đồng cấu có đơn vị. Để một ánh xạ là một đẳng cấu magma có đơn vị, điều kiện cần và đủ là nó là một đồng cấu có đơn vị song ánh và khi đó ánh xạ nghịch đảo là một đồng cấu có đơn vị. Cho $E$ và $E'$ là các magma có đơn vị và $e'$ là phần tử đơn vị của $E'$; ánh xạ hằng của $E$ vào $E'$ biến $E$ thành $e'$ là một đồng cấu có đơn vị, được gọi là một đồng cấu tầm thường.
 

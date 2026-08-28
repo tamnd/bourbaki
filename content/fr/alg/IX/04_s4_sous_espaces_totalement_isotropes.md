@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 937260b1121a4dbb109ea678e508a26d0a49e9c7a60add573afec0d0a94af5d2
+content_sha256: 14cb4de3331001e2cca71f8cafa3a3f182c71b7b91d8265d6f9b975bebdddf14
 ---
 
 ## § 4. Sous-espaces totalement isotropes. Théorème de Witt
@@ -111,7 +111,7 @@ b) Si G est un sous-espace totalement isotrope (resp. totalement singulier) de d
 
 Soit $\Psi$ la restriction de $\Phi$ à $F \times F'$; pour $x' \in F'$, la relation «$\Phi(x, x') = 0$ pour tout $x \in F$ » entraîne $x = 0$ puisque $F' \cap F^0 = \{0\}$. L’assertion a) résulte alors du cor. de la prop. 6 du § 1, n° 6, à l’exception du fait que $F + F'$ est non isotrope. Or le sous-espace $H = (F + F') \cap (F + F')^0$ est égal à $(F + F') \cap F^0 \cap {F'}^0$. Comme $F \subset F^0$, on a $(F + F') \cap F^0 = F + (F' \cap F^0) = F$, d’où $H = F \cap {F'}^0$; donc $H = \{0\}$ puisqu’on a vu que $\Psi$ est non dégénérée. Ceci prouve bien que $F + F'$ est non isotrope.
 
-Pour démontrer b), nous procéderons par récurrence descendante sur $s = \dim G$. Il nous suffit ainsi de prouver que, si $s < r$, il existe un sous-espace totalement isotrope (resp. totalement singulier) $G'$ contenant G, de dimension $s + 1$, et tel que $G' \cap F^0 = \{0\}$. Comme $\dim G < \dim F$, la restriction de $\Phi$ à $F \times G$ est dégénérée, et comme $G \cap F^0$ est nul, $F \cap G^0$ est non nul. Si l’on avait alors $G + F^0 \supset G^0$, on en déduirait, en prenant les sous-espaces orthogonaux et en remarquant que $F = F^{00}$ et que $G = G^{00}$ ($\S 1$, n° 6, cor. 1 de la prop. 4), que $G^0 \cap F \subset G$, d’où
+Pour démontrer b), nous procéderons par récurrence descendante sur $s = \dim G$. Il nous suffit ainsi de prouver que, si $s < r$, il existe un sous-espace totalement isotrope (resp. totalement singulier) $G'$ contenant G, de dimension $s + 1$, et tel que $G' \cap F^0 = \{0\}$. Comme $\dim G < \dim F$, la restriction de $\Phi$ à $F \times G$ est dégénérée, et comme $G \cap F^0$ est nul, $F \cap G^0$ est non nul. Si l’on avait alors $G + F^0 \supset G^0$, on en déduirait, en prenant les sous-espaces orthogonaux et en remarquant que $F = F^{00}$ et que $G = G^{00}$ ($§ 1$, n° 6, cor. 1 de la prop. 4), que $G^0 \cap F \subset G$, d’où
 
 $$
 G^0 \cap F \subset G \cap F \subset G \cap F^0 = \{0\},
@@ -150,7 +150,7 @@ $$
 y \in S_1 \cap F_2 = S_1 \cap F_1 \cap F_2 = S_1 \cap F = \{0\}.
 $$
 
-On a donc $S_1 \cap S_2^0 = \{0\}$, et de même $S_2 \cap S_1^0 = \{0\}$. Comme l’un des deux sous-espaces $F_1, F_2$, par exemple $F_1$, est de dimension finie, $S_1$ est de dimension finie, donc $S_1^0$ est de codimension finie ($\S 1, \mathrm{n}^\circ 6, \mathrm{cor.\ 1\ de\ la\ prop.\ 4}$), et par conséquent $S_2$ est de dimension finie puisque $S_2 \cap S_1^0 = \{0\}$; de plus ceci montre que l’on a $\dim S_2 \leqslant \operatorname{codim} S_1^0 = \dim S_1$; de même $\dim S_1 \leqslant \dim S_2$, d’où $\dim S_1 = \dim S_2$. La prop. 2 a) montre alors que $S = S_1 + S_2$ est non isotrope.
+On a donc $S_1 \cap S_2^0 = \{0\}$, et de même $S_2 \cap S_1^0 = \{0\}$. Comme l’un des deux sous-espaces $F_1, F_2$, par exemple $F_1$, est de dimension finie, $S_1$ est de dimension finie, donc $S_1^0$ est de codimension finie ($§ 1, \mathrm{n}^\circ 6, \mathrm{cor.\ 1\ de\ la\ prop.\ 4}$), et par conséquent $S_2$ est de dimension finie puisque $S_2 \cap S_1^0 = \{0\}$; de plus ceci montre que l’on a $\dim S_2 \leqslant \operatorname{codim} S_1^0 = \dim S_1$; de même $\dim S_1 \leqslant \dim S_2$, d’où $\dim S_1 = \dim S_2$. La prop. 2 a) montre alors que $S = S_1 + S_2$ est non isotrope.
 
 Ceci étant, l’orthogonal $N$ de $S$ est non isotrope ($\mathrm{n}^\circ 1, \mathrm{cor.\ de\ la\ prop.\ 1}$) et contient $F$; le cor. 1 de la prop. 2 montre donc qu’il existe un sous-espace $G$ totalement isotrope (resp. totalement singulier) de $N$ tel que $\dim G = \dim F$, que $G \cap F = \{0\}$ et que $G + F$ soit non isotrope. Ainsi d) est vérifiée par $G$. On satisfera alors à a) et b) en prenant pour $H$ l’orthogonal de $G + F$ dans $N$. Quant à c), l’on remarque que, comme $H$ est orthogonal à $F_1 = S_1 + F$, il n’y a aucun vecteur isotrope (resp. singulier) non nul dans $H$ en vertu de ce qui a été remarqué au début de la démonstration et du fait que $H \cap F_1 = \{0\}$. Enfin certaines des assertions relatives aux dimensions ont été démontrées en cours de route ; les autres s’en déduisent trivialement.
 
@@ -287,7 +287,7 @@ b) Soient A un corps, E un espace vectoriel sur A, $\Phi$ une forme sesquilinéa
 
 7) Les hypothèses étant celles de l’exerc. 2, soit $G$ le groupe des automorphismes métriques de $E$. Montrer que les seules bijections semi-linéaires de $E$ sur lui-même qui permutent avec tous les éléments de $G$ sont les homothéties de $E$, sauf dans les trois cas suivants : dim $E = 2$, $G$ est le groupe des automorphismes métriques correspondant à une forme quadratique d’indice 1 sur $E$, et $A$ est l’un des trois corps $\mathbf{F}_2, \mathbf{F}_3$ ou $\mathbf{F}_4$. (Utiliser les exerc. 5, 6 et 3 ; examiner à part le cas d’une forme quadratique sur un espace vectoriel de dimension 2).
 
-*8) Soient $A$ un corps, $E$ un espace vectoriel de dimension finie $> 0$ sur $A$, $\Phi$ une forme sesquilinéaire $\varepsilon$-hermitienne non dégénérée sur $E$, satisfaisant à (T). Soit $M(\Phi)$ le groupe des multiplicateurs des similitudes de $E$ pour $\Phi$ ($\S 6, \mathrm{n}^o\ 5$).
+*8) Soient $A$ un corps, $E$ un espace vectoriel de dimension finie $> 0$ sur $A$, $\Phi$ une forme sesquilinéaire $\varepsilon$-hermitienne non dégénérée sur $E$, satisfaisant à (T). Soit $M(\Phi)$ le groupe des multiplicateurs des similitudes de $E$ pour $\Phi$ ($§ 6, \mathrm{n}^o\ 5$).
 
 a) Soient $V_1, V_2$ deux sous-espaces vectoriels de $E$, de même dimension, et soient $\Phi_1, \Phi_2$ les restrictions de $\Phi$ à $V_1, V_2$ respectivement. Pour qu’il existe une similitude $u$ telle que $u(V_1) = V_2$, il faut et il suffit qu’il existe $\alpha \in M(\Phi)$ tel que $\Phi_2$ soit équivalente à $\alpha \Phi_1$ (utiliser le th. de Witt).
 

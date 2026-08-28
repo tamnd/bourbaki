@@ -49,9 +49,9 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 23
-content_sha256: ac8be9a9a0714da48fb4a1b90469606e89c86286946e5128bf74f8954a9cd7f9
+content_sha256: da9b36a5c15278014539ec6b5bd85b02065c88d9dd427fb0e5572395b42061e8
 translated_from: content/en/ac/II/02_s2_rings_and_modules_of_fractions.md
-source_content_sha256: 2567d0d53dd55c777a0ec321261a3e19900344eba7df32b8cbab70baea7d231d
+source_content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-9a26a26c
 glossary_version: 34
@@ -621,7 +621,7 @@ r(a \cap b) = r(ab) = r(a) \cap r(b);
 $$
 *đặc biệt, nếu* $a \subset b$, *thì* $r(a) \subset r(b)$.
 
-Đối với một iđêan nguyên tố chứa $a \cap b$ (hoặc $ab$), điều kiện cần và đủ là nó chứa một trong các iđêan $a, b$ (\S 1, no. 1, Mệnh đề 1).
+Đối với một iđêan nguyên tố chứa $a \cap b$ (hoặc $ab$), điều kiện cần và đủ là nó chứa một trong các iđêan $a, b$ (§ 1, no. 1, Mệnh đề 1).
 
 #### Mệnh đề 14 {#ac-ii-s2-prop-14 .statement}
 

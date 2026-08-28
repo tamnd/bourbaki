@@ -25,7 +25,7 @@ subsections:
       pdf_page: 456
 statements: 14
 exercises: 2
-content_sha256: e3c861ffcd021309856ff685759ee07561069de46e3d425be802720ae6d29f75
+content_sha256: 34f40a243b26113b5ca170f44a53946190e03c0c9c5132625229fb3ca220d4f2
 ---
 
 ## 10. EXTENSIONS OF A VALUATION TO A TRANSCENDENTAL EXTENSION
@@ -129,7 +129,7 @@ $$
 
 #### Proposition 3 {#ac-vi-s10-prop-3 .statement}
 
-*Let G be a totally ordered Commutative group and H a subgroup of G. If $h(G)$ and $h(H)$ denote the heights of G and H* ($\S 4$, no. 4), *then the inequality*
+*Let G be a totally ordered Commutative group and H a subgroup of G. If $h(G)$ and $h(H)$ denote the heights of G and H* ($§ 4$, no. 4), *then the inequality*
 
 $$
 h(G) \leq h(H) + r(G/H)
@@ -229,7 +229,7 @@ Let $r$ and $s$ be natural numbers such that $r \leq r(v'/v)$ and $s \leq s(v'/v
 
 They are therefore algebraically independent over $K$, which shows the inequality $r + s < d(K'/K)$.
 
-If $K'$ is a finitely generated extension of $K$, $d(K'/K)$ is finite, hence $s(v'/v)$ and $r(v'/v)$ are also finite; we denote them by $s$ and $r$. There exist elements $x_1, \ldots, x_s, y_1, \ldots, y_r$ of $K'$ which satisfy the hypotheses of Theorem 1. If $r + s = d(K'/K)$, these elements form a transcendence basis of $K'$ over $K$ and $K'$ is therefore a finite algebraic extension of $K'' = K(x_1, \ldots, y_r)$. Let $\Gamma''$ and $k''$ be the order group and residue field of the restriction of $v'$ to $K''$. By Theorem 1, $\Gamma''/\Gamma$ is a finitely generated $\mathbf{Z}$-module and $k''$ is a finitely generated pure extension of $k$. On the other hand, as $K'$ is a finite algebraic extension of $K$, $\Gamma'/\Gamma$ is a finite group and $k'$ is a finite algebraic extension of $k''$ (\S 8, no. 1, Lemma 2). This proves the corollary.
+If $K'$ is a finitely generated extension of $K$, $d(K'/K)$ is finite, hence $s(v'/v)$ and $r(v'/v)$ are also finite; we denote them by $s$ and $r$. There exist elements $x_1, \ldots, x_s, y_1, \ldots, y_r$ of $K'$ which satisfy the hypotheses of Theorem 1. If $r + s = d(K'/K)$, these elements form a transcendence basis of $K'$ over $K$ and $K'$ is therefore a finite algebraic extension of $K'' = K(x_1, \ldots, y_r)$. Let $\Gamma''$ and $k''$ be the order group and residue field of the restriction of $v'$ to $K''$. By Theorem 1, $\Gamma''/\Gamma$ is a finitely generated $\mathbf{Z}$-module and $k''$ is a finitely generated pure extension of $k$. On the other hand, as $K'$ is a finite algebraic extension of $K$, $\Gamma'/\Gamma$ is a finite group and $k'$ is a finite algebraic extension of $k''$ (§ 8, no. 1, Lemma 2). This proves the corollary.
 
 #### Corollary 2 {#ac-vi-s10-thm-1-cor-2 .statement}
 

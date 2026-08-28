@@ -5,14 +5,14 @@ pdf_page	chapter	page	confidence
 2			none
 3			none
 4			none
-5	I	1	interpolated
-6	I	2	interpolated
-7	I	3	head
-8	I	4	head
-9	I	5	head
-10	I	6	head
-11	I	7	head
-12	I	8	head
+5		1	interpolated
+6		2	interpolated
+7		3	head
+8		4	head
+9		5	head
+10		6	head
+11		7	head
+12		8	head
 13	I	9	interpolated
 14	I	10	interpolated
 15	I	11	head
@@ -35,15 +35,15 @@ pdf_page	chapter	page	confidence
 32	II	28	head
 33	II	29	interpolated
 34	II	30	head
-35	III	31	interpolated
-36	III	32	interpolated
-37	III	33	head
-38	III	34	head
-39	III	35	head
-40	III	36	head
-41	III	37	head
-42	III	38	head
-43	III	39	head
+35	II	31	interpolated
+36	II	32	interpolated
+37	II	33	head
+38	II	34	head
+39	II	35	head
+40	II	36	head
+41	II	37	head
+42	II	38	head
+43	II	39	head
 44	III	40	interpolated
 45	III	41	interpolated
 46	III	42	head
@@ -107,9 +107,9 @@ pdf_page	chapter	page	confidence
 104	III	100	interpolated
 105	III	101	head
 106	III	102	head
-107	IV	103	head
-108	IV	104	head
-109	IV	105	interpolated
+107	III	103	head
+108	III	104	head
+109	III	105	interpolated
 110	IV	106	interpolated
 111	IV	107	interpolated
 112	IV	108	head

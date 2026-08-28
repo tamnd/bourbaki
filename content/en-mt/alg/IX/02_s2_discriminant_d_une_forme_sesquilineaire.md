@@ -11,11 +11,11 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: 3eab284ba2474393c61ceeaac12f5d262c77155988e95419b9adcddb16ebd1e5
+content_sha256: 74216b1983a14730e4a90fe3ef714c5d502c977a67246ee11dfa0177303bbb68
 translated_from: content/fr/alg/IX/02_s2_discriminant_d_une_forme_sesquilineaire.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: f3140c619fb912b4b127edb64a0352d45722f2a328076238307c0c7e0f929b02
+source_content_sha256: a03e917bbb712788678cb44f2f8c4eeb837bff91ffaff8fe794b3c2a69ffeff6
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-d8dbaedb
 glossary_version: 34
@@ -43,7 +43,7 @@ Given a sesquilinear form $\Phi$ for $J$ on $E$ and a system $S = (x_1, \ldots, 
 
 If $(e_1, \ldots, e_n)$ is a basis of $E$, the discriminant of $\Phi$ with respect to this basis is none other than the determinant of the matrix of $\Phi$ with respect to this basis.
 
-It follows from the definition of the extension of $\Phi$ to $\wedge^n E$ ($\S 1$, no 9) that we have
+It follows from the definition of the extension of $\Phi$ to $\wedge^n E$ ($§ 1$, no 9) that we have
 
 $$
 D_\Phi(x_1, \ldots, x_n) = \Phi_{(n)}(x_1 \wedge \ldots \wedge x_n, x_1 \wedge \ldots \wedge x_n),
@@ -94,19 +94,19 @@ $$
 
 It follows from prop. 1 that, if $(e_i)$ is a basis of $E$ and $(x_i)$ an arbitrary system of $n$ elements of $E$, $D_\Phi(e_1, \ldots, e_n)$ *divides* $D_\Phi(x_1, \ldots, x_n)$. In particular the discriminants of $\Phi$ with respect to any two bases of $E$ generate the same principal ideal of $A$.
 
-Let $(E_i)_{i \in I}$ be a finite family of finite-dimensional free $A$-modules, $\Phi_i$ a sesquilinear form for $J$ on $E_i$, and $B_i$ a basis of $E_i$. If $\Phi$ denotes the *direct sum* of the $\Phi_i$ (\S 1, no 3) and $B$ the basis of $\prod_{i \in I} E_i$ obtained by joining the $B_i$, then obviously
+Let $(E_i)_{i \in I}$ be a finite family of finite-dimensional free $A$-modules, $\Phi_i$ a sesquilinear form for $J$ on $E_i$, and $B_i$ a basis of $E_i$. If $\Phi$ denotes the *direct sum* of the $\Phi_i$ (§ 1, no 3) and $B$ the basis of $\prod_{i \in I} E_i$ obtained by joining the $B_i$, then obviously
 $$
 (5) \qquad D_\Phi(B) = \prod_{i \in I} D_{\Phi_i}(B_i).
 $$
 
-Let $\Phi$ be a sesquilinear form for $J$ on $E$, $h$ a homomorphism of $A$ into a commutative ring $A'$, $\Phi'$ the sesquilinear form on $A' \otimes_A E$ obtained by extension of $\Phi$ (\S 1, no 4) and $(x_1, \ldots, x_n)$ an arbitrary system of elements of $E$. Since $A' \otimes_A E$ is a free $A'$-module, $D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n)$ is defined, and we have obviously
+Let $\Phi$ be a sesquilinear form for $J$ on $E$, $h$ a homomorphism of $A$ into a commutative ring $A'$, $\Phi'$ the sesquilinear form on $A' \otimes_A E$ obtained by extension of $\Phi$ (§ 1, no 4) and $(x_1, \ldots, x_n)$ an arbitrary system of elements of $E$. Since $A' \otimes_A E$ is a free $A'$-module, $D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n)$ is defined, and we have obviously
 $$
 (6) \qquad D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n) = h(D_\Phi(x_1, \ldots, x_n)).
 $$
 
 #### Example {#alg-ix-s2-n0-exa-2 .statement}
 
-Let $B$ be an algebra over $A$ which is a free $A$-module of finite dimension $n$, $(x_1, \ldots, x_n)$ a basis of $B$ over $A$, and $m$ an ideal of $A$. If $h$ denotes the canonical homomorphism of $B$ onto $B/mB$, $(h(x_1), \ldots, h(x_n))$ is a basis of $B/mB$ over $A/m$ (chap. I, \S 6, no 5, prop. 5), and $B/mB$ is isomorphic to $(A/m) \otimes_A B$. We therefore have
+Let $B$ be an algebra over $A$ which is a free $A$-module of finite dimension $n$, $(x_1, \ldots, x_n)$ a basis of $B$ over $A$, and $m$ an ideal of $A$. If $h$ denotes the canonical homomorphism of $B$ onto $B/mB$, $(h(x_1), \ldots, h(x_n))$ is a basis of $B/mB$ over $A/m$ (chap. I, § 6, no 5, prop. 5), and $B/mB$ is isomorphic to $(A/m) \otimes_A B$. We therefore have
 $$
 D_{(B/mB)/(A/m)}(h(x_1), \ldots, h(x_n)) = h(D_{B/A}(x_1, \ldots, x_n)).
 $$
@@ -139,7 +139,7 @@ Indeed condition c) expresses that the matrix of $\Phi$ with respect to $S$ is i
 
 Suppose that $A$ is integral. Let $S$ be a basis of $E$. A necessary and sufficient condition for a sesquilinear form $\Phi$ on $E$ to be nondegenerate is that one has $D_\Phi(S) \neq 0$.
 
-Indeed, let K be the field of fractions of A, and let $\Phi'$ be the extension of $\Phi$ to the K-vector space $K \otimes_A E$; identify E with a subset of this vector space. The relation $D_{\Phi}(S) \neq 0$ is then equivalent to $D_{\Phi'}(S) \neq 0$ (formula (6)), which itself expresses that $s_{\Phi'}$ is bijective (prop. 3), that is to say that $\Phi'$ is nondegenerate (\$ 1, No. 6, prop. 6). Now, for every $x \in K \otimes_A E$, there exists $a \in A$ such that $ax \in E$; consequently, for $\Phi$ to be degenerate, it is necessary and sufficient that $\Phi'$ be so. This proves our assertion.
+Indeed, let K be the field of fractions of A, and let $\Phi'$ be the extension of $\Phi$ to the K-vector space $K \otimes_A E$; identify E with a subset of this vector space. The relation $D_{\Phi}(S) \neq 0$ is then equivalent to $D_{\Phi'}(S) \neq 0$ (formula (6)), which itself expresses that $s_{\Phi'}$ is bijective (prop. 3), that is to say that $\Phi'$ is nondegenerate (§ 1, No. 6, prop. 6). Now, for every $x \in K \otimes_A E$, there exists $a \in A$ such that $ax \in E$; consequently, for $\Phi$ to be degenerate, it is necessary and sufficient that $\Phi'$ be so. This proves our assertion.
 
 #### Proposition 5 {#alg-ix-s2-prop-5 .statement}
 
@@ -192,7 +192,7 @@ Exercises. — 1) Let A be an algebra of finite rank over a commutative field K,
 
 ¶ 2) Let B be a ring, A a subring of B containing the unit element of B; B is therefore a (A, A)-bimodule; denote by $^sB$ (resp. $^dB$) the set B considered as a left (resp. right) A-module, by $^sB^*$ (resp. $^dB^*$) the right (resp. left) A-module dual of $^sB$ (resp. $^dB$). For every $x' \in ^sB^*$ and every $b \in B$, $x \to \langle xb, x' \rangle$ is an A-linear form on $^sB$, hence an element of $^sB^*$ which is denoted by $bx'$; the mapping $(b, x') \to bx'$ defines on $^sB^*$ a left B-module structure (cf. chap. III, 2nd ed., App. II, No. 7).
    a) Let $\varphi$ be a homomorphism of the (A, A)-bimodule B into the (A, A)-bimodule A; in order that the A-bilinear mapping $\Phi : (x, y) \to \varphi(xy)$ from $^sB \times ^dB$ into A be non-degenerate, it is necessary and sufficient that $\varphi(0)$ contain no ideal (left or right) of B distinct from $\{0\}$. One then says that $\varphi$ is a Frobenius homomorphism of B into A.
-   b) Let $\varphi$ be a Frobenius homomorphism of B into A; show that the mapping $d_\varphi$ associated on the right with $\Phi$ is an isomorphism of the left B-module $B_s$ onto a submodule of the left B-module $^sB^*$. Show that $d_\varphi$ is bijective in each of the following two cases: 1° A is a left and right artinian ring satisfying the conditions (N_s) and (N_d) (\S 1, exerc. 11), and $^sB$ and $^dB$ are A-modules of finite length (use exerc. 11 b) of the \S 1); 2° A is an artinian commutative and involutive ring (chap. VIII, § 3, exerc. 11), contained in the center of B, and $^sB$ is an A-module of finite length (use exerc. 11 of chap. VIII, § 3).
+   b) Let $\varphi$ be a Frobenius homomorphism of B into A; show that the mapping $d_\varphi$ associated on the right with $\Phi$ is an isomorphism of the left B-module $B_s$ onto a submodule of the left B-module $^sB^*$. Show that $d_\varphi$ is bijective in each of the following two cases: 1° A is a left and right artinian ring satisfying the conditions (N_s) and (N_d) (§ 1, exerc. 11), and $^sB$ and $^dB$ are A-modules of finite length (use exerc. 11 b) of the § 1); 2° A is an artinian commutative and involutive ring (chap. VIII, § 3, exerc. 11), contained in the center of B, and $^sB$ is an A-module of finite length (use exerc. 11 of chap. VIII, § 3).
 
 c) Conversely, show that if $B_s$ and $^sB^*$ are isomorphic, there exists a Frobenius homomorphism of B into A when one is in one of the two cases considered in b) and $^sB$ and $^dB$ have the same length (use exerc. 11 b) of the § 1).
 

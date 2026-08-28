@@ -32,7 +32,7 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: 2a500a7549e56905be9bc09ce400c6f4cd4e6cc2214970a64c59e9676425ae87
+content_sha256: e2c4e69fdd13a741a502879f76e3145e94bb7fd20f1e9d2440ff7b50608cba33
 ---
 
 ## § 9. Algèbres de Clifford
@@ -91,7 +91,7 @@ Prenons en particulier Q' = Q et pour f l’application x → -x ; on voit qu’
 
 #### Proposition 2 {#alg-ix-s9-prop-2 .statement}
 
-Soient $A'$ un anneau commutatif, $\varphi$ un homomorphisme de A dans $A'$, Q’ la forme quadratique sur $E' = A' \otimes_A E$ déduite de Q par extension des scalaires ($\S 3$, no 4, prop. 3). Il existe un isomorphisme j et un seul de l’algèbre $A' \otimes_A C(Q)$ sur $C(Q')$ tel que $j (1 \otimes \rho_Q(x)) = \rho_{Q'}(1 \otimes x)$ pour tout $x \in E$.
+Soient $A'$ un anneau commutatif, $\varphi$ un homomorphisme de A dans $A'$, Q’ la forme quadratique sur $E' = A' \otimes_A E$ déduite de Q par extension des scalaires ($§ 3$, no 4, prop. 3). Il existe un isomorphisme j et un seul de l’algèbre $A' \otimes_A C(Q)$ sur $C(Q')$ tel que $j (1 \otimes \rho_Q(x)) = \rho_{Q'}(1 \otimes x)$ pour tout $x \in E$.
 
 Il suffit de démontrer que l’algèbre $C' = A' \otimes C(Q)$ et l’application $1 \otimes \rho_Q$ de $E'$ dans $C'$ forment une solution du même problème d’application universelle que $C(Q')$ et $\rho_{Q'}$. Or, soient D’ une algèbre sur $A'$ et $f'$ une application $A'$-linéaire de $E'$ dans D’ telle que $f'(x')^2 = Q'(x').1$ pour tout $x' \in E'$. L’application $g : x \to f' (1 \otimes x)$ de E dans D’ (considéré comme A-module grâce à l’homomorphisme $\varphi$) est A-linéaire et on a $g(x)^2 = Q' (1 \otimes x).1 = Q(x).1$ pour tout $x \in E$. Il existe donc un A-homomorphisme $\overline{g}$ et un seul de $C(Q)$ dans D’ tel que $\overline{g}(\rho_Q(x)) = f'(1 \otimes x)$. Par suite il existe un $A'$-homomorphisme $\overline{f}'$ et un seul de $C'$ dans D’ tel que $\overline{f}'(1 \otimes \rho_Q(x)) = f'(1 \otimes x)$ pour tout $x \in E$; par linéarité il en résulte que $\overline{f}'((1 \otimes \rho_Q)(x')) = f'(x')$ pour tout $x' \in E'$. CQFD.
 
@@ -284,9 +284,9 @@ Dans ce n°, nous supposerons que $A$ est un corps, que $E$ est un espace vector
 
 Supposons que la dimension de $E$ soit un nombre pair $m = 2r$ et que $Q$ soit neutre (§ 4, n° 2). Alors l’algèbre $C(Q)$ est séparable (chap. VIII, § 7, n° 5, déf. 1) et est isomorphe à l’algèbre des endomorphismes d’un espace vectoriel de dimension $2^r$ sur $A$. De plus si $m > 0$, $C^+(Q)$ est séparable et est composée directe de deux idéaux isomorphes à l’algèbre des endomorphismes d’un espace vectoriel de dimension $2^{r-1}$ sur $A$.
 
-En effet, comme Q est neutre, on peut décomposer E en somme directe de deux sous-espaces N et P totalement singuliers de dimensions r (\S 4, no 2, cor. 1 de la prop. 2). La restriction de Q à N étant nulle, la sous-algèbre S de C(Q) engendrée par N s’identifie à l’algèbre extérieure de N (no 3, lemme 4). Pour $n \in \mathbf{N}$, nous noterons $e'_n$ l’application $t \to nt$ de S dans elle-même.
+En effet, comme Q est neutre, on peut décomposer E en somme directe de deux sous-espaces N et P totalement singuliers de dimensions r (§ 4, no 2, cor. 1 de la prop. 2). La restriction de Q à N étant nulle, la sous-algèbre S de C(Q) engendrée par N s’identifie à l’algèbre extérieure de N (no 3, lemme 4). Pour $n \in \mathbf{N}$, nous noterons $e'_n$ l’application $t \to nt$ de S dans elle-même.
 
-Soit $(n_1, \ldots, n_r)$ une base de N ; nous noterons $(p_1, \ldots, p_r)$ la base de P telle que $\Phi(n_i, p_j) = \delta_{ij}$ (\S 4, no 2, prop. 2). Pour $p \in P$, nous noterons $p'$ la forme linéaire $n \to \Phi(n, p)$ sur N, et $i_p$ l’endomorphisme de S déduit par passage au quotient de l’endomorphisme $i_{p'}$ de T(N) associé à $p'$ comme il a été dit au lemme 1 du no 2. On a, d’après (5),
+Soit $(n_1, \ldots, n_r)$ une base de N ; nous noterons $(p_1, \ldots, p_r)$ la base de P telle que $\Phi(n_i, p_j) = \delta_{ij}$ (§ 4, no 2, prop. 2). Pour $p \in P$, nous noterons $p'$ la forme linéaire $n \to \Phi(n, p)$ sur N, et $i_p$ l’endomorphisme de S déduit par passage au quotient de l’endomorphisme $i_{p'}$ de T(N) associé à $p'$ comme il a été dit au lemme 1 du no 2. On a, d’après (5),
 
 $$
 e'_n \circ i_p + i_p \circ e'_n = \Phi(n, p) \qquad (n \in \mathbf{N}, \ p \in \mathbf{P}).
@@ -310,7 +310,7 @@ Pour démontrer la seconde assertion, posons $S^+ = S \cap C^+$ et $S^- = S \cap
 
 *Si m est pair, mais Q d’indice quelconque, l’algèbre C(Q) est une algèbre centrale simple de dimension $2^m$. De plus, si $m > 0$, la sous-algèbre $C^+(Q)$ est séparable, et son centre Z est de dimension 2 sur A. Lorsque Z est un corps, Z est une extension quadratique séparable de A et $C^+(Q)$ est simple; sinon, Z est composé direct de deux corps isomorphes à A, et $C^+(Q)$ est alors composée directe de deux sous-algèbres simples de dimensions $2^{m-2}$.
 
-En effet, soient $A'$ la clôture algébrique de A, et $Q'$ la forme quadratique sur $E' = A' \otimes_A E$ déduite de Q par extension des scalaires. On a vu que $C(Q')$ est isomorphe à $A' \otimes_A C(Q)$ (prop. 2), et il est clair que $C^+(Q')$ est isomorphe à $A' \otimes_A C^+(Q)$. Comme $Q'$ est neutre ($\S 4$, no 2, cor. 2 de la prop. 3), le corollaire est une conséquence immédiate du th. 2 et des théorèmes de permanence du chap. VIII, $\S 7$.
+En effet, soient $A'$ la clôture algébrique de A, et $Q'$ la forme quadratique sur $E' = A' \otimes_A E$ déduite de Q par extension des scalaires. On a vu que $C(Q')$ est isomorphe à $A' \otimes_A C(Q)$ (prop. 2), et il est clair que $C^+(Q')$ est isomorphe à $A' \otimes_A C^+(Q)$. Comme $Q'$ est neutre ($§ 4$, no 2, cor. 2 de la prop. 3), le corollaire est une conséquence immédiate du th. 2 et des théorèmes de permanence du chap. VIII, $§ 7$.
 
 #### Remarque 1 {#alg-ix-s9-n4-rem-1 .statement}
 
@@ -336,7 +336,7 @@ a) *L’algèbre $C^+(Q)$ est centrale simple. Si $Q$ est d’indice maximum $r$
 
 b) *L’algèbre $C(Q)$ est séparable. Son centre $Z$ est de dimension 2, et $C(Q)$ est isomorphe à $Z \otimes_A C^+(Q)$, donc est simple ou composée directe de deux sous-algèbres simples.*
 
-Soient en effet $x_0$ un vecteur non isotrope de $E$, et $F$ l’orthogonal de $x_0$; notons $Q_1$ la forme quadratique $y \to -Q(x_0)Q(y)$ sur $F$; il est clair que $Q_1$ est non dégénérée. Comme $x_0 y = -y x_0$ (pour $y \in F$), on a $(x_0 y)^2 = -Q(x_0)Q(y) = Q_1(y)$, et par suite l’application $y \to x_0 y$ de $F$ dans $C^+(Q)$ se prolonge en un homomorphisme $h$ de $C(Q_1)$ dans $C^+(Q)$ (n° 1, prop. 1). Or $C(Q_1)$ est simple (th. 2) et a même dimension $2^{2r}$ que $C^+(Q)$; ceci entraîne, puisque $h(1) = 1$, que $h$ est un isomorphisme. De plus, si $Q$ est d’indice $r$, on peut choisir $x_0$ de telle sorte que $Q_1$ soit aussi d’indice $r$ (\$ 4, n° 2, prop. 3), ce qui démontre $a$.
+Soient en effet $x_0$ un vecteur non isotrope de $E$, et $F$ l’orthogonal de $x_0$; notons $Q_1$ la forme quadratique $y \to -Q(x_0)Q(y)$ sur $F$; il est clair que $Q_1$ est non dégénérée. Comme $x_0 y = -y x_0$ (pour $y \in F$), on a $(x_0 y)^2 = -Q(x_0)Q(y) = Q_1(y)$, et par suite l’application $y \to x_0 y$ de $F$ dans $C^+(Q)$ se prolonge en un homomorphisme $h$ de $C(Q_1)$ dans $C^+(Q)$ (n° 1, prop. 1). Or $C(Q_1)$ est simple (th. 2) et a même dimension $2^{2r}$ que $C^+(Q)$; ceci entraîne, puisque $h(1) = 1$, que $h$ est un isomorphisme. De plus, si $Q$ est d’indice $r$, on peut choisir $x_0$ de telle sorte que $Q_1$ soit aussi d’indice $r$ (§ 4, n° 2, prop. 3), ce qui démontre $a$.
 
 Soit maintenant $(x_1, \ldots, x_{2r})$ une base orthogonale de $F$; posons $z = x_0 x_1 \ldots x_{2r}$. On vérifie immédiatement que $z$ commute avec $x_j$ pour $j = 0, \ldots, 2r$, donc appartient au centre de $C(Q)$. Soit $Z$ le sous-espace de $C(Q)$ engendré par $1$ et $z$; c’est une sous-algèbre du centre de $C(Q)$ et une extension quadratique de $A$, car $z$ est impair et $z^2$ est égal au scalaire $(-1)^r Q(x_0) \ldots Q(x_{2r})$. Considérons l’homomorphisme $\theta$ de $Z \otimes_A C^+(Q)$ dans $C(Q)$ défini par $\theta(u \otimes v) = uv$. Comme $z \in C^-$ et est inversible, l’application $u \to zu$ est un isomorphisme du module $C^+$ sur $C^-$, ce qui entraîne que $\theta(Z \otimes C^+)$ contient $C^+$ et $C^-$, donc coïncide avec $C(Q)$. Comme $Z \otimes C^+$ et $C(Q)$ ont même dimension $2^{2r+1}$, $\theta$ est un isomorphisme ; ceci démontre $b$, compte tenu des résultats du chap. VIII, § 7.
 
@@ -370,17 +370,17 @@ On a en effet $Q(sxs^{-1}) = (sxs^{-1})^2 = sx^2 s^{-1} = Q(x)$ pour $s \in G$ e
 
 Pour qu’un élément $x$ de $E$ appartienne à $G$, il faut qu’il soit inversible, c’est-à-dire que ce soit un vecteur non singulier (puisque $x^2 = Q(x)$). S’il en est ainsi, on a $x^{-1} = Q(x)^{-1} x$, d’où, pour tout $y \in E$,
 $$ xy x^{-1} = Q(x)^{-1} xy x = Q(x)^{-1} x (\Phi(x, y) - xy) = - (y - \Phi(x, y) Q(x)^{-1} x); $$
-ceci démontre b) (\S 6, no 4).
+ceci démontre b) (§ 6, no 4).
 
 #### Lemme 5 {#alg-ix-s9-lem-5 .statement}
 
 Tout élément $s$ de $G$ est de la forme $zs'$, où $z$ est un élément inversible de $Z$ et $s'$ appartient à $G \cap C^+(Q)$ ou à $G \cap C^-(Q)$; le sous-groupe $G^+$ est d’indice 2 dans $G$ lorsque $E \neq \{0\}$.
 
-La seconde assertion résulte évidemment de la première, puisque les vecteurs non singuliers appartiennent à $G \cap C^-(Q)$. Supposons d’abord $\dim(E)$ paire, et soit $s = t' + t''$, avec $t' \in C^+(Q)$ et $t'' \in C^-(Q)$; on a par définition $sx = (\varphi(s).x)s$ pour tout $x \in E$; comme $t'x$ et $(\varphi(s).x)t'$ (resp. $t''x$ et $(\varphi(s).x)t''$) sont des éléments impairs (resp. pairs), on a $t'x = (\varphi(s).x)t'$, d’où $s^{-1} t' x = xs^{-1} t'$ pour tout $x \in E$. On en conclut que $s^{-1} t' \in Z$ et comme $\dim(E)$ est paire, $Z = A$ (no 4, cor. du th. 2), donc $t' = as$, où $a \in A$. Si $a \neq 0$, on a donc $s = a^{-1} t'$ et $t' \in G \cap C^+(Q)$; si $a = 0$, $s = t'' \in G \cap C^-(Q)$ et le lemme est démontré dans ce cas. Si $\dim(E)$ est impaire, $A$ est de caractéristique $\neq 2$, donc pour tout $s \in G$, $\varphi(s)$ est un produit de symétries par rapport à des vecteurs non singuliers $x_i (i = 1, 2, \ldots, h)$ (\S 6, n° 4, prop. 5); si on pose $s' = x_1 x_2 \ldots x_h$, on a $\varphi(s) = \varphi(s')$, donc $s = z s'$, où $z \in \mathbf{Z}$, et $s'$ appartient à $C^+(Q)$ ou à $C^-(Q)$ suivant que $h$ est pair ou impair.
+La seconde assertion résulte évidemment de la première, puisque les vecteurs non singuliers appartiennent à $G \cap C^-(Q)$. Supposons d’abord $\dim(E)$ paire, et soit $s = t' + t''$, avec $t' \in C^+(Q)$ et $t'' \in C^-(Q)$; on a par définition $sx = (\varphi(s).x)s$ pour tout $x \in E$; comme $t'x$ et $(\varphi(s).x)t'$ (resp. $t''x$ et $(\varphi(s).x)t''$) sont des éléments impairs (resp. pairs), on a $t'x = (\varphi(s).x)t'$, d’où $s^{-1} t' x = xs^{-1} t'$ pour tout $x \in E$. On en conclut que $s^{-1} t' \in Z$ et comme $\dim(E)$ est paire, $Z = A$ (no 4, cor. du th. 2), donc $t' = as$, où $a \in A$. Si $a \neq 0$, on a donc $s = a^{-1} t'$ et $t' \in G \cap C^+(Q)$; si $a = 0$, $s = t'' \in G \cap C^-(Q)$ et le lemme est démontré dans ce cas. Si $\dim(E)$ est impaire, $A$ est de caractéristique $\neq 2$, donc pour tout $s \in G$, $\varphi(s)$ est un produit de symétries par rapport à des vecteurs non singuliers $x_i (i = 1, 2, \ldots, h)$ (§ 6, n° 4, prop. 5); si on pose $s' = x_1 x_2 \ldots x_h$, on a $\varphi(s) = \varphi(s')$, donc $s = z s'$, où $z \in \mathbf{Z}$, et $s'$ appartient à $C^+(Q)$ ou à $C^-(Q)$ suivant que $h$ est pair ou impair.
 
 Supposons dim(E) paire. Comme tout élément $u$ de $\mathbf{O}(Q)$ se prolonge d’une manière et d’une seule en un automorphisme $\bar{u}$ de $C(Q)$ (prop. 1), et comme $C(Q)$ est centrale simple (th. 2), $\bar{u}$ est un automorphisme intérieur (chap. VIII, § 10, n° 1, th. 1). Il existe donc un élément $s$ de $G$ tel que $\varphi(s) = u$. D’autre part le centre de $C(Q)$ est contenu dans $C^+$, ce qui entraîne que $\varphi(G)/\varphi(G^+)$ est isomorphe à $G/G^+$, donc que $\varphi(G^+)$ est d’indice 2 dans $\varphi(G) = \mathbf{O}(Q)$ si $E \not= \{0\}$. Ceci démontre les deux premières assertions de c).
 
-Supposons enfin que $A$ soit de caractéristique $\not= 2$. Alors tout élément $u$ de $\mathbf{O}(Q)$ est un produit de symétries par rapport à des hyperplans orthogonaux à des vecteurs non singuliers $x_i (i = 1, \ldots, h)$ (\S 6, n° 4, prop. 5); on a par suite $u = (-1)^h \varphi(x_1 \ldots x_h)$ et $\det(u) = (-1)^h$. Pour que $u$ appartienne à $\mathbf{SO}(Q)$, il faut et il suffit que $h$ soit pair, ce qui montre que $\varphi(G^+) \supset \mathbf{SO}(Q)$. Comme $\mathbf{SO}(Q)$ est d’indice 2 dans $\mathbf{O}(Q)$ lorsque $E \not= \{0\}$, on a $\varphi(G^+) = \mathbf{SO}(Q)$ si $E$ est de dimension *paire*, ce qui termine la démonstration de c). Par contre, si la dimension de $E$ est *impaire*, $\varphi(G)$ ne contient pas la transformation orthogonale $x \to -x$; en effet celle-ci se prolonge en l’automorphisme principal $\alpha$ de $C(Q)$ (n° 1), et $\alpha$ n’est pas un automorphisme intérieur puisque le centre $Z$ de $C(Q)$ contient un élément non nul de $C^-(Q)$ (th. 3). On a donc $\varphi(G) \not= \mathbf{O}(Q)$, et, comme $\varphi(G) \supset \varphi(G^+) \supset \mathbf{SO}(Q)$ et que $\mathbf{SO}(Q)$ est d’indice 2 dans $\mathbf{O}(Q)$, on a $\varphi(G) = \varphi(G^+) = \mathbf{SO}(Q)$. Ceci démontre d). CQFD.
+Supposons enfin que $A$ soit de caractéristique $\not= 2$. Alors tout élément $u$ de $\mathbf{O}(Q)$ est un produit de symétries par rapport à des hyperplans orthogonaux à des vecteurs non singuliers $x_i (i = 1, \ldots, h)$ (§ 6, n° 4, prop. 5); on a par suite $u = (-1)^h \varphi(x_1 \ldots x_h)$ et $\det(u) = (-1)^h$. Pour que $u$ appartienne à $\mathbf{SO}(Q)$, il faut et il suffit que $h$ soit pair, ce qui montre que $\varphi(G^+) \supset \mathbf{SO}(Q)$. Comme $\mathbf{SO}(Q)$ est d’indice 2 dans $\mathbf{O}(Q)$ lorsque $E \not= \{0\}$, on a $\varphi(G^+) = \mathbf{SO}(Q)$ si $E$ est de dimension *paire*, ce qui termine la démonstration de c). Par contre, si la dimension de $E$ est *impaire*, $\varphi(G)$ ne contient pas la transformation orthogonale $x \to -x$; en effet celle-ci se prolonge en l’automorphisme principal $\alpha$ de $C(Q)$ (n° 1), et $\alpha$ n’est pas un automorphisme intérieur puisque le centre $Z$ de $C(Q)$ contient un élément non nul de $C^-(Q)$ (th. 3). On a donc $\varphi(G) \not= \mathbf{O}(Q)$, et, comme $\varphi(G) \supset \varphi(G^+) \supset \mathbf{SO}(Q)$ et que $\mathbf{SO}(Q)$ est d’indice 2 dans $\mathbf{O}(Q)$, on a $\varphi(G) = \varphi(G^+) = \mathbf{SO}(Q)$. Ceci démontre d). CQFD.
 
 Le sous-groupe $\varphi(G^+)$ de $\mathbf{O}(Q)$, qui est d’indice 2 si $E \not= \{0\}$, s’appelle le *groupe des rotations* de $E$, et ses éléments prennent le nom de *rotations*; on le note $\mathbf{O}^+(Q)$. Remarquons que, si $A$ n’est pas de caractéristique 2, on a $\mathbf{O}^+(Q) = \mathbf{SO}(Q)$ (cf. exerc. 9).
 
@@ -390,13 +390,13 @@ Le sous-groupe $\varphi(G^+)$ de $\mathbf{O}(Q)$, qui est d’indice 2 si $E \no
 
 En effet, pour $s \in G^+$, on a $sEs^{-1} = E$, d’où $\beta(s)^{-1}E\beta(s) = E$, ce qui montre que $\beta(s) \in G^+$. Comme $sx = (\varphi(s).x)s$ pour tout $x \in E$, on a $x\beta(s) = \beta(sx) = \beta(s)(\varphi(s).x)$, et par suite $\beta(s)sx = \beta(s)(\varphi(s).x)s = x\beta(s)s$, ce qui entraîne que $\beta(s)s$ appartient au centre de $C(Q)$. Comme, de plus, $\beta(s)s$ appartient à $C^+(Q)$, $\beta(s)s$ est un scalaire (th. 2 et 3). Enfin on a $\beta(st)st = \beta(t)\beta(s)st = \beta(s)s\beta(t)t$, c’est-à-dire $N(st) = N(s)N(t)$ pour $s, t$ dans $G^+$. CQFD.
 
-Le scalaire $N(s) = \beta(s)s$ ($s \in G^+$) s’appelle la norme spinorielle de $s$. On désigne par $G_0^+$ et on appelle groupe de Clifford réduit le noyau de l’homomorphisme $N$. L’image $\varphi(G_0^+)$ est notée $O_0^+(Q)$ et s’appelle le groupe orthogonal réduit de $Q$. Comme le noyau de la restriction de $\varphi$ à $G^+$ est l’ensemble des éléments pairs et invér-sibles du centre de $C(Q)$ (th. 4) et s’identifie donc à $A^*$ (th. 2 et 3), $\varphi(G^+)/O_0^+(Q)$ est isomorphe à $G^+/A^*G_0^+$, donc aussi à $N(G^+)/N(A^*)$, et en particulier commutatif. Il est clair que $N(A^*)$ est le sous-groupe $(A^*)^2$ des carrés d’éléments de $A^*$. Si $Q$ est d’indice $> 0$, il existe, quel que soit $a \in A^*$, deux éléments $x$ et $y$ de $E$ tels que $Q(x) = a$ et $Q(y) = 1$ (\$ 4, no 2, prop. 4) ; comme $xy \in G^+$ et que $N(xy) = Q(x)Q(y) = a$, ceci montre que $N(G^+) = A^*$, donc que $\varphi(G^+)/O_0^+(Q)$ est isomorphe à $A^*/(A^*)^2$.
+Le scalaire $N(s) = \beta(s)s$ ($s \in G^+$) s’appelle la norme spinorielle de $s$. On désigne par $G_0^+$ et on appelle groupe de Clifford réduit le noyau de l’homomorphisme $N$. L’image $\varphi(G_0^+)$ est notée $O_0^+(Q)$ et s’appelle le groupe orthogonal réduit de $Q$. Comme le noyau de la restriction de $\varphi$ à $G^+$ est l’ensemble des éléments pairs et invér-sibles du centre de $C(Q)$ (th. 4) et s’identifie donc à $A^*$ (th. 2 et 3), $\varphi(G^+)/O_0^+(Q)$ est isomorphe à $G^+/A^*G_0^+$, donc aussi à $N(G^+)/N(A^*)$, et en particulier commutatif. Il est clair que $N(A^*)$ est le sous-groupe $(A^*)^2$ des carrés d’éléments de $A^*$. Si $Q$ est d’indice $> 0$, il existe, quel que soit $a \in A^*$, deux éléments $x$ et $y$ de $E$ tels que $Q(x) = a$ et $Q(y) = 1$ (§ 4, no 2, prop. 4) ; comme $xy \in G^+$ et que $N(xy) = Q(x)Q(y) = a$, ceci montre que $N(G^+) = A^*$, donc que $\varphi(G^+)/O_0^+(Q)$ est isomorphe à $A^*/(A^*)^2$.
 
 Exercices. — ¶ 1) Démontrer les cor. 3 et 4 du th. 1 du no 3 lorsque $E_1$ et $E_2$ sont deux sous-modules supplémentaires quelconques dans $E$. (Établir d’abord le cor. 4 : montrer pour cela que le produit tensoriel $C(Q_1) \otimes C(Q_2)$ est muni d’une structure d’algèbre par la convention de signe faite dans l’énoncé du cor. 4, et que cette algèbre $S$ est solution du même problème d’application universelle que $C(Q)$; on considérera pour cela, pour toute application linéaire $f$ de $E$ dans une algèbre $D$ sur $A$ telle que $(f(x))^2 = Q(x).1$, l’homomorphisme $\bar{f}_i$ de $C(Q_i)$ dans $D$ tel que $\bar{f}_i(1) = 1$, $\bar{f}_i(\rho_{Q_i}(x_i)) = f(x_i)$ pour $x_i \in E_i$ ($i = 1, 2$) et on prouvera qu’il existe un homomorphisme $\bar{f}$ de l’algèbre $S$ dans $D$ tel que
 $$
 \bar{f}(z_1 \otimes z_2) = \bar{f}_1(z_1)\bar{f}_2(z_2)
 $$
-pour $z_i \in C(Q_i)$ ($i = 1, 2$). Pour démontrer ensuite le cor. 3, considérer la forme quadratique $Q'$ somme directe externe de $Q_1$ et $Q_2$ (\$ 3, no 4), et remarquer que l’on a $Q'(x) = Q(x) + F(x, x)$, $F$ étant la forme bilinéaire définie par $F(x_1 + x_2, y_1 + y_2) = -\Phi(x_1, y_2)$ pour $x_i, y_i$ dans $E_i$ ($i = 1, 2$) ; utiliser alors la prop. 3.)
+pour $z_i \in C(Q_i)$ ($i = 1, 2$). Pour démontrer ensuite le cor. 3, considérer la forme quadratique $Q'$ somme directe externe de $Q_1$ et $Q_2$ (§ 3, no 4), et remarquer que l’on a $Q'(x) = Q(x) + F(x, x)$, $F$ étant la forme bilinéaire définie par $F(x_1 + x_2, y_1 + y_2) = -\Phi(x_1, y_2)$ pour $x_i, y_i$ dans $E_i$ ($i = 1, 2$) ; utiliser alors la prop. 3.)
 
 ¶ 2) On suppose que $E$ soit somme directe de deux sous-modules orthogonaux $E_1, E_2$ et on désigne par $Q_i$ la restriction de $Q$ à $E_i$ ($i = 1, 2$);
 
@@ -443,7 +443,7 @@ et en déduire que $i_f$ n’est autre que le produit intérieur droit $z \to z 
 
 ¶ 9) On suppose que A est un corps de caractéristique 2, E un espace vectoriel de dimension finie paire $2r$, Q une forme quadratique non dégénérée sur E.
 
-a) Soit $(e_i)$ une base symplectique ($\S 5,$ n° 1) de E pour la forme bilinéaire alternée $\Phi$ associée à Q. Montrer que l’élément
+a) Soit $(e_i)$ une base symplectique ($§ 5,$ n° 1) de E pour la forme bilinéaire alternée $\Phi$ associée à Q. Montrer que l’élément
 
 $$
 z = e_1 e_2 + e_3 e_4 + \cdots + e_{2r-1} e_{2r}
@@ -457,7 +457,7 @@ $$
 
 (appelé *pseudo-discriminant* de Q par rapport à la base symplectique $(e_i)$) soit de la forme $\lambda^2 + \lambda$, avec $\lambda \in A$.
 
-b) Soit $u$ une similitude pour $\Phi$ ($\S 6,$ n° 5) de multiplicateur $\mu(u)$, et soit $Q_1(x) = Q(u(x))$. On pose
+b) Soit $u$ une similitude pour $\Phi$ ($§ 6,$ n° 5) de multiplicateur $\mu(u)$, et soit $Q_1(x) = Q(u(x))$. On pose
 
 $$
 u(e_{2i-1}) = \sum_{j=1}^{r} a_{ij} e_{2j-1} + \sum_{j=1}^{r} b_{ij} e_{2j},
@@ -478,7 +478,7 @@ $$
 $$
 (\mu(u))^{-1}(u(e_1)u(e_2) + u(e_3)u(e_4) + \cdots + u(e_{2r-1})u(e_{2r}))
 $$
-appartient à $\mathbf{Z}$.) Pour que $u$ soit une similitude pour $Q$ ($\S 4$, exerc. 9) de multiplicateur $\mu(u)$, il faut et il suffit que $\mathrm{D}(u) = 0$ ou $\mathrm{D}(u) = \mu(u)$; les similitudes pour $Q$ telles que $\mathrm{D}(u) = 0$ sont dites directes.
+appartient à $\mathbf{Z}$.) Pour que $u$ soit une similitude pour $Q$ ($§ 4$, exerc. 9) de multiplicateur $\mu(u)$, il faut et il suffit que $\mathrm{D}(u) = 0$ ou $\mathrm{D}(u) = \mu(u)$; les similitudes pour $Q$ telles que $\mathrm{D}(u) = 0$ sont dites directes.
 
 c) Montrer que, si $\varphi$ est une similitude pour $\Phi$, $u$ une similitude pour $Q$, on a
 $$
@@ -486,11 +486,11 @@ $$
 $$
 (considérer l’invariant de Dickson de $\varphi$ par rapport à la base symplectique formée des $u(e_{2i-1})$ et $(\mu(u))^{-1}u(e_{2i})$ pour $1 \leq i \leq r$). En déduire que les similitudes directes pour $Q$ forment un sous-groupe distingué d’indice 2 dans le groupe des similitudes pour $Q$.
 
-d) Si $u$ est la symétrie par rapport à l’hyperplan orthogonal à un vecteur non singulier dans $E$, montrer que $\mathrm{D}(u) = 1$. En déduire que le groupe $\varphi(G^+)$ (notations du n° 5) est le groupe $\mathbf{SO}(Q)$ défini dans l’exerc. 28 c) du $\S 6$.
+d) Si $u$ est la symétrie par rapport à l’hyperplan orthogonal à un vecteur non singulier dans $E$, montrer que $\mathrm{D}(u) = 1$. En déduire que le groupe $\varphi(G^+)$ (notations du n° 5) est le groupe $\mathbf{SO}(Q)$ défini dans l’exerc. 28 c) du $§ 6$.
 
-e) Soit $u \in \mathbf{O}(Q)$, et supposons $\Lambda$ algébriquement clos. Montrer que, pour que $u \in \mathbf{SO}(Q)$, il faut et il suffit que le nombre des diviseurs élémentaires du module $E_u$ soit pair. (Avec les notations de l’exerc. 15 du $\S 5$, remarquer d’abord que si $p, q$ sont deux facteurs irréductibles distincts du polynôme minimal de $u$, le nombre des sous-modules indécomposables dont $G(p, q)$ est somme directe est égal au nombre des sous-modules indécomposables dont $G(q, p)$ est somme directe. Remarquer d’autre part que $G(p, p) = \{0\}$ sauf pour $p = X - 1$. Prouver enfin qu’on peut se borner au cas où $E_u$ est égal à $G(p, p)$ (avec $p = X - 1$) et est indécomposable. Il y a alors une base symplectique $(e_i)$ de $E$ telle que $e_1, e_3, \ldots, e_{2k-1}$ forment une base de $(p(u))^{2r-k}(E)$ pour $1 \leq k \leq r$; montrer que $e_1, e_3, \ldots, e_{2r-3}$ sont des vecteurs singuliers, et conclure que $\mathrm{D}(u) = 1$.)
+e) Soit $u \in \mathbf{O}(Q)$, et supposons $\Lambda$ algébriquement clos. Montrer que, pour que $u \in \mathbf{SO}(Q)$, il faut et il suffit que le nombre des diviseurs élémentaires du module $E_u$ soit pair. (Avec les notations de l’exerc. 15 du $§ 5$, remarquer d’abord que si $p, q$ sont deux facteurs irréductibles distincts du polynôme minimal de $u$, le nombre des sous-modules indécomposables dont $G(p, q)$ est somme directe est égal au nombre des sous-modules indécomposables dont $G(q, p)$ est somme directe. Remarquer d’autre part que $G(p, p) = \{0\}$ sauf pour $p = X - 1$. Prouver enfin qu’on peut se borner au cas où $E_u$ est égal à $G(p, p)$ (avec $p = X - 1$) et est indécomposable. Il y a alors une base symplectique $(e_i)$ de $E$ telle que $e_1, e_3, \ldots, e_{2k-1}$ forment une base de $(p(u))^{2r-k}(E)$ pour $1 \leq k \leq r$; montrer que $e_1, e_3, \ldots, e_{2r-3}$ sont des vecteurs singuliers, et conclure que $\mathrm{D}(u) = 1$.)
 
-$\S 10$ On suppose que $A$ est un corps, $E$ un espace vectoriel de dimension finie, $Q$ une forme quadratique dégénérée sur $E$; soient $M$ un sous-espace supplémentaire de $E^0$ dans $E$, $B$ l’algèbre de Clifford (semi-simple) de la restriction de $Q$ à $M$.
+$§ 10$ On suppose que $A$ est un corps, $E$ un espace vectoriel de dimension finie, $Q$ une forme quadratique dégénérée sur $E$; soient $M$ un sous-espace supplémentaire de $E^0$ dans $E$, $B$ l’algèbre de Clifford (semi-simple) de la restriction de $Q$ à $M$.
 
 a) On suppose d’abord $A$ de caractéristique $\neq 2$. Soient $L$ l’algèbre de Clifford de la restriction de $Q$ à $E^0$ (isomorphe à $\wedge E^0$), $\mathcal{R}_0$ son radical (idéal engendré dans $L$ par $E^0$, et de codimension 1 dans $L$); montrer que le radical $\mathcal{R}$ de $C(Q)$ s’obtient (à une isomorphie près) en définissant la structure d’algèbre sur $B \otimes_A \mathcal{R}_0$ comme dans le cor. 4 du th. 1, que $C(Q)/\mathcal{R}$ est isomorphe à $B$ et $C(Q)$ est somme directe de $B$ et de $\mathcal{R}$.
 

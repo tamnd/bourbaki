@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 7b0078f189d2e0520641ffad053c55d827a4c54ee7b250463d0cb92db33c9935
+content_sha256: bdb0220a97395597a530aaad4c2f657d8d5de625f3f71fef0bede7fbaff9a082
 translated_from: content/en/int/IV/07_s7_barycenters.md
 source_content_sha256: 0570767550afc4ec72a1bd2d57ff21259b2713160100ad0deff3ffd79e594e1a
 translation_model: gpt-5.4-mini
@@ -536,7 +536,7 @@ Vì $\varepsilon$ là một số tùy ý $> 0$, ta đã chứng minh rằng $\ov
 
 Cho $\mathcal{A}$ (resp. $\mathcal{A}'$) là tập gồm các phép hạn chế lên $C$ của các dạng tuyến tính liên tục (resp. các hàm afin) trên $E$. Ta biết (TVS, II, §5, No. 4, Nhận xét 2) rằng $f$ là bao trên của tập các phần tử của $\mathcal{A}$ mà $\leq f$. Tập các hàm có dạng $\sup(f_1, \ldots, f_p)$, trong đó $f_1, \ldots, f_p$ thuộc $\mathcal{A}$, $f_1 \geq 0, \ldots, f_p \geq 0$, là một tập có hướng tăng và có $f$ làm bao trên. Xét §1, No. 1, Định lý 1, chỉ cần kiểm tra đẳng thức $\lambda(f|K) = \lambda'(f|K)$ khi $f$ có dạng nói trên.
 
-Định nghĩa $\overline{f}$ như trong Bổ đề 5. Rõ ràng là $\overline{f}(y) = f(y)$ nếu $y \in G$. Vì $\lambda^*(K - (K \cap G)) = 0$, ta có $\lambda(f|K) = \lambda(\overline{f}|K)$. Theo Bổ đề 6, $\overline{f}$ là afin và nửa liên tục trên. Do đó $\overline{f}|K$ là bao dưới của một tập có hướng giảm gồm các phép hạn chế của các phần tử của $\mathcal{A}'$ lên K (TVS, II, §5, No. 4, Mệnh đề 6). Cho $x \in K$ là trọng tâm của $\lambda$. Nếu $g \in \mathcal{A}$ thì $\lambda(g|K) = g(x)$. Do đó $\lambda(\overline{f}|K) = \overline{f}(x)$ (\S4, No. 4, Hệ quả 2 của Mệnh đề 5). Vì vậy $\lambda(f|K) = \overline{f}(x)$, và cũng thấy tương tự rằng $\lambda'(f|K) = \overline{f}(x)$.
+Định nghĩa $\overline{f}$ như trong Bổ đề 5. Rõ ràng là $\overline{f}(y) = f(y)$ nếu $y \in G$. Vì $\lambda^*(K - (K \cap G)) = 0$, ta có $\lambda(f|K) = \lambda(\overline{f}|K)$. Theo Bổ đề 6, $\overline{f}$ là afin và nửa liên tục trên. Do đó $\overline{f}|K$ là bao dưới của một tập có hướng giảm gồm các phép hạn chế của các phần tử của $\mathcal{A}'$ lên K (TVS, II, §5, No. 4, Mệnh đề 6). Cho $x \in K$ là trọng tâm của $\lambda$. Nếu $g \in \mathcal{A}$ thì $\lambda(g|K) = g(x)$. Do đó $\lambda(\overline{f}|K) = \overline{f}(x)$ (§ 4, No. 4, Hệ quả 2 của Mệnh đề 5). Vì vậy $\lambda(f|K) = \overline{f}(x)$, và cũng thấy tương tự rằng $\lambda'(f|K) = \overline{f}(x)$.
 
 #### Hệ quả {#int-iv-s7-n6-cor-1 .statement}
 

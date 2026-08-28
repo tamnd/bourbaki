@@ -49,9 +49,9 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: 7eabff9602183a52cf612815802f4086834452ad577c2d904b83f719b807242b
+content_sha256: f29b377fc3153fb2dd8328d83829d2878576d879c4c76d9283f9210d5d499112
 translated_from: content/en/alg/III/04_s4_tensor_products_of_algebras.md
-source_content_sha256: 49f95c708f427e2fa95fa3af1f1ba7efb0d6fbfdf94099d282881d1313bbff03
+source_content_sha256: 104babe43ca0f7b29fb3d06064b2db49850bf4ce36b16bfb4fc025a8d61a1f77
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-b55d44b5
 glossary_version: 34
@@ -186,7 +186,7 @@ Các phép kiểm tra là tầm thường nhờ § 1, no. 5.
 
 Đặc biệt, cấu trúc $A$-đại số trên $B \otimes_A E$, thu được bằng cách hạn chế vành $B$ của các vô hướng xuống $A$, trùng với cấu trúc của đại số $B \otimes_A E$, tích tenxơ của các $A$-đại số $B$ và $E$.
 
-Cuối cùng, nếu $(A_i, \phi_{ji})$ là một hệ trực tiếp của các vành giao hoán, $(E_i, f_{ji})$ và $(F_i, g_{ji})$ là hai hệ trực tiếp của các $A_i$-đại số ($\S 1$, no. 6) và $A = \lim \rightarrow A_i$, thì đẳng cấu môđun $A$ chính tắc
+Cuối cùng, nếu $(A_i, \phi_{ji})$ là một hệ trực tiếp của các vành giao hoán, $(E_i, f_{ji})$ và $(F_i, g_{ji})$ là hai hệ trực tiếp của các $A_i$-đại số ($§ 1$, no. 6) và $A = \lim \rightarrow A_i$, thì đẳng cấu môđun $A$ chính tắc
 
 $$
 \lim \rightarrow (E_i \otimes_{A_i} F_i) \to (\lim \rightarrow E_i) \otimes_A (\lim \rightarrow F_i)
@@ -278,7 +278,7 @@ $$
 
 nghĩa là song ánh gán cho mỗi đồng cấu $w$ của $\bigotimes_i E_i$ vào F họ các $w \circ u_i$.
 
-Chú ý rằng nếu E là một A-đại số giao hoán, thì cấu trúc vành của $E \otimes_A F$ cũng chính là cấu trúc vành của $F_{(E)}$ (\S 1, no. 5).
+Chú ý rằng nếu E là một A-đại số giao hoán, thì cấu trúc vành của $E \otimes_A F$ cũng chính là cấu trúc vành của $F_{(E)}$ (§ 1, no. 5).
 
 ### 3. MÔĐUN VÀ ĐA MÔĐUN TRÊN TÍCH TENXƠ CỦA CÁC ĐẠI SỐ
 
@@ -288,7 +288,7 @@ Chú ý rằng nếu E là một A-đại số giao hoán, thì cấu trúc vàn
 
 Trừ khi có nói rõ khác, mọi môđun và đa môđun xét trong số này đều là môđun và đa môđun trái.
 
-Nếu M là một E-môđun, thì đồng cấu $\eta : A \to E$ (\S 1, no. 4) xác định trên M một cấu trúc A-môđun, gọi là cấu trúc nền của cấu trúc E-môđun trên M; với $\alpha \in A, s \in E, x \in M$,
+Nếu M là một E-môđun, thì đồng cấu $\eta : A \to E$ (§ 1, no. 4) xác định trên M một cấu trúc A-môđun, gọi là cấu trúc nền của cấu trúc E-môđun trên M; với $\alpha \in A, s \in E, x \in M$,
 
 $$
 \alpha(sx) = s(\alpha x) = (\alpha s)x,
@@ -696,7 +696,7 @@ $$
 
 mà chính chúng là những hệ quả ngay lập tức của định nghĩa (28) và (22) và (23).
 
-Nếu, với mọi $i \in I$, $e_i$ ký hiệu phần tử đơn vị của $E_i$, ta biết rằng $e_i$ là thuần nhất bậc 0 (\S 3, no. 1), do đó $e = \bigotimes_{i \in I} e_i$ là thuần nhất bậc 0 và suy ra từ (27), (28) và các quan hệ
+Nếu, với mọi $i \in I$, $e_i$ ký hiệu phần tử đơn vị của $E_i$, ta biết rằng $e_i$ là thuần nhất bậc 0 (§ 3, no. 1), do đó $e = \bigotimes_{i \in I} e_i$ là thuần nhất bậc 0 và suy ra từ (27), (28) và các quan hệ
 
 $$
 \varepsilon_{ij}(\alpha_i, 0) = \varepsilon_{ij}(0, \beta_j) = 1
@@ -708,7 +708,7 @@ $$
 \bigotimes_{i \in I} x_i = \prod_{i \in I} h_i(x_i)
 $$
 
-trong đó vế phải là tích của dãy có thứ tự $(h_i(x_i))_{i \in I}$ trong E với thứ tự toàn phần đã cho trên I (I, \S 1, no. 2) (chỉ cần lập luận bằng quy nạp theo số các $x_i$ (giả sử thuần nhất) khác với các $e_i$).
+trong đó vế phải là tích của dãy có thứ tự $(h_i(x_i))_{i \in I}$ trong E với thứ tự toàn phần đã cho trên I (I, § 1, no. 2) (chỉ cần lập luận bằng quy nạp theo số các $x_i$ (giả sử thuần nhất) khác với các $e_i$).
 
 Còn phải chứng minh điều kiện (iii); chú ý rằng ánh xạ
 
@@ -834,9 +834,9 @@ $$
 
 #### Nhận xét {#alg-iii-s4-n8-rem-1 .statement}
 
-(1) Cho I là một tập chỉ số vô hạn và $\Delta_0$ là một monoid giao hoán; cho $(\Delta_i)_{i \in I}$ ký hiệu họ sao cho $\Delta_i = \Delta_0$ với mọi $i$ và giả sử với mọi cặp có thứ tự gồm các chỉ số phân biệt $(i, j)$ của I đã cho một ánh xạ $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ thỏa mãn các điều kiện (22), (23) và (24) (no. 7); điều này cũng sẽ được gọi là một *hệ các hệ số giao hoán trên họ* $(\Delta_i)$. Xét một họ $(E_i)_{i \in I}$ các A-đại số phân bậc kiểu $\Delta_0$; với mỗi tập con hữu hạn J của I, ký hiệu $E_J$ một *tích tenxơ $\varepsilon$ phân bậc kiểu* $\Delta_0$ của họ con $(E_i)_{i \in J}$ (với một lựa chọn tùy ý của một thứ tự toàn phần trên J). Nếu J, J' là hai tập con hữu hạn của I sao cho $J \subset J'$, một đồng cấu chính tắc của các đại số phân bậc kiểu $\Delta_0$, h_{J'J}: E_J \to E_{J'}, đã được định nghĩa ở trên và các tính chất duy nhất của những đồng cấu này cho thấy ngay lập tức rằng nếu $J \subset J' \subset J''$ là ba tập con hữu hạn của I, thì h_{J''J} = h_{J'J'} \circ h_{J'J}. Do đó có một hệ trực tiếp (E_J, h_{J'J}) của các đại số phân bậc kiểu $\Delta_0$ (\S 3, no. 3), mà tập chỉ số của nó là tập có hướng bên phải $\mathfrak{F}(I)$ của các tập con hữu hạn của I. Đại số phân bậc kiểu $\Delta_0$, giới hạn trực tiếp của hệ trực tiếp này (\S 3, no. 3), được gọi là một *tích tenxơ $\varepsilon$ phân bậc kiểu* $\Delta_0$ của họ $(E_i)_{i \in I}$; nó cũng được ký hiệu bởi $\varepsilon \bigotimes_{i \in I} E_i$. Khi mọi $\Delta_i$ đều bằng $\mathbf{Z}$ và $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$, tích tenxơ $\varepsilon \bigotimes_{i \in I} E_i$ cũng được gọi là *tích tenxơ xiên* của họ $(E_i)_{i \in I}$ và được ký hiệu bởi $g \bigotimes_{i \in I} E_i$. Chúng tôi xin để cho bạn đọc nhiệm vụ phát biểu và chứng minh mệnh đề khái quát hóa Mệnh đề 10 của no. 7 sang trường hợp I vô hạn, cũng như Mệnh đề 8 của no. 5 khái quát hóa Mệnh đề 5 của no. 2 sang trường hợp I vô hạn. Chú ý rằng A-môđun nền của $\varepsilon \bigotimes_{i \in I} E_i$ là cùng một với A-môđun nền của tích tenxơ (không phân bậc) của họ $(E_i)_{i \in I}$ các đại số không phân bậc được định nghĩa ở no. 5.
+(1) Cho I là một tập chỉ số vô hạn và $\Delta_0$ là một monoid giao hoán; cho $(\Delta_i)_{i \in I}$ ký hiệu họ sao cho $\Delta_i = \Delta_0$ với mọi $i$ và giả sử với mọi cặp có thứ tự gồm các chỉ số phân biệt $(i, j)$ của I đã cho một ánh xạ $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ thỏa mãn các điều kiện (22), (23) và (24) (no. 7); điều này cũng sẽ được gọi là một *hệ các hệ số giao hoán trên họ* $(\Delta_i)$. Xét một họ $(E_i)_{i \in I}$ các A-đại số phân bậc kiểu $\Delta_0$; với mỗi tập con hữu hạn J của I, ký hiệu $E_J$ một *tích tenxơ $\varepsilon$ phân bậc kiểu* $\Delta_0$ của họ con $(E_i)_{i \in J}$ (với một lựa chọn tùy ý của một thứ tự toàn phần trên J). Nếu J, J' là hai tập con hữu hạn của I sao cho $J \subset J'$, một đồng cấu chính tắc của các đại số phân bậc kiểu $\Delta_0$, h_{J'J}: E_J \to E_{J'}, đã được định nghĩa ở trên và các tính chất duy nhất của những đồng cấu này cho thấy ngay lập tức rằng nếu $J \subset J' \subset J''$ là ba tập con hữu hạn của I, thì h_{J''J} = h_{J'J'} \circ h_{J'J}. Do đó có một hệ trực tiếp (E_J, h_{J'J}) của các đại số phân bậc kiểu $\Delta_0$ (§ 3, no. 3), mà tập chỉ số của nó là tập có hướng bên phải $\mathfrak{F}(I)$ của các tập con hữu hạn của I. Đại số phân bậc kiểu $\Delta_0$, giới hạn trực tiếp của hệ trực tiếp này (§ 3, no. 3), được gọi là một *tích tenxơ $\varepsilon$ phân bậc kiểu* $\Delta_0$ của họ $(E_i)_{i \in I}$; nó cũng được ký hiệu bởi $\varepsilon \bigotimes_{i \in I} E_i$. Khi mọi $\Delta_i$ đều bằng $\mathbf{Z}$ và $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$, tích tenxơ $\varepsilon \bigotimes_{i \in I} E_i$ cũng được gọi là *tích tenxơ xiên* của họ $(E_i)_{i \in I}$ và được ký hiệu bởi $g \bigotimes_{i \in I} E_i$. Chúng tôi xin để cho bạn đọc nhiệm vụ phát biểu và chứng minh mệnh đề khái quát hóa Mệnh đề 10 của no. 7 sang trường hợp I vô hạn, cũng như Mệnh đề 8 của no. 5 khái quát hóa Mệnh đề 5 của no. 2 sang trường hợp I vô hạn. Chú ý rằng A-môđun nền của $\varepsilon \bigotimes_{i \in I} E_i$ là cùng một với A-môđun nền của tích tenxơ (không phân bậc) của họ $(E_i)_{i \in I}$ các đại số không phân bậc được định nghĩa ở no. 5.
 
-(2) Cho E là một A-đại số phân bậc kiểu $\Delta_0$ (trong đó $\Delta_0$ là một monoid giao hoán) và $\rho : A \to B$ một đồng cấu vành; sự phân bậc trên $\rho^*(E)$ (II, \S 11, no. 5) trùng với sự phân bậc trên tích tenxơ phân bậc $B \otimes_A E$, trong đó B có phân bậc tầm thường.
+(2) Cho E là một A-đại số phân bậc kiểu $\Delta_0$ (trong đó $\Delta_0$ là một monoid giao hoán) và $\rho : A \to B$ một đồng cấu vành; sự phân bậc trên $\rho^*(E)$ (II, § 11, no. 5) trùng với sự phân bậc trên tích tenxơ phân bậc $B \otimes_A E$, trong đó B có phân bậc tầm thường.
 
 ### 9. ĐẠI SỐ PHẢN GIAO HOÁN VÀ ĐẠI SỐ LUÂN PHIÊN
 
@@ -856,7 +856,7 @@ $$
 
 (2) Giả sử 2 không phải là một ước của 0 trong E; khi đó nếu E phản giao hoán thì E luân phiên, vì với $x \in E$ thuần nhất và có bậc lẻ, $x^2 = -x^2$ theo (36), do đó $2x^2 = 0$ và $x^2 = 0$ nhờ giả thiết.
 
-(3) Chúng ta sẽ nghiên cứu chi tiết trong \S 7 những ví dụ quan trọng của các đại số luân phiên.
+(3) Chúng ta sẽ nghiên cứu chi tiết trong § 7 những ví dụ quan trọng của các đại số luân phiên.
 
 #### Bổ đề 4 {#alg-iii-s4-lem-4 .statement}
 
@@ -897,7 +897,7 @@ Vành B với cách phân bậc tầm thường có thể được xem như mộ
 
 #### Nhận xét {#alg-iii-s4-n9-rem-2 .statement}
 
-Cho E là một đại số trên A phản giao hoán phân bậc kiểu $\mathbf{Z}$. Khi đó ánh xạ A-tuyến tính của $E \otimes_A E$ vào E được xác định bởi phép nhân của E ($\S 1$, no. 3) là một đồng cấu của đại số trên A phân bậc $E^g \otimes_A E$ vào E, vì theo ký hiệu của Mệnh đề 14, trong đại số E,
+Cho E là một đại số trên A phản giao hoán phân bậc kiểu $\mathbf{Z}$. Khi đó ánh xạ A-tuyến tính của $E \otimes_A E$ vào E được xác định bởi phép nhân của E ($§ 1$, no. 3) là một đồng cấu của đại số trên A phân bậc $E^g \otimes_A E$ vào E, vì theo ký hiệu của Mệnh đề 14, trong đại số E,
 $$
 (xy)(x'y') = (-1)^{qp'}(xx')(yy').
 $$

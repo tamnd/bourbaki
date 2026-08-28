@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: 35554ce234a74fedcfcbc63f30d7c781ed0bae0cd26de430a50d4b554e69cbff
+content_sha256: e84992f155d3dd4337b5374eebb7ccef55c0220ecb85e9133f163139a80f5cff
 ---
 
 ## § 6. Valeurs absolues.
@@ -141,7 +141,7 @@ $$
 
 Dans le cas (iii), pour que $f$ soit une valeur absolue sur $\mathbf{Q}$, il faut et il suffit que $0 < s \leq 1$.
 
-Supposons d’abord que l’on ait $f(n) \leq 1$ pour tout entier $n > 0$. En vertu de la prop. 3 du no 2, il existe un nombre réel $b$ et une valuation $\nu$ de $\mathbf{Q}$ tels que $0 < b < 1$ et $f = b^\nu$. Or, on sait ($\S 3$, no 4, Exemple 4) que les seules valuations sur $\mathbf{Q}$ sont (à équivalence près) la valuation impropre et les valuations $p$-adiques $\nu_p$; on est donc dans l’un des cas (i) ou (ii).
+Supposons d’abord que l’on ait $f(n) \leq 1$ pour tout entier $n > 0$. En vertu de la prop. 3 du no 2, il existe un nombre réel $b$ et une valuation $\nu$ de $\mathbf{Q}$ tels que $0 < b < 1$ et $f = b^\nu$. Or, on sait ($§ 3$, no 4, Exemple 4) que les seules valuations sur $\mathbf{Q}$ sont (à équivalence près) la valuation impropre et les valuations $p$-adiques $\nu_p$; on est donc dans l’un des cas (i) ou (ii).
 
 Supposons désormais qu’il existe un entier $h > 0$ tel que $f(h) > 1$; en vertu du no 1, cor. 2 de la prop. 2, il existe un nombre $\rho > 0$ tel que $f^\rho$ soit une valeur absolue; posons
 

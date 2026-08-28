@@ -28,7 +28,7 @@ subsections:
       pdf_page: 171
 statements: 31
 exercises: 0
-content_sha256: 60e386d106e63fd5f95a6e26a5e56c6b1328b9c97cd76b72599d871f6ffdff06
+content_sha256: 7bba78e9e7ee3dd06d504a70fea11d2d2c91bfdab57fc07593d4431ee1c30e19
 ---
 
 ## § 10. Angles
@@ -66,7 +66,7 @@ quels que soient $x, y$ dans E ; comme $\det u \neq 0$ et que B est non dégén�
 
 Or les endomorphismes de E dont les matrices sont de la forme $\begin{pmatrix} a & \delta b \\ b & a \end{pmatrix}$ ($a, b$ dans A) forment un sous-espace vectoriel de dimension 2 de $\mathfrak{L}_A(E)$, engendré par 1 et par l’endomorphisme $\omega$; comme $\omega^2$ est l’homothétie de rapport $-\alpha_1\alpha_2$, ce sous-espace est la sous-algèbre $A(\Phi)$ de $\mathfrak{L}_A(E)$ engendrée par les similitudes directes. Les similitudes directes sont les éléments inversibles de $A(\Phi)$, c’est-à-dire ceux dont les matrices vérifient $a^2 - \delta b^2 \neq 0$. Le fait que l’algèbre $A(\Phi)$ est commutative est évident. Appliquons-lui les résultats du chap. II, § 7, n° 7 : si $\delta$ n’est pas un carré dans A, c’est-à-dire si aucun vecteur non nul de E n’est isotrope, $A(\Phi)$ est un corps ; si, au contraire, $\delta$ est un carré dans A, c’est-à-dire si E contient des vecteurs isotropes $\neq 0$, $A(\Phi)$ est composée directe de deux corps isomorphes à A. Ceci démontre a) et b).
 
-Enfin tout vecteur non isotrope de E peut être pris comme premier vecteur $e_1$ d’une base orthogonale $(e_1, e_2)$ (\S 6, n° 1); donc ses transformés $u(e_1)$ par les éléments $u$ de $\Lambda(\Phi)$ sont les vecteurs de la forme $ae_1 + be_2$ ($a, b$ dans $\Lambda$), c’est-à-dire tous les vecteurs de $E$, puisque toutes les matrices $\begin{pmatrix} a & \delta b \\ b & a \end{pmatrix}$ sont des matrices d’éléments de $\Lambda(\Phi)$. Autrement dit $E$ est un $\Lambda(\Phi)$-module monogène, engendré par n’importe quel vecteur non isotrope. On voit de plus que c’est un $\Lambda(\Phi)$-module monogène libre, puisque $u(e_1) = ae_1 + be_2 = 0$ entraîne $a = b = 0$, donc $u = 0$. Ceci démontre c).
+Enfin tout vecteur non isotrope de E peut être pris comme premier vecteur $e_1$ d’une base orthogonale $(e_1, e_2)$ (§ 6, n° 1); donc ses transformés $u(e_1)$ par les éléments $u$ de $\Lambda(\Phi)$ sont les vecteurs de la forme $ae_1 + be_2$ ($a, b$ dans $\Lambda$), c’est-à-dire tous les vecteurs de $E$, puisque toutes les matrices $\begin{pmatrix} a & \delta b \\ b & a \end{pmatrix}$ sont des matrices d’éléments de $\Lambda(\Phi)$. Autrement dit $E$ est un $\Lambda(\Phi)$-module monogène, engendré par n’importe quel vecteur non isotrope. On voit de plus que c’est un $\Lambda(\Phi)$-module monogène libre, puisque $u(e_1) = ae_1 + be_2 = 0$ entraîne $a = b = 0$, donc $u = 0$. Ceci démontre c).
 
 #### Remarque 1 {#alg-ix-s10-n1-rem-1 .statement}
 
@@ -86,7 +86,7 @@ Comme toute *similitude inverse* de $E$ est le produit d’une similitude direct
 
 des similitudes inverses par rapport à $(e_1, e_2)$ sont les matrices de la forme $\begin{pmatrix} a & -\delta b \\ b & -a \end{pmatrix}$.
 
-Nous désignerons désormais par $S$ le groupe des similitudes de $E$, par $S^+$ celui des similitudes directes, par $H$ celui des homothéties $\neq 0$, et par $O^+$ celui des rotations. Rappelons que l’on a $H \subset S^+ (\S 6, n° 5)$.
+Nous désignerons désormais par $S$ le groupe des similitudes de $E$, par $S^+$ celui des similitudes directes, par $H$ celui des homothéties $\neq 0$, et par $O^+$ celui des rotations. Rappelons que l’on a $H \subset S^+ (§ 6, n° 5)$.
 
 #### Corollaire 1 {#alg-ix-s10-prop-1-cor-1 .statement}
 
@@ -224,7 +224,7 @@ Les homothéties de E dont le rapport est $> 0$ forment évidemment un sous-grou
 
 #### Proposition 7 {#alg-ix-s10-prop-7 .statement}
 
-Supposons que A soit un corps ordonné maximal et que $\Phi$ soit une forme positive (\S 7). Alors les homomorphismes canoniques de $O^+$ dans $S^+/H^+$ et de $O^+/\{ 1, -1 \}$ dans $S^+/H$ sont bijectifs, et $S^+$ est isomorphe à $O^+ \times H^+$.
+Supposons que A soit un corps ordonné maximal et que $\Phi$ soit une forme positive (§ 7). Alors les homomorphismes canoniques de $O^+$ dans $S^+/H^+$ et de $O^+/\{ 1, -1 \}$ dans $S^+/H$ sont bijectifs, et $S^+$ est isomorphe à $O^+ \times H^+$.
 
 Nous avons déjà vu que les homomorphismes en question sont injectifs, et il suffit de montrer que le premier est surjectif. Soit $(e_1, e_2)$ une base orthonormale de E, et soit $\omega$ la similitude directe telle que $\omega(e_1) = e_2$ (cor. 1 de la prop. 1, n° 1) ; on a alors $\omega^2 = -1$ (prop. 1, b)). Étant donnée une similitude directe quelconque u = a + bw (a \in A,\ b \in A),\ \text{on a}\ N(u) = a^2 + b^2 > 0,\ \text{et il existe une rotation et une seule contenue dans la même demi-droite de } A(\Phi) \text{ que } u, \text{ à savoir } (a^2 + b^2)^{1/2}\ u.\ \text{CQFD.}
 
@@ -335,7 +335,7 @@ $$
 
 où $e$ désigne le bivecteur positif tel que $\Phi_{(2)}(e, e) = 1$.
 
-En effet, comme les vecteurs $x' = x/|x|$ et $y' = y/|y|$ sont tous deux de longueur 1, il existe une rotation $\varphi$ et une seule telle que $\varphi(x') = y'$ (n° 1, cor. 2 de la prop. 1). Si l’on pose $\varphi = a + b \omega$ ($a, b$ dans $\mathbf{A}$), on a par définition $a = \cos (\widehat{x, y})$ et $b = \sin (\widehat{x, y})$. La relation $y' = \varphi(x') = ax' + b \omega(x')$ donne $\Phi(x', y') = a \Phi(x', x') = a$ puisque $x'$ et $\omega(x')$ sont orthogonaux (Remarque 2 du n° 1); ceci démontre (19). D’autre part cette relation donne aussi $x' \wedge y' = bx' \wedge \omega(x') = b.e$ d’après la définition de l’extension $\Phi_{(2)}$ de $\Phi$ à $\bigwedge^2 \mathbf{E}$ ($\S 1,$ n° 9, formule (37)) et le choix de $\omega$; ceci démontre (20).
+En effet, comme les vecteurs $x' = x/|x|$ et $y' = y/|y|$ sont tous deux de longueur 1, il existe une rotation $\varphi$ et une seule telle que $\varphi(x') = y'$ (n° 1, cor. 2 de la prop. 1). Si l’on pose $\varphi = a + b \omega$ ($a, b$ dans $\mathbf{A}$), on a par définition $a = \cos (\widehat{x, y})$ et $b = \sin (\widehat{x, y})$. La relation $y' = \varphi(x') = ax' + b \omega(x')$ donne $\Phi(x', y') = a \Phi(x', x') = a$ puisque $x'$ et $\omega(x')$ sont orthogonaux (Remarque 2 du n° 1); ceci démontre (19). D’autre part cette relation donne aussi $x' \wedge y' = bx' \wedge \omega(x') = b.e$ d’après la définition de l’extension $\Phi_{(2)}$ de $\Phi$ à $\bigwedge^2 \mathbf{E}$ ($§ 1,$ n° 9, formule (37)) et le choix de $\omega$; ceci démontre (20).
 
 #### Remarque 3 {#alg-ix-s10-n3-rem-3 .statement}
 
@@ -497,9 +497,9 @@ b) Soit S une sphère (exerc. 12) contenant c. Montrer que l’image de $S - \{ 
 
 c) Soit S une sphère ne contenant pas c. Montrer que, si $\varpi$ est la puissance de c par rapport à S (exerc. 12 b)), l’image de S par une inversion de pôle c et de puissance $\alpha$ est l’image de S par une homothétie de centre c et de rapport $\alpha / \varpi$. Si $n = 2$ et si, pour tout $x \in S$, on désigne par T (resp. T’) la tangente à S (resp. $u(S)$) au point x (resp. $u(x)$), par D la droite passant par c, x et $u(x)$, montrer que l’on a $(\widehat{D, T}) = (\widehat{T', D})$.
 
-d) Soient $S_1, S_2$ deux sphères orthogonales (exerc. 12 d)), $S'_1, S'_2$ leurs images par une inversion de pôle $c$. Si $c$ n’appartient pas à $S_1$ ni à $S_2$, montrer que $S'_1$ et $S'_2$ sont des sphères orthogonales. Si $c \in S_1$ et $c \notin S_2$, $S'_1$ est un hyperplan contenant le centre de $S'_2$. Si $c \in S_1 \cap S_2$, $S'_1$ et $S'_2$ sont des hyperplans perpendiculaires (\$ 6, exerc. 22). Réciproques.
+d) Soient $S_1, S_2$ deux sphères orthogonales (exerc. 12 d)), $S'_1, S'_2$ leurs images par une inversion de pôle $c$. Si $c$ n’appartient pas à $S_1$ ni à $S_2$, montrer que $S'_1$ et $S'_2$ sont des sphères orthogonales. Si $c \in S_1$ et $c \notin S_2$, $S'_1$ est un hyperplan contenant le centre de $S'_2$. Si $c \in S_1 \cap S_2$, $S'_1$ et $S'_2$ sont des hyperplans perpendiculaires (§ 6, exerc. 22). Réciproques.
 
-e) Soient $u$ une inversion de pôle $c$ et de puissance $\alpha = \rho^2 > 0$ et $C$ la sphère de centre $c$ et de rayon $\rho$. Si $x_1, x_2$ sont deux points distincts situés sur une droite passant par $c$, et distincts de $c$, les propriétés suivantes sont équivalentes : $\alpha )$ $x_1$ et $x_2$ sont transformés l’un de l’autre par $u ; \beta )$ $x_1$ et $x_2$ sont conjugués par rapport à $C$ (\$ 6, exerc. 25); $\gamma )$ toute sphère contenant $x_1$ et $x_2$ est orthogonale à $C$. On dit encore que $u$ est l’inversion de sphère $C$.
+e) Soient $u$ une inversion de pôle $c$ et de puissance $\alpha = \rho^2 > 0$ et $C$ la sphère de centre $c$ et de rayon $\rho$. Si $x_1, x_2$ sont deux points distincts situés sur une droite passant par $c$, et distincts de $c$, les propriétés suivantes sont équivalentes : $\alpha )$ $x_1$ et $x_2$ sont transformés l’un de l’autre par $u ; \beta )$ $x_1$ et $x_2$ sont conjugués par rapport à $C$ (§ 6, exerc. 25); $\gamma )$ toute sphère contenant $x_1$ et $x_2$ est orthogonale à $C$. On dit encore que $u$ est l’inversion de sphère $C$.
 
 ¶ 14) Les hypothèses et notations étant les mêmes que dans l’exerc. 12, on prend une origine 0 dans L. Soit $E_1$ l’espace vectoriel somme directe de L et d’un espace $Af_1$ de dimension 1; on désigne par $Q_1$ la forme quadratique sur $E_1$ telle que pour $x \in L$ et $\eta \in A$, on ait
 
@@ -559,9 +559,9 @@ $$
 
 (cf. § 9, exerc. 15).
 
-¶ 18) a) Soient $A$ un corps commutatif, $\xi \to \bar{\xi}$ un automorphisme involutif de $A$, $E$ un espace vectoriel de dimension paire $2m$ sur $A$, $\Phi$ une forme hermitienne non dégénérée et d’indice 0 sur $E$, satisfaisant à la condition (T), $\Delta$ le discriminant de $\Phi$ par rapport à une base de $E$. Soit $M(\Phi)$ le groupe des multiplicateurs des similitudes pour $\Phi$ ($\S 4$, exerc. 8). Montrer que $M(\Phi)$ est un sous-groupe du groupe multiplicatif des éléments de $A$ de la forme $\alpha \bar{\alpha} - (-1)^m \beta \bar{\beta} \Delta$. (Raisonner par récurrence sur $m$, en utilisant l’exerc. 17, ainsi que les deux remarques suivantes : 1° si $u$ est une similitude de multiplicateur $\mu$, $x$ un vecteur de $E$, $y = u(x)$ et $z = u(y)$, il existe une transformation unitaire $v$ telle que $v(y) = y$ et $v(z) = \mu x$; 2° si $\alpha, \beta, \lambda$ sont trois éléments $\neq 0$ de $A$ tels qu’ils existe $a, b, c, d$ dans $A$ vérifiant les conditions $\lambda = a \bar{a} + \alpha c \bar{c}$, $\lambda = b \bar{b} + \beta d \bar{d}$, alors il existe $s, t$ dans $A$ vérifiant la condition $\lambda = s \bar{s} - \alpha \beta t \bar{t}$.
+¶ 18) a) Soient $A$ un corps commutatif, $\xi \to \bar{\xi}$ un automorphisme involutif de $A$, $E$ un espace vectoriel de dimension paire $2m$ sur $A$, $\Phi$ une forme hermitienne non dégénérée et d’indice 0 sur $E$, satisfaisant à la condition (T), $\Delta$ le discriminant de $\Phi$ par rapport à une base de $E$. Soit $M(\Phi)$ le groupe des multiplicateurs des similitudes pour $\Phi$ ($§ 4$, exerc. 8). Montrer que $M(\Phi)$ est un sous-groupe du groupe multiplicatif des éléments de $A$ de la forme $\alpha \bar{\alpha} - (-1)^m \beta \bar{\beta} \Delta$. (Raisonner par récurrence sur $m$, en utilisant l’exerc. 17, ainsi que les deux remarques suivantes : 1° si $u$ est une similitude de multiplicateur $\mu$, $x$ un vecteur de $E$, $y = u(x)$ et $z = u(y)$, il existe une transformation unitaire $v$ telle que $v(y) = y$ et $v(z) = \mu x$; 2° si $\alpha, \beta, \lambda$ sont trois éléments $\neq 0$ de $A$ tels qu’ils existe $a, b, c, d$ dans $A$ vérifiant les conditions $\lambda = a \bar{a} + \alpha c \bar{c}$, $\lambda = b \bar{b} + \beta d \bar{d}$, alors il existe $s, t$ dans $A$ vérifiant la condition $\lambda = s \bar{s} - \alpha \beta t \bar{t}$.
 
-b) Soient $K$ un corps ordonné maximal, $K_1 = K((t_1))$ le corps des séries formelles par rapport à une indéterminée $t_1$, à coefficients dans $K$ (chap. IV, $\S 5$, no 7), $A = K_1((t_2))$ le corps des séries formelles par rapport à une seconde indéterminée $t_2$, à coefficients dans $K_1$. Soient $E$ un espace vectoriel de dimension 6 sur $A$, $Q$ une forme quadratique non dégénérée sur $E$, telle qu’il existe une base orthogonale $(e_i)$ pour laquelle on ait
+b) Soient $K$ un corps ordonné maximal, $K_1 = K((t_1))$ le corps des séries formelles par rapport à une indéterminée $t_1$, à coefficients dans $K$ (chap. IV, $§ 5$, no 7), $A = K_1((t_2))$ le corps des séries formelles par rapport à une seconde indéterminée $t_2$, à coefficients dans $K_1$. Soient $E$ un espace vectoriel de dimension 6 sur $A$, $Q$ une forme quadratique non dégénérée sur $E$, telle qu’il existe une base orthogonale $(e_i)$ pour laquelle on ait
 
 $$
 Q\left( \sum_{i=1}^{6} \xi_i e_i \right) = \xi_1^2 + \xi_2^2 + \xi_3^2 + \xi_4^2 + t_1 \xi_5^2 + t_2 \xi_6^2.

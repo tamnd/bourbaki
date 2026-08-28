@@ -40,7 +40,7 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: 8b0735f9661569735192e866f56800cc2ca77e68b63b4e1c9aade01fcd82bfa5
+content_sha256: 83d55e1838c96863628bb4c841426e325a8058e294ac5b1a348690c7b008fc05
 ---
 
 ## 3. METRIZABLE GROUPS, VALUED FIELDS, NORMED SPACES AND ALGEBRAS
@@ -170,9 +170,9 @@ Let $G$ be a non-Hausdorff topological group such that the Hausdorff group assoc
 
 #### Remark 2 {#top-ix-s3-n1-rem-2 .statement}
 
-Let d be a left-invariant metric which defines the topology of a metrizable group G, and let H be a closed normal subgroup of G. If $\dot{x}$ and $\dot{y}$ are any two points of G/H, consider the distance $d(\dot{x}, \dot{y})$ of the two closed subsets $\dot{x}, \dot{y}$ in G (\S 2, no. 2); we shall see that this function is a left-invariant metric on G/H and defines the topology of this quotient group.
+Let d be a left-invariant metric which defines the topology of a metrizable group G, and let H be a closed normal subgroup of G. If $\dot{x}$ and $\dot{y}$ are any two points of G/H, consider the distance $d(\dot{x}, \dot{y})$ of the two closed subsets $\dot{x}, \dot{y}$ in G (§ 2, no. 2); we shall see that this function is a left-invariant metric on G/H and defines the topology of this quotient group.
 
-Notice first that if $x \in \dot{x}$ and $y \in \dot{y}$ we have $d(\dot{x}, \dot{y}) = d(x, Hy)$; for $d(x, Hy) = \inf_{h \in H} d(x, h y)$, and therefore $d(h'x, Hy) = d(x, Hy)$ for all $h' \in H$, since d is left-invariant; this proves the assertion (\S 2, no. 2). Hence for each $\dot{z} \in G/H$ we have [\S 2, no. 2, formula (2)]
+Notice first that if $x \in \dot{x}$ and $y \in \dot{y}$ we have $d(\dot{x}, \dot{y}) = d(x, Hy)$; for $d(x, Hy) = \inf_{h \in H} d(x, h y)$, and therefore $d(h'x, Hy) = d(x, Hy)$ for all $h' \in H$, since d is left-invariant; this proves the assertion (§ 2, no. 2). Hence for each $\dot{z} \in G/H$ we have [§ 2, no. 2, formula (2)]
 
 $$
 |d(\dot{x}, \dot{z}) - d(\dot{y}, \dot{z})| = |d(x, \dot{z}) - d(y, \dot{z})| \leq d(x, y);
@@ -294,7 +294,7 @@ $$
 |x^{-1} - y^{-1}| = \frac{|x - y|}{|x| \cdot |y|} \leq \frac{\varepsilon}{a^2},
 $$
 
-and the first part of the proposition follows. The invariant metric $|x - y| = d(x, y)$ extends by continuity to a metric on $\hat{K}$ (\S 2, no. 1, Proposition 1) which defines the topology of $\hat{K}$ and is invariant by the principle of extension of identities; we continue to denote this invariant metric by $d(x, y)$. If we put $|x| = d(0, x)$ for $x \in \hat{K}$, it is clear that $|x|$ is the extension by continuity of the function $|x|$ on $K$ and is therefore an absolute value on $\hat{K}$ by the principle of extension of identities.
+and the first part of the proposition follows. The invariant metric $|x - y| = d(x, y)$ extends by continuity to a metric on $\hat{K}$ (§ 2, no. 1, Proposition 1) which defines the topology of $\hat{K}$ and is invariant by the principle of extension of identities; we continue to denote this invariant metric by $d(x, y)$. If we put $|x| = d(0, x)$ for $x \in \hat{K}$, it is clear that $|x|$ is the extension by continuity of the function $|x|$ on $K$ and is therefore an absolute value on $\hat{K}$ by the principle of extension of identities.
 
 ### 3. NORMED SPACES OVER A VALUED DIVISION RING
 
@@ -378,7 +378,7 @@ $$
 
 Let $E$ be a normed space over a non-discrete valued division ring, let $p$ be the norm on $E$, and let $\hat{E}$ be the additive topological group which is the completion of the additive group $E$. Then the function $(t, x) \to tx$ can be extended by continuity to $\hat{K} \times \hat{E}$ and defines on $\hat{E}$ a vector space structure over $\hat{K}$; the norm $p$ can be extended by continuity to a norm $\bar{p}$ on $\hat{E}$ which defines the topology of $\hat{E}$.
 
-The extension of $tx$ by continuity is a particular case of the theorem of extension of a continuous bilinear mapping of a product of two abelian groups into a third (Chapter III, § 6, no. 5, Theorem 1); we have $1.x = x$ and $t(u x) = (t u)x$ for $t \in \hat{K}$, $u \in \hat{K}$ and $x \in \hat{E}$, by the principle of extension of identities; hence the external law $(t, x) \to t x$ indeed defines on $\hat{E}$ a structure of a vector space over $\hat{K}$. On the other hand, the invariant metric $\overline{d}(x, y) = \overline{p}(x - y)$ extends to an invariant metric $\overline{d}$ on $\hat{E}$ (\S 2, no. 1, Proposition 1) which defines the topology of $\hat{E}$; if we set $\overline{p}(x) = \overline{d}(0, x)$, then $\overline{p}$ is the extension of $p$ by continuity, and satisfies axioms (NO_I) and (NO_{II}); by virtue of the continuity of $t x$ on $\hat{K} \times \hat{E}$, $\overline{p}$ also satisfies (NO_{III}) (principle of extension of identities) and is therefore a norm on $\hat{E}$.
+The extension of $tx$ by continuity is a particular case of the theorem of extension of a continuous bilinear mapping of a product of two abelian groups into a third (Chapter III, § 6, no. 5, Theorem 1); we have $1.x = x$ and $t(u x) = (t u)x$ for $t \in \hat{K}$, $u \in \hat{K}$ and $x \in \hat{E}$, by the principle of extension of identities; hence the external law $(t, x) \to t x$ indeed defines on $\hat{E}$ a structure of a vector space over $\hat{K}$. On the other hand, the invariant metric $\overline{d}(x, y) = \overline{p}(x - y)$ extends to an invariant metric $\overline{d}$ on $\hat{E}$ (§ 2, no. 1, Proposition 1) which defines the topology of $\hat{E}$; if we set $\overline{p}(x) = \overline{d}(0, x)$, then $\overline{p}$ is the extension of $p$ by continuity, and satisfies axioms (NO_I) and (NO_{II}); by virtue of the continuity of $t x$ on $\hat{K} \times \hat{E}$, $\overline{p}$ also satisfies (NO_{III}) (principle of extension of identities) and is therefore a norm on $\hat{E}$.
 
 When we have to consider a definite normed space structure on a vector space $E$, we shall usually denote the norm of a vector $x$ by $||x||$, unless this notation is likely to lead to confusion.
 

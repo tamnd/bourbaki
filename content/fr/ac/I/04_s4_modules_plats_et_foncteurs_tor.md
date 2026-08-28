@@ -11,7 +11,7 @@ pdf_pages: 0053-0055, 0066-0066
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: 78461ea869f1c13f6f558494c4d70ea41c45ebe6a3cfebee4d5b11026e5ee03a
+content_sha256: 6e0fb424cf57e891b3031ba428b07482d1d4a83c9d44a019ddc74d688deaf442
 ---
 
 ## § 4. Modules plats et foncteurs « Tor »
@@ -57,9 +57,9 @@ Comme d) est vérifiée, l’homomorphisme canonique
 $$
 E \otimes_A a \to E \otimes_A A = E
 $$
-est injectif, ce qui signifie que $E$ est plat ($\S 2$, no 3, prop. 1).
+est injectif, ce qui signifie que $E$ est plat ($§ 2$, no 3, prop. 1).
 
-La prop. 1 fournit une caractérisation des modules plats qui est souvent utile dans les applications. Nous nous bornerons, à titre d’exemple, à donner une nouvelle démonstration de la prop. 5 du $\S 2$, no 5. Si $E'$ et $E''$ sont plats, la suite exacte
+La prop. 1 fournit une caractérisation des modules plats qui est souvent utile dans les applications. Nous nous bornerons, à titre d’exemple, à donner une nouvelle démonstration de la prop. 5 du $§ 2$, no 5. Si $E'$ et $E''$ sont plats, la suite exacte
 $$
 \operatorname{Tor}_1^A(E', F) \to \operatorname{Tor}_1^A(E, F) \to \operatorname{Tor}_1^A(E'', F)
 $$

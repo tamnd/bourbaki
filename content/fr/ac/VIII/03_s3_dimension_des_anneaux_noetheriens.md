@@ -33,7 +33,7 @@ subsections:
       pdf_page: 40
 statements: 37
 exercises: 7
-content_sha256: 390f143777bdecb507cfc5436fbf6d87ac2c74cd2956da55d7e235ef0ab6af02
+content_sha256: 9e96d959c56485cbedf2ef098047ed722bad9561960260f61af3c6f4793e2f70
 ---
 
 ## § 3. DIMENSION DES ANNEAUX NOETHÉRIENS
@@ -44,7 +44,7 @@ content_sha256: 390f143777bdecb507cfc5436fbf6d87ac2c74cd2956da55d7e235ef0ab6af02
 
 Soient $A$ un anneau intègre noethérien, $x$ un élément non nul de $A$ et $p$ un élément minimal de l’ensemble des idéaux premiers de $A$ contenant $x$. Alors $p$ est de hauteur 1.
 
-Soit $q \subset p$ un idéal premier distinct de $p$. On a $x \notin q$ vu le caractère minimal de $p$. Comme $A$ est intègre, $A_p$ s’identifie à un sous-anneau de $A_q$; pour tout entier $n \geq 0$, on note $q_n$ l’idéal $q^n A_q \cap A_p$ de $A_p$. Le caractère minimal de $p$ signifie que l’anneau local $A_p / xA_p$ est de dimension 0 ; il est donc de longueur finie ($\S 1$, no 3, exemple 1), et il existe un entier $n_0 \geq 0$ tel que l’on ait
+Soit $q \subset p$ un idéal premier distinct de $p$. On a $x \notin q$ vu le caractère minimal de $p$. Comme $A$ est intègre, $A_p$ s’identifie à un sous-anneau de $A_q$; pour tout entier $n \geq 0$, on note $q_n$ l’idéal $q^n A_q \cap A_p$ de $A_p$. Le caractère minimal de $p$ signifie que l’anneau local $A_p / xA_p$ est de dimension 0 ; il est donc de longueur finie ($§ 1$, no 3, exemple 1), et il existe un entier $n_0 \geq 0$ tel que l’on ait
 
 $$
 q_n + xA_p = q_{n+1} + xA_p \quad \text{pour tout } n \geq n_0 .
@@ -309,7 +309,7 @@ Soit x un élément extrémal de A. Alors Ax est un idéal premier car x est ext
 
 #### Remarque 1 {#ac-viii-s3-n3-rem-1 .statement}
 
-Supposons que A soit un anneau local, noethérien et intègre de dimension d ; soit x un élément non nul de m_A et soit H = V(x). D’après le cor. 2 de la prop. 4, toute composante irréductible de H est de codimension 1 dans X, donc de dimension $\leq d - 1$ ($\S 1$, no 2, prop. 3). D’après le cor. 2 de la prop. 2 du no 1, H est de dimension $d - 1$ et l’une de ces composantes est donc de dimension $d - 1$; toutes le sont si A est caténaire. Cependant, il se peut en général qu’il existe une composante irréductible de H de dimension < $d - 1$ (cf. p. 87, exerc. 7).
+Supposons que A soit un anneau local, noethérien et intègre de dimension d ; soit x un élément non nul de m_A et soit H = V(x). D’après le cor. 2 de la prop. 4, toute composante irréductible de H est de codimension 1 dans X, donc de dimension $\leq d - 1$ ($§ 1$, no 2, prop. 3). D’après le cor. 2 de la prop. 2 du no 1, H est de dimension $d - 1$ et l’une de ces composantes est donc de dimension $d - 1$; toutes le sont si A est caténaire. Cependant, il se peut en général qu’il existe une composante irréductible de H de dimension < $d - 1$ (cf. p. 87, exerc. 7).
 
 #### Remarque 2 {#ac-viii-s3-n3-rem-2 .statement}
 
@@ -325,9 +325,9 @@ Soient A un anneau noethérien et $p \subset q$ une chaîne non saturée d’id�
 
 Quitte à remplacer A par $A/p$, on se ramène au cas où $p = \{0\}$.
 
-D’après le lemme 1 du no 1, on a $q = \bigcup_{r \in E} r$, et la prop. 2 de II, $\S 1$, no 1 montre que E est infini.
+D’après le lemme 1 du no 1, on a $q = \bigcup_{r \in E} r$, et la prop. 2 de II, $§ 1$, no 1 montre que E est infini.
 
-Soit $y \neq 0$ un élément de $\bigcap_{r \in E} r$. La hauteur de q est finie (no 1, cor. 1 de la prop. 2), et l’on a $\mathrm{ht}(q) \geq 2$ par hypothèse. Il existe donc un idéal premier $q' \subset q$ de hauteur 2. La première partie de la démonstration appliquée à $q'$ montre que l’ensemble E’ des idéaux premiers de hauteur 1 contenus dans $q'$ est infini ; chacun de ces idéaux contient y par hypothèse. Or l’anneau local noethérien $B = A_{q'}/yA_{q'}$ est de dimension 1 d’après le cor. 2 de la prop. 2 du no 1. Pour tout $r \in E'$, l’idéal premier $r/yA_{q'}$ de B est donc minimal ; par suite, l’anneau noethérien B a une infinité d’idéaux premiers minimaux, ce qui est absurde (II, $\S 4$, no 3, cor. 3 de la prop. 14). On a donc $\bigcap_{r \in E} r = \{0\}$.
+Soit $y \neq 0$ un élément de $\bigcap_{r \in E} r$. La hauteur de q est finie (no 1, cor. 1 de la prop. 2), et l’on a $\mathrm{ht}(q) \geq 2$ par hypothèse. Il existe donc un idéal premier $q' \subset q$ de hauteur 2. La première partie de la démonstration appliquée à $q'$ montre que l’ensemble E’ des idéaux premiers de hauteur 1 contenus dans $q'$ est infini ; chacun de ces idéaux contient y par hypothèse. Or l’anneau local noethérien $B = A_{q'}/yA_{q'}$ est de dimension 1 d’après le cor. 2 de la prop. 2 du no 1. Pour tout $r \in E'$, l’idéal premier $r/yA_{q'}$ de B est donc minimal ; par suite, l’anneau noethérien B a une infinité d’idéaux premiers minimaux, ce qui est absurde (II, $§ 4$, no 3, cor. 3 de la prop. 14). On a donc $\bigcap_{r \in E} r = \{0\}$.
 
 #### Proposition 6 {#ac-viii-s3-prop-6 .statement}
 
@@ -337,7 +337,7 @@ a) A possède une infinité d’idéaux premiers de hauteur h.
 
 b) Si A est de dimension finie, il possède une infinité d’idéaux premiers p tels que $\mathrm{ht}(p) = h$ et $\dim(A/p) = \dim(A) - h$.
 
-Comme la dimension de A est la borne supérieure des hauteurs des idéaux premiers de A ($\S 1$, no 3, prop. 8), que tout idéal premier de A est de hauteur finie (no 1, cor. 1 de la prop. 2) et que $h < \dim(A)$, il existe un entier $n > h$ et un idéal premier p de hauteur n, donc une chaîne $p_0 \subset ... \subset p_n = p$ d’idéaux premiers de longueur n. On a $\mathrm{ht}(p_i) = i$ pour $0 \leq i \leq n$, d’où $\mathrm{ht}(r) = h$ pour tout idéal premier r de A tel que $p_{h-1} \subset r \subset p_{h+1}$ soit une chaîne. L’ensemble E de ces idéaux est infini d’après la prop. 5, d’où a).
+Comme la dimension de A est la borne supérieure des hauteurs des idéaux premiers de A ($§ 1$, no 3, prop. 8), que tout idéal premier de A est de hauteur finie (no 1, cor. 1 de la prop. 2) et que $h < \dim(A)$, il existe un entier $n > h$ et un idéal premier p de hauteur n, donc une chaîne $p_0 \subset ... \subset p_n = p$ d’idéaux premiers de longueur n. On a $\mathrm{ht}(p_i) = i$ pour $0 \leq i \leq n$, d’où $\mathrm{ht}(r) = h$ pour tout idéal premier r de A tel que $p_{h-1} \subset r \subset p_{h+1}$ soit une chaîne. L’ensemble E de ces idéaux est infini d’après la prop. 5, d’où a).
 
 Si $A$ est de dimension finie, on peut supposer qu’on a $n = \dim(A)$ dans ce qui précède. Pour tout idéal $r \in E$, on a $\mathrm{ht}(r) = h$, d’où $\dim(A/r) \leq n - h$, et comme $r \subset p_{h+1} \subset ... \subset p_n$ est une chaîne de longueur $n - h$, on a $\dim(A/r) = n - h$.
 
@@ -451,7 +451,7 @@ $$
 \dim(A[X_1, ..., X_n]) = \dim(A) + n .
 $$
 
-Posons $B = A[X_1, ..., X_n]$. Pour tout idéal premier $p$ de $A$, l’anneau $B \otimes_A \kappa(p)$ est un anneau de polynômes à $n$ variables sur un corps, donc est de dimension $n$ ($\S 2$, no 4, cor. 1 au th. 3). D’après le cor. 2, on a $\dim(B) \leqslant \dim(A) + n$; l’inégalité inverse résulte de l’exemple 4 du $\S 1$, no 3.
+Posons $B = A[X_1, ..., X_n]$. Pour tout idéal premier $p$ de $A$, l’anneau $B \otimes_A \kappa(p)$ est un anneau de polynômes à $n$ variables sur un corps, donc est de dimension $n$ ($§ 2$, no 4, cor. 1 au th. 3). D’après le cor. 2, on a $\dim(B) \leqslant \dim(A) + n$; l’inégalité inverse résulte de l’exemple 4 du $§ 1$, no 3.
 
 #### Corollaire 4 {#ac-viii-s3-prop-7-cor-4 .statement}
 
@@ -463,9 +463,9 @@ $$
 
 si l’application $^a\rho : \mathrm{Spec}(B) \to \mathrm{Spec}(A)$ est surjective. Si $B$ est un $A$-module fidèlement plat, on a $\text{ht}(\rho(a).B) = \text{ht}(a)$.
 
-Si $B$ est fidèlement plat sur $A$, alors $^a\rho$ est surjective (II, $\S 2$, no 5, cor. 4 à la prop. 11) et l’on a $\text{ht}(a) \leqslant \text{ht}(\rho(a).B)$ ($\S 2$, no 1, corollaire de la prop. 2).
+Si $B$ est fidèlement plat sur $A$, alors $^a\rho$ est surjective (II, $§ 2$, no 5, cor. 4 à la prop. 11) et l’on a $\text{ht}(a) \leqslant \text{ht}(\rho(a).B)$ ($§ 2$, no 1, corollaire de la prop. 2).
 
-Il reste donc à prouver l’inégalité (20) sous l’hypothèse que $^a\rho$ est surjective. Soit $p$ un idéal premier de $A$ tel que $a \subset p$ et $\text{ht}(a) = \text{ht}(p)$ ($\S 1$, no 3, prop. 7). Posons $\overline{B} = B \otimes_A \kappa(p)$ et notons $h$ l’homomorphisme canonique de $B$ dans $\overline{B}$. Si $X = {}^a\rho^{-1}(p)$ est l’ensemble non vide des idéaux premiers de $B$ au-dessus de $p$, on sait ($\S 2$, no 1, lemme 1) que l’application $^ah$ est un homéomorphisme de $\mathrm{Spec}(\overline{B})$ sur le sous-espace $X$ de $\mathrm{Spec}(B)$. Soit $q$ l’image par $^ah$ d’un idéal premier minimal de $\overline{B}$; on a $\dim(B_q \otimes_A \kappa(p)) = 0$ et le cor. 1 entraîne l’inégalité $\dim(B_q) \leqslant \dim(A_p) = \text{ht}(p) = \text{ht}(a)$, finalement
+Il reste donc à prouver l’inégalité (20) sous l’hypothèse que $^a\rho$ est surjective. Soit $p$ un idéal premier de $A$ tel que $a \subset p$ et $\text{ht}(a) = \text{ht}(p)$ ($§ 1$, no 3, prop. 7). Posons $\overline{B} = B \otimes_A \kappa(p)$ et notons $h$ l’homomorphisme canonique de $B$ dans $\overline{B}$. Si $X = {}^a\rho^{-1}(p)$ est l’ensemble non vide des idéaux premiers de $B$ au-dessus de $p$, on sait ($§ 2$, no 1, lemme 1) que l’application $^ah$ est un homéomorphisme de $\mathrm{Spec}(\overline{B})$ sur le sous-espace $X$ de $\mathrm{Spec}(B)$. Soit $q$ l’image par $^ah$ d’un idéal premier minimal de $\overline{B}$; on a $\dim(B_q \otimes_A \kappa(p)) = 0$ et le cor. 1 entraîne l’inégalité $\dim(B_q) \leqslant \dim(A_p) = \text{ht}(p) = \text{ht}(a)$, finalement
 
 $$
 \text{ht}(\rho(a).B) \leqslant \text{ht}(q) = \dim(B_q) \leqslant \dim(A_p) = \text{ht}(p) = \text{ht}(a),
@@ -481,13 +481,13 @@ a) Soient $m$ un idéal premier de $A$ contenant $a$ et $\hat{m} = m\hat{A}$. Al
 
 b) On a $\dim_{\hat{A}}(\hat{M}) = \sup_m \dim_{A_m}(M_m)$, où $m$ parcourt l’ensemble des idéaux premiers (resp. maximaux) de $A$ contenant $a$. En particulier, on a $\dim_{\hat{A}}(\hat{M}) \leqslant \dim_A(M)$.
 
-a) Puisque $\hat{A}/\hat{m}$ s’identifie à $A/m$, $\hat{m}$ est un idéal premier de $\hat{A}$. D’après le th. 3 de III, $\S 3$, no 4, $\hat{A}$ est plat sur $A$, donc $\hat{A}_{\hat{m}}$ est plat sur $A_m$. Par ailleurs l’application canonique de $A$ dans $\hat{A}$ induit un isomorphisme de $A/a$ sur $\hat{A}/a\hat{A}$, donc aussi un isomorphisme de $A_m/mA_m$ sur $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. On conclut en appliquant la prop. 7 aux anneaux $A_m$ et $\hat{A}_{\hat{m}}$ et aux modules $M_m$ et $\hat{A}_{\hat{m}}$ car $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ est isomorphe à $\hat{M}_{\hat{m}}$ (III, loc. cit. et prop. 8).
+a) Puisque $\hat{A}/\hat{m}$ s’identifie à $A/m$, $\hat{m}$ est un idéal premier de $\hat{A}$. D’après le th. 3 de III, $§ 3$, no 4, $\hat{A}$ est plat sur $A$, donc $\hat{A}_{\hat{m}}$ est plat sur $A_m$. Par ailleurs l’application canonique de $A$ dans $\hat{A}$ induit un isomorphisme de $A/a$ sur $\hat{A}/a\hat{A}$, donc aussi un isomorphisme de $A_m/mA_m$ sur $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. On conclut en appliquant la prop. 7 aux anneaux $A_m$ et $\hat{A}_{\hat{m}}$ et aux modules $M_m$ et $\hat{A}_{\hat{m}}$ car $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ est isomorphe à $\hat{M}_{\hat{m}}$ (III, loc. cit. et prop. 8).
 
-b) D’après la prop. 8 de III, $\S 3$, no 4, l’application $m \mapsto \hat{m}$ est une bijection de l’ensemble des idéaux maximaux de $A$ contenant $a$ sur l’ensemble des idéaux maximaux de $\hat{A}$. L’assertion b) résulte de là et de la prop. 9 du $\S 1$, no 4.
+b) D’après la prop. 8 de III, $§ 3$, no 4, l’application $m \mapsto \hat{m}$ est une bijection de l’ensemble des idéaux maximaux de $A$ contenant $a$ sur l’ensemble des idéaux maximaux de $\hat{A}$. L’assertion b) résulte de là et de la prop. 9 du $§ 1$, no 4.
 
 #### Corollaire 1 {#ac-viii-s3-prop-8-cor-1 .statement}
 
-Soit $A$ un anneau de Zariski (III, $\S 3$, no 3, déf. 2). Pour tout $A$-module $M$ de type fini, on a $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
+Soit $A$ un anneau de Zariski (III, $§ 3$, no 3, déf. 2). Pour tout $A$-module $M$ de type fini, on a $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
 
 En effet, la topologie de $A$ est la topologie $a$-adique, où $a$ est un idéal contenu dans le radical de $A$ (*loc. cit.*), c’est-à-dire contenu dans tout idéal maximal $m$ de $A$. Il suffit donc d’appliquer l’assertion b) de la prop. 8.
 
@@ -521,15 +521,15 @@ $$
 \dim(A) + n \leqslant \dim(A[[X_1, ..., X_n]])
 $$
 
-d’après l’exemple 4 du $\S 1$, no 3.
+d’après l’exemple 4 du $§ 1$, no 3.
 
 #### Remarque 1 {#ac-viii-s3-n4-rem-1 .statement}
 
-Soient $A$ un anneau noethérien et $a$ un idéal de $A$. Supposons $A$ séparé et complet pour la topologie $a$-adique, et considérons l’anneau $R = A \{ X_1, ..., X_n \}$ des séries formelles restreintes (III, $\S 4$, no 2, déf. 2). On a $\dim(R) = \dim(A) + n$. En effet, $R$ est le complété de l’anneau $B = A[X_1, ..., X_n]$ pour la topologie $aB$-adique, d’où $\dim(R) \leqslant \dim(A[X_1, ..., X_n]) = \dim(A) + n$. L’inégalité inverse se démontre comme dans le cas des séries formelles.
+Soient $A$ un anneau noethérien et $a$ un idéal de $A$. Supposons $A$ séparé et complet pour la topologie $a$-adique, et considérons l’anneau $R = A \{ X_1, ..., X_n \}$ des séries formelles restreintes (III, $§ 4$, no 2, déf. 2). On a $\dim(R) = \dim(A) + n$. En effet, $R$ est le complété de l’anneau $B = A[X_1, ..., X_n]$ pour la topologie $aB$-adique, d’où $\dim(R) \leqslant \dim(A[X_1, ..., X_n]) = \dim(A) + n$. L’inégalité inverse se démontre comme dans le cas des séries formelles.
 
 #### Remarque 2 {#ac-viii-s3-n4-rem-2 .statement}
 
-Soient $A$ un anneau local noethérien, identifié à un sous-anneau de son complété $\hat{A}$, et $B$ un sous-anneau de $\hat{A}$ contenant $A$. Supposons que $B$ soit local noethérien et que l’on ait $m_A B = m_B$. Alors, l’injection canonique de $A$ dans $B$ s’étend en un isomorphisme de $\hat{A}$ sur le complété $\hat{B}$ de $B$ (III, $\S 3$, no 5, prop. 11), d’où $\dim(B) = \dim(A)$ (cor. 2 à la prop. 8). Ceci s’applique notamment à la situation suivante. \* Soient $k$ un corps valué complet non discret, $A$ l’anneau local de l’anneau de polynômes $k[X_1, ..., X_n]$ en l’idéal premier engendré par $X_1, ..., X_n$, et $B$ l’anneau des séries convergentes en $X_1, ..., X_n$ à coefficients dans $k$. Alors les hypothèses précédentes sont satisfaites, et par conséquent on a $\dim(B) = n$.*
+Soient $A$ un anneau local noethérien, identifié à un sous-anneau de son complété $\hat{A}$, et $B$ un sous-anneau de $\hat{A}$ contenant $A$. Supposons que $B$ soit local noethérien et que l’on ait $m_A B = m_B$. Alors, l’injection canonique de $A$ dans $B$ s’étend en un isomorphisme de $\hat{A}$ sur le complété $\hat{B}$ de $B$ (III, $§ 3$, no 5, prop. 11), d’où $\dim(B) = \dim(A)$ (cor. 2 à la prop. 8). Ceci s’applique notamment à la situation suivante. \* Soient $k$ un corps valué complet non discret, $A$ l’anneau local de l’anneau de polynômes $k[X_1, ..., X_n]$ en l’idéal premier engendré par $X_1, ..., X_n$, et $B$ l’anneau des séries convergentes en $X_1, ..., X_n$ à coefficients dans $k$. Alors les hypothèses précédentes sont satisfaites, et par conséquent on a $\dim(B) = n$.*
 
 ### 5. Construction de suites sécantes
 

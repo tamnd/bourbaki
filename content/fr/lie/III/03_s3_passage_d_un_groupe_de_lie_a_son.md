@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: d71b1270af60ece845beb7c591ab678528c9ecb3c7c9b7bf328d0cb1f3ae6fc3
+content_sha256: 4a7eb7edeaedbf7cecde573e26a8fb9c56239ed2e562523d47fdf93c6bb09fe8
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -129,7 +129,7 @@ $$
 
 où $\varphi$ est l’application $h \mapsto (g, h)$ et où $\psi$ est l’application $(h', h) \mapsto h'h$. On a $\gamma(g) = \psi \circ \varphi$, donc $\gamma(g)*t = \psi_*(\varphi_*(t))$. Or $\varphi_*(t) = \varepsilon_g \otimes t$, donc $\psi_*(\varphi_*(t)) = \varepsilon_g * t$. On raisonne de même pour $\delta(g)*t$. Enfin, $\mathrm{Int}\, g = \gamma(g) \circ \delta(g)$, donc $(\mathrm{Int}\, g)_* = \gamma(g)_* \circ \delta(g)_*$.
 
-On voit donc que, pour $t \in T(G)$, $\varepsilon_g * t$ et $t * \varepsilon_g$ sont égaux à $gt$ et $tg$ calculés dans le groupe $T(G)$ (\S 2, n° 2). On prendra garde que, pour $t, t'$ dans $T(G)$, le produit $tt'$ au sens du \S 2 est en général distinct de $t * t'$.
+On voit donc que, pour $t \in T(G)$, $\varepsilon_g * t$ et $t * \varepsilon_g$ sont égaux à $gt$ et $tg$ calculés dans le groupe $T(G)$ (§ 2, n° 2). On prendra garde que, pour $t, t'$ dans $T(G)$, le produit $tt'$ au sens du § 2 est en général distinct de $t * t'$.
 
 #### Définition 2 {#lie-iii-s3-def-2 .statement}
 
@@ -193,7 +193,7 @@ $$
 \end{array}
 $$
 
-est commutatif. Or $T(m) : L \times L \to L$ transforme $(x, y)$ en $x + y$ (\S 2, n° 1, prop. 2 (ii)). D’après A, IV, § 5, n° 6, prop. 7, n^{elle} édition, $\mathrm{TS}(T(m)) \circ q$ est donc la multiplication de l’algèbre $\mathrm{TS}(L)$.
+est commutatif. Or $T(m) : L \times L \to L$ transforme $(x, y)$ en $x + y$ (§ 2, n° 1, prop. 2 (ii)). D’après A, IV, § 5, n° 6, prop. 7, n^{elle} édition, $\mathrm{TS}(T(m)) \circ q$ est donc la multiplication de l’algèbre $\mathrm{TS}(L)$.
 
 ### 2. Propriétés fonctorielles
 
@@ -219,7 +219,7 @@ $$
 
 Les groupes de Lie G et $G^\vee$ ont la même variété sous-jacente, donc les espaces vectoriels $\mathcal{T}^{(\infty)}(G)$ et $\mathcal{T}^{(\infty)}(G^\vee)$ sont les mêmes. Soit $\theta$ l’application $g \mapsto g^{-1}$, qui est un isomorphisme du groupe de Lie G sur le groupe de Lie $G^\vee$. Alors $\theta_*$ est un automorphisme de l’espace vectoriel $\mathcal{T}^{(\infty)}(G)$, automorphisme qu’on note $t \mapsto t^\vee$. On a $(\varepsilon_g)^\vee = \varepsilon_{g^{-1}}$. Si $t \in T_e(G)$, on a
 $$
-t^\vee = -t \quad (\S 2, \text{prop. } 2).
+t^\vee = -t \quad (§ 2, \text{prop. } 2).
 $$
 
 #### Exemple {#lie-iii-s3-n2-exa-1 .statement}
@@ -912,7 +912,7 @@ $$
 f(1 + y) \in 1 + y + y^i + o(\|y\|) \quad \text{pour } y \text{ tendant vers } 0.
 $$
 
-Ainsi, $T_1(f)(y) = y + y^i$, de sorte que $f$ est une submersion en 1. Par suite, il existe un voisinage ouvert U de 1 dans A tel que $U \cap G$ soit une sous-variété de U. Donc (\S 1, n° 3, prop. 6), G est un sous-groupe de Lie de $A^*$. En outre, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
+Ainsi, $T_1(f)(y) = y + y^i$, de sorte que $f$ est une submersion en 1. Par suite, il existe un voisinage ouvert U de 1 dans A tel que $U \cap G$ soit une sous-variété de U. Donc (§ 1, n° 3, prop. 6), G est un sous-groupe de Lie de $A^*$. En outre, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
 
 #### Corollaire 1 {#lie-iii-s3-prop-37-cor-1 .statement}
 
@@ -944,7 +944,7 @@ Lorsque $E \neq \{0\}$, U n’est *pas* un sous-groupe de Lie du groupe de Lie c
 
 ### 11. Représentations linéaires
 
-Soient G un groupe de Lie, E un espace normable complet, π une représentation linéaire analytique de G dans E (\S 1, n° 2). Le morphisme associé $t \mapsto \langle t, \pi \rangle$ de $\mathcal{T}^{(\infty)}(G)$ dans $\mathcal{L}(E)$ est un morphisme d’algèbres (n° 9, prop. 33), et sa restriction à $L(G)$ est $L(\pi)$. Donc $L(\pi)$ est une représentation de $L(G)$ dans E (chap. I, \S 3, déf. 1).
+Soient G un groupe de Lie, E un espace normable complet, π une représentation linéaire analytique de G dans E (§ 1, n° 2). Le morphisme associé $t \mapsto \langle t, \pi \rangle$ de $\mathcal{T}^{(\infty)}(G)$ dans $\mathcal{L}(E)$ est un morphisme d’algèbres (n° 9, prop. 33), et sa restriction à $L(G)$ est $L(\pi)$. Donc $L(\pi)$ est une représentation de $L(G)$ dans E (chap. I, § 3, déf. 1).
 
 #### Proposition 38 {#lie-iii-s3-prop-38 .statement}
 
@@ -1136,9 +1136,9 @@ $$
 L(\pi)a.\xi_0 = -[D_a, \xi](x_0).
 $$
 
-On a $\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$), donc $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). D’autre part, puisque TX est un G-fibré vectoriel de classe $C^\omega$ (\S 1, n° 8, prop. 16), $\pi$ est analytique, d’où (i).
+On a $\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$), donc $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). D’autre part, puisque TX est un G-fibré vectoriel de classe $C^\omega$ (§ 1, n° 8, prop. 16), $\pi$ est analytique, d’où (i).
 
-Pour prouver (ii), supposons que G opère à gauche. Il existe un voisinage ouvert I de 0 dans K et une application analytique $\gamma$ de I dans G tels que $\gamma(0) = e$, $T_0(\gamma)1 = a$. Alors $D_a$ est le champ de vecteurs sur X défini par l’application $\varphi : (\lambda, x) \mapsto \gamma(\lambda)x$ de $I \times X$ dans X (\S 2, n° 2). Si l’on note $\varphi_\lambda$ la bijection $x \mapsto \gamma(\lambda)x$ de X dans X, on a
+Pour prouver (ii), supposons que G opère à gauche. Il existe un voisinage ouvert I de 0 dans K et une application analytique $\gamma$ de I dans G tels que $\gamma(0) = e$, $T_0(\gamma)1 = a$. Alors $D_a$ est le champ de vecteurs sur X défini par l’application $\varphi : (\lambda, x) \mapsto \gamma(\lambda)x$ de $I \times X$ dans X (§ 2, n° 2). Si l’on note $\varphi_\lambda$ la bijection $x \mapsto \gamma(\lambda)x$ de X dans X, on a
 
 $$
 [D_a, \xi](x_0) = \left( \frac{d}{d\lambda} (T_{\varphi_\lambda(x_0)}(\varphi_\lambda^{-1})\xi(\varphi_\lambda(x_0))) \right)_{\lambda=0} \tag{VAR, R, 8.4.5}
@@ -1326,7 +1326,7 @@ Rappelons que $\mathrm{Ad}\, g = T_1(\mathrm{Int}\, g)$. Soit $u_g$ l’applicat
 
 ### 13. Tenseurs et formes invariantes
 
-Soit $G$ un groupe de Lie. Considérons $G$ comme opérant sur lui-même par translations à gauche (resp. à droite). Soit $\lambda$ un foncteur vectoriel de classe $C^\omega$ pour les isomorphismes. Alors $\lambda(TG)$ est un $G$-fibré vectoriel à gauche (resp. à droite) analytique ($\S 1$, n° 8, cor. de la prop. 16). L’application $(g, u) \mapsto gu$ (resp. $ug$) de $G \times \lambda(\mathbf{L}(G))$ sur $\lambda(TG)$ est un isomorphisme $\varphi$ (resp. $\psi$) de $G$-fibrés vectoriels ($\S 1$, n° 8, cor. 2 de la prop. 17). Toute section $G$-invariante de $\lambda(TG)$ est analytique, et déterminé par sa valeur en $e$ ($\S 1$, n° 8, cor. 1 de la prop. 17). Une telle section est dite *invariante à gauche* (resp. *à droite*). Soit $\sigma$ une section invariante-à-gauche de $\lambda(TG)$; la transformée $\sigma'$ de $\sigma$ par une translation à droite $\delta(g)$ est définie par $\sigma'(\delta(g)h) = \lambda(T_h(\delta(g)))\sigma(h)$ quel que soit $h \in G$; elle est encore invariante à gauche; elle se déduit aussi de $\sigma$ par $\gamma(g) \circ \delta(g) = \mathrm{Int}(g)$, donc
+Soit $G$ un groupe de Lie. Considérons $G$ comme opérant sur lui-même par translations à gauche (resp. à droite). Soit $\lambda$ un foncteur vectoriel de classe $C^\omega$ pour les isomorphismes. Alors $\lambda(TG)$ est un $G$-fibré vectoriel à gauche (resp. à droite) analytique ($§ 1$, n° 8, cor. de la prop. 16). L’application $(g, u) \mapsto gu$ (resp. $ug$) de $G \times \lambda(\mathbf{L}(G))$ sur $\lambda(TG)$ est un isomorphisme $\varphi$ (resp. $\psi$) de $G$-fibrés vectoriels ($§ 1$, n° 8, cor. 2 de la prop. 17). Toute section $G$-invariante de $\lambda(TG)$ est analytique, et déterminé par sa valeur en $e$ ($§ 1$, n° 8, cor. 1 de la prop. 17). Une telle section est dite *invariante à gauche* (resp. *à droite*). Soit $\sigma$ une section invariante-à-gauche de $\lambda(TG)$; la transformée $\sigma'$ de $\sigma$ par une translation à droite $\delta(g)$ est définie par $\sigma'(\delta(g)h) = \lambda(T_h(\delta(g)))\sigma(h)$ quel que soit $h \in G$; elle est encore invariante à gauche; elle se déduit aussi de $\sigma$ par $\gamma(g) \circ \delta(g) = \mathrm{Int}(g)$, donc
 
 $$
 \sigma'(e) = \lambda(\mathrm{Ad}\, g) \cdot \sigma(e).
@@ -1338,7 +1338,7 @@ $$
 \tau'(e) = \lambda(\mathrm{Ad}\, g) \cdot \tau(e).
 $$
 
-Considérons maintenant $G \times G$ comme opérant à gauche dans $G$ par $((g, g'), g'') \mapsto gg''{g'}^{-1}$. Alors $G$ est un espace homogène de Lie à gauche pour $G \times G$ ($\S 1$, n° 6, *Exemple*). Donc $\lambda(TG)$ est un $(G \times G)$-fibré vectoriel à gauche analytique. Une section de $\lambda(TG)$ est dite *biinvariante* si elle est invariante par l’action de $G \times G$ dans $\lambda(TG)$, autrement dit si elle est invariante par les translations à gauche et à droite. Soit $\lambda(\mathbf{L}(G))_0$ l’ensemble des éléments de $\lambda(\mathbf{L}(G))$ invariants par $\lambda(\mathrm{Ad}(G))$. Pour tout $u \in \lambda(\mathbf{L}(G))_0$, soit $\sigma_u$ l’application de $G$ dans $\lambda(TG)$ définie par $\sigma_u(g) = gu = ug$. Alors, $u \mapsto \sigma_u$ est une bijection de $\lambda(\mathbf{L}(G))_0$ sur l’ensemble des sections biinvariantes de $\lambda(TG)$ ($\S 1$, n° 8, cor. 1 de la prop. 17).
+Considérons maintenant $G \times G$ comme opérant à gauche dans $G$ par $((g, g'), g'') \mapsto gg''{g'}^{-1}$. Alors $G$ est un espace homogène de Lie à gauche pour $G \times G$ ($§ 1$, n° 6, *Exemple*). Donc $\lambda(TG)$ est un $(G \times G)$-fibré vectoriel à gauche analytique. Une section de $\lambda(TG)$ est dite *biinvariante* si elle est invariante par l’action de $G \times G$ dans $\lambda(TG)$, autrement dit si elle est invariante par les translations à gauche et à droite. Soit $\lambda(\mathbf{L}(G))_0$ l’ensemble des éléments de $\lambda(\mathbf{L}(G))$ invariants par $\lambda(\mathrm{Ad}(G))$. Pour tout $u \in \lambda(\mathbf{L}(G))_0$, soit $\sigma_u$ l’application de $G$ dans $\lambda(TG)$ définie par $\sigma_u(g) = gu = ug$. Alors, $u \mapsto \sigma_u$ est une bijection de $\lambda(\mathbf{L}(G))_0$ sur l’ensemble des sections biinvariantes de $\lambda(TG)$ ($§ 1$, n° 8, cor. 1 de la prop. 17).
 
 #### Proposition 50 {#lie-iii-s3-prop-50 .statement}
 

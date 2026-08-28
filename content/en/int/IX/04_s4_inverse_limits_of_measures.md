@@ -25,7 +25,7 @@ subsections:
       pdf_page: 236
 statements: 7
 exercises: 2
-content_sha256: aa4d547d2b59667d4b6a9c6560eb3a9d0270aca967cd7924b7b700b6cb81c4e8
+content_sha256: b4e7cd1d1788dbad199a14046cb0e8a2678d3219bed052cfd2b9150b2bbab48e
 ---
 
 ## § 4. INVERSE LIMITS OF MEASURES
@@ -33,7 +33,7 @@ content_sha256: aa4d547d2b59667d4b6a9c6560eb3a9d0270aca967cd7924b7b700b6cb81c4e8
 *Throughout this section, I denotes a nonempty set, equipped with a preorder relation, denoted $i \leq j$, and directed for this relation. Recall (GT, I, §4, No. 4) that an inverse system of topological spaces indexed by I is a family $(T_i, p_{ij})$ where $T_i$ is a topological space and $p_{ij}$ is a continuous mapping of $T_j$ into $T_i$ for $i \leq j$, where $p_{ii}$ is the identity mapping of $T_i$, and where $p_{ik} = p_{ij} \circ p_{jk}$ for $i \leq j \leq k$. Let T be a topological space and $(p_i)_{i \in I}$ a family of continuous mappings $p_i : T \to T_i$. The family $(p_i)_{i \in I}$ is said to be coherent if $p_i = p_{ij} \circ p_j$ for $i \leq j$, and it is said to be separating if for distinct $x, y$ in T there exists an $i \in I$ such that $p_i(x) \neq p_i(y)$. When $T = \varprojlim T_i$ and $p_i$ is the canonical mapping of T into $T_i$, the family $(p_i)_{i \in I}$ is coherent and separating.*
 
 (3) In a Souslin space, every Borel set is a Souslin set (GT, IX, §6, No. 3, Prop. 11).
-(4) More generally, if $f : X \to Y$ is a continuous bijection between Souslin spaces, then $\mu \mapsto f(\mu)$ is a bijective mapping of the set of bounded measures on X onto the set of bounded measures on Y (\S2, No. 4, Prop. 9).
+(4) More generally, if $f : X \to Y$ is a continuous bijection between Souslin spaces, then $\mu \mapsto f(\mu)$ is a bijective mapping of the set of bounded measures on X onto the set of bounded measures on Y (§ 2, No. 4, Prop. 9).
 
 ### 1. Complements on compact spaces and inverse limits
 
@@ -99,14 +99,14 @@ $$
 $$
 
 whence $J(K \cup L) = J(K) + J(L)$ on passing to the limit with respect to the filter $\mathfrak{F}$.
-4) Let $(K_\alpha)_{\alpha \in A}$ be a decreasing directed family of compact subsets of $T$, with intersection $K$. By Prop. 1 of No. 1, $p_i(K) = \bigcap_{\alpha \in A} p_i(K_\alpha)$ and therefore $\mu_i^\bullet(p_i(K)) = \inf_{\alpha \in A} \mu_i^\bullet(p_i(K_\alpha))$ for all $i \in I$ (\S1, No. 6, Cor. of Prop. 5). From this, one deduces
+4) Let $(K_\alpha)_{\alpha \in A}$ be a decreasing directed family of compact subsets of $T$, with intersection $K$. By Prop. 1 of No. 1, $p_i(K) = \bigcap_{\alpha \in A} p_i(K_\alpha)$ and therefore $\mu_i^\bullet(p_i(K)) = \inf_{\alpha \in A} \mu_i^\bullet(p_i(K_\alpha))$ for all $i \in I$ (§ 1, No. 6, Cor. of Prop. 5). From this, one deduces
 $$
 J(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K)) = \inf_{i \in I} \inf_{\alpha \in A} \mu_i^\bullet(p_i(K_\alpha))
 = \inf_{\alpha \in A} \inf_{i \in I} \mu_i^\bullet(p_i(K_\alpha)) = \inf_{\alpha \in A} J(K_\alpha).
 $$
 5) Let us choose an $i \in I$ and set $c = \mu_i^\bullet(T_i)$. Then $c$ is finite and $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(T_i)$, thus $J(K) \leq c$ for every compact set $K$ in $T$.
 
-The preceding properties permit applying Th. 1 of \S3, No. 1; we conclude that there exists one and only one bounded measure $\pi$ on $T$ such that $\pi^\bullet(K) = J(K)$ for every compact subset $K$ of $T$. For every $i \in I$, let us denote by $\nu_i$ the measure on $T_i$ that is the image of $\pi$ under $p_i$. Let $i \in I$, $A$ a compact subset of $T_i$, and $\mathcal{L}$ the set of compact subsets of $\overline{p_i^{-1}(A)}$. By Remark 3 of \S1, No. 2, we have $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathcal{L}} \pi^\bullet(K)$; moreover, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ and $J(K) = \pi^\bullet(K)$ for $K \in \mathcal{L}$, whence $\nu_i^\bullet(A) = \sup_{K \in \mathcal{L}} J(K)$.
+The preceding properties permit applying Th. 1 of § 3, No. 1; we conclude that there exists one and only one bounded measure $\pi$ on $T$ such that $\pi^\bullet(K) = J(K)$ for every compact subset $K$ of $T$. For every $i \in I$, let us denote by $\nu_i$ the measure on $T_i$ that is the image of $\pi$ under $p_i$. Let $i \in I$, $A$ a compact subset of $T_i$, and $\mathcal{L}$ the set of compact subsets of $\overline{p_i^{-1}(A)}$. By Remark 3 of § 1, No. 2, we have $\pi^\bullet(\overline{p_i^{-1}(A)}) = \sup_{K \in \mathcal{L}} \pi^\bullet(K)$; moreover, $\nu_i^\bullet(A) = \pi^\bullet(\overline{p_i^{-1}(A)})$ and $J(K) = \pi^\bullet(K)$ for $K \in \mathcal{L}$, whence $\nu_i^\bullet(A) = \sup_{K \in \mathcal{L}} J(K)$.
 
 For $K \in \mathcal{L}$, we have $p_i(K) \subset A$, whence $J(K) \leq \mu_i^\bullet(p_i(K)) \leq \mu_i^\bullet(A)$ and finally $\nu_i^\bullet(A) \leq \mu_i^\bullet(A)$. Since $A$ is an arbitrary compact set in $T_i$, we conclude that $\nu_i \leq \mu_i$. The last assertion of the proposition is obvious.
 
@@ -126,18 +126,18 @@ $$
 $$
 *for every compact set $K$ in $T$*.
 
-Let us first prove the uniqueness of $\mu$. Let $\mu$ be a bounded measure on $T$ such that $p_i(\mu) = \mu_i$ for all $i \in I$. Let $K$ be a compact subset of $T$; by Prop. 2 of No. 1, the set $K$ is the intersection of the decreasing directed family $(\overline{p_i^{-1}(p_i(K))})_{i \in I}$ of *closed* subsets of $T$. By the Cor. of Prop. 5 of \S1, No. 6, we therefore have
+Let us first prove the uniqueness of $\mu$. Let $\mu$ be a bounded measure on $T$ such that $p_i(\mu) = \mu_i$ for all $i \in I$. Let $K$ be a compact subset of $T$; by Prop. 2 of No. 1, the set $K$ is the intersection of the decreasing directed family $(\overline{p_i^{-1}(p_i(K))})_{i \in I}$ of *closed* subsets of $T$. By the Cor. of Prop. 5 of § 1, No. 6, we therefore have
 $$
 \mu^\bullet(K) = \inf_{i \in I} \mu^\bullet(\overline{p_i^{-1}(p_i(K))}) = \inf_{i \in I} \mu_i^\bullet(p_i(K)),
 $$
 
-which establishes the formula (2). Since two measures that coincide on the set of compact sets are equal (\S 1, No. 2, Cor. of Prop. 2), it follows that $\mu$ is unique.
+which establishes the formula (2). Since two measures that coincide on the set of compact sets are equal (§ 1, No. 2, Cor. of Prop. 2), it follows that $\mu$ is unique.
 
 By Prop. 3, there exists a bounded measure $\pi$ on $T$ such that $\pi^\bullet(K) = \inf_{i \in I} \mu_i^\bullet(p_i(K))$ for every compact subset $K$ of $T$. By formula (2), the existence of a bounded measure $\mu$ on $T$ such that $p_i(\mu) = \mu_i$ for all $i \in I$ is therefore equivalent to the relation:
 
 (P') $p_i(\pi) = \mu_i$ for all $i \in I$.
 
-For $i \leq j$, we have $\mu_i = p_{ij}(\mu_j)$, whence $\mu_i^\bullet(T_i) = \mu_j^\bullet(T_j)$; since $I$ is directed, there exists a finite number $c \geq 0$ such that $\mu_i^\bullet(T_i) = c$ for all $i \in I$. By Prop. 3, the measure $\mu_i - p_i(\pi)$ is positive, hence is zero if and only if its total mass is zero, that is, if $\mu_i(T_i) = p_i(\pi)^\bullet(T_i)$. Since $p_i(\pi)^\bullet(T_i) = \pi^\bullet(T)$, the condition (P') is thus equivalent to $\pi^\bullet(T) = c$, that is (\S 1, No. 2, Remark 3) to the property:
+For $i \leq j$, we have $\mu_i = p_{ij}(\mu_j)$, whence $\mu_i^\bullet(T_i) = \mu_j^\bullet(T_j)$; since $I$ is directed, there exists a finite number $c \geq 0$ such that $\mu_i^\bullet(T_i) = c$ for all $i \in I$. By Prop. 3, the measure $\mu_i - p_i(\pi)$ is positive, hence is zero if and only if its total mass is zero, that is, if $\mu_i(T_i) = p_i(\pi)^\bullet(T_i)$. Since $p_i(\pi)^\bullet(T_i) = \pi^\bullet(T)$, the condition (P') is thus equivalent to $\pi^\bullet(T) = c$, that is (§ 1, No. 2, Remark 3) to the property:
 
 (P'') $\sup_{K \in \mathcal{K}} \pi^\bullet(K) = c$, where $\mathcal{K}$ is the set of compact subsets of $T$.
 
@@ -151,7 +151,7 @@ and this formula immediately implies the equivalence of (P) and (P'').
 
 Q.E.D.
 
-Let $(T_i, p_{ij})$ be an inverse system of topological spaces. Set $T = \lim_{\leftarrow} T_i$ and denote by $p_i$ the canonical mapping of $T$ into $T_i$. Generalizing Def. 2 of Ch. III, \S 4, No. 5, we shall say that a bounded measure $\mu$ on $T$ is the *inverse limit of an inverse system* $(\mu_i)_{i \in I}$ *of measures* if $\mu_i = p_i(\mu)$ for all $i \in I$. Th. 1 provides a criterion for the existence of inverse limits of measures. When the spaces $T_i$ are *compact*, and the mappings $p_{ij}$ surjective, $T$ is compact and $p_i(T) = T_i$ for every $i \in I$; the condition (P) is therefore fulfilled, and in this case we recover Prop. 8, (iv) of Ch. III, \S 4, No. 5.
+Let $(T_i, p_{ij})$ be an inverse system of topological spaces. Set $T = \lim_{\leftarrow} T_i$ and denote by $p_i$ the canonical mapping of $T$ into $T_i$. Generalizing Def. 2 of Ch. III, § 4, No. 5, we shall say that a bounded measure $\mu$ on $T$ is the *inverse limit of an inverse system* $(\mu_i)_{i \in I}$ *of measures* if $\mu_i = p_i(\mu)$ for all $i \in I$. Th. 1 provides a criterion for the existence of inverse limits of measures. When the spaces $T_i$ are *compact*, and the mappings $p_{ij}$ surjective, $T$ is compact and $p_i(T) = T_i$ for every $i \in I$; the condition (P) is therefore fulfilled, and in this case we recover Prop. 8, (iv) of Ch. III, § 4, No. 5.
 
 #### Remark {#int-ix-s4-n2-rem-1 .statement}
 

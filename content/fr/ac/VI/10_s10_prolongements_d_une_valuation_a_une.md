@@ -24,7 +24,7 @@ subsections:
       pdf_page: 161
 statements: 14
 exercises: 2
-content_sha256: d217186b3da9590252a5ad143d5faf17a27de8a195c0c8c6369c6d313172c28b
+content_sha256: 664d157e2de4109dc7ebe027689b955e34b0073472e75731add3aef91d62bf9f
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
@@ -122,7 +122,7 @@ $$
 
 #### Proposition 3 {#ac-vi-s10-prop-3 .statement}
 
-Soient $G$ un groupe commutatif totalement ordonné, et $H$ un sous-groupe de $G$. Si l’on note $h(G)$ et $h(H)$ les hauteurs de $G$ et $H$ ($\S 4$, no 4), on a l’inégalité
+Soient $G$ un groupe commutatif totalement ordonné, et $H$ un sous-groupe de $G$. Si l’on note $h(G)$ et $h(H)$ les hauteurs de $G$ et $H$ ($§ 4$, no 4), on a l’inégalité
 
 $$
 h(G) \leq h(H) + r(G/H).
@@ -171,7 +171,7 @@ Supposons maintenant qu’on ait $r \geq 2$, et raisonnons par récurrence sur $
 
 *Soit* $H$ *un sous-groupe isolé d’un groupe commutatif totalement ordonné* $G$. *Si* $H$ *est facteur direct dans* $G$, *le groupe ordonné* $G$ *est isomorphe au groupe* $(G/H) \times H$ *ordonné lexicographiquement*.
 
-Soit $j$ un isomorphisme de groupes de $(G/H) \times H$ sur $G$ tel que $j(0, x) = x$ pour tout $x \in H$, et que $j(y, x)$ admette $y$ pour classe modulo $H$. Comme $(G/H) \times H$ est totalement ordonné, tout revient à montrer que $j$ est *croissant* (*Ens.*, chap. III, 2e éd., § 1, no 12, prop. 11). Soit $(y, x)$ un élément $\geqslant 0$ de $(G/H) \times H$ ordonné lexicographiquement. Si $y > 0$, la classe de $j(y, x)$ modulo $H$ est un élément $> 0$, d’où $j(y, x) > 0$, car, sinon, on aurait $y \leqslant 0$ (\S 4, no 2, prop. 3). Si $y = 0$ et $x \geqslant 0$, on a $j(y, x) = x \geqslant 0$. Donc $j$ est bien croissant.
+Soit $j$ un isomorphisme de groupes de $(G/H) \times H$ sur $G$ tel que $j(0, x) = x$ pour tout $x \in H$, et que $j(y, x)$ admette $y$ pour classe modulo $H$. Comme $(G/H) \times H$ est totalement ordonné, tout revient à montrer que $j$ est *croissant* (*Ens.*, chap. III, 2e éd., § 1, no 12, prop. 11). Soit $(y, x)$ un élément $\geqslant 0$ de $(G/H) \times H$ ordonné lexicographiquement. Si $y > 0$, la classe de $j(y, x)$ modulo $H$ est un élément $> 0$, d’où $j(y, x) > 0$, car, sinon, on aurait $y \leqslant 0$ (§ 4, no 2, prop. 3). Si $y = 0$ et $x \geqslant 0$, on a $j(y, x) = x \geqslant 0$. Donc $j$ est bien croissant.
 
 ### 3. *Cas d’une extension transcendante quelconque.*
 

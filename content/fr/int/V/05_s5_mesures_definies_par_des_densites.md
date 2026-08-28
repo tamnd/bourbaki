@@ -52,7 +52,7 @@ subsections:
       pdf_page: 72
 statements: 48
 exercises: 31
-content_sha256: 838332284d3fb18b12f26cf7d31c73229e98682a0633cad5f51565e8646d6220
+content_sha256: c6f935722c5425e83061430af4684c1cb286583577803e519dc328c98c47f944
 ---
 
 ## § 5. Mesures définies par des densités numériques
@@ -296,13 +296,13 @@ $$
 g \cdot \lambda = \sup_{\alpha \in A} g \cdot \lambda_\alpha.
 $$
 
-Il est clair que la condition est nécessaire. Inversement, supposons que $g$ soit localement intégrable pour chaque mesure $\lambda_\alpha$, et que la famille $(g \cdot \lambda_\alpha)_{\alpha \in A}$ soit majorée ; désignons par $\lambda'$ sa borne supérieure. La fonction $g$ est alors $\lambda$-mesurable (\S 1, n° 4, cor. 2 de la prop. 11) ; on a de plus, pour toute fonction $h \in \mathscr{K}_+(T)$
+Il est clair que la condition est nécessaire. Inversement, supposons que $g$ soit localement intégrable pour chaque mesure $\lambda_\alpha$, et que la famille $(g \cdot \lambda_\alpha)_{\alpha \in A}$ soit majorée ; désignons par $\lambda'$ sa borne supérieure. La fonction $g$ est alors $\lambda$-mesurable (§ 1, n° 4, cor. 2 de la prop. 11) ; on a de plus, pour toute fonction $h \in \mathscr{K}_+(T)$
 
 $$
 \int^\bullet (hg) \, d\lambda = \sup_{\alpha \in A} \int^\bullet (hg) \, d\lambda_\alpha = \sup_{\alpha \in A} \int^\bullet h \, d(g \cdot \lambda_\alpha) = \int^\bullet h \, d\lambda'
 $$
 
-(\S 1, n° 4, prop. 11). Cela entraîne d’abord que le premier membre est fini quel que soit $h$, de sorte que $g$ est localement $\lambda$-intégrable ; on peut donc remplacer le symbole $\int^\bullet$ par $\int$, et la formule s’écrit $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. Il en résulte que $g \cdot \lambda = \lambda'$, et ceci achève la démonstration.
+(§ 1, n° 4, prop. 11). Cela entraîne d’abord que le premier membre est fini quel que soit $h$, de sorte que $g$ est localement $\lambda$-intégrable ; on peut donc remplacer le symbole $\int^\bullet$ par $\int$, et la formule s’écrit $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. Il en résulte que $g \cdot \lambda = \lambda'$, et ceci achève la démonstration.
 
 #### Corollaire {#int-v-s5-n4-cor-1 .statement}
 
@@ -321,7 +321,7 @@ $$
 g \cdot \mu = \sum_{\alpha \in A} g_\alpha \cdot \mu.
 $$
 
-Il est clair que $g$ est $\mu$-mesurable (chap. IV, 2e éd., § 5, n° 10, prop. 16). Pour que $g$ soit localement $\mu$-intégrable, il faut et il suffit par conséquent que $\mu^*(gf)$ soit fini pour tout $f \in \mathcal{H}_+(T)$. Or l’ensemble des $\alpha \in A$ tels que $g_\alpha f \neq 0$ étant dénombrable, on a $\mu^*(gf) = \sum_{\alpha \in A} \mu^*(g_\alpha f)$ (\S 1, n° 1, cor. de la prop. 2). Posons $v_\alpha = g_\alpha \cdot \mu$; la condition $\mu^*(gf) < +\infty$ équivaut à la condition $\sum_{\alpha \in A} v_\alpha(f) < +\infty$: autrement dit, $g$ est localement $\mu$-intégrable si et seulement si la famille $(v_\alpha)$ est sommable. Si l’on désigne alors par $v$ la somme de cette famille, le calcul précédent donne l’égalité $v(f) = \mu^*(gf)$, qui équivaut à (8).
+Il est clair que $g$ est $\mu$-mesurable (chap. IV, 2e éd., § 5, n° 10, prop. 16). Pour que $g$ soit localement $\mu$-intégrable, il faut et il suffit par conséquent que $\mu^*(gf)$ soit fini pour tout $f \in \mathcal{H}_+(T)$. Or l’ensemble des $\alpha \in A$ tels que $g_\alpha f \neq 0$ étant dénombrable, on a $\mu^*(gf) = \sum_{\alpha \in A} \mu^*(g_\alpha f)$ (§ 1, n° 1, cor. de la prop. 2). Posons $v_\alpha = g_\alpha \cdot \mu$; la condition $\mu^*(gf) < +\infty$ équivaut à la condition $\sum_{\alpha \in A} v_\alpha(f) < +\infty$: autrement dit, $g$ est localement $\mu$-intégrable si et seulement si la famille $(v_\alpha)$ est sommable. Si l’on désigne alors par $v$ la somme de cette famille, le calcul précédent donne l’égalité $v(f) = \mu^*(gf)$, qui équivaut à (8).
 
 #### Corollaire {#int-v-s5-n4-cor-2 .statement}
 
@@ -337,13 +337,13 @@ $$
 g . v = \int (g . \lambda_t) \, d\mu(t).
 $$
 
-Soit $(K_n)_{n \in \mathbf{N}}$ une suite croissante de compacts de $X$ dont les intérieurs recouvrent $X$; si $\eta$ est une mesure positive quelconque sur $X$, dire que $g$ est localement $\eta$-intégrable équivaut à dire que $g \varphi_{K_n}$ est $\eta$-intégrable pour tout $n$. Or soit $H_n$ l’ensemble des $t \in T$ tels que $g \varphi_{K_n}$ ne soit pas $\lambda_t$-intégrable, et soit $H = \bigcup_n H_n$; $H_n$ étant localement $\mu$-négligeable pour tout $n$ ($\S 3$, no 3, th. 1), il en est de même de $H$, ce qui établit la première assertion de l’énoncé. Quitte à remplacer $\lambda_t$ par 0 sur $H$ (ce qui ne change pas la mesure $v$), on peut supposer que $g$ est localement $\lambda_t$-intégrable pour tout $t \in T$. On a pour toute fonction positive $v$-mesurable $h$ définie dans $X$, d’après la prop. 3, et la prop. 5 du $\S 3$, no 2,
+Soit $(K_n)_{n \in \mathbf{N}}$ une suite croissante de compacts de $X$ dont les intérieurs recouvrent $X$; si $\eta$ est une mesure positive quelconque sur $X$, dire que $g$ est localement $\eta$-intégrable équivaut à dire que $g \varphi_{K_n}$ est $\eta$-intégrable pour tout $n$. Or soit $H_n$ l’ensemble des $t \in T$ tels que $g \varphi_{K_n}$ ne soit pas $\lambda_t$-intégrable, et soit $H = \bigcup_n H_n$; $H_n$ étant localement $\mu$-négligeable pour tout $n$ ($§ 3$, no 3, th. 1), il en est de même de $H$, ce qui établit la première assertion de l’énoncé. Quitte à remplacer $\lambda_t$ par 0 sur $H$ (ce qui ne change pas la mesure $v$), on peut supposer que $g$ est localement $\lambda_t$-intégrable pour tout $t \in T$. On a pour toute fonction positive $v$-mesurable $h$ définie dans $X$, d’après la prop. 3, et la prop. 5 du $§ 3$, no 2,
 
 $$
 \int^\bullet h \, d(g . v) = \int^\bullet (gh) \, dv = \int^\bullet d\mu(t) \int^\bullet (gh) \, d\lambda_t = \int^\bullet d\mu(t) \int^\bullet h \, d(g . \lambda_t).
 $$
 
-Cette formule et la prop. 5 du $\S 3$, no 2 montrent d’abord (en prenant $h \in \mathcal{K}_+(T)$) que l’application $t \mapsto g . \lambda_t$ est scalairement essentiellement $\mu$-intégrable, et que son intégrale est $g . v$; autrement dit, on a la relation (9). Ensuite, remplaçons $\mu$ par une mesure positive $\mu' \leq \mu$, et prenons pour $h$ une fonction semi-continue inférieurement positive : il résulte aussitôt de ces relations que $t \mapsto g . \lambda_t$ est $\mu$-adéquate ($\S 3$, no 1, déf. 1).
+Cette formule et la prop. 5 du $§ 3$, no 2 montrent d’abord (en prenant $h \in \mathcal{K}_+(T)$) que l’application $t \mapsto g . \lambda_t$ est scalairement essentiellement $\mu$-intégrable, et que son intégrale est $g . v$; autrement dit, on a la relation (9). Ensuite, remplaçons $\mu$ par une mesure positive $\mu' \leq \mu$, et prenons pour $h$ une fonction semi-continue inférieurement positive : il résulte aussitôt de ces relations que $t \mapsto g . \lambda_t$ est $\mu$-adéquate ($§ 3$, no 1, déf. 1).
 
 #### Proposition 8 {#int-v-s5-prop-8 .statement}
 
@@ -376,7 +376,7 @@ formule équivalente à (10).
 2) Tout ensemble localement $\mu$-négligeable est localement $\nu$-négligeable.
 3) Tout compact $\mu$-négligeable est $\nu$-négligeable.
 
-Il est clair que 1) entraîne 2) (cor. 1 de la prop. 3), et que 2) entraîne 3). Nous allons montrer que 3) entraîne 1). Notons d’abord que, si la condition 3) est remplie, tout ensemble $A$, universellement mesurable et localement $\mu$-négligeable, est localement $\nu$-négligeable ; on a en effet $\nu^*(A) = \sup \nu(K)$, $K$ parcourant l’ensemble des compacts contenus dans $A$ ($\S 1$, n° 3, prop. 10, a) et chap. IV, 2e éd., § 4, n° 6, cor. 2 du th. 4). Nous établirons ensuite deux lemmes.
+Il est clair que 1) entraîne 2) (cor. 1 de la prop. 3), et que 2) entraîne 3). Nous allons montrer que 3) entraîne 1). Notons d’abord que, si la condition 3) est remplie, tout ensemble $A$, universellement mesurable et localement $\mu$-négligeable, est localement $\nu$-négligeable ; on a en effet $\nu^*(A) = \sup \nu(K)$, $K$ parcourant l’ensemble des compacts contenus dans $A$ ($§ 1$, n° 3, prop. 10, a) et chap. IV, 2e éd., § 4, n° 6, cor. 2 du th. 4). Nous établirons ensuite deux lemmes.
 
 #### Lemme 2 {#int-v-s5-lem-2 .statement}
 
@@ -398,7 +398,7 @@ Supposons que la mesure positive $v$ soit telle que tout compact $\mu$-négligea
 
 L’ensemble $\mathfrak{K}$ est alors $\mu$-dense dans $T$.
 
-Si $K$ satisfait à (11), et si $A$ est une partie borélienne contenue dans $K$, il résulte aussitôt de la prop. 8 que $\varphi_A \cdot v \leq M \varphi_A \cdot \mu$; on en déduit que la réunion de deux éléments $K, K'$ de $\mathfrak{K}$ appartient à $\mathfrak{K}$ car $\varphi_{K \cup K'} = \varphi_K + \varphi_A$, où $A = K' \cap C K$. Pour établir le lemme, il reste à prouver que tout compact $L$ tel que $\mu(L) > 0$ contient un compact $K \in \mathfrak{K}$ tel que $\mu(K) > 0$ (chap. IV, 2e éd., § 5, n° 8, prop. 12). Choisissons un nombre $M > v(L)/\mu(L)$, et appliquons le lemme 1 à la mesure positive bornée $\alpha = \varphi_L \cdot (v + M \mu)$ et à la mesure $\beta = \varphi_L \cdot (v - M \mu)$. Quitte à modifier la fonction $u$ telle que $\beta = u \cdot \alpha$ par une fonction qui lui est égale $\alpha$-presque partout, on peut supposer que $u$ est universellement mesurable (\$ 3, n° 5, prop. 7), et nulle hors de $L$. L’ensemble $H$ des $t \in T$ tels que $u(t) < 0$, qui est contenu dans $L$, ne saurait être $\mu$-négligeable, car il serait alors $v$-négligeable (d’après la remarque faite au début de la démonstration du th. 2), donc $\alpha$-négligeable, et on aurait $\beta(L) > 0$, ce qui contredit le choix de $M$. Soit $K$ un compact contenu dans $H$, tel que $\mu(K) > 0$; montrons que $K \in \mathfrak{K}$, ce qui établira le lemme. On a d’après la prop. 8
+Si $K$ satisfait à (11), et si $A$ est une partie borélienne contenue dans $K$, il résulte aussitôt de la prop. 8 que $\varphi_A \cdot v \leq M \varphi_A \cdot \mu$; on en déduit que la réunion de deux éléments $K, K'$ de $\mathfrak{K}$ appartient à $\mathfrak{K}$ car $\varphi_{K \cup K'} = \varphi_K + \varphi_A$, où $A = K' \cap C K$. Pour établir le lemme, il reste à prouver que tout compact $L$ tel que $\mu(L) > 0$ contient un compact $K \in \mathfrak{K}$ tel que $\mu(K) > 0$ (chap. IV, 2e éd., § 5, n° 8, prop. 12). Choisissons un nombre $M > v(L)/\mu(L)$, et appliquons le lemme 1 à la mesure positive bornée $\alpha = \varphi_L \cdot (v + M \mu)$ et à la mesure $\beta = \varphi_L \cdot (v - M \mu)$. Quitte à modifier la fonction $u$ telle que $\beta = u \cdot \alpha$ par une fonction qui lui est égale $\alpha$-presque partout, on peut supposer que $u$ est universellement mesurable (§ 3, n° 5, prop. 7), et nulle hors de $L$. L’ensemble $H$ des $t \in T$ tels que $u(t) < 0$, qui est contenu dans $L$, ne saurait être $\mu$-négligeable, car il serait alors $v$-négligeable (d’après la remarque faite au début de la démonstration du th. 2), donc $\alpha$-négligeable, et on aurait $\beta(L) > 0$, ce qui contredit le choix de $M$. Soit $K$ un compact contenu dans $H$, tel que $\mu(K) > 0$; montrons que $K \in \mathfrak{K}$, ce qui établira le lemme. On a d’après la prop. 8
 
 $$
 \varphi_K \cdot (v - M \mu) = \varphi_K \cdot \beta = \varphi_K \cdot (u \cdot \alpha) = (\varphi_K u) \cdot \alpha.
@@ -432,7 +432,7 @@ On se ramène aussitôt, en considérant $v^+$ et $v^-$, au cas d’une mesure $
 
 Soit $\theta$ une mesure complexe; il existe une fonction universellement mesurable $v$, telle que $|v| = 1$, et qu’on ait $\theta = v \cdot |\theta|, \ |\theta| = \bar{v} \cdot \theta$.
 
-Posons en effet $\theta = \theta_1 - \theta_2 + i(\theta_3 - \theta_4)$, où $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta^-)$; les mesures positives $\theta_i$ ($i = 1, 2, 3, 4$), étant majorées par $|\theta|$ (chap. III, 2e éd., § 1, n° 6, formule (17)), sont des mesures de base $|\theta|$ d’après le théorème 2. Il en résulte qu’il existe une fonction localement $|\theta|$-intégrable $v$ telle que $\theta = v . |\theta|$. La proposition 2 donne alors la relation $|\theta| = |v| . |\theta|$, ce qui entraîne que $|v| = 1$ localement $|\theta|$-presque partout (cor. 2 de la prop. 3). On a enfin, d’après la prop. 8, $\bar{v} . \theta = (v \bar{v}) . |\theta| = |\theta|$. La fonction $v$ n’étant définie qu’à une fonction localement $|\theta|$-négligeable près, on peut supposer que $v$ est universellement mesurable (\S 3, n° 4, prop. 7) et que $|v| = 1$ partout.
+Posons en effet $\theta = \theta_1 - \theta_2 + i(\theta_3 - \theta_4)$, où $\theta_1 = (\Re \theta)^+$, $\theta_2 = (\Re \theta)^-$, $\theta_3 = (\Im \theta)^+$, $\theta_4 = (\Im \theta^-)$; les mesures positives $\theta_i$ ($i = 1, 2, 3, 4$), étant majorées par $|\theta|$ (chap. III, 2e éd., § 1, n° 6, formule (17)), sont des mesures de base $|\theta|$ d’après le théorème 2. Il en résulte qu’il existe une fonction localement $|\theta|$-intégrable $v$ telle que $\theta = v . |\theta|$. La proposition 2 donne alors la relation $|\theta| = |v| . |\theta|$, ce qui entraîne que $|v| = 1$ localement $|\theta|$-presque partout (cor. 2 de la prop. 3). On a enfin, d’après la prop. 8, $\bar{v} . \theta = (v \bar{v}) . |\theta| = |\theta|$. La fonction $v$ n’étant définie qu’à une fonction localement $|\theta|$-négligeable près, on peut supposer que $v$ est universellement mesurable (§ 3, n° 4, prop. 7) et que $|v| = 1$ partout.
 
 Remarques — 1) Supposons que $\lambda$ soit une mesure positive, que $v$ soit une fonction $\lambda$-mesurable telle que $|v| = 1$ localement $\lambda$-presque partout (ce qui entraîne que $v$ est localement $\lambda$-intégrable), et qu’on ait $\theta = v . \lambda$. La prop. 2 montre aussitôt que $\lambda = |\theta|$; autrement dit, la propriété de l’énoncé précédent caractérise la mesure positive $|\theta|$.
 
@@ -540,7 +540,7 @@ L’ensemble $M$ porte $\theta$ si et seulement s’il porte $|\theta|$. Il est 
 
 Pour que deux mesures complexes $\rho$ et $\sigma$ sur $T$ soient étrangères, il faut et il suffit qu’il existe dans $T$ deux ensembles $R$ et $S$ sans point commun, tels que $\rho$ soit concentrée sur $R$ et $\sigma$ sur $S$; $R$ et $S$ peuvent être supposés universellement mesurables.
 
-Posons $\mu = |\rho|, v = |\sigma|, \lambda = \mu + v$; $\mu$ et $v$ étant majorées par $\lambda$, il existe deux fonctions localement $\lambda$-intégrables $u$ et $v$ (que l’on peut supposer universellement mesurables ($\S 3, \mathrm{n}^\circ 4$, prop. 7)) telles que $\mu = u \cdot \lambda, v = v \cdot \lambda$. On a alors
+Posons $\mu = |\rho|, v = |\sigma|, \lambda = \mu + v$; $\mu$ et $v$ étant majorées par $\lambda$, il existe deux fonctions localement $\lambda$-intégrables $u$ et $v$ (que l’on peut supposer universellement mesurables ($§ 3, \mathrm{n}^\circ 4$, prop. 7)) telles que $\mu = u \cdot \lambda, v = v \cdot \lambda$. On a alors
 
 $$
 \inf(|\rho|, |\sigma|) = \inf(\mu, v) = \inf(u, v) \cdot \lambda
@@ -716,7 +716,7 @@ La mesure de Lebesgue sur $\mathbf{R}$ est diffuse (chap. IV, § 1, n° 3, Remar
 
 Dire que $\theta$ est une mesure diffuse sur $T$ revient à dire que tout ensemble de complémentaire fini porte $|\theta|$, ou encore que $|\theta|$ est étrangère à toute mesure ponctuelle. Les mesures réelles diffuses forment donc une bande dans $\mathcal{M}(T)$ (chap. II, § 1, n° 5, th. 1).
 
-Rappelons (chap. III, 2e éd., § 1, n° 3) qu’une mesure complexe $\rho$ sur $T$ est dite atomique si elle est de la forme $\sum_{t \in T} \alpha(t) \varepsilon_t$, où $\alpha$ est une fonction complexe sur $T$, telle que $\sum_{t \in K} |\alpha(t)| < +\infty$ pour tout compact K de T, ce qui exprime que la famille $(\alpha(t)\varepsilon_t)_{t\in T}$ est sommable (\S 2, n° 1, remarque 2). Il résulte alors de la remarque suivant le cor. 3 du th. 2 du n° 5 que $|\rho| = \sum_{t\in T} |\alpha(t)|\varepsilon_t$. La fonction $\alpha$ qui intervient dans ces formules est uniquement déterminée, car $\alpha(t) = \rho(\{t\})$. Une mesure atomique et une mesure diffuse sont étrangères.
+Rappelons (chap. III, 2e éd., § 1, n° 3) qu’une mesure complexe $\rho$ sur $T$ est dite atomique si elle est de la forme $\sum_{t \in T} \alpha(t) \varepsilon_t$, où $\alpha$ est une fonction complexe sur $T$, telle que $\sum_{t \in K} |\alpha(t)| < +\infty$ pour tout compact K de T, ce qui exprime que la famille $(\alpha(t)\varepsilon_t)_{t\in T}$ est sommable (§ 2, n° 1, remarque 2). Il résulte alors de la remarque suivant le cor. 3 du th. 2 du n° 5 que $|\rho| = \sum_{t\in T} |\alpha(t)|\varepsilon_t$. La fonction $\alpha$ qui intervient dans ces formules est uniquement déterminée, car $\alpha(t) = \rho(\{t\})$. Une mesure atomique et une mesure diffuse sont étrangères.
 
 #### Proposition 15 {#int-v-s5-prop-15 .statement}
 

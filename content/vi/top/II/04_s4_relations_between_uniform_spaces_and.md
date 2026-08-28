@@ -28,9 +28,9 @@ subsections:
       pdf_page: 210
 statements: 24
 exercises: 23
-content_sha256: 8532592a23ab0a39800e8bf3cb4a898eaf0000219277ceecb45e960de152569f
+content_sha256: b68b42c7eff43db9e9a02ec7b885999fdc57b185e2a37042b9ddf152ff634564
 translated_from: content/en/top/II/04_s4_relations_between_uniform_spaces_and.md
-source_content_sha256: 33d413c1fed78b55146ebc22613f337b5e448d7bf43b8d118b1324178c5c0724
+source_content_sha256: f2dc3cc5503e99d5ecfce12eecbf253bb8a3c69fb5a816888a36223120556915
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-45b98c8e
 glossary_version: 34
@@ -48,19 +48,19 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Một không gian tôpô được gọi là đều hóa được, và tôpô của nó được gọi là đều hóa được, nếu tồn tại một cấu trúc đều trên không gian tương thích với tôpô của nó.
 
-Có những không gian tôpô không đều hóa được, chẳng hạn mọi không gian không thỏa mãn tiên đề $(O_{III})$ ($\S 1$, no. 2, Hệ quả 3 của Mệnh đề 2); do đó nảy sinh câu hỏi xác định những điều kiện mà dưới đó một không gian tôpô là đều hóa được.
+Có những không gian tôpô không đều hóa được, chẳng hạn mọi không gian không thỏa mãn tiên đề $(O_{III})$ ($§ 1$, no. 2, Hệ quả 3 của Mệnh đề 2); do đó nảy sinh câu hỏi xác định những điều kiện mà dưới đó một không gian tôpô là đều hóa được.
 
-Chúng tôi sẽ không đưa ra một câu trả lời đầy đủ cho câu hỏi này trước Chương IX, $\S 1$. Trong tiết này chúng tôi chỉ khảo sát một trường hợp riêng quan trọng, đó là trường hợp $X$ compact. Khi đó ta có định lý sau:
+Chúng tôi sẽ không đưa ra một câu trả lời đầy đủ cho câu hỏi này trước Chương IX, $§ 1$. Trong tiết này chúng tôi chỉ khảo sát một trường hợp riêng quan trọng, đó là trường hợp $X$ compact. Khi đó ta có định lý sau:
 
 #### Định lý 1 {#top-ii-s4-thm-1 .statement}
 
 *Trên một không gian compact $X$ có đúng một cấu trúc đều tương thích với tôpô của $X$; các entourage của cấu trúc đều này là tất cả các lân cận của đường chéo $\Delta$ trong $X \times X$. Hơn nữa, $X$ được trang bị cấu trúc đều này là một không gian đều đầy đủ.*
 
-Phần cuối của định lý là hiển nhiên; vì mọi bộ lọc Cauchy trên $X$ đều có một điểm tụ [tiên đề (C)] và do đó hội tụ ($\S 3$, no. 2, Mệnh đề 5, Hệ quả 2).
+Phần cuối của định lý là hiển nhiên; vì mọi bộ lọc Cauchy trên $X$ đều có một điểm tụ [tiên đề (C)] và do đó hội tụ ($§ 3$, no. 2, Mệnh đề 5, Hệ quả 2).
 
-Bây giờ ta hãy chỉ ra rằng nếu có một cấu trúc đều trên $X$ tương thích với tôpô của $X$, thì tập hợp $U$ các lân cận của cấu trúc đều này là tập hợp mọi lân cận của $\Delta$. Ta đã biết rằng mọi lân cận đều là một lân cận của $\Delta$ ($\S 1$, no. 2, Mệnh đề 2), vì thế ta phải chỉ ra rằng ngược lại mọi lân cận của $\Delta$ đều thuộc $U$. Giả sử có một lân cận $U$ của $\Delta$ không thuộc $U$; khi đó các tập hợp $V \cap C_U$, khi $V$ chạy qua $U$, tạo thành một cơ sở của một bộ lọc $G$ trên không gian compact $X \times X$; do đó $G$ có một điểm tụ $(a, b)$ không thuộc $\Delta$. Vì $U$ là một bộ lọc thô hơn $G$, nên $(a, b)$ cũng là một điểm tụ của $U$. Nhưng cấu trúc đều xác định bởi $U$ là Hausdorff theo giả thiết; vì thế giao của các bao đóng của các tập hợp thuộc $U$ là $\Delta$ ($\S 1$, no. 2, Hệ quả 2 của Mệnh đề 2 và Mệnh đề 3); do đó ta đi đến một mâu thuẫn.
+Bây giờ ta hãy chỉ ra rằng nếu có một cấu trúc đều trên $X$ tương thích với tôpô của $X$, thì tập hợp $U$ các lân cận của cấu trúc đều này là tập hợp mọi lân cận của $\Delta$. Ta đã biết rằng mọi lân cận đều là một lân cận của $\Delta$ ($§ 1$, no. 2, Mệnh đề 2), vì thế ta phải chỉ ra rằng ngược lại mọi lân cận của $\Delta$ đều thuộc $U$. Giả sử có một lân cận $U$ của $\Delta$ không thuộc $U$; khi đó các tập hợp $V \cap C_U$, khi $V$ chạy qua $U$, tạo thành một cơ sở của một bộ lọc $G$ trên không gian compact $X \times X$; do đó $G$ có một điểm tụ $(a, b)$ không thuộc $\Delta$. Vì $U$ là một bộ lọc thô hơn $G$, nên $(a, b)$ cũng là một điểm tụ của $U$. Nhưng cấu trúc đều xác định bởi $U$ là Hausdorff theo giả thiết; vì thế giao của các bao đóng của các tập hợp thuộc $U$ là $\Delta$ ($§ 1$, no. 2, Hệ quả 2 của Mệnh đề 2 và Mệnh đề 3); do đó ta đi đến một mâu thuẫn.
 
-Vậy do đó còn phải chỉ ra rằng tập hợp $B$ các lân cận của $\Delta$ trong $X \times X$ là tập hợp các entourage của một cấu trúc đều tương thích với tôpô của $X$. Muốn vậy, chỉ cần chỉ ra rằng $B$ là tập hợp các entourage của một cấu trúc đều *Hausdorff* trên $X$; vì khi đó tôpô cảm sinh bởi cấu trúc đều này sẽ *thô hơn* tôpô của $X$ (Chương I, $\S 2$, no. 2, Mệnh đề 3) và do đó phải trùng nhau với tôpô sau (Chương I, $\S 9$, no. 4, Định lý 2, Hệ quả 3).
+Vậy do đó còn phải chỉ ra rằng tập hợp $B$ các lân cận của $\Delta$ trong $X \times X$ là tập hợp các entourage của một cấu trúc đều tương thích với tôpô của $X$. Muốn vậy, chỉ cần chỉ ra rằng $B$ là tập hợp các entourage của một cấu trúc đều *Hausdorff* trên $X$; vì khi đó tôpô cảm sinh bởi cấu trúc đều này sẽ *thô hơn* tôpô của $X$ (Chương I, $§ 2$, no. 2, Mệnh đề 3) và do đó phải trùng nhau với tôpô sau (Chương I, $§ 9$, no. 4, Định lý 2, Hệ quả 3).
 
 $B$ rõ ràng thỏa mãn các tiên đề $(F_I)$ và $(F_{II})$. Hãy chỉ ra rằng các tiên đề $(U_{II})$ và $(U_{III})$ cũng được thỏa mãn và rằng $\Delta$ là giao của các tập hợp của $B$. Trước hết xét điểm cuối cùng: mọi tập hợp gồm một điểm duy nhất $(x, y) \in X \times X$ đều đóng, vì $X$ là Hausdorff; do đó nếu $x \neq y$, phần bù của $(x, y)$ trong $X \times X$ là một lân cận của $\Delta$. Vì phép đối xứng $(x, y) \to (y, x)$ là một đồng phôi của $X \times X$ lên chính nó,
 
@@ -130,11 +130,11 @@ Một không gian đều $X$ là tiền compact nếu và chỉ nếu, với m�
 
 Ta có thể diễn đạt điều kiện này một cách trực giác hơn bằng cách nói rằng $X$ có thể được phủ bởi một số hữu hạn tập hợp nhỏ tùy ý.
 
-Cho $i : X \to \hat{X}$ là ánh xạ chính tắc, khi đó các entourage của $X$ là các ảnh ngược qua $i \times i$ của các entourage của $\hat{X}$ (\S 3, no. 7, Mệnh đề 12). Giả sử $X$ là tiền compắc, và cho $U$ là một entourage bất kỳ của $\hat{X}$; khi đó tồn tại một entourage đối xứng $U'$ của $\hat{X}$ sao cho $\hat{U}' \subset U$. Vì $\hat{X}$ là compắc, tồn tại một số hữu hạn các điểm $x_j \in \hat{X}$ sao cho các $U'(x_j)$ (là các tập $U$-nhỏ) phủ $\hat{X}$. Nếu $V$ là ảnh ngược của $U$ bởi $i \times i$, thì các tập $i^{-1}(U'(x_j))$ là $V$-nhỏ và phủ $X$. Ngược lại, giả sử rằng với mỗi entourage $V$ của $X$ đều có một phủ hữu hạn của $X$ bởi các tập $V$-nhỏ. Ta phải chứng minh rằng mọi siêu bộ lọc $\mathfrak{F}$ trên $\hat{X}$ đều hội tụ; vì $\hat{X}$ là đầy đủ, chỉ cần chứng minh rằng $\mathfrak{F}$ là một *bộ lọc Cauchy*, nghĩa là với mỗi entourage *đóng* $U$ của $\hat{X}$ đều có một tập $U$-nhỏ thuộc $\mathfrak{F}$ (\S 1, no. 2, Mệnh đề 2, Hệ quả 2). Cho $V$ là ảnh ngược của $U$ qua $i \times i$, và cho $(B_j)$ là một phủ hữu hạn của $X$ bởi các tập $V$-nhỏ; khi đó các tập $C_j = i(B_j)$ là $U$-nhỏ và phủ $i(X)$, do đó
+Cho $i : X \to \hat{X}$ là ánh xạ chính tắc, khi đó các entourage của $X$ là các ảnh ngược qua $i \times i$ của các entourage của $\hat{X}$ (§ 3, no. 7, Mệnh đề 12). Giả sử $X$ là tiền compắc, và cho $U$ là một entourage bất kỳ của $\hat{X}$; khi đó tồn tại một entourage đối xứng $U'$ của $\hat{X}$ sao cho $\hat{U}' \subset U$. Vì $\hat{X}$ là compắc, tồn tại một số hữu hạn các điểm $x_j \in \hat{X}$ sao cho các $U'(x_j)$ (là các tập $U$-nhỏ) phủ $\hat{X}$. Nếu $V$ là ảnh ngược của $U$ bởi $i \times i$, thì các tập $i^{-1}(U'(x_j))$ là $V$-nhỏ và phủ $X$. Ngược lại, giả sử rằng với mỗi entourage $V$ của $X$ đều có một phủ hữu hạn của $X$ bởi các tập $V$-nhỏ. Ta phải chứng minh rằng mọi siêu bộ lọc $\mathfrak{F}$ trên $\hat{X}$ đều hội tụ; vì $\hat{X}$ là đầy đủ, chỉ cần chứng minh rằng $\mathfrak{F}$ là một *bộ lọc Cauchy*, nghĩa là với mỗi entourage *đóng* $U$ của $\hat{X}$ đều có một tập $U$-nhỏ thuộc $\mathfrak{F}$ (§ 1, no. 2, Mệnh đề 2, Hệ quả 2). Cho $V$ là ảnh ngược của $U$ qua $i \times i$, và cho $(B_j)$ là một phủ hữu hạn của $X$ bởi các tập $V$-nhỏ; khi đó các tập $C_j = i(B_j)$ là $U$-nhỏ và phủ $i(X)$, do đó
 $$
 \hat{X} = \bigcup_j \overline{C}_j.
 $$
-Mặt khác, vì $C_j \times C_j \subset U$, và $U$ đóng trong $\hat{X} \times \hat{X}$, nên ta có $\overline{C}_j \times \overline{C}_j \subset U$, do đó các $\overline{C}_j$ cũng là $U$-nhỏ. Vì $\mathfrak{F}$ là một siêu bộ lọc, nên một trong các $\overline{C}_j$ thuộc $\mathfrak{F}$ (Chương I, \S 6, no. 4, Hệ quả của Mệnh đề 5).
+Mặt khác, vì $C_j \times C_j \subset U$, và $U$ đóng trong $\hat{X} \times \hat{X}$, nên ta có $\overline{C}_j \times \overline{C}_j \subset U$, do đó các $\overline{C}_j$ cũng là $U$-nhỏ. Vì $\mathfrak{F}$ là một siêu bộ lọc, nên một trong các $\overline{C}_j$ thuộc $\mathfrak{F}$ (Chương I, § 6, no. 4, Hệ quả của Mệnh đề 5).
 
 Điều phải chứng minh.
 
@@ -146,13 +146,13 @@ Mặt khác, vì $C_j \times C_j \subset U$, và $U$ đóng trong $\hat{X} \time
 
 #### Nhận xét 1 {#top-ii-s4-n2-rem-1 .statement}
 
-Một không gian *giả compact* không Hausdorff không nhất thiết là đều hóa được, vì nó không cần thỏa mãn tiên đề $(O_{III})$ (xem Chương I, \S 9, no. 2); chẳng hạn, phần lớn các không gian giả compact không Hausdorff xuất hiện trong hình học đại số đều không thỏa mãn tiên đề $(O_{III})$ (xem Bài tập 2).
+Một không gian *giả compact* không Hausdorff không nhất thiết là đều hóa được, vì nó không cần thỏa mãn tiên đề $(O_{III})$ (xem Chương I, § 9, no. 2); chẳng hạn, phần lớn các không gian giả compact không Hausdorff xuất hiện trong hình học đại số đều không thỏa mãn tiên đề $(O_{III})$ (xem Bài tập 2).
 
 #### Mệnh đề 1 {#top-ii-s4-prop-1 .statement}
 
 *Trong một không gian đều, mọi tập con của một tập tiền compact, mọi hợp hữu hạn của các tập tiền compact và bao đóng của mọi tập tiền compact đều là tiền compact.*
 
-Hai khẳng định đầu là những hệ quả ngay lập tức của Định lý 3. Cho $X$ là một không gian đều, $A$ là một tập con tiền compact của $X$, và gọi $i : X \to \hat{X}$ là ánh xạ chính tắc. $i(\overline{A})$ được chứa trong bao đóng của $i(A)$ trong $\hat{X}$ (Chương I, \S 2, no. 1, Định lý 1), do đó bao đóng của $i(\overline{A})$ trong $\hat{X}$ được chứa trong một tập compact và vì vậy là compact.
+Hai khẳng định đầu là những hệ quả ngay lập tức của Định lý 3. Cho $X$ là một không gian đều, $A$ là một tập con tiền compact của $X$, và gọi $i : X \to \hat{X}$ là ánh xạ chính tắc. $i(\overline{A})$ được chứa trong bao đóng của $i(A)$ trong $\hat{X}$ (Chương I, § 2, no. 1, Định lý 1), do đó bao đóng của $i(\overline{A})$ trong $\hat{X}$ được chứa trong một tập compact và vì vậy là compact.
 
 #### Nhận xét 2 {#top-ii-s4-n2-rem-2 .statement}
 
@@ -162,17 +162,17 @@ Trong một không gian đều $X$, một tập hợp $A$ *tương đối compac
 
 *Cho $f : X \to Y$ là một ánh xạ liên tục đều. Nếu $A$ là một tập con tiền compact bất kỳ của $X$, thì $f(A)$ là một tập con tiền compact của $Y$.*
 
-Vì nếu $i : X \to \hat{X}$ và $j : Y \to \hat{Y}$ là các ánh xạ chính tắc, thì ta có $j(f(A)) = \hat{f}(i(A))$ (\S 3, no. 7, Mệnh đề 15) và do đó $j(f(A))$ là tương đối compact trong $\hat{Y}$ (Chương I, \S 9, no. 4, Định lý 2, Hệ quả 1).
+Vì nếu $i : X \to \hat{X}$ và $j : Y \to \hat{Y}$ là các ánh xạ chính tắc, thì ta có $j(f(A)) = \hat{f}(i(A))$ (§ 3, no. 7, Mệnh đề 15) và do đó $j(f(A))$ là tương đối compact trong $\hat{Y}$ (Chương I, § 9, no. 4, Định lý 2, Hệ quả 1).
 
 #### Mệnh đề 3 {#top-ii-s4-prop-3 .statement}
 
 *Cho $X$ là một tập hợp, cho $(Y_\lambda)_{\lambda \in L}$ là một họ các không gian đều, và với mỗi $\lambda \in L$ cho $f_\lambda$ là một ánh xạ của $X$ vào $Y_\lambda$. Trang bị cho $X$ cấu trúc đều thô nhất sao cho các $f_\lambda$ là liên tục đều. Khi đó một tập con $A$ của $X$ là tiền compắc nếu và chỉ nếu $f_\lambda(A)$ là một tập con tiền compắc của $Y_\lambda$ với mỗi $\lambda \in L$.*
 
-Điều kiện đó là cần, theo Mệnh đề 2. Tính đủ suy ra từ sự đặc trưng hóa của bổ sung Hausdorff của $X$ được cho trong \S 3, no. 9, Mệnh đề 18, và định lý Tychonoff (Chương I, \S 9, Định lý 3, Hệ quả).
+Điều kiện đó là cần, theo Mệnh đề 2. Tính đủ suy ra từ sự đặc trưng hóa của bổ sung Hausdorff của $X$ được cho trong § 3, no. 9, Mệnh đề 18, và định lý Tychonoff (Chương I, § 9, Định lý 3, Hệ quả).
 
 ### 3. CÁC TẬP HỢP COMPẮC TRONG MỘT KHÔNG GIAN ĐỀU
 
-Mệnh đề sau đây đối với một không gian đều tùy ý là một dạng sắc bén hơn của Mệnh đề 2 của Chương I, \S 9, no. 2 đối với các không gian compắc.
+Mệnh đề sau đây đối với một không gian đều tùy ý là một dạng sắc bén hơn của Mệnh đề 2 của Chương I, § 9, no. 2 đối với các không gian compắc.
 
 #### Mệnh đề 4 {#top-ii-s4-prop-4 .statement}
 

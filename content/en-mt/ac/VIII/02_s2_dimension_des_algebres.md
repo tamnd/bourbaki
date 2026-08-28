@@ -29,11 +29,11 @@ subsections:
       pdf_page: 23
 statements: 32
 exercises: 18
-content_sha256: 6e077cad49ae3e2da32fd5564bf2cf5e04d17f49d0b7ab4becc8fc297c059a89
+content_sha256: b8e1ebd3e2fd9776cb8144b9349cd361f182844488973d9c0ece34efe2b398d8
 translated_from: content/fr/ac/VIII/02_s2_dimension_des_algebres.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: adc2a4e954a088d296502eb1f4f4669ae89dd263f74cfb2153cbce9b5d909848
+source_content_sha256: d7066e36706438d32a22f5ef08bd4e19a169b5d80d705a7389fcb171033cec0a
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-en-mt-8df9cd5f
 glossary_version: 34
@@ -100,7 +100,7 @@ $$
 $$
 where S is the set of maximal ideals of A.
 
-We know that $\dim(A) = \sup_{m \in S} \dim(A_m)$ (\S 1, No. 3, prop. 8). It is therefore enough to establish the inequality
+We know that $\dim(A) = \sup_{m \in S} \dim(A_m)$ (§ 1, No. 3, prop. 8). It is therefore enough to establish the inequality
 
 (2)
 $$

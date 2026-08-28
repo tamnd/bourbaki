@@ -28,9 +28,9 @@ subsections:
       pdf_page: 320
 statements: 18
 exercises: 5
-content_sha256: c99c3f4f8f5c014bc594286a21de6f703959530a4c3140d98d45712011a2608e
+content_sha256: 6a29a79e399c2496aaed5c1c4d00902d6fbe49af851d9a0e3b16aaec88223fe4
 translated_from: content/en/top/X/04_s4_approximation_of_continuous_real_valued.md
-source_content_sha256: e1f48f0eea3cb2695064b08242793cda7fbea618354ff2ab03b050d4fdbb35fc
+source_content_sha256: 352337cc126af02c15ffde78bc5a2610b483c38d6be644a79f5231184afe7314
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-9e661c89
 glossary_version: 34
@@ -48,7 +48,7 @@ $$
 ||f|| = \sup_{x \in X} |f(x)|
 $$
 
-và rằng chuẩn này tương thích với cấu trúc đại số $\mathbf{R}$ của $\mathcal{C}$. Với chuẩn này và cấu trúc đại số này, $\mathcal{C}$ là một *đại số định chuẩn đầy đủ* trên $\mathbf{R}$ ($\S 1$, no. 6, Định lý 2, Hệ quả 1).
+và rằng chuẩn này tương thích với cấu trúc đại số $\mathbf{R}$ của $\mathcal{C}$. Với chuẩn này và cấu trúc đại số này, $\mathcal{C}$ là một *đại số định chuẩn đầy đủ* trên $\mathbf{R}$ ($§ 1$, no. 6, Định lý 2, Hệ quả 1).
 
 (*) Các hàm giá trị thực được xét trong mục này luôn được giả sử là *hữu hạn*.
 
@@ -212,7 +212,7 @@ Nếu không phải mọi $X_i$ đều compact, thì kết luận của Định 
 
 ### 4. Xấp xỉ các ánh xạ liên tục của một không gian compact vào một không gian có chuẩn
 
-Cho $X$ là một không gian compact và cho $Y$ là một không gian vectơ có chuẩn trên trường $\mathbf{R}$ (Chương IX, § 3); không gian $C(X; Y)$ luôn được giả thiết mang tôpô hội tụ đều được xác định bởi chuẩn $\|u\| = \sup_{x \in X} \|u(x)\|$ ($\S 3$, no. 2).
+Cho $X$ là một không gian compact và cho $Y$ là một không gian vectơ có chuẩn trên trường $\mathbf{R}$ (Chương IX, § 3); không gian $C(X; Y)$ luôn được giả thiết mang tôpô hội tụ đều được xác định bởi chuẩn $\|u\| = \sup_{x \in X} \|u(x)\|$ ($§ 3$, no. 2).
 
 Cho một tập $H$ gồm các hàm liên tục nhận giá trị thực xác định trên $X$, một họ hữu hạn $(u_i)_{1 \leq i \leq n}$ các hàm thuộc $H$, và một họ hữu hạn $(a_i)_{1 \leq i \leq n}$ các điểm của $Y$: khi đó ánh xạ $x \to \sum_{i=1}^n a_i u_i(x)$ của $X$ vào $Y$ là liên tục; ta ký hiệu nó là $\sum_{i=1}^n a_i u_i$, và ta nói rằng nó là một tổ hợp tuyến tính của các hàm của $H$ với hệ số trong $Y$. Ta nói rằng một ánh xạ liên tục $f : X \to Y$ có thể được xấp xỉ đều bởi các tổ hợp tuyến tính của các hàm của $H$ (với hệ số trong $Y$), nếu $f$ nằm trong bao đóng của không gian con vectơ của $C(X; Y)$ được tạo thành bởi các tổ hợp tuyến tính này.
 

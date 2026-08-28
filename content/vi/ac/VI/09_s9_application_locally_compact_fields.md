@@ -25,9 +25,9 @@ subsections:
       pdf_page: 451
 statements: 10
 exercises: 5
-content_sha256: ee613963f918848f7753d51efb8452a935c40a6a1e7d725a70fbba500a0c07b6
+content_sha256: 8235bde73349494e7b669b926ccaeabba02272f2dfa782c53b4b10bcd593a48c
 translated_from: content/en/ac/VI/09_s9_application_locally_compact_fields.md
-source_content_sha256: d6135c6e7390164e0213d8aebe0c179fa81f38f798cfd152a69cde189ff2353d
+source_content_sha256: d266a1348cad0959a68f948795d45c8123c34ab55ddc0962987616e825a8a361
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-e899e013
 glossary_version: 34
@@ -43,11 +43,11 @@ Cho $K$ là một trường compact địa phương (không nhất thiết giao 
 
 #### Mệnh đề 1 {#ac-vi-s9-prop-1 .statement}
 
-*Nếu $K$ là một trường compact địa phương, hàm mod, thuộc $\mathcal{V}(K)$ (\S 6, no. 1). Hơn nữa:*
+*Nếu $K$ là một trường compact địa phương, hàm mod, thuộc $\mathcal{V}(K)$ (§ 6, no. 1). Hơn nữa:*
 (i) *Nếu $s > 0$ sao cho $(\operatorname{mod}_K)^s = g$ là một giá trị tuyệt đối, thì $g$ xác định tôpô trên $K$.*
 (ii) *Nếu $K$ không rời rạc và mod, là một giá trị tuyệt đối phi Archimedes, tồn tại một định giá rời rạc có chuẩn $v$ trên $K$ có vành là compact và có trường thặng dư hữu hạn với $q$ phần tử, sao cho $\operatorname{mod}, = q^{-v}$. Tôpô trên $K$ được xác định bởi $v$.*
 
-Điều này suy ra từ \S 6, no. 1, Mệnh đề 1, \S 5, no. 1, Mệnh đề 2 và Integration, Chương VII, § 1, no. 10, các Mệnh đề 12 và 13.
+Điều này suy ra từ § 6, no. 1, Mệnh đề 1, § 5, no. 1, Mệnh đề 2 và Integration, Chương VII, § 1, no. 10, các Mệnh đề 12 và 13.
 
 #### Mệnh đề 2 {#ac-vi-s9-prop-2 .statement}
 
@@ -137,9 +137,9 @@ Các hoàn thành $\mathbf{R}$ và $\mathbf{Q}_p$ của trường $\mathbf{Q}$ t
 
 (i) Suy ra từ Định lý của Ostrowski (§ 6, no. 4, Định lý 2) rằng K là một trường tôpô đẳng cấu với một trường con trù mật khắp nơi của $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$ và, vì K đầy đủ, nó đẳng cấu với $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$.
 
-(ii) Cho A là vành của giá trị tuyệt đối mod, và m là iđêan cực đại của nó. Ta biết rằng A/m là một trường hữu hạn (§ 5, no. 1, Mệnh đề 2) và do đó giá trị tuyệt đối cảm sinh bởi mod, trên $\mathbf{Q}$ có một trường thặng dư hữu hạn, điều này chỉ có thể xảy ra nếu nó tương đương với một giá trị tuyệt đối p-adic ($\S 6$, no. 3, Mệnh đề 4); vì vậy bao đóng của $\mathbf{Q}$ trong $K$ đẳng cấu với $\mathbf{Q}_p$ và được chứa trong tâm của $K$ vì tâm đó đóng trong $K$; ta kết luận bằng cách sử dụng Mệnh đề 2 của no. 1.
+(ii) Cho A là vành của giá trị tuyệt đối mod, và m là iđêan cực đại của nó. Ta biết rằng A/m là một trường hữu hạn (§ 5, no. 1, Mệnh đề 2) và do đó giá trị tuyệt đối cảm sinh bởi mod, trên $\mathbf{Q}$ có một trường thặng dư hữu hạn, điều này chỉ có thể xảy ra nếu nó tương đương với một giá trị tuyệt đối p-adic ($§ 6$, no. 3, Mệnh đề 4); vì vậy bao đóng của $\mathbf{Q}$ trong $K$ đẳng cấu với $\mathbf{Q}_p$ và được chứa trong tâm của $K$ vì tâm đó đóng trong $K$; ta kết luận bằng cách sử dụng Mệnh đề 2 của no. 1.
 
-(iii) Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và Hệ quả của Mệnh đề 2 của no. 2. Để chứng minh mệnh đề thứ nhất, chú ý rằng mod, tất yếu là một giá trị tuyệt đối siêu mêtric ($\S 6$, no. 2, Hệ quả của Mệnh đề 3); theo ký hiệu trong chứng minh của Mệnh đề 3 của no. 2, tâm $Z$ của $K$ gồm các phần tử giao hoán với cả $s$ lẫn $u$; nhưng nhờ (3),
+(iii) Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và Hệ quả của Mệnh đề 2 của no. 2. Để chứng minh mệnh đề thứ nhất, chú ý rằng mod, tất yếu là một giá trị tuyệt đối siêu mêtric ($§ 6$, no. 2, Hệ quả của Mệnh đề 3); theo ký hiệu trong chứng minh của Mệnh đề 3 của no. 2, tâm $Z$ của $K$ gồm các phần tử giao hoán với cả $s$ lẫn $u$; nhưng nhờ (3),
 
 $$
 u^{-q} s u^q = s^{q p^r} = s,

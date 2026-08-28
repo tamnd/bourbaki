@@ -36,7 +36,7 @@ subsections:
       pdf_page: 269
 statements: 27
 exercises: 6
-content_sha256: 3ae60667ac59c964ae5e4bcb3db2bbf1df89e8dee0dd6c9ccb80a1a716f90200
+content_sha256: 2154d060cf27a606f67be95825b29897c7c605515d6fa3d0366e7db148e65258
 ---
 
 ## § 4. Relèvement dans les anneaux complets.
@@ -208,7 +208,7 @@ Il résulte aussitôt de la Remarque 1 que $\sum_{(n_i)} b_{n_{r+1}...n_p} X_{r+
 
 ### 3. Le lemme de Hensel.
 
-Dans un anneau topologique A, on dit qu’un élément $x$ est *topologiquement nilpotent* si 0 est une limite de la suite $(x^n)_{n \geq 0}$. Si A est un anneau commutatif *linéairement topologisé*, dire que $x \in A$ est topologiquement nilpotent signifie que pour tout idéal ouvert $\mathfrak{J}$ de A, l’image canonique de $x$ dans $A/\mathfrak{J}$ est un élément *nilpotent* de cet anneau. Si $r_\mathfrak{J}$ est le nilradical de $A/\mathfrak{J}$, il est clair que $(r_\mathfrak{J})$ est un système projectif de parties et l’ensemble t des éléments topologiquement nilpotents de A est l’image réciproque de $r = \lim_{\leftarrow \mathfrak{J}} r_\mathfrak{J}$ par l’homomorphisme canonique $A \to \lim_{\leftarrow \mathfrak{J}} A/\mathfrak{J}$; c’est donc un *idéal fermé* de A. Si en outre A est *séparé et complet*, cet idéal est contenu dans le radical de A, et pour qu’un élément $x \in A$ soit inversible, il faut et il suffit que sa classe mod. t soit inversible dans $A/t$ (\S 2, n° 13, lemme 3).
+Dans un anneau topologique A, on dit qu’un élément $x$ est *topologiquement nilpotent* si 0 est une limite de la suite $(x^n)_{n \geq 0}$. Si A est un anneau commutatif *linéairement topologisé*, dire que $x \in A$ est topologiquement nilpotent signifie que pour tout idéal ouvert $\mathfrak{J}$ de A, l’image canonique de $x$ dans $A/\mathfrak{J}$ est un élément *nilpotent* de cet anneau. Si $r_\mathfrak{J}$ est le nilradical de $A/\mathfrak{J}$, il est clair que $(r_\mathfrak{J})$ est un système projectif de parties et l’ensemble t des éléments topologiquement nilpotents de A est l’image réciproque de $r = \lim_{\leftarrow \mathfrak{J}} r_\mathfrak{J}$ par l’homomorphisme canonique $A \to \lim_{\leftarrow \mathfrak{J}} A/\mathfrak{J}$; c’est donc un *idéal fermé* de A. Si en outre A est *séparé et complet*, cet idéal est contenu dans le radical de A, et pour qu’un élément $x \in A$ soit inversible, il faut et il suffit que sa classe mod. t soit inversible dans $A/t$ (§ 2, n° 13, lemme 3).
 
 On notera que si A est un anneau, m un idéal bilatère de A, les éléments de m sont topologiquement nilpotents pour la topologie *m-adique*.
 

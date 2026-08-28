@@ -57,9 +57,9 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 35fe239941f4e442c2cd215dcbde310a67ace849b1e31617560be3a17f7d3659
+content_sha256: 1313476cc5ba9aef5eb016d26e472d627dea12421836a7e7906d0edb840d12ab
 translated_from: content/en/alg/III/08_s8_determinants.md
-source_content_sha256: 960444600d0318311b60e4017068e8754d6a4a4672665f9e3dd261fa82222e35
+source_content_sha256: da71ef2a4eba72daedbf68293924b26a3111360474a947e52b32b6bd9d0a572c
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-ea440f38
 glossary_version: 34
@@ -440,7 +440,7 @@ $$
 z_K = x_1 \wedge x_2 \wedge \cdots \wedge x_n
 $$
 
-với $x_i = u(e_i)$ nếu $i \in K$, $x_i = e_i$ nếu $i \in H = I - K$, trong đó số nguyên $p$ chạy trong khoảng $[0, n]$ và, với mỗi $p$, $K$ chạy qua tập hợp các tập con của I có $p$ phần tử. Nếu $i_1 < i_2 < \cdots < i_{n-p}$ (tương ứng $j_1 < j_2 < \cdots < j_p$) là các phần tử của H (tương ứng K) được sắp theo thứ tự tăng, ta có thể viết ($\S 7$, no. 8, Hệ quả 1 của Định lý 1 và công thức (19))
+với $x_i = u(e_i)$ nếu $i \in K$, $x_i = e_i$ nếu $i \in H = I - K$, trong đó số nguyên $p$ chạy trong khoảng $[0, n]$ và, với mỗi $p$, $K$ chạy qua tập hợp các tập con của I có $p$ phần tử. Nếu $i_1 < i_2 < \cdots < i_{n-p}$ (tương ứng $j_1 < j_2 < \cdots < j_p$) là các phần tử của H (tương ứng K) được sắp theo thứ tự tăng, ta có thể viết ($§ 7$, no. 8, Hệ quả 1 của Định lý 1 và công thức (19))
 
 $$
 z_K = \rho_{H, K} e_{i_1} \wedge e_{i_2} \wedge \cdots \wedge e_{i_{n-p}} \wedge u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p}).
@@ -458,7 +458,7 @@ $$
 z_K = \rho_{H, K} \sum_{L \in \mathfrak{F}_p(I)} (\det X_{L, K}) e_H \wedge e_L.
 $$
 
-Bây giờ $H \cap L \neq \varnothing$ trừ khi $L = K$; do đó, theo $\S 7$, no. 8, công thức (20), ta có $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ và công thức (18) suy ra từ Mệnh đề 10 và định nghĩa vết của một ma trận (II, $\S 10$, no. 11, các công thức (49) và (50)).
+Bây giờ $H \cap L \neq \varnothing$ trừ khi $L = K$; do đó, theo $§ 7$, no. 8, công thức (20), ta có $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ và công thức (18) suy ra từ Mệnh đề 10 và định nghĩa vết của một ma trận (II, $§ 10$, no. 11, các công thức (49) và (50)).
 
 #### Hệ quả {#alg-iii-s8-n5-cor-1 .statement}
 
@@ -469,7 +469,7 @@ $$
 \operatorname{Tr}(\bigwedge(u)) = \det(1_M + u).
 $$
 
-Chỉ cần thay $\xi$ và $\eta$ bằng 1 trong (18) và nhận thấy rằng ma trận của $\bigwedge(u)$ đối với cơ sở gồm các $e_H$ ($H \in \mathfrak{F}(I)$) là ma trận đường chéo gồm các ma trận của các $\bigwedge^k(u)$ với $\geq k$ 0 (II, $\S 10$, no. 7, *Ví dụ* IV).
+Chỉ cần thay $\xi$ và $\eta$ bằng 1 trong (18) và nhận thấy rằng ma trận của $\bigwedge(u)$ đối với cơ sở gồm các $e_H$ ($H \in \mathfrak{F}(I)$) là ma trận đường chéo gồm các ma trận của các $\bigwedge^k(u)$ với $\geq k$ 0 (II, $§ 10$, no. 7, *Ví dụ* IV).
 
 ### 6. KHAI TRIỂN CỦA MỘT ĐỊNH THỨC
 
@@ -482,7 +482,7 @@ $$
 (\bigwedge^{n-q}(u))(e_K) = \sum_S \det(X_{S, K}) e_S
 $$
 
-trong đó R (tương ứng S) chạy qua tập hợp các tập con của I có $q$ (tương ứng $n - q$) phần tử. Từ $\S 7$, no. 8, các công thức (19) và (20) suy ra rằng
+trong đó R (tương ứng S) chạy qua tập hợp các tập con của I có $q$ (tương ứng $n - q$) phần tử. Từ $§ 7$, no. 8, các công thức (19) và (20) suy ra rằng
 
 $$
 e_R \wedge e_S = 0
@@ -496,7 +496,7 @@ $$
 
 trong đó $R$ chạy qua tập hợp $\mathcal{F}_q(I)$ gồm các tập con của $I$ có $q$ phần tử.
 
-Nếu lấy $K = H'$, từ định nghĩa của $\wedge^n(u)$ (\S 7, no. 2, công thức (4)) và $\S 7$, no. 3, Hệ quả 1 của Mệnh đề 5 suy ra vế phải của (20) là $\rho_{H, H'} \wedge^n(u)(e_I)$. Do đó (no. 1, công thức (1) và $\S 7$, no. 2, công thức (4))
+Nếu lấy $K = H'$, từ định nghĩa của $\wedge^n(u)$ (§ 7, no. 2, công thức (4)) và $§ 7$, no. 3, Hệ quả 1 của Mệnh đề 5 suy ra vế phải của (20) là $\rho_{H, H'} \wedge^n(u)(e_I)$. Do đó (no. 1, công thức (1) và $§ 7$, no. 2, công thức (4))
 
 $$
 (21) \quad \det(X) = \rho_{H, H'} \sum_{R \in \mathcal{F}_q; R' \neq R} \rho_{R, R'} \det(X_{R, H}) \det(X_{R', H'}).
@@ -924,7 +924,7 @@ vì $\det(X - Y \bar{u}) = \det(X . I_n + Y U)$ và $\det(X - \bar{u}) = \det(X 
 
 Với mọi tự đồng cấu $u$ của một A-môđun tự do hữu hạn chiều, $\chi_u(u) = 0$.
 
-Theo ký hiệu của Mệnh đề 18 ($\S 3$, no. 10), với mọi $x \in M$, $\chi_u(u)(x)$ là ảnh qua $\phi$ của $\chi_u(X) \otimes x$. Nhưng nếu $v$ là tự đồng cấu của $M[X]$, đối chuyển vị của $X - \bar{u}$ (no. 6), thì
+Theo ký hiệu của Mệnh đề 18 ($§ 3$, no. 10), với mọi $x \in M$, $\chi_u(u)(x)$ là ảnh qua $\phi$ của $\chi_u(X) \otimes x$. Nhưng nếu $v$ là tự đồng cấu của $M[X]$, đối chuyển vị của $X - \bar{u}$ (no. 6), thì
 
 $$
 \chi_u(X) \otimes x = \chi_u(X)(1 \otimes x) = (X - \bar{u})(v(1 \otimes x))

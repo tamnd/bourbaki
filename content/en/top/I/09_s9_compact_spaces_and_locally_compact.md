@@ -52,7 +52,7 @@ subsections:
       pdf_page: 100
 statements: 50
 exercises: 4
-content_sha256: b65d41a77c052d5753a2658e2818484b22b7778cc9306f9a3b3851cf55439a91
+content_sha256: 971ee7da2f11258dedc7ba38ab2213e2686bce320dbffdb28b60f17318a47dc8
 ---
 
 ## 9. COMPACT SPACES AND LOCALLY COMPACT SPACES
@@ -73,15 +73,15 @@ We give three axioms each of which is *equivalent to axiom* (C):
 
 (C') *Every ultrafilter on* $X$ *is convergent*.
 
-(C') $\Longrightarrow$ (C): If $\mathfrak{F}$ is a filter on $X$ then there is an ultrafilter finer than $\mathfrak{F}$ (\S 6, no. 4, Theorem 1). Since this ultrafilter converges to a point $x$, $x$ is a cluster point of $\mathfrak{F}$.
+(C') $\Longrightarrow$ (C): If $\mathfrak{F}$ is a filter on $X$ then there is an ultrafilter finer than $\mathfrak{F}$ (§ 6, no. 4, Theorem 1). Since this ultrafilter converges to a point $x$, $x$ is a cluster point of $\mathfrak{F}$.
 
-(C) $\Longrightarrow$ (C'): For if an ultrafilter has a cluster point then it converges to this point (\S 7, no. 2, Corollary to Proposition 4).
+(C) $\Longrightarrow$ (C'): For if an ultrafilter has a cluster point then it converges to this point (§ 7, no. 2, Corollary to Proposition 4).
 
-If $f$ is a mapping of a set $Z$ into a quasi-compact space $X$, and $\mathfrak{U}$ is an ultrafilter on $Z$, $f$ has at least one limit point with respect to $\mathfrak{U}$ (\S 6, no. 6, Proposition 10).
+If $f$ is a mapping of a set $Z$ into a quasi-compact space $X$, and $\mathfrak{U}$ is an ultrafilter on $Z$, $f$ has at least one limit point with respect to $\mathfrak{U}$ (§ 6, no. 6, Proposition 10).
 
 (C'') *Every family of closed subsets of* $X$ *whose intersection is empty contains a finite subfamily whose intersection is empty*.
 
-(C) $\Longrightarrow$ (C''): Let $\mathcal{G}$ be a family of closed subsets of $X$ with empty intersection. If every finite subfamily of $\mathcal{G}$ has a non-empty intersection, then $\mathcal{G}$ generates a filter (\S 6, no. 2, Proposition 1) which has a cluster point by hypothesis. This point belongs to all the sets of $\mathcal{G}$ (since they are closed); so we have a contradiction.
+(C) $\Longrightarrow$ (C''): Let $\mathcal{G}$ be a family of closed subsets of $X$ with empty intersection. If every finite subfamily of $\mathcal{G}$ has a non-empty intersection, then $\mathcal{G}$ generates a filter (§ 6, no. 2, Proposition 1) which has a cluster point by hypothesis. This point belongs to all the sets of $\mathcal{G}$ (since they are closed); so we have a contradiction.
 
 $(C'') \implies (C)$: For if $(C)$ is false then there is a filter $\mathfrak{F}$ on $X$ which has no cluster point; hence the closures of the sets of $\mathfrak{F}$ form a family of closed subsets of $X$ contradicting axiom $(C'')$.
 
@@ -93,11 +93,11 @@ If $X$ is quasi-compact, then every *locally finite* covering $\mathfrak{R}$ of 
 
 #### Example 1 {#top-i-s9-n1-exa-1 .statement}
 
-Every *finite* space is *quasi-compact*, and more generally every space in which there is only a finite number of open sets is quasi-compact. A finite space is compact if and only if it is discrete, for a finite Hausdorff space is discrete ($\S 8$, no. 1, Corollary to Proposition 3). Conversely, *every compact discrete space is finite*, for in such a space the sets consisting of a single point are open; hence the space is finite by $(C''')$.
+Every *finite* space is *quasi-compact*, and more generally every space in which there is only a finite number of open sets is quasi-compact. A finite space is compact if and only if it is discrete, for a finite Hausdorff space is discrete ($§ 8$, no. 1, Corollary to Proposition 3). Conversely, *every compact discrete space is finite*, for in such a space the sets consisting of a single point are open; hence the space is finite by $(C''')$.
 
 #### Example 2 {#top-i-s9-n1-exa-2 .statement}
 
-Let $X$ be a set, and give $X$ the topology in which the closed sets are $X$ and all finite subsets of $X$ [this set of subsets clearly satisfies axioms $(O'_1)$ and $(O'_{II})$ of $\S 1$, no. 4]. The topological space so defined is *quasi-compact*. For if $(F_i)_{i \in I}$ is a family of closed subsets of $X$ with empty intersection, then $F_\alpha$ is finite for some $\alpha \in I$. Let $a_k$ ($1 \leq k \leq n$) be the elements of $F_\alpha$; then by hypothesis for each index $k$ there is an index $i_k \in I$ such that $a_k \notin F_{i_k}$; the intersection of the $F_{i_k}$ ($1 \leq k \leq n$) and $F_\alpha$ is therefore empty, whence axiom $(C'')$ is satisfied. If $X$ is infinite it is not Hausdorff.
+Let $X$ be a set, and give $X$ the topology in which the closed sets are $X$ and all finite subsets of $X$ [this set of subsets clearly satisfies axioms $(O'_1)$ and $(O'_{II})$ of $§ 1$, no. 4]. The topological space so defined is *quasi-compact*. For if $(F_i)_{i \in I}$ is a family of closed subsets of $X$ with empty intersection, then $F_\alpha$ is finite for some $\alpha \in I$. Let $a_k$ ($1 \leq k \leq n$) be the elements of $F_\alpha$; then by hypothesis for each index $k$ there is an index $i_k \in I$ such that $a_k \notin F_{i_k}$; the intersection of the $F_{i_k}$ ($1 \leq k \leq n$) and $F_\alpha$ is therefore empty, whence axiom $(C'')$ is satisfied. If $X$ is infinite it is not Hausdorff.
 
 #### Remark {#top-i-s9-n1-rem-1 .statement}
 
@@ -164,7 +164,7 @@ This is an immediate consequence of axiom $(C'')$ if we remark that if $A$ is cl
 
 *Every compact subset of a Hausdorff space is closed.*
 
-Let $A$ be a compact subset of a Hausdorff space $X$, and let $x$ be any point of $\overline{A}$; we have to show that $x \in A$. By hypothesis, every neighbourhood of $x$ meets $A$, and therefore the neighbourhood filter $\mathcal{B}$ of $x$ in $X$ induces a filter $\mathcal{B}_A$ on $A$; $A$ is compact whence $\mathcal{B}_A$ has a cluster point $y \in A$. Since the filter $\mathcal{B}$ is coarser than the filter on $X$ generated by $\mathcal{B}_A$ (considered as a filter base on $X$), $y$ is also a cluster point of $\mathcal{B}$; hence $y = x$, because $\mathcal{B}$ converges to $x$ in $X$ and $X$ is Hausdorff (\S 8, no. 1, Proposition 1).
+Let $A$ be a compact subset of a Hausdorff space $X$, and let $x$ be any point of $\overline{A}$; we have to show that $x \in A$. By hypothesis, every neighbourhood of $x$ meets $A$, and therefore the neighbourhood filter $\mathcal{B}$ of $x$ in $X$ induces a filter $\mathcal{B}_A$ on $A$; $A$ is compact whence $\mathcal{B}_A$ has a cluster point $y \in A$. Since the filter $\mathcal{B}$ is coarser than the filter on $X$ generated by $\mathcal{B}_A$ (considered as a filter base on $X$), $y$ is also a cluster point of $\mathcal{B}$; hence $y = x$, because $\mathcal{B}$ converges to $x$ in $X$ and $X$ is Hausdorff (§ 8, no. 1, Proposition 1).
 
 #### Corollary {#top-i-s9-n3-cor-1 .statement}
 
@@ -206,7 +206,7 @@ In a non-Hausdorff space, a compact set need not be closed, and its closure need
 
 *If $f$ is a continuous mapping of a quasi-compact space $X$ into a topological space $X'$, then the set $f(X)$ is quasi-compact.*
 
-Let $\mathcal{R}$ be a covering of $f(X)$ by open sets in $X'$; then $\overline{f}^{-1}(\mathcal{R})$ is an open covering of $X$ (\S 2, no. 1, Theorem 1); hence there is a finite subset $\mathcal{S}$ of $\mathcal{R}$ such that $(\mathcal{S} \overline{f})$ is a covering of $X$; but then $\mathcal{S}$ is a covering of $f(X)$ and the theorem is proved.
+Let $\mathcal{R}$ be a covering of $f(X)$ by open sets in $X'$; then $\overline{f}^{-1}(\mathcal{R})$ is an open covering of $X$ (§ 2, no. 1, Theorem 1); hence there is a finite subset $\mathcal{S}$ of $\mathcal{R}$ such that $(\mathcal{S} \overline{f})$ is a covering of $X$; but then $\mathcal{S}$ is a covering of $f(X)$ and the theorem is proved.
 
 #### Corollary 1 {#top-i-s9-thm-2-cor-1 .statement}
 
@@ -230,9 +230,9 @@ In particular:
 
 a) *If there is a quasi-compact set $K$ in $X$ which meets every equivalence class mod $R$, then $X/R$ is compact and the canonical mapping of $K/R_K$ onto $X/R$ is a homeomorphism.*
 
-b) *If $K$ also meets each equivalence class in only one point, then $K$ is a continuous section of $X$ with respect to the relation $R$* (\$ 3, no. 5).
+b) *If $K$ also meets each equivalence class in only one point, then $K$ is a continuous section of $X$ with respect to the relation $R$* (§ 3, no. 5).
 
-Let $f$ be the restriction to $K$ of the canonical mapping $X \to X/R$. Since $X/R$ is Hausdorff it follows from Corollary 1 that $X/R$ is compact and from Corollary 2 that $f$ is closed; hence the bijection $K/R_K \to X/R$ associated with $f$ is a homeomorphism (\$ 5, no. 2, Proposition 3). This deals with a); b) follows immediately, since we now have $K/R_K = K$.
+Let $f$ be the restriction to $K$ of the canonical mapping $X \to X/R$. Since $X/R$ is Hausdorff it follows from Corollary 1 that $X/R$ is compact and from Corollary 2 that $f$ is closed; hence the bijection $K/R_K \to X/R$ associated with $f$ is a homeomorphism (§ 5, no. 2, Proposition 3). This deals with a); b) follows immediately, since we now have $K/R_K = K$.
 
 ### 5. PRODUCT OF COMPACT SPACES
 
@@ -240,26 +240,26 @@ Let $f$ be the restriction to $K$ of the canonical mapping $X \to X/R$. Since $X
 
 *Every product of quasi-compact (resp. compact) spaces is quasi-compact (resp. compact). Conversely, if a product of non-empty spaces is quasi-compact (resp. compact) then each of the factors is quasi-compact (resp. compact).*
 
-In view of the characterization of Hausdorff product spaces given in \$ 8, no. 2, Proposition 7 it is enough to prove the assertions for quasi-compact spaces. If $X = \prod_{i \in I} X_i$ is quasi-compact and non-empty, then $X_i = \operatorname{pr}_i(X)$ is quasi-compact by reason of Theorem 2 of no. 4. Conversely, suppose the $X_i$ are quasi-compact and let $\mathcal{U}$ be an ultrafilter on $X$; then for each $i \in I$, $\operatorname{pr}_i(\mathcal{U})$ is an ultrafilter base on $X_i$ (\$ 6, no. 6, Proposition 10) which therefore converges by reason of axiom (C'); hence $\mathcal{U}$ is convergent (\$ 7, no. 6, Corollary 1 of Proposition 10) and therefore $X$ is quasi-compact.
+In view of the characterization of Hausdorff product spaces given in § 8, no. 2, Proposition 7 it is enough to prove the assertions for quasi-compact spaces. If $X = \prod_{i \in I} X_i$ is quasi-compact and non-empty, then $X_i = \operatorname{pr}_i(X)$ is quasi-compact by reason of Theorem 2 of no. 4. Conversely, suppose the $X_i$ are quasi-compact and let $\mathcal{U}$ be an ultrafilter on $X$; then for each $i \in I$, $\operatorname{pr}_i(\mathcal{U})$ is an ultrafilter base on $X_i$ (§ 6, no. 6, Proposition 10) which therefore converges by reason of axiom (C'); hence $\mathcal{U}$ is convergent (§ 7, no. 6, Corollary 1 of Proposition 10) and therefore $X$ is quasi-compact.
 
 #### Corollary {#top-i-s9-n5-cor-1 .statement}
 
 *For a subset of a product of topological spaces to be relatively quasi-compact it is necessary and sufficient that each of its projections should be relatively quasi-compact in the corresponding factor.*
 
-Necessity follows from Theorem 2 of \$ 4. To prove sufficiency, let $A$ be a subset of $\prod_i X_i$ such that, for each index $i$, $\operatorname{pr}_i(A)$ is contained in a quasi-compact subset $K_i$ of $X_i$; then $A$ is contained in the quasi-compact subset $\prod_i K_i$ of $\prod_i X_i$.
+Necessity follows from Theorem 2 of § 4. To prove sufficiency, let $A$ be a subset of $\prod_i X_i$ such that, for each index $i$, $\operatorname{pr}_i(A)$ is contained in a quasi-compact subset $K_i$ of $X_i$; then $A$ is contained in the quasi-compact subset $\prod_i K_i$ of $\prod_i X_i$.
 
 ### 6. INVERSE LIMITS OF COMPACT SPACES
 
 #### Proposition 8 {#top-i-s9-prop-8 .statement}
 
-Let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of compact spaces indexed by a directed set $I$ such that $f_{\alpha\alpha}$ is the identity mapping for each $\alpha \in I$. Let $X = \varprojlim X_\alpha$ be the inverse limit and $f_\alpha : X \to X_\alpha$ the canonical mapping (\S 4, no. 4). Then
+Let $(X_\alpha, f_{\alpha\beta})$ be an inverse system of compact spaces indexed by a directed set $I$ such that $f_{\alpha\alpha}$ is the identity mapping for each $\alpha \in I$. Let $X = \varprojlim X_\alpha$ be the inverse limit and $f_\alpha : X \to X_\alpha$ the canonical mapping (§ 4, no. 4). Then
 a) $X$ is compact and for each $\alpha \in I$ we have
 $$
 f_\alpha(X) = \bigcap_{\beta \geq \alpha} f_{\alpha\beta}(X_\beta).
 $$
 b) *If the* $X_\alpha$ *are all non-empty then* $X$ *is non-empty*.
 
-$X$ is a closed subspace of $\prod_\alpha X_\alpha$ (\S 8, no. 2, Proposition 7, Corollary 2) which is compact by Theorem 3 of no. 5 and Proposition 3 of no. 3. The other assertions are consequences of *Set Theory*, chap. III, \S 7, no. 4, th. 1. We apply this theorem by taking $\mathcal{S}_\alpha$ to be the set of closed subsets of $X_\alpha$. The conditions (i) and (ii) are just axioms $(O'_1)$ and $(C'')$ respectively; condition (iii) is satisfied since $\{x_\alpha\}$ is closed and $f_{\alpha\beta}$ continuous (\S 2, no. 1, Theorem 1), and lastly condition (iv) is satisfied by reason of Corollary 2 of Theorem 2 of no. 4.
+$X$ is a closed subspace of $\prod_\alpha X_\alpha$ (§ 8, no. 2, Proposition 7, Corollary 2) which is compact by Theorem 3 of no. 5 and Proposition 3 of no. 3. The other assertions are consequences of *Set Theory*, chap. III, § 7, no. 4, th. 1. We apply this theorem by taking $\mathcal{S}_\alpha$ to be the set of closed subsets of $X_\alpha$. The conditions (i) and (ii) are just axioms $(O'_1)$ and $(C'')$ respectively; condition (iii) is satisfied since $\{x_\alpha\}$ is closed and $f_{\alpha\beta}$ continuous (§ 2, no. 1, Theorem 1), and lastly condition (iv) is satisfied by reason of Corollary 2 of Theorem 2 of no. 4.
 
 #### Corollary 1 {#top-i-s9-prop-8-cor-1 .statement}
 
@@ -290,7 +290,7 @@ Clearly a compact space is locally compact, but the converse is false; for examp
 
 *Every locally compact space is regular.*
 
-Let $X$ be a locally compact space, then every point $x \in X$ has a compact neighbourhood $V$; since $X$ is Hausdorff, $V$ is closed (no. 3, Proposition 4). On the other hand, $V$ is a regular subspace of $X$ (no. 2, Corollary to Proposition 1) and therefore $X$ is regular (\S 8, no. 4, Proposition 13).
+Let $X$ be a locally compact space, then every point $x \in X$ has a compact neighbourhood $V$; since $X$ is Hausdorff, $V$ is closed (no. 3, Proposition 4). On the other hand, $V$ is a regular subspace of $X$ (no. 2, Corollary to Proposition 1) and therefore $X$ is regular (§ 8, no. 4, Proposition 13).
 
 #### Corollary {#top-i-s9-n7-cor-1 .statement}
 
@@ -340,7 +340,7 @@ a) *Let $(X_i)_{i \in I}$ be a family of locally compact spaces such that $X_i$ 
 
 b) *Conversely, if the product of a family $(X_i)_{i \in I}$ of non-empty topological spaces is locally compact, then the factors $X_i$ are compact for all but a finite number of indices, and the factors which are not compact are locally compact.*
 
-b) If $X = \prod_{i \in I} X_i$ is locally compact and the $X_i$ non-empty, then each of the $X_i$ is homeomorphic to a closed subspace of $X$ ($\S 4$, no. 2, Proposition 4 and $\S 4$, no. 3, Corollary to Proposition 7), hence locally compact by Proposition 13. Let $a = (a_i)$ be a point of $X$ and let $V$ be a compact neighbourhood of $a$; since we have $\operatorname{pr}_i V = X_i$ for all but a finite number of indices ($\S 4$, no. 1), it follows from no. 4, Corollary 1 to Theorem 2, that the $X_i$ are compact except for a finite number of indices.
+b) If $X = \prod_{i \in I} X_i$ is locally compact and the $X_i$ non-empty, then each of the $X_i$ is homeomorphic to a closed subspace of $X$ ($§ 4$, no. 2, Proposition 4 and $§ 4$, no. 3, Corollary to Proposition 7), hence locally compact by Proposition 13. Let $a = (a_i)$ be a point of $X$ and let $V$ be a compact neighbourhood of $a$; since we have $\operatorname{pr}_i V = X_i$ for all but a finite number of indices ($§ 4$, no. 1), it follows from no. 4, Corollary 1 to Theorem 2, that the $X_i$ are compact except for a finite number of indices.
 
 ### 8. EMBEDDING OF A LOCALLY COMPACT SPACE IN A COMPACT SPACE
 
@@ -444,7 +444,7 @@ form an open covering of $X \times Y$ which refines $\mathcal{R}$, and the proof
 
 #### Proposition 18 {#top-i-s9-prop-18 .statement}
 
-*The sum* (\S 2, no. 4, Example 3) *of a family* $(X_i)_{i \in I}$ *of paracompact spaces is paracompact*.
+*The sum* (§ 2, no. 4, Example 3) *of a family* $(X_i)_{i \in I}$ *of paracompact spaces is paracompact*.
 
 Let $X$ be the sum of the $X_i$, and let $(V_\lambda)_{\lambda \in L}$ be an open covering of $X$. The covering formed by the open sets $X_i \cap Y_\lambda$ is finer than $(V_\lambda)$. For each $i \in I$, let $(U_{i,\mu})_{\mu \in M_i}$ be a locally finite open refinement of the covering $(V_\lambda \cap X_i)_{\lambda \in L}$; then the open covering of $X$ formed by the
 

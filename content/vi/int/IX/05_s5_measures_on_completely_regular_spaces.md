@@ -41,9 +41,9 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: f21401a6e3559aba0856e1c3dd718455b5c625e97a896fc7425db4eb68ffd2b9
+content_sha256: 13f9472664ea478f5647df341b264d76f99e63248de582b7e2ca93ec8591122c
 translated_from: content/en/int/IX/05_s5_measures_on_completely_regular_spaces.md
-source_content_sha256: fcbde3227ae2c8a07d15e11152623c5b8ec445be66fbe7f38c00957838c44bc2
+source_content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-bb57bc71
 glossary_version: 34
@@ -175,7 +175,7 @@ $$
 
 Nếu $T$ là địa phương compact, tôpô chặt mịn hơn tôpô cảm sinh trên $\mathcal{M}^b(T)$ bởi tôpô vague, và hai tôpô này chỉ trùng nhau khi $T$ là compact. Thật vậy, nếu $T$ không compact, ánh xạ $t \mapsto \varepsilon_t$ hội tụ vague đến 0 đối với bộ lọc của các phần bù của các tập con tương đối compact của $T$, nhưng không hội tụ chặt đến 0, vì hàm 1 thuộc $\mathcal{C}^b(T)$ (về các quan hệ giữa hội tụ vague và hội tụ chặt, xem Mệnh đề 9).
 
-(1) Quan hệ này chỉ mới được thiết lập ở trên (\S 2, No. 1, Mệnh đề 1) trong trường hợp $f$ và $\nu$ là dương. Mở rộng sang tình huống hiện tại, trong đó $f$ và $\nu$ là phức và bị chặn, là ngay lập tức theo tính tuyến tính.
+(1) Quan hệ này chỉ mới được thiết lập ở trên (§ 2, No. 1, Mệnh đề 1) trong trường hợp $f$ và $\nu$ là dương. Mở rộng sang tình huống hiện tại, trong đó $f$ và $\nu$ là phức và bị chặn, là ngay lập tức theo tính tuyến tính.
 
 #### Nhận xét 2 {#int-ix-s5-n3-rem-2 .statement}
 

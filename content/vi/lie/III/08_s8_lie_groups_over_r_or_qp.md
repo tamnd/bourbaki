@@ -20,9 +20,9 @@ subsections:
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: ffe2c8b1391dd25726edb35f357fcd412ff5ec564c5710bf2a88f19ea87bca4a
+content_sha256: 2f744870d718d29305d11f74d872ec16894e4afae2d50866967f4f625b6f303e
 translated_from: content/en/lie/III/08_s8_lie_groups_over_r_or_qp.md
-source_content_sha256: d48cff3608394e0ece5f613b8605904b3d3dfbf75e89fa6fec2532a22ecc23fc
+source_content_sha256: 69f4f2193868425a1a6066153825bbab55bdad1e9ad4cf8dd79a6c6484cea684
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-600c1f3e
 glossary_version: 34
@@ -90,7 +90,7 @@ $$
 &= h(x + y).
 \end{align*}
 $$
-Vậy $h$ liên tục và tuyến tính, do đó $g = h|V$ là giải tích, do đó $f$ là giải tích trên $\phi(V)$ và do đó $f$ là giải tích (\S 1, no. 10).
+Vậy $h$ liên tục và tuyến tính, do đó $g = h|V$ là giải tích, do đó $f$ là giải tích trên $\phi(V)$ và do đó $f$ là giải tích (§ 1, no. 10).
 
 #### Hệ quả 1 {#lie-iii-s8-thm-1-cor-1 .statement}
 
@@ -126,9 +126,9 @@ Khi đó f là hằng địa phương.*
 
 Trường hợp (a). Gọi $G_0$ là thành phần đơn vị của G. Khi đó $f(G_0)$ là một nhóm con liên thông của $G'$ và do đó $f(G_0) = \{e\}$ và $G_0$ là mở trong G.
 
-Trường hợp (b). Gọi $V'$ là một lân cận của $e$ trong $G'$ sao cho mọi nhóm con của $G'$ được chứa trong $V'$ đều thu gọn về $\{e\}$ (\S 4, no. 2, Hệ quả 1 của Định lý 2). Tồn tại một lân cận V của $e$ trong G sao cho $f(V) \subset V'$. Khi đó tồn tại một nhóm con mở $G_1$ của G sao cho $G_1 \subset V$ (\S 7, no. 1, Mệnh đề 1). Khi đó $f(G_1) = \{e\}$.
+Trường hợp (b). Gọi $V'$ là một lân cận của $e$ trong $G'$ sao cho mọi nhóm con của $G'$ được chứa trong $V'$ đều thu gọn về $\{e\}$ (§ 4, no. 2, Hệ quả 1 của Định lý 2). Tồn tại một lân cận V của $e$ trong G sao cho $f(V) \subset V'$. Khi đó tồn tại một nhóm con mở $G_1$ của G sao cho $G_1 \subset V$ (§ 7, no. 1, Mệnh đề 1). Khi đó $f(G_1) = \{e\}$.
 
-Trường hợp (c). Theo \S 7, Định lý 4 và Hệ quả của Mệnh đề 8, tồn tại một lân cận $V'$ của $e$ trong $G'$ sao cho, với mọi $x' \in V' - \{e\}$, ${x'}^{p^n}$ không hội tụ
+Trường hợp (c). Theo § 7, Định lý 4 và Hệ quả của Mệnh đề 8, tồn tại một lân cận $V'$ của $e$ trong $G'$ sao cho, với mọi $x' \in V' - \{e\}$, ${x'}^{p^n}$ không hội tụ
 
 † Xem chẳng hạn D. Montgomery và L. Zippin, *Topological transformation groups*, Interscience tracts in pure and applied mathematics, no. 1, Interscience publishers, New York 1955 (đặc biệt các trang 169 và 184).
 
@@ -140,7 +140,7 @@ tới $e$ khi $n$ tiến tới $+\infty$. Tồn tại một lân cận $V$ của
 
 *Cho $G$ là một nhóm Lie hữu hạn chiều trên $\mathbf{R}$ hoặc $\mathbf{Q}_p$. Mọi nhóm con đóng của $G$ đều là một nhóm con Lie của $G$. Nói chung hơn, cho $U$ là một lân cận mở đối xứng của $e$ trong $G$ và $H$ là một không gian con đóng không rỗng của $U$ sao cho các điều kiện $x \in H$, $y \in H$ và $xy^{-1} \in U$ kéo theo $xy^{-1} \in H$. Khi đó $H$ là một mầm nhóm con Lie của $G$.*
 
-Cho $\mathfrak{h}$ là đại số con Lie tiếp xúc với $H$ tại $e$ (\S 4, no. 5, Định nghĩa 2). Tồn tại một mầm nhóm con Lie $H_0$ của $G$ với đại số Lie $\mathfrak{h}$ và được chứa trong $H$. Ta chứng minh rằng $H_0$ là mở trong $H$ với tôpô cảm sinh bởi tôpô trên $G$. Điều này sẽ chứng minh rằng $H$ là một đa tạp con giải tích của $G$ và sẽ thiết lập định lý.
+Cho $\mathfrak{h}$ là đại số con Lie tiếp xúc với $H$ tại $e$ (§ 4, no. 5, Định nghĩa 2). Tồn tại một mầm nhóm con Lie $H_0$ của $G$ với đại số Lie $\mathfrak{h}$ và được chứa trong $H$. Ta chứng minh rằng $H_0$ là mở trong $H$ với tôpô cảm sinh bởi tôpô trên $G$. Điều này sẽ chứng minh rằng $H$ là một đa tạp con giải tích của $G$ và sẽ thiết lập định lý.
 
 Tồn tại một không gian con vectơ $\mathfrak{k}$ phụ trợ cho $\mathfrak{h}$ trong $L(G)$, các lân cận mở đối xứng $V_1, V_2$ của không trong $\mathfrak{h}$ và $\mathfrak{k}$ tương ứng, và một ánh xạ mũ $\phi$ của $G$ được xác định trên $V_1 + V_2$ và có các tính chất sau:
 
@@ -181,7 +181,7 @@ $$
 *(i) Nếu $K = \mathbf{C}$, $H$ là một nhóm con Lie của $G$.*
 *(ii) Nếu $K$ là một mở rộng hữu hạn của $\mathbf{Q}_p$ và $I$ là hữu hạn, $H$ là một nhóm con Lie của $G$.*
 
-(i) Giả sử $K = \mathbf{C}$. Ta xét $G$ như một nhóm Lie thực. Khi đó $H$ là một nhóm con Lie thực của $G$ (Định lý 2). Cho $a \in L(H)$. Có một lân cận mở liên thông $W$ của $0$ trong $\mathbf{C}$ sao cho $\exp \lambda a \in V$ với mọi $\lambda \in W$. Cho $i \in I$. Khi đó $f_i(\exp \lambda a) = f_i(e)$ nếu $\lambda \in \mathbf{R} \cap W$. Do đó $f_i(\exp \lambda a) = f_i(e)$ nếu $\lambda \in W$ nhờ phép tiếp tục giải tích. Vậy $\exp \lambda a \in H$ với $\lambda \in W$ và do đó $\mu a \in L(H)$ với mọi $\mu \in \mathbf{C}$. Suy ra $H$ là một nhóm con Lie của nhóm Lie phức $G$ (\S 4, no. 2, Mệnh đề 2).
+(i) Giả sử $K = \mathbf{C}$. Ta xét $G$ như một nhóm Lie thực. Khi đó $H$ là một nhóm con Lie thực của $G$ (Định lý 2). Cho $a \in L(H)$. Có một lân cận mở liên thông $W$ của $0$ trong $\mathbf{C}$ sao cho $\exp \lambda a \in V$ với mọi $\lambda \in W$. Cho $i \in I$. Khi đó $f_i(\exp \lambda a) = f_i(e)$ nếu $\lambda \in \mathbf{R} \cap W$. Do đó $f_i(\exp \lambda a) = f_i(e)$ nếu $\lambda \in W$ nhờ phép tiếp tục giải tích. Vậy $\exp \lambda a \in H$ với $\lambda \in W$ và do đó $\mu a \in L(H)$ với mọi $\mu \in \mathbf{C}$. Suy ra $H$ là một nhóm con Lie của nhóm Lie phức $G$ (§ 4, no. 2, Mệnh đề 2).
 
 (ii) Giả sử rằng $K$ là một mở rộng hữu hạn của $\mathbf{Q}_p$. Ta xét $G$ như một nhóm Lie trên $\mathbf{Q}_p$. Nó có số chiều hữu hạn và Định lý 2 suy ra rằng $H$ là một nhóm con Lie $p$-adic của $G$. Vì $I$ là hữu hạn, $\prod_{i \in I} M_i$ là một đa tạp và có thể giả sử rằng họ $(f_i)$ quy về một ánh xạ duy nhất $f$. Cho $a \in L(G)$. Gọi $\phi$ là một ánh xạ mũ của $G$. Khi đó $f(\phi(\lambda a)) = f(e)$ với $\lambda \in \mathbf{Q}_p$ và $|\lambda|$ đủ nhỏ. Vì $f$ là $K$-giải tích, suy ra $f(\phi(\lambda a)) = f(e)$ với $\lambda \in K$ và $|\lambda|$ đủ nhỏ. Do đó $\phi(\lambda a) \in H$ với $\lambda \in K$ và $|\lambda|$ đủ nhỏ, và vì vậy $\mu a \in L(H)$ với mọi $\mu \in K$. Chứng minh được hoàn thành như trong (i).
 

@@ -41,9 +41,9 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: aaddfaf1028a4f72ac725f6e2e2f8e41125dabb15f4c66690e545c9b6a2dd6f4
+content_sha256: b8556ad8f17c3c1bf46ddde3c3cab10e4fc4b4c7d1f4917f6267245eb3cde42a
 translated_from: content/en/int/VIII/04_s4_convolution_of_measures_and_functions.md
-source_content_sha256: 4bdfd45d074b8fb1fc45bbdbf705e28e2b73e20a27681320842f9ce58bd4d2d5
+source_content_sha256: 49dae28e635f264996aa83405996b598158ace98510497220a4478b7bfbd1885
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-22bd618f
 glossary_version: 34
@@ -200,7 +200,7 @@ vì $\mathcal{C}(X)$ là đầy đủ. Đặc biệt, với mọi $x \in X$,
 $$
 (\gamma_\chi(\mu)f)(x) = \int (\gamma_\chi(s)f)(x)\,d\mu(s).
 $$
-Điều này, kết hợp với Prop. 2 (i), và §2, No. 6, chứng minh (ii). Cuối cùng, nếu $f \in \mathcal{K}(X)$ thì $\mu * (f \cdot \beta)$ có giá đỡ compact (§3, No. 2, Prop. 9), do đó $\mu *_{\beta} f \in \mathcal{K}(X)$. Thật vậy, xét biểu diễn liên tục $U$ của $G$ trong phần hoàn thành $\mathcal{K}(X)^{\sim}$ thu được bằng cách mở rộng theo tính liên tục các toán tử liên tục $\gamma_\chi(s)$ trong $\mathcal{K}(X)$ (\S 2, No. 1, *Nhận xét 3*). Gọi $S$ là giá đỡ của $\mu$. Các hàm $\gamma_\chi(s)f$, với $s \in S$, có giá đỡ được chứa trong một tập compact cố định $K$. Tập hợp $\mathcal{K}(X, K)$ là một không gian con tuyến tính đầy đủ của $\mathcal{K}(X)$. Do đó $U(\mu)f \in \mathcal{K}(X)$. Như trước đây ta thấy rằng $U(\mu)f = \mu *^\beta f$, và (iii) lại suy ra từ \S 2, No. 6.
+Điều này, kết hợp với Prop. 2 (i), và §2, No. 6, chứng minh (ii). Cuối cùng, nếu $f \in \mathcal{K}(X)$ thì $\mu * (f \cdot \beta)$ có giá đỡ compact (§3, No. 2, Prop. 9), do đó $\mu *_{\beta} f \in \mathcal{K}(X)$. Thật vậy, xét biểu diễn liên tục $U$ của $G$ trong phần hoàn thành $\mathcal{K}(X)^{\sim}$ thu được bằng cách mở rộng theo tính liên tục các toán tử liên tục $\gamma_\chi(s)$ trong $\mathcal{K}(X)$ (§ 2, No. 1, *Nhận xét 3*). Gọi $S$ là giá đỡ của $\mu$. Các hàm $\gamma_\chi(s)f$, với $s \in S$, có giá đỡ được chứa trong một tập compact cố định $K$. Tập hợp $\mathcal{K}(X, K)$ là một không gian con tuyến tính đầy đủ của $\mathcal{K}(X)$. Do đó $U(\mu)f \in \mathcal{K}(X)$. Như trước đây ta thấy rằng $U(\mu)f = \mu *^\beta f$, và (iii) lại suy ra từ § 2, No. 6.
 
 #### Mệnh đề 4 {#int-viii-s4-prop-4 .statement}
 
@@ -212,18 +212,18 @@ $$
 
 (iii) *Ánh xạ $(\mu, f) \mapsto \mu *^\beta f$ từ $\mathcal{M}(G) \times \mathcal{K}(X)$ vào $\mathcal{C}(X)$ là nửa liên tục đều đối với các tập con bị chặn của $\mathcal{M}(G)$ và các tập con compact của $\mathcal{K}(X)$ được chứa trong một không gian con $\mathcal{K}(X, L)$ nào đó (trong đó $L$ là một tập compact biến thiên của $X$).*
 
-Ta biết rằng $\mu$ và $f$ là nhân chập được (\S 3, No. 2, Prop. 8 (ii)), và rõ ràng rằng các tích phân xuất hiện trong (3) tồn tại với mọi $x \in X$. Gọi $K$ và $L$ là hai tập con compact của $X$. Tồn tại một tập con compact $H$ của $G$ sao cho các quan hệ $x \in K$ và $s^{-1}x \in L$ kéo theo $s \in H$; lấy $\varphi \in \mathcal{K}_+(G)$ với $\varphi(s) = 1$ với $s \in H$. Khi đó, với $f \in \mathcal{K}(X, L)$ và $x \in K$,
+Ta biết rằng $\mu$ và $f$ là nhân chập được (§ 3, No. 2, Prop. 8 (ii)), và rõ ràng rằng các tích phân xuất hiện trong (3) tồn tại với mọi $x \in X$. Gọi $K$ và $L$ là hai tập con compact của $X$. Tồn tại một tập con compact $H$ của $G$ sao cho các quan hệ $x \in K$ và $s^{-1}x \in L$ kéo theo $s \in H$; lấy $\varphi \in \mathcal{K}_+(G)$ với $\varphi(s) = 1$ với $s \in H$. Khi đó, với $f \in \mathcal{K}(X, L)$ và $x \in K$,
 
 $$
 \int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s) = \int f(s^{-1}x)\chi(s^{-1}, x)\varphi(s)\, d\mu(s)
 = ((\varphi \cdot \mu) *^\beta f)(x).
 $$
 
-Do đó $\int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)$ là một hàm liên tục của $x$ và xác định một tích chập $\mu *^\beta f \in \mathcal{C}(X)$. Hơn nữa, ánh xạ $\mu \mapsto \varphi \cdot \mu$ của $\mathcal{M}(G)$ vào $\mathcal{C}'(G)$ là liên tục đối với các tôpô hội tụ compact. Mệnh đề 3 (iii) do đó suy ra rằng ánh xạ $(\mu, f) \mapsto \mu *^\beta f$ của $\mathcal{M}(G) \times \mathcal{K}(X, L)$ vào $\mathcal{C}(X)$ là, với mọi tập con compact $L$ của $X$, nửa liên tục đối với các tập con compact của $\mathcal{K}(X, L)$. Đặc biệt, ánh xạ $(\mu, f) \mapsto \mu *^\beta f$ của $\mathcal{M}(G) \times \mathcal{K}(X)$ vào $\mathcal{C}(X)$ là liên tục riêng. Vì $\mathcal{K}(X)$ là không gian thùng, ánh xạ này là nửa liên tục đối với các tập con bị chặn của $\mathcal{M}(G)$ (TVS, III, \S 5, No. 3, Mệnh đề 6).
+Do đó $\int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)$ là một hàm liên tục của $x$ và xác định một tích chập $\mu *^\beta f \in \mathcal{C}(X)$. Hơn nữa, ánh xạ $\mu \mapsto \varphi \cdot \mu$ của $\mathcal{M}(G)$ vào $\mathcal{C}'(G)$ là liên tục đối với các tôpô hội tụ compact. Mệnh đề 3 (iii) do đó suy ra rằng ánh xạ $(\mu, f) \mapsto \mu *^\beta f$ của $\mathcal{M}(G) \times \mathcal{K}(X, L)$ vào $\mathcal{C}(X)$ là, với mọi tập con compact $L$ của $X$, nửa liên tục đối với các tập con compact của $\mathcal{K}(X, L)$. Đặc biệt, ánh xạ $(\mu, f) \mapsto \mu *^\beta f$ của $\mathcal{M}(G) \times \mathcal{K}(X)$ vào $\mathcal{C}(X)$ là liên tục riêng. Vì $\mathcal{K}(X)$ là không gian thùng, ánh xạ này là nửa liên tục đối với các tập con bị chặn của $\mathcal{M}(G)$ (TVS, III, § 5, No. 3, Mệnh đề 6).
 
 #### Nhận xét 1 {#int-viii-s4-n2-rem-1 .statement}
 
-— Dưới các giả thiết của Mệnh đề 4, ánh xạ $\mu \mapsto \mu *^\beta f$ của $\mathcal{M}_+(G)$ vào $\mathcal{C}(X)$ là liên tục khi $\mathcal{M}_+(G)$ được trang bị tôpô *mơ hồ*, với mọi $f \in \mathcal{K}(X)$. Thật vậy, cho $K$ là một tập compact con của $X$, $S$ là giá đỡ (compact) của $f$; vì $G$ tác động đúng trong $X$, tập hợp các $s \in G$ sao cho tồn tại một $x \in K$ với $s^{-1}x \in S$ là một tập compact con $L$ của $G$ (GT, III, \S 4, No. 5, Th. 1). Cho $\varepsilon$ là một số $> 0$, $\varphi$ là một hàm trong $\mathcal{K}_+(G)$ bằng 1 trên tập compact $L$, $\mu_0$ là một phần tử của $\mathcal{M}_+(G)$; tập hợp $W_0$ các độ đo $\mu \in \mathcal{M}_+(G)$ sao cho
+— Dưới các giả thiết của Mệnh đề 4, ánh xạ $\mu \mapsto \mu *^\beta f$ của $\mathcal{M}_+(G)$ vào $\mathcal{C}(X)$ là liên tục khi $\mathcal{M}_+(G)$ được trang bị tôpô *mơ hồ*, với mọi $f \in \mathcal{K}(X)$. Thật vậy, cho $K$ là một tập compact con của $X$, $S$ là giá đỡ (compact) của $f$; vì $G$ tác động đúng trong $X$, tập hợp các $s \in G$ sao cho tồn tại một $x \in K$ với $s^{-1}x \in S$ là một tập compact con $L$ của $G$ (GT, III, § 4, No. 5, Th. 1). Cho $\varepsilon$ là một số $> 0$, $\varphi$ là một hàm trong $\mathcal{K}_+(G)$ bằng 1 trên tập compact $L$, $\mu_0$ là một phần tử của $\mathcal{M}_+(G)$; tập hợp $W_0$ các độ đo $\mu \in \mathcal{M}_+(G)$ sao cho
 $$
 \left| \int \varphi(s)\, d\mu(s) - \int \varphi(s)\, d\mu_0(s) \right| \leq \varepsilon
 $$
@@ -555,7 +555,7 @@ Nhắc lại rằng nếu $f$ là một hàm phức trên $G$, tính chất kh�
 
 « $f \cdot \beta$ và $g \cdot \beta$ là liên tục xoắn được »
 
-không phụ thuộc vào lựa chọn $\beta$ (\S 3, No. 1, Prop. 6). Khi đó ta sẽ nói rằng $f$ và $g$ là *có thể lấy tích chập*. Theo No. 1, $(f \cdot \beta) * (g \cdot \beta)$ có dạng $h \cdot \beta$ với $h \in \mathcal{L}(G)$, $h$ được xác định sai khác bởi các tập hợp địa phương $\beta$-không đáng kể. Ta sẽ viết $h = f *^{\beta} g$ và ta sẽ nói rằng $h$ là một *tích chập* của $f$ và $g$ đối với $\beta$. (Người ta bỏ qua $\beta$ khi không thể có nhầm lẫn.) Nếu $\beta$ được thay bởi $\psi \cdot \beta$, $\psi$ là một biểu diễn liên tục của $G$ trong $\mathbf{R}_+^*$, thì $h$ không thay đổi (\S 3, No. 1, Prop. 6); nếu $\beta$ được thay bởi $a \beta$ ($a \in \mathbf{R}_+^*$), thì $h$ được thay bởi $ah$. Tích chập của một số hàm trên $G$ được định nghĩa theo cách tương tự.
+không phụ thuộc vào lựa chọn $\beta$ (§ 3, No. 1, Prop. 6). Khi đó ta sẽ nói rằng $f$ và $g$ là *có thể lấy tích chập*. Theo No. 1, $(f \cdot \beta) * (g \cdot \beta)$ có dạng $h \cdot \beta$ với $h \in \mathcal{L}(G)$, $h$ được xác định sai khác bởi các tập hợp địa phương $\beta$-không đáng kể. Ta sẽ viết $h = f *^{\beta} g$ và ta sẽ nói rằng $h$ là một *tích chập* của $f$ và $g$ đối với $\beta$. (Người ta bỏ qua $\beta$ khi không thể có nhầm lẫn.) Nếu $\beta$ được thay bởi $\psi \cdot \beta$, $\psi$ là một biểu diễn liên tục của $G$ trong $\mathbf{R}_+^*$, thì $h$ không thay đổi (§ 3, No. 1, Prop. 6); nếu $\beta$ được thay bởi $a \beta$ ($a \in \mathbf{R}_+^*$), thì $h$ được thay bởi $ah$. Tích chập của một số hàm trên $G$ được định nghĩa theo cách tương tự.
 
 Nếu một trong các tích chập của $f$ và $g$ là liên tục, nó được xác định duy nhất vì giá của $\beta$ là $G$. Khi đó nó được gọi là *tích chập* của $f$ và $g$ đối với $\beta$.
 
@@ -635,7 +635,7 @@ $$
 $$
 = \|g\|_\infty \int |(f(s^{-1}) - f(x'x^{-1}s^{-1}))\, d\nu(s)
 $$
-và tích phân sau có thể nhỏ tùy ý với điều kiện $x'x^{-1}$ thuộc một lân cận thích hợp của $e$ (\S 2, No. 5, Mệnh đề 8).
+và tích phân sau có thể nhỏ tùy ý với điều kiện $x'x^{-1}$ thuộc một lân cận thích hợp của $e$ (§ 2, No. 5, Mệnh đề 8).
 
 #### Mệnh đề 15 {#int-viii-s4-prop-15 .statement}
 
@@ -751,7 +751,7 @@ $$
 
 giới hạn được lấy theo bộ lọc tiết diện của $\mathcal{B}$.
 
-Đối với tôpô hội tụ compắc trong $\mathcal{C}(G)$, $f_V \cdot \beta$ hội tụ đến $\varepsilon_e$ theo bộ lọc tiết diện của $\mathcal{B}$ (\S2, No. 7, Hệ quả 1 của Bổ đề 4). Vì vậy $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ trong $\mathcal{M}(G)$ được trang bị tôpô hội tụ compắc trong $\mathcal{H}(G)$ (\S3, No. 3, Hệ quả của Mệnh đề 12).
+Đối với tôpô hội tụ compắc trong $\mathcal{C}(G)$, $f_V \cdot \beta$ hội tụ đến $\varepsilon_e$ theo bộ lọc tiết diện của $\mathcal{B}$ (§ 2, No. 7, Hệ quả 1 của Bổ đề 4). Vì vậy $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ trong $\mathcal{M}(G)$ được trang bị tôpô hội tụ compắc trong $\mathcal{H}(G)$ (§ 3, No. 3, Hệ quả của Mệnh đề 12).
 
 #### Nhận xét 1 {#int-viii-s4-n7-rem-1 .statement}
 

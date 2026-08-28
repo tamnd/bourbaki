@@ -36,9 +36,9 @@ subsections:
       pdf_page: 166
 statements: 12
 exercises: 18
-content_sha256: 360104392a3f9aa8c9f4cc463026cf4f93597fb96d153f486906702eb8079184
+content_sha256: 6a7b7f18f2b8d8580677a46069e377f8b9869cd34a6d48a99e5d111ae8472a87
 translated_from: content/en/lie/II/04_s4_central_filtrations.md
-source_content_sha256: 0a51b2a1c75cc3eaf5249167c29ed52ef77294649dfee5b5f823950865264f4b
+source_content_sha256: 1325ad90b6f64f40c918361f53780fe37c172750b745daa70223fd8d6caff02f
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-5f92d445
 glossary_version: 34
@@ -322,7 +322,7 @@ $$
 \mathrm{gr}_n(G) = [\mathrm{gr}_1(G), \mathrm{gr}_{n-1}(G)] \subset L.
 $$
 
-Chứng minh trên cho thấy chuỗi trung tâm dưới của đại số Lie gr(G) (\S 2, no. 7) được cho bởi
+Chứng minh trên cho thấy chuỗi trung tâm dưới của đại số Lie gr(G) (§ 2, no. 7) được cho bởi
 
 $$
 \mathcal{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).
@@ -330,7 +330,7 @@ $$
 
 #### Nhận xét {#lie-ii-s4-n6-rem-1 .statement}
 
-Cho k là một vành, n là một số nguyên $> 0$ và A là tập hợp các ma trận tam giác dưới với n hàng và n cột và các phần tử trong k. Với $p \geq 0$, cho $A_p$ là tập hợp các $(x_{ij}) \in A$ sao cho $x_{ij} = 0$ đối với $i - j < p$. Khi đó $A_0 = A$ và $A_pA_q \subset A_{p+q}$. Cho $\Gamma_p = 1 + A_p$. Khi đó $\Gamma_1$ là một nhóm con của $\mathbf{GL}(n, k)$ được gọi là nhóm tam giác dưới ngặt cấp n trên k. Theo Mệnh đề 2 của no. 5, $(\Gamma_p)$ là một lọc nguyên trên $\Gamma_1$. Vì $\Gamma_n = \{1\}$, ta thấy rằng nhóm $\Gamma_1$ là lũy linh (Đại số, Chương I, \S 6, no. 3, Định nghĩa 6).
+Cho k là một vành, n là một số nguyên $> 0$ và A là tập hợp các ma trận tam giác dưới với n hàng và n cột và các phần tử trong k. Với $p \geq 0$, cho $A_p$ là tập hợp các $(x_{ij}) \in A$ sao cho $x_{ij} = 0$ đối với $i - j < p$. Khi đó $A_0 = A$ và $A_pA_q \subset A_{p+q}$. Cho $\Gamma_p = 1 + A_p$. Khi đó $\Gamma_1$ là một nhóm con của $\mathbf{GL}(n, k)$ được gọi là nhóm tam giác dưới ngặt cấp n trên k. Theo Mệnh đề 2 của no. 5, $(\Gamma_p)$ là một lọc nguyên trên $\Gamma_1$. Vì $\Gamma_n = \{1\}$, ta thấy rằng nhóm $\Gamma_1$ là lũy linh (Đại số, Chương I, § 6, no. 3, Định nghĩa 6).
 
 ### Bài tập {#lie-ii-s4-exercises}
 

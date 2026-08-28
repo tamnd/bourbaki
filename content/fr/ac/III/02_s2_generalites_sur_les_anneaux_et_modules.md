@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: e5d7acf1c65c64a513b568a23ba9414b1026c2eac0cab0f8dd7970b0d8b7dcd8
+content_sha256: dfff54cb43c75cb89d327982a34ad5f57bfe1d61524bd4073f17f7ca7f31972f
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.
@@ -674,12 +674,12 @@ Cela résulte du cor. 1 par récurrence sur $n$.
 #### Corollaire 3 {#ac-iii-s2-thm-2-cor-3 .statement}
 
 Si C est un anneau commutatif noethérien, toute C-algèbre commutative de type fini est un anneau noethérien.
-En effet, une telle algèbre est isomorphe à un quotient d'une algèbre de polynômes $C[X_1, ..., X_n]$ ($\S 1,$ no 1).
+En effet, une telle algèbre est isomorphe à un quotient d'une algèbre de polynômes $C[X_1, ..., X_n]$ ($§ 1,$ no 1).
 
 #### Corollaire 4 {#ac-iii-s2-thm-2-cor-4 .statement}
 
 Soit A un anneau commutatif gradué de type $\mathbf{N}$, et soit $(A_n)$ sa graduation. Pour que A soit noethérien, il faut et il suffit que $A_0$ soit noethérien et que A soit une $A_0$-algèbre de type fini.
-La condition est suffisante en vertu du cor. 3. Inversement, supposons A noethérien ; $m = \sum_{n \geq 1} A_n$, qui est un idéal de A, est donc de type fini ; par suite A est une $A_0$-algèbre de type fini ($\S 1,$ no 2, cor. de la prop. 1) ; d'autre part $A_0$, qui est isomorphe à $A/m$, est un anneau noethérien.
+La condition est suffisante en vertu du cor. 3. Inversement, supposons A noethérien ; $m = \sum_{n \geq 1} A_n$, qui est un idéal de A, est donc de type fini ; par suite A est une $A_0$-algèbre de type fini ($§ 1,$ no 2, cor. de la prop. 1) ; d'autre part $A_0$, qui est isomorphe à $A/m$, est un anneau noethérien.
 
 #### Corollaire 5 {#ac-iii-s2-thm-2-cor-5 .statement}
 

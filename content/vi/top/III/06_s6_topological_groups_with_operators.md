@@ -44,9 +44,9 @@ subsections:
       pdf_page: 288
 statements: 23
 exercises: 26
-content_sha256: c9aee2aaf942e05705c2f665e698148f1f033de6337220bfce3c13136a1f231a
+content_sha256: b1dc208f365c996505dbf25cfde6d46404948612b46504f7e947ddab6265cfd1
 translated_from: content/en/top/III/06_s6_topological_groups_with_operators.md
-source_content_sha256: af700ea75f1b1fcb3ce8c14c7ff443d7d8f2ec3968b54769d7e02a7e73e6a20a
+source_content_sha256: dcb0cb1caa65d1aeec0e6b82e7da15c59c5cd47bbe0e662c7ae93d14fa42ae2e
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-c62d55af
 glossary_version: 34
@@ -58,7 +58,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. NHÓM TÔPÔ VỚI TOÁN TỬ
 
-Trên một tập $G$, một cấu trúc nhóm với toán tử và một tôpô được gọi là tương thích nếu tôpô và cấu trúc nhóm của $G$ là tương thích (\$ 1, no. 1) và nếu thêm vào đó các tự đồng cấu của $G$ sinh bởi các toán tử là liên tục. Khi đó tập $G$, cùng với tôpô đã cho và cấu trúc nhóm với toán tử, được gọi là một nhóm tôpô với toán tử.
+Trên một tập $G$, một cấu trúc nhóm với toán tử và một tôpô được gọi là tương thích nếu tôpô và cấu trúc nhóm của $G$ là tương thích (§ 1, no. 1) và nếu thêm vào đó các tự đồng cấu của $G$ sinh bởi các toán tử là liên tục. Khi đó tập $G$, cùng với tôpô đã cho và cấu trúc nhóm với toán tử, được gọi là một nhóm tôpô với toán tử.
 
 Nếu $H$ là một nhóm con ổn định của một nhóm tôpô $G$ với toán tử, thì tôpô cảm sinh trên $H$ bởi tôpô của $G$ là tương thích với cấu trúc nhóm với toán tử trên $H$. Hơn nữa:
 
@@ -66,13 +66,13 @@ Nếu $H$ là một nhóm con ổn định của một nhóm tôpô $G$ với to
 
 *Nếu $H$ là một nhóm con ổn định của một nhóm tôpô $G$ với toán tử, thì bao đóng $\overline{H}$ của $H$ trong $G$ là một nhóm con ổn định của $G$.*
 
-Ta đã biết (\$ 2, no. 1, Mệnh đề 1) rằng $\overline{H}$ là một nhóm con của $G$. Ngoài ra, nếu $\alpha$ là một toán tử tùy ý trên $G$, thì ảnh của $H$ qua ánh xạ liên tục $x \to x^\alpha$ được chứa trong $H$, và do đó ảnh của $\overline{H}$ được chứa trong $\overline{H}$ (Chương I, \$ 2, no. 1, Định lý 1).
+Ta đã biết (§ 2, no. 1, Mệnh đề 1) rằng $\overline{H}$ là một nhóm con của $G$. Ngoài ra, nếu $\alpha$ là một toán tử tùy ý trên $G$, thì ảnh của $H$ qua ánh xạ liên tục $x \to x^\alpha$ được chứa trong $H$, và do đó ảnh của $\overline{H}$ được chứa trong $\overline{H}$ (Chương I, § 2, no. 1, Định lý 1).
 
-Cho $H$ là một nhóm con chuẩn ổn định của một nhóm tôpô $G$ với toán tử. Khi đó, với mỗi toán tử $\alpha$ trên $G$, ánh xạ của $G/H$ vào chính nó cảm sinh bởi $x \to x^\alpha$ là liên tục (\$ 2, no. 8, Nhận xét 3), và do đó cấu trúc nhóm với toán tử trên $G/H$ là tương thích với tôpô thương trên $G/H$.
+Cho $H$ là một nhóm con chuẩn ổn định của một nhóm tôpô $G$ với toán tử. Khi đó, với mỗi toán tử $\alpha$ trên $G$, ánh xạ của $G/H$ vào chính nó cảm sinh bởi $x \to x^\alpha$ là liên tục (§ 2, no. 8, Nhận xét 3), và do đó cấu trúc nhóm với toán tử trên $G/H$ là tương thích với tôpô thương trên $G/H$.
 
-Cho $(G_i)_{i \in I}$ là một họ các nhóm tôpô với toán tử, trong đó mỗi $G_i$ được giả sử có cùng tập toán tử $\Omega$. Với mỗi $\alpha \in \Omega$, ánh xạ $x \to ((\mathrm{pr}_i x)^\alpha)$ của $G = \prod_{i \in I} G_i$ vào chính nó là liên tục (Chương I, \$ 4, no. 1, Mệnh đề 1), và do đó cấu trúc các nhóm với toán tử trên $G$ là tương thích với tôpô tích trên $G$.
+Cho $(G_i)_{i \in I}$ là một họ các nhóm tôpô với toán tử, trong đó mỗi $G_i$ được giả sử có cùng tập toán tử $\Omega$. Với mỗi $\alpha \in \Omega$, ánh xạ $x \to ((\mathrm{pr}_i x)^\alpha)$ của $G = \prod_{i \in I} G_i$ vào chính nó là liên tục (Chương I, § 4, no. 1, Mệnh đề 1), và do đó cấu trúc các nhóm với toán tử trên $G$ là tương thích với tôpô tích trên $G$.
 
-Nếu $G$ là một nhóm tôpô Hausdorff với toán tử và nếu $G$ có một phép hoàn thiện $\hat{G}$ (\$ 3, no. 4), thì mọi tự đồng cấu $x \to x^\alpha$ của $G$ được xác định bởi một toán tử trên $G$ có thể được mở rộng bởi tính liên tục thành một tự đồng cấu của $\hat{G}$ (\S 3, no. 3, Mệnh đề 5). Do đó $\hat{G}$ có cấu trúc của một nhóm tôpô với toán tử, và tập toán tử là giống nhau đối với $\hat{G}$ và $G$.
+Nếu $G$ là một nhóm tôpô Hausdorff với toán tử và nếu $G$ có một phép hoàn thiện $\hat{G}$ (§ 3, no. 4), thì mọi tự đồng cấu $x \to x^\alpha$ của $G$ được xác định bởi một toán tử trên $G$ có thể được mở rộng bởi tính liên tục thành một tự đồng cấu của $\hat{G}$ (§ 3, no. 3, Mệnh đề 5). Do đó $\hat{G}$ có cấu trúc của một nhóm tôpô với toán tử, và tập toán tử là giống nhau đối với $\hat{G}$ và $G$.
 
 ### 2. TỔNG TRỰC TIẾP TÔPÔ CỦA CÁC NHÓM CON ỔN ĐỊNH
 
@@ -116,7 +116,7 @@ Nếu một nhóm tôpô giao hoán *Hausdorff* có toán tử là tổng trực
 
 #### Mệnh đề 3 {#top-iii-s6-prop-3 .statement}
 
-*Cho $E, F$ là hai nhóm tôpô giao hoán có toán tử, và cho $u$ là một ánh xạ tuyến tính liên tục từ $E$ vào $F$. Để tồn tại một ánh xạ tuyến tính liên tục $v$ từ $F$ vào $E$ sao cho $u \circ v$ là ánh xạ đồng nhất của $F$ (trong trường hợp đó $u$ được gọi là khả nghịch phải và $v$ được gọi là một *nghịch đảo phải* của $u$), điều kiện cần và đủ là $u$ là một cấu xạ ngặt (\S 2, no. 8) từ $E$ lên $F$ và $\overline{u}(0)$ có một phần bù tôpô trong $E$.*
+*Cho $E, F$ là hai nhóm tôpô giao hoán có toán tử, và cho $u$ là một ánh xạ tuyến tính liên tục từ $E$ vào $F$. Để tồn tại một ánh xạ tuyến tính liên tục $v$ từ $F$ vào $E$ sao cho $u \circ v$ là ánh xạ đồng nhất của $F$ (trong trường hợp đó $u$ được gọi là khả nghịch phải và $v$ được gọi là một *nghịch đảo phải* của $u$), điều kiện cần và đủ là $u$ là một cấu xạ ngặt (§ 2, no. 8) từ $E$ lên $F$ và $\overline{u}(0)$ có một phần bù tôpô trong $E$.*
 
 Các điều kiện là *cần thiết*. Thật vậy, khi đó ta có $u(v(F)) = F$ và *a fortiori* $u(E) = F$; hơn nữa, nếu $p = v \circ u$, thì $p$ là một ánh xạ tuyến tính liên tục từ $E$ vào chính nó sao cho $p^2 = p$; do đó (Hệ quả của Mệnh đề 2) $p(E) = v(u(E)) = v(F)$ có một phần bù tôpô $\overline{p}(0)$ trong $E$; nhưng vì $u(p(x))) = u(x)$ theo giả thiết, ta có $\overline{u}(0) = \overline{p}(0)$. Cuối cùng, ánh xạ song ánh từ $E/\overline{u}(0)$ lên $F$, liên kết với $u$, là hợp thành của ánh xạ song ánh từ $E/\overline{u}(0)$ lên $v(F)$, liên kết với $p$, và hạn chế của $u$ trên $v(F)$; vì $v$ liên tục, cả hai ánh xạ này đều là các đẳng cấu, và do đó $u$ là một cấu xạ ngặt từ $E$ lên $F$.
 
@@ -140,7 +140,7 @@ Các điều kiện là *cần thiết*. Thật vậy, quan hệ $v(u(x)) = x$ c
 *(AT$_\mathrm{II}$)*. *Ánh xạ* $x \to -x$ *của* A *vào* A *là liên tục.*
 *(AT$_\mathrm{III}$)*. *Ánh xạ* $(x, y) \to xy$ *của* $A \times A$ *vào* A *là liên tục.*
 
-Hai tiên đề đầu biểu thị rằng tôpô của A tương thích với cấu trúc *nhóm cộng* của nó (\S 1, no. 1).
+Hai tiên đề đầu biểu thị rằng tôpô của A tương thích với cấu trúc *nhóm cộng* của nó (§ 1, no. 1).
 
 Nếu một cấu trúc vành và một tôpô được cho trên một tập hợp A, chúng được gọi là *tương thích* nếu chúng thỏa mãn các tiên đề (AT$_\mathrm{I}$), (AT$_\mathrm{II}$) và (AT$_\mathrm{III}$).
 
@@ -274,7 +274,7 @@ Một không gian vectơ tôpô trên $\mathbf{R}$ (tương ứng $\mathbf{C}$) 
 
 #### Ví dụ 2 {#top-iii-s6-n6-exa-2 .statement}
 
-Cho $A$ là một vành và cho $\mathcal{B}$ là một cơ sở lọc trên $A$ gồm các iđêan hai phía của $A$; cho $E$ là một $A$-môđun trái. Nếu ta trang bị cho $A$ tôpô (tương thích với cấu trúc vành của nó) mà $\mathcal{B}$ là một hệ cơ bản các lân cận của $0$ (no. 3, Ví dụ 3), và cho $E$ tôpô (tương thích với cấu trúc nhóm cộng của nó) trong đó các tập hợp $aE$, khi $a$ chạy qua $\mathcal{B}$, tạo thành một hệ cơ bản các lân cận của $0$ ($\S 1$, no. 2, Ví dụ), thì kiểm tra ngay lập tức được rằng $E$ là một $A$-môđun tôpô.
+Cho $A$ là một vành và cho $\mathcal{B}$ là một cơ sở lọc trên $A$ gồm các iđêan hai phía của $A$; cho $E$ là một $A$-môđun trái. Nếu ta trang bị cho $A$ tôpô (tương thích với cấu trúc vành của nó) mà $\mathcal{B}$ là một hệ cơ bản các lân cận của $0$ (no. 3, Ví dụ 3), và cho $E$ tôpô (tương thích với cấu trúc nhóm cộng của nó) trong đó các tập hợp $aE$, khi $a$ chạy qua $\mathcal{B}$, tạo thành một hệ cơ bản các lân cận của $0$ ($§ 1$, no. 2, Ví dụ), thì kiểm tra ngay lập tức được rằng $E$ là một $A$-môđun tôpô.
 
 #### Nhận xét {#top-iii-s6-n6-rem-1 .statement}
 
@@ -287,20 +287,20 @@ tiên đề (MT) tương đương với phép hội của ba tiên đề sau:
 (MT$_{II}'$). *Với mỗi* $\lambda_0 \in A$, *ánh xạ* $x \to \lambda_0 x$ *liên tục tại điểm* $x = 0$.
 (MT$_{III}'$). *Ánh xạ* $(\lambda, x) \to \lambda x$ *liên tục tại điểm* $(0, 0)$.
 
-Ta suy ra từ điều này một tập điều kiện cần và đủ mà *bộ lọc* $\mathcal{B}$ *của các lân cận của* $0$ *trong một* $A$*-môđun* $E$ *phải thỏa mãn để định nghĩa một tôpô trên* $E$ *tương thích với cấu trúc môđun của nó;* $\mathcal{B}$ *phải thỏa mãn các tiên đề* (GA$_I$) *và* (GA$_{II}$) *của* $\S 1$, *no. 2*, *và ngoài ra phải thỏa mãn ba tiên đề sau:*
+Ta suy ra từ điều này một tập điều kiện cần và đủ mà *bộ lọc* $\mathcal{B}$ *của các lân cận của* $0$ *trong một* $A$*-môđun* $E$ *phải thỏa mãn để định nghĩa một tôpô trên* $E$ *tương thích với cấu trúc môđun của nó;* $\mathcal{B}$ *phải thỏa mãn các tiên đề* (GA$_I$) *và* (GA$_{II}$) *của* $§ 1$, *no. 2*, *và ngoài ra phải thỏa mãn ba tiên đề sau:*
 (MV$_I$). *Với mỗi* $x_0 \in E$ *và* $V \in \mathcal{B}$, *có một lân cận* $S$ *của* $0$ *trong* $A$ *sao cho* $S.x_0 \subset V$.
 (MV$_{II}$). *Với mỗi* $\lambda_0 \in A$ *và* $V \in \mathcal{B}$, *tồn tại* $W \in \mathcal{B}$ *sao cho* $\lambda_0 W \subset V$.
 (MV$_{III}$). *Với mỗi* $V \in \mathcal{B}$ *tồn tại* $U \in \mathcal{B}$ *và một lân cận* $T$ *của* $0$ *trong* $A$ *sao cho* $T.U \subset V$.
 
 Mọi nhóm tôpô giao hoán đều là một $\mathbf{Z}$-môđun tôpô khi vành $\mathbf{Z}$ được cho tôpô rời rạc.
 
-Nếu $M$ là một môđun con của một $A$-môđun tôpô $E$, rõ ràng rằng tôpô cảm sinh trên $M$ bởi tôpô của $E$ là tương thích với cấu trúc môđun của $M$. Hơn nữa, trên $A$-môđun thương $E/M$, tôpô là thương bởi $M$ của tôpô của $E$ là tương thích với cấu trúc $A$-môđun. Để thấy điều này, chỉ cần chỉ ra rằng ánh xạ $(\lambda, x) \to \lambda x$ của $A \times (E/M)$ lên $E/M$ là liên tục (trong đó $x \to x'$ ký hiệu ánh xạ chính tắc của $E$ lên $E/M$). Bây giờ, vì ta có thể đồng nhất các nhóm tôpô cộng tính $A \times (E/M)$ và $(A \times E)/(\{0\} \times M)$ (\S 2, no. 9, Hệ quả của Mệnh đề 26), nên chỉ cần chỉ ra rằng ánh xạ $(\lambda, x) \to \lambda x'$ từ $A \times E$ vào $E/M$ là liên tục; và điều này là ngay lập tức, vì ánh xạ đang xét là hợp thành của $x \to x'$ và $(\lambda, x) \to \lambda x$.
+Nếu $M$ là một môđun con của một $A$-môđun tôpô $E$, rõ ràng rằng tôpô cảm sinh trên $M$ bởi tôpô của $E$ là tương thích với cấu trúc môđun của $M$. Hơn nữa, trên $A$-môđun thương $E/M$, tôpô là thương bởi $M$ của tôpô của $E$ là tương thích với cấu trúc $A$-môđun. Để thấy điều này, chỉ cần chỉ ra rằng ánh xạ $(\lambda, x) \to \lambda x$ của $A \times (E/M)$ lên $E/M$ là liên tục (trong đó $x \to x'$ ký hiệu ánh xạ chính tắc của $E$ lên $E/M$). Bây giờ, vì ta có thể đồng nhất các nhóm tôpô cộng tính $A \times (E/M)$ và $(A \times E)/(\{0\} \times M)$ (§ 2, no. 9, Hệ quả của Mệnh đề 26), nên chỉ cần chỉ ra rằng ánh xạ $(\lambda, x) \to \lambda x'$ từ $A \times E$ vào $E/M$ là liên tục; và điều này là ngay lập tức, vì ánh xạ đang xét là hợp thành của $x \to x'$ và $(\lambda, x) \to \lambda x$.
 
-Cho $(E_i)_{i \in I}$ là một họ tùy ý các $A$-môđun tôpô, và cho $E = \prod_{i \in I} E_i$ là $A$-môđun là tích của các $E_i$. Khi đó tôpô tích trên $E$ tương thích với cấu trúc $A$-môđun của $E$. Để chứng minh điều này, chỉ cần chỉ ra rằng ánh xạ $(\lambda, x) \to (\lambda \cdot \mathrm{pr}_i x)_{i \in I}$ từ $A \times E$ vào $E$ là liên tục, hoặc (theo Mệnh đề 1 của Chương I, \S 4, no. 1) rằng với mỗi chỉ số $x \in I$ ánh xạ $(\lambda, x) \to \lambda \cdot \mathrm{pr}_x x$ là một ánh xạ liên tục từ $A \times E$ vào $E_x$; nhưng ánh xạ này là hợp thành của $(\lambda, x_x) \to \lambda x_x$ và $(\lambda, x) \to (\lambda, \mathrm{pr}_x x)$, cả hai đều liên tục.
+Cho $(E_i)_{i \in I}$ là một họ tùy ý các $A$-môđun tôpô, và cho $E = \prod_{i \in I} E_i$ là $A$-môđun là tích của các $E_i$. Khi đó tôpô tích trên $E$ tương thích với cấu trúc $A$-môđun của $E$. Để chứng minh điều này, chỉ cần chỉ ra rằng ánh xạ $(\lambda, x) \to (\lambda \cdot \mathrm{pr}_i x)_{i \in I}$ từ $A \times E$ vào $E$ là liên tục, hoặc (theo Mệnh đề 1 của Chương I, § 4, no. 1) rằng với mỗi chỉ số $x \in I$ ánh xạ $(\lambda, x) \to \lambda \cdot \mathrm{pr}_x x$ là một ánh xạ liên tục từ $A \times E$ vào $E_x$; nhưng ánh xạ này là hợp thành của $(\lambda, x_x) \to \lambda x_x$ và $(\lambda, x) \to (\lambda, \mathrm{pr}_x x)$, cả hai đều liên tục.
 
-Cho $A$ là một vành tôpô Hausdorff và $E$ là một $A$-môđun tôpô Hausdorff. Cho $\hat{E}$ là nhóm cộng là phần hoàn thiện của nhóm tôpô giao hoán $E$ (\S 3, no. 5, Định lý 2). Ánh xạ $\mathbf{Z}$-song tuyến tính $(\lambda, x) \to \lambda x$ của tích $A \times E$ của các nhóm cộng $A, E$ vào nhóm cộng $E$ có thể được mở rộng bởi tính liên tục thành một ánh xạ $\mathbf{Z}$-song tuyến tính của $\hat{A} \times \hat{E}$ vào $\hat{E}$ (no. 5, Định lý 1), và ta tiếp tục ký hiệu ánh xạ này bởi $(\lambda, x) \to \lambda x$. Theo nguyên lý mở rộng các đẳng thức, ta có $\lambda (\mu x) = (\lambda \mu) x$ với $\lambda \in \hat{A}, \mu \in \hat{A}$ và $x \in \hat{E}$, và $1 \cdot x = x$ với mọi $x \in \hat{E}$; phép toán ngoài $(\lambda, x) \to \lambda x$ do đó xác định một cấu trúc $\hat{A}$-môđun trên $\hat{E}$ tương thích với tôpô của nó. $A$-môđun tôpô $\hat{E}$ được xác định như vậy được gọi là *phần hoàn thiện* của $A$-môđun tôpô $E$.
+Cho $A$ là một vành tôpô Hausdorff và $E$ là một $A$-môđun tôpô Hausdorff. Cho $\hat{E}$ là nhóm cộng là phần hoàn thiện của nhóm tôpô giao hoán $E$ (§ 3, no. 5, Định lý 2). Ánh xạ $\mathbf{Z}$-song tuyến tính $(\lambda, x) \to \lambda x$ của tích $A \times E$ của các nhóm cộng $A, E$ vào nhóm cộng $E$ có thể được mở rộng bởi tính liên tục thành một ánh xạ $\mathbf{Z}$-song tuyến tính của $\hat{A} \times \hat{E}$ vào $\hat{E}$ (no. 5, Định lý 1), và ta tiếp tục ký hiệu ánh xạ này bởi $(\lambda, x) \to \lambda x$. Theo nguyên lý mở rộng các đẳng thức, ta có $\lambda (\mu x) = (\lambda \mu) x$ với $\lambda \in \hat{A}, \mu \in \hat{A}$ và $x \in \hat{E}$, và $1 \cdot x = x$ với mọi $x \in \hat{E}$; phép toán ngoài $(\lambda, x) \to \lambda x$ do đó xác định một cấu trúc $\hat{A}$-môđun trên $\hat{E}$ tương thích với tôpô của nó. $A$-môđun tôpô $\hat{E}$ được xác định như vậy được gọi là *phần hoàn thiện* của $A$-môđun tôpô $E$.
 
-Cho $E$ là một môđun tôpô trên một vành tôpô $A$, trong đó $A$ cũng như $E$ không nhất thiết là Hausdorff. Gọi $N$ (tương ứng $F$) là bao đóng của $\{0\}$ trong $A$ (tương ứng $E$). $N$ là một iđêan hai phía của $A$ (no. 4, Mệnh đề 5) và $F$ là một môđun con-$A$ của $E$ (no. 1, Mệnh đề 1); hơn nữa, do tính liên tục ta có $\lambda x \in F$ bất cứ khi nào $\lambda \in N$ hoặc $x \in F$. Do đó ta có thể định nghĩa, bằng cách chuyển qua các thương, một ánh xạ $(\dot{\lambda}, \dot{x}) \to \dot{\lambda} \dot{x}$ từ $(A/N) \times (E/F)$ vào $E/F$; dễ dàng kiểm tra được (bằng cách sử dụng Hệ quả của Mệnh đề 26 của \S 2, no. 9) rằng ánh xạ này liên tục, và do đó định nghĩa một cấu trúc của một $(A/N)$-môđun tôpô trên $E/F$. Nếu đặt $B = A/N$ và $L = E/F$, thì môđun-$B$ $L$ được gọi là môđun Hausdorff *liên kết* với $E$; hoàn thành của nó $\hat{L}$ là một môđun tôpô trên hoàn thành Hausdorff $\hat{A}$ (bằng định nghĩa là $\hat{B}$) của $A$ (no. 5), và môđun $\hat{L}$ này được gọi là *hoàn thành Hausdorff* của $E$ và được ký hiệu
+Cho $E$ là một môđun tôpô trên một vành tôpô $A$, trong đó $A$ cũng như $E$ không nhất thiết là Hausdorff. Gọi $N$ (tương ứng $F$) là bao đóng của $\{0\}$ trong $A$ (tương ứng $E$). $N$ là một iđêan hai phía của $A$ (no. 4, Mệnh đề 5) và $F$ là một môđun con-$A$ của $E$ (no. 1, Mệnh đề 1); hơn nữa, do tính liên tục ta có $\lambda x \in F$ bất cứ khi nào $\lambda \in N$ hoặc $x \in F$. Do đó ta có thể định nghĩa, bằng cách chuyển qua các thương, một ánh xạ $(\dot{\lambda}, \dot{x}) \to \dot{\lambda} \dot{x}$ từ $(A/N) \times (E/F)$ vào $E/F$; dễ dàng kiểm tra được (bằng cách sử dụng Hệ quả của Mệnh đề 26 của § 2, no. 9) rằng ánh xạ này liên tục, và do đó định nghĩa một cấu trúc của một $(A/N)$-môđun tôpô trên $E/F$. Nếu đặt $B = A/N$ và $L = E/F$, thì môđun-$B$ $L$ được gọi là môđun Hausdorff *liên kết* với $E$; hoàn thành của nó $\hat{L}$ là một môđun tôpô trên hoàn thành Hausdorff $\hat{A}$ (bằng định nghĩa là $\hat{B}$) của $A$ (no. 5), và môđun $\hat{L}$ này được gọi là *hoàn thành Hausdorff* của $E$ và được ký hiệu
 
 $$
 \begin{array}{ccc}

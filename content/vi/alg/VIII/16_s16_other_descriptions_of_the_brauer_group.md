@@ -58,7 +58,7 @@ subsections:
       pdf_page: 339
 statements: 63
 exercises: 17
-content_sha256: 1c571fc5f039a2eed7e3a4434bb20b528165f42ae89b83e928bee7276ec810c3
+content_sha256: c70a26ceb1abd13f3c068f8f76029b9f8b736074fd0ffafc0411bdad67406d91
 translated_from: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md
 source_content_sha256: 6c35cd6354d0f0bf0ee5aba1c12fa4ef850055db3db4c07151700df3ae0b526b
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
@@ -204,7 +204,7 @@ Do đó lớp của mở rộng $\tau '$ $u^*(\mathscr{E})$ chỉ phụ thuộc 
 
 #### Hệ quả 2 {#alg-viii-s16-lem-2-cor-2 .statement tag=00IF}
 
-Cho $u': G''\rightarrow G'$ là một đồng cấu nhóm, và cho $\mathscr{E}$ là một mở rộng $\tau$ của G bởi F. Đặt $\tau ''=\tau '\circ u'$, và ký hiệu $\varphi ($resp. $\varphi ',\varphi '')$ là đồng cấu chính tắc liên kết với mở rộng $\tau '$ $u^*(\mathscr{E})$ (resp. mở rộng $\tau ''$ $u^{'*}(u^*(\mathscr{E}))$, mở rộng $\tau ''$ $(u\circ u')^*(\mathscr{E}))$. Khi đó tồn tại một cấu xạ duy nhất $\psi$ từ mở rộng $\tau ''$ $u^{'*}(u^*(\mathscr{E}))$ đến mở rộng $\tau ''$ $(u\circ u')^*(\mathscr{E})$ sao cho $\varphi ''\circ \psi =\varphi \circ \varphi '$.
+Cho $u': G''\rightarrow G'$ là một đồng cấu nhóm, và cho $\mathscr{E}$ là một mở rộng $\tau$ của G bởi F. Đặt $\tau ''=\tau '\circ u'$, và ký hiệu $\varphi ($resp. $\varphi ',\varphi '')$ là đồng cấu chính tắc liên kết với mở rộng $\tau '$ $u^*(\mathscr{E})$ (resp. mở rộng $\tau ''$ $u^{'*}(u^*(\mathscr{E}))$, mở rộng $\tau ''$ $(u\circ u')^*(\mathscr{E})$). Khi đó tồn tại một cấu xạ duy nhất $\psi$ từ mở rộng $\tau ''$ $u^{'*}(u^*(\mathscr{E}))$ đến mở rộng $\tau ''$ $(u\circ u')^*(\mathscr{E})$ sao cho $\varphi ''\circ \psi =\varphi \circ \varphi '$.
 
 #### Ví dụ {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 

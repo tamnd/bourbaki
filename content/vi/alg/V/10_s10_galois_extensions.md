@@ -58,9 +58,9 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: fab6f45edba9c959fe31b1c305959ca3e903a5ab810ba8cad98c57f3d90d2862
+content_sha256: d0c4fe0c62204dc7c4fe1aa11ef226cb4e3f09fb5060e8c84509337da5e516a2
 translated_from: content/en/alg/V/10_s10_galois_extensions.md
-source_content_sha256: 04a0e3e1b69842c09f7f728c2902f6049fba186df55774b462f62edfb7d791a9
+source_content_sha256: 4d2ea6b2e3fe8136b4cbf004a6c050629d9e8414a0cc6650ceb165d4728343b0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-19dbb229
 glossary_version: 34
@@ -568,7 +568,7 @@ Từ nay, hãy giả sử rằng $N$ có bậc hữu hạn trên $K$. Cho $x \in
 
 *Cho $N$ là một mở rộng Galois có bậc hữu hạn trên $K$ và cho $\Gamma$ là nhóm Galois của $N$ trên $K$. Khi đó tồn tại một cơ sở chuẩn của $N$ trên $K$; nói cách khác, môđun $\mathbf{K}^{(\Gamma)}$ của $N$ là tự do hạng 1.*
 
-Ta sẽ đưa ra hai chứng minh cho mệnh đề này. Chứng minh thứ nhất dùng bổ đề sau đây, bổ đề này sẽ được chứng minh ở Chương VIII (\$2, No. 5).
+Ta sẽ đưa ra hai chứng minh cho mệnh đề này. Chứng minh thứ nhất dùng bổ đề sau đây, bổ đề này sẽ được chứng minh ở Chương VIII (§ 2, No. 5).
 
 \* Bổ đề 3. — Cho $A$ là một K-đại số, $M_1$ và $M_2$ là hai A-môđun có hạng hữu hạn trên $K$ và giả sử rằng tồn tại một mở rộng $L$ của $K$ sao cho các môđun $L \otimes_K M_1$ và $L \otimes_K M_2$ trên vành $L \otimes_K A$ là đẳng cấu. Khi đó các A-môđun $M_1$ và $M_2$ đẳng cấu.
 

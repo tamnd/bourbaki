@@ -28,7 +28,7 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: 1a13adb7bc7e4153dcc789210ec0e3032ec6e298f64eb440003ae30e35867a10
+content_sha256: 2382a23355a4b83b1e4ed36ef3546b83a36f553cf1d80a81cef3440a91efdaa1
 ---
 
 ## 4. PRODUCT OF TOPOLOGICAL SPACES
@@ -37,11 +37,11 @@ content_sha256: 1a13adb7bc7e4153dcc789210ec0e3032ec6e298f64eb440003ae30e35867a10
 
 #### Definition 1 {#top-i-s4-def-1 .statement}
 
-*Given a family $(X_i)_{i \in I}$ of topological spaces, the product space of this family is the product set $X = \prod_{i \in I} X_i$ with the topology which is the product of the topologies of the $X_i$ (\S 2, no. 3, Example 3). The spaces $X_i (i \in I)$ are called the factors of X.*
+*Given a family $(X_i)_{i \in I}$ of topological spaces, the product space of this family is the product set $X = \prod_{i \in I} X_i$ with the topology which is the product of the topologies of the $X_i$ (§ 2, no. 3, Example 3). The spaces $X_i (i \in I)$ are called the factors of X.*
 
 By virtue of § 2, no. 3, Proposition 4, the product topology on $X$ has as a base the set $\mathcal{B}$ of finite intersections of sets of the form $\overline{\mathrm{pr}}_i^{-1}(U_i)$, where $U_i$ is open in $X_i$; these sets are products $\prod_{i \in I} A_i$, where $A_i$ is open in $X_i$ for each $i \in I$ and $A_i = X_i$ for all but a finite number of indices. These sets will be called elementary sets.
 
-If $\mathcal{B}_i$ is a base of the topology of $X_i$ (for each $i \in I$), it is clear that the elementary sets $\prod_{i \in I} A_i$ such that $A_i \in \mathcal{B}_i$ for each index $i$ such that $A_i \neq X_i$ form another base of the product topology. The elementary sets of this type which contain a given point $x \in X$ thus form a fundamental system of neighbourhoods of $x$ ($\S 1$, no. 3, Proposition 3).
+If $\mathcal{B}_i$ is a base of the topology of $X_i$ (for each $i \in I$), it is clear that the elementary sets $\prod_{i \in I} A_i$ such that $A_i \in \mathcal{B}_i$ for each index $i$ such that $A_i \neq X_i$ form another base of the product topology. The elementary sets of this type which contain a given point $x \in X$ thus form a fundamental system of neighbourhoods of $x$ ($§ 1$, no. 3, Proposition 3).
 
 If $I$ is a finite set, the construction of the product topology from the topologies of the factors $X_i$ is simpler: the elementary sets are just products $\prod_{i \in I} A_i$, where $A_i$ is any open subset of $X_i$, for each $i \in I$ (cf. Exercise 9).
 
@@ -158,7 +158,7 @@ The results of this subsection are easily extended to an arbitrary product $\pro
 
 In a product space $\prod_{i \in I} X_i$, the closure of a product of sets $\prod_{i \in I} A_i$ is the same as the product $\prod_{i \in I} \overline{A}_i$ of their closures.
 
-Suppose that $a = (a_i)$ lies in the closure of $\prod_{i \in I} A_i$; then for each $x \in I$, $a_x = \operatorname{pr}_x a$ is in the closure of $A_x$ because of the continuity of $\operatorname{pr}_x$ (\S 2, no. 1, Theorem 1) and therefore $a \in \prod_{i \in I} \overline{A}_i$. Conversely, let $b = (b_i) \in \prod_{i \in I} \overline{A}_i$, and let $\prod_{i \in I} V_i$ be any elementary set containing $b$; for each $i \in I$, $V_i$ contains a point $x_i \in A_i$; hence $\prod_{i \in I} V_i$ contains the point $(x_i) \in \prod_{i \in I} A_i$ and therefore $b$ lies in the closure of $\prod_{i \in I} A_i$.
+Suppose that $a = (a_i)$ lies in the closure of $\prod_{i \in I} A_i$; then for each $x \in I$, $a_x = \operatorname{pr}_x a$ is in the closure of $A_x$ because of the continuity of $\operatorname{pr}_x$ (§ 2, no. 1, Theorem 1) and therefore $a \in \prod_{i \in I} \overline{A}_i$. Conversely, let $b = (b_i) \in \prod_{i \in I} \overline{A}_i$, and let $\prod_{i \in I} V_i$ be any elementary set containing $b$; for each $i \in I$, $V_i$ contains a point $x_i \in A_i$; hence $\prod_{i \in I} V_i$ contains the point $(x_i) \in \prod_{i \in I} A_i$ and therefore $b$ lies in the closure of $\prod_{i \in I} A_i$.
 
 #### Corollary {#top-i-s4-n3-cor-1 .statement}
 
@@ -223,7 +223,7 @@ $$
 
 (ii) *If $A$ is closed in $X$, $A = \varprojlim A_\alpha = \varprojlim \overline{A}_\alpha$.*
 
-The first assertion of (i) follows from the relations $f_\alpha = f_{\alpha\beta} \circ f_\beta$ for $\alpha \leq \beta$ and from the continuity of the $f_{\alpha\beta}$ (\S 2, no. 1, Theorem 1). Let $A'$ denote
+The first assertion of (i) follows from the relations $f_\alpha = f_{\alpha\beta} \circ f_\beta$ for $\alpha \leq \beta$ and from the continuity of the $f_{\alpha\beta}$ (§ 2, no. 1, Theorem 1). Let $A'$ denote
 $$
 \bigcap_\alpha \overline{f}_\alpha(\overline{A}_\alpha);
 $$
@@ -237,7 +237,7 @@ and (ii) follows.
 
 #### Example {#top-i-s4-n4-exa-1 .statement}
 
-Let $I$ be a directed set and $(X_\alpha)_{\alpha \in I}$ a family of subsets of a set $Y$, such that $X_\alpha \supset X_\beta$ whenever $\alpha \leq \beta$. For each $\alpha \in I$ let $\mathcal{T}_\alpha$ be a topology on $X_\alpha$ such that $\mathcal{T}_\beta$ is finer than the topology induced on $X_\beta$ by $\mathcal{T}_\alpha$ whenever $\alpha \leq \beta$. If we take $f_{\alpha\beta}$ to be the canonical injection $X_\beta \to X_\alpha$ for $\alpha \leq \beta$, then $\lim X_\alpha$ may be identified canonically with the *intersection* $X$ of the $X_\alpha$, with the topology which is the *least upper bound* (\S 2, no. 3, Example 2) of the topologies induced on $X$ by the $\mathcal{T}_\alpha$.
+Let $I$ be a directed set and $(X_\alpha)_{\alpha \in I}$ a family of subsets of a set $Y$, such that $X_\alpha \supset X_\beta$ whenever $\alpha \leq \beta$. For each $\alpha \in I$ let $\mathcal{T}_\alpha$ be a topology on $X_\alpha$ such that $\mathcal{T}_\beta$ is finer than the topology induced on $X_\beta$ by $\mathcal{T}_\alpha$ whenever $\alpha \leq \beta$. If we take $f_{\alpha\beta}$ to be the canonical injection $X_\beta \to X_\alpha$ for $\alpha \leq \beta$, then $\lim X_\alpha$ may be identified canonically with the *intersection* $X$ of the $X_\alpha$, with the topology which is the *least upper bound* (§ 2, no. 3, Example 2) of the topologies induced on $X$ by the $\mathcal{T}_\alpha$.
 
 ### Exercises {#top-i-s4-exercises}
 

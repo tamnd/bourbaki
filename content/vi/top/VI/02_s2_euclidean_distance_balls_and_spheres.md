@@ -28,9 +28,9 @@ subsections:
       pdf_page: 48
 statements: 12
 exercises: 13
-content_sha256: 10f77d4e16726e952997c7ef262b55b4492db6c0cee8b83dedc7e5cf87fa666c
+content_sha256: dae38c14b09571e970de11cd063d014dc8f69949f17bae779df16249e015d126
 translated_from: content/en/top/VI/02_s2_euclidean_distance_balls_and_spheres.md
-source_content_sha256: 53800ca4058547c35fef37e7f527ff82b2f4389303c83c04603fc0826bb3f6b6
+source_content_sha256: 3b83149e3e57fb51a7a0ee1c20b1a71de3ebc196deeb88d41acbfe2b056d2573
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-499bfda2
 glossary_version: 34
@@ -92,7 +92,7 @@ $$
 \sup_{1 \leq i \leq n} |x_i - y_i| \leq d(x, y) \leq \sqrt{n} \cdot \sup_{1 \leq i \leq n} |x_i - y_i|.
 $$
 
-Vì vậy, một tập con $A$ của $\mathbf{R}^n$ là *bị chặn* (\S 1, no. 1) khi và chỉ khi
+Vì vậy, một tập con $A$ của $\mathbf{R}^n$ là *bị chặn* (§ 1, no. 1) khi và chỉ khi
 
 $$
 \sup_{x \in A} \|x\| < +\infty.

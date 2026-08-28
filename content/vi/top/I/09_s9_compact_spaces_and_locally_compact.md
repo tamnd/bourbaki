@@ -52,9 +52,9 @@ subsections:
       pdf_page: 100
 statements: 50
 exercises: 4
-content_sha256: f07889b8907965e59c18324473a9c1e7def5c4df6bd73bb2506572cd8ac912fa
+content_sha256: d1c05e596f1ce00b0a577960def32a8cbd2b3f7dcd501fb59f72fbe2ba2e20c5
 translated_from: content/en/top/I/09_s9_compact_spaces_and_locally_compact.md
-source_content_sha256: b65d41a77c052d5753a2658e2818484b22b7778cc9306f9a3b3851cf55439a91
+source_content_sha256: 971ee7da2f11258dedc7ba38ab2213e2686bce320dbffdb28b60f17318a47dc8
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-96a7bc15
 glossary_version: 34
@@ -80,15 +80,15 @@ Ta nêu ba tiên đề, mỗi tiên đề đều *tương đương với tiên �
 
 (C') *Mọi siêu lọc trên* $X$ *đều hội tụ*.
 
-(C') $\Longrightarrow$ (C): Nếu $\mathfrak{F}$ là một lọc trên $X$ thì có một siêu lọc mịn hơn $\mathfrak{F}$ (\S 6, no. 4, Định lý 1). Vì siêu lọc này hội tụ đến một điểm $x$, nên $x$ là một điểm tụ của $\mathfrak{F}$.
+(C') $\Longrightarrow$ (C): Nếu $\mathfrak{F}$ là một lọc trên $X$ thì có một siêu lọc mịn hơn $\mathfrak{F}$ (§ 6, no. 4, Định lý 1). Vì siêu lọc này hội tụ đến một điểm $x$, nên $x$ là một điểm tụ của $\mathfrak{F}$.
 
-(C) $\Longrightarrow$ (C'): Vì nếu một siêu lọc có một điểm tụ thì nó hội tụ đến điểm này (\S 7, no. 2, Hệ quả của Mệnh đề 4).
+(C) $\Longrightarrow$ (C'): Vì nếu một siêu lọc có một điểm tụ thì nó hội tụ đến điểm này (§ 7, no. 2, Hệ quả của Mệnh đề 4).
 
-Nếu $f$ là một ánh xạ của một tập hợp $Z$ vào một không gian quasi-compact $X$, và $\mathfrak{U}$ là một siêu lọc trên $Z$, thì $f$ có ít nhất một điểm giới hạn đối với $\mathfrak{U}$ (\S 6, no. 6, Mệnh đề 10).
+Nếu $f$ là một ánh xạ của một tập hợp $Z$ vào một không gian quasi-compact $X$, và $\mathfrak{U}$ là một siêu lọc trên $Z$, thì $f$ có ít nhất một điểm giới hạn đối với $\mathfrak{U}$ (§ 6, no. 6, Mệnh đề 10).
 
 (C'') *Mọi họ các tập hợp con đóng của* $X$ *có giao rỗng đều chứa một họ con hữu hạn có giao rỗng*.
 
-(C) $\Longrightarrow$ (C''): Giả sử $\mathcal{G}$ là một họ các tập hợp con đóng của $X$ có giao rỗng. Nếu mọi họ con hữu hạn của $\mathcal{G}$ đều có giao khác rỗng, thì $\mathcal{G}$ sinh ra một lọc (\S 6, no. 2, Mệnh đề 1) và lọc này có một điểm tụ theo giả thiết. Điểm này thuộc mọi tập hợp của $\mathcal{G}$ (vì chúng đóng); do đó ta có một mâu thuẫn.
+(C) $\Longrightarrow$ (C''): Giả sử $\mathcal{G}$ là một họ các tập hợp con đóng của $X$ có giao rỗng. Nếu mọi họ con hữu hạn của $\mathcal{G}$ đều có giao khác rỗng, thì $\mathcal{G}$ sinh ra một lọc (§ 6, no. 2, Mệnh đề 1) và lọc này có một điểm tụ theo giả thiết. Điểm này thuộc mọi tập hợp của $\mathcal{G}$ (vì chúng đóng); do đó ta có một mâu thuẫn.
 
 $(C'') \implies (C)$: Vì nếu $(C)$ sai thì tồn tại một lọc $\mathfrak{F}$ trên $X$ không có điểm tụ; do đó các bao đóng của các tập hợp của $\mathfrak{F}$ tạo thành một họ các tập hợp con đóng của $X$ mâu thuẫn với tiên đề $(C'')$.
 
@@ -100,11 +100,11 @@ Nếu $X$ là quasi-compact, thì mọi *phủ hữu hạn địa phương* $\ma
 
 #### Ví dụ 1 {#top-i-s9-n1-exa-1 .statement}
 
-Mọi không gian *hữu hạn* đều *quasi-compact*, và nói chung mọi không gian chỉ có một số hữu hạn các tập hợp mở đều quasi-compact. Một không gian hữu hạn là compact khi và chỉ khi nó rời rạc, vì một không gian Hausdorff hữu hạn là rời rạc ($\S 8$, no. 1, Hệ quả của Mệnh đề 3). Ngược lại, *mọi không gian compact rời rạc đều hữu hạn*, vì trong một không gian như vậy các tập hợp gồm một điểm là mở; do đó không gian là hữu hạn bởi $(C''')$.
+Mọi không gian *hữu hạn* đều *quasi-compact*, và nói chung mọi không gian chỉ có một số hữu hạn các tập hợp mở đều quasi-compact. Một không gian hữu hạn là compact khi và chỉ khi nó rời rạc, vì một không gian Hausdorff hữu hạn là rời rạc ($§ 8$, no. 1, Hệ quả của Mệnh đề 3). Ngược lại, *mọi không gian compact rời rạc đều hữu hạn*, vì trong một không gian như vậy các tập hợp gồm một điểm là mở; do đó không gian là hữu hạn bởi $(C''')$.
 
 #### Ví dụ 2 {#top-i-s9-n1-exa-2 .statement}
 
-Cho $X$ là một tập hợp, và trang bị cho $X$ tôpô trong đó các tập đóng là $X$ và tất cả các tập con hữu hạn của $X$ [tập hợp các tập con này hiển nhiên thỏa mãn các tiên đề $(O'_1)$ và $(O'_{II})$ của $\S 1$, no. 4]. Không gian tôpô được định nghĩa như vậy là *quasi-compact*. Thật vậy, nếu $(F_i)_{i \in I}$ là một họ các tập con đóng của $X$ có giao rỗng, thì $F_\alpha$ là hữu hạn với một chỉ số $\alpha \in I$ nào đó. Cho $a_k$ ($1 \leq k \leq n$) là các phần tử của $F_\alpha$; khi đó theo giả thiết, với mỗi chỉ số $k$ có một chỉ số $i_k \in I$ sao cho $a_k \notin F_{i_k}$; do đó giao của các $F_{i_k}$ ($1 \leq k \leq n$) với $F_\alpha$ là rỗng, từ đó tiên đề $(C'')$ được thỏa mãn. Nếu $X$ là vô hạn thì nó không Hausdorff.
+Cho $X$ là một tập hợp, và trang bị cho $X$ tôpô trong đó các tập đóng là $X$ và tất cả các tập con hữu hạn của $X$ [tập hợp các tập con này hiển nhiên thỏa mãn các tiên đề $(O'_1)$ và $(O'_{II})$ của $§ 1$, no. 4]. Không gian tôpô được định nghĩa như vậy là *quasi-compact*. Thật vậy, nếu $(F_i)_{i \in I}$ là một họ các tập con đóng của $X$ có giao rỗng, thì $F_\alpha$ là hữu hạn với một chỉ số $\alpha \in I$ nào đó. Cho $a_k$ ($1 \leq k \leq n$) là các phần tử của $F_\alpha$; khi đó theo giả thiết, với mỗi chỉ số $k$ có một chỉ số $i_k \in I$ sao cho $a_k \notin F_{i_k}$; do đó giao của các $F_{i_k}$ ($1 \leq k \leq n$) với $F_\alpha$ là rỗng, từ đó tiên đề $(C'')$ được thỏa mãn. Nếu $X$ là vô hạn thì nó không Hausdorff.
 
 #### Nhận xét {#top-i-s9-n1-rem-1 .statement}
 
@@ -172,7 +172,7 @@ Trong một không gian tôpô $X$, mọi tập con hữu hạn đều quasi-com
 
 *Mọi tập con compact của một không gian Hausdorff đều đóng.*
 
-Cho $A$ là một tập con compact của một không gian Hausdorff $X$, và cho $x$ là một điểm bất kỳ của $\overline{A}$; ta phải chứng minh rằng $x \in A$. Theo giả thiết, mọi lân cận của $x$ đều gặp $A$, và do đó bộ lọc lân cận $\mathcal{B}$ của $x$ trong $X$ gây ra một bộ lọc $\mathcal{B}_A$ trên $A$; $A$ là compact do đó $\mathcal{B}_A$ có một điểm tụ $y \in A$. Vì bộ lọc $\mathcal{B}$ thô hơn bộ lọc trên $X$ sinh bởi $\mathcal{B}_A$ (coi như một cơ sở bộ lọc trên $X$), nên $y$ cũng là một điểm tụ của $\mathcal{B}$; do đó $y = x$, vì $\mathcal{B}$ hội tụ tới $x$ trong $X$ và $X$ là Hausdorff (\S 8, no. 1, Mệnh đề 1).
+Cho $A$ là một tập con compact của một không gian Hausdorff $X$, và cho $x$ là một điểm bất kỳ của $\overline{A}$; ta phải chứng minh rằng $x \in A$. Theo giả thiết, mọi lân cận của $x$ đều gặp $A$, và do đó bộ lọc lân cận $\mathcal{B}$ của $x$ trong $X$ gây ra một bộ lọc $\mathcal{B}_A$ trên $A$; $A$ là compact do đó $\mathcal{B}_A$ có một điểm tụ $y \in A$. Vì bộ lọc $\mathcal{B}$ thô hơn bộ lọc trên $X$ sinh bởi $\mathcal{B}_A$ (coi như một cơ sở bộ lọc trên $X$), nên $y$ cũng là một điểm tụ của $\mathcal{B}$; do đó $y = x$, vì $\mathcal{B}$ hội tụ tới $x$ trong $X$ và $X$ là Hausdorff (§ 8, no. 1, Mệnh đề 1).
 
 #### Hệ quả {#top-i-s9-n3-cor-1 .statement}
 
@@ -214,7 +214,7 @@ Trong một không gian không Hausdorff, một tập compact không nhất thi�
 
 *Nếu $f$ là một ánh xạ liên tục từ một không gian quasi-compact $X$ vào một không gian tôpô $X'$, thì tập $f(X)$ là quasi-compact.*
 
-Cho $\mathcal{R}$ là một phủ của $f(X)$ bởi các tập mở trong $X'$; khi đó $\overline{f}^{-1}(\mathcal{R})$ là một phủ mở của $X$ (\S 2, no. 1, Định lý 1); do đó tồn tại một tập con hữu hạn $\mathcal{S}$ của $\mathcal{R}$ sao cho $(\mathcal{S} \overline{f})$ là một phủ của $X$; nhưng khi đó $\mathcal{S}$ là một phủ của $f(X)$ và định lý được chứng minh.
+Cho $\mathcal{R}$ là một phủ của $f(X)$ bởi các tập mở trong $X'$; khi đó $\overline{f}^{-1}(\mathcal{R})$ là một phủ mở của $X$ (§ 2, no. 1, Định lý 1); do đó tồn tại một tập con hữu hạn $\mathcal{S}$ của $\mathcal{R}$ sao cho $(\mathcal{S} \overline{f})$ là một phủ của $X$; nhưng khi đó $\mathcal{S}$ là một phủ của $f(X)$ và định lý được chứng minh.
 
 #### Hệ quả 1 {#top-i-s9-thm-2-cor-1 .statement}
 
@@ -238,9 +238,9 @@ Cho $\mathcal{R}$ là một phủ của $f(X)$ bởi các tập mở trong $X'$;
 
 a) *Nếu có một tập gần compact $K$ trong $X$ mà giao với mọi lớp tương đương mod $R$, thì $X/R$ là compact và ánh xạ chính tắc của $K/R_K$ lên $X/R$ là một đồng phôi.*
 
-b) *Nếu $K$ cũng gặp mỗi lớp tương đương tại đúng một điểm, thì $K$ là một tiết diện liên tục của $X$ đối với quan hệ $R$* (\$ 3, no. 5).
+b) *Nếu $K$ cũng gặp mỗi lớp tương đương tại đúng một điểm, thì $K$ là một tiết diện liên tục của $X$ đối với quan hệ $R$* (§ 3, no. 5).
 
-Cho $f$ là hạn chế trên $K$ của ánh xạ chính tắc $X \to X/R$. Vì $X/R$ là Hausdorff nên suy ra từ Hệ quả 1 rằng $X/R$ là compact và từ Hệ quả 2 rằng $f$ là đóng; do đó song ánh $K/R_K \to X/R$ tương ứng với $f$ là một đồng phôi (\$ 5, no. 2, Mệnh đề 3). Điều này giải quyết a); b) suy ra ngay lập tức, vì lúc này ta có $K/R_K = K$.
+Cho $f$ là hạn chế trên $K$ của ánh xạ chính tắc $X \to X/R$. Vì $X/R$ là Hausdorff nên suy ra từ Hệ quả 1 rằng $X/R$ là compact và từ Hệ quả 2 rằng $f$ là đóng; do đó song ánh $K/R_K \to X/R$ tương ứng với $f$ là một đồng phôi (§ 5, no. 2, Mệnh đề 3). Điều này giải quyết a); b) suy ra ngay lập tức, vì lúc này ta có $K/R_K = K$.
 
 ### 5. TÍCH CỦA CÁC KHÔNG GIAN COMPACT
 
@@ -248,26 +248,26 @@ Cho $f$ là hạn chế trên $K$ của ánh xạ chính tắc $X \to X/R$. Vì 
 
 *Mọi tích của các không gian gần compact (tương ứng compact) đều là gần compact (tương ứng compact). Ngược lại, nếu một tích của các không gian không rỗng là gần compact (tương ứng compact) thì mỗi nhân tử đều là gần compact (tương ứng compact).*
 
-Xét theo đặc trưng hóa các không gian tích Hausdorff được cho trong \$ 8, no. 2, Mệnh đề 7, chỉ cần chứng minh các khẳng định đối với các không gian gần compact. Nếu $X = \prod_{i \in I} X_i$ là gần compact và không rỗng, thì $X_i = \operatorname{pr}_i(X)$ là gần compact do Định lý 2 của no. 4. Ngược lại, giả sử các $X_i$ đều gần compact và cho $\mathcal{U}$ là một siêu lọc trên $X$; khi đó với mỗi $i \in I$, $\operatorname{pr}_i(\mathcal{U})$ là một cơ sở siêu lọc trên $X_i$ (\$ 6, no. 6, Mệnh đề 10) nên do tiên đề (C') nó hội tụ; vì vậy $\mathcal{U}$ hội tụ (\$ 7, no. 6, Hệ quả 1 của Mệnh đề 10) và do đó $X$ là gần compact.
+Xét theo đặc trưng hóa các không gian tích Hausdorff được cho trong § 8, no. 2, Mệnh đề 7, chỉ cần chứng minh các khẳng định đối với các không gian gần compact. Nếu $X = \prod_{i \in I} X_i$ là gần compact và không rỗng, thì $X_i = \operatorname{pr}_i(X)$ là gần compact do Định lý 2 của no. 4. Ngược lại, giả sử các $X_i$ đều gần compact và cho $\mathcal{U}$ là một siêu lọc trên $X$; khi đó với mỗi $i \in I$, $\operatorname{pr}_i(\mathcal{U})$ là một cơ sở siêu lọc trên $X_i$ (§ 6, no. 6, Mệnh đề 10) nên do tiên đề (C') nó hội tụ; vì vậy $\mathcal{U}$ hội tụ (§ 7, no. 6, Hệ quả 1 của Mệnh đề 10) và do đó $X$ là gần compact.
 
 #### Hệ quả {#top-i-s9-n5-cor-1 .statement}
 
 *Để một tập con của một tích các không gian tôpô là gần compact tương đối thì điều kiện cần và đủ là mỗi ảnh chiếu của nó phải gần compact tương đối trong nhân tử tương ứng.*
 
-Điều kiện cần suy ra từ Định lý 2 của \$ 4. Để chứng minh điều kiện đủ, cho $A$ là một tập con của $\prod_i X_i$ sao cho, với mỗi chỉ số $i$, $\operatorname{pr}_i(A)$ được chứa trong một tập gần compact $K_i$ của $X_i$; khi đó $A$ được chứa trong tập gần compact $\prod_i K_i$ của $\prod_i X_i$.
+Điều kiện cần suy ra từ Định lý 2 của § 4. Để chứng minh điều kiện đủ, cho $A$ là một tập con của $\prod_i X_i$ sao cho, với mỗi chỉ số $i$, $\operatorname{pr}_i(A)$ được chứa trong một tập gần compact $K_i$ của $X_i$; khi đó $A$ được chứa trong tập gần compact $\prod_i K_i$ của $\prod_i X_i$.
 
 ### 6. GIỚI HẠN NGHỊCH ĐẢO CỦA CÁC KHÔNG GIAN COMPACT
 
 #### Mệnh đề 8 {#top-i-s9-prop-8 .statement}
 
-Cho $(X_\alpha, f_{\alpha\beta})$ là một hệ ngược các không gian compact được chỉ số bởi một tập có hướng $I$ sao cho $f_{\alpha\alpha}$ là ánh xạ đồng nhất với mỗi $\alpha \in I$. Đặt $X = \varprojlim X_\alpha$ là giới hạn ngược và $f_\alpha : X \to X_\alpha$ là ánh xạ chính tắc (\S 4, no. 4). Khi đó
+Cho $(X_\alpha, f_{\alpha\beta})$ là một hệ ngược các không gian compact được chỉ số bởi một tập có hướng $I$ sao cho $f_{\alpha\alpha}$ là ánh xạ đồng nhất với mỗi $\alpha \in I$. Đặt $X = \varprojlim X_\alpha$ là giới hạn ngược và $f_\alpha : X \to X_\alpha$ là ánh xạ chính tắc (§ 4, no. 4). Khi đó
 a) $X$ là compact và với mỗi $\alpha \in I$ ta có
 $$
 f_\alpha(X) = \bigcap_{\beta \geq \alpha} f_{\alpha\beta}(X_\beta).
 $$
 b) *Nếu các* $X_\alpha$ *đều không rỗng thì* $X$ *không rỗng*.
 
-$X$ là một không gian con đóng của $\prod_\alpha X_\alpha$ (\S 8, no. 2, Mệnh đề 7, Hệ quả 2) và do Định lý 3 của no. 5 cùng Mệnh đề 3 của no. 3 thì nó compact. Các khẳng định còn lại là hệ quả của *Lý thuyết tập hợp*, chương III, \S 7, no. 4, Định lý 1. Ta áp dụng định lý này bằng cách lấy $\mathcal{S}_\alpha$ là tập hợp các tập con đóng của $X_\alpha$. Các điều kiện (i) và (ii) chỉ là các tiên đề $(O'_1)$ và $(C'')$ tương ứng; điều kiện (iii) được thỏa vì $\{x_\alpha\}$ là đóng và $f_{\alpha\beta}$ liên tục (\S 2, no. 1, Định lý 1), và cuối cùng điều kiện (iv) được thỏa nhờ Hệ quả 2 của Định lý 2 của no. 4.
+$X$ là một không gian con đóng của $\prod_\alpha X_\alpha$ (§ 8, no. 2, Mệnh đề 7, Hệ quả 2) và do Định lý 3 của no. 5 cùng Mệnh đề 3 của no. 3 thì nó compact. Các khẳng định còn lại là hệ quả của *Lý thuyết tập hợp*, chương III, § 7, no. 4, Định lý 1. Ta áp dụng định lý này bằng cách lấy $\mathcal{S}_\alpha$ là tập hợp các tập con đóng của $X_\alpha$. Các điều kiện (i) và (ii) chỉ là các tiên đề $(O'_1)$ và $(C'')$ tương ứng; điều kiện (iii) được thỏa vì $\{x_\alpha\}$ là đóng và $f_{\alpha\beta}$ liên tục (§ 2, no. 1, Định lý 1), và cuối cùng điều kiện (iv) được thỏa nhờ Hệ quả 2 của Định lý 2 của no. 4.
 
 #### Hệ quả 1 {#top-i-s9-prop-8-cor-1 .statement}
 
@@ -298,7 +298,7 @@ Rõ ràng một không gian compact là địa phương compact, nhưng điều 
 
 *Mọi không gian địa phương compact đều chính quy.*
 
-Cho $X$ là một không gian địa phương compact, thì mỗi điểm $x \in X$ đều có một lân cận compact $V$; vì $X$ là Hausdorff, nên $V$ đóng (no. 3, Mệnh đề 4). Mặt khác, $V$ là một không gian con chính quy của $X$ (no. 2, Hệ quả của Mệnh đề 1) và do đó $X$ chính quy (\S 8, no. 4, Mệnh đề 13).
+Cho $X$ là một không gian địa phương compact, thì mỗi điểm $x \in X$ đều có một lân cận compact $V$; vì $X$ là Hausdorff, nên $V$ đóng (no. 3, Mệnh đề 4). Mặt khác, $V$ là một không gian con chính quy của $X$ (no. 2, Hệ quả của Mệnh đề 1) và do đó $X$ chính quy (§ 8, no. 4, Mệnh đề 13).
 
 #### Hệ quả {#top-i-s9-n7-cor-1 .statement}
 
@@ -348,7 +348,7 @@ a) *Cho $(X_i)_{i \in I}$ là một họ các không gian địa phương compac
 
 b) *Ngược lại, nếu tích của một họ $(X_i)_{i \in I}$ các không gian tôpô không rỗng là địa phương compact, thì các thừa số $X_i$ là compact đối với mọi chỉ số trừ một số hữu hạn, và các thừa số không compact là địa phương compact.*
 
-b) Nếu $X = \prod_{i \in I} X_i$ là địa phương compact và các $X_i$ không rỗng, thì mỗi $X_i$ đồng phôi với một không gian con đóng của $X$ ($\S 4$, no. 2, Mệnh đề 4 và $\S 4$, no. 3, Hệ quả của Mệnh đề 7), nên địa phương compact theo Mệnh đề 13. Cho $a = (a_i)$ là một điểm của $X$ và cho $V$ là một lân cận compact của $a$; vì ta có $\operatorname{pr}_i V = X_i$ đối với mọi chỉ số trừ một số hữu hạn ($\S 4$, no. 1), suy ra từ no. 4, Hệ quả 1 của Định lý 2 rằng các $X_i$ compact ngoại trừ một số hữu hạn chỉ số.
+b) Nếu $X = \prod_{i \in I} X_i$ là địa phương compact và các $X_i$ không rỗng, thì mỗi $X_i$ đồng phôi với một không gian con đóng của $X$ ($§ 4$, no. 2, Mệnh đề 4 và $§ 4$, no. 3, Hệ quả của Mệnh đề 7), nên địa phương compact theo Mệnh đề 13. Cho $a = (a_i)$ là một điểm của $X$ và cho $V$ là một lân cận compact của $a$; vì ta có $\operatorname{pr}_i V = X_i$ đối với mọi chỉ số trừ một số hữu hạn ($§ 4$, no. 1), suy ra từ no. 4, Hệ quả 1 của Định lý 2 rằng các $X_i$ compact ngoại trừ một số hữu hạn chỉ số.
 
 ### 8. NHÚNG CỦA MỘT KHÔNG GIAN ĐỊA PHƯƠNG COMPACT VÀO MỘT KHÔNG GIAN COMPACT
 
@@ -453,7 +453,7 @@ tạo thành một phủ mở của $X \times Y$ mịn hơn $\mathcal{R}$, và c
 
 #### Mệnh đề 18 {#top-i-s9-prop-18 .statement}
 
-*Tổng* (\S 2, no. 4, Ví dụ 3) *của một họ* $(X_i)_{i \in I}$ *các không gian paracompact là paracompact*.
+*Tổng* (§ 2, no. 4, Ví dụ 3) *của một họ* $(X_i)_{i \in I}$ *các không gian paracompact là paracompact*.
 
 Cho $X$ là tổng của các $X_i$, và cho $(V_\lambda)_{\lambda \in L}$ là một phủ mở của $X$. Phủ được tạo bởi các tập mở $X_i \cap Y_\lambda$ mịn hơn $(V_\lambda)$. Với mỗi $i \in I$, cho $(U_{i,\mu})_{\mu \in M_i}$ là một tinh chỉnh mở hữu hạn địa phương của phủ $(V_\lambda \cap X_i)_{\lambda \in L}$; khi đó phủ mở của $X$ được tạo bởi các
 

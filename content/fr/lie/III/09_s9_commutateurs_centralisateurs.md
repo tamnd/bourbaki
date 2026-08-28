@@ -44,7 +44,7 @@ subsections:
       pdf_page: 240
 statements: 54
 exercises: 16
-content_sha256: 24832ddd2325ac6b18a9260479a595709bb97baa8959b61c88aee4e1497c1f1e
+content_sha256: 0e4e9347d9e21ff0eac39d30f1fdac558deb92c6266df753488921e2b961d6b4
 ---
 
 ## § 9. Commutateurs, centralisateurs, normalisateurs dans un groupe de Lie
@@ -162,7 +162,7 @@ D’après ce qui précède, on a G_2 ⊃ A, donc G_2 ⊃ \overline{A}. Par suit
 
 Supposons K ultramétrique. Soit G un groupe de Lie de dimension finie. Soient A, B, C des sous-groupes de Lie de G tels que [L(A), L(C)] ⊂ L(C), [L(B), L(C)] ⊂ L(C). Si [L(A), L(B)] ⊂ L(C), il existe des sous-groupes ouverts A′, B′ de A, B tels que (A′, B′) ⊂ C. Si [L(A), L(B)] = L(C), il existe des sous-groupes ouverts A′, B′, C′ de A, B, C tels que (A′, B′) = C.
 
-Supposons $[\mathrm{L}(A), \mathrm{L}(B)] \subset \mathrm{L}(C)$. Comme dans la démonstration de la prop. 4, on se ramène au cas où $\mathrm{L}(C)$ est un idéal de $\mathrm{L}(G)$. Puis, en remplaçant $G$ par un sous-groupe ouvert, on se ramène au cas où $C$ est distingué dans $G$ (\S 7, no 1, prop. 2). Soit $\varphi$ le morphisme canonique de $G$ sur $G/C$. Alors
+Supposons $[\mathrm{L}(A), \mathrm{L}(B)] \subset \mathrm{L}(C)$. Comme dans la démonstration de la prop. 4, on se ramène au cas où $\mathrm{L}(C)$ est un idéal de $\mathrm{L}(G)$. Puis, en remplaçant $G$ par un sous-groupe ouvert, on se ramène au cas où $C$ est distingué dans $G$ (§ 7, no 1, prop. 2). Soit $\varphi$ le morphisme canonique de $G$ sur $G/C$. Alors
 $$
 [\mathrm{L}(\varphi)(\mathrm{L}(A)), \mathrm{L}(\varphi)(\mathrm{L}(B))] = \{0\}.
 $$
@@ -202,7 +202,7 @@ Cela résulte du § 3, prop. 44 et cor. 2 de la prop. 39.
 #### Proposition 8 {#lie-iii-s9-prop-8 .statement}
 
 *Soient G un groupe de Lie réel ou complexe de dimension finie, g son algèbre de Lie, A une partie de G. Alors $Z_G(A)$ est un sous-groupe de Lie de G d’algèbre de Lie $\delta_g(A)$.*
-Supposons A réduit à un point a. Alors $Z_G(A)$ est l’ensemble des points fixes de Int a; donc $Z_G(A)$ est un sous-groupe de Lie de G, et $L(Z_G(A))$ est l’ensemble des points fixes de Ad a, c’est-à-dire $\delta_g(A)$ ($\S 3, n° 8,$ cor. 1 de la prop. 29). Le cas général se déduit de là grâce au $\S 6, n° 2,$ cor. 3 de la prop. 1.
+Supposons A réduit à un point a. Alors $Z_G(A)$ est l’ensemble des points fixes de Int a; donc $Z_G(A)$ est un sous-groupe de Lie de G, et $L(Z_G(A))$ est l’ensemble des points fixes de Ad a, c’est-à-dire $\delta_g(A)$ ($§ 3, n° 8,$ cor. 1 de la prop. 29). Le cas général se déduit de là grâce au $§ 6, n° 2,$ cor. 3 de la prop. 1.
 
 #### Proposition 9 {#lie-iii-s9-prop-9 .statement}
 
@@ -210,14 +210,14 @@ Supposons A réduit à un point a. Alors $Z_G(A)$ est l’ensemble des points fi
 Soit $x \in G$. On a
 $$
 x \in Z_G(A) \iff A \subset Z_G(\{x\}) \\
-\iff a \subset L(Z_G(\{x\})) \quad (\S 6, \text{cor. 2 de la prop. 3}) \\
+\iff a \subset L(Z_G(\{x\})) \quad (§ 6, \text{cor. 2 de la prop. 3}) \\
 \iff a \subset \delta_g(\{x\}) \quad (\text{prop. 8}) \\
 \iff x \in Z_G(a),
 $$
 donc $Z_G(A) = Z_G(a)$. Soit $u \in g$. On a
 $$
 u \in \delta_g(A) \iff A \subset Z_G(\{u\}) \\
-\iff a \subset L(Z_G(\{u\})) \quad (\S 6, \text{cor. 2 de la prop. 3}) \\
+\iff a \subset L(Z_G(\{u\})) \quad (§ 6, \text{cor. 2 de la prop. 3}) \\
 \iff a \subset \delta_g^1(\{u\}) \quad (\text{prop. 7}) \\
 \iff u \in \delta_g(a),
 $$
@@ -266,7 +266,7 @@ L(G) = g. L’application identique φ de g dans G est une application exponenti
 (i) $\exp_G$ est un isomorphisme du groupe de Lie associé à $L(G)$ sur G.
 (ii) *Tout sous-groupe intégral de G est un sous-groupe de Lie simplement connexe de G.*
 
-Soit $g = L(G)$, qui est nilpotente (prop. 12). Comme deux groupes de Lie simplement connexes sur $\mathbf{R}$ ou $\mathbf{C}$ qui ont même algèbre de Lie sont isomorphes ($\S 6$, n° 3, th. 3 (ii)), il suffit de prouver la proposition quand G est le groupe associé à g. Alors (i) et (ii) résultent de ce qu’on a dit avant la proposition.
+Soit $g = L(G)$, qui est nilpotente (prop. 12). Comme deux groupes de Lie simplement connexes sur $\mathbf{R}$ ou $\mathbf{C}$ qui ont même algèbre de Lie sont isomorphes ($§ 6$, n° 3, th. 3 (ii)), il suffit de prouver la proposition quand G est le groupe associé à g. Alors (i) et (ii) résultent de ce qu’on a dit avant la proposition.
 
 #### Proposition 14 {#lie-iii-s9-prop-14 .statement}
 
@@ -275,9 +275,9 @@ Soit $g = L(G)$, qui est nilpotente (prop. 12). Comme deux groupes de Lie simple
 (i) *Si G est nilpotent, $\exp_G$ est étale et surjective.*
 (ii) *Si $K = \mathbf{C}$ et si $\exp_G$ est étale, alors G est nilpotent.*
 
-Soit G′ le revêtement universel de G. Soit $\varphi$ le morphisme canonique de G′ sur G. On a $\exp_G = \varphi \circ \exp_{G'}$ ($\S 6$, n° 4, prop. 10), donc (i) résulte de la prop. 13 (i).
+Soit G′ le revêtement universel de G. Soit $\varphi$ le morphisme canonique de G′ sur G. On a $\exp_G = \varphi \circ \exp_{G'}$ ($§ 6$, n° 4, prop. 10), donc (i) résulte de la prop. 13 (i).
 
-Si $K = \mathbf{C}$ et si exp est étale, alors, pour tout $x \in L(G)$, ad $x$ n’a aucune valeur propre appartenant à $2i\pi(\mathbf{Z} - \{0\})$ ($\S 6$, n° 4, cor. de la prop. 12). Appliquant cela à $\lambda x$, où $\lambda$ varie dans $\mathbf{C}$, on en conclut que toutes les valeurs propres de ad $x$ sont nulles, donc que ad $x$ est nilpotent. Par suite, $L(G)$ est nilpotente (chap. I, $\S 4$, cor. 1 du th. 1), donc G est nilpotent (prop. 12).
+Si $K = \mathbf{C}$ et si exp est étale, alors, pour tout $x \in L(G)$, ad $x$ n’a aucune valeur propre appartenant à $2i\pi(\mathbf{Z} - \{0\})$ ($§ 6$, n° 4, cor. de la prop. 12). Appliquant cela à $\lambda x$, où $\lambda$ varie dans $\mathbf{C}$, on en conclut que toutes les valeurs propres de ad $x$ sont nulles, donc que ad $x$ est nilpotent. Par suite, $L(G)$ est nilpotente (chap. I, $§ 4$, cor. 1 du th. 1), donc G est nilpotent (prop. 12).
 
 #### Proposition 15 {#lie-iii-s9-prop-15 .statement}
 
@@ -289,7 +289,7 @@ Compte tenu de la prop. 9 du n° 3 il suffit de prouver que $Z_G(A)$ est connexe
 
 *Soient G un groupe de Lie nilpotent de dimension finie sur $\mathbf{R}$ ou $\mathbf{C}$, A un sous-groupe intégral de G distinct de G. Alors $N_G(A)$ est un sous-groupe de Lie connexe de G distinct de A.*
 
-On a $N_G(A) \neq A$ (A, I, $\S 6$, cor. 1 de la prop. 8). Compte tenu de la prop. 11 du n° 4, tout revient à prouver que $N_G(A)$ est connexe. Soit $g \in N_G(A)$. Il existe un $x \in L(G)$ tel que $g = \exp x$ (prop. 14). Soit E le sous-espace vectoriel de
+On a $N_G(A) \neq A$ (A, I, $§ 6$, cor. 1 de la prop. 8). Compte tenu de la prop. 11 du n° 4, tout revient à prouver que $N_G(A)$ est connexe. Soit $g \in N_G(A)$. Il existe un $x \in L(G)$ tel que $g = \exp x$ (prop. 14). Soit E le sous-espace vectoriel de
 
 L(\mathcal{L}(L(G))) formé des $u \in \mathcal{L}(L(G))$ tels que $u(L(A)) \subset L(A)$. On a Ad $g^n \in E$, donc $\exp(\mathrm{ad}\ nx) \in E$, pour tout $n \in \mathbf{Z}$. Donc $\exp(\mathrm{ad}\ \lambda x) \in E$ pour tout $\lambda \in K$, c’est-à-dire $\exp(\lambda x) \in N_G(A)$ pour tout $\lambda \in K$.
 
@@ -363,11 +363,11 @@ $$
 $$
 Donc $\psi \circ \varphi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. Cela prouve (i). Comme la loi de Hausdorff est polynomiale, $\varphi$ est polynomiale. D’après l’hypothèse de récurrence, ${\varphi'}^{-1}$ est polynomiale; d’après la formule (1), les fonctions $x_j'$ sont polynomiales, donc $\zeta$ est polynomiale (formule (3)), $y$ est polynomiale (formule (4)), $\psi$ est polynomiale (formule (5)). Cela prouve (ii). L’assertion (iii) résulte de (i) et (ii) et du fait que la loi de Hausdorff est polynomiale. C.Q.F.D.
 
-Exemple de groupe de Lie nilpotent. — Soit G le sous-groupe trigonal strict inférieur de $\mathbf{GL}(n, K)$. C’est un sous-groupe de Lie de $\mathbf{GL}(n, K)$, et $L(G) \subset \mathfrak{gl}(n, K)$ est l’algèbre de Lie des matrices triangulaires inférieures de diagonale nulle (\S 3, n° 10, prop. 36). D’après le chap. II, § 4, n° 6, Remarque, G est nilpotent. Supposons désormais que $K = \mathbf{R}$ ou $\mathbf{C}$. Comme G est homéomorphe à $K^{n(n-1)/2}$, G est simplement connexe. L’application exponentielle de $L(G)$ dans G n’est autre que l’application
+Exemple de groupe de Lie nilpotent. — Soit G le sous-groupe trigonal strict inférieur de $\mathbf{GL}(n, K)$. C’est un sous-groupe de Lie de $\mathbf{GL}(n, K)$, et $L(G) \subset \mathfrak{gl}(n, K)$ est l’algèbre de Lie des matrices triangulaires inférieures de diagonale nulle (§ 3, n° 10, prop. 36). D’après le chap. II, § 4, n° 6, Remarque, G est nilpotent. Supposons désormais que $K = \mathbf{R}$ ou $\mathbf{C}$. Comme G est homéomorphe à $K^{n(n-1)/2}$, G est simplement connexe. L’application exponentielle de $L(G)$ dans G n’est autre que l’application
 $$
 u \mapsto \exp u = \sum_{k \geq 0} \frac{u^k}{k!} = \sum_{k=0}^{n-1} \frac{u^k}{k!}
 $$
-(\S 6, n° 4, Exemple). D’après la prop. 13, l’exponentielle est un isomorphisme de la variété $L(G)$ sur la variété G. La prop. 17 du \S 6, n° 9, fournit la bijection réciproque log. Munissons $K^n$ d’une norme. D’après TS, I, § 4, n° 9, on a pour $g \in G$ et $\|g - 1\| < 1$,
+(§ 6, n° 4, Exemple). D’après la prop. 13, l’exponentielle est un isomorphisme de la variété $L(G)$ sur la variété G. La prop. 17 du § 6, n° 9, fournit la bijection réciproque log. Munissons $K^n$ d’une norme. D’après TS, I, § 4, n° 9, on a pour $g \in G$ et $\|g - 1\| < 1$,
 $$
 \log g = \sum_{k \geq 1} \frac{(-1)^{k-1}}{k} (g - 1)^k
 $$
@@ -438,7 +438,7 @@ est un isomorphisme de la variété K^p sur la variété N. Il existe un morphis
 
 1 Une telle suite existe d’après le chap. I, § 5, prop. 2.
 
-groupes de Lie de N dans G tel que $h = L(\tau)$, et on a $\tau(N) = M$ (\S 6, n° 2, cor. 1 de la prop. 1). Donc M est l’ensemble des éléments de G de la forme
+groupes de Lie de N dans G tel que $h = L(\tau)$, et on a $\tau(N) = M$ (§ 6, n° 2, cor. 1 de la prop. 1). Donc M est l’ensemble des éléments de G de la forme
 $$
 \tau((\exp \lambda_1 y_1) \ldots (\exp \lambda_p y_p)) = \exp(\lambda_1 L(\tau)y_1) \ldots \exp(\lambda_p L(\tau)y_p)
 = \exp(\lambda_1 x_{i_1}) \ldots \exp(\lambda_p x_{i_p}).
@@ -450,8 +450,8 @@ Ainsi, $M = \varphi(T)$ où T est un sous-espace vectoriel de $K^n$.
 *On suppose $K = \mathbf{R}$ ou $\mathbf{C}$. Soient V un espace vectoriel de dimension finie, G un sous-groupe résoluble connexe de $\mathbf{GL}(V)$. On suppose que la représentation identique de G est simple.*
 (i) *Si $K = \mathbf{R}$, on a $\dim V \leq 2$ et G est commutatif.*
 (ii) *Si $K = \mathbf{C}$, on a $\dim V = 1$.*
-(i) Supposons $K = \mathbf{R}$. Alors l’adhérence H de G dans $\mathbf{GL}(V)$ est un sous-groupe de Lie de $\mathbf{GL}(V)$, connexe, et résoluble (n° 1, cor. 2 de la prop. 1). Donc $L(H)$ est résoluble (prop. 19). La représentation identique de $L(G)$ est simple (\S 6, n° 5, cor. 2 de la prop. 13). Donc $\dim V \leq 2$ et $L(G)$ est commutative (chap. I, \S 5, cor. 1 et 4 du th. 1). Donc G est commutatif.
-(ii) Supposons $K = \mathbf{C}$. Soit W un élément minimal parmi les sous-espaces vectoriels réels non nuls de V stables par G. Le sous-espace vectoriel complexe de V engendré par W est égal à V puisque la représentation identique de G est simple. D’après (i), $G|W$ est commutatif. Donc G est commutatif. Par suite, tout élément de G est une homothétie (A, VIII, \S 4, cor. 1 de la prop. 2), de sorte que $\dim V = 1$.
+(i) Supposons $K = \mathbf{R}$. Alors l’adhérence H de G dans $\mathbf{GL}(V)$ est un sous-groupe de Lie de $\mathbf{GL}(V)$, connexe, et résoluble (n° 1, cor. 2 de la prop. 1). Donc $L(H)$ est résoluble (prop. 19). La représentation identique de $L(G)$ est simple (§ 6, n° 5, cor. 2 de la prop. 13). Donc $\dim V \leq 2$ et $L(G)$ est commutative (chap. I, § 5, cor. 1 et 4 du th. 1). Donc G est commutatif.
+(ii) Supposons $K = \mathbf{C}$. Soit W un élément minimal parmi les sous-espaces vectoriels réels non nuls de V stables par G. Le sous-espace vectoriel complexe de V engendré par W est égal à V puisque la représentation identique de G est simple. D’après (i), $G|W$ est commutatif. Donc G est commutatif. Par suite, tout élément de G est une homothétie (A, VIII, § 4, cor. 1 de la prop. 2), de sorte que $\dim V = 1$.
 
 #### Corollaire {#lie-iii-s9-n6-cor-1 .statement}
 
@@ -464,9 +464,9 @@ Soit $V_1$ un élément minimal parmi les sous-espaces vectoriels non nuls de V 
 
 #### Proposition 23 {#lie-iii-s9-prop-23 .statement}
 
-*Soient G un groupe de Lie réel ou complexe de dimension finie, r le radical de $L(G)$ (chap. I, \S 5, déf. 2), n le plus grand idéal nilpotent de $L(G)$ (chap. I, \S 4, n° 4). Soit R (resp. N) le sous-groupe intégral de G d’algèbre de Lie r (resp. n). Alors R (resp. N) est un sous-groupe de Lie de G, résoluble (resp. nilpotent), invariant par tout automorphisme continu de G. Tout sous-groupe distingué connexe résoluble (resp. nilpotent) de G est contenu dans R (resp. N).
+*Soient G un groupe de Lie réel ou complexe de dimension finie, r le radical de $L(G)$ (chap. I, § 5, déf. 2), n le plus grand idéal nilpotent de $L(G)$ (chap. I, § 4, n° 4). Soit R (resp. N) le sous-groupe intégral de G d’algèbre de Lie r (resp. n). Alors R (resp. N) est un sous-groupe de Lie de G, résoluble (resp. nilpotent), invariant par tout automorphisme continu de G. Tout sous-groupe distingué connexe résoluble (resp. nilpotent) de G est contenu dans R (resp. N).
 
-Le groupe R est résoluble (n° 6, prop. 19). Supposons K = R. Soit G' un sous-groupe distingué résoluble connexe de G. Alors $\overline{G}'$ est un sous-groupe de Lie de G ($\S 8, n° 2, th. 2$), distingué résoluble (n° 1, cor. 2 de la prop. 1), connexe. Donc L($\overline{G}'$) est un idéal résoluble de L(G), d’où L($\overline{G}'$) $\subset r$ et $\overline{G}' \subset R$. En particulier, $\overline{R} \subset R$, donc R est fermé et par suite est un sous-groupe de Lie de G. Supposons K = C. Soit H le groupe de Lie réel sous-jacent à G. Si r' est le radical de L(H), ir' est un idéal résoluble de L(H), d’où $r' = i r'$; on a donc $r \subset r' \subset r$, et, d’après ce qui précède, R est fermé dans H et par suite dans G; ainsi, R est un sous-groupe de Lie de G. Tout sous-groupe distingué résoluble connexe de G est un sous-groupe distingué résoluble connexe de H donc est contenu dans R. On a donc prouvé, pour K = C comme pour K = R, que R est le plus grand sous-groupe distingué résoluble connexe de G; par suite R est invariant par tout automorphisme continu de G. La démonstration dans le cas de N est entièrement analogue.
+Le groupe R est résoluble (n° 6, prop. 19). Supposons K = R. Soit G' un sous-groupe distingué résoluble connexe de G. Alors $\overline{G}'$ est un sous-groupe de Lie de G ($§ 8, n° 2, th. 2$), distingué résoluble (n° 1, cor. 2 de la prop. 1), connexe. Donc L($\overline{G}'$) est un idéal résoluble de L(G), d’où L($\overline{G}'$) $\subset r$ et $\overline{G}' \subset R$. En particulier, $\overline{R} \subset R$, donc R est fermé et par suite est un sous-groupe de Lie de G. Supposons K = C. Soit H le groupe de Lie réel sous-jacent à G. Si r' est le radical de L(H), ir' est un idéal résoluble de L(H), d’où $r' = i r'$; on a donc $r \subset r' \subset r$, et, d’après ce qui précède, R est fermé dans H et par suite dans G; ainsi, R est un sous-groupe de Lie de G. Tout sous-groupe distingué résoluble connexe de G est un sous-groupe distingué résoluble connexe de H donc est contenu dans R. On a donc prouvé, pour K = C comme pour K = R, que R est le plus grand sous-groupe distingué résoluble connexe de G; par suite R est invariant par tout automorphisme continu de G. La démonstration dans le cas de N est entièrement analogue.
 
 #### Définition 1 {#lie-iii-s9-def-1 .statement}
 
@@ -613,7 +613,7 @@ Nous verrons plus tard que si $k$ est un corps commutatif de caractéristique 0,
 
 On voit de même que (ii) $\Rightarrow$ (i).
 
-(ii') $\Rightarrow$ (i) : supposons que $G/\overline{D^1}G$ soit non compact, donc isomorphe à un groupe de la forme $\mathbf{R}^p \times \mathbf{T}^q$ avec $p > 0$ ($\S 6$, n° 4, prop. 11 (ii)). Il existe alors un morphisme surjectif de $G/\overline{D^1}G$ dans $\mathbf{R}$, donc un morphisme surjectif $\rho$ de $G$ dans $\mathbf{R}$. L’application
+(ii') $\Rightarrow$ (i) : supposons que $G/\overline{D^1}G$ soit non compact, donc isomorphe à un groupe de la forme $\mathbf{R}^p \times \mathbf{T}^q$ avec $p > 0$ ($§ 6$, n° 4, prop. 11 (ii)). Il existe alors un morphisme surjectif de $G/\overline{D^1}G$ dans $\mathbf{R}$, donc un morphisme surjectif $\rho$ de $G$ dans $\mathbf{R}$. L’application
 $$
 g \mapsto \sigma(g) = \begin{pmatrix} 1 & 0 \\ \rho(g) & 1 \end{pmatrix}
 $$

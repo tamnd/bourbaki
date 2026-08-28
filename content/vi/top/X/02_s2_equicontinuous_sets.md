@@ -32,9 +32,9 @@ subsections:
       pdf_page: 296
 statements: 24
 exercises: 16
-content_sha256: eef5e35b8ba01a80d9a4e01fc2f4d2bfeba77b69e76420c5e0ca8b0c333e0ab9
+content_sha256: 7a8fd7f8150aeef235d9ba8c6f24b43caa2260d6d4614ce7f27121495e936a4c
 translated_from: content/en/top/X/02_s2_equicontinuous_sets.md
-source_content_sha256: 955831a757822ebbfc21d4e0b552cc9058dc588efa14540061dfee0a4c9bf02b
+source_content_sha256: 0e518ac6230012625e0fe16b513a7814cbf8c8e0459e8869ade391e4e1719c46
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-82a58eef
 glossary_version: 34
@@ -126,7 +126,7 @@ Một cách trực quan hơn, điều này diễn đạt rằng nếu $h \in H$ 
 
 *Cho X là một không gian tôpô, cho Y, Z là hai không gian đều và cho H là một tập đẳng liên tục các ánh xạ của Y vào Z. Nếu H, $\mathcal{C}(X; Y)$ và $\mathcal{C}(X; Z)$ được trang bị tôpô hội tụ từng điểm, thì ánh xạ $(u, v) \to u \circ v$ của $H \times \mathcal{C}(X; Y)$ vào $\mathcal{C}(X; Z)$ là liên tục.*
 
-Ta phải chứng minh rằng, với mỗi $x \in X$, ánh xạ $(u, v) \to u(v(x))$ của $H \times \mathcal{C}(X; Y)$ vào Z là liên tục. Bây giờ $v \to v(x)$ là liên tục trên H (\S 1, no. 2, Nhận xét 6), và từ Hệ quả 4 suy ra rằng $(u, y) \to u(y)$ là một ánh xạ liên tục của $H \times Y$ vào Z; vì $(u, v) \to u(v(x))$ là hợp thành của $(u, y) \to u(y)$ và $(u, v) \to (u, v(x))$, nên kết quả được chứng minh.
+Ta phải chứng minh rằng, với mỗi $x \in X$, ánh xạ $(u, v) \to u(v(x))$ của $H \times \mathcal{C}(X; Y)$ vào Z là liên tục. Bây giờ $v \to v(x)$ là liên tục trên H (§ 1, no. 2, Nhận xét 6), và từ Hệ quả 4 suy ra rằng $(u, y) \to u(y)$ là một ánh xạ liên tục của $H \times Y$ vào Z; vì $(u, v) \to u(v(x))$ là hợp thành của $(u, y) \to u(y)$ và $(u, v) \to (u, v(x))$, nên kết quả được chứng minh.
 
 Mệnh đề sau và hệ quả của nó là các bản tương ứng của Hệ quả 3 và 4 của Mệnh đề 1 đối với các tập đẳng liên tục đều các ánh xạ:
 
@@ -207,7 +207,7 @@ Xét theo định nghĩa các lân cận của các cấu trúc đều trái c�
 
 Cho $X$ là một không gian tôpô (resp. không gian đều), cho $Y$ là một không gian đều và cho $H$ là một tập con của $\mathcal{F}(X; Y)$. Khi đó $H$ là đồng liên tục tại một điểm $x_0 \in X$ (resp. đồng liên tục đều) khi và chỉ khi bao đóng $\overline{H}$ của $H$ trong $\mathcal{F}_s(X; Y)$ là đồng liên tục tại $x_0$ (resp. đồng liên tục đều).
 
-Điều kiện đó hiển nhiên là đủ. Để chứng minh rằng nó là cần thiết, xét một lân cận $V$ của $Y$ đóng trong $Y \times Y$; theo giả thiết, có một lân cận $U$ của $x_0$ trong $X$ (resp. một lân cận $M$ của $X$) sao cho quan hệ $x \in U$ (resp. $(x', x'') \in M$) suy ra $(h(x_0), h(x)) \in V$ [resp. $(h(x'), h(x'')) \in V$] với mọi $h \in H$. Vì $V$ đóng, các ánh xạ $h \in \mathcal{F}(X; Y)$ thỏa mãn quan hệ $(h(x_0), h(x)) \in V$ với mọi $x \in U$ [resp. quan hệ $(h(x'), h(x'')) \in V$ với mọi $(x', x'') \in M$] tạo thành một tập con đóng của $\mathcal{F}_s(X; Y)$ (\S 1, no. 2, Nhận xét 6); vì tập con đóng này chứa $H$, nó chứa $\overline{H}$. Do đó được kết quả, vì các lân cận đóng của $Y$ tạo thành một hệ cơ bản của các lân cận (Chương II, § 1, no. 2, Mệnh đề 2, Hệ quả 2).
+Điều kiện đó hiển nhiên là đủ. Để chứng minh rằng nó là cần thiết, xét một lân cận $V$ của $Y$ đóng trong $Y \times Y$; theo giả thiết, có một lân cận $U$ của $x_0$ trong $X$ (resp. một lân cận $M$ của $X$) sao cho quan hệ $x \in U$ (resp. $(x', x'') \in M$) suy ra $(h(x_0), h(x)) \in V$ [resp. $(h(x'), h(x'')) \in V$] với mọi $h \in H$. Vì $V$ đóng, các ánh xạ $h \in \mathcal{F}(X; Y)$ thỏa mãn quan hệ $(h(x_0), h(x)) \in V$ với mọi $x \in U$ [resp. quan hệ $(h(x'), h(x'')) \in V$ với mọi $(x', x'') \in M$] tạo thành một tập con đóng của $\mathcal{F}_s(X; Y)$ (§ 1, no. 2, Nhận xét 6); vì tập con đóng này chứa $H$, nó chứa $\overline{H}$. Do đó được kết quả, vì các lân cận đóng của $Y$ tạo thành một hệ cơ bản của các lân cận (Chương II, § 1, no. 2, Mệnh đề 2, Hệ quả 2).
 
 ### 4. HỘI TỤ ĐIỂM VÀ HỘI TỤ COMPACT TRÊN CÁC TẬP ĐỒNG LIÊN TỤ
 
@@ -243,7 +243,7 @@ a) Với mỗi $A \in \mathcal{S}$, tập $H|A \subset \mathcal{F}(A; Y)$ gồm 
 
 b) Với mỗi $x \in X$, tập $H(x) \subset Y$ gồm các điểm $u(x)$ ($u \in H$) là tiền compact.
 
-1) Trước hết, ta chứng minh rằng các điều kiện a) và b) là cần thiết. Ta biết (\S 1, no. 2, Nhận xét 6) rằng ánh xạ $u \to u(x)$ của $\mathcal{F}_{\mathcal{S}}(X; Y)$ vào $Y$ là liên tục đều; do đó, nếu $H$ là tiền compact thì $H(x)$ cũng vậy (Chương II, \S 4, no. 2, Mệnh đề 2), điều này chứng minh b). Để chứng minh a), xét một tập $A \in \mathcal{S}$, một điểm $x_0 \in A$ và một bao lân cận $V$ của $Y$; vì $H$ là tiền compact nên nó có thể được phủ bởi hữu hạn tập $W(A, V)$-nhỏ; nói cách khác, tồn tại một dãy hữu hạn $(u_i)$ gồm các phần tử của $H$ sao cho, với mỗi $u \in H$, ta có
+1) Trước hết, ta chứng minh rằng các điều kiện a) và b) là cần thiết. Ta biết (§ 1, no. 2, Nhận xét 6) rằng ánh xạ $u \to u(x)$ của $\mathcal{F}_{\mathcal{S}}(X; Y)$ vào $Y$ là liên tục đều; do đó, nếu $H$ là tiền compact thì $H(x)$ cũng vậy (Chương II, § 4, no. 2, Mệnh đề 2), điều này chứng minh b). Để chứng minh a), xét một tập $A \in \mathcal{S}$, một điểm $x_0 \in A$ và một bao lân cận $V$ của $Y$; vì $H$ là tiền compact nên nó có thể được phủ bởi hữu hạn tập $W(A, V)$-nhỏ; nói cách khác, tồn tại một dãy hữu hạn $(u_i)$ gồm các phần tử của $H$ sao cho, với mỗi $u \in H$, ta có
 
 $$
 (u(x),\ u_i(x)) \in V \quad \text{với mọi } x \in A
@@ -265,7 +265,7 @@ $$
 
 Gọi $U$ (tương ứng, $M$) là giao của các $U_i$ (tương ứng, các $M_i$); đó là một lân cận của $x_0$ trong $A$ (tương ứng, một bao lân cận của $A$). Với mỗi $u \in H$ có một chỉ số $i$ sao cho (4) đúng; viết điều kiện (4) cho $x_0$ và cho $x$ (tương ứng, cho $x'$ và $x''$) và xét thêm (5) [tương ứng, (6)], ta thấy ngay lập tức rằng quan hệ $x \in U$ [tương ứng, $(x', x'') \in M$] suy ra $(u(x),\ u(x_0)) \in \overset{\circ}{V}$ [tương ứng, $(u(x'),\ u(x'')) \in \overset{\circ}{V}$], với mỗi $u \in H$; và điều này thiết lập a).
 
-2) Bây giờ ta chứng minh rằng các điều kiện a) và b) là đủ nếu các tập $A \in \mathcal{S}$ là compact (tương ứng, tiền compact). Điều kiện b) suy ra rằng $H$ là tiền compact đối với cấu trúc đều của hội tụ điểm (Chương II, \S 4, no. 2, Mệnh đề 3). Nhưng từ điều kiện a) và Định lý 1 của no. 4 suy ra rằng trên $H|A$, cấu trúc đều của hội tụ điểm trong $A$ trùng với cấu trúc đều của hội tụ đều trong $A$; do đó $H|A$ là tiền compact trong $\mathcal{F}_u(A; Y)$, điều này suy ra rằng $H$ là tiền compact đối với cấu trúc đều của $\mathcal{S}$-hội tụ (\S 1, no. 2).
+2) Bây giờ ta chứng minh rằng các điều kiện a) và b) là đủ nếu các tập $A \in \mathcal{S}$ là compact (tương ứng, tiền compact). Điều kiện b) suy ra rằng $H$ là tiền compact đối với cấu trúc đều của hội tụ điểm (Chương II, § 4, no. 2, Mệnh đề 3). Nhưng từ điều kiện a) và Định lý 1 của no. 4 suy ra rằng trên $H|A$, cấu trúc đều của hội tụ điểm trong $A$ trùng với cấu trúc đều của hội tụ đều trong $A$; do đó $H|A$ là tiền compact trong $\mathcal{F}_u(A; Y)$, điều này suy ra rằng $H$ là tiền compact đối với cấu trúc đều của $\mathcal{S}$-hội tụ (§ 1, no. 2).
 
 Lưu ý rằng điều kiện b) của Định lý 2 tự động được thỏa mãn nếu $Y$ là một không gian tiền compact.
 
@@ -273,7 +273,7 @@ Lưu ý rằng điều kiện b) của Định lý 2 tự động được thỏ
 
 Cho $X$ là một không gian tôpô (tương ứng, không gian đều), cho $Y$ là một không gian đều Hausdorff và cho $H$ là một tập con đều liên tục (tương ứng, đều liên tục đồng đều) của $C(X; Y)$. Giả sử rằng $H(x)$ là tương đối compact trong $Y$ với mỗi $x \in X$. Khi đó $H$ là tương đối compact trong $C(X; Y)$ đối với tôpô hội tụ compact (tương ứng, tiền compact).
 
-Cho $\overline{H}$ là bao đóng của $H$ trong $\mathcal{F}_s(X; Y)$. $\overline{H}$ là đều liên tục (tương ứng, đều liên tục đồng đều) (no. 3, Mệnh đề 6). Hơn nữa, ta có $\overline{H}(x) \subset \overline{H(x)}$ (\S 1, no. 2, Nhận xét 6) và do đó $\overline{H}(x)$ cũng tương đối compact; suy ra Định lý 2 cho thấy rằng $\overline{H}$ là tiền compact đối với $\mathcal{S}$-hội tụ, trong đó $\mathcal{S}$ ký hiệu tập tất cả các tập con compact (tương ứng, tiền compact) của $X$. Hơn nữa, vì $\overline{H(x)}$ là compact, và do đó đầy đủ, nên $\overline{H}$ là đầy đủ đối với tính đều của hội tụ điểm (Chương II, \S 3, no. 5, Mệnh đề 10 và no. 4, Mệnh đề 8) và do đó cũng đối với tính đều của $\mathcal{S}$-hội tụ (\S 1, no. 5, Mệnh đề 5, Hệ quả 2); vì thế $\overline{H}$ là compact, vì nó tiền compact, đầy đủ và Hausdorff (\S 1, no. 2, Mệnh đề 1).
+Cho $\overline{H}$ là bao đóng của $H$ trong $\mathcal{F}_s(X; Y)$. $\overline{H}$ là đều liên tục (tương ứng, đều liên tục đồng đều) (no. 3, Mệnh đề 6). Hơn nữa, ta có $\overline{H}(x) \subset \overline{H(x)}$ (§ 1, no. 2, Nhận xét 6) và do đó $\overline{H}(x)$ cũng tương đối compact; suy ra Định lý 2 cho thấy rằng $\overline{H}$ là tiền compact đối với $\mathcal{S}$-hội tụ, trong đó $\mathcal{S}$ ký hiệu tập tất cả các tập con compact (tương ứng, tiền compact) của $X$. Hơn nữa, vì $\overline{H(x)}$ là compact, và do đó đầy đủ, nên $\overline{H}$ là đầy đủ đối với tính đều của hội tụ điểm (Chương II, § 3, no. 5, Mệnh đề 10 và no. 4, Mệnh đề 8) và do đó cũng đối với tính đều của $\mathcal{S}$-hội tụ (§ 1, no. 5, Mệnh đề 5, Hệ quả 2); vì thế $\overline{H}$ là compact, vì nó tiền compact, đầy đủ và Hausdorff (§ 1, no. 2, Mệnh đề 1).
 
 #### Hệ quả 2 {#top-x-s2-thm-2-cor-2 .statement}
 
@@ -289,7 +289,7 @@ Xét theo Hệ quả 1, chỉ cần chứng minh rằng, nếu $H$ tương đố
 
 #### Nhận xét {#top-x-s2-n5-rem-1 .statement}
 
-Cho $X$ là một không gian tôpô, $Y$ là một không gian đều và $\mathcal{S}$ là một tập hợp các tập con của $X$. Khi đó trên mọi tập hợp con *tiền compact* $H$ của $\mathcal{F}_{\mathcal{S}}(X; Y)$, tính đều của sự hội tụ $\mathcal{S}$ trùng với tính đều của sự hội tụ từng điểm trong $B = \bigcup_{A \in \mathcal{S}} A$. Ta có thể rút gọn về trường hợp $B = X$ và $Y$ là Hausdorff và đầy đủ; vì nếu $j$ là đơn ánh chính tắc $B \to X$ và $i$ là ánh xạ chính tắc $Y \to \hat{Y}$, thì tính đều của sự hội tụ $\mathcal{S}$ trên $\mathcal{F}(X; Y)$ là ảnh ngược của tính đều của sự hội tụ $\mathcal{S}$ trên $\mathcal{F}(B; \hat{Y})$ qua ánh xạ $\theta : u \to i \circ u \circ j$ (\S 1, no. 4, Mệnh đề 4), và $H$ là tiền compact khi và chỉ khi $\theta(H)$ là như vậy (Chương II, \S 4, no. 2, Mệnh đề 3). Vì thế, nếu $B = X$ và $Y$ là Hausdorff và đầy đủ, $\mathcal{F}_{\mathcal{S}}(X; Y)$ là Hausdorff và đầy đủ (\S 1, no. 2, Mệnh đề 1 và no. 5, Định lý 1); do đó bao đóng $\overline{H}$ của $H$ trong không gian này là *compact*. Trên $\overline{H}$, tôpô hội tụ từng điểm là Hausdorff (\S 1, no. 2, Mệnh đề 1) và thô hơn tôpô của sự hội tụ $\mathcal{S}$; do đó hai tôpô này trùng nhau (Chương I, \S 9, no. 4, Định lý 2, Hệ quả 3) và do đó các tính đều của sự hội tụ $\mathcal{S}$ và sự hội tụ từng điểm cũng trùng nhau (Chương II, \S 4, no. 1, Định lý 1).
+Cho $X$ là một không gian tôpô, $Y$ là một không gian đều và $\mathcal{S}$ là một tập hợp các tập con của $X$. Khi đó trên mọi tập hợp con *tiền compact* $H$ của $\mathcal{F}_{\mathcal{S}}(X; Y)$, tính đều của sự hội tụ $\mathcal{S}$ trùng với tính đều của sự hội tụ từng điểm trong $B = \bigcup_{A \in \mathcal{S}} A$. Ta có thể rút gọn về trường hợp $B = X$ và $Y$ là Hausdorff và đầy đủ; vì nếu $j$ là đơn ánh chính tắc $B \to X$ và $i$ là ánh xạ chính tắc $Y \to \hat{Y}$, thì tính đều của sự hội tụ $\mathcal{S}$ trên $\mathcal{F}(X; Y)$ là ảnh ngược của tính đều của sự hội tụ $\mathcal{S}$ trên $\mathcal{F}(B; \hat{Y})$ qua ánh xạ $\theta : u \to i \circ u \circ j$ (§ 1, no. 4, Mệnh đề 4), và $H$ là tiền compact khi và chỉ khi $\theta(H)$ là như vậy (Chương II, § 4, no. 2, Mệnh đề 3). Vì thế, nếu $B = X$ và $Y$ là Hausdorff và đầy đủ, $\mathcal{F}_{\mathcal{S}}(X; Y)$ là Hausdorff và đầy đủ (§ 1, no. 2, Mệnh đề 1 và no. 5, Định lý 1); do đó bao đóng $\overline{H}$ của $H$ trong không gian này là *compact*. Trên $\overline{H}$, tôpô hội tụ từng điểm là Hausdorff (§ 1, no. 2, Mệnh đề 1) và thô hơn tôpô của sự hội tụ $\mathcal{S}$; do đó hai tôpô này trùng nhau (Chương I, § 9, no. 4, Định lý 2, Hệ quả 3) và do đó các tính đều của sự hội tụ $\mathcal{S}$ và sự hội tụ từng điểm cũng trùng nhau (Chương II, § 4, no. 1, Định lý 1).
 
 ### Bài tập {#top-x-s2-exercises}
 

@@ -56,9 +56,9 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: f3abda162ae4f2167c2a8015e1e5e74aec3f352555bc97a7fc7601d61c84078c
+content_sha256: 82e42d161d4f4680d84e47cb45de3f85ffdf038e5b86ba05f0f14303cf30c4ff
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
-source_content_sha256: 419ab91b51b52ce173f1a3d494e9786a6b3f625f788e1e4f59833324cd27ed0e
+source_content_sha256: f223846d7e283fe3e359c0fdab7593b17359f020a6953967222d4e06deabaf12
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-ae8ef630
 glossary_version: 34
@@ -554,7 +554,7 @@ Từ đó, suy ra ngay:
 
 Điều này hơn nữa là tầm thường khi G *giao hoán*. Chú ý thêm rằng nếu G *rời rạc*, thì độ đo trên G sao cho mỗi điểm có khối lượng 1 hiển nhiên là một độ đo Haar trái và phải trên G, gọi là độ đo Haar *chuẩn hóa* trên G. Nếu G *compact*, thì tồn tại một và chỉ một độ đo Haar trên G sao cho $\mu(G) = 1$; nó được gọi là độ đo Haar *chuẩn hóa* của G. Hai quy ước trên không phù hợp với nhau khi G vừa rời rạc vừa compact, tức là hữu hạn; trong trường hợp này ta sẽ luôn nói tường minh ý nghĩa của độ đo Haar chuẩn hóa.
 
-Các nhóm con và các nhóm thương của một nhóm đơn môđula không phải luôn luôn đơn môđula (\S 2, Bài tập 5). Tuy nhiên, xem Mệnh đề 10 của \S 2, Mục 7.
+Các nhóm con và các nhóm thương của một nhóm đơn môđula không phải luôn luôn đơn môđula (§ 2, Bài tập 5). Tuy nhiên, xem Mệnh đề 10 của § 2, Mục 7.
 
 *Sau này ta sẽ thấy rằng các nhóm Lie liên thông nửa đơn hoặc lũy linh là đơn môđula.*
 

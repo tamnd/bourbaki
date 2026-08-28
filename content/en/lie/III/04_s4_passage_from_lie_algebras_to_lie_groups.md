@@ -40,7 +40,7 @@ subsections:
       pdf_page: 312
 statements: 40
 exercises: 8
-content_sha256: 15037400c4cf04836cdcbb1cc5df11c077fc63331e83bcc3b8132bb244c069d8
+content_sha256: dc59481a501f40d45c0742b137c5851b6eca2830d1e1723f2728e33fa3a87a07
 ---
 
 ## § 4. PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
@@ -53,7 +53,7 @@ Recall that, until the end of the chapter, K is assumed to be of characteristic 
 
 *Let G be a Lie group germ and $\mathfrak{h}$ a Lie subalgebra of $L(G)$ admitting a topological supplement. The union of the $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) for $g \in G$ is an integrable vector subbundle of $T(G)$.*
 
-By considering the left trivialization of $T(G)$ (\S 2, no. 3), it is seen immediately that the $g\mathfrak{h}$, for $g \in G$, are the fibres of a vector subbundle E of $T(G)$. Let $g \in G$. The set of $(L_a)_g$, where $a \in \mathfrak{h}$, is equal to $g\mathfrak{h}$. Now, if $a$ and $b$ belong to $\mathfrak{h}$, then $[L_a, L_b] = L_{[a, b]}$ and $[a, b] \in \mathfrak{h}$. Hence E is integrable (*Differentiable and Analytic Manifolds*, R, 9.3.3 (iv)). The argument is similar for the $\mathfrak{h}g$.
+By considering the left trivialization of $T(G)$ (§ 2, no. 3), it is seen immediately that the $g\mathfrak{h}$, for $g \in G$, are the fibres of a vector subbundle E of $T(G)$. Let $g \in G$. The set of $(L_a)_g$, where $a \in \mathfrak{h}$, is equal to $g\mathfrak{h}$. Now, if $a$ and $b$ belong to $\mathfrak{h}$, then $[L_a, L_b] = L_{[a, b]}$ and $[a, b] \in \mathfrak{h}$. Hence E is integrable (*Differentiable and Analytic Manifolds*, R, 9.3.3 (iv)). The argument is similar for the $\mathfrak{h}g$.
 
 The integral foliation (*Differentiable and Analytic Manifolds*, R, 9.3.2) of the union of the $g\mathfrak{h}$ (resp. $\mathfrak{h}g$) is called the *left* (resp. *right*) *foliation* of G associated with $\mathfrak{h}$.
 
@@ -185,13 +185,13 @@ There exists a Lie group germ $H'$ with Lie algebra isomorphic to $\mathfrak{h}$
 
 Let G be a Lie group germ and H and $H'$ two Lie subgroup germs. In order that $L(H) \supset L(H')$, it is necessary and sufficient that $H \cap H'$ be open in $H'$.
 
-If $H \cap H'$ is open in $H'$, then $L(H') = L(H \cap H') \subset L(H)$. Suppose that $L(H) \supset L(H')$. Let i, $i'$ be the canonical injections of H, $H'$ into G. By shrinking $H'$ if necessary, it can be assumed that there exists a morphism $\psi$ of $H'$ into H such that $L(\psi)$ is the canonical injection of $L(H')$ into $L(H)$ (no. 1, Theorem 1). Then $L(i \circ \psi) = L(i')$ and hence there exists a neighbourhood V of $e_{H'}$ in $H'$ such that $i \circ \psi$ and $i'$ coincide on V (Theorem 1). Therefore $V \subset H$, hence $V \subset H \cap H'$ and $H \cap H'$ is open in $H'$ (\S 1, no. 10).
+If $H \cap H'$ is open in $H'$, then $L(H') = L(H \cap H') \subset L(H)$. Suppose that $L(H) \supset L(H')$. Let i, $i'$ be the canonical injections of H, $H'$ into G. By shrinking $H'$ if necessary, it can be assumed that there exists a morphism $\psi$ of $H'$ into H such that $L(\psi)$ is the canonical injection of $L(H')$ into $L(H)$ (no. 1, Theorem 1). Then $L(i \circ \psi) = L(i')$ and hence there exists a neighbourhood V of $e_{H'}$ in $H'$ such that $i \circ \psi$ and $i'$ coincide on V (Theorem 1). Therefore $V \subset H$, hence $V \subset H \cap H'$ and $H \cap H'$ is open in $H'$ (§ 1, no. 10).
 
 #### Proposition 2 {#lie-iii-s4-prop-2 .statement}
 
 Let G be a Lie group over K, k a non-discrete closed subfield of K and H a Lie subgroup of the Lie k-group G. Suppose that $L(H)$ is a vector sub-K-space of $L(G)$ which admits a topological supplement. Then H is a Lie subgroup of the Lie K-group G.
 
-There exists a Lie subgroup germ $H'$ of the Lie K-group G such that $L(H') = L(H)$ (Theorem 3). Consider G, H, $H'$ as Lie k-group germs; Theorem 3 then proves that $H \cap H'$ is open in H and $H'$. Hence there exists an open neighbourhood U of e in G such that $U \cap H$ is a submanifold of G over K. Therefore, H is a Lie subgroup of the Lie K-group G (\S 1, no. 3, Proposition 6).
+There exists a Lie subgroup germ $H'$ of the Lie K-group G such that $L(H') = L(H)$ (Theorem 3). Consider G, H, $H'$ as Lie k-group germs; Theorem 3 then proves that $H \cap H'$ is open in H and $H'$. Hence there exists an open neighbourhood U of e in G such that $U \cap H$ is a submanifold of G over K. Therefore, H is a Lie subgroup of the Lie K-group G (§ 1, no. 3, Proposition 6).
 
 ### 3. EXPONENTIAL MAPPINGS
 
@@ -228,7 +228,7 @@ Theorem 4 implies immediately that, for every Lie group germ G, there exists an 
 
 (1) Let G be the additive group of a complete normable space E. The canonical isomorphism of L(G) onto E satisfies condition (i) of Theorem 4 and is therefore an exponential mapping of G.
 
-(2) Let A be a complete normed unital associative algebra. Let A* be the Lie group consisting of the invertible elements of A. We identify L(A*) with A (\$ 3, no. 9, Corollary to Proposition 33). If K = \mathbf{R} or \mathbf{C}, we know that the mapping exp of A into A* defined in Chapter II, \$ 7, no. 3 satisfies condition (i) of Theorem 4 and hence is an exponential mapping. Now let K be ultrametric. Let $p$ be the characteristic of the residue field of K. If $p \neq 0$, let $\lambda = |p|^{1/(p-1)}$; if $p = 0$, let $\lambda = 1$. Let U be the set of $x \in A$ such that $\|x\| < \lambda$. We know (Chapter II, \$ 8, no. 4) that the mapping exp of U into A* satisfies condition (i) of Theorem 4 and hence is an exponential mapping. Note that U is an additive subgroup of A.
+(2) Let A be a complete normed unital associative algebra. Let A* be the Lie group consisting of the invertible elements of A. We identify L(A*) with A (§ 3, no. 9, Corollary to Proposition 33). If K = \mathbf{R} or \mathbf{C}, we know that the mapping exp of A into A* defined in Chapter II, § 7, no. 3 satisfies condition (i) of Theorem 4 and hence is an exponential mapping. Now let K be ultrametric. Let $p$ be the characteristic of the residue field of K. If $p \neq 0$, let $\lambda = |p|^{1/(p-1)}$; if $p = 0$, let $\lambda = 1$. Let U be the set of $x \in A$ such that $\|x\| < \lambda$. We know (Chapter II, § 8, no. 4) that the mapping exp of U into A* satisfies condition (i) of Theorem 4 and hence is an exponential mapping. Note that U is an additive subgroup of A.
 
 This example explains the terminology adopted in Definition 1.
 
@@ -462,7 +462,7 @@ By *Differentiable and Analytic Manifolds*, R, 7.7.1, $\theta$ and $\theta'$ are
 
 #### Lemma 6 {#lie-iii-s4-lem-6 .statement}
 
-Let $G$ be a Lie group germ, $\omega$ the canonical left differential form of $G$ (\S 3, no. 18.9), $M$ a manifold of class $C^r$ ($r \geq 2$) and $\alpha$ a differential form of class $C^{r-1}$ and degree 1 on $M$ with values in $L(G)$.
+Let $G$ be a Lie group germ, $\omega$ the canonical left differential form of $G$ (§ 3, no. 18.9), $M$ a manifold of class $C^r$ ($r \geq 2$) and $\alpha$ a differential form of class $C^{r-1}$ and degree 1 on $M$ with values in $L(G)$.
 
 (i) The elements of $T(M \times G)$ at which the differential form
 $$
@@ -472,7 +472,7 @@ is zero constitute a vector subbundle $S$ of $T(M \times G)$ of class $C^{r-1}$.
 
 (ii) For all $(x, g) \in M \times G$, $T(\mathrm{pr}_1)|S_{(x, g)}$ is an isomorphism of $S_{(x, g)}$ onto $T_x(M)$.
 
-(iii) *If* $d\alpha + [\alpha]^2 = 0$ (cf. \S 3, no. 14) *the vector subbundle* $S$ *is integrable*.
+(iii) *If* $d\alpha + [\alpha]^2 = 0$ (cf. § 3, no. 14) *the vector subbundle* $S$ *is integrable*.
 
 If $(x, g) \in M \times G$ and $(u, v) \in T_x(M) \times T_g(G)$, then
 $$
@@ -500,14 +500,14 @@ Let G be a Lie group germ, M a manifold of class $C^r$ ($r \geq 2$) and $\alpha$
 Let $x \in M$ and $g \in G$. By Lemma 6 (whose notation we adopt) and Differentiable and Analytic Manifolds, R, 9.3.7, there exist an open neighbourhood U of $x$ in M and a mapping $m \mapsto \phi(m) = (m, f(m))$ of class $C^{r-1}$ of U into $M \times G$ such that $f(x) = g$ and $\phi^*(0) = 0$. Then
 
 $$
-f^{-1}.df = f^*(\omega) \quad (\S 3, \text{no. 18.9}) \\
+f^{-1}.df = f^*(\omega) \quad (§ 3, \text{no. 18.9}) \\
 = (\mathrm{pr}_2 \circ \phi)^*(\omega) \quad (\text{for } f = \mathrm{pr}_2 \circ \phi) \\
 = \phi^*(\mathrm{pr}_1^*\alpha - \theta) \quad (\text{Lemma 6}) \\
 = \phi^*(\mathrm{pr}_1^*\alpha) \quad (\text{for } \phi^*(\theta) = 0) \\
 = \alpha \quad (\text{for } \mathrm{pr}_1 \circ \phi = \mathrm{Id}_U).
 $$
 
-Let $f'$ be a mapping of class $C^{r-1}$ of U into G such that $f'(x) = g$ and ${f'}^{-1}df' = \alpha$. By \S 3, 18.9, ${f'}^{-1}$ is locally constant and hence $f' = f$ in a neighbourhood of $x$.
+Let $f'$ be a mapping of class $C^{r-1}$ of U into G such that $f'(x) = g$ and ${f'}^{-1}df' = \alpha$. By § 3, 18.9, ${f'}^{-1}$ is locally constant and hence $f' = f$ in a neighbourhood of $x$.
 
 #### Proposition 10 {#lie-iii-s4-prop-10 .statement}
 
@@ -527,7 +527,7 @@ $$
 $$
 and hence $m \mapsto \alpha_{m_0}^{-1} \circ \alpha_m$ is the left canonical differential form of $M'$.
 
-Let $M''$ be an open neighbourhood of $m_0$, with a Lie group germ structure, with identity element $m_0$ and with the analogous properties to properties (i) and (ii). Then $\alpha_{m_0}$ is an isomorphism of $L(M')$ onto $g$ and also of $L(M'')$ onto $g$ and hence $L(M') = L(M'')$. Therefore, shrinking $M'$ and $M''$, it can be assumed that there exists an isomorphism $\phi$ of the group germ $M'$ onto the group germ $M''$ (no. 1, Corollary 1 to Theorem 1). Then $\phi^{-1}.d\phi$ is the canonical left differential of $M'$. On the other hand, let $\psi$ be the canonical injection of the manifold $M' \cap M''$ into the Lie group germ $M''$; clearly $\psi^{-1}.d\psi$ is a restriction of the canonical left differential of $M''$. Hence $(\psi^{-1}.d\psi)(m) = \alpha_{m_0}^{-1} \circ \alpha_m = (\phi^{-1}.d\phi)(m)$ for all $m \in M' \cap M''$. Therefore $\phi$ and $\psi$ coincide on a neighbourhood of $m_0$ (\S 3, 18.9). This proves the last assertion of the proposition.
+Let $M''$ be an open neighbourhood of $m_0$, with a Lie group germ structure, with identity element $m_0$ and with the analogous properties to properties (i) and (ii). Then $\alpha_{m_0}$ is an isomorphism of $L(M')$ onto $g$ and also of $L(M'')$ onto $g$ and hence $L(M') = L(M'')$. Therefore, shrinking $M'$ and $M''$, it can be assumed that there exists an isomorphism $\phi$ of the group germ $M'$ onto the group germ $M''$ (no. 1, Corollary 1 to Theorem 1). Then $\phi^{-1}.d\phi$ is the canonical left differential of $M'$. On the other hand, let $\psi$ be the canonical injection of the manifold $M' \cap M''$ into the Lie group germ $M''$; clearly $\psi^{-1}.d\psi$ is a restriction of the canonical left differential of $M''$. Hence $(\psi^{-1}.d\psi)(m) = \alpha_{m_0}^{-1} \circ \alpha_m = (\phi^{-1}.d\phi)(m)$ for all $m \in M' \cap M''$. Therefore $\phi$ and $\psi$ coincide on a neighbourhood of $m_0$ (§ 3, 18.9). This proves the last assertion of the proposition.
 
 #### Corollary {#lie-iii-s4-n6-cor-1 .statement}
 
@@ -546,7 +546,7 @@ $$
 and
 $$
 \begin{align*}
-[\alpha]^2 &= \sum_{k=1}^n [\omega_k e_k]^2 + \sum_{i<j} (\omega_i e_i) \wedge (\omega_j e_j) \quad (\S 3, \text{formula (30)}) \\
+[\alpha]^2 &= \sum_{k=1}^n [\omega_k e_k]^2 + \sum_{i<j} (\omega_i e_i) \wedge (\omega_j e_j) \quad (§ 3, \text{formula (30)}) \\
 &= \sum_{i<j} (\omega_i \wedge \omega_j)[e_i, e_j] \\
 &= -\sum_{k=1}^n \sum_{i<j} (c_{ijk}\omega_i \wedge \omega_j)e_k \\
 &= -d\alpha.
@@ -604,7 +604,7 @@ Let $S_{(g, x)}$ be the set of $Q_a(g, x)$ for $a \in L(G)$. By Lemma 5 of no. 6
 $$
 \begin{align*}
 [Q_a, Q_b](g, x) &= ([R_a, R_b](g), [D_a, D_b](x)) \\
-&= (-R_{[a, b]}(g), -D_{[a, b]}(x)) \quad (\S 3, 18.6) \\
+&= (-R_{[a, b]}(g), -D_{[a, b]}(x)) \quad (§ 3, 18.6) \\
 &= Q_{-[a, b]}(g, x)
 \end{align*}
 $$

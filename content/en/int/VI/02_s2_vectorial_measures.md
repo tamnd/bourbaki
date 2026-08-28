@@ -53,7 +53,7 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 18
-content_sha256: 255b2721eede2668c0654ecdb992c6eeb9215d7852de73bed08bd78781501eb8
+content_sha256: a8aa27b4be882b310434bde98ac4fb834ca90937904a9e3a872c008cc7e64bb3
 ---
 
 ## § 2. VECTORIAL MEASURES
@@ -120,7 +120,7 @@ It is clear that the set of finite numerical functions essentially integrable fo
 
 — Let us take for $m$ the identity mapping of $\mathscr{K}(T)$ onto itself. Since the dual of $\mathscr{K}(T)$ is the space $\mathscr{M}(T)$ of scalar measures on $T$, the functions $f \in \mathcal{L}(m)$ are those that are essentially integrable for *every* scalar measure $\mu$ (cf. Exer. 1), and the integral $\int f dm$ is the linear form $\mu \mapsto \int f d\mu$ on $\mathscr{M}(T)$. One cannot have $\int f d\mu = 0$ for every measure $\mu \in \mathscr{M}(T)$ unless $f = 0$, as one sees on taking $\mu = \varepsilon_t$, where $t$ is arbitrary in $T$; in other words, the mapping $f \mapsto \int f dm$ is an *injection* of $\mathcal{L}(m)$ into the algebraic dual of $\mathscr{M}(T)$, which extends the identity mapping of $\mathscr{K}(T)$. The relation $\int f dm \in F = \mathscr{K}(T)$ is therefore equivalent to $f \in \mathscr{K}(T)$.
 
-Let $u$ be a continuous linear mapping of $F$ into a Hausdorff locally convex space $G$, and let us denote again by $u$ its extension by bitransposition to a linear mapping of ${F'}^*$ into ${G'}^*$ (\S 1, No. 1). With this convention:
+Let $u$ be a continuous linear mapping of $F$ into a Hausdorff locally convex space $G$, and let us denote again by $u$ its extension by bitransposition to a linear mapping of ${F'}^*$ into ${G'}^*$ (§ 1, No. 1). With this convention:
 
 #### Proposition 2 {#int-vi-s2-prop-2 .statement}
 

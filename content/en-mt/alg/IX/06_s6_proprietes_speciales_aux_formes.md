@@ -36,11 +36,11 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: a07afc620cb362265de5986603e5048b5d492de96afc0a31d3799febccffe47e
+content_sha256: 0a78bb4f9097987044d8c3ed41f08dfb8b84d8c4686fda2d034f7fc2795186ac
 translated_from: content/fr/alg/IX/06_s6_proprietes_speciales_aux_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 18811443a6523c15763f72b724a529f24db99c244334693b67b5acac00f7f87c
+source_content_sha256: 47f1f659ab524c37f71e815f6a42017440fa35076b74ec187bcb8b0be0c99277
 translation_model: gpt-5-6-mini
 translation_run: translate-en-mt-bddeeb87
 glossary_version: 34
@@ -123,7 +123,7 @@ $$
 \Phi(e_n, e_n) = D_{nn}^{-1} D_{n+1, n+1}.
 $$
 
-Indeed, since the restriction of $\Phi$ to $E_{n-1}$ is non-degenerate, one has $D_{nn} \neq 0$ (\S 2, prop. 3); note that $D_{11} = 1$ since the determinant of the empty matrix is equal to 1. Formulas (2) imply first that one has $e_n \equiv x_n$ (mod. $E_{n-1}$) for every $n$, and hence that the $e_n$ are linearly independent, and that $(e_1, \ldots, e_n)$ is a basis of $E_n$. For every $j < n$, one has
+Indeed, since the restriction of $\Phi$ to $E_{n-1}$ is non-degenerate, one has $D_{nn} \neq 0$ (§ 2, prop. 3); note that $D_{11} = 1$ since the determinant of the empty matrix is equal to 1. Formulas (2) imply first that one has $e_n \equiv x_n$ (mod. $E_{n-1}$) for every $n$, and hence that the $e_n$ are linearly independent, and that $(e_1, \ldots, e_n)$ is a basis of $E_n$. For every $j < n$, one has
 
 $$
 \Phi(e_n, x_j) = D_{nn}^{-1} \sum_{k=1}^n D_{kn} \Phi(x_k, x_j) = 0
@@ -176,7 +176,7 @@ and, since A is commutative, it is a necessary and sufficient condition for $U$ 
 
 *Suppose that A is a commutative field and that E is of finite dimension $> 0$. Let $\Phi$ be a non-degenerate hermitian form on E. The mapping $u \to \det u$ is a homomorphism of the unitary group $\mathbf{U}(\Phi)$ associated with $\Phi$ onto the multiplicative subgroup H of A formed by the elements $\rho$ such that $\rho \overline{\rho} = 1$ (subgroup reduced to $\{1, -1\}$ when J is the identity).*
 
-So let $u$ be an element of $\mathbf{U}(\Phi)$, $U$ its matrix with respect to a basis of E, and $R$ the matrix of $\Phi$ with respect to this basis. The relation $R = {}^t U \cdot R \cdot \overline{U}$ ($\S 1$, n° 10, formula (48)) shows that $(\det U)(\det \overline{U}) = 1$ since $R$ is invertible; whence $(\det u)(\det u) = 1$. The homomorphism $u \to \det u$ maps $\mathbf{U}(\Phi)$ onto H. Indeed, when A has characteristic 2 and J is the identity, H is reduced to the element 1. Otherwise there exists an orthogonal basis $(e_i)$ ($i = 1, \ldots, n$) of E (th. 1); for every $\rho \in A$ such that $\rho \overline{\rho} = 1$, let $u$ be the automorphism of E defined by $u(e_1) = \rho e_1$ and $u(e_i) = e_i$ for $i = 2, \ldots, n$; then $u$ is unitary and $\det u = \rho$, whence the proposition.
+So let $u$ be an element of $\mathbf{U}(\Phi)$, $U$ its matrix with respect to a basis of E, and $R$ the matrix of $\Phi$ with respect to this basis. The relation $R = {}^t U \cdot R \cdot \overline{U}$ ($§ 1$, n° 10, formula (48)) shows that $(\det U)(\det \overline{U}) = 1$ since $R$ is invertible; whence $(\det u)(\det u) = 1$. The homomorphism $u \to \det u$ maps $\mathbf{U}(\Phi)$ onto H. Indeed, when A has characteristic 2 and J is the identity, H is reduced to the element 1. Otherwise there exists an orthogonal basis $(e_i)$ ($i = 1, \ldots, n$) of E (th. 1); for every $\rho \in A$ such that $\rho \overline{\rho} = 1$, let $u$ be the automorphism of E defined by $u(e_1) = \rho e_1$ and $u(e_i) = e_i$ for $i = 2, \ldots, n$; then $u$ is unitary and $\det u = \rho$, whence the proposition.
 
 Under the conditions of prop. 3, the kernel of the homomorphism $u \to \det u$ is a normal subgroup of $\mathbf{U}(\Phi)$, called the special unitary group associated with $\Phi$; it is sometimes denoted by $\mathbf{SU}(\Phi)$.
 
@@ -251,7 +251,7 @@ a) First suppose that $u(x) = x$. Then the hyperplane $H$ orthogonal to $x$ is n
 
 b) In the second place, suppose that $u(x) = -x$. If $s$ denotes the symmetry with respect to the hyperplane $H$ orthogonal to $x$, and if we put $v = su$, we have $v(x) = x$, and we are reduced to case a).
 
-c) Finally, let us pass to the general case, and put $y = u(x)$, so that $Q(y) = Q(x)$. Under these conditions, the vectors $x - y$ and $x + y$ cannot both be isotropic, for, from the relations $Q(x - y) = 0$ and $Q(x + y) = 0$, we would deduce, on adding member to member, $2(Q(x) + Q(y)) = 0$ ($\S 3$, no 4, déf. 2), whence $4Q(x) = 0$, contrary to the assumption. Suppose, for example, that $a = x - y$ is not isotropic; we then have
+c) Finally, let us pass to the general case, and put $y = u(x)$, so that $Q(y) = Q(x)$. Under these conditions, the vectors $x - y$ and $x + y$ cannot both be isotropic, for, from the relations $Q(x - y) = 0$ and $Q(x + y) = 0$, we would deduce, on adding member to member, $2(Q(x) + Q(y)) = 0$ ($§ 3$, no 4, déf. 2), whence $4Q(x) = 0$, contrary to the assumption. Suppose, for example, that $a = x - y$ is not isotropic; we then have
 
 $$
 \Phi(y, a) = Q(y + a) - Q(y) - Q(a) = Q(x) - Q(y) - Q(a) = -Q(a);
@@ -286,7 +286,7 @@ Distinguish then two cases:
 
 the homotheties of ratio $\neq 0$ are direct similitudes; the same is true of the orthogonal transformations of determinant 1 (No. 2); the orthogonal transformations of determinant -1 are inverse similitudes.
 
-The preceding definitions and results are still valid for $\varepsilon$-hermitian forms ($\S 3$, No. 1), and in particular for alternating forms.
+The preceding definitions and results are still valid for $\varepsilon$-hermitian forms ($§ 3$, No. 1), and in particular for alternating forms.
 
 Let A be a commutative field and Q a quadratic form $\neq 0$ on E. A similitude (relative to Q) is any automorphism $u$ of E such that there exists a nonzero element $\alpha$ of A (called the multiplier of $u$) for which $Q(u(x)) = \alpha Q(x)$ for every $x \in E$. It is clear that $u$ is then a similitude with multiplier $\alpha$ relative to the bilinear form associated with Q; the converse is true when the characteristic of A is $\neq 2$.
 
@@ -298,7 +298,7 @@ Let A be a field, L an affine space over A and T the space of translations of L 
 
 If J is the identity (which implies that A is commutative), L is rather called a Euclidean space.
 
-If $a$ and $b$ are two points of L, put $e(a, b) = \Phi(b - a, b - a)$. Let c be a third point of L. For $b - a$ and $c - a$ to be orthogonal, it is necessary, by formula (17) of $\S 1$, No. 5, that we have $e(b, c) = e(a, b) + e(a, c)$, and this condition is sufficient when $J = 1$ and A is not of characteristic 2 (“Pythagorean theorem”).
+If $a$ and $b$ are two points of L, put $e(a, b) = \Phi(b - a, b - a)$. Let c be a third point of L. For $b - a$ and $c - a$ to be orthogonal, it is necessary, by formula (17) of $§ 1$, No. 5, that we have $e(b, c) = e(a, b) + e(a, c)$, and this condition is sufficient when $J = 1$ and A is not of characteristic 2 (“Pythagorean theorem”).
 
 Two linear varieties of L are said to be orthogonal if their directions (Chapter II, 2nd ed., App. II, No. 3) are orthogonal. A linear variety of L is said to be isotropic (resp. totally isotropic) if its direction is isotropic (resp. totally isotropic). A vector of T is said to be orthogonal to a linear variety of L if it is orthogonal to the direction of that variety.
 
@@ -374,19 +374,19 @@ Soient A un corps commutatif non ordonnable (chap. VI, § 2, exerc. 8) de caract
 
 (b) Suppose that the subgroup S of the multiplicative group $A^*$, formed by the squares of elements of A, is of finite index s in $A^*$. Deduce from (a) that if $n > s$, every non-degenerate quadratic form on E has index $> 0$ (observe that every set $M_r$ is the union of 0 and of classes mod. S). *Application to the case where A is a $p$-adic field $\mathbf{Q}_p$ (Top. gén., chap. III, § 5, exerc. 35).*
 
-Soient A un corps commutatif de caractéristique $\neq 2$, E un espace vectoriel de dimension finie n sur A, Q une forme quadratique non dégénérée d’indice 0 sur E. Soient $A'$ une extension algébrique de A, de degré fini et impair, $E'$ l’espace vectoriel sur $A'$ obtenu par extension à $A'$ du corps des scalaires de E. Show that the extension $Q'$ of Q to $E'$ ($\S 3$, no 4, prop. 3) is still of index 0. (Reduce to the case where $A' = A[X]/(f)$, f being an irreducible polynomial of odd degree m over A. Let $(e_i)$ be an orthogonal basis of E for Q, and let $\rho_i = Q(e_i)$; show that, in $A[X]$, a relation of the form $\sum_i \rho_i(g_i(X))^2 = f(X)h(X)$, where the $g_i$ are non-zero polynomials not all zero, of degree $\leq m - 1$, is impossible; observe for this that h would necessarily be of odd degree, and consider an irreducible factor of h, of odd degree).
+Soient A un corps commutatif de caractéristique $\neq 2$, E un espace vectoriel de dimension finie n sur A, Q une forme quadratique non dégénérée d’indice 0 sur E. Soient $A'$ une extension algébrique de A, de degré fini et impair, $E'$ l’espace vectoriel sur $A'$ obtenu par extension à $A'$ du corps des scalaires de E. Show that the extension $Q'$ of Q to $E'$ ($§ 3$, no 4, prop. 3) is still of index 0. (Reduce to the case where $A' = A[X]/(f)$, f being an irreducible polynomial of odd degree m over A. Let $(e_i)$ be an orthogonal basis of E for Q, and let $\rho_i = Q(e_i)$; show that, in $A[X]$, a relation of the form $\sum_i \rho_i(g_i(X))^2 = f(X)h(X)$, where the $g_i$ are non-zero polynomials not all zero, of degree $\leq m - 1$, is impossible; observe for this that h would necessarily be of odd degree, and consider an irreducible factor of h, of odd degree).
 
-Soient A un corps, E un espace vectoriel sur A admettant une base dénombrable $(e_n)_{n \geq 1}$, $\Phi$ une forme sesquilinéaire hermitienne non dégénérée sur E, satisfaisant à la condition (T) ($\S 4$, no 2).
+Soient A un corps, E un espace vectoriel sur A admettant une base dénombrable $(e_n)_{n \geq 1}$, $\Phi$ une forme sesquilinéaire hermitienne non dégénérée sur E, satisfaisant à la condition (T) ($§ 4$, no 2).
 
-(a) Show that if the conditions (C) of th. 1 are not simultaneously verified, there exists in E an orthogonal basis for $\Phi$ (reason as in exerc. 4 of the $\S 5$).
+(a) Show that if the conditions (C) of th. 1 are not simultaneously verified, there exists in E an orthogonal basis for $\Phi$ (reason as in exerc. 4 of the $§ 5$).
 
-b) Suppose in addition that A is commutative, and that there exists an integer s such that on every finite-dimensional vector space of dimension $> s$ over A, every non-degenerate Hermitian sesquilinear form has index $> 0$ (cf. exerc. 7). Now prove that there then exists in E an orthonormal basis for $\Phi$. (Reason as in a), observing that for every element of A of the form $\alpha = \lambda + \overline{\lambda}$, and every non-degenerate Hermitian form $\Psi$ on a space F of dimension $> s$, there exists $z \in F$ such that $\Psi(z, z) = \alpha$ (cf. $\S 4$, no 2, prop. 4).)
+b) Suppose in addition that A is commutative, and that there exists an integer s such that on every finite-dimensional vector space of dimension $> s$ over A, every non-degenerate Hermitian sesquilinear form has index $> 0$ (cf. exerc. 7). Now prove that there then exists in E an orthonormal basis for $\Phi$. (Reason as in a), observing that for every element of A of the form $\alpha = \lambda + \overline{\lambda}$, and every non-degenerate Hermitian form $\Psi$ on a space F of dimension $> s$, there exists $z \in F$ such that $\Psi(z, z) = \alpha$ (cf. $§ 4$, no 2, prop. 4).)
 
 ¶ 10) a) Let A be a principal ideal domain in which there is only one maximal ideal $A\pi$, such that 2 is not divisible by $\pi$ (chap. VII, § 1, exerc. 4). Let E be a free module over A, of dimension n. Now prove that every symmetric bilinear form $\Phi$ on E admits an orthogonal basis. (Let r be the greatest exponent such that $\pi^r$ divides all the elements $\Phi(x, y)$; show that there exists $a \in E$ such that $\Phi(a, a) = \alpha \pi^r$, where $\alpha$ is invertible in A; deduce that E is the direct sum of $F = Aa$ and the submodule $F^0$ orthogonal to F.)
 
 b) Give an example (for $n = 2$) in which $\Phi$ is non-degenerate and in which there exists a non-isotropic submodule F of E, of rank 1, admitting a complement in E but such that $F^0$ is not a complement of F.
 
-c) Let $(e_i)$ be an orthogonal basis for $\Phi$, and $\alpha_i = \Phi(e_i, e_i)$. Now prove that the ideals $A\alpha_i$ are, up to order, independent of the orthogonal basis considered (cf. $\S 5$, th. 1).
+c) Let $(e_i)$ be an orthogonal basis for $\Phi$, and $\alpha_i = \Phi(e_i, e_i)$. Now prove that the ideals $A\alpha_i$ are, up to order, independent of the orthogonal basis considered (cf. $§ 5$, th. 1).
 
 These ideals are called the invariant factors of the form $\Phi$. Give an example of two forms having the same invariant factors and not equivalent (take two forms for which the quotient of the discriminants is not a square).
 
@@ -411,11 +411,11 @@ b) If $n = 2m$ is even, the order of the group $\mathbf{SO}(Q)$ is equal to
 $$
 (q^{2m-1} - \varepsilon q^{m-1}) (q^{2m-2} - 1) q^{2m-3} \ldots (q^2 - 1) q
 $$
-where $\varepsilon = 1$ if $(-1)^m \Delta$ is a square in $A$, $\varepsilon = -1$ otherwise, $\Delta$ denoting the discriminant of $Q$ with respect to any basis of $E$. (Method analogous to that of Exerc. 12, using Exerc. 3 of $\S 6$ and Exerc. 5 of Chap. V, § 11.)
+where $\varepsilon = 1$ if $(-1)^m \Delta$ is a square in $A$, $\varepsilon = -1$ otherwise, $\Delta$ denoting the discriminant of $Q$ with respect to any basis of $E$. (Method analogous to that of Exerc. 12, using Exerc. 3 of $§ 6$ and Exerc. 5 of Chap. V, § 11.)
 
-14) Suppose that $A$ is a commutative field, $E$ a vector space of finite dimension $n \geqslant 2$ over $A$, $\Phi$ a non-degenerate hermitian sesquilinear form on $E$, satisfying condition (T) ($\S 4$, No. 2). Now prove that the only endomorphisms $\omega$ of $E$ commuting with all the automorphisms $u$ belonging to the special unitary group $\mathbf{SU}(\Phi)$ are the homotheties, except when one has simultaneously $n = 2$, $J = 1$, $A$ being of characteristic $\neq 2$. (If $n \geqslant 3$, write that $\omega$ commutes with the involutions $u \in \mathbf{SU}(\Phi)$, and use Exerc. 3 of the $\S 4$; if $n = 2$ and $J \neq 1$, write that $\omega$ commutes with the elements of $\mathbf{SU}(\Phi)$ whose matrix is of the form $\begin{pmatrix} \lambda & 0 \\ 0 & \lambda^{-1} \end{pmatrix}$ with respect to an orthogonal basis of $E$.)
+14) Suppose that $A$ is a commutative field, $E$ a vector space of finite dimension $n \geqslant 2$ over $A$, $\Phi$ a non-degenerate hermitian sesquilinear form on $E$, satisfying condition (T) ($§ 4$, No. 2). Now prove that the only endomorphisms $\omega$ of $E$ commuting with all the automorphisms $u$ belonging to the special unitary group $\mathbf{SU}(\Phi)$ are the homotheties, except when one has simultaneously $n = 2$, $J = 1$, $A$ being of characteristic $\neq 2$. (If $n \geqslant 3$, write that $\omega$ commutes with the involutions $u \in \mathbf{SU}(\Phi)$, and use Exerc. 3 of the $§ 4$; if $n = 2$ and $J \neq 1$, write that $\omega$ commutes with the elements of $\mathbf{SU}(\Phi)$ whose matrix is of the form $\begin{pmatrix} \lambda & 0 \\ 0 & \lambda^{-1} \end{pmatrix}$ with respect to an orthogonal basis of $E$.)
 
-$\S 15$) Let $A$ be a commutative field of characteristic $\neq 2$, $E$ a vector space of dimension $n \geqslant 1$ over $A$, $Q$ a non-degenerate quadratic form on $E$. For every automorphism $u \in \mathbf{O}(Q)$, let $\omega = u - 1$, and let $r$ be the rank of $\omega$, and $W = \overline{\omega}(0)$.
+$§ 15$) Let $A$ be a commutative field of characteristic $\neq 2$, $E$ a vector space of dimension $n \geqslant 1$ over $A$, $Q$ a non-degenerate quadratic form on $E$. For every automorphism $u \in \mathbf{O}(Q)$, let $\omega = u - 1$, and let $r$ be the rank of $\omega$, and $W = \overline{\omega}(0)$.
 
 a) Show that $\omega(E)$ is the subspace $W^0$ orthogonal to $W$.
 
@@ -439,17 +439,17 @@ b) Show that if $n \geqslant 3$, the commutator group of $SO(Q)$ is generated by
 
 c) A plane $P \subset E$ is said to be *hyperbolic* if it is non-isotropic and if it contains isotropic lines (necessarily 2 in number). An automorphism $u \in O(Q)$ is said to be *hyperbolic* if there exists a hyperbolic plane $P$ such that $u(x) = x$ for all $x \in P^0$; $u$ is then said to be a hyperbolic transform associated with $P$. Show that if $Q$ is of index $\geqslant 1$, every $u \in O(Q)$ is a product of hyperbolic transforms (use Prop. 5 of No. 4 and Exerc. 4 a) of § 4). Deduce that if $P$ is a hyperbolic plane, every $u \in O(Q)$ can be written $u = t \varphi$, where $t$ is a hyperbolic transform associated with $P$ and $\varphi \in \Omega(Q)$.
 
-**¶ 18) Let A be a commutative field, E a vector space of dimension $n$ over A, $\Phi$ a non-degenerate hermitian sesquilinear form on E, satisfying condition (T) ($\S 4$, No. 2). Let V be a vector subspace of E, $H_v$ the subgroup of the unitary group $U(\Phi)$ formed by the unitary automorphisms $u$ such that $u(V) = V$.
+**¶ 18) Let A be a commutative field, E a vector space of dimension $n$ over A, $\Phi$ a non-degenerate hermitian sesquilinear form on E, satisfying condition (T) ($§ 4$, No. 2). Let V be a vector subspace of E, $H_v$ the subgroup of the unitary group $U(\Phi)$ formed by the unitary automorphisms $u$ such that $u(V) = V$.
 
 a) Show that, when V is not a totally isotropic subspace of dimension $n/2$, the image of $H_v$ by the mapping $u \to \det u$ is the subgroup of $A^*$ formed by the $\rho \in A$ such that $\rho \overline{\rho} = 1$.
 
-b) If $n$ is even and if V is a totally isotropic subspace of dimension $n/2$, show that the image of $H_v$ by the mapping $u \to \det u$ is the subgroup of $A^*$ formed by the elements of the form $\bar{\lambda}/\lambda$ (use Prop. 2 of the $\S 4$, No. 2).
+b) If $n$ is even and if V is a totally isotropic subspace of dimension $n/2$, show that the image of $H_v$ by the mapping $u \to \det u$ is the subgroup of $A^*$ formed by the elements of the form $\bar{\lambda}/\lambda$ (use Prop. 2 of the $§ 4$, No. 2).
 
 c) Let V, W be two vector subspaces of E such that the restrictions of $\Phi$ to V and W are equivalent. Show that there exists $u \in SU(\Phi)$ such that $u(V) = W$ in the following cases:
   1° J is distinct from the identity (use Th. 3 of Chap. V, § 11, No. 5).
   2° $J = 1$, A is of characteristic $\neq 2$, V and W are not totally isotropic subspaces of dimension $n/2$.
 
-d) Suppose that $J = 1$, that A is of characteristic $\neq 2$, that $n = 2m$ is even, and that $\Phi$ is a nondegenerate symmetric bilinear form of index $m$. Let V, W be two totally isotropic subspaces of dimension $m$ in E; prove that if $\dim(V \cap W) = q$, then, for every orthogonal automorphism $u$ such that $u(V) = W$, one has $\det u = (-1)^{m-q}$ (use b) and prop. 2 of the $\S 4$, no 2). Deduce that the set of totally isotropic subspaces of dimension $m$ is the union of two classes of intransitivity $N_1, N_2$ for the group $SU(\Phi)$; if V and W belong to the same class (resp. to different classes), the dimension of V ∩ W has the same parity as m (resp. does not have the same parity as m). For a similitude u (for Φ) to be direct, it is necessary and sufficient that $u(N₁) = N₁$ (use exerc. 4 c) of § 4.
+d) Suppose that $J = 1$, that A is of characteristic $\neq 2$, that $n = 2m$ is even, and that $\Phi$ is a nondegenerate symmetric bilinear form of index $m$. Let V, W be two totally isotropic subspaces of dimension $m$ in E; prove that if $\dim(V \cap W) = q$, then, for every orthogonal automorphism $u$ such that $u(V) = W$, one has $\det u = (-1)^{m-q}$ (use b) and prop. 2 of the $§ 4$, no 2). Deduce that the set of totally isotropic subspaces of dimension $m$ is the union of two classes of intransitivity $N_1, N_2$ for the group $SU(\Phi)$; if V and W belong to the same class (resp. to different classes), the dimension of V ∩ W has the same parity as m (resp. does not have the same parity as m). For a similitude u (for Φ) to be direct, it is necessary and sufficient that $u(N₁) = N₁$ (use exerc. 4 c) of § 4.
 
 19) Let A be a field, E a finite-dimensional vector space and > 0 over A, Φ an ε-hermitian sesquilinear form on E, nondegenerate and nonalternating. Let u be an automorphism of E such that one has
 
@@ -495,7 +495,7 @@ a) Now prove that the subgroup $\Gamma$ of the projective group $\mathbf{PGL}(E)
 
 b) Let $a$ be a point of $\mathbf{P}(E)$ not belonging to S, and let $\Phi_1$ be the restriction of $\Phi$ to the orthogonal hyperplane to $\overline{\pi}(a)$ in E. Now prove that the subgroup of $\Gamma$ leaving $a$ invariant is isomorphic to the quotient of the orthogonal group $\mathbf{U}(\Phi_1)$ by its center.
 
-c) Let $b$ be a point of $S$, $F$ the (isotropic) hyperplane orthogonal to $\overline{\pi}(b)$ in $E$, $M$ a nonisotropic supplementary space of $\overline{\pi}(b)$ with respect to $F$, and $\Phi_2$ the restriction of $\Phi$ to $M$. Now prove that the subgroup of $\Gamma$ leaving $b$ invariant is isomorphic to the group of similitudes of a Euclidean space $L$ of dimension $n - 1$, having as metric form the inverse form ($\S 1$, no 7) of $\Phi_2$. (Observe that if a similitude for $\Phi$ transforms the line $\overline{\pi}(b)$ into itself, it transforms $F$ into itself, and is entirely determined by its restriction to $F$).
+c) Let $b$ be a point of $S$, $F$ the (isotropic) hyperplane orthogonal to $\overline{\pi}(b)$ in $E$, $M$ a nonisotropic supplementary space of $\overline{\pi}(b)$ with respect to $F$, and $\Phi_2$ the restriction of $\Phi$ to $M$. Now prove that the subgroup of $\Gamma$ leaving $b$ invariant is isomorphic to the group of similitudes of a Euclidean space $L$ of dimension $n - 1$, having as metric form the inverse form ($§ 1$, no 7) of $\Phi_2$. (Observe that if a similitude for $\Phi$ transforms the line $\overline{\pi}(b)$ into itself, it transforms $F$ into itself, and is entirely determined by its restriction to $F$).
 
 25) Let $A$ be a commutative field of characteristic $\neq 2$, $L$ a finite-dimensional affine space of dimension $n \geqslant 2$ over $A$. We identify $L$ with the complement of a projective hyperplane $H_0$ (“hyperplane at infinity”) of a projective space $\mathbf{P}(E)$ of dimension $n$ (chap. II, 2nd ed., App. III, No. 4). We say that a nonempty set $S \subset L$ is an affine quadric (resp. affine conic if $n = 2$) if $S$ is the intersection of $L$ and a projective quadric (resp. conic) in $\mathbf{P}(E)$ (exerc. 23).
 
@@ -512,7 +512,7 @@ In the first case, the point $a$ is well determined and is the pole with respect
 
 26) Let $A$ be a commutative algebraically closed field of characteristic $\neq 2$, $E$ a finite-dimensional vector space over $A$, $Q$ a non-degenerate quadratic form on $E$. Let $u \in \mathbf{O}(Q)$; with the notation of exerc. 12 of § 4, we have $G(p, p) = \{0\}$ unless $p(X) = X - 1$ and $p(X) = X + 1$. Let $M$ be a minimal element of the set of non-isotropic subspaces contained in $G(p, p)$ and stable under $u$, and let $p^h$ be the minimal polynomial of the restriction of $u$ to $M$. Now prove that if $h$ is odd, $M$ is an indecomposable submodule of $E_u$, and that if $h$ is even, $M$ is a direct sum of two isomorphic indecomposable submodules of $E_u$. (To see that if $h = 2k$ is even, $M$ cannot be indecomposable, show that $N = p^k(u)(M)$ would then be totally isotropic; if $(e_i)_{1 \leq i \leq 2k}$ is a basis of $M$ such that $u(e_i) = \varepsilon e_i + e_{i+1}$ for $i \leq 2k - 1$, $u(e_{2k}) = \varepsilon e_{2k}$ (with $\varepsilon = \pm 1$), show that $e_k$ cannot be orthogonal to $e_{k+1}$, and deduce that the relation $Q(u(e_k)) = Q(e_k)$ leads to a contradiction).
 
-27) Let $A$ be a commutative field of characteristic 2, $E$ a vector space over $A$, of finite dimension $n$, $Q$ a quadratic form on $E$, $\Phi$ the associated bilinear form, which is alternating, hence of even rank $2m$ ($\S 5$, no 1, cor. 1 of th. 1).
+27) Let $A$ be a commutative field of characteristic 2, $E$ a vector space over $A$, of finite dimension $n$, $Q$ a quadratic form on $E$, $\Phi$ the associated bilinear form, which is alternating, hence of even rank $2m$ ($§ 5$, no 1, cor. 1 of th. 1).
 
 a) Prove that if $E^0$ is the subspace of $E$ (of dimension $n - 2m$) orthogonal to $E$ for $\Phi$, one has $Q(\lambda x + \mu y) = \lambda^2 Q(x) + \mu^2 Q(y)$ for all $x, y$ in $E^0$; in other words, the restriction $Q_0$ of $Q$ to $E^0$ is a semilinear mapping from $E^0$ (considered as a vector space over $A$) into $A$ (considered as a vector space over the subfield $A^2$), relative to the isomorphism $\xi \to \xi^2$ of $A$ onto $A^2$. Let $q$ be the dimension (over $A$) of the kernel $E^0 \cap \overline{Q}(0)$ of $Q$, and let $E_1$ be a supplementary subspace of $E^0 \cap \overline{Q}(0)$ with respect to $E^0$; one has $n - 2m - q \leq [A : A^2]$.
 
@@ -544,9 +544,9 @@ where $\lambda \in A$. Let $A_1$ be the field obtained by adjoining to $A$ the r
 
 **¶ 28**) Let $A$ be a commutative field of characteristic 2, distinct from $\mathbf{F}_2$, $E$ a vector space of dimension $n = 2m$ over $A$, $Q$ a non-degenerate quadratic form on $E$.
 
-a) Prove that the orthogonal group $\mathbf{O}(Q)$ is generated by the symmetries (which here are nothing other than the transvections belonging to $\mathbf{O}(Q)$ ($\S 4$, exercise 6)) (reason as in exercise 11 of $\S 5$). Deduce that the commutator group of $\mathbf{O}(Q)$ is generated by the squares of the elements of $\mathbf{O}(Q)$ (cf. exercise 17).
+a) Prove that the orthogonal group $\mathbf{O}(Q)$ is generated by the symmetries (which here are nothing other than the transvections belonging to $\mathbf{O}(Q)$ ($§ 4$, exercise 6)) (reason as in exercise 11 of $§ 5$). Deduce that the commutator group of $\mathbf{O}(Q)$ is generated by the squares of the elements of $\mathbf{O}(Q)$ (cf. exercise 17).
 
-b) Suppose that $Q$ is of maximum index; let $V, W$ be two totally singular subspaces of $E$ ($\S 4$, No. 1) of dimension $m$. Let $u$ be a symmetry $x \to x + \frac{\Phi(x, a)}{Q(a)} a$ ($\S 4$, exercise 6) ; let $k$ be the dimension of $V \cap W$. Prove that the dimension of $V \cap u(W)$ is $k + 1$ if $a$ is orthogonal to $V \cap W, k - 1$ otherwise (in the first case remark that $a = x + y$, or $x \in V, y \in W$, and prove that $u(y) = x$; in the second, remark that $u$ cannot leave invariant any non-orthogonal singular vector to $a$).
+b) Suppose that $Q$ is of maximum index; let $V, W$ be two totally singular subspaces of $E$ ($§ 4$, No. 1) of dimension $m$. Let $u$ be a symmetry $x \to x + \frac{\Phi(x, a)}{Q(a)} a$ ($§ 4$, exercise 6) ; let $k$ be the dimension of $V \cap W$. Prove that the dimension of $V \cap u(W)$ is $k + 1$ if $a$ is orthogonal to $V \cap W, k - 1$ otherwise (in the first case remark that $a = x + y$, or $x \in V, y \in W$, and prove that $u(y) = x$; in the second, remark that $u$ cannot leave invariant any non-orthogonal singular vector to $a$).
 
 c) Suppose again that the index of $Q$ is arbitrary. Prove that the subgroup $\mathbf{SO}(Q)$ of $\mathbf{O}(Q)$, formed by the automorphisms of $E$ which are products of an *even* number of symmetries, is a distinguished subgroup of index 2 of $\mathbf{O}(Q)$. (Prove that the product of an odd number of symmetries cannot be the identity, by considering the extension of $Q$ to the es-
 

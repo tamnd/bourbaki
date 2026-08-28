@@ -29,7 +29,7 @@ subsections:
       pdf_page: 250
 statements: 11
 exercises: 8
-content_sha256: 6efa6ff6c07202470c8761f121bc1c4ed08532962ca74dc2cab4271d8effd2bc
+content_sha256: ecfeb5870aae5a62e0cd6ec8aeeeb2de8dc1a67bcfdae539b9dd6ae798043826
 ---
 
 ## 5. FLATNESS PROPERTIES OF FILTERED MODULES
@@ -60,7 +60,7 @@ $$
 If an A-module M is flat and Hausdorff with the $\mathfrak{g}$-adic topology it is ideally Hausdorff, for $a \otimes_A M$ is then identified with a submodule of M and the $\mathfrak{g}$-adic topology on $a \otimes_A M$ is finer than the topology induced on $a \otimes_A M$ by the $\mathfrak{g}$-adic topology on M, which is Hausdorff by hypothesis.
 
 ### 2. STATEMENT OF THE FLATNESS CRITERION
-Let A be a ring, $\mathfrak{z}$ a two-sided ideal of A, M a left-module and gr(A) and gr(M) the graded ring and graded gr(A)-module associated respectively with the ring A and with the module M with the $\mathfrak{g}$-adic filtrations (\S 2, no. 3). We have seen (loc. cit.) that for every integer $n \geq 0$ there is a surjective $\mathbf{Z}$-module homomorphism
+Let A be a ring, $\mathfrak{z}$ a two-sided ideal of A, M a left-module and gr(A) and gr(M) the graded ring and graded gr(A)-module associated respectively with the ring A and with the module M with the $\mathfrak{g}$-adic filtrations (§ 2, no. 3). We have seen (loc. cit.) that for every integer $n \geq 0$ there is a surjective $\mathbf{Z}$-module homomorphism
 $$
 \gamma_n : (\mathfrak{g}^n / \mathfrak{g}^{n+1}) \otimes_{A/\mathfrak{g}} (M / \mathfrak{g}M) \to \mathfrak{g}^n M / \mathfrak{g}^{n+1} M
 $$
@@ -83,14 +83,14 @@ $$
 $$
 \gamma_M : \mathrm{gr}(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M) \to \mathrm{gr}(M)
 $$
-is bijective (property (GR) of \S 2, no. 8).
+is bijective (property (GR) of § 2, no. 8).
 (v) For all $n \geq 1$, $M / \mathfrak{g}^n M$ is a flat $(A / \mathfrak{g}^n)$-module.
 Then (i) $\Rightarrow$ (ii) $\Leftrightarrow$ (iii) $\Rightarrow$ (iv) $\Leftrightarrow$ (v).
 If further $\mathfrak{g}$ is nilpotent or if A is Noetherian and M is ideally Hausdorff, properties (i), (ii), (iii), (iv) and (v) are equivalent.
 
 #### Remark {#ac-iii-s5-n1-rem-1 .statement}
 
-If $A / \mathfrak{g}$ is a field (as often happens in applications) the condition "M/ $\mathfrak{g}M$ is a flat $(A / \mathfrak{g})$-module" holds automatically for every A-module M, which simplifies the statement of properties (iii) and (iv); moreover, in this case, property (v) is equivalent to saying that $M / \mathfrak{g}^n M$ is a free $(A / \mathfrak{g}^n)$-module for every integer $n \geq 1$ (Chapter 11, \S 3, no. 2, Corollary 2 to Proposition 5).
+If $A / \mathfrak{g}$ is a field (as often happens in applications) the condition "M/ $\mathfrak{g}M$ is a flat $(A / \mathfrak{g})$-module" holds automatically for every A-module M, which simplifies the statement of properties (iii) and (iv); moreover, in this case, property (v) is equivalent to saying that $M / \mathfrak{g}^n M$ is a free $(A / \mathfrak{g}^n)$-module for every integer $n \geq 1$ (Chapter 11, § 3, no. 2, Corollary 2 to Proposition 5).
 
 ### 3. PROOF OF THE FLATNESS CRITERION
 
@@ -200,7 +200,7 @@ Let $p : A/\mathfrak{J} \to B/\mathfrak{J}B$ be the canonical homomorphism; the 
 
 *Let $A$ be a commutative Noetherian ring, $\mathfrak{J}$ an ideal of $A$, $\hat{A}$ the Hausdorff completion of $A$ with respect to the $\mathfrak{J}$-adic topology and $M$ an ideally Hausdorff $\hat{A}$-module with respect to $\mathfrak{J} \hat{A}$. For $M$ to be a flat $A$-module, it is necessary and sufficient that $M$ be a flat $\hat{A}$-module.*
 
-We know in fact that $\hat{A}$ is a Noetherian ring ($\S 3$, no. **4**, Proposition 8) and a flat $A$-module ($\S 3$, no. **4**, Theorem 3), that $\mathfrak{J} \hat{A} = \hat{\mathfrak{J}}$ ($\S 2$, no. 12, Proposition **16**) and that the canonical homomorphism $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ is bijective ($\S 2$, no. 12, Proposition 15); Proposition **3** can therefore be applied.
+We know in fact that $\hat{A}$ is a Noetherian ring ($§ 3$, no. **4**, Proposition 8) and a flat $A$-module ($§ 3$, no. **4**, Theorem 3), that $\mathfrak{J} \hat{A} = \hat{\mathfrak{J}}$ ($§ 2$, no. 12, Proposition **16**) and that the canonical homomorphism $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ is bijective ($§ 2$, no. 12, Proposition 15); Proposition **3** can therefore be applied.
 
 #### Proposition 4 {#ac-iii-s5-prop-4 .statement}
 
@@ -209,7 +209,7 @@ We know in fact that $\hat{A}$ is a Noetherian ring ($\S 3$, no. **4**, Proposit
 (b) $\hat{M}$ is a flat $A$-module.
 (c) $\hat{M}$ is a flat $\hat{A}$-module.*
 
-As $B$ with the $2$-adic topology is a Zariski ring, $\hat{B}$ is a faithfully flat $B$-module ($\S 3$, no. 5, Proposition 9) and $M$ is canonically isomorphic to $M \otimes_B \hat{B}$ ($\S 3$, no. **4**, Theorem 3); it is immediately verified that this canonical isomorphism is an isomorphism of the $A$-module structure on $\hat{M}$ onto the $A$-module structure on $M \otimes_B \hat{B}$ derived from that on $M$. Applying Proposition 4 of Chapter I, $\S 3$, no. 2 with $R$ replaced by $B$, $S$ by $A$, $E$ by $\hat{B}$, $F$ by $M$, we see that for $M$ to be a flat $A$-module, it is necessary and sufficient that $\hat{M}$ be a flat $A$-module. Moreover, $\hat{M}$ is a finitely generated $\hat{B}$-module and $\mathfrak{J} \hat{B}$ is contained in $\mathfrak{Q} = \mathfrak{Q} \hat{B}$ and hence in the Jacobson radical of $\hat{B}$ ($\S 3$, no. **4**, Proposition 8); therefore $\hat{M}$ is an ideally Hausdorff $A$-module with respect to $\mathfrak{J} \hat{A}$ (Proposition 2). Conditions (b) and (c) are therefore equivalent by the Corollary to Proposition 3.
+As $B$ with the $2$-adic topology is a Zariski ring, $\hat{B}$ is a faithfully flat $B$-module ($§ 3$, no. 5, Proposition 9) and $M$ is canonically isomorphic to $M \otimes_B \hat{B}$ ($§ 3$, no. **4**, Theorem 3); it is immediately verified that this canonical isomorphism is an isomorphism of the $A$-module structure on $\hat{M}$ onto the $A$-module structure on $M \otimes_B \hat{B}$ derived from that on $M$. Applying Proposition 4 of Chapter I, $§ 3$, no. 2 with $R$ replaced by $B$, $S$ by $A$, $E$ by $\hat{B}$, $F$ by $M$, we see that for $M$ to be a flat $A$-module, it is necessary and sufficient that $\hat{M}$ be a flat $A$-module. Moreover, $\hat{M}$ is a finitely generated $\hat{B}$-module and $\mathfrak{J} \hat{B}$ is contained in $\mathfrak{Q} = \mathfrak{Q} \hat{B}$ and hence in the Jacobson radical of $\hat{B}$ ($§ 3$, no. **4**, Proposition 8); therefore $\hat{M}$ is an ideally Hausdorff $A$-module with respect to $\mathfrak{J} \hat{A}$ (Proposition 2). Conditions (b) and (c) are therefore equivalent by the Corollary to Proposition 3.
 
 ### Exercises {#ac-iii-s5-exercises}
 

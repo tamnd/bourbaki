@@ -33,7 +33,7 @@ subsections:
       pdf_page: 403
 statements: 9
 exercises: 3
-content_sha256: 77317d3d786c749ffbfb7d9d7477860a00cdaffa086276cdf73ac7a545e3297d
+content_sha256: b544413d10331937b891740ab23ca115c16171f1f2b46cac7186286bd8362f62
 ---
 
 ## 2. PLACES
@@ -158,8 +158,8 @@ The decomposition $f = j \circ h_A$ is called the canonical decomposition of the
 
 Examples Of places
 (1) Let $K$ be a field. The identity mapping on $K$ is a trivial place with ring $K$ and ideal $(0)$.
-(2) Let $k$ be a field. For all $u \in k((T))^\sim$, let us write $f(u) = \infty$ if $u \notin k[[T]]$ and define $f(u)$ to be the constant term of $u$ if $u \in k[[T]]$. Then $f$ is a place of $k((T))$, with residue field $k$ and ring $k[[T]]$. For $k[[T]]$ is a valuation ring of $k((T))$ (\S 1, no. 4, Example 3 ) and the restriction of $f$ to $k[[T]]$ is identified with the canonical homomorphism of $k[[T]]$ onto its residue field.
-(3) Let $k$ be a field, $a$ an element of $k$ and $A$ the set of $u \in k(X)$ such that $a$ is substitutable in $u$ (Algebra, Chapter IV, \S 3, no. 2). If $p$ denotes the prime ideal $(X - a)$ of $k[X]$, then $A = k[X]_p$, so that $A$ is a valuation ring of $k(X)$ (\S 1, no. 4, Proposition 2). For all $u \in k(X)^\sim$, let us write $f(u) = \infty$ if $u \notin A$ and $f(u) = u(a)$ if $u \in A$. Then $f$ is a place of $k(X)$ with residue field $k$ and ring $A$; for the restriction off to $A$ is a homomorphism of $A$ onto $k$ (Algebra, Chapter IV, \S 3, Proposition 2) of kernel $pA = m(A)$. The element $f(u) \in k$ is said to be obtained by putting $X = a$ in $u$.
+(2) Let $k$ be a field. For all $u \in k((T))^\sim$, let us write $f(u) = \infty$ if $u \notin k[[T]]$ and define $f(u)$ to be the constant term of $u$ if $u \in k[[T]]$. Then $f$ is a place of $k((T))$, with residue field $k$ and ring $k[[T]]$. For $k[[T]]$ is a valuation ring of $k((T))$ (§ 1, no. 4, Example 3 ) and the restriction of $f$ to $k[[T]]$ is identified with the canonical homomorphism of $k[[T]]$ onto its residue field.
+(3) Let $k$ be a field, $a$ an element of $k$ and $A$ the set of $u \in k(X)$ such that $a$ is substitutable in $u$ (Algebra, Chapter IV, § 3, no. 2). If $p$ denotes the prime ideal $(X - a)$ of $k[X]$, then $A = k[X]_p$, so that $A$ is a valuation ring of $k(X)$ (§ 1, no. 4, Proposition 2). For all $u \in k(X)^\sim$, let us write $f(u) = \infty$ if $u \notin A$ and $f(u) = u(a)$ if $u \in A$. Then $f$ is a place of $k(X)$ with residue field $k$ and ring $A$; for the restriction off to $A$ is a homomorphism of $A$ onto $k$ (Algebra, Chapter IV, § 3, Proposition 2) of kernel $pA = m(A)$. The element $f(u) \in k$ is said to be obtained by putting $X = a$ in $u$.
 \* (4) Let $S$ be a connected complex analytic variety of dimension 1 and $K$ the field of meromorphic functions on $S$. For all $z_0 \in S$, the mapping $f \mapsto f(z_0)$ from $K$ to $\mathbf{C}$ is a place of $K$ whose ring is the set off $\in K$ which are holomorphic at $z_0$ and whose ideal is the set off $\in K$ which are zero at $z_0$. It is this example and other analogues which are the origin of the term "place".*
 
 ### 4. EXTENSION OF PLACES
@@ -168,7 +168,7 @@ Examples Of places
 
 Let $K$ be a field, $S$ a subring of $K$ and $f$ a homomorphism from $S$ to an algebraically closed field $L$. Then there exists a place of $K$ with values in $L$ which extends $f$.
 
-Taking account of Proposition 1, this is a translation of Theorem 2 of \S 1, no. 2.
+Taking account of Proposition 1, this is a translation of Theorem 2 of § 1, no. 2.
 
 #### Proposition 4 {#ac-vi-s2-prop-4 .statement}
 

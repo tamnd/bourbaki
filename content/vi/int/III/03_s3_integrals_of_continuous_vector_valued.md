@@ -29,7 +29,7 @@ subsections:
       pdf_page: 84
 statements: 16
 exercises: 4
-content_sha256: 14e44087d707a8aed3236809ce3a8ceb1709906d8aefac10bc4250a040dcdb5e
+content_sha256: a0438d321fa008abc068d2a11529afedc71c8b86247a9dce8bad73ed0d0e5a1f
 translated_from: content/en/int/III/03_s3_integrals_of_continuous_vector_valued.md
 source_content_sha256: 19ec3def3746b167ecb2eedaa43c825aad749c933e84bbb7cfc506fe29f914f0
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -85,7 +85,7 @@ $$
 \int f d\mu = \sum_{i=1}^n \mu(f_i) e_i.
 $$
 
-2) Hãy lấy cho $E$ không gian $\mathcal{M}(X; \mathbf{C})$ các độ đo trên $X$, được trang bị tôpô *mơ hồ* (\S 1, No. 9); khi đó đối ngẫu $E'$ của $E$ có thể được đồng nhất một cách chính tắc với không gian $\mathcal{K}(X; \mathbf{C})$ (TVS, II, \S 6, No. 2, Prop. 3). Ánh xạ $x \mapsto \varepsilon_x$ từ $X$ vào $E$ là *liên tục* (\S 1, No. 9, Prop. 13), nhưng giá của nó không compact nếu $X$ không compact; tuy nhiên, nó *có giá compact theo vô hướng*, vì với mọi hàm $f \in E'$ thì hàm $x \mapsto \langle \varepsilon_x, f \rangle = f(x)$ theo định nghĩa có giá compact. Hơn nữa,
+2) Hãy lấy cho $E$ không gian $\mathcal{M}(X; \mathbf{C})$ các độ đo trên $X$, được trang bị tôpô *mơ hồ* (§ 1, No. 9); khi đó đối ngẫu $E'$ của $E$ có thể được đồng nhất một cách chính tắc với không gian $\mathcal{K}(X; \mathbf{C})$ (TVS, II, § 6, No. 2, Prop. 3). Ánh xạ $x \mapsto \varepsilon_x$ từ $X$ vào $E$ là *liên tục* (§ 1, No. 9, Prop. 13), nhưng giá của nó không compact nếu $X$ không compact; tuy nhiên, nó *có giá compact theo vô hướng*, vì với mọi hàm $f \in E'$ thì hàm $x \mapsto \langle \varepsilon_x, f \rangle = f(x)$ theo định nghĩa có giá compact. Hơn nữa,
 
 $$
 \int \langle \varepsilon_x, f \rangle d\mu = \int f(x) d\mu(x) = \langle \mu, f \rangle
@@ -209,7 +209,7 @@ Giả sử trước hết rằng $\mu$ là dương; theo giả thiết, giá c�
 
 *Giả sử rằng không gian* X *là compact, và cho* f *là một ánh xạ liên tục từ* X *vào một không gian lồi địa phương Hausdorff* E. *Bao lồi đóng của* f(X) *trong* E'** *(đối với* $\sigma(E', E')$) *bằng tập hợp các vectơ* $\int f\, d\mu$ *khi* $\mu$ *chạy qua mọi độ đo dương trên* X *có tổng khối lượng bằng* 1.
 
-Gọi C là bao lồi đóng của f(X) trong E'**; vì f(X) là compact và E'** là *đầy đủ*, C là compact. Ta đã biết (Mệnh đề 4) rằng $\int f d\mu \in C$ với mọi độ đo $\mu$ thuộc tập lồi $H$ các độ đo dương trên $X$ có khối lượng toàn phần bằng 1. Mặt khác, $H$ là lồi và *compact* đối với tôpô mơ hồ (\S 1, No. 9, Hệ quả 3 của Mệnh đề 15) và là bao đóng (đối với tôpô này) của tập lồi $H_0$ các độ đo dương có khối lượng 1 và giá *hữu hạn* (\S 2, No. 4, Hệ quả 3 của Định lý 1). Khi đó, ảnh của $H_0$ dưới ánh xạ $\mu \mapsto \int f d\mu$ là bao lồi $C_0$ của $f(X)$ trong ${E'}^*$. Mặt khác, ánh xạ này liên tục đối với tôpô mơ hồ trên $\mathcal{M}(X; C)$ và tôpô $\sigma({E'}^*, E')$ trên ${E'}^*$ vì $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ theo định nghĩa; do đó ảnh của $H = \overline{H_0}$ là một tập lồi *compact* chứa $C_0$ và được chứa trong $C$; vì $C = \overline{C_0}$, ảnh này bằng $C$.
+Gọi C là bao lồi đóng của f(X) trong E'**; vì f(X) là compact và E'** là *đầy đủ*, C là compact. Ta đã biết (Mệnh đề 4) rằng $\int f d\mu \in C$ với mọi độ đo $\mu$ thuộc tập lồi $H$ các độ đo dương trên $X$ có khối lượng toàn phần bằng 1. Mặt khác, $H$ là lồi và *compact* đối với tôpô mơ hồ (§ 1, No. 9, Hệ quả 3 của Mệnh đề 15) và là bao đóng (đối với tôpô này) của tập lồi $H_0$ các độ đo dương có khối lượng 1 và giá *hữu hạn* (§ 2, No. 4, Hệ quả 3 của Định lý 1). Khi đó, ảnh của $H_0$ dưới ánh xạ $\mu \mapsto \int f d\mu$ là bao lồi $C_0$ của $f(X)$ trong ${E'}^*$. Mặt khác, ánh xạ này liên tục đối với tôpô mơ hồ trên $\mathcal{M}(X; C)$ và tôpô $\sigma({E'}^*, E')$ trên ${E'}^*$ vì $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ theo định nghĩa; do đó ảnh của $H = \overline{H_0}$ là một tập lồi *compact* chứa $C_0$ và được chứa trong $C$; vì $C = \overline{C_0}$, ảnh này bằng $C$.
 
 #### Mệnh đề 6 {#int-iii-s3-prop-6 .statement}
 
@@ -219,7 +219,7 @@ $$
 q \left( \int f d\mu \right) \leq \int (q \circ f) \ d|\mu|.
 $$
 
-Cho $D$ là tập hợp các $z \in E$ sao cho $q(z) \leq 1$; $D$ đóng, lồi và chứa 0, do đó $D = D^{o o}$ (TVS, II, \S 6, No. 3, Hệ quả 3 của Định lý 1). Vì vậy chỉ cần chứng minh rằng với mọi $z' \in D^o$,
+Cho $D$ là tập hợp các $z \in E$ sao cho $q(z) \leq 1$; $D$ đóng, lồi và chứa 0, do đó $D = D^{o o}$ (TVS, II, § 6, No. 3, Hệ quả 3 của Định lý 1). Vì vậy chỉ cần chứng minh rằng với mọi $z' \in D^o$,
 
 $$
 \left| \left\langle \int f d\mu, z' \right\rangle \right| \leq \int (q \circ f) \ d|\mu|;
@@ -237,7 +237,7 @@ $$
 |\langle f(x), z' \rangle| \leq q(f(x))
 $$
 
-với mọi $x \in X$, bất đẳng thức cần chứng minh suy ra từ bất đẳng thức (13) của \S 1, No. 6.
+với mọi $x \in X$, bất đẳng thức cần chứng minh suy ra từ bất đẳng thức (13) của § 1, No. 6.
 
 ### 3. Các tiêu chuẩn để tích phân thuộc $E$
 
@@ -308,13 +308,13 @@ $$
 \left\langle \int f d\varepsilon_x, z' \right\rangle = \int (z' \circ f) d\varepsilon_x = z'(f(x)) = \langle f(x), z' \rangle ,
 $$
 
-do đó $\int f\, d\varepsilon_x = f(x)$. Hơn nữa, ta biết rằng tập hợp các độ đo điểm là toàn phần trong $\mathcal{M}(X; \mathbf{C})$ đối với tôpô hội tụ compact nghiêm ngặt (\S 2, No. 4, Cor. 4 of Th. 1). Do đó, tất cả quy về việc chứng minh tính liên tục của ánh xạ tuyến tính $u : \mu \mapsto \int f\, d\mu$. Vì vậy, xét ánh xạ tuyến tính $v : z' \mapsto \langle f, z' \rangle$ của $E'$ vào $\mathcal{K}(X; \mathbf{C})$, và hãy chứng minh rằng ảnh dưới $v$ của một tập con liên tục đều $H$ của $E'$ được chứa trong một tập con compact nghiêm ngặt của $\mathcal{K}(X; \mathbf{C})$. Thật vậy, nếu $K$ là giá của $f$, thì các hàm $\langle f, z' \rangle$ với $z' \in H$ có giá được chứa trong $K$; mặt khác, các hàm này lập thành một tập hợp liên tục đều, và với mỗi $x \in X$ tập hợp các $z'(f(x))$ bị chặn; do đó mệnh đề của ta suy ra từ định lý Ascoli (GT, X, \S 2, No. 5, Cor. 3 of Th. 2). Bây giờ, từ công thức (1) của No. 1 suy ra rằng $u$ chính là hạn chế trên $\mathcal{M}(X; \mathbf{C})$ của chuyển vị $^t v$ (theo nghĩa đại số); do đó tính liên tục của nó suy ra từ điều vừa chứng minh (TVS, IV, \S 1, No. 3, Prop. 6).
+do đó $\int f\, d\varepsilon_x = f(x)$. Hơn nữa, ta biết rằng tập hợp các độ đo điểm là toàn phần trong $\mathcal{M}(X; \mathbf{C})$ đối với tôpô hội tụ compact nghiêm ngặt (§ 2, No. 4, Cor. 4 of Th. 1). Do đó, tất cả quy về việc chứng minh tính liên tục của ánh xạ tuyến tính $u : \mu \mapsto \int f\, d\mu$. Vì vậy, xét ánh xạ tuyến tính $v : z' \mapsto \langle f, z' \rangle$ của $E'$ vào $\mathcal{K}(X; \mathbf{C})$, và hãy chứng minh rằng ảnh dưới $v$ của một tập con liên tục đều $H$ của $E'$ được chứa trong một tập con compact nghiêm ngặt của $\mathcal{K}(X; \mathbf{C})$. Thật vậy, nếu $K$ là giá của $f$, thì các hàm $\langle f, z' \rangle$ với $z' \in H$ có giá được chứa trong $K$; mặt khác, các hàm này lập thành một tập hợp liên tục đều, và với mỗi $x \in X$ tập hợp các $z'(f(x))$ bị chặn; do đó mệnh đề của ta suy ra từ định lý Ascoli (GT, X, § 2, No. 5, Cor. 3 of Th. 2). Bây giờ, từ công thức (1) của No. 1 suy ra rằng $u$ chính là hạn chế trên $\mathcal{M}(X; \mathbf{C})$ của chuyển vị $^t v$ (theo nghĩa đại số); do đó tính liên tục của nó suy ra từ điều vừa chứng minh (TVS, IV, § 1, No. 3, Prop. 6).
 
 #### Hệ quả {#int-iii-s3-n4-cor-1 .statement}
 
 — *Với các giả thiết và ký hiệu như trong Mệnh đề 9, hạn chế của ánh xạ* $\mu \mapsto \int f\, d\mu$ *trên tập hợp* $\mathcal{M}_+(X)$ *các độ đo dương, hoặc trên một tập con B bị chặn mơ hồ của* $\mathcal{M}(X; \mathbf{C})$, *là liên tục mơ hồ.*
 
-Thật vậy, suy ra từ \S 1, No. 10, Mệnh đề 17 và 18 rằng, trên $\mathcal{M}_+(X)$ hoặc trên $B$, tôpô cảm sinh bởi tôpô hội tụ chặt compắc cũng chính là tôpô cảm sinh bởi tôpô mơ hồ.
+Thật vậy, suy ra từ § 1, No. 10, Mệnh đề 17 và 18 rằng, trên $\mathcal{M}_+(X)$ hoặc trên $B$, tôpô cảm sinh bởi tôpô hội tụ chặt compắc cũng chính là tôpô cảm sinh bởi tôpô mơ hồ.
 
 Tuy nhiên, ánh xạ $\mu \mapsto \int f\, d\mu$ không nhất thiết liên tục trên toàn bộ $\mathcal{M}(X; \mathbf{C})$ đối với tôpô mơ hồ (Bài tập 2).
 

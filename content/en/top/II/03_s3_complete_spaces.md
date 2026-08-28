@@ -48,7 +48,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: b899daa8846633f6cdf61d18cd1f4b10d1cd0aa64ecf5736fc852ce65373e0b1
+content_sha256: d782c4a27c7dfb328d8d4bcb0a0fc179bed02b77ea87afcfdc15ece558d53cbb
 ---
 
 ## 3. COMPLETE SPACES
@@ -207,7 +207,7 @@ In the conditions of Proposition 7, if $U_2$ is a uniformity of a complete space
 
 For every Cauchy filter with respect to $U_1$ is then a Cauchy filter with respect to $U_2$ and therefore converges in the topology $\mathcal{T}_2$.
 
-Note that the hypotheses of the Corollary to Proposition 7 are satisfied when $\mathcal{T}_1 = \mathcal{T}_2$ (\S 1, no. 2, Corollary 2 to Proposition 2).
+Note that the hypotheses of the Corollary to Proposition 7 are satisfied when $\mathcal{T}_1 = \mathcal{T}_2$ (§ 1, no. 2, Corollary 2 to Proposition 2).
 
 ### 4. SUBSPACES OF COMPLETE SPACES
 
@@ -350,7 +350,7 @@ The theorem of extension by continuity (Chapter I, § 8, no. 5, Theorem 1) has i
 
 *Let $A$ be a dense subset of a topological space $X$, and let $f$ be a mapping of $A$ into a complete Hausdorff uniform space $X'$. Then $f$ can be extended by continuity to $X$ if and only if, for each $x \in X$, the image under $f$ of the trace on $A$ of the neighbourhood filter of $x$ in $X$ is a Cauchy filter base in $X'$.
 
-This follows from the theorem of extension by continuity (loc. cit.) because $X'$ is regular (\$ 1, no. 2, Proposition 3) and because on $X'$ convergent filters are the same as Cauchy filters.
+This follows from the theorem of extension by continuity (loc. cit.) because $X'$ is regular (§ 1, no. 2, Proposition 3) and because on $X'$ convergent filters are the same as Cauchy filters.
 
 When $X$ is also a uniform space, there is the following theorem:
 
@@ -392,7 +392,7 @@ It should be remarked that if $f$ is a *bijective* uniformly continuous mapping 
 
 We show next that the uniform space $\hat{X}$ is Hausdorff. Let $\mathcal{K}, \mathcal{Y}$ be two minimal Cauchy filters on $X$ such that $(\mathcal{K}, \mathcal{Y}) \in \hat{X}$ for all symmetric entourages $V$ of $X$. It follows immediately that the sets $M \cup N$, where $M \in \mathcal{K}$ and $N \in \mathcal{Y}$, form a base of a filter $\mathcal{B}$ coarser than $\mathcal{K}$ and $\mathcal{Y}$. Now $\mathcal{B}$ is a Cauchy filter, since for every symmetric entourage $V$ of $X$ there is by hypothesis a $V$-small set $P$ belonging to both $\mathcal{K}$ and $\mathcal{Y}$ and therefore belonging to $\mathcal{B}$. By the definition of minimal Cauchy filters, we have $\mathcal{K} = \mathcal{B} = \mathcal{Y}$, and this shows that $\hat{X}$ is Hausdorff.
 
-2) Definition of $i$; the uniform structure of $X$ is the inverse image under $i$ of that of $\hat{X}$. We know that for each $x \in X$ the neighbourhood filter $\mathfrak{B}(x)$ of $x$ in $X$ is a minimal Cauchy filter (no. 2, Proposition 5, Corollary 1). So we define $i(x) = \mathfrak{B}(x)$. Let $f = i \times i$; we shall show that for each symmetric entourage $V$ of $X$ we have $j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$, and this will prove our assertion (\S 2, no. 4). Now, if $[i(x), i(y)] \in \tilde{V}$, there is a $V$-small set $M$ which is a neighbourhood of each of $x$ and $y$, hence $(x, y) \in V$. Conversely, if $(x, y) \in V$, it is immediately seen that the set $V(x) \cup V(y)$ is $V$-small and is a neighbourhood of each of $x$ and $y$.
+2) Definition of $i$; the uniform structure of $X$ is the inverse image under $i$ of that of $\hat{X}$. We know that for each $x \in X$ the neighbourhood filter $\mathfrak{B}(x)$ of $x$ in $X$ is a minimal Cauchy filter (no. 2, Proposition 5, Corollary 1). So we define $i(x) = \mathfrak{B}(x)$. Let $f = i \times i$; we shall show that for each symmetric entourage $V$ of $X$ we have $j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$, and this will prove our assertion (§ 2, no. 4). Now, if $[i(x), i(y)] \in \tilde{V}$, there is a $V$-small set $M$ which is a neighbourhood of each of $x$ and $y$, hence $(x, y) \in V$. Conversely, if $(x, y) \in V$, it is immediately seen that the set $V(x) \cup V(y)$ is $V$-small and is a neighbourhood of each of $x$ and $y$.
 
 3) $\hat{X}$ is complete and $i(X)$ is dense in $\hat{X}$. The trace on $i(X)$ of a neighbourhood $\tilde{V}(\mathcal{X})$ of a point $\mathcal{X} \in X$ is the set of all $i(x)$ such that
 
@@ -436,7 +436,7 @@ We note also the following facts:
 (iii) *The uniform structure of* $X$ *is the inverse image under* $i$ *of that of* $\hat{X}$ *[or of that of the subspace* $i(X)$].
 (iv) *The entourages of* $i(X)$ *are the images under* $i \times i$ *of the entourages of* $X$, *and the closures in* $\hat{X} \times \hat{X}$ *of the entourages of* $i(X)$ *form a fundamental system of entourages of* $\hat{X}$.
 
-(i) and (iii) have been proved in the course of the proof of Theorem 3; (iv) is a consequence of (i) and (iii) by virtue of general results proved earlier (\S 2, no. 4, Remark and Proposition 6). The relation
+(i) and (iii) have been proved in the course of the proof of Theorem 3; (iv) is a consequence of (i) and (iii) by virtue of general results proved earlier (§ 2, no. 4, Remark and Proposition 6). The relation
 $$
 i(x) = i(x')
 $$
@@ -528,13 +528,13 @@ The Hausdorff space associated with a uniform space may also be characterized by
 
 Let $X$ be a uniform space, $i(X)$ its associated Hausdorff space, and let $f$ be a mapping of $X$ onto a Hausdorff uniform space $X'$, such that the uniformity of $X$ is the inverse image under $f$ of the uniformity of $X'$. Then the mapping $g : i(X) \to X'$ such that $f = g \circ i$ is an isomorphism.
 
-By Proposition 16, $g$ is uniformly continuous; also $g$ is obviously surjective, and is also injective because the relation $f(x) = f(y)$ implies by definition that $(x, y)$ belongs to all the entourages of $X$, and therefore that $i(x) = i(y)$ (no. 7, Proposition 12). Finally, the entourages of $X'$ are the images under $f \times f$ of the entourages of $X$ ($\S 2$, no. 4, Remark), hence they are also the images under $g \times g$ of the entourages of $i(X)$ (no. 7, Proposition 12); hence the result.
+By Proposition 16, $g$ is uniformly continuous; also $g$ is obviously surjective, and is also injective because the relation $f(x) = f(y)$ implies by definition that $(x, y)$ belongs to all the entourages of $X$, and therefore that $i(x) = i(y)$ (no. 7, Proposition 12). Finally, the entourages of $X'$ are the images under $f \times f$ of the entourages of $X$ ($§ 2$, no. 4, Remark), hence they are also the images under $g \times g$ of the entourages of $i(X)$ (no. 7, Proposition 12); hence the result.
 
 #### Remark {#top-ii-s3-n8-rem-1 .statement}
 
-Let $R$ be the equivalence relation $i(x) = i(x')$ on $X$. We have seen (no. 7, Proposition 12) that the graph $C$ of $R$ is the intersection of all the entourages of $X$. It is clear that every open set (and therefore also every closed set) in $X$ is *saturated* with respect to $R$; taking account of the definition of the inverse image of a topology, we conclude that the canonical bijection of the quotient space $X/R$ onto $i(X)$ induced by $i$ is a *homeomorphism*. The Hausdorff space associated with $X$ can therefore be identified, *qua* topological space, with $X/R$. The canonical mapping $i : X \to i(X)$ is open and closed, and even proper (Chapter I, $\S 10$, no. 2, Example).
+Let $R$ be the equivalence relation $i(x) = i(x')$ on $X$. We have seen (no. 7, Proposition 12) that the graph $C$ of $R$ is the intersection of all the entourages of $X$. It is clear that every open set (and therefore also every closed set) in $X$ is *saturated* with respect to $R$; taking account of the definition of the inverse image of a topology, we conclude that the canonical bijection of the quotient space $X/R$ onto $i(X)$ induced by $i$ is a *homeomorphism*. The Hausdorff space associated with $X$ can therefore be identified, *qua* topological space, with $X/R$. The canonical mapping $i : X \to i(X)$ is open and closed, and even proper (Chapter I, $§ 10$, no. 2, Example).
 
-Let $X'$ be another uniform space, $C'$ the intersection of all the entourages of $X'$, and $R'$ the equivalence relation whose graph is $C'$. Let $f : X \to X'$ be a *continuous* mapping. Since the inverse image under $f$ of any neighbourhood of $f(x)$ is a neighbourhood of $x$, it follows that the inverse image under $f$ of $C'(f(x))$ contains $C(x)$, and therefore $f$ is *compatible* with $R$ and $R'$, and induces a continuous mapping $X/R \to X'/R'$ (Chapter I, $\S 3$, no. 4, Corollary to Proposition 6). This generalizes the corollary to Proposition 16.
+Let $X'$ be another uniform space, $C'$ the intersection of all the entourages of $X'$, and $R'$ the equivalence relation whose graph is $C'$. Let $f : X \to X'$ be a *continuous* mapping. Since the inverse image under $f$ of any neighbourhood of $f(x)$ is a neighbourhood of $x$, it follows that the inverse image under $f$ of $C'(f(x))$ contains $C(x)$, and therefore $f$ is *compatible* with $R$ and $R'$, and induces a continuous mapping $X/R \to X'/R'$ (Chapter I, $§ 3$, no. 4, Corollary to Proposition 6). This generalizes the corollary to Proposition 16.
 
 ### 9. COMPLETION OF SUBSPACES AND PRODUCT SPACES
 
@@ -554,9 +554,9 @@ $$
 
 commutative (*i* being the canonical mapping).
 
-The transitivity of initial uniformities (\S 2, no. 3, Proposition 5) shows on the one hand that $\mathcal{U}$ is the coarsest uniformity for which the mappings $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ are uniformly continuous, and on the other hand that $\mathcal{U}$ is also the inverse image under $i$ of the coarsest uniformity $\mathcal{U}'$ on the set $X'$ for which the $f'_\lambda$ are uniformly continuous. Now $\mathcal{U}'$ is *Hausdorff*, for if $x_1, x_2$ are two points of $X$ such that $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ for each $\lambda \in L$, then $(x_1, x_2)$ belongs to all the entourages of $\mathcal{U}$ and hence $i(x_1) = i(x_2)$. Proposition 17 of no. 8 therefore shows that $\mathcal{U}'$ is the uniformity of the Hausdorff space $X'$ associated with $X$.
+The transitivity of initial uniformities (§ 2, no. 3, Proposition 5) shows on the one hand that $\mathcal{U}$ is the coarsest uniformity for which the mappings $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ are uniformly continuous, and on the other hand that $\mathcal{U}$ is also the inverse image under $i$ of the coarsest uniformity $\mathcal{U}'$ on the set $X'$ for which the $f'_\lambda$ are uniformly continuous. Now $\mathcal{U}'$ is *Hausdorff*, for if $x_1, x_2$ are two points of $X$ such that $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ for each $\lambda \in L$, then $(x_1, x_2)$ belongs to all the entourages of $\mathcal{U}$ and hence $i(x_1) = i(x_2)$. Proposition 17 of no. 8 therefore shows that $\mathcal{U}'$ is the uniformity of the Hausdorff space $X'$ associated with $X$.
 
-This being so, the bijection $x' \to (f'_\lambda(x'))$ identifies $X$ with a uniform subspace of the product $\prod_\lambda Y'_\lambda$ (\S 2, no. 6, Proposition 8). Since the $Y'_\lambda$ are Hausdorff, each $Y'_\lambda$ can be identified with a dense subspace of its completion $\hat{Y}_\lambda$, and hence $\prod_\lambda Y'_\lambda$ can be identified with a dense subspace of $\prod_\lambda \hat{Y}_\lambda$ (Chapter I, \S 4, no. 3, Proposition 7). But $\prod_\lambda \hat{Y}_\lambda$ is Hausdorff and complete (no. 5, Proposition 10); the closure $\overline{X'}$ of $X'$ in $\prod_\lambda \hat{Y}_\lambda$ is therefore a complete Hausdorff subspace (no. 4, Proposition 8) which can be identified with the Hausdorff completion $\hat{X}$ of $X$; under this identification the mappings $\hat{f}_\lambda$ become the projections onto the factors $\hat{Y}_\lambda$, and the proposition is proved.
+This being so, the bijection $x' \to (f'_\lambda(x'))$ identifies $X$ with a uniform subspace of the product $\prod_\lambda Y'_\lambda$ (§ 2, no. 6, Proposition 8). Since the $Y'_\lambda$ are Hausdorff, each $Y'_\lambda$ can be identified with a dense subspace of its completion $\hat{Y}_\lambda$, and hence $\prod_\lambda Y'_\lambda$ can be identified with a dense subspace of $\prod_\lambda \hat{Y}_\lambda$ (Chapter I, § 4, no. 3, Proposition 7). But $\prod_\lambda \hat{Y}_\lambda$ is Hausdorff and complete (no. 5, Proposition 10); the closure $\overline{X'}$ of $X'$ in $\prod_\lambda \hat{Y}_\lambda$ is therefore a complete Hausdorff subspace (no. 4, Proposition 8) which can be identified with the Hausdorff completion $\hat{X}$ of $X$; under this identification the mappings $\hat{f}_\lambda$ become the projections onto the factors $\hat{Y}_\lambda$, and the proposition is proved.
 
 #### Corollary 1 {#top-ii-s3-prop-18-cor-1 .statement}
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: e1261c3f72bc79e2b7cb47c3cf24fb5d5a8d76df9ace5b843b9c4605464b3519
+content_sha256: 66a4d2a7bbfc4da3f2fa95c05151924ec8dffdd2326f34d8fc3c79fc8502f6b4
 ---
 
 ## § 3. INTEGRATION OF POSITIVE MEASURES
@@ -317,7 +317,7 @@ $$
 $$
 Since $\int f_n(x)\, d\nu(x)$ tends to $\int f(x)\, d\nu(x)$ as $n$ tends to $\infty$, by the hypotheses made on the sequence $(f_n)$, the relation (11) follows and we have proved a) (resp. b)).
 
-Now suppose that $\lambda_t^\bullet(1) < +\infty$ locally $\mu$-almost everywhere, and that $g$ is an essentially $\nu$-integrable function. Let $f$ be a $\nu$-integrable function such that $g = f$ locally $\nu$-almost everywhere (\S1, No. 3). Then $g = f$ almost everywhere for $\lambda_t$, except for $t$ forming a locally $\mu$-negligible set $P$ (Cor. 1 c) of Prop. 3). Therefore $\int g\, d\lambda_t = \int f\, d\lambda_t$ for all $t \notin P \cup H$, and this completes the proof.
+Now suppose that $\lambda_t^\bullet(1) < +\infty$ locally $\mu$-almost everywhere, and that $g$ is an essentially $\nu$-integrable function. Let $f$ be a $\nu$-integrable function such that $g = f$ locally $\nu$-almost everywhere (§ 1, No. 3). Then $g = f$ almost everywhere for $\lambda_t$, except for $t$ forming a locally $\mu$-negligible set $P$ (Cor. 1 c) of Prop. 3). Therefore $\int g\, d\lambda_t = \int f\, d\lambda_t$ for all $t \notin P \cup H$, and this completes the proof.
 
 #### Remark {#int-v-s3-n3-rem-1 .statement}
 
@@ -405,7 +405,7 @@ The only non-obvious point is that $μ + ν$ belongs to the domain of $Λ$, whic
 
 This condition is obviously necessary. Conversely, suppose it is satisfied, and let $f$ be a lower semi-continuous positive function defined on $X$. The function $Λf$ is universally measurable, hence $μ$-measurable. We are going to prove that $⟨μ, Λf⟩ = ⟨μΛ, f⟩$; since this equality will also be valid for every positive measure $μ' ≤ μ$, because $Λ$ is also scalarly essentially $μ'$-integrable, it will follow that $Λ$ is $μ$-adequate.
 
-Let $(\mu_i)_{i∈I}$ be a summable family of positive measures with compact support, such that $μ = ∑_{i∈I} μ_i$ (§2, No. 3, Prop. 4); the family of measures $\mu_i \Lambda$ is then summable, and $\mu \Lambda = \sum_{i \in I} \mu_i \Lambda$ (No. 1, Cor. of Prop. 1). Consequently $\langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle$ (\S 2, No. 2, Prop. 1); but $\Lambda$ is $\mu_i$-adequate, thus $\langle \mu_i \Lambda, f \rangle = \langle \mu_i, \Lambda f \rangle$. Again applying Prop. 1 of \S 2, we obtain the sought-for equality:
+Let $(\mu_i)_{i∈I}$ be a summable family of positive measures with compact support, such that $μ = ∑_{i∈I} μ_i$ (§2, No. 3, Prop. 4); the family of measures $\mu_i \Lambda$ is then summable, and $\mu \Lambda = \sum_{i \in I} \mu_i \Lambda$ (No. 1, Cor. of Prop. 1). Consequently $\langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle$ (§ 2, No. 2, Prop. 1); but $\Lambda$ is $\mu_i$-adequate, thus $\langle \mu_i \Lambda, f \rangle = \langle \mu_i, \Lambda f \rangle$. Again applying Prop. 1 of § 2, we obtain the sought-for equality:
 
 $$
 \langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i, \Lambda f \rangle = \langle \mu, \Lambda f \rangle .

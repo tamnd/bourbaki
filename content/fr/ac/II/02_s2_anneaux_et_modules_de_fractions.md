@@ -48,7 +48,7 @@ subsections:
       pdf_page: 98
 statements: 58
 exercises: 18
-content_sha256: 03d8f12a1da7663bf3462c6ccca593052b8d01d3e133fd3f29414fa762a96eb0
+content_sha256: 002eb9711ea80898e77fc20598af052186def930de5f918d075490e8223be466
 ---
 
 ## § 2. Anneaux et modules de fractions
@@ -574,13 +574,13 @@ r(a \cap b) = r(ab) = r(a) \cap r(b);
 $$
 en particulier, si $a \subset b$, on a $r(a) \subset r(b)$.
 
-En effet, pour qu’un idéal premier contienne $a \cap b$ (ou $ab$), il faut et il suffit qu’il contienne l’un des idéaux $a, b$ ($\S 1$, no 1, prop. 1).
+En effet, pour qu’un idéal premier contienne $a \cap b$ (ou $ab$), il faut et il suffit qu’il contienne l’un des idéaux $a, b$ ($§ 1$, no 1, prop. 1).
 
 #### Proposition 14 {#ac-ii-s2-prop-14 .statement}
 
 *Pour que deux idéaux $a, b$ d’un anneau $A$ soient étrangers, il faut et il suffit que leurs racines $r(a)$ et $r(b)$ le soient.*
 
-La nécessité de la condition est évidente puisque $a \subset r(a)$ et $b \subset r(b)$; la condition est suffisante en vertu du $\S 1$, no 2, prop. 3.
+La nécessité de la condition est évidente puisque $a \subset r(a)$ et $b \subset r(b)$; la condition est suffisante en vertu du $§ 1$, no 2, prop. 3.
 
 #### Proposition 15 {#ac-ii-s2-prop-15 .statement}
 

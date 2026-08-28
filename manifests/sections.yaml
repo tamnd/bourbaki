@@ -5996,7 +5996,7 @@ books:
               statements: 76
               exercises: 30
               extraction: ocr
-              content_sha256: fe38d0e07965528001fa474c2453af125868ae27bc80af5a2f745d9e63d29fe6
+              content_sha256: e31973ae3570587eade0f8f88e90731ead79e920851a98c0eb9d5517bbeeb2aa
             - kind: section
               section: 7
               title: Groupes de Lie sur un corps ultramétrique
@@ -6225,7 +6225,7 @@ books:
               statements: 22
               exercises: 10
               extraction: ocr
-              content_sha256: 4e7e9e1f992829c3c09ed9b3e2b29c869f377df81f3aea54478147d1398ab304
+              content_sha256: c4c76c8e191b939527d3fa46a4177ccff60ede09336418aa449b43166a4c5cb2
             - kind: section
               section: 3
               title: Représentations
@@ -6273,7 +6273,7 @@ books:
               statements: 53
               exercises: 27
               extraction: ocr
-              content_sha256: 9e3d286386cbfec91a212fa519d91224e7b38f4709ceaab41038c79ac82e476a
+              content_sha256: dfb24dd48ed08b9ae7dfd272ecc94566a2f5fe5b6133d11105f0812963d20f96
             - kind: section
               section: 7
               title: Le théorème d'Ado
@@ -7024,7 +7024,7 @@ books:
               statements: 56
               exercises: 22
               extraction: ocr
-              content_sha256: 81d2d52739402a8cfffee2069f51659c89741d6b70b8f33e50210e2ec5a69770
+              content_sha256: 99f198eaf67af4d1e294d308aab9fa2bc4dec72825d76ec1558d3610bac189f2
             - kind: section
               section: 5
               title: Classes de conjugaison
@@ -7461,7 +7461,7 @@ books:
               statements: 9
               exercises: 16
               extraction: ocr
-              content_sha256: 05c5807e8258da9099d2c7431aaa39daf5191b43f60b63210f965cb39d88c582
+              content_sha256: 8133b61f1df80be5ff13324ff876eecede9ed2ad44de1d0480eaab61020a8084
             - kind: appendix
               title: Points fixes des groupes de transformations affines
               path: content/fr/evt/IV/A_a_points_fixes_des_groupes_de.md
@@ -7814,7 +7814,7 @@ books:
               statements: 46
               exercises: 27
               extraction: ocr
-              content_sha256: 8eabdba2c994b950a0b03682b704a45c98415d9c6356934565ae9299e3b68b17
+              content_sha256: 6115c6b42cd15322e6df990c8dffdb5b77d30ac5140483c4ff2eb60eed5ac5d3
             - kind: section
               section: 3
               title: Désintégration des mesures
@@ -7910,7 +7910,7 @@ books:
               statements: 37
               exercises: 24
               extraction: ocr
-              content_sha256: c85fd29c8677420694a50ec476a995cb0ce51b281a6e47e438c2218fdbbdd659
+              content_sha256: 344a6de3b2a59e1cfb82dd1f659b36634483ae134ebd0e00853505a4e2b06f47
             - kind: section
               section: 3
               title: Faithfully flat modules
@@ -7923,7 +7923,7 @@ books:
               statements: 18
               exercises: 10
               extraction: ocr
-              content_sha256: 6eca3d9ab803d413bfaf6f39a861f11ddce5dbf12fbed96d89ca819c7210a451
+              content_sha256: 0d9072835e4cc9d8e53fe3b6aad9c26f3af0064dfdb8a3707999932c7d47ff19
             - kind: section
               section: 4
               title: Flat modules and "Tor" functors
@@ -7936,7 +7936,7 @@ books:
               statements: 3
               exercises: 1
               extraction: ocr
-              content_sha256: 24a301288683dac27cd58760ccbbf900299c5c25d31c3ee96a54ad58705fc000
+              content_sha256: 9fd11944f9ccd26af40fbfd7087174fd30283103e635ee58c967ecaf0bfa5f58
         - chapter: II
           title: LOCALIZATION
           sections:
@@ -7963,7 +7963,7 @@ books:
               statements: 9
               exercises: 11
               extraction: ocr
-              content_sha256: 1b5bfd8804f03cc3ee0ccdadad5a967b6ee8842cca8b6471ecb23b5ec4046120
+              content_sha256: eaf2b502618aa5ba762ff7b78f5dd83041b3b831304194dfec9cee96f2fab555
             - kind: section
               section: 2
               title: Rings and modules of fractions
@@ -7976,7 +7976,7 @@ books:
               statements: 52
               exercises: 23
               extraction: ocr
-              content_sha256: 2567d0d53dd55c777a0ec321261a3e19900344eba7df32b8cbab70baea7d231d
+              content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
             - kind: section
               section: 3
               title: Local rings. Passage from the local to the global
@@ -7989,7 +7989,7 @@ books:
               statements: 39
               exercises: 14
               extraction: ocr
-              content_sha256: f45c6bcdeb9fb4d42c827fa7a2cd2a7d6c2e247ff237017567c017989109f6ae
+              content_sha256: 4f386f4871c58170a49537a2a50d87c0f1514cb0377ef14915c0c8c2f53a7186
             - kind: section
               section: 4
               title: Spectra of rings and supports of modules
@@ -8002,7 +8002,7 @@ books:
               statements: 49
               exercises: 28
               extraction: ocr
-              content_sha256: b16f1abe7ac650655d0924695aa6469a481241cf9a4fd4a93b724be5db0609ea
+              content_sha256: afbce0ee70ea654b4478dd2d27c1a7060b1124651d86be84ea7b4b58f7101cd3
             - kind: section
               section: 5
               title: Finitely generated projective modules. Invertible fractional ideals
@@ -8015,7 +8015,7 @@ books:
               statements: 34
               exercises: 8
               extraction: ocr
-              content_sha256: 1cbbdb2e32921c4f6ee5337af18e13c88d05528cbdfb0af689b4b382c3f1454e
+              content_sha256: a5d4bfa4c1fcf7eb66cf300768331126f156485bf51ceb82544587f9f1c007d9
         - chapter: III
           title: GRADUATIONS. FILTRATIONS AND TOPOLOGIES
           sections:
@@ -8055,7 +8055,7 @@ books:
               statements: 57
               exercises: 13
               extraction: ocr
-              content_sha256: b4049d938eec5ecd1b702c35abe78a71285cff298d5cac6318733f0844555518
+              content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
             - kind: section
               section: 3
               title: m-adic topologies on Noetherian rings
@@ -8068,7 +8068,7 @@ books:
               statements: 39
               exercises: 7
               extraction: ocr
-              content_sha256: 2cfc22739b5794ceaede94d77249f17f10a52a23ce8ea60f1d3b869603e20895
+              content_sha256: 7f34e8fa776003d5116ba6baec027fc4736d0298ce93dee623ca18e4bbb7b4ec
             - kind: section
               section: 4
               title: Lifting in complete rings
@@ -8081,7 +8081,7 @@ books:
               statements: 23
               exercises: 8
               extraction: ocr
-              content_sha256: c6b3ea44a708bb83dba19feee4cfba38a7155245a73e59d9cdc9572a3a9fc3b4
+              content_sha256: 635cb657396c30a372e380cabd17f11b77add1482054b9de74828b3e4a2bbbbd
             - kind: section
               section: 5
               title: Flatness properties of filtered modules
@@ -8094,7 +8094,7 @@ books:
               statements: 11
               exercises: 8
               extraction: ocr
-              content_sha256: 6efa6ff6c07202470c8761f121bc1c4ed08532962ca74dc2cab4271d8effd2bc
+              content_sha256: ecfeb5870aae5a62e0cd6ec8aeeeb2de8dc1a67bcfdae539b9dd6ae798043826
         - chapter: IV
           title: ASSOCIATED PRIME IDEALS AND PRIMARY DECOMPOSITION
           sections:
@@ -8134,7 +8134,7 @@ books:
               statements: 39
               exercises: 28
               extraction: ocr
-              content_sha256: ec4d6e9f0689ebac0dfdea15b3a61e409c2f05eda1aaf2d6890f55706fd47486
+              content_sha256: 9353d19272573d950f92fba8db2374013f868c6b8d590a53b7b8f6262334c6e8
             - kind: section
               section: 3
               title: Primary decomposition in graded modules
@@ -8147,7 +8147,7 @@ books:
               statements: 6
               exercises: 3
               extraction: ocr
-              content_sha256: 0f0faf5a814e89f406ad83a8ae7e2310af0973f3e006962317ed786ad8a83fcc
+              content_sha256: 55183dce28d121c14a65bc1ae9b8a1e4c9902f11e7b2707081227fe1fa054024
         - chapter: V
           title: INTEGERS
           sections:
@@ -8187,7 +8187,7 @@ books:
               statements: 36
               exercises: 22
               extraction: ocr
-              content_sha256: 3017e3752abcf55d187c09803065844dcbbdc79fe2e701a257f996a9e009a774
+              content_sha256: 0735cbdcddf5abb906e8dd4e39035bbe753450d10e43d8bd20b9833595a17cd5
             - kind: section
               section: 3
               title: Finitely generated algebras over a field
@@ -8200,7 +8200,7 @@ books:
               statements: 17
               exercises: 9
               extraction: ocr
-              content_sha256: 20f26dd22ad25491f63900b8e15ca528067c4aa99a1970e5d38a3f0eced5a686
+              content_sha256: badf2bc4cb748da842f275e255d9318b86b98b0069385cfdb864427619fa9e85
         - chapter: VI
           title: VALUATIONS
           sections:
@@ -8240,7 +8240,7 @@ books:
               statements: 9
               exercises: 3
               extraction: ocr
-              content_sha256: 77317d3d786c749ffbfb7d9d7477860a00cdaffa086276cdf73ac7a545e3297d
+              content_sha256: b544413d10331937b891740ab23ca115c16171f1f2b46cac7186286bd8362f62
             - kind: section
               section: 3
               title: Valuations
@@ -8266,7 +8266,7 @@ books:
               statements: 18
               exercises: 11
               extraction: ocr
-              content_sha256: 241b523bbe6a35c37704c2aac29a38f7afcc9e1e0df9204c949f3665e008f232
+              content_sha256: d2591aefd185cd8a9d79b29d0b2bd6b892a0e8d7c6f6ca84c843946be63124d9
             - kind: section
               section: 5
               title: The topology defined by a valuation
@@ -8279,7 +8279,7 @@ books:
               statements: 10
               exercises: 9
               extraction: ocr
-              content_sha256: d56915558e9f19e4abe4fca65f41f0096ec0bc17665a39fa07b8b8d451786f5b
+              content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
             - kind: section
               section: 6
               title: Absolute values
@@ -8292,7 +8292,7 @@ books:
               statements: 10
               exercises: 2
               extraction: ocr
-              content_sha256: 578267c10123fcc3d07b0471b59c89f82aaafae830bfa33156bb526052bd76d0
+              content_sha256: 0ba346951e7ec856945465325b2f054546b3b1d4334f235bfc11d9776cf48c78
             - kind: section
               section: 7
               title: Approximation theorem
@@ -8305,7 +8305,7 @@ books:
               statements: 14
               exercises: 3
               extraction: ocr
-              content_sha256: 7673eea0ef2549a816bc303a9b3839cfe34adce44721f2c14622f5ca236005a2
+              content_sha256: a818113ef87fdb588b60c8045863641963170d0c573c7e9237ce829f4055a323
             - kind: section
               section: 8
               title: Extensions of a valuation to an algebraic extension
@@ -8318,7 +8318,7 @@ books:
               statements: 36
               exercises: 21
               extraction: ocr
-              content_sha256: fc835dafb82892179666e1a17cd7ccd72ff8254f70295e13ff0a7b86f19eae27
+              content_sha256: 1740a7e6d3aaa11959ee2ba6e65707eab0efe09ef5333a215378d18f32bd6007
             - kind: section
               section: 9
               title: 'Application: locally compact fields'
@@ -8331,7 +8331,7 @@ books:
               statements: 10
               exercises: 5
               extraction: ocr
-              content_sha256: d6135c6e7390164e0213d8aebe0c179fa81f38f798cfd152a69cde189ff2353d
+              content_sha256: d266a1348cad0959a68f948795d45c8123c34ab55ddc0962987616e825a8a361
             - kind: section
               section: 10
               title: Extensions of a valuation to a transcendental extension
@@ -8344,7 +8344,7 @@ books:
               statements: 14
               exercises: 2
               extraction: ocr
-              content_sha256: e3c861ffcd021309856ff685759ee07561069de46e3d425be802720ae6d29f75
+              content_sha256: 34f40a243b26113b5ca170f44a53946190e03c0c9c5132625229fb3ca220d4f2
         - chapter: VII
           title: DIVISORS
           sections:
@@ -8384,7 +8384,7 @@ books:
               statements: 14
               exercises: 27
               extraction: ocr
-              content_sha256: cc7d7aebe3c9feefed99d2b6823c6c99ac2960660a90318e1a3fa69f6af4754d
+              content_sha256: 16fa7953b099cb50ab812cae794d31718963a0e7a0358d8c489c21f500087f43
             - kind: section
               section: 3
               title: Factorial domains
@@ -8397,7 +8397,7 @@ books:
               statements: 19
               exercises: 0
               extraction: ocr
-              content_sha256: 9a9045d263d1c89874a549163bdb7f5c0542895d8b247dce4869a232dfc8d799
+              content_sha256: 24b2404392ec37a498e3b069e48cd23f3c3de2b03e46d826d86d894e0aa6aa9e
             - kind: section
               section: 4
               title: Modules over integrally closed Noetherian domains
@@ -8410,7 +8410,7 @@ books:
               statements: 56
               exercises: 26
               extraction: ocr
-              content_sha256: 5b2d1a69edfb71ef91f4fad1bb6c0cef971f5029d2a678e30bee07ba973de772
+              content_sha256: 9c949aca71a036cb853dfdcbea85377b0c2a146fedc8238a63700dd4821d26bf
             - kind: historical
               title: Historical Note
               path: content/en/ac/VII/historical_note.md
@@ -9513,7 +9513,7 @@ books:
               statements: 52
               exercises: 27
               extraction: ocr
-              content_sha256: 2e16d6b059fe7ddf4bc94fb3442430c0dcddc9cf0b5661ae740053067d632525
+              content_sha256: f6dcc52805a2027d7331d2a760de2a8e098554e1ccf596c97d18989220a50b2c
             - kind: appendix
               title: Algèbres alternatives. Octonions
               path: content/fr/alg/III/A_a_algebres_alternatives_octonions.md
@@ -10448,3 +10448,234 @@ books:
               exercises: 10
               extraction: ocr
               content_sha256: 234fe2945aa4e961036016372d407d506dc8b4e0d5b9dad9251bdb87e41d0c74
+    - id: int-i-iv-fr
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/fr/int/00_introduction.md
+        first_pdf_page: 5
+        last_pdf_page: 12
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 2da69227d4db828eb2e129142924ce3b64ad3dd6783e525c13e623b1cdd33a9d
+      chapters:
+        - chapter: I
+          title: Inégalités de convexité
+          sections:
+            - kind: front
+              title: Inégalités de convexité
+              path: content/fr/int/I/00_frontmatter.md
+              first_pdf_page: 13
+              last_pdf_page: 18
+              subsections: 3
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 750573dc1b78042da94b5170de3eeaa68556c47ddaef22f45ce3409e701e20d2
+            - kind: historical
+              title: Historical Note
+              path: content/fr/int/I/historical_note.md
+              first_pdf_page: 19
+              last_pdf_page: 20
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a5242bdfc4e16c929b8dbcd059bd7df9fcc1d76286211399cc5894980f3d8d83
+        - chapter: II
+          title: Espaces de Riesz
+          sections:
+            - kind: front
+              title: Espaces de Riesz
+              path: content/fr/int/II/00_frontmatter.md
+              first_pdf_page: 21
+              last_pdf_page: 21
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: d0abd800b931c7f8275fe452a6d0398ec8649a0fc3760f20be70c825bf418d84
+            - kind: section
+              section: 1
+              title: Espaces de Riesz et espaces complètement réticulés
+              path: content/fr/int/II/01_s1_espaces_de_riesz_et_espaces.md
+              label: int-ii-s1
+              first_pdf_page: 21
+              last_pdf_page: 41
+              subsections: 5
+              statements: 16
+              exercises: 14
+              extraction: ocr
+              content_sha256: 65e80833bfdc362cbc20f4d473358f8b4560e8aade59dd55bc339cb34363a94c
+            - kind: section
+              section: 2
+              title: Formes linéaires sur un espace de Riesz
+              path: content/fr/int/II/02_s2_formes_lineaires_sur_un_espace_de_riesz.md
+              label: int-ii-s2
+              first_pdf_page: 29
+              last_pdf_page: 43
+              subsections: 2
+              statements: 13
+              exercises: 9
+              extraction: ocr
+              content_sha256: d8983cd1a81982f6dc43554cf1e2755d441bd557cd0e5771e9ba9c357930170d
+        - chapter: III
+          title: Mesures sur les espaces localement compacts
+          sections:
+            - kind: front
+              title: Mesures sur les espaces localement compacts
+              path: content/fr/int/III/00_frontmatter.md
+              first_pdf_page: 44
+              last_pdf_page: 44
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c3725dd824f4567c067a9c3cd94525bd788fd7d14b173686ece323ba2bf826d5
+            - kind: section
+              section: 1
+              title: Mesures sur les espaces localement compacts
+              path: content/fr/int/III/01_s1_mesures_sur_les_espaces_localement.md
+              label: int-iii-s1
+              first_pdf_page: 44
+              last_pdf_page: 105
+              subsections: 10
+              statements: 43
+              exercises: 3
+              extraction: ocr
+              content_sha256: 4c82eb80ef376848737949f80fb7a3ad9d014c13df3c51654fa25334b04f9dd7
+            - kind: section
+              section: 2
+              title: Support d'une mesure
+              path: content/fr/int/III/02_s2_support_d_une_mesure.md
+              label: int-iii-s2
+              first_pdf_page: 68
+              last_pdf_page: 106
+              subsections: 5
+              statements: 29
+              exercises: 5
+              extraction: ocr
+              content_sha256: 80fd53862ef7813c763749b44d7cbf4452a8f26a1227bdf81c37b2810f0d9b8b
+            - kind: section
+              section: 3
+              title: Intégrales de fonctions vectorielles continues
+              path: content/fr/int/III/03_s3_integrales_de_fonctions_vectorielles.md
+              label: int-iii-s3
+              first_pdf_page: 78
+              last_pdf_page: 107
+              subsections: 4
+              statements: 19
+              exercises: 4
+              extraction: ocr
+              content_sha256: c85d2ebc1d31dcfec8415642d18d53234a635f52ad050b1d3b81aa50845b850d
+            - kind: section
+              section: 4
+              title: Produits de mesures
+              path: content/fr/int/III/04_s4_produits_de_mesures.md
+              label: int-iii-s4
+              first_pdf_page: 86
+              last_pdf_page: 109
+              subsections: 6
+              statements: 21
+              exercises: 2
+              extraction: ocr
+              content_sha256: 82b3ee69957ad213d05a343d2ce1e28aefa3a09c0af8ea93d09e6a38261ee993
+        - chapter: IV
+          title: Prolongement d'une mesure. Espaces $L^p$
+          sections:
+            - kind: front
+              title: Prolongement d'une mesure. Espaces $L^p$
+              path: content/fr/int/IV/00_frontmatter.md
+              first_pdf_page: 110
+              last_pdf_page: 110
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 0d2da95b8246daa7b96e79dc4e3295640ed190e1861d8449a12b79b55694c9e4
+            - kind: section
+              section: 1
+              title: Intégrale supérieure d'une fonction positive
+              path: content/fr/int/IV/01_s1_integrale_superieure_d_une_fonction.md
+              label: int-iv-s1
+              first_pdf_page: 110
+              last_pdf_page: 240
+              subsections: 4
+              statements: 35
+              exercises: 8
+              extraction: ocr
+              content_sha256: 5f9164258bd35e913c9b1ad80cf0b00b602f786cff5634e309986fe6cc189e46
+            - kind: section
+              section: 2
+              title: Fonctions et ensembles négligeables
+              path: content/fr/int/IV/02_s2_fonctions_et_ensembles_negligeables.md
+              label: int-iv-s2
+              first_pdf_page: 120
+              last_pdf_page: 127
+              subsections: 6
+              statements: 15
+              exercises: 0
+              extraction: ocr
+              content_sha256: a972bec1a97a6ae98c38d6651435818b6e27108e993a851d20ed336bf9d34e48
+            - kind: section
+              section: 3
+              title: Les espaces $L^p$
+              path: content/fr/int/IV/03_s3_les_espaces_l_p.md
+              label: int-iv-s3
+              first_pdf_page: 127
+              last_pdf_page: 240
+              subsections: 8
+              statements: 41
+              exercises: 3
+              extraction: ocr
+              content_sha256: 61760e6cfcafeebf70f25c4fb21240e701896916261c808b88c7da4cffb6a768
+            - kind: section
+              section: 4
+              title: Fonctions et ensembles intégrables
+              path: content/fr/int/IV/04_s4_fonctions_et_ensembles_integrables.md
+              label: int-iv-s4
+              first_pdf_page: 144
+              last_pdf_page: 249
+              subsections: 11
+              statements: 62
+              exercises: 5
+              extraction: ocr
+              content_sha256: 3fcd4a66927194632d9fb1ddf6dc957e482b924a4f4a3e17d94933d48c0000ac
+            - kind: section
+              section: 5
+              title: Fonctions et ensembles mesurables
+              path: content/fr/int/IV/05_s5_fonctions_et_ensembles_mesurables.md
+              label: int-iv-s5
+              first_pdf_page: 173
+              last_pdf_page: 258
+              subsections: 12
+              statements: 76
+              exercises: 30
+              extraction: ocr
+              content_sha256: e0490ea743776a194803b2ddeaff4d8770f05d7bc1a191c652da232c512b3310
+            - kind: section
+              section: 6
+              title: Inégalités de convexité
+              path: content/fr/int/IV/06_s6_inegalites_de_convexite.md
+              label: int-iv-s6
+              first_pdf_page: 207
+              last_pdf_page: 267
+              subsections: 5
+              statements: 23
+              exercises: 20
+              extraction: ocr
+              content_sha256: 30561cfafd43a04bc8339708f13a32de4e5f4653e5d9f7b6910a8e5bfa802234
+            - kind: section
+              section: 7
+              title: Barycentres
+              path: content/fr/int/IV/07_s7_barycentres.md
+              label: int-iv-s7
+              first_pdf_page: 219
+              last_pdf_page: 293
+              subsections: 6
+              statements: 29
+              exercises: 3
+              extraction: ocr
+              content_sha256: df721c772753141cef873961e889653b0e17d83473fb7f57196784c8de58fbca

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: ac6ca31637ea8aae30c05c45c4958de54a1d1026d67aaf4ebe1d5143fd16ca3e
+content_sha256: c781b94cbf10e675a45754e777a71d92dc46701e4920c2cdd70c415942db0da8
 translated_from: content/en/int/V/02_s2_summable_families_of_positive_measures.md
-source_content_sha256: 290c436e1eb1835d7f3151eac47140087383fdc5ddbccba20fa7ed077333c707
+source_content_sha256: 67f5fe101b21cf538af3c09dc97e270ed6343b8689b60190287e3daa14bd9f11
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-2189d355
 glossary_version: 34
@@ -95,15 +95,15 @@ $$
 \nu^*(f) \geq \sum_{\alpha \in A} \lambda_\alpha^*(f).
 $$*
 
-Bất đẳng thức là hiển nhiên nếu $f$ không $\nu$-điều tiết, vì khi đó $\nu^*(f) = +\infty$ ($\S 1$, No. 2, Mệnh đề 7). Nếu $f$ là $\nu$-điều tiết thì $f$ là $\lambda_\alpha$-điều tiết với mọi $\alpha \in A$, vì mọi tập mở khả tích theo $\nu$ đều khả tích theo $\lambda_\alpha$; quan hệ (4) khi đó suy ra ngay từ (3) và từ Mệnh đề 7 của $\S 1$, No. 2.
+Bất đẳng thức là hiển nhiên nếu $f$ không $\nu$-điều tiết, vì khi đó $\nu^*(f) = +\infty$ ($§ 1$, No. 2, Mệnh đề 7). Nếu $f$ là $\nu$-điều tiết thì $f$ là $\lambda_\alpha$-điều tiết với mọi $\alpha \in A$, vì mọi tập mở khả tích theo $\nu$ đều khả tích theo $\lambda_\alpha$; quan hệ (4) khi đó suy ra ngay từ (3) và từ Mệnh đề 7 của $§ 1$, No. 2.
 
-Có thể xảy ra rằng hai vế của (4) không bằng nhau, ngay cả khi A đếm được và mỗi của $\lambda_\alpha$ là một độ đo điểm ($\S 1$, Bài tập 4 a)).
+Có thể xảy ra rằng hai vế của (4) không bằng nhau, ngay cả khi A đếm được và mỗi của $\lambda_\alpha$ là một độ đo điểm ($§ 1$, Bài tập 4 a)).
 
 #### Mệnh đề 2 {#int-v-s2-prop-2 .statement}
 
 — *Cho $f$ là một ánh xạ từ $X$ vào một không gian tôpô $G$. Để $f$ là $\nu$-đo được, cần và đủ là $f$ là $\lambda_\alpha$-đo được với mọi $\alpha \in A$.*
 
-Điều này suy ra ngay từ Hệ quả 2 của Mệnh đề 11 của $\S 1$.
+Điều này suy ra ngay từ Hệ quả 2 của Mệnh đề 11 của $§ 1$.
 
 #### Mệnh đề 3 {#int-v-s2-prop-3 .statement}
 
@@ -119,7 +119,7 @@ $$
 \int f \, d\nu = \sum_{\alpha \in A} \int f \, d\lambda_\alpha .
 $$
 
-Thật vậy, để $f$ khả tích thiết yếu theo $\nu$ (tương ứng khả tích thiết yếu theo $\lambda_\alpha$), cần và đủ là $f$ đo được theo độ đo $\nu$ (tương ứng $\lambda_\alpha$) và $\nu^\bullet(|f|) < +\infty$ (tương ứng $\lambda_\alpha^\bullet(|f|) < +\infty$), theo Mệnh đề 9 của $\S 1$, No. 3. Phần đầu của mệnh đề do đó suy ra ngay từ các Mệnh đề 2 và 1. Nếu $f$ khả tích thiết yếu theo $\nu$, bất đẳng thức
+Thật vậy, để $f$ khả tích thiết yếu theo $\nu$ (tương ứng khả tích thiết yếu theo $\lambda_\alpha$), cần và đủ là $f$ đo được theo độ đo $\nu$ (tương ứng $\lambda_\alpha$) và $\nu^\bullet(|f|) < +\infty$ (tương ứng $\lambda_\alpha^\bullet(|f|) < +\infty$), theo Mệnh đề 9 của $§ 1$, No. 3. Phần đầu của mệnh đề do đó suy ra ngay từ các Mệnh đề 2 và 1. Nếu $f$ khả tích thiết yếu theo $\nu$, bất đẳng thức
 
 $$
 \sum_{\alpha \in A} \left| \int f \, d\lambda_\alpha \right| \leq \sum_{\alpha \in A} \int |f| \, d\lambda_\alpha = \nu(|f|)
@@ -133,7 +133,7 @@ Mệnh đề 3 cũng có thể được suy ra từ định lý tổng quát v�
 
 — Giả sử rằng $f$ là $\nu$-khả tích; khi đó $f$ là $\lambda_\alpha$-khả tích với mọi $\alpha \in A$, và công thức (6) đúng. Ngược lại, nếu tập hợp $A$ là hữu hạn và $f$ là $\lambda_\alpha$-khả tích với mọi $\alpha \in A$, thì hàm $f$ là $\nu$-khả tích.
 
-Nếu $f$ khả tích theo $\nu$, thì $f$ khả tích thực chất theo $\nu$ và $\nu$-điều độ (\S1, No. 3, Cor. of Prop. 9); $f$ do đó khả tích thực chất theo $\lambda_\alpha$ và $\lambda_\alpha$-điều độ, suy ra $\lambda_\alpha$-khả tích, với mọi $\alpha \in A$. Ngược lại, nếu $A$ là hữu hạn và nếu $f$ là $\lambda_\alpha$-khả tích với mọi $\alpha \in A$, thì $f$ khả tích thực chất theo $\nu$ theo Prop. 3, và chỉ cần kiểm tra rằng $\nu^*(|f|) < +\infty$; điều này suy ra ngay từ quan hệ $\nu^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (Ch. IV, §1, No. 3, Prop. 15).
+Nếu $f$ khả tích theo $\nu$, thì $f$ khả tích thực chất theo $\nu$ và $\nu$-điều độ (§ 1, No. 3, Cor. of Prop. 9); $f$ do đó khả tích thực chất theo $\lambda_\alpha$ và $\lambda_\alpha$-điều độ, suy ra $\lambda_\alpha$-khả tích, với mọi $\alpha \in A$. Ngược lại, nếu $A$ là hữu hạn và nếu $f$ là $\lambda_\alpha$-khả tích với mọi $\alpha \in A$, thì $f$ khả tích thực chất theo $\nu$ theo Prop. 3, và chỉ cần kiểm tra rằng $\nu^*(|f|) < +\infty$; điều này suy ra ngay từ quan hệ $\nu^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (Ch. IV, §1, No. 3, Prop. 15).
 
 #### Hệ quả 2 {#int-v-s2-prop-3-cor-2 .statement}
 
@@ -164,11 +164,11 @@ $$
 &= \sum_{\alpha \in A} \mu(f \varphi_{K_\alpha}) = \sum_{\alpha \in A} \mu_\alpha(f).
 \end{align*}
 $$
-Điều đó hoàn tất chứng minh của trường hợp tổng quát. Nếu $\mu$ là điều độ, thì tập $T$ là $\mu$-điều độ và do đó $T$ là hợp của một dãy $(L_n)$ các tập compact và một tập không đáng kể (\S 1, No. 2, Mệnh đề 5); cho $A'$ là tập đếm được gồm các $\alpha \in A$ sao cho $K_\alpha$ cắt một trong các $L_n$. Khi đó $\mu_\alpha = 0$ với $\alpha \notin A'$, và câu cuối cùng của mệnh đề suy ra ngay lập tức.
+Điều đó hoàn tất chứng minh của trường hợp tổng quát. Nếu $\mu$ là điều độ, thì tập $T$ là $\mu$-điều độ và do đó $T$ là hợp của một dãy $(L_n)$ các tập compact và một tập không đáng kể (§ 1, No. 2, Mệnh đề 5); cho $A'$ là tập đếm được gồm các $\alpha \in A$ sao cho $K_\alpha$ cắt một trong các $L_n$. Khi đó $\mu_\alpha = 0$ với $\alpha \notin A'$, và câu cuối cùng của mệnh đề suy ra ngay lập tức.
 
 #### Nhận xét {#int-v-s2-n3-rem-1 .statement}
 
-Một độ đo dương có thể là tổng của một dãy các độ đo có giá đỡ compact, mà không điều độ (xem Bài tập 4 a) của \S 1).
+Một độ đo dương có thể là tổng của một dãy các độ đo có giá đỡ compact, mà không điều độ (xem Bài tập 4 a) của § 1).
 
 ### Bài tập {#int-v-s2-exercises}
 

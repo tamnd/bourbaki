@@ -24,7 +24,7 @@ subsections:
       pdf_page: 97
 statements: 5
 exercises: 3
-content_sha256: b387fe415d9bce3a525c07db625922a01304c441271b507f245aaf5f9abe9d6a
+content_sha256: 9cb4ad4aa60aa4680b54877f60cc8f78bcfa9d67c3ddd0033d2ce268e2060b55
 ---
 
 ## § 7. Le théorème d’Ado
@@ -61,7 +61,7 @@ Nous considérerons aussi la représentation duale $x \mapsto -{}^t x_{U'}$ de $
 
 Soient $g$ une algèbre de Lie, $g'$ une sous-algèbre de $g$, et $\rho'$ une représentation de $g'$ dans $V'$. Une représentation $\varphi$ de $g$ dans $V$ est appelée un agrandissement de $\rho'$ à $g$ s’il existe un homomorphisme injectif du $g'$-module $V'$ dans le $g'$-module $V$. On dit aussi que le $g$-module $V$ est un agrandissement du $g'$-module $V'$.
 
-Si $\rho'$ est de dimension finie, et si $g'$ est un idéal résoluble de $g$, il est nécessaire, pour l’existence d’un agrandissement de dimension finie, que $[g, g']$ soit contenu dans le plus grand idéal de nilpotence de $\rho'$ (\S 5, no 3, th. 1).
+Si $\rho'$ est de dimension finie, et si $g'$ est un idéal résoluble de $g$, il est nécessaire, pour l’existence d’un agrandissement de dimension finie, que $[g, g']$ soit contenu dans le plus grand idéal de nilpotence de $\rho'$ (§ 5, no 3, th. 1).
 
 #### Théorème 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement}
 
@@ -92,7 +92,7 @@ Supposons enfin que, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $
 
 Soit $g = g' + h$ une algèbre de Lie somme d’un idéal $g'$ et d’une sous-algèbre $h$. Soit $\sigma$ une représentation de dimension finie de $g$. On suppose que $\sigma(x)$ est nilpotent pour tout $x \in g'$ et tout $x \in h$. Alors, $\sigma(x)$ est nilpotent pour tout $x \in g$.
 
-Passant au quotient par le noyau de $\sigma$, on peut supposer $\sigma$ fidèle. Alors, $g'$ et $h$ sont nilpotentes, donc $g$, qui est une extension d’un quotient de $h$ par $g'$, est résoluble. Alors, $h$ et $g'$ sont contenus dans le plus grand idéal de nilpotence de $\sigma$ ($\S 5$, no 3, cor. 6 du th. 1).
+Passant au quotient par le noyau de $\sigma$, on peut supposer $\sigma$ fidèle. Alors, $g'$ et $h$ sont nilpotentes, donc $g$, qui est une extension d’un quotient de $h$ par $g'$, est résoluble. Alors, $h$ et $g'$ sont contenus dans le plus grand idéal de nilpotence de $\sigma$ ($§ 5$, no 3, cor. 6 du th. 1).
 
 Pour une amélioration du th. 1, cf. exerc. 4.
 
@@ -102,11 +102,11 @@ Pour une amélioration du th. 1, cf. exerc. 4.
 
 Soient $g$ une algèbre de Lie, $n$ son plus grand idéal nilpotent, $a$ un idéal nilpotent de $g$, et $\rho$ une représentation de dimension finie de $a$ telle que tout élément de $\rho(a)$ soit nilpotent. Alors, $\rho$ admet un agrandissement de dimension finie $\sigma$ à $g$, tel que tout élément de $\sigma(n)$ soit nilpotent.
 
-Soit $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ une suite de sous-algèbres de $n$, telles que $n_{i-1}$ soit un idéal de codimension 1 de $n_i$ pour $1 \leq i \leq p$ ($\S 4$, no 1, prop. 1 e)). L’algèbre $n_i$ est donc somme directe de $n_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $\mathrm{ad}_n x$ est nilpotent pour tout $x \in n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ de $\rho$ à $n_1, n_2, \ldots, n_p = n$, tels que tout élément de $\rho'(n)$ soit nilpotent.
+Soit $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ une suite de sous-algèbres de $n$, telles que $n_{i-1}$ soit un idéal de codimension 1 de $n_i$ pour $1 \leq i \leq p$ ($§ 4$, no 1, prop. 1 e)). L’algèbre $n_i$ est donc somme directe de $n_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $\mathrm{ad}_n x$ est nilpotent pour tout $x \in n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ de $\rho$ à $n_1, n_2, \ldots, n_p = n$, tels que tout élément de $\rho'(n)$ soit nilpotent.
 
-Soit $r$ le radical de $g$, et soit $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ une suite de sous-algèbres de $r$, telle que $r_{i-1}$ soit un idéal de codimension 1 de $r_i$, pour $1 \leq i \leq q$ ($\S 5$, no 1, prop. 2d)). L’algèbre $r_i$ est donc somme directe de $r_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $[r, r] \subset n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ de $\rho'$ à $r_1, r_2, \ldots, r_q = r$, tels que tout élément de $\rho''(n)$ soit nilpotent.
+Soit $r$ le radical de $g$, et soit $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ une suite de sous-algèbres de $r$, telle que $r_{i-1}$ soit un idéal de codimension 1 de $r_i$, pour $1 \leq i \leq q$ ($§ 5$, no 1, prop. 2d)). L’algèbre $r_i$ est donc somme directe de $r_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $[r, r] \subset n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ de $\rho'$ à $r_1, r_2, \ldots, r_q = r$, tels que tout élément de $\rho''(n)$ soit nilpotent.
 
-Enfin, $g$ est somme directe de $r$ et d’une sous-algèbre $s$ ($\S 6$, n° 8, th. 5). Comme $[s, r] \subset n$, on peut (th. 1) trouver un agrandissement de dimension finie $\sigma$ de $\rho''$ à $g$ tel que tout élément de $\sigma(n)$ soit nilpotent.
+Enfin, $g$ est somme directe de $r$ et d’une sous-algèbre $s$ ($§ 6$, n° 8, th. 5). Comme $[s, r] \subset n$, on peut (th. 1) trouver un agrandissement de dimension finie $\sigma$ de $\rho''$ à $g$ tel que tout élément de $\sigma(n)$ soit nilpotent.
 
 #### Théorème 2 {#lie-i-s7-thm-2 .statement}
 

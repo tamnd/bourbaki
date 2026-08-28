@@ -56,7 +56,7 @@ subsections:
       pdf_page: 39
 statements: 41
 exercises: 15
-content_sha256: ec97bc7a393823b9cd8d0e4852352e483d84024e3e6e846b22bfd6a4bf8c69f7
+content_sha256: af91402a2ec2c2ed81a7bff1a5e8ce758f4c5169ec4ecce1812964a448251d8c
 ---
 
 ## § 2. Modules plats (*)
@@ -554,7 +554,7 @@ F & \xrightarrow{j} & G \xrightarrow{p} E \to 0
 \end{array}
 $$
 
-soit commutatif. Comme $j$ est injectif et $s$ surjectif, on peut appliquer le diagramme du serpent ($\S 1$, no 4, prop. 2), autrement dit il y a une suite exacte
+soit commutatif. Comme $j$ est injectif et $s$ surjectif, on peut appliquer le diagramme du serpent ($§ 1$, no 4, prop. 2), autrement dit il y a une suite exacte
 
 $$
 0 = \mathrm{Ker}\, 1_E \xrightarrow{d} \mathrm{Coker}\, \varphi \to \mathrm{Coker}\, u \to \mathrm{Coker}\, 1_E = 0.
@@ -566,11 +566,11 @@ $$
 0 \to \varphi(L_1) \to F \to \mathrm{Coker}\, \varphi \to 0
 $$
 
-et comme $\varphi(L_1)$ et $\mathrm{Coker}\, \varphi$ sont de type fini, il en est de même de $F$ (*Alg.*, chap. II, 3e éd., $\S 1$, no 7, cor. 5 de la prop. 9).
+et comme $\varphi(L_1)$ et $\mathrm{Coker}\, \varphi$ sont de type fini, il en est de même de $F$ (*Alg.*, chap. II, 3e éd., $§ 1$, no 7, cor. 5 de la prop. 9).
 
 ### 9. *Extension des scalaires dans les modules d’homomorphismes.*
 
-Soient $A$ et $B$ deux anneaux, $E$ un $A$-module à droite, $F$ un $B$-module à droite et $G$ un $(B, A)$-bimodule. Rappelons qu’on a défini (*Alg.*, chap. II, 3e éd., $\S 4$, no 2) un homomorphisme canonique de $\mathbf{Z}$-modules
+Soient $A$ et $B$ deux anneaux, $E$ un $A$-module à droite, $F$ un $B$-module à droite et $G$ un $(B, A)$-bimodule. Rappelons qu’on a défini (*Alg.*, chap. II, 3e éd., $§ 4$, no 2) un homomorphisme canonique de $\mathbf{Z}$-modules
 
 $$(8)$$
 $$

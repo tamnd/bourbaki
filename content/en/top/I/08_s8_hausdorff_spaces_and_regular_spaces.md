@@ -36,7 +36,7 @@ subsections:
       pdf_page: 88
 statements: 28
 exercises: 24
-content_sha256: 095423ce546f09bce22cf54a776d11e826637014b4d70bfe4a684e945a43a3bb
+content_sha256: f1786c8e71990c5b477a3226adfcfe52fdd3cc7520408bdd42e9767c604fb35d
 ---
 
 ## 8. HAUSDORFF SPACES AND REGULAR SPACES
@@ -74,11 +74,11 @@ and
 
 (Hiv) $\Longrightarrow$ (H): Suppose $x \neq y$ and that every neighbourhood $V$ of $x$ meets every neighbourhood $W$ of $y$. Then the sets $V \cap W$ form a base of a filter which has both $x$ and $y$ as limit points, which is contrary to hypothesis.
 
-(H) $\Longrightarrow$ (Hiii): Let $(x) = (x_i)$ be a point of $X^I$ which does not belong to the diagonal $\Delta$. Then there are at least two indices $\lambda, \mu$ such that $x_\lambda \neq x_\mu$. Let $V_\lambda$ (resp. $V_\mu$) be a neighbourhood of $x_\lambda$ (resp. $x_\mu$) in $X$, such that $V_\lambda \cap V_\mu = \varnothing$; then the set $W = V_\lambda \times V_\mu \times \prod_{i \neq \lambda, \mu} X_i$ (where $X_i = X$ if $i \neq \lambda, \mu$) is a neighbourhood of $x$ in $X^I$ (\S 4, no. 1) which does not meet $\Delta$. Hence $\Delta$ is closed in $X^I$.
+(H) $\Longrightarrow$ (Hiii): Let $(x) = (x_i)$ be a point of $X^I$ which does not belong to the diagonal $\Delta$. Then there are at least two indices $\lambda, \mu$ such that $x_\lambda \neq x_\mu$. Let $V_\lambda$ (resp. $V_\mu$) be a neighbourhood of $x_\lambda$ (resp. $x_\mu$) in $X$, such that $V_\lambda \cap V_\mu = \varnothing$; then the set $W = V_\lambda \times V_\mu \times \prod_{i \neq \lambda, \mu} X_i$ (where $X_i = X$ if $i \neq \lambda, \mu$) is a neighbourhood of $x$ in $X^I$ (§ 4, no. 1) which does not meet $\Delta$. Hence $\Delta$ is closed in $X^I$.
 
 (Hiii) $\Longrightarrow$ (Hii): Obvious.
 
-(Hii) $\Longrightarrow$ (H): If $x \neq y$ then $(x, y) \in X \times X$ is not in the diagonal $\Delta$, hence (\$ 4, no. 1) there is a neighbourhood $V$ of $x$ and a neighbourhood $W$ of $y$ in $X$ such that $(V \times W) \cap \Delta = \varnothing$, which means that
+(Hii) $\Longrightarrow$ (H): If $x \neq y$ then $(x, y) \in X \times X$ is not in the diagonal $\Delta$, hence (§ 4, no. 1) there is a neighbourhood $V$ of $x$ and a neighbourhood $W$ of $y$ in $X$ such that $(V \times W) \cap \Delta = \varnothing$, which means that
 $$
 V \cap W = \varnothing.
 $$
@@ -93,7 +93,7 @@ Axiom (H) is *Hausdorff’s axiom*.
 
 Any discrete space is Hausdorff. The rational line $Q$ is Hausdorff, for if $x, y$ are two rational numbers such that $x < y$ then there is a rational number $z$ such that $x < z < y$, and the neighbourhoods ]$\leftarrow, z[$ of $x$ and ]$z, \rightarrow[$ of $y$ do not intersect.
 
-A set $X$ having at least two points and carrying the coarsest topology (\$ 2, no. 2) is not a Hausdorff space.
+A set $X$ having at least two points and carrying the coarsest topology (§ 2, no. 2) is not a Hausdorff space.
 
 Let $f : X \to Y$ be a mapping of a set $X$ into a *Hausdorff* space $Y$; then it follows immediately from Proposition 1 that $f$ can have *at most one limit* with respect to a filter $\mathfrak{F}$ on $X$, and that if $f$ has $y$ as a limit with respect to $\mathfrak{F}$, then $y$ is *the only cluster point* of $f$ with respect to $\mathfrak{F}$.
 
@@ -101,7 +101,7 @@ Let $f : X \to Y$ be a mapping of a set $X$ into a *Hausdorff* space $Y$; then i
 
 *Let $f, g$ be two continuous mappings of a topological space $X$ into a Hausdorff space $Y$; then the set of all $x \in X$ such that $f(x) = g(x)$ is closed in $X$.*
 
-For this set is the inverse image of the diagonal of $Y \times Y$ under the mapping $x \mapsto (f(x), g(x))$, which is continuous (\$ 4, no. 1, Proposition 1). The result therefore follows from (Hii) and \$ 2, no. 1, Theorem 1.
+For this set is the inverse image of the diagonal of $Y \times Y$ under the mapping $x \mapsto (f(x), g(x))$, which is continuous (§ 4, no. 1, Proposition 1). The result therefore follows from (Hii) and § 2, no. 1, Theorem 1.
 
 #### Corollary 1 (Principle of extension of identities) {#top-i-s8-prop-2-cor-1 .statement}
 
@@ -153,7 +153,7 @@ Let $V'$ and $W'$ be disjoint neighbourhoods of $f(x)$ and $f(y)$ respectively i
 
 *If every point of a topological space $X$ has a closed neighbourhood which is a Hausdorff subspace of $X$, then $X$ is Hausdorff.*
 
-Let $x \in X$ and let $V$ be a closed neighbourhood of $x$ in $X$ such that the subspace $V$ is Hausdorff. Then the closed neighbourhoods of $x$ in $V$ have $\{x\}$ as their intersection (axiom (H\textsuperscript{'})); but they are also closed neighbourhoods of $x$ in $X$ (\S 3, no. 1) and therefore $X$ satisfies (H\textsuperscript{i}).
+Let $x \in X$ and let $V$ be a closed neighbourhood of $x$ in $X$ such that the subspace $V$ is Hausdorff. Then the closed neighbourhoods of $x$ in $V$ have $\{x\}$ as their intersection (axiom (H\textsuperscript{'})); but they are also closed neighbourhoods of $x$ in $X$ (§ 3, no. 1) and therefore $X$ satisfies (H\textsuperscript{i}).
 
 There exist *non-Hausdorff* spaces in which every point has a Hausdorff neighbourhood (Exercise 7).
 
@@ -161,13 +161,13 @@ There exist *non-Hausdorff* spaces in which every point has a Hausdorff neighbou
 
 *Every product of Hausdorff spaces is Hausdorff. Conversely, if a product of non-empty spaces is Hausdorff, then each factor is a Hausdorff space.*
 
-Let $X = \prod_{i \in I} X_i$ be a product of topological spaces. Then if $x, y$ are two distinct points of $X$, we have $\operatorname{pr}_i x \neq \operatorname{pr}_i y$ for some index $i$, and Proposition 5 of no. 1 shows that $X$ is Hausdorff if the $X_i$ are. Conversely, if $X$ is Hausdorff and the $X_i$ are non-empty, then each $X_i$ is homeomorphic to a subspace of $X$ (\S 4, no. 2, Proposition 4) and is therefore Hausdorff.
+Let $X = \prod_{i \in I} X_i$ be a product of topological spaces. Then if $x, y$ are two distinct points of $X$, we have $\operatorname{pr}_i x \neq \operatorname{pr}_i y$ for some index $i$, and Proposition 5 of no. 1 shows that $X$ is Hausdorff if the $X_i$ are. Conversely, if $X$ is Hausdorff and the $X_i$ are non-empty, then each $X_i$ is homeomorphic to a subspace of $X$ (§ 4, no. 2, Proposition 4) and is therefore Hausdorff.
 
 #### Corollary 1 {#top-i-s8-prop-7-cor-1 .statement}
 
 *Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of Hausdorff topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ carry the coarsest topology $\mathcal{T}$ for which the $f_i$ are continuous. Then a necessary and sufficient condition for $X$ to be Hausdorff is that for each pair of distinct points $x, y$ of $X$ we have $f_i(x) \neq f_i(y)$ for some index $i \in I$.*
 
-The condition is sufficient by reason of Proposition 5 of no. 1. Conversely, suppose $X$ is Hausdorff; let $Y = \prod_{i \in I} Y_i$ and let $f = (f_i)_{i \in I}$ be the mapping $x \to (f_i(x))$. By Proposition 7 above $Y$ is Hausdorff, and by Proposition 3 of \S 4, no. 1, $\mathcal{T}$ is the inverse image under $f$ of the topology of $Y$. If $f(x) = f(y)$ for two distinct points $x, y$ of $X$ it is clear that every open set (in the topology $\mathcal{T}$) which contains $x$ also contains $y$, contrary to the hypothesis that $X$ is Hausdorff.
+The condition is sufficient by reason of Proposition 5 of no. 1. Conversely, suppose $X$ is Hausdorff; let $Y = \prod_{i \in I} Y_i$ and let $f = (f_i)_{i \in I}$ be the mapping $x \to (f_i(x))$. By Proposition 7 above $Y$ is Hausdorff, and by Proposition 3 of § 4, no. 1, $\mathcal{T}$ is the inverse image under $f$ of the topology of $Y$. If $f(x) = f(y)$ for two distinct points $x, y$ of $X$ it is clear that every open set (in the topology $\mathcal{T}$) which contains $x$ also contains $y$, contrary to the hypothesis that $X$ is Hausdorff.
 
 #### Corollary 2 {#top-i-s8-prop-7-cor-2 .statement}
 
@@ -175,7 +175,7 @@ The condition is sufficient by reason of Proposition 5 of no. 1. Conversely, sup
 
 The first assertion follows from the fact that $X$ is a subspace of the Hausdorff space $\prod_\alpha X_\alpha$ (Proposition 7). To show that $X$ is closed in the product space, let $F_{\alpha \beta}$ ($\alpha \leq \beta$) be the subset of $\prod_\alpha X_\alpha$ consisting of points $x$ for which $\operatorname{pr}_\alpha x = f_{\alpha \beta}(\operatorname{pr}_\beta x)$; the $F_{\alpha \beta}$ are closed in $\prod_\alpha X_\alpha$ (no. 1, Proposition 2), hence so is their intersection $X$.
 
-Evidently, any *sum* of Hausdorff spaces (\S 2, no. 4, Example 3) is a Hausdorff space.
+Evidently, any *sum* of Hausdorff spaces (§ 2, no. 4, Example 3) is a Hausdorff space.
 
 ### 3. HAUSDORFF QUOTIENT SPACES
 
@@ -187,11 +187,11 @@ The definition of open sets in $X/R$ gives rise to the following necessary and s
 
 *A necessary condition for the quotient space $X/R$ to be Hausdorff is that the graph $C$ of $R$ is closed in $X \times X$. If the equivalence relation $R$ is open, this condition is also sufficient.*
 
-Let $\varphi : X \to X/R$ be the canonical mapping; then $C$ is the inverse image under $\varphi \times \varphi : X \times X \to (X/R) \times (X/R)$ of the diagonal $\Delta$ of $(X/R) \times (X/R)$. The first part of the proposition therefore follows from the continuity of $\varphi \times \varphi$ [Axiom (Hii) and Theorem 1 of § 2, no. 1]. If $R$ is open then $(X/R) \times (X/R)$ can be identified with the quotient space $(X \times X)/(R \times R)$ ($\S 5$, no. 3, corollary to Proposition 8), and $\Delta$ is then identified with the canonical image in $(X \times X)/(R \times R)$ of the set $C$, which is saturated with respect to $R \times R$. Hence $\Delta$ is closed in $X \times X$ and therefore $X$ is Hausdorff.
+Let $\varphi : X \to X/R$ be the canonical mapping; then $C$ is the inverse image under $\varphi \times \varphi : X \times X \to (X/R) \times (X/R)$ of the diagonal $\Delta$ of $(X/R) \times (X/R)$. The first part of the proposition therefore follows from the continuity of $\varphi \times \varphi$ [Axiom (Hii) and Theorem 1 of § 2, no. 1]. If $R$ is open then $(X/R) \times (X/R)$ can be identified with the quotient space $(X \times X)/(R \times R)$ ($§ 5$, no. 3, corollary to Proposition 8), and $\Delta$ is then identified with the canonical image in $(X \times X)/(R \times R)$ of the set $C$, which is saturated with respect to $R \times R$. Hence $\Delta$ is closed in $X \times X$ and therefore $X$ is Hausdorff.
 
 If $R$ is not open, there are examples where $C$ is closed but $R$ is not Hausdorff (Exercises 10 and 28).
 
-To show that $X/R$ is Hausdorff we can also apply Proposition 5 of no. 1: $M$ and $N$ being two distinct equivalence classes of $R$ it is sufficient that there should be a continuous mapping $f$ of an open subset $A$ of $X$, saturated with respect to $R$ and containing $M$ and $N$, into a Hausdorff space $X'$, such that 1) $f$ is constant on each equivalence class mod $R$ contained in $A$, 2) $f$ takes distinct values on $M$ and $N$. For since $A/R_A$ can be identified with an open subset of $X/R$ ($\S 3$, no. 6, Proposition 10, Corollary 1), we can apply Proposition 5 of no. 1 to the mapping $g : A/R_A \to X'$ induced by $f$, since $g$ is continuous ($\S 3$, no. 4, Proposition 6).
+To show that $X/R$ is Hausdorff we can also apply Proposition 5 of no. 1: $M$ and $N$ being two distinct equivalence classes of $R$ it is sufficient that there should be a continuous mapping $f$ of an open subset $A$ of $X$, saturated with respect to $R$ and containing $M$ and $N$, into a Hausdorff space $X'$, such that 1) $f$ is constant on each equivalence class mod $R$ contained in $A$, 2) $f$ takes distinct values on $M$ and $N$. For since $A/R_A$ can be identified with an open subset of $X/R$ ($§ 3$, no. 6, Proposition 10, Corollary 1), we can apply Proposition 5 of no. 1 to the mapping $g : A/R_A \to X'$ induced by $f$, since $g$ is continuous ($§ 3$, no. 4, Proposition 6).
 
 In particular:
 
@@ -203,7 +203,7 @@ In particular:
 
 *If $X$ is a Hausdorff space, and if $X$ has a continuous section $s$ with respect to the equivalence relation $R$, then $X/R$ is Hausdorff and $s(X/R)$ is closed in $X$.*
 
-For ($\S 3$, no. 5) $X/R$ is homeomorphic to the subspace $s(X/R)$ of $X$, which is Hausdorff. Furthermore $s(X/R)$ is the set of all $x \in X$ such that $s(\varphi(x)) = x$, where $\varphi : X \to X/R$ is the canonical mapping; hence the second assertion follows from no. 1, Proposition 2.
+For ($§ 3$, no. 5) $X/R$ is homeomorphic to the subspace $s(X/R)$ of $X$, which is Hausdorff. Furthermore $s(X/R)$ is the set of all $x \in X$ such that $s(\varphi(x)) = x$, where $\varphi : X \to X/R$ is the canonical mapping; hence the second assertion follows from no. 1, Proposition 2.
 
 ### 4. REGULAR SPACES
 
@@ -276,7 +276,7 @@ b) $\lim_{x_2, \mathfrak{F}_2} f(x_1, x_2) = g(x_1)$ exists for all $x_1 \in X_1
 
 Then $\lim_{x_1, \mathfrak{F}_1} g(x_1)$ exists and is equal to $\lim_{\mathfrak{F}_1 \times \mathfrak{F}_2} f$.
 
-Let $X'_1 = X_1 \cup \{\omega_1\}$ (resp. $X'_2 = X_2 \cup \{\omega_2\}$) be the topological space *associated with the filter* $\mathfrak{F}_1$ (resp. $\mathfrak{F}_2$) (\S 6, no. 5, Example). In the product space $X' = X'_1 \times X'_2$ let $X''$ be the union of the subspaces $X_1 \times X'_2$ and $\{(\omega_1, \omega_2)\}$. $X$ is clearly a dense subspace of $X''$, and the hypotheses imply that $f(y_1, y_2)$ tends to a limit when $(y_1, y_2)$ tend to any point $(x_1, x_2)$ of $X''$ whilst remaining in $X$. The existence of the extension of $f$ by continuity to $X''$ then follows from Theorem 1. Since also $(\omega_1, \omega_2)$ lies in the closure of $X_1 \times \{\omega_2\}$ relative to $X''$, the result follows immediately (\S 7, no. 5).
+Let $X'_1 = X_1 \cup \{\omega_1\}$ (resp. $X'_2 = X_2 \cup \{\omega_2\}$) be the topological space *associated with the filter* $\mathfrak{F}_1$ (resp. $\mathfrak{F}_2$) (§ 6, no. 5, Example). In the product space $X' = X'_1 \times X'_2$ let $X''$ be the union of the subspaces $X_1 \times X'_2$ and $\{(\omega_1, \omega_2)\}$. $X$ is clearly a dense subspace of $X''$, and the hypotheses imply that $f(y_1, y_2)$ tends to a limit when $(y_1, y_2)$ tend to any point $(x_1, x_2)$ of $X''$ whilst remaining in $X$. The existence of the extension of $f$ by continuity to $X''$ then follows from Theorem 1. Since also $(\omega_1, \omega_2)$ lies in the closure of $X_1 \times \{\omega_2\}$ relative to $X''$, the result follows immediately (§ 7, no. 5).
 
 ### 6. EQUIVALENCE RELATIONS ON A REGULAR SPACE
 

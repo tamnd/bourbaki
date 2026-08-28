@@ -65,7 +65,7 @@ subsections:
       pdf_page: 557
 statements: 52
 exercises: 27
-content_sha256: 2e16d6b059fe7ddf4bc94fb3442430c0dcddc9cf0b5661ae740053067d632525
+content_sha256: f6dcc52805a2027d7331d2a760de2a8e098554e1ccf596c97d18989220a50b2c
 ---
 
 ## § 11. COGÈBRES, PRODUITS DE FORMES MULTILINÉAIRES, PRODUITS INTÉRIEURS ET DUALITÉ

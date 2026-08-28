@@ -12,9 +12,9 @@ pdf_pages: 0057-0058, 0070-0070
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: 1a78afc1efb0506f1e20b2f7c01bf05ebb325f21bb4c11aecb28bede93d1420b
+content_sha256: 5884b09b92fefe8df54cb4a39e821ac90347e2eb5c355d0e956f160817718e0a
 translated_from: content/en/ac/I/04_s4_flat_modules_and_tor_functors.md
-source_content_sha256: 24a301288683dac27cd58760ccbbf900299c5c25d31c3ee96a54ad58705fc000
+source_content_sha256: 9fd11944f9ccd26af40fbfd7087174fd30283103e635ee58c967ecaf0bfa5f58
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-9b653a8f
 glossary_version: 34
@@ -58,7 +58,7 @@ Vì (d) đúng, đồng cấu chính tắc
 $$
 E \otimes_A a \to E \otimes_A A = E
 $$
-là đơn ánh, điều đó có nghĩa là E là môđun phẳng (\S 2, no. 3, Mệnh đề 1).
+là đơn ánh, điều đó có nghĩa là E là môđun phẳng (§ 2, no. 3, Mệnh đề 1).
 
 Mệnh đề 1 cho một đặc trưng hóa các môđun phẳng, điều này thường có ích trong các ứng dụng. Chúng tôi sẽ tự giới hạn, như một ví dụ, ở việc đưa ra một
 

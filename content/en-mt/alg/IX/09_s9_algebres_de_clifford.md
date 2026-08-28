@@ -32,11 +32,11 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: 707960dff29aaad57d5607b51f3581d7932277eb5c1c1e0e70ac45d8711a1576
+content_sha256: 355af7c8ef8453df16903a634621da0925a1f8d1741b4a808ddc188a9e4815d8
 translated_from: content/fr/alg/IX/09_s9_algebres_de_clifford.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 2a500a7549e56905be9bc09ce400c6f4cd4e6cc2214970a64c59e9676425ae87
+source_content_sha256: e2c4e69fdd13a741a502879f76e3145e94bb7fd20f1e9d2440ff7b50608cba33
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-43da8062
 glossary_version: 34
@@ -100,7 +100,7 @@ Let us take in particular $Q' = Q$ and for $f$ the mapping $x \to -x$; we see th
 
 #### Proposition 2 {#alg-ix-s9-prop-2 .statement}
 
-Let $A'$ be a commutative ring, $\varphi$ a homomorphism of $A$ into $A'$, $Q’$ the quadratic form on $E' = A' \otimes_A E$ deduced from $Q$ by extension of scalars ($\S 3$, no 4, prop. 3). There exists one and only one isomorphism $j$ of the algebra $A' \otimes_A C(Q)$ onto $C(Q')$ such that $j (1 \otimes \rho_Q(x)) = \rho_{Q'}(1 \otimes x)$ for every $x \in E$.
+Let $A'$ be a commutative ring, $\varphi$ a homomorphism of $A$ into $A'$, $Q’$ the quadratic form on $E' = A' \otimes_A E$ deduced from $Q$ by extension of scalars ($§ 3$, no 4, prop. 3). There exists one and only one isomorphism $j$ of the algebra $A' \otimes_A C(Q)$ onto $C(Q')$ such that $j (1 \otimes \rho_Q(x)) = \rho_{Q'}(1 \otimes x)$ for every $x \in E$.
 
 It suffices to prove that the algebra $C' = A' \otimes C(Q)$ and the mapping $1 \otimes \rho_Q$ of $E'$ into $C'$ form a solution of the same problem of universal mapping as $C(Q')$ and $\rho_{Q'}$. Now, let D’ be an algebra over $A'$ and let $f'$ be an $A'$-linear mapping of $E'$ into D’ such that $f'(x')^2 = Q'(x').1$ for every $x' \in E'$. The mapping $g : x \to f' (1 \otimes x)$ of E into D’ (considered as an A-module by means of the homomorphism $\varphi$) is A-linear and we have $g(x)^2 = Q' (1 \otimes x).1 = Q(x).1$ for every $x \in E$. There therefore exists one and only one A-homomorphism $\overline{g}$ of $C(Q)$ into D’ such that $\overline{g}(\rho_Q(x)) = f'(1 \otimes x)$. Consequently there exists one and only one $A'$-homomorphism $\overline{f}'$ of $C'$ into D’ such that $\overline{f}'(1 \otimes \rho_Q(x)) = f'(1 \otimes x)$ for every $x \in E$; by linearity it follows that $\overline{f}'((1 \otimes \rho_Q)(x')) = f'(x')$ for every $x' \in E'$. QED.
 
@@ -319,7 +319,7 @@ To prove the second assertion, put $S^+ = S \cap C^+$ and $S^- = S \cap C^-$; it
 
 *If $m$ is even, but $Q$ of arbitrary index, the algebra $C(Q)$ is a central simple algebra of dimension $2^m$. Moreover, if $m > 0$, the subalgebra $C^+(Q)$ is separable, and its center Z is of dimension 2 over A. When Z is a field, Z is a separable quadratic extension of A and $C^+(Q)$ is simple; otherwise, Z is direct product of two fields isomorphic to A, and $C^+(Q)$ is then direct product of two simple subalgebras of dimensions $2^{m-2}$.
 
-Indeed, let $A'$ be the algebraic closure of A, and $Q'$ the quadratic form on $E' = A' \otimes_A E$ deduced from Q by extension of scalars. We have seen that $C(Q')$ is isomorphic to $A' \otimes_A C(Q)$ (prop. 2), and it is clear that $C^+(Q')$ is isomorphic to $A' \otimes_A C^+(Q)$. Since $Q'$ is neutral ($\S 4$, No. 2, Cor. 2 of prop. 3), the corollary is an immediate consequence of Th. 2 and the permanence theorems of Chap. VIII, $\S 7$.
+Indeed, let $A'$ be the algebraic closure of A, and $Q'$ the quadratic form on $E' = A' \otimes_A E$ deduced from Q by extension of scalars. We have seen that $C(Q')$ is isomorphic to $A' \otimes_A C(Q)$ (prop. 2), and it is clear that $C^+(Q')$ is isomorphic to $A' \otimes_A C^+(Q)$. Since $Q'$ is neutral ($§ 4$, No. 2, Cor. 2 of prop. 3), the corollary is an immediate consequence of Th. 2 and the permanence theorems of Chap. VIII, $§ 7$.
 
 #### Remark 1 {#alg-ix-s9-n4-rem-1 .statement}
 
@@ -345,7 +345,7 @@ a) *The algebra $C^+(Q)$ is central simple. If Q is of maximum index $r$, $C^+(Q
 
 b) *The algebra $C(Q)$ is separable. Its center $Z$ is of dimension 2, and $C(Q)$ is isomorphic to $Z \otimes_A C^+(Q)$, and hence is simple or a direct sum of two simple subalgebras.*
 
-Let $x_0$ be a non-isotropic vector of $E$, and let $F$ be the orthogonal of $x_0$; denote by $Q_1$ the quadratic form $y \to -Q(x_0)Q(y)$ on $F$; it is clear that $Q_1$ is non-degenerate. Since $x_0 y = -y x_0$ (for $y \in F$), we have $(x_0 y)^2 = -Q(x_0)Q(y) = Q_1(y)$, and consequently the mapping $y \to x_0 y$ of $F$ into $C^+(Q)$ extends to a homomorphism $h$ of $C(Q_1)$ into $C^+(Q)$ (No. 1, Prop. 1). Now $C(Q_1)$ is simple (Th. 2) and has the same dimension $2^{2r}$ as $C^+(Q)$; this implies, since $h(1) = 1$, that $h$ is an isomorphism. Moreover, if $Q$ is of index $r$, $x_0$ can be chosen in such a way that $Q_1$ is also of index $r$ (\$ 4, No. 2, Prop. 3), which proves $a$.
+Let $x_0$ be a non-isotropic vector of $E$, and let $F$ be the orthogonal of $x_0$; denote by $Q_1$ the quadratic form $y \to -Q(x_0)Q(y)$ on $F$; it is clear that $Q_1$ is non-degenerate. Since $x_0 y = -y x_0$ (for $y \in F$), we have $(x_0 y)^2 = -Q(x_0)Q(y) = Q_1(y)$, and consequently the mapping $y \to x_0 y$ of $F$ into $C^+(Q)$ extends to a homomorphism $h$ of $C(Q_1)$ into $C^+(Q)$ (No. 1, Prop. 1). Now $C(Q_1)$ is simple (Th. 2) and has the same dimension $2^{2r}$ as $C^+(Q)$; this implies, since $h(1) = 1$, that $h$ is an isomorphism. Moreover, if $Q$ is of index $r$, $x_0$ can be chosen in such a way that $Q_1$ is also of index $r$ (§ 4, No. 2, Prop. 3), which proves $a$.
 
 Soit now $(x_1, \ldots, x_{2r})$ an orthogonal basis of $F$; let $z = x_0 x_1 \ldots x_{2r}$. One verifies immediately that $z$ commutes with $x_j$ for $j = 0, \ldots, 2r$, and hence belongs to the center of $C(Q)$. Let $Z$ be the subspace of $C(Q)$ generated by $1$ and $z$; it is a subalgebra of the center of $C(Q)$ and a quadratic extension of $A$, since $z$ is odd and $z^2$ is equal to the scalar $(-1)^r Q(x_0) \ldots Q(x_{2r})$. Consider the homomorphism $\theta$ of $Z \otimes_A C^+(Q)$ into $C(Q)$ defined by $\theta(u \otimes v) = uv$. Since $z \in C^-$ and is invertible, the mapping $u \to zu$ is an isomorphism of the module $C^+$ onto $C^-$, which entails that $\theta(Z \otimes C^+)$ contains $C^+$ and $C^-$, and hence coincides with $C(Q)$. Since $Z \otimes C^+$ and $C(Q)$ have the same dimension $2^{2r+1}$, $\theta$ is an isomorphism; this proves $b$, in view of the results of Chap. VIII, § 7.
 
@@ -379,7 +379,7 @@ Indeed, one has $Q(sxs^{-1}) = (sxs^{-1})^2 = sx^2 s^{-1} = Q(x)$ for $s \in G$ 
 
 For an element $x$ of $E$ to belong to $G$, it is necessary that it be invertible, that is to say, that it be a nonsingular vector (since $x^2 = Q(x)$). If this is so, one has $x^{-1} = Q(x)^{-1} x$, whence, for every $y \in E$,
 $$ xy x^{-1} = Q(x)^{-1} xy x = Q(x)^{-1} x (\Phi(x, y) - xy) = - (y - \Phi(x, y) Q(x)^{-1} x); $$
-this proves b) (\S 6, no 4).
+this proves b) (§ 6, no 4).
 
 #### Lemma 5 {#alg-ix-s9-lem-5 .statement}
 
@@ -389,7 +389,7 @@ The second assertion follows obviously from the first, since the nonsingular vec
 
 Suppose $\dim(E)$ is even. Since every element $u$ of $\mathbf{O}(Q)$ extends in one and only one way to an automorphism $\bar{u}$ of $C(Q)$ (Proposition 1), and since $C(Q)$ is central simple (Theorem 2), $\bar{u}$ is an inner automorphism (Chapter VIII, § 10, No. 1, Theorem 1). There therefore exists an element $s$ of $G$ such that $\varphi(s) = u$. On the other hand, the center of $C(Q)$ is contained in $C^+$, which entails that $\varphi(G)/\varphi(G^+)$ is isomorphic to $G/G^+$, hence that $\varphi(G^+)$ is of index 2 in $\varphi(G) = \mathbf{O}(Q)$ if $E \not= \{0\}$. This proves the first two assertions of c).
 
-Suppose finally that $A$ is of characteristic $\not= 2$. Then every element $u$ of $\mathbf{O}(Q)$ is a product of symmetries with respect to hyperplanes orthogonal to nonsingular vectors $x_i (i = 1, \ldots, h)$ (\S 6, n° 4, prop. 5); consequently one has $u = (-1)^h \varphi(x_1 \ldots x_h)$ and $\det(u) = (-1)^h$. For $u$ to belong to $\mathbf{SO}(Q)$, it is necessary and sufficient that $h$ be pair, which shows that $\varphi(G^+) \supset \mathbf{SO}(Q)$. Since $\mathbf{SO}(Q)$ is of index 2 in $\mathbf{O}(Q)$ when $E \not= \{0\}$, one has $\varphi(G^+) = \mathbf{SO}(Q)$ if $E$ is of *even* dimension, which completes the proof of c). On the other hand, if the dimension of $E$ is *odd*, $\varphi(G)$ does not contain the orthogonal transformation $x \to -x$; indeed this extends to the principal automorphism $\alpha$ of $C(Q)$ (n° 1), and $\alpha$ is not an inner automorphism since the center $Z$ of $C(Q)$ contains a nonzero element of $C^-(Q)$ (th. 3). Thus $\varphi(G) \not= \mathbf{O}(Q)$, and, since $\varphi(G) \supset \varphi(G^+) \supset \mathbf{SO}(Q)$ and $\mathbf{SO}(Q)$ is of index 2 in $\mathbf{O}(Q)$, one has $\varphi(G) = \varphi(G^+) = \mathbf{SO}(Q)$. This proves d). Q.E.D.
+Suppose finally that $A$ is of characteristic $\not= 2$. Then every element $u$ of $\mathbf{O}(Q)$ is a product of symmetries with respect to hyperplanes orthogonal to nonsingular vectors $x_i (i = 1, \ldots, h)$ (§ 6, n° 4, prop. 5); consequently one has $u = (-1)^h \varphi(x_1 \ldots x_h)$ and $\det(u) = (-1)^h$. For $u$ to belong to $\mathbf{SO}(Q)$, it is necessary and sufficient that $h$ be pair, which shows that $\varphi(G^+) \supset \mathbf{SO}(Q)$. Since $\mathbf{SO}(Q)$ is of index 2 in $\mathbf{O}(Q)$ when $E \not= \{0\}$, one has $\varphi(G^+) = \mathbf{SO}(Q)$ if $E$ is of *even* dimension, which completes the proof of c). On the other hand, if the dimension of $E$ is *odd*, $\varphi(G)$ does not contain the orthogonal transformation $x \to -x$; indeed this extends to the principal automorphism $\alpha$ of $C(Q)$ (n° 1), and $\alpha$ is not an inner automorphism since the center $Z$ of $C(Q)$ contains a nonzero element of $C^-(Q)$ (th. 3). Thus $\varphi(G) \not= \mathbf{O}(Q)$, and, since $\varphi(G) \supset \varphi(G^+) \supset \mathbf{SO}(Q)$ and $\mathbf{SO}(Q)$ is of index 2 in $\mathbf{O}(Q)$, one has $\varphi(G) = \varphi(G^+) = \mathbf{SO}(Q)$. This proves d). Q.E.D.
 
 The subgroup $\varphi(G^+)$ of $\mathbf{O}(Q)$, which is of index 2 if $E \not= \{0\}$, is called the *group of rotations* of $E$, and its elements are called *rotations*; it is denoted by $\mathbf{O}^+(Q)$. Notice that, if $A$ is not of characteristic 2, one has $\mathbf{O}^+(Q) = \mathbf{SO}(Q)$ (cf. exerc. 9).
 
@@ -405,7 +405,7 @@ Exercices. — ¶ 1) Prove Cor. 3 and 4 of Theorem 1 of No. 3 when $E_1$ and $E_
 $$
 \bar{f}(z_1 \otimes z_2) = \bar{f}_1(z_1)\bar{f}_2(z_2)
 $$
-for $z_i \in C(Q_i)$ ($i = 1, 2$). To prove then Cor. 3, consider the quadratic form $Q'$ external direct sum of $Q_1$ and $Q_2$ (\$ 3, No. 4), and remark that one has $Q'(x) = Q(x) + F(x, x)$, $F$ being the bilinear form defined by $F(x_1 + x_2, y_1 + y_2) = -\Phi(x_1, y_2)$ for $x_i, y_i$ in $E_i$ ($i = 1, 2$) ; use then Prop. 3.)
+for $z_i \in C(Q_i)$ ($i = 1, 2$). To prove then Cor. 3, consider the quadratic form $Q'$ external direct sum of $Q_1$ and $Q_2$ (§ 3, No. 4), and remark that one has $Q'(x) = Q(x) + F(x, x)$, $F$ being the bilinear form defined by $F(x_1 + x_2, y_1 + y_2) = -\Phi(x_1, y_2)$ for $x_i, y_i$ in $E_i$ ($i = 1, 2$) ; use then Prop. 3.)
 
 ¶ 2) Suppose that $E$ be direct sum of two orthogonal submodules $E_1, E_2$ and denote by $Q_i$ the restriction of $Q$ to $E_i$ ($i = 1, 2$);
 
@@ -452,7 +452,7 @@ and deduce that $i_f$ is none other than the right interior product $z \to z \ll
 
 ¶ 9) We suppose that $A$ is a field of characteristic 2, $E$ a vector space of finite dimension $2r$, $Q$ a non-degenerate quadratic form on $E$.
 
-a) Let $(e_i)$ be a symplectic basis ($\S 5,$ No. 1) of $E$ for the alternating bilinear form $\Phi$ associated with Q. Show that the element
+a) Let $(e_i)$ be a symplectic basis ($§ 5,$ No. 1) of $E$ for the alternating bilinear form $\Phi$ associated with Q. Show that the element
 
 $$
 z = e_1 e_2 + e_3 e_4 + \cdots + e_{2r-1} e_{2r}
@@ -466,7 +466,7 @@ $$
 
 (called the *pseudo-discriminant* of Q with respect to the symplectic basis $(e_i)$) be of the form $\lambda^2 + \lambda$, with $\lambda \in A$.
 
-b) Let $u$ be a similarity for $\Phi$ ($\S 6,$ No. 5) with multiplier $\mu(u)$, and let $Q_1(x) = Q(u(x))$. Put
+b) Let $u$ be a similarity for $\Phi$ ($§ 6,$ No. 5) with multiplier $\mu(u)$, and let $Q_1(x) = Q(u(x))$. Put
 
 $$
 u(e_{2i-1}) = \sum_{j=1}^{r} a_{ij} e_{2j-1} + \sum_{j=1}^{r} b_{ij} e_{2j},
@@ -487,7 +487,7 @@ $$
 $$
 (\mu(u))^{-1}(u(e_1)u(e_2) + u(e_3)u(e_4) + \cdots + u(e_{2r-1})u(e_{2r}))
 $$
-belongs to $\mathbf{Z}$.) In order that $u$ be a similarity for $Q$ ($\S 4$, Exercise 9) with multiplier $\mu(u)$, it is necessary and sufficient that $\mathrm{D}(u) = 0$ or $\mathrm{D}(u) = \mu(u)$; the similarities for $Q$ such that $\mathrm{D}(u) = 0$ are called direct.
+belongs to $\mathbf{Z}$.) In order that $u$ be a similarity for $Q$ ($§ 4$, Exercise 9) with multiplier $\mu(u)$, it is necessary and sufficient that $\mathrm{D}(u) = 0$ or $\mathrm{D}(u) = \mu(u)$; the similarities for $Q$ such that $\mathrm{D}(u) = 0$ are called direct.
 
 c) Now prove that, if $\varphi$ is a similarity for $\Phi$, $u$ a similarity for $Q$, one has
 $$
@@ -495,11 +495,11 @@ $$
 $$
 (consider the Dickson invariant of $\varphi$ with respect to the symplectic basis formed by the $u(e_{2i-1})$ and $(\mu(u))^{-1}u(e_{2i})$ for $1 \leq i \leq r$). Deduce that the direct similarities for $Q$ form a normal subgroup of index 2 in the group of similarities for $Q$.
 
-d) If $u$ is the symmetry with respect to the hyperplane orthogonal to a nonsingular vector in $E$, now prove that $\mathrm{D}(u) = 1$. Deduce that the group $\varphi(G^+)$ (notations of No. 5) is the group $\mathbf{SO}(Q)$ defined in Exercise 28 c) of $\S 6$.
+d) If $u$ is the symmetry with respect to the hyperplane orthogonal to a nonsingular vector in $E$, now prove that $\mathrm{D}(u) = 1$. Deduce that the group $\varphi(G^+)$ (notations of No. 5) is the group $\mathbf{SO}(Q)$ defined in Exercise 28 c) of $§ 6$.
 
-e) Let $u \in \mathbf{O}(Q)$, and suppose $\Lambda$ is algebraically closed. Show that, in order that $u \in \mathbf{SO}(Q)$, it is necessary and sufficient that the number of elementary divisors of the module $E_u$ be pair. (With the notations of Exercise 15 of $\S 5$, remark first that if $p, q$ are two distinct irreducible factors of the minimal polynomial of $u$, the number of indecomposable submodules of which $G(p, q)$ is direct sum is equal to the number of indecomposable submodules of which $G(q, p)$ is direct sum. Remark on the other hand that $G(p, p) = \{0\}$ unless for $p = X - 1$. Prove finally that one can restrict oneself to the case where $E_u$ is equal to $G(p, p)$ (with $p = X - 1$) and is indecomposable. There is then a symplectic basis $(e_i)$ of $E$ such that $e_1, e_3, \ldots, e_{2k-1}$ form a basis of $(p(u))^{2r-k}(E)$ for $1 \leq k \leq r$; show that $e_1, e_3, \ldots, e_{2r-3}$ are singular vectors, and conclude that $\mathrm{D}(u) = 1$.)
+e) Let $u \in \mathbf{O}(Q)$, and suppose $\Lambda$ is algebraically closed. Show that, in order that $u \in \mathbf{SO}(Q)$, it is necessary and sufficient that the number of elementary divisors of the module $E_u$ be pair. (With the notations of Exercise 15 of $§ 5$, remark first that if $p, q$ are two distinct irreducible factors of the minimal polynomial of $u$, the number of indecomposable submodules of which $G(p, q)$ is direct sum is equal to the number of indecomposable submodules of which $G(q, p)$ is direct sum. Remark on the other hand that $G(p, p) = \{0\}$ unless for $p = X - 1$. Prove finally that one can restrict oneself to the case where $E_u$ is equal to $G(p, p)$ (with $p = X - 1$) and is indecomposable. There is then a symplectic basis $(e_i)$ of $E$ such that $e_1, e_3, \ldots, e_{2k-1}$ form a basis of $(p(u))^{2r-k}(E)$ for $1 \leq k \leq r$; show that $e_1, e_3, \ldots, e_{2r-3}$ are singular vectors, and conclude that $\mathrm{D}(u) = 1$.)
 
-$\S 10$ We suppose that $A$ is a field, $E$ a finite-dimensional vector space, $Q$ a degenerate quadratic form on $E$; let $M$ be a supplementary subspace of $E^0$ in $E$, $B$ the Clifford algebra (semisimple) of the restriction of $Q$ to $M$.
+$§ 10$ We suppose that $A$ is a field, $E$ a finite-dimensional vector space, $Q$ a degenerate quadratic form on $E$; let $M$ be a supplementary subspace of $E^0$ in $E$, $B$ the Clifford algebra (semisimple) of the restriction of $Q$ to $M$.
 
 a) We suppose first that $A$ is of characteristic $\neq 2$. Let $L$ be the Clifford algebra of the restriction of $Q$ to $E^0$ (isomorphic to $\wedge E^0$), $\mathcal{R}_0$ its radical (ideal generated in $L$ by $E^0$, and of codimension 1 in $L$); show that the radical $\mathcal{R}$ of $C(Q)$ is obtained (up to an isomorphism) by defining the algebra structure on $B \otimes_A \mathcal{R}_0$ as in Cor. 4 of Theorem 1, that $C(Q)/\mathcal{R}$ is isomorphic to $B$ and $C(Q)$ is direct sum of $B$ and $\mathcal{R}$.
 

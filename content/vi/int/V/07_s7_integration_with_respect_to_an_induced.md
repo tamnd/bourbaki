@@ -21,9 +21,9 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: cf682d1b137aea3f0b6e18e79c4e123c130c8d97923e48d77695d06e29c6f7be
+content_sha256: 5012d3d9fae3921499312646b9d0c4254f99cfa930bdd821649d601fe325e25d
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
-source_content_sha256: 4ecc2c2ebe5af11cad1fd2fc9b49c9e7ed029e1548c1c274e34065846fe89224
+source_content_sha256: e030290ab411284cc4728d9904d084897c45e06cfc755ed71d47123bee0c7221
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-5d1c0ce4
 glossary_version: 34
@@ -91,13 +91,13 @@ Xét đến các nhận xét trước đó và (2), quan hệ (3) suy ra từ Đ
 
 #### Định lý 1 {#int-v-s7-thm-1 .statement}
 
-— *Cho* g *là một hàm xác định trên* X, *với các giá trị trong* $\overline{\mathbf{R}}$ *hoặc trong một không gian Banach. Để* g *là* $\mu_X$*-nguyên cốt yếu, điều kiện cần* và đủ là $g$ *là* $\mu$*-nguyên cốt yếu trong* $X$ (\S 5, No. 3, Ví dụ), trong trường hợp đó
+— *Cho* g *là một hàm xác định trên* X, *với các giá trị trong* $\overline{\mathbf{R}}$ *hoặc trong một không gian Banach. Để* g *là* $\mu_X$*-nguyên cốt yếu, điều kiện cần* và đủ là $g$ *là* $\mu$*-nguyên cốt yếu trong* $X$ (§ 5, No. 3, Ví dụ), trong trường hợp đó
 
 $$
 \int g \, d\mu_X = \int_X g \, d\mu.
 $$
 
-Điều này suy ra từ Định lý 2 của \S 4.
+Điều này suy ra từ Định lý 2 của § 4.
 
 #### Hệ quả 1 {#int-v-s7-thm-1-cor-1 .statement}
 
@@ -111,7 +111,7 @@ $$
 (g \cdot \mu)_X = g_X \cdot \mu_X.
 $$
 
-Điều này suy ra ngay từ Định lý 1, áp dụng cho các hàm $fg_X$ ($f \in \mathcal{K}(X; \mathbf{C})$), và định nghĩa của độ đo cảm sinh trên X bởi một độ đo phức (Ch. IV, \S 5, No. 7).
+Điều này suy ra ngay từ Định lý 1, áp dụng cho các hàm $fg_X$ ($f \in \mathcal{K}(X; \mathbf{C})$), và định nghĩa của độ đo cảm sinh trên X bởi một độ đo phức (Ch. IV, § 5, No. 7).
 
 #### Hệ quả 3 {#int-v-s7-thm-1-cor-3 .statement}
 
@@ -121,11 +121,11 @@ $$
 |\theta|_X = |\theta_X|.
 $$
 
-Đặt $|\theta| = \mu$ và áp dụng Hệ quả 2 bằng cách lấy $g$ là một hàm phức có giá trị tuyệt đối 1 sao cho $\theta = g \cdot \mu$ (\S 5, No. 5, Hệ quả 3 của Định lý 2); khi đó $\theta_X = g_X \cdot \mu_X$; nhưng $g_X$ là một hàm có giá trị tuyệt đối 1, và công thức (6) suy ra từ Mệnh đề 2 của \S 5, No. 2.
+Đặt $|\theta| = \mu$ và áp dụng Hệ quả 2 bằng cách lấy $g$ là một hàm phức có giá trị tuyệt đối 1 sao cho $\theta = g \cdot \mu$ (§ 5, No. 5, Hệ quả 3 của Định lý 2); khi đó $\theta_X = g_X \cdot \mu_X$; nhưng $g_X$ là một hàm có giá trị tuyệt đối 1, và công thức (6) suy ra từ Mệnh đề 2 của § 5, No. 2.
 
 #### Nhận xét {#int-v-s7-n1-rem-2 .statement}
 
-— a) Hệ quả 3 đã được chứng minh bằng một phương pháp khác (Ch. IV, \S 5, No. 7, Bổ đề 3).
+— a) Hệ quả 3 đã được chứng minh bằng một phương pháp khác (Ch. IV, § 5, No. 7, Bổ đề 3).
     b) Theo Hệ quả 3, các hệ quả 1,2,3 của Mệnh đề 1, Mệnh đề 2, Định lý 1 và các hệ quả 1,2 của nó mở rộng ngay cho một độ đo phức.
 
 #### Chú giải {#int-v-s7-n1-sch-1 .statement}

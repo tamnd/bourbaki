@@ -28,7 +28,7 @@ subsections:
       pdf_page: 275
 statements: 11
 exercises: 8
-content_sha256: 027647b256ef4b582d8f1e7c8248bf63f20a78764e2ce2f372c52dc1ce8df431
+content_sha256: 593c4e403b37dd178d67dc7d6d34f792b3334896636e2904531af74b0bf4c224
 ---
 
 ## § 5. Propriétés de platitude des modules filtrés.
@@ -203,7 +203,7 @@ Soit $\rho : A/\mathfrak{J} \to B/\mathfrak{J}B$ l’homomorphisme canonique ; l
 
 *Soient A un anneau commutatif noethérien, $\mathfrak{J}$ un idéal de A, $\hat{A}$ le séparé complété de A pour la topologie $\mathfrak{J}$-adique, M un $\hat{A}$-module idéalement séparé pour $\mathfrak{J}\hat{A}$. Pour que M soit un A-module plat, il faut et il suffit que M soit un $\hat{A}$-module plat.*
 
-On sait en effet que $\hat{A}$ est un anneau noethérien (\S 3, n° 4, prop. 8) et un A-module plat (\S 3, n° 4, th. 3), que $\mathfrak{J}\hat{A} = \hat{\mathfrak{J}}$ (\S 2, n° 12, prop. 16) et que l’homomorphisme canonique $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ est bijectif (\S 2, n° 12, prop. 15) ; on peut donc appliquer la prop. 3.
+On sait en effet que $\hat{A}$ est un anneau noethérien (§ 3, n° 4, prop. 8) et un A-module plat (§ 3, n° 4, th. 3), que $\mathfrak{J}\hat{A} = \hat{\mathfrak{J}}$ (§ 2, n° 12, prop. 16) et que l’homomorphisme canonique $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ est bijectif (§ 2, n° 12, prop. 15) ; on peut donc appliquer la prop. 3.
 
 #### Proposition 4 {#ac-iii-s5-prop-4 .statement}
 
@@ -213,7 +213,7 @@ a) M est un A-module plat.
 b) $\hat{M}$ est un A-module plat.
 c) $\hat{M}$ est un $\hat{A}$-module plat.
 
-Comme B, muni de la topologie $\mathfrak{L}$-adique, est un anneau de Zariski, $\hat{B}$ est un B-module fidèlement plat (\S 3, n° 5, prop. 9) et $\hat{M}$ est canoniquement isomorphe à $M \otimes_B \hat{B}$ (\S 3, n° 4, th. 3) ; on vérifie aussitôt que cet isomorphisme canonique est un isomorphisme de la structure de A-module de $\hat{M}$ sur la structure de A-module de $M \otimes_B \hat{B}$ déduite de celle de M. Appliquons la prop. 4 du chap. I, \S 3, n° 2 avec R remplacé par B, S par A, E par $\hat{B}$, F par M ; on voit que pour que M soit un A-module plat, il faut et il suffit que $\hat{M}$ soit un A-module plat. Par ailleurs, $\hat{M}$ est un $\hat{B}$-module de type fini et $\mathfrak{J}\hat{B}$ est contenu dans $\hat{\mathfrak{L}} = \mathfrak{L}\hat{B}$, donc dans le radical de $\hat{B}$ (\S 3, n° 4, prop. 8) ; par suite $\hat{M}$ est un $\hat{A}$-module idéalement séparé pour $\mathfrak{J}\hat{A}$ (prop. 2). Les conditions b) et c) sont donc équivalentes en vertu du cor. de la prop. 3.*
+Comme B, muni de la topologie $\mathfrak{L}$-adique, est un anneau de Zariski, $\hat{B}$ est un B-module fidèlement plat (§ 3, n° 5, prop. 9) et $\hat{M}$ est canoniquement isomorphe à $M \otimes_B \hat{B}$ (§ 3, n° 4, th. 3) ; on vérifie aussitôt que cet isomorphisme canonique est un isomorphisme de la structure de A-module de $\hat{M}$ sur la structure de A-module de $M \otimes_B \hat{B}$ déduite de celle de M. Appliquons la prop. 4 du chap. I, § 3, n° 2 avec R remplacé par B, S par A, E par $\hat{B}$, F par M ; on voit que pour que M soit un A-module plat, il faut et il suffit que $\hat{M}$ soit un A-module plat. Par ailleurs, $\hat{M}$ est un $\hat{B}$-module de type fini et $\mathfrak{J}\hat{B}$ est contenu dans $\hat{\mathfrak{L}} = \mathfrak{L}\hat{B}$, donc dans le radical de $\hat{B}$ (§ 3, n° 4, prop. 8) ; par suite $\hat{M}$ est un $\hat{A}$-module idéalement séparé pour $\mathfrak{J}\hat{A}$ (prop. 2). Les conditions b) et c) sont donc équivalentes en vertu du cor. de la prop. 3.*
 
 ## EXERCICES {#ac-iii-s5-exercises}
 

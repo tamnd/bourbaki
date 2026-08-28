@@ -26,9 +26,9 @@ subsections:
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: 3736a0000948c010d55d6100f564407f34baf9d14f0f4e6606fb0d2b02583b24
+content_sha256: 4076c5a121c8c1f00019e97a82398e53fa7d69936cc2ba9f3a3f5b6b08321270
 translated_from: content/en/alg/III/A_a_alternative_algebras_octonions.md
-source_content_sha256: 48c299346139675ea176fc85c721015531c6b333f6cc1e9d1e163aa5f4bc41f0
+source_content_sha256: 281581bb5201e4e85a70581608d54b3807414edb6034cc7863fc7fe4de4c8db0
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-19aaef7b
 glossary_version: 34
@@ -64,10 +64,10 @@ Việc kiểm tra theo ngay lập tức từ định nghĩa (1).
 
 *Đối với một đại số trên A $F$, các điều kiện sau là tương đương:*
 (a) *Với mọi cặp có thứ tự các phần tử $x, y$ của F, đại số con sinh bởi $x$ và $y$ là kết hợp.*
-(b) *Ánh xạ ba tuyến tính $(x, y, z) \mapsto a(x, y, z)$ là phản xứng (\S 7, no. 3).*
+(b) *Ánh xạ ba tuyến tính $(x, y, z) \mapsto a(x, y, z)$ là phản xứng (§ 7, no. 3).*
 (c) *Với mọi cặp có thứ tự các phần tử $x, y$ của F, $x^2y = x(xy)$ và $yx^2 = (yx)x$.*
 
-Rõ ràng (a) suy ra (c). Ta chứng minh (c) suy ra (b): theo định nghĩa (\S 7, no. 3), để chứng minh (b), chỉ cần kiểm tra rằng $a(x, x, y) = 0$ và $a(x, y, y) = 0$, điều này chính xác là (c).
+Rõ ràng (a) suy ra (c). Ta chứng minh (c) suy ra (b): theo định nghĩa (§ 7, no. 3), để chứng minh (b), chỉ cần kiểm tra rằng $a(x, x, y) = 0$ và $a(x, y, y) = 0$, điều này chính xác là (c).
 
 Để chứng minh (b) suy ra (a), ta sử dụng 4 bổ đề sau:
 
@@ -125,13 +125,13 @@ do $\mathbf{X}$ kết hợp mạnh và theo định nghĩa của $Z$. Nhưng vì
 
 Một đại số kết hợp hiển nhiên là thay thế. Trong no. 3 chúng ta sẽ đưa ra một ví dụ về một đại số thay thế không kết hợp.
 
-Nếu $\mathbf{F}$ là một đại số thay thế trên A, thì mọi A-đại số $\mathbf{F} \otimes_A A'$ thu được từ $\mathbf{F}$ bằng cách mở rộng vô hướng (\S 1, no. 5) đều là một $A'$-đại số thay thế, như suy ra từ điều kiện (b) của Mệnh đề 1.
+Nếu $\mathbf{F}$ là một đại số thay thế trên A, thì mọi A-đại số $\mathbf{F} \otimes_A A'$ thu được từ $\mathbf{F}$ bằng cách mở rộng vô hướng (§ 1, no. 5) đều là một $A'$-đại số thay thế, như suy ra từ điều kiện (b) của Mệnh đề 1.
 
 ### 2. ĐẠI SỐ THAY THẾ CAYLEY
 
 #### Mệnh đề 2 {#alg-iii-a0-prop-2 .statement}
 
-*Cho $\mathbf{A}$ là một vành, $\mathbf{F}$ là một Cayley $\mathbf{A}$-đại số, e là phần tử đơn vị của nó, $s : x \mapsto \overline{x}$ là phép liên hợp của nó và $\mathbf{N} : \mathbf{F} \to \mathbf{A}$ là chuẩn Cayley của nó (\S 3, no. 4).
+*Cho $\mathbf{A}$ là một vành, $\mathbf{F}$ là một Cayley $\mathbf{A}$-đại số, e là phần tử đơn vị của nó, $s : x \mapsto \overline{x}$ là phép liên hợp của nó và $\mathbf{N} : \mathbf{F} \to \mathbf{A}$ là chuẩn Cayley của nó (§ 3, no. 4).
 
 (i) Để $\mathbf{F}$ là thay thế, điều kiện cần và đủ là, với mọi cặp có thứ tự các phần tử $x, y$ của $\mathbf{F}$, $x^2y = x(xy)$.*
 
@@ -150,9 +150,9 @@ Cuối cùng ta chứng minh (iii). Nếu $N(x)$ khả nghịch trong Ae và ta 
 
 #### Mệnh đề 3 {#alg-iii-a0-prop-3 .statement}
 
-*Cho E là một đại số Cayley A, γ là một phần tử của A và F là mở rộng Cayley của E xác định bởi γ và phép liên hợp của E (\S 2, no. 5, Mệnh đề 5). Để F là thay thế, điều kiện cần và đủ là E kết hợp.*
+*Cho E là một đại số Cayley A, γ là một phần tử của A và F là mở rộng Cayley của E xác định bởi γ và phép liên hợp của E (§ 2, no. 5, Mệnh đề 5). Để F là thay thế, điều kiện cần và đủ là E kết hợp.*
 
-Cho $u = (x, y), v = (x', y')$ là hai phần tử của F (trong đó x, y, $x', y'$ thuộc E). Khi đó (\S 2, no. 5, công thức (27))
+Cho $u = (x, y), v = (x', y')$ là hai phần tử của F (trong đó x, y, $x', y'$ thuộc E). Khi đó (§ 2, no. 5, công thức (27))
 
 $$
 \begin{cases}
@@ -169,14 +169,14 @@ Vế trái bằng $(yT(x))\overline{x}' = y(\overline{x}'T(x)) = y(\overline{x}'
 
 ### 3. CÁC OCTONION
 
-Cho E là một đại số quaternion kiểu $(\alpha, \beta, \gamma)$ trên A ($\S 2$, no. 5, Ví dụ 2) và cho $\delta \in A$. Mở rộng Cayley F của E bởi $\delta$ và phép liên hợp của E được gọi là một đại số octonion trên A và được nói là kiểu $(\alpha, \beta, \gamma, \delta)$. Theo Mệnh đề 3 của no. 2, F là một đại số thay thế. Nó có một cơ sở $(e_i)_{0 \leq i \leq 7}$ gồm 8 phần tử, được xác định bởi
+Cho E là một đại số quaternion kiểu $(\alpha, \beta, \gamma)$ trên A ($§ 2$, no. 5, Ví dụ 2) và cho $\delta \in A$. Mở rộng Cayley F của E bởi $\delta$ và phép liên hợp của E được gọi là một đại số octonion trên A và được nói là kiểu $(\alpha, \beta, \gamma, \delta)$. Theo Mệnh đề 3 của no. 2, F là một đại số thay thế. Nó có một cơ sở $(e_i)_{0 \leq i \leq 7}$ gồm 8 phần tử, được xác định bởi
 $$
 \begin{align*}
 e_0 &= (e, 0), & e_1 &= (i, 0), & e_2 &= (j, 0), & e_3 &= (k, 0) \\
 e_4 &= (0, e), & e_5 &= (0, i), & e_6 &= (0, j), & e_7 &= (0, k)
 \end{align*}
 $$
-trong đó $(e, i, j, k)$ là cơ sở của E được xác định loc. cit.; hiển nhiên $e_0$ (cũng được ký hiệu bởi $e$) là phần tử đơn vị của F. Nếu $u = \sum_{i=0}^{7} \xi_i e_i$ là một phần tử của F (với các $\xi_i \in A$), các công thức (23), (24) và (31) của $\S 2$, no. 5, cho liên hợp, vết và chuẩn của octonion $u$
+trong đó $(e, i, j, k)$ là cơ sở của E được xác định loc. cit.; hiển nhiên $e_0$ (cũng được ký hiệu bởi $e$) là phần tử đơn vị của F. Nếu $u = \sum_{i=0}^{7} \xi_i e_i$ là một phần tử của F (với các $\xi_i \in A$), các công thức (23), (24) và (31) của $§ 2$, no. 5, cho liên hợp, vết và chuẩn của octonion $u$
 
 $$
 \left\{
@@ -189,14 +189,14 @@ N_F(u) &= \xi_0^2 + \beta \xi_0 \xi_1 - \alpha \xi_1^2 - \gamma (\xi_2^2 + \beta
 \right.
 $$
 
-Bây giờ cho $u = (x, y)$, $u' = (x', y')$ và $u'' = (x'', y'')$ là ba octonion (trong đó các phần tử $x, x', x'', y, y', y''$ thuộc E). Các công thức (24) và (27) của $\S 2$, no. 5 cho
+Bây giờ cho $u = (x, y)$, $u' = (x', y')$ và $u'' = (x'', y'')$ là ba octonion (trong đó các phần tử $x, x', x'', y, y', y''$ thuộc E). Các công thức (24) và (27) của $§ 2$, no. 5 cho
 $$
 \begin{align*}
 T_F((uu')u'') &= T(xx'x'') + \delta T(\bar{y}'y x'') + \delta T(\bar{y}''y \bar{x}') + \delta T(\bar{y}''y' x) \\
 T_F(u(u'u'')) &= T(xx'x'') + \delta T(x''\bar{y}'y) + \delta T(\bar{x}'\bar{y}''y) + \delta T(x\bar{y}''y')
 \end{align*}
 $$
-(trong đó T ký hiệu vết trong E và đã sử dụng tính chất E là kết hợp). Vì $T(xy) = T(yx)$ với mọi quaternion x, y ($\S 2$, no. 4, công thức (17)), suy ra
+(trong đó T ký hiệu vết trong E và đã sử dụng tính chất E là kết hợp). Vì $T(xy) = T(yx)$ với mọi quaternion x, y ($§ 2$, no. 4, công thức (17)), suy ra
 $$
 T_F((uu')u'') = T_F(u(u'u''))
 $$

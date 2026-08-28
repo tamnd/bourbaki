@@ -21,7 +21,7 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: 4ecc2c2ebe5af11cad1fd2fc9b49c9e7ed029e1548c1c274e34065846fe89224
+content_sha256: e030290ab411284cc4728d9904d084897c45e06cfc755ed71d47123bee0c7221
 ---
 
 ## § 7. INTEGRATION WITH RESPECT TO AN INDUCED MEASURE
@@ -84,13 +84,13 @@ This follows from Prop. 3 of §4.
 
 #### Theorem 1 {#int-v-s7-thm-1 .statement}
 
-— *Let* g *be a function defined on* X, *with values in* $\overline{\mathbf{R}}$ *or in a Banach space. For* g *to be essentially* $\mu_X$*-integrable, it is necessary* and sufficient that $g$ be essentially $\mu$-integrable in $X$ (\S 5, No. 3, Example), in which case
+— *Let* g *be a function defined on* X, *with values in* $\overline{\mathbf{R}}$ *or in a Banach space. For* g *to be essentially* $\mu_X$*-integrable, it is necessary* and sufficient that $g$ be essentially $\mu$-integrable in $X$ (§ 5, No. 3, Example), in which case
 
 $$
 \int g \, d\mu_X = \int_X g \, d\mu.
 $$
 
-This follows from Th. 2 of \S 4.
+This follows from Th. 2 of § 4.
 
 #### Corollary 1 {#int-v-s7-thm-1-cor-1 .statement}
 
@@ -104,7 +104,7 @@ $$
 (g \cdot \mu)_X = g_X \cdot \mu_X.
 $$
 
-This follows at once from Th. 1, applied to the functions $fg_X$ ($f \in \mathcal{K}(X; \mathbf{C})$), and the definition of the measure induced on X by a complex measure (Ch. IV, \S 5, No. 7).
+This follows at once from Th. 1, applied to the functions $fg_X$ ($f \in \mathcal{K}(X; \mathbf{C})$), and the definition of the measure induced on X by a complex measure (Ch. IV, § 5, No. 7).
 
 #### Corollary 3 {#int-v-s7-thm-1-cor-3 .statement}
 
@@ -114,11 +114,11 @@ $$
 |\theta|_X = |\theta_X|.
 $$
 
-Set $|\theta| = \mu$ and apply Cor. 2 on taking $g$ to be a complex function of absolute value 1 such that $\theta = g \cdot \mu$ (\S 5, No. 5, Cor. 3 of Th. 2); then $\theta_X = g_X \cdot \mu_X$; but $g_X$ is a function of absolute value 1, and the formula (6) follows from Prop. 2 of \S 5, No. 2.
+Set $|\theta| = \mu$ and apply Cor. 2 on taking $g$ to be a complex function of absolute value 1 such that $\theta = g \cdot \mu$ (§ 5, No. 5, Cor. 3 of Th. 2); then $\theta_X = g_X \cdot \mu_X$; but $g_X$ is a function of absolute value 1, and the formula (6) follows from Prop. 2 of § 5, No. 2.
 
 #### Remark {#int-v-s7-n1-rem-2 .statement}
 
-— a) Cor. 3 has already been proved by another method (Ch. IV, \S 5, No. 7, Lemma 3).
+— a) Cor. 3 has already been proved by another method (Ch. IV, § 5, No. 7, Lemma 3).
     b) By virtue of Cor. 3, the corollaries 1,2,3 of Prop. 1, Prop. 2, Theorem 1 and its corollaries 1,2 extend at once to a complex measure.
 
 #### Scholium {#int-v-s7-n1-sch-1 .statement}

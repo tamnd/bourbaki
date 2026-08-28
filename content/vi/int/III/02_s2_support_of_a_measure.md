@@ -33,9 +33,9 @@ subsections:
       pdf_page: 76
 statements: 26
 exercises: 5
-content_sha256: e1e19c5e078b767489bd930878b27fee21549c1b017474a7918650ae465a2dfc
+content_sha256: a96082aef07488896dc43516a7a5cb61798d75c81c225b8ec8c209b76fac7d5c
 translated_from: content/en/int/III/02_s2_support_of_a_measure.md
-source_content_sha256: 742b186e2510b4cb080d732e55d0627d911b41a8ad1e76045df65adb4c5281c3
+source_content_sha256: 7734d12336d925e72881f81d6d32fad0063a3ed5a19a0cac962d4a91f9de9a67
 translation_model: gpt-5.4
 translation_run: translate-vi-8186ee89
 glossary_version: 34
@@ -69,7 +69,7 @@ Tuy nhiên, ta có mệnh đề sau:
 
 *Cho* $(Y_\alpha)_{\alpha \in A}$ *là một phủ mở của* $X$ *và giả sử trên mỗi không gian con* $Y_\alpha$, *đã cho một độ đo* $\mu_\alpha$, *sao cho với mọi cặp* $(\alpha, \beta)$, *các hạn chế của* $\mu_\alpha$ *và* $\mu_\beta$ *trên* $Y_\alpha \cap Y_\beta$ *là đồng nhất. Trong các điều kiện đó, tồn tại một và chỉ một độ đo* $\mu$ *trên* $X$ *mà hạn chế của nó trên* $Y_\alpha$ *bằng* $\mu_\alpha$ *với mọi chỉ số* $\alpha$.
 
-Trước hết hãy chỉ ra rằng mọi hàm $f \in \mathcal{K}(X; \mathbf{C})$ đều có thể viết dưới dạng một tổng hữu hạn $f = \sum_i f_i$ trong đó, với mỗi hàm $f_i \in \mathcal{K}(X; \mathbf{C})$, tồn tại một chỉ số $\alpha_i$ sao cho $\operatorname{Supp}(f_i) \subset Y_{\alpha_i}$. Nếu $K = \operatorname{Supp}(f)$, thì tồn tại một số hữu hạn chỉ số $\alpha_i$ ($1 \leq i \leq n$) sao cho các $Y_{\alpha_i}$ lập thành một phủ của $K$; gọi $h_i$ ($1 \leq i \leq n$) là các ánh xạ liên tục từ $X$ vào $[0, 1]$ sao cho giá của $h_i$ là compact và được chứa trong $Y_{\alpha_i}$ với $1 \leq i \leq n$, và sao cho $\sum_{i=1}^n h_i(x) = 1$ trên $K$ (\S 1, No. 2, Bổ đề 1); các hàm $f_i = f h_i$ thỏa mãn các yêu cầu. Điều này trước hết cho thấy rằng nếu tồn tại một độ đo $\mu$ thỏa mãn các yêu cầu thì nó là *duy nhất*, bởi vì với mọi tổng hữu hạn $f = \sum_{i=1}^n f_i$, trong đó $f_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$, tất yếu có $\mu(f) = \sum_{i=1}^n \mu_{\alpha_i}(f_i)$. Hơn nữa, ta sẽ chứng minh được sự tồn tại của một dạng tuyến tính $\mu$ trên $\mathcal{K}(X; \mathbf{C})$ mà hạn chế của nó trên mỗi không gian con $\mathcal{K}(Y_\alpha; \mathbf{C})$ là $\mu_\alpha$, miễn là ta chứng minh được tính chất sau đây: nếu $(g_i)_{1 \leq i \leq m}$ và $(h_j)_{1 \leq j \leq n}$ là hai dãy hữu hạn các hàm trong $\mathcal{K}(X; \mathbf{C})$ sao cho $g_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$ với $1 \leq i \leq m$, $h_j \in \mathcal{K}(Y_{\beta_j}; \mathbf{C})$ với $1 \leq j \leq n$ và
+Trước hết hãy chỉ ra rằng mọi hàm $f \in \mathcal{K}(X; \mathbf{C})$ đều có thể viết dưới dạng một tổng hữu hạn $f = \sum_i f_i$ trong đó, với mỗi hàm $f_i \in \mathcal{K}(X; \mathbf{C})$, tồn tại một chỉ số $\alpha_i$ sao cho $\operatorname{Supp}(f_i) \subset Y_{\alpha_i}$. Nếu $K = \operatorname{Supp}(f)$, thì tồn tại một số hữu hạn chỉ số $\alpha_i$ ($1 \leq i \leq n$) sao cho các $Y_{\alpha_i}$ lập thành một phủ của $K$; gọi $h_i$ ($1 \leq i \leq n$) là các ánh xạ liên tục từ $X$ vào $[0, 1]$ sao cho giá của $h_i$ là compact và được chứa trong $Y_{\alpha_i}$ với $1 \leq i \leq n$, và sao cho $\sum_{i=1}^n h_i(x) = 1$ trên $K$ (§ 1, No. 2, Bổ đề 1); các hàm $f_i = f h_i$ thỏa mãn các yêu cầu. Điều này trước hết cho thấy rằng nếu tồn tại một độ đo $\mu$ thỏa mãn các yêu cầu thì nó là *duy nhất*, bởi vì với mọi tổng hữu hạn $f = \sum_{i=1}^n f_i$, trong đó $f_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$, tất yếu có $\mu(f) = \sum_{i=1}^n \mu_{\alpha_i}(f_i)$. Hơn nữa, ta sẽ chứng minh được sự tồn tại của một dạng tuyến tính $\mu$ trên $\mathcal{K}(X; \mathbf{C})$ mà hạn chế của nó trên mỗi không gian con $\mathcal{K}(Y_\alpha; \mathbf{C})$ là $\mu_\alpha$, miễn là ta chứng minh được tính chất sau đây: nếu $(g_i)_{1 \leq i \leq m}$ và $(h_j)_{1 \leq j \leq n}$ là hai dãy hữu hạn các hàm trong $\mathcal{K}(X; \mathbf{C})$ sao cho $g_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$ với $1 \leq i \leq m$, $h_j \in \mathcal{K}(Y_{\beta_j}; \mathbf{C})$ với $1 \leq j \leq n$ và
 $$
 \sum_{i=1}^m g_i(x) = \sum_{j=1}^n h_j(x) = 1
 $$
@@ -111,7 +111,7 @@ Nói rằng một điểm $x \in X$ không thuộc giá đỡ của $\mu$ có ng
 — 1) Để một độ đo trên $X$ là *không*, điều kiện cần và đủ là giá mang của nó *rỗng*.
 2) Giá mang của độ đo Lebesgue trên $\mathbf{R}$ là toàn bộ đường thẳng $\mathbf{R}$; vì nó khác rỗng và bất biến dưới mọi phép tịnh tiến.
 
-3) Trên khoảng $X = [0,1]$ của $\mathbf{R}$, xét một tập con trù mật đếm được, được sắp thành một dãy $(a_n)$, và gọi $\mu$ là độ đo được xác định bằng cách đặt khối lượng $2^{-n}$ tại điểm $a_n$ với mọi $n \geq 0$ (\$1, No. 3, Ví dụ I). Giá của $\mu$ là toàn bộ $X$; thật vậy, cho $x$ là một điểm bất kỳ của $X$, $V$ là một lân cận của $x$, và $f$ là một hàm thực liên tục $\geq 0$ trên $X$, bằng 1 tại điểm $x$, mà giá được chứa trong $V$ (\$1, No. 2, Bổ đề 1); tập hợp các $y \in V$ sao cho $f(y) > 0$ là mở trong $X$, vì thế chứa một điểm $a_n$, do đó $\mu(f) \geq f(a_n)2^{-n} > 0$.
+3) Trên khoảng $X = [0,1]$ của $\mathbf{R}$, xét một tập con trù mật đếm được, được sắp thành một dãy $(a_n)$, và gọi $\mu$ là độ đo được xác định bằng cách đặt khối lượng $2^{-n}$ tại điểm $a_n$ với mọi $n \geq 0$ (§ 1, No. 3, Ví dụ I). Giá của $\mu$ là toàn bộ $X$; thật vậy, cho $x$ là một điểm bất kỳ của $X$, $V$ là một lân cận của $x$, và $f$ là một hàm thực liên tục $\geq 0$ trên $X$, bằng 1 tại điểm $x$, mà giá được chứa trong $V$ (§ 1, No. 2, Bổ đề 1); tập hợp các $y \in V$ sao cho $f(y) > 0$ là mở trong $X$, vì thế chứa một điểm $a_n$, do đó $\mu(f) \geq f(a_n)2^{-n} > 0$.
 
 #### Mệnh đề 2 {#int-iii-s2-prop-2 .statement}
 
@@ -163,7 +163,7 @@ Theo định nghĩa, nếu giá của một hàm $f \in \mathcal{K}(X; \mathbf{C
 
 — *Cho $\mu$ là một độ đo trên một không gian compact địa phương $X$. Với mọi hàm $f \in \mathcal{K}(X; \mathbf{C})$ bằng không trên $\operatorname{Supp}(\mu)$, ta có $\mu(f) = 0$.*
 
-Đặt $K = \operatorname{Supp}(f)$, $S = \operatorname{Supp}(\mu)$. Cho một số $\varepsilon > 0$, gọi $V$ là tập hợp các $x \in X$ sao cho $|f(x)| < \varepsilon$; $V$ là một tập mở chứa $S$ theo giả thiết, do đó $CS$ là một lân cận của tập compact $CV$. Suy ra tồn tại một ánh xạ liên tục $h$ từ $X$ vào $[0, 1]$, bằng 1 trên $CV$ và có giá được chứa trong $CS$ (\S 1, No. 2, Bổ đề 1). Vì giá của $fh$ không giao với $S$ nên $\mu(fh) = 0$. Mặt khác, $f = fh$ trên $K \cap CV$, và $|fh| \leq |f|$ trên $X$, do đó $|f - fh| \leq 2\varepsilon$ trên $X$, bởi lựa chọn $V$. Cuối cùng, nhận thấy rằng tồn tại một số $M_K$ sao cho $|\mu(g)| \leq M_K \|g\|$ với mọi hàm $g \in \mathcal{K}(X; \mathbf{C})$ mà giá của nó được chứa trong $K$; vì giá của $f - fh$ được chứa trong $K$, nên $|\mu(f - fh)| \leq 2M_K \varepsilon$ và do đó $|\mu(f)| = |\mu(f - fh)| \leq 2M_K \varepsilon$; vì $\varepsilon$ là tùy ý, $\mu(f) = 0$.
+Đặt $K = \operatorname{Supp}(f)$, $S = \operatorname{Supp}(\mu)$. Cho một số $\varepsilon > 0$, gọi $V$ là tập hợp các $x \in X$ sao cho $|f(x)| < \varepsilon$; $V$ là một tập mở chứa $S$ theo giả thiết, do đó $CS$ là một lân cận của tập compact $CV$. Suy ra tồn tại một ánh xạ liên tục $h$ từ $X$ vào $[0, 1]$, bằng 1 trên $CV$ và có giá được chứa trong $CS$ (§ 1, No. 2, Bổ đề 1). Vì giá của $fh$ không giao với $S$ nên $\mu(fh) = 0$. Mặt khác, $f = fh$ trên $K \cap CV$, và $|fh| \leq |f|$ trên $X$, do đó $|f - fh| \leq 2\varepsilon$ trên $X$, bởi lựa chọn $V$. Cuối cùng, nhận thấy rằng tồn tại một số $M_K$ sao cho $|\mu(g)| \leq M_K \|g\|$ với mọi hàm $g \in \mathcal{K}(X; \mathbf{C})$ mà giá của nó được chứa trong $K$; vì giá của $f - fh$ được chứa trong $K$, nên $|\mu(f - fh)| \leq 2M_K \varepsilon$ và do đó $|\mu(f)| = |\mu(f - fh)| \leq 2M_K \varepsilon$; vì $\varepsilon$ là tùy ý, $\mu(f) = 0$.
 
 #### Hệ quả 1 {#int-iii-s2-prop-8-cor-1 .statement}
 
@@ -185,7 +185,7 @@ $$
 |\mu|(|f|) \leq a|\mu|(h) \leq a\|\mu\|
 $$
 
-theo Hệ quả 2; khi đó kết luận suy ra từ công thức (13) của \S 1, No. 6.
+theo Hệ quả 2; khi đó kết luận suy ra từ công thức (13) của § 1, No. 6.
 
 #### Mệnh đề 9 {#int-iii-s2-prop-9 .statement}
 
@@ -211,7 +211,7 @@ Chú ý rằng $T$ được chứa trong giao của giá $S$ của $\mu$ và gi�
 
 — Mọi độ đo có giá compact đều bị chặn.
 
-Thật vậy, $|\mu|$ cũng là một độ đo có giá compact, do đó ta có thể chỉ xét trường hợp $\mu \geq 0$; nếu $h$ là một ánh xạ liên tục từ $X$ vào $[0, 1]$, có giá compact và bằng 1 trên $\mathrm{Supp}(\mu)$, thì với mọi hàm $f \in \mathcal{K}(X; \mathbf{C})$ ta có $|f(x)| \leq \|f\| h(x)$ trên $\mathrm{Supp}(\mu)$, do đó (Hệ quả 2 của Mệnh đề 8) $\mu(|f|) \leq \mu(h)\|f\|$, điều này chứng minh mệnh đề (\S 1, No. 8).
+Thật vậy, $|\mu|$ cũng là một độ đo có giá compact, do đó ta có thể chỉ xét trường hợp $\mu \geq 0$; nếu $h$ là một ánh xạ liên tục từ $X$ vào $[0, 1]$, có giá compact và bằng 1 trên $\mathrm{Supp}(\mu)$, thì với mọi hàm $f \in \mathcal{K}(X; \mathbf{C})$ ta có $|f(x)| \leq \|f\| h(x)$ trên $\mathrm{Supp}(\mu)$, do đó (Hệ quả 2 của Mệnh đề 8) $\mu(|f|) \leq \mu(h)\|f\|$, điều này chứng minh mệnh đề (§ 1, No. 8).
 
 ### 4. Các độ đo điểm. Các độ đo có giá hữu hạn
 
@@ -295,7 +295,7 @@ Thật vậy, $\operatorname{Supp}(g \cdot \mu) \subset \operatorname{Supp}(\mu)
 
 #### Mệnh đề 14 {#int-iii-s2-prop-14 .statement}
 
-*Để một độ đo $\mu$ trên một không gian compact địa phương $X$ là một độ đo rời rạc (\S 1, No. 3, Ví dụ I), điều kiện cần và đủ là $\operatorname{Supp}(\mu)$ là một không gian con đóng rời rạc của $X$.*
+*Để một độ đo $\mu$ trên một không gian compact địa phương $X$ là một độ đo rời rạc (§ 1, No. 3, Ví dụ I), điều kiện cần và đủ là $\operatorname{Supp}(\mu)$ là một không gian con đóng rời rạc của $X$.*
 
 Cho $\mu$ là một độ đo rời rạc trên $X$, được xác định bởi các khối lượng $h(x) \neq 0$ đặt tại các điểm $x$ của một không gian con rời rạc đóng $N$ của $X$; ta hãy chứng minh rằng $\operatorname{Supp}(\mu) = N$. Với mọi $a \in N$ và mọi lân cận $V$ của $a$, tồn tại một hàm $f \in \mathcal{K}(X; \mathbf{C})$ có giá được chứa trong $V$, bằng 1 tại điểm $a$ và bằng 0 tại các điểm khác của $N$, do đó $\mu(f) = h(a) \neq 0$. Mặt khác, nếu $b \notin N$ thì tồn tại một lân cận $W$ của $b$ không giao với $N$; vì vậy, với mọi hàm $g \in \mathcal{K}(X; \mathbf{C})$ có giá được chứa trong $W$, ta có $\mu(g) = 0$, điều này chứng tỏ rằng $b \notin \operatorname{Supp}(\mu)$.
 

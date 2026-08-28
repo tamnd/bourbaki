@@ -29,9 +29,9 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: eb2869078f21724bc2cc5644d2b776e739b7e5efb4b98e58051f29d939e89cec
+content_sha256: 52c4b38007c5b4d588021006c3ae64946a27bedee8c392f5ce8827456b88eb64
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
-source_content_sha256: 578267c10123fcc3d07b0471b59c89f82aaafae830bfa33156bb526052bd76d0
+source_content_sha256: 0ba346951e7ec856945465325b2f054546b3b1d4334f235bfc11d9776cf48c78
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-81ca19be
 glossary_version: 34
@@ -171,7 +171,7 @@ do đó thiết lập một sự tương ứng một-một giữa các giá tr�
 
 *Trong trường hợp (iii) để $f$ là một giá trị tuyệt đối trên $\mathbf{Q}$, điều kiện cần và đủ là $0 < s \leq 1$.*
 
-Trước hết, giả sử rằng $f(n) \leq 1$ với mọi số nguyên $n > 0$. Theo Mệnh đề 3 của no. 2 tồn tại một số thực $b$ và một định giá $v$ trên $\mathbf{Q}$ sao cho $0 < b < 1$ và $f = b^v$. Bây giờ, ta biết (\S 3, no. 4, *Ví dụ 4*) rằng các định giá duy nhất trên $\mathbf{Q}$ là (tới tương đương) định giá không đúng và các định giá $p$-adi $v_p$; do đó ta có hoặc trường hợp (i) hoặc trường hợp (ii).
+Trước hết, giả sử rằng $f(n) \leq 1$ với mọi số nguyên $n > 0$. Theo Mệnh đề 3 của no. 2 tồn tại một số thực $b$ và một định giá $v$ trên $\mathbf{Q}$ sao cho $0 < b < 1$ và $f = b^v$. Bây giờ, ta biết (§ 3, no. 4, *Ví dụ 4*) rằng các định giá duy nhất trên $\mathbf{Q}$ là (tới tương đương) định giá không đúng và các định giá $p$-adi $v_p$; do đó ta có hoặc trường hợp (i) hoặc trường hợp (ii).
 
 Giả sử từ nay rằng tồn tại một số nguyên $h > 0$ sao cho $f(h) > 1$; theo no. 1, Hệ quả 2 của Mệnh đề 2, tồn tại một số $\rho > 0$ sao cho $f^\rho$ là một giá trị tuyệt đối; ta viết
 

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 223
 statements: 15
 exercises: 22
-content_sha256: 8fb8c8de9b3d2d1e6c2a7b24be9011f24eccdd56eccc6e5ccaa454491660bc24
+content_sha256: a8860cd79257be111d6393b6e3751e163399b0d8febeedb4e24741bfdab641f2
 ---
 
 ## § 2. Anneaux de Dedekind
@@ -95,17 +95,17 @@ C.Q.F.D.
 
 *Un anneau de Dedekind semi-local est principal.*
 
-Soient $A$ un anneau de Dedekind semi-local, $K$ son corps des fractions, $p_1, \ldots, p_n$ ses idéaux maximaux, et $v_1, \ldots, v_n$ les valuations essentielles correspondantes; ce sont les seules valuations essentielles de A. Soit $\alpha$ un idéal entier non nul de A. Puisqu’il est divisoriel, il existe ($\S 1$, no 4, prop. 5) des entiers $q_1, \ldots, q_n$ tels que $\alpha$ soit l’ensemble des $x \in K$ tels que $v_i(x) \geq q_i$ pour $1 \leq i \leq n$. Soit $x_0$ un élément de K tel que $v_i(x_0) = q_i$ pour $1 \leq i \leq n$ (chap. VI, $\S 7$, no 2, cor. 1 du th. 1). Alors $\alpha$ est l’ensemble des $x \in K$ tels que $v_i(xx_0^{-1}) \geq 0$ pour $1 \leq i \leq n$. Ainsi $\alpha = Ax_0$.
+Soient $A$ un anneau de Dedekind semi-local, $K$ son corps des fractions, $p_1, \ldots, p_n$ ses idéaux maximaux, et $v_1, \ldots, v_n$ les valuations essentielles correspondantes; ce sont les seules valuations essentielles de A. Soit $\alpha$ un idéal entier non nul de A. Puisqu’il est divisoriel, il existe ($§ 1$, no 4, prop. 5) des entiers $q_1, \ldots, q_n$ tels que $\alpha$ soit l’ensemble des $x \in K$ tels que $v_i(x) \geq q_i$ pour $1 \leq i \leq n$. Soit $x_0$ un élément de K tel que $v_i(x_0) = q_i$ pour $1 \leq i \leq n$ (chap. VI, $§ 7$, no 2, cor. 1 du th. 1). Alors $\alpha$ est l’ensemble des $x \in K$ tels que $v_i(xx_0^{-1}) \geq 0$ pour $1 \leq i \leq n$. Ainsi $\alpha = Ax_0$.
 
-Si A est un anneau de Dedekind, on a vu, dans la démonstration du th. 1, que le groupe D(A) des diviseurs de A s’identifie au groupe I(A) des idéaux fractionnaires $\alpha \neq (0)$ (comme A est noethérien, tout idéal fractionnaire non nul est de type fini). Le groupe C(A) des classes de diviseurs de A ($\S 1$, no 2) s’identifie alors au groupe des classes d’idéaux $\neq 0$ de A (défini au chap. II, $\S 5$, no 7).
+Si A est un anneau de Dedekind, on a vu, dans la démonstration du th. 1, que le groupe D(A) des diviseurs de A s’identifie au groupe I(A) des idéaux fractionnaires $\alpha \neq (0)$ (comme A est noethérien, tout idéal fractionnaire non nul est de type fini). Le groupe C(A) des classes de diviseurs de A ($§ 1$, no 2) s’identifie alors au groupe des classes d’idéaux $\neq 0$ de A (défini au chap. II, $§ 5$, no 7).
 
 ### 3. Décomposition des idéaux en produits d’idéaux premiers
 
-Soient A un anneau de Dedekind, I(A) le groupe multiplicatif ordonné des idéaux fractionnaires non nuls de A, et D(A) le groupe des diviseurs de A. L’isomorphisme $\alpha \to \operatorname{div} \alpha$ de I(A) sur D(A) fait correspondre les diviseurs extrémaux aux idéaux premiers non nuls de A ($\S 1$, no 6, th. 3), donc le groupe multiplicatif I(A) admet pour base l’ensemble des idéaux premiers non nuls de A ($\S 1$, no 3, th. 2). Autrement dit, tout idéal fractionnaire non nul $\alpha$ de A admet une décomposition et une seule de la forme:
+Soient A un anneau de Dedekind, I(A) le groupe multiplicatif ordonné des idéaux fractionnaires non nuls de A, et D(A) le groupe des diviseurs de A. L’isomorphisme $\alpha \to \operatorname{div} \alpha$ de I(A) sur D(A) fait correspondre les diviseurs extrémaux aux idéaux premiers non nuls de A ($§ 1$, no 6, th. 3), donc le groupe multiplicatif I(A) admet pour base l’ensemble des idéaux premiers non nuls de A ($§ 1$, no 3, th. 2). Autrement dit, tout idéal fractionnaire non nul $\alpha$ de A admet une décomposition et une seule de la forme:
 $$
 \alpha = \prod p^{n(p)}
 $$
-où le produit est étendu aux idéaux premiers non nuls de A, les exposants $n(p)$ étant nuls à l’exception d’un nombre fini d’entre eux. De plus $\alpha$ est entier si et seulement si les $n(p)$ sont tous positifs. On dit que la relation (1) est la décomposition de $\alpha$ en facteurs premiers. En particulier, si $\alpha$ est un idéal principal $Ax$, on a, pour tout $p$, $n(p) = v_p(x)$, où $v_p$ désigne la valuation essentielle correspondant à $p$; ceci résulte en effet de la formule (4) du $\S 1$, no 3. Soient
+où le produit est étendu aux idéaux premiers non nuls de A, les exposants $n(p)$ étant nuls à l’exception d’un nombre fini d’entre eux. De plus $\alpha$ est entier si et seulement si les $n(p)$ sont tous positifs. On dit que la relation (1) est la décomposition de $\alpha$ en facteurs premiers. En particulier, si $\alpha$ est un idéal principal $Ax$, on a, pour tout $p$, $n(p) = v_p(x)$, où $v_p$ désigne la valuation essentielle correspondant à $p$; ceci résulte en effet de la formule (4) du $§ 1$, no 3. Soient
 $$
 \alpha = \prod p^{m(p)}, \quad b = \prod p^{n(p)}
 $$
@@ -122,14 +122,14 @@ En effet, la relation (2) est évidente; la relation (3) en résulte, l’égali
 $$
 \operatorname{div}(a : b) = \operatorname{div} a - \operatorname{div} b
 $$
-(\S 1, n° 2, cor. du th. 1); les formules (4) et (5) résultent de la prop. 2, \S 1, n° 1.
+(§ 1, n° 2, cor. du th. 1); les formules (4) et (5) résultent de la prop. 2, § 1, n° 1.
 
 Ces résultats s’appliquent notamment à la clôture intégrale de $\mathbf{Z}$ dans une extension de degré fini de $\mathbf{Q}$.
-Lorsque A est principal, les résultats ci-dessus redonnent ceux d’Alg., chap. VII, \S 1, n° 3.
+Lorsque A est principal, les résultats ci-dessus redonnent ceux d’Alg., chap. VII, § 1, n° 3.
 
 ### 4. Théorème d’approximation dans les anneaux de Dedekind
 
-Dans les anneaux de Dedekind, on a un « théorème d’approximation » qui améliore à la fois le th. 1 du chap. VI, \S 7, n° 2 et la prop. 9 du \S 1, n° 5:
+Dans les anneaux de Dedekind, on a un « théorème d’approximation » qui améliore à la fois le th. 1 du chap. VI, § 7, n° 2 et la prop. 9 du § 1, n° 5:
 
 #### Proposition 2 {#ac-vii-s2-prop-2 .statement}
 
@@ -139,7 +139,7 @@ En remplaçant au besoin les $n_i$ par des entiers qui leur sont supérieurs, on
 $$
 x \equiv x_i \pmod{p_i^{n_i}}
 $$
-et l’existence de x résulte alors du chap. II, \S 1, n° 2, prop. 5.
+et l’existence de x résulte alors du chap. II, § 1, n° 2, prop. 5.
 
 Passons au cas général. On peut écrire $x_i = s^{-1} y_i$ avec s, $y_i$ dans A; posant $x = s^{-1} y$, tout revient à trouver un $y \in A$ tel que l’on ait, d’une part, $v_{p_i}(y - y_i) \geq n_i + v_{p_i}(s)$, et, d’autre part, $v_p(y) \geq v_p(s)$ pour tout $p \in P$ distinct des $p_i$; comme $v_p(s) = 0$ sauf pour un nombre fini d’indices $p$, on est ainsi ramené au cas précédent; d’où la proposition.
 

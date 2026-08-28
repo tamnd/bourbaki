@@ -29,9 +29,9 @@ subsections:
       pdf_page: 250
 statements: 11
 exercises: 8
-content_sha256: 3cf5e0718ffc119467bdadf11b6338de09b8c5d4e0f3405d97623bdef5f25f04
+content_sha256: ed052c99d8c3a50811b8f1ff8f03716d836cf68bdcffb15e8b06b5514252a9b4
 translated_from: content/en/ac/III/05_s5_flatness_properties_of_filtered_modules.md
-source_content_sha256: 6efa6ff6c07202470c8761f121bc1c4ed08532962ca74dc2cab4271d8effd2bc
+source_content_sha256: ecfeb5870aae5a62e0cd6ec8aeeeb2de8dc1a67bcfdae539b9dd6ae798043826
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-dabaaa90
 glossary_version: 34
@@ -68,7 +68,7 @@ Nếu một A-môđun M là phẳng và Hausdorff đối với tôpô $\mathfrak
 
 ### 2. PHÁT BIỂU CỦA TIÊU CHUẨN PHẲNG
 
-Cho A là một vành, $\mathfrak{z}$ là một iđêan hai phía của A, M là một môđun trái và gr(A) và gr(M) lần lượt là vành phân bậc và môđun gr(A)-phân bậc liên kết với vành A và với môđun M cùng với các lọc $\mathfrak{g}$-adic (\S 2, no. 3). Ta đã thấy (loc. cit.) rằng với mọi số nguyên $n \geq 0$ tồn tại một đồng cấu môđun $\mathbf{Z}$ toàn ánh
+Cho A là một vành, $\mathfrak{z}$ là một iđêan hai phía của A, M là một môđun trái và gr(A) và gr(M) lần lượt là vành phân bậc và môđun gr(A)-phân bậc liên kết với vành A và với môđun M cùng với các lọc $\mathfrak{g}$-adic (§ 2, no. 3). Ta đã thấy (loc. cit.) rằng với mọi số nguyên $n \geq 0$ tồn tại một đồng cấu môđun $\mathbf{Z}$ toàn ánh
 $$
 \gamma_n : (\mathfrak{g}^n / \mathfrak{g}^{n+1}) \otimes_{A/\mathfrak{g}} (M / \mathfrak{g}M) \to \mathfrak{g}^n M / \mathfrak{g}^{n+1} M
 $$
@@ -91,14 +91,14 @@ $$
 $$
 \gamma_M : \mathrm{gr}(A) \otimes_{\mathrm{gr}_0(A)} \mathrm{gr}_0(M) \to \mathrm{gr}(M)
 $$
-là song ánh (tính chất (GR) của \S 2, no. 8).
+là song ánh (tính chất (GR) của § 2, no. 8).
 (v) Với mọi $n \geq 1$, $M / \mathfrak{g}^n M$ là môđun phẳng $(A / \mathfrak{g}^n)$.
 Khi đó (i) $\Rightarrow$ (ii) $\Leftrightarrow$ (iii) $\Rightarrow$ (iv) $\Leftrightarrow$ (v).
 Nếu thêm $\mathfrak{g}$ là lũy linh hoặc nếu A là Noether và M là Hausdorff theo iđêan, các tính chất (i), (ii), (iii), (iv) và (v) là tương đương.
 
 #### Nhận xét {#ac-iii-s5-n1-rem-1 .statement}
 
-Nếu $A / \mathfrak{g}$ là một trường (như thường xảy ra trong các ứng dụng) thì điều kiện "M/ $\mathfrak{g}M$ là một môđun phẳng $(A / \mathfrak{g})$" tự động đúng với mọi A-môđun M, điều này làm đơn giản hóa phát biểu của các tính chất (iii) và (iv); hơn nữa, trong trường hợp này, tính chất (v) tương đương với việc nói rằng $M / \mathfrak{g}^n M$ là một môđun tự do $(A / \mathfrak{g}^n)$ với mọi số nguyên $n \geq 1$ (Chương 11, \S 3, no. 2, Hệ quả 2 của Mệnh đề 5).
+Nếu $A / \mathfrak{g}$ là một trường (như thường xảy ra trong các ứng dụng) thì điều kiện "M/ $\mathfrak{g}M$ là một môđun phẳng $(A / \mathfrak{g})$" tự động đúng với mọi A-môđun M, điều này làm đơn giản hóa phát biểu của các tính chất (iii) và (iv); hơn nữa, trong trường hợp này, tính chất (v) tương đương với việc nói rằng $M / \mathfrak{g}^n M$ là một môđun tự do $(A / \mathfrak{g}^n)$ với mọi số nguyên $n \geq 1$ (Chương 11, § 3, no. 2, Hệ quả 2 của Mệnh đề 5).
 
 ### 3. CHỨNG MINH TIÊU CHUẨN PHẲNG
 
@@ -208,7 +208,7 @@ Cho $p : A/\mathfrak{J} \to B/\mathfrak{J}B$ là đồng cấu chính tắc; c�
 
 *Cho $A$ là một vành Noether giao hoán, $\mathfrak{J}$ là một iđêan của $A$, $\hat{A}$ là hoàn thành Hausdorff của $A$ đối với tôpô $\mathfrak{J}$-adic và $M$ là một $\hat{A}$-môđun Hausdorff lý tưởng đối với $\mathfrak{J} \hat{A}$. Để $M$ là một $A$-môđun phẳng, điều kiện cần và đủ là $M$ là một $\hat{A}$-môđun phẳng.*
 
-Thực tế ta biết rằng $\hat{A}$ là một vành Noether ($\S 3$, no. **4**, Mệnh đề 8) và một $A$-môđun phẳng ($\S 3$, no. **4**, Định lý 3), rằng $\mathfrak{J} \hat{A} = \hat{\mathfrak{J}}$ ($\S 2$, no. 12, Mệnh đề **16**) và rằng đồng cấu chính tắc $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ là song ánh ($\S 2$, no. 12, Mệnh đề 15); do đó có thể áp dụng Mệnh đề **3**.
+Thực tế ta biết rằng $\hat{A}$ là một vành Noether ($§ 3$, no. **4**, Mệnh đề 8) và một $A$-môđun phẳng ($§ 3$, no. **4**, Định lý 3), rằng $\mathfrak{J} \hat{A} = \hat{\mathfrak{J}}$ ($§ 2$, no. 12, Mệnh đề **16**) và rằng đồng cấu chính tắc $A/\mathfrak{J} \to \hat{A}/\hat{\mathfrak{J}}$ là song ánh ($§ 2$, no. 12, Mệnh đề 15); do đó có thể áp dụng Mệnh đề **3**.
 
 #### Mệnh đề 4 {#ac-iii-s5-prop-4 .statement}
 
@@ -217,7 +217,7 @@ Thực tế ta biết rằng $\hat{A}$ là một vành Noether ($\S 3$, no. **4*
 (b) $\hat{M}$ là một $A$-môđun phẳng.
 (c) $\hat{M}$ là một $\hat{A}$-môđun phẳng.*
 
-Vì $B$ với tôpô $2$-adic là một vành Zariski, $\hat{B}$ là một $B$-môđun phẳng trung thành ($\S 3$, no. 5, Mệnh đề 9) và $M$ đẳng cấu chính tắc với $M \otimes_B \hat{B}$ ($\S 3$, no. **4**, Định lý 3); người ta kiểm tra ngay lập tức rằng đẳng cấu chính tắc này là một đẳng cấu từ cấu trúc môđun $A$ trên $\hat{M}$ lên cấu trúc môđun $A$ trên $M \otimes_B \hat{B}$ dẫn xuất từ cấu trúc trên $M$. Áp dụng Mệnh đề 4 của Chương I, $\S 3$, no. 2 với $R$ được thay bởi $B$, $S$ bởi $A$, $E$ bởi $\hat{B}$, $F$ bởi $M$, ta thấy rằng để $M$ là một $A$-môđun phẳng, điều kiện cần và đủ là $\hat{M}$ là một $A$-môđun phẳng. Hơn nữa, $\hat{M}$ là một $\hat{B}$-môđun sinh hữu hạn và $\mathfrak{J} \hat{B}$ được chứa trong $\mathfrak{Q} = \mathfrak{Q} \hat{B}$ và do đó trong căn Jacobson của $\hat{B}$ ($\S 3$, no. **4**, Mệnh đề 8); vì vậy $\hat{M}$ là một $A$-môđun Hausdorff lý tưởng đối với $\mathfrak{J} \hat{A}$ (Mệnh đề 2). Các điều kiện (b) và (c) do đó tương đương theo Hệ quả của Mệnh đề 3.
+Vì $B$ với tôpô $2$-adic là một vành Zariski, $\hat{B}$ là một $B$-môđun phẳng trung thành ($§ 3$, no. 5, Mệnh đề 9) và $M$ đẳng cấu chính tắc với $M \otimes_B \hat{B}$ ($§ 3$, no. **4**, Định lý 3); người ta kiểm tra ngay lập tức rằng đẳng cấu chính tắc này là một đẳng cấu từ cấu trúc môđun $A$ trên $\hat{M}$ lên cấu trúc môđun $A$ trên $M \otimes_B \hat{B}$ dẫn xuất từ cấu trúc trên $M$. Áp dụng Mệnh đề 4 của Chương I, $§ 3$, no. 2 với $R$ được thay bởi $B$, $S$ bởi $A$, $E$ bởi $\hat{B}$, $F$ bởi $M$, ta thấy rằng để $M$ là một $A$-môđun phẳng, điều kiện cần và đủ là $\hat{M}$ là một $A$-môđun phẳng. Hơn nữa, $\hat{M}$ là một $\hat{B}$-môđun sinh hữu hạn và $\mathfrak{J} \hat{B}$ được chứa trong $\mathfrak{Q} = \mathfrak{Q} \hat{B}$ và do đó trong căn Jacobson của $\hat{B}$ ($§ 3$, no. **4**, Mệnh đề 8); vì vậy $\hat{M}$ là một $A$-môđun Hausdorff lý tưởng đối với $\mathfrak{J} \hat{A}$ (Mệnh đề 2). Các điều kiện (b) và (c) do đó tương đương theo Hệ quả của Mệnh đề 3.
 
 ### Bài tập {#ac-iii-s5-exercises}
 

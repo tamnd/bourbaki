@@ -32,9 +32,9 @@ subsections:
       pdf_page: 254
 statements: 18
 exercises: 12
-content_sha256: 35563344e390f05fef7e65877244f32bb41b931c2239286d5d5fbd05f7779add
+content_sha256: 8277e24e44db0c7babcd79b3c37ae36cf728003daf9a2097e2caed2cc87bedb3
 translated_from: content/en/top/III/03_s3_uniform_structures_on_groups.md
-source_content_sha256: 4b4be51d0c9bcd3de9ff17b7a6c044b6d925fe61a3cd120addca4da3673e750a
+source_content_sha256: cb520e55d1b8447d9e7f2e653052e6f9dd4e40b076e3b458f55ae66cdee5330d
 translation_model: gpt-5.4
 translation_run: translate-vi-cf854575
 glossary_version: 34
@@ -101,7 +101,7 @@ $$
 
 Nếu $H$ là một nhóm con của một nhóm tôpô $G$, thì cấu trúc đều cảm sinh trên $H$ bởi cấu trúc đều phải của $G$ chính là cấu trúc đều phải của nhóm tôpô $H$.
 
-Nếu $H$ là một nhóm con chuẩn tắc của $G$, và nếu $\varphi$ là ánh xạ chính tắc từ $G$ lên $G/H$, ta thu được một hệ cơ bản các lân cận của cấu trúc đều phải của nhóm thương $G/H$ bằng cách gán cho mỗi lân cận $V$ của phần tử đơn vị trong $G$ tập hợp tất cả các cặp $(\dot{x}, \dot{y})$ của $G/H$ sao cho $\dot{x}\dot{y}^{-1} \in \varphi(V)$ (\S 2, no. 6, Mệnh đề 17). Điều kiện này có nghĩa là tồn tại ít nhất một điểm $x \in \dot{x}$ và ít nhất một điểm $y \in \dot{y}$ sao cho $yx^{-1} \in V$ [tức là sao cho $(x, y) \in V_d$]. Đặc biệt, nếu $N$ là bao đóng của tập con $\{e\}$ của $G$, thì cấu trúc đều phải trên $G/N$ đẳng cấu với cấu trúc đều Hausdorff *liên kết* với cấu trúc đều phải trên $G$ (xem Chương II, \S 3, no. 8).
+Nếu $H$ là một nhóm con chuẩn tắc của $G$, và nếu $\varphi$ là ánh xạ chính tắc từ $G$ lên $G/H$, ta thu được một hệ cơ bản các lân cận của cấu trúc đều phải của nhóm thương $G/H$ bằng cách gán cho mỗi lân cận $V$ của phần tử đơn vị trong $G$ tập hợp tất cả các cặp $(\dot{x}, \dot{y})$ của $G/H$ sao cho $\dot{x}\dot{y}^{-1} \in \varphi(V)$ (§ 2, no. 6, Mệnh đề 17). Điều kiện này có nghĩa là tồn tại ít nhất một điểm $x \in \dot{x}$ và ít nhất một điểm $y \in \dot{y}$ sao cho $yx^{-1} \in V$ [tức là sao cho $(x, y) \in V_d$]. Đặc biệt, nếu $N$ là bao đóng của tập con $\{e\}$ của $G$, thì cấu trúc đều phải trên $G/N$ đẳng cấu với cấu trúc đều Hausdorff *liên kết* với cấu trúc đều phải trên $G$ (xem Chương II, § 3, no. 8).
 
 Có những kết quả tương tự đối với cấu trúc đều trái.
 
@@ -181,7 +181,7 @@ Tóm lại, chúng ta đã chứng minh định lý sau đây:
 
 Vì $\hat{G}$ là chính quy, mọi lân cận của phần tử đơn vị trong $\hat{G}$ đều chứa bao đóng $V$ của một lân cận mở $U$ của $e$ trong $\hat{G}$, và $V$ cũng là bao đóng của vết của $U$ trên $G$.
 
-Cho $G$ là một nhóm không nhất thiết Hausdorff; đặt $N = \overline{\{e\}}$, và gọi $G' = G/N$ là nhóm Hausdorff liên kết với $G$ (\S 2, no. 6). Nếu $G'$ có một hoàn thành $\hat{G}'$, thì hoàn thành này được gọi là *hoàn thành Hausdorff* của $G$ và được ký hiệu là $\hat{G}$; khi đó $\hat{G}'_d$ (resp. $\hat{G}'_s$) là *hoàn thành Hausdorff* (Chương II, § 3, no. 7) của không gian đều $G_d$ (resp. $G_s$).
+Cho $G$ là một nhóm không nhất thiết Hausdorff; đặt $N = \overline{\{e\}}$, và gọi $G' = G/N$ là nhóm Hausdorff liên kết với $G$ (§ 2, no. 6). Nếu $G'$ có một hoàn thành $\hat{G}'$, thì hoàn thành này được gọi là *hoàn thành Hausdorff* của $G$ và được ký hiệu là $\hat{G}$; khi đó $\hat{G}'_d$ (resp. $\hat{G}'_s$) là *hoàn thành Hausdorff* (Chương II, § 3, no. 7) của không gian đều $G_d$ (resp. $G_s$).
 
 #### Mệnh đề 8 {#top-iii-s3-prop-8 .statement}
 

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 6e0f3c0dcca4e43967d837376321cc1a4c52f1a6db2f93a6d83517013f13a9a1
+content_sha256: 8fa5a1945bb8cf411c07f1ef73671f77c3076cea297581e9c933ec39ed86ba26
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
-source_content_sha256: 078f19722008dfae813e659f6b11ae7131834f184493c91a7d14517868b1259e
+source_content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-cb2d1caa
 glossary_version: 34
@@ -39,7 +39,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các nhóm compact của các ánh xạ tuyến tính
 
-Cho $E$ là một không gian vectơ hữu hạn chiều trên $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$. Khi đó $\mathrm{End}(E)$ là một đại số hữu hạn chiều trên $\mathbf{R}$, và tôpô chính tắc trên $\mathrm{End}(E)$ (\S 1, No. 10) là tôpô hội tụ compact. Nhóm $\mathrm{Aut}(E) = \mathbf{GL}(E)$ là một tập con mở của $\mathrm{End}(E)$, do đó là một nhóm địa phương compact. Cho $(e_1, e_2, \ldots, e_n)$ là một cơ sở của $E$ và, với mọi tự đồng cấu $u$ của $E$, cho $M(u) = (\alpha_{ij}(u))$ là ma trận của $u$ đối với cơ sở này; nói rằng một tập con $S$ của $\mathrm{End}(E)$ là tương đối compact trong $\mathrm{End}(E)$ tương đương với việc nói rằng các hàm $\alpha_{ij}(u)$ bị chặn trong $S$.
+Cho $E$ là một không gian vectơ hữu hạn chiều trên $\mathbf{R}, \mathbf{C}$ hoặc $\mathbf{H}$. Khi đó $\mathrm{End}(E)$ là một đại số hữu hạn chiều trên $\mathbf{R}$, và tôpô chính tắc trên $\mathrm{End}(E)$ (§ 1, No. 10) là tôpô hội tụ compact. Nhóm $\mathrm{Aut}(E) = \mathbf{GL}(E)$ là một tập con mở của $\mathrm{End}(E)$, do đó là một nhóm địa phương compact. Cho $(e_1, e_2, \ldots, e_n)$ là một cơ sở của $E$ và, với mọi tự đồng cấu $u$ của $E$, cho $M(u) = (\alpha_{ij}(u))$ là ma trận của $u$ đối với cơ sở này; nói rằng một tập con $S$ của $\mathrm{End}(E)$ là tương đối compact trong $\mathrm{End}(E)$ tương đương với việc nói rằng các hàm $\alpha_{ij}(u)$ bị chặn trong $S$.
 
 #### Mệnh đề 1 {#int-vii-s3-prop-1 .statement}
 
@@ -49,13 +49,13 @@ Cho $E$ là một không gian vectơ hữu hạn chiều trên $\mathbf{R}, \mat
 (ii) *G là tương đối compact trong Aut(E)*;
 (iii) *G bất biến một dạng Hermit dương không suy biến$^1$ trên E*.
 
-(iii) $\Rightarrow$ (i): Giả sử rằng $G$ bất biến một dạng Hermit dương không suy biến $\Psi$. Cho $(e_1, \ldots, e_n)$ là một cơ sở trực chuẩn đối với $\Psi$ (*Alg.*, Ch. IX, \S 6, No. 1, Hệ quả 1 của Định lý 1). Với mọi $u \in G$, cho $(u_{ij})$ là ma trận của nó đối với $(e_i)$. Với mọi $j$, ta có $\sum_{i=1}^n |u_{ij}|^2 = 1$, do đó $|u_{ij}| \leq 1$ với mọi $i$ và $j$, điều này chứng minh (i).
+(iii) $\Rightarrow$ (i): Giả sử rằng $G$ bất biến một dạng Hermit dương không suy biến $\Psi$. Cho $(e_1, \ldots, e_n)$ là một cơ sở trực chuẩn đối với $\Psi$ (*Alg.*, Ch. IX, § 6, No. 1, Hệ quả 1 của Định lý 1). Với mọi $u \in G$, cho $(u_{ij})$ là ma trận của nó đối với $(e_i)$. Với mọi $j$, ta có $\sum_{i=1}^n |u_{ij}|^2 = 1$, do đó $|u_{ij}| \leq 1$ với mọi $i$ và $j$, điều này chứng minh (i).
 
-(i) $\Rightarrow$ (ii): Điều này suy ra từ GT, X, \S 3, No. 5, Hệ quả của Định lý 4, có tính đến sự kiện rằng tôpô của $\mathrm{End}(E)$ là tôpô hội tụ compact.
+(i) $\Rightarrow$ (ii): Điều này suy ra từ GT, X, § 3, No. 5, Hệ quả của Định lý 4, có tính đến sự kiện rằng tôpô của $\mathrm{End}(E)$ là tôpô hội tụ compact.
 
 (ii) $\Rightarrow$ (iii): Giả sử bao đóng $\overline{G}$ của $G$ trong $\mathrm{Aut}(E)$ là compact. Cho $\Phi$ là một dạng Hermit dương không suy biến trên $E$. Nếu trường vô hướng là $\mathbf{R}$ hoặc $\mathbf{C}$, việc cho $\Phi$ làm cho $E$ trở thành một không gian Hilbert hữu hạn chiều, và điều kiện (iii) sẽ suy ra từ bổ đề sau:
 
-$^1$ Non dégénérée; trong EVT, thuật ngữ này được thay bằng séparante, sau đó được dịch là "phân tách" (TVS, V, \S 1, No. 1).
+$^1$ Non dégénérée; trong EVT, thuật ngữ này được thay bằng séparante, sau đó được dịch là "phân tách" (TVS, V, § 1, No. 1).
 
 #### Bổ đề 1 {#int-vii-s3-lem-1 .statement}
 
@@ -447,7 +447,7 @@ Z_{11} & Z_{11}Z_{12} & \ldots & Z_{11}Z_{1r} \\
 \end{pmatrix}.
 $$
 
-Bây giờ, xét với $k < l$, không gian vectơ của các ma trận $Z_{kl} = (z_{ij})_{i \in I_k, j \in I_l}$. Nó là tổng trực tiếp của $n_l$ không gian con $M_j$ ($j \in I_l$) tạo bởi các ma trận sao cho $z_{ih} = 0$ với $h \neq j$. Mỗi không gian con này $M_j$ là ổn định đối với ánh xạ $Z_{kl} \mapsto Z_{kk}Z_{kl}$, và hạn chế của ánh xạ này trên $M_j$ có ma trận $Z_{kk}$. Do đó (\S 1, No. 10, Mệnh đề 15) ảnh của độ đo $\bigotimes_{i \in I_k, j \in I_l} dz_{ij}$ qua ánh xạ $Z_{kl} \mapsto Z_{kk}Z_{kl}$ là
+Bây giờ, xét với $k < l$, không gian vectơ của các ma trận $Z_{kl} = (z_{ij})_{i \in I_k, j \in I_l}$. Nó là tổng trực tiếp của $n_l$ không gian con $M_j$ ($j \in I_l$) tạo bởi các ma trận sao cho $z_{ih} = 0$ với $h \neq j$. Mỗi không gian con này $M_j$ là ổn định đối với ánh xạ $Z_{kl} \mapsto Z_{kk}Z_{kl}$, và hạn chế của ánh xạ này trên $M_j$ có ma trận $Z_{kk}$. Do đó (§ 1, No. 10, Mệnh đề 15) ảnh của độ đo $\bigotimes_{i \in I_k, j \in I_l} dz_{ij}$ qua ánh xạ $Z_{kl} \mapsto Z_{kk}Z_{kl}$ là
 
 $$
 (\operatorname{mod} \det Z_{kk})^{-n_l} \cdot \bigotimes_{i \in I_k, j \in I_l} dz_{ij}.
@@ -461,7 +461,7 @@ $$
 
 với $q_k = \sum_{k \leq l \leq r} n_l = n - p_k$.
 
-Ta hãy tính *môđun* của $G$, một lần nữa sử dụng Mệnh đề 14 của \S 2. Các nhóm $D$ và $T_J$ là đơn môđula; mặt khác:
+Ta hãy tính *môđun* của $G$, một lần nữa sử dụng Mệnh đề 14 của § 2. Các nhóm $D$ và $T_J$ là đơn môđula; mặt khác:
 
 $$
 \begin{pmatrix}
@@ -492,7 +492,7 @@ $$
 \end{pmatrix},
 $$
 
-trong đó $Z'_{kl} = Z_{kk}Z_{kl}Z_{ll}^{-1}$. Tính đến Ví dụ 3, và Mệnh đề 15 của \S 1, No. 10, và lập luận như trên, ta thấy rằng nếu $X = \operatorname{diag}(Z_{11}, \ldots, Z_{rr}) \in D$ thì môđun của tự đẳng cấu $Z \mapsto X^{-1}ZX$ của $T_J$ là
+trong đó $Z'_{kl} = Z_{kk}Z_{kl}Z_{ll}^{-1}$. Tính đến Ví dụ 3, và Mệnh đề 15 của § 1, No. 10, và lập luận như trên, ta thấy rằng nếu $X = \operatorname{diag}(Z_{11}, \ldots, Z_{rr}) \in D$ thì môđun của tự đẳng cấu $Z \mapsto X^{-1}ZX$ của $T_J$ là
 
 $$
 \prod_{k < l} (\operatorname{mod} \det Z_{kk})^{-n_l} (\operatorname{mod} \det Z_{ll})^{n_k},
@@ -548,7 +548,7 @@ Nhóm $T(n, K)^*$ là một nhóm con đóng của $\mathbf{GL}(n, K)$, và $\De
 $$
 \Delta_{T(n, K)^*}/\Delta_{\mathbf{GL}(n, K)}
 $$
-trên $T(n, K)^*$ không thể được mở rộng thành một biểu diễn liên tục của $\mathbf{GL}(n, K)$ trong $\mathbf{C}^*$ (bởi vì một biểu diễn như vậy sẽ bằng 1 trên $\mathbf{SL}(n, K)$ theo Bổ đề 5, trong khi $\operatorname{mod}(z_{11})^{1-n} \neq 1$ với $z_{11}$ được chọn thích hợp). Suy ra rằng không gian thuần nhất $\mathbf{GL}(n, K)/T(n, K)^*$ *không nhận độ đo bất biến tương đối* nếu $n > 1$ (\S 2, No. 6, Hệ quả 1 của Định lý 3).
+trên $T(n, K)^*$ không thể được mở rộng thành một biểu diễn liên tục của $\mathbf{GL}(n, K)$ trong $\mathbf{C}^*$ (bởi vì một biểu diễn như vậy sẽ bằng 1 trên $\mathbf{SL}(n, K)$ theo Bổ đề 5, trong khi $\operatorname{mod}(z_{11})^{1-n} \neq 1$ với $z_{11}$ được chọn thích hợp). Suy ra rằng không gian thuần nhất $\mathbf{GL}(n, K)/T(n, K)^*$ *không nhận độ đo bất biến tương đối* nếu $n > 1$ (§ 2, No. 6, Hệ quả 1 của Định lý 3).
 
 Không gian thuần nhất này có thể được đồng nhất, với $n = 2$, với *đường xạ ảnh* trên $K$. Thật vậy, cho $(e_1, e_2)$ là cơ sở chính tắc của $K^2$. Nhóm $\mathbf{GL}(2, K)$ tác động bắc cầu trên tập hợp các đường của $K^2$ với 0 bị loại bỏ, và nhóm ổn định của $Ke_1 - \{0\}$ là $T(2, K)^*$.
 
@@ -567,7 +567,7 @@ là độ đo Haar trên $D_1$ sao cho
 $$
 \alpha/\mu = \bigotimes_{k=1}^{r-1} \left( (\operatorname{mod} \det Z_{kk})^{-n_k} \cdot \bigotimes_{i,j \in I_k} dz_{ij} \right)
 $$
-(\S 2, No. 7, Mệnh đề 10). Khi đó, như trong Ví dụ 4, ta chỉ ra rằng một độ đo Haar trái trên $G_1$ được cho bởi
+(§ 2, No. 7, Mệnh đề 10). Khi đó, như trong Ví dụ 4, ta chỉ ra rằng một độ đo Haar trái trên $G_1$ được cho bởi
 $$
 \operatorname{mod} \left( \prod_{k=1}^{r-1} (\det Z_{kk})^{n_k-q_k} \right)
 $$
@@ -575,7 +575,7 @@ $$
 \cdot \left[ \bigotimes_{k=1}^{r-1} ((\operatorname{mod} \det Z_{kk})^{-n_k} \cdot \bigotimes_{i,j \in I_k} dz_{ij}) \otimes' d\mu(Z_{rr}) \right] \otimes \bigotimes_{(i,j) \in J} dz_{ij}.
 $$
 
-Vì $G_1$ là chuẩn trong $G$, *môđun* của $G_1$ là hạn chế của môđun của $G$ (\S 2, No. 7, Mệnh đề 10 b)).
+Vì $G_1$ là chuẩn trong $G$, *môđun* của $G_1$ là hạn chế của môđun của $G$ (§ 2, No. 7, Mệnh đề 10 b)).
 
 Nếu $n_r = 1$, nhóm con $A$ thu gọn thành phần tử trung hòa, và một độ đo Haar trái trên $G$ là
 
@@ -650,7 +650,7 @@ b) *Cho $\mu_1$ và $\mu_2$ lần lượt là các độ đo Haar trái trên nh
 
 c) *Phần bù của $\Omega'$ trong $\mathbf{SL}(n, K)$ là không đáng kể đối với độ đo Haar của $\mathbf{SL}(n, K)$*.
 
-Nhóm $\mathbf{GL}(n, K)$ là đơn môđula (Ví dụ 1), và $\mathbf{SL}(n, K)$ là một nhóm con chuẩn tắc của $\mathbf{GL}(n, K)$, do đó là đơn môđula (\S 2, No. 7, Mệnh đề 10 b)). Mệnh đề b) suy ra từ a), Bổ đề 8, và Mệnh đề 13 của \S 2, No. 9. Ta chứng minh c). Theo Bổ đề 8 a), chỉ cần chứng minh điều sau: nếu $p((u_{ij})_{1 \leq i,j \leq n})$ là một đa thức, không đồng nhất bằng không trên $\mathbf{SL}(n, K)$, thì tập hợp E của các $U \in \mathbf{SL}(n, K)$ sao cho $p(U) = 0$ là không đáng kể đối với độ đo Haar. Xét \S 1, No. 10, Hệ quả của Mệnh đề 13, tôpô của $\mathbf{SL}(n, K)$ có một cơ sở đếm được. Vì vậy chỉ cần chứng minh rằng với mọi $U_0 \in E$, tồn tại một lân cận của $U_0$ trong $\mathbf{SL}(n, K)$ mà giao của nó với E là không đáng kể; hay tương đương là tồn tại một lân cận W của I trong $\mathbf{SL}(n, K)$ sao cho $U_0^{-1}E \cap W$ là không đáng kể. Ta lấy $W = \Omega'$. Theo b), mọi thứ quy về việc chỉ ra rằng tập hợp các cặp $(M, N) \in T_1(n, K) \times G'_1$ sao cho $p(U_0 MN) = 0$ là không đáng kể đối với $\mu_1 \otimes \mu_2$. Theo các biểu thức của $\mu_1$ và $\mu_2$ (được tính trong các Ví dụ 3 và 5), điều này suy ra từ bổ đề sau:
+Nhóm $\mathbf{GL}(n, K)$ là đơn môđula (Ví dụ 1), và $\mathbf{SL}(n, K)$ là một nhóm con chuẩn tắc của $\mathbf{GL}(n, K)$, do đó là đơn môđula (§ 2, No. 7, Mệnh đề 10 b)). Mệnh đề b) suy ra từ a), Bổ đề 8, và Mệnh đề 13 của § 2, No. 9. Ta chứng minh c). Theo Bổ đề 8 a), chỉ cần chứng minh điều sau: nếu $p((u_{ij})_{1 \leq i,j \leq n})$ là một đa thức, không đồng nhất bằng không trên $\mathbf{SL}(n, K)$, thì tập hợp E của các $U \in \mathbf{SL}(n, K)$ sao cho $p(U) = 0$ là không đáng kể đối với độ đo Haar. Xét § 1, No. 10, Hệ quả của Mệnh đề 13, tôpô của $\mathbf{SL}(n, K)$ có một cơ sở đếm được. Vì vậy chỉ cần chứng minh rằng với mọi $U_0 \in E$, tồn tại một lân cận của $U_0$ trong $\mathbf{SL}(n, K)$ mà giao của nó với E là không đáng kể; hay tương đương là tồn tại một lân cận W của I trong $\mathbf{SL}(n, K)$ sao cho $U_0^{-1}E \cap W$ là không đáng kể. Ta lấy $W = \Omega'$. Theo b), mọi thứ quy về việc chỉ ra rằng tập hợp các cặp $(M, N) \in T_1(n, K) \times G'_1$ sao cho $p(U_0 MN) = 0$ là không đáng kể đối với $\mu_1 \otimes \mu_2$. Theo các biểu thức của $\mu_1$ và $\mu_2$ (được tính trong các Ví dụ 3 và 5), điều này suy ra từ bổ đề sau:
 
 #### Bổ đề 9 {#int-vii-s3-lem-9 .statement}
 
@@ -662,7 +662,7 @@ $$
 \psi(X_1, \ldots, X_r) = X_r^m \psi_0(X_1, \ldots, X_{r-1}) + \cdots + \psi_m(X_1, \ldots, X_{r-1})
 $$
 
-với $m > 0$ và $\psi_0 \neq 0$. Trong không gian $K^{r-1}$, gọi $N_0$ là tập hợp được xác định bởi $\psi_0(x_1, \ldots, x_{r-1}) = 0$, là không đáng kể theo giả thiết quy nạp. Với mọi $(x_1, \ldots, x_{r-1}) \notin N_0$, tập hợp các $x_r \in K$ sao cho $(x_1, \ldots, x_{r-1}, x_r) \in N$ là hữu hạn, do đó là không đáng kể. Vì $K^r$ là đếm được tại vô cực (\S 1, No. 10, Hệ quả của Mệnh đề 13), $N \cap [(K^{r-1} - N_0) \times K]$ là không đáng kể trong $K^r$ (Ch. V, \S 8, No. 2, Mệnh đề 4). Do đó N là không đáng kể.
+với $m > 0$ và $\psi_0 \neq 0$. Trong không gian $K^{r-1}$, gọi $N_0$ là tập hợp được xác định bởi $\psi_0(x_1, \ldots, x_{r-1}) = 0$, là không đáng kể theo giả thiết quy nạp. Với mọi $(x_1, \ldots, x_{r-1}) \notin N_0$, tập hợp các $x_r \in K$ sao cho $(x_1, \ldots, x_{r-1}, x_r) \in N$ là hữu hạn, do đó là không đáng kể. Vì $K^r$ là đếm được tại vô cực (§ 1, No. 10, Hệ quả của Mệnh đề 13), $N \cap [(K^{r-1} - N_0) \times K]$ là không đáng kể trong $K^r$ (Ch. V, § 8, No. 2, Mệnh đề 4). Do đó N là không đáng kể.
 
 #### Ví dụ 7 {#int-vii-s3-n3-exa-7 .statement}
 
@@ -769,7 +769,7 @@ với $h_{ij} = \overline{h_{ji}}$ với mọi $i$ và $j$. Ta ký hiệu bởi 
 
 Nhóm tuyến tính tổng quát $\mathbf{GL}(n, K)$ tác động liên tục bên phải trên $\mathfrak{H}$ bởi $(X, \Phi) \mapsto \Phi \circ X$, nghĩa là bởi $(X, H) \mapsto t \overline{X} \cdot H \cdot X$, trong đó $H$ ký hiệu ma trận Hermit tương ứng với $\Phi$. Rõ ràng rằng $\mathfrak{H}_+^*$ ổn định dưới tác động của $\mathbf{GL}(n, K)$. Chính xác hơn, theo *Alg.*, Ch. IX, §6, No. 1, Hệ quả 1 của Định lý 1,$^1$ $\mathfrak{H}_+^*$ là quỹ đạo dưới $\mathbf{GL}(n, K)$ của dạng $\sum_{i=1}^n \overline{x_i} y_i$ tương ứng với ma trận đơn vị $I_n$. Nhóm ổn định của dạng này là $\mathbf{U}(n, K)$. Theo Bổ đề 2 của Phụ lục I, $\mathfrak{H}_+^*$ có thể được đồng nhất, như một không gian thuần nhất tôpô, với $\mathbf{GL}(n, K)/\mathbf{U}(n, K)$.
 
-Với mọi $X \in \mathbf{GL}(n, K)$, gọi $\widetilde{X}$ là tự đẳng cấu $H \mapsto t \overline{X} \cdot H \cdot X$ của không gian vectơ *thực* $\mathfrak{H}$. Nếu $\mu$ ký hiệu độ đo Haar của nhóm cộng $\mathfrak{H}$, ta có $\widetilde{X}^{-1}(\mu) = |\det \widetilde{X}| \cdot \mu$ (\S1, No. 10, Hệ quả 1 của Mệnh đề 15). Ta chứng minh rằng
+Với mọi $X \in \mathbf{GL}(n, K)$, gọi $\widetilde{X}$ là tự đẳng cấu $H \mapsto t \overline{X} \cdot H \cdot X$ của không gian vectơ *thực* $\mathfrak{H}$. Nếu $\mu$ ký hiệu độ đo Haar của nhóm cộng $\mathfrak{H}$, ta có $\widetilde{X}^{-1}(\mu) = |\det \widetilde{X}| \cdot \mu$ (§ 1, No. 10, Hệ quả 1 của Mệnh đề 15). Ta chứng minh rằng
 
 $$
 | \det \widetilde{X} | = | N(X) |^\lambda ,

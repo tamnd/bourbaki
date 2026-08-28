@@ -53,9 +53,9 @@ subsections:
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: aa5bc8a02710f1b5ae2f28d39bad82109f5ace42d0a48d84fff08b1e75c201df
+content_sha256: 47f238139408082842a24324d083d1bf183617249ea17cde0748267abf290cfb
 translated_from: content/en/alg/I/04_s4_groups_and_groups_with_operators.md
-source_content_sha256: 6fdd18062de015dd5e49685237342c49c081e4f2523d31a66527ab133256fe12
+source_content_sha256: 0b247653d2b3d4a0738691e4d70428a5d0b9939c10bfe62fca8b7a5aa5bd9f00
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-8494d73e
 glossary_version: 34
@@ -180,7 +180,7 @@ Tập $\{e\}$ là nhóm con ổn định nhỏ nhất của G. Giao của một 
 
 *Cho X là một tập con không rỗng của một nhóm có toán tử G và $\hat{X}$ là tập con ổn định dưới tác động của $\Omega$ trên G sinh bởi X. Nhóm con ổn định sinh bởi X là tập con ổn định dưới luật trên G sinh bởi tập $Y = \hat{X} \cup \hat{X}^{-1}$.*
 
-Tập con sau cùng Z là tập hợp các hợp thành của những dãy hữu hạn mà mọi số hạng của chúng là các phần tử của $\hat{X}$ hoặc nghịch đảo của các phần tử của $\hat{X}$: nghịch đảo của một hợp thành như vậy là một hợp thành cùng dạng (\S 2, no. 3, Hệ quả 1 của Mệnh đề 5) và Z ổn định dưới tác động của $\Omega$, như thấy được bằng cách áp dụng \S 3, no. 4, Mệnh đề 1 cho các phép vị tự của G, do đó (Mệnh đề 1) Z là một *nhóm con ổn định* của G. Ngược lại, mọi nhóm con ổn định chứa X hiển nhiên chứa Y và do đó chứa Z.
+Tập con sau cùng Z là tập hợp các hợp thành của những dãy hữu hạn mà mọi số hạng của chúng là các phần tử của $\hat{X}$ hoặc nghịch đảo của các phần tử của $\hat{X}$: nghịch đảo của một hợp thành như vậy là một hợp thành cùng dạng (§ 2, no. 3, Hệ quả 1 của Mệnh đề 5) và Z ổn định dưới tác động của $\Omega$, như thấy được bằng cách áp dụng § 3, no. 4, Mệnh đề 1 cho các phép vị tự của G, do đó (Mệnh đề 1) Z là một *nhóm con ổn định* của G. Ngược lại, mọi nhóm con ổn định chứa X hiển nhiên chứa Y và do đó chứa Z.
 
 #### Hệ quả 1 {#alg-i-s4-prop-2-cor-1 .statement}
 
@@ -190,7 +190,7 @@ Tập con sau cùng Z là tập hợp các hợp thành của những dãy hữu
 
 *Cho G là một nhóm và X là một tập con của G gồm các phần tử từng đôi một hoán vị được. Nhóm con của G sinh bởi X là giao hoán.*
 
-Tập $Y = X \cup X^{-1}$ gồm các phần tử từng đôi một hoán vị được (\S 2, no. 3, Mệnh đề 5) và luật cảm sinh trên tập con ổn định sinh bởi Y là giao hoán (\S 1, no. 5, Hệ quả 2).
+Tập $Y = X \cup X^{-1}$ gồm các phần tử từng đôi một hoán vị được (§ 2, no. 3, Mệnh đề 5) và luật cảm sinh trên tập con ổn định sinh bởi Y là giao hoán (§ 1, no. 5, Hệ quả 2).
 
 Nếu G là một nhóm có toán tử, nhóm con ổn định sinh bởi một tập con của G gồm các phần tử từng đôi một hoán vị được không nhất thiết là giao hoán.
 
@@ -277,7 +277,7 @@ Nếu $x \equiv y \pmod{H}$, thì $x^{-1}y \in H$, do đó
 $$
 f(x)^{-1}f(y) = f(x^{-1})f(y) = f(x^{-1}y) \in f(H) \subset H'
 $$
-và do đó $f(x) \equiv f(y) \pmod{H'}$. Mệnh đề thứ hai suy ra từ tính chất phổ quát của các luật thương ($\S 1$, no. 6).
+và do đó $f(x) \equiv f(y) \pmod{H'}$. Mệnh đề thứ hai suy ra từ tính chất phổ quát của các luật thương ($§ 1$, no. 6).
 
 #### Nhận xét {#alg-i-s4-n4-rem-1 .statement}
 
@@ -285,7 +285,7 @@ và do đó $f(x) \equiv f(y) \pmod{H'}$. Mệnh đề thứ hai suy ra từ tí
 
 (2) Nếu H là một nhóm con chuẩn của G có chỉ số hữu hạn, thì nhóm thương $G/H$ là một nhóm hữu hạn có cấp $(G:H)$.
 
-Lưu ý rằng nếu H là một nhóm con chuẩn của một nhóm G và K là một nhóm con chuẩn của H, thì K không nhất thiết là một nhóm con chuẩn của G (I, $\S 5$, Bài tập 10).
+Lưu ý rằng nếu H là một nhóm con chuẩn của một nhóm G và K là một nhóm con chuẩn của H, thì K không nhất thiết là một nhóm con chuẩn của G (I, $§ 5$, Bài tập 10).
 
 Cho $G$ là một nhóm có tác động. Giao của mọi họ các nhóm con chuẩn ổn định của G là một nhóm con chuẩn ổn định. Do đó, với mọi tập con $X$ của G, tồn tại một nhóm con chuẩn ổn định nhỏ nhất chứa X, gọi là nhóm con chuẩn ổn định *sinh bởi* X.
 
@@ -301,7 +301,7 @@ Trong một nhóm với toán tử $G$, các nhóm con ổn định $G$ và $\{e
 
 *Cho* $G$ *là một nhóm với toán tử và* $G'$ *là một magma với một tác động bởi* $\Omega$, *được viết dưới dạng lũy thừa*. *Cho* $f : G \to G'$ *là một đồng cấu của magma* $G$ *vào magma* $G'$ *sao cho, với mọi* $\alpha \in \Omega$ *và mọi* $x \in G$, $f(x^\alpha) = f(x)^\alpha$. *Khi đó* $f(G)$ *là một tập con ổn định của* $G'$ *đối với luật trên* $G'$ *và tác động của* $\Omega$; *tập hợp* $f(G)$ *với các luật cảm sinh là một nhóm với toán tử và ánh xạ* $x \mapsto f(x)$ *của* $G$ *vào* $f(G)$ *là một đồng cấu của các nhóm với toán tử*.
 
-Theo $\S 1$, no. 4, Mệnh đề 1, $f(G)$ là một tập con ổn định của $G'$ đối với luật nội tại trên $G'$. Với mỗi phần tử $x \in G$ và với mỗi toán tử $\alpha$,
+Theo $§ 1$, no. 4, Mệnh đề 1, $f(G)$ là một tập con ổn định của $G'$ đối với luật nội tại trên $G'$. Với mỗi phần tử $x \in G$ và với mỗi toán tử $\alpha$,
 $f(x)^\alpha = f(x^\alpha) \in f(G)$ và do đó $f(G)$ là ổn định đối với tác động của $\Omega$ trên $G'$. Viết luật nội tại của $G'$ dưới dạng nhân,
 $$
 (f(x)f(y))f(z) = f(xy)f(z) = f((xy)z) = f(x(yz)) = f(x)f(yz)
@@ -309,7 +309,7 @@ $$
 $$
 với mọi phần tử $x, y, z$ trong $G$; do đó luật cảm sinh trên $f(G)$ là kết hợp.
 
-Cho $e$ là phần tử đơn vị của $G$. Ảnh của nó $f(e)$ là một phần tử đơn vị của $f(G)$ ($\S 2$, no. 1). Mọi phần tử của $f(G)$ đều khả nghịch trong $f(G)$ ($\S 2$, no. 3). Do đó luật cảm sinh trên $f(G)$ bởi luật nội tại trên $G'$ là một luật nhóm. Với mọi phần tử $x$ và $y$ trong $G$ và mọi toán tử $\alpha$,
+Cho $e$ là phần tử đơn vị của $G$. Ảnh của nó $f(e)$ là một phần tử đơn vị của $f(G)$ ($§ 2$, no. 1). Mọi phần tử của $f(G)$ đều khả nghịch trong $f(G)$ ($§ 2$, no. 3). Do đó luật cảm sinh trên $f(G)$ bởi luật nội tại trên $G'$ là một luật nhóm. Với mọi phần tử $x$ và $y$ trong $G$ và mọi toán tử $\alpha$,
 
 $$
 (f(x)f(y))^\alpha = (f(xy))^\alpha = f((xy)^\alpha) = f(x^\alpha y^\alpha) = f(x^\alpha)f(y^\alpha) = (f(x))^\alpha(f(y))^\alpha
@@ -589,7 +589,7 @@ Cho $(G_i)_{i \in I}$ là một họ các nhóm có toán tử và, với $i \in
 
 *Cho $(\phi_i: G_i \to K)_{i \in I}$ là một họ các đồng cấu của các nhóm có toán tử sao cho, với mọi $i \in I$ và $j \in I$ với $i \neq j$, $x \in G_i$, $y \in G_j$, các phần tử $\phi_i(x)$ và $\phi_j(y)$ của $K$ giao hoán; tồn tại duy nhất một đồng cấu của các nhóm có toán tử $\Phi$ từ $\prod_{i \in I} G_i$ vào $K$ sao cho $\phi_i = \Phi \circ \iota_i$ với mọi $i \in I$. Với mọi phần tử $x = (x_i)_{i \in I}$ của $\prod_{i \in I} G_i$, $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$.*
 
-Nếu $\Phi$ và $\Phi$ là các nghiệm của bài toán, chúng trùng nhau trên $\bigcup_{i \in I} G_i$ và do đó trên $\prod_{i \in I} G_i$, do đó có tính duy nhất của $\Phi$. Bây giờ ta chứng minh sự tồn tại của $\Phi$: với mọi phần tử $x = (x_i)_{i \in I}$ của $\prod_{i \in I} G_i$, đặt $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ (\S 1, no. 5). Hiển nhiên $\Phi \circ \iota_i = \phi_i$ với mọi $i$ và $\Phi$ giao hoán với các phép vị tự; công thức $\Phi(xy) = \Phi(x)\Phi(y)$ suy ra từ \S 1, no. 5, công thức (9).
+Nếu $\Phi$ và $\Phi$ là các nghiệm của bài toán, chúng trùng nhau trên $\bigcup_{i \in I} G_i$ và do đó trên $\prod_{i \in I} G_i$, do đó có tính duy nhất của $\Phi$. Bây giờ ta chứng minh sự tồn tại của $\Phi$: với mọi phần tử $x = (x_i)_{i \in I}$ của $\prod_{i \in I} G_i$, đặt $\Phi(x) = \prod_{i \in I} \phi_i(x_i)$ (§ 1, no. 5). Hiển nhiên $\Phi \circ \iota_i = \phi_i$ với mọi $i$ và $\Phi$ giao hoán với các phép vị tự; công thức $\Phi(xy) = \Phi(x)\Phi(y)$ suy ra từ § 1, no. 5, công thức (9).
 
 #### Định nghĩa 14 {#alg-i-s4-def-14 .statement}
 
@@ -661,7 +661,7 @@ Nhóm cộng $\mathbf{Z}$ là đơn sinh: nó được sinh bởi $\{1\}$. Với
 
 *Một nhóm đơn sinh hữu hạn cấp $a$ đẳng cấu với $\mathbf{Z}/a\mathbf{Z}$. Một nhóm đơn sinh vô hạn đẳng cấu với $\mathbf{Z}$.*
 
-Cho G là một nhóm đơn sinh (viết theo phép nhân) và x là một phần tử sinh của G. Đồng nhất thức $x^m x^n = x^{m+n}$ (\S 1, no. 3, công thức (1)) cho thấy ánh xạ $n \mapsto x^n$ là một đồng cấu từ $\mathbf{Z}$ vào G. Ảnh của nó là một nhóm con của G chứa x và do đó nó là G. Theo no. 5, Định lý 3, nhóm G đẳng cấu với thương của $\mathbf{Z}$ theo một nhóm con, mà nhất thiết có dạng $a\mathbf{Z}$ (Mệnh đề 17). Nếu $a > 0$, nhóm G hữu hạn có cấp a và nếu $a = 0$, nhóm G đẳng cấu với $\mathbf{Z}$.
+Cho G là một nhóm đơn sinh (viết theo phép nhân) và x là một phần tử sinh của G. Đồng nhất thức $x^m x^n = x^{m+n}$ (§ 1, no. 3, công thức (1)) cho thấy ánh xạ $n \mapsto x^n$ là một đồng cấu từ $\mathbf{Z}$ vào G. Ảnh của nó là một nhóm con của G chứa x và do đó nó là G. Theo no. 5, Định lý 3, nhóm G đẳng cấu với thương của $\mathbf{Z}$ theo một nhóm con, mà nhất thiết có dạng $a\mathbf{Z}$ (Mệnh đề 17). Nếu $a > 0$, nhóm G hữu hạn có cấp a và nếu $a = 0$, nhóm G đẳng cấu với $\mathbf{Z}$.
 
 #### Mệnh đề 19 {#alg-i-s4-prop-19 .statement}
 

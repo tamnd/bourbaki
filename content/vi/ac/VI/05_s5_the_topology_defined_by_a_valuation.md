@@ -25,9 +25,9 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 9
-content_sha256: ee9d937131ce46ba1ce68731c257d1cc7943a239218492d585b7d33f2c266e75
+content_sha256: 9ebbea3d983442716c904ee098f27e24297ce604b5054c89d34a7ea7375f7e8d
 translated_from: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
-source_content_sha256: d56915558e9f19e4abe4fca65f41f0096ec0bc17665a39fa07b8b8d451786f5b
+source_content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-0671723b
 glossary_version: 34
@@ -39,7 +39,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. TÔPÔ ĐƯỢC XÁC ĐỊNH BỞI MỘT ĐỊNH GIÁ
 
-Cho K là một trường không nhất thiết giao hoán, v là một định giá trên K và G là nhóm được sắp thứ tự toàn phần $v(K^*)$. Với mọi $a \in G$, đặt V, là tập hợp các $x \in K$ sao cho $v(x) > a$; tập này là một nhóm con cộng tính của K (\S 3, no. 1). Tồn tại duy nhất một tôpô $\mathcal{T}_v$ trên K sao cho các V, tạo thành một hệ cơ bản các lân cận của 0 (*General Topology*, Chapter III, \S 1, no. 2, Example). Để v là định giá tầm thường, điều kiện cần và đủ là $\mathcal{T}_v$ là tôpô rời rạc.
+Cho K là một trường không nhất thiết giao hoán, v là một định giá trên K và G là nhóm được sắp thứ tự toàn phần $v(K^*)$. Với mọi $a \in G$, đặt V, là tập hợp các $x \in K$ sao cho $v(x) > a$; tập này là một nhóm con cộng tính của K (§ 3, no. 1). Tồn tại duy nhất một tôpô $\mathcal{T}_v$ trên K sao cho các V, tạo thành một hệ cơ bản các lân cận của 0 (*General Topology*, Chapter III, § 1, no. 2, Example). Để v là định giá tầm thường, điều kiện cần và đủ là $\mathcal{T}_v$ là tôpô rời rạc.
 
 #### Bổ đề 1 {#ac-vi-s5-lem-1 .statement}
 
@@ -53,7 +53,7 @@ $x^{-1} - y^{-1} = x^{-1}(y - x)y^{-1}$ và do đó
 $$
 v(x^{-1} - y^{-1}) = v(x - y) - v(x) - v(y).
 $$
-Nếu $v(x - y) > v(y)$, Mệnh đề 1 của \S 3, no. 1 suy ra rằng $v(x) = v(y)$, vì $x = y + (x - y)$. Hơn nữa, nếu $v(x - y) > a + 2v(y)$, thì
+Nếu $v(x - y) > v(y)$, Mệnh đề 1 của § 3, no. 1 suy ra rằng $v(x) = v(y)$, vì $x = y + (x - y)$. Hơn nữa, nếu $v(x - y) > a + 2v(y)$, thì
 $$
 v(x^{-1} - y^{-1}) > a + 2v(y) - 2v(y) = a.
 $$
@@ -62,13 +62,13 @@ $$
 
 *Tôpô $\mathcal{T}_v$ là Hausdorff và tương thích với cấu trúc vành trên K. Ánh xạ $v : K^* \to G$ là liên tục nếu G được cho tôpô rời rạc.*
 
-Cho $x \in K^*$ và $a = v(x)$; khi đó $x \notin V_a$, điều này cho thấy rằng $\mathcal{T}_v$ là Hausdorff. Với mọi $x_0 \in K$ và $a \in G$, tồn tại $\beta \in G$ sao cho $x_0 V_\beta \subset V_\alpha$ và $V_\beta x_0 \subset V$, (chỉ cần lấy $\beta \geqslant a - v(x_0)$). Mặt khác, nếu $a \geqslant 0$, thì $V_\alpha V_\alpha \subset V_v$. Vì vậy các tiên đề (AV_I) và (AV_{II}) của *General Topology*, Chapter III, § 6, no. 3 được thỏa mãn, nên $\mathcal{T}_v$ tương thích với cấu trúc vành trên K. Cho $x_0 \in K^*$; nếu $x \in K^*$ thỏa mãn $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, thì $v(x^{-1} - x_0^{-1}) > a$ (Bổ đề 1), điều này cho thấy ánh xạ $x \mapsto x^{-1}$ là liên tục và do đó $\mathcal{T}_v$ tương thích với cấu trúc trường trên K. Cuối cùng, điều kiện duy nhất $v(x - x_0) > v(x_0)$ suy ra $v(x) = v(x_0)$ (\S 3, no. 1, Mệnh đề 1) và do đó ánh xạ $v : K^* \to G$ là liên tục nếu G được cho tôpô rời rạc.
+Cho $x \in K^*$ và $a = v(x)$; khi đó $x \notin V_a$, điều này cho thấy rằng $\mathcal{T}_v$ là Hausdorff. Với mọi $x_0 \in K$ và $a \in G$, tồn tại $\beta \in G$ sao cho $x_0 V_\beta \subset V_\alpha$ và $V_\beta x_0 \subset V$, (chỉ cần lấy $\beta \geqslant a - v(x_0)$). Mặt khác, nếu $a \geqslant 0$, thì $V_\alpha V_\alpha \subset V_v$. Vì vậy các tiên đề (AV_I) và (AV_{II}) của *General Topology*, Chapter III, § 6, no. 3 được thỏa mãn, nên $\mathcal{T}_v$ tương thích với cấu trúc vành trên K. Cho $x_0 \in K^*$; nếu $x \in K^*$ thỏa mãn $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, thì $v(x^{-1} - x_0^{-1}) > a$ (Bổ đề 1), điều này cho thấy ánh xạ $x \mapsto x^{-1}$ là liên tục và do đó $\mathcal{T}_v$ tương thích với cấu trúc trường trên K. Cuối cùng, điều kiện duy nhất $v(x - x_0) > v(x_0)$ suy ra $v(x) = v(x_0)$ (§ 3, no. 1, Mệnh đề 1) và do đó ánh xạ $v : K^* \to G$ là liên tục nếu G được cho tôpô rời rạc.
 
 Cho $\alpha \in G$ và $V'_\alpha$ là tập hợp các $x \in K$ sao cho $v(x) \geq \alpha$. Nếu $\beta < a$, thì $V_\beta \supset V'_\alpha \supset V_v$. Nếu v không phải là định giá tầm thường, do đó thấy rằng các $V'_\alpha$ tạo thành một hệ cơ bản các lân cận của 0 đối với $\mathcal{T}_v$.
 
 Các $V_v$ và các $V'_\alpha$ là các nhóm con cộng mở và do đó đóng trong $K$, và do đó trường tôpô $K$ là *không liên thông hoàn toàn*. Vì mọi iđêan khác không của vành của $v$ chứa một $V_v$, nên nó *mở và đóng* trong $K$. Tôpô thương trên trường thặng dư của $v$ do đó là *rời rạc*.
 
-Cho $A$ là vành của $u$. Nếu $v$ là rời rạc, Mệnh đề 8 của $\S 3$, no. 6 cho thấy tôpô cảm sinh bởi $\mathcal{T}_v$ trên $A$ là tôpô $m(A)$-adic. Điều này nói chung không đúng (Bài tập 4).
+Cho $A$ là vành của $u$. Nếu $v$ là rời rạc, Mệnh đề 8 của $§ 3$, no. 6 cho thấy tôpô cảm sinh bởi $\mathcal{T}_v$ trên $A$ là tôpô $m(A)$-adic. Điều này nói chung không đúng (Bài tập 4).
 
 #### Mệnh đề 2 {#ac-vi-s5-prop-2 .statement}
 
@@ -80,7 +80,7 @@ Cho $A$ là vành của $u$. Nếu $v$ là rời rạc, Mệnh đề 8 của $\S
 
 *Nếu vậy*, $A$ là compact.
 
-Giả sử $K$ là compact địa phương. Khi đó nó đầy đủ (*General Topology*, Chương 111, $\S 3$, no. 3, Hệ quả 1 của Mệnh đề 4); hơn nữa tồn tại một lân cận compact của 0, chứa một lân cận $V'_a$, với $a$ thuộc nhóm giá trị của $v$; nói cách khác, tồn tại $a \neq 0$ trong $K^*$ sao cho $A . a$ là compact và suy ra rằng $A = (A . a)a^{-1}$ là compact. Vì mọi iđêan $b \neq (0)$ của $A$ là mở, $A/b$ là compact và rời rạc (*General Topology*, Chương III, $\S 2$, no. 5, Mệnh đề 14) nên hữu hạn và đặc biệt $\kappa(A) = A/m$ là hữu hạn. Hơn nữa, với $y \neq 0$ trong $m$, vì vành $A/Ay$ là hữu hạn, chỉ có hữu hạn nhiều iđêan của $A$ chứa $Ay$ và tập $P$ gồm các phần tử có dạng $v(x)$ sao cho
+Giả sử $K$ là compact địa phương. Khi đó nó đầy đủ (*General Topology*, Chương 111, $§ 3$, no. 3, Hệ quả 1 của Mệnh đề 4); hơn nữa tồn tại một lân cận compact của 0, chứa một lân cận $V'_a$, với $a$ thuộc nhóm giá trị của $v$; nói cách khác, tồn tại $a \neq 0$ trong $K^*$ sao cho $A . a$ là compact và suy ra rằng $A = (A . a)a^{-1}$ là compact. Vì mọi iđêan $b \neq (0)$ của $A$ là mở, $A/b$ là compact và rời rạc (*General Topology*, Chương III, $§ 2$, no. 5, Mệnh đề 14) nên hữu hạn và đặc biệt $\kappa(A) = A/m$ là hữu hạn. Hơn nữa, với $y \neq 0$ trong $m$, vì vành $A/Ay$ là hữu hạn, chỉ có hữu hạn nhiều iđêan của $A$ chứa $Ay$ và tập $P$ gồm các phần tử có dạng $v(x)$ sao cho
 
 $$
 0 < v(x) \leq v(y)

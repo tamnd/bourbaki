@@ -44,7 +44,7 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: 28599142f274ec5813551cdbb3bbe444ef139fc7c26b1c613596b1ce9597e9d3
+content_sha256: 17781b6bd4c4150167e422099cfe3c64fec3fa861d2cdd27aa8b9bac3f881d90
 ---
 
 ## § 9. COMMUTATORS, CENTRALIZERS AND NORMALIZERS IN A LIE GROUP
@@ -149,13 +149,13 @@ $$
 L(A) + L(B) + L(C) = L(G)
 $$
 
-and $G$ is connected. Then $L(C)$ is an ideal of $L(G)$. Suppose first that $G$ is simply connected. Then $C$ is a normal Lie subgroup of $G$ (\S 6, no. 6, Proposition 14). Let $\phi$ be the canonical morphism of $G$ onto $G/C$. Then
+and $G$ is connected. Then $L(C)$ is an ideal of $L(G)$. Suppose first that $G$ is simply connected. Then $C$ is a normal Lie subgroup of $G$ (§ 6, no. 6, Proposition 14). Let $\phi$ be the canonical morphism of $G$ onto $G/C$. Then
 
 $$
 [L(\phi)(L(A)), L(\phi)(L(B))] = \{0\}
 $$
 
-and hence $\phi(A)$ and $\phi(B)$ commute by the Hausdorff formula; therefore $(A, B) \subset C$. In the general case, let $G'$ be the universal covering of $G$ and $A', B', C'$ the integral subgroups of $G'$ such that $L(A') = L(A), L(B') = L(B), L(C') = L(C)$. Then $(A', B') \subset C'$ and $A, B, C$ are the canonical images of $A', B', C'$ in $G$, whence $(A, B) \subset C$. On the other hand, $(A, B)$ is the underlying set of an integral subgroup of $G$ (\S 6, no. 2, Corollary to Proposition 4) and its Lie algebra contains $[L(A), L(B)]$ (Proposition 3). If
+and hence $\phi(A)$ and $\phi(B)$ commute by the Hausdorff formula; therefore $(A, B) \subset C$. In the general case, let $G'$ be the universal covering of $G$ and $A', B', C'$ the integral subgroups of $G'$ such that $L(A') = L(A), L(B') = L(B), L(C') = L(C)$. Then $(A', B') \subset C'$ and $A, B, C$ are the canonical images of $A', B', C'$ in $G$, whence $(A, B) \subset C$. On the other hand, $(A, B)$ is the underlying set of an integral subgroup of $G$ (§ 6, no. 2, Corollary to Proposition 4) and its Lie algebra contains $[L(A), L(B)]$ (Proposition 3). If
 
 $$
 [L(A), L(B)] = L(C),
@@ -167,7 +167,7 @@ then $(A, B) \supset C$, whence $(A, B) = C$.
 
 *Let G be a finite-dimensional connected real or complex Lie group with Lie algebra g. The subgroups $D^iG$ (resp. $C^iG$) are integral subgroups with Lie algebras $D^i\mathfrak{g}$ (resp. $C^i\mathfrak{g}$). If G is simply connected, they are Lie subgroups.*
 
-The first assertion follows from Proposition 4 by induction on $i$. The second follows from the first and \S 6, no. 6, Proposition 14.
+The first assertion follows from Proposition 4 by induction on $i$. The second follows from the first and § 6, no. 6, Proposition 14.
 
 #### Proposition 5 {#lie-iii-s9-prop-5 .statement}
 
@@ -177,7 +177,7 @@ Let $a = L(A)$. Let $G_1$ be the set of $g \in G$ such that
 
 $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{for all } x \in a.$$
 
-Then $G_1$ is a closed subgroup of $G$. If $y \in a$, then $\exp y \in G_1$, by \S 6, no. 4, Corollary 3 (ii) to Proposition 10. Hence $G_1$ contains $A$ and therefore $\overline{A}$. Thus, for $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ leaves $a$ stable and therefore $\mathrm{Int}\, g$ leaves $A$ stable; more precisely, $L(\mathrm{Int}\, g)$ defines the identity automorphism of $a/\mathcal{D}a$ and hence $\mathrm{Int}\, g$ defines the identity automorphism of $A/DA$. This proves that $(\overline{A}, A) \subset DA$. With the real Lie group structure on $G$, $\overline{A}$ is a Lie subgroup (\S 8, no. 2, Theorem 2); let $b$ be its Lie algebra. Let $G_2$ be the set of $g \in G$ such that
+Then $G_1$ is a closed subgroup of $G$. If $y \in a$, then $\exp y \in G_1$, by § 6, no. 4, Corollary 3 (ii) to Proposition 10. Hence $G_1$ contains $A$ and therefore $\overline{A}$. Thus, for $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ leaves $a$ stable and therefore $\mathrm{Int}\, g$ leaves $A$ stable; more precisely, $L(\mathrm{Int}\, g)$ defines the identity automorphism of $a/\mathcal{D}a$ and hence $\mathrm{Int}\, g$ defines the identity automorphism of $A/DA$. This proves that $(\overline{A}, A) \subset DA$. With the real Lie group structure on $G$, $\overline{A}$ is a Lie subgroup (§ 8, no. 2, Theorem 2); let $b$ be its Lie algebra. Let $G_2$ be the set of $g \in G$ such that
 
 $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{for all } x \in b.$$
 
@@ -187,7 +187,7 @@ By the above, $G_2 \supseteq A$ and hence $G_2 \supseteq \overline{A}$. Therefor
 
 *Suppose that K is ultrametric. Let G be a finite-dimensional Lie group. Let A, B, C be Lie subgroups of G such that $[L(A), L(C)] \subset L(C)$, $[L(B), L(C)] \subset L(C)$. If $[L(A), L(B)] \subset L(C)$, there exist open subgroups A', B' of A, B such that $(A', B') \subset C$. If $[L(A), L(B)] \subset L(C)$, there exist open subgroups A', B', C' of A, B, C such that $(A', B') = C'$.*
 
-Suppose that $[L(A), L(B)] \subset L(C)$. As in the proof of Proposition 4, the problem reduces to the case where $L(C)$ is an ideal of $L(G)$. Then, by replacing G by an open subgroup, it reduces to the case where C is normal in G ($\S 7$, no. 1, Proposition 2). Let $\phi$ be the canonical morphism of G onto $G/C$. Then
+Suppose that $[L(A), L(B)] \subset L(C)$. As in the proof of Proposition 4, the problem reduces to the case where $L(C)$ is an ideal of $L(G)$. Then, by replacing G by an open subgroup, it reduces to the case where C is normal in G ($§ 7$, no. 1, Proposition 2). Let $\phi$ be the canonical morphism of G onto $G/C$. Then
 $$
 [L(\phi)(L(A)), L(\phi)(L(B))] = \{0\}.
 $$
@@ -285,7 +285,7 @@ Let $g$ be a nilpotent Lie algebra. The Hausdorff series $H(X, Y)$ corresponding
 
 (ii) *Every integral subgroup of $G$ is a simply connected Lie subgroup of $G$.*
 
-Let $g = L(G)$, which is nilpotent (Proposition 12). As two simply connected Lie groups over $\mathbf{R}$ or $\mathbf{C}$ which have the same Lie algebra are isomorphic ($\S 6$, no. 3, Theorem 3 (ii)), it suffices to prove the proposition when $G$ is the group associated with $g$. Then (i) and (ii) follow from what was said before the proposition.
+Let $g = L(G)$, which is nilpotent (Proposition 12). As two simply connected Lie groups over $\mathbf{R}$ or $\mathbf{C}$ which have the same Lie algebra are isomorphic ($§ 6$, no. 3, Theorem 3 (ii)), it suffices to prove the proposition when $G$ is the group associated with $g$. Then (i) and (ii) follow from what was said before the proposition.
 
 #### Proposition 14 {#lie-iii-s9-prop-14 .statement}
 
@@ -295,9 +295,9 @@ Let $g = L(G)$, which is nilpotent (Proposition 12). As two simply connected Lie
 
 (ii) *If $K = \mathbf{C}$ and $\exp_G$ is étale, then $G$ is nilpotent.*
 
-Let $G'$ be the universal covering space of $G$. Let $\phi$ be the canonical morphism of $G'$ onto $G$. Then $\exp_G = \phi \circ \exp_{G'}$ ($\S 6$, no. 4, Proposition 10) and hence (i) follows from Proposition 13 (i).
+Let $G'$ be the universal covering space of $G$. Let $\phi$ be the canonical morphism of $G'$ onto $G$. Then $\exp_G = \phi \circ \exp_{G'}$ ($§ 6$, no. 4, Proposition 10) and hence (i) follows from Proposition 13 (i).
 
-If $K = \mathbf{C}$ and $\exp$ is étale, then, for all $x \in L(G)$, and $x$ has no eigenvalue belonging to $2i\pi(\mathbf{Z} - \{0\})$ ($\S 6$, no. 4, Corollary to Proposition 12). Applying this to $\lambda x$, where $\lambda$ varies through $\mathbf{C}$, it follows that all the eigenvalues of $\mathrm{ad}\, x$ are zero and hence that $\mathrm{ad}\, x$ is nilpotent. Therefore $L(G)$ is nilpotent (Chapter I, $\S 4$, Corollary 1 to Theorem 1) and hence $G$ is nilpotent (Proposition 12).
+If $K = \mathbf{C}$ and $\exp$ is étale, then, for all $x \in L(G)$, and $x$ has no eigenvalue belonging to $2i\pi(\mathbf{Z} - \{0\})$ ($§ 6$, no. 4, Corollary to Proposition 12). Applying this to $\lambda x$, where $\lambda$ varies through $\mathbf{C}$, it follows that all the eigenvalues of $\mathrm{ad}\, x$ are zero and hence that $\mathrm{ad}\, x$ is nilpotent. Therefore $L(G)$ is nilpotent (Chapter I, $§ 4$, Corollary 1 to Theorem 1) and hence $G$ is nilpotent (Proposition 12).
 
 #### Proposition 15 {#lie-iii-s9-prop-15 .statement}
 
@@ -395,11 +395,11 @@ $$
 $$
 Hence $\psi \circ \phi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. This proves (i). As the Hausdorff law is polynomial, $\phi$ is polynomial. By the induction hypothesis, ${\phi'}^{-1}$ is polynomial; by formula (1), the functions $x_j'$ are polynomial, hence $\zeta$ is polynomial (formula (3)), $y$ is polynomial (formula (4)) and $\psi$ is polynomial (formula (5)). This proves (ii). Assertion (iii) follows from (i) and (ii) and the fact that the Hausdorff law is polynomial.
 
-**Example of a nilpotent Lie group.** Let $G$ be the lower strict triangular subgroup of $\mathbf{GL}(n, K)$. It is a Lie subgroup of $\mathbf{GL}(n, K)$ and $L(G) \subset \mathfrak{gl}(n, K)$ is the Lie algebra of lower triangular matrices with zero diagonal (\S 3, no. 10, Proposition 36). By Chapter II, \S 4, no. 6, *Remark*, $G$ is nilpotent. Suppose henceforth that $K = \mathbf{R}$ or $\mathbf{C}$. As $G$ is homeomorphic to $K^{n(n-1)/2}$, $G$ is simply connected. The exponential mapping of $L(G)$ into $G$ is just the mapping
+**Example of a nilpotent Lie group.** Let $G$ be the lower strict triangular subgroup of $\mathbf{GL}(n, K)$. It is a Lie subgroup of $\mathbf{GL}(n, K)$ and $L(G) \subset \mathfrak{gl}(n, K)$ is the Lie algebra of lower triangular matrices with zero diagonal (§ 3, no. 10, Proposition 36). By Chapter II, § 4, no. 6, *Remark*, $G$ is nilpotent. Suppose henceforth that $K = \mathbf{R}$ or $\mathbf{C}$. As $G$ is homeomorphic to $K^{n(n-1)/2}$, $G$ is simply connected. The exponential mapping of $L(G)$ into $G$ is just the mapping
 $$
 u \mapsto \exp u = \sum_{k \geq 0} \frac{u^k}{k!} = \sum_{k=0}^{n-1} \frac{u^k}{k!}
 $$
-(\S 6, no. 4, *Example*). By Proposition 13, the exponential is an isomorphism of the manifold $L(G)$ onto the manifold $G$. Proposition 17 of \S 6, no. 9 gives the inverse bijection $\log$. We give $K^n$ a norm. By *Spectral Theories*, Chapter I, \S 4, no. 9, for $g \in G$ and $\|g - 1\| < 1$,
+(§ 6, no. 4, *Example*). By Proposition 13, the exponential is an isomorphism of the manifold $L(G)$ onto the manifold $G$. Proposition 17 of § 6, no. 9 gives the inverse bijection $\log$. We give $K^n$ a norm. By *Spectral Theories*, Chapter I, § 4, no. 9, for $g \in G$ and $\|g - 1\| < 1$,
 $$
 \log g = \sum_{k \geq 1} \frac{(-1)^{k-1}}{k} (g - 1)^k
 $$
@@ -482,7 +482,7 @@ By Proposition 20, the mapping
 $$
 (\lambda_1, \lambda_2, \ldots, \lambda_p) \mapsto (\exp \lambda_1 y_1)(\exp \lambda_2 y_2) \cdots (\exp \lambda_p y_p)
 $$
-is an isomorphism of the manifold $K^p$ onto the manifold $N$. There exists a Lie group morphism $\tau$ of $N$ into $G$ such that $h = L(\tau)$ and $\tau(N) = M$ (\S 6, no. 2, Corollary 1 to Proposition 1). Hence $M$ is the set of elements of $G$ of the form
+is an isomorphism of the manifold $K^p$ onto the manifold $N$. There exists a Lie group morphism $\tau$ of $N$ into $G$ such that $h = L(\tau)$ and $\tau(N) = M$ (§ 6, no. 2, Corollary 1 to Proposition 1). Hence $M$ is the set of elements of $G$ of the form
 $$
 \tau((\exp \lambda_1 y_1) \cdots (\exp \lambda_p y_p)) = \exp(\lambda_1 L(\tau)y_1) \cdots \exp(\lambda_p L(\tau)y_p)
 = \exp(\lambda_1 x_{i_1}) \cdots \exp(\lambda_p x_{i_p}).
@@ -494,8 +494,8 @@ Thus $M = \phi(T)$ where $T$ is a vector subspace of $K^n$.
 *Suppose that $K = \mathbf{R}$ or $\mathbf{C}$. Let $V$ be a finite-dimensional vector space and $G$ a connected solvable subgroup of $\mathbf{GL}(V)$. Suppose that the identity representation of $G$ is simple.*
 (i) *If $K = \mathbf{R}$, then $\dim V \leq 2$ and $G$ is commutative.*
 (ii) *If $K = \mathbf{C}$, then $\dim V = 1$.*
-(i) Suppose that $K = \mathbf{R}$. Then the closure $H$ of $G$ in $\mathbf{GL}(V)$ is a solvable connected Lie subgroup of $\mathbf{GL}(V)$ (no. 1, Corollary 2 to Proposition 1). Hence $L(H)$ is solvable (Proposition 19). The identity representation of $L(G)$ is simple (\S 6, no. 5, Corollary 2 to Proposition 13). Hence $\dim V \leq 2$ and $L(G)$ is commutative (Chapter I, \S 5, Corollaries 1 and 4 to Theorem 1). Hence $G$ is commutative.
-(ii) Suppose that $K = \mathbf{C}$. Let $W$ be a minimal element among the non-zero real vector subspaces of $V$ which are stable under $G$. The complex vector subspace of $V$ generated by $W$ is equal to $V$ since the identity representation of $G$ is simple. By (i), $G|W$ is commutative. Hence $G$ is commutative. Therefore every element of $G$ is a homothety (*Algebra*, Chapter VIII, \S 4, Corollary 1 to Proposition 2), so that $\dim V = 1$.
+(i) Suppose that $K = \mathbf{R}$. Then the closure $H$ of $G$ in $\mathbf{GL}(V)$ is a solvable connected Lie subgroup of $\mathbf{GL}(V)$ (no. 1, Corollary 2 to Proposition 1). Hence $L(H)$ is solvable (Proposition 19). The identity representation of $L(G)$ is simple (§ 6, no. 5, Corollary 2 to Proposition 13). Hence $\dim V \leq 2$ and $L(G)$ is commutative (Chapter I, § 5, Corollaries 1 and 4 to Theorem 1). Hence $G$ is commutative.
+(ii) Suppose that $K = \mathbf{C}$. Let $W$ be a minimal element among the non-zero real vector subspaces of $V$ which are stable under $G$. The complex vector subspace of $V$ generated by $W$ is equal to $V$ since the identity representation of $G$ is simple. By (i), $G|W$ is commutative. Hence $G$ is commutative. Therefore every element of $G$ is a homothety (*Algebra*, Chapter VIII, § 4, Corollary 1 to Proposition 2), so that $\dim V = 1$.
 
 #### Corollary {#lie-iii-s9-n6-cor-1 .statement}
 
@@ -669,7 +669,7 @@ This follows from Theorem 1, Chapter I, § 6, Theorem 6 (a) and *Commutative Alg
 
 It can be seen similarly that (i) $\Rightarrow$ (ii').
 
-(i) $\Rightarrow$ (ii): Suppose that $G/\overline{D^1}G$ is not compact and hence isomorphic to a group of the form $\mathbf{R}^p \times \mathbf{T}^q$ with $p > 0$ ($\S 6$, no. 4, Proposition 11 (ii)). Then there exists a surjective morphism of $G/\overline{D^1}G$ onto $\mathbf{R}$ and hence a surjective morphism of $G$ onto $\mathbf{R}$. The mapping
+(i) $\Rightarrow$ (ii): Suppose that $G/\overline{D^1}G$ is not compact and hence isomorphic to a group of the form $\mathbf{R}^p \times \mathbf{T}^q$ with $p > 0$ ($§ 6$, no. 4, Proposition 11 (ii)). Then there exists a surjective morphism of $G/\overline{D^1}G$ onto $\mathbf{R}$ and hence a surjective morphism of $G$ onto $\mathbf{R}$. The mapping
 
 $$
 g \mapsto \sigma(g) = \begin{pmatrix} 1 & 0 \\ \rho(g) & 1 \end{pmatrix}

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 23
 statements: 32
 exercises: 18
-content_sha256: adc2a4e954a088d296502eb1f4f4669ae89dd263f74cfb2153cbce9b5d909848
+content_sha256: d7066e36706438d32a22f5ef08bd4e19a169b5d80d705a7389fcb171033cec0a
 ---
 
 ## § 2. DIMENSION DES ALGÈBRES
@@ -91,7 +91,7 @@ $$
 $$
 où S est l’ensemble des idéaux maximaux de A.
 
-On sait que l’on a $\dim(A) = \sup_{m \in S} \dim(A_m)$ (\S 1, no 3, prop. 8). Il suffit donc d’établir l’inégalité
+On sait que l’on a $\dim(A) = \sup_{m \in S} \dim(A_m)$ (§ 1, no 3, prop. 8). Il suffit donc d’établir l’inégalité
 
 (2)
 $$
@@ -107,13 +107,13 @@ si $p_0 \subset ... \subset p_n$ est une chaîne d’idéaux premiers de A conte
 
 #### Remarque 4 {#ac-viii-s2-n1-rem-4 .statement}
 
-Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens satisfaisant à la condition (PM). On verra plus loin (\S 3, no 4, prop. 7) qu’on a dans ce cas égalité dans (1). Dans le cas général il peut y avoir inégalité stricte (p. 84, exercice 1).
+Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens satisfaisant à la condition (PM). On verra plus loin (§ 3, no 4, prop. 7) qu’on a dans ce cas égalité dans (1). Dans le cas général il peut y avoir inégalité stricte (p. 84, exercice 1).
 
 #### Corollaire {#ac-viii-s2-n1-cor-2 .statement}
 
 Pour tout idéal a de A, on a $\mathrm{ht}(a) \leq \mathrm{ht}(\rho(a)B)$.
 
-Soient q un idéal premier de B contenant $\rho(a)B$, et $p = \rho^{-1}(q)$. D’après la prop. 1, l’homomorphisme local $\rho_q : A_p \to B_q$ déduit de $\rho$ satisfait à (PM), et l’on a donc $\dim(A_p) \leq \dim(B_q)$ d’après la prop. 2. D’après la prop. 7 du \S 7, no 3, on a $\mathrm{ht}(a) \leq \dim(A_p)$ puisque p contient a, d’où $\mathrm{ht}(a) \leq \dim(B_q)$ pour tout idéal premier q de B contenant $\rho(a)B$. Le corollaire résulte alors de loc. cit.
+Soient q un idéal premier de B contenant $\rho(a)B$, et $p = \rho^{-1}(q)$. D’après la prop. 1, l’homomorphisme local $\rho_q : A_p \to B_q$ déduit de $\rho$ satisfait à (PM), et l’on a donc $\dim(A_p) \leq \dim(B_q)$ d’après la prop. 2. D’après la prop. 7 du § 7, no 3, on a $\mathrm{ht}(a) \leq \dim(A_p)$ puisque p contient a, d’où $\mathrm{ht}(a) \leq \dim(B_q)$ pour tout idéal premier q de B contenant $\rho(a)B$. Le corollaire résulte alors de loc. cit.
 
 #### Lemme 1 {#ac-viii-s2-lem-1 .statement}
 
@@ -295,7 +295,7 @@ $$
 = \dim(A_p) + \deg.\operatorname{tr}_k\kappa(p).
 $$
 
-On a $\dim_p(A) = \sup_{i \in I} \dim_{p/p_i}(A/p_i)$ (\S 1, n° 3, prop. 6). Mais, d’après le cor. 3, on a $\dim_{p/p_i}(A/p_i) = \dim(A/p_i)$, d’où la première égalité. D’après le cor. 2, on a $\dim(A/p_i) = \dim((A/p_i)_p) + \dim(A/p)$. La deuxième égalité du corollaire résulte donc du fait que $\dim(A_p) = \sup_{i \in I} \dim((A/p_i)_p)$ et la troisième du th. 3.
+On a $\dim_p(A) = \sup_{i \in I} \dim_{p/p_i}(A/p_i)$ (§ 1, n° 3, prop. 6). Mais, d’après le cor. 3, on a $\dim_{p/p_i}(A/p_i) = \dim(A/p_i)$, d’où la première égalité. D’après le cor. 2, on a $\dim(A/p_i) = \dim((A/p_i)_p) + \dim(A/p)$. La deuxième égalité du corollaire résulte donc du fait que $\dim(A_p) = \sup_{i \in I} \dim((A/p_i)_p)$ et la troisième du th. 3.
 
 Ainsi $\dim_p(A)$ est la borne supérieure des longueurs des chaînes d’idéaux premiers de $A$ dont $p$ est un élément.
 

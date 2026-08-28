@@ -25,14 +25,14 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 9
-content_sha256: d56915558e9f19e4abe4fca65f41f0096ec0bc17665a39fa07b8b8d451786f5b
+content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
 ---
 
 ## 5. THE TOPOLOGY DEFINED BY A VALUATION
 
 ### 1. THE TOPOLOGY DEFINED BY A VALUATION
 
-Let K be a not necessarily commutative field, v a valuation on K and G the totally ordered group $v(K^*)$. For all $a \in G$ let V, be the set of $x \in K$ such that $v(x) > a$; this set is an additive subgroup of K (\S 3, no. 1). There exists a unique topology $\mathcal{T}_v$ on K for which the V, form a fundamental system of neighbourhoods of 0 (*General Topology*, Chapter III, \S 1, no. 2, Example). For v to be improper, it is necessary and sufficient that $\mathcal{T}_v$ be the discrete topology.
+Let K be a not necessarily commutative field, v a valuation on K and G the totally ordered group $v(K^*)$. For all $a \in G$ let V, be the set of $x \in K$ such that $v(x) > a$; this set is an additive subgroup of K (§ 3, no. 1). There exists a unique topology $\mathcal{T}_v$ on K for which the V, form a fundamental system of neighbourhoods of 0 (*General Topology*, Chapter III, § 1, no. 2, Example). For v to be improper, it is necessary and sufficient that $\mathcal{T}_v$ be the discrete topology.
 
 #### Lemma 1 {#ac-vi-s5-lem-1 .statement}
 
@@ -46,7 +46,7 @@ $x^{-1} - y^{-1} = x^{-1}(y - x)y^{-1}$ and hence
 $$
 v(x^{-1} - y^{-1}) = v(x - y) - v(x) - v(y).
 $$
-If $v(x - y) > v(y)$, Proposition 1 of \S 3, no. 1 implies that $v(x) = v(y)$, since $x = y + (x - y)$. Moreover, if $v(x - y) > a + 2v(y)$, then
+If $v(x - y) > v(y)$, Proposition 1 of § 3, no. 1 implies that $v(x) = v(y)$, since $x = y + (x - y)$. Moreover, if $v(x - y) > a + 2v(y)$, then
 $$
 v(x^{-1} - y^{-1}) > a + 2v(y) - 2v(y) = a.
 $$
@@ -55,13 +55,13 @@ $$
 
 *The topology $\mathcal{T}_v$ is Hausdorff and compatible with the field structure on K. The mapping $v : K^* \to G$ is continuous if G is given the discrete topology.*
 
-Let $x \in K^*$ and $a = v(x)$; then $x \notin V_a$ which shows that $\mathcal{T}_v$ is Hausdorff. For all $x_0 \in K$ and $a \in G$, there exists $\beta \in G$ such that $x_0 V_\beta \subset V_\alpha$ and $V_\beta x_0 \subset V$, (it is sufficient to take $\beta \geqslant a - v(x_0)$). On the other hand, if $a \geqslant 0$, then $V_\alpha V_\alpha \subset V_v$. The axioms (AV_I) and (AV_{II}) of *General Topology*, Chapter III, § 6, no. 3 being thus satisfied, $\mathcal{T}_v$ is compatible with the ring structure on $K$. Let $x_0 \in K^*$; if $x \in K^*$ satisfies $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, then $v(x^{-1} - x_0^{-1}) > a$ (Lemma 1), which shows that $x \mapsto x^{-1}$ is continuous and that $\mathcal{T}_v$ is therefore compatible with the field structure on $K$. Finally, the single condition $v(x - x_0) > v(x_0)$ implies $v(x) = v(x_0)$ ($\S 3$, no. 1, Proposition 1) and hence the mapping $v : K^* \to G$ is continuous if $G$ is given the discrete topology.
+Let $x \in K^*$ and $a = v(x)$; then $x \notin V_a$ which shows that $\mathcal{T}_v$ is Hausdorff. For all $x_0 \in K$ and $a \in G$, there exists $\beta \in G$ such that $x_0 V_\beta \subset V_\alpha$ and $V_\beta x_0 \subset V$, (it is sufficient to take $\beta \geqslant a - v(x_0)$). On the other hand, if $a \geqslant 0$, then $V_\alpha V_\alpha \subset V_v$. The axioms (AV_I) and (AV_{II}) of *General Topology*, Chapter III, § 6, no. 3 being thus satisfied, $\mathcal{T}_v$ is compatible with the ring structure on $K$. Let $x_0 \in K^*$; if $x \in K^*$ satisfies $v(x - x_0) > \sup(\alpha + 2v(x_0), v(x_0))$, then $v(x^{-1} - x_0^{-1}) > a$ (Lemma 1), which shows that $x \mapsto x^{-1}$ is continuous and that $\mathcal{T}_v$ is therefore compatible with the field structure on $K$. Finally, the single condition $v(x - x_0) > v(x_0)$ implies $v(x) = v(x_0)$ ($§ 3$, no. 1, Proposition 1) and hence the mapping $v : K^* \to G$ is continuous if $G$ is given the discrete topology.
 
 Let $\alpha \in G$ and $V'_\alpha$ be the set of $x \in K$ such that $v(x) \geq \alpha$. If $\beta < a$, then $V_\beta \supset V'_\alpha \supset V_v$. If $v$ is not improper, it is therefore seen that the $V'_\alpha$ form a fundamental system of neighbourhoods of 0 for $\mathcal{T}_v$.
 
 The $V_v$ and the $V'_\alpha$ are open additive subgroups and therefore closed in $K$ and therefore the topological field $K$ is *totally disconnected*. As every non-zero ideal of the ring of $v$ contains a $V_v$, it is *open and closed* in $K$. The quotient topology on the residue field of $v$ is therefore *discrete*.
 
-Let $A$ be the ring of $u$. If $v$ is discrete, Proposition 8 of $\S 3$, no. 6 shows that the topology induced by $\mathcal{T}_v$ on $A$ is the $m(A)$-adic topology. This is not so in general (Exercise 4).
+Let $A$ be the ring of $u$. If $v$ is discrete, Proposition 8 of $§ 3$, no. 6 shows that the topology induced by $\mathcal{T}_v$ on $A$ is the $m(A)$-adic topology. This is not so in general (Exercise 4).
 
 #### Proposition 2 {#ac-vi-s5-prop-2 .statement}
 
@@ -73,7 +73,7 @@ Let $A$ be the ring of $u$. If $v$ is discrete, Proposition 8 of $\S 3$, no. 6 s
 
 *If so*, $A$ is compact.
 
-Suppose $K$ is locally compact. Then it is complete (*General Topology*, Chapter 111, $\S 3$, no. 3, Corollary 1 to Proposition 4); further there exists a compact neighbourhood of 0, which contains a neighbourhood $V'_a$, where $a$ belongs to the value group of $v$; in other words, there exists $a \neq 0$ in $K^*$ such that $A . a$ is compact and it follows that $A = (A . a)a^{-1}$ is compact. As every ideal $b \neq (0)$ of $A$ is open, $A/b$ is compact and discrete (*General Topology*, Chapter III, $\S 2$, no. 5, Proposition 14) and therefore finite and in particular $\kappa(A) = A/m$ is finite. Moreover, for $y \neq 0$ in $m$, the ring $A/Ay$ being finite, there is only a finite number of ideals of $A$ containing $Ay$ and the set $P$ of elements of the form $v(x)$ such that
+Suppose $K$ is locally compact. Then it is complete (*General Topology*, Chapter 111, $§ 3$, no. 3, Corollary 1 to Proposition 4); further there exists a compact neighbourhood of 0, which contains a neighbourhood $V'_a$, where $a$ belongs to the value group of $v$; in other words, there exists $a \neq 0$ in $K^*$ such that $A . a$ is compact and it follows that $A = (A . a)a^{-1}$ is compact. As every ideal $b \neq (0)$ of $A$ is open, $A/b$ is compact and discrete (*General Topology*, Chapter III, $§ 2$, no. 5, Proposition 14) and therefore finite and in particular $\kappa(A) = A/m$ is finite. Moreover, for $y \neq 0$ in $m$, the ring $A/Ay$ being finite, there is only a finite number of ideals of $A$ containing $Ay$ and the set $P$ of elements of the form $v(x)$ such that
 
 $$
 0 < v(x) \leq v(y)

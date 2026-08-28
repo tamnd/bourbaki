@@ -24,7 +24,7 @@ subsections:
       pdf_page: 253
 statements: 13
 exercises: 4
-content_sha256: 956b529ef85064cc843a32820e15c73a67558f2abe228c65a85b4f2050a6a046
+content_sha256: e7c2ad551ad2ab17c046cd927dbba4140f5587e9127b92ca59cda57c6f04b851
 ---
 
 ## § 10. Le groupe des automorphismes d’un groupe de Lie
@@ -89,7 +89,7 @@ et, pour $\lambda$ fixé, l’application $x \mapsto f(\lambda t, x)$ est K-anal
 
 *Soient K' un sous-corps fermé non discret de K, G un groupe de Lie sur K, V une variété sur K' et $(v, g) \mapsto vg$ une application K'-analytique de $V \times G$ dans G. On suppose que, pour tout $v \in V$, l’application $g \mapsto vg$ de G dans G soit un automorphisme de G. Soient $e$ un élément de V tel que $eg = g$ pour tout $g \in G$, et $a \in T_e(V)$. Alors le champ de vecteurs $g \mapsto ag$ sur G est un automorphisme infinitésimal de G.*
 
-Pour $v \in V$, $g_1 \in G$, $g_2 \in G$, on a $v(g_1 g_2) = (vg_1)(vg_2)$. Donc, pour $u_1 \in TG$, $u_2 \in TG$, on a $a(u_1 u_2) = (au_1)(au_2)$ (\S 2, n° 1, prop. 3). En particulier, l’application $g \mapsto ag$ de G dans TG est un homomorphisme de groupes. D’autre part, cette application est analytique d’après le lemme 2.
+Pour $v \in V$, $g_1 \in G$, $g_2 \in G$, on a $v(g_1 g_2) = (vg_1)(vg_2)$. Donc, pour $u_1 \in TG$, $u_2 \in TG$, on a $a(u_1 u_2) = (au_1)(au_2)$ (§ 2, n° 1, prop. 3). En particulier, l’application $g \mapsto ag$ de G dans TG est un homomorphisme de groupes. D’autre part, cette application est analytique d’après le lemme 2.
 
 #### Proposition 2 {#lie-iii-s10-prop-2 .statement}
 
@@ -100,7 +100,7 @@ a) Pour tout $\mu > 0$, soit $K_\mu$ la boule ouverte de centre 0 et de rayon $\
 
 b) Soient $g_1, g_2$ dans $G$, $f_1 \in \mathcal{F}_{g_1}, f_2 \in \mathcal{F}_{g_2}$, avec $f_1$ et $f_2$ définies dans une même boule $K_\mu$. Alors $f_1 f_2 : K_\mu \to G$ est analytique, et $(f_1 f_2)(0) = g_1 g_2$. D’autre part, pour tout $\lambda \in K_\mu$, on a
 $$
-(T_\lambda(f_1 f_2))1 = (T_\lambda f_1)1 \cdot f_2(\lambda) + f_1(\lambda) \cdot (T_\lambda f_2)1 \quad (\S 2, \text{prop. 7})
+(T_\lambda(f_1 f_2))1 = (T_\lambda f_1)1 \cdot f_2(\lambda) + f_1(\lambda) \cdot (T_\lambda f_2)1 \quad (§ 2, \text{prop. 7})
 $$
 $$
 = \alpha(f_1(\lambda)) f_2(\lambda) + f_1(\lambda) \alpha(f_2(\lambda))
@@ -121,7 +121,7 @@ quels que soient $\lambda \in K, g_1 \in G, g_2 \in G$.
 *On suppose K ultramétrique. Soient G un groupe de Lie compact, $\alpha$ un automorphisme infinitésimal de G. Il existe un sous-groupe ouvert I de K et une loi d’opération analytique $(\lambda, g) \mapsto \varphi_\lambda(g)$ de I dans G possédant les propriétés suivantes:
 1) *si D est la loi d’opération infinitésimale associée, on a $D(1) = \alpha$;
 2) *pour tout $\lambda \in I$, on a $\varphi_\lambda \in \mathrm{Aut}\, G$.
-Comme G est compact, il existe un sous-groupe ouvert I’ de K et une loi d’opération analytique $(\lambda, g) \mapsto \varphi_\lambda(g)$ de I’ dans G possédant la propriété 1 de la proposition (\S 4, n° 7, cor. 2 du th. 6). Posons $\varphi_\lambda(g) = f_g(\lambda)$ pour $\lambda \in I'$ et $g \in G$. On a, pour $g_1, g_2$ dans $G$ et $\lambda \in I'$,
+Comme G est compact, il existe un sous-groupe ouvert I’ de K et une loi d’opération analytique $(\lambda, g) \mapsto \varphi_\lambda(g)$ de I’ dans G possédant la propriété 1 de la proposition (§ 4, n° 7, cor. 2 du th. 6). Posons $\varphi_\lambda(g) = f_g(\lambda)$ pour $\lambda \in I'$ et $g \in G$. On a, pour $g_1, g_2$ dans $G$ et $\lambda \in I'$,
 $$
 (T_\lambda(f_{g_1} f_{g_2}))1 = (T_\lambda f_{g_1})1 \cdot f_{g_2}(\lambda) + f_{g_1}(\lambda) \cdot (T_\lambda f_{g_2})1
 $$
@@ -205,7 +205,7 @@ Soit D la loi d’opération infinitésimale associée à la loi d’opération 
 
 Le théorème est ainsi entièrement démontré pour G connexe.
 
-c) Passons au cas général. Par hypothèse, G est engendré par G₀ et un nombre fini d’éléments x₁, x₂, ..., xₙ. Tout u ∈ Aut G laisse stable G₀. Soit Aut₁ G l’ensemble des u ∈ Aut G qui, par passage au quotient, donnent l’automorphisme identique de $G/G_0$. C’est un sous-groupe distingué de Aut $G$. D’après la partie b) de la démonstration, Aut $G_0$ est canoniquement muni d’une structure de groupe de Lie, et l’application $(g_1, g_2, \ldots, g_n, u) \mapsto (u g_1, u g_2, \ldots, u g_n)$ de $G_0^n \times \mathrm{Aut}\ G_0$ dans $G_0^n$ est analytique. Soit $P$ le produit semi-direct correspondant de Aut $G_0$ par $G_0^n$; c’est un groupe de Lie ($\S 1$, n° 4, prop. 7), de dimension finie.
+c) Passons au cas général. Par hypothèse, G est engendré par G₀ et un nombre fini d’éléments x₁, x₂, ..., xₙ. Tout u ∈ Aut G laisse stable G₀. Soit Aut₁ G l’ensemble des u ∈ Aut G qui, par passage au quotient, donnent l’automorphisme identique de $G/G_0$. C’est un sous-groupe distingué de Aut $G$. D’après la partie b) de la démonstration, Aut $G_0$ est canoniquement muni d’une structure de groupe de Lie, et l’application $(g_1, g_2, \ldots, g_n, u) \mapsto (u g_1, u g_2, \ldots, u g_n)$ de $G_0^n \times \mathrm{Aut}\ G_0$ dans $G_0^n$ est analytique. Soit $P$ le produit semi-direct correspondant de Aut $G_0$ par $G_0^n$; c’est un groupe de Lie ($§ 1$, n° 4, prop. 7), de dimension finie.
 
 Si $w \in \mathrm{Aut}_1 G$, nous poserons
 $$
@@ -227,7 +227,7 @@ donc $\zeta$ est un homomorphisme de $\mathrm{Aut}_1 G$ dans $P$. Cet homomorphi
 
 Montrons que $\zeta(\mathrm{Aut}_1 G)$ est fermé dans $P$. Soit $\Phi$ un filtre sur $\mathrm{Aut}_1 G$ tel que $\zeta(\Phi)$ converge vers un point $((w_1, \ldots, w_n), w_0)$ de $P$. Alors $\Phi$ converge simplement vers une application $v$ de $G$ dans $G$. Il est clair que $v$ est un endomorphisme du groupe $G$. En outre, $v$ laisse stable chaque classe suivant $G_0$, et $v|_{G_0} = w_0$. Il en résulte que $v \in \mathrm{Aut}_1 G$. Comme $\zeta(v) = ((w_1, \ldots, w_n), w_0)$, on a bien montré que $\zeta(\mathrm{Aut}_1 G)$ est fermé dans $P$.
 
-d) Dans la partie d) de la démonstration, on suppose que $K = \mathbf{R}$. D’après le $\S 8$, n° 2, th. 2, $\zeta(\mathrm{Aut}_1 G)$ est un sous-groupe de Lie de $P$. Transportons la structure de groupe de Lie réel de $\zeta(\mathrm{Aut}_1 G)$ à $\mathrm{Aut}_1 G$ grâce à $\zeta^{-1}$. Ainsi, $\mathrm{Aut}_1 G$ devient un groupe de Lie de dimension finie.
+d) Dans la partie d) de la démonstration, on suppose que $K = \mathbf{R}$. D’après le $§ 8$, n° 2, th. 2, $\zeta(\mathrm{Aut}_1 G)$ est un sous-groupe de Lie de $P$. Transportons la structure de groupe de Lie réel de $\zeta(\mathrm{Aut}_1 G)$ à $\mathrm{Aut}_1 G$ grâce à $\zeta^{-1}$. Ainsi, $\mathrm{Aut}_1 G$ devient un groupe de Lie de dimension finie.
 
 Soient $M$ une variété analytique, $f$ une application de $M$ dans $\mathrm{Aut}_1 G$, et $\varphi$ l’application $(m, g) \mapsto f(m) g$ de $M \times G$ dans $G$. On a les équivalences suivantes:
 $f$ analytique
@@ -250,9 +250,9 @@ $$
 
 La topologie de Aut_1 G est donc la topologie $\mathcal{T}_\beta$.
 
-Il est clair que Aut_1 G est ouvert dans Aut G pour la topologie $\mathcal{T}_\beta$. Il existe sur Aut G une structure de groupe de Lie compatible avec cette topologie et induisant sur Aut_1 G la structure précédemment construite (\S 8, n° 1, cor. 2 du th. 1). Le fait que le groupe de Lie Aut G possède les propriétés du théorème résulte des propriétés correspondantes de Aut_1 G.
+Il est clair que Aut_1 G est ouvert dans Aut G pour la topologie $\mathcal{T}_\beta$. Il existe sur Aut G une structure de groupe de Lie compatible avec cette topologie et induisant sur Aut_1 G la structure précédemment construite (§ 8, n° 1, cor. 2 du th. 1). Le fait que le groupe de Lie Aut G possède les propriétés du théorème résulte des propriétés correspondantes de Aut_1 G.
 
-e) Dans la partie e) de la démonstration, on suppose que K = C. D’après c) et le th. 2 du \S 8, n° 2, il existe sur Aut_1 G une structure de groupe de Lie réel telle que $\zeta$ soit un isomorphisme de Aut_1 G sur un sous-groupe de Lie réel de P.
+e) Dans la partie e) de la démonstration, on suppose que K = C. D’après c) et le th. 2 du § 8, n° 2, il existe sur Aut_1 G une structure de groupe de Lie réel telle que $\zeta$ soit un isomorphisme de Aut_1 G sur un sous-groupe de Lie réel de P.
 
 La loi d’opération $(w, g) \mapsto wg$ de $(\mathrm{Aut}_1 G) \times G$ dans G est analytique réelle. Soit D la loi d’opération infinitésimale associée. D’après les prop. 1 et 2 du n° 1, on a $D(\mathrm{L}(\mathrm{Aut}_1 G)) = \alpha$.
 
@@ -264,9 +264,9 @@ $$
 
 Enfin, posons $f(\alpha) = ((\alpha_1, \ldots, \alpha_n), \alpha_0) \in \mathrm{L}(P)$. Alors $f$ est une application $\mathbf{C}$-linéaire de $\alpha$ dans $\mathrm{L}(P)$.
 
-D’autre part, il est clair que $\mathrm{L}(\zeta) = f \circ D$. Donc $\mathrm{L}(\zeta)(\mathrm{L}(\mathrm{Aut}_1 G)) = f(\alpha)$ est un sous-espace vectoriel complexe de $\mathrm{L}(P)$. D’après la prop. 2 du \S 4, n° 2, $\zeta(\mathrm{Aut}_1 G)$ est un sous-groupe de Lie complexe de P, et on peut alors procéder exactement comme dans d) : on transporte la structure de groupe de Lie complexe de $\zeta(\mathrm{Aut}_1 G)$ à $\mathrm{Aut}_1 G$ grâce à $\zeta^{-1}$, et on voit comme dans d) que $\mathrm{Aut}_1 G$ possède les propriétés analogues aux propriétés (i), (ii), (iii), (v), (vi) du théorème.
+D’autre part, il est clair que $\mathrm{L}(\zeta) = f \circ D$. Donc $\mathrm{L}(\zeta)(\mathrm{L}(\mathrm{Aut}_1 G)) = f(\alpha)$ est un sous-espace vectoriel complexe de $\mathrm{L}(P)$. D’après la prop. 2 du § 4, n° 2, $\zeta(\mathrm{Aut}_1 G)$ est un sous-groupe de Lie complexe de P, et on peut alors procéder exactement comme dans d) : on transporte la structure de groupe de Lie complexe de $\zeta(\mathrm{Aut}_1 G)$ à $\mathrm{Aut}_1 G$ grâce à $\zeta^{-1}$, et on voit comme dans d) que $\mathrm{Aut}_1 G$ possède les propriétés analogues aux propriétés (i), (ii), (iii), (v), (vi) du théorème.
 
-Il est clair que $\mathrm{Aut}_1 G$ est ouvert dans Aut G pour la topologie $\mathcal{T}_\beta$. Soit $w \in \mathrm{Aut}\ G$. Soit $\sigma$ l’automorphisme $v \mapsto wvw^{-1}$ de $\mathrm{Aut}_1 G$. Il est analytique réel (\S 8, n° 1, th. 1), $\mathrm{L}(\sigma)$ est un $\mathbf{R}$-automorphisme de $\mathrm{L}(\mathrm{Aut}_1 G)$, et $D \circ \mathrm{L}(\mathrm{Aut}_1 G) \circ D^{-1}$ est un $\mathbf{R}$-automorphisme de $\alpha$. Cet automorphisme est aussi l’automorphisme de $\alpha$ déduit de $w$ par transport de structure; comme $w$ est K-analytique, on voit que $\mathrm{L}(\sigma)$ est K-linéaire. Donc $\sigma$ est K-analytique (\S 3, n° 8, prop. 32). D’après le \S 1, n° 9, prop. 18, il existe sur Aut G une structure de K-groupe de Lie et une seule telle que $\mathrm{Aut}_1 G$ soit un sous-groupe de Lie ouvert de Aut G. Le fait que cette structure possède les propriétés du théorème résulte des propriétés correspondantes de $\mathrm{Aut}_1 G$.
+Il est clair que $\mathrm{Aut}_1 G$ est ouvert dans Aut G pour la topologie $\mathcal{T}_\beta$. Soit $w \in \mathrm{Aut}\ G$. Soit $\sigma$ l’automorphisme $v \mapsto wvw^{-1}$ de $\mathrm{Aut}_1 G$. Il est analytique réel (§ 8, n° 1, th. 1), $\mathrm{L}(\sigma)$ est un $\mathbf{R}$-automorphisme de $\mathrm{L}(\mathrm{Aut}_1 G)$, et $D \circ \mathrm{L}(\mathrm{Aut}_1 G) \circ D^{-1}$ est un $\mathbf{R}$-automorphisme de $\alpha$. Cet automorphisme est aussi l’automorphisme de $\alpha$ déduit de $w$ par transport de structure; comme $w$ est K-analytique, on voit que $\mathrm{L}(\sigma)$ est K-linéaire. Donc $\sigma$ est K-analytique (§ 3, n° 8, prop. 32). D’après le § 1, n° 9, prop. 18, il existe sur Aut G une structure de K-groupe de Lie et une seule telle que $\mathrm{Aut}_1 G$ soit un sous-groupe de Lie ouvert de Aut G. Le fait que cette structure possède les propriétés du théorème résulte des propriétés correspondantes de $\mathrm{Aut}_1 G$.
 
 #### Corollaire 1 {#lie-iii-s10-thm-1-cor-1 .statement}
 
@@ -276,7 +276,7 @@ Soient G un groupe de Lie réel de dimension finie, $G_0$ sa composante neutre. 
 
 Soit G un groupe de Lie réel ou complexe connexe semi-simple. Le groupe Int G est la composante neutre de Aut G.
 
-L’application $u \mapsto L(u)$ est un isomorphisme de Aut G sur un sous-groupe de Lie de Aut L(G) (th. 1). L’image de Int G par cet isomorphisme est Ad G. Or Ad G est la composante neutre de Aut L(G) (\$ 9, n° 8, prop. 30 (ii)).
+L’application $u \mapsto L(u)$ est un isomorphisme de Aut G sur un sous-groupe de Lie de Aut L(G) (th. 1). L’image de Int G par cet isomorphisme est Ad G. Or Ad G est la composante neutre de Aut L(G) (§ 9, n° 8, prop. 30 (ii)).
 
 ### 3. Le groupe des automorphismes d’un groupe de Lie (cas ultramétrique)
 

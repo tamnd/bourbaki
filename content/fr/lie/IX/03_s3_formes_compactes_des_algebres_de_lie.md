@@ -37,7 +37,7 @@ subsections:
       pdf_page: 25
 statements: 16
 exercises: 9
-content_sha256: cb86081049ae95a2b93a4811c79a54442596b1cb412021fbc2d5c405096f7bbe
+content_sha256: 059c049ee9636997f6a4dacee25da1b47d77e9c38b0f13cef58c9b07159f308b
 ---
 
 ## § 3. FORMES COMPACTES DES ALGÈBRES DE LIE SEMI-SIMPLES COMPLEXES
@@ -70,7 +70,7 @@ b) Soit $\sigma : a \to a$ une application satisfaisant à (2). Alors l’ensemb
 
 La démonstration est immédiate.
 
-Notons que si l’on désigne par $B$ la forme de Killing de $a$, et si $g$ est une forme réelle de $a$, la restriction de $B$ à $g$ est la forme de Killing de $g$; en particulier $B$ est à valeurs réelles sur $g \times g$. Supposons $a$ réductive ; pour que l’algèbre de Lie réelle $g$ soit compacte, il faut et il suffit que la restriction de $B$ à $g$ soit négative (\$ 1, no 3). On dit alors que $g$ est une forme réelle compacte de $a$.
+Notons que si l’on désigne par $B$ la forme de Killing de $a$, et si $g$ est une forme réelle de $a$, la restriction de $B$ à $g$ est la forme de Killing de $g$; en particulier $B$ est à valeurs réelles sur $g \times g$. Supposons $a$ réductive ; pour que l’algèbre de Lie réelle $g$ soit compacte, il faut et il suffit que la restriction de $B$ à $g$ soit négative (§ 1, no 3). On dit alors que $g$ est une forme réelle compacte de $a$.
 
 ### 2. Formes réelles associées à un système de Chevalley
 

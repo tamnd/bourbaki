@@ -25,7 +25,7 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: a1515ab6768817cbe115497d6702cf82a7485fb8884978d8ac4f8bcce1a61027
+content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
 ---
 
 ## § 6. INVERSE AND DIRECT LIMITS OF MODULES
@@ -34,11 +34,11 @@ Throughout this paragraph, I will denote a non-empty preordered set and $\alpha 
 
 ### 1. INVERSE LIMITS OF MODULES
 
-Let $(A_\alpha, \phi_{\alpha \beta})$ be an inverse system of rings (I, \S 10, no. 1), $(E_\alpha, f_{\alpha \beta})$ an inverse system of commutative groups (written additively) (I, \S 10, no. 1) and suppose that each $E_\alpha$ has a left $A_\alpha$-module structure; moreover suppose that for $\alpha \leq \beta$ $(f_{\alpha \beta}, \phi_{\alpha \beta})$ is a dimorphism of $E_\beta$ into $E_\alpha$ (\S 1, no. 13), in other words that
+Let $(A_\alpha, \phi_{\alpha \beta})$ be an inverse system of rings (I, § 10, no. 1), $(E_\alpha, f_{\alpha \beta})$ an inverse system of commutative groups (written additively) (I, § 10, no. 1) and suppose that each $E_\alpha$ has a left $A_\alpha$-module structure; moreover suppose that for $\alpha \leq \beta$ $(f_{\alpha \beta}, \phi_{\alpha \beta})$ is a dimorphism of $E_\beta$ into $E_\alpha$ (§ 1, no. 13), in other words that
 $$
 f_{\alpha \beta}(\lambda_\beta x_\beta) = \phi_{\alpha \beta}(\lambda_\beta) f_{\alpha \beta}(x_\beta),
 $$
-for $x_\beta \in E_\beta$, $\lambda_\beta \in A_\beta$; then it follows from I, \S 10, no. 2 that $E = \lim \leftarrow E_\alpha$ has a left module structure over $A = \lim \leftarrow A_\alpha$. For all $\alpha \in I$, let $f : E \to E_\alpha$, $\phi_\alpha : A \to A_\alpha$ be the canonical mappings; then $(f_\alpha, \phi_\alpha)$ is a dimorphism of E into $E_\alpha$. We shall say that $(E_\alpha, f_{\alpha\beta})$ is an *inverse system of left $A_\alpha$-modules* and that the $A$-module $E$ is its *inverse limit*.
+for $x_\beta \in E_\beta$, $\lambda_\beta \in A_\beta$; then it follows from I, § 10, no. 2 that $E = \lim \leftarrow E_\alpha$ has a left module structure over $A = \lim \leftarrow A_\alpha$. For all $\alpha \in I$, let $f : E \to E_\alpha$, $\phi_\alpha : A \to A_\alpha$ be the canonical mappings; then $(f_\alpha, \phi_\alpha)$ is a dimorphism of E into $E_\alpha$. We shall say that $(E_\alpha, f_{\alpha\beta})$ is an *inverse system of left $A_\alpha$-modules* and that the $A$-module $E$ is its *inverse limit*.
 
 Let $(E'_\alpha, f'_{\alpha\beta})$ be another inverse system of left $A_\alpha$-modules and, for all $\alpha$, let $u_\alpha : E'_\alpha \to E_\alpha$ be an *$A_\alpha$-linear* mapping, these mappings forming an *inverse system*; then $u = \lim u_\alpha$ is an *$A$-linear* mapping of $\lim E'_\alpha$ into $\lim E_\alpha$.
 
@@ -238,7 +238,7 @@ $$
 (E_\beta)_{[A_\alpha]} \otimes_{A_\alpha} (F_\beta)_{[A_\alpha]} \to E_\beta \otimes_{A_\beta} F_\beta
 $$
 
-corresponding to the ring homomorphism $\rho_{\beta \alpha}$ ($\S 3$, no. 3, Proposition 2); whence by composition we obtain a $\mathbf{Z}$*-module homomorphism*
+corresponding to the ring homomorphism $\rho_{\beta \alpha}$ ($§ 3$, no. 3, Proposition 2); whence by composition we obtain a $\mathbf{Z}$*-module homomorphism*
 
 $$
 h_{\beta \alpha}: E_\alpha \otimes_{A_\alpha} F_\alpha \to E_\beta \otimes_{A_\beta} F_\beta

@@ -45,9 +45,9 @@ subsections:
       pdf_page: 264
 statements: 42
 exercises: 3
-content_sha256: 85a340479c03f041f03a6ba7e7a812bdd83a20aa4181af4ef61a4a7c4293d79b
+content_sha256: 94749bc9a50dfbf4f0bfdb489c16635f4b7bee260cd6cc46a311d3918dfea980
 translated_from: content/en/alg/II/02_s2_modules_of_linear_mappings_duality.md
-source_content_sha256: 26b9a8607d873ffba075835bfd0cb249da81ce7c11440fe7597e9fadd99ec0ce
+source_content_sha256: ada77bb5d3f2991282d1d80427eaa87544335c7c3fafa597f5d0bcfabf29858d
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-b0e91fc7
 glossary_version: 34
@@ -75,7 +75,7 @@ $$
 
 *(trong đó $\bar{u} = \mathrm{Hom}(u, 1_F)$, $\bar{v} = \mathrm{Hom}(v, 1_F)$) *khớp*.
 
-Giả sử rằng dãy (1) khớp. Nếu $w \in \mathrm{Hom}(E'', F)$ và $\bar{v}(w) = w \circ v = 0$, thì $w = 0$ vì $v$ toàn ánh. Do đó dãy (2) khớp tại $\mathrm{Hom}(E'', F)$. Ta chứng minh rằng nó khớp tại $\mathrm{Hom}(E, F)$. $\bar{u} \circ \bar{v} = \mathrm{Hom}(v \circ u, 1_F)$ (\S 1, no. 2, công thức (10)) và $v \circ u = 0$ vì dãy (1) khớp tại E. Do đó $\bar{u} \circ \bar{v} = 0$, tức là $\mathrm{Im}(\bar{v}) \subset \mathrm{Ker}(\bar{u})$. Mặt khác, nếu $w \in \mathrm{Ker}(\bar{u})$, thì $w \circ u = 0$ và suy ra $\mathrm{Ker}(w) \supset \mathrm{Im}(u)$. Nhưng vì dãy (1) khớp tại E, $\mathrm{Im}(u) = \mathrm{Ker}(v)$ nên $\mathrm{Ker}(w) \supset \mathrm{Ker}(v)$; vì $v$ toàn ánh, suy ra từ \S 1, no. 3, *Nhận xét* rằng tồn tại một $w' \in \mathrm{Hom}(E'', F)$ sao cho $w = w' \circ v = \bar{v}(w')$. Do đó $\mathrm{Ker}(\bar{u}) \subset \mathrm{Im}(\bar{v})$, điều này hoàn tất chứng minh rằng dãy (2) khớp.
+Giả sử rằng dãy (1) khớp. Nếu $w \in \mathrm{Hom}(E'', F)$ và $\bar{v}(w) = w \circ v = 0$, thì $w = 0$ vì $v$ toàn ánh. Do đó dãy (2) khớp tại $\mathrm{Hom}(E'', F)$. Ta chứng minh rằng nó khớp tại $\mathrm{Hom}(E, F)$. $\bar{u} \circ \bar{v} = \mathrm{Hom}(v \circ u, 1_F)$ (§ 1, no. 2, công thức (10)) và $v \circ u = 0$ vì dãy (1) khớp tại E. Do đó $\bar{u} \circ \bar{v} = 0$, tức là $\mathrm{Im}(\bar{v}) \subset \mathrm{Ker}(\bar{u})$. Mặt khác, nếu $w \in \mathrm{Ker}(\bar{u})$, thì $w \circ u = 0$ và suy ra $\mathrm{Ker}(w) \supset \mathrm{Im}(u)$. Nhưng vì dãy (1) khớp tại E, $\mathrm{Im}(u) = \mathrm{Ker}(v)$ nên $\mathrm{Ker}(w) \supset \mathrm{Ker}(v)$; vì $v$ toàn ánh, suy ra từ § 1, no. 3, *Nhận xét* rằng tồn tại một $w' \in \mathrm{Hom}(E'', F)$ sao cho $w = w' \circ v = \bar{v}(w')$. Do đó $\mathrm{Ker}(\bar{u}) \subset \mathrm{Im}(\bar{v})$, điều này hoàn tất chứng minh rằng dãy (2) khớp.
 
 Ngược lại, giả sử rằng (2) khớp với mọi A-môđun F. Vì $\bar{u} \circ \bar{v} = \operatorname{Hom}(v \circ u, 1_F) = 0, w \circ v \circ u = 0$ với mọi đồng cấu $w : E'' \to F$. Lấy $F = E''$ và $w = 1_{E''}$, trước hết thấy rằng $v \circ u = 0$ và do đó $u(E') \subset \operatorname{Ker}(v)$. Bây giờ lấy $F = \operatorname{Coker}(u)$ và đặt $\phi : E \to F = E/u(E')$ là ánh xạ chính tắc. Khi đó $\bar{u}(\phi) = \phi \circ u = 0$ theo định nghĩa và do đó tồn tại một $\psi \in \operatorname{Hom}(E'', F)$ sao cho $\phi = \bar{v}(\psi) = \psi \circ v$; điều này hiển nhiên suy ra $u(E') = \operatorname{Ker}(\phi) \supset \operatorname{Ker}(v)$, điều đó chứng minh rằng dãy (1) khớp tại E. Cuối cùng, đặt $\theta$ là đồng cấu chính tắc của $E''$ lên $F = E''/v(E)$; khi đó $\bar{v}(\theta) = \theta \circ v = 0$, suy ra $\theta = 0$; do đó $F = \{0\}$ và $v$ toàn ánh. Vì vậy dãy (1) khớp tại $E''$.
 
@@ -117,15 +117,15 @@ $$
 
 *khớp và tách*. *Ngược lại, nếu, với mọi A-môđun F, dãy (4) khớp, thì dãy (3) tách*.
 
-Nếu dãy khớp (3) tách, tồn tại một ánh xạ co rút tuyến tính $u' : E \to E'$ liên kết với $u$ (\S 1, no. 9, Mệnh đề 15); nếu
+Nếu dãy khớp (3) tách, tồn tại một ánh xạ co rút tuyến tính $u' : E \to E'$ liên kết với $u$ (§ 1, no. 9, Mệnh đề 15); nếu
 
 $$
 \bar{u}' = \operatorname{Hom}(u', 1_F) : \operatorname{Hom}(E', F) \to \operatorname{Hom}(E, F),
 $$
 
-sự kiện $u' \circ u$ là đồng nhất suy ra rằng $\bar{u} \circ \bar{u}'$ là đồng nhất ($\S 1$, no. 2, công thức (10)) và do đó mệnh đề thứ nhất suy ra từ $\S 1$, no. 9, Mệnh đề 15. Ngược lại, giả sử dãy (4) là khớp với $F = E'$. Khi đó tồn tại một phần tử $f \in \mathrm{Hom}(E, E')$ sao cho $f \circ u = 1_{E'}$, và kết luận suy ra từ $\S 1$, no. 9, Mệnh đề 15.
+sự kiện $u' \circ u$ là đồng nhất suy ra rằng $\bar{u} \circ \bar{u}'$ là đồng nhất ($§ 1$, no. 2, công thức (10)) và do đó mệnh đề thứ nhất suy ra từ $§ 1$, no. 9, Mệnh đề 15. Ngược lại, giả sử dãy (4) là khớp với $F = E'$. Khi đó tồn tại một phần tử $f \in \mathrm{Hom}(E, E')$ sao cho $f \circ u = 1_{E'}$, và kết luận suy ra từ $§ 1$, no. 9, Mệnh đề 15.
 
-Chú ý rằng mệnh đề thứ nhất của Mệnh đề 1 cũng có thể được xem như một trường hợp riêng của $\S 1$, no. 6, Hệ quả 1 của Mệnh đề 6, bằng cách xác định một cách chính tắc $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ với $\mathrm{Hom}(E' \oplus E'', F)$ nhờ ánh xạ $\mathbf{Z}$-tuyến tính $\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$, trong đó $p': E' \oplus E'' \to E'$ và $p'': E' \oplus E'' \to E''$ là các phép chiếu chính tắc.
+Chú ý rằng mệnh đề thứ nhất của Mệnh đề 1 cũng có thể được xem như một trường hợp riêng của $§ 1$, no. 6, Hệ quả 1 của Mệnh đề 6, bằng cách xác định một cách chính tắc $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ với $\mathrm{Hom}(E' \oplus E'', F)$ nhờ ánh xạ $\mathbf{Z}$-tuyến tính $\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$, trong đó $p': E' \oplus E'' \to E'$ và $p'': E' \oplus E'' \to E''$ là các phép chiếu chính tắc.
 
 #### Định lý 2 {#alg-ii-s2-thm-2 .statement}
 
@@ -149,7 +149,7 @@ $$
 \bar{v} \circ \bar{u} = \mathrm{Hom}(1_E, v \circ u) = 0
 $$
 
-(II, $\S 1$, no. 2, công thức (10)) vì $v \circ u = 0$. Ảnh của $\mathrm{Hom}(E, F')$ dưới $\bar{u}$ do đó được chứa trong hạt nhân $N$ của $\bar{v}$; hãy để $f$ là đồng cấu của $\mathbf{Z}$-môđun $\mathrm{Hom}(E, F')$ vào $N$ có đồ thị bằng đồ thị của $\bar{u}$; cần phải chứng minh rằng $f$ là *song ánh* và do đó định nghĩa một ánh xạ $g: N \to \mathrm{Hom}(E, F')$ sao cho $f \circ g$ và $g \circ f$ là các ánh xạ đồng nhất. Để làm điều này, hãy để $w$ là một phần tử của $N$, tức là một ánh xạ tuyến tính $w: E \to F$ sao cho $v \circ w = 0$. Quan hệ sau tương đương với $w(E) \subset \mathrm{Ker}(v) = u(F')$ theo giả thiết, do đó, vì $u$ là đơn ánh, tồn tại một và chỉ một ánh xạ tuyến tính $w': E \to F'$ sao cho $w = u \circ w'$ và ta đặt $g(w) = w'$; ngay lập tức kiểm tra được rằng $g$ thỏa mãn các điều kiện mong muốn.
+(II, $§ 1$, no. 2, công thức (10)) vì $v \circ u = 0$. Ảnh của $\mathrm{Hom}(E, F')$ dưới $\bar{u}$ do đó được chứa trong hạt nhân $N$ của $\bar{v}$; hãy để $f$ là đồng cấu của $\mathbf{Z}$-môđun $\mathrm{Hom}(E, F')$ vào $N$ có đồ thị bằng đồ thị của $\bar{u}$; cần phải chứng minh rằng $f$ là *song ánh* và do đó định nghĩa một ánh xạ $g: N \to \mathrm{Hom}(E, F')$ sao cho $f \circ g$ và $g \circ f$ là các ánh xạ đồng nhất. Để làm điều này, hãy để $w$ là một phần tử của $N$, tức là một ánh xạ tuyến tính $w: E \to F$ sao cho $v \circ w = 0$. Quan hệ sau tương đương với $w(E) \subset \mathrm{Ker}(v) = u(F')$ theo giả thiết, do đó, vì $u$ là đơn ánh, tồn tại một và chỉ một ánh xạ tuyến tính $w': E \to F'$ sao cho $w = u \circ w'$ và ta đặt $g(w) = w'$; ngay lập tức kiểm tra được rằng $g$ thỏa mãn các điều kiện mong muốn.
 
 Ngược lại, giả sử dãy (6) khớp với mọi $A$-môđun $E$. Vì $\mathrm{Hom}(1_E, v \circ u) = \bar{v} \circ \bar{u} = 0$, nên $v \circ u \circ w = 0$ với mọi đồng cấu $w: E \to F'$. Lấy $E = F'$ và $w = 1_{F'}$, ta thấy trước hết rằng $v \circ u = 0$ và do đó $u(F') \subset \mathrm{Ker}(v)$. Bây giờ lấy $E = \mathrm{Ker}(v)$ và cho $\phi: E \to F$ là đơn ánh chính tắc. Khi đó $\bar{v}(\phi) = v \circ \phi = 0$ theo định nghĩa và vì thế tồn tại $\psi \in \mathrm{Hom}(E, F')$ sao cho $\phi = \bar{u}(\psi) = u \circ \psi$, điều này hiển nhiên suy ra $\mathrm{Ker}(v) \subset u(F')$ và hoàn tất chứng minh tính khớp của (5) tại $F$. Cuối cùng, nếu $\theta$ là ánh xạ đồng nhất của $\mathrm{Ker}\, u$, thì $\bar{u}(\theta) = 0$, nên $\theta = 0$ và $\mathrm{Ker}\, u = \{0\}$, điều này chứng minh tính khớp của (5) tại $F'$.
 
@@ -209,7 +209,7 @@ $$
 \operatorname{Hom}(E, F') \oplus \operatorname{Hom}(E, F'')
 $$
 
-được đồng nhất một cách chính tắc với $\operatorname{Hom}(E, F' \oplus F'')$ nhờ ánh xạ $\mathbf{Z}$-tuyến tính $\operatorname{Hom}(1_E, j') + \operatorname{Hom}(1_E, j''), j' : F' \to F' \oplus F''$ và $j'' : F'' \to F' \oplus F''$ là các đơn ánh chính tắc (\S 1, no. 6, Hệ quả 1 của Mệnh đề 6). Ngược lại, nếu dãy (8) khớp với $E = F''$, thì tồn tại một phần tử $g \in \operatorname{Hom}(F'', F)$ sao cho $v \circ g = 1_{F''}$ và kết luận suy ra từ \S 1, no. 9, Mệnh đề 15.
+được đồng nhất một cách chính tắc với $\operatorname{Hom}(E, F' \oplus F'')$ nhờ ánh xạ $\mathbf{Z}$-tuyến tính $\operatorname{Hom}(1_E, j') + \operatorname{Hom}(1_E, j''), j' : F' \to F' \oplus F''$ và $j'' : F'' \to F' \oplus F''$ là các đơn ánh chính tắc (§ 1, no. 6, Hệ quả 1 của Mệnh đề 6). Ngược lại, nếu dãy (8) khớp với $E = F''$, thì tồn tại một phần tử $g \in \operatorname{Hom}(F'', F)$ sao cho $v \circ g = 1_{F''}$ và kết luận suy ra từ § 1, no. 9, Mệnh đề 15.
 
 Nhận xét (2). Các kết quả của mục này đúng không cần sửa đổi cho mọi nhóm giao hoán có toán tử.
 
@@ -235,13 +235,13 @@ $$
 \operatorname{Hom}(1_P, u) : \operatorname{Hom}(P, E) \to \operatorname{Hom}(P, F)
 $$
 
-được đồng nhất với $\prod_i \operatorname{Hom}(1_{M_i}, u)$ (\S 1, no. 6, Hệ quả 1 của Mệnh đề 6); do đó kết luận suy ra từ Định nghĩa 1 và \S 1, no. 5, Mệnh đề 5 (ii).
+được đồng nhất với $\prod_i \operatorname{Hom}(1_{M_i}, u)$ (§ 1, no. 6, Hệ quả 1 của Mệnh đề 6); do đó kết luận suy ra từ Định nghĩa 1 và § 1, no. 5, Mệnh đề 5 (ii).
 
 #### Hệ quả {#alg-ii-s2-n2-cor-1 .statement}
 
 Mọi A-môđun tự do đều xạ ảnh.
 
-Theo Mệnh đề 3, chỉ cần chứng minh rằng A_s là xạ ảnh, điều này suy ra ngay từ tính giao hoán của biểu đồ (50) của \S 1, no. 14.
+Theo Mệnh đề 3, chỉ cần chứng minh rằng A_s là xạ ảnh, điều này suy ra ngay từ tính giao hoán của biểu đồ (50) của § 1, no. 14.
 
 #### Mệnh đề 4 {#alg-ii-s2-prop-4 .statement}
 
@@ -274,19 +274,19 @@ $$
 0 \longrightarrow E' \longrightarrow E \xrightarrow{v} P \longrightarrow 0
 $$
 
-phân tách (\S 1, no. 9, Mệnh đề 15). Vì với mọi A-môđun M tồn tại một A-môđun tự do L và một dãy khớp $0 \to R \to L \to M \to 0$ (\S 1, no. 11, Mệnh đề 20), hiển nhiên (d) suy ra (e). Cuối cùng, nhờ Mệnh đề 3 và Hệ quả của nó, (e) suy ra (a).
+phân tách (§ 1, no. 9, Mệnh đề 15). Vì với mọi A-môđun M tồn tại một A-môđun tự do L và một dãy khớp $0 \to R \to L \to M \to 0$ (§ 1, no. 11, Mệnh đề 20), hiển nhiên (d) suy ra (e). Cuối cùng, nhờ Mệnh đề 3 và Hệ quả của nó, (e) suy ra (a).
 
 #### Hệ quả 1 {#alg-ii-s2-prop-4-cor-1 .statement}
 
 *Để một A-môđun là xạ ảnh và sinh hữu hạn, điều kiện cần và đủ là nó là một nhân tử trực tiếp của một A-môđun tự do với một cơ sở hữu hạn.*
 
-Điều kiện này hiển nhiên là đủ; ngược lại, một môđun xạ ảnh sinh hữu hạn E đẳng cấu với một thương của một môđun tự do F có một cơ sở hữu hạn (\S 1, no. 11) và E đẳng cấu với một nhân tử trực tiếp của F nhờ Mệnh đề 4 (d).
+Điều kiện này hiển nhiên là đủ; ngược lại, một môđun xạ ảnh sinh hữu hạn E đẳng cấu với một thương của một môđun tự do F có một cơ sở hữu hạn (§ 1, no. 11) và E đẳng cấu với một nhân tử trực tiếp của F nhờ Mệnh đề 4 (d).
 
 #### Hệ quả 2 {#alg-ii-s2-prop-4-cor-2 .statement}
 
 *Cho C là một vành giao hoán và E, F là hai C-môđun xạ ảnh sinh hữu hạn; khi đó $\operatorname{Hom}_C(E, F)$ là một C-môđun xạ ảnh sinh hữu hạn.*
 
-Có thể giả sử rằng có hai C-môđun tự do sinh hữu hạn M, N sao cho $M = E \oplus E', N = F \oplus F'$; suy ra từ \S 1, no. 6, Hệ quả 1 của Mệnh đề 6 rằng $\operatorname{Hom}_C(M, N)$ sinh hữu hạn và tự do và mặt khác rằng $\operatorname{Hom}_C(M, N)$ đẳng cấu với
+Có thể giả sử rằng có hai C-môđun tự do sinh hữu hạn M, N sao cho $M = E \oplus E', N = F \oplus F'$; suy ra từ § 1, no. 6, Hệ quả 1 của Mệnh đề 6 rằng $\operatorname{Hom}_C(M, N)$ sinh hữu hạn và tự do và mặt khác rằng $\operatorname{Hom}_C(M, N)$ đẳng cấu với
 
 $$
 \operatorname{Hom}_C(E, F) \oplus \operatorname{Hom}_C(E', F) \oplus \operatorname{Hom}_C(E, F') \oplus \operatorname{Hom}(E', F'),
@@ -296,7 +296,7 @@ do đó có hệ quả.
 
 ### 3. DẠNG TUYẾN TÍNH; ĐỐI NGẪU CỦA MỘT MÔĐUN
 
-Cho E là một *A-môđun trái*. Vì A là một (A, A)-song môđun, $\operatorname{Hom}_A(E, A_s)$ có một cấu trúc *A-môđun phải* chính tắc (\S 1, no. 14).
+Cho E là một *A-môđun trái*. Vì A là một (A, A)-song môđun, $\operatorname{Hom}_A(E, A_s)$ có một cấu trúc *A-môđun phải* chính tắc (§ 1, no. 14).
 
 #### Định nghĩa 2 {#alg-ii-s2-def-2 .statement}
 
@@ -446,13 +446,13 @@ Nếu $v : F \to G$ là một đẳng cấu, thì đẳng cấu phản biến c�
 
 Đặc biệt, ánh xạ $u \mapsto \tilde{u}$ là một *đẳng cấu* của nhóm tuyến tính $\mathbf{GL}(E)$ lên một nhóm con của nhóm tuyến tính $\mathbf{GL}(E^*)$.
 
-Cho $\sigma : A \to B$ là một *đẳng cấu* của một vành $A$ lên một vành $B$, $E$ là một A-môđun trái, $F$ là một B-môđun trái và $u : E \to F$ là một *ánh xạ nửa tuyến tính* (\S 1, no. 13) *tương đối với* $\sigma$. Cho $\sigma^{-1}$ là đẳng cấu nghịch đảo của $\sigma$; với mọi $y^* \in F^*$, ánh xạ $x \mapsto \langle u(x), y^* \rangle^{\sigma^{-1}}$ của $E$ vào $A$ là một *dạng tuyến tính*; nếu nó cũng được ký hiệu bởi ${}^t u(y^*)$, thì ta xác định một ánh xạ ${}^t u : F^* \to E^*$, cũng được gọi là *chuyển vị* của ánh xạ nửa tuyến tính $u$; do đó nó được đặc trưng bởi đẳng thức
+Cho $\sigma : A \to B$ là một *đẳng cấu* của một vành $A$ lên một vành $B$, $E$ là một A-môđun trái, $F$ là một B-môđun trái và $u : E \to F$ là một *ánh xạ nửa tuyến tính* (§ 1, no. 13) *tương đối với* $\sigma$. Cho $\sigma^{-1}$ là đẳng cấu nghịch đảo của $\sigma$; với mọi $y^* \in F^*$, ánh xạ $x \mapsto \langle u(x), y^* \rangle^{\sigma^{-1}}$ của $E$ vào $A$ là một *dạng tuyến tính*; nếu nó cũng được ký hiệu bởi ${}^t u(y^*)$, thì ta xác định một ánh xạ ${}^t u : F^* \to E^*$, cũng được gọi là *chuyển vị* của ánh xạ nửa tuyến tính $u$; do đó nó được đặc trưng bởi đẳng thức
 
 $$
 \langle u(x), y^* \rangle = \langle x, {}^t u(y^*) \rangle^\sigma
 $$
 
-với $x \in E, y^* \in F^*$. Dễ thấy ngay rằng ${}^t u$ là một *ánh xạ nửa tuyến tính* *tương đối với* $\sigma^{-1}$. Nếu $v$ ký hiệu ánh xạ $u$ được xét như một ánh xạ *A-tuyến tính* của $E$ vào $\sigma_*(F)$ (\S 1, no. 13), ta có thể viết $u = \phi \circ v$, trong đó $\phi$ là ánh xạ đồng nhất $\sigma_*(F) \to F$, được xét như một ánh xạ nửa tuyến tính tương đối với $\sigma$. Hiển nhiên rằng ${}^t u = {}^t v \circ {}^t \phi$ và $({}^t \phi, \sigma^{-1})$ là một di-đẳng cấu của $F^*$ lên $(\sigma_*(F))^*$ tương đối với đẳng cấu $\sigma^{-1}$; quan hệ này cho phép ta ngay lập tức mở rộng các tính chất của chuyển vị của các ánh xạ tuyến tính sang chuyển vị của các ánh xạ nửa tuyến tính.
+với $x \in E, y^* \in F^*$. Dễ thấy ngay rằng ${}^t u$ là một *ánh xạ nửa tuyến tính* *tương đối với* $\sigma^{-1}$. Nếu $v$ ký hiệu ánh xạ $u$ được xét như một ánh xạ *A-tuyến tính* của $E$ vào $\sigma_*(F)$ (§ 1, no. 13), ta có thể viết $u = \phi \circ v$, trong đó $\phi$ là ánh xạ đồng nhất $\sigma_*(F) \to F$, được xét như một ánh xạ nửa tuyến tính tương đối với $\sigma$. Hiển nhiên rằng ${}^t u = {}^t v \circ {}^t \phi$ và $({}^t \phi, \sigma^{-1})$ là một di-đẳng cấu của $F^*$ lên $(\sigma_*(F))^*$ tương đối với đẳng cấu $\sigma^{-1}$; quan hệ này cho phép ta ngay lập tức mở rộng các tính chất của chuyển vị của các ánh xạ tuyến tính sang chuyển vị của các ánh xạ nửa tuyến tính.
 
 ### 6. ĐỐI NGẪU CỦA MÔĐUN THƯƠNG. ĐỐI NGẪU CỦA TỔNG TRỰC TIẾP. CƠ SỞ ĐỐI NGẪU
 
@@ -560,7 +560,7 @@ $$
 x = \sum_{t \in T} \langle x, a_t^* \rangle a_t.
 $$
 
-Tồn tại một đồng cấu toàn ánh $u : L \to E$, trong đó $L = A_s^{(T)}$, sao cho nếu $(e_t)_{t \in T}$ là cơ sở chính tắc của L thì $u(e_t) = a_t$ (\S 1, no. 11, Mệnh đề 17); để E xạ ảnh, điều kiện cần và đủ là tồn tại một ánh xạ tuyến tính $v : E \to L$ sao cho $u \circ v = 1_E$ (no. 2, Mệnh đề 4 và \S 1, no. 9, Mệnh đề 15). Nếu tồn tại một ánh xạ như vậy và ta viết ${}^tv(e_t^*) = a_t^*$, thì $\langle x, a_t^* \rangle = \langle x, {}^tv(e_t^*) \rangle = \langle v(x), e_t^* \rangle$, do đó họ $(\langle x, a_t^* \rangle)$ có giá hữu hạn và $x = u \left( \sum_{t \in T} \langle (x), e_t^* \rangle e_t \right) = \sum_{t \in T} \langle x, a_t^* \rangle a_t$ với mọi $x \in E$. Ngược lại, nếu điều kiện (b) của mệnh đề được thỏa mãn, thì tổng $\sum_{t \in T} \langle x, a_t^* \rangle e_t$ được xác định với mọi $x \in E$ và $x \to \sum_{t \in T} \langle x, a_t^* \rangle e_t$ là một ánh xạ tuyến tính $v : E \to L$ sao cho $u \circ v = 1_E$.
+Tồn tại một đồng cấu toàn ánh $u : L \to E$, trong đó $L = A_s^{(T)}$, sao cho nếu $(e_t)_{t \in T}$ là cơ sở chính tắc của L thì $u(e_t) = a_t$ (§ 1, no. 11, Mệnh đề 17); để E xạ ảnh, điều kiện cần và đủ là tồn tại một ánh xạ tuyến tính $v : E \to L$ sao cho $u \circ v = 1_E$ (no. 2, Mệnh đề 4 và § 1, no. 9, Mệnh đề 15). Nếu tồn tại một ánh xạ như vậy và ta viết ${}^tv(e_t^*) = a_t^*$, thì $\langle x, a_t^* \rangle = \langle x, {}^tv(e_t^*) \rangle = \langle v(x), e_t^* \rangle$, do đó họ $(\langle x, a_t^* \rangle)$ có giá hữu hạn và $x = u \left( \sum_{t \in T} \langle (x), e_t^* \rangle e_t \right) = \sum_{t \in T} \langle x, a_t^* \rangle a_t$ với mọi $x \in E$. Ngược lại, nếu điều kiện (b) của mệnh đề được thỏa mãn, thì tổng $\sum_{t \in T} \langle x, a_t^* \rangle e_t$ được xác định với mọi $x \in E$ và $x \to \sum_{t \in T} \langle x, a_t^* \rangle e_t$ là một ánh xạ tuyến tính $v : E \to L$ sao cho $u \circ v = 1_E$.
 
 ### 7. ĐỐI NGẪU KÉP
 
@@ -584,7 +584,7 @@ giao hoán, như suy ra ngay lập tức từ các định nghĩa và công th�
 
 *Nếu E là một môđun tự do* (resp. *một môđun tự do với một cơ sở hữu hạn*), *đồng cấu chính tắc* $c_E : E \to E^{**}$ *là đơn ánh* (resp. *song ánh*).
 
-Cho $(e_t)_{t \in T}$ là một cơ sở của E và cho $(e_t^*)$ là họ các dạng tọa độ tương ứng; theo định nghĩa, nếu $x \in E$ sao cho $\tilde{x} = 0$, thì $\langle x, e_t^* \rangle = 0$ với mọi $t \in T$, nói cách khác mọi tọa độ của $x$ đều bằng không, do đó $x = 0$. Giả sử thêm rằng T hữu hạn; vì $\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$, $(\tilde{e}_t)$ là cơ sở đối ngẫu của $(e_t^*)$ trong $E^{**}$ và, vì $c_E$ biến một cơ sở của E thành một cơ sở của $E^{**}$, $c_E$ là song ánh (\S 1, no. 11, Hệ quả 3 của Mệnh đề 17). Hơn nữa, ta đã chứng minh:
+Cho $(e_t)_{t \in T}$ là một cơ sở của E và cho $(e_t^*)$ là họ các dạng tọa độ tương ứng; theo định nghĩa, nếu $x \in E$ sao cho $\tilde{x} = 0$, thì $\langle x, e_t^* \rangle = 0$ với mọi $t \in T$, nói cách khác mọi tọa độ của $x$ đều bằng không, do đó $x = 0$. Giả sử thêm rằng T hữu hạn; vì $\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$, $(\tilde{e}_t)$ là cơ sở đối ngẫu của $(e_t^*)$ trong $E^{**}$ và, vì $c_E$ biến một cơ sở của E thành một cơ sở của $E^{**}$, $c_E$ là song ánh (§ 1, no. 11, Hệ quả 3 của Mệnh đề 17). Hơn nữa, ta đã chứng minh:
 
 #### Hệ quả 1 {#alg-ii-s2-prop-13-cor-1 .statement}
 
@@ -638,7 +638,7 @@ $$
 \end{align*}
 $$
 
-Như vậy, nếu E là một môđun tự do (resp. một môđun tự do với một cơ sở hữu hạn), $c_E$ là đơn ánh (resp. song ánh); mặt khác, từ no. 6, Mệnh đề 10 suy ra rằng $t_i \oplus t_j$ là song ánh; tính giao hoán của biểu đồ (28) suy ra rằng $c_M \oplus c_N$ là đơn ánh (resp. song ánh) và do đó $c_M$ và $c_N$ cũng vậy (\S 1, no. 6, Hệ quả 1 của Mệnh đề 7), suy ra hệ quả, xét đến no. 2, Mệnh đề 4.
+Như vậy, nếu E là một môđun tự do (resp. một môđun tự do với một cơ sở hữu hạn), $c_E$ là đơn ánh (resp. song ánh); mặt khác, từ no. 6, Mệnh đề 10 suy ra rằng $t_i \oplus t_j$ là song ánh; tính giao hoán của biểu đồ (28) suy ra rằng $c_M \oplus c_N$ là đơn ánh (resp. song ánh) và do đó $c_M$ và $c_N$ cũng vậy (§ 1, no. 6, Hệ quả 1 của Mệnh đề 7), suy ra hệ quả, xét đến no. 2, Mệnh đề 4.
 
 ### 8. CÁC PHƯƠNG TRÌNH TUYẾN TÍNH
 
@@ -668,7 +668,7 @@ Nói rằng $u(x) = y_0$ có một nghiệm có nghĩa là $y_0 \in u(E)$ và m�
 
 † Đây thực ra là một sự lạm dụng ngôn ngữ; xét về mặt lôgic, ở đây chúng ta không định nghĩa từ "solution", mà chỉ coi mệnh đề "$x_0$ là một nghiệm của phương trình $u(x) = y_0$" tương đương với quan hệ "$x_0 \in E$ và $u(x_0) = y_0$". Hãy lưu ý rằng trong một lý thuyết toán học $\mathcal{T}$ nơi quan hệ "$A$ là một vành, $E$ và $F$ là các $A$-môđun, $u$ là một đồng cấu của $E$ vào $F$, $y_0$ là một phần tử của $F$" là một định lý, mọi *số hạng* $T$ của $\mathcal{T}$ sao cho quan hệ "$T \in E$ và $u(T) = y_0$" đúng trong $\mathcal{T}$ là một *nghiệm* của phương trình $u(x) = y_0$ theo nghĩa của *Lý thuyết tập hợp*, I, § 5, no. 2; điều này biện minh cho sự lạm dụng ngôn ngữ trên.
 
-Hãy lưu ý rằng điều kiện cần để tồn tại một nghiệm của $u(x) = y_0$, do Mệnh đề 15 cho, là đủ khi $A$ là một trường (\S 7, no. 6, Mệnh đề 12), nhưng *không nói chung* (Bài tập 10).
+Hãy lưu ý rằng điều kiện cần để tồn tại một nghiệm của $u(x) = y_0$, do Mệnh đề 15 cho, là đủ khi $A$ là một trường (§ 7, no. 6, Mệnh đề 12), nhưng *không nói chung* (Bài tập 10).
 
 #### Nhận xét {#alg-ii-s2-n8-rem-1 .statement}
 
@@ -683,7 +683,7 @@ $$
 \sum_{\lambda \in L} \xi_\lambda b_\lambda = y_0.
 $$
 
-Ngược lại, xét các họ $(\xi_\lambda)_{\lambda \in L}$ gồm các phần tử của $A$ có giá hữu hạn thỏa mãn (30), thì tương đương với việc giải phương trình tuyến tính $u(x) = y_0$, trong đó $u$ là ánh xạ tuyến tính duy nhất từ $E$ vào $F$ sao cho $u(a_\lambda) = b_\lambda$ với mọi $\lambda \in L$ (\S 1, no. 11, Hệ quả 3 của Mệnh đề 17).
+Ngược lại, xét các họ $(\xi_\lambda)_{\lambda \in L}$ gồm các phần tử của $A$ có giá hữu hạn thỏa mãn (30), thì tương đương với việc giải phương trình tuyến tính $u(x) = y_0$, trong đó $u$ là ánh xạ tuyến tính duy nhất từ $E$ vào $F$ sao cho $u(a_\lambda) = b_\lambda$ với mọi $\lambda \in L$ (§ 1, no. 11, Hệ quả 3 của Mệnh đề 17).
 
 (3) Một phương trình tuyến tính $u(x) = y_0$ được gọi là *vô hướng* khi $F = A_s$ và do đó $u$ là một *dạng tuyến tính* trên $E$ và $y_0$ là một *vô hướng*. Nếu $E$ thừa nhận một cơ sở $(a_\lambda)_{\lambda \in L}$, thì từ *Nhận xét* (2) suy ra rằng một phương trình như thế cũng có thể viết dưới dạng
 $$

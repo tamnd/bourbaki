@@ -36,9 +36,9 @@ subsections:
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: 25ad99374ed17b645e655584cb0a56e322e8e5ae608409638d0a3db0a181c244
+content_sha256: a3283038dd29378df168d2114fd199ece6aa3329a6994f77fffeb0365d7f13d1
 translated_from: content/en/lie/III/07_s7_lie_groups_over_an_ultrametric_field.md
-source_content_sha256: 5f3b22a09c2b7f10b2ea9721dc07fd7842702806075b9d03184179d32e6594b6
+source_content_sha256: 0c680762cdc1f3ee887ddeb36734fc91db046db61ac47e4409f0c49baf665b4b
 translation_model: gpt-5-mini, gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-a6d5466a
 glossary_version: 34
@@ -48,7 +48,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 7. CÁC NHÓM LIE TRÊN MỘT TRƯỜNG ULTRAMETRIC
 
-Trong đoạn này, trường định giá $K$ được giả thiết là ultrametric và có đặc số 0. Ký hiệu $A$ là vành định giá của $K$, $m$ là iđêan cực đại của $A$ và $p$ là đặc số của trường thặng dư $A/m$. Nếu $K$ compact địa phương, thì $p \neq 0$ (*Đại số giao hoán*, Chương VI, \S 9, Định lý 1).
+Trong đoạn này, trường định giá $K$ được giả thiết là ultrametric và có đặc số 0. Ký hiệu $A$ là vành định giá của $K$, $m$ là iđêan cực đại của $A$ và $p$ là đặc số của trường thặng dư $A/m$. Nếu $K$ compact địa phương, thì $p \neq 0$ (*Đại số giao hoán*, Chương VI, § 9, Định lý 1).
 
 ### 1. TỪ CÁC ĐẠI SỐ LIE ĐẾN CÁC NHÓM LIE
 
@@ -101,7 +101,7 @@ Cho G là một nhóm Lie. Tồn tại một ánh xạ mũ $\phi$ của G với 
 (ii) $\phi(U)$ là một nhóm con mở của G và $\phi$ là một đẳng cấu của đa tạp giải tích U lên đa tạp giải tích $\phi(U)$;
 (iii) $\phi(nx) = \phi(x)^n$ với mọi $x \in U$ và mọi $n \in \mathbf{Z}$.
 
-Trang bị cho $L(G)$ một chuẩn tương thích với tôpô của nó và sao cho $\| [x, y] \| \leq \| x \| \| y \|$ đối với $x, y$ trong $L(G)$. Gọi $G_1$ là nhóm Lie được xác định bởi $L(G)$. Gọi $\psi = \mathrm{Id}_{G_1}$, đây là một ánh xạ mũ của $G_1$. Với mọi $\mu > 0$, gọi $L_\mu$ là tập hợp các $x \in L(G)$ sao cho $\| x \| < \mu$. Khi $\mu$ đủ nhỏ, $L_\mu$ là một nhóm con mở của nhóm cộng tính $L(G)$, $\psi(L_\mu)$ là một nhóm con mở của $G_1$ (\S 4, no. 2, Bổ đề 3), $\psi|L_\mu$ là một đẳng cấu của các đa tạp giải tích của $L_\mu$ lên $\psi(L_\mu)$ và $\psi(nx) = \psi(x)^n$ với mọi $x \in L_\mu$ và mọi $n \in \mathbf{Z}$. Các $L_\mu$ tạo thành một hệ cơ bản các lân cận của 0 trong $L(G)$. Theo Định lý 1, tồn tại $\mu$ và một nhóm con mở $G'$ của G sao cho $\psi(L_\mu)$ và $G'$ đẳng cấu, do đó có mệnh đề.
+Trang bị cho $L(G)$ một chuẩn tương thích với tôpô của nó và sao cho $\| [x, y] \| \leq \| x \| \| y \|$ đối với $x, y$ trong $L(G)$. Gọi $G_1$ là nhóm Lie được xác định bởi $L(G)$. Gọi $\psi = \mathrm{Id}_{G_1}$, đây là một ánh xạ mũ của $G_1$. Với mọi $\mu > 0$, gọi $L_\mu$ là tập hợp các $x \in L(G)$ sao cho $\| x \| < \mu$. Khi $\mu$ đủ nhỏ, $L_\mu$ là một nhóm con mở của nhóm cộng tính $L(G)$, $\psi(L_\mu)$ là một nhóm con mở của $G_1$ (§ 4, no. 2, Bổ đề 3), $\psi|L_\mu$ là một đẳng cấu của các đa tạp giải tích của $L_\mu$ lên $\psi(L_\mu)$ và $\psi(nx) = \psi(x)^n$ với mọi $x \in L_\mu$ và mọi $n \in \mathbf{Z}$. Các $L_\mu$ tạo thành một hệ cơ bản các lân cận của 0 trong $L(G)$. Theo Định lý 1, tồn tại $\mu$ và một nhóm con mở $G'$ của G sao cho $\psi(L_\mu)$ và $G'$ đẳng cấu, do đó có mệnh đề.
 
 #### Mệnh đề 4 {#lie-iii-s7-prop-4 .statement}
 
@@ -116,7 +116,7 @@ $$
 [x, y] = \lim_{n \to +\infty} p^{-2n} \phi^{-1}(\phi(p^n x) \phi(p^n y) \phi(-p^n x) \phi(-p^n y)).
 $$
 
-Đây là các trường hợp đặc biệt của Mệnh đề 4 của \S 4, no. 3.
+Đây là các trường hợp đặc biệt của Mệnh đề 4 của § 4, no. 3.
 
 ### 3. CÁC NHÓM CHUẨN†
 
@@ -396,7 +396,7 @@ Ta lại sử dụng ký hiệu của các số 3, 4 và 5.
 
 (iii) *Ánh xạ $E'$ là một đẳng cấu của $\Delta$, với luật Hausdorff, lên nhóm con $\Delta$ của G.*
 
-Sử dụng ký hiệu của § 5, các số 3 và 4, $E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$ ($\S 5$, no. 4, Mệnh đề 3). Vì các hệ số $c_{\alpha \beta \gamma}$ thuộc A, $\| \psi_{m,m} \| \leq 1$ (Differentiable and Analytic Manifolds, R, Phụ lục) $K^r$ được giả sử có chuẩn
+Sử dụng ký hiệu của § 5, các số 3 và 4, $E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$ ($§ 5$, no. 4, Mệnh đề 3). Vì các hệ số $c_{\alpha \beta \gamma}$ thuộc A, $\| \psi_{m,m} \| \leq 1$ (Differentiable and Analytic Manifolds, R, Phụ lục) $K^r$ được giả sử có chuẩn
 
 $$
 \| (\lambda_1, \ldots, \lambda_r ) \| = \sup(|\lambda_1|, \ldots, |\lambda_r|)
@@ -438,7 +438,7 @@ Gọi $H = \sum_{r,s \geq 0} H_{r,s}$ là chuỗi lũy thừa hình thức Hausd
 $$
 E'(x)E'(y) = E'(h(x, y))
 $$
-với $x, y$ đủ gần 0 ($\S 4$, Định lý 4 (v)). Do đó, theo ký hiệu của no. 3, Định nghĩa 1, các chuỗi lũy thừa hình thức $F(E(X), E(Y))$ và $E(H(X, Y))$ bằng nhau. Cho $x, y$ là các phần tử của $\Delta$. Khi đó
+với $x, y$ đủ gần 0 ($§ 4$, Định lý 4 (v)). Do đó, theo ký hiệu của no. 3, Định nghĩa 1, các chuỗi lũy thừa hình thức $F(E(X), E(Y))$ và $E(H(X, Y))$ bằng nhau. Cho $x, y$ là các phần tử của $\Delta$. Khi đó
 $$
 \sup_m \left| \frac{\psi_{m,m}}{m!} \right| (\sup \|x\|, \|y\|)^m < 1 \\
 \sup_{r,s} \|H_{r,s}\| \|x\|^r \|y\|^s < |\rho|^{1/(p-1)}

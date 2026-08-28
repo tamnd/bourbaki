@@ -24,11 +24,11 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 7eaeae7ec60343e7a3732fb6c6b639c795d2c97421366c7a4946e1f1b0681828
+content_sha256: c4d7dc0a8eceecac04306c2d8d160c199d10a6bf0f27b9e52f5313167fc907ac
 translated_from: content/fr/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 937260b1121a4dbb109ea678e508a26d0a49e9c7a60add573afec0d0a94af5d2
+source_content_sha256: 14cb4de3331001e2cca71f8cafa3a3f182c71b7b91d8265d6f9b975bebdddf14
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-en-mt-dc2ffc45
 glossary_version: 34
@@ -120,7 +120,7 @@ b) Si G est un sous-espace totalement isotrope (resp. totalement singulier) de d
 
 Soit $\Psi$ la restriction de $\Phi$ à $F \times F'$; pour $x' \in F'$, la relation «$\Phi(x, x') = 0$ pour tout $x \in F$ » entraîne $x = 0$ puisque $F' \cap F^0 = \{0\}$. L’assertion a) résulte alors du cor. de la prop. 6 du § 1, No. 6, à l’exception du fait que $F + F'$ est non isotrope. Or le sous-espace $H = (F + F') \cap (F + F')^0$ est égal à $(F + F') \cap F^0 \cap {F'}^0$. Comme $F \subset F^0$, on a $(F + F') \cap F^0 = F + (F' \cap F^0) = F$, d’où $H = F \cap {F'}^0$; donc $H = \{0\}$ puisqu’on a vu que $\Psi$ est non dégénérée. Ceci prouve bien que $F + F'$ est non isotrope.
 
-Pour démontrer b), nous procéderons par récurrence descendante sur $s = \dim G$. Il nous suffit ainsi de prouver que, si $s < r$, il existe un sous-espace totalement isotrope (resp. totalement singulier) $G'$ contenant G, de dimension $s + 1$, et tel que $G' \cap F^0 = \{0\}$. Comme $\dim G < \dim F$, la restriction de $\Phi$ à $F \times G$ est dégénérée, et comme $G \cap F^0$ est nul, $F \cap G^0$ est non nul. Si l’on avait alors $G + F^0 \supset G^0$, on en déduirait, en prenant les sous-espaces orthogonaux et en remarquant que $F = F^{00}$ et que $G = G^{00}$ ($\S 1$, No. 6, cor. 1 de la prop. 4), que $G^0 \cap F \subset G$, d’où
+Pour démontrer b), nous procéderons par récurrence descendante sur $s = \dim G$. Il nous suffit ainsi de prouver que, si $s < r$, il existe un sous-espace totalement isotrope (resp. totalement singulier) $G'$ contenant G, de dimension $s + 1$, et tel que $G' \cap F^0 = \{0\}$. Comme $\dim G < \dim F$, la restriction de $\Phi$ à $F \times G$ est dégénérée, et comme $G \cap F^0$ est nul, $F \cap G^0$ est non nul. Si l’on avait alors $G + F^0 \supset G^0$, on en déduirait, en prenant les sous-espaces orthogonaux et en remarquant que $F = F^{00}$ et que $G = G^{00}$ ($§ 1$, No. 6, cor. 1 de la prop. 4), que $G^0 \cap F \subset G$, d’où
 
 $$
 G^0 \cap F \subset G \cap F \subset G \cap F^0 = \{0\},
@@ -159,7 +159,7 @@ $$
 y \in S_1 \cap F_2 = S_1 \cap F_1 \cap F_2 = S_1 \cap F = \{0\}.
 $$
 
-One therefore has $S_1 \cap S_2^0 = \{0\}$, and analogously $S_2 \cap S_1^0 = \{0\}$. Since one of the two subspaces $F_1, F_2$, for example $F_1$, is finite-dimensional, $S_1$ is finite-dimensional, and hence $S_1^0$ is of finite codimension ($\S 1, \mathrm{n}^\circ 6, \mathrm{cor.\ 1\ de\ la\ prop.\ 4}$), and consequently $S_2$ is finite-dimensional since $S_2 \cap S_1^0 = \{0\}$; moreover this shows that $\dim S_2 \leqslant \operatorname{codim} S_1^0 = \dim S_1$; analogously $\dim S_1 \leqslant \dim S_2$, whence $\dim S_1 = \dim S_2$. Prop. 2 a) then shows that $S = S_1 + S_2$ is non-isotropic.
+One therefore has $S_1 \cap S_2^0 = \{0\}$, and analogously $S_2 \cap S_1^0 = \{0\}$. Since one of the two subspaces $F_1, F_2$, for example $F_1$, is finite-dimensional, $S_1$ is finite-dimensional, and hence $S_1^0$ is of finite codimension ($§ 1, \mathrm{n}^\circ 6, \mathrm{cor.\ 1\ de\ la\ prop.\ 4}$), and consequently $S_2$ is finite-dimensional since $S_2 \cap S_1^0 = \{0\}$; moreover this shows that $\dim S_2 \leqslant \operatorname{codim} S_1^0 = \dim S_1$; analogously $\dim S_1 \leqslant \dim S_2$, whence $\dim S_1 = \dim S_2$. Prop. 2 a) then shows that $S = S_1 + S_2$ is non-isotropic.
 
 Now the orthogonal $N$ of $S$ is non-isotropic ($\mathrm{n}^\circ 1, \mathrm{cor.\ de\ la\ prop.\ 1}$) and contains $F$; Cor. 1 of Prop. 2 therefore shows that there exists a subspace $G$ totally isotropic (resp. totally singular) of $N$ such that $\dim G = \dim F$, that $G \cap F = \{0\}$ and that $G + F$ is non-isotropic. Thus d) is satisfied by $G$. We shall then satisfy a) and b) by taking for $H$ the orthogonal of $G + F$ in $N$. As for c), we note that, since $H$ is orthogonal to $F_1 = S_1 + F$, there is no nonzero isotropic (resp. singular) vector in $H$ by virtue of what was noted at the beginning of the proof and of the fact that $H \cap F_1 = \{0\}$. Finally some of the assertions concerning dimensions have been proved along the way; the others follow from them trivially.
 
@@ -296,7 +296,7 @@ b) Let A be a field, E a vector space over A, $\Phi$ a non-degenerate $\varepsil
 
 7) The hypotheses being those of Exercise 2, let $G$ be the group of metric automorphisms of $E$. Show that the only semilinear bijections of $E$ onto itself which commute with all the elements of $G$ are the homotheties of $E$, except in the following three cases: dim $E = 2$, $G$ is the group of metric automorphisms corresponding to a quadratic form of index 1 on $E$, and $A$ is one of the three fields $\mathbf{F}_2, \mathbf{F}_3$ or $\mathbf{F}_4$. (Use Exercises 5, 6 and 3; examine separately the case of a quadratic form on a vector space of dimension 2).
 
-*8) Let $A$ be a field, $E$ a finite-dimensional vector space $> 0$ over $A$, $\Phi$ a non-degenerate $\varepsilon$-hermitian sesquilinear form on $E$, satisfying (T). Let $M(\Phi)$ be the group of multipliers of the similarities of $E$ for $\Phi$ ($\S 6, \mathrm{n}^o\ 5$).
+*8) Let $A$ be a field, $E$ a finite-dimensional vector space $> 0$ over $A$, $\Phi$ a non-degenerate $\varepsilon$-hermitian sesquilinear form on $E$, satisfying (T). Let $M(\Phi)$ be the group of multipliers of the similarities of $E$ for $\Phi$ ($§ 6, \mathrm{n}^o\ 5$).
 
 a) Let $V_1, V_2$ be two vector subspaces of $E$, of the same dimension, and let $\Phi_1, \Phi_2$ be the restrictions of $\Phi$ to $V_1, V_2$ respectively. For there to exist a similarity $u$ such that $u(V_1) = V_2$, it is necessary and sufficient that there exist $\alpha \in M(\Phi)$ such that $\Phi_2$ is equivalent to $\alpha \Phi_1$ (use Witt's theorem).
 

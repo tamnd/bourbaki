@@ -32,7 +32,7 @@ subsections:
       pdf_page: 254
 statements: 18
 exercises: 12
-content_sha256: 4b4be51d0c9bcd3de9ff17b7a6c044b6d925fe61a3cd120addca4da3673e750a
+content_sha256: cb520e55d1b8447d9e7f2e653052e6f9dd4e40b076e3b458f55ae66cdee5330d
 ---
 
 ## 3. UNIFORM STRUCTURES ON GROUPS
@@ -94,7 +94,7 @@ $$
 
 If $H$ is a subgroup of a topological group $G$, then the uniformity induced on $H$ by the right uniformity of $G$ is none other than the right uniformity of the topological group $H$.
 
-If $H$ is a normal subgroup of $G$, and if $\varphi$ is the canonical mapping of $G$ onto $G/H$, we obtain a fundamental system of entourages of the right uniformity of the quotient group $G/H$ by associating with each neighbourhood $V$ of the identity element in $G$, the set of all pairs $(\dot{x}, \dot{y})$ of $G/H$ such that $\dot{x}\dot{y}^{-1} \in \varphi(V)$ (\S 2, no. 6, Proposition 17). This condition means that there is at least one point $x \in \dot{x}$ and at least one point $y \in \dot{y}$ such that $yx^{-1} \in V$ [i.e. such that $(x, y) \in V_d$]. In particular, if $N$ is the closure of the subset $\{e\}$ of $G$, then the right uniformity on $G/N$ is isomorphic to the Hausdorff uniformity *associated* with the right uniformity on $G$ (cf. Chapter II, \S 3, no. 8).
+If $H$ is a normal subgroup of $G$, and if $\varphi$ is the canonical mapping of $G$ onto $G/H$, we obtain a fundamental system of entourages of the right uniformity of the quotient group $G/H$ by associating with each neighbourhood $V$ of the identity element in $G$, the set of all pairs $(\dot{x}, \dot{y})$ of $G/H$ such that $\dot{x}\dot{y}^{-1} \in \varphi(V)$ (§ 2, no. 6, Proposition 17). This condition means that there is at least one point $x \in \dot{x}$ and at least one point $y \in \dot{y}$ such that $yx^{-1} \in V$ [i.e. such that $(x, y) \in V_d$]. In particular, if $N$ is the closure of the subset $\{e\}$ of $G$, then the right uniformity on $G/N$ is isomorphic to the Hausdorff uniformity *associated* with the right uniformity on $G$ (cf. Chapter II, § 3, no. 8).
 
 There are analogous results for the left uniformity.
 
@@ -175,7 +175,7 @@ To sum up, we have proved the following theorem:
 
 Since $\hat{G}$ is regular, every neighbourhood of the identity element in $\hat{G}$ contains the closure $V$ of an open neighbourhood $U$ of $e$ in $\hat{G}$, and $V$ is also the closure of the trace of $U$ on $G$.
 
-Let $G$ be a group which is not necessarily Hausdorff; let $N = \overline{\{e\}}$, and let $G' = G/N$ be the Hausdorff group associated with $G$ (\S 2, no. 6). If $G'$ has a completion $\hat{G}'$, this completion is called the *Hausdorff completion* of $G$ and is denoted by $\hat{G}$; $\hat{G}'_d$ (resp. $\hat{G}'_s$) is then the *Hausdorff completion* (Chapter II, § 3, no. 7) of the uniform space $G_d$ (resp. $G_s$).
+Let $G$ be a group which is not necessarily Hausdorff; let $N = \overline{\{e\}}$, and let $G' = G/N$ be the Hausdorff group associated with $G$ (§ 2, no. 6). If $G'$ has a completion $\hat{G}'$, this completion is called the *Hausdorff completion* of $G$ and is denoted by $\hat{G}$; $\hat{G}'_d$ (resp. $\hat{G}'_s$) is then the *Hausdorff completion* (Chapter II, § 3, no. 7) of the uniform space $G_d$ (resp. $G_s$).
 
 #### Proposition 8 {#top-iii-s3-prop-8 .statement}
 

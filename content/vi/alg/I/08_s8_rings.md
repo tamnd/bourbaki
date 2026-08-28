@@ -61,9 +61,9 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 16
-content_sha256: 513576e529fe237c6a54320bdfb16d99e079e7636f95c2e6c935899b637bc949
+content_sha256: c0fbad15cfceb973a20327d2ed9055c028b5c9170ed25c44741a9a4f0b07088d
 translated_from: content/en/alg/I/08_s8_rings.md
-source_content_sha256: d6d2b6c428964b0044a3bec3a5ca13459ca21de10ffcf02600892b46734789d7
+source_content_sha256: 82f3b9f6c044b6246eb0c2be0d3c2c67423e560bf34edc83e7cf960aed7cd234
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-d5395ffa
 glossary_version: 34
@@ -131,7 +131,7 @@ $$
 1 + x + x^2 + \cdots + x^{n-1}.
 $$
 
-Vì A là một nhóm giao hoán đối với phép cộng, phần tử $nx$ với $n \in \mathbf{Z}$ và $x \in \mathbf{A}$ đã được định nghĩa (\S 2, no. 8). Vì $\gamma_x$ và $\delta_x$ là các tự đồng cấu của nhóm cộng A, $\gamma_x(ny) = n\gamma_x(y)$ và $\delta_y(nx) = n\delta_y(x)$, do đó
+Vì A là một nhóm giao hoán đối với phép cộng, phần tử $nx$ với $n \in \mathbf{Z}$ và $x \in \mathbf{A}$ đã được định nghĩa (§ 2, no. 8). Vì $\gamma_x$ và $\delta_x$ là các tự đồng cấu của nhóm cộng A, $\gamma_x(ny) = n\gamma_x(y)$ và $\delta_y(nx) = n\delta_y(x)$, do đó
 $$
 x.(ny) = (nx).y = n.(xy).
 $$
@@ -141,7 +141,7 @@ Một tập hợp A với phép cộng và phép nhân thỏa mãn các tiên đ
 
 ### 2. HỆ QUẢ CỦA TÍNH PHÂN PHỐI
 
-Tính phân phối của phép nhân đối với phép cộng cho phép ta áp dụng Mệnh đề 1 của \S 3, no. 4, cho
+Tính phân phối của phép nhân đối với phép cộng cho phép ta áp dụng Mệnh đề 1 của § 3, no. 4, cho
 $$
 \prod_{i=1}^n \left( \sum_{\lambda \in L_i} x_{i,\lambda} \right) = \sum_{\alpha_1, \ldots, \alpha_n} \prod_{i=1}^n x_{i, \alpha_i}
 $$
@@ -437,7 +437,7 @@ Cho $A$ là một vành và $a$ là một iđêan hai phía của $A$.
 
 Theo phép dựng, $\pi(x + y) = \pi(x) + \pi(y)$ và $\pi(xy) = \pi(x)\pi(y)$ với $x, y$ trong $A$; hơn nữa $\pi(1)$ là phần tử khả nghịch $\varepsilon$ của $A/a$, do đó (a).
 
-Cho $A^+$ là nhóm cộng của $A$ và $B^+$ là nhóm cộng của $B$; vì $f$ là một đồng cấu từ $A^+$ vào $B^+$, bằng không trên nhóm con $a$ của $A^+$, nên tồn tại ( \S 4, no. 4, Mệnh đề 5) duy nhất một đồng cấu $\bar{f}$ từ $A^+/a$ vào $B^+$ sao cho $f = \bar{f} \circ \pi$. Cho $\xi, \eta$ thuộc $A/a$; chọn $x, y$ thuộc $A$ sao cho $\pi(x) = \xi$ và $\pi(y) = \eta$; khi đó $\xi \eta = \pi(xy)$, do đó
+Cho $A^+$ là nhóm cộng của $A$ và $B^+$ là nhóm cộng của $B$; vì $f$ là một đồng cấu từ $A^+$ vào $B^+$, bằng không trên nhóm con $a$ của $A^+$, nên tồn tại ( § 4, no. 4, Mệnh đề 5) duy nhất một đồng cấu $\bar{f}$ từ $A^+/a$ vào $B^+$ sao cho $f = \bar{f} \circ \pi$. Cho $\xi, \eta$ thuộc $A/a$; chọn $x, y$ thuộc $A$ sao cho $\pi(x) = \xi$ và $\pi(y) = \eta$; khi đó $\xi \eta = \pi(xy)$, do đó
 
 $$
 \bar{f}(\xi \eta) = \bar{f}(\pi(xy)) = f(xy) = f(x)f(y) = \bar{f}(\xi)\bar{f}(\eta)
@@ -452,7 +452,7 @@ Cho $A$ và $B$ là các vành và $f$ là một đồng cấu từ $A$ vào $B$
 (b) Ảnh $B' = f(B)$ của $f$ là một vành con của $B$.
 (c) Cho $\pi : A \to A/a$ và $i : B' \to B$ là các cấu xạ chính tắc. Tồn tại một và chỉ một cấu xạ $\bar{f}$ từ $A/a$ vào $B'$ sao cho $f = i \circ \bar{f} \circ \pi$ và $\bar{f}$ là một đẳng cấu.
 
-Vì $f$ là một cấu xạ của nhóm cộng của $A$ vào nhóm cộng của $B$, nên $a$ là một nhóm con của $A$. Nếu $x \in a$ và $a \in A$, thì $f(ax) = f(a)f(x) = 0$, do đó $ax \in a$ và tương tự $xa \in a$; do đó $a$ là một iđêan hai phía của $A$. Mệnh đề (b) là hiển nhiên. Vì $f$ bằng không trên $a$, tồn tại một cấu xạ $\bar{f}$ từ $A/a$ vào $B'$ sao cho $f = i \circ \bar{f} \circ \pi$ (Định lý 2). Tính duy nhất của $\bar{f}$ và sự kiện $\bar{f}$ là một đẳng cấu suy ra từ Lý thuyết tập hợp, II, \S 6, no. 4.
+Vì $f$ là một cấu xạ của nhóm cộng của $A$ vào nhóm cộng của $B$, nên $a$ là một nhóm con của $A$. Nếu $x \in a$ và $a \in A$, thì $f(ax) = f(a)f(x) = 0$, do đó $ax \in a$ và tương tự $xa \in a$; do đó $a$ là một iđêan hai phía của $A$. Mệnh đề (b) là hiển nhiên. Vì $f$ bằng không trên $a$, tồn tại một cấu xạ $\bar{f}$ từ $A/a$ vào $B'$ sao cho $f = i \circ \bar{f} \circ \pi$ (Định lý 2). Tính duy nhất của $\bar{f}$ và sự kiện $\bar{f}$ là một đẳng cấu suy ra từ Lý thuyết tập hợp, II, § 6, no. 4.
 
 ### 8. CÁC VÀNH CON VÀ CÁC IĐÊAN TRONG MỘT VÀNH THƯƠNG
 
@@ -468,7 +468,7 @@ Cho $A$ và $A'$ là hai vành, $f$ là một đồng cấu từ $A$ vào $A'$ v
 
 (a) và (b) là hiển nhiên, trừ khẳng định cuối cùng của (a) suy ra từ no. 7, Định lý 3.
 
-Cấu xạ hợp thành $g : A \to A' \to A'/b'$ xét trong (c) có hạt nhân $b$ và do đó $\bar{f}$ là một cấu xạ đơn ánh của $A/b$ vào $A'/b'$ (\S 8, no. 7, Định lý 3). Nếu $f$ là toàn ánh, $g$ là toàn ánh và do đó $\bar{f}$ là toàn ánh.
+Cấu xạ hợp thành $g : A \to A' \to A'/b'$ xét trong (c) có hạt nhân $b$ và do đó $\bar{f}$ là một cấu xạ đơn ánh của $A/b$ vào $A'/b'$ (§ 8, no. 7, Định lý 3). Nếu $f$ là toàn ánh, $g$ là toàn ánh và do đó $\bar{f}$ là toàn ánh.
 
 Giả sử $f$ là toàn ánh. Theo trên, ánh xạ $\theta : B' \mapsto \bar{f}(B')^{-1}$ là một ánh xạ từ $\Phi'$ vào $\Phi$. Rõ ràng ánh xạ $\eta : B \mapsto f(B)$ là một ánh xạ từ $\Phi$ vào $\Phi'$. Khi đó $\theta \circ \eta = \mathrm{Id}_{\Phi}, \eta \circ \theta = \mathrm{Id}_{\Phi'},$ do đó (d).
 
@@ -542,7 +542,7 @@ Giả sử rằng $a_i$ là một iđêan hai phía với mọi $i \in I$ và k�
 
 Cho $(I_\lambda)_{\lambda \in L}$ là một phân hoạch của $I$. Song ánh chính tắc của $\prod_{i \in I} A_i$ lên $\prod_{\lambda \in L} \left( \prod_{i \in I_\lambda} A_i \right)$ là một đẳng cấu vành, theo đó hai vành này được đồng nhất.
 
-Cho $J \subset I$. Ký hiệu $e_J$ là phần tử $(x_i)_{i \in I}$ của $A$ được xác định bởi $x_i = 1_i$ với $i \in J$, $x_i = 0_i$ với $i \in I - J$. Khi đó $e_J$ là một lũy đẳng trung tâm ($\S 1$, no. 4) của $A$. Các công thức sau suy ra ngay lập tức:
+Cho $J \subset I$. Ký hiệu $e_J$ là phần tử $(x_i)_{i \in I}$ của $A$ được xác định bởi $x_i = 1_i$ với $i \in J$, $x_i = 0_i$ với $i \in I - J$. Khi đó $e_J$ là một lũy đẳng trung tâm ($§ 1$, no. 4) của $A$. Các công thức sau suy ra ngay lập tức:
 
 $$
 \begin{align*}
@@ -628,7 +628,7 @@ Cho A là một vành. Cho $(a_i)_{i \in I}$ là một họ hữu hạn các nh�
 
 *Ví dụ*: *Các iđêan và các vành thương của* $\mathbf{Z}$
 
-Một iđêan của $\mathbf{Z}$ là một nhóm con cộng tính của $\mathbf{Z}$ và do đó có dạng $n.\mathbf{Z}$ với $n \geqslant 0$; ngược lại, với mọi số nguyên $n \geqslant 0$, tập hợp $n.\mathbf{Z}$ là một iđêan, iđêan chính $(n)$. Do đó mọi iđêan của $\mathbf{Z}$ đều là chính và được biểu diễn duy nhất dưới dạng $n\mathbf{Z}$ với $n \geqslant 0$. Iđêan $(1)$ bằng $\mathbf{Z}$, iđêan $(0)$ chỉ gồm 0 và các iđêan khác với $\mathbf{Z}$ và $\{0\}$ do đó có dạng $n\mathbf{Z}$ với $n > 1$. Nếu $m \geqslant 1$ và $n \geqslant 1$, $m\mathbf{Z} \supset n\mathbf{Z}$ khi và chỉ khi $n \in m.\mathbf{Z}$, tức là $m$ chia hết $n$. Vì vậy, để iđêan $n\mathbf{Z}$ là cực đại, điều kiện cần và đủ là không tồn tại số nguyên $m > 1$ khác với $n$ và chia hết $n$; nói cách khác, *các iđêan cực đại của* $\mathbf{Z}$ *là các iđêan có dạng* $p\mathbf{Z}$ *trong đó* $p$ *là một số nguyên tố* (\$ 4, no. 10, Definition 16).
+Một iđêan của $\mathbf{Z}$ là một nhóm con cộng tính của $\mathbf{Z}$ và do đó có dạng $n.\mathbf{Z}$ với $n \geqslant 0$; ngược lại, với mọi số nguyên $n \geqslant 0$, tập hợp $n.\mathbf{Z}$ là một iđêan, iđêan chính $(n)$. Do đó mọi iđêan của $\mathbf{Z}$ đều là chính và được biểu diễn duy nhất dưới dạng $n\mathbf{Z}$ với $n \geqslant 0$. Iđêan $(1)$ bằng $\mathbf{Z}$, iđêan $(0)$ chỉ gồm 0 và các iđêan khác với $\mathbf{Z}$ và $\{0\}$ do đó có dạng $n\mathbf{Z}$ với $n > 1$. Nếu $m \geqslant 1$ và $n \geqslant 1$, $m\mathbf{Z} \supset n\mathbf{Z}$ khi và chỉ khi $n \in m.\mathbf{Z}$, tức là $m$ chia hết $n$. Vì vậy, để iđêan $n\mathbf{Z}$ là cực đại, điều kiện cần và đủ là không tồn tại số nguyên $m > 1$ khác với $n$ và chia hết $n$; nói cách khác, *các iđêan cực đại của* $\mathbf{Z}$ *là các iđêan có dạng* $p\mathbf{Z}$ *trong đó* $p$ *là một số nguyên tố* (§ 4, no. 10, Definition 16).
 
 Cho $m$ và $n$ là hai số nguyên $\geqslant 1$. Iđêan $m\mathbf{Z} + n\mathbf{Z}$ là chính, do đó tồn tại một số nguyên $d \geqslant 1$ được xác định bởi $d\mathbf{Z} = m\mathbf{Z} + n\mathbf{Z}$; với mọi số nguyên r \geqslant 1, quan hệ "r chia hết d" tương đương với $r\mathbf{Z} \supset d\mathbf{Z}$ và do đó tương đương với "$r\mathbf{Z} \supset m\mathbf{Z}$ và $r\mathbf{Z} \supset n\mathbf{Z}$", tức là "r chia hết m và n". Như vậy thấy rằng các ước chung của m và n là các ước của d và d là *lớn nhất* trong các ước $\geqslant 1$ chung cho m và n; d được gọi là *ước chung lớn nhất* (viết tắt là g.c.d.) của m và n. Vì $d\mathbf{Z} = m\mathbf{Z} + n\mathbf{Z}$, tồn tại hai số nguyên x và y sao cho $d = mx + ny$. m và n được gọi là *nguyên tố cùng nhau* nếu g.c.d. của chúng bằng 1. Điều này tương đương với việc giả sử rằng tồn tại các số nguyên x và y với $mx + ny = 1$.
 
@@ -650,7 +650,7 @@ Những kết quả trên, cũng như các kết quả về phân tích thành c
 
 #### Định lý 4 {#alg-i-s8-thm-4 .statement}
 
-*Cho A là một vành giao hoán và S là một tập con của A. Cho $A_S$ là monoid các phân thức của A (chỉ được trang bị phép nhân) với các mẫu số trong S (\S 2, no. 4). Cho $\varepsilon : A \to A_S$ là cấu xạ chính tắc. Trên $A_S$ tồn tại một và chỉ một phép cộng thỏa mãn các điều kiện sau:
+*Cho A là một vành giao hoán và S là một tập con của A. Cho $A_S$ là monoid các phân thức của A (chỉ được trang bị phép nhân) với các mẫu số trong S (§ 2, no. 4). Cho $\varepsilon : A \to A_S$ là cấu xạ chính tắc. Trên $A_S$ tồn tại một và chỉ một phép cộng thỏa mãn các điều kiện sau:
 (a) $A_S$, với phép cộng này và phép nhân của nó, là một vành giao hoán;
 (b) $\varepsilon$ là một đồng cấu vành.*
 

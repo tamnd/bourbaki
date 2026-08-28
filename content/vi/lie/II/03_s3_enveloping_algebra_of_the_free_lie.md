@@ -24,7 +24,7 @@ subsections:
       pdf_page: 158
 statements: 11
 exercises: 4
-content_sha256: 40c60c208ca274f066504ecce67cdcd9a105d5b29b311b084a9c083e38cbc747
+content_sha256: 6168600a2bc869dfd3b419d6ff7465ded12f899651ccc9cb2afcdccaaa45083b
 translated_from: content/en/lie/II/03_s3_enveloping_algebra_of_the_free_lie.md
 source_content_sha256: f4f34ea02bb7115c2f0e770cf16c5748526ead7405459af1213c3959a954e319
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -241,13 +241,13 @@ $$
 
 *trong đó $\mu$ là hàm Möbius.*
 
-(b) *Với mọi $\alpha \in \mathbf{N}^X - \{0\}$, $K$-môđun $L^\alpha(X)$ (\S 2, no. 6) là tự do hạng*
+(b) *Với mọi $\alpha \in \mathbf{N}^X - \{0\}$, $K$-môđun $L^\alpha(X)$ (§ 2, no. 6) là tự do hạng*
 
 $$
 c(\alpha) = \frac{1}{|\alpha|} \sum_{d|\alpha} \mu(d) \frac{(|\alpha|/d)!}{(\alpha/d)!}.
 $$
 
-Chúng ta đã biết rằng các môđun $L^r(X)$, với $r \in \mathbf{N}$, và $L^\alpha(X)$, với $\alpha \in \mathbf{N}^X$, là tự do (\S 2, no. 11, Hệ quả của Định lý 1). Xét đa phân bậc $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ của $A(X)$ được xác định bởi đồng cấu chính tắc $\phi$ từ $Mo(X)$ vào $\mathbf{N}^X$ (*Đại số*, Chương III, \S 3, no. 1, *Ví dụ 3*); khi đó $A^\alpha(X) \cap L(X) = L^\alpha(X)$ theo *Nhận xét 3* của no. 1. Với $\alpha \in \mathbf{N}^X$, $K$-môđun $A^\alpha(X)$ nhận tập hợp các từ trong đó mỗi chữ cái $x$ của $X$ xuất hiện $\alpha(x)$ lần làm một cơ sở. Gọi $d(\alpha)$ là số các từ đó, tức là hạng của $A^\alpha(X)$; chúng ta sẽ tính theo hai cách khác nhau chuỗi lũy thừa hình thức
+Chúng ta đã biết rằng các môđun $L^r(X)$, với $r \in \mathbf{N}$, và $L^\alpha(X)$, với $\alpha \in \mathbf{N}^X$, là tự do (§ 2, no. 11, Hệ quả của Định lý 1). Xét đa phân bậc $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ của $A(X)$ được xác định bởi đồng cấu chính tắc $\phi$ từ $Mo(X)$ vào $\mathbf{N}^X$ (*Đại số*, Chương III, § 3, no. 1, *Ví dụ 3*); khi đó $A^\alpha(X) \cap L(X) = L^\alpha(X)$ theo *Nhận xét 3* của no. 1. Với $\alpha \in \mathbf{N}^X$, $K$-môđun $A^\alpha(X)$ nhận tập hợp các từ trong đó mỗi chữ cái $x$ của $X$ xuất hiện $\alpha(x)$ lần làm một cơ sở. Gọi $d(\alpha)$ là số các từ đó, tức là hạng của $A^\alpha(X)$; chúng ta sẽ tính theo hai cách khác nhau chuỗi lũy thừa hình thức
 
 $$
 P((T_x)_{x \in X}) \in \mathbf{Z}[[((T_x)_{x \in X})]]

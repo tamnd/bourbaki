@@ -44,9 +44,9 @@ subsections:
       pdf_page: 373
 statements: 54
 exercises: 29
-content_sha256: f351442ebb73dd761070ddf1e9419995c758f1fd188ac6fef106d1d925148a98
+content_sha256: dd92e8745890cd6fdd1e632dfb76c55ce38c0f001f64d8a1d984674dc9763d9c
 translated_from: content/en/lie/III/09_s9_commutators_centralizers_and.md
-source_content_sha256: 28599142f274ec5813551cdbb3bbe444ef139fc7c26b1c613596b1ce9597e9d3
+source_content_sha256: 17781b6bd4c4150167e422099cfe3c64fec3fa861d2cdd27aa8b9bac3f881d90
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-36e3818b
 glossary_version: 34
@@ -156,13 +156,13 @@ $$
 L(A) + L(B) + L(C) = L(G)
 $$
 
-và $G$ liên thông. Khi đó $L(C)$ là một iđêan của $L(G)$. Trước hết giả sử rằng $G$ đơn liên. Khi đó $C$ là một nhóm con Lie chuẩn của $G$ (\S 6, no. 6, Mệnh đề 14). Cho $\phi$ là cấu xạ chính tắc của $G$ lên $G/C$. Khi đó
+và $G$ liên thông. Khi đó $L(C)$ là một iđêan của $L(G)$. Trước hết giả sử rằng $G$ đơn liên. Khi đó $C$ là một nhóm con Lie chuẩn của $G$ (§ 6, no. 6, Mệnh đề 14). Cho $\phi$ là cấu xạ chính tắc của $G$ lên $G/C$. Khi đó
 
 $$
 [L(\phi)(L(A)), L(\phi)(L(B))] = \{0\}
 $$
 
-và do đó $\phi(A)$ và $\phi(B)$ giao hoán theo công thức Hausdorff; do đó $(A, B) \subset C$. Trong trường hợp tổng quát, lấy $G'$ là phủ phổ quát của $G$ và $A', B', C'$ là các nhóm con nguyên của $G'$ sao cho $L(A') = L(A), L(B') = L(B), L(C') = L(C)$. Khi đó $(A', B') \subset C'$ và $A, B, C$ là các ảnh chính tắc của $A', B', C'$ trong $G$, do đó $(A, B) \subset C$. Mặt khác, $(A, B)$ là tập hợp nền của một nhóm con nguyên của $G$ (\S 6, no. 2, Hệ quả của Mệnh đề 4) và đại số Lie của nó chứa $[L(A), L(B)]$ (Mệnh đề 3). Nếu
+và do đó $\phi(A)$ và $\phi(B)$ giao hoán theo công thức Hausdorff; do đó $(A, B) \subset C$. Trong trường hợp tổng quát, lấy $G'$ là phủ phổ quát của $G$ và $A', B', C'$ là các nhóm con nguyên của $G'$ sao cho $L(A') = L(A), L(B') = L(B), L(C') = L(C)$. Khi đó $(A', B') \subset C'$ và $A, B, C$ là các ảnh chính tắc của $A', B', C'$ trong $G$, do đó $(A, B) \subset C$. Mặt khác, $(A, B)$ là tập hợp nền của một nhóm con nguyên của $G$ (§ 6, no. 2, Hệ quả của Mệnh đề 4) và đại số Lie của nó chứa $[L(A), L(B)]$ (Mệnh đề 3). Nếu
 
 $$
 [L(A), L(B)] = L(C),
@@ -174,7 +174,7 @@ thì $(A, B) \supset C$, do đó $(A, B) = C$.
 
 *Cho G là một nhóm Lie thực hoặc phức liên thông hữu hạn chiều với đại số Lie g. Các nhóm con $D^iG$ (tương ứng $C^iG$) là các nhóm con nguyên với các đại số Lie $D^i\mathfrak{g}$ (tương ứng $C^i\mathfrak{g}$). Nếu G đơn liên thông, chúng là các nhóm con Lie.*
 
-Mệnh đề thứ nhất suy ra từ Mệnh đề 4 bằng quy nạp theo $i$. Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và \S 6, no. 6, Mệnh đề 14.
+Mệnh đề thứ nhất suy ra từ Mệnh đề 4 bằng quy nạp theo $i$. Mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và § 6, no. 6, Mệnh đề 14.
 
 #### Mệnh đề 5 {#lie-iii-s9-prop-5 .statement}
 
@@ -184,7 +184,7 @@ Lấy $a = L(A)$. Gọi $G_1$ là tập hợp các $g \in G$ sao cho
 
 $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{với mọi } x \in a.$$
 
-Khi đó $G_1$ là một nhóm con đóng của $G$. Nếu $y \in a$, thì $\exp y \in G_1$, theo \S 6, no. 4, Hệ quả 3 (ii) của Mệnh đề 10. Do đó $G_1$ chứa $A$ và vì vậy chứa $\overline{A}$. Như vậy, với $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ giữ $a$ ổn định và do đó $\mathrm{Int}\, g$ giữ $A$ ổn định; chính xác hơn, $L(\mathrm{Int}\, g)$ xác định tự đẳng cấu đồng nhất của $a/\mathcal{D}a$ và do đó $\mathrm{Int}\, g$ xác định tự đẳng cấu đồng nhất của $A/DA$. Điều này chứng minh rằng $(\overline{A}, A) \subset DA$. Với cấu trúc nhóm Lie thực trên $G$, $\overline{A}$ là một nhóm con Lie (\S 8, no. 2, Định lý 2); gọi $b$ là đại số Lie của nó. Gọi $G_2$ là tập hợp các $g \in G$ sao cho
+Khi đó $G_1$ là một nhóm con đóng của $G$. Nếu $y \in a$, thì $\exp y \in G_1$, theo § 6, no. 4, Hệ quả 3 (ii) của Mệnh đề 10. Do đó $G_1$ chứa $A$ và vì vậy chứa $\overline{A}$. Như vậy, với $g \in \overline{A}$, $L(\mathrm{Int}\, g)$ giữ $a$ ổn định và do đó $\mathrm{Int}\, g$ giữ $A$ ổn định; chính xác hơn, $L(\mathrm{Int}\, g)$ xác định tự đẳng cấu đồng nhất của $a/\mathcal{D}a$ và do đó $\mathrm{Int}\, g$ xác định tự đẳng cấu đồng nhất của $A/DA$. Điều này chứng minh rằng $(\overline{A}, A) \subset DA$. Với cấu trúc nhóm Lie thực trên $G$, $\overline{A}$ là một nhóm con Lie (§ 8, no. 2, Định lý 2); gọi $b$ là đại số Lie của nó. Gọi $G_2$ là tập hợp các $g \in G$ sao cho
 
 $$(\mathrm{Ad}\, g)x \equiv x \pmod{\mathcal{D}a} \quad \text{với mọi } x \in b.$$
 
@@ -194,7 +194,7 @@ Theo trên, $G_2 \supseteq A$ và do đó $G_2 \supseteq \overline{A}$. Vì vậ
 
 *Giả sử rằng K là ultrametric. Cho G là một nhóm Lie hữu hạn chiều. Cho A, B, C là các nhóm con Lie của G sao cho $[L(A), L(C)] \subset L(C)$, $[L(B), L(C)] \subset L(C)$. Nếu $[L(A), L(B)] \subset L(C)$, tồn tại các nhóm con mở A', B' của A, B sao cho $(A', B') \subset C$. Nếu $[L(A), L(B)] \subset L(C)$, tồn tại các nhóm con mở A', B', C' của A, B, C sao cho $(A', B') = C'$.*
 
-Giả sử rằng $[L(A), L(B)] \subset L(C)$. Như trong chứng minh của Mệnh đề 4, bài toán quy về trường hợp $L(C)$ là một iđêan của $L(G)$. Khi đó, bằng cách thay thế G bởi một nhóm con mở, ta quy về trường hợp C là chuẩn trong G ($\S 7$, no. 1, Mệnh đề 2). Cho $\phi$ là cấu xạ chính tắc của G lên $G/C$. Khi đó
+Giả sử rằng $[L(A), L(B)] \subset L(C)$. Như trong chứng minh của Mệnh đề 4, bài toán quy về trường hợp $L(C)$ là một iđêan của $L(G)$. Khi đó, bằng cách thay thế G bởi một nhóm con mở, ta quy về trường hợp C là chuẩn trong G ($§ 7$, no. 1, Mệnh đề 2). Cho $\phi$ là cấu xạ chính tắc của G lên $G/C$. Khi đó
 $$
 [L(\phi)(L(A)), L(\phi)(L(B))] = \{0\}.
 $$
@@ -292,7 +292,7 @@ Cho $g$ là một đại số Lie lũy linh. Chuỗi Hausdorff $H(X, Y)$ tương
 
 (ii) *Mọi nhóm con nguyên của $G$ là một nhóm con Lie liên thông đơn của $G$.*
 
-Cho $g = L(G)$, là lũy linh (Mệnh đề 12). Vì hai nhóm Lie liên thông đơn trên $\mathbf{R}$ hoặc $\mathbf{C}$ có cùng đại số Lie thì đẳng cấu với nhau ($\S 6$, no. 3, Định lý 3 (ii)), nên chỉ cần chứng minh mệnh đề khi $G$ là nhóm liên kết với $g$. Khi đó (i) và (ii) suy ra từ những gì đã nói trước mệnh đề.
+Cho $g = L(G)$, là lũy linh (Mệnh đề 12). Vì hai nhóm Lie liên thông đơn trên $\mathbf{R}$ hoặc $\mathbf{C}$ có cùng đại số Lie thì đẳng cấu với nhau ($§ 6$, no. 3, Định lý 3 (ii)), nên chỉ cần chứng minh mệnh đề khi $G$ là nhóm liên kết với $g$. Khi đó (i) và (ii) suy ra từ những gì đã nói trước mệnh đề.
 
 #### Mệnh đề 14 {#lie-iii-s9-prop-14 .statement}
 
@@ -302,9 +302,9 @@ Cho $g = L(G)$, là lũy linh (Mệnh đề 12). Vì hai nhóm Lie liên thông 
 
 (ii) *Nếu $K = \mathbf{C}$ và $\exp_G$ là étale, thì $G$ là lũy linh.*
 
-Cho $G'$ là không gian phủ phổ quát của $G$. Cho $\phi$ là cấu xạ chính tắc của $G'$ lên $G$. Khi đó $\exp_G = \phi \circ \exp_{G'}$ ($\S 6$, no. 4, Mệnh đề 10) và do đó (i) suy ra từ Mệnh đề 13 (i).
+Cho $G'$ là không gian phủ phổ quát của $G$. Cho $\phi$ là cấu xạ chính tắc của $G'$ lên $G$. Khi đó $\exp_G = \phi \circ \exp_{G'}$ ($§ 6$, no. 4, Mệnh đề 10) và do đó (i) suy ra từ Mệnh đề 13 (i).
 
-Nếu $K = \mathbf{C}$ và $\exp$ là étale, thì, với mọi $x \in L(G)$, $x$ không có trị riêng thuộc $2i\pi(\mathbf{Z} - \{0\})$ ($\S 6$, no. 4, Hệ quả của Mệnh đề 12). Áp dụng điều này cho $\lambda x$, trong đó $\lambda$ biến thiên qua $\mathbf{C}$, suy ra mọi trị riêng của $\mathrm{ad}\, x$ đều là không và do đó $\mathrm{ad}\, x$ là lũy linh. Vì vậy $L(G)$ là lũy linh (Chương I, $\S 4$, Hệ quả 1 của Định lý 1) và do đó $G$ là lũy linh (Mệnh đề 12).
+Nếu $K = \mathbf{C}$ và $\exp$ là étale, thì, với mọi $x \in L(G)$, $x$ không có trị riêng thuộc $2i\pi(\mathbf{Z} - \{0\})$ ($§ 6$, no. 4, Hệ quả của Mệnh đề 12). Áp dụng điều này cho $\lambda x$, trong đó $\lambda$ biến thiên qua $\mathbf{C}$, suy ra mọi trị riêng của $\mathrm{ad}\, x$ đều là không và do đó $\mathrm{ad}\, x$ là lũy linh. Vì vậy $L(G)$ là lũy linh (Chương I, $§ 4$, Hệ quả 1 của Định lý 1) và do đó $G$ là lũy linh (Mệnh đề 12).
 
 #### Mệnh đề 15 {#lie-iii-s9-prop-15 .statement}
 
@@ -402,11 +402,11 @@ $$
 $$
 Do đó $\psi \circ \phi = \mathrm{Id}_{a_1 \times \ldots \times a_p}$. Điều này chứng minh (i). Vì luật Hausdorff là đa thức, $\phi$ là đa thức. Theo giả thiết quy nạp, ${\phi'}^{-1}$ là đa thức; theo công thức (1), các hàm $x_j'$ là đa thức, do đó $\zeta$ là đa thức (công thức (3)), $y$ là đa thức (công thức (4)) và $\psi$ là đa thức (công thức (5)). Điều này chứng minh (ii). Mệnh đề (iii) suy ra từ (i) và (ii) và sự kiện rằng luật Hausdorff là đa thức.
 
-**Ví dụ về một nhóm Lie lũy linh.** Cho $G$ là nhóm con tam giác ngặt dưới của $\mathbf{GL}(n, K)$. Nó là một nhóm con Lie của $\mathbf{GL}(n, K)$ và $L(G) \subset \mathfrak{gl}(n, K)$ là đại số Lie của các ma trận tam giác dưới với đường chéo bằng không (\S 3, no. 10, Mệnh đề 36). Theo Chương II, \S 4, no. 6, *Nhận xét*, $G$ là lũy linh. Từ đây về sau giả sử rằng $K = \mathbf{R}$ hoặc $\mathbf{C}$. Vì $G$ là đồng phôi với $K^{n(n-1)/2}$, $G$ là đơn liên. Ánh xạ mũ từ $L(G)$ vào $G$ chính là ánh xạ
+**Ví dụ về một nhóm Lie lũy linh.** Cho $G$ là nhóm con tam giác ngặt dưới của $\mathbf{GL}(n, K)$. Nó là một nhóm con Lie của $\mathbf{GL}(n, K)$ và $L(G) \subset \mathfrak{gl}(n, K)$ là đại số Lie của các ma trận tam giác dưới với đường chéo bằng không (§ 3, no. 10, Mệnh đề 36). Theo Chương II, § 4, no. 6, *Nhận xét*, $G$ là lũy linh. Từ đây về sau giả sử rằng $K = \mathbf{R}$ hoặc $\mathbf{C}$. Vì $G$ là đồng phôi với $K^{n(n-1)/2}$, $G$ là đơn liên. Ánh xạ mũ từ $L(G)$ vào $G$ chính là ánh xạ
 $$
 u \mapsto \exp u = \sum_{k \geq 0} \frac{u^k}{k!} = \sum_{k=0}^{n-1} \frac{u^k}{k!}
 $$
-(\S 6, no. 4, *Ví dụ*). Theo Mệnh đề 13, ánh xạ mũ là một đẳng cấu của đa tạp $L(G)$ lên đa tạp $G$. Mệnh đề 17 của \S 6, no. 9 cho song ánh ngược $\log$. Ta trang bị $K^n$ một chuẩn. Theo *Các lý thuyết phổ*, Chương I, \S 4, no. 9, với $g \in G$ và $\|g - 1\| < 1$,
+(§ 6, no. 4, *Ví dụ*). Theo Mệnh đề 13, ánh xạ mũ là một đẳng cấu của đa tạp $L(G)$ lên đa tạp $G$. Mệnh đề 17 của § 6, no. 9 cho song ánh ngược $\log$. Ta trang bị $K^n$ một chuẩn. Theo *Các lý thuyết phổ*, Chương I, § 4, no. 9, với $g \in G$ và $\|g - 1\| < 1$,
 $$
 \log g = \sum_{k \geq 1} \frac{(-1)^{k-1}}{k} (g - 1)^k
 $$
@@ -489,7 +489,7 @@ Theo Mệnh đề 20, ánh xạ
 $$
 (\lambda_1, \lambda_2, \ldots, \lambda_p) \mapsto (\exp \lambda_1 y_1)(\exp \lambda_2 y_2) \cdots (\exp \lambda_p y_p)
 $$
-là một đẳng cấu của đa tạp $K^p$ lên đa tạp $N$. Tồn tại một cấu xạ nhóm Lie $\tau$ của $N$ vào $G$ sao cho $h = L(\tau)$ và $\tau(N) = M$ (\S 6, no. 2, Hệ quả 1 của Mệnh đề 1). Do đó $M$ là tập hợp các phần tử của $G$ có dạng
+là một đẳng cấu của đa tạp $K^p$ lên đa tạp $N$. Tồn tại một cấu xạ nhóm Lie $\tau$ của $N$ vào $G$ sao cho $h = L(\tau)$ và $\tau(N) = M$ (§ 6, no. 2, Hệ quả 1 của Mệnh đề 1). Do đó $M$ là tập hợp các phần tử của $G$ có dạng
 $$
 \tau((\exp \lambda_1 y_1) \cdots (\exp \lambda_p y_p)) = \exp(\lambda_1 L(\tau)y_1) \cdots \exp(\lambda_p L(\tau)y_p)
 = \exp(\lambda_1 x_{i_1}) \cdots \exp(\lambda_p x_{i_p}).
@@ -501,8 +501,8 @@ Vậy $M = \phi(T)$ trong đó $T$ là một không gian con vectơ của $K^n$.
 *Giả sử rằng $K = \mathbf{R}$ hoặc $\mathbf{C}$. Cho $V$ là một không gian vectơ hữu hạn chiều và $G$ là một nhóm con giải được liên thông của $\mathbf{GL}(V)$. Giả sử rằng biểu diễn đồng nhất của $G$ là đơn.*
 (i) *Nếu $K = \mathbf{R}$ thì $\dim V \leq 2$ và $G$ giao hoán.*
 (ii) *Nếu $K = \mathbf{C}$ thì $\dim V = 1$.*
-(i) Giả sử rằng $K = \mathbf{R}$. Khi đó bao đóng $H$ của $G$ trong $\mathbf{GL}(V)$ là một nhóm Lie con giải được liên thông của $\mathbf{GL}(V)$ (no. 1, Hệ quả 2 của Mệnh đề 1). Do đó $L(H)$ là giải được (Mệnh đề 19). Biểu diễn đồng nhất của $L(G)$ là đơn (\S 6, no. 5, Hệ quả 2 của Mệnh đề 13). Do đó $\dim V \leq 2$ và $L(G)$ giao hoán (Chương I, \S 5, Hệ quả 1 và 4 của Định lý 1). Do đó $G$ giao hoán.
-(ii) Giả sử rằng $K = \mathbf{C}$. Cho $W$ là một phần tử cực tiểu trong số các không gian vectơ con thực khác không của $V$ ổn định dưới $G$. Không gian vectơ con phức của $V$ sinh bởi $W$ bằng $V$ vì biểu diễn đồng nhất của $G$ là đơn. Theo (i), $G|W$ giao hoán. Do đó $G$ giao hoán. Vì vậy mọi phần tử của $G$ là một phép vị tự (*Đại số*, Chương VIII, \S 4, Hệ quả 1 của Mệnh đề 2), sao cho $\dim V = 1$.
+(i) Giả sử rằng $K = \mathbf{R}$. Khi đó bao đóng $H$ của $G$ trong $\mathbf{GL}(V)$ là một nhóm Lie con giải được liên thông của $\mathbf{GL}(V)$ (no. 1, Hệ quả 2 của Mệnh đề 1). Do đó $L(H)$ là giải được (Mệnh đề 19). Biểu diễn đồng nhất của $L(G)$ là đơn (§ 6, no. 5, Hệ quả 2 của Mệnh đề 13). Do đó $\dim V \leq 2$ và $L(G)$ giao hoán (Chương I, § 5, Hệ quả 1 và 4 của Định lý 1). Do đó $G$ giao hoán.
+(ii) Giả sử rằng $K = \mathbf{C}$. Cho $W$ là một phần tử cực tiểu trong số các không gian vectơ con thực khác không của $V$ ổn định dưới $G$. Không gian vectơ con phức của $V$ sinh bởi $W$ bằng $V$ vì biểu diễn đồng nhất của $G$ là đơn. Theo (i), $G|W$ giao hoán. Do đó $G$ giao hoán. Vì vậy mọi phần tử của $G$ là một phép vị tự (*Đại số*, Chương VIII, § 4, Hệ quả 1 của Mệnh đề 2), sao cho $\dim V = 1$.
 
 #### Hệ quả {#lie-iii-s9-n6-cor-1 .statement}
 
@@ -672,7 +672,7 @@ Ta sẽ thấy sau rằng, nếu $k$ là một trường giao hoán có đặc s
 
 Tương tự, có thể thấy rằng (i) $\Rightarrow$ (ii').
 
-(i) $\Rightarrow$ (ii): Giả sử rằng $G/\overline{D^1}G$ không compact và do đó đẳng cấu với một nhóm có dạng $\mathbf{R}^p \times \mathbf{T}^q$ với $p > 0$ ($\S 6$, no. 4, Mệnh đề 11 (ii)). Khi đó tồn tại một cấu xạ toàn ánh từ $G/\overline{D^1}G$ lên $\mathbf{R}$ và do đó tồn tại một cấu xạ toàn ánh từ $G$ lên $\mathbf{R}$. Ánh xạ
+(i) $\Rightarrow$ (ii): Giả sử rằng $G/\overline{D^1}G$ không compact và do đó đẳng cấu với một nhóm có dạng $\mathbf{R}^p \times \mathbf{T}^q$ với $p > 0$ ($§ 6$, no. 4, Mệnh đề 11 (ii)). Khi đó tồn tại một cấu xạ toàn ánh từ $G/\overline{D^1}G$ lên $\mathbf{R}$ và do đó tồn tại một cấu xạ toàn ánh từ $G$ lên $\mathbf{R}$. Ánh xạ
 
 $$
 g \mapsto \sigma(g) = \begin{pmatrix} 1 & 0 \\ \rho(g) & 1 \end{pmatrix}

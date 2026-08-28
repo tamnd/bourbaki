@@ -13,9 +13,9 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f88800e3dc4e75e8e5e3a6efe8826ce366f0e8e73bd91e44dc9feb0360f5bc34
+content_sha256: b3ee9f675ce24d27f2483ae10c0e329103cb416d224dceab0fe341f31d090f97
 translated_from: content/en/alg/III/historical_note.md
-source_content_sha256: a3fbcbf4cb7df0e3e94f0c44f1e279811ec50e413842e6493f07ed4b9a87d2cb
+source_content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-d3878555
 glossary_version: 34
@@ -207,11 +207,11 @@ $(G:H), G/H$ (H một nhóm con của G): I, § 4, no. 4.
 $x \equiv y$ (mod. H), $x \equiv y$ (H) (H một nhóm con chuẩn tắc): I, § 4, no. 4.
 Ker $f$, Im $f$ ($f$ một đồng cấu nhóm): I, § 4, no. 5.
 $$
-\prod_{i \in I} G_i \quad (G_i \text{ nhóm}): \text{I, } \S 4, \text{ no. 8}.
+\prod_{i \in I} G_i \quad (G_i \text{ nhóm}): \text{I, } § 4, \text{ no. 8}.
 $$
 $G_1 \times_H G_2$: I, § 4, no. 8.
 $$
-\prod_{i \in I} G_i \quad (G_i \text{ nhóm}): \text{I, } \S 4, \text{ no. 9}.
+\prod_{i \in I} G_i \quad (G_i \text{ nhóm}): \text{I, } § 4, \text{ no. 9}.
 $$
 $x \equiv y$ (mod. $a$), $x \equiv y$ ($a$) ($a, x, y$ số nguyên hữu tỉ): I, § 4, no. 10.
 $v_p(a)$ ($p$ một số nguyên tố, $a$ một số nguyên hữu tỉ): I, § 4, no. 10.

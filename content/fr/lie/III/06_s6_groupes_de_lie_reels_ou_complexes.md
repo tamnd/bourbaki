@@ -52,7 +52,7 @@ subsections:
       pdf_page: 208
 statements: 76
 exercises: 30
-content_sha256: fe38d0e07965528001fa474c2453af125868ae27bc80af5a2f745d9e63d29fe6
+content_sha256: 0c0aa45c037a0c8db2516693270edab5bbaa40d762cc847d1c6ef8d1e66d7d67
 ---
 
 ## § 6. Groupes de Lie réels ou complexes
@@ -131,9 +131,9 @@ Soit G un groupe de Lie.
 
 (ii) Soit H un sous-groupe intégral de G. Tout sous-groupuscule de Lie connexe de G d’algèbre de Lie $L(H)$ est une sous-variété ouverte de H qui engendre H.
 
-a) Soit $\mathfrak{h}$ une sous-algèbre de Lie de $L(G)$ admettant un supplémentaire topologique. Soit $H_1$ un sous-groupuscule de Lie de G tel que $L(H_1) = \mathfrak{h}$ (\S 4, th. 3). On peut choisir $H_1$ de telle sorte qu’il soit connexe. Soit H le sous-groupe de G engendré par $H_1$. Il existe (\S 1, cor. de la prop. 22) une structure de groupe de Lie sur H telle que $H_1$ soit une sous-variété ouverte de H et que l’injection canonique de H dans G soit une immersion. Comme $H_1$ est connexe, H est connexe, donc est un sous-groupe intégral de G. On a $L(H) = L(H_1) = \mathfrak{h}$. Cela prouve que l’application considérée en (i) est surjective.
+a) Soit $\mathfrak{h}$ une sous-algèbre de Lie de $L(G)$ admettant un supplémentaire topologique. Soit $H_1$ un sous-groupuscule de Lie de G tel que $L(H_1) = \mathfrak{h}$ (§ 4, th. 3). On peut choisir $H_1$ de telle sorte qu’il soit connexe. Soit H le sous-groupe de G engendré par $H_1$. Il existe (§ 1, cor. de la prop. 22) une structure de groupe de Lie sur H telle que $H_1$ soit une sous-variété ouverte de H et que l’injection canonique de H dans G soit une immersion. Comme $H_1$ est connexe, H est connexe, donc est un sous-groupe intégral de G. On a $L(H) = L(H_1) = \mathfrak{h}$. Cela prouve que l’application considérée en (i) est surjective.
 
-b) Soient H un sous-groupe intégral de G, et $N_1$ un sous-groupuscule de Lie connexe de G d’algèbre de Lie $L(H)$. Comme l’injection canonique de H dans G est une immersion, il existe un sous-groupuscule ouvert $H_1$ de H qui est en même temps sous-variété de G, donc un sous-groupuscule de Lie de G d’algèbre de Lie $L(H)$. D’autre part, soit N le sous-groupe de G engendré par $N_1$; d’après la partie a) de la démonstration, il est muni d’une structure de sous-groupe intégral de G tel que $N_1$ soit une sous-variété ouverte de N. D’après le \S 4, th. 3, $H_1 \cap N_1$ est ouvert dans $H_1$ et $N_1$. Donc le sous-groupe de G engendré par $H_1 \cap N_1$ est égal d’une part à H, d’autre part à N. Par suite les groupes de Lie H et N sont égaux. Cela prouve (ii), et prouve aussi que l’application considérée en (i) est injective.
+b) Soient H un sous-groupe intégral de G, et $N_1$ un sous-groupuscule de Lie connexe de G d’algèbre de Lie $L(H)$. Comme l’injection canonique de H dans G est une immersion, il existe un sous-groupuscule ouvert $H_1$ de H qui est en même temps sous-variété de G, donc un sous-groupuscule de Lie de G d’algèbre de Lie $L(H)$. D’autre part, soit N le sous-groupe de G engendré par $N_1$; d’après la partie a) de la démonstration, il est muni d’une structure de sous-groupe intégral de G tel que $N_1$ soit une sous-variété ouverte de N. D’après le § 4, th. 3, $H_1 \cap N_1$ est ouvert dans $H_1$ et $N_1$. Donc le sous-groupe de G engendré par $H_1 \cap N_1$ est égal d’une part à H, d’autre part à N. Par suite les groupes de Lie H et N sont égaux. Cela prouve (ii), et prouve aussi que l’application considérée en (i) est injective.
 
 #### Remarque 1 {#lie-iii-s6-n2-rem-1 .statement}
 
@@ -153,8 +153,8 @@ Soient G et H des groupes de Lie, $\varphi$ un morphisme de groupes de Lie de G 
 
 (ii) Soit $H'$ le sous-groupe intégral de $H$ d’algèbre de Lie $\mathrm{Im}\ h$. Alors $\varphi(G) = H'$.
 (iii) L’application de $G/N$ dans $H'$ déduite de $\varphi$ par passage au quotient est un isomorphisme de groupes de Lie.
-(i) a déjà été démontré ($\S 3$, no 8, prop. 28).
-Soit $\psi$ le morphisme de groupes de Lie de $G/N$ dans $H$ déduit de $\varphi$ par passage au quotient; c’est une immersion ($\S 3$, no 8, prop. 28). D’après la prop. 1, $\psi$ est un morphisme de groupes de Lie de $G/N$ dans $H'$. Ce morphisme est étale, donc $\psi(G/N) = H'$ puisque $H'$ est connexe; cela prouve (ii). Alors $\psi : G/N \to H'$ est bijectif, et est un isomorphisme de groupes de Lie, ce qui prouve (iii).
+(i) a déjà été démontré ($§ 3$, no 8, prop. 28).
+Soit $\psi$ le morphisme de groupes de Lie de $G/N$ dans $H$ déduit de $\varphi$ par passage au quotient; c’est une immersion ($§ 3$, no 8, prop. 28). D’après la prop. 1, $\psi$ est un morphisme de groupes de Lie de $G/N$ dans $H'$. Ce morphisme est étale, donc $\psi(G/N) = H'$ puisque $H'$ est connexe; cela prouve (ii). Alors $\psi : G/N \to H'$ est bijectif, et est un isomorphisme de groupes de Lie, ce qui prouve (iii).
 
 #### Corollaire 2 {#lie-iii-s6-prop-1-cor-2 .statement}
 
@@ -171,15 +171,15 @@ Soient $G$ un groupe de Lie de dimension finie, $(H_i)_{i \in I}$ une famille de
 $$
 L(H) = \bigcap_{i \in I} L(H_i).
 $$
-Il existe une partie finie $J$ de $I$ telle que $\bigcap_{i \in J} L(H_i)$ soit égal à l’intersection $M$ de tous les $L(H_i)$. On sait que $H^* = \bigcap_{i \in J} H_i$ est un sous-groupe de Lie tel que $L(H^*) = M$ ($\S 3$, no 8, cor. 2 de la prop. 29). Soit $H_0$ la composante neutre de $H^*$. C’est un sous-groupe de Lie de $G$, et $L(H_0) = M$. D’après le cor. 2, on a $H_0 \subset H_i$ pour tout $i$, donc $H_0 \subset H \subset H^*$, d’où le corollaire.
+Il existe une partie finie $J$ de $I$ telle que $\bigcap_{i \in J} L(H_i)$ soit égal à l’intersection $M$ de tous les $L(H_i)$. On sait que $H^* = \bigcap_{i \in J} H_i$ est un sous-groupe de Lie tel que $L(H^*) = M$ ($§ 3$, no 8, cor. 2 de la prop. 29). Soit $H_0$ la composante neutre de $H^*$. C’est un sous-groupe de Lie de $G$, et $L(H_0) = M$. D’après le cor. 2, on a $H_0 \subset H_i$ pour tout $i$, donc $H_0 \subset H \subset H^*$, d’où le corollaire.
 
 #### Corollaire 4 {#lie-iii-s6-prop-1-cor-4 .statement}
 
 Soit $G$ un groupe de Lie connexe de dimension finie. Les conditions suivantes sont équivalentes:
-(i) $G$ est unimodulaire (INT, VII, $\S 1$, no 3, déf. 3);
+(i) $G$ est unimodulaire (INT, VII, $§ 1$, no 3, déf. 3);
 (ii) $\det \operatorname{Ad} g = 1$ pour tout $g \in G$;
 (iii) $\operatorname{Tr} \operatorname{ad} a = 0$ pour tout $a \in L(G)$.
-L’application $g \mapsto \det \operatorname{Ad} g$ est un morphisme $\varphi$ de $G$ dans $K^*$. D’après le $\S 3$, prop. 35 (no 10) et 44 (no 12), on a $L(\varphi)a = \operatorname{Tr} \operatorname{ad} a$ pour tout $a \in L(G)$. Il est clair que $\operatorname{Im} L(\varphi) = \{0\}$ ou $K$. Dans le premier (resp. deuxième) cas, on a
+L’application $g \mapsto \det \operatorname{Ad} g$ est un morphisme $\varphi$ de $G$ dans $K^*$. D’après le $§ 3$, prop. 35 (no 10) et 44 (no 12), on a $L(\varphi)a = \operatorname{Tr} \operatorname{ad} a$ pour tout $a \in L(G)$. Il est clair que $\operatorname{Im} L(\varphi) = \{0\}$ ou $K$. Dans le premier (resp. deuxième) cas, on a
 
 #### Proposition 2 {#lie-iii-s6-prop-2 .statement}
 
@@ -204,7 +204,7 @@ Si la topologie de H admet une base dénombrable, la condition (i) implique que 
 
 #### Corollaire 1 {#lie-iii-s6-prop-3-cor-1 .statement}
 
-*Soient G un groupe de Lie de dimension finie, H un sous-groupe intégral de G. Alors la sous-algèbre de Lie tangente en e à H ($\S 4$, n° 5, déf. 2 et 3) est $L(H)$, et la structure de groupe de Lie de H est la structure induite par celle de G.*
+*Soient G un groupe de Lie de dimension finie, H un sous-groupe intégral de G. Alors la sous-algèbre de Lie tangente en e à H ($§ 4$, n° 5, déf. 2 et 3) est $L(H)$, et la structure de groupe de Lie de H est la structure induite par celle de G.*
 En effet, comme H est connexe de dimension finie, sa topologie admet une base dénombrable.
 
 #### Corollaire 2 {#lie-iii-s6-prop-3-cor-2 .statement}
@@ -244,21 +244,21 @@ Soient $G$ un groupe de Lie de dimension finie, $H$ un sous-groupe de $G$. Soit 
 
 #### Remarque 4 {#lie-iii-s6-n2-rem-4 .statement}
 
-Si $K = \mathbf{R}$, on peut aussi caractériser les sous-groupes intégraux de $G$ comme les sous-groupes qui, munis de la topologie induite par celle de $G$, sont connexes *par arcs* (\S 8, exerc. 4). Toutefois, il peut exister des sous-groupes *connexes* qui ne sont pas intégraux (AC, VI, \S 9, \S g, exerc. 9).
+Si $K = \mathbf{R}$, on peut aussi caractériser les sous-groupes intégraux de $G$ comme les sous-groupes qui, munis de la topologie induite par celle de $G$, sont connexes *par arcs* (§ 8, exerc. 4). Toutefois, il peut exister des sous-groupes *connexes* qui ne sont pas intégraux (AC, VI, § 9, \S g, exerc. 9).
 
 #### Corollaire {#lie-iii-s6-n2-cor-1 .statement}
 
 *Soient $G$ un groupe de Lie de dimension finie, $H_1$ et $H_2$ deux sous-groupes intégraux de $G$. Le sous-groupe de $G$ engendré par $H_1$ et $H_2$, et le sous-groupe $(H_1, H_2)$ de $G$, sont des sous-groupes intégraux de $G$*.
 
-Le sous-groupe $(G, G)$ de $G$ n’est pas toujours fermé (\S 9, exerc. 6).
+Le sous-groupe $(G, G)$ de $G$ n’est pas toujours fermé (§ 9, exerc. 6).
 
-Rappelons (\S 3, no 11, cor. 5 de la prop. 41) que si $a$ est une algèbre de dimension finie, $\mathrm{Aut}(a)$ est un sous-groupe de Lie de $\mathbf{GL}(a)$ et que $L(\mathrm{Aut}(a))$ est l’algèbre de Lie des dérivations de $a$.
+Rappelons (§ 3, no 11, cor. 5 de la prop. 41) que si $a$ est une algèbre de dimension finie, $\mathrm{Aut}(a)$ est un sous-groupe de Lie de $\mathbf{GL}(a)$ et que $L(\mathrm{Aut}(a))$ est l’algèbre de Lie des dérivations de $a$.
 
 #### Définition 2 {#lie-iii-s6-def-2 .statement}
 
 *Soit $a$ une algèbre de Lie de dimension finie. On note $\mathrm{Ad}(a)$ ou $\mathrm{Int}(a)$, le sous-groupe intégral de $\mathrm{Aut}(a)$ d’algèbre de Lie $\mathrm{ad}(a)$. Les éléments de ce groupe s’appellent automorphismes intérieurs de $a$*.
 
-Par transport de structure, $\mathrm{ad}(a)$ est invariant par $\mathrm{Aut}(a)$, donc $\mathrm{Int}(a)$ est distingué dans $\mathrm{Aut}(a)$. Compte tenu du \S 4, no 4, cor. 1 de la prop. 8, et du fait que $\mathrm{Int}(a)$ est connexe, les éléments de $\mathrm{Int}(a)$ sont les produits finis d’automorphismes de la forme $\exp \mathrm{ad}\, x$ où $x \in a$. En général, $\mathrm{Int}(a)$ n’est pas un sous-groupe de Lie de $\mathrm{Aut}(a)$ (exerc. 14).
+Par transport de structure, $\mathrm{ad}(a)$ est invariant par $\mathrm{Aut}(a)$, donc $\mathrm{Int}(a)$ est distingué dans $\mathrm{Aut}(a)$. Compte tenu du § 4, no 4, cor. 1 de la prop. 8, et du fait que $\mathrm{Int}(a)$ est connexe, les éléments de $\mathrm{Int}(a)$ sont les produits finis d’automorphismes de la forme $\exp \mathrm{ad}\, x$ où $x \in a$. En général, $\mathrm{Int}(a)$ n’est pas un sous-groupe de Lie de $\mathrm{Aut}(a)$ (exerc. 14).
 
 ### 3. Passage des algèbres de Lie aux groupes de Lie
 
@@ -268,9 +268,9 @@ Par transport de structure, $\mathrm{ad}(a)$ est invariant par $\mathrm{Aut}(a)$
 
 (ii) *Soient $G_1$ et $G_2$ deux groupes de Lie connexes, avec $G_1$ simplement connexe. Soient $f$ un isomorphisme de $L(G_1)$ sur $L(G_2)$, $\varphi$ le morphisme de $G_1$ dans $G_2$ tel que $L(\varphi) = f$, et $N$ le noyau de $\varphi$. Alors $N$ est un sous-groupe discret du centre de $G_1$, et le morphisme de $G_1/N$ dans $G_2$ déduit de $\varphi$ est un isomorphisme de groupes de Lie. Si $G_2$ est simplement connexe, $\varphi$ est un isomorphisme*.
 
-Soit $L$ une algèbre de Lie de dimension finie. Il existe un espace vectoriel $E$ de dimension finie tel qu’on puisse identifier $L$ à une sous-algèbre de Lie de $\mathrm{End}(E)$ (chap. I, \S 7, th. 2). Soit $H$ le sous-groupe intégral de $\mathbf{GL}(E)$ d’algèbre de Lie $L$. Soit $\hat{H}$ son revêtement universel (\S 1, no 9, Remarque). Alors $L(\hat{H})$ est isomorphe à $L$, d’où (i).
+Soit $L$ une algèbre de Lie de dimension finie. Il existe un espace vectoriel $E$ de dimension finie tel qu’on puisse identifier $L$ à une sous-algèbre de Lie de $\mathrm{End}(E)$ (chap. I, § 7, th. 2). Soit $H$ le sous-groupe intégral de $\mathbf{GL}(E)$ d’algèbre de Lie $L$. Soit $\hat{H}$ son revêtement universel (§ 1, no 9, Remarque). Alors $L(\hat{H})$ est isomorphe à $L$, d’où (i).
 
-Soient $G_1, G_2, f, \varphi, N$ comme dans (ii). Alors $\varphi$ est étale, donc $\varphi(G_1)$ est un sous-groupe ouvert de $G_2$, donc $\varphi(G_1) = G_2$. D’autre part, $N$ est discret, donc contenu dans le centre de $G_1$ (INT, VII, \S 3, lemme 4). Il est clair que le morphisme de $G/N$ sur $G_2$ déduit de $\varphi$ est un isomorphisme de groupe de Lie. Si $G_2$ est simplement connexe, toute application étale de $G_1$ sur $G_2$ est injective, donc $N = \{e\}$.
+Soient $G_1, G_2, f, \varphi, N$ comme dans (ii). Alors $\varphi$ est étale, donc $\varphi(G_1)$ est un sous-groupe ouvert de $G_2$, donc $\varphi(G_1) = G_2$. D’autre part, $N$ est discret, donc contenu dans le centre de $G_1$ (INT, VII, § 3, lemme 4). Il est clair que le morphisme de $G/N$ sur $G_2$ déduit de $\varphi$ est un isomorphisme de groupe de Lie. Si $G_2$ est simplement connexe, toute application étale de $G_1$ sur $G_2$ est injective, donc $N = \{e\}$.
 
 #### Proposition 5 {#lie-iii-s6-prop-5 .statement}
 
@@ -284,7 +284,7 @@ La conclusion de la prop. 5 ne subsiste pas nécessairement si G n’est pas sup
 
 Soit G un groupe de Lie complexe connexe. Si G est compact, G est commutatif.
 
-L’application holomorphe g ↦ Ad g de G dans $\mathcal{L}(L(G))$ est constante (VAR, R, 3.3.7), donc ad $a = 0$ pour tout $a \in L(G)$ ($\S 3$, n° 12, prop. 44). Donc G est commutatif ($\S 4$, cor. 3 du th. 1).
+L’application holomorphe g ↦ Ad g de G dans $\mathcal{L}(L(G))$ est constante (VAR, R, 3.3.7), donc ad $a = 0$ pour tout $a \in L(G)$ ($§ 3$, n° 12, prop. 44). Donc G est commutatif ($§ 4$, cor. 3 du th. 1).
 
 ### 4. Application exponentielle
 
@@ -479,7 +479,7 @@ Il suffit de faire E₁ = Kx, E₂ = 0 dans la prop. 13.
 Soit ρ' une autre représentation linéaire analytique de G dans un espace normable complet E'. Soit T ∈ $\mathcal{L}(E, E')$. Les conditions suivantes sont équivalentes:
 (i) Tρ(g) = ρ'(g)T pour tout g ∈ G;
 (ii) TL(ρ)(a) = L(ρ')(a)T pour tout a ∈ L(G).
-Soit σ la représentation linéaire de G dans $\mathcal{L}(E, E')$ déduite de ρ et ρ' (\S 3, n° 11, cor. 1 de la prop. 41). La condition (i) signifie que T est invariant par σ(G). La condition (ii) signifie que T est annulé par L(σ)(L(G)). Il suffit alors d’appliquer le cor. 3.
+Soit σ la représentation linéaire de G dans $\mathcal{L}(E, E')$ déduite de ρ et ρ' (§ 3, n° 11, cor. 1 de la prop. 41). La condition (i) signifie que T est invariant par σ(G). La condition (ii) signifie que T est annulé par L(σ)(L(G)). Il suffit alors d’appliquer le cor. 3.
 
 #### Corollaire 5 {#lie-iii-s6-prop-13-cor-5 .statement}
 
@@ -647,7 +647,7 @@ $$
 $$
 Soit $u \in \mathcal{L}(E)$ tel que tout $z \in \mathrm{Sp}\,u$ vérifie $|\mathcal{J}(z)| < \frac{2\pi}{n+1}$. Alors, pour tout $f \in F$, les conditions $\sigma(u)f = 0$ et $\rho(\exp u)f = f$ sont équivalentes.
 
-On a $\mathbf{L}(\rho) = \sigma$ (\S 3, no 11, cor. 1 de la prop. 41), donc $\rho(\exp u) = \exp \sigma(u)$ (no 4, cor. 3 de la prop. 10). Compte tenu de la prop. 18, il suffit alors de prouver que $\mathrm{Sp}\,\sigma(u)$ ne rencontre pas $2i\pi(\mathbf{Z} - \{0\})$. Or cela résulte du lemme suivant:
+On a $\mathbf{L}(\rho) = \sigma$ (§ 3, no 11, cor. 1 de la prop. 41), donc $\rho(\exp u) = \exp \sigma(u)$ (no 4, cor. 3 de la prop. 10). Compte tenu de la prop. 18, il suffit alors de prouver que $\mathrm{Sp}\,\sigma(u)$ ne rencontre pas $2i\pi(\mathbf{Z} - \{0\})$. Or cela résulte du lemme suivant:
 
 #### Lemme 6 {#lie-iii-s6-lem-6 .statement}
 
@@ -660,7 +660,7 @@ $$
 (v_if)(x_1, \ldots, x_n) &= -f(x_1, \ldots, vx_i, \ldots, x_n) \quad \text{pour } 1 \leq i \leq n.
 \end{align*}
 $$
-Alors $\sigma(v) = \sum_{i=0}^n v_i$, et les $v_i$ sont deux à deux permutables. Soit $A$ la sous-algèbre fermée pleine de $\mathcal{L}(F)$ engendrée par les $v_i$; elle est commutative (TS, I, \S 1, no 4), et $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (TS, I, \S 3, prop. 3 (ii)). Or, si $\lambda \in \mathbf{C}$ est tel que $v - \lambda$ soit inversible, il est clair que les $v_i - \lambda$ sont inversibles, donc $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ pour tout $i$.
+Alors $\sigma(v) = \sum_{i=0}^n v_i$, et les $v_i$ sont deux à deux permutables. Soit $A$ la sous-algèbre fermée pleine de $\mathcal{L}(F)$ engendrée par les $v_i$; elle est commutative (TS, I, § 1, no 4), et $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (TS, I, § 3, prop. 3 (ii)). Or, si $\lambda \in \mathbf{C}$ est tel que $v - \lambda$ soit inversible, il est clair que les $v_i - \lambda$ sont inversibles, donc $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ pour tout $i$.
 
 #### Corollaire 2 {#lie-iii-s6-lem-6-cor-2 .statement}
 
@@ -849,7 +849,7 @@ définit par passage au quotient un isomorphisme de $G/G_0$ sur $\tilde{G}/\tild
 
 #### Remarque 2 {#lie-iii-s6-n10-rem-2 .statement}
 
-Supposons $G$ simplement connexe. Soient $g = L(G)$, $g_C$ la complexification de $g$, $S'$ le groupe de Lie complexe simplement connexe d’algèbre de Lie $g_C$, $\sigma$ le morphisme de $G$ dans $S'$ tel que $L(\sigma)$ soit l’injection canonique de $g$ dans $g_C$. Reprenons les notations de la démonstration de la prop. 20, partie *a*). Si $H = S'$ et $\varphi = \sigma$, on a $\varphi^* = \mathrm{Id}_{S'}$. Donc $(S', \sigma)$ est la complexification universelle de $G$. On notera que $\sigma$ n’est pas injectif en général (exerc. 16); toutefois *son noyau est discret* puisque $L(\sigma)$ est injectif. D’autre part, soit $\theta$ l’involution de $g_C$ définie par $g$, et soit $\eta$ l’automorphisme correspondant du groupe de Lie réel sous-jacent à $S'$; soit ${S'}^n$ l’ensemble des points de $S'$ invariants par $\eta$; c’est un sous-groupe de Lie réel de $S'$ d’algèbre de Lie $g$ (\S 3, n° 8, cor. 1 de la prop. 29). D’après le n° 1, cor. 1 de la prop. 1, $\sigma(G)$ est le sous-groupe intégral réel de $S'$ d’algèbre de Lie $g$, donc $\sigma(G)$ *est la composante neutre de* ${S'}^n$; en particulier $\sigma(G)$ est un sous-groupe de Lie réel de $S'$.
+Supposons $G$ simplement connexe. Soient $g = L(G)$, $g_C$ la complexification de $g$, $S'$ le groupe de Lie complexe simplement connexe d’algèbre de Lie $g_C$, $\sigma$ le morphisme de $G$ dans $S'$ tel que $L(\sigma)$ soit l’injection canonique de $g$ dans $g_C$. Reprenons les notations de la démonstration de la prop. 20, partie *a*). Si $H = S'$ et $\varphi = \sigma$, on a $\varphi^* = \mathrm{Id}_{S'}$. Donc $(S', \sigma)$ est la complexification universelle de $G$. On notera que $\sigma$ n’est pas injectif en général (exerc. 16); toutefois *son noyau est discret* puisque $L(\sigma)$ est injectif. D’autre part, soit $\theta$ l’involution de $g_C$ définie par $g$, et soit $\eta$ l’automorphisme correspondant du groupe de Lie réel sous-jacent à $S'$; soit ${S'}^n$ l’ensemble des points de $S'$ invariants par $\eta$; c’est un sous-groupe de Lie réel de $S'$ d’algèbre de Lie $g$ (§ 3, n° 8, cor. 1 de la prop. 29). D’après le n° 1, cor. 1 de la prop. 1, $\sigma(G)$ est le sous-groupe intégral réel de $S'$ d’algèbre de Lie $g$, donc $\sigma(G)$ *est la composante neutre de* ${S'}^n$; en particulier $\sigma(G)$ est un sous-groupe de Lie réel de $S'$.
 
 ## EXERCICES {#lie-iii-s6-exercises}
 

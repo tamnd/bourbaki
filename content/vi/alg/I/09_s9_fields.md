@@ -29,9 +29,9 @@ subsections:
       pdf_page: 141
 statements: 17
 exercises: 21
-content_sha256: 80632ba263b97ee8a04df885d47242c883a8c8414e845ab80bac82995fdd783f
+content_sha256: c10588706d9b9cb30762b4cf17ab89c406fe0c61645112a96b9245fee4c31a51
 translated_from: content/en/alg/I/09_s9_fields.md
-source_content_sha256: 2ea7f5c709dd497e2a748d6c61de4de2928afff06ecc88ed3cce87908c91cfbd
+source_content_sha256: c54109ab0486eb0429b39cd920922e175b23d40ada27646fa6d30fa48c18edc2
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-6fafc88f
 glossary_version: 34
@@ -47,20 +47,20 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 *Một vành $K$ được gọi là một trường nếu nó không chỉ gồm $0$ và mọi phần tử khác không của $K$ đều khả nghịch.*
 
-Tập hợp các phần tử khác không của trường $K$, với phép nhân, là một nhóm, chính xác là nhóm nhân $K^*$ của vành $K$ (\S 8, no. 1). Vành đối của một trường là một trường. Một trường được gọi là *giao hoán* nếu phép nhân của nó giao hoán; khi đó trường này được đồng nhất với vành đối của nó. Một trường không giao hoán đôi khi được gọi là một *trường skew*.
+Tập hợp các phần tử khác không của trường $K$, với phép nhân, là một nhóm, chính xác là nhóm nhân $K^*$ của vành $K$ (§ 8, no. 1). Vành đối của một trường là một trường. Một trường được gọi là *giao hoán* nếu phép nhân của nó giao hoán; khi đó trường này được đồng nhất với vành đối của nó. Một trường không giao hoán đôi khi được gọi là một *trường skew*.
 
 #### Ví dụ {#alg-i-s9-n1-exa-1 .statement}
 
-*(1)* Trong no. 4, chúng ta sẽ định nghĩa trường các *số hữu tỉ*; trong *Tôpô đại cương*, trường các số thực sẽ được định nghĩa (*Tôpô đại cương*, IV, \S 1, no. 3), cũng như trường các số phức (*Tôpô đại cương*, VIII, \S 1, no. 1) và trường các quaternion (*Tôpô đại cương*, VIII, \S 1, no. 4). Các trường này giao hoán, ngoại trừ trường các quaternion.*
+*(1)* Trong no. 4, chúng ta sẽ định nghĩa trường các *số hữu tỉ*; trong *Tôpô đại cương*, trường các số thực sẽ được định nghĩa (*Tôpô đại cương*, IV, § 1, no. 3), cũng như trường các số phức (*Tôpô đại cương*, VIII, § 1, no. 1) và trường các quaternion (*Tôpô đại cương*, VIII, § 1, no. 4). Các trường này giao hoán, ngoại trừ trường các quaternion.*
 *(2)* Vành $\mathbf{Z}/2\mathbf{Z}$ hiển nhiên là một trường.
 
 Cho $K$ là một trường. Mọi vành con $L$ của $K$ là một trường đều được gọi là một *trường con* của $K$ và khi đó $K$ được gọi là một *mở rộng trường* của $L$; nói như vậy cũng tương đương với việc $L$ là một vành con của $K$ và $x^{-1} \in L$ với mọi phần tử khác không $x$ của $L$. Nếu $(L_i)_{i \in I}$ là một họ các trường con của $K$, thì $\bigcap_{i \in I} L_i$ là một trường con của $K$; do đó, với mọi tập con $X$ của $K$, tồn tại một trường con nhỏ nhất của $K$ chứa $X$; trường này được gọi là *sinh bởi* $X$.
 
 #### Mệnh đề 1 {#alg-i-s9-prop-1 .statement}
 
-*Cho $K$ là một trường. Với mọi tập con $X$ của $K$, bộ tâm hóa (\S 8, no. 5, Ví dụ 3) $X'$ của $X$ là một trường con của $K$.*
+*Cho $K$ là một trường. Với mọi tập con $X$ của $K$, bộ tâm hóa (§ 8, no. 5, Ví dụ 3) $X'$ của $X$ là một trường con của $K$.*
 
-Ta biết (*loc. cit.*) rằng $X'$ là một vành con của $K$. Mặt khác, nếu $x \neq 0$ giao hoán với $z \in X$, thì $x^{-1}$ cũng vậy (I, \S 2, no. 3, Mệnh đề 5), và do đó $X'$ chứa nghịch đảo của mọi phần tử khác không của $X'$.
+Ta biết (*loc. cit.*) rằng $X'$ là một vành con của $K$. Mặt khác, nếu $x \neq 0$ giao hoán với $z \in X$, thì $x^{-1}$ cũng vậy (I, § 2, no. 3, Mệnh đề 5), và do đó $X'$ chứa nghịch đảo của mọi phần tử khác không của $X'$.
 
 #### Hệ quả {#alg-i-s9-n1-cor-1 .statement}
 
@@ -85,19 +85,19 @@ Trong Định lý 1, có thể thay các iđêan trái bằng các iđêan phả
 
 Cho $\mathbf{A}$ là một vành và $a$ là một iđêan hai phía của $\mathbf{A}$. Để vành $\mathbf{A}/a$ là một trường, điều kiện cần và đủ là $a$ là một iđêan trái cực đại của $\mathbf{A}$.
 
-Các iđêan trái của $\mathbf{A}/a$ có dạng $b/a$, trong đó $b$ là một iđêan trái của $\mathbf{A}$ chứa $a$ ($\S 8$, no. 8, Hệ quả của Mệnh đề 5). Nói rằng $\mathbf{A}/a \neq 0$ có nghĩa là $a \neq \mathbf{A}$. Với giả thiết này, $\mathbf{A}/a$ là một trường khi và chỉ khi các iđêan trái duy nhất của $\mathbf{A}$ chứa $a$ là $a$ và $\mathbf{A}$ (Định lý 1), do đó có hệ quả.
+Các iđêan trái của $\mathbf{A}/a$ có dạng $b/a$, trong đó $b$ là một iđêan trái của $\mathbf{A}$ chứa $a$ ($§ 8$, no. 8, Hệ quả của Mệnh đề 5). Nói rằng $\mathbf{A}/a \neq 0$ có nghĩa là $a \neq \mathbf{A}$. Với giả thiết này, $\mathbf{A}/a$ là một trường khi và chỉ khi các iđêan trái duy nhất của $\mathbf{A}$ chứa $a$ là $a$ và $\mathbf{A}$ (Định lý 1), do đó có hệ quả.
 
 #### Hệ quả 2 {#alg-i-s9-thm-1-cor-2 .statement}
 
 Cho $\mathbf{A}$ là một vành giao hoán khác 0. Tồn tại một đồng cấu của $\mathbf{A}$ lên một trường giao hoán.
 
-Theo Định lý của Krull ($\S 8$, no. 6, Định lý 1), tồn tại trong $\mathbf{A}$ một iđêan cực đại $a$. Khi đó $\mathbf{A}/a$ là một trường (Hệ quả 1).
+Theo Định lý của Krull ($§ 8$, no. 6, Định lý 1), tồn tại trong $\mathbf{A}$ một iđêan cực đại $a$. Khi đó $\mathbf{A}/a$ là một trường (Hệ quả 1).
 
 #### Hệ quả 3 {#alg-i-s9-thm-1-cor-3 .statement}
 
 Cho $a$ là một số nguyên $\geqslant 0$. Để vành $\mathbf{Z}/a\mathbf{Z}$ là một trường, điều kiện cần và đủ là $a$ là nguyên tố.
 
-Điều này suy ra từ Hệ quả 1 và $\S 8$, no. 11.
+Điều này suy ra từ Hệ quả 1 và $§ 8$, no. 11.
 
 Với $p$ nguyên tố, trường $\mathbf{Z}/p\mathbf{Z}$ được ký hiệu là $\mathbf{F}_p$.
 
@@ -115,7 +115,7 @@ Cho $a$ là hạt nhân của $f$. Khi đó $1 \notin a$ vì $f(1) = 1 \neq 0$ t
 
 Vành $\mathbf{Z}$ các số nguyên hữu tỉ là một miền nguyên; nó giao hoán và khác không; tích của hai số nguyên $> 0$ là khác không; mọi số nguyên khác không đều có dạng $a$ hoặc $-a$ với $a > 0$ và $(-a)b = -ab,\ (-a)(-b) = ab$ với $a > 0,\ b > 0$, do đó mệnh đề của chúng ta được chứng minh.
 
-Mọi trường giao hoán đều là một miền nguyên. Một vành con của một miền nguyên là một miền nguyên. Đặc biệt, một vành con của một trường giao hoán là một miền nguyên. Ta sẽ chứng minh rằng ngược lại mọi miền nguyên $\mathbf{A}$ đều đẳng cấu với một vành con của một trường giao hoán. Nhắc lại (\$ 8, no. 12) rằng $\mathbf{A}$ đã được đồng nhất với một vành con của vành phân thức toàn phần của nó. Mệnh đề của chúng ta khi đó suy ra từ mệnh đề sau:
+Mọi trường giao hoán đều là một miền nguyên. Một vành con của một miền nguyên là một miền nguyên. Đặc biệt, một vành con của một trường giao hoán là một miền nguyên. Ta sẽ chứng minh rằng ngược lại mọi miền nguyên $\mathbf{A}$ đều đẳng cấu với một vành con của một trường giao hoán. Nhắc lại (§ 8, no. 12) rằng $\mathbf{A}$ đã được đồng nhất với một vành con của vành phân thức toàn phần của nó. Mệnh đề của chúng ta khi đó suy ra từ mệnh đề sau:
 
 #### Mệnh đề 2 {#alg-i-s9-prop-2 .statement}
 
@@ -132,7 +132,7 @@ Vành phân thức toàn phần của một miền nguyên được gọi là *t
 (b) *Cho $\mathbf{A}'$ là trường phân thức của $\mathbf{A}$. Đơn ánh chính tắc của $\mathbf{A}$ vào $\mathbf{B}$ có thể được mở rộng duy nhất thành một đẳng cấu $f$ của $\mathbf{A}'$ lên một trường con của $\mathbf{B}$.
 (c) *Các phần tử của $f(\mathbf{A}')$ là các $xy^{-1}$ trong đó $x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$.*
 
-Mệnh đề (a) là hiển nhiên. Đơn ánh chính tắc của $\mathbf{A}$ vào $\mathbf{B}$ mở rộng duy nhất thành một đồng cấu $f$ của $\mathbf{A}'$ vào $\mathbf{B}$ (\$ 8, no. 12, Định lý 5). Mệnh đề (b) suy ra từ no. 1, Định lý 2. Các phần tử của $\mathbf{A}'$ là các phân thức $x/y$ với $x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$ và $f(x/y) = xy^{-1}$, do đó (c).
+Mệnh đề (a) là hiển nhiên. Đơn ánh chính tắc của $\mathbf{A}$ vào $\mathbf{B}$ mở rộng duy nhất thành một đồng cấu $f$ của $\mathbf{A}'$ vào $\mathbf{B}$ (§ 8, no. 12, Định lý 5). Mệnh đề (b) suy ra từ no. 1, Định lý 2. Các phần tử của $\mathbf{A}'$ là các phân thức $x/y$ với $x \in \mathbf{A},\ y \in \mathbf{A},\ y \neq 0$ và $f(x/y) = xy^{-1}$, do đó (c).
 
 ### 3. IĐÊAN NGUYÊN TỐ
 

@@ -52,9 +52,9 @@ subsections:
       pdf_page: 165
 statements: 32
 exercises: 9
-content_sha256: 7cb2c0cc3ceb1a94a933c96c469535b7364a5a380054eafbffc60552023b18f9
+content_sha256: 67aced4c9913267914ad99cb03c5e0ee66b114c7e49fdf9c0db3009e54f42717
 translated_from: content/en/top/IX/02_s2_metric_spaces_and_metrizable_spaces.md
-source_content_sha256: d91bfa26d214950517e689f6f767256e96a8448b834eb94092542b61fc3619d5
+source_content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-4b6cb0bf
 glossary_version: 34
@@ -223,7 +223,7 @@ $$
 *Một mêtric trên một tập hợp $X$ được gọi là tương thích với một cấu trúc đồng đều $U$ trên $X$ nếu cấu trúc đồng đều được xác định bởi mêtric trùng với $U$.
 Một cấu trúc đồng đều trên một tập hợp $X$ được gọi là metric hóa được nếu có một mêtric trên $X$ tương thích với cấu trúc đồng đều này. Một không gian đồng đều được gọi là metric hóa được nếu cấu trúc đồng đều của nó là metric hóa được.*
 
-Các mêtric phân biệt có thể tương thích với cùng một cấu trúc đồng đều; khi đó chúng là *tương đương* (\S 1, no. 2, Định nghĩa 2).
+Các mêtric phân biệt có thể tương thích với cùng một cấu trúc đồng đều; khi đó chúng là *tương đương* (§ 1, no. 2, Định nghĩa 2).
 
 #### Định lý 1 {#top-ix-s2-thm-1 .statement}
 
@@ -231,7 +231,7 @@ Các mêtric phân biệt có thể tương thích với cùng một cấu trúc
 
 Điều kiện là *cần thiết*, vì (với ký hiệu của no. 2) các lân cận $V_{1/n} (n \geq 1)$ tạo thành một cơ sở của lọc các lân cận của cấu trúc đồng đều của một không gian mêtric.
 
-Điều kiện là *đủ*, vì, nếu nó được thỏa mãn, cấu trúc đồng đều đang xét được xác định bởi một giả mêtric duy nhất, theo Mệnh đề 2 của \S 1, no. 4; vì cấu trúc đồng đều là Hausdorff, giả mêtric này là một mêtric.
+Điều kiện là *đủ*, vì, nếu nó được thỏa mãn, cấu trúc đồng đều đang xét được xác định bởi một giả mêtric duy nhất, theo Mệnh đề 2 của § 1, no. 4; vì cấu trúc đồng đều là Hausdorff, giả mêtric này là một mêtric.
 
 #### Hệ quả 1 {#top-ix-s2-thm-1-cor-1 .statement}
 
@@ -243,7 +243,7 @@ Vì nếu $(f_n)$ là một dãy các giả metric xác định một cấu trú
 
 *Mọi tích đếm được của các không gian đồng nhất mêtric hóa được đều mêtric hóa được.*
 
-Vì một không gian như vậy là Hausdorff và cấu trúc đồng nhất của nó có một hệ cơ sở đếm được các lân cận (Chương II, \S 2, no. 6).
+Vì một không gian như vậy là Hausdorff và cấu trúc đồng nhất của nó có một hệ cơ sở đếm được các lân cận (Chương II, § 2, no. 6).
 
 ### 5. KHÔNG GIAN TÔPÔ MÊTRIC HÓA ĐƯỢC
 
@@ -257,7 +257,7 @@ Không gian con $\mathbf{R}_+^*$ của $\mathbf{R}$ cung cấp một ví dụ v�
 
 Ta cũng nhận xét rằng có thể tồn tại các cấu trúc đồng nhất *không mêtric hóa được* tương thích với tôpô của một không gian tôpô *mêtric hóa được* (Bài tập 7).
 
-Ở đây ta sẽ chỉ xét các điều kiện *cần* để một không gian tôpô mêtric hóa được (về một điều kiện cần và đủ, xem \S 4, Bài tập 22). Trước hết, một không gian không thể mêtric hóa được trừ khi nó hoàn toàn chính quy (thật vậy, ta sẽ thấy, trong § 4, no. 1, Mệnh đề 2, rằng một không gian mêtric hóa được nhất thiết là "chuẩn tắc", đây là một điều kiện mạnh hơn). Mặt khác, Định lý 1 chỉ ra rằng:
+Ở đây ta sẽ chỉ xét các điều kiện *cần* để một không gian tôpô mêtric hóa được (về một điều kiện cần và đủ, xem § 4, Bài tập 22). Trước hết, một không gian không thể mêtric hóa được trừ khi nó hoàn toàn chính quy (thật vậy, ta sẽ thấy, trong § 4, no. 1, Mệnh đề 2, rằng một không gian mêtric hóa được nhất thiết là "chuẩn tắc", đây là một điều kiện mạnh hơn). Mặt khác, Định lý 1 chỉ ra rằng:
 
 #### Mệnh đề 6 {#top-ix-s2-prop-6 .statement}
 

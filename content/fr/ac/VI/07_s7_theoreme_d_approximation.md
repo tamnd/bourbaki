@@ -24,7 +24,7 @@ subsections:
       pdf_page: 132
 statements: 15
 exercises: 3
-content_sha256: f3d13465449ddddad91e0bf9f1a23457d7e0f8d918f8d7bb747c59c0f69658be
+content_sha256: 509ae173a9ca685d1d8f89151cdd7e582034c5e37e134c0ca9514767e1eba563
 ---
 
 ## § 7. Théorème d’approximation.
@@ -57,7 +57,7 @@ $$
 
 Admettons pour un moment ce lemme, et montrons comment il entraîne que $A_1 \subset B_{p_1}$. Soit $x$ un élément non nul de $A_1$. Appliquons le lemme à $x$ et à des valuations $v_i$ associées aux $A_i$. On a $v_i(z) \geq 0$ et $v_i(zx) \geq 0$ pour tout $i$, donc $z \in B$ et $zx \in B$. Comme $v_1(x) \geq 0$, on a $v_1(z) = 0$, donc $z \notin p_1$. Donc $x = xz/z \in B_{p_1}$. Le corps des fractions de $B$ contient alors $A_1$, et est donc $K$.
 
-Passons à la démonstration du lemme. Soit $I$ l’ensemble des indices $i$ tels que $v_i(x) \geq 0$. Pour $i \in I$, soit $A_i$ l’anneau de la valuation $v_i$, et notons $\bar{x}_i$ l’image canonique de $x$ dans $\kappa(A_i)$. Pour tout $i \in I$, construisons un polynôme $f_i$ de la façon suivante : s’il existe un polynôme $g(X)$ de la forme (1) tel que $g(\bar{x}_i) = 0$ dans $\kappa(A_i)$, nous prendrons pour $f_i$ un tel polynôme ; sinon nous prendrons $f_i = 1$. Posons alors $f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$. C’est évidemment un polynôme de la forme (1). Si $i \in I$, on a $f(x) \in A_i$, et aussi $f(\bar{x}_i) \neq 0$ par construction ; donc $f(x) \notin m(A_i)$, $v_i(f(x)) = 0$ et $v_i(z) = 0$. Si $i \notin I$, on a $v_i(x) < 0$, d’où $v_i(f(x)) = kv_i(x)$ (\$ 3, no 1, prop. 1), et $v_i(x) + v_i(z) = (1 - k)v_i(x) > 0$ (puisque $k \geq 2$). D’où le lemme.
+Passons à la démonstration du lemme. Soit $I$ l’ensemble des indices $i$ tels que $v_i(x) \geq 0$. Pour $i \in I$, soit $A_i$ l’anneau de la valuation $v_i$, et notons $\bar{x}_i$ l’image canonique de $x$ dans $\kappa(A_i)$. Pour tout $i \in I$, construisons un polynôme $f_i$ de la façon suivante : s’il existe un polynôme $g(X)$ de la forme (1) tel que $g(\bar{x}_i) = 0$ dans $\kappa(A_i)$, nous prendrons pour $f_i$ un tel polynôme ; sinon nous prendrons $f_i = 1$. Posons alors $f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$. C’est évidemment un polynôme de la forme (1). Si $i \in I$, on a $f(x) \in A_i$, et aussi $f(\bar{x}_i) \neq 0$ par construction ; donc $f(x) \notin m(A_i)$, $v_i(f(x)) = 0$ et $v_i(z) = 0$. Si $i \notin I$, on a $v_i(x) < 0$, d’où $v_i(f(x)) = kv_i(x)$ (§ 3, no 1, prop. 1), et $v_i(x) + v_i(z) = (1 - k)v_i(x) > 0$ (puisque $k \geq 2$). D’où le lemme.
 
 #### Proposition 2 {#ac-vi-s7-prop-2 .statement}
 
@@ -125,7 +125,7 @@ Soient $\nu$ et $\nu'$ deux valuations non impropres d’un même corps K. Pour 
 
 Supposons les topologies $\mathcal{T}_\nu$ et $\mathcal{T}_{\nu'}$, définies par $\nu$ et $\nu'$, identiques. Puisque $\mathcal{T}_\nu$ est séparée, la diagonale de $K^2$ est fermée, donc $\nu$ et $\nu'$ sont dépendantes (cor. 2 du th. 1).
 
-Inversement, supposons $\nu$ et $\nu'$ dépendantes. Alors leurs anneaux A et A' sont contenus dans un même anneau A'' distinct de K, et A'' est l’anneau d’une valuation $\nu''$ ($\S 4$, n° 1, prop. 1). Il suffit de montrer que la topologie $\mathcal{T}_{\nu''}$ est identique à $\mathcal{T}_\nu$. Soient $\Gamma$ et $\Gamma''$ les groupes des ordres de $\nu$ et $\nu''$. Il existe un homomorphisme croissant $\lambda$ de $\Gamma$ sur $\Gamma''$ tel que $\nu'' = \lambda \circ \nu$ ($\S 4$, n° 3). Si $\alpha'' \in \Gamma''$, soit $\alpha \in \lambda^{-1}(\alpha'')$; la condition $\nu(x) \geq \alpha$ entraîne $\nu''(x) \geq \alpha''$. Soient $\beta \in \Gamma$, et $\beta'' = \lambda(\beta)$; la condition $\nu(x) \leq \beta$ entraîne $\nu''(x) \leq \beta''$, donc la condition $\nu''(x) > \beta''$ entraîne $\nu(x) > \beta$. Comme $\nu$ et $\nu''$ sont non impropres, les inégalités envisagées définissent des systèmes fondamentaux de voisinages de 0 pour $\mathcal{T}_\nu$ et $\mathcal{T}_{\nu''}$. Donc $\mathcal{T}_\nu = \mathcal{T}_{\nu''}$, ce qui termine la démonstration.
+Inversement, supposons $\nu$ et $\nu'$ dépendantes. Alors leurs anneaux A et A' sont contenus dans un même anneau A'' distinct de K, et A'' est l’anneau d’une valuation $\nu''$ ($§ 4$, n° 1, prop. 1). Il suffit de montrer que la topologie $\mathcal{T}_{\nu''}$ est identique à $\mathcal{T}_\nu$. Soient $\Gamma$ et $\Gamma''$ les groupes des ordres de $\nu$ et $\nu''$. Il existe un homomorphisme croissant $\lambda$ de $\Gamma$ sur $\Gamma''$ tel que $\nu'' = \lambda \circ \nu$ ($§ 4$, n° 3). Si $\alpha'' \in \Gamma''$, soit $\alpha \in \lambda^{-1}(\alpha'')$; la condition $\nu(x) \geq \alpha$ entraîne $\nu''(x) \geq \alpha''$. Soient $\beta \in \Gamma$, et $\beta'' = \lambda(\beta)$; la condition $\nu(x) \leq \beta$ entraîne $\nu''(x) \leq \beta''$, donc la condition $\nu''(x) > \beta''$ entraîne $\nu(x) > \beta$. Comme $\nu$ et $\nu''$ sont non impropres, les inégalités envisagées définissent des systèmes fondamentaux de voisinages de 0 pour $\mathcal{T}_\nu$ et $\mathcal{T}_{\nu''}$. Donc $\mathcal{T}_\nu = \mathcal{T}_{\nu''}$, ce qui termine la démonstration.
 
 #### Remarque 1 {#ac-vi-s7-n2-rem-1 .statement}
 
@@ -133,13 +133,13 @@ La prop. 3 montre que la relation « $\nu$ et $\nu'$ sont dépendantes » est un
 
 #### Remarque 2 {#ac-vi-s7-n2-rem-2 .statement}
 
-Compte tenu des relations entre valuations de hauteur 1 et valeurs absolues ultramétriques ($\S 6$, n° 2), la prop. 3 résulte aussi, dans le cas des valuations de hauteur 1, de la caractérisation des valeurs absolues équivalentes (Top. gén., chap. IX, 2e éd., $\S 3$, n° 2, prop. 5).
+Compte tenu des relations entre valuations de hauteur 1 et valeurs absolues ultramétriques ($§ 6$, n° 2), la prop. 3 résulte aussi, dans le cas des valuations de hauteur 1, de la caractérisation des valeurs absolues équivalentes (Top. gén., chap. IX, 2e éd., $§ 3$, n° 2, prop. 5).
 
 #### Proposition 4 {#ac-vi-s7-prop-4 .statement}
 
 Soient $\nu_1, \ldots, \nu_n (n \geq 2)$ des valuations deux à deux dépendantes d’un même corps K. Alors les anneaux $A_1, \ldots, A_n$ de $\nu_1, \ldots, \nu_n$ engendrent un sous-anneau de K distinct de K.
 
-Pour $n = 2$, la prop. 4 résulte de la déf. 1. Supposons-la établie pour $n - 1$ valuations. Il existe alors un sous-anneau A de K distinct de K et contenant $A_1, \ldots, A_{n-1}$; il existe aussi un sous-anneau $B \neq K$ contenant $A_{n-1}$ et $A_n$. Comme A et B contiennent $A_{n-1}$, ils sont comparables pour l’inclusion ($\S 4$, n° 1, cor. de la prop. 1). Le plus grand des deux contient donc tous les $A_i$.
+Pour $n = 2$, la prop. 4 résulte de la déf. 1. Supposons-la établie pour $n - 1$ valuations. Il existe alors un sous-anneau A de K distinct de K et contenant $A_1, \ldots, A_{n-1}$; il existe aussi un sous-anneau $B \neq K$ contenant $A_{n-1}$ et $A_n$. Comme A et B contiennent $A_{n-1}$, ils sont comparables pour l’inclusion ($§ 4$, n° 1, cor. de la prop. 1). Le plus grand des deux contient donc tous les $A_i$.
 
 ### 3. Cas des valeurs absolues
 

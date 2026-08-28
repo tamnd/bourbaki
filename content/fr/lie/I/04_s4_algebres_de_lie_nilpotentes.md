@@ -32,7 +32,7 @@ subsections:
       pdf_page: 59
 statements: 18
 exercises: 27
-content_sha256: c35350897e3bf539e9f0d223d72b1f2656df90de5b3cebb086afd464affcec4f
+content_sha256: da1c428275ca39779a86d49c0013331d644e00605c7f7ea7798aa88ccb67ff6d
 ---
 
 ## § 4. Algèbres de Lie nilpotentes
@@ -102,7 +102,7 @@ La démonstration procède par récurrence sur la dimension n de g. Le théorèm
 
 Soit $\mathfrak{h}$ une sous-algèbre de Lie de g de dimension $m < n$. Si $x \in \mathfrak{h}$, $\mathrm{ad}_g x$ applique $\mathfrak{h}$ dans lui-même et définit par passage au quotient un endomorphisme $\sigma(x)$ de l’espace $g/\mathfrak{h}$. D’après le lemme 1, $\mathrm{ad}_g x$ est nilpotent, donc $\sigma(x)$ est nilpotent. En vertu de l’hypothèse de récurrence, il existe un élément non nul de $g/\mathfrak{h}$ qui est annulé par tous les $\sigma(x), x \in \mathfrak{h}$. Autrement dit, il existe $y \in g, y \notin \mathfrak{h}$, tel que $[x, y] \in \mathfrak{h}$ pour tout $x \in \mathfrak{h}$. Il en résulte que $\mathfrak{h}$ est un idéal dans une certaine sous-algèbre de dimension $m + 1$ de g.
 
-On en conclut (par itération à partir de $\mathfrak{h} = \{0\}$) que g possède un idéal $\mathfrak{h}$ de dimension $n - 1$. Soit $a \in g, a \notin \mathfrak{h}$. Faisons usage à nouveau de l’hypothèse de récurrence : les $u \in V$ tels que $x.u = 0$ pour tout $x \in \mathfrak{h}$ forment un sous-espace vectoriel non nul U de V. Ce sous-espace est stable pour $a$ (\S 3, no 5, prop. 5). Puisque $a$ est un endomorphisme nilpotent de V, il existe un élément non nul de U qui est annulé par $a$, donc par tout élément de g.
+On en conclut (par itération à partir de $\mathfrak{h} = \{0\}$) que g possède un idéal $\mathfrak{h}$ de dimension $n - 1$. Soit $a \in g, a \notin \mathfrak{h}$. Faisons usage à nouveau de l’hypothèse de récurrence : les $u \in V$ tels que $x.u = 0$ pour tout $x \in \mathfrak{h}$ forment un sous-espace vectoriel non nul U de V. Ce sous-espace est stable pour $a$ (§ 3, no 5, prop. 5). Puisque $a$ est un endomorphisme nilpotent de V, il existe un élément non nul de U qui est annulé par $a$, donc par tout élément de g.
 
 #### Corollaire 1 {#lie-i-s4-thm-1-cor-1 .statement}
 
@@ -124,7 +124,7 @@ Ceci résulte aussitôt du lemme 1 et du cor. 1.
 
 #### Exemple {#lie-i-s4-n2-exa-1 .statement}
 
-L’algèbre n(n, K) (\S 1, no 2, ex. 2, 3°) est nilpotente.
+L’algèbre n(n, K) (§ 1, no 2, ex. 2, 3°) est nilpotente.
 
 ### 3. Le plus grand idéal de nilpotence d’une représentation
 
@@ -132,7 +132,7 @@ L’algèbre n(n, K) (\S 1, no 2, ex. 2, 3°) est nilpotente.
 
 *Soient g une algèbre de Lie, a un idéal de g, M un g-module simple. Si, pour tout x \in a, x_M est nilpotent, alors x_M = 0 pour tout x \in a.*
 
-En effet, soit N le sous-espace de M formé des m \in M tels que x_M . m = 0 pour tout x \in a. D’après le th. 1, N \neq \{0\}. D’autre part, pour tout y \in g, N est stable pour y_M (\S 3, no 5, prop. 5). Donc N = M, ce qui prouve le lemme.
+En effet, soit N le sous-espace de M formé des m \in M tels que x_M . m = 0 pour tout x \in a. D’après le th. 1, N \neq \{0\}. D’autre part, pour tout y \in g, N est stable pour y_M (§ 3, no 5, prop. 5). Donc N = M, ce qui prouve le lemme.
 
 #### Lemme 3 {#lie-i-s4-lem-3 .statement}
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: b7b14957adea4a121aeb6342cb8f599de07efdca80c7e79743c005013e324aec
+content_sha256: ea8e120387da4eeeb5565a60d17f5eac8359a45e81eafde8841009256e414458
 ---
 
 ## § 3. ACTIONS
@@ -66,7 +66,7 @@ instead of "law of left action". The element $f_\alpha(x)$ of E (for $\alpha \in
 
 (6) Let $\alpha \mapsto f_\alpha$ be an action of $\Omega$ on E. Let g be a mapping of $\Omega'$ into $\Omega$. Then the mapping $\beta \mapsto f_{g(\beta)}$ is an action of $\Omega'$ on E.
 
-(7) Let $f : E \times E \to E$ be a law of composition on a set E. The mapping $\gamma : x \mapsto \gamma_x$ (resp. $\delta : x \mapsto \delta_x$) (\S 2, no. 2) which associates with the element $x \in E$ left (resp. right) translation by $x$ is an action of E on itself; it is called the *left* (resp. *right*) *action* of E on itself *derived* from the given law. When $f$ is commutative, these two actions coincide.
+(7) Let $f : E \times E \to E$ be a law of composition on a set E. The mapping $\gamma : x \mapsto \gamma_x$ (resp. $\delta : x \mapsto \delta_x$) (§ 2, no. 2) which associates with the element $x \in E$ left (resp. right) translation by $x$ is an action of E on itself; it is called the *left* (resp. *right*) *action* of E on itself *derived* from the given law. When $f$ is commutative, these two actions coincide.
 
 The law of left (resp. right) action associated with $\gamma$ is $f$ (resp. the opposite law to $f$). The law of right (resp. left) action associated with $\delta$ is $f$ (resp. the opposite law to $f$).
 

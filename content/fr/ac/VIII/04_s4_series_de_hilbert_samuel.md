@@ -33,7 +33,7 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: 1f4a5a3e84799205ef066dca65beb8b5d30a41db27c0eb4dda950fd73a226a00
+content_sha256: 8a3e20284919ae10cbe7a7b0edf8a7928dc3eb483565302464487f21ad0e6563
 ---
 
 ## § 4. SÉRIES DE HILBERT-SAMUEL
@@ -275,7 +275,7 @@ et des remarques 2 et 3, on tire $c_{H/xH} = 0$. La proposition est donc vérifi
 
 #### Remarque 6 {#ac-viii-s4-n2-rem-6 .statement}
 
-Sous les hypothèses de la prop. 2, on a donc $c_M = 0$ si et seulement si $M$ est un $H$-module de torsion, ou encore si et seulement si $\dim_H(M) < r$ (\$ 1, no 5, exemple 4).
+Sous les hypothèses de la prop. 2, on a donc $c_M = 0$ si et seulement si $M$ est un $H$-module de torsion, ou encore si et seulement si $\dim_H(M) < r$ (§ 1, no 5, exemple 4).
 
 ### 3. Série de Hilbert-Samuel d’un module bien filtré
 
@@ -443,9 +443,9 @@ avec R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1
 
 #### Théorème 3 {#ac-viii-s4-thm-3 .statement}
 
-Soient $A$ un anneau local noethérien, $q$ un idéal de $A$ distinct de $A$ et $M$ un $A$-module de type fini tel que $M/qM$ soit de longueur finie. Alors l’entier $d_q(M)$ est la dimension du $A$-module $M$ ($\S 1$, no 4, déf. 8).
+Soient $A$ un anneau local noethérien, $q$ un idéal de $A$ distinct de $A$ et $M$ un $A$-module de type fini tel que $M/qM$ soit de longueur finie. Alors l’entier $d_q(M)$ est la dimension du $A$-module $M$ ($§ 1$, no 4, déf. 8).
 
-On peut supposer $M \neq 0$. Démontrons l’inégalité $d_q(M) \leq \dim_A(M)$. D’après le cor. 2 à la prop. 9 du $\S 3$, no 5, il existe $x_1, ..., x_r \in q$, avec $r = \dim_A(M)$ et $\operatorname{long}(M / \sum_{i=1}^r x_i M) < +\infty$; posons $x = \sum_{i=1}^r x_i A$. D’après la prop. 4 du no 3, on a $d_x(M) \leq r$; on a $x \subset q$, d’où $H^{(1)}_{M,q} \leq H^{(1)}_{M,x}$ et donc (lemme 2 du no 1)
+On peut supposer $M \neq 0$. Démontrons l’inégalité $d_q(M) \leq \dim_A(M)$. D’après le cor. 2 à la prop. 9 du $§ 3$, no 5, il existe $x_1, ..., x_r \in q$, avec $r = \dim_A(M)$ et $\operatorname{long}(M / \sum_{i=1}^r x_i M) < +\infty$; posons $x = \sum_{i=1}^r x_i A$. D’après la prop. 4 du no 3, on a $d_x(M) \leq r$; on a $x \subset q$, d’où $H^{(1)}_{M,q} \leq H^{(1)}_{M,x}$ et donc (lemme 2 du no 1)
 
 $$
 d_q(M) \leq d_x(M) \leq r = \dim_A(M).
@@ -453,13 +453,13 @@ $$
 
 Démontrons maintenant, par récurrence sur $\dim_A(M)$, l’inégalité $\dim_A(M) \leq d_q(M)$, évidente lorsque $\dim_A(M) = 0$.
 
-Supposons qu’on ait $\dim_A(M) > 0$, et $\dim_A(N) \leq d_q(N)$ pour tout $A$-module de type fini $N$ tel que $\dim_A(N) < \dim_A(M)$. Si $0 = M_0 \subset M_1 \subset ... \subset M_n = M$ est une suite de composition de $M$, on a $\dim_A(M) = \sup(\dim_A(M_i/M_{i-1}))$ ($\S 1$, no 4, prop. 9) et $d_q(M) = \sup(d_q(M_i/M_{i-1}))$ (no 3, prop. 5). D’après IV, $\S 1$, no 4, th. 1, on peut donc supposer que $M$ est de la forme $A/p$, où $p$ est un idéal premier de $A$, et l’on a $p \neq m_A$ car $\dim_A(M) > 0$. Soit $x \in m_A - p$; l’homothétie $x_M$ de $M = A/p$ est injective, et l’on a la suite exacte
+Supposons qu’on ait $\dim_A(M) > 0$, et $\dim_A(N) \leq d_q(N)$ pour tout $A$-module de type fini $N$ tel que $\dim_A(N) < \dim_A(M)$. Si $0 = M_0 \subset M_1 \subset ... \subset M_n = M$ est une suite de composition de $M$, on a $\dim_A(M) = \sup(\dim_A(M_i/M_{i-1}))$ ($§ 1$, no 4, prop. 9) et $d_q(M) = \sup(d_q(M_i/M_{i-1}))$ (no 3, prop. 5). D’après IV, $§ 1$, no 4, th. 1, on peut donc supposer que $M$ est de la forme $A/p$, où $p$ est un idéal premier de $A$, et l’on a $p \neq m_A$ car $\dim_A(M) > 0$. Soit $x \in m_A - p$; l’homothétie $x_M$ de $M = A/p$ est injective, et l’on a la suite exacte
 
 $$
 0 \longrightarrow M \xrightarrow{x_M} M \longrightarrow M/xM \longrightarrow 0.
 $$
 
-D’après le $\S 3$, no 2, prop. 3, on a $\dim_A(M/xM) = \dim_A(M) - 1$; d’après la prop. 5 du no 3, et la suite exacte précédente, on a $d_q(M/xM) \leq d_q(M) - 1$. D’après l’hypothèse de récurrence, on a donc
+D’après le $§ 3$, no 2, prop. 3, on a $\dim_A(M/xM) = \dim_A(M) - 1$; d’après la prop. 5 du no 3, et la suite exacte précédente, on a $d_q(M/xM) \leq d_q(M) - 1$. D’après l’hypothèse de récurrence, on a donc
 
 $$
 \dim_A(M) = \dim_A(M/xM) + 1 \leq d_q(M/xM) + 1 \leq d_q(M),
@@ -471,11 +471,11 @@ ce qui achève la démonstration.
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et $q$ un idéal de $A$ tel que $M/qM$ soit de longueur finie. Alors $d_q(M)$ est la borne supérieure des dimensions $\dim_{A_m}(M_m)$, où $m$ parcourt l’ensemble fini $S = \operatorname{Supp}(M) \cap V(q)$, et $e_q(M)$ est la somme des $e_{q_m}(M_m)$ étendue à ceux des éléments $m$ de $S$ pour lesquels on a $\dim_{A_m}(M_m) = d_q(M)$.
 
-Pour chaque entier $n$, la longueur de $M/q^nM$ est la somme des $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $\S 2$, no 5, cor. 1 à la prop. 7 et corollaire à la prop. 8). Par conséquent, on a $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, d’où le corollaire.
+Pour chaque entier $n$, la longueur de $M/q^nM$ est la somme des $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, no 5, cor. 1 à la prop. 7 et corollaire à la prop. 8). Par conséquent, on a $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, d’où le corollaire.
 
 #### Remarque 1 {#ac-viii-s4-n4-rem-1 .statement}
 
-On a aussi $d_q(M) = \sup_{m \in V(q)} \dim(M_m)$, c’est-à-dire $d_q(M) = \dim(\hat{M})$, où $\hat{M}$ est le complété de $M$ pour la topologie q-adique ($\S 3$, no 4, prop. 8).
+On a aussi $d_q(M) = \sup_{m \in V(q)} \dim(M_m)$, c’est-à-dire $d_q(M) = \dim(\hat{M})$, où $\hat{M}$ est le complété de $M$ pour la topologie q-adique ($§ 3$, no 4, prop. 8).
 
 #### Remarque 2 {#ac-viii-s4-n4-rem-2 .statement}
 

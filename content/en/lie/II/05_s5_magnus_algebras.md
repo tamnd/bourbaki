@@ -32,12 +32,12 @@ subsections:
       pdf_page: 172
 statements: 14
 exercises: 12
-content_sha256: 4507f43efe68f0e8f9d7ed300ec507379070366e7dae5fdc0890eff18cf1a7f5
+content_sha256: b447c834d904c0c1c87c668ee3a9a6c76b5fc3212a84bf648612ad2a0a49f556
 ---
 
 ## § 5. MAGNUS ALGEBRAS
 
-In this paragraph, X denotes a set, F(X) the free group constructed on X (Algebra, Chapter I, \S 7, no. 5) and A(X) the free associative algebra constructed on X with its total graduation $(A^n(X))_{n \geq 0}$ (cf. Algebra, Chapter III, \S 3, no. 1, Example 3). X is identified with its images in F(X) and A(X).
+In this paragraph, X denotes a set, F(X) the free group constructed on X (Algebra, Chapter I, § 7, no. 5) and A(X) the free associative algebra constructed on X with its total graduation $(A^n(X))_{n \geq 0}$ (cf. Algebra, Chapter III, § 3, no. 1, Example 3). X is identified with its images in F(X) and A(X).
 
 ### 1. MAGNUS ALGEBRAS
 
@@ -47,7 +47,7 @@ $$
 (a \cdot b)_n = \sum_{i=0}^n a_i \cdot b_{n-i}
 $$
 
-where $a = (a_n)$ and $b = (b_n)$ are in $\hat{A}(X)$. We know (Commutative Algebra, Chapter III, \S 2, no. 12, Example 1) that $\hat{A}(X)$ is an associative algebra and that $A(X)$ is identified with the subalgebra of $\hat{A}(X)$ consisting of the sequence all of whose terms are zero except for a finite number.
+where $a = (a_n)$ and $b = (b_n)$ are in $\hat{A}(X)$. We know (Commutative Algebra, Chapter III, § 2, no. 12, Example 1) that $\hat{A}(X)$ is an associative algebra and that $A(X)$ is identified with the subalgebra of $\hat{A}(X)$ consisting of the sequence all of whose terms are zero except for a finite number.
 
 $\hat{A}(X)$ is given the product topology of the discrete topologies on the factors
 
@@ -55,15 +55,15 @@ A^n(X); this topology makes $\hat{A}(X)$ into a complete Hausdorff topological a
 
 Let $a = (a_n) \in \hat{A}(X)$; the family $(a_n)_{n \geq 0}$ is summable and $a = \sum_{n \geq 0} a_n$.
 
-For every integer $m \geq 0$, let $\hat{A}_m(X)$ denote the ideal consisting of the series $a = \sum_{n \geq m} a_n$ such that $a_n \in A^n(X)$ for all $n \geq m$. This sequence of ideals is a fundamental system of neighbourhoods of 0 in $\hat{A}(X)$ and an integral filtration on $\hat{A}(X)$. The order function associated with the above filtration is denoted by $\omega$; then $\omega(0) = +\infty$ and $\omega(a) = m$ if $a = \sum_{n \geq m} a_n$ with $a_n \in A^n(X)$ for all $n \geq m$ and $a_m \neq 0$ (\S 4, nos. 1 and 2).
+For every integer $m \geq 0$, let $\hat{A}_m(X)$ denote the ideal consisting of the series $a = \sum_{n \geq m} a_n$ such that $a_n \in A^n(X)$ for all $n \geq m$. This sequence of ideals is a fundamental system of neighbourhoods of 0 in $\hat{A}(X)$ and an integral filtration on $\hat{A}(X)$. The order function associated with the above filtration is denoted by $\omega$; then $\omega(0) = +\infty$ and $\omega(a) = m$ if $a = \sum_{n \geq m} a_n$ with $a_n \in A^n(X)$ for all $n \geq m$ and $a_m \neq 0$ (§ 4, nos. 1 and 2).
 
 $\hat{A}(X)$ is called the *Magnus algebra* of the set X with coefficients in K. If there is any ambiguity over K we write $\hat{A}_K(X)$.
 
 #### Proposition 1 {#lie-ii-s5-prop-1 .statement}
 
-*Let B be a unital associative algebra with a real filtration $(B_\alpha)_{\alpha \in \mathbf{R}}$ such that B is Hausdorff and complete (\S 4, nos. 1 and 2). Let f be a mapping of X into B such that there exists $\lambda > 0$ for which $f(X) \subset B_\lambda$. Then f can be extended in one and only one way to a continuous unital homomorphism $\hat{f}$ of $\hat{A}(X)$ into B.*
+*Let B be a unital associative algebra with a real filtration $(B_\alpha)_{\alpha \in \mathbf{R}}$ such that B is Hausdorff and complete (§ 4, nos. 1 and 2). Let f be a mapping of X into B such that there exists $\lambda > 0$ for which $f(X) \subset B_\lambda$. Then f can be extended in one and only one way to a continuous unital homomorphism $\hat{f}$ of $\hat{A}(X)$ into B.*
 
-Let $f'$ be the unique unital algebra homomorphism of $A(X)$ into B extending $f$ (*Algebra*, Chapter III, \S 2, no. 7, Proposition 7). We show that $f'$ is *continuous*: $f'(A^n(X)) \subset B_{n\lambda}$ whence $f'(\hat{A}_n(X) \cap A(X)) \subset B_{n\lambda}$. Therefore $f'$ can be extended in one and only one way by continuity to a homomorphism $\hat{f} : \hat{A}(X) \to B$.
+Let $f'$ be the unique unital algebra homomorphism of $A(X)$ into B extending $f$ (*Algebra*, Chapter III, § 2, no. 7, Proposition 7). We show that $f'$ is *continuous*: $f'(A^n(X)) \subset B_{n\lambda}$ whence $f'(\hat{A}_n(X) \cap A(X)) \subset B_{n\lambda}$. Therefore $f'$ can be extended in one and only one way by continuity to a homomorphism $\hat{f} : \hat{A}(X) \to B$.
 
 We preserve the hypotheses and notation of Proposition 1 and let $u \in \hat{A}(X)$. The element $\hat{f}(u)$ is denoted by $u((f(x))_{x \in X})$ and called the *result of substituting the f(x) for the x in u*. In particular, $u((x)_{x \in X}) = u$. Now let $u = (u_y)_{y \in Y}$ be a family of elements of $\hat{A}_1(X)$ and let $v \in \hat{A}(Y)$. The above allows us to define the element $v((u_y)_{y \in Y}) \in \hat{A}(X)$. It is denoted by $v \circ u$. As $u_y((f(x))) \in B_\lambda$, the elements $u_y((f(x)))$ can be substituted for the y in v. The mappings $v \mapsto (v \circ u)((f(x)))$ and $v \mapsto v((u_y((f(x))))))$ are then two continuous homomorphisms of unital algebras of $\hat{A}(X)$ into B taking the same value $u_y((f(x)))$ at the element $y \in Y$. Therefore (Proposition 1)
 
@@ -156,9 +156,9 @@ Let $\gamma$ denote the homomorphism of $F$ into $\Gamma$ defined by $\gamma(x) 
 
 (B) Surjectivity of $\alpha$.
 
-As $X$ generates the group $F = C^1$, the set $c(X)$ generates the $\mathbf{Z}$-module $g^1 = C^1/C^2$. But $g^1$ generates the Lie $\mathbf{Z}$-algebra $g$ (\S 4, no. 6, Proposition 5) and hence $c(X)$ generates $g$, which proves that $\alpha$ is surjective.
+As $X$ generates the group $F = C^1$, the set $c(X)$ generates the $\mathbf{Z}$-module $g^1 = C^1/C^2$. But $g^1$ generates the Lie $\mathbf{Z}$-algebra $g$ (§ 4, no. 6, Proposition 5) and hence $c(X)$ generates $g$, which proves that $\alpha$ is surjective.
 
-(C) We identify the graded algebra $\mathrm{gr}(\hat{A})$ with $A(X)$ under the canonical isomorphisms $A^n(X) \to \hat{A}_n/\hat{A}_{n+1}$. For every integer $n \geq 1$, we write $F^n = \gamma^{-1}(\Gamma_n)$; we know (\S 4, no. 5) that $(F^n)_{n \geq 1}$ is an integral central filtration on $F$. Let $g'$ denote the associated graded Lie $\mathbf{Z}$-algebra (\S 4, no. 4). Let $f$ be the Lie algebra homomorphism of $g'$ into $A(X)$ associated with $\gamma$ (\S 4, no. 5, Proposition 3). Now $C^n \subset F^n$ for every integer $n \geq 1$ (\S 4, no. 6, Proposition 4) and hence there is a canonical homomorphism $\varepsilon$ of $g = \bigoplus_{n \geq 1} C^n/C^{n+1}$ into $g' = \bigoplus_{n \geq 1} F^n/F^{n+1}$
+(C) We identify the graded algebra $\mathrm{gr}(\hat{A})$ with $A(X)$ under the canonical isomorphisms $A^n(X) \to \hat{A}_n/\hat{A}_{n+1}$. For every integer $n \geq 1$, we write $F^n = \gamma^{-1}(\Gamma_n)$; we know (§ 4, no. 5) that $(F^n)_{n \geq 1}$ is an integral central filtration on $F$. Let $g'$ denote the associated graded Lie $\mathbf{Z}$-algebra (§ 4, no. 4). Let $f$ be the Lie algebra homomorphism of $g'$ into $A(X)$ associated with $\gamma$ (§ 4, no. 5, Proposition 3). Now $C^n \subset F^n$ for every integer $n \geq 1$ (§ 4, no. 6, Proposition 4) and hence there is a canonical homomorphism $\varepsilon$ of $g = \bigoplus_{n \geq 1} C^n/C^{n+1}$ into $g' = \bigoplus_{n \geq 1} F^n/F^{n+1}$
 
 $$
 L_\mathbf{Z}(X) \xrightarrow{\alpha} g \xrightarrow{\varepsilon} g' \xrightarrow{f} A(X).
@@ -172,7 +172,7 @@ $$
 
 (D) Proof of Theorems 2 and 3.
 
-The Lie algebra homomorphism $\beta \circ \alpha : L_\mathbf{Z}(X) \to A(X)$ restricted to $X$ is the identity by (3) and hence is the canonical injection (\S 3, no. 1). Therefore $\alpha$ is injective and hence bijective by (B); this proves Theorem 3. As $\beta \circ \alpha = f \circ \varepsilon \circ \alpha$ is injective and $\alpha$ is bijective, $\varepsilon$ is injective. For all $n \geq 1$,
+The Lie algebra homomorphism $\beta \circ \alpha : L_\mathbf{Z}(X) \to A(X)$ restricted to $X$ is the identity by (3) and hence is the canonical injection (§ 3, no. 1). Therefore $\alpha$ is injective and hence bijective by (B); this proves Theorem 3. As $\beta \circ \alpha = f \circ \varepsilon \circ \alpha$ is injective and $\alpha$ is bijective, $\varepsilon$ is injective. For all $n \geq 1$,
 
 $$
 \varepsilon_n : C^n/C^{n+1} \to F^n/F^{n+1}
@@ -200,7 +200,7 @@ $$
 
 #### Remark {#lie-ii-s5-n4-rem-1 .statement}
 
-Let H be a Hall set relative to X (\S 2, no. 10). Let M be the magma defined by the law of composition (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy on F(X) and let $\phi$ be the homomorphism of M(X) into M whose restriction to X is the identity. The elements of $\phi(H)$ are called the *basic commutators* of F(X) associated with the Hall set H. For every integer n \geqslant 1, let H_n be the subset of H consisting of the elements of length n; we know (\S 2, no. 11, Theorem 1) that the canonical mapping of H_n into L_\mathbf{Z}(X) is a basis of the Abelian group L_\mathbf{Z}^n(X). Moreover, $\phi(H_n) \subset C^n$; for all m \in H_n, let $\phi_n(m)$ denote the class mod. C^{n+1} of $\phi(m) \in C^n$. Theorem 3 then shows that $\phi_n$ is *a bijection of H_n onto a basis of the Abelian group* C^n/C^{n+1}. It follows immediately that, for all w \in F(X) and all i \geqslant 1, there exists a unique element $\alpha_i$ of $\mathbf{Z}^{(H_i)}$ such that, for n \geqslant 1,
+Let H be a Hall set relative to X (§ 2, no. 10). Let M be the magma defined by the law of composition (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy on F(X) and let $\phi$ be the homomorphism of M(X) into M whose restriction to X is the identity. The elements of $\phi(H)$ are called the *basic commutators* of F(X) associated with the Hall set H. For every integer n \geqslant 1, let H_n be the subset of H consisting of the elements of length n; we know (§ 2, no. 11, Theorem 1) that the canonical mapping of H_n into L_\mathbf{Z}(X) is a basis of the Abelian group L_\mathbf{Z}^n(X). Moreover, $\phi(H_n) \subset C^n$; for all m \in H_n, let $\phi_n(m)$ denote the class mod. C^{n+1} of $\phi(m) \in C^n$. Theorem 3 then shows that $\phi_n$ is *a bijection of H_n onto a basis of the Abelian group* C^n/C^{n+1}. It follows immediately that, for all w \in F(X) and all i \geqslant 1, there exists a unique element $\alpha_i$ of $\mathbf{Z}^{(H_i)}$ such that, for n \geqslant 1,
 
 $$
 w = \prod_{i=1}^n \prod_{m \in H_i} \phi(m)^{\alpha_i(m)} \mod. C^{n+1},
@@ -227,7 +227,7 @@ In this no., *p* denotes a prime number and we assume that K = \mathbf{F}_p. Let
 
 *Suppose that X is finite. For every integer n \geqslant 1, the group F(X)/F_n^{(p)}(X) is a finite p-group of nilpotency class \leqslant n.*
 
-Arguing by induction on $n$, it suffices to prove that $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ is a finite commutative $p$-group for all $n \geqslant 1$. For all $w \in F_n^{(p)}(X)$, the element $\gamma(w) - 1$ of $\hat{A}(X)$ is of order $\geqslant n$; we denote by $\delta_n(w)$ the homogeneous component of $\gamma(w) - 1$ of degree $n$. The mapping $\delta_n : F_n^{(p)}(X) \to A^n(X)$ is a homomorphism with kernel $F_{n+1}^{(p)}(X)$ (\S 4, no. 5, Proposition 3) and hence $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ is isomorphic to a subgroup of $A^n(X)$. Since $X$ is finite, $A^n(X)$ is a finite-dimensional vector space over $\mathbf{F}_p$ and hence a finite commutative $p$-group and so is $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$.
+Arguing by induction on $n$, it suffices to prove that $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ is a finite commutative $p$-group for all $n \geqslant 1$. For all $w \in F_n^{(p)}(X)$, the element $\gamma(w) - 1$ of $\hat{A}(X)$ is of order $\geqslant n$; we denote by $\delta_n(w)$ the homogeneous component of $\gamma(w) - 1$ of degree $n$. The mapping $\delta_n : F_n^{(p)}(X) \to A^n(X)$ is a homomorphism with kernel $F_{n+1}^{(p)}(X)$ (§ 4, no. 5, Proposition 3) and hence $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ is isomorphic to a subgroup of $A^n(X)$. Since $X$ is finite, $A^n(X)$ is a finite-dimensional vector space over $\mathbf{F}_p$ and hence a finite commutative $p$-group and so is $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$.
 
 #### Proposition 3 {#lie-ii-s5-prop-3 .statement}
 

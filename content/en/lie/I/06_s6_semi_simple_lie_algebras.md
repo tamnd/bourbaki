@@ -52,7 +52,7 @@ subsections:
       pdf_page: 86
 statements: 50
 exercises: 27
-content_sha256: b1e634de71044113952c7b93184eddb90c01c9866c2a39749c1000a89ffd9f13
+content_sha256: 9b354b29097b0473c08d8057ac62b2894261a7d8a0ded66592a2cd24c4a5ef9d
 ---
 
 ## § 6. SEMI-SIMPLE LIE ALGEBRAS
@@ -99,7 +99,7 @@ The linear form $x \mapsto \operatorname{Tr} \rho(x)$ ($x \in g$) is zero when x
 
 Let $g$ be a semi-simple Lie algebra and $\varphi$ a finite-dimensional faithful representation of $g$. Then the bilinear form on $g$ associated with $\varphi$ is non-degenerate.
 
-The orthogonal of $g$ with respect to this form is a solvable ideal ($\S 5$, no. 4, Theorem 2) and hence is zero.
+The orthogonal of $g$ with respect to this form is a solvable ideal ($§ 5$, no. 4, Theorem 2) and hence is zero.
 
 #### Corollary 1 {#lie-i-s6-prop-1-cor-1 .statement}
 
@@ -111,7 +111,7 @@ $$
 \beta(x, [y, z]) = \beta([x, y], z) = 0,
 $$
 
-since $[x, y] \in a$, and hence $[y, z] \in h$, which proves that $[a, h] \subset h$. If $a$ is an ideal of $g$, we know that $h$ is an ideal of $g$ ($\S 3$, Proposition 7) and $g$ is identified with $a \times h$. As the centre of $a$ is zero, the centralizer of $a$ in $g$ is $h$.
+since $[x, y] \in a$, and hence $[y, z] \in h$, which proves that $[a, h] \subset h$. If $a$ is an ideal of $g$, we know that $h$ is an ideal of $g$ ($§ 3$, Proposition 7) and $g$ is identified with $a \times h$. As the centre of $a$ is zero, the centralizer of $a$ in $g$ is $h$.
 
 #### Corollary 2 {#lie-i-s6-prop-1-cor-2 .statement}
 
@@ -123,7 +123,7 @@ This follows immediately from Corollary 1.
 
 If $g$ is semi-simple, every derivation of $g$ is inner.
 
-$\operatorname{ad} g$ is isomorphic to $g$ and hence semi-simple and is an ideal of the Lie algebra $\delta$ of derivations of $g$ ($\S 1$, Proposition 1). If $D \in \delta$ commutes with the elements of $\operatorname{ad} g$, then, for all $x \in g$, $\operatorname{ad} D(x) = [D, \operatorname{ad} x] = 0$, whence $D(x) = 0$; hence $D = 0$. Corollary 3 then follows from Corollary 1.
+$\operatorname{ad} g$ is isomorphic to $g$ and hence semi-simple and is an ideal of the Lie algebra $\delta$ of derivations of $g$ ($§ 1$, Proposition 1). If $D \in \delta$ commutes with the elements of $\operatorname{ad} g$, then, for all $x \in g$, $\operatorname{ad} D(x) = [D, \operatorname{ad} x] = 0$, whence $D(x) = 0$; hence $D = 0$. Corollary 3 then follows from Corollary 1.
 
 ### 2. SEMI-SIMPLICITY OF REPRESENTATIONS
 
@@ -131,7 +131,7 @@ $\operatorname{ad} g$ is isomorphic to $g$ and hence semi-simple and is an ideal
 
 Let $g$ be a semi-simple Lie algebra. The adjoint representation of $g$ is semi-simple. Every ideal and every quotient algebra of $g$ is semi-simple.
 
-Let $a$ be an ideal of $g$. The orthogonal $b$ of $a$ in $g$ with respect to the Killing form is an ideal of $g$ and $a \cap b$ is a commutative ideal ($\S 3$, no. 6, Proposition 7) and hence zero. Hence $b$ is supplementary to $a$ in $g$. Moreover, as the Killing form of $g$ is non-degenerate, so are its restrictions to $a$ and $b$ (*Algebra*, Chapter IX, $\S 4$, no. 1, Corollary to Proposition 1) and hence $a$ and $b$ are semi-simple (no. 1, Theorem 1 and $\S 3$, no. 6, Proposition 9).
+Let $a$ be an ideal of $g$. The orthogonal $b$ of $a$ in $g$ with respect to the Killing form is an ideal of $g$ and $a \cap b$ is a commutative ideal ($§ 3$, no. 6, Proposition 7) and hence zero. Hence $b$ is supplementary to $a$ in $g$. Moreover, as the Killing form of $g$ is non-degenerate, so are its restrictions to $a$ and $b$ (*Algebra*, Chapter IX, $§ 4$, no. 1, Corollary to Proposition 1) and hence $a$ and $b$ are semi-simple (no. 1, Theorem 1 and $§ 3$, no. 6, Proposition 9).
 
 #### Lemma 2 {#lie-i-s6-lem-2 .statement}
 
@@ -139,13 +139,13 @@ Let $g$ be a Lie algebra. Then the following two conditions are equivalent:
 (a) All finite-dimensional linear representations of $g$ are semi-simple.
 (b) Given a linear representation $\varphi$ of $g$ on a finite-dimensional vector space $V$ and a vector subspace W of codimension 1 such that $\rho(x)(V) \subset W$ for all $x \in g$, there exists a supplementary line of W which is stable under $\rho(g)$ (and hence annihilated by $\rho(g)$).
 
-Clearly (a) implies (b). Suppose that (b) holds. Let $\sigma$ be a finite-dimensional representation of $g$ on a vector space M and N a vector subspace which is stable under $\sigma(g)$. Let $\mu$ be the representation of $g$ on $\mathcal{L}(M)$ canonically derived from $\sigma$ (\S 3, no. 3): recall that $\mu(x) = \mathrm{ad}_{\mathcal{L}(M)} \rho(x)$. Let V (resp. W) be the subspace of $\mathcal{L}(M)$ consisting of the linear mappings of M into N whose restriction to N is a homothety (resp. zero); then W is of codimension 1 in V and $\mu(x)(V) \subset W$ for all $x \in g$. By condition (b), there exists $u \in V$ which is annihilated by $\mu(x)$ for all $x \in g$ and whose restriction to N is a non-zero homothety. By multiplying $u$ by a suitable scalar, it can be assumed that $u$ is a projector of M onto N. To say that $\mu(x) \cdot u = 0$ means that $u$ is permutable with $\sigma(x)$. Hence the kernel of $u$ is a supplement of N in M which is stable under $\sigma(x)$ for all $x \in g$. Hence $\sigma$ is semi-simple.
+Clearly (a) implies (b). Suppose that (b) holds. Let $\sigma$ be a finite-dimensional representation of $g$ on a vector space M and N a vector subspace which is stable under $\sigma(g)$. Let $\mu$ be the representation of $g$ on $\mathcal{L}(M)$ canonically derived from $\sigma$ (§ 3, no. 3): recall that $\mu(x) = \mathrm{ad}_{\mathcal{L}(M)} \rho(x)$. Let V (resp. W) be the subspace of $\mathcal{L}(M)$ consisting of the linear mappings of M into N whose restriction to N is a homothety (resp. zero); then W is of codimension 1 in V and $\mu(x)(V) \subset W$ for all $x \in g$. By condition (b), there exists $u \in V$ which is annihilated by $\mu(x)$ for all $x \in g$ and whose restriction to N is a non-zero homothety. By multiplying $u$ by a suitable scalar, it can be assumed that $u$ is a projector of M onto N. To say that $\mu(x) \cdot u = 0$ means that $u$ is permutable with $\sigma(x)$. Hence the kernel of $u$ is a supplement of N in M which is stable under $\sigma(x)$ for all $x \in g$. Hence $\sigma$ is semi-simple.
 
 #### Lemma 3 {#lie-i-s6-lem-3 .statement}
 
 *Let g be a semi-simple Lie algebra, $\rho$ a linear representation of g on a finite-dimensional vector space V and W a subspace of V of codimension 1 such that $\rho(x)(V) \subset W$ for all $x \in g$. Then there exists a supplementary line of W which is stable under $\rho(g)$.*
 
-For all $x \in g$ let $\sigma(x)$ be the restriction of $\rho(x)$ to W. Suppose first that $\sigma$ is simple. If $\sigma = 0$, then $\rho(x)\rho(y) = 0$ for all $x, y$ in $g$, hence $\rho(g) = \rho(\mathcal{D}g) = \{0\}$ and our assertion is obvious. If $\sigma \neq 0$, let n be the kernel of $\sigma$ and let m be a supplementary ideal of n in $g$ (Lemma 1); then $m \neq \{0\}$ and the restriction of $\sigma$ to m is faithful; the restriction to m of the bilinear form associated with $\sigma$ is non-degenerate (Proposition 1) and hence the Casimir element c associated with m and $\sigma$ can be formed. By Proposition 12 of \S 3, no. 7, $\sigma(c)$ is an automorphism of W. On the other hand, $\rho(c)(V) \subset W$. Hence the kernel Z of $\rho(c)$ is a supplementary line of W; since c belongs to the centre of the enveloping algebra of $g$, $\rho(c)$ is permutable with $\rho(x)$ for all $x \in g$ and hence Z is stable under $\rho(g)$.
+For all $x \in g$ let $\sigma(x)$ be the restriction of $\rho(x)$ to W. Suppose first that $\sigma$ is simple. If $\sigma = 0$, then $\rho(x)\rho(y) = 0$ for all $x, y$ in $g$, hence $\rho(g) = \rho(\mathcal{D}g) = \{0\}$ and our assertion is obvious. If $\sigma \neq 0$, let n be the kernel of $\sigma$ and let m be a supplementary ideal of n in $g$ (Lemma 1); then $m \neq \{0\}$ and the restriction of $\sigma$ to m is faithful; the restriction to m of the bilinear form associated with $\sigma$ is non-degenerate (Proposition 1) and hence the Casimir element c associated with m and $\sigma$ can be formed. By Proposition 12 of § 3, no. 7, $\sigma(c)$ is an automorphism of W. On the other hand, $\rho(c)(V) \subset W$. Hence the kernel Z of $\rho(c)$ is a supplementary line of W; since c belongs to the centre of the enveloping algebra of $g$, $\rho(c)$ is permutable with $\rho(x)$ for all $x \in g$ and hence Z is stable under $\rho(g)$.
 
 In the general case we argue by induction on the dimension of V. Let T be a minimal non-zero stable subspace of W. Let $\rho'$ be the quotient representation on $V' = V/T$. Then, for all $x \in g$, $\rho'(x)(V') \subset W'$, where $W' = W/T$ is of codimension 1 in $V'$. By the induction hypothesis there exists a line $Z'$ which is supplementary to $W'$ and stable under $\rho'(g)$. Its inverse image Z in V is stable under $\rho(g)$, contains T as subspace of codimension 1, $Z \cap W = T$, and hence $\rho(x)(Z) \subset T$ for all $x \in g$. By what was proved above, there exists a supplementary line of T in Z which is stable under $\rho(g)$; this line is supplementary to W in V, which completes the proof.
 
@@ -165,7 +165,7 @@ A simple Lie algebra is semi-simple. The algebra {0} is not simple.
 
 *For a Lie algebra g to be semi-simple, it is necessary and sufficient that it be a product of simple algebras.*
 
-The condition is sufficient (no. 1, Remark 3). Conversely, suppose that g is semi-simple. Since the adjoint representation of g is semi-simple, g is the direct sum of minimal non-zero ideals $a_1, \ldots, a_m$. Then g is identified with the product algebra of the $a_i$ (\S 1, no. 1). Every ideal of $a_i$ is then an ideal of g and hence zero or equal to $a_i$. On the other hand $a_i$ is non-commutative. Hence the $a_i$ are simple Lie algebras.
+The condition is sufficient (no. 1, Remark 3). Conversely, suppose that g is semi-simple. Since the adjoint representation of g is semi-simple, g is the direct sum of minimal non-zero ideals $a_1, \ldots, a_m$. Then g is identified with the product algebra of the $a_i$ (§ 1, no. 1). Every ideal of $a_i$ is then an ideal of g and hence zero or equal to $a_i$. On the other hand $a_i$ is non-commutative. Hence the $a_i$ are simple Lie algebras.
 
 #### Corollary 1 {#lie-i-s6-prop-2-cor-1 .statement}
 
@@ -179,7 +179,7 @@ The simple ideals of a semi-simple Lie algebra are called the *simple components
 
 *Let g, $g'$ be two Lie algebras, r and $r'$ their radicals and f a homomorphism of g onto $g'$. Then $r' = f(r)$.*
 
-As $f(r)$ is solvable, $f(r) \subset r'$. On the other hand, $g/r$ is semi-simple (\S 5, no. 2, Proposition 3), hence $g'/f(r)$, which is isomorphic to a quotient of $g/r$, is semi-simple (Lemma 1) and hence $f(r) \supset r'$ (\S 5, no. 2, Proposition 3).
+As $f(r)$ is solvable, $f(r) \subset r'$. On the other hand, $g/r$ is semi-simple (§ 5, no. 2, Proposition 3), hence $g'/f(r)$, which is isomorphic to a quotient of $g/r$, is semi-simple (Lemma 1) and hence $f(r) \supset r'$ (§ 5, no. 2, Proposition 3).
 
 #### Remark {#lie-i-s6-n2-rem-1 .statement}
 
@@ -215,13 +215,13 @@ $$
 
 If $K_1$ is an extension of K, the Killing form of $g_{(K_1)}$ is the extension to $g_{(K_1)}$ of that of $g$ (§ 3, no. 8) and hence is non-degenerate; therefore $g_{(K_1)}$ is semi-simple. It therefore suffices to prove Proposition 3 when the base field is algebraically closed, which we shall henceforth assume to be the case.
 
-For every subspace N of M, let $g_N$ be the subalgebra of $\mathfrak{gl}(M)$ consisting of the elements which leave N stable and whose restriction to N has trace zero. As $g = \mathcal{D}g$, $g \subset g_N$ if N is stable under $g$. Then let $g^*$ be the intersection of the normalizer of $g$ in $\mathfrak{gl}(M)$ and the algebras $g_N$ where N runs through the set of subspaces of M which are stable under g. As the semi-simple (resp. nilpotent) component s (resp. n) of $x \in gl(M)$ is a polynomial in x with no constant term and ad s (resp. ad n) is the semi-simple (resp. nilpotent) part of ad x ($\S 5$, no. 4, Lemma 2), clearly $x \in g^*$ implies $s \in g^*$ and $n \in g^*$; it therefore suffices to show that $g^* = g$. Since g is a semi-simple ideal of $g^*$, $g^* = a \times g$ (no. 1, Corollary 1 to Proposition 1). Let $a \in a$ and let N be a subspace which is minimal among the non-zero subspaces of M which are stable under g. The restriction of a to N is a scalar multiple of the identity by Burnside’s Theorem, has trace zero by construction and hence is zero since K is of characteristic 0. As M is the direct sum of subspaces such as N, it follows that $a = 0$ and hence $g^* = g$.
+For every subspace N of M, let $g_N$ be the subalgebra of $\mathfrak{gl}(M)$ consisting of the elements which leave N stable and whose restriction to N has trace zero. As $g = \mathcal{D}g$, $g \subset g_N$ if N is stable under $g$. Then let $g^*$ be the intersection of the normalizer of $g$ in $\mathfrak{gl}(M)$ and the algebras $g_N$ where N runs through the set of subspaces of M which are stable under g. As the semi-simple (resp. nilpotent) component s (resp. n) of $x \in gl(M)$ is a polynomial in x with no constant term and ad s (resp. ad n) is the semi-simple (resp. nilpotent) part of ad x ($§ 5$, no. 4, Lemma 2), clearly $x \in g^*$ implies $s \in g^*$ and $n \in g^*$; it therefore suffices to show that $g^* = g$. Since g is a semi-simple ideal of $g^*$, $g^* = a \times g$ (no. 1, Corollary 1 to Proposition 1). Let $a \in a$ and let N be a subspace which is minimal among the non-zero subspaces of M which are stable under g. The restriction of a to N is a scalar multiple of the identity by Burnside’s Theorem, has trace zero by construction and hence is zero since K is of characteristic 0. As M is the direct sum of subspaces such as N, it follows that $a = 0$ and hence $g^* = g$.
 
 #### Corollary {#lie-i-s6-n3-cor-1 .statement}
 
 An element x of g is a semi-simple (resp. nilpotent) endomorphism of M if and only if $ad_g x$ is a semi-simple (resp. nilpotent) endomorphism of g.
 
-Let s (resp. n) be the semi-simple (resp. nilpotent) component of $x \in g$. Then $s \in g$ and $n \in g$ (Proposition 3). Then $ad_g s$ (resp. $ad_g n$) is the semi-simple (resp. nilpotent) component of $ad_g x$, by Lemma 2 of $\S 5$, no. 4. If x is semi-simple (resp. nilpotent) so then is $ad_g x$. If now $ad_g x$ is semi-simple (resp. nilpotent), it is equal to $ad_g s$ (resp. $ad_g n$) and hence $x = s$ (resp. $x = n$) since the adjoint representation of g is faithful.
+Let s (resp. n) be the semi-simple (resp. nilpotent) component of $x \in g$. Then $s \in g$ and $n \in g$ (Proposition 3). Then $ad_g s$ (resp. $ad_g n$) is the semi-simple (resp. nilpotent) component of $ad_g x$, by Lemma 2 of $§ 5$, no. 4. If x is semi-simple (resp. nilpotent) so then is $ad_g x$. If now $ad_g x$ is semi-simple (resp. nilpotent), it is equal to $ad_g s$ (resp. $ad_g n$) and hence $x = s$ (resp. $x = n$) since the adjoint representation of g is faithful.
 
 #### Definition 3 {#lie-i-s6-def-3 .statement}
 
@@ -270,7 +270,7 @@ Suppose that the hypothesis of (a) holds. Let $\sigma$ be a representation of g,
 
 (e) $\Rightarrow$ (f): this is obvious.
 
-(f) $\Rightarrow$ (g): if the nilpotent radical of $g$ is zero, $\mathcal{D}g \cap r$ is zero ($\S 5$, no. 3, Theorem 1); as $[g, r] \subset \mathcal{D}g \cap r$, $r$ is the centre of $g$.
+(f) $\Rightarrow$ (g): if the nilpotent radical of $g$ is zero, $\mathcal{D}g \cap r$ is zero ($§ 5$, no. 3, Theorem 1); as $[g, r] \subset \mathcal{D}g \cap r$, $r$ is the centre of $g$.
 
 (g) ⇒ (a): if r is the centre of g, the adjoint representation of g is identified with a representation of g/r, which is a semi-simple Lie algebra (§ 5, no. 2, Proposition 3); this representation is therefore semi-simple (Theorem 2).
 
@@ -342,7 +342,7 @@ Let $T^n$ be the subspace of $T$ consisting of the homogeneous tensors of order 
 
 Let $g$ be a Lie algebra and $\rho$ and $\rho'$ two finite-dimensional semi-simple representations of $g$ on spaces $M$ and $M'$. Then the representation of $g$ on $\mathcal{L}_K(M, M')$ canonically derived from $\rho$ and $\rho'$ is semi-simple.
 
-The $g$-module $\mathcal{L}_K(M, M')$ is canonically identified with the $g$-module $M^* \otimes_K M'$ (\S 3, no. 3, Proposition 4), so that Corollary 3 follows from Corollary 1.
+The $g$-module $\mathcal{L}_K(M, M')$ is canonically identified with the $g$-module $M^* \otimes_K M'$ (§ 3, no. 3, Proposition 4), so that Corollary 3 follows from Corollary 1.
 
 #### Corollary 4 {#lie-i-s6-thm-4-cor-4 .statement}
 
@@ -350,7 +350,7 @@ Let $g$ be a Lie algebra, $a$ an ideal of $g$ and $\rho$ a semi-simple represent
 (a) The restriction $\rho'$ of $\rho$ to $a$ is semi-simple.
 (b) If $\rho$ is simple, $\rho'$ is a sum of simple representations isomorphic to one another.
 
-Passing to the quotient by the kernel of $\rho$, $\rho$ can be assumed to be faithful. Then $g$ is reductive. Let $g = g_1 \times g_2$, where $g_1$ is the centre of $g$ and $g_2$ is semi-simple. Then $a = a_1 \times a_2$, where $a_1 \subset g_1$, $a_2 \subset g_2$ and $a_1$ is the centre of $a$. The elements of $\rho(g_1)$, and in particular those of $\rho(a_1)$, are semi-simple (Theorem 4) and hence $\rho'$ is semi-simple (Theorem 4). Hence (a). Assertion (b) follows from (a), using \S 3, no. 1, Corollary to Proposition 1.
+Passing to the quotient by the kernel of $\rho$, $\rho$ can be assumed to be faithful. Then $g$ is reductive. Let $g = g_1 \times g_2$, where $g_1$ is the centre of $g$ and $g_2$ is semi-simple. Then $a = a_1 \times a_2$, where $a_1 \subset g_1$, $a_2 \subset g_2$ and $a_1$ is the centre of $a$. The elements of $\rho(g_1)$, and in particular those of $\rho(a_1)$, are semi-simple (Theorem 4) and hence $\rho'$ is semi-simple (Theorem 4). Hence (a). Assertion (b) follows from (a), using § 3, no. 1, Corollary to Proposition 1.
 
 ### 6. SUBALGEBRAS REDUCTIVE IN A LIE ALGEBRA
 
@@ -429,9 +429,9 @@ $$
 
 and hence $\mathrm{Tr}(uw) = 0$. It follows that $u = 0$, so that φ is non-degenerate. Hence g is reductive (Proposition 5). It remains to show that the centre of g is zero (except when β is symmetric and $n = 2$). By extending the base field, we can assume that K is algebraically closed.
 
-(a) When β is symmetric, it can be identified with the bilinear form on $K^n$ with matrix $I_n$ with respect to the canonical basis (Algebra, Chapter IX, § 6, Corollary 1 to Theorem 1). Under these conditions g is identified with the Lie algebra of skew-symmetric matrices ($\S 3$, no. 4, Example 1). Let $U = (u_{ij}) \in g$; we use the fact that U commutes with the matrix $(v_{ij}) \in g$ all of whose elements are zero except $v_{i_0j_0}$ and $v_{j_0i_0}$ ($i_0 \neq j_0$) which are equal respectively to 1 and −1. We find that $u_{i_0j} = u_{j_0i} = u_{i_0} = u_{j_0} = 0$ for $i \neq i_0, j_0$ and $j \neq i_0, j_0$. If $n > 2$, there exist, for all distinct indices $i_0$ and $j$, distinct indices i and $j_0$ such that $i \neq i_0, j_0 \neq j, j_0 \neq i_0$; hence $u_{i_0j} = 0$. This proves that an element of the centre of g is zero.
+(a) When β is symmetric, it can be identified with the bilinear form on $K^n$ with matrix $I_n$ with respect to the canonical basis (Algebra, Chapter IX, § 6, Corollary 1 to Theorem 1). Under these conditions g is identified with the Lie algebra of skew-symmetric matrices ($§ 3$, no. 4, Example 1). Let $U = (u_{ij}) \in g$; we use the fact that U commutes with the matrix $(v_{ij}) \in g$ all of whose elements are zero except $v_{i_0j_0}$ and $v_{j_0i_0}$ ($i_0 \neq j_0$) which are equal respectively to 1 and −1. We find that $u_{i_0j} = u_{j_0i} = u_{i_0} = u_{j_0} = 0$ for $i \neq i_0, j_0$ and $j \neq i_0, j_0$. If $n > 2$, there exist, for all distinct indices $i_0$ and $j$, distinct indices i and $j_0$ such that $i \neq i_0, j_0 \neq j, j_0 \neq i_0$; hence $u_{i_0j} = 0$. This proves that an element of the centre of g is zero.
 
-(b) When β is alternating and $n = 2m$, β can be identified with the bilinear form on $K^{2m}$ with matrix $\begin{pmatrix} 0 & I_m \\ -I_m & 0 \end{pmatrix}$ with respect to the canonical basis (Algebra, Chapter IX, § 5, Corollary 1 to Theorem 1). Under these conditions g is identified with the Lie algebra of matrices of the form $U = \begin{pmatrix} A & B \\ C & D \end{pmatrix}$ where $D = -{}^tA$, B and C are symmetric ($A, B, C, D$ in $\mathbf{M}_m(K)$) ($\S 3$, no. 4, Example 1). We use first the fact that U commutes with the matrix $\begin{pmatrix} X & 0 \\ 0 & -{}^tX \end{pmatrix}$, where $X \in \mathbf{M}_m(K)$. Then $AX = XA, CX = -{}^tXC, XB = -B\cdot{}^tX$; as these equalities must hold for all X, it follows that A is a scalar matrix $\lambda I_m$. We now use the fact that U commutes with the matrix $\begin{pmatrix} 0 & Y \\ 0 & 0 \end{pmatrix}$, where
+(b) When β is alternating and $n = 2m$, β can be identified with the bilinear form on $K^{2m}$ with matrix $\begin{pmatrix} 0 & I_m \\ -I_m & 0 \end{pmatrix}$ with respect to the canonical basis (Algebra, Chapter IX, § 5, Corollary 1 to Theorem 1). Under these conditions g is identified with the Lie algebra of matrices of the form $U = \begin{pmatrix} A & B \\ C & D \end{pmatrix}$ where $D = -{}^tA$, B and C are symmetric ($A, B, C, D$ in $\mathbf{M}_m(K)$) ($§ 3$, no. 4, Example 1). We use first the fact that U commutes with the matrix $\begin{pmatrix} X & 0 \\ 0 & -{}^tX \end{pmatrix}$, where $X \in \mathbf{M}_m(K)$. Then $AX = XA, CX = -{}^tXC, XB = -B\cdot{}^tX$; as these equalities must hold for all X, it follows that A is a scalar matrix $\lambda I_m$. We now use the fact that U commutes with the matrix $\begin{pmatrix} 0 & Y \\ 0 & 0 \end{pmatrix}$, where
 
 Y is a symmetric matrix of $\mathbf{M}_m(\mathbf{K})$. Then $\lambda Y = YC = CY = 0$. This proves first that $\lambda = 0$. Moreover, for all $X \in \mathbf{M}_m(\mathbf{K})$, $X + {}^tX$ is symmetric and hence $XC = -{}^tXC$. Using the equation $CX = -{}^tXC$ obtained above, we see that $C$ commutes with every element of $\mathbf{M}_m(\mathbf{K})$ and hence that $C$ is a scalar matrix, necessarily zero since $YC = 0$. It is similarly shown that $B = 0$.
 
@@ -644,7 +644,7 @@ Let $K_1$ be a commutative extension of $K$. For a Lie algebra $g$ over $K$ to b
 
 If $g_{(K_1)}$ is simple, $g$ is semi-simple by the above and cannot be a product of two non-zero ideals, hence $g$ is simple. On the other hand if $g$ is simple $g_{(K_1)}$ (which is semi-simple) may be not simple (Exercises 17 and 26 (b)).
 
-Let $g$ be a Lie algebra and $r$ its radical. Then $r_{(K_1)}$ is the radical of $g_{(K_1)}$ (\S 5, no. 6). Therefore, if $s$ denotes the nilpotent radical of $g$, the nilpotent radical of $g_{(K_1)}$ is $[g_{(K_1)}, r_{(K_1)}] = [g, r]_{(K_1)} = s_{(K_1)}$. It follows that $g$ is reductive if and only if $g_{(K_1)}$ is reductive.
+Let $g$ be a Lie algebra and $r$ its radical. Then $r_{(K_1)}$ is the radical of $g_{(K_1)}$ (§ 5, no. 6). Therefore, if $s$ denotes the nilpotent radical of $g$, the nilpotent radical of $g_{(K_1)}$ is $[g_{(K_1)}, r_{(K_1)}] = [g, r]_{(K_1)} = s_{(K_1)}$. It follows that $g$ is reductive if and only if $g_{(K_1)}$ is reductive.
 
 Let $g$ be a Lie algebra and $h$ a subalgebra. Recall that a representation of $h$ is semi-simple if and only if the representation of $h_{(K_1)}$ derived by extending the base field to $K_1$ is semi-simple. Hence $h$ is reductive in $g$ if and only if $h_{(K_1)}$ is reductive in $g_{(K_1)}$.
 

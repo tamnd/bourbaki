@@ -24,7 +24,7 @@ subsections:
       pdf_page: 20
 statements: 12
 exercises: 4
-content_sha256: 03f0941434ec8b948e9def7b5701827263f136902378b12840888ea1d359c421
+content_sha256: d3a80f2e092681caebf06a11f38953b67ba9acf76a8fd3c67f3944df43368409
 ---
 
 ## § 2. Familles sommables de mesures positives
@@ -90,15 +90,15 @@ $$
 \nu^*(f) \geq \sum_{\alpha \in A} \lambda_\alpha^*(f).
 $$
 
-Cette inégalité est évidente si $f$ n’est pas $\nu$-modérée, car alors $\nu^*(f) = +\infty$ ($\S 1$, n° 2, prop. 7). Si $f$ est $\nu$-modérée, $f$ est $\lambda_\alpha$-modérée pour tout $\alpha \in A$, car tout ouvert $\nu$-intégrable est $\lambda_\alpha$-intégrable ; la relation (4) résulte alors aussitôt de (3), et de la prop. 7 du $\S 1$, n° 2.
+Cette inégalité est évidente si $f$ n’est pas $\nu$-modérée, car alors $\nu^*(f) = +\infty$ ($§ 1$, n° 2, prop. 7). Si $f$ est $\nu$-modérée, $f$ est $\lambda_\alpha$-modérée pour tout $\alpha \in A$, car tout ouvert $\nu$-intégrable est $\lambda_\alpha$-intégrable ; la relation (4) résulte alors aussitôt de (3), et de la prop. 7 du $§ 1$, n° 2.
 
-Il peut arriver que les deux membres de (4) ne soient pas égaux, même lorsque $A$ est dénombrable, et que chacune des mesures $\lambda_\alpha$ est ponctuelle ($\S 1$, exerc. 4a)).
+Il peut arriver que les deux membres de (4) ne soient pas égaux, même lorsque $A$ est dénombrable, et que chacune des mesures $\lambda_\alpha$ est ponctuelle ($§ 1$, exerc. 4a)).
 
 #### Proposition 2 {#int-v-s2-prop-2 .statement}
 
 Soit $f$ une application de $X$ dans un espace topologique $G$. Pour que $f$ soit $\nu$-mesurable, il faut et il suffit que $f$ soit $\lambda_\alpha$-mesurable pour tout $\alpha \in A$.
 
-Cela résulte immédiatement du cor. 2 de la prop. 11 du $\S 1$.
+Cela résulte immédiatement du cor. 2 de la prop. 11 du $§ 1$.
 
 #### Proposition 3 {#int-v-s2-prop-3 .statement}
 
@@ -114,7 +114,7 @@ $$
 \int f \, d\nu = \sum_{\alpha \in A} \int f \, d\lambda_\alpha.
 $$
 
-En effet, pour que $f$ soit essentiellement $\nu$-intégrable (resp. essentiellement $\lambda_\alpha$-intégrable), il faut et il suffit que $f$ soit mesurable pour la mesure $\nu$ (resp. $\lambda_\alpha$), et qu’on ait $\nu^*(|f|) < +\infty$ (resp. $\lambda_\alpha^*(|f|) < +\infty$), en vertu de la prop. 9 du $\S 1$, n° 3. La première partie de l’énoncé résulte donc aussitôt des prop. 2 et 1. Si $f$ est essentiellement $\nu$-intégrable, l’inégalité
+En effet, pour que $f$ soit essentiellement $\nu$-intégrable (resp. essentiellement $\lambda_\alpha$-intégrable), il faut et il suffit que $f$ soit mesurable pour la mesure $\nu$ (resp. $\lambda_\alpha$), et qu’on ait $\nu^*(|f|) < +\infty$ (resp. $\lambda_\alpha^*(|f|) < +\infty$), en vertu de la prop. 9 du $§ 1$, n° 3. La première partie de l’énoncé résulte donc aussitôt des prop. 2 et 1. Si $f$ est essentiellement $\nu$-intégrable, l’inégalité
 
 $$
 \sum_{\alpha \in A} \left| \int f \, d\lambda_\alpha \right| \leq \sum_{\alpha \in A} \int |f| \, d\lambda_\alpha = \nu(|f|)
@@ -128,7 +128,7 @@ La prop. 3 peut aussi se déduire du théorème général d’intégration qui s
 
 Supposons que $f$ soit $v$-intégrable ; $f$ est alors $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, et on a la formule (6). Inversement, si l’ensemble $A$ est fini, et si $f$ est $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, la fonction $f$ est $v$-intégrable.
 
-Si $f$ est $v$-intégrable, $f$ est essentiellement $v$-intégrable et $v$-modérée (\S 1, n° 3, cor. de la prop. 9); $f$ est donc essentiellement $\lambda_\alpha$-intégrable et $\lambda_\alpha$-modérée, donc $\lambda_\alpha$-intégrable, pour tout $\alpha \in A$. Inversement, si $A$ est fini, et si $f$ est $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, $f$ est essentiellement $v$-intégrable d’après la prop. 3, et il suffit de vérifier que $v^*(|f|) < +\infty$; cela résulte aussitôt de la relation $v^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (chap. IV, \S 1, n° 4, prop. 15).
+Si $f$ est $v$-intégrable, $f$ est essentiellement $v$-intégrable et $v$-modérée (§ 1, n° 3, cor. de la prop. 9); $f$ est donc essentiellement $\lambda_\alpha$-intégrable et $\lambda_\alpha$-modérée, donc $\lambda_\alpha$-intégrable, pour tout $\alpha \in A$. Inversement, si $A$ est fini, et si $f$ est $\lambda_\alpha$-intégrable pour tout $\alpha \in A$, $f$ est essentiellement $v$-intégrable d’après la prop. 3, et il suffit de vérifier que $v^*(|f|) < +\infty$; cela résulte aussitôt de la relation $v^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (chap. IV, § 1, n° 4, prop. 15).
 
 #### Corollaire 2 {#int-v-s2-prop-3-cor-2 .statement}
 

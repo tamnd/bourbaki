@@ -36,9 +36,9 @@ subsections:
       pdf_page: 344
 statements: 15
 exercises: 16
-content_sha256: 35c6486ac1a3fa336ad8eb84fdd613f3a737c0ba448469612b56d2e4a70ae008
+content_sha256: b850c7831f589d9a005bbeaa84e7d1321372de78ebf7e13351c0f13b823db914
 translated_from: content/en/top/IV/02_s2_fundamental_topological_properties_of.md
-source_content_sha256: 6696bb5fa08accd0b6144828d1d539cb5024a066162e459953b37132c7805a3d
+source_content_sha256: 78166c2d5dee3bc8332921039bf6cfd6746b0350be828fb6b987ae23db2d3530
 translation_model: gpt-5.4
 translation_run: translate-vi-264ae25a
 glossary_version: 34
@@ -163,7 +163,7 @@ Nếu $K'$ là phần bù của hợp các $I_{n,p}$, thì tập đóng $K = A \
 
 Suy ra rằng nếu $x$ và $y$ là hai điểm bất kỳ của I sao cho $x < y$, thì $f(x) < f(y)$; vì ta có $f(a) < f(x) < f(b)$ nếu $a < x < b$, $f(a) < f(b) < f(x)$ nếu $b < x$, và $f(x) < f(a) < f(b)$ nếu $x < a$; lặp lại lập luận với $a, x, y$ lần lượt thay cho $a, b, x$, ta thấy rằng $f(x) < f(y)$.
 
-2) Điều kiện này là *đủ*. Giả sử $f$ liên tục và đơn điệu nghiêm ngặt trên I (chẳng hạn, tăng ngặt): $f(I)$ liên thông và do đó là một khoảng, và vì $f$ tăng ngặt, $f$ là một ánh xạ song ánh từ I lên $f(I)$. Hơn nữa, ảnh qua $f$ của một khoảng mở *trong* I là một khoảng mở *trong* $f(I)$, và do đó (\$1, no, 4, Mệnh đề 5) $f$ là một đồng phôi từ I lên $f(I)$.
+2) Điều kiện này là *đủ*. Giả sử $f$ liên tục và đơn điệu nghiêm ngặt trên I (chẳng hạn, tăng ngặt): $f(I)$ liên thông và do đó là một khoảng, và vì $f$ tăng ngặt, $f$ là một ánh xạ song ánh từ I lên $f(I)$. Hơn nữa, ảnh qua $f$ của một khoảng mở *trong* I là một khoảng mở *trong* $f(I)$, và do đó (§ 1, no, 4, Mệnh đề 5) $f$ là một đồng phôi từ I lên $f(I)$.
 
 #### Nhận xét {#top-iv-s2-n6-rem-1 .statement}
 

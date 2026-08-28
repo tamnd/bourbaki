@@ -28,7 +28,7 @@ subsections:
       pdf_page: 130
 statements: 51
 exercises: 17
-content_sha256: 09d8c983ce499791dac38520e1e02e0a00fce9a93da53ad207057672940643e7
+content_sha256: 9740cb276737a1cd48243cde19395553197b80441b982b8f9949c6d3b97e7e74
 ---
 
 ## § 4. Spectres d’anneaux et supports de modules
@@ -227,7 +227,7 @@ On déduit aussitôt de la prop. 11 que, si M est une partie quelconque de A et 
 
 Pour toute famille $(Y_\lambda)_{\lambda \in L}$ de parties fermées de X, $\mathfrak{J}(\bigcap_{\lambda \in L} Y_\lambda)$ est la racine de la somme des idéaux $\mathfrak{J}(Y_\lambda)$.
 
-En effet, il résulte de la prop. 11, (iii), que $\mathfrak{J}(\bigcap_{\lambda \in L} Y_\lambda)$ est le plus petit idéal égal à sa racine et contenant tous les $\mathfrak{J}(Y_\lambda)$; cet idéal contient donc $\sum_{\lambda \in L} \mathfrak{J}(Y_\lambda)$ et par suite aussi la racine de $\sum_{\lambda \in L} \mathfrak{J}(Y_\lambda)$ (\S 2, n° 6, cor. 2 de la prop. 13), d’où le corollaire.
+En effet, il résulte de la prop. 11, (iii), que $\mathfrak{J}(\bigcap_{\lambda \in L} Y_\lambda)$ est le plus petit idéal égal à sa racine et contenant tous les $\mathfrak{J}(Y_\lambda)$; cet idéal contient donc $\sum_{\lambda \in L} \mathfrak{J}(Y_\lambda)$ et par suite aussi la racine de $\sum_{\lambda \in L} \mathfrak{J}(Y_\lambda)$ (§ 2, n° 6, cor. 2 de la prop. 13), d’où le corollaire.
 
 #### Corollaire 2 {#ac-ii-s4-prop-11-cor-2 .statement}
 
@@ -371,7 +371,7 @@ Soit $a$ un idéal de $A$; avec les notations du no 3, on a
 $$
 V(a) = \operatorname{Supp}(A/a).
 $$
-En effet, si $\mathfrak{p}$ est un idéal premier de $A$ tel que $a \notin \mathfrak{p}$, on sait que $(A/a)_{\mathfrak{p}} = 0$ (\S 3, no 1, Remarque 3); si au contraire $a \subset \mathfrak{p}$, $aA_{\mathfrak{p}}$ est contenu dans l’idéal maximal $pA_p$ de $A_p$ et $(A/\alpha)_p$ est isomorphe à $A_p/\alpha A_p$, donc est $\neq 0$ ($\S 3$, n° 1, prop. 3); d’où notre assertion.
+En effet, si $\mathfrak{p}$ est un idéal premier de $A$ tel que $a \notin \mathfrak{p}$, on sait que $(A/a)_{\mathfrak{p}} = 0$ (§ 3, no 1, Remarque 3); si au contraire $a \subset \mathfrak{p}$, $aA_{\mathfrak{p}}$ est contenu dans l’idéal maximal $pA_p$ de $A_p$ et $(A/\alpha)_p$ est isomorphe à $A_p/\alpha A_p$, donc est $\neq 0$ ($§ 3$, n° 1, prop. 3); d’où notre assertion.
 En particulier, on a $\mathrm{Supp}(A) = \mathrm{Spec}(A)$.
 
 #### Proposition 16 {#ac-ii-s4-prop-16 .statement}
@@ -389,8 +389,8 @@ $$
 $$
 0 \to N_p \to M_p \to (M/N)_p \to 0
 $$
-($\S 2$, n° 4, th. 1). Pour que $M_p$ soit réduit à $0$, il faut et il suffit donc qu’il en soit ainsi de $N_p$ et de $(M/N)_p$. Autrement dit, la relation $p \notin \mathrm{Supp}(M)$ équivaut à « $p \notin \mathrm{Supp}(N)$ et $p \notin \mathrm{Supp}(M/N)$ », ce qui prouve (i).
-(ii) Pour tout idéal premier $p$ de $A$, $M_p$ est somme de la famille de sous-modules $(N_i)_p$ ($\S 2$, n° 4). Dire que $M_p \neq 0$ signifie qu’il existe $i \in I$ tel que $(N_i)_p \neq 0$, d’où (ii).
+($§ 2$, n° 4, th. 1). Pour que $M_p$ soit réduit à $0$, il faut et il suffit donc qu’il en soit ainsi de $N_p$ et de $(M/N)_p$. Autrement dit, la relation $p \notin \mathrm{Supp}(M)$ équivaut à « $p \notin \mathrm{Supp}(N)$ et $p \notin \mathrm{Supp}(M/N)$ », ce qui prouve (i).
+(ii) Pour tout idéal premier $p$ de $A$, $M_p$ est somme de la famille de sous-modules $(N_i)_p$ ($§ 2$, n° 4). Dire que $M_p \neq 0$ signifie qu’il existe $i \in I$ tel que $(N_i)_p \neq 0$, d’où (ii).
 
 #### Corollaire {#ac-ii-s4-n4-cor-1 .statement}
 
@@ -415,7 +415,7 @@ En effet, il résulte de la prop. 17 que l’intersection des idéaux premiers a
 
 Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini, $a$ un idéal de $A$. Pour que $\mathrm{Supp}(M) \subset V(a)$, il faut et il suffit qu’il existe un entier $k$ tel que $a^k M = 0$.
 
-En effet, si $b$ est l’annulateur de $M$, la relation $\mathrm{Supp}(M) \subset V(a)$ équivaut à $V(b) \subset V(a)$ d’après la prop. 17, donc à $a \subset r(b)$, où $r(b)$ est la racine de $b$ (n° 3, cor. 2 de la prop. 11). Puisque $A$ est noethérien, cette condition équivaut encore à l’existence d’un entier $k > 0$ tel que $a^k \subset b$ ($\S 2$, n° 6, prop. 15).
+En effet, si $b$ est l’annulateur de $M$, la relation $\mathrm{Supp}(M) \subset V(a)$ équivaut à $V(b) \subset V(a)$ d’après la prop. 17, donc à $a \subset r(b)$, où $r(b)$ est la racine de $b$ (n° 3, cor. 2 de la prop. 11). Puisque $A$ est noethérien, cette condition équivaut encore à l’existence d’un entier $k > 0$ tel que $a^k \subset b$ ($§ 2$, n° 6, prop. 15).
 
 #### Proposition 18 {#ac-ii-s4-prop-18 .statement}
 
@@ -425,13 +425,13 @@ $$
 \mathrm{Supp}(M \otimes_A M') = \mathrm{Supp}(M) \cap \mathrm{Supp}(M').
 $$
 
-Il s’agit de prouver que, si $p$ est un idéal premier de $A$, les relations $(M \otimes_A M')_p \neq 0$ et « $M_p \neq 0$ et $M'_p \neq 0$ » sont équivalentes. Comme les $A_p$-modules $M_p \otimes_{A_p} M'_p$ et $(M \otimes_A M')_p$ sont isomorphes ($\S 2$, n° 7, prop. 18), notre assertion résulte du lemme suivant :
+Il s’agit de prouver que, si $p$ est un idéal premier de $A$, les relations $(M \otimes_A M')_p \neq 0$ et « $M_p \neq 0$ et $M'_p \neq 0$ » sont équivalentes. Comme les $A_p$-modules $M_p \otimes_{A_p} M'_p$ et $(M \otimes_A M')_p$ sont isomorphes ($§ 2$, n° 7, prop. 18), notre assertion résulte du lemme suivant :
 
 #### Lemme 3 {#ac-ii-s4-lem-3 .statement}
 
 Soient $B$ un anneau local, $E$ et $E'$ deux $B$-modules de type fini. Si $E \neq 0$ et $E' \neq 0$, on a $E \otimes_B E' \neq 0$.
 
-En effet, soit $k$ le corps résiduel de $B$. En vertu du $\S 3$, n° 2, prop. 4, on a $k \otimes_B E \neq 0$ et $k \otimes_B E' \neq 0$; on en déduit que $(k \otimes_B E) \otimes_k (k \otimes_B E') \neq 0$ (Alg., chap. II, 3e éd., $\S 3$, n° 7). Mais en vertu de l’associativité du produit tensoriel (loc. cit., $\S 3$, n° 8) ce produit tensoriel est isomorphe à $E \otimes_B ((k \otimes_k k) \otimes_B E') = E \otimes_B (k \otimes_B E')$ donc à $k \otimes_B (E \otimes_B E')$, d’où la conclusion.
+En effet, soit $k$ le corps résiduel de $B$. En vertu du $§ 3$, n° 2, prop. 4, on a $k \otimes_B E \neq 0$ et $k \otimes_B E' \neq 0$; on en déduit que $(k \otimes_B E) \otimes_k (k \otimes_B E') \neq 0$ (Alg., chap. II, 3e éd., $§ 3$, n° 7). Mais en vertu de l’associativité du produit tensoriel (loc. cit., $§ 3$, n° 8) ce produit tensoriel est isomorphe à $E \otimes_B ((k \otimes_k k) \otimes_B E') = E \otimes_B (k \otimes_B E')$ donc à $k \otimes_B (E \otimes_B E')$, d’où la conclusion.
 
 #### Corollaire {#ac-ii-s4-n4-cor-2 .statement}
 

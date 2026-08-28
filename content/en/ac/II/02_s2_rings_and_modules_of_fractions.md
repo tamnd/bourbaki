@@ -49,7 +49,7 @@ subsections:
       pdf_page: 98
 statements: 52
 exercises: 23
-content_sha256: 2567d0d53dd55c777a0ec321261a3e19900344eba7df32b8cbab70baea7d231d
+content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
 ---
 
 ## 2. RINGS AND MODULES OF FRACTIONS
@@ -614,7 +614,7 @@ r(a \cap b) = r(ab) = r(a) \cap r(b);
 $$
 *in particular, if* $a \subset b$, *then* $r(a) \subset r(b)$.
 
-For a prime ideal to contain $a \cap b$ (or $ab$), it is necessary and sufficient that it contain one of the ideals $a, b$ (\S 1, no. 1, Proposition 1).
+For a prime ideal to contain $a \cap b$ (or $ab$), it is necessary and sufficient that it contain one of the ideals $a, b$ (§ 1, no. 1, Proposition 1).
 
 #### Proposition 14 {#ac-ii-s2-prop-14 .statement}
 

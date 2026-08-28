@@ -33,7 +33,7 @@ subsections:
       pdf_page: 138
 statements: 30
 exercises: 17
-content_sha256: 0fdc2956e848c1bc0958511ea7eceea5dd8893532c764935e56746e10f1e943d
+content_sha256: 55a245e21b3153aae0c2254426dfc0000c89fee4a5e3f77c1215285ee543c76f
 ---
 
 ## § 2. ANNEAUX DE COHEN
@@ -58,11 +58,11 @@ b) Supposons $p1_C$ nilpotent. Soit $d$ le plus petit entier positif tel que $p^
 
 c) Supposons que $p1_C$ ne soit pas nilpotent. Alors $C$ est un anneau de valuation discrète dont le corps résiduel est de caractéristique $p$, et le corps des fractions de caractéristique $0$. Les idéaux de la forme $p^nC$, avec $n \in \mathbf{N}$, sont deux à deux distincts ; ils forment tous les idéaux non nuls de $C$. Le $C$-module $C$ n’est pas de longueur finie.
 
-L’assertion a) résulte de la prop. 19 de III, $\S 2$, no 13.
+L’assertion a) résulte de la prop. 19 de III, $§ 2$, no 13.
 
 On a $\bigcap_{n \geqslant 0} p^n C = \{0\}$ par hypothèse. Soit $x \neq 0$ dans $C$; il existe un entier $n \geqslant 0$ tel que $x \in p^n C$, $x \notin p^{n+1} C$; il existe donc un élément $y$ de $C$ tel que $x = p^n y$; comme $y$ n’appartient pas à $pC$, $y$ est inversible.
 
-Supposons que $p 1_C$ ne soit pas nilpotent. Si $x$ et $x'$ sont deux éléments non nuls de $C$, il existe deux entiers $n \geqslant 0$, $n' \geqslant 0$ et deux éléments inversibles $y$, $y'$ de $C$ tels que $x = p^n y$, $x' = p^{n'} y'$. On a alors $xx' = p^{n+n'} yy' \neq 0$, donc $C$ est intègre. Comme $C$ est un anneau local, mais n’est pas un corps et que l’idéal maximal $m_C = pC$ de $C$ est principal, $C$ est un anneau de valuation discrète (VI, $\S 3$, no 6, prop. 9). Les idéaux non nuls de $C$ sont alors de la forme $p^n C$ d’après *loc. cit.*, prop. 8, et sont deux à deux distincts. En particulier, l’anneau $C$ n’est pas artinien, donc le $C$-module $C$ n’est pas de longueur finie. Le corps résiduel $C/pC$ de $C$ est de caractéristique $p$. Soit $q$ la caractéristique du corps des fractions de $C$. On a $p 1_C \neq 0$, d’où $p \neq q$. Par ailleurs, si $q$ était non nulle, on aurait $q 1_C = 0$ donc $C/pC$ serait de caractéristique $q \neq p$, ce qui est absurde. Ceci prouve c).
+Supposons que $p 1_C$ ne soit pas nilpotent. Si $x$ et $x'$ sont deux éléments non nuls de $C$, il existe deux entiers $n \geqslant 0$, $n' \geqslant 0$ et deux éléments inversibles $y$, $y'$ de $C$ tels que $x = p^n y$, $x' = p^{n'} y'$. On a alors $xx' = p^{n+n'} yy' \neq 0$, donc $C$ est intègre. Comme $C$ est un anneau local, mais n’est pas un corps et que l’idéal maximal $m_C = pC$ de $C$ est principal, $C$ est un anneau de valuation discrète (VI, $§ 3$, no 6, prop. 9). Les idéaux non nuls de $C$ sont alors de la forme $p^n C$ d’après *loc. cit.*, prop. 8, et sont deux à deux distincts. En particulier, l’anneau $C$ n’est pas artinien, donc le $C$-module $C$ n’est pas de longueur finie. Le corps résiduel $C/pC$ de $C$ est de caractéristique $p$. Soit $q$ la caractéristique du corps des fractions de $C$. On a $p 1_C \neq 0$, d’où $p \neq q$. Par ailleurs, si $q$ était non nulle, on aurait $q 1_C = 0$ donc $C/pC$ serait de caractéristique $q \neq p$, ce qui est absurde. Ceci prouve c).
 
 Supposons que $p 1_C$ soit nilpotent. Soit $d$ le plus petit entier positif tel que $p^d 1_C = 0$. On a une suite d’idéaux
 
@@ -152,7 +152,7 @@ c) Tout sous-anneau fermé $A'$ de A, contenant S, et tel que $A = A' + m_A$, co
 
 A) Cas particulier : $m_A$ nilpotent
 
-Soit n un entier positif tel que $m_A^{n+1} = \{0\}$. Si $\Phi_n$ est le n-ième polynôme de Witt ($\S 1$, no 1), l’application $u : [a_0, ..., a_n] \mapsto \Phi_n(a_0, ..., a_n)$ est un homomorphisme d’anneaux de $W_{n+1}(A)$ dans A ($\S 1$, no 7). Soit $B_n$ l’image de $u$ et soit $C_n$ le sous-anneau de A engendré par $B_n \cup S$.
+Soit n un entier positif tel que $m_A^{n+1} = \{0\}$. Si $\Phi_n$ est le n-ième polynôme de Witt ($§ 1$, no 1), l’application $u : [a_0, ..., a_n] \mapsto \Phi_n(a_0, ..., a_n)$ est un homomorphisme d’anneaux de $W_{n+1}(A)$ dans A ($§ 1$, no 7). Soit $B_n$ l’image de $u$ et soit $C_n$ le sous-anneau de A engendré par $B_n \cup S$.
 
 #### Lemme 1 {#ac-ix-s2-lem-1 .statement}
 
@@ -214,7 +214,7 @@ Prouvons l’unicité de $u$. Soit $u_1$ un homomorphisme de C dans $C'$ tel que
 
 Soit k un corps de caractéristique p, et soit n un entier $\geq 1$, ou $+ \infty$. Il existe un p-anneau de longueur n dont le corps résiduel est isomorphe à k.
 
-L’anneau $W(k)$ des vecteurs de Witt à coefficients dans k est un anneau local intègre séparé et complet, dont le corps résiduel est isomorphe à k ($\S 1$, no 8, prop. 8), et on a $p \cdot 1_{W(k)} \neq 0$ (loc. cit., formule (52)). Soit C un sous-anneau de Cohen de $W(k)$ (no 2, th. 1). Alors C est un p-anneau de longueur $+ \infty$ dont le corps résiduel est isomorphe à k, et, si n est un entier $\geq 1$, le quotient $C/p^nC$ est un p-anneau de longueur n dont le corps résiduel est isomorphe à k.
+L’anneau $W(k)$ des vecteurs de Witt à coefficients dans k est un anneau local intègre séparé et complet, dont le corps résiduel est isomorphe à k ($§ 1$, no 8, prop. 8), et on a $p \cdot 1_{W(k)} \neq 0$ (loc. cit., formule (52)). Soit C un sous-anneau de Cohen de $W(k)$ (no 2, th. 1). Alors C est un p-anneau de longueur $+ \infty$ dont le corps résiduel est isomorphe à k, et, si n est un entier $\geq 1$, le quotient $C/p^nC$ est un p-anneau de longueur n dont le corps résiduel est isomorphe à k.
 
 #### Remarque 1 {#ac-ix-s2-n3-rem-1 .statement}
 
@@ -222,7 +222,7 @@ Soient n un entier $\geq 1$ et S une p-base de k. On peut montrer que le sous-an
 
 #### Remarque 2 {#ac-ix-s2-n3-rem-2 .statement}
 
-Le lecteur trouvera en Appendice une démonstration de la prop. 5 qui n’utilise ni les résultats du $\S 1$, ni le théorème d’existence de sous-anneaux de Cohen (no 2, th. 1).
+Le lecteur trouvera en Appendice une démonstration de la prop. 5 qui n’utilise ni les résultats du $§ 1$, ni le théorème d’existence de sous-anneaux de Cohen (no 2, th. 1).
 
 #### Corollaire {#ac-ix-s2-n3-cor-1 .statement}
 
@@ -262,7 +262,7 @@ b) La restriction de $\pi$ à T est injective : soient a et b deux éléments de
 
 Les propriétés a) et b) ci-dessus, jointes à la formule $\pi(S) = k$, entraînent la relation $S = T$, d’où l’unicité.
 
-Prouvons maintenant l’existence de S. Avec les notations du th. 2, posons $\varphi = u \circ \tau_k$, c’est-à-dire (\S 1, n° 6)
+Prouvons maintenant l’existence de S. Avec les notations du th. 2, posons $\varphi = u \circ \tau_k$, c’est-à-dire (§ 1, n° 6)
 
 (2)
 $$

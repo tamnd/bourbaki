@@ -65,9 +65,9 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: 0c2eeb3417bc190cf7ca0f1c758e61a3e6a18c3ef1e769d52edad39a953134e2
+content_sha256: 91252eda42cd43c67b0cf362d2d386d7140a09875316d4da9f51fdc92636851f
 translated_from: content/en/ac/III/02_s2_general_results_on_filtered_rings_and.md
-source_content_sha256: b4049d938eec5ecd1b702c35abe78a71285cff298d5cac6318733f0844555518
+source_content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-61e6febe
 glossary_version: 34
@@ -757,13 +757,13 @@ $$
 
 *Nếu C là một vành giao hoán Noether thì mọi C-đại số giao hoán sinh hữu hạn đều là một vành Noether.*
 
-Một đại số như vậy đẳng cấu với một thương của đại số đa thức C[X_1, ..., X_n] (\S 1, no. 1).
+Một đại số như vậy đẳng cấu với một thương của đại số đa thức C[X_1, ..., X_n] (§ 1, no. 1).
 
 #### Hệ quả 4 {#ac-iii-s2-thm-2-cor-4 .statement}
 
 *Cho A là một vành giao hoán phân bậc kiểu $\mathbf{N}$ và gọi $(A_n)$ là phân bậc của nó. Để A là Noether, điều kiện cần và đủ là $A_n$ là Noether và A là một A,-đại số sinh hữu hạn.*
 
-Điều kiện này là đủ theo Hệ quả 3. Ngược lại, giả sử A là Noether; khi đó $m = \sum_{n \geq 1} A_n$, là một iđêan của A, sinh hữu hạn; suy ra A là một A,-đại số sinh hữu hạn (\S 1, no. 2, Hệ quả của Mệnh đề 1); mặt khác $A_n$, đẳng cấu với $A/m$, là một vành Noether.
+Điều kiện này là đủ theo Hệ quả 3. Ngược lại, giả sử A là Noether; khi đó $m = \sum_{n \geq 1} A_n$, là một iđêan của A, sinh hữu hạn; suy ra A là một A,-đại số sinh hữu hạn (§ 1, no. 2, Hệ quả của Mệnh đề 1); mặt khác $A_n$, đẳng cấu với $A/m$, là một vành Noether.
 
 #### Hệ quả 5 {#ac-iii-s2-thm-2-cor-5 .statement}
 

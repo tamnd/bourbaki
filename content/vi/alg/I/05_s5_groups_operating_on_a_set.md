@@ -41,9 +41,9 @@ subsections:
       pdf_page: 85
 statements: 32
 exercises: 29
-content_sha256: 6f22e69787c7147dcc0aff8bf0fe5b2edc05d1c970bfdb3082b43dfb860dc633
+content_sha256: 670d657ad93a01b85a056f5a60619cac88476ef2fd1ce78c70f60a94979d888d
 translated_from: content/en/alg/I/05_s5_groups_operating_on_a_set.md
-source_content_sha256: 1bfc7d980bffef016673f763fb429cbbf5132ed5919da50c944ba75ba35ea265
+source_content_sha256: 605c0e618797b31a8a044a2bed5b6ec188866b18a0efb8640705a9dbb17c2a1b
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4c9756fc
 glossary_version: 34
@@ -73,9 +73,9 @@ Cho M là một đơn vị; một tập hợp E với một tác động trái (
 
 #### Ví dụ {#alg-i-s5-n1-exa-1 .statement}
 
-(1) Cho E là một tập hợp; tác động chính tắc của $E^E$ trên E (\S 3, no. 1, Ví dụ 3) là một tác động trái.
+(1) Cho E là một tập hợp; tác động chính tắc của $E^E$ trên E (§ 3, no. 1, Ví dụ 3) là một tác động trái.
 
-(2) Cho M là một đơn vị. Tác động trái (resp. phải) của M trên chính nó dẫn xuất từ luật trên M (\S 3, no. 3, Ví dụ 7) là một tác động trái (resp. phải) của M trên chính nó. Khi xét tác động này, ta nói rằng M tác động trên chính nó bằng phép tịnh tiến trái (resp. phải).
+(2) Cho M là một đơn vị. Tác động trái (resp. phải) của M trên chính nó dẫn xuất từ luật trên M (§ 3, no. 3, Ví dụ 7) là một tác động trái (resp. phải) của M trên chính nó. Khi xét tác động này, ta nói rằng M tác động trên chính nó bằng phép tịnh tiến trái (resp. phải).
 
 Cho E là một M-tập hợp trái (resp. phải) và $M^0$ là đơn vị đối của M. Với cùng tác động ấy, đơn vị $M^0$ tác động trên E ở bên phải (resp. trái). $M^0$-tập hợp thu được được gọi là đối của M-tập hợp E. Các định nghĩa và kết quả liên quan đến các M-tập hợp trái được chuyển sang các M-tập hợp phải $M^0$ khi chuyển qua các cấu trúc đối.
 
@@ -135,7 +135,7 @@ Cho e là phần tử đơn vị của M; khi đó $ea = a$ với mọi phần t
 
 Mệnh đề thứ nhất suy ra từ mệnh đề trên và F là hạt nhân của đồng cấu từ S vào $\mathfrak{S}_A$ liên kết với phép toán của S trên A.
 
-Một nhóm G tác động trung thành trên một tập hợp E khi và chỉ khi tập cố định của E gồm phần tử đơn vị của G. Tập cố định của E là hạt nhân của đồng cấu đã cho từ G vào $\mathfrak{S}_E$; đồng cấu này đơn ánh khi và chỉ khi hạt nhân của nó gồm phần tử đơn vị (\S 4, no. 5, Định lý 3).
+Một nhóm G tác động trung thành trên một tập hợp E khi và chỉ khi tập cố định của E gồm phần tử đơn vị của G. Tập cố định của E là hạt nhân của đồng cấu đã cho từ G vào $\mathfrak{S}_E$; đồng cấu này đơn ánh khi và chỉ khi hạt nhân của nó gồm phần tử đơn vị (§ 4, no. 5, Định lý 3).
 
 Cho M là một monoid, E một M-tập và $a$ một phần tử của E. Tập cố định, nhóm ổn định ngặt và nhóm ổn định của $\{a\}$ bằng nhau; monoid này cũng được gọi là tập cố định hoặc nhóm ổn định của $a$. Tập cố định của một tập con A của E là giao của các tập cố định của các phần tử của A. $a$ được gọi là một phần tử bất biến của E nếu tập cố định của $a$ là monoid M. M được nói là tác động tầm thường trên E nếu mọi phần tử của E đều bất biến.
 
@@ -149,7 +149,7 @@ Tương tự, ta thấy rằng, nếu A và B là hai tập con của E và T l�
 
 ### 3. TỰ ĐẲNG CẤU NỘI
 
-Cho G là một nhóm. Tập hợp Aut(G) các tự đẳng cấu của nhóm G là một nhóm con của $\mathcal{G}_G$ (\S 4, no. 1, Ví dụ 2).
+Cho G là một nhóm. Tập hợp Aut(G) các tự đẳng cấu của nhóm G là một nhóm con của $\mathcal{G}_G$ (§ 4, no. 1, Ví dụ 2).
 
 #### Mệnh đề 3 {#alg-i-s5-prop-3 .statement}
 
@@ -161,7 +161,7 @@ $$
 \operatorname{Int}(x) \circ \operatorname{Int}(y) = \operatorname{Int}(xy):
 $$
 
-với mọi $z \in G$, $x(yzy^{-1})x^{-1} = (xy)z(xy)^{-1}$. Mặt khác, $\operatorname{Int}(e)$ là ánh xạ đồng nhất của G. Do đó ánh xạ Int là một đồng cấu monoid từ G vào monoid End(G) của các đồng cấu của nhóm G. Vì các phần tử của G đều khả nghịch, ánh xạ Int nhận giá trị trong tập Aut(G) các phần tử khả nghịch của End(G) (\S 2, no. 3). Khi đó $xyx^{-1} = y$ khi và chỉ khi $x$ và $y$ giao hoán và do đó $\operatorname{Int}(x)$ là ánh xạ đồng nhất của G khi và chỉ khi $x$ là một phần tử trung tâm. Cuối cùng, cho $\alpha$ là một tự đẳng cấu của G và cho $x \in G$; khi đó
+với mọi $z \in G$, $x(yzy^{-1})x^{-1} = (xy)z(xy)^{-1}$. Mặt khác, $\operatorname{Int}(e)$ là ánh xạ đồng nhất của G. Do đó ánh xạ Int là một đồng cấu monoid từ G vào monoid End(G) của các đồng cấu của nhóm G. Vì các phần tử của G đều khả nghịch, ánh xạ Int nhận giá trị trong tập Aut(G) các phần tử khả nghịch của End(G) (§ 2, no. 3). Khi đó $xyx^{-1} = y$ khi và chỉ khi $x$ và $y$ giao hoán và do đó $\operatorname{Int}(x)$ là ánh xạ đồng nhất của G khi và chỉ khi $x$ là một phần tử trung tâm. Cuối cùng, cho $\alpha$ là một tự đẳng cấu của G và cho $x \in G$; khi đó
 
 $$
 \operatorname{Int}(\alpha(x)) = \alpha \circ \operatorname{Int}(x) \circ \alpha^{-1}.
@@ -181,7 +181,7 @@ Do đó $\alpha \cdot \operatorname{Int}(G) \cdot \alpha^{-1} \subset \operatorn
 
 Với $x, y \in G$, ta cũng viết $x^y = y^{-1}xy = (\operatorname{Int} y^{-1})(x)$.
 
-Một nhóm con của G là chuẩn nếu và chỉ nếu nó ổn định dưới mọi tự đẳng cấu trong của G (\S 4, no. 4, Định nghĩa 5). Một nhóm con của G được gọi là bất biến nếu nó ổn định dưới mọi tự đẳng cấu của G. Tâm của một nhóm G là một nhóm con bất biến (công thức (2)).
+Một nhóm con của G là chuẩn nếu và chỉ nếu nó ổn định dưới mọi tự đẳng cấu trong của G (§ 4, no. 4, Định nghĩa 5). Một nhóm con của G được gọi là bất biến nếu nó ổn định dưới mọi tự đẳng cấu của G. Tâm của một nhóm G là một nhóm con bất biến (công thức (2)).
 
 Tâm của một nhóm G không nhất thiết ổn định dưới mọi đồng cấu của G (Bài tập 22). Đặc biệt, tâm của một nhóm có toán tử không nhất thiết là một nhóm con ổn định.
 

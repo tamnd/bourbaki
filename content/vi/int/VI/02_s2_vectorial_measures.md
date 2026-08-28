@@ -53,7 +53,7 @@ subsections:
       pdf_page: 430
 statements: 42
 exercises: 18
-content_sha256: b77bf541e3e518abb93045c369a3f6999436d7a2399899fc0be5bccd95724fc8
+content_sha256: 3514b9e0f7ea5f14bcff1348f3200e08808edecdcfcddf093af11c2b7479df50
 translated_from: content/en/int/VI/02_s2_vectorial_measures.md
 source_content_sha256: b2224e3ba44c39c383bed9964f3920718fdcd7f727ed0fef49058dbd1cef0556
 translation_model: gpt-5.4-mini
@@ -127,7 +127,7 @@ Rõ ràng là tập hợp các hàm số vô hướng hữu hạn khả tích th
 
 — Ta lấy cho $m$ ánh xạ đồng nhất của $\mathscr{K}(T)$ lên chính nó. Vì không gian đối ngẫu của $\mathscr{K}(T)$ là không gian $\mathscr{M}(T)$ của các độ đo vô hướng trên $T$, các hàm $f \in \mathcal{L}(m)$ là những hàm khả tích theo nghĩa thiết yếu đối với *mọi* độ đo vô hướng $\mu$ (xem Bài tập 1), và tích phân $\int f dm$ là dạng tuyến tính $\mu \mapsto \int f d\mu$ trên $\mathscr{M}(T)$. Không thể có $\int f d\mu = 0$ với mọi độ đo $\mu \in \mathscr{M}(T)$ trừ khi $f = 0$, như thấy khi lấy $\mu = \varepsilon_t$, với $t$ tùy ý trong $T$; nói cách khác, ánh xạ $f \mapsto \int f dm$ là một *đơn ánh* từ $\mathcal{L}(m)$ vào đối ngẫu đại số của $\mathscr{M}(T)$, và nó mở rộng ánh xạ đồng nhất của $\mathscr{K}(T)$. Do đó, quan hệ $\int f dm \in F = \mathscr{K}(T)$ tương đương với $f \in \mathscr{K}(T)$.
 
-Cho $u$ là một ánh xạ tuyến tính liên tục của $F$ vào một không gian lồi địa phương Hausdorff $G$, và cũng ký hiệu bằng $u$ phép mở rộng của nó bằng song chuyển vị thành một ánh xạ tuyến tính của ${F'}^*$ vào ${G'}^*$ (\S 1, No. 1). Với quy ước này:
+Cho $u$ là một ánh xạ tuyến tính liên tục của $F$ vào một không gian lồi địa phương Hausdorff $G$, và cũng ký hiệu bằng $u$ phép mở rộng của nó bằng song chuyển vị thành một ánh xạ tuyến tính của ${F'}^*$ vào ${G'}^*$ (§ 1, No. 1). Với quy ước này:
 
 #### Mệnh đề 2 {#int-vi-s2-prop-2 .statement}
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 29
 statements: 31
 exercises: 29
-content_sha256: 5a16d612521017b3ed47f884fc18806ef333bf1cb3d3b7c07f367f5dfe43b398
+content_sha256: 6c11970e3f005a9e93ca03d9ec2fccd854aa271c289f50e70fb59e94c7385df8
 ---
 
 ## § 2. Systèmes de Tits
@@ -333,9 +333,9 @@ d) Soient $X$ et $Y$ deux parties de $S$. On a $G_X \subset G_Y$ (resp. $G_X = G
 
 Il est clair que $G_X = (G_X)^{-1}$; le lemme 1 du n° 1 montre que $G_X . G_X \subset G_X$; d’où a), compte tenu du cor. 1 du th. 2.
 
-L’injectivité de $X \mapsto G_X$ résulte de celle de $X \mapsto W_X$ (\S 1, n° 8, th. 2). Soit d’autre part $H$ un sous-groupe de $G$ contenant $B$. Soit $U$ l’ensemble des $w \in W$ tels que $C(w) \subset H$. On a $H = BUB$ puisque $H$ est réunion de doubles classes. Soit $X = U \cap S$; montrons que $H = G_X$. On a évidemment $G_X \subset H$. D’autre part, soit $u \in U$, et soit $(s_1, \ldots, s_q)$ une décomposition réduite de $u$. Le cor. 3 du th. 2 entraîne $C(s_j) \subset H$, d’où $s_j \in X$ pour $1 \leq j \leq q$. On a donc $u \in W_X$, et comme $H$ est réunion des $C(u)$ pour $u \in U$, on a bien $H \subset G_X$, ce qui achève de prouver $(b)$.
+L’injectivité de $X \mapsto G_X$ résulte de celle de $X \mapsto W_X$ (§ 1, n° 8, th. 2). Soit d’autre part $H$ un sous-groupe de $G$ contenant $B$. Soit $U$ l’ensemble des $w \in W$ tels que $C(w) \subset H$. On a $H = BUB$ puisque $H$ est réunion de doubles classes. Soit $X = U \cap S$; montrons que $H = G_X$. On a évidemment $G_X \subset H$. D’autre part, soit $u \in U$, et soit $(s_1, \ldots, s_q)$ une décomposition réduite de $u$. Le cor. 3 du th. 2 entraîne $C(s_j) \subset H$, d’où $s_j \in X$ pour $1 \leq j \leq q$. On a donc $u \in W_X$, et comme $H$ est réunion des $C(u)$ pour $u \in U$, on a bien $H \subset G_X$, ce qui achève de prouver $(b)$.
 
-Les assertions c) et d) résultent des propriétés analogues des groupes $W_X$ (\S 1, n° 8, th. 2).
+Les assertions c) et d) résultent des propriétés analogues des groupes $W_X$ (§ 1, n° 8, th. 2).
 
 #### Corollaire {#lie-iv-s2-n5-cor-1 .statement}
 
@@ -449,12 +449,12 @@ Si la longueur de $s_2 s_1 s_2$ est égale à 3, le cor. 1 du th. 2 entraîne
 $$
 C(s_2) \cdot C(s_1) \cdot C(s_2) = C(s_2 s_1 s_2),
 $$
-d’où $h \in H \cap C(s_2 s_1 s_2)$. Puisque $H \cap C(s_2 s_1 s_2)$ est non vide, on a $s_2 s_1 s_2 \in W_X$. Comme $(s_2, s_1, s_2)$ est une décomposition réduite, on en déduit $s_2 \in X$, contrairement à l’hypothèse ($\S 1$, no 8, cor. 1 de la prop. 7).
+d’où $h \in H \cap C(s_2 s_1 s_2)$. Puisque $H \cap C(s_2 s_1 s_2)$ est non vide, on a $s_2 s_1 s_2 \in W_X$. Comme $(s_2, s_1, s_2)$ est une décomposition réduite, on en déduit $s_2 \in X$, contrairement à l’hypothèse ($§ 1$, no 8, cor. 1 de la prop. 7).
 
-On a donc $l_S(s_2 s_1 s_2) \leq 2$; si $l_S(s_1 s_2) = 1$, on a $s_1 s_2 \in S$, donc $(s_1 s_2)^2 = 1$, $s_1 s_2 = s_2 s_1$. Si $l_S(s_1 s_2) = 2$ la propriété (E) du $\S 1$, no 5 entraîne alors $s_2 s_1 = s_1 s_2$, car $s_1 \neq s_2$. C.Q.F.D.
+On a donc $l_S(s_2 s_1 s_2) \leq 2$; si $l_S(s_1 s_2) = 1$, on a $s_1 s_2 \in S$, donc $(s_1 s_2)^2 = 1$, $s_1 s_2 = s_2 s_1$. Si $l_S(s_1 s_2) = 2$ la propriété (E) du $§ 1$, no 5 entraîne alors $s_2 s_1 = s_1 s_2$, car $s_1 \neq s_2$. C.Q.F.D.
 
 Dans le th. 5 ci-dessous interviendra la propriété suivante d’un groupe $U$:
-(R) Pour tout sous-groupe distingué $V$ de $U$, distinct de $U$, le groupe des commutateurs (cf. Alg., chap. I, $\S 6$, no 8) de $U/V$ est distinct de $U/V$.
+(R) Pour tout sous-groupe distingué $V$ de $U$, distinct de $U$, le groupe des commutateurs (cf. Alg., chap. I, $§ 6$, no 8) de $U/V$ est distinct de $U/V$.
 
 Tout groupe résoluble vérifie (R); en particulier tout groupe commutatif vérifie (R); il en est de même de tout groupe simple non commutatif. On peut montrer que le groupe symétrique $\mathfrak{S}_n$ vérifie (R) pour tout $n$ (cf. exerc. 29).
 
@@ -464,7 +464,7 @@ Soit $Z$ l’intersection des conjugués de $B$, soit $U$ un sous-groupe de $B$ 
 (1) $U$ est distingué dans $B$ et $B = U T$.
 (2) $U$ possède la propriété (R).
 (3) $G_1$ est égal à son groupe des commutateurs.
-(4) Le système de Coxeter $(W, S)$ est irréductible (cf. $\S 1$, no 9).
+(4) Le système de Coxeter $(W, S)$ est irréductible (cf. $§ 1$, no 9).
 Alors tout sous-groupe $H$ de $G$ normalisé par $G_1$ est contenu dans $Z$ ou contient $G_1$.
 
 Montrons d’abord que $G = G_1 T$. Le groupe $G_1 T$ contient $B$, donc est son propre normalisateur (th. 4); comme $N$ normalise $G_1$ et $T$, il normalise aussi $G_1 T$, d’où $N \subset G_1 T$; puisque $G$ est engendré par $B$ et $N$, on a bien $G = G_1 T$.

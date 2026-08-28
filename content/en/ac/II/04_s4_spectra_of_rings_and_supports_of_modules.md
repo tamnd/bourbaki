@@ -29,7 +29,7 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: b16f1abe7ac650655d0924695aa6469a481241cf9a4fd4a93b724be5db0609ea
+content_sha256: afbce0ee70ea654b4478dd2d27c1a7060b1124651d86be84ea7b4b58f7101cd3
 ---
 
 ## 4. SPECTRA OF RINGS AND SUPPORTS OF MODULES
@@ -179,15 +179,15 @@ for every family $(M_i)_{i \in I}$ of subsets of A;
 $$
 V(a \cap a') = V(aa') = V(a) \cup V(a')
 $$
-for every pair of ideals $a,\ a'$ in A. Formulae (1) and (2) are obvious; on the other hand, formula (3) means that, for a prime ideal $p$ of A to contain one of the ideals $a$ or $a'$, it is necessary and sufficient that it contain $aa'$ or that it contain $a \cap a'$; then it is a consequence of § 1, no. 1, Proposition 1. The second formula (1) has the following converse: if $a$ is an ideal of $A$ such that $V(a) = \varnothing$, then $a = A$, for there is no maximal ideal of $A$ containing $a$. Finally, if $a$ is an ideal of $A$ and $r(a)$ is its *radical* ($\S 2$, no. 6, Definition 4), then
+for every pair of ideals $a,\ a'$ in A. Formulae (1) and (2) are obvious; on the other hand, formula (3) means that, for a prime ideal $p$ of A to contain one of the ideals $a$ or $a'$, it is necessary and sufficient that it contain $aa'$ or that it contain $a \cap a'$; then it is a consequence of § 1, no. 1, Proposition 1. The second formula (1) has the following converse: if $a$ is an ideal of $A$ such that $V(a) = \varnothing$, then $a = A$, for there is no maximal ideal of $A$ containing $a$. Finally, if $a$ is an ideal of $A$ and $r(a)$ is its *radical* ($§ 2$, no. 6, Definition 4), then
 
 $$
 V(a) = V(r(a))
 $$
 
-as follows from $\S 2$, no. 6, Corollary 1 to Proposition 13.
+as follows from $§ 2$, no. 6, Corollary 1 to Proposition 13.
 
-Formulae (1) to (3) show that the subsets $V(M)$ of $X$ satisfy the *closed set* axioms of a topology (*General Topology*, Chapter I, $\S 1$, no. 4).
+Formulae (1) to (3) show that the subsets $V(M)$ of $X$ satisfy the *closed set* axioms of a topology (*General Topology*, Chapter I, $§ 1$, no. 4).
 
 #### Definition 4 {#ac-ii-s4-def-4 .statement}
 
@@ -402,7 +402,7 @@ Let $a$ be an ideal of $A$; in the notation of no. 3, we have
 $$
 V(a) = \operatorname{Supp}(A/a).
 $$
-If $p$ is a prime of $A$ such that $a \notin p$, then $(A/a)_p = 0$ (\S 3, no. 1, Remark 3); if on the other hand $a \subset p$, $aA_p$ is contained in the maximal ideal $pA_p$ of $A$, and $(A/a)_p$ is isomorphic to $A_p/aA_p$ and hence is non-zero (\S 3, no. 1, Proposition 3); whence our assertion.
+If $p$ is a prime of $A$ such that $a \notin p$, then $(A/a)_p = 0$ (§ 3, no. 1, Remark 3); if on the other hand $a \subset p$, $aA_p$ is contained in the maximal ideal $pA_p$ of $A$, and $(A/a)_p$ is isomorphic to $A_p/aA_p$ and hence is non-zero (§ 3, no. 1, Proposition 3); whence our assertion.
 In particular, $\operatorname{Supp}(A) = \operatorname{Spec}(A)$.
 
 #### Proposition 16 {#ac-ii-s4-prop-16 .statement}
@@ -420,8 +420,8 @@ $$
 $$
 0 \to N_p \to M_p \to (M/N)_p \to 0
 $$
-(\S 2, no. 4, Theorem 1). For $M$, to be reduced to 0, it is necessary and sufficient that $N_p$ and $(M/N)_p$ be so. In other words, the relation $p \notin \operatorname{Supp}(M)$ is equivalent to "p $\notin \operatorname{Supp}(N)$ and $p \notin \operatorname{Supp}(M/N)$", which proves (i).
-(ii) For every prime ideal $p$ of $A$, $M$, is the sum of the family of submodules $(N_i)_p$ (\S 2, no. 4). To say that $M, \neq 0$ means that there exists $i \in I$ such that $(N_i)_p \neq 0$, whence (ii).
+(§ 2, no. 4, Theorem 1). For $M$, to be reduced to 0, it is necessary and sufficient that $N_p$ and $(M/N)_p$ be so. In other words, the relation $p \notin \operatorname{Supp}(M)$ is equivalent to "p $\notin \operatorname{Supp}(N)$ and $p \notin \operatorname{Supp}(M/N)$", which proves (i).
+(ii) For every prime ideal $p$ of $A$, $M$, is the sum of the family of submodules $(N_i)_p$ (§ 2, no. 4). To say that $M, \neq 0$ means that there exists $i \in I$ such that $(N_i)_p \neq 0$, whence (ii).
 
 #### Corollary {#ac-ii-s4-n4-cor-1 .statement}
 
@@ -450,7 +450,7 @@ It follows from Proposition 17 that the intersection of the prime ideals belongi
 
 Let $A$ be a Noetherian ring, $M$ a finitely generated $A$-module and $a$ an ideal of $A$. For $\operatorname{Supp}(M) \subset V(a)$, it is necessary and sufficient that there exist an integer $k$ such that $a^k M = 0$.
 
-If $b$ is the annihilator of $M$, the relation $\operatorname{Supp}(M) \subset V(a)$ is equivalent to $V(b) \subset V(a)$ by Proposition 17 and hence to $a \subset r(b)$, where $r(b)$ is the radical of $b$ (no. 3, Corollary 2 to Proposition 11). Since $A$ is Noetherian, this condition is also equivalent to the existence of an integer $k > 0$ such that $a^k \subset b$ (\S 2, no. 6, Proposition 15).
+If $b$ is the annihilator of $M$, the relation $\operatorname{Supp}(M) \subset V(a)$ is equivalent to $V(b) \subset V(a)$ by Proposition 17 and hence to $a \subset r(b)$, where $r(b)$ is the radical of $b$ (no. 3, Corollary 2 to Proposition 11). Since $A$ is Noetherian, this condition is also equivalent to the existence of an integer $k > 0$ such that $a^k \subset b$ (§ 2, no. 6, Proposition 15).
 
 #### Proposition 18 {#ac-ii-s4-prop-18 .statement}
 
@@ -460,19 +460,19 @@ $$
 \operatorname{Supp}(M \otimes_A M') = \operatorname{Supp}(M) \cap \operatorname{Supp}(M').
 $$
 
-We need to prove that, if $p$ is a prime ideal of $A$, the relations $(M \otimes_A M')_p \neq 0$ and "$M_p \neq 0$ and $M'_p \neq 0$" are equivalent. As the $A_p$-modules $M, \otimes_{A_p} M'_p$ and $(M \otimes_A M')_p$ are isomorphic (\S 2, no. 7, Proposition 18), our assertion follows from the following lemma:
+We need to prove that, if $p$ is a prime ideal of $A$, the relations $(M \otimes_A M')_p \neq 0$ and "$M_p \neq 0$ and $M'_p \neq 0$" are equivalent. As the $A_p$-modules $M, \otimes_{A_p} M'_p$ and $(M \otimes_A M')_p$ are isomorphic (§ 2, no. 7, Proposition 18), our assertion follows from the following lemma:
 
 #### Lemma 3 {#ac-ii-s4-lem-3 .statement}
 
 Let $B$ be a local ring and $E$ and $E'$ two finitely generated $B$-modules. If $E \neq 0$ and $E' \neq 0$, then $E \otimes_B E' \neq 0$.
 
-Let $k$ be the residue field of $B$. By virtue of \S 3, no. 2, Proposition 4, $k \otimes_B E \neq 0$ and $k \otimes_B E' \neq 0$; then we deduce that
+Let $k$ be the residue field of $B$. By virtue of § 3, no. 2, Proposition 4, $k \otimes_B E \neq 0$ and $k \otimes_B E' \neq 0$; then we deduce that
 
 $$
 (k \otimes_B E) \otimes_k (k \otimes_B E') \neq 0
 $$
 
-(Algebra, Chapter II, \S 3, no. 7). But, since the tensor product is associative (loc. cit., \S 3, no. 8), this tensor product is isomorphic to
+(Algebra, Chapter II, § 3, no. 7). But, since the tensor product is associative (loc. cit., § 3, no. 8), this tensor product is isomorphic to
 
 $$
 E \otimes_B ((k \otimes_k k) \otimes_B E') = E \otimes_B (k \otimes_B E')
@@ -499,7 +499,7 @@ $$
 $$
 \operatorname{Supp}(M_{(B)}) = ^{a}\phi^{-1}(\operatorname{Supp}(M)).
 $$
-Let $q$ be a prime ideal of $B$ and $p = \phi^{-1}(q)$. Suppose that $q$ belongs to $\operatorname{Supp}(M_{(B)})$; then $M_{(B)} \otimes_B B_q = (M \otimes_A B) \otimes_B B_q = M \otimes_A B_q = (M \otimes_A A_p) \otimes_A B_q$, since the homomorphism $A \to B \to B_q$ factors into $A \to A_p \to B_q$ (\$2, no. 1, Proposition 2); the hypothesis $M_{(B)} \otimes_B B_q \neq 0$ implies therefore $M \otimes_A A_q \neq 0$, whence the first assertion. As the homomorphism $\phi_q : A_p \to B_q$ is local, the second assertion follows from the following lemma:
+Let $q$ be a prime ideal of $B$ and $p = \phi^{-1}(q)$. Suppose that $q$ belongs to $\operatorname{Supp}(M_{(B)})$; then $M_{(B)} \otimes_B B_q = (M \otimes_A B) \otimes_B B_q = M \otimes_A B_q = (M \otimes_A A_p) \otimes_A B_q$, since the homomorphism $A \to B \to B_q$ factors into $A \to A_p \to B_q$ (§ 2, no. 1, Proposition 2); the hypothesis $M_{(B)} \otimes_B B_q \neq 0$ implies therefore $M \otimes_A A_q \neq 0$, whence the first assertion. As the homomorphism $\phi_q : A_p \to B_q$ is local, the second assertion follows from the following lemma:
 
 #### Lemma 4 {#ac-ii-s4-lem-4 .statement}
 
@@ -515,7 +515,7 @@ Let $p \in \operatorname{Supp}(M)$. As $M$ is finitely generated and $M_p \neq 0
 $$
 M_p/pM_p = M_p \otimes_A (A_p/pA_p) \neq 0
 $$
-(\$3, no. 2, Proposition 4). Let $K = A_p/pA_p$ be the field of fractions of the integral domain $A/p$; since $M_p/pM_p$ is a vector space over $K$, which is not reduced to 0, there exists a non-zero linear form $u : M_p/pM_p \to K$. If $(x_i)_1 <_n^*$ is a system of generators of $M$, $\bar{x}_i$ the image of $x_i$, in the $(A/p)$-module $M_p/pM_p$, there exists an element $\alpha \neq 0$ of $A/p$ such that the $\alpha u(\bar{x}_i)$ belong to $A/p$ for $1 \leq i \leq n$; hence $v = \alpha u$ is a non-zero $(A/p)$-linear mapping from $M_p/pM_p$ to $A/p$. The composition
+(§ 3, no. 2, Proposition 4). Let $K = A_p/pA_p$ be the field of fractions of the integral domain $A/p$; since $M_p/pM_p$ is a vector space over $K$, which is not reduced to 0, there exists a non-zero linear form $u : M_p/pM_p \to K$. If $(x_i)_1 <_n^*$ is a system of generators of $M$, $\bar{x}_i$ the image of $x_i$, in the $(A/p)$-module $M_p/pM_p$, there exists an element $\alpha \neq 0$ of $A/p$ such that the $\alpha u(\bar{x}_i)$ belong to $A/p$ for $1 \leq i \leq n$; hence $v = \alpha u$ is a non-zero $(A/p)$-linear mapping from $M_p/pM_p$ to $A/p$. The composition
 $$
 w : M \longrightarrow M, \longrightarrow M_p/pM_p \overset{v}{\longrightarrow} A/p
 $$

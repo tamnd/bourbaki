@@ -33,7 +33,7 @@ subsections:
       pdf_page: 223
 statements: 9
 exercises: 16
-content_sha256: 05c5807e8258da9099d2c7431aaa39daf5191b43f60b63210f965cb39d88c582
+content_sha256: 8133b61f1df80be5ff13324ff876eecede9ed2ad44de1d0480eaab61020a8084
 ---
 
 ## § 5. CRITÈRES DE COMPACITÉ
@@ -197,7 +197,7 @@ $$
 
 existent, on a $\gamma = \delta$.
 
-Soient X le compactifié de Stone-Čech de S (TG, IX, p. 10) et $\alpha$ l’application canonique de S dans X. Posons D = $\alpha(S)$. L’application $\varphi : f \mapsto f \circ \alpha$ est un isomorphisme de l’espace normé $\mathcal{C}(X)$ sur l’espace normé $\mathcal{C}^b(S)$; posons $\tilde{A} = \varphi^{-1}(A)$. Comme X est compact et D dense dans X, la prop. 2 (IV, p. 33) montre que la condition (ii) équivaut à la compacité de $\tilde{A}$ pour la topologie de la convergence simple. L’équivalence de (i) et (ii) résulte donc de la prop. 3. *
+Soient X le compactifié de Stone-Čech de S (TG, IX, p. 10) et $\alpha$ l’application canonique de S dans X. Posons D = $\alpha(S)$. L’application $\varphi : f \mapsto f \circ \alpha$ est un isomorphisme de l’espace normé $\mathcal{C}(X)$ sur l’espace normé $\mathcal{C}^b(S)$; posons $\tilde{A} = \varphi^{-1}(A)$. Comme X est compact et D dense dans X, la prop. 2 (IV, p. 33) montre que la condition (ii) équivaut à la compacité de $\tilde{A}$ pour la topologie de la convergence simple. L’équivalence de (i) et (ii) résulte donc de la prop. 3. \*
 
 ### *5. Enveloppe convexe d’un ensemble faiblement compact
 
@@ -229,7 +229,7 @@ Il est clair que $v$ est continue si l’on munit $\mathscr{C}(A)'$ de la topolo
 
 La boule unité (fermée) B de l’espace de Banach $\mathscr{C}(A)'$ est compacte pour la topologie $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$ (III, p. 17, cor. 3). Par suite, $v(B)$ est une partie de E convexe, équilibrée et compacte pour $\sigma(E, E')$. Pour tout $a \in A$, la forme linéaire continue $\varepsilon_a : f \mapsto f(a)$ sur $\mathscr{C}(A)$ appartient à B, et l’on a $v(\varepsilon_a) = a$ d’après les formules (7) et (8). On a donc $A \subset v(B)$, d’où $C \subset v(B)$. Ceci prouve que C est compacte pour $\sigma(E, E')$.
 
-C.Q.F.D. *
+C.Q.F.D. \*
 
 ## EXERCICES {#evt-iv-s5-exercises}
 

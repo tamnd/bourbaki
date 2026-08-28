@@ -33,9 +33,9 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 7
-content_sha256: 94f58c4fd555fcbf861010e7bb49fd9a0a1223e0969ae92a54fbf75a8839c765
+content_sha256: 1de39e55c74385c34054c27fb968c53e9cc1e60852f6e4cfaaf397d4b080d963
 translated_from: content/en/ac/III/03_s3_m_adic_topologies_on_noetherian_rings.md
-source_content_sha256: 2cfc22739b5794ceaede94d77249f17f10a52a23ce8ea60f1d3b869603e20895
+source_content_sha256: 7f34e8fa776003d5116ba6baec027fc4736d0298ce93dee623ca18e4bbb7b4ec
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-04807a92
 glossary_version: 34
@@ -226,7 +226,7 @@ Giả thiết rằng $A$ là *Noether* là cốt yếu trong hệ quả này. V�
 
 *Cho $\mathbf{A}$ là một vành tôpô. Nếu một iđêan hai phía $m$ của $\mathbf{A}$ sao cho tôpô đã cho trên $\mathbf{A}$ là tôpô $m$-adic, thì $m$ được gọi là một iđêan xác định & tôpô trên $\mathbf{A}$.*
 
-Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $t$ là căn của nó (Chương II, § 2, no. 6). Nếu $m'$ là một iđêan xác định của tôpô $m$-adic, thì tồn tại một số nguyên $n > 0$ sao cho ${m'}^n \subset m$ ($\S 2$, no. 5) và do đó $m' \subset t$; ngược lại, vì $A$ là Noether, tồn tại một số nguyên $k > 0$ sao cho $t^k \subset m$ (Chương II, § 2, no. 6, Mệnh đề 15) và do đó $t$ là *iđêan xác định lớn nhất* của tôpô $m$-adic.
+Cho $A$ là một vành giao hoán Noether, $m$ là một iđêan của $A$ và $t$ là căn của nó (Chương II, § 2, no. 6). Nếu $m'$ là một iđêan xác định của tôpô $m$-adic, thì tồn tại một số nguyên $n > 0$ sao cho ${m'}^n \subset m$ ($§ 2$, no. 5) và do đó $m' \subset t$; ngược lại, vì $A$ là Noether, tồn tại một số nguyên $k > 0$ sao cho $t^k \subset m$ (Chương II, § 2, no. 6, Mệnh đề 15) và do đó $t$ là *iđêan xác định lớn nhất* của tôpô $m$-adic.
 
 ### 3. CÁC VÀNH ZARISKI
 
@@ -274,7 +274,7 @@ Cho $A$ là một vành *Noether nửa địa phương* và $r$ là căn Jacobso
 
 (iii) *Nếu $h$ là đơn ánh (do đó đồng nhất hoá $A$ với một vành con của $A'$), tôpô $m'$-adic trên $A'$ cảm sinh trên $A$ tôpô $m$-adic.*
 
-Nhắc lại rằng bộ lọc $m'$-adic trên $A'$ trùng với bộ lọc $m$-adic trên *A-môđun* $A'$ (\S 2, no. 1, *Ví dụ 3*). Do đó mệnh đề (i) là một trường hợp riêng của Mệnh đề 5 của no. 2 và mệnh đề (iii) là một trường hợp riêng của Định lý 2 của no. 2. Sau hết, hãy chứng minh (ii). Giả sử rằng $A$ là một vành Zariski với tôpô $m$-adic và $E'$ là một $A'$-môđun hữu hạn sinh; nó cũng là một A-môđun hữu hạn sinh và các bộ lọc $m$-adic và $m'$-adic trên $E'$ trùng nhau; khi đó $E'$ là Hausdorff đối với tôpô $m'$-adic. Cuối cùng A-môđun $A'$ là Noether và vì thế vành $A'$ là Noether, điều này hoàn tất chứng minh rằng $A'$ là một vành Zariski.
+Nhắc lại rằng bộ lọc $m'$-adic trên $A'$ trùng với bộ lọc $m$-adic trên *A-môđun* $A'$ (§ 2, no. 1, *Ví dụ 3*). Do đó mệnh đề (i) là một trường hợp riêng của Mệnh đề 5 của no. 2 và mệnh đề (iii) là một trường hợp riêng của Định lý 2 của no. 2. Sau hết, hãy chứng minh (ii). Giả sử rằng $A$ là một vành Zariski với tôpô $m$-adic và $E'$ là một $A'$-môđun hữu hạn sinh; nó cũng là một A-môđun hữu hạn sinh và các bộ lọc $m$-adic và $m'$-adic trên $E'$ trùng nhau; khi đó $E'$ là Hausdorff đối với tôpô $m'$-adic. Cuối cùng A-môđun $A'$ là Noether và vì thế vành $A'$ là Noether, điều này hoàn tất chứng minh rằng $A'$ là một vành Zariski.
 
 ### 4. BỔ SUNG HAUSDORFF CỦA MỘT VÀNH NOETHER
 
@@ -377,15 +377,15 @@ Cho $A$ là một vành giao hoán Noether, $m$ một iđêan của $A$, $\hat{A
 
 (iii) *Cho* $n$ *là một iđêan cực đại của* $A$ *chứa* $m$. *Đồng cấu* $j': A_n \to \hat{A}_{\hat{n}}$ *dẫn xuất từ* $j$ *là đơn ánh; nếu* $A$, *được đồng nhất nhờ* $j$ *với một vành con của* $\hat{A}$, *thì tôpô* $(nA_n)$*-adic trên* $A_n$ *được cảm sinh bởi tôpô* $A$*-adic trên* $\hat{A}_{\hat{n}}$ *và* $A_n$ *trù mật trong* $A$, *đối với tôpô* $A$*-adic*.
 
-Ta hãy chứng minh (i). Vì $m$ là một iđêan sinh hữu hạn, $(m^n)^{\wedge} = (\hat{m})^n = m^n \hat{A}$ (\S 2, no. 12, Hệ quả 2 của Mệnh đề 16) và tôpô trên $\hat{A}$ là tôpô $m$-adic. Vì $\hat{A}/\hat{m}$ đẳng cấu với $A/m$, đó là một vành Noether và $\hat{m} = m \hat{A}$ là một A-môđun sinh hữu hạn và do đó $\hat{A}$ là Noether (\$2, no. 10, Hệ quả 5 của Định lý 2); cuối cùng, vì $\hat{A}$ là Hausdorff và đầy đủ đối với tôpô $m$-adic, nên $\hat{A}$ là một vành Zariski (no. 3, *Ví dụ* 1).
+Ta hãy chứng minh (i). Vì $m$ là một iđêan sinh hữu hạn, $(m^n)^{\wedge} = (\hat{m})^n = m^n \hat{A}$ (§ 2, no. 12, Hệ quả 2 của Mệnh đề 16) và tôpô trên $\hat{A}$ là tôpô $m$-adic. Vì $\hat{A}/\hat{m}$ đẳng cấu với $A/m$, đó là một vành Noether và $\hat{m} = m \hat{A}$ là một A-môđun sinh hữu hạn và do đó $\hat{A}$ là Noether (§ 2, no. 10, Hệ quả 5 của Định lý 2); cuối cùng, vì $\hat{A}$ là Hausdorff và đầy đủ đối với tôpô $m$-adic, nên $\hat{A}$ là một vành Zariski (no. 3, *Ví dụ* 1).
 
 Mệnh đề (ii) suy ra ngay lập tức từ việc đồng cấu chính tắc $A/m + \hat{A}/\hat{m}$ cảm sinh bởi $j$ là song ánh và từ việc mọi iđêan cực đại của $\hat{A}$ đều chứa $\hat{m}$, vì $\hat{A}$ là một vành Zariski và khi đó căn Jacobson của $\hat{A}$ chứa $m$ (no. 3, Mệnh đề 6).
 
-Sau cùng, hãy chứng minh (iii). Vì $n = j^{-1}(A)$, ta có $j(A - n) \subset \hat{A} - \hat{n}$ và hiển nhiên $j$ xác định một đồng cấu $j': A_n \to \hat{A}_{\hat{n}}$ (Chương II, \S 2, no. 1, Mệnh đề 2). Hãy chỉ ra rằng $j'$ là đơn ánh; giả sử $a \in A, s \in A - n$ sao cho
+Sau cùng, hãy chứng minh (iii). Vì $n = j^{-1}(A)$, ta có $j(A - n) \subset \hat{A} - \hat{n}$ và hiển nhiên $j$ xác định một đồng cấu $j': A_n \to \hat{A}_{\hat{n}}$ (Chương II, § 2, no. 1, Mệnh đề 2). Hãy chỉ ra rằng $j'$ là đơn ánh; giả sử $a \in A, s \in A - n$ sao cho
 $$
 j'(a/s) = j(a)/j(s) = 0;
 $$
-khi đó tồn tại $s' \in \hat{A} - \hat{n}$ sao cho $s'j(a) = 0$ (Chương II, \S 2, no. 1, *Nhận xét* 3) và do đó linh hóa tử của $j(a)$ trong $\hat{A}$ không được chứa trong $\hat{n}$. Bây giờ, nếu $b$ là linh hóa tử của $a$ trong $A$, thì linh hóa tử của $j(a)$ trong $\hat{A}$ là $b$ (Hệ quả 1 của Định lý 3); vì thế $b \notin n$, điều này chứng tỏ rằng $a/s = 0$.
+khi đó tồn tại $s' \in \hat{A} - \hat{n}$ sao cho $s'j(a) = 0$ (Chương II, § 2, no. 1, *Nhận xét* 3) và do đó linh hóa tử của $j(a)$ trong $\hat{A}$ không được chứa trong $\hat{n}$. Bây giờ, nếu $b$ là linh hóa tử của $a$ trong $A$, thì linh hóa tử của $j(a)$ trong $\hat{A}$ là $b$ (Hệ quả 1 của Định lý 3); vì thế $b \notin n$, điều này chứng tỏ rằng $a/s = 0$.
 
 Hơn nữa, có một biểu đồ giao hoán
 $$
@@ -395,7 +395,7 @@ h \downarrow & & h' \downarrow \\
 \hat{A}/\hat{n}^k & \longrightarrow & \hat{A}_{\hat{n}}/(\hat{n}\hat{A}_{\hat{n}})^k
 \end{array}
 $$
-trong đó $h$ và $h'$ lần lượt được cảm sinh bởi $j$ và $j'$ còn các mũi tên ngang là các đẳng cấu chính tắc của Chương II, \S 3, no. 3, Mệnh đề 9. Vì $n^k$ là một iđêan mở của $A$ (do nó chứa $m^k$), $h$ là song ánh và do đó $h'$ cũng vậy. Điều này trước hết cho thấy rằng $(nA_n)^k = j'((\hat{n}\hat{A}_{\hat{n}})^k)$ và do đó tôpô trên $A_n$ được cảm sinh bởi tôpô trên $A_n$; hơn nữa, $\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$ với mọi $k > 0$ và do đó $A_n$ trù mật trong $A_n$.
+trong đó $h$ và $h'$ lần lượt được cảm sinh bởi $j$ và $j'$ còn các mũi tên ngang là các đẳng cấu chính tắc của Chương II, § 3, no. 3, Mệnh đề 9. Vì $n^k$ là một iđêan mở của $A$ (do nó chứa $m^k$), $h$ là song ánh và do đó $h'$ cũng vậy. Điều này trước hết cho thấy rằng $(nA_n)^k = j'((\hat{n}\hat{A}_{\hat{n}})^k)$ và do đó tôpô trên $A_n$ được cảm sinh bởi tôpô trên $A_n$; hơn nữa, $\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$ với mọi $k > 0$ và do đó $A_n$ trù mật trong $A_n$.
 
 #### Hệ quả {#ac-iii-s3-n4-cor-1 .statement}
 

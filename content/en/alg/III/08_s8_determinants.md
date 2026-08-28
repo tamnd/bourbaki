@@ -57,7 +57,7 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 960444600d0318311b60e4017068e8754d6a4a4672665f9e3dd261fa82222e35
+content_sha256: da71ef2a4eba72daedbf68293924b26a3111360474a947e52b32b6bd9d0a572c
 ---
 
 ## § 8. DETERMINANTS
@@ -433,7 +433,7 @@ $$
 z_K = x_1 \wedge x_2 \wedge \cdots \wedge x_n
 $$
 
-with $x_i = u(e_i)$ for $i \in K$, $x_i = e_i$ for $i \in H = I - K$, where the integer $p$ runs through the interval $[0, n]$ and, for each $p$, $K$ runs through the set of subsets of I with $p$ elements. If $i_1 < i_2 < \cdots < i_{n-p}$ (resp. $j_1 < j_2 < \cdots < j_p$) are the elements of H (resp. K) arranged in increasing order, we can write ($\S 7$, no. 8, Corollary 1 to Theorem 1 and formula (19))
+with $x_i = u(e_i)$ for $i \in K$, $x_i = e_i$ for $i \in H = I - K$, where the integer $p$ runs through the interval $[0, n]$ and, for each $p$, $K$ runs through the set of subsets of I with $p$ elements. If $i_1 < i_2 < \cdots < i_{n-p}$ (resp. $j_1 < j_2 < \cdots < j_p$) are the elements of H (resp. K) arranged in increasing order, we can write ($§ 7$, no. 8, Corollary 1 to Theorem 1 and formula (19))
 
 $$
 z_K = \rho_{H, K} e_{i_1} \wedge e_{i_2} \wedge \cdots \wedge e_{i_{n-p}} \wedge u(e_{j_1}) \wedge \cdots \wedge u(e_{j_p}).
@@ -451,7 +451,7 @@ $$
 z_K = \rho_{H, K} \sum_{L \in \mathfrak{F}_p(I)} (\det X_{L, K}) e_H \wedge e_L.
 $$
 
-Now $H \cap L \neq \varnothing$ except for $L = K$; it therefore follows from $\S 7$, no. 8, formula (20) that $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ and formula (18) then follows from Proposition 10 and the definition of the trace of a matrix (II, $\S 10$, no. 11, formulae (49) and (50)).
+Now $H \cap L \neq \varnothing$ except for $L = K$; it therefore follows from $§ 7$, no. 8, formula (20) that $z_K = (\det X_{K, K}) e_1 \wedge e_2 \wedge \cdots \wedge e_n$ and formula (18) then follows from Proposition 10 and the definition of the trace of a matrix (II, $§ 10$, no. 11, formulae (49) and (50)).
 
 #### Corollary {#alg-iii-s8-n5-cor-1 .statement}
 
@@ -462,7 +462,7 @@ $$
 \operatorname{Tr}(\bigwedge(u)) = \det(1_M + u).
 $$
 
-It suffices to replace $\xi$ and $\eta$ by 1 in (18) and observe that the matrix of $\bigwedge(u)$ with respect to the basis of the $e_H$ ($H \in \mathfrak{F}(I)$) is the diagonal matrix of the matrices of the $\bigwedge^k(u)$ for $\geq k$ 0 (II, $\S 10$, no. 7, *Example* IV).
+It suffices to replace $\xi$ and $\eta$ by 1 in (18) and observe that the matrix of $\bigwedge(u)$ with respect to the basis of the $e_H$ ($H \in \mathfrak{F}(I)$) is the diagonal matrix of the matrices of the $\bigwedge^k(u)$ for $\geq k$ 0 (II, $§ 10$, no. 7, *Example* IV).
 
 ### 6. EXPANSIONS OF A DETERMINANT
 
@@ -475,7 +475,7 @@ $$
 (\bigwedge^{n-q}(u))(e_K) = \sum_S \det(X_{S, K}) e_S
 $$
 
-where R (resp. S) runs through the set of subsets of I with $q$ (resp. $n - q$) elements. It follows from $\S 7$, no. 8, formulae (19) and (20) that
+where R (resp. S) runs through the set of subsets of I with $q$ (resp. $n - q$) elements. It follows from $§ 7$, no. 8, formulae (19) and (20) that
 
 $$
 e_R \wedge e_S = 0
@@ -489,7 +489,7 @@ $$
 
 where $R$ runs through the set $\mathcal{F}_q(I)$ of subsets of $I$ with $q$ elements.
 
-If we take $K = H'$, it follows from the definition of $\wedge^n(u)$ (\S 7, no. 2, formula (4)) and \S 7, no. 3, Corollary 1 to Proposition 5 that the right hand side of (20) is $\rho_{H, H'} \wedge^n(u)(e_I)$. Hence (no. 1, formula (1) and \S 7, no. 2, formula (4))
+If we take $K = H'$, it follows from the definition of $\wedge^n(u)$ (§ 7, no. 2, formula (4)) and § 7, no. 3, Corollary 1 to Proposition 5 that the right hand side of (20) is $\rho_{H, H'} \wedge^n(u)(e_I)$. Hence (no. 1, formula (1) and § 7, no. 2, formula (4))
 
 $$
 (21) \quad \det(X) = \rho_{H, H'} \sum_{R \in \mathcal{F}_q; R' \neq R} \rho_{R, R'} \det(X_{R, H}) \det(X_{R', H'}).
@@ -917,7 +917,7 @@ for $\det(X - Y \bar{u}) = \det(X . I_n + Y U)$ and $\det(X - \bar{u}) = \det(X 
 
 For every endomorphism $u$ of a finite-dimensional free $A$-module, $\chi_u(u) = 0$.
 
-In the notation of Proposition 18 ($\S 3$, no. 10), for all $x \in M$, $\chi_u(u)(x)$ is the image under $\phi$ of $\chi_u(X) \otimes x$. But if $v$ is the endomorphism of $M[X]$, the co-transpose of $X - \bar{u}$ (no. 6), then
+In the notation of Proposition 18 ($§ 3$, no. 10), for all $x \in M$, $\chi_u(u)(x)$ is the image under $\phi$ of $\chi_u(X) \otimes x$. But if $v$ is the endomorphism of $M[X]$, the co-transpose of $X - \bar{u}$ (no. 6), then
 
 $$
 \chi_u(X) \otimes x = \chi_u(X)(1 \otimes x) = (X - \bar{u})(v(1 \otimes x))

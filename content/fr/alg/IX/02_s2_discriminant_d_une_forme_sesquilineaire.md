@@ -11,7 +11,7 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: f3140c619fb912b4b127edb64a0352d45722f2a328076238307c0c7e0f929b02
+content_sha256: a03e917bbb712788678cb44f2f8c4eeb837bff91ffaff8fe794b3c2a69ffeff6
 ---
 
 ## § 2. DISCRIMINANT D’UNE FORME SESQUILINÉAIRE
@@ -34,7 +34,7 @@ Etant donnée une forme $\Phi$ sesquilinéaire pour $J$ sur $E$ et un système $
 
 Si $(e_1, \ldots, e_n)$ est une base de $E$, le discriminant de $\Phi$ par rapport à cette base n’est autre que le déterminant de la matrice de $\Phi$ par rapport à cette base.
 
-Il résulte de la définition de l’extension de $\Phi$ à $\wedge^n E$ ($\S 1$, no 9) que l’on a
+Il résulte de la définition de l’extension de $\Phi$ à $\wedge^n E$ ($§ 1$, no 9) que l’on a
 
 $$
 D_\Phi(x_1, \ldots, x_n) = \Phi_{(n)}(x_1 \wedge \ldots \wedge x_n, x_1 \wedge \ldots \wedge x_n),
@@ -85,19 +85,19 @@ $$
 
 Il résulte de la prop. 1 que, si $(e_i)$ est une base de $E$ et $(x_i)$ un système quelconque de $n$ éléments de $E$, $D_\Phi(e_1, \ldots, e_n)$ *divise* $D_\Phi(x_1, \ldots, x_n)$. En particulier les discriminants de $\Phi$ par rapport à deux bases quelconques de $E$ engendrent le même idéal principal de $A$.
 
-Soient $(E_i)_{i \in I}$ une famille finie de $A$-modules libres de dimensions finies, $\Phi_i$ une forme sesquilinéaire pour $J$ sur $E_i$, et $B_i$ une base de $E_i$. Si $\Phi$ désigne la *somme directe* des $\Phi_i$ (\S 1, no 3) et $B$ la base de $\prod_{i \in I} E_i$ obtenue par réunion des $B_i$, on a évidemment
+Soient $(E_i)_{i \in I}$ une famille finie de $A$-modules libres de dimensions finies, $\Phi_i$ une forme sesquilinéaire pour $J$ sur $E_i$, et $B_i$ une base de $E_i$. Si $\Phi$ désigne la *somme directe* des $\Phi_i$ (§ 1, no 3) et $B$ la base de $\prod_{i \in I} E_i$ obtenue par réunion des $B_i$, on a évidemment
 $$
 (5) \qquad D_\Phi(B) = \prod_{i \in I} D_{\Phi_i}(B_i).
 $$
 
-Soient $\Phi$ une forme sesquilinéaire pour $J$ sur $E$, $h$ un homomorphisme de $A$ dans un anneau commutatif $A'$, $\Phi'$ la forme sesquilinéaire sur $A' \otimes_A E$ obtenue par extension de $\Phi$ (\S 1, no 4) et $(x_1, \ldots, x_n)$ un système quelconque d’éléments de $E$. Comme $A' \otimes_A E$ est un $A'$-module libre, $D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n)$ est défini, et on a évidemment
+Soient $\Phi$ une forme sesquilinéaire pour $J$ sur $E$, $h$ un homomorphisme de $A$ dans un anneau commutatif $A'$, $\Phi'$ la forme sesquilinéaire sur $A' \otimes_A E$ obtenue par extension de $\Phi$ (§ 1, no 4) et $(x_1, \ldots, x_n)$ un système quelconque d’éléments de $E$. Comme $A' \otimes_A E$ est un $A'$-module libre, $D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n)$ est défini, et on a évidemment
 $$
 (6) \qquad D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n) = h(D_\Phi(x_1, \ldots, x_n)).
 $$
 
 #### Exemple {#alg-ix-s2-n0-exa-2 .statement}
 
-Soient $B$ une algèbre sur $A$ qui soit un $A$-module libre de dimension finie $n$, $(x_1, \ldots, x_n)$ une base de $B$ sur $A$, et $m$ un idéal de $A$. Si l’on note $h$ l’homomorphisme canonique de $B$ sur $B/mB$, $(h(x_1), \ldots, h(x_n))$ est une base de $B/mB$ sur $A/m$ (chap. I, \S 6, no 5, prop. 5), et $B/mB$ est isomorphe à $(A/m) \otimes_A B$. On a donc
+Soient $B$ une algèbre sur $A$ qui soit un $A$-module libre de dimension finie $n$, $(x_1, \ldots, x_n)$ une base de $B$ sur $A$, et $m$ un idéal de $A$. Si l’on note $h$ l’homomorphisme canonique de $B$ sur $B/mB$, $(h(x_1), \ldots, h(x_n))$ est une base de $B/mB$ sur $A/m$ (chap. I, § 6, no 5, prop. 5), et $B/mB$ est isomorphe à $(A/m) \otimes_A B$. On a donc
 $$
 D_{(B/mB)/(A/m)}(h(x_1), \ldots, h(x_n)) = h(D_{B/A}(x_1, \ldots, x_n)).
 $$
@@ -130,7 +130,7 @@ En effet la condition c) exprime que la matrice de $\Phi$ par rapport à $S$ est
 
 On suppose $A$ intègre. Soit $S$ une base de $E$. Une condition nécessaire et suffisante pour qu’une forme sesquilinéaire $\Phi$ sur $E$ soit non dégénérée est que l’on ait $D_\Phi(S) \neq 0$.
 
-Soit en effet K le corps des fractions de A, et soit $\Phi'$ l’extension de $\Phi$ au K-espace vectoriel $K \otimes_A E$; identifions E à une partie de cet espace vectoriel. La relation $D_{\Phi}(S) \neq 0$ est alors équivalente à $D_{\Phi'}(S) \neq 0$ (formule (6)), qui elle-même exprime que $s_{\Phi'}$ est bijective (prop. 3), c’est-à-dire que $\Phi'$ est non dégénérée (\$ 1, no 6, prop. 6). Or, pour tout $x \in K \otimes_A E$, il existe $a \in A$ tel que $ax \in E$; par suite, pour que $\Phi$ soit dégénérée, il faut et il suffit que $\Phi'$ le soit. Ceci démontre notre assertion.
+Soit en effet K le corps des fractions de A, et soit $\Phi'$ l’extension de $\Phi$ au K-espace vectoriel $K \otimes_A E$; identifions E à une partie de cet espace vectoriel. La relation $D_{\Phi}(S) \neq 0$ est alors équivalente à $D_{\Phi'}(S) \neq 0$ (formule (6)), qui elle-même exprime que $s_{\Phi'}$ est bijective (prop. 3), c’est-à-dire que $\Phi'$ est non dégénérée (§ 1, no 6, prop. 6). Or, pour tout $x \in K \otimes_A E$, il existe $a \in A$ tel que $ax \in E$; par suite, pour que $\Phi$ soit dégénérée, il faut et il suffit que $\Phi'$ le soit. Ceci démontre notre assertion.
 
 #### Proposition 5 {#alg-ix-s2-prop-5 .statement}
 
@@ -183,7 +183,7 @@ Exercices. — 1) Soit A une algèbre de rang fini sur un corps commutatif K, ay
 
 ¶ 2) Soient B un anneau, A un sous-anneau de B contenant l’élément unité de B ; B est donc un (A, A)-bimodule ; on désigne par $^sB$ (resp. $^dB$) l’ensemble B considéré comme A-module à gauche (resp. à droite), par $^sB^*$ (resp. $^dB^*$) le A-module à droite (resp. à gauche) dual de $^sB$ (resp. $^dB$). Pour tout $x' \in ^sB^*$ et tout $b \in B$, $x \to \langle xb, x' \rangle$ est une forme A-linéaire sur $^sB$, donc un élément de $^sB^*$ qu’on désigne par $bx'$ ; l’application $(b, x') \to bx'$ définit sur $^sB^*$ une structure de B-module à gauche (cf. chap. III, 2e éd., App. II, n° 7).
    a) Soit $\varphi$ un homomorphisme du (A, A)-bimodule B dans le (A, A)-bimodule A ; pour que l’application A-bilinéaire $\Phi : (x, y) \to \varphi(xy)$ de $^sB \times ^dB$ dans A soit non dégénérée, il faut et il suffit que $\varphi(0)$ ne contienne aucun idéal (à gauche ou à droite) de B distinct de $\{0\}$. On dit alors que $\varphi$ est un homomorphisme frobeniusien de B dans A.
-   b) Soit $\varphi$ un homomorphisme frobeniusien de B dans A ; montrer que l’application $d_\varphi$ associée à droite à $\Phi$ est un isomorphisme du B-module à gauche $B_s$ sur un sous-module du B-module à gauche $^sB^*$. Montrer que $d_\varphi$ est bijectif dans chacun des deux cas suivants : 1° A est un anneau artinien à gauche et à droite satisfaisant aux conditions (N_s) et (N_d) (\S 1, exerc. 11), et $^sB$ et $^dB$ sont des A-modules libres de longueurs finies (utiliser l’exerc. 11 b) du \S 1) ; 2° A est un anneau artinien commutatif et involutif (chap. VIII, § 3, exerc. 11), contenu dans le centre de B, et $^sB$ est un A-module de longueur finie (utiliser l’exerc. 11 du chap. VIII, § 3).
+   b) Soit $\varphi$ un homomorphisme frobeniusien de B dans A ; montrer que l’application $d_\varphi$ associée à droite à $\Phi$ est un isomorphisme du B-module à gauche $B_s$ sur un sous-module du B-module à gauche $^sB^*$. Montrer que $d_\varphi$ est bijectif dans chacun des deux cas suivants : 1° A est un anneau artinien à gauche et à droite satisfaisant aux conditions (N_s) et (N_d) (§ 1, exerc. 11), et $^sB$ et $^dB$ sont des A-modules libres de longueurs finies (utiliser l’exerc. 11 b) du § 1) ; 2° A est un anneau artinien commutatif et involutif (chap. VIII, § 3, exerc. 11), contenu dans le centre de B, et $^sB$ est un A-module de longueur finie (utiliser l’exerc. 11 du chap. VIII, § 3).
 
 c) Réciproquement, montrer que si $B_s$ et $^sB^*$ sont isomorphes, il existe un homomorphisme frobeniusien de B dans A lorsqu’on est dans l’un des deux cas considérés dans b) et que $^sB$ et $^dB$ ont même longueur (utiliser l’exerc. 11 b) du § 1).
 

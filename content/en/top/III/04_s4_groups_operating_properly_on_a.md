@@ -36,7 +36,7 @@ subsections:
       pdf_page: 265
 statements: 33
 exercises: 23
-content_sha256: 8ceb9ca7218904bcd6f10f78f6ff63078be7ec440c7dff23cea107f182346ea6
+content_sha256: 3ca46d1a9c871ef504c2f339d9da2414e8fff5747912bc9df5ba1469bda2f343
 ---
 
 ## 4. GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE; COMPACTNESS IN TOPOLOGICAL GROUPS AND SPACES WITH OPERATORS
@@ -88,7 +88,7 @@ If A is a closed (resp. compact) subset of X, then K.A is closed in X (resp. com
 
 The assertion concerning closed sets follows from Proposition 1 and the fact that a proper mapping is closed (Chapter I, § 10, no. 1, Proposition 1). The assertion concerning compact sets is trivial.
 
-It should be noted that if L is a compact subset of X, and F a closed subset of G, then F.L is not necessarily closed in X ($\S 2$, Exercise 29; cf. no. 5, Corollary to Proposition 12).
+It should be noted that if L is a compact subset of X, and F a closed subset of G, then F.L is not necessarily closed in X ($§ 2$, Exercise 29; cf. no. 5, Corollary to Proposition 12).
 
 #### Corollary 2 {#top-iii-s4-prop-1-cor-2 .statement}
 
@@ -128,7 +128,7 @@ Apply Corollary 1 to K operating on G by right translations.
 
 *If a topological group* $G$ *operates properly on a topological space* $X$, *then the orbit space* $X/G$ *is Hausdorff*. *If also* $G$ *is Hausdorff*, *then* $X$ *is Hausdorff*.
 
-Let $C \subset X \times X$ be the graph of the equivalence relation $R$ defined by $G$ on $X$; then $C$ is the image of $G \times X$ under the mapping $\theta : (s, x) \to (x, s.x)$. Since $\theta$ is proper, $C$ is closed in $X \times X$ (Chapter I, § 10, no. 1, Proposition 1). Since the relation $R$ is open ($\S 2$, no. 4, Lemma 2), it follows that $X/G$ is Hausdorff (Chapter I, § 8, no. 3, Proposition 8).
+Let $C \subset X \times X$ be the graph of the equivalence relation $R$ defined by $G$ on $X$; then $C$ is the image of $G \times X$ under the mapping $\theta : (s, x) \to (x, s.x)$. Since $\theta$ is proper, $C$ is closed in $X \times X$ (Chapter I, § 10, no. 1, Proposition 1). Since the relation $R$ is open ($§ 2$, no. 4, Lemma 2), it follows that $X/G$ is Hausdorff (Chapter I, § 8, no. 3, Proposition 8).
 
 Now suppose that $G$ is Hausdorff. Then the mapping $x \to (e, x)$ of $X$ into $G \times X$ is a homeomorphism of $X$ onto a closed subspace of $G \times X$, and is therefore proper (Chapter I, § 10, no. 1, Proposition 2). If we compose this mapping with the mapping $(s, x) \to (x, s.x)$ of $G \times X$ into $X \times X$, which by hypothesis is proper, we obtain a proper mapping of $X$ into $X \times X$, namely the diagonal mapping $x \to (x, x)$. Hence the diagonal $\Delta$ of $X \times X$ is closed in $X$, and therefore $X$ is Hausdorff.
 
@@ -152,7 +152,7 @@ Proposition 4 shows that if a topological group $G$ operates properly on a homog
 
 #### Proposition 5 {#top-iii-s4-prop-5 .statement}
 
-*Let* $G$ *(resp.* $G'$) *be a topological group operating continuously on a topological space* $X$ *(resp.* $X'$). *Let* $\varphi$ *be a continuous homomorphism* of $G$ into $G'$ and let $\psi$ be a continuous mapping of $X$ into $X'$ compatible with $\varphi$ (\S 2, no. 4). Then:
+*Let* $G$ *(resp.* $G'$) *be a topological group operating continuously on a topological space* $X$ *(resp.* $X'$). *Let* $\varphi$ *be a continuous homomorphism* of $G$ into $G'$ and let $\psi$ be a continuous mapping of $X$ into $X'$ compatible with $\varphi$ (§ 2, no. 4). Then:
 
 (i) *If $\varphi$ is surjective and $\psi$ is surjective and proper, and if $G$ operates properly on $X$, then $G'$ operates properly on $X'$.*
 
@@ -168,7 +168,7 @@ G' \times X' & \xrightarrow{\theta'} & X' \times X'
 \end{array}
 $$
 
-where $\alpha = \varphi \times \psi$ and $\beta = \psi \times \psi$. By hypothesis, $\theta$ is proper; so is $\beta$ [Chapter I, \S 10, no. 1, Proposition 4 a)]; hence $\beta \circ \theta = \theta' \circ \alpha$ is proper [Chapter I, \S 10, no. 1, Proposition 5 a)]. Since $\alpha$ is surjective it follows that $\theta'$ is proper [Chapter I, \S 10, no. 1, Proposition 5 b)].
+where $\alpha = \varphi \times \psi$ and $\beta = \psi \times \psi$. By hypothesis, $\theta$ is proper; so is $\beta$ [Chapter I, § 10, no. 1, Proposition 4 a)]; hence $\beta \circ \theta = \theta' \circ \alpha$ is proper [Chapter I, § 10, no. 1, Proposition 5 a)]. Since $\alpha$ is surjective it follows that $\theta'$ is proper [Chapter I, § 10, no. 1, Proposition 5 b)].
 
 To prove (ii) consider an ultrafilter $U$ on $G \times X$, such that the mappings
 
@@ -176,7 +176,7 @@ $$
 (s, x) \to s.x \quad \text{and} \quad (s, x) \to x
 $$
 
-converge with respect to $U$ to $y_0$ and $x_0$ respectively. It follows that $(s, x) \to \varphi(s).\psi(x)$ and $(s, x) \to \psi(x)$ converge with respect to $U$. Since $G'$ operates properly on $X'$, this implies (no. 1) that $(s, x) \to \varphi(s)$ converges with respect to $U$ to a point $s'_0 \in G'$. Since $\varphi$ is proper, we deduce (Chapter I, \S 10, no. 2, Theorem 1) that $(s, x) \to s$ converges with respect to $U$ to a point $s_0 \in G$. The uniqueness of the limit in $X$ then shows that $y_0 = s_0 x_0$, and hence that $G$ operates properly on $X$ (no. 1).
+converge with respect to $U$ to $y_0$ and $x_0$ respectively. It follows that $(s, x) \to \varphi(s).\psi(x)$ and $(s, x) \to \psi(x)$ converge with respect to $U$. Since $G'$ operates properly on $X'$, this implies (no. 1) that $(s, x) \to \varphi(s)$ converges with respect to $U$ to a point $s'_0 \in G'$. Since $\varphi$ is proper, we deduce (Chapter I, § 10, no. 2, Theorem 1) that $(s, x) \to s$ converges with respect to $U$ to a point $s_0 \in G$. The uniqueness of the limit in $X$ then shows that $y_0 = s_0 x_0$, and hence that $G$ operates properly on $X$ (no. 1).
 
 ### 3. GROUPS OPERATING FREELY ON A TOPOLOGICAL SPACE
 
@@ -238,19 +238,19 @@ The fact that the canonical mapping U/K_x → X/G is a homeomorphism of U/K_x on
 
 *Let $G$ be a topological group operating continuously on a locally compact space $X$. Then if $X/G$ is Hausdorff it is locally compact.*
 
-Since the equivalence relation on $X$ defined by $G$ is open ($\S 2$, no. 4, Lemma 2), the proposition results from Chapter I, $\S 10$, no. 4, Proposition 10.
+Since the equivalence relation on $X$ defined by $G$ is open ($§ 2$, no. 4, Lemma 2), the proposition results from Chapter I, $§ 10$, no. 4, Proposition 10.
 
 #### Proposition 10 {#top-iii-s4-prop-10 .statement}
 
 *Let $G$ be a topological group operating continuously on a locally compact space $X$, and suppose that $X/G$ is Hausdorff. Let $\varphi$ be the canonical mapping of $X$ onto $X/G$. Then if $K'$ is any compact subset of $X/G$, there is a compact subset $K$ of $X$ such that $\varphi(K) = K'$.*
 
-Since the equivalence relation defined by $G$ is open ($\S 2$, no. 4, Lemma 2), the proposition is a particular case of Proposition 10 of Chapter I, $\S 10$, no. 4.
+Since the equivalence relation defined by $G$ is open ($§ 2$, no. 4, Lemma 2), the proposition is a particular case of Proposition 10 of Chapter I, $§ 10$, no. 4.
 
 #### Proposition 11 {#top-iii-s4-prop-11 .statement}
 
 *Let $G$ be a Hausdorff topological group operating properly on a non-empty space $X$. If $X$ is compact (resp. locally compact) then so are $G$ and $X/G$.*
 
-By hypothesis, the mapping $\theta : (s, x) \to (x, s.x)$ of $G \times X$ into $X \times X$ is proper; if $X \times X$ is compact (resp. locally compact) then the Corollary to Proposition 9 of Chapter I, $\S 10$, no. 4 shows that $G \times X$ is also compact (resp. locally compact), and therefore so is $G$ since $X \neq \emptyset$. Since $X/G$ is Hausdorff (no. 2, Proposition 3), the compactness (resp. local compactness) of $X$ implies the compactness (resp. local compactness) of $X/G$ [Chapter I, $\S 10$, no. 4, Proposition 8 (resp. Proposition 9)] (see $\S 2$, Exercise 29).
+By hypothesis, the mapping $\theta : (s, x) \to (x, s.x)$ of $G \times X$ into $X \times X$ is proper; if $X \times X$ is compact (resp. locally compact) then the Corollary to Proposition 9 of Chapter I, $§ 10$, no. 4 shows that $G \times X$ is also compact (resp. locally compact), and therefore so is $G$ since $X \neq \emptyset$. Since $X/G$ is Hausdorff (no. 2, Proposition 3), the compactness (resp. local compactness) of $X$ implies the compactness (resp. local compactness) of $X/G$ [Chapter I, $§ 10$, no. 4, Proposition 8 (resp. Proposition 9)] (see $§ 2$, Exercise 29).
 
 We shall now give criteria which allow us to assert that a Hausdorff topological group $G$ operates properly on a locally compact space $X$. For each pair of subsets $K, L$ of $X$ we denote by $P(K, L)$ the set of all $s \in G$ such that $s.K \cap L \neq \emptyset$.
 
@@ -303,13 +303,13 @@ This follows from Proposition 12 and from Chapter I, § 10, no. 1, Proposition 1
 
 Let G be a locally compact group and let H be a closed subgroup of G. Then the homogeneous space $G/H$ is locally compact and paracompact.
 
-Since $G/H$ is Hausdorff (\S 2, no. 5, Proposition 13) it is locally compact, by Proposition 9 of no. 5 applied to H operating on G on the right. Thus it remains to show that $G/H$ is paracompact. Let V be a symmetric compact neighbourhood of e in G, and let $G_0 = V^\infty$ be the subgroup of G generated by V. $G_0$ is open (\S 2, no. 1, Corollary to Proposition 4) and operates continuously on $G/H$ (\S 2, no. 5, Proposition 12). If we can show that each of the orbits $G_0.z \ (z \in G/H)$ is an open subset of $G/H$ and a countable union of compact sets, then it will follow that $G/H$ is the *topological sum* of the distinct orbits $G_0.z$ and is
+Since $G/H$ is Hausdorff (§ 2, no. 5, Proposition 13) it is locally compact, by Proposition 9 of no. 5 applied to H operating on G on the right. Thus it remains to show that $G/H$ is paracompact. Let V be a symmetric compact neighbourhood of e in G, and let $G_0 = V^\infty$ be the subgroup of G generated by V. $G_0$ is open (§ 2, no. 1, Corollary to Proposition 4) and operates continuously on $G/H$ (§ 2, no. 5, Proposition 12). If we can show that each of the orbits $G_0.z \ (z \in G/H)$ is an open subset of $G/H$ and a countable union of compact sets, then it will follow that $G/H$ is the *topological sum* of the distinct orbits $G_0.z$ and is
 
 #### Proposition 14 {#top-iii-s4-prop-14 .statement}
 
 *In a locally compact group $G$, the identity component $C$ is the intersection of the open subgroups of $G$.*
 
-$C$ is a closed normal subgroup of $G$ ($\S 2$, no. 2, Proposition 7), and hence $G/C$ is locally compact (Proposition 13) and totally disconnected (Chapter I, $\S 11$, no. 5, Proposition 9). Since the inverse image of an open subgroup of $G/C$, under the canonical mapping of $G$ onto $G/C$, is an open subgroup of $G$ containing $C$, we see that we can restrict ourselves to proving the proposition for the group $G/C$. In other words, we may assume that $G$ is totally disconnected. We know then (Chapter II, $\S 4$, no. 4, Corollary to Proposition 6) that every compact neighbourhood $V$ of $e$ contains a neighbourhood $U$ of $e$ which is both open and closed. Since $U$ is compact and $B = C U$ is closed, there is a symmetric open neighbourhood $W$ of $e$ such that $W \subset U$ and $UW \cap BW = \varnothing$ ($\S 3$, no. 1 and Chapter II, $\S 4$, no. 3, Proposition 4), and *a fortiori* $UW \subset U$. By induction on $n$ it follows that $W^n \subset U$ for every integer $n > 0$. Hence the subgroup $W^\infty = \bigcup_{n > 0} W^n$, generated by $W$, is contained in $U$; but $W^\infty$ is open in $G$ ($\S 2$, no. 1, Corollary to Proposition 4). This completes the proof.
+$C$ is a closed normal subgroup of $G$ ($§ 2$, no. 2, Proposition 7), and hence $G/C$ is locally compact (Proposition 13) and totally disconnected (Chapter I, $§ 11$, no. 5, Proposition 9). Since the inverse image of an open subgroup of $G/C$, under the canonical mapping of $G$ onto $G/C$, is an open subgroup of $G$ containing $C$, we see that we can restrict ourselves to proving the proposition for the group $G/C$. In other words, we may assume that $G$ is totally disconnected. We know then (Chapter II, $§ 4$, no. 4, Corollary to Proposition 6) that every compact neighbourhood $V$ of $e$ contains a neighbourhood $U$ of $e$ which is both open and closed. Since $U$ is compact and $B = C U$ is closed, there is a symmetric open neighbourhood $W$ of $e$ such that $W \subset U$ and $UW \cap BW = \varnothing$ ($§ 3$, no. 1 and Chapter II, $§ 4$, no. 3, Proposition 4), and *a fortiori* $UW \subset U$. By induction on $n$ it follows that $W^n \subset U$ for every integer $n > 0$. Hence the subgroup $W^\infty = \bigcup_{n > 0} W^n$, generated by $W$, is contained in $U$; but $W^\infty$ is open in $G$ ($§ 2$, no. 1, Corollary to Proposition 4). This completes the proof.
 
 We have also proved:
 
@@ -325,7 +325,7 @@ We have also proved:
 
 *Let $G$ be a locally compact group, let $H$ be a closed subgroup of $G$, and let $\varphi$ be the canonical mapping of $G$ onto $G/H$. Then the components of $G/H$ are the closures of the images under $\varphi$ of the components of $G$.*
 
-Let $C$ be the identity component of $G$. The components of $G$ are the sets $sC$, where $s \in G$ ($\S 2$, no. 2, Proposition 7); $\varphi(sC)$ is clearly connected, hence so is $\varphi(sC)$ (Chapter I, $\S 11$, no. 1, Proposition 1). But $\varphi(sC) = \varphi(sCH)$, and since $sCH$ is saturated with respect to the equivalence relation defined by $H$, and since this equivalence relation is open (§ 2, no. 4, Lemma 2), we have $\overline{\varphi(sCH)} = \varphi(\overline{sCH}) = \varphi(s.\overline{CH})$ (Chapter I, § 5, no. 3, Proposition 7).
+Let $C$ be the identity component of $G$. The components of $G$ are the sets $sC$, where $s \in G$ ($§ 2$, no. 2, Proposition 7); $\varphi(sC)$ is clearly connected, hence so is $\varphi(sC)$ (Chapter I, $§ 11$, no. 1, Proposition 1). But $\varphi(sC) = \varphi(sCH)$, and since $sCH$ is saturated with respect to the equivalence relation defined by $H$, and since this equivalence relation is open (§ 2, no. 4, Lemma 2), we have $\overline{\varphi(sCH)} = \varphi(\overline{sCH}) = \varphi(s.\overline{CH})$ (Chapter I, § 5, no. 3, Proposition 7).
 
 Put $L = CH$. $L$ is a closed subgroup of $G$ which contains $C$ and $H$; hence to prove that the sets $\varphi(s.L) = s.\varphi(L)$ are the components of $G/H$ it is enough to show that the quotient space of $G/H$ by the equivalence relation whose classes are the sets $s.\varphi(L)$ is totally disconnected. Now this quotient space is homeomorphic to the homogeneous space $G/L$ (Chapter I, § 3, no. 4, Proposition 7); we are thus reduced to proving that when $C \subset H$, $G/H$ is *totally disconnected*. Since $G/H$ may be identified with $(G/C)/(H/C)$ (§ 2, no. 7, Proposition 22), we may even assume that $G$ itself is totally disconnected. Every neighbourhood of $\varphi(e)$ in $G/H$ contains a neighbourhood of the form $\varphi(V)$, where $V$ is a neighbourhood of $e$ in $G$, and therefore (Corollary 1) contains a neighbourhood of the form $\varphi(K)$, where $K$ is a *compact open* subgroup of $G$. $\varphi(K)$ is therefore both open and closed in $G/H$, and this shows that the component of $\varphi(e)$ in $G/H$ consists of $\varphi(e)$ alone. By translation, the same is true for the component of every point of $G/H$, and the corollary is proved.
 

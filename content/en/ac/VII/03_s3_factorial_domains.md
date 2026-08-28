@@ -49,7 +49,7 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 0
-content_sha256: 9a9045d263d1c89874a549163bdb7f5c0542895d8b247dce4869a232dfc8d799
+content_sha256: 24b2404392ec37a498e3b069e48cd23f3c3de2b03e46d826d86d894e0aa6aa9e
 ---
 
 ## 3. FACTORIAL DOMAINS
@@ -60,10 +60,10 @@ content_sha256: 9a9045d263d1c89874a549163bdb7f5c0542895d8b247dce4869a232dfc8d799
 
 A Krull domain all of whose divisorial ideals are principal is called a factorial (or unique factorization) domain.
 
-In other words, the group of divisor classes (\S 1, no. 2) is reduced to 0.
+In other words, the group of divisor classes (§ 1, no. 2) is reduced to 0.
 
 Examples
-(1) Every principal ideal domain is factorial (and, recall, is a Dedekind domain). Conversely, every factorial Dedekind domain is a principal ideal domain by \S 2, no. 2, Theorem 1 (c).
+(1) Every principal ideal domain is factorial (and, recall, is a Dedekind domain). Conversely, every factorial Dedekind domain is a principal ideal domain by § 2, no. 2, Theorem 1 (c).
 (2) In particular, if K is a field, the rings K[X] and K[[X]] are factorial domains (see Theorem 2 and Proposition 8 below for generalizations).
 (3) \* The local ring of a simple point of an algebraic variety is a factorial domain. The ring of germs of functions analytic at the origin of $\mathbf{C}^n$ is a factorial domain. \*
 
@@ -86,11 +86,11 @@ We shall denote by K the field of fractions of A and by $\mathcal{P}^*$ (or $\ma
 
 (a) ⇔ (b) ⇔ (c) ⇔ (d) ⇔ (e)
 
-We show that (a) implies (b); if A is factorial, $\mathcal{P}^*$ is isomorphic to the group of divisors of A and hence to a direct sum of groups $\mathbf{Z}$ ($\S 1$, no. 3, Theorem 2).
+We show that (a) implies (b); if A is factorial, $\mathcal{P}^*$ is isomorphic to the group of divisors of A and hence to a direct sum of groups $\mathbf{Z}$ ($§ 1$, no. 3, Theorem 2).
 
-Note now that the relation "the intersection of two integral principal ideals of A is a principal ideal" means that every ordered pair of elements of A admits a $lcm$, that is that $\mathcal{P}^*$ is a lattice-ordered group (Algebra, Chapter VI, $\S 1$, no. 9, Proposition 8). The fact that (b) implies (c) (and even is equivalent to it) therefore follows from Algebra, Chapter VI, $\S 1$, no. 13, Theorem 2. The fact that (c) implies (d) follows from Algebra, Chapter VI, $\S 1$, no. 13, Proposition 14 (DIV).
+Note now that the relation "the intersection of two integral principal ideals of A is a principal ideal" means that every ordered pair of elements of A admits a $lcm$, that is that $\mathcal{P}^*$ is a lattice-ordered group (Algebra, Chapter VI, $§ 1$, no. 9, Proposition 8). The fact that (b) implies (c) (and even is equivalent to it) therefore follows from Algebra, Chapter VI, $§ 1$, no. 13, Theorem 2. The fact that (c) implies (d) follows from Algebra, Chapter VI, $§ 1$, no. 13, Proposition 14 (DIV).
 
-The fact that (d) implies (b) follows from Algebra, Chapter VI, $\S 1$, no. 13, Theorem 2 applied to the group $\mathcal{S}^*$.
+The fact that (d) implies (b) follows from Algebra, Chapter VI, $§ 1$, no. 13, Theorem 2 applied to the group $\mathcal{S}^*$.
 
 We show that (b) implies (e). If (b) holds, there is an isomorphism of $\mathcal{P}^*$ onto $\mathbf{Z}^{(l)}$; let $(v_i(x))_{i \in I}$ denote the element of $\mathbf{Z}^{(l)}$ corresponding to the ideal $Ax$ ($x \in K^*$). It is seen immediately that each $v_i$ is a discrete valuation on K, that A is the intersection of the rings of the $v_i$ and that, for $x \in K^*$, $v_i(x) = 0$ except for a finite number of indices $i$; hence A is a Krull domain. On the other hand, let q be a prime ideal of A of height 1; it contains a non-zero element a which is necessarily not invertible and hence also (by definition of a prime ideal) one of the extremal elements of A; as $Ap$ is prime and non zero, $q = Ap$, which proves that q is principal.
 
@@ -100,19 +100,19 @@ Finally we show that (e) implies (a). Let a be a divisorial ideal of A. There ex
 
 *Let A be a Krull domain. If every divisorial ideal of A is invertible, then, for every maximal ideal m of A, $A_m$ is factorial. The converse is true if it is also assumed that every divisorial ideal of A is finitely generated (in particular if A is Noetherian).*
 
-Suppose that every divisorial ideal of $A$ is invertible; as $A_{,,}$ is a Krull domain ($\S 1$, no. 4, Proposition 6), every divisorial ideal $a$ of $A_{,,}$ is the intersection of two principal fractional ideals ($\S 1$, no. 5, Corollary 2 to Proposition 9); hence $a = bA_m$, where $b$ is a divisorial ideal of $A$ (Chapter II, $\S 2$, no. 4); as $b$ is invertible by hypothesis, we deduce from Chapter II, $\S 5$, no. 6, Theorem 4 that $a$ is principal and hence $A_{,,}$ is a factorial domain (no. 1, Definition 1). Conversely, if all the $A_{,,}$ are factorial and $c$ is a finitely generated divisorial ideal of $A$, $cA_m$ is a divisorial ideal of $A_{,,}$, as follows from $\S 1$, no. 5, Corollary 2 to Proposition 9 and Chapter II, $\S 2$, no. 4; by hypothesis $cA_m$ is principal and hence it follows from Chapter 11, $\S 5$, no. 6, Theorem 4 that $c$ is invertible.
+Suppose that every divisorial ideal of $A$ is invertible; as $A_{,,}$ is a Krull domain ($§ 1$, no. 4, Proposition 6), every divisorial ideal $a$ of $A_{,,}$ is the intersection of two principal fractional ideals ($§ 1$, no. 5, Corollary 2 to Proposition 9); hence $a = bA_m$, where $b$ is a divisorial ideal of $A$ (Chapter II, $§ 2$, no. 4); as $b$ is invertible by hypothesis, we deduce from Chapter II, $§ 5$, no. 6, Theorem 4 that $a$ is principal and hence $A_{,,}$ is a factorial domain (no. 1, Definition 1). Conversely, if all the $A_{,,}$ are factorial and $c$ is a finitely generated divisorial ideal of $A$, $cA_m$ is a divisorial ideal of $A_{,,}$, as follows from $§ 1$, no. 5, Corollary 2 to Proposition 9 and Chapter II, $§ 2$, no. 4; by hypothesis $cA_m$ is principal and hence it follows from Chapter 11, $§ 5$, no. 6, Theorem 4 that $c$ is invertible.
 
 ### 3. DECOMPOSITION INTO EXTREMAL ELEMENTS
 
-Let $A$ be an integral domain, $K$ its field of fractions and $U$ the multiplicative group of invertible elements of $A$. Recall (Algebra, Chapter VI, $\S 1$, no. 5) that there is a canonical isomorphism of $K^*/U$ onto the group $\mathcal{P}^*$ of non-zero fractional principal ideals of $A$. Condition (b) of Theorem 1 may then be translated as follows:
+Let $A$ be an integral domain, $K$ its field of fractions and $U$ the multiplicative group of invertible elements of $A$. Recall (Algebra, Chapter VI, $§ 1$, no. 5) that there is a canonical isomorphism of $K^*/U$ onto the group $\mathcal{P}^*$ of non-zero fractional principal ideals of $A$. Condition (b) of Theorem 1 may then be translated as follows:
 
 #### Proposition 2 {#ac-vii-s3-prop-2 .statement}
 
 *Let $A$ be an integral domain. For $A$ to be factorial, it is necessary and sufficient that there exist a subset $P$ of $A$ such that every $a \in A - \{0\}$ may be written uniquely in the form $a = u \prod_{p \in P} p^{n(p)}$, where $u \in U$ and the $n(p)$ are positive integers which are zero except for a finite number of them.*
 
-If $P$ satisfies this condition, clearly all its elements are *extremal* and every extremal element of $A$ is associated with a unique element of $P$. Recall that $P$ is then called a *representative system of extremal elements* of $A$ (Algebra, Chapter VII, $\S 1$, no. 3, Definition 2).
+If $P$ satisfies this condition, clearly all its elements are *extremal* and every extremal element of $A$ is associated with a unique element of $P$. Recall that $P$ is then called a *representative system of extremal elements* of $A$ (Algebra, Chapter VII, $§ 1$, no. 3, Definition 2).
 
-Suppose always that $A$ is factorial. It has been seen (no. 2, Theorem 1) that the group $\mathcal{P}^*$ is a lattice. We may therefore apply the results of Algebra, Chapter VI, $\S 1$, nos. 9 and 13. In particular, every element of $K^*$ may be written in an essentially unique way in the form of an *irreducible fraction*. Any two elements $a, b$ of $K^*$ have a g.c.d. and a l.c.m.; if $a = u \prod_{p \in P} p^{n(p)}$ and
+Suppose always that $A$ is factorial. It has been seen (no. 2, Theorem 1) that the group $\mathcal{P}^*$ is a lattice. We may therefore apply the results of Algebra, Chapter VI, $§ 1$, nos. 9 and 13. In particular, every element of $K^*$ may be written in an essentially unique way in the form of an *irreducible fraction*. Any two elements $a, b$ of $K^*$ have a g.c.d. and a l.c.m.; if $a = u \prod_{p \in P} p^{n(p)}$ and
 $$
 b = u' \prod_{p \in P} p^{m(p)}
 $$

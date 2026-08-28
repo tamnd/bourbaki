@@ -49,7 +49,7 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: 76952264b959dbe591e68dd36c4ec6f02ba9ab7f809b7a19e628b038082dd550
+content_sha256: c5c58d36fea84ed5e26883e391f20cf1b187d6e1a3de33d7c9e483038c5c4be1
 ---
 
 ## § 7. EXTERIOR ALGEBRAS
@@ -136,7 +136,7 @@ with the $x_i \in M$, since $\Lambda(u)$ is an algebra homomorphism and $\Lambda
 
 The proof is derived from that of § 6, no. 2, Proposition 4, replacing $S$ by $\Lambda$ and $\mathfrak{g}'$ by $\mathfrak{g}''$.
 
-If $u: M \to N$ is an injective linear mapping, it is not always true that $\Lambda(u)$ is an injective mapping (\S 6, Exercise 3) (see however below no. 9, Corollary to Proposition 12). However this is so when $u$ is an injection such that $u(M)$ is a direct factor of $N$ and then the image of $\Lambda(u)$ (isomorphic to $\Lambda(M)$) is a direct factor of $\Lambda(N)$; the proof is the same as that for the analogous assertions for $T(u)$ (\S 5, no. 2) replacing $T$ by $\Lambda$.
+If $u: M \to N$ is an injective linear mapping, it is not always true that $\Lambda(u)$ is an injective mapping (§ 6, Exercise 3) (see however below no. 9, Corollary to Proposition 12). However this is so when $u$ is an injection such that $u(M)$ is a direct factor of $N$ and then the image of $\Lambda(u)$ (isomorphic to $\Lambda(M)$) is a direct factor of $\Lambda(N)$; the proof is the same as that for the analogous assertions for $T(u)$ (§ 5, no. 2) replacing $T$ by $\Lambda$.
 
 #### Proposition 4 {#alg-iii-s7-prop-4 .statement}
 
@@ -210,9 +210,9 @@ For $1 \leq h < h' \leq p$ or $p + 1 \leq h < h' \leq n$, $\sigma(h') > \sigma(h
 
 #### Corollary 2 {#alg-iii-s7-lem-1-cor-2 .statement}
 
-The graded algebra $\bigwedge(M)$ is alternating ($\S 4$, no. 9).
+The graded algebra $\bigwedge(M)$ is alternating ($§ 4$, no. 9).
 
-It suffices to apply Proposition 13 of $\S 4$, no. 9 to $\bigwedge(M)$, taking as generating system the set $M$ and using Proposition 5.
+It suffices to apply Proposition 13 of $§ 4$, no. 9 to $\bigwedge(M)$, taking as generating system the set $M$ and using Proposition 5.
 
 #### Proposition 6 {#alg-iii-s7-prop-6 .statement}
 
@@ -422,7 +422,7 @@ $$
 
 is commutative (cf. § 4, no. 5, Corollary to Proposition 8).
 
-The sub-$A$-module of $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ with which $\Lambda^n(M)$ is identified by means of the isomorphism $g$ can be described more precisely. For every finite subset $J$ of $L$, we write $E_J = \bigotimes_{\lambda \in J} \Lambda(M_\lambda)$, so that $\bigotimes_{\lambda \in L} \Lambda(M_\lambda) = \lim \to E_J$ relative to the directed set $\mathcal{F}(L)$ of finite subsets of $L$, by definition ($\S 4$, no. 8, *Remark* 1). For every family $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (therefore with *finite* support) such that $\sum_{\lambda \in L} n_\lambda = n$ and every finite subset $J$ of $L$ containing the support of the family $\nu$, we write
+The sub-$A$-module of $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ with which $\Lambda^n(M)$ is identified by means of the isomorphism $g$ can be described more precisely. For every finite subset $J$ of $L$, we write $E_J = \bigotimes_{\lambda \in J} \Lambda(M_\lambda)$, so that $\bigotimes_{\lambda \in L} \Lambda(M_\lambda) = \lim \to E_J$ relative to the directed set $\mathcal{F}(L)$ of finite subsets of $L$, by definition ($§ 4$, no. 8, *Remark* 1). For every family $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (therefore with *finite* support) such that $\sum_{\lambda \in L} n_\lambda = n$ and every finite subset $J$ of $L$ containing the support of the family $\nu$, we write
 
 $$
 \Lambda^{J,\nu}(M) = \bigotimes_{\lambda \in J} \Lambda^{n_\lambda}(M_\lambda)
@@ -434,7 +434,7 @@ $$
 \sum_{\lambda \in L} n_\lambda = n
 $$
 
-($\S 4$, no. 7, Proposition 10 and no. 8). By way of convention we write $\Lambda^{J,\nu}(M) = \{0\}$ for the families $\nu$ whose support is not contained in $J$; then
+($§ 4$, no. 7, Proposition 10 and no. 8). By way of convention we write $\Lambda^{J,\nu}(M) = \{0\}$ for the families $\nu$ whose support is not contained in $J$; then
 
 E_{J,n} can also be called the direct sum of all the $\bigwedge^{J,\nu}(M)$, where $\nu$ runs through the set $H_n$ of all families $\nu = (n_\lambda)_{\lambda \in L}$ such that $\sum_{\lambda \in L} n_\lambda = n$. Since $\bigwedge^0(M_\lambda)$ is identified with $A$, clearly also for two finite subsets $J \subset J'$ of $L$ and a family $\nu$ of support contained in $J$, the canonical mapping $\bigwedge^{J,\nu}(M) \to \bigwedge^{J',\nu}(M)$ (restriction of the canonical mapping $E_J \to E_{J'}$ to $\bigwedge^{J,\nu}(M)$) is bijective. If we write, for all $\nu \in H_n$,
 
@@ -488,7 +488,7 @@ $$
 
 This follows from Set Theory, III, § 3, no. 5, Proposition 12 and Set Theory, III, § 5, no. 8, Corollary 1 to Proposition 11.
 
-We return to the case where the set L in Theorem 1 is arbitrary and give explicitly the multiplication table (\S 1, no. 7) of the basis $(e_J)$. Given two finite subsets $J, K$ of the totally ordered set $L$, we write
+We return to the case where the set L in Theorem 1 is arbitrary and give explicitly the multiplication table (§ 1, no. 7) of the basis $(e_J)$. Given two finite subsets $J, K$ of the totally ordered set $L$, we write
 $$
 \begin{cases}
 \rho_{J, K} = 0 & \text{if } J \cap K \neq \varnothing \\
@@ -509,7 +509,7 @@ when $J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$ (no. 3
 
 *If M is a projective A-module, $\bigwedge(M)$ is a projective A-module.*
 
-The proof is the same as that of \S 5, no. 5, Corollary to Theorem 1 replacing T by $\bigwedge$.
+The proof is the same as that of § 5, no. 5, Corollary to Theorem 1 replacing T by $\bigwedge$.
 
 #### Corollary 3 {#alg-iii-s7-thm-1-cor-3 .statement}
 
@@ -527,7 +527,7 @@ Then $\bigwedge^n(M)$ is projective (Corollary 2) and hence the canonical mappin
 $$
 \bigwedge^n(M) \to (\bigwedge^n(M))^{**}
 $$
-is injective (II, \S 2, no. 7, Corollary 4 to Proposition 13); we conclude that there exists a linear form $g : \bigwedge^n(M) \to A$ such that $g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$. If $f$ is the alternating n-linear form corresponding to $g$ (no. 4, Proposition 7), then $f(x_1, \ldots, x_n) \neq 0$.
+is injective (II, § 2, no. 7, Corollary 4 to Proposition 13); we conclude that there exists a linear form $g : \bigwedge^n(M) \to A$ such that $g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$. If $f$ is the alternating n-linear form corresponding to $g$ (no. 4, Proposition 7), then $f(x_1, \ldots, x_n) \neq 0$.
 
 ### 9. CRITERIA FOR LINEAR INDEPENDENCE
 

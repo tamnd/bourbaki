@@ -33,7 +33,7 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 9c20c3c214e5ae3c3da7451136844419ef43b2c85c04f0fc975cf6678b1e0508
+content_sha256: 53525a2f9b518bdaa782841548fc8adade804fc80f9f9e5ce128513f72269433
 translated_from: content/en/ac/II/03_s3_local_rings_passage_from_the_local_to.md
 source_content_sha256: b95c1024d708413f196f7407025c624c77589ba41ff70622a5c8b484baf0c3a4
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -71,21 +71,21 @@ Cho $\mathbf{A}, \mathbf{B}$ là hai vành địa phương và $m, n$ là các i
 Ví dụ
 (1) Một trường là một vành địa phương. Một vành được thu gọn về 0 không phải là một vành địa phương.
 (2) Cho $\mathbf{A}$ là một vành địa phương và $k$ là trường thặng dư của nó. Vành chuỗi lũy thừa hình thức $B = \mathbf{A}[[X_1, \ldots, X_n]]$ là một vành địa phương, vì các phần tử không khả nghịch của $B$ là các chuỗi lũy thừa hình thức mà các số hằng không khả nghịch trong $\mathbf{A}$ (Đại số, Chương IV, §5, no. 6, Mệnh đề 4). Đơn ánh chính tắc của $\mathbf{A}$ vào $B$ là một đồng cấu địa phương và đơn ánh tương ứng của các trường thặng dư là một đẳng cấu.
-(3) Cho $b$ là một iđêan của một vành $\mathbf{A}$ chỉ được chứa trong một iđêan cực đại duy nhất $m$; khi đó $A/b$ là một *vành địa phương* với iđêan cực đại $m/b$ và trường thặng dư đẳng cấu chính tắc với $A/m$. Điều này đặc biệt áp dụng cho trường hợp $b = m^k$, $m$ là một iđêan cực đại bất kỳ của $A$ ($\S 1$, no. 1, Hệ quả của Mệnh đề 1). Nếu bản thân $A$ là một vành địa phương với iđêan cực đại $m$, thì với mọi iđêan $b \neq A$ của $A$, $A/b$ là một vành địa phương, đồng cấu chính tắc $A \to A/b$ là một đồng cấu địa phương và đồng cấu tương ứng của các trường thặng dư là một *đẳng cấu*.
+(3) Cho $b$ là một iđêan của một vành $\mathbf{A}$ chỉ được chứa trong một iđêan cực đại duy nhất $m$; khi đó $A/b$ là một *vành địa phương* với iđêan cực đại $m/b$ và trường thặng dư đẳng cấu chính tắc với $A/m$. Điều này đặc biệt áp dụng cho trường hợp $b = m^k$, $m$ là một iđêan cực đại bất kỳ của $A$ ($§ 1$, no. 1, Hệ quả của Mệnh đề 1). Nếu bản thân $A$ là một vành địa phương với iđêan cực đại $m$, thì với mọi iđêan $b \neq A$ của $A$, $A/b$ là một vành địa phương, đồng cấu chính tắc $A \to A/b$ là một đồng cấu địa phương và đồng cấu tương ứng của các trường thặng dư là một *đẳng cấu*.
 
-(4) Cho $X$ là một không gian tôpô, $x_0$ là một điểm của $X$ và $A$ là vành các mầm tại điểm $x_0$ của các hàm thực liên tục trong một lân cận của $x_0$ (*Tôpô đại cương*, Chương I, \$6, no. 10). Rõ ràng, để mầm tại $x_0$ của một hàm liên tục $f$ khả nghịch trong $A$, điều kiện cần và đủ là $f(x_0) \neq 0$, vì điều đó suy ra $f(x) \neq 0$ trong một lân cận của $x_0$. Do đó vành $A$ là một vành địa phương có iđêan cực đại $m$ là tập hợp các mầm của những hàm bằng không *tại* $x_0$; lấy các thương, ánh xạ $g \mapsto g(x_0)$ từ $A$ vào $\mathbf{R}$ cho một *đẳng cấu* của trường thặng dư $A/m$ lên $\mathbf{R}$.
+(4) Cho $X$ là một không gian tôpô, $x_0$ là một điểm của $X$ và $A$ là vành các mầm tại điểm $x_0$ của các hàm thực liên tục trong một lân cận của $x_0$ (*Tôpô đại cương*, Chương I, § 6, no. 10). Rõ ràng, để mầm tại $x_0$ của một hàm liên tục $f$ khả nghịch trong $A$, điều kiện cần và đủ là $f(x_0) \neq 0$, vì điều đó suy ra $f(x) \neq 0$ trong một lân cận của $x_0$. Do đó vành $A$ là một vành địa phương có iđêan cực đại $m$ là tập hợp các mầm của những hàm bằng không *tại* $x_0$; lấy các thương, ánh xạ $g \mapsto g(x_0)$ từ $A$ vào $\mathbf{R}$ cho một *đẳng cấu* của trường thặng dư $A/m$ lên $\mathbf{R}$.
 
 #### Mệnh đề 2 {#ac-ii-s3-prop-2 .statement}
 
 *Cho $A$ là một vành và $p$ là một iđêan nguyên tố của $A$. Vành $A$, là địa phương; iđêan cực đại của nó là iđêan $pA_p = p_v$, được sinh bởi ảnh chính tắc của $p$ trong $A$; trường thặng dư của nó đẳng cấu chính tắc với trường phân thức của $A/p$.*
 
-Cho $S = A - p$ và $j : A \to A_v$, là đồng cấu chính tắc; giả thiết rằng $p$ là nguyên tố suy ra rằng $p$ bão hòa đối với $S$, do đó $j^{-1}(pA_p) = p$ ($\S 2$, no. 4, Mệnh đề 10) và, vì các iđêan của $A$ không giao với $S$ chính là các iđêan được chứa trong $p$, hai mệnh đề đầu là các trường hợp riêng của $\S 2$, no. 5, Mệnh đề 11 (ii). Hơn nữa, iff là đồng cấu chính tắc $A \to A/p$, $f(S)$ là tập hợp các phần tử $\neq 0$ của miền nguyên $A/p$ và do đó khẳng định cuối cùng là một trường hợp riêng của $\S 2$, no. 5, Mệnh đề 11 (i).
+Cho $S = A - p$ và $j : A \to A_v$, là đồng cấu chính tắc; giả thiết rằng $p$ là nguyên tố suy ra rằng $p$ bão hòa đối với $S$, do đó $j^{-1}(pA_p) = p$ ($§ 2$, no. 4, Mệnh đề 10) và, vì các iđêan của $A$ không giao với $S$ chính là các iđêan được chứa trong $p$, hai mệnh đề đầu là các trường hợp riêng của $§ 2$, no. 5, Mệnh đề 11 (ii). Hơn nữa, iff là đồng cấu chính tắc $A \to A/p$, $f(S)$ là tập hợp các phần tử $\neq 0$ của miền nguyên $A/p$ và do đó khẳng định cuối cùng là một trường hợp riêng của $§ 2$, no. 5, Mệnh đề 11 (i).
 
 #### Định nghĩa 3 {#ac-ii-s3-def-3 .statement}
 
 *Cho $A$ là một vành và $p$ là một iđêan nguyên tố của $A$. Vành $A$, được gọi là vành địa phương của $A$ tại $p$, hay vành địa phương của $p$, khi không có sự nhập nhằng.*
 
-*Nhận xét (2).* Nếu $A$ là một vành địa phương và $m$ là iđêan cực đại của nó, các phần tử của $A - m$ là khả nghịch (Mệnh đề 1) và do đó $A_{m'}$ được đồng nhất một cách chính tắc với $A$ ($\S 2$, no. 1, Nhận xét 5).
+*Nhận xét (2).* Nếu $A$ là một vành địa phương và $m$ là iđêan cực đại của nó, các phần tử của $A - m$ là khả nghịch (Mệnh đề 1) và do đó $A_{m'}$ được đồng nhất một cách chính tắc với $A$ ($§ 2$, no. 1, Nhận xét 5).
 
 Ví dụ
 (5) Cho $p$ là một số nguyên tố. Vành địa phương $\mathbf{Z}_{(p)}$ là tập hợp các số hữu tỉ $a/b$, trong đó $a, b$ là các số nguyên hữu tỉ với $b$ nguyên tố trên; trường thặng dư của $\mathbf{Z}_{(p)}$ đẳng cấu với trường nguyên tố $\mathbf{F}_p = \mathbf{Z}/(p)$.
@@ -96,15 +96,15 @@ Ví dụ
 
 Cho $A$ là một vành, $p$ là một iđêan nguyên tố của $A$ và $S = A - p$. Với mọi iđêan $b'$ của $A_p$ phân biệt với $A_p$, gọi $b$ là iđêan $(i_A^S)^{-1}(b')$ của $A$ sao cho $b' = bA_p$.
 
-(i) Cho $f$ là đồng cấu chính tắc $A \to A/b$. Đồng cấu từ $A$ vào $(A/b)_{p/b}$ liên kết một cách chính tắc với $f$ ($\S 2$, no. 1, Mệnh đề 2) là toàn ánh và hạt nhân của nó là $b'$, do đó, bằng cách lấy thương, xác định một đẳng cấu chính tắc của $A_p/b'$ lên $(A/b)_{p/b}$.
+(i) Cho $f$ là đồng cấu chính tắc $A \to A/b$. Đồng cấu từ $A$ vào $(A/b)_{p/b}$ liên kết một cách chính tắc với $f$ ($§ 2$, no. 1, Mệnh đề 2) là toàn ánh và hạt nhân của nó là $b'$, do đó, bằng cách lấy thương, xác định một đẳng cấu chính tắc của $A_p/b'$ lên $(A/b)_{p/b}$.
 
 (ii) Ánh xạ $b' \to b = (i_A^S)^{-1}(b')$, hạn chế trên tập hợp các iđêan nguyên tố của $A_p$, là một đẳng cấu (theo quan hệ bao hàm) của tập hợp này lên tập hợp các iđêan nguyên tố của $A$ được chứa trong $p$. Nếu $b'$ là nguyên tố trong $A_p$, tồn tại một đẳng cấu của vành $A_b$ lên vành $(A_p)_{b'}$, ánh xạ $a/s$ thành $(a/1)/(s/1)$ với mọi $a \in A, s \in A - b$.
 
-Đây chỉ là một trường hợp riêng của $\S 2$, no. 5, Mệnh đề 11.
+Đây chỉ là một trường hợp riêng của $§ 2$, no. 5, Mệnh đề 11.
 
 Nhận xét
-(3) Nếu $a$ là một iđêan của $A$ không được chứa trong $p$, thì $aA_p = A$, và $(A/a)_p = 0$ ($\S 2$, no. 5, Nhận xét).
-(4) Cho $A, B$ là hai vành, $\rho : A \to B$ là một đồng cấu, $q$ là một iđêan nguyên tố của $B$ và $p$ là iđêan nguyên tố $\rho^{-1}(q)$ của $A$. Vì $\rho(A - p) \subset B - q$, một đồng cấu chính tắc $\rho_q : A \to B_q$ được dẫn xuất từ $\rho$ ($\S 2$, no. 1, Mệnh đề 2) và ngay lập tức có $\rho_q(pA_p) \subset qB_q$, do đó $\rho$ là một đồng cấu địa phương.
+(3) Nếu $a$ là một iđêan của $A$ không được chứa trong $p$, thì $aA_p = A$, và $(A/a)_p = 0$ ($§ 2$, no. 5, Nhận xét).
+(4) Cho $A, B$ là hai vành, $\rho : A \to B$ là một đồng cấu, $q$ là một iđêan nguyên tố của $B$ và $p$ là iđêan nguyên tố $\rho^{-1}(q)$ của $A$. Vì $\rho(A - p) \subset B - q$, một đồng cấu chính tắc $\rho_q : A \to B_q$ được dẫn xuất từ $\rho$ ($§ 2$, no. 1, Mệnh đề 2) và ngay lập tức có $\rho_q(pA_p) \subset qB_q$, do đó $\rho$ là một đồng cấu địa phương.
 
 ### 2. MÔĐUN TRÊN MỘT VÀNH ĐỊA PHƯƠNG
 
@@ -115,7 +115,7 @@ Cho $A$ là một vành không nhất thiết giao hoán, $m$ là một iđêan 
 (ii) $m$ lũy linh.
 Khi đó quan hệ $(A_d/m) \otimes_A M = 0$ kéo theo $M = 0$.
 
-Mệnh đề tương ứng với giả thiết (i) chính xác là Hệ quả 3 của Mệnh đề 6 của Đại số, chương VIII, $\S 6$, no. 3. Mặt khác, quan hệ $(A_d/m) \otimes_A M = 0$ tương đương với $M = mM$ và do đó kéo theo $M = m^nM$ với mọi số nguyên $n > 0$; do đó có mệnh đề tương ứng với giả thiết (ii).
+Mệnh đề tương ứng với giả thiết (i) chính xác là Hệ quả 3 của Mệnh đề 6 của Đại số, chương VIII, $§ 6$, no. 3. Mặt khác, quan hệ $(A_d/m) \otimes_A M = 0$ tương đương với $M = mM$ và do đó kéo theo $M = m^nM$ với mọi số nguyên $n > 0$; do đó có mệnh đề tương ứng với giả thiết (ii).
 
 #### Hệ quả 1 {#ac-ii-s3-prop-4-cor-1 .statement}
 
@@ -244,7 +244,7 @@ $$
 \phi_i : L \to (A/p_i) \otimes L
 $$
 
-(tương ứng $\psi_i : M \to (A/p_i) \otimes M$) là ánh xạ chính tắc, và $v'$ là tích của các $1_{A/p_i} @ v_e$. Khi đó $(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$ và, vì $A/p_i$ là một miền nguyên địa phương, suy ra từ phần đầu của lập luận rằng mỗi một trong các $1_{A/p_i} \otimes v$ là một đẳng cấu; do đó $v'$ cũng là một đẳng cấu. Mặt khác, vì $A$ là giảm, $\bigcap_i p_i = (0)$ ($\S 2$, no. 6, Mệnh đề 13), do đó $\bigcap_i (p_i L) = 0$ vì $L$ là tự do (*Đại số*, Chương II, $\S 3$, no. 7, *Nhận xét*); vì $p_i L$ là hạt nhân của $\phi_i$, điều này chứng tỏ rằng $u$ là đơn ánh. Suy ra rằng $v' \circ u = u' \circ v$ là đơn ánh, do đó $v$ là đơn ánh và, vì $v$ là toàn ánh theo định nghĩa, điều này chứng tỏ rằng $M$ là tự do.
+(tương ứng $\psi_i : M \to (A/p_i) \otimes M$) là ánh xạ chính tắc, và $v'$ là tích của các $1_{A/p_i} @ v_e$. Khi đó $(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$ và, vì $A/p_i$ là một miền nguyên địa phương, suy ra từ phần đầu của lập luận rằng mỗi một trong các $1_{A/p_i} \otimes v$ là một đẳng cấu; do đó $v'$ cũng là một đẳng cấu. Mặt khác, vì $A$ là giảm, $\bigcap_i p_i = (0)$ ($§ 2$, no. 6, Mệnh đề 13), do đó $\bigcap_i (p_i L) = 0$ vì $L$ là tự do (*Đại số*, Chương II, $§ 3$, no. 7, *Nhận xét*); vì $p_i L$ là hạt nhân của $\phi_i$, điều này chứng tỏ rằng $u$ là đơn ánh. Suy ra rằng $v' \circ u = u' \circ v$ là đơn ánh, do đó $v$ là đơn ánh và, vì $v$ là toàn ánh theo định nghĩa, điều này chứng tỏ rằng $M$ là tự do.
 
 ### 3. CHUYỂN TỪ ĐỊA PHƯƠNG SANG TOÀN CỤC
 
@@ -252,21 +252,21 @@ $$
 
 *Cho $A$ là một vành, $m$ là một iđêan cực đại của $A$ và $M$ là một $A$-môđun. Nếu tồn tại một iđêan $a$ của $A$ sao cho $m$ là iđêan cực đại duy nhất của $A$ chứa $a$ và $aM = 0$, thì đồng cấu chính tắc $M \to M$, là song ánh.*
 
-$A/a$ khi đó là một vành địa phương với iđêan cực đại $m/a$; $M$ có thể được xét như một $(A/a)$-môđun; với mọi $s \in A - m$ ảnh chính tắc của $s$ trong $A/a$ là khả nghịch, do đó phép vị tự $x \mapsto sx$ của $M$ là song ánh theo định nghĩa của $M$, như là nghiệm của một bài toán phổ quát ($\S 2$, no. 2); do đó mệnh đề.
+$A/a$ khi đó là một vành địa phương với iđêan cực đại $m/a$; $M$ có thể được xét như một $(A/a)$-môđun; với mọi $s \in A - m$ ảnh chính tắc của $s$ trong $A/a$ là khả nghịch, do đó phép vị tự $x \mapsto sx$ của $M$ là song ánh theo định nghĩa của $M$, như là nghiệm của một bài toán phổ quát ($§ 2$, no. 2); do đó mệnh đề.
 
-Đặc biệt, nếu tồn tại $k \geqslant 0$ sao cho $m^k M = 0$, thì đồng cấu $M \to M_m$ là song ánh ($\S 1$, no. 1, Hệ quả của Mệnh đề 1).
+Đặc biệt, nếu tồn tại $k \geqslant 0$ sao cho $m^k M = 0$, thì đồng cấu $M \to M_m$ là song ánh ($§ 1$, no. 1, Hệ quả của Mệnh đề 1).
 
 #### Mệnh đề 9 {#ac-ii-s3-prop-9 .statement}
 
 *Cho $A$ là một vành, $m$ là một iđêan cực đại của $A$, $M$ là một $A$-môđun và $k$ là một số nguyên $\geqslant 0$. Đồng cấu chính tắc $M \to M_m/m^k M_m$ là toàn ánh, có hạt nhân $m^k M$ và xác định một đẳng cấu từ $M/m^k M$ lên $M_m/m^k M_m$.*
 
-Vì trường hợp $k = 0$ là tầm thường, giả sử rằng $k \geqslant 1$. Suy ra từ Mệnh đề 8 rằng đồng cấu chính tắc $M/m^k M \to (M/m^k M)_m$ là song ánh. Mặt khác $(M/m^k M)_m$ được đồng nhất một cách chính tắc với $M_m/(m^k M)_m$ (\$2, no. 4, Định lý 1) và do đó $(m^k M)_m = m^k M_m$ (\$2, no. 7, Hệ quả của Mệnh đề 18), do đó có một đẳng cấu từ $M/m^k M$ lên $M_m/m^k M_m$ ánh xạ lớp của một phần tử $x \in M$ thành lớp của $x/1$.
+Vì trường hợp $k = 0$ là tầm thường, giả sử rằng $k \geqslant 1$. Suy ra từ Mệnh đề 8 rằng đồng cấu chính tắc $M/m^k M \to (M/m^k M)_m$ là song ánh. Mặt khác $(M/m^k M)_m$ được đồng nhất một cách chính tắc với $M_m/(m^k M)_m$ (§ 2, no. 4, Định lý 1) và do đó $(m^k M)_m = m^k M_m$ (§ 2, no. 7, Hệ quả của Mệnh đề 18), do đó có một đẳng cấu từ $M/m^k M$ lên $M_m/m^k M_m$ ánh xạ lớp của một phần tử $x \in M$ thành lớp của $x/1$.
 
 #### Hệ quả {#ac-ii-s3-n3-cor-1 .statement}
 
 *Cho $A$ là một vành, $m_1, m_2, \ldots, m_n$ là các iđêan cực đại phân biệt của $A$, $M$ là một $A$-môđun và $k_1, k_2, \ldots, k_n$ là các số nguyên $\geqslant 0$. Đồng cấu chính tắc từ $M$ đến $\prod^n M_m/m_{i_1}^{k_1} M_m$ là toàn ánh và hạt nhân của nó là $\left( \bigcap^n m_{i_1}^{k_1} \right) M$.*
 
-Điều này suy ra dễ dàng từ Mệnh đề 9 và $\S 1$, no. 2, Mệnh đề 6, do các $m_{i_1}^{k_1}$ nguyên tố cùng nhau từng đôi một ($\S 1$, no. 2, Mệnh đề 3).
+Điều này suy ra dễ dàng từ Mệnh đề 9 và $§ 1$, no. 2, Mệnh đề 6, do các $m_{i_1}^{k_1}$ nguyên tố cùng nhau từng đôi một ($§ 1$, no. 2, Mệnh đề 3).
 
 *Trong phần còn lại của no. này, $A$ sẽ ký hiệu một vành và $\Omega(A)$ (hoặc $\Omega$) là tập hợp các iđêan cực đại của $A$.*
 
@@ -274,11 +274,11 @@ Vì trường hợp $k = 0$ là tầm thường, giả sử rằng $k \geqslant 
 
 *A-môđun* $\bigoplus_{m \in \Omega} \mathbf{A}_m$, *tổng trực tiếp của các* $\mathbf{A}_m$ *với* $m \in \Omega$, *là phẳng trung thành*.
 
-Mỗi $\mathbf{A}_m$ là một A-môđun phẳng (\$2, no. 4, Định lý 1), do đó $E = \bigoplus_{m \in \Omega} \mathbf{A}_m$ là phẳng (Chương I, § 2, no. 3, Mệnh đề 2). Hơn nữa, với mọi iđêan cực đại $m$ của $A$, $mA_m$ là iđêan cực đại duy nhất của $\mathbf{A}_m$, do đó $mA_m \neq A_m$, từ đó suy ra $mE \neq E$ và do đó $E$ là phẳng trung thành (Chương I, § 3, no. 1, Mệnh đề 1 (d)).
+Mỗi $\mathbf{A}_m$ là một A-môđun phẳng (§ 2, no. 4, Định lý 1), do đó $E = \bigoplus_{m \in \Omega} \mathbf{A}_m$ là phẳng (Chương I, § 2, no. 3, Mệnh đề 2). Hơn nữa, với mọi iđêan cực đại $m$ của $A$, $mA_m$ là iđêan cực đại duy nhất của $\mathbf{A}_m$, do đó $mA_m \neq A_m$, từ đó suy ra $mE \neq E$ và do đó $E$ là phẳng trung thành (Chương I, § 3, no. 1, Mệnh đề 1 (d)).
 
 #### Định lý 1 {#ac-ii-s3-thm-1 .statement}
 
-*Cho* $M, N$ *là hai A-môđun, $u : M \to N$ là một đồng cấu A và, với mọi* $m \in \Omega$, *cho* $u_m : M, \to N_m$ *là* $A_m$-*đồng cấu tương ứng* (\$2, no. 2, Nhận xét 5). *Để* $u$ *đơn ánh (tương ứng toàn ánh, song ánh, không), điều kiện cần và đủ là, với mọi* $m \in \Omega$, $u_m$ *đơn ánh (tương ứng toàn ánh, song ánh, không)*.
+*Cho* $M, N$ *là hai A-môđun, $u : M \to N$ là một đồng cấu A và, với mọi* $m \in \Omega$, *cho* $u_m : M, \to N_m$ *là* $A_m$-*đồng cấu tương ứng* (§ 2, no. 2, Nhận xét 5). *Để* $u$ *đơn ánh (tương ứng toàn ánh, song ánh, không), điều kiện cần và đủ là, với mọi* $m \in \Omega$, $u_m$ *đơn ánh (tương ứng toàn ánh, song ánh, không)*.
 
 Nói rằng, với mọi $m \in \Omega$, $u_m$ đơn ánh (tương ứng toàn ánh, song ánh, không) tương đương với nói rằng đồng cấu $\bigoplus_m u_m : \bigoplus M, \to \bigoplus N$, có cùng tính chất. Nhưng $\bigoplus_m M_m = M \otimes_A E, \bigoplus_m N_m = N \otimes_A E$ và $\bigoplus_m u_m = u \otimes 1$, trong đó $E = \bigoplus_m \mathbf{A}_m$; vì $E$ là phẳng trung thành (Mệnh đề 10), định lý suy ra từ Chương I, § 3, no. 1, Mệnh đề 1 (c) và Mệnh đề 2.
 
@@ -286,7 +286,7 @@ Nói rằng, với mọi $m \in \Omega$, $u_m$ đơn ánh (tương ứng toàn �
 
 *Cho* $M$ *là một A-môđun, N là một môđun con của* $M$ *và* $x$ *là một phần tử của* $M$. *Để* $x \in N$, *điều kiện cần và đủ là, với mọi* $m \in R$, *ảnh chính tắc của* $x$ *trong* $M$, *thuộc* $N$.
 
-Cho $\bar{x}$ là lớp của $x$ trong $M/N$; nói rằng $x \in N$ có nghĩa là ánh xạ A-tuyến tính $u : a \mapsto a\bar{x}$ từ $A$ vào $M/N$ là không. Bây giờ, $(M/N)_m$ được đồng nhất với $M_m/N_m$ (\$2, no. 4, Định lý 1) và $u_m : A_m \to M_m/N_m$ với ánh xạ $A \mapsto \lambda \bar{x}_m$, trong đó $\bar{x}_m$ là lớp mod. $N$, của ảnh chính tắc của $x$ trong $M$. Vì quan hệ $u = 0$ tương đương với $u_m = 0$ với mọi $m$ theo Định lý 1, điều này chứng minh hệ quả.
+Cho $\bar{x}$ là lớp của $x$ trong $M/N$; nói rằng $x \in N$ có nghĩa là ánh xạ A-tuyến tính $u : a \mapsto a\bar{x}$ từ $A$ vào $M/N$ là không. Bây giờ, $(M/N)_m$ được đồng nhất với $M_m/N_m$ (§ 2, no. 4, Định lý 1) và $u_m : A_m \to M_m/N_m$ với ánh xạ $A \mapsto \lambda \bar{x}_m$, trong đó $\bar{x}_m$ là lớp mod. $N$, của ảnh chính tắc của $x$ trong $M$. Vì quan hệ $u = 0$ tương đương với $u_m = 0$ với mọi $m$ theo Định lý 1, điều này chứng minh hệ quả.
 
 #### Hệ quả 2 {#ac-ii-s3-thm-1-cor-2 .statement}
 
@@ -300,13 +300,13 @@ Cho $\bar{x}$ là lớp của $x$ trong $M/N$; nói rằng $x \in N$ có nghĩa 
 
 (ii) Đặc biệt, cho b và c là hai phần tử của A. Để c là một bội của b, điều kiện cần và đủ là, với mọi $m \in \Omega$, ảnh chính tắc của c trong A là một bội của ảnh của b.
 
-Vì $bA_m = b_m$ (\S 2, no. 7, Hệ quả của Mệnh đề 18), (i) là một trường hợp đặc biệt của Hệ quả 1; (ii) suy ra từ (i) áp dụng cho iđêan $Ab$.
+Vì $bA_m = b_m$ (§ 2, no. 7, Hệ quả của Mệnh đề 18), (i) là một trường hợp đặc biệt của Hệ quả 1; (ii) suy ra từ (i) áp dụng cho iđêan $Ab$.
 
 #### Hệ quả 4 {#ac-ii-s3-thm-1-cor-4 .statement}
 
 Cho A là một miền nguyên, K là trường phân thức của nó và M là một A-môđun không xoắn sao cho M được đồng nhất một cách chính tắc với một môđun con-A của $K \otimes_A M$. Khi đó, với mọi $m \in \Omega$, $M_m$ được đồng nhất một cách chính tắc với một môđun con-A của $K \otimes_A M$ và $M = \bigcap_{m \in \Omega} M_m$.
 
-Vì M được đồng nhất với một môđun con của $K \otimes_A M$, M, được đồng nhất với một môđun con-&-module của $(K \otimes_A M)_m = K_m \otimes_A M$ (\S 2, no. 4, Định lý 1); vì $K_m = K$, ta thấy ngay rằng $M_m$ là không xoắn; hơn nữa, tính giao hoán của biểu đồ
+Vì M được đồng nhất với một môđun con của $K \otimes_A M$, M, được đồng nhất với một môđun con-&-module của $(K \otimes_A M)_m = K_m \otimes_A M$ (§ 2, no. 4, Định lý 1); vì $K_m = K$, ta thấy ngay rằng $M_m$ là không xoắn; hơn nữa, tính giao hoán của biểu đồ
 
 $$
 \begin{array}{ccc}
@@ -347,7 +347,7 @@ $$
 r = \operatorname{Hom}(1_E, v) : \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(E, F).
 $$
 
-Bây giờ, $(\operatorname{Hom}_A(E, F))_m$ (resp. $(\operatorname{Hom}_A(E, G))_m$) được đồng nhất một cách chính tắc với $\operatorname{Hom}_{A_m}(E_m, F_m)$ (resp. $\operatorname{Hom}_{A_m}(E_m, G_m)$) (\S 2, no. 7, Proposition 19 (i)), ảnh chính tắc của $u$ trong $(\operatorname{Hom}_A(E, F))_m$ được đồng nhất với $u_m$, $r_m$ được đồng nhất với $\operatorname{Hom}_{A_m}(1_{E_m}, v)$ và $P_m$ với ảnh của $r_m$. Mệnh đề sau đó suy ra từ Hệ quả 1 của Định lý 1 áp dụng cho $\operatorname{Hom}_A(E, F)$ và môđun con P của nó.
+Bây giờ, $(\operatorname{Hom}_A(E, F))_m$ (resp. $(\operatorname{Hom}_A(E, G))_m$) được đồng nhất một cách chính tắc với $\operatorname{Hom}_{A_m}(E_m, F_m)$ (resp. $\operatorname{Hom}_{A_m}(E_m, G_m)$) (§ 2, no. 7, Proposition 19 (i)), ảnh chính tắc của $u$ trong $(\operatorname{Hom}_A(E, F))_m$ được đồng nhất với $u_m$, $r_m$ được đồng nhất với $\operatorname{Hom}_{A_m}(1_{E_m}, v)$ và $P_m$ với ảnh của $r_m$. Mệnh đề sau đó suy ra từ Hệ quả 1 của Định lý 1 áp dụng cho $\operatorname{Hom}_A(E, F)$ và môđun con P của nó.
 
 #### Hệ quả 1 {#ac-ii-s3-prop-12-cor-1 .statement}
 

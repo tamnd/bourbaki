@@ -57,16 +57,16 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: 0ed829bdb9429c53a14581a0ac74380edb378faf3a99fb841ad0b702a0e36f2c
+content_sha256: 04515fb1fa953c06cc0b2f25528b8c99e5a79b5ad3a2d7ec3b4743f52081eec4
 ---
 
 ## § 4. INTEGRABLE FUNCTIONS AND SETS
 
 ### 1. Extension of the integral
 
-It follows from the definition of the space $\mathcal{L}_F^p$ that the subspace $\mathcal{K}_F$ of continuous functions with compact support is *dense* in $\mathcal{L}_F^p$ (\S 3, No. 4, Def. 2). Every continuous (for the topology of convergence in mean of order $p$) linear function, defined on $\mathcal{K}_F$ and taking its values in a *complete Hausdorff* topological vector space $G$, can therefore be *extended by continuity* in a unique manner, to a continuous linear function defined on $\mathcal{L}_F^p$ with values in $G$ (GT, II, \S 3, No. 6, Th. 2 and III, \S 3, No. 1, Prop. 3).
+It follows from the definition of the space $\mathcal{L}_F^p$ that the subspace $\mathcal{K}_F$ of continuous functions with compact support is *dense* in $\mathcal{L}_F^p$ (§ 3, No. 4, Def. 2). Every continuous (for the topology of convergence in mean of order $p$) linear function, defined on $\mathcal{K}_F$ and taking its values in a *complete Hausdorff* topological vector space $G$, can therefore be *extended by continuity* in a unique manner, to a continuous linear function defined on $\mathcal{L}_F^p$ with values in $G$ (GT, II, § 3, No. 6, Th. 2 and III, § 3, No. 1, Prop. 3).
 
-Now, for every continuous function $f$ with compact support, with values in the Banach space $F$, we have defined (in Ch. III, \S 3, No. 1) the *integral* $\mu(f) = \int f \, d\mu$ with respect to $\mu$, which is an element of $F$, and we have proved (Ch. III, \S 3, No. 2, Prop. 6) the inequality
+Now, for every continuous function $f$ with compact support, with values in the Banach space $F$, we have defined (in Ch. III, § 3, No. 1) the *integral* $\mu(f) = \int f \, d\mu$ with respect to $\mu$, which is an element of $F$, and we have proved (Ch. III, § 3, No. 2, Prop. 6) the inequality
 
 $$
 \left| \int f \, d\mu \right| \leqslant \int |f| \, d|\mu| = N_1(f).
@@ -86,7 +86,7 @@ $$
 \int f\, d\mu = \sum_{x \in X} \alpha(x)f(x).
 $$
 
-For, let $f \in \mathcal{F}_F^1$; we have $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (\S 1, No. 3, *Example*); for every $\varepsilon > 0$, there exists a finite subset $M$ of $X$ such that
+For, let $f \in \mathcal{F}_F^1$; we have $|\mu|^*(|f|) = \sum_{x \in X} |\alpha(x)| \cdot |f(x)| < +\infty$ (§ 1, No. 3, *Example*); for every $\varepsilon > 0$, there exists a finite subset $M$ of $X$ such that
 
 $$
 \sum_{x \in X - M} |\alpha(x)| \cdot |f(x)| \leq \varepsilon.
@@ -120,7 +120,7 @@ $$
 \int f\, d|\mu| = \int^* f\, d|\mu| = N_1(f) \geqslant 0.
 $$
 
-For, $\int f\, d|\mu|$ and $N_1(f)$ are continuous on $\mathcal{L}^1$ and are equal for every continuous function $f \geqslant 0$ with compact support; on the other hand, every function $f \geqslant 0$ in $\mathcal{L}^1$ is the limit (in the sense of convergence in mean) of a sequence of continuous functions $\geqslant 0$ with compact support (\S 3, No. 5, Prop. 11); whence the proposition.
+For, $\int f\, d|\mu|$ and $N_1(f)$ are continuous on $\mathcal{L}^1$ and are equal for every continuous function $f \geqslant 0$ with compact support; on the other hand, every function $f \geqslant 0$ in $\mathcal{L}^1$ is the limit (in the sense of convergence in mean) of a sequence of continuous functions $\geqslant 0$ with compact support (§ 3, No. 5, Prop. 11); whence the proposition.
 
 #### Corollary 1 {#int-iv-s4-prop-1-cor-1 .statement}
 
@@ -132,7 +132,7 @@ $$
 
 We shall make frequent use of Prop. 1 and its Cor. 1, on replacing $\int^* f\, d|\mu|$ or $N_1(f)$ by $\int f\, d|\mu|$ when dealing with an integrable function $\geqslant 0$. For example, for two integrable functions $f, g$ to be *equivalent*, it is necessary and sufficient that $\int |f - g|\, d|\mu| = 0$.
 
-We recall that, for a function $f$ to belong to $\mathcal{L}^p_F$, it is necessary and sufficient that the function $|f|^{p-1} \cdot f$ belong to $\mathcal{L}^1_F$ (\S 3, No. 8, Cor. 1 of Th. 7), that is, that it be integrable; this is the reason for the terminology 'p-th power integrable function'. Moreover:
+We recall that, for a function $f$ to belong to $\mathcal{L}^p_F$, it is necessary and sufficient that the function $|f|^{p-1} \cdot f$ belong to $\mathcal{L}^1_F$ (§ 3, No. 8, Cor. 1 of Th. 7), that is, that it be integrable; this is the reason for the terminology 'p-th power integrable function'. Moreover:
 
 #### Corollary 2 {#int-iv-s4-prop-1-cor-2 .statement}
 
@@ -142,7 +142,7 @@ $$
 N_p(f) = \left( \int |f|^p\, d|\mu| \right)^{1/p}.
 $$
 
-This follows at once from the fact that $|f|$ belongs to $\mathcal{L}^p$ (\S 3, No. 5, Prop. 11) and formula (2).
+This follows at once from the fact that $|f|$ belongs to $\mathcal{L}^p$ (§ 3, No. 5, Prop. 11) and formula (2).
 
 #### Proposition 2 {#int-iv-s4-prop-2 .statement}
 
@@ -162,7 +162,7 @@ $$
 \int u(f(x)) \, d\mu(x) = u \left( \int f(x) \, d\mu(x) \right).
 $$
 
-We already know that $u \circ f$ is integrable (\S 3, No. 5, Th. 4); the relation (6), being valid for every $f \in \mathcal{H}_F$, extends to every integrable function $f$ by the principle of extension of identities: for, $f \mapsto u \circ f$ is continuous for the topology of convergence in mean, as follows from the inequality $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
+We already know that $u \circ f$ is integrable (§ 3, No. 5, Th. 4); the relation (6), being valid for every $f \in \mathcal{H}_F$, extends to every integrable function $f$ by the principle of extension of identities: for, $f \mapsto u \circ f$ is continuous for the topology of convergence in mean, as follows from the inequality $N_1(u \circ f) \leq \|u\| \cdot N_1(f)$.
 
 #### Corollary 1 {#int-iv-s4-thm-1-cor-1 .statement}
 
@@ -172,7 +172,7 @@ $$
 \int \langle f(x), a' \rangle \, d\mu(x) = \left\langle \int f(x) \, d\mu(x), a' \right\rangle.
 $$
 
-We shall see in Ch. VI, \S 1, Exers. 7, 11 and 12 that there can exist functions $f$, with values in an infinite-dimensional Banach space $F$, such that $\langle f, a' \rangle$ is integrable for every continuous linear form $a'$ on $F$, without $f$ being integrable.
+We shall see in Ch. VI, § 1, Exers. 7, 11 and 12 that there can exist functions $f$, with values in an infinite-dimensional Banach space $F$, such that $\langle f, a' \rangle$ is integrable for every continuous linear form $a'$ on $F$, without $f$ being integrable.
 
 #### Corollary 2 {#int-iv-s4-thm-1-cor-2 .statement}
 
@@ -192,7 +192,7 @@ $$
 \int f_0 \, d\mu = \lim_{\mathcal{B}} \int f \, d\mu .
 $$
 
-For, $\mathcal{B}$ converges in mean to $f_0$ (\S 3, No. 3, Prop. 4).
+For, $\mathcal{B}$ converges in mean to $f_0$ (§ 3, No. 3, Prop. 4).
 
 #### Proposition 4 {#int-iv-s4-prop-4 .statement}
 
@@ -202,7 +202,7 @@ $$
 \int f \, d\mu = \lim_{n \to \infty} \int f_n \, d\mu .
 $$
 
-We limit ourselves to considering an increasing sequence. The sequence $g_n = f_n + f_1^-$ is increasing and consists of integrable functions $\geqslant 0$; since its upper envelope is $g = f + f_1^-$, the proposition follows from Th. 5 of \S 3, No. 6.
+We limit ourselves to considering an increasing sequence. The sequence $g_n = f_n + f_1^-$ is increasing and consists of integrable functions $\geqslant 0$; since its upper envelope is $g = f + f_1^-$, the proposition follows from Th. 5 of § 3, No. 6.
 
 #### Theorem 2 {#int-iv-s4-thm-2 .statement}
 
@@ -212,7 +212,7 @@ $$
 \int f \, d\mu = \lim_{\mathfrak{F}} \int f_\alpha \, d\mu .
 $$
 
-The theorem follows from Lebesgue’s theorem (\S 3, No. 7, Cor. of Th. 6) since, under the conditions of the statement, $f_\alpha$ converges in mean to $f$ with respect to $\mathfrak{F}$.
+The theorem follows from Lebesgue’s theorem (§ 3, No. 7, Cor. of Th. 6) since, under the conditions of the statement, $f_\alpha$ converges in mean to $f$ with respect to $\mathfrak{F}$.
 
 #### Corollary 1 {#int-iv-s4-thm-2-cor-1 .statement}
 
@@ -240,13 +240,13 @@ $$
 
 — For a numerical function $f \geqslant 0$ (finite or not), lower semi-continuous on X, to be integrable, it is necessary and sufficient that $\int^* f d|\mu| < +\infty$.
 
-It all comes down to proving that the condition is sufficient. The definition of $|\mu|^*(f)$ (\S 1, No. 1, Def. 1) proves that, for every $\varepsilon > 0$, there exists a continuous function $g \geqslant 0$, with compact support, such that $g \leqslant f$ and $|\mu|^*(f) \leqslant |\mu|(g) + \varepsilon$. But $f - g$ is lower semi-continuous and $\geqslant 0$, therefore (\S 1, No. 1, Th. 2)
+It all comes down to proving that the condition is sufficient. The definition of $|\mu|^*(f)$ (§ 1, No. 1, Def. 1) proves that, for every $\varepsilon > 0$, there exists a continuous function $g \geqslant 0$, with compact support, such that $g \leqslant f$ and $|\mu|^*(f) \leqslant |\mu|(g) + \varepsilon$. But $f - g$ is lower semi-continuous and $\geqslant 0$, therefore (§ 1, No. 1, Th. 2)
 
 $$
 |\mu|^*(f) = |\mu|(g) + |\mu|^*(f - g),
 $$
 
-in other words $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leqslant \varepsilon$, which proves that $f$ is integrable (\S 3, No. 4, Prop. 7).
+in other words $N_1(f - g) = |\mu|^*(f - g) = |\mu|^*(f) - |\mu|(g) \leqslant \varepsilon$, which proves that $f$ is integrable (§ 3, No. 4, Prop. 7).
 
 #### Corollary 1 {#int-iv-s4-prop-5-cor-1 .statement}
 
@@ -270,7 +270,7 @@ $$
 
 and $\int g \, d|\mu| = \sup_{f \in \mathbf{H}} \int f \, d|\mu|$ (resp. $\int g \, d|\mu| = \inf_{f \in \mathbf{H}} \int f \, d|\mu|$).
 
-We may limit ourselves to the case of lower semi-continuous functions; the functions $f^+$ (resp. $f^-$), as $f$ runs over $\mathbf{H}$, then form a directed set for $\leqslant$ (resp. $\geqslant$) of lower (resp. upper) semi-continuous functions $\geqslant 0$; the upper (resp. lower) envelope of the $f^+$ (resp. $f^-$), for $f \in \mathbf{H}$, is equal to $g^+$ (resp. $g^-$). On the other hand, one can replace $\mathbf{H}$ by one of its sections (which is cofinal to it), consisting of the $f \in \mathbf{H}$ that are $\geqslant f_0$, for some function $f_0 \in \mathbf{H}$; then $\int f^+ \, d|\mu| \leqslant \int f \, d|\mu| + \int f_0^- \, d|\mu|$; we thus see that we are reduced to proving the two assertions of the corollary when $\mathbf{H}$ consists of positive functions. If $\mathbf{H}$ is directed for $\leqslant$ and consists of lower semi-continuous functions $\geqslant 0$, then we know (\S 1, No. 1, Th. 1) that
+We may limit ourselves to the case of lower semi-continuous functions; the functions $f^+$ (resp. $f^-$), as $f$ runs over $\mathbf{H}$, then form a directed set for $\leqslant$ (resp. $\geqslant$) of lower (resp. upper) semi-continuous functions $\geqslant 0$; the upper (resp. lower) envelope of the $f^+$ (resp. $f^-$), for $f \in \mathbf{H}$, is equal to $g^+$ (resp. $g^-$). On the other hand, one can replace $\mathbf{H}$ by one of its sections (which is cofinal to it), consisting of the $f \in \mathbf{H}$ that are $\geqslant f_0$, for some function $f_0 \in \mathbf{H}$; then $\int f^+ \, d|\mu| \leqslant \int f \, d|\mu| + \int f_0^- \, d|\mu|$; we thus see that we are reduced to proving the two assertions of the corollary when $\mathbf{H}$ consists of positive functions. If $\mathbf{H}$ is directed for $\leqslant$ and consists of lower semi-continuous functions $\geqslant 0$, then we know (§ 1, No. 1, Th. 1) that
 
 $$
 |\mu|^*(g) = \sup_{f \in \mathbf{H}} |\mu|^*(f) = \sup_{f \in \mathbf{H}} \int f \, d|\mu| < +\infty,
@@ -365,7 +365,7 @@ $$
 \mu \left( \bigcup_{i=1}^n A_i \right) = \sum_{i=1}^n \mu(A_i).
 $$
 
-For, if $A = \bigcup_{i=1}^n A_i$ then $\varphi_A = \sup \varphi_{A_i}$, therefore (\S3, No. 5, Cor. of Prop. 12) if the $A_i$ are integrable then so is $A$; the relation (13) is a special case of the analogous relation for outer measures (\S 1, No. 4, Prop. 18), on taking account of the relation $|\mu|(A) = |\mu|^*(A)$; finally, if the $A_i$ are pairwise disjoint, then $\varphi_A = \sum_{i=1}^n \varphi_{A_i}$, whence (14).
+For, if $A = \bigcup_{i=1}^n A_i$ then $\varphi_A = \sup \varphi_{A_i}$, therefore (§ 3, No. 5, Cor. of Prop. 12) if the $A_i$ are integrable then so is $A$; the relation (13) is a special case of the analogous relation for outer measures (§ 1, No. 4, Prop. 18), on taking account of the relation $|\mu|(A) = |\mu|^*(A)$; finally, if the $A_i$ are pairwise disjoint, then $\varphi_A = \sum_{i=1}^n \varphi_{A_i}$, whence (14).
 
 #### Proposition 7 {#int-iv-s4-prop-7 .statement}
 
@@ -455,7 +455,7 @@ For, one knows that $|\mu|^*(A) = \sup_{G \in \mathcal{G}} |\mu|(G)$ (\§1, No. 
 $$
 \mu(B) = \lim_{\mathfrak{F}} \mu(H) \quad \text{and} \quad |\mu|(B) = \inf_{H \in \mathfrak{F}} |\mu|(H).
 $$
-For, let $H_0$ be a set in $\mathfrak{F}$; since $H_0$ is integrable, it is contained in an integrable open set $U$ (\S 1, No. 4, Prop. 19); the open sets $U \cap \mathbf{C}H$ form a set directed for the relation $\subset$, are contained in $U$, and have union $U \cap \mathbf{C}B$; we are thus reduced to Prop. 11.
+For, let $H_0$ be a set in $\mathfrak{F}$; since $H_0$ is integrable, it is contained in an integrable open set $U$ (§ 1, No. 4, Prop. 19); the open sets $U \cap \mathbf{C}H$ form a set directed for the relation $\subset$, are contained in $U$, and have union $U \cap \mathbf{C}B$; we are thus reduced to Prop. 11.
 
 #### Theorem 4 {#int-iv-s4-thm-4 .statement}
 
@@ -464,9 +464,9 @@ $$
 |\mu|(G - K) = |\mu|(G) - |\mu|(K) \leq \varepsilon.
 $$
 
-a) The condition is *sufficient*, because it means that $\varphi_K \leq \varphi_A \leq \varphi_G$ and $\int (\varphi_G - \varphi_K) d|\mu| \leq \varepsilon$; since $\varphi_G$ and $\varphi_K$ are integrable, so is $\varphi_A$ (\S 3, No. 4, Prop. 8).
+a) The condition is *sufficient*, because it means that $\varphi_K \leq \varphi_A \leq \varphi_G$ and $\int (\varphi_G - \varphi_K) d|\mu| \leq \varepsilon$; since $\varphi_G$ and $\varphi_K$ are integrable, so is $\varphi_A$ (§ 3, No. 4, Prop. 8).
 
-b) The condition is *necessary*. If $A$ is integrable, there exists an open set $G \supset A$ such that $|\mu|^*(G)$ is arbitrarily close to $|\mu|^*(A) = |\mu|(A)$ (\S 1, No. 4, Prop. 19); thus, it all comes down to proving that for every $\varepsilon > 0$, there exists a compact set $K \subset A$ such that $|\mu|(A) - |\mu|(K) \leq \varepsilon$. Since $\varphi_A$ is integrable, there exists a function $f \geq 0$, upper semi-continuous and with compact support $S$, such that $f \leq \varphi_A$ and $\int (\varphi_A - f) d|\mu| \leq \varepsilon/2$ (No. 4, Th. 3). Let $\delta > 0$ be an arbitrary number and let $K$ be the set of points $x \in X$ such that $f(x) \geq \delta$; $K$ is closed and is contained in $S$, hence is *compact*, and since $f \leq \varphi_A$ we have $K \subset A$. The set $B = A - K$ is integrable, and $f \leq \varphi_K + \delta \varphi_B$, whence
+b) The condition is *necessary*. If $A$ is integrable, there exists an open set $G \supset A$ such that $|\mu|^*(G)$ is arbitrarily close to $|\mu|^*(A) = |\mu|(A)$ (§ 1, No. 4, Prop. 19); thus, it all comes down to proving that for every $\varepsilon > 0$, there exists a compact set $K \subset A$ such that $|\mu|(A) - |\mu|(K) \leq \varepsilon$. Since $\varphi_A$ is integrable, there exists a function $f \geq 0$, upper semi-continuous and with compact support $S$, such that $f \leq \varphi_A$ and $\int (\varphi_A - f) d|\mu| \leq \varepsilon/2$ (No. 4, Th. 3). Let $\delta > 0$ be an arbitrary number and let $K$ be the set of points $x \in X$ such that $f(x) \geq \delta$; $K$ is closed and is contained in $S$, hence is *compact*, and since $f \leq \varphi_A$ we have $K \subset A$. The set $B = A - K$ is integrable, and $f \leq \varphi_K + \delta \varphi_B$, whence
 $$
 \int f d|\mu| \leq |\mu|(K) + \delta \cdot |\mu|(B) \leq |\mu|(K) + \delta \cdot |\mu|(A),
 $$
@@ -520,7 +520,7 @@ $$
 \| \mu \| = | \mu |(X) = \int d|\mu|.
 $$
 
-For, we have seen that $|\mu|^*(X) = \| \mu \|$ (\S1, No. 2); the proposition therefore follows from Prop. 10 of No. 6.
+For, we have seen that $|\mu|^*(X) = \| \mu \|$ (§ 1, No. 2); the proposition therefore follows from Prop. 10 of No. 6.
 
 For every bounded measure $\mu$, we again say that $\mu(X)$ is the total mass of $\mu$.
 
@@ -707,7 +707,7 @@ Since $f$ is uniformly continuous on $K$, one can cover $K$ by a finite number o
 
 *Let $\mu$ be a measure on $X$; the space $\mathcal{E}_F(\Phi)$ is dense in each of the spaces $\mathcal{L}_F^p$ ($1 \leq p < +\infty$).*
 
-For, it follows from Prop. 19 and the criterion for convergence in mean for uniform limits of functions with compact support (\S 3, No. 3, Prop. 4) that $\mathcal{E}_F(\Phi)$ is dense, for the topology of convergence in mean of order $p$, in the closure of the space $\mathcal{K}_F$ of continuous functions with compact support, whence the corollary.
+For, it follows from Prop. 19 and the criterion for convergence in mean for uniform limits of functions with compact support (§ 3, No. 3, Prop. 4) that $\mathcal{E}_F(\Phi)$ is dense, for the topology of convergence in mean of order $p$, in the closure of the space $\mathcal{K}_F$ of continuous functions with compact support, whence the corollary.
 
 #### Corollary 2 {#int-iv-s4-prop-19-cor-2 .statement}
 

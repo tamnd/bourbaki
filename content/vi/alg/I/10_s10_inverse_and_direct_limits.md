@@ -29,9 +29,9 @@ subsections:
       pdf_page: 147
 statements: 5
 exercises: 2
-content_sha256: c5e2d48e7c1389dd28c4867514699fb69126af1304b32230d06791520a5b2ed0
+content_sha256: fceb94368148e02da7bb25f016ca0e2398b5490004bb6d3d277ec575c249a24b
 translated_from: content/en/alg/I/10_s10_inverse_and_direct_limits.md
-source_content_sha256: eda23b210e59619e1734616da70112e44f5cd51fee3246e868678c78f8727ff2
+source_content_sha256: 4d3540b7ec97407be71cb0f6cb3acc3e307d1f899278290311099ea565ce0b4a
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-37f286f0
 glossary_version: 34
@@ -166,7 +166,7 @@ u(e) = u(f_\alpha(e_\alpha)) = u_\alpha(e_\alpha) = e'
 $$
 vì $u_\alpha$ có đơn vị. Suy ra $u$ có đơn vị.
 
-Tương tự như khái niệm hệ trực tiếp của các magma, ta có thể xây dựng khái niệm hệ trực tiếp của các nửa nhóm hoặc nhóm. Mệnh đề 1 chỉ ra rằng magma E là giới hạn của một hệ trực tiếp của các nửa nhóm $(E_\alpha, f_{\beta\alpha})_{\alpha, \beta \in I}$ là một nửa nhóm. Ta chứng minh rằng E là một nhóm nếu các $E_\alpha$ là các nhóm: cho $x \in E, \alpha \in I$ và $x_\alpha \in E_\alpha$ sao cho $x = f_\alpha(x_\alpha)$; phần tử $y = f_\alpha(x_\alpha^{-1})$ của E là phần tử nghịch đảo của x (\S 2, no. 3). Tính chất phổ quát của Mệnh đề 2 được chuyển ngay lập tức sang trường hợp của một hệ trực tiếp của các nửa nhóm hoặc nhóm.
+Tương tự như khái niệm hệ trực tiếp của các magma, ta có thể xây dựng khái niệm hệ trực tiếp của các nửa nhóm hoặc nhóm. Mệnh đề 1 chỉ ra rằng magma E là giới hạn của một hệ trực tiếp của các nửa nhóm $(E_\alpha, f_{\beta\alpha})_{\alpha, \beta \in I}$ là một nửa nhóm. Ta chứng minh rằng E là một nhóm nếu các $E_\alpha$ là các nhóm: cho $x \in E, \alpha \in I$ và $x_\alpha \in E_\alpha$ sao cho $x = f_\alpha(x_\alpha)$; phần tử $y = f_\alpha(x_\alpha^{-1})$ của E là phần tử nghịch đảo của x (§ 2, no. 3). Tính chất phổ quát của Mệnh đề 2 được chuyển ngay lập tức sang trường hợp của một hệ trực tiếp của các nửa nhóm hoặc nhóm.
 
 Người đọc được để lại việc định nghĩa một hệ trực tiếp các vành. Cho $(A_\alpha, f_{\beta\alpha})$ là một hệ trực tiếp như vậy; đặt $A = \lim \overrightarrow{A_\alpha}$ và $f_\alpha : A_\alpha \to A$ là các đồng cấu chính tắc. Trên A tồn tại duy nhất một phép cộng và phép nhân (Mệnh đề 2) được đặc trưng bởi $x + y = f_\alpha(x_\alpha + y_\alpha), xy = f_\alpha(x_\alpha y_\alpha)$ với $\alpha \in I, x_\alpha, y_\alpha$ thuộc $A_\alpha$ và $x = f_\alpha(x_\alpha), y = f_\alpha(y_\alpha)$. Đối với phép cộng, A là một nhóm giao hoán và phép nhân là kết hợp và có đơn vị. Cuối cùng, với $x, y, z$ thuộc A, chọn $\alpha$ trong I và $x_\alpha, y_\alpha$ và $z_\alpha$ trong $A_\alpha$ sao cho
 $$

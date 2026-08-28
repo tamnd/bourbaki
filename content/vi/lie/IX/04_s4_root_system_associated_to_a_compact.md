@@ -53,7 +53,7 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: d5cc6475ede83616f716553659f61b73a847f490c47ce1fa6fb1b39f9f23636f
+content_sha256: bd4bd4714daf2f27be94b6fc189301f123d5a4c8ef1e6ac4e4232ecfa1434b9f
 translated_from: content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md
 source_content_sha256: e5b8a3582b57fb78f4dd12b6e9730ed0ae0bc70a11963071c72fa1b2877b4759
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini
@@ -423,7 +423,7 @@ $$
 K_\alpha=2\pi iH_{\delta(\alpha)},
 \tag{13}
 $$
-trong đó $H_{\delta(\alpha)}$ là *nghiệm nghịch đảo liên kết với nghiệm* $\delta(\alpha)$ của $(\mathfrak g_{\mathbf C},\mathfrak t_{\mathbf C})$ (Chap. VIII, §2, no. 2). Nói cách khác, khi $\Gamma(\mathbf T)\otimes\mathbf R$ được đồng nhất với đối ngẫu của $X(T)\otimes \mathbf{R}$ qua cặp $\langle ,\rangle $, $K_{\alpha}$ được đồng nhất với nghiệm nghịch đảo $\alpha^{\vee}\in (X(T)\otimes \mathbf{R})^*$.
+trong đó $H_{\delta(\alpha)}$ là *nghiệm nghịch đảo liên kết với nghiệm* $\delta(\alpha)$ của $(\mathfrak g_{\mathbf C},\mathfrak t_{\mathbf C})$ (Chap. VIII, §2, no. 2). Nói cách khác, khi $\Gamma(\mathbf T)\otimes\mathbf R$ được đồng nhất với đối ngẫu của $X(T)\otimes \mathbf{R}$ qua cặp $\langle ,\rangle$, $K_{\alpha}$ được đồng nhất với nghiệm nghịch đảo $\alpha^{\vee}\in (X(T)\otimes \mathbf{R})^*$.
 
 #### Nhận xét {#lie-ix-s4-n5-rem-1 .statement tag=01C5}
 

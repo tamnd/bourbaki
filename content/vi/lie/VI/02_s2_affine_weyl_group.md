@@ -32,9 +32,9 @@ subsections:
       pdf_page: 204
 statements: 18
 exercises: 5
-content_sha256: 59b96407b3f2a3d2d6defae295aace5423245ed8b56346231d74f912b28b28ed
+content_sha256: 66c7e7219debfd2933a45335232cab048eda797f38be1c0d3ae41d1811d40091
 translated_from: content/en/lie/VI/02_s2_affine_weyl_group.md
-source_content_sha256: cf5a4823baa864797ebfb4b0aaca563e60bd4332fe31fdd62c0885161384e3ed
+source_content_sha256: 1978cc974387bf8b9e781b404ac2914ce724bcabf4fb37f1e7228f474742ca5e
 translation_model: gpt-5.4
 translation_run: translate-vi-78d71021
 glossary_version: 34
@@ -44,7 +44,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 2. NHÓM WEYL AFIN
 
-Trong đoạn này (trừ ở no. 5), ta ký hiệu bởi $R$ một hệ căn rút gọn trong một không gian vectơ thực $V$. Ta ký hiệu bởi $W$ nhóm Weyl của $R$; ta đồng nhất nó với một nhóm các tự đẳng cấu của đối ngẫu $V^*$ của $V$ (\S 1, no. 1), và trang bị cho $V^*$ một tích vô hướng bất biến dưới $W$. Gọi $E$ là không gian afin nền bên dưới $V^*$; với $v \in V^*$, ta ký hiệu bởi $t(v)$ phép tịnh tiến của $E$ theo vectơ $v$. Sau hết, ta ký hiệu bởi $P$ (resp. $Q$) nhóm các phép tịnh tiến $t(v)$ mà vectơ $v$ thuộc nhóm các trọng số $P(R^{\sim})$ (resp. thuộc nhóm các trọng số căn $Q(R^{\sim})$) của hệ nghiệm nghịch đảo $R^{\sim}$ của $R$.
+Trong đoạn này (trừ ở no. 5), ta ký hiệu bởi $R$ một hệ căn rút gọn trong một không gian vectơ thực $V$. Ta ký hiệu bởi $W$ nhóm Weyl của $R$; ta đồng nhất nó với một nhóm các tự đẳng cấu của đối ngẫu $V^*$ của $V$ (§ 1, no. 1), và trang bị cho $V^*$ một tích vô hướng bất biến dưới $W$. Gọi $E$ là không gian afin nền bên dưới $V^*$; với $v \in V^*$, ta ký hiệu bởi $t(v)$ phép tịnh tiến của $E$ theo vectơ $v$. Sau hết, ta ký hiệu bởi $P$ (resp. $Q$) nhóm các phép tịnh tiến $t(v)$ mà vectơ $v$ thuộc nhóm các trọng số $P(R^{\sim})$ (resp. thuộc nhóm các trọng số căn $Q(R^{\sim})$) của hệ nghiệm nghịch đảo $R^{\sim}$ của $R$.
 
 ### 1. NHÓM WEYL AFIN
 
@@ -80,7 +80,7 @@ Công thức (1) cho thấy rằng $s_{\alpha,k}$ không phụ thuộc vào lự
 
 Vì W được sinh bởi các phép đối xứng $s_\alpha$, nó được chứa trong $W_a$. Mặt khác, $t(\alpha^\sim) = s_{\alpha,1} \circ s_\alpha$ nếu $\alpha \in \mathbf{R}$, điều này cho thấy rằng $Q \subseteq W_a$.
 
-Vì W làm cho $Q(\mathbf{R}^\sim)$ ổn định (\S 1, no. 9), nên nhóm G các phép biến đổi afin sinh bởi W và Q là tích nửa trực tiếp của W bởi Q. Theo trên, $G \subseteq W_a$ và $s_{\alpha,k} \in G$ với mọi $\alpha \in \mathbf{R}$ và $k \in \mathbf{Z}$ theo (1). Suy ra $W_a = G$.
+Vì W làm cho $Q(\mathbf{R}^\sim)$ ổn định (§ 1, no. 9), nên nhóm G các phép biến đổi afin sinh bởi W và Q là tích nửa trực tiếp của W bởi Q. Theo trên, $G \subseteq W_a$ và $s_{\alpha,k} \in G$ với mọi $\alpha \in \mathbf{R}$ và $k \in \mathbf{Z}$ theo (1). Suy ra $W_a = G$.
 
 #### Mệnh đề 2 {#lie-vi-s2-prop-2 .statement}
 
@@ -97,7 +97,7 @@ $$
 
 trong đó $n(\alpha,\beta) = \langle \beta^\sim, \alpha \rangle$ là một số nguyên, do đó có mệnh đề thứ hai.
 
-Như vậy ta có thể áp dụng các kết quả của Chương V, \S 3 cho $W_a$ tác động trên E. Để tránh mọi nhầm lẫn với các buồng của nhóm Weyl W trong $V^*$, ta sẽ gọi các buồng được xác định bởi hệ các siêu phẳng $L_{\alpha,k}$ (với $\alpha \in \mathbf{R}$ và $k \in \mathbf{Z}$) trong E là *các ngách*. *Nhóm $W_a$ do đó tác động đơn bắc cầu trên tập hợp các ngách và bao đóng của một ngách là một miền cơ bản đối với $W_a$ tác động trên E* (Chương V, \S 3, no. 2, Định lý 1 và no. 3, Định lý 2). Hiển nhiên nhóm Weyl W được đồng nhất với ảnh chính tắc $U(W_a)$ của $W_a$ trong nhóm trực giao của V* (xem Chương V, § 3, no. 6). Suy ra rằng W_a là cốt yếu (Chương V, § 3, no. 7) và W_a là bất khả quy khi và chỉ khi hệ nghiệm R là như vậy (§ 1, no. 2, Hệ quả của Mệnh đề 5). Nếu R là bất khả quy, mọi ngách đều là một đơn hình mở (Chương V, § 3, no. 9, Mệnh đề 8). Trong trường hợp tổng quát, phân tích tích chính tắc của không gian afin E (Chương V, § 3, no. 8) tương ứng với phân tích của R thành các thành phần bất khả quy. Đặc biệt, các ngách là những tích của các đơn hình mở.
+Như vậy ta có thể áp dụng các kết quả của Chương V, § 3 cho $W_a$ tác động trên E. Để tránh mọi nhầm lẫn với các buồng của nhóm Weyl W trong $V^*$, ta sẽ gọi các buồng được xác định bởi hệ các siêu phẳng $L_{\alpha,k}$ (với $\alpha \in \mathbf{R}$ và $k \in \mathbf{Z}$) trong E là *các ngách*. *Nhóm $W_a$ do đó tác động đơn bắc cầu trên tập hợp các ngách và bao đóng của một ngách là một miền cơ bản đối với $W_a$ tác động trên E* (Chương V, § 3, no. 2, Định lý 1 và no. 3, Định lý 2). Hiển nhiên nhóm Weyl W được đồng nhất với ảnh chính tắc $U(W_a)$ của $W_a$ trong nhóm trực giao của V* (xem Chương V, § 3, no. 6). Suy ra rằng W_a là cốt yếu (Chương V, § 3, no. 7) và W_a là bất khả quy khi và chỉ khi hệ nghiệm R là như vậy (§ 1, no. 2, Hệ quả của Mệnh đề 5). Nếu R là bất khả quy, mọi ngách đều là một đơn hình mở (Chương V, § 3, no. 9, Mệnh đề 8). Trong trường hợp tổng quát, phân tích tích chính tắc của không gian afin E (Chương V, § 3, no. 8) tương ứng với phân tích của R thành các thành phần bất khả quy. Đặc biệt, các ngách là những tích của các đơn hình mở.
 
 Cũng chú ý rằng Hệ quả của Định lý 1 của Chương V, § 3, no. 2 cho thấy rằng các s_{\alpha,k} là những phép đối xứng duy nhất trong W_a.
 
@@ -107,7 +107,7 @@ Cũng chú ý rằng Hệ quả của Định lý 1 của Chương V, § 3, no. 
 
 Các điểm đặc biệt (Chương V, § 3, no. 10, Định nghĩa 1) của W_a là các trọng số của R'.
 
-Cho x_0 \in E và cho \alpha \in R. Siêu phẳng L song song với Ker \alpha và đi qua x_0 có phương trình \langle \alpha, x \rangle = \langle \alpha, x_0 \rangle. Để bằng một siêu phẳng nào đó L_{\beta,k}, một mặt cần rằng \alpha và \beta tỉ lệ với nhau, và do đó, vì R là rút gọn, rằng \beta = \pm \alpha, và mặt khác cần rằng \langle \alpha, x_0 \rangle là một số nguyên. Ngay lập tức suy ra rằng x_0 là một điểm đặc biệt của W_a khi và chỉ khi \langle \alpha, x_0 \rangle \in \mathbf{Z} với mọi \alpha \in R, nói cách khác, khi và chỉ khi x_0 \in P(R') (\S 1, no. 9).
+Cho x_0 \in E và cho \alpha \in R. Siêu phẳng L song song với Ker \alpha và đi qua x_0 có phương trình \langle \alpha, x \rangle = \langle \alpha, x_0 \rangle. Để bằng một siêu phẳng nào đó L_{\beta,k}, một mặt cần rằng \alpha và \beta tỉ lệ với nhau, và do đó, vì R là rút gọn, rằng \beta = \pm \alpha, và mặt khác cần rằng \langle \alpha, x_0 \rangle là một số nguyên. Ngay lập tức suy ra rằng x_0 là một điểm đặc biệt của W_a khi và chỉ khi \langle \alpha, x_0 \rangle \in \mathbf{Z} với mọi \alpha \in R, nói cách khác, khi và chỉ khi x_0 \in P(R') (§ 1, no. 9).
 
 #### Hệ quả {#lie-vi-s2-n2-cor-1 .statement}
 
@@ -126,13 +126,13 @@ Cho C' là một buồng của R'.
 
 Điều này suy ra từ Mệnh đề 11 của Chương V, § 3, no. 10.
 
-Bây giờ giả sử rằng R là bất khả quy. Cho (\alpha_i)_{i \in I} là một cơ sở của R (\S 1, no. 5, Định nghĩa 2), và cho (\overline{\omega}_i)_{i \in I} là cơ sở đối ngẫu. Các \overline{\omega}_i là các trọng số cơ bản của R' đối với buồng D' của R' tương ứng với cơ sở (\alpha_i). Đặt
+Bây giờ giả sử rằng R là bất khả quy. Cho (\alpha_i)_{i \in I} là một cơ sở của R (§ 1, no. 5, Định nghĩa 2), và cho (\overline{\omega}_i)_{i \in I} là cơ sở đối ngẫu. Các \overline{\omega}_i là các trọng số cơ bản của R' đối với buồng D' của R' tương ứng với cơ sở (\alpha_i). Đặt
 
 $$
 \tilde{\alpha} = \sum_{i \in I} n_i \alpha_i
 $$
 
-là nghiệm cao nhất của R (\S 1, no. 8), và gọi J là tập hợp các i \in I sao cho n_i = 1.
+là nghiệm cao nhất của R (§ 1, no. 8), và gọi J là tập hợp các i \in I sao cho n_i = 1.
 
 #### Mệnh đề 5 {#lie-vi-s2-prop-5 .statement}
 
@@ -142,9 +142,9 @@ Cho C là ngách được chứa trong C' và chứa 0 trong bao đóng của n�
 
 (ii) Tập hợp $\overline{C} \cap P(R^-)$ gồm 0 và các $\overline{\omega}_i$ với $i \in J$.
 
-Gọi $D$ là tập hợp các $x \in E$ sao cho $\langle \tilde{\alpha}, x \rangle < 1$ và đặt $C_1 = C' \cap D$. Vì $0 \in \overline{C}$, ta có $C \subseteq D$ và do đó $C \subseteq C_1$. Chúng ta sẽ chỉ ra rằng, với mọi $\alpha \in R$ và mọi $k \in \mathbf{Z}$, các tập hợp $C$ và $C_1$ nằm cùng một phía đối với siêu phẳng $L_{\alpha,k}$. Điều này sẽ chứng minh rằng $C_1 \subseteq C$ và do đó thiết lập mệnh đề (i). Nếu $k = 0$, toàn bộ buồng $C'$ nằm về một phía của $L_{\alpha,0}$, điều này thiết lập mệnh đề của chúng ta trong trường hợp này. Nếu $k \neq 0$, bằng cách thay thế $\alpha$ bởi $-\alpha$, ta có thể giả sử rằng $k > 0$. Khi đó $\langle \alpha, x \rangle < k$ trên $C$, vì $0 \in \overline{C}$. Mặt khác, $\tilde{\alpha} - \alpha$ là dương trên $C'$ (\S 1, no. 8, Mệnh đề 25). Vì thế, với $y \in C_1$, ta có $\langle \alpha, y \rangle \leq \langle \tilde{\alpha}, y \rangle < 1 \leq k$. Do đó, $C$ và $C_1$ nằm cùng một phía đối với $L_{\alpha,k}$.
+Gọi $D$ là tập hợp các $x \in E$ sao cho $\langle \tilde{\alpha}, x \rangle < 1$ và đặt $C_1 = C' \cap D$. Vì $0 \in \overline{C}$, ta có $C \subseteq D$ và do đó $C \subseteq C_1$. Chúng ta sẽ chỉ ra rằng, với mọi $\alpha \in R$ và mọi $k \in \mathbf{Z}$, các tập hợp $C$ và $C_1$ nằm cùng một phía đối với siêu phẳng $L_{\alpha,k}$. Điều này sẽ chứng minh rằng $C_1 \subseteq C$ và do đó thiết lập mệnh đề (i). Nếu $k = 0$, toàn bộ buồng $C'$ nằm về một phía của $L_{\alpha,0}$, điều này thiết lập mệnh đề của chúng ta trong trường hợp này. Nếu $k \neq 0$, bằng cách thay thế $\alpha$ bởi $-\alpha$, ta có thể giả sử rằng $k > 0$. Khi đó $\langle \alpha, x \rangle < k$ trên $C$, vì $0 \in \overline{C}$. Mặt khác, $\tilde{\alpha} - \alpha$ là dương trên $C'$ (§ 1, no. 8, Mệnh đề 25). Vì thế, với $y \in C_1$, ta có $\langle \alpha, y \rangle \leq \langle \tilde{\alpha}, y \rangle < 1 \leq k$. Do đó, $C$ và $C_1$ nằm cùng một phía đối với $L_{\alpha,k}$.
 
-Bây giờ, cho $\overline{\omega} \in P(R^-)$. Khi đó $\overline{\omega} = \sum_i p_i \overline{\omega}_i$, với $p_i \in \mathbf{Z}$ (\S 1, no. 10), và $\overline{\omega} \in \overline{C'}$ khi và chỉ khi các số nguyên $p_i$ là dương. Nếu $\overline{\omega} \in \overline{C'}$, thì $\overline{\omega} \in \overline{C}$ khi và chỉ khi $\langle \tilde{\alpha}, \overline{\omega} \rangle = \sum_i n_i p_i$ là $\leq 1$, do đó được (ii).
+Bây giờ, cho $\overline{\omega} \in P(R^-)$. Khi đó $\overline{\omega} = \sum_i p_i \overline{\omega}_i$, với $p_i \in \mathbf{Z}$ (§ 1, no. 10), và $\overline{\omega} \in \overline{C'}$ khi và chỉ khi các số nguyên $p_i$ là dương. Nếu $\overline{\omega} \in \overline{C'}$, thì $\overline{\omega} \in \overline{C}$ khi và chỉ khi $\langle \tilde{\alpha}, \overline{\omega} \rangle = \sum_i n_i p_i$ là $\leq 1$, do đó được (ii).
 
 #### Hệ quả {#lie-vi-s2-n2-cor-2 .statement}
 
@@ -162,7 +162,7 @@ Bây giờ, nhóm các tự đẳng cấu của $E$ là tích nửa trực tiế
 $$
 \langle {}^t u^{-1}(\alpha), x \rangle = k + \langle \alpha, v \rangle.
 $$
-Do đó, $g \in G$ khi và chỉ khi, một mặt ${}^t u$ hoán vị các căn, nói cách khác thuộc $A(R)$, và mặt khác $\langle \alpha, v \rangle \in \mathbf{Z}$ với mọi $\alpha \in R$, tức là $v \in P(R^-)$. Nói cách khác, *nhóm* $G$ *là tích nửa trực tiếp của* $A(R)$ *bởi* $P$. Vì $Q \subseteq P$ và $W \subseteq A(R)$, *nhóm thương* $G/W_a$ *là tích nửa trực tiếp của* $A(R)/W$ *bởi* $P(R^-)/Q(R^-)$; người ta kiểm tra ngay lập tức rằng tác động tương ứng của $A(R)/W$ trên $P(R^-)/Q(R^-)$ là tác động chính tắc (\S 1, no. 9).
+Do đó, $g \in G$ khi và chỉ khi, một mặt ${}^t u$ hoán vị các căn, nói cách khác thuộc $A(R)$, và mặt khác $\langle \alpha, v \rangle \in \mathbf{Z}$ với mọi $\alpha \in R$, tức là $v \in P(R^-)$. Nói cách khác, *nhóm* $G$ *là tích nửa trực tiếp của* $A(R)$ *bởi* $P$. Vì $Q \subseteq P$ và $W \subseteq A(R)$, *nhóm thương* $G/W_a$ *là tích nửa trực tiếp của* $A(R)/W$ *bởi* $P(R^-)/Q(R^-)$; người ta kiểm tra ngay lập tức rằng tác động tương ứng của $A(R)/W$ trên $P(R^-)/Q(R^-)$ là tác động chính tắc (§ 1, no. 9).
 
 Ta ký hiệu bởi $W'_a$ nhóm con của G được tạo thành bởi tích nửa trực tiếp của W bởi P. Đây là một nhóm con chuẩn tắc của G, và $G/W'_a$ đẳng cấu chính tắc với $A(R)/W$; hơn nữa, ánh xạ chính tắc từ $P(R^-)$ đến $W'_a/W_a$ cho, khi chuyển qua thương, một đẳng cấu từ $P(R^-)/Q(R^-)$ đến $W'_a/W_a$.
 
@@ -216,7 +216,7 @@ Cho $(s_\lambda)_{\lambda \in \Lambda}$ là một họ các đại diện của 
 
 #### Mệnh đề 7 {#lie-vi-s2-prop-7 .statement}
 
-Giả sử $R$ là bất khả quy. Cho $B = \{ \alpha_1, \ldots, \alpha_l \}$ là một cơ sở của $R$, $f$ là chỉ số liên thông của $R$ (\S 1, no. 9) và $\tilde{\alpha} = n_1 \alpha_1 + \cdots + n_l \alpha_l$ là nghiệm cao nhất của $R$ (đối với thứ tự được xác định bởi $B$). Khi đó cấp của $W$ bằng
+Giả sử $R$ là bất khả quy. Cho $B = \{ \alpha_1, \ldots, \alpha_l \}$ là một cơ sở của $R$, $f$ là chỉ số liên thông của $R$ (§ 1, no. 9) và $\tilde{\alpha} = n_1 \alpha_1 + \cdots + n_l \alpha_l$ là nghiệm cao nhất của $R$ (đối với thứ tự được xác định bởi $B$). Khi đó cấp của $W$ bằng
 $$
 (l!) n_1 n_2 \ldots n_l f.
 $$

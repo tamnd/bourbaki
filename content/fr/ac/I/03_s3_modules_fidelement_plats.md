@@ -40,7 +40,7 @@ subsections:
       pdf_page: 52
 statements: 23
 exercises: 10
-content_sha256: 4b5cda87ad52435cdd5b6839e30e09b7ccd28fca67c332897a6b360a304421ca
+content_sha256: 3747e188c60036e4b1bb28f41e3b92dfade3e97f5304c64f6067636d854c8f25
 ---
 
 ## § 3. Modules fidèlement plats
@@ -228,7 +228,7 @@ $$
 i \otimes 1_F : \rho_*(M) \otimes_A F \to \rho_*(M) \otimes_A B \otimes_A F
 $$
 
-est injectif (\S 2, no 1, lemme 2). Si on prend $M = E$, on en déduit (puisque $i \otimes 1_F = 1_M \otimes j$) que $j$ est injectif (no 1, prop. 2).
+est injectif (§ 2, no 1, lemme 2). Si on prend $M = E$, on en déduit (puisque $i \otimes 1_F = 1_M \otimes j$) que $j$ est injectif (no 1, prop. 2).
 
 L’assertion (ii) résulte de (i) en prenant $F = A_s/a$, et (iii) résulte de (ii) en prenant $a = \{0\}$.
 
@@ -298,13 +298,13 @@ A-module à gauche F soit de type fini (resp. de présentation finie), il faut e
 
 1° Sans hypothèse sur B, il est clair que si F est un A-module à gauche de type fini, $B \otimes_A F$ est un B-module à gauche de type fini. Inversement, si $B \otimes_A F$ est un B-module de type fini, il est engendré par un nombre fini d’éléments de la forme $1 \otimes x_i$ avec $x_i \in F$; si M est le sous-A-module de F engendré par les $x_i$, et j l’injection canonique $M \to F$, $1_B \otimes j : B \otimes_A M \to B \otimes_A F$ est un homomorphisme surjectif, donc j est surjectif (n° 1, prop. 2), ce qui prouve que F est de type fini.
 
-2° Si F admet une présentation finie, il en est de même de $B \otimes_A F$ sans hypothèse sur B (\S 2, n° 8). Reste à prouver que si $B \otimes_A F$ admet une présentation finie, il en est de même de F. On sait déjà par 1° que F est de type fini, donc il existe un homomorphisme surjectif $u : L \to F$, où L est un A-module libre de type fini. Soit R le noyau de u, de sorte que $B \otimes_A R$ s’identifie au noyau de l’homomorphisme surjectif $1_B \otimes u : B \otimes_A L \to B \otimes_A F$ (\S 2, n° 3, Remarque 2). Comme $B \otimes_A F$ admet une présentation finie par hypothèse, on en conclut (\S 2, n° 8, lemme 9) que $B \otimes_A R$ est de type fini ; il résulte alors de 1° que R est un A-module de type fini, et par suite F admet une présentation finie.
+2° Si F admet une présentation finie, il en est de même de $B \otimes_A F$ sans hypothèse sur B (§ 2, n° 8). Reste à prouver que si $B \otimes_A F$ admet une présentation finie, il en est de même de F. On sait déjà par 1° que F est de type fini, donc il existe un homomorphisme surjectif $u : L \to F$, où L est un A-module libre de type fini. Soit R le noyau de u, de sorte que $B \otimes_A R$ s’identifie au noyau de l’homomorphisme surjectif $1_B \otimes u : B \otimes_A L \to B \otimes_A F$ (§ 2, n° 3, Remarque 2). Comme $B \otimes_A F$ admet une présentation finie par hypothèse, on en conclut (§ 2, n° 8, lemme 9) que $B \otimes_A R$ est de type fini ; il résulte alors de 1° que R est un A-module de type fini, et par suite F admet une présentation finie.
 
 #### Proposition 12 {#ac-i-s3-prop-12 .statement}
 
 Soient B un anneau et A un sous-anneau commutatif du centre de B tel que B soit un A-module fidèlement plat. Pour qu’un A-module F soit projectif et de type fini, il faut et il suffit que $B \otimes_A F$ soit un B-module à gauche projectif de type fini.
 
-La condition est évidemment nécessaire sans hypothèses sur A ni B (Alg., chap. II, 3e éd., § 5, n° 1, cor. de la prop. 4); prouvons qu’elle est suffisante. Un module projectif de type fini admettant une présentation finie (\S 2, n° 8, lemme 8), l’hypothèse entraîne que F admet une présentation finie en vertu de la prop. 11, donc, pour tout A-module M on a un isomorphisme canonique
+La condition est évidemment nécessaire sans hypothèses sur A ni B (Alg., chap. II, 3e éd., § 5, n° 1, cor. de la prop. 4); prouvons qu’elle est suffisante. Un module projectif de type fini admettant une présentation finie (§ 2, n° 8, lemme 8), l’hypothèse entraîne que F admet une présentation finie en vertu de la prop. 11, donc, pour tout A-module M on a un isomorphisme canonique
 
 $$
 \omega : B \otimes_A \operatorname{Hom}_A(F, M) \to \operatorname{Hom}_B(B \otimes_A F, B \otimes_A M)

@@ -24,9 +24,9 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 3
-content_sha256: 87d521723f7310beb37a282960334ce69f449f17855b33f047ee735f287740f4
+content_sha256: 73cbdd1b2a2914637443b0dd3bcc745254c12bca076d3d20363d88062c06bf2f
 translated_from: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
-source_content_sha256: 16079a53a8c5980b2ffcd8a6b4b9798b68c26a211a6d05f6fca557a79bbea7a1
+source_content_sha256: 9324e1961b118ac5c4f73e3fb335e08c0b72a588687b17147d05e2b458b10af4
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-89dd5412
 glossary_version: 34
@@ -59,7 +59,7 @@ hoặc
 $$
 \beta(g)((\mathrm{Ad}\,g)\beta(g'))gg' = \beta(gg')gg'.
 $$
-Nhưng tích của $\beta(g)$ và $(\mathrm{Ad}\,g)\beta(g')$ trong T(G) chính là tổng của $\beta(g)$ và $(\mathrm{Ad}\,g)\beta(g')$ trong $L(G)$ (\S 2, no. 1, Mệnh đề 2). Do đó (i) $\Leftrightarrow$ (iii). Mặt khác, điều kiện (ii) có thể được viết $\beta(gg')gg' = \beta(g)gg' + g\beta(g')g'$, hoặc
+Nhưng tích của $\beta(g)$ và $(\mathrm{Ad}\,g)\beta(g')$ trong T(G) chính là tổng của $\beta(g)$ và $(\mathrm{Ad}\,g)\beta(g')$ trong $L(G)$ (§ 2, no. 1, Mệnh đề 2). Do đó (i) $\Leftrightarrow$ (iii). Mặt khác, điều kiện (ii) có thể được viết $\beta(gg')gg' = \beta(g)gg' + g\beta(g')g'$, hoặc
 $$
 \beta(gg') = \beta(g) + (\mathrm{Ad}\,g)\beta(g')
 $$
@@ -118,7 +118,7 @@ và, với $\lambda$ cố định, ánh xạ $x \mapsto f(\lambda t, x)$ là K-g
 
 *Cho* K' *là một trường con đóng rời rạc của* K, G *là một nhóm Lie trên* K, V *là một đa tạp trên* K' *và* $(v, g) \mapsto vg$ *là một ánh xạ* K'-*giải tích từ* V $\times$ G *vào* G. *Giả sử rằng, với mọi* $v \in V$, *ánh xạ* $g \mapsto vg$ *của* G *vào* G *là một tự đẳng cấu của* G. *Cho* $\varepsilon$ *là một phần tử của* V *sao cho* $\varepsilon g = g$ *với mọi* $g \in G$ *và* $a \in T_\varepsilon(V)$. *Khi đó trường vectơ* $g \mapsto ag$ *trên* G *là một tự đẳng cấu vô cùng bé của* G.
 
-Với $v \in V,\ g_1 \in G,\ g_2 \in G,\ v(g_1g_2) = (vg_1)(vg_2)$. Do đó, với $u_1 \in TG,\ u_2 \in TG,\ a(u_1u_2) = (au_1)(au_2)$ (\S 2, no. 1, Mệnh đề 3). Đặc biệt, ánh xạ $g \mapsto ag$ của G vào TG là một đồng cấu nhóm. Mặt khác, ánh xạ này là giải tích theo Bổ đề 2.
+Với $v \in V,\ g_1 \in G,\ g_2 \in G,\ v(g_1g_2) = (vg_1)(vg_2)$. Do đó, với $u_1 \in TG,\ u_2 \in TG,\ a(u_1u_2) = (au_1)(au_2)$ (§ 2, no. 1, Mệnh đề 3). Đặc biệt, ánh xạ $g \mapsto ag$ của G vào TG là một đồng cấu nhóm. Mặt khác, ánh xạ này là giải tích theo Bổ đề 2.
 
 #### Mệnh đề 2 {#lie-iii-s10-prop-2 .statement}
 
@@ -235,11 +235,11 @@ $$
 
 Điều này chứng minh (vi).
 
-Cho D là luật của phép toán vi phân liên kết với luật của phép toán trái của Aut(G) trên G. Theo các Mệnh đề 1 và 2 của no. 1, $D(L(\text{Aut } G)) = a$. Do đó a là một đại số Lie của các trường vectơ và D là một cấu xạ từ $L(\text{Aut } G)$ lên a. Cho $x_1$ và $x_2$ là các phần tử của $L(\text{Aut } G)$ sao cho $D(x_1) = D(x_2)$. Khi đó các luật của phép toán $(\lambda, g) \mapsto (\exp \lambda x_1)g$ và $(\lambda, g) \mapsto (\exp \lambda x_2)g$ của K trên G có cùng luật của phép toán vi phân liên kết; do đó, với $|\lambda|$ đủ nhỏ, $\exp \lambda x_1$ và $\exp \lambda x_2$ trùng nhau trên một lân cận của e ($\S 4$, no. 7, Định lý 6), do đó $\exp \lambda x_1 = \exp \lambda x_2$. Suy ra $x_1 = x_2$ và do đó D là một đẳng cấu từ $L(\text{Aut } G)$ lên a.
+Cho D là luật của phép toán vi phân liên kết với luật của phép toán trái của Aut(G) trên G. Theo các Mệnh đề 1 và 2 của no. 1, $D(L(\text{Aut } G)) = a$. Do đó a là một đại số Lie của các trường vectơ và D là một cấu xạ từ $L(\text{Aut } G)$ lên a. Cho $x_1$ và $x_2$ là các phần tử của $L(\text{Aut } G)$ sao cho $D(x_1) = D(x_2)$. Khi đó các luật của phép toán $(\lambda, g) \mapsto (\exp \lambda x_1)g$ và $(\lambda, g) \mapsto (\exp \lambda x_2)g$ của K trên G có cùng luật của phép toán vi phân liên kết; do đó, với $|\lambda|$ đủ nhỏ, $\exp \lambda x_1$ và $\exp \lambda x_2$ trùng nhau trên một lân cận của e ($§ 4$, no. 7, Định lý 6), do đó $\exp \lambda x_1 = \exp \lambda x_2$. Suy ra $x_1 = x_2$ và do đó D là một đẳng cấu từ $L(\text{Aut } G)$ lên a.
 
 Định lý đã được chứng minh hoàn toàn đối với G liên thông.
 
-(c) Ta chuyển sang trường hợp tổng quát. Theo giả thiết, G được sinh bởi $G_0$ và một số hữu hạn các phần tử $x_1, x_2, \ldots, x_n$. Mọi $u \in \text{Aut } G$ đều để $G_0$ ổn định. Gọi $\text{Aut}_1 G$ là tập hợp các $u \in \text{Aut } G$ mà khi chuyển qua thương, cho tự đẳng cấu đồng nhất của $G/G_0$. Đây là một nhóm con chuẩn tắc của $\text{Aut } G$. Theo phần (b) của chứng minh, $\text{Aut } G_0$ có một cấu trúc nhóm Lie chính tắc và ánh xạ $(g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n)$ từ $G_0^n \times \text{Aut } G_0$ vào $G_0^n$ là giải tích. Gọi P là tích nửa trực tiếp tương ứng của $\text{Aut } G_0$ bởi $G_0^n$; nó là một nhóm Lie hữu hạn chiều ($\S 1$, no. 4, Mệnh đề 7).
+(c) Ta chuyển sang trường hợp tổng quát. Theo giả thiết, G được sinh bởi $G_0$ và một số hữu hạn các phần tử $x_1, x_2, \ldots, x_n$. Mọi $u \in \text{Aut } G$ đều để $G_0$ ổn định. Gọi $\text{Aut}_1 G$ là tập hợp các $u \in \text{Aut } G$ mà khi chuyển qua thương, cho tự đẳng cấu đồng nhất của $G/G_0$. Đây là một nhóm con chuẩn tắc của $\text{Aut } G$. Theo phần (b) của chứng minh, $\text{Aut } G_0$ có một cấu trúc nhóm Lie chính tắc và ánh xạ $(g_1, g_2, \ldots, g_n, u) \mapsto (ug_1, ug_2, \ldots, ug_n)$ từ $G_0^n \times \text{Aut } G_0$ vào $G_0^n$ là giải tích. Gọi P là tích nửa trực tiếp tương ứng của $\text{Aut } G_0$ bởi $G_0^n$; nó là một nhóm Lie hữu hạn chiều ($§ 1$, no. 4, Mệnh đề 7).
 
 Nếu $w \in \text{Aut}_1 G$, ta viết
 $$
@@ -261,7 +261,7 @@ và do đó $\zeta$ là một đồng cấu từ $\text{Aut}_1 G$ vào P. Đồn
 
 Ta chứng minh rằng $\zeta(\text{Aut}_1 G)$ là đóng trong P. Cho $\Phi$ là một lọc trên $\text{Aut}_1 G$ sao cho $\zeta(\Phi)$ hội tụ đến một điểm $((w_1, \ldots, w_n), w_0)$ của P. Khi đó $\Phi$ hội tụ điểm-điểm đến một ánh xạ v từ G vào G. Rõ ràng v là một tự đồng cấu của nhóm G. Hơn nữa, v để mỗi lớp kề modulo $G_0$ ổn định và $v|G_0 = w_0$. Suy ra $v \in \text{Aut}_1 G$. Vì $\zeta(v) = ((w_1, \ldots, w_n), w_0)$, ta đã chứng minh rằng $\zeta(\text{Aut}_1 G)$ là đóng trong P.
 
-(d) Trong phần (d) của chứng minh, ta giả thiết rằng $K = \mathbf{R}$. Theo $\S 8$, no. 2, Định lý 2, $\zeta(\text{Aut}_1 G)$ là một nhóm con Lie của P. Ta chuyển cấu trúc nhóm Lie thực trên $\zeta(\text{Aut}_1 G)$ sang $\text{Aut}_1 G$ bằng $\zeta^{-1}$. Do đó $\text{Aut}_1 G$ trở thành một nhóm Lie hữu hạn chiều.
+(d) Trong phần (d) của chứng minh, ta giả thiết rằng $K = \mathbf{R}$. Theo $§ 8$, no. 2, Định lý 2, $\zeta(\text{Aut}_1 G)$ là một nhóm con Lie của P. Ta chuyển cấu trúc nhóm Lie thực trên $\zeta(\text{Aut}_1 G)$ sang $\text{Aut}_1 G$ bằng $\zeta^{-1}$. Do đó $\text{Aut}_1 G$ trở thành một nhóm Lie hữu hạn chiều.
 
 Cho M là một đa tạp giải tích, f một ánh xạ từ M vào Aut_1G và φ là ánh xạ (m, g) ↦ f(m)g từ M × G vào G. Ta có các tương đương sau:
 
@@ -280,9 +280,9 @@ Id_a|(C ∪ {x_1} ∪ ... ∪ {x_n}).
 
 Do đó tôpô của Aut_1G là tôpô $\mathcal{T}_\beta$.
 
-Hiển nhiên Aut_1G là mở trong Aut G với tôpô $\mathcal{T}_\beta$. Trên Aut G tồn tại một cấu trúc nhóm Lie tương thích với tôpô này và cảm sinh trên Aut_1G cấu trúc đã xây dựng ở trên ($\S 8$, no. 1, Hệ quả 2 của Định lý 1). Việc nhóm Lie Aut G có các tính chất của định lý suy ra từ các tính chất tương ứng của Aut_1G.
+Hiển nhiên Aut_1G là mở trong Aut G với tôpô $\mathcal{T}_\beta$. Trên Aut G tồn tại một cấu trúc nhóm Lie tương thích với tôpô này và cảm sinh trên Aut_1G cấu trúc đã xây dựng ở trên ($§ 8$, no. 1, Hệ quả 2 của Định lý 1). Việc nhóm Lie Aut G có các tính chất của định lý suy ra từ các tính chất tương ứng của Aut_1G.
 
-(e) Trong phần (e) của chứng minh, ta giả thiết rằng $K = C$. Theo (c) và Định lý 2 của $\S 8$, no. 2, trên Aut_1G tồn tại một cấu trúc nhóm Lie thực sao cho ζ là một đẳng cấu từ Aut_1G lên một nhóm con Lie thực của P.
+(e) Trong phần (e) của chứng minh, ta giả thiết rằng $K = C$. Theo (c) và Định lý 2 của $§ 8$, no. 2, trên Aut_1G tồn tại một cấu trúc nhóm Lie thực sao cho ζ là một đẳng cấu từ Aut_1G lên một nhóm con Lie thực của P.
 
 Luật của phép toán (w, g) ↦ wg của (Aut_1G) × G trên G là giải tích thực. Gọi D là luật của phép toán vi phân liên kết. Theo các Mệnh đề 1 và 2 của no. 1, D(L(Aut_1G)) = a.
 
@@ -292,15 +292,15 @@ $$ \alpha_i = x_i^{-1} \alpha(x_i) \in L(G) = L(G_0). $$
 
 Cuối cùng, ta viết $f(\alpha) = ((\alpha_1, ..., \alpha_n), \alpha_0) \in L(P)$. Khi đó f là một ánh xạ tuyến tính C từ a vào L(P).
 
-Mặt khác, rõ ràng $L(\zeta) = f \circ D$. Do đó $L(\zeta)(L(Aut_1G)) = f(a)$ là một không gian con vectơ phức của L(P). Theo Mệnh đề 2 của \S 4, no. 2, $\zeta(Aut_1G)$ là một nhóm con Lie phức của P và ta có thể tiến hành đúng như trong (d): ta thực hiện phép chuyển cấu trúc nhóm Lie phức trên $\zeta(Aut_1G)$ sang Aut_1G bằng $\zeta^{-1}$ và thấy, như trong (d), rằng Aut_1G có các tính chất tương tự các tính chất (i), (ii), (iii), (v) và (vi) của định lý.
+Mặt khác, rõ ràng $L(\zeta) = f \circ D$. Do đó $L(\zeta)(L(Aut_1G)) = f(a)$ là một không gian con vectơ phức của L(P). Theo Mệnh đề 2 của § 4, no. 2, $\zeta(Aut_1G)$ là một nhóm con Lie phức của P và ta có thể tiến hành đúng như trong (d): ta thực hiện phép chuyển cấu trúc nhóm Lie phức trên $\zeta(Aut_1G)$ sang Aut_1G bằng $\zeta^{-1}$ và thấy, như trong (d), rằng Aut_1G có các tính chất tương tự các tính chất (i), (ii), (iii), (v) và (vi) của định lý.
 
-Rõ ràng Aut₁G là mở trong Aut G với tôpô $\mathcal{T}_\beta$. Cho $w \in \mathrm{Aut}\ G$. Gọi $\sigma$ là tự đẳng cấu $v \mapsto wvw^{-1}$ của Aut₁G. Nó giải tích thực ($\S 8$, no. 1, Định lý 1), $L(\sigma)$ là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $L(\mathrm{Aut}_1 G)$ và
+Rõ ràng Aut₁G là mở trong Aut G với tôpô $\mathcal{T}_\beta$. Cho $w \in \mathrm{Aut}\ G$. Gọi $\sigma$ là tự đẳng cấu $v \mapsto wvw^{-1}$ của Aut₁G. Nó giải tích thực ($§ 8$, no. 1, Định lý 1), $L(\sigma)$ là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $L(\mathrm{Aut}_1 G)$ và
 
 $$
 D \circ L(\mathrm{Aut}_1 G) \circ D^{-1}
 $$
 
-là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $a$. Tự đẳng cấu này cũng là tự đẳng cấu của $a$ dẫn xuất từ $w$ bằng phép chuyển cấu trúc; vì $w$ là K-giải tích, ta thấy rằng $L(\sigma)$ là K-tuyến tính. Do đó $\sigma$ là K-giải tích ($\S 3$, no. 8, Mệnh đề 32). Theo $\S 1$, no. 9, Mệnh đề 18, trên Aut G tồn tại duy nhất một cấu trúc nhóm Lie K sao cho $\mathrm{Aut}_1 G$ là một nhóm con Lie mở của Aut G. Việc cấu trúc này có các tính chất của định lý suy ra từ các tính chất tương ứng của $\mathrm{Aut}_1 G$.
+là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $a$. Tự đẳng cấu này cũng là tự đẳng cấu của $a$ dẫn xuất từ $w$ bằng phép chuyển cấu trúc; vì $w$ là K-giải tích, ta thấy rằng $L(\sigma)$ là K-tuyến tính. Do đó $\sigma$ là K-giải tích ($§ 3$, no. 8, Mệnh đề 32). Theo $§ 1$, no. 9, Mệnh đề 18, trên Aut G tồn tại duy nhất một cấu trúc nhóm Lie K sao cho $\mathrm{Aut}_1 G$ là một nhóm con Lie mở của Aut G. Việc cấu trúc này có các tính chất của định lý suy ra từ các tính chất tương ứng của $\mathrm{Aut}_1 G$.
 
 #### Hệ quả 1 {#lie-iii-s10-thm-1-cor-1 .statement}
 
@@ -310,7 +310,7 @@ là một tự đẳng cấu $\mathbf{R}$-tuyến tính của $a$. Tự đẳng 
 
 *Nếu G là một nhóm Lie thực hoặc phức liên thông nửa đơn. Nhóm Int G là thành phần đơn vị của Aut G.*
 
-Ánh xạ $u \mapsto L(u)$ là một đẳng cấu của Aut G lên một nhóm con Lie của Aut $L(G)$ (Định lý 1). Ảnh của Int G qua đẳng cấu này là Ad G. Nhưng Ad G là thành phần đơn vị của Aut $L(G)$ ($\S 9$, no. 8, Mệnh đề 30 (ii)).
+Ánh xạ $u \mapsto L(u)$ là một đẳng cấu của Aut G lên một nhóm con Lie của Aut $L(G)$ (Định lý 1). Ảnh của Int G qua đẳng cấu này là Ad G. Nhưng Ad G là thành phần đơn vị của Aut $L(G)$ ($§ 9$, no. 8, Mệnh đề 30 (ii)).
 
 ### 3. NHÓM TỰ ĐẲNG CẤU CỦA MỘT NHÓM LIE (TRƯỜNG HỢP SIÊU METRIC)
 

@@ -14,30 +14,30 @@
   "chapters": [
     {
       "chapter": "I",
-      "first_pdf_page": 5,
+      "first_pdf_page": 13,
       "last_pdf_page": 20,
-      "first_page": 1,
+      "first_page": 9,
       "last_page": 16
     },
     {
       "chapter": "II",
       "first_pdf_page": 21,
-      "last_pdf_page": 34,
+      "last_pdf_page": 43,
       "first_page": 17,
-      "last_page": 30
+      "last_page": 39
     },
     {
       "chapter": "III",
-      "first_pdf_page": 35,
-      "last_pdf_page": 106,
-      "first_page": 31,
-      "last_page": 102
+      "first_pdf_page": 44,
+      "last_pdf_page": 109,
+      "first_page": 40,
+      "last_page": 105
     },
     {
       "chapter": "IV",
-      "first_pdf_page": 107,
+      "first_pdf_page": 110,
       "last_pdf_page": 293,
-      "first_page": 103,
+      "first_page": 106,
       "last_page": 289
     }
   ],

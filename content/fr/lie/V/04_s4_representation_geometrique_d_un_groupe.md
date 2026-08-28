@@ -48,7 +48,7 @@ subsections:
       pdf_page: 99
 statements: 23
 exercises: 20
-content_sha256: d174f4a0062639a75e80d935a7ed7b8739343b89dd6a774962b297cb0c0e8426
+content_sha256: 6b99a8d30738d52880de4fe1f268a6397b62479d8a4e96c70f07e1d07dcd4e7a
 ---
 
 ## § 4. Représentation géométrique d’un groupe de Coxeter
@@ -419,7 +419,7 @@ Soit $E'$ un sous-espace de E stable par W. Soient $s, s' \in S$ deux éléments
 Supposons que $(W, S)$ soit irréductible. Alors:
 a) Si $B_M$ est non dégénérée, le $W$-module $E$ est absolument simple.
 b) Si $B_M$ est dégénérée, le $W$-module $E$ n’est pas semi-simple.
-Dans le cas a), la prop. 7 montre que $E$ est simple, donc aussi absolument simple ($\S 2$, no 1, prop. 1).
+Dans le cas a), la prop. 7 montre que $E$ est simple, donc aussi absolument simple ($§ 2$, no 1, prop. 1).
 Dans le cas b), on a $E^0 \neq 0$, $E \neq E^0$ (puisque $B_M \neq 0$), et la prop. 7 montre que $E^0$ n’admet pas de supplémentaire stable par $W$; le $W$-module $E$ n’est donc pas semi-simple.
 
 ### 8. Critère de finitude
@@ -431,8 +431,8 @@ On conserve les notations des nos précédents, et l’on suppose que $S$ est fi
 Les propriétés suivantes sont équivalentes :
 (1) $W$ est fini.
 (2) La forme $B_M$ est positive non dégénérée.
-(1) $\Longrightarrow$ (2). Soit $S = \bigcup_i S_i$ la décomposition de $S$ en composantes connexes (chap. IV, $\S 1$, no 9), et soit $W = \prod_i W_i$ la décomposition correspondante de $W$. L’espace $E$ s’identifie à la somme directe des espaces $E_i = \mathbf{R}^{s_i}$, et $B_M$ s’identifie à la somme directe des formes $B_{M_i}$ correspondantes. On est donc ramené au cas où $(W, S)$ est irréductible. Comme $W$ est supposé fini, $E$ est un $W$-module semi-simple (Annexe, prop. 2). D’après le cor. de la prop. 5, il s’ensuit que $E$ est absolument simple. Soit alors $B'$ une forme positive non dégénérée sur $E$, et soit $B''$ la somme de ses transformées par $W$. Puisque $B''$ est invariante par $W$, elle est proportionnelle à $B_M$ ($\S 2$, no 1, prop. 1); du fait que $B_M(e_s, e_s) = 1$ pour tout $s \in S$, le coefficient de proportionnalité est $> 0$, et, comme $B''$ est positive, il en est de même de $B_M$, ce qui démontre (2).
-(2) $\Longrightarrow$ (1). Si $B_M$ est positive non dégénérée, le groupe orthogonal $O(B_M)$ est compact (Intégr., chap. VII, $\S 3$, no 1). Comme $\sigma(W)$ est un sous-groupe discret de $O(B_M^-)$ (cor. 3 du th. 1), il s’ensuit que $\sigma(W)$ est fini, donc aussi $W$.
+(1) $\Longrightarrow$ (2). Soit $S = \bigcup_i S_i$ la décomposition de $S$ en composantes connexes (chap. IV, $§ 1$, no 9), et soit $W = \prod_i W_i$ la décomposition correspondante de $W$. L’espace $E$ s’identifie à la somme directe des espaces $E_i = \mathbf{R}^{s_i}$, et $B_M$ s’identifie à la somme directe des formes $B_{M_i}$ correspondantes. On est donc ramené au cas où $(W, S)$ est irréductible. Comme $W$ est supposé fini, $E$ est un $W$-module semi-simple (Annexe, prop. 2). D’après le cor. de la prop. 5, il s’ensuit que $E$ est absolument simple. Soit alors $B'$ une forme positive non dégénérée sur $E$, et soit $B''$ la somme de ses transformées par $W$. Puisque $B''$ est invariante par $W$, elle est proportionnelle à $B_M$ ($§ 2$, no 1, prop. 1); du fait que $B_M(e_s, e_s) = 1$ pour tout $s \in S$, le coefficient de proportionnalité est $> 0$, et, comme $B''$ est positive, il en est de même de $B_M$, ce qui démontre (2).
+(2) $\Longrightarrow$ (1). Si $B_M$ est positive non dégénérée, le groupe orthogonal $O(B_M)$ est compact (Intégr., chap. VII, $§ 3$, no 1). Comme $\sigma(W)$ est un sous-groupe discret de $O(B_M^-)$ (cor. 3 du th. 1), il s’ensuit que $\sigma(W)$ est fini, donc aussi $W$.
 C.Q.F.D.
 
 Le résultat suivant a été prouvé en cours de démonstration :
@@ -440,7 +440,7 @@ Le résultat suivant a été prouvé en cours de démonstration :
 #### Corollaire {#lie-v-s4-n8-cor-1 .statement}
 
 Si $(W, S)$ est irréductible et fini, $E$ est un $W$-module absolument simple.
-Le critère fourni par le th. 2 permet de classifier tous les groupes de Coxeter finis (cf. chap. VI, $\S 4$). Bornons-nous ici à un résultat préliminaire :
+Le critère fourni par le th. 2 permet de classifier tous les groupes de Coxeter finis (cf. chap. VI, $§ 4$). Bornons-nous ici à un résultat préliminaire :
 
 #### Proposition 8 {#lie-v-s4-prop-8 .statement}
 
@@ -470,11 +470,11 @@ Soit tout d’abord $(W, S)$ un groupe de Coxeter fini. Notons $(x|y)$ la forme 
 
 #### Proposition 9 {#lie-v-s4-prop-9 .statement}
 
-Avec les notations précédentes, $W$ est le sous-groupe de $\mathbf{O}(E)$ engendré par les réflexions par rapport aux hyperplans de $\mathcal{H}$. C’est un groupe essentiel ($\S 3, \mathrm{n}^\circ 7$) et $C_0$ est une chambre de $E$ relativement à $\mathcal{H}$.
+Avec les notations précédentes, $W$ est le sous-groupe de $\mathbf{O}(E)$ engendré par les réflexions par rapport aux hyperplans de $\mathcal{H}$. C’est un groupe essentiel ($§ 3, \mathrm{n}^\circ 7$) et $C_0$ est une chambre de $E$ relativement à $\mathcal{H}$.
 
 La première assertion est triviale. D’autre part, si $x \in E$ est invariant par $W$, il est orthogonal à tous les $e_s$, donc nul; cela montre que $W$ est essentiel. Enfin, l’isomorphisme $E \to E^*$ défini par $B_M$ transforme $C_0$ en l’ensemble $C$ du $\mathrm{n}^\circ 4$; la propriété (P_n) démontrée à cet endroit prouve que, pour tout $w \in W$, et tout $s \in S$, $w(C_0)$ ne rencontre pas $H_s$. On en conclut que $C_0$ est contenu dans le complémentaire $U$ de la réunion des hyperplans de $\mathcal{H}$, et comme $C_0$ est connexe, ouvert et fermé dans $U$, c’est une chambre de $E$ relativement à $\mathcal{H}$, C.Q.F.D.
 
-On peut donc appliquer à $W$ et $C_0$ toutes les propriétés démontrées au $\S 3$. En
+On peut donc appliquer à $W$ et $C_0$ toutes les propriétés démontrées au $§ 3$. En
 
 (*) Les racines de l’équation $z^3 - 1 = 0$ sont 1 et $\frac{-1 \pm i \sqrt{3}}{2}$. Donc $\cos \frac{2\pi}{3} = -\frac{1}{2}$ et par suite $\cos \frac{\pi}{3} = \frac{1}{2}$. Notons à cette occasion que $\sin \frac{2\pi}{3} = \frac{\sqrt{3}}{2}$, d’où
 $$
@@ -487,7 +487,7 @@ $$
 
 particulier, $\overline{C}_0$ est un *domaine fondamental* pour l’action de W sur E (en d’autres termes, le cône U défini au n° 6 est égal à E tout entier).
 
-Inversement, soit E un espace vectoriel réel de dimension finie, muni d’un produit scalaire $(x|y)$ et soit W un groupe fini essentiel de déplacements de E laissant 0 fixe; supposons W *engendré par des réflexions*. Soit $C_0$ une chambre de E par rapport à W (cf. § 3), et soit S l’ensemble des réflexions orthogonales relativement aux murs de $C_0$. Alors (W, S) est un *système de Coxeter fini* ($\S 3, n° 2, th. 1$). De plus, si $s \in S$, notons $H_s$ le mur de $C_0$ correspondant à s, et notons $e_s$ le vecteur unitaire orthogonal à $H_s$ et situé du même côté que $C_0$ de $H_s$. Si $(m(s, s'))$ désigne la matrice de Coxeter de (W, S), les prop. 3 et 7 du § 3 montrent que
+Inversement, soit E un espace vectoriel réel de dimension finie, muni d’un produit scalaire $(x|y)$ et soit W un groupe fini essentiel de déplacements de E laissant 0 fixe; supposons W *engendré par des réflexions*. Soit $C_0$ une chambre de E par rapport à W (cf. § 3), et soit S l’ensemble des réflexions orthogonales relativement aux murs de $C_0$. Alors (W, S) est un *système de Coxeter fini* ($§ 3, n° 2, th. 1$). De plus, si $s \in S$, notons $H_s$ le mur de $C_0$ correspondant à s, et notons $e_s$ le vecteur unitaire orthogonal à $H_s$ et situé du même côté que $C_0$ de $H_s$. Si $(m(s, s'))$ désigne la matrice de Coxeter de (W, S), les prop. 3 et 7 du § 3 montrent que
 
 $$
 (e_s|e_{s'}) = -\cos (\pi/m(s, s'))

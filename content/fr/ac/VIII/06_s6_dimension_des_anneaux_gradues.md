@@ -33,7 +33,7 @@ subsections:
       pdf_page: 74
 statements: 27
 exercises: 12
-content_sha256: 0579a874882d9e7d3c1b38a078e814db3421c17202711fc74c4f641509ba64bf
+content_sha256: 0807723a1c16ddd3468a5fe62226f8505a320156e30fadfaa666328e48b2faf7
 ---
 
 ## § 6. DIMENSION DES ANNEAUX GRADUÉS
@@ -253,13 +253,13 @@ $$
 $$
 *on a l’égalité pour tout $r$ si et seulement si $A$ est régulier de dimension $n$.*
 
-La condition est suffisante (\S 4, n° 4, th. 3 et \S 5, n° 2, th. 1). Montrons qu’elle est nécessaire. Considérons l’anneau gradué gr(A) = gr_{m_A}(A); soit k une extension infinie du corps $\kappa_A$, et posons $H = k \otimes_{\kappa_A} \mathrm{gr}(A)$. L’anneau H est de dimension $\geq n$ (prop. 5 et son corollaire); on déduit donc du cor. 1 l’existence d’un homomorphisme gradué injectif de k-algèbres graduées $\varphi : H_0[X_1, ..., X_n] \to H$. On a par conséquent, pour tout entier $r \geq 0$,
+La condition est suffisante (§ 4, n° 4, th. 3 et § 5, n° 2, th. 1). Montrons qu’elle est nécessaire. Considérons l’anneau gradué gr(A) = gr_{m_A}(A); soit k une extension infinie du corps $\kappa_A$, et posons $H = k \otimes_{\kappa_A} \mathrm{gr}(A)$. L’anneau H est de dimension $\geq n$ (prop. 5 et son corollaire); on déduit donc du cor. 1 l’existence d’un homomorphisme gradué injectif de k-algèbres graduées $\varphi : H_0[X_1, ..., X_n] \to H$. On a par conséquent, pour tout entier $r \geq 0$,
 
 $$
 [\mathrm{gr}_r(A) : \kappa_A] = [H_r : H_0] \geq \binom{n + r - 1}{n - 1},
 $$
 
-et l’égalité pour tout $r$ implique la bijectivité de $\varphi$, donc la régularité de A (\S 5, n° 2, th. 1).
+et l’égalité pour tout $r$ implique la bijectivité de $\varphi$, donc la régularité de A (§ 5, n° 2, th. 1).
 
 Les égalités
 
@@ -281,7 +281,7 @@ impliquent alors les assertions analogues pour la fonction $r \mapsto \mathrm{lo
 
 Soient A un anneau, r son radical, $R = \bigoplus_{i \in \mathbf{Z}} R_i$ une A-algèbre graduée, $M = \bigoplus_{i \in \mathbf{Z}} M_i$ un R-module gradué. On suppose que chaque $M_i$ est un A-module de type fini et que $M/rM$ est un $R/rR$-module de type fini. Alors M est un R-module de type fini.
 
-Soient $m_1, ..., m_n$ des éléments homogènes de M, dont les images dans $M/rM$ engendrent le $R/rR$-module $M/rM$. Soit N le sous-R-module (gradué) de M engendré par $\{ m_1, ..., m_n \}$. Pour tout $i \in \mathbf{Z}$, on a $M_i = N_i + rM_i$, donc $M_i = N_i$ (II, \S 3, n° 2, prop. 4); par suite on a $M = N$.
+Soient $m_1, ..., m_n$ des éléments homogènes de M, dont les images dans $M/rM$ engendrent le $R/rR$-module $M/rM$. Soit N le sous-R-module (gradué) de M engendré par $\{ m_1, ..., m_n \}$. Pour tout $i \in \mathbf{Z}$, on a $M_i = N_i + rM_i$, donc $M_i = N_i$ (II, § 3, n° 2, prop. 4); par suite on a $M = N$.
 
 #### Lemme 6 {#ac-viii-s6-lem-6 .statement}
 
@@ -293,13 +293,13 @@ $$
 f(x)\ x^{n(x)} + b_1(x)\ x^{n(x)-1} + \cdots + b_{n(x)} = 0.
 $$
 
-Soit $f = \prod_{x \in X} f(x)$; l’image de tout élément x de X dans $C_f$ est entière sur $B_f$, donc $C_f$ est une $B_f$-algèbre finie (V, \S 1, n° 1, prop. 4).
+Soit $f = \prod_{x \in X} f(x)$; l’image de tout élément x de X dans $C_f$ est entière sur $B_f$, donc $C_f$ est une $B_f$-algèbre finie (V, § 1, n° 1, prop. 4).
 
 #### Proposition 7 {#ac-viii-s6-prop-7 .statement}
 
 Supposons que H soit une $H_0$-algèbre de type fini. Alors la fonction $p \mapsto \dim(H \otimes_{H_0} \kappa(p))$ est semi-continue supérieurement sur $\mathrm{Spec}(H_0)$.
 
-Puisque H est de type fini comme $H_0$-algèbre, chaque $H_i$ est un $H_0$-module de type fini (III, § 1, no 2, corollaire à la prop. 1) et H est engendrée comme $H_0$-algèbre par $H_0 \oplus H_1 \oplus \cdots \oplus H_r$ pour un entier $r \geq 0$ convenable. Soit $p \in \mathrm{Spec}(H_0)$ et posons $\dim(H \otimes_{H_0} \kappa(p)) = n \geq 0$. D’après le corollaire 1 à la prop. 6, il existe des éléments $a_1, ..., a_n$ de H, tous homogènes de même degré $d > 0$, tels que le $\kappa(p)$-homomorphisme $\overline{\varphi} : \kappa(p)[X_1, ..., X_n] \to H \otimes_{H_0} \kappa(p)$ qui applique $X_i$ sur $a_i \otimes 1$ pour $1 \leq i \leq n$, fasse de $H \otimes_{H_0} \kappa(p)$ une $\kappa(p)[X_1, ..., X_n]$-algèbre finie. Notons $\varphi$ le $H_0$-homomorphisme de $H_0[X_1, ..., X_n] = R$ dans H qui applique $X_i$ sur $a_i$ pour $1 \leq i \leq n$. Si l’on pose, pour tout $m \in \mathbf{Z}$, $H'_m = \sum_{(m-1)d < i \leq md} H_i$, on obtient une graduation de type $\mathbf{Z}$ sur H, compatible avec la structure de R-module donnée par $\varphi$. Chaque $H'_m$ est de type fini sur $H_0$. D’après le lemme 5, $H_p$ est un $R_p$-module de type fini. D’après le lemme 6, il existe donc $f \in H_0 - p$ tel que $H_f$ soit un $R_f$-module de type fini. Pour tout $q \in \mathrm{Spec}(H_0)_f$, $H \otimes_{H_0} \kappa(q)$ est une $\kappa(q)[X_1, ..., X_n]$-algèbre finie, donc $\dim(H \otimes_{H_0} \kappa(q)) \leq n$ (\S 2, no 3, th. 1), ce qui achève la démonstration.
+Puisque H est de type fini comme $H_0$-algèbre, chaque $H_i$ est un $H_0$-module de type fini (III, § 1, no 2, corollaire à la prop. 1) et H est engendrée comme $H_0$-algèbre par $H_0 \oplus H_1 \oplus \cdots \oplus H_r$ pour un entier $r \geq 0$ convenable. Soit $p \in \mathrm{Spec}(H_0)$ et posons $\dim(H \otimes_{H_0} \kappa(p)) = n \geq 0$. D’après le corollaire 1 à la prop. 6, il existe des éléments $a_1, ..., a_n$ de H, tous homogènes de même degré $d > 0$, tels que le $\kappa(p)$-homomorphisme $\overline{\varphi} : \kappa(p)[X_1, ..., X_n] \to H \otimes_{H_0} \kappa(p)$ qui applique $X_i$ sur $a_i \otimes 1$ pour $1 \leq i \leq n$, fasse de $H \otimes_{H_0} \kappa(p)$ une $\kappa(p)[X_1, ..., X_n]$-algèbre finie. Notons $\varphi$ le $H_0$-homomorphisme de $H_0[X_1, ..., X_n] = R$ dans H qui applique $X_i$ sur $a_i$ pour $1 \leq i \leq n$. Si l’on pose, pour tout $m \in \mathbf{Z}$, $H'_m = \sum_{(m-1)d < i \leq md} H_i$, on obtient une graduation de type $\mathbf{Z}$ sur H, compatible avec la structure de R-module donnée par $\varphi$. Chaque $H'_m$ est de type fini sur $H_0$. D’après le lemme 5, $H_p$ est un $R_p$-module de type fini. D’après le lemme 6, il existe donc $f \in H_0 - p$ tel que $H_f$ soit un $R_f$-module de type fini. Pour tout $q \in \mathrm{Spec}(H_0)_f$, $H \otimes_{H_0} \kappa(q)$ est une $\kappa(q)[X_1, ..., X_n]$-algèbre finie, donc $\dim(H \otimes_{H_0} \kappa(q)) \leq n$ (§ 2, no 3, th. 1), ce qui achève la démonstration.
 
 #### Remarque 1 {#ac-viii-s6-n4-rem-1 .statement}
 

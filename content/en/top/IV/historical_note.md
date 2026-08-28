@@ -12,7 +12,7 @@ pdf_pages: 0412-0443
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 709656219df69155d8a4576d172b2d91933b3847508fbdbed2c1f2bca2e04d22
+content_sha256: fa5af6e307c63a6d9a1e252507d1582a395981a6446717689b181a7ec79a0ac1
 ---
 
 # HISTORICAL NOTE
@@ -80,7 +80,7 @@ If $x_0, y_0$ are given and $> 0$, let $x_{n+1} = (x_n + y_n)/2$ and
 $$
 y_{n+1} = \sqrt{x_n y_n};
 $$
-as $n$ tends to $+\infty$, $x_n$ and $y_n$ tend (very rapidly) to a common limit, called the arithmetico-geometric mean of $x_0$ and $y_0$ (\S 5, Exercise 16); this function is closely related to the elliptic functions and was the starting-point of Gauss's important work on this subject.
+as $n$ tends to $+\infty$, $x_n$ and $y_n$ tend (very rapidly) to a common limit, called the arithmetico-geometric mean of $x_0$ and $y_0$ (§ 5, Exercise 16); this function is closely related to the elliptic functions and was the starting-point of Gauss's important work on this subject.
 
 Once arrived at this point, there remained for the mathematicians only the task of making precise and extending the results obtained, by correcting various errors and filling various gaps. For example, Cauchy had believed at one time that a convergent series, whose terms are continuous functions of one variable, has a continuous function as its sum. Abel’s rectification of this point, in the course of his important work on series ([12], vol. 1, p. 219; cf. also vol. 2, p. 257 and passim) led finally to the elucidation by Weierstrass of the concept of uniform convergence (in his lectures, which remained unpublished but which had a considerable influence; see the Historical Note to Chapter X). Again, Cauchy had assumed, without sufficient justification, the existence of the minimum of a continuous function in one of his proofs of the existence of roots of a polynomial; and again it was Weierstrass who threw light on questions of this nature by proving (in his lectures) Theorem 1 of § 6 for functions of real variables, defined on bounded closed intervals. Following his criticism of unjustified applications of this theorem to sets of functions ("Dirichlet's principle" is the best-known example) there began the movement of ideas which led, as we have seen in the Historical Note to Chapter I, to the general definition of compact spaces and the modern statement of the theorem as we have given it.
 

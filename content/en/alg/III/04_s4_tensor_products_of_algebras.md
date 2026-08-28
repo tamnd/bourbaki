@@ -49,7 +49,7 @@ subsections:
       pdf_page: 506
 statements: 43
 exercises: 2
-content_sha256: 49f95c708f427e2fa95fa3af1f1ba7efb0d6fbfdf94099d282881d1313bbff03
+content_sha256: 104babe43ca0f7b29fb3d06064b2db49850bf4ce36b16bfb4fc025a8d61a1f77
 ---
 
 ## § 4. TENSOR PRODUCTS OF ALGEBRAS
@@ -179,7 +179,7 @@ The verifications are trivial on account of § 1, no. 5.
 
 In particular, the $A$-algebra structure on $B \otimes_A E$, obtained by restricting the ring $B$ of scalars to $A$, is identical with the structure of the algebra $B \otimes_A E$, the tensor product of the $A$-algebras $B$ and $E$.
 
-Finally, if $(A_i, \phi_{ji})$ is a direct system of commutative rings, $(E_i, f_{ji})$ and $(F_i, g_{ji})$ two direct systems of $A_i$-algebras ($\S 1$, no. 6) and $A = \lim \rightarrow A_i$, the canonical $A$-module isomorphism
+Finally, if $(A_i, \phi_{ji})$ is a direct system of commutative rings, $(E_i, f_{ji})$ and $(F_i, g_{ji})$ two direct systems of $A_i$-algebras ($§ 1$, no. 6) and $A = \lim \rightarrow A_i$, the canonical $A$-module isomorphism
 
 $$
 \lim \rightarrow (E_i \otimes_{A_i} F_i) \to (\lim \rightarrow E_i) \otimes_A (\lim \rightarrow F_i)
@@ -271,7 +271,7 @@ $$
 
 namely the one which associates with every homomorphism $w$ of $\bigotimes_i E_i$ into F the family of $w \circ u_i$.
 
-Note that if E is a commutative A-algebra, the ring structure of $E \otimes_A F$ is the same as that of $F_{(E)}$ (\S 1, no. 5).
+Note that if E is a commutative A-algebra, the ring structure of $E \otimes_A F$ is the same as that of $F_{(E)}$ (§ 1, no. 5).
 
 ### 3. MODULES AND MULTIMODULES OVER TENSOR PRODUCTS OF ALGEBRAS
 
@@ -281,7 +281,7 @@ Note that if E is a commutative A-algebra, the ring structure of $E \otimes_A F$
 
 Unless otherwise mentioned, all the modules and multimodules considered in this no. are left modules and multimodules.
 
-If M is an E-module, the homomorphism $\eta : A \to E$ (\S 1, no. 4) then defines on M an A-module structure, said to be underlying the E-module structure on M; for $\alpha \in A, s \in E, x \in M$,
+If M is an E-module, the homomorphism $\eta : A \to E$ (§ 1, no. 4) then defines on M an A-module structure, said to be underlying the E-module structure on M; for $\alpha \in A, s \in E, x \in M$,
 
 $$
 \alpha(sx) = s(\alpha x) = (\alpha s)x,
@@ -687,7 +687,7 @@ $$
 
 themselves immediate consequences of the definition (28) and (22) and (23).
 
-If, for all $i \in I$, $e_i$ denotes the unit element of $E_i$, we know that $e_i$ is homogeneous of degree 0 (\S 3, no. 1), hence $e = \bigotimes_{i \in I} e_i$ is homogeneous of degree 0 and it follows from (27), (28) and the relations
+If, for all $i \in I$, $e_i$ denotes the unit element of $E_i$, we know that $e_i$ is homogeneous of degree 0 (§ 3, no. 1), hence $e = \bigotimes_{i \in I} e_i$ is homogeneous of degree 0 and it follows from (27), (28) and the relations
 
 $$
 \varepsilon_{ij}(\alpha_i, 0) = \varepsilon_{ij}(0, \beta_j) = 1
@@ -699,7 +699,7 @@ $$
 \bigotimes_{i \in I} x_i = \prod_{i \in I} h_i(x_i)
 $$
 
-where the right hand side is the product of the ordered sequence $(h_i(x_i))_{i \in I}$ in E with the given total ordering on I (I, \S 1, no. 2) (it suffices to argue by induction on the number of $x_i$ (assumed homogeneous) distinct from the $e_i$).
+where the right hand side is the product of the ordered sequence $(h_i(x_i))_{i \in I}$ in E with the given total ordering on I (I, § 1, no. 2) (it suffices to argue by induction on the number of $x_i$ (assumed homogeneous) distinct from the $e_i$).
 
 It remains to prove condition (iii); note that the mapping
 
@@ -825,9 +825,9 @@ $$
 
 #### Remark {#alg-iii-s4-n8-rem-1 .statement}
 
-(1) Let I be an infinite indexing set and $\Delta_0$ a commutative monoid; let $(\Delta_i)_{i \in I}$ denote the family such that $\Delta_i = \Delta_0$ for all $i$ and suppose given for every ordered pair of distinct indices $(i, j)$ of I a mapping $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ satisfying conditions (22), (23) and (24) (no. 7); this will also be called a *system of commutation factors over the family* $(\Delta_i)$. Consider a family $(E_i)_{i \in I}$ of graded A-algebras of type $\Delta_0$; for each finite subset J of I, let $E_J$ denote a *graded tensor $\varepsilon$-product of type* $\Delta_0$ of the subfamily $(E_i)_{i \in J}$ (with an arbitrary choice of a total ordering on J). If J, J' are two finite subsets of I such that $J \subset J'$, a canonical homomorphism of graded algebras of type $\Delta_0$, h_{J'J}: E_J \to E_{J'}, has been defined above and the uniqueness properties of these homomorphisms show immediately that if J \subset J' \subset J'' are three finite subsets of I, then h_{J''J} = h_{J'J'} \circ h_{J'J}. Thus there is a direct system (E_J, h_{J'J}) of graded algebras of type $\Delta_0$ (\S 3, no. 3), whose indexing set is the right directed set $\mathfrak{F}(I)$ of finite subsets of I. The graded algebra of type $\Delta_0$, the *direct limit* of this direct system (\S 3, no. 3), is called a *graded tensor $\varepsilon$-product of type* $\Delta_0$ of the family $(E_i)_{i \in I}$; it is also denoted by $\varepsilon \bigotimes_{i \in I} E_i$. When all the $\Delta_i$ are equal to $\mathbf{Z}$ and $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$, the tensor product $\varepsilon \bigotimes_{i \in I} E_i$ is also called the *skew* tensor product of the family $(E_i)_{i \in I}$ and is denoted by $g \bigotimes_{i \in I} E_i$. We leave to the reader the task of formulating and proving the proposition which generalizes Proposition 10 of no. 7 to the case where I is infinite, as Proposition 8 of no. 5 generalizes Proposition 5 of no. 2 to the case where I is infinite. Note that the underlying A-module of $\varepsilon \bigotimes_{i \in I} E_i$ is the same as that underlying the (non-graded) tensor product of the family $(E_i)_{i \in I}$ of non-graded algebras defined in no. 5.
+(1) Let I be an infinite indexing set and $\Delta_0$ a commutative monoid; let $(\Delta_i)_{i \in I}$ denote the family such that $\Delta_i = \Delta_0$ for all $i$ and suppose given for every ordered pair of distinct indices $(i, j)$ of I a mapping $\varepsilon_{ij} : \Delta_i \times \Delta_j \to A$ satisfying conditions (22), (23) and (24) (no. 7); this will also be called a *system of commutation factors over the family* $(\Delta_i)$. Consider a family $(E_i)_{i \in I}$ of graded A-algebras of type $\Delta_0$; for each finite subset J of I, let $E_J$ denote a *graded tensor $\varepsilon$-product of type* $\Delta_0$ of the subfamily $(E_i)_{i \in J}$ (with an arbitrary choice of a total ordering on J). If J, J' are two finite subsets of I such that $J \subset J'$, a canonical homomorphism of graded algebras of type $\Delta_0$, h_{J'J}: E_J \to E_{J'}, has been defined above and the uniqueness properties of these homomorphisms show immediately that if J \subset J' \subset J'' are three finite subsets of I, then h_{J''J} = h_{J'J'} \circ h_{J'J}. Thus there is a direct system (E_J, h_{J'J}) of graded algebras of type $\Delta_0$ (§ 3, no. 3), whose indexing set is the right directed set $\mathfrak{F}(I)$ of finite subsets of I. The graded algebra of type $\Delta_0$, the *direct limit* of this direct system (§ 3, no. 3), is called a *graded tensor $\varepsilon$-product of type* $\Delta_0$ of the family $(E_i)_{i \in I}$; it is also denoted by $\varepsilon \bigotimes_{i \in I} E_i$. When all the $\Delta_i$ are equal to $\mathbf{Z}$ and $\varepsilon_{ij}(a_i, \beta_j) = (-1)^{\alpha_i \beta_j}$, the tensor product $\varepsilon \bigotimes_{i \in I} E_i$ is also called the *skew* tensor product of the family $(E_i)_{i \in I}$ and is denoted by $g \bigotimes_{i \in I} E_i$. We leave to the reader the task of formulating and proving the proposition which generalizes Proposition 10 of no. 7 to the case where I is infinite, as Proposition 8 of no. 5 generalizes Proposition 5 of no. 2 to the case where I is infinite. Note that the underlying A-module of $\varepsilon \bigotimes_{i \in I} E_i$ is the same as that underlying the (non-graded) tensor product of the family $(E_i)_{i \in I}$ of non-graded algebras defined in no. 5.
 
-(2) Let E be a graded A-algebra of type $\Delta_0$ (where $\Delta_0$ is a commutative monoid) and $\rho : A \to B$ a ring homomorphism; the graduation on $\rho^*(E)$ (II, \S 11, no. 5) is identical with the graduation on the graded tensor product $B \otimes_A E$, where B has the trivial graduation.
+(2) Let E be a graded A-algebra of type $\Delta_0$ (where $\Delta_0$ is a commutative monoid) and $\rho : A \to B$ a ring homomorphism; the graduation on $\rho^*(E)$ (II, § 11, no. 5) is identical with the graduation on the graded tensor product $B \otimes_A E$, where B has the trivial graduation.
 
 ### 9. ANTICOMMUTATIVE ALGEBRAS AND ALTERNATING ALGEBRAS
 
@@ -847,7 +847,7 @@ $$
 
 (2) Suppose that 2 is not a divisor of 0 in E; then if E is anticommutative E is alternating, since for $x \in E$ homogeneous and of odd degree, $x^2 = -x^2$ by (36), whence $2x^2 = 0$ and $x^2 = 0$ by virtue of the hypothesis.
 
-(3) We shall study in detail in \S 7 important examples of alternating algebras.
+(3) We shall study in detail in § 7 important examples of alternating algebras.
 
 #### Lemma 4 {#alg-iii-s4-lem-4 .statement}
 
@@ -888,7 +888,7 @@ The ring B with the trivial graduation can be considered as an alternating A-alg
 
 #### Remark {#alg-iii-s4-n9-rem-2 .statement}
 
-Let E be an anticommutative graded A-algebra of type $\mathbf{Z}$. Then the A-linear mapping of $E \otimes_A E$ into E defined by multiplication of E ($\S 1$, no. 3) is a homomorphism of the graded A-algebra $E^g \otimes_A E$ into E, for in the notation of Proposition 14, in the algebra E,
+Let E be an anticommutative graded A-algebra of type $\mathbf{Z}$. Then the A-linear mapping of $E \otimes_A E$ into E defined by multiplication of E ($§ 1$, no. 3) is a homomorphism of the graded A-algebra $E^g \otimes_A E$ into E, for in the notation of Proposition 14, in the algebra E,
 $$
 (xy)(x'y') = (-1)^{qp'}(xx')(yy').
 $$

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 451
 statements: 10
 exercises: 5
-content_sha256: d6135c6e7390164e0213d8aebe0c179fa81f38f798cfd152a69cde189ff2353d
+content_sha256: d266a1348cad0959a68f948795d45c8123c34ab55ddc0962987616e825a8a361
 ---
 
 ## 9. APPLICATION: LOCALLY COMPACT FIELDS
@@ -36,11 +36,11 @@ Let $K$ be a locally compact field (not necessarily commutative). Recall that th
 
 #### Proposition 1 {#ac-vi-s9-prop-1 .statement}
 
-*If $K$ is a locally compactfield, thefunction mod, belongs to $\mathcal{V}(K)$ (\S 6, no. 1). Moreover:*
+*If $K$ is a locally compactfield, thefunction mod, belongs to $\mathcal{V}(K)$ (§ 6, no. 1). Moreover:*
 (i) *If $s > 0$ is such that $(\operatorname{mod}_K)^s = g$ is an absolute value, then $g$ defines the topology on $K$.*
 (ii) *If $K$ is not discrete and mod, is an ultrametric absolute value, there exists a normed discrete valuation $v$ on $K$ whose ring is compact and whose residuefield is finite with $q$ elements, so that $\operatorname{mod}, = q^{-v}$. The topology on $K$ is defined by $v$.*
 
-This follows from \S 6, no. 1, Proposition 1, \S 5, no. 1, Proposition 2 and Integration, Chapter VII, § 1, no. 10, Propositions 12 and 13.
+This follows from § 6, no. 1, Proposition 1, § 5, no. 1, Proposition 2 and Integration, Chapter VII, § 1, no. 10, Propositions 12 and 13.
 
 #### Proposition 2 {#ac-vi-s9-prop-2 .statement}
 
@@ -130,9 +130,9 @@ The completions $\mathbf{R}$ and $\mathbf{Q}_p$ of the field $\mathbf{Q}$ with r
 
 (i) It follows from Ostrowski's Theorem (§ 6, no. 4, Theorem 2) that K is a topological field isomorphic to an everywhere dense subfield of $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$ and, as K is complete, it is isomorphic to $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$.
 
-(ii) Let A be the ring of the absolute value mod, and m its maximal ideal. We know that A/m is a finite field (§ 5, no. 1, Proposition 2) and hence the absolute value induced by mod, on $\mathbf{Q}$ has a finite residue field, which is only possible if it is equivalent to a $p$-adic absolute value ($\S 6$, no. 3, Proposition 4); the closure of $\mathbf{Q}$ in $K$ is therefore isomorphic to $\mathbf{Q}_p$ and is contained in the centre of $K$ since the latter is closed in $K$; we conclude using Proposition 2 of no. 1.
+(ii) Let A be the ring of the absolute value mod, and m its maximal ideal. We know that A/m is a finite field (§ 5, no. 1, Proposition 2) and hence the absolute value induced by mod, on $\mathbf{Q}$ has a finite residue field, which is only possible if it is equivalent to a $p$-adic absolute value ($§ 6$, no. 3, Proposition 4); the closure of $\mathbf{Q}$ in $K$ is therefore isomorphic to $\mathbf{Q}_p$ and is contained in the centre of $K$ since the latter is closed in $K$; we conclude using Proposition 2 of no. 1.
 
-(iii) The second assertion follows from the first and the Corollary to Proposition 2 of no. 2. To show the first assertion, note that mod, is necessarily an ultrametric absolute value ($\S 6$, no. 2, Corollary to Proposition 3); in the notation of the proof of Proposition 3 of no. 2, the centre $Z$ of $K$ consists of the elements which commute with both $s$ and $u$; but by virtue of (3),
+(iii) The second assertion follows from the first and the Corollary to Proposition 2 of no. 2. To show the first assertion, note that mod, is necessarily an ultrametric absolute value ($§ 6$, no. 2, Corollary to Proposition 3); in the notation of the proof of Proposition 3 of no. 2, the centre $Z$ of $K$ consists of the elements which commute with both $s$ and $u$; but by virtue of (3),
 
 $$
 u^{-q} s u^q = s^{q p^r} = s,

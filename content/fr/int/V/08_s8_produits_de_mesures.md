@@ -40,7 +40,7 @@ subsections:
       pdf_page: 106
 statements: 32
 exercises: 21
-content_sha256: 0f0311374a61057cbbcb3bed140f1e6e572befbb6ca4857cfee60eea900dc513
+content_sha256: 88c23a6b87e7f0f07ea3836e7df2e0e50f0763c60f1c4ff2d482ed96c7b67768
 ---
 
 ## § 8. — Produits de mesures
@@ -132,7 +132,7 @@ a) Si $f$ est constante dans le complémentaire d’une partie $v$-modérée de 
 
 b) Si $\mu'$ est modérée, $M$ est localement $\mu$-négligeable.
 
-L’assertion a) découle de la prop. 4b) du § 3, n° 2 et des remarques du n° 1. Pour traiter b), remarquons que $\mu'$ est somme d’une suite $\mu'_n$ de mesures bornées (\$ 2, n° 3, prop. 4); $f$ est mesurable par rapport à $\mu \otimes \mu'_n \leq v$, et l’ensemble $M$ est réunion des ensembles $M_n$ associés aux mesures $\mu'_n$ (\$ 2, n° 2, prop. 2). On est donc ramené au cas où $\mu'$ est bornée, qui résulte de la prop. 4 c) du § 3, n° 2.
+L’assertion a) découle de la prop. 4b) du § 3, n° 2 et des remarques du n° 1. Pour traiter b), remarquons que $\mu'$ est somme d’une suite $\mu'_n$ de mesures bornées (§ 2, n° 3, prop. 4); $f$ est mesurable par rapport à $\mu \otimes \mu'_n \leq v$, et l’ensemble $M$ est réunion des ensembles $M_n$ associés aux mesures $\mu'_n$ (§ 2, n° 2, prop. 2). On est donc ramené au cas où $\mu'$ est bornée, qui résulte de la prop. 4 c) du § 3, n° 2.
 
 Cet énoncé s’étend immédiatement aux mesures complexes (chap. III, 2e éd., § 4, n° 2, prop. 3).
 
@@ -144,21 +144,21 @@ a) Si $A$ est $v$-modéré, $M$ est $\mu$-négligeable.
 
 b) Si la projection de $A$ sur $T'$ est $\mu$-modérée, $M$ est localement $\mu$-négligeable.
 
-L’assertion a) découle immédiatement de la prop. 2. Pour établir b), désignons par $B$ un ensemble, réunion d’une suite d’ouverts $\mu'$-intégrables de $T'$, qui contient la projection de $A$ sur T', et désignons par $\mu'_1$ la mesure modérée $\varphi_B \cdot \mu'$; A étant mesurable par rapport à $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, la prop. 2 entraîne que $A(t)$ est $\mu'_1$-mesurable, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable. Mais comme $A(t) \subset B$, dire que $A(t)$ est $\mu'_1$-mesurable équivaut à dire que $A(t)$ est $\mu'$-mesurable ($\S 5$, n° 3, prop. 4).
+L’assertion a) découle immédiatement de la prop. 2. Pour établir b), désignons par $B$ un ensemble, réunion d’une suite d’ouverts $\mu'$-intégrables de $T'$, qui contient la projection de $A$ sur T', et désignons par $\mu'_1$ la mesure modérée $\varphi_B \cdot \mu'$; A étant mesurable par rapport à $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, la prop. 2 entraîne que $A(t)$ est $\mu'_1$-mesurable, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable. Mais comme $A(t) \subset B$, dire que $A(t)$ est $\mu'_1$-mesurable équivaut à dire que $A(t)$ est $\mu'$-mesurable ($§ 5$, n° 3, prop. 4).
 
 #### Proposition 3 {#int-v-s8-prop-3 .statement}
 
 *Soit f une application de T dans un espace topologique F. Si f est $\mu$-mesurable, l’application $(t, t') \mapsto f(t)$ est $\nu$-mesurable. Inversement, si $\mu' \neq 0$, et si cette application est $\nu$-mesurable, la fonction f est $\mu$-mesurable.*
 
-La première assertion résulte du cor. 1 de la prop. 10 du $\S 6$, n° 6. Supposons qu’on ait $\mu' \neq 0$, désignons par $\mu'_1$ une mesure à support compact non nulle majorée par $\mu'$, par $\nu_1$ la mesure $\mu \otimes \mu'_1$, et posons $a = \| \mu'_1 \|$. La projection $pr_1$ de $T \times T'$ sur $T$ est alors $\nu_1$-propre, et la mesure image $pr_1(\nu_1)$ est égale à $a \mu$ ($\S 6$, n° 6, prop. 10). Si $(t, t') \mapsto f(t)$ est $\nu$-mesurable, elle est aussi $\nu_1$-mesurable, donc $f$ est mesurable par rapport à la mesure $a \mu$ ($\S 6$, n° 2, prop. 3), d’où le résultat puisque $a \neq 0$.
+La première assertion résulte du cor. 1 de la prop. 10 du $§ 6$, n° 6. Supposons qu’on ait $\mu' \neq 0$, désignons par $\mu'_1$ une mesure à support compact non nulle majorée par $\mu'$, par $\nu_1$ la mesure $\mu \otimes \mu'_1$, et posons $a = \| \mu'_1 \|$. La projection $pr_1$ de $T \times T'$ sur $T$ est alors $\nu_1$-propre, et la mesure image $pr_1(\nu_1)$ est égale à $a \mu$ ($§ 6$, n° 6, prop. 10). Si $(t, t') \mapsto f(t)$ est $\nu$-mesurable, elle est aussi $\nu_1$-mesurable, donc $f$ est mesurable par rapport à la mesure $a \mu$ ($§ 6$, n° 2, prop. 3), d’où le résultat puisque $a \neq 0$.
 
-L’énoncé précédent s’étend immédiatement aux mesures complexes (chap. III, $\S 4$, n° 2, prop. 3), ainsi que les corollaires ci-dessous.
+L’énoncé précédent s’étend immédiatement aux mesures complexes (chap. III, $§ 4$, n° 2, prop. 3), ainsi que les corollaires ci-dessous.
 
 #### Corollaire 1 {#int-v-s8-prop-3-cor-1 .statement}
 
 *Soient F, F' et G trois espaces topologiques, et soit u une application continue de $F \times F'$ dans G. Soit f (resp. $f'$) une fonction définie dans T (resp. T') à valeurs dans F (resp. F') et mesurable pour $\mu$ (resp. $\mu'$). Alors la fonction $(t, t') \mapsto u(f(t), f'(t'))$ est mesurable pour $\mu \otimes \mu'$.
 
-Les applications $(t, t') \mapsto f(t), (t, t') \mapsto f'(t')$ étant $\nu$-mesurables d’après la prop. 3, cela résulte du th. 1 du chap. IV, $\S 5$, n° 3.
+Les applications $(t, t') \mapsto f(t), (t, t') \mapsto f'(t')$ étant $\nu$-mesurables d’après la prop. 3, cela résulte du th. 1 du chap. IV, $§ 5$, n° 3.
 
 #### Corollaire 2 {#int-v-s8-prop-3-cor-2 .statement}
 
@@ -176,7 +176,7 @@ Le cas des fonctions complexes, ou des fonctions réelles finies, est une consé
 
 *Soit A une partie de T. Si A est localement $\mu$-négligeable, $A \times T'$ est localement $v$-négligeable. Inversement, si $A \times T'$ est localement $v$-négligeable, et si $\mu' \neq 0$, A est localement $\mu$-négligeable.*
 
-La première assertion résulte du cor. 1 de la prop. 10 du § 6, n° 6. Pour établir la seconde assertion, reprenons les notations de la démonstration de la prop. 3; $A \times T' = \overline{\mathrm{pr}}_1(A)$ est localement négligeable pour la mesure $v_1$, donc A est localement négligeable pour $a\mu$ ($\S 6$, n° 2, cor. 2 de la prop. 2), d’où le résultat puisque $a \neq 0$.
+La première assertion résulte du cor. 1 de la prop. 10 du § 6, n° 6. Pour établir la seconde assertion, reprenons les notations de la démonstration de la prop. 3; $A \times T' = \overline{\mathrm{pr}}_1(A)$ est localement négligeable pour la mesure $v_1$, donc A est localement négligeable pour $a\mu$ ($§ 6$, n° 2, cor. 2 de la prop. 2), d’où le résultat puisque $a \neq 0$.
 
 L’énoncé précédent s’étend aussitôt au produit de deux mesures complexes (chap. III, 2e éd., § 4, n° 2, prop. 3), ainsi que le corollaire ci-dessous.
 
@@ -261,13 +261,13 @@ $$
 \iint^* f(t, t') \, d\mu(t) \, d\mu'(t') = \int^* d\mu(t) \int^* f(t, t') \, d\mu'(t').
 $$
 
-L’assertion a), ainsi que l’assertion b) lorsque $\mu'$ est bornée, sont des conséquences de la prop. 5 du § 3, n° 2. Pour traiter le cas où $\mu'$ est modérée, représentons $\mu'$ comme une somme $\sum_{n \in \mathbf{N}} \mu'_n$ d’une suite de mesures bornées ($\S 2$, n° 3, prop. 4). La fonction $t \mapsto \int^* f(t, t') \, d\mu'_n(t')$ est alors $\mu$-mesurable, et on a
+L’assertion a), ainsi que l’assertion b) lorsque $\mu'$ est bornée, sont des conséquences de la prop. 5 du § 3, n° 2. Pour traiter le cas où $\mu'$ est modérée, représentons $\mu'$ comme une somme $\sum_{n \in \mathbf{N}} \mu'_n$ d’une suite de mesures bornées ($§ 2$, n° 3, prop. 4). La fonction $t \mapsto \int^* f(t, t') \, d\mu'_n(t')$ est alors $\mu$-mesurable, et on a
 
 $$
 \iint^* f(t, t') \, d\mu(t) \, d\mu'_n(t') = \int^* d\mu(t) \int^* f(t, t') \, d\mu'_n(t').
 $$
 
-Mais on a $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (prop. 1); l’assertion b) s’obtient alors en sommant sur $n$ ($\S 2$, n° 2, prop. 1).
+Mais on a $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (prop. 1); l’assertion b) s’obtient alors en sommant sur $n$ ($§ 2$, n° 2, prop. 1).
 
 #### Corollaire 1 {#int-v-s8-prop-7-cor-1 .statement}
 
@@ -275,7 +275,7 @@ Soit $H$ une partie de $T \times T'$, et soit $A$ l’ensemble des $t \in T$ tel
 a) Si $H$ est $v$-négligeable, $A$ est $\mu$-négligeable.
 b) Si $H$ est localement $v$-négligeable, et si $\mu'$ est modérée, $A$ est localement $\mu$-négligeable.
 
-La propriété a) résulte aussitôt de la prop. 7 (ou de la prop. 6). Sous l’hypothèse de b), il revient au même de dire que H(t) est localement $\mu'$-négligeable, ou $\mu'$-négligeable, puisque $\mu'$ est modérée ($\S 1$, n° 2, prop. 7). La propriété b) résulte donc de la formule (8).
+La propriété a) résulte aussitôt de la prop. 7 (ou de la prop. 6). Sous l’hypothèse de b), il revient au même de dire que H(t) est localement $\mu'$-négligeable, ou $\mu'$-négligeable, puisque $\mu'$ est modérée ($§ 1$, n° 2, prop. 7). La propriété b) résulte donc de la formule (8).
 
 Ce corollaire s’étend aussitôt, par passage aux valeurs absolues, au produit de deux mesures complexes. Il en est de même du corollaire suivant.
 
@@ -322,7 +322,7 @@ $$
 = \left( \int^* f(t)\,d\mu(t) \right) \left( \int^* f'(t')\,d\mu'(t') \right),
 $$
 
-qui est l’inégalité cherchée. La proposition est donc établie lorsque $\mu$ et $\mu'$ sont des mesures à support compact. Pour traiter le cas général, il suffit de représenter $\mu$ (resp. $\mu'$) comme la somme d’une famille $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) de mesures à support compact (\S 2, n° 3, prop. 4), d’écrire la formule (10) pour chaque mesure $\mu_\alpha \otimes \mu'_\beta$, et de sommer sur $(\alpha, \beta)$ en tenant compte de la prop. 1 (\S 2, n° 1, prop. 1).
+qui est l’inégalité cherchée. La proposition est donc établie lorsque $\mu$ et $\mu'$ sont des mesures à support compact. Pour traiter le cas général, il suffit de représenter $\mu$ (resp. $\mu'$) comme la somme d’une famille $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) de mesures à support compact (§ 2, n° 3, prop. 4), d’écrire la formule (10) pour chaque mesure $\mu_\alpha \otimes \mu'_\beta$, et de sommer sur $(\alpha, \beta)$ en tenant compte de la prop. 1 (§ 2, n° 1, prop. 1).
 
 #### Corollaire 1 {#int-v-s8-prop-8-cor-1 .statement}
 
@@ -334,7 +334,7 @@ $$
 
 sauf au plus lorsque l’un des facteurs du second membre est égal à 0 et l’autre égal à $+\infty$.
 
-Lorsque les deux facteurs du second membre sont finis, les fonctions $f$ et $f'$ sont modérées (\S 1, n° 2, prop. 7), la fonction $f \otimes f'$ est donc modérée (cor. 2 de la prop. 5); l’égalité ci-dessus se réduit donc à la formule (10) (\S 1, n° 2, prop. 7). Lorsque l’un des facteurs du second membre vaut $+\infty$, et que l’autre n’est pas nul, le second membre vaut $+\infty$, et l’égalité ci-dessus résulte de la prop. 6.
+Lorsque les deux facteurs du second membre sont finis, les fonctions $f$ et $f'$ sont modérées (§ 1, n° 2, prop. 7), la fonction $f \otimes f'$ est donc modérée (cor. 2 de la prop. 5); l’égalité ci-dessus se réduit donc à la formule (10) (§ 1, n° 2, prop. 7). Lorsque l’un des facteurs du second membre vaut $+\infty$, et que l’autre n’est pas nul, le second membre vaut $+\infty$, et l’égalité ci-dessus résulte de la prop. 6.
 
 #### Corollaire 2 {#int-v-s8-prop-8-cor-2 .statement}
 
@@ -344,7 +344,7 @@ $$
 \iint f(t)f'(t')\,d\mu(t)\,d\mu'(t') = \left( \int f(t)\,d\mu(t) \right) \left( \int f'(t')\,d\mu'(t') \right)
 $$
 
-Lorsque $f$ et $f'$ sont positives, $f \otimes f'$ est mesurable d’après le cor. 3 de la prop. 3, et l’énoncé résulte de la formule (10) (resp. (11)), et du critère d’intégrabilité essentielle ($\S 1$, n° 3, prop. 9) (resp. du critère d’intégrabilité du chap. IV, $\S 5$, n° 6, th. 5). Le cas général en résulte immédiatement.
+Lorsque $f$ et $f'$ sont positives, $f \otimes f'$ est mesurable d’après le cor. 3 de la prop. 3, et l’énoncé résulte de la formule (10) (resp. (11)), et du critère d’intégrabilité essentielle ($§ 1$, n° 3, prop. 9) (resp. du critère d’intégrabilité du chap. IV, $§ 5$, n° 6, th. 5). Le cas général en résulte immédiatement.
 
 Le corollaire 2 s’étend aussitôt au produit de deux mesures complexes.
 
@@ -362,7 +362,7 @@ $$
 
 b) Supposons que $\mathbf{f}$ soit essentiellement $v$-intégrable, et que la mesure $\mu'$ soit modérée ; $N$ est alors localement $\mu$-négligeable, la fonction $t \mapsto \int \mathbf{f}(t, t')\, d\mu'(t')$ (définie pour $t \notin N$) est essentiellement $\mu'$-intégrable, et on a (13).
 
-L’assertion a) résulte aussitôt du th. 1 du $\S 3$, n° 3. Pour établir b), désignons par $g$ une fonction $v$-intégrable, égale à $\mathbf{f}$ localement presque partout, et par $H$ l’ensemble des $(t, t')$ tels que $\mathbf{f}(t, t') \neq g(t, t')$. D’après le cor. 1 de la prop. 7, la coupe $H(t)$ est $\mu'$-négligeable, sauf pour des $t \in T$ qui forment un ensemble localement $\mu$-négligeable. Le résultat relatif à $\mathbf{f}$ se déduit donc de l’énoncé a), appliqué à $g$.
+L’assertion a) résulte aussitôt du th. 1 du $§ 3$, n° 3. Pour établir b), désignons par $g$ une fonction $v$-intégrable, égale à $\mathbf{f}$ localement presque partout, et par $H$ l’ensemble des $(t, t')$ tels que $\mathbf{f}(t, t') \neq g(t, t')$. D’après le cor. 1 de la prop. 7, la coupe $H(t)$ est $\mu'$-négligeable, sauf pour des $t \in T$ qui forment un ensemble localement $\mu$-négligeable. Le résultat relatif à $\mathbf{f}$ se déduit donc de l’énoncé a), appliqué à $g$.
 
 #### Scholie {#int-v-s8-n4-sch-1 .statement}
 
@@ -374,15 +374,15 @@ $$
 
 existent et soient égales, il faut et il suffit que l’un des deux nombres $\int^* d\mu(t) \int^* |\mathbf{f}(t, t')|\, d\mu'(t'), \int^* d\mu'(t') \int^* |\mathbf{f}(t, t')|\, d\mu(t)$ soit fini.
 
-C’est une conséquence immédiate du th. 1, de la prop. 7 et du critère d’intégrabilité (chap. IV, $\S 5$, n° 6, th. 5).
+C’est une conséquence immédiate du th. 1, de la prop. 7 et du critère d’intégrabilité (chap. IV, $§ 5$, n° 6, th. 5).
 
 #### Remarque 1 {#int-v-s8-n4-rem-1 .statement}
 
-Lorsque la mesure $\mu'$ n’est pas modérée, il se peut que $f$ soit essentiellement $\nu$-intégrable, et que la fonction $t \mapsto f(t, t')$ ne soit essentiellement $\mu'$-intégrable pour aucune valeur de $t \in T$ (\S 3, exerc. 4).
+Lorsque la mesure $\mu'$ n’est pas modérée, il se peut que $f$ soit essentiellement $\nu$-intégrable, et que la fonction $t \mapsto f(t, t')$ ne soit essentiellement $\mu'$-intégrable pour aucune valeur de $t \in T$ (§ 3, exerc. 4).
 
 #### Remarque 2 {#int-v-s8-n4-rem-2 .statement}
 
-Soient $\mu$ et $\mu'$ deux mesures complexes, et soit $\nu = \mu \otimes \mu'$. Si $f$ est $\nu$-intégrable (autrement dit, $|\nu|$-intégrable), le théorème appliqué aux mesures $|\mu|$ et $|\mu'|$, dont le produit est $|\nu|$ (chap. III, 2e éd., \S 4, n° 2, prop. 3), entraîne que $t' \mapsto f(t, t')$ est $\mu'$-intégrable pour $\mu$-presque tout $t$. On en déduit, en décomposant les mesures $\mu$ et $\mu'$ en combinaison linéaire de mesures positives, que l’énoncé de a) s’étend aux mesures complexes. On peut raisonner de même pour b).
+Soient $\mu$ et $\mu'$ deux mesures complexes, et soit $\nu = \mu \otimes \mu'$. Si $f$ est $\nu$-intégrable (autrement dit, $|\nu|$-intégrable), le théorème appliqué aux mesures $|\mu|$ et $|\mu'|$, dont le produit est $|\nu|$ (chap. III, 2e éd., § 4, n° 2, prop. 3), entraîne que $t' \mapsto f(t, t')$ est $\mu'$-intégrable pour $\mu$-presque tout $t$. On en déduit, en décomposant les mesures $\mu$ et $\mu'$ en combinaison linéaire de mesures positives, que l’énoncé de a) s’étend aux mesures complexes. On peut raisonner de même pour b).
 
 #### Proposition 9 {#int-v-s8-prop-9 .statement}
 
@@ -403,7 +403,7 @@ $$
 = b \left( \int^\bullet |f(t)| \, d\mu(t) \right) \left( \int^\bullet |f'(t')| \, d\mu'(t') \right)
 $$
 
-en vertu de la prop. 8. Cela montre que $[f(t) . f'(t')]$ est essentiellement intégrable pour $\mu \otimes \mu'$ (\S 1, n° 3, prop. 9). Supposons que $f$ et $f'$ soient intégrables : $f$ et $f'$ sont alors modérées, $g$ est modérée (cor. 2 de la prop. 5), donc intégrable (\S 1, n° 3, cor. de la prop. 9). Dans ce cas la formule (14) résulte du théorème de Lebesgue–Fubini et de la linéarité de l’intégrale (chap. IV, \S 4, n° 2, th. 1). Pour achever de traiter le cas où $f$ et $f'$ sont essentiellement intégrables, on applique alors (14) à deux fonctions intégrables $f_1$ et $f'_1$, égales localement presque partout à $f$ et $f'_1$, en remarquant que $[f . f'] = [f_1 . f'_1]$ localement presque partout dans $T \times T'$ (prop. 4).
+en vertu de la prop. 8. Cela montre que $[f(t) . f'(t')]$ est essentiellement intégrable pour $\mu \otimes \mu'$ (§ 1, n° 3, prop. 9). Supposons que $f$ et $f'$ soient intégrables : $f$ et $f'$ sont alors modérées, $g$ est modérée (cor. 2 de la prop. 5), donc intégrable (§ 1, n° 3, cor. de la prop. 9). Dans ce cas la formule (14) résulte du théorème de Lebesgue–Fubini et de la linéarité de l’intégrale (chap. IV, § 4, n° 2, th. 1). Pour achever de traiter le cas où $f$ et $f'$ sont essentiellement intégrables, on applique alors (14) à deux fonctions intégrables $f_1$ et $f'_1$, égales localement presque partout à $f$ et $f'_1$, en remarquant que $[f . f'] = [f_1 . f'_1]$ localement presque partout dans $T \times T'$ (prop. 4).
 
 Ce résultat s’étend au produit de deux mesures complexes.
 
@@ -425,7 +425,7 @@ b) Inversement, si $g \otimes g'$ est localement $\nu$-intégrable, et si $g'$ n
 
 a) Soient K et K' deux parties compactes de T et de T' respectivement; le cor. 2 de la prop. 8 montre que la fonction $(t, t') \mapsto g(t)g'(t')\varphi_{K \times K'}(t, t')$, égale à $(g\varphi_K) \otimes (g'\varphi_{K'})$, est $\nu$-intégrable. Par conséquent, $g \otimes g'$ est localement $\nu$-intégrable. On vérifie alors aussitôt que le second membre de (15) satisfait à la propriété caractéristique des mesures produit (chap. III, § 4, n° 1, th. 1).
 
-b) Supposons maintenant que $g \otimes g'$ soit localement $\nu$-intégrable, et que $g'$ ne soit pas localement $\mu'$-négligeable. Soit $\mu_1$ une mesure positive à support compact telle que $\mu_1 \leq \mu$; $g \otimes g'$ étant $(\mu_1 \otimes \mu')$-mesurable, $t \mapsto g(t)g'(t')$ est $\mu_1$-mesurable, sauf pour un ensemble localement $\mu'$-négligeable de valeurs de $t'$ (prop. 2). Comme $g'$ n’est pas nulle localement $\mu'$-presque partout, on en déduit que $g$ est $\mu_1$-mesurable, puis $\mu$-mesurable en décomposant $\mu$ en somme d’une famille de mesures à support compact (\S 2, n° 3, prop. 4 et \S 2, n° 2, prop. 2). Ce point étant établi, en peut se ramener au cas où $g$ et $g'$ sont $\geq 0$, en remplaçant $g$ et $g'$ par leurs valeurs absolues si nécessaire. Soit K un compact quelconque de T, et soit K' un compact de T' tel que $\int g'\varphi_{K'} d\mu' \neq 0$. On a d’après la prop. 8
+b) Supposons maintenant que $g \otimes g'$ soit localement $\nu$-intégrable, et que $g'$ ne soit pas localement $\mu'$-négligeable. Soit $\mu_1$ une mesure positive à support compact telle que $\mu_1 \leq \mu$; $g \otimes g'$ étant $(\mu_1 \otimes \mu')$-mesurable, $t \mapsto g(t)g'(t')$ est $\mu_1$-mesurable, sauf pour un ensemble localement $\mu'$-négligeable de valeurs de $t'$ (prop. 2). Comme $g'$ n’est pas nulle localement $\mu'$-presque partout, on en déduit que $g$ est $\mu_1$-mesurable, puis $\mu$-mesurable en décomposant $\mu$ en somme d’une famille de mesures à support compact (§ 2, n° 3, prop. 4 et § 2, n° 2, prop. 2). Ce point étant établi, en peut se ramener au cas où $g$ et $g'$ sont $\geq 0$, en remplaçant $g$ et $g'$ par leurs valeurs absolues si nécessaire. Soit K un compact quelconque de T, et soit K' un compact de T' tel que $\int g'\varphi_{K'} d\mu' \neq 0$. On a d’après la prop. 8
 
 $$
 (\int g\varphi_K d\mu)(\int g'\varphi_{K'} d\mu') = \iint (g \otimes g')\varphi_{K \times K'} d\mu d\mu' < +\infty.
@@ -449,7 +449,7 @@ $$
 $$
 (cor. 2 de la prop. 8), ce qui prouve que $v_1 = \mu_1 \otimes \mu'_1$ (chap. III, 2e éd., § 4, n° 1, th. 1).
 
-b) Supposons maintenant que $\pi \times \pi'$ soit $\mu \otimes \mu'$-propre, et que $\mu' \neq 0$. Soit $\mu_1$ une mesure à support compact majorée par $\mu$. La fonction $\pi \times \pi'$ étant mesurable pour $\mu_1 \otimes \mu'$, l’application $t \mapsto (\pi(t), \pi'(t'))$ est $\mu$-mesurable, sauf pour des $t'$ qui forment un ensemble localement $\mu'$-négligeable (n° 2, prop. 2). Comme $\mu' \neq 0$, il en résulte que $\pi$ est $\mu_1$-mesurable, et finalement que $\pi$ est $\mu$-mesurable (\$ 2, n° 3, prop. 4 et \$ 2, n° 2, prop. 2). Reste à montrer qu’on a $\mu^*(f \circ \pi) < +\infty$ pour toute fonction $f \in \mathcal{K}_+(T_1)$. Si $\mu$ est nulle, cette propriété est évidente. Si $\mu$ n’est pas nulle, $\mu \otimes \mu'$ ne l’est pas non plus, et on a par conséquent $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (\$ 6, n° 2, prop. 2). D’après le lemme 1 du chap. III, 2e éd., § 4, il existe deux fonctions $g \in \mathcal{K}_+(T_1)$, $g' \in \mathcal{K}_+(T'_1)$, telles que
+b) Supposons maintenant que $\pi \times \pi'$ soit $\mu \otimes \mu'$-propre, et que $\mu' \neq 0$. Soit $\mu_1$ une mesure à support compact majorée par $\mu$. La fonction $\pi \times \pi'$ étant mesurable pour $\mu_1 \otimes \mu'$, l’application $t \mapsto (\pi(t), \pi'(t'))$ est $\mu$-mesurable, sauf pour des $t'$ qui forment un ensemble localement $\mu'$-négligeable (n° 2, prop. 2). Comme $\mu' \neq 0$, il en résulte que $\pi$ est $\mu_1$-mesurable, et finalement que $\pi$ est $\mu$-mesurable (§ 2, n° 3, prop. 4 et § 2, n° 2, prop. 2). Reste à montrer qu’on a $\mu^*(f \circ \pi) < +\infty$ pour toute fonction $f \in \mathcal{K}_+(T_1)$. Si $\mu$ est nulle, cette propriété est évidente. Si $\mu$ n’est pas nulle, $\mu \otimes \mu'$ ne l’est pas non plus, et on a par conséquent $(\pi \times \pi')(\mu \otimes \mu') \neq 0$ (§ 6, n° 2, prop. 2). D’après le lemme 1 du chap. III, 2e éd., § 4, il existe deux fonctions $g \in \mathcal{K}_+(T_1)$, $g' \in \mathcal{K}_+(T'_1)$, telles que
 $$
 \langle (\pi \times \pi')(\mu \otimes \mu'), g \otimes g' \rangle \neq 0.
 $$

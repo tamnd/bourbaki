@@ -40,7 +40,7 @@ subsections:
       pdf_page: 148
 statements: 33
 exercises: 25
-content_sha256: 0ff523e5d5f2c323ee054e42091efca38799fd9de2cd23436a9d309c54b3aa61
+content_sha256: 1c0f1337338e5670b4becab836d2ddb70623f0a03c9fc1acc2628be34f187ea5
 ---
 
 ## § 5. Modules projectifs de type fini Idéaux fractionnaires inversibles
@@ -83,9 +83,9 @@ En vertu du § 2, n° 4, th. 1, chacun des A_{f_i} est un A-module plat, donc il
 
 Sous les hypothèses de la prop. 3, pour qu’un A-module M soit de type fini (resp. de présentation finie), il faut et il suffit que, pour tout indice $i$, le $A_{f_i}$-module $M_{f_i}$ soit de type fini (resp. de présentation finie).
 
-La condition est évidemment nécessaire ($\S 2$, no 4). Inversement, si tous les $M_{f_i}$ sont de type fini (resp. de présentation finie), $M' = \prod_{i \in I} M_{f_i}$ est un B-module de type fini (resp. de présentation finie, car on peut évidemment supposer que pour chaque $i$ il y a une suite exacte $A_{f_i}^m \to A_{f_i}^n \to M_{f_i} \to 0$, où $m$ et $n$ sont indépendants de $i$). Or, on a $M' = M \otimes_A B$. Le corollaire résulte alors de la prop. 3 et du chap. I, $\S 3$, no 6, prop. 11.
+La condition est évidemment nécessaire ($§ 2$, no 4). Inversement, si tous les $M_{f_i}$ sont de type fini (resp. de présentation finie), $M' = \prod_{i \in I} M_{f_i}$ est un B-module de type fini (resp. de présentation finie, car on peut évidemment supposer que pour chaque $i$ il y a une suite exacte $A_{f_i}^m \to A_{f_i}^n \to M_{f_i} \to 0$, où $m$ et $n$ sont indépendants de $i$). Or, on a $M' = M \otimes_A B$. Le corollaire résulte alors de la prop. 3 et du chap. I, $§ 3$, no 6, prop. 11.
 
-On notera que la condition sur les $f_i$ signifie que les ensembles ouverts $X_{f_i}$ forment un recouvrement de $\mathrm{Spec}(A)$ ($\S 4$, no 3, cor. 3 de la prop. 11).
+On notera que la condition sur les $f_i$ signifie que les ensembles ouverts $X_{f_i}$ forment un recouvrement de $\mathrm{Spec}(A)$ ($§ 4$, no 3, cor. 3 de la prop. 11).
 
 ### 2. Caractérisation locale des modules projectifs de type fini.
 
@@ -108,7 +108,7 @@ b) & \Rightarrow & e)
 \end{array}
 $$
 
-$a) \Rightarrow b)$: On sait qu’un module projectif de type fini est de présentation finie (chap. I, $\S 2$, no 8, lemme 8, (iii)) ; si $P$ est un $A$-module projectif, $P_m = P \otimes_A A_m$ est un $A_m$-module projectif ($Alg.$, chap. II, 3e éd., § 5, no 1, cor. de la prop. 4); enfin, comme $A_m$ est un anneau local, tout $A_m$-module projectif de présentation finie est libre ($§ 3$, no 2, cor. 2 de la prop. 5).
+$a) \Rightarrow b)$: On sait qu’un module projectif de type fini est de présentation finie (chap. I, $§ 2$, no 8, lemme 8, (iii)) ; si $P$ est un $A$-module projectif, $P_m = P \otimes_A A_m$ est un $A_m$-module projectif ($Alg.$, chap. II, 3e éd., § 5, no 1, cor. de la prop. 4); enfin, comme $A_m$ est un anneau local, tout $A_m$-module projectif de présentation finie est libre ($§ 3$, no 2, cor. 2 de la prop. 5).
 
 $b) \Rightarrow e)$: Cela résulte du corollaire de la prop. 2 du no 1.
 
@@ -124,13 +124,13 @@ $d) \Rightarrow a)$: Considérons l’anneau $B = \prod_{i \in I} A_{f_i}$ et le
 
 Supposons vérifiées les propriétés équivalentes de l’énoncé du th. 1. Soit m un entier $> 0$ tel que, pour toute famille $(x_i)_{1 \leq i \leq m}$ d’éléments de P, il existe une famille $(a_i)_{1 \leq i \leq m}$ d’éléments de A, non tous diviseurs de zéro, et pour lesquels $\sum_{i=1}^m a_i x_i = 0$. Alors, pour tout $p \in \mathrm{Spec}\,(A)$, on a $r_p \leq m$.
 
-En effet, soit $p$ un idéal premier de A ; posons $r = r_p$ et soit $(y_j)_{1 \leq j \leq r}$ une base du $A_p$-module libre $P_p$. Il existe des éléments $x_j$ ($1 \leq j \leq r$) de P et un $s \in A - p$ tels que $y_j = x_j / s$ pour tout $j$. Pour toute famille $(a_j)_{1 \leq j \leq r}$ d’éléments de A tels que $\sum_{j=1}^r a_j x_j = 0$, on a alors $\sum_{j=1}^r (a_j / 1) y_j = 0$ dans $P_p$, d’où $a_j / 1 = 0$ pour $1 \leq j \leq r$. Comme $A - p$ ne contient pas 0, cela montre que les $a_j$ sont tous diviseurs de zéro dans A ($\S 2$, no 1, Remarque 3), donc on a nécessairement $r \leq m$.
+En effet, soit $p$ un idéal premier de A ; posons $r = r_p$ et soit $(y_j)_{1 \leq j \leq r}$ une base du $A_p$-module libre $P_p$. Il existe des éléments $x_j$ ($1 \leq j \leq r$) de P et un $s \in A - p$ tels que $y_j = x_j / s$ pour tout $j$. Pour toute famille $(a_j)_{1 \leq j \leq r}$ d’éléments de A tels que $\sum_{j=1}^r a_j x_j = 0$, on a alors $\sum_{j=1}^r (a_j / 1) y_j = 0$ dans $P_p$, d’où $a_j / 1 = 0$ pour $1 \leq j \leq r$. Comme $A - p$ ne contient pas 0, cela montre que les $a_j$ sont tous diviseurs de zéro dans A ($§ 2$, no 1, Remarque 3), donc on a nécessairement $r \leq m$.
 
 #### Corollaire 2 {#ac-ii-s5-thm-1-cor-2 .statement}
 
 Tout module plat de présentation finie est projectif.
 
-En effet, si P est un A-module plat de présentation finie, et m un idéal maximal de A, le $A_m$-module $P_m$ est plat ($\S 3$, no 4, prop. 13) et de présentation finie ($\S 2$, no 4), donc libre ($\S 3$, no 2, cor. 2 de la prop. 5). La condition b) du th. 1 est donc vérifiée.
+En effet, si P est un A-module plat de présentation finie, et m un idéal maximal de A, le $A_m$-module $P_m$ est plat ($§ 3$, no 4, prop. 13) et de présentation finie ($§ 2$, no 4), donc libre ($§ 3$, no 2, cor. 2 de la prop. 5). La condition b) du th. 1 est donc vérifiée.
 
 #### Remarque 1 {#ac-ii-s5-n2-rem-1 .statement}
 
@@ -143,7 +143,7 @@ Il existe des modules plats de type fini qui ne sont pas projectifs (exerc. 7).
 
 Soit P un A-module projectif de type fini. Pour tout idéal premier $p$ de A, le rang du $A_p$-module libre $P_p$ s'appelle le rang de P en $p$ et se note $\mathrm{rg}_p(P)$.
 
-En vertu du th. 1, la fonction $p \to \mathrm{rg}_p(P)$ à valeurs entières est localement constante dans $X = \mathrm{Spec}(A)$; elle est par suite constante si X est connexe, et en particulier lorsque l'anneau A est intègre ($\S 4$, no 3, cor. 2 de la prop. 15).
+En vertu du th. 1, la fonction $p \to \mathrm{rg}_p(P)$ à valeurs entières est localement constante dans $X = \mathrm{Spec}(A)$; elle est par suite constante si X est connexe, et en particulier lorsque l'anneau A est intègre ($§ 4$, no 3, cor. 2 de la prop. 15).
 
 #### Définition 2 {#ac-ii-s5-def-2 .statement}
 
@@ -151,7 +151,7 @@ Soit n un entier $\geqslant 0$. On dit qu'un A-module projectif P est de rang n 
 
 Il est clair que tout A-module libre de type fini L est de rang n au sens de la définition 2, n étant égal à la dimension (ou rang) de L définie en Alg., chap. II, 3e éd., § 7, no 2.
 
-Un module projectif de rang 0 est nul ($\S 3$, no 3, cor. 2 du th. 1). Si A n'est pas réduit à 0 et si un A-module projectif P est de rang n, l'entier n est déterminé de façon unique ; on le note alors $\mathrm{rg}(P)$.
+Un module projectif de rang 0 est nul ($§ 3$, no 3, cor. 2 du th. 1). Si A n'est pas réduit à 0 et si un A-module projectif P est de rang n, l'entier n est déterminé de façon unique ; on le note alors $\mathrm{rg}(P)$.
 
 #### Théorème 2 {#ac-ii-s5-thm-2 .statement}
 
@@ -161,7 +161,7 @@ b) P est de type fini et, pour tout idéal maximal m de A, le $A_m$-module $P_m$
 c) P est de type fini et, pour tout idéal premier $p$ de A, le $A_p$-module $P_p$ est libre de rang n.
 d) Pour tout idéal maximal m de A, il existe $f \in A - m$ tel que le $A_f$-module $P_f$ soit libre de rang n.
 
-En vertu de la déf. 2 et du th. 1, a) et c) sont équivalentes ; b) implique c), car pour tout idéal premier $p$ de A, il existe un idéal maximal m contenant $p$, et si on pose $p' = p_m$, $P_p$ est isomorphe à $(P_m)_{p'}$ ($\S 2$, no 5, prop. 11) ; si $P_m$ est libre de rang n, il en est donc de même de $P_p$. La propriété c) implique d) en vertu du th. 1 et du fait que, si $f \in A - m$ et si $m' = m_f$, $P_m$ est isomorphe à $(P_f)_{m'}$, donc les rangs de $P_f$ et $P_m$ sont égaux. Enfin ce dernier raisonnement et le th. 1 montrent que d) implique b).
+En vertu de la déf. 2 et du th. 1, a) et c) sont équivalentes ; b) implique c), car pour tout idéal premier $p$ de A, il existe un idéal maximal m contenant $p$, et si on pose $p' = p_m$, $P_p$ est isomorphe à $(P_m)_{p'}$ ($§ 2$, no 5, prop. 11) ; si $P_m$ est libre de rang n, il en est donc de même de $P_p$. La propriété c) implique d) en vertu du th. 1 et du fait que, si $f \in A - m$ et si $m' = m_f$, $P_m$ est isomorphe à $(P_f)_{m'}$, donc les rangs de $P_f$ et $P_m$ sont égaux. Enfin ce dernier raisonnement et le th. 1 montrent que d) implique b).
 
 #### Remarque {#ac-ii-s5-n3-rem-1 .statement}
 
@@ -205,9 +205,9 @@ Soient A un anneau, M un A-module de type fini.
 
 (ii) Réciproquement, si M est projectif de rang 1 et si M^* est le dual de M, l’homomorphisme canonique u : M \otimes_A M^* \to A correspondant à la forme bilinéaire canonique (x, x^*) \to \langle x, x^* \rangle sur M \times M^* (Alg., chap. II, 3e éd., § 2, n° 3) est bijectif.
 
-(i) Il s’agit de prouver que, pour tout idéal maximal m de A, le A_m-module M_m est libre de rang 1 (th. 2 b)); quitte à remplacer A par A_m, on peut donc supposer que A est un anneau local (\S 2, n° 7, prop. 18). Soit k = A/m. L’isomorphisme \varphi : M \otimes_A N \to A définit un isomorphisme \varphi \otimes 1_k : (M/mM) \otimes_k (N/mN) \to k : comme le rang sur $k$ de $(M/mM) \otimes_k (N/mN)$ est le produit des rangs de $M/mM$ et $N/mN$, ces derniers sont nécessairement égaux à 1, autrement dit $M/mM$ est monogène. On en conclut que $M$ est monogène ($\S 3$, no 2, cor. 2 de la prop. 4); d'autre part, l'annulateur de $M$ annule aussi $M \otimes_A N$, donc est nul, ce qui prouve que $M$ est isomorphe à $A$.
+(i) Il s’agit de prouver que, pour tout idéal maximal m de A, le A_m-module M_m est libre de rang 1 (th. 2 b)); quitte à remplacer A par A_m, on peut donc supposer que A est un anneau local (§ 2, n° 7, prop. 18). Soit k = A/m. L’isomorphisme \varphi : M \otimes_A N \to A définit un isomorphisme \varphi \otimes 1_k : (M/mM) \otimes_k (N/mN) \to k : comme le rang sur $k$ de $(M/mM) \otimes_k (N/mN)$ est le produit des rangs de $M/mM$ et $N/mN$, ces derniers sont nécessairement égaux à 1, autrement dit $M/mM$ est monogène. On en conclut que $M$ est monogène ($§ 3$, no 2, cor. 2 de la prop. 4); d'autre part, l'annulateur de $M$ annule aussi $M \otimes_A N$, donc est nul, ce qui prouve que $M$ est isomorphe à $A$.
 
-(ii) Il suffit de prouver que, pour tout idéal maximal $m$ de $A$, $u_m$ est un isomorphisme ($\S 3$, no 3, th. 1). Comme $M$ est de présentation finie (chap. I, $\S 2$, no 8, lemme 8) $(M^*)_m$ s'identifie canoniquement au dual $(M_m)^*$ ($\S 2$, no 7, prop. 19) et comme $M_m$ est libre de rang 1 ainsi que son dual $(M_m)^*$, il est clair que l'homomorphisme canonique $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ est bijectif, ce qui achève la démonstration.
+(ii) Il suffit de prouver que, pour tout idéal maximal $m$ de $A$, $u_m$ est un isomorphisme ($§ 3$, no 3, th. 1). Comme $M$ est de présentation finie (chap. I, $§ 2$, no 8, lemme 8) $(M^*)_m$ s'identifie canoniquement au dual $(M_m)^*$ ($§ 2$, no 7, prop. 19) et comme $M_m$ est libre de rang 1 ainsi que son dual $(M_m)^*$, il est clair que l'homomorphisme canonique $u_m : (M_m) \otimes_{A_m} (M_m)^* \to A_m$ est bijectif, ce qui achève la démonstration.
 
 Remarque 1). — Si $M$ est projectif de rang 1 et si $N$ est tel que $M \otimes_A N$ soit isomorphe à $A$, alors $N$ est isomorphe à $M^*$: en effet, on a des isomorphismes
 
@@ -221,7 +221,7 @@ Soient $M$ et $N$ des $A$-modules projectifs de rang 1. Alors $M \otimes_A N$, $
 
 Cela résulte aussitôt des formules (2), (3) et (4).
 
-Notons maintenant que tout $A$-module de type fini est isomorphe à un module quotient de $L = A^{(\mathbf{N})}$; on peut donc parler de l'ensemble $F(A)$ des classes de $A$-modules de type fini pour la relation d'isomorphie (Ens., chap. I, 2e éd., $\S 6$, no 9); nous désignons par $P(A)$ la partie de $F(A)$ formée des classes de $A$-modules projectifs de rang 1, et par $\mathrm{cl}(M)$ l'image dans $P(A)$ d'un $A$-module projectif $M$ de rang 1. Il est immédiat que, pour deux $A$-modules projectifs $M, N$ de rang 1, $\mathrm{cl}(M \otimes_A N)$ ne dépend que de $\mathrm{cl}(M)$ et de $\mathrm{cl}(N)$; on pose par définition
+Notons maintenant que tout $A$-module de type fini est isomorphe à un module quotient de $L = A^{(\mathbf{N})}$; on peut donc parler de l'ensemble $F(A)$ des classes de $A$-modules de type fini pour la relation d'isomorphie (Ens., chap. I, 2e éd., $§ 6$, no 9); nous désignons par $P(A)$ la partie de $F(A)$ formée des classes de $A$-modules projectifs de rang 1, et par $\mathrm{cl}(M)$ l'image dans $P(A)$ d'un $A$-module projectif $M$ de rang 1. Il est immédiat que, pour deux $A$-modules projectifs $M, N$ de rang 1, $\mathrm{cl}(M \otimes_A N)$ ne dépend que de $\mathrm{cl}(M)$ et de $\mathrm{cl}(N)$; on pose par définition
 
 $$
 \mathrm{cl}(M) + \mathrm{cl}(N) = \mathrm{cl}(M \otimes_A N)
@@ -255,7 +255,7 @@ groupe $P(A)$ est isomorphe au premier groupe de cohomologie $H^1(X, \mathcal{O}
 
 ### 5. Sous-modules non dégénérés.
 
-Dans ce no et les deux suivants, on note $A$ un anneau, $S$ une partie multiplicative de $A$ formée d’éléments non diviseurs de zéro dans $A$, et $B$ l’anneau $S^{-1}A$; on identifie canoniquement $A$ à un sous-anneau de $B$ ($\S 2$, no 1, Remarque 3). Les éléments de $S$ sont alors inversibles dans $B$.
+Dans ce no et les deux suivants, on note $A$ un anneau, $S$ une partie multiplicative de $A$ formée d’éléments non diviseurs de zéro dans $A$, et $B$ l’anneau $S^{-1}A$; on identifie canoniquement $A$ à un sous-anneau de $B$ ($§ 2$, no 1, Remarque 3). Les éléments de $S$ sont alors inversibles dans $B$.
 
 L’un des cas particuliers les plus importants pour les applications est celui où $A$ est intègre et $S$ l’ensemble des éléments $\neq 0$ de $A$; $B$ est alors le corps des fractions de $A$.
 
@@ -271,7 +271,7 @@ Soit $M$ un sous-A-module de $B$. Les conditions suivantes sont équivalentes :
 a) $M$ est non dégénéré.
 b) $M$ rencontre $S$.
 c) Si $j : M \to B$ est l’injection canonique, l’homomorphisme $u = S^{-1}j : S^{-1}M \to B$ est bijectif.
-   a) implique b), car si $B.M = B$, il existe $a \in A, s \in S$ et $x \in M$ tels que $(a/s)x = 1$, donc $ax = s$ appartient à $S \cap M$. Pour voir que b) implique c), remarquons déjà que $u$ est injectif ($\S 2$, no 4, th. 1) ; en outre si $x \in M \cap S$, l’image par $u$ de $x/x \in S^{-1}M$ dans $B$ est égale à 1, et $u$ est donc surjectif. Enfin, il est clair que c) entraîne a).
+   a) implique b), car si $B.M = B$, il existe $a \in A, s \in S$ et $x \in M$ tels que $(a/s)x = 1$, donc $ax = s$ appartient à $S \cap M$. Pour voir que b) implique c), remarquons déjà que $u$ est injectif ($§ 2$, no 4, th. 1) ; en outre si $x \in M \cap S$, l’image par $u$ de $x/x \in S^{-1}M$ dans $B$ est égale à 1, et $u$ est donc surjectif. Enfin, il est clair que c) entraîne a).
 
 #### Corollaire {#ac-ii-s5-n5-cor-1 .statement}
 
@@ -338,7 +338,7 @@ $$
 
 Pour tout $x \in M$, posons $\nu_i(x) = n_i x$; les $\nu_i$ sont des formes linéaires sur M et on a, en vertu de (9), $x = \sum_{i=1}^n m_i \nu_i(x)$ pour tout $x \in M$; cela prouve (Alg., chap. II, 3e éd., § 2, no 6, prop. 12) que M est projectif et engendré par les $m_i$; donc M est un module projectif de type fini.
 
-Soit $m$ un idéal maximal de A; montrons que l’entier $r = \mathrm{rg}_m(M)$ est égal à 1. Soit S’ l’image de S dans $A_m$; comme les éléments de S sont non diviseurs de 0 dans A, ceux de S’ sont non diviseurs de 0 dans $A_m$, puisque $A_m$ est un A-module plat ($\S 2$, no 4, th. 1 et chap. I, § 2, no 4, prop. 3); on a donc $S'{}^{-1}A_m \neq 0$, et comme $M_m$ est un $A_m$-module libre de rang $r$, $S'{}^{-1}M_m$ est un $S'{}^{-1}A_m$-module libre de rang $r$. Mais si T’ est l’image de $A - m$ dans $S^{-1}A$, $S'{}^{-1}A_m$ (resp. $S'{}^{-1}M_m$) s’identifie canoniquement à $T'{}^{-1}(S^{-1}A)$ (resp. $T'{}^{-1}(S^{-1}M)$) ($\S 2$, no 3, prop. 7). Or $S^{-1}M = B$ (prop. 8 c)), donc T'−1(S−1M) est un module libre de rang 1 sur T'−1(S−1A), ce qui prouve que r = 1 et démontre l’implication a) ⇒ c).
+Soit $m$ un idéal maximal de A; montrons que l’entier $r = \mathrm{rg}_m(M)$ est égal à 1. Soit S’ l’image de S dans $A_m$; comme les éléments de S sont non diviseurs de 0 dans A, ceux de S’ sont non diviseurs de 0 dans $A_m$, puisque $A_m$ est un A-module plat ($§ 2$, no 4, th. 1 et chap. I, § 2, no 4, prop. 3); on a donc $S'{}^{-1}A_m \neq 0$, et comme $M_m$ est un $A_m$-module libre de rang $r$, $S'{}^{-1}M_m$ est un $S'{}^{-1}A_m$-module libre de rang $r$. Mais si T’ est l’image de $A - m$ dans $S^{-1}A$, $S'{}^{-1}A_m$ (resp. $S'{}^{-1}M_m$) s’identifie canoniquement à $T'{}^{-1}(S^{-1}A)$ (resp. $T'{}^{-1}(S^{-1}M)$) ($§ 2$, no 3, prop. 7). Or $S^{-1}M = B$ (prop. 8 c)), donc T'−1(S−1M) est un module libre de rang 1 sur T'−1(S−1A), ce qui prouve que r = 1 et démontre l’implication a) ⇒ c).
 
 L’implication c) ⇒ b) est triviale. Montrons que b) ⇒ a). Il existe par hypothèse une famille (non nécessairement finie) (fλ)λ∈L de formes linéaires sur M et une famille (mλ)λ∈L d’éléments de M tels que, pour tout x ∈ M, la famille (fλ(x)) ait un support fini et que l’on ait x = Σ λ mλfλ(x) (Alg., chap. II, 3e éd., § 2, n° 6, prop. 12).
 Puisque M est non dégénéré, on a fλ(x) = nλx pour un nλ ∈ A : M en vertu de la prop. 9 du n° 5. Prenant pour x un élément de M ∩ S (n° 5, prop. 8), on voit qu’on a nécessairement nλ = 0 sauf pour un nombre fini d’indices, et Σ λ mλnλ = 1. Cela entraîne évidemment M.(A : M) = A, d’où a).

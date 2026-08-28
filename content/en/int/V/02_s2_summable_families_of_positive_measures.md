@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 4
-content_sha256: 290c436e1eb1835d7f3151eac47140087383fdc5ddbccba20fa7ed077333c707
+content_sha256: 67f5fe101b21cf538af3c09dc97e270ed6343b8689b60190287e3daa14bd9f11
 ---
 
 ## § 2. SUMMABLE FAMILIES OF POSITIVE MEASURES
@@ -88,15 +88,15 @@ $$
 \nu^*(f) \geq \sum_{\alpha \in A} \lambda_\alpha^*(f).
 $$*
 
-The inequality is obvious if $f$ is not $\nu$-moderated, because then $\nu^*(f) = +\infty$ ($\S 1$, No. 2, Prop. 7). If $f$ is $\nu$-moderated then $f$ is $\lambda_\alpha$-moderated for every $\alpha \in A$, because every $\nu$-integrable open set is $\lambda_\alpha$-integrable; the relation (4) then follows at once from (3) and from Prop. 7 of $\S 1$, No. 2.
+The inequality is obvious if $f$ is not $\nu$-moderated, because then $\nu^*(f) = +\infty$ ($§ 1$, No. 2, Prop. 7). If $f$ is $\nu$-moderated then $f$ is $\lambda_\alpha$-moderated for every $\alpha \in A$, because every $\nu$-integrable open set is $\lambda_\alpha$-integrable; the relation (4) then follows at once from (3) and from Prop. 7 of $§ 1$, No. 2.
 
-It can happen that the two members of (4) are not equal, even when $A$ is countable and each of the $\lambda_\alpha$ is a point measure ($\S 1$, Exer. 4 a)).
+It can happen that the two members of (4) are not equal, even when $A$ is countable and each of the $\lambda_\alpha$ is a point measure ($§ 1$, Exer. 4 a)).
 
 #### Proposition 2 {#int-v-s2-prop-2 .statement}
 
 — *Let $f$ be a mapping of $X$ into a topological space $G$. For $f$ to be $\nu$-measurable, it is necessary and sufficient that $f$ be $\lambda_\alpha$-measurable for every $\alpha \in A$.*
 
-This follows at once from Cor. 2 of Prop. 11 of $\S 1$.
+This follows at once from Cor. 2 of Prop. 11 of $§ 1$.
 
 #### Proposition 3 {#int-v-s2-prop-3 .statement}
 
@@ -112,7 +112,7 @@ $$
 \int f \, d\nu = \sum_{\alpha \in A} \int f \, d\lambda_\alpha .
 $$
 
-Indeed, for $f$ to be essentially $\nu$-integrable (resp. essentially $\lambda_\alpha$-integrable), it is necessary and sufficient that $f$ be measurable for the measure $\nu$ (resp. $\lambda_\alpha$) and that $\nu^\bullet(|f|) < +\infty$ (resp. $\lambda_\alpha^\bullet(|f|) < +\infty$), by virtue of Prop. 9 of $\S 1$, No. 3. The first part of the statement therefore follows at once from Props. 2 and 1. If $f$ is essentially $\nu$-integrable, the inequality
+Indeed, for $f$ to be essentially $\nu$-integrable (resp. essentially $\lambda_\alpha$-integrable), it is necessary and sufficient that $f$ be measurable for the measure $\nu$ (resp. $\lambda_\alpha$) and that $\nu^\bullet(|f|) < +\infty$ (resp. $\lambda_\alpha^\bullet(|f|) < +\infty$), by virtue of Prop. 9 of $§ 1$, No. 3. The first part of the statement therefore follows at once from Props. 2 and 1. If $f$ is essentially $\nu$-integrable, the inequality
 
 $$
 \sum_{\alpha \in A} \left| \int f \, d\lambda_\alpha \right| \leq \sum_{\alpha \in A} \int |f| \, d\lambda_\alpha = \nu(|f|)
@@ -126,7 +126,7 @@ Prop. 3 can also be deduced from the general theorem on integration that will be
 
 — Suppose that $f$ is $\nu$-integrable; then $f$ is $\lambda_\alpha$-integrable for every $\alpha \in A$, and formula (6) holds. Conversely, if the set $A$ is finite and $f$ is $\lambda_\alpha$-integrable for every $\alpha \in A$, then the function $f$ is $\nu$-integrable.
 
-If $f$ is $\nu$-integrable, then $f$ is essentially $\nu$-integrable and $\nu$-moderated (\S1, No. 3, Cor. of Prop. 9); $f$ is therefore essentially $\lambda_\alpha$-integrable and $\lambda_\alpha$-moderated, hence $\lambda_\alpha$-integrable, for every $\alpha \in A$. Conversely, if $A$ is finite and if $f$ is $\lambda_\alpha$-integrable for all $\alpha \in A$, then $f$ is essentially $\nu$-integrable by Prop. 3, and it suffices to verify that $\nu^*(|f|) < +\infty$; this follows at once from the relation $\nu^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (Ch. IV, §1, No. 3, Prop. 15).
+If $f$ is $\nu$-integrable, then $f$ is essentially $\nu$-integrable and $\nu$-moderated (§ 1, No. 3, Cor. of Prop. 9); $f$ is therefore essentially $\lambda_\alpha$-integrable and $\lambda_\alpha$-moderated, hence $\lambda_\alpha$-integrable, for every $\alpha \in A$. Conversely, if $A$ is finite and if $f$ is $\lambda_\alpha$-integrable for all $\alpha \in A$, then $f$ is essentially $\nu$-integrable by Prop. 3, and it suffices to verify that $\nu^*(|f|) < +\infty$; this follows at once from the relation $\nu^* = \sum_{\alpha \in A} \lambda_\alpha^*$ (Ch. IV, §1, No. 3, Prop. 15).
 
 #### Corollary 2 {#int-v-s2-prop-3-cor-2 .statement}
 
@@ -157,11 +157,11 @@ $$
 &= \sum_{\alpha \in A} \mu(f \varphi_{K_\alpha}) = \sum_{\alpha \in A} \mu_\alpha(f).
 \end{align*}
 $$
-This completes the proof of the general case. If $\mu$ is moderated, then the set $T$ is $\mu$-moderated and so $T$ is the union of a sequence $(L_n)$ of compact sets and a negligible set (\S 1, No. 2, Prop. 5); let $A'$ be the countable set of $\alpha \in A$ such that $K_\alpha$ intersects one of the $L_n$. Then $\mu_\alpha = 0$ for $\alpha \notin A'$, and the last sentence of the statement follows immediately.
+This completes the proof of the general case. If $\mu$ is moderated, then the set $T$ is $\mu$-moderated and so $T$ is the union of a sequence $(L_n)$ of compact sets and a negligible set (§ 1, No. 2, Prop. 5); let $A'$ be the countable set of $\alpha \in A$ such that $K_\alpha$ intersects one of the $L_n$. Then $\mu_\alpha = 0$ for $\alpha \notin A'$, and the last sentence of the statement follows immediately.
 
 #### Remark {#int-v-s2-n3-rem-1 .statement}
 
-A positive measure may be the sum of a sequence of measures with compact support, and not be moderated (see Exer. 4 a) of \S 1).
+A positive measure may be the sum of a sequence of measures with compact support, and not be moderated (see Exer. 4 a) of § 1).
 
 ### Exercises {#int-v-s2-exercises}
 

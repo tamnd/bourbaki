@@ -24,7 +24,7 @@ subsections:
       pdf_page: 116
 statements: 42
 exercises: 0
-content_sha256: f47e9068a5a29a62aa1e03fbc2cea7b53e2e09fa563848111ea03c2bd478819d
+content_sha256: 48a421468ccb8cc45819e96917ad2bad2e8ad97f33e3b9b0828d13a08e5e6bb0
 ---
 
 ## § 7. Formes hermitiennes et corps ordonnés
@@ -49,13 +49,13 @@ Q(x) = \frac{1}{2} \Phi(x, x)
 $$
 à laquelle est associée $\Phi$ est positive (resp. négative).
 
-Supposons $E$ de dimension finie sur $A$, et soit $(e_i)$ ($i = 1, \ldots, n$) une base orthogonale de $E$ ($\S 6$, no 1, th. 1). Pour qu’une forme hermitienne $\Phi$ sur $E$ soit positive, il faut et il suffit que $\Phi(e_i, e_i) \geqslant 0$ pour $i = 1, \ldots, n$. Soit $\Phi$ une forme hermitienne positive non dégénérée sur $E$; puisque tout élément positif de $K$ est un carré, donc de la forme $\rho \overline{\rho}$ ($\rho \in A$), il existe dans $E$ des bases orthonormales pour $\Phi$ ($\S 6$, no 1, cor. 1 du th. 1).
+Supposons $E$ de dimension finie sur $A$, et soit $(e_i)$ ($i = 1, \ldots, n$) une base orthogonale de $E$ ($§ 6$, no 1, th. 1). Pour qu’une forme hermitienne $\Phi$ sur $E$ soit positive, il faut et il suffit que $\Phi(e_i, e_i) \geqslant 0$ pour $i = 1, \ldots, n$. Soit $\Phi$ une forme hermitienne positive non dégénérée sur $E$; puisque tout élément positif de $K$ est un carré, donc de la forme $\rho \overline{\rho}$ ($\rho \in A$), il existe dans $E$ des bases orthonormales pour $\Phi$ ($§ 6$, no 1, cor. 1 du th. 1).
 
 #### Proposition 1 {#alg-ix-s7-prop-1 .statement}
 
 Supposons $E$ de dimension finie, et $A = K$ ou $A = K(i)$. Si $\Phi$ est une forme hermitienne positive non dégénérée sur $E$, alors les extensions de $\Phi$ à $\bigotimes^p E$ et $\wedge^p E$ ($p > 0$), ainsi que la forme inverse de $\Phi$, sont des formes hermitiennes positives non dégénérées.
 
-Ceci résulte aussitôt de l’existence d’une base orthonormale de $E$, et de la prop. 2, $\S 6$, no 1.
+Ceci résulte aussitôt de l’existence d’une base orthonormale de $E$, et de la prop. 2, $§ 6$, no 1.
 
 La prop. 1 reste vraie si on y remplace partout « positive non dégénérée » par « positive ».
 
@@ -104,9 +104,9 @@ c) Les dimensions $s$ de $E^+$ et $t$ de $E^-$ sont les mêmes pour toutes les d
 
 d) Le rang de $\Phi$ est $s + t$.
 
-e) Si $\Phi$ est non dégénérée, son indice est égal à $\inf(s, t)$ (\S 4, no 2, déf. 2).
+e) Si $\Phi$ est non dégénérée, son indice est égal à $\inf(s, t)$ (§ 4, no 2, déf. 2).
 
-Soit, en effet, $(x_i)$ ($i = 1, \ldots, n$) une base orthogonale de $E$ (\S 6, no 1, th. 1); rappelons que l’on a $\Phi(x, x) \in K$ pour tout $x \in E$. On peut supposer que l’on a $\Phi(x_i, x_i) > 0$ pour $i = 1, \ldots, s$, $\Phi(x_i, x_i) < 0$ pour $i = s + 1, \ldots, s + t$ et $\Phi(x_i, x_i) = 0$ pour $i = s + t + 1, \ldots, n$. Ceci démontre a), car on prend pour $E^+$ (resp. $E^-$) le sous-espace engendré par $x_1, \ldots, x_s$ (resp. par $x_{s+1}, \ldots, x_{s+t}$), et $E^0$ est alors engendré par $x_{s+t+1}, \ldots, x_n$. On en déduit b) en remarquant que $\Phi(x_i, x_i)$ est de la forme $\rho \overline{\rho}$ (resp.
+Soit, en effet, $(x_i)$ ($i = 1, \ldots, n$) une base orthogonale de $E$ (§ 6, no 1, th. 1); rappelons que l’on a $\Phi(x, x) \in K$ pour tout $x \in E$. On peut supposer que l’on a $\Phi(x_i, x_i) > 0$ pour $i = 1, \ldots, s$, $\Phi(x_i, x_i) < 0$ pour $i = s + 1, \ldots, s + t$ et $\Phi(x_i, x_i) = 0$ pour $i = s + t + 1, \ldots, n$. Ceci démontre a), car on prend pour $E^+$ (resp. $E^-$) le sous-espace engendré par $x_1, \ldots, x_s$ (resp. par $x_{s+1}, \ldots, x_{s+t}$), et $E^0$ est alors engendré par $x_{s+t+1}, \ldots, x_n$. On en déduit b) en remarquant que $\Phi(x_i, x_i)$ est de la forme $\rho \overline{\rho}$ (resp.
 
 - $\rho \bar{\rho} )\ (\rho \in A^*)$ pour $i = 1, \ldots, s$ (resp. $i = s + 1, \ldots, s + t$). Pour démontrer c), considérons un sous-espace P de E tel que la restriction de $\Phi$ à P soit positive et non dégénérée; on a alors $P \cap (E^- + E^0) = \{0\}$, et la somme $P + E^- + E^0$ est donc directe; on en conclut que $\dim P \leq \dim E^+ = s$, et ceci démontre c). L’assertion d) résulte aussitôt de a).
 
@@ -420,7 +420,7 @@ On suppose remplies les conditions du n° 3. Soit $M$ une matrice carrée d’or
 
 #### Remarque 20 {#alg-ix-s7-n3-rem-20 .statement}
 
-On suppose remplies les conditions du n° 3 et en outre que $A$ est égal à $K$ ou à $K(i)$. Appliquer les résultats des exerc. 17 à 19 à l’extension de $\Phi$ aux $p$-èmes puissances extérieures (\$ 1, n° 9) et aux puissances extérieures $p$-èmes des endomorphismes ou matrices considérés. En particulier, montrer que, si $\prod_{i=1}^n (X - \lambda_i)$ et $\prod_{i=1}^n (X - \rho_i^2)$ sont les décompositions en facteurs linéaires des polynômes caractéristiques d’un endomorphisme $u$ de $E$ et de l’endomorphisme $u^*u$, et si on suppose $|\lambda_i| \geqslant |\lambda_{i+1}|$ et $\rho_i \geqslant \rho_{i+1} \geqslant 0$ pour $1 \leqslant i \leqslant n-1$, on a
+On suppose remplies les conditions du n° 3 et en outre que $A$ est égal à $K$ ou à $K(i)$. Appliquer les résultats des exerc. 17 à 19 à l’extension de $\Phi$ aux $p$-èmes puissances extérieures (§ 1, n° 9) et aux puissances extérieures $p$-èmes des endomorphismes ou matrices considérés. En particulier, montrer que, si $\prod_{i=1}^n (X - \lambda_i)$ et $\prod_{i=1}^n (X - \rho_i^2)$ sont les décompositions en facteurs linéaires des polynômes caractéristiques d’un endomorphisme $u$ de $E$ et de l’endomorphisme $u^*u$, et si on suppose $|\lambda_i| \geqslant |\lambda_{i+1}|$ et $\rho_i \geqslant \rho_{i+1} \geqslant 0$ pour $1 \leqslant i \leqslant n-1$, on a
 $$
 |\lambda_1 \lambda_2 \ldots \lambda_h| \leqslant \rho_1 \rho_2 \ldots \rho_h
 $$
@@ -430,7 +430,7 @@ pour $1 \leqslant h \leqslant n-1$ et $|\lambda_1 \lambda_2 \ldots \lambda_n| = 
 
 On suppose remplies les conditions du no 3. Soit $u$ un endomorphisme hermitien de $E$ et soit $\prod_{i=1}^n (X-\lambda_i)$ la décomposition en facteurs linéaires de son polynôme caractéristique ; on suppose $\lambda_i \geqslant \lambda_{i+1}$ pour $1 \leqslant i \leqslant n-1$.
 
-a) Montrer que la plus grande (resp. la plus petite) des valeurs propres $\lambda_i$ dans $K$ est égale à la plus grande (resp. la plus petite) des valeurs de $\Phi(u(x), x)$ lorsque $x$ parcourt l’ensemble des $x \in E$ tels que $\Phi(x, x) = 1$. (Raisonner directement, ou appliquer l’exerc. 16 c) en se ramenant au cas où $A = K(i)$ ($\S 3$, exerc. 4).)
+a) Montrer que la plus grande (resp. la plus petite) des valeurs propres $\lambda_i$ dans $K$ est égale à la plus grande (resp. la plus petite) des valeurs de $\Phi(u(x), x)$ lorsque $x$ parcourt l’ensemble des $x \in E$ tels que $\Phi(x, x) = 1$. (Raisonner directement, ou appliquer l’exerc. 16 c) en se ramenant au cas où $A = K(i)$ ($§ 3$, exerc. 4).)
 
 b) Soit $\Psi_v$ la restriction à un sous-espace vectoriel $V$ de $E$ de la forme hermitienne $\Psi'$ associée à $u$, et soit $u_v$ l’endomorphisme hermitien de $V$ associé à $\Psi_v$. Montrer que $\lambda_k$ est la plus petite des plus grandes valeurs propres des $u_v$, lorsque $V$ parcourt l’ensemble des sous-espaces vectoriels de $E$, de dimension $n-k+1$ (utiliser la prop. 5).
 

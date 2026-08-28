@@ -24,7 +24,7 @@ subsections:
       pdf_page: 335
 statements: 6
 exercises: 3
-content_sha256: dc0a6f54f1b8abb8c9630f3eb4e31df53e150e4b7dcbfc0858d85afcbaa111ed
+content_sha256: b716f6cf2dd0bf60045addebda4ba042705d015e4eb20af7db7214000c6f8fa1
 ---
 
 ## § 3. Décomposition primaire dans les modules gradués
@@ -59,7 +59,7 @@ Il suffit de reprendre le raisonnement du § 1, no 4, th. 1, en prenant cette fo
 
 Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau noethérien gradué de type $\Delta$, $p$ un idéal gradué de $A$, $M$ un $A$-module gradué de type $\Delta$, non réduit à 0. On suppose que pour tout élément homogène $a$ de $p$, l’homothétie de rapport $a$ dans $M$ est presque nilpotente et que pour tout élément homogène $b$ de $A - p$, l’homothétie de rapport $b$ dans $M$ est injective. Alors $p$ est premier et le sous-module $\{0\}$ de $M$ est $p$-primaire.
 
-Il suffit de montrer que $\operatorname{Ass}(M) = \{p\}$ (\S 2, no 1, prop. 1). Soit $q$ un idéal premier associé à $M$; c’est un idéal gradué, et il est l’annulateur d’un élément homogène $x \neq 0$ de $M$ (no 1, prop. 1). Pour tout élément homogène $a$ de $q$, on a $ax = 0$, donc l’homothétie de rapport $a$ dans $M$ n’est pas injective, d’où $a \in p$. Inversement, soit $b$ un élément homogène de $p$; il existe un entier $n > 0$ tel que $b^n x = 0$, d’où $b^n \in \operatorname{Ann}(x) = q$, et comme $q$ est premier, $b \in q$. Comme $p$ et $q$ sont engendrés par leurs éléments homogènes respectifs, on a $p = q$, ce qui prouve que $\operatorname{Ass}(M) \subset \{p\}$. Comme $M \neq \{0\}$, on a $\operatorname{Ass}(M) \neq \emptyset$ (\S 1, no 1, cor. 1 de la prop. 2), d’où $\operatorname{Ass}(M) = \{p\}$.
+Il suffit de montrer que $\operatorname{Ass}(M) = \{p\}$ (§ 2, no 1, prop. 1). Soit $q$ un idéal premier associé à $M$; c’est un idéal gradué, et il est l’annulateur d’un élément homogène $x \neq 0$ de $M$ (no 1, prop. 1). Pour tout élément homogène $a$ de $q$, on a $ax = 0$, donc l’homothétie de rapport $a$ dans $M$ n’est pas injective, d’où $a \in p$. Inversement, soit $b$ un élément homogène de $p$; il existe un entier $n > 0$ tel que $b^n x = 0$, d’où $b^n \in \operatorname{Ann}(x) = q$, et comme $q$ est premier, $b \in q$. Comme $p$ et $q$ sont engendrés par leurs éléments homogènes respectifs, on a $p = q$, ce qui prouve que $\operatorname{Ass}(M) \subset \{p\}$. Comme $M \neq \{0\}$, on a $\operatorname{Ass}(M) \neq \emptyset$ (§ 1, no 1, cor. 1 de la prop. 2), d’où $\operatorname{Ass}(M) = \{p\}$.
 
 #### Proposition 4 {#ac-iv-s3-prop-4 .statement}
 
@@ -85,7 +85,7 @@ Soient $\Delta$ un groupe commutatif sans torsion, $A$ un anneau noethérien gra
 
 (iii) Si $Q_i$ correspond à un idéal premier $p_i$ qui est un élément minimal de $\operatorname{Ass}(M/N)$, $Q_i$ est un sous-module gradué de $M$.
 
-On a vu (n° 2, prop. 4) que les $Q'_i$ sont primaires par rapport à $M$, et on a $N \subset Q'_i \subset Q_i$, ce qui démontre (i). La prop. 4 du n° 2 montre aussi que l’idéal premier $p'_i$ correspondant à $Q'_i$ est le plus grand idéal gradué contenu dans l’idéal premier $p_i$ correspondant à $Q_i$. Si la décomposition $N = \bigcap_{i \in I} Q_i$ est réduite, on a $p_i \in \operatorname{Ass}(M/N)$ pour tout $i$ (\S 2, n° 3, prop. 4), donc $p_i$ est un idéal gradué (n° 1, prop. 1) et par suite $p'_i = p_i$; on a donc $\operatorname{Ass}(M/N) = \bigcup_{i \in I} \{ p'_i \}$ (\S 2, n° 3, prop. 4), ce qui prouve que la décomposition $N = \bigcap_{i \in I} Q'_i$ est réduite (\S 2, n° 3, prop. 4). Enfin, si $p_i$ est un élément minimal de $\operatorname{Ass}(M/N)$, on a $p'_i = p_i$ puisque $p_i$ est gradué (n° 1, prop. 1), d’où $Q'_i = Q_i$ en vertu du \S 2, n° 3, prop. 5.
+On a vu (n° 2, prop. 4) que les $Q'_i$ sont primaires par rapport à $M$, et on a $N \subset Q'_i \subset Q_i$, ce qui démontre (i). La prop. 4 du n° 2 montre aussi que l’idéal premier $p'_i$ correspondant à $Q'_i$ est le plus grand idéal gradué contenu dans l’idéal premier $p_i$ correspondant à $Q_i$. Si la décomposition $N = \bigcap_{i \in I} Q_i$ est réduite, on a $p_i \in \operatorname{Ass}(M/N)$ pour tout $i$ (§ 2, n° 3, prop. 4), donc $p_i$ est un idéal gradué (n° 1, prop. 1) et par suite $p'_i = p_i$; on a donc $\operatorname{Ass}(M/N) = \bigcup_{i \in I} \{ p'_i \}$ (§ 2, n° 3, prop. 4), ce qui prouve que la décomposition $N = \bigcap_{i \in I} Q'_i$ est réduite (§ 2, n° 3, prop. 4). Enfin, si $p_i$ est un élément minimal de $\operatorname{Ass}(M/N)$, on a $p'_i = p_i$ puisque $p_i$ est gradué (n° 1, prop. 1), d’où $Q'_i = Q_i$ en vertu du § 2, n° 3, prop. 5.
 
 ## EXERCICES {#ac-iv-s3-exercises}
 

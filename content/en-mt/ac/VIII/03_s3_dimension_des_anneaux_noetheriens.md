@@ -33,11 +33,11 @@ subsections:
       pdf_page: 40
 statements: 37
 exercises: 7
-content_sha256: 2fd2f4f94134b42e113dfa6bd1ba467036e80912efebdf836b37d728b8128f63
+content_sha256: 0976dc84de4c6a097918bcbae5d2ed7aef13d1d806c7d00142b71ad1346c74a4
 translated_from: content/fr/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 390f143777bdecb507cfc5436fbf6d87ac2c74cd2956da55d7e235ef0ab6af02
+source_content_sha256: 9e96d959c56485cbedf2ef098047ed722bad9561960260f61af3c6f4793e2f70
 translation_model: gpt-5.4
 translation_run: translate-en-mt-1f3a519c
 glossary_version: 34
@@ -53,7 +53,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 Let $A$ be a noetherian integral domain, $x$ a nonzero element of $A$ and $p$ an element minimal in the set of prime ideals of $A$ containing $x$. Then $p$ is of height 1.
 
-Let $q \subset p$ be a prime ideal distinct from $p$. One has $x \notin q$ in view of the minimal character of $p$. Since $A$ is an integral domain, $A_p$ can be identified with a subring of $A_q$; for every integer $n \geq 0$, let $q_n$ denote the ideal $q^n A_q \cap A_p$ of $A_p$. The minimal character of $p$ means that the local ring $A_p / xA_p$ is of dimension 0; hence it is of finite length ($\S 1$, no 3, example 1), and there exists an integer $n_0 \geq 0$ such that one has
+Let $q \subset p$ be a prime ideal distinct from $p$. One has $x \notin q$ in view of the minimal character of $p$. Since $A$ is an integral domain, $A_p$ can be identified with a subring of $A_q$; for every integer $n \geq 0$, let $q_n$ denote the ideal $q^n A_q \cap A_p$ of $A_p$. The minimal character of $p$ means that the local ring $A_p / xA_p$ is of dimension 0; hence it is of finite length ($§ 1$, no 3, example 1), and there exists an integer $n_0 \geq 0$ such that one has
 
 $$
 q_n + xA_p = q_{n+1} + xA_p \quad \text{for every } n \geq n_0 .
@@ -318,7 +318,7 @@ Let x be an extremal element of A. Then Ax is a prime ideal because x is extrema
 
 #### Remark 1 {#ac-viii-s3-n3-rem-1 .statement}
 
-Suppose that A is a local noetherian integral domain of dimension d; let x be a nonzero element of m_A and let H = V(x). By Corollary 2 of Prop. 4, every irreducible component of H is of codimension 1 in X, hence of dimension $\leq d - 1$ ($\S 1$, No. 2, Prop. 3). By Corollary 2 of Prop. 2 of No. 1, H is of dimension $d - 1$, and one of these components is therefore of dimension $d - 1$; all are so if A is catenary. However, in general it may happen that there exists an irreducible component of H of dimension < $d - 1$ (cf. p. 87, Exerc. 7).
+Suppose that A is a local noetherian integral domain of dimension d; let x be a nonzero element of m_A and let H = V(x). By Corollary 2 of Prop. 4, every irreducible component of H is of codimension 1 in X, hence of dimension $\leq d - 1$ ($§ 1$, No. 2, Prop. 3). By Corollary 2 of Prop. 2 of No. 1, H is of dimension $d - 1$, and one of these components is therefore of dimension $d - 1$; all are so if A is catenary. However, in general it may happen that there exists an irreducible component of H of dimension < $d - 1$ (cf. p. 87, Exerc. 7).
 
 #### Remark 2 {#ac-viii-s3-n3-rem-2 .statement}
 
@@ -334,9 +334,9 @@ Let A be a noetherian ring and $p \subset q$ a non-saturated chain of prime idea
 
 Replacing A by $A/p$ if necessary, one is reduced to the case where $p = \{0\}$.
 
-By Lemma 1 of No. 1, one has $q = \bigcup_{r \in E} r$, and Prop. 2 of II, $\S 1$, No. 1 shows that E is infinite.
+By Lemma 1 of No. 1, one has $q = \bigcup_{r \in E} r$, and Prop. 2 of II, $§ 1$, No. 1 shows that E is infinite.
 
-Let $y \neq 0$ be an element of $\bigcap_{r \in E} r$. The height of q is finite (No. 1, Cor. 1 of Prop. 2), and one has $\mathrm{ht}(q) \geq 2$ by hypothesis. There therefore exists a prime ideal $q' \subset q$ of height 2. The first part of the proof applied to $q'$ shows that the set E’ of prime ideals of height 1 contained in $q'$ is infinite; each of these ideals contains y by hypothesis. Now the local noetherian ring $B = A_{q'}/yA_{q'}$ is of dimension 1 by Corollary 2 of Prop. 2 of No. 1. For every $r \in E'$, the prime ideal $r/yA_{q'}$ of B is therefore minimal; consequently, the noetherian ring B has an infinity of minimal prime ideals, which is absurd (II, $\S 4$, No. 3, Cor. 3 of Prop. 14). Hence $\bigcap_{r \in E} r = \{0\}$.
+Let $y \neq 0$ be an element of $\bigcap_{r \in E} r$. The height of q is finite (No. 1, Cor. 1 of Prop. 2), and one has $\mathrm{ht}(q) \geq 2$ by hypothesis. There therefore exists a prime ideal $q' \subset q$ of height 2. The first part of the proof applied to $q'$ shows that the set E’ of prime ideals of height 1 contained in $q'$ is infinite; each of these ideals contains y by hypothesis. Now the local noetherian ring $B = A_{q'}/yA_{q'}$ is of dimension 1 by Corollary 2 of Prop. 2 of No. 1. For every $r \in E'$, the prime ideal $r/yA_{q'}$ of B is therefore minimal; consequently, the noetherian ring B has an infinity of minimal prime ideals, which is absurd (II, $§ 4$, No. 3, Cor. 3 of Prop. 14). Hence $\bigcap_{r \in E} r = \{0\}$.
 
 #### Proposition 6 {#ac-viii-s3-prop-6 .statement}
 
@@ -346,7 +346,7 @@ a) A possesses an infinity of prime ideals of height h.
 
 b) If A is finite-dimensional, it possesses an infinity of prime ideals p such that $\mathrm{ht}(p) = h$ and $\dim(A/p) = \dim(A) - h$.
 
-Since the dimension of A is the least upper bound of the heights of the prime ideals of A ($\S 1$, no. 3, prop. 8), since every prime ideal of A is of finite height (no. 1, cor. 1 of prop. 2), and since $h < \dim(A)$, there exists an integer $n > h$ and a prime ideal p of height n, hence a chain $p_0 \subset ... \subset p_n = p$ of prime ideals of length n. One has $\mathrm{ht}(p_i) = i$ for $0 \leq i \leq n$, whence $\mathrm{ht}(r) = h$ for every prime ideal r of A such that $p_{h-1} \subset r \subset p_{h+1}$ is a chain. The set E of these ideals is infinite by prop. 5, whence a).
+Since the dimension of A is the least upper bound of the heights of the prime ideals of A ($§ 1$, no. 3, prop. 8), since every prime ideal of A is of finite height (no. 1, cor. 1 of prop. 2), and since $h < \dim(A)$, there exists an integer $n > h$ and a prime ideal p of height n, hence a chain $p_0 \subset ... \subset p_n = p$ of prime ideals of length n. One has $\mathrm{ht}(p_i) = i$ for $0 \leq i \leq n$, whence $\mathrm{ht}(r) = h$ for every prime ideal r of A such that $p_{h-1} \subset r \subset p_{h+1}$ is a chain. The set E of these ideals is infinite by prop. 5, whence a).
 
 If $A$ is of finite dimension, one may suppose that one has $n = \dim(A)$ in the foregoing. For every ideal $r \in E$, one has $\mathrm{ht}(r) = h$, whence $\dim(A/r) \leq n - h$, and since $r \subset p_{h+1} \subset ... \subset p_n$ is a chain of length $n - h$, one has $\dim(A/r) = n - h$.
 
@@ -460,7 +460,7 @@ $$
 \dim(A[X_1, ..., X_n]) = \dim(A) + n .
 $$
 
-Put $B = A[X_1, ..., X_n]$. For every prime ideal $p$ of $A$, the ring $B \otimes_A \kappa(p)$ is a polynomial ring in $n$ variables over a field, hence is of dimension $n$ ($\S 2$, No. 4, Cor. 1 to Theorem 3). By Cor. 2, we have $\dim(B) \leqslant \dim(A) + n$; the reverse inequality follows from Example 4 of $\S 1$, No. 3.
+Put $B = A[X_1, ..., X_n]$. For every prime ideal $p$ of $A$, the ring $B \otimes_A \kappa(p)$ is a polynomial ring in $n$ variables over a field, hence is of dimension $n$ ($§ 2$, No. 4, Cor. 1 to Theorem 3). By Cor. 2, we have $\dim(B) \leqslant \dim(A) + n$; the reverse inequality follows from Example 4 of $§ 1$, No. 3.
 
 #### Corollary 4 {#ac-viii-s3-prop-7-cor-4 .statement}
 
@@ -472,9 +472,9 @@ $$
 
 if the map $^a\rho : \mathrm{Spec}(B) \to \mathrm{Spec}(A)$ is surjective. If $B$ is a faithfully flat $A$-module, we have $\text{ht}(\rho(a).B) = \text{ht}(a)$.
 
-If $B$ is faithfully flat over $A$, then $^a\rho$ is surjective (II, $\S 2$, No. 5, Cor. 4 to Prop. 11) and we have $\text{ht}(a) \leqslant \text{ht}(\rho(a).B)$ ($\S 2$, No. 1, corollary of Prop. 2).
+If $B$ is faithfully flat over $A$, then $^a\rho$ is surjective (II, $§ 2$, No. 5, Cor. 4 to Prop. 11) and we have $\text{ht}(a) \leqslant \text{ht}(\rho(a).B)$ ($§ 2$, No. 1, corollary of Prop. 2).
 
-It remains therefore to prove inequality (20) under the assumption that $^a\rho$ is surjective. Let $p$ be a prime ideal of $A$ such that $a \subset p$ and $\text{ht}(a) = \text{ht}(p)$ ($\S 1$, no 3, prop. 7). Put $\overline{B} = B \otimes_A \kappa(p)$ and denote by $h$ the canonical homomorphism of $B$ into $\overline{B}$. If $X = {}^a\rho^{-1}(p)$ is the nonempty set of prime ideals of $B$ lying over $p$, it is known ($\S 2$, no 1, lemme 1) that the mapping $^ah$ is a homeomorphism of $\mathrm{Spec}(\overline{B})$ onto the subspace $X$ of $\mathrm{Spec}(B)$. Let $q$ be the image under $^ah$ of a minimal prime ideal of $\overline{B}$; one has $\dim(B_q \otimes_A \kappa(p)) = 0$ and Cor. 1 yields the inequality $\dim(B_q) \leqslant \dim(A_p) = \text{ht}(p) = \text{ht}(a)$, finally
+It remains therefore to prove inequality (20) under the assumption that $^a\rho$ is surjective. Let $p$ be a prime ideal of $A$ such that $a \subset p$ and $\text{ht}(a) = \text{ht}(p)$ ($§ 1$, no 3, prop. 7). Put $\overline{B} = B \otimes_A \kappa(p)$ and denote by $h$ the canonical homomorphism of $B$ into $\overline{B}$. If $X = {}^a\rho^{-1}(p)$ is the nonempty set of prime ideals of $B$ lying over $p$, it is known ($§ 2$, no 1, lemme 1) that the mapping $^ah$ is a homeomorphism of $\mathrm{Spec}(\overline{B})$ onto the subspace $X$ of $\mathrm{Spec}(B)$. Let $q$ be the image under $^ah$ of a minimal prime ideal of $\overline{B}$; one has $\dim(B_q \otimes_A \kappa(p)) = 0$ and Cor. 1 yields the inequality $\dim(B_q) \leqslant \dim(A_p) = \text{ht}(p) = \text{ht}(a)$, finally
 
 $$
 \text{ht}(\rho(a).B) \leqslant \text{ht}(q) = \dim(B_q) \leqslant \dim(A_p) = \text{ht}(p) = \text{ht}(a),
@@ -490,13 +490,13 @@ a) Let $m$ be a prime ideal of $A$ containing $a$ and $\hat{m} = m\hat{A}$. Then
 
 b) One has $\dim_{\hat{A}}(\hat{M}) = \sup_m \dim_{A_m}(M_m)$, where $m$ ranges over the set of prime (resp. maximal) ideals of $A$ containing $a$. In particular, one has $\dim_{\hat{A}}(\hat{M}) \leqslant \dim_A(M)$.
 
-a) Since $\hat{A}/\hat{m}$ is identified with $A/m$, $\hat{m}$ is a prime ideal of $\hat{A}$. By Theorem 3 of III, $\S 3$, No. 4, $\hat{A}$ is flat over $A$, hence $\hat{A}_{\hat{m}}$ is flat over $A_m$. Moreover the canonical mapping of $A$ into $\hat{A}$ induces an isomorphism of $A/a$ onto $\hat{A}/a\hat{A}$, hence also an isomorphism of $A_m/mA_m$ onto $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. The conclusion follows by applying Proposition 7 to the rings $A_m$ and $\hat{A}_{\hat{m}}$ and to the modules $M_m$ and $\hat{A}_{\hat{m}}$ since $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ is isomorphic to $\hat{M}_{\hat{m}}$ (III, loc. cit. and Proposition 8).
+a) Since $\hat{A}/\hat{m}$ is identified with $A/m$, $\hat{m}$ is a prime ideal of $\hat{A}$. By Theorem 3 of III, $§ 3$, No. 4, $\hat{A}$ is flat over $A$, hence $\hat{A}_{\hat{m}}$ is flat over $A_m$. Moreover the canonical mapping of $A$ into $\hat{A}$ induces an isomorphism of $A/a$ onto $\hat{A}/a\hat{A}$, hence also an isomorphism of $A_m/mA_m$ onto $\hat{A}_{\hat{m}}/m\hat{A}_{\hat{m}}$. The conclusion follows by applying Proposition 7 to the rings $A_m$ and $\hat{A}_{\hat{m}}$ and to the modules $M_m$ and $\hat{A}_{\hat{m}}$ since $M_m \otimes_{A_m} \hat{A}_{\hat{m}}$ is isomorphic to $\hat{M}_{\hat{m}}$ (III, loc. cit. and Proposition 8).
 
-b) By Proposition 8 of III, $\S 3$, No. 4, the mapping $m \mapsto \hat{m}$ is a bijection of the set of maximal ideals of $A$ containing $a$ onto the set of maximal ideals of $\hat{A}$. Assertion b) follows from this and from Proposition 9 of $\S 1$, No. 4.
+b) By Proposition 8 of III, $§ 3$, No. 4, the mapping $m \mapsto \hat{m}$ is a bijection of the set of maximal ideals of $A$ containing $a$ onto the set of maximal ideals of $\hat{A}$. Assertion b) follows from this and from Proposition 9 of $§ 1$, No. 4.
 
 #### Corollary 1 {#ac-viii-s3-prop-8-cor-1 .statement}
 
-Let $A$ be a Zariski ring (III, $\S 3$, No. 3, Definition 2). For every $A$-module $M$ of finite type, one has $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
+Let $A$ be a Zariski ring (III, $§ 3$, No. 3, Definition 2). For every $A$-module $M$ of finite type, one has $\dim_{\hat{A}}(\hat{M}) = \dim_A(M)$.
 
 In fact, the topology of $A$ is the $a$-adic topology, where $a$ is an ideal contained in the radical of $A$ (*loc. cit.*), that is, contained in every maximal ideal $m$ of $A$. It is therefore enough to apply assertion b) of Proposition 8.
 
@@ -530,15 +530,15 @@ $$
 \dim(A) + n \leqslant \dim(A[[X_1, ..., X_n]])
 $$
 
-by Example 4 of $\S 1$, No. 3.
+by Example 4 of $§ 1$, No. 3.
 
 #### Remark 1 {#ac-viii-s3-n4-rem-1 .statement}
 
-Let $A$ be a noetherian ring and $a$ an ideal of $A$. Suppose that $A$ is separated and complete for the $a$-adic topology, and consider the ring $R = A \{ X_1, ..., X_n \}$ of restricted formal power series (III, $\S 4$, No. 2, Definition 2). Then $\dim(R) = \dim(A) + n$. In fact, $R$ is the completion of the ring $B = A[X_1, ..., X_n]$ for the $aB$-adic topology, whence $\dim(R) \leqslant \dim(A[X_1, ..., X_n]) = \dim(A) + n$. The inverse inequality is proved as in the case of formal power series.
+Let $A$ be a noetherian ring and $a$ an ideal of $A$. Suppose that $A$ is separated and complete for the $a$-adic topology, and consider the ring $R = A \{ X_1, ..., X_n \}$ of restricted formal power series (III, $§ 4$, No. 2, Definition 2). Then $\dim(R) = \dim(A) + n$. In fact, $R$ is the completion of the ring $B = A[X_1, ..., X_n]$ for the $aB$-adic topology, whence $\dim(R) \leqslant \dim(A[X_1, ..., X_n]) = \dim(A) + n$. The inverse inequality is proved as in the case of formal power series.
 
 #### Remark 2 {#ac-viii-s3-n4-rem-2 .statement}
 
-Let $A$ be a local noetherian ring, identified with a subring of its completion $\hat{A}$, and $B$ a subring of $\hat{A}$ containing $A$. Suppose that $B$ is local noetherian and that one has $m_A B = m_B$. Then the canonical injection of $A$ into $B$ extends to an isomorphism of $\hat{A}$ onto the completion $\hat{B}$ of $B$ (III, $\S 3$, No. 5, Proposition 11), whence $\dim(B) = \dim(A)$ (Corollary 2 to Proposition 8). This applies in particular to the following situation. \* Let $k$ be a complete non-discrete valued field, $A$ the local ring of the polynomial ring $k[X_1, ..., X_n]$ at the prime ideal generated by $X_1, ..., X_n$, and $B$ the ring of convergent power series in $X_1, ..., X_n$ with coefficients in $k$. Then the preceding hypotheses are satisfied, and consequently one has $\dim(B) = n$.*
+Let $A$ be a local noetherian ring, identified with a subring of its completion $\hat{A}$, and $B$ a subring of $\hat{A}$ containing $A$. Suppose that $B$ is local noetherian and that one has $m_A B = m_B$. Then the canonical injection of $A$ into $B$ extends to an isomorphism of $\hat{A}$ onto the completion $\hat{B}$ of $B$ (III, $§ 3$, No. 5, Proposition 11), whence $\dim(B) = \dim(A)$ (Corollary 2 to Proposition 8). This applies in particular to the following situation. \* Let $k$ be a complete non-discrete valued field, $A$ the local ring of the polynomial ring $k[X_1, ..., X_n]$ at the prime ideal generated by $X_1, ..., X_n$, and $B$ the ring of convergent power series in $X_1, ..., X_n$ with coefficients in $k$. Then the preceding hypotheses are satisfied, and consequently one has $\dim(B) = n$.*
 
 ### 5. Construction of regular sequences
 

@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 04a0e3e1b69842c09f7f728c2902f6049fba186df55774b462f62edfb7d791a9
+content_sha256: 4d2ea6b2e3fe8136b4cbf004a6c050629d9e8414a0cc6650ceb165d4728343b0
 ---
 
 ## § 10. GALOIS EXTENSIONS
@@ -563,7 +563,7 @@ Suppose henceforth that $N$ is of finite degree over $K$. Given $x \in N$, for $
 
 *Let $N$ be a Galois extension of finite degree over $K$ and let $\Gamma$ be the Galois group of $N$ over $K$. Then there exists a normal basis of $N$ over $K$; in other words, the $\mathbf{K}^{(\Gamma)}$-module $N$ is free of rank 1.*
 
-We shall give two proofs of this statement. The first uses the following lemma which will be proved in Chapter VIII (\$2, No. 5).
+We shall give two proofs of this statement. The first uses the following lemma which will be proved in Chapter VIII (§ 2, No. 5).
 
 \* Lemma 3. — Let $A$ be a $K$-algebra, $M_1$ and $M_2$ two $A$-modules of finite rank over $K$ and suppose that there exists an extension $L$ of $K$ such that the modules $L \otimes_K M_1$ and $L \otimes_K M_2$ over the ring $L \otimes_K A$ are isomorphic. Then the $A$-modules $M_1$ and $M_2$ are isomorphic.
 

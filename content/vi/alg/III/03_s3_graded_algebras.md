@@ -25,9 +25,9 @@ subsections:
       pdf_page: 484
 statements: 4
 exercises: 1
-content_sha256: 6d2e36ac6fe30673aaac7b1d34e85d4951cdb6f91d3483f0e38f68294e6c0dcb
+content_sha256: 3a1f13b0cc6af2a44dc8b445d82d456ab8778cd682b34ad8a5bc95eedef8fa2a
 translated_from: content/en/alg/III/03_s3_graded_algebras.md
-source_content_sha256: 38b7965ea4ef3a096ea51873d498f423f82feaa31641e8044291d726b3d90f91
+source_content_sha256: f12b951353495cb2d4ac42e0973f43ff1e8d72baf911895317f109eca86ce841
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-470070e5
 glossary_version: 34
@@ -68,7 +68,7 @@ $$
 m : E \otimes_A E \to E
 $$
 
-xác định phép nhân trên $E$ (\S 1, no. 3), là *thuần nhất bậc* 0 khi $E \otimes_A E$ được trang bị phép phân bậc kiểu $\Delta$ của nó (II, § 11, no. 5).
+xác định phép nhân trên $E$ (§ 1, no. 3), là *thuần nhất bậc* 0 khi $E \otimes_A E$ được trang bị phép phân bậc kiểu $\Delta$ của nó (II, § 11, no. 5).
 
 Để định nghĩa một cấu trúc đại số phân bậc kiểu $\Delta$ trên vành phân bậc $A$, với $E$ là môđun $A$-phân bậc nền, do đó tương đương với việc định nghĩa, với mỗi cặp có thứ tự $(\lambda, \mu)$ của các phần tử của $\Delta$, một ánh xạ $\mathbf{Z}$-song tuyến tính
 
@@ -84,11 +84,11 @@ $$
 
 #### Ví dụ {#alg-iii-s3-n1-exa-1 .statement}
 
-(1) Cho $B$ là một *vành phân bậc* kiểu $\Delta$; nếu $B$ được trang bị cấu trúc đại số $\mathbf{Z}$ chính tắc của nó (\S 1, No. 1, *Ví dụ* 2), $B$ là một đại số $A$-phân bậc ($\mathbf{Z}$ được trang bị phép phân bậc tầm thường).
+(1) Cho $B$ là một *vành phân bậc* kiểu $\Delta$; nếu $B$ được trang bị cấu trúc đại số $\mathbf{Z}$ chính tắc của nó (§ 1, No. 1, *Ví dụ* 2), $B$ là một đại số $A$-phân bậc ($\mathbf{Z}$ được trang bị phép phân bậc tầm thường).
 
 (2) Cho $A$ là một vành giao hoán phân bậc kiểu $\Delta$ và $M$ là một môđun $A$-phân bậc kiểu $\Delta$. Giả sử rằng mọi phần tử của nửa nhóm $\Delta$ đều *giản ước được*, điều này cho phép ta (II, § 11, No. 6) định nghĩa trên $\mathrm{Homgr}_A(M, M) = \mathrm{Endgr}_A(M)$ một cấu trúc môđun $A$-phân bậc kiểu $\Delta$; vì phép phân bậc này tương thích với cấu trúc vành trên $\mathrm{Endgr}_A(M)$ (II, § 11, No. 6), nó định nghĩa một cấu trúc *đại số $A$-phân bậc có đơn vị* trên đại số $A$ $\mathrm{Endgr}_A(M)$.
 
-(3) *Đại số của một magma.* Cho $S$ là một magma và $\phi : S \to \Delta$ là một đồng cấu. Với mọi $\lambda \in \Delta$, ta viết $S_\lambda = \phi^{-1}(\lambda)$; khi đó $S_\lambda S_\mu \subset S_{\lambda + \mu}$. Cho $A$ là một vành giao hoán phân bậc có kiểu $\Delta$ và $(A_\lambda)_{\lambda \in \Delta}$ là phép phân bậc của nó; ta sẽ định nghĩa một cấu trúc đại số $A$ phân bậc trên đại số $E = A^{(S)}$ của magma $S$ (\S 2, no. 6). Để làm điều này, gọi $E_{\lambda}$ là nhóm con cộng tính của $E$ sinh bởi các phần tử có dạng $\alpha.s$ sao cho $\alpha \in A_{\mu}, s \in S_{\nu}$ và $\mu + \nu = \lambda$. Vì các $S_{\lambda}$ rời nhau từng đôi một, $E$ là tổng trực tiếp của các $A_{\mu}S_{\nu}$ và do đó cũng là tổng trực tiếp của các $E_{\lambda}$ và hiển nhiên rằng các $E_{\lambda}$ thỏa mãn các điều kiện (1) và (2) và vì thế xác định trên $E$ cấu trúc đại số $A$ phân bậc mong muốn. Nếu $S$ có một phần tử đơn vị $e$, thì cũng có thể giả sử rằng $\phi(e) = 0$. Một trường hợp riêng là trường hợp phép phân bậc của vành $A$ là tầm thường; khi đó $E_{\lambda}$ là môđun con-$A$ của $E$ sinh bởi $S_{\lambda}$. Đặc biệt hơn, nếu ta lấy $S = \mathbf{N}^{(1)}, \Delta = \mathbf{N}$ và $\phi$ là ánh xạ sao cho $\phi((n_i)) = \sum_{i \in I} n_i$, vành $A$ có phép phân bậc tầm thường, ta thu được một phép phân bậc trên đại số đa thức $A[X_i]_{i \in I}$, trong đó bậc của một đa thức thuần nhất $\neq 0$ là bậc toàn phần được định nghĩa trong § 2, no. 9 (cf. § 6, no. 6).
+(3) *Đại số của một magma.* Cho $S$ là một magma và $\phi : S \to \Delta$ là một đồng cấu. Với mọi $\lambda \in \Delta$, ta viết $S_\lambda = \phi^{-1}(\lambda)$; khi đó $S_\lambda S_\mu \subset S_{\lambda + \mu}$. Cho $A$ là một vành giao hoán phân bậc có kiểu $\Delta$ và $(A_\lambda)_{\lambda \in \Delta}$ là phép phân bậc của nó; ta sẽ định nghĩa một cấu trúc đại số $A$ phân bậc trên đại số $E = A^{(S)}$ của magma $S$ (§ 2, no. 6). Để làm điều này, gọi $E_{\lambda}$ là nhóm con cộng tính của $E$ sinh bởi các phần tử có dạng $\alpha.s$ sao cho $\alpha \in A_{\mu}, s \in S_{\nu}$ và $\mu + \nu = \lambda$. Vì các $S_{\lambda}$ rời nhau từng đôi một, $E$ là tổng trực tiếp của các $A_{\mu}S_{\nu}$ và do đó cũng là tổng trực tiếp của các $E_{\lambda}$ và hiển nhiên rằng các $E_{\lambda}$ thỏa mãn các điều kiện (1) và (2) và vì thế xác định trên $E$ cấu trúc đại số $A$ phân bậc mong muốn. Nếu $S$ có một phần tử đơn vị $e$, thì cũng có thể giả sử rằng $\phi(e) = 0$. Một trường hợp riêng là trường hợp phép phân bậc của vành $A$ là tầm thường; khi đó $E_{\lambda}$ là môđun con-$A$ của $E$ sinh bởi $S_{\lambda}$. Đặc biệt hơn, nếu ta lấy $S = \mathbf{N}^{(1)}, \Delta = \mathbf{N}$ và $\phi$ là ánh xạ sao cho $\phi((n_i)) = \sum_{i \in I} n_i$, vành $A$ có phép phân bậc tầm thường, ta thu được một phép phân bậc trên đại số đa thức $A[X_i]_{i \in I}$, trong đó bậc của một đa thức thuần nhất $\neq 0$ là bậc toàn phần được định nghĩa trong § 2, no. 9 (cf. § 6, no. 6).
 
 Bây giờ ta lấy $S$ là monôit tự do $Mo(B)$ của một tập hợp $B$ (I, § 7, no. 2) và $\phi$ là đồng cấu $Mo(B) \to \mathbf{N}$ gán cho mỗi từ độ dài của nó. Như vậy thu được một cấu trúc đại số $A$ phân bậc trên đại số kết hợp tự do của tập hợp $B$ (§ 2, no. 7; cf. § 5, no. 5).
 

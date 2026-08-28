@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: fcbde3227ae2c8a07d15e11152623c5b8ec445be66fbe7f38c00957838c44bc2
+content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
 ---
 
 ## § 5. MEASURES ON COMPLETELY REGULAR SPACES
@@ -131,9 +131,9 @@ Necessity is obvious. To establish sufficiency, let us take up again the proof o
 
 The measure $\theta$ is then unique.*
 
-Uniqueness follows from Prop. 2 of No. 1. Let us show that the condition (M) is necessary. Let $\theta$ be a bounded complex measure; let K be a compact set such that $|\theta|^*(T - K) \leq \varepsilon$ (\S 1, No. 2, *Remark 3*). The hypotheses $|g| \leq 1, g_K = 0$ imply $|g| \leq \varphi_{\mathbf{C}_K}$, therefore $|\theta(g)| \leq |\theta|^*(\varphi_{\mathbf{C}_K}) \leq \varepsilon$.
+Uniqueness follows from Prop. 2 of No. 1. Let us show that the condition (M) is necessary. Let $\theta$ be a bounded complex measure; let K be a compact set such that $|\theta|^*(T - K) \leq \varepsilon$ (§ 1, No. 2, *Remark 3*). The hypotheses $|g| \leq 1, g_K = 0$ imply $|g| \leq \varphi_{\mathbf{C}_K}$, therefore $|\theta(g)| \leq |\theta|^*(\varphi_{\mathbf{C}_K}) \leq \varepsilon$.
 
-Let us pass to the proof of sufficiency. Let X be the Stone–Čech compactification of T (GT, IX, \S 1, Exer. 7; or TG, IX, \S 1, No. 6). For every function $f \in \mathcal{C}(X; \mathbf{C})$, set $\nu(f) = I(f_T)$; we define in this way a continuous linear form on $\mathcal{C}(X; \mathbf{C})$, that is, a complex measure on the compact space X. Let $\varepsilon$ be a number $> 0$, K a compact set satisfying (M); the function $\varphi_{\mathbf{C}_K}$ being lower semi-continuous and positive on X, the formula (2) gives us the following relations, where $\mathcal{G}$ denotes the set of functions $g \in \mathcal{C}(X; \mathbf{C})$ such that $|g| \leq \varphi_{\mathbf{C}_K}$:
+Let us pass to the proof of sufficiency. Let X be the Stone–Čech compactification of T (GT, IX, § 1, Exer. 7; or TG, IX, § 1, No. 6). For every function $f \in \mathcal{C}(X; \mathbf{C})$, set $\nu(f) = I(f_T)$; we define in this way a continuous linear form on $\mathcal{C}(X; \mathbf{C})$, that is, a complex measure on the compact space X. Let $\varepsilon$ be a number $> 0$, K a compact set satisfying (M); the function $\varphi_{\mathbf{C}_K}$ being lower semi-continuous and positive on X, the formula (2) gives us the following relations, where $\mathcal{G}$ denotes the set of functions $g \in \mathcal{C}(X; \mathbf{C})$ such that $|g| \leq \varphi_{\mathbf{C}_K}$:
 
 $$
 |\nu|^*(X - K) = \sup_{g \in \mathcal{G}} |\nu(g)| = \sup_{g \in \mathcal{G}} |I(g_T)| \leq \varepsilon.
@@ -168,7 +168,7 @@ $$
 
 If $T$ is locally compact, the tight topology is finer than the topology induced on $\mathcal{M}^b(T)$ by the vague topology, and these two topologies coincide only when $T$ is compact. For, if $T$ is not compact, the mapping $t \mapsto \varepsilon_t$ converges vaguely to 0 with respect to the filter of complements of relatively compact subsets of $T$, but does not converge tightly to 0, because the function 1 belongs to $\mathcal{C}^b(T)$ (for the relations between vague convergence and tight convergence, see Prop. 9).
 
-(1) This relation was only established above (\S 2, No. 1, Prop. 1) in the case that $f$ and $\nu$ are positive. The extension to the present situation, where $f$ and $\nu$ are complex and bounded, is immediate by linearity.
+(1) This relation was only established above (§ 2, No. 1, Prop. 1) in the case that $f$ and $\nu$ are positive. The extension to the present situation, where $f$ and $\nu$ are complex and bounded, is immediate by linearity.
 
 #### Remark 2 {#int-ix-s5-n3-rem-2 .statement}
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 80
 statements: 23
 exercises: 7
-content_sha256: 8fe36d3d61f3f8eba3dff884ac608e18a0cc790c414cc3bec399444177eeb152
+content_sha256: f4465bca5af48f4fe2251f95b010c5ca18b72eba266e16cfbc6dacf8a1cb9584
 ---
 
 ## 7. LIMITS
@@ -130,9 +130,9 @@ From Definition 3 and Propositions 1 (no. 1) and 3 (no. 2) we deduce the followi
 
 #### Example 1 {#top-i-s7-n3-exa-1 .statement}
 
-A sequence of points $(x_n)_{n \in \mathbf{N}}$ of a topological space is a mapping $n \to x_n$ of $\mathbf{N}$ into $X$. In analysis one frequently uses the notions of limit point and cluster point of such a mapping *with respect to the Fréchet filter* (\S 6, no. 1) on $\mathbf{N}$; if $y$ is a limit of $n \to x_n$ with respect to the Fréchet filter, $y$ is said to be a *limit of the sequence* $(x_n)$ *as n tends to infinity*, and we write $\lim_{n \to \infty} x_n = y$. A cluster point of the mapping $n \to x_n$ with respect to the Fréchet filter is called a *cluster point of the sequence* $(x_n)$.
+A sequence of points $(x_n)_{n \in \mathbf{N}}$ of a topological space is a mapping $n \to x_n$ of $\mathbf{N}$ into $X$. In analysis one frequently uses the notions of limit point and cluster point of such a mapping *with respect to the Fréchet filter* (§ 6, no. 1) on $\mathbf{N}$; if $y$ is a limit of $n \to x_n$ with respect to the Fréchet filter, $y$ is said to be a *limit of the sequence* $(x_n)$ *as n tends to infinity*, and we write $\lim_{n \to \infty} x_n = y$. A cluster point of the mapping $n \to x_n$ with respect to the Fréchet filter is called a *cluster point of the sequence* $(x_n)$.
 
-Thus a point $y \in X$ is a limit (resp. cluster point) of a sequence $(x_n)$ of points of $X$ if it is a limit point (resp. cluster point) of the *elementary filter associated with* $(x_n)$ (\S 6, no. 8).
+Thus a point $y \in X$ is a limit (resp. cluster point) of a sequence $(x_n)$ of points of $X$ if it is a limit point (resp. cluster point) of the *elementary filter associated with* $(x_n)$ (§ 6, no. 8).
 
 The point $y$ is a limit of a sequence $(x_n)$ in $X$ if and only if, for *every* neighbourhood $V$ of $y$ in $X$, *all but a finite number of the terms of the sequence* $(x_n)$ *are in* $V$, i.e. there is an integer $n_0$ such that $x_n \in V$ for all $n \geq n_0$. Likewise $y$ is a cluster point of the sequence $(x_n)$ if and only if, for *every* neighbourhood $V$ of $y$ in $X$ and *every* integer $n_0$, there is an integer $n \geq n_0$ such that $x_n \in V$.
 
@@ -146,13 +146,13 @@ If $y$ is a limit (resp. cluster point) of a mapping $f : X \to Y$ with respect 
 
 *Let $f$ be a mapping of a set $X$ into a topological space $Y$; then $y \in Y$ is a cluster point of $f$ with respect to $\mathfrak{F}$ if and only if there is a filter $\mathfrak{G}$ on $X$ which is finer than $\mathfrak{F}$ and such that $y$ is a limit of $f$ with respect to $\mathfrak{G}$.*
 
-For if $y$ is a cluster point of $f$ with respect to $\mathfrak{F}$, and if $\mathcal{B}$ is the neighbourhood filter of $y$, then $\overline{f}^{-1}(\mathcal{B})$ is a filter base on $X$ since every set of $\overline{f}^{-1}(\mathcal{B})$ meets every set of $\mathfrak{F}$ (\S 6, no. 6). This remark shows also that there is a filter $\mathcal{G}$ on $X$ which is finer than both $\mathfrak{F}$ and the filter with base $\overline{f}^{-1}(\mathcal{B})$ (\S 6, no. 2, Proposition 1, Corollary 2), hence that $y$ is a limit point of $f$ with respect to $\mathcal{G}$.
+For if $y$ is a cluster point of $f$ with respect to $\mathfrak{F}$, and if $\mathcal{B}$ is the neighbourhood filter of $y$, then $\overline{f}^{-1}(\mathcal{B})$ is a filter base on $X$ since every set of $\overline{f}^{-1}(\mathcal{B})$ meets every set of $\mathfrak{F}$ (§ 6, no. 6). This remark shows also that there is a filter $\mathcal{G}$ on $X$ which is finer than both $\mathfrak{F}$ and the filter with base $\overline{f}^{-1}(\mathcal{B})$ (§ 6, no. 2, Proposition 1, Corollary 2), hence that $y$ is a limit point of $f$ with respect to $\mathcal{G}$.
 
 Notice finally that if $f$ is a mapping of a set $X$ into a topological space $Y$, the set of cluster points of $f$ with respect to a filter $\mathfrak{F}$ on $X$ is *closed* in $Y$ (no. 2, Proposition 5) and possibly empty.
 
 #### Remark {#top-i-s7-n3-rem-1 .statement}
 
-If $y \in Y$ is a limit (resp. cluster point) of a mapping $f : X \to Y$ with respect to a filter $\mathfrak{F}$ on $X$, then $y$ is also a limit (resp. cluster point) of every function $g : X \to Y$ which has *the same germ* as $f$ with respect to $\mathfrak{F}$ (\S 6, no. 9); $y$ is said to be a *limit* (resp. *cluster point*) *of the germ* $\tilde{f}$ *of* $f$ with respect to $\mathfrak{F}$.
+If $y \in Y$ is a limit (resp. cluster point) of a mapping $f : X \to Y$ with respect to a filter $\mathfrak{F}$ on $X$, then $y$ is also a limit (resp. cluster point) of every function $g : X \to Y$ which has *the same germ* as $f$ with respect to $\mathfrak{F}$ (§ 6, no. 9); $y$ is said to be a *limit* (resp. *cluster point*) *of the germ* $\tilde{f}$ *of* $f$ with respect to $\mathfrak{F}$.
 
 ### 4. LIMITS AND CONTINUITY
 
@@ -164,7 +164,7 @@ $$
 
 and we say that $y$ is a *limit of* $f$ *at the point* $a$, or that $f(x)$ *tends to* $y$ *as* $x$ *tends to* $a$. Similarly, instead of saying that $y$ is a cluster point of $f$ with respect to $\mathcal{B}$, we say that $y$ *is a cluster point of* $f$ *at the point* $a$.
 
-A consideration of the definition of continuity (\S 2, no. 1, Definition 1) Proposition 7 of no. 3 shows that:
+A consideration of the definition of continuity (§ 2, no. 1, Definition 1) Proposition 7 of no. 3 shows that:
 
 #### Proposition 9 {#top-i-s7-prop-9 .statement}
 
@@ -174,7 +174,7 @@ A consideration of the definition of continuity (\S 2, no. 1, Definition 1) Prop
 
 *Let* $X, Y$ *be two topological spaces, $f$ a mapping of* $X$ *into* $Y$ *which is continuous at a point* $a \in X$; *then, for every filter base* $\mathcal{B}$ *on* $X$ *which converges to* $a$, *the filter base* $f(\mathcal{B})$ *converges to* $f(a)$. *Conversely if, for every ultrafilter* $\mathcal{U}$ *on* $X$ *which converges to* $a$, *the ultrafilter base* $f(\mathcal{U})$ *converges to* $f(a)$, *then* $f$ *is continuous at* $a$.
 
-The first assertion is an immediate consequence of Proposition 9. To prove the second, suppose that $f$ is not continuous at $a$; then there is a neighbourhood W of $f(a)$ in Y such that $\overline{f}^{-1}(W)$ does not belong to the filter $\mathfrak{B}$ of neighbourhoods of $a$ in X. Hence (\S 6, no. 4, Proposition 7) there is an ultrafilter $\mathfrak{U}$, finer than $\mathfrak{B}$, which does not contain $\overline{f}^{-1}(W)$ and therefore contains its complement $A = X - \overline{f}^{-1}(W)$ (\S 6, no. 4, Proposition 5); since $f(A) \cap W = \varnothing$, $f(\mathfrak{U})$ does not converge to $f(a)$.
+The first assertion is an immediate consequence of Proposition 9. To prove the second, suppose that $f$ is not continuous at $a$; then there is a neighbourhood W of $f(a)$ in Y such that $\overline{f}^{-1}(W)$ does not belong to the filter $\mathfrak{B}$ of neighbourhoods of $a$ in X. Hence (§ 6, no. 4, Proposition 7) there is an ultrafilter $\mathfrak{U}$, finer than $\mathfrak{B}$, which does not contain $\overline{f}^{-1}(W)$ and therefore contains its complement $A = X - \overline{f}^{-1}(W)$ (§ 6, no. 4, Proposition 5); since $f(A) \cap W = \varnothing$, $f(\mathfrak{U})$ does not converge to $f(a)$.
 
 #### Corollary 2 {#top-i-s7-prop-9-cor-2 .statement}
 
@@ -214,7 +214,7 @@ Let $a$ be a *non-isolated* point of X, so that $a$ is in the closure of $\mathb
 
 Let $X$ be a set, let $(Y_i)_{i \in I}$ be a family of topological spaces, and for each $i \in I$ let $f_i$ be a mapping of $X$ into $Y_i$. Let $X$ be given the coarsest topology $\mathcal{T}$ for which the $f_i$ are continuous. Then a necessary and sufficient condition for a filter $\mathfrak{F}$ on $X$ to converge to $a \in X$ is that for each $i \in I$ the filter base $f_i(\mathfrak{F})$ should converge to $f_i(a)$ in $Y_i$.
 
-The condition is necessary since the $f_i$ are continuous (no. 4, Proposition 9, Corollary 1). Conversely, suppose that the condition is satisfied, and let $V$ be an open neighbourhood of $a$ in $X$. By the definition of $\mathcal{T}$ (\S 2, no. 3, Proposition 4) there is a finite subset $J$ of $I$, and for each $i \in J$ an open subset $U_i$ of $Y_i$, such that $f_i(a) \in U_i$ for $i \in J$ and such that $V$ contains the set
+The condition is necessary since the $f_i$ are continuous (no. 4, Proposition 9, Corollary 1). Conversely, suppose that the condition is satisfied, and let $V$ be an open neighbourhood of $a$ in $X$. By the definition of $\mathcal{T}$ (§ 2, no. 3, Proposition 4) there is a finite subset $J$ of $I$, and for each $i \in J$ an open subset $U_i$ of $Y_i$, such that $f_i(a) \in U_i$ for $i \in J$ and such that $V$ contains the set
 $$
 \bigcap_{i \in J} f_i^{-1}(U_i).
 $$
@@ -236,7 +236,7 @@ Let $f = (f_i)$ be a mapping of a set $X$ into a product space $Y = \prod_{i \in
 
 Let $R$ be an open equivalence relation on a topological space $X$ and let $\varphi$ be the canonical mapping $X \to X/R$. Then for each $x \in X$ and each filter base $\mathcal{B}'$ on $X/R$ which converges to $\varphi(x)$, there is a filter base $\mathcal{B}$ on $X$ which converges to $x$ and is such that $\varphi(\mathcal{B})$ is equivalent to $\mathcal{B}'$.
 
-If $U$ is any neighbourhood of $x$ in $X$, then $\varphi(U)$ is a neighbourhood of $\varphi(x)$ in $X/R$ (\S 5, no. 3, Proposition 5), hence there is a set $M' \in \mathcal{B}'$ such that $M' \subset \varphi(U)$; if we put $M = U \cap \varphi^{-1}(M')$, then $M' = \varphi(M)$. This shows that as $M'$ runs through $\mathcal{B}'$ and $U$ runs through the neighbourhood filter of $x$, the sets $U \cap \varphi^{-1}(M')$ form a filter base $\mathcal{B}$ on $X$; clearly $\mathcal{B}$ converges to $x$ and $\varphi(\mathcal{B})$ is equivalent to $\mathcal{B}'$.
+If $U$ is any neighbourhood of $x$ in $X$, then $\varphi(U)$ is a neighbourhood of $\varphi(x)$ in $X/R$ (§ 5, no. 3, Proposition 5), hence there is a set $M' \in \mathcal{B}'$ such that $M' \subset \varphi(U)$; if we put $M = U \cap \varphi^{-1}(M')$, then $M' = \varphi(M)$. This shows that as $M'$ runs through $\mathcal{B}'$ and $U$ runs through the neighbourhood filter of $x$, the sets $U \cap \varphi^{-1}(M')$ form a filter base $\mathcal{B}$ on $X$; clearly $\mathcal{B}$ converges to $x$ and $\varphi(\mathcal{B})$ is equivalent to $\mathcal{B}'$.
 
 ### Exercises {#top-i-s7-exercises}
 

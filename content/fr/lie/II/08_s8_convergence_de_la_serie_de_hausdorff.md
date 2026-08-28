@@ -28,7 +28,7 @@ subsections:
       pdf_page: 67
 statements: 9
 exercises: 4
-content_sha256: 0309ed4689e55f7e4c4a7b12a85dd60ed043e0310cdd577c9bd89516e316d59d
+content_sha256: 55dd4806b7f8b3b3ce358eec74d97c72f2b3a1fa457259345482d16cac8ff357
 ---
 
 ## § 8. Convergence de la série de Hausdorff (cas ultramétrique)
@@ -80,7 +80,7 @@ $$
 H = \sum_{r,s \geqslant 0} H_{r,s}(U, V) \in \hat{L}_{\mathbf{Q}}(I)
 $$
 
-la série de Hausdorff (\S 6, n° 4, déf. 1). Soient $\mathbf{Z}_{(p)}$ l’anneau local de $\mathbf{Z}$ relativement à l’idéal premier $(p)$, et $(e_b)_{b \in B}$ une base de $L_{\mathbf{Z}_{(p)}}(\mathbf{I})$ sur $\mathbf{Z}_{(p)}$ (\S 2, n° 11, th. 1). C’est aussi une base de $L_\mathbf{Q}(\mathbf{I})$ sur $\mathbf{Q}$.
+la série de Hausdorff (§ 6, n° 4, déf. 1). Soient $\mathbf{Z}_{(p)}$ l’anneau local de $\mathbf{Z}$ relativement à l’idéal premier $(p)$, et $(e_b)_{b \in B}$ une base de $L_{\mathbf{Z}_{(p)}}(\mathbf{I})$ sur $\mathbf{Z}_{(p)}$ (§ 2, n° 11, th. 1). C’est aussi une base de $L_\mathbf{Q}(\mathbf{I})$ sur $\mathbf{Q}$.
 
 #### Proposition 1 {#lie-ii-s8-prop-1 .statement}
 
@@ -94,7 +94,7 @@ L_{\mathbf{Z}_{(p)}}(\mathbf{I}) = A_{\mathbf{Z}_{(p)}}(\mathbf{I}) \cap L_\math
 $$
 Soit $f$ l’entier tel que $f \leqslant (r + s - 1)\theta < f + 1$. La relation (4) équivaut à $v_p(\lambda_b) \geqslant -f$ pour tout $b \in B$, c’est-à-dire à $H_{r,s} \in p^{-f}L_{\mathbf{Z}_{(p)}}(\mathbf{I})$. Or cela équivaut aussi, d’après (5), à $H_{r,s} \in p^{-f}A_{\mathbf{Z}_{(p)}}(\mathbf{I})$.
 
-D’après la formule (11) du \S 6, n° 4, il suffit de montrer que, quel que soit l’entier $m \geqslant 1$ et quels que soient les entiers $r_1, \ldots, r_m, s_1, \ldots, s_m$ tels que
+D’après la formule (11) du § 6, n° 4, il suffit de montrer que, quel que soit l’entier $m \geqslant 1$ et quels que soient les entiers $r_1, \ldots, r_m, s_1, \ldots, s_m$ tels que
 $$
 r_1 + \cdots + r_m = r, \qquad s_1 + \cdots + s_m = s,
 $$
@@ -122,11 +122,11 @@ $$
 
 Dans tout le reste de ce paragraphe, on désigne par $g$ une algèbre de Lie normée complète.
 
-Pour tout ensemble fini $\mathbf{I}$, on définit comme au \S 7, n° 1, un homomorphisme continu $u \mapsto \tilde{u}$ d’algèbres de Lie de $\hat{L}(\mathbf{I})$ dans $\hat{P}(g^\mathbf{I}; g)$. On voit comme au \S 7 que si $u = \sum_v u_v$, avec $u_v \in L^v(\mathbf{I})$ pour $v \in \mathbf{N}^\mathbf{I}$, alors $\tilde{u} = \sum_v \tilde{u}_v$, où $\tilde{u}_v$ est l’application polynomiale $(t_i)_{i \in \mathbf{I}} \mapsto u_v((t_i))$ définie au \S 2, n° 4. La formule de composition (2) du \S 7, n° 1, reste valable.
+Pour tout ensemble fini $\mathbf{I}$, on définit comme au § 7, n° 1, un homomorphisme continu $u \mapsto \tilde{u}$ d’algèbres de Lie de $\hat{L}(\mathbf{I})$ dans $\hat{P}(g^\mathbf{I}; g)$. On voit comme au § 7 que si $u = \sum_v u_v$, avec $u_v \in L^v(\mathbf{I})$ pour $v \in \mathbf{N}^\mathbf{I}$, alors $\tilde{u} = \sum_v \tilde{u}_v$, où $\tilde{u}_v$ est l’application polynomiale $(t_i)_{i \in \mathbf{I}} \mapsto u_v((t_i))$ définie au § 2, n° 4. La formule de composition (2) du § 7, n° 1, reste valable.
 
 ### 3. Groupe défini par une algèbre de Lie normée complète
 
-Soit $H = \sum_{r \geq 0} H_{r,s} \in \hat{L}(\{U, V\})$ la série de Hausdorff (\S 6, n° 4, déf. 1). Nous allons montrer que la série formelle à composantes continues correspondante
+Soit $H = \sum_{r \geq 0} H_{r,s} \in \hat{L}(\{U, V\})$ la série de Hausdorff (§ 6, n° 4, déf. 1). Nous allons montrer que la série formelle à composantes continues correspondante
 
 (10)
 $$
@@ -155,7 +155,7 @@ De plus, on a
 $$
 \| \tilde{e}_b \| \leq 1 \quad \text{pour } b \in B.
 $$
-En effet, montrons, plus généralement, par récurrence sur $n$, que pour tout alternant $b$ de degré $n$ en les deux indéterminées U et V (\S 2, n° 6), on a $\| \tilde{b} \| \leq 1$. Si $n = 1$, $\tilde{b}$ est une des projections de $g \times g$ sur $g$, donc est de norme $\leq 1$; si $n > 1$, il existe deux alternants $b_1$ et $b_2$ de degrés $< n$, tels que $b = [b_1, b_2]$. Comme l’application $\gamma : (x, y) \mapsto [x, y]$ de $g \times g \to g$ est bilinéaire de norme $\leq 1$, on a (VAR, R, App., n° 4)
+En effet, montrons, plus généralement, par récurrence sur $n$, que pour tout alternant $b$ de degré $n$ en les deux indéterminées U et V (§ 2, n° 6), on a $\| \tilde{b} \| \leq 1$. Si $n = 1$, $\tilde{b}$ est une des projections de $g \times g$ sur $g$, donc est de norme $\leq 1$; si $n > 1$, il existe deux alternants $b_1$ et $b_2$ de degrés $< n$, tels que $b = [b_1, b_2]$. Comme l’application $\gamma : (x, y) \mapsto [x, y]$ de $g \times g \to g$ est bilinéaire de norme $\leq 1$, on a (VAR, R, App., n° 4)
 (13)
 $$
 \| \tilde{b} \| = \| \gamma \circ (\tilde{b}_1, \tilde{b}_2) \| \leq \| \tilde{b}_1 \| \cdot \| \tilde{b}_2 \| \leq 1.
@@ -205,7 +205,7 @@ Comme on a
 $$
 H(H(U, V), W) = H(U, H(V, W))
 $$
-dans $\hat{L}(\{U, V, W\})$ (\S 6, n° 5, prop. 4), on a
+dans $\hat{L}(\{U, V, W\})$ (§ 6, n° 5, prop. 4), on a
 $$
 (19) \quad \tilde{H} \circ (\tilde{H} \times \mathrm{Id}_g) = \tilde{H} \circ (\mathrm{Id}_g \times \tilde{H})
 $$

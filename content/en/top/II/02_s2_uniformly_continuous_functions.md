@@ -40,7 +40,7 @@ subsections:
       pdf_page: 186
 statements: 25
 exercises: 6
-content_sha256: 09273b7b580428a931bd796fe11338d641c3001505f6f56764965ea50a1ca0c1
+content_sha256: a1ab910e68e815174c047c6d5847b83dc5cbf4da3a07db2324c22291922910fa
 ---
 
 ## 2. UNIFORMLY CONTINUOUS FUNCTIONS
@@ -111,7 +111,7 @@ Let $X$ be a non-empty set. For each finite partition $\varpi = (A_i)_{1 \leq i 
 $$
 \bigcup_i A_i \times A_i.
 $$
-The sets $V_{\overline{\varpi}}$ then form a fundamental system of entourages of a uniformity $\mathcal{U}$ on $X$. For if $\varpi$ is any finite partition of $X$ we have $\Delta \subset V_{\overline{\varpi}}$ and $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (\S 1, no. 1, Example 2); and if $\varpi' = (B_j)$ and $\varpi'' = (C_k)$ are two finite partitions of $X$, then those of the sets $B_j \cap C_k$ which are not empty form a finite partition $\varpi$ of $X$, and we have $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathcal{U}$ is called the uniformity of finite partitions on $X$. The topology induced by $\mathcal{U}$ is the discrete topology, since for each $x \in X$ the sets $\{x\}$ and $C\{x\}$ form a finite partition of $X$. Nevertheless, if $X$ is infinite, it is clear that $\mathcal{U}$ is strictly coarser than the discrete uniformity.
+The sets $V_{\overline{\varpi}}$ then form a fundamental system of entourages of a uniformity $\mathcal{U}$ on $X$. For if $\varpi$ is any finite partition of $X$ we have $\Delta \subset V_{\overline{\varpi}}$ and $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (§ 1, no. 1, Example 2); and if $\varpi' = (B_j)$ and $\varpi'' = (C_k)$ are two finite partitions of $X$, then those of the sets $B_j \cap C_k$ which are not empty form a finite partition $\varpi$ of $X$, and we have $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathcal{U}$ is called the uniformity of finite partitions on $X$. The topology induced by $\mathcal{U}$ is the discrete topology, since for each $x \in X$ the sets $\{x\}$ and $C\{x\}$ form a finite partition of $X$. Nevertheless, if $X$ is infinite, it is clear that $\mathcal{U}$ is strictly coarser than the discrete uniformity.
 
 #### Remark 2 {#top-ii-s2-n2-rem-2 .statement}
 
@@ -183,7 +183,7 @@ It follows also from Proposition 4 of no. 3 that if $X$ is not empty and if $\ma
 
 #### Example {#top-ii-s2-n5-exa-1 .statement}
 
-If $\varpi$ is any finite partition $(A_i)_{1 \leq i \leq n}$ of a non-empty set $X$, the set $V_\varpi = \bigcup_i (A_i \times A_i)$ by itself constitutes a fundamental system of entourages of a uniformity $\mathcal{U}_\varpi$ on $X$ (\S 1, no. 1, Example 2); the uniformity of finite partitions on $X$ (no. 2, Remark 1) is then the least upper bound of the uniformities $\mathcal{U}_\varpi$.
+If $\varpi$ is any finite partition $(A_i)_{1 \leq i \leq n}$ of a non-empty set $X$, the set $V_\varpi = \bigcup_i (A_i \times A_i)$ by itself constitutes a fundamental system of entourages of a uniformity $\mathcal{U}_\varpi$ on $X$ (§ 1, no. 1, Example 2); the uniformity of finite partitions on $X$ (no. 2, Remark 1) is then the least upper bound of the uniformities $\mathcal{U}_\varpi$.
 
 #### Remark {#top-ii-s2-n5-rem-1 .statement}
 

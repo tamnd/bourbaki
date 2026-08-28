@@ -25,9 +25,9 @@ subsections:
       pdf_page: 305
 statements: 6
 exercises: 3
-content_sha256: 4f5cec5e56e9bf34d3282b8e566ffce8a5601c9498f53b2f7251e117c60d9799
+content_sha256: 037baafad936f1794febc3d2a8adb5d27a6957bc321afb046cd6ecd0c6b7494b
 translated_from: content/en/ac/IV/03_s3_primary_decomposition_in_graded_modules.md
-source_content_sha256: 0f0faf5a814e89f406ad83a8ae7e2310af0973f3e006962317ed786ad8a83fcc
+source_content_sha256: 55183dce28d121c14a65bc1ae9b8a1e4c9902f11e7b2707081227fe1fa054024
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-5035aace
 glossary_version: 34
@@ -97,7 +97,7 @@ Cho $A$ là một nhóm giao hoán không xoắn, $A$ là một vành Noether ph
 
 (iii) Nếu $Q_i$ tương ứng với một iđêan nguyên tố $p_i$ là một phần tử cực tiểu của $\operatorname{Ass}(M/N)$, thì $Q_i$ là một môđun con phân bậc của $M$.
 
-Ta đã thấy (no. 2, Mệnh đề 4) rằng các $Q'_i$ là nguyên sơ đối với $M$ và $N \subset Q'' \subset Q_i$, điều này chứng minh (i). Mệnh đề 4 của no. 2 cũng chỉ ra rằng iđêan nguyên tố $p'_i$ tương ứng với $Q'_i$ là iđêan phân bậc lớn nhất được chứa trong iđêan nguyên tố $p_i$ tương ứng với $Q_i$. Nếu phân tích $N = \bigcap_{i \in I} Q_i$ là rút gọn, $p_i \in \operatorname{Ass}(M/N)$ với mọi $i$ (\S 2, no. 3, Mệnh đề 4), do đó $p_i$ là một iđêan phân bậc (no. 1, Mệnh đề 1) và vì vậy $p'_i = p_i$; khi đó $\operatorname{Ass}(M/N) = \bigcup_{i \in I} \{p'_i\}$ (\S 2, no. 3, Mệnh đề 4), điều này chứng minh rằng phân tích $N = \bigcap_{i \in I} Q'_i$ là rút gọn (\S 2, no. 3, Mệnh đề 4). Cuối cùng, nếu $p_i$ là một phần tử cực tiểu của $\operatorname{Ass}(M/N)$, thì $p'_i = p_i$ vì $p_i$ là phân bậc (no. 1, Mệnh đề 1), do đó $Q'_i = Q_i$ theo \S 2, no. 3, Mệnh đề 5.
+Ta đã thấy (no. 2, Mệnh đề 4) rằng các $Q'_i$ là nguyên sơ đối với $M$ và $N \subset Q'' \subset Q_i$, điều này chứng minh (i). Mệnh đề 4 của no. 2 cũng chỉ ra rằng iđêan nguyên tố $p'_i$ tương ứng với $Q'_i$ là iđêan phân bậc lớn nhất được chứa trong iđêan nguyên tố $p_i$ tương ứng với $Q_i$. Nếu phân tích $N = \bigcap_{i \in I} Q_i$ là rút gọn, $p_i \in \operatorname{Ass}(M/N)$ với mọi $i$ (§ 2, no. 3, Mệnh đề 4), do đó $p_i$ là một iđêan phân bậc (no. 1, Mệnh đề 1) và vì vậy $p'_i = p_i$; khi đó $\operatorname{Ass}(M/N) = \bigcup_{i \in I} \{p'_i\}$ (§ 2, no. 3, Mệnh đề 4), điều này chứng minh rằng phân tích $N = \bigcap_{i \in I} Q'_i$ là rút gọn (§ 2, no. 3, Mệnh đề 4). Cuối cùng, nếu $p_i$ là một phần tử cực tiểu của $\operatorname{Ass}(M/N)$, thì $p'_i = p_i$ vì $p_i$ là phân bậc (no. 1, Mệnh đề 1), do đó $Q'_i = Q_i$ theo § 2, no. 3, Mệnh đề 5.
 
 ### Bài tập {#ac-iv-s3-exercises}
 

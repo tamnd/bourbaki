@@ -6331,6 +6331,141 @@
           ]
         }
       ]
+    },
+    {
+      "id": "int-i-iv-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "Inégalités de convexité",
+          "total": 0,
+          "sections": null
+        },
+        {
+          "chapter": "II",
+          "title": "Espaces de Riesz",
+          "total": 23,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-ii-s1",
+              "dir": "s1",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "starred": 3
+            },
+            {
+              "section": 2,
+              "label": "int-ii-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 6
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "Mesures sur les espaces localement compacts",
+          "total": 14,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-iii-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "int-iii-s2",
+              "dir": "s2",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "int-iii-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 4,
+              "label": "int-iii-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "Prolongement d'une mesure. Espaces $L^p$",
+          "total": 69,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-iv-s1",
+              "dir": "s1",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 3,
+              "label": "int-iv-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 4,
+              "label": "int-iv-s4",
+              "dir": "s4",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 5,
+              "label": "int-iv-s5",
+              "dir": "s5",
+              "count": 30,
+              "first": 1,
+              "last": 30,
+              "starred": 13
+            },
+            {
+              "section": 6,
+              "label": "int-iv-s6",
+              "dir": "s6",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "starred": 8
+            },
+            {
+              "section": 7,
+              "label": "int-iv-s7",
+              "dir": "s7",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
     }
   ]
 }

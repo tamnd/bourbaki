@@ -13,7 +13,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a3fbcbf4cb7df0e3e94f0c44f1e279811ec50e413842e6493f07ed4b9a87d2cb
+content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
 ---
 
 # HISTORICAL NOTE
@@ -200,11 +200,11 @@ $(G:H), G/H$ (H a subgroup of G): I, § 4, no. 4.
 $x \equiv y$ (mod. H), $x \equiv y$ (H) (H a normal subgroup): I, § 4, no. 4.
 Ker $f$, Im $f$ ($f$ a group homomorphism): I, § 4, no. 5.
 $$
-\prod_{i \in I} G_i \quad (G_i \text{ groups}): \text{I, } \S 4, \text{ no. 8}.
+\prod_{i \in I} G_i \quad (G_i \text{ groups}): \text{I, } § 4, \text{ no. 8}.
 $$
 $G_1 \times_H G_2$: I, § 4, no. 8.
 $$
-\prod_{i \in I} G_i \quad (G_i \text{ groups}): \text{I, } \S 4, \text{ no. 9}.
+\prod_{i \in I} G_i \quad (G_i \text{ groups}): \text{I, } § 4, \text{ no. 9}.
 $$
 $x \equiv y$ (mod. $a$), $x \equiv y$ ($a$) ($a, x, y$ rational integers): I, § 4, no. 10.
 $v_p(a)$ ($p$ a prime number, $a$ a rational integer): I, § 4, no. 10.
@@ -448,7 +448,7 @@ u \perp x, i'(u): III, § 11, no. 7.
 G_p(E), G_{n,p}(K): III, § 11, no. 13.
 a(x, y, z): III, Appendix, no. 1.
 ME: III, § 2, Exercise 13.
-E * F: III, § 5, Exercise 6.
+E \* F: III, § 5, Exercise 6.
 R[a]: III, § 6, Exercise 4.
 K[X; \sigma, d]: III, § 10, Exercise 3.
 \tilde{X}: III, § 11, Exercise 9.

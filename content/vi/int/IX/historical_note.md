@@ -12,9 +12,9 @@ pdf_pages: 0302-0332
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9959313667cf90ab4b38be612e9b39277075de28698113854cd3a02bb263600d
+content_sha256: a4005cacc48eabc777f46f9c2ed9204bec5af54feaba264a968d774aee7f4084
 translated_from: content/en/int/IX/historical_note.md
-source_content_sha256: abb1893fb2899b6a20fb9698c1b8ee3e9593900ea616ec2b346d2184220b3477
+source_content_sha256: 99a55fef46c115102e6ca090941abc261582890dfee3c615e90b28ab94c2f2b9
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-780f05a6
 glossary_version: 34
@@ -68,7 +68,7 @@ trong đó $k$ là hằng Boltzmann. Theo các ý tưởng của Gibbs, vô số
 
 (3) Một trình bày rất sinh động về lịch sử này có thể tìm thấy trong cuốn sách gần đây của E. Nelson, Dynamical theories of Brownian motion, Mathematical Notes, Princeton, 1967.
 
-rằng P là độ đo trên mặt cầu S có khối lượng 1 bất biến dưới phép quay. Hơn nữa, luật Maxwell về vận tốc phát biểu rằng luật xác suất của một thành phần của vận tốc của một phân tử là một độ đo Gauss với phương sai $2kT/m$ (\S 6, No. 5, *Nhận xét 3*). Borel dường như là người đầu tiên nhận thấy vào năm 1914 rằng luật Maxwell là một hệ quả của các giả thuyết của Gibbs và các tính chất của mặt cầu khi số lượng phân tử rất lớn. Ông xét một mặt cầu S trong một không gian Euclid có chiều lớn và độ đo P có khối lượng 1 trên S bất biến dưới phép quay; sử dụng các phương pháp xấp xỉ cổ điển dựa trên công thức Stirling, ông đã chỉ ra rằng phép chiếu của P trên một trục tọa độ là xấp xỉ Gauss. Các kết quả này đã được Gâteaux và Lévy làm sắc nét hơn một chút sau đó (IX, *a*). Cho một số nguyên $m \geqslant 1$ và một số $r > 0$, ký hiệu $S_{m,r}$ là tập hợp các dãy có dạng $(x_1, \ldots, x_m, 0, 0, \ldots)$ với $x_1^2 + \cdots + x_m^2 = r^2$; đồng thời, ký hiệu $\sigma_{m,r}$ là độ đo có khối lượng 1 trên $S_{m,r}$ bất biến dưới phép quay. Phát biểu bằng ngôn ngữ hiện đại, kết quả của Gâteaux và Lévy như sau: dãy các độ đo $\sigma_{m,1}$ hội tụ chặt đến một khối lượng đơn vị tại gốc tọa độ $(0, 0, \ldots)$, và dãy các độ đo $\sigma_{m, \sqrt{m}}$ hội tụ chặt đến một độ đo $\Gamma$ có dạng
+rằng P là độ đo trên mặt cầu S có khối lượng 1 bất biến dưới phép quay. Hơn nữa, luật Maxwell về vận tốc phát biểu rằng luật xác suất của một thành phần của vận tốc của một phân tử là một độ đo Gauss với phương sai $2kT/m$ (§ 6, No. 5, *Nhận xét 3*). Borel dường như là người đầu tiên nhận thấy vào năm 1914 rằng luật Maxwell là một hệ quả của các giả thuyết của Gibbs và các tính chất của mặt cầu khi số lượng phân tử rất lớn. Ông xét một mặt cầu S trong một không gian Euclid có chiều lớn và độ đo P có khối lượng 1 trên S bất biến dưới phép quay; sử dụng các phương pháp xấp xỉ cổ điển dựa trên công thức Stirling, ông đã chỉ ra rằng phép chiếu của P trên một trục tọa độ là xấp xỉ Gauss. Các kết quả này đã được Gâteaux và Lévy làm sắc nét hơn một chút sau đó (IX, *a*). Cho một số nguyên $m \geqslant 1$ và một số $r > 0$, ký hiệu $S_{m,r}$ là tập hợp các dãy có dạng $(x_1, \ldots, x_m, 0, 0, \ldots)$ với $x_1^2 + \cdots + x_m^2 = r^2$; đồng thời, ký hiệu $\sigma_{m,r}$ là độ đo có khối lượng 1 trên $S_{m,r}$ bất biến dưới phép quay. Phát biểu bằng ngôn ngữ hiện đại, kết quả của Gâteaux và Lévy như sau: dãy các độ đo $\sigma_{m,1}$ hội tụ chặt đến một khối lượng đơn vị tại gốc tọa độ $(0, 0, \ldots)$, và dãy các độ đo $\sigma_{m, \sqrt{m}}$ hội tụ chặt đến một độ đo $\Gamma$ có dạng
 
 $$
 d\Gamma(x_1, x_2, \ldots) = \prod_{n=1}^\infty d\gamma(x_n)

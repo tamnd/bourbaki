@@ -32,7 +32,7 @@ subsections:
       pdf_page: 246
 statements: 37
 exercises: 9
-content_sha256: a930a57cc68133a0752ad2e45fbd56a9286b0b1dd65838fcb468772bac7cd2fb
+content_sha256: 8946770381542fea93e050249d046345be6a1a19154b6df2eaac30ae3e84b650
 ---
 
 ## § 3. Topologies $m$-adiques sur les anneaux nœthériens.
@@ -249,7 +249,7 @@ Soient $A, A'$ deux anneaux commutatifs, $h : A \to A'$ un homomorphisme d’ann
 
 (iii) Si $h$ est injectif (identifiant ainsi $A$ à un sous-anneau de $A'$) la topologie $m'$-adique de $A'$ induit sur $A$ la topologie $m$-adique.
 
-Rappelons que la filtration $m'$-adique de $A'$ coïncide avec la filtration $m$-adique du $A$-module $A'$ ($\S 2$, n° 1, Exemple 3). L’assertion (i) est donc un cas particulier de la prop. 5 du n° 2, et l’assertion (iii) un cas particulier du th. 2 du n° 2. Démontrons enfin (ii). Supposons que A soit un anneau de Zariski pour la topologie m-adique, et soit E' un A'-module de type fini ; c'est aussi un A-module de type fini, et les filtrations m-adique et m'-adique sur E' coïncident ; donc E' est séparé pour la topologie m'-adique. Enfin le A-module A' est noethérien, donc l'anneau A' est noethérien, ce qui achève de prouver que A' est un anneau de Zariski.
+Rappelons que la filtration $m'$-adique de $A'$ coïncide avec la filtration $m$-adique du $A$-module $A'$ ($§ 2$, n° 1, Exemple 3). L’assertion (i) est donc un cas particulier de la prop. 5 du n° 2, et l’assertion (iii) un cas particulier du th. 2 du n° 2. Démontrons enfin (ii). Supposons que A soit un anneau de Zariski pour la topologie m-adique, et soit E' un A'-module de type fini ; c'est aussi un A-module de type fini, et les filtrations m-adique et m'-adique sur E' coïncident ; donc E' est séparé pour la topologie m'-adique. Enfin le A-module A' est noethérien, donc l'anneau A' est noethérien, ce qui achève de prouver que A' est un anneau de Zariski.
 
 ### 4. Séparé complété d'un anneau noethérien.
 
@@ -292,7 +292,7 @@ $$
 \end{array}
 $$
 
-La première ligne est exacte (chap. I, § 2, no 1, lemme 1) et il en est de même de la seconde d’après (i). On sait déjà que $\alpha_E$ est surjectif ($\S 2$, no 12, prop. 16); d’autre part, comme $\alpha_L$ et $\alpha_{L'}$ sont bijectifs et $1 \otimes v$ surjectif, $\alpha_E$ est injectif en vertu du chap. I, § 1, no 4, cor. 2 de la prop. 2; ceci démontre (ii).
+La première ligne est exacte (chap. I, § 2, no 1, lemme 1) et il en est de même de la seconde d’après (i). On sait déjà que $\alpha_E$ est surjectif ($§ 2$, no 12, prop. 16); d’autre part, comme $\alpha_L$ et $\alpha_{L'}$ sont bijectifs et $1 \otimes v$ surjectif, $\alpha_E$ est injectif en vertu du chap. I, § 1, no 4, cor. 2 de la prop. 2; ceci démontre (ii).
 
 Il résulte alors de (i) et (ii) que si $a$ est un idéal de $A$ (nécessairement de type fini), l’application canonique $\hat{A} \otimes_A a \to \hat{A}$ est injective, étant composée de $\hat{a} \to \hat{A}$ et de $\alpha_E$, ce qui prouve que $\hat{A}$ est un $A$-module plat (chap. I, § 2, no 3, prop. 1).
 
@@ -332,7 +332,7 @@ En effet c’est le complété de l’anneau de polynômes
 $$
 B = A[X_1, ..., X_n]
 $$
-pour la topologie m-adique, où m est l’ensemble des polynômes sans terme constant ($\S 2,$ no 12, *Exemple 1*); comme B est noethérien ($\S 2,$ no 10, cor. 2 du th. 2), $A[[X_1, ..., X_n]]$ est un B-module plat en vertu du th. 3, et comme B est un A-module libre, $A[[X_1, ..., X_n]]$ est un A-module plat (chap. I, § 2, no 7, cor. 3 de la prop. 8).
+pour la topologie m-adique, où m est l’ensemble des polynômes sans terme constant ($§ 2,$ no 12, *Exemple 1*); comme B est noethérien ($§ 2,$ no 10, cor. 2 du th. 2), $A[[X_1, ..., X_n]]$ est un B-module plat en vertu du th. 3, et comme B est un A-module libre, $A[[X_1, ..., X_n]]$ est un A-module plat (chap. I, § 2, no 7, cor. 3 de la prop. 8).
 
 #### Proposition 8 {#ac-iii-s3-prop-8 .statement}
 
@@ -341,11 +341,11 @@ pour la topologie m-adique, où m est l’ensemble des polynômes sans terme con
 (ii) *L’application* $n \to \hat{n} = \hat{A}.j(n)$ *est une bijection de l’ensemble des idéaux maximaux de A contenant m sur l’ensemble des idéaux maximaux de $\hat{A}$, et $q \to \hat{j}(q)$ *est la bijection réciproque*.
 (iii) *Soit n un idéal maximal de A contenant m. L’homomorphisme* $j' : A_n \to \hat{A}_{\hat{n}}$ *déduit de j est injectif ; si on identifie* $A_n$ *au moyen* de $j'$ à un sous-anneau de $\hat{A}_{\hat{n}}$, la topologie $(nA_n)$-adique de $A_n$ est induite par la topologie $\hat{n}$-adique de $\hat{A}_{\hat{n}}$, et $A_n$ est dense dans $\hat{A}_{\hat{n}}$ pour la topologie $\hat{n}$-adique.
 
-Démontrons (i). Comme $m$ est un idéal de type fini, on a $(m^n)^{\sim} = (\hat{m})^n = m^n \hat{A}$ (\S 2, no 12, cor. 2 de la prop. 16) et la topologie de $\hat{A}$ est la topologie $\hat{m}$-adique. Comme $\hat{A}/\hat{m}$ est isomorphe à $A/m$, c'est un anneau nœthérien, et $\hat{m} = m \hat{A}$ est un $\hat{A}$-module de type fini, donc $\hat{A}$ est nœthérien (\S 2, no 10, cor. 5 du th. 2); enfin, comme $\hat{A}$ est séparé et complet pour la topologie $\hat{m}$-adique, $\hat{A}$ est un anneau de Zariski (no 3, Exemple 1).
+Démontrons (i). Comme $m$ est un idéal de type fini, on a $(m^n)^{\sim} = (\hat{m})^n = m^n \hat{A}$ (§ 2, no 12, cor. 2 de la prop. 16) et la topologie de $\hat{A}$ est la topologie $\hat{m}$-adique. Comme $\hat{A}/\hat{m}$ est isomorphe à $A/m$, c'est un anneau nœthérien, et $\hat{m} = m \hat{A}$ est un $\hat{A}$-module de type fini, donc $\hat{A}$ est nœthérien (§ 2, no 10, cor. 5 du th. 2); enfin, comme $\hat{A}$ est séparé et complet pour la topologie $\hat{m}$-adique, $\hat{A}$ est un anneau de Zariski (no 3, Exemple 1).
 
 L’assertion (ii) résulte aussitôt de ce que l’homomorphisme canonique $A/m \to \hat{A}/\hat{m}$ déduit de $j$ est bijectif et du fait que tout idéal maximal de $\hat{A}$ contient $\hat{m}$, puisque $\hat{A}$ est un anneau de Zariski et que le radical de $\hat{A}$ contient donc $\hat{m}$ (no 3, prop. 6).
 
-Prouvons enfin (iii). Comme $n = j^{-1}(\hat{n})$, on a $j(A - n) \subset \hat{A} - \hat{n}$, et $j$ définit bien un homomorphisme $j' : A_n \to \hat{A}_{\hat{n}}$ (chap. II, \S 2, no 1, prop. 2). Montrons que $j'$ est injectif; soient $a \in A, s \in A - n$ tels que $j'(a/s) = j(a)/j(s) = 0$; il existe donc $s' \in \hat{A} - \hat{n}$ tel que $s'j(a) = 0$ (chap. II, \S 2, no 1, Remarque 3), et l’annulateur de $j(a)$ dans $\hat{A}$ n’est donc pas contenu dans $\hat{n}$. Or, si $b$ est l’annulateur de $a$ dans $A$, l’annulateur de $j(a)$ dans $\hat{A}$ est $\hat{b}$ (cor. 1 du th. 3); donc $b \notin n$, ce qui montre que $a/s = 0$.
+Prouvons enfin (iii). Comme $n = j^{-1}(\hat{n})$, on a $j(A - n) \subset \hat{A} - \hat{n}$, et $j$ définit bien un homomorphisme $j' : A_n \to \hat{A}_{\hat{n}}$ (chap. II, § 2, no 1, prop. 2). Montrons que $j'$ est injectif; soient $a \in A, s \in A - n$ tels que $j'(a/s) = j(a)/j(s) = 0$; il existe donc $s' \in \hat{A} - \hat{n}$ tel que $s'j(a) = 0$ (chap. II, § 2, no 1, Remarque 3), et l’annulateur de $j(a)$ dans $\hat{A}$ n’est donc pas contenu dans $\hat{n}$. Or, si $b$ est l’annulateur de $a$ dans $A$, l’annulateur de $j(a)$ dans $\hat{A}$ est $\hat{b}$ (cor. 1 du th. 3); donc $b \notin n$, ce qui montre que $a/s = 0$.
 
 En outre, on a un diagramme commutatif
 
@@ -357,7 +357,7 @@ A/n^k & \longrightarrow & A_n/(nA_n)^k \\
 \end{array}
 $$
 
-où $h$ et $h'$ sont déduits de $j$ et $j'$ respectivement, et où les flèches horizontales sont les isomorphismes canoniques du chap. II, \S 3, no 3, prop. 9. Comme $n^k$ est un idéal ouvert de $A$ (puisqu’il contient $m^k$), $h$ est bijectif, donc il en est de même de $h'$. Ceci montre d’abord que $(nA_n)^k = {j'}^{-1}((\hat{n}\hat{A}_{\hat{n}})^k)$, donc la topologie de $A_n$ est induite par celle de $\hat{A}_{\hat{n}}$; en outre, on a $\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$ pour tout $k > 0$, donc $A_n$ est partout dense dans $\hat{A}_{\hat{n}}$.
+où $h$ et $h'$ sont déduits de $j$ et $j'$ respectivement, et où les flèches horizontales sont les isomorphismes canoniques du chap. II, § 3, no 3, prop. 9. Comme $n^k$ est un idéal ouvert de $A$ (puisqu’il contient $m^k$), $h$ est bijectif, donc il en est de même de $h'$. Ceci montre d’abord que $(nA_n)^k = {j'}^{-1}((\hat{n}\hat{A}_{\hat{n}})^k)$, donc la topologie de $A_n$ est induite par celle de $\hat{A}_{\hat{n}}$; en outre, on a $\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$ pour tout $k > 0$, donc $A_n$ est partout dense dans $\hat{A}_{\hat{n}}$.
 
 C. Q. F. D.
 
@@ -408,7 +408,7 @@ Il est clair que $A \subset \hat{A} \cap K$; d’autre part, si $x \in \hat{A} \
 
 Soient $A$ un anneau commutatif nœthérien, $E, F$ deux $A$-modules de type fini, $u : E \to F$ un $A$-homomorphisme. Pour tout idéal maximal $m$ de $A$, notons $A(m)$ (resp. $E(m)$, $F(m)$) le séparé complété de $A$ (resp. $E, F$) pour la topologie $m$-adique, par $u(m) : E(m) \to F(m)$ l’homomorphisme correspondant à $u$. Pour que $u$ soit injectif (resp. surjectif, bijectif, nul), il faut et il suffit que $u(m)$ le soit pour tout idéal maximal $m$ de $A$.
 
-On sait en effet que pour que $u$ soit injectif (resp. surjectif, bijectif, nul), il faut et il suffit que $u_m : E_m \to F_m$ le soit pour tout idéal maximal $m$ de $A$ (chap. II, § 3, no 3, th. 1). Notons maintenant que $A_m$ est un anneau local noethérien (chap. II, § 2, no 4, cor. 2 de la prop. 10), donc un anneau de Zariski, et il y a un isomorphisme canonique de $A$-algèbres $\hat{A}_m \to A(m)$ ($\S 2,$ no 13, prop. 18). D'autre part (début du no 4), on a un diagramme commutatif
+On sait en effet que pour que $u$ soit injectif (resp. surjectif, bijectif, nul), il faut et il suffit que $u_m : E_m \to F_m$ le soit pour tout idéal maximal $m$ de $A$ (chap. II, § 3, no 3, th. 1). Notons maintenant que $A_m$ est un anneau local noethérien (chap. II, § 2, no 4, cor. 2 de la prop. 10), donc un anneau de Zariski, et il y a un isomorphisme canonique de $A$-algèbres $\hat{A}_m \to A(m)$ ($§ 2,$ no 13, prop. 18). D'autre part (début du no 4), on a un diagramme commutatif
 
 $$
 \begin{array}{ccc}

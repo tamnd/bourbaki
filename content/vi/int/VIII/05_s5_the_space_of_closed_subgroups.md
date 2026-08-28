@@ -37,9 +37,9 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: 6de8ec4499f0b36370a21eaca5fcbf566bb5b15696bddb7995798dcf834ac65b
+content_sha256: 7846785383445cbdcee6d55683f9285062975cc3bbf01fed5c5f825d1f5658f4
 translated_from: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
-source_content_sha256: 09d2c118abf8c6df99cf173ca74772db4f4d2cb82538ea26cffac744572ce1a0
+source_content_sha256: 29c2899779ce442617d1f3f13a1923a0fdf371d15fbe391c66e2a84e16e4ed59
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-1ea08f37
 glossary_version: 34
@@ -77,7 +77,7 @@ Thật vậy, nếu $\varphi \in \mathcal{K}_+(X)$ là một hàm có giá đỡ
 
 Cho E là một tập được lọc bởi một bộ lọc $\Phi$, và cho $\xi \mapsto \alpha(\xi)$ là một ánh xạ từ E vào $\Gamma$ hội tụ mơ hồ đối với $\Phi$ tới một độ đo $\alpha_0 \neq 0$. Mặt khác, cho $\xi \mapsto t_\xi$ là một ánh xạ từ E vào G sao cho $t_\xi \in H_{\alpha(\xi)}$ với mọi $\xi \in E$. Nếu s là một điểm tụ của ánh xạ $\xi \mapsto t_\xi$ đối với $\Phi$, thì $\delta(s)\alpha_0 = \alpha_0$.
 
-Nếu cần, thay $\Phi$ bằng một bộ lọc mịn hơn, ta có thể giả sử rằng $s$ là một giới hạn của $\xi \mapsto t_\xi$ đối với $\Phi$; theo Bổ đề 1, $\delta(t_\xi)\alpha(\xi) = \alpha(\xi)$ với mọi $\xi \in E$, và kết luận suy ra từ tính liên tục của ánh xạ $(u, \lambda) \mapsto \delta(u)\lambda$ trên $G \times \mathcal{M}_+(G)$ (\S 3, No. 3, Mệnh đề 13).
+Nếu cần, thay $\Phi$ bằng một bộ lọc mịn hơn, ta có thể giả sử rằng $s$ là một giới hạn của $\xi \mapsto t_\xi$ đối với $\Phi$; theo Bổ đề 1, $\delta(t_\xi)\alpha(\xi) = \alpha(\xi)$ với mọi $\xi \in E$, và kết luận suy ra từ tính liên tục của ánh xạ $(u, \lambda) \mapsto \delta(u)\lambda$ trên $G \times \mathcal{M}_+(G)$ (§ 3, No. 3, Mệnh đề 13).
 
 Để chứng minh Mệnh đề 1, theo Bổ đề 1, chỉ cần chỉ ra rằng nếu một bộ lọc $\Psi$ trên $\Gamma$ hội tụ một cách mơ hồ đến một độ đo $\alpha_0 \neq 0$ và nếu $s$ thuộc giá đỡ của $\alpha_0$, thì $\delta(s)\alpha_0 = \alpha_0$. Thật vậy, với mọi lân cận $V$ của $s$ trong $G$, tồn tại một $M \in \Psi$ sao cho, với mọi $\alpha \in M$, ta có $V \cap H_\alpha \neq \varnothing$, theo Bổ đề 2. Với mọi lân cận $V$ của $s$ và mọi $\alpha \in \Gamma$, hãy lấy $t_{V,\alpha}$ là một điểm của $V \cap H_\alpha$ nếu $V \cap H_\alpha \neq \varnothing$, và là bất kỳ điểm nào của $H_\alpha$ trong trường hợp ngược lại; nếu $\Theta$ là bộ lọc tiết diện của bộ lọc các lân cận của $s$, và $\Phi$ là bộ lọc tích $\Theta \times \Psi$, thì theo điều trên, $s$ là một điểm tụ của $(V, \alpha) \mapsto t_{V,\alpha}$ đối với $\Phi$. Mặt khác, vì ánh xạ $(V, \alpha) \mapsto \alpha$ có giới hạn $\alpha_0$ đối với $\Phi$, mệnh đề suy ra từ Bổ đề 3.
 
@@ -125,7 +125,7 @@ $$
 f_\alpha(\dot{x}) = \int_{H_\alpha} f(xs) d\alpha(s) = (f * \alpha)(x) ,
 $$
 
-trong đó tích chập được lấy tương ứng với độ đo Haar phải $\mu$ và trong đó ta dùng đến thực tế là $\dot{\alpha} = \alpha$ (\S 4, No. 4, công thức (11)). Ta biết (Ch. VII, §2, No. 1, Prop. 2) rằng ánh xạ $f \mapsto f_\alpha$ của $\mathcal{K}_+(G)$ vào $\mathcal{K}_+(Q_\alpha)$ là *toàn ánh*; do đó, theo (2),
+trong đó tích chập được lấy tương ứng với độ đo Haar phải $\mu$ và trong đó ta dùng đến thực tế là $\dot{\alpha} = \alpha$ (§ 4, No. 4, công thức (11)). Ta biết (Ch. VII, §2, No. 1, Prop. 2) rằng ánh xạ $f \mapsto f_\alpha$ của $\mathcal{K}_+(G)$ vào $\mathcal{K}_+(Q_\alpha)$ là *toàn ánh*; do đó, theo (2),
 
 $$
 \| \mu_\alpha \| = \sup_{f \in \mathcal{K}_+(G), f \neq 0} \mu_\alpha(f_\alpha) / \| f_\alpha \| = \sup_{f \in \mathcal{K}_+(G), f \neq 0} \mu(f) / \| f_\alpha \|,
@@ -143,7 +143,7 @@ $$
 \|f_\alpha\| = \sup_{x \in K} |(f * \alpha)(x)| .
 $$
 
-Suy ra kết luận từ thực tế rằng ánh xạ $\alpha \mapsto f * \alpha$ của $\mathcal{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathcal{C}(G)$, được trang bị tôpô hội tụ trên các tập compact, là liên tục (\S 4, No. 2, Nhận xét 1).
+Suy ra kết luận từ thực tế rằng ánh xạ $\alpha \mapsto f * \alpha$ của $\mathcal{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathcal{C}(G)$, được trang bị tôpô hội tụ trên các tập compact, là liên tục (§ 4, No. 2, Nhận xét 1).
 
 Nhắc lại rằng nếu, với một độ đo $\alpha \in \Gamma^0$, $\|\mu_\alpha\|$ là hữu hạn, thì G tất yếu là đơn môđula (Ch. VII, §2, No. 6, Hệ quả 3 của Th. 3).
 
@@ -172,7 +172,7 @@ $$
 \end{array} \right.
 $$
 
-Vì $\beta \mapsto f * \beta$ là một ánh xạ liên tục từ $\mathcal{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathcal{C}(G)$ được trang bị tôpô hội tụ compact (\S 4, No. 2, Nhận xét 1), ta thấy rằng với mọi $\varepsilon > 0$, tập $U_\varepsilon$ gồm các $\beta \in \Gamma^0(G)$ sao cho
+Vì $\beta \mapsto f * \beta$ là một ánh xạ liên tục từ $\mathcal{M}_+(G)$, được trang bị tôpô mơ hồ, vào $\mathcal{C}(G)$ được trang bị tôpô hội tụ compact (§ 4, No. 2, Nhận xét 1), ta thấy rằng với mọi $\varepsilon > 0$, tập $U_\varepsilon$ gồm các $\beta \in \Gamma^0(G)$ sao cho
 $$
 f_\beta(\dot{x}) = \int_G f(xs)\, d\beta(s) > 1 - \varepsilon \quad \text{với mọi } x \in K
 $$
@@ -246,7 +246,7 @@ $$
 \Gamma^0(g) \subset \Gamma_c^0.
 $$
 
-Vì, nếu K là giá đỡ của $g$, thì quan hệ $\int g(xs)\, d\alpha(s) \geq 1$ với mọi $x \in G$ suy ra $KH_\alpha = G$, do tích phân hiển nhiên bằng không trên phần bù của $KH_\alpha$, do đó $G/H_\alpha = \pi_\alpha(K)$ là compact. Cho một độ đo $\alpha \in \Gamma_c^0$, vì thế chỉ cần định nghĩa một hàm $g \in \mathcal{K}_+(G)$ sao cho $\Gamma^0(g)$ là một lân cận của $\alpha$ trong $\Gamma^0$. Vì $G/H_\alpha$ là compact và ánh xạ chính tắc $f \mapsto f_\alpha$ của $\mathcal{K}_+(G)$ vào $\mathcal{K}_+(G/H_\alpha)$ là toàn ánh (Ch. VII, §2, No. 2), nên tồn tại một hàm $g \in \mathcal{K}_+(G)$ sao cho $\int g(xs)\, d\alpha(s) = 2$ với mọi $x \in G$. Cho K là giá đỡ (compact) của $g$, L là một lân cận compact đối xứng của $e$ trong G sinh ra G; vì ánh xạ $\beta \mapsto g * \beta$ của $\mathcal{M}_+(G)$ vào $\mathcal{C}(G)$ là liên tục mờ (\S4, No. 2, *Nhận xét* 1), nên tồn tại một lân cận $W$ của $\alpha$ trong $\Gamma^0$ sao cho
+Vì, nếu K là giá đỡ của $g$, thì quan hệ $\int g(xs)\, d\alpha(s) \geq 1$ với mọi $x \in G$ suy ra $KH_\alpha = G$, do tích phân hiển nhiên bằng không trên phần bù của $KH_\alpha$, do đó $G/H_\alpha = \pi_\alpha(K)$ là compact. Cho một độ đo $\alpha \in \Gamma_c^0$, vì thế chỉ cần định nghĩa một hàm $g \in \mathcal{K}_+(G)$ sao cho $\Gamma^0(g)$ là một lân cận của $\alpha$ trong $\Gamma^0$. Vì $G/H_\alpha$ là compact và ánh xạ chính tắc $f \mapsto f_\alpha$ của $\mathcal{K}_+(G)$ vào $\mathcal{K}_+(G/H_\alpha)$ là toàn ánh (Ch. VII, §2, No. 2), nên tồn tại một hàm $g \in \mathcal{K}_+(G)$ sao cho $\int g(xs)\, d\alpha(s) = 2$ với mọi $x \in G$. Cho K là giá đỡ (compact) của $g$, L là một lân cận compact đối xứng của $e$ trong G sinh ra G; vì ánh xạ $\beta \mapsto g * \beta$ của $\mathcal{M}_+(G)$ vào $\mathcal{C}(G)$ là liên tục mờ (§ 4, No. 2, *Nhận xét* 1), nên tồn tại một lân cận $W$ của $\alpha$ trong $\Gamma^0$ sao cho
 
 $$
 (g * \beta)(x) = \int g(xs)\, d\beta(s) \geq 1

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 60
 statements: 31
 exercises: 31
-content_sha256: 095c0afd835fa0e030d4159283b5d22f9673c93d0901585c932cd588ef35acea
+content_sha256: bc0c6917e598be8900d5fcc96d0fafb6274bac3530769cf01ac55c7968309600
 ---
 
 ## § 5. ANNEAUX LOCAUX RÉGULIERS
@@ -104,7 +104,7 @@ En effet, $\hat{A}$ est plat sur A, et l’on a $m_{\hat{A}} = \hat{A}.m_A$ (III
 
 Soit A un anneau local noethérien. Les conditions suivantes sont équivalentes :
 (i) A est régulier.
-(ii) L’idéal $m_A$ est engendré par une partie sécante pour A (\S 3, no 2, déf. 1).
+(ii) L’idéal $m_A$ est engendré par une partie sécante pour A (§ 3, no 2, déf. 1).
 (iii) L’idéal $m_A$ est engendré par une suite complètement sécante pour A (A, X, p. 157, déf. 2).
 (iv) Soit S l’algèbre symétrique du $\kappa_A$-espace vectoriel $m_A/m_A^2$, et soit gr(A) = $\bigoplus_{n \geqslant 0} m_A^n/m_A^{n+1}$ l’anneau gradué associé à A. L’homomorphisme canonique $\gamma$ de S sur gr(A) est bijectif.
 (v) Il existe un entier $r \geqslant 0$ tel que l’on ait $H_{A,m_A} = (1 - T)^{-r}$, c’est-à-dire $m_A = 0$ si $r = 0$ et $[m_A^n/m_A^{n+1} : \kappa_A] = \binom{n + r - 1}{r - 1}$ pour tout entier $n \geqslant 0$ si $r > 0$.
@@ -112,8 +112,8 @@ Soit A un anneau local noethérien. Les conditions suivantes sont équivalentes 
 
 Si ces conditions sont remplies, tout système de coordonnées de A est une suite complètement sécante pour A.
 
-(ii) \Rightarrow (i) : en effet, toute partie sécante a au plus $\dim(A)$ éléments (\S 3, no 2, th. 1).
-(iii) \Rightarrow (ii) : en effet, toute suite complètement sécante est sécante (\S 3, no 2, corollaire de la prop. 3).
+(ii) \Rightarrow (i) : en effet, toute partie sécante a au plus $\dim(A)$ éléments (§ 3, no 2, th. 1).
+(iii) \Rightarrow (ii) : en effet, toute suite complètement sécante est sécante (§ 3, no 2, corollaire de la prop. 3).
 (iv) \Rightarrow (iii) : soit $(x_1, ..., x_r)$ une suite d’éléments de $m_A$ dont les classes modulo $m_A^2$ forment une base $(\xi_1, ..., \xi_r)$ de $m_A/m_A^2$ sur le corps $\kappa_A$. Si la propriété (iv) est satisfaite, gr(A) est l’algèbre de polynômes $\kappa_A[\xi_1, ..., \xi_r]$ et la suite $(x_1, ..., x_r)$ est complètement sécante (A, X, p. 160, th. 1). Ceci prouve aussi la dernière assertion du th. 1.
 (i) \Rightarrow (iv) : posons $r = [m_A/m_A^2 : \kappa_A]$. D’après la formule (6) du § 4, no 2, la série de Poincaré de l’espace vectoriel gradué S sur le corps $\kappa_A$ est égale à
 

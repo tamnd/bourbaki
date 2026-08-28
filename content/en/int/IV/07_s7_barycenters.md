@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: 74faa0093d234e7f82eda603ae08239e86075511778f5c0d1cbe720c79b2e5e1
+content_sha256: d918fc8bfca5bdbfb7f09764b73864ce7ca0e6b0610a120b0c82f1ca0bbd082a
 ---
 
 ## § 7. BARYCENTERS
@@ -529,7 +529,7 @@ Since $\varepsilon$ is an arbitrary number $> 0$, we have proved that $\overline
 
 Let $\mathcal{A}$ (resp. $\mathcal{A}'$) be the set of restrictions to $C$ of the continuous linear forms (resp. affine functions) on $E$. We know (TVS, II, §5, No. 4, Remark 2) that $f$ is the upper envelope of the set of elements of $\mathcal{A}$ that are $\leq f$. The set of functions of the form $\sup(f_1, \ldots, f_p)$, where $f_1, \ldots, f_p$ belong to $\mathcal{A}$, $f_1 \geq 0, \ldots, f_p \geq 0$, is an increasing directed set and has $f$ as its upper envelope. Taking into account §1, No. 1, Th. 1, it suffices to verify the equality $\lambda(f|K) = \lambda'(f|K)$ when $f$ is of the preceding form.
 
-Define $\overline{f}$ as in Lemma 5. It is clear that $\overline{f}(y) = f(y)$ if $y \in G$. Since $\lambda^*(K - (K \cap G)) = 0$, we have $\lambda(f|K) = \lambda(\overline{f}|K)$. By Lemma 6, $\overline{f}$ is affine and upper semi-continuous. Therefore $\overline{f}|K$ is the lower envelope of a decreasing directed set of restrictions of elements of $\mathcal{A}'$ to K (TVS, II, §5, No. 4, Prop. 6). Let $x \in K$ be the barycenter of $\lambda$. If $g \in \mathcal{A}$ then $\lambda(g|K) = g(x)$. Therefore $\lambda(\overline{f}|K) = \overline{f}(x)$ (\S4, No. 4, Cor. 2 of Prop. 5). Thus $\lambda(f|K) = \overline{f}(x)$, and one sees similarly that $\lambda'(f|K) = \overline{f}(x)$.
+Define $\overline{f}$ as in Lemma 5. It is clear that $\overline{f}(y) = f(y)$ if $y \in G$. Since $\lambda^*(K - (K \cap G)) = 0$, we have $\lambda(f|K) = \lambda(\overline{f}|K)$. By Lemma 6, $\overline{f}$ is affine and upper semi-continuous. Therefore $\overline{f}|K$ is the lower envelope of a decreasing directed set of restrictions of elements of $\mathcal{A}'$ to K (TVS, II, §5, No. 4, Prop. 6). Let $x \in K$ be the barycenter of $\lambda$. If $g \in \mathcal{A}$ then $\lambda(g|K) = g(x)$. Therefore $\lambda(\overline{f}|K) = \overline{f}(x)$ (§ 4, No. 4, Cor. 2 of Prop. 5). Thus $\lambda(f|K) = \overline{f}(x)$, and one sees similarly that $\lambda'(f|K) = \overline{f}(x)$.
 
 #### Corollary {#int-iv-s7-n6-cor-1 .statement}
 

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: c6b3ea44a708bb83dba19feee4cfba38a7155245a73e59d9cdc9572a3a9fc3b4
+content_sha256: 635cb657396c30a372e380cabd17f11b77add1482054b9de74828b3e4a2bbbbd
 ---
 
 ## 4. LIFTING IN COMPLETE RINGS
@@ -249,7 +249,7 @@ It follows immediately from *Remark 1* that $\sum_{(n_i)} b_{n_{r+1} \ldots n_p}
 
 ### 3. HENSEL'S LEMMA
 
-In a topological ring $A$, an element $x$ is called *topologically nilpotent* if $O$ is a limit of the sequence $(x^n)_{n \geq 0}$. If $A$ is a *linearly topologized* commutative ring, to say that $x$ is topologically nilpotent means that for every open ideal $\mathfrak{J}$ of $A$ the canonical image of $x$ in $A/\mathfrak{J}$ is a *nilpotent* element of that ring. If $\mathfrak{r}_g$ is the nil-radical of $A/\mathfrak{J}$, clearly $(\mathfrak{r}_g)$ is an inverse system of subsets and the set $t$ of topological nilpotent elements of $A$ is the inverse image of $\mathfrak{r} = \lim \mathfrak{r}_g$ under the canonical homomorphism $A \to \lim A/\mathfrak{J}$; it is therefore a *closed ideal* of $A$. If also $A$ is *Hausdorff* and *complete*, this ideal is contained in the Jacobson radical of $A$ and, for an element $x \in A$ to be invertible, it is necessary and sufficient that its class mod. $t$ be invertible in $A/t$ (\S 2, no. 13, Lemma 3).
+In a topological ring $A$, an element $x$ is called *topologically nilpotent* if $O$ is a limit of the sequence $(x^n)_{n \geq 0}$. If $A$ is a *linearly topologized* commutative ring, to say that $x$ is topologically nilpotent means that for every open ideal $\mathfrak{J}$ of $A$ the canonical image of $x$ in $A/\mathfrak{J}$ is a *nilpotent* element of that ring. If $\mathfrak{r}_g$ is the nil-radical of $A/\mathfrak{J}$, clearly $(\mathfrak{r}_g)$ is an inverse system of subsets and the set $t$ of topological nilpotent elements of $A$ is the inverse image of $\mathfrak{r} = \lim \mathfrak{r}_g$ under the canonical homomorphism $A \to \lim A/\mathfrak{J}$; it is therefore a *closed ideal* of $A$. If also $A$ is *Hausdorff* and *complete*, this ideal is contained in the Jacobson radical of $A$ and, for an element $x \in A$ to be invertible, it is necessary and sufficient that its class mod. $t$ be invertible in $A/t$ (§ 2, no. 13, Lemma 3).
 
 Note that if $A$ is a ring and $m$ a two-sided ideal of $A$, the elements of $m$ are topologically nilpotent with respect to the *m-adic* topology.
 
@@ -415,7 +415,7 @@ $$
 
 denote the formal power series in $A[[X_{n+1}, \ldots, X_m]]$ obtained by substituting the $x_i$ for the $X_i$ in the coefficients of F, for $1 \leq i \leq n$.
 
-Let us take $B$ to be the ring of formal power series $A[[X_1, \ldots, X_r]]$ and let $n$ be the ideal of series in $B$ without constant term, so that $(B, n)$ satisfies Hensel's conditions ($\S 2$, no. 6, Corollary to Proposition 6). Proposition 6 may be applied by taking the $x_i \in B$ to be series without constant term; then, for every series $\mathbf{f} \in A[[X_1, \ldots, X_r]]$, $\tilde{u}(f)$ is just the formal power series $f(x_1, \ldots, x_n)$ defined in Algebra, Chapter IV, $\S 5$, no. 5. This is obvious if $f$ is a polynomial and it follows from the proposition in the general case by remarking that $f \mapsto f(x_1, \ldots, x_n)$ is continuous on $A[[X_1, \ldots, X_n]]$ with respect to the m-adic topology.
+Let us take $B$ to be the ring of formal power series $A[[X_1, \ldots, X_r]]$ and let $n$ be the ideal of series in $B$ without constant term, so that $(B, n)$ satisfies Hensel's conditions ($§ 2$, no. 6, Corollary to Proposition 6). Proposition 6 may be applied by taking the $x_i \in B$ to be series without constant term; then, for every series $\mathbf{f} \in A[[X_1, \ldots, X_r]]$, $\tilde{u}(f)$ is just the formal power series $f(x_1, \ldots, x_n)$ defined in Algebra, Chapter IV, $§ 5$, no. 5. This is obvious if $f$ is a polynomial and it follows from the proposition in the general case by remarking that $f \mapsto f(x_1, \ldots, x_n)$ is continuous on $A[[X_1, \ldots, X_n]]$ with respect to the m-adic topology.
 
 #### Corollary {#ac-iii-s4-n5-cor-1 .statement}
 
@@ -499,8 +499,8 @@ and it is therefore sufficient to take $y = -c$, $b = a + eh(-c)$. Moreover if $
 The corollary applies notably when $e$ is invertible in $\mathbf{A}$; we can then also deduce the existence of $b$ from Hensel's Theorem, for the canonical image of $f(\mathbf{X})$ in $(\mathbf{A}/\mathfrak{m})\{\mathbf{X}\}$ is of the form $(\mathbf{X} - a)f_1(\mathbf{X}), \mathbf{X} - a$ and $f_1(\mathbf{X})$ being strongly relatively prime, for $f_1(\alpha) = f'(\alpha)$ is the image of $e$ (no. 1, Example).
 
 Examples
-(1) Let $p$ be a prime number $\neq 2$ and $n$ an integer whose class mod. $p$ is a square $\neq 0$ in the prime field $\mathbf{F}_p$. If $\mathbf{Z}_p$ is the ring of $p$-adic integers (\S 2, no. 12, Example 3), the application of Corollary 1 to the polynomial $\mathbf{X}^2 - n$ shows that $n$ is a square in $\mathbf{Z}_p$; for example 7 is a square in $\mathbf{Z}_3$.
-(2) Let $\mathbf{A} = \mathbf{K}[[\mathbf{Y}]]$ be the ring of formal power series in one indeterminate with coefficients in a commutative field $\mathbf{K}$; with the $(\mathbf{Y})$-adic topology, the ring $\mathbf{A}$ is Hausdorff and complete (\S 2, no. 6, Corollary to Proposition 6) and the mapping $f(\mathbf{Y}) \mapsto f(0)$ defines by passing to the quotient ring an isomorphism of $\mathbf{A}/(\mathbf{Y})$ onto the field $\mathbf{K}$. By Corollary 1, if $F(\mathbf{Y}, \mathbf{X})$ is a polynomial in $\mathbf{X}$ with coefficients in $\mathbf{A}$ and $a$ is a simple root of $F(0, \mathbf{X})$ in $\mathbf{K}$, there exists a unique formal power series $f(\mathbf{Y})$ such that $f(0) = a$ and $F(\mathbf{Y}, f(\mathbf{Y})) = 0$.
+(1) Let $p$ be a prime number $\neq 2$ and $n$ an integer whose class mod. $p$ is a square $\neq 0$ in the prime field $\mathbf{F}_p$. If $\mathbf{Z}_p$ is the ring of $p$-adic integers (§ 2, no. 12, Example 3), the application of Corollary 1 to the polynomial $\mathbf{X}^2 - n$ shows that $n$ is a square in $\mathbf{Z}_p$; for example 7 is a square in $\mathbf{Z}_3$.
+(2) Let $\mathbf{A} = \mathbf{K}[[\mathbf{Y}]]$ be the ring of formal power series in one indeterminate with coefficients in a commutative field $\mathbf{K}$; with the $(\mathbf{Y})$-adic topology, the ring $\mathbf{A}$ is Hausdorff and complete (§ 2, no. 6, Corollary to Proposition 6) and the mapping $f(\mathbf{Y}) \mapsto f(0)$ defines by passing to the quotient ring an isomorphism of $\mathbf{A}/(\mathbf{Y})$ onto the field $\mathbf{K}$. By Corollary 1, if $F(\mathbf{Y}, \mathbf{X})$ is a polynomial in $\mathbf{X}$ with coefficients in $\mathbf{A}$ and $a$ is a simple root of $F(0, \mathbf{X})$ in $\mathbf{K}$, there exists a unique formal power series $f(\mathbf{Y})$ such that $f(0) = a$ and $F(\mathbf{Y}, f(\mathbf{Y})) = 0$.
 
 #### Corollary 2 {#ac-iii-s4-thm-2-cor-2 .statement}
 
@@ -548,7 +548,7 @@ for $r + 1 \leq j \leq n$. For $r + 1 \leq i \leq n$, substituting $t_j$ for $z_
 
 *Let $\mathbf{A}$ be a ring and $m$ an ideal of $\mathbf{A}$ such that the ordered pair $(\mathbf{A}, m)$ satisfies Hensel’s conditions. Let $\mathbf{B}$ be the quotient ring $\mathbf{A}/m$ and $\pi : \mathbf{A} \to \mathbf{B}$ be the canonical homomorphism. For every idempotent $c$ of $\mathbf{B}$ there exists a unique idempotent $e$ of $\mathbf{A}$ such that $\pi(e) = c$.*
 
-Let $a$ be such that $\pi(a) = c$; Corollary 1 to Theorem 2 of no. 5 may be applied to the polynomial $f(X) = X^2 - X$ in $\mathbf{A}[X]$ and the element $a \in \mathbf{A}$. Then $f'(a) = 2a - 1$ and, as $\pi(2a - 1) = 2c - 1$ and $(2c - 1)^2 = 1$ in $\mathbf{B}$, $2c - 1$ is invertible in $\mathbf{B}$ and hence $2a - 1$ is invertible in $\mathbf{A}$ (\S 2, no. 13, Lemma 3). As $f(a) \in m$, Corollary 1 to Theorem 2 of no. 5 immediately gives the existence and uniqueness of $e$.
+Let $a$ be such that $\pi(a) = c$; Corollary 1 to Theorem 2 of no. 5 may be applied to the polynomial $f(X) = X^2 - X$ in $\mathbf{A}[X]$ and the element $a \in \mathbf{A}$. Then $f'(a) = 2a - 1$ and, as $\pi(2a - 1) = 2c - 1$ and $(2c - 1)^2 = 1$ in $\mathbf{B}$, $2c - 1$ is invertible in $\mathbf{B}$ and hence $2a - 1$ is invertible in $\mathbf{A}$ (§ 2, no. 13, Lemma 3). As $f(a) \in m$, Corollary 1 to Theorem 2 of no. 5 immediately gives the existence and uniqueness of $e$.
 
 #### Proposition 8 {#ac-iii-s4-prop-8 .statement}
 

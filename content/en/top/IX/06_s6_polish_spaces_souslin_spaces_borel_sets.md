@@ -48,7 +48,7 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 1
-content_sha256: e046d099601541d21ad34ac061ae4087de467970508dacf68d145d8e9e3c6f51
+content_sha256: 69f92cd78f330694f81aad84eec3ecfd43d27d5eacabcc416871a1736cb0f341
 ---
 
 ## 6. POLISH SPACES, SOUSLIN SPACES, BOREL SETS
@@ -57,7 +57,7 @@ content_sha256: e046d099601541d21ad34ac061ae4087de467970508dacf68d145d8e9e3c6f51
 
 #### Definition 1 {#top-ix-s6-def-1 .statement}
 
-*A topological space* $X$ *is said to be Polish if it is metrizable of countable type* ($\S 2$, no. 8) *and if there is a metric, compatible with the topology of* $X$, *with respect to which* $X$ *is complete*.
+*A topological space* $X$ *is said to be Polish if it is metrizable of countable type* ($§ 2$, no. 8) *and if there is a metric, compatible with the topology of* $X$, *with respect to which* $X$ *is complete*.
 
 #### Proposition 1 {#top-ix-s6-prop-1 .statement}
 
@@ -65,7 +65,7 @@ a) *Every closed subspace of a Polish space is Polish*.
 b) *The product of a countable family of Polish spaces is Polish*.
 c) *The sum of a countable family of Polish spaces is Polish*.
 
-Every subspace of a metrizable space of countable type is metrizable of countable type, and every closed subspace of a complete space is complete; (Chapter II, § 3, no. 4, Proposition 8). Every countable product of metrizable spaces of countable type is again metrizable of countable type: ($\S 2$, no. 8), and every countable product of complete metric spaces is a complete metric space with respect to a metric compatible with its topology (Chapter II, § 3, no. 5, Proposition 10 and Chapter IX, § 2, no. 4, Theorem 1, Corollary 2). Finally, let $(X_n)$ be a sequence of non-empty Polish spaces, and consider the product space $Y = \mathbf{N} \times \prod_n X_n$, where $\mathbf{N}$ carries the discrete topology; $Y$ is a Polish space by what has already been proved. On the other hand, let $a_n$ be a point of $X_n$ for each $n$, and let $f_n$ be the mapping of $X_n$ into $Y$ such that for each $x \in X_n$ we have
+Every subspace of a metrizable space of countable type is metrizable of countable type, and every closed subspace of a complete space is complete; (Chapter II, § 3, no. 4, Proposition 8). Every countable product of metrizable spaces of countable type is again metrizable of countable type: ($§ 2$, no. 8), and every countable product of complete metric spaces is a complete metric space with respect to a metric compatible with its topology (Chapter II, § 3, no. 5, Proposition 10 and Chapter IX, § 2, no. 4, Theorem 1, Corollary 2). Finally, let $(X_n)$ be a sequence of non-empty Polish spaces, and consider the product space $Y = \mathbf{N} \times \prod_n X_n$, where $\mathbf{N}$ carries the discrete topology; $Y$ is a Polish space by what has already been proved. On the other hand, let $a_n$ be a point of $X_n$ for each $n$, and let $f_n$ be the mapping of $X_n$ into $Y$ such that for each $x \in X_n$ we have
 
 $$
 f_n(x) = (n, (y_p)),
@@ -81,25 +81,25 @@ Let $X$ be a Polish space, let $d$ be a metric on $X$ compatible with its topolo
 $$
 t \cdot d(x, X - U) = 1;
 $$
-$V$ is closed by Proposition 3 of § 2, no. 2 and is therefore Polish (Proposition 1). Since the restriction to $V$ of the projection $\mathrm{pr}_2 : \mathbf{R} \setminus X \to X$ is a homeomorphism of $V$ onto $U$ ($\S 2,$ no. 2, Proposition 3), $U$ is a Polish subspace of $X$.
+$V$ is closed by Proposition 3 of § 2, no. 2 and is therefore Polish (Proposition 1). Since the restriction to $V$ of the projection $\mathrm{pr}_2 : \mathbf{R} \setminus X \to X$ is a homeomorphism of $V$ onto $U$ ($§ 2,$ no. 2, Proposition 3), $U$ is a Polish subspace of $X$.
 
 #### Corollary {#top-ix-s6-n1-cor-1 .statement}
 
 Every locally compact, metrizable space $X$ is Polish.
 
-Let $X$ be the compact space obtained by adjoining a point at infinity to $X$; $X'$ is metrizable and of countable type ($\S 2,$ no. 9, Corollary to Proposition 16), and $X$ is complete with respect to its unique uniformity (Chapter II, $\S 4,$ no. 1, Theorem 1). Hence $X$ is a Polish space; since $X$ is open in $X'$, it follows that $X$ is Polish.
+Let $X$ be the compact space obtained by adjoining a point at infinity to $X$; $X'$ is metrizable and of countable type ($§ 2,$ no. 9, Corollary to Proposition 16), and $X$ is complete with respect to its unique uniformity (Chapter II, $§ 4,$ no. 1, Theorem 1). Hence $X$ is a Polish space; since $X$ is open in $X'$, it follows that $X$ is Polish.
 
 #### Proposition 3 {#top-ix-s6-prop-3 .statement}
 
 Let $X$ be a Hausdorff topological space. Then the intersection of a sequence $(A_n)$ of Polish subspaces of $X$ is a Polish subspace.
 
-Let $f$ be the diagonal mapping of $X$ into $X^\mathbf{N}$ ([Set Theory, Chapter II, $\S 5,$ no. 3; recall that $f(x) = (x, x, \ldots)$ where $x_n = x$ for all $n \in \mathbf{N}$]. We shall use the following lemma:
+Let $f$ be the diagonal mapping of $X$ into $X^\mathbf{N}$ ([Set Theory, Chapter II, $§ 5,$ no. 3; recall that $f(x) = (x, x, \ldots)$ where $x_n = x$ for all $n \in \mathbf{N}$]. We shall use the following lemma:
 
 #### Lemma 1 {#top-ix-s6-lem-1 .statement}
 
 Let $(A_n)$ be a sequence of subsets of a Hausdorff topological space $X$. Then the restriction of the diagonal mapping $f : X \to X^\mathbf{N}$ to the subspace $\bigcap_n A_n$ of $X$ is a homeomorphism of $\bigcap_n A_n$ into a closed subspace of $\prod_n A_n$.
 
-This image is the intersection of $\prod_n A_n$ and the diagonal $\Delta = f(X)$, which is closed in $X^\mathbf{N}$ because $X$ is Hausdorff (Chapter I, $\S 8,$ no. 1); and $f$ is a homeomorphism of $X$ onto $\Delta$.
+This image is the intersection of $\prod_n A_n$ and the diagonal $\Delta = f(X)$, which is closed in $X^\mathbf{N}$ because $X$ is Hausdorff (Chapter I, $§ 8,$ no. 1); and $f$ is a homeomorphism of $X$ onto $\Delta$.
 
 With the hypotheses of Proposition 3, $\prod_n A_n$ is a Polish space (Proposition 1), hence $\bigcap_n A_n$ is Polish by Lemma 1 and Proposition 1.
 
@@ -115,13 +115,13 @@ It is the intersection of a countable family of open sets in $\mathbf{R}$, namel
 
 The sufficiency of the condition follows immediately from Propositions 2 and 3. To show necessity, let $d$ be a metric compatible with the topology of $Y$ and with respect to which $Y$ is complete. Let $\overline{Y}$ be the closure of $Y$ in $X$. For each integer $n > 0$, let $Y_n$ be the set of all $x \in \overline{Y}$ which have an open neighbourhood $U$ such that the diameter of $U \cap Y$ (with respect to the metric $d$) is $\leq 1/n$. Clearly $Y_n$ is open in $\overline{Y}$ and contains $Y$. Let $x \in \bigcap_n Y_n$; then $x \in \overline{Y}$, and the trace on $Y$ of the neighbourhood filter of $x$ in $X$ is a Cauchy filter (with respect to $d$); hence this filter converges to a point of $Y$, and thus $x \in Y$. Hence $Y = \bigcap_n Y_n$.
 
-For each $n$, let $H_n$ be an open subset of $X$ such that $H_n \cap \overline{Y} = Y_n$, and let $(U_m)$ be a sequence of open subsets of $X$ such that $\overline{Y} = \bigcap_m U_m$ (\S 2, no. 5, Proposition 7); then $Y$ is the intersection of the countable family of open sets $(H_n \cap U_m)$.
+For each $n$, let $H_n$ be an open subset of $X$ such that $H_n \cap \overline{Y} = Y_n$, and let $(U_m)$ be a sequence of open subsets of $X$ such that $\overline{Y} = \bigcap_m U_m$ (§ 2, no. 5, Proposition 7); then $Y$ is the intersection of the countable family of open sets $(H_n \cap U_m)$.
 
 #### Corollary 1 {#top-ix-s6-thm-1-cor-1 .statement}
 
 *A space* $X$ *is Polish if and only if it is homeomorphic to a countable intersection of open sets in the cube* $\mathbf{I}^{\mathbf{N}}$, *where* $\mathbf{I}$ *is the interval* $[0, 1]$ *of* $\mathbf{R}$.
 
-The condition is clearly sufficient, and it is necessary because every metrizable space of countable type is homeomorphic to a subspace of $\mathbf{I}^{\mathbf{N}}$ (\S 2, no. 8, Proposition 12).
+The condition is clearly sufficient, and it is necessary because every metrizable space of countable type is homeomorphic to a subspace of $\mathbf{I}^{\mathbf{N}}$ (§ 2, no. 8, Proposition 12).
 
 #### Corollary 2 {#top-ix-s6-thm-1-cor-2 .statement}
 
@@ -177,13 +177,13 @@ In general, even in a Polish space, the complement of a Souslin subspace is not 
 
 *Let X be a metrizable space, and let A be a relatively compact Souslin subspace of X. Then there exists a compact metrizable space K, a decreasing sequence $(B_n)$ of subsets of K, each of which is a countable union of compact sets, and a continuous mapping $f : K \to X$, such that $A = f\left(\bigcap_n B_n\right)$.*
 
-Replacing X by $\overline{A}$ if necessary, we may suppose that X is compact and that A is dense in X. Since A is a Souslin space, there is a Polish space P and a continuous mapping $g : P \to X$ such that $g(P) = A$. By no. 1, Theorem 1, Corollary 1, we may assume that P is the intersection of a decreasing sequence $(U_n)$ of open subsets of the cube $I^\mathbf{N}$. Let K be the space $I^\mathbf{N} \times X$, which is compact and metrizable (\S 2, no. 4, Theorem 1, Corollary 2). Let $G \subset P \times X$ be the graph of g, let $\overline{G}$ be the closure of G in K, and let f denote the projection of $K = I^\mathbf{N} \times X$ onto X; then clearly we have $f(G) = A$. Since g is continuous, G is closed in $P \times X$ (Chapter I, \S 8, no. 1, Proposition 2, Corollary 2) and $G = \overline{G} \cap (P \times X)$; hence $G = \bigcap_n B_n$, where
+Replacing X by $\overline{A}$ if necessary, we may suppose that X is compact and that A is dense in X. Since A is a Souslin space, there is a Polish space P and a continuous mapping $g : P \to X$ such that $g(P) = A$. By no. 1, Theorem 1, Corollary 1, we may assume that P is the intersection of a decreasing sequence $(U_n)$ of open subsets of the cube $I^\mathbf{N}$. Let K be the space $I^\mathbf{N} \times X$, which is compact and metrizable (§ 2, no. 4, Theorem 1, Corollary 2). Let $G \subset P \times X$ be the graph of g, let $\overline{G}$ be the closure of G in K, and let f denote the projection of $K = I^\mathbf{N} \times X$ onto X; then clearly we have $f(G) = A$. Since g is continuous, G is closed in $P \times X$ (Chapter I, § 8, no. 1, Proposition 2, Corollary 2) and $G = \overline{G} \cap (P \times X)$; hence $G = \bigcap_n B_n$, where
 
 $$
 B_n = \overline{G} \cap (U_n \times X).
 $$
 
-Since each $U_n$ is a countable union of closed sets in $I^\mathbf{N}$ (\S 2, no. 5, Proposition 7), each $B_n$ is a countable union of compact sets and the proof is complete.
+Since each $U_n$ is a countable union of closed sets in $I^\mathbf{N}$ (§ 2, no. 5, Proposition 7), each $B_n$ is a countable union of compact sets and the proof is complete.
 
 ### 3. BOREL SETS
 
@@ -286,7 +286,7 @@ A sifting is said to be strict if in addition, for each n, the sets \varphi_n(c)
 
 Every metric space X of countable type possesses a sifting. If also X is zero-dimensional, then X has a strict sifting.
 
-Note first that if $Y$ is a metric space of countable type and if $\varepsilon$ is a real number $> 0$, then there is a countable covering of $Y$ by sets of diameter $\leq \varepsilon$ ($\S 2$, no. 8, Proposition 13). If, moreover, $Y$ is zero-dimensional, there is such a covering $(V_n)$ formed of sets which are both open and closed; if $W_n$ is the intersection of $V_n$ and $\bigcap_{k < n} (Y - V_k)$, we see that the $W_n$ are closed, of diameter $\leq \varepsilon$, pairwise disjoint and cover $X$. In any case, the closures of the non-empty sets of the covering form a countable covering of $Y$ whose elements are non-empty closed sets of diameter $\leq \varepsilon$.
+Note first that if $Y$ is a metric space of countable type and if $\varepsilon$ is a real number $> 0$, then there is a countable covering of $Y$ by sets of diameter $\leq \varepsilon$ ($§ 2$, no. 8, Proposition 13). If, moreover, $Y$ is zero-dimensional, there is such a covering $(V_n)$ formed of sets which are both open and closed; if $W_n$ is the intersection of $V_n$ and $\bigcap_{k < n} (Y - V_k)$, we see that the $W_n$ are closed, of diameter $\leq \varepsilon$, pairwise disjoint and cover $X$. In any case, the closures of the non-empty sets of the covering form a countable covering of $Y$ whose elements are non-empty closed sets of diameter $\leq \varepsilon$.
 
 Let $X$ be a metric space of countable type. Let $C_0$ be the set of indices of a countable covering of $X$ formed of non-empty closed sets of diameter $\leq 1$, which are pairwise disjoint if $X$ is zero-dimensional; $\varphi_0$ shall be the mapping which associates with each index $c \in C_0$ the corresponding set of the covering. Suppose that we have already defined the $C_i$ and the $\varphi_i$ and the surjective mappings $p_i : C_{i+1} \to C_i$ for $i \leq n$ in such a way that condition b) is satisfied for these indices. If $c \in C_n$, the space $\varphi_n(c)$ has a countable covering by non-empty closed sets of diameter $\leq 1/2^{n+1}$, which are mutually disjoint if $X$ [and therefore $\varphi_n(c)$] is zero-dimensional; if $I(c)$ denotes the index set of this covering, we take $c_{n+1}$ to be the sum of the sets $I(c)$ as $c$ runs through $C_n$; for each $c' \in C_{n+1}$, let $p_n(c')$ denote the element $c \in C_n$ such that $c' \in I(c)$, and let $\varphi_{n+1}(c')$ denote the set with index $c'$ in the covering of $\varphi_n(c)$ under consideration. Clearly we thus define by induction a sifting of $X$, and this sifting is strict if $X$ is zero-dimensional; hence Lemma 3.
 

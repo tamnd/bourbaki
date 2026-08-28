@@ -49,9 +49,9 @@ subsections:
       pdf_page: 119
 statements: 17
 exercises: 3
-content_sha256: fe2846d51f2126c5b47750698e45d6793ec091ffbf9f8a013fa1f690cbf3c473
+content_sha256: 59dcced8d113c6f6c28d43cc87fa5d2b45d364e0c3a611cff14a4dfcc5139d16
 translated_from: content/en/alg/I/07_s7_free_monoids_free_groups.md
-source_content_sha256: aad69abbe9207ceb659b6ae46be4ec3a4197eb9f5d0b9926edec87f4813e211a
+source_content_sha256: 3d3c76d6c00bb76f6c4a1ffe6fd67252c8dd08090bf8f1961b54dc45d8772011
 translation_model: gpt-5.4, gpt-5.4-mini, gpt-5-mini, gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-ca7cd7e4
 glossary_version: 34
@@ -69,7 +69,7 @@ Một dãy các tập hợp $M_n(X)$ được định nghĩa bằng quy nạp th
 
 Cho $w$ và $w'$ thuộc $M(X)$; đặt $p = l(w)$ và $q = l(w')$. Ảnh của $(w, w')$ dưới đơn ánh chính tắc từ $M_p(X) \times M_q(X)$ vào tập hợp tổng $M_{p+q}(X)$ được gọi là hợp thành của $w$ và $w'$ và được ký hiệu bởi $ww'$ hoặc $w.w'$. Khi đó $l(w.w') = l(w) + l(w')$ và mọi phần tử của $M(X)$ có độ dài $\geqslant 2$ đều có thể được viết một cách duy nhất dưới dạng $w'w''$ với $w', w''$ thuộc $M(X)$.
 
-Tập hợp $M(X)$ với luật hợp thành $(w, w') \mapsto w.w'$ được gọi là magma tự do xây dựng trên X (\$ 1, no. 1, Định nghĩa 1).
+Tập hợp $M(X)$ với luật hợp thành $(w, w') \mapsto w.w'$ được gọi là magma tự do xây dựng trên X (§ 1, no. 1, Định nghĩa 1).
 
 #### Mệnh đề 1 {#alg-i-s7-prop-1 .statement}
 
@@ -95,9 +95,9 @@ Cuối cùng, nếu $u$ là song ánh, thì nó là đơn ánh và toàn ánh v�
 
 Cho $S$ là một tập con của $X$. Theo Mệnh đề 2, phép đơn ánh từ $S$ vào $X$ có thể được mở rộng thành một đẳng cấu từ $M(S)$ lên một magma con $M'(S)$ của $M(X)$. Hai magma $M(S)$ và $M'(S)$ được đồng nhất với nhau nhờ đẳng cấu này. Khi đó $M(S)$ là magma con của $M(X)$ được sinh bởi $S$.
 
-Cho $X$ là một tập hợp và $(u_\alpha, v_\alpha)_{\alpha \in I}$ là một họ các cặp có thứ tự của các phần tử của $M(X)$. Cho $R$ là quan hệ tương đương trên $M(X)$ tương thích với luật của $M(X)$ và được sinh bởi các $(u_\alpha, v_\alpha)$ (\S 1, no. 6). M magma $M(X)/R$ được gọi là *magma được xác định bởi $X$ và các liên hệ* $(u_\alpha, v_\alpha)_{\alpha \in I}$. Cho $h$ là cấu xạ chính tắc của $M(X)$ lên $M(X)/R$. Khi đó $M(X)/R$ được sinh bởi $h(X)$.
+Cho $X$ là một tập hợp và $(u_\alpha, v_\alpha)_{\alpha \in I}$ là một họ các cặp có thứ tự của các phần tử của $M(X)$. Cho $R$ là quan hệ tương đương trên $M(X)$ tương thích với luật của $M(X)$ và được sinh bởi các $(u_\alpha, v_\alpha)$ (§ 1, no. 6). M magma $M(X)/R$ được gọi là *magma được xác định bởi $X$ và các liên hệ* $(u_\alpha, v_\alpha)_{\alpha \in I}$. Cho $h$ là cấu xạ chính tắc của $M(X)$ lên $M(X)/R$. Khi đó $M(X)/R$ được sinh bởi $h(X)$.
 
-Cho $N$ là một magma và $(n_x)_{x \in X}$ là một họ các phần tử của $N$. Cho $k$ là cấu xạ từ $M(X)$ đến $N$ sao cho $k(x) = n_x$ với mọi $x \in X$ (Mệnh đề 1). Nếu $k(u_\alpha) = k(v_\alpha)$ với mọi $\alpha \in I$, thì tồn tại duy nhất một cấu xạ $f : M(X)/R \to N$ sao cho $f(h(x)) = n_x$ với mọi $x \in X$ (\S 1, no. 6, Mệnh đề 9).
+Cho $N$ là một magma và $(n_x)_{x \in X}$ là một họ các phần tử của $N$. Cho $k$ là cấu xạ từ $M(X)$ đến $N$ sao cho $k(x) = n_x$ với mọi $x \in X$ (Mệnh đề 1). Nếu $k(u_\alpha) = k(v_\alpha)$ với mọi $\alpha \in I$, thì tồn tại duy nhất một cấu xạ $f : M(X)/R \to N$ sao cho $f(h(x)) = n_x$ với mọi $x \in X$ (§ 1, no. 6, Mệnh đề 9).
 
 ### 2. CÁC NỬA NHÓM TỰ DO
 
@@ -136,15 +136,15 @@ $$
 g(w) = \prod_{i=1}^n g(x_i) = \prod_{i=1}^n f(x_i)
 $$
 
-trong monoid $M$ (\S 1, no. 2, công thức (2)). Điều này chứng minh tính duy nhất của $g$.
+trong monoid $M$ (§ 1, no. 2, công thức (2)). Điều này chứng minh tính duy nhất của $g$.
 
-Đặt $h(w) = \prod_{i=1}^n f(x_i)$ với mọi từ $w = (x_i)_{1 \leq i \leq n}$. Định lý tính kết hợp (\S 1, no. 3, Định lý 1) và định nghĩa của tích trong $\mathrm{Mo}(\mathbf{X})$ suy ra $h(ww') = h(w)h(w')$. Theo quy ước, tích rỗng $h(e)$ là phần tử đơn vị của $M$ và $h(x) = f(x)$ với mọi $x \in \mathbf{X}$. Do đó $h$ là một đồng cấu của $\mathrm{Mo}(x)$ vào $M$ mở rộng $f$.
+Đặt $h(w) = \prod_{i=1}^n f(x_i)$ với mọi từ $w = (x_i)_{1 \leq i \leq n}$. Định lý tính kết hợp (§ 1, no. 3, Định lý 1) và định nghĩa của tích trong $\mathrm{Mo}(\mathbf{X})$ suy ra $h(ww') = h(w)h(w')$. Theo quy ước, tích rỗng $h(e)$ là phần tử đơn vị của $M$ và $h(x) = f(x)$ với mọi $x \in \mathbf{X}$. Do đó $h$ là một đồng cấu của $\mathrm{Mo}(x)$ vào $M$ mở rộng $f$.
 
 Cho $u : \mathbf{X} \to \mathbf{Y}$ là một ánh xạ. Theo Mệnh đề 3, tồn tại một và chỉ một cấu xạ từ Mo(X) vào Mo(Y) trùng với u trên X; nó được ký hiệu bởi Mo(u). Nó gửi một từ $(x_i)_{1 \leq i \leq n}$ tới từ $(u(x_i))_{1 \leq i \leq n}$. Cũng như trong trường hợp của magma (no. 1), đẳng thức Mo(v \circ u) = Mo(v) \circ Mo(u) được xác lập với mọi ánh xạ $v : Y \to Z$ và có thể chứng minh rằng Mo(u) là đơn ánh (tương ứng toàn ánh, song ánh) nếu u là như vậy. Với mọi tập con S của X, Mo(S) được đồng nhất với monoid con của Mo(X) được sinh bởi S.
 
-Cho X là một tập hợp và $(u_\alpha, v_\alpha)_{\alpha \in I}$ là một họ các cặp có thứ tự của các phần tử của Mo(X). Cho R là quan hệ tương đương trên Mo(X) tương thích với luật trên Mo(X) và được sinh bởi các $(u_\alpha, v_\alpha)$ (\S 1, no. 6). Monoid Mo(X)/R được gọi là *monoid được định nghĩa bởi X và các quan hệ sinh* $(u_\alpha, v_\alpha)_{\alpha \in I}$. Cho h là cấu xạ chính tắc của Mo(X) lên Mo(X)/R. Khi đó Mo(X) được sinh bởi h(X).
+Cho X là một tập hợp và $(u_\alpha, v_\alpha)_{\alpha \in I}$ là một họ các cặp có thứ tự của các phần tử của Mo(X). Cho R là quan hệ tương đương trên Mo(X) tương thích với luật trên Mo(X) và được sinh bởi các $(u_\alpha, v_\alpha)$ (§ 1, no. 6). Monoid Mo(X)/R được gọi là *monoid được định nghĩa bởi X và các quan hệ sinh* $(u_\alpha, v_\alpha)_{\alpha \in I}$. Cho h là cấu xạ chính tắc của Mo(X) lên Mo(X)/R. Khi đó Mo(X) được sinh bởi h(X).
 
-Cho N là một monoid và $(n_x)_{x \in X}$ là một họ các phần tử của N. Cho k là cấu xạ của Mo(X) vào N sao cho $k(x) = n_x$ với mọi $x \in X$ (Mệnh đề 3). Nếu $k(u_\alpha) = k(v_\alpha)$ với mọi $\alpha \in I$, tồn tại một và chỉ một cấu xạ magma $f : Mo(X)/R \to N$ sao cho $f(h(x)) = n_x$ với mọi $x \in X$ (\S 1, no. 6, Mệnh đề 9); vì k có đơn vị, f là một cấu xạ monoid.
+Cho N là một monoid và $(n_x)_{x \in X}$ là một họ các phần tử của N. Cho k là cấu xạ của Mo(X) vào N sao cho $k(x) = n_x$ với mọi $x \in X$ (Mệnh đề 3). Nếu $k(u_\alpha) = k(v_\alpha)$ với mọi $\alpha \in I$, tồn tại một và chỉ một cấu xạ magma $f : Mo(X)/R \to N$ sao cho $f(h(x)) = n_x$ với mọi $x \in X$ (§ 1, no. 6, Mệnh đề 9); vì k có đơn vị, f là một cấu xạ monoid.
 
 ### 3. TỔNG DÍNH CỦA CÁC MONOID
 
@@ -506,7 +506,7 @@ $$
 
 #### Nhận xét {#alg-i-s7-n7-rem-1 .statement}
 
-Cho $M$ là monoid nhân của các số nguyên dương ngặt và cho $\mathfrak{P}$ là tập các số nguyên tố (\S 4, no. 10, Định nghĩa 15). Theo Mệnh đề 10 tồn tại một đồng cấu $u$ của $\mathbf{N}^{(\mathfrak{P})}$ vào $M$ được đặc trưng bởi $u(\delta_p) = p$ với mọi số nguyên tố $p$. Khi đó $u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)}$ với $\alpha$ trong $\mathbf{N}^{(\mathfrak{P})}$ và Định lý 7 của \S 4, no. 10 cho thấy rằng $u$ là một đẳng cấu của $\mathbf{N}^{(\mathfrak{P})}$ lên $H$.
+Cho $M$ là monoid nhân của các số nguyên dương ngặt và cho $\mathfrak{P}$ là tập các số nguyên tố (§ 4, no. 10, Định nghĩa 15). Theo Mệnh đề 10 tồn tại một đồng cấu $u$ của $\mathbf{N}^{(\mathfrak{P})}$ vào $M$ được đặc trưng bởi $u(\delta_p) = p$ với mọi số nguyên tố $p$. Khi đó $u(\alpha) = \prod_{p \in \mathfrak{P}} p^{\alpha(p)}$ với $\alpha$ trong $\mathbf{N}^{(\mathfrak{P})}$ và Định lý 7 của § 4, no. 10 cho thấy rằng $u$ là một đẳng cấu của $\mathbf{N}^{(\mathfrak{P})}$ lên $H$.
 
 ### 8. KÝ HIỆU SỐ MŨ
 
@@ -516,7 +516,7 @@ $$
 u^\alpha = \prod_{x \in X} u_x^{\alpha(x)}.
 $$
 
-Cho $M'$ là monoid con của $M$ được sinh bởi họ $(u_x)_{x \in X}$; nó giao hoán (\S 1, no. 5, Hệ quả 2 của Mệnh đề 4). Vì vậy tồn tại (no. 7, Mệnh đề 10) một đồng cấu duy nhất $f$ của $\mathbf{N}^{(X)}$ vào $M'$ sao cho $f(\delta_x) = u_x$ với mọi $x \in X$ và $f(\alpha) = u^\alpha$ với mọi $\alpha$ trong $\mathbf{N}^{(X)}$. Suy ra các công thức sau
+Cho $M'$ là monoid con của $M$ được sinh bởi họ $(u_x)_{x \in X}$; nó giao hoán (§ 1, no. 5, Hệ quả 2 của Mệnh đề 4). Vì vậy tồn tại (no. 7, Mệnh đề 10) một đồng cấu duy nhất $f$ của $\mathbf{N}^{(X)}$ vào $M'$ sao cho $f(\delta_x) = u_x$ với mọi $x \in X$ và $f(\alpha) = u^\alpha$ với mọi $\alpha$ trong $\mathbf{N}^{(X)}$. Suy ra các công thức sau
 
 $$
 u^{\alpha + \beta} = u^\alpha . u^\beta
@@ -530,7 +530,7 @@ $$
 
 với $\alpha, \beta$ trong $\mathbf{N}^{(X)}$ và $x$ trong $X$.
 
-Cho $v = (v_x)_{x \in X}$ là một họ khác các phần tử của $M$; giả sử rằng $v_x v_y = v_y v_x$ và $u_x v_y = v_y u_x$ với $x, y$ trong $X$. Khi đó tồn tại (\S 1, no. 5, Hệ quả 2 của Mệnh đề 4) một monoid con giao hoán $L$ của $M$ sao cho $u_x \in L$ và $v_x \in L$ với mọi $x \in X$. Khi đó ánh xạ $\alpha \mapsto u^\alpha . v^\alpha$ từ $\mathbf{N}^{(X)}$ vào $L$ là một đồng cấu (\S 1, no. 5, Mệnh đề 5) ánh xạ $\delta_x$ tới $u_x . v_x$. Do đó ta có công thức
+Cho $v = (v_x)_{x \in X}$ là một họ khác các phần tử của $M$; giả sử rằng $v_x v_y = v_y v_x$ và $u_x v_y = v_y u_x$ với $x, y$ trong $X$. Khi đó tồn tại (§ 1, no. 5, Hệ quả 2 của Mệnh đề 4) một monoid con giao hoán $L$ của $M$ sao cho $u_x \in L$ và $v_x \in L$ với mọi $x \in X$. Khi đó ánh xạ $\alpha \mapsto u^\alpha . v^\alpha$ từ $\mathbf{N}^{(X)}$ vào $L$ là một đồng cấu (§ 1, no. 5, Mệnh đề 5) ánh xạ $\delta_x$ tới $u_x . v_x$. Do đó ta có công thức
 
 $$
 u^\alpha . v^\alpha = (u . v)^\alpha,

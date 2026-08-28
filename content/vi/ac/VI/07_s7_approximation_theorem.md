@@ -25,9 +25,9 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 825dbc6d1cf373a9e6fad104383b37374a89602dd280f0f46433d669960b1afe
+content_sha256: 279e102ebb4a2d104a52c1c46d18e586ec79f0699267b5a403e59b7de404a09d
 translated_from: content/en/ac/VI/07_s7_approximation_theorem.md
-source_content_sha256: 7673eea0ef2549a816bc303a9b3839cfe34adce44721f2c14622f5ca236005a2
+source_content_sha256: a818113ef87fdb588b60c8045863641963170d0c573c7e9237ce829f4055a323
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-aac554e0
 glossary_version: 34
@@ -62,7 +62,7 @@ $$
 
 Giả sử bổ đề này trong chốc lát, ta chỉ ra cách nó suy ra rằng $A_1 \subset B_{p_1}$. Cho $x$ là một phần tử khác không của $A_i$. Ta áp dụng bổ đề cho $x$ và các định giá $v_i$ liên kết với các $\mathbf{A}_i$. Khi đó $v_i(z) \geq 0$ và $v_i(zx) \geq 0$ với mọi $i$, do đó $z \in B$ và $zx \in B$. Vì $v_1(x) \geq 0$, $v_1(z) = 0$ và do đó $z \notin p_1$. Vậy $x = zx/z \in B_{p_1}$. Trường phân thức của $B$ khi đó chứa $A_1$ và do đó là $K$.
 
-Bây giờ ta chuyển sang chứng minh bổ đề. Gọi $I$ là tập hợp các chỉ số $i$ sao cho $v_i(x) \geq 0$. Với mọi $i \in I$, gọi $\bar{x}_i$ là ảnh chính tắc của $x$ trong $\kappa(\mathbf{A}_i)$. Với mọi $i \in I$ ta xây dựng một đa thứcf như sau: nếu tồn tại một đa thức $g(X)$ có dạng (1) sao cho $g(\bar{x}_i) = 0$ trong $\kappa(\mathbf{A}_i)$, ta lấyf là một đa thức như vậy; nếu không ta lấy $f_i = 1$. Khi đó ta viết $f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$. Hiển nhiên đó là một đa thức có dạng (1). Nếu $i \in I$, thì $f(x) \in A_i$ và cũng $(\bar{x}_i) \neq 0$ theo phép dựng; do đó $f(x) \notin m(\mathbf{A}_i)$, $v_i(f(x)) = 0$ và $v(z) = 0$. Nếu $i \notin I$, thì $v_i(x) < 0$, do đó $v_i(f(x)) = kv_i(x)$ (\S 3, no. 1, Mệnh đề 1) và
+Bây giờ ta chuyển sang chứng minh bổ đề. Gọi $I$ là tập hợp các chỉ số $i$ sao cho $v_i(x) \geq 0$. Với mọi $i \in I$, gọi $\bar{x}_i$ là ảnh chính tắc của $x$ trong $\kappa(\mathbf{A}_i)$. Với mọi $i \in I$ ta xây dựng một đa thứcf như sau: nếu tồn tại một đa thức $g(X)$ có dạng (1) sao cho $g(\bar{x}_i) = 0$ trong $\kappa(\mathbf{A}_i)$, ta lấyf là một đa thức như vậy; nếu không ta lấy $f_i = 1$. Khi đó ta viết $f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$. Hiển nhiên đó là một đa thức có dạng (1). Nếu $i \in I$, thì $f(x) \in A_i$ và cũng $(\bar{x}_i) \neq 0$ theo phép dựng; do đó $f(x) \notin m(\mathbf{A}_i)$, $v_i(f(x)) = 0$ và $v(z) = 0$. Nếu $i \notin I$, thì $v_i(x) < 0$, do đó $v_i(f(x)) = kv_i(x)$ (§ 3, no. 1, Mệnh đề 1) và
 
 $$
 v_i(x) + v_i(z) = (1 - k)v_i(x) > 0
@@ -74,7 +74,7 @@ $$
 
 Với các giả thiết của Mệnh đề 1, giả sử thêm rằng $\mathbf{A}_i \not\subset \mathbf{A}_j$ với $i \neq j$. Khi đó các $p_i$ là các iđêan cực đại phân biệt của $B$ và mọi iđêan cực đại của $B$ đều bằng một trong các $p_i$.
 
-Nếu $p_i \subset p_j$ với $i \neq j$, thì $\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$. Khi đó chỉ cần áp dụng Chương II, \S 3, no. 5, Hệ quả của Mệnh đề 17.
+Nếu $p_i \subset p_j$ với $i \neq j$, thì $\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$. Khi đó chỉ cần áp dụng Chương II, § 3, no. 5, Hệ quả của Mệnh đề 17.
 
 #### Hệ quả 1 {#ac-vi-s7-prop-2-cor-1 .statement}
 
@@ -137,7 +137,7 @@ do đó $x^{2n} \in b$ và $x \in c$.
 
 *Với mọi họ các phần tử $\gamma_i \in \Gamma_i$ ($1 \leq i \leq n$), tồn tại $x \in K$ sao cho $v_i(x) = \gamma_i$ ($1 \leq i \leq n$).
 
-Ta có thể giả sử rằng $A_i \neq K$ với mọi $i$. Khi đó, với mọi $i$, tồn tại một $a_i \in K$ sao cho $v_i(a_i) = \gamma_i$ và một $a_r \in \Gamma_r$ sao cho $\gamma_i < a_r$. Ta áp dụng Định lý 1 cho các phần tử $a_i$ này: tồn tại $x \in K$ sao cho $v_i(x - a_i) > v_i(a_i)$; do đó, vì $x = a_i + (x - a_i)$, $v_i(x) = v_i(a_i) = \gamma_i$ ($\S 3$, no. 1, Mệnh đề 1).
+Ta có thể giả sử rằng $A_i \neq K$ với mọi $i$. Khi đó, với mọi $i$, tồn tại một $a_i \in K$ sao cho $v_i(a_i) = \gamma_i$ và một $a_r \in \Gamma_r$ sao cho $\gamma_i < a_r$. Ta áp dụng Định lý 1 cho các phần tử $a_i$ này: tồn tại $x \in K$ sao cho $v_i(x - a_i) > v_i(a_i)$; do đó, vì $x = a_i + (x - a_i)$, $v_i(x) = v_i(a_i) = \gamma_i$ ($§ 3$, no. 1, Mệnh đề 1).
 
 #### Hệ quả 2 {#ac-vi-s7-lem-2-cor-2 .statement}
 
@@ -149,17 +149,17 @@ Ta có thể giả sử rằng $A_i \neq K$ với mọi $i$. Khi đó, với m�
 
 Giả sử rằng các tôpô $\mathcal{T}_v$ và $\mathcal{T}_{v'}$, được định nghĩa bởi $v$ và $v'$, là đồng nhất. Vì $\mathcal{T}_v$ là Hausdorff, đường chéo của $K^2$ là đóng và do đó $v$ và $v'$ phụ thuộc (Hệ quả 2 của Định lý 1).
 
-Ngược lại, giả sử rằng $v$ và $v'$ phụ thuộc. Khi đó các vành $A$ và $A'$ của chúng được chứa trong cùng một vành $A''$ phân biệt với $K$ và $A''$ là vành của một định giá $v''$ ($\S 4$, no. 1, Mệnh đề 1). Chỉ cần chứng minh rằng tôpô $\mathcal{T}_{v''}$ đồng nhất với $\mathcal{T}_v$. Gọi $\Gamma$ và $\Gamma''$ là các nhóm cấp của $v$ và $v''$. Có một đồng cấu tăng $\lambda$ từ $\Gamma$ lên $\Gamma''$ sao cho $v'' = A \circ v$ ($\S 4$, no. 3). Nếu $a'' \in I?''$, lấy $a \in \lambda^{-1}(a'')$; điều kiện $v(x) \geq \alpha$ suy ra $v''(x) \geq a''$. Lấy $\beta \in \Gamma$ và $\beta'' = \lambda(\beta)$; điều kiện $v(x) \leq \beta$ suy ra $v''(x) \leq \beta''$ và do đó điều kiện $v''(x) > \beta''$ suy ra $v(x) > \beta$. Vì $v$ và $v''$ không bất chính, các bất đẳng thức đang xét xác định các hệ cơ bản các lân cận của 0 đối với $\mathcal{T}_v$ và $\mathcal{T}_{v''}$. Do đó $\mathcal{T}_v = \mathcal{T}_{v''}$, điều này hoàn tất chứng minh.
+Ngược lại, giả sử rằng $v$ và $v'$ phụ thuộc. Khi đó các vành $A$ và $A'$ của chúng được chứa trong cùng một vành $A''$ phân biệt với $K$ và $A''$ là vành của một định giá $v''$ ($§ 4$, no. 1, Mệnh đề 1). Chỉ cần chứng minh rằng tôpô $\mathcal{T}_{v''}$ đồng nhất với $\mathcal{T}_v$. Gọi $\Gamma$ và $\Gamma''$ là các nhóm cấp của $v$ và $v''$. Có một đồng cấu tăng $\lambda$ từ $\Gamma$ lên $\Gamma''$ sao cho $v'' = A \circ v$ ($§ 4$, no. 3). Nếu $a'' \in I?''$, lấy $a \in \lambda^{-1}(a'')$; điều kiện $v(x) \geq \alpha$ suy ra $v''(x) \geq a''$. Lấy $\beta \in \Gamma$ và $\beta'' = \lambda(\beta)$; điều kiện $v(x) \leq \beta$ suy ra $v''(x) \leq \beta''$ và do đó điều kiện $v''(x) > \beta''$ suy ra $v(x) > \beta$. Vì $v$ và $v''$ không bất chính, các bất đẳng thức đang xét xác định các hệ cơ bản các lân cận của 0 đối với $\mathcal{T}_v$ và $\mathcal{T}_{v''}$. Do đó $\mathcal{T}_v = \mathcal{T}_{v''}$, điều này hoàn tất chứng minh.
 
 Nhận xét
 (1) Mệnh đề 3 cho thấy quan hệ '"$v$ và $v'$ phụ thuộc"' là một quan hệ tương đương.
-(2) Xét đến các quan hệ giữa các định giá cấp 1 và các giá trị tuyệt đối siêu mêtric ($\S 6$, no. 2), Mệnh đề 3 cũng suy ra, trong trường hợp các định giá cấp 1, từ đặc trưng hóa các giá trị tuyệt đối tương đương (General Topology, Chương IX, $\S 3$, no. 2, Mệnh đề 5).
+(2) Xét đến các quan hệ giữa các định giá cấp 1 và các giá trị tuyệt đối siêu mêtric ($§ 6$, no. 2), Mệnh đề 3 cũng suy ra, trong trường hợp các định giá cấp 1, từ đặc trưng hóa các giá trị tuyệt đối tương đương (General Topology, Chương IX, $§ 3$, no. 2, Mệnh đề 5).
 
 #### Mệnh đề 4 {#ac-vi-s7-prop-4 .statement}
 
 *Cho $v_1, \ldots, v_n$ ($n \geq 2$) là các định giá từng đôi một phụ thuộc trên cùng một trường $K$. Khi đó các vành $A,, \ldots, A,$ của $v_1, \ldots, v,$ sinh ra một vành con $\delta \ K$ phân biệt với $K$.*
 
-Với $n = 2$, Mệnh đề 4 suy ra từ Định nghĩa 1. Giả sử mệnh đề đúng đối với $n - 1$ định giá. Khi đó tồn tại một vành con A của K phân biệt với K và chứa $A,, \ldots, A,$; cũng tồn tại một vành con B $\neq K$ chứa A, _, và A_. Vì A và B chứa A, _, nên chúng so sánh được theo quan hệ bao hàm ($\S 4$, no. 1, Hệ quả của Mệnh đề 1). Do đó, vành lớn hơn trong hai vành này chứa tất cả các $A_i$.
+Với $n = 2$, Mệnh đề 4 suy ra từ Định nghĩa 1. Giả sử mệnh đề đúng đối với $n - 1$ định giá. Khi đó tồn tại một vành con A của K phân biệt với K và chứa $A,, \ldots, A,$; cũng tồn tại một vành con B $\neq K$ chứa A, _, và A_. Vì A và B chứa A, _, nên chúng so sánh được theo quan hệ bao hàm ($§ 4$, no. 1, Hệ quả của Mệnh đề 1). Do đó, vành lớn hơn trong hai vành này chứa tất cả các $A_i$.
 
 ### 3. TRƯỜNG HỢP CÁC GIÁ TRỊ TUYỆT ĐỐI
 

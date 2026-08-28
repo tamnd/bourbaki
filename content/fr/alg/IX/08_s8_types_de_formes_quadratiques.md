@@ -24,7 +24,7 @@ subsections:
       pdf_page: 135
 statements: 10
 exercises: 0
-content_sha256: 77b7b9c2f537067cfaabb2c188b9f1e66697b2a39230ebb8e9c64e68a3e658b2
+content_sha256: 41114d3659ba1c03e45fbacc1d14e1405e0ae472fba157d2ff91fc89f7b4d7b1
 ---
 
 ## § 8. Types de formes quadratiques
@@ -33,7 +33,7 @@ Dans ce paragraphe on suppose que A est un corps commutatif.
 
 ### 1. Types de formes quadratiques.
 
-Étant donnée une forme quadratique Q ($\S 3, n° 4$) sur un espace vectoriel E sur A, nous dirons que E est l’espace de défini-
+Étant donnée une forme quadratique Q ($§ 3, n° 4$) sur un espace vectoriel E sur A, nous dirons que E est l’espace de défini-
 
 (*) Ces résultats (inédits) nous ont été communiqués par I. Kaplansky.
 
@@ -87,7 +87,7 @@ d’où $(T + T') + T'' = T + (T' + T'')$ puisque deux éléments de $\mathfrak{
 
 Soit Q une forme quadratique non dégénérée et de dimension finie sur un espace vectoriel V sur A. Notons – Q la forme quadratique sur V définie par $(-Q)(x) = -Q(x)$ ($x \in V$). Alors la forme $Q \tau (-Q)$ est neutre.
 
-En effet la restriction de $Q \tau (-Q)$ à la diagonale D de $V \times V$ est nulle. L’indice de cette forme est donc $\geqslant \frac{1}{2} \dim (V \times V)$ (\S 4, no 2, déf. 2), et par conséquent est égal à $\frac{1}{2} \dim (V \times V)$ (*ibid.*, formule (4)). Il en résulte que $Q \tau (-Q)$ est neutre (*ibid.*).
+En effet la restriction de $Q \tau (-Q)$ à la diagonale D de $V \times V$ est nulle. L’indice de cette forme est donc $\geqslant \frac{1}{2} \dim (V \times V)$ (§ 4, no 2, déf. 2), et par conséquent est égal à $\frac{1}{2} \dim (V \times V)$ (*ibid.*, formule (4)). Il en résulte que $Q \tau (-Q)$ est neutre (*ibid.*).
 
 Ceci permet de poser la définition suivante :
 
@@ -132,24 +132,24 @@ Chercher la structure du groupe des types de formes quadratiques sur A revient d
 
 #### Proposition 5 {#alg-ix-s8-prop-5 .statement}
 
-*On suppose que A est un corps ordonné maximal. Soient Q une forme quadratique non dégénérée de dimension finie sur A, et $(s, t)$ sa signature ($\S 7$, no 2, déf. 2). Alors le type de Q est $(s - t).T_1$, et le groupe $\mathfrak{W}$ des types de formes quadratiques sur A est un groupe monogène infini engendré par $T_1$.
+*On suppose que A est un corps ordonné maximal. Soient Q une forme quadratique non dégénérée de dimension finie sur A, et $(s, t)$ sa signature ($§ 7$, no 2, déf. 2). Alors le type de Q est $(s - t).T_1$, et le groupe $\mathfrak{W}$ des types de formes quadratiques sur A est un groupe monogène infini engendré par $T_1$.
 
-En effet, comme $A^*/(A^*)^2$ est d’ordre 2 et que $(-1).T_1 = -T_1$, $\mathfrak{W}$ est engendré par $T_1$ et est par suite monogène. Pour tout $n > 0$, $n.T_1$ est le type des formes quadratiques non dégénérées positives de dimension $n$; comme ces formes ne sont pas neutres, on a $n.T_1 \neq 0$, ce qui montre que $\mathfrak{W}$ est infini. Enfin une forme de signature $(s, t)$ est isomorphe, avec les notations de la prop. 4, à la somme directe de $s$ formes $Q_1$ et de $t$ formes $- Q_1$ (\S 7, n° 2, th. 1); il en résulte que son type est $(s - t). T_1$.
+En effet, comme $A^*/(A^*)^2$ est d’ordre 2 et que $(-1).T_1 = -T_1$, $\mathfrak{W}$ est engendré par $T_1$ et est par suite monogène. Pour tout $n > 0$, $n.T_1$ est le type des formes quadratiques non dégénérées positives de dimension $n$; comme ces formes ne sont pas neutres, on a $n.T_1 \neq 0$, ce qui montre que $\mathfrak{W}$ est infini. Enfin une forme de signature $(s, t)$ est isomorphe, avec les notations de la prop. 4, à la somme directe de $s$ formes $Q_1$ et de $t$ formes $- Q_1$ (§ 7, n° 2, th. 1); il en résulte que son type est $(s - t). T_1$.
 
 ### 3. Anneau des types de formes quadratiques.
 
 Nous supposerons, dans ce n°, que $A$ est un corps de caractéristique $\neq 2$.
 
-Étant données deux formes quadratiques $Q, Q'$ sur des espaces vectoriels $V, V'$ sur $A$, nous appellerons produit tensoriel de $Q$ et $Q'$, et nous noterons $Q \otimes Q'$ la forme quadratique sur $V \otimes V'$ dont la forme bilinéaire associée est le produit tensoriel (\S 1, n° 9, déf. 11) des formes bilinéaires associées à $Q$ et $Q'$. On voit aisément que $Q \otimes Q'$ vérifie la relation
+Étant données deux formes quadratiques $Q, Q'$ sur des espaces vectoriels $V, V'$ sur $A$, nous appellerons produit tensoriel de $Q$ et $Q'$, et nous noterons $Q \otimes Q'$ la forme quadratique sur $V \otimes V'$ dont la forme bilinéaire associée est le produit tensoriel (§ 1, n° 9, déf. 11) des formes bilinéaires associées à $Q$ et $Q'$. On voit aisément que $Q \otimes Q'$ vérifie la relation
 
 $$(5)$$
 $$(Q \otimes Q')(x \otimes x') = Q(x)Q'(x') \quad (x \in V, x' \in V').$$
 
-Si $Q$ et $Q'$ sont non dégénérées et de dimensions finies, il en est de même de $Q \otimes Q'$ (\S 1, n° 9, prop. 9).
+Si $Q$ et $Q'$ sont non dégénérées et de dimensions finies, il en est de même de $Q \otimes Q'$ (§ 1, n° 9, prop. 9).
 
 Soient $Q, Q', Q''$ des formes quadratiques sur les espaces vectoriels $V, V', V''$. En faisant usage de l’isomorphisme canonique de $V \otimes V'$ sur $V' \otimes V$ (resp. de $(V \otimes V') \otimes V''$ sur $V \otimes (V' \otimes V'')$), de $(V \times V') \otimes V''$ sur $(V \otimes V'') \times (V' \otimes V'')$), on voit aussitôt que $Q \otimes Q'$ est équivalente à $Q' \otimes Q$ (resp. $(Q \otimes Q') \otimes Q''$ à $Q \otimes (Q' \otimes Q'')$, $(Q \tau Q') \otimes Q''$ à $(Q \otimes Q'') \tau (Q' \otimes Q'')$).
 
-Soient $Q$ et $Q'$ deux formes quadratiques non dégénérées de dimensions finies. Si $Q$ est neutre, il en est de même de $Q \otimes Q'$. Soient en effet $V, V'$ les espaces de définition de $Q, Q'$, $2n$ et $n'$ leurs dimensions, et $W$ un sous-espace totalement singulier de dimension $n$ de $V$ (\S 4, n° 2); alors, $W \otimes V'$ est un sous-espace totalement singulier, et sa dimension est la moitié de celle de $V \otimes V'$; on en déduit, comme dans la prop. 3, que $Q \otimes Q'$ est neutre. De même $Q \otimes Q'$ est neutre toutes les fois que $Q'$ est neutre.
+Soient $Q$ et $Q'$ deux formes quadratiques non dégénérées de dimensions finies. Si $Q$ est neutre, il en est de même de $Q \otimes Q'$. Soient en effet $V, V'$ les espaces de définition de $Q, Q'$, $2n$ et $n'$ leurs dimensions, et $W$ un sous-espace totalement singulier de dimension $n$ de $V$ (§ 4, n° 2); alors, $W \otimes V'$ est un sous-espace totalement singulier, et sa dimension est la moitié de celle de $V \otimes V'$; on en déduit, comme dans la prop. 3, que $Q \otimes Q'$ est neutre. De même $Q \otimes Q'$ est neutre toutes les fois que $Q'$ est neutre.
 
 On déduit de là que, si $Q, Q', Q_1, Q'_1$ sont des formes quadratiques non dégénérées et de dimensions finies sur $A$, et si l’on suppose que l’on a $\theta(Q_1) = \theta(Q)$ et $\theta(Q'_1) = \theta(Q')$, alors on a $\theta(Q_1 \otimes Q'_1) = \theta(Q \otimes Q')$. Il suffit en effet de vérifier ceci dans le cas où $Q_1 = Q \tau N$ et $Q'_1 = Q' \tau N'$, $N$ et $N'$ étant des formes neutres ; dans ce cas $Q_1 \otimes Q'_1$ est équivalente à
 

@@ -12,7 +12,7 @@ pdf_pages: 0057-0058, 0070-0070
 extraction: ocr
 statements: 3
 exercises: 1
-content_sha256: 24a301288683dac27cd58760ccbbf900299c5c25d31c3ee96a54ad58705fc000
+content_sha256: 9fd11944f9ccd26af40fbfd7087174fd30283103e635ee58c967ecaf0bfa5f58
 ---
 
 ## 4. FLAT MODULES AND "TOR" FUNCTORS
@@ -51,7 +51,7 @@ As (d) holds, the canonical homomorphism
 $$
 E \otimes_A a \to E \otimes_A A = E
 $$
-is injective, which means that E is flat (\S 2, no. 3, Proposition 1).
+is injective, which means that E is flat (§ 2, no. 3, Proposition 1).
 
 Proposition 1 provides a characterization of flat modules which is often useful in applications. We shall restrict ourselves, by way of an example, to giving a
 

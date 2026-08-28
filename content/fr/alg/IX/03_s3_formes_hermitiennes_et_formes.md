@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: 5790df32f2d6f2b4485955da48c6bd0f08570178fcc151d1804e40328b975718
+content_sha256: 0bb759b2ee3f2642c3cb5cbb61bbe2b238f671b8a55c5bd0897c6be64264dcf6
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -62,7 +62,7 @@ Si $\Phi$ est une forme $\varepsilon$-hermitienne sur E, on a $\Phi(x, y) = \var
 
 L’application $(y, x) \to \overline{\Phi(x, y)}$ étant sesquilinéaire pour J, pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que l’on ait $\Phi(y, x) = \varepsilon \overline{\Phi(x, y)}$ lorsque $x$ et $y$ parcourent un système de générateurs de E. En particulier, si E admet une base finie $(e_i)_{1 \leq i \leq n}$, pour qu’une forme sesquilinéaire $\Phi$ sur E soit $\varepsilon$-hermitienne, il faut et il suffit que sa matrice $R = (\rho_{ij}) = (\Phi(e_i, e_j))$ vérifie les relations $\rho_{ji} = \varepsilon \overline{\rho_{ij}}$ quels que soient $i, j$, c’est-à-dire $'R = \varepsilon \overline{R}$ ; une matrice $R$ possédant cette propriété est dite $\varepsilon$-hermitienne. Lorsque $\varepsilon = 1$ (resp. $-1$) on dit que $R$ est hermitienne (resp. antihermitienne) relativement à l’antiautomorphisme J. Lorsque J est l’identité (donc A commutatif), une matrice hermitienne (resp. antihermitienne) $R$ est telle que $'R = R$ (resp. $'R = -R$) ; on dit alors que $R$ est une matrice symétrique (resp. antisymétrique). Pour que $\Phi$ soit une forme alternée, il faut et il suffit que sa matrice soit antisymétrique et, en outre, que les termes diagonaux de $R$ soient tous nuls ; une matrice possédant ces propriétés est dite alternée.
 
-Soit $\Phi$ une forme sesquilinéaire sur $E$, et soient $s_\Phi$ et $d_\Phi$ les applications de $E$ dans $E^*$ associées à $\Phi$ à gauche et à droite ($\S 1$, n° 6). Pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que $\langle x, s_\Phi(y) \rangle = \bar{\varepsilon} \langle x, d_\Phi(y) \rangle$ quels que soient les éléments $x, y$ de $E$, donc que $s_\Phi = \bar{\varepsilon} d_\Phi$, ou encore que $\langle x, d_\Phi(y) \rangle = \varepsilon \langle x, s_\Phi(y) \rangle$, donc que $d_\Phi = \varepsilon s_\Phi$.
+Soit $\Phi$ une forme sesquilinéaire sur $E$, et soient $s_\Phi$ et $d_\Phi$ les applications de $E$ dans $E^*$ associées à $\Phi$ à gauche et à droite ($§ 1$, n° 6). Pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que $\langle x, s_\Phi(y) \rangle = \bar{\varepsilon} \langle x, d_\Phi(y) \rangle$ quels que soient les éléments $x, y$ de $E$, donc que $s_\Phi = \bar{\varepsilon} d_\Phi$, ou encore que $\langle x, d_\Phi(y) \rangle = \varepsilon \langle x, s_\Phi(y) \rangle$, donc que $d_\Phi = \varepsilon s_\Phi$.
 
 Soit $\Phi$ une forme $\varepsilon$-hermitienne telle que l’application $d_\Phi$ de $E$ dans $E^*$ associée à droite à $\Phi$ soit bijective. Pour tout endomorphisme $u$ de $E$ on a alors
 $$
@@ -77,7 +77,7 @@ $$
 $$
 donc $u^{**(x)} = \varepsilon \bar{\varepsilon} u(x)$ puisque $\Phi$ est non dégénérée.
 
-Si $\Phi$ est une forme $\varepsilon$-hermitienne telle que les applications $s_\Phi$ et $d_\Phi$ soient bijectives, alors la *forme inverse* $\widehat{\Phi}$ de $\Phi$ ($\S 1$, n° 7) *est une forme* $\bar{\varepsilon}$-hermitienne. En effet, en posant $s = s_\Phi$, $d = d_\Phi$ pour abréger, on déduit de $d = \varepsilon s$ que $s^{-1} = \bar{\varepsilon} d^{-1}$, $s$ étant semi-linéaire. Par suite, quels que soient $u, v$ dans $E$, on a
+Si $\Phi$ est une forme $\varepsilon$-hermitienne telle que les applications $s_\Phi$ et $d_\Phi$ soient bijectives, alors la *forme inverse* $\widehat{\Phi}$ de $\Phi$ ($§ 1$, n° 7) *est une forme* $\bar{\varepsilon}$-hermitienne. En effet, en posant $s = s_\Phi$, $d = d_\Phi$ pour abréger, on déduit de $d = \varepsilon s$ que $s^{-1} = \bar{\varepsilon} d^{-1}$, $s$ étant semi-linéaire. Par suite, quels que soient $u, v$ dans $E$, on a
 $$
 \widehat{\Phi}(u, v) = \Phi(s^{-1}(u), d^{-1}(v)) = \bar{\varepsilon} \Phi(d^{-1}(u), d^{-1}(v)),
 $$
@@ -87,7 +87,7 @@ $$
 $$
 puisque, $\varepsilon$ est dans le centre de $A$.
 
-Enfin, lorsque l’anneau $A$ est commutatif, les prolongements canoniques d’une forme $\varepsilon$-hermitienne $\Phi$ aux puissances tensorielle et extérieure $\bigotimes^p E$ et $\wedge^p E$ de $E$ sont des formes $\varepsilon^p$-hermitiennes, comme il résulte aussitôt des formules (35) et (37) du $\S 1$, n° 9.
+Enfin, lorsque l’anneau $A$ est commutatif, les prolongements canoniques d’une forme $\varepsilon$-hermitienne $\Phi$ aux puissances tensorielle et extérieure $\bigotimes^p E$ et $\wedge^p E$ de $E$ sont des formes $\varepsilon^p$-hermitiennes, comme il résulte aussitôt des formules (35) et (37) du $§ 1$, n° 9.
 
 ### 2. *Modules sur une extension quadratique*.
 
@@ -148,7 +148,7 @@ Il résulte de ceci que, pour qu’une forme sesquilinéaire $\Phi = \Phi_1 + i 
 #### Remarque 1 {#alg-ix-s3-n3-rem-1 .statement}
 
 Les formules (7) et (8) montrent que, si $x \in E$, pour que l’on ait $\Phi(x, x') = 0$ pour tout $x' \in E'$, il faut et il suffit que $\Phi_1(x, x') = 0$ (resp. $\Phi_2(x, x') = 0$) pour tout $x' \in E'$.
-2) L’adjoint d’un endomorphisme $u$ de $E$ par rapport à $\Phi$ ($\S 1$, n° 8) est le même que l’adjoint de $u$ (considéré comme endomorphisme de $E_0$) par rapport à $\Phi_1$ (resp. $\Phi_2$).
+2) L’adjoint d’un endomorphisme $u$ de $E$ par rapport à $\Phi$ ($§ 1$, n° 8) est le même que l’adjoint de $u$ (considéré comme endomorphisme de $E_0$) par rapport à $\Phi_1$ (resp. $\Phi_2$).
 
 ### 4. Formes quadratiques.
 
@@ -196,7 +196,7 @@ la dernière sommation étant étendue aux sous-ensembles $\{i, j\}$ de $I$ ayan
 
 En effet, comme la formule (16) n’est qu’une transcription de la formule (14), l’unicité d’une forme quadratique $Q$ vérifiant (15) est démontrée. Pour démontrer son existence, remarquons d’abord qu’il existe une famille $(b'_{ij})$ d’éléments de $A$ telle que $b'_{ii} = b_{ii}$ et que $b'_{ij} + b'_{ji} = b_{ij}$ pour $i \neq j$; on obtient par exemple une telle famille en munissant $I$ d’une structure d’ensemble totalement ordonné (*Ens.*, chap. III, § 2, n° 3, th. 1) et en posant $b'_{ij} = b_{ij}$ pour $i < j$ et $b'_{ij} = 0$ pour $i > j$. Comme les $e_i$ forment une base de $E$, il existe une forme bilinéaire $f$ sur $E \times E$ telle que $f(e_i, e_j) = b'_{ij}$; en posant $Q'(x) = f(x, x)$ et en désignant par $\Phi'$ la forme bilinéaire associée à la forme quadratique $Q'$, on obtient $Q'(e_i) = b_{ii}$ et $\Phi'(e_i, e_j) = f(e_i, e_j) + f(e_j, e_i) = b_{ij}$. Ceci démontre notre seconde assertion. Quant à la première, elle en résulte aussitôt car, en vertu de l’unicité, si une forme quadratique $Q$ vérifie (15), on a $Q(x) = Q'(x) = f(x, x)$.
 
-Le module $E$ muni de la structure définie par une forme quadratique $Q$ prend le nom de *module quadratique*. Un homomorphisme du module quadratique $(E, Q)$ dans un module quadratique $(E', Q')$ est une application linéaire $u$ de $E$ dans $E'$ telle que $Q = Q' \circ u$; si $\Phi$ et $\Phi'$ sont les formes bilinéaires associées à $Q$ et $Q'$, on a alors $\Phi(x, y) = \Phi'(u(x), u(y))$ pour $x \in E,\ y \in E$; autrement dit $\Phi'$ est l’image réciproque de $\Phi$ par $u$ (\S 1, n° 1). On dit que deux formes quadratiques $Q$ et $Q'$ sur deux $A$-modules $E$ et $E'$ sont *équivalentes* si les modules quadratiques correspondants sont isomorphes.
+Le module $E$ muni de la structure définie par une forme quadratique $Q$ prend le nom de *module quadratique*. Un homomorphisme du module quadratique $(E, Q)$ dans un module quadratique $(E', Q')$ est une application linéaire $u$ de $E$ dans $E'$ telle que $Q = Q' \circ u$; si $\Phi$ et $\Phi'$ sont les formes bilinéaires associées à $Q$ et $Q'$, on a alors $\Phi(x, y) = \Phi'(u(x), u(y))$ pour $x \in E,\ y \in E$; autrement dit $\Phi'$ est l’image réciproque de $\Phi$ par $u$ (§ 1, n° 1). On dit que deux formes quadratiques $Q$ et $Q'$ sur deux $A$-modules $E$ et $E'$ sont *équivalentes* si les modules quadratiques correspondants sont isomorphes.
 
 Soit $(E_i, Q_i)_{i \in I}$ une famille de modules quadratiques, et soit $E$ la somme directe des modules $E_i$. On appelle *somme directe externe* des modules quadratiques $(E_i, Q_i)$ le module quadratique obtenu en munissant $E$ de la forme quadratique $Q$ définie par $Q(\sum_i x_i) = \sum_i Q_i(x_i)$ pour $x_i \in E_i$. On dit aussi que la forme quadratique $Q$ est la *somme directe externe* des formes quadratiques $Q_i$.
 

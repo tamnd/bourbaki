@@ -33,11 +33,11 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: 87018211394cb0aaef072b84196f3a4f58bcad0226040355dc64c77d87a6b55f
+content_sha256: ae265f1a7682a184312fd25a18260a14a79b7cfae6b49715feaf4e96f8913054
 translated_from: content/fr/ac/VIII/04_s4_series_de_hilbert_samuel.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 1f4a5a3e84799205ef066dca65beb8b5d30a41db27c0eb4dda950fd73a226a00
+source_content_sha256: 8a3e20284919ae10cbe7a7b0edf8a7928dc3eb483565302464487f21ad0e6563
 translation_model: gpt-5.4
 translation_run: translate-en-mt-99f56812
 glossary_version: 34
@@ -284,7 +284,7 @@ and remarks 2 and 3, one deduces that $c_{H/xH} = 0$. The proposition is therefo
 
 #### Remark 6 {#ac-viii-s4-n2-rem-6 .statement}
 
-Under the hypotheses of Prop. 2, one therefore has $c_M = 0$ if and only if $M$ is a torsion $H$-module, or again if and only if $\dim_H(M) < r$ (\$ 1, No. 5, example 4).
+Under the hypotheses of Prop. 2, one therefore has $c_M = 0$ if and only if $M$ is a torsion $H$-module, or again if and only if $\dim_H(M) < r$ (§ 1, No. 5, example 4).
 
 ### 3. Hilbert-Samuel Series of a Well-Filtered Module
 
@@ -452,9 +452,9 @@ with R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1
 
 #### Theorem 3 {#ac-viii-s4-thm-3 .statement}
 
-Let $A$ be a noetherian local ring, $q$ an ideal of $A$ distinct from $A$, and $M$ a finitely generated $A$-module such that $M/qM$ is of finite length. Then the integer $d_q(M)$ is the dimension of the $A$-module $M$ ($\S 1$, No. 4, Def. 8).
+Let $A$ be a noetherian local ring, $q$ an ideal of $A$ distinct from $A$, and $M$ a finitely generated $A$-module such that $M/qM$ is of finite length. Then the integer $d_q(M)$ is the dimension of the $A$-module $M$ ($§ 1$, No. 4, Def. 8).
 
-One may suppose $M \neq 0$. Let us prove the inequality $d_q(M) \leq \dim_A(M)$. By Cor. 2 to Prop. 9 of $\S 3$, No. 5, there exist $x_1, ..., x_r \in q$, with $r = \dim_A(M)$ and $\operatorname{long}(M / \sum_{i=1}^r x_i M) < +\infty$; let us put $x = \sum_{i=1}^r x_i A$. By Prop. 4 of No. 3, one has $d_x(M) \leq r$; one has $x \subset q$, whence $H^{(1)}_{M,q} \leq H^{(1)}_{M,x}$ and therefore (Lemma 2 of No. 1)
+One may suppose $M \neq 0$. Let us prove the inequality $d_q(M) \leq \dim_A(M)$. By Cor. 2 to Prop. 9 of $§ 3$, No. 5, there exist $x_1, ..., x_r \in q$, with $r = \dim_A(M)$ and $\operatorname{long}(M / \sum_{i=1}^r x_i M) < +\infty$; let us put $x = \sum_{i=1}^r x_i A$. By Prop. 4 of No. 3, one has $d_x(M) \leq r$; one has $x \subset q$, whence $H^{(1)}_{M,q} \leq H^{(1)}_{M,x}$ and therefore (Lemma 2 of No. 1)
 
 $$
 d_q(M) \leq d_x(M) \leq r = \dim_A(M).
@@ -462,13 +462,13 @@ $$
 
 Let us now prove, by induction on $\dim_A(M)$, the inequality $\dim_A(M) \leq d_q(M)$, which is obvious when $\dim_A(M) = 0$.
 
-Suppose that $\dim_A(M) > 0$, and that $\dim_A(N) \leq d_q(N)$ for every finitely generated $A$-module $N$ such that $\dim_A(N) < \dim_A(M)$. If $0 = M_0 \subset M_1 \subset ... \subset M_n = M$ is a composition series of $M$, one has $\dim_A(M) = \sup(\dim_A(M_i/M_{i-1}))$ ($\S 1$, No. 4, prop. 9) and $d_q(M) = \sup(d_q(M_i/M_{i-1}))$ (No. 3, prop. 5). By IV, $\S 1$, No. 4, th. 1, one may therefore suppose that $M$ is of the form $A/p$, where $p$ is a prime ideal of $A$, and one has $p \neq m_A$ since $\dim_A(M) > 0$. Let $x \in m_A - p$; the homothety $x_M$ of $M = A/p$ is injective, and one has the exact sequence
+Suppose that $\dim_A(M) > 0$, and that $\dim_A(N) \leq d_q(N)$ for every finitely generated $A$-module $N$ such that $\dim_A(N) < \dim_A(M)$. If $0 = M_0 \subset M_1 \subset ... \subset M_n = M$ is a composition series of $M$, one has $\dim_A(M) = \sup(\dim_A(M_i/M_{i-1}))$ ($§ 1$, No. 4, prop. 9) and $d_q(M) = \sup(d_q(M_i/M_{i-1}))$ (No. 3, prop. 5). By IV, $§ 1$, No. 4, th. 1, one may therefore suppose that $M$ is of the form $A/p$, where $p$ is a prime ideal of $A$, and one has $p \neq m_A$ since $\dim_A(M) > 0$. Let $x \in m_A - p$; the homothety $x_M$ of $M = A/p$ is injective, and one has the exact sequence
 
 $$
 0 \longrightarrow M \xrightarrow{x_M} M \longrightarrow M/xM \longrightarrow 0.
 $$
 
-By $\S 3$, No. 2, prop. 3, one has $\dim_A(M/xM) = \dim_A(M) - 1$; by prop. 5 of No. 3, and the preceding exact sequence, one has $d_q(M/xM) \leq d_q(M) - 1$. By the induction hypothesis, one therefore has
+By $§ 3$, No. 2, prop. 3, one has $\dim_A(M/xM) = \dim_A(M) - 1$; by prop. 5 of No. 3, and the preceding exact sequence, one has $d_q(M/xM) \leq d_q(M) - 1$. By the induction hypothesis, one therefore has
 
 $$
 \dim_A(M) = \dim_A(M/xM) + 1 \leq d_q(M/xM) + 1 \leq d_q(M),
@@ -480,11 +480,11 @@ which completes the proof.
 
 Let $A$ be a noetherian ring, $M$ a finitely generated $A$-module and $q$ an ideal of $A$ such that $M/qM$ is of finite length. Then $d_q(M)$ is the least upper bound of the dimensions $\dim_{A_m}(M_m)$, where $m$ ranges over the finite set $S = \operatorname{Supp}(M) \cap V(q)$, and $e_q(M)$ is the sum of the $e_{q_m}(M_m)$ extended to those elements $m$ of $S$ for which one has $\dim_{A_m}(M_m) = d_q(M)$.
 
-For each integer $n$, the length of $M/q^nM$ is the sum of the $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $\S 2$, No. 5, cor. 1 to prop. 7 and corollary to prop. 8). Consequently, one has $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, whence the corollary.
+For each integer $n$, the length of $M/q^nM$ is the sum of the $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, No. 5, cor. 1 to prop. 7 and corollary to prop. 8). Consequently, one has $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, whence the corollary.
 
 #### Remark 1 {#ac-viii-s4-n4-rem-1 .statement}
 
-One also has $d_q(M) = \sup_{m \in V(q)} \dim(M_m)$, that is, $d_q(M) = \dim(\hat{M})$, where $\hat{M}$ is the completion of $M$ for the q-adic topology ($\S 3$, No. 4, prop. 8).
+One also has $d_q(M) = \sup_{m \in V(q)} \dim(M_m)$, that is, $d_q(M) = \dim(\hat{M})$, where $\hat{M}$ is the completion of $M$ for the q-adic topology ($§ 3$, No. 4, prop. 8).
 
 #### Remark 2 {#ac-viii-s4-n4-rem-2 .statement}
 

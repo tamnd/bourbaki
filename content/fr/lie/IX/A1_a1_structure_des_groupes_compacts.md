@@ -26,7 +26,7 @@ subsections:
       pdf_page: 104
 statements: 9
 exercises: 1
-content_sha256: e21a8158044168a83c575c5c668176995560eb366203923aa8656af2870522f2
+content_sha256: aa3e9936f4a29f975fac2f6af0cfdbda6bd031d26c13293a2a07ce465dad4cdd
 ---
 
 ## APPENDICE 1
@@ -123,7 +123,7 @@ Observons maintenant que le groupe $\prod_{\lambda \in L} S_\lambda$ est égal �
 
 D'autre part le noyau de $\pi : \prod_{\lambda \in L} S_\lambda \to D(G)$ s'identifie à $\lim_{\leftarrow} \mathrm{Ker}(\pi_\alpha)$ (A, II, p. 89, remarque 1), donc à un sous-groupe central, compact et totalement discontinu, d'où c).
 
-Prouvons b). Pour tout $\alpha$ dans $I$, le morphisme $s_\alpha : C(G_\alpha)_0 \times D(G_\alpha) \to G_\alpha$ tel que $s_\alpha(x, y) = xy$ pour $x \in C(G_\alpha)_0,\ y \in D(G_\alpha)$, est surjectif et a pour noyau un sous-groupe fini central (\S 1, no 4, cor. 1 à la prop. 4). Les $s_\alpha$ forment un système projectif d'applications, dont la limite s'identifie d'après ce qui précède à l'homomorphisme $(x, y) \mapsto xy$ de $C(G)_0 \times D(G)$ dans $G$. On voit alors comme précédemment que celui-ci est surjectif et que son noyau est central et totalement discontinu, d'où b).
+Prouvons b). Pour tout $\alpha$ dans $I$, le morphisme $s_\alpha : C(G_\alpha)_0 \times D(G_\alpha) \to G_\alpha$ tel que $s_\alpha(x, y) = xy$ pour $x \in C(G_\alpha)_0,\ y \in D(G_\alpha)$, est surjectif et a pour noyau un sous-groupe fini central (§ 1, no 4, cor. 1 à la prop. 4). Les $s_\alpha$ forment un système projectif d'applications, dont la limite s'identifie d'après ce qui précède à l'homomorphisme $(x, y) \mapsto xy$ de $C(G)_0 \times D(G)$ dans $G$. On voit alors comme précédemment que celui-ci est surjectif et que son noyau est central et totalement discontinu, d'où b).
 
 #### Corollaire {#lie-ix-a1-n3-cor-1 .statement tag=01IQ}
 

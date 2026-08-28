@@ -41,9 +41,9 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: bf5c4f5835cc811a56d68f620f1cfe79e97df7ca016b57f9c715b449d9c4ee4e
+content_sha256: 25d6569a9d5311ed3e44aa780cb96c4db7a67f2bdd3ca0800da8a1677d902db0
 translated_from: content/en/int/V/08_s8_products_of_measures.md
-source_content_sha256: f32ac9b0595976df24efb98f8ebc133115fe2afd869695655c5382ac45e70518
+source_content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-646eb530
 glossary_version: 34
@@ -65,7 +65,7 @@ $$
 
 điều này cũng được biểu diễn bởi quan hệ $\lambda'_t = \varepsilon_t \otimes \mu'$.
 
-Hơn nữa, ánh xạ $t \mapsto \lambda'_t(f)$ là liên tục, có giá compact (Ch. III, §4, No. 1, Bổ đề 2), do đó ánh xạ $t \mapsto \lambda'_t$ từ T vào $\mathcal{M}(X)$ là liên tục mờ (và, *a fortiori*, $\mu$-đo được mờ); do đó, họ các độ đo $t \mapsto \lambda'_t$ là $\mu$-thích hợp ($\S 3$, No. 1, Mệnh đề 2a)). Tích phân của $f$ đối với độ đo $\int \lambda'_t \, d\mu(t)$ theo định nghĩa là
+Hơn nữa, ánh xạ $t \mapsto \lambda'_t(f)$ là liên tục, có giá compact (Ch. III, §4, No. 1, Bổ đề 2), do đó ánh xạ $t \mapsto \lambda'_t$ từ T vào $\mathcal{M}(X)$ là liên tục mờ (và, *a fortiori*, $\mu$-đo được mờ); do đó, họ các độ đo $t \mapsto \lambda'_t$ là $\mu$-thích hợp ($§ 3$, No. 1, Mệnh đề 2a)). Tích phân của $f$ đối với độ đo $\int \lambda'_t \, d\mu(t)$ theo định nghĩa là
 
 $$
 \int \langle f, \lambda'_t \rangle \, d\mu(t) = \int d\mu(t) \int f_t(t') \, d\mu'(t') = \int f(t, t') \, d\nu(t, t')
@@ -157,9 +157,9 @@ a) Nếu $f$ là hằng trên phần bù của một tập con $\nu$-được đ
 
 b) Nếu $\mu'$ được điều hòa, thì M là $\mu$-không đáng kể.
 
-Mệnh đề a) suy ra từ Mệnh đề 4b) của §3, No. 2 và các nhận xét của No. 1. Để xử lý b), chú ý rằng $\mu'$ là tổng của một dãy $\mu'_n$ các độ đo bị chặn (§2, No. 3, Mệnh đề 4); $f$ là đo được đối với $\mu \otimes \mu'_n \leq \nu$, và tập hợp $M$ là hợp của các tập hợp $M_n$ liên kết với các độ đo $\mu'_n$ (\S 2, No. 2, Mệnh đề 2). Do đó ta quy về trường hợp $\mu'$ bị chặn, điều này suy ra từ Mệnh đề 4c) của \S 3, No. 2.
+Mệnh đề a) suy ra từ Mệnh đề 4b) của §3, No. 2 và các nhận xét của No. 1. Để xử lý b), chú ý rằng $\mu'$ là tổng của một dãy $\mu'_n$ các độ đo bị chặn (§2, No. 3, Mệnh đề 4); $f$ là đo được đối với $\mu \otimes \mu'_n \leq \nu$, và tập hợp $M$ là hợp của các tập hợp $M_n$ liên kết với các độ đo $\mu'_n$ (§ 2, No. 2, Mệnh đề 2). Do đó ta quy về trường hợp $\mu'$ bị chặn, điều này suy ra từ Mệnh đề 4c) của § 3, No. 2.
 
-Mệnh đề này mở rộng ngay lập tức đến các độ đo phức (Ch. III, \S 4, No. 2, Mệnh đề 3).
+Mệnh đề này mở rộng ngay lập tức đến các độ đo phức (Ch. III, § 4, No. 2, Mệnh đề 3).
 
 #### Hệ quả {#int-v-s8-n2-cor-1 .statement}
 
@@ -169,21 +169,21 @@ a) *Nếu A là $\nu$-được điều hòa, thì M là $\mu$-không đáng kể
 
 b) *Nếu phép chiếu của A trên $T'$ là $\mu'$-được điều hòa, thì M là $\mu$-không đáng kể địa phương.*
 
-Mệnh đề a) suy ra ngay lập tức từ Mệnh đề 2. Để chứng minh b), ký hiệu B là một tập hợp, hợp của một dãy các tập mở $\mu'$-tích phân được trong $T'$, chứa phép chiếu của A trên $T'$, và ký hiệu $\mu'_1$ là độ đo được điều hòa $\varphi_B \cdot \mu'$; vì A là đo được đối với $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, Mệnh đề 2 suy ra rằng $A(t)$ là $\mu'_1$-đo được, ngoại trừ các $t$ tạo thành một tập hợp $\mu$-không đáng kể địa phương. Nhưng vì $A(t) \subset B$, việc nói rằng $A(t)$ là $\mu'_1$-đo được tương đương với việc nói rằng $A(t)$ là $\mu'$-đo được (\S 5, No. 3, Hệ quả của Mệnh đề 4).
+Mệnh đề a) suy ra ngay lập tức từ Mệnh đề 2. Để chứng minh b), ký hiệu B là một tập hợp, hợp của một dãy các tập mở $\mu'$-tích phân được trong $T'$, chứa phép chiếu của A trên $T'$, và ký hiệu $\mu'_1$ là độ đo được điều hòa $\varphi_B \cdot \mu'$; vì A là đo được đối với $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, Mệnh đề 2 suy ra rằng $A(t)$ là $\mu'_1$-đo được, ngoại trừ các $t$ tạo thành một tập hợp $\mu$-không đáng kể địa phương. Nhưng vì $A(t) \subset B$, việc nói rằng $A(t)$ là $\mu'_1$-đo được tương đương với việc nói rằng $A(t)$ là $\mu'$-đo được (§ 5, No. 3, Hệ quả của Mệnh đề 4).
 
 #### Mệnh đề 3 {#int-v-s8-prop-3 .statement}
 
 — *Cho f là một ánh xạ từ T vào một không gian tôpô F. Nếu f là $\mu$-đo được, thì ánh xạ $(t, t') \mapsto f(t)$ là $\nu$-đo được. Ngược lại, nếu $\mu' \neq 0$, và nếu ánh xạ này là $\nu$-đo được, thì hàm f là $\mu$-đo được.*
 
-Mệnh đề đầu tiên suy ra từ Hệ quả 1 của Mệnh đề 10 của \S 6, No. 6. Giả sử rằng $\mu' \neq 0$, ký hiệu $\mu'_1$ là một độ đo khác không có giá compact bị chặn trên bởi $\mu'$, ký hiệu $\nu_1$ là độ đo $\mu \otimes \mu'_1$, và đặt $a = \| \mu'_1 \|$. Khi đó phép chiếu $\mathrm{pr}_1$ của $T \times T'$ lên T là $\nu_1$-thực sự, và độ đo ảnh $\mathrm{pr}_1(\nu_1)$ bằng $a \mu$ (\S 6, No. 6, Mệnh đề 10). Nếu $(t, t') \mapsto f(t)$ là $\nu$-đo được, thì nó cũng $\nu_1$-đo được, do đó $f$ đo được đối với độ đo $a \mu$ (\S 6, No. 2, Mệnh đề 3), do đó có kết quả vì $a \neq 0$.
+Mệnh đề đầu tiên suy ra từ Hệ quả 1 của Mệnh đề 10 của § 6, No. 6. Giả sử rằng $\mu' \neq 0$, ký hiệu $\mu'_1$ là một độ đo khác không có giá compact bị chặn trên bởi $\mu'$, ký hiệu $\nu_1$ là độ đo $\mu \otimes \mu'_1$, và đặt $a = \| \mu'_1 \|$. Khi đó phép chiếu $\mathrm{pr}_1$ của $T \times T'$ lên T là $\nu_1$-thực sự, và độ đo ảnh $\mathrm{pr}_1(\nu_1)$ bằng $a \mu$ (§ 6, No. 6, Mệnh đề 10). Nếu $(t, t') \mapsto f(t)$ là $\nu$-đo được, thì nó cũng $\nu_1$-đo được, do đó $f$ đo được đối với độ đo $a \mu$ (§ 6, No. 2, Mệnh đề 3), do đó có kết quả vì $a \neq 0$.
 
-Mệnh đề trên mở rộng ngay lập tức sang các độ đo phức (Ch. III, \S 4, No. 2, Mệnh đề 3), cũng như các hệ quả sau đây.
+Mệnh đề trên mở rộng ngay lập tức sang các độ đo phức (Ch. III, § 4, No. 2, Mệnh đề 3), cũng như các hệ quả sau đây.
 
 #### Hệ quả 1 {#int-v-s8-prop-3-cor-1 .statement}
 
 — *Cho F, F' và G là ba không gian tôpô, và cho u là một ánh xạ liên tục từ $F \times F'$ vào G. Cho f (resp. $f'$) là một hàm xác định trên T (resp. $T'$), nhận giá trị trong F (resp. $F'$) và đo được đối với $\mu$ (resp. $\mu'$). Khi đó hàm $(t, t') \mapsto u(f(t), f'(t'))$ đo được đối với $\mu \otimes \mu'$.*
 
-Các ánh xạ $(t, t') \mapsto f(t)$, $(t, t') \mapsto f'(t')$ là $\nu$-đo được theo Mệnh đề 3, nên điều này suy ra từ Định lý 1 của Ch. IV, \S 5, No. 3.
+Các ánh xạ $(t, t') \mapsto f(t)$, $(t, t') \mapsto f'(t')$ là $\nu$-đo được theo Mệnh đề 3, nên điều này suy ra từ Định lý 1 của Ch. IV, § 5, No. 3.
 
 #### Hệ quả 2 {#int-v-s8-prop-3-cor-2 .statement}
 
@@ -206,7 +206,7 @@ Trường hợp các hàm phức, hoặc các hàm thực hữu hạn, là một
 
 — *Cho $A$ là một tập con của $T$. Nếu $A$ là địa phương $\mu$-không đáng kể, thì $A \times T'$ là địa phương $\nu$-không đáng kể. Ngược lại, nếu $A \times T'$ là địa phương $\nu$-không đáng kể và nếu $\mu' \neq 0$, thì $A$ là địa phương $\mu$-không đáng kể.*
 
-Mệnh đề đầu tiên suy ra từ Hệ quả 1 của Mệnh đề 10 của §6, No. 6. Để thiết lập mệnh đề thứ hai, ta lấy lại các ký hiệu trong chứng minh của Mệnh đề 3; $A \times T' = \mathrm{pr}_1^{-1}(A)$ là địa phương không đáng kể đối với độ đo $\nu_1$, do đó $A$ là địa phương không đáng kể đối với $a\mu$ (\S6, No. 2, Hệ quả của Mệnh đề 2), do đó có kết quả vì $a \neq 0$.
+Mệnh đề đầu tiên suy ra từ Hệ quả 1 của Mệnh đề 10 của §6, No. 6. Để thiết lập mệnh đề thứ hai, ta lấy lại các ký hiệu trong chứng minh của Mệnh đề 3; $A \times T' = \mathrm{pr}_1^{-1}(A)$ là địa phương không đáng kể đối với độ đo $\nu_1$, do đó $A$ là địa phương không đáng kể đối với $a\mu$ (§ 6, No. 2, Hệ quả của Mệnh đề 2), do đó có kết quả vì $a \neq 0$.
 
 Mệnh đề trên lập tức mở rộng đến tích của hai độ đo phức (Ch. III, §4, No. 2, Mệnh đề 3), cũng như hệ quả sau đây.
 
@@ -297,11 +297,11 @@ $$
 $$
 (8)
 
-Mệnh đề a), cũng như mệnh đề b) khi $\mu'$ bị chặn, là những hệ quả của Mệnh đề 5 của §3, No. 2. Để xét trường hợp $\mu'$ vừa phải, ta biểu diễn $\mu'$ thành một tổng $\sum_{n \in \mathbf{N}} \mu'_n$ của một dãy các độ đo bị chặn (\S2, No. 3, Mệnh đề 4). Khi đó hàm $t \mapsto \int^* f(t, t') d\mu'_n(t')$ là $\mu$-đo được, và
+Mệnh đề a), cũng như mệnh đề b) khi $\mu'$ bị chặn, là những hệ quả của Mệnh đề 5 của §3, No. 2. Để xét trường hợp $\mu'$ vừa phải, ta biểu diễn $\mu'$ thành một tổng $\sum_{n \in \mathbf{N}} \mu'_n$ của một dãy các độ đo bị chặn (§ 2, No. 3, Mệnh đề 4). Khi đó hàm $t \mapsto \int^* f(t, t') d\mu'_n(t')$ là $\mu$-đo được, và
 $$
 \iint^* f(t, t') d\mu(t) d\mu'_n(t') = \int^* d\mu(t) \int^* f(t, t') d\mu'_n(t').
 $$
-Nhưng $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (Mệnh đề 1); khi đó mệnh đề b) thu được bằng cách lấy tổng theo $n$ (\S2, No. 2, Mệnh đề 1).
+Nhưng $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (Mệnh đề 1); khi đó mệnh đề b) thu được bằng cách lấy tổng theo $n$ (§ 2, No. 2, Mệnh đề 1).
 
 #### Hệ quả 1 {#int-v-s8-prop-7-cor-1 .statement}
 
@@ -358,7 +358,7 @@ $$
 = \left( \int^* f(t)\, d\mu(t) \right) \left( \int^* f'(t')\, d\mu'(t') \right),
 $$
 
-đó chính là bất đẳng thức cần tìm. Do đó mệnh đề được chứng minh khi $\mu$ và $\mu'$ là các độ đo có giá compact. Để xét trường hợp tổng quát, chỉ cần biểu diễn $\mu$ (resp. $\mu'$) dưới dạng tổng của một họ $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) các độ đo có giá compact (\S 2, No. 3, Mệnh đề 4), viết công thức (10) cho mỗi độ đo $\mu_\alpha \otimes \mu'_\beta$, rồi lấy tổng theo $(\alpha, \beta)$, có tính đến Mệnh đề 1 (\S 2, No. 2, Mệnh đề 1).
+đó chính là bất đẳng thức cần tìm. Do đó mệnh đề được chứng minh khi $\mu$ và $\mu'$ là các độ đo có giá compact. Để xét trường hợp tổng quát, chỉ cần biểu diễn $\mu$ (resp. $\mu'$) dưới dạng tổng của một họ $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) các độ đo có giá compact (§ 2, No. 3, Mệnh đề 4), viết công thức (10) cho mỗi độ đo $\mu_\alpha \otimes \mu'_\beta$, rồi lấy tổng theo $(\alpha, \beta)$, có tính đến Mệnh đề 1 (§ 2, No. 2, Mệnh đề 1).
 
 #### Hệ quả 1 {#int-v-s8-prop-8-cor-1 .statement}
 
@@ -370,7 +370,7 @@ $$
 
 *trừ trường hợp có thể xảy ra khi một trong các thừa số của vế thứ hai bằng 0 và thừa số kia bằng $+\infty$.*
 
-Khi hai thừa số của vế thứ hai là hữu hạn, các hàm $f$ và $f'$ là vừa phải (\S 1, No. 2, Prop. 7), do đó hàm $f \otimes f'$ là vừa phải (Cor. 2 of Prop. 5); vì thế đẳng thức trên quy về công thức (10) (\S 1, No. 2, Prop. 7). Khi một trong các thừa số của vế thứ hai có giá trị $+\infty$ và thừa số kia khác không, thì vế thứ hai có giá trị $+\infty$, và đẳng thức trên suy ra từ Prop. 6.
+Khi hai thừa số của vế thứ hai là hữu hạn, các hàm $f$ và $f'$ là vừa phải (§ 1, No. 2, Prop. 7), do đó hàm $f \otimes f'$ là vừa phải (Cor. 2 of Prop. 5); vì thế đẳng thức trên quy về công thức (10) (§ 1, No. 2, Prop. 7). Khi một trong các thừa số của vế thứ hai có giá trị $+\infty$ và thừa số kia khác không, thì vế thứ hai có giá trị $+\infty$, và đẳng thức trên suy ra từ Prop. 6.
 
 #### Hệ quả 2 {#int-v-s8-prop-8-cor-2 .statement}
 
@@ -380,7 +380,7 @@ $$
 \iint f(t)f'(t')\,d\mu(t)\,d\mu'(t') = \left( \int f(t)\,d\mu(t) \right) \left( \int f'(t')\,d\mu'(t') \right).
 $$
 
-Khi $f$ và $f'$ dương, $f \otimes f'$ là đo được theo Cor. 3 of Prop. 3, và mệnh đề suy ra từ công thức (10) (tương ứng, (11)) và tiêu chuẩn khả tích cốt yếu (\S 1, No. 3, Prop. 9) (tương ứng, tiêu chuẩn khả tích của Ch. IV, \S 5, No. 6, Th. 5). Trường hợp tổng quát khi đó suy ra ngay lập tức.
+Khi $f$ và $f'$ dương, $f \otimes f'$ là đo được theo Cor. 3 of Prop. 3, và mệnh đề suy ra từ công thức (10) (tương ứng, (11)) và tiêu chuẩn khả tích cốt yếu (§ 1, No. 3, Prop. 9) (tương ứng, tiêu chuẩn khả tích của Ch. IV, § 5, No. 6, Th. 5). Trường hợp tổng quát khi đó suy ra ngay lập tức.
 
 Hệ quả 2 mở rộng ngay cho tích của hai độ đo phức.
 
@@ -443,7 +443,7 @@ $$
 = b \left( \int^\bullet |\mathbf{f}(t)| d\mu(t) \right) \left( \int^\bullet |\mathbf{f}'(t')| d\mu'(t') \right)
 $$
 
-theo Mệnh đề 8. Điều này cho thấy rằng $[\mathbf{f}(t) \cdot \mathbf{f}'(t')]$ là khả tích thiết yếu đối với $\mu \otimes \mu'$ (\S 1, No. 3, Mệnh đề 9). Giả sử rằng $\mathbf{f}$ và $\mathbf{f}'$ khả tích: khi đó $\mathbf{f}$ và $\mathbf{f}'$ là điều hòa, và $\mathbf{g}$ là điều hòa (Hệ quả 2 của Mệnh đề 5), do đó khả tích (\S 1, No. 3, Hệ quả của Mệnh đề 9). Trong trường hợp này công thức (14) suy ra từ định lý Lebesgue–Fubini và tính tuyến tính của tích phân (Ch. IV, \S 4, No. 2, Định lý 1). Để hoàn tất việc xét trường hợp $\mathbf{f}$ và $\mathbf{f}'$ là khả tích thiết yếu, khi đó áp dụng (14) cho hai hàm khả tích $\mathbf{f}_1$ và $\mathbf{f}_1'$, bằng với $\mathbf{f}$ và $\mathbf{f}'$ hầu khắp nơi địa phương, khi nhận thấy rằng $[\mathbf{f} \cdot \mathbf{f}'] = [\mathbf{f}_1 \cdot \mathbf{f}_1']$ hầu khắp nơi địa phương trong $T \times T'$ (Mệnh đề 4).
+theo Mệnh đề 8. Điều này cho thấy rằng $[\mathbf{f}(t) \cdot \mathbf{f}'(t')]$ là khả tích thiết yếu đối với $\mu \otimes \mu'$ (§ 1, No. 3, Mệnh đề 9). Giả sử rằng $\mathbf{f}$ và $\mathbf{f}'$ khả tích: khi đó $\mathbf{f}$ và $\mathbf{f}'$ là điều hòa, và $\mathbf{g}$ là điều hòa (Hệ quả 2 của Mệnh đề 5), do đó khả tích (§ 1, No. 3, Hệ quả của Mệnh đề 9). Trong trường hợp này công thức (14) suy ra từ định lý Lebesgue–Fubini và tính tuyến tính của tích phân (Ch. IV, § 4, No. 2, Định lý 1). Để hoàn tất việc xét trường hợp $\mathbf{f}$ và $\mathbf{f}'$ là khả tích thiết yếu, khi đó áp dụng (14) cho hai hàm khả tích $\mathbf{f}_1$ và $\mathbf{f}_1'$, bằng với $\mathbf{f}$ và $\mathbf{f}'$ hầu khắp nơi địa phương, khi nhận thấy rằng $[\mathbf{f} \cdot \mathbf{f}'] = [\mathbf{f}_1 \cdot \mathbf{f}_1']$ hầu khắp nơi địa phương trong $T \times T'$ (Mệnh đề 4).
 
 Kết quả này mở rộng cho tích của các độ đo phức.
 
@@ -460,11 +460,11 @@ $$
 
 b) Ngược lại, nếu $g \otimes g'$ khả tích địa phương theo $\nu$, và nếu $g'$ không $\mu'$-không đáng kể địa phương, thì $g$ khả tích địa phương theo $\mu$.
 
-a) Cho $K$ và $K'$ là hai tập hợp compact của $T$ và $T'$, tương ứng; Hệ quả 2 của Mệnh đề 8 cho thấy rằng hàm $(t, t') \mapsto g(t)g'(t')\varphi_{K \times K'}(t, t')$, bằng với $(g\varphi_K) \otimes (g'\varphi_{K'})$, là $\nu$-khả tích. Do đó, $g \otimes g'$ là $\nu$-khả tích địa phương. Khi đó người ta kiểm tra ngay lập tức rằng vế thứ hai của (15) thỏa mãn tính chất đặc trưng của các độ đo tích (Ch. III, \S 4, No. 1, Định lý 1).
+a) Cho $K$ và $K'$ là hai tập hợp compact của $T$ và $T'$, tương ứng; Hệ quả 2 của Mệnh đề 8 cho thấy rằng hàm $(t, t') \mapsto g(t)g'(t')\varphi_{K \times K'}(t, t')$, bằng với $(g\varphi_K) \otimes (g'\varphi_{K'})$, là $\nu$-khả tích. Do đó, $g \otimes g'$ là $\nu$-khả tích địa phương. Khi đó người ta kiểm tra ngay lập tức rằng vế thứ hai của (15) thỏa mãn tính chất đặc trưng của các độ đo tích (Ch. III, § 4, No. 1, Định lý 1).
 
 b) Bây giờ giả sử rằng $g \otimes g'$ là $\nu$-khả tích địa phương, và rằng $g'$ không $\mu'$-không đáng kể địa phương. Cho $\mu_1$ là một độ đo dương có giá compact sao cho $\mu_1 \leq \mu$; do $g \otimes g'$ là $(\mu_1 \otimes \mu')$-đo được, $t \mapsto g(t)g'(t')$ là $\mu_1$-đo được trừ ra một tập hợp các giá trị của $t'$ là $\mu'$-không đáng kể địa phương (Mệnh đề 2).
 
-Vì $g'$ không bằng không địa phương $\mu'$-gần khắp nơi, từ đó ta suy ra rằng $g$ là $\mu_1$-đo được, rồi $\mu$-đo được bằng cách phân tích $\mu$ thành tổng của một họ các độ đo có giá compact (\S 2, No. 3, Prop. 4 và \S 2, No. 2, Prop. 2). Sau khi đã thiết lập điểm này, ta có thể rút gọn về trường hợp $g$ và $g'$ đều $\geqslant 0$, bằng cách thay $g$ và $g'$ lần lượt bởi các giá trị tuyệt đối của chúng nếu cần. Cho $K$ là một tập con compact bất kỳ của $T$, và cho $K'$ là một tập con compact của $T'$ sao cho $\int g' \varphi_{K'} d\mu' \neq 0$. Theo Prop. 8,
+Vì $g'$ không bằng không địa phương $\mu'$-gần khắp nơi, từ đó ta suy ra rằng $g$ là $\mu_1$-đo được, rồi $\mu$-đo được bằng cách phân tích $\mu$ thành tổng của một họ các độ đo có giá compact (§ 2, No. 3, Prop. 4 và § 2, No. 2, Prop. 2). Sau khi đã thiết lập điểm này, ta có thể rút gọn về trường hợp $g$ và $g'$ đều $\geqslant 0$, bằng cách thay $g$ và $g'$ lần lượt bởi các giá trị tuyệt đối của chúng nếu cần. Cho $K$ là một tập con compact bất kỳ của $T$, và cho $K'$ là một tập con compact của $T'$ sao cho $\int g' \varphi_{K'} d\mu' \neq 0$. Theo Prop. 8,
 
 $$
 \left( \int^\bullet g \varphi_K d\mu \right) \left( \int^\bullet g' \varphi_{K'} d\mu' \right) = \iiint^\bullet (g \otimes g') \varphi_{K \times K'} d\mu d\mu' < +\infty .
@@ -472,7 +472,7 @@ $$
 
 Do đó nhân tử thứ nhất của vế thứ nhất là hữu hạn, và điều này hoàn tất chứng minh.
 
-Mệnh đề này mở rộng sang các độ đo phức, nhờ Prop. 3 của Ch. III, \S 4, No. 2.
+Mệnh đề này mở rộng sang các độ đo phức, nhờ Prop. 3 của Ch. III, § 4, No. 2.
 
 #### Mệnh đề 11 {#int-v-s8-prop-11 .statement}
 
@@ -491,7 +491,7 @@ $$
 = \left( \int f(\pi(t)) d\mu(t) \right) \left( \int f'(\pi'(t')) d\mu'(t') \right)
 $$
 
-(Hệ quả 2 của Prop. 8), điều này chứng minh rằng $\nu_1 = \mu_1 \otimes \mu'_1$ (Ch. III, \S 4, No. 1, Th. 1).
+(Hệ quả 2 của Prop. 8), điều này chứng minh rằng $\nu_1 = \mu_1 \otimes \mu'_1$ (Ch. III, § 4, No. 1, Th. 1).
 
 b) Bây giờ giả sử rằng $\pi \times \pi'$ là $\mu \otimes \mu'$-thực sự và $\mu' \neq 0$. Gọi $\mu_1$ là một độ đo $\leq \mu$ có giá compact. Vì hàm $\pi \times \pi'$ đo được đối với $\mu_1 \otimes \mu'$, ánh xạ $t \mapsto (\pi(t), \pi'(t'))$ là $\mu$-đo được trừ ra đối với các $t'$ tạo thành một tập địa phương $\mu'$-không đáng kể (No. 2, Mệnh đề 2). Vì $\mu' \neq 0$, suy ra $\pi$ là $\mu_1$-đo được, và cuối cùng $\pi$ là $\mu$-đo được
 

@@ -69,7 +69,7 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: f216e49c0f37a9ef2aa551ee737906851a46daab79eb96ce0c598c8acaa257b0
+content_sha256: 7868f57470757bd20ec548b430b2c741a18abc91d659aac3e99d9e108a600ff6
 ---
 
 ## § 1. MODULES
@@ -401,7 +401,7 @@ The use of explicit letters to denote homomorphisms in an exact sequence is ofte
 
 ### 5. PRODUCTS OF MODULES
 
-Let $(E_i)_{i \in I}$ be a family of modules over the same ring A. It is immediately verified that the product of the module structures on the $E_i$ ($I, \S 4,$ no. 8) is an A-module structure on the product set $E = \prod_{i \in I} E_i$. With this structure the set E is called the product module of the modules $E_i$; if $x = (x_i), y = (y_i)$ are two elements of E, then
+Let $(E_i)_{i \in I}$ be a family of modules over the same ring A. It is immediately verified that the product of the module structures on the $E_i$ ($I, § 4,$ no. 8) is an A-module structure on the product set $E = \prod_{i \in I} E_i$. With this structure the set E is called the product module of the modules $E_i$; if $x = (x_i), y = (y_i)$ are two elements of E, then
 
 $$
 \begin{cases}
@@ -1094,7 +1094,7 @@ It is immediate that the annihilator of an arbitrary subset S of E is a *left id
 
 The annihilator of a *submodule* M of E is a *two-sided ideal* of A; for, if $\alpha x = 0$ for all $x \in M$, then also $\alpha (\beta x) = 0$ for all $x \in M$ and all $\beta \in A$, hence $\alpha \beta$ belongs to the annihilator of M for all $\beta \in A$. In particular, the annihilator of E is a two-sided ideal of A.
 
-For all $\alpha \in A$, let $h_\alpha$ be the homothety $x \mapsto \alpha x$; it is known that the mapping $\alpha \mapsto h_\alpha$ of A into the endomorphism ring $\mathcal{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ of the commutative group (without operators) E, is a *ring homomorphism* (\S 2, no. 5). The inverse image of 0 under this homomorphism is the *annihilator* $a$ of E; the image of A under the homomorphism $\alpha \mapsto h_\alpha$ is therefore isomorphic to the quotient ring $A/a$. The module E is called *faithful* if its annihilator $a$ reduces to 0.
+For all $\alpha \in A$, let $h_\alpha$ be the homothety $x \mapsto \alpha x$; it is known that the mapping $\alpha \mapsto h_\alpha$ of A into the endomorphism ring $\mathcal{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ of the commutative group (without operators) E, is a *ring homomorphism* (§ 2, no. 5). The inverse image of 0 under this homomorphism is the *annihilator* $a$ of E; the image of A under the homomorphism $\alpha \mapsto h_\alpha$ is therefore isomorphic to the quotient ring $A/a$. The module E is called *faithful* if its annihilator $a$ reduces to 0.
 
 Let E be any A-module, $a$ a two-sided ideal of A contained in Ann(E) and let $\dot{\alpha}$ be an element of the quotient ring $A/a$; for all $x \in E$, the element $\alpha x$ is the same for all the $\alpha \in A$ belonging to the class $\dot{\alpha}$ mod. $a$; if this element is denoted by $\dot{\alpha} x$, it is immediately seen that the mapping (α, x) ↦ αx defines (with addition on E) an (A/α)-module structure on E. When α = Ann(E), the (A/α)-module E thus defined is *faithful*; we shall say that it is the faithful module *associated* with the A-module E. Observe that every submodule of an A-module E is also a submodule of the associated faithful module and conversely.
 

@@ -37,9 +37,9 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: 1ec1c3fd40941f86205e481b1bf927fb384fa82abc246ffaaaede2cd50a012be
+content_sha256: b7dd1ff83282b95e54bcdd03e090510675e36caf7a5107a0344fec5fd79fb74d
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
-source_content_sha256: c6b3ea44a708bb83dba19feee4cfba38a7155245a73e59d9cdc9572a3a9fc3b4
+source_content_sha256: 635cb657396c30a372e380cabd17f11b77add1482054b9de74828b3e4a2bbbbd
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-76b01779
 glossary_version: 34
@@ -256,7 +256,7 @@ Suy ra ngay lập tức từ *Nhận xét 1* rằng $\sum_{(n_i)} b_{n_{r+1} \ld
 
 ### 3. BỔ ĐỀ HENSEL
 
-Trong một vành tôpô $A$, một phần tử $x$ được gọi là *lũy linh tôpô* nếu $O$ là giới hạn của dãy $(x^n)_{n \geq 0}$. Nếu $A$ là một vành giao hoán *có tôpô tuyến tính*, việc nói rằng $x$ là lũy linh tôpô có nghĩa là với mọi iđêan mở $\mathfrak{J}$ của $A$, ảnh chính tắc của $x$ trong $A/\mathfrak{J}$ là một phần tử *lũy linh* của vành đó. Nếu $\mathfrak{r}_g$ là căn nil của $A/\mathfrak{J}$, rõ ràng $(\mathfrak{r}_g)$ là một hệ ngược của các tập hợp và tập hợp $t$ các phần tử lũy linh tôpô của $A$ là ảnh ngược của $\mathfrak{r} = \lim \mathfrak{r}_g$ qua đồng cấu chính tắc $A \to \lim A/\mathfrak{J}$; do đó nó là một *iđêan đóng* của $A$. Nếu ngoài ra $A$ là *Hausdorff* và *đầy đủ*, iđêan này được chứa trong căn Jacobson của $A$ và, để một phần tử $x \in A$ là khả nghịch, điều kiện cần và đủ là lớp của nó mod. $t$ là khả nghịch trong $A/t$ (\S 2, no. 13, Bổ đề 3).
+Trong một vành tôpô $A$, một phần tử $x$ được gọi là *lũy linh tôpô* nếu $O$ là giới hạn của dãy $(x^n)_{n \geq 0}$. Nếu $A$ là một vành giao hoán *có tôpô tuyến tính*, việc nói rằng $x$ là lũy linh tôpô có nghĩa là với mọi iđêan mở $\mathfrak{J}$ của $A$, ảnh chính tắc của $x$ trong $A/\mathfrak{J}$ là một phần tử *lũy linh* của vành đó. Nếu $\mathfrak{r}_g$ là căn nil của $A/\mathfrak{J}$, rõ ràng $(\mathfrak{r}_g)$ là một hệ ngược của các tập hợp và tập hợp $t$ các phần tử lũy linh tôpô của $A$ là ảnh ngược của $\mathfrak{r} = \lim \mathfrak{r}_g$ qua đồng cấu chính tắc $A \to \lim A/\mathfrak{J}$; do đó nó là một *iđêan đóng* của $A$. Nếu ngoài ra $A$ là *Hausdorff* và *đầy đủ*, iđêan này được chứa trong căn Jacobson của $A$ và, để một phần tử $x \in A$ là khả nghịch, điều kiện cần và đủ là lớp của nó mod. $t$ là khả nghịch trong $A/t$ (§ 2, no. 13, Bổ đề 3).
 
 Chú ý rằng nếu $A$ là một vành và $m$ là một iđêan hai phía của $A$, các phần tử của $m$ là lũy linh tôpô đối với tôpô *m-adic*.
 
@@ -422,7 +422,7 @@ $$
 
 là chuỗi lũy thừa hình thức trong $A[[X_{n+1}, \ldots, X_m]]$ thu được bằng cách thế các $x_i$ vào các $X_i$ trong các hệ số của F, với $1 \leq i \leq n$.
 
-Ta lấy $B$ là vành các chuỗi lũy thừa hình thức $A[[X_1, \ldots, X_r]]$ và lấy $n$ là iđêan của các chuỗi trong $B$ không có số hạng hằng, sao cho $(B, n)$ thỏa mãn các điều kiện Hensel ($\S 2$, no. 6, Hệ quả của Mệnh đề 6). Mệnh đề 6 có thể được áp dụng bằng cách lấy các $x_i \in B$ là các chuỗi không có số hạng hằng; khi đó, với mọi chuỗi $\mathbf{f} \in A[[X_1, \ldots, X_r]]$, $\tilde{u}(f)$ chính là chuỗi lũy thừa hình thức $f(x_1, \ldots, x_n)$ được định nghĩa trong Đại số, Chương IV, $\S 5$, no. 5. Điều này là hiển nhiên nếu $f$ là một đa thức và trong trường hợp tổng quát nó suy ra từ mệnh đề bằng cách nhận xét rằng $f \mapsto f(x_1, \ldots, x_n)$ là liên tục trên $A[[X_1, \ldots, X_n]]$ đối với tôpô m-adic.
+Ta lấy $B$ là vành các chuỗi lũy thừa hình thức $A[[X_1, \ldots, X_r]]$ và lấy $n$ là iđêan của các chuỗi trong $B$ không có số hạng hằng, sao cho $(B, n)$ thỏa mãn các điều kiện Hensel ($§ 2$, no. 6, Hệ quả của Mệnh đề 6). Mệnh đề 6 có thể được áp dụng bằng cách lấy các $x_i \in B$ là các chuỗi không có số hạng hằng; khi đó, với mọi chuỗi $\mathbf{f} \in A[[X_1, \ldots, X_r]]$, $\tilde{u}(f)$ chính là chuỗi lũy thừa hình thức $f(x_1, \ldots, x_n)$ được định nghĩa trong Đại số, Chương IV, $§ 5$, no. 5. Điều này là hiển nhiên nếu $f$ là một đa thức và trong trường hợp tổng quát nó suy ra từ mệnh đề bằng cách nhận xét rằng $f \mapsto f(x_1, \ldots, x_n)$ là liên tục trên $A[[X_1, \ldots, X_n]]$ đối với tôpô m-adic.
 
 #### Hệ quả {#ac-iii-s4-n5-cor-1 .statement}
 
@@ -506,8 +506,8 @@ và do đó chỉ cần lấy $y = -c$, $b = a + eh(-c)$. Hơn nữa nếu $b = 
 Hệ quả này áp dụng đáng chú ý khi $e$ khả nghịch trong $\mathbf{A}$; khi đó ta cũng có thể suy ra sự tồn tại của $b$ từ Định lý Hensel, vì ảnh chính tắc của $f(\mathbf{X})$ trong $(\mathbf{A}/\mathfrak{m})\{\mathbf{X}\}$ có dạng $(\mathbf{X} - a)f_1(\mathbf{X}), \mathbf{X} - a$ và $f_1(\mathbf{X})$ nguyên tố cùng nhau mạnh, vì $f_1(\alpha) = f'(\alpha)$ là ảnh của $e$ (no. 1, Ví dụ).
 
 Ví dụ
-(1) Cho $p$ là một số nguyên tố $\neq 2$ và $n$ là một số nguyên sao cho lớp của nó mod. $p$ là một bình phương $\neq 0$ trong trường nguyên tố $\mathbf{F}_p$. Nếu $\mathbf{Z}_p$ là vành các số nguyên $p$-adic (\S 2, no. 12, Ví dụ 3), việc áp dụng Hệ quả 1 cho đa thức $\mathbf{X}^2 - n$ cho thấy rằng $n$ là một bình phương trong $\mathbf{Z}_p$; chẳng hạn 7 là một bình phương trong $\mathbf{Z}_3$.
-(2) Cho $\mathbf{A} = \mathbf{K}[[\mathbf{Y}]]$ là vành các chuỗi lũy thừa hình thức theo một ẩn với hệ số trong một trường giao hoán $\mathbf{K}$; với tôpô $(\mathbf{Y})$-adic, vành $\mathbf{A}$ là Hausdorff và đầy đủ (\S 2, no. 6, Hệ quả của Mệnh đề 6) và ánh xạ $f(\mathbf{Y}) \mapsto f(0)$ xác định, bằng cách chuyển qua vành thương, một đẳng cấu từ $\mathbf{A}/(\mathbf{Y})$ lên trường $\mathbf{K}$. Theo Hệ quả 1, nếu $F(\mathbf{Y}, \mathbf{X})$ là một đa thức theo $\mathbf{X}$ với hệ số trong $\mathbf{A}$ và $a$ là một nghiệm đơn của $F(0, \mathbf{X})$ trong $\mathbf{K}$, thì tồn tại duy nhất một chuỗi lũy thừa hình thức $f(\mathbf{Y})$ sao cho $f(0) = a$ và $F(\mathbf{Y}, f(\mathbf{Y})) = 0$.
+(1) Cho $p$ là một số nguyên tố $\neq 2$ và $n$ là một số nguyên sao cho lớp của nó mod. $p$ là một bình phương $\neq 0$ trong trường nguyên tố $\mathbf{F}_p$. Nếu $\mathbf{Z}_p$ là vành các số nguyên $p$-adic (§ 2, no. 12, Ví dụ 3), việc áp dụng Hệ quả 1 cho đa thức $\mathbf{X}^2 - n$ cho thấy rằng $n$ là một bình phương trong $\mathbf{Z}_p$; chẳng hạn 7 là một bình phương trong $\mathbf{Z}_3$.
+(2) Cho $\mathbf{A} = \mathbf{K}[[\mathbf{Y}]]$ là vành các chuỗi lũy thừa hình thức theo một ẩn với hệ số trong một trường giao hoán $\mathbf{K}$; với tôpô $(\mathbf{Y})$-adic, vành $\mathbf{A}$ là Hausdorff và đầy đủ (§ 2, no. 6, Hệ quả của Mệnh đề 6) và ánh xạ $f(\mathbf{Y}) \mapsto f(0)$ xác định, bằng cách chuyển qua vành thương, một đẳng cấu từ $\mathbf{A}/(\mathbf{Y})$ lên trường $\mathbf{K}$. Theo Hệ quả 1, nếu $F(\mathbf{Y}, \mathbf{X})$ là một đa thức theo $\mathbf{X}$ với hệ số trong $\mathbf{A}$ và $a$ là một nghiệm đơn của $F(0, \mathbf{X})$ trong $\mathbf{K}$, thì tồn tại duy nhất một chuỗi lũy thừa hình thức $f(\mathbf{Y})$ sao cho $f(0) = a$ và $F(\mathbf{Y}, f(\mathbf{Y})) = 0$.
 
 #### Hệ quả 2 {#ac-iii-s4-thm-2-cor-2 .statement}
 
@@ -555,7 +555,7 @@ $$
 
 *Cho $\mathbf{A}$ là một vành và $m$ là một iđêan của $\mathbf{A}$ sao cho cặp có thứ tự $(\mathbf{A}, m)$ thỏa mãn các điều kiện của Hensel. Cho $\mathbf{B}$ là vành thương $\mathbf{A}/m$ và $\pi : \mathbf{A} \to \mathbf{B}$ là đồng cấu chính tắc. Với mọi lũy đẳng $c$ của $\mathbf{B}$, tồn tại một lũy đẳng duy nhất $e$ của $\mathbf{A}$ sao cho $\pi(e) = c$.*
 
-Cho $a$ sao cho $\pi(a) = c$; Hệ quả 1 của Định lý 2 ở no. 5 có thể được áp dụng cho đa thức $f(X) = X^2 - X$ trong $\mathbf{A}[X]$ và phần tử $a \in \mathbf{A}$. Khi đó $f'(a) = 2a - 1$ và, vì $\pi(2a - 1) = 2c - 1$ và $(2c - 1)^2 = 1$ trong $\mathbf{B}$, nên $2c - 1$ khả nghịch trong $\mathbf{B}$ và do đó $2a - 1$ khả nghịch trong $\mathbf{A}$ (\S 2, no. 13, Bổ đề 3). Vì $f(a) \in m$, Hệ quả 1 của Định lý 2 ở no. 5 ngay lập tức cho sự tồn tại và tính duy nhất của $e$.
+Cho $a$ sao cho $\pi(a) = c$; Hệ quả 1 của Định lý 2 ở no. 5 có thể được áp dụng cho đa thức $f(X) = X^2 - X$ trong $\mathbf{A}[X]$ và phần tử $a \in \mathbf{A}$. Khi đó $f'(a) = 2a - 1$ và, vì $\pi(2a - 1) = 2c - 1$ và $(2c - 1)^2 = 1$ trong $\mathbf{B}$, nên $2c - 1$ khả nghịch trong $\mathbf{B}$ và do đó $2a - 1$ khả nghịch trong $\mathbf{A}$ (§ 2, no. 13, Bổ đề 3). Vì $f(a) \in m$, Hệ quả 1 của Định lý 2 ở no. 5 ngay lập tức cho sự tồn tại và tính duy nhất của $e$.
 
 #### Mệnh đề 8 {#ac-iii-s4-prop-8 .statement}
 

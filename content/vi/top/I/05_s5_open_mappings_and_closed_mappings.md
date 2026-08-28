@@ -28,9 +28,9 @@ subsections:
       pdf_page: 62
 statements: 19
 exercises: 7
-content_sha256: 20a04c3c76a8fb7649c034520a683c784ed58c75bb56494f41b988a65fffbafd
+content_sha256: a33bf1371dd04819f76afee0079b4a0975f84517fd416537c2dc559b3590b2d5
 translated_from: content/en/top/I/05_s5_open_mappings_and_closed_mappings.md
-source_content_sha256: 11521c20fdafc2a28ae1fe99f2ad238394f02d44313e71c97ba6893b7ec4f268
+source_content_sha256: 770385711f45d74c8c5f1640b5013319a5b971ac533bc0206d4387875c1ade48
 translation_model: gpt-5.4
 translation_run: translate-vi-c488f15b
 glossary_version: 34
@@ -50,16 +50,16 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Ví dụ 1 {#top-i-s5-n1-exa-1 .statement}
 
-Cho $A$ là một không gian con của một không gian tôpô $X$. Khi đó đơn ánh chính tắc $j : A \to X$ là mở (tương ứng, đóng) nếu và chỉ nếu $A$ là mở (tương ứng, đóng) trong $X$ (\S 3, no. 1).
+Cho $A$ là một không gian con của một không gian tôpô $X$. Khi đó đơn ánh chính tắc $j : A \to X$ là mở (tương ứng, đóng) nếu và chỉ nếu $A$ là mở (tương ứng, đóng) trong $X$ (§ 3, no. 1).
 2) Để một song ánh $f$ từ một không gian tôpô $X$ lên một không gian tôpô $X'$ là một *đồng phôi* thì điều kiện cần và đủ là $f$ *liên tục và mở*, hoặc *liên tục và đóng*.
 
-3) Cho $f$ là một toàn ánh từ một tập hợp $X$ lên một không gian tôpô $X'$; nếu ta trang bị cho $X$ tôpô là ảnh ngược theo $f$ của tôpô của $X'$ (\$ 2, no. 3, Ví dụ 1), thì $f$ là liên tục, mở và đóng.
+3) Cho $f$ là một toàn ánh từ một tập hợp $X$ lên một không gian tôpô $X'$; nếu ta trang bị cho $X$ tôpô là ảnh ngược theo $f$ của tôpô của $X'$ (§ 2, no. 3, Ví dụ 1), thì $f$ là liên tục, mở và đóng.
 
 4) Trong một không gian tích
 $$
 X = \prod_{i \in I} X_i,
 $$
-mỗi phép chiếu $\mathrm{pr}_i : X \to X_i$ là một ánh xạ liên tục và mở, nhưng không nhất thiết là đóng (\$ 4, no. 2, Mệnh đề 5).
+mỗi phép chiếu $\mathrm{pr}_i : X \to X_i$ là một ánh xạ liên tục và mở, nhưng không nhất thiết là đóng (§ 4, no. 2, Mệnh đề 5).
 
 \* 5) Một hàm chỉnh hình trên một tập con mở $A$ của $C$ là một ánh xạ mở từ $A$ vào $C$. \*
 6) Cho $X, X'$ là hai không gian tôpô và $f$ là một song ánh liên tục, nhưng không song liên tục, từ $X$ lên $X'$. Khi đó song ánh ngược $g : X' \to X$ là một ánh xạ mở và đóng từ $X'$ lên $X$, nhưng không liên tục.
@@ -74,7 +74,7 @@ b) *Nếu $g \circ f$ là mở (tương ứng, đóng) và nếu $f$ liên tục
 
 c) *Nếu $g \circ f$ là mở (tương ứng, đóng) và nếu $g$ liên tục và đơn ánh, thì $f$ là mở (tương ứng, đóng).*
 
-Từ Định nghĩa 1, a) suy ra ngay lập tức. Để chứng minh b), chỉ cần nhận xét rằng mọi tập con mở (tương ứng đóng) $A'$ của $X'$ đều có thể viết dưới dạng $f(A)$, trong đó $A = f^{-1}(A')$ là mở (tương ứng đóng) trong $X$ (\$ 2, no. 1, Định lý 1); do đó $g(A') = g(f(A))$ là mở (tương ứng đóng) trong $X''$. Sau hết, để chứng minh c), ta nhận xét rằng $f(A) = g^{-1}(g(f(A)))$ với mọi tập con $A$ của $X$; theo giả thiết, nếu $A$ là mở (tương ứng đóng) trong $X$, thì $g(f(A))$ là mở (tương ứng đóng) trong $X''$, do đó $f(A)$ là mở (tương ứng đóng) trong $X'$ theo \$ 2, no. 1, Định lý 1.
+Từ Định nghĩa 1, a) suy ra ngay lập tức. Để chứng minh b), chỉ cần nhận xét rằng mọi tập con mở (tương ứng đóng) $A'$ của $X'$ đều có thể viết dưới dạng $f(A)$, trong đó $A = f^{-1}(A')$ là mở (tương ứng đóng) trong $X$ (§ 2, no. 1, Định lý 1); do đó $g(A') = g(f(A))$ là mở (tương ứng đóng) trong $X''$. Sau hết, để chứng minh c), ta nhận xét rằng $f(A) = g^{-1}(g(f(A)))$ với mọi tập con $A$ của $X$; theo giả thiết, nếu $A$ là mở (tương ứng đóng) trong $X$, thì $g(f(A))$ là mở (tương ứng đóng) trong $X''$, do đó $f(A)$ là mở (tương ứng đóng) trong $X'$ theo § 2, no. 1, Định lý 1.
 
 #### Mệnh đề 2 {#top-i-s5-prop-2 .statement}
 
@@ -100,7 +100,7 @@ Thật vậy, $f$ rõ ràng là song ánh, và là ánh xạ mở theo Mệnh đ
 
 *Một quan hệ tương đương $R$ trên một không gian tôpô $X$ được gọi là mở (tương ứng, đóng) nếu ánh xạ chính tắc của $X$ lên $X/R$ là mở (tương ứng, đóng).*
 
-Nói như vậy cũng tương đương với việc nói rằng *bão hòa* của mỗi tập con mở (tương ứng, đóng) của $X$ đối với $R$ là mở (tương ứng, đóng) trong $X$ (\S 3, no. 4).
+Nói như vậy cũng tương đương với việc nói rằng *bão hòa* của mỗi tập con mở (tương ứng, đóng) của $X$ đối với $R$ là mở (tương ứng, đóng) trong $X$ (§ 3, no. 4).
 
 #### Ví dụ 1 {#top-i-s5-n2-exa-1 .statement}
 
@@ -120,7 +120,7 @@ $$
 
 #### Ví dụ 2 {#top-i-s5-n2-exa-2 .statement}
 
-Cho $X$ là tổng của một họ $(X_i)$ các không gian con của $X$, và gọi $X/R$ là không gian thu được bằng cách *dán lại* các $X_i$ dọc theo các tập con *mở* $A_{ix}$ nhờ các song ánh $h_{ix}$ (\S 2, no. 5); và giả sử rằng $h_{ix}$ là một *đồng phôi* từ $A_{ix}$ lên $A_{x'}$ với mọi cặp chỉ số $(i, x)$.
+Cho $X$ là tổng của một họ $(X_i)$ các không gian con của $X$, và gọi $X/R$ là không gian thu được bằng cách *dán lại* các $X_i$ dọc theo các tập con *mở* $A_{ix}$ nhờ các song ánh $h_{ix}$ (§ 2, no. 5); và giả sử rằng $h_{ix}$ là một *đồng phôi* từ $A_{ix}$ lên $A_{x'}$ với mọi cặp chỉ số $(i, x)$.
 
 Khi đó quan hệ R là mở. Thật vậy, nếu U mở trong X, thì bão hòa của U là hợp của các $h_{x!}(U \cap A_{ix})$; vì $U \cap A_{ix}$ mở trong $A_{ix}$, nên $h_{x!}(U \cap A_{ix})$ mở trong $A_{ix}$ và do đó trong X.
 
@@ -190,7 +190,7 @@ Lấy phần bù ($§ 1$, no. 6, công thức (2)) ta thấy rằng b) và c) l�
 
 Cho $R$ là một quan hệ tương đương mở trên một không gian tôpô $X$, và gọi $\varphi : X \to X/R$ là ánh xạ chính tắc. Nếu $A$ là một tập con bất kỳ của $X$ bão hòa đối với $R$, thì bao đóng (tương ứng, phần trong) của $\varphi(A)$ trong $X/R$ là $\varphi(\overline{A})$ (tương ứng, $\varphi(\overset{\circ}{A})$).
 
-Mỗi một trong hai mệnh đề khẳng định của mệnh đề đều có thể suy ra từ mệnh đề kia bằng cách lấy phần bù và dùng công thức (2) của § 1, no. 6 cùng với sự kiện là nếu $B$ là một tập con bão hòa của $X$ thì $\varphi(\complement B) = \complement_{\varphi}(B)$. Theo Mệnh đề 6, $\overline{A}$ là bão hòa; do đó $\varphi(\overline{A})$ là đóng trong $X/R$, và vì $A \subset \overline{A}$ nên ta có $\varphi(A) \subset \varphi(\overline{A})$, bởi vậy $\varphi(A) \subset \varphi(\overline{A})$. Nhưng vì $\varphi$ liên tục, nên $\varphi(\overline{A}) \subset \varphi(A)$ (\S 2, no. 1, Định lý 1), và kết quả suy ra.
+Mỗi một trong hai mệnh đề khẳng định của mệnh đề đều có thể suy ra từ mệnh đề kia bằng cách lấy phần bù và dùng công thức (2) của § 1, no. 6 cùng với sự kiện là nếu $B$ là một tập con bão hòa của $X$ thì $\varphi(\complement B) = \complement_{\varphi}(B)$. Theo Mệnh đề 6, $\overline{A}$ là bão hòa; do đó $\varphi(\overline{A})$ là đóng trong $X/R$, và vì $A \subset \overline{A}$ nên ta có $\varphi(A) \subset \varphi(\overline{A})$, bởi vậy $\varphi(A) \subset \varphi(\overline{A})$. Nhưng vì $\varphi$ liên tục, nên $\varphi(\overline{A}) \subset \varphi(A)$ (§ 2, no. 1, Định lý 1), và kết quả suy ra.
 
 #### Mệnh đề 8 {#top-i-s5-prop-8 .statement}
 
@@ -238,7 +238,7 @@ Mệnh đề 10 kéo theo điều sau đây: nếu R là đóng và nếu φ ký
 
 vì nếu $U$ là một lân cận trong $X$ của một lớp tương đương $M$, thì với mỗi $x \in M$ và mỗi lân cận $V \subset U$ của $x$, bão hòa của $V$ chắc chắn là một lân cận của $M$ trong $X$, nhưng lân cận này *không nhất thiết được chứa trong* $U$.
 
-Cuối cùng, có những quan hệ tương đương khác với đẳng thức mà vừa mở vừa đóng (Bài tập 3) và những quan hệ tương đương không mở cũng không đóng ($\S 8$, Bài tập 10).
+Cuối cùng, có những quan hệ tương đương khác với đẳng thức mà vừa mở vừa đóng (Bài tập 3) và những quan hệ tương đương không mở cũng không đóng ($§ 8$, Bài tập 10).
 
 ### Bài tập {#top-i-s5-exercises}
 

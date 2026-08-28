@@ -29,7 +29,7 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: 578267c10123fcc3d07b0471b59c89f82aaafae830bfa33156bb526052bd76d0
+content_sha256: 0ba346951e7ec856945465325b2f054546b3b1d4334f235bfc11d9776cf48c78
 ---
 
 ## 6. ABSOLUTE VALUES
@@ -164,7 +164,7 @@ therefore establish a one-to-one correspondence between ultrametric absolute val
 
 *In care (iii) for $f$ to be an absolute value on $\mathbf{Q}$, it is necessary and sufficient that $0 < s \leq 1$.*
 
-Suppose first that $f(n) \leq 1$ for every integer $n > 0$. By Proposition 3 of no. 2 there exist a real number $b$ and a valuation $v$ on $\mathbf{Q}$ such that $0 < b < 1$ and $f = b^v$. Now, we know (\S 3, no. 4, *Example 4*) that the only valuations on $\mathbf{Q}$ are (up to equivalence) the improper valuation and the $p$-adic valuations $v_p$; we therefore have either case (i) or case (ii).
+Suppose first that $f(n) \leq 1$ for every integer $n > 0$. By Proposition 3 of no. 2 there exist a real number $b$ and a valuation $v$ on $\mathbf{Q}$ such that $0 < b < 1$ and $f = b^v$. Now, we know (§ 3, no. 4, *Example 4*) that the only valuations on $\mathbf{Q}$ are (up to equivalence) the improper valuation and the $p$-adic valuations $v_p$; we therefore have either case (i) or case (ii).
 
 Suppose from now on that there exists an integer $h > 0$ such that $f(h) > 1$; by no. 1, Corollary 2 to Proposition 2, there exists a number $\rho > 0$ such that $f^\rho$ is an absolute value; let us write
 

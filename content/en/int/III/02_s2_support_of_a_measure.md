@@ -33,7 +33,7 @@ subsections:
       pdf_page: 76
 statements: 26
 exercises: 5
-content_sha256: 742b186e2510b4cb080d732e55d0627d911b41a8ad1e76045df65adb4c5281c3
+content_sha256: 7734d12336d925e72881f81d6d32fad0063a3ed5a19a0cac962d4a91f9de9a67
 ---
 
 ## § 2. SUPPORT OF A MEASURE
@@ -62,7 +62,7 @@ However, we have the following proposition:
 
 *Let* $(Y_\alpha)_{\alpha \in A}$ *be an open covering of* $X$ *and suppose given, on each subspace* $Y_\alpha$, *a measure* $\mu_\alpha$, *in such a way that for every pair* $(\alpha, \beta)$, *the restrictions of* $\mu_\alpha$ *and* $\mu_\beta$ *to* $Y_\alpha \cap Y_\beta$ *are identical. Under these conditions, there exists one and only one measure* $\mu$ *on* $X$ *whose restriction to* $Y_\alpha$ *is equal to* $\mu_\alpha$ *for every index* $\alpha$.
 
-Let us first show that every function $f \in \mathcal{K}(X; \mathbf{C})$ may be written in the form of a finite sum $f = \sum_i f_i$ where, for each of the functions $f_i \in \mathcal{K}(X; \mathbf{C})$, there exists an index $\alpha_i$ such that $\operatorname{Supp}(f_i) \subset Y_{\alpha_i}$. If $K = \operatorname{Supp}(f)$, there exists a finite number of indices $\alpha_i$ ($1 \leq i \leq n$) such that the $Y_{\alpha_i}$ form a covering of $K$; let $h_i$ ($1 \leq i \leq n$) be continuous mappings of $X$ into $[0, 1]$ such that the support of $h_i$ is compact and is contained in $Y_{\alpha_i}$ for $1 \leq i \leq n$, and such that $\sum_{i=1}^n h_i(x) = 1$ on $K$ (\S 1, No. 2, Lemma 1); the functions $f_i = f h_i$ meet the requirements. This shows in the first place that if there exists a measure $\mu$ meeting the requirements then it is *unique*, because for every finite sum $f = \sum_{i=1}^n f_i$, where $f_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$, necessarily $\mu(f) = \sum_{i=1}^n \mu_{\alpha_i}(f_i)$. Moreover, we will have shown the existence of a linear form $\mu$ on $\mathcal{K}(X; \mathbf{C})$ whose restriction to each subspace $\mathcal{K}(Y_\alpha; \mathbf{C})$ is $\mu_\alpha$, provided we demonstrate the following property: if $(g_i)_{1 \leq i \leq m}$ and $(h_j)_{1 \leq j \leq n}$ are two finite sequences of functions in $\mathcal{K}(X; \mathbf{C})$ such that $g_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$ for $1 \leq i \leq m$, $h_j \in \mathcal{K}(Y_{\beta_j}; \mathbf{C})$ for $1 \leq j \leq n$ and
+Let us first show that every function $f \in \mathcal{K}(X; \mathbf{C})$ may be written in the form of a finite sum $f = \sum_i f_i$ where, for each of the functions $f_i \in \mathcal{K}(X; \mathbf{C})$, there exists an index $\alpha_i$ such that $\operatorname{Supp}(f_i) \subset Y_{\alpha_i}$. If $K = \operatorname{Supp}(f)$, there exists a finite number of indices $\alpha_i$ ($1 \leq i \leq n$) such that the $Y_{\alpha_i}$ form a covering of $K$; let $h_i$ ($1 \leq i \leq n$) be continuous mappings of $X$ into $[0, 1]$ such that the support of $h_i$ is compact and is contained in $Y_{\alpha_i}$ for $1 \leq i \leq n$, and such that $\sum_{i=1}^n h_i(x) = 1$ on $K$ (§ 1, No. 2, Lemma 1); the functions $f_i = f h_i$ meet the requirements. This shows in the first place that if there exists a measure $\mu$ meeting the requirements then it is *unique*, because for every finite sum $f = \sum_{i=1}^n f_i$, where $f_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$, necessarily $\mu(f) = \sum_{i=1}^n \mu_{\alpha_i}(f_i)$. Moreover, we will have shown the existence of a linear form $\mu$ on $\mathcal{K}(X; \mathbf{C})$ whose restriction to each subspace $\mathcal{K}(Y_\alpha; \mathbf{C})$ is $\mu_\alpha$, provided we demonstrate the following property: if $(g_i)_{1 \leq i \leq m}$ and $(h_j)_{1 \leq j \leq n}$ are two finite sequences of functions in $\mathcal{K}(X; \mathbf{C})$ such that $g_i \in \mathcal{K}(Y_{\alpha_i}; \mathbf{C})$ for $1 \leq i \leq m$, $h_j \in \mathcal{K}(Y_{\beta_j}; \mathbf{C})$ for $1 \leq j \leq n$ and
 $$
 \sum_{i=1}^m g_i(x) = \sum_{j=1}^n h_j(x) = 1
 $$
@@ -104,7 +104,7 @@ To say that a point $x \in X$ does not belong to the support of $\mu$ means that
 — 1) For a measure on $X$ to be *zero*, it is necessary and sufficient that its support be *empty*.
 2) The support of Lebesgue measure on $\mathbf{R}$ is the entire line $\mathbf{R}$; for, it is nonempty and is invariant under every translation.
 
-3) On the interval $X = [0,1]$ of $\mathbf{R}$ consider a countable dense subset, arranged into a sequence $(a_n)$, and let $\mu$ be the measure defined by placing the mass $2^{-n}$ at the point $a_n$ for every $n \geq 0$ (\$1, No. 3, Example I). The support of $\mu$ is all of $X$; for, let $x$ be any point of $X$, $V$ a neighborhood of $x$, and $f$ a continuous real-valued function $\geq 0$ on $X$, equal to 1 at the point $x$, whose support is contained in $V$ (\$1, No. 2, Lemma 1); the set of $y \in V$ such that $f(y) > 0$ is open in $X$, therefore contains a point $a_n$, consequently $\mu(f) \geq f(a_n)2^{-n} > 0$.
+3) On the interval $X = [0,1]$ of $\mathbf{R}$ consider a countable dense subset, arranged into a sequence $(a_n)$, and let $\mu$ be the measure defined by placing the mass $2^{-n}$ at the point $a_n$ for every $n \geq 0$ (§ 1, No. 3, Example I). The support of $\mu$ is all of $X$; for, let $x$ be any point of $X$, $V$ a neighborhood of $x$, and $f$ a continuous real-valued function $\geq 0$ on $X$, equal to 1 at the point $x$, whose support is contained in $V$ (§ 1, No. 2, Lemma 1); the set of $y \in V$ such that $f(y) > 0$ is open in $X$, therefore contains a point $a_n$, consequently $\mu(f) \geq f(a_n)2^{-n} > 0$.
 
 #### Proposition 2 {#int-iii-s2-prop-2 .statement}
 
@@ -156,7 +156,7 @@ By definition, if the support of a function $f \in \mathcal{K}(X; \mathbf{C})$ *
 
 — *Let $\mu$ be a measure on a locally compact space $X$. For every function $f \in \mathcal{K}(X; \mathbf{C})$ that is zero on $\operatorname{Supp}(\mu)$, $\mu(f) = 0$.*
 
-Set $K = \operatorname{Supp}(f)$, $S = \operatorname{Supp}(\mu)$. Given a number $\varepsilon > 0$, let $V$ be the set of $x \in X$ such that $|f(x)| < \varepsilon$; $V$ is an open set containing $S$ by hypothesis, therefore $CS$ is a neighborhood of the compact set $CV$. It follows that there exists a continuous mapping $h$ of $X$ into $[0, 1]$, equal to 1 on $CV$ and with support contained in $CS$ (\S 1, No. 2, Lemma 1). Since the support of $fh$ does not intersect $S$, $\mu(fh) = 0$. On the other hand, $f = fh$ on $K \cap CV$, and $|fh| \leq |f|$ on $X$, therefore $|f - fh| \leq 2\varepsilon$ on $X$, by the choice of $V$. Observe finally that there exists a number $M_K$ such that $|\mu(g)| \leq M_K \|g\|$ for every function $g \in \mathcal{K}(X; \mathbf{C})$ whose support is contained in $K$; since the support of $f - fh$ is contained in $K$, $|\mu(f - fh)| \leq 2M_K \varepsilon$ and consequently $|\mu(f)| = |\mu(f - fh)| \leq 2M_K \varepsilon$; since $\varepsilon$ is arbitrary, $\mu(f) = 0$.
+Set $K = \operatorname{Supp}(f)$, $S = \operatorname{Supp}(\mu)$. Given a number $\varepsilon > 0$, let $V$ be the set of $x \in X$ such that $|f(x)| < \varepsilon$; $V$ is an open set containing $S$ by hypothesis, therefore $CS$ is a neighborhood of the compact set $CV$. It follows that there exists a continuous mapping $h$ of $X$ into $[0, 1]$, equal to 1 on $CV$ and with support contained in $CS$ (§ 1, No. 2, Lemma 1). Since the support of $fh$ does not intersect $S$, $\mu(fh) = 0$. On the other hand, $f = fh$ on $K \cap CV$, and $|fh| \leq |f|$ on $X$, therefore $|f - fh| \leq 2\varepsilon$ on $X$, by the choice of $V$. Observe finally that there exists a number $M_K$ such that $|\mu(g)| \leq M_K \|g\|$ for every function $g \in \mathcal{K}(X; \mathbf{C})$ whose support is contained in $K$; since the support of $f - fh$ is contained in $K$, $|\mu(f - fh)| \leq 2M_K \varepsilon$ and consequently $|\mu(f)| = |\mu(f - fh)| \leq 2M_K \varepsilon$; since $\varepsilon$ is arbitrary, $\mu(f) = 0$.
 
 #### Corollary 1 {#int-iii-s2-prop-8-cor-1 .statement}
 
@@ -178,7 +178,7 @@ $$
 |\mu|(|f|) \leq a|\mu|(h) \leq a\|\mu\|
 $$
 
-by Corollary 2; the conclusion then follows from formula (13) of \S 1, No. 6.
+by Corollary 2; the conclusion then follows from formula (13) of § 1, No. 6.
 
 #### Proposition 9 {#int-iii-s2-prop-9 .statement}
 
@@ -204,7 +204,7 @@ Note that $T$ is contained in the intersection of the support $S$ of $\mu$ and t
 
 — Every measure with compact support is bounded.
 
-For, $|\mu|$ is also a measure with compact support, thus we can restrict attention to the case that $\mu \geq 0$; if $h$ is a continuous mapping of $X$ into $[0, 1]$, with compact support and equal to 1 on $\mathrm{Supp}(\mu)$, then for every function $f \in \mathcal{K}(X; \mathbf{C})$ one has $|f(x)| \leq \|f\| h(x)$ on $\mathrm{Supp}(\mu)$, therefore (Cor. 2 of Prop. 8) $\mu(|f|) \leq \mu(h)\|f\|$, which proves the proposition (\S 1, No. 8).
+For, $|\mu|$ is also a measure with compact support, thus we can restrict attention to the case that $\mu \geq 0$; if $h$ is a continuous mapping of $X$ into $[0, 1]$, with compact support and equal to 1 on $\mathrm{Supp}(\mu)$, then for every function $f \in \mathcal{K}(X; \mathbf{C})$ one has $|f(x)| \leq \|f\| h(x)$ on $\mathrm{Supp}(\mu)$, therefore (Cor. 2 of Prop. 8) $\mu(|f|) \leq \mu(h)\|f\|$, which proves the proposition (§ 1, No. 8).
 
 ### 4. Point measures. Measures with finite support
 
@@ -288,7 +288,7 @@ For, $\operatorname{Supp}(g \cdot \mu) \subset \operatorname{Supp}(\mu)$ by No. 
 
 #### Proposition 14 {#int-iii-s2-prop-14 .statement}
 
-*For a measure $\mu$ on a locally compact space $X$ to be a discrete measure (\S 1, No. 3, Example I), it is necessary and sufficient that $\operatorname{Supp}(\mu)$ be a discrete closed subspace of $X$.*
+*For a measure $\mu$ on a locally compact space $X$ to be a discrete measure (§ 1, No. 3, Example I), it is necessary and sufficient that $\operatorname{Supp}(\mu)$ be a discrete closed subspace of $X$.*
 
 Let $\mu$ be a discrete measure on $X$, defined by the masses $h(x) \neq 0$ placed at the points $x$ of a discrete closed subspace $N$ of $X$; let us show that $\operatorname{Supp}(\mu) = N$. For every $a \in N$ and every neighborhood $V$ of $a$, there exists a function $f \in \mathcal{K}(X; \mathbf{C})$ with support contained in $V$, equal to 1 at the point $a$ and to 0 at the other points of $N$, whence $\mu(f) = h(a) \neq 0$. On the other hand if $b \notin N$ then there exists a neighborhood $W$ of $b$ not intersecting $N$; for every function $g \in \mathcal{K}(X; \mathbf{C})$ with support contained in $W$, we therefore have $\mu(g) = 0$, which proves that $b \notin \operatorname{Supp}(\mu)$.
 

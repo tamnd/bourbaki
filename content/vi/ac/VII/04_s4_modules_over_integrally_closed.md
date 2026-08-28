@@ -53,7 +53,7 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: c7a5110def2d2b4ac1b8f44a8124e28b58061244c2f290ef565f0077196c192f
+content_sha256: 7e9284dfe4ad4092071b447df21b81a469460df5816e7d789ccedfb957c826c9
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
 source_content_sha256: 2b0e46004ec0336ef8389dfa0cd64f75eed1d16406a473ee4d387f8c0fa0eaa6
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -202,11 +202,11 @@ Nếu $p$ là một iđêan nguyên tố, thì Mệnh đề 5 áp dụng với $
 
 *Nếu $M$ là một dàn của $V$, thì* $M^* = \bigcap_{p \in P} M_p^*$.
 
-Rõ ràng $M^*$ được chứa trong mỗi $M_p^*$. Ngược lại, giả sử $x^* \in \bigcap M_p^*$; nếu $x \in M$, thì $\langle x, x^* \rangle \in \bigcap_{p \in P} A_p$ và, vì $A = \bigcap_{p \in P} A_p$ (\S 1, no. 6, Định lý 4), nên $x^* \in M^*$.
+Rõ ràng $M^*$ được chứa trong mỗi $M_p^*$. Ngược lại, giả sử $x^* \in \bigcap M_p^*$; nếu $x \in M$, thì $\langle x, x^* \rangle \in \bigcap_{p \in P} A_p$ và, vì $A = \bigcap_{p \in P} A_p$ (§ 1, no. 6, Định lý 4), nên $x^* \in M^*$.
 
-Áp dụng Định lý 1 cho $M^*$ cho thấy rằng $M^{**} = \bigcap_{p \in P} M_p^{**}$. Nhưng vì $A$, là một miền iđêan chính ($\S 1$, no. **6**, Định lý **4**), $M$, là một $A$-môđun tự do sinh hữu hạn và do đó $M_p^{**}$ được đồng nhất một cách chính tắc với $M$, (*Algebra*, Chương II, $\S 2$, no. **7**, Mệnh đề **14**), do đó suy ra hệ quả.
+Áp dụng Định lý 1 cho $M^*$ cho thấy rằng $M^{**} = \bigcap_{p \in P} M_p^{**}$. Nhưng vì $A$, là một miền iđêan chính ($§ 1$, no. **6**, Định lý **4**), $M$, là một $A$-môđun tự do sinh hữu hạn và do đó $M_p^{**}$ được đồng nhất một cách chính tắc với $M$, (*Algebra*, Chương II, $§ 2$, no. **7**, Mệnh đề **14**), do đó suy ra hệ quả.
 
-Với mọi dàn $M$ đối với $A$, ánh xạ chính tắc $c_M : M \to M^{**}$ (*Algebra*, Chapter 11, $\S 2$, no. **7**) đồng nhất một phần tử $x \in M$ với chính nó, vì $x$ là phần tử duy nhất $y$ của $V = V^{**}$ sao cho $\langle x, x^* \rangle = \langle y, x^* \rangle$ với mọi $x^* \in M^*$, do $M^*$ sinh ra $V^*$. Ta sẽ nói rằng $M$ là *phản xạ* nếu $M^{**} = M$ (*loc. cit.*). Vì ở trên ta có $M^* = (M^*)^{**}$, nên thấy rằng *đối ngẫu* của mọi dàn $M$ luôn luôn là *phản xạ*.
+Với mọi dàn $M$ đối với $A$, ánh xạ chính tắc $c_M : M \to M^{**}$ (*Algebra*, Chapter 11, $§ 2$, no. **7**) đồng nhất một phần tử $x \in M$ với chính nó, vì $x$ là phần tử duy nhất $y$ của $V = V^{**}$ sao cho $\langle x, x^* \rangle = \langle y, x^* \rangle$ với mọi $x^* \in M^*$, do $M^*$ sinh ra $V^*$. Ta sẽ nói rằng $M$ là *phản xạ* nếu $M^{**} = M$ (*loc. cit.*). Vì ở trên ta có $M^* = (M^*)^{**}$, nên thấy rằng *đối ngẫu* của mọi dàn $M$ luôn luôn là *phản xạ*.
 
 *Nhận xét* (1) Cho $M$ là một $A$-môđun sinh hữu hạn; ngay lập tức thấy rằng đối ngẫu $M^*$ của $M$, được đồng nhất với một môđun con-$A$ của $\operatorname{Hom}_A(M, K)$, là một *dàn* của không gian vectơ $K$ $\operatorname{Hom}_A(M, K)$; đặc biệt, mọi $A$-môđun *phản xạ* sinh hữu hạn đều đẳng cấu với một dàn của một không gian vectơ $K$ thích hợp.
 
@@ -231,7 +231,7 @@ $$
 \operatorname{Ass}(M^{**}/M) \subset \operatorname{Ass}(V/M) \subset P.
 $$
 
-Mặt khác, nếu $p \in P$, thì trong chứng minh của Hệ quả của Định lý 1 ta đã thấy rằng $M_p^{**} = M_p$, do đó $p \notin \operatorname{Ass}(M^{**}/M)$ (Chương IV, $\S 1$, no. 3, Hệ quả 1 của Mệnh đề 7). Ta kết luận rằng Ass(M**/M) = ∅, do đó M** = M (Chương IV, § 1, no. 1, Hệ quả 1 của Mệnh đề 2).
+Mặt khác, nếu $p \in P$, thì trong chứng minh của Hệ quả của Định lý 1 ta đã thấy rằng $M_p^{**} = M_p$, do đó $p \notin \operatorname{Ass}(M^{**}/M)$ (Chương IV, $§ 1$, no. 3, Hệ quả 1 của Mệnh đề 7). Ta kết luận rằng Ass(M**/M) = ∅, do đó M** = M (Chương IV, § 1, no. 1, Hệ quả 1 của Mệnh đề 2).
 
 #### Hệ quả {#ac-vii-s4-n2-cor-1 .statement}
 
@@ -363,7 +363,7 @@ Ta giữ ký hiệu và các giả thiết của no. 2. Ta sẽ nói rằng mộ
 
 (ii) *Ngược lại, giả sử đã cho với mọi* $p \in P$ *một dàn* $N(p)$ *của V đối với A, sao cho* $N(p) = M_p$ *với hầu hết* $p \in P$. *Khi đó* $N = \bigcap N(p)$ *là một dàn phản xạ của A đối với A và đó là dàn phản xạ duy nhất* $N'$ *của V đối với A sao cho* $N'_p = N(p)$ *với mọi* $p \in P$.
 
-(i) Khẳng định thứ nhất suy ra từ no. 1, Mệnh đề 4. Hơn nữa, tồn tại $x, y$ trong $\mathbf{K}^*$ sao cho $xN \subset M \subset yN$ (no. 1, Mệnh đề 2); ta biết rằng, với hầu hết $p \in P, v_p(x) = v_p(y) = 0$ ($\S 1$, no. 6, Định lý 4), điều này cho thấy $x$ và $y$ là khả nghịch trong A, và do đó $M_p = N_p$.
+(i) Khẳng định thứ nhất suy ra từ no. 1, Mệnh đề 4. Hơn nữa, tồn tại $x, y$ trong $\mathbf{K}^*$ sao cho $xN \subset M \subset yN$ (no. 1, Mệnh đề 2); ta biết rằng, với hầu hết $p \in P, v_p(x) = v_p(y) = 0$ ($§ 1$, no. 6, Định lý 4), điều này cho thấy $x$ và $y$ là khả nghịch trong A, và do đó $M_p = N_p$.
 
 (ii) Ta có thể thay thế $M$ bằng $x^{-1}M$ với $x \neq 0$ trong $A$ và giả sử rằng $N(p) \subset M$, với mọi $p \in P$. Gọi $p_1, \ldots, p_h$ là các phần tử của $P$ sao cho $N(p) = M$, với $p$ phân biệt với các $p_i$ ($1 \leq i \leq h$); ta viết:
 
@@ -377,7 +377,7 @@ Vì mỗi $N(p_i)$ đều chứa một dàn tự do đối với $A_{p_i}$, nên
 
 *Cho $p$ và $p'$ là hai iđêan nguyên tố của $A$ sao cho (0) là iđêan nguyên tố duy nhất của $A$ được chứa trong $p \cap p'$. Khi đó, với mọi môđun con-A $E$ của $V$, $(E_p)_{p'} = K.E.$*
 
-Đặt $S$ là tập con nhân $(A - p)(A - p')$ của $A$; theo Chương II, $\S 2$, no. 3, Mệnh đề 7, $(E_p)_{p'} = S^{-1}E$. Hơn nữa, $A \subset S^{-1}A \subset K$; các iđêan nguyên tố của $S^{-1}A$ tương ứng với các iđêan nguyên tố $q$ của $A$ sao cho $q \cap S = \varnothing$ (Chương II, $\S 2$, no. 5, Mệnh đề 11) và theo giả thiết thì (0) là iđêan nguyên tố duy nhất của $A$ không cắt $S$; do đó $S^{-1}A = K$ và $S^{-1}E = K.E.$
+Đặt $S$ là tập con nhân $(A - p)(A - p')$ của $A$; theo Chương II, $§ 2$, no. 3, Mệnh đề 7, $(E_p)_{p'} = S^{-1}E$. Hơn nữa, $A \subset S^{-1}A \subset K$; các iđêan nguyên tố của $S^{-1}A$ tương ứng với các iđêan nguyên tố $q$ của $A$ sao cho $q \cap S = \varnothing$ (Chương II, $§ 2$, no. 5, Mệnh đề 11) và theo giả thiết thì (0) là iđêan nguyên tố duy nhất của $A$ không cắt $S$; do đó $S^{-1}A = K$ và $S^{-1}E = K.E.$
 
 Bây giờ ta trở lại chứng minh của (ii). Nếu $p \in P$ phân biệt với các $p_i$ ($1 \leq i \leq h$), thì Bổ đề 1 áp dụng cho $N(p_i)$ cho $((N(p_i))_{p_i})_p = (K.N(p_i))_p = V$, vì $p_i$ và $p$ có chiều cao 1. Khi đó
 
@@ -385,7 +385,7 @@ $$
 Q_p = M_p \cap (N(p_1))_p \cap \cdots \cap (N(p_h))_p = M_p = N(p)
 $$
 
-(Chương II, $\S 2$, no. 4). Mặt khác, nếu $p$ bằng $p_i$ ($1 \leq i \leq h$), thì $(N(p_i))_{p_j} = V$ với $i \neq j$ theo lập luận trên và $(N(p_i))_{p_i} = N(p_i)$, do đó
+(Chương II, $§ 2$, no. 4). Mặt khác, nếu $p$ bằng $p_i$ ($1 \leq i \leq h$), thì $(N(p_i))_{p_j} = V$ với $i \neq j$ theo lập luận trên và $(N(p_i))_{p_i} = N(p_i)$, do đó
 
 $$
 Q_{p_i} = M_{p_i} \cap N(p_i) = N(p_i).
@@ -401,7 +401,7 @@ là phản xạ và thỏa mãn các hệ thức $N_p = Q_p = N(p)$ với mọi 
 
 #### Nhận xét {#ac-vii-s4-n3-rem-1 .statement}
 
-Cho $L$ là một dàn tự do của $V$ đối với $A$. Vì $A$, là một miền iđêan chính đối với $p \in P$, $N(p)$ là một A-môđun tự do có cùng hạng với $L$ và tồn tại $u(p) \in \mathbf{GL}(V)$ sao cho $u(p)(L,) = N;$; hơn nữa điều kiện này xác định $u(p)$ sai khác bởi phép nhân bên phải với một phần tử của $\mathbf{GL}(L_p)$. Điều kiện $N(p) = L$, với hầu hết $p \in P$ có nghĩa là tất yếu $u(p) \in \mathbf{GL}(L_p)$ với hầu hết $p \in P$. Các họ $(u(p))_{p \in P}$ thỏa mãn tính chất sau tạo thành một nhóm nhân $\mathbf{GL}_a(V)$ chứa như một nhóm con tích $\prod_{p \in P} \mathbf{GL}(L_p)$. Khi đó Định lý 3 cho thấy rằng *tập hợp các dàn phản xạ của V tương ứng song ánh chính tắc với không gian thuần nhất* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$. Nếu chọn một cơ sở $(e_i)_{1 \leq i \leq n}$ của L trên A, $\mathbf{GL}(V)$ (tương ứng $\mathbf{GL}(L_p)$) được đồng nhất với nhóm các ma trận khả nghịch $\mathbf{GL}(n, K)$ (tương ứng $\mathbf{GL}(n, A, )$) và nhóm $\mathbf{GL}_a(V)$ với nhóm các hệ ma trận cấp $n$, $(U(p))_{p \in P}$, sao cho $U(p) \in \mathbf{GL}(n, K)$ với mọi $p \in P$ và $U(p) \in \mathbf{GL}(n, A_p)$ với hầu hết $p \in P$. Nếu A là một miền Dedekind, nhóm $\mathbf{GL}_a(V)$ cũng được đồng nhất với nhóm $\mathbf{GL}(n, A)$, trong đó A là vành các adèle hạn chế ($\S 2$, no. 4).
+Cho $L$ là một dàn tự do của $V$ đối với $A$. Vì $A$, là một miền iđêan chính đối với $p \in P$, $N(p)$ là một A-môđun tự do có cùng hạng với $L$ và tồn tại $u(p) \in \mathbf{GL}(V)$ sao cho $u(p)(L,) = N;$; hơn nữa điều kiện này xác định $u(p)$ sai khác bởi phép nhân bên phải với một phần tử của $\mathbf{GL}(L_p)$. Điều kiện $N(p) = L$, với hầu hết $p \in P$ có nghĩa là tất yếu $u(p) \in \mathbf{GL}(L_p)$ với hầu hết $p \in P$. Các họ $(u(p))_{p \in P}$ thỏa mãn tính chất sau tạo thành một nhóm nhân $\mathbf{GL}_a(V)$ chứa như một nhóm con tích $\prod_{p \in P} \mathbf{GL}(L_p)$. Khi đó Định lý 3 cho thấy rằng *tập hợp các dàn phản xạ của V tương ứng song ánh chính tắc với không gian thuần nhất* $\mathbf{GL}_a(V)/\prod_{p \in P} \mathbf{GL}(L_p)$. Nếu chọn một cơ sở $(e_i)_{1 \leq i \leq n}$ của L trên A, $\mathbf{GL}(V)$ (tương ứng $\mathbf{GL}(L_p)$) được đồng nhất với nhóm các ma trận khả nghịch $\mathbf{GL}(n, K)$ (tương ứng $\mathbf{GL}(n, A, )$) và nhóm $\mathbf{GL}_a(V)$ với nhóm các hệ ma trận cấp $n$, $(U(p))_{p \in P}$, sao cho $U(p) \in \mathbf{GL}(n, K)$ với mọi $p \in P$ và $U(p) \in \mathbf{GL}(n, A_p)$ với hầu hết $p \in P$. Nếu A là một miền Dedekind, nhóm $\mathbf{GL}_a(V)$ cũng được đồng nhất với nhóm $\mathbf{GL}(n, A)$, trong đó A là vành các adèle hạn chế ($§ 2$, no. 4).
 
 ### 4. GIẢ ĐẲNG CẤU
 
@@ -412,9 +412,9 @@ Ta giữ các ký hiệu và giả thiết của các số 2 và 3.
 *Cho M là một A-môđun hữu hạn sinh. Các điều kiện sau là tương đương*:
 
 (a) $M_p = 0$ với *mọi iđêan nguyên tố* $p$ có chiều cao $\leq 1$.
-(b) *Linh hóa tử* $a \triangleleft M$ *là một iđêan* $\neq (0)$ *và* $A : a = A$ (*A*: $a$ ký hiệu, như trong $\S 1$, no. 1, *tập hợp các* $x \in K$ *sao cho* $xa \in A$).
+(b) *Linh hóa tử* $a \triangleleft M$ *là một iđêan* $\neq (0)$ *và* $A : a = A$ (*A*: $a$ ký hiệu, như trong $§ 1$, no. 1, *tập hợp các* $x \in K$ *sao cho* $xa \in A$).
 
-Ta biết (Chương II, $\S 2$, no. 2, Hệ quả 2 của Mệnh đề 4) rằng điều kiện $M_p = 0$ tương đương với $a + p$ và do đó tương đương với $aA_p = A$, (Chương II, $\S 2$, no. 5, *Nhận xét*); mặt khác, với mọi iđêan nguyên $b \neq 0$ của A, quan hệ "*$bA_p = A$, với mọi $p \in P$*" tương đương với $\operatorname{div} b = \operatorname{div} A = 0$ trong $D(A)$ ($\S 1$, no. 4, Mệnh đề 7), hoặc cũng tương đương với $\operatorname{div}(A : b) = 0$ và, vì $A : b$ là divisorial ($\S 1$, no. 1, Mệnh đề 1), quan hệ này cũng tương đương với $A : b = A$. Khi đó mệnh đề suy ra bằng cách ghi nhận rằng nói $a \notin p$ với $p = (0)$ có nghĩa là $a \neq (0)$.
+Ta biết (Chương II, $§ 2$, no. 2, Hệ quả 2 của Mệnh đề 4) rằng điều kiện $M_p = 0$ tương đương với $a + p$ và do đó tương đương với $aA_p = A$, (Chương II, $§ 2$, no. 5, *Nhận xét*); mặt khác, với mọi iđêan nguyên $b \neq 0$ của A, quan hệ "*$bA_p = A$, với mọi $p \in P$*" tương đương với $\operatorname{div} b = \operatorname{div} A = 0$ trong $D(A)$ ($§ 1$, no. 4, Mệnh đề 7), hoặc cũng tương đương với $\operatorname{div}(A : b) = 0$ và, vì $A : b$ là divisorial ($§ 1$, no. 1, Mệnh đề 1), quan hệ này cũng tương đương với $A : b = A$. Khi đó mệnh đề suy ra bằng cách ghi nhận rằng nói $a \notin p$ với $p = (0)$ có nghĩa là $a \neq (0)$.
 
 *Nhận xét* (1) Các điều kiện tương đương của Mệnh đề 9 cũng có nghĩa là $\operatorname{Ass}(M)$ không chứa iđêan nguyên tố nào có chiều cao $\leq 1$. *Chúng cũng có thể được diễn giải bằng cách nói rằng* $\operatorname{Supp}(M)$ *có đối chiều* $\geq 2$ *trong* $\operatorname{Spec}(A)$. \*
 
@@ -425,9 +425,9 @@ Ta biết (Chương II, $\S 2$, no. 2, Hệ quả 2 của Mệnh đề 4) rằng
 Định nghĩa này và Mệnh đề 9 cho thấy rằng một A-môđun giả-không là một *A-môđun xoắn*; đảo lại là sai.
 
 *Ví dụ*
-(1) Nếu A là một miền Dedekind, mọi iđêan nguyên tố của A đều có chiều cao $\leq 1$; khi đó nói rằng M là giả-không có nghĩa là $\operatorname{Supp}(M) = \varnothing$ và do đó $M = 0$ (Chương 11, $\S 4$, no. 4).
+(1) Nếu A là một miền Dedekind, mọi iđêan nguyên tố của A đều có chiều cao $\leq 1$; khi đó nói rằng M là giả-không có nghĩa là $\operatorname{Supp}(M) = \varnothing$ và do đó $M = 0$ (Chương 11, $§ 4$, no. 4).
 
-(2) Cho $k$ là trường và $A = k[X, Y]$ là vành đa thức trên $k$ theo hai ẩn số; nếu $m$ là iđêan cực đại $AX + AY$ của $A$, thì A-môđun $A/m$ là giả-không; thật vậy linh hóa tử của nó là $m$ không có chiều cao $\leq 1$ vì nó chứa các iđêan nguyên tố chính $AX$ và $AY$ và phân biệt với chúng; do đó $A : m = A$ (\S 1, no. 6, Hệ quả 1 của Định lý 3).
+(2) Cho $k$ là trường và $A = k[X, Y]$ là vành đa thức trên $k$ theo hai ẩn số; nếu $m$ là iđêan cực đại $AX + AY$ của $A$, thì A-môđun $A/m$ là giả-không; thật vậy linh hóa tử của nó là $m$ không có chiều cao $\leq 1$ vì nó chứa các iđêan nguyên tố chính $AX$ và $AY$ và phân biệt với chúng; do đó $A : m = A$ (§ 1, no. 6, Hệ quả 1 của Định lý 3).
 
 #### Định nghĩa 3 {#ac-vii-s4-def-3 .statement}
 
@@ -435,7 +435,7 @@ Ta biết (Chương II, $\S 2$, no. 2, Hệ quả 2 của Mệnh đề 4) rằng
 
 Một đồng cấu giả-song ánh cũng được gọi là một *giả-đẳng cấu*.
 
-Giả sử rằng $M$ và $N$ sinh hữu hạn; khi đó, để $f : M \to N$ là giả-đơn ánh (resp. giả-toàn ánh, giả-không), điều kiện cần và đủ là, với mọi $p \in P \cup \{\{0\}\}$, $f_p : M_p \to N_p$, là đơn ánh (resp. toàn ánh, không); điều này suy ra từ tính phẳng của A-môđun $A$, (xem Chương I, \S 2, no. 3, *Nhận xét 2*).
+Giả sử rằng $M$ và $N$ sinh hữu hạn; khi đó, để $f : M \to N$ là giả-đơn ánh (resp. giả-toàn ánh, giả-không), điều kiện cần và đủ là, với mọi $p \in P \cup \{\{0\}\}$, $f_p : M_p \to N_p$, là đơn ánh (resp. toàn ánh, không); điều này suy ra từ tính phẳng của A-môđun $A$, (xem Chương I, § 2, no. 3, *Nhận xét 2*).
 
 *Ví dụ (3)* Cho $M$ là một A-môđun không xoắn sinh hữu hạn; khi đó ánh xạ chính tắc $c_M : M \to M^{**}$ từ $M$ vào đối ngẫu kép của nó là một *giả đẳng cấu*. Thật vậy, $M$ được đồng nhất với một dàn của $V = M \otimes_A K$ (no. 1, Mệnh đề 1); ta đã thấy rằng $M_p = M_p^{**}$ với mọi $p \in P$ (no. 2, Ví dụ 2) và, với $p = 0$, $M_p$ và $M_p^{**}$ đều bằng $V$.
 
@@ -453,7 +453,7 @@ Trước hết ta sẽ chứng minh hai bổ đề.
 
 *Cho $(p_i)_{1 \leq i \leq k}$ là một họ hữu hạn khác rỗng các iđêan nguyên tố của $A$ có chiều cao 1 và đặt $S = \bigcap_i (A - p_i)$; khi đó vành $S^{-1}A$ là một miền iđêan chính.*
 
-$S^{-1}A$ là một vành nửa địa phương mà các iđêan cực đại là các $m_i = p_i S^{-1}A$ với $1 \leq i \leq k$, vành địa phương $(S^{-1}A)_{m_i}$ đẳng cấu với $A$, (Chương 11, \S 3, no. 5, Mệnh đề 17) và do đó là một vành định giá rời rạc. Vậy vành $S^{-1}A$ là một miền Dedekind (\S 2, no. 2, Định lý 1 (f)) và, vì nó là nửa địa phương, nó là một miền iđêan chính (\S 2, no. 2, Mệnh đề 1).
+$S^{-1}A$ là một vành nửa địa phương mà các iđêan cực đại là các $m_i = p_i S^{-1}A$ với $1 \leq i \leq k$, vành địa phương $(S^{-1}A)_{m_i}$ đẳng cấu với $A$, (Chương 11, § 3, no. 5, Mệnh đề 17) và do đó là một vành định giá rời rạc. Vậy vành $S^{-1}A$ là một miền Dedekind (§ 2, no. 2, Định lý 1 (f)) và, vì nó là nửa địa phương, nó là một miền iđêan chính (§ 2, no. 2, Mệnh đề 1).
 
 #### Bổ đề 3 {#ac-vii-s4-lem-3 .statement}
 
@@ -501,9 +501,9 @@ Nhận xét (2) Trong mệnh đề của Định lý 5, các môđun $A/p_i^{n_i
 
 ### 5. CÁC ƯỚC GẮN VỚI CÁC MÔĐUN XOẮN
 
-Ta giữ cùng các ký hiệu và giả thiết như trong các số 2, 3 và 4. Nhắc lại rằng $D(A)$ (hay đơn giản là $D$) ký hiệu *nhóm ước* của $A$, viết theo lối cộng: ta biết (\S 1, no. 3, Định lý 2) rằng $D$ là $\mathbf{Z}$-môđun tự do sinh bởi các phần tử của $P$.
+Ta giữ cùng các ký hiệu và giả thiết như trong các số 2, 3 và 4. Nhắc lại rằng $D(A)$ (hay đơn giản là $D$) ký hiệu *nhóm ước* của $A$, viết theo lối cộng: ta biết (§ 1, no. 3, Định lý 2) rằng $D$ là $\mathbf{Z}$-môđun tự do sinh bởi các phần tử của $P$.
 
-Cho $T$ là một $A$-môđun xoắn sinh hữu hạn. Với mọi $p \in P$, $T_p$ là một $A_p$-môđun xoắn sinh hữu hạn và do đó là một môđun có *độ dài hữu hạn* (Chương IV, \S 2, no. 5, Hệ quả 2 của Mệnh đề 7); ta sẽ ký hiệu độ dài này bởi $l_p(T)$. Mặt khác $T_p = 0$ với mọi $p$ không chứa linh hóa tử của $T$ và do đó với hầu hết mọi $p$ (\S 1, no. 6, Định lý 4), điều này biện minh cho định nghĩa sau:
+Cho $T$ là một $A$-môđun xoắn sinh hữu hạn. Với mọi $p \in P$, $T_p$ là một $A_p$-môđun xoắn sinh hữu hạn và do đó là một môđun có *độ dài hữu hạn* (Chương IV, § 2, no. 5, Hệ quả 2 của Mệnh đề 7); ta sẽ ký hiệu độ dài này bởi $l_p(T)$. Mặt khác $T_p = 0$ với mọi $p$ không chứa linh hóa tử của $T$ và do đó với hầu hết mọi $p$ (§ 1, no. 6, Định lý 4), điều này biện minh cho định nghĩa sau:
 
 #### Định nghĩa 4 {#ac-vii-s4-def-4 .statement}
 
@@ -527,13 +527,13 @@ $$
 
 (iii) *Để có $\chi(T) = 0$, điều kiện cần và đủ là $T$ giả-không.*
 
-Xét theo Định nghĩa 4, chỉ cần xét với mỗi $p \in P$ các giá trị của $l_p$ đối với các môđun xoắn đang xét. Khi đó tính chất (i) suy ra từ Chương II, \S 2, no. 4, Định lý 1 và tính cộng được của các độ dài trong một dãy khớp (*Đại số* Chương 11, \S 1, no. 10, Mệnh đề 16) và các tính chất (ii) và (iii) suy ra ngay lập tức từ các định nghĩa trong no. 4.
+Xét theo Định nghĩa 4, chỉ cần xét với mỗi $p \in P$ các giá trị của $l_p$ đối với các môđun xoắn đang xét. Khi đó tính chất (i) suy ra từ Chương II, § 2, no. 4, Định lý 1 và tính cộng được của các độ dài trong một dãy khớp (*Đại số* Chương 11, § 1, no. 10, Mệnh đề 16) và các tính chất (ii) và (iii) suy ra ngay lập tức từ các định nghĩa trong no. 4.
 
 #### Hệ quả {#ac-vii-s4-n5-cor-1 .statement}
 
 *Cho $0 \to T_n \to T_{n-1} \to \ldots \to T_0 \to 0$ là một dãy khớp các $A$-môđun xoắn sinh hữu hạn. Khi đó* $\sum_{i=0}^n (-1)^i \chi(T_i) = 0$.
 
-Xét theo Chương II, \S 2, no. 4, Định lý 1, điều này lại suy ra từ tính chất tương tự của các $l_p$ (*Đại số*, Chương II, \S 1, no. 10, Hệ quả 3 của Mệnh đề 16).
+Xét theo Chương II, § 2, no. 4, Định lý 1, điều này lại suy ra từ tính chất tương tự của các $l_p$ (*Đại số*, Chương II, § 1, no. 10, Hệ quả 3 của Mệnh đề 16).
 
 Nhắc lại (Chương II, § 5, no. 4) rằng ta có thể nói về *tập hợp* $F(A)$ các *lớp của các A-môđun hữu hạn sinh* đối với quan hệ đẳng cấu; với mọi A-môđun hữu hạn sinh M, ký hiệu $\mathrm{cl}(M)$ là phần tử tương ứng của $F(A)$; ta sẽ ký hiệu bởi $T(A)$ tập con của $F(A)$ gồm các lớp của các A-môđun xoắn hữu hạn sinh. Rõ ràng $\chi$ xác định một ánh xạ từ $T(A)$ vào $D(A)$, cũng được ký hiệu bởi $\chi$, sao cho $\chi(\mathrm{cl}(T)) = \chi(T)$.
 
@@ -786,7 +786,7 @@ $$
 0 \to L_n \to L_{n-1} \to \cdots \to L_0 \to a \to 0.
 $$
 
-Theo Mệnh đề 16 (v), $c(a) = 0$ và vì thế, theo Mệnh đề 16 (iv), $\operatorname{div}(a)$ là chính; vì $a$ được giả thiết là ước tính, nó là chính (\S 1, no. 1).
+Theo Mệnh đề 16 (v), $c(a) = 0$ và vì thế, theo Mệnh đề 16 (iv), $\operatorname{div}(a)$ là chính; vì $a$ được giả thiết là ước tính, nó là chính (§ 1, no. 1).
 
 #### Hệ quả 3 {#ac-vii-s4-prop-16-cor-3 .statement}
 
@@ -837,7 +837,7 @@ trong đó $h_x$ là phép nhân bởi x, ta được $\phi(A/xA) = 0$, do đó 
 
 Trong số này, A và B chỉ hai miền nguyên đóng nguyên Noether sao cho $A \subset B$ và B là một A-môđun hữu hạn sinh, còn K và L lần lượt là các trường phân thức của A và B. Ta sẽ viết div$_A$, $\chi_A$, $c_A$, $\gamma_A$, $r_A$ thay cho div, $\chi$, c, y, r tương ứng khi xét các A-môđun, và dùng các ký hiệu tương tự cho các B-môđun.
 
-Ta biết (\S 1, no. 10) rằng để một iđêan nguyên tố $\mathfrak{p}$ của B có chiều cao 1 thì điều kiện cần và đủ là $\mathfrak{p} = \mathfrak{P} \cap A$ có chiều cao 1; hơn nữa (loc. cit., Mệnh đề 14), với $\mathfrak{p} \in P(A)$, chỉ có hữu hạn iđêan nguyên tố $\mathfrak{P} \in P(B)$ nằm trên $\mathfrak{p}$. Để viết gọn, ta sẽ ký hiệu bởi $\mathfrak{P}|_{\mathfrak{p}}$ quan hệ "“$\mathfrak{P}$ nằm trên $\mathfrak{p}$" (nghĩa là $\mathfrak{p} = \mathfrak{P} \cap A$); khi đó ta sẽ ký hiệu bởi $e_{\mathfrak{P}/\mathfrak{p}}$ hoặc $e(\mathfrak{P}/\mathfrak{p})$ chỉ số phân nhánh $e(v_{\mathfrak{P}}/v_{\mathfrak{p}})$ của định giá $v_{\mathfrak{P}}$ trên định giá $v_{\mathfrak{p}}$ (Chương VI, \S 8, no. 1) và bởi $f_{\mathfrak{P}/\mathfrak{p}}$ hoặc $f(\mathfrak{P}/\mathfrak{p})$ bậc thặng dư $f(v_{\mathfrak{P}}/v_{\mathfrak{p}})$ (loc. cit.); nhắc lại rằng các định giá rời rạc $v_{\mathfrak{p}}$ và $v_{\mathfrak{P}}$ đều được chuẩn hóa và $f_{\mathfrak{P}/\mathfrak{p}}$ là bậc của trường phân thức của $B/\mathfrak{P}$ trên trường phân thức của $A/\mathfrak{p}$. Đặt $n = r_A(B)$, trong đó B được coi như một A-môđun; do đó theo định nghĩa $n = [L:K]$ và, với mọi $\mathfrak{p} \in P(A)$, $n$ cũng là hạng của A,-môđun tự do B với mọi $\mathfrak{P}|_{\mathfrak{p}}$. Khi đó suy ra từ Chương VI, \S 8, no. 5, Định lý 2 rằng với mọi $\mathfrak{p} \in P(A)$:
+Ta biết (§ 1, no. 10) rằng để một iđêan nguyên tố $\mathfrak{p}$ của B có chiều cao 1 thì điều kiện cần và đủ là $\mathfrak{p} = \mathfrak{P} \cap A$ có chiều cao 1; hơn nữa (loc. cit., Mệnh đề 14), với $\mathfrak{p} \in P(A)$, chỉ có hữu hạn iđêan nguyên tố $\mathfrak{P} \in P(B)$ nằm trên $\mathfrak{p}$. Để viết gọn, ta sẽ ký hiệu bởi $\mathfrak{P}|_{\mathfrak{p}}$ quan hệ "“$\mathfrak{P}$ nằm trên $\mathfrak{p}$" (nghĩa là $\mathfrak{p} = \mathfrak{P} \cap A$); khi đó ta sẽ ký hiệu bởi $e_{\mathfrak{P}/\mathfrak{p}}$ hoặc $e(\mathfrak{P}/\mathfrak{p})$ chỉ số phân nhánh $e(v_{\mathfrak{P}}/v_{\mathfrak{p}})$ của định giá $v_{\mathfrak{P}}$ trên định giá $v_{\mathfrak{p}}$ (Chương VI, § 8, no. 1) và bởi $f_{\mathfrak{P}/\mathfrak{p}}$ hoặc $f(\mathfrak{P}/\mathfrak{p})$ bậc thặng dư $f(v_{\mathfrak{P}}/v_{\mathfrak{p}})$ (loc. cit.); nhắc lại rằng các định giá rời rạc $v_{\mathfrak{p}}$ và $v_{\mathfrak{P}}$ đều được chuẩn hóa và $f_{\mathfrak{P}/\mathfrak{p}}$ là bậc của trường phân thức của $B/\mathfrak{P}$ trên trường phân thức của $A/\mathfrak{p}$. Đặt $n = r_A(B)$, trong đó B được coi như một A-môđun; do đó theo định nghĩa $n = [L:K]$ và, với mọi $\mathfrak{p} \in P(A)$, $n$ cũng là hạng của A,-môđun tự do B với mọi $\mathfrak{P}|_{\mathfrak{p}}$. Khi đó suy ra từ Chương VI, § 8, no. 5, Định lý 2 rằng với mọi $\mathfrak{p} \in P(A)$:
 
 $$
 \sum_{\mathfrak{P}|_{\mathfrak{p}}} e_{\mathfrak{P}/\mathfrak{p}} f_{\mathfrak{P}/\mathfrak{p}} = n.
@@ -849,7 +849,7 @@ $$
 N(\mathfrak{P}) = f_{\mathfrak{P}/\mathfrak{p}} \cdot \mathfrak{p} \quad \text{với} \quad \mathfrak{P} \in P(B), \quad \text{trong đó} \quad \mathfrak{p} = \mathfrak{P} \cap A.
 $$
 
-Mặt khác (\S 1, no. 10, Mệnh đề 14), ta đã định nghĩa một đồng cấu tăng của các nhóm có thứ tự $i : D(A) \to D(B)$ (cũng ký hiệu là $i_{B/A}$), bởi điều kiện:
+Mặt khác (§ 1, no. 10, Mệnh đề 14), ta đã định nghĩa một đồng cấu tăng của các nhóm có thứ tự $i : D(A) \to D(B)$ (cũng ký hiệu là $i_{B/A}$), bởi điều kiện:
 
 $$
 i(p) = \sum_{\mathfrak{P}|_p} e_{\mathfrak{P}/\mathfrak{p}} \cdot \mathfrak{P} \quad \text{với} \quad p \in P(A).
@@ -868,7 +868,7 @@ Công thức (9) cho thấy rằng:
 
 (14) $$ N \circ i = n . 1_{D(A)} $$
 
-Với mọi $a \in A$ (\S 1, no. 10, Mệnh đề 14):
+Với mọi $a \in A$ (§ 1, no. 10, Mệnh đề 14):
 
 (15) $$ i(\operatorname{div}_A(a)) = \operatorname{div}_B(a). $$
 
@@ -876,7 +876,7 @@ Ta suy ra (nhờ (13)) rằng, với mọi iđêan phân thức $a$ của $A$, c
 
 (16) $$ i(\operatorname{div}_A(a)) = \operatorname{div}_B(aB). $$
 
-Với mọi phần tử $b \in B$, ta biết (Chương V, \S 1, no. 3, Hệ quả của Mệnh đề 11) rằng $N_{L/K}(b) \in A$; hơn nữa (Chương VI, \S 8, no. 5, công thức (9)):
+Với mọi phần tử $b \in B$, ta biết (Chương V, § 1, no. 3, Hệ quả của Mệnh đề 11) rằng $N_{L/K}(b) \in A$; hơn nữa (Chương VI, § 8, no. 5, công thức (9)):
 
 (17) $$ v_p(N_{L/K}(b)) = \sum_{\mathfrak{p}/p} f_{\mathfrak{p}/p} v_{\mathfrak{p}}(b) $$
 
@@ -888,9 +888,9 @@ Các công thức (15) và (18) cho thấy rằng, bằng cách lấy thương, 
 
 $$ N : C(B) \to C(A), \quad i : C(A) \to C(B). $$
 
-Chú ý rằng đồng cấu $i : C(A) \to C(B)$ nói chung không đơn ánh (\S 3, Bài tập 7).
+Chú ý rằng đồng cấu $i : C(A) \to C(B)$ nói chung không đơn ánh (§ 3, Bài tập 7).
 
-Nhắc lại rằng với mọi $B$-môđun $R$, $R_{[A]}$ ký hiệu $A$-môđun thu được từ $R$ bằng cách thu hẹp các vô hướng xuống $A$ (Đại số, Chương 11, \S 1, no. 13).
+Nhắc lại rằng với mọi $B$-môđun $R$, $R_{[A]}$ ký hiệu $A$-môđun thu được từ $R$ bằng cách thu hẹp các vô hướng xuống $A$ (Đại số, Chương 11, § 1, no. 13).
 
 #### Mệnh đề 18 {#ac-vii-s4-prop-18 .statement}
 
@@ -1098,7 +1098,7 @@ Nếu $M$ là phản xạ, thì điều tương tự không nhất thiết còn 
 
 ### 10. MÔĐUN TRÊN CÁC MIỀN DEDEKIND
 
-Bây giờ ta giả sử rằng $A$ là một miền Dedekind; khi đó ta biết rằng các iđêan $p \in P$ là cực đại và chúng là các iđêan nguyên tố duy nhất $\neq 0$ của $A$ ($\S 2$, no. 1 ); nhóm $D(A)$ được đồng nhất với nhóm $I(A)$ các iđêan phân thức $\neq 0$ của $A$.
+Bây giờ ta giả sử rằng $A$ là một miền Dedekind; khi đó ta biết rằng các iđêan $p \in P$ là cực đại và chúng là các iđêan nguyên tố duy nhất $\neq 0$ của $A$ ($§ 2$, no. 1 ); nhóm $D(A)$ được đồng nhất với nhóm $I(A)$ các iđêan phân thức $\neq 0$ của $A$.
 
 #### Mệnh đề 21 {#ac-vii-s4-prop-21 .statement}
 

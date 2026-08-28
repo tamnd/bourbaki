@@ -36,7 +36,7 @@ subsections:
       pdf_page: 42
 statements: 12
 exercises: 5
-content_sha256: ed2b5fec59480c910ce66fa175a3dbf26af384b9d04336dddb45498d40fa3157
+content_sha256: 2080c086bd32da60703b197621d04548a2f018cfbf3337466ee1c03a2e9fddf2
 ---
 
 ## § 4. Filtrations centrales
@@ -307,7 +307,7 @@ On démontre (ii) par récurrence sur $n$; on a $C^1G = G = G_1$; pour $n > 1$, 
 
 Soit $L$ la sous-algèbre de Lie de $\mathrm{gr}(G)$ engendrée par $\mathrm{gr}_1(G)$; montrons que $L \supset \mathrm{gr}_n(G)$ par récurrence sur $n$, l’assertion étant triviale pour $n = 1$. Supposons $n > 1$ et $L \supset \mathrm{gr}_{n-1}(G)$. Comme $C^nG = (G, C^{n-1}G)$, la construction de la loi d’algèbre de Lie sur $\mathrm{gr}(G)$ montre aussitôt que $\mathrm{gr}_n(G) = [\mathrm{gr}_1(G), \mathrm{gr}_{n-1}(G)] \subset L$.
 
-La démonstration précédente montre que la suite centrale descendante de l’algèbre de Lie $\mathrm{gr}(G)$ (\S 2, n° 7) est donnée par
+La démonstration précédente montre que la suite centrale descendante de l’algèbre de Lie $\mathrm{gr}(G)$ (§ 2, n° 7) est donnée par
 $$(29)\quad \mathcal{C}^n(\mathrm{gr}(G)) = \sum_{m \geq n} \mathrm{gr}_m(G).$$
 
 #### Remarque {#lie-ii-s4-n6-rem-1 .statement}

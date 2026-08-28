@@ -57,7 +57,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: c85fd29c8677420694a50ec476a995cb0ce51b281a6e47e438c2218fdbbdd659
+content_sha256: 344a6de3b2a59e1cfb82dd1f659b36634483ae134ebd0e00853505a4e2b06f47
 ---
 
 ## 2. FLAT MODULES(*)
@@ -252,7 +252,7 @@ $$
 T(M') \xrightarrow{T(v)} T(M) \xrightarrow{T(w)} T(M'')
 $$
 
-*is exact.* (\S 1, no. 3.)
+*is exact.* (§ 1, no. 3.)
 
 #### Definition 2 {#ac-i-s2-def-2 .statement}
 
@@ -375,7 +375,7 @@ $$
 H \otimes F = \operatorname{Coker}(l_H \otimes i);
 $$
 
-$w \otimes 1_1$ is surjective (no. 1, Lemma 1); finally, as L is free and hence flat, $v \otimes 1_L$ is injective. Thus the snake diagram (\$ 1, no. 4, Proposition 2, (iii)) can be applied to prove the existence of an exact sequence
+$w \otimes 1_1$ is surjective (no. 1, Lemma 1); finally, as L is free and hence flat, $v \otimes 1_L$ is injective. Thus the snake diagram (§ 1, no. 4, Proposition 2, (iii)) can be applied to prove the existence of an exact sequence
 
 (4) $$ \operatorname{Ker}(l_H \otimes i) \longrightarrow \operatorname{Ker}(l_E \otimes i) \xrightarrow{d} G \otimes F \xrightarrow{v \otimes 1_F} H \otimes F. $$
 

@@ -28,11 +28,11 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: eacf2d58e0d1299e8a2510960638e4336f4bac75f5a3c3c81b3c01db744898a0
+content_sha256: d377fe8e8b62ddb12247032d22e12f921fdb53e65ce67e7cd126d8fc7cc7a270
 translated_from: content/fr/alg/IX/03_s3_formes_hermitiennes_et_formes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 5790df32f2d6f2b4485955da48c6bd0f08570178fcc151d1804e40328b975718
+source_content_sha256: 0bb759b2ee3f2642c3cb5cbb61bbe2b238f671b8a55c5bd0897c6be64264dcf6
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-en-mt-8fe7369c
 glossary_version: 34
@@ -71,7 +71,7 @@ If $\Phi$ is an $\varepsilon$-hermitian form on E, one has $\Phi(x, y) = \vareps
 
 The mapping $(y, x) \to \overline{\Phi(x, y)}$ being sesquilinear for J, in order that $\Phi$ be $\varepsilon$-hermitian, it is necessary and sufficient that one have $\Phi(y, x) = \varepsilon \overline{\Phi(x, y)}$ when $x$ and $y$ run through a system of generators of E. In particular, if E admits a finite basis $(e_i)_{1 \leq i \leq n}$, in order that a sesquilinear form $\Phi$ on E be $\varepsilon$-hermitian, it is necessary and sufficient that its matrix $R = (\rho_{ij}) = (\Phi(e_i, e_j))$ satisfy the relations $\rho_{ji} = \varepsilon \overline{\rho_{ij}}$ whatever $i, j$ may be, that is to say $'R = \varepsilon \overline{R}$ ; a matrix $R$ possessing this property is said to be $\varepsilon$-hermitian. When $\varepsilon = 1$ (resp. $-1$) one says that $R$ is hermitian (resp. antihermitian) relative to the antiautomorphism J. When J is the identity (hence A commutative), a hermitian (resp. antihermitian) matrix $R$ is such that $'R = R$ (resp. $'R = -R$) ; it is then said that $R$ is a symmetric (resp. antisymmetric) matrix. In order that $\Phi$ be an alternating form, it is necessary and sufficient that its matrix be antisymmetric and, in addition, that the diagonal terms of $R$ all be zero; a matrix possessing these properties is said to be alternating.
 
-Let $\Phi$ be a sesquilinear form on $E$, and let $s_\Phi$ and $d_\Phi$ be the mappings of $E$ into $E^*$ associated with $\Phi$ on the left and on the right ($\S 1$, n° 6). In order that $\Phi$ be $\varepsilon$-hermitian, it is necessary and sufficient that $\langle x, s_\Phi(y) \rangle = \bar{\varepsilon} \langle x, d_\Phi(y) \rangle$ for all elements $x, y$ of $E$, hence that $s_\Phi = \bar{\varepsilon} d_\Phi$, or again that $\langle x, d_\Phi(y) \rangle = \varepsilon \langle x, s_\Phi(y) \rangle$, hence that $d_\Phi = \varepsilon s_\Phi$.
+Let $\Phi$ be a sesquilinear form on $E$, and let $s_\Phi$ and $d_\Phi$ be the mappings of $E$ into $E^*$ associated with $\Phi$ on the left and on the right ($§ 1$, n° 6). In order that $\Phi$ be $\varepsilon$-hermitian, it is necessary and sufficient that $\langle x, s_\Phi(y) \rangle = \bar{\varepsilon} \langle x, d_\Phi(y) \rangle$ for all elements $x, y$ of $E$, hence that $s_\Phi = \bar{\varepsilon} d_\Phi$, or again that $\langle x, d_\Phi(y) \rangle = \varepsilon \langle x, s_\Phi(y) \rangle$, hence that $d_\Phi = \varepsilon s_\Phi$.
 
 Let $\Phi$ be an $\varepsilon$-hermitian form such that the mapping $d_\Phi$ of $E$ into $E^*$ associated on the right with $\Phi$ is bijective. For every endomorphism $u$ of $E$ one then has
 $$
@@ -86,7 +86,7 @@ $$
 $$
 hence $u^{**(x)} = \varepsilon \bar{\varepsilon} u(x)$ since $\Phi$ is non-degenerate.
 
-Si $\Phi$ est une forme $\varepsilon$-hermitienne telle que les applications $s_\Phi$ et $d_\Phi$ soient bijectives, alors la *forme inverse* $\widehat{\Phi}$ de $\Phi$ ($\S 1$, No. 7) *est une forme* $\bar{\varepsilon}$-hermitienne. En effet, en posant $s = s_\Phi$, $d = d_\Phi$ pour abréger, on déduit de $d = \varepsilon s$ que $s^{-1} = \bar{\varepsilon} d^{-1}$, $s$ étant semilinear. Par suite, quels que soient $u, v$ dans $E$, on a
+Si $\Phi$ est une forme $\varepsilon$-hermitienne telle que les applications $s_\Phi$ et $d_\Phi$ soient bijectives, alors la *forme inverse* $\widehat{\Phi}$ de $\Phi$ ($§ 1$, No. 7) *est une forme* $\bar{\varepsilon}$-hermitienne. En effet, en posant $s = s_\Phi$, $d = d_\Phi$ pour abréger, on déduit de $d = \varepsilon s$ que $s^{-1} = \bar{\varepsilon} d^{-1}$, $s$ étant semilinear. Par suite, quels que soient $u, v$ dans $E$, on a
 $$
 \widehat{\Phi}(u, v) = \Phi(s^{-1}(u), d^{-1}(v)) = \bar{\varepsilon} \Phi(d^{-1}(u), d^{-1}(v)),
 $$
@@ -96,7 +96,7 @@ $$
 $$
 puisque, $\varepsilon$ est dans le center de $A$.
 
-Enfin, lorsque le ring $A$ est commutative, les prolongements canoniques d’une forme $\varepsilon$-hermitienne $\Phi$ aux puissances tensorielle et extérieure $\bigotimes^p E$ et $\wedge^p E$ de $E$ sont des formes $\varepsilon^p$-hermitiennes, comme il résulte aussitôt des formules (35) et (37) du $\S 1$, No. 9.
+Enfin, lorsque le ring $A$ est commutative, les prolongements canoniques d’une forme $\varepsilon$-hermitienne $\Phi$ aux puissances tensorielle et extérieure $\bigotimes^p E$ et $\wedge^p E$ de $E$ sont des formes $\varepsilon^p$-hermitiennes, comme il résulte aussitôt des formules (35) et (37) du $§ 1$, No. 9.
 
 ### 2. *Modules over a quadratic extension*.
 
@@ -157,7 +157,7 @@ It follows from this that, for a sesquilinear form $\Phi = \Phi_1 + i \Phi_2$ to
 #### Remark 1 {#alg-ix-s3-n3-rem-1 .statement}
 
 The formulas (7) and (8) show that, if $x \in E$, in order that $\Phi(x, x') = 0$ for all $x' \in E'$, it is necessary and sufficient that $\Phi_1(x, x') = 0$ (resp. $\Phi_2(x, x') = 0$) for all $x' \in E'$.
-2) The adjoint of an endomorphism $u$ of $E$ with respect to $\Phi$ ($\S 1$, n° 8) is the same as the adjoint of $u$ (considered as an endomorphism of $E_0$) with respect to $\Phi_1$ (resp. $\Phi_2$).
+2) The adjoint of an endomorphism $u$ of $E$ with respect to $\Phi$ ($§ 1$, n° 8) is the same as the adjoint of $u$ (considered as an endomorphism of $E_0$) with respect to $\Phi_1$ (resp. $\Phi_2$).
 
 ### 4. Quadratic forms.
 

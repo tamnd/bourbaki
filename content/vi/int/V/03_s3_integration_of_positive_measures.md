@@ -37,9 +37,9 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: 11306991b1b7f0dcd6ac0bb13b57ca9f2559ef18b13a0939259151792731d3c3
+content_sha256: c656f57d88839ba969213b3afac5dab45b86c09d324c6e97f8ba77f476b614c1
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
-source_content_sha256: e1261c3f72bc79e2b7cb47c3cf24fb5d5a8d76df9ace5b843b9c4605464b3519
+source_content_sha256: 66a4d2a7bbfc4da3f2fa95c05151924ec8dffdd2326f34d8fc3c79fc8502f6b4
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-56c0243e
 glossary_version: 34
@@ -324,7 +324,7 @@ $$
 $$
 Vì $\int f_n(x)\, d\nu(x)$ tiến tới $\int f(x)\, d\nu(x)$ khi $n$ tiến tới $\infty$, theo các giả thiết đặt ra trên dãy $(f_n)$, quan hệ (11) suy ra và ta đã chứng minh a) (tương ứng b)).
 
-Bây giờ giả sử rằng $\lambda_t^\bullet(1) < +\infty$ địa phương $\mu$-hầu khắp nơi, và rằng $g$ là một hàm $\nu$-khả tích cốt yếu. Gọi $f$ là một hàm $\nu$-khả tích sao cho $g = f$ địa phương $\nu$-hầu khắp nơi (\S1, No. 3). Khi đó $g = f$ hầu khắp nơi đối với $\lambda_t$, trừ các $t$ tạo thành một tập hợp $\mu$-không đáng kể địa phương $P$ (Hệ quả 1 c) của Mệnh đề 3). Do đó $\int g\, d\lambda_t = \int f\, d\lambda_t$ với mọi $t \notin P \cup H$, và điều này hoàn tất chứng minh.
+Bây giờ giả sử rằng $\lambda_t^\bullet(1) < +\infty$ địa phương $\mu$-hầu khắp nơi, và rằng $g$ là một hàm $\nu$-khả tích cốt yếu. Gọi $f$ là một hàm $\nu$-khả tích sao cho $g = f$ địa phương $\nu$-hầu khắp nơi (§ 1, No. 3). Khi đó $g = f$ hầu khắp nơi đối với $\lambda_t$, trừ các $t$ tạo thành một tập hợp $\mu$-không đáng kể địa phương $P$ (Hệ quả 1 c) của Mệnh đề 3). Do đó $\int g\, d\lambda_t = \int f\, d\lambda_t$ với mọi $t \notin P \cup H$, và điều này hoàn tất chứng minh.
 
 #### Nhận xét {#int-v-s3-n3-rem-1 .statement}
 
@@ -412,7 +412,7 @@ b) *Nếu $μ$ và $ν$ thuộc miền của $Λ$, thì $μ + ν$ và $aμ$ cũn
 
 Điều kiện này hiển nhiên là cần thiết. Ngược lại, giả sử điều đó đúng, và cho $f$ là một hàm dương nửa liên tục dưới xác định trên $X$. Hàm $Λf$ là đo được theo mọi độ đo, do đó $μ$-đo được. Ta sẽ chứng minh rằng $⟨μ, Λf⟩ = ⟨μΛ, f⟩$; vì đẳng thức này cũng đúng với mọi độ đo dương $μ' ≤ μ$, do $Λ$ cũng khả tích cốt yếu theo vô hướng đối với $μ'$, nên suy ra rằng $Λ$ là $μ$-thích hợp.
 
-Cho $(\mu_i)_{i∈I}$ là một họ khả tổng các độ đo dương có giá compact, sao cho $μ = ∑_{i∈I} μ_i$ (§2, No. 3, Mệnh đề 4); khi đó họ các độ đo $\mu_i \Lambda$ cũng khả tổng, và $\mu \Lambda = \sum_{i \in I} \mu_i \Lambda$ (No. 1, Hệ quả của Mệnh đề 1). Do đó $\langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle$ (\S 2, No. 2, Mệnh đề 1); nhưng $\Lambda$ là $\mu_i$-thích hợp, nên $\langle \mu_i \Lambda, f \rangle = \langle \mu_i, \Lambda f \rangle$. Áp dụng lại Mệnh đề 1 của \S 2, ta được đẳng thức cần tìm:
+Cho $(\mu_i)_{i∈I}$ là một họ khả tổng các độ đo dương có giá compact, sao cho $μ = ∑_{i∈I} μ_i$ (§2, No. 3, Mệnh đề 4); khi đó họ các độ đo $\mu_i \Lambda$ cũng khả tổng, và $\mu \Lambda = \sum_{i \in I} \mu_i \Lambda$ (No. 1, Hệ quả của Mệnh đề 1). Do đó $\langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle$ (§ 2, No. 2, Mệnh đề 1); nhưng $\Lambda$ là $\mu_i$-thích hợp, nên $\langle \mu_i \Lambda, f \rangle = \langle \mu_i, \Lambda f \rangle$. Áp dụng lại Mệnh đề 1 của § 2, ta được đẳng thức cần tìm:
 
 $$
 \langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i, \Lambda f \rangle = \langle \mu, \Lambda f \rangle .

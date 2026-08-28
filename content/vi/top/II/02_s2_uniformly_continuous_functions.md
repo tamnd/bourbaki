@@ -40,9 +40,9 @@ subsections:
       pdf_page: 186
 statements: 25
 exercises: 6
-content_sha256: 04ab66701ccb5610019ed12d5833e56ab59f0567299ccd1e8af004104138c875
+content_sha256: 9f430eea75591dc27579548ac7368457e638b204ee1ffd360c62d7d25d240f4d
 translated_from: content/en/top/II/02_s2_uniformly_continuous_functions.md
-source_content_sha256: 09273b7b580428a931bd796fe11338d641c3001505f6f56764965ea50a1ca0c1
+source_content_sha256: a1ab910e68e815174c047c6d5847b83dc5cbf4da3a07db2324c22291922910fa
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-88ee14c1
 glossary_version: 34
@@ -118,7 +118,7 @@ Cho $X$ là một tập hợp không rỗng. Với mỗi phân hoạch hữu h�
 $$
 \bigcup_i A_i \times A_i.
 $$
-Khi đó các tập hợp $V_{\overline{\varpi}}$ tạo thành một hệ cơ bản các lân cận của một cấu trúc đều $\mathcal{U}$ trên $X$. Thật vậy, nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ của $X$ thì ta có $\Delta \subset V_{\overline{\varpi}}$ và $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (\S 1, no. 1, Ví dụ 2); và nếu $\varpi' = (B_j)$ và $\varpi'' = (C_k)$ là hai phân hoạch hữu hạn của $X$, thì những tập hợp trong số các tập $B_j \cap C_k$ không rỗng tạo thành một phân hoạch hữu hạn $\varpi$ của $X$, và ta có $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathcal{U}$ được gọi là cấu trúc đều của các phân hoạch hữu hạn trên $X$. Tôpô cảm sinh bởi $\mathcal{U}$ là tôpô rời rạc, vì với mỗi $x \in X$ các tập hợp $\{x\}$ và $C\{x\}$ tạo thành một phân hoạch hữu hạn của $X$. Tuy nhiên, nếu $X$ là vô hạn, thì hiển nhiên $\mathcal{U}$ thô hơn thực sự so với cấu trúc đều rời rạc.
+Khi đó các tập hợp $V_{\overline{\varpi}}$ tạo thành một hệ cơ bản các lân cận của một cấu trúc đều $\mathcal{U}$ trên $X$. Thật vậy, nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ của $X$ thì ta có $\Delta \subset V_{\overline{\varpi}}$ và $V_{\overline{\varpi}} \circ V_{\overline{\varpi}} = \overline{V_{\overline{\varpi}}} = V_{\overline{\varpi}}$ (§ 1, no. 1, Ví dụ 2); và nếu $\varpi' = (B_j)$ và $\varpi'' = (C_k)$ là hai phân hoạch hữu hạn của $X$, thì những tập hợp trong số các tập $B_j \cap C_k$ không rỗng tạo thành một phân hoạch hữu hạn $\varpi$ của $X$, và ta có $V_{\overline{\varpi}} \subset V_{\overline{\varpi'}} \cap V_{\overline{\varpi''}}$. $\mathcal{U}$ được gọi là cấu trúc đều của các phân hoạch hữu hạn trên $X$. Tôpô cảm sinh bởi $\mathcal{U}$ là tôpô rời rạc, vì với mỗi $x \in X$ các tập hợp $\{x\}$ và $C\{x\}$ tạo thành một phân hoạch hữu hạn của $X$. Tuy nhiên, nếu $X$ là vô hạn, thì hiển nhiên $\mathcal{U}$ thô hơn thực sự so với cấu trúc đều rời rạc.
 
 #### Nhận xét 2 {#top-ii-s2-n2-rem-2 .statement}
 
@@ -190,7 +190,7 @@ Cũng suy ra từ Mệnh đề 4 của no. 3 rằng nếu $X$ không rỗng và 
 
 #### Ví dụ {#top-ii-s2-n5-exa-1 .statement}
 
-Nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ $(A_i)_{1 \leq i \leq n}$ của một tập hợp không rỗng $X$, thì tập hợp $V_\varpi = \bigcup_i (A_i \times A_i)$ tự nó tạo thành một hệ cơ sở các entourage của một cấu trúc đều $\mathcal{U}_\varpi$ trên $X$ (\S 1, no. 1, Ví dụ 2); khi đó cấu trúc đều của các phân hoạch hữu hạn trên $X$ (no. 2, Nhận xét 1) là cận trên bé nhất của các cấu trúc đều $\mathcal{U}_\varpi$.
+Nếu $\varpi$ là một phân hoạch hữu hạn bất kỳ $(A_i)_{1 \leq i \leq n}$ của một tập hợp không rỗng $X$, thì tập hợp $V_\varpi = \bigcup_i (A_i \times A_i)$ tự nó tạo thành một hệ cơ sở các entourage của một cấu trúc đều $\mathcal{U}_\varpi$ trên $X$ (§ 1, no. 1, Ví dụ 2); khi đó cấu trúc đều của các phân hoạch hữu hạn trên $X$ (no. 2, Nhận xét 1) là cận trên bé nhất của các cấu trúc đều $\mathcal{U}_\varpi$.
 
 #### Nhận xét {#top-ii-s2-n5-rem-1 .statement}
 

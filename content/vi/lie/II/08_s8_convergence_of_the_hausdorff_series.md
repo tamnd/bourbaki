@@ -28,9 +28,9 @@ subsections:
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: 9d30bbb5b317e009836cffec9d5a50e4299992ed1d7c0e6ff6a43707f344f174
+content_sha256: d77322565b81e513dbfd95ee99e4568c10a4cd6611d45e16b254765ee7137d85
 translated_from: content/en/lie/II/08_s8_convergence_of_the_hausdorff_series.md
-source_content_sha256: 71106fc968153da769e22b3973c71dea5361a186a8c2d139be20dc4b5d4afa1e
+source_content_sha256: dd8b3a4a37711971ee89a625e730b67e3445af5fd7e146dbb08e9a125ac0c3d4
 translation_model: gpt-5.4
 translation_run: translate-vi-dc8f82dd
 glossary_version: 34
@@ -74,7 +74,7 @@ Cho $I = \{ U, V \}$ là một tập hợp gồm hai phần tử và
 $$
 \mathbf{H} = \sum_{r,s \geqslant 0} H_{r,s}(U, V) \in \hat{\mathbf{L}}_{\mathbf{Q}}(I)
 $$
-là chuỗi Hausdorff (\S 6, no. 4, Định nghĩa 1). Cho $\mathbf{Z}_{(p)}$ là vành địa phương của $\mathbf{Z}$ đối với iđêan nguyên tố $(p)$ và $(e_b)_{b \in B}$ là một cơ sở của $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ trên $\mathbf{Z}$ (\S 2, no. 11, Định lý 1). Nó cũng là một cơ sở của $\mathbf{L}_{\mathbf{Q}}(I)$ trên $\mathbf{Q}$.
+là chuỗi Hausdorff (§ 6, no. 4, Định nghĩa 1). Cho $\mathbf{Z}_{(p)}$ là vành địa phương của $\mathbf{Z}$ đối với iđêan nguyên tố $(p)$ và $(e_b)_{b \in B}$ là một cơ sở của $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ trên $\mathbf{Z}$ (§ 2, no. 11, Định lý 1). Nó cũng là một cơ sở của $\mathbf{L}_{\mathbf{Q}}(I)$ trên $\mathbf{Q}$.
 
 #### Mệnh đề 1 {#lie-ii-s8-prop-1 .statement}
 
@@ -149,7 +149,7 @@ Hơn nữa,
 $$
 \| \tilde{e}_b \| \leq 1 \quad \text{với } b \in B.
 $$
-Nói chung hơn, ta chứng minh bằng quy nạp theo $n$ rằng, với mọi alternant $b$ bậc $n$ theo hai bất định U và V (\S 2, no. 6), ta có $\| \tilde{b} \| \leq 1$. Nếu $n = 1$, $\tilde{b}$ là một trong các phép chiếu của $g \times g$ lên $g$ và do đó có chuẩn $\leq 1$; nếu $n > 1$, tồn tại hai alternant $b_1$ và $b_2$ có bậc $< n$ sao cho $b = [b_1, b_2]$. Vì ánh xạ $\gamma : (x, y) \mapsto [x, y]$ từ $g \times g$ vào $g$ là song tuyến tính và có chuẩn $\leq 1$, nên ta có (Đa tạp khả vi và giải tích, R, phụ lục, no. 4)
+Nói chung hơn, ta chứng minh bằng quy nạp theo $n$ rằng, với mọi alternant $b$ bậc $n$ theo hai bất định U và V (§ 2, no. 6), ta có $\| \tilde{b} \| \leq 1$. Nếu $n = 1$, $\tilde{b}$ là một trong các phép chiếu của $g \times g$ lên $g$ và do đó có chuẩn $\leq 1$; nếu $n > 1$, tồn tại hai alternant $b_1$ và $b_2$ có bậc $< n$ sao cho $b = [b_1, b_2]$. Vì ánh xạ $\gamma : (x, y) \mapsto [x, y]$ từ $g \times g$ vào $g$ là song tuyến tính và có chuẩn $\leq 1$, nên ta có (Đa tạp khả vi và giải tích, R, phụ lục, no. 4)
 $$
 \| \tilde{b} \| = \| \gamma \circ (\tilde{b}_1, \tilde{b}_2) \| \leq \| \tilde{b}_1 \| \cdot \| \tilde{b}_2 \| \leq 1.
 $$
@@ -215,7 +215,7 @@ Vì
 $$
 H(H(U, V), W) = H(U, H(V, W))
 $$
-trong $\hat{L}(\{ U, V, W \})$ (\S 6, no. 5, Mệnh đề 4), nên ta có
+trong $\hat{L}(\{ U, V, W \})$ (§ 6, no. 5, Mệnh đề 4), nên ta có
 $$
 \tilde{H} \circ (\tilde{H} \times \mathrm{Id}_g) = \tilde{H} \circ (\mathrm{Id}_g \times \tilde{H})
 $$
