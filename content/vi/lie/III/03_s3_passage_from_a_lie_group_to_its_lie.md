@@ -472,7 +472,7 @@ Nếu $r \geq \infty$, ta thấy rằng tập hợp các hàm lớp $C^\infty$ t
 
 #### Mệnh đề 19 {#lie-iii-s3-prop-19 .statement}
 
-Cho $t \in \mathcal{T}^{(s)}(G)$, với $s \leq r$. Cho $f$ (tương ứng $f'$) là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff $F$ (tương ứng $F'$). Cho $(u, u') \mapsto uu'$$ là một ánh xạ song tuyến tính liên tục từ $F \times F'$ vào một không gian đa chuẩn Hausdorff $F''$, sao cho $ff'$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong $F''$. Cho
+Cho $t \in \mathcal{T}^{(s)}(G)$, với $s \leq r$. Cho $f$ (tương ứng $f'$) là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff $F$ (tương ứng $F'$). Cho $(u, u') \mapsto uu'$ là một ánh xạ song tuyến tính liên tục từ $F \times F'$ vào một không gian đa chuẩn Hausdorff $F''$, sao cho $ff'$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong $F''$. Cho
 $$
 \sum_{i=1}^n t_i \otimes t'_i \text{ là ảnh của } t \text{ trong } \mathcal{T}^{(s)}(G) \otimes \mathcal{T}^{(s)}(G) \text{ dưới đồng tích. Khi đó}
 $$

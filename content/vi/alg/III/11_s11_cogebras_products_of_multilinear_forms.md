@@ -1114,7 +1114,7 @@ $$(u \sqcup x) \sqcap v = u \sqcup (x \sqcap v)$$
 
 với $u, v$ trong $E^{*\mathrm{gr}}$ (II, § 1, no. 14). Với cùng các ký hiệu như trên, vế trái của (54) là $\sum_{i,j} u(z_i)v(y_{ij}')y_{ij}''$ và vế phải là $\sum_{i,k} v(y_i)u(z_{ik}'')z_{ik}'$; đẳng thức của chúng suy ra từ việc chúng là các ảnh tương ứng của vế trái và vế phải của (51) dưới ánh xạ tuyến tính $g$ từ $E \otimes E \otimes E$ vào $E$ sao cho $g(x \otimes y \otimes z) = v(x)u(z)y$.
 
-Do đó ta thấy rằng hai phép toán ngoài hợp thành trên $E$ xác định trên tập hợp này một cấu trúc *(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$*-song môđun*.
+Do đó ta thấy rằng hai phép toán ngoài hợp thành trên $E$ xác định trên tập hợp này một cấu trúc $(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$*-song môđun*.
 
 Khi đối đại số $E$ là *đối giao hoán*, thì $u \sqcup x = x \sqcap u$ với mọi $x \in E$ và $u \in E^{*\mathrm{gr}}$; khi nó là *phản đối giao hoán* (§ 4, no. 9) và $u \in E_p^*$ và $x \in E_q$, ta có thể viết $c(x) = \sum_{0 \leq j \leq q} \left( \sum_i y_{ij} \otimes z_{i, q-j} \right)$ với $y_{ij}$ và $z_{ij}$ trong $E_j$ với mọi $j$ và khi đó theo giả thiết
 

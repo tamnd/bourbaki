@@ -248,7 +248,7 @@ Các kết luận của Th. 2 không nhất thiết còn đúng nếu $F$ không
 
 — *Cho* $(f_n)$ *là một dãy các hàm số (hữu hạn hoặc không)*. *Nếu các* $f_n$ *đo được, thì các hàm* $\sup_n f_n$, $\inf_n f_n$, $\limsup_{n \to \infty} f_n$ *và* $\liminf_{n \to \infty} f_n$ *đều đo được*.
 
-Thật vậy, đường thẳng thực mở rộng $\overline{\mathbf{R}}$, do đồng phôi với một khoảng compact của $\mathbf{R}$, là khả mêtric. Hàm $\sup_n f_n$ là giới hạn từng điểm của dãy tăng các hàm $g_n = \sup(f_1, f_2, \ldots, f_n)$, các hàm này đo được (No. 3, Hệ quả 1 của Định lý 1); tương tự, $\limsup_{n \to \infty} f_n$ là giới hạn từng điểm của dãy giảm các hàm $h_n = \sup_{p \geq 0} f_{n+p}$, trong đó mỗi hàm đều đo được theo điều vừa nói trên. Sau cùng, vì $\inf_n f_n = -\sup(-f_n)$ và $\liminf_{n \to \infty} f_n = -\limsup_{n \to \infty} (-f_n)$$, các hàm này đo được.
+Thật vậy, đường thẳng thực mở rộng $\overline{\mathbf{R}}$, do đồng phôi với một khoảng compact của $\mathbf{R}$, là khả mêtric. Hàm $\sup_n f_n$ là giới hạn từng điểm của dãy tăng các hàm $g_n = \sup(f_1, f_2, \ldots, f_n)$, các hàm này đo được (No. 3, Hệ quả 1 của Định lý 1); tương tự, $\limsup_{n \to \infty} f_n$ là giới hạn từng điểm của dãy giảm các hàm $h_n = \sup_{p \geq 0} f_{n+p}$, trong đó mỗi hàm đều đo được theo điều vừa nói trên. Sau cùng, vì $\inf_n f_n = -\sup(-f_n)$ và $\liminf_{n \to \infty} f_n = -\limsup_{n \to \infty} (-f_n)$, các hàm này đo được.
 
 #### Hệ quả 2 {#int-iv-s5-thm-2-cor-2 .statement}
 
