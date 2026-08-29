@@ -36,7 +36,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: a20fb3e6eba48142d6768a6fa44bbbf5a91641273b0e314224e1b33649cdcf14
+content_sha256: 70b41f4e0959618816afc0363d5324215a447233f0a954a4c83161f076065312
 translated_from: content/fr/ac/X/09_s9_modules_dualisants.md
 source_lang: fr
 translation_method: machine
@@ -634,7 +634,7 @@ Let $a \in A$; if $a\omega$ belong to $\Omega_B$, one has $aB\omega \subset \Ome
 
 If $\operatorname{long}(A/c) = \operatorname{long}(B/A)$, one has $A\omega + \Omega_B = \Omega$. One may suppose that the ideal $c$ is contained in $m_A$ (otherwise $A$ is equal to $B$, hence is a Gorenstein ring). Since $\Omega_B = c\Omega$ is contained in $m_A\Omega$, it follows from Nakayama's lemma that $\omega$ generates $\Omega$. Thus the $A$-module $\Omega$ is monogenous, hence free of rank 1, which means that $A$ is a Gorenstein ring (No. 4, cor. 1 of prop. 7).
 
-D) Let us treat the general case. Let us denote by $A'$ the ring $A[X]$, that is to say (IX, App., No. 2) the local ring of the polynomial ring $A[X]$ at the prime ideal $m_A A[X]$; it is a flat, integral $A$-algebra of dimension 1, whose residue field $\kappa_{A'}$ is identified with $\kappa_A(X)$ and whose field of fractions is identified with $K(X)$ (*loc. cit.*). By the corollary to proposition 5 of No. 3, the $A'$-module $A' \otimes_A \Omega$ is dualizing. Put $B' = A' \otimes_A B$; this is the integral closure of $A'$ in $K(X)$ (V, § 1, No. 3, proposition 13 and No. 5, proposition 16). The conductor $c' = A' : B'$ is equal to $cA'$ (I, § 2, No. 10, formula (11)). For every $A$-module $M$ of finite length, one has $\operatorname{long}_{A'}(A' \otimes_A M) = \operatorname{long}_A(M)$: in fact, since the $A$-algebra $A'$ is flat, it is enough to prove this relation when $M$ is simple, that is to say isomorphic to $\kappa_A$; but in this case $A' \otimes_A \kappa_A$ is identified with $\kappa_{A'}}$, whence our assertion. Thus one has
+D) Let us treat the general case. Let us denote by $A'$ the ring $A[X]$, that is to say (IX, App., No. 2) the local ring of the polynomial ring $A[X]$ at the prime ideal $m_A A[X]$; it is a flat, integral $A$-algebra of dimension 1, whose residue field $\kappa_{A'}$ is identified with $\kappa_A(X)$ and whose field of fractions is identified with $K(X)$ (*loc. cit.*). By the corollary to proposition 5 of No. 3, the $A'$-module $A' \otimes_A \Omega$ is dualizing. Put $B' = A' \otimes_A B$; this is the integral closure of $A'$ in $K(X)$ (V, § 1, No. 3, proposition 13 and No. 5, proposition 16). The conductor $c' = A' : B'$ is equal to $cA'$ (I, § 2, No. 10, formula (11)). For every $A$-module $M$ of finite length, one has $\operatorname{long}_{A'}(A' \otimes_A M) = \operatorname{long}_A(M)$: in fact, since the $A$-algebra $A'$ is flat, it is enough to prove this relation when $M$ is simple, that is to say isomorphic to $\kappa_A$; but in this case $A' \otimes_A \kappa_A$ is identified with $\kappa_{A'}$, whence our assertion. Thus one has
 
 $$
 \operatorname{long}_A(B/c) = \operatorname{long}_{A'}(B'/c') \quad \text{and} \quad \operatorname{long}_A(B/A) = \operatorname{long}_{A'}(B'/A') .

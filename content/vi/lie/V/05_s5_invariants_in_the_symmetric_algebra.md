@@ -32,10 +32,10 @@ subsections:
       pdf_page: 132
 statements: 24
 exercises: 9
-content_sha256: 3653266c38b87cf8a7383229c3e79b7e48d5b301b5f287df511daf1d06b92051
+content_sha256: 6de3600aaa7a7b052f8ece2441df74d182e1ff0ec95849e1cbb25ac26747b4f7
 translated_from: content/en/lie/V/05_s5_invariants_in_the_symmetric_algebra.md
-source_content_sha256: f50c33a45eeffcb4b8b0020b5a8192ce8b9794c14827e47163a2aaaa08bb950f
-translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-mini
+source_content_sha256: 5bb79afffad07c548984011c327f46cee79084bb3100b183fe16d8e2fa8d7da2
+translation_model: gpt-5.4, gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-2e73f674
 glossary_version: 34
 glossary_terms_sha256: cef3ba56df09a563c3d578ead565eca3cb93899f8eae06907451e6895835878e
@@ -46,19 +46,19 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CHUỖI POINCARÉ CỦA CÁC ĐẠI SỐ PHÂN BẬC
 
-Cho K là một vành giao hoán có phần tử đơn vị, không thu gọn về 0. Cho M là một K-môđun phân bậc kiểu $\mathbf{Z}$, và $M_n$ là tập hợp các phần tử thuần nhất của M có bậc n. Giả sử mỗi $M_n$ là tự do và hữu hạn sinh. Khi đó hạng $\mathrm{rk}_K(M_n)$ được xác định với mọi n (Đại số giao hoán, Chương II, § 5, no. 3).
+Cho K là một vành giao hoán có phần tử đơn vị, không quy về 0. Cho M là một K-môđun phân bậc kiểu $\mathbf{Z}$, và $M_n$ là tập hợp các phần tử thuần nhất của M có bậc n. Giả sử rằng mỗi $M_n$ đều tự do và hữu hạn kiểu. Khi đó hạng $\mathrm{rk}_K(M_n)$ được xác định với mọi n (Đại số giao hoán, Chương II, § 5, no. 3).
 
 #### Định nghĩa 1 {#lie-v-s5-def-1 .statement}
 
 *Nếu tồn tại* $n_0 \in \mathbf{Z}$ *sao cho* $M_n = 0$ *với* $n \leq n_0$, *thì chuỗi hình thức* $\sum_{n \geq n_0} \mathrm{rk}_K(M_n) T^n$, *là một phần tử của* $\mathbf{Q}((T))$, *được gọi là chuỗi Poincaré của* M *và được ký hiệu bởi* $P_M(T)$.
 
-Cho $M'$ là một K-môđun phân bậc khác kiểu $\mathbf{Z}$, và $(M'_n)_{n \in \mathbf{Z}}$ là phân bậc của nó. Giả sử $M'_n$ bằng 0 với n nhỏ hơn một số nào đó. Khi đó
+Cho $M'$ là một K-môđun phân bậc khác kiểu $\mathbf{Z}$, và $(M'_n)_{n \in \mathbf{Z}}$ là phân bậc của nó. Giả sử rằng $M'_n$ bằng không với n nhỏ hơn một số nào đó. Khi đó
 
 $$
 P_{M \oplus M'}(T) = P_M(T) + P_{M'}(T)
 $$
 
-và, nếu $M \otimes_K M'$ được trang bị phân bậc tổng (Đại số, Chương II, § 11, no. 5),
+và, nếu $M \otimes_K M'$ được trang bị phân bậc toàn phần (Đại số, Chương II, § 11, no. 5),
 
 $$
 P_{M \otimes M'}(T) = P_M(T) P_{M'}(T).
@@ -66,13 +66,13 @@ $$
 
 #### Mệnh đề 1 {#lie-v-s5-prop-1 .statement}
 
-*Cho* $S = \bigoplus_{n \geq 0} S_n$ *là một K-đại số phân bậc giao hoán với một hệ sinh* $(x_1, x_2, \ldots, x_m)$ *gồm các phần tử thuần nhất và độc lập đại số. Cho* $d_i$ *là bậc của* $x_i$, *và giả sử rằng* $d_i > 0$ *với mọi* i. *Khi đó các* $S_n$ *là tự do và có hạng hữu hạn trên* K, *và*
+*Cho* $S = \bigoplus_{n \geq 0} S_n$ *là một K-đại số giao hoán phân bậc với một hệ sinh* $(x_1, x_2, \ldots, x_m)$ *gồm các phần tử thuần nhất và độc lập đại số. Cho* $d_i$ *là bậc của* $x_i$, *và giả sử rằng* $d_i > 0$ *với mọi* i. *Khi đó các* $S_n$ *đều tự do và có hạng hữu hạn trên* K, *và*
 
 $$
 P_S(T) = \prod_{i=1}^m (1 - T^{d_i})^{-1}.
 $$
 
-Thật vậy, S có thể được đồng nhất với tích tenxơ $K[x_1] \otimes \cdots \otimes K[x_m]$, được trang bị phân bậc tổng. Chuỗi Poincaré của $K[x_i]$ là
+Thật vậy, S có thể được đồng nhất với tích tenxơ $K[x_1] \otimes \cdots \otimes K[x_m]$, được trang bị phân bậc toàn phần. Chuỗi Poincaré của $K[x_i]$ là
 
 $$
 \sum_{n \geq 0} T^{nd_i} = (1 - T^{d_i})^{-1},
@@ -80,17 +80,17 @@ $$
 
 và chỉ cần áp dụng (2).
 
-Dưới các giả thiết của Mđ. 1, ta sẽ nói rằng S là một *đại số đa thức phân bậc trên* K.
+Dưới các giả thiết của Mệnh đề 1, ta sẽ nói rằng S là một *đại số đa thức phân bậc trên* K.
 
 #### Hệ quả {#lie-v-s5-n1-cor-1 .statement}
 
-*Các bậc* $d_i$ *được xác định đến thứ tự bởi* S.
+*Các bậc* $d_i$ *được xác định bởi* S *sai khác thứ tự*.
 
-Thật vậy, nghịch đảo của $P_S(T)$ là đa thức $N(T) = \prod_{i=1}^m (1 - T^{d_i})$, do đó được xác định duy nhất. Nếu q là một số nguyên $\geq 1$ và nếu $\zeta \in \mathbf{C}$ là một nghiệm nguyên thủy bậc q của đơn vị, thì bội số của nghiệm $\zeta$ của $N(T)$ bằng số các $d_i$ là bội của q. Số này bằng 0 với q đủ lớn. Số các $d_i$ bằng q do đó được xác định duy nhất bằng quy nạp lùi.
+Thật vậy, nghịch đảo của $P_S(T)$ là đa thức $N(T) = \prod_{i=1}^m (1 - T^{d_i})$, do đó được xác định duy nhất. Nếu q là một số nguyên $\geq 1$ và nếu $\zeta \in \mathbf{C}$ là một căn nguyên thủy bậc q của đơn vị, thì bội số của nghiệm $\zeta$ của $N(T)$ bằng số các $d_i$ là bội của $q$. Số này bằng không với $q$ đủ lớn. Vậy số các $d_i$ bằng $q$ được xác định duy nhất bằng quy nạp đi xuống.
 
-Các số nguyên $d_i$ được gọi là các bậc đặc trưng của S. Số lượng của chúng bằng bậc siêu việt của S trên K khi K là một trường; trong trường hợp tổng quát, ta cũng sẽ gọi nó là bậc siêu việt của S trên K. Nó là bội số của nghiệm 1 của đa thức $N(T)$.
+Các số nguyên $d_i$ được gọi là các bậc đặc số của S. Số lượng của chúng bằng bậc siêu việt của S trên K khi K là một trường; trong trường hợp tổng quát, ta cũng sẽ gọi nó là bậc siêu việt của S trên K. Đó là bội số của nghiệm 1 của đa thức $N(T)$.
 
-Cho $S = \bigoplus_{n \geq 0} S_n$ là một K-đại số phân bậc giao hoán, và $R = \bigoplus_{n \geq 0} R_n$ là một đại số con phân bậc của S. *Giả sử mỗi* $R_n$ *là tự do và hữu hạn sinh*, và R-môđun S có một cơ sở hữu hạn gồm các phần tử thuần nhất $z_1, z_2, \ldots, z_N$ có các bậc $f_1, f_2, \ldots, f_N$. Khi đó, nếu M ký hiệu K-môđun phân bậc $\sum_{j=1}^N Kz_j$, thì K-môđun phân bậc S đẳng cấu với $R \otimes_K M$, nên mỗi $S_n$ đều tự do và hữu hạn sinh và
+Cho $S = \bigoplus_{n \geq 0} S_n$ là một K-đại số giao hoán phân bậc, và $R = \bigoplus_{n \geq 0} R_n$ là một đại số con phân bậc của S. *Giả sử rằng mỗi $R_n$ đều tự do và hữu hạn kiểu*, và R-môđun S có một cơ sở hữu hạn gồm các phần tử thuần nhất $z_1, z_2, \ldots, z_N$ có các bậc $f_1, f_2, \ldots, f_N$. Khi đó, nếu M ký hiệu K-môđun phân bậc $\sum_{j=1}^N Kz_j$, thì K-môđun phân bậc S đẳng cấu với $R \otimes_K M$, nên mỗi $S_n$ đều tự do và hữu hạn kiểu và
 
 $$
 P_S(T) = P_M(T)P_R(T) = \left( \sum_{j=1}^N T^{f_j} \right) P_R(T).
@@ -98,10 +98,10 @@ $$
 
 #### Mệnh đề 2 {#lie-v-s5-prop-2 .statement}
 
-*Giữ nguyên ký hiệu ở trên và giả sử S và R là các đại số đa thức phân bậc*.
+*Giữ các ký hiệu trên và giả sử rằng S và R là các đại số đa thức phân bậc*.
 
 (i) R và S có cùng bậc siêu việt r trên K.
-(ii) *Cho $p_1, \ldots, p_r$ (tương ứng $q_1, \ldots, q_r$) là các bậc đặc trưng của S (tương ứng của R)*. Khi đó
+(ii) *Cho $p_1, \ldots, p_r$ (tương ứng $q_1, \ldots, q_r$) là các bậc đặc số của S (tương ứng của R)*. Khi đó
 
 $$
 \prod_{i=1}^r (1 - T^{q_i}) = \left( \sum_{j=1}^N T^{f_j} \right) \prod_{i=1}^r (1 - T^{p_i}).
@@ -109,7 +109,7 @@ $$
 
 (iii) $N p_1 p_2 \ldots p_r = q_1 q_2 \ldots q_r$.
 
-Công thức (4) trước hết cho thấy rằng bội số của nghiệm 1 là như nhau trong các đa thức $P_S(T)^{-1}$ và $P_R(T)^{-1}$, và xét (3), chứng minh cả (i) lẫn (ii).
+Công thức (4) trước hết cho thấy rằng bội số của nghiệm 1 là như nhau trong các đa thức $P_S(T)^{-1}$ và $P_R(T)^{-1}$ và, có kể đến (3), chứng minh cả (i) lẫn (ii).
 
 Từ (ii) suy ra rằng
 
@@ -117,7 +117,7 @@ $$
 \prod_{i=1}^r (1 + T + T^2 + \cdots + T^{q_i-1}) = \left( \sum_{j=1}^N T^{f_j} \right) \prod_{i=1}^r (1 + T + T^2 + \cdots + T^{p_i-1}).
 $$
 
-Thay $T = 1$ vào hệ thức này ta được (iii).
+Đặt $T = 1$ trong hệ thức này cho ta (iii).
 
 #### Nhận xét {#lie-v-s5-n1-rem-1 .statement}
 
@@ -127,37 +127,37 @@ $$
 \sum_{i=1}^n d_i X_i \frac{\partial F}{\partial X_i} = mF.
 $$
 
-Thật vậy, hiển nhiên rằng ánh xạ K-tuyến tính D từ S vào S biến mọi phần tử thuần nhất z bậc p thành pz là một đạo hàm của S. Do đó
+Thật vậy, ngay lập tức thấy rằng ánh xạ K-tuyến tính D từ S vào S biến mỗi phần tử thuần nhất z bậc p thành pz là một đạo hàm của S. Do đó
 
 $$
 mF(X_1, \ldots, X_n) = D(F(X_1, \ldots, X_n)) = \sum_{i=1}^n D(X_i) \frac{\partial F}{\partial X_i} = \sum_{i=1}^n d_i X_i \frac{\partial F}{\partial X_i}.
 $$
 
-### 2. CÁC PHẦN TỬ BẤT BIẾN CỦA MỘT NHÓM TUYẾN TÍNH HỮU HẠN: CÁC TÍNH CHẤT MÔĐUN
+### 2. CÁC PHẦN TỬ BẤT BIẾN CỦA MỘT NHÓM TUYẾN TÍNH HỮU HẠN: CÁC TÍNH CHẤT MODULAR
 
-Cho K là một vành giao hoán, V là một K-môđun, và G là một nhóm tác động trên V. Ta biết rằng mọi tự đẳng cấu của V mở rộng duy nhất thành một tự đẳng cấu của đại số đối xứng $S = S(V)$, và do đó G tác động trên đại số này. Nếu $x \in S$ và $g \in G$, ta ký hiệu $g_S.x$ là biến đổi của $x$ bởi $g$. Cho R là đại số con $S^G$ của S gồm các phần tử bất biến dưới tác động của G.
+Cho K là một vành giao hoán, V một K-môđun, và G một nhóm tác động trên V. Ta biết rằng mọi tự đẳng cấu của V mở rộng duy nhất thành một tự đẳng cấu của đại số đối xứng $S = S(V)$, và do đó G tác động trên đại số này. Nếu $x \in S$ và $g \in G$, ta ký hiệu bởi $g_S.x$ biến đổi của $x$ bởi $g$. Cho R là đại số con $S^G$ của S gồm các phần tử bất biến dưới G.
 
-Giả sử rằng G là hữu hạn, V có kiểu hữu hạn, và K là Noether. Khi đó S là một R-môđun có kiểu hữu hạn, và R là một K-đại số có kiểu hữu hạn (Đại số giao hoán, Chap. V, §1, no. 9, Định lý 2). Giả sử rằng S là nguyên và cho N là trường phân thức của nó. Trường phân thức L của R là tập hợp các phần tử của N bất biến dưới G (loc. cit., Hệ quả của Mệnh đề 23), do đó N là một mở rộng Galois của L. Mọi phần tử của N có thể được viết $z/t$ với $z \in S$ và $t \in R$ (loc. cit., Mệnh đề 23). Theo Đại số, Chap. II, §7, no. 10, Hệ quả 3 của Mệnh đề 26, hạng của R-môđun S là $[N : L]$. Giả sử rằng G tác động trung thành trên V. Nhóm Galois của N trên L khi đó có thể được đồng nhất với G, do đó $[N : L] = \mathrm{Card}\, G$; vậy nên
+Giả sử rằng G là hữu hạn, V là kiểu hữu hạn, và K là Noether. Khi đó S là một R-môđun kiểu hữu hạn, và R là một đại số trên K kiểu hữu hạn (Đại số giao hoán, Chap. V, §1, no. 9, Định lý 2). Giả sử rằng S là nguyên và cho N là trường phân thức của nó. Trường phân thức L của R là tập hợp các phần tử của N bất biến dưới G (loc. cit., Hệ quả của Mệnh đề 23), nên N là một mở rộng Galois của L. Mọi phần tử của N đều có thể viết dưới dạng $z/t$ với $z \in S$ và $t \in R$ (loc. cit., Mệnh đề 23). Theo Đại số, Chap. II, §7, no. 10, Hệ quả 3 của Mệnh đề 26, hạng của R-môđun S là $[N : L]$. Giả sử rằng G tác động trung thành trên V. Khi đó nhóm Galois của N trên L có thể được đồng nhất với G, nên $[N : L] = \mathrm{Card}\, G$; do đó
 
 $$
 \mathrm{rk}_R(S) = [N : L] = \mathrm{Card}(G).
 $$
 
-Với mọi đại số phân bậc $A = A_0 \oplus A_1 \oplus \cdots \oplus A_n \oplus \cdots$, ký hiệu $A_+$ là iđêan $\bigoplus_{n > 0} A_n$.
+Đối với mọi đại số phân bậc $A = A_0 \oplus A_1 \oplus \cdots \oplus A_n \oplus \cdots$, ký hiệu bởi $A_+$ iđêan $\bigoplus_{n > 0} A_n$.
 
 #### Định lý 1 {#lie-v-s5-thm-1 .statement}
 
-*Cho K là một trường giao hoán, V là một không gian vectơ hữu hạn chiều trên K, S = S(V) là đại số đối xứng của V, G là một nhóm hữu hạn các tự đẳng cấu của V, và R là đại số con phân bậc của S gồm các phần tử bất biến dưới tác động của G. Giả sử rằng G được sinh bởi các phản xạ giả (§ 2, no. 1) và rằng $q = \mathrm{Card}(G)$ nguyên tố cùng nhau với đặc số của K. Khi đó R-môđun S có một cơ sở gồm q phần tử thuần nhất.*
+*Cho K là một trường giao hoán, V một không gian vectơ hữu hạn chiều trên K, S = S(V) đại số đối xứng của V, G một nhóm hữu hạn các tự đẳng cấu của V, và R đại số con phân bậc của S gồm các phần tử bất biến dưới G. Giả sử rằng G được sinh bởi các giả phản xạ (§ 2, no. 1) và rằng $q = \mathrm{Card}(G)$ nguyên tố cùng nhau với đặc số của K. Khi đó R-môđun S có một cơ sở gồm q phần tử thuần nhất.*
 
-a) Vì mọi môđun con của $S/(R_+S)$ đều tự do trên $R_0 = K$, nên chỉ cần chứng minh (theo Đại số, Chap. II, §11, no. 4, Mệnh đề 7) rằng đồng cấu chính tắc từ $R_+ \otimes_R S$ vào S là đơn ánh. Với mọi R-môđun E, ký hiệu T(E) là R-môđun $\mathrm{Ker}(R_+ \otimes_R E \to E)$ (*nói cách khác, $T(E) = \mathrm{Tor}_1^R(R/R_+, E)_*$). Nếu E, $E'$ là hai R-môđun và $u$ là một đồng cấu từ E vào $E'$, đồng cấu $1 \otimes u$ từ $R_+ \otimes E$ vào $R_+ \otimes E'$ xác định bởi hạn chế lên T(E) một đồng cấu từ T(E) vào T($E'$) mà ta ký hiệu là $T(u)$. Nếu $u'$ là một đồng cấu từ $E'$ vào một R-môđun $E''$, ta có $T(u' \circ u) = T(u') \circ T(u)$. Do đó, nếu G tác động R-tuyến tính trên E, thì G tác động trên T(E).
+a) Vì mọi môđun con của $S/(R_+S)$ đều tự do trên $R_0 = K$, nên chỉ cần chứng minh (chiếu theo Đại số, Chap. II, §11, no. 4, Mệnh đề 7) rằng đồng cấu chính tắc từ $R_+ \otimes_R S$ vào S là đơn ánh. Đối với mọi R-môđun E, ký hiệu bởi T(E) R-môđun $\mathrm{Ker}(R_+ \otimes_R E \to E)$ (*nói cách khác, $T(E) = \mathrm{Tor}_1^R(R/R_+, E)_*$). Nếu E, $E'$ là hai R-môđun và $u$ là một đồng cấu từ E đến $E'$, thì đồng cấu $1 \otimes u$ từ $R_+ \otimes E$ đến $R_+ \otimes E'$ xác định, bằng cách hạn chế lên T(E), một đồng cấu từ T(E) đến T($E'$) mà ta ký hiệu là $T(u)$. Nếu $u'$ là một đồng cấu từ $E'$ đến một R-môđun $E''$, ta có $T(u' \circ u) = T(u') \circ T(u)$. Do đó, nếu G tác động R-tuyến tính trên E, thì G tác động trên T(E).
 
-b) Nhóm G tác động R-tuyến tính trên S, và do đó cũng trên T(S). Hơn nữa, T(S) có một cấu trúc tự nhiên của S-môđun phân bậc. Trước hết ta chứng minh rằng, nếu $g \in G$, thì $g$ biến mọi phần tử $x$ của T(S) thành một phần tử đồng dư với $x$ modulo $S_1 T(S)$. Chỉ cần thực hiện điều này khi $g$ là một phản xạ giả. Khi đó tồn tại một vectơ khác không $v$ trong V sao cho $g(x) - x \in K v$ với mọi $x \in V$. Vì V sinh ra S, suy ra rằng $g_S$ tác động tầm thường trên $S/Sv$. Do đó, với mọi $y \in S$, tồn tại một phần tử $h(y)$ trong S sao cho
+b) Nhóm G tác động R-tuyến tính trên S, và do đó cũng tác động trên T(S). Hơn nữa, T(S) có một cấu trúc tự nhiên của S-môđun phân bậc. Trước hết ta chỉ ra rằng, nếu $g \in G$, thì $g$ biến mọi phần tử $x$ của T(S) thành một phần tử đồng dư với $x$ modulo $S_1 T(S)$. Chỉ cần làm điều này khi $g$ là một giả phản xạ. Khi đó tồn tại một vectơ khác không $v$ trong V sao cho $g(x) - x \in K v$ với mọi $x \in V$. Vì V sinh ra S, suy ra $g_S$ tác động tầm thường trên $S/Sv$. Do đó, với mọi $y \in S$, tồn tại một phần tử $h(y)$ của S sao cho
 
 $$
 g_S(y) - y = h(y)v.
 $$
 
-Vì S là nguyên và $v$ khác không, phần tử này được xác định duy nhất bởi $y$; hiển nhiên rằng $h$ là một tự đồng cấu bậc – 1 của R-môđun S. Do đó, $g_S - 1_S = m_v \circ h$, trong đó $m_v$ ký hiệu phép vị tự với tỉ số $v$ trong S. Vì vậy,
+Vì S là nguyên và $v$ khác không, phần tử này được xác định duy nhất bởi $y$; ngay lập tức thấy rằng $h$ là một tự đồng cấu bậc – 1 của R-môđun S. Do đó, $g_S - 1_S = m_v \circ h$, trong đó $m_v$ ký hiệu phép vị tự tỉ số $v$ trong S. Vậy,
 
 $$
 T(g_S) - 1_{T(S)} = T(g_S - 1_S) = T(m_v) \circ T(h),
@@ -213,11 +213,11 @@ Giả thiết đặt ra về các $k_i$ là thừa, nhưng không quan trọng �
 
 #### Bổ đề 1 {#lie-v-s5-lem-1 .statement}
 
-Cho K là một trường giao hoán, S là một đại số đa thức phân bậc trên K, và R là một đại số con phân bậc của S hữu hạn kiểu sao cho R-môđun S có một cơ sở $(z_\lambda)_{\lambda \in \Lambda}$ gồm các phần tử thuần nhất. Trong tập các hệ sinh của iđêan $R_+$ của R gồm các phần tử thuần nhất, hãy chọn một hệ tối tiểu $(\alpha_1, \ldots, \alpha_s)$. Giả sử rằng, với mọi i, bậc $k_i$ của $\alpha_i$ nguyên tố cùng nhau với số mũ đặc số p của K. Khi đó các $\alpha_i$ sinh đại số R trên K và độc lập đại số trên K.
+Cho K là một trường giao hoán, S là một đại số trên K phân bậc của các đa thức, và R là một đại số con phân bậc của S, kiểu hữu hạn, sao cho R-môđun S có một cơ sở $(z_\lambda)_{\lambda \in \Lambda}$ gồm các phần tử thuần nhất. Trong tập hợp các hệ sinh của iđêan $R_+$ của R gồm các phần tử thuần nhất, chọn một phần tử cực tiểu $(\alpha_1, \ldots, \alpha_s)$. Giả sử rằng, với mọi i, bậc $k_i$ của $\alpha_i$ nguyên tố cùng nhau với số mũ đặc số p của K. Khi đó các $\alpha_i$ sinh đại số trên K R và độc lập đại số trên K.
 
-Theo Đại số, Chương II, § 11, no. 4, Mệnh đề 7, giả thiết đặt lên các $\alpha_i$ tương đương với việc nói rằng chúng là các phần tử thuần nhất và các ảnh của chúng trong không gian vectơ trên K $R_+/ (R_+)^2$ tạo thành một cơ sở của không gian này. Điều kiện này bất biến qua mở rộng của trường cơ sở; do đó ta có thể rút gọn về trường hợp trường cơ sở ấy là hoàn hảo.
+Theo Algebra, Chap. II, § 11, no. 4, Prop. 7, giả thiết đặt trên các $\alpha_i$ là tương đương với việc nói rằng chúng thuần nhất và các ảnh của chúng trong không gian vectơ trên K $R_+/ (R_+)^2$ lập thành một cơ sở của không gian này. Điều kiện này là bất biến dưới phép mở rộng trường cơ sở; do đó ta có thể rút gọn về trường hợp trường sau là hoàn hảo.
 
-Họ $(\alpha_1, \ldots, \alpha_s)$ sinh đại số R theo Đại số giao hoán, Chương III, § 1, no. 2, Mệnh đề 1. Ta chứng minh bằng phản chứng và giả sử rằng họ này không độc lập đại số trên K.
+Họ $(\alpha_1, \ldots, \alpha_s)$ sinh đại số R theo Commutative Algebra, Chap. III, § 1, no. 2, Prop. 1. Ta sẽ chứng minh bằng phản chứng và giả sử rằng họ này không độc lập đại số trên K.
 
 1) Trước hết ta chỉ ra rằng tồn tại các họ
 
@@ -225,32 +225,32 @@ $$
 (\beta_i)_{1 \leq i \leq s}, \quad (y_k)_{1 \leq k \leq r}, \quad (d_{ik})_{1 \leq i \leq s, 1 \leq k \leq r}
 $$
 
-gồm các phần tử thuần nhất của S với các tính chất sau:
+gồm các phần tử thuần nhất của S có các tính chất sau:
 
 $$
 \begin{align*}
-&\beta_i \in R \text{ với mọi } i, \text{ và các } \beta_i \text{ không phải đều bằng không;} \\
-&\deg y_k > 0 \text{ với mọi } k; \\
-&\alpha_i = \sum_{k=1}^r d_{ik} y_k \text{ với mọi } i; \\
-&\sum_{i=1}^s \beta_i d_{ik} = 0 \text{ với mọi } k.
+&\beta_i \in R \text{ for all } i, \text{ and the } \beta_i \text{ are not all zero;} \\
+&\deg y_k > 0 \text{ for all } k; \\
+&\alpha_i = \sum_{k=1}^r d_{ik} y_k \text{ for all } i; \\
+&\sum_{i=1}^s \beta_i d_{ik} = 0 \text{ for all } k.
 \end{align*}
 $$
 
-Cho $X_1, \ldots, X_s$ là các ẩn và cho $K[X_1, \ldots, X_s]$ mang cấu trúc đại số phân bậc sao cho $X_i$ có bậc $k_i$. Tồn tại các phần tử thuần nhất khác không $H(X_1, \ldots, X_s)$ của $K[X_1, \ldots, X_s]$ sao cho $H(\alpha_1, \ldots, \alpha_s) = 0$; chọn H sao cho có bậc nhỏ nhất. Nếu $\partial H / \partial X_i \neq 0$, đa thức $\frac{\partial H}{\partial X_i}(\alpha_1, \ldots, \alpha_s)$ là một phần tử thuần nhất khác không của R; nếu $p \neq 1$, H không có dạng $H_1^p$ với $H_1 \in K[X_1, \ldots, X_s]$. Đặt
+Gọi $X_1, \ldots, X_s$ là các ẩn và trang bị cho $K[X_1, \ldots, X_s]$ cấu trúc đại số phân bậc mà theo đó $X_i$ có bậc $k_i$. Tồn tại các phần tử thuần nhất khác không $H(X_1, \ldots, X_s)$ của $K[X_1, \ldots, X_s]$ sao cho $H(\alpha_1, \ldots, \alpha_s) = 0$; chọn H có bậc nhỏ nhất. Nếu $\partial H / \partial X_i \neq 0$, thì đa thức $\frac{\partial H}{\partial X_i}(\alpha_1, \ldots, \alpha_s)$ là một phần tử thuần nhất khác không của R; nếu $p \neq 1$, thì H không có dạng $H_1^p$ với $H_1 \in K[X_1, \ldots, X_s]$. Đặt
 
 $$
 \beta_i = k_i \frac{\partial H}{\partial X_i}(\alpha_1, \ldots, \alpha_s).
 $$
 
-Vì K là hoàn hảo, các đa thức $\partial H / \partial X_i \in K[X_1, \ldots, X_s]$ không phải đều bằng không (Đại số, Chương V, § 1, no. 3, Mệnh đề 4); theo giả thiết đặt lên các $k_i$, các $\beta_i$ cũng không phải đều bằng không.
+Vì K là hoàn hảo, các đa thức $\partial H / \partial X_i \in K[X_1, \ldots, X_s]$ không đồng thời bằng không (Algebra, Chap. V, § 1, no. 3, Prop. 4); theo giả thiết đặt trên các $k_i$, các $\beta_i$ cũng vậy.
 
-Mặt khác, S có thể được đồng nhất với một đại số đa thức phân bậc $K[x_1, \ldots, x_r]$ ứng với các ẩn $x_1, \ldots, x_r$ thích hợp với các bậc $m_i > 0$ thích hợp. Lấy $D_k$ là đạo hàm riêng theo $x_k$ trên S. Đặt d_{ik} = k_i^{-1} D_k(\alpha_i). Khi đó đẳng thức (10) đúng vì vế trái của nó là $D_k(H(\alpha_1, \ldots, \alpha_s))$. Mặt khác, nếu ta đặt $y_1 = m_1 x_1, \ldots, y_r = m_r x_r$, đẳng thức (9) suy ra từ đẳng thức (5) của mục 1.
+Mặt khác, S có thể được đồng nhất với một đại số phân bậc các đa thức $K[x_1, \ldots, x_r]$ với những ẩn thích hợp $x_1, \ldots, x_r$ có các bậc thích hợp $m_i > 0$. Gọi $D_k$ là đạo hàm riêng theo $x_k$ trên S. Đặt d_{ik} = k_i^{-1} D_k(\alpha_i). Khi đó đẳng thức (10) đúng vì vế trái của nó là $D_k(H(\alpha_1, \ldots, \alpha_s))$. Mặt khác, nếu ta đặt $y_1 = m_1 x_1, \ldots, y_r = m_r x_r$, thì đẳng thức (9) suy ra từ đẳng thức (5) của no. 1.
 
-2) Gọi $b$ là iđêan của R sinh bởi các $\beta_i$; tồn tại một tập con $J$ của
+2) Gọi $b$ là iđêan của $R$ sinh bởi các $\beta_i$; tồn tại một tập con $J$ của
 $$
 I = \{1, 2, \ldots, s\}
 $$
-sao cho $(\beta_i)_{i \in J}$ là một hệ sinh tối tiểu của $b$. Khi đó $J \neq \varnothing$ vì $b \neq 0$. Từ (9) và (10) ta suy ra rằng, nếu $i \in J$, thì $\alpha_i$ là một tổ hợp tuyến tính trên R của các $\alpha_j$ với $j \neq i$, điều này sẽ mâu thuẫn với tính tối tiểu của $(\alpha_1, \ldots, \alpha_s)$ và sẽ hoàn tất chứng minh.
+sao cho $(\beta_i)_{i \in J}$ là một hệ sinh cực tiểu của $b$. Khi đó $J \neq \varnothing$ vì $b \neq 0$. Ta sẽ suy ra từ (9) và (10) rằng, nếu $i \in J$, thì $\alpha_i$ là một tổ hợp tuyến tính trên $R$ của các $\alpha_j$ với $j \neq i$, điều này sẽ mâu thuẫn với tính cực tiểu của $(\alpha_1, \ldots, \alpha_s)$ và sẽ hoàn thành chứng minh.
 
 Có các phần tử thuần nhất $\gamma_{ji}$ của $R$ ($i \in J, j \in I - J$) sao cho
 $$
@@ -404,16 +404,16 @@ với mọi $g \in G$.
 Cho H là tập hợp các siêu phản xạ thuộc G và khác 1. Với mọi $g \in H$, tồn tại $e_g \in V$ và $f_g \in V^*$ sao cho
 
 $$
-g(x) = x + f_g(x)e_g \quad \text{cho mọi } x \in V.
+g(x) = x + f_g(x)e_g \quad \text{với mọi } x \in V.
 $$
 
 #### Mệnh đề 5 {#lie-v-s5-prop-5 .statement}
 
-(i) Cho D là phần tử $\prod_{g \in H} e_g$ của S. Các phần tử của S phản bất biến dưới G là các phần tử của RD.
+(i) Gọi D là phần tử $\prod_{g \in H} e_g$ của S. Các phần tử của S phản biến dưới G là các phần tử của RD.
 
-(ii) Đồng nhất S với đại số đa thức $K[X_1, \ldots, X_l]$ bằng cách chọn một cơ sở $(X_1, \ldots, X_l)$ của V, và cho $(P_1, \ldots, P_l)$ là các phần tử thuần nhất độc lập đại số của S sinh đại số R (Định lý 3). Khi đó định thức Jacobi $J = \det \left( \frac{\partial P_i}{\partial X_j} \right)$ có dạng $\lambda D$, với $\lambda \in K^*$.
+(ii) Đồng nhất S với đại số đa thức $K[X_1, \ldots, X_l]$ bằng cách chọn một cơ sở $(X_1, \ldots, X_l)$ của V, và gọi $(P_1, \ldots, P_l)$ là các phần tử thuần nhất độc lập đại số của S sinh ra đại số R (Định lý 3). Khi đó jacobi $J = \det \left( \frac{\partial P_i}{\partial X_j} \right)$ có dạng $\lambda D$, trong đó $\lambda \in K^*$.
 
-a) Với ký hiệu ở (ii), ta có
+a) Với ký hiệu trong (ii), ta có
 
 $$
 dP_1 \wedge dP_2 \wedge \ldots \wedge dP_l = J \, dX_1 \wedge dX_2 \wedge \ldots \wedge dX_l,
@@ -428,62 +428,62 @@ $$
 = g(dP_1 \wedge \ldots \wedge dP_l) = dP_1 \wedge \ldots \wedge dP_l = J \, dX_1 \wedge \ldots \wedge dX_l,
 $$
 
-do đó J phản bất biến dưới G. Mặt khác, trường phân thức N của S là một mở rộng Galois của trường phân thức E của R (no. 2); nếu $\Delta$ là một đạo hàm của E với giá trị trong một trường mở rộng $\Omega$ của N, thì $\Delta$ kéo dài thành một đạo hàm của N với giá trị trong $\Omega$ (Đại số, Chương V, § 16, no. 4, Định lý 3); vì các $P_i$ độc lập đại số, suy ra $dP_1 \wedge \ldots \wedge dP_l \neq 0$, nên $J \neq 0$.
+do đó J phản biến dưới G. Mặt khác, trường phân thức N của S là một mở rộng Galois của trường phân thức E của R (no. 2); nếu $\Delta$ là một đạo hàm của E nhận giá trị trong một trường mở rộng $\Omega$ của N, thì $\Delta$ kéo dài thành một đạo hàm của N nhận giá trị trong $\Omega$ (Đại số, Ch. V, § 16, no. 4, Định lý 3); vì các $P_i$ độc lập đại số, suy ra $dP_1 \wedge \ldots \wedge dP_l \neq 0$, do đó $J \neq 0$.
 
-b) Cho z là một phần tử của S phản bất biến dưới G. Ta chứng minh rằng z chia hết cho D trong S. Cho a là một vectơ khác không trong V. Các phần tử của G để Ka ổn định cũng để một siêu phẳng bù L ổn định (Phụ lục, Mệnh đề 2); một phần tử của G để Ka ổn định là 1 hoặc một phản xạ giả với vectơ a khi và chỉ khi nó cảm sinh 1 trên L; các phản xạ giả với vectơ a thuộc G do đó cùng với 1 tạo thành một nhóm con chu kỳ $G'$ của G; cho t là cấp của nó. Tồn tại một cơ sở $(X_1, \ldots, X_l)$ của V sao cho $a = X_1$, $X_2 \in L, \ldots, X_l \in L$, và z có thể được đồng nhất với một đa thức $P(X_1, \ldots, X_l)$ với các hệ số trong K. Từ $g(z) = (\det g)^{-1} z$ với $g \in G'$, ta thấy rằng $X_1$ chỉ xuất hiện trong $P(X_1, \ldots, X_l)$ với các số mũ đồng dư với -1 theo modulo t. Do đó, $P(X_1, \ldots, X_l)$ chia hết cho $X_1^{t-1} = a^{t-1}$. Bây giờ D là, đến một thừa số vô hướng, tích của các $a^{t-1}$ đối với những $a \in V$ sao cho $t > 1$, và các phần tử này của S đôi một nguyên tố cùng nhau. Vì S là nguyên, z chia hết cho D.
+b) Gọi z là một phần tử của S phản biến dưới G. Ta chứng minh rằng z chia được cho D trong S. Gọi a là một vectơ khác không trong V. Các phần tử của G làm cho Ka ổn định thì cũng làm ổn định một siêu phẳng bù L (Phụ lục, Mệnh đề 2); một phần tử của G làm cho Ka ổn định là 1 hoặc là một giả-phản xạ với vectơ a khi và chỉ khi nó cảm sinh 1 trên L; do đó các giả-phản xạ với vectơ a thuộc G lập thành, cùng với 1, một nhóm con cyclic $G'$ của G; gọi t là cấp của nó. Tồn tại một cơ sở $(X_1, \ldots, X_l)$ của V sao cho $a = X_1$, $X_2 \in L, \ldots, X_l \in L$, và z có thể được đồng nhất với một đa thức $P(X_1, \ldots, X_l)$ với hệ số trong K. Từ $g(z) = (\det g)^{-1} z$ với $g \in G'$, ta thấy rằng $X_1$ chỉ xuất hiện trong $P(X_1, \ldots, X_l)$ với các số mũ đồng dư với -1 modulo t. Vì thế, $P(X_1, \ldots, X_l)$ chia được cho $X_1^{t-1} = a^{t-1}$. Khi đó D, sai khác bởi một nhân tử vô hướng, là tích của các $a^{t-1}$ với những $a \in V$ sao cho $t > 1$, và các phần tử này của S đôi một nguyên tố cùng nhau. Vì S là phân tích được duy nhất, z chia được cho D.
 
-c) Nhờ a) và b), J chia hết cho D trong S. Bây giờ
+c) Theo a) và b), J chia được cho D trong S. Bây giờ
 
 $$
 \deg J = \sum_{i=1}^l (k_i - 1) = \operatorname{Card}(H)
 $$
 
-(Định lý 3), nên $\deg J = \deg D$, do đó $J = \lambda D$ với $\lambda \in K$. Vì $J \neq 0, \lambda \in K^*$. Điều này chứng minh (ii).
+(Mệnh đề 3), nên $\deg J = \deg D$, do đó $J = \lambda D$ với $\lambda \in K$. Vì $J \neq 0, \lambda \in K^*$. Điều này chứng minh (ii).
 
-d) Các phần a) và c) của chứng minh cho thấy D phản bất biến dưới G. Tiếp theo, nếu $y \in R$, thì hiển nhiên $yD$ phản bất biến dưới G. Cuối cùng, nếu $z \in S$ phản bất biến dưới G, ta đã thấy trong b) rằng tồn tại $y \in S$ sao cho $z = yD$. Vì S là nguyên, $y \in R$. Điều này chứng minh (i).
+d) Các phần a) và c) của chứng minh cho thấy rằng D phản biến dưới G. Tiếp theo, nếu $y \in R$, hiển nhiên $yD$ phản biến dưới G. Cuối cùng, nếu $z \in S$ phản biến dưới G, ta đã thấy ở b) rằng tồn tại $y \in S$ sao cho $z = yD$. Vì S là nguyên, $y \in R$. Điều này chứng minh (i).
 
-### *5. BỔ TÚC*
+### \*5. BỔ SUNG*
 
 #### Bổ đề 4 {#lie-v-s5-lem-4 .statement}
 
-Cho K là một trường giao hoán, V là một không gian vectơ hữu hạn chiều trên K, G là một nhóm hữu hạn các tự đẳng cấu của V có cấp q khả nghịch trong K, S là đại số đối xứng của V, và R là đại số con của S gồm các phần tử bất biến dưới G. Một iđêan nguyên tố B của S có chiều cao 1 là phân nhánh trên $p = B \cap R$ (Đại số giao hoán) khi và chỉ khi tồn tại một phần tử a khác không của V và một phần tử f khác không của $V^*$ sao cho $B = Sa$ và phản xạ giả $s_{a,f}$ thuộc G. Nhóm phân tích $G^Z(B)$ là nhóm con gồm các phần tử của G để Ka ổn định, và nhóm quán tính $G^T(B)$ là nhóm con chu kỳ $H_a$ của G gồm các phản xạ giả của G với vectơ a. Trường thặng dư $S(B)$ của S tại B là tách được trên trường thặng dư $R(p)$ của R tại p, và chỉ số phân nhánh $e(B/p)$, bằng hệ số của B, tăng thêm 1, trong ước $\operatorname{div}(D_{S/R})$ của khác biệt, bằng $\operatorname{Card}(H_a)$.
+Cho K là một trường giao hoán, V là một không gian vectơ hữu hạn chiều trên K, G là một nhóm hữu hạn các tự đẳng cấu của V có cấp q khả nghịch trong K, S là đại số đối xứng của V, và R là đại số con của S gồm các phần tử bất biến dưới G. Một iđêan nguyên tố B có chiều cao 1 của S phân nhánh trên $p = B \cap R$ (Đại số giao hoán) khi và chỉ khi tồn tại một phần tử a khác không của V và một phần tử f khác không của $V^*$ sao cho $B = Sa$ và giả-phản xạ $s_{a,f}$ thuộc G. Nhóm phân tích $G^Z(B)$ khi đó là nhóm con các phần tử của G làm cho Ka ổn định, và nhóm quán tính $G^T(B)$ là nhóm con cyclic $H_a$ của G gồm các giả-phản xạ của G với vectơ a. Trường thặng dư S(B) của S tại B là tách được trên trường thặng dư $R(p)$ của R tại p, và chỉ số phân nhánh $e(B/p)$, bằng hệ số của B tăng thêm 1 trong ước $\operatorname{div}(D_{S/R})$ của biệt thức, bằng $\operatorname{Card}(H_a)$.
 
-Để nói rằng B bị phân nhánh trên R có nghĩa là nhóm quán tính $G^T(B)$ của nó không rút gọn thành phần tử đồng nhất, nói cách khác tồn tại $g \neq 1$ trong G sao cho $g(z) \equiv z \pmod{B}$ với mọi $z \in S$. Vì S là một vành phân tích duy nhất, B là một iđêan chính Sa, và a phải chia hết mọi phần tử $g(z) - z$ ($z \in S$); còn với $z \in V$, các phần tử này thuần nhất bậc 1 và đều khác 0 (vì $g \neq 1$); do đó, a phải thuần nhất bậc 1, nói cách khác $a \in V$. Khi đó tồn tại một dạng tuyến tính f trên V sao cho $g = s_{a,f}$. Ngược lại, nếu g là một giả phản xạ $s_{a,f}$ khác 1, thì $g(z) \equiv z \pmod{Sa}$ với mọi $z \in S$, nên g thuộc nhóm quán tính của iđêan nguyên tố $B = Sa$. Điều này chứng minh mệnh đề đầu tiên của bổ đề và các đặc trưng của $G^Z(B)$ và $G^T(B)$. Vì q nguyên tố cùng nhau với đặc số p của K (cũng là đặc số của S(B)), phần mở rộng S(B) của $R(p)$ là tách được (Đại số giao hoán, Chương V, § 2, no. 2, Hệ quả của Mệnh đề 5). Đẳng thức $e(B/p) = \operatorname{Card}(H_a)$ suy ra từ đó (Đại số giao hoán). Vì $e(B/p)$ nguyên tố cùng nhau với p, hệ số của B trong $\operatorname{div}(D_{S/R})$ là $e(B/p) - 1$ (Đại số giao hoán). Điều này chứng minh bổ đề.
+Nói rằng B phân nhánh trên R nghĩa là nhóm quán tính của nó $G^T(B)$ không thu về đồng nhất, nói cách khác, tồn tại $g \neq 1$ trong G sao cho $g(z) \equiv z \pmod{B}$ với mọi $z \in S$. Vì S là một vành giai thừa, B là một iđêan chính Sa, và a phải chia hết mọi phần tử $g(z) - z$ ($z \in S$); mà với $z \in V$, các phần tử này thuần nhất bậc 1 và đều khác không (vì $g \neq 1$); do đó, a phải thuần nhất bậc 1, nói cách khác $a \in V$. Khi đó tồn tại một dạng tuyến tính f trên V sao cho $g = s_{a,f}$. Ngược lại, nếu g là một giả phản xạ $s_{a,f}$ khác 1, thì $g(z) \equiv z \pmod{Sa}$ với mọi $z \in S$, nên g thuộc nhóm quán tính của iđêan nguyên tố $B = Sa$. Điều này chứng minh mệnh đề thứ nhất của bổ đề và các đặc trưng của $G^Z(B)$ và $G^T(B)$. Vì q nguyên tố cùng nhau với đặc số p của K (cũng là đặc số của S(B)), nên mở rộng S(B) của $R(p)$ là tách được (Đại số giao hoán, Chương V, § 2, no. 2, Hệ quả của Mệnh đề 5). Từ đó suy ra đẳng thức $e(B/p) = \operatorname{Card}(H_a)$ (Đại số giao hoán). Vì $e(B/p)$ nguyên tố cùng nhau với p, hệ số của B trong $\operatorname{div}(D_{S/R})$ là $e(B/p) - 1$ (Đại số giao hoán). Điều này chứng minh bổ đề.
 
 #### Bổ đề 5 {#lie-v-s5-lem-5 .statement}
 
-Cho K là một trường giao hoán, S một đại số đa thức phân bậc trên K, và R một đại số con phân bậc của S. Khi đó S là một môđun R-tự do phân bậc (Đại số, Chương II, § 11, no. 2) nếu và chỉ nếu hai điều kiện sau được thỏa mãn:
+Cho K là một trường giao hoán, S là một đại số đa thức phân bậc trên K, và R là một đại số con phân bậc của S. Khi đó S là một R-môđun phân bậc tự do (Đại số, Chương II, § 11, no. 2) nếu và chỉ nếu thỏa mãn hai điều kiện sau:
 a) R là một đại số đa thức phân bậc trên K;
 b) nếu $(\alpha_1, \ldots, \alpha_s)$ là một hệ sinh của K-đại số R gồm các phần tử thuần nhất độc lập đại số, thì hệ này là một dãy S-chính quy.
 
-4 Ở số này, chúng tôi dùng các kết quả từ những chương đang soạn trong cuốn Đại số giao hoán. Chúng tôi ký hiệu chúng bằng biểu tượng "Đại số giao hoán".
-5 Điều đó có nghĩa là, với mọi $i \in \{1, 2, \ldots, s\}$, ảnh chính tắc của $\alpha_i$ trong vành
+4 Trong số này, chúng tôi sử dụng các kết quả từ những chương đang được chuẩn bị trong cuốn Đại số giao hoán. Chúng tôi chỉ ra chúng bằng ký hiệu "Commutative Algebra".
+5 Điều này có nghĩa là, với mọi $i \in \{1, 2, \ldots, s\}$, ảnh chính tắc của $\alpha_i$ trong vành
 $$
 S/(S\alpha_1 + \cdots + S\alpha_{i-1})
 $$
-không là ước của không trong vành này.
+không phải là một ước của không trong vành này.
 
-Khi S là một R-môđun hữu hạn sinh, b) là hệ quả của a).
+Khi S là một R-môđun hữu hạn sinh, b) là một hệ quả của a).
 
 Xem Đại số giao hoán để có chứng minh.
 
 #### Định lý 4 {#lie-v-s5-thm-4 .statement}
 
-Cho K là một trường giao hoán, V một không gian vectơ hữu hạn chiều trên K, S là đại số đối xứng của V, G là một nhóm hữu hạn các tự đẳng cấu của V, và R là đại số con của S gồm các phần tử bất biến dưới G. Giả sử rằng q = Card G khả nghịch trong K. Các điều kiện sau là tương đương:
+Cho K là một trường giao hoán, V là một không gian vectơ hữu hạn chiều trên K, S là đại số đối xứng của V, G là một nhóm hữu hạn các tự đẳng cấu của V, và R là đại số con của S gồm các phần tử bất biến dưới G. Giả sử q = Card G khả nghịch trong K. Các điều kiện sau là tương đương:
 
 (i) G được sinh bởi các giả phản xạ;
-(ii) S là một môđun R-tự do phân bậc;
+(ii) S là một R-môđun phân bậc tự do;
 (iii) R là một đại số đa thức phân bậc trên K.
 
-Sự tương đương của (ii) và (iii) suy ra từ no. 2 và Bổ đề 5. Hàm ý (i) $\Longrightarrow$ (ii) suy ra từ Định lý 1.
+Tính tương đương của (ii) và (iii) suy ra từ no. 2 và Bổ đề 5. Kéo theo (i) $\Longrightarrow$ (ii) suy ra từ Định lý 1.
 
-Ta chứng minh rằng (iii) $\Longrightarrow$ (i). Cho G' là nhóm con của G được sinh bởi các giả phản xạ thuộc G, và cho R' là đại số con của S gồm các phần tử bất biến dưới G'. Ta có R $\subset$ R' $\subset$ S. Theo Bổ đề 4, div(D_{S/R}) = div(D_{S/R'}), nên div(D_{R'/R}) = 0. Giả sử khi đó R là một đại số đa thức phân bậc. Vì điều này cũng đúng với R' (do G' được sinh bởi các giả phản xạ), Bổ đề 5 cho thấy môđun R' trên R có một cơ sở thuần nhất $(Q_1, ..., Q_m)$; đặt $q_i = \deg(Q_i)$. Đặt
+Ta chứng minh rằng (iii) $\Longrightarrow$ (i). Gọi G' là nhóm con của G được sinh bởi các giả phản xạ thuộc G, và gọi R' là đại số con của S gồm các phần tử bất biến dưới G'. Ta có R $\subset$ R' $\subset$ S. Theo Bổ đề 4, div(D_{S/R}) = div(D_{S/R'}), nên div(D_{R'/R}) = 0. Khi đó giả sử R là một đại số đa thức phân bậc. Vì điều này cũng đúng với R' (do G' được sinh bởi các giả phản xạ), Bổ đề 5 cho thấy R-môđun R' có một cơ sở thuần nhất $(Q_1, ..., Q_m)$; đặt q_i = deg(Q_i). Đặt
 
 $$
 d = \det(\operatorname{Tr}_{R'/R}(Q_i Q_j)), \text{ xem Đại số, Chương IX, } § 2.
 $$
 
-Việc div(D_{R'/R}) bằng 0 cho thấy div(d) = 0 (Đại số giao hoán), nghĩa là d thuộc K*. Mặt khác $\operatorname{Tr}_{R'/R}(Q_i Q_j)$ là một phần tử thuần nhất bậc q_i + q_j, và d là thuần nhất bậc $2 \sum_i q_i$. Do đó, $\sum_i q_i = 0$, tức là $q_i = 0$ với mọi i, nghĩa là R' = R, và suy ra G' = G theo lý thuyết Galois. Điều này chứng minh rằng G được sinh bởi các giả phản xạ. Q.E.D.
+Việc div(D_{R'/R}) bằng không cho thấy div(d) = 0 (Đại số giao hoán), nghĩa là d thuộc K*. Mặt khác \operatorname{Tr}_{R'/R}(Q_i Q_j) là một phần tử thuần nhất bậc q_i + q_j, và d thuần nhất bậc $2 \sum_i q_i$. Do đó, $\sum_i q_i = 0$, tức là $q_i = 0$ với mọi i, điều đó có nghĩa là R' = R, và vì thế G' = G theo lý thuyết Galois. Điều này chứng minh rằng G được sinh bởi các giả phản xạ. Q.E.D.
 
 #### Nhận xét 1 {#lie-v-s5-n5-rem-1 .statement}
 
@@ -491,26 +491,26 @@ Dưới các giả thiết của Định lý 4, tích các bậc đặc trưng c
 
 #### Nhận xét 2 {#lie-v-s5-n5-rem-2 .statement}
 
-Nếu không giả thiết rằng Card(G) khả nghịch trong K, ta vẫn có các hàm ý (ii) $\Longleftrightarrow$ (iii) (xem Bổ đề 5) và (ii) $\Longrightarrow$ (i) (xem Bài tập 8); nhưng hàm ý (i) $\Longrightarrow$ (ii) không còn đúng (Bài tập 9).
+Nếu ta không giả sử rằng Card(G) khả nghịch trong K, ta vẫn có các kéo theo (ii) $\Longleftrightarrow$ (iii) (x. Bổ đề 5) và (ii) $\Longrightarrow$ (i) (x. Bài tập 8); nhưng kéo theo (i) $\Longrightarrow$ (ii) không còn đúng nữa (Bài tập 9).
 
 #### Mệnh đề 6 {#lie-v-s5-prop-6 .statement}
 
-Các giả thiết và ký hiệu là của Định lý 4. Cho H là tập hợp các giả phản xạ thuộc G và khác 1. Giả sử H sinh G. Với mọi g $\in$ G, đặt $g(x) = x + f_g(x)e_g$ với $e_g \in V$, $f_g \in V^*$. Đặt
+Các giả thiết và ký hiệu là các giả thiết và ký hiệu của Định lý 4. Gọi H là tập hợp các giả phản xạ thuộc G và khác 1. Giả sử rằng H sinh ra G. Với mọi g $\in$ G, đặt $g(x) = x + f_g(x)e_g$ với $e_g \in V$, $f_g \in V^*$. Đặt
 
 $$
 D = \prod_{g \in H} e_g \in S.
 $$
 
-(i) Phần tử khác biệt của S trên R là iđêan chính SD.
+(i) Different của S trên R là iđêan chính SD.
 
-(ii) Đồng nhất S với đại số $K[X_1, \ldots, X_l]$ bằng cách chọn một cơ sở $(X_1, \ldots, X_l)$ của V, và cho $P_1, \ldots, P_l$ là các phần tử thuần nhất độc lập đại số sinh đại số R. Khi đó định thức Jacobi $J = \det \left( \frac{\partial P_i}{\partial X_j} \right)$ có dạng $\lambda D$ với $\lambda \in K^*$.
+(ii) Đồng nhất S với đại số $K[X_1, \ldots, X_l]$ bằng cách chọn một cơ sở $(X_1, \ldots, X_l)$ của V, và gọi $P_1, \ldots, P_l$ là các phần tử thuần nhất độc lập đại số sinh ra đại số R. Khi đó jacobian $J = \det \left( \frac{\partial P_i}{\partial X_j} \right)$ có dạng $\lambda D$ với $\lambda \in K^*$.
 
 (iii) $\sum_{i=1}^l (\deg(P_i) - 1) = \mathrm{Card}(H)$.
 
 (iv) *Tập hợp các phần tử phản bất biến của S là RD.*
 
-Mệnh đề (i) suy ra từ Bổ đề 4. Mệnh đề (ii) suy ra từ việc SJ là phần tử khác biệt của S trên R. (*Đại số giao hoán*). Mệnh đề (iii) thu được bằng cách viết ra thực tế rằng các đa thức thuần nhất D và J có cùng bậc. Chứng minh của (iv) khi đó giống hệt như chứng minh đã cho ở no. 4 (chứng minh của Mệnh đề 5, các phần b) và d)).
+Mệnh đề (i) suy ra từ Bổ đề 4. Mệnh đề (ii) suy ra từ việc SJ là different của S trên R. (*Đại số giao hoán*). Mệnh đề (iii) thu được bằng cách viết ra việc các đa thức thuần nhất D và J có cùng bậc. Chứng minh của (iv) khi đó cũng giống như chứng minh đã cho ở no. 4 (chứng minh Mệnh đề 5, các phần b) và d)).
 
 ### Bài tập {#lie-v-s5-exercises}
 
-Xem [các bài tập của § 5](exercises/s5/).
+Xem [bài tập cho § 5](exercises/s5/).

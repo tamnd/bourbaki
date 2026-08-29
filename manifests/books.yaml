@@ -967,7 +967,8 @@ books:
       lang: fr
       title: Variétés différentielles et analytiques, fascicule de résultats
       edition: ""
-      chapters: []
+      chapters:
+      - "1"
       pdf: pdf/fr/Varietes differentielles et.pdf
       pdf_sha256: e2eb2e615b027972a88ea627da3f03293f16ef9690ad83903463f066d88463f0
       pdf_bytes: 7787941
@@ -1314,7 +1315,8 @@ books:
       lang: en
       title: Elements of the History of Mathematics
       edition: ""
-      chapters: []
+      chapters:
+      - "1"
       pdf: pdf/en/Elements of the History of Mathematics.pdf
       pdf_sha256: abd140c565abeeb3b2e5ae5d621b4f37458fab8f5651ee51389ffa99a0f20ff6
       pdf_bytes: 36605642
@@ -1339,7 +1341,8 @@ books:
       lang: fr
       title: Éléments d'histoire des mathématiques
       edition: ""
-      chapters: []
+      chapters:
+      - "1"
       pdf: pdf/fr/Eléments d'histoire des mathématiques.pdf
       pdf_sha256: 6d65e74ebeb05d4253ade28e4ec50117f6ac31b29ebcc1d1fccfa3fc72e7c2e4
       pdf_bytes: 16623492

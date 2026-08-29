@@ -57,7 +57,7 @@ subsections:
       pdf_page: 407
 statements: 50
 exercises: 7
-content_sha256: 79e240087dacefa47cd874f369c6ab896a5fa87ad02f1996523ba61f63ca0053
+content_sha256: f1149d81aaad2860301eff5572205d32a2e9786cc132ddd1dbc63f7daad65029
 translated_from: content/fr/ts/V/01_s1_representations_unitaires.md
 source_lang: fr
 translation_method: machine

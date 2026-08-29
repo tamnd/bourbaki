@@ -53,7 +53,7 @@ subsections:
       pdf_page: 561
 statements: 56
 exercises: 26
-content_sha256: d3fa5291dd3b84adb527d0a1ff255c830cafaa837cf0feeb18209aa9b4edc023
+content_sha256: f0d3c5bcd614057f046109091244d75e8c9e27f167f84c9da445d22be904ccda
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
 source_content_sha256: 9c949aca71a036cb853dfdcbea85377b0c2a146fedc8238a63700dd4821d26bf
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -491,7 +491,7 @@ Có thể nói rằng "xét đến giả đẳng cấu" thì Định lý 4 quy v
 
 Cho $T$ là một A-môđun xoắn sinh hữu hạn. Tồn tại hai họ hữu hạn $(n_i)_{i \in I}$ và $(p_i)_{j \in I}$, trong đó các $n_i$ là những số nguyên $\geq 1$ và các $p_i$ là những iđêan nguyên tố của $A$ có chiều cao $1$ sao cho, nếu viết $T' = \bigoplus_{i \in I} A/p_i^{n_i}$, thì tồn tại một giả đẳng cấu từ $T$ tới $T'$. Hơn nữa, các họ $(n_i)_{i \in I}$ và $(p_i)_{i \in I}$ có tính chất này là duy nhất, sai khác đến một song ánh của tập hợp chỉ số, và các $p_i$ chứa linh hóa tử của $T$.
 
-Tính duy nhất: Thật vậy, nếu $T \to T'$ là một giả đẳng cấu và $p \in P, f_p : T, \to T'_p$ là một đẳng cấu. Khi đó, $T'_p$ là tổng trực tiếp của các $A_p/p^{n_i}A_p}$, tổng lấy theo các chỉ số $i$ sao cho $p_i = p$; do đó các $p^{n_i}A_p$ là các *ước số sơ cấp* của $A$-môđun xoắn $T$ (*Đại số*, Chương VII, § 4, no. 7); tính duy nhất của chúng đã được chứng minh trong *Đại số*, Chương VII, § 4, no. 7, Mệnh đề 7.
+Tính duy nhất: Thật vậy, nếu $T \to T'$ là một giả đẳng cấu và $p \in P, f_p : T, \to T'_p$ là một đẳng cấu. Khi đó, $T'_p$ là tổng trực tiếp của các $A_p/p^{n_i}A_p$, tổng lấy theo các chỉ số $i$ sao cho $p_i = p$; do đó các $p^{n_i}A_p$ là các *ước số sơ cấp* của $A$-môđun xoắn $T$ (*Đại số*, Chương VII, § 4, no. 7); tính duy nhất của chúng đã được chứng minh trong *Đại số*, Chương VII, § 4, no. 7, Mệnh đề 7.
 
 Sự tồn tại: Ta có thể chỉ xét trường hợp $T \neq 0$. Gọi $a$ là linh hóa tử (khác không và phân biệt với $A$) của $T$, gọi $p_i$ ($1 \leq i \leq k$) là các iđêan nguyên tố của $A$ có chiều cao 1 chứa $a$ (chúng chỉ có hữu hạn về số lượng ($§ 1$, no. 6, Định lý 4)) và đặt $S = \bigcap_i (A - p_i)$. Vành nửa địa phương $A' = S^{-1}A$ là một miền iđêan chính (Bổ đề 2) và có các iđêan cực đại là $m_i = p_iA'$; vì $S^{-1}T$ là một $A$-môđun xoắn sinh hữu hạn, nó đẳng cấu với một tổng trực tiếp hữu hạn $\bigoplus_{j \in I} A'/m_{\phi(j)}^{n_j}$, trong đó $\phi$ là một ánh xạ từ một tập hợp hữu hạn $I$ vào $[1, k]$ (*Algebra*, Chương VII, § 4, no. 7, Mệnh đề 7); vì $A'/m_{\phi(j)}^{n_j}$ đẳng cấu với $S^{-1}(A/p_{\phi(j)}^{n_j})$ (Chương II, § 2, no. 4), ta đã thu được một $A$-môđun xoắn $T'$ thuộc kiểu mong muốn và một đẳng cấu $f_0$ từ $S^{-1}T$ lên $S^{-1}T'$. Vì $\operatorname{Hom}_{S^{-1}A}(S^{-1}T, S^{-1}T')$ bằng $S^{-1} \operatorname{Hom}_A(T, T')$ (Chương 11, § 2, no. 7, Mệnh đề 19), tồn tại $s \in S$ và một đồng cấu $f : T \to T'$ sao cho $f_0 = s^{-1}f$. Còn phải chứng minh rằng $f$ là một giả đẳng cấu: thật vậy, nếu $p = 0$ hoặc nếu $p \in P$ phân biệt với các $p_i$, thì $T_p = T'_p = 0$ (Chương II, § 4, no. 4, Mệnh đề 17); ngược lại, nếu $p$ là một trong các $p_i$ ($1 \leq i \leq k$), thì $s$ khả nghịch trong $A_p$, và, vì $f_{p_i} = s(f_0)_{p_i}$ và $(f_0)_{p_i}$ là một đẳng cấu từ $T_{p_i} = (S^{-1}T)_{m_i}$ lên $T'_{p_i} = (S^{-1}T')_{m_i}$, nên $f_{p_i}$ cũng vậy.
 
