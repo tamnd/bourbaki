@@ -11797,3 +11797,451 @@ books:
               exercises: 11
               extraction: ocr
               content_sha256: e8bae18987bec37ceb60f14d75f74c46d0c21bd1844866f4cb791e7a520a550f
+    - id: alg-iv-vii-fr
+      reader_note:
+        kind: reader
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        path: content/fr/alg/00_to_the_reader_iv_vii.md
+        first_pdf_page: 5
+        last_pdf_page: 7
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 404d916ecf96384681adc0ab859c42c8eb48aefc5fe6b89788223ac68487d9c4
+      chapters:
+        - chapter: IV
+          title: Polynômes et fractions rationnelles
+          sections:
+            - kind: front
+              title: Polynômes et fractions rationnelles
+              path: content/fr/alg/IV/00_frontmatter.md
+              first_pdf_page: 8
+              last_pdf_page: 8
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: d9cb2e2ae0919f6d83661a04bc5e0429665fa98c11fcda25233f947693316af0
+            - kind: section
+              section: 1
+              title: POLYNÔMES
+              path: content/fr/alg/IV/01_s1_polynomes.md
+              label: alg-iv-s1
+              first_pdf_page: 8
+              last_pdf_page: 90
+              subsections: 8
+              statements: 30
+              exercises: 6
+              extraction: ocr
+              content_sha256: 3ce7b549cf06b07802cd50498dea7e2f4b7ead610ff4dd91377872cb26fa1b03
+            - kind: section
+              section: 2
+              title: ZÉROS DES POLYNÔMES
+              path: content/fr/alg/IV/02_s2_zeros_des_polynomes.md
+              label: alg-iv-s2
+              first_pdf_page: 21
+              last_pdf_page: 91
+              book_pages: A IV.83-A IV.84
+              subsections: 3
+              statements: 19
+              exercises: 13
+              extraction: ocr
+              content_sha256: baba9980ede99a05e18e78fbb21cb7215f71dc8383f7b91145a7c2406465f703
+            - kind: section
+              section: 3
+              title: FRACTIONS RATIONNELLES
+              path: content/fr/alg/IV/03_s3_fractions_rationnelles.md
+              label: alg-iv-s3
+              first_pdf_page: 25
+              last_pdf_page: 92
+              book_pages: A IV.18-A IV.23, A IV.84-A IV.85
+              subsections: 2
+              statements: 6
+              exercises: 7
+              extraction: ocr
+              content_sha256: fd149733f01f17427044dbf3404b8eaf26287c34c678118725924b0cf66ffa82
+            - kind: section
+              section: 4
+              title: SÉRIES FORMELLES
+              path: content/fr/alg/IV/04_s4_series_formelles.md
+              label: alg-iv-s4
+              first_pdf_page: 30
+              last_pdf_page: 94
+              book_pages: A IV.23-A IV.39, A IV.85-A IV.87
+              subsections: 10
+              statements: 24
+              exercises: 8
+              extraction: ocr
+              content_sha256: 0c46b750a29c2ad670a2b596182d9340c14975df566b95df8921355b0f8baac5
+            - kind: section
+              section: 5
+              title: TENSEURS SYMÉTRIQUES ET APPLICATIONS POLYNOMIALES
+              path: content/fr/alg/IV/05_s5_tenseurs_symetriques_et_applications.md
+              label: alg-iv-s5
+              first_pdf_page: 46
+              last_pdf_page: 99
+              book_pages: A IV.39-A IV.57, A IV.87-A IV.92
+              subsections: 11
+              statements: 37
+              exercises: 16
+              extraction: ocr
+              content_sha256: 436be7555b6615cd1e246da18dd676adabf926d4b4c53dec6a5b23c4c066abd8
+            - kind: section
+              section: 6
+              title: FONCTIONS SYMÉTRIQUES
+              path: content/fr/alg/IV/06_s6_fonctions_symetriques.md
+              label: alg-iv-s6
+              first_pdf_page: 64
+              last_pdf_page: 104
+              subsections: 7
+              statements: 41
+              exercises: 7
+              extraction: ocr
+              content_sha256: 1e29a47a89646d6879a7bb04367a0bd4b9075a7a54c877ec88da2ba2448e89ad
+        - chapter: V
+          title: Corps commutatifs
+          sections:
+            - kind: front
+              title: Corps commutatifs
+              path: content/fr/alg/V/00_frontmatter.md
+              first_pdf_page: 105
+              last_pdf_page: 105
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1fb7865b2e9b93c93f108d57a879132ad3eba1e68eccd47bef6e1f391a075ae1
+            - kind: section
+              section: 1
+              title: CORPS PREMIERS. CARACTÉRISTIQUE
+              path: content/fr/alg/V/01_s1_corps_premiers_caracteristique.md
+              label: alg-v-s1
+              first_pdf_page: 105
+              last_pdf_page: 244
+              subsections: 6
+              statements: 23
+              exercises: 5
+              extraction: ocr
+              content_sha256: ccabb795b6367ecb44790665aeebfb201ca49fe627c8152ddc6c60376751cafb
+            - kind: section
+              section: 2
+              title: EXTENSIONS
+              path: content/fr/alg/V/02_s2_extensions.md
+              label: alg-v-s2
+              first_pdf_page: 112
+              last_pdf_page: 245
+              book_pages: A V.140-A V.141
+              subsections: 4
+              statements: 18
+              exercises: 4
+              extraction: ocr
+              content_sha256: 250c081eb584c11f7eac4d91a8f73c54227e3e2bb0e07fca4af64854d2088e19
+            - kind: section
+              section: 3
+              title: EXTENSIONS ALGÉBRIQUES
+              path: content/fr/alg/V/03_s3_extensions_algebriques.md
+              label: alg-v-s3
+              first_pdf_page: 119
+              last_pdf_page: 247
+              book_pages: A V.141-A V.143
+              subsections: 3
+              statements: 18
+              exercises: 15
+              extraction: ocr
+              content_sha256: 9262483c395c6781ac05cafecb34b42d034090ceee902dd8ae01fb18f81b56e0
+            - kind: section
+              section: 4
+              title: EXTENSIONS ALGÉBRIQUEMENT CLOSES
+              path: content/fr/alg/V/04_s4_extensions_algebriquement_closes.md
+              label: alg-v-s4
+              first_pdf_page: 123
+              last_pdf_page: 248
+              book_pages: A V.19-A V.23, A V.143-A V.144
+              subsections: 3
+              statements: 17
+              exercises: 2
+              extraction: ocr
+              content_sha256: 534e509dbe20f60353cda50139274b7157fc2a4cff637503dab87467c16be3b5
+            - kind: section
+              section: 5
+              title: EXTENSIONS RADICIELLES
+              path: content/fr/alg/V/05_s5_extensions_radicielles.md
+              label: alg-v-s5
+              first_pdf_page: 127
+              last_pdf_page: 248
+              book_pages: A V.23-A V.25, A V.144
+              subsections: 2
+              statements: 9
+              exercises: 3
+              extraction: ocr
+              content_sha256: e5aeb9cce45f7b1cbf9fb672ac8eaabd6a12d9a4d67808f1e02a277cfb3e60f8
+            - kind: section
+              section: 6
+              title: ALGÈBRES ÉTALES
+              path: content/fr/alg/V/06_s6_algebres_etales.md
+              label: alg-v-s6
+              first_pdf_page: 130
+              last_pdf_page: 248
+              book_pages: A V.144
+              subsections: 7
+              statements: 20
+              exercises: 2
+              extraction: ocr
+              content_sha256: 8181457df575d1d33da33311edde292d95015c19f2ec41a221890f0ec1d9c27a
+            - kind: section
+              section: 7
+              title: EXTENSIONS ALGÉBRIQUES SÉPARABLES
+              path: content/fr/alg/V/07_s7_extensions_algebriques_separables.md
+              label: alg-v-s7
+              first_pdf_page: 139
+              last_pdf_page: 250
+              book_pages: A V.35-A V.45, A V.145-A V.146
+              subsections: 9
+              statements: 40
+              exercises: 5
+              extraction: ocr
+              content_sha256: d9bbc3463ea31eaec2d0836617f3d8875e4519adc32b0d44b7d73be33f686425
+            - kind: section
+              section: 8
+              title: NORMES ET TRACES
+              path: content/fr/alg/V/08_s8_normes_et_traces.md
+              label: alg-v-s8
+              first_pdf_page: 149
+              last_pdf_page: 250
+              book_pages: A V.45-A V.50, A V.146
+              subsections: 3
+              statements: 9
+              exercises: 2
+              extraction: ocr
+              content_sha256: d59ed32155d2c30fd69ac39c13a938a7e0c5ae6558f4ec8e8dea639176f48b42
+            - kind: section
+              section: 9
+              title: ÉLÉMENTS CONJUGUÉS ET EXTENSIONS QUASI-GALOISIENNES
+              path: content/fr/alg/V/09_s9_elements_conjugues_et_extensions_quasi.md
+              label: alg-v-s9
+              first_pdf_page: 154
+              last_pdf_page: 251
+              book_pages: A V.50-A V.54, A V.146-A V.147
+              subsections: 4
+              statements: 19
+              exercises: 8
+              extraction: ocr
+              content_sha256: 9fea7e217246bdeb7cc834eb5a29cb9390bec66d9e459b4628079d553f8a1261
+            - kind: section
+              section: 10
+              title: EXTENSIONS GALOISIENNES
+              path: content/fr/alg/V/10_s10_extensions_galoisiennes.md
+              label: alg-v-s10
+              first_pdf_page: 158
+              last_pdf_page: 256
+              book_pages: A V.147-A V.152
+              subsections: 6
+              statements: 51
+              exercises: 23
+              extraction: ocr
+              content_sha256: 15a2b24d994e666a57321408db667d83d515a874218aa89b2406163170c3f113
+            - kind: section
+              section: 11
+              title: EXTENSIONS ABÉLIENNES
+              path: content/fr/alg/V/11_s11_extensions_abeliennes.md
+              label: alg-v-s11
+              first_pdf_page: 177
+              last_pdf_page: 260
+              book_pages: A V.152-A V.156
+              subsections: 9
+              statements: 42
+              exercises: 23
+              extraction: ocr
+              content_sha256: a7d120eb9909dcf5ef661f53cfcd32f9f607d9ae2ce4cd59743ab6d3a0b09fc9
+            - kind: section
+              section: 12
+              title: CORPS FINIS $^1$
+              path: content/fr/alg/V/12_s12_corps_finis_1.md
+              label: alg-v-s12
+              first_pdf_page: 193
+              last_pdf_page: 264
+              book_pages: A V.89-A V.93, A V.157-A V.160
+              subsections: 4
+              statements: 11
+              exercises: 14
+              extraction: ocr
+              content_sha256: 811704fc92f6ace4ac5f0f716dc47e75d74688582d6de6259f094ceb6c50a183
+            - kind: section
+              section: 13
+              title: EXTENSIONS RADICIELLES DE HAUTEUR $\leqslant 1$
+              path: content/fr/alg/V/13_s13_extensions_radicielles_de_hauteur.md
+              label: alg-v-s13
+              first_pdf_page: 197
+              last_pdf_page: 265
+              book_pages: A V.93-A V.101, A V.160-A V.161
+              subsections: 3
+              statements: 22
+              exercises: 6
+              extraction: ocr
+              content_sha256: 6316f010144f544cbd464dc697739758c97518d59738e53e3a3e3a059078ac56
+            - kind: section
+              section: 14
+              title: EXTENSIONS TRANSCENDANTES
+              path: content/fr/alg/V/14_s14_extensions_transcendantes.md
+              label: alg-v-s14
+              first_pdf_page: 205
+              last_pdf_page: 268
+              book_pages: A V.161-A V.164
+              subsections: 7
+              statements: 51
+              exercises: 20
+              extraction: ocr
+              content_sha256: 8f8fcfbd50502d9991e793039c34c47efda5c3ea0d1d85dca2b46a7d78412a82
+            - kind: section
+              section: 15
+              title: EXTENSIONS SÉPARABLES
+              path: content/fr/alg/V/15_s15_extensions_separables.md
+              label: alg-v-s15
+              first_pdf_page: 217
+              last_pdf_page: 270
+              book_pages: A V.165-A V.166
+              subsections: 6
+              statements: 24
+              exercises: 12
+              extraction: ocr
+              content_sha256: b215ae22ba213fd12c6db1406b74f563872be7ba482443fb12ad1f2ce85292ad
+            - kind: section
+              section: 16
+              title: CRITÈRES DIFFÉRENTIELS DE SÉPARABILITÉ
+              path: content/fr/alg/V/16_s16_criteres_differentiels_de_separabilite.md
+              label: alg-v-s16
+              first_pdf_page: 225
+              last_pdf_page: 272
+              book_pages: A V.166-A V.168
+              subsections: 7
+              statements: 32
+              exercises: 9
+              extraction: ocr
+              content_sha256: 8c96df76cc5f350ae1749bb04c7403359f523c8f87e6fa7774f191624139d5af
+            - kind: section
+              section: 17
+              title: EXTENSIONS RÉGULIÈRES
+              path: content/fr/alg/V/17_s17_extensions_regulieres.md
+              label: alg-v-s17
+              first_pdf_page: 235
+              last_pdf_page: 289
+              subsections: 6
+              statements: 20
+              exercises: 5
+              extraction: ocr
+              content_sha256: 3aaa25d7fe09d3724420e137a51a07835fc20991d574e1bfd4e14531f8a3e577
+        - chapter: VI
+          title: Groupes et corps ordonnés
+          sections:
+            - kind: front
+              title: Groupes et corps ordonnés
+              path: content/fr/alg/VI/00_frontmatter.md
+              first_pdf_page: 290
+              last_pdf_page: 290
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: e87e69adf2b306d6a95bd79fe29adb03c66c75d769a3b305d7f599603f29867f
+            - kind: section
+              section: 1
+              title: GROUPES ORDONNÉS. DIVISIBILITÉ
+              path: content/fr/alg/VI/01_s1_groupes_ordonnes_divisibilite.md
+              label: alg-vi-s1
+              first_pdf_page: 290
+              last_pdf_page: 324
+              subsections: 13
+              statements: 52
+              exercises: 20
+              extraction: ocr
+              content_sha256: af0e37d4d46945de0a0c4108c90fd198171ff9250cd1b866a07a6baf0bc972be
+            - kind: section
+              section: 2
+              title: CORPS ORDONNÉS
+              path: content/fr/alg/VI/02_s2_corps_ordonnes.md
+              label: alg-vi-s2
+              first_pdf_page: 307
+              last_pdf_page: 333
+              book_pages: A VI.35-A VI.44
+              subsections: 2
+              statements: 32
+              exercises: 5
+              extraction: ocr
+              content_sha256: ee612dde6081178bbeaa53c7197b09ae5e7000446bf05cbb41d6faa813c77501
+        - chapter: VII
+          title: Modules sur les anneaux principaux
+          sections:
+            - kind: front
+              title: Modules sur les anneaux principaux
+              path: content/fr/alg/VII/00_frontmatter.md
+              first_pdf_page: 334
+              last_pdf_page: 334
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 32d9d13357731145a506e6716ef25394fae34ada9e44e4d20d4de7b742d6b33b
+            - kind: section
+              section: 1
+              title: ANNEAUX PRINCIPAUX
+              path: content/fr/alg/VII/01_s1_anneaux_principaux.md
+              label: alg-vii-s1
+              first_pdf_page: 334
+              last_pdf_page: 386
+              subsections: 5
+              statements: 15
+              exercises: 10
+              extraction: ocr
+              content_sha256: 9dc599f9b4c10081b93a10c9bf65a28d23367b7369c57f86f2d79b8655b439f0
+            - kind: section
+              section: 2
+              title: MODULES DE TORSION SUR UN ANNEAU PRINCIPAL
+              path: content/fr/alg/VII/02_s2_modules_de_torsion_sur_un_anneau.md
+              label: alg-vii-s2
+              first_pdf_page: 339
+              last_pdf_page: 390
+              book_pages: A VII.6-A VII.13, A VII.53-A VII.57
+              subsections: 2
+              statements: 24
+              exercises: 14
+              extraction: ocr
+              content_sha256: e8c67551fee721ba16eb39a2353408561379f3cf1ddfac653b03c1b284c8cb26
+            - kind: section
+              section: 3
+              title: MODULES LIBRES SUR UN ANNEAU PRINCIPAL
+              path: content/fr/alg/VII/03_s3_modules_libres_sur_un_anneau_principal.md
+              label: alg-vii-s3
+              first_pdf_page: 347
+              last_pdf_page: 393
+              book_pages: A VII.14-A VII.15, A VII.58-A VII.60
+              subsections: 0
+              statements: 8
+              exercises: 11
+              extraction: ocr
+              content_sha256: 632af2a4cecdfd0dde79ecc8af75dba08c5be8fd7baaf23be89443f94cb3aa3f
+            - kind: section
+              section: 4
+              title: MODULES DE TYPE FINI SUR UN ANNEAU PRINCIPAL
+              path: content/fr/alg/VII/04_s4_modules_de_type_fini_sur_un_anneau.md
+              label: alg-vii-s4
+              first_pdf_page: 348
+              last_pdf_page: 399
+              book_pages: A VII.15-A VII.27, A VII.60-A VII.66
+              subsections: 9
+              statements: 41
+              exercises: 8
+              extraction: ocr
+              content_sha256: 87df1f6594332ddfc8ec38a4fe31e67f6610f4eb582f81b52c94da4aaa95c4b5
+            - kind: section
+              section: 5
+              title: ENDOMORPHISMES DES ESPACES VECTORIELS
+              path: content/fr/alg/VII/05_s5_endomorphismes_des_espaces_vectoriels.md
+              label: alg-vii-s5
+              first_pdf_page: 361
+              last_pdf_page: 426
+              subsections: 9
+              statements: 65
+              exercises: 4
+              extraction: ocr
+              content_sha256: f9b4389165b3aff0d28d3f30c5e51547f8dbd83f9fed82d55c0b7cdda6e5fdd0
