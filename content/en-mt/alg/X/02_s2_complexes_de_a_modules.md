@@ -420,7 +420,7 @@ $$
 
 Let $A$ be a ring. For any topological space $X$, we define the singular complex $C(X, A)$ of $X$ with coefficients in $A$ as follows:
 
-In $\mathbf{R}^{(N)}$, denote by $(e_n)$ the canonical basis; we call the $n$-canonical simplex the convex hull $\Delta_n$ of $\{ e_0, ..., e_n \}$. For $i \in \{ 0, ..., n \}$, we define the affine mapping $\iota_i : \Delta_{n-1} \to \Delta_n$ by $\iota_i(e_k) = e_k$ for $k < i$ and $\iota_i(e_k) = e_{k+1}$ for $k \geq i$. We denote $C_n(X, A)$ the a-module $A^{(\Sigma_n(X))}$, where $\Sigma_n(X)$ is the set of continuous mappings from $\Delta_n$ into $X$; for $n < 0$, we set $C_n = 0$. For $i \in \{ 0, ..., n \}$, we define the linear mapping $\partial_{n, i} : C_n(X, A) \to C_{n-1}(X, A)$ by $\partial_{n, i}(e_s) = e_{s \circ \iotma_i}$ for $s \in \Sigma_n(X)$, and we set $d_n = \Sigma (-1)^i \partial_{n, i}$. We verify that
+In $\mathbf{R}^{(N)}$, denote by $(e_n)$ the canonical basis; we call the $n$-canonical simplex the convex hull $\Delta_n$ of $\{ e_0, ..., e_n \}$. For $i \in \{ 0, ..., n \}$, we define the affine mapping $\iota_i : \Delta_{n-1} \to \Delta_n$ by $\iota_i(e_k) = e_k$ for $k < i$ and $\iota_i(e_k) = e_{k+1}$ for $k \geq i$. We denote $C_n(X, A)$ the a-module $A^{(\Sigma_n(X))}$, where $\Sigma_n(X)$ is the set of continuous mappings from $\Delta_n$ into $X$; for $n < 0$, we set $C_n = 0$. For $i \in \{ 0, ..., n \}$, we define the linear mapping $\partial_{n, i} : C_n(X, A) \to C_{n-1}(X, A)$ by $\partial_{n, i}(e_s) = e_{s \circ \iota_i}$ for $s \in \Sigma_n(X)$, and we set $d_n = \Sigma (-1)^i \partial_{n, i}$. We verify that
 
 $$
 ... C_n(X, A) \xrightarrow{d_n} C_{n-1}(X, A) \to ...

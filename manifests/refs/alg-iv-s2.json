@@ -1,0 +1,18 @@
+{"edges": [
+{"from":"","from_label":"alg-iv-s2-prop-2","to_label":"alg-iv-s2-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":49},
+{"from":"","from_label":"alg-iv-s2-prop-3","to_label":"alg-iv-s2-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":54},
+{"from":"","from_label":"alg-iv-s2-n1-rem-1","to_label":"alg-iv-s2-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":65},
+{"from":"","from_label":"alg-iv-s2-prop-5","to_label":"alg-iv-s2-def-1","kind":"cites","raw":"Def. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":90},
+{"from":"","from_label":"alg-iv-s2-prop-5","to_label":"alg-iv-s2-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":96},
+{"from":"","from_label":"alg-iv-s2-thm-1","to_label":"alg-iv-s2-prop-5","kind":"cites","raw":"Prop. 5","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":108},
+{"from":"","from_label":"alg-iv-s2-n1-cor-1","to_label":"alg-iv-s2-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":114},
+{"from":"","from_label":"alg-iv-s2-prop-6","to_label":"alg-iv-s2-n1-cor-1","kind":"cites","raw":"Cor. to Th. 1","form":"attached","resolved_by":"parent-label","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":126},
+{"from":"","from_label":"alg-iv-s2-n2-cor-1","to_label":"alg-iv-s2-prop-8","kind":"cites","raw":"Prop. 8","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":154},
+{"from":"","from_label":"alg-iv-s2-prop-9","to_label":"alg-iv-s2-thm-1","kind":"cites","raw":"Th. 1 (IV, p. 16","form":"named","resolved_by":"page-map","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":166},
+{"from":"","from_label":"alg-iv-s2-prop-9-cor-1","to_label":"alg-iv-s2-prop-9","kind":"cites","raw":"Prop. 9","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":180},
+{"from":"","from_label":"alg-iv-s2-prop-9-cor-2","to_label":"alg-iv-s2-prop-9","kind":"cites","raw":"Prop. 9","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":186},
+{"from":"","from_label":"alg-iv-s2-prop-9-cor-2","to_label":"alg-iv-s2","kind":"cites","raw":"IV, p. 88","form":"page","resolved_by":"section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":190},
+{"from":"","from_label":"alg-iv-s2-thm-2","to_label":"alg-iv-s2-prop-9-cor-2","kind":"cites","raw":"IV, p. 18, Cor. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":199},
+{"from":"","from_label":"alg-iv-s2-n3-sch-1","to_label":"alg-iv-s2-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/02_s2_zeros_of_polynomials.md","line":203},
+{"from":"","from_label":"alg-iv-s2-ex-5","to_label":"alg-iv-s2-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/alg/IV/exercises/s2/05.md","line":20}
+]}

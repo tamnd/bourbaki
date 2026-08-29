@@ -9,6 +9,7 @@ kind: front
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: "191"
 pdf_pages: 0215-0215
 extraction: ocr
 statements: 0

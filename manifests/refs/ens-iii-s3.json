@@ -55,6 +55,5 @@
 {"from":"03R8","from_label":"ens-iii-s3-thm-2","to":"03KX","to_label":"ens-iii-s3-prop-12","kind":"cites","raw":"no. 5, Proposition 12","form":"local","resolved_by":"in-section","file":"content/en/ens/III/03_s3_equipotent_sets_cardinals.md","line":347},
 {"from":"03L2","from_label":"ens-iii-s3-n6-cor-1","to":"03R8","to_label":"ens-iii-s3-thm-2","kind":"cites","raw":"Theorem 2","form":"local","resolved_by":"in-section","file":"content/en/ens/III/03_s3_equipotent_sets_cardinals.md","line":353},
 {"from":"","from_label":"ens-iii-s3","to_label":"ens-i-s1","kind":"cites","raw":"Chapter I, § 1, no. 1","form":"section","resolved_by":"section","file":"content/en/ens/III/03_s3_equipotent_sets_cardinals.md","line":359},
-{"from":"03L7","from_label":"ens-iii-s3-ex-5","to":"03UN","to_label":"ens-iii-s2-ex-13","kind":"cites","raw":"§ 2, Exercise 13","form":"section","resolved_by":"exercise","file":"content/en/ens/III/exercises/s3/05.md","line":15},
 {"from":"03L8","from_label":"ens-iii-s3-ex-6","to":"03R8","to_label":"ens-iii-s3-thm-2","kind":"cites","raw":"Theorem 2","form":"local","resolved_by":"in-section","file":"content/en/ens/III/exercises/s3/06.md","line":15}
 ]}

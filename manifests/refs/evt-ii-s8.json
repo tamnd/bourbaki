@@ -1,0 +1,12 @@
+{"edges": [
+{"from":"","from_label":"evt-ii-s8","kind":"cites","raw":"IX, § 3, No. 2","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":41},
+{"from":"","from_label":"evt-ii-s8-n1-rem-1","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 13","form":"page","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":57},
+{"from":"","from_label":"evt-ii-s8-n1-rem-1","to_label":"evt-ii-s5","kind":"cites","raw":"II, § 5","form":"section","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":59},
+{"from":"","from_label":"evt-ii-s8","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 25","form":"page","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":75},
+{"from":"","from_label":"evt-ii-s8-prop-2","to_label":"evt-ii-s5","kind":"cites","raw":"II, p. 37","form":"page","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":123},
+{"from":"","from_label":"evt-ii-s8-prop-3","to_label":"evt-ii-s5","kind":"cites","raw":"II, p. 38","form":"page","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":129},
+{"from":"","from_label":"evt-ii-s8-prop-3","to_label":"evt-ii-s5","kind":"cites","raw":"II, p. 37","form":"page","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":129},
+{"from":"","from_label":"evt-ii-s8","to_label":"evt-ii-s6","kind":"cites","raw":"II, § 6, Nos. 1","form":"section","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":133},
+{"from":"","from_label":"evt-ii-s8-def-1","to_label":"evt-ii-s6","kind":"cites","raw":"II, p. 41","form":"page","resolved_by":"section","file":"content/en/evt/II/08_s8_complex_locally_convex_spaces.md","line":145},
+{"from":"","from_label":"evt-ii-s8-ex-1","to_label":"evt-ii-s6","kind":"cites","raw":"II, p. 83","form":"page","resolved_by":"section","file":"content/en/evt/II/exercises/s8/01.md","line":14}
+]}

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 111
 statements: 21
 exercises: 5
-content_sha256: b183165ffbef744b18bb24fd033dc8b81bbf2f8dd70c28bdec14b9f83e6eb755
+content_sha256: 0209a2c1e17c27a25e4b2e6adac03cd81c288c48ee3e43def8754a65dcc61265
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -58,7 +58,7 @@ En effet, l’ensemble des idéaux premiers de $A$ est totalement ordonné par i
 
 *Soient* $K$ *un corps*, $B$ *un anneau de valuation pour* $K$, *et* $h_B$ *la place de* $K$ *associée à* $B$ *(à valeurs dans* $\kappa(B)$). *Alors l’application* $A \to h_B(A)$ *définit une bijection de l’ensemble* $\mathcal{A}$ *des anneaux de valuation pour* $K$ *contenus dans* $B$, *sur l’ensemble* $\mathcal{A}'$ *des anneaux de valuation pour* $\kappa(B)$.
 
-Si $A \in \mathcal{A}$, on a $h_B(A) \in \mathcal{A}'$: en effet, si $x' = h_B(x)$ (où $x \in B$) est un élément de $\kappa(B) - h_B(A)$, on a $x \notin A$, donc $x^{-1} \in A$ et $h_B(x)^{-1} \in h_B(A)$. D’autre part, pour $A \in \mathcal{A}$, on a $A \supset m(B)$ (prop. 1, $b$)), donc l’application $A \to h_B(A)$ est injective. Enfin, soient $A' \in \mathcal{A}'$ et $A = \overline{h_B}(A') \subset B$; on va montrer, ce qui achèvera la démonstration, que $A \in \mathcal{A}$; en effet, si $x \in K - A$, on a, soit $x \notin B$, soit $x \in B$; si $x \notin B$, on a $x^{-1} \in m(B) \subset A$; si $x \in B$, on a $h_B(x) \in \kappa(B)$ et $h_B(x) \notin A'$, donc $h_B(x^{-1}) \in A'$, et on en conclut encore que $x^{-1} \in A$; donc $A \in \mathcal{A}$.
+Si $A \in \mathcal{A}$, on a $h_B(A) \in \mathcal{A}'$: en effet, si $x' = h_B(x)$ (où $x \in B$) est un élément de $\kappa(B) - h_B(A)$, on a $x \notin A$, donc $x^{-1} \in A$ et $h_B(x)^{-1} \in h_B(A)$. D’autre part, pour $A \in \mathcal{A}$, on a $A \supset m(B)$ (prop. 1, b)), donc l’application $A \to h_B(A)$ est injective. Enfin, soient $A' \in \mathcal{A}'$ et $A = \overline{h_B}(A') \subset B$; on va montrer, ce qui achèvera la démonstration, que $A \in \mathcal{A}$; en effet, si $x \in K - A$, on a, soit $x \notin B$, soit $x \in B$; si $x \notin B$, on a $x^{-1} \in m(B) \subset A$; si $x \in B$, on a $h_B(x) \in \kappa(B)$ et $h_B(x) \notin A'$, donc $h_B(x^{-1}) \in A'$, et on en conclut encore que $x^{-1} \in A$; donc $A \in \mathcal{A}$.
 
 #### Corollaire {#ac-vi-s4-n1-cor-2 .statement}
 
@@ -220,7 +220,7 @@ c) $G$ est isomorphe à un sous-groupe non réduit à 0 du groupe additif ordonn
 
 Soit $x$ un élément positif de $G$, et soit $H_x$ l’ensemble des $y \in G$ tels qu’il existe un entier $n \geqslant 0$ vérifiant $|y| \leqslant nx$. On vérifie aisément que $H_x$ est un sous-groupe isolé de $G$, et que tout sous-groupe isolé de $G$ contenant $x$ contient $H_x$. La condition a) équivaut donc à « $H_x = G$ pour tout $x > 0$ », c’est-à-dire à la condition b).
 
-Il est clair que c) implique b). Réciproquement, supposons vérifiée la condition b), et notons $Q$ l’ensemble des éléments $> 0$ de $G$. Supposons d’abord que $Q$ ait un plus petit élément $x$; pour tout $y \in Q$, soit $n$ le plus petit entier tel que $y \leqslant nx$; si l’on avait $y < nx$, on aurait aussi $nx - y \geqslant x$, d’où $y \leqslant (n - 1)x$ contrairement au choix de $n$; on a donc $y = nx$, ce qui montre que $G = \mathbf{Z}x$ est isomorphe à $\mathbf{Z} \subset \mathbf{R}$. Supposons maintenant que $Q$ n’ait pas de plus petit élément; appliquons à l’ensemble ordonné $P = Q \cup \{0\}$ la prop. 1 de *Top. Gén.*, chap. V, § 2 (ce qui est possible, puisque la condition $b$) n’est autre que « l’axiome d’Archimède »); on voit qu’il existe une application strictement croissante $f$ de $P$ dans $\mathbf{R}_+$ telle que
+Il est clair que c) implique b). Réciproquement, supposons vérifiée la condition b), et notons $Q$ l’ensemble des éléments $> 0$ de $G$. Supposons d’abord que $Q$ ait un plus petit élément $x$; pour tout $y \in Q$, soit $n$ le plus petit entier tel que $y \leqslant nx$; si l’on avait $y < nx$, on aurait aussi $nx - y \geqslant x$, d’où $y \leqslant (n - 1)x$ contrairement au choix de $n$; on a donc $y = nx$, ce qui montre que $G = \mathbf{Z}x$ est isomorphe à $\mathbf{Z} \subset \mathbf{R}$. Supposons maintenant que $Q$ n’ait pas de plus petit élément; appliquons à l’ensemble ordonné $P = Q \cup \{0\}$ la prop. 1 de *Top. Gén.*, chap. V, § 2 (ce qui est possible, puisque la condition b) n’est autre que « l’axiome d’Archimède »); on voit qu’il existe une application strictement croissante $f$ de $P$ dans $\mathbf{R}_+$ telle que
 
 $$
 f(x + y) = f(x) + f(y)
@@ -232,9 +232,9 @@ pour $x \in P$ et $y \in P$; par linéarité $f$ se prolonge en un isomorphisme 
 
 Soient $K$ un corps, $\nu$ une valuation non impropre de $K$, et $A$ l’anneau de $\nu$. Pour que $A$ soit complètement intégralement clos (chap. V, § 1, n° 4, déf. 5), il faut et il suffit que $\nu$ soit de hauteur 1.
 
-Supposons $\nu$ de hauteur 1. Soit $x \in K$ tel que les $x^n (n \geq 0)$ soient tous contenus dans un sous-A-module de type fini de $K$. Il existe $d \in A - \{0\}$ tel que $dx^n \in A$ pour tout $n \geq 0$. On a donc $\nu(d) + n \nu(x) \geq 0$, c’est-à-dire $n(-\nu(x)) \leq \nu(d)$ pour tout $n \geq 0$, d’où $-\nu(x) \leq 0$ (prop. 8, $b$)) et $x \in A$. Ainsi $A$ est complètement intégralement clos.
+Supposons $\nu$ de hauteur 1. Soit $x \in K$ tel que les $x^n (n \geq 0)$ soient tous contenus dans un sous-A-module de type fini de $K$. Il existe $d \in A - \{0\}$ tel que $dx^n \in A$ pour tout $n \geq 0$. On a donc $\nu(d) + n \nu(x) \geq 0$, c’est-à-dire $n(-\nu(x)) \leq \nu(d)$ pour tout $n \geq 0$, d’où $-\nu(x) \leq 0$ (prop. 8, b)) et $x \in A$. Ainsi $A$ est complètement intégralement clos.
 
-Supposons maintenant que $\nu$ ne soit pas de hauteur 1. Il existe alors $y \in m(A)$ et $t \in A$ tels que $n \nu(y) < \nu(t)$ pour tout $n \geq 0$ (prop. 8, $b$)). On a donc $ty^{-n} \in A$ pour tout $n \geq 0$, mais $y^{-1} \notin A$. Donc $A$ n’est pas complètement intégralement clos.
+Supposons maintenant que $\nu$ ne soit pas de hauteur 1. Il existe alors $y \in m(A)$ et $t \in A$ tels que $n \nu(y) < \nu(t)$ pour tout $n \geq 0$ (prop. 8, b)). On a donc $ty^{-n} \in A$ pour tout $n \geq 0$, mais $y^{-1} \notin A$. Donc $A$ n’est pas complètement intégralement clos.
 
 #### Corollaire {#ac-vi-s4-n5-cor-1 .statement}
 

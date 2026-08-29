@@ -6499,6 +6499,164 @@
           "sections": null
         }
       ]
+    },
+    {
+      "id": "lie-vii-viii-fr",
+      "chapters": [
+        {
+          "chapter": "VII",
+          "title": "Sous-algèbres de Cartan. Éléments réguliers",
+          "total": 60,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-vii-s1",
+              "dir": "s1",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 4
+            },
+            {
+              "section": 2,
+              "label": "lie-vii-s2",
+              "dir": "s2",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "lie-vii-s3",
+              "dir": "s3",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 4
+            },
+            {
+              "section": 4,
+              "label": "lie-vii-s4",
+              "dir": "s4",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 5,
+              "label": "lie-vii-s5",
+              "dir": "s5",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac-x-fr",
+      "chapters": [
+        {
+          "chapter": "X",
+          "title": "Profondeur, régularité, dualité",
+          "total": 124,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-x-s1",
+              "dir": "s1",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "ac-x-s2",
+              "dir": "s2",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 5
+            },
+            {
+              "section": 3,
+              "label": "ac-x-s3",
+              "dir": "s3",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 5
+            },
+            {
+              "section": 4,
+              "label": "ac-x-s4",
+              "dir": "s4",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 5
+            },
+            {
+              "section": 5,
+              "label": "ac-x-s5",
+              "dir": "s5",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 3
+            },
+            {
+              "section": 6,
+              "label": "ac-x-s6",
+              "dir": "s6",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 7,
+              "label": "ac-x-s7",
+              "dir": "s7",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 3,
+              "supplementary": 1
+            },
+            {
+              "section": 8,
+              "label": "ac-x-s8",
+              "dir": "s8",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "ac-x-s9",
+              "dir": "s9",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 3
+            },
+            {
+              "section": 10,
+              "label": "ac-x-s10",
+              "dir": "s10",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 2
+            }
+          ]
+        }
+      ]
     }
   ]
 }

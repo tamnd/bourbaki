@@ -32,7 +32,7 @@ subsections:
       pdf_page: 311
 statements: 31
 exercises: 10
-content_sha256: 0242e85ddd5aef10eee50cb9154a8440bef872dc1313f8c42d3c58a661af6a30
+content_sha256: 3f6d494ba74f75788e329059160e46cefbfc7505d1880e3f812a679f7de36f35
 ---
 
 ## 3. SPECIAL FUNCTION SPACES
@@ -70,7 +70,7 @@ Note that this corollary applies in particular if $X$ is *locally compact and σ
 Now let $Y$ be a metric space and let $d$ be its metric. If $X$ is any set and $\mathcal{S}$ any set of subsets of $X$, we shall denote by $\mathcal{B}_{\mathcal{S}}(X; Y)$ the set of all mappings $u : X \to Y$ such that $u(A)$ is *bounded* for each $A \in \mathcal{S}$. Unless the contrary is expressly stated we shall regard $\mathcal{B}_{\mathcal{S}}(X; Y)$ as endowed with the uniformity of $\mathcal{S}$-convergence, which is defined by the following family of pseudometrics on $\mathcal{B}_{\mathcal{S}}(X; Y)$:
 
 $$
-d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{A \in \mathcal{S}}
+d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{$A \in \mathcal{S}$}
 $$
 
 which are *finite* by hypothesis. When $\mathcal{S} = \{X\}$, we write $\mathcal{B}(X; Y)$ in place of $\mathcal{B}_{\mathcal{S}}(X; Y)$. A mapping $u : X \to Y$ is said to be *bounded* if it belongs to $\mathcal{B}(X; Y)$, i.e. if $u(X)$ is a bounded subset of $Y$.

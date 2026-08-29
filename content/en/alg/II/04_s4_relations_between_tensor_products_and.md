@@ -8,24 +8,25 @@ section_title: Relations between tensor products and homomorphism modules
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 267-276, 396-398
 pdf_pages: 0291-0300, 0420-0422
 extraction: ocr
 subsections:
     - "no": 1
       title: THE ISOMORPHISMS $\operatorname{Hom}_B(E \otimes_A F, G) \to \operatorname{Hom}_A(F, \operatorname{Hom}_B(E, G))$ AND $\operatorname{Hom}_c(E \otimes_A F, G) \to \operatorname{Hom}_A(E, \operatorname{Hom}_c(F, G))$
-      page: 0
+      page: 267
       pdf_page: 291
     - "no": 2
       title: THE HOMOMORPHISM** $E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
-      page: 0
+      page: 268
       pdf_page: 292
     - "no": 3
       title: TRACE OF AN ENDOMORPHISM
-      page: 0
+      page: 273
       pdf_page: 297
     - "no": 4
       title: THE HOMOMORPHISM $\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}_c(E_2, F_2) \to \operatorname{Hom}_c(E_1 \otimes_c E_2, F_1 \otimes_c F_2)$
-      page: 0
+      page: 274
       pdf_page: 298
 statements: 15
 exercises: 9

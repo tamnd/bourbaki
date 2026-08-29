@@ -8,32 +8,33 @@ section_title: Hardy Fields. (H) Functions
 appendix: true
 lang: en
 source: fvr-i-vii
+book_pages: 247-258, 263-267
 pdf_pages: 0262-0273, 0278-0282
 extraction: ocr
 subsections:
     - "no": 1
       title: HARDY FIELDS
-      page: 0
+      page: 247
       pdf_page: 262
     - "no": 2
       title: EXTENSION OF A HARDY FIELD
-      page: 0
+      page: 248
       pdf_page: 263
     - "no": 3
       title: COMPARISON OF FUNCTIONS IN A HARDY FIELD
-      page: 0
+      page: 250
       pdf_page: 265
     - "no": 4
       title: (H) FUNCTIONS
-      page: 0
+      page: 252
       pdf_page: 267
     - "no": 5
       title: EXPONENTIALS AND ITERATED LOGARITHMS
-      page: 0
+      page: 253
       pdf_page: 268
     - "no": 6
       title: INVERSE FUNCTION OF AN (H) FUNCTION
-      page: 0
+      page: 255
       pdf_page: 270
 statements: 21
 exercises: 15

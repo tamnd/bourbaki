@@ -1,0 +1,21 @@
+{"edges": [
+{"from":"","from_label":"alg-v-s3-thm-1-cor-2","to_label":"alg-v-s3-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":72},
+{"from":"","from_label":"alg-v-s3-n1-rem-1","to_label":"alg-v-s3-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":76},
+{"from":"","from_label":"alg-v-s3-thm-2","to_label":"alg-v-s3-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":118},
+{"from":"","from_label":"alg-v-s3-thm-2","to_label":"alg-ii-s1-prop-25","kind":"cites","raw":"Prop. 25 of II, p. 222","form":"named","resolved_by":"page-map","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":118},
+{"from":"","from_label":"alg-v-s3-thm-2-cor-1","to_label":"alg-v-s3-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":124},
+{"from":"","from_label":"alg-v-s3-thm-2-cor-2","to_label":"alg-v-s3-thm-2-cor-1","kind":"cites","raw":"Cor. 1","form":"local","resolved_by":"nearest-above","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":130},
+{"from":"","from_label":"alg-v-s3-n2-rem-1","to_label":"alg-v-s3-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":134},
+{"from":"","from_label":"alg-v-s3-n2-rem-2","to_label":"alg-v-s3-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":138},
+{"from":"","from_label":"alg-v-s3-n2-rem-2","to_label":"alg-v-s3-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":138},
+{"from":"","from_label":"alg-v-s3-prop-3","to_label":"alg-v-s3-thm-2-cor-2","kind":"cites","raw":"V, p. 17, Cor. 2","form":"page","resolved_by":"page-map+no","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":146},
+{"from":"","from_label":"alg-v-s3-prop-3","to_label":"alg-v-s3-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":146},
+{"from":"","from_label":"alg-v-s3-prop-3","to_label":"alg-v-s2-thm-1","kind":"cites","raw":"V, p. 10, Th. 1","form":"page","resolved_by":"page-map","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":146},
+{"from":"","from_label":"alg-v-s3-prop-3","to_label":"alg-v-s3-prop-2","kind":"cites","raw":"V, p. 18, Prop. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":146},
+{"from":"","from_label":"alg-v-s3-prop-4","to_label":"alg-v-s3-thm-2-cor-1","kind":"cites","raw":"Cor. 1 of Th. 2","form":"attached","resolved_by":"parent-label","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":158},
+{"from":"","from_label":"alg-v-s3-prop-4","to_label":"alg-v-s3-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/alg/V/03_s3_algebraic_extensions.md","line":158},
+{"from":"","from_label":"alg-v-s3-ex-2","to_label":"alg-v-s11","kind":"cites","raw":"V, p. 161","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s3/02.md","line":14},
+{"from":"","from_label":"alg-v-s3-ex-4","to_label":"alg-iv-s3","kind":"cites","raw":"IV, p. 89","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s3/04.md","line":18},
+{"from":"","from_label":"alg-v-s3-ex-5","to_label":"alg-v-s14","kind":"cites","raw":"V, p. 174","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s3/05.md","line":14},
+{"from":"","from_label":"alg-v-s3-ex-7","to_label":"alg-ii-s1","kind":"cites","raw":"II, p. 206","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s3/07.md","line":15}
+]}

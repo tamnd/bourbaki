@@ -7,44 +7,45 @@ section: 3
 section_title: Complete spaces
 lang: en
 source: top-i-iv
+book_pages: 181-198, 208-209
 pdf_pages: 0187-0204, 0214-0215
 extraction: ocr
 subsections:
     - "no": 1
       title: CAUCHY FILTERS
-      page: 0
+      page: 181
       pdf_page: 187
     - "no": 2
       title: MINIMAL CAUCHY FILTERS
-      page: 0
+      page: 183
       pdf_page: 189
     - "no": 3
       title: COMPLETE SPACES
-      page: 0
+      page: 184
       pdf_page: 190
     - "no": 4
       title: SUBSPACES OF COMPLETE SPACES
-      page: 0
+      page: 186
       pdf_page: 192
     - "no": 5
       title: PRODUCTS AND INVERSE LIMITS OF COMPLETE SPACES
-      page: 0
+      page: 186
       pdf_page: 192
     - "no": 6
       title: EXTENSION OF UNIFORMLY CONTINUOUS FUNCTIONS
-      page: 0
+      page: 190
       pdf_page: 196
     - "no": 7
       title: THE COMPLETION OF A UNIFORM SPACE
-      page: 0
+      page: 191
       pdf_page: 197
     - "no": 8
       title: THE HAUSDORFF UNIFORM SPACE ASSOCIATED WITH A UNIFORM SPACE
-      page: 0
+      page: 196
       pdf_page: 202
     - "no": 9
       title: COMPLETION OF SUBSPACES AND PRODUCT SPACES
-      page: 0
+      page: 197
       pdf_page: 203
 statements: 48
 exercises: 7

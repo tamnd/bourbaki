@@ -8,56 +8,57 @@ section_title: Derivations
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 550-574, 645-646
 pdf_pages: 0574-0598, 0669-0670
 extraction: ocr
 subsections:
     - "no": 1
       title: COMMUTATION FACTORS
-      page: 0
+      page: 550
       pdf_page: 574
     - "no": 2
       title: GENERAL DEFINITION OF DERIVATIONS
-      page: 0
+      page: 551
       pdf_page: 575
     - "no": 3
       title: EXAMPLES OF DERIVATIONS
-      page: 0
+      page: 553
       pdf_page: 577
     - "no": 4
       title: COMPOSITION OF DERIVATIONS
-      page: 0
+      page: 554
       pdf_page: 578
     - "no": 5
       title: DERIVATIONS OF AN ALGEBRA A INTO AN A-MODULE
-      page: 0
+      page: 557
       pdf_page: 581
     - "no": 6
       title: DERIVATIONS OF AN ALGEBRA
-      page: 0
+      page: 559
       pdf_page: 583
     - "no": 7
       title: Functorial Properties
-      page: 0
+      page: 560
       pdf_page: 584
     - "no": 8
       title: RELATIONS BETWEEN DERIVATIONS AND ALGEBRA HOMOMORPHISMS
-      page: 0
+      page: 561
       pdf_page: 585
     - "no": 9
       title: EXTENSION OF DERIVATIONS
-      page: 0
+      page: 562
       pdf_page: 586
     - "no": 10
       title: UNIVERSAL PROBLEM FOR DERIVATIONS; NON-COMMUTATIVE CASE
-      page: 0
+      page: 567
       pdf_page: 591
     - "no": 11
       title: UNIVERSAL PROBLEM FOR DERIVATIONS; COMMUTATIVE CASE
-      page: 0
+      page: 568
       pdf_page: 592
     - "no": 12
       title: FUNCTIORIAL PROPERTIES OF K-DIFFERENTIALS
-      page: 0
+      page: 570
       pdf_page: 594
 statements: 41
 exercises: 5

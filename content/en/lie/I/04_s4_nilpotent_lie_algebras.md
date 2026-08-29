@@ -7,28 +7,29 @@ section: 4
 section_title: Nilpotent Lie algebras
 lang: en
 source: lie-i-iii
+book_pages: 38-42, 91-98
 pdf_pages: 0056-0060, 0109-0116
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF NILPOTENT LIE ALGEBRAS
-      page: 0
+      page: 38
       pdf_page: 56
     - "no": 2
       title: ENGEL'S THEOREM
-      page: 0
+      page: 39
       pdf_page: 57
     - "no": 3
       title: THE LARGEST NILPOTENCY IDEAL OF A REPRESENTATION
-      page: 0
+      page: 40
       pdf_page: 58
     - "no": 4
       title: THE LARGEST NILPOTENT IDEAL OF A LIE ALGEBRA
-      page: 0
+      page: 42
       pdf_page: 60
     - "no": 5
       title: EXTENSION OF THE BASE FIELD
-      page: 0
+      page: 42
       pdf_page: 60
 statements: 18
 exercises: 27

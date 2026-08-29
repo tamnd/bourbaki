@@ -1,0 +1,10 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"III, p. 11","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":25},
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"III, p. 3","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":27},
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"IV, p. 396","form":"page","resolved_by":"out-of-corpus","chapter":"IV","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":29},
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"VIII, p. 307","form":"page","resolved_by":"out-of-corpus","chapter":"VIII","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":29},
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"V, p. 357","form":"page","resolved_by":"out-of-corpus","chapter":"V","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":46},
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"XVII, p. 220","form":"page","resolved_by":"out-of-corpus","chapter":"XVII","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":46},
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"V, p. 24","form":"page","resolved_by":"out-of-corpus","chapter":"V","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":50},
+{"from":"","from_label":"hist-1-s15","kind":"cites","raw":"V, p. 24","form":"page","resolved_by":"out-of-corpus","chapter":"V","file":"content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md","line":52}
+]}

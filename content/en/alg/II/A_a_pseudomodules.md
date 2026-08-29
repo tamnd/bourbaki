@@ -9,16 +9,17 @@ appendix: true
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 378-379, 425
 pdf_pages: 0402-0403, 0449-0449
 extraction: ocr
 subsections:
     - "no": 1
       title: ADJUNCTION OF A UNIT ELEMENT TO A PSEUDO-RING
-      page: 0
+      page: 378
       pdf_page: 402
     - "no": 2
       title: PSEUDOMODULES
-      page: 0
+      page: 378
       pdf_page: 402
 statements: 0
 exercises: 1

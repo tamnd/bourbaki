@@ -7,28 +7,29 @@ section: 1
 section_title: COMPARISON OF FUNCTIONS ON A FILTERED SET
 lang: en
 source: fvr-i-vii
+book_pages: 211-220
 pdf_pages: 0226-0235, 0274-0274
 extraction: ocr
 subsections:
     - "no": 1
       title: 'COMPARISON RELATIONS: I. WEAK RELATIONS'
-      page: 0
+      page: 211
       pdf_page: 226
     - "no": 2
       title: 'COMPARISON RELATIONS: II. STRONG RELATIONS'
-      page: 0
+      page: 214
       pdf_page: 229
     - "no": 3
       title: CHANGE OF VARIABLE
-      page: 0
+      page: 217
       pdf_page: 232
     - "no": 4
       title: COMPARISON RELATIONS BETWEEN STRICTLY POSITIVE FUNCTIONS
-      page: 0
+      page: 217
       pdf_page: 232
     - "no": 5
       title: NOTATION
-      page: 0
+      page: 219
       pdf_page: 234
 statements: 38
 exercises: 3

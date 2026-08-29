@@ -37,7 +37,7 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: 6271d1681696bbcba9661379ea2e719cf21e3d751a07ad4cac4ddcf3be65cb5b
+content_sha256: bf0ebd0cda151170c108a2f9b899a1c59ba20dd5f6195c4caf5f17e7cc05a3cd
 ---
 
 ## § 3. COMPACT FORMS OF COMPLEX SEMI-SIMPLE LIE ALGEBRAS
@@ -58,7 +58,7 @@ $$
 
 #### Proposition 1 {#lie-ix-s3-prop-1 .statement tag=01JF}
 
-a) Let $\mathfrak{g}$ be a real form of $\mathfrak{a}$ and $\sigma$ the conjugation of $\mathfrak{a}$ relative to $\mathfrak{g}$. Then:
+$a)$ Let $\mathfrak{g}$ be a real form of $\mathfrak{a}$ and $\sigma$ the conjugation of $\mathfrak{a}$ relative to $\mathfrak{g}$. Then:
 
 $\sigma^2=$ Id$_{\mathfrak{a}}, \sigma (\lambda x+\mu y) = \overline{\lambda \sigma}(x) + \overline{\mu\sigma}(y),[\sigma (x), \sigma (y)] =\sigma [x, y]$ (2)
 
@@ -94,7 +94,7 @@ $B(H, X_{\alpha}) = 0,B(X_{\alpha}, X_{\beta}) = 0$ if $\alpha +\beta \not= 0,B(
 
 #### Proposition 2 {#lie-ix-s3-prop-2 .statement tag=01JG}
 
-a) The real vector subspace $\mathfrak{a}_0=\mathfrak{h}_0+\sum_{\alpha\in R}\mathbf{R}X_{\alpha}$ of $\mathfrak{a}$ is a
+$a)$ The real vector subspace $\mathfrak{a}_0=\mathfrak{h}_0+\sum_{\alpha\in R}\mathbf{R}X_{\alpha}$ of $\mathfrak{a}$ is a
 
 real form of $\mathfrak{a}$, of which $\mathfrak{h}_0$ is a Cartan subalgebra. The pair $(\mathfrak{a}_0,\mathfrak{h}_0)$ is a split semi-simple real Lie algebra, of which $(X_{\alpha})$ is a Chevalley system.
 

@@ -7,32 +7,33 @@ section: 4
 section_title: Central filtrations
 lang: en
 source: lie-i-iii
+book_pages: 142-149, 187-193
 pdf_pages: 0160-0167, 0205-0211
 extraction: ocr
 subsections:
     - "no": 1
       title: REAL FILTRATIONS
-      page: 0
+      page: 142
       pdf_page: 160
     - "no": 2
       title: ORDER FUNCTION
-      page: 0
+      page: 143
       pdf_page: 161
     - "no": 3
       title: GRADED ALGEBRA ASSOCIATED WITH A FILTERED ALGEBRA
-      page: 0
+      page: 144
       pdf_page: 162
     - "no": 4
       title: CENTRAL FILTRATIONS ON A GROUP
-      page: 0
+      page: 145
       pdf_page: 163
     - "no": 5
       title: AN EXAMPLE OF A CENTRAL FILTRATION
-      page: 0
+      page: 147
       pdf_page: 165
     - "no": 6
       title: INTEGRAL CENTRAL FILTRATIONS
-      page: 0
+      page: 148
       pdf_page: 166
 statements: 12
 exercises: 18

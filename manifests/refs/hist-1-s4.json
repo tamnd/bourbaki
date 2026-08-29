@@ -1,0 +1,9 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s4","kind":"cites","raw":"I, p. 239","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md","line":25},
+{"from":"","from_label":"hist-1-s4","kind":"cites","raw":"I, p. 304","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md","line":39},
+{"from":"","from_label":"hist-1-s4","kind":"cites","raw":"I, p. 321","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md","line":47},
+{"from":"","from_label":"hist-1-s4","kind":"cites","raw":"II, p. 178","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md","line":49},
+{"from":"","from_label":"hist-1-s4","kind":"cites","raw":"III, p. 251","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md","line":57},
+{"from":"","from_label":"hist-1-s4","kind":"cites","raw":"III, p. 370","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md","line":61},
+{"from":"","from_label":"hist-1-s4","kind":"cites","raw":"III, p. 29","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/04_s4_linear_algebra_and_multilinear_algebra.md","line":77}
+]}

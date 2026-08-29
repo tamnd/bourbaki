@@ -22,9 +22,9 @@ subsections:
       title: Cas des valeurs absolues
       page: 0
       pdf_page: 132
-statements: 15
+statements: 16
 exercises: 3
-content_sha256: 509ae173a9ca685d1d8f89151cdd7e582034c5e37e134c0ca9514767e1eba563
+content_sha256: cb90577db0ff77f03331b1d5585e9d0206d7ffc4505843b13154172f4befc9f4
 ---
 
 ## § 7. Théorème d’approximation.
@@ -94,7 +94,9 @@ Soient $A$ et $A'$ deux anneaux de valuation pour un même corps $K$. On dit que
 
 Une valuation impropre de $K$ est indépendante de toute valuation de $K$. Pour que deux valuations de hauteur 1 de $K$ soient indépendantes, il faut et il suffit qu’elles soient inéquivalentes ($§ 4, n° 5,$ prop. 6, c)).
 
-THÉORÈME 1 (Théorème d’approximation pour les valuations). Soient $v_i$ ($1 \leq i \leq n$) des valuations deux à deux indépendantes d’un corps $K$, et $\Gamma_i$ le groupe des ordres de $v_i$. Soient $a_i \in K$ et $\alpha_i \in \Gamma_i$ ($1 \leq i \leq n$). Il existe alors $x \in K$ tel que $v_i(x - a_i) \geq \alpha_i$ pour tout $i$.
+#### Théorème 1 (Théorème d’approximation pour les valuations) {#ac-vi-s7-thm-1 .statement}
+
+Soient $v_i$ ($1 \leq i \leq n$) des valuations deux à deux indépendantes d’un corps $K$, et $\Gamma_i$ le groupe des ordres de $v_i$. Soient $a_i \in K$ et $\alpha_i \in \Gamma_i$ ($1 \leq i \leq n$). Il existe alors $x \in K$ tel que $v_i(x - a_i) \geq \alpha_i$ pour tout $i$.
 Si $v_i$ est impropre, on a $\alpha_i = 0$ et la relation $v_i(x - a_i) \geq \alpha_i$ est vraie pour tout $x \in K$. On peut donc supposer les $\nu_i$ non impropres.
 
 Soient $A_i$ l’anneau de $\nu_i$, $B = \bigcap_{i=1}^n A_i$ et $\mathfrak{p}_i = m(A_i) \cap B$. D’après la prop. 1 du no 1, les $a_i$ peuvent s’écrire $a_i = b_i/s$ ($b_i \in B$, $s \in B - \{0\}$); si l’on pose $x = y/s$ et $\alpha'_i = \alpha_i + \nu_i(s)$, on devra avoir $\nu_i(y - b_i) \geq \alpha'_i$. Ceci montre qu’on peut supposer que $a_i \in B$ pour tout $i$; on peut aussi supposer que $\alpha_i > 0$ pour tout $i$. Soit $v_i$ l’ensemble des $z \in K$ tels que $\nu_i(z) \geq \alpha_i$; posons $q_i = v_i \cap B$. Pour $x \in B$, $\nu_i(x - a_i) \geq \alpha_i$ équivaut à $x \equiv a_i$ ($q_i$). Il s’agit donc de montrer que l’homomorphisme canonique $B \to \prod_{i=1}^n (B/q_i)$ est surjectif, c’est-à-dire qu’on a $q_i + q_j = B$ pour $i \neq j$ (Chap. II, § 1, no 2, prop. 5). Comme les idéaux maximaux de $B$ sont les $\mathfrak{p}_i$ (prop. 2), il suffira pour cela de montrer que l’on a $q_i \notin \mathfrak{p}_j$ pour $i \neq j$.

@@ -7,24 +7,25 @@ section: 4
 section_title: CONVEX FUNCTIONS OF A REAL VARIABLE
 lang: en
 source: fvr-i-vii
+book_pages: 23-33, 45-49
 pdf_pages: 0038-0048, 0060-0064
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF A CONVEX FUNCTION
-      page: 0
+      page: 24
       pdf_page: 39
     - "no": 2
       title: FAMILIES OF CONVEX FUNCTIONS
-      page: 0
+      page: 27
       pdf_page: 42
     - "no": 3
       title: CONTINUITY AND DIFFERENTIABILITY OF CONVEX FUNCTIONS
-      page: 0
+      page: 27
       pdf_page: 42
     - "no": 4
       title: CRITERIA FOR CONVEXITY
-      page: 0
+      page: 30
       pdf_page: 45
 statements: 21
 exercises: 10

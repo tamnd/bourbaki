@@ -8,32 +8,33 @@ section_title: Graded modules and rings
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 363-377, 424-425
 pdf_pages: 0387-0401, 0448-0449
 extraction: ocr
 subsections:
     - "no": 1
       title: GRADED COMMUTATIVE GROUPS
-      page: 0
+      page: 363
       pdf_page: 387
     - "no": 2
       title: GRADED RINGS AND MODULES
-      page: 0
+      page: 364
       pdf_page: 388
     - "no": 3
       title: GRADED SUBMODULES
-      page: 0
+      page: 367
       pdf_page: 391
     - "no": 4
       title: CASE OF AN ORDERED GROUP OF DEGREES
-      page: 0
+      page: 371
       pdf_page: 395
     - "no": 5
       title: GRADED TENSOR PRODUCT OF GRADED MODULES
-      page: 0
+      page: 374
       pdf_page: 398
     - "no": 6
       title: GRADED MODULES OF GRADED HOMOMORPHISMS
-      page: 0
+      page: 375
       pdf_page: 399
 statements: 28
 exercises: 1

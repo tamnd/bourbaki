@@ -1,0 +1,13 @@
+{"edges": [
+{"from":"","from_label":"fvr-i-s4-def-1","to_label":"fvr-i-s4-def-1","kind":"cites","raw":"Definition 1","form":"local","resolved_by":"in-section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":73},
+{"from":"","from_label":"fvr-i-s4-prop-6-cor-2","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 18","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":260},
+{"from":"","from_label":"fvr-i-s4-n3-rem-1","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 13","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":268},
+{"from":"","from_label":"fvr-i-s4-n3-rem-1","to_label":"fvr-i-s4","kind":"cites","raw":"I, p. 46","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":275},
+{"from":"","from_label":"fvr-i-s4-prop-8","to_label":"fvr-i-s4","kind":"cites","raw":"I, p. 27","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":298},
+{"from":"","from_label":"fvr-i-s4-prop-8","to_label":"fvr-i-s4","kind":"cites","raw":"I, p. 27","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":298},
+{"from":"","from_label":"fvr-i-s4-prop-8","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":298},
+{"from":"","from_label":"fvr-i-s4-n4-cor-1","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":311},
+{"from":"","from_label":"fvr-i-s4-prop-9","to_label":"fvr-i-s4","kind":"cites","raw":"I, p. 29","form":"page","resolved_by":"section","file":"content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md","line":323},
+{"from":"","from_label":"fvr-i-s4-ex-8","to_label":"fvr-i-s4","kind":"cites","raw":"I, p. 31","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s4/08.md","line":14},
+{"from":"","from_label":"fvr-i-s4-ex-10","to_label":"ens-iii-s1","kind":"cites","raw":"Set Theory, III, p. 146","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s4/10.md","line":55}
+]}

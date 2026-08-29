@@ -51,9 +51,9 @@ subsections:
       title: Structure des modules injectifs
       page: 22
       pdf_page: 28
-statements: 54
+statements: 55
 exercises: 17
-content_sha256: bd3c41963bcd4825d6836308d2ec8fec47621486e6b81283e3fadd4d739f6f4a
+content_sha256: bc19da43004b19055ec3f2c2c05899eaf5dce7177cab8b30104e033843178968
 ---
 
 ## § 1. COMPLÉMENTS D’ALGÈBRE LINÉAIRE
@@ -945,7 +945,9 @@ Soit $M$ un $A$-module. Une enveloppe injective de $M$ est un couple $(I,i)$, o�
 
 Notons que (E) implique que i est injectif. On identifie souvent M au sous-module i(M) de I, et on dit alors que I est une enveloppe injective de M.
 
-Exemple 1. Supposons A intègre et M sans torsion. Soient K le corps des fractions de A et i : M → K ⊗_A M l’homomorphisme canonique. Alors (K ⊗_A M, i) est une enveloppe injective de M (II, p. 116, prop. 26 et X, p. 17, cor. 2).
+#### Exemple 1 {#alg-x-s1-n9-exa-1 .statement}
+
+Supposons A intègre et M sans torsion. Soient K le corps des fractions de A et i : M → K ⊗_A M l’homomorphisme canonique. Alors (K ⊗_A M, i) est une enveloppe injective de M (II, p. 116, prop. 26 et X, p. 17, cor. 2).
 
 #### Théorème 2 {#alg-x-s1-thm-2 .statement}
 

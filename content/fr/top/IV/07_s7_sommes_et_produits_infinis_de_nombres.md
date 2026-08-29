@@ -35,9 +35,9 @@ subsections:
       title: Séries et produits infinis de nombres réels
       page: 38
       pdf_page: 309
-statements: 25
+statements: 26
 exercises: 22
-content_sha256: c5cf4e84b532067825b7cfdd7f1d44c588b392d7de45c68930efc3767c2807f1
+content_sha256: bd260491dd1441dcc19d98698ff22398e4eb75bdf06991ab6d267d3178fc6a6b
 ---
 
 ## § 7. SOMMES ET PRODUITS INFINIS DE NOMBRES RÉELS
@@ -303,7 +303,9 @@ Autrement dit, si $(u_n)$ est une suite de nombres réels finis, il revient au m
 
 Comme on l’a déjà signalé (III, p. 43), une série de nombres réels peut être convergente sans être commutativement convergente, ou, ce qui revient au même, sans être absolument convergente.
 
-Exemple. Séries alternées. — Une série définie par une suite $(u_n)$ de nombres réels finis, est dite alternée si $u_n = (-1)^n v_n$, avec $v_n \geq 0$ quel que soit $n$. Montrons qu’une condition suffisante pour qu’une telle série converge, est que la suite $(v_n)$ soit décroissante et ait pour limite 0. En effet, si on pose $s_n = \sum_{p=0}^n u_p$, l’hypothèse que $(v_n)$ est décroissante entraîne que
+#### Exemple {#top-iv-s7-n6-exa-1 .statement}
+
+Séries alternées. — Une série définie par une suite $(u_n)$ de nombres réels finis, est dite alternée si $u_n = (-1)^n v_n$, avec $v_n \geq 0$ quel que soit $n$. Montrons qu’une condition suffisante pour qu’une telle série converge, est que la suite $(v_n)$ soit décroissante et ait pour limite 0. En effet, si on pose $s_n = \sum_{p=0}^n u_p$, l’hypothèse que $(v_n)$ est décroissante entraîne que
 
 $$
 s_{2n+1} \leq s_{2n+3} \leq s_{2n+2} \leq s_{2n}
@@ -341,7 +343,7 @@ De plus, pour que le produit de facteur général $1 + u_n$ soit absolument conv
 
 Un produit de nombres réels $\neq 0$ peut être convergent sans être commutativement convergent, ou, ce qui revient au même, sans être absolument convergent.
 
-#### Exemple {#top-iv-s7-n6-exa-1 .statement}
+#### Exemple {#top-iv-s7-n6-exa-2 .statement}
 
 Si on prend, pour $n \geq 2$, $u_{2n-1} = -1/n, u_{2n} = 1/n$, le produit $(1 + u_n)$ n’est pas absolument convergent, puisque la série $(u_n)$ n’est pas absolument convergente; mais, comme
 

@@ -7,32 +7,33 @@ section: 7
 section_title: Infinite sums and products of real numbers
 lang: en
 source: top-i-iv
+book_pages: 363-372, 397-401
 pdf_pages: 0369-0378, 0403-0407
 extraction: ocr
 subsections:
     - "no": 1
       title: FAMILIES OF POSITIVE FINITE NUMBERS SUMMABLE IN $\mathbf{R}$
-      page: 0
+      page: 364
       pdf_page: 370
     - "no": 2
       title: FAMILIES OF FINITE NUMBERS OF ARBITRARY SIGN SUMMABLE IN $\mathbf{R}$
-      page: 0
+      page: 366
       pdf_page: 372
     - "no": 3
       title: PRODUCT OF TWO INFINITE SUMS
-      page: 0
+      page: 367
       pdf_page: 373
     - "no": 4
       title: FAMILIES MULTIPLIABLE IN $\mathbf{R}^*$
-      page: 0
+      page: 367
       pdf_page: 373
     - "no": 5
       title: SUMMABLE FAMILIES AND MULTIPLIABLE FAMILIES IN $\overline{\mathbf{R}}$
-      page: 0
+      page: 369
       pdf_page: 375
     - "no": 6
       title: INFINITE SERIES AND INFINITE PRODUCTS OF REAL NUMBERS
-      page: 0
+      page: 370
       pdf_page: 376
 statements: 20
 exercises: 22

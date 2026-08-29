@@ -7,36 +7,37 @@ section: 5
 section_title: Real-valued functions
 lang: en
 source: top-i-iv
+book_pages: 347-359, 389-393
 pdf_pages: 0353-0365, 0395-0399
 extraction: ocr
 subsections:
     - "no": 1
       title: REAL-VALUED FUNCTIONS
-      page: 0
+      page: 347
       pdf_page: 353
     - "no": 2
       title: REAL-VALUED FUNCTIONS DEFINED ON A FILTERED SET
-      page: 0
+      page: 348
       pdf_page: 354
     - "no": 3
       title: LIMITS ON THE RIGHT AND ON THE LEFT OF A FUNCTION OF A REAL VARIABLE
-      page: 0
+      page: 349
       pdf_page: 355
     - "no": 4
       title: BOUNDS OF A REAL-VALUED FUNCTION
-      page: 0
+      page: 350
       pdf_page: 356
     - "no": 5
       title: ENVELOPES OF A FAMILY OF REAL-VALUED FUNCTIONS
-      page: 0
+      page: 352
       pdf_page: 358
     - "no": 6
       title: UPPER LIMIT AND LOWER LIMIT OF A REAL-VALUED FUNCTION WITH RESPECT TO A FILTER
-      page: 0
+      page: 353
       pdf_page: 359
     - "no": 7
       title: ALGEBRAIC OPERATIONS ON REAL-VALUED FUNCTIONS
-      page: 0
+      page: 356
       pdf_page: 362
 statements: 30
 exercises: 18

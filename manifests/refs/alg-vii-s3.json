@@ -1,0 +1,22 @@
+{"edges": [
+{"from":"","from_label":"alg-vii-s3-thm-1","to_label":"alg-ii-s2-def-1","kind":"cites","raw":"II, p. 231, Def. 1","form":"page","resolved_by":"page-map","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":23},
+{"from":"","from_label":"alg-vii-s3-thm-1","to_label":"ens-iii-s2","kind":"cites","raw":"*Set Theory*, III, p. 153","form":"page","resolved_by":"section","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":25},
+{"from":"","from_label":"alg-vii-s3-thm-1","to_label":"alg-ii-s2-prop-4","kind":"cites","raw":"II, p. 231, Prop. 4","form":"page","resolved_by":"page-map","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":25},
+{"from":"","from_label":"alg-vii-s3-thm-1-cor-1","to_label":"alg-ii-s2-prop-4","kind":"cites","raw":"II, p. 231, Prop. 4","form":"page","resolved_by":"page-map","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":31},
+{"from":"","from_label":"alg-vii-s3-thm-1-cor-1","to_label":"alg-vii-s3-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":31},
+{"from":"","from_label":"alg-vii-s3-thm-1-cor-2","to_label":"alg-vii-s3-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":36},
+{"from":"","from_label":"alg-vii-s3-thm-1-cor-3","to_label":"alg-vii-s3-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":41},
+{"from":"","from_label":"alg-vii-s3-thm-1-cor-3","to_label":"alg-vii-s3-thm-1-cor-2","kind":"cites","raw":"Cor. 2 to Th. 1","form":"attached","resolved_by":"parent-label","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":44},
+{"from":"","from_label":"alg-vii-s3-lem-1","to_label":"alg-iii-s7","kind":"cites","raw":"III, p. 520","form":"page","resolved_by":"section","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":49},
+{"from":"","from_label":"alg-vii-s3-lem-1","to_label":"alg-iii-s7-prop-6","kind":"cites","raw":"III, p. 511, Prop. 6","form":"page","resolved_by":"page-map","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":49},
+{"from":"","from_label":"alg-vii-s3-lem-1","to_label":"alg-iii-s7-thm-1-cor-1","kind":"cites","raw":"III, p. 518, Cor. 1","form":"page","resolved_by":"page-map+no","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":49},
+{"from":"","from_label":"alg-vii-s3-lem-1","to_label":"alg-ii-s1-prop-21","kind":"cites","raw":"II, p. 218, Prop. 21","form":"page","resolved_by":"page-map","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":49},
+{"from":"","from_label":"alg-vii-s3-n0-cor-1","to_label":"alg-ii-s1-def-10-cor-3","kind":"cites","raw":"II, p. 216, Cor. 3","form":"page","resolved_by":"page-map+no","file":"content/en/alg/VII/03_s3_free_modules_over_a_principal_ideal.md","line":54},
+{"from":"","from_label":"alg-vii-s3-ex-2","to_label":"alg-vii-s3-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/VII/exercises/s3/02.md","line":14},
+{"from":"","from_label":"alg-vii-s3-ex-2","to_label":"alg-vii-s2","kind":"cites","raw":"VII, p. 57","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s3/02.md","line":14},
+{"from":"","from_label":"alg-vii-s3-ex-4","to_label":"alg-vii-s2","kind":"cites","raw":"VII, p. 55","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s3/04.md","line":15},
+{"from":"","from_label":"alg-vii-s3-ex-4","to_label":"alg-vii-s2","kind":"cites","raw":"VII, p. 55","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s3/04.md","line":16},
+{"from":"","from_label":"alg-vii-s3-ex-9","to_label":"alg-vii-s3","kind":"cites","raw":"VII, p. 60","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s3/09.md","line":16},
+{"from":"","from_label":"alg-vii-s3-ex-10","to_label":"alg-vii-s2","kind":"cites","raw":"VII, p. 55","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s3/10.md","line":14},
+{"from":"","from_label":"alg-vii-s3-ex-11","to_label":"alg-vii-s4","kind":"cites","raw":"VII, p. 69","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s3/11.md","line":15}
+]}

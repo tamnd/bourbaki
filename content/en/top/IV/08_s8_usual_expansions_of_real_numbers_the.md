@@ -7,32 +7,33 @@ section: 8
 section_title: Usual expansions of real numbers; the power of R
 lang: en
 source: top-i-iv
+book_pages: 373-377
 pdf_pages: 0379-0383, 0407-0411
 extraction: ocr
 subsections:
     - "no": 1
       title: APPROXIMATIONS TO A REAL NUMBER
-      page: 0
+      page: 373
       pdf_page: 379
     - "no": 2
       title: EXPANSIONS OF REAL NUMBERS RELATIVE TO A BASE SEQUENCE
-      page: 0
+      page: 373
       pdf_page: 379
     - "no": 3
       title: DEFINITION OF A REAL NUMBER BY MEANS OF ITS EXPANSION
-      page: 0
+      page: 374
       pdf_page: 380
     - "no": 4
       title: COMPARISON OF EXPANSIONS
-      page: 0
+      page: 376
       pdf_page: 382
     - "no": 5
       title: EXPANSIONS TO BASE A
-      page: 0
+      page: 376
       pdf_page: 382
     - "no": 6
       title: THE POWER OF R
-      page: 0
+      page: 377
       pdf_page: 383
 statements: 3
 exercises: 6

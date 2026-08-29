@@ -7,40 +7,41 @@ section: 3
 section_title: Representations
 lang: en
 source: lie-i-iii
+book_pages: 25-38, 85-91
 pdf_pages: 0043-0056, 0103-0109
 extraction: ocr
 subsections:
     - "no": 1
       title: REPRESENTATIONS
-      page: 0
+      page: 25
       pdf_page: 43
     - "no": 2
       title: TENSOR PRODUCT OF REPRESENTATIONS
-      page: 0
+      page: 28
       pdf_page: 46
     - "no": 3
       title: REPRESENTATIONS ON HOMOMORPHISM MODULES
-      page: 0
+      page: 29
       pdf_page: 47
     - "no": 4
       title: EXAMPLES
-      page: 0
+      page: 31
       pdf_page: 49
     - "no": 5
       title: INVARIANT ELEMENTS
-      page: 0
+      page: 32
       pdf_page: 50
     - "no": 6
       title: INVARIANT BILINEAR FORMS
-      page: 0
+      page: 33
       pdf_page: 51
     - "no": 7
       title: CASIMIR ELEMENT
-      page: 0
+      page: 35
       pdf_page: 53
     - "no": 8
       title: EXTENSION OF THE BASE RING
-      page: 0
+      page: 36
       pdf_page: 54
 statements: 24
 exercises: 12

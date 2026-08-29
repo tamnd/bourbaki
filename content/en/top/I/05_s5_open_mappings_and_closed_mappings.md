@@ -7,24 +7,25 @@ section: 5
 section_title: Open mappings and closed mappings
 lang: en
 source: top-i-iv
+book_pages: 50-57, 127-128
 pdf_pages: 0056-0063, 0133-0134
 extraction: ocr
 subsections:
     - "no": 1
       title: OPEN MAPPINGS AND CLOSED MAPPINGS
-      page: 0
+      page: 50
       pdf_page: 56
     - "no": 2
       title: OPEN EQUIVALENCE RELATIONS AND CLOSED EQUIVALENCE RELATIONS
-      page: 0
+      page: 52
       pdf_page: 58
     - "no": 3
       title: PROPERTIES PECULIAR TO OPEN MAPPINGS
-      page: 0
+      page: 54
       pdf_page: 60
     - "no": 4
       title: PROPERTIES PECULIAR TO CLOSED MAPPINGS
-      page: 0
+      page: 56
       pdf_page: 62
 statements: 19
 exercises: 7

@@ -1,0 +1,22 @@
+{"edges": [
+{"from":"","from_label":"lie-v-s2-n2-cor-1","to_label":"lie-v-s2-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/lie/V/02_s2_reflections.md","line":111},
+{"from":"","from_label":"lie-v-s2-n2-cor-2","to_label":"lie-v-s2-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/lie/V/02_s2_reflections.md","line":129},
+{"from":"","from_label":"lie-v-s2-n2-cor-2","to_label":"lie-v-s2-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/lie/V/02_s2_reflections.md","line":129},
+{"from":"","from_label":"lie-v-s2","kind":"cites","raw":"Algebra, Chap. IX, § 6, no. 3, Prop. 4","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/02_s2_reflections.md","line":149},
+{"from":"","from_label":"lie-v-s2","kind":"cites","raw":"Algebra, Chap. IX, §6, no. 3","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/02_s2_reflections.md","line":149},
+{"from":"","from_label":"lie-v-s2","kind":"cites","raw":"Algebra, Chap. IX, § 6, no. 4","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/02_s2_reflections.md","line":155},
+{"from":"","from_label":"lie-v-s2-prop-4","to_label":"lie-v-s2-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/lie/V/02_s2_reflections.md","line":165},
+{"from":"","from_label":"lie-v-s2-prop-4","kind":"cites","raw":"Algebra, Chap. IX, § 1, no. 6, Cor. 1 to Prop. 4","form":"attached","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/02_s2_reflections.md","line":165},
+{"from":"","from_label":"lie-v-s2","kind":"cites","raw":"Algebra, Chap. IX, § 6, no. 6","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/02_s2_reflections.md","line":169},
+{"from":"","from_label":"lie-v-s2","kind":"cites","raw":"Algebra, Chap. IX, § 6, no. 6","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/02_s2_reflections.md","line":171},
+{"from":"","from_label":"lie-v-s2-n4-cor-1","to_label":"lie-iv-s1-prop-2","kind":"cites","raw":"Prop. 2 of Chap. IV, § 1, no. 2","form":"section","resolved_by":"section-no","file":"content/en/lie/V/02_s2_reflections.md","line":195},
+{"from":"","from_label":"lie-v-s2-n4-rem-1","to_label":"lie-v-s2-prop-5","kind":"cites","raw":"Prop. 5","form":"local","resolved_by":"in-section","file":"content/en/lie/V/02_s2_reflections.md","line":199},
+{"from":"","from_label":"lie-v-s2-n4-rem-1","to_label":"lie-iv-s1","kind":"cites","raw":"Chap. IV, § 1, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/V/02_s2_reflections.md","line":199},
+{"from":"","from_label":"lie-v-s2-n4-rem-1","to_label":"lie-iv-s1","kind":"cites","raw":"Chap. IV, § 1, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/V/02_s2_reflections.md","line":199},
+{"from":"","from_label":"lie-v-s2","to_label":"top-viii-s2","kind":"cites","raw":"*General Topology*, Chap. VIII, § 2, no. 3","form":"section","resolved_by":"section","file":"content/en/lie/V/02_s2_reflections.md","line":203},
+{"from":"","from_label":"lie-v-s2","kind":"cites","raw":"*Algebra*, Chap. IX, § 10, no. 3","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/lie/V/02_s2_reflections.md","line":203},
+{"from":"","from_label":"lie-v-s2-prop-7","to_label":"lie-iv-s1","kind":"cites","raw":"Chap. IV, § 1, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/V/02_s2_reflections.md","line":239},
+{"from":"","from_label":"lie-v-s2-prop-7","to_label":"lie-v-s2-n5-cor-1","kind":"cites","raw":"Corollary to Prop. 6","form":"attached","resolved_by":"parent-label","file":"content/en/lie/V/02_s2_reflections.md","line":241},
+{"from":"","from_label":"lie-v-s2-n5-rem-1","to_label":"lie-iv-s1","kind":"cites","raw":"Chap. IV, § 1, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/V/02_s2_reflections.md","line":263},
+{"from":"","from_label":"lie-v-s2-ex-2","to_label":"lie-v-s2-ex-1","kind":"cites","raw":"Exerc. 1","form":"local","resolved_by":"exercise","file":"content/en/lie/V/exercises/s2/02.md","line":13}
+]}

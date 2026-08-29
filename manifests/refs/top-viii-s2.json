@@ -1,0 +1,15 @@
+{"edges": [
+{"from":"","from_label":"top-viii-s2-thm-1","to_label":"top-vi-s2-prop-5","kind":"cites","raw":"Chapter VI, § 2, no. 4, Proposition 5","form":"section","resolved_by":"section-no","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":50},
+{"from":"","from_label":"top-viii-s2-n1-cor-1","to_label":"top-viii-s1-prop-1","kind":"cites","raw":"§ 1, no. 3, Proposition 1","form":"section","resolved_by":"section-no","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":54},
+{"from":"","from_label":"top-viii-s2-n1-rem-1","to_label":"top-viii-s2-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":58},
+{"from":"","from_label":"top-viii-s2-n1-rem-2","to_label":"top-vii-s2","kind":"cites","raw":"Chapter VII, § 2, no. 3","form":"section","resolved_by":"section","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":84},
+{"from":"","from_label":"top-viii-s2","to_label":"top-vi-s3","kind":"cites","raw":"Chapter VI, § 3, no. 4","form":"section","resolved_by":"section","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":132},
+{"from":"","from_label":"top-viii-s2","to_label":"top-viii-s2-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":138},
+{"from":"","from_label":"top-viii-s2","to_label":"top-iv-s2-thm-5","kind":"cites","raw":"Chapter IV, § 2, no. 6, Theorem 5","form":"section","resolved_by":"section-no","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":225},
+{"from":"","from_label":"top-viii-s2","to_label":"top-vi-s2-prop-3","kind":"cites","raw":"Chapter VI, § 2, no. 3, Proposition 3","form":"section","resolved_by":"section-no","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":247},
+{"from":"","from_label":"top-viii-s2-n6-rem-1","to_label":"top-vi-s3","kind":"cites","raw":"Chapter VI, § 3, no. 3","form":"section","resolved_by":"section","file":"content/en/top/VIII/02_s2_angular_measure_trigonometric_functions.md","line":277},
+{"from":"","from_label":"top-viii-s2-ex-2","to_label":"top-viii-s2-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/top/VIII/exercises/s2/02.md","line":17},
+{"from":"","from_label":"top-viii-s2-ex-2","to_label":"top-iv-s6-thm-1","kind":"cites","raw":"Chapter IV, § 6, no. 1, Theorem 1","form":"section","resolved_by":"section-no","file":"content/en/top/VIII/exercises/s2/02.md","line":17},
+{"from":"","from_label":"top-viii-s2-ex-3","to_label":"top-viii-s2-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/VIII/exercises/s2/03.md","line":13},
+{"from":"","from_label":"top-viii-s2-ex-3","to_label":"top-viii-s2-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/top/VIII/exercises/s2/03.md","line":13}
+]}

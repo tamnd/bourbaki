@@ -8,60 +8,61 @@ section_title: Matrices
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 338-363, 417-424
 pdf_pages: 0362-0387, 0441-0448
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF MATRICES
-      page: 0
+      page: 338
       pdf_page: 362
     - "no": 2
       title: MATRICES OVER A COMMUTATIVE GROUP
-      page: 0
+      page: 339
       pdf_page: 363
     - "no": 3
       title: MATRICES OVER A RING
-      page: 0
+      page: 341
       pdf_page: 365
     - "no": 4
       title: MATRICES AND LINEAR MAPPINGS
-      page: 0
+      page: 342
       pdf_page: 366
     - "no": 5
       title: BLOCK PRODUCTS
-      page: 0
+      page: 346
       pdf_page: 370
     - "no": 6
       title: MATRIX OF A SEMI-LINEAR MAPPING
-      page: 0
+      page: 347
       pdf_page: 371
     - "no": 7
       title: SQUARE MATRICES
-      page: 0
+      page: 349
       pdf_page: 373
     - "no": 8
       title: CHANGE OF BASES
-      page: 0
+      page: 352
       pdf_page: 376
     - "no": 9
       title: EQUIVALENT MATRICES; SIMILAR MATRICES
-      page: 0
+      page: 354
       pdf_page: 378
     - "no": 10
       title: TENSOR PRODUCT OF MATRICES OVER A COMMUTATIVE RING
-      page: 0
+      page: 356
       pdf_page: 380
     - "no": 11
       title: TRACE OF A MATRIX
-      page: 0
+      page: 358
       pdf_page: 382
     - "no": 12
       title: MATRICES OVER A FIELD
-      page: 0
+      page: 359
       pdf_page: 383
     - "no": 13
       title: EQUIVALENCE OF MATRICES OVER A FIELD
-      page: 0
+      page: 360
       pdf_page: 384
 statements: 35
 exercises: 12

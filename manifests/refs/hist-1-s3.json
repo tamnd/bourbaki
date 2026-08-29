@@ -1,0 +1,11 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"I, p. 272","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":50},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"V, p. 141","form":"page","resolved_by":"out-of-corpus","chapter":"V","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":52},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"I, p. 374","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":58},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"II, p. 266","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":58},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"I, p. 64","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":60},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"VIII, p. 357","form":"page","resolved_by":"out-of-corpus","chapter":"VIII","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":62},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"I, p. 478","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":64},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"III, p. 251","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":82},
+{"from":"","from_label":"hist-1-s3","kind":"cites","raw":"III, p. 439","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/03_s3_the_evolution_of_algebra.md","line":90}
+]}

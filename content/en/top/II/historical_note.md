@@ -8,6 +8,7 @@ section_title: Historical Note
 kind: historical
 lang: en
 source: top-i-iv
+book_pages: 216-218
 pdf_pages: 0222-0224
 extraction: ocr
 statements: 0

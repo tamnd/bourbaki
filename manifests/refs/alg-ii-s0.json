@@ -1,0 +1,4 @@
+{"edges": [
+{"from":"","from_label":"alg-ii-s0","to_label":"alg-i-s4","kind":"cites","raw":"I, § 4, no. 2","form":"section","resolved_by":"section","file":"content/en/alg/II/00_frontmatter.md","line":24},
+{"from":"","from_label":"alg-ii-s0","to_label":"alg-iii-s2","kind":"cites","raw":"Chapter III, § 2, no. 6","form":"section","resolved_by":"section","file":"content/en/alg/II/00_frontmatter.md","line":24}
+]}

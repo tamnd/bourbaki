@@ -7,24 +7,25 @@ section: 7
 section_title: Inverse limits of topological groups and rings
 lang: en
 source: top-i-iv
+book_pages: 284-295
 pdf_pages: 0290-0301, 0330-0332
 extraction: ocr
 subsections:
     - "no": 1
       title: INVERSE LIMITS OF ALGEBRAIC STRUCTURES
-      page: 0
+      page: 284
       pdf_page: 290
     - "no": 2
       title: INVERSE LIMITS OF TOPOLOGICAL GROUPS AND SPACES WITH OPERATORS
-      page: 0
+      page: 286
       pdf_page: 292
     - "no": 3
       title: APPROXIMATION OF TOPOLOGICAL GROUPS
-      page: 0
+      page: 289
       pdf_page: 295
     - "no": 4
       title: APPLICATION TO INVERSE LIMITS
-      page: 0
+      page: 293
       pdf_page: 299
 statements: 15
 exercises: 5

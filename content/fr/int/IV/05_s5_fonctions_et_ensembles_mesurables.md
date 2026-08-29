@@ -58,9 +58,9 @@ subsections:
       title: Une propriété de la convergence vague
       page: 0
       pdf_page: 204
-statements: 76
+statements: 77
 exercises: 30
-content_sha256: e0490ea743776a194803b2ddeaff4d8770f05d7bc1a191c652da232c512b3310
+content_sha256: 75f971651d88da0710e759eaf3b5edbfa9128b3f30e470b8ae93bb0134ca293f
 ---
 
 ## § 5. Fonctions et ensembles mesurables
@@ -734,7 +734,9 @@ d’où $|\mu|^*(C) \leq \delta$, ce qui démontre (iii).
 
 (ii) En vertu de (iii), il suffit de montrer par exemple que $\mathcal{L}_F^1$ est partout dense dans $\mathcal{S}_F$, puisque par définition $\mathcal{K}(X; F)$ est dense dans $\mathcal{L}_F^1$ pour la topologie de la convergence en moyenne. Or, soient $f$ un élément quelconque de $\mathcal{S}_F$, et $T(B, \delta)$ un voisinage de 0 dans cet espace ; on voit comme dans (i) qu’il existe une partie intégrable $C$ de $B$ telle que $|\mu|(C) \leq \delta$ et que $f$ soit *bornée* dans $B - C$; désignant alors par $g$ la fonction égale à $f$ dans $B - C$, à 0 dans $X - (B - C)$, il résulte du n° 6, th. 5 que $g$ est intégrable, et l’on a évidemment $f - g \in T(B, \delta)$.
 
-*Remarques.* 1) L’espace vectoriel topologique $\mathcal{S}(X, \mu; F)$ n’est pas nécessairement localement convexe (exerc. 24).
+#### Remarque 1 {#int-iv-s5-n11-rem-1 .statement}
+
+L’espace vectoriel topologique $\mathcal{S}(X, \mu; F)$ n’est pas nécessairement localement convexe (exerc. 24).
 2) La topologie induite par la topologie de la convergence en mesure sur l’ensemble des $f$ telles que $N_p(f) \leq 1$ peut être strictement moins fine que la topologie induite sur cet ensemble par la topologie de la convergence en moyenne d’ordre $p$ (exerc. 22). Voir toutefois la prop. 21 ci-dessous.
 
 #### Définition 10 {#int-iv-s5-def-10 .statement}
@@ -748,7 +750,7 @@ $$
 
 Si $p = 1$, on dit « équiintégrable » au lieu de « équiintégrable d’ordre $p$ ».
 
-#### Remarque {#int-iv-s5-n11-rem-1 .statement}
+#### Remarque {#int-iv-s5-n11-rem-2 .statement}
 
 Supposons $\mu$ bornée. Pour tout $a > 0$, l’ensemble des applications mesurables de $X$ dans $F$ telles que $|f(x)| \leq a$ presque partout est équiintégrable d’ordre $p$, et ceci quel que soit $p \in [1, +\infty[$.
 

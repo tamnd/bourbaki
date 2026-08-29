@@ -7,32 +7,33 @@ section: 3
 section_title: ASYMPTOTIC EXPANSIONS OF FUNCTIONS OF A REAL VARIABLE
 lang: en
 source: fvr-i-vii
+book_pages: 227-236, 260-261
 pdf_pages: 0242-0251, 0275-0276
 extraction: ocr
 subsections:
     - "no": 1
       title: 'INTEGRATION OF COMPARISON RELATIONS: **I. WEAK RELATIONS**'
-      page: 0
+      page: 228
       pdf_page: 243
     - "no": 2
       title: 'APPLICATION: LOGARITHMIC CRITERIA FOR CONVERGENCE OF INTEGRALS'
-      page: 0
+      page: 229
       pdf_page: 244
     - "no": 3
       title: 'INTEGRATION OF COMPARISON RELATIONS: II. STRONG RELATIONS'
-      page: 0
+      page: 230
       pdf_page: 245
     - "no": 4
       title: DIFFERENTIATION OF COMPARISON RELATIONS
-      page: 0
+      page: 232
       pdf_page: 247
     - "no": 5
       title: PRINCIPAL PART OF A PRIMITIVE
-      page: 0
+      page: 233
       pdf_page: 248
     - "no": 6
       title: ASYMPTOTIC EXPANSION OF A PRIMITIVE
-      page: 0
+      page: 235
       pdf_page: 250
 statements: 23
 exercises: 7

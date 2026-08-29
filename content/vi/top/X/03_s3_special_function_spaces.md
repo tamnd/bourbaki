@@ -77,7 +77,7 @@ Chú ý rằng hệ quả này áp dụng đặc biệt khi $X$ là *địa phư
 Bây giờ cho $Y$ là một không gian mêtric và $d$ là mêtric của nó. Nếu $X$ là một tập hợp bất kỳ và $\mathcal{S}$ là một tập hợp bất kỳ các tập con của $X$, ta sẽ ký hiệu bởi $\mathcal{B}_{\mathcal{S}}(X; Y)$ tập hợp tất cả các ánh xạ $u : X \to Y$ sao cho $u(A)$ là *bị chặn* với mỗi $A \in \mathcal{S}$. Trừ khi nói rõ điều ngược lại, ta sẽ xem $\mathcal{B}_{\mathcal{S}}(X; Y)$ được trang bị cấu trúc đều của sự hội tụ theo $\mathcal{S}$, được xác định bởi họ giả mêtric sau trên $\mathcal{B}_{\mathcal{S}}(X; Y)$:
 
 $$
-d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{A \in \mathcal{S}}
+d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{$A \in \mathcal{S}$}
 $$
 
 chúng là *hữu hạn* theo giả thiết. Khi $\mathcal{S} = \{X\}$, ta viết $\mathcal{B}(X; Y)$ thay cho $\mathcal{B}_{\mathcal{S}}(X; Y)$. Một ánh xạ $u : X \to Y$ được gọi là *bị chặn* nếu nó thuộc $\mathcal{B}(X; Y)$, tức là nếu $u(X)$ là một tập con bị chặn của $Y$.

@@ -7,44 +7,45 @@ section: 1
 section_title: DERIVATIVES OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS
 lang: en
 source: fvr-i-vii
+book_pages: 91-104, 115-125
 pdf_pages: 0106-0119, 0130-0140
 extraction: ocr
 subsections:
     - "no": 1
       title: DERIVATIVES OF THE EXPONENTIAL FUNCTIONS; THE NUMBER $e$
-      page: 0
+      page: 91
       pdf_page: 106
     - "no": 2
       title: DERIVATIVE OF $\log_a x$
-      page: 0
+      page: 93
       pdf_page: 108
     - "no": 3
       title: DERIVATIVES OF THE CIRCULAR FUNCTIONS; THE NUMBER $\pi$
-      page: 0
+      page: 94
       pdf_page: 109
     - "no": 4
       title: INVERSE CIRCULAR FUNCTIONS
-      page: 0
+      page: 95
       pdf_page: 110
     - "no": 5
       title: THE COMPLEX EXPONENTIAL
-      page: 0
+      page: 97
       pdf_page: 112
     - "no": 6
       title: PROPERTIES OF THE FUNCTION $e^z$
-      page: 0
+      page: 98
       pdf_page: 113
     - "no": 7
       title: THE COMPLEX LOGARITHM
-      page: 0
+      page: 100
       pdf_page: 115
     - "no": 8
       title: PRIMITIVES OF RATIONAL FUNCTIONS
-      page: 0
+      page: 101
       pdf_page: 116
     - "no": 9
       title: COMPLEX CIRCULAR FUNCTIONS; HYPERBOLIC FUNCTIONS
-      page: 0
+      page: 102
       pdf_page: 117
 statements: 9
 exercises: 39

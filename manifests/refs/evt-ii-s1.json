@@ -1,0 +1,12 @@
+{"edges": [
+{"from":"","from_label":"evt-ii-s1-n1-exa-3","kind":"cites","raw":"VI, § 6","form":"section","resolved_by":"out-of-corpus","chapter":"VI","file":"content/en/evt/II/01_s1_semi_norms.md","line":70},
+{"from":"","from_label":"evt-ii-s1","kind":"cites","raw":"IX, § 1","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/II/01_s1_semi_norms.md","line":98},
+{"from":"","from_label":"evt-ii-s1-n2-rem-1","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 24","form":"page","resolved_by":"section","file":"content/en/evt/II/01_s1_semi_norms.md","line":108},
+{"from":"","from_label":"evt-ii-s1-prop-2","kind":"cites","raw":"IX, § 2","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/II/01_s1_semi_norms.md","line":128},
+{"from":"","from_label":"evt-ii-s1-prop-2","to_label":"evt-iv-s2","kind":"cites","raw":"IV, p. 18","form":"page","resolved_by":"section","file":"content/en/evt/II/01_s1_semi_norms.md","line":130},
+{"from":"","from_label":"evt-ii-s1-prop-2","to_label":"evt-ii-s3","kind":"cites","raw":"II, § 3","form":"section","resolved_by":"section","file":"content/en/evt/II/01_s1_semi_norms.md","line":132},
+{"from":"","from_label":"evt-ii-s1-prop-2","kind":"cites","raw":"IX, § 1","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/II/01_s1_semi_norms.md","line":132},
+{"from":"","from_label":"evt-ii-s1","to_label":"evt-i-s2","kind":"cites","raw":"I, § 2","form":"section","resolved_by":"section","file":"content/en/evt/II/01_s1_semi_norms.md","line":170},
+{"from":"","from_label":"evt-ii-s1","to_label":"evt-ii-s3","kind":"cites","raw":"II, § 3","form":"section","resolved_by":"section","file":"content/en/evt/II/01_s1_semi_norms.md","line":174},
+{"from":"","from_label":"evt-ii-s1-prop-3","to_label":"evt-i-s2","kind":"cites","raw":"I, p. 16","form":"page","resolved_by":"section","file":"content/en/evt/II/01_s1_semi_norms.md","line":180}
+]}

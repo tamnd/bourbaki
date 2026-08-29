@@ -8,32 +8,33 @@ section_title: Tensor algebra. Tensors
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 484-497, 627-632
 pdf_pages: 0508-0521, 0651-0656
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE TENSOR ALGEBRA OF A MODULE
-      page: 0
+      page: 484
       pdf_page: 508
     - "no": 2
       title: FUNCTORIAL PROPERTIES OF THE TENSOR ALGEBRA
-      page: 0
+      page: 485
       pdf_page: 509
     - "no": 3
       title: EXTENSION OF THE RING OF SCALARS
-      page: 0
+      page: 489
       pdf_page: 513
     - "no": 4
       title: DIRECT LIMIT OF TENSOR ALGEBRAS
-      page: 0
+      page: 490
       pdf_page: 514
     - "no": 5
       title: TENSOR ALGEBRA OF A DIRECT SUM. TENSOR ALGEBRA OF A FREE MODULE. TENSOR ALGEBRA OF A GRADED MODULE
-      page: 0
+      page: 491
       pdf_page: 515
     - "no": 6
       title: TENSORS AND TENSOR NOTATION
-      page: 0
+      page: 492
       pdf_page: 516
 statements: 15
 exercises: 10

@@ -8,44 +8,45 @@ section_title: Tensor products of algebras
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 460-484, 626-627
 pdf_pages: 0484-0508, 0650-0651
 extraction: ocr
 subsections:
     - "no": 1
       title: TENSOR PRODUCT OF A FINITE FAMILY OF ALGEBRAS
-      page: 0
+      page: 460
       pdf_page: 484
     - "no": 2
       title: UNIVERSAL CHARACTERIZATION OF TENSOR PRODUCTS OF ALGEBRAS
-      page: 0
+      page: 463
       pdf_page: 487
     - "no": 3
       title: MODULES AND MULTIMODULES OVER TENSOR PRODUCTS OF ALGEBRAS
-      page: 0
+      page: 465
       pdf_page: 489
     - "no": 4
       title: TENSOR PRODUCT OF ALGEBRAS OVER A FIELD
-      page: 0
+      page: 468
       pdf_page: 492
     - "no": 5
       title: TENSOR PRODUCT OF AN INFINITE FAMILY OF ALGEBRAS
-      page: 0
+      page: 470
       pdf_page: 494
     - "no": 6
       title: COMMUTATION LEMMAS
-      page: 0
+      page: 472
       pdf_page: 496
     - "no": 7
       title: TENSOR PRODUCT OF GRADED ALGEBRAS RELATIVE TO COMMUTATION FACTORS
-      page: 0
+      page: 474
       pdf_page: 498
     - "no": 8
       title: TENSOR PRODUCT OF GRADED ALGEBRAS OF THE SAME TYPES
-      page: 0
+      page: 480
       pdf_page: 504
     - "no": 9
       title: ANTICOMMUTATIVE ALGEBRAS AND ALTERNATING ALGEBRAS
-      page: 0
+      page: 482
       pdf_page: 506
 statements: 43
 exercises: 2

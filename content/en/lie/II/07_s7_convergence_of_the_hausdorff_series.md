@@ -7,20 +7,21 @@ section: 7
 section_title: Convergence of the Hausdorff series (real or complex case)
 lang: en
 source: lie-i-iii
+book_pages: 164-170, 204
 pdf_pages: 0182-0188, 0222-0222
 extraction: ocr
 subsections:
     - "no": 1
       title: CONTINUOUS-POLYNOMIALS WITH VALUES IN $g$
-      page: 0
+      page: 164
       pdf_page: 182
     - "no": 2
       title: GROUP GERM DEFINED BY A COMPLETE NORMED LIE ALGEBRA
-      page: 0
+      page: 165
       pdf_page: 183
     - "no": 3
       title: Exponential in Complete Normed Associative Algebras
-      page: 0
+      page: 169
       pdf_page: 187
 statements: 4
 exercises: 1

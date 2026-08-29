@@ -8,36 +8,37 @@ section_title: Algebras
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 428-438, 618
 pdf_pages: 0452-0462, 0642-0642
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF AN ALGEBRA
-      page: 0
+      page: 428
       pdf_page: 452
     - "no": 2
       title: SUBALGEBRAS. IDEALS. QUOTIENT ALGEBRAS
-      page: 0
+      page: 429
       pdf_page: 453
     - "no": 3
       title: DIAGRAMS EXPRESSING ASSOCIATIVITY AND COMMUTATIVITY
-      page: 0
+      page: 431
       pdf_page: 455
     - "no": 4
       title: PRODUCTS OF ALGEBRAS
-      page: 0
+      page: 432
       pdf_page: 456
     - "no": 5
       title: RESTRICTION AND EXTENSION OF SCALARS
-      page: 0
+      page: 433
       pdf_page: 457
     - "no": 6
       title: INVERSE AND DIRECT LIMITS OF ALGEBRAS
-      page: 0
+      page: 434
       pdf_page: 458
     - "no": 7
       title: BASES OF AN ALGEBRA. MULTIPLICATION TABLE
-      page: 0
+      page: 436
       pdf_page: 460
 statements: 5
 exercises: 1

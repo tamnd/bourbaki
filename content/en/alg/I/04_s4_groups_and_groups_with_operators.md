@@ -8,52 +8,53 @@ section_title: Groups and groups with operators
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 30-52, 132-140
 pdf_pages: 0054-0076, 0156-0164
 extraction: ocr
 subsections:
     - "no": 1
       title: GROUPS
-      page: 0
+      page: 30
       pdf_page: 54
     - "no": 2
       title: GROUPS WITH OPERATORS
-      page: 0
+      page: 31
       pdf_page: 55
     - "no": 3
       title: SUBGROUPS
-      page: 0
+      page: 32
       pdf_page: 56
     - "no": 4
       title: QUOTIENT GROUPS
-      page: 0
+      page: 34
       pdf_page: 58
     - "no": 5
       title: DECOMPOSITION OF A HOMOMORPHISM
-      page: 0
+      page: 37
       pdf_page: 61
     - "no": 6
       title: SUBGROUPS OF A QUOTIENT GROUP
-      page: 0
+      page: 38
       pdf_page: 62
     - "no": 7
       title: THE JORDAN-HÖLDER THEOREM
-      page: 0
+      page: 41
       pdf_page: 65
     - "no": 8
       title: PRODUCTS AND FIBRE PRODUCTS
-      page: 0
+      page: 45
       pdf_page: 69
     - "no": 9
       title: RESTRICTED SUMS
-      page: 0
+      page: 47
       pdf_page: 71
     - "no": 10
       title: MONOGENOUS GROUPS
-      page: 0
+      page: 48
       pdf_page: 72
 statements: 63
 exercises: 26
-content_sha256: 0b247653d2b3d4a0738691e4d70428a5d0b9939c10bfe62fca8b7a5aa5bd9f00
+content_sha256: 4e2db9f086cc50fe763891b92a677519247beb4dcab57f7cc8c6398ff2e2e3db
 ---
 
 ## § 4. GROUPS AND GROUPS WITH OPERATORS
@@ -115,8 +116,6 @@ An *endomorphism* of the group with operators $G$ is an endomorphism of the grou
 As two homotheties of a group with operators $G$ are not necessarily permutable, *a homothety of $G$ is not in general an endomorphism of the group with operators $G$.*
 
 The identity mapping of a group with operators is a homomorphism of groups with operators; the composition of two homomorphisms of groups with operators is also one. For a mapping to be an isomorphism of groups with operators, it is necessary and sufficient that it be a bijective homomorphism of groups with operators and the inverse mapping is then an isomorphism of groups with operators.
-
-31
 
 More generally, let G (resp. G') be a group with operators in $\Omega$ (resp. $\Omega'$). Let $\phi$ be a mapping of $\Omega$ into $\Omega'$. A $\phi$-homomorphism of G into G' is a homomorphism of the group G into the group G' such that
 
@@ -405,9 +404,7 @@ $$
 (ab)^\alpha=a^\alpha b^\alpha
 $$
 
-for $a,a'\in A$, $b,b'\in B$ and every operator $\alpha$ on $G$, show that $AB$ is a stable subgroup of $G$. Let $a\in A$ and $x\in A\cap B$; then $axa^{-1}\in B$ by the hypotheses made on $A$ and $B$ and clearly $axa^{-1}$ belongs to $A$, hence $A\cap B$ is normal in $A$. Let $a\in A$ and $b,b'$ be in $B$; the formula $(ab)b'(ab)^{-1}=a(bb'b^{-1})a^{-1}$ shows that $B$ is normal in $AB$. Let $\phi$ be the restriction to $A$ of the canonical homomorphism
-
-40 of AB onto AB/B; then $\phi(a) = aB$ and hence the kernel of $\phi$ is equal to $A \cap B$. Clearly $\phi$ is surjective and hence defines an isomorphism of $A/(A \cap B)$ onto $AB/B$.
+for $a,a'\in A$, $b,b'\in B$ and every operator $\alpha$ on $G$, show that $AB$ is a stable subgroup of $G$. Let $a\in A$ and $x\in A\cap B$; then $axa^{-1}\in B$ by the hypotheses made on $A$ and $B$ and clearly $axa^{-1}$ belongs to $A$, hence $A\cap B$ is normal in $A$. Let $a\in A$ and $b,b'$ be in $B$; the formula $(ab)b'(ab)^{-1}=a(bb'b^{-1})a^{-1}$ shows that $B$ is normal in $AB$. Let $\phi$ be the restriction to $A$ of the canonical homomorphism of AB onto AB/B; then $\phi(a) = aB$ and hence the kernel of $\phi$ is equal to $A \cap B$. Clearly $\phi$ is surjective and hence defines an isomorphism of $A/(A \cap B)$ onto $AB/B$.
 
 #### Theorem 4 {#alg-i-s4-thm-4 .statement}
 
@@ -520,8 +517,6 @@ Let G be a group with operators and H a normal stable subgroup of G. The length 
 Let G be a group with operators and $(G_i)_{0\leq i\leq n}$ a composition series of G. The length of G is the sum of the lengths of the $G_i/G_{i+1}$, $0\leq i\leq n-1$.
 
 If G and $G'$ are isomorphic groups with operators and G admits a Jordan-Hölder series, so does $G'$ and the Jordan-Hölder series of G and $G'$ are equivalent. However, non-isomorphic groups can have equivalent Jordan-Hölder series; such is true for $\mathbf{Z}/4\mathbf{Z}$ and $(\mathbf{Z}/2\mathbf{Z})\times(\mathbf{Z}/2\mathbf{Z})$, cf. no. 10.
-
-44
 
 ### 8. PRODUCTS AND FIBRE PRODUCTS
 

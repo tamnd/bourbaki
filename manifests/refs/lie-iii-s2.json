@@ -1,0 +1,9 @@
+{"edges": [
+{"from":"","from_label":"lie-iii-s2-prop-3","to_label":"lie-iii-s2-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md","line":112},
+{"from":"","from_label":"lie-iii-s2-prop-6","to_label":"lie-iii-s2-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md","line":148},
+{"from":"","from_label":"lie-iii-s2-prop-6","to_label":"lie-iii-s1-prop-8","kind":"cites","raw":"§ 1, Proposition 8","form":"section","resolved_by":"section-no","file":"content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md","line":148},
+{"from":"","from_label":"lie-iii-s2-prop-6","to_label":"lie-iii-s1-prop-17-cor-2","kind":"cites","raw":"§ 1, Corollary 2 to Proposition 17","form":"attached","resolved_by":"parent-label","file":"content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md","line":150},
+{"from":"","from_label":"lie-iii-s2-n2-cor-2","to_label":"lie-iii-s2-prop-7","kind":"cites","raw":"Proposition 7","form":"local","resolved_by":"in-section","file":"content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md","line":172},
+{"from":"","from_label":"lie-iii-s2-n2-cor-2","to_label":"lie-iii-s2-prop-2","kind":"cites","raw":"no. 1, Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md","line":172},
+{"from":"","from_label":"lie-iii-s2-n2-cor-2","to_label":"lie-iii-s2-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/lie/III/02_s2_group_of_tangent_vectors_to_a_lie_group.md","line":174}
+]}

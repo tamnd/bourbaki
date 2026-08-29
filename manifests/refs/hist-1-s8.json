@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s8","kind":"cites","raw":"II, p. 129","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/08_s8_non_commutative_algebra.md","line":27},
+{"from":"","from_label":"hist-1-s8","kind":"cites","raw":"I, p. 235","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/08_s8_non_commutative_algebra.md","line":39},
+{"from":"","from_label":"hist-1-s8","kind":"cites","raw":"III, p. 149","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/08_s8_non_commutative_algebra.md","line":75},
+{"from":"","from_label":"hist-1-s8","kind":"cites","raw":"III, p. 90","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/08_s8_non_commutative_algebra.md","line":79}
+]}

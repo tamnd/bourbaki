@@ -37,7 +37,7 @@ subsections:
       pdf_page: 302
 statements: 32
 exercises: 11
-content_sha256: 7f3f516023b889ee7bda8bc2eaf1db34f631f9e82b0893192ae78e729b16bdce
+content_sha256: 9b6059c982564aa4235b7c9c109f70040d2fb6db104dd21086418462dc06fb2f
 ---
 
 ## § 2. MAXIMAL TORI OF COMPACT LIE GROUPS
@@ -236,7 +236,7 @@ If $T'$ is another maximal torus of G and if $g\in G$ is such that Int $g$ maps 
 
 #### Proposition 5 {#lie-ix-s2-prop-5 .statement tag=01J9}
 
-a) Every conjugacy class of G meets T.
+$a)$ Every conjugacy class of G meets T.
 
 b) The intersections with T of the conjugacy classes of G are the orbits of the Weyl group.
 

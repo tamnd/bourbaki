@@ -8,36 +8,37 @@ section_title: Restriction of the field ofscalars in vector spaces
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 317-325, 409-410
 pdf_pages: 0341-0349, 0433-0434
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF K'-STRUCTURES
-      page: 0
+      page: 317
       pdf_page: 341
     - "no": 2
       title: Rationality for a subspace
-      page: 0
+      page: 318
       pdf_page: 342
     - "no": 3
       title: RATIONALITY FOR A LINEAR MAPPING
-      page: 0
+      page: 319
       pdf_page: 343
     - "no": 4
       title: RATIONAL LINEAR FORMS
-      page: 0
+      page: 320
       pdf_page: 344
     - "no": 5
       title: APPLICATION TO LINEAR SYSTEMS
-      page: 0
+      page: 321
       pdf_page: 345
     - "no": 6
       title: SMALLEST FIELD OF RATIONALITY
-      page: 0
+      page: 322
       pdf_page: 346
     - "no": 7
       title: CRITERIA FOR RATIONALITY
-      page: 0
+      page: 323
       pdf_page: 347
 statements: 17
 exercises: 5

@@ -7,32 +7,33 @@ section: 8
 section_title: Hausdorff spaces and regular spaces
 lang: en
 source: top-i-iv
+book_pages: 75-83, 134-141
 pdf_pages: 0081-0089, 0140-0147
 extraction: ocr
 subsections:
     - "no": 1
       title: HAUSDORFF SPACES
-      page: 0
+      page: 75
       pdf_page: 81
     - "no": 2
       title: SUBSPACES AND PRODUCTS OF HAUSDORFF SPACES
-      page: 0
+      page: 77
       pdf_page: 83
     - "no": 3
       title: HAUSDORFF QUOTIENT SPACES
-      page: 0
+      page: 78
       pdf_page: 84
     - "no": 4
       title: REGULAR SPACES
-      page: 0
+      page: 80
       pdf_page: 86
     - "no": 5
       title: EXTENSION BY CONTINUITY; DOUBLE LIMIT
-      page: 0
+      page: 81
       pdf_page: 87
     - "no": 6
       title: EQUIVALENCE RELATIONS ON A REGULAR SPACE
-      page: 0
+      page: 82
       pdf_page: 88
 statements: 28
 exercises: 24

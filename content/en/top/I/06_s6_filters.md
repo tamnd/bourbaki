@@ -7,48 +7,49 @@ section: 6
 section_title: Filters
 lang: en
 source: top-i-iv
+book_pages: 57-68
 pdf_pages: 0063-0074, 0135-0138
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF A FILTER
-      page: 0
+      page: 57
       pdf_page: 63
     - "no": 2
       title: COMPARISON OF FILTERS
-      page: 0
+      page: 58
       pdf_page: 64
     - "no": 3
       title: BASES OF A FILTER
-      page: 0
+      page: 59
       pdf_page: 65
     - "no": 4
       title: ULTRAFILTERS
-      page: 0
+      page: 60
       pdf_page: 66
     - "no": 5
       title: INDUCED FILTER
-      page: 0
+      page: 61
       pdf_page: 67
     - "no": 6
       title: DIRECT IMAGE AND INVERSE IMAGE OF A FILTER BASE
-      page: 0
+      page: 62
       pdf_page: 68
     - "no": 7
       title: PRODUCT OF FILTERS
-      page: 0
+      page: 63
       pdf_page: 69
     - "no": 8
       title: ELEMENTARY FILTERS
-      page: 0
+      page: 64
       pdf_page: 70
     - "no": 9
       title: GERMS WITH RESPECT TO A FILTER
-      page: 0
+      page: 65
       pdf_page: 71
     - "no": 10
       title: GERMS AT A POINT
-      page: 0
+      page: 68
       pdf_page: 74
 statements: 30
 exercises: 20

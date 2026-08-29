@@ -7,20 +7,21 @@ section: 2
 section_title: INTEGRALS OVER NON-COMPACT INTERVALS
 lang: en
 source: fvr-i-vii
+book_pages: 62-68, 84-86
 pdf_pages: 0077-0083, 0099-0101
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF AN INTEGRAL OVER A NON-COMPACT INTERVAL
-      page: 0
+      page: 62
       pdf_page: 77
     - "no": 2
       title: INTEGRALS OF POSITIVE FUNCTIONS OVER A NON-COMPACT INTERVAL
-      page: 0
+      page: 66
       pdf_page: 81
     - "no": 3
       title: ABSOLUTELY CONVERGENT INTEGRALS
-      page: 0
+      page: 67
       pdf_page: 82
 statements: 9
 exercises: 9

@@ -7,24 +7,25 @@ section: 4
 section_title: Product of topological spaces
 lang: en
 source: top-i-iv
+book_pages: 43-50, 125-127
 pdf_pages: 0049-0056, 0131-0133
 extraction: ocr
 subsections:
     - "no": 1
       title: PRODUCT SPACES
-      page: 0
+      page: 43
       pdf_page: 49
     - "no": 2
       title: SECTION OF AN OPEN SET; SECTION OF A CLOSED SET; PROJECTION OF AN OPEN SET. PARTIAL CONTINUITY
-      page: 0
+      page: 46
       pdf_page: 52
     - "no": 3
       title: CLOSURE IN A PRODUCT
-      page: 0
+      page: 47
       pdf_page: 53
     - "no": 4
       title: INVERSE LIMITS OF TOPOLOGICAL SPACES
-      page: 0
+      page: 48
       pdf_page: 54
 statements: 21
 exercises: 10

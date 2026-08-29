@@ -8,36 +8,37 @@ section_title: Extensions, solvable groups, nilpotent groups
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 65-81, 147-159
 pdf_pages: 0089-0105, 0171-0183
 extraction: ocr
 subsections:
     - "no": 1
       title: EXTENSIONS
-      page: 0
+      page: 65
       pdf_page: 89
     - "no": 2
       title: COMMUTATORS
-      page: 0
+      page: 68
       pdf_page: 92
     - "no": 3
       title: LOWER CENTRAL SERIES, NILPOTENT GROUPS
-      page: 0
+      page: 71
       pdf_page: 95
     - "no": 4
       title: DERIVED SERIES, SOLVABLE GROUPS
-      page: 0
+      page: 74
       pdf_page: 98
     - "no": 5
       title: $p$-GROUPS
-      page: 0
+      page: 76
       pdf_page: 100
     - "no": 6
       title: SYLOW SUBGROUPS
-      page: 0
+      page: 78
       pdf_page: 102
     - "no": 7
       title: FINITE NILPOTENT GROUPS
-      page: 0
+      page: 80
       pdf_page: 104
 statements: 58
 exercises: 8

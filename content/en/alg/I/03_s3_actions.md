@@ -8,28 +8,29 @@ section_title: Actions
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 24-29, 129-132
 pdf_pages: 0048-0053, 0153-0156
 extraction: ocr
 subsections:
     - "no": 1
       title: ACTIONS
-      page: 0
+      page: 24
       pdf_page: 48
     - "no": 2
       title: SUBSETS STABLE UNDER AN ACTION. INDUCED ACTION
-      page: 0
+      page: 26
       pdf_page: 50
     - "no": 3
       title: QUOTIENT ACTION
-      page: 0
+      page: 26
       pdf_page: 50
     - "no": 4
       title: DISTRIBUTIVITY
-      page: 0
+      page: 27
       pdf_page: 51
     - "no": 5
       title: DISTRIBUTIVITY OF ONE INTERNAL LAW WITH RESPECT TO ANOTHER
-      page: 0
+      page: 29
       pdf_page: 53
 statements: 14
 exercises: 10

@@ -8,20 +8,21 @@ section_title: Inverse and direct limits of modules
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 284-291, 399-400
 pdf_pages: 0308-0315, 0423-0424
 extraction: ocr
 subsections:
     - "no": 1
       title: INVERSE LIMITS OF MODULES
-      page: 0
+      page: 284
       pdf_page: 308
     - "no": 2
       title: DIRECT LIMITS OF MODULES
-      page: 0
+      page: 286
       pdf_page: 310
     - "no": 3
       title: TENSOR PRODUCT OF DIRECT LIMITS
-      page: 0
+      page: 289
       pdf_page: 313
 statements: 17
 exercises: 4

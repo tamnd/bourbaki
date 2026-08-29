@@ -7,36 +7,37 @@ section: 11
 section_title: Connectedness
 lang: en
 source: top-i-iv
+book_pages: 107-116, 155-161
 pdf_pages: 0113-0122, 0161-0167
 extraction: ocr
 subsections:
     - "no": 1
       title: CONNECTED SPACES AND CONNECTED SETS
-      page: 0
+      page: 107
       pdf_page: 113
     - "no": 2
       title: IMAGE OF A CONNECTED SET UNDER A CONTINUOUS MAPPING
-      page: 0
+      page: 109
       pdf_page: 115
     - "no": 3
       title: QUOTIENT SPACES OF A CONNECTED SPACE
-      page: 0
+      page: 110
       pdf_page: 116
     - "no": 4
       title: PRODUCT OF CONNECTED SPACES
-      page: 0
+      page: 110
       pdf_page: 116
     - "no": 5
       title: COMPONENTS
-      page: 0
+      page: 110
       pdf_page: 116
     - "no": 6
       title: LOCALLY CONNECTED SPACES
-      page: 0
+      page: 112
       pdf_page: 118
     - "no": 7
       title: 'APPLICATION : THE POINCARÉ-VOLTERRA THEOREM'
-      page: 0
+      page: 114
       pdf_page: 120
 statements: 28
 exercises: 25

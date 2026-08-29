@@ -47,9 +47,9 @@ subsections:
       title: Généralisation aux complexes de multimodules
       page: 80
       pdf_page: 86
-statements: 39
+statements: 41
 exercises: 9
-content_sha256: 0dd07ce8e9ce8109b1e39864b92a50b62e2990891ab5bf56dbf260ccfcff8d83
+content_sha256: c87130263c1fe5d434cb536f82ba52bf0f60574aa0ecfea673d0882688a5ac07
 ---
 
 ## § 4. PRODUIT DE TORSION
@@ -921,7 +921,9 @@ $$
 
 d’où l’assertion (th. 2, (i) $\Leftrightarrow$ (iii)).
 
-**COROLLAIRE 2. —** *Soit $0\longrightarrow E_n\longrightarrow E_{n-1}\longrightarrow\cdots\longrightarrow E_1\longrightarrow0$ une suite exacte de A-modules à droite. Si $E_i$ est plat pour $i=1,\ldots,n-1$, alors $E_n$ est plat.*
+#### Corollaire 2 {#alg-x-s4-thm-2-cor-2 .statement}
+
+*Soit $0\longrightarrow E_n\longrightarrow E_{n-1}\longrightarrow\cdots\longrightarrow E_1\longrightarrow0$ une suite exacte de A-modules à droite. Si $E_i$ est plat pour $i=1,\ldots,n-1$, alors $E_n$ est plat.*
 
 ### 7.  **Formule de Künneth**
 
@@ -965,7 +967,9 @@ $$
 
 Avec ces notations :
 
-**THÉORÈME 3. —** *Supposons les A-modules $B(C)$ et $Z(C)$ plats. Il existe un unique homomorphisme de $k$-modules gradués, de degré $-1$,*
+#### Théorème 3 {#alg-x-s4-thm-3 .statement}
+
+*Supposons les A-modules $B(C)$ et $Z(C)$ plats. Il existe un unique homomorphisme de $k$-modules gradués, de degré $-1$,*
 
 $$
 \alpha:H(C\otimes_A C')\longrightarrow\operatorname{Tor}^A_1(H(C),H(C'))

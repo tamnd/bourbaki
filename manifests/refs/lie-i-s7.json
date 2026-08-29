@@ -1,0 +1,22 @@
+{"edges": [
+{"from":"","from_label":"lie-i-s7","to_label":"alg-viii-s13","kind":"cites","raw":"Algebra, Chapter VIII, § 13, no. 3","form":"section","resolved_by":"section","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":37},
+{"from":"","from_label":"lie-i-s7-def-1","to_label":"lie-i-s5-thm-1","kind":"cites","raw":"§ 5, no. 3, Theorem 1","form":"section","resolved_by":"section-no","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":64},
+{"from":"","from_label":"lie-i-s7-thm-1","to_label":"lie-i-s2-n6-cor-1","kind":"cites","raw":"§ 2, no. 6, Corollary to Proposition 6","form":"attached","resolved_by":"parent-label","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":89},
+{"from":"","from_label":"lie-i-s7-thm-1","to_label":"lie-i-s7-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":93},
+{"from":"","from_label":"lie-i-s7-lem-1","to_label":"lie-i-s5-thm-1-cor-6","kind":"cites","raw":"§ 5, no. 3, Corollary 6 to Theorem 1","form":"attached","resolved_by":"parent-label","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":99},
+{"from":"","from_label":"lie-i-s7-lem-1","to_label":"lie-i-s7-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":101},
+{"from":"","from_label":"lie-i-s7-lem-1","to_label":"lie-i-s7-ex-4","kind":"cites","raw":"Exercise 4","form":"local","resolved_by":"exercise","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":101},
+{"from":"","from_label":"lie-i-s7-prop-1","to_label":"lie-i-s4-prop-1","kind":"cites","raw":"§ 4, no. 1, Proposition 1","form":"section","resolved_by":"section-no","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":109},
+{"from":"","from_label":"lie-i-s7-prop-1","to_label":"lie-i-s7-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":109},
+{"from":"","from_label":"lie-i-s7-prop-1","to_label":"lie-i-s5-prop-2","kind":"cites","raw":"§ 5, no. 1, Proposition 2","form":"section","resolved_by":"section-no","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":111},
+{"from":"","from_label":"lie-i-s7-prop-1","to_label":"lie-i-s7-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":111},
+{"from":"","from_label":"lie-i-s7-prop-1","to_label":"lie-i-s6-thm-5","kind":"cites","raw":"§ 6, no. 8, Theorem 5","form":"section","resolved_by":"section-no","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":113},
+{"from":"","from_label":"lie-i-s7-prop-1","to_label":"lie-i-s7-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":113},
+{"from":"","from_label":"lie-i-s7-thm-3","to_label":"lie-i-s7-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/07_s7_ado_s_theorem.md","line":130},
+{"from":"","from_label":"lie-i-s7-ex-2","to_label":"lie-i-s1-ex-5","kind":"cites","raw":"Exercise 5 of § 1","form":"section","resolved_by":"exercise","file":"content/en/lie/I/exercises/s7/02.md","line":14},
+{"from":"","from_label":"lie-i-s7-ex-3","to_label":"lie-i-s7-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/lie/I/exercises/s7/03.md","line":16},
+{"from":"","from_label":"lie-i-s7-ex-3","to_label":"lie-i-s7-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/lie/I/exercises/s7/03.md","line":16},
+{"from":"","from_label":"lie-i-s7-ex-4","to_label":"lie-i-s7-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/exercises/s7/04.md","line":14},
+{"from":"","from_label":"lie-i-s7-ex-4","to_label":"lie-i-s7-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/lie/I/exercises/s7/04.md","line":18},
+{"from":"","from_label":"lie-i-s7-ex-5","to_label":"lie-i-s1-ex-19","kind":"cites","raw":"Exercise 19 of § 1","form":"section","resolved_by":"exercise","file":"content/en/lie/I/exercises/s7/05.md","line":18}
+]}

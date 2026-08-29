@@ -7,20 +7,21 @@ section: 3
 section_title: Enveloping algebra of the free Lie algebra
 lang: en
 source: lie-i-iii
+book_pages: 136-142, 186-187
 pdf_pages: 0154-0160, 0204-0205
 extraction: ocr
 subsections:
     - "no": 1
       title: ENVELOPING ALGEBRA OF $L(X)$
-      page: 0
+      page: 136
       pdf_page: 154
     - "no": 2
       title: PROJECTOR OF $A^+(X)$ ONTO $L(X)$
-      page: 0
+      page: 138
       pdf_page: 156
     - "no": 3
       title: DIMENSION OF THE HOMOGENEOUS COMPONENTS OF L(X)
-      page: 0
+      page: 140
       pdf_page: 158
 statements: 11
 exercises: 4

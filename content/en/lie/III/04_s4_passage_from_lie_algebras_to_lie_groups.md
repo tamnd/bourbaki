@@ -7,36 +7,37 @@ section: 4
 section_title: Passage from Lie algebras to Lie groups
 lang: en
 source: lie-i-iii
+book_pages: 279-297, 376-382
 pdf_pages: 0297-0315, 0394-0400
 extraction: ocr
 subsections:
     - "no": 1
       title: PASSAGE FROM LIE ALGEBRA MORPHISMS TO LIE GROUP MORPHISMS
-      page: 0
+      page: 279
       pdf_page: 297
     - "no": 2
       title: PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
-      page: 0
+      page: 281
       pdf_page: 299
     - "no": 3
       title: EXPONENTIAL MAPPINGS
-      page: 0
+      page: 284
       pdf_page: 302
     - "no": 4
       title: FUNCTORIZATION OF EXPONENTIAL MAPPINGS
-      page: 0
+      page: 288
       pdf_page: 306
     - "no": 5
       title: STRUCTURE INDUCED ON A SUBGROUP
-      page: 0
+      page: 289
       pdf_page: 307
     - "no": 6
       title: PRIMITIVES OF DIFFERENTIAL FORMS WITH VALUES IN A LIE ALGEBRA
-      page: 0
+      page: 291
       pdf_page: 309
     - "no": 7
       title: PASSAGE FROM LAWS OF INFINITESIMAL OPERATION TO LAWS OF OPERATION
-      page: 0
+      page: 294
       pdf_page: 312
 statements: 40
 exercises: 8

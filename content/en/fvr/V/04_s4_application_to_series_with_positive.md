@@ -7,24 +7,25 @@ section: 4
 section_title: APPLICATION TO SERIES WITH POSITIVE TERMS
 lang: en
 source: fvr-i-vii
+book_pages: 236-246, 261-263
 pdf_pages: 0251-0261, 0276-0278
 extraction: ocr
 subsections:
     - "no": 1
       title: CONVERGENCE CRITERIA FOR SERIES WITH POSITIVE TERMS
-      page: 0
+      page: 236
       pdf_page: 251
     - "no": 2
       title: ASYMPTOTIC EXPANSION OF THE PARTIAL SUMS OF A SERIES
-      page: 0
+      page: 238
       pdf_page: 253
     - "no": 3
       title: ASYMPTOTIC EXPANSION OF THE PARTIAL PRODUCTS OF AN INFINITE PRODUCT
-      page: 0
+      page: 243
       pdf_page: 258
     - "no": 4
       title: 'APPLICATION: CONVERGENCE CRITERIA OF THE SECOND KIND FOR SERIES WITH POSITIVE TERMS'
-      page: 0
+      page: 244
       pdf_page: 259
 statements: 13
 exercises: 3

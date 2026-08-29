@@ -7,28 +7,29 @@ section: 6
 section_title: The Hausdorff series
 lang: en
 source: lie-i-iii
+book_pages: 155-164, 201-204
 pdf_pages: 0173-0182, 0219-0222
 extraction: ocr
 subsections:
     - "no": 1
       title: EXPONENTIAL AND LOGARITHM IN FILTERED ALGEBRAS
-      page: 0
+      page: 155
       pdf_page: 173
     - "no": 2
       title: HAUSDORFF GROUP
-      page: 0
+      page: 157
       pdf_page: 175
     - "no": 3
       title: LIE FORMAL POWER SERIES
-      page: 0
+      page: 158
       pdf_page: 176
     - "no": 4
       title: THE HAUSDORFF SERIES
-      page: 0
+      page: 160
       pdf_page: 178
     - "no": 5
       title: SUBSTITUTIONS IN THE HAUSDORFF SERIES
-      page: 0
+      page: 161
       pdf_page: 179
 statements: 14
 exercises: 3

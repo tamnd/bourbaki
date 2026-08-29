@@ -7,16 +7,17 @@ section: 6
 section_title: Continuous and semi-continuous real-valued functions
 lang: en
 source: top-i-iv
+book_pages: 359-363, 393-397
 pdf_pages: 0365-0369, 0399-0403
 extraction: ocr
 subsections:
     - "no": 1
       title: CONTINUOUS REAL-VALUED FUNCTIONS
-      page: 0
+      page: 359
       pdf_page: 365
     - "no": 2
       title: SEMI-CONTINUOUS FUNCTIONS
-      page: 0
+      page: 360
       pdf_page: 366
 statements: 15
 exercises: 15

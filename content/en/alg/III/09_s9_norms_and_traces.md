@@ -8,28 +8,29 @@ section_title: Norms and traces
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 541-550, 644
 pdf_pages: 0565-0574, 0668-0668
 extraction: ocr
 subsections:
     - "no": 1
       title: NORMS AND TRACES RELATIVE TO A MODULE
-      page: 0
+      page: 541
       pdf_page: 565
     - "no": 2
       title: PROPERTIES OF NORMS AND TRACES RELATIVE TO A MODULE
-      page: 0
+      page: 542
       pdf_page: 566
     - "no": 3
       title: NORM AND TRACE IN AN ALGEBRA
-      page: 0
+      page: 543
       pdf_page: 567
     - "no": 4
       title: PROPERTIES OF NORMS AND TRACES IN AN ALGEBRA
-      page: 0
+      page: 545
       pdf_page: 569
     - "no": 5
       title: DISCRIMINANT OF AN ALGEBRA
-      page: 0
+      page: 549
       pdf_page: 573
 statements: 13
 exercises: 1

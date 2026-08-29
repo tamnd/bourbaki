@@ -8,44 +8,45 @@ section_title: Free monoids, free groups
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 81-96, 159-171
 pdf_pages: 0105-0120, 0183-0195
 extraction: ocr
 subsections:
     - "no": 1
       title: FREE MAGMAS
-      page: 0
+      page: 81
       pdf_page: 105
     - "no": 2
       title: FREE MONOIDS
-      page: 0
+      page: 82
       pdf_page: 106
     - "no": 3
       title: AMALGAMATED SUM OF MONOIDS
-      page: 0
+      page: 84
       pdf_page: 108
     - "no": 4
       title: APPLICATION TO FREE MONOIDS
-      page: 0
+      page: 88
       pdf_page: 112
     - "no": 5
       title: FREE GROUPS
-      page: 0
+      page: 89
       pdf_page: 113
     - "no": 6
       title: PRESENTATIONS OF A GROUP
-      page: 0
+      page: 90
       pdf_page: 114
     - "no": 7
       title: FREE COMMUTATIVE GROUPS AND MONOIDS
-      page: 0
+      page: 92
       pdf_page: 116
     - "no": 8
       title: EXPONENTIAL NOTATION
-      page: 0
+      page: 94
       pdf_page: 118
     - "no": 9
       title: RELATIONS BETWEEN THE VARIOUS FREE OBJECTS
-      page: 0
+      page: 95
       pdf_page: 119
 statements: 17
 exercises: 3

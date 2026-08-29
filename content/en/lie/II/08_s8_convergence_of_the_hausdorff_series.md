@@ -7,24 +7,25 @@ section: 8
 section_title: Convergence of the Hausdorff series (ultrametric case)
 lang: en
 source: lie-i-iii
+book_pages: 170-176, 205-207
 pdf_pages: 0188-0194, 0223-0225
 extraction: ocr
 subsections:
     - "no": 1
       title: $p$-adic upper bounds of the series exp, log and $\mathbf{H}$
-      page: 0
+      page: 171
       pdf_page: 189
     - "no": 2
       title: NORMED LIE ALGEBRAS
-      page: 0
+      page: 172
       pdf_page: 190
     - "no": 3
       title: GROUP DEFINED BY A COMPLETE NORMED LIE ALGEBRA
-      page: 0
+      page: 172
       pdf_page: 190
     - "no": 4
       title: EXPONENTIAL IN COMPLETE NORMED ASSOCIATIVE ALGEBRAS
-      page: 0
+      page: 174
       pdf_page: 192
 statements: 9
 exercises: 4

@@ -1,0 +1,20 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"IV, p. 259","form":"page","resolved_by":"out-of-corpus","chapter":"IV","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":61},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"V, p. 228","form":"page","resolved_by":"out-of-corpus","chapter":"V","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":91},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"III, p. 1","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":96},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"III, p. 479","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":100},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"III, p. 357","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":104},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"III, p. 374","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":104},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"III, p. 403","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":112},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"I, p. 462","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":130},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"I, p. 66","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":137},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"I, p. 478","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":137},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"I, p. 413","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":141},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"III, p. 29","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":150},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"II, p. 433","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":150},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"II, p. 253","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":154},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"II, p. 288","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":157},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"I, p. 1","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":158},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"I, p. 40","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":170},
+{"from":"","from_label":"hist-1-s5","kind":"cites","raw":"II, p. 412","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/05_s5_polynomials_and_commutative_fields.md","line":174}
+]}

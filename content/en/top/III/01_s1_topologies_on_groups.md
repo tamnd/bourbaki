@@ -7,20 +7,21 @@ section: 1
 section_title: Topologies on groups
 lang: en
 source: top-i-iv
+book_pages: 219-225, 296-298
 pdf_pages: 0225-0231, 0302-0304
 extraction: ocr
 subsections:
     - "no": 1
       title: TOPOLOGICAL GROUPS
-      page: 0
+      page: 219
       pdf_page: 225
     - "no": 2
       title: NEIGHBOURHOODS OF A POINT IN A TOPOLOGICAL GROUP
-      page: 0
+      page: 221
       pdf_page: 227
     - "no": 3
       title: ISOMORPHISMS AND LOCAL ISOMORPHISMS
-      page: 0
+      page: 224
       pdf_page: 230
 statements: 11
 exercises: 9
