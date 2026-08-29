@@ -7,20 +7,21 @@ section: 8
 section_title: Lie groups over R or Qp
 lang: en
 source: lie-i-iii
+book_pages: 337-342, 395-397
 pdf_pages: 0355-0360, 0413-0415
 extraction: ocr
 subsections:
     - "no": 1
       title: CONTINUOUS MORPHISMS
-      page: 0
+      page: 337
       pdf_page: 355
     - "no": 2
       title: CLOSED SUBGROUPS
-      page: 0
+      page: 340
       pdf_page: 358
 statements: 9
 exercises: 7
-content_sha256: 1721d86a3f42951517b0823bf79374dd686f85624f871d5d4ea8c5ee70882ad3
+content_sha256: 69f4f2193868425a1a6066153825bbab55bdad1e9ad4cf8dd79a6c6484cea684
 ---
 
 ## § 8. LIE GROUPS OVER $\mathbf{R}$ AND $\mathbf{Q}_p$
@@ -83,7 +84,7 @@ $$
 &= h(x + y).
 \end{align*}
 $$
-Thus $h$ is continuous and linear, hence $g = h|V$ is analytic, hence $f$ is analytic on $\phi(V)$ and hence $f$ is analytic (\S 1, no. 10).
+Thus $h$ is continuous and linear, hence $g = h|V$ is analytic, hence $f$ is analytic on $\phi(V)$ and hence $f$ is analytic (§ 1, no. 10).
 
 #### Corollary 1 {#lie-iii-s8-thm-1-cor-1 .statement}
 
@@ -119,9 +120,9 @@ Then f is locally constant.*
 
 Case (a). Let $G_0$ be the identity component of G. Then $f(G_0)$ is a connected subgroup of $G'$ and hence $f(G_0) = \{e\}$ and $G_0$ is open in G.
 
-Case (b). Let $V'$ be a neighbourhood of $e$ in $G'$ such that every subgroup of $G'$ contained in $V'$ reduces to $\{e\}$ (\S 4, no. 2, Corollary 1 to Theorem 2). There exists a neighbourhood V of $e$ in G such that $f(V) \subset V'$. Then there exists an open subgroup $G_1$ of G such that $G_1 \subset V$ (\S 7, no. 1, Proposition 1). Then $f(G_1) = \{e\}$.
+Case (b). Let $V'$ be a neighbourhood of $e$ in $G'$ such that every subgroup of $G'$ contained in $V'$ reduces to $\{e\}$ (§ 4, no. 2, Corollary 1 to Theorem 2). There exists a neighbourhood V of $e$ in G such that $f(V) \subset V'$. Then there exists an open subgroup $G_1$ of G such that $G_1 \subset V$ (§ 7, no. 1, Proposition 1). Then $f(G_1) = \{e\}$.
 
-Case (c). By \S 7, Theorem 4 and the Corollary to Proposition 8, there exists a neighbourhood $V'$ of $e$ in $G'$ such that, for all $x' \in V' - \{e\}$, $x'^{p^n}$ does not tend
+Case (c). By § 7, Theorem 4 and the Corollary to Proposition 8, there exists a neighbourhood $V'$ of $e$ in $G'$ such that, for all $x' \in V' - \{e\}$, ${x'}^{p^n}$ does not tend
 
 † See for example D. Montgomery and L. Zippin, *Topological transformation groups*, Interscience tracts in pure and applied mathematics, no. 1, Interscience publishers, New York 1955 (in particular pp. 169 and 184).
 
@@ -133,7 +134,7 @@ to $e$ as $n$ tends to $+\infty$. There exists a neighbourhood $V$ of $e$ in $G$
 
 *Let $G$ be a finite-dimensional Lie group over $\mathbf{R}$ or $\mathbf{Q}_p$. Every closed subgroup of $G$ is a Lie subgroup of $G$. More generally, let $U$ be a symmetric open neighbourhood of $e$ in $G$ and $H$ a non-empty closed subspace of $U$ such that the conditions $x \in H$, $y \in H$ and $xy^{-1} \in U$ imply $xy^{-1} \in H$. Then $H$ is a Lie subgroup germ of $G$.*
 
-Let $\mathfrak{h}$ be the Lie subalgebra tangent to $H$ at $e$ (\S 4, no. 5, Definition 2). There exists a Lie subgroup germ $H_0$ of $G$ with Lie algebra $\mathfrak{h}$ and contained in $H$. We prove that $H_0$ is open in $H$ with the topology induced by that on $G$. This will prove that $H$ is an analytic submanifold of $G$ and will establish the theorem.
+Let $\mathfrak{h}$ be the Lie subalgebra tangent to $H$ at $e$ (§ 4, no. 5, Definition 2). There exists a Lie subgroup germ $H_0$ of $G$ with Lie algebra $\mathfrak{h}$ and contained in $H$. We prove that $H_0$ is open in $H$ with the topology induced by that on $G$. This will prove that $H$ is an analytic submanifold of $G$ and will establish the theorem.
 
 There exist a vector subspace $\mathfrak{k}$ supplementary to $\mathfrak{h}$ in $L(G)$, symmetric open neighbourhoods $V_1, V_2$ of zero in $\mathfrak{h}$ and $\mathfrak{k}$ respectively and an exponential mapping $\phi$ of $G$ defined on $V_1 + V_2$ and possessing the following properties:
 
@@ -174,7 +175,7 @@ $$
 (i) *If $K = \mathbf{C}$, $H$ is a Lie subgroup of $G$.*
 (ii) *If $K$ is a finite extension of $\mathbf{Q}_p$ and $I$ is finite, $H$ is a Lie subgroup of $G$.*
 
-(i) Suppose that $K = \mathbf{C}$. We consider $G$ as a real Lie group. Then $H$ is a real Lie subgroup of $G$ (Theorem 2). Let $a \in L(H)$. There exists a connected open neighbourhood $W$ of $0$ in $\mathbf{C}$ such that $\exp \lambda a \in V$ for all $\lambda \in W$. Let $i \in I$. Then $f_i(\exp \lambda a) = f_i(e)$ if $\lambda \in \mathbf{R} \cap W$. Hence $f_i(\exp \lambda a) = f_i(e)$ if $\lambda \in W$ by analytic continuation. Thus, $\exp \lambda a \in H$ for $\lambda \in W$ and therefore $\mu a \in L(H)$ for all $\mu \in \mathbf{C}$. Therefore $H$ is a Lie subgroup of the complex Lie group $G$ (\S 4, no. 2, Proposition 2).
+(i) Suppose that $K = \mathbf{C}$. We consider $G$ as a real Lie group. Then $H$ is a real Lie subgroup of $G$ (Theorem 2). Let $a \in L(H)$. There exists a connected open neighbourhood $W$ of $0$ in $\mathbf{C}$ such that $\exp \lambda a \in V$ for all $\lambda \in W$. Let $i \in I$. Then $f_i(\exp \lambda a) = f_i(e)$ if $\lambda \in \mathbf{R} \cap W$. Hence $f_i(\exp \lambda a) = f_i(e)$ if $\lambda \in W$ by analytic continuation. Thus, $\exp \lambda a \in H$ for $\lambda \in W$ and therefore $\mu a \in L(H)$ for all $\mu \in \mathbf{C}$. Therefore $H$ is a Lie subgroup of the complex Lie group $G$ (§ 4, no. 2, Proposition 2).
 
 (ii) Suppose that $K$ is a finite extension of $\mathbf{Q}_p$. We consider $G$ as a Lie group over $\mathbf{Q}_p$. It is finite-dimensional and Theorem 2 implies that $H$ is a $p$-adic Lie subgroup of $G$. Since $I$ is finite, $\prod_{i \in I} M_i$ is a manifold and it can be assumed that the family $(f_i)$ reduces to a single mapping $f$. Let $a \in L(G)$. Let $\phi$ be an exponential mapping of $G$. Then $f(\phi(\lambda a)) = f(e)$ for $\lambda \in \mathbf{Q}_p$ and $|\lambda|$ sufficiently small. Since $f$ is K-analytic, it follows that $f(\phi(\lambda a)) = f(e)$ for $\lambda \in K$ and $|\lambda|$ sufficiently small. Hence $\phi(\lambda a) \in H$ for $\lambda \in K$ and $|\lambda|$ sufficiently small and therefore $\mu a \in L(H)$ for all $\mu \in K$. The proof is completed as in (i).
 

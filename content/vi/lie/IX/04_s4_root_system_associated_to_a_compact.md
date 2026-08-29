@@ -53,9 +53,9 @@ subsections:
       pdf_page: 329
 statements: 60
 exercises: 22
-content_sha256: 8de5ab3fb6e5c38d64f4688f29f6b890edd404e47cd79d35b943c6267fb9f794
+content_sha256: bd4bd4714daf2f27be94b6fc189301f123d5a4c8ef1e6ac4e4232ecfa1434b9f
 translated_from: content/en/lie/IX/04_s4_root_system_associated_to_a_compact.md
-source_content_sha256: fbea58f10a6728a76148dca7971a337d3f9c2d87c3edf12d96a91f1434fc25b7
+source_content_sha256: e5b8a3582b57fb78f4dd12b6e9730ed0ae0bc70a11963071c72fa1b2877b4759
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-edc7dde8
 glossary_version: 34
@@ -423,7 +423,7 @@ $$
 K_\alpha=2\pi iH_{\delta(\alpha)},
 \tag{13}
 $$
-trong đó $H_{\delta(\alpha)}$ là *nghiệm nghịch đảo liên kết với nghiệm* $\delta(\alpha)$ của $(\mathfrak g_{\mathbf C},\mathfrak t_{\mathbf C})$ (Chap. VIII, §2, no. 2). Nói cách khác, khi $\Gamma(\mathbf T)\otimes\mathbf R$ được đồng nhất với đối ngẫu của $X(T)\otimes \mathbf{R}$ qua cặp $\langle ,\rangle $, $K_{\alpha}$ được đồng nhất với nghiệm nghịch đảo $\alpha^{\vee}\in (X(T)\otimes \mathbf{R})^*$.
+trong đó $H_{\delta(\alpha)}$ là *nghiệm nghịch đảo liên kết với nghiệm* $\delta(\alpha)$ của $(\mathfrak g_{\mathbf C},\mathfrak t_{\mathbf C})$ (Chap. VIII, §2, no. 2). Nói cách khác, khi $\Gamma(\mathbf T)\otimes\mathbf R$ được đồng nhất với đối ngẫu của $X(T)\otimes \mathbf{R}$ qua cặp $\langle ,\rangle$, $K_{\alpha}$ được đồng nhất với nghiệm nghịch đảo $\alpha^{\vee}\in (X(T)\otimes \mathbf{R})^*$.
 
 #### Nhận xét {#lie-ix-s4-n5-rem-1 .statement tag=01C5}
 
@@ -453,9 +453,9 @@ Cho $g\in N_G(T)$. Với các kí hiệu trong Chương VIII, §5, no. 2, ta có
 
 Cho $\alpha \in R(G,T)$, và cho $\nu :\mathbf{S}\mathbf{U}(2,\mathbf{C})\rightarrow G$ là một cấu xạ của nhóm Lie có các tính chất trong Hệ quả của Định lý 1. Ảnh qua $\nu$ của phần tử $\theta$ của $\mathbf{S}\mathbf{U}(2,\mathbf{C})$ có các tính chất sau (§3, no. 6, công thức (17)):
 
-$a)$ (Int$\nu (\theta )$)$(t) =t$ nếu $t\in$ Ker$\alpha$,
+a) (Int$\nu (\theta )$)$(t) =t$ nếu $t\in$ Ker$\alpha$,
 
-$b)$ (Int$\nu (\theta )$)$(t) =t^{-1}$ nếu $t\in T\cap S_{\alpha}$.
+b) (Int$\nu (\theta )$)$(t) =t^{-1}$ nếu $t\in T\cap S_{\alpha}$.
 
 Suy ra Ad $\nu (\theta )$ cảm sinh đồng nhất thức trên Ker $\delta (\alpha )\subset \mathfrak{t}_{\mathbf{C}}$, và cảm sinh ánh xạ $x \rightarrow  -x$ trên $[\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}]$, do đó trùng với phép đối xứng $s_{H_{\delta(\alpha)}}$. Do đó, ảnh của W chứa mọi $s_{H_{\delta(\alpha)}}$, và vì thế bằng $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$. Đặc biệt $W_{Z_{\alpha}}(T)$ có cấp 2, và do đó gồm phần tử đơn vị và Int $\nu (\theta )$. Điều đó kết thúc chứng minh mệnh đề.
 
@@ -479,9 +479,9 @@ Trong mệnh đề sau, $f(G,T)$ ký hiệu đồng cấu từ $\Gamma (T)$ đ�
 
 $a) G$ là đơn liên. Cho $\rho :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ là một biểu diễn tuyến tính của $\mathfrak{g}_{\mathbf{C}}$ trên một không gian vectơ phức hữu hạn chiều V. Hạn chế xuống $\mathfrak{g}$, ta thu được một biểu diễn của $\mathfrak{g}$ trên không gian vectơ thực $V_{(\mathbf{R})}$; vì G đơn liên, tồn tại một biểu diễn tuyến tính giải tích $\pi$ của G trên $V_{(\mathbf{R})}$ sao cho $\rho = L(\pi )$. Suy ra từ Mệnh đề 7 của no. 3 rằng ảnh $\delta (X(T))$ của X(T) trong $\mathfrak{t}^*_{\mathbf{C}}$ chứa mọi trọng số của $\rho$ trên V. Vì điều này đúng với mọi biểu diễn $\rho$ của $\mathfrak{g}_{\mathbf{C}}$, suy ra từ Chương VIII, §7, no. 2, Định lý 1 rằng $\delta (X(T))$ chứa nhóm các trọng số của $\delta$(R), mà theo định nghĩa là tập hợp các $\lambda \in \mathfrak{t}^*_{\mathbf{C}}$ sao cho $\lambda (H_{\delta(\alpha)})\in \mathbf{Z}$ với mọi $\alpha \in R$, nói cách khác, $\lambda (K_{\alpha})\in 2\pi i\mathbf{Z}$ với mọi $\alpha \in R$. Do đó, nhóm X(T) chứa mọi phần tử $\lambda$ của $X(T)\otimes \mathbf{Q}$ sao cho $\langle \lambda , K_{\alpha}\rangle  \in \mathbf{Z}$ với mọi $\alpha \in R$, điều đó theo đối ngẫu suy ra rằng $\Gamma (T)$ được sinh bởi các $K_{\alpha}$, do đó mệnh đề $A(G,T)$.
 
-$b) G$ là tích trực tiếp của một nhóm đơn liên thông $G'$ và một xuyến S. Khi đó T là tích trực tiếp của một xuyến cực đại $T'$ của $G'$ với $S,\Gamma (T)$ có thể được đồng nhất với $\Gamma (T')\times \Gamma$(S), $\pi_1(G)$ với $\pi_1(G')\times \pi_1$(S), và $f(G,T)$ với các đồng cấu có các thành phần $f(G',T')$ và $f(S,S)$. Vì $f(S,S)$ là song ánh, ánh xạ chính tắc $\Gamma (T')\rightarrow \Gamma (T)$ ánh xạ Ker $f(G',T')$ song ánh lên Ker $f(G,T)$. Hơn nữa, các $K_{\alpha}$ thuộc đại số Lie của nhóm dẫn xuất $G'$ của G, do đó thuộc ảnh của $\Gamma (T')$, nên suy ra ngay rằng $A(G',T')$ kéo theo $A(G,T)$, do đó mệnh đề $A(G,T)$, theo $a)$.
+$b) G$ là tích trực tiếp của một nhóm đơn liên thông $G'$ và một xuyến S. Khi đó T là tích trực tiếp của một xuyến cực đại $T'$ của $G'$ với $S,\Gamma (T)$ có thể được đồng nhất với $\Gamma (T')\times \Gamma$(S), $\pi_1(G)$ với $\pi_1(G')\times \pi_1$(S), và $f(G,T)$ với các đồng cấu có các thành phần $f(G',T')$ và $f(S,S)$. Vì $f(S,S)$ là song ánh, ánh xạ chính tắc $\Gamma (T')\rightarrow \Gamma (T)$ ánh xạ Ker $f(G',T')$ song ánh lên Ker $f(G,T)$. Hơn nữa, các $K_{\alpha}$ thuộc đại số Lie của nhóm dẫn xuất $G'$ của G, do đó thuộc ảnh của $\Gamma (T')$, nên suy ra ngay rằng $A(G',T')$ kéo theo $A(G,T)$, do đó mệnh đề $A(G,T)$, theo a).
 
-$c)$ Trường hợp tổng quát. Có một cấu xạ toàn ánh $p: G'\rightarrow G$ với hạt nhân hữu hạn, trong đó $G'$ là tích trực tiếp của một nhóm đơn liên thông bởi một xuyến (§1, no. 4, Mệnh đề 4). Nếu $T'$ là ảnh ngược của T trong $G'$ (đây là một xuyến cực đại của $G'$ theo §2, no. 3, Mệnh đề 1), và N là hạt nhân của $p$, ta có các dãy khớp $0\rightarrow N\rightarrow G'\rightarrow G\rightarrow 0$ và $0\rightarrow N\rightarrow T'\rightarrow T\rightarrow 0$, do đó một biểu đồ giao hoán với các hàng khớp (no. 2, Nhận xét 1 và General Topology, Chap. XI, in preparation)
+c) Trường hợp tổng quát. Có một cấu xạ toàn ánh $p: G'\rightarrow G$ với hạt nhân hữu hạn, trong đó $G'$ là tích trực tiếp của một nhóm đơn liên thông bởi một xuyến (§1, no. 4, Mệnh đề 4). Nếu $T'$ là ảnh ngược của T trong $G'$ (đây là một xuyến cực đại của $G'$ theo §2, no. 3, Mệnh đề 1), và N là hạt nhân của $p$, ta có các dãy khớp $0\rightarrow N\rightarrow G'\rightarrow G\rightarrow 0$ và $0\rightarrow N\rightarrow T'\rightarrow T\rightarrow 0$, do đó một biểu đồ giao hoán với các hàng khớp (no. 2, Nhận xét 1 và General Topology, Chap. XI, in preparation)
 
 0 $\longrightarrow \Gamma (T')\longrightarrow \Gamma (T)\longrightarrow$ N $\longrightarrow$ 0
 
@@ -489,7 +489,7 @@ $f(G',T')f(G,T)$ Id$_N$
 
 0 $\longrightarrow \pi_1(G')\longrightarrow \pi_1(G)\longrightarrow$ N $\longrightarrow 0$.
 
-Suy ra ngay từ biểu đồ con rắn (Algebra, Chap. X, p. 4, Mệnh đề 2) rằng $A(G',T')$ kéo theo $A(G,T)$, do đó mệnh đề, theo $b)$.
+Suy ra ngay từ biểu đồ con rắn (Algebra, Chap. X, p. 4, Mệnh đề 2) rằng $A(G',T')$ kéo theo $A(G,T)$, do đó mệnh đề, theo b).
 
 #### Hệ quả 1 {#lie-ix-s4-prop-11-cor-1 .statement tag=01C9}
 
@@ -517,7 +517,7 @@ Có thể chứng minh (xem Bài tập 2 của §5) rằng $\pi_2(G/H)$ bằng k
 
 Đồng cấu $\pi_1(D(G))\rightarrow \pi_1(G)$ tương ứng với sự nhúng của D(G) vào G cảm sinh một đẳng cấu từ $\pi_1(D(G))$ lên nhóm con xoắn của $\pi_1(G)$.
 
-Thật vậy, $T\cap D(G)$ là một xuyến cực đại của D(G) (§2, no. 3, Mệnh đề $1c$)$); từ dãy khớp
+Thật vậy, $T\cap D(G)$ là một xuyến cực đại của D(G) (§2, no. 3, Mệnh đề $1c$)); từ dãy khớp
 
 $$
 0\longrightarrow \Gamma (T\cap D(G))\longrightarrow \Gamma (T)\longrightarrow \Gamma (T/(T\cap D(G)))\longrightarrow 0
@@ -627,7 +627,7 @@ Với thuật ngữ đã đưa vào ở số trước, một phần quan trọng
 
 #### Định lý 2 {#lie-ix-s4-thm-2 .statement tag=01CQ}
 
-a$) $(X(T),X(T/(T\cap D(G)),R(G,T)))$ là một biểu đồ nghiệm rút gọn; nhóm Weyl của nó gồm các $X(w)$ với $w\in W$; nhóm X(C(G)) đẳng cấu với thương của X(T) theo nhóm con sinh bởi R(G,T).
+a) $(X(T),X(T/(T\cap D(G)),R(G,T)))$ là một biểu đồ nghiệm rút gọn; nhóm Weyl của nó gồm các $X(w)$ với $w\in W$; nhóm X(C(G)) đẳng cấu với thương của X(T) theo nhóm con sinh bởi R(G,T).
 
 b) $(\Gamma (T), \Gamma (C(G)_0),R^{\vee}(G,T))$ là một biểu đồ nghiệm gốc rút gọn; nhóm Weyl của nó gồm các $\Gamma (w)$, với $w\in W$; nhóm $\pi_1(G)$ đẳng cấu với thương của $\Gamma (T)$ theo nhóm con được sinh bởi $R^{\vee}(G,T)$.
 
@@ -655,9 +655,9 @@ Tương tự, cho N là một nhóm Abel hữu hạn, và $\varphi :\pi_1(G)\rig
 
 Cho $\mathfrak{c}$ là tâm của $\mathfrak{g}_{\mathbf{C}}$; khi đó $\mathfrak{c}= L(C(G))_{(\mathbf{C})}$. Ta có các quan hệ sau giữa các biểu đồ của G tương đối với T và các hệ nghiệm gốc trực tiếp và nghịch đảo của đại số khả quy tách $(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}}):$
 
-$a)$ Đẳng cấu chính tắc từ $\mathbf{C}\otimes \Gamma (T)$ đến $\mathfrak{t}_{\mathbf{C}}$ cảm sinh một song ánh từ $\mathbf{C}\otimes \Gamma (C(G)_0)$ đến $\mathfrak{c}$ và một song ánh từ $1\otimes R^{\vee}(G,T)$ đến $2\pi i.R^{\vee}(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$.
+a) Đẳng cấu chính tắc từ $\mathbf{C}\otimes \Gamma (T)$ đến $\mathfrak{t}_{\mathbf{C}}$ cảm sinh một song ánh từ $\mathbf{C}\otimes \Gamma (C(G)_0)$ đến $\mathfrak{c}$ và một song ánh từ $1\otimes R^{\vee}(G,T)$ đến $2\pi i.R^{\vee}(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$.
 
-$b)$ Đẳng cấu chính tắc từ $\mathbf{C}\otimes X(T)$ đến đối ngẫu $\mathfrak{t}^*_{\mathbf{C}}$ của $\mathfrak{t}_{\mathbf{C}}$ cảm sinh một song ánh từ $\mathbf{C}\otimes X(T/(T\cap D(G)))$ đến phần bù trực giao của $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}(\mathfrak{g})_{\mathbf{C}}$, và một song ánh từ $1\otimes R(G,T)$ đến $R(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$.
+b) Đẳng cấu chính tắc từ $\mathbf{C}\otimes X(T)$ đến đối ngẫu $\mathfrak{t}^*_{\mathbf{C}}$ của $\mathfrak{t}_{\mathbf{C}}$ cảm sinh một song ánh từ $\mathbf{C}\otimes X(T/(T\cap D(G)))$ đến phần bù trực giao của $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}(\mathfrak{g})_{\mathbf{C}}$, và một song ánh từ $1\otimes R(G,T)$ đến $R(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$.
 
 #### Nhận xét 2 {#lie-ix-s4-n9-rem-2 .statement tag=01CW}
 
@@ -685,7 +685,7 @@ Bây giờ cho $G'$ là một nhóm Lie compact liên thông khác, $T'$ là m�
 
 Cho $\varphi$ là một đẳng cấu từ $D^*(G',T')$ đến $D^*(G,T)$ (tương ứng từ $D_*(G,T)$ đến $D_*(G',T')$). Tồn tại một đẳng cấu $f: G\rightarrow G'$ sao cho $f(T) = T'$ và $\varphi = D^*(f)$ (tương ứng $\varphi = D_*(f)$); nếu $f_1$ và $f_2$ là hai đẳng cấu như thế, thì tồn tại một phần tử $t$ của T sao cho $f_2=f_1\circ$ tự đẳng cấu trong $t$.
 
-Mệnh đề thứ hai suy ra ngay từ Mệnh đề 9 (no. 4); chẳng hạn, ta chứng minh mệnh đề thứ nhất cho các sơ đồ đồng biến. Ký hiệu bởi $\mathfrak{g}'$ (tương ứng $\mathfrak{t}'$) đại số Lie của $G'$ (tương ứng $T'$), và bởi $\mathfrak{g}'_{\mathbf{C}}$ (tương ứng $\mathfrak{t}'_{\mathbf{C}}$) đại số Lie phức hóa của nó. Theo Chương VIII, §4, no. 4, Định lý 2 (i), tồn tại một đẳng cấu $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ ánh xạ $\mathfrak{t}_{\mathbf{C}}$ thành $\mathfrak{t}'_{\mathbf{C}}$ và cảm sinh trên $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ đẳng cấu đã cho $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. Khi đó $\mathfrak{g}$ và $\psi^{-1}(\mathfrak{g}')$ là hai dạng compact của $\mathfrak{g}_{\mathbf{C}}$ có cùng giao $\mathfrak{t}$ với $\mathfrak{t}_{\mathbf{C}}$; theo §3, no. 2, Mệnh đề 3, tồn tại một tự đẳng cấu trong $\theta$ của $\mathfrak{g}_{\mathbf{C}}$ cảm sinh đồng nhất trên $\mathfrak{t}_{\mathbf{C}}$ và sao cho $\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$. Bằng cách thay thế $\psi$ bởi $\psi \circ \theta$, ta có thể giả sử rằng $\psi$ ánh xạ $\mathfrak{g}$ vào $\mathfrak{g}'$. Hơn nữa, theo Mệnh đề 4 của no. 2, tồn tại một cấu xạ duy nhất $f_T: T\rightarrow T'$ sao cho $\Gamma (f_T) =\varphi$. Khi đó, hạn chế của $\psi$ lên $\mathfrak{t}$ là $L(f_T)$, và theo §2, no. 6, Mệnh đề 8, tồn tại một cấu xạ duy nhất $f: G\rightarrow G'$ cảm sinh $f_T$ trên T và $\psi$ trên $\mathfrak{g}_{\mathbf{C}}$. Áp dụng điều trên cho $\varphi^{-1}$ và $\psi^{-1}$ ta thu được một cấu xạ nghịch đảo của $f$, do đó $f là một đẳng cấu. Khi đó $D_*(f) =\Gamma (f_T) =\varphi$, suy ra mệnh đề.
+Mệnh đề thứ hai suy ra ngay từ Mệnh đề 9 (no. 4); chẳng hạn, ta chứng minh mệnh đề thứ nhất cho các sơ đồ đồng biến. Ký hiệu bởi $\mathfrak{g}'$ (tương ứng $\mathfrak{t}'$) đại số Lie của $G'$ (tương ứng $T'$), và bởi $\mathfrak{g}'_{\mathbf{C}}$ (tương ứng $\mathfrak{t}'_{\mathbf{C}}$) đại số Lie phức hóa của nó. Theo Chương VIII, §4, no. 4, Định lý 2 (i), tồn tại một đẳng cấu $\psi :\mathfrak{g}_{\mathbf{C}}\rightarrow \mathfrak{g}'_{\mathbf{C}}$ ánh xạ $\mathfrak{t}_{\mathbf{C}}$ thành $\mathfrak{t}'_{\mathbf{C}}$ và cảm sinh trên $\Gamma (T)\subset \mathfrak{t}_{\mathbf{C}}$ đẳng cấu đã cho $\varphi :\Gamma (T)\rightarrow \Gamma (T')$. Khi đó $\mathfrak{g}$ và $\psi^{-1}(\mathfrak{g}')$ là hai dạng compact của $\mathfrak{g}_{\mathbf{C}}$ có cùng giao $\mathfrak{t}$ với $\mathfrak{t}_{\mathbf{C}}$; theo §3, no. 2, Mệnh đề 3, tồn tại một tự đẳng cấu trong $\theta$ của $\mathfrak{g}_{\mathbf{C}}$ cảm sinh đồng nhất trên $\mathfrak{t}_{\mathbf{C}}$ và sao cho $\theta (\mathfrak{g}) =\psi^{-1}(\mathfrak{g}')$. Bằng cách thay thế $\psi$ bởi $\psi \circ \theta$, ta có thể giả sử rằng $\psi$ ánh xạ $\mathfrak{g}$ vào $\mathfrak{g}'$. Hơn nữa, theo Mệnh đề 4 của no. 2, tồn tại một cấu xạ duy nhất $f_T: T\rightarrow T'$ sao cho $\Gamma (f_T) =\varphi$. Khi đó, hạn chế của $\psi$ lên $\mathfrak{t}$ là $L(f_T)$, và theo §2, no. 6, Mệnh đề 8, tồn tại một cấu xạ duy nhất $f: G\rightarrow G'$ cảm sinh $f_T$ trên T và $\psi$ trên $\mathfrak{g}_{\mathbf{C}}$. Áp dụng điều trên cho $\varphi^{-1}$ và $\psi^{-1}$ ta thu được một cấu xạ nghịch đảo của $f$, do đó $f$ là một đẳng cấu. Khi đó $D_*(f) =\Gamma (f_T) =\varphi$, suy ra mệnh đề.
 
 Chú ý rằng, nếu T và $T'$ là hai xuyến cực đại của G, thì các biểu đồ $D^*(G,T)$ và $D^*(G,T')$ đẳng cấu với nhau (nếu $g\in G$ sao cho $gTg^{-1}= T'$, thì Int $g$ là một đẳng cấu từ G đến G ánh xạ T thành $T'$). Kí hiệu $D^*(G)$ là lớp đẳng cấu của $D^*(G,T)$ (xem Lý thuyết tập hợp, Chương II, §6, no. 2); đây là một biểu đồ nghiệm chỉ phụ thuộc vào G và được gọi là biểu đồ phản biến của G. Biểu đồ đồng biến $D_*(G)$ của G được định nghĩa tương tự, và ta thu được:
 
@@ -697,13 +697,13 @@ Hai nhóm Lie compact liên thông G và $G'$ đẳng cấu khi và chỉ khi c�
 
 Với mọi biểu đồ nghiệm rút gọn D, tồn tại một nhóm Lie compact liên thông G sao cho $D^*(G)$ (tương ứng $D_*(G)$) đẳng cấu với D.
 
-$a)$ Bằng cách thay thế D, nếu cần, bởi biểu đồ nghịch đảo của nó, ta quy về việc xây dựng G sao cho $D^*(G)$ đẳng cấu với D. Đặt $D = (M,M_0,R)$; khi đó $\mathbf{Q}\otimes M$ là tổng trực tiếp của $\mathbf{Q}\otimes M_0$ và không gian con vectơ V(R) sinh bởi R. Hơn nữa, vì các nghiệm nghịch đảo nhận các giá trị nguyên trên M, phép chiếu của M lên V(R) song song với $\mathbf{Q}\otimes M_0$ được chứa trong nhóm trọng số P(R) của R, do đó M là một nhóm con của $M_0\oplus P(R)$ có chỉ số hữu hạn. Kí hiệu $D'$ là biểu đồ $(M_0\oplus P(R),M_0,R)$.
+a) Bằng cách thay thế D, nếu cần, bởi biểu đồ nghịch đảo của nó, ta quy về việc xây dựng G sao cho $D^*(G)$ đẳng cấu với D. Đặt $D = (M,M_0,R)$; khi đó $\mathbf{Q}\otimes M$ là tổng trực tiếp của $\mathbf{Q}\otimes M_0$ và không gian con vectơ V(R) sinh bởi R. Hơn nữa, vì các nghiệm nghịch đảo nhận các giá trị nguyên trên M, phép chiếu của M lên V(R) song song với $\mathbf{Q}\otimes M_0$ được chứa trong nhóm trọng số P(R) của R, do đó M là một nhóm con của $M_0\oplus P(R)$ có chỉ số hữu hạn. Kí hiệu $D'$ là biểu đồ $(M_0\oplus P(R),M_0,R)$.
 
-$b)$ Cho $\mathfrak{a}$ là một đại số Lie nửa đơn phức có hệ nghiệm chính tắc đẳng cấu với $R\subset \mathbf{C}\otimes V(R)$ (Ch. VIII, §4, no. 3), và cho $\mathfrak{g}_1$ là một dạng thực compact của $\mathfrak{a}($§3, no. 2, Định lý 1). Cho $G_1$ là một nhóm Lie thực đơn liên sao cho đại số Lie của nó đẳng cấu với $\mathfrak{g}_1$; khi đó $G_1$ là compact (§1, no. 4, Định lý 1). Cho $T_1$ là một xuyến cực đại của $G_1$. Theo Định lý 1, biểu đồ $D^*(G_1,T_1)$ đẳng cấu với $(P(R),0,R)$.
+b) Cho $\mathfrak{a}$ là một đại số Lie nửa đơn phức có hệ nghiệm chính tắc đẳng cấu với $R\subset \mathbf{C}\otimes V(R)$ (Ch. VIII, §4, no. 3), và cho $\mathfrak{g}_1$ là một dạng thực compact của $\mathfrak{a}($§3, no. 2, Định lý 1). Cho $G_1$ là một nhóm Lie thực đơn liên sao cho đại số Lie của nó đẳng cấu với $\mathfrak{g}_1$; khi đó $G_1$ là compact (§1, no. 4, Định lý 1). Cho $T_1$ là một xuyến cực đại của $G_1$. Theo Định lý 1, biểu đồ $D^*(G_1,T_1)$ đẳng cấu với $(P(R),0,R)$.
 
-$c)$ Cho $T_0$ là một xuyến có chiều bằng hạng của $M_0$; khi đó $D^*(T_0,T_0)$ đẳng cấu với $(M_0,M_0,\emptyset )$, do đó $D^*(G_1\times T_0,T_1\times T_0)$ đẳng cấu với $D'$ (Ví dụ 2).
+c) Cho $T_0$ là một xuyến có chiều bằng hạng của $M_0$; khi đó $D^*(T_0,T_0)$ đẳng cấu với $(M_0,M_0,\emptyset )$, do đó $D^*(G_1\times T_0,T_1\times T_0)$ đẳng cấu với $D'$ (Ví dụ 2).
 
-$d)$ Cuối cùng, cho N là nhóm con hữu hạn của $T_1\times T_0$ trực giao với M. Đặt $G = (G_1\times T_0)/N, T = (T_1\times T_0)/N$. Khi đó G là một nhóm Lie compact liên thông, T là một xuyến cực đại của G, và $D(G,T)$ đẳng cấu với D (Ví dụ 3).
+d) Cuối cùng, cho N là nhóm con hữu hạn của $T_1\times T_0$ trực giao với M. Đặt $G = (G_1\times T_0)/N, T = (T_1\times T_0)/N$. Khi đó G là một nhóm Lie compact liên thông, T là một xuyến cực đại của G, và $D(G,T)$ đẳng cấu với D (Ví dụ 3).
 
 #### Chú giải {#lie-ix-s4-n9-sch-1 .statement tag=01D0}
 

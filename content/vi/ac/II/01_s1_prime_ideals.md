@@ -94,7 +94,7 @@ Cho $p$ là một iđêan nguyên tố của $A$. Nếu $p$ chứa $a$ và $b_1 
 *Cho $(a_i)_{i \in I}$ là một họ hữu hạn khác rỗng các iđêan của một vành $A$. Các tính chất sau đây là tương đương =
 (a) Với $i \neq j$, $a_i$ và $a_j$ nguyên tố cùng nhau.
 (b) *Đồng cấu chính tắc* $\phi : A \to \prod_{i \neq I} (A/a_i)$ (*Đại số*, Chương 11, § 1, no. 7) là toàn ánh.
-*Nếu các tính chất này được thỏa mãn, giao $a$ của các $a_i$ bằng tích của chúng và đồng cấu chính tắc* $\$ : A/a \to \prod_{i \in I} (A/a_i)$ (*Đại số*, Chương II, § 1, no. 7) là song ánh.*
+*Nếu các tính chất này được thỏa mãn, giao $a$ của các $a_i$ bằng tích của chúng và đồng cấu chính tắc* $\phi : A/a \to \prod_{i \in I} (A/a_i)$ (*Đại số*, Chương II, § 1, no. 7) là song ánh.*
 
 Ta lập luận bằng quy nạp theo $n$, số các phần tử của $I$, trường hợp $n = 1$ là tầm thường. Trước hết xét trường hợp $n = 2$. Khi đó tính tương đương của (a) và (b) suy ra từ tính chính xác của dãy
 

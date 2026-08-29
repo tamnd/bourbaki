@@ -33,9 +33,9 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: f6abc6b8b7f6df7569750f8ff7ba406949d194adb1cf73e0a9a5b78c2e8bde9f
+content_sha256: 6bcb16ca31754b9af5c4e1ce4d52346b7486a851fea5c49697b46e8667c95285
 translated_from: content/en/alg/III/09_s9_norms_and_traces.md
-source_content_sha256: df598e18c3253b00b7d41079ac3300a4c9d742fd23b8d2c9c9597157c6a49b59
+source_content_sha256: 8434084d69552b8f7b8ee7ec79fb769815bf1868b7a0b4a9cde2013668383c85
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-f8256ec5
 glossary_version: 34
@@ -72,7 +72,7 @@ Cho $(e_i)_{1 \leq i \leq n}$ là một cơ sở của $K$-môđun $M$ và $(m_{
 (5)    $N_M(a) = \det(m_{ij}(a))$
 (6)    $\mathrm{Pc}(a; X) = \det(\delta_{ij}X - m_{ij}(a)).$
 
-Từ phương pháp tính định thức (\S 8, no. 11, công thức (50)) suy ra rằng
+Từ phương pháp tính định thức (§ 8, no. 11, công thức (50)) suy ra rằng
 
 (7)    $\mathrm{Pc}_M(a; X) = X^n + c_1 X^{n-1} + \cdots + c_n$
 
@@ -84,7 +84,7 @@ Với $\lambda \in K$,
 
 (9)    $\mathrm{Tr}_M(\lambda) = n.\lambda, \quad N_M(\lambda) = \lambda^n, \quad \mathrm{Pc}_M(\lambda; X) = (X - \lambda)^n.$
 
-Cho $K'$ là một $K$-đại số giao hoán. Đặt $M' = K' \otimes_K M$ và $A' = K' \otimes_K A$, do đó $M'$ có một cấu trúc môđun $A'$ (\S 4, Ví dụ 2). Là một $K'$-môđun, $M'$ có cơ sở gồm các $1 \otimes e_i$ ($1 \leq i \leq n$) và ma trận của $a_M$ đối với $(e_i)$ bằng ma trận của $(1 \otimes a)_M'$ đối với $(e'_i)$. Khi đó
+Cho $K'$ là một $K$-đại số giao hoán. Đặt $M' = K' \otimes_K M$ và $A' = K' \otimes_K A$, do đó $M'$ có một cấu trúc môđun $A'$ (§ 4, Ví dụ 2). Là một $K'$-môđun, $M'$ có cơ sở gồm các $1 \otimes e_i$ ($1 \leq i \leq n$) và ma trận của $a_M$ đối với $(e_i)$ bằng ma trận của $(1 \otimes a)_M'$ đối với $(e'_i)$. Khi đó
 
 (12)    $\mathrm{Tr}_{M'}(1 \otimes a) = \mathrm{Tr}_M(a).1, \quad N_{M'}(1 \otimes a) = N_M(a).1$
         $\mathrm{Pc}_{M'}(1 \otimes a; X) = \mathrm{Pc}_M(a; X).1$
@@ -129,7 +129,7 @@ và mệnh đề suy ra từ các công thức (4), (5) và (6) của no. 1 và 
 
 #### Mệnh đề 2 {#alg-iii-s9-prop-2 .statement}
 
-Let $A, A'$ là hai $K$-đại số, $M$ là một $A$-môđun và $M'$ là một $A'$-môđun. Giả sử rằng $M$ và $M'$ là các $K$-môđun tự do có số chiều tương ứng là $n$ và $n'$ và coi $M \otimes_K M'$ như là một $(A \otimes_K A')$-môđun ($\S 4$, no. 3, Ví dụ 2). Khi đó, với $a \in A$ và $a' \in A'$,
+Let $A, A'$ là hai $K$-đại số, $M$ là một $A$-môđun và $M'$ là một $A'$-môđun. Giả sử rằng $M$ và $M'$ là các $K$-môđun tự do có số chiều tương ứng là $n$ và $n'$ và coi $M \otimes_K M'$ như là một $(A \otimes_K A')$-môđun ($§ 4$, no. 3, Ví dụ 2). Khi đó, với $a \in A$ và $a' \in A'$,
 
 $$
 \operatorname{Tr}_{M \otimes M'}(a \otimes a') = \operatorname{Tr}_M(a) \operatorname{Tr}_{M'}(a')
@@ -204,11 +204,11 @@ $$
 
 #### Ví dụ {#alg-iii-s9-n3-exa-1 .statement}
 
-(1) Cho $A$ là một đại số bậc hai trên $K$ kiểu $(\alpha, \beta)$ và $(e_1, e_2)$ là một cơ sở kiểu $(\alpha, \beta)$ (\S 2, no. 3). Với $x = \xi e_1 + \eta e_2$, $\mathrm{Tr}_{A/K}(x) = 2\xi + \beta \eta$ và $N_{A/K}(x) = \xi^2 + \beta \xi \eta - \alpha \eta^2$; do đó các hàm này trùng với vết và chuẩn Cayley của $x$ (\S 2, no. 24).
+(1) Cho $A$ là một đại số bậc hai trên $K$ kiểu $(\alpha, \beta)$ và $(e_1, e_2)$ là một cơ sở kiểu $(\alpha, \beta)$ (§ 2, no. 3). Với $x = \xi e_1 + \eta e_2$, $\mathrm{Tr}_{A/K}(x) = 2\xi + \beta \eta$ và $N_{A/K}(x) = \xi^2 + \beta \xi \eta - \alpha \eta^2$; do đó các hàm này trùng với vết và chuẩn Cayley của $x$ (§ 2, no. 24).
 
-(2) Cho $A$ là một đại số quaternion trên $K$. Một tính toán trực tiếp cho phép kiểm tra rằng $\mathrm{Tr}_{A/\mathbf{K}}(x) = 2T(x)$ và $N_{A/\mathbf{K}}(x) = (N(x))^2$, trong đó T và N là vết và chuẩn Cayley (\S 2, no. 4).
+(2) Cho $A$ là một đại số quaternion trên $K$. Một tính toán trực tiếp cho phép kiểm tra rằng $\mathrm{Tr}_{A/\mathbf{K}}(x) = 2T(x)$ và $N_{A/\mathbf{K}}(x) = (N(x))^2$, trong đó T và N là vết và chuẩn Cayley (§ 2, no. 4).
 
-(3) Cho $A = \mathbf{M}_n(\mathbf{K})$ và cho cơ sở chính tắc $(E_{ij})$ của A (II, \S 10, no. 3) được sắp theo thứ tự từ điển. Khi đó thấy ngay rằng, với mọi ma trận $X = \sum_{i,j} \xi_{ij} E_{ij}$ ma trận (cấp $n^2$) của tự đồng cấu $Y \mapsto XY$ có dạng
+(3) Cho $A = \mathbf{M}_n(\mathbf{K})$ và cho cơ sở chính tắc $(E_{ij})$ của A (II, § 10, no. 3) được sắp theo thứ tự từ điển. Khi đó thấy ngay rằng, với mọi ma trận $X = \sum_{i,j} \xi_{ij} E_{ij}$ ma trận (cấp $n^2$) của tự đồng cấu $Y \mapsto XY$ có dạng
 
 $$
 \begin{pmatrix}
@@ -233,13 +233,13 @@ $$
 N_{A/\mathbf{K}}(a) N_{A/\mathbf{K}}(a') = N_{A/\mathbf{K}}(aa') = N_{A/\mathbf{K}}(1) = 1
 $$
 
-bằng công thức (3) của no. 1. Ngược lại, nếu $N_{A/\mathbf{K}}(a)$ là khả nghịch, thì tự đồng cấu $h : x \mapsto ax$ là song ánh (\S 8, no. 2, Định lý 1). Khi đó tồn tại $a' \in A$ sao cho $aa' = 1$; rồi $h(a'a - 1) = aa'a - a = (aa' - 1)a = 0$, do đó $aa' = 1$ vì $h$ là đơn ánh. Suy ra $a'$ là nghịch đảo của $a$.
+bằng công thức (3) của no. 1. Ngược lại, nếu $N_{A/\mathbf{K}}(a)$ là khả nghịch, thì tự đồng cấu $h : x \mapsto ax$ là song ánh (§ 8, no. 2, Định lý 1). Khi đó tồn tại $a' \in A$ sao cho $aa' = 1$; rồi $h(a'a - 1) = aa'a - a = (aa' - 1)a = 0$, do đó $aa' = 1$ vì $h$ là đơn ánh. Suy ra $a'$ là nghịch đảo của $a$.
 
 #### Mệnh đề 4 {#alg-iii-s9-prop-4 .statement}
 
 *Cho A là một K-đại số nhận một cơ sở hữu hạn. Với mọi $a \in A$, $\mathrm{Pc}_{A/\mathbf{K}}(a; a) = 0$. \*
 
-Điều này suy ra ngay lập tức từ định lý Cayley-Hamilton (\S 8, no. 11, Mệnh đề 20).
+Điều này suy ra ngay lập tức từ định lý Cayley-Hamilton (§ 8, no. 11, Mệnh đề 20).
 
 #### Mệnh đề 5 {#alg-iii-s9-prop-5 .statement}
 
@@ -252,7 +252,7 @@ $$
 \mathrm{Pc}_A(a; X) = (\mathrm{Pc}_{A_0}(a_0; X))^s.
 $$
 
-Do II, \S 1, no. 13, Mệnh đề 25, $m^{i-1}/m^i$ là một K-môđun tự do có chiều $ns_i$. Do đó có thể áp dụng Mệnh đề 1 của no. 2 với $P_i = m^{i-1}/m^i$;
+Do II, § 1, no. 13, Mệnh đề 25, $m^{i-1}/m^i$ là một K-môđun tự do có chiều $ns_i$. Do đó có thể áp dụng Mệnh đề 1 của no. 2 với $P_i = m^{i-1}/m^i$;
 
 điều này trước hết cho thấy rằng $A$ là một $K$-môđun tự do có chiều $n(s_1 + \cdots + s_r) = ns$. Hơn nữa, giả thiết suy ra rằng $A$-môđun $P_i$ đẳng cấu với một tổng trực tiếp của $s_i$ môđun con đẳng cấu với $A$-môđun $A_0$; do đó, theo Mệnh đề 1 của no. 2, $N_{P_i}(a) = N_{A_0}(a)^{s_i}$; cuối cùng suy ra
 $$
@@ -271,7 +271,7 @@ $$
 $$
 (24)
 
-Cho $(a_i)_{1 \leq i \leq m}$ là một cơ sở của $A$ trên $K$ và $(e_j)_{1 \leq j \leq n}$ là một cơ sở của $V$ trên $A$; khi đó $(a_i e_j)$ là một cơ sở của $V$ trên $K$ (II, § 1, no. 13, Proposition 25). Mặt khác công thức thứ ba trong các công thức (24) có thể suy ra từ công thức thứ hai áp dụng cho tự đồng cấu $X - \bar{u}$ của $A[X]$-môđun $A[X] \otimes_A V$ (\S 8, no. 10). Vì vậy chỉ cần chứng minh hai công thức đầu trong (24). Trước hết ta thiết lập bổ đề sau:
+Cho $(a_i)_{1 \leq i \leq m}$ là một cơ sở của $A$ trên $K$ và $(e_j)_{1 \leq j \leq n}$ là một cơ sở của $V$ trên $A$; khi đó $(a_i e_j)$ là một cơ sở của $V$ trên $K$ (II, § 1, no. 13, Proposition 25). Mặt khác công thức thứ ba trong các công thức (24) có thể suy ra từ công thức thứ hai áp dụng cho tự đồng cấu $X - \bar{u}$ của $A[X]$-môđun $A[X] \otimes_A V$ (§ 8, no. 10). Vì vậy chỉ cần chứng minh hai công thức đầu trong (24). Trước hết ta thiết lập bổ đề sau:
 
 *Bổ đề 1. Cho $X_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) là $n^2$ ẩn thức, $X$ là ma trận vuông $(X_{ij})$ cấp $n$ và $D(X_{11}, \ldots, X_{nn}) \in \mathbf{Z}[X_{11}, \ldots, X_{nn}]$ là định thức $\det(X)$. Mặt khác cho $A$ là một vành giao hoán, $M_{ij}$ ($1 \leq i \leq n,\ 1 \leq j \leq n$) $n^2$ ma trận cấp $m$ trên $A$, đôi một giao hoán, và $M$ là ma trận vuông cấp $mn$ trên $A$ có thể được biểu diễn như một ma trận vuông các ma trận (II, § 10, no. 7)
 $$
@@ -290,7 +290,7 @@ cấp $m$.
 
 Ta chứng minh bằng quy nạp theo $n$, các trường hợp $n = 0$ và $n = 1$ là tầm thường.
 
-Cho $Z$ là một ẩn thức mới và $N_{ij}$ là ma trận $M_{ij} + \delta_{ij} Z I_m$ ($\delta_{ij}$ là chỉ số Kronecker). Nếu $D^{ij}(X_{11}, \ldots, X_{nn})$ là *phần bù đại số* của $X_{ij}$ trong ma trận $X$ (\S 8, no. 6), thì
+Cho $Z$ là một ẩn thức mới và $N_{ij}$ là ma trận $M_{ij} + \delta_{ij} Z I_m$ ($\delta_{ij}$ là chỉ số Kronecker). Nếu $D^{ij}(X_{11}, \ldots, X_{nn})$ là *phần bù đại số* của $X_{ij}$ trong ma trận $X$ (§ 8, no. 6), thì
 
 $$
 \text{(25)} \quad X_{ji} D^{ki}(X_{11}, \ldots, X_{nn}) = \delta_{jk} D(X_{11}, \ldots, X_{nn})
@@ -370,7 +370,7 @@ N_{A/K}(s(a)) &= s(N_{A/K}(a)).
 \end{align*}
 $$
 (27) (28)
-*Hãy xét thêm một đạo hàm D của A ($\S 10$, no. 2) sao cho $D(K) \subset K$ và viết $D(e_i) = \sum_{j=1}^n e_j \mu_{ji}$ với $\mu_{ji} \in K$; viết*
+*Hãy xét thêm một đạo hàm D của A ($§ 10$, no. 2) sao cho $D(K) \subset K$ và viết $D(e_i) = \sum_{j=1}^n e_j \mu_{ji}$ với $\mu_{ji} \in K$; viết*
 $$
 \begin{align*}
 D(a)e_i + aD(e_i) &= D(ae_i) = \sum_{j=1}^n (D(e_j)\lambda_{ji} + e_j D(\lambda_{ji})).

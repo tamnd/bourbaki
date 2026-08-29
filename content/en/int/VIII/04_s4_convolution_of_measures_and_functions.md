@@ -41,7 +41,7 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: bac6f92ff3385e420bd634c888abf33125d3a7afc537be352959a2bec64f72e9
+content_sha256: 49dae28e635f264996aa83405996b598158ace98510497220a4478b7bfbd1885
 ---
 
 ## § 4. CONVOLUTION OF MEASURES AND FUNCTIONS
@@ -193,7 +193,7 @@ since $\mathcal{C}(X)$ is complete. In particular, for every $x \in X$,
 $$
 (\gamma_\chi(\mu)f)(x) = \int (\gamma_\chi(s)f)(x)\,d\mu(s).
 $$
-This, combined with Prop. 2 (i), and §2, No. 6, proves (ii). Finally, if $f \in \mathcal{K}(X)$ then $\mu * (f \cdot \beta)$ has compact support (§3, No. 2, Prop. 9), therefore $\mu *_{\beta} f \in \mathcal{K}(X)$. For, let us consider the continuous representation $U$ of $G$ in the completion $\mathcal{K}(X)^{\sim}$ obtained by extending by continuity the continuous operators $\gamma_\chi(s)$ in $\mathcal{K}(X)$ (\S 2, No. 1, *Remark 3*). Let $S$ be the support of $\mu$. The functions $\gamma_\chi(s)f$, for $s \in S$, have their support contained in a fixed compact set $K$. The set $\mathcal{K}(X, K)$ is a complete linear subspace of $\mathcal{K}(X)$. Therefore $U(\mu)f \in \mathcal{K}(X)$. One sees as before that $U(\mu)f = \mu *^\beta f$, and (iii) again follows from \S 2, No. 6.
+This, combined with Prop. 2 (i), and §2, No. 6, proves (ii). Finally, if $f \in \mathcal{K}(X)$ then $\mu * (f \cdot \beta)$ has compact support (§3, No. 2, Prop. 9), therefore $\mu *_{\beta} f \in \mathcal{K}(X)$. For, let us consider the continuous representation $U$ of $G$ in the completion $\mathcal{K}(X)^{\sim}$ obtained by extending by continuity the continuous operators $\gamma_\chi(s)$ in $\mathcal{K}(X)$ (§ 2, No. 1, *Remark 3*). Let $S$ be the support of $\mu$. The functions $\gamma_\chi(s)f$, for $s \in S$, have their support contained in a fixed compact set $K$. The set $\mathcal{K}(X, K)$ is a complete linear subspace of $\mathcal{K}(X)$. Therefore $U(\mu)f \in \mathcal{K}(X)$. One sees as before that $U(\mu)f = \mu *^\beta f$, and (iii) again follows from § 2, No. 6.
 
 #### Proposition 4 {#int-viii-s4-prop-4 .statement}
 
@@ -205,18 +205,18 @@ This, combined with Prop. 2 (i), and §2, No. 6, proves (ii). Finally, if $f \in
 
 (iii) *The mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X)$ into $\mathcal{C}(X)$ is hypocontinuous relative to the bounded subsets of $\mathcal{M}(G)$ and the compact subsets of $\mathcal{K}(X)$ that are contained in some subspace $\mathcal{K}(X, L)$ (where $L$ is a variable compact subset of $X$).*
 
-We know that $\mu$ and $f$ are convolvable (\S 3, No. 2, Prop. 8 (ii)), and it is clear that the integrals occurring in (3) exist for every $x \in X$. Let $K$ and $L$ be two compact subsets of $X$. There exists a compact subset $H$ of $G$ such that the relations $x \in K$ and $s^{-1}x \in L$ imply $s \in H$; let $\varphi \in \mathcal{K}_+(G)$ with $\varphi(s) = 1$ for $s \in H$. Then, for $f \in \mathcal{K}(X, L)$ and $x \in K$,
+We know that $\mu$ and $f$ are convolvable (§ 3, No. 2, Prop. 8 (ii)), and it is clear that the integrals occurring in (3) exist for every $x \in X$. Let $K$ and $L$ be two compact subsets of $X$. There exists a compact subset $H$ of $G$ such that the relations $x \in K$ and $s^{-1}x \in L$ imply $s \in H$; let $\varphi \in \mathcal{K}_+(G)$ with $\varphi(s) = 1$ for $s \in H$. Then, for $f \in \mathcal{K}(X, L)$ and $x \in K$,
 
 $$
 \int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s) = \int f(s^{-1}x)\chi(s^{-1}, x)\varphi(s)\, d\mu(s)
 = ((\varphi \cdot \mu) *^\beta f)(x).
 $$
 
-Consequently $\int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)$ is a continuous function of $x$ and defines a convolution product $\mu *^\beta f \in \mathcal{C}(X)$. Moreover, the mapping $\mu \mapsto \varphi \cdot \mu$ of $\mathcal{M}(G)$ into $\mathcal{C}'(G)$ is continuous for the topologies of compact convergence. Prop. 3 (iii) therefore implies that the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X, L)$ into $\mathcal{C}(X)$ is, for every compact subset $L$ of $X$, hypocontinuous relative to the compact subsets of $\mathcal{K}(X, L)$. In particular, the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X)$ into $\mathcal{C}(X)$ is separately continuous. Since $\mathcal{K}(X)$ is barreled, this mapping is hypocontinuous relative to the bounded subsets of $\mathcal{M}(G)$ (TVS, III, \S 5, No. 3, Prop. 6).
+Consequently $\int f(s^{-1}x)\chi(s^{-1}, x)\, d\mu(s)$ is a continuous function of $x$ and defines a convolution product $\mu *^\beta f \in \mathcal{C}(X)$. Moreover, the mapping $\mu \mapsto \varphi \cdot \mu$ of $\mathcal{M}(G)$ into $\mathcal{C}'(G)$ is continuous for the topologies of compact convergence. Prop. 3 (iii) therefore implies that the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X, L)$ into $\mathcal{C}(X)$ is, for every compact subset $L$ of $X$, hypocontinuous relative to the compact subsets of $\mathcal{K}(X, L)$. In particular, the mapping $(\mu, f) \mapsto \mu *^\beta f$ of $\mathcal{M}(G) \times \mathcal{K}(X)$ into $\mathcal{C}(X)$ is separately continuous. Since $\mathcal{K}(X)$ is barreled, this mapping is hypocontinuous relative to the bounded subsets of $\mathcal{M}(G)$ (TVS, III, § 5, No. 3, Prop. 6).
 
 #### Remark 1 {#int-viii-s4-n2-rem-1 .statement}
 
-— Under the hypotheses of Prop. 4, the mapping $\mu \mapsto \mu *^\beta f$ of $\mathcal{M}_+(G)$ into $\mathcal{C}(X)$ is continuous when $\mathcal{M}_+(G)$ is equipped with the *vague* topology, for every $f \in \mathcal{K}(X)$. For, let $K$ be a compact subset of $X$, $S$ the (compact) support of $f$; since $G$ operates properly in $X$, the set of $s \in G$ for which there exists an $x \in K$ with $s^{-1}x \in S$ is a compact subset $L$ of $G$ (GT, III, \S 4, No. 5, Th. 1). Let $\varepsilon$ be a number $> 0$, $\varphi$ a function in $\mathcal{K}_+(G)$ equal to 1 on the compact set $L$, $\mu_0$ an element of $\mathcal{M}_+(G)$; the set $W_0$ of measures $\mu \in \mathcal{M}_+(G)$ such that
+— Under the hypotheses of Prop. 4, the mapping $\mu \mapsto \mu *^\beta f$ of $\mathcal{M}_+(G)$ into $\mathcal{C}(X)$ is continuous when $\mathcal{M}_+(G)$ is equipped with the *vague* topology, for every $f \in \mathcal{K}(X)$. For, let $K$ be a compact subset of $X$, $S$ the (compact) support of $f$; since $G$ operates properly in $X$, the set of $s \in G$ for which there exists an $x \in K$ with $s^{-1}x \in S$ is a compact subset $L$ of $G$ (GT, III, § 4, No. 5, Th. 1). Let $\varepsilon$ be a number $> 0$, $\varphi$ a function in $\mathcal{K}_+(G)$ equal to 1 on the compact set $L$, $\mu_0$ an element of $\mathcal{M}_+(G)$; the set $W_0$ of measures $\mu \in \mathcal{M}_+(G)$ such that
 $$
 \left| \int \varphi(s)\, d\mu(s) - \int \varphi(s)\, d\mu_0(s) \right| \leq \varepsilon
 $$
@@ -524,9 +524,9 @@ $$
 \| \mu * f \|_p \leq \| \mu \|_{\chi^{-1/q}} \| f \|_p .
 $$
 
-If $\mu \in \mathcal{M}^{\chi'^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $f$ and $\mu$ are convolvable, and $f * \mu$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has $\| f * \mu \|_p \leq \| \mu \|_{\chi'^{-1/q}} \| f \|_p$.
+If $\mu \in \mathcal{M}^{{\chi'}^{-1/q}}(G)$ and $f \in L^p(G, \beta)$, then $f$ and $\mu$ are convolvable, and $f * \mu$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$; one has $\| f * \mu \|_p \leq \| \mu \|_{{\chi'}^{-1/q}} \| f \|_p$.
 
-3) The mappings $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ define on $L^p(G, \beta)$ the structures of a left module over $\mathcal{M}^{\chi^{-1/q}}(G)$ and a right module over $\mathcal{M}^{\chi'^{-1/q}}(G)$. The two external laws on $L^p(G, \beta)$ are permutable by the associativity of convolution.
+3) The mappings $(\mu, f) \mapsto \mu * f , (f, \mu) \mapsto f * \mu$ define on $L^p(G, \beta)$ the structures of a left module over $\mathcal{M}^{\chi^{-1/q}}(G)$ and a right module over $\mathcal{M}^{{\chi'}^{-1/q}}(G)$. The two external laws on $L^p(G, \beta)$ are permutable by the associativity of convolution.
 
 4) If $\mu * f$ is continuous and is given at every point by (10), then
 
@@ -548,7 +548,7 @@ Recall that if $f$ is a complex function on $G$, the property of being locally $
 
 « $f \cdot \beta$ and $g \cdot \beta$ are convolvable »
 
-is independent of the choice of $\beta$ (\S 3, No. 1, Prop. 6). We shall then say that $f$ and $g$ are *convolvable*. By No. 1, $(f \cdot \beta) * (g \cdot \beta)$ is of the form $h \cdot \beta$ with $h \in \mathcal{L}(G)$, $h$ being determined up to locally $\beta$-negligible sets. We shall write $h = f *^{\beta} g$ and we shall say that $h$ is a *convolution product* of $f$ and $g$ relative to $\beta$. (One omits $\beta$ when no confusion is possible.) If $\beta$ is replaced by $\psi \cdot \beta$, $\psi$ being a continuous representation of $G$ in $\mathbf{R}_+^*$, $h$ does not change (\S 3, No. 1, Prop. 6); if $\beta$ is replaced by $a \beta$ ($a \in \mathbf{R}_+^*$), then $h$ is replaced by $ah$. The convolution product of several functions on $G$ is defined in an analogous manner.
+is independent of the choice of $\beta$ (§ 3, No. 1, Prop. 6). We shall then say that $f$ and $g$ are *convolvable*. By No. 1, $(f \cdot \beta) * (g \cdot \beta)$ is of the form $h \cdot \beta$ with $h \in \mathcal{L}(G)$, $h$ being determined up to locally $\beta$-negligible sets. We shall write $h = f *^{\beta} g$ and we shall say that $h$ is a *convolution product* of $f$ and $g$ relative to $\beta$. (One omits $\beta$ when no confusion is possible.) If $\beta$ is replaced by $\psi \cdot \beta$, $\psi$ being a continuous representation of $G$ in $\mathbf{R}_+^*$, $h$ does not change (§ 3, No. 1, Prop. 6); if $\beta$ is replaced by $a \beta$ ($a \in \mathbf{R}_+^*$), then $h$ is replaced by $ah$. The convolution product of several functions on $G$ is defined in an analogous manner.
 
 If one of the convolutions of $f$ and $g$ is continuous, it is uniquely determined since the support of $\beta$ is $G$. It is then called *the* convolution product of $f$ and $g$ relative to $\beta$.
 
@@ -605,15 +605,15 @@ This follows from Props. 3 and 4 of No. 2.
 $$
 \|f * g\|_p \leq \|f \chi^{-1/q}\|_1 \|g\|_p.
 $$
-If $f \in L^p(G, \beta)$ and $g \chi'^{-1/q} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, $f * g$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$, and
+If $f \in L^p(G, \beta)$ and $g {\chi'}^{-1/q} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, $f * g$ is equal locally $\beta$-almost everywhere to a function in $L^p(G, \beta)$, and
 $$
-\|f * g\|_p \leq \|f\|_p \|g \chi'^{-1/q}\|_1.
+\|f * g\|_p \leq \|f\|_p \|g {\chi'}^{-1/q}\|_1.
 $$
 This follows from Props. 5 and 6 of No. 2 and the remarks in No. 4.
 
 #### Proposition 13 {#int-viii-s4-prop-13 .statement}
 
-— If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in \overline{\mathcal{K}(G)}$, or if $f \in \mathcal{K}(G)$ and $g \chi'^{-1} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, and (15) defines for every $x \in G$ a product $f * g$ that belongs to $\mathcal{K}(G)$.
+— If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in \overline{\mathcal{K}(G)}$, or if $f \in \mathcal{K}(G)$ and $g {\chi'}^{-1} \in L^1(G, \beta)$, then $f$ and $g$ are convolvable, and (15) defines for every $x \in G$ a product $f * g$ that belongs to $\mathcal{K}(G)$.
 
 This follows from Prop. 5 of No. 2, and the remarks in No. 4.
 
@@ -621,14 +621,14 @@ This follows from Prop. 5 of No. 2, and the remarks in No. 4.
 
 — If $f \chi^{-1} \in L^1(G, \beta)$ and $g \in L^\infty(G, \beta)$, then the formula (15) defines for every $x \in G$ a product $f * g$ that is bounded and is uniformly continuous for the right uniform structure of $G$.
 
-We already know that $f * g$ belongs to $L^\infty(G, \beta)$ (No. 2, Prop. 5); moreover, $(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$, on setting $\nu = \chi'^{-1} \cdot \beta$; $\nu$ is a right Haar measure. Therefore
+We already know that $f * g$ belongs to $L^\infty(G, \beta)$ (No. 2, Prop. 5); moreover, $(f * g)(x) = \int f(xs^{-1})g(s)\, d\nu(s)$, on setting $\nu = {\chi'}^{-1} \cdot \beta$; $\nu$ is a right Haar measure. Therefore
 $$
 |(f * g)(x) - (f * g)(x')| \leq \|g\|_\infty \int |f(xs^{-1}) - f(x's^{-1})|\, d\nu(s)
 $$
 $$
 = \|g\|_\infty \int |(f(s^{-1}) - f(x'x^{-1}s^{-1}))\, d\nu(s)
 $$
-and the latter integral is arbitrarily small provided $x'x^{-1}$ is in a suitable neighborhood of $e$ (\S 2, No. 5, Prop. 8).
+and the latter integral is arbitrarily small provided $x'x^{-1}$ is in a suitable neighborhood of $e$ (§ 2, No. 5, Prop. 8).
 
 #### Proposition 15 {#int-viii-s4-prop-15 .statement}
 
@@ -744,7 +744,7 @@ $$
 
 the limit being taken with respect to the section filter of $\mathcal{B}$.
 
-For the topology of compact convergence in $\mathcal{C}(G)$, $f_V \cdot \beta$ tends to $\varepsilon_e$ with respect to the section filter of $\mathcal{B}$ (\S2, No. 7, Cor. 1 of Lemma 4). Therefore $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ in $\mathcal{M}(G)$ equipped with the topology of compact convergence in $\mathcal{H}(G)$ (\S3, No. 3, Cor. of Prop. 12).
+For the topology of compact convergence in $\mathcal{C}(G)$, $f_V \cdot \beta$ tends to $\varepsilon_e$ with respect to the section filter of $\mathcal{B}$ (§ 2, No. 7, Cor. 1 of Lemma 4). Therefore $\mu = \lim_V \mu * (f_V \cdot \beta) = \lim_V (f_V \cdot \beta) * \mu$ in $\mathcal{M}(G)$ equipped with the topology of compact convergence in $\mathcal{H}(G)$ (§ 3, No. 3, Cor. of Prop. 12).
 
 #### Remark 1 {#int-viii-s4-n7-rem-1 .statement}
 

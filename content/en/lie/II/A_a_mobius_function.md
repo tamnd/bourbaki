@@ -8,6 +8,7 @@ section_title: Möbius function
 appendix: true
 lang: en
 source: lie-i-iii
+book_pages: 176-177, 207
 pdf_pages: 0194-0195, 0225-0225
 extraction: ocr
 statements: 1

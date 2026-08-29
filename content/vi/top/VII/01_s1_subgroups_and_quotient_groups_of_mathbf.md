@@ -36,9 +36,9 @@ subsections:
       pdf_page: 84
 statements: 19
 exercises: 15
-content_sha256: 2943f4e2c59b72d7dd7452b28ad8dcd58672c26264e99271ee1bae0d5ad50ed8
+content_sha256: 65cd9338deeb3d6873040375471ca39229d801c0637623230864792dc61799fe
 translated_from: content/en/top/VII/01_s1_subgroups_and_quotient_groups_of_mathbf.md
-source_content_sha256: 3722fa7cbaf1b9d82abf2e8703d36456761eeefc481d2d26de9e167e71488cc2
+source_content_sha256: 07826542ef19c3012458e0f7113389f19de5a79362d99c7d0a88b25808de4eb6
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-2f74ccab
 glossary_version: 34
@@ -58,9 +58,9 @@ Trong tiết diện này ta sẽ trước hết xác định cấu trúc của c
 
 ### 1. NHÓM CON RỜI RẠC CỦA $\mathbf{R}^n$
 
-Ta đã thấy trong Chương V (\S 1, no. 1, Mệnh đề 1) rằng các nhóm con đóng duy nhất của $\mathbf{R}$, khác với chính $\mathbf{R}$, là các nhóm con *rời rạc*, được sinh bởi một *phần tử* duy nhất. Ta sẽ bắt đầu bằng việc xét các nhóm con *rời rạc* của $\mathbf{R}^n$.
+Ta đã thấy trong Chương V (§ 1, no. 1, Mệnh đề 1) rằng các nhóm con đóng duy nhất của $\mathbf{R}$, khác với chính $\mathbf{R}$, là các nhóm con *rời rạc*, được sinh bởi một *phần tử* duy nhất. Ta sẽ bắt đầu bằng việc xét các nhóm con *rời rạc* của $\mathbf{R}^n$.
 
-Trước hết, nhóm con của $\mathbf{R}^n$ được sinh bởi $p$ vectơ ($p \leq n$) của cơ sở chính tắc (Chương VI, \S 1, no. 3) của $\mathbf{R}^n$ là một nhóm rời rạc đẳng cấu với tích $\mathbf{Z}^p$ của $p$ nhóm bằng $\mathbf{Z}$. Nói chung, xét nhóm con $G$ được sinh bởi $p$ điểm $a_i$ ($1 \leq i \leq p$) tạo thành một hệ tự do. Có một ánh xạ tuyến tính song ánh của $\mathbf{R}^n$ lên chính nó biến $a_i$ thành $e_i$ ($1 \leq i \leq p$); vì ánh xạ như vậy là một tự đẳng cấu của nhóm tôpô $\mathbf{R}^n$, $G$ đẳng cấu với tư cách là một nhóm tôpô với nhóm con được sinh bởi các $e_i$ ($1 \leq i \leq p$) và do đó là một nhóm con *rời rạc* hạng $p$ đẳng cấu với $\mathbf{Z}^p$.
+Trước hết, nhóm con của $\mathbf{R}^n$ được sinh bởi $p$ vectơ ($p \leq n$) của cơ sở chính tắc (Chương VI, § 1, no. 3) của $\mathbf{R}^n$ là một nhóm rời rạc đẳng cấu với tích $\mathbf{Z}^p$ của $p$ nhóm bằng $\mathbf{Z}$. Nói chung, xét nhóm con $G$ được sinh bởi $p$ điểm $a_i$ ($1 \leq i \leq p$) tạo thành một hệ tự do. Có một ánh xạ tuyến tính song ánh của $\mathbf{R}^n$ lên chính nó biến $a_i$ thành $e_i$ ($1 \leq i \leq p$); vì ánh xạ như vậy là một tự đẳng cấu của nhóm tôpô $\mathbf{R}^n$, $G$ đẳng cấu với tư cách là một nhóm tôpô với nhóm con được sinh bởi các $e_i$ ($1 \leq i \leq p$) và do đó là một nhóm con *rời rạc* hạng $p$ đẳng cấu với $\mathbf{Z}^p$.
 
 Cấu trúc của nhóm $\mathbf{Z}^p$, và do đó của $G$, đã được nghiên cứu trong đại số. Ta nhắc lại các kết quả chính của nghiên cứu này. Các *cơ sở* của $G$ đối với vành $\mathbf{Z}$ là các hệ gồm $p$ điểm
 

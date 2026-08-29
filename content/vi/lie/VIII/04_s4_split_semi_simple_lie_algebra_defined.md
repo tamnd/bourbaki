@@ -29,7 +29,7 @@ subsections:
       pdf_page: 112
 statements: 23
 exercises: 7
-content_sha256: 8cb9a61f739c9b813b8c10756386a6d3a1dc64ea404d1646e67b2a25c1f8ffba
+content_sha256: 0ac6fbf3e9c5df76219acbbbb2499ad9d8f01210fd047669e0bbd6bd3651193d
 translated_from: content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md
 source_content_sha256: d31efd9ddbb6c9db525488b6ea28a82ed909217def1e86239e848957a5f5eb01
 translation_model: gpt-5-6-mini, gpt-5-mini
@@ -317,7 +317,7 @@ $[x_{\gamma}, y_{\alpha \beta}] =$ (ad $x_{-\alpha}$)$^{1-n(\beta ,\alpha)}[x_{\
 
 $=-$(ad $x_{-\alpha}$)$^{1-n(\beta ,\alpha)}h_{\beta}=-n(\alpha , \beta$)(ad $x_{-\alpha}$)$^{-n(\beta ,\alpha)}x_{-\alpha}$.
 
-Nếu $n(\beta , \alpha )<0$, biểu thức này bằng không vì (ad $x_{-\alpha}$).x_{-\alpha}= 0$. Nếu $n(\beta , \alpha ) = 0$, thì $n(\alpha , \beta ) = 0$. Trong cả hai trường hợp, $[x_{\gamma}, y_{\alpha \beta}] = 0$.
+Nếu $n(\beta , \alpha )<0$, biểu thức này bằng không vì (ad $x_{-\alpha}$)$.x_{-\alpha}= 0$. Nếu $n(\beta , \alpha ) = 0$, thì $n(\alpha , \beta ) = 0$. Trong cả hai trường hợp, $[x_{\gamma}, y_{\alpha \beta}] = 0$.
 
 Trường hợp 3$:\gamma =\alpha$. Trong đại số các tự đồng cấu của $\mathfrak{a}$, $[$-ad $h_{\alpha}$, ad $x_{-\alpha}] = 2$ ad $x_{-\alpha}$
 

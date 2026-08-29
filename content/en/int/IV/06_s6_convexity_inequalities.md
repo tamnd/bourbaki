@@ -33,7 +33,7 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: 1943305609b50f182ebf680418cbb9b81a0c09ae593113d7d4c5e7b050ac7f2f
+content_sha256: 620a678b6145f9aecb2d7fa10cb1189bf44b0c751811b2152d367e638c2e239d
 ---
 
 ## § 6. CONVEXITY INEQUALITIES
@@ -50,7 +50,7 @@ $$
 \int \langle fg, a' \rangle\, d\mu = \left\langle \int fg\, d\mu, a' \right\rangle
 $$
 
-(\S 4, No. 2, Cor. 1 of Th. 1); but, by hypothesis, $\langle f(x), a' \rangle \leqslant \alpha$ for all $x \in X$, therefore $\langle f(x)g(x), a' \rangle \leqslant \alpha g(x)$; on integrating, we have
+(§ 4, No. 2, Cor. 1 of Th. 1); but, by hypothesis, $\langle f(x), a' \rangle \leqslant \alpha$ for all $x \in X$, therefore $\langle f(x)g(x), a' \rangle \leqslant \alpha g(x)$; on integrating, we have
 
 $$
 \left\langle \int fg\, d\mu, a' \right\rangle \leqslant \alpha \int g\, d\mu .
@@ -74,7 +74,7 @@ We are going to sharpen Th. 1 for numerical measurable functions (finite or not)
 
 It follows at once from the definition that $m_\infty(f) = -M_\infty(-f)$, thus from every property of the maximum in measure one deduces a corresponding property of the minimum in measure.
 
-For every $\alpha > M_\infty(f)$, the set of $x \in X$ such that $f(x) > \alpha$ is locally negligible; now, the set of $x \in X$ such that $f(x) > M_\infty(f)$ is the union of the sets where $f(x) > r_n$, with $r_n$ running over the set of rational numbers $> M_\infty(f)$; therefore $f(x) \leq M_\infty(f)$ locally almost everywhere (\S 5, No. 2). Similarly $f(x) \geq m_\infty(f)$ locally almost everywhere; it follows that $m_\infty(f) \leq M_\infty(f)$ if the measure $\mu$ is nonzero; moreover, the relation $m_\infty(f) = M_\infty(f)$ is equivalent to saying that $f$ is equal to a constant locally almost everywhere. It is clear that if the measure $\mu$ is nonzero, then
+For every $\alpha > M_\infty(f)$, the set of $x \in X$ such that $f(x) > \alpha$ is locally negligible; now, the set of $x \in X$ such that $f(x) > M_\infty(f)$ is the union of the sets where $f(x) > r_n$, with $r_n$ running over the set of rational numbers $> M_\infty(f)$; therefore $f(x) \leq M_\infty(f)$ locally almost everywhere (§ 5, No. 2). Similarly $f(x) \geq m_\infty(f)$ locally almost everywhere; it follows that $m_\infty(f) \leq M_\infty(f)$ if the measure $\mu$ is nonzero; moreover, the relation $m_\infty(f) = M_\infty(f)$ is equivalent to saying that $f$ is equal to a constant locally almost everywhere. It is clear that if the measure $\mu$ is nonzero, then
 
 $$
 \inf_{x \in X} f(x) \leq m_\infty(f) \leq M_\infty(f) \leq \sup_{x \in X} f(x).
@@ -108,7 +108,7 @@ $$
 
 Moreover, *two of the three members of the inequality (3) cannot be equal unless, in the set of $x \in X$ such that $g(x) \neq 0$, f is equal to $M_\infty(f)$ almost everywhere or equal to $m_\infty(f)$ almost everywhere*.
 
-Indeed, $fg$ is measurable (\S 5, No. 3, Cor. 5 of Th. 1); moreover, the inequality $m_\infty(f)g(x) \leqslant f(x)g(x) \leqslant M_\infty(f)g(x)$ holds, not only locally almost everywhere, but even almost everywhere, because the set of points $x \in X$ where $g(x) \neq 0$ is a countable union of integrable sets (\S 5, No. 6, Lemma 1). It follows that $fg$ is integrable (\S 5, No. 6, Th. 5) and the inequality (3) holds. On the other hand, the function $M_\infty(f)g - fg$ is almost everywhere defined and equal to $(M_\infty(f) - f)g$; it is therefore $\geqslant 0$ almost everywhere in $X$; since the relation $M_\infty(f) \int g d|\mu| = \int fg d|\mu|$ is equivalent to $\int (M_\infty(f) - f)g d|\mu| = 0$, it can hold only if the function $(M_\infty(f) - f)g$ is negligible, which completes the proof.
+Indeed, $fg$ is measurable (§ 5, No. 3, Cor. 5 of Th. 1); moreover, the inequality $m_\infty(f)g(x) \leqslant f(x)g(x) \leqslant M_\infty(f)g(x)$ holds, not only locally almost everywhere, but even almost everywhere, because the set of points $x \in X$ where $g(x) \neq 0$ is a countable union of integrable sets (§ 5, No. 6, Lemma 1). It follows that $fg$ is integrable (§ 5, No. 6, Th. 5) and the inequality (3) holds. On the other hand, the function $M_\infty(f)g - fg$ is almost everywhere defined and equal to $(M_\infty(f) - f)g$; it is therefore $\geqslant 0$ almost everywhere in $X$; since the relation $M_\infty(f) \int g d|\mu| = \int fg d|\mu|$ is equivalent to $\int (M_\infty(f) - f)g d|\mu| = 0$, it can hold only if the function $(M_\infty(f) - f)g$ is negligible, which completes the proof.
 
 Setting aside the trivial case that $\int g d|\mu| = 0$, the inequality (3) may be deduced from Th. 1 of No. 1 applied to the interval $D = [m_\infty(f), M_\infty(f)]$. One can bring to Th. 1 of No. 1 the complements analogous to those of Prop. 1, that specify the case in which the point $(\int fg d\mu)/(\int g d\mu)$ belongs to the boundary of D (Exer. 2).
 
@@ -134,7 +134,7 @@ It is clear that every function equal locally almost everywhere to a function in
 
 *The space* $\mathcal{L}_F^\infty$ *is complete; the space* $L_F^\infty$ *is a Banach space*.
 
-For, let $(f_n)$ be a Cauchy sequence in $\mathcal{L}_F^\infty$; for every integer $n$, there exists an integer $k_n$ such that $N_\infty(f_r - f_s) \leq 1/n$ for $r \geq k_n$ and $s \geq k_n$; thus, there exists a locally negligible set $A_{rs}$ such that $|f_r(x) - f_s(x)| \leq 1/n$ for all $x \notin A_{rs}$. If $A_n$ is the union of the sets $A_{rs}$ (for $r \geq k_n$ and $s \geq k_n$), then $A_n$ is locally negligible and, for every $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ for all indices $r \geq k_n, s \geq k_n$. Let $A$ be the locally negligible set formed by the union of the $A_n$, and set $g_n(x) = f_n(x)$ for $x \notin A$, $g_n(x) = 0$ for $x \in A$; then $g_n$ belongs to $\mathcal{L}_F^\infty$ and, by the definition of $A$, the sequence $(g_n)$ converges *uniformly* on $X$ to a function $g$. It follows that the function $g$ is measurable (\S 5, No. 4, Th. 2); moreover, $g$ is bounded on the set of $x \in X$ where $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ and, since the complement of this set is locally negligible, $g$ belongs to $\mathcal{L}_F^\infty$. It is clear that in $\mathcal{L}_F^\infty$, the sequence $(g_n)$ has limit $g$, and the same is therefore true of the sequence $(f_n)$, since $N_\infty(f_n - g_n) = 0$ for all $n$. The second part of the proposition may be deduced immediately from this.
+For, let $(f_n)$ be a Cauchy sequence in $\mathcal{L}_F^\infty$; for every integer $n$, there exists an integer $k_n$ such that $N_\infty(f_r - f_s) \leq 1/n$ for $r \geq k_n$ and $s \geq k_n$; thus, there exists a locally negligible set $A_{rs}$ such that $|f_r(x) - f_s(x)| \leq 1/n$ for all $x \notin A_{rs}$. If $A_n$ is the union of the sets $A_{rs}$ (for $r \geq k_n$ and $s \geq k_n$), then $A_n$ is locally negligible and, for every $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ for all indices $r \geq k_n, s \geq k_n$. Let $A$ be the locally negligible set formed by the union of the $A_n$, and set $g_n(x) = f_n(x)$ for $x \notin A$, $g_n(x) = 0$ for $x \in A$; then $g_n$ belongs to $\mathcal{L}_F^\infty$ and, by the definition of $A$, the sequence $(g_n)$ converges *uniformly* on $X$ to a function $g$. It follows that the function $g$ is measurable (§ 5, No. 4, Th. 2); moreover, $g$ is bounded on the set of $x \in X$ where $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ and, since the complement of this set is locally negligible, $g$ belongs to $\mathcal{L}_F^\infty$. It is clear that in $\mathcal{L}_F^\infty$, the sequence $(g_n)$ has limit $g$, and the same is therefore true of the sequence $(f_n)$, since $N_\infty(f_n - g_n) = 0$ for all $n$. The second part of the proposition may be deduced immediately from this.
 
 #### Remark {#int-iv-s6-n3-rem-1 .statement}
 
@@ -146,9 +146,9 @@ $$
 
 In order that $N_\infty(f) = \|f\|$ for every bounded continuous function $f$, it is necessary and sufficient that the support of the measure $\mu$ be equal to $X$. For, if there exists a continuous function $f$ with negligible compact support and not identically zero, then $N_\infty(f) = 0$ and $\|f\| > 0$. Conversely, if the support of $\mu$ is equal to $X$ then, for every bounded continuous function $f$ and every number $\alpha < \|f\|$, the set of $x \in X$ such that $|f(x)| > \alpha$ is open and nonempty, hence has outer measure $> 0$, which shows that $N_\infty(f) = \|f\|$.
 
-When the support of $\mu$ is equal to $X$, we may therefore identify the normed space $C^b(X; F)$, of bounded continuous functions on $X$ with values in $F$, with a subspace of the space $L_F^\infty$. Since $L_F^\infty$ is not in general Hausdorff, the subspace $C^b(X; F)$ is not in general closed in $L_F^\infty$, but its canonical image in $L_F^\infty$ is a closed subspace of $L_F^\infty$ (which can moreover be identified with $C^b(X; F)$ in the case contemplated). In general, $C^b(X; F)$ is distinct from $L_F^\infty$, that is, for an arbitrary bounded measurable function $f$, there does not in general exist a continuous function $g$ equal to $f$ locally almost everywhere (\S 5, Exer. 12). This implies that the space $\mathcal{H}(X; F)$ of mappings of $X$ into $F$, continuous with compact support, is in general not dense in $L_F^\infty$, whereas it is dense in each of the spaces $L_F^p$ for $1 \leq p < +\infty$ (\S 3, No. 4. Def. 2).
+When the support of $\mu$ is equal to $X$, we may therefore identify the normed space $C^b(X; F)$, of bounded continuous functions on $X$ with values in $F$, with a subspace of the space $L_F^\infty$. Since $L_F^\infty$ is not in general Hausdorff, the subspace $C^b(X; F)$ is not in general closed in $L_F^\infty$, but its canonical image in $L_F^\infty$ is a closed subspace of $L_F^\infty$ (which can moreover be identified with $C^b(X; F)$ in the case contemplated). In general, $C^b(X; F)$ is distinct from $L_F^\infty$, that is, for an arbitrary bounded measurable function $f$, there does not in general exist a continuous function $g$ equal to $f$ locally almost everywhere (§ 5, Exer. 12). This implies that the space $\mathcal{H}(X; F)$ of mappings of $X$ into $F$, continuous with compact support, is in general not dense in $L_F^\infty$, whereas it is dense in each of the spaces $L_F^p$ for $1 \leq p < +\infty$ (§ 3, No. 4. Def. 2).
 
-2) It is immediate that the topology defined by the semi-norm $N_\infty$ is finer than the topology induced on $L_F^\infty$ by the topology of convergence in measure (\S 5, No. 11).
+2) It is immediate that the topology defined by the semi-norm $N_\infty$ is finer than the topology induced on $L_F^\infty$ by the topology of convergence in measure (§ 5, No. 11).
 
 ### 4. Hölder’s inequality
 
@@ -162,7 +162,7 @@ $$
 N_1(fg) \leq N_p(f) N_q(g).
 $$
 
-Let $f_1$ (resp. $g_1$) be a function in $L^p$ (resp. $L^q$) to which $f$ (resp. $g$) is equal almost everywhere; $fg$ is equal almost everywhere to the function $f_1 g_1$, which is everywhere defined and finite, and which is measurable, being the product of two measurable functions (\S 5, No. 3, Cor. 5 of Th. 1). If $1 < p < +\infty$, Hölder’s inequality for the upper integral (Ch. I, No. 3, Prop. 4) yields the inequality (4), and the relation $N_1(fg) < +\infty$ then shows that $fg$ is integrable (\S 5, No. 6, Th. 5). If $p = 1$, $q = +\infty$, the inequality (4) and the fact that $fg$ is integrable are immediate consequences of the inequality of the mean (No. 2, Prop. 1); thus the theorem is proved in all cases.
+Let $f_1$ (resp. $g_1$) be a function in $L^p$ (resp. $L^q$) to which $f$ (resp. $g$) is equal almost everywhere; $fg$ is equal almost everywhere to the function $f_1 g_1$, which is everywhere defined and finite, and which is measurable, being the product of two measurable functions (§ 5, No. 3, Cor. 5 of Th. 1). If $1 < p < +\infty$, Hölder’s inequality for the upper integral (Ch. I, No. 3, Prop. 4) yields the inequality (4), and the relation $N_1(fg) < +\infty$ then shows that $fg$ is integrable (§ 5, No. 6, Th. 5). If $p = 1$, $q = +\infty$, the inequality (4) and the fact that $fg$ is integrable are immediate consequences of the inequality of the mean (No. 2, Prop. 1); thus the theorem is proved in all cases.
 
 #### Corollary 1 {#int-iv-s6-thm-2-cor-1 .statement}
 
@@ -172,13 +172,13 @@ $$
 \left| \int \Phi(f, g)\, d\mu \right| \leq \int |\Phi(f, g)|\, d|\mu| \leq N_p(f) N_q(g).
 $$
 
-For, $\Phi(f, g)$ is measurable (\S 5, No. 3, Cor. 5 of Th. 1); since $|\Phi(f, g)| \leq |f| \cdot |g|$, the corollary follows from Th. 2 and the integrability criterion of \S 5, No. 6, Th. 5.
+For, $\Phi(f, g)$ is measurable (§ 5, No. 3, Cor. 5 of Th. 1); since $|\Phi(f, g)| \leq |f| \cdot |g|$, the corollary follows from Th. 2 and the integrability criterion of § 5, No. 6, Th. 5.
 
 Two special cases of Cor. 1 are important in applications:
 
 #### Corollary 2 {#int-iv-s6-thm-2-cor-2 .statement}
 
-— Let $F$ be a real (resp. complex) Banach space, $F'$ its strong dual (TVS, III, \S 3, No. 1), and let $(z, z') \mapsto \langle z, z' \rangle$ be the canonical bilinear form on $F \times F'$. If $f \in \mathcal{L}_F^p$ and $g \in \mathcal{L}_{F'}^q$, then the real (resp. complex) function $\langle f, g \rangle$ is integrable and
+— Let $F$ be a real (resp. complex) Banach space, $F'$ its strong dual (TVS, III, § 3, No. 1), and let $(z, z') \mapsto \langle z, z' \rangle$ be the canonical bilinear form on $F \times F'$. If $f \in \mathcal{L}_F^p$ and $g \in \mathcal{L}_{F'}^q$, then the real (resp. complex) function $\langle f, g \rangle$ is integrable and
 
 $$
 \left| \int \langle f, g \rangle\, d\mu \right| \leq \int |\langle f, g \rangle|\, d|\mu| \leq N_p(f) N_q(g).
@@ -186,7 +186,7 @@ $$
 
 For, $|\langle z, z' \rangle| \leq |z| \cdot |z'|$.
 
-When $F$ is a real or complex Hilbert space, one knows that it can be canonically identified with its dual $F'$ (TVS, V, \S 1, No. 7). Since the space $L_F^2$ is complete, we have the following result:
+When $F$ is a real or complex Hilbert space, one knows that it can be canonically identified with its dual $F'$ (TVS, V, § 1, No. 7). Since the space $L_F^2$ is complete, we have the following result:
 
 #### Corollary 3 {#int-iv-s6-thm-2-cor-3 .statement}
 
@@ -215,7 +215,7 @@ $$
 \left( \int f_1 d|\mu| \right)^{\alpha_1} \left( \int f_2 d|\mu| \right)^{\alpha_2} \cdots \left( \int f_n d|\mu| \right)^{\alpha_n}.
 $$
 
-For, the product $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ is measurable, being the product of measurable functions (\S 5, No. 3, Th. 1 and its Cor. 5); since the inequality (8) is true for upper integrals (Ch. I, No. 2, Cor. of Prop. 2), the function $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ is integrable (\S 5, No. 6, Th. 5), whence the corollary.
+For, the product $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ is measurable, being the product of measurable functions (§ 5, No. 3, Th. 1 and its Cor. 5); since the inequality (8) is true for upper integrals (Ch. I, No. 2, Cor. of Prop. 2), the function $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ is integrable (§ 5, No. 6, Th. 5), whence the corollary.
 
 Cor. 2 of Th. 2 is sharpened by the following proposition:
 
@@ -241,7 +241,7 @@ as f runs over the set of functions in $\mathcal{L}_F^p$ such that $N_p(f) \leq 
 
 Let us first prove the relation (9); we distinguish between two cases.
 
-(i) $1 \leq p < +\infty$. The relation (9) being trivial when $N_p(f) = 0$ (because f and $\langle f, g \rangle$ are then negligible), we can always suppose, on multiplying f by a scalar, that $N_p(f) = 1$. Suppose first that f is an integrable step function, $f = \sum_{k=1}^n a_k \varphi_{A_k}$, where the $A_k$ are pairwise disjoint (\S 4, No. 9, Lemma). Thus $\sum_{k=1}^n |a_k|^p \mu(A_k) = 1$ by hypothesis. For every $\varepsilon > 0$, there exists (for every index k) a vector $a'_k \in F'$ such that $|a'_k|^q = |a_k|^p$ if $p > 1$ (resp. $|a'_k| = 1$ if $p = 1$) and $\langle a_k, a'_k \rangle \geq (1 - \varepsilon)|a_k| \cdot |a'_k|$ (TVS, IV,
+(i) $1 \leq p < +\infty$. The relation (9) being trivial when $N_p(f) = 0$ (because f and $\langle f, g \rangle$ are then negligible), we can always suppose, on multiplying f by a scalar, that $N_p(f) = 1$. Suppose first that f is an integrable step function, $f = \sum_{k=1}^n a_k \varphi_{A_k}$, where the $A_k$ are pairwise disjoint (§ 4, No. 9, Lemma). Thus $\sum_{k=1}^n |a_k|^p \mu(A_k) = 1$ by hypothesis. For every $\varepsilon > 0$, there exists (for every index k) a vector $a'_k \in F'$ such that $|a'_k|^q = |a_k|^p$ if $p > 1$ (resp. $|a'_k| = 1$ if $p = 1$) and $\langle a_k, a'_k \rangle \geq (1 - \varepsilon)|a_k| \cdot |a'_k|$ (TVS, IV,
 
 §1, No. 3, Prop. 8). Setting $g = \sum_{k=1}^n a_k' \varphi_{A_k}$, we have $\sum_{k=1}^n |a_k'|^q \mu(A_k) = 1$ if $p > 1$ (resp. $\sup_{1 \leq k \leq n} |a_k'| = 1$ if $p = 1$), thus $N_q(g) = 1$; on the other hand,
 
@@ -257,7 +257,7 @@ $$
 
 which proves the relation (9) in this case.
 
-Let us pass to the case that $f$ is any element of $\mathcal{L}_F^p$ such that $N_p(f) = 1$. For every $\varepsilon > 0$, there exists a step function $f_1 \in \mathcal{L}_F^p$ such that $N_p(f - f_1) \leq \varepsilon$ (\S 4, No. 10, Cor. 1 of Prop. 19). By what we have just seen, there exists a function $g \in \mathcal{L}_F^q$, such that $N_q(g) = 1$ and
+Let us pass to the case that $f$ is any element of $\mathcal{L}_F^p$ such that $N_p(f) = 1$. For every $\varepsilon > 0$, there exists a step function $f_1 \in \mathcal{L}_F^p$ such that $N_p(f - f_1) \leq \varepsilon$ (§ 4, No. 10, Cor. 1 of Prop. 19). By what we have just seen, there exists a function $g \in \mathcal{L}_F^q$, such that $N_q(g) = 1$ and
 
 $$
 \int \langle f_1, g \rangle d\mu \geq N_p(f_1) - \varepsilon \geq 1 - 2\varepsilon.
@@ -327,13 +327,13 @@ $$
 (11) \quad N_p(f) = \sup \int^* |fg| d\mu,
 $$
 
-as $g$ runs over the set of functions in $\mathcal{H}(X; \mathbf{R})$ such that $N_q(g) \leq 1$. For, the formula (11) is a special case of (9) when $N_p(f) < +\infty$, since $f$ is then equivalent to a function in $\mathcal{L}^p$ (\S 5, No. 6, Th. 5). If $N_p(f) = +\infty$, for every integer $n > 0$ set $f_n = \inf(n, f \varphi_{K_n})$. Then
+as $g$ runs over the set of functions in $\mathcal{H}(X; \mathbf{R})$ such that $N_q(g) \leq 1$. For, the formula (11) is a special case of (9) when $N_p(f) < +\infty$, since $f$ is then equivalent to a function in $\mathcal{L}^p$ (§ 5, No. 6, Th. 5). If $N_p(f) = +\infty$, for every integer $n > 0$ set $f_n = \inf(n, f \varphi_{K_n})$. Then
 
 $$
 N_p(f_n) = \sup \int^* |f_n g| d\mu \leq \sup \int^* |f g| d\mu,
 $$
 
-whence, on passing to the limit (assuming, as we may, that the sequence $(K_n)$ is increasing), we have $\sup \int^* |f g| d\mu = +\infty$ (\S 1, No. 3, Th. 3).
+whence, on passing to the limit (assuming, as we may, that the sequence $(K_n)$ is increasing), we have $\sup \int^* |f g| d\mu = +\infty$ (§ 1, No. 3, Th. 3).
 
 #### Corollary {#int-iv-s6-n4-cor-1 .statement}
 
@@ -365,7 +365,7 @@ $$
 \int |f|^p d|\mu| = \int |f|^p \varphi_A d|\mu| + \int |f|^p \varphi_{C_A} d|\mu|.
 $$
 
-As $p \in J$ tends to $r$, $|f|^p \varphi_A$ tends to $|f|^r \varphi_A$ while decreasing, and $|f|^p \varphi_{C_A}$ tends to $|f|^r \varphi_{C_A}$ while increasing. Thus $\int |f|^p \varphi_{C_A} d|\mu|$ tends to $\int^* |f|^r \varphi_{C_A} d|\mu|$ (\S1, No. 3, Th. 3). On the other hand, $|f|^p \varphi_A$ is integrable for $p \in J$, and $\int |f|^p \varphi_A d|\mu|$ tends to $\int |f|^r \varphi_A d|\mu|$ (\S4, No. 3, Prop. 4). Therefore $\int |f|^p d|\mu|$ tends to $\int^* |f|^r d|\mu|$, which proves the continuity of $p \mapsto N_p(f)$ at $r$.
+As $p \in J$ tends to $r$, $|f|^p \varphi_A$ tends to $|f|^r \varphi_A$ while decreasing, and $|f|^p \varphi_{C_A}$ tends to $|f|^r \varphi_{C_A}$ while increasing. Thus $\int |f|^p \varphi_{C_A} d|\mu|$ tends to $\int^* |f|^r \varphi_{C_A} d|\mu|$ (§ 1, No. 3, Th. 3). On the other hand, $|f|^p \varphi_A$ is integrable for $p \in J$, and $\int |f|^p \varphi_A d|\mu|$ tends to $\int |f|^r \varphi_A d|\mu|$ (§ 4, No. 3, Prop. 4). Therefore $\int |f|^p d|\mu|$ tends to $\int^* |f|^r d|\mu|$, which proves the continuity of $p \mapsto N_p(f)$ at $r$.
 
 The same reasoning may be applied at the point $s$ if $s < +\infty$. Finally, suppose that $s = +\infty$. In view of (13), it suffices to prove that
 
@@ -405,13 +405,13 @@ One can show that in general the topology of convergence in mean of order $s$ is
 
 — Let $X$ be a discrete space, $\mu$ the measure on $X$ defined by placing a mass $+1$ at each point of $X$. If $f$ is a mapping of $X$ into the Banach space $F$, the set I of numbers $p$ such that $1 \leq p \leq +\infty$ and $N_p(f)$ is finite, is either empty or is an interval with right end-point $+\infty$ and containing this point; moreover, $N_p(f)$ is a decreasing function of $p$ on I.
 
-For, $\mu^*(|f|) = \sum_{x \in X} |f(x)|$ for every function $f$ (\S 1, No. 1, Example), and $N_\infty(f) = \|f\| = \sup_{x \in X} |f(x)|$; if there exists a number $\alpha > 0$ such that $|f(x)| \geq \alpha$ for infinitely many values of $x \in X$, then $N_p(f) = +\infty$ for every finite $p$; in the contrary case, there exists an $x_0 \in X$ such that $|f(x_0)| = \|f\|$, whence
+For, $\mu^*(|f|) = \sum_{x \in X} |f(x)|$ for every function $f$ (§ 1, No. 1, Example), and $N_\infty(f) = \|f\| = \sup_{x \in X} |f(x)|$; if there exists a number $\alpha > 0$ such that $|f(x)| \geq \alpha$ for infinitely many values of $x \in X$, then $N_p(f) = +\infty$ for every finite $p$; in the contrary case, there exists an $x_0 \in X$ such that $|f(x_0)| = \|f\|$, whence
 
 $$
 N_\infty(f) = |f(x_0)| \leq N_p(f)
 $$
 
-for every finite $p$. Since the function $\log N_p(f)$ is convex with respect to $1/p$ and takes its smallest value at the point $+\infty$, it is necessarily a decreasing function of $p$ on I (FRV, I, \S 4, No. 3, Prop. 5), which completes the proof.
+for every finite $p$. Since the function $\log N_p(f)$ is convex with respect to $1/p$ and takes its smallest value at the point $+\infty$, it is necessarily a decreasing function of $p$ on I (FRV, I, § 4, No. 3, Prop. 5), which completes the proof.
 
 #### Corollary {#int-iv-s6-n5-cor-3 .statement}
 

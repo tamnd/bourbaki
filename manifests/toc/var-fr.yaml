@@ -4,7 +4,6 @@ grammar: pilcrow/bare
 chapters:
     - book: var-fr
       chapter: "1"
-      nominal: true
       title: VARIÉTÉS DIFFÉRENTIELLES ET ANALYTIQUES, FASCICULE DE RÉSULTATS
       page: 11
       pdf_page: 9
@@ -31,7 +30,7 @@ chapters:
               page: 14
               pdf_page: 12
             - "no": 5
-              title: Théorème des fonctions impli
+              title: Théorème des fonctions implicites
               page: 14
               pdf_page: 12
             - "no": 6
@@ -257,3 +256,4 @@ chapters:
           page: 88
           pdf_page: 86
           appendix: true
+      nominal: true

@@ -37,7 +37,7 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: d2af991f38e9e504f57a7cd19f5c382f7ebc4c745f78e8dd74f267d00f224a98
+content_sha256: bf0ebd0cda151170c108a2f9b899a1c59ba20dd5f6195c4caf5f17e7cc05a3cd
 ---
 
 ## § 3. COMPACT FORMS OF COMPLEX SEMI-SIMPLE LIE ALGEBRAS
@@ -64,7 +64,7 @@ $\sigma^2=$ Id$_{\mathfrak{a}}, \sigma (\lambda x+\mu y) = \overline{\lambda \si
 
 for $\lambda , \mu\in \mathbf{C},x, y\in \mathfrak{a}$. An element $x$ of $\mathfrak{a}$ belongs to $\mathfrak{g}$ if and only if $\sigma (x) =x$.
 
-$b)$ Let $\sigma :\mathfrak{a}\rightarrow \mathfrak{a}$ be a map satisfying (2). Then the set $\mathfrak{g}$ of fixed points of $\sigma$ is a real form of $\mathfrak{a}$, and $\sigma$ is the conjugation of $\mathfrak{a}$ relative to $\mathfrak{g}$.
+b) Let $\sigma :\mathfrak{a}\rightarrow \mathfrak{a}$ be a map satisfying (2). Then the set $\mathfrak{g}$ of fixed points of $\sigma$ is a real form of $\mathfrak{a}$, and $\sigma$ is the conjugation of $\mathfrak{a}$ relative to $\mathfrak{g}$.
 
 The proof is immediate.
 
@@ -98,9 +98,9 @@ $a)$ The real vector subspace $\mathfrak{a}_0=\mathfrak{h}_0+\sum_{\alpha\in R}\
 
 real form of $\mathfrak{a}$, of which $\mathfrak{h}_0$ is a Cartan subalgebra. The pair $(\mathfrak{a}_0,\mathfrak{h}_0)$ is a split semi-simple real Lie algebra, of which $(X_{\alpha})$ is a Chevalley system.
 
-$b)$ Let $\sigma$ be the conjugation of $\mathfrak{a}$ relative to $\mathfrak{a}_0$. Then $\sigma \circ \theta =\theta \circ \sigma$. The set of fixed points of $\sigma \circ \theta$ is a compact real form $\mathfrak{a}_u$ of $\mathfrak{a}$, of which $i\mathfrak{h}_0$ is a Cartan subalgebra.
+b) Let $\sigma$ be the conjugation of $\mathfrak{a}$ relative to $\mathfrak{a}_0$. Then $\sigma \circ \theta =\theta \circ \sigma$. The set of fixed points of $\sigma \circ \theta$ is a compact real form $\mathfrak{a}_u$ of $\mathfrak{a}$, of which $i\mathfrak{h}_0$ is a Cartan subalgebra.
 
-Part $a)$ follows immediately from the preceding. We prove $b)$. Since $\sigma \circ \theta$ and $\theta \circ \sigma$ are two semi-linear maps from $\mathfrak{a}$ to $\mathfrak{a}$ that coincide on $\mathfrak{a}_0$, they coincide. Now $\sigma \circ \theta$ satisfies conditions (2) of no. 1, hence is the conjugation of $\mathfrak{a}$ relative to the real form $\mathfrak{a}_u$ consisting of the $x\in \mathfrak{a}$ such that $\sigma \circ \theta (x) =x$ (Prop. 1). For all $\alpha \in R$ put
+Part a) follows immediately from the preceding. We prove b). Since $\sigma \circ \theta$ and $\theta \circ \sigma$ are two semi-linear maps from $\mathfrak{a}$ to $\mathfrak{a}$ that coincide on $\mathfrak{a}_0$, they coincide. Now $\sigma \circ \theta$ satisfies conditions (2) of no. 1, hence is the conjugation of $\mathfrak{a}$ relative to the real form $\mathfrak{a}_u$ consisting of the $x\in \mathfrak{a}$ such that $\sigma \circ \theta (x) =x$ (Prop. 1). For all $\alpha \in R$ put
 
 $$
 u_{\alpha}=X_{\alpha}+X_{-\alpha},v_{\alpha}=i(X_{\alpha}-X_{-\alpha}) \tag{6}
@@ -184,7 +184,7 @@ a$)\mathfrak{a}$ has compact (resp. splittable) real forms.
 
 b) The group Int($\mathfrak{a}$) operates transitively on the set of compact (resp. splittable) real forms of $\mathfrak{a}$.
 
-Let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{a}$. Then $(\mathfrak{a},\mathfrak{h})$ is split (Chap. VIII, §2, no. 1, Remark 2), and has a Chevalley system $(X_{\alpha})$ (Chap. VIII, §4, no. 4, Cor. of Prop. 5). Part $a)$ now follows from Prop. 2. Let $\mathfrak{g}$ be a compact real form of $\mathfrak{a}$; we show that there exists $v\in$ Int($\mathfrak{a}$) such that $v(\mathfrak{a}_u) =\mathfrak{g}$. Let $\mathfrak{t}$ be a Cartan subalgebra of $\mathfrak{g}$; then $\mathfrak{t}_{(\mathbf{C})}$ is a Cartan subalgebra of $\mathfrak{a}$; since Int($\mathfrak{a}$) operates transitively on the set of Cartan subalgebras of $\mathfrak{a}$ (Chap. VII, §3, no. 2, Th. 1), we are reduced to the case in which $\mathfrak{t}_{(\mathbf{C})}=\mathfrak{h}$. Since $\mathfrak{g}$ is a compact form, the eigenvalues of the endomorphisms ad $h$, for $h\in \mathfrak{t}$, are purely imaginary (§1, no. 3, Prop. 1), so the roots $\alpha \in R$ map $\mathfrak{t}$ to $i\mathbf{R}$; this implies that $\mathfrak{t}=i\mathfrak{h}_0$. Then, by Prop. 3 (no. 2), there exists $v\in$ Int($\mathfrak{a}$) such that $v(\mathfrak{a}_u) =\mathfrak{g}$, hence $b)$ in the case of compact forms. Finally, let $\mathfrak{m}_1$ and $\mathfrak{m}_2$ be two splittable real forms of $\mathfrak{a}$. There exist framings $(\mathfrak{m}_1,\mathfrak{h}_1,B_1,(X_{\alpha}^1))$ and $(\mathfrak{m}_2,\mathfrak{h}_2,B_2,(X_{\alpha}^2))$ (Chap. VIII, §4, no. 1). These extend in an obvious way to bases $e_1$ and $e_2$ of $\mathfrak{a}$. An automorphism of $\mathfrak{a}$ that maps $e_1$ to $e_2$ maps $\mathfrak{m}_1$ to $\mathfrak{m}_2$; thus, it suffices to apply Prop. 5 of Chap. VIII, §5, no. 3, to obtain the existence of an element $u$ of Aut$_0(\mathfrak{a}) =$ Int($\mathfrak{a}$) such that $u(\mathfrak{m}_1) =\mathfrak{m}_2$.
+Let $\mathfrak{h}$ be a Cartan subalgebra of $\mathfrak{a}$. Then $(\mathfrak{a},\mathfrak{h})$ is split (Chap. VIII, §2, no. 1, Remark 2), and has a Chevalley system $(X_{\alpha})$ (Chap. VIII, §4, no. 4, Cor. of Prop. 5). Part a) now follows from Prop. 2. Let $\mathfrak{g}$ be a compact real form of $\mathfrak{a}$; we show that there exists $v\in$ Int($\mathfrak{a}$) such that $v(\mathfrak{a}_u) =\mathfrak{g}$. Let $\mathfrak{t}$ be a Cartan subalgebra of $\mathfrak{g}$; then $\mathfrak{t}_{(\mathbf{C})}$ is a Cartan subalgebra of $\mathfrak{a}$; since Int($\mathfrak{a}$) operates transitively on the set of Cartan subalgebras of $\mathfrak{a}$ (Chap. VII, §3, no. 2, Th. 1), we are reduced to the case in which $\mathfrak{t}_{(\mathbf{C})}=\mathfrak{h}$. Since $\mathfrak{g}$ is a compact form, the eigenvalues of the endomorphisms ad $h$, for $h\in \mathfrak{t}$, are purely imaginary (§1, no. 3, Prop. 1), so the roots $\alpha \in R$ map $\mathfrak{t}$ to $i\mathbf{R}$; this implies that $\mathfrak{t}=i\mathfrak{h}_0$. Then, by Prop. 3 (no. 2), there exists $v\in$ Int($\mathfrak{a}$) such that $v(\mathfrak{a}_u) =\mathfrak{g}$, hence b) in the case of compact forms. Finally, let $\mathfrak{m}_1$ and $\mathfrak{m}_2$ be two splittable real forms of $\mathfrak{a}$. There exist framings $(\mathfrak{m}_1,\mathfrak{h}_1,B_1,(X_{\alpha}^1))$ and $(\mathfrak{m}_2,\mathfrak{h}_2,B_2,(X_{\alpha}^2))$ (Chap. VIII, §4, no. 1). These extend in an obvious way to bases $e_1$ and $e_2$ of $\mathfrak{a}$. An automorphism of $\mathfrak{a}$ that maps $e_1$ to $e_2$ maps $\mathfrak{m}_1$ to $\mathfrak{m}_2$; thus, it suffices to apply Prop. 5 of Chap. VIII, §5, no. 3, to obtain the existence of an element $u$ of Aut$_0(\mathfrak{a}) =$ Int($\mathfrak{a}$) such that $u(\mathfrak{m}_1) =\mathfrak{m}_2$.
 
 #### Remark {#lie-ix-s3-n3-rem-1 .statement tag=01B5}
 

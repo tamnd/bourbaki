@@ -32,7 +32,7 @@ subsections:
       pdf_page: 179
 statements: 14
 exercises: 3
-content_sha256: 9d6317e8cb339a36f520b27a1908c0f9b0d3e1aa58781d3e34114665c9739a7e
+content_sha256: ec75da6da00c91342c199ffbf60a242c7303660b9b3e0dad21a588e3852ea4a7
 translated_from: content/en/lie/II/06_s6_the_hausdorff_series.md
 source_content_sha256: a588e29717103254d7272a25b47f928b860d25d73c99158135d8f87332ab07da
 translation_model: gpt-5.4
@@ -126,7 +126,7 @@ Ta suy ra từ các hệ thức $e(l(X)) = l(e(X)) = X$ rằng ánh xạ $a \map
 
 ### 2. NHÓM HAUSDORFF
 
-Cho X là một tập hợp. Ta dùng ký hiệu của § 5, các no. 1 và 2. Đại số Lie tự do L(X) được đồng nhất với ảnh chính tắc của nó trong A(X) (\S 3, số 1, Định lý 1). Ta ký hiệu bởi $\hat{L}(X)$ bao đóng của L(X) trong $\hat{A}(X)$, tức là tập hợp các phần tử của $\hat{A}(X)$ có dạng $a = \sum_{n \geq 1} a_n$ sao cho $a_n \in L^n(X)$ với mọi $n \geq 0$; đó là một đại số con Lie được lọc của $\hat{A}(X)$.
+Cho X là một tập hợp. Ta dùng ký hiệu của § 5, các no. 1 và 2. Đại số Lie tự do L(X) được đồng nhất với ảnh chính tắc của nó trong A(X) (§ 3, số 1, Định lý 1). Ta ký hiệu bởi $\hat{L}(X)$ bao đóng của L(X) trong $\hat{A}(X)$, tức là tập hợp các phần tử của $\hat{A}(X)$ có dạng $a = \sum_{n \geq 1} a_n$ sao cho $a_n \in L^n(X)$ với mọi $n \geq 0$; đó là một đại số con Lie được lọc của $\hat{A}(X)$.
 
 #### Định lý 1 {#lie-ii-s6-thm-1 .statement}
 
@@ -200,7 +200,7 @@ Với mọi số nguyên $m \geq 1$ ta ký hiệu bởi $\hat{\mathbf{L}}_m$ t�
 
 *Cho $\mathfrak{g}$ là một đại số Lie được lọc (§ 4, no. 1), $(\mathfrak{g}_\alpha)_{\alpha \in \mathbf{R}}$ là phép lọc của nó và cho $\alpha \in \mathbf{R}$. Cho P là một đa thức Lie thuần nhất bậc n theo các ẩn $(\Gamma_i)_{i \in I}$ (§ 2, no. 4). Khi đó $P((a_i)) \in \mathfrak{g}_{n\alpha}$ đối với mọi họ $(a_i)_{i \in I}$ các phần tử của $\mathfrak{g}_\alpha$*.
 
-Mọi đa thức Lie bậc $n \geqslant 2$ đều là một tổng hữu hạn của các hạng tử dạng $[Q, R]$ trong đó $Q$ và $R$ có bậc $< n$ và tổng các bậc của chúng bằng $n$ (\S 2, no. 7, Mệnh đề 7). Bổ đề được suy ra bằng quy nạp theo $n$.
+Mọi đa thức Lie bậc $n \geqslant 2$ đều là một tổng hữu hạn của các hạng tử dạng $[Q, R]$ trong đó $Q$ và $R$ có bậc $< n$ và tổng các bậc của chúng bằng $n$ (§ 2, no. 7, Mệnh đề 7). Bổ đề được suy ra bằng quy nạp theo $n$.
 
 Một *chuỗi lũy thừa hình thức Lie*† (với các hệ số trong $K$) *theo các bất định* $(T_i)_{i \in I}$ là một phần tử bất kỳ của đại số Lie $\hat{L}((T_i)_{i \in I}) = \hat{L}(I)$. Một phần tử như vậy $u$ có thể được viết duy nhất thành tổng của một họ khả tổng $(u_\nu)_{\nu \in \mathbf{N}^{(I)}}$ trong đó $u_\nu \in L^\nu(I)$.
 
@@ -208,7 +208,7 @@ Giả sử rằng $I$ là *hữu hạn*. Cho $g$ là một đại số Lie lọc
 
 #### Mệnh đề 2 {#lie-ii-s6-prop-2 .statement}
 
-*Đồng cấu* $f_t : L(I) \to g$ *sao cho* $f_t(T_i) = t_i$ (\S 2, no. 4) *có thể được mở rộng bằng tính liên tục thành một và chỉ một đồng cấu liên tục* $\hat{f}_t$ *từ* $\hat{L}(I)$ *vào* $g$.
+*Đồng cấu* $f_t : L(I) \to g$ *sao cho* $f_t(T_i) = t_i$ (§ 2, no. 4) *có thể được mở rộng bằng tính liên tục thành một và chỉ một đồng cấu liên tục* $\hat{f}_t$ *từ* $\hat{L}(I)$ *vào* $g$.
 
 Tồn tại $\alpha > 0$ sao cho $t_i \in g_\alpha$ với mọi $i \in I$; do đó $f_t(L^\nu(I)) \subset g_{|\nu| \wedge \alpha}$ với mọi $\nu$ (Bổ đề 1), điều này suy ra tính liên tục của $\hat{f}_t$.
 
@@ -277,7 +277,7 @@ H_{r,s} = \sum_{m \geq 1} \frac{(-1)^{m-1}}{m}
 \prod_{i=1}^m \frac{U^{r_i} V^{s_i}}{r_i! s_i!}.
 $$
 
-Ánh xạ tuyến tính $P_n$, được xác định bởi $P_n(x_1, \ldots, x_n) = \frac{1}{n} \left( \prod_{i=1}^{n-1} (\mathrm{ad}\, x_i) \right)(x_n)$ với $n \geq 1$ và $x_1, \ldots, x_n$ trong $\{U, V\}$, là một phép chiếu của $A^n_\mathbf{Q}(\{U, V\})$ lên $L^n_\mathbf{Q}(\{U, V\})$ (\S 3, no. 2, Hệ quả của Mệnh đề 1); vì $H_{r,s}$ thuộc $L^{r+s}_\mathbf{Q}(\{U, V\})$, nên $H_{r,s} = P_{r+s}(H_{r,s})$. Bây giờ
+Ánh xạ tuyến tính $P_n$, được xác định bởi $P_n(x_1, \ldots, x_n) = \frac{1}{n} \left( \prod_{i=1}^{n-1} (\mathrm{ad}\, x_i) \right)(x_n)$ với $n \geq 1$ và $x_1, \ldots, x_n$ trong $\{U, V\}$, là một phép chiếu của $A^n_\mathbf{Q}(\{U, V\})$ lên $L^n_\mathbf{Q}(\{U, V\})$ (§ 3, no. 2, Hệ quả của Mệnh đề 1); vì $H_{r,s}$ thuộc $L^{r+s}_\mathbf{Q}(\{U, V\})$, nên $H_{r,s} = P_{r+s}(H_{r,s})$. Bây giờ
 
 $$
 P_{r+s} \left( \prod_{i=1}^m \frac{U^{r_i} V^{s_i}}{r_i! s_i!} \right)
@@ -294,7 +294,7 @@ khi $r_m \geqslant 1$ và $s_m = 0$. Hơn nữa, hiển nhiên $(\mathrm{ad}\ t)
 
 #### Nhận xét {#lie-ii-s6-n4-rem-1 .statement}
 
-(1) Ta đã định nghĩa (\S 3, no. 2, Nhận xét) một phép chiếu $Q$ từ $A(X)$ lên $L(X)$ sao cho $Q(a^m) = 0$ với $a \in L(X)$ và $m \geqslant 2$ và $Q(1) = 0$. Khi đó $H = Q(\exp H) = Q(\exp U.\exp V)$, do đó ngay lập tức
+(1) Ta đã định nghĩa (§ 3, no. 2, Nhận xét) một phép chiếu $Q$ từ $A(X)$ lên $L(X)$ sao cho $Q(a^m) = 0$ với $a \in L(X)$ và $m \geqslant 2$ và $Q(1) = 0$. Khi đó $H = Q(\exp H) = Q(\exp U.\exp V)$, do đó ngay lập tức
 
 $$
 (14)\quad H_{r,s} = Q \left( \frac{U^r V^s}{r! s!} \right) \quad \text{với } r + s \geqslant 1.
@@ -322,7 +322,7 @@ $$
 
 ### 5. PHÉP THẾ TRONG CHUỖI HAUSDORFF
 
-Vì $K$ là một trường chứa $\mathbf{Q}$, chuỗi Hausdorff có thể được xét như một chuỗi lũy thừa hình thức của đại số Lie với các hệ số trong $K$. Do đó, nếu $g$ là một đại số Lie lọc Hausdorff đầy đủ với $g = \bigcup_{\alpha > 0} g_\alpha$, thì, với $a, b$ thuộc $g$, có thể thế $a$ và $b$ cho $U$ và $V$ trong $H$ (x. no. 3 và \S 2, no. 5, Nhận xét).
+Vì $K$ là một trường chứa $\mathbf{Q}$, chuỗi Hausdorff có thể được xét như một chuỗi lũy thừa hình thức của đại số Lie với các hệ số trong $K$. Do đó, nếu $g$ là một đại số Lie lọc Hausdorff đầy đủ với $g = \bigcup_{\alpha > 0} g_\alpha$, thì, với $a, b$ thuộc $g$, có thể thế $a$ và $b$ cho $U$ và $V$ trong $H$ (x. no. 3 và § 2, no. 5, Nhận xét).
 
 Đặc biệt, cho $A$ là một đại số kết hợp có đơn vị được lọc, đầy đủ và Hausdorff. Ta viết $m = \bigcup_{\alpha > 0} A_\alpha$ và $m_\alpha = A_\alpha \cap m$ với $\alpha \in \mathbf{R}$; do đó $m_\alpha = A_\alpha$ nếu $\alpha > 0$ và $m_\alpha = m$ nếu $\alpha \leqslant 0$. Với dấu ngoặc $[a, b] = ab - ba$, $m$ là một đại số Lie được lọc, đầy đủ và Hausdorff, mà kết quả trên đây có thể được áp dụng cho nó. Với ký hiệu này, ta có kết quả sau đây, kết thúc Mệnh đề 1 của no. 1.
 
@@ -330,7 +330,7 @@ Vì $K$ là một trường chứa $\mathbf{Q}$, chuỗi Hausdorff có thể đ�
 
 *Nếu $a \in m, b \in m$, thì $\exp H(a, b) = \exp a . \exp b$.*
 
-Cho $a, b$ thuộc $m$; tồn tại $\alpha > 0$ sao cho $a \in A_\alpha$ và $b \in A_\alpha$. Khi đó tồn tại một đồng cấu liên tục $\theta$ của đại số Magnus $\hat{A}(\{U, V\})$ vào $A$ ánh xạ $U$ tới $a$ và $V$ tới $b$ (\S 5, no. 1, Mệnh đề 1).
+Cho $a, b$ thuộc $m$; tồn tại $\alpha > 0$ sao cho $a \in A_\alpha$ và $b \in A_\alpha$. Khi đó tồn tại một đồng cấu liên tục $\theta$ của đại số Magnus $\hat{A}(\{U, V\})$ vào $A$ ánh xạ $U$ tới $a$ và $V$ tới $b$ (§ 5, no. 1, Mệnh đề 1).
 
 Hạn chế của $\theta$ lên $\hat{L}(\{U, V\})$ là một đồng cấu liên tục của các đại số Lie từ $L(\{U, V\})$ vào $m$ ánh xạ $U$ (tương ứng $V$) thành $a$ (tương ứng $b$). Bởi công thức (6) của no. 3, do đó $\theta(H) = H(a, b)$. Khi đó chỉ cần áp dụng đồng cấu liên tục $\theta$ cho hai vế của quan hệ
 $$
@@ -377,7 +377,7 @@ a \mathbin{\mathbf{h}} b = H(a, b) \quad \text{với } a, b \text{ trong } \hat{
 $$
 do đó luật nhóm Hausdorff được cho bởi chuỗi Hausdorff.
 
-(3) Cho $g$ là một đại số Lie với bộ lọc nguyên ($\mathcal{C}^n g$) được xác định bởi chuỗi trung tâm dưới. Giả sử rằng tồn tại $m \geq 1$ sao cho $\mathcal{C}^m g = \{0\}$. Với tôpô dẫn xuất từ bộ lọc $(\mathcal{C}^n g)_{n \geq 1}$, đại số Lie $g$ là Hausdorff, đầy đủ và thậm chí rời rạc. Khi đó $P(a_1, \ldots, a_r) = 0$ với $a_1, \ldots, a_r$ trong $g$ và với mọi đa thức Lie thuần nhất $P$ có bậc $\geq m$; đặc biệt, $H_{r,s}(a, b) = 0$ với $r + s \geq m$ và chuỗi $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ chỉ có một số hữu hạn số hạng khác không. Luật nhóm $(a, b) \mapsto H(a, b)$ trên $g$ khi đó là một ánh xạ đa thức (\$ 2, no. 4).
+(3) Cho $g$ là một đại số Lie với bộ lọc nguyên ($\mathcal{C}^n g$) được xác định bởi chuỗi trung tâm dưới. Giả sử rằng tồn tại $m \geq 1$ sao cho $\mathcal{C}^m g = \{0\}$. Với tôpô dẫn xuất từ bộ lọc $(\mathcal{C}^n g)_{n \geq 1}$, đại số Lie $g$ là Hausdorff, đầy đủ và thậm chí rời rạc. Khi đó $P(a_1, \ldots, a_r) = 0$ với $a_1, \ldots, a_r$ trong $g$ và với mọi đa thức Lie thuần nhất $P$ có bậc $\geq m$; đặc biệt, $H_{r,s}(a, b) = 0$ với $r + s \geq m$ và chuỗi $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ chỉ có một số hữu hạn số hạng khác không. Luật nhóm $(a, b) \mapsto H(a, b)$ trên $g$ khi đó là một ánh xạ đa thức (§ 2, no. 4).
 
 #### Mệnh đề 5 {#lie-ii-s6-prop-5 .statement}
 

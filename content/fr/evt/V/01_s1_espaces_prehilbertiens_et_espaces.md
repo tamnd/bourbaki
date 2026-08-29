@@ -40,7 +40,7 @@ subsections:
       pdf_page: 277
 statements: 43
 exercises: 37
-content_sha256: 36c9bab2660136b60f4dd98efacd09fe1159a66eafae402fbd5be61a5658cf99
+content_sha256: bb074e6c7f23647fb246fe109975fa7e030f40a92ab2c8c232fef01e12fb7ce1
 ---
 
 ## § 1. ESPACES PRÉHILBERTIENS ET ESPACES HILBERTIENS
@@ -615,10 +615,10 @@ En effet, l’application $x \mapsto x^*$ est semi-linéaire d’après (2) (V, 
 
 C.Q.F.D.
 
-L’application $x \mapsto x^*$ de E sur son dual $E'$ est dite canonique. L’application réciproque de $E'$ sur E est aussi dite canonique et se note $x' \mapsto x'^*$. On a donc
+L’application $x \mapsto x^*$ de E sur son dual $E'$ est dite canonique. L’application réciproque de $E'$ sur E est aussi dite canonique et se note $x' \mapsto {x'}^*$. On a donc
 
 $$
-\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle x'^* | x \rangle
+\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle {x'}^* | x \rangle
 $$
 
 pour $x, y$ dans E et $x'$ dans $E'$. On a aussi $(x^*)^* = x$ pour $x \in E$.

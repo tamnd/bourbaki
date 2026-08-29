@@ -8,28 +8,29 @@ section_title: Relations between tensor products and homomorphism modules
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 267-276, 396-398
 pdf_pages: 0291-0300, 0420-0422
 extraction: ocr
 subsections:
     - "no": 1
       title: THE ISOMORPHISMS $\operatorname{Hom}_B(E \otimes_A F, G) \to \operatorname{Hom}_A(F, \operatorname{Hom}_B(E, G))$ AND $\operatorname{Hom}_c(E \otimes_A F, G) \to \operatorname{Hom}_A(E, \operatorname{Hom}_c(F, G))$
-      page: 0
+      page: 267
       pdf_page: 291
     - "no": 2
       title: THE HOMOMORPHISM** $E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
-      page: 0
+      page: 268
       pdf_page: 292
     - "no": 3
       title: TRACE OF AN ENDOMORPHISM
-      page: 0
+      page: 273
       pdf_page: 297
     - "no": 4
       title: THE HOMOMORPHISM $\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}_c(E_2, F_2) \to \operatorname{Hom}_c(E_1 \otimes_c E_2, F_1 \otimes_c F_2)$
-      page: 0
+      page: 274
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: d1a95efda999da8a9d1e6a36d3399faf5cff5df77aee956d80020824624e0224
+content_sha256: 4daa0198f39eb8665aeb0fb853979c7c3f01d43e4213ff03ca386beeb56265ae
 ---
 
 ## § 4. RELATIONS BETWEEN TENSOR PRODUCTS AND HOMOMORPHISM MODULES
@@ -43,14 +44,14 @@ $$
 f(x \lambda, y) = f(x, \lambda y) \quad \text{for } x \in E, y \in F, \lambda \in A.
 $$
 
-It has been seen (\S 3, no. 1, Proposition 1) that there exists a canonical $\mathbf{Z}$-module homomorphism
+It has been seen (§ 3, no. 1, Proposition 1) that there exists a canonical $\mathbf{Z}$-module homomorphism
 
 (2)
 $$
 H \to \operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, G).
 $$
 
-On the other hand, a left A-module structure has been defined on $\operatorname{Hom}_{\mathbf{Z}}(E, G)$ and a right A-module structure on $\operatorname{Hom}_{\mathbf{Z}}(F, G)$ (\S 3, no. 3); we may therefore consider the $\mathbf{Z}$-modules $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$ and $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$. A mapping $f$ of $E \times F$ into G is canonically identified with a mapping of E into the set $G^F$ of mappings of F into G (*Set Theory*, II, \S 5, no. 2); by expressing the fact that the latter mapping belongs to $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$, we obtain precisely the fact that $f$ is biadditive and conditions (1); whence there is a canonical isomorphism
+On the other hand, a left A-module structure has been defined on $\operatorname{Hom}_{\mathbf{Z}}(E, G)$ and a right A-module structure on $\operatorname{Hom}_{\mathbf{Z}}(F, G)$ (§ 3, no. 3); we may therefore consider the $\mathbf{Z}$-modules $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$ and $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$. A mapping $f$ of $E \times F$ into G is canonically identified with a mapping of E into the set $G^F$ of mappings of F into G (*Set Theory*, II, § 5, no. 2); by expressing the fact that the latter mapping belongs to $\operatorname{Hom}_A(E, \operatorname{Hom}_{\mathbf{Z}}(F, G))$, we obtain precisely the fact that $f$ is biadditive and conditions (1); whence there is a canonical isomorphism
 
 (3)
 $$
@@ -63,7 +64,7 @@ $$
 H \to \operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G)).
 $$
 
-Suppose now that E and G also have left (resp. right) B-module structures and that the A-module and B-module structures on E are compatible. Then $E \otimes_A F$ has canonically a left (resp. right) B-module structure (\S 3, no. 4) and on the other hand $\operatorname{Hom}_B(E, G)$ has canonically a left A-module structure (\S 1, no. 14). We may therefore consider the $\mathbf{Z}$-modules $\operatorname{Hom}_B(E \otimes_A F, G)$ and $\operatorname{Hom}_A(F, \operatorname{Hom}_B(E, G))$, which are submodules of $\operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, G)$ and $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$ respectively (\S 2, no. 1, Theorem 2). We examine under what condition a mapping $f \in H$ has as image under the isomorphisms (2) and (4) an element of $\operatorname{Hom}_B(E \otimes_A F, G)$ and an element of $\operatorname{Hom}_A(E, \operatorname{Hom}_B(F, G))$ respectively; in each of the two cases we find the *same* condition
+Suppose now that E and G also have left (resp. right) B-module structures and that the A-module and B-module structures on E are compatible. Then $E \otimes_A F$ has canonically a left (resp. right) B-module structure (§ 3, no. 4) and on the other hand $\operatorname{Hom}_B(E, G)$ has canonically a left A-module structure (§ 1, no. 14). We may therefore consider the $\mathbf{Z}$-modules $\operatorname{Hom}_B(E \otimes_A F, G)$ and $\operatorname{Hom}_A(F, \operatorname{Hom}_B(E, G))$, which are submodules of $\operatorname{Hom}_{\mathbf{Z}}(E \otimes_A F, G)$ and $\operatorname{Hom}_A(F, \operatorname{Hom}_{\mathbf{Z}}(E, G))$ respectively (§ 2, no. 1, Theorem 2). We examine under what condition a mapping $f \in H$ has as image under the isomorphisms (2) and (4) an element of $\operatorname{Hom}_B(E \otimes_A F, G)$ and an element of $\operatorname{Hom}_A(E, \operatorname{Hom}_B(F, G))$ respectively; in each of the two cases we find the *same* condition
 
 $$
 f(\beta x, y) = \beta f(x, y)
@@ -120,13 +121,13 @@ $$
 
 ### 2. THE HOMOMORPHISM** $E^* \otimes_A F \to \mathrm{Hom}_A(E, F)$
 
-Let A, B be two rings, E a left A-module, F a left B-module and G an (A, B)-*bimodule*. The $\mathbf{Z}$-module $\mathrm{Hom}_A(E, G)$ has canonically a *right* B-*module* structure (\S 1, no. 14) such that $(u\beta)(x) = u(x)\beta$ for $\beta \in B$, $u \in \mathrm{Hom}_A(E, G)$, $x \in E$. On the other hand, $G \otimes_B F$ has canonically a *left A-module* structure (\S 3, no. 4). We shall define a *canonical $\mathbf{Z}$-homomorphism*
+Let A, B be two rings, E a left A-module, F a left B-module and G an (A, B)-*bimodule*. The $\mathbf{Z}$-module $\mathrm{Hom}_A(E, G)$ has canonically a *right* B-*module* structure (§ 1, no. 14) such that $(u\beta)(x) = u(x)\beta$ for $\beta \in B$, $u \in \mathrm{Hom}_A(E, G)$, $x \in E$. On the other hand, $G \otimes_B F$ has canonically a *left A-module* structure (§ 3, no. 4). We shall define a *canonical $\mathbf{Z}$-homomorphism*
 
 $$
 \nu : \mathrm{Hom}_A(E, G) \otimes_B F \to \mathrm{Hom}_A(E, G \otimes_B F).
 $$
 
-To this end, we consider, for all $y \in F$ and all $u \in \mathrm{Hom}_A(E, G)$, the mapping $\nu'(u, y) : x \mapsto u(x) \otimes y$ of $E$ onto $G \otimes_B F$. It is immediately verified that $\nu'(u, y)$ is $A$-linear and that $\nu'$ is a $\mathbf{Z}$-bilinear mapping of $\mathrm{Hom}_A(E, G) \times F$ into $\mathrm{Hom}_A(E, G \otimes_B F)$; moreover, for all $\beta \in B$, $\nu'(u\beta, y)$ and $\nu'(u, \beta y)$ are equal, for $(u(x)\beta) \otimes y = u(x) \otimes (\beta y)$. We conclude (\S 3, no. 1, Proposition 1) the existence of the desired homomorphism $\nu$ such that $\nu(u \otimes y)$ is the $A$-linear mapping $x \mapsto u(x) \otimes y$.
+To this end, we consider, for all $y \in F$ and all $u \in \mathrm{Hom}_A(E, G)$, the mapping $\nu'(u, y) : x \mapsto u(x) \otimes y$ of $E$ onto $G \otimes_B F$. It is immediately verified that $\nu'(u, y)$ is $A$-linear and that $\nu'$ is a $\mathbf{Z}$-bilinear mapping of $\mathrm{Hom}_A(E, G) \times F$ into $\mathrm{Hom}_A(E, G \otimes_B F)$; moreover, for all $\beta \in B$, $\nu'(u\beta, y)$ and $\nu'(u, \beta y)$ are equal, for $(u(x)\beta) \otimes y = u(x) \otimes (\beta y)$. We conclude (§ 3, no. 1, Proposition 1) the existence of the desired homomorphism $\nu$ such that $\nu(u \otimes y)$ is the $A$-linear mapping $x \mapsto u(x) \otimes y$.
 
 It is immediately verified that, if $E$ is an $(A, (C'_i); (D'_j))$-multimodule, $F$ a $(B, (C''_h); (D''_k))$-multimodule and $G$ an $(A, (C'''_1); B, (D'''_m))$-multimodule, the mapping (7) is a $((D'_j), (C''_h), (C'''_1); (C'_i), (D''_k), (D'''_m))$-multimodule homomorphism.
 
@@ -188,7 +189,7 @@ Under the hypotheses of Lemma 2, for $\nu_F$ to be injective (resp. surjective),
 
 This follows from Lemma 2 and § 1, no. 6, Corollary 1 to Proposition 6.
 
-Then Lemma 3, together with § 2, no. 2, Proposition 4, shows that it suffices to consider the case where $F$ is a free module. But, if $(b_\mu)$ is a basis of $F$, every element of $\mathrm{Hom}_A(E, G) \otimes_B F$ may then be written uniquely as $\sum_\mu u_\mu \otimes b_\mu$, where $u_\mu \in \mathrm{Hom}_A(E, G)$ (\S 3, no. 7, Corollary 1 to Proposition 7); the image of this element under $\nu$ is the $A$-linear mapping $x \mapsto \sum_\mu u_\mu(x) \otimes b_\mu$; it cannot be zero for all $x \in E$ unless $u_\mu(x) = 0$ for all $x \in E$ and all $\mu$, which is equivalent to saying that $u_\mu = 0$ for all $\mu$; hence $\nu$ is injective. When also $F$ admits a finite basis, Lemma 3 shows (by induction on the number of elements in the basis of $F$) that to prove that $\nu$ is surjective, it suffices to do so when $F = B_s$; but in this case the two sides of (7) are canonically identified with $\mathrm{Hom}_A(E, G)$ (\S 3, no. 4, Proposition 4) and $\nu$ becomes the identity.
+Then Lemma 3, together with § 2, no. 2, Proposition 4, shows that it suffices to consider the case where $F$ is a free module. But, if $(b_\mu)$ is a basis of $F$, every element of $\mathrm{Hom}_A(E, G) \otimes_B F$ may then be written uniquely as $\sum_\mu u_\mu \otimes b_\mu$, where $u_\mu \in \mathrm{Hom}_A(E, G)$ (§ 3, no. 7, Corollary 1 to Proposition 7); the image of this element under $\nu$ is the $A$-linear mapping $x \mapsto \sum_\mu u_\mu(x) \otimes b_\mu$; it cannot be zero for all $x \in E$ unless $u_\mu(x) = 0$ for all $x \in E$ and all $\mu$, which is equivalent to saying that $u_\mu = 0$ for all $\mu$; hence $\nu$ is injective. When also $F$ admits a finite basis, Lemma 3 shows (by induction on the number of elements in the basis of $F$) that to prove that $\nu$ is surjective, it suffices to do so when $F = B_s$; but in this case the two sides of (7) are canonically identified with $\mathrm{Hom}_A(E, G)$ (§ 3, no. 4, Proposition 4) and $\nu$ becomes the identity.
 
 (ii) To show the proposition when $E$ is projective and finitely generated, this time we fix $F$ and $G$ and write, for every left $A$-module $E$,
 
@@ -236,7 +237,7 @@ They are proved as Lemmas 1 and 2, taking account of § 1, no. 6, Corollary 2 to
 
 The remainder of the proof then proceeds as in (i) and is reduced to the case where $E = A_s$; the two sides of (7) are then canonically identified with $G \otimes_B F$ and $\nu$ becomes the identity.
 
-In particular take $B = A$ and $G$ the $(A, A)$-bimodule ${}_sA_d$ ($\S 3$, no. 4), so that the right $A$-module $\mathrm{Hom}_A(E, {}_sA_d)$ is just the dual $E^*$ of $E$ and $({}_sA_d) \otimes_A F$ is canonically identified with $F$ ($\S 3$, no. 4, Proposition 4). Homomorphism (7) then becomes a canonical $\mathbf{Z}$-homomorphism
+In particular take $B = A$ and $G$ the $(A, A)$-bimodule ${}_sA_d$ ($§ 3$, no. 4), so that the right $A$-module $\mathrm{Hom}_A(E, {}_sA_d)$ is just the dual $E^*$ of $E$ and $({}_sA_d) \otimes_A F$ is canonically identified with $F$ ($§ 3$, no. 4, Proposition 4). Homomorphism (7) then becomes a canonical $\mathbf{Z}$-homomorphism
 
 $$(11)$$
 $$
@@ -247,7 +248,7 @@ $$
 x \mapsto \langle x, x^* \rangle y.
 $$
 
-Remark (1). The characterization of *projective* $A$-modules given in $\S 2$, no. 6, Proposition 12, can also be expressed as follows: for a left $A$-module $E$ to be projective, it is necessary and sufficient that the canonical homomorphism
+Remark (1). The characterization of *projective* $A$-modules given in $§ 2$, no. 6, Proposition 12, can also be expressed as follows: for a left $A$-module $E$ to be projective, it is necessary and sufficient that the canonical homomorphism
 $$
 \theta_E : E^* \otimes_A E \to \mathrm{Hom}_A(E, E) = \mathrm{End}_A(E)
 $$
@@ -260,7 +261,7 @@ be such that $1_E$ belongs to the image of $\theta_E$.
 
 Even when $E$ and $F$ are both finitely generated, $\theta$ is not necessarily surjective, as is shown by the example $A = \mathbf{Z}, E = F = \mathbf{Z}/2\mathbf{Z}$; the right hand side of (11) is non-zero but $E^* = 0$. On the other hand, examples can be given where $E$ is *free*, but (11) is neither injective nor surjective (Exercise 3(b)).
 
-When E admits a finite basis $(e_i)$, the inverse isomorphism $\theta^{-1}$ of $\theta$ can be found explicitly as follows. Let $(e_i^*)$ be the dual basis of $(e_i)$ (\S 2, no. 6); for all $u \in \mathrm{Hom}(E, F)$ and all $x = \sum_i \xi_i e_i$ with $\xi_i \in A$,
+When E admits a finite basis $(e_i)$, the inverse isomorphism $\theta^{-1}$ of $\theta$ can be found explicitly as follows. Let $(e_i^*)$ be the dual basis of $(e_i)$ (§ 2, no. 6); for all $u \in \mathrm{Hom}(E, F)$ and all $x = \sum_i \xi_i e_i$ with $\xi_i \in A$,
 
 $$
 u(x) = \sum_i \xi_i u(e_i) = \sum_i \langle x, e_i^* \rangle u(e_i)
@@ -298,9 +299,9 @@ $$
 x^* \mapsto \langle x, x^* \rangle y.
 $$
 
-If E *and* F are *projective* modules, the mapping (15) is *injective*. For $c_E$ is then injective (\S 2, no. 7, Corollary 4 to Proposition 13) and as F is projective, the $\mathbf{Z}$-homomorphism $c_E \otimes 1_F : E \otimes_A F \to E^{**} \otimes_A F$ is also injective (\S 3, no. 7, Corollary 6 to Proposition 7); finally, it has been seen (Proposition 2) that the homomorphism (14) is injective, whence the conclusion.
+If E *and* F are *projective* modules, the mapping (15) is *injective*. For $c_E$ is then injective (§ 2, no. 7, Corollary 4 to Proposition 13) and as F is projective, the $\mathbf{Z}$-homomorphism $c_E \otimes 1_F : E \otimes_A F \to E^{**} \otimes_A F$ is also injective (§ 3, no. 7, Corollary 6 to Proposition 7); finally, it has been seen (Proposition 2) that the homomorphism (14) is injective, whence the conclusion.
 
-If E is *projective* and *finitely generated*, the mapping (15) is *bijective* for the two mappings of which it is composed are then bijective (\S 2, no. 7, Corollary 4 to Proposition 13 and Proposition 2 above).
+If E is *projective* and *finitely generated*, the mapping (15) is *bijective* for the two mappings of which it is composed are then bijective (§ 2, no. 7, Corollary 4 to Proposition 13 and Proposition 2 above).
 
 ### 3. TRACE OF AN ENDOMORPHISM
 
@@ -310,10 +311,10 @@ $$
 \tau : E^* \otimes_C E \to C
 $$
 
-such that $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (\S 3, no. 5). Suppose now also that $E$ is a *finitely generated projective* $C$-module; the canonical isomorphism (11) of no. 2 is then a $C$*-module* isomorphism and we can therefore define by transporting the structure a *canonical linear form* $\mathrm{Tr} = \tau \circ \theta_E^{-1}$ on the $C$-module $\mathrm{End}_C(E)$. For all $u \in \mathrm{End}_C(E)$ the scalar $\mathrm{Tr}(u)$ is called the *trace* of the endomorphism $u$; every $u \in \mathrm{End}_C(E)$ can be written (in general in an infinity of ways) in the form $x \mapsto \sum_i \langle x, x_i^* \rangle y_i$ where $x_i^* \in E^*$ and $y_i \in E_i$ by virtue of no. 2, Corollary to Proposition 2; then
+such that $\tau(x^* \otimes x) = \langle x, x^* \rangle$ (§ 3, no. 5). Suppose now also that $E$ is a *finitely generated projective* $C$-module; the canonical isomorphism (11) of no. 2 is then a $C$*-module* isomorphism and we can therefore define by transporting the structure a *canonical linear form* $\mathrm{Tr} = \tau \circ \theta_E^{-1}$ on the $C$-module $\mathrm{End}_C(E)$. For all $u \in \mathrm{End}_C(E)$ the scalar $\mathrm{Tr}(u)$ is called the *trace* of the endomorphism $u$; every $u \in \mathrm{End}_C(E)$ can be written (in general in an infinity of ways) in the form $x \mapsto \sum_i \langle x, x_i^* \rangle y_i$ where $x_i^* \in E^*$ and $y_i \in E_i$ by virtue of no. 2, Corollary to Proposition 2; then
 
 $$
-\mathrm{Tr}(u) = \sum_i \langle y_i, x_i^* \rangle \quad \text{(cf. \S 10, no. 11).}
+\mathrm{Tr}(u) = \sum_i \langle y_i, x_i^* \rangle \quad \text{(cf. § 10, no. 11).}
 $$
 
 By definition,
@@ -397,7 +398,7 @@ $$T'(u) = \operatorname{Hom}(1_C \otimes 1_{E_2}, u \otimes 1_{F_2}).$$
 
 This time it is immediately verified that *Lemmas 1 and 2* (no. 2) (*where $\lambda$ always replaces v*) *are valid*.
 
-This being so, we show the proposition first when $E_1 = C$ and $F_1$ is projective and finitely generated. The argument of no. 2 (which rests on Lemmas 1 and 2), together with the above remarks, reduces this to proving the proposition when also $F_1 = C$; then $\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$ and $F_1 \otimes F_2$ are identified with C, $E_2$ and $F_2$ respectively (\S 3, no. 4, Proposition 4); the two sides of (21)
+This being so, we show the proposition first when $E_1 = C$ and $F_1$ is projective and finitely generated. The argument of no. 2 (which rests on Lemmas 1 and 2), together with the above remarks, reduces this to proving the proposition when also $F_1 = C$; then $\operatorname{Hom}(E_1, F_1), E_1 \otimes E_2$ and $F_1 \otimes F_2$ are identified with C, $E_2$ and $F_2$ respectively (§ 3, no. 4, Proposition 4); the two sides of (21)
 
 THE HOMOMORPHISM $\operatorname{Hom}_c(E_1, F_1) \otimes_c \operatorname{Hom}(E_2, F_2)$
 

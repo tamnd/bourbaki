@@ -65,9 +65,9 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 12
-content_sha256: dc85366b1828fc9c45a0ddc25e8742ab62d94b78558ac17e284f61145f9ad682
+content_sha256: d21c5c0b3aafc61a94c829fa3585d1adab2a027a72957e8b34fcb32f982c293a
 translated_from: content/en/alg/II/10_s10_matrices.md
-source_content_sha256: c9c7d7c4806a0e68849d4540c01c64593764e77d838614082faa1037aa107a91
+source_content_sha256: a47679ba1ab8c0e078a09ebdfca77031eefe61db8ddab4faffc08a0fa8c19aa5
 translation_model: gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-5f9ccca3
 glossary_version: 34
@@ -161,7 +161,7 @@ t(M'M'') = tM''.tM'
 $$
 trong đó tích ở vế trái (tương ứng vế phải) được tính qua $f$ (tương ứng qua $f^0$).
 
-Khi $H'$ và $H''$ bản thân chúng là các nhóm giao hoán (viết theo lối cộng) và $f$ là $\mathbf{Z}$-*song tuyến tính* (\S 3, no. 1), các công thức phân phối
+Khi $H'$ và $H''$ bản thân chúng là các nhóm giao hoán (viết theo lối cộng) và $f$ là $\mathbf{Z}$-*song tuyến tính* (§ 3, no. 1), các công thức phân phối
 $$
 \begin{cases}
 (M' + N')M'' = M'M'' + N'M'' \\
@@ -207,9 +207,9 @@ là một ánh xạ. Khi đó nếu $M' = (m'_{ik})_{(i, k) \in I \times K}$, $M
 
 ### 3. MA TRẬN TRÊN MỘT VÀNH
 
-Những ma trận quan trọng nhất trong Toán học là các ma trận trên một vành A. Tập $A^{I \times K}$ các ma trận trên A tương ứng với các tập chỉ số I, K khi đó có một cách chính tắc cấu trúc song môđun (A, A) (\S 1, no. 14).
+Những ma trận quan trọng nhất trong Toán học là các ma trận trên một vành A. Tập $A^{I \times K}$ các ma trận trên A tương ứng với các tập chỉ số I, K khi đó có một cách chính tắc cấu trúc song môđun (A, A) (§ 1, no. 14).
 
-Với mỗi cặp có thứ tự $(i, k) \in I \times K$, hãy để $E_{ik}$ là ma trận $(a_{jl})$ sao cho $a_{ik} = 1$ và $a_{jl} = 0$ đối với $(j, l) \neq (i, k)$; các $E_{ik}$ được gọi là các đơn vị ma trận trong tập các ma trận $A^{I \times K}$; nếu I và K hữu hạn, chúng tạo thành cơ sở chính tắc của tập này đối với cấu trúc A-môđun trái hoặc phải của nó (\S 1, no. 11). Rõ ràng
+Với mỗi cặp có thứ tự $(i, k) \in I \times K$, hãy để $E_{ik}$ là ma trận $(a_{jl})$ sao cho $a_{ik} = 1$ và $a_{jl} = 0$ đối với $(j, l) \neq (i, k)$; các $E_{ik}$ được gọi là các đơn vị ma trận trong tập các ma trận $A^{I \times K}$; nếu I và K hữu hạn, chúng tạo thành cơ sở chính tắc của tập này đối với cấu trúc A-môđun trái hoặc phải của nó (§ 1, no. 11). Rõ ràng
 $$
 tE_{ik} = E_{ki}.
 $$
@@ -284,7 +284,7 @@ $$
 
 ### 4. MA TRẬN VÀ CÁC ÁNH XẠ TUYẾN TÍNH
 
-Cho $\mathbf{A}$ là một vành và $E$ là một môđun $\mathbf{A}$ *(phải hoặc trái)* thừa nhận một cơ sở $(e_i)_{i \in I}$. Với mỗi phần tử $x \in E$, *ma trận của* $x$ *đối với cơ sở* $(e_i)$, được ký hiệu bởi $M(x)$ hoặc $\mathbf{x}$ (hoặc đôi khi chỉ đơn giản là $x$ khi không thể có sự nhầm lẫn), là *ma trận cột* gồm các thành phần $x_i \ (i \in I)$ của $x$ đối với $(e_i)$ (\S 1, no. 11); trong các phép tính, đôi khi để nhớ rằng chỉ số $i$ là chỉ số hàng, sẽ tiện hơn nếu ghép với nó một chỉ số cột chỉ nhận một giá trị và viết ma trận $M(x)$ dưới dạng $(x_{i0})$.
+Cho $\mathbf{A}$ là một vành và $E$ là một môđun $\mathbf{A}$ *(phải hoặc trái)* thừa nhận một cơ sở $(e_i)_{i \in I}$. Với mỗi phần tử $x \in E$, *ma trận của* $x$ *đối với cơ sở* $(e_i)$, được ký hiệu bởi $M(x)$ hoặc $\mathbf{x}$ (hoặc đôi khi chỉ đơn giản là $x$ khi không thể có sự nhầm lẫn), là *ma trận cột* gồm các thành phần $x_i \ (i \in I)$ của $x$ đối với $(e_i)$ (§ 1, no. 11); trong các phép tính, đôi khi để nhớ rằng chỉ số $i$ là chỉ số hàng, sẽ tiện hơn nếu ghép với nó một chỉ số cột chỉ nhận một giá trị và viết ma trận $M(x)$ dưới dạng $(x_{i0})$.
 
 Bây giờ ta xét hai môđun A (trái hoặc phải) $E$ và $F$ với các cơ sở $(e_i)_{i \in I}$ và $(f_k)_{k \in K}$ tương ứng; hãy để $(f_k^*)$ là họ các dạng tọa độ tương ứng với $(f_k)$. Đối với một ánh xạ tuyến tính $u$ của $E$ vào $F$, ta sẽ định nghĩa *ma trận của u đối với các cơ sở* $(e_i), (f_k)$ *trong mỗi trường hợp sau đây*:
 
@@ -365,7 +365,7 @@ $$
 $$
 do tính kết hợp; hệ quả sau đó suy ra từ no. 3, Mệnh đề 1 vì ma trận ${}^t M(x)$ với một hàng là tùy ý.
 
-*Nhận xét (1)*. Công thức (17 D) có thể được xem như một trường hợp riêng của (18 D). Thật vậy, với mỗi $x \in E$ có một cách chính tắc ánh xạ tuyến tính $\theta_x : A_d \to E$ đưa mỗi $\alpha \in A$ tới $x \alpha$ (\S 2, no. 1). Rõ ràng ma trận $M(\theta_x)$ ứng với cơ sở 1 của $A_d$ và cơ sở $(e_i)$ của E chính là ma trận $M(x)$; tương tự $M(\theta_{u(x)}) = M(u(x))$ và công thức (17 D) do đó có thể được xem như một cách diễn đạt của quan hệ
+*Nhận xét (1)*. Công thức (17 D) có thể được xem như một trường hợp riêng của (18 D). Thật vậy, với mỗi $x \in E$ có một cách chính tắc ánh xạ tuyến tính $\theta_x : A_d \to E$ đưa mỗi $\alpha \in A$ tới $x \alpha$ (§ 2, no. 1). Rõ ràng ma trận $M(\theta_x)$ ứng với cơ sở 1 của $A_d$ và cơ sở $(e_i)$ của E chính là ma trận $M(x)$; tương tự $M(\theta_{u(x)}) = M(u(x))$ và công thức (17 D) do đó có thể được xem như một cách diễn đạt của quan hệ
 $$
 \theta_{u(x)} = u \circ \theta_x.
 $$
@@ -384,7 +384,7 @@ do đó suy ra mệnh đề.
 
 (2) Cho E và F là hai A-môđun trái với các cơ sở $(e_i)_{i \in I}$ và $(f_k)_{k \in K}$ tương ứng. Với mọi ánh xạ A-tuyến tính $u : E \to F$, theo (14 G), $u(e_i) = \sum_k u_{ki} f_k$; các quan hệ này cũng có thể được hiểu bằng cách nói rằng ma trận cột $(u(e_i))_{i \in I}$ với các phần tử trong F bằng tích $^tM(u) \cdot (f_k)$, trong đó $(f_k)_{k \in K}$ được xem như một ma trận cột với các phần tử trong F và tích được tính theo ánh xạ $A \times F \to F$ xác định luật tác động trên A-môđun F (no. 2).
 
-(3) Cho A, B là hai vành giao hoán và $\sigma : A \to B$ là một đồng cấu vành. Theo ký hiệu của Mệnh đề 3, $(e_i \otimes 1)$ và $(f_k \otimes 1)$ lần lượt là các cơ sở tương ứng của $E_{(B)} = E \otimes_A B$ và $F_{(B)} = F \otimes_A B$ (\S 5, no. 1, Mệnh đề 4); hơn nữa, nếu $(e_i^*)$ và $(f_k^*)$ lần lượt là các cơ sở đối ngẫu của $(e_i)$ và $(f_k)$, thì $(e_i^* \otimes 1)$ và $(f_k^* \otimes 1)$ lần lượt là các cơ sở đối ngẫu của $(e_i \otimes 1)$ và $(f_k \otimes 1)$ (\S 5, no. 4). Với mọi ánh xạ A-tuyến tính $u : E \to F$, cho $M(u)$ và $M(u \otimes 1)$ là ma trận của $u$ đối với $(e_i)$ và $(f_k)$ và ma trận của ánh xạ B-tuyến tính $u \otimes 1$ đối với $(e_i \otimes 1)$ và $(f_k \otimes 1)$. Từ \S 5, no. 4, công thức (20) suy ra rằng
+(3) Cho A, B là hai vành giao hoán và $\sigma : A \to B$ là một đồng cấu vành. Theo ký hiệu của Mệnh đề 3, $(e_i \otimes 1)$ và $(f_k \otimes 1)$ lần lượt là các cơ sở tương ứng của $E_{(B)} = E \otimes_A B$ và $F_{(B)} = F \otimes_A B$ (§ 5, no. 1, Mệnh đề 4); hơn nữa, nếu $(e_i^*)$ và $(f_k^*)$ lần lượt là các cơ sở đối ngẫu của $(e_i)$ và $(f_k)$, thì $(e_i^* \otimes 1)$ và $(f_k^* \otimes 1)$ lần lượt là các cơ sở đối ngẫu của $(e_i \otimes 1)$ và $(f_k \otimes 1)$ (§ 5, no. 4). Với mọi ánh xạ A-tuyến tính $u : E \to F$, cho $M(u)$ và $M(u \otimes 1)$ là ma trận của $u$ đối với $(e_i)$ và $(f_k)$ và ma trận của ánh xạ B-tuyến tính $u \otimes 1$ đối với $(e_i \otimes 1)$ và $(f_k \otimes 1)$. Từ § 5, no. 4, công thức (20) suy ra rằng
 $$
 M(u \otimes 1) = \sigma(M(u)).
 $$
@@ -395,7 +395,7 @@ $$
 $$
 với $a_{kt}, x_i, b_k$ trong A.
 
-Cho $(e_i)_{i \in I}, (f_k)_{k \in K}$ là các cơ sở chính tắc của $E = A_d^I$ và $F = A_d^K$; hệ (19) tương đương với phương trình $u(x) = b$, trong đó $x = \sum_i e_i x_i$, $b = \sum_k f_k b_k$ và $u : E \to F$ là ánh xạ tuyến tính sao cho ma trận $M(u)$ đối với các cơ sở $(e_i)$ và $(f_k)$ bằng $A = (a_{kt})_{(k, i) \in K \times L}$. Ma trận này được gọi là ma trận của hệ phương trình tuyến tính (19). Nhắc lại (\S 2, no. 8, *Nhận xét* 2 và 3), rằng, viết $c_i = \sum_k f_k a_{kt}$, hệ (19) tương đương với phương trình vectơ duy nhất
+Cho $(e_i)_{i \in I}, (f_k)_{k \in K}$ là các cơ sở chính tắc của $E = A_d^I$ và $F = A_d^K$; hệ (19) tương đương với phương trình $u(x) = b$, trong đó $x = \sum_i e_i x_i$, $b = \sum_k f_k b_k$ và $u : E \to F$ là ánh xạ tuyến tính sao cho ma trận $M(u)$ đối với các cơ sở $(e_i)$ và $(f_k)$ bằng $A = (a_{kt})_{(k, i) \in K \times L}$. Ma trận này được gọi là ma trận của hệ phương trình tuyến tính (19). Nhắc lại (§ 2, no. 8, *Nhận xét* 2 và 3), rằng, viết $c_i = \sum_k f_k a_{kt}$, hệ (19) tương đương với phương trình vectơ duy nhất
 $$
 \sum_i c_i x_i = b,
 $$
@@ -433,7 +433,7 @@ $$
 
 where vế trái là ma trận $(w_{li})$ của $w = v \circ u$ đối với phân tích $(E_i)$ và $(G_l)$ và tích ở vế trái được tính cho các ánh xạ $(t, s) \mapsto t \circ s$ từ $\mathrm{Hom}(F_k, G_l) \times \mathrm{Hom}(E_i, F_k)$ vào $\mathrm{Hom}(E_i, G_l)$ (no. 2, *Nhận xét*). Đây chỉ là công thức (32) của § 1, no. 8, được diễn đạt theo ma trận.
 
-Cuối cùng, nếu I và K được giả sử là hữu hạn, thì $E^*$ (tương ứng $F^*$) được đồng nhất một cách chính tắc với tổng trực tiếp của các môđun $E_i^*$ (tương ứng $F_k^*$) (\S 2, no. 6, Mệnh đề 10). Khi đó dễ dàng kiểm tra rằng ma trận của $^t u$ đối với các phân tích $(F_k^*)$ và $(E_i^*)$ chỉ là $(^t u_{ki})_{(k, i) \in K \times I}$.
+Cuối cùng, nếu I và K được giả sử là hữu hạn, thì $E^*$ (tương ứng $F^*$) được đồng nhất một cách chính tắc với tổng trực tiếp của các môđun $E_i^*$ (tương ứng $F_k^*$) (§ 2, no. 6, Mệnh đề 10). Khi đó dễ dàng kiểm tra rằng ma trận của $^t u$ đối với các phân tích $(F_k^*)$ và $(E_i^*)$ chỉ là $(^t u_{ki})_{(k, i) \in K \times I}$.
 
 Bây giờ giả sử I và K hữu hạn và hơn nữa mỗi một trong các $E_i$ (tương ứng $F_k$) đều có một cơ sở hữu hạn. Điều đó tương đương với việc nói rằng E (tương ứng F) có một cơ sở $(e_r)_{r \in R}$ (tương ứng $(f_s)_{s \in S}$) và rằng R (tương ứng S) có một phân hoạch $(R_i)_{i \in I}$ (tương ứng $(S_k)_{k \in K}$) sao cho với mọi i \in I (tương ứng k \in K), $(e_r)_{r \in R_i}$ là một cơ sở của $E_i$ (tương ứng $(f_s)_{s \in S_k}$ là một cơ sở của $F_k$). Khi đó, nếu $X = M(u)$ là ma trận của u đối với các cơ sở $(e_r)_{r \in R}$ và $(f_s)_{s \in S}$, thì ma trận $X_{kt} = M(u_{kt})$ đối với các cơ sở $(e_r)_{r \in R_i}$ và $(f_s)_{s \in S_k}$ chỉ là ma trận con của X thu được bằng cách bỏ các hàng có chỉ số $s \notin S_k$ và các cột có chỉ số $r \notin R_i$. Do đó ta định nghĩa một sự tương ứng một-một
 
@@ -499,7 +499,7 @@ $$
 $$
 suy ra (27 D) theo Mệnh đề 1 của no. 3.
 
-Cuối cùng giả sử rằng $\sigma : A \to B$ là một *đẳng cấu*; khi đó hãy nhớ rằng ${}^t u : F^* \to E^*$ là một ánh xạ bán tuyến tính tương ứng với $\sigma^{-1}$ (\S 2, no. 5); khi I và K hữu hạn, ma trận ${}^t u$ đối với các cơ sở đối ngẫu $(f_k^*)$ và $(e_i^*)$ được cho bởi
+Cuối cùng giả sử rằng $\sigma : A \to B$ là một *đẳng cấu*; khi đó hãy nhớ rằng ${}^t u : F^* \to E^*$ là một ánh xạ bán tuyến tính tương ứng với $\sigma^{-1}$ (§ 2, no. 5); khi I và K hữu hạn, ma trận ${}^t u$ đối với các cơ sở đối ngẫu $(f_k^*)$ và $(e_i^*)$ được cho bởi
 
 (28)
 $$
@@ -557,7 +557,7 @@ Cho I là một tập chỉ số hữu hạn, A là một vành và E là một 
 
 Giả sử rằng $I = \{1, n\}$. Ánh xạ $u \mapsto M(u)$ (tương ứng $u \mapsto {}^t M(u)$) là một *đẳng cấu* của vành $\mathrm{End}_A(E)$ lên $\mathbf{M}_n(A)$ (tương ứng lên vành đối của $\mathbf{M}_n(A)$, như suy ra từ các công thức (18 D) (tương ứng 18 G)) (no. 4). Các phần tử khả nghịch của vành $\mathbf{M}_n(\mathbf{A})$, gọi là *ma trận khả nghịch*, tương ứng qua ánh xạ $u \mapsto M(u)$ (tương ứng $u \mapsto {}^t M(u)$) với các *tự đẳng cấu* của E; do đó nhóm $\mathbf{GL}(n, \mathbf{A})$ được đồng nhất một cách chính tắc với nhóm $\mathbf{GL}(\mathbf{A}_d^n)$.
 
-Nếu $u$ là một tự đẳng cấu của E, thì *đối ngẫu* $\check{u}$ của nó là một tự đẳng cấu của A-môđun trái (resp. phải) $E^*$, sao cho $\check{u} = ({}^t u)^{-1} = {}^t (u^{-1})$ (\S 2, no. 5, Định nghĩa 6); nếu $M(\check{u})$ là ma trận của $\check{u}$ đối với cơ sở đối ngẫu $(e_i^*)$, thì, theo Mệnh đề 3 (no. 4),
+Nếu $u$ là một tự đẳng cấu của E, thì *đối ngẫu* $\check{u}$ của nó là một tự đẳng cấu của A-môđun trái (resp. phải) $E^*$, sao cho $\check{u} = ({}^t u)^{-1} = {}^t (u^{-1})$ (§ 2, no. 5, Định nghĩa 6); nếu $M(\check{u})$ là ma trận của $\check{u}$ đối với cơ sở đối ngẫu $(e_i^*)$, thì, theo Mệnh đề 3 (no. 4),
 
 $$
 M(\check{u}) = ({}^t M(u))^{-1} = {}^t M(u^{-1}).
@@ -608,13 +608,13 @@ $$
 
 Các ma trận đường chéo do đó tạo thành một vành con của $\mathbf{M}_n(\mathbf{A})$ đẳng cấu với vành tích $\mathbf{A}^n$; các ma trận vô hướng tạo thành một vành con đẳng cấu với $\mathbf{A}$.
 
-II. *Ma trận hoán vị; ma trận đơn thức.* Cho $\pi$ là bất kỳ một phép hoán vị nào của một tập hợp hữu hạn $\mathbf{I}$ và cho $(e_i)_{i \in \mathbf{I}}$ là cơ sở chính tắc của $\mathbf{A}$-môđun $\mathbf{E} = \mathbf{A}_d^\mathbf{I}$; tồn tại một và chỉ một tự đồng cấu $u_\pi$ của $\mathbf{E}$ sao cho, với mọi $i \in \mathbf{I}$, $u_\pi(e_i) = e_{\pi(i)}$ (\S 1, no. 11, Hệ quả 3 của Mệnh đề 17). Với mọi $i \in \mathbf{I}$, cột có chỉ số $i$ trong ma trận $M(u_\pi)$ theo cơ sở $(e_i)$ có mọi phần tử bằng không, trừ phần tử ở hàng có chỉ số $\pi(i)$, phần tử đó bằng 1. Theo một cách nói lạm dụng, $M(u_\pi)$ được gọi là *ma trận của phép hoán vị* $\pi$. Hiển nhiên là với mọi hai phép hoán vị $\sigma, \tau$ của $\mathbf{I}$, $u_{\sigma \tau} = u_\sigma \circ u_\tau$ và với phép hoán vị đồng nhất $\varepsilon$, $u_\varepsilon$ là đồng nhất; do đó ánh xạ $\pi \mapsto M(u_\pi)$ là một *đẳng cấu* của nhóm đối xứng $\mathfrak{S}_\mathbf{I}$ lên nhóm các ma trận hoán vị.
+II. *Ma trận hoán vị; ma trận đơn thức.* Cho $\pi$ là bất kỳ một phép hoán vị nào của một tập hợp hữu hạn $\mathbf{I}$ và cho $(e_i)_{i \in \mathbf{I}}$ là cơ sở chính tắc của $\mathbf{A}$-môđun $\mathbf{E} = \mathbf{A}_d^\mathbf{I}$; tồn tại một và chỉ một tự đồng cấu $u_\pi$ của $\mathbf{E}$ sao cho, với mọi $i \in \mathbf{I}$, $u_\pi(e_i) = e_{\pi(i)}$ (§ 1, no. 11, Hệ quả 3 của Mệnh đề 17). Với mọi $i \in \mathbf{I}$, cột có chỉ số $i$ trong ma trận $M(u_\pi)$ theo cơ sở $(e_i)$ có mọi phần tử bằng không, trừ phần tử ở hàng có chỉ số $\pi(i)$, phần tử đó bằng 1. Theo một cách nói lạm dụng, $M(u_\pi)$ được gọi là *ma trận của phép hoán vị* $\pi$. Hiển nhiên là với mọi hai phép hoán vị $\sigma, \tau$ của $\mathbf{I}$, $u_{\sigma \tau} = u_\sigma \circ u_\tau$ và với phép hoán vị đồng nhất $\varepsilon$, $u_\varepsilon$ là đồng nhất; do đó ánh xạ $\pi \mapsto M(u_\pi)$ là một *đẳng cấu* của nhóm đối xứng $\mathfrak{S}_\mathbf{I}$ lên nhóm các ma trận hoán vị.
 
 Mỗi hàng và mỗi cột của một ma trận hoán vị chỉ chứa một phần tử $\neq 0$. Một ma trận vuông hữu hạn $R$ trên một vành khác không $\mathbf{A}$, có tính chất này, được gọi là một *ma trận đơn thức*; gọi $r_i$ là phần tử duy nhất $\neq 0$ trong cột của $R$ có chỉ số $i$ và gọi $\pi(i)$ là chỉ số của hàng nơi phần tử này nằm; rõ ràng $\pi$ là một phép hoán vị của tập chỉ số $\mathbf{I}$ và $R = M(u_\pi)D$, trong đó $D = \text{diag}(r_i)$.
 
 III. *Ma trận tam giác.* Trong vành $\mathbf{M}_n(\mathbf{A})$ của các ma trận vuông cấp $n$ trên một vành $\mathbf{A}$, bất kỳ ma trận $(a_{ij})$ nào sao cho $a_{ij} = 0$ với $i > j$ (tương ứng $i < j$) được gọi là một *ma trận tam giác trên* (tương ứng *ma trận tam giác dưới*); ta cũng nói rằng một ma trận như vậy *chỉ có các số không ở dưới* (tương ứng *ở trên*) *đường chéo của nó*. Dễ thấy rằng các ma trận tam giác trên (tương ứng dưới) tạo thành một vành con $S$ (tương ứng $T$) của $\mathbf{M}_n(\mathbf{A})$, còn $S \cap T$ rõ ràng là vành các ma trận đường chéo.
 
-The set $S'$ (resp. $T'$) of matrices in $S$ (resp. $T$) whose diagonal elements are *invertible* is a multiplicative *group* of matrices called the *trên* (resp. *dưới*) *nhóm tam giác toàn phần*, this follows ngay lập tức from \S 1, no. 11, *Nhận xét* 5. The set $S_1$ (resp. $T_1$) of matrices in $S$ (resp. $T$) whose diagonal elements are all equal to 1 is a *subgroup* of the above group, called the *trên* (resp. *dưới*) *nhóm tam giác ngặt*, and every matrix $M \in S'$ (resp. $M \in T'$) whose diagonal is $(d_i)$, may be written as $M = DM_1 = M'_1D$, where $D = \text{diag}(d_i)$ and $M_1$ and $M'_1$ matrices belonging to $S_1$ (resp. $T_1$).
+The set $S'$ (resp. $T'$) of matrices in $S$ (resp. $T$) whose diagonal elements are *invertible* is a multiplicative *group* of matrices called the *trên* (resp. *dưới*) *nhóm tam giác toàn phần*, this follows ngay lập tức from § 1, no. 11, *Nhận xét* 5. The set $S_1$ (resp. $T_1$) of matrices in $S$ (resp. $T$) whose diagonal elements are all equal to 1 is a *subgroup* of the above group, called the *trên* (resp. *dưới*) *nhóm tam giác ngặt*, and every matrix $M \in S'$ (resp. $M \in T'$) whose diagonal is $(d_i)$, may be written as $M = DM_1 = M'_1D$, where $D = \text{diag}(d_i)$ and $M_1$ and $M'_1$ matrices belonging to $S_1$ (resp. $T_1$).
 
 IV. *Ma trận đường chéo và tam giác của các ma trận.* Let $(I_k)_{1 \leq k \leq p}$ be a partition of the finite set $\mathbf{I}$; every square matrix over a ring $\mathbf{A}$ with indexing set $\mathbf{I}$ can be written in the form of a *square matrix of matrices* tương ứng với cùng một partition $(\mathbf{I}_k)$ of the indexing set of the rows and the indexing set of the columns (no. 5)
 
@@ -638,7 +638,7 @@ With this notation, (32) will be called a diagonal (resp. upper triangular, resp
 
 *Cho E là một A-môđun phải có cơ sở hữu hạn $(e_i)_{1 \leq i \leq n}$ gồm n phần tử. Để một họ n phần tử $e'_i = \sum_{j=1}^n e_j a_{ji} (1 \leq i \leq n)$ là một cơ sở của E, điều kiện cần và đủ là ma trận vuông $P = (a_{ji})$ cấp n phải khả nghịch.*
 
-$P$ chính là ma trận, đối với cơ sở $(e_i)$, của tự đồng cấu $u$ của E được xác định bởi $u(e_i) = e'_i (1 \leq i \leq n)$. Bây giờ, để $u$ là một tự đẳng cấu của E, điều kiện cần và đủ là $(u(e_i))$ là một cơ sở của E (\S 1, no. 11, Hệ quả 3 của Mệnh đề 17); do đó mệnh đề.
+$P$ chính là ma trận, đối với cơ sở $(e_i)$, của tự đồng cấu $u$ của E được xác định bởi $u(e_i) = e'_i (1 \leq i \leq n)$. Bây giờ, để $u$ là một tự đẳng cấu của E, điều kiện cần và đủ là $(u(e_i))$ là một cơ sở của E (§ 1, no. 11, Hệ quả 3 của Mệnh đề 17); do đó mệnh đề.
 
 Ma trận khả nghịch $P$ được gọi là *ma trận chuyển từ cơ sở* $(e_i)$ *sang cơ sở* $(e'_i)$. Nó cũng có thể được hiểu là ma trận của ánh xạ đồng nhất $l_E$ đối với các cơ sở $(e'_i)$ và $(e_i)$ (*theo đúng thứ tự đó*); khi đó rõ ràng ma trận chuyển *từ cơ sở* $(e'_i)$ *sang cơ sở* $(e_i)$ là ma trận *nghịch đảo* $P^{-1}$ của $P$.
 
@@ -839,13 +839,13 @@ $$
 
 điều này suy ra từ việc tính tích "khối" (no. 6). Hơn nữa, nếu $Q_i = P_i^{-1}$ với mọi i, thì $Q = P^{-1}$.
 
-Cho C là một vành giao hoán, E, F, U, V là bốn C-môđun và $\phi : E \to U$, $\psi : F \to V$ là hai ánh xạ C-tuyến tính. Giả sử E, F, U, V lần lượt có các cơ sở hữu hạn $(e_\lambda)_{\lambda \in L}, (f_\mu)_{\mu \in M}, (u_\rho)_{\rho \in R}, (v_\sigma)_{\sigma \in S}$; đặt $A = (a_{\rho \lambda})$ là ma trận của $\phi$ đối với $(e_\lambda)$ và $(u_\rho)$, $B = (b_{\sigma \mu})$ là ma trận của $\psi$ đối với $(f_\mu)$ và $(v_\sigma)$. Với mọi cặp có thứ tự $(\lambda, \mu) \in L \times M = N$, đặt $g_{\lambda \mu} = e_\lambda \otimes f_\mu$; với mọi cặp có thứ tự $(\rho, \sigma) \in R \times S = T$ đặt $w_{\rho \sigma} = u_\rho \otimes v_\sigma$; khi đó các $g_{\lambda \mu}$ tạo thành một cơ sở của $E \otimes F$ và các $w_{\rho \sigma}$ một cơ sở của $U \otimes V$ (\S 3, no. 6, Hệ quả 2 của Mệnh đề 7). *Tích tenxơ* của $A$ bởi $B$, ký hiệu là $A \otimes B$, là ma trận $X = (x_{\tau v})_{(\tau, v) \in T \times N}$ có các phần tử được cho bởi
+Cho C là một vành giao hoán, E, F, U, V là bốn C-môđun và $\phi : E \to U$, $\psi : F \to V$ là hai ánh xạ C-tuyến tính. Giả sử E, F, U, V lần lượt có các cơ sở hữu hạn $(e_\lambda)_{\lambda \in L}, (f_\mu)_{\mu \in M}, (u_\rho)_{\rho \in R}, (v_\sigma)_{\sigma \in S}$; đặt $A = (a_{\rho \lambda})$ là ma trận của $\phi$ đối với $(e_\lambda)$ và $(u_\rho)$, $B = (b_{\sigma \mu})$ là ma trận của $\psi$ đối với $(f_\mu)$ và $(v_\sigma)$. Với mọi cặp có thứ tự $(\lambda, \mu) \in L \times M = N$, đặt $g_{\lambda \mu} = e_\lambda \otimes f_\mu$; với mọi cặp có thứ tự $(\rho, \sigma) \in R \times S = T$ đặt $w_{\rho \sigma} = u_\rho \otimes v_\sigma$; khi đó các $g_{\lambda \mu}$ tạo thành một cơ sở của $E \otimes F$ và các $w_{\rho \sigma}$ một cơ sở của $U \otimes V$ (§ 3, no. 6, Hệ quả 2 của Mệnh đề 7). *Tích tenxơ* của $A$ bởi $B$, ký hiệu là $A \otimes B$, là ma trận $X = (x_{\tau v})_{(\tau, v) \in T \times N}$ có các phần tử được cho bởi
 
 $$
 x_{(\rho, \sigma), (\lambda, \mu)} = a_{\rho \lambda} b_{\sigma \mu}.
 $$
 
-Khi đó $A \otimes B$ là *ma trận của* $\phi \otimes \psi$ *đối với các cơ sở* $(g_{\lambda \mu})$ *và* $(w_{\rho \sigma})$. Theo định nghĩa (\S 3, no. 2, công thức (3))
+Khi đó $A \otimes B$ là *ma trận của* $\phi \otimes \psi$ *đối với các cơ sở* $(g_{\lambda \mu})$ *và* $(w_{\rho \sigma})$. Theo định nghĩa (§ 3, no. 2, công thức (3))
 
 $$
 \begin{align*}
@@ -856,7 +856,7 @@ $$
 
 Định nghĩa (42) của các phần tử của $A \otimes B$ cho thấy ma trận này tương ứng một-một với ma trận các ma trận $(a_{\rho \lambda} B)_{(\rho, \lambda) \in R \times L}$ và cả ma trận $(A b_{\sigma \mu})_{(\sigma, \mu) \in S \times M}$ (no. 5).
 
-Việc $(\phi, \psi) \mapsto \phi \otimes \psi$ là một ánh xạ C-song tuyến tính và công thức (9) của \S 3, no. 5, có thể được biểu diễn bởi các đẳng thức
+Việc $(\phi, \psi) \mapsto \phi \otimes \psi$ là một ánh xạ C-song tuyến tính và công thức (9) của § 3, no. 5, có thể được biểu diễn bởi các đẳng thức
 
 $$
 \begin{align*}
@@ -954,13 +954,13 @@ Nếu $E$ và $F$ là hai không gian vectơ hữu hạn chiều trên $K$ và $
 
 *Nếu các phần tử của một ma trận $X$ có $m$ hàng và $n$ cột thuộc một trường con $K_0$ của một trường $K$, thì hạng của $X$ xét trên $K_0$ bằng hạng của $X$ xét trên $K$.*
 
-Cho $F_0$ là không gian vectơ phải $K_0$ được sinh bởi cơ sở chính tắc của không gian vectơ phải $K$ $E = K_d^m$; theo giả thiết các cột của $X$ thuộc $E_0$. Cho $V_0$ (tương ứng $V$) là không gian con vectơ trên $K_0$ của $F_0$ (tương ứng không gian con vectơ trên $K$ của $E$) được sinh bởi các cột này. Khi đó $V = V_0 \otimes_{K_0} K$ (\S 8, no. 2, Mệnh đề 2) và do đó $\dim_K V = \dim_{K_0} V_0$.
+Cho $F_0$ là không gian vectơ phải $K_0$ được sinh bởi cơ sở chính tắc của không gian vectơ phải $K$ $E = K_d^m$; theo giả thiết các cột của $X$ thuộc $E_0$. Cho $V_0$ (tương ứng $V$) là không gian con vectơ trên $K_0$ của $F_0$ (tương ứng không gian con vectơ trên $K$ của $E$) được sinh bởi các cột này. Khi đó $V = V_0 \otimes_{K_0} K$ (§ 8, no. 2, Mệnh đề 2) và do đó $\dim_K V = \dim_{K_0} V_0$.
 
 #### Mệnh đề 10 {#alg-ii-s10-prop-10 .statement}
 
 *Hạng của một ma trận $X$ trên một trường $K$ bằng hạng của ma trận chuyển vị ${}^t X$ trên trường đối $K^0$.*
 
-Trong ký hiệu đã được đưa vào trước Định nghĩa 7, hạng của $u$ bằng hạng của ${}^t u$ (\S 7, no. 5, Mệnh đề 10) và do đó mệnh đề suy ra từ no. 4, Mệnh đề 3.
+Trong ký hiệu đã được đưa vào trước Định nghĩa 7, hạng của $u$ bằng hạng của ${}^t u$ (§ 7, no. 5, Mệnh đề 10) và do đó mệnh đề suy ra từ no. 4, Mệnh đề 3.
 
 Do đó thấy rằng hạng của $X$ cũng có thể được định nghĩa là *số hàng độc lập tuyến tính lớn nhất của $X$* (xem chúng như các phần tử của không gian vectơ trái $K$ $K_s^n$).
 
@@ -1005,7 +1005,7 @@ $$
 
 Mọi ma trận kiểu $(m, n)$ trên K và có hạng r đều tương đương với một ma trận có dạng (55).*
 
-Mệnh đề thứ hai hiển nhiên tương đương với mệnh đề thứ nhất. Để chứng minh mệnh đề sau, cho $\dim E = n$, $\dim F = m$. Hạt nhân $N = u^{-1}(0)$ có chiều $n - r$ (\S 7, no. 4, công thức (11)); cho V là một không gian con bổ sung của N trong E và $(e_i)_{1 \leq i \leq n}$ là một cơ sở của E sao cho $(e_i)_{1 \leq i \leq r}$ là một cơ sở của V và $(e_i)_{r+1 \leq i \leq n}$ là một cơ sở của N. Khi đó các $u(e_j)$ $(1 \leq j \leq r)$ lập thành một cơ sở của $u(E)$; do đó tồn tại một cơ sở $(f_j)_{1 \leq j \leq m}$ của F sao cho $f_j = u(e_j)$ với $1 \leq j \leq r$ (\S 7, no. 1, Định lý 2) và rõ ràng đối với các cơ sở $(e_i)$ và $(f_j)$, ma trận $M(u)$ được cho bởi (55).
+Mệnh đề thứ hai hiển nhiên tương đương với mệnh đề thứ nhất. Để chứng minh mệnh đề sau, cho $\dim E = n$, $\dim F = m$. Hạt nhân $N = u^{-1}(0)$ có chiều $n - r$ (§ 7, no. 4, công thức (11)); cho V là một không gian con bổ sung của N trong E và $(e_i)_{1 \leq i \leq n}$ là một cơ sở của E sao cho $(e_i)_{1 \leq i \leq r}$ là một cơ sở của V và $(e_i)_{r+1 \leq i \leq n}$ là một cơ sở của N. Khi đó các $u(e_j)$ $(1 \leq j \leq r)$ lập thành một cơ sở của $u(E)$; do đó tồn tại một cơ sở $(f_j)_{1 \leq j \leq m}$ của F sao cho $f_j = u(e_j)$ với $1 \leq j \leq r$ (§ 7, no. 1, Định lý 2) và rõ ràng đối với các cơ sở $(e_i)$ và $(f_j)$, ma trận $M(u)$ được cho bởi (55).
 
 #### Hệ quả {#alg-ii-s10-n13-cor-1 .statement}
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 291
 statements: 13
 exercises: 9
-content_sha256: 13b135a405ae8d6c95356fda2234c2df7705d1f5e3890b510da06e823c37411a
+content_sha256: 944894592e14a8d7609536ce9e49868c10534458947d804a90800246f3db6c8b
 ---
 
 ## § 1. COMPACT LIE ALGEBRAS
@@ -38,7 +38,7 @@ content_sha256: 13b135a405ae8d6c95356fda2234c2df7705d1f5e3890b510da06e823c37411a
 
 In this number, the letter $k$ denotes the field $\mathbf{R}$ or $\mathbf{C}$. Let V be a finite dimensional $k$-vector space, $\Phi$ a separating$^2$ positive hermitian form on V, G a group, $\mathfrak{g}$ an $\mathbf{R}$-Lie algebra, $\rho : G\rightarrow \mathbf{G}\mathbf{L}(V)$ a group homomorphism, $\varphi :\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ a homomorphism of $\mathbf{R}$-Lie algebras.
 
-$a)$ The form $\Phi$ is invariant under G (resp. $\mathfrak{g}$) if and only if $\rho (g)$ is unitary with respect to $\Phi$ for all $g\in G$ (resp. $\varphi (x)$ is anti-hermitian$^3$ with respect to $\Phi$ for all $x\in \mathfrak{g}$). Indeed, denote by $a^*$ the adjoint of an endomorphism $a$ of V with respect to $\Phi$; for $g$ in $G,x$ in $\mathfrak{g},u$ and $v$ in V, we have
+a) The form $\Phi$ is invariant under G (resp. $\mathfrak{g}$) if and only if $\rho (g)$ is unitary with respect to $\Phi$ for all $g\in G$ (resp. $\varphi (x)$ is anti-hermitian$^3$ with respect to $\Phi$ for all $x\in \mathfrak{g}$). Indeed, denote by $a^*$ the adjoint of an endomorphism $a$ of V with respect to $\Phi$; for $g$ in $G,x$ in $\mathfrak{g},u$ and $v$ in V, we have
 
 $$
 \Phi (\rho (g)u, \rho (g)v) =\Phi (\rho (g)^*\rho (g)u, v)
@@ -64,11 +64,11 @@ adjoint $a^*$ of $a$ with respect to $\Phi$ is equal to $-a$. When $k=\mathbf{C}
 
 also means that the endomorphism $ia$ of V (resp. of $\mathbf{C}\otimes_{\mathbf{R}}V$) is hermitian. thus, $\Phi (\rho (g)u, \rho (g)v) =\Phi (u, v)$ for all $u, v$ in V if and only if $\rho (g)^*\rho (g) =$ Id$_V$; similarly, $\Phi (\varphi (x)u, v) +\Phi (u, \varphi (x)v) = 0$ for all $u, v$ in V if and only if $\varphi (x) +\varphi (x)^*= 0$, hence the stated assertion.
 
-$b)$ If the form $\Phi$ is invariant under G (resp. $\mathfrak{g}$), the orthogonal complement of a stable subspace of V is stable; in particular, the representation $\rho$ (resp. $\varphi$ ) is then semi-simple (cf. Algebra, Chap. IX); moreover, for all $g\in G$ (resp. $x\in \mathfrak{g}$), the endomorphism $\rho (g)$ (resp. $\varphi (x)$) of V is then semi-simple, with eigenvalues of absolute value 1 (resp. with purely imaginary eigenvalues); indeed $\rho (g)$ is unitary (resp. $i\varphi (x)$ is hermitian, cf. Algebra, Chap. IX).
+b) If the form $\Phi$ is invariant under G (resp. $\mathfrak{g}$), the orthogonal complement of a stable subspace of V is stable; in particular, the representation $\rho$ (resp. $\varphi$ ) is then semi-simple (cf. Algebra, Chap. IX); moreover, for all $g\in G$ (resp. $x\in \mathfrak{g}$), the endomorphism $\rho (g)$ (resp. $\varphi (x)$) of V is then semi-simple, with eigenvalues of absolute value 1 (resp. with purely imaginary eigenvalues); indeed $\rho (g)$ is unitary (resp. $i\varphi (x)$ is hermitian, cf. Algebra, Chap. IX).
 
-$c)$ Assume that $k=\mathbf{R}$. If G is a connected Lie group, $\rho$ a morphism of Lie groups, $\mathfrak{g}$ the Lie algebra of G and $\varphi$ the homomorphism induced by $\rho$, then $\Phi$ is invariant under G if and only if it is invariant under $\mathfrak{g}$ (Chap. III, §6, no. 5, Cor. 3).
+c) Assume that $k=\mathbf{R}$. If G is a connected Lie group, $\rho$ a morphism of Lie groups, $\mathfrak{g}$ the Lie algebra of G and $\varphi$ the homomorphism induced by $\rho$, then $\Phi$ is invariant under G if and only if it is invariant under $\mathfrak{g}$ (Chap. III, §6, no. 5, Cor. 3).
 
-$d)$ There exists a separating positive hermitian form on V invariant under G if and only if the subgroup $\rho (G)$ of $\mathbf{G}\mathbf{L}(V)$ is relatively compact (Integration, Chap. VII, §3, no. 1, Prop. 1).
+d) There exists a separating positive hermitian form on V invariant under G if and only if the subgroup $\rho (G)$ of $\mathbf{G}\mathbf{L}(V)$ is relatively compact (Integration, Chap. VII, §3, no. 1, Prop. 1).
 
 ### 2. CONNECTED COMMUTATIVE REAL LIE GROUPS
 
@@ -78,17 +78,17 @@ exp$_G: L(G)\rightarrow G$
 
 is a morphism of Lie groups, surjective with discrete kernel (Chap. III, §6, no. 4, Prop. 11), hence the fact that L(G) is a connected covering of G.
 
-$a)$ The following conditions are equivalent: G is simply-connected, exp$_G$ is an isomorphism, G is isomorphic to $\mathbf{R}^n(n=$ dim G). In this case, transporting the vector space structure of L(G) to G by the isomorphism exp$_G$ gives a vector space structure on G, which is the only one compatible with the topological group structure of G. Simply-connected commutative Lie groups are called vector (Lie) groups; unless stated otherwise, they are always given the $\mathbf{R}$-vector space structure defined above.
+a) The following conditions are equivalent: G is simply-connected, exp$_G$ is an isomorphism, G is isomorphic to $\mathbf{R}^n(n=$ dim G). In this case, transporting the vector space structure of L(G) to G by the isomorphism exp$_G$ gives a vector space structure on G, which is the only one compatible with the topological group structure of G. Simply-connected commutative Lie groups are called vector (Lie) groups; unless stated otherwise, they are always given the $\mathbf{R}$-vector space structure defined above.
 
-$b)$ Denote by $\Gamma (G)$ the kernel of exp$_G$. By General Topology, Chap. VII, §1, no. 1, Th. 1, the group G is compact if and only if $\Gamma (G)$ is a lattice in L(G), in other words (loc. cit.) if the rank of the free $\mathbf{Z}$-module $\Gamma (G)$ is equal to the dimension of G. Conversely, if L is a finite dimensional $\mathbf{R}$-vector space and $\Gamma$ a lattice in L, the quotient topological group $L/\Gamma$ is a compact connected commutative Lie group.
+b) Denote by $\Gamma (G)$ the kernel of exp$_G$. By General Topology, Chap. VII, §1, no. 1, Th. 1, the group G is compact if and only if $\Gamma (G)$ is a lattice in L(G), in other words (loc. cit.) if the rank of the free $\mathbf{Z}$-module $\Gamma (G)$ is equal to the dimension of G. Conversely, if L is a finite dimensional $\mathbf{R}$-vector space and $\Gamma$ a lattice in L, the quotient topological group $L/\Gamma$ is a compact connected commutative Lie group.
 
 The compact connected commutative Lie groups are called real tori, or (in this chapter) tori.
 
-$c)$ In the general case, let E be the vector subspace of L(G) generated by $\Gamma$ (G), and let V be a complementary subspace. Then G is the direct product of its Lie subgroups exp(E) and exp(V); the first is a torus, the second is vector. Finally, every compact subgroup of G is contained in exp(E) (since its projection onto exp(V) is necessarily reduced to the identity element); thus, the subgroup exp(E) is the unique maximal compact subgroup of G.
+c) In the general case, let E be the vector subspace of L(G) generated by $\Gamma$ (G), and let V be a complementary subspace. Then G is the direct product of its Lie subgroups exp(E) and exp(V); the first is a torus, the second is vector. Finally, every compact subgroup of G is contained in exp(E) (since its projection onto exp(V) is necessarily reduced to the identity element); thus, the subgroup exp(E) is the unique maximal compact subgroup of G.
 
 For example, take $G = C^*$; identify L(G) with $\mathbf{C}$ so that the exponential map of G is $x \rightarrow e^x$. Then $\Gamma (G) = 2\pi i\mathbf{Z},E =i\mathbf{R}$, and so exp(E) $=\mathbf{U}$; if we take $V =\mathbf{R}$, then exp(V) $=\mathbf{R}^*_+$ and we recover the isomorphism $\mathbf{C}^*\rightarrow \mathbf{U}\times \mathbf{R}^*_+$ constructed in General Topology, Chap. VIII, §1, no. 3, Prop. 1.
 
-$d)$ Note finally that exp$_G: L(G)\rightarrow G$ is a universal covering of G, hence $\Gamma (G)$ can be identified naturally with the fundamental group of G.
+d) Note finally that exp$_G: L(G)\rightarrow G$ is a universal covering of G, hence $\Gamma (G)$ can be identified naturally with the fundamental group of G.
 
 ### 3. COMPACT LIE ALGEBRAS
 
@@ -132,7 +132,7 @@ b) A subalgebra of a compact Lie algebra is compact.
 
 c) Let $\mathfrak{h}$ be an ideal of a compact Lie algebra $\mathfrak{g}$. Then the algebra $\mathfrak{g}/\mathfrak{h}$ is compact and the extension $\mathfrak{h}\rightarrow \mathfrak{g}\rightarrow \mathfrak{g}/\mathfrak{h}$ is trivial.
 
-Assertions $a)$ and $b)$ follow from the characterization (iii) of Prop. 1. Part $c)$ follows from $a)$ and the fact that, in a reductive Lie algebra, every ideal is a direct factor (Chap. I, §6, no. 4, Cor. of Prop. 5).
+Assertions a) and b) follow from the characterization (iii) of Prop. 1. Part c) follows from a) and the fact that, in a reductive Lie algebra, every ideal is a direct factor (Chap. I, §6, no. 4, Cor. of Prop. 5).
 
 #### Proposition 3 {#lie-ix-s1-prop-3 .statement tag=019G}
 
@@ -228,11 +228,11 @@ b) Assume that the group of connected components of G is finite. Then:
 
 (iv) There exists a closed central vector subgroup N of $G_0$, normal in G, such that, for any maximal compact subgroup K of G, $G_0$ is the direct product of $K_0$ by N, and G is the semi-direct product of K by N.
 
-$a)$ We retain the notations of Prop. 4. The projection of Ker $f$ onto V is a finite subgroup of the vector group V, hence is reduced to the identity element. It follows that Ker $f$ is contained in $T\times S$, hence that G is the direct product of the vector group $N =f(V)$ and the compact group $K =f(T\times S)$. Every compact subgroup of G has a projection onto N that is reduced to the identity element, hence is contained in K. This proves $a)$.
+a) We retain the notations of Prop. 4. The projection of Ker $f$ onto V is a finite subgroup of the vector group V, hence is reduced to the identity element. It follows that Ker $f$ is contained in $T\times S$, hence that G is the direct product of the vector group $N =f(V)$ and the compact group $K =f(T\times S)$. Every compact subgroup of G has a projection onto N that is reduced to the identity element, hence is contained in K. This proves a).
 
-$b)$ Assume now that $G/G_0$ is finite. By $a), G_0$ is the direct product of its largest compact subgroup M and a vector subgroup P; the subgroup M of G is clearly normal. Let $\mathfrak{n}$ be a vector subspace complement of L(M) in L(G), stable under the adjoint representation of G (no. 1 and no. 3, Prop. 3); this is an ideal of L(G) and we have $L(G) = L(M)\times \mathfrak{n}$. Let N be the integral subgroup of G with Lie algebra $\mathfrak{n}$; by Chap. III, §6, no. 6, Prop. 14, it is normal in G. The projection of L(G) onto L(P) with kernel L(M) induces an isomorphism from $\mathfrak{n}$ to L(P); it follows that the projection of $G_0$ onto P induces an étale morphism from N to P; since P is simply-connected, this is an isomorphism, and N is a vector group. The morphism $(x, y) \rightarrow xy$ from $M\times N$ to $G_0$ is an injective étale morphism (since $M\cap N$ is reduced to the identity element), hence an isomorphism. It follows that N is a closed subgroup of G and that the quotient $G/N$ is compact, since $G_0/N$ is compact and $G/G_0$ is finite (General Topology, Chap. III, §4, no. 1, Cor. 2 of Prop. 2).
+b) Assume now that $G/G_0$ is finite. By $a), G_0$ is the direct product of its largest compact subgroup M and a vector subgroup P; the subgroup M of G is clearly normal. Let $\mathfrak{n}$ be a vector subspace complement of L(M) in L(G), stable under the adjoint representation of G (no. 1 and no. 3, Prop. 3); this is an ideal of L(G) and we have $L(G) = L(M)\times \mathfrak{n}$. Let N be the integral subgroup of G with Lie algebra $\mathfrak{n}$; by Chap. III, §6, no. 6, Prop. 14, it is normal in G. The projection of L(G) onto L(P) with kernel L(M) induces an isomorphism from $\mathfrak{n}$ to L(P); it follows that the projection of $G_0$ onto P induces an étale morphism from N to P; since P is simply-connected, this is an isomorphism, and N is a vector group. The morphism $(x, y) \rightarrow xy$ from $M\times N$ to $G_0$ is an injective étale morphism (since $M\cap N$ is reduced to the identity element), hence an isomorphism. It follows that N is a closed subgroup of G and that the quotient $G/N$ is compact, since $G_0/N$ is compact and $G/G_0$ is finite (General Topology, Chap. III, §4, no. 1, Cor. 2 of Prop. 2).
 
-By Integration, Chap. VII, §3, no. 2, Prop. 3, every compact subgroup of G is contained in a maximal compact subgroup, these are conjugate, and for any maximal compact subgroup K of G, G is the semi-direct product of K by N. Since $G_0$ contains N, it is the semi-direct product of N by $G_0\cap K$; it follows that $G_0\cap K$ is connected, hence equal to $K_0$, since $K/(G_0\cap K)$ is isomorphic to $G/G_0$, hence finite; finally, $K_0$ is clearly the largest compact subgroup of $G_0$ by $a)$.
+By Integration, Chap. VII, §3, no. 2, Prop. 3, every compact subgroup of G is contained in a maximal compact subgroup, these are conjugate, and for any maximal compact subgroup K of G, G is the semi-direct product of K by N. Since $G_0$ contains N, it is the semi-direct product of N by $G_0\cap K$; it follows that $G_0\cap K$ is connected, hence equal to $K_0$, since $K/(G_0\cap K)$ is isomorphic to $G/G_0$, hence finite; finally, $K_0$ is clearly the largest compact subgroup of $G_0$ by a).
 
 #### Corollary {#lie-ix-s1-n4-cor-1 .statement tag=019P}
 

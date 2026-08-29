@@ -32,14 +32,14 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 0b1510cacd03fa2c70c41fefb836e1ab02661bd29e503337f94b89ffbcd3f9cf
+content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
 ---
 
 ## § 1. CONVOLUTION
 
 ### 1. Definition and examples
 
-Recall (Ch. V, §6, Nos. 1 and 4; Ch. VI, §2, No. 10) that, if X and Y are locally compact spaces, $\mu$ a measure on X, and $\varphi$ a mapping of X into Y, $\varphi$ is said to be $\mu$-proper if: $a)$ $\varphi$ is $\mu$-measurable; $b)$ for every compact subset K of Y, $\varphi^{-1}(K)$ is essentially $\mu$-integrable. Then the image measure $\nu = \varphi(\mu)$ on Y exists and has the following property: for a function f on Y, with values in a Banach space or in $\overline{\mathbf{R}}$, to be essentially integrable for $\nu$, it is necessary and sufficient that $f \circ \varphi$ be so for $\mu$, in which case,
+Recall (Ch. V, §6, Nos. 1 and 4; Ch. VI, §2, No. 10) that, if X and Y are locally compact spaces, $\mu$ a measure on X, and $\varphi$ a mapping of X into Y, $\varphi$ is said to be $\mu$-proper if: a) $\varphi$ is $\mu$-measurable; b) for every compact subset K of Y, $\varphi^{-1}(K)$ is essentially $\mu$-integrable. Then the image measure $\nu = \varphi(\mu)$ on Y exists and has the following property: for a function f on Y, with values in a Banach space or in $\overline{\mathbf{R}}$, to be essentially integrable for $\nu$, it is necessary and sufficient that $f \circ \varphi$ be so for $\mu$, in which case,
 
 $$
 \int_Y f(y)\, d\nu(y) = \int_X f(\varphi(x)) d\mu(x).
@@ -98,7 +98,7 @@ $$
 
 algebra of the monoid $M$ (A, III, §2, No. 10); we note the following two special cases:
 
-$a)$ $M = N$, the law of composition being addition. To every measure $\mu$ on $N$, let us associate the formal series
+a) $M = N$, the law of composition being addition. To every measure $\mu$ on $N$, let us associate the formal series
 
 $$
 S(\mu) = \sum_{n=0}^{\infty} \mu(\{n\}) t^n

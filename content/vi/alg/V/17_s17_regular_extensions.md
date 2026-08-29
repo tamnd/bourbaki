@@ -38,9 +38,9 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: a158bfb060dda52ecd7abc4daa031e75904c28f4d2d498cf0d64d952acd181c9
+content_sha256: 35e77827ac8ed1d593d4ef7f34dc8284f627af73c8f5cd59df6c2333b240c895
 translated_from: content/en/alg/V/17_s17_regular_extensions.md
-source_content_sha256: 10864e090c0116390b64e2549b5aceaa45dd64eb00650cfc0f059473d1d90a1f
+source_content_sha256: 0970c4aa41158ef33231d08b21a0ce6a9b85ee1660b0f424d771a6b9760e1253
 translation_model: gpt-5.4
 translation_run: translate-vi-ab1b1743
 glossary_version: 34
@@ -224,7 +224,7 @@ c) $\Rightarrow$ d): Với ký hiệu của d) ta có thể đồng nhất $\ove
 
 E $\otimes_K$ L của A là một miền nguyên và do đó là một đại số bậc hữu hạn trên L; theo Hệ quả của V, p. 10 nó là một trường. Vì $\bar{K}$ là hợp của tập có hướng tăng các mở rộng E thuộc kiểu trên, A là một trường (V, p. 11, Mệnh đề 3). Đồng cấu chính tắc từ A vào $\bar{L}$ ánh xạ $x \otimes y$ thành $xy$ (với $x \in \bar{K}$ và $y \in L$) vì thế là đơn ánh, nên L và $\bar{K}$ độc lập tuyến tính trên K.
 
-$d) \Rightarrow a)$: Dưới các giả thiết của $d)$ ta có $L \cap \bar{K} = K$, nên K đóng đại số tương đối trong L; hơn nữa nếu p là số mũ đặc số của K, trường $L$ độc lập tuyến tính với $K^{p^{-\infty}}$ trên $K$, do đó L tách được trên K (V, p. 123, Hệ quả 1).
+$d) \Rightarrow a)$: Dưới các giả thiết của d) ta có $L \cap \bar{K} = K$, nên K đóng đại số tương đối trong L; hơn nữa nếu p là số mũ đặc số của K, trường $L$ độc lập tuyến tính với $K^{p^{-\infty}}$ trên $K$, do đó L tách được trên K (V, p. 123, Hệ quả 1).
 
 #### Hệ quả 1 {#alg-v-s17-prop-9-cor-1 .statement}
 

@@ -50,7 +50,7 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 9
-content_sha256: 9924d30e0670032b6d984c3497a581e35a1418ed291f12578eb182b04990f795
+content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
 ---
 
 ## § 4. FINITELY GENERATED MODULES OVER A PRINCIPAL IDEAL DOMAIN
@@ -341,8 +341,8 @@ Then the invariant factors are the products of elements in the same column: $110
 #### Remark 4 {#alg-vii-s4-n8-rem-4 .statement}
 
 An $A$-module is called simple ($I$, p. 37) if it is nonzero and has no submodules other than itself and $0$; it is then necessarily cyclic, so finitely generated, and indecomposable; since the modules $A/(p^n)$ are not simple for $n \neq 1$, while the modules $A/(p)$ are, and since $A$ is simple only if the ring $A$ is a field, we deduce that the simple $A$-modules are:
-$a)$ free modules of rank 1, when $A$ is a field;
-$b)$ modules isomorphic to quotients $A/(p)$, where $p$ is an irreducible element of $A$, when $A$ is not a field.
+a) free modules of rank 1, when $A$ is a field;
+b) modules isomorphic to quotients $A/(p)$, where $p$ is an irreducible element of $A$, when $A$ is not a field.
 
 ### 9. Duality in modules of finite length over a principal ideal domain
 

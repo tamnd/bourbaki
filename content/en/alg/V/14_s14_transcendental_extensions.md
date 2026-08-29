@@ -42,7 +42,7 @@ subsections:
       pdf_page: 231
 statements: 51
 exercises: 20
-content_sha256: eb35fff77acc6bd8e77061717af100108c134eeee56b2d3ebd744782ee54fafb
+content_sha256: 96acc445fe1ac21789277cae9b626dfd3b7587df6b094c92c7477d5a1cf37432
 ---
 
 ## § 14. TRANSCENDENTAL EXTENSIONS
@@ -101,9 +101,9 @@ a) $S \cup T$ is algebraically free over K and $S \cap T = \varnothing$.*
 b) $S$ is algebraically free over $K$ and $T$ is algebraically free over $K(S)$.
 c) $T$ is algebraically free over $K$ and $S$ is algebraically free over $K(T)$.
 
-Evidently it is enough to prove that $a)$ and $b)$ are equivalent.
+Evidently it is enough to prove that a) and b) are equivalent.
 
-$a) \Rightarrow b)$: Suppose that $a)$ holds. Since $S$ is contained in $S \cup T$, it is algebraically free over $K$. If $T$ is not algebraically free over $K(S)$, there exists (Prop. 3) a finite family $(y_j)_{1 \leq j \leq n}$ of distinct elements of $T$ which is algebraically related over $K(S)$. Hence there is a non-zero polynomial $f$ in the ring $K(S)[Y_1, ..., Y_n]$ such that $f(y,, ..., y,) = 0$; after multiplying $f$ if necessary by a non-zero element of $K[S]$ we may suppose that all the coefficients off belong to $K[S]$. The coefficients of fare polynomials in a finite number of distinct elements $x_i \ (1 \leq i \leq m )$ of $S$, with coefficients in $K$. The elements $x_1, ..., x,, y_1, ..., y,$ are pairwise distinct because $S \cap T = (21$. The relation $f(y,, ..., y,) = 0$ may thus be written
+$a) \Rightarrow b)$: Suppose that a) holds. Since $S$ is contained in $S \cup T$, it is algebraically free over $K$. If $T$ is not algebraically free over $K(S)$, there exists (Prop. 3) a finite family $(y_j)_{1 \leq j \leq n}$ of distinct elements of $T$ which is algebraically related over $K(S)$. Hence there is a non-zero polynomial $f$ in the ring $K(S)[Y_1, ..., Y_n]$ such that $f(y,, ..., y,) = 0$; after multiplying $f$ if necessary by a non-zero element of $K[S]$ we may suppose that all the coefficients off belong to $K[S]$. The coefficients of fare polynomials in a finite number of distinct elements $x_i \ (1 \leq i \leq m )$ of $S$, with coefficients in $K$. The elements $x_1, ..., x,, y_1, ..., y,$ are pairwise distinct because $S \cap T = (21$. The relation $f(y,, ..., y,) = 0$ may thus be written
 
 $$
 g(x_1, ..., x_m ; y_1, ..., y_n) = 0 ,
@@ -111,7 +111,7 @@ $$
 
 where $g$ is a non-zero polynomial of $K[X_1, ..., X_m, Y_1, ..., Y_n]$, and such a relation contradicts the hypothesis that $S \cup T$ is algebraically free.
 
-$b) \Rightarrow a)$: Suppose that $b)$ holds. In the first place it is clear that $T \cap K(S) = \varnothing$ and $a fortiori \ S \cap T = (21$. It suffices to show that if $x_i \ (1 \leq i \leq m )$ are distinct elements of $S$, finite in number, and $y_j \ (1 \leq j \leq n )$ distinct elements of $T$ finite in number, then the set of the $x_i$ and $y,$ is algebraically free over $K$ (Prop. 3). Consider a polynomial $f \in K[X_1, ..., X,, Y_1, ..., Y_n]$ such that $f(x_1, ..., x_m, y_1, ..., y,) = 0$ and put $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ with $\varphi_\alpha \in K[X_1, ..., X_m]$ for all $\alpha = (\alpha,, ..., \alpha_n) \in \mathbf{N}^n$. Let $g = f(x,, ..., x,, Y_1, ..., Y,)$; then $g$ is a polynomial in the ring $K[S][Y_1, ..., Y,]$ and the relation $f(x_1, ..., x_m, y_1, ..., y,) = 0$ may be written $g(y_1, ..., y,) = 0$. Since $T$ is algebraically free over $K(S)$, each of the coefficients $\varphi_\alpha(x_1, ..., x,)$ of $g$ is zero; since $S$ is algebraically free over $K$, we have $\varphi_\alpha = 0$ for all $\alpha \in \mathbf{N}^n$, and hence $f = 0$.
+$b) \Rightarrow a)$: Suppose that b) holds. In the first place it is clear that $T \cap K(S) = \varnothing$ and $a fortiori \ S \cap T = (21$. It suffices to show that if $x_i \ (1 \leq i \leq m )$ are distinct elements of $S$, finite in number, and $y_j \ (1 \leq j \leq n )$ distinct elements of $T$ finite in number, then the set of the $x_i$ and $y,$ is algebraically free over $K$ (Prop. 3). Consider a polynomial $f \in K[X_1, ..., X,, Y_1, ..., Y_n]$ such that $f(x_1, ..., x_m, y_1, ..., y,) = 0$ and put $f = \sum \varphi_\alpha Y_1^{\alpha_1} ... Y_n^{\alpha_n}$ with $\varphi_\alpha \in K[X_1, ..., X_m]$ for all $\alpha = (\alpha,, ..., \alpha_n) \in \mathbf{N}^n$. Let $g = f(x,, ..., x,, Y_1, ..., Y,)$; then $g$ is a polynomial in the ring $K[S][Y_1, ..., Y,]$ and the relation $f(x_1, ..., x_m, y_1, ..., y,) = 0$ may be written $g(y_1, ..., y,) = 0$. Since $T$ is algebraically free over $K(S)$, each of the coefficients $\varphi_\alpha(x_1, ..., x,)$ of $g$ is zero; since $S$ is algebraically free over $K$, we have $\varphi_\alpha = 0$ for all $\alpha \in \mathbf{N}^n$, and hence $f = 0$.
 
 #### Corollary {#alg-v-s14-n2-cor-1 .statement}
 
@@ -358,11 +358,11 @@ b) For each $i \in I$ the extension $E_i$ is algebraically disjoint over $K$ fro
 
 c) There exists a family $(B_i)_{i \in I}$ of disjoint subsets of $L$, such that $B_i$ is a transcendence basis of $E_i$ over $K$ for each $i \in I$, and $B = \bigcup_{i \in I} B_i$ is algebraically free over $K$.
 
-It is clear that $a)$ implies $c)$.
+It is clear that a) implies c).
 
-Assuming $c)$, let us choose $i$ in $I$; put $C_i = \bigcup_{j \neq i} B_j$. For each $j \neq i$ every element of $E_j$ is algebraic over $K(B_j)$ and a fortiori over $K(C_i)$. By Cor. 1 of $V$, p. 18, the field $F_i$ is therefore algebraic over $K(C_i)$. Further, we have $B_i \cap C_i = \varnothing$ and $B - B_i \cup C_i$ is algebraically free over $K$; therefore $B_i$ is algebraically free over $K(C_i)$ ($V$, p. 107, Prop. 4), hence also over $F_i$ (which is algebraic over $K(C_i)$) by Prop. 6 of $V$, p. 108. Thus we have proved that $E_i$ is algebraically disjoint from $F_i$ over $K$ ($V$, p. 113, Prop. 12), hence $c)$ implies $b)$.
+Assuming c), let us choose $i$ in $I$; put $C_i = \bigcup_{j \neq i} B_j$. For each $j \neq i$ every element of $E_j$ is algebraic over $K(B_j)$ and a fortiori over $K(C_i)$. By Cor. 1 of $V$, p. 18, the field $F_i$ is therefore algebraic over $K(C_i)$. Further, we have $B_i \cap C_i = \varnothing$ and $B - B_i \cup C_i$ is algebraically free over $K$; therefore $B_i$ is algebraically free over $K(C_i)$ ($V$, p. 107, Prop. 4), hence also over $F_i$ (which is algebraic over $K(C_i)$) by Prop. 6 of $V$, p. 108. Thus we have proved that $E_i$ is algebraically disjoint from $F_i$ over $K$ ($V$, p. 113, Prop. 12), hence c) implies b).
 
-Let us now assume $b)$ and prove $a)$. It is enough to show that if $i_1, \ldots, i_n$ are distinct elements of $I$, then the family of extensions $(E_{i_1}, \ldots, E_{i_n})$ is algebraically free; we argue by induction on $n$, the case $n = 1$ being trivial. Suppose then that $n > 1$ and that the family $(E_{i_1}, \ldots, E_{i_{n-1}})$ is algebraically free; for $1 \leq k \leq n$ choose a subset $A_k$ of $E_{i_k}$ algebraically free over $K$ and put
+Let us now assume b) and prove a). It is enough to show that if $i_1, \ldots, i_n$ are distinct elements of $I$, then the family of extensions $(E_{i_1}, \ldots, E_{i_n})$ is algebraically free; we argue by induction on $n$, the case $n = 1$ being trivial. Suppose then that $n > 1$ and that the family $(E_{i_1}, \ldots, E_{i_{n-1}})$ is algebraically free; for $1 \leq k \leq n$ choose a subset $A_k$ of $E_{i_k}$ algebraically free over $K$ and put
 
 B = A, U ... U A_{n-1}. By the induction hypothesis the subsets A_1, ..., A_{n-1} are pairwise disjoint and B is algebraically free over K; by b) E_{i_n} is algebraically disjoint from F_i and since B is contained in F_{i_n} we have B \cap A_i = \varnothing and B \cup A_i = A, U ... U A_i is algebraically free over K. We have thus shown that the family (E_{i_1}, ..., E_{i_n}) is algebraically free.
 

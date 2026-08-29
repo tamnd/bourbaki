@@ -8,6 +8,7 @@ section_title: LIE GROUPS
 kind: front
 lang: en
 source: lie-i-iii
+book_pages: "209"
 pdf_pages: 0227-0227
 extraction: ocr
 statements: 0

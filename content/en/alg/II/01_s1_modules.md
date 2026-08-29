@@ -8,68 +8,69 @@ section_title: Modules
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 191-227, 380-386
 pdf_pages: 0215-0251, 0404-0410
 extraction: ocr
 subsections:
     - "no": 1
       title: MODULES; VECTOR SPACES; LINEAR COMBINATIONS
-      page: 0
+      page: 191
       pdf_page: 215
     - "no": 2
       title: LINEAR MAPPINGS
-      page: 0
+      page: 194
       pdf_page: 218
     - "no": 3
       title: SUBMODULES; QUOTIENT MODULES
-      page: 0
+      page: 196
       pdf_page: 220
     - "no": 4
       title: EXACT SEQUENCES
-      page: 0
+      page: 197
       pdf_page: 221
     - "no": 5
       title: PRODUCTS OF MODULES
-      page: 0
+      page: 200
       pdf_page: 224
     - "no": 6
       title: DIRECT SUM OF MODULES
-      page: 0
+      page: 202
       pdf_page: 226
     - "no": 7
       title: INTERSECTION AND SUM OF SUBMODULES
-      page: 0
+      page: 205
       pdf_page: 229
     - "no": 8
       title: DIRECT SUMS OF SUBMODULES
-      page: 0
+      page: 208
       pdf_page: 232
     - "no": 9
       title: SUPPLEMENTARY SUBMODULES
-      page: 0
+      page: 210
       pdf_page: 234
     - "no": 10
       title: MODULES OF FINITE LENGTH
-      page: 0
+      page: 212
       pdf_page: 236
     - "no": 11
       title: FREE FAMILIES. BASES
-      page: 0
+      page: 214
       pdf_page: 238
     - "no": 12
       title: ANNIHILATORS. FAITHFUL MODULES. MONOGENOUS MODULES
-      page: 0
+      page: 219
       pdf_page: 243
     - "no": 13
       title: CHANGE OF RING OF SCALARS
-      page: 0
+      page: 221
       pdf_page: 245
     - "no": 14
       title: MULTIMODULES
-      page: 0
+      page: 224
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: f216e49c0f37a9ef2aa551ee737906851a46daab79eb96ce0c598c8acaa257b0
+content_sha256: 7397d09a718f6180624ef63d3ea605fc93db2eb8eb18c2019f1e6cb60606e9b8
 ---
 
 ## § 1. MODULES
@@ -401,7 +402,7 @@ The use of explicit letters to denote homomorphisms in an exact sequence is ofte
 
 ### 5. PRODUCTS OF MODULES
 
-Let $(E_i)_{i \in I}$ be a family of modules over the same ring A. It is immediately verified that the product of the module structures on the $E_i$ ($I, \S 4,$ no. 8) is an A-module structure on the product set $E = \prod_{i \in I} E_i$. With this structure the set E is called the product module of the modules $E_i$; if $x = (x_i), y = (y_i)$ are two elements of E, then
+Let $(E_i)_{i \in I}$ be a family of modules over the same ring A. It is immediately verified that the product of the module structures on the $E_i$ ($I, § 4,$ no. 8) is an A-module structure on the product set $E = \prod_{i \in I} E_i$. With this structure the set E is called the product module of the modules $E_i$; if $x = (x_i), y = (y_i)$ are two elements of E, then
 
 $$
 \begin{cases}
@@ -741,7 +742,9 @@ $$
 
 *For every projector e of E, E is the direct sum of the image* $M = e(E)$ *and the kernel* $N = e^{-1}(0)$ *of e; for all* $x = x_1 + x_2 \in E$ *with* $x_1 \in M$ *and* $x_2 \in N$, $x_1 = e(x)$; *1 − e is a projector of E of image N and kernel M*.
 
-$(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *in* $\operatorname{End}(E)$ *and hence* $1 - e$ *is a projector; as also* $e(1 - e) = (1 - e)e = e - e^2 = 0$, *E is the direct sum of the images* $M$ *and* $N$ *of e and* $1 - e$ *by Proposition 12. Finally, for all* $x \in E$, *the relation* $x \in M$ *is equivalent to* $x = e(x)$; *for* $x = e(x)$ *implies by definition* $x \in M$ *and, conversely, if* $x = e(x')$ *with* $x' \in E$, *then* $e(x) = e^2(x') = e(x') = x;$ this shows therefore that M is the kernel of $1 - e$ and, exchanging the roles of $e$ and $1 - e$, it is similarly seen that N is the kernel of $e$.
+$(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *in* $\operatorname{End}(E)$ *and hence* $1 - e$ *is a projector; as also* $e(1 - e) = (1 - e)e = e - e^2 = 0$, *E is the direct sum of the images* $M$ *and* $N$ *of e and* $1 - e$ *by Proposition 12. Finally, for all* $x \in E$, *the relation* $x \in M$ *is equivalent to* $x = e(x)$; *for* $x = e(x)$ *implies by definition* $x \in M$ *and, conversely, if* $x = e(x')$ *with* $x' \in E$, *then* $e(x) = e^2(x') = e(x') = x;$
+
+this shows therefore that M is the kernel of $1 - e$ and, exchanging the roles of $e$ and $1 - e$, it is similarly seen that N is the kernel of $e$.
 
 #### Remark {#alg-ii-s1-n8-rem-2 .statement}
 
@@ -1094,7 +1097,7 @@ It is immediate that the annihilator of an arbitrary subset S of E is a *left id
 
 The annihilator of a *submodule* M of E is a *two-sided ideal* of A; for, if $\alpha x = 0$ for all $x \in M$, then also $\alpha (\beta x) = 0$ for all $x \in M$ and all $\beta \in A$, hence $\alpha \beta$ belongs to the annihilator of M for all $\beta \in A$. In particular, the annihilator of E is a two-sided ideal of A.
 
-For all $\alpha \in A$, let $h_\alpha$ be the homothety $x \mapsto \alpha x$; it is known that the mapping $\alpha \mapsto h_\alpha$ of A into the endomorphism ring $\mathcal{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ of the commutative group (without operators) E, is a *ring homomorphism* (\S 2, no. 5). The inverse image of 0 under this homomorphism is the *annihilator* $a$ of E; the image of A under the homomorphism $\alpha \mapsto h_\alpha$ is therefore isomorphic to the quotient ring $A/a$. The module E is called *faithful* if its annihilator $a$ reduces to 0.
+For all $\alpha \in A$, let $h_\alpha$ be the homothety $x \mapsto \alpha x$; it is known that the mapping $\alpha \mapsto h_\alpha$ of A into the endomorphism ring $\mathcal{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ of the commutative group (without operators) E, is a *ring homomorphism* (§ 2, no. 5). The inverse image of 0 under this homomorphism is the *annihilator* $a$ of E; the image of A under the homomorphism $\alpha \mapsto h_\alpha$ is therefore isomorphic to the quotient ring $A/a$. The module E is called *faithful* if its annihilator $a$ reduces to 0.
 
 Let E be any A-module, $a$ a two-sided ideal of A contained in Ann(E) and let $\dot{\alpha}$ be an element of the quotient ring $A/a$; for all $x \in E$, the element $\alpha x$ is the same for all the $\alpha \in A$ belonging to the class $\dot{\alpha}$ mod. $a$; if this element is denoted by $\dot{\alpha} x$, it is immediately seen that the mapping (α, x) ↦ αx defines (with addition on E) an (A/α)-module structure on E. When α = Ann(E), the (A/α)-module E thus defined is *faithful*; we shall say that it is the faithful module *associated* with the A-module E. Observe that every submodule of an A-module E is also a submodule of the associated faithful module and conversely.
 

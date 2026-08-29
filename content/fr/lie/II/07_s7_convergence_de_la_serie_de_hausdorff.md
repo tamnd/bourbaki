@@ -24,7 +24,7 @@ subsections:
       pdf_page: 62
 statements: 4
 exercises: 1
-content_sha256: f070f248cb487d9e5e0c1908035e44c2b46f7939b9896ff1e9bf73f440ad0bfe
+content_sha256: ea409390ec8ccc3ac8355ca182a9deb4d4b417dd1bcfce204350ba948e0b991d
 ---
 
 ## § 7. Convergence de la série de Hausdorff (cas réel ou complexe)
@@ -47,13 +47,13 @@ D’après la prop. 2 du § 6, n° 3, il existe un homomorphisme continu $\varph
 $$
 \tilde{u} = \sum_{v \in \mathbf{N}^I} \tilde{u}_v,\quad \text{avec } \tilde{u}_v \in P_v(g^I; g).
 $$
-Soit $u = (u_j)_{j \in J}$ une famille *finie* d’éléments de $\hat{L}(I)$, soit $v \in \hat{L}(J)$ et soit $w = v \circ u$ (\S 6, n° 3). Posons $\tilde{u} = (\tilde{u}_j)_j \in \mathcal{J}$. On a
+Soit $u = (u_j)_{j \in J}$ une famille *finie* d’éléments de $\hat{L}(I)$, soit $v \in \hat{L}(J)$ et soit $w = v \circ u$ (§ 6, n° 3). Posons $\tilde{u} = (\tilde{u}_j)_j \in \mathcal{J}$. On a
 $$(2)\qquad \tilde{v} \circ \tilde{u} = (v \circ u)^{\sim}.$$
 En effet, ceci résulte par prolongement par continuité de la formule (7) du § 6, n° 3, et de (VAR, R, App., n° 6).
 
 ### 2. Groupuscule défini par une algèbre de Lie normée complète
 
-Soient $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ la série de Hausdorff (\S 6, n° 4, déf. 1). Nous allons montrer que la série formelle correspondante
+Soient $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ la série de Hausdorff (§ 6, n° 4, déf. 1). Nous allons montrer que la série formelle correspondante
 $$(3)\qquad \tilde{H} = \sum_{r,s \geq 0} \tilde{H}_{r,s} \in \hat{P}(g \times g, g)$$
 est *convergente* (VAR, R, 3.1.1).
 Introduisons la série formelle $\eta \in \mathbf{Q}[[U, V]]$ suivante

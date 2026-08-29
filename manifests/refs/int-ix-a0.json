@@ -1,0 +1,15 @@
+{"edges": [
+{"from":"","from_label":"int-ix-a0-n1-rem-1","to_label":"int-v-s4","kind":"cites","raw":"V, §4, No. 9","form":"section","resolved_by":"section","file":"content/en/int/IX/A_a_complements_on_hilbert_spaces.md","line":54},
+{"from":"","from_label":"int-ix-a0-prop-2","to_label":"int-ix-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/int/IX/A_a_complements_on_hilbert_spaces.md","line":88},
+{"from":"","from_label":"int-ix-a0-n1-rem-3","to_label":"int-ix-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/int/IX/A_a_complements_on_hilbert_spaces.md","line":98},
+{"from":"","from_label":"int-ix-a0-prop-3","to_label":"int-v-s4","kind":"cites","raw":"V, §4, No. 7","form":"section","resolved_by":"section","file":"content/en/int/IX/A_a_complements_on_hilbert_spaces.md","line":138},
+{"from":"","from_label":"int-ix-a0-prop-3","to_label":"int-ix-a0-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/int/IX/A_a_complements_on_hilbert_spaces.md","line":172},
+{"from":"","from_label":"int-ix-a0-prop-3","to_label":"int-ix-a0-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/int/IX/A_a_complements_on_hilbert_spaces.md","line":172},
+{"from":"","from_label":"int-ix-a0-ex-1","to_label":"int-ix-a0-n1-rem-3","kind":"cites","raw":"Remark 3","form":"local","resolved_by":"in-section","file":"content/en/int/IX/exercises/a0/01.md","line":19},
+{"from":"","from_label":"int-ix-a0-ex-2","to_label":"int-ix-a0-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/int/IX/exercises/a0/02.md","line":19},
+{"from":"","from_label":"int-ix-a0-ex-2","to_label":"int-ix-a0-n1-rem-3","kind":"cites","raw":"Remark 3","form":"local","resolved_by":"in-section","file":"content/en/int/IX/exercises/a0/02.md","line":21},
+{"from":"","from_label":"int-ix-a0-ex-4","to_label":"int-ix-a0-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/int/IX/exercises/a0/04.md","line":15},
+{"from":"","from_label":"int-ix-a0-ex-6","to_label":"int-ix-a0-n1-rem-1","kind":"cites","raw":"Remark 1","form":"local","resolved_by":"in-section","file":"content/en/int/IX/exercises/a0/06.md","line":15},
+{"from":"","from_label":"int-ix-a0-ex-6","to_label":"int-ix-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/int/IX/exercises/a0/06.md","line":15},
+{"from":"","from_label":"int-ix-a0-ex-9","to_label":"int-ix-a0-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/int/IX/exercises/a0/09.md","line":19}
+]}

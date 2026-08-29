@@ -28,7 +28,7 @@ subsections:
       pdf_page: 88
 statements: 10
 exercises: 7
-content_sha256: 92b475781e2cf8088893813862965f43bc36bf3c5060161832b5e64d7459548d
+content_sha256: 8bac6f5f085612cbe2e567dc3d0ccfcfe4773748f05ca5e249aabb38593a949e
 ---
 
 ## 2. CONTINUOUS HOMOMORPHISMS OF $\mathbf{R}^n$ AND ITS QUOTIENT GROUPS
@@ -137,7 +137,7 @@ Consider under what conditions $f$ is an *isomorphism* of $\mathbf{T}^n$ onto a 
 $$
 f(\varphi(x)) = f(\varphi(0)) \quad \text{and} \quad \varphi(x) \neq \varphi(0),
 $$
-contrary to hypothesis. This condition implies that $p \geq n$. The image $u(\mathbf{Z}^n)$ is then a discrete subgroup of rank $n$ of the group $\mathbf{Z}^p$; the *invariant factors* of $u(\mathbf{Z}^n)$ with respect to $\mathbf{Z}^p$ (\S 1, no. 1) must all be equal to 1, otherwise there would exist a point $x \in \mathbf{Z}^n$ and an integer $k > 1$ such that $u(k^{-1}x) \in \mathbf{Z}^n$ and $k^{-1} \notin \mathbf{Z}^n$, hence $f(\varphi(k^{-1}x)) = f(\varphi(0))$ and $\varphi(k^{-1}x) \neq \varphi(0)$, contrary to hypothesis. Conversely, if this condition is satisfied, $u(\mathbf{R}^n) \cap \mathbf{Z}^n = u(\mathbf{Z}^n)$, and $f$ is an isomorphism of $\mathbf{T}^n$ onto $u(\mathbf{R}^n)/u(\mathbf{Z}^n)$.
+contrary to hypothesis. This condition implies that $p \geq n$. The image $u(\mathbf{Z}^n)$ is then a discrete subgroup of rank $n$ of the group $\mathbf{Z}^p$; the *invariant factors* of $u(\mathbf{Z}^n)$ with respect to $\mathbf{Z}^p$ (§ 1, no. 1) must all be equal to 1, otherwise there would exist a point $x \in \mathbf{Z}^n$ and an integer $k > 1$ such that $u(k^{-1}x) \in \mathbf{Z}^n$ and $k^{-1} \notin \mathbf{Z}^n$, hence $f(\varphi(k^{-1}x)) = f(\varphi(0))$ and $\varphi(k^{-1}x) \neq \varphi(0)$, contrary to hypothesis. Conversely, if this condition is satisfied, $u(\mathbf{R}^n) \cap \mathbf{Z}^n = u(\mathbf{Z}^n)$, and $f$ is an isomorphism of $\mathbf{T}^n$ onto $u(\mathbf{R}^n)/u(\mathbf{Z}^n)$.
 
 If we apply this argument to the case $p = n$, we have the following proposition:
 
@@ -145,7 +145,7 @@ If we apply this argument to the case $p = n$, we have the following proposition
 
 *Every isomorphism of the topological group $\mathbf{T}^n$ onto one of its subgroups is an automorphism of $\mathbf{T}^n$ which is obtained by passing to the quotient from a linear mapping $u$ of $\mathbf{R}^n$ onto itself which, restricted to $\mathbf{Z}^n$, is an automorphism of $\mathbf{Z}^n$.*
 
-Equivalently (\S 1, no. 1), if $u(e_i) = \sum_{j=1}^n a_{ij} e_j$, the $a_{ij}$ must be integers such that $\det(a_{ij}) = \pm 1$. In particular, for $n = 1$:
+Equivalently (§ 1, no. 1), if $u(e_i) = \sum_{j=1}^n a_{ij} e_j$, the $a_{ij}$ must be integers such that $\det(a_{ij}) = \pm 1$. In particular, for $n = 1$:
 
 #### Proposition 6 {#top-vii-s2-prop-6 .statement}
 

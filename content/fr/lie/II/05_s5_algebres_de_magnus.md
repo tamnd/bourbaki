@@ -32,7 +32,7 @@ subsections:
       pdf_page: 48
 statements: 14
 exercises: 12
-content_sha256: 45f5cbe72a891f1779a5628ad049f8bc146715be0a21507092c244060d5b6585
+content_sha256: ce62004672f2a552baeee93c993f23b37bb4a071c1446b11586401d7598f5a2a
 ---
 
 ## § 5. Algèbres de Magnus
@@ -53,13 +53,13 @@ On munit $\hat{A}(X)$ de la topologie produit des topologies discrètes des fact
 
 Soit $a = (a_n) \in \hat{A}(X)$; la famille $(a_n)_{n \geq 0}$ est sommable et $a = \sum_{n \geq 0} a_n$.
 
-Pour tout entier $m \geq 0$, on note $\hat{A}_m(X)$ l’idéal formé des séries $a = \sum_{n \geq m} a_n$ telles que $a_n \in A^n(X)$ pour tout $n \geq m$. Cette suite d’idéaux est un système fondamental de voisinages de 0 dans $\hat{A}(X)$ et une filtration entière sur $\hat{A}(X)$. La fonction d’ordre associée à la filtration précédente est notée $\omega$; on a donc $\omega(0) = +\infty$ et $\omega(a) = m$ si $a = \sum_{n \geq m} a_n$ avec $a_n \in A^n(X)$ pour tout $n \geq m$ et $a_m \neq 0$ ($\S 4$, n°s 1 et 2).
+Pour tout entier $m \geq 0$, on note $\hat{A}_m(X)$ l’idéal formé des séries $a = \sum_{n \geq m} a_n$ telles que $a_n \in A^n(X)$ pour tout $n \geq m$. Cette suite d’idéaux est un système fondamental de voisinages de 0 dans $\hat{A}(X)$ et une filtration entière sur $\hat{A}(X)$. La fonction d’ordre associée à la filtration précédente est notée $\omega$; on a donc $\omega(0) = +\infty$ et $\omega(a) = m$ si $a = \sum_{n \geq m} a_n$ avec $a_n \in A^n(X)$ pour tout $n \geq m$ et $a_m \neq 0$ ($§ 4$, n°s 1 et 2).
 
 On dit que $\hat{A}(X)$ est l’algèbre de Magnus de l’ensemble $X$ à coefficients dans $K$. Si une ambiguïté sur $K$ est possible on écrira $\hat{A}_K(X)$.
 
 #### Proposition 1 {#lie-ii-s5-prop-1 .statement}
 
-Soit $B$ une algèbre associative unifère, munie d’une filtration réelle $(B_\alpha)_{\alpha \in \mathbf{R}}$ pour laquelle $B$ est séparée et complète ($\S 4$, n°s 1 et 2). Soit $f$ une application de $X$ dans $B$, telle qu’il existe $\lambda > 0$ pour lequel $f(X) \subset B_\lambda$. Alors $f$ se prolonge d’une manière et d’une seule en un homomorphisme unifère continu $\hat{f}$ de $\hat{A}(X)$ dans $B$.
+Soit $B$ une algèbre associative unifère, munie d’une filtration réelle $(B_\alpha)_{\alpha \in \mathbf{R}}$ pour laquelle $B$ est séparée et complète ($§ 4$, n°s 1 et 2). Soit $f$ une application de $X$ dans $B$, telle qu’il existe $\lambda > 0$ pour lequel $f(X) \subset B_\lambda$. Alors $f$ se prolonge d’une manière et d’une seule en un homomorphisme unifère continu $\hat{f}$ de $\hat{A}(X)$ dans $B$.
 
 Soit $f'$ l’unique homomorphisme d’algèbre unifère de $\mathbf{A}(X)$ dans $B$ prolongeant $f$ (A, III, p. 22, prop. 7). Montrons que $f'$ est continu: en effet, on a $f'(\mathbf{A}^n(X)) \subset B_{n\lambda}$ d’où $f'(\hat{\mathbf{A}}_n(X) \cap \mathbf{A}(X)) \subset B_{n\lambda}$. Par suite, $f'$ se prolonge d’une manière et d’une seule par continuité en un homomorphisme $\hat{f}: \hat{\mathbf{A}}(X) \to B$.
 
@@ -149,7 +149,7 @@ On suppose que dans l’anneau K, la relation $n \cdot 1 = 0$ entraîne $n = 0$ 
 
 #### Théorème 3 {#lie-ii-s5-thm-3 .statement}
 
-Pour tout $x \in X$, soit $c(x)$ l’image canonique de $x$ dans $F(X)/(F(X), F(X))$. Soit $g$ la $\mathbf{Z}$-algèbre de Lie graduée associée à la filtration $(C^n F(X))_{n \geq 1}$ de $F(X)$ (\S 4, n° 6). L’unique homomorphisme de la $\mathbf{Z}$-algèbre de Lie libre $L_Z(X)$ dans $g$ qui prolonge $c$ est un isomorphisme.
+Pour tout $x \in X$, soit $c(x)$ l’image canonique de $x$ dans $F(X)/(F(X), F(X))$. Soit $g$ la $\mathbf{Z}$-algèbre de Lie graduée associée à la filtration $(C^n F(X))_{n \geq 1}$ de $F(X)$ (§ 4, n° 6). L’unique homomorphisme de la $\mathbf{Z}$-algèbre de Lie libre $L_Z(X)$ dans $g$ qui prolonge $c$ est un isomorphisme.
 
 En termes imagés, la $\mathbf{Z}$-algèbre de Lie graduée associée au groupe libre $F(X)$ (muni de la suite centrale descendante) est la $\mathbf{Z}$-algèbre de Lie libre $L_Z(X)$.
 
@@ -161,9 +161,9 @@ Notons $\gamma$ l’homomorphisme de $F$ dans $\Gamma$ défini par $\gamma(x) = 
 
 B) Surjectivité de $\alpha$.
 
-Comme $X$ engendre le groupe $F = C^1$, l’ensemble $c(X)$ engendre le $\mathbf{Z}$-module $g^1 = C^1/C^2$. Or $g^1$ engendre la $\mathbf{Z}$-algèbre de Lie $g$ (\S 4, n° 6, prop. 5), donc $c(X)$ engendre $g$, ce qui prouve que $\alpha$ est surjectif.
+Comme $X$ engendre le groupe $F = C^1$, l’ensemble $c(X)$ engendre le $\mathbf{Z}$-module $g^1 = C^1/C^2$. Or $g^1$ engendre la $\mathbf{Z}$-algèbre de Lie $g$ (§ 4, n° 6, prop. 5), donc $c(X)$ engendre $g$, ce qui prouve que $\alpha$ est surjectif.
 
-C) Identifions l’algèbre graduée $\mathrm{gr}(\hat{A})$ à $A(X)$ par les isomorphismes canoniques $A^n(X) \to \hat{A}_n/\hat{A}_{n+1}$. Pour tout entier $n \geq 1$, posons $F^n = \gamma^{-1}(\Gamma_n)$; on sait (\S 4, n° 5) que $(F^n)_{n \geq 1}$ est une filtration centrale entière sur $F$. Notons $g'$ la $\mathbf{Z}$-algèbre de Lie graduée associée (\S 4, n° 4). Soit $f$ l’homomorphisme d’algèbres de Lie de $g'$ dans $A(X)$ associé à $\gamma$ (\S 4, n° 5, prop. 3). Or, on a $C^n \subset F^n$ pour tout entier $n \geq 1$ (\S 4, n° 6, prop. 4), d’où un homomorphisme canonique $\varepsilon$ de $g = \bigoplus_{n \geq 1} C^n/C^{n+1}$ dans $g' = \bigoplus_{n \geq 1} F^n/F^{n+1}$
+C) Identifions l’algèbre graduée $\mathrm{gr}(\hat{A})$ à $A(X)$ par les isomorphismes canoniques $A^n(X) \to \hat{A}_n/\hat{A}_{n+1}$. Pour tout entier $n \geq 1$, posons $F^n = \gamma^{-1}(\Gamma_n)$; on sait (§ 4, n° 5) que $(F^n)_{n \geq 1}$ est une filtration centrale entière sur $F$. Notons $g'$ la $\mathbf{Z}$-algèbre de Lie graduée associée (§ 4, n° 4). Soit $f$ l’homomorphisme d’algèbres de Lie de $g'$ dans $A(X)$ associé à $\gamma$ (§ 4, n° 5, prop. 3). Or, on a $C^n \subset F^n$ pour tout entier $n \geq 1$ (§ 4, n° 6, prop. 4), d’où un homomorphisme canonique $\varepsilon$ de $g = \bigoplus_{n \geq 1} C^n/C^{n+1}$ dans $g' = \bigoplus_{n \geq 1} F^n/F^{n+1}$
 
 $$
 L_\mathbf{Z}(X) \xrightarrow{\alpha} g \xrightarrow{\varepsilon} g' \xrightarrow{f} A(X).
@@ -178,7 +178,7 @@ $$
 
 D) *Démonstration des théorèmes 2 et 3*.
 
-L’homomorphisme d’algèbres de Lie $\beta \circ \alpha : L_\mathbf{Z}(X) \to A(X)$ a pour restriction à $X$ l’identité d’après (3), donc est l’*injection canonique* (\S 3, n° 1). Par suite, $\alpha$ est injectif, donc bijectif d’après B); ceci démontre le th. 3. Comme $\beta \circ \alpha = f \circ \varepsilon \circ \alpha$ est injectif et que $\alpha$ est bijectif, $\varepsilon$ est injectif. Pour tout $n \geq 1$,
+L’homomorphisme d’algèbres de Lie $\beta \circ \alpha : L_\mathbf{Z}(X) \to A(X)$ a pour restriction à $X$ l’identité d’après (3), donc est l’*injection canonique* (§ 3, n° 1). Par suite, $\alpha$ est injectif, donc bijectif d’après B); ceci démontre le th. 3. Comme $\beta \circ \alpha = f \circ \varepsilon \circ \alpha$ est injectif et que $\alpha$ est bijectif, $\varepsilon$ est injectif. Pour tout $n \geq 1$,
 
 $$
 \varepsilon_n : C^n/C^{n+1} \to F^n/F^{n+1}
@@ -208,7 +208,7 @@ $$
 
 #### Remarque {#lie-ii-s5-n4-rem-1 .statement}
 
-Soit $H$ un ensemble de Hall relatif à $X$ (\S 2, n° 10). Soit $M$ le magma défini par la loi de composition $(x, y) \mapsto (x, y) = x^{-1}y^{-1}xy$ sur $F(X)$, et soit $\varphi$ l’homomorphisme de $M(X)$ dans $M$ dont la restriction à $X$ est l’identité. Les éléments de $\varphi(H)$ s’appellent les *commutateurs basiques* de $F(X)$ associés à l’ensemble de Hall $H$. Pour tout entier $n \geq 1$, soit $H_n$ la partie de $H$ formée des éléments de longueur $n$; on sait (\S 2, n° 11, th. 1) que l’application canonique de $H_n$ dans $L_\mathbf{Z}(X)$ est une base du groupe abélien $L^n_\mathbf{Z}(X)$. De plus, on a $\varphi(H_n) \subset C^n$; pour tout $m \in H_n$, notons $\varphi_n(m)$ la classe mod. $C^{n+1}$ de $\varphi(m) \in C^n$. Le th. 3 montre alors que $\varphi_n$ est une bijection de $H_n$ sur une base du groupe abélien $C^n/C^{n+1}$. On déduit aussitôt de là que, pour tout $w \in F(X)$, et tout $i \geq 1$, il existe un élément unique $\alpha_i$ de $\mathbf{Z}^{(H_i)}$ tel que, pour tout $n \geq 1$, on ait
+Soit $H$ un ensemble de Hall relatif à $X$ (§ 2, n° 10). Soit $M$ le magma défini par la loi de composition $(x, y) \mapsto (x, y) = x^{-1}y^{-1}xy$ sur $F(X)$, et soit $\varphi$ l’homomorphisme de $M(X)$ dans $M$ dont la restriction à $X$ est l’identité. Les éléments de $\varphi(H)$ s’appellent les *commutateurs basiques* de $F(X)$ associés à l’ensemble de Hall $H$. Pour tout entier $n \geq 1$, soit $H_n$ la partie de $H$ formée des éléments de longueur $n$; on sait (§ 2, n° 11, th. 1) que l’application canonique de $H_n$ dans $L_\mathbf{Z}(X)$ est une base du groupe abélien $L^n_\mathbf{Z}(X)$. De plus, on a $\varphi(H_n) \subset C^n$; pour tout $m \in H_n$, notons $\varphi_n(m)$ la classe mod. $C^{n+1}$ de $\varphi(m) \in C^n$. Le th. 3 montre alors que $\varphi_n$ est une bijection de $H_n$ sur une base du groupe abélien $C^n/C^{n+1}$. On déduit aussitôt de là que, pour tout $w \in F(X)$, et tout $i \geq 1$, il existe un élément unique $\alpha_i$ de $\mathbf{Z}^{(H_i)}$ tel que, pour tout $n \geq 1$, on ait
 
 $$
 w = \prod_{i=1}^n \prod_{m \in H_i} \varphi(m)^{\alpha_i(m)} \mod C^{n+1},
@@ -238,7 +238,7 @@ Dans ce $n^\circ$, on note $p$ un nombre premier et l’on suppose $K = \mathbf{
 
 *Supposons $X$ fini. Pour tout entier $n \geq 1$, le groupe $F(X)/F_n^{(p)}(X)$ est un $p$-groupe fini de classe de nilpotence $\leq n$.*
 
-Raisonnant par récurrence sur $n$, il suffit de prouver que $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ est un $p$-groupe commutatif fini pour tout $n \geq 1$. Pour tout $w \in F_n^{(p)}(X)$, l’élément $\gamma(w) - 1$ de $\hat{A}(X)$ est d’ordre $\geq n$; on note $\delta_n(w)$ la composante homogène de degré $n$ de $\gamma(w) - 1$. L’application $\delta_n : F_n^{(p)}(X) \to A^n(X)$ est un homomorphisme de noyau $F_{n+1}^{(p)}(X)$ ($\S 4$, $n^\circ 5$, prop. 3), donc $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ est isomorphe à un sous-groupe de $A^n(X)$. Puisque $X$ est fini, $A^n(X)$ est un espace vectoriel de dimension finie sur $\mathbf{F}_p$, donc un $p$-groupe commutatif fini et il en est de même de $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$.
+Raisonnant par récurrence sur $n$, il suffit de prouver que $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ est un $p$-groupe commutatif fini pour tout $n \geq 1$. Pour tout $w \in F_n^{(p)}(X)$, l’élément $\gamma(w) - 1$ de $\hat{A}(X)$ est d’ordre $\geq n$; on note $\delta_n(w)$ la composante homogène de degré $n$ de $\gamma(w) - 1$. L’application $\delta_n : F_n^{(p)}(X) \to A^n(X)$ est un homomorphisme de noyau $F_{n+1}^{(p)}(X)$ ($§ 4$, $n^\circ 5$, prop. 3), donc $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ est isomorphe à un sous-groupe de $A^n(X)$. Puisque $X$ est fini, $A^n(X)$ est un espace vectoriel de dimension finie sur $\mathbf{F}_p$, donc un $p$-groupe commutatif fini et il en est de même de $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$.
 
 #### Proposition 3 {#lie-ii-s5-prop-3 .statement}
 

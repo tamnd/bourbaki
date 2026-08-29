@@ -30,7 +30,7 @@ subsections:
       pdf_page: 230
 statements: 10
 exercises: 8
-content_sha256: a80b966ec29aaa7766f1bffddc53ecffe923f837317f31cc03fad49c10edbdd1
+content_sha256: a50fe53e1e92cccf208144f33d5cc8cae97d257dd48338d2315f380c2f77246b
 ---
 
 ## APPENDICE
@@ -109,7 +109,7 @@ Le corollaire du th. 1 (IV, p. 40) entraîne de manière analogue le résultat s
 
 *Soit $G$ un groupe topologique résoluble. Il existe sur $G$ une moyenne invariante par les translations à gauche et à droite.
 
-Il suffit d’appliquer la prop. 1 au groupe résoluble $G \times G$ agissant sur $G$ par $(g, g').x = gxg'^{-1}$.
+Il suffit d’appliquer la prop. 1 au groupe résoluble $G \times G$ agissant sur $G$ par $(g, g').x = gx{g'}^{-1}$.
 
 ### 3. Le théorème de Ryll-Nardzewski
 
@@ -201,7 +201,7 @@ L’espace $F^G$ des éléments de E invariants par $\lambda(G)$ se compose des 
 1) si E est de dimension infinie, on a $F^G = \{0\}$;
 2) si E est de dimension finie, on a $F = \mathcal{L}(E)$ et $F^G = \mathbf{C}.1_E$.
 
-Par application du résultat de $A)$ à la représentation unitaire $\lambda$, on obtient le théorème suivant :
+Par application du résultat de A) à la représentation unitaire $\lambda$, on obtient le théorème suivant :
 
 Soit $u \in \mathcal{L}^2(E)$, et soit $A_u$ l’enveloppe fermée convexe dans $\mathcal{L}^2(E)$ de l’ensemble des endomorphismes $\pi(g)\ u\pi(g)^{-1}$ de $E$, où $g$ parcourt $G$. Si $E$ est de dimension infinie, on a $0 \in A_u$. Si $E$ est de dimension finie $d$, il existe une unique homothétie dans $A_u$, à savoir la projection $\frac{1}{d}\ \mathrm{Tr}(u).\ 1_E$ de $u$ sur le sous-espace $\mathbf{C}.1_E$ de $\mathcal{L}^2(E)$.
 

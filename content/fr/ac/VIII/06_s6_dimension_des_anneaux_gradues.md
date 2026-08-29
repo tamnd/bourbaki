@@ -33,7 +33,7 @@ subsections:
       pdf_page: 74
 statements: 27
 exercises: 12
-content_sha256: efef60106549fed117211899cca477680fe6017ef38411a3238436c9a89e9f04
+content_sha256: 0807723a1c16ddd3468a5fe62226f8505a320156e30fadfaa666328e48b2faf7
 ---
 
 ## § 6. DIMENSION DES ANNEAUX GRADUÉS
@@ -197,9 +197,9 @@ a) Soient $a_1, ..., a_n$ des éléments de $H$, homogènes de degrés $> 0$, et
 
 b) Il existe une famille $(a_1, ..., a_d)$ d’éléments de $H$, tous homogènes d’un même degré $> 0$, avec $d = \dim_H(M)$, et telle que $(a_1/1, ..., a_d/1)$ soit une suite sécante maximale pour le $S^{-1}H$-module $S^{-1}M$. Si de plus $H$ est engendré par $H_1$ comme $H_0$-algèbre, et si le corps résiduel de $H_0$ est infini, on peut prendre les $a_i$ de degré 1.
 
-a) Posons $N = M / \sum_{i=1}^n a_i M$. On a $\dim_H(N) = \dim_{S^{-1}H}(S^{-1}N)$ d’après la prop. 4. Par suite, le $S^{-1}H$-module $S^{-1}N$ est de longueur finie si et seulement si le $H$-module $N$ est de longueur finie, c’est-à-dire si et seulement si $N$ est un $H_0$-module de type fini. Si $\varphi_*(M)$ est le module sur $H_0[X_1, ..., X_n]$ déduit de $M$ par l’homomorphisme $\varphi : H_0[X_1, ..., X_n] \to M$, on a $N = \varphi_*(M)/\sum_{i=1}^n X_i \cdot \varphi_*(M)$. Par suite (A, II, p. 171, cor. 3 et remarque) $\varphi_*(M)$ est un module de type fini sur $H_0[X_1, ..., X_n]$ si et seulement si $N$ est un $H_0$-module de type fini. Ceci prouve $a)$.
+a) Posons $N = M / \sum_{i=1}^n a_i M$. On a $\dim_H(N) = \dim_{S^{-1}H}(S^{-1}N)$ d’après la prop. 4. Par suite, le $S^{-1}H$-module $S^{-1}N$ est de longueur finie si et seulement si le $H$-module $N$ est de longueur finie, c’est-à-dire si et seulement si $N$ est un $H_0$-module de type fini. Si $\varphi_*(M)$ est le module sur $H_0[X_1, ..., X_n]$ déduit de $M$ par l’homomorphisme $\varphi : H_0[X_1, ..., X_n] \to M$, on a $N = \varphi_*(M)/\sum_{i=1}^n X_i \cdot \varphi_*(M)$. Par suite (A, II, p. 171, cor. 3 et remarque) $\varphi_*(M)$ est un module de type fini sur $H_0[X_1, ..., X_n]$ si et seulement si $N$ est un $H_0$-module de type fini. Ceci prouve a).
 
-Pour prouver $b)$, nous établirons d’abord un lemme.
+Pour prouver b), nous établirons d’abord un lemme.
 
 #### Lemme 4 {#ac-viii-s6-lem-4 .statement}
 
@@ -219,7 +219,7 @@ $$
 $$
 d’après la prop. 4. On a donc $\dim_H(M/bM) \geq d - 1$, d’où le lemme 4.
 
-Reprenons la démonstration de la prop. 6, $b)$. On peut supposer $\dim_H(M) > 0$. Remarquons que tout élément minimal de $\mathrm{Supp}(M)$ est gradué (appliquer le lemme 1 du no 2 au quotient de $H$ par l’annulateur de $M$). D’après la prop. 8 de III, § 1, no 4, il existe donc un élément homogène $b$ de $H$, de degré $> 0$, n’appartenant à aucun des éléments minimaux $p$ de $\mathrm{Supp}(M)$ tels que $\dim(H/p) = \dim_H(M)$. D’après le lemme 4, on a $\dim_H(M/bM) = \dim_H(M) - 1$. Supposons de plus $H$ engendrée par $H_1$ comme $H_0$-algèbre et le corps résiduel $k$ de $H_0$ infini. Pour tout élément minimal $p$ de $\mathrm{Supp}(M)$, tel que $\dim(H/p) = \dim_H(M)$, considérons le sous-espace vectoriel $V_p = (p \cap H_1) \otimes_{H_0} k$ du $k$-espace vectoriel $V = H_1 \otimes_{H_0} k$. Si on avait $V_p = V$, on aurait $\mathfrak{p} \cap H_1 = H_1$ (II, § 3, n° 2, prop. 4), d’où $H_1 \subset \mathfrak{p}$ et $\dim_H(M) = \dim(H/\mathfrak{p}) \leq \dim(H/H_{\geq 1}) = 0$, ce qui n’est pas. Puisque $k$ est supposé infini, la réunion des $V_p$ est distincte de $V$; si $b \in H_1$ est tel que $b \otimes 1$ n’appartient à aucun des $V_p$, on a $\dim(M/bM) = \dim_H(M) - 1$.
+Reprenons la démonstration de la prop. 6, b). On peut supposer $\dim_H(M) > 0$. Remarquons que tout élément minimal de $\mathrm{Supp}(M)$ est gradué (appliquer le lemme 1 du no 2 au quotient de $H$ par l’annulateur de $M$). D’après la prop. 8 de III, § 1, no 4, il existe donc un élément homogène $b$ de $H$, de degré $> 0$, n’appartenant à aucun des éléments minimaux $p$ de $\mathrm{Supp}(M)$ tels que $\dim(H/p) = \dim_H(M)$. D’après le lemme 4, on a $\dim_H(M/bM) = \dim_H(M) - 1$. Supposons de plus $H$ engendrée par $H_1$ comme $H_0$-algèbre et le corps résiduel $k$ de $H_0$ infini. Pour tout élément minimal $p$ de $\mathrm{Supp}(M)$, tel que $\dim(H/p) = \dim_H(M)$, considérons le sous-espace vectoriel $V_p = (p \cap H_1) \otimes_{H_0} k$ du $k$-espace vectoriel $V = H_1 \otimes_{H_0} k$. Si on avait $V_p = V$, on aurait $\mathfrak{p} \cap H_1 = H_1$ (II, § 3, n° 2, prop. 4), d’où $H_1 \subset \mathfrak{p}$ et $\dim_H(M) = \dim(H/\mathfrak{p}) \leq \dim(H/H_{\geq 1}) = 0$, ce qui n’est pas. Puisque $k$ est supposé infini, la réunion des $V_p$ est distincte de $V$; si $b \in H_1$ est tel que $b \otimes 1$ n’appartient à aucun des $V_p$, on a $\dim(M/bM) = \dim_H(M) - 1$.
 
 Procédant par récurrence sur $d = \dim_H(M)$, on construit alors une suite $(b_1, ..., b_d)$ d’éléments de $H$, avec $b_i$ homogène de degré $n_i > 0$ et telle que $M / \sum_{i=1}^n b_i M$ soit un $H$-module de longueur finie. Si on suppose $H$ engendrée par $H_1$ comme $H_0$-algèbre et le corps résiduel de $H_0$ infini, on peut supposer $n_i = 1$ pour $i = 1, ..., d$. D’après la prop. 4, on a $\dim_{S^{-1}H}(S^{-1}M) = d$ et
 $$
@@ -253,13 +253,13 @@ $$
 $$
 *on a l’égalité pour tout $r$ si et seulement si $A$ est régulier de dimension $n$.*
 
-La condition est suffisante (\S 4, n° 4, th. 3 et \S 5, n° 2, th. 1). Montrons qu’elle est nécessaire. Considérons l’anneau gradué gr(A) = gr_{m_A}(A); soit k une extension infinie du corps $\kappa_A$, et posons $H = k \otimes_{\kappa_A} \mathrm{gr}(A)$. L’anneau H est de dimension $\geq n$ (prop. 5 et son corollaire); on déduit donc du cor. 1 l’existence d’un homomorphisme gradué injectif de k-algèbres graduées $\varphi : H_0[X_1, ..., X_n] \to H$. On a par conséquent, pour tout entier $r \geq 0$,
+La condition est suffisante (§ 4, n° 4, th. 3 et § 5, n° 2, th. 1). Montrons qu’elle est nécessaire. Considérons l’anneau gradué gr(A) = gr_{m_A}(A); soit k une extension infinie du corps $\kappa_A$, et posons $H = k \otimes_{\kappa_A} \mathrm{gr}(A)$. L’anneau H est de dimension $\geq n$ (prop. 5 et son corollaire); on déduit donc du cor. 1 l’existence d’un homomorphisme gradué injectif de k-algèbres graduées $\varphi : H_0[X_1, ..., X_n] \to H$. On a par conséquent, pour tout entier $r \geq 0$,
 
 $$
 [\mathrm{gr}_r(A) : \kappa_A] = [H_r : H_0] \geq \binom{n + r - 1}{n - 1},
 $$
 
-et l’égalité pour tout $r$ implique la bijectivité de $\varphi$, donc la régularité de A (\S 5, n° 2, th. 1).
+et l’égalité pour tout $r$ implique la bijectivité de $\varphi$, donc la régularité de A (§ 5, n° 2, th. 1).
 
 Les égalités
 
@@ -281,7 +281,7 @@ impliquent alors les assertions analogues pour la fonction $r \mapsto \mathrm{lo
 
 Soient A un anneau, r son radical, $R = \bigoplus_{i \in \mathbf{Z}} R_i$ une A-algèbre graduée, $M = \bigoplus_{i \in \mathbf{Z}} M_i$ un R-module gradué. On suppose que chaque $M_i$ est un A-module de type fini et que $M/rM$ est un $R/rR$-module de type fini. Alors M est un R-module de type fini.
 
-Soient $m_1, ..., m_n$ des éléments homogènes de M, dont les images dans $M/rM$ engendrent le $R/rR$-module $M/rM$. Soit N le sous-R-module (gradué) de M engendré par $\{ m_1, ..., m_n \}$. Pour tout $i \in \mathbf{Z}$, on a $M_i = N_i + rM_i$, donc $M_i = N_i$ (II, \S 3, n° 2, prop. 4); par suite on a $M = N$.
+Soient $m_1, ..., m_n$ des éléments homogènes de M, dont les images dans $M/rM$ engendrent le $R/rR$-module $M/rM$. Soit N le sous-R-module (gradué) de M engendré par $\{ m_1, ..., m_n \}$. Pour tout $i \in \mathbf{Z}$, on a $M_i = N_i + rM_i$, donc $M_i = N_i$ (II, § 3, n° 2, prop. 4); par suite on a $M = N$.
 
 #### Lemme 6 {#ac-viii-s6-lem-6 .statement}
 
@@ -293,13 +293,13 @@ $$
 f(x)\ x^{n(x)} + b_1(x)\ x^{n(x)-1} + \cdots + b_{n(x)} = 0.
 $$
 
-Soit $f = \prod_{x \in X} f(x)$; l’image de tout élément x de X dans $C_f$ est entière sur $B_f$, donc $C_f$ est une $B_f$-algèbre finie (V, \S 1, n° 1, prop. 4).
+Soit $f = \prod_{x \in X} f(x)$; l’image de tout élément x de X dans $C_f$ est entière sur $B_f$, donc $C_f$ est une $B_f$-algèbre finie (V, § 1, n° 1, prop. 4).
 
 #### Proposition 7 {#ac-viii-s6-prop-7 .statement}
 
 Supposons que H soit une $H_0$-algèbre de type fini. Alors la fonction $p \mapsto \dim(H \otimes_{H_0} \kappa(p))$ est semi-continue supérieurement sur $\mathrm{Spec}(H_0)$.
 
-Puisque H est de type fini comme $H_0$-algèbre, chaque $H_i$ est un $H_0$-module de type fini (III, § 1, no 2, corollaire à la prop. 1) et H est engendrée comme $H_0$-algèbre par $H_0 \oplus H_1 \oplus \cdots \oplus H_r$ pour un entier $r \geq 0$ convenable. Soit $p \in \mathrm{Spec}(H_0)$ et posons $\dim(H \otimes_{H_0} \kappa(p)) = n \geq 0$. D’après le corollaire 1 à la prop. 6, il existe des éléments $a_1, ..., a_n$ de H, tous homogènes de même degré $d > 0$, tels que le $\kappa(p)$-homomorphisme $\overline{\varphi} : \kappa(p)[X_1, ..., X_n] \to H \otimes_{H_0} \kappa(p)$ qui applique $X_i$ sur $a_i \otimes 1$ pour $1 \leq i \leq n$, fasse de $H \otimes_{H_0} \kappa(p)$ une $\kappa(p)[X_1, ..., X_n]$-algèbre finie. Notons $\varphi$ le $H_0$-homomorphisme de $H_0[X_1, ..., X_n] = R$ dans H qui applique $X_i$ sur $a_i$ pour $1 \leq i \leq n$. Si l’on pose, pour tout $m \in \mathbf{Z}$, $H'_m = \sum_{(m-1)d < i \leq md} H_i$, on obtient une graduation de type $\mathbf{Z}$ sur H, compatible avec la structure de R-module donnée par $\varphi$. Chaque $H'_m$ est de type fini sur $H_0$. D’après le lemme 5, $H_p$ est un $R_p$-module de type fini. D’après le lemme 6, il existe donc $f \in H_0 - p$ tel que $H_f$ soit un $R_f$-module de type fini. Pour tout $q \in \mathrm{Spec}(H_0)_f$, $H \otimes_{H_0} \kappa(q)$ est une $\kappa(q)[X_1, ..., X_n]$-algèbre finie, donc $\dim(H \otimes_{H_0} \kappa(q)) \leq n$ (\S 2, no 3, th. 1), ce qui achève la démonstration.
+Puisque H est de type fini comme $H_0$-algèbre, chaque $H_i$ est un $H_0$-module de type fini (III, § 1, no 2, corollaire à la prop. 1) et H est engendrée comme $H_0$-algèbre par $H_0 \oplus H_1 \oplus \cdots \oplus H_r$ pour un entier $r \geq 0$ convenable. Soit $p \in \mathrm{Spec}(H_0)$ et posons $\dim(H \otimes_{H_0} \kappa(p)) = n \geq 0$. D’après le corollaire 1 à la prop. 6, il existe des éléments $a_1, ..., a_n$ de H, tous homogènes de même degré $d > 0$, tels que le $\kappa(p)$-homomorphisme $\overline{\varphi} : \kappa(p)[X_1, ..., X_n] \to H \otimes_{H_0} \kappa(p)$ qui applique $X_i$ sur $a_i \otimes 1$ pour $1 \leq i \leq n$, fasse de $H \otimes_{H_0} \kappa(p)$ une $\kappa(p)[X_1, ..., X_n]$-algèbre finie. Notons $\varphi$ le $H_0$-homomorphisme de $H_0[X_1, ..., X_n] = R$ dans H qui applique $X_i$ sur $a_i$ pour $1 \leq i \leq n$. Si l’on pose, pour tout $m \in \mathbf{Z}$, $H'_m = \sum_{(m-1)d < i \leq md} H_i$, on obtient une graduation de type $\mathbf{Z}$ sur H, compatible avec la structure de R-module donnée par $\varphi$. Chaque $H'_m$ est de type fini sur $H_0$. D’après le lemme 5, $H_p$ est un $R_p$-module de type fini. D’après le lemme 6, il existe donc $f \in H_0 - p$ tel que $H_f$ soit un $R_f$-module de type fini. Pour tout $q \in \mathrm{Spec}(H_0)_f$, $H \otimes_{H_0} \kappa(q)$ est une $\kappa(q)[X_1, ..., X_n]$-algèbre finie, donc $\dim(H \otimes_{H_0} \kappa(q)) \leq n$ (§ 2, no 3, th. 1), ce qui achève la démonstration.
 
 #### Remarque 1 {#ac-viii-s6-n4-rem-1 .statement}
 

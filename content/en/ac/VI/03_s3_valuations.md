@@ -37,7 +37,7 @@ subsections:
       pdf_page: 410
 statements: 15
 exercises: 8
-content_sha256: 7c8006eb587e0c29f6ccf241727bf3ea54908994e1ee0854ab2d41fc36b2d06d
+content_sha256: 4c01a96f5b56dacb5b58c422ea901ae132099e793d91ecc0e08dbd4e6531aedb
 ---
 
 ## 3. VALUATIONS
@@ -139,7 +139,7 @@ $$
 Let $K$ be a (commutative) field, $f$ a place of $K$, $v$ a valuation on $K$ and $A$ a valuation ring of $K$. We shall say that $A, f$ and $v$ are *associated* if $A$ is the ring of $f$ and the ring of $v$. By virtue of no. 1 and § 2, no. 3, each of the three objects $A$, $f$ and $v$ then determines the other two (up to an equivalence as far as places and valuations are concerned). In particular there are the following equivalences:
 
 $$
-\begin{array}{lll}
+\begin{array}{lllll}
 x \in A & \Leftrightarrow & f(x) \neq \infty \\
 x \in m(A) & \Leftrightarrow & f(x) = 0 \\
 x \in A - m(A) = U(A) & \Leftrightarrow & f(x) \neq 0 \quad \text{and} \quad f(x) \neq \infty \Leftrightarrow v(x) = 0 \\

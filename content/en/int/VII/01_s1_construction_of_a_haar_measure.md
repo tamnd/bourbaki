@@ -56,7 +56,7 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: bb2e4dac8054be7f706d40123e45594629215f3acd354e292ab7ac1b0ae9e17c
+content_sha256: f223846d7e283fe3e359c0fdab7593b17359f020a6953967222d4e06deabaf12
 ---
 
 ## § 1. CONSTRUCTION OF A HAAR MEASURE
@@ -547,7 +547,7 @@ From this, one deduces immediately:
 
 This is moreover trivial when G is *commutative*. Note also that if G is *discrete*, then the measure on G for which each point has mass 1 is obviously a left and right Haar measure on G, called the *normalized* Haar measure on G. If G is *compact*, there exists one and only one Haar measure on G such that $\mu(G) = 1$; it is called the *normalized* Haar measure of G. The preceding two conventions are not in accord when G is both discrete and compact, that is, finite; when we are in this case we shall always explicitly specify what is meant by normalized Haar measure.
 
-Subgroups and quotient groups of a unimodular group are not always unimodular (\S 2, Exer. 5). See, however, Prop. 10 of \S 2, No. 7.
+Subgroups and quotient groups of a unimodular group are not always unimodular (§ 2, Exer. 5). See, however, Prop. 10 of § 2, No. 7.
 
 *We shall see later that semi-simple or nilpotent connected Lie groups are unimodular.*
 
@@ -763,7 +763,7 @@ The concepts of negligible, locally negligible, measurable and locally integrabl
 
 Sufficiency is obvious. Let $\nu \neq 0$ be a left quasi-invariant measure, and let us show that $\nu$ is equivalent to $\mu$. We can restrict ourselves to the case that $\nu > 0$. Let A be a compact subset of G. We will show, as will establish the proposition, that the conditions $\mu(A) = 0$, $\nu(A) = 0$ are equivalent (Ch. V, §5, No. 5, Th. 2).
 
-$a)$ For every $f \in \mathcal{K}_+(G)$, the function $(x, y) \mapsto f(x)\varphi_A(xy)$ on $G \times G$ is $(\nu \otimes \mu)$-integrable, because it is upper semi-continuous, bounded, and its support is contained in the compact set $K \times K^{-1}A$ if one sets $K = \operatorname{Supp} f$. Therefore, by the Lebesgue–Fubini theorem,
+a) For every $f \in \mathcal{K}_+(G)$, the function $(x, y) \mapsto f(x)\varphi_A(xy)$ on $G \times G$ is $(\nu \otimes \mu)$-integrable, because it is upper semi-continuous, bounded, and its support is contained in the compact set $K \times K^{-1}A$ if one sets $K = \operatorname{Supp} f$. Therefore, by the Lebesgue–Fubini theorem,
 
 $$
 \int d\nu(y) \int \varphi_A(xy)f(x)\,d\mu(x) = \int f(x)\,d\mu(x) \int \varphi_A(xy)\,d\nu(y).

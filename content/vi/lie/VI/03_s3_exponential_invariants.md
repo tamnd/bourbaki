@@ -28,9 +28,9 @@ subsections:
       pdf_page: 212
 statements: 12
 exercises: 2
-content_sha256: 4f47126adadf3898a093b80782466a29a62247ea4558a4b17e703ea30e42e05e
+content_sha256: 5c2b26962d70487e6aeed98e0c54db92be02c25e7edf71404b43276d6d969832
 translated_from: content/en/lie/VI/03_s3_exponential_invariants.md
-source_content_sha256: a1d623b664a3e6aeb9850e9dddd38396c5fe9526ee78a042d5bd1805375ab6bf
+source_content_sha256: 16fff2ef91958e3176073428ac5aa96104b5766117545ca5b13d57989a8e0cf7
 translation_model: gpt-5.4
 translation_run: translate-vi-f41c29d2
 glossary_version: 34
@@ -73,9 +73,9 @@ Do đó, $1 - X_1^j$ và $1 - X_1^m X_2^n$ là nguyên tố cùng nhau trong B. 
 
 ### 2. TRƯỜNG HỢP CỦA NHÓM TRỌNG SỐ; CÁC HẠNG TỬ CỰC ĐẠI
 
-Ta giữ lại các ký hiệu của số trước và cho R là một hệ căn rút gọn trong một không gian vectơ thực V. Trong phần còn lại của tiết diện này, ta lấy P là nhóm trọng số của R (\S 1, no. 9). Nhóm $W = W(R)$ tác động trên P, do đó cũng tác động trên đại số $A[P]$; ta có $w(e^p) = e^{w(p)}$ với $w \in W$ và $p \in P$.
+Ta giữ lại các ký hiệu của số trước và cho R là một hệ căn rút gọn trong một không gian vectơ thực V. Trong phần còn lại của tiết diện này, ta lấy P là nhóm trọng số của R (§ 1, no. 9). Nhóm $W = W(R)$ tác động trên P, do đó cũng tác động trên đại số $A[P]$; ta có $w(e^p) = e^{w(p)}$ với $w \in W$ và $p \in P$.
 
-Cho C là một buồng của R (\S 1, no. 5) và cho $B = (\alpha_i)_{1 \leq i \leq l}$ là cơ sở tương ứng của R. Ta trang bị cho V (và do đó cũng cho P) cấu trúc thứ tự được xác định bởi C. Nếu $p, p' \in P, p \geq p'$ khi và chỉ khi $p - p'$ là một tổ hợp tuyến tính của các $\alpha_i$ với các hệ số dương.
+Cho C là một buồng của R (§ 1, no. 5) và cho $B = (\alpha_i)_{1 \leq i \leq l}$ là cơ sở tương ứng của R. Ta trang bị cho V (và do đó cũng cho P) cấu trúc thứ tự được xác định bởi C. Nếu $p, p' \in P, p \geq p'$ khi và chỉ khi $p - p'$ là một tổ hợp tuyến tính của các $\alpha_i$ với các hệ số dương.
 
 #### Định nghĩa 1 {#lie-vi-s3-def-1 .statement}
 
@@ -123,11 +123,11 @@ w(J(x)) = \sum_{v \in W} \varepsilon(v).wv(x) = \varepsilon(w) \sum_{v \in W} \v
 $$
 và $J(x)$ là phản bất biến. Mặt khác, đặt $q = \mathrm{Card}(W)$. Với mọi phần tử phản bất biến $x$ của $A[P]$, ta có $J(x) = q.x$. Suy ra rằng, nếu $q$ khả nghịch trong $A$, thì ánh xạ $q^{-1}J$ là một *phép chiếu* từ $A[P]$ lên môđun con các phần tử phản bất biến.
 
-Gọi $\overline{\omega}_1, \ldots, \overline{\omega}_l$ là các trọng cơ bản tương ứng với buồng $C$. Các phần tử của $P \cap \overline{C}$ (resp. $P \cap C$) là các trọng có dạng $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$ với $n_i \geq 0$ (resp. $n_i > 0$) với $1 \leq i \leq l$ (\S 1, no. 10). Mặt khác,
+Gọi $\overline{\omega}_1, \ldots, \overline{\omega}_l$ là các trọng cơ bản tương ứng với buồng $C$. Các phần tử của $P \cap \overline{C}$ (resp. $P \cap C$) là các trọng có dạng $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$ với $n_i \geq 0$ (resp. $n_i > 0$) với $1 \leq i \leq l$ (§ 1, no. 10). Mặt khác,
 $$
 \rho = \overline{\omega}_1 + \cdots + \overline{\omega}_l
 $$
-là nửa tổng của các căn dương (*loc. cit.*) nên các phần tử của $P \cap C$ là các trọng có dạng $\rho + p$ với $p \in P \cap \overline{C}$. Cuối cùng, nếu $p \in P \cap C$, thì $w(p) < p$ với mọi $w \neq 1$ (\S 1, no. 6, Hệ quả của Mệnh đề 18) và do đó $e^p$ là số hạng cực đại duy nhất của $J(e^p)$.
+là nửa tổng của các căn dương (*loc. cit.*) nên các phần tử của $P \cap C$ là các trọng có dạng $\rho + p$ với $p \in P \cap \overline{C}$. Cuối cùng, nếu $p \in P \cap C$, thì $w(p) < p$ với mọi $w \neq 1$ (§ 1, no. 6, Hệ quả của Mệnh đề 18) và do đó $e^p$ là số hạng cực đại duy nhất của $J(e^p)$.
 
 #### Mệnh đề 1 {#lie-vi-s3-prop-1 .statement}
 
@@ -163,7 +163,7 @@ Vì $\rho \in P$, nên $d \in A[P]$.
 (ii) *Với mọi* $p \in P$, *phần tử* $J(e^p)$ *chia được duy nhất cho* $d$ *và thương* $J(e^p)/d$ *là một phần tử của* $A[P]$ *bất biến dưới* $W$.
 (iii) *Nếu 2 không phải là một ước của không trong* $A$, *phép nhân bởi* $d$ *là một song ánh từ tập hợp các phần tử của* $A[P]$ *bất biến dưới* $W$ *lên tập hợp các phần tử phản bất biến của* $A[P]$.
 
-Ta biết rằng, với $1 \leq i \leq l$, phép phản xạ $s_i = s_{\alpha_i}$ giữ ổn định tập các căn dương khác $\alpha_i$ và rằng $s_i(\alpha_i) = -\alpha_i$ (\S 1, no. 6, Hệ quả 1 của Mệnh đề 17). Do đó,
+Ta biết rằng, với $1 \leq i \leq l$, phép phản xạ $s_i = s_{\alpha_i}$ giữ ổn định tập các căn dương khác $\alpha_i$ và rằng $s_i(\alpha_i) = -\alpha_i$ (§ 1, no. 6, Hệ quả 1 của Mệnh đề 17). Do đó,
 $$
 s_i(d) = (e^{-\alpha_i/2} - e^{\alpha_i/2}) \prod_{\alpha \in R, \alpha > 0, \alpha \neq \alpha_i} (e^{\alpha/2} - e^{-\alpha/2}) \\
 = -d = \varepsilon(s_i).d.

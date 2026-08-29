@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: 95f347dde4bad64d15b77043241d26aae796defe4bd7b89294a510f8f01c36ce
+content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -421,7 +421,7 @@ We know that gr(A/p) is isomorphic to gr(A)/gr(p) (no. 4, Proposition 2) and hen
 
 Let $A$ be a ring and $m$ a two-sided ideal of $A$; the topology defined on $A$ by the $m$-adic filtration (no. 1, Example 3) is called the *m-adic topology*; as the *m*-adic filtration is exhaustive, $A$ is a topological ring with this topology (Corollary to Proposition 3). Similarly, for every $A$-module $E$, the topology defined by the $m$-adic filtration is called the *m-adic topology* on $E$; $E$ is a topological $A$-module under this topology.
 
-Let $m'$ be another two-sided ideal of $A$; for the $m'$-adic topology on $A$ to be *finer* than the $m$-adic topology, it is necessary and sufficient that there exist an integer $n > 0$ such that $m'^n \subset m$; the condition is necessary and, if it is fulfilled, $m'^{hn} \subset m^h$ for all $h > 0$ and hence the condition is sufficient. If $A$ is a *commutative Noetherian ring*, it amounts to the same to say that $V(m) \subset V(m')$ in the prime spectrum of $A$ (Chapter II, § 4, no. 3, Corollary 2 to Proposition 11 and § 2, no. 6, Proposition 15).
+Let $m'$ be another two-sided ideal of $A$; for the $m'$-adic topology on $A$ to be *finer* than the $m$-adic topology, it is necessary and sufficient that there exist an integer $n > 0$ such that ${m'}^n \subset m$; the condition is necessary and, if it is fulfilled, ${m'}^{hn} \subset m^h$ for all $h > 0$ and hence the condition is sufficient. If $A$ is a *commutative Noetherian ring*, it amounts to the same to say that $V(m) \subset V(m')$ in the prime spectrum of $A$ (Chapter II, § 4, no. 3, Corollary 2 to Proposition 11 and § 2, no. 6, Proposition 15).
 
 ### 6. COMPLETE FILTERED MODULES
 
@@ -750,13 +750,13 @@ This follows from Corollary 1 by induction on $n$.
 
 *If C is a commutative Noetherian ring, every finitely generated commutative C-algebra is a Noetherian ring.*
 
-Such an algebra is isomorphic to a quotient of a polynomial algebra C[X_1, ..., X_n] (\S 1, no. 1).
+Such an algebra is isomorphic to a quotient of a polynomial algebra C[X_1, ..., X_n] (§ 1, no. 1).
 
 #### Corollary 4 {#ac-iii-s2-thm-2-cor-4 .statement}
 
 *Let A be a graded commutative ring of type $\mathbf{N}$ and let $(A_n)$ be its graduation. For A to be Noetherian, it is necessary and sufficient that $A_n$ be Noetherian and that A be ajinitely generated A,-algebra.*
 
-The condition is sufficient by Corollary 3. Conversely, suppose A is Noetherian; $m = \sum_{n \geq 1} A_n$ which is an ideal of A, is then finitely generated; then A is a finitely generated A,-algebra (\S 1, no. 2, Corollary to Proposition 1); on the other hand $A_n$, which is isomorphic to $A/m$, is a Noetherian ring.
+The condition is sufficient by Corollary 3. Conversely, suppose A is Noetherian; $m = \sum_{n \geq 1} A_n$ which is an ideal of A, is then finitely generated; then A is a finitely generated A,-algebra (§ 1, no. 2, Corollary to Proposition 1); on the other hand $A_n$, which is isomorphic to $A/m$, is a Noetherian ring.
 
 #### Corollary 5 {#ac-iii-s2-thm-2-cor-5 .statement}
 

@@ -68,9 +68,9 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: 2d2856bd173e1a3df0620c31b86687b96342d4bef8aa8911e76b93d85129e3e0
+content_sha256: f86cafc30218bd5289bde014dee4a5ac625f7176cf21f2132529a8c5752f8cdd
 translated_from: content/en/lie/VI/04_s4_classification_of_root_systems.md
-source_content_sha256: 0c153ae39564b4d702d2c032dca1d31b01e6780eaeb4dcb9c8642c3524393f7c
+source_content_sha256: 885d53becbd2c5c2ecfaf01892276712763fa1f29752646fc20fb98bbf979c99
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-3374a7d1
 glossary_version: 34
@@ -395,7 +395,7 @@ It is clear that một tự đẳng cấu của $R$ xác định một tự đ�
 
 *Đồng cấu $\varphi$ xác định, qua thương, một đẳng cấu từ nhóm $A(R)/W(R)$ đến nhóm các tự đẳng cấu của biểu đồ Dynkin của $R$.*
 
-Rõ ràng, $\varphi(g) = \mathrm{Id}$ với mọi $g \in W(R)$. Mặt khác, Mệnh đề 1 cho thấy tồn tại một đẳng cấu $\psi$ từ nhóm các đẳng cấu của biểu đồ Dynkin của $R$ đến nhóm con $E$ gồm các phần tử của $A(R)$ giữ cố định một cơ sở $B$ đã cho của $R$, sao cho $\varphi \circ \psi = \mathrm{Id}$. Vì $A(R)$ là tích nửa trực tiếp của $E$ và $W(R)$ (\S 1, no. 5, Mệnh đề 16), hệ quả suy ra.
+Rõ ràng, $\varphi(g) = \mathrm{Id}$ với mọi $g \in W(R)$. Mặt khác, Mệnh đề 1 cho thấy tồn tại một đẳng cấu $\psi$ từ nhóm các đẳng cấu của biểu đồ Dynkin của $R$ đến nhóm con $E$ gồm các phần tử của $A(R)$ giữ cố định một cơ sở $B$ đã cho của $R$, sao cho $\varphi \circ \psi = \mathrm{Id}$. Vì $A(R)$ là tích nửa trực tiếp của $E$ và $W(R)$ (§ 1, no. 5, Mệnh đề 16), hệ quả suy ra.
 
 Trong thực hành, biểu đồ Dynkin $(X, f)$ được biểu diễn bởi một sơ đồ gồm các nút và các liên kết theo cách sau. Các nút tương ứng với các đỉnh của $X$; hai nút tương ứng với hai đỉnh phân biệt $i$ và $j$ được nối bởi 0, 1, 2 hoặc 3 liên kết trong các trường hợp 1), 2), 3) và 4) ở trên (xét đến việc đổi chỗ $i$ và $j$). Hơn nữa, trong các trường hợp 3) và 4), tức là khi $f(i, j) > 1$, hoặc khi các nghiệm $\alpha_i$ và $\alpha_j$ không trực giao và không cùng độ dài, dấu bất đẳng thức $>$ được đặt trên liên kết kép hoặc liên kết ba nối các nút tương ứng với $i$ và $j$, hướng về nút tương ứng với $j$ (tức là nghiệm ngắn nhất):
 
@@ -450,13 +450,13 @@ $$
 
 Rõ ràng biểu đồ \tilde{X} và ánh xạ \tilde{f} được định nghĩa như vậy không phụ thuộc vào lựa chọn B hay tích vô hướng.
 
-Nếu hạng l của R bằng 1, thì $I = \{i\}$ và $\alpha_0 = -\alpha_1$; do đó $\tilde{f}(0, i) = 1$. Nếu $l \geq 2$, $\alpha_0$ không tỉ lệ với bất kỳ $\alpha_i$ nào và $\langle \alpha_0 | \alpha_i \rangle$ là $\leq 0$ (\S 1, no. 8, Prop. 25). Với mọi cặp $(i, j)$ gồm các phần tử phân biệt của $\tilde{I}$, các khả năng duy nhất là các khả năng được ký hiệu bởi 1), 2), 3), 4) trong số trước (đặt, chẳng hạn, $n_{0i} = n(\alpha_0, \alpha_i)$ và $m_{0i} = order of s_{\alpha_0} s_{\alpha_i}$ với mọi $i \in I$).
+Nếu hạng l của R bằng 1, thì $I = \{i\}$ và $\alpha_0 = -\alpha_1$; do đó $\tilde{f}(0, i) = 1$. Nếu $l \geq 2$, $\alpha_0$ không tỉ lệ với bất kỳ $\alpha_i$ nào và $\langle \alpha_0 | \alpha_i \rangle$ là $\leq 0$ (§ 1, no. 8, Prop. 25). Với mọi cặp $(i, j)$ gồm các phần tử phân biệt của $\tilde{I}$, các khả năng duy nhất là các khả năng được ký hiệu bởi 1), 2), 3), 4) trong số trước (đặt, chẳng hạn, $n_{0i} = n(\alpha_0, \alpha_i)$ và $m_{0i} = order of s_{\alpha_0} s_{\alpha_i}$ với mọi $i \in I$).
 
-Trong trường hợp $l \geq 2$, biểu đồ Dynkin hoàn chỉnh được biểu diễn bởi một biểu đồ với cùng các quy ước như trong số trước, đôi khi chỉ ra bằng các đường chấm các liên kết nối đỉnh 0 với các đỉnh khác. Ta nhận xét rằng dấu bất đẳng thức > trên một liên kết như vậy, nếu tồn tại, luôn có hướng về phía đỉnh phân biệt với 0, vì $\alpha_0$ là một nghiệm dài nhất (\S 1, no. 8, Prop. 25). Đồ thị $(X, f)$ là đồ thị con thu được từ $(\tilde{X}, \tilde{f})$ bằng cách xóa đỉnh 0.
+Trong trường hợp $l \geq 2$, biểu đồ Dynkin hoàn chỉnh được biểu diễn bởi một biểu đồ với cùng các quy ước như trong số trước, đôi khi chỉ ra bằng các đường chấm các liên kết nối đỉnh 0 với các đỉnh khác. Ta nhận xét rằng dấu bất đẳng thức > trên một liên kết như vậy, nếu tồn tại, luôn có hướng về phía đỉnh phân biệt với 0, vì $\alpha_0$ là một nghiệm dài nhất (§ 1, no. 8, Prop. 25). Đồ thị $(X, f)$ là đồ thị con thu được từ $(\tilde{X}, \tilde{f})$ bằng cách xóa đỉnh 0.
 
 Tác động của $A(R)$ trên $(X, f)$ mở rộng thành một tác động trên $(\tilde{X}, \tilde{f})$, giữ cố định 0, và $W(R)$ tác động tầm thường trên $(\tilde{X}, \tilde{f})$.
 
-Ta giữ lại các ký hiệu của \S 2, Prop. 5 của \S 2, no. 2, cùng với Th. 1 của Chap. V, \S 3, no. 2, cho thấy rằng đồ thị Coxeter $\Sigma$ của nhóm Weyl affine $W_a(R)$ có thể thu được từ $(\tilde{X}, \tilde{f})$ bởi cùng các quy tắc mà đồ thị Coxeter của $W(R)$ được thu được từ $(X, f)$. Mặt khác, cho $G$ là chuẩn hóa tử của $W_a(R)$ (\S 2, no. 3). Với mỗi $g \in G$ tương ứng một tự đẳng cấu $\varphi(g)$ của $\Sigma$ và $\varphi(g) = \mathrm{Id}$ nếu $g \in W_a(R)$. Ngược lại, cho một tự đẳng cấu $\lambda$ của $\Sigma$ thì có, theo Prop. 11 của Chap. V, \S 4, no. 9, một phần tử duy nhất $g = \psi(\lambda)$ bảo toàn một alcôvơ $C$ đã cho và sao cho $\varphi(g) = \lambda$. Vì $G$ là tích nửa trực tiếp của nhóm con $G_C$ gồm các phần tử bảo toàn $C$ và $W_a(R)$ (\S 2, no. 3), ta suy ra rằng $\varphi$ xác định qua phép chuyển sang thương một đẳng cấu từ $G/W_a$ (hoặc từ $G_C$) đến $\operatorname{Aut}(\Sigma)$. Hiển nhiên rằng hợp của đẳng cấu này với ánh xạ chính tắc từ $A(R)/W(R)$ đến $G/W_a$ trùng với đồng cấu từ $A(R)/W(R)$ đến $\operatorname{Aut}(\Sigma)$ cảm sinh bởi đồng cấu từ $A(R)/W(R)$ đến $\operatorname{Aut}(\tilde{X}, \tilde{f})$ được định nghĩa ở trên. Theo \S 2, no. 3, nhóm $\operatorname{Aut}(\Sigma)$ đẳng cấu với tích nửa trực tiếp của
+Ta giữ lại các ký hiệu của § 2, Prop. 5 của § 2, no. 2, cùng với Th. 1 của Chap. V, § 3, no. 2, cho thấy rằng đồ thị Coxeter $\Sigma$ của nhóm Weyl affine $W_a(R)$ có thể thu được từ $(\tilde{X}, \tilde{f})$ bởi cùng các quy tắc mà đồ thị Coxeter của $W(R)$ được thu được từ $(X, f)$. Mặt khác, cho $G$ là chuẩn hóa tử của $W_a(R)$ (§ 2, no. 3). Với mỗi $g \in G$ tương ứng một tự đẳng cấu $\varphi(g)$ của $\Sigma$ và $\varphi(g) = \mathrm{Id}$ nếu $g \in W_a(R)$. Ngược lại, cho một tự đẳng cấu $\lambda$ của $\Sigma$ thì có, theo Prop. 11 của Chap. V, § 4, no. 9, một phần tử duy nhất $g = \psi(\lambda)$ bảo toàn một alcôvơ $C$ đã cho và sao cho $\varphi(g) = \lambda$. Vì $G$ là tích nửa trực tiếp của nhóm con $G_C$ gồm các phần tử bảo toàn $C$ và $W_a(R)$ (§ 2, no. 3), ta suy ra rằng $\varphi$ xác định qua phép chuyển sang thương một đẳng cấu từ $G/W_a$ (hoặc từ $G_C$) đến $\operatorname{Aut}(\Sigma)$. Hiển nhiên rằng hợp của đẳng cấu này với ánh xạ chính tắc từ $A(R)/W(R)$ đến $G/W_a$ trùng với đồng cấu từ $A(R)/W(R)$ đến $\operatorname{Aut}(\Sigma)$ cảm sinh bởi đồng cấu từ $A(R)/W(R)$ đến $\operatorname{Aut}(\tilde{X}, \tilde{f})$ được định nghĩa ở trên. Theo § 2, no. 3, nhóm $\operatorname{Aut}(\Sigma)$ đẳng cấu với tích nửa trực tiếp của
 
 $A(R)/W(R)$ bởi $P(R^*)/Q(R^*)$. và $P(R^*)/Q(R^*)$ đẳng cấu với nhóm $I_C = G_C \cap W'_a$ (với ký hiệu của § 2, no. 3): phần tử của $\operatorname{Aut}(\Sigma)$ tương ứng với phần tử $\gamma_i$ của $I_C$ biến đỉnh 0 thành đỉnh $i$ của $\Sigma$.
 
@@ -575,15 +575,15 @@ $$
 \varepsilon_i - \varepsilon_j = \alpha_i + \alpha_{i+1} + \cdots + \alpha_{j-1} \quad (1 \leq i < j \leq l).
 $$
 
-Vì vậy $(\alpha_1, \alpha_2, \ldots, \alpha_l)$ là một cơ sở của $R$ (\S 1, no. 7, Hệ quả 3 của Mệnh đề 20). Hơn nữa, $\| \alpha_i \|^2 = 2$ với $i < l$, $\| \alpha_l \|^2 = 1$, $(\alpha_i|\alpha_{i+1}) = -1$ với $1 \leq i \leq l-1$, $(\alpha_i|\alpha_j) = 0$ với $j > i + 1$: đồ thị Dynkin của $R$ do đó có kiểu $B_l$, điều này chỉ ra rằng $R$ là bất khả quy. Các nghiệm dương là các $\varepsilon_i$ và các $\varepsilon_i \pm \varepsilon_j$ ($i < j$).
+Vì vậy $(\alpha_1, \alpha_2, \ldots, \alpha_l)$ là một cơ sở của $R$ (§ 1, no. 7, Hệ quả 3 của Mệnh đề 20). Hơn nữa, $\| \alpha_i \|^2 = 2$ với $i < l$, $\| \alpha_l \|^2 = 1$, $(\alpha_i|\alpha_{i+1}) = -1$ với $1 \leq i \leq l-1$, $(\alpha_i|\alpha_j) = 0$ với $j > i + 1$: đồ thị Dynkin của $R$ do đó có kiểu $B_l$, điều này chỉ ra rằng $R$ là bất khả quy. Các nghiệm dương là các $\varepsilon_i$ và các $\varepsilon_i \pm \varepsilon_j$ ($i < j$).
 
-(III) Theo Định lý 1 (ii) của Chương V, \S 6, no. 2,
+(III) Theo Định lý 1 (ii) của Chương V, § 6, no. 2,
 
 $$
 h = n/l = 2l.
 $$
 
-(IV) Đặt $\tilde{\alpha} = \varepsilon_1 + \varepsilon_2 = \alpha_1 + 2\alpha_2 + 2\alpha_3 + \cdots + 2\alpha_l$, là một nghiệm. Tổng các tọa độ của nó đối với cơ sở $(\alpha_i)$ là $2l - 1 = h - 1$. Theo Mệnh đề 31 của \S 1, no. 11, $\tilde{\alpha}$ là nghiệm cao nhất của $R$. Ta có $(\tilde{\alpha}|\alpha_i) = 0$ với $i \neq 2$ và $(\tilde{\alpha}|\alpha_2) = 1$. Vì $\alpha_2$ có độ dài 1 (tương ứng $\sqrt{2}$) khi $l = 2$ (tương ứng $l \geq 3$), đồ thị Dynkin hoàn chỉnh của $R$ như sau:
+(IV) Đặt $\tilde{\alpha} = \varepsilon_1 + \varepsilon_2 = \alpha_1 + 2\alpha_2 + 2\alpha_3 + \cdots + 2\alpha_l$, là một nghiệm. Tổng các tọa độ của nó đối với cơ sở $(\alpha_i)$ là $2l - 1 = h - 1$. Theo Mệnh đề 31 của § 1, no. 11, $\tilde{\alpha}$ là nghiệm cao nhất của $R$. Ta có $(\tilde{\alpha}|\alpha_i) = 0$ với $i \neq 2$ và $(\tilde{\alpha}|\alpha_2) = 1$. Vì $\alpha_2$ có độ dài 1 (tương ứng $\sqrt{2}$) khi $l = 2$ (tương ứng $l \geq 3$), đồ thị Dynkin hoàn chỉnh của $R$ như sau:
 
 với $l = 2$
 
@@ -717,7 +717,7 @@ $$
 $$
 \alpha\_1 = \varepsilon\_1 - \varepsilon\_2,\ \alpha\_2 = \varepsilon\_2 - \varepsilon\_3, \ldots, \alpha\_l = \varepsilon\_l - \varepsilon\_{l+1},\ \alpha\_{l+1} = \varepsilon\_{l+1}.
 $$
-Vì $\alpha\_1, \ldots, \alpha\_l$ sinh $V$, $R = R' \cap V$ là một hệ nghiệm trong $V$ với cơ sở $(\alpha\_1, \ldots, \alpha\_l)$ (\S 1, no. 7, Hệ quả 4 của Mệnh đề 20). Theo phép tính các tích vô hướng trong no. 5, ngay lập tức thấy rằng $R$ là kiểu $A\_l$. Các phần tử của $R$ là các $\varepsilon\_i - \varepsilon\_j$ ($i \neq j, 1 \leq i \leq l+1, 1 \leq j \leq l+1$). Có $n = l(l+1)$ nghiệm. Các nghiệm dương là các $\varepsilon\_i - \varepsilon\_j$ với $i < j$.
+Vì $\alpha\_1, \ldots, \alpha\_l$ sinh $V$, $R = R' \cap V$ là một hệ nghiệm trong $V$ với cơ sở $(\alpha\_1, \ldots, \alpha\_l)$ (§ 1, no. 7, Hệ quả 4 của Mệnh đề 20). Theo phép tính các tích vô hướng trong no. 5, ngay lập tức thấy rằng $R$ là kiểu $A\_l$. Các phần tử của $R$ là các $\varepsilon\_i - \varepsilon\_j$ ($i \neq j, 1 \leq i \leq l+1, 1 \leq j \leq l+1$). Có $n = l(l+1)$ nghiệm. Các nghiệm dương là các $\varepsilon\_i - \varepsilon\_j$ với $i < j$.
 
 (III) Ta có $h = n/l = l+1$.
 
@@ -733,13 +733,13 @@ $$
 
 Với $l \geq 2$. $(\tilde{\alpha}|\alpha\_i) = 0$ với $0 < i < l$ và $(\tilde{\alpha}|\alpha\_1) = (\tilde{\alpha}|\alpha\_l) = 1$. Do đó đồ thị Dynkin hoàn chỉnh là:
 
-![Dynkin graph]$[https://i.imgur.com/3Q5z5QG.png](https://i.imgur.com/3Q5z5QG.png))
+![Dynkin graph](https://i.imgur.com/3Q5z5QG.png)
 
-(V) Đồng nhất $V$ với đối ngẫu của nó bằng cách sử dụng tích vô hướng, ta có $\tilde{\alpha} = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$ với mọi $\alpha \in \mathbf{R}$, do đó $R^\* = R$.
+(V) Đồng nhất $V$ với đối ngẫu của nó bằng cách sử dụng tích vô hướng, ta có $\tilde{\alpha} = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$ với mọi $\alpha \in \mathbf{R}$, do đó $R^* = R$.
 
-Đối với dạng $\Phi\_R$, độ dài của các nghiệm là $h^{-1/2} = (l+1)^{-1/2}$ (\S 1, no. 12); do đó $\Phi\_r(x, y) = (x|y)/2(l+1)$.
+Đối với dạng $\Phi\_R$, độ dài của các nghiệm là $h^{-1/2} = (l+1)^{-1/2}$ (§ 1, no. 12); do đó $\Phi\_r(x, y) = (x|y)/2(l+1)$.
 
-Ta có $\gamma(R) = (l+1)^2$ (\S 1, no. 12, công thức (20)).
+Ta có $\gamma(R) = (l+1)^2$ (§ 1, no. 12, công thức (20)).
 
 (VI) Cho $(\omega\_i)\_{1 \leq i \leq l}$ là họ các trọng số cơ bản. Đặt
 
@@ -756,23 +756,23 @@ $$
 dẫn dễ dàng đến
 
 $$
-\begin{align\*}
+\begin{align*}
 \omega\_i &= \varepsilon\_1 + \cdots + \varepsilon\_i - \frac{i}{l+1}(\varepsilon\_1 + \cdots + \varepsilon\_{l+1}) \\\\
 &= \frac{1}{l+1}((l-i+1)(\alpha\_1 + 2\alpha\_2 + \cdots + (i-1)\alpha\_{i-1}) \\\\
 &\qquad + i((l-i+1)\alpha\_i + (l-i)\alpha\_{i+1} + \cdots + \alpha\_l)).
-\end{align\*}
+\end{align*}
 $$
 
 (VII) Tổng các nghiệm dương là
 
 $$
-\begin{align\*}
+\begin{align*}
 2\rho &= l\varepsilon\_1 + (l-2)\varepsilon\_2 + (l-4)\varepsilon\_3 + \cdots - (l-2)\varepsilon\_l - l\varepsilon\_{l+1} \\\\
 &= l\alpha\_1 + 2(l-1)\alpha\_2 + \cdots + i(l-i+1)\alpha\_i + \cdots + l\alpha\_l.
-\end{align\*}
+\end{align*}
 $$
 
-(VIII) Đưa vào $E = \mathbf{R}^{l+1}$ nhóm con $L\_0$ của no. 4. Gọi $p$ là phép chiếu trực giao của $E$ lên $V$. Theo \S 1, no. 10, Mệnh đề 28, ta có
+(VIII) Đưa vào $E = \mathbf{R}^{l+1}$ nhóm con $L\_0$ của no. 4. Gọi $p$ là phép chiếu trực giao của $E$ lên $V$. Theo § 1, no. 10, Mệnh đề 28, ta có
 
 $$
 Q(R) = Q(R') \cap V \not\subset L\_0 \cap V, \quad \text{và} \quad P(R) = p(P(R'));
@@ -843,7 +843,7 @@ $$
 \varepsilon_{l-1} + \varepsilon_l = \alpha_l.
 $$
 
-nên $(\alpha_1, \ldots, \alpha_l)$ là một cơ sở của $R$ (\S 1, no. 2, Hệ quả 3 của Mệnh đề 20). Hơn nữa, $\| \alpha_i \| ^2 = 2$ với mọi $i$. $(\alpha_i|\alpha_j) = 0$ với $i + 1 < j$ trừ trường hợp $i = l-2, j = l$ khi đó $(\alpha_{l-2}|\alpha_l) = -1$, $(\alpha_i|\alpha_{i+1}) = -1$ với $i \leq l-2$, và cuối cùng $(\alpha_{l-1}|\alpha_l) = -1$; do đó đồ thị Dynkin của $R$ là kiểu $D_l$. Các nghiệm dương là $\varepsilon_i \pm \varepsilon_j$ với $i < j$.
+nên $(\alpha_1, \ldots, \alpha_l)$ là một cơ sở của $R$ (§ 1, no. 2, Hệ quả 3 của Mệnh đề 20). Hơn nữa, $\| \alpha_i \| ^2 = 2$ với mọi $i$. $(\alpha_i|\alpha_j) = 0$ với $i + 1 < j$ trừ trường hợp $i = l-2, j = l$ khi đó $(\alpha_{l-2}|\alpha_l) = -1$, $(\alpha_i|\alpha_{i+1}) = -1$ với $i \leq l-2$, và cuối cùng $(\alpha_{l-1}|\alpha_l) = -1$; do đó đồ thị Dynkin của $R$ là kiểu $D_l$. Các nghiệm dương là $\varepsilon_i \pm \varepsilon_j$ với $i < j$.
 
 (III) Ta có $h = n/l = 2(l-1)$.
 
@@ -996,7 +996,7 @@ $$
 
 (VIII) Ta có $Q(R) = L_2$ (no. 4), và $P(R) = Q(R)$ theo (VI). Do đó, chỉ số liên kết bằng 1.
 
-(IX) Họ các số mũ có 4 số hạng, và vì $h = 12$, nó phải chứa các số nguyên 1, 5, 7, 11, nguyên tố cùng nhau với 12 (\S 1, no. 11, Mệnh đề 30); do đó, đây là tất cả các số mũ của $W(R)$.
+(IX) Họ các số mũ có 4 số hạng, và vì $h = 12$, nó phải chứa các số nguyên 1, 5, 7, 11, nguyên tố cùng nhau với 12 (§ 1, no. 11, Mệnh đề 30); do đó, đây là tất cả các số mũ của $W(R)$.
 
 (X) và (XI) Tự đẳng cấu duy nhất của đồ thị Dynkin là tự đẳng cấu đồng nhất, do đó $A(R) = W(R)$ và $w_0 = -1$. Gọi $R'$ là tập hợp các phần tử dài nhất của $R$, tức là các $\pm \varepsilon_i \pm \varepsilon_j$; $R'$ là hệ nghiệm kiểu $D_4$ được xây dựng trong no. 8. Rõ ràng, mọi phần tử của $A(R)$ đều là một phần tử của $A(R')$. Ngược lại, một phần tử của $A(R')$ giữ $L_1$ ổn định (vì nó được sinh bởi $R'$), do đó cũng giữ $L_2$ liên kết của nó, và do đó cũng giữ $R$. Vậy $W(R) = A(R) = A(R')$. Theo no. 8, $W(R)$ là tích nửa trực tiếp của $S_3$ bởi $W(R')$, bản thân $W(R')$ là tích nửa trực tiếp của $S_4$ bởi $(\mathbf{Z}/2\mathbf{Z})^3$. Cấp của $W(R)$ là $3!4!2^3 = 2^7.3^2$.
 
@@ -1018,7 +1018,7 @@ với $\sum_{i=1}^8 \nu(i)$ chẵn.
 
 Ta đã thấy (no. 4) rằng $(\alpha|\beta) \in \mathbf{Z}$ với mọi $\alpha, \beta \in L_3$. Do đó, R là một hệ căn rút gọn. Số các nghiệm là $n = \binom{8}{2} . 4 + 2^7 = 240$.
 
-(II) Cho $\rho$ là vectơ $(0, 1, 2, 3, 4, 5, 6, 23)$ của $L_3$. Không có phần tử nào của R trực giao với $\rho$ (điều này hiển nhiên đối với các $\pm \varepsilon_i \pm \varepsilon_j$; nếu $\frac{1}{2} \sum_{i=1}^8 (-1)^{\nu(i)} \varepsilon_i$ trực giao với $\rho$, thì ta sẽ có $\sum_{i=1}^6 i(-1)^{\nu(i+1)} + 23(-1)^{\nu(8)} = 0$, điều này là không thể vì $\sum_{i=1}^6 i < 23$). Do đó (\S 1, no. 7, Hệ quả 2 của Mệnh đề 20) các $\alpha \in R$ sao cho $(\alpha|\rho) > 0$ là các nghiệm dương tương ứng với một chamber nào đó. Các nghiệm này là các $\pm \varepsilon_i + \varepsilon_j \ (i < j)$, và
+(II) Cho $\rho$ là vectơ $(0, 1, 2, 3, 4, 5, 6, 23)$ của $L_3$. Không có phần tử nào của R trực giao với $\rho$ (điều này hiển nhiên đối với các $\pm \varepsilon_i \pm \varepsilon_j$; nếu $\frac{1}{2} \sum_{i=1}^8 (-1)^{\nu(i)} \varepsilon_i$ trực giao với $\rho$, thì ta sẽ có $\sum_{i=1}^6 i(-1)^{\nu(i+1)} + 23(-1)^{\nu(8)} = 0$, điều này là không thể vì $\sum_{i=1}^6 i < 23$). Do đó (§ 1, no. 7, Hệ quả 2 của Mệnh đề 20) các $\alpha \in R$ sao cho $(\alpha|\rho) > 0$ là các nghiệm dương tương ứng với một chamber nào đó. Các nghiệm này là các $\pm \varepsilon_i + \varepsilon_j \ (i < j)$, và
 
 $$
 \frac{1}{2} (\varepsilon_8 + \sum_{i=1}^7 (-1)^{\nu(i)} \varepsilon_i)
@@ -1034,7 +1034,7 @@ $$
 \end{align*}
 $$
 
-và tám vectơ này tạo thành một cơ sở của $\mathbf{R}^8$. Theo \S 1, no. 6, Hệ quả 1 của Mệnh đề 19, $(\alpha_1, \alpha_2, \ldots, \alpha_8)$ là một cơ sở của R mà đối với đó các nghiệm dương là những nghiệm đã được định nghĩa ở trên. Ta có
+và tám vectơ này tạo thành một cơ sở của $\mathbf{R}^8$. Theo § 1, no. 6, Hệ quả 1 của Mệnh đề 19, $(\alpha_1, \alpha_2, \ldots, \alpha_8)$ là một cơ sở của R mà đối với đó các nghiệm dương là những nghiệm đã được định nghĩa ở trên. Ta có
 
 $$
 (\alpha_4|\alpha_5) = (\alpha_5|\alpha_6) = (\alpha_6|\alpha_7) = (\alpha_7|\alpha_8) = (\alpha_4|\alpha_2) = (\alpha_4|\alpha_3) = (\alpha_3|\alpha_1) = -1,
@@ -1054,7 +1054,7 @@ là một nghiệm. Tổng các tọa độ của nó theo $(\alpha_i)$ là $29 
 
 (V) Vì $(\alpha|\alpha) = 2$ với mọi $\alpha \in R$, ta có $R^- = R$.
 
-Đối với $\Phi_R$, bình phương độ dài của các nghiệm là $\frac{1}{30}$ (\S 1, no. 12). Do đó, $\Phi_R(x, y) = (x|y)/60$ và $\gamma(R) = 900$ (\S 1. no. 12, công thức (20)).
+Đối với $\Phi_R$, bình phương độ dài của các nghiệm là $\frac{1}{30}$ (§ 1, no. 12). Do đó, $\Phi_R(x, y) = (x|y)/60$ và $\gamma(R) = 900$ (§ 1. no. 12, công thức (20)).
 
 (VI) Tính các trọng số cơ bản ta được
 $$
@@ -1077,7 +1077,7 @@ $$
 \end{align*}
 $$
 
-(VII) Nửa tổng các nghiệm dương bằng tổng các trọng số cơ bản (\S 1, no. 10, Mệnh đề 29); điều này cho
+(VII) Nửa tổng các nghiệm dương bằng tổng các trọng số cơ bản (§ 1, no. 10, Mệnh đề 29); điều này cho
 $$
 \begin{align*}
 \rho &= \varepsilon_2 + 2\varepsilon_3 + 3\varepsilon_4 + 4\varepsilon_5 + 5\varepsilon_6 + 6\varepsilon_7 + 23\varepsilon_8 \\
@@ -1134,7 +1134,7 @@ $$
 
 (VI) Tính các trọng số cơ bản cho
 $$
-\begin{align\*}
+\begin{align*}
 \omega\_1 &= \varepsilon\_8 - \varepsilon\_7 = 2\alpha\_1 + 2\alpha\_2 + 3\alpha\_3 + 4\alpha\_4 + 3\alpha\_5 + 2\alpha\_6 + \alpha\_7 \\\\
 \omega\_2 &= \frac{1}{2}(\varepsilon\_1 + \varepsilon\_2 + \varepsilon\_3 + \varepsilon\_4 + \varepsilon\_5 + \varepsilon\_6 - 2\varepsilon\_7 + 2\varepsilon\_8) \\\\
 &= \frac{1}{2}(4\alpha\_1 + 7\alpha\_2 + 8\alpha\_3 + 12\alpha\_4 + 9\alpha\_5 + 8\alpha\_6 + 3\alpha\_7) \\\\
@@ -1148,8 +1148,10 @@ $$
 &= 2\alpha\_1 + 3\alpha\_2 + 4\alpha\_3 + 6\alpha\_4 + 5\alpha\_5 + 4\alpha\_6 + 2\alpha\_7 \\\\
 \omega\_7 &= \varepsilon\_6 + \frac{1}{2}(\varepsilon\_8 - \varepsilon\_7) \\\\
 &= \frac{1}{2}(2\alpha\_1 + 3\alpha\_2 + 4\alpha\_3 + 6\alpha\_4 + 5\alpha\_5 + 4\alpha\_6 + 3\alpha\_7).
-\end{align\*}
+\end{align*}
 $$
+
+### 12. HỆ KIỂU E_6
 
 (I) và (II) Cho $E = \mathbf{R}^8$, và cho $R_8$ là hệ nghiệm trong $E$ được xây dựng ở no. 10. Cho $V$ là không gian con vectơ của $E$ sinh bởi các nghiệm $\alpha_1, \ldots, \alpha_6$ của $R_8$; đây là phần bù trực giao của mặt phẳng sinh bởi hai trọng số cơ bản cuối cùng $\omega = \varepsilon_7 + \varepsilon_8$ và $\pi = \varepsilon_6 + \varepsilon_7 + 2\varepsilon_8$ của $R_8$.
 

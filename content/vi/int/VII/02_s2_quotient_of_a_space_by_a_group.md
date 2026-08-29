@@ -53,9 +53,9 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: ce15ec55927ab71005f3bacd65302b5d3d20b915697d1a12e07e0c8e6cbdab11
+content_sha256: 607f4b7bb4a870f343671558ebbfab770d216680894e15869cd7af1dc4cfe26c
 translated_from: content/en/int/VII/02_s2_quotient_of_a_space_by_a_group.md
-source_content_sha256: aa5da82a7db2a4fcd3f02956e627a46809b6c4112bb85259576d359ac3e9cfeb
+source_content_sha256: 808d1febed5e98d1a4693836305c73d1f084d7d8ef2e3631777c1dd0a2f4de4b
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-bacf869e
 glossary_version: 34
@@ -195,14 +195,14 @@ Nếu $f \in \mathcal{K}(X)$, thì $f^b \in \mathcal{K}(X/H)$. Ánh xạ $f \map
 
 — Ta sẽ chứng minh rằng ánh xạ $f \mapsto f^b$ là một *cấu xạ ngặt* (GT, III, §2, No. 8) từ $\mathcal{K}(X)$ lên $\mathcal{K}(X/H)$.
 
-$a)$ Ánh xạ là liên tục: chỉ cần chứng minh rằng, với mọi tập con compact $K$ của $X$, hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một ánh xạ liên tục của $\mathcal{K}(X, K)$ vào $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Mệnh đề 5); vì $H$ tác động đúng trong $X$, tập hợp $P$ của các $\xi \in H$ sao cho $K\xi$ giao với $K$ là compact; từ (3) suy ra $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, và điều này chứng minh mệnh đề của chúng ta.
+a) Ánh xạ là liên tục: chỉ cần chứng minh rằng, với mọi tập con compact $K$ của $X$, hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một ánh xạ liên tục của $\mathcal{K}(X, K)$ vào $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Mệnh đề 5); vì $H$ tác động đúng trong $X$, tập hợp $P$ của các $\xi \in H$ sao cho $K\xi$ giao với $K$ là compact; từ (3) suy ra $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, và điều này chứng minh mệnh đề của chúng ta.
 
-$b)$ Cho $K'$ là một tập con compact của $X/H$. Hãy chọn một tập con compact $K$ của $X$ sao cho $\pi(K) = K'$, và hãy chứng minh rằng hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một cấu xạ ngặt của $\mathcal{K}(X, K)$ lên $\mathcal{K}(X/H, K')$. Chỉ cần xây dựng một ánh xạ nghịch đảo phải cho hạn chế này (GT, III, §6, No. 2, Mệnh đề 3). Bây giờ, theo Bổ đề 1 của No. 1 (với các ký hiệu của bổ đề đó), ta thu được một ánh xạ nghịch đảo như vậy bằng cách hợp thành các ánh xạ sau:
+b) Cho $K'$ là một tập con compact của $X/H$. Hãy chọn một tập con compact $K$ của $X$ sao cho $\pi(K) = K'$, và hãy chứng minh rằng hạn chế của $f \mapsto f^b$ vào $\mathcal{K}(X, K)$ là một cấu xạ ngặt của $\mathcal{K}(X, K)$ lên $\mathcal{K}(X/H, K')$. Chỉ cần xây dựng một ánh xạ nghịch đảo phải cho hạn chế này (GT, III, §6, No. 2, Mệnh đề 3). Bây giờ, theo Bổ đề 1 của No. 1 (với các ký hiệu của bổ đề đó), ta thu được một ánh xạ nghịch đảo như vậy bằng cách hợp thành các ánh xạ sau:
 $\alpha)$ ánh xạ $f' \mapsto f' \circ \pi$ của $\mathcal{K}(X/H, K')$ vào tập hợp $E$ các hàm của $\mathcal{K}^1(X)$ có giá được chứa trong $KH$;
 $\beta)$ ánh xạ của $E$ vào $E$ mà, với mỗi $g \in E$, tương ứng hàm bằng $g/u^1$ trên $KH$, và bằng 0 trên $X - KH$;
 $\gamma)$ ánh xạ của $E$ vào $\mathcal{K}(X)$ mà, với mỗi hàm $h \in E$, tương ứng $uh$.
 
-$c)$ Điều này đã được thiết lập, nếu $V$ là một lân cận lồi của 0 trong $\mathcal{K}(X)$, thì $V \cap \mathcal{K}(X, K)$ là một lân cận lồi của 0 trong $\mathcal{K}(X, K)$, do đó $V^b \cap \mathcal{K}(X/H, K')$ là một lân cận lồi của 0 trong $\mathcal{K}(X/H, K')$ theo b), do đó $V^b$ là một lân cận của 0 trong $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). Điều này hoàn tất chứng minh.
+c) Điều này đã được thiết lập, nếu $V$ là một lân cận lồi của 0 trong $\mathcal{K}(X)$, thì $V \cap \mathcal{K}(X, K)$ là một lân cận lồi của 0 trong $\mathcal{K}(X, K)$, do đó $V^b \cap \mathcal{K}(X/H, K')$ là một lân cận lồi của 0 trong $\mathcal{K}(X/H, K')$ theo b), do đó $V^b$ là một lân cận của 0 trong $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). Điều này hoàn tất chứng minh.
 
 #### Mệnh đề 4 {#int-vii-s2-prop-4 .statement}
 
@@ -350,7 +350,7 @@ do đó $h \circ \pi$ là địa phương $\lambda^\#$-khả tích.
 
 #### Hệ quả 1 {#int-vii-s2-prop-6-cor-1 .statement}
 
-— Cho $\lambda, \lambda'$ là hai độ đo dương trên X/H. Để $\lambda'$ có cơ sở $\lambda$, cần và đủ rằng $\lambda'^\#$ có cơ sở $\lambda^\#$. Để $\lambda$ và $\lambda'$ tương đương, cần và đủ rằng $\lambda^\#$ và $\lambda'^\#$ tương đương.
+— Cho $\lambda, \lambda'$ là hai độ đo dương trên X/H. Để $\lambda'$ có cơ sở $\lambda$, cần và đủ rằng ${\lambda'}^\#$ có cơ sở $\lambda^\#$. Để $\lambda$ và $\lambda'$ tương đương, cần và đủ rằng $\lambda^\#$ và ${\lambda'}^\#$ tương đương.
 
 Mệnh đề đầu suy ra từ Mệnh đề 6, a) và c). Mệnh đề thứ hai suy ra từ mệnh đề đầu.
 
@@ -358,7 +358,7 @@ Mệnh đề đầu suy ra từ Mệnh đề 6, a) và c). Mệnh đề thứ ha
 
 — Cho $\lambda$ là một độ đo dương trên $X/H$, và $f$ là một hàm số trị số đo được theo $\lambda^\#$ trên $X$. Giả sử rằng, với mọi $\xi \in H$, $\delta(\xi)f = f$ địa phương $\lambda^\#$-hầu khắp nơi. Khi đó, tồn tại một hàm $\lambda$-đo được $g$ trên $X/H$ sao cho $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
 
-Thay $f$ bằng $f/(1+|f|)$, ta quy về trường hợp $f$ bị chặn, do đó khả tích địa phương theo $\lambda^\#$. Đặt $\mu = f \cdot \lambda^\#$. Giả thiết về $f$ suy ra rằng $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ với mọi $\xi \in H$. Khi đó tồn tại (Mệnh đề 4) một độ đo $\lambda'$ trên $X/H$ sao cho $\mu = \lambda'^\#$. Theo Hệ quả 1, tồn tại một hàm khả tích địa phương theo $\lambda$ $g$ trên $X/H$ sao cho $\lambda' = g \cdot \lambda$. Theo Mệnh đề 6, $f \cdot \lambda^\# = \lambda'^\# = (g \circ \pi) \cdot \lambda^\#$, do đó $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
+Thay $f$ bằng $f/(1+|f|)$, ta quy về trường hợp $f$ bị chặn, do đó khả tích địa phương theo $\lambda^\#$. Đặt $\mu = f \cdot \lambda^\#$. Giả thiết về $f$ suy ra rằng $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ với mọi $\xi \in H$. Khi đó tồn tại (Mệnh đề 4) một độ đo $\lambda'$ trên $X/H$ sao cho $\mu = {\lambda'}^\#$. Theo Hệ quả 1, tồn tại một hàm khả tích địa phương theo $\lambda$ $g$ trên $X/H$ sao cho $\lambda' = g \cdot \lambda$. Theo Mệnh đề 6, $f \cdot \lambda^\# = {\lambda'}^\# = (g \circ \pi) \cdot \lambda^\#$, do đó $f = g \circ \pi$ địa phương $\lambda^\#$-hầu khắp nơi.
 
 #### Hệ quả 3 {#int-vii-s2-prop-6-cor-3 .statement}
 
@@ -378,7 +378,7 @@ $$
 (\sup \lambda_\iota)^\# \geq \sup(\lambda_\iota^\#).
 $$
 
-Ngược lại, giả sử họ $(\lambda_\iota^\#)$ bị chặn trên và đặt $\nu = \sup(\lambda_\iota^\#)$. Vì $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ với mọi $\xi \in H$, hiển nhiên $\delta(\xi)\nu = \Delta_H(\xi)\nu$, do đó tồn tại một độ đo $\mu' \in \mathcal{M}(X/H)$ sao cho $\nu = \mu'^\#$. Vì $\lambda^\# \geq 0$ suy ra $\lambda \geq 0$, ta có $\mu' \geq \lambda_\iota$ với mọi $\iota$, điều này cho thấy họ $(\lambda_\iota)$ bị chặn trên và rằng $\nu = \mu'^\# \geq (\sup \lambda_\iota)^\#$, do đó
+Ngược lại, giả sử họ $(\lambda_\iota^\#)$ bị chặn trên và đặt $\nu = \sup(\lambda_\iota^\#)$. Vì $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ với mọi $\xi \in H$, hiển nhiên $\delta(\xi)\nu = \Delta_H(\xi)\nu$, do đó tồn tại một độ đo $\mu' \in \mathcal{M}(X/H)$ sao cho $\nu = {\mu'}^\#$. Vì $\lambda^\# \geq 0$ suy ra $\lambda \geq 0$, ta có $\mu' \geq \lambda_\iota$ với mọi $\iota$, điều này cho thấy họ $(\lambda_\iota)$ bị chặn trên và rằng $\nu = {\mu'}^\# \geq (\sup \lambda_\iota)^\#$, do đó
 
 $$
 \sup(\lambda_\iota^\#) \geq (\sup \lambda_\iota)^\#,
@@ -460,7 +460,7 @@ $$
 \int_X h(x) f(\pi(x)) d\lambda^\#(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}) \int_H h(x\xi) d\beta(\xi) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}),
 $$
 
-do đó a). Mệnh đề b) được chứng minh tương tự. Các mệnh đề của c) liên quan đến tính đo được, tính khả tích cốt yếu và công thức (14) sau đó có thể thu được bằng cách áp dụng các kết quả của Ch. V (\S4, Mệnh đề 3, \S5, Định lý 1, \S4, Định lý 2). Nếu $k$ là $\lambda$-khả tích, thì $h \cdot (k \circ \pi)$ là $\lambda^\#$-khả tích (Ch. V, \S3, No. 3, Định lý 1). Nếu $h \cdot (k \circ \pi)$ là $\lambda^\#$-khả tích, Mệnh đề 5 chứng minh rằng $(h \cdot (k \circ \pi))^b = h^b \cdot k = k$ là $\lambda$-khả tích. Nếu $k$ là $\lambda$-khả tích địa phương, thì $h \cdot (k \circ \pi)$ là $\lambda^\#$-khả tích địa phương (Mệnh đề 6). Sau cùng, giả sử $h \cdot (k \circ \pi)$ khả tích địa phương theo $\lambda^\#$; với mọi $f \in \mathcal{H}(X/H)$, $h \cdot (k \circ \pi) \cdot (f \circ \pi)$ có giá compact, và
+do đó a). Mệnh đề b) được chứng minh tương tự. Các mệnh đề của c) liên quan đến tính đo được, tính khả tích cốt yếu và công thức (14) sau đó có thể thu được bằng cách áp dụng các kết quả của Ch. V (§ 4, Mệnh đề 3, § 5, Định lý 1, § 4, Định lý 2). Nếu $k$ là $\lambda$-khả tích, thì $h \cdot (k \circ \pi)$ là $\lambda^\#$-khả tích (Ch. V, § 3, No. 3, Định lý 1). Nếu $h \cdot (k \circ \pi)$ là $\lambda^\#$-khả tích, Mệnh đề 5 chứng minh rằng $(h \cdot (k \circ \pi))^b = h^b \cdot k = k$ là $\lambda$-khả tích. Nếu $k$ là $\lambda$-khả tích địa phương, thì $h \cdot (k \circ \pi)$ là $\lambda^\#$-khả tích địa phương (Mệnh đề 6). Sau cùng, giả sử $h \cdot (k \circ \pi)$ khả tích địa phương theo $\lambda^\#$; với mọi $f \in \mathcal{H}(X/H)$, $h \cdot (k \circ \pi) \cdot (f \circ \pi)$ có giá compact, và
 $$
 |h \cdot (k \circ \pi) \cdot (f \circ \pi)| \leq M |h \cdot (k \circ \pi)|,
 $$
@@ -472,7 +472,7 @@ trong đó $M = \sup |f|$; do đó $h \cdot ((kf) \circ \pi)$ là $\lambda^\#$-k
 
 Trước hết giả sử $X/H$ là paracompact và cho $h$ là một hàm trên $X$ thỏa mãn các điều kiện của Mệnh đề 8. Nếu $k$ là một hàm số thực $\lambda$-khả tích trên $X/H$, thì $h \cdot (k \circ \pi)$ là $\lambda^\#$-khả tích và $(h \cdot (k \circ \pi))^b = k$ (Mệnh đề 9).
 
-Trong trường hợp tổng quát, cho $u \in L^1(X/H, \lambda)$. Tồn tại một hàm $f \in \mathcal{L}^1(X/H, \lambda)$ có lớp $u$ và bằng không ngoài một hợp đếm được các tập compact $K_n$. Định nghĩa theo quy nạp một dãy các tập mở tương đối compact $U_n$ của $X/H$ sao cho $U_{n+1} \supset K_n \cup \overline{U}_n$, và cho $V$ là hợp của các $U_n$. Khi đó $V$ là một tập con mở của $X/H$, một hợp đếm được các tập con compact $\overline{U}_n$, do đó là paracompact (GT, I, \S9, No. 10, ĐL. 5). Đặt $Y = \overline{\pi}^{-1}(V)$ và ký hiệu $\lambda_V$ (resp. $\lambda_Y^\#$) là độ đo cảm sinh bởi $\lambda$ (resp. $\lambda^\#$) trên $V$ (resp. $Y$). Rõ ràng $Y/H$ có thể được đồng nhất với $V$ (GT, I, \S3, Mệnh đề 10) và rằng $\lambda_Y^\#$ có thể được đồng nhất với $(\lambda_V)^\#$. Hơn nữa, $f$ bằng không ngoài $V$ và thuộc $\mathcal{L}^1(V, \lambda_V)$. Do đó, tồn tại $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ sao cho $g^b = f$ hầu khắp nơi trên $V$. Mở rộng $g$ bằng 0 trên $X - Y$, ta thu được một hàm $g_1 \in \mathcal{L}^1(X, \lambda^\#)$, và rõ ràng lớp của $g_1^b$ trong $L^1(X/H, \lambda)$ không gì khác hơn là $u$.
+Trong trường hợp tổng quát, cho $u \in L^1(X/H, \lambda)$. Tồn tại một hàm $f \in \mathcal{L}^1(X/H, \lambda)$ có lớp $u$ và bằng không ngoài một hợp đếm được các tập compact $K_n$. Định nghĩa theo quy nạp một dãy các tập mở tương đối compact $U_n$ của $X/H$ sao cho $U_{n+1} \supset K_n \cup \overline{U}_n$, và cho $V$ là hợp của các $U_n$. Khi đó $V$ là một tập con mở của $X/H$, một hợp đếm được các tập con compact $\overline{U}_n$, do đó là paracompact (GT, I, § 9, No. 10, ĐL. 5). Đặt $Y = \overline{\pi}^{-1}(V)$ và ký hiệu $\lambda_V$ (resp. $\lambda_Y^\#$) là độ đo cảm sinh bởi $\lambda$ (resp. $\lambda^\#$) trên $V$ (resp. $Y$). Rõ ràng $Y/H$ có thể được đồng nhất với $V$ (GT, I, § 3, Mệnh đề 10) và rằng $\lambda_Y^\#$ có thể được đồng nhất với $(\lambda_V)^\#$. Hơn nữa, $f$ bằng không ngoài $V$ và thuộc $\mathcal{L}^1(V, \lambda_V)$. Do đó, tồn tại $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ sao cho $g^b = f$ hầu khắp nơi trên $V$. Mở rộng $g$ bằng 0 trên $X - Y$, ta thu được một hàm $g_1 \in \mathcal{L}^1(X, \lambda^\#)$, và rõ ràng lớp của $g_1^b$ trong $L^1(X/H, \lambda)$ không gì khác hơn là $u$.
 
 #### Nhận xét 3 {#int-vii-s2-n4-rem-3 .statement}
 
@@ -484,17 +484,17 @@ Trong trường hợp tổng quát, cho $u \in L^1(X/H, \lambda)$. Tồn tại m
 
 — *Cho G là một nhóm compact địa phương, $\mu$ là một độ đo Haar trái trên G, $\nu$ và $\nu'$ là hai độ đo quasi-bất biến khác không trên G. Nếu, với mọi $s \in G$, các mật độ của $\gamma(s)\nu$ đối với $\nu$ và của $\gamma(s)\nu'$* đối với $\nu'$ bằng nhau địa phương $\mu$-hầu khắp nơi, thì $\nu$ và $\nu'$ tỷ lệ với nhau.
 
-Viết $\nu = \rho \cdot \mu$, $\nu' = \rho' \cdot \mu$, trong đó $\rho, \rho'$ là các hàm địa phương khả tích theo $\mu$ trên G và khác không ở mọi nơi ($\S 1$, No. 9, Mệnh đề 11). Với mọi $s \in G$,
+Viết $\nu = \rho \cdot \mu$, $\nu' = \rho' \cdot \mu$, trong đó $\rho, \rho'$ là các hàm địa phương khả tích theo $\mu$ trên G và khác không ở mọi nơi ($§ 1$, No. 9, Mệnh đề 11). Với mọi $s \in G$,
 
 $$
 \gamma(s)\nu = (\gamma(s)\rho) \cdot \mu, \qquad \gamma(s)\nu' = (\gamma(s)\rho') \cdot \mu,
 $$
 
-và giả thiết suy ra rằng $\rho^{-1} \cdot \gamma(s)\rho = \rho'^{-1} \cdot \gamma(s)\rho'$ địa phương $\mu$-gần khắp nơi. Đặt $\sigma = \rho'/\rho$, là một hàm $\mu$-đo được trên $G$. Với mọi $s \in G$, $\gamma(s)\sigma = \sigma$ địa phương $\mu$-gần khắp nơi. Do đó $\sigma$ bằng một hằng số địa phương $\mu$-gần khắp nơi, theo Hệ quả 2 của Mệnh đề 6 áp dụng với $X = H = G$.
+và giả thiết suy ra rằng $\rho^{-1} \cdot \gamma(s)\rho = {\rho'}^{-1} \cdot \gamma(s)\rho'$ địa phương $\mu$-gần khắp nơi. Đặt $\sigma = \rho'/\rho$, là một hàm $\mu$-đo được trên $G$. Với mọi $s \in G$, $\gamma(s)\sigma = \sigma$ địa phương $\mu$-gần khắp nơi. Do đó $\sigma$ bằng một hằng số địa phương $\mu$-gần khắp nơi, theo Hệ quả 2 của Mệnh đề 6 áp dụng với $X = H = G$.
 
 Cho $G$ là một nhóm địa phương compact, $H$ là một nhóm con đóng của $G$. Xét không gian thuần nhất $G/H$ của các lớp ghép trái theo $H$, trên đó $G$ tác động liên tục ở bên trái. Ta sẽ ցույց rằng tồn tại một và chỉ một lớp các độ đo khác không gần bất biến trên $G/H$.
 
-Chú ý rằng $H$ tác động trên $G$ một cách liên tục và đúng đắn bởi các phép tịnh tiến phải; và không gian thương, chính là $G/H$, là paracompact (GT, III, $\S 4$, No. 6, Prop. 13). Vì thế ta có thể áp dụng các kết quả từ No. 1 đến 4, với $X = G$. Do đó ta có các ánh xạ $f \mapsto f^b$ từ $\mathcal{K}(G)$ lên $\mathcal{K}(G/H)$, và $\lambda \mapsto \lambda^\#$ từ $\mathcal{M}(G/H)$ vào $\mathcal{M}(G)$ (một khi đã cố định một độ đo Haar trái $\beta$ trên $H$). Việc $G$ tác động ở bên trái trên $G/H$ dẫn đến một tính chất bổ sung:
+Chú ý rằng $H$ tác động trên $G$ một cách liên tục và đúng đắn bởi các phép tịnh tiến phải; và không gian thương, chính là $G/H$, là paracompact (GT, III, $§ 4$, No. 6, Prop. 13). Vì thế ta có thể áp dụng các kết quả từ No. 1 đến 4, với $X = G$. Do đó ta có các ánh xạ $f \mapsto f^b$ từ $\mathcal{K}(G)$ lên $\mathcal{K}(G/H)$, và $\lambda \mapsto \lambda^\#$ từ $\mathcal{M}(G/H)$ vào $\mathcal{M}(G)$ (một khi đã cố định một độ đo Haar trái $\beta$ trên $H$). Việc $G$ tác động ở bên trái trên $G/H$ dẫn đến một tính chất bổ sung:
 
 $$
 \begin{align*}
@@ -531,7 +531,7 @@ c) $\Rightarrow$ b): Điều này suy ra ngay từ Hệ quả 1 của Mệnh đ�
 
 b) $\Rightarrow$ a): Nếu tính chất b) đúng, thì tập hợp các tập con địa phương $\lambda$-không đáng kể của $G/H$ là bất biến dưới tác động của $G$, do đó $\lambda$ là gần bất biến dưới tác động của $G$.
 
-a) $\Rightarrow$ c): Giả sử $\lambda$ là gần bất biến dưới tác động của $G$; với mọi $s \in G$, $\lambda$ và $\gamma_{G/H}(s)\lambda$ là tương đương, vì thế $\lambda^\#$ và $\gamma_G(s) \cdot \lambda^\# = (\gamma_{G/H}(s) \cdot \lambda)^\#$ là tương đương (Hệ quả 1 của Mệnh đề 6); vì $\lambda^\# \neq 0$, $\lambda^\#$ tương đương với $\mu$ (\S 1, No. 9, Mệnh đề 11).
+a) $\Rightarrow$ c): Giả sử $\lambda$ là gần bất biến dưới tác động của $G$; với mọi $s \in G$, $\lambda$ và $\gamma_{G/H}(s)\lambda$ là tương đương, vì thế $\lambda^\#$ và $\gamma_G(s) \cdot \lambda^\# = (\gamma_{G/H}(s) \cdot \lambda)^\#$ là tương đương (Hệ quả 1 của Mệnh đề 6); vì $\lambda^\# \neq 0$, $\lambda^\#$ tương đương với $\mu$ (§ 1, No. 9, Mệnh đề 11).
 
 Hơn nữa, với mọi $s \in G$,
 
@@ -554,7 +554,7 @@ a) *Bất kỳ hai độ đo gần bất biến không bằng không nào trên 
 
 b) *Cho $\lambda, \lambda'$ là hai độ đo gần bất biến không bằng không trên $G/H$. Nếu, với mọi $s \in G$, các mật độ của $\gamma_{G/H}(s)\lambda$ đối với $\lambda$ và của $\gamma_{G/H}(s)\lambda'$ đối với $\lambda'$ bằng nhau hầu khắp nơi theo $\lambda$ (hoặc $\lambda'$), thì $\lambda$ và $\lambda'$ tỉ lệ với nhau.*
 
-Mệnh đề a) suy ra ngay từ Bổ đề 4. Cho $\lambda$ và $\lambda'$ là hai độ đo gần bất biến không bằng không thỏa mãn điều kiện của b). Khi đó, với mọi $s \in G$, các mật độ của $\gamma_G(s)\lambda^\#$ đối với $\lambda^\#$ và của $\gamma_G(s)\lambda'^\#$ đối với $\lambda'^\#$ bằng nhau địa phương $\mu$-hầu khắp nơi, do đó (Bổ đề 3) $\lambda^\#$ và $\lambda'^\#$ tỉ lệ với nhau, suy ra $\lambda$ và $\lambda'$ tỉ lệ với nhau.
+Mệnh đề a) suy ra ngay từ Bổ đề 4. Cho $\lambda$ và $\lambda'$ là hai độ đo gần bất biến không bằng không thỏa mãn điều kiện của b). Khi đó, với mọi $s \in G$, các mật độ của $\gamma_G(s)\lambda^\#$ đối với $\lambda^\#$ và của $\gamma_G(s){\lambda'}^\#$ đối với ${\lambda'}^\#$ bằng nhau địa phương $\mu$-hầu khắp nơi, do đó (Bổ đề 3) $\lambda^\#$ và ${\lambda'}^\#$ tỉ lệ với nhau, suy ra $\lambda$ và $\lambda'$ tỉ lệ với nhau.
 
 Mặt khác, Bổ đề 4 rút việc tìm các độ đo gần bất biến không bằng không trên $G/H$ về việc tìm các độ đo trên $G$ tương đương với
 
@@ -700,7 +700,7 @@ Chú ý rằng điều kiện này được thỏa mãn khi $H$ đơn môđula.
 
 — Giả sử rằng $H$ đơn môđula và rằng trên $G/H$ tồn tại một độ đo dương bị chặn khác không $\nu$ bất biến tương đối dưới $G$. Khi đó $\nu$ bất biến, và $G$ đơn môđula.
 
-Cho $\chi$ là nhân tử của $\nu$. Với mọi $s \in G$, $\nu$ và $\gamma(s)\nu$ có cùng khối lượng toàn phần hữu hạn (\S 1, No. 1, công thức (6)); vì $\gamma(s)\nu = \chi(s)^{-1}\nu$, ta có $\chi(s) = 1$. Vậy $\nu$ bất biến. Theo Hệ quả 2, $\Delta_G(s) = 1$ với mọi $s \in H$. Cho $G'$ là tập hợp các $t \in G$ sao cho $\Delta_G(t) = 1$. Đây là một nhóm con chuẩn đóng của $G$ chứa $H$. Cho $\pi$ là ánh xạ chính tắc của $G/H$ lên $G/G'$. Khi đó $\pi(\nu)$ là một độ đo dương khác không, bị chặn, bất biến dưới $G$. Do đó độ đo Haar trái của nhóm $G/G'$ là hữu hạn, suy ra $G/G'$ compact (\S 1, No. 2, Mệnh đề 2). Vì thế ảnh của $G$ qua $\Delta_G$ là một nhóm con compact của $\mathbf{R}_+^*$; nhóm con này thu gọn thành $\{1\}$, do đó $\Delta_G = 1$ trên toàn bộ $G$.
+Cho $\chi$ là nhân tử của $\nu$. Với mọi $s \in G$, $\nu$ và $\gamma(s)\nu$ có cùng khối lượng toàn phần hữu hạn (§ 1, No. 1, công thức (6)); vì $\gamma(s)\nu = \chi(s)^{-1}\nu$, ta có $\chi(s) = 1$. Vậy $\nu$ bất biến. Theo Hệ quả 2, $\Delta_G(s) = 1$ với mọi $s \in H$. Cho $G'$ là tập hợp các $t \in G$ sao cho $\Delta_G(t) = 1$. Đây là một nhóm con chuẩn đóng của $G$ chứa $H$. Cho $\pi$ là ánh xạ chính tắc của $G/H$ lên $G/G'$. Khi đó $\pi(\nu)$ là một độ đo dương khác không, bị chặn, bất biến dưới $G$. Do đó độ đo Haar trái của nhóm $G/G'$ là hữu hạn, suy ra $G/G'$ compact (§ 1, No. 2, Mệnh đề 2). Vì thế ảnh của $G$ qua $\Delta_G$ là một nhóm con compact của $\mathbf{R}_+^*$; nhóm con này thu gọn thành $\{1\}$, do đó $\Delta_G = 1$ trên toàn bộ $G$.
 
 ### 7. Độ đo Haar trên một nhóm thương
 

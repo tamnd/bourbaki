@@ -49,9 +49,9 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: 413c4e77950f8e7b1380f0bbd512ff59bb9f48942d7f589ed00ffe1392087d27
+content_sha256: b216bbd57ca25034fd3347362a5096b68579dc16744797c7f981bedd37898a90
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
-source_content_sha256: 76952264b959dbe591e68dd36c4ec6f02ba9ab7f809b7a19e628b038082dd550
+source_content_sha256: c5c58d36fea84ed5e26883e391f20cf1b187d6e1a3de33d7c9e483038c5c4be1
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-ad8b440c
 glossary_version: 34
@@ -145,7 +145,7 @@ với $x_i \in M$, vì $\Lambda(u)$ là một đồng cấu đại số và $\La
 
 Chứng minh được suy ra từ chứng minh của § 6, no. 2, Mệnh đề 4, bằng cách thay thế $S$ bởi $\Lambda$ và $\mathfrak{g}'$ bởi $\mathfrak{g}''$.
 
-Nếu $u: M \to N$ là một ánh xạ tuyến tính đơn ánh, thì không phải lúc nào cũng đúng rằng $\Lambda(u)$ là một ánh xạ đơn ánh (\S 6, Bài tập 3) (xem tuy nhiên bên dưới no. 9, Hệ quả của Mệnh đề 12). Tuy nhiên điều này đúng khi $u$ là một đơn ánh sao cho $u(M)$ là một nhân tử trực tiếp của $N$ và khi đó ảnh của $\Lambda(u)$ (đẳng cấu với $\Lambda(M)$) là một nhân tử trực tiếp của $\Lambda(N)$; chứng minh giống như chứng minh cho các mệnh đề tương tự đối với $T(u)$ (\S 5, no. 2) bằng cách thay thế $T$ bởi $\Lambda$.
+Nếu $u: M \to N$ là một ánh xạ tuyến tính đơn ánh, thì không phải lúc nào cũng đúng rằng $\Lambda(u)$ là một ánh xạ đơn ánh (§ 6, Bài tập 3) (xem tuy nhiên bên dưới no. 9, Hệ quả của Mệnh đề 12). Tuy nhiên điều này đúng khi $u$ là một đơn ánh sao cho $u(M)$ là một nhân tử trực tiếp của $N$ và khi đó ảnh của $\Lambda(u)$ (đẳng cấu với $\Lambda(M)$) là một nhân tử trực tiếp của $\Lambda(N)$; chứng minh giống như chứng minh cho các mệnh đề tương tự đối với $T(u)$ (§ 5, no. 2) bằng cách thay thế $T$ bởi $\Lambda$.
 
 #### Mệnh đề 4 {#alg-iii-s7-prop-4 .statement}
 
@@ -219,9 +219,9 @@ Với $1 \leq h < h' \leq p$ hoặc $p + 1 \leq h < h' \leq n$, $\sigma(h') > \s
 
 #### Hệ quả 2 {#alg-iii-s7-lem-1-cor-2 .statement}
 
-Đại số phân bậc $\bigwedge(M)$ là phản xứng ($\S 4$, no. 9).
+Đại số phân bậc $\bigwedge(M)$ là phản xứng ($§ 4$, no. 9).
 
-Chỉ cần áp dụng Mệnh đề 13 của $\S 4$, no. 9 cho $\bigwedge(M)$, lấy tập hợp $M$ làm hệ sinh và sử dụng Mệnh đề 5.
+Chỉ cần áp dụng Mệnh đề 13 của $§ 4$, no. 9 cho $\bigwedge(M)$, lấy tập hợp $M$ làm hệ sinh và sử dụng Mệnh đề 5.
 
 #### Mệnh đề 6 {#alg-iii-s7-prop-6 .statement}
 
@@ -433,7 +433,7 @@ $$
 
 là giao hoán (xem § 4, no. 5, Hệ quả của Mệnh đề 8).
 
-Môđun con $A$-môđun của $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ mà $\Lambda^n(M)$ được đồng nhất với nó nhờ đẳng cấu $g$ có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} \Lambda(M_\lambda)$, do đó $\bigotimes_{\lambda \in L} \Lambda(M_\lambda) = \lim \to E_J$ tương ứng với tập có hướng $\mathcal{F}(L)$ gồm các tập con hữu hạn của $L$, theo định nghĩa ($\S 4$, no. 8, *Nhận xét* 1). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (vì vậy có giá đỡ *hữu hạn*) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá đỡ của họ $\nu$, ta viết
+Môđun con $A$-môđun của $\bigotimes_{\lambda \in L} \Lambda(M_\lambda)$ mà $\Lambda^n(M)$ được đồng nhất với nó nhờ đẳng cấu $g$ có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} \Lambda(M_\lambda)$, do đó $\bigotimes_{\lambda \in L} \Lambda(M_\lambda) = \lim \to E_J$ tương ứng với tập có hướng $\mathcal{F}(L)$ gồm các tập con hữu hạn của $L$, theo định nghĩa ($§ 4$, no. 8, *Nhận xét* 1). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (vì vậy có giá đỡ *hữu hạn*) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá đỡ của họ $\nu$, ta viết
 
 $$
 \Lambda^{J,\nu}(M) = \bigotimes_{\lambda \in J} \Lambda^{n_\lambda}(M_\lambda)
@@ -445,7 +445,7 @@ $$
 \sum_{\lambda \in L} n_\lambda = n
 $$
 
-($\S 4$, no. 7, Mệnh đề 10 và no. 8). Theo quy ước ta viết $\Lambda^{J,\nu}(M) = \{0\}$ cho các họ $\nu$ mà giá đỡ của chúng không được chứa trong $J$; khi đó
+($§ 4$, no. 7, Mệnh đề 10 và no. 8). Theo quy ước ta viết $\Lambda^{J,\nu}(M) = \{0\}$ cho các họ $\nu$ mà giá đỡ của chúng không được chứa trong $J$; khi đó
 
 E_{J,n} cũng có thể được gọi là tổng trực tiếp của tất cả các $\bigwedge^{J,\nu}(M)$, trong đó $\nu$ chạy qua tập $H_n$ gồm tất cả các họ $\nu = (n_\lambda)_{\lambda \in L}$ sao cho $\sum_{\lambda \in L} n_\lambda = n$. Vì $\bigwedge^0(M_\lambda)$ được đồng nhất với $A$, rõ ràng cũng với hai tập con hữu hạn $J \subset J'$ của $L$ và một họ $\nu$ có giá đỡ được chứa trong $J$, ánh xạ chính tắc $\bigwedge^{J,\nu}(M) \to \bigwedge^{J',\nu}(M)$ (hạn chế của ánh xạ chính tắc $E_J \to E_{J'}$ lên $\bigwedge^{J,\nu}(M)$) là song ánh. Nếu ta viết, với mọi $\nu \in H_n$,
 
@@ -499,7 +499,7 @@ $$
 
 Điều này suy ra từ Lý thuyết tập hợp, III, § 3, no. 5, Mệnh đề 12 và Lý thuyết tập hợp, III, § 5, no. 8, Hệ quả 1 của Mệnh đề 11.
 
-Ta trở lại trường hợp mà tập L trong Định lý 1 là tùy ý và cho tường minh bảng phép nhân (\S 1, no. 7) của cơ sở $(e_J)$. Cho hai tập con hữu hạn J, K của tập sắp thứ tự toàn phần L, ta viết
+Ta trở lại trường hợp mà tập L trong Định lý 1 là tùy ý và cho tường minh bảng phép nhân (§ 1, no. 7) của cơ sở $(e_J)$. Cho hai tập con hữu hạn J, K của tập sắp thứ tự toàn phần L, ta viết
 $$
 \begin{cases}
 \rho_{J, K} = 0 & \text{nếu } J \cap K \neq \varnothing \\
@@ -520,7 +520,7 @@ khi $J \cap K = \varnothing, j = \mathrm{Card}(J), k = \mathrm{Card}(K)$ (no. 3,
 
 *Nếu M là một A-môđun xạ ảnh, $\bigwedge(M)$ là một A-môđun xạ ảnh.*
 
-Chứng minh giống như của \S 5, no. 5, Hệ quả của Định lý 1, thay T bằng $\bigwedge$.
+Chứng minh giống như của § 5, no. 5, Hệ quả của Định lý 1, thay T bằng $\bigwedge$.
 
 #### Hệ quả 3 {#alg-iii-s7-thm-1-cor-3 .statement}
 
@@ -538,7 +538,7 @@ Khi đó $\bigwedge^n(M)$ là xạ ảnh (Hệ quả 2) và do đó ánh xạ ch
 $$
 \bigwedge^n(M) \to (\bigwedge^n(M))^{**}
 $$
-là đơn ánh (II, \S 2, no. 7, Hệ quả 4 của Mệnh đề 13); suy ra có một dạng tuyến tính $g : \bigwedge^n(M) \to A$ sao cho $g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$. Nếu f là dạng n-tuyến tính phản xứng tương ứng với g (no. 4, Mệnh đề 7), thì $f(x_1, \ldots, x_n) \neq 0$.
+là đơn ánh (II, § 2, no. 7, Hệ quả 4 của Mệnh đề 13); suy ra có một dạng tuyến tính $g : \bigwedge^n(M) \to A$ sao cho $g(x_1 \wedge x_2 \wedge \cdots \wedge x_n) \neq 0$. Nếu f là dạng n-tuyến tính phản xứng tương ứng với g (no. 4, Mệnh đề 7), thì $f(x_1, \ldots, x_n) \neq 0$.
 
 ### 9. CÁC TIÊU CHUẨN ĐỘC LẬP TUYẾN TÍNH
 

@@ -36,9 +36,9 @@ subsections:
       pdf_page: 81
 statements: 18
 exercises: 0
-content_sha256: 633cb23c277a9dffd8c758d639e7368759517e538737dea3bd1a9831065282c0
+content_sha256: 80854cd3b3b94e17de78b3b5c01b996b4aea108243c014d2ec94db5120623a09
 translated_from: content/en/lie/V/01_s1_hyperplanes_chambers_and_facets.md
-source_content_sha256: 08d3ad7c38a9e145a52c4176809f3769f2c3ee8866bc7e2d946613a4ee1b611a
+source_content_sha256: d79a67a6abd874fd314fbe2bcdfe35f01a4dbed5de50756cdd3d83045e3a21ea
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-d4c000b3
 glossary_version: 34
@@ -182,7 +182,7 @@ a) Với mọi $H \in \mathfrak{H}'$, tồn tại một nửa-không gian mở $
 
 b) *Tập hợp C không giao với bất kỳ siêu phẳng nào thuộc $\mathfrak{H} - \mathfrak{H}'$. Trong các điều kiện đó, C là một buồng xác định bởi $\mathfrak{H}$ trong E, và $D_H = D_H(C)$ với mọi $H \in \mathfrak{H}$.
 
-Các tính chất $a)$ và $b)$ cho thấy C là một tập con lồi của U; do đó tồn tại một buồng $C'$ sao cho $C \subset C'$. Vì $C \subset D_H$, ta có $D_H = D_H(C)$ với mọi H thuộc $\mathfrak{H}'$, do đó $C = D_{\mathfrak{H}'}(C) \supset D_{\mathfrak{H}}(C)$ vì $\mathfrak{H}' \subset \mathfrak{H}$; theo (6) ta có $D_{\mathfrak{H}}(C) = C'$, do đó $C \supset C'$. Vậy cuối cùng, $C = C'$.
+Các tính chất a) và b) cho thấy C là một tập con lồi của U; do đó tồn tại một buồng $C'$ sao cho $C \subset C'$. Vì $C \subset D_H$, ta có $D_H = D_H(C)$ với mọi H thuộc $\mathfrak{H}'$, do đó $C = D_{\mathfrak{H}'}(C) \supset D_{\mathfrak{H}}(C)$ vì $\mathfrak{H}' \subset \mathfrak{H}$; theo (6) ta có $D_{\mathfrak{H}}(C) = C'$, do đó $C \supset C'$. Vậy cuối cùng, $C = C'$.
 
 #### Mệnh đề 6 {#lie-v-s1-prop-6 .statement}
 
@@ -226,13 +226,13 @@ Theo Mệnh đề 7, (iii), tồn tại một điểm $a$ của $H$ không thu�
 
 *Cho* $C$ *là một buồng và* $\mathcal{M}$ *là tập hợp các vách của* $C$. *Khi đó* $C = D_{\mathcal{M}}(C)$ *và mọi tập con* $\mathcal{L}$ *của* $\mathfrak{H}$ *sao cho* $C = D_{\mathcal{L}}(C)$ *đều chứa* $\mathcal{M}$. *Một tập con* $F$ *của* $\overline{C}$ *là một mặt nếu và chỉ nếu nó là một mặt của* $E$ *đối với họ* $\mathcal{M}$.
 
-$a)$ Cho $\mathcal{L}$ là một tập con của $\mathfrak{H}$ sao cho $C = D_{\mathcal{L}}(C)$. Xét một siêu phẳng $L$ thuộc $\mathfrak{H}$ nhưng không thuộc $\mathcal{L}$; gọi $\mathfrak{N}$ là tập hợp các siêu phẳng $H \neq L$ thuộc $\mathfrak{H}$. Khi đó $\mathcal{L} \subset \mathfrak{N}$, do đó $C = D_{\mathfrak{N}}(C)$, và $L$ không cắt $D_{\mathfrak{N}}(C)$. Theo kéo theo (i) $\Longrightarrow$ (iii) trong Mệnh đề 4, siêu phẳng $L$ không phải là một vách của $C$. Do đó, mọi vách của $C$ đều thuộc $\mathcal{L}$.
+a) Cho $\mathcal{L}$ là một tập con của $\mathfrak{H}$ sao cho $C = D_{\mathcal{L}}(C)$. Xét một siêu phẳng $L$ thuộc $\mathfrak{H}$ nhưng không thuộc $\mathcal{L}$; gọi $\mathfrak{N}$ là tập hợp các siêu phẳng $H \neq L$ thuộc $\mathfrak{H}$. Khi đó $\mathcal{L} \subset \mathfrak{N}$, do đó $C = D_{\mathfrak{N}}(C)$, và $L$ không cắt $D_{\mathfrak{N}}(C)$. Theo kéo theo (i) $\Longrightarrow$ (iii) trong Mệnh đề 4, siêu phẳng $L$ không phải là một vách của $C$. Do đó, mọi vách của $C$ đều thuộc $\mathcal{L}$.
 
-$b)$ Giả sử rằng $C = D_{\mathcal{L}}(C)$. Cho $H$ là một siêu phẳng thuộc $\mathcal{L}$ mà không phải là một tường của $C$, và đặt $\mathcal{L}' = \mathcal{L} - \{ H \}$. Theo hệ quả (iii) $\Longrightarrow$ (i) trong Mệnh đề 4, tập lồi $D_{\mathcal{L}'}(C)$ không gặp $H$, nên $D_{\mathcal{L}'}(C) \subset D_H(C)$ và $C = D_{\mathcal{L}'}(C)$. Nếu $\mathfrak{F}$ là một tập con hữu hạn của $\mathcal{L}$ không chứa tường nào của $C$, ta kết luận bằng quy nạp theo lực lượng của $\mathfrak{F}$ rằng $C = D_{\mathcal{L} - \mathfrak{F}}(C)$.
+b) Giả sử rằng $C = D_{\mathcal{L}}(C)$. Cho $H$ là một siêu phẳng thuộc $\mathcal{L}$ mà không phải là một tường của $C$, và đặt $\mathcal{L}' = \mathcal{L} - \{ H \}$. Theo hệ quả (iii) $\Longrightarrow$ (i) trong Mệnh đề 4, tập lồi $D_{\mathcal{L}'}(C)$ không gặp $H$, nên $D_{\mathcal{L}'}(C) \subset D_H(C)$ và $C = D_{\mathcal{L}'}(C)$. Nếu $\mathfrak{F}$ là một tập con hữu hạn của $\mathcal{L}$ không chứa tường nào của $C$, ta kết luận bằng quy nạp theo lực lượng của $\mathfrak{F}$ rằng $C = D_{\mathcal{L} - \mathfrak{F}}(C)$.
 
-$c)$ Cho $a$ là một điểm của $C$; rõ ràng, $C \subset D_{\mathfrak{M}}(a)$. Cho $a'$ là một điểm của $D_{\mathfrak{M}}(a)$; vì đoạn đóng $[aa']$ là compact, tập hợp $\mathfrak{F}$ các siêu phẳng $H \in \mathfrak{H}$ cắt $[aa']$ là hữu hạn. Vì $a$ và $a'$ nằm thực sự về cùng một phía đối với mọi vách của $C$, không một vách nào của $C$ thuộc $\mathfrak{F}$; theo $b)$, ta có $C = D_{\mathfrak{H} - \mathfrak{F}}(C)$. Vì $a' \in D_{\mathfrak{H} - \mathfrak{F}}(a)$, ta có $a' \in C$. Vậy ta đã chứng minh rằng $D_{\mathfrak{M}}(a) \subset C$, điều này thiết lập phần thứ nhất của mệnh đề.
+c) Cho $a$ là một điểm của $C$; rõ ràng, $C \subset D_{\mathfrak{M}}(a)$. Cho $a'$ là một điểm của $D_{\mathfrak{M}}(a)$; vì đoạn đóng $[aa']$ là compact, tập hợp $\mathfrak{F}$ các siêu phẳng $H \in \mathfrak{H}$ cắt $[aa']$ là hữu hạn. Vì $a$ và $a'$ nằm thực sự về cùng một phía đối với mọi vách của $C$, không một vách nào của $C$ thuộc $\mathfrak{F}$; theo b), ta có $C = D_{\mathfrak{H} - \mathfrak{F}}(C)$. Vì $a' \in D_{\mathfrak{H} - \mathfrak{F}}(a)$, ta có $a' \in C$. Vậy ta đã chứng minh rằng $D_{\mathfrak{M}}(a) \subset C$, điều này thiết lập phần thứ nhất của mệnh đề.
 
-$d)$ Để chứng minh khẳng định cuối cùng của mệnh đề, rõ ràng chỉ cần chỉ ra rằng một tập con $F$ của $\overline{C}$ là một mặt của $E$ đối với $\mathcal{M}$ thì cũng là một mặt của $E$ đối với $\mathfrak{H}$, hay là mọi siêu phẳng $H \in \mathfrak{H}$ cắt $F$ đều chứa $F$. Vậy cho $H$ là một siêu phẳng cắt $F$ nhưng không chứa nó. Vì $F$ mở trong giá afin đỡ của nó, nên nó không nằm hoàn toàn về một phía của $H$. Suy ra $\overline{C}$ không nằm hoàn toàn về một phía của $H$ và do đó siêu phẳng $H$ không thuộc $\mathfrak{H}$, điều này kết thúc chứng minh.
+d) Để chứng minh khẳng định cuối cùng của mệnh đề, rõ ràng chỉ cần chỉ ra rằng một tập con $F$ của $\overline{C}$ là một mặt của $E$ đối với $\mathcal{M}$ thì cũng là một mặt của $E$ đối với $\mathfrak{H}$, hay là mọi siêu phẳng $H \in \mathfrak{H}$ cắt $F$ đều chứa $F$. Vậy cho $H$ là một siêu phẳng cắt $F$ nhưng không chứa nó. Vì $F$ mở trong giá afin đỡ của nó, nên nó không nằm hoàn toàn về một phía của $H$. Suy ra $\overline{C}$ không nằm hoàn toàn về một phía của $H$ và do đó siêu phẳng $H$ không thuộc $\mathfrak{H}$, điều này kết thúc chứng minh.
 
 #### Nhận xét 1 {#lie-v-s1-n4-rem-1 .statement}
 

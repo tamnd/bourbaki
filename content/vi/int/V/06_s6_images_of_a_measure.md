@@ -37,9 +37,9 @@ subsections:
       pdf_page: 326
 statements: 29
 exercises: 22
-content_sha256: d5668a88a103d0d87d1c7da074a03e53721d3b390d61a887638d51fc98bec124
+content_sha256: 1cba07830bf2d7a9c88038ea008030e0122e8d89ca2c8b3ddc0007f42edfd2b0
 translated_from: content/en/int/V/06_s6_images_of_a_measure.md
-source_content_sha256: 07fd8c147bf3436d7be92d0c198a63d1b8de55bbf0e6a850e0e091eeadc33991
+source_content_sha256: a70560a7e81a1387fafead635105a8388c5e8d3f23436033725b34a2d8dcc990
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-469b03b9
 glossary_version: 34
@@ -61,7 +61,7 @@ a) *đối với mọi hàm* $f \in \mathcal{K}(X)$, $f \circ \pi$ *là* $\mu$-*
 
 b) *đối với mọi tập compact* $K \subset X$, $\overline{\pi}^{-1}(K)$ *là* $\mu$-*khả tích về bản chất*.
 
-Ta đã nhận thấy rằng a) kéo theo rằng cặp $(\pi, 1)$ là $\mu$-thích nghi. Do đó (\S 4, No. 4, Th. 2), đối với mọi tập compact $K \subset X$, hàm $\varphi_K \circ \pi = \varphi_A$, trong đó $A = \overline{\pi}^{-1}(K)$, là $\mu$-khả tích về bản chất, nói cách khác, a) kéo theo b).
+Ta đã nhận thấy rằng a) kéo theo rằng cặp $(\pi, 1)$ là $\mu$-thích nghi. Do đó (§ 4, No. 4, Th. 2), đối với mọi tập compact $K \subset X$, hàm $\varphi_K \circ \pi = \varphi_A$, trong đó $A = \overline{\pi}^{-1}(K)$, là $\mu$-khả tích về bản chất, nói cách khác, a) kéo theo b).
 
 Ngược lại, giả sử rằng $\overline{\pi}^{-1}(K)$ là $\mu$-khả tích về bản chất đối với mọi tập con compact $K$ của $X$, và ta hãy chứng minh rằng a) được thỏa mãn. Thật vậy, cho $S$ là giá của $f$; vì $S$ là compact, đặt $A = \overline{\pi}^{-1}(S)$ ta có, theo giả thiết,
 
@@ -69,7 +69,7 @@ $$
 \int^\bullet |f(\pi(t))| \, d\mu(t) \leq \|f\| \int^\bullet \varphi_S(\pi(t)) \, d\mu(t) = \|f\| \int^\bullet \varphi_A(t) \, d\mu(t) < +\infty.
 $$
 
-Vì $f \circ \pi$ là $\mu$-đo được (Ch. IV, \S 5, No. 3, Th. 1), ta thấy rằng $f \circ \pi$ là $\mu$-khả tích về bản chất (\S 1, No. 3, Prop. 9).
+Vì $f \circ \pi$ là $\mu$-đo được (Ch. IV, § 5, No. 3, Th. 1), ta thấy rằng $f \circ \pi$ là $\mu$-khả tích về bản chất (§ 1, No. 3, Prop. 9).
 
 Tính chất b) hiển nhiên tương đương với tính chất sau (do đó cũng tương đương với a)):
 
@@ -77,7 +77,7 @@ c) *Đối với mọi điểm* $x$ *của* $X$, *tồn tại một lân cận* 
 
 #### Định nghĩa 1 {#int-v-s6-def-1 .statement}
 
-*Cho* $\mu$ *là một độ đo dương trên một không gian địa phương compact* $T$. *Một ánh xạ* $\pi$ *của* $T$ *vào một không gian địa phương compact* $X$ *được gọi là* $\mu$*-thực sự* (*hay thực sự đối với độ đo* $\mu$) *nếu cặp* $(\pi, 1)$ *là* $\mu$*-thích nghi*, *nghĩa là* (\S 4, No. 1), *nếu* $\pi$ *là* $\mu$*-đo được và thỏa mãn các điều kiện (tương đương) của Mệnh đề 1*. *Độ đo* $\int \varepsilon_{\pi(t)} \, d\mu(t)$ *trên* $X$ *khi đó được gọi là ảnh của* $\mu$ *qua* $\pi$ *và được ký hiệu là* $\pi(\mu)$.
+*Cho* $\mu$ *là một độ đo dương trên một không gian địa phương compact* $T$. *Một ánh xạ* $\pi$ *của* $T$ *vào một không gian địa phương compact* $X$ *được gọi là* $\mu$*-thực sự* (*hay thực sự đối với độ đo* $\mu$) *nếu cặp* $(\pi, 1)$ *là* $\mu$*-thích nghi*, *nghĩa là* (§ 4, No. 1), *nếu* $\pi$ *là* $\mu$*-đo được và thỏa mãn các điều kiện (tương đương) của Mệnh đề 1*. *Độ đo* $\int \varepsilon_{\pi(t)} \, d\mu(t)$ *trên* $X$ *khi đó được gọi là ảnh của* $\mu$ *qua* $\pi$ *và được ký hiệu là* $\pi(\mu)$.
 
 Do đó nếu $\nu = \pi(\mu)$ thì, theo định nghĩa, với $f \in \mathcal{K}(X)$ ta có
 
@@ -87,9 +87,9 @@ $$
 
 #### Nhận xét {#int-v-s6-n1-rem-1 .statement}
 
-— 1) Nếu $\mu$ là *bị chặn* (đặc biệt, nếu $\mu$ có giá compact) thì mọi ánh xạ $\mu$-đo được từ $T$ vào $X$ đều là $\mu$-thực sự (Ch. IV, \S 5, No. 3, Th. 1 và No. 6, Th. 5).
+— 1) Nếu $\mu$ là *bị chặn* (đặc biệt, nếu $\mu$ có giá compact) thì mọi ánh xạ $\mu$-đo được từ $T$ vào $X$ đều là $\mu$-thực sự (Ch. IV, § 5, No. 3, Th. 1 và No. 6, Th. 5).
 
-2) Nếu $\pi$ là $\mu$-đo được và nếu, với mọi tập con compact $K$ của $X$, $\overline{\pi}^{-1}(K)$ là tương đối compact, thì $\pi$ là $\mu$-thực sự (Ch. IV, \S 5, No. 5, Prop. 7 và No. 6, Th. 5); đặc biệt, mọi ánh xạ liên tục *thực sự* từ $T$ vào $X$ (GT, I, \S 10, No. 2, Th. 1) đều là $\mu$-thực sự đối với mọi độ đo dương $\mu$ trên $T$. Đặc biệt hơn, điều này đúng với mọi *đồng phôi* $\pi$ của $T$ lên X; độ đo $\nu = \pi(\mu)$ khi đó chính là độ đo trên X là phép chuyển của $\mu$ bởi $\pi$ (Ch. III, §1, No. 3).
+2) Nếu $\pi$ là $\mu$-đo được và nếu, với mọi tập con compact $K$ của $X$, $\overline{\pi}^{-1}(K)$ là tương đối compact, thì $\pi$ là $\mu$-thực sự (Ch. IV, § 5, No. 5, Prop. 7 và No. 6, Th. 5); đặc biệt, mọi ánh xạ liên tục *thực sự* từ $T$ vào $X$ (GT, I, § 10, No. 2, Th. 1) đều là $\mu$-thực sự đối với mọi độ đo dương $\mu$ trên $T$. Đặc biệt hơn, điều này đúng với mọi *đồng phôi* $\pi$ của $T$ lên X; độ đo $\nu = \pi(\mu)$ khi đó chính là độ đo trên X là phép chuyển của $\mu$ bởi $\pi$ (Ch. III, §1, No. 3).
 
 3) Giả sử rằng tôpô của X có một cơ sở đếm được; khi đó mọi ánh xạ $\pi$ của T vào X thỏa mãn điều kiện b) của Mệnh đề 1 là $\mu$-đo được, do đó là $\mu$-thực sự. Chỉ cần áp dụng Th. 4 của Ch. IV, §5, No. 5, bằng cách nhận thấy rằng X khi đó mêtric hóa được (GT, IX, §2, No. 9, Hệ quả của Prop. 16) và rằng, đối với mọi mêtric tương thích với tôpô của X, mọi quả cầu đóng là một hợp đếm được của các tập hợp compact.
 
@@ -158,7 +158,7 @@ Chỉ cần áp dụng Định lý 2 của §4, No. 4.
 
 — Để một tập con A của X là $\nu$-khả tích theo nghĩa bản chất, điều kiện cần và đủ là $\pi^{-1}(A)$ là $\mu$-khả tích theo nghĩa bản chất, trong trường hợp đó $\nu(A) = \mu(\pi^{-1}(A))$.
 
-Đặc biệt, với mọi tập compact $K \subset X$, $\nu(K) = \mu(\pi^{-1}(K))$. Từ điều này và Hệ quả 3 của Mệnh đề 2 suy ra rằng nếu $\mu$ là nguyên tử (\S5, No. 10) thì $\pi(\mu) = \nu$ cũng vậy. Vì, gọi M là tập hợp các $t \in T$ sao cho $\mu(\{t\}) \neq 0$; vì $\mu$ được mang bởi M, $\nu$ được mang bởi $\pi(M)$; hơn nữa, với mọi $x \in \pi(M)$ ta có $\nu(\{x\}) = \mu(\pi^{-1}(x)) > 0$, vì $\pi^{-1}(x)$ chứa ít nhất một điểm của M. Do đó $\nu$ là nguyên tử (\S5, No. 10, Mệnh đề 15).
+Đặc biệt, với mọi tập compact $K \subset X$, $\nu(K) = \mu(\pi^{-1}(K))$. Từ điều này và Hệ quả 3 của Mệnh đề 2 suy ra rằng nếu $\mu$ là nguyên tử (§ 5, No. 10) thì $\pi(\mu) = \nu$ cũng vậy. Vì, gọi M là tập hợp các $t \in T$ sao cho $\mu(\{t\}) \neq 0$; vì $\mu$ được mang bởi M, $\nu$ được mang bởi $\pi(M)$; hơn nữa, với mọi $x \in \pi(M)$ ta có $\nu(\{x\}) = \mu(\pi^{-1}(x)) > 0$, vì $\pi^{-1}(x)$ chứa ít nhất một điểm của M. Do đó $\nu$ là nguyên tử (§ 5, No. 10, Mệnh đề 15).
 
 ### 3. Các tính chất của ảnh của một độ đo dương
 
@@ -211,7 +211,7 @@ $$
 \pi(\mu) = \sup_\alpha \pi(\lambda_\alpha).
 $$
 
-Để $\pi$ là $\mu$-đo được, điều kiện cần và đủ là $\pi$ $\lambda_\alpha$-đo được với mọi $\alpha \in A$ (\S 1, No. 4, Hệ quả 2 của Mệnh đề 11). Giả sử điều kiện này được thỏa mãn; khi đó, nói rằng $\pi$ là $\mu$-thực sự tương đương với nói rằng, với mọi hàm $f \in \mathcal{K}_+(X)$,
+Để $\pi$ là $\mu$-đo được, điều kiện cần và đủ là $\pi$ $\lambda_\alpha$-đo được với mọi $\alpha \in A$ (§ 1, No. 4, Hệ quả 2 của Mệnh đề 11). Giả sử điều kiện này được thỏa mãn; khi đó, nói rằng $\pi$ là $\mu$-thực sự tương đương với nói rằng, với mọi hàm $f \in \mathcal{K}_+(X)$,
 
 $$
 \mu^\bullet(f \circ \pi) < +\infty.
@@ -223,7 +223,7 @@ $$
 \int^\bullet (f \circ \pi)\, d\mu = \sup_\alpha \int^\bullet (f \circ \pi)\, d\lambda_\alpha = \sup_\alpha \int^\bullet f\, d(\pi(\lambda_\alpha))
 $$
 
-(\S 1, No. 4, Prop. 11); do đó phần tử thứ nhất là hữu hạn với mọi $f \in \mathcal{K}_+(X)$ khi và chỉ khi họ $(\pi(\lambda_\alpha))$ nhận một cận trên nhỏ nhất $\theta$ trong $\mathcal{M}(X)$, trong trường hợp đó $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, một quan hệ tương đương với (5).
+(§ 1, No. 4, Prop. 11); do đó phần tử thứ nhất là hữu hạn với mọi $f \in \mathcal{K}_+(X)$ khi và chỉ khi họ $(\pi(\lambda_\alpha))$ nhận một cận trên nhỏ nhất $\theta$ trong $\mathcal{M}(X)$, trong trường hợp đó $\int (f \circ \pi)\, d\mu = \int f\, d\theta$, một quan hệ tương đương với (5).
 
 #### Hệ quả 1 {#int-v-s6-prop-6-cor-1 .statement}
 
@@ -361,7 +361,7 @@ $$
 \int^\bullet (f \circ \pi)\, d\nu = \int^\bullet d\mu(t) \int^\bullet (f \circ \pi)\, d\lambda_t = \int^\bullet f(t)g(t)\, d\mu(t),
 $$
 
-từ sự kiện rằng $\lambda_t$ tập trung trên $\overline{\pi}^{-1}(t)$. Ta biết rằng $g$ là $\mu$-đo được, vì $\Lambda$ là $\mu$-thích hợp (\S3, No. 1, Def. 1). Nói rằng vế đầu tiên là hữu hạn với mọi $f \in \mathcal{K}_+(T)$ do đó tương đương với nói rằng $g$ nguyên địa phương theo $\mu$ (\S5, Prop. 1), và trong trường hợp này (14) suy ra ngay từ các hệ thức trên.
+từ sự kiện rằng $\lambda_t$ tập trung trên $\overline{\pi}^{-1}(t)$. Ta biết rằng $g$ là $\mu$-đo được, vì $\Lambda$ là $\mu$-thích hợp (§ 3, No. 1, Def. 1). Nói rằng vế đầu tiên là hữu hạn với mọi $f \in \mathcal{K}_+(T)$ do đó tương đương với nói rằng $g$ nguyên địa phương theo $\mu$ (§ 5, Prop. 1), và trong trường hợp này (14) suy ra ngay từ các hệ thức trên.
 
 Vì vậy, chỉ còn lại việc loại bỏ giả thiết phụ. Nếu $g$ nguyên địa phương theo $\mu$, thì $g$ hữu hạn địa phương hầu khắp nơi theo $\mu$, và giả thiết quả thực được thỏa mãn. Giả sử rằng $\pi$ là $\nu$-thực sự, và hãy chứng minh rằng $g$ hữu hạn địa phương hầu khắp nơi. Gọi $\mathfrak{K}$ là tập hợp $\mu$-trù mật của các tập compact $K$ sao cho $\Lambda|K$ liên tục theo nghĩa mơ hồ; vì $g$ là đo được, ta chỉ cần chứng minh rằng mọi tập compact $K \in \mathfrak{K}$ sao cho $g|K = +\infty$ đều là $\mu$-không đáng kể. Bây giờ, gọi $\mathcal{H}$ là tập hợp các hàm $h \in \mathcal{K}_+(X)$ sao cho $h \leq 1$; đặt $g_h(t) = \lambda_t(h)$, ký hiệu $\Lambda_h$ là ánh xạ $\mu$-thích hợp $t \mapsto h \cdot \lambda_t$, ký hiệu $\nu_h$ là tích phân của $\Lambda_h$, và gọi $f$ là một phần tử của $\mathcal{K}_+(T)$ sao cho $f \geq \varphi_K$. Áp dụng công thức (14) cho $\Lambda_h$, ánh xạ này thỏa mãn giả thiết phụ, ta thu được:
 
@@ -378,7 +378,7 @@ Nhưng các hàm $fg_h|K$ tạo thành một tập có hướng tăng của các
 a) *Nếu $N \subset T$ là địa phương $\mu$-không đáng kể, thì $\overline{\pi}^{-1}(N)$ là địa phương $\nu$-không đáng kể.*
 b) *Nếu $f$ là một ánh xạ $\mu$-đo được từ $T$ vào một không gian tôpô $G$, thì $f \circ \pi$ là $\nu$-đo được.*
 
-Ta lấy lại các ký hiệu $\Lambda_h$, $\nu_h$, $g_h$ ở cuối chứng minh trước: $\nu_h$ là một độ đo bị chặn với mọi $h \in \mathcal{H}$, $\pi$ là $\nu_h$-thực sự, $g_h$ là địa phương $\mu$-khả tích, và $\pi(\nu_h) = g_h \cdot \mu$, một độ đo có cơ sở $\mu$. Do đó $N$ là địa phương không đáng kể (tương ứng $f$ là đo được) đối với độ đo $\pi(\nu_h)$ (\S5, No. 3, Hệ quả 1 của Mệnh đề 3 và Mệnh đề 4). Do đó $\overline{\pi}^{-1}(N)$ là địa phương không đáng kể (tương ứng $f \circ \pi$ là đo được) đối với độ đo $\nu_h$ (Hệ quả 2 của
+Ta lấy lại các ký hiệu $\Lambda_h$, $\nu_h$, $g_h$ ở cuối chứng minh trước: $\nu_h$ là một độ đo bị chặn với mọi $h \in \mathcal{H}$, $\pi$ là $\nu_h$-thực sự, $g_h$ là địa phương $\mu$-khả tích, và $\pi(\nu_h) = g_h \cdot \mu$, một độ đo có cơ sở $\mu$. Do đó $N$ là địa phương không đáng kể (tương ứng $f$ là đo được) đối với độ đo $\pi(\nu_h)$ (§ 5, No. 3, Hệ quả 1 của Mệnh đề 3 và Mệnh đề 4). Do đó $\overline{\pi}^{-1}(N)$ là địa phương không đáng kể (tương ứng $f \circ \pi$ là đo được) đối với độ đo $\nu_h$ (Hệ quả 2 của
 
 Mệnh đề 2, tương ứng Mệnh đề 3). Cuối cùng, ta nhận xét rằng các độ đo $\nu_h$ tạo thành một họ có hướng tăng của các độ đo dương mà cận trên là $\nu$, và áp dụng Hệ quả 1 (tương ứng Hệ quả 2) của Mệnh đề 11 của §1, No. 4.
 

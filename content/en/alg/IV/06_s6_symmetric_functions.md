@@ -42,7 +42,7 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: f7a0e80d120da9077c98a97dab5b6b671fd409baba6fbca94405b75c23042668
+content_sha256: 68bde2000afb4bbd942818b874edcd61e84848efa81c2169b8fe6e6f37bec379
 ---
 
 ## § 6. SYMMETRIC FUNCTIONS
@@ -497,15 +497,15 @@ $$
 p_k = (-1)^{k+1} k s_k + g_k(s_1, \ldots, s_s) \quad (1 \leq k \leq n).
 $$
 
-Since $k! . 1$ is invertible in $\mathbf{A}$, Lemma 2 of IV, p. 35 proves the existence of an automorphism $T$ of the topological $\mathbf{A}$-algebra $\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$ which maps $s_k$ to $p_k$ for $l \leq k \leq n$. Now Prop. 3, $a)$ is an immediate consequence.
+Since $k! . 1$ is invertible in $\mathbf{A}$, Lemma 2 of IV, p. 35 proves the existence of an automorphism $T$ of the topological $\mathbf{A}$-algebra $\mathbf{A}[[\mathbf{X}]]^{\text{sym}}$ which maps $s_k$ to $p_k$ for $l \leq k \leq n$. Now Prop. 3, a) is an immediate consequence.
 
 #### Corollary {#alg-iv-s6-n4-cor-1 .statement}
 
 — *Let $\xi_1, \ldots, \xi_n, \eta_1, \ldots, \eta_n$ be elements of $\mathbf{A}$ and suppose that $\mathbf{A}$ is an integral domain.*
 
-$a)$ *If $s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)$ for $1 \leq k \leq n$, then there exists a permutation $\sigma \in \mathfrak{S}_n$ such that $\eta_i = \xi_{\sigma(i)}$ for $1 \leq i \leq n$.*
+a) *If $s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)$ for $1 \leq k \leq n$, then there exists a permutation $\sigma \in \mathfrak{S}_n$ such that $\eta_i = \xi_{\sigma(i)}$ for $1 \leq i \leq n$.*
 
-$b)$ *Suppose that $n! . 1 \neq 0$ in $\mathbf{A}$ and*
+b) *Suppose that $n! . 1 \neq 0$ in $\mathbf{A}$ and*
 
 $$
 \xi_1^k + \cdots + \xi_n^k = \eta_1^k + \cdots + \eta_n^k
@@ -513,15 +513,15 @@ $$
 
 for $1 \leq k \leq n$. *Then there exists a permutation $\sigma \in \mathfrak{S}_n$ such that $\eta_i = \xi_{\sigma(i)}$ for $1 \leq i \leq n$.*
 
-Under the hypotheses $a)$ we have $\prod_{i=1}^n (X - \xi_i) = \prod_{i=1}^n (X - \eta_i)$. If we substitute $\eta_n$ for $X$, we find that $\prod_{i=1}^n (\eta_n - \xi_i) = 0$ and since $\mathbf{A}$ is an integral domain, there is an integer $\sigma(n)$ such that $l \ s \ \sigma(n) \leq n$ and $\eta_n = \xi_{\sigma(n)}$. Now the assertion $a)$ follows easily by induction because $\mathbf{A}[X]$ is an integral domain.
+Under the hypotheses a) we have $\prod_{i=1}^n (X - \xi_i) = \prod_{i=1}^n (X - \eta_i)$. If we substitute $\eta_n$ for $X$, we find that $\prod_{i=1}^n (\eta_n - \xi_i) = 0$ and since $\mathbf{A}$ is an integral domain, there is an integer $\sigma(n)$ such that $l \ s \ \sigma(n) \leq n$ and $\eta_n = \xi_{\sigma(n)}$. Now the assertion a) follows easily by induction because $\mathbf{A}[X]$ is an integral domain.
 
-Under the hypotheses of $b)$ there exist by Prop. 3 polynomials $\Pi_1, \ldots, \Pi_n$ in $n$ indeterminates, with coefficients in the field of fractions of $\mathbf{A}$ such that $s_k = \Pi_k(p_1, \ldots, p_n)$ for $1 \leq k \leq n$. Now the relation (23) implies
+Under the hypotheses of b) there exist by Prop. 3 polynomials $\Pi_1, \ldots, \Pi_n$ in $n$ indeterminates, with coefficients in the field of fractions of $\mathbf{A}$ such that $s_k = \Pi_k(p_1, \ldots, p_n)$ for $1 \leq k \leq n$. Now the relation (23) implies
 
 $$
 s_k(\xi_1, \ldots, \xi_n) = s_k(\eta_1, \ldots, \eta_n)
 $$
 
-for $1 \leq k \leq n$ and so $b)$ follows from $a)$.
+for $1 \leq k \leq n$ and so b) follows from a).
 
 ### 5. Symmetric functions in the roots of a polynomial
 

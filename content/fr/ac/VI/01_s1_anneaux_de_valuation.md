@@ -28,7 +28,7 @@ subsections:
       pdf_page: 89
 statements: 17
 exercises: 9
-content_sha256: 2f5638b81ea72515590804b23e69c16fef1eb9668cb5ae69dec7e110d2a72b4b
+content_sha256: 876d5c85f9558b5d3b375aec2586f6607c69c57777ef0b8d35256c4184698d42
 ---
 
 ## § 1. Anneaux de valuation.
@@ -47,7 +47,7 @@ a) on a $m(A) \subset m(B)$;
 b) B domine A;
 c) l’idéal $Bm(A)$ engendré par $m(A)$ dans B ne contient pas 1.
 
-Si $m(A) \subset m(B)$, $m(B) \cap A$ est un idéal de A qui ne contient pas 1 et qui contient l’idéal maximal $m(A)$; il lui est par suite égal, et $a)$ implique $b$. Si $B$ domine $A$, l’idéal $B_m(A)$ est contenu dans $m(B)$, donc ne contient pas 1; ainsi $b)$ implique $c$. Si $c)$ est satisfaite, $B_m(A)$ est contenu dans l’unique idéal maximal $m(B)$ de $B$, d’où $a$.
+Si $m(A) \subset m(B)$, $m(B) \cap A$ est un idéal de A qui ne contient pas 1 et qui contient l’idéal maximal $m(A)$; il lui est par suite égal, et a) implique $b$. Si $B$ domine $A$, l’idéal $B_m(A)$ est contenu dans $m(B)$, donc ne contient pas 1; ainsi b) implique $c$. Si c) est satisfaite, $B_m(A)$ est contenu dans l’unique idéal maximal $m(B)$ de $B$, d’où $a$.
 
 On notera que, si $K$ est un anneau, la relation « $B$ domine $A$ » est une *relation d’ordre* dans l’ensemble des sous-anneaux locaux de $K$.
 
@@ -67,15 +67,15 @@ Soient $B$ un anneau intègre, $A$ un sous-anneau de $B$, $\mathfrak{p}'$ un id�
 
 *Soient $K$ un corps, et $V$ un sous-anneau de $K$. Les conditions suivantes sont équivalentes*:
 
-$a)$ $V$ est un élément maximal de l’ensemble des sous-anneaux locaux de $K$, cet ensemble étant ordonné par la relation « $B$ domine $A$ » entre $A$ et $B$.
+a) $V$ est un élément maximal de l’ensemble des sous-anneaux locaux de $K$, cet ensemble étant ordonné par la relation « $B$ domine $A$ » entre $A$ et $B$.
 
-$b)$ *Il existe un corps algébriquement clos $L$, et un homomorphisme $h$ de $V$ dans $L$ qui est maximal dans l’ensemble des homomorphismes de sous-anneaux de $K$ dans $L$, ordonné par la relation « $g$ est un prolongement de $f$ » entre $f$ et $g$*.
+b) *Il existe un corps algébriquement clos $L$, et un homomorphisme $h$ de $V$ dans $L$ qui est maximal dans l’ensemble des homomorphismes de sous-anneaux de $K$ dans $L$, ordonné par la relation « $g$ est un prolongement de $f$ » entre $f$ et $g$*.
 
-$c)$ *Si $x \in K - V$, alors $x^{-1} \in V$*.
+c) *Si $x \in K - V$, alors $x^{-1} \in V$*.
 
-$d)$ *Le corps des fractions de $V$ est $K$, et l’ensemble des idéaux principaux de $V$ est totalement ordonné par la relation d’inclusion*.
+d) *Le corps des fractions de $V$ est $K$, et l’ensemble des idéaux principaux de $V$ est totalement ordonné par la relation d’inclusion*.
 
-$e)$ *Le corps des fractions de $V$ est $K$, et l’ensemble des idéaux de $V$ est totalement ordonné par la relation d’inclusion*.
+e) *Le corps des fractions de $V$ est $K$, et l’ensemble des idéaux de $V$ est totalement ordonné par la relation d’inclusion*.
 
 Nous démontrerons le théorème suivant le schéma logique
 
@@ -83,7 +83,7 @@ $$
 a) \implies b) \implies c) \implies d) \implies e) \implies a).
 $$
 
-Supposons $a)$ satisfaite. Alors $V$ est un anneau local. Soient $L$ une clôture algébrique du corps résiduel $\kappa(V)$, et $h$ l’homomorphisme canonique de V dans L. Soient V' un sous-anneau de K contenant V, et h' un homomorphisme de V' dans L prolongeant h. Si $\mathfrak{p}'$ est le noyau de h', on a $\mathfrak{p}' \cap V = m(V)$; donc (no 1, Exemple 2) $V_{\mathfrak{p}'}$ domine V, ce qui entraîne $V_{\mathfrak{p}'} = V$ et $V' = V$. Ainsi b) est satisfaite.
+Supposons a) satisfaite. Alors $V$ est un anneau local. Soient $L$ une clôture algébrique du corps résiduel $\kappa(V)$, et $h$ l’homomorphisme canonique de V dans L. Soient V' un sous-anneau de K contenant V, et h' un homomorphisme de V' dans L prolongeant h. Si $\mathfrak{p}'$ est le noyau de h', on a $\mathfrak{p}' \cap V = m(V)$; donc (no 1, Exemple 2) $V_{\mathfrak{p}'}$ domine V, ce qui entraîne $V_{\mathfrak{p}'} = V$ et $V' = V$. Ainsi b) est satisfaite.
 
 Supposons b) satisfaite. Soient L un corps algébriquement clos, h un homomorphisme de V dans L; supposons h maximal dans l’ensemble des homomorphismes de sous-anneaux de K dans L; soit $\mathfrak{p}$ le noyau de h. Les éléments de $h(V - \mathfrak{p})$ étant inversibles dans L, h se prolonge en un homomorphisme de $V_{\mathfrak{p}}$ dans L (Chap. II, § 2, no 1, prop. 1); donc $V = V_{\mathfrak{p}}$, ce qui montre que V est un anneau local, et que $\mathfrak{p}$ est son idéal maximal. Soit x un élément non nul de K; il nous faut montrer que l’un au moins des éléments $x, x^{-1}$ appartient à V, c’est-à-dire, en vertu du caractère maximal de h, que h peut être prolongé à $V[x]$ ou à $V[x^{-1}]$. Si x est entier sur V, ceci résulte du Chap. V, § 2, no 1, cor. 4 du th. 1. Si x n’est pas entier sur V, nous utiliserons le lemme suivant:
 

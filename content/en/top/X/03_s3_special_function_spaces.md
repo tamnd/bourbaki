@@ -32,14 +32,14 @@ subsections:
       pdf_page: 311
 statements: 31
 exercises: 10
-content_sha256: 9fd48fda6c93ba00fed2c64041652f863a82e9936880e73fb2c09a90216c6f27
+content_sha256: 3f6d494ba74f75788e329059160e46cefbfc7505d1880e3f812a679f7de36f35
 ---
 
 ## 3. SPECIAL FUNCTION SPACES
 
 ### 1. SPACES OF MAPPINGS INTO A METRIC SPACE
 
-Let $X$ be a set, $Y$ a uniform space, $(f_i)_{i \in I}$ a family of pseudometrics defining the uniform structure of $Y$ (Chapter IX, \S 1, no. 4), and let $\mathcal{S}$ be a set of subsets of $X$. For each $i \in I$, each set $A \in \mathcal{S}$, and each pair $(u, v)$ of mappings of $X$ into $Y$, write
+Let $X$ be a set, $Y$ a uniform space, $(f_i)_{i \in I}$ a family of pseudometrics defining the uniform structure of $Y$ (Chapter IX, § 1, no. 4), and let $\mathcal{S}$ be a set of subsets of $X$. For each $i \in I$, each set $A \in \mathcal{S}$, and each pair $(u, v)$ of mappings of $X$ into $Y$, write
 
 $$
 g_{i, A}(u, v) = \sup_{x \in A} f_i(u(x), v(x));
@@ -63,7 +63,7 @@ in general this pseudometric is not finite, but it is equivalent to a finite one
 
 Let $X$ be a topological space and let $Y$ be a metrizable uniform space. Suppose that there is a sequence $(K_n)$ of compact subsets of $X$ such that every compact subset of $X$ is contained in some $K_n$. Then the uniformity of compact convergence on $\mathcal{F}(X; Y)$ is metrizable.
 
-Since the $K_n$ cover $X$, $\mathcal{F}_c(X; Y)$ is isomorphic to a uniform subspace of $\prod_n \mathcal{F}_u(K_n; Y)$ ($\S 1$, no. 2, Remark 3), and the corollary therefore follows from Proposition 1 (Chapter IX, § 2, no. 4, Theorem 1, Corollary 2).
+Since the $K_n$ cover $X$, $\mathcal{F}_c(X; Y)$ is isomorphic to a uniform subspace of $\prod_n \mathcal{F}_u(K_n; Y)$ ($§ 1$, no. 2, Remark 3), and the corollary therefore follows from Proposition 1 (Chapter IX, § 2, no. 4, Theorem 1, Corollary 2).
 
 Note that this corollary applies in particular if $X$ is *locally compact and σ-compact* (Chapter I, § 9, no. 9, Proposition 15, Corollary 1).
 
@@ -97,7 +97,7 @@ For $\mathcal{B}_\mathfrak{S}(X; Y)$ is the inverse image of the subset $\prod_{
 
 *Let X be a topological space and Y a metric space. Then the space of all bounded continuous mappings of X into Y is both open and closed in $C_u(X; Y)$; it is complete if Y is complete.*
 
-The space in question is $\mathcal{B}(X; Y) \cap C_u(X; Y)$; the first assertion follows from Proposition 2; the second follows from the first ($\S 1$, no. 6, Theorem 2, Corollary 1).
+The space in question is $\mathcal{B}(X; Y) \cap C_u(X; Y)$; the first assertion follows from Proposition 2; the second follows from the first ($§ 1$, no. 6, Theorem 2, Corollary 1).
 
 ### 2. SPACES OF MAPPINGS INTO A NORMED SPACE
 
@@ -140,7 +140,7 @@ u(x_1, \ldots, x_i' + x_i'', \ldots, x_n) &= u(x_1, \ldots, x_i', \ldots, x_n) \
 u(x_1, \ldots, \lambda x_i, \ldots, x_n) &= \lambda u(x_1, \ldots, x_i, \ldots, x_n)
 \end{align*}
 $$
-($1 \leq i \leq n,\ x_i,\ x_i',\ x_i''$ arbitrary elements of $X_i$, $\lambda$ an arbitrary element of $K$); since both sides of the relations (1) are continuous functions of $u$ on $\mathcal{F}_s(X; Y)$ (\S 1, no. 2, Remark 6), the result follows (Chapter I, § 8, no. 1, Proposition 2).
+($1 \leq i \leq n,\ x_i,\ x_i',\ x_i''$ arbitrary elements of $X_i$, $\lambda$ an arbitrary element of $K$); since both sides of the relations (1) are continuous functions of $u$ on $\mathcal{F}_s(X; Y)$ (§ 1, no. 2, Remark 6), the result follows (Chapter I, § 8, no. 1, Proposition 2).
 
 #### Proposition 5 {#top-x-s3-prop-5 .statement}
 
@@ -226,7 +226,7 @@ b) The space $\mathcal{C}_c(X; Y)$ of continuous mappings of $X$ into $Y$, endow
 
 a) Let $X'$ be the compact space obtained by adjoining a point at infinity to $X$ (Chapter I, § 9, no. 8, Theorem 4); by definition, every function $f \in \mathcal{L}$ can be uniquely extended to a continuous function $\overline{f} : X' \to Y$, and $f \to \overline{f}$ is therefore a bijection of L onto $C(X'; Y)$; and this bijection is a homeomorphism of the space L onto $C_u(X'; Y)$ by Proposition 6 of § 1, no. 6. Since $X'$ is metrizable (Chapter IX, § 2, no. 9, Proposition 16, Corollary) the result follows from Theorem 1, applied to $X'$ and Y.
 
-b) Let $(U_n)$ be a covering of X by relatively compact open sets, such that every compact subset of X is contained in some $U_n$ (Chapter I, § 9, no. 9, Proposition 15, Corollary 1). If $S$ is the set of the $\overline{U}_n$, the topology of compact convergence on $C(X; Y)$ is the same as the topology of $S$-convergence. Consequently ($\S 1,$ no. 2, Remark 3) the space $C_c(X; Y)$ is homeomorphic to a subspace of the product $\prod_n C_u(\overline{U}_n; Y)$; since each of the compact spaces $\overline{U}_n$ has a countable base, it is metrizable (Chapter IX, § 2, no. 9, Proposition 16); each of the $C_u(\overline{U}_n; Y)$ is therefore metrizable and of countable type by Theorem 1, and hence so is $C_c(X; Y)$.
+b) Let $(U_n)$ be a covering of X by relatively compact open sets, such that every compact subset of X is contained in some $U_n$ (Chapter I, § 9, no. 9, Proposition 15, Corollary 1). If $S$ is the set of the $\overline{U}_n$, the topology of compact convergence on $C(X; Y)$ is the same as the topology of $S$-convergence. Consequently ($§ 1,$ no. 2, Remark 3) the space $C_c(X; Y)$ is homeomorphic to a subspace of the product $\prod_n C_u(\overline{U}_n; Y)$; since each of the compact spaces $\overline{U}_n$ has a countable base, it is metrizable (Chapter IX, § 2, no. 9, Proposition 16); each of the $C_u(\overline{U}_n; Y)$ is therefore metrizable and of countable type by Theorem 1, and hence so is $C_c(X; Y)$.
 
 Note that the space of all bounded continuous real-valued functions on $\mathbf{R}$, endowed with the topology of uniform convergence, is not of countable type (Exercise 4).
 
@@ -236,7 +236,7 @@ Note that the space of all bounded continuous real-valued functions on $\mathbf{
 
 *Let X be a topological space, Y a uniform space. For each compact subset K of X and each open subset U of Y, let T(K, U) denote the set of all continuous mappings $u : X \to Y$ such that $u(K) \subset U$. Then the sets $T(K, U)$ generate the topology of compact convergence on $C(X; Y)$.*
 
-Let $Y'$ be the Hausdorff uniform space associated with Y (Chapter II, § 3, no. 8) and let $i : Y \to Y'$ be the canonical mapping of Y onto $Y'$. The topology of compact convergence is the coarsest topology for which the mappings $u \to (i \circ u)|K$ of $C(X; Y)$ into $C_u(K; Y')$ are continuous, as K runs through the set of all compact subsets of X ($\S 1,$ no. 4, Proposition 4). Hence we obtain a subbase of the topology of $C_c(X; Y)$ by taking a subbase of the topology of $C_c(K; Y')$ for each compact subset K of X and then taking the union [in $\mathfrak{B}(C(X; Y))$] of the inverse images of these subbases in $C(X, Y)$. On the other hand, every open subset of Y is of the form $\overline{i}^{-1}(U')$, where $U'$ is open in $Y'$ (Chapter II, § 3, no. 7, Proposition 12); hence, for each compact subset $K' \supset K$, $T(K, \overline{i}^{-1}(U'))$ is the inverse image of $T(K, U')$ under the mapping
+Let $Y'$ be the Hausdorff uniform space associated with Y (Chapter II, § 3, no. 8) and let $i : Y \to Y'$ be the canonical mapping of Y onto $Y'$. The topology of compact convergence is the coarsest topology for which the mappings $u \to (i \circ u)|K$ of $C(X; Y)$ into $C_u(K; Y')$ are continuous, as K runs through the set of all compact subsets of X ($§ 1,$ no. 4, Proposition 4). Hence we obtain a subbase of the topology of $C_c(X; Y)$ by taking a subbase of the topology of $C_c(K; Y')$ for each compact subset K of X and then taking the union [in $\mathfrak{B}(C(X; Y))$] of the inverse images of these subbases in $C(X, Y)$. On the other hand, every open subset of Y is of the form $\overline{i}^{-1}(U')$, where $U'$ is open in $Y'$ (Chapter II, § 3, no. 7, Proposition 12); hence, for each compact subset $K' \supset K$, $T(K, \overline{i}^{-1}(U'))$ is the inverse image of $T(K, U')$ under the mapping
 
 $$
 C(X; Y) \to C_a(K'; Y').
@@ -294,7 +294,7 @@ For, by Theorem 3, this mapping is continuous if and only if the canonical injec
 
 #### Remark 3 {#top-x-s3-n4-rem-3 .statement}
 
-Let $X$ be a locally compact space and $Y$ a Hausdorff topological space. If $\mathcal{T}$ is a topology on a subset $H$ of $C(X; Y)$ such that the mapping $(u, x) \to u(x)$ is continuous on $H \times X$ and if also $H$ is *compact* with respect to $\mathcal{T}$, then $\mathcal{T}$ is the compact-open topology. For it is finer than the latter by Corollary 1, and since the compact-open topology is Hausdorff, the two topologies are identical. Note that if in addition $Y$ is *completely regular*, then $H$ is *equicontinuous* with respect to every uniformity compatible with the topology of $Y$ (\S 2, no. 5, Theorem 2, Corollary 3), and for every compact subset $K$ of $X$ the set
+Let $X$ be a locally compact space and $Y$ a Hausdorff topological space. If $\mathcal{T}$ is a topology on a subset $H$ of $C(X; Y)$ such that the mapping $(u, x) \to u(x)$ is continuous on $H \times X$ and if also $H$ is *compact* with respect to $\mathcal{T}$, then $\mathcal{T}$ is the compact-open topology. For it is finer than the latter by Corollary 1, and since the compact-open topology is Hausdorff, the two topologies are identical. Note that if in addition $Y$ is *completely regular*, then $H$ is *equicontinuous* with respect to every uniformity compatible with the topology of $Y$ (§ 2, no. 5, Theorem 2, Corollary 3), and for every compact subset $K$ of $X$ the set
 
 $$
 H(K) = \bigcup_{x \in K} H(x)
@@ -304,7 +304,7 @@ is compact, since it is the image of $H \times K$ under the continuous mapping $
 
 #### Corollary 2 {#top-x-s3-thm-3-cor-2 .statement}
 
-*Let $X, Y, Z$ be three topological spaces such that $X$ is Hausdorff and $Y$ is locally compact. Then the restriction to $C(X \times Y; Z)$ of the canonical bijection $\mathcal{F}(X \times Y; Z) \to \mathcal{F}(X; \mathcal{F}(Y; Z))$ (Set Theory, R, \S 4, no. 14) is a homeomorphism of $C_c(X \times Y; Z)$ onto $C_c(X; C_c(Y; Z))$.*
+*Let $X, Y, Z$ be three topological spaces such that $X$ is Hausdorff and $Y$ is locally compact. Then the restriction to $C(X \times Y; Z)$ of the canonical bijection $\mathcal{F}(X \times Y; Z) \to \mathcal{F}(X; \mathcal{F}(Y; Z))$ (Set Theory, R, § 4, no. 14) is a homeomorphism of $C_c(X \times Y; Z)$ onto $C_c(X; C_c(Y; Z))$.*
 
 This restriction is certainly a bijection
 
@@ -342,7 +342,7 @@ Let $X$ be a compact space and let $\Gamma$ be the group of all homeomorphisms o
 
 We know already (no. 4, Proposition 9) that the mapping $(u, v) \to v \circ u$ of $\Gamma \times \Gamma$ into $\Gamma$ is continuous with respect to this topology; thus we have to show that $u \to u^{-1}$ is continuous at every point $u_0$ of $\Gamma$. Since $u_0^{-1}$ is uniformly continuous on $X$, given any symmetric entourage $V$ of $X$ there exists an entourage $W$ of $X$ such that the relation $(x, x') \in W$ implies $(u_0^{-1}(x), u_0^{-1}(x')) \in V$. Hence, if $u \in \Gamma$ is such that $(u_0(x), u(x)) \in W$ for all $x \in X$, it follows that $(x, u_0^{-1}(u(x))) \in V$ for all $x \in X$, and therefore (as $u$ is bijective) $(u^{-1}(x), u_0^{-1}(x)) \in V$ for all $x \in X$. This completes the proof.
 
-Now let $X$ be a locally compact space and let $\Gamma$ be the group of all homeomorphisms of $X$ onto itself. The topology of compact convergence in $X$ is not necessarily compatible with the group structure of $\Gamma$ (Exercise 17). Let $X'$ denote the compact space obtained by adjoining a point at infinity $\omega$ to $X$. Every homeomorphism $u$ of $X$ onto itself extends uniquely to a homeomorphism $u'$ of $X'$ onto itself such that $u'(\omega) = \omega$ (Chapter I, § 10, no. 3, Corollary to Proposition 7), so that $\Gamma$ can be identified with the subgroup of the group $\Gamma'$ of all homeomorphisms of $X'$ onto itself, consisting of all homeomorphisms which leave $\omega$ fixed. The topology induced on $\Gamma$ by that of $C_u(X'; X')$ is therefore compatible with the group structure of $\Gamma'$ (Proposition 11), and $\Gamma$ is closed in $\Gamma'$ [with respect to the topology induced by that of $C_u(X'; X')$] because it is defined by the equation $u(\omega) = \omega$ (\S 1, no. 2, Remark 6). We denote by $\mathcal{T}_\beta$ the group topology thus defined on $\Gamma$; it is finer than the topology of compact convergence and can also (by virtue of \S 1, no. 6, Proposition 6) be defined as the topology of uniform convergence on $X$, when $X$ is endowed with the uniformity induced by the unique uniformity of $X'$.
+Now let $X$ be a locally compact space and let $\Gamma$ be the group of all homeomorphisms of $X$ onto itself. The topology of compact convergence in $X$ is not necessarily compatible with the group structure of $\Gamma$ (Exercise 17). Let $X'$ denote the compact space obtained by adjoining a point at infinity $\omega$ to $X$. Every homeomorphism $u$ of $X$ onto itself extends uniquely to a homeomorphism $u'$ of $X'$ onto itself such that $u'(\omega) = \omega$ (Chapter I, § 10, no. 3, Corollary to Proposition 7), so that $\Gamma$ can be identified with the subgroup of the group $\Gamma'$ of all homeomorphisms of $X'$ onto itself, consisting of all homeomorphisms which leave $\omega$ fixed. The topology induced on $\Gamma$ by that of $C_u(X'; X')$ is therefore compatible with the group structure of $\Gamma'$ (Proposition 11), and $\Gamma$ is closed in $\Gamma'$ [with respect to the topology induced by that of $C_u(X'; X')$] because it is defined by the equation $u(\omega) = \omega$ (§ 1, no. 2, Remark 6). We denote by $\mathcal{T}_\beta$ the group topology thus defined on $\Gamma$; it is finer than the topology of compact convergence and can also (by virtue of § 1, no. 6, Proposition 6) be defined as the topology of uniform convergence on $X$, when $X$ is endowed with the uniformity induced by the unique uniformity of $X'$.
 
 The topology $\mathcal{T}_\beta$ can be characterized as follows:
 
@@ -362,7 +362,7 @@ $$
 (u_0(x), u(x)) \in V \text{ for all } x \in X.
 $$
 
-Let $V_1$ be a symmetric open entourage of $X'$ such that $\overset{2}{V}_1 \subset V$; then $K_1 = X' - V_1(\omega)$ is a compact subset of $X$. Choose a symmetric open entourage $W$ of $X'$ such that $W \subset V$ and $W(\omega) \cap W(u_0^{-1}(K_1)) = \emptyset$; this is possible by Proposition 4 of Chapter II, \S 4, no. 3. Let $K_2 = X' - W(\omega)$, which is a compact subset of $X$. We shall see that $W$ and the compact set $K = K_1 \cup K_2$ do what is required. Since $W \subset V$, it is enough to show that the relation
+Let $V_1$ be a symmetric open entourage of $X'$ such that $\overset{2}{V}_1 \subset V$; then $K_1 = X' - V_1(\omega)$ is a compact subset of $X$. Choose a symmetric open entourage $W$ of $X'$ such that $W \subset V$ and $W(\omega) \cap W(u_0^{-1}(K_1)) = \emptyset$; this is possible by Proposition 4 of Chapter II, § 4, no. 3. Let $K_2 = X' - W(\omega)$, which is a compact subset of $X$. We shall see that $W$ and the compact set $K = K_1 \cup K_2$ do what is required. Since $W \subset V$, it is enough to show that the relation
 
 $$
 (u_0^{-1}(x), u^{-1}(x)) \in W \text{ for all } x \in K_1 \quad (u \in \Gamma)

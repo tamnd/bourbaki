@@ -40,9 +40,9 @@ subsections:
       pdf_page: 120
 statements: 28
 exercises: 25
-content_sha256: 8ddcf5d2eed9bdf9805bf91c84bce079cf1a5ce4fa0c33ba3ecc39faeee59fd6
+content_sha256: acc64c08f0f23ffd3fd329fd286f91f9f0b8a4018a1de5b40e968fd7f40ffd10
 translated_from: content/en/top/I/11_s11_connectedness.md
-source_content_sha256: 46a76d7161a5e446e720a88934e907c604f3c6614dbbd865ff54f5f6fbc61c20
+source_content_sha256: f12b0f535c856eb0eec6548992165cda0fcb6dde9247c96a02db10d1ed77685b
 translation_model: gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-a6bc2cb7
 glossary_version: 34
@@ -149,7 +149,7 @@ Giả sử $X$ không liên thông. Khi đó có một phân hoạch của $X$ t
 
 Mọi tích của các không gian liên thông đều liên thông. Ngược lại, nếu một tích của các không gian khác rỗng là liên thông, thì mỗi không gian nhân tử đều liên thông.
 
-Cho $X = \prod_{i \in I} X_i$ là một tích của các không gian tôpô. Nếu các $X_i$ khác rỗng, ta có $X_i = \operatorname{pr}_i X$ với mỗi $i \in I$; do đó nếu $X$ liên thông thì các $X_i$ cũng liên thông (no. 2, Mệnh đề 4). Ngược lại, giả sử rằng mỗi $X_i$ liên thông và $X$ không liên thông. Theo Mệnh đề 5 của no. 2, tồn tại một ánh xạ toàn ánh liên tục $f : X \to X'$, trong đó $X'$ là một không gian rời rạc chứa nhiều hơn một điểm. Cho $a = (a_i)$ là một điểm bất kỳ của $X$, và $x$ là một chỉ số bất kỳ; ánh xạ từng phần $f_x : X_x \to X'$, được xác định bởi $f_x(x) = f((y_i))$ trong đó $y_x = x$ và $y_i = a_i$ nếu $i \neq x$, là liên tục trên $X_x$; vì $X_x$ liên thông, $f_x$ phải là hằng trên $X_x$. Suy ra ngay lập tức bằng quy nạp rằng $f(x) = f(a)$ đối với mọi điểm $x = (x_i)$ sao cho $x_i = a_i$ với mọi chỉ số $i \in I$ trừ một số hữu hạn. Nhưng các điểm $x$ này tạo thành một tập con trù mật của $X$ (\S 4, no. 3, Mệnh đề 8). Do đó $f$ liên tục trên $X$ và hằng trên một tập con trù mật của $X$, và vì vậy hằng trên $X$ (\S 8, no. 1, Mệnh đề 2, Hệ quả 1). Nhưng điều này mâu thuẫn với định nghĩa của $f$.
+Cho $X = \prod_{i \in I} X_i$ là một tích của các không gian tôpô. Nếu các $X_i$ khác rỗng, ta có $X_i = \operatorname{pr}_i X$ với mỗi $i \in I$; do đó nếu $X$ liên thông thì các $X_i$ cũng liên thông (no. 2, Mệnh đề 4). Ngược lại, giả sử rằng mỗi $X_i$ liên thông và $X$ không liên thông. Theo Mệnh đề 5 của no. 2, tồn tại một ánh xạ toàn ánh liên tục $f : X \to X'$, trong đó $X'$ là một không gian rời rạc chứa nhiều hơn một điểm. Cho $a = (a_i)$ là một điểm bất kỳ của $X$, và $x$ là một chỉ số bất kỳ; ánh xạ từng phần $f_x : X_x \to X'$, được xác định bởi $f_x(x) = f((y_i))$ trong đó $y_x = x$ và $y_i = a_i$ nếu $i \neq x$, là liên tục trên $X_x$; vì $X_x$ liên thông, $f_x$ phải là hằng trên $X_x$. Suy ra ngay lập tức bằng quy nạp rằng $f(x) = f(a)$ đối với mọi điểm $x = (x_i)$ sao cho $x_i = a_i$ với mọi chỉ số $i \in I$ trừ một số hữu hạn. Nhưng các điểm $x$ này tạo thành một tập con trù mật của $X$ (§ 4, no. 3, Mệnh đề 8). Do đó $f$ liên tục trên $X$ và hằng trên một tập con trù mật của $X$, và vì vậy hằng trên $X$ (§ 8, no. 1, Mệnh đề 2, Hệ quả 1). Nhưng điều này mâu thuẫn với định nghĩa của $f$.
 
 ### 5. CÁC THÀNH PHẦN
 
@@ -194,9 +194,9 @@ Sự tồn tại, tại mỗi điểm $x$ của một không gian $X$, của m�
 
 Điều kiện ấy là đủ, vì khi đó thành phần của $x$ tương đối với một lân cận mở của $x$ là một lân cận của $x$ trong $X$.
 
-Ngược lại, cho $A$ là một tập con mở của một không gian địa phương liên thông $X$, cho $B$ là một thành phần của $A$, và cho $x \in B$. Cho $V$ là một lân cận liên thông của $x$ được chứa trong $A$; theo định nghĩa của các thành phần, $V$ được chứa trong $B$; do đó $B$ là mở trong $X$ (\S 1, no. 2, Mệnh đề 1).
+Ngược lại, cho $A$ là một tập con mở của một không gian địa phương liên thông $X$, cho $B$ là một thành phần của $A$, và cho $x \in B$. Cho $V$ là một lân cận liên thông của $x$ được chứa trong $A$; theo định nghĩa của các thành phần, $V$ được chứa trong $B$; do đó $B$ là mở trong $X$ (§ 1, no. 2, Mệnh đề 1).
 
-Các thành phần của một không gian địa phương liên thông $X$ do đó lập thành một phân hoạch của $X$ thành các tập mở, và suy ra $X$ là tổng (\S 2, no. 4, Ví dụ 3) của các thành phần của nó.
+Các thành phần của một không gian địa phương liên thông $X$ do đó lập thành một phân hoạch của $X$ thành các tập mở, và suy ra $X$ là tổng (§ 2, no. 4, Ví dụ 3) của các thành phần của nó.
 
 #### Hệ quả {#top-i-s11-n6-cor-1 .statement}
 
@@ -228,11 +228,11 @@ V = \prod_{i \in I} V_i
 $$
 liên thông (theo Proposition 8 của no. 4) và là một lân cận của $x$ nằm trong U. Vậy X là liên thông địa phương.
 
-b) Cho $a = (a_i)$ là một điểm của X và cho V là một lân cận liên thông của $a$ trong X. Vì ta có $\mathrm{pr}_i V = X_i$ trừ một số hữu hạn chỉ số (\S 4, no. 1) suy ra từ no. 2, Proposition 4 rằng các $X_i$ là liên thông, với mọi chỉ số trừ một số hữu hạn. Mặt khác, với mỗi $x \in I$, mỗi $a_x \in X_x$ và mỗi lân cận $V_x$ của $a_x$ trong $X_x$, có một điểm $x$ của X sao cho $\mathrm{pr}_x x = a_x$, và
+b) Cho $a = (a_i)$ là một điểm của X và cho V là một lân cận liên thông của $a$ trong X. Vì ta có $\mathrm{pr}_i V = X_i$ trừ một số hữu hạn chỉ số (§ 4, no. 1) suy ra từ no. 2, Proposition 4 rằng các $X_i$ là liên thông, với mọi chỉ số trừ một số hữu hạn. Mặt khác, với mỗi $x \in I$, mỗi $a_x \in X_x$ và mỗi lân cận $V_x$ của $a_x$ trong $X_x$, có một điểm $x$ của X sao cho $\mathrm{pr}_x x = a_x$, và
 $$
 V = V_x \times \prod_{i \neq x} X_i
 $$
-là một lân cận của $x$ trong X; do đó V chứa một lân cận liên thông W của $x$, có ảnh chiếu $\mathrm{pr}_x W$ là một lân cận liên thông của $a_x$ nằm trong $V_x$ (no. 2, Proposition 4 và \S 4, no. 2, Proposition 5). Vậy mỗi $X_x$ đều liên thông địa phương.
+là một lân cận của $x$ trong X; do đó V chứa một lân cận liên thông W của $x$, có ảnh chiếu $\mathrm{pr}_x W$ là một lân cận liên thông của $a_x$ nằm trong $V_x$ (no. 2, Proposition 4 và § 4, no. 2, Proposition 5). Vậy mỗi $X_x$ đều liên thông địa phương.
 
 ### 7. ỨNG DỤNG : ĐỊNH LÝ POINCARÉ-VOLTERRA
 
@@ -276,13 +276,13 @@ Trước hết, các giả thiết suy ra rằng X là chính quy (§ 8, no. 4, 
 
 (*) \* Có thể chứng minh rằng các điều kiện này suy ra tôpô của Y là mêtric hóa được (Chương IX, § 4, Bài tập 22). \*
 
-chứa không điểm nào của $\overline{p}^{-1}(y)$ ngoài $x$, và do đó $\overline{p}^{-1}(y)$ là một không gian rời rạc. Vì vậy ta có thể áp dụng Định lý 1, điều này cho thấy rằng $X$ là hợp của một họ đếm được $(T_n)_{n \geq 0}$ các tập mở, sao cho mỗi không gian con $T_n$ có một cơ sở đếm được $(U_{mn})_{m \geq 0}$. Khi đó các $U_{mn}$ ($m \geq 0, n \geq 0$) tạo thành một cơ sở của tôpô của $X$ ($\S 3$, no. 1, Nhận xét).
+chứa không điểm nào của $\overline{p}^{-1}(y)$ ngoài $x$, và do đó $\overline{p}^{-1}(y)$ là một không gian rời rạc. Vì vậy ta có thể áp dụng Định lý 1, điều này cho thấy rằng $X$ là hợp của một họ đếm được $(T_n)_{n \geq 0}$ các tập mở, sao cho mỗi không gian con $T_n$ có một cơ sở đếm được $(U_{mn})_{m \geq 0}$. Khi đó các $U_{mn}$ ($m \geq 0, n \geq 0$) tạo thành một cơ sở của tôpô của $X$ ($§ 3$, no. 1, Nhận xét).
 
 #### Hệ quả 2 {#top-i-s11-lem-2-cor-2 .statement}
 
 *Cho $X$ là địa phương compact, liên thông và liên thông địa phương, và giả sử mỗi điểm của $X$ có một lân cận có một cơ sở đếm được. Cho $Y$ là một không gian Hausdorff mà tôpô của nó có một cơ sở đếm được, và cho $p : X \to Y$ là một ánh xạ liên tục sao cho, với mỗi $y \in Y$, $\overline{p}^{-1}(y)$ là một không gian con rời rạc của $X$. Khi đó tôpô của $X$ có một cơ sở đếm được.*
 
-Với mỗi $x \in X$, cho $V_x$ là một lân cận compact của $x$ trong $X$ có một cơ sở đếm được. Suy ra từ $\S 9$, no. 4, Định lý 2, Hệ quả 2, rằng tập hợp $\mathcal{B}$ gồm các $V_x$ thỏa mãn các điều kiện của Định lý 1, và ta hoàn tất chứng minh như trong Hệ quả 1.
+Với mỗi $x \in X$, cho $V_x$ là một lân cận compact của $x$ trong $X$ có một cơ sở đếm được. Suy ra từ $§ 9$, no. 4, Định lý 2, Hệ quả 2, rằng tập hợp $\mathcal{B}$ gồm các $V_x$ thỏa mãn các điều kiện của Định lý 1, và ta hoàn tất chứng minh như trong Hệ quả 1.
 
 Lưu ý rằng, trong hệ quả này, có thể xảy ra rằng sự hạn chế của $p$ lên một lân cận $V$ tùy ý nhỏ của một điểm của $X$ *không là một đẳng cấu tôpô của $V$ lên $p(V)$*.
 
@@ -290,7 +290,7 @@ Lưu ý rằng, trong hệ quả này, có thể xảy ra rằng sự hạn ch�
 
 *Cho $Y$ là một không gian địa phương compact, địa phương liên thông mà tôpô của nó có một cơ sở đếm được. Cho $X$ là một không gian Hausdorff liên thông, và cho $p : X \to Y$ là một ánh xạ liên tục có tính chất sau : với mỗi $x \in X$ tồn tại một lân cận mở $U$ của $x$ trong $X$ sao cho sự hạn chế của $p$ lên $U$ là một đẳng cấu tôpô của $U$ lên một không gian con mở của $Y$. Khi đó $X$ là địa phương compact và địa phương liên thông, và tôpô của $X$ có một cơ sở đếm được.*
 
-Rõ ràng $X$ là địa phương liên thông. Cũng vậy, mỗi $x \in X$ có một lân cận mở $U$ trong $X$ sao cho sự hạn chế của $p$ lên $U$ ánh xạ $U$ đẳng cấu tôpô lên một không gian con mở $p(U)$ của $Y$. Vì $p(U)$ là một không gian con compact địa phương của $Y$ ($\S 9$, no. 7, Mệnh đề 13), nên tồn tại một lân cận compact $W$ của $p(x)$ được chứa trong $p(U)$, do đó $U \cap \overline{p}^{-1}(W)$ là một lân cận compact của $x$ được chứa trong $U$; vậy $X$ là địa phương compact, vì theo giả thiết $X$ là Hausdorff. $U \cap \overline{p}^{-1}(W)$, là compact, nên đóng trong $X$ ($\S 9$, no. 3, Mệnh đề 4) và do đó các điều kiện của Hệ quả 1 được thỏa mãn; suy ra tôpô của $X$ có một cơ sở đếm được.
+Rõ ràng $X$ là địa phương liên thông. Cũng vậy, mỗi $x \in X$ có một lân cận mở $U$ trong $X$ sao cho sự hạn chế của $p$ lên $U$ ánh xạ $U$ đẳng cấu tôpô lên một không gian con mở $p(U)$ của $Y$. Vì $p(U)$ là một không gian con compact địa phương của $Y$ ($§ 9$, no. 7, Mệnh đề 13), nên tồn tại một lân cận compact $W$ của $p(x)$ được chứa trong $p(U)$, do đó $U \cap \overline{p}^{-1}(W)$ là một lân cận compact của $x$ được chứa trong $U$; vậy $X$ là địa phương compact, vì theo giả thiết $X$ là Hausdorff. $U \cap \overline{p}^{-1}(W)$, là compact, nên đóng trong $X$ ($§ 9$, no. 3, Mệnh đề 4) và do đó các điều kiện của Hệ quả 1 được thỏa mãn; suy ra tôpô của $X$ có một cơ sở đếm được.
 
 ### Bài tập {#top-i-s11-exercises}
 

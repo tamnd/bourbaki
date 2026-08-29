@@ -33,7 +33,7 @@ subsections:
       pdf_page: 66
 statements: 22
 exercises: 13
-content_sha256: 01455d3fe45fcb2237c0119f6103448dafdbd52db692efbadfd787efc24e72d9
+content_sha256: 57d62bee7aceaa72b94fe24918c7dd6d135daf258246a1db1d5cff2d40da2411
 ---
 
 ## § 6. INTÉGRATION DANS LES GROUPES DE LIE COMPACTS
@@ -81,7 +81,7 @@ $$
 
 or un élément de $Alt^{s+r}(M)$ est déterminé par sa valeur sur une base.
 
-Il résulte de ce qui précède que chacune des conditions $a)$ ou $b)$ détermine le produit $u \cap v$ de manière unique ; il est clair que ce produit est bilinéaire. Enfin la dernière assertion du lemme résulte de la formule (2).
+Il résulte de ce qui précède que chacune des conditions a) ou b) détermine le produit $u \cap v$ de manière unique ; il est clair que ce produit est bilinéaire. Enfin la dernière assertion du lemme résulte de la formule (2).
 
 ### 2. La formule d’intégration de H. Weyl
 
@@ -291,15 +291,15 @@ $$
 \int_{T/W} \psi(\tau) \, dv(\tau) = \frac{1}{w(G)} \int_T \psi(\pi(t)) \delta_G(t) \, dt ,
 $$
 
-où $\pi$ désigne la projection canonique de $T$ sur $T/W$. Le cor. 2 signifie que l’homéomorphisme $T/W \to G/\mathrm{Int}(G)$ ($\S 2$, no 5, cor. 1 à la prop. 5) transporte la mesure $v$ en l’image de la mesure $dg$ par la projection canonique $G \to G/\mathrm{Int}(G)$.
+où $\pi$ désigne la projection canonique de $T$ sur $T/W$. Le cor. 2 signifie que l’homéomorphisme $T/W \to G/\mathrm{Int}(G)$ ($§ 2$, no 5, cor. 1 à la prop. 5) transporte la mesure $v$ en l’image de la mesure $dg$ par la projection canonique $G \to G/\mathrm{Int}(G)$.
 
 #### Remarque 3 {#lie-ix-s6-n2-rem-3 .statement tag=01F7}
 
-Supposons $G$ simplement connexe. Soient $A$ une alcôve de $t$, et $dx$ la mesure de Haar sur $t$ telle que $\int_{\overline{A}} dx = 1$. Alors la mesure $v$ s’obtient aussi en transportant par l’homéomorphisme $\overline{A} \to T/W$ ($\S 5$, no 2, cor. 1 à la prop. 2) la mesure $\frac{1}{w(G)} \prod_{\alpha \in R_+(G,T)} 4 \sin^2 \pi \hat{\alpha}(x) \, dx$ sur $\overline{A}$.
+Supposons $G$ simplement connexe. Soient $A$ une alcôve de $t$, et $dx$ la mesure de Haar sur $t$ telle que $\int_{\overline{A}} dx = 1$. Alors la mesure $v$ s’obtient aussi en transportant par l’homéomorphisme $\overline{A} \to T/W$ ($§ 5$, no 2, cor. 1 à la prop. 2) la mesure $\frac{1}{w(G)} \prod_{\alpha \in R_+(G,T)} 4 \sin^2 \pi \hat{\alpha}(x) \, dx$ sur $\overline{A}$.
 
 #### Exemple {#lie-ix-s6-n2-exa-1 .statement tag=01F8}
 
-Prenons pour $G$ le groupe $SU(2, \mathbf{C})$ et pour $T$ le sous-groupe des matrices diagonales ($\S 3$, no 6); on identifie $t$ à $\mathbf{R}$ par le choix de la base $\{ iH \}$ de $t$ (*loc. cit.*). Posons $A = ]0, \pi[$; c’est une alcôve de $t$. L’intervalle $\overline{A} = [0, \pi]$ s’identifie à l’espace des classes de conjugaison de $G$, l’élément $\theta$ de $\overline{A}$ correspondant à la classe de conjugaison de $\begin{pmatrix} e^{i\theta} & 0 \\ 0 & e^{-i\theta} \end{pmatrix}$. Soit $d\theta$ la mesure de Lebesgue sur $[0, \pi]$; il résulte de ce qui précède que la mesure sur $\overline{A}$ image de la mesure de Haar de $G$ est la mesure $\frac{2}{\pi} \sin^2 \theta d\theta$.
+Prenons pour $G$ le groupe $SU(2, \mathbf{C})$ et pour $T$ le sous-groupe des matrices diagonales ($§ 3$, no 6); on identifie $t$ à $\mathbf{R}$ par le choix de la base $\{ iH \}$ de $t$ (*loc. cit.*). Posons $A = ]0, \pi[$; c’est une alcôve de $t$. L’intervalle $\overline{A} = [0, \pi]$ s’identifie à l’espace des classes de conjugaison de $G$, l’élément $\theta$ de $\overline{A}$ correspondant à la classe de conjugaison de $\begin{pmatrix} e^{i\theta} & 0 \\ 0 & e^{-i\theta} \end{pmatrix}$. Soit $d\theta$ la mesure de Lebesgue sur $[0, \pi]$; il résulte de ce qui précède que la mesure sur $\overline{A}$ image de la mesure de Haar de $G$ est la mesure $\frac{2}{\pi} \sin^2 \theta d\theta$.
 
 ### 3. Intégration dans l’algèbre de Lie
 

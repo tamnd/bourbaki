@@ -33,9 +33,9 @@ subsections:
       pdf_page: 205
 statements: 22
 exercises: 20
-content_sha256: bf23ed8277c91c875d13c0de1a1b2822dcc981f46d28f9ac4b6d4ba94e4d820f
+content_sha256: 6209032a05ab518ef78fb4658479a6032307e8021d4385e9e8c5bac7d8913dcf
 translated_from: content/en/int/IV/06_s6_convexity_inequalities.md
-source_content_sha256: 1943305609b50f182ebf680418cbb9b81a0c09ae593113d7d4c5e7b050ac7f2f
+source_content_sha256: 620a678b6145f9aecb2d7fa10cb1189bf44b0c751811b2152d367e638c2e239d
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-d38441a8
 glossary_version: 34
@@ -57,7 +57,7 @@ $$
 \int \langle fg, a' \rangle\, d\mu = \left\langle \int fg\, d\mu, a' \right\rangle
 $$
 
-(\S 4, No. 2, Hệ quả 1 của Định lý 1); nhưng, theo giả thiết, $\langle f(x), a' \rangle \leqslant \alpha$ với mọi $x \in X$, do đó $\langle f(x)g(x), a' \rangle \leqslant \alpha g(x)$; khi lấy tích phân, ta có
+(§ 4, No. 2, Hệ quả 1 của Định lý 1); nhưng, theo giả thiết, $\langle f(x), a' \rangle \leqslant \alpha$ với mọi $x \in X$, do đó $\langle f(x)g(x), a' \rangle \leqslant \alpha g(x)$; khi lấy tích phân, ta có
 
 $$
 \left\langle \int fg\, d\mu, a' \right\rangle \leqslant \alpha \int g\, d\mu .
@@ -81,7 +81,7 @@ Ta sẽ làm sắc bén hơn Định lý 1 đối với các hàm số số họ
 
 Từ định nghĩa suy ra ngay rằng $m_\infty(f) = -M_\infty(-f)$, do đó từ mọi tính chất của cực đại theo độ đo ta suy ra một tính chất tương ứng của cực tiểu theo độ đo.
 
-Với mọi $\alpha > M_\infty(f)$, tập hợp các $x \in X$ sao cho $f(x) > \alpha$ là không đáng kể địa phương; khi đó, tập hợp các $x \in X$ sao cho $f(x) > M_\infty(f)$ là hợp của các tập hợp mà trên đó $f(x) > r_n$, với $r_n$ chạy qua tập hợp các số hữu tỉ $> M_\infty(f)$; do đó $f(x) \leq M_\infty(f)$ địa phương hầu khắp nơi (\S 5, No. 2). Tương tự $f(x) \geq m_\infty(f)$ địa phương hầu khắp nơi; suy ra $m_\infty(f) \leq M_\infty(f)$ nếu độ đo $\mu$ khác không; hơn nữa, quan hệ $m_\infty(f) = M_\infty(f)$ tương đương với việc nói rằng $f$ bằng một hằng địa phương hầu khắp nơi. Rõ ràng rằng nếu độ đo $\mu$ khác không, thì
+Với mọi $\alpha > M_\infty(f)$, tập hợp các $x \in X$ sao cho $f(x) > \alpha$ là không đáng kể địa phương; khi đó, tập hợp các $x \in X$ sao cho $f(x) > M_\infty(f)$ là hợp của các tập hợp mà trên đó $f(x) > r_n$, với $r_n$ chạy qua tập hợp các số hữu tỉ $> M_\infty(f)$; do đó $f(x) \leq M_\infty(f)$ địa phương hầu khắp nơi (§ 5, No. 2). Tương tự $f(x) \geq m_\infty(f)$ địa phương hầu khắp nơi; suy ra $m_\infty(f) \leq M_\infty(f)$ nếu độ đo $\mu$ khác không; hơn nữa, quan hệ $m_\infty(f) = M_\infty(f)$ tương đương với việc nói rằng $f$ bằng một hằng địa phương hầu khắp nơi. Rõ ràng rằng nếu độ đo $\mu$ khác không, thì
 
 $$
 \inf_{x \in X} f(x) \leq m_\infty(f) \leq M_\infty(f) \leq \sup_{x \in X} f(x).
@@ -115,7 +115,7 @@ $$
 
 Hơn nữa, *hai trong ba thành phần của bất đẳng thức (3) không thể bằng nhau trừ khi, trong tập hợp các $x \in X$ sao cho $g(x) \neq 0$, f bằng $M_\infty(f)$ hầu khắp nơi hoặc bằng $m_\infty(f)$ hầu khắp nơi*.
 
-Thật vậy, $fg$ là đo được (\S 5, No. 3, Hệ quả 5 của Định lý 1); hơn nữa, bất đẳng thức $m_\infty(f)g(x) \leqslant f(x)g(x) \leqslant M_\infty(f)g(x)$ đúng, không chỉ địa phương hầu khắp nơi, mà thậm chí hầu khắp nơi, bởi vì tập hợp các điểm $x \in X$ nơi $g(x) \neq 0$ là một hợp đếm được của các tập hợp khả tích (\S 5, No. 6, Bổ đề 1). Suy ra rằng $fg$ là khả tích (\S 5, No. 6, Định lý 5) và bất đẳng thức (3) đúng. Mặt khác, hàm $M_\infty(f)g - fg$ được xác định hầu khắp nơi và bằng $(M_\infty(f) - f)g$; do đó nó $\geqslant 0$ hầu khắp nơi trong $X$; vì quan hệ $M_\infty(f) \int g d|\mu| = \int fg d|\mu|$ tương đương với $\int (M_\infty(f) - f)g d|\mu| = 0$, nó chỉ có thể đúng nếu hàm $(M_\infty(f) - f)g$ là không đáng kể, điều này hoàn tất chứng minh.
+Thật vậy, $fg$ là đo được (§ 5, No. 3, Hệ quả 5 của Định lý 1); hơn nữa, bất đẳng thức $m_\infty(f)g(x) \leqslant f(x)g(x) \leqslant M_\infty(f)g(x)$ đúng, không chỉ địa phương hầu khắp nơi, mà thậm chí hầu khắp nơi, bởi vì tập hợp các điểm $x \in X$ nơi $g(x) \neq 0$ là một hợp đếm được của các tập hợp khả tích (§ 5, No. 6, Bổ đề 1). Suy ra rằng $fg$ là khả tích (§ 5, No. 6, Định lý 5) và bất đẳng thức (3) đúng. Mặt khác, hàm $M_\infty(f)g - fg$ được xác định hầu khắp nơi và bằng $(M_\infty(f) - f)g$; do đó nó $\geqslant 0$ hầu khắp nơi trong $X$; vì quan hệ $M_\infty(f) \int g d|\mu| = \int fg d|\mu|$ tương đương với $\int (M_\infty(f) - f)g d|\mu| = 0$, nó chỉ có thể đúng nếu hàm $(M_\infty(f) - f)g$ là không đáng kể, điều này hoàn tất chứng minh.
 
 Bỏ qua trường hợp tầm thường $\int g d|\mu| = 0$, bất đẳng thức (3) có thể được suy ra từ Định lý 1 của No. 1 áp dụng cho khoảng $D = [m_\infty(f), M_\infty(f)]$. Người ta có thể đưa vào Định lý 1 của No. 1 các phần bù tương tự như những phần bù của Mệnh đề 1, xác định trường hợp trong đó điểm $(\int fg d\mu)/(\int g d\mu)$ thuộc biên của D (Bài tập 2).
 
@@ -141,7 +141,7 @@ Rõ ràng rằng mọi hàm bằng địa phương hầu khắp nơi với một
 
 *Không gian* $\mathcal{L}_F^\infty$ *là đầy đủ; không gian* $L_F^\infty$ *là một không gian Banach*.
 
-Vì, xét $(f_n)$ là một dãy Cauchy trong $\mathcal{L}_F^\infty$; với mỗi số nguyên $n$, tồn tại một số nguyên $k_n$ sao cho $N_\infty(f_r - f_s) \leq 1/n$ với $r \geq k_n$ và $s \geq k_n$; do đó, tồn tại một tập hợp không đáng kể địa phương $A_{rs}$ sao cho $|f_r(x) - f_s(x)| \leq 1/n$ với mọi $x \notin A_{rs}$. Nếu $A_n$ là hợp của các tập hợp $A_{rs}$ (với $r \geq k_n$ và $s \geq k_n$), thì $A_n$ là không đáng kể địa phương và, với mọi $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ với mọi chỉ số $r \geq k_n, s \geq k_n$. Gọi $A$ là tập hợp không đáng kể địa phương được tạo thành bởi hợp của các $A_n$, và đặt $g_n(x) = f_n(x)$ với $x \notin A$, $g_n(x) = 0$ với $x \in A$; khi đó $g_n$ thuộc $\mathcal{L}_F^\infty$ và, theo định nghĩa của $A$, dãy $(g_n)$ hội tụ *đều* trên $X$ tới một hàm $g$. Suy ra rằng hàm $g$ là đo được (\S 5, No. 4, Th. 2); hơn nữa, $g$ bị chặn trên tập hợp các $x \in X$ mà $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ và, vì phần bù của tập hợp này là không đáng kể địa phương, $g$ thuộc $\mathcal{L}_F^\infty$. Hiển nhiên rằng trong $\mathcal{L}_F^\infty$, dãy $(g_n)$ có giới hạn $g$, và do đó điều tương tự cũng đúng với dãy $(f_n)$, vì $N_\infty(f_n - g_n) = 0$ với mọi $n$. Phần thứ hai của mệnh đề được suy ra ngay lập tức từ điều này.
+Vì, xét $(f_n)$ là một dãy Cauchy trong $\mathcal{L}_F^\infty$; với mỗi số nguyên $n$, tồn tại một số nguyên $k_n$ sao cho $N_\infty(f_r - f_s) \leq 1/n$ với $r \geq k_n$ và $s \geq k_n$; do đó, tồn tại một tập hợp không đáng kể địa phương $A_{rs}$ sao cho $|f_r(x) - f_s(x)| \leq 1/n$ với mọi $x \notin A_{rs}$. Nếu $A_n$ là hợp của các tập hợp $A_{rs}$ (với $r \geq k_n$ và $s \geq k_n$), thì $A_n$ là không đáng kể địa phương và, với mọi $x \notin A_n$, $|f_r(x) - f_s(x)| \leq 1/n$ với mọi chỉ số $r \geq k_n, s \geq k_n$. Gọi $A$ là tập hợp không đáng kể địa phương được tạo thành bởi hợp của các $A_n$, và đặt $g_n(x) = f_n(x)$ với $x \notin A$, $g_n(x) = 0$ với $x \in A$; khi đó $g_n$ thuộc $\mathcal{L}_F^\infty$ và, theo định nghĩa của $A$, dãy $(g_n)$ hội tụ *đều* trên $X$ tới một hàm $g$. Suy ra rằng hàm $g$ là đo được (§ 5, No. 4, Th. 2); hơn nữa, $g$ bị chặn trên tập hợp các $x \in X$ mà $|g_{k_1}(x)| \leq N_\infty(g_{k_1})$ và, vì phần bù của tập hợp này là không đáng kể địa phương, $g$ thuộc $\mathcal{L}_F^\infty$. Hiển nhiên rằng trong $\mathcal{L}_F^\infty$, dãy $(g_n)$ có giới hạn $g$, và do đó điều tương tự cũng đúng với dãy $(f_n)$, vì $N_\infty(f_n - g_n) = 0$ với mọi $n$. Phần thứ hai của mệnh đề được suy ra ngay lập tức từ điều này.
 
 #### Nhận xét {#int-iv-s6-n3-rem-1 .statement}
 
@@ -153,9 +153,9 @@ $$
 
 Để $N_\infty(f) = \|f\|$ đối với mọi hàm liên tục bị chặn $f$, điều kiện cần và đủ là giá của độ đo $\mu$ bằng $X$. Thật vậy, nếu tồn tại một hàm liên tục $f$ có giá compact không đáng kể và không đồng nhất bằng không, thì $N_\infty(f) = 0$ và $\|f\| > 0$. Ngược lại, nếu giá của $\mu$ bằng $X$ thì, đối với mọi hàm liên tục bị chặn $f$ và mọi số $\alpha < \|f\|$, tập hợp các $x \in X$ sao cho $|f(x)| > \alpha$ là mở và khác rỗng, do đó có độ đo ngoài $> 0$, điều này chứng tỏ rằng $N_\infty(f) = \|f\|$.
 
-Khi giá của $\mu$ bằng $X$, do đó ta có thể đồng nhất không gian định chuẩn $C^b(X; F)$, gồm các hàm liên tục bị chặn trên $X$ với giá trị trong $F$, với một không gian con của không gian $L_F^\infty$. Vì $L_F^\infty$ nói chung không Hausdorff, không gian con $C^b(X; F)$ nói chung không đóng trong $L_F^\infty$, nhưng ảnh chính tắc của nó trong $L_F^\infty$ là một không gian con đóng của $L_F^\infty$ (hơn nữa có thể đồng nhất với $C^b(X; F)$ trong trường hợp đang xét). Nói chung, $C^b(X; F)$ khác với $L_F^\infty$, nghĩa là, đối với một hàm đo được bị chặn tùy ý $f$, nói chung không tồn tại một hàm liên tục $g$ bằng $f$ địa phương hầu khắp nơi (\S 5, Bài tập 12). Điều này suy ra rằng không gian $\mathcal{H}(X; F)$ gồm các ánh xạ từ $X$ vào $F$, liên tục với giá compact, nói chung không trù mật trong $L_F^\infty$, trong khi nó trù mật trong mỗi không gian $L_F^p$ với $1 \leq p < +\infty$ (\S 3, No. 4. Định nghĩa 2).
+Khi giá của $\mu$ bằng $X$, do đó ta có thể đồng nhất không gian định chuẩn $C^b(X; F)$, gồm các hàm liên tục bị chặn trên $X$ với giá trị trong $F$, với một không gian con của không gian $L_F^\infty$. Vì $L_F^\infty$ nói chung không Hausdorff, không gian con $C^b(X; F)$ nói chung không đóng trong $L_F^\infty$, nhưng ảnh chính tắc của nó trong $L_F^\infty$ là một không gian con đóng của $L_F^\infty$ (hơn nữa có thể đồng nhất với $C^b(X; F)$ trong trường hợp đang xét). Nói chung, $C^b(X; F)$ khác với $L_F^\infty$, nghĩa là, đối với một hàm đo được bị chặn tùy ý $f$, nói chung không tồn tại một hàm liên tục $g$ bằng $f$ địa phương hầu khắp nơi (§ 5, Bài tập 12). Điều này suy ra rằng không gian $\mathcal{H}(X; F)$ gồm các ánh xạ từ $X$ vào $F$, liên tục với giá compact, nói chung không trù mật trong $L_F^\infty$, trong khi nó trù mật trong mỗi không gian $L_F^p$ với $1 \leq p < +\infty$ (§ 3, No. 4. Định nghĩa 2).
 
-2) Hiển nhiên rằng tôpô xác định bởi bán chuẩn $N_\infty$ mịn hơn tôpô cảm sinh trên $L_F^\infty$ bởi tôpô của sự hội tụ theo độ đo (\S 5, No. 11).
+2) Hiển nhiên rằng tôpô xác định bởi bán chuẩn $N_\infty$ mịn hơn tôpô cảm sinh trên $L_F^\infty$ bởi tôpô của sự hội tụ theo độ đo (§ 5, No. 11).
 
 ### 4. Bất đẳng thức Hölder
 
@@ -169,7 +169,7 @@ $$
 N_1(fg) \leq N_p(f) N_q(g).
 $$
 
-Gọi $f_1$ (tương ứng $g_1$) là một hàm trong $L^p$ (tương ứng $L^q$) mà $f$ (tương ứng $g$) bằng hầu khắp nơi; $fg$ bằng hầu khắp nơi hàm $f_1 g_1$, hàm này được xác định khắp nơi và hữu hạn, và đo được, vì là tích của hai hàm đo được (\S 5, No. 3, Hệ quả 5 của Định lý 1). Nếu $1 < p < +\infty$, bất đẳng thức Hölder đối với tích phân trên (Ch. I, No. 3, Mệnh đề 4) cho bất đẳng thức (4), và quan hệ $N_1(fg) < +\infty$ khi đó chỉ ra rằng $fg$ là khả tích (\S 5, No. 6, Định lý 5). Nếu $p = 1$, $q = +\infty$, bất đẳng thức (4) và sự kiện $fg$ là khả tích là những hệ quả ngay lập tức của bất đẳng thức trung bình (No. 2, Mệnh đề 1); do đó định lý được chứng minh trong mọi trường hợp.
+Gọi $f_1$ (tương ứng $g_1$) là một hàm trong $L^p$ (tương ứng $L^q$) mà $f$ (tương ứng $g$) bằng hầu khắp nơi; $fg$ bằng hầu khắp nơi hàm $f_1 g_1$, hàm này được xác định khắp nơi và hữu hạn, và đo được, vì là tích của hai hàm đo được (§ 5, No. 3, Hệ quả 5 của Định lý 1). Nếu $1 < p < +\infty$, bất đẳng thức Hölder đối với tích phân trên (Ch. I, No. 3, Mệnh đề 4) cho bất đẳng thức (4), và quan hệ $N_1(fg) < +\infty$ khi đó chỉ ra rằng $fg$ là khả tích (§ 5, No. 6, Định lý 5). Nếu $p = 1$, $q = +\infty$, bất đẳng thức (4) và sự kiện $fg$ là khả tích là những hệ quả ngay lập tức của bất đẳng thức trung bình (No. 2, Mệnh đề 1); do đó định lý được chứng minh trong mọi trường hợp.
 
 #### Hệ quả 1 {#int-iv-s6-thm-2-cor-1 .statement}
 
@@ -179,13 +179,13 @@ $$
 \left| \int \Phi(f, g)\, d\mu \right| \leq \int |\Phi(f, g)|\, d|\mu| \leq N_p(f) N_q(g).
 $$
 
-Vì, $\Phi(f, g)$ là đo được (\S 5, No. 3, Hệ quả 5 của Định lý 1); do $|\Phi(f, g)| \leq |f| \cdot |g|$, hệ quả suy ra từ Định lý 2 và tiêu chuẩn khả tích của \S 5, No. 6, Định lý 5.
+Vì, $\Phi(f, g)$ là đo được (§ 5, No. 3, Hệ quả 5 của Định lý 1); do $|\Phi(f, g)| \leq |f| \cdot |g|$, hệ quả suy ra từ Định lý 2 và tiêu chuẩn khả tích của § 5, No. 6, Định lý 5.
 
 Hai trường hợp đặc biệt của Hệ quả 1 có tầm quan trọng trong các ứng dụng:
 
 #### Hệ quả 2 {#int-iv-s6-thm-2-cor-2 .statement}
 
-— Cho $F$ là một không gian Banach thực (tương ứng phức), $F'$ là đối ngẫu mạnh của nó (TVS, III, \S 3, No. 1), và cho $(z, z') \mapsto \langle z, z' \rangle$ là dạng song tuyến tính chính tắc trên $F \times F'$. Nếu $f \in \mathcal{L}_F^p$ và $g \in \mathcal{L}_{F'}^q$, thì hàm thực (tương ứng phức) $\langle f, g \rangle$ là khả tích và
+— Cho $F$ là một không gian Banach thực (tương ứng phức), $F'$ là đối ngẫu mạnh của nó (TVS, III, § 3, No. 1), và cho $(z, z') \mapsto \langle z, z' \rangle$ là dạng song tuyến tính chính tắc trên $F \times F'$. Nếu $f \in \mathcal{L}_F^p$ và $g \in \mathcal{L}_{F'}^q$, thì hàm thực (tương ứng phức) $\langle f, g \rangle$ là khả tích và
 
 $$
 \left| \int \langle f, g \rangle\, d\mu \right| \leq \int |\langle f, g \rangle|\, d|\mu| \leq N_p(f) N_q(g).
@@ -193,7 +193,7 @@ $$
 
 Vì, $|\langle z, z' \rangle| \leq |z| \cdot |z'|$.
 
-Khi $F$ là một không gian Hilbert thực hoặc phức, ta biết rằng nó có thể được đồng nhất một cách chính tắc với đối ngẫu $F'$ của nó (TVS, V, \S 1, No. 7). Vì không gian $L_F^2$ là đầy đủ, ta có kết quả sau:
+Khi $F$ là một không gian Hilbert thực hoặc phức, ta biết rằng nó có thể được đồng nhất một cách chính tắc với đối ngẫu $F'$ của nó (TVS, V, § 1, No. 7). Vì không gian $L_F^2$ là đầy đủ, ta có kết quả sau:
 
 #### Hệ quả 3 {#int-iv-s6-thm-2-cor-3 .statement}
 
@@ -222,7 +222,7 @@ $$
 \left( \int f_1 d|\mu| \right)^{\alpha_1} \left( \int f_2 d|\mu| \right)^{\alpha_2} \cdots \left( \int f_n d|\mu| \right)^{\alpha_n}.
 $$
 
-Vì, tích $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ là đo được, vì nó là tích của các hàm đo được (\S 5, No. 3, Th. 1 và Hệ quả 5 của nó); do bất đẳng thức (8) đúng đối với các tích phân trên (Ch. I, No. 2, Hệ quả của Mệnh đề 2), hàm $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ là khả tích (\S 5, No. 6, Th. 5), do đó có hệ quả.
+Vì, tích $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ là đo được, vì nó là tích của các hàm đo được (§ 5, No. 3, Th. 1 và Hệ quả 5 của nó); do bất đẳng thức (8) đúng đối với các tích phân trên (Ch. I, No. 2, Hệ quả của Mệnh đề 2), hàm $f_1^{\alpha_1} f_2^{\alpha_2} \cdots f_n^{\alpha_n}$ là khả tích (§ 5, No. 6, Th. 5), do đó có hệ quả.
 
 Hệ quả 2 của Th. 2 được làm sắc hơn bởi mệnh đề sau:
 
@@ -248,7 +248,7 @@ khi f chạy qua tập hợp các hàm trong $\mathcal{L}_F^p$ sao cho $N_p(f) \
 
 Trước hết ta chứng minh quan hệ (9); ta phân biệt hai trường hợp.
 
-(i) $1 \leq p < +\infty$. Quan hệ (9) là tầm thường khi $N_p(f) = 0$ (vì khi đó f và $\langle f, g \rangle$ là không đáng kể), nên ta luôn có thể giả sử, bằng cách nhân f với một vô hướng, rằng $N_p(f) = 1$. Trước hết giả sử rằng f là một hàm bậc thang khả tích, $f = \sum_{k=1}^n a_k \varphi_{A_k}$, trong đó các $A_k$ rời nhau từng đôi một (\S 4, No. 9, Bổ đề). Do đó $\sum_{k=1}^n |a_k|^p \mu(A_k) = 1$ theo giả thiết. Với mọi $\varepsilon > 0$, tồn tại (với mỗi chỉ số k) một vectơ $a'_k \in F'$ sao cho $|a'_k|^q = |a_k|^p$ nếu $p > 1$ (tương ứng $|a'_k| = 1$ nếu $p = 1$) và $\langle a_k, a'_k \rangle \geq (1 - \varepsilon)|a_k| \cdot |a'_k|$ (TVS, IV,
+(i) $1 \leq p < +\infty$. Quan hệ (9) là tầm thường khi $N_p(f) = 0$ (vì khi đó f và $\langle f, g \rangle$ là không đáng kể), nên ta luôn có thể giả sử, bằng cách nhân f với một vô hướng, rằng $N_p(f) = 1$. Trước hết giả sử rằng f là một hàm bậc thang khả tích, $f = \sum_{k=1}^n a_k \varphi_{A_k}$, trong đó các $A_k$ rời nhau từng đôi một (§ 4, No. 9, Bổ đề). Do đó $\sum_{k=1}^n |a_k|^p \mu(A_k) = 1$ theo giả thiết. Với mọi $\varepsilon > 0$, tồn tại (với mỗi chỉ số k) một vectơ $a'_k \in F'$ sao cho $|a'_k|^q = |a_k|^p$ nếu $p > 1$ (tương ứng $|a'_k| = 1$ nếu $p = 1$) và $\langle a_k, a'_k \rangle \geq (1 - \varepsilon)|a_k| \cdot |a'_k|$ (TVS, IV,
 
 §1, No. 3, Mệnh đề 8). Đặt $g = \sum_{k=1}^n a_k' \varphi_{A_k}$, ta có $\sum_{k=1}^n |a_k'|^q \mu(A_k) = 1$ nếu $p > 1$ (tương ứng $\sup_{1 \leq k \leq n} |a_k'| = 1$ nếu $p = 1$), do đó $N_q(g) = 1$; mặt khác,
 
@@ -264,7 +264,7 @@ $$
 
 điều này chứng minh quan hệ (9) trong trường hợp này.
 
-Ta chuyển sang trường hợp f là một phần tử bất kỳ của $\mathcal{L}_F^p$ sao cho $N_p(f) = 1$. Với mọi $\varepsilon > 0$, tồn tại một hàm bậc thang $f_1 \in \mathcal{L}_F^p$ sao cho $N_p(f - f_1) \leq \varepsilon$ (\S 4, No. 10, Hệ quả 1 của Mệnh đề 19). Theo điều vừa thấy, tồn tại một hàm $g \in \mathcal{L}_F^q$, sao cho $N_q(g) = 1$ và
+Ta chuyển sang trường hợp f là một phần tử bất kỳ của $\mathcal{L}_F^p$ sao cho $N_p(f) = 1$. Với mọi $\varepsilon > 0$, tồn tại một hàm bậc thang $f_1 \in \mathcal{L}_F^p$ sao cho $N_p(f - f_1) \leq \varepsilon$ (§ 4, No. 10, Hệ quả 1 của Mệnh đề 19). Theo điều vừa thấy, tồn tại một hàm $g \in \mathcal{L}_F^q$, sao cho $N_q(g) = 1$ và
 
 $$
 \int \langle f_1, g \rangle d\mu \geq N_p(f_1) - \varepsilon \geq 1 - 2\varepsilon.
@@ -334,13 +334,13 @@ $$
 (11) \quad N_p(f) = \sup \int^* |fg| d\mu,
 $$
 
-khi $g$ chạy qua tập hợp các hàm trong $\mathcal{H}(X; \mathbf{R})$ sao cho $N_q(g) \leq 1$. Thật vậy, công thức (11) là một trường hợp đặc biệt của (9) khi $N_p(f) < +\infty$, vì khi đó $f$ tương đương với một hàm trong $\mathcal{L}^p$ (\S 5, No. 6, Định lý 5). Nếu $N_p(f) = +\infty$, với mọi số nguyên $n > 0$ đặt $f_n = \inf(n, f \varphi_{K_n})$. Khi đó
+khi $g$ chạy qua tập hợp các hàm trong $\mathcal{H}(X; \mathbf{R})$ sao cho $N_q(g) \leq 1$. Thật vậy, công thức (11) là một trường hợp đặc biệt của (9) khi $N_p(f) < +\infty$, vì khi đó $f$ tương đương với một hàm trong $\mathcal{L}^p$ (§ 5, No. 6, Định lý 5). Nếu $N_p(f) = +\infty$, với mọi số nguyên $n > 0$ đặt $f_n = \inf(n, f \varphi_{K_n})$. Khi đó
 
 $$
 N_p(f_n) = \sup \int^* |f_n g| d\mu \leq \sup \int^* |f g| d\mu,
 $$
 
-do đó, khi chuyển qua giới hạn (giả sử, như ta có thể, rằng dãy $(K_n)$ là tăng), ta có $\sup \int^* |f g| d\mu = +\infty$ (\S 1, No. 3, Định lý 3).
+do đó, khi chuyển qua giới hạn (giả sử, như ta có thể, rằng dãy $(K_n)$ là tăng), ta có $\sup \int^* |f g| d\mu = +\infty$ (§ 1, No. 3, Định lý 3).
 
 #### Hệ quả {#int-iv-s6-n4-cor-1 .statement}
 
@@ -372,7 +372,7 @@ $$
 \int |f|^p d|\mu| = \int |f|^p \varphi_A d|\mu| + \int |f|^p \varphi_{C_A} d|\mu|.
 $$
 
-Khi $p \in J$ tiến tới $r$, $|f|^p \varphi_A$ tiến tới $|f|^r \varphi_A$ trong khi giảm, và $|f|^p \varphi_{C_A}$ tiến tới $|f|^r \varphi_{C_A}$ trong khi tăng. Do đó $\int |f|^p \varphi_{C_A} d|\mu|$ tiến tới $\int^* |f|^r \varphi_{C_A} d|\mu|$ (\S1, No. 3, Th. 3). Mặt khác, $|f|^p \varphi_A$ khả tích đối với $p \in J$, và $\int |f|^p \varphi_A d|\mu|$ tiến tới $\int |f|^r \varphi_A d|\mu|$ (\S4, No. 3, Prop. 4). Vì vậy $\int |f|^p d|\mu|$ tiến tới $\int^* |f|^r d|\mu|$, điều này chứng minh tính liên tục của $p \mapsto N_p(f)$ tại $r$.
+Khi $p \in J$ tiến tới $r$, $|f|^p \varphi_A$ tiến tới $|f|^r \varphi_A$ trong khi giảm, và $|f|^p \varphi_{C_A}$ tiến tới $|f|^r \varphi_{C_A}$ trong khi tăng. Do đó $\int |f|^p \varphi_{C_A} d|\mu|$ tiến tới $\int^* |f|^r \varphi_{C_A} d|\mu|$ (§ 1, No. 3, Th. 3). Mặt khác, $|f|^p \varphi_A$ khả tích đối với $p \in J$, và $\int |f|^p \varphi_A d|\mu|$ tiến tới $\int |f|^r \varphi_A d|\mu|$ (§ 4, No. 3, Prop. 4). Vì vậy $\int |f|^p d|\mu|$ tiến tới $\int^* |f|^r d|\mu|$, điều này chứng minh tính liên tục của $p \mapsto N_p(f)$ tại $r$.
 
 Có thể áp dụng cùng một lập luận tại điểm $s$ nếu $s < +\infty$. Cuối cùng, giả sử rằng $s = +\infty$. Theo (13), chỉ cần chứng minh rằng
 
@@ -420,13 +420,13 @@ Có thể chỉ ra rằng nói chung tôpô của sự hội tụ theo trung bì
 
 — Cho $X$ là một không gian rời rạc, $\mu$ là độ đo trên $X$ được xác định bằng cách đặt khối lượng $+1$ tại mỗi điểm của $X$. Nếu $f$ là một ánh xạ từ $X$ vào không gian Banach $F$, tập hợp I các số $p$ sao cho $1 \leq p \leq +\infty$ và $N_p(f)$ là hữu hạn, hoặc là rỗng hoặc là một khoảng với điểm đầu bên phải $+\infty$ và chứa điểm này; hơn nữa, $N_p(f)$ là một hàm giảm của $p$ trên I.
 
-Vì, $\mu^*(|f|) = \sum_{x \in X} |f(x)|$ đối với mọi hàm $f$ (\S 1, No. 1, Ví dụ), và $N_\infty(f) = \|f\| = \sup_{x \in X} |f(x)|$; nếu tồn tại một số $\alpha > 0$ sao cho $|f(x)| \geq \alpha$ đối với vô hạn giá trị của $x \in X$, thì $N_p(f) = +\infty$ đối với mọi $p$ hữu hạn; trong trường hợp ngược lại, tồn tại một $x_0 \in X$ sao cho $|f(x_0)| = \|f\|$, do đó
+Vì, $\mu^*(|f|) = \sum_{x \in X} |f(x)|$ đối với mọi hàm $f$ (§ 1, No. 1, Ví dụ), và $N_\infty(f) = \|f\| = \sup_{x \in X} |f(x)|$; nếu tồn tại một số $\alpha > 0$ sao cho $|f(x)| \geq \alpha$ đối với vô hạn giá trị của $x \in X$, thì $N_p(f) = +\infty$ đối với mọi $p$ hữu hạn; trong trường hợp ngược lại, tồn tại một $x_0 \in X$ sao cho $|f(x_0)| = \|f\|$, do đó
 
 $$
 N_\infty(f) = |f(x_0)| \leq N_p(f)
 $$
 
-đối với mọi $p$ hữu hạn. Vì hàm $\log N_p(f)$ là lồi đối với $1/p$ và nhận giá trị nhỏ nhất của nó tại điểm $+\infty$, nên nó tất yếu là một hàm giảm của $p$ trên I (FRV, I, \S 4, No. 3, Mệnh đề 5), điều này hoàn thành chứng minh.
+đối với mọi $p$ hữu hạn. Vì hàm $\log N_p(f)$ là lồi đối với $1/p$ và nhận giá trị nhỏ nhất của nó tại điểm $+\infty$, nên nó tất yếu là một hàm giảm của $p$ trên I (FRV, I, § 4, No. 3, Mệnh đề 5), điều này hoàn thành chứng minh.
 
 #### Hệ quả {#int-iv-s6-n5-cor-3 .statement}
 

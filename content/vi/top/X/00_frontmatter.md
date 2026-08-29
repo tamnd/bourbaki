@@ -12,7 +12,7 @@ pdf_pages: 0280-0280
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 782dd7addd410c16ee059e84418a3e09472a31b3e6ed2292de00a6cada0abfd1
+content_sha256: 2f0da427a6fc8f7e0ff61377f874e71aab47ae9da0d2ee38169f9064f9e76216
 translated_from: content/en/top/X/00_frontmatter.md
 source_content_sha256: 74c7e09f8aeaaf8d364ea3f06661b236d72106e456e7027368a85b1633fa9610
 translation_model: gpt-5-6-mini
@@ -22,4 +22,6 @@ glossary_terms_sha256: 3a28f02c9007d69cb1c44dcdd9c81eb58ac4f1ebb8866c461f6a7c81b
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## Các không gian hàm
+## CHƯƠNG X
+
+# Các không gian hàm

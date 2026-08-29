@@ -42,7 +42,7 @@ subsections:
       pdf_page: 78
 statements: 10
 exercises: 6
-content_sha256: d56a752b9382bcb5c79d67d5985b55c2f3bd6fb3df74a70fba0b4987d204ff5e
+content_sha256: 66b930eb506c3b51a953913202d2c09d32c287559d09b0d8e113dcf5a16a08ac
 ---
 
 ## 1. COLLECTIVIZING RELATIONS
@@ -249,7 +249,7 @@ is a theorem, and the assertion follows from C52. Notice also that in this case 
 
 C53. *Let $T$ be a term, $A$ a set, $x$ and $y$ distinct letters. Suppose that $x$ does not appear in $A$ and that $y$ does not appear in $A$ nor in $T$. Then the relation $(\exists x)(y = T$ and $x \in A)$ is collectivizing in $y$.*
 
-Let $R$ be the relation $y = T$. The relation $(\forall y)(R \Rightarrow (y \in \{T\}))$ is true, hence so is $(\forall x)(\exists X)(\forall y)(R \Rightarrow (y \in X))$, where $X$ is a letter, distinct from $y$, which does not appear in $R$. By virtue of S8, the relation $(\exists x)(x \in A$ and $R)$ is collectivizing in $y$, and C53 is proved.
+Let $R$ be the relation $y = T$. The relation $(\forall y)(R \Rightarrow (y \in \{T\}))$ is true, hence so is $(\forall x)(\exists X)(\forall y)(R \Rightarrow (y \in X))$, where $X$ is a letter, distinct from $y$, which does not appear in $R$. By virtue of S8, the relation $(\exists x)(x \in A$ and R) is collectivizing in $y$, and C53 is proved.
 
 ¶ The relation $(\exists x)(y = T$ and $x \in A)$ is often read as follows : "$y$ can be put in the form $T$ for some $x$ belonging to $A$". The set
 

@@ -7,36 +7,37 @@ section: 7
 section_title: Infinite sums and products of real numbers
 lang: en
 source: top-i-iv
+book_pages: 363-372, 397-401
 pdf_pages: 0369-0378, 0403-0407
 extraction: ocr
 subsections:
     - "no": 1
       title: FAMILIES OF POSITIVE FINITE NUMBERS SUMMABLE IN $\mathbf{R}$
-      page: 0
+      page: 364
       pdf_page: 370
     - "no": 2
       title: FAMILIES OF FINITE NUMBERS OF ARBITRARY SIGN SUMMABLE IN $\mathbf{R}$
-      page: 0
+      page: 366
       pdf_page: 372
     - "no": 3
       title: PRODUCT OF TWO INFINITE SUMS
-      page: 0
+      page: 367
       pdf_page: 373
     - "no": 4
       title: FAMILIES MULTIPLIABLE IN $\mathbf{R}^*$
-      page: 0
+      page: 367
       pdf_page: 373
     - "no": 5
       title: SUMMABLE FAMILIES AND MULTIPLIABLE FAMILIES IN $\overline{\mathbf{R}}$
-      page: 0
+      page: 369
       pdf_page: 375
     - "no": 6
       title: INFINITE SERIES AND INFINITE PRODUCTS OF REAL NUMBERS
-      page: 0
+      page: 370
       pdf_page: 376
 statements: 20
 exercises: 22
-content_sha256: 53fa6856b0ed9b2e76f1e361c0d82aa4411cc7ecfa0b354e495808655f7944b3
+content_sha256: d12e61abaa0776c3c22cc180ebafa3f47bdea5f60a24d2473807cbb0c4c47432
 ---
 
 ## 7. INFINITE SUMS AND PRODUCTS OF REAL NUMBERS
@@ -49,7 +50,7 @@ Since every point of $\mathbf{R}$ has a *countable* fundamental system of neighb
 
 *A family* $(x_i)$ *of finite real numbers* $\geqslant 0$ *is summable in* $\mathbf{R}$ *if and only if the set of partial finite sums of the family is bounded above in* $\mathbf{R}$. *If so, the least upper bound of this set is the sum of the family* $(x_i)$.
 
-For each finite subset $H$ of the index set $I$, let $s_H = \sum_{i \in H} x_i$; since the $x_i$ are $\geqslant 0$, the relation $H \subset H'$ implies $s_H \leqslant s_{H'}$. In other words, the mapping $H \to s_H$ is an *increasing* function on the directed set $\mathfrak{F}(I)$ of finite subsets of $I$; therefore (\$ 5, no. 2, Corollary to Theorem 2) it has a finite limit if and only if it is *bounded above*.
+For each finite subset $H$ of the index set $I$, let $s_H = \sum_{i \in H} x_i$; since the $x_i$ are $\geqslant 0$, the relation $H \subset H'$ implies $s_H \leqslant s_{H'}$. In other words, the mapping $H \to s_H$ is an *increasing* function on the directed set $\mathfrak{F}(I)$ of finite subsets of $I$; therefore (§ 5, no. 2, Corollary to Theorem 2) it has a finite limit if and only if it is *bounded above*.
 
 #### Remark {#top-iv-s7-n1-rem-1 .statement}
 
@@ -85,7 +86,7 @@ s_{2^n} > n/2
 $$
 so that the criterion of Theorem 1 is not satisfied.
 
-5) Let $(I_n)$ be a sequence of mutually disjoint non-empty open intervals, all contained in an interval of finite length $l$. The sum of the lengths of a finite number of intervals of this family is $\leq l$ ($\S 1$, no. 5) and therefore the family of lengths of the $I_n$ is summable in $\mathbf{R}$, and its sum is $\leq l$.
+5) Let $(I_n)$ be a sequence of mutually disjoint non-empty open intervals, all contained in an interval of finite length $l$. The sum of the lengths of a finite number of intervals of this family is $\leq l$ ($§ 1$, no. 5) and therefore the family of lengths of the $I_n$ is summable in $\mathbf{R}$, and its sum is $\leq l$.
 
 #### Theorem 2 (Principle of comparison) {#top-iv-s7-thm-2 .statement}
 
@@ -95,7 +96,7 @@ The hypothesis implies that,
 $$
 \sum_{i \in H} x_i \leq \sum_{i \in H} y_i,
 $$
-for every finite subset $H$ of $I$ and the first part of the theorem follows from this; the inequality relating the sums follows from the principle of extension of inequalities ($\S 5$, no. 2, Theorem 1). If $x_x < y_x$, then
+for every finite subset $H$ of $I$ and the first part of the theorem follows from this; the inequality relating the sums follows from the principle of extension of inequalities ($§ 5$, no. 2, Theorem 1). If $x_x < y_x$, then
 $$
 \sum_i x_i = x_x + \sum_{i \neq x} x_i < y_x + \sum_{i \neq x} y_i = \sum_i y_i.
 $$
@@ -300,7 +301,7 @@ $$
 $$
 also, if the series $(u_n)$ is convergent then the series $(au_n)$ is convergent for all finite real numbers $a$, and $\sum_{n=0}^{\infty} au_n = a \cdot \sum_{n=0}^{\infty} u_n$.
 
-Finally, if the series $(u_n)$ and $(v_n)$ are convergent, and if $u_n \leq v_n$ for all $n$, we have $\sum_{n=0}^{\infty} u_n \leq \sum_{n=0}^{\infty} v_n$ by the principle of extension of inequalities (\S 5, no. 2, Theorem 1).
+Finally, if the series $(u_n)$ and $(v_n)$ are convergent, and if $u_n \leq v_n$ for all $n$, we have $\sum_{n=0}^{\infty} u_n \leq \sum_{n=0}^{\infty} v_n$ by the principle of extension of inequalities (§ 5, no. 2, Theorem 1).
 
 It should be noted that, if we suppose the series $(v_n)$ to be convergent but not absolutely convergent, and if $|u_n| \leq |v_n|$ for each $n$, we can by no means infer that the series $(u_n)$ is convergent, as is seen by taking $u_n = |v_n|$.
 
@@ -314,7 +315,7 @@ An infinite product of finite non-zero real numbers is said simply to be converg
 
 *An infinite product of finite real numbers is commutatively convergent if and only if it is absolutely convergent.*
 
-This follows from Chapter III, \S 5, no. 7, Proposition 9, and from Theorem 4 above.
+This follows from Chapter III, § 5, no. 7, Proposition 9, and from Theorem 4 above.
 
 Moreover, the product whose general factor is $1 + u_n$ is *absolutely convergent* if and only if the series whose general term is $u_n$ is *absolutely convergent*.
 

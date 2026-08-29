@@ -7,48 +7,49 @@ section: 1
 section_title: Definition of Lie algebras
 lang: en
 source: lie-i-iii
+book_pages: 1-12, 73-83
 pdf_pages: 0019-0030, 0091-0101
 extraction: ocr
 subsections:
     - "no": 1
       title: ALGEBRAS
-      page: 0
+      page: 1
       pdf_page: 19
     - "no": 2
       title: LIE ALGEBRAS
-      page: 0
+      page: 3
       pdf_page: 21
     - "no": 3
       title: COMMUTATIVE LIE ALGEBRAS
-      page: 0
+      page: 5
       pdf_page: 23
     - "no": 4
       title: IDEALS
-      page: 0
+      page: 5
       pdf_page: 23
     - "no": 5
       title: DERIVED SERIES, LOWER CENTRAL SERIES
-      page: 0
+      page: 6
       pdf_page: 24
     - "no": 6
       title: UPPER CENTRAL SERIES
-      page: 0
+      page: 6
       pdf_page: 24
     - "no": 7
       title: EXTENSIONS
-      page: 0
+      page: 7
       pdf_page: 25
     - "no": 8
       title: SEMI-DIRECT PRODUCTS
-      page: 0
+      page: 8
       pdf_page: 26
     - "no": 9
       title: CHANGE OF BASE RING
-      page: 0
+      page: 11
       pdf_page: 29
 statements: 19
 exercises: 27
-content_sha256: 6f24a032c35720d8217f4a61a4f790ea698f94a79a12e0f692ee1ad01c4e55e0
+content_sha256: 34c36ec4b6364065c59b2c64940de2dd7a1af068ca79123de094195be8edaedd
 ---
 
 ## § 1. DEFINITION OF LIE ALGEBRAS
@@ -277,7 +278,7 @@ $$
 are said to be equivalent if there exists a homomorphism $f$ of $g$ into $g'$ such that the following diagram:
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 a & \xrightarrow{\lambda} & g & \xrightarrow{\mu} & b \\
 & & f \downarrow & & \\
 & & g' & \xrightarrow{\mu'} & b \\
@@ -425,7 +426,7 @@ $$
 *be the inessential extension of $b$ by $a$ canonically defined by $\phi$.* Then the mapping $(a, b) \mapsto \lambda(a) + \nu(b)$ is an isomorphism $f$ of $g_0$ onto $g$ and the following diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 & & \\
 a & \xrightarrow{\lambda_0} & g_0 & \xrightarrow{\mu_0} & b \\
 & \searrow f & \downarrow & \nearrow \mu_0 \\

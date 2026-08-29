@@ -1,0 +1,5 @@
+{"edges": [
+{"from":"","from_label":"fvr-vi-s0","to_label":"alg-ii-s7","kind":"cites","raw":"II, p. 309","form":"page","resolved_by":"section","file":"content/en/fvr/VI/historical_note.md","line":84},
+{"from":"","from_label":"fvr-vi-s0","to_label":"alg-viii-s1","kind":"cites","raw":"VIII, p. 18","form":"page","resolved_by":"section","file":"content/en/fvr/VI/historical_note.md","line":88},
+{"from":"","from_label":"fvr-vi-s0","to_label":"alg-ii-s1","kind":"cites","raw":"II, p. 197","form":"page","resolved_by":"section","file":"content/en/fvr/VI/historical_note.md","line":89}
+]}

@@ -22,7 +22,7 @@ subsections:
       pdf_page: 286
 statements: 5
 exercises: 9
-content_sha256: 86ae6e26f616de0aa6a22cdd5dab2607d52dc227a026998bb63b78ad07bc4819
+content_sha256: aa78d7417dc812e3fe49b768fcc72481a0fc960e63e09218c2f7ad67767169c0
 ---
 
 ## ANNEX
@@ -39,9 +39,9 @@ for all $x \in E$.
 
 One calls *trace of Q with respect to H* and one denotes by $\operatorname{Tr}(Q/H)$ the positive real number, finite or not, defined as follows:
 
-$a)$ If there exists an $x \in E$ such that $H(x) = 0$ and $Q(x) \neq 0$, one sets $\operatorname{Tr}(Q/H) = +\infty$.
+a) If there exists an $x \in E$ such that $H(x) = 0$ and $Q(x) \neq 0$, one sets $\operatorname{Tr}(Q/H) = +\infty$.
 
-$b)$ In the contrary case, $\operatorname{Tr}(Q/H)$ is the supremum of the set of numbers of the form $\sum_{i=1}^p Q(e_i)$, where $(e_1, \ldots, e_p)$ runs over the set of finite sequences of elements of $E$ orthonormal for $H$.
+b) In the contrary case, $\operatorname{Tr}(Q/H)$ is the supremum of the set of numbers of the form $\sum_{i=1}^p Q(e_i)$, where $(e_1, \ldots, e_p)$ runs over the set of finite sequences of elements of $E$ orthonormal for $H$.
 
 Let $E$ be a real Hilbert space and $Q$ a positive quadratic form on $E$. Set $H(x) = \|x\|^2$ for all $x \in E$; then $H$ is a positive quadratic form on $E$. One says that $Q$ is *nuclear* if $\operatorname{Tr}(Q/H)$ is finite. For every $x \in E$ of norm 1, one has $Q(x) \leq \operatorname{Tr}(Q/H)$, whence $Q \leq \operatorname{Tr}(Q/H) \cdot H$; in particular, every nuclear form $Q$ is continuous.
 

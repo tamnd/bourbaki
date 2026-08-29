@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: dcacb32e43faf87afa9b413eaa1d8bbbe9c968d661d131b722608dd9e997415d
+content_sha256: b0678881b7cd3a56d5f8b131d0c35b22044fde9c44f2a5b66f9c2d07b90f0958
 ---
 
 ## § 2. LINEAR REPRESENTATIONS OF GROUPS
@@ -68,14 +68,14 @@ To say that $U$ is continuous is equivalent to the following set of three condit
 
 a) for every $s \in G$, $U(s)$ is continuous; b) there exists a neighborhood $V$ of $e$ such that $U(V)$ is equicontinuous; c) there exists a total set $D$ in $E$ such that, for every $x \in D$, the mapping $s \mapsto U(s)x$ is continuous.
 
-These conditions are obviously necessary. Conversely, suppose that the conditions $a)$, $b)$, $c)$ are satisfied. On $U(V)$, the topology of pointwise convergence is identical to the topology of pointwise convergence in $D$ (TVS, III, §3, No. 4, Prop. 5). Therefore the mapping $(s, x) \mapsto U(s)x$ of $V \times E$ into $E$ is continuous (GT, X, §2, No. 1, Cor. 3 of Prop. 1). Since $U(s_0s)x = U(s_0)(U(s)x)$ for all $s_0 \in G$, $s \in G$, $x \in E$, one sees that $U$ is continuous.
+These conditions are obviously necessary. Conversely, suppose that the conditions a), b), c) are satisfied. On $U(V)$, the topology of pointwise convergence is identical to the topology of pointwise convergence in $D$ (TVS, III, §3, No. 4, Prop. 5). Therefore the mapping $(s, x) \mapsto U(s)x$ of $V \times E$ into $E$ is continuous (GT, X, §2, No. 1, Cor. 3 of Prop. 1). Since $U(s_0s)x = U(s_0)(U(s)x)$ for all $s_0 \in G$, $s \in G$, $x \in E$, one sees that $U$ is continuous.
 
-When $G$ is locally compact, the conditions $a)$ and $b)$ are equivalent to the condition:
+When $G$ is locally compact, the conditions a) and b) are equivalent to the condition:
 $a')$ for every compact subset $K$ of $G$, $U(K)$ is equicontinuous.
 
 #### Remark 3 {#int-viii-s2-n1-rem-3 .statement}
 
-Suppose that $U$ is a continuous linear representation of $G$ in $E$. For every $s \in G$, let $\widehat{U}(s)$ be the continuous extension of $U(s)$ to the completion $\widehat{E}$ of $E$. Then $\widehat{U}$ is a linear representation of $G$ in $\widehat{E}$, satisfying conditions $a)$ and $c)$ of Remark 2, and also condition $b)$ by GT, X, §2, No. 2, Prop. 4. Therefore $\widehat{U}$ is a continuous linear representation of $G$ in $\widehat{E}$.
+Suppose that $U$ is a continuous linear representation of $G$ in $E$. For every $s \in G$, let $\widehat{U}(s)$ be the continuous extension of $U(s)$ to the completion $\widehat{E}$ of $E$. Then $\widehat{U}$ is a linear representation of $G$ in $\widehat{E}$, satisfying conditions a) and c) of Remark 2, and also condition b) by GT, X, §2, No. 2, Prop. 4. Therefore $\widehat{U}$ is a continuous linear representation of $G$ in $\widehat{E}$.
 
 #### Remark 4 {#int-viii-s2-n1-rem-4 .statement}
 
@@ -154,7 +154,7 @@ Then $\gamma_\chi(e)f = f$ and
 $$
 \begin{align*}
 (\gamma_\chi(s)\gamma_\chi(s')f)(x) &= \chi(s^{-1}, x)(\gamma_\chi(s')f)(s^{-1}x) \\
-&= \chi(s^{-1}, x)\chi(s'^{-1}, s^{-1}x)f(s'^{-1}s^{-1}x) \\
+&= \chi(s^{-1}, x)\chi({s'}^{-1}, s^{-1}x)f({s'}^{-1}s^{-1}x) \\
 &= \chi((ss')^{-1}, x))f((ss')^{-1}x) = (\gamma_\chi(ss')f)(x),
 \end{align*}
 $$

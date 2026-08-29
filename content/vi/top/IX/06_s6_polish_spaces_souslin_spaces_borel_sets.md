@@ -48,9 +48,9 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 1
-content_sha256: c6619e27b695d63037d60790ef2c3010d9a7f6c6b9dc04eb3ce4c18a153b8488
+content_sha256: 511cef7155fd21079024cb1869e1136fff574208af5b48e762b71290aab041ba
 translated_from: content/en/top/IX/06_s6_polish_spaces_souslin_spaces_borel_sets.md
-source_content_sha256: e046d099601541d21ad34ac061ae4087de467970508dacf68d145d8e9e3c6f51
+source_content_sha256: 69f92cd78f330694f81aad84eec3ecfd43d27d5eacabcc416871a1736cb0f341
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-15a9d5c4
 glossary_version: 34
@@ -64,7 +64,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#top-ix-s6-def-1 .statement}
 
-*Một không gian tôpô* $X$ *được gọi là Polish nếu nó mêtric hóa được kiểu đếm được* ($\S 2$, no. 8) *và nếu tồn tại một mêtric tương thích với tôpô của* $X$, *đối với mêtric đó* $X$ *là đầy đủ*.
+*Một không gian tôpô* $X$ *được gọi là Polish nếu nó mêtric hóa được kiểu đếm được* ($§ 2$, no. 8) *và nếu tồn tại một mêtric tương thích với tôpô của* $X$, *đối với mêtric đó* $X$ *là đầy đủ*.
 
 #### Mệnh đề 1 {#top-ix-s6-prop-1 .statement}
 
@@ -72,7 +72,7 @@ a) *Mọi không gian con đóng của một không gian Polish đều là Polis
 b) *Tích của một họ đếm được các không gian Polish là Polish*.
 c) *Tổng của một họ đếm được các không gian Polish là Polish*.
 
-Mọi không gian con của một không gian mêtric hóa được kiểu đếm được đều mêtric hóa được kiểu đếm được, và mọi không gian con đóng của một không gian đầy đủ đều đầy đủ; (Chương II, § 3, no. 4, Mệnh đề 8). Mọi tích đếm được của các không gian mêtric hóa được kiểu đếm được lại là mêtric hóa được kiểu đếm được: ($\S 2$, no. 8), và mọi tích đếm được của các không gian mêtric đầy đủ là một không gian mêtric đầy đủ đối với một mêtric tương thích với tôpô của nó (Chương II, § 3, no. 5, Mệnh đề 10 và Chương IX, § 2, no. 4, Định lý 1, Hệ quả 2). Cuối cùng, cho $(X_n)$ là một dãy các không gian Polish khác rỗng, và xét không gian tích $Y = \mathbf{N} \times \prod_n X_n$, trong đó $\mathbf{N}$ mang tôpô rời rạc; $Y$ là một không gian Polish theo những gì đã được chứng minh. Mặt khác, cho $a_n$ là một điểm của $X_n$ với mỗi $n$, và cho $f_n$ là ánh xạ từ $X_n$ vào $Y$ sao cho với mỗi $x \in X_n$ ta có
+Mọi không gian con của một không gian mêtric hóa được kiểu đếm được đều mêtric hóa được kiểu đếm được, và mọi không gian con đóng của một không gian đầy đủ đều đầy đủ; (Chương II, § 3, no. 4, Mệnh đề 8). Mọi tích đếm được của các không gian mêtric hóa được kiểu đếm được lại là mêtric hóa được kiểu đếm được: ($§ 2$, no. 8), và mọi tích đếm được của các không gian mêtric đầy đủ là một không gian mêtric đầy đủ đối với một mêtric tương thích với tôpô của nó (Chương II, § 3, no. 5, Mệnh đề 10 và Chương IX, § 2, no. 4, Định lý 1, Hệ quả 2). Cuối cùng, cho $(X_n)$ là một dãy các không gian Polish khác rỗng, và xét không gian tích $Y = \mathbf{N} \times \prod_n X_n$, trong đó $\mathbf{N}$ mang tôpô rời rạc; $Y$ là một không gian Polish theo những gì đã được chứng minh. Mặt khác, cho $a_n$ là một điểm của $X_n$ với mỗi $n$, và cho $f_n$ là ánh xạ từ $X_n$ vào $Y$ sao cho với mỗi $x \in X_n$ ta có
 
 $$
 f_n(x) = (n, (y_p)),
@@ -88,25 +88,25 @@ Cho $X$ là một không gian Polish, cho $d$ là một mêtric trên $X$ tươn
 $$
 t \cdot d(x, X - U) = 1;
 $$
-$V$ là đóng theo Mệnh đề 3 của § 2, no. 2 và do đó là Polish (Mệnh đề 1). Vì hạn chế trên $V$ của phép chiếu $\mathrm{pr}_2 : \mathbf{R} \setminus X \to X$ là một đồng phôi của $V$ lên $U$ ($\S 2,$ no. 2, Mệnh đề 3), nên $U$ là một không gian con Polish của $X$.
+$V$ là đóng theo Mệnh đề 3 của § 2, no. 2 và do đó là Polish (Mệnh đề 1). Vì hạn chế trên $V$ của phép chiếu $\mathrm{pr}_2 : \mathbf{R} \setminus X \to X$ là một đồng phôi của $V$ lên $U$ ($§ 2,$ no. 2, Mệnh đề 3), nên $U$ là một không gian con Polish của $X$.
 
 #### Hệ quả {#top-ix-s6-n1-cor-1 .statement}
 
 Mọi không gian mêtric hóa được địa phương compact $X$ đều là Polish.
 
-Cho $X$ là không gian compact thu được bằng cách ghép thêm một điểm ở vô tận vào $X$; $X'$ là mêtric được và có kiểu đếm được ($\S 2,$ no. 9, Hệ quả của Mệnh đề 16), và $X$ là đầy đủ đối với tôpô đều duy nhất của nó (chương II, $\S 4,$ no. 1, Định lý 1). Do đó $X$ là một không gian Polish; vì $X$ là mở trong $X'$, suy ra $X$ là Polish.
+Cho $X$ là không gian compact thu được bằng cách ghép thêm một điểm ở vô tận vào $X$; $X'$ là mêtric được và có kiểu đếm được ($§ 2,$ no. 9, Hệ quả của Mệnh đề 16), và $X$ là đầy đủ đối với tôpô đều duy nhất của nó (chương II, $§ 4,$ no. 1, Định lý 1). Do đó $X$ là một không gian Polish; vì $X$ là mở trong $X'$, suy ra $X$ là Polish.
 
 #### Mệnh đề 3 {#top-ix-s6-prop-3 .statement}
 
 Cho $X$ là một không gian tôpô Hausdorff. Khi đó giao của một dãy $(A_n)$ các không gian con Polish của $X$ là một không gian con Polish.
 
-Cho $f$ là ánh xạ đường chéo của $X$ vào $X^\mathbf{N}$ ([Lý thuyết tập hợp, chương II, $\S 5,$ no. 3; hãy nhớ rằng $f(x) = (x, x, \ldots)$ trong đó $x_n = x$ với mọi $n \in \mathbf{N}$]. Ta sẽ sử dụng bổ đề sau:
+Cho $f$ là ánh xạ đường chéo của $X$ vào $X^\mathbf{N}$ ([Lý thuyết tập hợp, chương II, $§ 5,$ no. 3; hãy nhớ rằng $f(x) = (x, x, \ldots)$ trong đó $x_n = x$ với mọi $n \in \mathbf{N}$]. Ta sẽ sử dụng bổ đề sau:
 
 #### Bổ đề 1 {#top-ix-s6-lem-1 .statement}
 
 Cho $(A_n)$ là một dãy các tập con của một không gian tôpô Hausdorff $X$. Khi đó hạn chế của ánh xạ đường chéo $f : X \to X^\mathbf{N}$ lên không gian con $\bigcap_n A_n$ của $X$ là một đồng phôi của $\bigcap_n A_n$ vào một không gian con đóng của $\prod_n A_n$.
 
-Ảnh này là giao của $\prod_n A_n$ và đường chéo $\Delta = f(X)$, là tập đóng trong $X^\mathbf{N}$ vì $X$ là Hausdorff (chương I, $\S 8,$ no. 1); và $f$ là một đồng phôi của $X$ lên $\Delta$.
+Ảnh này là giao của $\prod_n A_n$ và đường chéo $\Delta = f(X)$, là tập đóng trong $X^\mathbf{N}$ vì $X$ là Hausdorff (chương I, $§ 8,$ no. 1); và $f$ là một đồng phôi của $X$ lên $\Delta$.
 
 Với các giả thiết của Mệnh đề 3, $\prod_n A_n$ là một không gian Polish (Mệnh đề 1), do đó $\bigcap_n A_n$ là Polish theo Bổ đề 1 và Mệnh đề 1.
 
@@ -122,13 +122,13 @@ Nó là giao của một họ đếm được các tập mở trong $\mathbf{R}$
 
 Sự đủ của điều kiện suy ra ngay lập tức từ các Mệnh đề 2 và 3. Để chứng minh sự cần thiết, cho $d$ là một mêtric tương thích với tôpô của $Y$ và đối với nó $Y$ là đầy đủ. Cho $\overline{Y}$ là bao đóng của $Y$ trong $X$. Với mỗi số nguyên $n > 0$, cho $Y_n$ là tập hợp tất cả các $x \in \overline{Y}$ có một lân cận mở $U$ sao cho đường kính của $U \cap Y$ (đối với mêtric $d$) là $\leq 1/n$. Rõ ràng $Y_n$ là mở trong $\overline{Y}$ và chứa $Y$. Cho $x \in \bigcap_n Y_n$; khi đó $x \in \overline{Y}$, và vết trên $Y$ của bộ lọc lân cận của $x$ trong $X$ là một bộ lọc Cauchy (đối với $d$); do đó bộ lọc này hội tụ đến một điểm của $Y$, và vì vậy $x \in Y$. Suy ra $Y = \bigcap_n Y_n$.
 
-Với mỗi $n$, cho $H_n$ là một tập con mở của $X$ sao cho $H_n \cap \overline{Y} = Y_n$, và cho $(U_m)$ là một dãy các tập con mở của $X$ sao cho $\overline{Y} = \bigcap_m U_m$ (\S 2, no. 5, Mệnh đề 7); khi đó $Y$ là giao của họ đếm được các tập mở $(H_n \cap U_m)$.
+Với mỗi $n$, cho $H_n$ là một tập con mở của $X$ sao cho $H_n \cap \overline{Y} = Y_n$, và cho $(U_m)$ là một dãy các tập con mở của $X$ sao cho $\overline{Y} = \bigcap_m U_m$ (§ 2, no. 5, Mệnh đề 7); khi đó $Y$ là giao của họ đếm được các tập mở $(H_n \cap U_m)$.
 
 #### Hệ quả 1 {#top-ix-s6-thm-1-cor-1 .statement}
 
 *Một không gian* $X$ *là Polish khi và chỉ khi nó đồng phôi với một giao đếm được của các tập mở trong lập phương* $\mathbf{I}^{\mathbf{N}}$, *trong đó* $\mathbf{I}$ *là khoảng* $[0, 1]$ *của* $\mathbf{R}$.
 
-Điều kiện rõ ràng là đủ, và nó là cần thiết vì mọi không gian mêtric hóa được kiểu đếm được đều đồng phôi với một không gian con của $\mathbf{I}^{\mathbf{N}}$ (\S 2, no. 8, Mệnh đề 12).
+Điều kiện rõ ràng là đủ, và nó là cần thiết vì mọi không gian mêtric hóa được kiểu đếm được đều đồng phôi với một không gian con của $\mathbf{I}^{\mathbf{N}}$ (§ 2, no. 8, Mệnh đề 12).
 
 #### Hệ quả 2 {#top-ix-s6-thm-1-cor-2 .statement}
 
@@ -184,13 +184,13 @@ Nói chung, ngay cả trong một không gian Polish, phần bù của một kh�
 
 *Cho $X$ là một không gian khả metric, và cho $A$ là một không gian con Souslin tương đối compact của $X$. Khi đó tồn tại một không gian khả metric compact $K$, một dãy giảm $(B_n)$ các tập con của $K$, mỗi tập là một hợp đếm được của các tập compact, và một ánh xạ liên tục $f : K \to X$, sao cho $A = f\left(\bigcap_n B_n\right)$. \*
 
-Nếu cần, thay $X$ bởi $\overline{A}$, ta có thể giả sử rằng $X$ là compact và $A$ trù mật trong $X$. Vì $A$ là một không gian Souslin, nên tồn tại một không gian Polish $P$ và một ánh xạ liên tục $g : P \to X$ sao cho $g(P) = A$. Theo no. 1, Định lý 1, Hệ quả 1, ta có thể giả sử rằng $P$ là giao của một dãy giảm $(U_n)$ các tập con mở của khối lập phương $I^\mathbf{N}$. Cho $K$ là không gian $I^\mathbf{N} \times X$, không gian này compact và khả metric (\S 2, no. 4, Định lý 1, Hệ quả 2). Cho $G \subset P \times X$ là đồ thị của g, cho $\overline{G}$ là bao đóng của G trong $K$, và cho f là phép chiếu của $K = I^\mathbf{N} \times X$ lên $X$; khi đó rõ ràng ta có $f(G) = A$. Vì g liên tục, G đóng trong $P \times X$ (Chương I, \S 8, no. 1, Mệnh đề 2, Hệ quả 2) và $G = \overline{G} \cap (P \times X)$; do đó $G = \bigcap_n B_n$, trong đó
+Nếu cần, thay $X$ bởi $\overline{A}$, ta có thể giả sử rằng $X$ là compact và $A$ trù mật trong $X$. Vì $A$ là một không gian Souslin, nên tồn tại một không gian Polish $P$ và một ánh xạ liên tục $g : P \to X$ sao cho $g(P) = A$. Theo no. 1, Định lý 1, Hệ quả 1, ta có thể giả sử rằng $P$ là giao của một dãy giảm $(U_n)$ các tập con mở của khối lập phương $I^\mathbf{N}$. Cho $K$ là không gian $I^\mathbf{N} \times X$, không gian này compact và khả metric (§ 2, no. 4, Định lý 1, Hệ quả 2). Cho $G \subset P \times X$ là đồ thị của g, cho $\overline{G}$ là bao đóng của G trong $K$, và cho f là phép chiếu của $K = I^\mathbf{N} \times X$ lên $X$; khi đó rõ ràng ta có $f(G) = A$. Vì g liên tục, G đóng trong $P \times X$ (Chương I, § 8, no. 1, Mệnh đề 2, Hệ quả 2) và $G = \overline{G} \cap (P \times X)$; do đó $G = \bigcap_n B_n$, trong đó
 
 $$
 B_n = \overline{G} \cap (U_n \times X).
 $$
 
-Vì mỗi $U_n$ là một hợp đếm được của các tập đóng trong $I^\mathbf{N}$ (\S 2, no. 5, Mệnh đề 7), nên mỗi $B_n$ là một hợp đếm được của các tập compact và chứng minh là xong.
+Vì mỗi $U_n$ là một hợp đếm được của các tập đóng trong $I^\mathbf{N}$ (§ 2, no. 5, Mệnh đề 7), nên mỗi $B_n$ là một hợp đếm được của các tập compact và chứng minh là xong.
 
 ### 3. CÁC TẬP BOREL
 
@@ -293,7 +293,7 @@ Một sự sàng lọc được gọi là ngặt nếu thêm vào đó, với m�
 
 Mọi không gian mêtric X kiểu đếm được đều có một sự sàng lọc. Nếu thêm vào đó X không chiều, thì X có một sự sàng lọc ngặt.
 
-Lưu ý trước rằng nếu $Y$ là một không gian mêtric kiểu đếm được và nếu $\varepsilon$ là một số thực $> 0$, thì có một phủ đếm được của $Y$ bởi các tập hợp có đường kính $\leq \varepsilon$ ($\S 2$, no. 8, Mệnh đề 13). Nếu hơn nữa, $Y$ là không chiều, thì có một phủ như vậy $(V_n)$ tạo bởi các tập hợp vừa mở vừa đóng; nếu $W_n$ là giao của $V_n$ và $\bigcap_{k < n} (Y - V_k)$, ta thấy rằng các $W_n$ là đóng, có đường kính $\leq \varepsilon$, rời nhau từng đôi một và phủ $X$. Trong mọi trường hợp, các bao đóng của các tập hợp không rỗng của phủ tạo thành một phủ đếm được của $Y$ mà các phần tử của nó là các tập hợp đóng không rỗng có đường kính $\leq \varepsilon$.
+Lưu ý trước rằng nếu $Y$ là một không gian mêtric kiểu đếm được và nếu $\varepsilon$ là một số thực $> 0$, thì có một phủ đếm được của $Y$ bởi các tập hợp có đường kính $\leq \varepsilon$ ($§ 2$, no. 8, Mệnh đề 13). Nếu hơn nữa, $Y$ là không chiều, thì có một phủ như vậy $(V_n)$ tạo bởi các tập hợp vừa mở vừa đóng; nếu $W_n$ là giao của $V_n$ và $\bigcap_{k < n} (Y - V_k)$, ta thấy rằng các $W_n$ là đóng, có đường kính $\leq \varepsilon$, rời nhau từng đôi một và phủ $X$. Trong mọi trường hợp, các bao đóng của các tập hợp không rỗng của phủ tạo thành một phủ đếm được của $Y$ mà các phần tử của nó là các tập hợp đóng không rỗng có đường kính $\leq \varepsilon$.
 
 Cho $X$ là một không gian mêtric kiểu đếm được. Cho $C_0$ là tập hợp các chỉ số của một phủ đếm được của $X$ tạo bởi các tập hợp đóng không rỗng có đường kính $\leq 1$, rời nhau từng đôi một nếu $X$ là không chiều; $\varphi_0$ sẽ là ánh xạ gán cho mỗi chỉ số $c \in C_0$ tập hợp tương ứng của phủ. Giả sử rằng ta đã định nghĩa các $C_i$ và các $\varphi_i$ và các ánh xạ toàn ánh $p_i : C_{i+1} \to C_i$ với $i \leq n$ theo cách sao cho điều kiện b) được thỏa mãn đối với các chỉ số này. Nếu $c \in C_n$, không gian $\varphi_n(c)$ có một phủ đếm được bởi các tập hợp đóng không rỗng có đường kính $\leq 1/2^{n+1}$, rời nhau từng đôi một nếu $X$ [và do đó $\varphi_n(c)$] là không chiều; nếu $I(c)$ chỉ tập hợp chỉ số của phủ này, ta lấy $c_{n+1}$ là tổng của các tập hợp $I(c)$ khi $c$ chạy qua $C_n$; với mỗi $c' \in C_{n+1}$, cho $p_n(c')$ là phần tử $c \in C_n$ sao cho $c' \in I(c)$, và cho $\varphi_{n+1}(c')$ là tập hợp có chỉ số $c'$ trong phủ của $\varphi_n(c)$ đang xét. Rõ ràng do đó ta định nghĩa bằng quy nạp một phép sàng lọc của $X$, và phép sàng lọc này là ngặt nếu $X$ là không chiều; do đó có Bổ đề 3.
 

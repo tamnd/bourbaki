@@ -20,7 +20,7 @@ subsections:
       pdf_page: 89
 statements: 20
 exercises: 11
-content_sha256: 13551fa93863664d5230447509c30b7687fc6e4a5a5f0eb5bbe2e41d2a548817
+content_sha256: 8993921901c219574a677bc8ecdd527fa01313f50a67882b515918eef0427b1a
 ---
 
 ## § 7. Intégration par rapport à une mesure induite
@@ -40,9 +40,9 @@ Cela signifie que l’on peut écrire
 $$
 \mu_X = \int \lambda_t\ d\mu(t)
 $$
-($\S 3, n^\circ 1$).
+($§ 3, n^\circ 1$).
 
-Définissons maintenant une application $\pi$ de $T$ dans $X$ en posant $\pi(t) = t$ pour $t \in X$, et $\pi(t) = t_0$ pour $t \in \mathbf{C}X$, $t_0$ étant un point arbitraire de $X$; on peut écrire, pour tout $t \in T$, $\lambda_t = \varphi_X(t)\varepsilon_{\pi(t)}$. L’application $\pi$ est $\mu$-mesurable, car ses restrictions à $X$ et à $\mathbf{C}X$ le sont (chap. IV, 2e éd., $\S 5$, $n^\circ 10$, prop. 16); il en résulte aussitôt que le couple $(\pi, \varphi_X)$ est $\mu$-adapté ($\S 4, n^\circ 1$). On a par conséquent les résultats suivants:
+Définissons maintenant une application $\pi$ de $T$ dans $X$ en posant $\pi(t) = t$ pour $t \in X$, et $\pi(t) = t_0$ pour $t \in \mathbf{C}X$, $t_0$ étant un point arbitraire de $X$; on peut écrire, pour tout $t \in T$, $\lambda_t = \varphi_X(t)\varepsilon_{\pi(t)}$. L’application $\pi$ est $\mu$-mesurable, car ses restrictions à $X$ et à $\mathbf{C}X$ le sont (chap. IV, 2e éd., $§ 5$, $n^\circ 10$, prop. 16); il en résulte aussitôt que le couple $(\pi, \varphi_X)$ est $\mu$-adapté ($§ 4, n^\circ 1$). On a par conséquent les résultats suivants:
 
 #### Proposition 1 {#int-v-s7-prop-1 .statement}
 
@@ -52,9 +52,9 @@ Définissons maintenant une application $\pi$ de $T$ dans $X$ en posant $\pi(t) 
 $$
 \int^* g\ d\mu_X = \int_X^* g\ d\mu
 $$
-(cf. $\S 5, n^\circ 3$, *Exemple*, pour la notation $\int_X^*$).
+(cf. $§ 5, n^\circ 3$, *Exemple*, pour la notation $\int_X^*$).
 
-Si on tient compte des remarques qui précèdent et de (2), la relation (3) résulte du th. 1 du $\S 4$.
+Si on tient compte des remarques qui précèdent et de (2), la relation (3) résulte du th. 1 du $§ 4$.
 
 #### Corollaire 1 {#int-v-s7-prop-1-cor-1 .statement}
 
@@ -74,8 +74,8 @@ Si $S$ est le support de $\mu$, $S \cap X$ (qui est fermé dans $X$) contient le
 
 #### Proposition 2 {#int-v-s7-prop-2 .statement}
 
-Pour qu’une application $g$ de $X$ dans un espace topologique soit $\mu_X$-mesurable, il faut et il suffit que $g$ soit $\mu$-mesurable dans $X$ ($\S 5$, no 3, Exemple).
-Cela résulte de la prop. 3 du $\S 4$.
+Pour qu’une application $g$ de $X$ dans un espace topologique soit $\mu_X$-mesurable, il faut et il suffit que $g$ soit $\mu$-mesurable dans $X$ ($§ 5$, no 3, Exemple).
+Cela résulte de la prop. 3 du $§ 4$.
 
 #### Corollaire {#int-v-s7-n1-cor-1 .statement}
 
@@ -83,11 +83,11 @@ Pour qu’une partie $B$ de $X$ soit $\mu_X$-mesurable, il faut et il suffit que
 
 #### Théorème 1 {#int-v-s7-thm-1 .statement}
 
-Soit $g$ une fonction définie dans $X$, à valeurs dans $\bar{\mathbf{R}}$ ou dans un espace de Banach. Pour que $g$ soit essentiellement $\mu_X$-intégrable, il faut et il suffit que $g$ soit essentiellement $\mu$-intégrable dans $X$ ($\S 5$, no 3, Exemple), et on a alors
+Soit $g$ une fonction définie dans $X$, à valeurs dans $\bar{\mathbf{R}}$ ou dans un espace de Banach. Pour que $g$ soit essentiellement $\mu_X$-intégrable, il faut et il suffit que $g$ soit essentiellement $\mu$-intégrable dans $X$ ($§ 5$, no 3, Exemple), et on a alors
 $$
 \int g\, d\mu_X = \int_X g\, d\mu.
 $$
-Cela résulte du th. 2 du $\S 4$.
+Cela résulte du th. 2 du $§ 4$.
 
 #### Corollaire 1 {#int-v-s7-thm-1-cor-1 .statement}
 
@@ -99,7 +99,7 @@ Soit $g$ une fonction complexe définie dans $T$ et localement $\mu$-intégrable
 $$
 (g \cdot \mu)_X = g_X \cdot \mu_X
 $$
-Cela résulte aussitôt du th. 1, appliqué aux fonctions $fg$ ($f \in \mathcal{H}(T; \mathbf{C})$) et de la définition de la mesure induite par une mesure complexe sur $X$ (chap. IV, 2e éd., $\S 5$, no 7).
+Cela résulte aussitôt du th. 1, appliqué aux fonctions $fg$ ($f \in \mathcal{H}(T; \mathbf{C})$) et de la définition de la mesure induite par une mesure complexe sur $X$ (chap. IV, 2e éd., $§ 5$, no 7).
 
 #### Corollaire 3 {#int-v-s7-thm-1-cor-3 .statement}
 
@@ -107,7 +107,7 @@ Soit $\theta$ une mesure complexe sur $T$; on a
 $$
 |\theta|_X = |\theta_X|
 $$
-Posons en effet $|\theta| = \mu$, et appliquons le cor. 2 en prenant pour $g$ une fonction complexe de valeur absolue 1 telle que $\theta = g \cdot \mu$ ($\S 5$, no 5, cor. 3 du th. 2); il vient $\theta_X = g_X \cdot \mu_X$; mais $g_X$ est une fonction de valeur absolue 1, et la formule (6) résulte de la prop. 2 du $\S 5$, no 2.
+Posons en effet $|\theta| = \mu$, et appliquons le cor. 2 en prenant pour $g$ une fonction complexe de valeur absolue 1 telle que $\theta = g \cdot \mu$ ($§ 5$, no 5, cor. 3 du th. 2); il vient $\theta_X = g_X \cdot \mu_X$; mais $g_X$ est une fonction de valeur absolue 1, et la formule (6) résulte de la prop. 2 du $§ 5$, no 2.
 
 #### Remarque {#int-v-s7-n1-rem-2 .statement}
 

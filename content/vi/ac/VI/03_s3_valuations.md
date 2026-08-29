@@ -37,7 +37,7 @@ subsections:
       pdf_page: 410
 statements: 15
 exercises: 8
-content_sha256: d062de812b1e808bd183b7e7d1f58436917c39d3c77acb8ae6bf5de0504917d2
+content_sha256: eb5da8f4b61c86d9dc9faf9ebeabc00875ed85b29b35161abbb9226c9fbc0801
 translated_from: content/en/ac/VI/03_s3_valuations.md
 source_content_sha256: 7c8006eb587e0c29f6ccf241727bf3ea54908994e1ee0854ab2d41fc36b2d06d
 translation_model: gpt-5.4-mini
@@ -146,7 +146,7 @@ $$
 Cho $K$ là một trường (giao hoán), $f$ là một điểm đặt của $K$, $v$ là một định giá trên $K$ và $A$ là một vành định giá của $K$. Ta sẽ nói rằng $A$, $f$ và $v$ là *liên kết* nếu $A$ là vành của $f$ và vành của $v$. Nhờ no. 1 và § 2, no. 3, mỗi trong ba đối tượng $A$, $f$ và $v$ khi đó xác định hai đối tượng còn lại (xét đến tương đương đối với các điểm đặt và các định giá). Đặc biệt, ta có các tương đương sau:
 
 $$
-\begin{array}{lll}
+\begin{array}{ccccc}
 x \in A & \Leftrightarrow & f(x) \neq \infty \\
 x \in m(A) & \Leftrightarrow & f(x) = 0 \\
 x \in A - m(A) = U(A) & \Leftrightarrow & f(x) \neq 0 \quad \text{và} \quad f(x) \neq \infty \Leftrightarrow v(x) = 0 \\
@@ -239,11 +239,21 @@ Chẳng hạn iđêan cực đại $m(A)$ bằng $a(S)$, trong đó $S$ ký hi�
 
 #### Định nghĩa 3 {#ac-vi-s3-def-3 .statement}
 
-#### Định lý 8 {#ac-vi-s3-prop-8 .statement}
-
 Cho $K$ là một trường (không nhất thiết giao hoán), $v$ là một định giá trên $K$ và $\Gamma$ là nhóm có thứ tự của $v$. $v$ được gọi là rời rạc nếu tồn tại một đẳng cấu (duy nhất tất yếu) của nhóm có thứ tự $\Gamma$ lên $\mathbf{Z}$. Cho $\gamma$ là phần tử của $\Gamma$ tương ứng với $1$ qua đẳng cấu này; mọi phần tử $u$ của $K$ sao cho $v(u) = \gamma$ được gọi là một phần tử đều hóa của $v$. Một định giá rời rạc được gọi là chuẩn nếu nhóm có thứ tự của nó là $\mathbf{Z}$.
 
 Chẳng hạn định giá $v_p$ được xác định bởi một phần tử cực biên $p$ của một iđêan chính *hoặc miền nhân tử duy nhất, là một định giá rời rạc chuẩn và nhận $p$ làm một phần tử đều hóa. Đặc biệt, nếu $k$ là một trường, $k[[T]]$ là vành của một định giá rời rạc trên $k((T))$ và nhận $T$ làm một phần tử đều hóa. Cho $S$ là một đa tạp giải tích phức liên thông có chiều 1, $K$ là trường các hàm phân hình trên $S$ và $z_0$ là một điểm của $S$; tập hợp các $f \in K$ giải tích tại $z_0$ là vành của một định giá rời rạc $v$; để một hàm $f \in K$ là một phần tử đều hóa cho $v$, điều kiện cần và đủ là nó giải tích và bằng không tại $z_0$ và tồn tại một lân cận $V$ của $z_0$ trong $S$ sao cho hạn chế của $f$ lên $V$ là một đồng cấu của $V$ lên một lân cận của gốc trong $\mathbf{C}$. Chính ví dụ này và các ví dụ tương tự khác là nguồn gốc của từ "uniformizer".*
+
+#### Mệnh đề 8 {#ac-vi-s3-prop-8 .statement}
+
+Cho $K$ là một trường (không nhất thiết giao hoán), $v$ là một định giá rời rạc trên $K$, $A$ là vành của $v$ và $u$ là một phần tử đều hóa đối với $v$. Các iđêan khác không của $A$ là hai phía và có dạng $Au^n$ ($n \geq 0$).
+
+Có thể giả sử rằng $v$ là chuẩn, sao cho $v(u) = 1$. Với mọi $x \in K^*$, tồn tại một số nguyên $n \in \mathbf{Z}$ sao cho $v(x) = n = v(u^n)$ và do đó ta có thể viết
+
+$$
+x = zu^n = u^n z',
+$$
+
+trong đó $z, z'$ là hai phần tử khả nghịch của vành $A$; từ đó suy ra mệnh đề.
 
 #### Mệnh đề 9 {#ac-vi-s3-prop-9 .statement}
 

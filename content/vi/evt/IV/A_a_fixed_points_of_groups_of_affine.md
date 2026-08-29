@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 1fd5178bfb1840afca3e3770877d5e89b8a4a9d1d2fd8073e7d65135d1cae7e5
+content_sha256: 2b9898e7e1c551fd2f2e4d6de81ed0733d278dbb80cdfba0d211001c785db71d
 translated_from: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
 source_content_sha256: 7eb54e9666dc4f954bc5363b6489301c8e109bec69185ed8316bea9f05a72696
 translation_model: gpt-5.4
@@ -122,16 +122,16 @@ Theo một cách tương tự, hệ quả của đl. 1 (IV, p. 40) kéo theo k�
 
 *Cho $G$ là một nhóm tôpô giải được. Khi đó tồn tại một trung bình trên $G$ bất biến dưới các phép tịnh tiến trái và phải.*
 
-Chỉ cần áp dụng mệnh đề 1 cho nhóm giải được $G \times G$ tác động trên $G$ bởi $(g.g').x = gxg'^{-1}$.
+Chỉ cần áp dụng mệnh đề 1 cho nhóm giải được $G \times G$ tác động trên $G$ bởi $(g.g').x = gx{g'}^{-1}$.
 
 ### 3. Định lý Ryll-Nardzewski
 
 Trong tiết này, $E$ ký hiệu một *không gian* định chuẩn trên trường $\mathbf{R}$ và $\mathcal{T}$ một tôpô lồi địa phương Hausdorff trên $E$ mà đối với nó chuẩn của $E$ là *nửa liên tục dưới*. Các giả thiết này đặc biệt được thỏa mãn trong các trường hợp sau :
 
-$a)$ $\mathcal{T}$ là tôpô cảm sinh bởi chuẩn của không gian chuẩn $E$.
-$b)$ $\mathcal{T}$ là tôpô yếu $\sigma(E, E')$ của không gian chuẩn $E$.
-$c)$ $E$ là đối ngẫu của một không gian chuẩn $F$ và $\mathcal{T} = \sigma(F', F)$.
-$d)$ Tồn tại hai không gian chuẩn $F_1$ và $F_2$ sao cho $E = \mathscr{L}(F_1 ; F_2)$ và $\mathcal{T}$ là tôpô hội tụ đơn giản.
+a) $\mathcal{T}$ là tôpô cảm sinh bởi chuẩn của không gian chuẩn $E$.
+b) $\mathcal{T}$ là tôpô yếu $\sigma(E, E')$ của không gian chuẩn $E$.
+c) $E$ là đối ngẫu của một không gian chuẩn $F$ và $\mathcal{T} = \sigma(F', F)$.
+d) Tồn tại hai không gian chuẩn $F_1$ và $F_2$ sao cho $E = \mathscr{L}(F_1 ; F_2)$ và $\mathcal{T}$ là tôpô hội tụ đơn giản.
 
 *Trừ khi có nói rõ khác đi, các khái niệm tôpô đều quy chiếu về tôpô $\mathcal{T}$.*
 

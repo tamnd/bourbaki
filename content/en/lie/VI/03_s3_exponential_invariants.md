@@ -28,7 +28,7 @@ subsections:
       pdf_page: 212
 statements: 12
 exercises: 2
-content_sha256: a1d623b664a3e6aeb9850e9dddd38396c5fe9526ee78a042d5bd1805375ab6bf
+content_sha256: 16fff2ef91958e3176073428ac5aa96104b5766117545ca5b13d57989a8e0cf7
 ---
 
 ## § 3. EXPONENTIAL INVARIANTS
@@ -66,9 +66,9 @@ Thus, $1 - X_1^j$ and $1 - X_1^m X_2^n$ are relatively prime in B. Consequently,
 
 ### 2. CASE OF THE GROUP OF WEIGHTS; MAXIMAL TERMS
 
-We retain the notations of the preceding number and let R be a reduced root system in a real vector space V. In the remainder of this section, we take for P the group of weights of R (\S 1, no. 9). The group $W = W(R)$ acts on P, hence also on the algebra $A[P]$; we have $w(e^p) = e^{w(p)}$ for $w \in W$ and $p \in P$.
+We retain the notations of the preceding number and let R be a reduced root system in a real vector space V. In the remainder of this section, we take for P the group of weights of R (§ 1, no. 9). The group $W = W(R)$ acts on P, hence also on the algebra $A[P]$; we have $w(e^p) = e^{w(p)}$ for $w \in W$ and $p \in P$.
 
-Let C be a chamber of R (\S 1, no. 5) and let $B = (\alpha_i)_{1 \leq i \leq l}$ be the corresponding basis of R. We provide V (and hence also P) with the order structure defined by C. If $p, p' \in P, p \geq p'$ if and only if $p - p'$ is a linear combination of the $\alpha_i$ with positive coefficients.
+Let C be a chamber of R (§ 1, no. 5) and let $B = (\alpha_i)_{1 \leq i \leq l}$ be the corresponding basis of R. We provide V (and hence also P) with the order structure defined by C. If $p, p' \in P, p \geq p'$ if and only if $p - p'$ is a linear combination of the $\alpha_i$ with positive coefficients.
 
 #### Definition 1 {#lie-vi-s3-def-1 .statement}
 
@@ -116,11 +116,11 @@ w(J(x)) = \sum_{v \in W} \varepsilon(v).wv(x) = \varepsilon(w) \sum_{v \in W} \v
 $$
 and $J(x)$ is anti-invariant. On the other hand, let $q = \mathrm{Card}(W)$. For any anti-invariant element $x$ of $A[P]$, we have $J(x) = q.x$. It follows that, if $q$ is invertible in $A$, the map $q^{-1}J$ is a *projection* from $A[P]$ onto the submodule of anti-invariant elements.
 
-Let $\overline{\omega}_1, \ldots, \overline{\omega}_l$ be the fundamental weights corresponding to the chamber $C$. The elements of $P \cap \overline{C}$ (resp. $P \cap C$) are the weights of the form $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$ with $n_i \geq 0$ (resp. $n_i > 0$) for $1 \leq i \leq l$ (\S 1, no. 10). On the other hand,
+Let $\overline{\omega}_1, \ldots, \overline{\omega}_l$ be the fundamental weights corresponding to the chamber $C$. The elements of $P \cap \overline{C}$ (resp. $P \cap C$) are the weights of the form $n_1 \overline{\omega}_1 + \cdots + n_l \overline{\omega}_l$ with $n_i \geq 0$ (resp. $n_i > 0$) for $1 \leq i \leq l$ (§ 1, no. 10). On the other hand,
 $$
 \rho = \overline{\omega}_1 + \cdots + \overline{\omega}_l
 $$
-is half the sum of the positive roots (*loc. cit.*) so the elements of $P \cap C$ are the weights of the form $\rho + p$ with $p \in P \cap \overline{C}$. Finally, if $p \in P \cap C$, then $w(p) < p$ for all $w \neq 1$ (\S 1, no. 6, Cor. to Prop. 18) and $e^p$ is thus the unique maximal term of $J(e^p)$.
+is half the sum of the positive roots (*loc. cit.*) so the elements of $P \cap C$ are the weights of the form $\rho + p$ with $p \in P \cap \overline{C}$. Finally, if $p \in P \cap C$, then $w(p) < p$ for all $w \neq 1$ (§ 1, no. 6, Cor. to Prop. 18) and $e^p$ is thus the unique maximal term of $J(e^p)$.
 
 #### Proposition 1 {#lie-vi-s3-prop-1 .statement}
 
@@ -156,7 +156,7 @@ Since $\rho \in P$, $d \in A[P]$.
 (ii) *For any* $p \in P$, *the element* $J(e^p)$ *is divisible uniquely by* $d$ *and the quotient* $J(e^p)/d$ *is an element of* $A[P]$ *invariant under* $W$.
 (iii) *If 2 is not a zero divisor in* $A$, *multiplication by* $d$ *is a bijection from the set of elements of* $A[P]$ *invariant under* $W$ *to the set of anti-invariant elements of* $A[P]$.
 
-We know that, for $1 \leq i \leq l$, the reflection $s_i = s_{\alpha_i}$ leaves stable the set of positive roots other than $\alpha_i$ and that $s_i(\alpha_i) = -\alpha_i$ (\S 1, no. 6, Cor. 1 of Prop. 17). Hence,
+We know that, for $1 \leq i \leq l$, the reflection $s_i = s_{\alpha_i}$ leaves stable the set of positive roots other than $\alpha_i$ and that $s_i(\alpha_i) = -\alpha_i$ (§ 1, no. 6, Cor. 1 of Prop. 17). Hence,
 $$
 s_i(d) = (e^{-\alpha_i/2} - e^{\alpha_i/2}) \prod_{\alpha \in R, \alpha > 0, \alpha \neq \alpha_i} (e^{\alpha/2} - e^{-\alpha/2}) \\
 = -d = \varepsilon(s_i).d.

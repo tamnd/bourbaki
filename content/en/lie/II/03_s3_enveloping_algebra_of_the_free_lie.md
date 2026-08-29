@@ -7,24 +7,25 @@ section: 3
 section_title: Enveloping algebra of the free Lie algebra
 lang: en
 source: lie-i-iii
+book_pages: 136-142, 186-187
 pdf_pages: 0154-0160, 0204-0205
 extraction: ocr
 subsections:
     - "no": 1
       title: ENVELOPING ALGEBRA OF $L(X)$
-      page: 0
+      page: 136
       pdf_page: 154
     - "no": 2
       title: PROJECTOR OF $A^+(X)$ ONTO $L(X)$
-      page: 0
+      page: 138
       pdf_page: 156
     - "no": 3
       title: DIMENSION OF THE HOMOGENEOUS COMPONENTS OF L(X)
-      page: 0
+      page: 140
       pdf_page: 158
 statements: 11
 exercises: 4
-content_sha256: 6090406c3244c7a463aae345c2b12892abb0eea5399e63c5db52c40965d1bd5e
+content_sha256: 9132123acdc022535dc3e655ef1016236c6b0beebc316f3a60900b058de3ac4a
 ---
 
 ## § 3. ENVELOPING ALGEBRA OF THE FREE LIE ALGEBRA
@@ -234,13 +235,13 @@ $$
 
 *where $\mu$ is the Möbius function.*
 
-(b) *For all $\alpha \in \mathbf{N}^X - \{0\}$, the $K$-module $L^\alpha(X)$ (\S 2, no. 6) is free of rank*
+(b) *For all $\alpha \in \mathbf{N}^X - \{0\}$, the $K$-module $L^\alpha(X)$ (§ 2, no. 6) is free of rank*
 
 $$
 c(\alpha) = \frac{1}{|\alpha|} \sum_{d|\alpha} \mu(d) \frac{(|\alpha|/d)!}{(\alpha/d)!}.
 $$
 
-We already know that the modules $L^r(X)$, where $r \in \mathbf{N}$, and $L^\alpha(X)$, where $\alpha \in \mathbf{N}^X$, are free (\S 2, no. 11, Corollary to Theorem 1). Consider the multi-gradation $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ of $A(X)$ defined by the canonical homomorphism $\phi$ of $Mo(X)$ into $\mathbf{N}^X$ (*Algebra*, Chapter III, \S 3, no. 1, *Example 3*); then $A^\alpha(X) \cap L(X) = L^\alpha(X)$ by *Remark 3* of no. 1. For $\alpha \in \mathbf{N}^X$, the $K$-module $A^\alpha(X)$ admits as basis the set of words in which each letter $x$ of $X$ appears $\alpha(x)$ times. Let $d(\alpha)$ be the number of these words, that is the rank of $A^\alpha(X)$; we shall calculate in two different ways the formal power series
+We already know that the modules $L^r(X)$, where $r \in \mathbf{N}$, and $L^\alpha(X)$, where $\alpha \in \mathbf{N}^X$, are free (§ 2, no. 11, Corollary to Theorem 1). Consider the multi-gradation $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ of $A(X)$ defined by the canonical homomorphism $\phi$ of $Mo(X)$ into $\mathbf{N}^X$ (*Algebra*, Chapter III, § 3, no. 1, *Example 3*); then $A^\alpha(X) \cap L(X) = L^\alpha(X)$ by *Remark 3* of no. 1. For $\alpha \in \mathbf{N}^X$, the $K$-module $A^\alpha(X)$ admits as basis the set of words in which each letter $x$ of $X$ appears $\alpha(x)$ times. Let $d(\alpha)$ be the number of these words, that is the rank of $A^\alpha(X)$; we shall calculate in two different ways the formal power series
 
 $$
 P((T_x)_{x \in X}) \in \mathbf{Z}[[((T_x)_{x \in X})]]

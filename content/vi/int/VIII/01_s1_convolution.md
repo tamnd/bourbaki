@@ -32,9 +32,9 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 2d6398e7dacde2bcad2add2079ceadb1a92b01acfb74ef896600255b2c81dec4
+content_sha256: af6788d4cd94da288168c40286951d9317eaafce16f18aedc3b366a6ed13170d
 translated_from: content/en/int/VIII/01_s1_convolution.md
-source_content_sha256: 0b1510cacd03fa2c70c41fefb836e1ab02661bd29e503337f94b89ffbcd3f9cf
+source_content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
 translation_model: gpt-5.4
 translation_run: translate-vi-fd094c6b
 glossary_version: 34
@@ -46,7 +46,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Định nghĩa và ví dụ
 
-Nhắc lại (Ch. V, §6, Nos. 1 and 4; Ch. VI, §2, No. 10) rằng, nếu X và Y là các không gian compact địa phương, $\mu$ là một độ đo trên X, và $\varphi$ là một ánh xạ từ X vào Y, thì $\varphi$ được gọi là $\mu$-thực sự nếu: $a)$ $\varphi$ là $\mu$-đo được; $b)$ với mọi tập con compact K của Y, $\varphi^{-1}(K)$ là $\mu$-khả tích thiết yếu. Khi đó độ đo ảnh $\nu = \varphi(\mu)$ trên Y tồn tại và có tính chất sau: để một hàm f trên Y, nhận giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$, là khả tích thiết yếu đối với $\nu$, điều kiện cần và đủ là $f \circ \varphi$ có tính chất ấy đối với $\mu$, trong trường hợp đó,
+Nhắc lại (Ch. V, §6, Nos. 1 and 4; Ch. VI, §2, No. 10) rằng, nếu X và Y là các không gian compact địa phương, $\mu$ là một độ đo trên X, và $\varphi$ là một ánh xạ từ X vào Y, thì $\varphi$ được gọi là $\mu$-thực sự nếu: a) $\varphi$ là $\mu$-đo được; b) với mọi tập con compact K của Y, $\varphi^{-1}(K)$ là $\mu$-khả tích thiết yếu. Khi đó độ đo ảnh $\nu = \varphi(\mu)$ trên Y tồn tại và có tính chất sau: để một hàm f trên Y, nhận giá trị trong một không gian Banach hoặc trong $\overline{\mathbf{R}}$, là khả tích thiết yếu đối với $\nu$, điều kiện cần và đủ là $f \circ \varphi$ có tính chất ấy đối với $\mu$, trong trường hợp đó,
 
 $$
 \int_Y f(y)\, d\nu(y) = \int_X f(\varphi(x)) d\mu(x).
@@ -105,7 +105,7 @@ $$
 
 của monoïde $M$ (A, III, §2, No. 10); chúng tôi chú ý hai trường hợp đặc biệt sau:
 
-$a)$ $M = N$, với luật hợp thành là phép cộng. Với mỗi độ đo $\mu$ trên $N$, ta gắn cho nó chuỗi hình thức
+a) $M = N$, với luật hợp thành là phép cộng. Với mỗi độ đo $\mu$ trên $N$, ta gắn cho nó chuỗi hình thức
 
 $$
 S(\mu) = \sum_{n=0}^{\infty} \mu(\{n\}) t^n

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: 10e79a35f8fb6784904e1324cd6246891046c2219592c361c5e9cb40a2de8c4f
+content_sha256: 83d55e1838c96863628bb4c841426e325a8058e294ac5b1a348690c7b008fc05
 ---
 
 ## 3. METRIZABLE GROUPS, VALUED FIELDS, NORMED SPACES AND ALGEBRAS
@@ -170,9 +170,9 @@ Let $G$ be a non-Hausdorff topological group such that the Hausdorff group assoc
 
 #### Remark 2 {#top-ix-s3-n1-rem-2 .statement}
 
-Let d be a left-invariant metric which defines the topology of a metrizable group G, and let H be a closed normal subgroup of G. If $\dot{x}$ and $\dot{y}$ are any two points of G/H, consider the distance $d(\dot{x}, \dot{y})$ of the two closed subsets $\dot{x}, \dot{y}$ in G (\S 2, no. 2); we shall see that this function is a left-invariant metric on G/H and defines the topology of this quotient group.
+Let d be a left-invariant metric which defines the topology of a metrizable group G, and let H be a closed normal subgroup of G. If $\dot{x}$ and $\dot{y}$ are any two points of G/H, consider the distance $d(\dot{x}, \dot{y})$ of the two closed subsets $\dot{x}, \dot{y}$ in G (§ 2, no. 2); we shall see that this function is a left-invariant metric on G/H and defines the topology of this quotient group.
 
-Notice first that if $x \in \dot{x}$ and $y \in \dot{y}$ we have $d(\dot{x}, \dot{y}) = d(x, Hy)$; for $d(x, Hy) = \inf_{h \in H} d(x, h y)$, and therefore $d(h'x, Hy) = d(x, Hy)$ for all $h' \in H$, since d is left-invariant; this proves the assertion (\S 2, no. 2). Hence for each $\dot{z} \in G/H$ we have [\S 2, no. 2, formula (2)]
+Notice first that if $x \in \dot{x}$ and $y \in \dot{y}$ we have $d(\dot{x}, \dot{y}) = d(x, Hy)$; for $d(x, Hy) = \inf_{h \in H} d(x, h y)$, and therefore $d(h'x, Hy) = d(x, Hy)$ for all $h' \in H$, since d is left-invariant; this proves the assertion (§ 2, no. 2). Hence for each $\dot{z} \in G/H$ we have [§ 2, no. 2, formula (2)]
 
 $$
 |d(\dot{x}, \dot{z}) - d(\dot{y}, \dot{z})| = |d(x, \dot{z}) - d(y, \dot{z})| \leq d(x, y);
@@ -240,7 +240,7 @@ The absolute value of a real number (Chapter IV, § 1, no. 6) satisfies axioms (
 
 #### Example 3 {#top-ix-s3-n2-exa-3 .statement}
 
-On a division ring $K$, a real valuation is a function $v$ defined on $K^*$ with values in $\mathbf{R}$ which satisfies the following conditions: $a)$ if $x \in K^*$ and $y \in K^*$, then $v(xy) = v(x) + v(y)$; $b)$ if in addition $x + y \neq 0$, then $v(x + y) \geq \inf(v(x), v(y))$. If $a$ is any real number $> 1$, we can then define an absolute value on $K$ by putting $|x| = a^{-v(x)}$ for $x \neq 0$, and $|0| = 0$. For the relation $v(xy) = v(x) + v(y)$ for $x \neq 0$ and $y \neq 0$ implies the relation $|xy| = |x|.|y|$ for these values of $x$ and $y$, and this relation is trivially true if one of $x, y$ is zero; likewise, from the relation $v(x + y) \geq \inf(v(x), v(y))$ for $x \neq 0, y \neq 0$ and $x + y \neq 0$ we deduce $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, and these inequalities are still satisfied if one of $x, y, x + y$ is zero. In particular, if $v_p(x)$ is the $p$-adic valuation on the field $\mathbf{Q}$ of rational numbers (the exponent of $p$ in the decomposition of $x$ into a product of prime factors), then the corresponding absolute value $|x|_p = p^{-v_p(x)}$ is called the $p$-adic absolute value on the field $\mathbf{Q}$ (cf. Chapter III, § 6, Exercise 23).
+On a division ring $K$, a real valuation is a function $v$ defined on $K^*$ with values in $\mathbf{R}$ which satisfies the following conditions: a) if $x \in K^*$ and $y \in K^*$, then $v(xy) = v(x) + v(y)$; b) if in addition $x + y \neq 0$, then $v(x + y) \geq \inf(v(x), v(y))$. If $a$ is any real number $> 1$, we can then define an absolute value on $K$ by putting $|x| = a^{-v(x)}$ for $x \neq 0$, and $|0| = 0$. For the relation $v(xy) = v(x) + v(y)$ for $x \neq 0$ and $y \neq 0$ implies the relation $|xy| = |x|.|y|$ for these values of $x$ and $y$, and this relation is trivially true if one of $x, y$ is zero; likewise, from the relation $v(x + y) \geq \inf(v(x), v(y))$ for $x \neq 0, y \neq 0$ and $x + y \neq 0$ we deduce $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, and these inequalities are still satisfied if one of $x, y, x + y$ is zero. In particular, if $v_p(x)$ is the $p$-adic valuation on the field $\mathbf{Q}$ of rational numbers (the exponent of $p$ in the decomposition of $x$ into a product of prime factors), then the corresponding absolute value $|x|_p = p^{-v_p(x)}$ is called the $p$-adic absolute value on the field $\mathbf{Q}$ (cf. Chapter III, § 6, Exercise 23).
 
 #### Remark {#top-ix-s3-n2-rem-1 .statement}
 
@@ -294,7 +294,7 @@ $$
 |x^{-1} - y^{-1}| = \frac{|x - y|}{|x| \cdot |y|} \leq \frac{\varepsilon}{a^2},
 $$
 
-and the first part of the proposition follows. The invariant metric $|x - y| = d(x, y)$ extends by continuity to a metric on $\hat{K}$ (\S 2, no. 1, Proposition 1) which defines the topology of $\hat{K}$ and is invariant by the principle of extension of identities; we continue to denote this invariant metric by $d(x, y)$. If we put $|x| = d(0, x)$ for $x \in \hat{K}$, it is clear that $|x|$ is the extension by continuity of the function $|x|$ on $K$ and is therefore an absolute value on $\hat{K}$ by the principle of extension of identities.
+and the first part of the proposition follows. The invariant metric $|x - y| = d(x, y)$ extends by continuity to a metric on $\hat{K}$ (§ 2, no. 1, Proposition 1) which defines the topology of $\hat{K}$ and is invariant by the principle of extension of identities; we continue to denote this invariant metric by $d(x, y)$. If we put $|x| = d(0, x)$ for $x \in \hat{K}$, it is clear that $|x|$ is the extension by continuity of the function $|x|$ on $K$ and is therefore an absolute value on $\hat{K}$ by the principle of extension of identities.
 
 ### 3. NORMED SPACES OVER A VALUED DIVISION RING
 
@@ -378,7 +378,7 @@ $$
 
 Let $E$ be a normed space over a non-discrete valued division ring, let $p$ be the norm on $E$, and let $\hat{E}$ be the additive topological group which is the completion of the additive group $E$. Then the function $(t, x) \to tx$ can be extended by continuity to $\hat{K} \times \hat{E}$ and defines on $\hat{E}$ a vector space structure over $\hat{K}$; the norm $p$ can be extended by continuity to a norm $\bar{p}$ on $\hat{E}$ which defines the topology of $\hat{E}$.
 
-The extension of $tx$ by continuity is a particular case of the theorem of extension of a continuous bilinear mapping of a product of two abelian groups into a third (Chapter III, § 6, no. 5, Theorem 1); we have $1.x = x$ and $t(u x) = (t u)x$ for $t \in \hat{K}$, $u \in \hat{K}$ and $x \in \hat{E}$, by the principle of extension of identities; hence the external law $(t, x) \to t x$ indeed defines on $\hat{E}$ a structure of a vector space over $\hat{K}$. On the other hand, the invariant metric $\overline{d}(x, y) = \overline{p}(x - y)$ extends to an invariant metric $\overline{d}$ on $\hat{E}$ (\S 2, no. 1, Proposition 1) which defines the topology of $\hat{E}$; if we set $\overline{p}(x) = \overline{d}(0, x)$, then $\overline{p}$ is the extension of $p$ by continuity, and satisfies axioms (NO_I) and (NO_{II}); by virtue of the continuity of $t x$ on $\hat{K} \times \hat{E}$, $\overline{p}$ also satisfies (NO_{III}) (principle of extension of identities) and is therefore a norm on $\hat{E}$.
+The extension of $tx$ by continuity is a particular case of the theorem of extension of a continuous bilinear mapping of a product of two abelian groups into a third (Chapter III, § 6, no. 5, Theorem 1); we have $1.x = x$ and $t(u x) = (t u)x$ for $t \in \hat{K}$, $u \in \hat{K}$ and $x \in \hat{E}$, by the principle of extension of identities; hence the external law $(t, x) \to t x$ indeed defines on $\hat{E}$ a structure of a vector space over $\hat{K}$. On the other hand, the invariant metric $\overline{d}(x, y) = \overline{p}(x - y)$ extends to an invariant metric $\overline{d}$ on $\hat{E}$ (§ 2, no. 1, Proposition 1) which defines the topology of $\hat{E}$; if we set $\overline{p}(x) = \overline{d}(0, x)$, then $\overline{p}$ is the extension of $p$ by continuity, and satisfies axioms (NO_I) and (NO_{II}); by virtue of the continuity of $t x$ on $\hat{K} \times \hat{E}$, $\overline{p}$ also satisfies (NO_{III}) (principle of extension of identities) and is therefore a norm on $\hat{E}$.
 
 When we have to consider a definite normed space structure on a vector space $E$, we shall usually denote the norm of a vector $x$ by $||x||$, unless this notation is likely to lead to confusion.
 

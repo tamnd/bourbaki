@@ -37,9 +37,9 @@ subsections:
       pdf_page: 516
 statements: 15
 exercises: 10
-content_sha256: 9de4ee0dff93501fd053dfe01f312de17bfa63fd353f5393edce6a200b04c800
+content_sha256: 59b43a2e8487c01a392538b18374b6c821e22b721099bb1314400cf527e058a3
 translated_from: content/en/alg/III/05_s5_tensor_algebra_tensors.md
-source_content_sha256: 5e694bf63163c343522e25ec2e20029f6421afbfdb882680198af253edaeb7bc
+source_content_sha256: b01af1209083500779bdaaa884eccbc676d09c23fa0febe97dcb3f92583136bd
 translation_model: gpt-5-6-mini, gpt-5-mini
 translation_run: translate-vi-1c09c3b9
 glossary_version: 34
@@ -55,7 +55,7 @@ Cho A là một vành giao hoán và M là một A-môđun. Với mỗi số ngu
 $$
 m_{pq} : T^p(M) \otimes_A T^q(M) \to T^{p+q}(M)
 $$
-($\S 3$, no. 1, *Nhận xét*). Với $p > 0$ và $q > 0$, $m_{pq}$ là đẳng cấu tính kết hợp (II, $\S 3$, no. 9) và, khi $p = 0$ (tương ứng $q = 0$), $m_{0,q}$ là đẳng cấu chính tắc của $A \otimes_A T^q(M)$ lên $T^q(M)$ (tương ứng $m_{p,0}$ là đẳng cấu chính tắc của $T^p(M) \otimes_A A$ lên $T^p(M)$ (II, $\S 3$, no. 4, Mệnh đề 4)). Khi đó, với $x_i \in M$, $\alpha \in A$,
+($§ 3$, no. 1, *Nhận xét*). Với $p > 0$ và $q > 0$, $m_{pq}$ là đẳng cấu tính kết hợp (II, $§ 3$, no. 9) và, khi $p = 0$ (tương ứng $q = 0$), $m_{0,q}$ là đẳng cấu chính tắc của $A \otimes_A T^q(M)$ lên $T^q(M)$ (tương ứng $m_{p,0}$ là đẳng cấu chính tắc của $T^p(M) \otimes_A A$ lên $T^p(M)$ (II, $§ 3$, no. 4, Mệnh đề 4)). Khi đó, với $x_i \in M$, $\alpha \in A$,
 $$
 \begin{align}
 (x_1 \otimes \cdots \otimes x_p) \cdot (x_{p+1} \otimes \cdots \otimes x_{p+q}) &= x_1 \otimes \cdots \otimes x_p \otimes x_{p+1} \otimes \cdots \otimes x_{p+q} \\
@@ -82,7 +82,7 @@ từ $M^n$ vào $E$ là $A$-đa tuyến tính; do đó tương ứng với nó l
 $$
 g(x_1 \otimes x_2 \otimes \cdots \otimes x_n) = f(x_1)f(x_2)\ldots f(x_n).
 $$
-Ta cũng định nghĩa ánh xạ $g_0 : T^0(M) \to E$ bằng $\eta_E$ ($\S 1$, no. 3), nói cách khác $g_0(\alpha) = \alpha e$ với $\alpha \in A$. Gọi $g$ là ánh xạ $A$-tuyến tính duy nhất từ $T(M)$ vào $E$ mà hạn chế của nó lên $T^n(M)$ là $g_n$ ($n \geq 0$); ngay lập tức ta có $g \circ \phi = g_1 = f$ và còn phải kiểm tra rằng $g$ là một đồng cấu $A$-đại số. Theo phép dựng $g(1) = e$ và chỉ cần, nhờ tính tuyến tính, chứng minh rằng $g(uv) = g(u)g(v)$ với $u \in T^p(M)$ và $v \in T^q(M)$ ($p > 0, q > 0$); bây giờ từ các công thức (1) và (2) suy ra rằng quan hệ này đúng khi $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ và $v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$ (trong đó các $x_i$ thuộc $E$). Do đó nó đúng với $u \in T^p(M)$ và $v \in T^q(M)$ nhờ tính tuyến tính.
+Ta cũng định nghĩa ánh xạ $g_0 : T^0(M) \to E$ bằng $\eta_E$ ($§ 1$, no. 3), nói cách khác $g_0(\alpha) = \alpha e$ với $\alpha \in A$. Gọi $g$ là ánh xạ $A$-tuyến tính duy nhất từ $T(M)$ vào $E$ mà hạn chế của nó lên $T^n(M)$ là $g_n$ ($n \geq 0$); ngay lập tức ta có $g \circ \phi = g_1 = f$ và còn phải kiểm tra rằng $g$ là một đồng cấu $A$-đại số. Theo phép dựng $g(1) = e$ và chỉ cần, nhờ tính tuyến tính, chứng minh rằng $g(uv) = g(u)g(v)$ với $u \in T^p(M)$ và $v \in T^q(M)$ ($p > 0, q > 0$); bây giờ từ các công thức (1) và (2) suy ra rằng quan hệ này đúng khi $u = x_1 \otimes x_2 \otimes \cdots \otimes x_p$ và $v \in x_{p+1} \otimes \cdots \otimes x_{p+q}$ (trong đó các $x_i$ thuộc $E$). Do đó nó đúng với $u \in T^p(M)$ và $v \in T^q(M)$ nhờ tính tuyến tính.
 
 #### Nhận xét {#alg-iii-s5-n1-rem-1 .statement}
 
@@ -384,7 +384,7 @@ $$
 
 trong đó $st$ chỉ dãy các phần tử của $L$ nhận được bằng cách *ghép liền* các dãy $s$ và $t$ (I, § 7, no. 2).
 
-Ta thấy rằng cơ sở $(e_s)$ của $T(M)$, với luật nhân (10), đẳng cấu một cách chính tắc với *nửa đơn tự do* của tập hợp $L$ (I, § 7, no. 2), đẳng cấu này được thu được bằng cách ánh xạ mỗi từ $s$ của nửa đơn này vào phần tử $e_s$. Suy ra (\S 2, no. 7) rằng *đại số tenxơ $T(M)$ của một môđun tự do $M$, với một cơ sở có tập hợp chỉ số $L$, đẳng cấu một cách chính tắc với đại số kết hợp tự do của $L$ trên $A$*. Đặc biệt (\S 2, no. 7, Mệnh đề 7), với mọi ánh xạ $f : L \to E$ từ $L$ vào một đại số $A$ $E$, tồn tại duy nhất một đồng cấu đại số $A$ $\bar{f} : T(M) \to E$ sao cho $\bar{f}(e_\lambda) = f(\lambda)$.
+Ta thấy rằng cơ sở $(e_s)$ của $T(M)$, với luật nhân (10), đẳng cấu một cách chính tắc với *nửa đơn tự do* của tập hợp $L$ (I, § 7, no. 2), đẳng cấu này được thu được bằng cách ánh xạ mỗi từ $s$ của nửa đơn này vào phần tử $e_s$. Suy ra (§ 2, no. 7) rằng *đại số tenxơ $T(M)$ của một môđun tự do $M$, với một cơ sở có tập hợp chỉ số $L$, đẳng cấu một cách chính tắc với đại số kết hợp tự do của $L$ trên $A$*. Đặc biệt (§ 2, no. 7, Mệnh đề 7), với mọi ánh xạ $f : L \to E$ từ $L$ vào một đại số $A$ $E$, tồn tại duy nhất một đồng cấu đại số $A$ $\bar{f} : T(M) \to E$ sao cho $\bar{f}(e_\lambda) = f(\lambda)$.
 
 #### Nhận xét {#alg-iii-s5-n5-rem-1 .statement}
 
@@ -538,7 +538,7 @@ Do đó, thông qua $\chi_M$, $T_{\{1, 2\}}^{(3)}(M)$ (đẳng cấu với $T_2^
 $$
 \sum_{\nu \in L} \zeta_{\lambda \mu \nu} e_\nu
 $$
-và do đó các $\zeta_{\lambda \mu \nu}$ chính là các *hằng số cấu trúc* của đại số (nói chung không kết hợp) xác định trên M bởi ánh xạ song tuyến tính $\chi_M(z)$, đối với cơ sở $(e_\lambda)$ (\S 1, no. 7).
+và do đó các $\zeta_{\lambda \mu \nu}$ chính là các *hằng số cấu trúc* của đại số (nói chung không kết hợp) xác định trên M bởi ánh xạ song tuyến tính $\chi_M(z)$, đối với cơ sở $(e_\lambda)$ (§ 1, no. 7).
 
 #### Nhận xét 2 {#alg-iii-s5-n6-rem-2 .statement}
 

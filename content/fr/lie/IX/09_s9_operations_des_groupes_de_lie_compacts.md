@@ -29,7 +29,7 @@ subsections:
       pdf_page: 98
 statements: 19
 exercises: 3
-content_sha256: 4a92032670e9fc2442150f4089aaa919bb20e103a1988b1b3b09efe766298b79
+content_sha256: 3fbae36629bd82c4946a1bba6162c4fb605b6eab46e2926beecbb3309c967156
 ---
 
 ## § 9. OPÉRATIONS DES GROUPES DE LIE COMPACTS SUR LES VARIÉTÉS
@@ -71,7 +71,7 @@ Dans la suite de ce numéro, on suppose $r \neq \omega$.
 
 #### Proposition 3 {#lie-ix-s9-prop-3 .statement tag=01HH}
 
-*Soit A une partie compacte de X. L’ensemble $\mathcal{P}$ des morphismes $\varphi \in \mathcal{C}^r(X;Y)$ qui sont des plongements au voisinage de A est ouvert dans $\mathcal{C}^r(X;Y)$ pour la topologie de la $C^r$-convergence compacte (\S 6, no 4).*
+*Soit A une partie compacte de X. L’ensemble $\mathcal{P}$ des morphismes $\varphi \in \mathcal{C}^r(X;Y)$ qui sont des plongements au voisinage de A est ouvert dans $\mathcal{C}^r(X;Y)$ pour la topologie de la $C^r$-convergence compacte (§ 6, no 4).*
 
 Il suffit évidemment de démontrer la proposition pour $r = 1$.
 
@@ -135,7 +135,7 @@ Soient $G$ un groupe de Lie compact, $(g, x) \mapsto gx$ une loi d’opération 
 
 Remplaçant $A$ par la partie compacte $GA$, on se ramène au cas où $A$ est stable par $G$.
 
-Soit $E_0$ un espace vectoriel de dimension finie tel qu’il existe un élément de $\mathscr{C}^r(X; E_0)$ qui soit un plongement au voisinage de $A$ (no 1, prop. 4); l’ensemble $\mathcal{P}$ des morphismes possédant cette propriété est donc un ouvert non vide de $\mathscr{C}^r(X; E_0)$ (no 1, prop. 3). Considérons la représentation linéaire continue du groupe compact $G$ dans l’espace $\mathscr{C}^r(X; E_0)$ (\$ 6, no 4, lemme 4). D’après le théorème de Peter-Weyl (TS, à paraître), la réunion des sous-espaces de dimension finie, stables par $G$, est dense dans $\mathscr{C}^r(X; E_0)$; il existe donc un élément $\varphi_0$ de $\mathcal{P}$ tel que les applications $x \mapsto \varphi_0(gx)$, pour $g \in G$, engendrent un sous-espace vectoriel $E_1$ de *dimension finie* de $\mathscr{C}^r(X; E_0)$, évidemment stable pour l’action de $G$.
+Soit $E_0$ un espace vectoriel de dimension finie tel qu’il existe un élément de $\mathscr{C}^r(X; E_0)$ qui soit un plongement au voisinage de $A$ (no 1, prop. 4); l’ensemble $\mathcal{P}$ des morphismes possédant cette propriété est donc un ouvert non vide de $\mathscr{C}^r(X; E_0)$ (no 1, prop. 3). Considérons la représentation linéaire continue du groupe compact $G$ dans l’espace $\mathscr{C}^r(X; E_0)$ (§ 6, no 4, lemme 4). D’après le théorème de Peter-Weyl (TS, à paraître), la réunion des sous-espaces de dimension finie, stables par $G$, est dense dans $\mathscr{C}^r(X; E_0)$; il existe donc un élément $\varphi_0$ de $\mathcal{P}$ tel que les applications $x \mapsto \varphi_0(gx)$, pour $g \in G$, engendrent un sous-espace vectoriel $E_1$ de *dimension finie* de $\mathscr{C}^r(X; E_0)$, évidemment stable pour l’action de $G$.
 
 Prenons alors pour $E$ l’espace $\mathrm{Hom}_{\mathbf{R}}(E_1, E_0)$, pour $\rho$ la représentation de $G$ dans $E$ déduite de l’action sur $E_1$, et pour $\varphi : X \to E$ l’application qui à $x \in X$ associe l’application linéaire $\psi \mapsto \psi(x)$ de $E_1$ dans $E_0$. C’est un morphisme de classe $C^r$; pour $x \in X, g \in G, \psi \in E_1$, on a (en notant $\tau(g)$ l’automorphisme $x \mapsto gx$ de $X$) :
 
@@ -165,7 +165,7 @@ L’espace $X/G$ est localement compact (TG, III, p. 33, prop. 11). Ses composan
 
 Pour tout $\alpha \in I$, il existe une représentation $\rho_\alpha$ de $G$ dans un espace vectoriel réel $E_\alpha$ de dimension finie et un morphisme $\varphi_\alpha \in \mathscr{C}^r(X; E_\alpha)$, compatible aux opérations de $G$, dont la restriction à $U_\alpha$ est un plongement (th. 1). Pour $\alpha \in I$, soit $a_\alpha$ une fonction numérique de classe $C^r$ sur $X$, égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$ (VAR, R, 5.3.6).
 
-Posons $b_\alpha(x) = \int_G a_\alpha(gx) \, dx$ pour $x \in X$. La fonction $b_\alpha$ est de classe $C^r$, invariante par $G$ (\S 6, n° 4, cor. 2), égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$. Munissons chaque $E_\alpha$ d’un produit scalaire hilbertien invariant par $G$ (\S 1, n° 1), et $R$ de sa structure hilbertienne canonique ; soit $E$ l’espace somme hilbertienne de la famille $(E_\alpha \oplus R)_{\alpha \in I}$, et soit $\rho$ la représentation de $G$ dans $E$ déduite des $\rho_\alpha$ et de l’action triviale de $G$ sur $R$.
+Posons $b_\alpha(x) = \int_G a_\alpha(gx) \, dx$ pour $x \in X$. La fonction $b_\alpha$ est de classe $C^r$, invariante par $G$ (§ 6, n° 4, cor. 2), égale à 1 sur $V_\alpha$ et à 0 en dehors de $U_\alpha$. Munissons chaque $E_\alpha$ d’un produit scalaire hilbertien invariant par $G$ (§ 1, n° 1), et $R$ de sa structure hilbertienne canonique ; soit $E$ l’espace somme hilbertienne de la famille $(E_\alpha \oplus R)_{\alpha \in I}$, et soit $\rho$ la représentation de $G$ dans $E$ déduite des $\rho_\alpha$ et de l’action triviale de $G$ sur $R$.
 
 $^1$ C’est-à-dire (TS, à paraître) une représentation linéaire continue (INT, VIII, § 2, n° 1) telle que l’opérateur $\rho(g)$ soit unitaire pour tout $g \in G$.
 
@@ -177,7 +177,7 @@ Pour $x \in X$, posons $\varphi(x) = (b_\alpha(x)\ \varphi_\alpha(x),\ b_\alpha(
 
 Soient $H$ un groupe de Lie compact, $\rho : H \to GL(V)$ une représentation continue (donc analytique) de $H$ dans un espace vectoriel réel de dimension finie, $W$ un voisinage de l’origine dans $V$. Il existe un voisinage ouvert de l’origine $B$, contenu dans $W$, stable par $H$, et un isomorphisme analytique $u : V \to B$, compatible aux opérations de $H$, tel que $u(0) = 0$ et $Du(0) = \mathrm{Id}_V$.
 
-Choisissons un produit scalaire sur $V$ invariant par $H$ (\$ 1, n° 1). Il existe un nombre réel $r > 0$ tel que la boule ouverte $B$ de rayon $r$ soit contenue dans $W$; elle est évidemment stable par $H$. Posons $u(v) = r(r^2 + \|v\|^2)^{-1/2} v$ pour tout $v \in V$; alors $u$ est une application analytique bijective de $V$ dans $B$, compatible avec les opérations de $H$, et son application réciproque $w \mapsto r(r^2 - \|w\|^2)^{-1/2} w$ est analytique. On a de plus $u(0) = 0$ et $Du(0) = \mathrm{Id}_V$.
+Choisissons un produit scalaire sur $V$ invariant par $H$ (§ 1, n° 1). Il existe un nombre réel $r > 0$ tel que la boule ouverte $B$ de rayon $r$ soit contenue dans $W$; elle est évidemment stable par $H$. Posons $u(v) = r(r^2 + \|v\|^2)^{-1/2} v$ pour tout $v \in V$; alors $u$ est une application analytique bijective de $V$ dans $B$, compatible avec les opérations de $H$, et son application réciproque $w \mapsto r(r^2 - \|w\|^2)^{-1/2} w$ est analytique. On a de plus $u(0) = 0$ et $Du(0) = \mathrm{Id}_V$.
 
 #### Proposition 5 {#lie-ix-s9-prop-5 .statement tag=01HQ}
 
@@ -191,7 +191,7 @@ $$
 
 où $dh$ est la mesure de Haar sur $H$ de masse totale 1.
 
-Alors (\$ 6, n° 4, cor. 1) $\psi^\#$ est un morphisme de classe $C^r$ de $U$ dans $T$, compatible avec les opérations de $H$, tel que $\psi^\#(x) = 0$ et $d_x \psi^\# = \mathrm{Id}_T$. Il existe donc un ouvert $U' \subset U$ contenant $x$, et un voisinage ouvert $V$ de 0 dans $T$, tels que $\psi^\#$ induise un isomorphisme $\theta : U' \to V$. Quitte à restreindre $U'$ et $V$, on peut supposer qu’ils sont stables par $H$ et qu’il existe un isomorphisme $u : T \to V$ compatible aux opérations de $H$ (lemme 4). Il suffit alors de prendre $\varphi = \theta^{-1} \circ u$.
+Alors (§ 6, n° 4, cor. 1) $\psi^\#$ est un morphisme de classe $C^r$ de $U$ dans $T$, compatible avec les opérations de $H$, tel que $\psi^\#(x) = 0$ et $d_x \psi^\# = \mathrm{Id}_T$. Il existe donc un ouvert $U' \subset U$ contenant $x$, et un voisinage ouvert $V$ de 0 dans $T$, tels que $\psi^\#$ induise un isomorphisme $\theta : U' \to V$. Quitte à restreindre $U'$ et $V$, on peut supposer qu’ils sont stables par $H$ et qu’il existe un isomorphisme $u : T \to V$ compatible aux opérations de $H$ (lemme 4). Il suffit alors de prendre $\varphi = \theta^{-1} \circ u$.
 
 Rappelons (VAR, R, 6.5.1) que si $G$ est un groupe de Lie, $H$ un sous-groupe de Lie de $G$ et $Y$ une variété dans laquelle $H$ opère à gauche, on note $G \times^H Y$ le quotient de la variété produit $G \times Y$ par l’opération à droite $((g, y), h) \mapsto (gh, h^{-1}y)$ de $H$; c’est une variété dans laquelle le groupe de Lie $G$ opère naturellement à gauche ; la projection $G \times^H Y \to G/H$ est une fibration de fibre $Y$. Si de plus $Y$ est un espace vectoriel de dimension finie sur lequel $H$ opère linéairement, $G \times^H Y$ est muni d'une structure naturelle de $G$-fibré vectoriel de base $G/H$ (VAR, R, 7.10.2).
 
@@ -268,7 +268,7 @@ Soient $x, x'$ dans $E$, $t$ et $t'$ leurs types ; pour que $t \leq t'$, il faut
 
 *b)* Soit $f$ un isomorphisme de $H'$ sur $H$. La suite $(f^n(H))_{n \geq 0}$ est une suite décroissante de sous-groupes compacts de $G$, de sorte qu’on a $f^n(H) = f^{n+1}(H)$ pour $n$ assez grand, d’après *a)*. Comme $f$ est un isomorphisme, ceci entraîne $f(H) = H = f(H')$, d’où $H = H'$.
 
-*c)* Soient $t, t' \in \mathcal{C}$ tels que $t \leq t'$ et $t' \leq t$. Il existe alors $H, H_1 \in t$ et $H', H'_1 \in t'$ tels que $H \supset H'$ et $H_1 \subset H'_1$. Soient $g$ et $g'$ deux éléments de $G$ tels que $H_1 = g H g^{-1}$ et $H'_1 = g' H' g'^{-1}$; posons $u = g'^{-1} g$. On a
+*c)* Soient $t, t' \in \mathcal{C}$ tels que $t \leq t'$ et $t' \leq t$. Il existe alors $H, H_1 \in t$ et $H', H'_1 \in t'$ tels que $H \supset H'$ et $H_1 \subset H'_1$. Soient $g$ et $g'$ deux éléments de $G$ tels que $H_1 = g H g^{-1}$ et $H'_1 = g' H' {g'}^{-1}$; posons $u = {g'}^{-1} g$. On a
 
 $$
 u H u^{-1} \subset H' \subset H ;
@@ -286,17 +286,17 @@ b) Pour tout $t \in \mathcal{T}$, $X_{(t)}$ est une sous-variété de $X$, la re
 
 c) Supposons $X/G$ connexe. Alors l'ensemble des types d'orbite des éléments de $X$ possède un plus grand élément $\tau$; de plus, $X_{(\tau)}$ est une partie ouverte et dense de $X$ et $X_{(\tau)}/G$ est connexe.
 
-Soient $x$ un point de $X$ et $t \in \mathcal{T}$ son type. Pour démontrer $a)$ et $b)$, on peut remplacer $X$ par un ouvert stable contenant $x$, donc (prop. 6) supposer que $X$ est de la forme $G \times^H W$, où $W$ est l'espace d'une représentation linéaire analytique de dimension finie d'un sous-groupe compact $H$ de $G$, le point $x$ étant l'image $p(e, 0)$ de $(e, 0) \in G \times W$ par la projection canonique $p : G \times W \to G \times^H W$. Si $u = p(g, y) \in G \times^H W$ et $a \in G$, alors $au = u$ si et seulement s'il existe $h \in H$ avec $(ag, y) = (gh^{-1}, hy)$ c'est-à-dire si $a \in gH_yg^{-1}$. On a donc $G_u = gH_yg^{-1}$; en particulier $G_x = H$, donc $G_u$ est conjugué à un sous-groupe de $G_x$, ce qui prouve que le type de $u$ est $\geq t$, d'où $a)$.
+Soient $x$ un point de $X$ et $t \in \mathcal{T}$ son type. Pour démontrer a) et b), on peut remplacer $X$ par un ouvert stable contenant $x$, donc (prop. 6) supposer que $X$ est de la forme $G \times^H W$, où $W$ est l'espace d'une représentation linéaire analytique de dimension finie d'un sous-groupe compact $H$ de $G$, le point $x$ étant l'image $p(e, 0)$ de $(e, 0) \in G \times W$ par la projection canonique $p : G \times W \to G \times^H W$. Si $u = p(g, y) \in G \times^H W$ et $a \in G$, alors $au = u$ si et seulement s'il existe $h \in H$ avec $(ag, y) = (gh^{-1}, hy)$ c'est-à-dire si $a \in gH_yg^{-1}$. On a donc $G_u = gH_yg^{-1}$; en particulier $G_x = H$, donc $G_u$ est conjugué à un sous-groupe de $G_x$, ce qui prouve que le type de $u$ est $\geq t$, d'où a).
 
-Par ailleurs, pour que $u$ soit de type $t$, il faut et il suffit que $G_u$ soit conjugué à $H$ dans $G$, ou encore que $H_y$ soit conjugué à $H$ dans $G$; d'après le lemme 6, $b)$, cela signifie que $H_y = H$, donc que $y$ est fixé par $H$. Si $W'$ est le sous-espace vectoriel de $W$ formé des éléments fixés par $H$, il en résulte que $X_{(t)}$ s'identifie à $G \times^H W'$, donc aussi à $G/H \times W'$, d'où $b)$.
+Par ailleurs, pour que $u$ soit de type $t$, il faut et il suffit que $G_u$ soit conjugué à $H$ dans $G$, ou encore que $H_y$ soit conjugué à $H$ dans $G$; d'après le lemme 6, b), cela signifie que $H_y = H$, donc que $y$ est fixé par $H$. Si $W'$ est le sous-espace vectoriel de $W$ formé des éléments fixés par $H$, il en résulte que $X_{(t)}$ s'identifie à $G \times^H W'$, donc aussi à $G/H \times W'$, d'où b).
 
-Pour démontrer $c)$, observons que l'hypothèse de connexité de $X/G$ entraîne que $X$ est pure de dimension finie : en effet, pour tout $k \geq 0$, notons $X_k$ l'ensemble des points $x \in X$ tels que $\dim_x X = k$; alors $X_k$ est ouvert et fermé dans $X$, et stable par $G$, de sorte que $X$ est égal à l'un des $X_k$.
+Pour démontrer c), observons que l'hypothèse de connexité de $X/G$ entraîne que $X$ est pure de dimension finie : en effet, pour tout $k \geq 0$, notons $X_k$ l'ensemble des points $x \in X$ tels que $\dim_x X = k$; alors $X_k$ est ouvert et fermé dans $X$, et stable par $G$, de sorte que $X$ est égal à l'un des $X_k$.
 
-Démontrons maintenant $c)$ par récurrence sur la dimension de $X$, l'assertion étant évidente pour $\dim X = 0$. Soit $\tau$ un élément maximal parmi les types d'orbite des points de $X$ (un tel élément existe d'après le lemme 6, $c$) ). Nous allons prouver l'assertion suivante :
+Démontrons maintenant c) par récurrence sur la dimension de $X$, l'assertion étant évidente pour $\dim X = 0$. Soit $\tau$ un élément maximal parmi les types d'orbite des points de $X$ (un tel élément existe d'après le lemme 6, $c$) ). Nous allons prouver l'assertion suivante :
 
 c') Pour toute partie $A$ de $X_{(\tau)}$, ouverte et fermée dans $X_{(\tau)}$ et stable par $G$, l'adhérence $\overline{A}$ de $A$ dans $X$ est ouverte.
 
-Cette assertion implique $c)$. En effet, notons d'abord que $X_{(\tau)}$ est ouvert dans $X$, d'après $a)$; l'assertion $c')$ entraîne que $\overline{X}_{(\tau)}$ est ouvert et fermé dans $X$, donc égal à $X$ puisqu'il est stable par $G$ et que $X/G$ est connexe. Soit $A$ une partie ouverte et fermée non vide de $X_{(\tau)}$, stable par $G$; d'après $c')$, $\overline{A}$ est ouverte et fermée dans $X$ et stable par $G$, donc égale à $X$; ceci entraîne que $A$ est dense dans $X_{(\tau)}$, donc égale à $X_{(\tau)}$. Par conséquent toute partie ouverte et fermée non vide de $X_{(\tau)}/G$ est égale à $X_{(\tau)}/G$, ce qui prouve que $X_{(\tau)}/G$ est connexe. Enfin puisque $X_{(\tau)}$ est dense dans $X$, il résulte de $a)$ que tout point de $X$ est de type $\leq \tau$; autrement dit $\tau$ est le plus grand élément parmi les types d'orbite des points de $X$.
+Cette assertion implique c). En effet, notons d'abord que $X_{(\tau)}$ est ouvert dans $X$, d'après a); l'assertion $c')$ entraîne que $\overline{X}_{(\tau)}$ est ouvert et fermé dans $X$, donc égal à $X$ puisqu'il est stable par $G$ et que $X/G$ est connexe. Soit $A$ une partie ouverte et fermée non vide de $X_{(\tau)}$, stable par $G$; d'après $c')$, $\overline{A}$ est ouverte et fermée dans $X$ et stable par $G$, donc égale à $X$; ceci entraîne que $A$ est dense dans $X_{(\tau)}$, donc égale à $X_{(\tau)}$. Par conséquent toute partie ouverte et fermée non vide de $X_{(\tau)}/G$ est égale à $X_{(\tau)}/G$, ce qui prouve que $X_{(\tau)}/G$ est connexe. Enfin puisque $X_{(\tau)}$ est dense dans $X$, il résulte de a) que tout point de $X$ est de type $\leq \tau$; autrement dit $\tau$ est le plus grand élément parmi les types d'orbite des points de $X$.
 
 Démontrons maintenant $c')$. On peut supposer $A$ non vide ; soit $x \in \overline{A}$. Il s'agit de montrer que $\overline{A}$ est un voisinage de $x$. Pour cela on peut, comme ci-dessus, supposer $X = G \times^H W$, avec $H$ compact, $x$ étant l'image canonique de $(e, 0)$. Supposons d'abord que $H$ opère trivialement dans $W$ : alors $X$ s'identifie à $(G/H) \times W$, et
 

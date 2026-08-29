@@ -8,40 +8,41 @@ section_title: Extensions, solvable groups, nilpotent groups
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 65-81, 147-159
 pdf_pages: 0089-0105, 0171-0183
 extraction: ocr
 subsections:
     - "no": 1
       title: EXTENSIONS
-      page: 0
+      page: 65
       pdf_page: 89
     - "no": 2
       title: COMMUTATORS
-      page: 0
+      page: 68
       pdf_page: 92
     - "no": 3
       title: LOWER CENTRAL SERIES, NILPOTENT GROUPS
-      page: 0
+      page: 71
       pdf_page: 95
     - "no": 4
       title: DERIVED SERIES, SOLVABLE GROUPS
-      page: 0
+      page: 74
       pdf_page: 98
     - "no": 5
       title: $p$-GROUPS
-      page: 0
+      page: 76
       pdf_page: 100
     - "no": 6
       title: SYLOW SUBGROUPS
-      page: 0
+      page: 78
       pdf_page: 102
     - "no": 7
       title: FINITE NILPOTENT GROUPS
-      page: 0
+      page: 80
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: be0e26ecf82aeb97df1892fe9532d8fae275bae2d34183c1c9c07879b6539a95
+content_sha256: 5e97e8733a0ddc8d0586f23204c8a05ccc9e62763723a694e63593829f247770
 ---
 
 ## § 6. EXTENSIONS, SOLVABLE GROUPS, NILPOTENT GROUPS
@@ -180,7 +181,7 @@ $$
 (f' \circ f)(gb) = f'(\gamma(g)f(b)) = \gamma'(\gamma(g))f'(f(b))
 $$
 which proves that $f' \circ f \in A$ and that $p(f' \circ f) = p(f')p(f)$. On the other hand, $f(\gamma^{-1}(g)f^{-1}(b)) = gb$, whence $f^{-1}(gb) = \gamma^{-1}(g)f^{-1}(b)$ and $f^{-1} \in A$. Thus $A$ is a subgroup of $\mathcal{S}_E$ and $p$ is a homomorphism of $A$ into $\Gamma$. The kernel of $p$ is the set $\mathrm{Aut}_G(E)$ of automorphisms of the $G$-set $E$.
-We fix $a \in E$. We have defined in § 5, no. 6 an isomorphism $\psi_a$ of $G^0$ onto $\mathrm{Aut}_G(E)$ such that $\psi_a(x)(ga) = gxa$ for all $g, x$ in $G$. On the other hand, for $\gamma \in \Gamma$, let $s_a(\gamma)$ be the permutation of $E$ defined by $s_a(\gamma)(ga) = \gamma(g)a$ for all $g \in G$; it is immediately verified that $s_a$ is a homomorphism of $\Gamma$ into $A$ such that $p \circ s_a = \mathrm{Id}_{\tau}$. Thus $G^0 \xrightarrow{\psi_a} A \xrightarrow{p} \Gamma$ is an extension of $\Gamma$ by $G^0$ and $s_a$ is a section of this extension. This extension and this section define an operation of $\Gamma$ on $G^0$, $s_a(\Gamma)$ acting on $\psi_a(G^0)$ by inner automorphisms; we write this operation exponentially. We show that this operation is the natural operation ($\S 3$, no. 1, Example 3): for $x, g$ in $G$ and $\gamma \in \Gamma$,
+We fix $a \in E$. We have defined in § 5, no. 6 an isomorphism $\psi_a$ of $G^0$ onto $\mathrm{Aut}_G(E)$ such that $\psi_a(x)(ga) = gxa$ for all $g, x$ in $G$. On the other hand, for $\gamma \in \Gamma$, let $s_a(\gamma)$ be the permutation of $E$ defined by $s_a(\gamma)(ga) = \gamma(g)a$ for all $g \in G$; it is immediately verified that $s_a$ is a homomorphism of $\Gamma$ into $A$ such that $p \circ s_a = \mathrm{Id}_{\tau}$. Thus $G^0 \xrightarrow{\psi_a} A \xrightarrow{p} \Gamma$ is an extension of $\Gamma$ by $G^0$ and $s_a$ is a section of this extension. This extension and this section define an operation of $\Gamma$ on $G^0$, $s_a(\Gamma)$ acting on $\psi_a(G^0)$ by inner automorphisms; we write this operation exponentially. We show that this operation is the natural operation ($§ 3$, no. 1, Example 3): for $x, g$ in $G$ and $\gamma \in \Gamma$,
 $$
 (\psi_a(\gamma x))(ga) = (s_a(\gamma) \circ \psi_a(x) \circ s_a(\gamma)^{-1})(ga)
 = (s_a(\gamma) \circ \psi_a(x))(\gamma^{-1}(g)a) = s_a(\gamma)(\gamma^{-1}(g)xa)
@@ -547,21 +548,21 @@ G = G^0 \supset G^1 \supset \ldots \supset G^n = \{e\}
 $$
 a Jordan-Hölder series of $G$ For $G$ to be solvable, it is necessary and sufficient that the quotients $G^k/G^{k+1}$ be cyclic of prime order.
 
-If the quotients of a composition series of $G$ are cyclic and hence commutative, $G$ is solvable by Proposition 10. Conversely, if $G$ is solvable, the group $G^k/G^{k+1}$ is, for all $k$, solvable and simple ($\S 4$, no. 7, Proposition 9). Now, every solvable simple group $H$ is cyclic of prime order. For $D(H)$ is a normal subgroup of $H$; $D(H) = H$ is impossible for in that case $D^k(H) = H$ for all $k$; then $D(H) = \{e\}$ and $H$ is commutative. The corollary then follows from $\S 4$, no. 10, Corollary to Proposition 20.
+If the quotients of a composition series of $G$ are cyclic and hence commutative, $G$ is solvable by Proposition 10. Conversely, if $G$ is solvable, the group $G^k/G^{k+1}$ is, for all $k$, solvable and simple ($§ 4$, no. 7, Proposition 9). Now, every solvable simple group $H$ is cyclic of prime order. For $D(H)$ is a normal subgroup of $H$; $D(H) = H$ is impossible for in that case $D^k(H) = H$ for all $k$; then $D(H) = \{e\}$ and $H$ is commutative. The corollary then follows from $§ 4$, no. 10, Corollary to Proposition 20.
 
 ### 5. $p$-GROUPS
 
-In this number and the following, the letter $p$ denotes a prime number ($\S 4$, no 10, Proposition 16).
+In this number and the following, the letter $p$ denotes a prime number ($§ 4$, no 10, Proposition 16).
 
 #### Definition 9 {#alg-i-s6-def-9 .statement}
 
 A finite group whose order is a power of $p$ is called a $p$-group.
 
-Let $G$ be a $p$-group of order $p^r$. Every divisor of $p^r$ is a power of $p$ ($\S 4$, no. 10, Corollary to Theorem 7). Therefore every subgroup and every quotient group of $G$ is a $p$-group ($\S 4$, no. 4, Corollary to Proposition 4); the cardinal of every homogeneous space of $G$ is a power of $p$ ($\S 5$, no. 5, Theorem 1).
+Let $G$ be a $p$-group of order $p^r$. Every divisor of $p^r$ is a power of $p$ ($§ 4$, no. 10, Corollary to Theorem 7). Therefore every subgroup and every quotient group of $G$ is a $p$-group ($§ 4$, no. 4, Corollary to Proposition 4); the cardinal of every homogeneous space of $G$ is a power of $p$ ($§ 5$, no. 5, Theorem 1).
 
 An extension of a $p$-group by a $p$-group is a $p$-group.
 
-*Examples. (1) A commutative $p$-group is isomorphic to a product of cyclic groups $\mathbf{Z}/p^n\mathbf{Z}$ (cf. Exercise 19 and also VII, $\S 4$, no. 7, Proposition 7).
+*Examples. (1) A commutative $p$-group is isomorphic to a product of cyclic groups $\mathbf{Z}/p^n\mathbf{Z}$ (cf. Exercise 19 and also VII, $§ 4$, no. 7, Proposition 7).
 (2) Let $k$ be a finite field of characteristic $p$. The strict triangular group $T_1(n, k)$ is a $p$-group.
 (3) The quaternionic group $\{ \pm 1, \pm i, \pm j, \pm k \}$ is a 2-group (cf. Exercise 4).*
 
@@ -596,7 +597,7 @@ $$
 
 *such that* $(G, G^k) \subset G^{k+1}, 1 \leq k \leq r,$ and $G^k/G^{k+1}, 1 \leq k \leq r,$ *is cyclic of order* $p$.
 
-The theorem is true for $G = \{e\}$. We prove it by induction on $\operatorname{Card}(G)$. Let Z be the centre of G, $x \neq e$ an element of Z (Corollary to Proposition 11) and $p^s, s \neq 0,$ the order of x. Then $x^{p^s - 1}$ is an element of order $p$ and therefore Z contains a subgroup $G'$ which is cyclic of order $p$. By the induction hypothesis, the group $G' = G/G'$ has a series of subgroups $({G'}^k)_{1 \leq k \leq r}$ with the required properties. Let $\pi : G \to G'$ be the canonical homomorphism. The sequence of subgroups of G defined by $G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$ is a solution for $G^k/G^{k+1}$ is isomorphic to ${G'}^k/{G'}^{k+1}$ for $1 \leq k \leq r$ (\S 4, no. 7, Theorem 4).
+The theorem is true for $G = \{e\}$. We prove it by induction on $\operatorname{Card}(G)$. Let Z be the centre of G, $x \neq e$ an element of Z (Corollary to Proposition 11) and $p^s, s \neq 0,$ the order of x. Then $x^{p^s - 1}$ is an element of order $p$ and therefore Z contains a subgroup $G'$ which is cyclic of order $p$. By the induction hypothesis, the group $G' = G/G'$ has a series of subgroups $({G'}^k)_{1 \leq k \leq r}$ with the required properties. Let $\pi : G \to G'$ be the canonical homomorphism. The sequence of subgroups of G defined by $G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$ is a solution for $G^k/G^{k+1}$ is isomorphic to ${G'}^k/{G'}^{k+1}$ for $1 \leq k \leq r$ (§ 4, no. 7, Theorem 4).
 
 #### Corollary {#alg-i-s6-n5-cor-2 .statement}
 
@@ -611,7 +612,7 @@ This follows from no. 3, Proposition 7.
 (a) *The normalizer* $N_G(H)$ *of H in G is distinct from G*.
 (b) *There exists a normal subgroup* N *of G of index p in G, which contains* H.
 
-Assertion (a) follows from no. 3, Corollary 1 to Proposition 8. We prove (b). By no. 3, Corollary 2 to Proposition 8, there exists a normal subgroup $N'$ of G containing H, distinct from G and such that $G/N'$ is commutative. Let N be a maximal subgroup distinct from G containing $N'$. Then N is normal (no. 2, Corollary 3 to Proposition 6) and $G/N$ is a simple commutative $p$-group and hence cyclic of order $p$ (\S 4, no. 10, Corollary to Proposition 20).
+Assertion (a) follows from no. 3, Corollary 1 to Proposition 8. We prove (b). By no. 3, Corollary 2 to Proposition 8, there exists a normal subgroup $N'$ of G containing H, distinct from G and such that $G/N'$ is commutative. Let N be a maximal subgroup distinct from G containing $N'$. Then N is normal (no. 2, Corollary 3 to Proposition 6) and $G/N$ is a simple commutative $p$-group and hence cyclic of order $p$ (§ 4, no. 10, Corollary to Proposition 20).
 
 #### Corollary {#alg-i-s6-n5-cor-3 .statement}
 
@@ -723,7 +724,7 @@ Let $G$ be a finite group. The following conditions are equivalent:
 
 Suppose (a) holds and let $P$ be a Sylow $p$-subgroup of $G$. If $N$ is the normalizer of $P$ in $G$, Corollary 1 to Theorem 3 shows that $N$ is its own normalizer. By § 6, no. 3, Corollary to Proposition 8, this shows that $N = G$. Hence (a) $\Rightarrow$ (c).
 
-Suppose (c) holds and let $I$ be the set of prime numbers dividing $\mathrm{Card}(G)$. For all $p \in I$, let $P_p$ be a normal Sylow $p$-subgroup of $G$. For all $p \neq q$, $P_p \cap P_q$ is reduced to $e$ for it is both a $p$-group and a $q$-group, hence $P_p$ and $P_q$ centralize one another ($\S 4$, no. 9, Proposition 15). Let $\phi$ be the canonical homomorphism ($\S 4$, no. 9, Proposition 12) of $\prod_{p \in I} P_p$ into $G$. The homomorphism $\phi$ is surjective by the Remark of no. 6. As $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, it follows that $\phi$ is bijective.
+Suppose (c) holds and let $I$ be the set of prime numbers dividing $\mathrm{Card}(G)$. For all $p \in I$, let $P_p$ be a normal Sylow $p$-subgroup of $G$. For all $p \neq q$, $P_p \cap P_q$ is reduced to $e$ for it is both a $p$-group and a $q$-group, hence $P_p$ and $P_q$ centralize one another ($§ 4$, no. 9, Proposition 15). Let $\phi$ be the canonical homomorphism ($§ 4$, no. 9, Proposition 12) of $\prod_{p \in I} P_p$ into $G$. The homomorphism $\phi$ is surjective by the Remark of no. 6. As $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, it follows that $\phi$ is bijective.
 
 #### Remark {#alg-i-s6-n7-rem-1 .statement}
 

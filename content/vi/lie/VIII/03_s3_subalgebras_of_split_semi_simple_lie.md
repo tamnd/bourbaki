@@ -33,9 +33,9 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: 34f6b5ff9961fb1381a390d23a8696bc665b6aad35dc96fab2812e39cdf5d392
+content_sha256: 2ab4c019d5d44c56ad93695d6a9d45cb7fadb7825ff736f21813401ba8c40105
 translated_from: content/en/lie/VIII/03_s3_subalgebras_of_split_semi_simple_lie.md
-source_content_sha256: 9ae8307f81c9beada1d35ee81235b6c65219ba74547064ac8a3df4e9c1395509
+source_content_sha256: 043e172960e451fa011db5fc5b2cdd69d22334e7720054bdacde767c930f9a50
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-51cb66b4
 glossary_version: 34
@@ -353,7 +353,7 @@ Nếu $P\in \mathscr{P}$, gọi F(P) là tập hợp các $v\in V$ sao cho $\alp
 
 Khi đó $F \rightarrow P(F)$ là một song ánh từ $\mathscr{F}$ tới $\mathscr{P}$; với mọi $F\in \mathscr{F}$, F(P(F)) là bao đóng của F.
 
-$a)$ Cho $P\in \mathscr{P}$. Tồn tại một buồng C của S và một tập con $\Sigma$ của cơ sở B(C) sao cho $P = S_+(C)\cup Q$ trong đó Q là tập các tổ hợp tuyến tính của các phần tử của $\Sigma$ với các hệ số là số nguyên không dương (Chương VI, §1, no. 7, Mệnh đề 20). Đặt
+a) Cho $P\in \mathscr{P}$. Tồn tại một buồng C của S và một tập con $\Sigma$ của cơ sở B(C) sao cho $P = S_+(C)\cup Q$ trong đó Q là tập các tổ hợp tuyến tính của các phần tử của $\Sigma$ với các hệ số là số nguyên không dương (Chương VI, §1, no. 7, Mệnh đề 20). Đặt
 
 $$
 B(C) =\{\alpha_1, . . . , \alpha_l\}, \Sigma =\{\alpha_1, . . . , \alpha_m\}
@@ -391,7 +391,7 @@ $$
 
 do đó P(F) = P.
 
-$b)$ Cho $F\in \mathscr{F}$. Rõ ràng là $P(F)\in \mathscr{P}$. Mặt khác, F được chứa trong bao đóng của một buồng đối với $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), và do đó là một mặt đối với tập hợp các tường của buồng này (Chap. V, §1, no. 4, Prop. 9). Do đó, $\overline{F}$ có dạng $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, trong đó T là một tập con của S mà rõ ràng ta có thể lấy bằng P(F). Vậy, $\overline{F}= F(P(F))$. Q.E.D.
+b) Cho $F\in \mathscr{F}$. Rõ ràng là $P(F)\in \mathscr{P}$. Mặt khác, F được chứa trong bao đóng của một buồng đối với $\mathscr{H}$ (Chap. V, §1, no. 3, formulas (6)), và do đó là một mặt đối với tập hợp các tường của buồng này (Chap. V, §1, no. 4, Prop. 9). Do đó, $\overline{F}$ có dạng $\{v\in V|\alpha (v)\geq 0$ for all $\alpha \in T\}$, trong đó T là một tập con của S mà rõ ràng ta có thể lấy bằng P(F). Vậy, $\overline{F}= F(P(F))$. Q.E.D.
 
 Nếu $P\in \mathscr{P}$, thì mặt F sao cho P = P(F) được gọi là liên kết với P; ta ký hiệu nó bởi F(P). Ta mở rộng các quy ước này cho trường hợp trong đó $(\mathfrak{g},\mathfrak{h})$ là khả quy tách.
 

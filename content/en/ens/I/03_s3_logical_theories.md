@@ -34,7 +34,7 @@ subsections:
       pdf_page: 41
 statements: 0
 exercises: 5
-content_sha256: a310534540adf256129872d501d90fc5778da7cea7f38586a64dd9e2bdb19c94
+content_sha256: 37ec32a3c0cdf2c61a57848be909293d325cc40d690c0e328f7cb619bf02c9e1
 ---
 
 ## 3. LOGICAL THEORIES
@@ -45,9 +45,9 @@ A *logical theory* is any theory $\mathscr{T}$ in which the schemes S1 to S4 bel
 
 S1. *If $A$ is a relation in $\mathscr{T}$, the relation $(A$ or $A) \Rightarrow A$ is an axiom of $\mathscr{T}$* [^1].
 
-S2. *If $A$ and $B$ are relations in $\mathscr{T}$, the relation $A \Rightarrow (A$ or $B)$ is an axiom of $\mathscr{T}$.*
+S2. *If $A$ and $B$ are relations in $\mathscr{T}$, the relation $A \Rightarrow (A$ or B) is an axiom of $\mathscr{T}$.*
 
-S3. *If $A$ and $B$ are relations in $\mathscr{T}$, the relation $(A$ or $B) \Rightarrow (B$ or $A)$ is an axiom of $\mathscr{T}$.*
+S3. *If $A$ and $B$ are relations in $\mathscr{T}$, the relation $(A$ or $B) \Rightarrow (B$ or A) is an axiom of $\mathscr{T}$.*
 
 S4. *If $A$, $B$, and $C$ are relations in $\mathscr{T}$, the relation*
 
@@ -55,7 +55,7 @@ $$(A \Rightarrow B) \Rightarrow ((C \text{ or } A) \Rightarrow (C \text{ or } B)
 
 *is an axiom of $\mathscr{T}$.*
 
-These rules are in fact schemes; let us verify this, for example for S2. Let $R$ be a relation obtained by applying S2; then there are relations $A$ and $B$ in $\mathscr{T}$ such that $R$ is the relation $A \Rightarrow (A$ or $B)$. Let $T$ be a term in $\mathscr{T}$, let $x$ be a letter, and let $A'$ and $B'$ be the relations $(T|x)A$ and $(T|x)B$; then $(T|x)R$ is the same as $A' \Rightarrow (A'$ or $B')$, and can therefore be obtained by applying S2.
+These rules are in fact schemes; let us verify this, for example for S2. Let $R$ be a relation obtained by applying S2; then there are relations $A$ and $B$ in $\mathscr{T}$ such that $R$ is the relation $A \Rightarrow (A$ or B). Let $T$ be a term in $\mathscr{T}$, let $x$ be a letter, and let $A'$ and $B'$ be the relations $(T|x)A$ and $(T|x)B$; then $(T|x)R$ is the same as $A' \Rightarrow (A'$ or $B')$, and can therefore be obtained by applying S2.
 
 Intuitively, the rules S1 through S4 merely express the meaning which is attached to the words "or" and "implies" in the usual language of mathematics [^2].
 
@@ -69,17 +69,17 @@ C6. *Let $A$, $B$, $C$ be relations in $\mathscr{T}$. If $A \Rightarrow B$ and $
 
 For $(B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))$ is an axiom of $\mathscr{T}$, by replacing $A$ by $B$, $B$ by $C$, and $C$ by "not $A$" in S4. By C1 (§ 2, no. 2), $(A \Rightarrow B) \Rightarrow (A \Rightarrow C)$ is a theorem in $\mathscr{T}$. A further application of C1 completes the proof.
 
-C7. *If $A$ and $B$ are relations in $\mathscr{T}$, then $B \Rightarrow (A$ or $B)$ is a theorem in $\mathscr{T}$.*
+C7. *If $A$ and $B$ are relations in $\mathscr{T}$, then $B \Rightarrow (A$ or B) is a theorem in $\mathscr{T}$.*
 
-For $B \Rightarrow (B$ or $A)$ and $(B$ or $A) \Rightarrow (A$ or $B)$ are axioms of $\mathscr{T}$ by virtue of S2 and S3. Now use C6.
+For $B \Rightarrow (B$ or A) and $(B$ or $A) \Rightarrow (A$ or B) are axioms of $\mathscr{T}$ by virtue of S2 and S3. Now use C6.
 
 C8. *If $A$ is a relation in $\mathscr{T}$, $A \Rightarrow A$ is a theorem in $\mathscr{T}$.*
 
-For $A \Rightarrow (A$ or $A)$ and $(A$ or $A) \Rightarrow A$ are axioms, by S2 and S1. Now use C6.
+For $A \Rightarrow (A$ or A) and $(A$ or $A) \Rightarrow A$ are axioms, by S2 and S1. Now use C6.
 
 C9. *If $A$ is a relation and $B$ a theorem in $\mathscr{T}$, then $A \Rightarrow B$ is a theorem in $\mathscr{T}$.*
 
-For $B \Rightarrow ((\text{not } A)$ or $B)$ is a theorem by C7, and therefore "(not $A$) or $B$", that is to say $A \Rightarrow B$, is a theorem by C1.
+For $B \Rightarrow ((\text{not } A)$ or B) is a theorem by C7, and therefore "(not $A$) or $B$", that is to say $A \Rightarrow B$, is a theorem by C1.
 
 C10. *If $A$ is a relation in $\mathscr{T}$, then "$A$ or (not $A$)" is a theorem in $\mathscr{T}$.*
 

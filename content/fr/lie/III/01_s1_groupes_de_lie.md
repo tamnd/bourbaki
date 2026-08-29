@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: 89349cf7107620b7e5bc04afe41fb8048d6909491c6c0cc0a7af48db2dfc246c
+content_sha256: 427b313e76cebec41bbf0bb56ec5600875cdf079e2a2e1c113f1d156ebff0c59
 ---
 
 ## § 1. Groupes de Lie
@@ -258,8 +258,8 @@ Soient $L$ et $M$ des groupes de Lie, $\sigma$ un homomorphisme de $L$ dans le g
 
 En effet, on a, pour $l, l'$ dans $L$ et $m, m'$ dans $M$,
 $$
-(m, l)(m', l')^{-1} = mll'^{-1}m'^{-1} = m(\sigma(ll'^{-1})m'^{-1})ll'^{-1}
-= (m(\sigma(ll'^{-1})m'^{-1}), ll'^{-1})
+(m, l)(m', l')^{-1} = ml{l'}^{-1}{m'}^{-1} = m(\sigma(l{l'}^{-1}){m'}^{-1})l{l'}^{-1}
+= (m(\sigma(l{l'}^{-1}){m'}^{-1}), l{l'}^{-1})
 $$
 d’où la proposition.
 
@@ -546,7 +546,7 @@ Reprenons les hypothèses et notations de la prop. 16, et soit $F$ un espace nor
 
 *Soient $G$ un groupe de Lie, $X$ un espace homogène de Lie à gauche pour $G$, $x_0$ un point de $X$, $G_0$ le stabilisateur de $x_0$ dans $G$, $E$ et $E'$ des $G$-fibrés vectoriels à gauche de classe $C^r$ et de base $X$, $E_0$ (resp. $E'_0$) la fibre en $x_0$ de $E$ (resp. $E'$), $f$ un élément de $\mathcal{L}(E_0, E'_0)$ tel que $f(gu) = gf(u)$ quels que soient $u \in E_0$ et $g \in G_0$. Alors il existe un morphisme et un seul de $E$ dans $E'$, compatible avec les opérations de $G$, et prolongeant $f$.
 
-L’unicité de ce morphisme est évidente. Prouvons son existence. Soient $g$, $g'$ dans $G$ et $u \in E_0$ tels que $gu = g'u$. On a $g'^{-1}g \in G_0$ et $g'^{-1}gu = u$, donc $g'^{-1}gf(u) = f(u)$, c’est-à-dire $gf(u) = g'f(u)$. On définit donc une application $\varphi$ de $E$ dans $E'$ en posant $\varphi(gu) = gf(u)$. Il est clair que cette application prolonge $f$, et qu’elle est compatible avec les opérations de $G$. Montrons que $\varphi$ est un morphisme de fibrés vectoriels de classe $C^r$. Soit $x_1 \in X$. Il existe un voisinage ouvert $V$ de $x_1$ dans $X$ et une sous-variété $W$ de $G$, tels que l’application $g \mapsto gx_0$ soit un isomorphisme $\theta$ de classe $C^r$ de $W$ sur $V$. En diminuant $V$ et $W$, on peut supposer que:
+L’unicité de ce morphisme est évidente. Prouvons son existence. Soient $g$, $g'$ dans $G$ et $u \in E_0$ tels que $gu = g'u$. On a ${g'}^{-1}g \in G_0$ et ${g'}^{-1}gu = u$, donc ${g'}^{-1}gf(u) = f(u)$, c’est-à-dire $gf(u) = g'f(u)$. On définit donc une application $\varphi$ de $E$ dans $E'$ en posant $\varphi(gu) = gf(u)$. Il est clair que cette application prolonge $f$, et qu’elle est compatible avec les opérations de $G$. Montrons que $\varphi$ est un morphisme de fibrés vectoriels de classe $C^r$. Soit $x_1 \in X$. Il existe un voisinage ouvert $V$ de $x_1$ dans $X$ et une sous-variété $W$ de $G$, tels que l’application $g \mapsto gx_0$ soit un isomorphisme $\theta$ de classe $C^r$ de $W$ sur $V$. En diminuant $V$ et $W$, on peut supposer que:
 
 1) $E \mid V$ (resp. $E' \mid V$) s’identifie à un fibré vectoriel trivial de fibre $M$ (resp. $M'$);
 2) si l’on note $\psi_g$ (resp. $\psi'_g$) l’application $u \mapsto gu$ de $E_0$ (resp. $E'_0$) dans $E_{gx_0}$ (resp. $E'_{gx_0}$), alors les applications $g \mapsto \psi_g$ et $g \mapsto \psi_g^{-1}$ (resp. $g \mapsto \psi'_g$ et $g \mapsto {\psi'_g}^{-1}$) de $W$ dans $\mathcal{L}(E_0, M)$ et $\mathcal{L}(M, E_0)$ (resp. $\mathcal{L}(E'_0, M')$ et $\mathcal{L}(M', E'_0)$) sont de classe $C^r$.
@@ -819,7 +819,7 @@ est un voisinage de $x$. Si $x \in X_i \cap X_j$, on a $V_1(x) \subset X_i \cap 
 
 Soient $G$ un groupuscule de Lie, $X$ une variété de classe $C^r$, $(X_i)_{i \in I}$ un recouvrement ouvert localement fini de $X$. Pour tout $i \in I$, soit $\psi_i$ un morceau de loi d’opération à gauche de classe $C^r$ de $G$ dans $X_i$. On suppose que l’espace topologique sous-jacent à $X$ est normal et que, pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, $\psi_i$ et $\psi_j$ coïncident dans un voisinage de $(e, x)$. Il existe un morceau de loi d’opération à gauche de classe $C^r$ de $G$ dans $X$ tel que, pour tout $i \in I$ et tout $x \in X_i$, $\psi_i$ et $\psi$ coïncident dans un voisinage de $(e, x)$.
 
-Pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, choisissons un voisinage ouvert $V_{ij}(x)$ de $x$ dans $X_i \cap X_j$ tel que $\psi_i$ et $\psi_j$ soient définies et égales sur un voisinage de $\{e\} \times V_{ij}(x)$ dans $G \times X$. Pour tout $x \in X$, choisissons un voisinage ouvert $V(x)$ de $x$ dans $X$ de telle sorte que les conditions $a)$ et $b)$ du lemme 3 soient vérifiées. Soit $I_x$ l’ensemble des $i \in I$ tels que $x \in X_i$. C’est un ensemble fini. Soit $U_x$ l’ensemble des $(g, y) \in G \times V(x)$ tels que les $\psi_i$, pour $i \in I_x$, soient définies et coïncident dans un voisinage de $(g, y)$. Alors $U_x$ est ouvert et $(e, x) \in U_x$. Les $\psi_i$, pour $i \in I_x$, ont toutes même restriction à $U_x$. Soient $x, y$ dans $X$. Si $U_x$ et $U_y$ se rencontrent, $V(x)$ et $V(y)$ se rencontrent, donc il existe $i \in I$ tel que
+Pour tout $(i, j) \in I \times I$ et tout $x \in X_i \cap X_j$, choisissons un voisinage ouvert $V_{ij}(x)$ de $x$ dans $X_i \cap X_j$ tel que $\psi_i$ et $\psi_j$ soient définies et égales sur un voisinage de $\{e\} \times V_{ij}(x)$ dans $G \times X$. Pour tout $x \in X$, choisissons un voisinage ouvert $V(x)$ de $x$ dans $X$ de telle sorte que les conditions a) et b) du lemme 3 soient vérifiées. Soit $I_x$ l’ensemble des $i \in I$ tels que $x \in X_i$. C’est un ensemble fini. Soit $U_x$ l’ensemble des $(g, y) \in G \times V(x)$ tels que les $\psi_i$, pour $i \in I_x$, soient définies et coïncident dans un voisinage de $(g, y)$. Alors $U_x$ est ouvert et $(e, x) \in U_x$. Les $\psi_i$, pour $i \in I_x$, ont toutes même restriction à $U_x$. Soient $x, y$ dans $X$. Si $U_x$ et $U_y$ se rencontrent, $V(x)$ et $V(y)$ se rencontrent, donc il existe $i \in I$ tel que
 
 $$
 V(x) \cup V(y) \subset X_i.

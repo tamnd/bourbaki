@@ -7,56 +7,57 @@ section: 1
 section_title: Lie groups
 lang: en
 source: lie-i-iii
+book_pages: 209-233, 370-372
 pdf_pages: 0227-0251, 0388-0390
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF A LIE GROUP
-      page: 0
+      page: 209
       pdf_page: 227
     - "no": 2
       title: MORPHISMS OF LIE GROUPS
-      page: 0
+      page: 213
       pdf_page: 231
     - "no": 3
       title: LIE SUBGROUPS
-      page: 0
+      page: 214
       pdf_page: 232
     - "no": 4
       title: SEMI-DIRECT PRODUCTS OF LIE GROUPS
-      page: 0
+      page: 215
       pdf_page: 233
     - "no": 5
       title: QUOTIENT OF A MANIFOLD BY A LIE GROUP
-      page: 0
+      page: 217
       pdf_page: 235
     - "no": 6
       title: HOMOGENEOUS SPACES AND QUOTIENT GROUPS
-      page: 0
+      page: 219
       pdf_page: 237
     - "no": 7
       title: ORBITS
-      page: 0
+      page: 222
       pdf_page: 240
     - "no": 8
       title: VECTOR BUNDLES WITH OPERATORS
-      page: 0
+      page: 223
       pdf_page: 241
     - "no": 9
       title: LOCAL DEFINITION OF A LIE GROUP
-      page: 0
+      page: 226
       pdf_page: 244
     - "no": 10
       title: GROUP GERMS
-      page: 0
+      page: 228
       pdf_page: 246
     - "no": 11
       title: LAW CHUNKS OF OPERATION
-      page: 0
+      page: 231
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: dd2d78e49a8cf1c806338cbfc272462a001b25086267bd90fe9ce27fd5ddf915
+content_sha256: 1d086b2132020ca1ae70342f05ee30e3bf32e38ffd0a0c2a6d1cdfbca1dc4cf8
 ---
 
 ## § 1. LIE GROUPS
@@ -269,8 +270,8 @@ Let L and M be Lie groups and σ a homomorphism of L into the automorphism group
 For $l, l'$ in $L$ and $m, m'$ in $M$,
 
 $$
-(m, l)(m', l')^{-1} = mll'^{-1}m'^{-1} = m(\sigma(ll'^{-1})m'^{-1})ll'^{-1}
-= (m(\sigma(ll'^{-1})m'^{-1}), ll'^{-1})
+(m, l)(m', l')^{-1} = ml{l'}^{-1}{m'}^{-1} = m(\sigma(l{l'}^{-1}){m'}^{-1})l{l'}^{-1}
+= (m(\sigma(l{l'}^{-1}){m'}^{-1}), l{l'}^{-1})
 $$
 
 whence the proposition.

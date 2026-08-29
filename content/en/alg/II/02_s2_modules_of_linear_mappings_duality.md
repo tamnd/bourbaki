@@ -8,44 +8,45 @@ section_title: Modules of linear mappings. Duality
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 227-243, 386-395
 pdf_pages: 0251-0267, 0410-0419
 extraction: ocr
 subsections:
     - "no": 1
       title: PROPERTIES OF $\mathrm{Hom}_A(E, F)$ RELATIVE TO EXACT SEQUENCES
-      page: 0
+      page: 227
       pdf_page: 251
     - "no": 2
       title: PROJECTIVE MODULES
-      page: 0
+      page: 231
       pdf_page: 255
     - "no": 3
       title: LINEAR FORMS; DUAL OF A MODULE
-      page: 0
+      page: 232
       pdf_page: 256
     - "no": 4
       title: ORTHOGONALITY
-      page: 0
+      page: 234
       pdf_page: 258
     - "no": 5
       title: TRANSPOSE OF A LINEAR MAPPING
-      page: 0
+      page: 234
       pdf_page: 258
     - "no": 6
       title: DUAL OF A QUOTIENT MODULE. DUAL OF A DIRECT SUM. DUAL BASES
-      page: 0
+      page: 236
       pdf_page: 260
     - "no": 7
       title: BIDUAL
-      page: 0
+      page: 239
       pdf_page: 263
     - "no": 8
       title: LINEAR EQUATIONS
-      page: 0
+      page: 240
       pdf_page: 264
 statements: 42
 exercises: 3
-content_sha256: 26b9a8607d873ffba075835bfd0cb249da81ce7c11440fe7597e9fadd99ec0ce
+content_sha256: ada77bb5d3f2991282d1d80427eaa87544335c7c3fafa597f5d0bcfabf29858d
 ---
 
 ## § 2. MODULES OF LINEAR MAPPINGS. DUALITY
@@ -68,7 +69,7 @@ $$
 
 (where $\bar{u} = \mathrm{Hom}(u, 1_F)$, $\bar{v} = \mathrm{Hom}(v, 1_F)$) *be exact*.
 
-Suppose that sequence (1) is exact. If $w \in \mathrm{Hom}(E'', F)$ and $\bar{v}(w) = w \circ v = 0$, then $w = 0$ since $v$ is surjective. Sequence (2) is therefore exact at $\mathrm{Hom}(E'', F)$. We show that it is exact at $\mathrm{Hom}(E, F)$. $\bar{u} \circ \bar{v} = \mathrm{Hom}(v \circ u, 1_F)$ (\S 1, no. 2, formula (10)) and $v \circ u = 0$ since sequence (1) is exact at E. Therefore $\bar{u} \circ \bar{v} = 0$, that is $\mathrm{Im}(\bar{v}) \subset \mathrm{Ker}(\bar{u})$. On the other hand, if $w \in \mathrm{Ker}(\bar{u})$, then $w \circ u = 0$ and hence $\mathrm{Ker}(w) \supset \mathrm{Im}(u)$. But as sequence (1) is exact at E, $\mathrm{Im}(u) = \mathrm{Ker}(v)$ and hence $\mathrm{Ker}(w) \supset \mathrm{Ker}(v)$; as $v$ is surjective, it follows from \S 1, no. 3, *Remark* that there exists a $w' \in \mathrm{Hom}(E'', F)$ such that w = w' \circ v = \bar{v}(w'). Therefore Ker(\bar{u}) \subset \operatorname{Im}(\bar{v}), which completes the proof that sequence (2) is exact.
+Suppose that sequence (1) is exact. If $w \in \mathrm{Hom}(E'', F)$ and $\bar{v}(w) = w \circ v = 0$, then $w = 0$ since $v$ is surjective. Sequence (2) is therefore exact at $\mathrm{Hom}(E'', F)$. We show that it is exact at $\mathrm{Hom}(E, F)$. $\bar{u} \circ \bar{v} = \mathrm{Hom}(v \circ u, 1_F)$ (§ 1, no. 2, formula (10)) and $v \circ u = 0$ since sequence (1) is exact at E. Therefore $\bar{u} \circ \bar{v} = 0$, that is $\mathrm{Im}(\bar{v}) \subset \mathrm{Ker}(\bar{u})$. On the other hand, if $w \in \mathrm{Ker}(\bar{u})$, then $w \circ u = 0$ and hence $\mathrm{Ker}(w) \supset \mathrm{Im}(u)$. But as sequence (1) is exact at E, $\mathrm{Im}(u) = \mathrm{Ker}(v)$ and hence $\mathrm{Ker}(w) \supset \mathrm{Ker}(v)$; as $v$ is surjective, it follows from § 1, no. 3, *Remark* that there exists a $w' \in \mathrm{Hom}(E'', F)$ such that w = w' \circ v = \bar{v}(w'). Therefore Ker(\bar{u}) \subset \operatorname{Im}(\bar{v}), which completes the proof that sequence (2) is exact.
 
 Conversely, suppose that (2) is exact for every A-module F. As $\bar{u} \circ \bar{v} = \operatorname{Hom}(v \circ u, 1_F) = 0, w \circ v \circ u = 0$ for every homomorphism $w : E'' \to F$. Taking $F = E''$ and $w = 1_{E''}$, it is seen first that $v \circ u = 0$ and hence $u(E') \subset \operatorname{Ker}(v)$. Now take $F = \operatorname{Coker}(u)$ and let $\phi : E \to F = E/u(E')$ be the canonical mapping. Then $\bar{u}(\phi) = \phi \circ u = 0$ by definition and hence there exists a $\psi \in \operatorname{Hom}(E'', F)$ such that $\phi = \bar{v}(\psi) = \psi \circ v$; this obviously implies $u(E') = \operatorname{Ker}(\phi) \supset \operatorname{Ker}(v)$, which proves that sequence (1) is exact at E. Finally, let $\theta$ be the canonical homomorphism of $E''$ onto $F = E''/v(E)$; then $\bar{v}(\theta) = \theta \circ v = 0$, hence $\theta = 0$; therefore, $F = \{0\}$ and $v$ is surjective. Sequence (1) is therefore exact at $E''$.
 
@@ -110,15 +111,15 @@ $$
 
 *is exact and splits*. *Conversely, if, for every A-module F, sequence (4) is exact, sequence (3) splits*.
 
-If the exact sequence (3) splits, there exists a linear retraction $u' : E \to E'$ associated with $u$ (\S 1, no. 9, Proposition 15); if
+If the exact sequence (3) splits, there exists a linear retraction $u' : E \to E'$ associated with $u$ (§ 1, no. 9, Proposition 15); if
 
 $$
 \bar{u}' = \operatorname{Hom}(u', 1_F) : \operatorname{Hom}(E', F) \to \operatorname{Hom}(E, F),
 $$
 
-the fact that $u' \circ u$ is the identity implies that $\bar{u} \circ \bar{u}'$ is the identity ($\S 1$, no. 2, formula (10)) and hence the first assertion follows from $\S 1$, no. 9, Proposition 15. Conversely, suppose sequence (4) is exact for $F = E'$. Then there exists an element $f \in \mathrm{Hom}(E, E')$ such that $f \circ u = 1_{E'}$, and the conclusion follows from $\S 1$, no. 9, Proposition 15.
+the fact that $u' \circ u$ is the identity implies that $\bar{u} \circ \bar{u}'$ is the identity ($§ 1$, no. 2, formula (10)) and hence the first assertion follows from $§ 1$, no. 9, Proposition 15. Conversely, suppose sequence (4) is exact for $F = E'$. Then there exists an element $f \in \mathrm{Hom}(E, E')$ such that $f \circ u = 1_{E'}$, and the conclusion follows from $§ 1$, no. 9, Proposition 15.
 
-Note that the first assertion of Proposition 1 can also be considered as a special case of $\S 1$, no. 6, Corollary 1 to Proposition 6, canonically identifying $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ with $\mathrm{Hom}(E' \oplus E'', F)$ by means of the $\mathbf{Z}$-linear mapping $\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$, where $p': E' \oplus E'' \to E'$ and $p'': E' \oplus E'' \to E''$ are the canonical projections.
+Note that the first assertion of Proposition 1 can also be considered as a special case of $§ 1$, no. 6, Corollary 1 to Proposition 6, canonically identifying $\mathrm{Hom}(E', F) \oplus \mathrm{Hom}(E'', F)$ with $\mathrm{Hom}(E' \oplus E'', F)$ by means of the $\mathbf{Z}$-linear mapping $\mathrm{Hom}(p', 1_F) + \mathrm{Hom}(p'', 1_F)$, where $p': E' \oplus E'' \to E'$ and $p'': E' \oplus E'' \to E''$ are the canonical projections.
 
 #### Theorem 2 {#alg-ii-s2-thm-2 .statement}
 
@@ -142,7 +143,7 @@ $$
 \bar{v} \circ \bar{u} = \mathrm{Hom}(1_E, v \circ u) = 0
 $$
 
-(II, $\S 1$, no. 2, formula (10)) since $v \circ u = 0$. The image of $\mathrm{Hom}(E, F')$ under $\bar{u}$ is therefore contained in the kernel $N$ of $\bar{v}$; let $f$ be the homomorphism of the $\mathbf{Z}$-module $\mathrm{Hom}(E, F')$ into $N$ whose graph is equal to that of $\bar{u}$; it is necessary to prove that $f$ is *bijective* and hence to define a mapping $g: N \to \mathrm{Hom}(E, F')$ such that $f \circ g$ and $g \circ f$ are the identity mappings. For this, let $w$ be an element of $N$, that is a linear mapping $w: E \to F$ such that $v \circ w = 0$. The latter relation is equivalent to $w(E) \subset \mathrm{Ker}(v) = u(F')$ by hypothesis, hence, since $u$ is injective, there exists one and only one linear mapping $w': E \to F'$ such that $w = u \circ w'$ and we take $g(w) = w'$; it is immediately verified that $g$ satisfies the desired conditions.
+(II, $§ 1$, no. 2, formula (10)) since $v \circ u = 0$. The image of $\mathrm{Hom}(E, F')$ under $\bar{u}$ is therefore contained in the kernel $N$ of $\bar{v}$; let $f$ be the homomorphism of the $\mathbf{Z}$-module $\mathrm{Hom}(E, F')$ into $N$ whose graph is equal to that of $\bar{u}$; it is necessary to prove that $f$ is *bijective* and hence to define a mapping $g: N \to \mathrm{Hom}(E, F')$ such that $f \circ g$ and $g \circ f$ are the identity mappings. For this, let $w$ be an element of $N$, that is a linear mapping $w: E \to F$ such that $v \circ w = 0$. The latter relation is equivalent to $w(E) \subset \mathrm{Ker}(v) = u(F')$ by hypothesis, hence, since $u$ is injective, there exists one and only one linear mapping $w': E \to F'$ such that $w = u \circ w'$ and we take $g(w) = w'$; it is immediately verified that $g$ satisfies the desired conditions.
 
 Conversely, suppose that sequence (6) is exact for every $A$-module $E$. As $\mathrm{Hom}(1_E, v \circ u) = \bar{v} \circ \bar{u} = 0$, then $v \circ u \circ w = 0$ for every homomorphism $w: E \to F'$. Taking $E = F'$ and $w = 1_{F'}$, it is seen first that $v \circ u = 0$ and hence $u(F') \subset \mathrm{Ker}(v)$. Now we take $E = \mathrm{Ker}(v)$ and let $\phi: E \to F$ be the canonical injection. Then $\bar{v}(\phi) = v \circ \phi = 0$ by definition and hence there exists $\psi \in \mathrm{Hom}(E, F')$ such that $\phi = \bar{u}(\psi) = u \circ \psi$, which obviously implies $\mathrm{Ker}(v) \subset u(F')$ and completes the proof of the exactness of (5) at $F$. Finally, if $\theta$ is the identity mapping of $\mathrm{Ker}\, u$, then $\bar{u}(\theta) = 0$, hence $\theta = 0$ and $\mathrm{Ker}\, u = \{0\}$, which proves the exactness of (5) at $F'$.
 
@@ -202,7 +203,7 @@ $$
 \operatorname{Hom}(E, F') \oplus \operatorname{Hom}(E, F'')
 $$
 
-is canonically identified with $\operatorname{Hom}(E, F' \oplus F'')$ by means of the $\mathbf{Z}$-linear mapping $\operatorname{Hom}(1_E, j') + \operatorname{Hom}(1_E, j''), j' : F' \to F' \oplus F''$ and $j'' : F'' \to F' \oplus F''$ being the canonical injections (\S 1, no. 6, Corollary 1 to Proposition 6). Conversely, if sequence (8) is exact for $E = F''$, there is an element $g \in \operatorname{Hom}(F'', F)$ such that $v \circ g = 1_{F''}$ and the conclusion follows from \S 1, no. 9, Proposition 15.
+is canonically identified with $\operatorname{Hom}(E, F' \oplus F'')$ by means of the $\mathbf{Z}$-linear mapping $\operatorname{Hom}(1_E, j') + \operatorname{Hom}(1_E, j''), j' : F' \to F' \oplus F''$ and $j'' : F'' \to F' \oplus F''$ being the canonical injections (§ 1, no. 6, Corollary 1 to Proposition 6). Conversely, if sequence (8) is exact for $E = F''$, there is an element $g \in \operatorname{Hom}(F'', F)$ such that $v \circ g = 1_{F''}$ and the conclusion follows from § 1, no. 9, Proposition 15.
 
 Remark (2). The results of this no. are valid without modification for all commutative groups with operators.
 
@@ -228,13 +229,13 @@ $$
 \operatorname{Hom}(1_P, u) : \operatorname{Hom}(P, E) \to \operatorname{Hom}(P, F)
 $$
 
-is identified with $\prod_i \operatorname{Hom}(1_{M_i}, u)$ (\S 1, no. 6, Corollary 1 to Proposition 6); the conclusion thus follows from Definition 1 and \S 1, no. 5, Proposition 5 (ii).
+is identified with $\prod_i \operatorname{Hom}(1_{M_i}, u)$ (§ 1, no. 6, Corollary 1 to Proposition 6); the conclusion thus follows from Definition 1 and § 1, no. 5, Proposition 5 (ii).
 
 #### Corollary {#alg-ii-s2-n2-cor-1 .statement}
 
 Every free A-module is projective.
 
-It suffices by Proposition 3 to show that A_s is projective, which follows immediately from the commutativity of diagram (50) of \S 1, no. 14.
+It suffices by Proposition 3 to show that A_s is projective, which follows immediately from the commutativity of diagram (50) of § 1, no. 14.
 
 #### Proposition 4 {#alg-ii-s2-prop-4 .statement}
 
@@ -267,19 +268,19 @@ $$
 0 \longrightarrow E' \longrightarrow E \xrightarrow{v} P \longrightarrow 0
 $$
 
-splits (\S 1, no. 9, Proposition 15). As for every A-module M there exist a free A-module L and an exact sequence $0 \to R \to L \to M \to 0$ (\S 1, no. 11, Proposition 20), clearly (d) implies (e). Finally (e) implies (a) by virtue of Proposition 3 and its Corollary.
+splits (§ 1, no. 9, Proposition 15). As for every A-module M there exist a free A-module L and an exact sequence $0 \to R \to L \to M \to 0$ (§ 1, no. 11, Proposition 20), clearly (d) implies (e). Finally (e) implies (a) by virtue of Proposition 3 and its Corollary.
 
 #### Corollary 1 {#alg-ii-s2-prop-4-cor-1 .statement}
 
 *For an A-module to be projective and finitely generated, it is necessary and sufficient that it be a direct factor of a free A-module with a finite basis.*
 
-The condition is obviously sufficient; conversely, a finitely generated projective module E is isomorphic to a quotient of a free module F with a finite basis (\S 1, no. 11) and E is isomorphic to a direct factor of F by virtue of Proposition 4 (d).
+The condition is obviously sufficient; conversely, a finitely generated projective module E is isomorphic to a quotient of a free module F with a finite basis (§ 1, no. 11) and E is isomorphic to a direct factor of F by virtue of Proposition 4 (d).
 
 #### Corollary 2 {#alg-ii-s2-prop-4-cor-2 .statement}
 
 *Let C be a commutative ring and E, F two finitely generated projective C-modules; then $\operatorname{Hom}_C(E, F)$ is a finitely generated projective C-module.*
 
-It may be assumed that there are two finitely generated free C-modules M, N such that $M = E \oplus E', N = F \oplus F'$; it follows from \S 1, no. 6, Corollary 1 to Proposition 6 that $\operatorname{Hom}_C(M, N)$ is finitely generated and free and on the other hand that $\operatorname{Hom}_C(M, N)$ is isomorphic to
+It may be assumed that there are two finitely generated free C-modules M, N such that $M = E \oplus E', N = F \oplus F'$; it follows from § 1, no. 6, Corollary 1 to Proposition 6 that $\operatorname{Hom}_C(M, N)$ is finitely generated and free and on the other hand that $\operatorname{Hom}_C(M, N)$ is isomorphic to
 
 $$
 \operatorname{Hom}_C(E, F) \oplus \operatorname{Hom}_C(E', F) \oplus \operatorname{Hom}_C(E, F') \oplus \operatorname{Hom}(E', F'),
@@ -289,7 +290,7 @@ whence the corollary.
 
 ### 3. LINEAR FORMS; DUAL OF A MODULE
 
-Let E be a *left* A-module. As A is an (A, A)-bimodule, $\operatorname{Hom}_A(E, A_s)$ has a canonical *right* A-module structure (\S 1, no. 14).
+Let E be a *left* A-module. As A is an (A, A)-bimodule, $\operatorname{Hom}_A(E, A_s)$ has a canonical *right* A-module structure (§ 1, no. 14).
 
 #### Definition 2 {#alg-ii-s2-def-2 .statement}
 
@@ -439,13 +440,13 @@ If $v : F \to G$ is an isomorphism, the contragredient isomorphism of $v \circ u
 
 In particular, the mapping $u \mapsto \tilde{u}$ is an *isomorphism* of the linear group $\mathbf{GL}(E)$ onto a subgroup of the linear group $\mathbf{GL}(E^*)$.
 
-Let $\sigma : A \to B$ be an *isomorphism* of a ring $A$ onto a ring $B$, $E$ a left $A$-module, $F$ a left $B$-module and $u : E \to F$ a *semi-linear* mapping (\S 1, no. 13) *relative to* $\sigma$. Let $\sigma^{-1}$ be the inverse isomorphism of $\sigma$; for all $y^* \in F^*$, the mapping $x \mapsto \langle u(x), y^* \rangle^{\sigma^{-1}}$ of $E$ into $A$ is a *linear form*; if it is also denoted by ${}^t u(y^*)$, a mapping ${}^t u : F^* \to E^*$ is defined which is also called the *transpose* of the semi-linear mapping $u$; it is thus characterized by the identity
+Let $\sigma : A \to B$ be an *isomorphism* of a ring $A$ onto a ring $B$, $E$ a left $A$-module, $F$ a left $B$-module and $u : E \to F$ a *semi-linear* mapping (§ 1, no. 13) *relative to* $\sigma$. Let $\sigma^{-1}$ be the inverse isomorphism of $\sigma$; for all $y^* \in F^*$, the mapping $x \mapsto \langle u(x), y^* \rangle^{\sigma^{-1}}$ of $E$ into $A$ is a *linear form*; if it is also denoted by ${}^t u(y^*)$, a mapping ${}^t u : F^* \to E^*$ is defined which is also called the *transpose* of the semi-linear mapping $u$; it is thus characterized by the identity
 
 $$
 \langle u(x), y^* \rangle = \langle x, {}^t u(y^*) \rangle^\sigma
 $$
 
-for $x \in E, y^* \in F^*$. It is immediately verified that ${}^t u$ is a *semi-linear* mapping *relative to* $\sigma^{-1}$. If $v$ denotes the mapping $u$ considered as an *A-linear* mapping of $E$ into $\sigma_*(F)$ (\S 1, no. 13), we may write $u = \phi \circ v$, where $\phi$ is the identity mapping $\sigma_*(F) \to F$, considered as a semi-linear mapping relative to $\sigma$. It is immediate that ${}^t u = {}^t v \circ {}^t \phi$ and $({}^t \phi, \sigma^{-1})$ is a di-isomorphism of $F^*$ onto $(\sigma_*(F))^*$ relative to the isomorphism $\sigma^{-1}$; this relation allows us immediately to extend the properties of transposes of linear mappings to transposes of semi-linear mappings.
+for $x \in E, y^* \in F^*$. It is immediately verified that ${}^t u$ is a *semi-linear* mapping *relative to* $\sigma^{-1}$. If $v$ denotes the mapping $u$ considered as an *A-linear* mapping of $E$ into $\sigma_*(F)$ (§ 1, no. 13), we may write $u = \phi \circ v$, where $\phi$ is the identity mapping $\sigma_*(F) \to F$, considered as a semi-linear mapping relative to $\sigma$. It is immediate that ${}^t u = {}^t v \circ {}^t \phi$ and $({}^t \phi, \sigma^{-1})$ is a di-isomorphism of $F^*$ onto $(\sigma_*(F))^*$ relative to the isomorphism $\sigma^{-1}$; this relation allows us immediately to extend the properties of transposes of linear mappings to transposes of semi-linear mappings.
 
 ### 6. DUAL OF A QUOTIENT MODULE. DUAL OF A DIRECT SUM. DUAL BASES
 
@@ -553,7 +554,7 @@ $$
 x = \sum_{t \in T} \langle x, a_t^* \rangle a_t.
 $$
 
-There exists a surjective homomorphism $u : L \to E$, where $L = A_s^{(T)}$, such that if $(e_t)_{t \in T}$ is the canonical basis of L then $u(e_t) = a_t$ (\S 1, no. 11, Proposition 17); for E to be projective, it is necessary and sufficient that there exist a linear mapping $v : E \to L$ such that $u \circ v = 1_E$ (no. 2, Proposition 4 and \S 1, no. 9, Proposition 15). If such a mapping exists and we write ${}^tv(e_t^*) = a_t^*$, then $\langle x, a_t^* \rangle = \langle x, {}^tv(e_t^*) \rangle = \langle v(x), e_t^* \rangle$, hence the family $(\langle x, a_t^* \rangle)$ has finite support and $x = u \left( \sum_{t \in T} \langle (x), e_t^* \rangle e_t \right) = \sum_{t \in T} \langle x, a_t^* \rangle a_t$ for all $x \in E$. Conversely, if condition (b) of the statement is fulfilled, the sum $\sum_{t \in T} \langle x, a_t^* \rangle e_t$ is defined for all $x \in E$ and $x \to \sum_{t \in T} \langle x, a_t^* \rangle e_t$ is a linear mapping $v : E \to L$ such that $u \circ v = 1_E$.
+There exists a surjective homomorphism $u : L \to E$, where $L = A_s^{(T)}$, such that if $(e_t)_{t \in T}$ is the canonical basis of L then $u(e_t) = a_t$ (§ 1, no. 11, Proposition 17); for E to be projective, it is necessary and sufficient that there exist a linear mapping $v : E \to L$ such that $u \circ v = 1_E$ (no. 2, Proposition 4 and § 1, no. 9, Proposition 15). If such a mapping exists and we write ${}^tv(e_t^*) = a_t^*$, then $\langle x, a_t^* \rangle = \langle x, {}^tv(e_t^*) \rangle = \langle v(x), e_t^* \rangle$, hence the family $(\langle x, a_t^* \rangle)$ has finite support and $x = u \left( \sum_{t \in T} \langle (x), e_t^* \rangle e_t \right) = \sum_{t \in T} \langle x, a_t^* \rangle a_t$ for all $x \in E$. Conversely, if condition (b) of the statement is fulfilled, the sum $\sum_{t \in T} \langle x, a_t^* \rangle e_t$ is defined for all $x \in E$ and $x \to \sum_{t \in T} \langle x, a_t^* \rangle e_t$ is a linear mapping $v : E \to L$ such that $u \circ v = 1_E$.
 
 ### 7. BIDUAL
 
@@ -577,7 +578,7 @@ is commutative, as follows immediately from the definitions and formula (15) giv
 
 *If E is a free module* (resp. *a free module with a finite basis*), *the canonical mapping* $c_E : E \to E^{**}$ *is injective* (resp. *bijective*).
 
-Let $(e_t)_{t \in T}$ be a basis of E and let $(e_t^*)$ be the family of corresponding coordinate forms; by definition, if $x \in E$ is such that $\tilde{x} = 0$, then $\langle x, e_t^* \rangle = 0$ for all $t \in T$, in other words all the coordinates of $x$ are zero, hence $x = 0$. Suppose further that T is finite; since $\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$, $(\tilde{e}_t)$ is the dual basis of $(e_t^*)$ in $E^{**}$ and, as $c_E$ transforms a basis of E into a basis of $E^{**}$, $c_E$ is bijective (\S 1, no. 11, Corollary 3 to Proposition 17). We have moreover proved:
+Let $(e_t)_{t \in T}$ be a basis of E and let $(e_t^*)$ be the family of corresponding coordinate forms; by definition, if $x \in E$ is such that $\tilde{x} = 0$, then $\langle x, e_t^* \rangle = 0$ for all $t \in T$, in other words all the coordinates of $x$ are zero, hence $x = 0$. Suppose further that T is finite; since $\langle \tilde{e}_t, e_{t'}^* \rangle = \delta_{tt'}$, $(\tilde{e}_t)$ is the dual basis of $(e_t^*)$ in $E^{**}$ and, as $c_E$ transforms a basis of E into a basis of $E^{**}$, $c_E$ is bijective (§ 1, no. 11, Corollary 3 to Proposition 17). We have moreover proved:
 
 #### Corollary 1 {#alg-ii-s2-prop-13-cor-1 .statement}
 
@@ -631,7 +632,7 @@ $$
 \end{align*}
 $$
 
-This being so, if E is a free module (resp. a free module with a finite basis), $c_E$ is injective (resp. bijective); on the other hand, it follows from no. 6, Proposition 10, that $t_i \oplus t_j$ is bijective; the commutativity of diagram (28) then implies that $c_M \oplus c_N$ is injective (resp. bijective) and so therefore are $c_M$ and $c_N$ (\S 1, no. 6, Corollary 1 to Proposition 7), whence the corollary, taking account of no. 2, Proposition 4.
+This being so, if E is a free module (resp. a free module with a finite basis), $c_E$ is injective (resp. bijective); on the other hand, it follows from no. 6, Proposition 10, that $t_i \oplus t_j$ is bijective; the commutativity of diagram (28) then implies that $c_M \oplus c_N$ is injective (resp. bijective) and so therefore are $c_M$ and $c_N$ (§ 1, no. 6, Corollary 1 to Proposition 7), whence the corollary, taking account of no. 2, Proposition 4.
 
 ### 8. LINEAR EQUATIONS
 
@@ -661,7 +662,7 @@ To say that $u(x) = y_0$ admits a solution means that $y_0 \in u(E)$ and the pro
 
 † This is in fact an abuse of language; from the logical point of view, we are not here defining the word "solution", but simply the sentence "$x_0$ is a solution of the equation $u(x) = y_0$" as equivalent to the relation "$x_0 \in E$ and $u(x_0) = y_0$". Observe that in a mathematical theory $\mathcal{T}$ where the relation "$A$ is a ring, $E$ and $F$ are $A$-modules, $u$ is a homomorphism of $E$ into $F$, $y_0$ an element of $F$" is a theorem, every *term* $T$ of $\mathcal{T}$ such that the relation "$T \in E$ and $u(T) = y_0$" is true in $\mathcal{T}$ is a *solution* of the equation $u(x) = y_0$ in the sense of *Set Theory*, I, § 5, no. 2; this justifies the above abuse of language.
 
-Observe that the necessary criterion for the existence of a solution of $u(x) = y_0$, given by Proposition 15, is sufficient when $A$ is a field (\S 7, no. 6, Proposition 12), but *not in general* (Exercise 10).
+Observe that the necessary criterion for the existence of a solution of $u(x) = y_0$, given by Proposition 15, is sufficient when $A$ is a field (§ 7, no. 6, Proposition 12), but *not in general* (Exercise 10).
 
 #### Remark {#alg-ii-s2-n8-rem-1 .statement}
 
@@ -676,7 +677,7 @@ $$
 \sum_{\lambda \in L} \xi_\lambda b_\lambda = y_0.
 $$
 
-Conversely, looking for families $(\xi_\lambda)_{\lambda \in L}$ of elements of $A$ of finite support satisfying (30), is equivalent to solving the linear equation $u(x) = y_0$, where $u$ is the unique linear mapping of $E$ into $F$ such that $u(a_\lambda) = b_\lambda$ for all $\lambda \in L$ (\S 1, no. 11, Corollary 3 to Proposition 17).
+Conversely, looking for families $(\xi_\lambda)_{\lambda \in L}$ of elements of $A$ of finite support satisfying (30), is equivalent to solving the linear equation $u(x) = y_0$, where $u$ is the unique linear mapping of $E$ into $F$ such that $u(a_\lambda) = b_\lambda$ for all $\lambda \in L$ (§ 1, no. 11, Corollary 3 to Proposition 17).
 
 (3) A linear equation $u(x) = y_0$ is called *scalar* when $F = A_s$ and therefore $u$ is a *linear form* on $E$ and $y_0$ a *scalar*. If $E$ admits a basis $(a_\lambda)_{\lambda \in L}$, it follows from *Remark* (2) that such an equation may also be written as
 $$

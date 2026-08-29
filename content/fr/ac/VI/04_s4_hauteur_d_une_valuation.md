@@ -32,7 +32,7 @@ subsections:
       pdf_page: 111
 statements: 21
 exercises: 5
-content_sha256: 617c278212d55b2fd898a526aeb5b6cb1a4bcea3b4ebecadf3bfe91399e020db
+content_sha256: 0209a2c1e17c27a25e4b2e6adac03cd81c288c48ee3e43def8754a65dcc61265
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -52,13 +52,13 @@ Si $\mathbf{B}$ est un anneau tel que $\mathbf{A} \subset \mathbf{B} \subset \ma
 
 *L’ensemble des sous-anneaux de* $K$ *contenant* $A$ *est totalement ordonné par inclusion*.
 
-En effet, l’ensemble des idéaux premiers de $A$ est totalement ordonné par inclusion ($\S 1$, no 2, th. 1 e)), et l’application $\mathfrak{p} \to A_{\mathfrak{p}}$ renverse les relations d’inclusion.
+En effet, l’ensemble des idéaux premiers de $A$ est totalement ordonné par inclusion ($§ 1$, no 2, th. 1 e)), et l’application $\mathfrak{p} \to A_{\mathfrak{p}}$ renverse les relations d’inclusion.
 
 #### Proposition 2 {#ac-vi-s4-prop-2 .statement}
 
 *Soient* $K$ *un corps*, $B$ *un anneau de valuation pour* $K$, *et* $h_B$ *la place de* $K$ *associée à* $B$ *(à valeurs dans* $\kappa(B)$). *Alors l’application* $A \to h_B(A)$ *définit une bijection de l’ensemble* $\mathcal{A}$ *des anneaux de valuation pour* $K$ *contenus dans* $B$, *sur l’ensemble* $\mathcal{A}'$ *des anneaux de valuation pour* $\kappa(B)$.
 
-Si $A \in \mathcal{A}$, on a $h_B(A) \in \mathcal{A}'$: en effet, si $x' = h_B(x)$ (où $x \in B$) est un élément de $\kappa(B) - h_B(A)$, on a $x \notin A$, donc $x^{-1} \in A$ et $h_B(x)^{-1} \in h_B(A)$. D’autre part, pour $A \in \mathcal{A}$, on a $A \supset m(B)$ (prop. 1, $b$)), donc l’application $A \to h_B(A)$ est injective. Enfin, soient $A' \in \mathcal{A}'$ et $A = \overline{h_B}(A') \subset B$; on va montrer, ce qui achèvera la démonstration, que $A \in \mathcal{A}$; en effet, si $x \in K - A$, on a, soit $x \notin B$, soit $x \in B$; si $x \notin B$, on a $x^{-1} \in m(B) \subset A$; si $x \in B$, on a $h_B(x) \in \kappa(B)$ et $h_B(x) \notin A'$, donc $h_B(x^{-1}) \in A'$, et on en conclut encore que $x^{-1} \in A$; donc $A \in \mathcal{A}$.
+Si $A \in \mathcal{A}$, on a $h_B(A) \in \mathcal{A}'$: en effet, si $x' = h_B(x)$ (où $x \in B$) est un élément de $\kappa(B) - h_B(A)$, on a $x \notin A$, donc $x^{-1} \in A$ et $h_B(x)^{-1} \in h_B(A)$. D’autre part, pour $A \in \mathcal{A}$, on a $A \supset m(B)$ (prop. 1, b)), donc l’application $A \to h_B(A)$ est injective. Enfin, soient $A' \in \mathcal{A}'$ et $A = \overline{h_B}(A') \subset B$; on va montrer, ce qui achèvera la démonstration, que $A \in \mathcal{A}$; en effet, si $x \in K - A$, on a, soit $x \notin B$, soit $x \in B$; si $x \notin B$, on a $x^{-1} \in m(B) \subset A$; si $x \in B$, on a $h_B(x) \in \kappa(B)$ et $h_B(x) \notin A'$, donc $h_B(x^{-1}) \in A'$, et on en conclut encore que $x^{-1} \in A$; donc $A \in \mathcal{A}$.
 
 #### Corollaire {#ac-vi-s4-n1-cor-2 .statement}
 
@@ -106,7 +106,7 @@ Si nous reprenons l’exemple où $G$ est un produit lexicographique $A \times B
 
 ### 3. Comparaison des valuations
 
-Soient $K$ un corps, et $A$ un anneau de valuation pour $K$. Pour tout sous-anneau $B$ de $K$ contenant $A$, on a $U(A) \subset U(B)$. On a donc un homomorphisme canonique $\lambda$ de $\Gamma_A = K^*/U(A)$ sur $\Gamma_B = K^*/U(B)$, dont le noyau est $U(B)/U(A)$. Notant $\varphi_A$ et $\varphi_B$ les valuations canoniques de $K$ définies par $A$ et $B$ (\S 3, no 2), on a donc
+Soient $K$ un corps, et $A$ un anneau de valuation pour $K$. Pour tout sous-anneau $B$ de $K$ contenant $A$, on a $U(A) \subset U(B)$. On a donc un homomorphisme canonique $\lambda$ de $\Gamma_A = K^*/U(A)$ sur $\Gamma_B = K^*/U(B)$, dont le noyau est $U(B)/U(A)$. Notant $\varphi_A$ et $\varphi_B$ les valuations canoniques de $K$ définies par $A$ et $B$ (§ 3, no 2), on a donc
 
 $$
 \varphi_B = \lambda \circ \varphi_A.
@@ -154,7 +154,7 @@ $$
 E = k(X) \quad \text{et} \quad K = k(X, Y) = E(Y)
 $$
 
-$(X, Y$ indéterminées). Soit $B = E[Y]_{(Y)}$ l’anneau de valuation pour $K$ défini par l’élément extrémal $Y$ de l’anneau principal $E[Y]$ (\S 1, no 4, prop. 3). Le corps résiduel $\kappa(B)$ s’identifie canoniquement à $E[Y]/(Y) = E$. Soit, de même, $A' = k[X]_{(X)}$ l’anneau de valuation pour $E = k(X)$ défini par l’élément extrémal $X$ de $k[X]$. En désignant par $h_B$ la place de $E$ associée à $B$, et en posant $A = \overline{h_B}(A')$, on définit un anneau de valuation $A$ pour $K$ contenu dans $B$, et l’on a $\kappa(A) = \kappa(A') = k$. La place canonique $h_A : K \to k$ peut se décrire ainsi : si $f(X, Y)$ est un élément de $K$, on fait d’abord $Y = 0$ dans $f$ (ce qui donne un élément de $\widetilde{E} = k(X)$), puis $X = 0$ dans le résultat obtenu. Les groupes $\Gamma_{A'}$ et $\Gamma_B$ sont canoniquement isomorphes à $\mathbf{Z}$ (\S 3, no 4, Exemple 4).
+$(X, Y$ indéterminées). Soit $B = E[Y]_{(Y)}$ l’anneau de valuation pour $K$ défini par l’élément extrémal $Y$ de l’anneau principal $E[Y]$ (§ 1, no 4, prop. 3). Le corps résiduel $\kappa(B)$ s’identifie canoniquement à $E[Y]/(Y) = E$. Soit, de même, $A' = k[X]_{(X)}$ l’anneau de valuation pour $E = k(X)$ défini par l’élément extrémal $X$ de $k[X]$. En désignant par $h_B$ la place de $E$ associée à $B$, et en posant $A = \overline{h_B}(A')$, on définit un anneau de valuation $A$ pour $K$ contenu dans $B$, et l’on a $\kappa(A) = \kappa(A') = k$. La place canonique $h_A : K \to k$ peut se décrire ainsi : si $f(X, Y)$ est un élément de $K$, on fait d’abord $Y = 0$ dans $f$ (ce qui donne un élément de $\widetilde{E} = k(X)$), puis $X = 0$ dans le résultat obtenu. Les groupes $\Gamma_{A'}$ et $\Gamma_B$ sont canoniquement isomorphes à $\mathbf{Z}$ (§ 3, no 4, Exemple 4).
 
 *On montre sans difficulté (cf. § 10, no 2, lemme 2) que le groupe $\Gamma_A$ est isomorphe au produit lexicographique $\mathbf{Z} \times \mathbf{Z}$, et que la valuation $\varphi_A$ est équivalente à la valuation définie au § 3, no 4, fin de l’Exemple 6.*
 
@@ -162,7 +162,7 @@ $(X, Y$ indéterminées). Soit $B = E[Y]_{(Y)}$ l’anneau de valuation pour $K$
 
 Soit $G$ un groupe totalement ordonné. Étant donnés deux sous-groupes isolés $H$ et $H'$ de $G$, l’un d’eux est contenu dans l’autre : en effet, dans le cas contraire, il existerait un élément positif $x$ de $H$ n’appartenant pas à $H'$ et un élément positif $x'$ de $H'$ n’appartenant pas à $H$; soit, par exemple, $x \geqslant x'$; comme $H$ est isolé, on obtient $x' \in H$, d’où contradiction.
 
-Ceci résulte aussi de la prop. 4 du no 3 et du cor. de la prop. 1 du no 1, en tenant compte du fait que tout groupe totalement ordonné est le groupe des ordres d’une valuation (\S 3, no 4, Exemple 6).
+Ceci résulte aussi de la prop. 4 du no 3 et du cor. de la prop. 1 du no 1, en tenant compte du fait que tout groupe totalement ordonné est le groupe des ordres d’une valuation (§ 3, no 4, Exemple 6).
 
 #### Définition 2 {#ac-vi-s4-def-2 .statement}
 
@@ -203,7 +203,7 @@ a) A est l’anneau d’une valuation de hauteur 1 de K ;
 b) A est un anneau de valuation pour K, et n’a d’autres idéaux premiers que (0) et m(A) ;
 c) A est maximal parmi les sous-anneaux de K distincts de K.
 
-La prop. 5 du n° 4 montre que $a)$ implique $b)$, et la prop. 1 du n° 1 montre que $b)$ implique $c)$. Reste à montrer que $c)$ implique $a)$. Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($\S 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $\nu$ de $K$. Ceci étant, $\nu$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
+La prop. 5 du n° 4 montre que a) implique b), et la prop. 1 du n° 1 montre que b) implique c). Reste à montrer que c) implique a). Supposons $A$ maximal parmi les sous-anneaux de $K$ distincts de $K$. Soient $m$ un idéal maximal de $A$, et $V$ un anneau de valuation pour $K$ dominant $A_m$ ($§ 1$, n° 2, cor. du th. 2); comme $m(V) \cap A = m$ et que $m \neq (0)$ (puisque $A$ n’est pas un corps), on a $V \neq K$, d’où $V = A$, ce qui montre que $A$ est l’anneau d’une valuation $\nu$ de $K$. Ceci étant, $\nu$ est de hauteur 1 d’après les prop. 1 (n° 1) et 5 (n° 4).
 
 #### Proposition 7 {#ac-vi-s4-prop-7 .statement}
 
@@ -218,23 +218,23 @@ a) $G$ est de hauteur 1 ;
 b) quels que soient $x > 0$ et $y \geqslant 0$ dans $G$, il existe un entier $n \geqslant 0$ tel que $y \leqslant nx$ ;
 c) $G$ est isomorphe à un sous-groupe non réduit à 0 du groupe additif ordonné $\mathbf{R}$*.
 
-Soit $x$ un élément positif de $G$, et soit $H_x$ l’ensemble des $y \in G$ tels qu’il existe un entier $n \geqslant 0$ vérifiant $|y| \leqslant nx$. On vérifie aisément que $H_x$ est un sous-groupe isolé de $G$, et que tout sous-groupe isolé de $G$ contenant $x$ contient $H_x$. La condition $a)$ équivaut donc à « $H_x = G$ pour tout $x > 0$ », c’est-à-dire à la condition $b)$.
+Soit $x$ un élément positif de $G$, et soit $H_x$ l’ensemble des $y \in G$ tels qu’il existe un entier $n \geqslant 0$ vérifiant $|y| \leqslant nx$. On vérifie aisément que $H_x$ est un sous-groupe isolé de $G$, et que tout sous-groupe isolé de $G$ contenant $x$ contient $H_x$. La condition a) équivaut donc à « $H_x = G$ pour tout $x > 0$ », c’est-à-dire à la condition b).
 
-Il est clair que $c)$ implique $b)$. Réciproquement, supposons vérifiée la condition $b)$, et notons $Q$ l’ensemble des éléments $> 0$ de $G$. Supposons d’abord que $Q$ ait un plus petit élément $x$; pour tout $y \in Q$, soit $n$ le plus petit entier tel que $y \leqslant nx$; si l’on avait $y < nx$, on aurait aussi $nx - y \geqslant x$, d’où $y \leqslant (n - 1)x$ contrairement au choix de $n$; on a donc $y = nx$, ce qui montre que $G = \mathbf{Z}x$ est isomorphe à $\mathbf{Z} \subset \mathbf{R}$. Supposons maintenant que $Q$ n’ait pas de plus petit élément; appliquons à l’ensemble ordonné $P = Q \cup \{0\}$ la prop. 1 de *Top. Gén.*, chap. V, § 2 (ce qui est possible, puisque la condition $b$) n’est autre que « l’axiome d’Archimède »); on voit qu’il existe une application strictement croissante $f$ de $P$ dans $\mathbf{R}_+$ telle que
+Il est clair que c) implique b). Réciproquement, supposons vérifiée la condition b), et notons $Q$ l’ensemble des éléments $> 0$ de $G$. Supposons d’abord que $Q$ ait un plus petit élément $x$; pour tout $y \in Q$, soit $n$ le plus petit entier tel que $y \leqslant nx$; si l’on avait $y < nx$, on aurait aussi $nx - y \geqslant x$, d’où $y \leqslant (n - 1)x$ contrairement au choix de $n$; on a donc $y = nx$, ce qui montre que $G = \mathbf{Z}x$ est isomorphe à $\mathbf{Z} \subset \mathbf{R}$. Supposons maintenant que $Q$ n’ait pas de plus petit élément; appliquons à l’ensemble ordonné $P = Q \cup \{0\}$ la prop. 1 de *Top. Gén.*, chap. V, § 2 (ce qui est possible, puisque la condition b) n’est autre que « l’axiome d’Archimède »); on voit qu’il existe une application strictement croissante $f$ de $P$ dans $\mathbf{R}_+$ telle que
 
 $$
 f(x + y) = f(x) + f(y)
 $$
 
-pour $x \in P$ et $y \in P$; par linéarité $f$ se prolonge en un isomorphisme de $G$ sur un sous-groupe de $\mathbf{R}$, ce qui prouve que $b)$ implique $c)$.
+pour $x \in P$ et $y \in P$; par linéarité $f$ se prolonge en un isomorphisme de $G$ sur un sous-groupe de $\mathbf{R}$, ce qui prouve que b) implique c).
 
 #### Proposition 9 {#ac-vi-s4-prop-9 .statement}
 
 Soient $K$ un corps, $\nu$ une valuation non impropre de $K$, et $A$ l’anneau de $\nu$. Pour que $A$ soit complètement intégralement clos (chap. V, § 1, n° 4, déf. 5), il faut et il suffit que $\nu$ soit de hauteur 1.
 
-Supposons $\nu$ de hauteur 1. Soit $x \in K$ tel que les $x^n (n \geq 0)$ soient tous contenus dans un sous-A-module de type fini de $K$. Il existe $d \in A - \{0\}$ tel que $dx^n \in A$ pour tout $n \geq 0$. On a donc $\nu(d) + n \nu(x) \geq 0$, c’est-à-dire $n(-\nu(x)) \leq \nu(d)$ pour tout $n \geq 0$, d’où $-\nu(x) \leq 0$ (prop. 8, $b$)) et $x \in A$. Ainsi $A$ est complètement intégralement clos.
+Supposons $\nu$ de hauteur 1. Soit $x \in K$ tel que les $x^n (n \geq 0)$ soient tous contenus dans un sous-A-module de type fini de $K$. Il existe $d \in A - \{0\}$ tel que $dx^n \in A$ pour tout $n \geq 0$. On a donc $\nu(d) + n \nu(x) \geq 0$, c’est-à-dire $n(-\nu(x)) \leq \nu(d)$ pour tout $n \geq 0$, d’où $-\nu(x) \leq 0$ (prop. 8, b)) et $x \in A$. Ainsi $A$ est complètement intégralement clos.
 
-Supposons maintenant que $\nu$ ne soit pas de hauteur 1. Il existe alors $y \in m(A)$ et $t \in A$ tels que $n \nu(y) < \nu(t)$ pour tout $n \geq 0$ (prop. 8, $b$)). On a donc $ty^{-n} \in A$ pour tout $n \geq 0$, mais $y^{-1} \notin A$. Donc $A$ n’est pas complètement intégralement clos.
+Supposons maintenant que $\nu$ ne soit pas de hauteur 1. Il existe alors $y \in m(A)$ et $t \in A$ tels que $n \nu(y) < \nu(t)$ pour tout $n \geq 0$ (prop. 8, b)). On a donc $ty^{-n} \in A$ pour tout $n \geq 0$, mais $y^{-1} \notin A$. Donc $A$ n’est pas complètement intégralement clos.
 
 #### Corollaire {#ac-vi-s4-n5-cor-1 .statement}
 

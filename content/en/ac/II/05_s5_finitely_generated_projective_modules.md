@@ -41,22 +41,22 @@ subsections:
       pdf_page: 139
 statements: 34
 exercises: 8
-content_sha256: b0d54943b748610ad0e7af93405f294a99c6edab5712a336877d7ebc3241e9b3
+content_sha256: a5d4bfa4c1fcf7eb66cf300768331126f156485bf51ceb82544587f9f1c007d9
 ---
 
 ## 5. FINITELY GENERATED PROJECTIVE MODULES. INVERTIBLE FRACTIONAL IDEALS
 
 ### 1. LOCALIZATION WITH RESPECT TO AN ELEMENT
 
-Let $A$ be a ring and $M$ an $A$-module. For every element $f \in A$, we shall write $A_f = A[f^{-1}], M_f = M[f^{-1}] = M \otimes_A A[f^{-1}]$ (\S 2, nos. 1 and 2); if $S_f$ is the set off" for $n \geq 0$, then $A_{S_f} = S_f^{-1}A, M_{S_f} = S_f^{-1}M$. Iff is invertible in $A$, $A_f$ (resp. $M_f$) is canonically identified with $A$ (resp. $M$); iff is nilpotent, then $A_f = 0$ and $M_f = 0$. For every $A$-module homomorphism $u : M \to N$, we write $u_f = u \otimes 1 : M_f \to N_f$.
+Let $A$ be a ring and $M$ an $A$-module. For every element $f \in A$, we shall write $A_f = A[f^{-1}], M_f = M[f^{-1}] = M \otimes_A A[f^{-1}]$ (§ 2, nos. 1 and 2); if $S_f$ is the set off" for $n \geq 0$, then $A_{S_f} = S_f^{-1}A, M_{S_f} = S_f^{-1}M$. Iff is invertible in $A$, $A_f$ (resp. $M_f$) is canonically identified with $A$ (resp. $M$); iff is nilpotent, then $A_f = 0$ and $M_f = 0$. For every $A$-module homomorphism $u : M \to N$, we write $u_f = u \otimes 1 : M_f \to N_f$.
 
-Let $g$ be another element of $A$; $A_g$ (resp. $M_g$) is canonically identified with $(A,)_{g/1}$ (resp. $(M_f)_{g/1}$), where $g/1$ is the image of $g$ in $A_g$, and $u_{f,g}$ with $(u_f)_{g/1}$ (\S 2, no. 3, Proposition 7).
+Let $g$ be another element of $A$; $A_g$ (resp. $M_g$) is canonically identified with $(A,)_{g/1}$ (resp. $(M_f)_{g/1}$), where $g/1$ is the image of $g$ in $A_g$, and $u_{f,g}$ with $(u_f)_{g/1}$ (§ 2, no. 3, Proposition 7).
 
 #### Proposition 1 {#ac-ii-s5-prop-1 .statement}
 
-*Let $f$ be an element of a ring $A$ and $\phi : A \to A_f$, the canonical mapping. The mapping $^a\phi : \operatorname{Spec}(A_f) \to \operatorname{Spec}(A)$ is a homeomorphism of $\operatorname{Spec}(A_f)$ onto the open subspace $X_f$ of $X = \operatorname{Spec}(A)$ (\S 4, no. 3).*
+*Let $f$ be an element of a ring $A$ and $\phi : A \to A_f$, the canonical mapping. The mapping $^a\phi : \operatorname{Spec}(A_f) \to \operatorname{Spec}(A)$ is a homeomorphism of $\operatorname{Spec}(A_f)$ onto the open subspace $X_f$ of $X = \operatorname{Spec}(A)$ (§ 4, no. 3).*
 
-This a particular case of \S 4, no. 3, Corollary to Proposition 13.
+This a particular case of § 4, no. 3, Corollary to Proposition 13.
 
 #### Proposition 2 {#ac-ii-s5-prop-2 .statement}
 
@@ -66,13 +66,13 @@ This a particular case of \S 4, no. 3, Corollary to Proposition 13.
 
 (ii) Suppose that $u_p$ is bijective, that $M$ is finitely generated and that $N$ is finitely presented. Then there exists $f \in A - p$ such that $u_f$ is bijective.*
 
-Let $R$ and $Q$ be the kernel and cokernel of $u$; if $g \in A$, the kernel and cokernel of $u_g$ (resp. $u_p$) are $R_g$ and $Q_g$, (resp. $R_p$ and $Q_p$) (\S 2, no. 4, Theorem 1). Then $Q_p = 0$; as $N$ is finitely generated, so is $Q$ and there exists $g' \in A - p$ such that $g'Q = 0$ (\S 2, no. 2, Corollary 2 to Proposition 4), whence $Q_{g'} = 0$. Under the hypotheses of (ii), the sequence $0 \to R_{g'} \to M \to N \to 0$ is exact, hence $R_{g'}$ is finitely generated (Chapter I, \S 2, no. 8, Lemma 9). Now,
+Let $R$ and $Q$ be the kernel and cokernel of $u$; if $g \in A$, the kernel and cokernel of $u_g$ (resp. $u_p$) are $R_g$ and $Q_g$, (resp. $R_p$ and $Q_p$) (§ 2, no. 4, Theorem 1). Then $Q_p = 0$; as $N$ is finitely generated, so is $Q$ and there exists $g' \in A - p$ such that $g'Q = 0$ (§ 2, no. 2, Corollary 2 to Proposition 4), whence $Q_{g'} = 0$. Under the hypotheses of (ii), the sequence $0 \to R_{g'} \to M \to N \to 0$ is exact, hence $R_{g'}$ is finitely generated (Chapter I, § 2, no. 8, Lemma 9). Now,
 
 $$
 (R_{g'})_{pR_{g'}} = R_p = 0;
 $$
 
-hence there exists $g_1 \in A, - pA_{g'}$ such that $g_1 R_{g'} = 0$ (\S 2, no. 2, Corollary 2 to Proposition 4). Then $g_1 = g''/g'^h$, where $g'' \in A - p$; as $g'/1$ is invertible in $R_{g'}$, $(g''/1)R_{g'} = 0$, whence $R_{g'g''} = (R_{g'})_{g''/1} = 0$. If $f = g'g''$, $f \in A - p$, $Q_f = 0$ and $R_f = 0$, so that $u_f$ is bijective.
+hence there exists $g_1 \in A, - pA_{g'}$ such that $g_1 R_{g'} = 0$ (§ 2, no. 2, Corollary 2 to Proposition 4). Then $g_1 = g''/{g'}^h$, where $g'' \in A - p$; as $g'/1$ is invertible in $R_{g'}$, $(g''/1)R_{g'} = 0$, whence $R_{g'g''} = (R_{g'})_{g''/1} = 0$. If $f = g'g''$, $f \in A - p$, $Q_f = 0$ and $R_f = 0$, so that $u_f$ is bijective.
 
 #### Corollary {#ac-ii-s5-n1-cor-1 .statement}
 
@@ -116,15 +116,15 @@ We show the theorem by proving the following scheme of implications
 
 (c)
 
-(a) ⇒ (b): We know that a finitely generated projective module is finitely presented (Chapter I, § 2, no. 8, Lemma 8 (iii)); if $P$ is a projective $A$-module, $P_m = P \otimes_A A_m$ is a projective $A_m$-module (\emph{Algebra}, Chapter II, § 5, no. 1, Corollary to Proposition 4); finally, as $A,$ is a local ring, every finitely presented projective $A,,$-module is free (\S 3, no. 2, Corollary to Proposition 5).
+(a) ⇒ (b): We know that a finitely generated projective module is finitely presented (Chapter I, § 2, no. 8, Lemma 8 (iii)); if $P$ is a projective $A$-module, $P_m = P \otimes_A A_m$ is a projective $A_m$-module (\emph{Algebra}, Chapter II, § 5, no. 1, Corollary to Proposition 4); finally, as $A,$ is a local ring, every finitely presented projective $A,,$-module is free (§ 3, no. 2, Corollary to Proposition 5).
 
 (b) ⇒ (e): This follows from the Corollary to Proposition 2 of no. 1.
 
-(c) ⇒ (e): Let $m$ be a maximal ideal of $A$; write $r_m = n$ and let $(x_i)_{1 \leq i \leq n}$ be a basis of $P$. We can assume that the $x_i$ are canonical images of elements $p_i \in P$ $(1 \leq i \leq n)$ to within multiplication by an invertible element of $A,$. Let $(e_i)_{1 \leq i \leq n}$ be the canonical basis of $A^n$ and $u : A^n \to P$ the homomorphism such that $u(e_i) = p_i$ for $1 \leq i \leq n$. As $P$ is finitely generated, it follows from Proposition 2 of no. 1 that there exists $f \in A - m$ such that $u_f$ is surjective. We conclude that $u_{f,g}$ is also surjective for all $g \in A - m$ and by hypothesis there exists $g \in A - m$ such that $r_p = n$ for $p \in X,$. Then, replacing $f$ by $f g$, we may assume that $r_p = n$ for all $p \in X,$. Then $u_p : A_p^n \to P_p$ is a surjective homomorphism and $P_p$ and $A_p$ are both free $A,$-modules of the same rank; hence (\S 3, no. 2, Corollary to Proposition 6) $u_p$ is bijective for all $p \in X_f$. Let $p'$ be a prime ideal of $A,$ and let $p$ be its inverse image in $A$ under the canonical mapping; if $(A_f^{n})_{p'}$ and $(P_f)_{p'}$ are identified with $A_p^n$ and $P_p$ under the canonical isomorphisms, $(u_f)_{p'}$ is identified with $u_p$ and is consequently bijective. We conclude that $u_f$ is bijective (\$3, no. 3, Theorem 1), which establishes (e).
+(c) ⇒ (e): Let $m$ be a maximal ideal of $A$; write $r_m = n$ and let $(x_i)_{1 \leq i \leq n}$ be a basis of $P$. We can assume that the $x_i$ are canonical images of elements $p_i \in P$ $(1 \leq i \leq n)$ to within multiplication by an invertible element of $A,$. Let $(e_i)_{1 \leq i \leq n}$ be the canonical basis of $A^n$ and $u : A^n \to P$ the homomorphism such that $u(e_i) = p_i$ for $1 \leq i \leq n$. As $P$ is finitely generated, it follows from Proposition 2 of no. 1 that there exists $f \in A - m$ such that $u_f$ is surjective. We conclude that $u_{f,g}$ is also surjective for all $g \in A - m$ and by hypothesis there exists $g \in A - m$ such that $r_p = n$ for $p \in X,$. Then, replacing $f$ by $f g$, we may assume that $r_p = n$ for all $p \in X,$. Then $u_p : A_p^n \to P_p$ is a surjective homomorphism and $P_p$ and $A_p$ are both free $A,$-modules of the same rank; hence (§ 3, no. 2, Corollary to Proposition 6) $u_p$ is bijective for all $p \in X_f$. Let $p'$ be a prime ideal of $A,$ and let $p$ be its inverse image in $A$ under the canonical mapping; if $(A_f^{n})_{p'}$ and $(P_f)_{p'}$ are identified with $A_p^n$ and $P_p$ under the canonical isomorphisms, $(u_f)_{p'}$ is identified with $u_p$ and is consequently bijective. We conclude that $u_f$ is bijective (§ 3, no. 3, Theorem 1), which establishes (e).
 
 (e) ⇒ (d): Let $E$ be the set off $\in A$ such that $P_f$ is a finitely generated free $A_f$-module. The hypothesis implies that $E$ is contained in no maximal ideal of $A,$ hence $E$ generates the ideal $A$ and there therefore exist a finite family $(f_i)_{1 \leq i \leq n}$ of elements of $E$ and $a_i \in A$ $(1 \leq i \leq n)$ such that $1 = \sum_{i=1}^n a_i f_i$; whence (d).
 
-(d) ⇒ (c): It follows from no. 1, Corollary to Proposition 3 that $P$ is finitely generated. On the other hand, for every prime ideal $p$ of $A$, there exists an index $i$ such that $p \in X_{f_i}$; if $p' = p_{f_i}$, then $P_p = (P_{f_i})_{p'}$ (\S 2, no. 5, Proposition
+(d) ⇒ (c): It follows from no. 1, Corollary to Proposition 3 that $P$ is finitely generated. On the other hand, for every prime ideal $p$ of $A$, there exists an index $i$ such that $p \in X_{f_i}$; if $p' = p_{f_i}$, then $P_p = (P_{f_i})_{p'}$ (§ 2, no. 5, Proposition
 
 10) and hence by hypothesis $P_p$ is free and of the same rank as $P_{f_i}$, which proves (c).
 
@@ -138,13 +138,13 @@ For every index $i$, there exists a free $A_i$-module $L$, such that $P_i$ is a 
 
 Suppose that the equivalent properties of the statement of Theorem 1 hold. Let m be an integer > 0 such that, for every family $(x_i)_{1 \leq i \leq m}$ of elements of P, there exists a family $(a_i)_{1 \leq i \leq m}$ of elements of A, which are not all divisors of zero and for which $\sum_{i=1}^m a_i x_i = 0$. Then, for all $p \in \operatorname{Spec}(A)$, $r_p \leq m$.
 
-Let p be a prime ideal of A; set $r = r_p$ and let $(y_j)_{1 \leq j \leq r}$ be a basis of the free $A_p$-module $P_p$. There exist elements $x_j$ ($1 \leq j \leq r$) of P and $s \in A - p$ such that $y_j = x_j / s$ for all $j$. Then for every family $(a_j)_{1 \leq j \leq r}$ of elements of A such that $\sum_{j=1}^r a_j x_j = 0$, $\sum_{j=1}^r (a_j/1) y_j = 0$ in $P_p$, whence $a_j/1 = 0$ for $1 \leq j \leq r$. As $A - p$ does not contain 0, this shows that the $a_j$ are all divisors of zero in A (\S 2, no. 1, Remark 3), hence of necessity $r \leq m$.
+Let p be a prime ideal of A; set $r = r_p$ and let $(y_j)_{1 \leq j \leq r}$ be a basis of the free $A_p$-module $P_p$. There exist elements $x_j$ ($1 \leq j \leq r$) of P and $s \in A - p$ such that $y_j = x_j / s$ for all $j$. Then for every family $(a_j)_{1 \leq j \leq r}$ of elements of A such that $\sum_{j=1}^r a_j x_j = 0$, $\sum_{j=1}^r (a_j/1) y_j = 0$ in $P_p$, whence $a_j/1 = 0$ for $1 \leq j \leq r$. As $A - p$ does not contain 0, this shows that the $a_j$ are all divisors of zero in A (§ 2, no. 1, Remark 3), hence of necessity $r \leq m$.
 
 #### Corollary 2 {#ac-ii-s5-thm-1-cor-2 .statement}
 
 Every finitely presented flat module is projective.
 
-If P is a finitely presented flat A-module and m a maximal ideal of A, the $A_m$-module P, is flat (\S 3, no. 4, Proposition 13) and finitely presented (\S 2, no. 4) and hence free (\$3, no. 2, Corollary 2 to Proposition 5), Condition (b) of Theorem 1 therefore holds.
+If P is a finitely presented flat A-module and m a maximal ideal of A, the $A_m$-module P, is flat (§ 3, no. 4, Proposition 13) and finitely presented (§ 2, no. 4) and hence free (§ 3, no. 2, Corollary 2 to Proposition 5), Condition (b) of Theorem 1 therefore holds.
 
 Remarks
 (1) There exist finitely generated flat modules which are not projective (Exercise 7).
@@ -156,15 +156,15 @@ Remarks
 
 Let P be a finitely generated projective A-module. For every prime ideal $p$ of A, the rank of the free $A_p$-module $P_p$ is called the rank of P at $p$ and is denoted by $\operatorname{rg}_p(P)$.
 
-By Theorem 1 the integer-valued function $p \mapsto \mathrm{rg}_p(P)$ is *locally constant* on $X = \mathrm{Spec}(A)$; it is therefore constant if $X$ is *connected* and in particular if the ring $A$ is an *integral domain* (\S 4, no. 3, Corollary 2 to Proposition 15).
+By Theorem 1 the integer-valued function $p \mapsto \mathrm{rg}_p(P)$ is *locally constant* on $X = \mathrm{Spec}(A)$; it is therefore constant if $X$ is *connected* and in particular if the ring $A$ is an *integral domain* (§ 4, no. 3, Corollary 2 to Proposition 15).
 
 #### Definition 2 {#ac-ii-s5-def-2 .statement}
 
 *Let $n$ be an integer $\geqslant 0$. A projective $A$-module $P$ is said to be *of rank* $n$ if it is finitely generated and $\mathrm{rg}_p(P) = n$ for every prime ideal $p$ of $A$.*
 
-Clearly every finitely generated *free* $A$-module $L$ is of rank $n$ in the sense of Definition 2, $n$ being equal to the *dimension* (or *rank*) of $L$ defined in *Algebra*, Chapter II, \S 7, no. 2.
+Clearly every finitely generated *free* $A$-module $L$ is of rank $n$ in the sense of Definition 2, $n$ being equal to the *dimension* (or *rank*) of $L$ defined in *Algebra*, Chapter II, § 7, no. 2.
 
-A projective module of rank 0 is zero (\S 3, no. 3, Corollary 2 to Theorem 1). If $A$ is not reduced to 0 and a projective $A$-module $P$ is of rank $n$, the integer $n$ is determined uniquely; it is then denoted by $\mathrm{rg}(P)$.
+A projective module of rank 0 is zero (§ 3, no. 3, Corollary 2 to Theorem 1). If $A$ is not reduced to 0 and a projective $A$-module $P$ is of rank $n$, the integer $n$ is determined uniquely; it is then denoted by $\mathrm{rg}(P)$.
 
 #### Theorem 2 {#ac-ii-s5-thm-2 .statement}
 
@@ -178,13 +178,13 @@ A projective module of rank 0 is zero (\S 3, no. 3, Corollary 2 to Theorem 1). I
 
 (d) *For every maximal ideal* $m$ *of* $A$, *there exists* $f \in A - m$ *such that the* $A$-*module* $P_f$ *is free of rank* $n$.
 
-By Definition 2 and Theorem 1, (a) and (c) are equivalent; (b) implies (c), as, for every prime ideal $p$ of $A$, there exists a maximal ideal $m$ containing $p$ and, writing $p' = p_m$, $P_p$ is isomorphic to $(P_m)_{p'}$ (\S 2, no. 5, Proposition 11); if $P_m$ is free of rank $n$, so then is $P_{p'}$. Property (c) implies (d) by virtue of Theorem 1 and the fact that, iff $\in A - m$ and $m' = m_f$, $P_m$ is isomorphic to $(P_f)_{m'}$ and therefore the ranks of $P_f$ and $P$ are equal. Finally, this last argument and Theorem 1 show that (d) implies (b).
+By Definition 2 and Theorem 1, (a) and (c) are equivalent; (b) implies (c), as, for every prime ideal $p$ of $A$, there exists a maximal ideal $m$ containing $p$ and, writing $p' = p_m$, $P_p$ is isomorphic to $(P_m)_{p'}$ (§ 2, no. 5, Proposition 11); if $P_m$ is free of rank $n$, so then is $P_{p'}$. Property (c) implies (d) by virtue of Theorem 1 and the fact that, iff $\in A - m$ and $m' = m_f$, $P_m$ is isomorphic to $(P_f)_{m'}$ and therefore the ranks of $P_f$ and $P$ are equal. Finally, this last argument and Theorem 1 show that (d) implies (b).
 
 #### Remark {#ac-ii-s5-n3-rem-1 .statement}
 
-*If* $A$ *is an integral domain, a projective* $A$-*module admits a well-defined rank* (in the sense of Definition 2), *as has been observed above; moreover, this rank coincides with the rank defined in Algebra, Chapter II, \S 7, no. 2; it is sufficient to apply Theorem 2 (c) with* $p = (0)$.
+*If* $A$ *is an integral domain, a projective* $A$-*module admits a well-defined rank* (in the sense of Definition 2), *as has been observed above; moreover, this rank coincides with the rank defined in Algebra, Chapter II, § 7, no. 2; it is sufficient to apply Theorem 2 (c) with* $p = (0)$.
 
-Let $E$ and $F$ be two finitely generated projective $A$-modules. We know (*Algebra*, Chapter II, §§ 2 and 3) that $E \times F$, $E \otimes_A F$, $\mathrm{Hom}_A(E, F)$ and the dual $E^*$ of $E$ are projective and finitely generated; so is the exterior power $\bigwedge^k E$ for every integer $k > 0$ (*Algebra*, Chapter 111). Also, it follows immediately from Definition 1 and \S 2, no. 7, Propositions 18 and 19 and no. 8, that, for every prime ideal $p$ of $A$:
+Let $E$ and $F$ be two finitely generated projective $A$-modules. We know (*Algebra*, Chapter II, §§ 2 and 3) that $E \times F$, $E \otimes_A F$, $\mathrm{Hom}_A(E, F)$ and the dual $E^*$ of $E$ are projective and finitely generated; so is the exterior power $\bigwedge^k E$ for every integer $k > 0$ (*Algebra*, Chapter 111). Also, it follows immediately from Definition 1 and § 2, no. 7, Propositions 18 and 19 and no. 8, that, for every prime ideal $p$ of $A$:
 
 (1)
 $$
@@ -233,15 +233,15 @@ Let $A$ be a ring and $M$ ajnitely generated $A$-module.
 
 (ii) *Conversely, if $M$ is projective of rank 1 and $M^*$ is the dual of $M$, the canonical homomorphism $u : M \otimes_A M^* \to A$ corresponding to the canonical bilinear form $(x, x^*) \to \langle x, x^* \rangle$ on $M \times M^*$ (Algebra, Chapter II, § 2, no. 3) is bijective.*
 
-(i) It is required to prove that, for every maximal ideal $m$ of $A$, the $A_m$-module $M$, is free of rank 1 (Theorem 2 (b)); we are free to replace $A$ by $A_m$ and hence may assume that $A$ is a *local* ring ($\S 2$, no. 7, Proposition 18). Let $k = A/m$. The isomorphism $v : M \otimes_A N \to A$ defines an isomorphism
+(i) It is required to prove that, for every maximal ideal $m$ of $A$, the $A_m$-module $M$, is free of rank 1 (Theorem 2 (b)); we are free to replace $A$ by $A_m$ and hence may assume that $A$ is a *local* ring ($§ 2$, no. 7, Proposition 18). Let $k = A/m$. The isomorphism $v : M \otimes_A N \to A$ defines an isomorphism
 
 $$
 v \otimes 1_k : (M/mM) \otimes_k (N/mN) \to k
 $$
 
-as the rank over $k$ of $(M/mM) \otimes_k (N/mN)$ is the product of the ranks of $M/mM$ and $N/mN$, these latter are necessarily equal to 1, in other words $M/mM$ is monogenous. It follows that $M$ is monogenous ($\S 3$, no. 2, Corollary 2 to Proposition 4); on the other hand, the annihilator of $M$ also annihilates $M \otimes_A N$ and hence is zero, which proves that $M$ is isomorphic to $A$.
+as the rank over $k$ of $(M/mM) \otimes_k (N/mN)$ is the product of the ranks of $M/mM$ and $N/mN$, these latter are necessarily equal to 1, in other words $M/mM$ is monogenous. It follows that $M$ is monogenous ($§ 3$, no. 2, Corollary 2 to Proposition 4); on the other hand, the annihilator of $M$ also annihilates $M \otimes_A N$ and hence is zero, which proves that $M$ is isomorphic to $A$.
 
-(ii) It is sufficient to prove that, for every maximal ideal $m$ of $A$, $u_m$ is an isomorphism ($\S 3$, no. 3, Theorem 1). As $M$ is finitely presented (Chapter I, $\S 2$, no. 8, Lemma 8), $(M^*)_m$ is canonically identified with the dual $(M_m)^*$ ($\S 2$, no. 7, Proposition 19) and, as $M_m$ is free of rank 1 like its dual $(M_m)^*$, clearly the canonical homomorphism $u_m : (M,) \otimes_{A_m} (M_m)^* \to A_m$ is bijective, which completes the proof.
+(ii) It is sufficient to prove that, for every maximal ideal $m$ of $A$, $u_m$ is an isomorphism ($§ 3$, no. 3, Theorem 1). As $M$ is finitely presented (Chapter I, $§ 2$, no. 8, Lemma 8), $(M^*)_m$ is canonically identified with the dual $(M_m)^*$ ($§ 2$, no. 7, Proposition 19) and, as $M_m$ is free of rank 1 like its dual $(M_m)^*$, clearly the canonical homomorphism $u_m : (M,) \otimes_{A_m} (M_m)^* \to A_m$ is bijective, which completes the proof.
 
 *Remark* (1). If $M$ is projective of rank 1 and $N$ is such that $M \otimes_A N$ is isomorphic to $A$, then $N$ is isomorphic to $M^*$: there are isomorphisms
 
@@ -279,11 +279,11 @@ The equation $M_{(B)} \otimes_B N_{(B)} = (M \otimes_A N)_{(B)}$ for two A-modul
 
 *Remark (2).* Condition (e) of Theorem 1 (equivalent to the fact that P is projective and finitely generated) may also be expressed by saying that *the sheaf of modules* $\tilde{P}$ over $X = \mathrm{Spec}(A)$ *associated(*) with P is locally free and of finite type* and may therefore be interpreted as the sheaf of sections of a vector bundle over X. Conversely, every vector bundle over X arises from a finitely generated projective module, which is determined to within a unique isomorphism; the projective modules of rank $n$ thus correspond to the vector bundles all of whose fibres have dimension $n$. In particular, the vector bundles of rank 1 correspond to the projective modules of rank 1. If we denote by $\mathcal{O}_X$ the structure sheaf $\tilde{A}$ and by $\mathcal{O}_X^*$ the *sheaf of units* of $\mathcal{O}_X$ (whose sections over an open set U of X are the invertible elements of the ring of sections of $\mathcal{O}_X$ over U), it follows that the group $P(A)$ is isomorphic to the first cohomology group $H^1(X, \mathcal{O}_X^*)$.*
 
-(* See A. Grothendieck, Éléments de géométrie algébrique, I (\S 1) (Publ. Math. I.H.E.S., no. 4, 1960).
+(* See A. Grothendieck, Éléments de géométrie algébrique, I (§ 1) (Publ. Math. I.H.E.S., no. 4, 1960).
 
 ### 5. NON-DEGENERATE SUBMODULES
 
-In this no. and the two following, $A$ denotes a ring, $S$ a multiplicative subset of $A$ consisting of elements which are not divisors of zero in $A$, and $B$ the ring $S^{-1}A$; $A$ is canonically identified with a subring of $B$ ($\S 2$, no. 1, Remark 3). The elements of $S$ are therefore invertible in $B$.
+In this no. and the two following, $A$ denotes a ring, $S$ a multiplicative subset of $A$ consisting of elements which are not divisors of zero in $A$, and $B$ the ring $S^{-1}A$; $A$ is canonically identified with a subring of $B$ ($§ 2$, no. 1, Remark 3). The elements of $S$ are therefore invertible in $B$.
 
 One of the most important special cases for applications is that where $A$ is an integral domain and $S$ is the set of elements $\neq 0$ of $A$; $B$ is then the field of fractions of $A$.
 
@@ -300,7 +300,7 @@ Let $M$ be a sub-A-module of $B$. The following conditions are equivalent:
 (b) $M$ meets $S$.
 (c) If $j : M \to B$ is the canonical injection, the homomorphism $u = S^{-1}j : S^{-1}M \to B$ is bijective.
 
-(a) implies (b), for if $B.M = B$, there exists $a \in A, s \in S$ and $x \in M$ such that $(a/s)x = 1$, hence $ax = s$ belongs to $S \cap M$. To see that (b) implies (c), note that $u$ is already injective ($\S 2$, no. 4, Theorem 1); moreover, if $x \in M \cap S$, the image under $u$ of $x/x \in S^{-1}M$ in $B$ is equal to 1 and $u$ is therefore surjective. Finally, (c) clearly implies (a).
+(a) implies (b), for if $B.M = B$, there exists $a \in A, s \in S$ and $x \in M$ such that $(a/s)x = 1$, hence $ax = s$ belongs to $S \cap M$. To see that (b) implies (c), note that $u$ is already injective ($§ 2$, no. 4, Theorem 1); moreover, if $x \in M \cap S$, the image under $u$ of $x/x \in S^{-1}M$ in $B$ is equal to 1 and $u$ is therefore surjective. Finally, (c) clearly implies (a).
 
 #### Corollary {#ac-ii-s5-n5-cor-1 .statement}
 
@@ -308,7 +308,7 @@ If $M$ and $N$ are two non-degenerate sub-A-modules of $B$, the A-modules $M + N
 
 The assertion is trivial for $M + N$; on the other hand if $s \in S \cap M$ and $t \in S \cap N$, then $st \in S \cap (M.N)$ and $st \in S \cap (M \cap N)$.
 
-Given two sub-A-modules $M$ and $N$ of $B$, let us denote by $N : M$ the sub-A-module of $B$ consisting of those $b \in B$ such that $bM \subset N$ (Chapter I, $\S 2$, no. 10, Remark). If every $b \in N : M$ is mapped to the homomorphism $h_b : x \mapsto bx$ of $M$ to $N$, a canonical homomorphism $b \mapsto h_b$ is obtained from $N : M$ to $\operatorname{Hom}_A(M, N)$.
+Given two sub-A-modules $M$ and $N$ of $B$, let us denote by $N : M$ the sub-A-module of $B$ consisting of those $b \in B$ such that $bM \subset N$ (Chapter I, $§ 2$, no. 10, Remark). If every $b \in N : M$ is mapped to the homomorphism $h_b : x \mapsto bx$ of $M$ to $N$, a canonical homomorphism $b \mapsto h_b$ is obtained from $N : M$ to $\operatorname{Hom}_A(M, N)$.
 
 #### Proposition 9 {#ac-ii-s5-prop-9 .statement}
 
@@ -365,11 +365,11 @@ $$
 
 For all $x \in M$, set $v_i(x) = n_i x$; the $v_i$ are linear forms on M and by (9) $x = \sum_{i=1}^{n} m_i v_i(x)$ for all $x \in M$; this proves (Algebra, Chapter 11, §2, no. 6, Proposition 12) that M is projective and generated by the $m_i$; hence M is a finitely generated projective module.
 
-Let m be a maximal ideal of A; we show that the integer $r = \mathrm{rg}_m(M)$ is equal to 1. Let S' be the image of S in $\mathbf{A}_{m'}$; as the elements of S are not divisors of 0 in A, those of S' are not divisors of 0 in $\mathbf{A}_{m'}$ since $\mathbf{A}_{m'}$ is a flat A-module (\S 2, no. 4, Theorem 1 and Chapter I, §2, no. 4, Proposition 3); then $S'^{-1}A_m \neq 0$ and, as $M_m$ is a free $A_m$-module of rank $r$, $S'^{-1}M_m$ is a free $S'^{-1}A_m$-module of rank $r$. But if T' is the image of A $-m$ in $S^{-1}A$, $S'^{-1}A$, (resp. $S'^{-1}M_m$) is canonically identified with $T'^{-1}(S^{-1}A)$ (resp. $T'^{-1}(S^{-1}M)$) (\S 2, no. 3, Proposition 7). Now $S^{-1}M = B$ (Proposition 8 (c)) and hence $T'^{-1}(S^{-1}M)$ is a free A-module of rank 1 over $T'^{-1}(S^{-1}A)$, which proves that $r = 1$ and shows the implication (a) $\Rightarrow$ (c).
+Let m be a maximal ideal of A; we show that the integer $r = \mathrm{rg}_m(M)$ is equal to 1. Let S' be the image of S in $\mathbf{A}_{m'}$; as the elements of S are not divisors of 0 in A, those of S' are not divisors of 0 in $\mathbf{A}_{m'}$ since $\mathbf{A}_{m'}$ is a flat A-module (§ 2, no. 4, Theorem 1 and Chapter I, §2, no. 4, Proposition 3); then ${S'}^{-1}A_m \neq 0$ and, as $M_m$ is a free $A_m$-module of rank $r$, ${S'}^{-1}M_m$ is a free ${S'}^{-1}A_m$-module of rank $r$. But if T' is the image of A $-m$ in $S^{-1}A$, ${S'}^{-1}A$, (resp. ${S'}^{-1}M_m$) is canonically identified with ${T'}^{-1}(S^{-1}A)$ (resp. ${T'}^{-1}(S^{-1}M)$) (§ 2, no. 3, Proposition 7). Now $S^{-1}M = B$ (Proposition 8 (c)) and hence ${T'}^{-1}(S^{-1}M)$ is a free A-module of rank 1 over ${T'}^{-1}(S^{-1}A)$, which proves that $r = 1$ and shows the implication (a) $\Rightarrow$ (c).
 
 The implication (c) $\Rightarrow$ (b) is trivial. Let us show that (b) $\Rightarrow$ (a). There exists by hypothesis a family (not necessarily finite) $(f_\lambda)_{\lambda \in L}$ of linear forms on M and a family $(m_\lambda)_{\lambda \in L}$ of elements of M such that, for all $x \in M$, the family $(f_\lambda(x))$ has finite support and $x = \sum_{\lambda \in L} m_\lambda f_\lambda(x)$ (Algebra, Chapter II, §2, no. 6, Proposition 12). Since M is non-degenerate, $f_\lambda(x) = n_\lambda x$ for some $n_\lambda \in A$: M by virtue of Proposition 9 of no. 5. Taking x as an element of M $\cap S$ (no. 5, Proposition 8), it is seen that of necessity $n_\lambda = 0$ except for a finite number of indices and $\sum_{\lambda \in L} m_\lambda n_\lambda = 1$. This obviously implies M . (A: M) = A, whence (a).
 
-By virtue of Definition 2 of no. 3, (c) implies (d). Let us show the converse. As M is non-degenerate, its annihilator is zero (Proposition 8 (b)), then so is the annihilator of $M_m$ (\S 2, no. 4, formula (9)). As M, is assumed to be a monogenous &-module, it is therefore free of rank 1 and it then follows from no. 3, Theorem 2 that M is projective of rank 1.
+By virtue of Definition 2 of no. 3, (c) implies (d). Let us show the converse. As M is non-degenerate, its annihilator is zero (Proposition 8 (b)), then so is the annihilator of $M_m$ (§ 2, no. 4, formula (9)). As M, is assumed to be a monogenous &-module, it is therefore free of rank 1 and it then follows from no. 3, Theorem 2 that M is projective of rank 1.
 
 #### Corollary {#ac-ii-s5-n6-cor-1 .statement}
 

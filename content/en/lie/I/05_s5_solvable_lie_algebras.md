@@ -7,36 +7,37 @@ section: 5
 section_title: Solvable Lie algebras
 lang: en
 source: lie-i-iii
+book_pages: 43-50, 99-101
 pdf_pages: 0061-0068, 0117-0119
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF SOLVABLE LIE ALGEBRAS
-      page: 0
+      page: 43
       pdf_page: 61
     - "no": 2
       title: RADICAL OF A LIE ALGEBRA
-      page: 0
+      page: 44
       pdf_page: 62
     - "no": 3
       title: NILPOTENT RADICAL OF A LIE ALGEBRA
-      page: 0
+      page: 44
       pdf_page: 62
     - "no": 4
       title: A CRITERION FOR SOLVABILITY
-      page: 0
+      page: 47
       pdf_page: 65
     - "no": 5
       title: FURTHER PROPERTIES OF THE RADICAL
-      page: 0
+      page: 48
       pdf_page: 66
     - "no": 6
       title: EXTENSION OF THE BASE FIELD
-      page: 0
+      page: 49
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: 58e7f8e4f22a7774673d32c1f0c1bdd910c704720ef205be2e225ea0d0806439
+content_sha256: bc96d56afc3255aae8af0a123337b972ece4e127279103def5f9db7ba948b944
 ---
 
 ## § 5. SOLVABLE LIE ALGEBRAS
@@ -201,7 +202,7 @@ Let these sets be denoted by $a, b, c, d$. The inclusions $a \subset b \subset d
 
 Let $x$ be an endomorphism of a finite-dimensional vector space V and s (resp. n) its semi-simple (resp. nilpotent) component (cf. Algebra, Chapter VIII, § 9, no. 4, Definition 4). Let $\mathrm{ad}\, x, \mathrm{ad}\, s, \mathrm{ad}\, n$ be the respective images of $x, s, n$ in the adjoint representation of $\mathfrak{gl}(V)$. Then $\mathrm{ad}\, s$ (resp. $\mathrm{ad}\, n$) is the semi-simple (resp. nilpotent) component of $\mathrm{ad}\, x$ and is equal to a polynomial in $\mathrm{ad}\, x$ with coefficients in K and no constant term.
 
-We know that $\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$ and $\mathrm{ad}\, n$ is nilpotent ($\S 4$, Lemma 1). We show that $\mathrm{ad}\, s$ is semi-simple. It suffices to do this when K is algebraically closed (cf. Algebra, Chapter VIII, § 9, no. 2, Proposition 3). Then let $(e_i)_{1 \leq i \leq n}$ be a basis of V such that $s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$). Let $(E_{ij})$ be the canonical basis of $M_n(K) = \mathfrak{gl}(V)$. By formulae (5) of $\S 1$,
+We know that $\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$ and $\mathrm{ad}\, n$ is nilpotent ($§ 4$, Lemma 1). We show that $\mathrm{ad}\, s$ is semi-simple. It suffices to do this when K is algebraically closed (cf. Algebra, Chapter VIII, § 9, no. 2, Proposition 3). Then let $(e_i)_{1 \leq i \leq n}$ be a basis of V such that $s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$). Let $(E_{ij})$ be the canonical basis of $M_n(K) = \mathfrak{gl}(V)$. By formulae (5) of $§ 1$,
 
 $$
 (\mathrm{ad}\, s)\cdot E_{ij} = (\lambda_i - \lambda_j)E_{ij}
@@ -259,7 +260,7 @@ This is an immediate consequence of Proposition 5 (b).
 
 The radical r of a Lie algebra g is a characteristic ideal.
 
-$\mathcal{D}g$ is a characteristic ideal and the Killing form is completely invariant (\S 3, no. 6, Proposition 10). Hence the orthogonal of $\mathcal{D}g$ with respect to the Killing form is a characteristic ideal (\S 3, no. 6, Proposition 7 (b)).
+$\mathcal{D}g$ is a characteristic ideal and the Killing form is completely invariant (§ 3, no. 6, Proposition 10). Hence the orthogonal of $\mathcal{D}g$ with respect to the Killing form is a characteristic ideal (§ 3, no. 6, Proposition 7 (b)).
 
 #### Corollary 3 {#lie-i-s5-prop-5-cor-3 .statement}
 
@@ -273,7 +274,7 @@ Corollary 2 can be made more precise as follows:
 
 Let g be a Lie algebra, r its radical and n its largest nilpotent ideal. Every derivation of g maps r into n.
 
-Let D be a derivation of g. Let g' = g + Kx_0 be a Lie algebra in which g is an ideal of codimension 1 such that Dx = [x_0, x] for all x ∈ g (\S 1, no. 8, Example 1). By Corollary 3 to Proposition 5, r is contained in the radical r' of g'. Then D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. For all x ∈ s', ad_{g'} x is nilpotent (Theorem 1). Hence, for all x ∈ s' ∩ g, ad_g x is nilpotent. Hence D(r) is contained in the nilpotent ideal s' ∩ g of g.
+Let D be a derivation of g. Let g' = g + Kx_0 be a Lie algebra in which g is an ideal of codimension 1 such that Dx = [x_0, x] for all x ∈ g (§ 1, no. 8, Example 1). By Corollary 3 to Proposition 5, r is contained in the radical r' of g'. Then D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. For all x ∈ s', ad_{g'} x is nilpotent (Theorem 1). Hence, for all x ∈ s' ∩ g, ad_g x is nilpotent. Hence D(r) is contained in the nilpotent ideal s' ∩ g of g.
 
 #### Corollary {#lie-i-s5-n5-cor-1 .statement}
 

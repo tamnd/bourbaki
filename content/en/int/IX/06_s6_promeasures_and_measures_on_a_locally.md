@@ -57,7 +57,7 @@ subsections:
       pdf_page: 279
 statements: 33
 exercises: 1
-content_sha256: 58e45819d7a42959dc83ab3b30467ce024124a58cd273e90753ba86f78cc31a1
+content_sha256: 077b96d14b458885be002a0ac52b3b781f4d62aa95beaa4584507c426a327623
 ---
 
 ## § 6. PROMEASURES AND MEASURES ON A LOCALLY CONVEX SPACE
@@ -72,11 +72,11 @@ It can be shown that the inverse limit of the inverse system $\mathcal{Q}(E)$ is
 
 #### Definition 1 {#int-ix-s6-def-1 .statement}
 
-*Let $E$ be a locally convex space. One calls promeasure on $E$ every inverse system$^{(1)}$ of measures (\S 4, No. 2, Def. 1) on the inverse system of finite-dimensional quotients of $E$.*
+*Let $E$ be a locally convex space. One calls promeasure on $E$ every inverse system$^{(1)}$ of measures (§ 4, No. 2, Def. 1) on the inverse system of finite-dimensional quotients of $E$.*
 
 In other words, a promeasure $\mu$ on $E$ is a family $(\mu_V)_{V \in \mathscr{F}(E)}$, where $\mu_V$ is a bounded (positive) measure on the finite-dimensional space $E/V$, and where $\mu_V = p_{VW}(\mu_W)$ when $V \supset W$. All of the measures $\mu_V$ have the same total mass, which is called the *total mass* of the promeasure $\mu$.
 
-For a subspace $V$ of $E$ to belong to $\mathscr{F}(E)$, it is necessary and sufficient that there exist a finite number of elements $x'_1, \ldots, x'_n$ of $E'$ such that $V$ consists of the $x \in E$ satisfying $\langle x, x'_i \rangle = 0$ for $1 \leq i \leq n$ (TVS, II, \S 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Moreover, on a finite-dimensional vector space there exists one and only one Hausdorff topological vector space topology (TVS, I, \S 2, No. 3, Th. 2). Consequently, the concept of promeasure on $E$ depends only on the dual $E'$ of $E$.
+For a subspace $V$ of $E$ to belong to $\mathscr{F}(E)$, it is necessary and sufficient that there exist a finite number of elements $x'_1, \ldots, x'_n$ of $E'$ such that $V$ consists of the $x \in E$ satisfying $\langle x, x'_i \rangle = 0$ for $1 \leq i \leq n$ (TVS, II, § 6, No. 3, Cor. 2 of Th. 1 and No. 5, Cor. 2 of Prop. 7). Moreover, on a finite-dimensional vector space there exists one and only one Hausdorff topological vector space topology (TVS, I, § 2, No. 3, Th. 2). Consequently, the concept of promeasure on $E$ depends only on the dual $E'$ of $E$.
 
 Let $\lambda$ be a bounded measure on $E$. For every $V \in \mathscr{F}(E)$, let us denote by $\widetilde{\lambda}_V$ the image of $\lambda$ under the canonical mapping $p_V$ of $E$ onto $E/V$. One has $p_V = p_{VW} \circ p_W$ for any two elements $V$ and $W$ of $\mathscr{F}(E)$ such that $V \supset W$; consequently, the family $\widetilde{\lambda} = (\widetilde{\lambda}_V)_{V \in \mathscr{F}(E)}$ is a promeasure on $E$. We shall say that $\widetilde{\lambda}$ is the promeasure *associated* with the measure $\lambda$. One sees immediately that $\lambda$ and $\widetilde{\lambda}$ have the same total mass.
 
@@ -86,7 +86,7 @@ Let $\lambda$ be a bounded measure on $E$. For every $V \in \mathscr{F}(E)$, let
 
 For every $\varepsilon > 0$, there exists a compact subset $K$ of $E$ such that $\mu_V(E/V - p_V(K)) \leq \varepsilon$ for all $V \in \mathscr{F}(E)$.*
 
-One knows that the intersection of the kernels of the continuous linear forms on $E$ is equal to 0 (TVS, II, \S 4, No. 1, Cor. 1 of Prop. 2); consequently $\bigcap_{V \in \mathscr{F}(E)} V = \{0\}$ and the family $(p_V)_{V \in \mathscr{F}(E)}$ is coherent and separating. The proposition then follows from Th. 1 of \S 4, No. 2.
+One knows that the intersection of the kernels of the continuous linear forms on $E$ is equal to 0 (TVS, II, § 4, No. 1, Cor. 1 of Prop. 2); consequently $\bigcap_{V \in \mathscr{F}(E)} V = \{0\}$ and the family $(p_V)_{V \in \mathscr{F}(E)}$ is coherent and separating. The proposition then follows from Th. 1 of § 4, No. 2.
 
 In particular, the mapping $\lambda \mapsto \widetilde{\lambda}$ is injective. If $\mu$ is a promeasure on $E$, and if there exists a bounded measure $\lambda$ on $E$ such that $\mu = \widetilde{\lambda}$, we shall say, by an abuse of language, that $\mu$ is a measure. If $E$ is finite-dimensional, every promeasure $\mu = (\mu_V)_{V \in \mathscr{F}(E)}$ is a measure: for, $\{0\} \in \mathscr{F}(E)$, $E/\{0\} = E$ and $p_{V,\{0\}} = p_V$, whence $\mu_V = p_V(\mu_{\{0\}})$ for all $V \in \mathscr{F}(E)$; in other words, $\mu = \widetilde{\lambda}$ with $\lambda = \mu_{\{0\}}$.
 
@@ -103,7 +103,7 @@ For every $t \in T$, let $\varepsilon_t$ be the linear form $f \mapsto f(t)$ on 
 Let E and $E_1$ be two locally convex spaces, and $u$ a continuous linear mapping of E into $E_1$. For every $V_1 \in \mathcal{F}(E_1)$, the subspace $V = \overline{u}^{-1}(V_1)$ of E belongs to $\mathcal{F}(E)$, and $u$ defines, by passage to the quotients, a linear mapping $u_{V_1}$ of $E/V$ into $E_1/V_1$. Let $V_1$ and $W_1$ in $\mathcal{F}(E_1)$ be such that $V_1 \supset W_1$; set $V = \overline{u}^{-1}(V_1)$ and $W = \overline{u}^{-1}(W_1)$. We have $V \supset W$, and a commutative diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 E & \xrightarrow{pw} & E/W & \xrightarrow{pvw} & E/V \\
 \downarrow u & & \downarrow u_{W_1} & & \downarrow u_{V_1} \\
 E_1 & \xrightarrow{pw_1} & E_1/W_1 & \xrightarrow{pv_{1W_1}} & E_1/V_1
@@ -413,7 +413,7 @@ $$
 
 If these formulas are true for an element $x'$ of $E'$, then they are true for all of its multiples $t \cdot x'$ (with $t$ real). We may therefore content ourselves with establishing them when $Q(x')$ is equal to 0 or 1.
 
-$a)$ Suppose $Q(x') = 0$. The measure $x'(\mu)$ is equal to $\gamma_0 = \varepsilon_0$, therefore $x'$ is zero $\mu$-almost everywhere; the formulas (16) to (19) are then obvious.
+a) Suppose $Q(x') = 0$. The measure $x'(\mu)$ is equal to $\gamma_0 = \varepsilon_0$, therefore $x'$ is zero $\mu$-almost everywhere; the formulas (16) to (19) are then obvious.
 
 b) Suppose $Q(x') = 1$, whence $x'(\mu) = \gamma_1$. Then
 $$
@@ -1053,7 +1053,7 @@ $$
 < Q(x) + \varepsilon
 $$
 
-for all $x \in E$. Thus $b)$ is verified.
+for all $x \in E$. Thus b) is verified.
 
 Q.E.D.
 
@@ -1067,11 +1067,11 @@ With the identifications of $E_1$ and $E_2$ with their duals introduced in this 
 
 — *Let $Q$ be a nuclear positive quadratic form on the Hilbert space $E$. The Gaussian promeasure $\Gamma_Q$ on $E$ with variance $Q$ is a measure on $E_s$.*
 
-The Fourier transform $\Phi$ of $\Gamma_Q$ is equal to $e^{-Q/2}$. Now, $e^t \geq 1 + t$ for every real number $t$, whence $\Phi(0) - \Re \Phi \leq Q/2$. The condition $b)$ of Theorem 3 is therefore verified and $\Gamma_Q$ is a measure on $E_s$.
+The Fourier transform $\Phi$ of $\Gamma_Q$ is equal to $e^{-Q/2}$. Now, $e^t \geq 1 + t$ for every real number $t$, whence $\Phi(0) - \Re \Phi \leq Q/2$. The condition b) of Theorem 3 is therefore verified and $\Gamma_Q$ is a measure on $E_s$.
 
 #### Remark {#int-ix-s6-n11-rem-1 .statement}
 
-— 1) Let $E$ be a Hilbert space, $E_s$ the space $E$ equipped with the weak topology, and $j$ the identity mapping of $E$ into $E_s$. One knows that $j$ defines a bijection of the set of promeasures on $E$ onto the corresponding set for $E_s$. Moreover, if $E$ is separable, it is a Polish space and $j$ defines a bijection of the set of bounded measures on $E$ onto the set of bounded measures on $E_s$ (\S 3, No. 3, *Remark*); it can be shown (the theorem of Phillips) that this theorem still holds if $E$ is not separable. Consequently, Theorem 3 furnishes criteria for a promeasure on $E$ to be a measure.
+— 1) Let $E$ be a Hilbert space, $E_s$ the space $E$ equipped with the weak topology, and $j$ the identity mapping of $E$ into $E_s$. One knows that $j$ defines a bijection of the set of promeasures on $E$ onto the corresponding set for $E_s$. Moreover, if $E$ is separable, it is a Polish space and $j$ defines a bijection of the set of bounded measures on $E$ onto the set of bounded measures on $E_s$ (§ 3, No. 3, *Remark*); it can be shown (the theorem of Phillips) that this theorem still holds if $E$ is not separable. Consequently, Theorem 3 furnishes criteria for a promeasure on $E$ to be a measure.
 
 2) One can show (Annex, Exer. 7) that the Sazonov topology on a Hilbert space $E$ is defined by the semi-norms of the type $Q^{1/2}$ where $Q$ is a *nuclear* positive quadratic form on $E$.
 

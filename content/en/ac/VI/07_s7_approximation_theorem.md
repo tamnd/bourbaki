@@ -25,7 +25,7 @@ subsections:
       pdf_page: 433
 statements: 14
 exercises: 3
-content_sha256: 7673eea0ef2549a816bc303a9b3839cfe34adce44721f2c14622f5ca236005a2
+content_sha256: a818113ef87fdb588b60c8045863641963170d0c573c7e9237ce829f4055a323
 ---
 
 ## 7. THE APPROXIMATION THEOREM
@@ -55,7 +55,7 @@ $$
 
 Assuming this lemma for a moment, we show how it implies that $A_1 \subset B_{p_1}$. Let $x$ be a non-zero element of $A_i$. We apply the lemma to $x$ and valuations $v_i$ associated with the $\mathbf{A}_i$. Then $v_i(z) \geq 0$ and $v_i(zx) \geq 0$ for all $i$, hence $z \in B$ and $zx \in B$. As $v_1(x) \geq 0$, $v_1(z) = 0$ and hence $z \notin p_1$. Hence $x = zx/z \in B_{p_1}$. The field of fractions of $B$ then contains $A_1$ and hence is $K$.
 
-We now pass to the proof of the lemma. Let $I$ be the set of indices $i$ such that $v_i(x) \geq 0$. For all $i \in I$, let $\bar{x}_i$ denote the canonical image of $x$ in $\kappa(\mathbf{A}_i)$. For all $i \in I$ we construct a polynomialf, as follows: if there exists a polynomial $g(X)$ of the form (1) such that $g(\bar{x}_i) = 0$ in $\kappa(\mathbf{A}_i)$, we takef, to be such a polynomial; otherwise we take $f_i = 1$. Then we write $f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$. It is obviously a polynomial of the form (1). If $i \in I$, then $f(x) \in A_i$ and alsof $(\bar{x}_i) \neq 0$ by construction; hence $f(x) \notin m(\mathbf{A}_i)$, $v_i(f(x)) = 0$ and $v(z) = 0$. If $i \notin I$, then $v_i(x) < 0$, whence $v_i(f(x)) = kv_i(x)$ (\S 3, no. 1, Proposition 1) and
+We now pass to the proof of the lemma. Let $I$ be the set of indices $i$ such that $v_i(x) \geq 0$. For all $i \in I$, let $\bar{x}_i$ denote the canonical image of $x$ in $\kappa(\mathbf{A}_i)$. For all $i \in I$ we construct a polynomialf, as follows: if there exists a polynomial $g(X)$ of the form (1) such that $g(\bar{x}_i) = 0$ in $\kappa(\mathbf{A}_i)$, we takef, to be such a polynomial; otherwise we take $f_i = 1$. Then we write $f(X) = 1 + X^2 \prod_{i \in I} f_i(X)$. It is obviously a polynomial of the form (1). If $i \in I$, then $f(x) \in A_i$ and alsof $(\bar{x}_i) \neq 0$ by construction; hence $f(x) \notin m(\mathbf{A}_i)$, $v_i(f(x)) = 0$ and $v(z) = 0$. If $i \notin I$, then $v_i(x) < 0$, whence $v_i(f(x)) = kv_i(x)$ (§ 3, no. 1, Proposition 1) and
 
 $$
 v_i(x) + v_i(z) = (1 - k)v_i(x) > 0
@@ -67,7 +67,7 @@ $$
 
 With the hypotheses of Proposition 1 suppose further that $\mathbf{A}_i \not\subset \mathbf{A}_j$ for $i \neq j$. Then the $p_i$ are distinct maximal ideals of $B$ and every maximal ideal of $B$ is equal to one of the $p_i$.
 
-If $p_i \subset p_j$ for $i \neq j$, $\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$. It is then sufficient to apply Chapter II, \S 3, no. 5, Corollary to Proposition 17.
+If $p_i \subset p_j$ for $i \neq j$, $\mathbf{A}_i = B_{p_i} \supset B_{p_j} = \mathbf{A}_j$. It is then sufficient to apply Chapter II, § 3, no. 5, Corollary to Proposition 17.
 
 #### Corollary 1 {#ac-vi-s7-prop-2-cor-1 .statement}
 
@@ -130,7 +130,7 @@ whence $x^{2n} \in b$ and $x \in c$.
 
 *For every family of elements $\gamma_i \in \Gamma_i$ ($1 \leq i \leq n$), there exists $x \in K$ such that $v_i(x) = \gamma_i$ ($1 \leq i \leq n$).
 
-We may assume that $A_i \neq K$ for all $i$. Then, there exists for all $i$ an $a_i \in K$ such that $v_i(a_i) = \gamma_i$ and an $a_r \in \Gamma_r$ such that $\gamma_i < a_r$. We apply Theorem 1 to these elements $a_i$: there exists $x \in K$ such that $v_i(x - a_i) > v_i(a_i)$; whence, as $x = a_i + (x - a_i)$, $v_i(x) = v_i(a_i) = \gamma_i$ ($\S 3$, no. 1, Proposition 1).
+We may assume that $A_i \neq K$ for all $i$. Then, there exists for all $i$ an $a_i \in K$ such that $v_i(a_i) = \gamma_i$ and an $a_r \in \Gamma_r$ such that $\gamma_i < a_r$. We apply Theorem 1 to these elements $a_i$: there exists $x \in K$ such that $v_i(x - a_i) > v_i(a_i)$; whence, as $x = a_i + (x - a_i)$, $v_i(x) = v_i(a_i) = \gamma_i$ ($§ 3$, no. 1, Proposition 1).
 
 #### Corollary 2 {#ac-vi-s7-lem-2-cor-2 .statement}
 
@@ -142,17 +142,17 @@ We may assume that $A_i \neq K$ for all $i$. Then, there exists for all $i$ an $
 
 Suppose that the topologies $\mathcal{T}_v$ and $\mathcal{T}_{v'}$, defined by $v$ and $v'$, are identical. Since $\mathcal{T}_v$ is Hausdorff, the diagonal of $K^2$ is closed and hence $v$ and $v'$ are dependent (Corollary 2 to Theorem 1).
 
-Conversely, suppose that $v$ and $v'$ are dependent. Then their rings $A$ and $A'$ are contained in the same ring $A''$ distinct from $K$ and $A''$ is the ring of a valuation $v''$ ($\S 4$, no. 1, Proposition 1). It suffices to show that the topology $\mathcal{T}_{v''}$ is identical with $\mathcal{T}_v$. Let $\Gamma$ and $\Gamma''$ be the order groups of $v$ and $v''$. There exists an increasing homomorphism $\lambda$ of $\Gamma$ onto $\Gamma''$ such that $v'' = A \circ v$ ($\S 4$, no. 3). If $a'' \in I?''$, let $a \in \lambda^{-1}(a'')$; the condition $v(x) \geq \alpha$ implies $v''(x) \geq a''$. Let $\beta \in \Gamma$ and $\beta'' = \lambda(\beta)$; the condition $v(x) \leq \beta$ implies $v''(x) \leq \beta''$ and hence the condition $v''(x) > \beta''$ implies $v(x) > \beta$. As $v$ and $v''$ are not improper, the inequalities in question define fundamental systems of neighbourhoods of 0 for $\mathcal{T}_v$ and $\mathcal{T}_{v''}$. Hence $\mathcal{T}_v = \mathcal{T}_{v''}$, which completes the proof.
+Conversely, suppose that $v$ and $v'$ are dependent. Then their rings $A$ and $A'$ are contained in the same ring $A''$ distinct from $K$ and $A''$ is the ring of a valuation $v''$ ($§ 4$, no. 1, Proposition 1). It suffices to show that the topology $\mathcal{T}_{v''}$ is identical with $\mathcal{T}_v$. Let $\Gamma$ and $\Gamma''$ be the order groups of $v$ and $v''$. There exists an increasing homomorphism $\lambda$ of $\Gamma$ onto $\Gamma''$ such that $v'' = A \circ v$ ($§ 4$, no. 3). If $a'' \in I?''$, let $a \in \lambda^{-1}(a'')$; the condition $v(x) \geq \alpha$ implies $v''(x) \geq a''$. Let $\beta \in \Gamma$ and $\beta'' = \lambda(\beta)$; the condition $v(x) \leq \beta$ implies $v''(x) \leq \beta''$ and hence the condition $v''(x) > \beta''$ implies $v(x) > \beta$. As $v$ and $v''$ are not improper, the inequalities in question define fundamental systems of neighbourhoods of 0 for $\mathcal{T}_v$ and $\mathcal{T}_{v''}$. Hence $\mathcal{T}_v = \mathcal{T}_{v''}$, which completes the proof.
 
 Remarks
 (1) Proposition 3 shows that the relation '"$v$ and $v'$ are dependent"' is an equivalence relation.
-(2) Taking account of the relations between valuations of height 1 and ultrametric absolute values (\S 6, no. 2), Proposition 3 also follows, in the case of valuations of height 1, from the characterization of equivalent absolute values (General Topology, Chapter IX, \S 3, no. 2, Proposition 5).
+(2) Taking account of the relations between valuations of height 1 and ultrametric absolute values (§ 6, no. 2), Proposition 3 also follows, in the case of valuations of height 1, from the characterization of equivalent absolute values (General Topology, Chapter IX, § 3, no. 2, Proposition 5).
 
 #### Proposition 4 {#ac-vi-s7-prop-4 .statement}
 
 *Let $v_1, \ldots, v_n$ ($n \geq 2$) be pairwise dependent valuations on the same field $K$. Then the rings $A,, \ldots, A,$ of $v_1, \ldots, v,$ generate a subring $\delta \ K$ distinct from $K$.*
 
-For $n = 2$ Proposition 4 follows from Definition 1. Suppose it holds for $n - 1$ valuations. Then there exists a subring A of K distinct from K and containing $A,, \ldots, A,$; there also exists a subring B $\neq K$ containing A, _, and A_. As A and B contain A, _, they are comparable with respect to inclusion (\S 4, no. 1, Corollary to Proposition 1). The greater of these two therefore contains all the $A_i$.
+For $n = 2$ Proposition 4 follows from Definition 1. Suppose it holds for $n - 1$ valuations. Then there exists a subring A of K distinct from K and containing $A,, \ldots, A,$; there also exists a subring B $\neq K$ containing A, _, and A_. As A and B contain A, _, they are comparable with respect to inclusion (§ 4, no. 1, Corollary to Proposition 1). The greater of these two therefore contains all the $A_i$.
 
 ### 3. THE CASE OF ABSOLUTE VALUES
 

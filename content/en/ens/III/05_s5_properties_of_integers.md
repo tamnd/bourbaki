@@ -46,7 +46,7 @@ subsections:
       pdf_page: 185
 statements: 30
 exercises: 18
-content_sha256: 227995e3e40c42d7aac3c7fee7b0de8741d20ea57828a02e3dc9788ffdb8e502
+content_sha256: 21f4df17f9ad65567a7ae230b36d060577ae866fcfdd26e671761437b3221fce
 ---
 
 ## 5. PROPERTIES OF INTEGERS
@@ -131,9 +131,9 @@ Since $c_j$ and all the $b_i$ are $\neq 0$, the product $c_j . \prod_{i \in J} b
 
 #### Corollary 1 {#ens-iii-s5-prop-3-cor-1 .statement tag=03LW}
 
-*Let $a$, $a'$, and $b$ be integers such that $a < a'$ and $b > 0$. Then $a^b < a'^b$.*
+*Let $a$, $a'$, and $b$ be integers such that $a < a'$ and $b > 0$. Then $a^b < {a'}^b$.*
 
-We need only express $a^b$ and $a'^b$ as products of finite families of integers (§ 3, no. 5, Proposition 10) and apply Proposition 3, observing that the relation $a < a'$ implies $a' > 0$.
+We need only express $a^b$ and ${a'}^b$ as products of finite families of integers (§ 3, no. 5, Proposition 10) and apply Proposition 3, observing that the relation $a < a'$ implies $a' > 0$.
 
 #### Corollary 2 {#ens-iii-s5-prop-3-cor-2 .statement tag=03LX}
 

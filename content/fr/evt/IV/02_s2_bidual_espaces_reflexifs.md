@@ -33,7 +33,7 @@ subsections:
       pdf_page: 204
 statements: 31
 exercises: 21
-content_sha256: 1792de3b3eac570386dd901c16a5b1279b22a37c6267f5680bf00969504ab474
+content_sha256: a6f71770eb1f225069d87623e20c52bda11c78510530f61de6cdda8373fe2609
 ---
 
 ## § 2. BIDUAL. ESPACES RÉFLEXIFS
@@ -70,7 +70,7 @@ En effet, les parties équicontinues de $E''$ sont les parties contenues dans le
 
 #### Remarque {#evt-iv-s2-n1-rem-1 .statement}
 
-Soient E un espace localement convexe séparé, $E'$ son dual et $E''$ son bidual. On a $E \subset E'' \subset E'^*$, où $E'^*$ est le dual algébrique de $E'$. Si B est une partie bornée de E, son adhérence $\overline{B}$ dans $E'^*$ muni de $\sigma(E'^*, E')$ est contenue dans $E''$ : en effet, le polaire $U = B^\circ$ de B dans $E'$ est un voisinage de 0 dans $E'_b$, et l’on a
+Soient E un espace localement convexe séparé, $E'$ son dual et $E''$ son bidual. On a $E \subset E'' \subset {E'}^*$, où ${E'}^*$ est le dual algébrique de $E'$. Si B est une partie bornée de E, son adhérence $\overline{B}$ dans ${E'}^*$ muni de $\sigma({E'}^*, E')$ est contenue dans $E''$ : en effet, le polaire $U = B^\circ$ de B dans $E'$ est un voisinage de 0 dans $E'_b$, et l’on a
 $$
 \overline{B} \subset U^\circ \subset E''.
 $$
@@ -266,7 +266,7 @@ a) Aucun des ensembles $C_m$ n’est dénombrable.
 b) Pour tout $m \geq 0$, l’ensemble $\operatorname{pr}_k(C_m)$ est borné dans $F_k$ pour $0 \leq k \leq m$.
 c) On a $x_m \in C_m - C_{m+1}$ pour tout $m \geq 0$.
 
-On pose $C_0 = A$. Supposons définis les ensembles $C_m$ pour $0 \leq m \leq n$, satisfaisant à $a)$ et $b)$ pour $0 \leq m \leq n$, et les points $x_m$ de $C_m - C_{m+1}$ pour $0 \leq m < n$.
+On pose $C_0 = A$. Supposons définis les ensembles $C_m$ pour $0 \leq m \leq n$, satisfaisant à a) et b) pour $0 \leq m \leq n$, et les points $x_m$ de $C_m - C_{m+1}$ pour $0 \leq m < n$.
 Pour tout entier $r \geq 1$, soit $C_{n,r}$ l’ensemble des $x \in C_n$ tels que
 $$
 r - 1 \leq \| \operatorname{pr}_{n+1}(x) \| < r .

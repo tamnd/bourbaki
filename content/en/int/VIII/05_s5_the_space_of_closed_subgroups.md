@@ -37,7 +37,7 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: 09d2c118abf8c6df99cf173ca74772db4f4d2cb82538ea26cffac744572ce1a0
+content_sha256: 29c2899779ce442617d1f3f13a1923a0fdf371d15fbe391c66e2a84e16e4ed59
 ---
 
 ## § 5. THE SPACE OF CLOSED SUBGROUPS
@@ -70,7 +70,7 @@ For, if $\varphi \in \mathcal{K}_+(X)$ is a function with support contained in V
 
 Let E be a set filtered by a filter $\Phi$, and let $\xi \mapsto \alpha(\xi)$ be a mapping of E into $\Gamma$ that converges vaguely with respect to $\Phi$ to a measure $\alpha_0 \neq 0$. On the other hand, let $\xi \mapsto t_\xi$ be a mapping of $E$ into $G$ such that $t_\xi \in H_{\alpha(\xi)}$ for every $\xi \in E$. If $s$ is a cluster point of the mapping $\xi \mapsto t_\xi$ with respect to $\Phi$, then $\delta(s)\alpha_0 = \alpha_0$.
 
-Replacing if necessary $\Phi$ by a finer filter, we can suppose that $s$ is a limit of $\xi \mapsto t_\xi$ with respect to $\Phi$; by Lemma 1, $\delta(t_\xi)\alpha(\xi) = \alpha(\xi)$ for every $\xi \in E$, and the conclusion follows from the continuity of the mapping $(u, \lambda) \mapsto \delta(u)\lambda$ on $G \times \mathcal{M}_+(G)$ (\S 3, No. 3, Prop. 13).
+Replacing if necessary $\Phi$ by a finer filter, we can suppose that $s$ is a limit of $\xi \mapsto t_\xi$ with respect to $\Phi$; by Lemma 1, $\delta(t_\xi)\alpha(\xi) = \alpha(\xi)$ for every $\xi \in E$, and the conclusion follows from the continuity of the mapping $(u, \lambda) \mapsto \delta(u)\lambda$ on $G \times \mathcal{M}_+(G)$ (§ 3, No. 3, Prop. 13).
 
 To prove Prop. 1 it suffices, by Lemma 1, to show that if a filter $\Psi$ on $\Gamma$ converges vaguely to a measure $\alpha_0 \neq 0$ and if $s$ belongs to the support of $\alpha_0$, then $\delta(s)\alpha_0 = \alpha_0$. Now, for every neighborhood $V$ of $s$ in $G$, there exists an $M \in \Psi$ such that, for every $\alpha \in M$, one has $V \cap H_\alpha \neq \varnothing$, by Lemma 2. For every neighborhood $V$ of $s$ and every $\alpha \in \Gamma$, let $t_{V,\alpha}$ be a point of $V \cap H_\alpha$ if $V \cap H_\alpha \neq \varnothing$, and any point of $H_\alpha$ in the contrary case; if $\Theta$ is the section filter of the filter of neighborhoods of $s$, and $\Phi$ is the product filter $\Theta \times \Psi$, then $s$ is, by the foregoing, a cluster point of $(V, \alpha) \mapsto t_{V,\alpha}$ with respect to $\Phi$. Since, on the other hand, the mapping $(V, \alpha) \mapsto \alpha$ has $\alpha_0$ as limit with respect to $\Phi$, the proposition follows from Lemma 3.
 
@@ -118,7 +118,7 @@ $$
 f_\alpha(\dot{x}) = \int_{H_\alpha} f(xs) d\alpha(s) = (f * \alpha)(x) ,
 $$
 
-where the convolution product is taken relative to the right Haar measure $\mu$ and where one makes use of the fact that $\dot{\alpha} = \alpha$ (\S 4, No. 4, formula (11)). We know (Ch. VII, §2, No. 1, Prop. 2) that the mapping $f \mapsto f_\alpha$ of $\mathcal{K}_+(G)$ into $\mathcal{K}_+(Q_\alpha)$ is *surjective*; therefore, by (2),
+where the convolution product is taken relative to the right Haar measure $\mu$ and where one makes use of the fact that $\dot{\alpha} = \alpha$ (§ 4, No. 4, formula (11)). We know (Ch. VII, §2, No. 1, Prop. 2) that the mapping $f \mapsto f_\alpha$ of $\mathcal{K}_+(G)$ into $\mathcal{K}_+(Q_\alpha)$ is *surjective*; therefore, by (2),
 
 $$
 \| \mu_\alpha \| = \sup_{f \in \mathcal{K}_+(G), f \neq 0} \mu_\alpha(f_\alpha) / \| f_\alpha \| = \sup_{f \in \mathcal{K}_+(G), f \neq 0} \mu(f) / \| f_\alpha \|,
@@ -136,7 +136,7 @@ $$
 \|f_\alpha\| = \sup_{x \in K} |(f * \alpha)(x)| .
 $$
 
-The conclusion therefore follows from the fact that the mapping $\alpha \mapsto f * \alpha$ of $\mathcal{M}_+(G)$ equipped with the vague topology, into $\mathcal{C}(G)$ equipped with the topology of compact convergence, is continuous (\S 4, No. 2, Remark 1).
+The conclusion therefore follows from the fact that the mapping $\alpha \mapsto f * \alpha$ of $\mathcal{M}_+(G)$ equipped with the vague topology, into $\mathcal{C}(G)$ equipped with the topology of compact convergence, is continuous (§ 4, No. 2, Remark 1).
 
 Recall that if, for a measure $\alpha \in \Gamma^0$, $\|\mu_\alpha\|$ is finite, then G is necessarily unimodular (Ch. VII, §2, No. 6, Cor. 3 of Th. 3).
 
@@ -165,7 +165,7 @@ $$
 \end{array} \right.
 $$
 
-Since $\beta \mapsto f * \beta$ is a continuous mapping of $\mathcal{M}_+(G)$, equipped with the vague topology, into $\mathcal{C}(G)$ equipped with the topology of compact convergence (\S 4, No. 2, Remark 1), one sees that for every $\varepsilon > 0$, the set $U_\varepsilon$ of $\beta \in \Gamma^0(G)$ such that
+Since $\beta \mapsto f * \beta$ is a continuous mapping of $\mathcal{M}_+(G)$, equipped with the vague topology, into $\mathcal{C}(G)$ equipped with the topology of compact convergence (§ 4, No. 2, Remark 1), one sees that for every $\varepsilon > 0$, the set $U_\varepsilon$ of $\beta \in \Gamma^0(G)$ such that
 $$
 f_\beta(\dot{x}) = \int_G f(xs)\, d\beta(s) > 1 - \varepsilon \quad \text{for all } x \in K
 $$
@@ -239,7 +239,7 @@ $$
 \Gamma^0(g) \subset \Gamma_c^0.
 $$
 
-For, if K is the support of $g$, the relation $\int g(xs)\, d\alpha(s) \geq 1$ for all $x \in G$ implies $KH_\alpha = G$, the integral obviously being zero on the complement of $KH_\alpha$, therefore $G/H_\alpha = \pi_\alpha(K)$ is compact. Given a measure $\alpha \in \Gamma_c^0$, it will therefore suffice to define a function $g \in \mathcal{K}_+(G)$ such that $\Gamma^0(g)$ is a neighborhood of $\alpha$ in $\Gamma^0$. Since $G/H_\alpha$ is compact and the canonical mapping $f \mapsto f_\alpha$ of $\mathcal{K}_+(G)$ into $\mathcal{K}_+(G/H_\alpha)$ is surjective (Ch. VII, §2, No. 2), there exists a function $g \in \mathcal{K}_+(G)$ such that $\int g(xs)\, d\alpha(s) = 2$ for *every* $x \in G$. Let K be the (compact) support of $g$, L a symmetric compact neighborhood of e in G that generates G; the mapping $\beta \mapsto g * \beta$ of $\mathcal{M}_+(G)$ into $\mathcal{C}(G)$ being vaguely continuous (\S4, No. 2, *Remark* 1), there exists a neighborhood W of $\alpha$ in $\Gamma^0$ such that
+For, if K is the support of $g$, the relation $\int g(xs)\, d\alpha(s) \geq 1$ for all $x \in G$ implies $KH_\alpha = G$, the integral obviously being zero on the complement of $KH_\alpha$, therefore $G/H_\alpha = \pi_\alpha(K)$ is compact. Given a measure $\alpha \in \Gamma_c^0$, it will therefore suffice to define a function $g \in \mathcal{K}_+(G)$ such that $\Gamma^0(g)$ is a neighborhood of $\alpha$ in $\Gamma^0$. Since $G/H_\alpha$ is compact and the canonical mapping $f \mapsto f_\alpha$ of $\mathcal{K}_+(G)$ into $\mathcal{K}_+(G/H_\alpha)$ is surjective (Ch. VII, §2, No. 2), there exists a function $g \in \mathcal{K}_+(G)$ such that $\int g(xs)\, d\alpha(s) = 2$ for *every* $x \in G$. Let K be the (compact) support of $g$, L a symmetric compact neighborhood of e in G that generates G; the mapping $\beta \mapsto g * \beta$ of $\mathcal{M}_+(G)$ into $\mathcal{C}(G)$ being vaguely continuous (§ 4, No. 2, *Remark* 1), there exists a neighborhood W of $\alpha$ in $\Gamma^0$ such that
 
 $$
 (g * \beta)(x) = \int g(xs)\, d\beta(s) \geq 1

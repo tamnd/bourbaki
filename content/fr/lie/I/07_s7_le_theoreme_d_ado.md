@@ -24,7 +24,7 @@ subsections:
       pdf_page: 97
 statements: 5
 exercises: 3
-content_sha256: 827bce9edeec96d98a9e5c8567cf36d35f3e431ced02c5bc6080def5e8a7c2bb
+content_sha256: 9cb4ad4aa60aa4680b54877f60cc8f78bcfa9d67c3ddd0033d2ce268e2060b55
 ---
 
 ## § 7. Le théorème d’Ado
@@ -55,13 +55,13 @@ $$
 
 3) $x \in \mathfrak{h}, y \in \mathfrak{h}$: alors, $[x, y]_{U'}$ et $[x_{U'}, y_{U'}]$ sont deux dérivations de $U'$ dont les restrictions à $g'$ coïncident avec celles de $\operatorname{ad}_g [x, y]$ et $[\operatorname{ad}_g x, \operatorname{ad}_g y]$; donc ces dérivations sont égales.
 
-Nous considérerons aussi la représentation duale $x \mapsto -{}^t x_{U'}$ de $g$ dans $U'^*$. Pour $x \in g'$, $-{}^t x_{U'}$ est la transposée de la multiplication à droite par $x$ dans $U'$; la représentation correspondante de $U'$ est donc la représentation corégulière de $U'$.
+Nous considérerons aussi la représentation duale $x \mapsto -{}^t x_{U'}$ de $g$ dans ${U'}^*$. Pour $x \in g'$, $-{}^t x_{U'}$ est la transposée de la multiplication à droite par $x$ dans $U'$; la représentation correspondante de $U'$ est donc la représentation corégulière de $U'$.
 
 #### Définition 1 {#lie-i-s7-def-1 .statement}
 
 Soient $g$ une algèbre de Lie, $g'$ une sous-algèbre de $g$, et $\rho'$ une représentation de $g'$ dans $V'$. Une représentation $\varphi$ de $g$ dans $V$ est appelée un agrandissement de $\rho'$ à $g$ s’il existe un homomorphisme injectif du $g'$-module $V'$ dans le $g'$-module $V$. On dit aussi que le $g$-module $V$ est un agrandissement du $g'$-module $V'$.
 
-Si $\rho'$ est de dimension finie, et si $g'$ est un idéal résoluble de $g$, il est nécessaire, pour l’existence d’un agrandissement de dimension finie, que $[g, g']$ soit contenu dans le plus grand idéal de nilpotence de $\rho'$ (\S 5, no 3, th. 1).
+Si $\rho'$ est de dimension finie, et si $g'$ est un idéal résoluble de $g$, il est nécessaire, pour l’existence d’un agrandissement de dimension finie, que $[g, g']$ soit contenu dans le plus grand idéal de nilpotence de $\rho'$ (§ 5, no 3, th. 1).
 
 #### Théorème 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement}
 
@@ -71,28 +71,28 @@ a) Il existe un agrandissement de dimension finie $\varphi$ de $\rho'$ à $g$ do
 
 b) Si, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $\operatorname{ad}_g x$ est nilpotente, on peut choisir $\varphi$ de façon qu’en outre le plus grand idéal de nilpotence de $\varphi$ contienne $\mathfrak{h}$.
 
-Soit $U'$ l’algèbre enveloppante de $g'$. On supposera $U'$ et $U'^*$ munis des structures de $g$-modules définies au début de ce no.
+Soit $U'$ l’algèbre enveloppante de $g'$. On supposera $U'$ et ${U'}^*$ munis des structures de $g$-modules définies au début de ce no.
 
 U'*
-Soit $I \subset U'$ le noyau de $\rho'$ (identifiée à une représentation de $U'$). C’est un idéal bilatère de codimension finie de $U'$. Le sous-espace $C(\rho')$ de $U'^*$ (cf. no 1) est orthogonal à $I$. Soit $S$ le sous-g-module de $U'^*$ engendré par $C(\rho')$.
+Soit $I \subset U'$ le noyau de $\rho'$ (identifiée à une représentation de $U'$). C’est un idéal bilatère de codimension finie de $U'$. Le sous-espace $C(\rho')$ de ${U'}^*$ (cf. no 1) est orthogonal à $I$. Soit $S$ le sous-g-module de ${U'}^*$ engendré par $C(\rho')$.
 
 Nous allons montrer que $S$ est de dimension finie sur $K$. Soient $V'$ l’espace où opère $\rho'$, et $V' = V'_0 \supset V'_1 \supset \cdots \supset V'_d = \{0\}$ une suite de Jordan-Hölder du $g'$-module $V'$. Soit $\rho'_i$ la représentation de $g'$ dans $V'_{i-1}/V'_i$ déduite de $\rho'$ ($1 \leq i \leq d$). Soit $I' \subset U'$ l’intersection des noyaux des $\rho'_i$ (identifiées à des représentations de $U'$). On a
 
 $$
-I'^d \subset I \subset I'
+{I'}^d \subset I \subset I'
 $$
 
-et $I' \cap g'$ est le plus grand idéal de nilpotence de $\rho'$. D’après le § 2, no 6, cor. de la prop. 6, $I'^d$ est de codimension finie dans $U'$. Si $x \in \mathfrak{h}$, la dérivation $u \to xu - ux$ de $U'$ applique $g'$ dans $[\mathfrak{h}, g'] \subset I'$, donc $U'$ dans $I'$, donc $I'^d$ dans $I'^d$. Par ailleurs, il est clair que $I'^d$ est un sous-$g'$-module de $U'$. Donc $I'^d$ est un sous-g-module de $U'$. L’orthogonal de $I'^d$ dans $U'^*$ est un sous-g-module de dimension finie qui contient $C(\rho')$, donc $S$. Ceci montre bien que $S$ est de dimension finie sur $K$. Pour $x \in I' \cap g'$, $x^d$ est évidemment contenu dans l’annulateur du $g$-module $U'/I'^d$, donc aussi dans l’annulateur du $g$-module $S$.
+et $I' \cap g'$ est le plus grand idéal de nilpotence de $\rho'$. D’après le § 2, no 6, cor. de la prop. 6, ${I'}^d$ est de codimension finie dans $U'$. Si $x \in \mathfrak{h}$, la dérivation $u \to xu - ux$ de $U'$ applique $g'$ dans $[\mathfrak{h}, g'] \subset I'$, donc $U'$ dans $I'$, donc ${I'}^d$ dans ${I'}^d$. Par ailleurs, il est clair que ${I'}^d$ est un sous-$g'$-module de $U'$. Donc ${I'}^d$ est un sous-g-module de $U'$. L’orthogonal de ${I'}^d$ dans ${U'}^*$ est un sous-g-module de dimension finie qui contient $C(\rho')$, donc $S$. Ceci montre bien que $S$ est de dimension finie sur $K$. Pour $x \in I' \cap g'$, $x^d$ est évidemment contenu dans l’annulateur du $g$-module $U'/{I'}^d$, donc aussi dans l’annulateur du $g$-module $S$.
 
-On a vu au no 1 que le $g'$-module $V'$ est isomorphe à un sous-$g'$-module d’un produit $(C(\rho'))^n$. Donc le $g$-module $S^n$ fournit un agrandissement de dimension finie $\rho$ de $\rho'$ à $g$. En outre, $\rho(x)$ est nilpotent pour $x \in I' \cap g'$; comme $I' \cap g'$ est un idéal de $g$ (car il contient $[\mathfrak{h}, g']$ par hypothèse), on voit que $I' \cap g'$ est contenu dans le plus grand idéal de nilpotence de $\rho$. On a ainsi prouvé $a)$.
+On a vu au no 1 que le $g'$-module $V'$ est isomorphe à un sous-$g'$-module d’un produit $(C(\rho'))^n$. Donc le $g$-module $S^n$ fournit un agrandissement de dimension finie $\rho$ de $\rho'$ à $g$. En outre, $\rho(x)$ est nilpotent pour $x \in I' \cap g'$; comme $I' \cap g'$ est un idéal de $g$ (car il contient $[\mathfrak{h}, g']$ par hypothèse), on voit que $I' \cap g'$ est contenu dans le plus grand idéal de nilpotence de $\rho$. On a ainsi prouvé a).
 
-Supposons enfin que, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $\mathrm{ad}_g x$ soit nilpotente. Comme les éléments de $\mathfrak{h}$ opèrent dans $U'$ par des dérivations, il existe, pour tout $u \in U'$ et tout $x \in \mathfrak{h}$, un entier $e$ tel que $(x_{v'})^e \cdot u = 0$; les endomorphismes déduits de $x_{v'}$ dans $U'/I'^d$ et dans $S$ (qui sont des espaces de dimension finie) sont donc nilpotents. Ainsi, $\rho(x)$ est nilpotent pour tout $x \in \mathfrak{h}$. On a vu plus haut qu’il en est de même pour $x \in I' \cap g'$. Comme $I' \cap g'$ est un idéal de $g'$ contenant $[h, g']$, la somme $h + (I' \cap g')$ est aussi un idéal de $g$. L’assertion $b)$ du th. 1 résulte donc du lemme suivant :
+Supposons enfin que, pour tout $x \in \mathfrak{h}$, la restriction à $g'$ de $\mathrm{ad}_g x$ soit nilpotente. Comme les éléments de $\mathfrak{h}$ opèrent dans $U'$ par des dérivations, il existe, pour tout $u \in U'$ et tout $x \in \mathfrak{h}$, un entier $e$ tel que $(x_{v'})^e \cdot u = 0$; les endomorphismes déduits de $x_{v'}$ dans $U'/{I'}^d$ et dans $S$ (qui sont des espaces de dimension finie) sont donc nilpotents. Ainsi, $\rho(x)$ est nilpotent pour tout $x \in \mathfrak{h}$. On a vu plus haut qu’il en est de même pour $x \in I' \cap g'$. Comme $I' \cap g'$ est un idéal de $g'$ contenant $[h, g']$, la somme $h + (I' \cap g')$ est aussi un idéal de $g$. L’assertion b) du th. 1 résulte donc du lemme suivant :
 
 #### Lemme 1 {#lie-i-s7-lem-1 .statement}
 
 Soit $g = g' + h$ une algèbre de Lie somme d’un idéal $g'$ et d’une sous-algèbre $h$. Soit $\sigma$ une représentation de dimension finie de $g$. On suppose que $\sigma(x)$ est nilpotent pour tout $x \in g'$ et tout $x \in h$. Alors, $\sigma(x)$ est nilpotent pour tout $x \in g$.
 
-Passant au quotient par le noyau de $\sigma$, on peut supposer $\sigma$ fidèle. Alors, $g'$ et $h$ sont nilpotentes, donc $g$, qui est une extension d’un quotient de $h$ par $g'$, est résoluble. Alors, $h$ et $g'$ sont contenus dans le plus grand idéal de nilpotence de $\sigma$ ($\S 5$, no 3, cor. 6 du th. 1).
+Passant au quotient par le noyau de $\sigma$, on peut supposer $\sigma$ fidèle. Alors, $g'$ et $h$ sont nilpotentes, donc $g$, qui est une extension d’un quotient de $h$ par $g'$, est résoluble. Alors, $h$ et $g'$ sont contenus dans le plus grand idéal de nilpotence de $\sigma$ ($§ 5$, no 3, cor. 6 du th. 1).
 
 Pour une amélioration du th. 1, cf. exerc. 4.
 
@@ -102,11 +102,11 @@ Pour une amélioration du th. 1, cf. exerc. 4.
 
 Soient $g$ une algèbre de Lie, $n$ son plus grand idéal nilpotent, $a$ un idéal nilpotent de $g$, et $\rho$ une représentation de dimension finie de $a$ telle que tout élément de $\rho(a)$ soit nilpotent. Alors, $\rho$ admet un agrandissement de dimension finie $\sigma$ à $g$, tel que tout élément de $\sigma(n)$ soit nilpotent.
 
-Soit $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ une suite de sous-algèbres de $n$, telles que $n_{i-1}$ soit un idéal de codimension 1 de $n_i$ pour $1 \leq i \leq p$ ($\S 4$, no 1, prop. 1 e)). L’algèbre $n_i$ est donc somme directe de $n_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $\mathrm{ad}_n x$ est nilpotent pour tout $x \in n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ de $\rho$ à $n_1, n_2, \ldots, n_p = n$, tels que tout élément de $\rho'(n)$ soit nilpotent.
+Soit $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ une suite de sous-algèbres de $n$, telles que $n_{i-1}$ soit un idéal de codimension 1 de $n_i$ pour $1 \leq i \leq p$ ($§ 4$, no 1, prop. 1 e)). L’algèbre $n_i$ est donc somme directe de $n_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $\mathrm{ad}_n x$ est nilpotent pour tout $x \in n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ de $\rho$ à $n_1, n_2, \ldots, n_p = n$, tels que tout élément de $\rho'(n)$ soit nilpotent.
 
-Soit $r$ le radical de $g$, et soit $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ une suite de sous-algèbres de $r$, telle que $r_{i-1}$ soit un idéal de codimension 1 de $r_i$, pour $1 \leq i \leq q$ ($\S 5$, no 1, prop. 2d)). L’algèbre $r_i$ est donc somme directe de $r_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $[r, r] \subset n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ de $\rho'$ à $r_1, r_2, \ldots, r_q = r$, tels que tout élément de $\rho''(n)$ soit nilpotent.
+Soit $r$ le radical de $g$, et soit $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ une suite de sous-algèbres de $r$, telle que $r_{i-1}$ soit un idéal de codimension 1 de $r_i$, pour $1 \leq i \leq q$ ($§ 5$, no 1, prop. 2d)). L’algèbre $r_i$ est donc somme directe de $r_{i-1}$ et d’une sous-algèbre de dimension 1. Comme $[r, r] \subset n$, on peut (th. 1) trouver de proche en proche des agrandissements de dimension finie $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ de $\rho'$ à $r_1, r_2, \ldots, r_q = r$, tels que tout élément de $\rho''(n)$ soit nilpotent.
 
-Enfin, $g$ est somme directe de $r$ et d’une sous-algèbre $s$ ($\S 6$, n° 8, th. 5). Comme $[s, r] \subset n$, on peut (th. 1) trouver un agrandissement de dimension finie $\sigma$ de $\rho''$ à $g$ tel que tout élément de $\sigma(n)$ soit nilpotent.
+Enfin, $g$ est somme directe de $r$ et d’une sous-algèbre $s$ ($§ 6$, n° 8, th. 5). Comme $[s, r] \subset n$, on peut (th. 1) trouver un agrandissement de dimension finie $\sigma$ de $\rho''$ à $g$ tel que tout élément de $\sigma(n)$ soit nilpotent.
 
 #### Théorème 2 {#lie-i-s7-thm-2 .statement}
 

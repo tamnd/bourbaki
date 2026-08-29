@@ -58,7 +58,7 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: bb424b0fb2ae9f504120455a04488e0309edc0e44d61041d427cf30a9a80ec43
+content_sha256: 4d2ea6b2e3fe8136b4cbf004a6c050629d9e8414a0cc6650ceb165d4728343b0
 ---
 
 ## § 10. GALOIS EXTENSIONS
@@ -239,13 +239,13 @@ b) If $\Gamma$ is finite, then $\varphi$ is bijective and $V_0$ is a K-structure
 
 It is clear that $V_0$ is a vector sub-K-space of $V$.
 
-The formula $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ shows that the kernel $W$ of $\varphi$ is stable under the mappings $\sigma \otimes \mathrm{Id}_{V_0}$; by the Cor. to Prop. 6 there exists therefore a subspace $W_0$ of $V_0$ such that $W = N \otimes_K W_0$. If $x$ belongs to $W_0$ we then have $x = \varphi(1 \otimes x) = 0$, hence $W_0 = 0$ and so $W = 0$. This proves $a)$.
+The formula $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ shows that the kernel $W$ of $\varphi$ is stable under the mappings $\sigma \otimes \mathrm{Id}_{V_0}$; by the Cor. to Prop. 6 there exists therefore a subspace $W_0$ of $V_0$ such that $W = N \otimes_K W_0$. If $x$ belongs to $W_0$ we then have $x = \varphi(1 \otimes x) = 0$, hence $W_0 = 0$ and so $W = 0$. This proves a).
 
 Suppose now that $\Gamma$ is finite; we have to show that $\varphi$ is surjective, or equivalently that $V_0$ generates the vector N-space $V$. Thus let $f$ be an N-linear form on $V$ whose restriction to $V_0$ is zero. Let $x \in V$; for every $A \in N$ the element $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ of $V$ clearly belongs to $V_0$, whence $f(y,) = 0$, that is,
 $$
 \sum_{\sigma \in \Gamma} f(u_\sigma(x)) \sigma(A) = 0.
 $$
-By Dedekind's theorem (V, p. 27, Cor. 2) we thus have $f(u_\sigma(x)) = 0$ for each $\sigma \in \Gamma$; in particular, taking $\sigma = \varepsilon$ we find $f(x) = 0$, which means that $f = 0$. This proves $b)$.
+By Dedekind's theorem (V, p. 27, Cor. 2) we thus have $f(u_\sigma(x)) = 0$ for each $\sigma \in \Gamma$; in particular, taking $\sigma = \varepsilon$ we find $f(x) = 0$, which means that $f = 0$. This proves b).
 
 Let $M$ be a vector space over $N$; for each $\sigma \in \Gamma$ let $M^\sigma$ be the vector space over $N$ with the same underlying additive group as $M$, with the external law $(A, x) \mapsto \sigma(\lambda) x$. Write $V = \prod_{\sigma \in \Gamma} M^\sigma$; the underlying additive group of $V$ is that of all mappings of $\Gamma$ into $M$, with the external law defined by
 $$
@@ -563,7 +563,7 @@ Suppose henceforth that $N$ is of finite degree over $K$. Given $x \in N$, for $
 
 *Let $N$ be a Galois extension of finite degree over $K$ and let $\Gamma$ be the Galois group of $N$ over $K$. Then there exists a normal basis of $N$ over $K$; in other words, the $\mathbf{K}^{(\Gamma)}$-module $N$ is free of rank 1.*
 
-We shall give two proofs of this statement. The first uses the following lemma which will be proved in Chapter VIII (\$2, No. 5).
+We shall give two proofs of this statement. The first uses the following lemma which will be proved in Chapter VIII (§ 2, No. 5).
 
 \* Lemma 3. — Let $A$ be a $K$-algebra, $M_1$ and $M_2$ two $A$-modules of finite rank over $K$ and suppose that there exists an extension $L$ of $K$ such that the modules $L \otimes_K M_1$ and $L \otimes_K M_2$ over the ring $L \otimes_K A$ are isomorphic. Then the $A$-modules $M_1$ and $M_2$ are isomorphic.
 

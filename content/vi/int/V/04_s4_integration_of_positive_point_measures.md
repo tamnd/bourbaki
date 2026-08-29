@@ -29,9 +29,9 @@ subsections:
       pdf_page: 292
 statements: 10
 exercises: 2
-content_sha256: 2c1f3a7d57f5da998602372720b05286b9174dea9d8209c81f7fcf2e7188538f
+content_sha256: 4ee53feccd3bd1c6b2b33713a994e7e740942e223aa765da3c696f4791178f66
 translated_from: content/en/int/V/04_s4_integration_of_positive_point_measures.md
-source_content_sha256: 430049d52ece7ec09ca13d7fcfbee0ced4d0c7ea802338d6a358ebe95493a050
+source_content_sha256: 3c0c4299b63b198ba8be5789099b080c2d5176490f2fda987ee1745f2a1fbb81
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-596d3df3
 glossary_version: 34
@@ -67,7 +67,7 @@ Ta sẽ sử dụng bổ đề sau:
 
 ### 2. Tích phân trên của các hàm dương đối với một tích phân của các độ đo điểm
 
-Ta sẽ thấy rằng, khi $(\pi, g)$ là một cặp thích nghi với $\mu$, ta có thể cải thiện các kết quả thu được bằng cách áp dụng các mệnh đề của $\S 3$ cho họ $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)},$ họ này là thích hợp với $\mu$ theo Mệnh đề 1.
+Ta sẽ thấy rằng, khi $(\pi, g)$ là một cặp thích nghi với $\mu$, ta có thể cải thiện các kết quả thu được bằng cách áp dụng các mệnh đề của $§ 3$ cho họ $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)},$ họ này là thích hợp với $\mu$ theo Mệnh đề 1.
 
 #### Định lý 1 {#int-v-s4-thm-1 .statement}
 
@@ -80,7 +80,7 @@ $$
 \int^\bullet f(x)\, d\nu(x) = \int^\bullet f(\pi(t))g(t)\, d\mu(t).
 $$
 
-A) Trước hết giả sử độ đo $\mu$ có giá compact K và các hạn chế của các hàm $g$ và $\pi$ trên K đều liên tục. Theo công thức (4) của $\S 3$, No. 1, $\nu^\bullet(1) = \int_K g(t)\, d\mu(t) < +\infty,$ nên mọi độ đo xuất hiện trong công thức (1) đều bị chặn. Vì vậy ta có thể thay $\int^\bullet$ bằng $\int^*$ ở vế thứ nhất. Xét công thức (6) của $\S 3$, No. 2, thì rút cục chỉ còn phải chứng minh rằng (2)
+A) Trước hết giả sử độ đo $\mu$ có giá compact K và các hạn chế của các hàm $g$ và $\pi$ trên K đều liên tục. Theo công thức (4) của $§ 3$, No. 1, $\nu^\bullet(1) = \int_K g(t)\, d\mu(t) < +\infty,$ nên mọi độ đo xuất hiện trong công thức (1) đều bị chặn. Vì vậy ta có thể thay $\int^\bullet$ bằng $\int^*$ ở vế thứ nhất. Xét công thức (6) của $§ 3$, No. 2, thì rút cục chỉ còn phải chứng minh rằng (2)
 $$
 \int^* f(x)\, d\nu(x) \leq \int^\bullet f(\pi(t))g(t)\, d\mu(t),
 $$

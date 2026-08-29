@@ -32,7 +32,7 @@ subsections:
       pdf_page: 113
 statements: 23
 exercises: 9
-content_sha256: c8bd5fb7727d00a1eab2f91c4ed58d38a7965e87fc9549cbe65a04dff9e13861
+content_sha256: dc99b479928c32a69fd6e1c262b395e354abb4f587cbc9331f9e9057ecc7f522
 ---
 
 ## § 5. Invariants dans l’algèbre symétrique
@@ -143,9 +143,9 @@ Pour toute algèbre graduée $A = A_0 \oplus A_1 \oplus \ldots \oplus A_n \oplus
 
 *Soient $K$ un corps commutatif, $V$ un espace vectoriel de dimension finie sur $K$, $S = S(V)$ l’algèbre symétrique de $V$, $G$ un groupe fini d’automorphismes de $V$, et $R$ la sous-algèbre graduée de $S$ formée des éléments invariants par $G$. On suppose que $G$ est engendré par des pseudo-réflexions ($§ 2,$ no 1 ), et que $q = \mathrm{Card}(G)$ est étranger à l’exposant caractéristique de $K$. Alors le $R$-module $S$ admet une base formée de $q$ éléments homogènes.*
 
-$a)$ Comme chaque sous-module de $S/(R_+ S)$ est libre sur $R_0 = K$, il suffit de montrer (en vertu d’*Alg.*, chap. II, 3e éd., § 11, no 4, prop. 7) que l’homomorphisme canonique de $R_+ \otimes_R S$ dans $S$ est injectif. Pour tout $R$-module $E$, notons $T(E)$ le $R$-module $\mathrm{Ker}(R_+ \otimes_R E \to E)$ (*autrement dit $T(E) = \mathrm{Tor}_1^R(R/R_+, E)_*$). Si $E, E'$ sont deux $R$-modules et si $u$ est un homomorphisme de $E$ dans $E'$, l’homomorphisme $1 \otimes u$ de $R_+ \otimes E$ dans $R_+ \otimes E'$ définit par restriction à $T(E)$ un homomorphisme de $T(E)$ dans $T(E')$ que nous noterons $T(u)$. Si $u'$ est un homomorphisme de $E'$ dans un $R$-module $E''$, on a $T(u' \circ u) = T(u') \circ T(u)$. Donc, si $G$ opère sur $E$ de façon $R$-linéaire, $G$ opère dans $T(E)$.
+a) Comme chaque sous-module de $S/(R_+ S)$ est libre sur $R_0 = K$, il suffit de montrer (en vertu d’*Alg.*, chap. II, 3e éd., § 11, no 4, prop. 7) que l’homomorphisme canonique de $R_+ \otimes_R S$ dans $S$ est injectif. Pour tout $R$-module $E$, notons $T(E)$ le $R$-module $\mathrm{Ker}(R_+ \otimes_R E \to E)$ (*autrement dit $T(E) = \mathrm{Tor}_1^R(R/R_+, E)_*$). Si $E, E'$ sont deux $R$-modules et si $u$ est un homomorphisme de $E$ dans $E'$, l’homomorphisme $1 \otimes u$ de $R_+ \otimes E$ dans $R_+ \otimes E'$ définit par restriction à $T(E)$ un homomorphisme de $T(E)$ dans $T(E')$ que nous noterons $T(u)$. Si $u'$ est un homomorphisme de $E'$ dans un $R$-module $E''$, on a $T(u' \circ u) = T(u') \circ T(u)$. Donc, si $G$ opère sur $E$ de façon $R$-linéaire, $G$ opère dans $T(E)$.
 
-$b)$ Le groupe $G$ opère dans $S$ de façon $R$-linéaire, donc aussi dans $T(S)$. Par ailleurs, $T(S)$ est muni de manière naturelle d’une structure de $S$-module gradué. Montrons d’abord que, si $g \in G$, $g$ transforme tout élément $x$ de $T(S)$ est un élément congru à $x$ modulo $S_1 T(S)$. Il suffit de le faire quand $g$ est une pseudo-réflexion. Il existe alors un vecteur non nul $v$ de $V$ tel que $g(x) - x \in K v$ pour tout $x \in V$. Comme $V$ engendre $S$, on en déduit que $g_S$ opère trivialement sur $S/Sv$. Donc, pour tout $y \in S$, il existe un élément $h(y)$ de $S$ tel que
+b) Le groupe $G$ opère dans $S$ de façon $R$-linéaire, donc aussi dans $T(S)$. Par ailleurs, $T(S)$ est muni de manière naturelle d’une structure de $S$-module gradué. Montrons d’abord que, si $g \in G$, $g$ transforme tout élément $x$ de $T(S)$ est un élément congru à $x$ modulo $S_1 T(S)$. Il suffit de le faire quand $g$ est une pseudo-réflexion. Il existe alors un vecteur non nul $v$ de $V$ tel que $g(x) - x \in K v$ pour tout $x \in V$. Comme $V$ engendre $S$, on en déduit que $g_S$ opère trivialement sur $S/Sv$. Donc, pour tout $y \in S$, il existe un élément $h(y)$ de $S$ tel que
 
 $$
 g_S(y) - y = h(y)v.
@@ -159,7 +159,7 @@ $$
 
 dont l’image est contenue dans $vT(S)$, ce qui prouve notre assertion.
 
-$c)$ Montrons maintenant que tout élément de $T(S)$ invariant par $G$ est nul. En effet, soit $Q$ l’endomorphisme du $R$-module $S$ défini par
+c) Montrons maintenant que tout élément de $T(S)$ invariant par $G$ est nul. En effet, soit $Q$ l’endomorphisme du $R$-module $S$ défini par
 
 $$
 Q(y) = q^{-1} \sum_{g \in G} g_S(y)
@@ -173,7 +173,7 @@ $$
 
 Or $q^{-1} \sum_{g \in G} T(g_S)$ laisse fixes les éléments de $T(S)$ invariants par $G$. Ceux-ci sont donc nuls.
 
-$d)$ Supposons $T(S) \neq 0$. Il existe dans $T(S)$ un élément homogène $u \neq 0$ de degré minimum. D’après $b)$, $u$ est invariant par $G$. D’après $c)$, $u = 0$. On a ainsi une contradiction, d’où $T(S) = 0$. C.Q.F.D.
+d) Supposons $T(S) \neq 0$. Il existe dans $T(S)$ un élément homogène $u \neq 0$ de degré minimum. D’après b), $u$ est invariant par $G$. D’après c), $u = 0$. On a ainsi une contradiction, d’où $T(S) = 0$. C.Q.F.D.
 
 #### Remarque 1 {#lie-v-s5-n2-rem-1 .statement}
 
@@ -432,16 +432,16 @@ g(J)(\det g)dX_1 \wedge \ldots \wedge dX_l = g(J)d(gX_1) \wedge \ldots \wedge d(
 $$
 donc $J$ est anti-invariant par $G$. En outre, le corps des fractions $N$ de $S$ est extension galoisienne du corps des fractions $E$ de $R$ (n° 2); si $\Delta$ est une dérivation de $E$ à valeurs dans un surcorps $\Omega$ de $N$, $\Delta$ se prolonge en une dérivation de $N$ dans $\Omega$ (*Alg.*, chap. V, § 9, prop. 5); comme les $P_i$ sont algébriquement indépendants, on en déduit que $dP_1 \wedge \ldots \wedge dP_l \neq 0$, donc $J \neq 0$.
 
-$b)$ Soit $z$ un élément de $S$ anti-invariant par $G$. Montrons que $z$ est divisible par $D$ dans $S$. Soit $a$ un vecteur non nul de $V$. Les éléments de $G$ qui laissent stable $Ka$ laissent stable un hyperplan supplémentaire $L$ (Annexe, prop. 2); pour qu’un élément de $G$ laissant stable $Ka$ soit 1 ou une pseudo-réflexion de vecteur $a$, il faut et il suffit qu’il induise 1 dans $L$; les pseudo-réflexions de vecteur $a$ qui appartiennent à $G$ constituent donc avec 1 un sous-groupe cyclique $G'$ de $G$; soit $t$ son ordre. Il existe une base $(X_1, \ldots, X_l)$ de $V$ telle que $a = X_1, X_2 \in L, \ldots, X_l \in L$, et on peut identifier $z$ à un polynôme $P(X_1, \ldots, X_l)$ à coefficients dans $K$. Exprimant que $g(z) = (\det g)^{-1}z$ pour $g \in G'$, on voit que $X_1$ n’intervient dans $P(X_1, \ldots, X_l)$ qu’avec des exposants congrus à — 1 modulo $t$. Donc $P(X_1, \ldots, X_l)$ est divisible par $X_1^{t-1} = a^{t-1}$. Or $D$ est, à un facteur scalaire près, le produit des $a^{t-1}$ pour les $a \in V$ tels que $t > 1$, et ces éléments de $S$ sont étrangers deux à deux. Comme $S$ est factoriel, $z$ est divisible par $D$.
+b) Soit $z$ un élément de $S$ anti-invariant par $G$. Montrons que $z$ est divisible par $D$ dans $S$. Soit $a$ un vecteur non nul de $V$. Les éléments de $G$ qui laissent stable $Ka$ laissent stable un hyperplan supplémentaire $L$ (Annexe, prop. 2); pour qu’un élément de $G$ laissant stable $Ka$ soit 1 ou une pseudo-réflexion de vecteur $a$, il faut et il suffit qu’il induise 1 dans $L$; les pseudo-réflexions de vecteur $a$ qui appartiennent à $G$ constituent donc avec 1 un sous-groupe cyclique $G'$ de $G$; soit $t$ son ordre. Il existe une base $(X_1, \ldots, X_l)$ de $V$ telle que $a = X_1, X_2 \in L, \ldots, X_l \in L$, et on peut identifier $z$ à un polynôme $P(X_1, \ldots, X_l)$ à coefficients dans $K$. Exprimant que $g(z) = (\det g)^{-1}z$ pour $g \in G'$, on voit que $X_1$ n’intervient dans $P(X_1, \ldots, X_l)$ qu’avec des exposants congrus à — 1 modulo $t$. Donc $P(X_1, \ldots, X_l)$ est divisible par $X_1^{t-1} = a^{t-1}$. Or $D$ est, à un facteur scalaire près, le produit des $a^{t-1}$ pour les $a \in V$ tels que $t > 1$, et ces éléments de $S$ sont étrangers deux à deux. Comme $S$ est factoriel, $z$ est divisible par $D$.
 
-$c)$ D’après $a)$ et $b)$, $J$ est divisible par $D$ dans $S$. Or
+c) D’après a) et b), $J$ est divisible par $D$ dans $S$. Or
 $$
 \deg J = \sum_{i=1}^l (k_i - 1) = \mathrm{Card}\,(H)
 $$
 
 (prop. 3), donc $\deg J = \deg D$, donc $J = \lambda D$ avec $\lambda \in K$. Comme $J \neq 0$, on a $\lambda \in K^*$. On a ainsi prouvé (ii).
 
-$d)$ Les parties $a)$ et $c)$ de la démonstration prouvent que $D$ est anti-invariant par $G$. Alors, si $y \in R$, il est clair que $yD$ est anti-invariant par $G$. Enfin, si $z \in S$ est anti-invariant par $G$, on a vu en $b)$ qu’il existe $y \in S$ tel que $z = yD$. Comme $S$ est intègre, on a $y \in R$. Ceci achève de prouver (i).
+d) Les parties a) et c) de la démonstration prouvent que $D$ est anti-invariant par $G$. Alors, si $y \in R$, il est clair que $yD$ est anti-invariant par $G$. Enfin, si $z \in S$ est anti-invariant par $G$, on a vu en b) qu’il existe $y \in S$ tel que $z = yD$. Comme $S$ est intègre, on a $y \in R$. Ceci achève de prouver (i).
 
 ### \*5. Compléments (*)
 

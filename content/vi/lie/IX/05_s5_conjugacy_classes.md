@@ -29,9 +29,9 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: 582fbb045468492b0d5d36a3c37a7781d9fdffbb3b7007e6b9039ecef20fab70
+content_sha256: c7b456f1bdc883a294652b92b5aac36bdf6cbf26d9e5edae61ca81ad69d3af5e
 translated_from: content/en/lie/IX/05_s5_conjugacy_classes.md
-source_content_sha256: 5ccf5c9edd26e6c041542a3b7f3699151765c58b6cb7db2c78180e723a3f0822
+source_content_sha256: 67b7c3bf0335e1b8bfbe872472e7bd56c7dbf0d52741cf029286e2edabbf3e06
 translation_model: gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-21aa148a
 glossary_version: 34
@@ -47,7 +47,7 @@ Ta giữ các ký hiệu của §4.
 
 Theo Hệ quả 4 của Định lý 2 của §2, no. 2, các phần tử chính quy $g$ của G có thể được đặc trưng bởi một trong hai tính chất sau:
 
-$a)$ Đại số con của $\mathfrak{g}$ được Ad $g$ cố định là một đại số con Cartan.
+a) Đại số con của $\mathfrak{g}$ được Ad $g$ cố định là một đại số con Cartan.
 
 $b) Z(g)_0$ là một xuyến cực đại của G.
 
@@ -99,7 +99,7 @@ c) Cho C là một buồng và A là một ô. Khi đó $\overline{C}$ (tương 
 
 d) Với mỗi buồng C, tồn tại duy nhất một ô A sao cho $A\subset C$ và$\gamma \in \frac{0}{A}.\in \overline{A}$. Với mỗi ô A, tồn tại duy nhất $\gamma \in N(G,T)$ sao cho
 
-Nếu $w\in W$ và $\gamma \in \Gamma$(T), thì $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ và $wt_{\gamma}w^{-1}t^{-1}_{\gamma}=t_{w(\gamma)-\gamma}$, với $w(\gamma )-\gamma \in N(G,T)$; điều này ngay lập tức suy ra $a)$. Phần còn lại của mệnh đề suy ra từ Chương VI, §1, no. 5 và §2, các số 1 và 2.
+Nếu $w\in W$ và $\gamma \in \Gamma$(T), thì $wt_{\gamma}w^{-1}=t_{w(\gamma)}$ và $wt_{\gamma}w^{-1}t^{-1}_{\gamma}=t_{w(\gamma)-\gamma}$, với $w(\gamma )-\gamma \in N(G,T)$; điều này ngay lập tức suy ra a). Phần còn lại của mệnh đề suy ra từ Chương VI, §1, no. 5 và §2, các số 1 và 2.
 
 #### Hệ quả 1 {#lie-ix-s5-prop-2-cor-1 .statement tag=01DY}
 
@@ -113,9 +113,9 @@ $\overline{A}/H_A\rightarrow T/W\rightarrow G/$Int(G)
 
 $A/H_A\rightarrow T_r/W\rightarrow G_r/$Int(G).
 
-Cho $w'\in W'_a$; khi đó $w'(A)$ là một ô của $\mathfrak{t}$, và tồn tại (Mệnh đề $2b$)$)$ một phần tử duy nhất $w$ của $W_a$ sao cho $w(A) =w'$(A), tức là $w^{-1}w'\in H_A$. Vì $W_a$ là chuẩn tắc trong $W'_a$, nên điều này chứng minh $a)$.
+Cho $w'\in W'_a$; khi đó $w'(A)$ là một ô của $\mathfrak{t}$, và tồn tại (Mệnh đề $2b$)$)$ một phần tử duy nhất $w$ của $W_a$ sao cho $w(A) =w'$(A), tức là $w^{-1}w'\in H_A$. Vì $W_a$ là chuẩn tắc trong $W'_a$, nên điều này chứng minh a).
 
-Đơn ánh chính tắc của $\overline{A}$ vào $\mathfrak{t}$ cảm sinh một song ánh liên tục $\theta :\overline{A}\rightarrow$ $\mathfrak{t}/W_a$ (Mệnh đề $2c$)$)$, và đây là một đồng phôi vì A là compact. Vì $W_a$ là nhóm con chuẩn trong $W'_a$, nhóm $H_A$ tác động một cách chính tắc trên $\mathfrak{t}/W_a($Đại số, Chương I, §5, no. 4) và $\mathfrak{t}/W'_a$ có thể được đồng nhất với thương $(\mathfrak{t}/W_a)/H_A$; ánh xạ $\theta$ tương thích với các tác động của $H_A$, nên cảm sinh, qua thương, một đồng phôi $A/H_A\rightarrow \mathfrak{t}/W'_a$. Hơn nữa, exp$_{\Gamma}$ cảm sinh một đồng phôi từ $\mathfrak{t}/\Gamma (T)$ đến T, nên cũng cảm sinh một đồng phôi từ $\mathfrak{t}/W'_a$ đến $T/W$. Khẳng định $b)$ suy ra từ đó và Hệ quả 1 của Mệnh đề 5 của §2, no. 4.
+Đơn ánh chính tắc của $\overline{A}$ vào $\mathfrak{t}$ cảm sinh một song ánh liên tục $\theta :\overline{A}\rightarrow$ $\mathfrak{t}/W_a$ (Mệnh đề $2c$)$)$, và đây là một đồng phôi vì A là compact. Vì $W_a$ là nhóm con chuẩn trong $W'_a$, nhóm $H_A$ tác động một cách chính tắc trên $\mathfrak{t}/W_a($Đại số, Chương I, §5, no. 4) và $\mathfrak{t}/W'_a$ có thể được đồng nhất với thương $(\mathfrak{t}/W_a)/H_A$; ánh xạ $\theta$ tương thích với các tác động của $H_A$, nên cảm sinh, qua thương, một đồng phôi $A/H_A\rightarrow \mathfrak{t}/W'_a$. Hơn nữa, exp$_{\Gamma}$ cảm sinh một đồng phôi từ $\mathfrak{t}/\Gamma (T)$ đến T, nên cũng cảm sinh một đồng phôi từ $\mathfrak{t}/W'_a$ đến $T/W$. Khẳng định b) suy ra từ đó và Hệ quả 1 của Mệnh đề 5 của §2, no. 4.
 
 #### Nhận xét 1 {#lie-ix-s5-n2-rem-1 .statement tag=01DZ}
 
@@ -163,7 +163,7 @@ a) H là một nhóm con đóng của G.
 
 b) Nếu $H_0$ là trung tâm trong G, thì G là giao hoán (vì vậy G = T).
 
-Khẳng định $a)$ là rõ ràng. Để chứng minh $b)$, ta có thể thay thế G bởi D(G) (§1, Hệ quả 1 của Mệnh đề 4), và do đó có thể giả sử rằng G là nửa đơn. Khi đó, nếu $H_0$ là trung tâm trong G, ta có $L(H) =\{0\}$, nên tự đồng cấu $L(u)-$Id của $\mathfrak{g}$ là song ánh. Gọi $f$ là ánh xạ của đa tạp G được xác định bởi $f(g) =u(g)^{-1}g$ với $g\in G$; nó là étale, vì nếu $g\in G$ và $x\in \mathfrak{g}$, ta có $T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$, do đó ánh xạ tiếp xúc của $f$ tại $g$ là song ánh. Suy ra ảnh của $f$ là mở và compact, vì vậy trùng với G vì G liên thông. Bây giờ cho E là một khung của G (§4, no. 10, Định nghĩa 3) và $u(E)$ là ảnh của nó qua $u$. Theo Mệnh đề 19 của tài liệu đã dẫn, tồn tại một phần tử $h$ của G sao cho (Int $h$)$(E) =u(E)$. Gọi $g\in G$ là phần tử sao cho $h=f(g) =u(g)^{-1}g$; khi đó
+Khẳng định a) là rõ ràng. Để chứng minh b), ta có thể thay thế G bởi D(G) (§1, Hệ quả 1 của Mệnh đề 4), và do đó có thể giả sử rằng G là nửa đơn. Khi đó, nếu $H_0$ là trung tâm trong G, ta có $L(H) =\{0\}$, nên tự đồng cấu $L(u)-$Id của $\mathfrak{g}$ là song ánh. Gọi $f$ là ánh xạ của đa tạp G được xác định bởi $f(g) =u(g)^{-1}g$ với $g\in G$; nó là étale, vì nếu $g\in G$ và $x\in \mathfrak{g}$, ta có $T(f)(xg) =u(g)^{-1}(x-L(u)(x))g$, do đó ánh xạ tiếp xúc của $f$ tại $g$ là song ánh. Suy ra ảnh của $f$ là mở và compact, vì vậy trùng với G vì G liên thông. Bây giờ cho E là một khung của G (§4, no. 10, Định nghĩa 3) và $u(E)$ là ảnh của nó qua $u$. Theo Mệnh đề 19 của tài liệu đã dẫn, tồn tại một phần tử $h$ của G sao cho (Int $h$)$(E) =u(E)$. Gọi $g\in G$ là phần tử sao cho $h=f(g) =u(g)^{-1}g$; khi đó
 
 $u\circ$ Int $g=$ (Int $u(g)$)$\circ u=$ Int $g\circ$ (Int $h$)$^{-1}\circ u$,
 
@@ -195,7 +195,7 @@ $$
 S\subset V_0\subset K\cap H\subset Z(S)\cap Z(x)\cap H
 $$
 
-suy ra $V_0$ được chứa trong bộ trung tâm hóa của S trong $(Z(x)\cap H)_0$; nhưng bộ sau trùng với S (loc. cit., Hệ quả 6), do đó cuối cùng $V_0= S$. Bổ đề 1 suy ra ngay K giao hoán, vì vậy là một xuyến cực đại của G (vì nó liên thông và có hạng cực đại). Nó chứa S và x, và bằng thành phần liên thông đơn vị của $Z(S)\cap Z(x)$; mệnh đề $a)$ theo đó suy ra từ Bổ đề 2. Suy ra $b)$ bằng cách lấy $g=x$ exp $a$.
+suy ra $V_0$ được chứa trong bộ trung tâm hóa của S trong $(Z(x)\cap H)_0$; nhưng bộ sau trùng với S (loc. cit., Hệ quả 6), do đó cuối cùng $V_0= S$. Bổ đề 1 suy ra ngay K giao hoán, vì vậy là một xuyến cực đại của G (vì nó liên thông và có hạng cực đại). Nó chứa S và x, và bằng thành phần liên thông đơn vị của $Z(S)\cap Z(x)$; mệnh đề a) theo đó suy ra từ Bổ đề 2. Suy ra b) bằng cách lấy $g=x$ exp $a$.
 
 #### Hệ quả {#lie-ix-s5-n3-cor-1 .statement tag=01E9}
 
@@ -213,9 +213,9 @@ b) Tồn tại một xuyến cực đại K của G và một buồng của L(K)
 
 c) Nếu G là đơn liên, tập các điểm bất động của $u$ liên thông.
 
-Mệnh đề a) là trường hợp riêng $x=e$ của Mđề. 3. Giờ ta giả sử rằng G là đơn liên và chứng minh b) và c). Cho $x$ là một phần tử của G được $u$ cố định, và cho $g$ là một phần tử chính quy của G, được $u$ cố định và giao hoán với $x$ (Mđề. 3). Bộ trung tâm của $g$ là một xuyến cực đại của G (mục 2, Nhận xét 2), ổn định dưới $u$, và chứa $x$ và $g$. Theo Hệ quả 3 của Mđề. 2 của mục 2, tồn tại một alcove duy nhất A của L(K) sao cho $g\in$ exp A và $0\in A$; vì $g$ được cố định bởi $u, L(u)$ để lại A, và do đó cũng để lại buồng của L(K) chứa A, ổn định. Điều này chứng minh b); hơn nữa, tập hợp các điểm của K được $u$ cố định là liên thông (Bổ đề 3) và chứa $x$ và $e$, suy ra c) ($Tôpô học Đại cương, Ch. I, §11, mục 1, Mđề. 2).
+Mệnh đề a) là trường hợp riêng $x=e$ của Mđề. 3. Giờ ta giả sử rằng G là đơn liên và chứng minh b) và c). Cho $x$ là một phần tử của G được $u$ cố định, và cho $g$ là một phần tử chính quy của G, được $u$ cố định và giao hoán với $x$ (Mđề. 3). Bộ trung tâm của $g$ là một xuyến cực đại của G (mục 2, Nhận xét 2), ổn định dưới $u$, và chứa $x$ và $g$. Theo Hệ quả 3 của Mđề. 2 của mục 2, tồn tại một alcove duy nhất A của L(K) sao cho $g\in$ exp A và $0\in A$; vì $g$ được cố định bởi $u, L(u)$ để lại A, và do đó cũng để lại buồng của L(K) chứa A, ổn định. Điều này chứng minh b); hơn nữa, tập hợp các điểm của K được $u$ cố định là liên thông (Bổ đề 3) và chứa $x$ và $e$, suy ra c) (Tôpô học Đại cương, Ch. I, §11, mục 1, Mđề. 2).
 
-Còn phải chứng minh $b)$ trong trường hợp tổng quát. Bây giờ, nếu $\widetilde{D}(G)$ là bao phủ phổ quát của D(G), và nếu $f: \widetilde{D}(G)\rightarrow G$ là cấu xạ chính tắc, thì tồn tại một tự đẳng cấu $\widetilde{u}$ của $\widetilde{D}(G)$ sao cho $f\circ \widetilde{u}=u\circ f$. Nếu $\widetilde{K}$ là một xuyến cực đại của $\widetilde{D}(G)$ và $\widetilde{C}$ một buồng của $L( \widetilde{K})$, ổn định dưới $\widetilde{u}$ (điều này tồn tại theo những gì đã được chứng minh), thì tồn tại (§2, mục 3, Nhận xét 2) một xuyến cực đại duy nhất K của G và một buồng duy nhất C của L(K) sao cho $\widetilde{K} =f^{-1}(K)$ và $\widetilde{C} = L(f)^{-1}$(C), và ta thấy ngay rằng K và C ổn định dưới $u$, do đó mệnh đề $b)$ trong trường hợp tổng quát.
+Còn phải chứng minh b) trong trường hợp tổng quát. Bây giờ, nếu $\widetilde{D}(G)$ là bao phủ phổ quát của D(G), và nếu $f: \widetilde{D}(G)\rightarrow G$ là cấu xạ chính tắc, thì tồn tại một tự đẳng cấu $\widetilde{u}$ của $\widetilde{D}(G)$ sao cho $f\circ \widetilde{u}=u\circ f$. Nếu $\widetilde{K}$ là một xuyến cực đại của $\widetilde{D}(G)$ và $\widetilde{C}$ một buồng của $L( \widetilde{K})$, ổn định dưới $\widetilde{u}$ (điều này tồn tại theo những gì đã được chứng minh), thì tồn tại (§2, mục 3, Nhận xét 2) một xuyến cực đại duy nhất K của G và một buồng duy nhất C của L(K) sao cho $\widetilde{K} =f^{-1}(K)$ và $\widetilde{C} = L(f)^{-1}$(C), và ta thấy ngay rằng K và C ổn định dưới $u$, do đó mệnh đề b) trong trường hợp tổng quát.
 
 #### Hệ quả 1 {#lie-ix-s5-thm-1-cor-1 .statement tag=01EB}
 
@@ -225,7 +225,7 @@ a) Bộ trung tâm của mọi phần tử của G là liên thông.
 
 b) Bất kỳ hai phần tử giao hoán của G đều thuộc cùng một xuyến cực đại.
 
-Theo Hệ quả 3 của Mđề. 11 của §4, mục 6, D(G) là đơn liên. Ta có $G = C(G)_0.D(G)$; lấy $x\in G$; viết $x=uv$, với $u\in C(G)_0$ và $v\in D(G)$. Khi đó $Z(x) = C(G)_0.Z_{D(G)}(v)$. Theo ĐL. $1c), Z_{D(G)}(v)$ liên thông, nên $Z(x)$ liên thông, do đó $a)$. Vậy, theo Hệ quả 3 của ĐL. 2 của §2, mục $2, Z(x)$ là hợp của các xuyến cực đại của G chứa $x$, do đó $b)$.
+Theo Hệ quả 3 của Mđề. 11 của §4, mục 6, D(G) là đơn liên. Ta có $G = C(G)_0.D(G)$; lấy $x\in G$; viết $x=uv$, với $u\in C(G)_0$ và $v\in D(G)$. Khi đó $Z(x) = C(G)_0.Z_{D(G)}(v)$. Theo ĐL. $1c), Z_{D(G)}(v)$ liên thông, nên $Z(x)$ liên thông, do đó a). Vậy, theo Hệ quả 3 của ĐL. 2 của §2, mục $2, Z(x)$ là hợp của các xuyến cực đại của G chứa $x$, do đó b).
 
 #### Hệ quả 2 {#lie-ix-s5-thm-1-cor-2 .statement tag=01EC}
 
@@ -339,7 +339,7 @@ a) Cho $g\in G, t\in T, x\in \mathfrak{t}$, và cho $\overline{g}$ là ảnh c�
 
 b) Ánh xạ $f_r$ (resp. $\varphi_r$, resp. $\varphi_A$) làm cho $(G/T)\times T_r$ (resp. $(G/T)\times \mathfrak{t}_r$, resp. $(G/T)\times A$) thành một phủ chính của $G_r$ với nhóm W (resp. $W'_a$, resp. $H_A$).
 
-$a)$ Sự tương đương giữa (i) và (i bis) là rõ ràng; sự tương đương giữa (ii) và (ii bis) suy ra từ các quan hệ dim((G$/T$)$\times T$) $=$ dim((G$/T$)$\times \mathfrak{t}$) $=$ dim(G). Theo Bổ đề 4, $f$ là một submersion tại điểm $(\overline{g}, t)$ khi và chỉ khi $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id), điều này có nghĩa là $t$ là chính quy. Cuối cùng, vì $\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T$)$,\varphi$ là étale tại điểm $(\overline{g}, x)$ khi và chỉ khi $f$ là étale tại điểm $(\overline{g}$, exp $x$), mà theo điều trên thì điều đó có nghĩa là $x$ thuộc $\mathfrak{t}_r$.
+a) Sự tương đương giữa (i) và (i bis) là rõ ràng; sự tương đương giữa (ii) và (ii bis) suy ra từ các quan hệ dim((G$/T$)$\times T$) $=$ dim((G$/T$)$\times \mathfrak{t}$) $=$ dim(G). Theo Bổ đề 4, $f$ là một submersion tại điểm $(\overline{g}, t)$ khi và chỉ khi $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id), điều này có nghĩa là $t$ là chính quy. Cuối cùng, vì $\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T$)$,\varphi$ là étale tại điểm $(\overline{g}, x)$ khi và chỉ khi $f$ là étale tại điểm $(\overline{g}$, exp $x$), mà theo điều trên thì điều đó có nghĩa là $x$ thuộc $\mathfrak{t}_r$.
 
 b) Vì thế các morphism $f_r, \varphi_r, \varphi_A$ đều là étale. Mặt khác, W tác động tự do trên $G/T$, và a fortiori trên $(G/T)\times T$. Giả sử $g, g'$ trong G và $t, t'$ trong $T_r$ sao cho $f(\overline{g}, t) =f(\overline{g}', t')$; khi đó Int $g^{-1}g'$ ánh xạ $t'$ thành $t$, và do đó chuẩn hóa T, vì $T = Z(t)_0= Z(t')_0$, và lớp $w$ của $g^{-1}g'$ trong W ánh xạ $(\overline{g}, t)$ thành $(\overline{g}', t')$. Suy ra rằng $f_r$ là một phủ chính với nhóm W; điều này ngay lập tức suy ra rằng $\varphi_r$ là một phủ chính với nhóm $W'_a$, và do đó bởi hạn chế lên thành phần liên thông $(G/T)\times A$ của $(G/T)\times \mathfrak{t}_r$, rằng $\varphi_A$ là một phủ chính với nhóm $H_A$.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 160d9c32a593ae0e84dcbc7a401963428f6758eb7ce0601b9dfaf2c7ddeb7626
+content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
 ---
 
 ## § 5. MEASURES ON COMPLETELY REGULAR SPACES
@@ -131,9 +131,9 @@ Necessity is obvious. To establish sufficiency, let us take up again the proof o
 
 The measure $\theta$ is then unique.*
 
-Uniqueness follows from Prop. 2 of No. 1. Let us show that the condition (M) is necessary. Let $\theta$ be a bounded complex measure; let K be a compact set such that $|\theta|^*(T - K) \leq \varepsilon$ (\S 1, No. 2, *Remark 3*). The hypotheses $|g| \leq 1, g_K = 0$ imply $|g| \leq \varphi_{\mathbf{C}_K}$, therefore $|\theta(g)| \leq |\theta|^*(\varphi_{\mathbf{C}_K}) \leq \varepsilon$.
+Uniqueness follows from Prop. 2 of No. 1. Let us show that the condition (M) is necessary. Let $\theta$ be a bounded complex measure; let K be a compact set such that $|\theta|^*(T - K) \leq \varepsilon$ (§ 1, No. 2, *Remark 3*). The hypotheses $|g| \leq 1, g_K = 0$ imply $|g| \leq \varphi_{\mathbf{C}_K}$, therefore $|\theta(g)| \leq |\theta|^*(\varphi_{\mathbf{C}_K}) \leq \varepsilon$.
 
-Let us pass to the proof of sufficiency. Let X be the Stone–Čech compactification of T (GT, IX, \S 1, Exer. 7; or TG, IX, \S 1, No. 6). For every function $f \in \mathcal{C}(X; \mathbf{C})$, set $\nu(f) = I(f_T)$; we define in this way a continuous linear form on $\mathcal{C}(X; \mathbf{C})$, that is, a complex measure on the compact space X. Let $\varepsilon$ be a number $> 0$, K a compact set satisfying (M); the function $\varphi_{\mathbf{C}_K}$ being lower semi-continuous and positive on X, the formula (2) gives us the following relations, where $\mathcal{G}$ denotes the set of functions $g \in \mathcal{C}(X; \mathbf{C})$ such that $|g| \leq \varphi_{\mathbf{C}_K}$:
+Let us pass to the proof of sufficiency. Let X be the Stone–Čech compactification of T (GT, IX, § 1, Exer. 7; or TG, IX, § 1, No. 6). For every function $f \in \mathcal{C}(X; \mathbf{C})$, set $\nu(f) = I(f_T)$; we define in this way a continuous linear form on $\mathcal{C}(X; \mathbf{C})$, that is, a complex measure on the compact space X. Let $\varepsilon$ be a number $> 0$, K a compact set satisfying (M); the function $\varphi_{\mathbf{C}_K}$ being lower semi-continuous and positive on X, the formula (2) gives us the following relations, where $\mathcal{G}$ denotes the set of functions $g \in \mathcal{C}(X; \mathbf{C})$ such that $|g| \leq \varphi_{\mathbf{C}_K}$:
 
 $$
 |\nu|^*(X - K) = \sup_{g \in \mathcal{G}} |\nu(g)| = \sup_{g \in \mathcal{G}} |I(g_T)| \leq \varepsilon.
@@ -168,7 +168,7 @@ $$
 
 If $T$ is locally compact, the tight topology is finer than the topology induced on $\mathcal{M}^b(T)$ by the vague topology, and these two topologies coincide only when $T$ is compact. For, if $T$ is not compact, the mapping $t \mapsto \varepsilon_t$ converges vaguely to 0 with respect to the filter of complements of relatively compact subsets of $T$, but does not converge tightly to 0, because the function 1 belongs to $\mathcal{C}^b(T)$ (for the relations between vague convergence and tight convergence, see Prop. 9).
 
-(1) This relation was only established above (\S 2, No. 1, Prop. 1) in the case that $f$ and $\nu$ are positive. The extension to the present situation, where $f$ and $\nu$ are complex and bounded, is immediate by linearity.
+(1) This relation was only established above (§ 2, No. 1, Prop. 1) in the case that $f$ and $\nu$ are positive. The extension to the present situation, where $f$ and $\nu$ are complex and bounded, is immediate by linearity.
 
 #### Remark 2 {#int-ix-s5-n3-rem-2 .statement}
 
@@ -387,7 +387,7 @@ a) The function $F_\mu$ is continuous and bounded for every bounded measure $\mu
 
 b) Suppose that $T$ is locally compact. The mapping $\mu \mapsto F_\mu$ of $\mathcal{M}_+^b(T)$ into $C^b(X; \mathbf{C})$ is then continuous, if $\mathcal{M}_+^b(T)$ is equipped with the tight topology, and $C^b(X; \mathbf{C})$ with the topology of compact convergence.
 
-For every $x \in X$, denote by $f_x$ the continuous and bounded function $t \mapsto f(t, x)$ on $T$; the mapping $x \mapsto f_x$ of $X$ into $C^b(T; \mathbf{C})$ has bounded image, and it is continuous if $C^b(T; \mathbf{C})$ is equipped with the topology of compact convergence (GT, X, §3, No. 4, Th. 3). Since $F_\mu(x) = \mu(f_x)$, the function $F_\mu$ is continuous by Prop. 12. Suppose $T$ is locally compact; Prop. 13 shows that the mapping $(\mu, x) \mapsto F_\mu(x)$ of $\mathcal{M}_+^b(T) \times X$ into $\mathbf{C}$ is continuous; the assertion $b)$ follows from this (*loc. cit.*).
+For every $x \in X$, denote by $f_x$ the continuous and bounded function $t \mapsto f(t, x)$ on $T$; the mapping $x \mapsto f_x$ of $X$ into $C^b(T; \mathbf{C})$ has bounded image, and it is continuous if $C^b(T; \mathbf{C})$ is equipped with the topology of compact convergence (GT, X, §3, No. 4, Th. 3). Since $F_\mu(x) = \mu(f_x)$, the function $F_\mu$ is continuous by Prop. 12. Suppose $T$ is locally compact; Prop. 13 shows that the mapping $(\mu, x) \mapsto F_\mu(x)$ of $\mathcal{M}_+^b(T) \times X$ into $\mathbf{C}$ is continuous; the assertion b) follows from this (*loc. cit.*).
 
 ### 7. Application: the Laplace transformation
 
@@ -427,11 +427,11 @@ We shall denote by E the algebra of continuous complex functions tending to 0 at
 
 by $S \cap X_0$; then $\mathfrak{A}$ is a subalgebra of $E$ stable under the mapping $f \mapsto \overline{f}$; since $S$ is a full submonoid of $X$, Cor. 2 of Prop. 7 of GT, X, §4, No. 4 implies that $\mathfrak{A}$ is dense in $E$.
 
-Let us prove $a)$: by hypothesis, $\mu(f) = \mu'(f)$ for every $f \in \mathfrak{A}$; since $\mu$ and $\mu'$ are continuous linear forms on $E$, this implies that $\mu(f) = \mu'(f)$ for $f \in E$, and in particular for every continuous function $f$ with compact support, whence $\mu = \mu'$.
+Let us prove a): by hypothesis, $\mu(f) = \mu'(f)$ for every $f \in \mathfrak{A}$; since $\mu$ and $\mu'$ are continuous linear forms on $E$, this implies that $\mu(f) = \mu'(f)$ for $f \in E$, and in particular for every continuous function $f$ with compact support, whence $\mu = \mu'$.
 
-Let us place ourselves under the hypotheses of $b)$. The number $\Phi(1) = \lim_{\lambda, \mathfrak{F}} \lambda(1)$ is real and positive; let there be given a real number $a > \Phi(1)$; since $\| \lambda \| = \mathcal{L} \lambda(1)$ for $\lambda \in \mathcal{M}_+^b(M)$, the relation $\lim_{\lambda, \mathfrak{F}} \mathcal{L} \lambda(1) = \Phi(1)$ implies that the set $H$ of measures $\lambda \in \mathcal{M}_+^b(M)$ such that $\| \lambda \| \leq a$ belongs to $\mathfrak{F}$. Since $\mathcal{M}^b(M; \mathbf{C})$ may be identified with the dual of the normed space $E$ (Ch. III, §1, No. 8 & §1, No. 2, Prop. 3), the space $H$ is compact for the topology $\sigma(\mathcal{M}^b(M; \mathbf{C}), E)$. On the other hand (TVS, III, §3, No. 4, Prop. 5), this topology coincides on $H$ with the topology of pointwise convergence in any total subset of $E$. In particular, since $\mathfrak{A}$ is dense in $E$, and the same is true of the space of continuous functions with compact support (Ch. III, §1, No. 2, Prop. 3), the topology of pointwise convergence in $S \cap X_0$ coincides on $H$ with the vague topology, and $H$ is compact for this topology. It follows at once that $\mathfrak{F}$ converges vaguely to a measure $\mu \in H$, and that $\mathcal{L} \mu(s) = \lim_{\lambda, \mathfrak{F}} \mathcal{L} \lambda(s)$ for all $s \in S \cap X_0$.
+Let us place ourselves under the hypotheses of b). The number $\Phi(1) = \lim_{\lambda, \mathfrak{F}} \lambda(1)$ is real and positive; let there be given a real number $a > \Phi(1)$; since $\| \lambda \| = \mathcal{L} \lambda(1)$ for $\lambda \in \mathcal{M}_+^b(M)$, the relation $\lim_{\lambda, \mathfrak{F}} \mathcal{L} \lambda(1) = \Phi(1)$ implies that the set $H$ of measures $\lambda \in \mathcal{M}_+^b(M)$ such that $\| \lambda \| \leq a$ belongs to $\mathfrak{F}$. Since $\mathcal{M}^b(M; \mathbf{C})$ may be identified with the dual of the normed space $E$ (Ch. III, §1, No. 8 & §1, No. 2, Prop. 3), the space $H$ is compact for the topology $\sigma(\mathcal{M}^b(M; \mathbf{C}), E)$. On the other hand (TVS, III, §3, No. 4, Prop. 5), this topology coincides on $H$ with the topology of pointwise convergence in any total subset of $E$. In particular, since $\mathfrak{A}$ is dense in $E$, and the same is true of the space of continuous functions with compact support (Ch. III, §1, No. 2, Prop. 3), the topology of pointwise convergence in $S \cap X_0$ coincides on $H$ with the vague topology, and $H$ is compact for this topology. It follows at once that $\mathfrak{F}$ converges vaguely to a measure $\mu \in H$, and that $\mathcal{L} \mu(s) = \lim_{\lambda, \mathfrak{F}} \mathcal{L} \lambda(s)$ for all $s \in S \cap X_0$.
 
-Finally, let us pass to $c)$. Since the functions $\Phi$ and $\mathcal{L} \mu$ are continuous at the point $1 \in S$, and equal on $S \cap X_0$, and since $1$ is in the closure of $S \cap X_0$, we have $\Phi(1) = \mathcal{L} \mu(1)$. In other words, $\lim_{\lambda, \mathfrak{F}} \lambda(1) = \mu(1)$. Prop. 9 of No. 3 then shows that $\mu$ is the tight limit of the filter $\mathfrak{F}$. Every element of $S$ being a bounded continuous function on $M$, this implies that $\Phi(s) = \lim_{\lambda, \mathfrak{F}} \lambda(s) = \mu(s) = \mathcal{L} \mu(s)$ for all $s \in S$.
+Finally, let us pass to c). Since the functions $\Phi$ and $\mathcal{L} \mu$ are continuous at the point $1 \in S$, and equal on $S \cap X_0$, and since $1$ is in the closure of $S \cap X_0$, we have $\Phi(1) = \mathcal{L} \mu(1)$. In other words, $\lim_{\lambda, \mathfrak{F}} \lambda(1) = \mu(1)$. Prop. 9 of No. 3 then shows that $\mu$ is the tight limit of the filter $\mathfrak{F}$. Every element of $S$ being a bounded continuous function on $M$, this implies that $\Phi(s) = \lim_{\lambda, \mathfrak{F}} \lambda(s) = \mu(s) = \mathcal{L} \mu(s)$ for all $s \in S$.
 
 #### Corollary {#int-ix-s5-n7-cor-1 .statement}
 
@@ -443,7 +443,7 @@ b) *The mapping $\lambda \mapsto (\mathcal{L} \lambda)_S$ is a homeomorphism of 
 
 c) *The topology of pointwise convergence and the topology of compact convergence coincide on $L$.*
 
-The assertions $a)$ and $b)$ are immediate consequences of Th. 3; the assertion $c)$ follows from $b)$ and Prop. 14, since the topology of compact convergence is finer than that of pointwise convergence.
+The assertions a) and b) are immediate consequences of Th. 3; the assertion c) follows from b) and Prop. 14, since the topology of compact convergence is finer than that of pointwise convergence.
 
 One must be on guard that L is not closed in the set of all bounded complex functions on S, equipped with the topology of pointwise convergence. Assume for example the notations of Example 2 below (M = \mathbf{R}_+, S identified with \mathbf{R}_+). The Laplace transforms of the measures $\varepsilon_n$ ($n \in \mathbf{N}$) are the functions $t \mapsto e^{-nt}$ on $\mathbf{R}_+$; as $n$ tends to $+\infty$, these functions converge pointwise to the function equal to 1 for $t = 0$ and to 0 for $t \neq 0$, which does not belong to L.
 

@@ -7,52 +7,53 @@ section: 6
 section_title: Real and complex Lie groups
 lang: en
 source: lie-i-iii
+book_pages: 304-326, 383-391
 pdf_pages: 0322-0344, 0401-0409
 extraction: ocr
 subsections:
     - "no": 1
       title: PASSAGE FROM LIE ALGEBRA MORPHISMS TO LIE GROUP MORPHISMS
-      page: 0
+      page: 304
       pdf_page: 322
     - "no": 2
       title: INTEGRAL SUBGROUPS
-      page: 0
+      page: 306
       pdf_page: 324
     - "no": 3
       title: PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
-      page: 0
+      page: 310
       pdf_page: 328
     - "no": 4
       title: EXPONENTIAL MAPPING
-      page: 0
+      page: 311
       pdf_page: 329
     - "no": 5
       title: APPLICATION TO LINEAR REPRESENTATIONS
-      page: 0
+      page: 315
       pdf_page: 333
     - "no": 6
       title: NORMAL INTEGRAL SUBGROUPS
-      page: 0
+      page: 316
       pdf_page: 334
     - "no": 7
       title: PRIMITIVES OF DIFFERENTIAL FORMS WITH VALUES IN A LIE ALGEBRA
-      page: 0
+      page: 318
       pdf_page: 336
     - "no": 8
       title: PASSAGE FROM LAWS OF INFINITESIMAL OPERATION TO LAWS OF OPERATION
-      page: 0
+      page: 318
       pdf_page: 336
     - "no": 9
       title: EXPONENTIAL MAPPING IN THE LINEAR GROUP
-      page: 0
+      page: 320
       pdf_page: 338
     - "no": 10
       title: COMPLEXIFICATION OF A FINITE-DIMENSIONAL REAL LIE GROUP
-      page: 0
+      page: 322
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 532e6b91ea742fe6cdf1e76c5f9b064a8adb5f9b7f53de5e2c9a067fa23efbc9
+content_sha256: a52c873bcf9c62fc8fba9209dcc1e9adccdfb18291f0cf132a2bfb157a201e58
 ---
 
 ## § 6. REAL AND COMPLEX LIE GROUPS
@@ -160,9 +161,9 @@ In the notation of Remark 1, $\phi$ is a morphism of M into Y (*Differentiable a
 (ii) *Let H' be the integral subgroup of H with Lie algebra Im h. Then $\phi(G) = H'$.*
 (iii) *The mapping of G/N into H' derived from $\phi$ when passing to the quotient is a Lie group isomorphism.*
 
-(i) has already been proved (\S 3, no. 8, Proposition 28).
+(i) has already been proved (§ 3, no. 8, Proposition 28).
 
-Let $\psi$ be the Lie group morphism of G/N into H derived from $\phi$ when passing to the quotient; it is an immersion (\S 3, no. 8, Proposition 28). By Proposition 1, $\psi$ is a Lie group morphism of G/N into H'. This morphism is étale and hence $\psi(G/N) = H'$ since H' is connected; this proves (ii). Then $\psi : G/N \to H'$ is bijective and is a Lie group isomorphism, which proves (iii).
+Let $\psi$ be the Lie group morphism of G/N into H derived from $\phi$ when passing to the quotient; it is an immersion (§ 3, no. 8, Proposition 28). By Proposition 1, $\psi$ is a Lie group morphism of G/N into H'. This morphism is étale and hence $\psi(G/N) = H'$ since H' is connected; this proves (ii). Then $\psi : G/N \to H'$ is bijective and is a Lie group isomorphism, which proves (iii).
 
 #### Corollary 2 {#lie-iii-s6-prop-1-cor-2 .statement}
 
@@ -180,16 +181,16 @@ By Proposition 1, $i_2$ is an analytic mapping of $H_2$ into $H_1$ and even an i
 $$
 L(H) = \bigcap_{i \in I} L(H_i).
 $$
-There exists a finite subset J of I such that $\bigcap_{i \in J} L(H_i)$ is equal to the intersection M of all the L(H_i). We know that H^* = \bigcap_{i \in J} H_i is a Lie subgroup such that L(H^*) = M (\S 3, no. 8, Corollary 2 to Proposition 29). Let H_0 be the identity component of H^*. It is a Lie subgroup of G and L(H_0) = M. By Corollary 2, H_0 \subset H_i for all i and hence H_0 \subset H \subset H^*, whence the corollary.
+There exists a finite subset J of I such that $\bigcap_{i \in J} L(H_i)$ is equal to the intersection M of all the L(H_i). We know that H^* = \bigcap_{i \in J} H_i is a Lie subgroup such that L(H^*) = M (§ 3, no. 8, Corollary 2 to Proposition 29). Let H_0 be the identity component of H^*. It is a Lie subgroup of G and L(H_0) = M. By Corollary 2, H_0 \subset H_i for all i and hence H_0 \subset H \subset H^*, whence the corollary.
 
 #### Corollary 4 {#lie-iii-s6-prop-1-cor-4 .statement}
 
 *Let G be a finite-dimensional connected Lie group. The following conditions are equivalent:*
-(i) *G is unimodular* (Integration, Chapter VII, \S 1, no. 3, Definition 3);
+(i) *G is unimodular* (Integration, Chapter VII, § 1, no. 3, Definition 3);
 (ii) *det Ad g = 1 for all g \in G*;
 (iii) *Tr ad a = 0 for all a \in L(G)*.
 
-The mapping g \mapsto det Ad g is a morphism $\phi$ of G into K*. By \S 3, Propositions 35 (no. 10) and 44 (no. 12), $L(\phi)a = Tr\ ad\ a$ for all $a \in L(G)$. Clearly Im $L(\phi) = \{0\}$ or K. In the first (resp. second) case, Im $\phi = \{1\}$ (resp. Im $\phi = K^*$) by Corollary 1 and hence G is unimodular (resp. not unimodular) by \S 3, no. 16, Corollary to Proposition 55.
+The mapping g \mapsto det Ad g is a morphism $\phi$ of G into K*. By § 3, Propositions 35 (no. 10) and 44 (no. 12), $L(\phi)a = Tr\ ad\ a$ for all $a \in L(G)$. Clearly Im $L(\phi) = \{0\}$ or K. In the first (resp. second) case, Im $\phi = \{1\}$ (resp. Im $\phi = K^*$) by Corollary 1 and hence G is unimodular (resp. not unimodular) by § 3, no. 16, Corollary to Proposition 55.
 
 #### Proposition 2 {#lie-iii-s6-prop-2 .statement}
 
@@ -197,9 +198,9 @@ The mapping g \mapsto det Ad g is a morphism $\phi$ of G into K*. By \S 3, Propo
 (i) *H is closed*;
 (ii) *the topology on H is induced by that on G*;
 (iii) *H is a Lie subgroup of G*.
-(i) $\Rightarrow$ (iii): this follows from \S 1, Propositions 2 (iv) (no. 1) and 14 (iii) (no. 7).
+(i) $\Rightarrow$ (iii): this follows from § 1, Propositions 2 (iv) (no. 1) and 14 (iii) (no. 7).
 (iii) $\Rightarrow$ (ii): obvious.
-(ii) $\Rightarrow$ (i): if the topology on H is induced by that on G, H is closed because H is complete (\S 1, no. 1, Proposition 1).
+(ii) $\Rightarrow$ (i): if the topology on H is induced by that on G, H is closed because H is complete (§ 1, no. 1, Proposition 1).
 
 #### Proposition 3 {#lie-iii-s6-prop-3 .statement}
 
@@ -216,7 +217,7 @@ If the topology on H admits a countable base, condition (i) implies that f is a 
 
 #### Corollary 1 {#lie-iii-s6-prop-3-cor-1 .statement}
 
-Let G be a finite-dimensional Lie group and H an integral subgroup of G. Then the Lie subalgebra tangent to H at e (\S 4, no. 5, Definitions 2 and 3) is L(H) and the Lie group structure on H is the structure induced by that on G.
+Let G be a finite-dimensional Lie group and H an integral subgroup of G. Then the Lie subalgebra tangent to H at e (§ 4, no. 5, Definitions 2 and 3) is L(H) and the Lie group structure on H is the structure induced by that on G.
 
 As H is connected and finite-dimensional, its topology admits a countable base.
 
@@ -289,15 +290,15 @@ By transport of structure, ad(a) is invariant under Aut(a) and hence Int(a) is n
 
 Let L be a finite-dimensional Lie algebra. There exists a finite-dimensional vector space E such that L can be identified with a Lie subalgebra of End(E) (Chapter I, § 7, Theorem 2). Let H be the integral subgroup of GL(E) with
 
-Lie algebra L. Let $\hat{H}$ be its universal covering ($\S 1$, no. 9, *Remark*). Then $L(\hat{H})$ is isomorphic to L, whence (i).
+Lie algebra L. Let $\hat{H}$ be its universal covering ($§ 1$, no. 9, *Remark*). Then $L(\hat{H})$ is isomorphic to L, whence (i).
 
-Let $G_1, G_2, f, \phi, N$ be as in (ii). Then $\phi$ is étale, hence $\phi(G_1)$ is an open subgroup of $G_2$ and hence $\phi(G_1) = G_2$. On the other hand, N is discrete and hence contained in the centre of $G_1$ (*Integration*, Chapter VII, $\S 3$, Lemma 4). Clearly the morphism of $G_1/N$ onto $G_2$ derived from $\phi$ is a Lie group isomorphism. If $G_2$ is simply connected, every étale mapping of $G_1$ onto $G_2$ is injective and hence $N = \{e\}$.
+Let $G_1, G_2, f, \phi, N$ be as in (ii). Then $\phi$ is étale, hence $\phi(G_1)$ is an open subgroup of $G_2$ and hence $\phi(G_1) = G_2$. On the other hand, N is discrete and hence contained in the centre of $G_1$ (*Integration*, Chapter VII, $§ 3$, Lemma 4). Clearly the morphism of $G_1/N$ onto $G_2$ derived from $\phi$ is a Lie group isomorphism. If $G_2$ is simply connected, every étale mapping of $G_1$ onto $G_2$ is injective and hence $N = \{e\}$.
 
 #### Proposition 5 {#lie-iii-s6-prop-5 .statement}
 
 *Let G be a connected real Lie group. Suppose that $L(G)$ has a complex normable Lie algebra structure $L'$ compatible with its real normable Lie algebra structure. There exists on G one and only one complex Lie group structure compatible with the real Lie group structure and with Lie algebra $L'$.*
 
-By $\S 4$, no. 2, Corollary 2 to Theorem 2, it suffices to prove that the structure of $L'$ is invariant under Ad G. Let $\phi$ be an exponential mapping of G. By $\S 4$, no. 4, Corollary 3 (i) to Proposition 8, there exists a neighbourhood V of 0 in $L(G)$ such that the structure of $L'$ is invariant under Ad $\phi(V)$. But Ad $\phi(V)$ generates G because G is connected.
+By $§ 4$, no. 2, Corollary 2 to Theorem 2, it suffices to prove that the structure of $L'$ is invariant under Ad G. Let $\phi$ be an exponential mapping of G. By $§ 4$, no. 4, Corollary 3 (i) to Proposition 8, there exists a neighbourhood V of 0 in $L(G)$ such that the structure of $L'$ is invariant under Ad $\phi(V)$. But Ad $\phi(V)$ generates G because G is connected.
 
 The conclusion of Proposition 5 is not necessarily true if G is not assumed to be connected (Exercise 7).
 
@@ -305,7 +306,7 @@ The conclusion of Proposition 5 is not necessarily true if G is not assumed to b
 
 *Let G be a connected complex Lie group. If G is compact, G is commutative.*
 
-The holomorphic mapping $g \mapsto \mathrm{Ad}\,g$ of G into $\mathcal{L}(L(G))$ is constant (*Differentiable and Analytic Manifolds*, R, 3.3.7) and hence $\mathrm{ad}\,a = 0$ for all $a \in L(G)$ ($\S 3$, no. 12, Proposition 44). Hence G is commutative ($\S 4$, Corollary 3 to Theorem 1).
+The holomorphic mapping $g \mapsto \mathrm{Ad}\,g$ of G into $\mathcal{L}(L(G))$ is constant (*Differentiable and Analytic Manifolds*, R, 3.3.7) and hence $\mathrm{ad}\,a = 0$ for all $a \in L(G)$ ($§ 3$, no. 12, Proposition 44). Hence G is commutative ($§ 4$, Corollary 3 to Theorem 1).
 
 ### 4. EXPONENTIAL MAPPING
 
@@ -366,7 +367,7 @@ This follows from Proposition 5 of § 4, no. 3 and the analyticity of $\exp_G$ a
 
 EXponential mapping
 
-The two sides of the equality (i) are analytic mappings of $L(G)$ into $H$ which coincide in a neighbourhood of 0 ($\S 4$, Proposition 8, no. 4) and hence are equal. Assertion (ii) is a special case of (i).
+The two sides of the equality (i) are analytic mappings of $L(G)$ into $H$ which coincide in a neighbourhood of 0 ($§ 4$, Proposition 8, no. 4) and hence are equal. Assertion (ii) is a special case of (i).
 
 #### Corollary 1 {#lie-iii-s6-prop-10-cor-1 .statement}
 
@@ -374,7 +375,7 @@ The two sides of the equality (i) are analytic mappings of $L(G)$ into $H$ which
 (i) $a \in L(G')$;
 (ii) $\exp(\lambda a) \in G'$ for all $\lambda \in K$ and $|\lambda|$ sufficiently small;
 (iii) $\exp(\lambda a) \in G$ for all $\lambda \in K$.
-The argument is as in $\S 4$, no. 4, Corollary 1 to Proposition 8.
+The argument is as in $§ 4$, no. 4, Corollary 1 to Proposition 8.
 
 #### Corollary 2 {#lie-iii-s6-prop-10-cor-2 .statement}
 
@@ -394,14 +395,14 @@ Hence (i) $\Rightarrow$ (ii). The converse when $H$ has a countable base follows
 (i) $\rho(\exp x) = \exp L(\rho)x$;
 (ii) $\mathrm{Ad}(\exp x) = \exp \mathrm{ad}\, x$;
 (iii) $g(\exp x)g^{-1} = \exp(\mathrm{Ad}\, g.x)$.
-The argument is as in $\S 4$, no. 4, Corollaries 2 and 3 to Proposition 8.
+The argument is as in $§ 4$, no. 4, Corollaries 2 and 3 to Proposition 8.
 
 #### Corollary 4 {#lie-iii-s6-prop-10-cor-4 .statement}
 
 *Let $G$ be a finite-dimensional connected Lie group*.
 (i) $\mathrm{Int}(L(G)) = \mathrm{Ad}(G)$.
 (ii) *Let $Z$ be the centre of $G$. Then $Z$ is a Lie subgroup of $G$ whose Lie algebra is the centre of $L(G)$. The mapping of $G/Z$ into $\mathrm{Int}\, L(G)$ derived from $g \mapsto \mathrm{Ad}\, g$ when passing to the quotient is a Lie group isomorphism*.
-Assertion (i) follows from Corollary 3 (ii) and the remarks after Definition 2. Let $g \in G$. In order that $\mathrm{Ad}\, g = \mathrm{Id}_{L(G)}$, it is necessary and sufficient that $\mathrm{Int}\, g$ coincide with $\mathrm{Id}_G$ on a neighbourhood of $e$ ($\S 4$, no. 1, Theorem 1 (ii)) and hence on the whole of $G$; in other words, it is necessary and sufficient that $g \in Z$. Then (ii) follows from Corollary 1 to Proposition 1.
+Assertion (i) follows from Corollary 3 (ii) and the remarks after Definition 2. Let $g \in G$. In order that $\mathrm{Ad}\, g = \mathrm{Id}_{L(G)}$, it is necessary and sufficient that $\mathrm{Int}\, g$ coincide with $\mathrm{Id}_G$ on a neighbourhood of $e$ ($§ 4$, no. 1, Theorem 1 (ii)) and hence on the whole of $G$; in other words, it is necessary and sufficient that $g \in Z$. Then (ii) follows from Corollary 1 to Proposition 1.
 
 #### Definition 3 {#lie-iii-s6-def-3 .statement}
 
@@ -687,7 +688,7 @@ $$
 
 *Let $u \in \mathcal{L}(E)$ be such that every $z \in \mathrm{Sp}\,u$ satisfies $|\mathcal{J}(z)| < \frac{2\pi}{n+1}$. Then, for all $f \in F$, the conditions $\sigma(u)f = 0$ and $\rho(\exp u)f = f$ are equivalent.*
 
-$\mathbf{L}(\rho) = \sigma$ (\S 3, no. 11, Corollary 1 to Proposition 41) and hence
+$\mathbf{L}(\rho) = \sigma$ (§ 3, no. 11, Corollary 1 to Proposition 41) and hence
 
 $$
 \rho(\exp u) = \exp \sigma(u)
@@ -706,7 +707,7 @@ $$
 \end{align*}
 $$
 
-Then $\sigma(v) = \sum_{i=0}^n v_i$ and the $v_i$ are pairwise permutable. Let A be the total closed subalgebra of $\mathcal{L}(F)$ generated by the $v_i$; it is commutative (*Spectral Theories*, Chapter I, \S 1, no. 4) and $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chapter I, \S 3, Proposition 3 (ii)). Now, if $\lambda \in \mathbf{C}$ is such that $v - \lambda$ is invertible, clearly the $v_i - \lambda_i$ are invertible and hence $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ for all $i$.
+Then $\sigma(v) = \sum_{i=0}^n v_i$ and the $v_i$ are pairwise permutable. Let A be the total closed subalgebra of $\mathcal{L}(F)$ generated by the $v_i$; it is commutative (*Spectral Theories*, Chapter I, § 1, no. 4) and $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chapter I, § 3, Proposition 3 (ii)). Now, if $\lambda \in \mathbf{C}$ is such that $v - \lambda$ is invertible, clearly the $v_i - \lambda_i$ are invertible and hence $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ for all $i$.
 
 #### Corollary 2 {#lie-iii-s6-prop-18-cor-2 .statement}
 
@@ -776,8 +777,8 @@ bh(a)b^{-1} = bf(a^{-1})ab^{-1} = (\omega(b)f(a^{-1}))(bab^{-1})
 = f(ba^{-1}b^{-1})(bab^{-1}) = h(bab^{-1})
 $$
 $$
-a'h(a)a'^{-1} = a'f(a^{-1})aa'^{-1} = a'f(a^{-1})(\omega(a)a'^{-1})a
-= a'f(a^{-1})f(a)a'^{-1}f(a^{-1})a = h(a)
+a'h(a){a'}^{-1} = a'f(a^{-1})a{a'}^{-1} = a'f(a^{-1})(\omega(a){a'}^{-1})a
+= a'f(a^{-1})f(a){a'}^{-1}f(a^{-1})a = h(a)
 $$
 and hence $h(A) = D$ is normal in $B''$.
 
@@ -863,7 +864,7 @@ If f ∈ F, then δ ∘ (Int_F f) = (Int_Ḟ δ(f)) ∘ δ and Int_Ḟ δ(f) is 
 Hence Lemma 7 can be applied, which gives a diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{i} & G & \xrightarrow{p} & M \\
 \downarrow{\delta} & & \downarrow{\gamma} & & \downarrow{\mathrm{Id}} \\
 Ḟ & \xrightarrow{\tilde{i}} & Ġ & \xrightarrow{\tilde{p}} & M.
@@ -905,7 +906,7 @@ G \to \tilde{G} \to \tilde{G}/\tilde{G}_0
 $$
 defines on passing to the quotient an isomorphism of $G/G_0$ onto $\tilde{G}/\tilde{G}_0$.
 
-(2) Suppose that $G$ is simply connected. Let $g = L(G)$, $g_C$ be the complexification of $g$, $S'$ the simply connected complex Lie group with Lie algebra $g_C$ and $\sigma$ the morphism of $G$ into $S'$ such that $L(\sigma)$ is the canonical injection of $g$ into $g_C$. We again use the notation of the proof of Proposition 20, part (a). If $H = S'$ and $\phi = \sigma$, then $\phi^* = \mathrm{Id}_{S'}$. Hence $(S', \sigma)$ is the universal complexification of $G$. Note that $\sigma$ is not in general injective (Exercise 16); however *its kernel is discrete* since $L(\sigma)$ is injective. On the other hand, let $\theta$ be the involution of $g_C$ defined by $g$ and let $\eta$ be the corresponding automorphism of the underlying real Lie group of $S'$; let $S'^\eta$ be the set of points of $S'$ invariant under $\eta$; it is a real Lie subgroup of $S'$ with Lie algebra $g$ (\S 3, no. 8, Corollary 1 to Proposition 29). By no. 1, Corollary 1 to Proposition 1, $\sigma(G)$ is a real integral subgroup of $S'$ with Lie algebra $g$ and hence $\sigma(G)$ *is the identity component of* $S'^\eta$; in particular $\sigma(G)$ is a real Lie subgroup of $S'$.
+(2) Suppose that $G$ is simply connected. Let $g = L(G)$, $g_C$ be the complexification of $g$, $S'$ the simply connected complex Lie group with Lie algebra $g_C$ and $\sigma$ the morphism of $G$ into $S'$ such that $L(\sigma)$ is the canonical injection of $g$ into $g_C$. We again use the notation of the proof of Proposition 20, part (a). If $H = S'$ and $\phi = \sigma$, then $\phi^* = \mathrm{Id}_{S'}$. Hence $(S', \sigma)$ is the universal complexification of $G$. Note that $\sigma$ is not in general injective (Exercise 16); however *its kernel is discrete* since $L(\sigma)$ is injective. On the other hand, let $\theta$ be the involution of $g_C$ defined by $g$ and let $\eta$ be the corresponding automorphism of the underlying real Lie group of $S'$; let ${S'}^\eta$ be the set of points of $S'$ invariant under $\eta$; it is a real Lie subgroup of $S'$ with Lie algebra $g$ (§ 3, no. 8, Corollary 1 to Proposition 29). By no. 1, Corollary 1 to Proposition 1, $\sigma(G)$ is a real integral subgroup of $S'$ with Lie algebra $g$ and hence $\sigma(G)$ *is the identity component of* ${S'}^\eta$; in particular $\sigma(G)$ is a real Lie subgroup of $S'$.
 
 ### Exercises {#lie-iii-s6-exercises}
 

@@ -45,9 +45,9 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: e05006fc903e5bc41cbb907f707d5fea80de59ae7cc13425fcdaf41cdaefe2f8
+content_sha256: 1dc2f1e5eec1cb09a9c7399fb05a18edbf8557f45d278e76c8c960cfffb7e4e8
 translated_from: content/en/lie/VIII/12_s12_chevalley_orders.md
-source_content_sha256: 885359a9c4e02d6b1527af01d724b4902eb3a452b5e0d78c02818d8657250018
+source_content_sha256: 50f43a34a9ae42cb38e10e1f32022dc1fddb5d2b07911570fec5baa09a40ebdf
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-3648e84a
 glossary_version: 34
@@ -791,9 +791,9 @@ Ta đã thu được nhân tiện một chứng minh mới về sự tồn tại
 
 Cho $(\mathfrak{g},\mathfrak{h})$ là một đại số Lie reductive tách được trên $\mathbf{Q}, R$ là hệ nghiệm của nó. Hãy chọn:
 
-$a)$ một dàn cho phép $\mathscr{H}$ trong $\mathfrak{h}$ (no. 6, Định nghĩa 1);
+a) một dàn cho phép $\mathscr{H}$ trong $\mathfrak{h}$ (no. 6, Định nghĩa 1);
 
-$b)$ với mọi $\alpha \in R$, một dàn $\mathscr{G}^{\alpha}$ trong $\mathfrak{g}^{\alpha}$.
+b) với mọi $\alpha \in R$, một dàn $\mathscr{G}^{\alpha}$ trong $\mathfrak{g}^{\alpha}$.
 
 Đặt $\mathscr{G}=\mathscr{H}\oplus \sum_{\alpha\in R}\mathscr{G}^{\alpha}$. Đó là một dàn trong $\mathfrak{g}$. Ký hiệu $\mathscr{U}$ là $\mathbf{Z}$-đại số con của $U(\mathfrak{g})$ sinh bởi các $(^h_n)(h\in \mathscr{H}, n\in \mathbf{N})$ và các $x^{(n)}(x\in \mathscr{G}^{\alpha}, \alpha \in R$, $n\in \mathbf{N})$. Cuối cùng, với $\alpha \in R$ và $x\in \mathfrak{g}^{\alpha}$ **--** $\{0\}$, đặt
 
@@ -811,7 +811,7 @@ Các điều kiện sau là tương đương:
 
 (iii) Với mọi $\alpha \in R, x\in \mathscr{G}^{\alpha}, n\in \mathbf{N}$, tự đồng cấu (ad $x$)$^n/n$! của $\mathfrak{g}$ biến $\mathscr{G}$ thành $\mathscr{G}$, và $[\mathscr{G}^{\alpha},\mathscr{G}^{-\alpha}] =\mathbf{Z}H_{\alpha}$.
 
-Với mọi $\alpha \in R$ và mọi cơ sở $x$ của $\mathscr{G}^{\alpha},w_{\alpha}(x)$ ánh xạ $\mathscr{G}$ vào $\mathscr{G}$($\text{nghĩa là, }\!$ ánh xạ $\mathscr{G}^{\beta}$ vào $\mathscr{G}^{s_{\alpha}(\beta)}$ với mọi $\beta \in R)$.
+Với mọi $\alpha \in R$ và mọi cơ sở $x$ của $\mathscr{G}^{\alpha},w_{\alpha}(x)$ ánh xạ $\mathscr{G}$ vào $\mathscr{G}$($\text{nghĩa là, }\!$ ánh xạ $\mathscr{G}^{\beta}$ vào $\mathscr{G}^{s_{\alpha}(\beta)}$ với mọi $\beta \in R$).
 
 (i) $=\Rightarrow$ (ii): cho $(X_{\alpha})_{\alpha\in R}$ là một hệ Chevalley trong $(\mathfrak{g},\mathfrak{h})$ sao cho $\mathscr{G}^{\alpha}=$ $\mathbf{Z}X_{\alpha}$ với mọi $\alpha \in R$, và cho B là một cơ sở của R. Với $\alpha \in B$, đặt $x_{\alpha}=X_{\alpha}, y_{\alpha}=$ $X_{-\alpha}$. Cho $\mathscr{U}'$ là song thứ tự liên kết theo Mệnh đề 3 của no. 6 với $\mathscr{H}$, các $x_{\alpha}$ và các $y_{\alpha}$. Rõ ràng là $\mathscr{U}'\subset \mathscr{U}$. Theo Hệ quả 3 và 4 của Mệnh đề $3,x^{(n)}\in \mathscr{U}'$ với mọi $\alpha \in R,x\in \mathscr{G}^{\alpha}$ và $n\in \mathbf{N}$. Vậy $\mathscr{U}=\mathscr{U}'$, điều đó chứng minh (ii).
 
@@ -909,7 +909,7 @@ $$
 
 suy ra, nếu $a_n\not= 0$ với mọi $n\in \mathbf{N}$, thì dãy các $|a_n|$ giảm nghiêm ngặt khi $n$ đủ lớn, điều này là vô lý. Suy ra $v$ có một trị riêng nguyên $\lambda$. Đặt $M'=$ Ker($u-\lambda .1$) và $M''= M/M'$. Khi đó $M'$ là giao với $M$ của một không gian con vectơ của $M\otimes_{\mathbf{Z}}\mathbf{Q}$, nên $\mathbf{Z}$-môđun $M''$ là không xoắn, kiểu hữu hạn, và do đó tự do có hạng $< d$. Lập luận bằng quy nạp theo $d$ và áp dụng giả thiết quy nạp cho tự đồng cấu của $M''$ cảm sinh bởi $u$, ta kết luận rằng mọi trị riêng của $v$ trong một mở rộng đóng đại số của $\mathbf{Q}$ đều là số nguyên.
 
-$c)$ Ta ցույց minh rằng $v$ chéo hóa được. Cho $\lambda$ là một trị riêng của $v$ và cho $x\in M\otimes_{\mathbf{Z}}\mathbf{Q}$ sao cho $(v-\lambda )^2x= 0$. Ta có $v(vx-\lambda x) =\lambda (vx-\lambda x)$, nên
+c) Ta ցույց minh rằng $v$ chéo hóa được. Cho $\lambda$ là một trị riêng của $v$ và cho $x\in M\otimes_{\mathbf{Z}}\mathbf{Q}$ sao cho $(v-\lambda )^2x= 0$. Ta có $v(vx-\lambda x) =\lambda (vx-\lambda x)$, nên
 
 $n1$!$(v-\lambda -n+ 1)(v-\lambda -n+ 2). . .(v-\lambda -1)(v-\lambda )x$
 
@@ -917,9 +917,9 @@ $$
 =\frac{(-1)^{n-1}}{n}(vx-\lambda x)
 $$
 
-Theo $a)$, điều này suy ra $vx-\lambda x\in nM$ với mọi $n\in \mathbf{N}$, nên $(v-\lambda )x= 0$.
+Theo a), điều này suy ra $vx-\lambda x\in nM$ với mọi $n\in \mathbf{N}$, nên $(v-\lambda )x= 0$.
 
-$d)$ Cho $\lambda$ là một trị riêng của $v$ và cho $\lambda -a, \lambda +b$ là một khoảng trong $\mathbf{Z}$ chứa mọi trị riêng của $v$. Xét đa thức
+d) Cho $\lambda$ là một trị riêng của $v$ và cho $\lambda -a, \lambda +b$ là một khoảng trong $\mathbf{Z}$ chứa mọi trị riêng của $v$. Xét đa thức
 
 $$
 (T-\lambda -1)(T-\lambda -2). . .(T-\lambda -b)

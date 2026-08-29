@@ -29,9 +29,9 @@ subsections:
       pdf_page: 291
 statements: 13
 exercises: 9
-content_sha256: ebb2f45d6a31edbba5be65896816f76fb6306f07f48e0b1f7bde27b8e16f7472
+content_sha256: 7ecf9dfec17f9e76d10891d85b5a309b792020b218aeb9590b60a867e4943634
 translated_from: content/en/lie/IX/01_s1_compact_lie_algebras.md
-source_content_sha256: 13b135a405ae8d6c95356fda2234c2df7705d1f5e3890b510da06e823c37411a
+source_content_sha256: 944894592e14a8d7609536ce9e49868c10534458947d804a90800246f3db6c8b
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-115a3f5d
 glossary_version: 34
@@ -45,7 +45,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Trong mục này, chữ $k$ ký hiệu trường $\mathbf{R}$ hoặc $\mathbf{C}$. Cho V là một không gian vectơ $k$ hữu hạn chiều, $\Phi$ là một dạng Hermit dương tách được$^2$ trên V, G là một nhóm, $\mathfrak{g}$ là một đại số Lie $\mathbf{R}$, $\rho : G\rightarrow \mathbf{G}\mathbf{L}(V)$ là một đồng cấu nhóm, $\varphi :\mathfrak{g}\rightarrow \mathfrak{g}\mathfrak{l}(V)$ là một đồng cấu của các đại số Lie $\mathbf{R}$.
 
-$a)$ Dạng $\Phi$ là bất biến dưới G (hoặc $\mathfrak{g}$) nếu và chỉ nếu $\rho (g)$ là unita đối với $\Phi$ với mọi $g\in G$ (hoặc $\varphi (x)$ là phản Hermit$^3$ đối với $\Phi$ với mọi $x\in \mathfrak{g}$). Thật vậy, ký hiệu bởi $a^*$ liên hợp của một tự đồng cấu $a$ của V đối với $\Phi$; với $g$ trong $G,x$ trong $\mathfrak{g},u$ và $v$ trong V, ta có
+a) Dạng $\Phi$ là bất biến dưới G (hoặc $\mathfrak{g}$) nếu và chỉ nếu $\rho (g)$ là unita đối với $\Phi$ với mọi $g\in G$ (hoặc $\varphi (x)$ là phản Hermit$^3$ đối với $\Phi$ với mọi $x\in \mathfrak{g}$). Thật vậy, ký hiệu bởi $a^*$ liên hợp của một tự đồng cấu $a$ của V đối với $\Phi$; với $g$ trong $G,x$ trong $\mathfrak{g},u$ và $v$ trong V, ta có
 
 $$
 \Phi (\rho (g)u, \rho (g)v) =\Phi (\rho (g)^*\rho (g)u, v)
@@ -71,11 +71,11 @@ liên hợp $a^*$ của $a$ đối với $\Phi$ bằng $-a$. Khi $k=\mathbf{C}$ 
 
 cũng có nghĩa là tự đồng cấu $ia$ của V (resp. của $\mathbf{C}\otimes_{\mathbf{R}}V$) là Hermit. do đó, $\Phi (\rho (g)u, \rho (g)v) =\Phi (u, v)$ với mọi $u, v$ trong V khi và chỉ khi $\rho (g)^*\rho (g) =$ Id$_V$; tương tự, $\Phi (\varphi (x)u, v) +\Phi (u, \varphi (x)v) = 0$ với mọi $u, v$ trong V khi và chỉ khi $\varphi (x) +\varphi (x)^*= 0$, do đó có mệnh đề đã nêu.
 
-$b)$ Nếu dạng $\Phi$ là bất biến dưới G (resp. $\mathfrak{g}$), phần bù trực giao của một không gian con ổn định của V là ổn định; đặc biệt, khi đó biểu diễn $\rho$ (resp. $\varphi$ ) là nửa đơn (xem Đại số, Chương IX); hơn nữa, với mọi $g\in G$ (resp. $x\in \mathfrak{g}$), tự đồng cấu $\rho (g)$ (resp. $\varphi (x)$) của V khi đó là nửa đơn, với các giá trị riêng có giá trị tuyệt đối bằng 1 (resp. với các giá trị riêng thuần ảo); thật vậy $\rho (g)$ là unita (resp. $i\varphi (x)$ là Hermit, xem Đại số, Chương IX).
+b) Nếu dạng $\Phi$ là bất biến dưới G (resp. $\mathfrak{g}$), phần bù trực giao của một không gian con ổn định của V là ổn định; đặc biệt, khi đó biểu diễn $\rho$ (resp. $\varphi$ ) là nửa đơn (xem Đại số, Chương IX); hơn nữa, với mọi $g\in G$ (resp. $x\in \mathfrak{g}$), tự đồng cấu $\rho (g)$ (resp. $\varphi (x)$) của V khi đó là nửa đơn, với các giá trị riêng có giá trị tuyệt đối bằng 1 (resp. với các giá trị riêng thuần ảo); thật vậy $\rho (g)$ là unita (resp. $i\varphi (x)$ là Hermit, xem Đại số, Chương IX).
 
-$c)$ Giả sử rằng $k=\mathbf{R}$. Nếu G là một nhóm Lie liên thông, $\rho$ là một cấu xạ của các nhóm Lie, $\mathfrak{g}$ là đại số Lie của G và $\varphi$ là đồng cấu cảm sinh bởi $\rho$, thì $\Phi$ là bất biến dưới G khi và chỉ khi nó là bất biến dưới $\mathfrak{g}$ (Chap. III, §6, no. 5, Cor. 3).
+c) Giả sử rằng $k=\mathbf{R}$. Nếu G là một nhóm Lie liên thông, $\rho$ là một cấu xạ của các nhóm Lie, $\mathfrak{g}$ là đại số Lie của G và $\varphi$ là đồng cấu cảm sinh bởi $\rho$, thì $\Phi$ là bất biến dưới G khi và chỉ khi nó là bất biến dưới $\mathfrak{g}$ (Chap. III, §6, no. 5, Cor. 3).
 
-$d)$ Tồn tại một dạng Hermit dương phân ly trên V bất biến dưới G khi và chỉ khi nhóm con $\rho (G)$ của $\mathbf{G}\mathbf{L}(V)$ là tương đối compact (Integration, Chap. VII, §3, no. 1, Prop. 1).
+d) Tồn tại một dạng Hermit dương phân ly trên V bất biến dưới G khi và chỉ khi nhóm con $\rho (G)$ của $\mathbf{G}\mathbf{L}(V)$ là tương đối compact (Integration, Chap. VII, §3, no. 1, Prop. 1).
 
 ### 2. NHÓM LIE THỰC GIAO HOÁN LIÊN THÔNG
 
@@ -85,17 +85,17 @@ exp$_G: L(G)\rightarrow G$
 
 là một cấu xạ của các nhóm Lie, toàn ánh với hạt nhân rời rạc (Chap. III, §6, no. 4, Prop. 11), do đó L(G) là một phủ liên thông của G.
 
-$a)$ Các điều kiện sau là tương đương: G là đơn liên, exp$_G$ là một đẳng cấu, G đẳng cấu với $\mathbf{R}^n(n=$ dim G). Trong trường hợp đó, chuyển cấu trúc không gian vectơ của L(G) sang G bởi đẳng cấu exp$_G$ cho một cấu trúc không gian vectơ trên G, và đó là cấu trúc duy nhất tương thích với cấu trúc nhóm tôpô của G. Các nhóm Lie giao hoán đơn liên được gọi là các nhóm vectơ (Lie); trừ khi nói rõ khác đi, chúng luôn luôn được trang bị cấu trúc $\mathbf{R}$-không gian vectơ được định nghĩa ở trên.
+a) Các điều kiện sau là tương đương: G là đơn liên, exp$_G$ là một đẳng cấu, G đẳng cấu với $\mathbf{R}^n(n=$ dim G). Trong trường hợp đó, chuyển cấu trúc không gian vectơ của L(G) sang G bởi đẳng cấu exp$_G$ cho một cấu trúc không gian vectơ trên G, và đó là cấu trúc duy nhất tương thích với cấu trúc nhóm tôpô của G. Các nhóm Lie giao hoán đơn liên được gọi là các nhóm vectơ (Lie); trừ khi nói rõ khác đi, chúng luôn luôn được trang bị cấu trúc $\mathbf{R}$-không gian vectơ được định nghĩa ở trên.
 
-$b)$ Ký hiệu $\Gamma (G)$ là hạt nhân của exp$_G$. Theo Tôpô đại cương, Chương VII, §1, no. 1, Định lý 1, nhóm G là compắc nếu và chỉ nếu $\Gamma (G)$ là một dàn trong L(G), nói cách khác (loc. cit.) nếu hạng của $\mathbf{Z}$-môđun tự do $\Gamma (G)$ bằng chiều của G. Ngược lại, nếu L là một $\mathbf{R}$-không gian vectơ hữu hạn chiều và $\Gamma$ là một dàn trong L, thì nhóm tôpô thương $L/\Gamma$ là một nhóm Lie giao hoán liên thông compắc.
+b) Ký hiệu $\Gamma (G)$ là hạt nhân của exp$_G$. Theo Tôpô đại cương, Chương VII, §1, no. 1, Định lý 1, nhóm G là compắc nếu và chỉ nếu $\Gamma (G)$ là một dàn trong L(G), nói cách khác (loc. cit.) nếu hạng của $\mathbf{Z}$-môđun tự do $\Gamma (G)$ bằng chiều của G. Ngược lại, nếu L là một $\mathbf{R}$-không gian vectơ hữu hạn chiều và $\Gamma$ là một dàn trong L, thì nhóm tôpô thương $L/\Gamma$ là một nhóm Lie giao hoán liên thông compắc.
 
 Các nhóm Lie giao hoán liên thông compắc được gọi là các xuyến thực, hoặc (trong chương này) các xuyến.
 
-$c)$ Trong trường hợp tổng quát, gọi E là không gian con vectơ của L(G) sinh bởi $\Gamma$ (G), và gọi V là một không gian con bù. Khi đó G là tích trực tiếp của các nhóm con Lie exp(E) và exp(V); nhóm thứ nhất là một xuyến, nhóm thứ hai là vectơ. Sau hết, mọi nhóm con compact của G đều được chứa trong exp(E) (vì phép chiếu của nó lên exp(V) tất yếu thu về phần tử đơn vị); do đó, nhóm con exp(E) là nhóm con compact cực đại duy nhất của G.
+c) Trong trường hợp tổng quát, gọi E là không gian con vectơ của L(G) sinh bởi $\Gamma$ (G), và gọi V là một không gian con bù. Khi đó G là tích trực tiếp của các nhóm con Lie exp(E) và exp(V); nhóm thứ nhất là một xuyến, nhóm thứ hai là vectơ. Sau hết, mọi nhóm con compact của G đều được chứa trong exp(E) (vì phép chiếu của nó lên exp(V) tất yếu thu về phần tử đơn vị); do đó, nhóm con exp(E) là nhóm con compact cực đại duy nhất của G.
 
 Ví dụ, lấy $G = C^*$; đồng nhất L(G) với $\mathbf{C}$ sao cho ánh xạ mũ của G là $x \rightarrow e^x$. Khi đó $\Gamma (G) = 2\pi i\mathbf{Z},E =i\mathbf{R}$, và do đó exp(E) $=\mathbf{U}$; nếu lấy $V =\mathbf{R}$, thì exp(V) $=\mathbf{R}^*_+$ và ta thu lại đẳng cấu $\mathbf{C}^*\rightarrow \mathbf{U}\times \mathbf{R}^*_+$ được xây dựng trong Tôpô đại cương, Chương VIII, §1, no. 3, Mệnh đề 1.
 
-$d)$ Chú ý sau hết rằng exp$_G: L(G)\rightarrow G$ là một phủ phổ quát của G, do đó $\Gamma (G)$ có thể được đồng nhất một cách tự nhiên với nhóm cơ bản của G.
+d) Chú ý sau hết rằng exp$_G: L(G)\rightarrow G$ là một phủ phổ quát của G, do đó $\Gamma (G)$ có thể được đồng nhất một cách tự nhiên với nhóm cơ bản của G.
 
 ### 3. ĐẠI SỐ LIE COMPACT
 
@@ -139,7 +139,7 @@ b) Một đại số con của một đại số Lie compact là compact.
 
 c) Cho $\mathfrak{h}$ là một iđêan của một đại số Lie compact $\mathfrak{g}$. Khi đó đại số $\mathfrak{g}/\mathfrak{h}$ là compact và mở rộng $\mathfrak{h}\rightarrow \mathfrak{g}\rightarrow \mathfrak{g}/\mathfrak{h}$ là tầm thường.
 
-Các khẳng định $a)$ và $b)$ suy ra từ đặc trưng hóa (iii) của Mệnh đề 1. Phần $c)$ suy ra từ $a)$ và sự kiện là, trong một đại số Lie khả quy, mọi iđêan đều là một nhân tử trực tiếp (Chương I, §6, no. 4, Hệ quả của Mệnh đề 5).
+Các khẳng định a) và b) suy ra từ đặc trưng hóa (iii) của Mệnh đề 1. Phần c) suy ra từ a) và sự kiện là, trong một đại số Lie khả quy, mọi iđêan đều là một nhân tử trực tiếp (Chương I, §6, no. 4, Hệ quả của Mệnh đề 5).
 
 #### Mệnh đề 3 {#lie-ix-s1-prop-3 .statement tag=019G}
 
@@ -235,11 +235,11 @@ b) Giả sử rằng nhóm các thành phần liên thông của G là hữu h�
 
 (iv) Tồn tại một nhóm con vectơ trung tâm đóng N của $G_0$, chuẩn tắc trong G, sao cho, với mọi nhóm con compact cực đại K của G, $G_0$ là tích trực tiếp của $K_0$ với N, và G là tích nửa trực tiếp của K với N.
 
-$a)$ Ta giữ các ký hiệu của Mệnh đề 4. Phép chiếu của Ker $f$ lên V là một nhóm con hữu hạn của nhóm vectơ V, do đó thu về phần tử đơn vị. Suy ra Ker $f$ được chứa trong $T\times S$, và vì thế G là tích trực tiếp của nhóm vectơ $N =f(V)$ và nhóm compact $K =f(T\times S)$. Mọi nhóm con compact của G đều có một phép chiếu lên N thu về phần tử đơn vị, nên được chứa trong K. Điều này chứng minh $a)$.
+a) Ta giữ các ký hiệu của Mệnh đề 4. Phép chiếu của Ker $f$ lên V là một nhóm con hữu hạn của nhóm vectơ V, do đó thu về phần tử đơn vị. Suy ra Ker $f$ được chứa trong $T\times S$, và vì thế G là tích trực tiếp của nhóm vectơ $N =f(V)$ và nhóm compact $K =f(T\times S)$. Mọi nhóm con compact của G đều có một phép chiếu lên N thu về phần tử đơn vị, nên được chứa trong K. Điều này chứng minh a).
 
-$b)$ Bây giờ giả sử rằng $G/G_0$ là hữu hạn. Theo $a), G_0$ là tích trực tiếp của nhóm con compắc lớn nhất M của nó và một nhóm con vectơ P; nhóm con M của G rõ ràng là chuẩn tắc. Gọi $\mathfrak{n}$ là một không gian con vectơ bù của L(M) trong L(G), ổn định dưới biểu diễn phụ hợp của G (no. 1 và no. 3, Mệnh đề 3); đó là một iđêan của L(G) và ta có $L(G) = L(M)\times \mathfrak{n}$. Gọi N là nhóm con nguyên của G có đại số Lie là $\mathfrak{n}$; theo Chương III, §6, no. 6, Mệnh đề 14, nó là chuẩn tắc trong G. Phép chiếu của L(G) lên L(P) với hạt nhân L(M) gây ra một đẳng cấu từ $\mathfrak{n}$ lên L(P); suy ra rằng phép chiếu của $G_0$ lên P gây ra một cấu xạ étale từ N lên P; vì P đơn liên, đó là một đẳng cấu, và N là một nhóm vectơ. Cấu xạ $(x, y) \rightarrow xy$ từ $M\times N$ vào $G_0$ là một cấu xạ étale đơn ánh (vì $M\cap N$ thu về phần tử đơn vị), do đó là một đẳng cấu. Suy ra N là một nhóm con đóng của G và thương $G/N$ là compắc, vì $G_0/N$ là compắc và $G/G_0$ là hữu hạn (Topologie générale, Chương III, §4, no. 1, Hệ quả 2 của Mệnh đề 2).
+b) Bây giờ giả sử rằng $G/G_0$ là hữu hạn. Theo $a), G_0$ là tích trực tiếp của nhóm con compắc lớn nhất M của nó và một nhóm con vectơ P; nhóm con M của G rõ ràng là chuẩn tắc. Gọi $\mathfrak{n}$ là một không gian con vectơ bù của L(M) trong L(G), ổn định dưới biểu diễn phụ hợp của G (no. 1 và no. 3, Mệnh đề 3); đó là một iđêan của L(G) và ta có $L(G) = L(M)\times \mathfrak{n}$. Gọi N là nhóm con nguyên của G có đại số Lie là $\mathfrak{n}$; theo Chương III, §6, no. 6, Mệnh đề 14, nó là chuẩn tắc trong G. Phép chiếu của L(G) lên L(P) với hạt nhân L(M) gây ra một đẳng cấu từ $\mathfrak{n}$ lên L(P); suy ra rằng phép chiếu của $G_0$ lên P gây ra một cấu xạ étale từ N lên P; vì P đơn liên, đó là một đẳng cấu, và N là một nhóm vectơ. Cấu xạ $(x, y) \rightarrow xy$ từ $M\times N$ vào $G_0$ là một cấu xạ étale đơn ánh (vì $M\cap N$ thu về phần tử đơn vị), do đó là một đẳng cấu. Suy ra N là một nhóm con đóng của G và thương $G/N$ là compắc, vì $G_0/N$ là compắc và $G/G_0$ là hữu hạn (Topologie générale, Chương III, §4, no. 1, Hệ quả 2 của Mệnh đề 2).
 
-Theo Integration, Chương VII, §3, no. 2, Mệnh đề 3, mọi nhóm con compact của G đều được chứa trong một nhóm con compact cực đại, các nhóm con này liên hợp với nhau, và với mọi nhóm con compact cực đại K của G, G là tích nửa trực tiếp của K bởi N. Vì $G_0$ chứa N nên nó là tích nửa trực tiếp của N bởi $G_0\cap K$; suy ra $G_0\cap K$ liên thông, do đó bằng $K_0$, vì $K/(G_0\cap K)$ đẳng cấu với $G/G_0$, nên hữu hạn; sau cùng, $K_0$ rõ ràng là nhóm con compact lớn nhất của $G_0$ theo $a)$.
+Theo Integration, Chương VII, §3, no. 2, Mệnh đề 3, mọi nhóm con compact của G đều được chứa trong một nhóm con compact cực đại, các nhóm con này liên hợp với nhau, và với mọi nhóm con compact cực đại K của G, G là tích nửa trực tiếp của K bởi N. Vì $G_0$ chứa N nên nó là tích nửa trực tiếp của N bởi $G_0\cap K$; suy ra $G_0\cap K$ liên thông, do đó bằng $K_0$, vì $K/(G_0\cap K)$ đẳng cấu với $G/G_0$, nên hữu hạn; sau cùng, $K_0$ rõ ràng là nhóm con compact lớn nhất của $G_0$ theo a).
 
 #### Hệ quả {#lie-ix-s1-n4-cor-1 .statement tag=019P}
 

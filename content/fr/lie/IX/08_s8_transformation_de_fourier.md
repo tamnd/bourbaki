@@ -29,7 +29,7 @@ subsections:
       pdf_page: 90
 statements: 9
 exercises: 6
-content_sha256: 3deba355888cbf220a3b25e2813a2d99156cf002ecdd714655a463a112bc83c6
+content_sha256: 8046cb60e7a87d74278ab051865b2a402cb1931b6d0f6531c7ed71f0def210cd
 ---
 
 ## § 8. TRANSFORMATION DE FOURIER
@@ -193,9 +193,9 @@ $$(14)\qquad u(L_t f) = u(f)\ u(t^\vee) ,\quad u(R_t f) = u(t^\vee)\ u(f) ,$$
 
 où $t^\vee$ désigne l'image de $t$ par l'anti-automorphisme principal de $U(G)$ (I, § 2, no 4); en effet il suffit de le vérifier pour $t \in g$, auquel cas cela résulte par dérivation des formules (12) et (13) (*cf. III, § 3, no 7, prop. 27).
 
-Pour tout $u \in \hat{G}$, notons $\lambda(u)$ le plus grand poids de $u$ (\S 7, n° 2, th. 1), de sorte que $u \mapsto \lambda(u)$ est une application bijective de $\hat{G}$ dans l’ensemble $X_{++}$ des éléments dominants de $X(T)$.
+Pour tout $u \in \hat{G}$, notons $\lambda(u)$ le plus grand poids de $u$ (§ 7, n° 2, th. 1), de sorte que $u \mapsto \lambda(u)$ est une application bijective de $\hat{G}$ dans l’ensemble $X_{++}$ des éléments dominants de $X(T)$.
 
-Soit $\Gamma \in U(G)$ un élément de Casimir de $G$ (\S 7, n° 6); pour tout $u \in \hat{G}$, l’endomorphisme $u(\Gamma)$ de $E_u$ est une homothétie, dont nous noterons $\tilde{\Gamma}(u)$ le rapport, d’où une application $u \mapsto \tilde{\Gamma}(u)$ de $\hat{G}$ dans $\mathbf{C}$.
+Soit $\Gamma \in U(G)$ un élément de Casimir de $G$ (§ 7, n° 6); pour tout $u \in \hat{G}$, l’endomorphisme $u(\Gamma)$ de $E_u$ est une homothétie, dont nous noterons $\tilde{\Gamma}(u)$ le rapport, d’où une application $u \mapsto \tilde{\Gamma}(u)$ de $\hat{G}$ dans $\mathbf{C}$.
 
 Si $\varphi$ et $\psi$ sont deux fonctions à valeurs réelles positives sur $\hat{G}$, on note « $\varphi \preccurlyeq \psi$ » ou « $\varphi(u) \preccurlyeq \psi(u)$ » la relation « il existe $M > 0$ tel que $\varphi(u) \leq M \psi(u)$ pour tout $u \in \hat{G}$ »; c’est une relation de préordre sur l’ensemble des fonctions sur $\hat{G}$ à valeurs réelles positives.
 
@@ -213,7 +213,7 @@ b) *Si* $G$ *est semi-simple, les conditions* (i) *et* (ii) *ci-dessus équivale
 
 (iii) *Il existe un entier* $n > 0$ *tel que* $\varphi(u) \preccurlyeq d(u)^n$ *(resp. pour tout entier* $n > 0$, *on a* $\varphi(u) \preccurlyeq d(u)^{-n}$).
 
-Notons d’abord que la condition (i) est évidemment indépendante de la norme choisie. On peut donc prendre pour norme celle qui est définie par la forme quadratique $Q_\Gamma$ associée à $\Gamma$ (\S 7, n° 6, prop. 4). On a alors
+Notons d’abord que la condition (i) est évidemment indépendante de la norme choisie. On peut donc prendre pour norme celle qui est définie par la forme quadratique $Q_\Gamma$ associée à $\Gamma$ (§ 7, n° 6, prop. 4). On a alors
 
 $$
 0 \leq \tilde{\Gamma}(u) = \|\lambda(u) + \rho\|^2 - \|\rho\|^2,
@@ -221,7 +221,7 @@ $$
 
 donc $\tilde{\Gamma}(u) + 1 \preccurlyeq (\|\lambda(u)\| + 1)^2 \preccurlyeq \tilde{\Gamma}(u) + 1$, d’où a).
 
-Par ailleurs, si $G$ est semi-simple, on a (\S 7, n° 5, cor. 1 au th. 3)
+Par ailleurs, si $G$ est semi-simple, on a (§ 7, n° 5, cor. 1 au th. 3)
 
 $$
 \|\lambda(u) + \rho\| \preccurlyeq d(u) \preccurlyeq \|\lambda(u) + \rho\|^N,\quad \text{où } N = 1/2\ (\dim G - \dim T),
@@ -233,7 +233,7 @@ Il résulte de la prop. 2 que la condition (i) est indépendante du tore maximal
 
 #### Exemple {#lie-ix-s8-n2-exa-1 .statement tag=01H1}
 
-La fonction $u \mapsto d(u)$ est à croissance modérée (\S 7, n° 5, cor. 1 au th. 3); pour toute norme $\|$ sur $\mathbf{R} \otimes X(T)$, la fonction $u \mapsto \|\lambda(u)\|$ est à croissance modérée. Pour tout élément de Casimir $\Gamma$, la fonction $u \mapsto \tilde{\Gamma}(u)$ est à croissance modérée ; plus généralement :
+La fonction $u \mapsto d(u)$ est à croissance modérée (§ 7, n° 5, cor. 1 au th. 3); pour toute norme $\|$ sur $\mathbf{R} \otimes X(T)$, la fonction $u \mapsto \|\lambda(u)\|$ est à croissance modérée. Pour tout élément de Casimir $\Gamma$, la fonction $u \mapsto \tilde{\Gamma}(u)$ est à croissance modérée ; plus généralement :
 
 #### Proposition 3 {#lie-ix-s8-prop-3 .statement tag=01H2}
 
@@ -291,7 +291,7 @@ La fonction $u \mapsto \sup_g |(L_t f_u)(g)|$ est donc à décroissance rapide, 
 
 (L_{t}f_{u})_{u\in\hat{G}} est donc uniformément sommable. On en déduit $^1$ que la somme de la famille $(f_{u})$ est une fonction indéfiniment dérivable sur $G$, dont la cotransformée de Fourier est $(A_{u})$, d'où le théorème.
 
-Notons $\mathcal{S}(\hat{G})$ le sous-espace vectoriel de $L^{2}(\hat{G})$ formé des familles $A = (A_{u})_{u\in\hat{G}}$ telles que la fonction $u \mapsto \|A_{u}\|_{\infty}$ soit à décroissance rapide sur $\hat{G}$. Il résulte du théorème que les applications $\overline{\mathcal{F}} : f \mapsto (u(f))_{u\in\hat{G}}$ et $\mathcal{F} : A \mapsto \sum_{u\in\hat{G}} \langle u(g)|A_{u} \rangle$ induisent des isomorphismes réciproques entre les espaces vectoriels complexes $\mathcal{C}^{\infty}(G ; \mathbf{C})$ et $\mathcal{S}(\hat{G})$. Munissons l'espace $\mathcal{C}^{\infty}(G ; \mathbf{C})$ de la topologie de la $C^{\infty}$-convergence uniforme ($\S 6$, n° 4) qui peut être définie par la famille des semi-normes $f \mapsto \sup_{g\in G} |L_{t}f(g)|$ pour $t \in U(G)$, et l'espace $\mathcal{S}(\hat{G})$ de la topologie définie par la suite des semi-normes $p_{n} : A \mapsto \sup_{u\in\hat{G}} (\tilde{\Gamma}(u) + 1)^{n} \|A_{u}\|_{\infty}$. La formule (15) de la démonstration précédente entraîne que $\overline{\mathcal{F}}$ est continue. Soient $t \in U(G)$, $A = (A_{u})_{u\in\hat{G}}$ un élément de $\mathcal{S}(\hat{G})$; posons $f_{u}(g) = \langle u(g)|A_{u} \rangle$. Soit $p$ un entier tel que $\sum_{u\in\hat{G}} \tilde{\Gamma}(u)^{-p} = M < \infty$. D'après la démonstration précédente, il existe un entier positif $m$ tel qu'on ait, pour tout $g \in G$,
+Notons $\mathcal{S}(\hat{G})$ le sous-espace vectoriel de $L^{2}(\hat{G})$ formé des familles $A = (A_{u})_{u\in\hat{G}}$ telles que la fonction $u \mapsto \|A_{u}\|_{\infty}$ soit à décroissance rapide sur $\hat{G}$. Il résulte du théorème que les applications $\overline{\mathcal{F}} : f \mapsto (u(f))_{u\in\hat{G}}$ et $\mathcal{F} : A \mapsto \sum_{u\in\hat{G}} \langle u(g)|A_{u} \rangle$ induisent des isomorphismes réciproques entre les espaces vectoriels complexes $\mathcal{C}^{\infty}(G ; \mathbf{C})$ et $\mathcal{S}(\hat{G})$. Munissons l'espace $\mathcal{C}^{\infty}(G ; \mathbf{C})$ de la topologie de la $C^{\infty}$-convergence uniforme ($§ 6$, n° 4) qui peut être définie par la famille des semi-normes $f \mapsto \sup_{g\in G} |L_{t}f(g)|$ pour $t \in U(G)$, et l'espace $\mathcal{S}(\hat{G})$ de la topologie définie par la suite des semi-normes $p_{n} : A \mapsto \sup_{u\in\hat{G}} (\tilde{\Gamma}(u) + 1)^{n} \|A_{u}\|_{\infty}$. La formule (15) de la démonstration précédente entraîne que $\overline{\mathcal{F}}$ est continue. Soient $t \in U(G)$, $A = (A_{u})_{u\in\hat{G}}$ un élément de $\mathcal{S}(\hat{G})$; posons $f_{u}(g) = \langle u(g)|A_{u} \rangle$. Soit $p$ un entier tel que $\sum_{u\in\hat{G}} \tilde{\Gamma}(u)^{-p} = M < \infty$. D'après la démonstration précédente, il existe un entier positif $m$ tel qu'on ait, pour tout $g \in G$,
 
 $$
 |(L_{t}f_{u})(g)| \leq d(u)^{2} \|u(t)\|_{\infty} \|A_{u}\|_{\infty} \leq m.(1 + \tilde{\Gamma}(u))^{m} \tilde{\Gamma}(u)^{-p} \|A_{u}\|_{\infty}
@@ -324,9 +324,9 @@ $$
 \chi_{u} * \chi_{u} = \frac{1}{d(u)} \chi_{u} \quad (u \in \hat{G}).
 $$
 
-$^1$ Cela résulte de ce que l'espace $\mathcal{C}^{\infty}(G ; \mathbf{C})$, muni de la topologie de la $C^{\infty}$-convergence uniforme ($\S 6$, n° 4), est complet.
+$^1$ Cela résulte de ce que l'espace $\mathcal{C}^{\infty}(G ; \mathbf{C})$, muni de la topologie de la $C^{\infty}$-convergence uniforme ($§ 6$, n° 4), est complet.
 
-Pour tout $u \in \hat{G}$, notons $\varepsilon_u$ l’application identique de $E_u$. Rappelons (\S 7, n° 4) qu’on note $ZL^2(G)$ le sous-espace de $L^2(G)$ formé des classes de fonctions $f$ qui sont centrales, c’est-à-dire telles que $f \circ \mathrm{Int}\ s = f$ pour tout $s \in G$, ou de manière équivalente $\gamma(s)\ f = \delta(s^{-1})\ f$ pour tout $s \in G$.
+Pour tout $u \in \hat{G}$, notons $\varepsilon_u$ l’application identique de $E_u$. Rappelons (§ 7, n° 4) qu’on note $ZL^2(G)$ le sous-espace de $L^2(G)$ formé des classes de fonctions $f$ qui sont centrales, c’est-à-dire telles que $f \circ \mathrm{Int}\ s = f$ pour tout $s \in G$, ou de manière équivalente $\gamma(s)\ f = \delta(s^{-1})\ f$ pour tout $s \in G$.
 
 #### Proposition 4 {#lie-ix-s8-prop-4 .statement tag=01H5}
 
@@ -447,7 +447,7 @@ $$
 
 où les flèches verticales représentent les injections canoniques, et où les applications $a_c, a_\infty, a_\Theta$ sont induites par l’application de restriction de $\mathcal{C}(G)$ dans $\mathcal{C}(T)$.
 
-Les applications $a_c, a_\infty, a_\Theta$ sont *bijectives* (\S 2, no 5, cor. 1 à la prop. 5, \S 8, no 3, cor. à la prop. 5, et \S 7, no 3, cor. à la prop. 2).
+Les applications $a_c, a_\infty, a_\Theta$ sont *bijectives* (§ 2, no 5, cor. 1 à la prop. 5, § 8, no 3, cor. à la prop. 5, et § 7, no 3, cor. à la prop. 2).
 
 Supposons maintenant que la demi-somme $\rho$ des racines positives appartienne à $X(T)$ et considérons l’application $b$ qui à chaque fonction continue $\varphi$ sur T associe $\varphi . J(\rho)$. On a un diagramme commutatif
 
@@ -463,7 +463,7 @@ Z\Theta(G) & \xrightarrow{a_\Theta} & \Theta(T)^W & \xrightarrow{b_\Theta} & \Th
 \end{array}
 $$
 
-où les flèches verticales sont les inclusions canoniques, les applications $b_c, b_\infty, b_\Theta$ sont induites par $b$, et où $u$ prolonge $b_c \circ a_c$ par continuité (\S 7, no 4, cor. 3 au th. 2). Les applications $u$ et $b_\Theta$ sont *bijectives* (*loc. cit.*); il en est de même pour $b_\infty$ (exerc. 5); en revanche, $b_c$ n’est pas en général surjective (exerc. 6).
+où les flèches verticales sont les inclusions canoniques, les applications $b_c, b_\infty, b_\Theta$ sont induites par $b$, et où $u$ prolonge $b_c \circ a_c$ par continuité (§ 7, no 4, cor. 3 au th. 2). Les applications $u$ et $b_\Theta$ sont *bijectives* (*loc. cit.*); il en est de même pour $b_\infty$ (exerc. 5); en revanche, $b_c$ n’est pas en général surjective (exerc. 6).
 
 ## EXERCICES {#lie-ix-s8-exercises}
 

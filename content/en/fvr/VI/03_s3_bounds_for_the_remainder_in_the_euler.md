@@ -7,16 +7,17 @@ section: 3
 section_title: BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
 lang: en
 source: fvr-i-vii
+book_pages: 288-290, 296-297
 pdf_pages: 0303-0305, 0311-0312
 extraction: ocr
 subsections:
     - "no": 1
       title: BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
-      page: 0
+      page: 288
       pdf_page: 303
     - "no": 2
       title: APPLICATION TO ASYMPTOTIC EXPANSIONS
-      page: 0
+      page: 289
       pdf_page: 304
 statements: 0
 exercises: 3

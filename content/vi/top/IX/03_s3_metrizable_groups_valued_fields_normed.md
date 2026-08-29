@@ -40,9 +40,9 @@ subsections:
       pdf_page: 181
 statements: 40
 exercises: 4
-content_sha256: 59e5bdf257a6761ba95f3d15483294c163890598c3da69ede4125dfb753e105d
+content_sha256: 45765562479b004e5f431aaa97c1561fb983e7e45963edcd98430be81956c515
 translated_from: content/en/top/IX/03_s3_metrizable_groups_valued_fields_normed.md
-source_content_sha256: 10e79a35f8fb6784904e1324cd6246891046c2219592c361c5e9cb40a2de8c4f
+source_content_sha256: 83d55e1838c96863628bb4c841426e325a8058e294ac5b1a348690c7b008fc05
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-45e66895
 glossary_version: 34
@@ -177,9 +177,9 @@ Cho $G$ là một nhóm tôpô không Hausdorff sao cho nhóm Hausdorff liên k�
 
 #### Nhận xét 2 {#top-ix-s3-n1-rem-2 .statement}
 
-Cho d là một mêtric bất biến trái xác định tôpô của một nhóm mêtric hóa được G, và cho H là một nhóm con chuẩn đóng của G. Nếu $\dot{x}$ và $\dot{y}$ là hai điểm tùy ý của G/H, xét khoảng cách $d(\dot{x}, \dot{y})$ của hai tập con đóng $\dot{x}, \dot{y}$ trong G (\S 2, no. 2); ta sẽ thấy rằng hàm này là một mêtric bất biến trái trên G/H và xác định tôpô của nhóm thương này.
+Cho d là một mêtric bất biến trái xác định tôpô của một nhóm mêtric hóa được G, và cho H là một nhóm con chuẩn đóng của G. Nếu $\dot{x}$ và $\dot{y}$ là hai điểm tùy ý của G/H, xét khoảng cách $d(\dot{x}, \dot{y})$ của hai tập con đóng $\dot{x}, \dot{y}$ trong G (§ 2, no. 2); ta sẽ thấy rằng hàm này là một mêtric bất biến trái trên G/H và xác định tôpô của nhóm thương này.
 
-Trước hết nhận xét rằng nếu $x \in \dot{x}$ và $y \in \dot{y}$ thì ta có $d(\dot{x}, \dot{y}) = d(x, Hy)$; vì $d(x, Hy) = \inf_{h \in H} d(x, h y)$, và do đó $d(h'x, Hy) = d(x, Hy)$ với mọi $h' \in H$, vì d là bất biến trái; điều này chứng minh mệnh đề (\S 2, no. 2). Vậy với mỗi $\dot{z} \in G/H$ ta có [\S 2, no. 2, công thức (2)]
+Trước hết nhận xét rằng nếu $x \in \dot{x}$ và $y \in \dot{y}$ thì ta có $d(\dot{x}, \dot{y}) = d(x, Hy)$; vì $d(x, Hy) = \inf_{h \in H} d(x, h y)$, và do đó $d(h'x, Hy) = d(x, Hy)$ với mọi $h' \in H$, vì d là bất biến trái; điều này chứng minh mệnh đề (§ 2, no. 2). Vậy với mỗi $\dot{z} \in G/H$ ta có [§ 2, no. 2, công thức (2)]
 
 $$
 |d(\dot{x}, \dot{z}) - d(\dot{y}, \dot{z})| = |d(x, \dot{z}) - d(y, \dot{z})| \leq d(x, y);
@@ -247,7 +247,7 @@ Giá trị tuyệt đối của một số thực (Chương IV, § 1, no. 6) th�
 
 #### Ví dụ 3 {#top-ix-s3-n2-exa-3 .statement}
 
-Trên một vành chia $K$, một định giá thực là một hàm $v$ xác định trên $K^*$ với các giá trị trong $\mathbf{R}$ thỏa mãn các điều kiện sau: $a)$ nếu $x \in K^*$ và $y \in K^*$, thì $v(xy) = v(x) + v(y)$; $b)$ nếu ngoài ra $x + y \neq 0$, thì $v(x + y) \geq \inf(v(x), v(y))$. Nếu $a$ là một số thực $> 1$, ta có thể khi đó định nghĩa một giá trị tuyệt đối trên $K$ bằng cách đặt $|x| = a^{-v(x)}$ với $x \neq 0$, và $|0| = 0$. Vì quan hệ $v(xy) = v(x) + v(y)$ với $x \neq 0$ và $y \neq 0$ suy ra quan hệ $|xy| = |x|.|y|$ đối với các giá trị này của $x$ và $y$, và quan hệ này hiển nhiên đúng nếu một trong $x, y$ bằng không; tương tự, từ quan hệ $v(x + y) \geq \inf(v(x), v(y))$ với $x \neq 0, y \neq 0$ và $x + y \neq 0$ ta suy ra $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, và các bất đẳng thức này vẫn được thỏa mãn nếu một trong $x, y, x + y$ bằng không. Đặc biệt, nếu $v_p(x)$ là định giá $p$-adic trên trường $\mathbf{Q}$ của các số hữu tỉ (số mũ của $p$ trong phân tích của $x$ thành tích của các thừa số nguyên tố), thì giá trị tuyệt đối tương ứng $|x|_p = p^{-v_p(x)}$ được gọi là giá trị tuyệt đối $p$-adic trên trường $\mathbf{Q}$ (xem Chương III, § 6, Bài tập 23).
+Trên một vành chia $K$, một định giá thực là một hàm $v$ xác định trên $K^*$ với các giá trị trong $\mathbf{R}$ thỏa mãn các điều kiện sau: a) nếu $x \in K^*$ và $y \in K^*$, thì $v(xy) = v(x) + v(y)$; b) nếu ngoài ra $x + y \neq 0$, thì $v(x + y) \geq \inf(v(x), v(y))$. Nếu $a$ là một số thực $> 1$, ta có thể khi đó định nghĩa một giá trị tuyệt đối trên $K$ bằng cách đặt $|x| = a^{-v(x)}$ với $x \neq 0$, và $|0| = 0$. Vì quan hệ $v(xy) = v(x) + v(y)$ với $x \neq 0$ và $y \neq 0$ suy ra quan hệ $|xy| = |x|.|y|$ đối với các giá trị này của $x$ và $y$, và quan hệ này hiển nhiên đúng nếu một trong $x, y$ bằng không; tương tự, từ quan hệ $v(x + y) \geq \inf(v(x), v(y))$ với $x \neq 0, y \neq 0$ và $x + y \neq 0$ ta suy ra $|x + y| \leq \sup(|x|, |y|) \leq |x| + |y|$, và các bất đẳng thức này vẫn được thỏa mãn nếu một trong $x, y, x + y$ bằng không. Đặc biệt, nếu $v_p(x)$ là định giá $p$-adic trên trường $\mathbf{Q}$ của các số hữu tỉ (số mũ của $p$ trong phân tích của $x$ thành tích của các thừa số nguyên tố), thì giá trị tuyệt đối tương ứng $|x|_p = p^{-v_p(x)}$ được gọi là giá trị tuyệt đối $p$-adic trên trường $\mathbf{Q}$ (xem Chương III, § 6, Bài tập 23).
 
 #### Nhận xét {#top-ix-s3-n2-rem-1 .statement}
 
@@ -301,7 +301,7 @@ $$
 |x^{-1} - y^{-1}| = \frac{|x - y|}{|x| \cdot |y|} \leq \frac{\varepsilon}{a^2},
 $$
 
-và phần đầu tiên của mệnh đề được suy ra. Mêtric bất biến $|x - y| = d(x, y)$ được mở rộng bởi tính liên tục thành một mêtric trên $\hat{K}$ (\S 2, no. 1, Mệnh đề 1), mêtric này xác định tôpô của $\hat{K}$ và bất biến theo nguyên lý mở rộng các đồng nhất thức; ta tiếp tục ký hiệu mêtric bất biến này là $d(x, y)$. Nếu đặt $|x| = d(0, x)$ với $x \in \hat{K}$, thì rõ ràng $|x|$ là mở rộng bởi tính liên tục của hàm $|x|$ trên $K$ và do đó là một giá trị tuyệt đối trên $\hat{K}$ theo nguyên lý mở rộng các đồng nhất thức.
+và phần đầu tiên của mệnh đề được suy ra. Mêtric bất biến $|x - y| = d(x, y)$ được mở rộng bởi tính liên tục thành một mêtric trên $\hat{K}$ (§ 2, no. 1, Mệnh đề 1), mêtric này xác định tôpô của $\hat{K}$ và bất biến theo nguyên lý mở rộng các đồng nhất thức; ta tiếp tục ký hiệu mêtric bất biến này là $d(x, y)$. Nếu đặt $|x| = d(0, x)$ với $x \in \hat{K}$, thì rõ ràng $|x|$ là mở rộng bởi tính liên tục của hàm $|x|$ trên $K$ và do đó là một giá trị tuyệt đối trên $\hat{K}$ theo nguyên lý mở rộng các đồng nhất thức.
 
 ### 3. KHÔNG GIAN CHUẨN TRÊN MỘT VÀNH CHIA CÓ GIÁ TRỊ
 
@@ -385,7 +385,7 @@ $$
 
 Cho $E$ là một không gian chuẩn trên một vành chia định giá không rời rạc, cho $p$ là chuẩn trên $E$, và cho $\hat{E}$ là nhóm tôpô cộng tính là sự hoàn thành của nhóm cộng $E$. Khi đó hàm $(t, x) \to tx$ có thể được mở rộng bởi tính liên tục đến $\hat{K} \times \hat{E}$ và xác định trên $\hat{E}$ một cấu trúc không gian vectơ trên $\hat{K}$; chuẩn $p$ có thể được mở rộng bởi tính liên tục thành một chuẩn $\bar{p}$ trên $\hat{E}$ xác định tôpô của $\hat{E}$.
 
-Sự mở rộng của $tx$ bằng tính liên tục là một trường hợp riêng của định lý mở rộng một ánh xạ song tuyến tính liên tục của một tích của hai nhóm Abel vào một nhóm thứ ba (Chương III, § 6, no. 5, Định lý 1); ta có $1.x = x$ và $t(u x) = (t u)x$ với $t \in \hat{K}$, $u \in \hat{K}$ và $x \in \hat{E}$, theo nguyên lý mở rộng các đồng nhất thức; do đó phép toán ngoài $(t, x) \to t x$ thực sự xác định trên $\hat{E}$ một cấu trúc của một không gian vectơ trên $\hat{K}$. Mặt khác, mêtric bất biến $\overline{d}(x, y) = \overline{p}(x - y)$ mở rộng thành một mêtric bất biến $\overline{d}$ trên $\hat{E}$ (\S 2, no. 1, Mệnh đề 1), mêtric này xác định tôpô của $\hat{E}$; nếu đặt $\overline{p}(x) = \overline{d}(0, x)$, thì $\overline{p}$ là sự mở rộng của $p$ bằng tính liên tục, và thỏa mãn các tiên đề (NO_I) và (NO_{II}); do tính liên tục của $t x$ trên $\hat{K} \times \hat{E}$, $\overline{p}$ cũng thỏa mãn (NO_{III}) (nguyên lý mở rộng các đồng nhất thức) và do đó là một chuẩn trên $\hat{E}$.
+Sự mở rộng của $tx$ bằng tính liên tục là một trường hợp riêng của định lý mở rộng một ánh xạ song tuyến tính liên tục của một tích của hai nhóm Abel vào một nhóm thứ ba (Chương III, § 6, no. 5, Định lý 1); ta có $1.x = x$ và $t(u x) = (t u)x$ với $t \in \hat{K}$, $u \in \hat{K}$ và $x \in \hat{E}$, theo nguyên lý mở rộng các đồng nhất thức; do đó phép toán ngoài $(t, x) \to t x$ thực sự xác định trên $\hat{E}$ một cấu trúc của một không gian vectơ trên $\hat{K}$. Mặt khác, mêtric bất biến $\overline{d}(x, y) = \overline{p}(x - y)$ mở rộng thành một mêtric bất biến $\overline{d}$ trên $\hat{E}$ (§ 2, no. 1, Mệnh đề 1), mêtric này xác định tôpô của $\hat{E}$; nếu đặt $\overline{p}(x) = \overline{d}(0, x)$, thì $\overline{p}$ là sự mở rộng của $p$ bằng tính liên tục, và thỏa mãn các tiên đề (NO_I) và (NO_{II}); do tính liên tục của $t x$ trên $\hat{K} \times \hat{E}$, $\overline{p}$ cũng thỏa mãn (NO_{III}) (nguyên lý mở rộng các đồng nhất thức) và do đó là một chuẩn trên $\hat{E}$.
 
 Khi cần xét một cấu trúc không gian định chuẩn xác định trên một không gian vectơ $E$, thông thường ta sẽ ký hiệu chuẩn của một vectơ $x$ bằng $||x||$, trừ khi ký hiệu này có khả năng dẫn đến nhầm lẫn.
 

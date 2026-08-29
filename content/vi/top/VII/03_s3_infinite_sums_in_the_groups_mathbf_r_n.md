@@ -20,9 +20,9 @@ subsections:
       pdf_page: 92
 statements: 9
 exercises: 2
-content_sha256: c60a39b8d817fb4dab927743e66d021c3ed385681c4f5c269a5c17360db92cda
+content_sha256: e87b89c7b0aeee5820d3110f4ea985864da1cfb07622467026474898d1ab8256
 translated_from: content/en/top/VII/03_s3_infinite_sums_in_the_groups_mathbf_r_n.md
-source_content_sha256: 63ba3a9e422d70448db18bbb1c82a9347f390a6d75ddb2e4e632006793a8a2bc
+source_content_sha256: 7bb9d8c6584112e9559c49dbcd9c2f4e99bcb4f450d7cf7d15f5643a61cb0daf
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-d93bb120
 glossary_version: 34
@@ -34,7 +34,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. CÁC HỌ KHẢ TỔNG TRONG $\mathbf{R}^n$
 
-Vì mọi điểm của $\mathbf{R}^n$ đều có một *hệ cơ bản đếm được* các lân cận, một họ $(x_t)$ các điểm của nhóm cộng $\mathbf{R}^n$ chỉ khả tổng nếu tập hợp các chỉ số $t$ sao cho $X_t \neq 0$ là *đếm được* (Chương III, \S 5, no. 2, Hệ quả của Mệnh đề 1); do đó, về cơ bản, việc nghiên cứu các họ khả tổng
+Vì mọi điểm của $\mathbf{R}^n$ đều có một *hệ cơ bản đếm được* các lân cận, một họ $(x_t)$ các điểm của nhóm cộng $\mathbf{R}^n$ chỉ khả tổng nếu tập hợp các chỉ số $t$ sao cho $X_t \neq 0$ là *đếm được* (Chương III, § 5, no. 2, Hệ quả của Mệnh đề 1); do đó, về cơ bản, việc nghiên cứu các họ khả tổng
 
 #### Mệnh đề 1 {#top-vii-s3-prop-1 .statement}
 

@@ -22,7 +22,7 @@ subsections:
       pdf_page: 394
 statements: 6
 exercises: 0
-content_sha256: b1abe927440628b085d7a372f483b3d90c467463452fcb1aefa24f60c64818f0
+content_sha256: 166c8e4a3ff2601758b90e2cbc28e90c5ad2ac9dc57f18a2eb1d30f70fa6ca87
 ---
 
 ## APPENDIX II
@@ -63,19 +63,19 @@ c) There exists an $A_{(\mathbf{C})}$-isomorphism $\theta$ from W to $\overline{
 
 The complex vector space Hom$_{A_{(\mathbf{C})}}(W,W)$ is of dimension $\leq 1 ($Algebra, Chap. VIII, §3, no. 2); if $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$, the endomorphism $\theta \circ \theta$ of W is a homothety, with ratio $\alpha \in \mathbf{C}$. For all $w\in W$, we have $\alpha \theta (w) =\theta \circ \theta \circ \theta (w) =$ $\theta (\alpha w) = \overline{\alpha \theta}(w)$, so $\alpha$ is real. If $\theta '=\lambda \theta$, with $\lambda \in \mathbf{C}$, then $\theta '\circ \theta '=|\lambda |^2\theta \circ \theta$; thus, exactly one of the following three possibilities is realised:
 
-$a)$ There exists $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ with $\theta \circ \theta = 1_W$;
+a) There exists $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ with $\theta \circ \theta = 1_W$;
 
-$b)$ Hom$_{A_{(\mathbf{C})}}(W,W) =\{0\}$;
+b) Hom$_{A_{(\mathbf{C})}}(W,W) =\{0\}$;
 
-$c)$ There exists $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ with $\theta \circ \theta =-1_W$.
+c) There exists $\theta \in$ Hom$_{A_{(\mathbf{C})}}(W,W)$ with $\theta \circ \theta =-1_W$.
 
-In case $a)$, the set V of fixed points of $\theta$ is an $\mathbf{R}$-structure on W (Algebra, Chap. V, p. 61, Prop. 7); since $V_{(\mathbf{C})}$ is isomorphic to W, the A-module V is simple with commutant $\mathbf{R}.1_V$ (Prop. 1), and $W_{[\mathbf{R}]}$ is not simple.
+In case a), the set V of fixed points of $\theta$ is an $\mathbf{R}$-structure on W (Algebra, Chap. V, p. 61, Prop. 7); since $V_{(\mathbf{C})}$ is isomorphic to W, the A-module V is simple with commutant $\mathbf{R}.1_V$ (Prop. 1), and $W_{[\mathbf{R}]}$ is not simple.
 
 Conversely, if $W_{[\mathbf{R}]}$ is not simple, let V be a simple A-submodule of $W_{[\mathbf{R}]}$; since the $A_{(\mathbf{C})}$-module W is simple, $V +iV = W$ and $V\cap iV =\{0\}$, that is, $W = V\oplus iV$. Thus, V is an $\mathbf{R}$-structure on W, and the isomorphism $\theta$ from W to $\overline{W}$ such that $\theta (v+iv') =v-iv'$ for $v$ and $v'$ in V satisfies $\theta \circ \theta = 1_W$.
 
-Consequently, in cases $b)$ and $c)$, the A-module $W_{[\mathbf{R}]}$ is simple; by Prop. 1, its commutant E is isomorphic to $\mathbf{C}$ in case $b)$, and to $\mathbf{H}$ in case $c)$. Moreover, it is clear that E contains $\mathbf{C}.1_W$, and $\mathbf{C}.\theta$ in case $c)$, hence the proposition.
+Consequently, in cases b) and c), the A-module $W_{[\mathbf{R}]}$ is simple; by Prop. 1, its commutant E is isomorphic to $\mathbf{C}$ in case b), and to $\mathbf{H}$ in case c). Moreover, it is clear that E contains $\mathbf{C}.1_W$, and $\mathbf{C}.\theta$ in case c), hence the proposition.
 
-With the assumptions in the proposition, the $A_{(\mathbf{C})}$-module W is said to be of real, complex or quaternionic type (relative to A) in case $a),b)$ or $c)$, respectively.
+With the assumptions in the proposition, the $A_{(\mathbf{C})}$-module W is said to be of real, complex or quaternionic type (relative to A) in case $a),b)$ or c), respectively.
 
 For $K =\mathbf{R}$ or $\mathbf{C}$, denote by $\mathfrak{S}_K(A)$ the set of classes of finite dimensional simple $A_{(K)}$-modules over K. The group $\Gamma =$ Gal($\mathbf{C}/\mathbf{R}$) operates on $\mathfrak{S}_{\mathbf{C}}(A)$; the two preceding propositions establish a bijective correspondence between $\mathfrak{S}_{\mathbf{R}}(A)$ and the quotient set $\mathfrak{S}_{\mathbf{C}}(A)/\Gamma$.
 
@@ -93,7 +93,7 @@ b) The representation $\rho$ is of complex type if and only if there exists no n
 
 c) The representation $\rho$ is of quaternionic type if and only if there exists a non-zero alternating bilinear form on W, invariant under G; such a form is necessarily separating.
 
-For $\theta \in$ Hom$_{\mathbf{C}^{(G)}}(W,W)$ and $x, y\in W$, put $B_{\theta}(x, y) = H(\theta x, y)$. Then $B_{\theta}$ is a bilinear form on W, invariant under G, and separating if $\theta$ is non-zero. Denote by $\mathscr{B}(W)^G$ the space of bilinear forms on W invariant under G; the map $\theta  \rightarrow B_{\theta}$ from Hom$_{\mathbf{C}^{(G)}}(W,W)$ to $\mathscr{B}(W)^G$ is an isomorphism of $\mathbf{C}$-vector spaces. This implies, in particular, assertion $b)$.
+For $\theta \in$ Hom$_{\mathbf{C}^{(G)}}(W,W)$ and $x, y\in W$, put $B_{\theta}(x, y) = H(\theta x, y)$. Then $B_{\theta}$ is a bilinear form on W, invariant under G, and separating if $\theta$ is non-zero. Denote by $\mathscr{B}(W)^G$ the space of bilinear forms on W invariant under G; the map $\theta  \rightarrow B_{\theta}$ from Hom$_{\mathbf{C}^{(G)}}(W,W)$ to $\mathscr{B}(W)^G$ is an isomorphism of $\mathbf{C}$-vector spaces. This implies, in particular, assertion b).
 
 Let $\theta$ be a $\mathbf{C}^{(G)}$-isomorphism from W to $\overline{W}$ such that $\theta \circ \theta =\alpha_W$, with $\alpha \in  \{-1,+1\}$ (Prop. 2); since $\mathscr{B}(W)^G$ is of dimension 1, there exists $\varepsilon \in \mathbf{C}$ such that
 
@@ -105,7 +105,7 @@ $$
 H(\theta x, \theta x) = B_{\theta}(x, \theta x) =\varepsilon B_{\theta}(\theta x, x) =\varepsilon H(\theta \circ \theta (x), x) =\varepsilon \alpha H(x, x)
 $$
 
-so $\varepsilon \alpha  >0$ since H is positive, that is, $\varepsilon =\alpha$. Assertions $a)$ and $c)$ now follow from Prop. 2.
+so $\varepsilon \alpha  >0$ since H is positive, that is, $\varepsilon =\alpha$. Assertions a) and c) now follow from Prop. 2.
 
 Denote by $dg$ the Haar measure of total mass 1 on G.
 

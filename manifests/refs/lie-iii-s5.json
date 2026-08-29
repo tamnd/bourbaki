@@ -1,0 +1,14 @@
+{"edges": [
+{"from":"","from_label":"lie-iii-s5-prop-2","to_label":"lie-iii-s4-prop-7","kind":"cites","raw":"§ 4, no. 3, Proposition 7","form":"section","resolved_by":"section-no","file":"content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md","line":279},
+{"from":"","from_label":"lie-iii-s5-n3-rem-1","to_label":"lie-iii-s5-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md","line":285},
+{"from":"","from_label":"lie-iii-s5-n3-rem-1","to_label":"lie-iii-s5-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md","line":309},
+{"from":"","from_label":"lie-iii-s5-n3-rem-1","to_label":"lie-iii-s5-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md","line":315},
+{"from":"","from_label":"lie-iii-s5-prop-4","to_label":"lie-iii-s5-prop-3","kind":"cites","raw":"Proposition 3","form":"local","resolved_by":"in-section","file":"content/en/lie/III/05_s5_formal_calculations_in_lie_groups.md","line":402},
+{"from":"","from_label":"lie-iii-s5-ex-2","to_label":"lie-iii-s3","kind":"cites","raw":"§ 3, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/III/exercises/s5/02.md","line":15},
+{"from":"","from_label":"lie-iii-s5-ex-2","to_label":"lie-iii-s3","kind":"cites","raw":"§ 3, no. 4","form":"section","resolved_by":"section","file":"content/en/lie/III/exercises/s5/02.md","line":15},
+{"from":"","from_label":"lie-iii-s5-ex-2","to_label":"lie-iii-s3","kind":"cites","raw":"§ 3, no. 6","form":"section","resolved_by":"section","file":"content/en/lie/III/exercises/s5/02.md","line":16},
+{"from":"","from_label":"lie-iii-s5-ex-2","to_label":"lie-iii-s5-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/lie/III/exercises/s5/02.md","line":21},
+{"from":"","from_label":"lie-iii-s5-ex-2","to_label":"lie-iii-s5-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/lie/III/exercises/s5/02.md","line":26},
+{"from":"","from_label":"lie-iii-s5-ex-2","to_label":"alg-i-s6","kind":"cites","raw":"Algebra, Chapter I, § 6, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/III/exercises/s5/02.md","line":26},
+{"from":"","from_label":"lie-iii-s5-ex-2","to_label":"lie-iii-s8-ex-6","kind":"cites","raw":"§ 8, Exercise 6","form":"section","resolved_by":"exercise","file":"content/en/lie/III/exercises/s5/02.md","line":27}
+]}

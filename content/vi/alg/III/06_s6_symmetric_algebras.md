@@ -37,9 +37,9 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: bca6ad13548681a1d94dfc1a78d76375790033ce5945a4d56b3b1d792e6cdf53
+content_sha256: aea0d836a0a2f7c8716863aece16fdf142d84600cf803c6dbe3d665eebd03995
 translated_from: content/en/alg/III/06_s6_symmetric_algebras.md
-source_content_sha256: 63e41fbae58d80d8618a450dc24fcb69552fa3b4cae09069175e9311e82e4dd9
+source_content_sha256: 84bef3ff3daeb266621d68ad4e83075e4cf4fb30c3042733551a762aafb41629
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-136a3468
 glossary_version: 34
@@ -134,9 +134,9 @@ trong đó $x_i \in M$, vì $S(u)$ là một đồng cấu đại số và $S^1(
 
 *Nếu $u: M \to N$ là một ánh xạ $A$-tuyến tính toàn ánh, thì đồng cấu $S(u): S(M) \to S(N)$ là toàn ánh và hạt nhân của nó là iđêan của $S(M)$ sinh bởi hạt nhân $P \subset M \subset S(M)$ của $u$.*
 
-Ta viết $v = T(u): T(M) \to T(N)$; ta biết (\S 5, no. 2, Mệnh đề 3) rằng $v$ là toàn ánh và do đó suy ra từ các định nghĩa rằng $v(\mathfrak{J}'_M) = \mathfrak{J}'_N$; nếu $\mathfrak{R}$ là hạt nhân của $v$, thì $v^{-1}(\mathfrak{J}'_N) = \mathfrak{R} + \mathfrak{J}'_M$. Vì $S(u): T(M)/\mathfrak{J}'_M \to T(N)/\mathfrak{J}'_N$ được dẫn xuất từ $v$ bằng cách chuyển qua các thương, nó là một đồng cấu toàn ánh có hạt nhân là $\mathfrak{R}' = (\mathfrak{R} + \mathfrak{J}'_M)/\mathfrak{J}'_M$. Vì $\mathfrak{R}$ được sinh bởi hạt nhân $P$ của $u$ (\S 5, no. 2), nên $\mathfrak{R}'$ cũng vậy.
+Ta viết $v = T(u): T(M) \to T(N)$; ta biết (§ 5, no. 2, Mệnh đề 3) rằng $v$ là toàn ánh và do đó suy ra từ các định nghĩa rằng $v(\mathfrak{J}'_M) = \mathfrak{J}'_N$; nếu $\mathfrak{R}$ là hạt nhân của $v$, thì $v^{-1}(\mathfrak{J}'_N) = \mathfrak{R} + \mathfrak{J}'_M$. Vì $S(u): T(M)/\mathfrak{J}'_M \to T(N)/\mathfrak{J}'_N$ được dẫn xuất từ $v$ bằng cách chuyển qua các thương, nó là một đồng cấu toàn ánh có hạt nhân là $\mathfrak{R}' = (\mathfrak{R} + \mathfrak{J}'_M)/\mathfrak{J}'_M$. Vì $\mathfrak{R}$ được sinh bởi hạt nhân $P$ của $u$ (§ 5, no. 2), nên $\mathfrak{R}'$ cũng vậy.
 
-Nếu $u: M \to N$ là một ánh xạ tuyến tính *đơn ánh*, thì không phải lúc nào cũng đúng rằng $S(u)$ là một ánh xạ đơn ánh (Bài tập 1). Tuy nhiên điều này đúng khi $u$ là một đơn ánh sao cho $u(M)$ là một *nhân tử trực tiếp* trong $N$ và khi đó ảnh của $S(u)$ (đẳng cấu với $S(M)$) là một *nhân tử trực tiếp* của $S(N)$; chứng minh cũng giống như chứng minh của các khẳng định tương tự đối với $T(u)$ (\S 5, no. 2) khi thay $T$ bởi $S$.
+Nếu $u: M \to N$ là một ánh xạ tuyến tính *đơn ánh*, thì không phải lúc nào cũng đúng rằng $S(u)$ là một ánh xạ đơn ánh (Bài tập 1). Tuy nhiên điều này đúng khi $u$ là một đơn ánh sao cho $u(M)$ là một *nhân tử trực tiếp* trong $N$ và khi đó ảnh của $S(u)$ (đẳng cấu với $S(M)$) là một *nhân tử trực tiếp* của $S(N)$; chứng minh cũng giống như chứng minh của các khẳng định tương tự đối với $T(u)$ (§ 5, no. 2) khi thay $T$ bởi $S$.
 
 #### Mệnh đề 5 {#alg-iii-s6-prop-5 .statement}
 
@@ -150,7 +150,7 @@ S(N \cap P) = S(N) \cap S(P).
 $$
 (4)
 
-Chứng minh quy về chứng minh của \S 5, no. 2, Mệnh đề 4 bằng cách thay $T$ bởi $S$ trong toàn bộ. Các giả thiết của Mệnh đề 5 luôn thỏa mãn đối với các môđun con *tùy ý* $N, P$ của $M$ khi $A$ là một trường.
+Chứng minh quy về chứng minh của § 5, no. 2, Mệnh đề 4 bằng cách thay $T$ bởi $S$ trong toàn bộ. Các giả thiết của Mệnh đề 5 luôn thỏa mãn đối với các môđun con *tùy ý* $N, P$ của $M$ khi $A$ là một trường.
 
 #### Hệ quả {#alg-iii-s6-n2-cor-1 .statement}
 
@@ -321,17 +321,17 @@ sao cho $g \circ h$ và $h \circ g$ lần lượt là các ánh xạ đồng nh�
 $$
 M_\lambda \xrightarrow{\phi'_M} S(M_\lambda) \xrightarrow{f_\lambda} \bigotimes_{\lambda \in L} S(M_\lambda).
 $$
-Tồn tại duy nhất một ánh xạ $A$-tuyến tính $u : M \to \bigotimes_{\lambda \in L} S(M_\lambda)$ sao cho $u \circ j_\lambda = u_\lambda$ với mọi $\lambda \in L$. Vì các $S(M_\lambda)$ là giao hoán, nên tích tenxơ của chúng cũng giao hoán (\S 4, no. 5) và do đó (no. 1, Mệnh đề 2) tồn tại duy nhất một đồng cấu đại số $h : S(M) \to \bigotimes_{\lambda \in L} S(M_\lambda)$ sao cho $h \circ \phi'_M = u$; mặt khác, hiển nhiên $u(M)$ được chứa trong môđun con các phần tử bậc 1 của đại số phân bậc $\bigotimes_{\lambda \in L} S(M_\lambda)$ và do đó $h$ là một đồng cấu đại số phân bậc. Với $x_\lambda \in M_\lambda$,
+Tồn tại duy nhất một ánh xạ $A$-tuyến tính $u : M \to \bigotimes_{\lambda \in L} S(M_\lambda)$ sao cho $u \circ j_\lambda = u_\lambda$ với mọi $\lambda \in L$. Vì các $S(M_\lambda)$ là giao hoán, nên tích tenxơ của chúng cũng giao hoán (§ 4, no. 5) và do đó (no. 1, Mệnh đề 2) tồn tại duy nhất một đồng cấu đại số $h : S(M) \to \bigotimes_{\lambda \in L} S(M_\lambda)$ sao cho $h \circ \phi'_M = u$; mặt khác, hiển nhiên $u(M)$ được chứa trong môđun con các phần tử bậc 1 của đại số phân bậc $\bigotimes_{\lambda \in L} S(M_\lambda)$ và do đó $h$ là một đồng cấu đại số phân bậc. Với $x_\lambda \in M_\lambda$,
 $$
 h(g(u_\lambda(x_\lambda))) = h(g(f_\lambda(\phi'_M(x_\lambda)))) = h(S(j_\lambda)(\phi'_M(x_\lambda))) = h(\phi'_M(j_\lambda(x_\lambda))) = u_\lambda(x_\lambda);
 $$
-vì các $u_\lambda(x_\lambda)$ sinh ra đại số $\bigotimes_{\lambda \in L} S(M_\lambda)$ (\S 4, no. 5, Mệnh đề 8), $h \circ g$ chắc chắn là ánh xạ đồng nhất. Tương tự,
+vì các $u_\lambda(x_\lambda)$ sinh ra đại số $\bigotimes_{\lambda \in L} S(M_\lambda)$ (§ 4, no. 5, Mệnh đề 8), $h \circ g$ chắc chắn là ánh xạ đồng nhất. Tương tự,
 $$
 g(h(\phi'_M(j_\lambda(x_\lambda)))) = g(u_\lambda(x_\lambda)) = g(f_\lambda(\phi'_M(x_\lambda))) = S(j_\lambda)(\phi'_M(x_\lambda)) = \phi'_M(j_\lambda(x_\lambda))
 $$
 và, vì các phần tử $\phi'_M(j_\lambda(x_\lambda))$ sinh ra đại số $S(M)$, $g \circ h$ chắc chắn là ánh xạ đồng nhất.
 
-Nhận xét (1) Cho $N = \bigoplus_{\lambda \in L} N_\lambda$ là tổng trực tiếp của một họ khác các $A$-môđun với $L$ làm tập chỉ số và, với mọi $\lambda \in L$, cho $v_\lambda : M_\lambda \to N_\lambda$ là một ánh xạ $A$-tuyến tính, do đó có một ánh xạ $A$-tuyến tính $v = \bigoplus_\lambda v_\lambda : M \to N$ (II, \S 1, no. 6, Mệnh đề 6). Khi đó biểu đồ
+Nhận xét (1) Cho $N = \bigoplus_{\lambda \in L} N_\lambda$ là tổng trực tiếp của một họ khác các $A$-môđun với $L$ làm tập chỉ số và, với mọi $\lambda \in L$, cho $v_\lambda : M_\lambda \to N_\lambda$ là một ánh xạ $A$-tuyến tính, do đó có một ánh xạ $A$-tuyến tính $v = \bigoplus_\lambda v_\lambda : M \to N$ (II, § 1, no. 6, Mệnh đề 6). Khi đó biểu đồ
 $$
 \begin{array}{ccc}
 \bigotimes_{\lambda \in L} S(M_\lambda) & \xrightarrow{g_M} & S(M) \\
@@ -339,21 +339,21 @@ $$
 \bigoplus_{\lambda \in L} S(v_\lambda) & \xrightarrow{g_N} & S(N)
 \end{array}
 $$
-là giao hoán, như suy ra từ các định nghĩa (\S 4, no. 5, Hệ quả của Mệnh đề 8).
+là giao hoán, như suy ra từ các định nghĩa (§ 4, no. 5, Hệ quả của Mệnh đề 8).
 
-The A-môđun con của $\bigotimes_{\lambda \in L} S(M_\lambda)$ mà qua đẳng cấu $g$ $S^n(M)$ được đồng nhất có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, sao cho $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ tương ứng với tập có hướng $\mathcal{F}(L)$ các tập con hữu hạn của $L$, theo định nghĩa (\S 4, no. 5). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (do đó có giá hữu hạn) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá của họ $\nu$, ta viết
+The A-môđun con của $\bigotimes_{\lambda \in L} S(M_\lambda)$ mà qua đẳng cấu $g$ $S^n(M)$ được đồng nhất có thể được mô tả chính xác hơn. Với mọi tập con hữu hạn $J$ của $L$, ta viết $E_J = \bigotimes_{\lambda \in J} S(M_\lambda)$, sao cho $\bigotimes_{\lambda \in L} S(M_\lambda) = \varprojlim E_J$ tương ứng với tập có hướng $\mathcal{F}(L)$ các tập con hữu hạn của $L$, theo định nghĩa (§ 4, no. 5). Với mọi họ $\nu = (n_\lambda) \in \mathbf{N}^{(L)}$ (do đó có giá hữu hạn) sao cho $\sum_{\lambda \in L} n_\lambda = n$ và mọi tập con hữu hạn $J$ của $L$ chứa giá của họ $\nu$, ta viết
 
 $$
 S^{J,\nu}(M) = \bigotimes_{\lambda \in J} S^{n_\lambda}(M_\lambda)
 $$
 
-sao cho môđun con $E_{J,n}$ gồm các phần tử bậc $n$ trong $E_J$ là *tổng trực tiếp* của các $S^{J,\nu}(M)$ theo mọi họ $\nu$ có giá được chứa trong $J$ và sao cho $\sum_{\lambda \in L} n_\lambda = n$ (\S 4, no. 7, Mệnh đề 10 và \S 4, no. 8). Theo quy ước, ta viết $S^{J,\nu}(M) = \{0\}$ cho các họ $\nu$ có giá không được chứa trong $J$; khi đó $E_{J,n}$ cũng có thể được gọi là *tổng trực tiếp* của *mọi* $S^{J,\nu}(M)$, trong đó $\nu$ chạy qua tập $H_n$ gồm *mọi* họ $\nu = (n_\lambda)_{\lambda \in L}$ sao cho $\sum_{\lambda \in L} n_\lambda = n$. Vì $S^0(M_\lambda)$ được đồng nhất với $A$, rõ ràng cũng vậy, với hai tập con hữu hạn $J \subset J'$ của $L$ và một họ $\nu$ có giá được chứa trong $J$, ánh xạ chính tắc $S^{J,\nu}(M) \to S^{J',\nu}(M)$ (hạn chế của ánh xạ chính tắc $E_J \to E_J$ lên $S^{J,\nu}(M)$) là *song ánh*. Nếu ta viết, với mọi $\nu \in H_n$,
+sao cho môđun con $E_{J,n}$ gồm các phần tử bậc $n$ trong $E_J$ là *tổng trực tiếp* của các $S^{J,\nu}(M)$ theo mọi họ $\nu$ có giá được chứa trong $J$ và sao cho $\sum_{\lambda \in L} n_\lambda = n$ (§ 4, no. 7, Mệnh đề 10 và § 4, no. 8). Theo quy ước, ta viết $S^{J,\nu}(M) = \{0\}$ cho các họ $\nu$ có giá không được chứa trong $J$; khi đó $E_{J,n}$ cũng có thể được gọi là *tổng trực tiếp* của *mọi* $S^{J,\nu}(M)$, trong đó $\nu$ chạy qua tập $H_n$ gồm *mọi* họ $\nu = (n_\lambda)_{\lambda \in L}$ sao cho $\sum_{\lambda \in L} n_\lambda = n$. Vì $S^0(M_\lambda)$ được đồng nhất với $A$, rõ ràng cũng vậy, với hai tập con hữu hạn $J \subset J'$ của $L$ và một họ $\nu$ có giá được chứa trong $J$, ánh xạ chính tắc $S^{J,\nu}(M) \to S^{J',\nu}(M)$ (hạn chế của ánh xạ chính tắc $E_J \to E_J$ lên $S^{J,\nu}(M)$) là *song ánh*. Nếu ta viết, với mọi $\nu \in H_n$,
 
 $$
 S^\nu(M) = \varprojlim S^{J,\nu}(M)
 $$
 
-thì thấy rằng, xét đến II, \S 6, no. 2, Mệnh đề 5:
+thì thấy rằng, xét đến II, § 6, no. 2, Mệnh đề 5:
 
 #### Hệ quả {#alg-iii-s6-n6-cor-1 .statement}
 
@@ -371,7 +371,7 @@ $$
 
 (*phép nhân trong đại số giao hoán* $S(M)$). *Khi* $\alpha$ *chạy qua tập* $\mathbf{N}^{(L)}$ *gồm các ánh xạ của* $L$ *vào* $\mathbf{N}$, *có giá hữu hạn, thì các* $e^\alpha$ *lập thành một cơ sở của* $A$-*môđun* $S(M)$.
 
-Vì $M$ là tổng trực tiếp của các $M_\lambda = Ae_\lambda$, nên chỉ cần chứng minh định lý khi $L$ thu về một phần tử duy nhất rồi áp dụng Mệnh đề 9. Nhưng khi $M = Ae$ (*e* là một phần tử tự do), thì $x \otimes y - y \otimes x = 0$ với mọi $x, y$ trong $M$; do đó iđêan $\mathfrak{g}'$ bằng không, nên $T(Ae) = S(Ae)$ và định lý khi đó suy ra từ \S 5, no. 5, Định lý 1.
+Vì $M$ là tổng trực tiếp của các $M_\lambda = Ae_\lambda$, nên chỉ cần chứng minh định lý khi $L$ thu về một phần tử duy nhất rồi áp dụng Mệnh đề 9. Nhưng khi $M = Ae$ (*e* là một phần tử tự do), thì $x \otimes y - y \otimes x = 0$ với mọi $x, y$ trong $M$; do đó iđêan $\mathfrak{g}'$ bằng không, nên $T(Ae) = S(Ae)$ và định lý khi đó suy ra từ § 5, no. 5, Định lý 1.
 
 Bảng nhân của cơ sở (14) được cho bởi
 
@@ -379,23 +379,23 @@ Bảng nhân của cơ sở (14) được cho bởi
 $$
 e^\alpha e^\beta = e^{\alpha + \beta}
 $$
-trong đó $\alpha + \beta$ là ánh xạ $\lambda \mapsto \alpha(\lambda) + \beta(\lambda)$ của $L$ vào $\mathbf{N}$. Nói cách khác, cơ sở $(e^\alpha)$ của $S(M)$, với luật nhân (15), là đẳng cấu chính tắc với monoid giao hoán tự do $N^{(L)}$ dẫn xuất từ $L$; suy ra (\S 2, no. 9) rằng đại số đối xứng $S(M)$ của một môđun tự do $M$ có cơ sở với tập chỉ số là $L$, là đẳng cấu chính tắc với đại số đa thức $A[(X_\lambda)_{\lambda \in L}]$, trong đó đẳng cấu chính tắc này được xác định bằng cách gửi $e_\lambda$ tới $X_\lambda$. Đặc biệt (\S 2, no. 7, Mệnh đề 7), với mọi ánh xạ $f : L \to E$ của $L$ vào một $A$-đại số giao hoán $E$, tồn tại một và chỉ một đồng cấu $A$-đại số $\tilde{f} : S(M) \to E$ sao cho $\tilde{f}(e_\lambda) = f(\lambda)$.
+trong đó $\alpha + \beta$ là ánh xạ $\lambda \mapsto \alpha(\lambda) + \beta(\lambda)$ của $L$ vào $\mathbf{N}$. Nói cách khác, cơ sở $(e^\alpha)$ của $S(M)$, với luật nhân (15), là đẳng cấu chính tắc với monoid giao hoán tự do $N^{(L)}$ dẫn xuất từ $L$; suy ra (§ 2, no. 9) rằng đại số đối xứng $S(M)$ của một môđun tự do $M$ có cơ sở với tập chỉ số là $L$, là đẳng cấu chính tắc với đại số đa thức $A[(X_\lambda)_{\lambda \in L}]$, trong đó đẳng cấu chính tắc này được xác định bằng cách gửi $e_\lambda$ tới $X_\lambda$. Đặc biệt (§ 2, no. 7, Mệnh đề 7), với mọi ánh xạ $f : L \to E$ của $L$ vào một $A$-đại số giao hoán $E$, tồn tại một và chỉ một đồng cấu $A$-đại số $\tilde{f} : S(M) \to E$ sao cho $\tilde{f}(e_\lambda) = f(\lambda)$.
 
-Nhận xét (2). Các kết quả trên cũng có thể thu được như một hệ quả của các tính chất phổ quát của đại số đa thức và đại số đối xứng, có xét đến II, \S 1, no. 11, Hệ quả 3 của Mệnh đề 17.
+Nhận xét (2). Các kết quả trên cũng có thể thu được như một hệ quả của các tính chất phổ quát của đại số đa thức và đại số đối xứng, có xét đến II, § 1, no. 11, Hệ quả 3 của Mệnh đề 17.
 
 #### Hệ quả {#alg-iii-s6-n6-cor-2 .statement}
 
 *Nếu $M$ là một $A$-môđun xạ ảnh, thì $S(M)$ là một $A$-môđun xạ ảnh.*
 
-Chứng minh giống như của \S 5, no. 5, Hệ quả của Định lý 1, thay $T$ bằng $S$.
+Chứng minh giống như của § 5, no. 5, Hệ quả của Định lý 1, thay $T$ bằng $S$.
 
 #### Mệnh đề 10 {#alg-iii-s6-prop-10 .statement}
 
 *Cho $\Delta$ là một nửa nhóm giao hoán có đơn vị, $M$ là một $A$-môđun phân bậc kiểu $\Delta$ và $(M_\alpha)_{\alpha \in \Delta}$ là sự phân bậc của nó. Với mỗi cặp có thứ tự $(\alpha, n) \in \Delta \times \mathbf{N}$, ký hiệu $S^{\alpha, n}(M)$ là môđun con của $S^n(M)$ bằng tổng trực tiếp của các môđun con $\bigotimes_{\lambda \in J} S^{n_\lambda}(M_{\alpha_\lambda})$, trong đó $(n_\lambda)_{\lambda \in L}$ chạy qua tập hợp các họ số nguyên $\geq 0$ sao cho $\sum_{\lambda \in L} n_\lambda = n$, $J$ là giá đỡ của nó và, với mỗi $(n_\lambda), (\alpha_\lambda)_{\lambda \in J}$ chạy qua tập hợp các họ của $\Delta^J$ sao cho $\sum_{\lambda \in J} \alpha_\lambda = \alpha$. Khi đó $(S^{\alpha, n}(M))_{(\alpha, n) \in \Delta \times \mathbf{N}}$ là sự phân bậc duy nhất kiểu $\Delta \times \mathbf{N}$ tương thích với cấu trúc đại số trên $S(M)$ và cảm sinh trên $M = S^1(M)$ sự phân bậc đã cho.*
 
-Việc $S(M)$ là tổng trực tiếp của các $S^{\alpha, n}(M)$ suy ra từ Hệ quả của Mệnh đề 9; phần còn lại của chứng minh giống hệt với phần cuối của chứng minh ở \S 5, no. 5, Mệnh đề 7.
+Việc $S(M)$ là tổng trực tiếp của các $S^{\alpha, n}(M)$ suy ra từ Hệ quả của Mệnh đề 9; phần còn lại của chứng minh giống hệt với phần cuối của chứng minh ở § 5, no. 5, Mệnh đề 7.
 
-Giả sử cụ thể hơn rằng $\Delta = \mathbf{Z}$ và cho $S(M)$ được mang phân bậc toàn phần (kiểu $\mathbf{Z}$) (II, \S 11, no. 1) tương ứng với sự phân bậc kiểu $\mathbf{Z} \times \mathbf{N}$ (và do đó cũng kiểu $\mathbf{Z} \times \mathbf{Z}$) đã định nghĩa ở trên; các phần tử thuần nhất bậc $n \in \mathbf{Z}$ theo sự phân bậc này vì thế là những phần tử thuộc tổng trực tiếp của các $S^{q, m}(M)$ với $q + m = n$. Cho $f$ là một *thuần nhất* ánh xạ tuyến tính *bậc* 0 của $A$-môđun phân bậc $M$ vào một *giao hoán* $A$-đại số phân bậc $F$ kiểu $\mathbf{Z}$; khi đó đồng cấu đại số $g : S(M) \to F$ sao cho $f = g \circ \phi_M'$ là một *đồng cấu đại số phân bậc kiểu* $\mathbf{Z}$, như suy ra từ công thức $g(x_1 x_2 \ldots x_n) = f(x_1) f(x_2) \ldots f(x_n)$ đối với các $x_i$ thuần nhất trong $M$, từ giả thiết về $f$ và từ định nghĩa của sự phân bậc kiểu $\mathbf{Z}$ trên $S(M)$.
+Giả sử cụ thể hơn rằng $\Delta = \mathbf{Z}$ và cho $S(M)$ được mang phân bậc toàn phần (kiểu $\mathbf{Z}$) (II, § 11, no. 1) tương ứng với sự phân bậc kiểu $\mathbf{Z} \times \mathbf{N}$ (và do đó cũng kiểu $\mathbf{Z} \times \mathbf{Z}$) đã định nghĩa ở trên; các phần tử thuần nhất bậc $n \in \mathbf{Z}$ theo sự phân bậc này vì thế là những phần tử thuộc tổng trực tiếp của các $S^{q, m}(M)$ với $q + m = n$. Cho $f$ là một *thuần nhất* ánh xạ tuyến tính *bậc* 0 của $A$-môđun phân bậc $M$ vào một *giao hoán* $A$-đại số phân bậc $F$ kiểu $\mathbf{Z}$; khi đó đồng cấu đại số $g : S(M) \to F$ sao cho $f = g \circ \phi_M'$ là một *đồng cấu đại số phân bậc kiểu* $\mathbf{Z}$, như suy ra từ công thức $g(x_1 x_2 \ldots x_n) = f(x_1) f(x_2) \ldots f(x_n)$ đối với các $x_i$ thuần nhất trong $M$, từ giả thiết về $f$ và từ định nghĩa của sự phân bậc kiểu $\mathbf{Z}$ trên $S(M)$.
 
 ### Bài tập {#alg-iii-s6-exercises}
 

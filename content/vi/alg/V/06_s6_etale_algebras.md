@@ -42,9 +42,9 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: 1cbb5b12525b3d20e5c535daaa1b2eef1096f89d6b1124e5dba6d2dc5279fc94
+content_sha256: d8337b84df2ee9c22ce9d881ed6e2f4beb99fb0856ee98e94ba808e1615dc707
 translated_from: content/en/alg/V/06_s6_etale_algebras.md
-source_content_sha256: 35e97934a59d56121249975b87c015808ae4d6daaeb6af73190878d88dd2f0f8
+source_content_sha256: 1c0ff6eab8a369a6cc0ba7a81f2a00f665a45cec046137d9abeebe3c7a4842b7
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-1025ba98
 glossary_version: 34
@@ -90,6 +90,27 @@ Khẳng định cuối cùng suy ra từ khẳng định đầu tiên, có tính
 
 #### Định lý 2 {#alg-v-s6-thm-2 .statement}
 
+— *Cho K là một trường vô hạn, L là một mở rộng của K và A là một đại số trên K. Cho $u_1, \ldots, u_n$ là các đồng cấu K-đại số phân biệt từ A vào L và f là một đa thức trong $L[X_1, \ldots, X_n]$. Nếu ta có $f(u_1(x), \ldots, u_n(x)) = 0$ với mọi $x \in A$, thì $f = 0$.*
+
+Cho B là tập hợp các phần tử của $L^n$ có dạng $(u_1(x), \ldots, u_n(x))$ với $x \in A$. Theo Định lý 1, không tồn tại dãy $(\alpha_1, \ldots, \alpha_n)$ gồm các phần tử không đồng thời bằng không trong L sao cho $\sum_{i=1}^n \alpha_i u_i(x) = 0$ với mọi $x \in A$; do đó (II, p. 301, Định lý 7) B sinh ra không gian vectơ $L^n$ trên L. Vậy tồn tại các phần tử $a_1, \ldots, a_n$ của $A$ sao cho ma trận $(u_i(a_j))_{1 \leq i,j \leq n}$ là khả nghịch.
+
+Ta định nghĩa đa thức $g \in L[Y_1, \ldots, Y_n]$ bởi
+$$
+g(Y_1, \ldots, Y_n) = f \left( \sum_{j=1}^n u_1(a_j) Y_j, \ldots, \sum_{j=1}^n u_n(a_j) Y_j \right).
+$$
+Cho $y_1, \ldots, y_n$ thuộc $K$; đặt $x = \sum_{i=1}^n y_i a_i$, ta có
+$$
+g(y_1, \ldots, y_n) = f(u_1(x), \ldots, u_n(x)),
+$$
+từ đó $g(y_1, \ldots, y_n) = 0$
+theo giả thiết về $f$. Vì trường $K$ là vô hạn, ta có $g = 0$ (IV, p. 18, Hệ quả 2); mặt khác ma trận $(u_i(a_j))$ có nghịch đảo $(b_{ij})$ và ta có
+$$
+f(X_1, \ldots, X_n) = g \left( \sum_{j=1}^n b_{1j} X_j, \ldots, \sum_{j=1}^n b_{nj} X_j \right),
+$$
+từ đó $f = 0$.
+
+Định lý 2 không có tương tự cho các trường hữu hạn. Chẳng hạn cho $K$ là một trường hữu hạn có q phần tử, $A = L = K$ và $f(X) = X^q - X$. Ta có $x^q = x$ với mọi $x \in K$ (V, p. 93, Mệnh đề 2); do đó nếu $u$ là tự đẳng cấu đồng nhất của $K$, ta có $f(u(x)) = 0$ với mọi $x \in K$, mặc dù $f$ không bằng không.
+
 ### 3. Các đại số chéo hóa được và các đại số etale
 
 #### Định nghĩa 1 {#alg-v-s6-def-1 .statement}
@@ -130,15 +151,15 @@ Ngược lại, giả sử *d)* đúng và xét A-môđun A,. Khi đó tồn t�
 
 *Cho L là một mở rộng của K và $\mathcal{H}$ là tập các đồng cấu đại số của A vào L. Ta có Card $\mathcal{H} \leq [A : K]$, với đẳng thức khi và chỉ khi A được L chéo hóa. Nếu A được L chéo hóa, thì $\mathcal{H}$ là một cơ sở của không gian L-vectơ $\mathrm{Hom}_K(A, L)$.*
 
-Không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L có chiều $[A : K]$, theo Công thức (2), và $\mathcal{H}$ là một tập con tự do của $\mathrm{Hom}_K(A, L)$ theo Định lý 1 (*V*, p. 27). Do đó ta có Card $\mathcal{H} \leq [A : K]$ với đẳng thức khi và chỉ khi $\mathcal{H}$ là một cơ sở của $\mathrm{Hom}_K(A, L)$. Tồn tại một đẳng cấu của các không gian L-vectơ, ký hiệu là $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, được đặc trưng bởi $u(x) = (\pi u)(1 \otimes x)$ với $x \in A$, và $\pi$ ánh xạ $\mathcal{H}$ lên tập $\mathcal{H}_L$ gồm các đồng cấu đại số L của $A(\cdot)$ vào L. Cuối cùng, sự tương đương của $a)$ và $c)$ trong Mệnh đề 1 cho thấy đại số $A_{(L)}$ trên L chéo hóa được khi và chỉ khi $\mathcal{H}_L$ sinh ra không gian vectơ $A_{(L)}^*$ trên L. Điều này hoàn tất chứng minh của Hệ quả.
+Không gian vectơ $\mathrm{Hom}_K(A, L)$ trên L có chiều $[A : K]$, theo Công thức (2), và $\mathcal{H}$ là một tập con tự do của $\mathrm{Hom}_K(A, L)$ theo Định lý 1 (*V*, p. 27). Do đó ta có Card $\mathcal{H} \leq [A : K]$ với đẳng thức khi và chỉ khi $\mathcal{H}$ là một cơ sở của $\mathrm{Hom}_K(A, L)$. Tồn tại một đẳng cấu của các không gian L-vectơ, ký hiệu là $\pi : \mathrm{Hom}_K(A, L) \to A_{(L)}^*$, được đặc trưng bởi $u(x) = (\pi u)(1 \otimes x)$ với $x \in A$, và $\pi$ ánh xạ $\mathcal{H}$ lên tập $\mathcal{H}_L$ gồm các đồng cấu đại số L của $A(\cdot)$ vào L. Cuối cùng, sự tương đương của a) và c) trong Mệnh đề 1 cho thấy đại số $A_{(L)}$ trên L chéo hóa được khi và chỉ khi $\mathcal{H}_L$ sinh ra không gian vectơ $A_{(L)}^*$ trên L. Điều này hoàn tất chứng minh của Hệ quả.
 
 #### Mệnh đề 2 {#alg-v-s6-prop-2 .statement}
 
 — *Cho A là một đại số trên K và $\Omega$ là một mở rộng đóng đại số của K. Các mệnh đề sau là tương đương*:
 
-$a)$ *Đại số A là etale*.
-$b)$ *Tồn tại một mở rộng bậc hữu hạn chéo hóa A*.
-$c)$ *Mở rộng $\Omega$ của K chéo hóa A*.
+a) *Đại số A là etale*.
+b) *Tồn tại một mở rộng bậc hữu hạn chéo hóa A*.
+c) *Mở rộng $\Omega$ của K chéo hóa A*.
 
 Giả sử A là etale. Gọi $n$ là bậc của A trên K, gọi L là một mở rộng của K chéo hóa A và gọi $\mathcal{H}$ là tập các đồng cấu đại số của A vào L. Theo Hệ quả của Mệnh đề 1 ta có Card $\mathcal{H} = n$. Mặt khác, với mỗi $u \in \mathcal{H}$, ta có $[u(A):K] \leq n$. Theo V, p. 18, Định lý 2, mở rộng con L' của L được sinh bởi các ảnh của các phần tử của $\mathcal{H}$ có bậc hữu hạn trên K. Vì tồn tại $n$ đồng cấu phân biệt của A vào L', nên mở rộng L' chéo hóa A, theo Hệ quả 1 của Mệnh đề 1. Điều này cho thấy a) suy ra b).
 
@@ -154,7 +175,7 @@ Chỉ cần chứng minh rằng một đại số $K^n$ chỉ có hữu hạn nh
 
 Cho A là một đại số con của $K^n$ và cho $v_1, \ldots, v_n$ là các hạn chế lên A của n phép chiếu $K^n \to K$. Vì giao của các hạt nhân của các $v_i$ rõ ràng bằng 0, nên các $v_i$ sinh ra không gian $K$-vectơ đối ngẫu của A (II, p. 302, Hệ quả 1); do đó A là một đại số trên $K$ chéo hóa được (V, p. 29, Mệnh đề 1).
 
-Với mọi tập con I của $\{1, 2, \ldots, n\}$, đặt $\varepsilon_I = \sum_{i \in I} \varepsilon_i$. Rõ ràng các phần tử $\varepsilon_I$ là các phần tử luỹ đẳng của $K^n$; ta có $\varepsilon_I = 0$ khi và chỉ khi I là rỗng, và $\varepsilon_I \varepsilon_J = \varepsilon_{I \cap J}$. Theo những gì đã nói, mọi đại số con A của $K^n$ đều chéo hóa được; bởi điều kiện $b)$ của Mệnh đề 1 mọi đại số con A của $K^n$ do đó thừa nhận một cơ sở $(\varepsilon_{I_1}, \ldots, \varepsilon_{I_p})$, trong đó $(I_1, \ldots, I_p)$ là một phân hoạch của $\{1, 2, \ldots, n\}$, và chỉ có hữu hạn nhiều đại số con như vậy.
+Với mọi tập con I của $\{1, 2, \ldots, n\}$, đặt $\varepsilon_I = \sum_{i \in I} \varepsilon_i$. Rõ ràng các phần tử $\varepsilon_I$ là các phần tử luỹ đẳng của $K^n$; ta có $\varepsilon_I = 0$ khi và chỉ khi I là rỗng, và $\varepsilon_I \varepsilon_J = \varepsilon_{I \cap J}$. Theo những gì đã nói, mọi đại số con A của $K^n$ đều chéo hóa được; bởi điều kiện b) của Mệnh đề 1 mọi đại số con A của $K^n$ do đó thừa nhận một cơ sở $(\varepsilon_{I_1}, \ldots, \varepsilon_{I_p})$, trong đó $(I_1, \ldots, I_p)$ là một phân hoạch của $\{1, 2, \ldots, n\}$, và chỉ có hữu hạn nhiều đại số con như vậy.
 
 Với mọi tập con I của $(1, 2, \ldots, n)$, hãy để $a_i$ là không gian con vectơ của $K^n$ có cơ sở là các phần tử luỹ đẳng $\varepsilon_i$ với $i \in I$; khi đó rõ ràng $a_i$ là một iđêan của $K^n$; hơn nữa nếu $J = (1, 2, \ldots, n) - I$, thì các lớp thặng dư $\overline{\varepsilon}_j$ của $\varepsilon_j$ modulo $a_i$, với $j \in J$, lập thành một cơ sở của $K^n / a_i$. Ta có $\overline{\varepsilon}_j^2 = \overline{\varepsilon}_j$ và $\overline{\varepsilon}_j \overline{\varepsilon}_k = 0$ nếu $j \neq k$, do đó đại số $K^n / a_I$ là chéo hóa được, theo Mệnh đề 1 của V, p. 29.
 
@@ -218,7 +239,7 @@ a) Để một $K$-đại số $A$ là étale, điều kiện cần và đủ l�
 
 b) Cho $A'$ là một đại số trên $K'$, không rút về $0$. Để $A'$ là étale trên $K$ thì cần và đủ rằng $A'$ phải là étale trên $K'$ và $K'$ là étale trên $K$.
 
-Ta lập luận như đối với Hệ quả 1, lần này áp dụng (8) cho $a)$ và (9) cho $b)$.
+Ta lập luận như đối với Hệ quả 1, lần này áp dụng (8) cho a) và (9) cho b).
 
 ### 6. Đặc trưng hóa vi phân của các đại số étale
 
@@ -226,9 +247,9 @@ Ta lập luận như đối với Hệ quả 1, lần này áp dụng (8) cho $a
 
 — Cho $A$ là một đại số giao hoán có bậc hữu hạn trên $K$. Để $A$ là étale thì cần và đủ rằng môđun $\Omega_K(A)$ của các vi phân trên $K$ của $A$ phải bằng $0$.
 
-$A)$ Cho $L$ là một bao đóng đại số của $K$ ($V$, p. 23, Định lý 2). Để $A$ là etale thì điều kiện cần và đủ là đại số $A_{(L)}$ trên $L$ phải chéo hóa được ($V$, p. 30, Mệnh đề 2). Hơn nữa, $A$-môđun $\Omega_L(A_{(L)})$ đẳng cấu với $\Omega_K(A) \otimes_A A_{(L)}$ (III, p. 572, Mệnh đề 20), do đó đẳng cấu với $\Omega_K(A) \otimes_K L$, nhờ tính kết hợp của tích tenxơ; vì vậy $\Omega_K(A) = 0$ tương đương với $\Omega_L(A_{(L)}) = 0$. Để chứng minh Định lý 3 thì do đó đủ xét trường hợp $K$ là đóng đại số và chỉ ra rằng đại số $A$ chéo hóa được khi và chỉ khi $\Omega_K(A) = 0$.
+A) Cho $L$ là một bao đóng đại số của $K$ ($V$, p. 23, Định lý 2). Để $A$ là etale thì điều kiện cần và đủ là đại số $A_{(L)}$ trên $L$ phải chéo hóa được ($V$, p. 30, Mệnh đề 2). Hơn nữa, $A$-môđun $\Omega_L(A_{(L)})$ đẳng cấu với $\Omega_K(A) \otimes_A A_{(L)}$ (III, p. 572, Mệnh đề 20), do đó đẳng cấu với $\Omega_K(A) \otimes_K L$, nhờ tính kết hợp của tích tenxơ; vì vậy $\Omega_K(A) = 0$ tương đương với $\Omega_L(A_{(L)}) = 0$. Để chứng minh Định lý 3 thì do đó đủ xét trường hợp $K$ là đóng đại số và chỉ ra rằng đại số $A$ chéo hóa được khi và chỉ khi $\Omega_K(A) = 0$.
 
-$B)$ Giả sử rằng $A$ là chéo hóa được; khi đó ($V$, p. 29, Mệnh đề 1), không gian vectơ $A$ được sinh bởi các lũy đẳng của $A$. Mệnh đề $\Omega_K(A) = 0$ do đó là một hệ quả của bổ đề sau:
+B) Giả sử rằng $A$ là chéo hóa được; khi đó ($V$, p. 29, Mệnh đề 1), không gian vectơ $A$ được sinh bởi các lũy đẳng của $A$. Mệnh đề $\Omega_K(A) = 0$ do đó là một hệ quả của bổ đề sau:
 
 #### Bổ đề 2 {#alg-v-s6-lem-2 .statement}
 
@@ -236,7 +257,7 @@ Cho $A$ là một đại số giao hoán trên $K$ và $e$ là một lũy đẳn
 
 Từ quan hệ $e = e^2$ ta suy ra $de = 2e \cdot de$; khi nhân với $e$ ta được $e \cdot de = 2e \cdot de$, do đó $e \cdot de = 0$, và vì thế cuối cùng, $de = 2e \cdot de = 0$.
 
-$C)$ Trước hết ta chứng minh hai bổ đề:
+C) Trước hết ta chứng minh hai bổ đề:
 
 #### Bổ đề 3 {#alg-v-s6-lem-3 .statement}
 
@@ -283,7 +304,7 @@ A) Trước hết ta chứng minh sự tương đương của $a$, $b$ và $c$.
 
 Giả sử rằng $A$ là etale và cho $L$ là một mở rộng của $K$. Cho $\Omega$ là một trường mở rộng đóng đại số của $L$ (V, p. 23, Định lý 2). Khi đó $L \otimes_K A$ đẳng cấu với một vành con của $\Omega \otimes_K A$ và vành sau đẳng cấu với một vành $\Omega^n$ theo Mệnh đề 2 (V, p. 30). Do đó vành $L \otimes_K A$ là reduced.
 
-Vậy ta đã chứng minh rằng $a)$ suy ra $b)$, và $c)$ là một trường hợp riêng của $b)$. Giả sử bây giờ $c)$ đúng. Để $K$-đại số $A$ là etale thì cần và đủ rằng $P$-đại số $A_{(P)}$ phải là etale (V, p. 32, Hệ quả 2). Do đó đại số $A$ là etale theo bổ đề sau:
+Vậy ta đã chứng minh rằng a) suy ra b), và c) là một trường hợp riêng của b). Giả sử bây giờ c) đúng. Để $K$-đại số $A$ là etale thì cần và đủ rằng $P$-đại số $A_{(P)}$ phải là etale (V, p. 32, Hệ quả 2). Do đó đại số $A$ là etale theo bổ đề sau:
 
 #### Bổ đề 5 {#alg-v-s6-lem-5 .statement}
 

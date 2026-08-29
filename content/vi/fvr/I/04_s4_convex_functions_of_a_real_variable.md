@@ -28,9 +28,9 @@ subsections:
       pdf_page: 45
 statements: 21
 exercises: 10
-content_sha256: 04b812f80d5fc0f4a127862188f43fc1e8dfc35776b0e5054413a9559cf3eaa3
+content_sha256: 27f70da6f0afe4eb5afa2ceef4ad82fae3ee56e2eb658f5adee5d5cf1e6fafe0
 translated_from: content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md
-source_content_sha256: ebbd1d31e07628013fc7f5c1aa1c85e2cc3cfd3cbf3381af000826188d729aa0
+source_content_sha256: 7ce62adb175e316461e0076f49e0da867be5dc77b36f37f3c179a2545bb96dd9
 translation_model: gpt-5.4
 translation_run: translate-vi-a606d333
 glossary_version: 34
@@ -46,11 +46,11 @@ Cho $H$ là một tập con của $\mathbf{R}$. $f$ là một hàm thực hữu 
 
 *Cho $A = (a, a')$, $B = (b, b')$, $C = (c, c')$ là ba điểm trong $\mathbf{R}^2$ sao cho $a < b < c$. Các mệnh đề sau là tương đương:*
 
-$a)$ *B ở dưới AC;*
-$b)$ *C nằm phía trên đường thẳng đi qua A và B;*
-$c)$ *A nằm phía trên đường thẳng đi qua B và C;*
-$d)$ $p(AB) \leq p(AC)$;
-$e)$ $p(AC) \leq p(BC)$.
+a) *B ở dưới AC;*
+b) *C nằm phía trên đường thẳng đi qua A và B;*
+c) *A nằm phía trên đường thẳng đi qua B và C;*
+d) $p(AB) \leq p(AC)$;
+e) $p(AC) \leq p(BC)$.
 
 Bổ đề vẫn còn đúng khi thay "phía trên" (resp. "phía dưới") bằng "phía trên hẳn" (resp. "phía dưới hẳn") và dấu $\leq$ bằng < (hình 1).
 

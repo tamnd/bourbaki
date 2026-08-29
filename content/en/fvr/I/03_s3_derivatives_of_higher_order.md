@@ -7,16 +7,17 @@ section: 3
 section_title: DERIVATIVES OF HIGHER ORDER
 lang: en
 source: fvr-i-vii
+book_pages: 20-23, 39-45
 pdf_pages: 0035-0038, 0054-0060
 extraction: ocr
 subsections:
     - "no": 1
       title: DERIVATIVES OF ORDER $n$
-      page: 0
+      page: 20
       pdf_page: 35
     - "no": 2
       title: TAYLOR'S FORMULA
-      page: 0
+      page: 21
       pdf_page: 36
 statements: 8
 exercises: 18

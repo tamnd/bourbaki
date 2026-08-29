@@ -41,7 +41,7 @@ subsections:
       pdf_page: 55
 statements: 18
 exercises: 10
-content_sha256: 6eca3d9ab803d413bfaf6f39a861f11ddce5dbf12fbed96d89ca819c7210a451
+content_sha256: 0d9072835e4cc9d8e53fe3b6aad9c26f3af0064dfdb8a3707999932c7d47ff19
 ---
 
 ## 3. FAITHFULLY FLAT MODULES
@@ -68,9 +68,9 @@ To simplify the writing we set $T(Q) = E \otimes_A Q$ for every left $A$-module 
 
 We prove first the equivalence of (a), (b) and (c).
 
-We prove that (a) implies (b). If (a) holds, clearly $E$ is flat (\$2, no. 3, Proposition 1). On the other hand, let $N$ be a left $A$-module such that $T(N) = 0$ and consider the sequence $0 \to N \to 0$; the hypothesis $T(N) = 0$ means that the sequence $0 \to T(N) \to 0$ is exact. By (a) the sequence $0 \to N \to 0$ is exact, whence $N = 0$.
+We prove that (a) implies (b). If (a) holds, clearly $E$ is flat (§ 2, no. 3, Proposition 1). On the other hand, let $N$ be a left $A$-module such that $T(N) = 0$ and consider the sequence $0 \to N \to 0$; the hypothesis $T(N) = 0$ means that the sequence $0 \to T(N) \to 0$ is exact. By (a) the sequence $0 \to N \to 0$ is exact, whence $N = 0$.
 
-We show that (b) implies (c). Suppose that (b) holds and let $u : N' \to N$ be a homomorphism and $I$ its image. As the image of $T(v)$ is identified with $T(I)$ (\$2, no. 3, Remark 2), the hypothesis $T(v) = 0$ implies $T(I) = 0$, hence $I = 0$ by (b) and consequently $v = 0$.
+We show that (b) implies (c). Suppose that (b) holds and let $u : N' \to N$ be a homomorphism and $I$ its image. As the image of $T(v)$ is identified with $T(I)$ (§ 2, no. 3, Remark 2), the hypothesis $T(v) = 0$ implies $T(I) = 0$, hence $I = 0$ by (b) and consequently $v = 0$.
 
 We show that (c) implies (a). Suppose then that (c) holds and consider a sequence
 $$
@@ -81,7 +81,7 @@ $$
 T(N') \xrightarrow{T(v)} T(N) \xrightarrow{T(w)} T(N'').
 $$
 
-If the sequence (1) is exact, so is (2), since $E$ is flat (\$2, no. 3, Proposition 1). Conversely, if (2) is exact, we have first $T(w \circ v) = T(w) \circ T(v) = 0$, hence $w \circ v = 0$ by hypothesis. Set $I = v(N')$ and $K = \overline{w}(0)$; then $I$ is contained in $K$ by the above. Consider the exact sequence
+If the sequence (1) is exact, so is (2), since $E$ is flat (§ 2, no. 3, Proposition 1). Conversely, if (2) is exact, we have first $T(w \circ v) = T(w) \circ T(v) = 0$, hence $w \circ v = 0$ by hypothesis. Set $I = v(N')$ and $K = \overline{w}(0)$; then $I$ is contained in $K$ by the above. Consider the exact sequence
 $$
 0 \to I \xrightarrow{i} K \xrightarrow{p} K/I \to 0
 $$
@@ -89,7 +89,7 @@ $i$ and $p$ being the canonical mappings. As $E$ is flat, the sequence
 $$
 0 \to T(I) \xrightarrow{T(i)} T(K) \xrightarrow{T(p)} T(K/I) \to 0
 $$
-is exact, in other words, $T(K/I)$ is isomorphic to $T(K)/T(I)$, which is 0 by hypothesis, since $T(I)$ (resp. $T(K)$) is identified with the image of $T(v)$ (resp. the kernel of $T(w)$) (\$2, no. 3, Remark 2). But the relation $T(p) = 0$ implies $p = 0$ by hypothesis, hence $K = I$, which proves that the sequence (1) is exact.
+is exact, in other words, $T(K/I)$ is isomorphic to $T(K)/T(I)$, which is 0 by hypothesis, since $T(I)$ (resp. $T(K)$) is identified with the image of $T(v)$ (resp. the kernel of $T(w)$) (§ 2, no. 3, Remark 2). But the relation $T(p) = 0$ implies $p = 0$ by hypothesis, hence $K = I$, which proves that the sequence (1) is exact.
 
 Finally we show the equivalence of (b) and (d). If (b) holds, then
 
@@ -125,13 +125,13 @@ This is an immediate consequence of criterion (a) of Proposition 1.
 
 Let $0 \to E' \to E \to E'' \to +0$ be an exact sequence of right $A$-modules. Suppose that $E'$ and $E''$ are flat and that one of them is faithfully flat. Then $E$ is faithfully flat.
 
-We know already that $E$ is flat ($\S 2$, no. 5, Proposition 5). We verify that $E$ has property (b) of Proposition 1. Let $N$ be a left $A$-module. As $E''$ is flat, there is an exact sequence
+We know already that $E$ is flat ($§ 2$, no. 5, Proposition 5). We verify that $E$ has property (b) of Proposition 1. Let $N$ be a left $A$-module. As $E''$ is flat, there is an exact sequence
 
 $$
 0 \to E' \otimes_A N \to E \otimes_A N \to E'' \otimes_A N \to 0
 $$
 
-($\S 2$, no. 5, Proposition 4). If $E \otimes_A N = 0$, it follows that $E' \otimes_A N$ and $E'' \otimes_A N$ are zero; as one of the modules $E'$, $E''$ is faithfully flat, this implies that $N = 0$.
+($§ 2$, no. 5, Proposition 4). If $E \otimes_A N = 0$, it follows that $E' \otimes_A N$ and $E'' \otimes_A N$ are zero; as one of the modules $E'$, $E''$ is faithfully flat, this implies that $N = 0$.
 
 ### 2. TENSOR PRODUCTS OF FAITHFULLY FLAT MODULES
 
@@ -139,7 +139,7 @@ $$
 
 Let $R, S$ be two rings, $E$ a right $R$-module and $F$ an $(R, S)$-bimodule. Suppose that $E$ is faithfully flat. Then, for $F$ to be a flat (resp. faithfully flat) $S$-module, it is necessary and sufficient that $E \otimes_R F$ be so.
 
-(1) If $F$ is flat, $E \otimes_R F$ is flat ($\S 2$, no. 7, Proposition 8).
+(1) If $F$ is flat, $E \otimes_R F$ is flat ($§ 2$, no. 7, Proposition 8).
 
 (2) Suppose that $E \otimes_R F$ is flat and let $\nu : N' \to N$ be an injective left $S$-module homomorphism. The homomorphism
 
@@ -147,7 +147,7 @@ $$
 l_E \otimes l_F \otimes \nu : E \otimes_R F \otimes_S N' \to E \otimes_R F \otimes_S N
 $$
 
-is then injective ($\S 2$, no. 3, Proposition 1). It follows from Proposition 2 of no. 1 that $l_F \otimes \nu : F \otimes_S N' \to F \otimes_S N$ is injective; then $F$ is a flat $S$-module ($\S 2$, no. 3, Proposition 1).
+is then injective ($§ 2$, no. 3, Proposition 1). It follows from Proposition 2 of no. 1 that $l_F \otimes \nu : F \otimes_S N' \to F \otimes_S N$ is injective; then $F$ is a flat $S$-module ($§ 2$, no. 3, Proposition 1).
 
 (3) Suppose that $F$ is faithfully flat and let $N$ be a left $S$-module such that $E \otimes_R F \otimes_S N = 0$. Since $E$ is faithfully flat, this implies that $F \otimes_S N = 0$, whence $N = 0$ since $F$ is faithfully flat; this proves that $E \otimes_R F$ is faithfully flat.
 
@@ -219,7 +219,7 @@ $$
 i \otimes 1_F : \rho_*(M) \otimes_A F \to \rho_*(M) \otimes_A B \otimes_A F
 $$
 
-is injective (\S 2, no. 1, Lemma 2). Taking $M = E$, it follows (since $i \otimes 1_F = 1_M \otimes j$) that $j$ is injective (no. 1, Proposition 2).
+is injective (§ 2, no. 1, Lemma 2). Taking $M = E$, it follows (since $i \otimes 1_F = 1_M \otimes j$) that $j$ is injective (no. 1, Proposition 2).
 
 Assertion (ii) follows from (i) by taking $F = A_s/a$ and (iii) from (ii) by taking $a = \{0\}$.
 
@@ -284,19 +284,19 @@ is injective; taking account of the identifications made, its image is $BF'$, wh
 
 (1) Without any hypothesis on $B$, clearly, if $F$ is a finitely generated left $A$-module, $B \otimes_A F$ is a finitely generated left $B$-module. Conversely, if $B \otimes_A F$ is a finitely generated $B$-module, it is generated by a finite number of elements of the form $1 \otimes x_i$ with $x_i \in F$; if $M$ is a sub-A-module of $F$ generated by the $x_i$ and $j$ the canonical injection $M \to F$, $1, \otimes j : B \otimes_A M \to B \otimes_A F$ is a surjective homomorphism, hence $j$ is surjective (no. 1, Proposition 2), which proves that $F$ is finitely generated.
 
-(2) *If* $F$ *admits a finite presentation, so does* $B \otimes_A F$ *without any hypothesis* on B (\S 2, no. 8). It remains to prove that, if $B \otimes_A F$ admits a finite presentation, so does F. We already know from (1) that F is finitely generated, hence there exists a surjective homomorphism $u : L \to F$, where L is a finitely generated free A-module. Let R be the kernel of u, so that $B \otimes_A R$ is identified with the kernel of the surjective homomorphism $l_B \otimes u : B \otimes_A L \to B \otimes_A F$ (\S 2, no. 3, *Remark 2*). As $B \otimes_A F$ admits a finite presentation by hypothesis, we conclude (\S 2, no. 8, Lemma 9) that $B \otimes_A R$ is finitely generated; then it follows from (1) that R is a finitely generated A-module and consequently F admits a finite presentation.
+(2) *If* $F$ *admits a finite presentation, so does* $B \otimes_A F$ *without any hypothesis* on B (§ 2, no. 8). It remains to prove that, if $B \otimes_A F$ admits a finite presentation, so does F. We already know from (1) that F is finitely generated, hence there exists a surjective homomorphism $u : L \to F$, where L is a finitely generated free A-module. Let R be the kernel of u, so that $B \otimes_A R$ is identified with the kernel of the surjective homomorphism $l_B \otimes u : B \otimes_A L \to B \otimes_A F$ (§ 2, no. 3, *Remark 2*). As $B \otimes_A F$ admits a finite presentation by hypothesis, we conclude (§ 2, no. 8, Lemma 9) that $B \otimes_A R$ is finitely generated; then it follows from (1) that R is a finitely generated A-module and consequently F admits a finite presentation.
 
 #### Proposition 12 {#ac-i-s3-prop-12 .statement}
 
 *Let B be a ring and A a commutative subring of the centre of B such that B is a faithfully flat A-module. For an A-module F to be projective and finitely generated, it is necessary and sufficient that $B \otimes_A F$ be a finitely generated projective left B-module.*
 
-The condition is obviously necessary without any hypothesis on A or B (*Algebra*, Chapter II, \S 5, no. 1, Corollary to Proposition 4); we prove that it is sufficient. If a finitely generated projective module admits a finite presentation (\S 2, no. 8, Lemma 8), the hypothesis implies that F admits a finite presentation by virtue of Proposition 11, hence, for every A-module M, there is a canonical isomorphism
+The condition is obviously necessary without any hypothesis on A or B (*Algebra*, Chapter II, § 5, no. 1, Corollary to Proposition 4); we prove that it is sufficient. If a finitely generated projective module admits a finite presentation (§ 2, no. 8, Lemma 8), the hypothesis implies that F admits a finite presentation by virtue of Proposition 11, hence, for every A-module M, there is a canonical isomorphism
 
 $$
 \omega : B \otimes_A \operatorname{Hom}_A(F, M) \to \operatorname{Hom}_B(B \otimes_A F, B \otimes_A M)
 $$
 
-(\S 2, no. 10, Proposition 11). Then let $v : M \to M''$ be a *surjective* A-module homomorphism and consider the commutative diagram
+(§ 2, no. 10, Proposition 11). Then let $v : M \to M''$ be a *surjective* A-module homomorphism and consider the commutative diagram
 
 $$
 \begin{array}{ccc}
@@ -306,7 +306,7 @@ B \otimes_A \operatorname{Hom}_A(F, M'') & \xrightarrow{\omega} & \operatorname{
 \end{array}
 $$
 
-As $1_B \otimes v$ is surjective and $B \otimes_A F$ is assumed projective, $\operatorname{Hom}(1_{B \otimes F}, 1_B \otimes v)$ is *surjective* (*Algebra*, Chapter II, \S 2, no. 2, Proposition 4) and so then is $1_B \otimes \operatorname{Hom}(1_F, v)$. But as B is a faithfully flat A-module, $\operatorname{Hom}(1_F, v)$ is itself surjective (no. 1, Proposition 2), hence F is a projective A-module (*Algebra*, Chapter II, \S 2, no. 2, Proposition 4).
+As $1_B \otimes v$ is surjective and $B \otimes_A F$ is assumed projective, $\operatorname{Hom}(1_{B \otimes F}, 1_B \otimes v)$ is *surjective* (*Algebra*, Chapter II, § 2, no. 2, Proposition 4) and so then is $1_B \otimes \operatorname{Hom}(1_F, v)$. But as B is a faithfully flat A-module, $\operatorname{Hom}(1_F, v)$ is itself surjective (no. 1, Proposition 2), hence F is a projective A-module (*Algebra*, Chapter II, § 2, no. 2, Proposition 4).
 
 ### 7. LINEAR EQUATIONS OVER A FAITHFULLY FLAT RING
 
@@ -330,7 +330,7 @@ where $(x_k)$ is a solution of (3) consisting of elements of $A$, the $b_j$ belo
 
 Let $A$ be a subring of a ring $B$. For the ordered pair $(A, B)$ to satisfy the linear extension property, it is necessary and sufficient that $B$ be a faithfully flat $A$-module.
 
-The condition is *sufficient*. For, as $B$ is a flat $A$-module, every solution with elements in $B$ of the *homogeneous* linear system associated with (3) is a linear combination with coefficients in $B$ of solutions consisting of elements of $A$ (\S 2, no. 11, Corollary 2, to Proposition 13). The problem then reduces to proving that the existence of a solution of (3) with elements in $B$ implies the existence of *one* solution with elements in $A$. Now if we set
+The condition is *sufficient*. For, as $B$ is a flat $A$-module, every solution with elements in $B$ of the *homogeneous* linear system associated with (3) is a linear combination with coefficients in $B$ of solutions consisting of elements of $A$ (§ 2, no. 11, Corollary 2, to Proposition 13). The problem then reduces to proving that the existence of a solution of (3) with elements in $B$ implies the existence of *one* solution with elements in $A$. Now if we set
 
 $$
 c_k = (c_{ki})_{1 \leq i \leq m} \in A_s^m, \qquad d = (d_i) \in A_s^m,
@@ -340,7 +340,7 @@ system (3) is equivalent to the equation $\sum_{k=1}^n y_k \otimes c_k = 1 \otim
 
 In other words, if $M$ is the sub-$A$-module of $A_s^m$ generated by the $c_k$ $(1 \leq k \leq n)$, the existence of the solution $(y_k)$ of (3) is equivalent (with the identifications made in no. 5) to the relation $d \in BM \cap A_s^m$; but as $BM \cap A_s^m = M$ (no. 5, Proposition 10, (ii)), it implies $d \in M$, that is, the existence of a solution $(x_k)$ of system (3) with elements in $A$.
 
-The condition is *necessary*. For suppose that $(A, B)$ satisfies the linear extension property; we know already that $B$ is a flat right $A$-module (\S 2, no. 11, Corollary 2 to Proposition 13); we prove that, for every left ideal $a$ of $A$, $Ba \cap A = a$, which shows that $B$ is a faithfully flat right $A$-module (no. 5, Proposition 9, (d)). Now, let $x \in Ba \cap A$; there exists by hypothesis $y_i \in B$ and $a_i \in a$ such that $\sum_i y_i a_i = x$; property (E) applied to this linear equation with coefficients and right hand side in $A$ shows that there exist $x_i \in A$ such that $x = \sum_i x_i a_i$, hence $x \in a$.
+The condition is *necessary*. For suppose that $(A, B)$ satisfies the linear extension property; we know already that $B$ is a flat right $A$-module (§ 2, no. 11, Corollary 2 to Proposition 13); we prove that, for every left ideal $a$ of $A$, $Ba \cap A = a$, which shows that $B$ is a faithfully flat right $A$-module (no. 5, Proposition 9, (d)). Now, let $x \in Ba \cap A$; there exists by hypothesis $y_i \in B$ and $a_i \in a$ such that $\sum_i y_i a_i = x$; property (E) applied to this linear equation with coefficients and right hand side in $A$ shows that there exist $x_i \in A$ such that $x = \sum_i x_i a_i$, hence $x \in a$.
 
 ### Exercises {#ac-i-s3-exercises}
 

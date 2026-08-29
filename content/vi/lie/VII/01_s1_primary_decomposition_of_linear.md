@@ -33,9 +33,9 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: e2d6c65bcfb3a572479c2fb8098624402158a0c5a5ef20ce48dea6619dedd5e1
+content_sha256: 106bb8dc5f4f8eec6b23a80190a87cc25e125eae886e9b994a92f343a13189dc
 translated_from: content/en/lie/VII/01_s1_primary_decomposition_of_linear.md
-source_content_sha256: 6b3a7f44b594659cd25df9f6c944977706304b56c54522de1260ddcaf18891f2
+source_content_sha256: 6d999a4f63ad71547f9729f56137320e39f7832c9c6c88d90de525d543eda5ce
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-6af4f374
 glossary_version: 34
@@ -155,9 +155,9 @@ $P(r(s))v_0=\sum_{i=1}^nP(r(s))v_i= 0$. Vì P và Q nguyên tố cùng nhau, đ�
 
 $c) S$ là hữu hạn và không rỗng. Ta chứng minh bằng quy nạp theo lực lượng của S. Cho $s\in S$ và $S'= S$**--** $\{s\}$. Cho $(v_{\lambda})_{\lambda\in P}$ là một họ có giá đỡ hữu hạn của các phần tử của V sao cho $\sum_{\lambda\in P}v_{\lambda}= 0$ và $v_{\lambda}\in V^{\lambda}(S)$. Cho $\lambda_0\in P$. Cho $P'$ là tập các $\lambda \in P$ sao cho $\lambda |S'=\lambda_0|S'$. Theo giả thiết quy nạp áp dụng cho $S'$, ta có $\sum_{\lambda\in P'}v_{\lambda}= 0$. Nếu $\lambda , \mu$ là các phần tử phân biệt của $P'$, thì $\lambda (s)\not=\mu(s)$.
 
-Vì tổng $\sum_{\alpha\in k}V^{\alpha}(s)$ là trực tiếp theo $b)$, và vì $v_{\lambda}\in V^{\lambda(s)}(s)$, suy ra $v_{\lambda}= 0$ với mọi $\lambda \in P'$, và đặc biệt $v_{\lambda_0}= 0$, điều phải chứng minh.
+Vì tổng $\sum_{\alpha\in k}V^{\alpha}(s)$ là trực tiếp theo b), và vì $v_{\lambda}\in V^{\lambda(s)}(s)$, suy ra $v_{\lambda}= 0$ với mọi $\lambda \in P'$, và đặc biệt $v_{\lambda_0}= 0$, điều phải chứng minh.
 
-$d)$ Trường hợp tổng quát. Cho $(v_{\lambda})_{\lambda\in P}$ là một họ có giá đỡ hữu hạn của các phần tử của V sao cho $\sum_{\lambda\in P}v_{\lambda}= 0$ và $v_{\lambda}\in V^{\lambda}(S)$. Cho $P'$ là tập hữu hạn các $\lambda \in P$ sao cho $v_{\lambda}\not= 0$, và cho $S'$ là một tập con hữu hạn của S sao cho các điều kiện $\lambda \in P'$, $\mu\in P',\lambda |S'=\mu|S'$ suy ra rằng $\lambda =\mu$. Ta có $v_{\lambda}\in V^{\lambda|S'}(S')$; áp dụng $c)$, ta thấy rằng $v_{\lambda}= 0$ với $\lambda \in P'$, điều đó hoàn tất chứng minh.
+d) Trường hợp tổng quát. Cho $(v_{\lambda})_{\lambda\in P}$ là một họ có giá đỡ hữu hạn của các phần tử của V sao cho $\sum_{\lambda\in P}v_{\lambda}= 0$ và $v_{\lambda}\in V^{\lambda}(S)$. Cho $P'$ là tập hữu hạn các $\lambda \in P$ sao cho $v_{\lambda}\not= 0$, và cho $S'$ là một tập con hữu hạn của S sao cho các điều kiện $\lambda \in P'$, $\mu\in P',\lambda |S'=\mu|S'$ suy ra rằng $\lambda =\mu$. Ta có $v_{\lambda}\in V^{\lambda|S'}(S')$; áp dụng c), ta thấy rằng $v_{\lambda}= 0$ với $\lambda \in P'$, điều đó hoàn tất chứng minh.
 
 Nhắc lại rằng, nếu $x\in$ End(V), ta ký hiệu ad $x$ là ánh xạ $y \rightarrow xy-yx= [x, y]$ từ End(V) vào chính nó.
 
@@ -203,9 +203,9 @@ Giả sử V hữu hạn chiều. Các điều kiện sau là tương đương:
 
 Nếu $V =\sum_{\lambda\in P}V^{\lambda}$(S), thì $V =\sum_{a\in k}V^a(s)$ với mọi $s\in S$, và suy ra từ Bổ đề 1 rằng (ii) kéo theo (i). Giả sử điều kiện (i) được thỏa mãn. Bổ đề 1 và công thức (1) suy ra rằng mỗi $V^{\lambda}(S)$ đều ổn định dưới $r(S)$. Còn phải chứng minh rằng $V =\sum_{\lambda\in P}V^{\lambda}(S)$. Ta chứng minh bằng quy nạp theo dim V. Ta phân biệt hai trường hợp.
 
-$a)$ Với mọi $s\in S,r(s)$ có một trị riêng duy nhất $\lambda (s)$. Khi đó $V = V^{\lambda}(S)$.
+a) Với mọi $s\in S,r(s)$ có một trị riêng duy nhất $\lambda (s)$. Khi đó $V = V^{\lambda}(S)$.
 
-$b)$ Tồn tại $s\in S$ sao cho $r(s)$ có ít nhất hai giá trị riêng phân biệt. Khi đó V là tổng trực tiếp của các $V^a(s)$ với $a\in k$, và dim $V^a(s)<$ dim V với mọi $a$. Mỗi $V^a(s)$ đều ổn định dưới $r$(S), và chỉ cần áp dụng giả thiết quy nạp.
+b) Tồn tại $s\in S$ sao cho $r(s)$ có ít nhất hai giá trị riêng phân biệt. Khi đó V là tổng trực tiếp của các $V^a(s)$ với $a\in k$, và dim $V^a(s)<$ dim V với mọi $a$. Mỗi $V^a(s)$ đều ổn định dưới $r$(S), và chỉ cần áp dụng giả thiết quy nạp.
 
 #### Hệ quả 1 {#lie-vii-s1-thm-1-cor-1 .statement tag=00SP}
 
@@ -439,7 +439,7 @@ Cho $\mathfrak{g}$ là một đại số Lie, $\mathfrak{h}$ là một đại s�
 
 Ánh xạ $(x, y) \rightarrow [x, y]$ từ $\mathfrak{g}\times \mathfrak{g}$ đến $\mathfrak{g}$ là bất biến theo $\mathfrak{g}$ theo đồng nhất thức Jacobi, do đó bất biến theo $\mathfrak{h}$. Phần đầu của (i) vì thế suy ra từ Mệnh đề 2 (ii). Phần (ii) được chứng minh tương tự.
 
-Nếu $x$ thuộc bộ chuẩn hóa của $\mathfrak{g}^0(\mathfrak{h})$ trong $\mathfrak{g}$, (ad $y$).x=-[x, y]\in \mathfrak{g}^0(\mathfrak{h})$ với mọi $y\in \mathfrak{h}$, nên (ad $y$)$^n.x= 0$ với $n$ đủ lớn. Điều này chứng tỏ rằng $x\in \mathfrak{g}^0(\mathfrak{h})$. Mệnh đề (i) nay đã được chứng minh hoàn toàn.
+Nếu $x$ thuộc bộ chuẩn hóa của $\mathfrak{g}^0(\mathfrak{h})$ trong $\mathfrak{g}$, (ad $y$)$.x=-[x, y]\in \mathfrak{g}^0(\mathfrak{h})$ với mọi $y\in \mathfrak{h}$, nên (ad $y$)$^n.x= 0$ với $n$ đủ lớn. Điều này chứng tỏ rằng $x\in \mathfrak{g}^0(\mathfrak{h})$. Mệnh đề (i) nay đã được chứng minh hoàn toàn.
 
 Mệnh đề (iii) suy ra từ Mệnh đề 9 (v).
 

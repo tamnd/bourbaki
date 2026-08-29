@@ -33,9 +33,9 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: dee7e8cb1e1ee6b070aa1127bac339907b57e1cfdc7f90ee3d2b75b36a518dfb
+content_sha256: 0391640104bcce98fca442c010f7816c78f434dbb67880922ed87d3fd15ad81b
 translated_from: content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md
-source_content_sha256: f39f78e5e768eaa875cc9e5c66d099af4d6fb213b7eac794d0dda54d2fbca97d
+source_content_sha256: 3fa30c6fba10fffca825520c5c62e37059e144cf09425181ebf911b2d7791257
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-72ce60e8
 glossary_version: 34
@@ -239,7 +239,7 @@ Bây giờ cho $\mathfrak{m}'$ là một đại số Lie con của $\mathfrak{g}
 
 #### Bổ đề 1 {#lie-vii-s5-lem-1 .statement tag=00WZ}
 
-Cho $\mathfrak{n}$ là một đại số Lie con của $\mathfrak{g}\mathfrak{l}(V)$ gồm các tự đồng cấu lũy linh, và N là nhóm con exp$\mathfrak{n}$ của $\mathbf{G}\mathbf{L}(V)$ ($§3, no. 1, Bổ đề 1).
+Cho $\mathfrak{n}$ là một đại số Lie con của $\mathfrak{g}\mathfrak{l}(V)$ gồm các tự đồng cấu lũy linh, và N là nhóm con exp$\mathfrak{n}$ của $\mathbf{G}\mathbf{L}(V)$ (§3, no. 1, Bổ đề 1).
 
 (i) Cho $\rho$ là một biểu diễn tuyến tính hữu hạn chiều của $\mathfrak{n}$ trên W, sao cho các phần tử của $\rho (\mathfrak{n})$ là lũy linh, $W'$ là một không gian con vectơ của W ổn định dưới $\rho ,\rho_1$ và $\rho_2$ là biểu diễn con và biểu diễn thương của $\rho$ được xác định bởi $W',\pi , \pi_1, \pi_2$ là các biểu diễn của N tương thích với $\rho , \rho_1, \rho_2($§3, no. 1). Khi đó $\pi_1, \pi_2$ là biểu diễn con và biểu diễn thương của $\pi$ được xác định bởi $W'$.
 
@@ -411,7 +411,7 @@ Các phần tử nửa đơn (resp. lũy linh) của $\mathfrak{g}$ tạo thành
 
 b) $\mathfrak{g}$ khả quy.
 
-Then $\mathfrak{g}=\mathfrak{g}'\times \mathfrak{c}$ với $\mathfrak{g}'$ nửa đơn và $\mathfrak{c}$ giao hoán. Theo Mệnh đề $2,\mathfrak{g}'$ là phân tích được. Cho $x=a+b\in \mathfrak{g}$ với $a\in \mathfrak{g}',b\in \mathfrak{c}$. Gọi $a_s, a_n, b_s, b_n$ là các thành phần nửa đơn và lũy linh của $a, b$. Vì $a_s, a_n, b_s, b_n$ giao hoán đôi một, nên các thành phần nửa đơn và lũy linh của $x$ là $a_s+b_s, a_n+b_n$. Nay $a_s, a_n\in \mathfrak{g}'$. Nếu $x$ là nửa đơn, thì $x=a_s+b_s$; vì $a_s\in \mathfrak{g}'$, ta có $b_s\in \mathfrak{g}$, nên $b_s\in \mathfrak{c}$ vì $b_s$ giao hoán với $\mathfrak{g}$; do đó, $a=a_s$ và $b=b_s$. Tương tự, nếu $x$ là lũy linh, thì $a=a_n$ và $b=b_n$. Suy ra rằng các ảnh chiếu lên $\mathfrak{c}$ của các phần tử của X hoặc là nửa đơn hoặc là lũy linh; theo $a)$, điều này kéo theo rằng $\mathfrak{c}$ là phân tích được. Giữ nguyên ký hiệu trước đó, nhưng không còn giả thiết về $x$, ta có $b_s, b_n\in \mathfrak{c}$, nên $a_s+b_s, a_n+b_n\in \mathfrak{g}$, điều này chứng minh định lý trong trường hợp này.
+Then $\mathfrak{g}=\mathfrak{g}'\times \mathfrak{c}$ với $\mathfrak{g}'$ nửa đơn và $\mathfrak{c}$ giao hoán. Theo Mệnh đề $2,\mathfrak{g}'$ là phân tích được. Cho $x=a+b\in \mathfrak{g}$ với $a\in \mathfrak{g}',b\in \mathfrak{c}$. Gọi $a_s, a_n, b_s, b_n$ là các thành phần nửa đơn và lũy linh của $a, b$. Vì $a_s, a_n, b_s, b_n$ giao hoán đôi một, nên các thành phần nửa đơn và lũy linh của $x$ là $a_s+b_s, a_n+b_n$. Nay $a_s, a_n\in \mathfrak{g}'$. Nếu $x$ là nửa đơn, thì $x=a_s+b_s$; vì $a_s\in \mathfrak{g}'$, ta có $b_s\in \mathfrak{g}$, nên $b_s\in \mathfrak{c}$ vì $b_s$ giao hoán với $\mathfrak{g}$; do đó, $a=a_s$ và $b=b_s$. Tương tự, nếu $x$ là lũy linh, thì $a=a_n$ và $b=b_n$. Suy ra rằng các ảnh chiếu lên $\mathfrak{c}$ của các phần tử của X hoặc là nửa đơn hoặc là lũy linh; theo a), điều này kéo theo rằng $\mathfrak{c}$ là phân tích được. Giữ nguyên ký hiệu trước đó, nhưng không còn giả thiết về $x$, ta có $b_s, b_n\in \mathfrak{c}$, nên $a_s+b_s, a_n+b_n\in \mathfrak{g}$, điều này chứng minh định lý trong trường hợp này.
 
 c) Trường hợp chung.
 
@@ -447,7 +447,7 @@ $$
 
 #### Hệ quả 3 {#lie-vii-s5-thm-1-cor-3 .statement tag=00X4}
 
-Cho $\mathfrak{g}$ là một đại số con Lie của $\mathfrak{g}\mathfrak{l}(V)$, và cho X là một tập con của $\mathfrak{g}$ sinh ra $\mathfrak{g}($như một đại số Lie trên $k)$.
+Cho $\mathfrak{g}$ là một đại số con Lie của $\mathfrak{g}\mathfrak{l}(V)$, và cho X là một tập con của $\mathfrak{g}$ sinh ra $\mathfrak{g}($như một đại số Lie trên k).
 
 (i) Bao phân tích được $e(\mathfrak{g})$ của $\mathfrak{g}$ được sinh bởi các thành phần nửa đơn và lũy linh của các phần tử của X.
 

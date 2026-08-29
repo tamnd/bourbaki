@@ -52,9 +52,9 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: c89c0aaa097556152d5f726849d5c4adac4ecff2948d8fd49b39909d8727de75
+content_sha256: 3d1f66ce054d423d63e80aadc43b12e4d89e05a26998440337513166ed817c80
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
-source_content_sha256: 532e6b91ea742fe6cdf1e76c5f9b064a8adb5f9b7f53de5e2c9a067fa23efbc9
+source_content_sha256: 803604a811504c87fc4ceb1081eed8c02ca8766e1a5c157c84f5f0928a9452b5
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-f0c4fab8
 glossary_version: 34
@@ -167,9 +167,9 @@ Trong ký hiệu của Nhận xét 1, $\phi$ là một cấu xạ từ M vào Y 
 (ii) *Cho H' là nhóm con nguyên của H với đại số Lie Im h. Khi đó $\phi(G) = H'$.*
 (iii) *Ánh xạ từ G/N vào H' suy ra từ $\phi$ khi chuyển qua thương là một đẳng cấu nhóm Lie.*
 
-(i) đã được chứng minh (\S 3, no. 8, Mệnh đề 28).
+(i) đã được chứng minh (§ 3, no. 8, Mệnh đề 28).
 
-Cho $\psi$ là cấu xạ nhóm Lie từ G/N vào H suy ra từ $\phi$ khi chuyển qua thương; nó là một phép nhúng (\S 3, no. 8, Mệnh đề 28). Theo Mệnh đề 1, $\psi$ là một cấu xạ nhóm Lie từ G/N vào H'. Cấu xạ này là étale và do đó $\psi(G/N) = H'$ vì H' liên thông; điều này chứng minh (ii). Khi đó $\psi : G/N \to H'$ là song ánh và là một đẳng cấu nhóm Lie, điều này chứng minh (iii).
+Cho $\psi$ là cấu xạ nhóm Lie từ G/N vào H suy ra từ $\phi$ khi chuyển qua thương; nó là một phép nhúng (§ 3, no. 8, Mệnh đề 28). Theo Mệnh đề 1, $\psi$ là một cấu xạ nhóm Lie từ G/N vào H'. Cấu xạ này là étale và do đó $\psi(G/N) = H'$ vì H' liên thông; điều này chứng minh (ii). Khi đó $\psi : G/N \to H'$ là song ánh và là một đẳng cấu nhóm Lie, điều này chứng minh (iii).
 
 #### Hệ quả 2 {#lie-iii-s6-prop-1-cor-2 .statement}
 
@@ -187,16 +187,16 @@ Theo Mệnh đề 1, $i_2$ là một ánh xạ giải tích từ $H_2$ vào $H_1
 $$
 L(H) = \bigcap_{i \in I} L(H_i).
 $$
-Tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i \in J} L(H_i)$ bằng giao M của tất cả các L(H_i). Ta biết rằng H^* = \bigcap_{i \in J} H_i là một nhóm con Lie sao cho L(H^*) = M (\S 3, no. 8, Hệ quả 2 của Mệnh đề 29). Cho H_0 là thành phần đơn vị của H^*. Nó là một nhóm con Lie của G và L(H_0) = M. Theo Hệ quả 2, H_0 \subset H_i với mọi i và do đó H_0 \subset H \subset H^*, do đó có hệ quả.
+Tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i \in J} L(H_i)$ bằng giao M của tất cả các L(H_i). Ta biết rằng H^* = \bigcap_{i \in J} H_i là một nhóm con Lie sao cho L(H^*) = M (§ 3, no. 8, Hệ quả 2 của Mệnh đề 29). Cho H_0 là thành phần đơn vị của H^*. Nó là một nhóm con Lie của G và L(H_0) = M. Theo Hệ quả 2, H_0 \subset H_i với mọi i và do đó H_0 \subset H \subset H^*, do đó có hệ quả.
 
 #### Hệ quả 4 {#lie-iii-s6-prop-1-cor-4 .statement}
 
 *Cho G là một nhóm Lie liên thông hữu hạn chiều. Các điều kiện sau là tương đương:*
-(i) *G là đơn môđula* (Tích phân, Chương VII, \S 1, no. 3, Định nghĩa 3);
+(i) *G là đơn môđula* (Tích phân, Chương VII, § 1, no. 3, Định nghĩa 3);
 (ii) *det Ad g = 1 với mọi g \in G*;
 (iii) *Tr ad a = 0 với mọi a \in L(G)*.
 
-Ánh xạ g \mapsto det Ad g là một cấu xạ $\phi$ từ G vào K*. Theo \S 3, Mệnh đề 35 (no. 10) và 44 (no. 12), $L(\phi)a = Tr\ ad\ a$ với mọi $a \in L(G)$. Rõ ràng Im $L(\phi) = \{0\}$ hoặc K. Trong trường hợp thứ nhất (tương ứng thứ hai), Im $\phi = \{1\}$ (tương ứng Im $\phi = K^*$) theo Hệ quả 1 và do đó G là đơn môđula (tương ứng không đơn môđula) theo \S 3, no. 16, Hệ quả của Mệnh đề 55.
+Ánh xạ g \mapsto det Ad g là một cấu xạ $\phi$ từ G vào K*. Theo § 3, Mệnh đề 35 (no. 10) và 44 (no. 12), $L(\phi)a = Tr\ ad\ a$ với mọi $a \in L(G)$. Rõ ràng Im $L(\phi) = \{0\}$ hoặc K. Trong trường hợp thứ nhất (tương ứng thứ hai), Im $\phi = \{1\}$ (tương ứng Im $\phi = K^*$) theo Hệ quả 1 và do đó G là đơn môđula (tương ứng không đơn môđula) theo § 3, no. 16, Hệ quả của Mệnh đề 55.
 
 #### Mệnh đề 2 {#lie-iii-s6-prop-2 .statement}
 
@@ -204,9 +204,9 @@ Tồn tại một tập con hữu hạn J của I sao cho $\bigcap_{i \in J} L(H
 (i) *H đóng*;
 (ii) *tôpô trên H là tôpô cảm sinh bởi tôpô trên G*;
 (iii) *H là một nhóm con Lie của G*.
-(i) $\Rightarrow$ (iii): điều này suy ra từ \S 1, các Mệnh đề 2 (iv) (no. 1) và 14 (iii) (no. 7).
+(i) $\Rightarrow$ (iii): điều này suy ra từ § 1, các Mệnh đề 2 (iv) (no. 1) và 14 (iii) (no. 7).
 (iii) $\Rightarrow$ (ii): hiển nhiên.
-(ii) $\Rightarrow$ (i): nếu tôpô trên H là tôpô cảm sinh bởi tôpô trên G, H đóng vì H đầy đủ (\S 1, no. 1, Mệnh đề 1).
+(ii) $\Rightarrow$ (i): nếu tôpô trên H là tôpô cảm sinh bởi tôpô trên G, H đóng vì H đầy đủ (§ 1, no. 1, Mệnh đề 1).
 
 #### Mệnh đề 3 {#lie-iii-s6-prop-3 .statement}
 
@@ -223,7 +223,7 @@ Nếu tôpô trên H nhận một cơ sở đếm được, điều kiện (i) k
 
 #### Hệ quả 1 {#lie-iii-s6-prop-3-cor-1 .statement}
 
-Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con nguyên của G. Khi đó đại số Lie tiếp xúc với H tại e (\S 4, no. 5, các Định nghĩa 2 và 3) là L(H) và cấu trúc nhóm Lie trên H là cấu trúc cảm sinh bởi cấu trúc trên G.
+Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con nguyên của G. Khi đó đại số Lie tiếp xúc với H tại e (§ 4, no. 5, các Định nghĩa 2 và 3) là L(H) và cấu trúc nhóm Lie trên H là cấu trúc cảm sinh bởi cấu trúc trên G.
 
 Vì H liên thông và hữu hạn chiều, tôpô của nó nhận một cơ sở đếm được.
 
@@ -296,15 +296,15 @@ Bằng phép chuyển cấu trúc, ad(a) là bất biến dưới Aut(a) và do 
 
 Cho L là một đại số Lie hữu hạn chiều. Tồn tại một không gian vectơ hữu hạn chiều E sao cho L có thể được đồng nhất với một đại số con Lie của End(E) (Chương I, § 7, Định lý 2). Cho H là nhóm con nguyên của GL(E) với
 
-đại số Lie L. Cho $\hat{H}$ là phủ phổ quát của nó ($\S 1$, no. 9, *Nhận xét*). Khi đó $L(\hat{H})$ đẳng cấu với L, do đó (i).
+đại số Lie L. Cho $\hat{H}$ là phủ phổ quát của nó ($§ 1$, no. 9, *Nhận xét*). Khi đó $L(\hat{H})$ đẳng cấu với L, do đó (i).
 
-Cho $G_1, G_2, f, \phi, N$ như trong (ii). Khi đó $\phi$ là étale, do đó $\phi(G_1)$ là một nhóm con mở của $G_2$ và vì thế $\phi(G_1) = G_2$. Mặt khác, N là rời rạc và do đó được chứa trong tâm của $G_1$ (*Integration*, Chương VII, $\S 3$, Bổ đề 4). Rõ ràng cấu xạ của $G_1/N$ lên $G_2$ dẫn xuất từ $\phi$ là một đẳng cấu nhóm Lie. Nếu $G_2$ đơn liên, mọi ánh xạ étale của $G_1$ lên $G_2$ là đơn ánh và do đó $N = \{e\}$.
+Cho $G_1, G_2, f, \phi, N$ như trong (ii). Khi đó $\phi$ là étale, do đó $\phi(G_1)$ là một nhóm con mở của $G_2$ và vì thế $\phi(G_1) = G_2$. Mặt khác, N là rời rạc và do đó được chứa trong tâm của $G_1$ (*Integration*, Chương VII, $§ 3$, Bổ đề 4). Rõ ràng cấu xạ của $G_1/N$ lên $G_2$ dẫn xuất từ $\phi$ là một đẳng cấu nhóm Lie. Nếu $G_2$ đơn liên, mọi ánh xạ étale của $G_1$ lên $G_2$ là đơn ánh và do đó $N = \{e\}$.
 
 #### Mệnh đề 5 {#lie-iii-s6-prop-5 .statement}
 
 *Cho G là một nhóm Lie thực liên thông. Giả sử rằng $L(G)$ có một cấu trúc đại số Lie phức chuẩn hóa được $L'$ tương thích với cấu trúc đại số Lie thực chuẩn hóa được của nó. Tồn tại trên G duy nhất một cấu trúc nhóm Lie phức tương thích với cấu trúc nhóm Lie thực và với đại số Lie $L'$.*
 
-Theo $\S 4$, no. 2, Hệ quả 2 của Định lý 2, chỉ cần chứng minh rằng cấu trúc của $L'$ là bất biến dưới Ad G. Cho $\phi$ là một ánh xạ mũ của G. Theo $\S 4$, no. 4, Hệ quả 3 (i) của Mệnh đề 8, tồn tại một lân cận V của 0 trong $L(G)$ sao cho cấu trúc của $L'$ là bất biến dưới Ad $\phi(V)$. Nhưng Ad $\phi(V)$ sinh ra G vì G liên thông.
+Theo $§ 4$, no. 2, Hệ quả 2 của Định lý 2, chỉ cần chứng minh rằng cấu trúc của $L'$ là bất biến dưới Ad G. Cho $\phi$ là một ánh xạ mũ của G. Theo $§ 4$, no. 4, Hệ quả 3 (i) của Mệnh đề 8, tồn tại một lân cận V của 0 trong $L(G)$ sao cho cấu trúc của $L'$ là bất biến dưới Ad $\phi(V)$. Nhưng Ad $\phi(V)$ sinh ra G vì G liên thông.
 
 Kết luận của Mệnh đề 5 không nhất thiết đúng nếu không giả sử G liên thông (Bài tập 7).
 
@@ -312,7 +312,7 @@ Kết luận của Mệnh đề 5 không nhất thiết đúng nếu không gi�
 
 *Cho G là một nhóm Lie phức liên thông. Nếu G compact, G giao hoán.*
 
-Ánh xạ chỉnh hình $g \mapsto \mathrm{Ad}\,g$ của G vào $\mathcal{L}(L(G))$ là hằng (*Differentiable and Analytic Manifolds*, R, 3.3.7) và do đó $\mathrm{ad}\,a = 0$ với mọi $a \in L(G)$ ($\S 3$, no. 12, Mệnh đề 44). Suy ra G giao hoán ($\S 4$, Hệ quả 3 của Định lý 1).
+Ánh xạ chỉnh hình $g \mapsto \mathrm{Ad}\,g$ của G vào $\mathcal{L}(L(G))$ là hằng (*Differentiable and Analytic Manifolds*, R, 3.3.7) và do đó $\mathrm{ad}\,a = 0$ với mọi $a \in L(G)$ ($§ 3$, no. 12, Mệnh đề 44). Suy ra G giao hoán ($§ 4$, Hệ quả 3 của Định lý 1).
 
 ### 4. ÁNH XẠ MŨ
 
@@ -373,7 +373,7 @@ Theo Mệnh đề 7, điều này suy ra từ Mệnh đề 4 của § 4, no. 3, 
 
 Ánh xạ mũ
 
-Hai vế của đẳng thức (i) là các ánh xạ giải tích từ $L(G)$ vào $H$ trùng nhau trong một lân cận của 0 ($\S 4$, Mệnh đề 8, no. 4) và do đó bằng nhau. Mệnh đề (ii) là một trường hợp đặc biệt của (i).
+Hai vế của đẳng thức (i) là các ánh xạ giải tích từ $L(G)$ vào $H$ trùng nhau trong một lân cận của 0 ($§ 4$, Mệnh đề 8, no. 4) và do đó bằng nhau. Mệnh đề (ii) là một trường hợp đặc biệt của (i).
 
 #### Hệ quả 1 {#lie-iii-s6-prop-10-cor-1 .statement}
 
@@ -381,7 +381,7 @@ Hai vế của đẳng thức (i) là các ánh xạ giải tích từ $L(G)$ v�
 (i) $a \in L(G')$;
 (ii) $\exp(\lambda a) \in G'$ với mọi $\lambda \in K$ và $|\lambda|$ đủ nhỏ;
 (iii) $\exp(\lambda a) \in G$ với mọi $\lambda \in K$.
-Lập luận cũng như trong $\S 4$, no. 4, Hệ quả 1 của Mệnh đề 8.
+Lập luận cũng như trong $§ 4$, no. 4, Hệ quả 1 của Mệnh đề 8.
 
 #### Hệ quả 2 {#lie-iii-s6-prop-10-cor-2 .statement}
 
@@ -401,14 +401,14 @@ Do đó (i) $\Rightarrow$ (ii). Đảo lại khi $H$ có một cơ sở đếm �
 (i) $\rho(\exp x) = \exp L(\rho)x$;
 (ii) $\mathrm{Ad}(\exp x) = \exp \mathrm{ad}\, x$;
 (iii) $g(\exp x)g^{-1} = \exp(\mathrm{Ad}\, g.x)$.
-Lập luận giống như trong $\S 4$, no. 4, các Hệ quả 2 và 3 đối với Mệnh đề 8.*
+Lập luận giống như trong $§ 4$, no. 4, các Hệ quả 2 và 3 đối với Mệnh đề 8.*
 
 #### Hệ quả 4 {#lie-iii-s6-prop-10-cor-4 .statement}
 
 *Cho $G$ là một nhóm Lie liên thông hữu hạn chiều*.
 (i) $\mathrm{Int}(L(G)) = \mathrm{Ad}(G)$.
 (ii) *Cho $Z$ là tâm của $G$. Khi đó $Z$ là một nhóm con Lie của $G$ có đại số Lie là tâm của $L(G)$. Ánh xạ của $G/Z$ vào $\mathrm{Int}\, L(G)$ dẫn xuất từ $g \mapsto \mathrm{Ad}\, g$ khi chuyển qua thương là một đẳng cấu nhóm Lie*.
-Mệnh đề (i) suy ra từ Hệ quả 3 (ii) và các nhận xét sau Định nghĩa 2. Cho $g \in G$. Để có $\mathrm{Ad}\, g = \mathrm{Id}_{L(G)}$, điều kiện cần và đủ là $\mathrm{Int}\, g$ trùng với $\mathrm{Id}_G$ trên một lân cận của $e$ ($\S 4$, no. 1, Định lý 1 (ii)) và do đó trên toàn bộ $G$; nói cách khác, điều kiện cần và đủ là $g \in Z$. Khi đó (ii) suy ra từ Hệ quả 1 đối với Mệnh đề 1.
+Mệnh đề (i) suy ra từ Hệ quả 3 (ii) và các nhận xét sau Định nghĩa 2. Cho $g \in G$. Để có $\mathrm{Ad}\, g = \mathrm{Id}_{L(G)}$, điều kiện cần và đủ là $\mathrm{Int}\, g$ trùng với $\mathrm{Id}_G$ trên một lân cận của $e$ ($§ 4$, no. 1, Định lý 1 (ii)) và do đó trên toàn bộ $G$; nói cách khác, điều kiện cần và đủ là $g \in Z$. Khi đó (ii) suy ra từ Hệ quả 1 đối với Mệnh đề 1.
 
 #### Định nghĩa 3 {#lie-iii-s6-def-3 .statement}
 
@@ -638,7 +638,7 @@ Tính duy nhất của $\psi$ suy ra từ Bổ đề 4. Cho P là nhóm phép ho
 
 $$ f(u_1u_2u_3) = f(u_1)f(u_2)f(u_3) $$
 
-với $u_1, u_2, u_3$ trong W. Áp dụng Bổ đề 1 của no. 1, ta thu được một cấu xạ f' của G vào P mở rộng $f|W$. Đặt $\psi'(g, x) = f'(g)(x)$ với mọi $(g, x) \in G \times X$. Khi đó $\psi'$ là một luật phép toán trái của G trên X và trùng với $\psi$ trên $W \times X$. Vì $\psi'(g, \psi'(g', x)) = \psi'(gg', x)$ với $(g, g', x) \in G \times G \times X$, tính liên tục của $\psi$ trên $W \times X$ suy ra tính liên tục của $\psi'$ trên $gW \times X$ với mọi $g \in G$. Do đó $\psi'$ liên tục. Nếu $\psi` có lớp $C^r$, ta thấy tương tự rằng $\psi'$ có lớp $C^r$.
+với $u_1, u_2, u_3$ trong W. Áp dụng Bổ đề 1 của no. 1, ta thu được một cấu xạ f' của G vào P mở rộng $f|W$. Đặt $\psi'(g, x) = f'(g)(x)$ với mọi $(g, x) \in G \times X$. Khi đó $\psi'$ là một luật phép toán trái của G trên X và trùng với $\psi$ trên $W \times X$. Vì $\psi'(g, \psi'(g', x)) = \psi'(gg', x)$ với $(g, g', x) \in G \times G \times X$, tính liên tục của $\psi$ trên $W \times X$ suy ra tính liên tục của $\psi'$ trên $gW \times X$ với mọi $g \in G$. Do đó $\psi'$ liên tục. Nếu $\psi'$ có lớp $C^r$, ta thấy tương tự rằng $\psi'$ có lớp $C^r$.
 
 #### Định lý 5 {#lie-iii-s6-thm-5 .statement}
 
@@ -694,7 +694,7 @@ $$
 
 *Cho $u \in \mathcal{L}(E)$ sao cho mọi $z \in \mathrm{Sp}\,u$ đều thỏa $|\mathcal{J}(z)| < \frac{2\pi}{n+1}$. Khi đó, với mọi $f \in F$, các điều kiện $\sigma(u)f = 0$ và $\rho(\exp u)f = f$ là tương đương.*
 
-$\mathbf{L}(\rho) = \sigma$ (\S 3, no. 11, Hệ quả 1 của Mệnh đề 41) và do đó
+$\mathbf{L}(\rho) = \sigma$ (§ 3, no. 11, Hệ quả 1 của Mệnh đề 41) và do đó
 
 $$
 \rho(\exp u) = \exp \sigma(u)
@@ -713,7 +713,7 @@ $$
 \end{align*}
 $$
 
-Khi đó $\sigma(v) = \sum_{i=0}^n v_i$ và các $v_i$ giao hoán từng đôi một. Gọi $A$ là đại số con đóng sinh bởi các $v_i$ trong $\mathcal{L}(F)$; nó giao hoán (*Spectral Theories*, Chương I, \S 1, no. 4) và $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chương I, \S 3, Mệnh đề 3 (ii)). Bây giờ, nếu $\lambda \in \mathbf{C}$ sao cho $v - \lambda$ khả nghịch, thì rõ ràng $v_i - \lambda_i$ khả nghịch và do đó $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ với mọi $i$.
+Khi đó $\sigma(v) = \sum_{i=0}^n v_i$ và các $v_i$ giao hoán từng đôi một. Gọi $A$ là đại số con đóng sinh bởi các $v_i$ trong $\mathcal{L}(F)$; nó giao hoán (*Spectral Theories*, Chương I, § 1, no. 4) và $\mathrm{Sp}_{\mathcal{L}(F)} v' = \mathrm{Sp}_A v' \subset \sum_{i=0}^n \mathrm{Sp}\,v_i$ (*Spectral Theories*, Chương I, § 3, Mệnh đề 3 (ii)). Bây giờ, nếu $\lambda \in \mathbf{C}$ sao cho $v - \lambda$ khả nghịch, thì rõ ràng $v_i - \lambda_i$ khả nghịch và do đó $\mathrm{Sp}\,v_i \subset \mathrm{Sp}\,v$ với mọi $i$.
 
 #### Hệ quả 2 {#lie-iii-s6-prop-18-cor-2 .statement}
 
@@ -783,8 +783,8 @@ bh(a)b^{-1} = bf(a^{-1})ab^{-1} = (\omega(b)f(a^{-1}))(bab^{-1})
 = f(ba^{-1}b^{-1})(bab^{-1}) = h(bab^{-1})
 $$
 $$
-a'h(a)a'^{-1} = a'f(a^{-1})aa'^{-1} = a'f(a^{-1})(\omega(a)a'^{-1})a
-= a'f(a^{-1})f(a)a'^{-1}f(a^{-1})a = h(a)
+a'h(a){a'}^{-1} = a'f(a^{-1})a{a'}^{-1} = a'f(a^{-1})(\omega(a){a'}^{-1})a
+= a'f(a^{-1})f(a){a'}^{-1}f(a^{-1})a = h(a)
 $$
 và do đó $h(A) = D$ là chuẩn trong $B''$.
 
@@ -870,7 +870,7 @@ Nếu f ∈ F, thì δ ∘ (Int_F f) = (Int_Ḟ δ(f)) ∘ δ và Int_Ḟ δ(f) 
 Do đó có thể áp dụng Bổ đề 7, cho ta một biểu đồ
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 F & \xrightarrow{i} & G & \xrightarrow{p} & M \\
 \downarrow{\delta} & & \downarrow{\gamma} & & \downarrow{\mathrm{Id}} \\
 Ḟ & \xrightarrow{\tilde{i}} & Ġ & \xrightarrow{\tilde{p}} & M.
@@ -912,7 +912,7 @@ G \to \tilde{G} \to \tilde{G}/\tilde{G}_0
 $$
 khi chuyển qua thương xác định một đẳng cấu từ $G/G_0$ lên $\tilde{G}/\tilde{G}_0$.
 
-(2) Giả sử rằng $G$ là liên thông đơn liên. Cho $g = L(G)$, $g_C$ là phức hóa của $g$, $S'$ là nhóm Lie phức đơn liên với đại số Lie $g_C$ và $\sigma$ là cấu xạ từ $G$ vào $S'$ sao cho $L(\sigma)$ là đơn ánh chính tắc của $g$ vào $g_C$. Ta lại dùng ký hiệu trong chứng minh của Mệnh đề 20, phần (a). Nếu $H = S'$ và $\phi = \sigma$, thì $\phi^* = \mathrm{Id}_{S'}$. Do đó $(S', \sigma)$ là phức hóa phổ quát của $G$. Chú ý rằng $\sigma$ nói chung không đơn ánh (Bài tập 16); tuy nhiên *hạt nhân của nó là rời rạc* vì $L(\sigma)$ là đơn ánh. Mặt khác, hãy để $\theta$ là phép đối hợp của $g_C$ được xác định bởi $g$ và hãy để $\eta$ là tự đẳng cấu tương ứng của nhóm Lie thực nền của $S'$; hãy để $S'^\eta$ là tập hợp các điểm của $S'$ bất biến dưới $\eta$; đó là một nhóm con Lie thực của $S'$ với đại số Lie $g$ (\S 3, no. 8, Hệ quả 1 của Mệnh đề 29). Theo no. 1, Hệ quả 1 của Mệnh đề 1, $\sigma(G)$ là một nhóm con nguyên thực của $S'$ với đại số Lie $g$ và do đó $\sigma(G)$ *là thành phần liên thông chứa đơn vị của* $S'^\eta$; nói riêng $\sigma(G)$ là một nhóm con Lie thực của $S'$.
+(2) Giả sử rằng $G$ là liên thông đơn liên. Cho $g = L(G)$, $g_C$ là phức hóa của $g$, $S'$ là nhóm Lie phức đơn liên với đại số Lie $g_C$ và $\sigma$ là cấu xạ từ $G$ vào $S'$ sao cho $L(\sigma)$ là đơn ánh chính tắc của $g$ vào $g_C$. Ta lại dùng ký hiệu trong chứng minh của Mệnh đề 20, phần (a). Nếu $H = S'$ và $\phi = \sigma$, thì $\phi^* = \mathrm{Id}_{S'}$. Do đó $(S', \sigma)$ là phức hóa phổ quát của $G$. Chú ý rằng $\sigma$ nói chung không đơn ánh (Bài tập 16); tuy nhiên *hạt nhân của nó là rời rạc* vì $L(\sigma)$ là đơn ánh. Mặt khác, hãy để $\theta$ là phép đối hợp của $g_C$ được xác định bởi $g$ và hãy để $\eta$ là tự đẳng cấu tương ứng của nhóm Lie thực nền của $S'$; hãy để ${S'}^\eta$ là tập hợp các điểm của $S'$ bất biến dưới $\eta$; đó là một nhóm con Lie thực của $S'$ với đại số Lie $g$ (§ 3, no. 8, Hệ quả 1 của Mệnh đề 29). Theo no. 1, Hệ quả 1 của Mệnh đề 1, $\sigma(G)$ là một nhóm con nguyên thực của $S'$ với đại số Lie $g$ và do đó $\sigma(G)$ *là thành phần liên thông chứa đơn vị của* ${S'}^\eta$; nói riêng $\sigma(G)$ là một nhóm con Lie thực của $S'$.
 
 ### Bài tập {#lie-iii-s6-exercises}
 

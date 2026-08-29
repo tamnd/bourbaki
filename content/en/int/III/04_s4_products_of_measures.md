@@ -37,7 +37,7 @@ subsections:
       pdf_page: 98
 statements: 22
 exercises: 8
-content_sha256: 279453ff13004a5b612c4aa1d4db19ae66c15314e441859bcd4f05ed4990f0c5
+content_sha256: 6cce27b93cc8eb2432ea6f68fe801fc213586fdca8c9bffffb15f6d695b84b75
 ---
 
 ## § 4. PRODUCTS OF MEASURES
@@ -78,7 +78,7 @@ $$
 \mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})
 $$
 
-identified with a subspace of $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, is again the space $\mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})$ but this time identified canonically with a space of mappings of $X$ into $\mathcal{K}(Y, L; \mathbf{C})$ (A, II, §7, No. 7, Cor. of Prop. 15); but this subspace of $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ is known to be *dense* in the latter space (\S1, No. 2, Prop. 5), thus the conclusion of (ii) follows from the fact that the restriction of $\omega$ is a topological isomorphism.
+identified with a subspace of $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, is again the space $\mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})$ but this time identified canonically with a space of mappings of $X$ into $\mathcal{K}(Y, L; \mathbf{C})$ (A, II, §7, No. 7, Cor. of Prop. 15); but this subspace of $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ is known to be *dense* in the latter space (§ 1, No. 2, Prop. 5), thus the conclusion of (ii) follows from the fact that the restriction of $\omega$ is a topological isomorphism.
 
 Having proved the lemma, we now observe that every compact subset of $X \times Y$ is contained in a product $K \times L$, where $K$ (resp. $L$) is a compact subset of $X$ (resp. $Y$). It therefore follows from Lemma 1, (ii) that the subspace $\mathcal{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y; \mathbf{C})$ is *dense* in $\mathcal{K}(X \times Y; \mathbf{C})$; since the relation (1) may also be written as $\nu(g \otimes h) = \lambda(g)\mu(h)$ for $g \in \mathcal{K}(X; \mathbf{C})$, $h \in \mathcal{K}(Y; \mathbf{C})$, the *uniqueness* of $\nu$ follows at once. To prove the existence of $\nu$, we shall make use of the following lemma:
 
@@ -92,7 +92,7 @@ $$
 
 *belongs to* $\mathcal{K}(Y, L; \mathbf{C})$.
 
-For every function $u \in \mathcal{K}(X; \mathcal{K}(Y, L; \mathbf{C}))$, the integral $\int u(x) d\lambda(x)$ belongs to $\mathcal{K}(Y, L; \mathbf{C})$ since the latter is a Banach space (\S 3, No. 3, Cor. 1 of Prop. 7); but for $u = \omega(f)$ and for every $y \in Y$,
+For every function $u \in \mathcal{K}(X; \mathcal{K}(Y, L; \mathbf{C}))$, the integral $\int u(x) d\lambda(x)$ belongs to $\mathcal{K}(Y, L; \mathbf{C})$ since the latter is a Banach space (§ 3, No. 3, Cor. 1 of Prop. 7); but for $u = \omega(f)$ and for every $y \in Y$,
 
 $$
 \left\langle \int u(x) d\lambda(x), \varepsilon_y \right\rangle = \int u(x)(y) d\lambda(x) = \int f(x, y) d\lambda(x),
@@ -211,7 +211,7 @@ which proves formula (6).
 
 *The support of the product $\lambda \otimes \mu$ is equal to the product of the support of $\lambda$ and the support of $\mu$.*
 
-We first observe that the relation $\lambda \otimes \mu = 0$ implies that one of the measures $\lambda, \mu$ is zero (A, II, §7, No. 7, Prop. 16, (ii)). On the other hand, if U (resp. V) is an open set in X (resp. Y), then the restriction of $\lambda \otimes \mu$ to the product $U \times V$ is the product of the restrictions of $\lambda$ to U and of $\mu$ to V, as follows from Th. 1 of No. 1 and the definition of the restriction of a measure to an open set (\S 2, No. 1). It therefore follows that, for the restriction of $\lambda \otimes \mu$ to $U \times V$ to be zero, it is necessary and sufficient that either the restriction of $\lambda$ to U or the restriction of $\mu$ to V be zero, which proves the proposition, on taking into account the definition of the support of a measure (\S 2, No. 2).
+We first observe that the relation $\lambda \otimes \mu = 0$ implies that one of the measures $\lambda, \mu$ is zero (A, II, §7, No. 7, Prop. 16, (ii)). On the other hand, if U (resp. V) is an open set in X (resp. Y), then the restriction of $\lambda \otimes \mu$ to the product $U \times V$ is the product of the restrictions of $\lambda$ to U and of $\mu$ to V, as follows from Th. 1 of No. 1 and the definition of the restriction of a measure to an open set (§ 2, No. 1). It therefore follows that, for the restriction of $\lambda \otimes \mu$ to $U \times V$ to be zero, it is necessary and sufficient that either the restriction of $\lambda$ to U or the restriction of $\mu$ to V be zero, which proves the proposition, on taking into account the definition of the support of a measure (§ 2, No. 2).
 
 #### Proposition 3 {#int-iii-s4-prop-3 .statement}
 
@@ -221,7 +221,7 @@ $$
 |\lambda \otimes \mu| = |\lambda| \otimes |\mu|.
 $$
 
-Let $f \in \mathcal{K}_+(X \times Y),\ g \in \mathcal{K}(X \times Y; \mathbf{C})$ be such that $|g| \leq f$; we have (\S 1, No. 6, formula (13))
+Let $f \in \mathcal{K}_+(X \times Y),\ g \in \mathcal{K}(X \times Y; \mathbf{C})$ be such that $|g| \leq f$; we have (§ 1, No. 6, formula (13))
 
 $$
 \begin{align*}
@@ -242,7 +242,7 @@ On the other hand, let $u \in \mathcal{K}_+(X),\ v \in \mathcal{K}_+(Y)$. For ev
 $$
 |\langle u_1, \lambda \rangle| \geq \langle u, |\lambda| \rangle - \varepsilon,\quad |\langle v_1, \mu \rangle| \geq \langle v, |\mu| \rangle - \varepsilon
 $$
-(\S 1, No. 6). It follows that $|u_1 \otimes v_1| \leq u \otimes v$ and
+(§ 1, No. 6). It follows that $|u_1 \otimes v_1| \leq u \otimes v$ and
 
 $$
 \begin{align*}
@@ -340,9 +340,9 @@ For every function $f \in \mathcal{K}(X \times Y; \mathbf{C})$, we know that the
 
 #### Proposition 6 {#int-iii-s4-prop-6 .statement}
 
-*When* $\mathcal{M}(X; \mathbf{C}) , \ \mathcal{M}(Y; \mathbf{C})$ *and* $\mathcal{M}(X \times Y; \mathbf{C})$ *are equipped with the topology of strictly compact convergence* (\S 1, No. 10), *the bilinear mapping* $(\lambda, \mu) \mapsto \lambda \otimes \mu$ *of* $\mathcal{M}(X; \mathbf{C}) \times \mathcal{M}(Y; \mathbf{C})$ *into* $\mathcal{M}(X \times Y; \mathbf{C})$ *is hypocontinuous for the set of vaguely bounded subsets of* $\mathcal{M}(X; \mathbf{C})$ *and* $\mathcal{M}(Y; \mathbf{C})$ *(TVS, III, \S 5, No. 3)*.
+*When* $\mathcal{M}(X; \mathbf{C}) , \ \mathcal{M}(Y; \mathbf{C})$ *and* $\mathcal{M}(X \times Y; \mathbf{C})$ *are equipped with the topology of strictly compact convergence* (§ 1, No. 10), *the bilinear mapping* $(\lambda, \mu) \mapsto \lambda \otimes \mu$ *of* $\mathcal{M}(X; \mathbf{C}) \times \mathcal{M}(Y; \mathbf{C})$ *into* $\mathcal{M}(X \times Y; \mathbf{C})$ *is hypocontinuous for the set of vaguely bounded subsets of* $\mathcal{M}(X; \mathbf{C})$ *and* $\mathcal{M}(Y; \mathbf{C})$ *(TVS, III, § 5, No. 3)*.
 
-Let $K \subset X , \ L \subset Y$ be two compact sets, $A$ a compact subset of $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, and $B$ a vaguely bounded and closed subset of $\mathcal{M}(X; \mathbf{C})$; it is known that $B$ is vaguely compact (\S 1, No. 9, Prop. 15), hence also compact for the topology of strictly compact convergence (\S 1, No. 10, Prop. 17). On the other hand, the Banach space $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$ is isometric to $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ (No. 1, Lemma 1); the mapping $\varphi$ of $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C})) \times \mathcal{M}(X; \mathbf{C})$ into $\mathcal{K}(Y, L; \mathbf{C})$, such that $\varphi(g, \lambda)$ is the function $h$ defined by $h(y) = \int g(x, y) d\lambda(x)$, is *separately continuous* by virtue of \S 3, No. 4, Props. 8 and 9. Since $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ is barreled, it follows that the mapping $\varphi$ is *hypocontinuous* relative to the vaguely bounded subsets of $\mathcal{M}(X; \mathbf{C})$ (TVS, III, \S 5, No. 3, Prop. 6); the restriction of this mapping to $A \times B$ is therefore *continuous* (*loc. cit.*, Prop. 4). The image $C$ of $A \times B$ under this mapping is consequently a compact subset of the Banach space $\mathcal{K}(Y, L; \mathbf{C})$. Now, $C$ is none other than the set of functions $h(y) = \int f(x, y) d\lambda(x)$ as $f$ runs over $A$ and $\lambda$ runs over $B$; by virtue of formula (3) of No. 1, the conditions $\lambda \in B$ and $\mu \in C^\circ$ therefore imply $\lambda \otimes \mu \in A^\circ$. In view of the definition of the topology of strictly compact convergence, this proves the proposition (TVS, III, \S 5, No. 3, Def. 2).
+Let $K \subset X , \ L \subset Y$ be two compact sets, $A$ a compact subset of $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, and $B$ a vaguely bounded and closed subset of $\mathcal{M}(X; \mathbf{C})$; it is known that $B$ is vaguely compact (§ 1, No. 9, Prop. 15), hence also compact for the topology of strictly compact convergence (§ 1, No. 10, Prop. 17). On the other hand, the Banach space $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$ is isometric to $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ (No. 1, Lemma 1); the mapping $\varphi$ of $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C})) \times \mathcal{M}(X; \mathbf{C})$ into $\mathcal{K}(Y, L; \mathbf{C})$, such that $\varphi(g, \lambda)$ is the function $h$ defined by $h(y) = \int g(x, y) d\lambda(x)$, is *separately continuous* by virtue of § 3, No. 4, Props. 8 and 9. Since $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ is barreled, it follows that the mapping $\varphi$ is *hypocontinuous* relative to the vaguely bounded subsets of $\mathcal{M}(X; \mathbf{C})$ (TVS, III, § 5, No. 3, Prop. 6); the restriction of this mapping to $A \times B$ is therefore *continuous* (*loc. cit.*, Prop. 4). The image $C$ of $A \times B$ under this mapping is consequently a compact subset of the Banach space $\mathcal{K}(Y, L; \mathbf{C})$. Now, $C$ is none other than the set of functions $h(y) = \int f(x, y) d\lambda(x)$ as $f$ runs over $A$ and $\lambda$ runs over $B$; by virtue of formula (3) of No. 1, the conditions $\lambda \in B$ and $\mu \in C^\circ$ therefore imply $\lambda \otimes \mu \in A^\circ$. In view of the definition of the topology of strictly compact convergence, this proves the proposition (TVS, III, § 5, No. 3, Def. 2).
 
 The conclusion of Prop. 6 is no longer valid when the topology of strictly compact convergence is replaced by the vague topology (Exer. 2 c)). However, if B (resp. C) is a vaguely bounded subset of $\mathcal{M}(X; \mathbf{C})$ (resp. $\mathcal{M}(Y; \mathbf{C})$), then the image of $B \times C$ under the mapping $(\lambda, \mu) \mapsto \lambda \otimes \mu$ is vaguely bounded in $\mathcal{M}(X \times Y; \mathbf{C})$ and therefore the restriction of this mapping to $B \times C$ is vaguely continuous, by virtue of Prop. 6, of §1, No. 10, Prop. 17, and of Prop. 4 of TVS, III, §5, No. 3 (cf. Exer. 3).
 
@@ -423,7 +423,7 @@ $$
 \langle {}^t p'(\mu), f \rangle = \langle \mu, f \circ p \rangle
 $$
 
-for every function $f \in \mathcal{C}(Y; \mathbf{C})$. Note that for every $x \in X$, ${}^t p'(\varepsilon_x) = \varepsilon_{p(x)}$; for this reason, we shall denote by $p_*(\mu)$ the measure ${}^t p'(\mu)$, which thus extends $p$ when $X$ (resp. $Y$) is canonically embedded in $\mathcal{M}(X; \mathbf{C})$ (resp. $\mathcal{M}(Y; \mathbf{C})$) (\S 1, No. 9, Prop. 13); for every measure $\mu$ on $X$, $p_*(\mu)$ is a special case of the general concept of *image of a measure*, which we shall study in Ch. V, §6. Since, as we saw above, $\|p'\| \leq 1$, we have also $\|{}^t p'\| \leq 1$ and so
+for every function $f \in \mathcal{C}(Y; \mathbf{C})$. Note that for every $x \in X$, ${}^t p'(\varepsilon_x) = \varepsilon_{p(x)}$; for this reason, we shall denote by $p_*(\mu)$ the measure ${}^t p'(\mu)$, which thus extends $p$ when $X$ (resp. $Y$) is canonically embedded in $\mathcal{M}(X; \mathbf{C})$ (resp. $\mathcal{M}(Y; \mathbf{C})$) (§ 1, No. 9, Prop. 13); for every measure $\mu$ on $X$, $p_*(\mu)$ is a special case of the general concept of *image of a measure*, which we shall study in Ch. V, §6. Since, as we saw above, $\|p'\| \leq 1$, we have also $\|{}^t p'\| \leq 1$ and so
 
 $$
 \|p_*(\mu)\| \leq \|\mu\|

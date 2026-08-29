@@ -8,36 +8,37 @@ section_title: Hardy Fields. (H) Functions
 appendix: true
 lang: en
 source: fvr-i-vii
+book_pages: 247-258, 263-267
 pdf_pages: 0262-0273, 0278-0282
 extraction: ocr
 subsections:
     - "no": 1
       title: HARDY FIELDS
-      page: 0
+      page: 247
       pdf_page: 262
     - "no": 2
       title: EXTENSION OF A HARDY FIELD
-      page: 0
+      page: 248
       pdf_page: 263
     - "no": 3
       title: COMPARISON OF FUNCTIONS IN A HARDY FIELD
-      page: 0
+      page: 250
       pdf_page: 265
     - "no": 4
       title: (H) FUNCTIONS
-      page: 0
+      page: 252
       pdf_page: 267
     - "no": 5
       title: EXPONENTIALS AND ITERATED LOGARITHMS
-      page: 0
+      page: 253
       pdf_page: 268
     - "no": 6
       title: INVERSE FUNCTION OF AN (H) FUNCTION
-      page: 0
+      page: 255
       pdf_page: 270
 statements: 21
 exercises: 15
-content_sha256: 8258ee57757f5812fe2a536495132ea768c6c356823f575d0a8ed894cc81620b
+content_sha256: 2b7ece85b767af5816191cdddb2a46c6ea11aaccc68f65d9ac9a41b8c196aa46
 ---
 
 ## APPENDIX
@@ -269,19 +270,19 @@ $$
 
 With the help of the iterated logarithms we shall show that one can define a *comparison scale* $\mathcal{E}$ (for $x$ tending to $+\infty$) of (H) functions, which are $> 0$ on a neighbourhood of $+\infty$ and satisfy the following conditions:
 
-$a)$ the product of any two functions in $\mathcal{E}$ belongs to $\mathcal{E}$;
-$b)$ $f^\mu \in \mathcal{E}$ for every function $f \in \mathcal{E}$ and every real number $\mu$;
+a) the product of any two functions in $\mathcal{E}$ belongs to $\mathcal{E}$;
+b) $f^\mu \in \mathcal{E}$ for every function $f \in \mathcal{E}$ and every real number $\mu$;
 
 c) for every function $f \in \mathcal{E}$, $\log f$ is a linear combination of a finite number of functions in $\mathcal{E}$;
 d) for every function $f \in \mathcal{E}$, apart from the constant 1, $e^f$ is equivalent to a function in $\mathcal{E}$.
 
-First we consider the set $\mathcal{E}_0$ of functions of the form $\prod_{m=0}^{\infty} (l_m(x))^{\alpha_m}$, where the $\alpha_m$ are real numbers, zero apart from for a finite number of indices $m$; it is immediate, from (5) (V, p. 253) that these functions form a *comparison scale* which satisfies conditions $a), b)$ and $c)$. Now we define, by recursion on $n$, the set $\mathcal{E}_n$ (for $n \geqslant 1$) formed by the constant 1 and by the functions of the form $\exp \left( \sum_{k=1}^p a_k f_k \right)$, where $p$ is an arbitrary integer $> 0$, the functions $f_k$ ($1 \leqslant k \leqslant p$) are functions in $\mathcal{E}_{n-1}$ such that $f_1 \gg f_2 \gg \cdots \gg f_p \gg 1$, and the $a_k$ are real numbers $\neq 0$; we show by induction that $\mathcal{E}_n$ is a *comparison scale* satisfying $a), b)$ and $c)$ and containing $\mathcal{E}_{n-1}$. In the first place, the relation $\mathcal{E}_{n-1} \subset \mathcal{E}_n$ holds for $n = 1$, since the logarithm of any nonconstant function in $\mathcal{E}_0$ is of the form $\sum_{k=1}^p a_k f_k$, where the $f_k$ are iterated logarithms, and so $\gg 1$; on the other hand, if $\mathcal{E}_{n-2} \subset \mathcal{E}_{n-1}$ one deduces from the definition of $\mathcal{E}_n$ that $\mathcal{E}_{n-1} \subset \mathcal{E}_n$; this definition furthermore shows that $\mathcal{E}_n$ satisfies $a), b)$ and $c)$. It remains to see that $\mathcal{E}_n$ is a comparison scale: since the quotient of two functions in $\mathcal{E}_n$ again belongs to $\mathcal{E}_n$ it suffices to prove that every function $f$ of $\mathcal{E}_n$, apart from the constant 1, cannot be equivalent to a constant $\neq 0$. Now one has $\log f = \sum_{k=1}^p a_k f_k \sim a_1 f_1$ by construction, and since $f_1 \gg 1$, $\log f$ tends to $\pm \infty$, so $f$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$.
+First we consider the set $\mathcal{E}_0$ of functions of the form $\prod_{m=0}^{\infty} (l_m(x))^{\alpha_m}$, where the $\alpha_m$ are real numbers, zero apart from for a finite number of indices $m$; it is immediate, from (5) (V, p. 253) that these functions form a *comparison scale* which satisfies conditions $a), b)$ and c). Now we define, by recursion on $n$, the set $\mathcal{E}_n$ (for $n \geqslant 1$) formed by the constant 1 and by the functions of the form $\exp \left( \sum_{k=1}^p a_k f_k \right)$, where $p$ is an arbitrary integer $> 0$, the functions $f_k$ ($1 \leqslant k \leqslant p$) are functions in $\mathcal{E}_{n-1}$ such that $f_1 \gg f_2 \gg \cdots \gg f_p \gg 1$, and the $a_k$ are real numbers $\neq 0$; we show by induction that $\mathcal{E}_n$ is a *comparison scale* satisfying $a), b)$ and c) and containing $\mathcal{E}_{n-1}$. In the first place, the relation $\mathcal{E}_{n-1} \subset \mathcal{E}_n$ holds for $n = 1$, since the logarithm of any nonconstant function in $\mathcal{E}_0$ is of the form $\sum_{k=1}^p a_k f_k$, where the $f_k$ are iterated logarithms, and so $\gg 1$; on the other hand, if $\mathcal{E}_{n-2} \subset \mathcal{E}_{n-1}$ one deduces from the definition of $\mathcal{E}_n$ that $\mathcal{E}_{n-1} \subset \mathcal{E}_n$; this definition furthermore shows that $\mathcal{E}_n$ satisfies $a), b)$ and c). It remains to see that $\mathcal{E}_n$ is a comparison scale: since the quotient of two functions in $\mathcal{E}_n$ again belongs to $\mathcal{E}_n$ it suffices to prove that every function $f$ of $\mathcal{E}_n$, apart from the constant 1, cannot be equivalent to a constant $\neq 0$. Now one has $\log f = \sum_{k=1}^p a_k f_k \sim a_1 f_1$ by construction, and since $f_1 \gg 1$, $\log f$ tends to $\pm \infty$, so $f$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$.
 
-This being so, if $\mathcal{E}$ is the *union* of the $\mathcal{E}_n$ for $n \geqslant 0$, then $\mathcal{E}$ is a comparison scale, for two functions in $\mathcal{E}$ belong to the same scale $\mathcal{E}_n$; for the same reason, $\mathcal{E}$ satisfies $a)$, and it is clear that it also satisfies $b)$ and $c)$. Finally, if $f \in \mathcal{E}$ there exists an $n$ such that $f \in \mathcal{E}_n$; if $f$ is not the constant 1 then $f(x)$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$; in the first case $e^f \sim 1$ and in the second, $e^f$ belongs to $\mathcal{E}_{n+1}$ by definition, and so to $\mathcal{E}$.
+This being so, if $\mathcal{E}$ is the *union* of the $\mathcal{E}_n$ for $n \geqslant 0$, then $\mathcal{E}$ is a comparison scale, for two functions in $\mathcal{E}$ belong to the same scale $\mathcal{E}_n$; for the same reason, $\mathcal{E}$ satisfies a), and it is clear that it also satisfies b) and c). Finally, if $f \in \mathcal{E}$ there exists an $n$ such that $f \in \mathcal{E}_n$; if $f$ is not the constant 1 then $f(x)$ tends to 0 or to $+\infty$ as $x$ tends to $+\infty$; in the first case $e^f \sim 1$ and in the second, $e^f$ belongs to $\mathcal{E}_{n+1}$ by definition, and so to $\mathcal{E}$.
 
 #### Remark {#fvr-v-a0-n5-rem-1 .statement}
 
-Despite the practical usefulness of the scale $\mathcal{E}$ which we have just defined, it is easy to give examples of (H) functions which *have no principal part* with respect to $\mathcal{E}$. Indeed, if $f$ is an (H) function such that $f \sim a g$, where $a$ is a constant $> 0$ and $g \in \mathcal{E}$, then $\log f - \log g - \log a$ tends to 0 with $1/x$, so $\log f$ admits, relative to $\mathcal{E}$, an asymptotic expansion whose *remainder tends to 0*, by property $c)$. Now, if one considers for example the (H) function $f(x) = e_2 \left( x + \frac{1}{x} \right)$ one has $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, so the asymptotic expansions of $\log f$ relative to $\mathcal{E}$ are of the form
+Despite the practical usefulness of the scale $\mathcal{E}$ which we have just defined, it is easy to give examples of (H) functions which *have no principal part* with respect to $\mathcal{E}$. Indeed, if $f$ is an (H) function such that $f \sim a g$, where $a$ is a constant $> 0$ and $g \in \mathcal{E}$, then $\log f - \log g - \log a$ tends to 0 with $1/x$, so $\log f$ admits, relative to $\mathcal{E}$, an asymptotic expansion whose *remainder tends to 0*, by property c). Now, if one considers for example the (H) function $f(x) = e_2 \left( x + \frac{1}{x} \right)$ one has $\log f(x) = \exp \left( x + \frac{1}{x} \right)$, so the asymptotic expansions of $\log f$ relative to $\mathcal{E}$ are of the form
 
 $$
 \log f(x) = e^x + \frac{e^x}{x} + \frac{1}{2!} \frac{e^x}{x^2} + \cdots + \frac{1}{n!} \frac{e^x}{x^n} + o \left( \frac{e^x}{x^n} \right) \quad (n \text{ an integer } > 0).
@@ -385,9 +386,9 @@ whence we obtain (11) by induction on $n$.
 
 #### Remark 1 {#fvr-v-a0-n6-rem-1 .statement}
 
-If $g$ is of order $< 1$ relative to $x$, the function $u(x) - u_n(x)$ tends to 0 with $x$ once $n$ is sufficiently large. Indeed, in the opposite case one would have $gg''^n \gg 1$ for every $n$, so $g$ would be of infinite order relative to $1/g'$; in other words, one would have $\log|g| \gg \log|g'|$, whence, on differentiating, $g'/g \gg g''/g'$. But if $g$ is of order $\mu < 1$ relative to $x$ one has $g'/g \sim g''/g'$ when $\mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'}$ when $\mu \neq 0$, and finally $g'/g \ll g''/g'$ when $\mu = 0$ (V, p. 251, n 3).
+If $g$ is of order $< 1$ relative to $x$, the function $u(x) - u_n(x)$ tends to 0 with $x$ once $n$ is sufficiently large. Indeed, in the opposite case one would have $g{g''}^n \gg 1$ for every $n$, so $g$ would be of infinite order relative to $1/g'$; in other words, one would have $\log|g| \gg \log|g'|$, whence, on differentiating, $g'/g \gg g''/g'$. But if $g$ is of order $\mu < 1$ relative to $x$ one has $g'/g \sim g''/g'$ when $\mu = -\infty, \frac{g'}{g} \sim \frac{\mu}{\mu - 1} \frac{g''}{g'}$ when $\mu \neq 0$, and finally $g'/g \ll g''/g'$ when $\mu = 0$ (V, p. 251, n 3).
 
-In contrast, if $g$ is of order 1 relative to $x$ one can have $gg''^n \gg 1$ for every integer $n > 0$, as the example $g(x) = x/\log x$ shows.
+In contrast, if $g$ is of order 1 relative to $x$ one can have $g{g''}^n \gg 1$ for every integer $n > 0$, as the example $g(x) = x/\log x$ shows.
 
 #### Remark 2 {#fvr-v-a0-n6-rem-2 .statement}
 

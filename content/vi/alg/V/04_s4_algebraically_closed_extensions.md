@@ -28,7 +28,7 @@ statements: 19
 exercises: 2
 content_sha256: 39073f73fa0360bcfd7f7550ce08d1aede87782b839dfa3532ab114a66e7ebc6
 translated_from: content/en/alg/V/04_s4_algebraically_closed_extensions.md
-source_content_sha256: 0448b33c97d3ed2ba38e209e2edbe541f08218127e30ebd49790a9cf61517aa2
+source_content_sha256: 57102dadb9478828bbaf3bf1d6ad1b4a27c3a089d5abfaeca2f02ab9a7c16523
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-e35f2d1f
 glossary_version: 34

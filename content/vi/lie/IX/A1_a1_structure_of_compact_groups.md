@@ -26,9 +26,9 @@ subsections:
       pdf_page: 391
 statements: 9
 exercises: 1
-content_sha256: f8334630e0ebdea6de7f4006c9af396b538ebd34cc168bc62c7dda280a907636
+content_sha256: 9f831e4ee0b6d9c2e4ca25f32ff6d6376b3be352906f1d21a84e77b43daa41c3
 translated_from: content/en/lie/IX/A1_a1_structure_of_compact_groups.md
-source_content_sha256: 64ab48477612464d09be52483d3c37fef377ffe8341eda5273211213f4a90e0f
+source_content_sha256: 5e7319fca99d12df0397567af8fdb7c23d7ffbc97775400d0463c84a608eb608
 translation_model: gpt-5-6, gpt-5.4
 translation_run: translate-vi-f121e56d
 glossary_version: 34
@@ -82,7 +82,7 @@ b) Ta có D(G) = lim$_{_{\leftarrow -}\alpha}\overline{D(G_{\alpha})}$ và C(G) 
 
 c) Nếu $G_{\alpha}$ là compact với mọi $\alpha \in I$, thì $C(G)_0=$ lim$_{_{\leftarrow -}\alpha}C(G_{\alpha})_0$.
 
-Cho $\alpha , \beta$ là hai phần tử của I, với $\alpha \leq \beta$. Khi đó $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$, và $f_{\alpha \beta}(C(G_{\beta}))\subset C(G_{\alpha})$ vì $f_{\alpha \beta}$ là toàn ánh; do $f_{\alpha \beta}$ liên tục, suy ra $f_{\alpha \beta}(\overline{D(G_{\beta})})\subset \overline{D(G_{\alpha})}$ và $f_{\alpha \beta}(C(G_{\beta})_0)\subset C(G_{\alpha})_0$, do đó $a)$. Vì $f_{\alpha}$ là toàn ánh, $f_{\alpha}(D(G)) = D(G_{\alpha})$ (Đại số, Chương I, §6, no. 2, Mệnh đề 6), nên $\overline{D(G)}=$ lim$_{\leftarrow -}\overline{D(G_{\alpha})}$ (Tôpô đại cương, Chương I, §4, no. 4, Hệ quả của Mệnh đề 9). Tính toàn ánh của $f_{\alpha}$ cũng suy ra bao hàm $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ và do đó $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; bao hàm đối là ngay lập tức. Sau cùng, mệnh đề $c)$ suy ra từ $b)$ và Tôpô đại cương, Chương III, §7, no. 2, Mệnh đề 4).
+Cho $\alpha , \beta$ là hai phần tử của I, với $\alpha \leq \beta$. Khi đó $f_{\alpha \beta}(D(G_{\beta}))\subset D(G_{\alpha})$, và $f_{\alpha \beta}(C(G_{\beta}))\subset C(G_{\alpha})$ vì $f_{\alpha \beta}$ là toàn ánh; do $f_{\alpha \beta}$ liên tục, suy ra $f_{\alpha \beta}(\overline{D(G_{\beta})})\subset \overline{D(G_{\alpha})}$ và $f_{\alpha \beta}(C(G_{\beta})_0)\subset C(G_{\alpha})_0$, do đó a). Vì $f_{\alpha}$ là toàn ánh, $f_{\alpha}(D(G)) = D(G_{\alpha})$ (Đại số, Chương I, §6, no. 2, Mệnh đề 6), nên $\overline{D(G)}=$ lim$_{\leftarrow -}\overline{D(G_{\alpha})}$ (Tôpô đại cương, Chương I, §4, no. 4, Hệ quả của Mệnh đề 9). Tính toàn ánh của $f_{\alpha}$ cũng suy ra bao hàm $f_{\alpha}(C(G))\subset$ $C(G_{\alpha})$ và do đó $C(G)\subset$ lim$_{\leftarrow -}C(G_{\alpha})$; bao hàm đối là ngay lập tức. Sau cùng, mệnh đề c) suy ra từ b) và Tôpô đại cương, Chương III, §7, no. 2, Mệnh đề 4).
 
 #### Bổ đề 2 {#lie-ix-a1-lem-2 .statement tag=01IN}
 
@@ -144,15 +144,15 @@ Từ bổ đề này suy ra rằng nhóm tôpô lim$_{\leftarrow -}\widetilde{D}
 
 Bây giờ hãy nhận thấy rằng nhóm $\prod_{\lambda\in L}S_{\lambda}$ bằng nhóm dẫn xuất của nó: điều này
 
-suy ra từ §4, no. 5, Hệ quả của Mệnh đề 10. Điều tương tự cũng đúng với D(G), vì $\pi$ là toàn ánh. Do đó, $D(G)\supset D(D(G)) = D(G)$. Vậy nhóm D(G) là compact và bằng nhóm dẫn xuất của nó; điều này chứng minh $a)$, vì các khẳng định liên quan đến $C(G)_0$ là tầm thường.
+suy ra từ §4, no. 5, Hệ quả của Mệnh đề 10. Điều tương tự cũng đúng với D(G), vì $\pi$ là toàn ánh. Do đó, $D(G)\supset D(D(G)) = D(G)$. Vậy nhóm D(G) là compact và bằng nhóm dẫn xuất của nó; điều này chứng minh a), vì các khẳng định liên quan đến $C(G)_0$ là tầm thường.
 
 Mặt khác, hạt nhân của $\pi :\prod_{\lambda\in L}S_{\lambda}\rightarrow D(G)$ có thể được đồng nhất
 
 với lim$_{\leftarrow -}$ Ker($\pi_{\alpha}$) $($Algèbre, Ch. II, §6, no. 1, Nhận xét 1), và do đó với một
 
-nhóm con compact, hoàn toàn không liên thông, trung tâm, vậy nên có $c)$.
+nhóm con compact, hoàn toàn không liên thông, trung tâm, vậy nên có c).
 
-Ta chứng minh $b)$. Với mọi $\alpha$ trong I, cấu xạ $s_{\alpha}: C(G_{\alpha})_0\times D(G_{\alpha})\rightarrow G_{\alpha}$ sao cho $s_{\alpha}(x, y) =xy$ với $x\in C(G_{\alpha})_0, y\in D(G_{\alpha})$, là toàn ánh và hạt nhân của nó là một nhóm con trung tâm hữu hạn (§1, no. 4, Hệ quả 1 của Mệnh đề 4). Các $s_{\alpha}$ tạo thành một hệ xạ ảnh các ánh xạ mà giới hạn, theo điều trước, có thể được đồng nhất với đồng cấu $(x, y) \rightarrow xy$ từ $C(G)_0\times D(G)$ vào G. Bây giờ ta thấy như trước rằng ánh xạ này là toàn ánh và hạt nhân của nó là trung tâm và hoàn toàn gián đoạn, do đó suy ra $b)$.
+Ta chứng minh b). Với mọi $\alpha$ trong I, cấu xạ $s_{\alpha}: C(G_{\alpha})_0\times D(G_{\alpha})\rightarrow G_{\alpha}$ sao cho $s_{\alpha}(x, y) =xy$ với $x\in C(G_{\alpha})_0, y\in D(G_{\alpha})$, là toàn ánh và hạt nhân của nó là một nhóm con trung tâm hữu hạn (§1, no. 4, Hệ quả 1 của Mệnh đề 4). Các $s_{\alpha}$ tạo thành một hệ xạ ảnh các ánh xạ mà giới hạn, theo điều trước, có thể được đồng nhất với đồng cấu $(x, y) \rightarrow xy$ từ $C(G)_0\times D(G)$ vào G. Bây giờ ta thấy như trước rằng ánh xạ này là toàn ánh và hạt nhân của nó là trung tâm và hoàn toàn gián đoạn, do đó suy ra b).
 
 #### Hệ quả {#lie-ix-a1-n3-cor-1 .statement tag=01IQ}
 

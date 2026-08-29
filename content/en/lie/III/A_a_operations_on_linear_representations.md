@@ -8,6 +8,7 @@ section_title: Operations on linear representations
 appendix: true
 lang: en
 source: lie-i-iii
+book_pages: 368-369
 pdf_pages: 0386-0387
 extraction: ocr
 statements: 0

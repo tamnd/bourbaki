@@ -24,9 +24,9 @@ subsections:
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: 269b1726990989ee10e2c92cf6f19f0a4cb068f37f951d5e899dc8b7c0a38f4a
+content_sha256: 01cb9f73ad5c0e6c1e5605e5afca9d4cfe35b9e7ee97c0c5f7b5122be219d136
 translated_from: content/en/fvr/VII/01_s1_the_gamma_function_in_the_real_domain.md
-source_content_sha256: 752ce38907fef650e8ea8bf4b5fa4f04eca836602530c6e62155c59c5cb349bb
+source_content_sha256: f1dbe01f2e933089ae266a6020c73d595c10a78aa1cea50f223a11623430aacd
 translation_model: gpt-5.4
 translation_run: translate-vi-f4ac4aa2
 glossary_version: 34
@@ -251,7 +251,7 @@ Hiển nhiên là *tích* của hai hàm lồi theo lôgarit trên $I$ cũng l�
 
 *Cho $f$ và $g$ là hai hàm số $> 0$ và khả vi hai lần trên một khoảng mở $I$. Nếu $f$ và $g$ là các hàm lồi theo lôgarit trên $I$, thì $f + g$ lồi theo lôgarit trên $I$.*
 
-Quan hệ $D^2 (\log f(x)) \geq 0$ có thể được viết thành $f(x)f''(x) - (f'(x))^2 \geq 0$. Ta quy về việc chỉ ra rằng các quan hệ $a > 0, a' > 0, ac - b^2 \geq 0, a'c' - b'^2 \geq 0$ kéo theo $(a + a')(c + c') - (b + b')^2 \geq 0$; mà, khi $a > 0$, quan hệ $ac - b^2 \geq 0$ tương đương với việc dạng toàn phương $ax^2 + 2bxy + cy^2$ là $\geq 0$ trên $\mathbf{R}^2$, và hiển nhiên là nếu
+Quan hệ $D^2 (\log f(x)) \geq 0$ có thể được viết thành $f(x)f''(x) - (f'(x))^2 \geq 0$. Ta quy về việc chỉ ra rằng các quan hệ $a > 0, a' > 0, ac - b^2 \geq 0, a'c' - {b'}^2 \geq 0$ kéo theo $(a + a')(c + c') - (b + b')^2 \geq 0$; mà, khi $a > 0$, quan hệ $ac - b^2 \geq 0$ tương đương với việc dạng toàn phương $ax^2 + 2bxy + cy^2$ là $\geq 0$ trên $\mathbf{R}^2$, và hiển nhiên là nếu
 
 $$
 ax^2 + 2bxy + cy^2 \geq 0 \quad \text{và} \quad a'x^2 + 2b'xy + c'y^2 \geq 0
@@ -412,7 +412,7 @@ và khi đó công thức (18) cho, với $y$ cố định, khai triển tiệm 
 
 $$
 \mathbf{B}(x, y) = \frac{1}{x} + \left( \Gamma'(1) - \frac{\Gamma'(y)}{\Gamma(y)} \right)
-+ \left( \frac{\Gamma''(1)}{2} - \Gamma'(1) \frac{\Gamma'(y)}{\Gamma(y)} + \frac{2\Gamma'^2(y) - \Gamma(y)\Gamma''(y)}{2\Gamma^2(y)} \right) x + O(x^2)
++ \left( \frac{\Gamma''(1)}{2} - \Gamma'(1) \frac{\Gamma'(y)}{\Gamma(y)} + \frac{2{\Gamma'}^2(y) - \Gamma(y)\Gamma''(y)}{2\Gamma^2(y)} \right) x + O(x^2)
 $$
 trên một lân cận của $x = 0$.
 

@@ -46,7 +46,7 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: bb7a905be6e261263bf397713f2e02a786db093bb92d5bee9bb0125307d41884
+content_sha256: 463649fb0b2134410a16a31ed5ad5ddcb6c52b640e4c4e568f6e5c66461a51fa
 ---
 
 ## 7. INVERSE LIMITS AND DIRECT LIMITS
@@ -278,7 +278,7 @@ $$(16) \qquad \varprojlim_{\alpha,\lambda} \mathrm{E}^\lambda_\alpha = \varprojl
 
 #### Corollary 1 {#ens-iii-s7-prop-4-cor-1 .statement tag=03OG}
 
-*Let* $(\mathrm{E}'^\lambda_\alpha, f'^{\mu\lambda}_{\alpha\beta})$ *be another inverse system of sets relative to* $\mathrm{I} \times \mathrm{L}$, *and for each* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *let* $u^\lambda_\alpha$ *be a mapping of* $\mathrm{E}^\lambda_\alpha$ *into* $\mathrm{E}'^\lambda_\alpha$ *such that the* $u^\lambda_\alpha$ *form an inverse system of mappings. Then*
+*Let* $(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\alpha\beta})$ *be another inverse system of sets relative to* $\mathrm{I} \times \mathrm{L}$, *and for each* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *let* $u^\lambda_\alpha$ *be a mapping of* $\mathrm{E}^\lambda_\alpha$ *into* $\mathrm{{E}'}^\lambda_\alpha$ *such that the* $u^\lambda_\alpha$ *form an inverse system of mappings. Then*
 
 $$(17) \qquad \varprojlim_{\alpha,\lambda} u^\lambda_\alpha = \varprojlim_\lambda \; (\varprojlim_\alpha u^\lambda_\alpha).$$
 
@@ -615,7 +615,7 @@ $$\varinjlim_{\alpha,\ \lambda} \mathrm{E}_\alpha^\lambda = \varinjlim_{\lambda}
 
 #### Corollary {#ens-iii-s7-n7-cor-1 .statement tag=03OQ}
 
-*Let* $(\mathrm{E}'^\lambda_\alpha, f'^{\mu\lambda}_{\beta\alpha})$ *be another direct system of sets relative to* $\mathrm{I} \times \mathrm{L}$, *and for each* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *let* $u_\alpha^\lambda$ *be a mapping of* $\mathrm{E}_\alpha^\lambda$ *into* $\mathrm{E}'^\lambda_\alpha$, *such that the* $u_\alpha^\lambda$ *form a direct system of mappings. Then we have*
+*Let* $(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\beta\alpha})$ *be another direct system of sets relative to* $\mathrm{I} \times \mathrm{L}$, *and for each* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *let* $u_\alpha^\lambda$ *be a mapping of* $\mathrm{E}_\alpha^\lambda$ *into* $\mathrm{{E}'}^\lambda_\alpha$, *such that the* $u_\alpha^\lambda$ *form a direct system of mappings. Then we have*
 
 (33)
 $$\varinjlim_{\alpha,\ \lambda} u_\alpha^\lambda = \varinjlim_{\lambda}\ (\varinjlim_{\alpha} u_\alpha^\lambda).$$

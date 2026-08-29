@@ -45,14 +45,14 @@ subsections:
       pdf_page: 138
 statements: 43
 exercises: 3
-content_sha256: 16b427b4ea1d3b84287755988b90eee74953fb89281b59156d8259d8da9fed05
+content_sha256: 990c6868635eb8d33252eba948d26e29837eae81e092411c1ee46078be262311
 ---
 
 ## § 3. L$^p$ SPACES
 
 ### 1. Minkowski’s inequality
 
-Let X be a locally compact space, $\mu$ a measure on X. In the set of positive numerical functions (finite or not) defined on X, the function $|\mu|^*(f)$ is positive, positively homogeneous, increasing and convex ($\S 1$, No. 3, Props. 10, 11 and 12).
+Let X be a locally compact space, $\mu$ a measure on X. In the set of positive numerical functions (finite or not) defined on X, the function $|\mu|^*(f)$ is positive, positively homogeneous, increasing and convex ($§ 1$, No. 3, Props. 10, 11 and 12).
 
 #### Proposition 1 {#int-iv-s3-prop-1 .statement}
 
@@ -64,7 +64,7 @@ $$
 
 (Minkowski’s inequality).
 
-The inequality (1) is obvious when one of the terms of the second member is equal to $+\infty$. In the contrary case, $f$ and $g$ are finite almost everywhere ($\S 2$, No. 3, Prop. 7). If $f_1$ and $g_1$ are finite positive functions equivalent to $f$ and $g$, respectively, then $f_1^p, g_1^p$ and $(f_1 + g_1)^p$ are equivalent to $f^p, g^p$ and $(f + g)^p$, respectively, and since equivalent positive functions have the same upper integral ($\S 2$, No. 3, Prop. 6), we are reduced to proving the inequality (1) in the case that $f$ and $g$ are everywhere finite; but in this case the inequality is a special case of the general Minkowski inequality proved in Ch. I, No. 2, Prop. 3.
+The inequality (1) is obvious when one of the terms of the second member is equal to $+\infty$. In the contrary case, $f$ and $g$ are finite almost everywhere ($§ 2$, No. 3, Prop. 7). If $f_1$ and $g_1$ are finite positive functions equivalent to $f$ and $g$, respectively, then $f_1^p, g_1^p$ and $(f_1 + g_1)^p$ are equivalent to $f^p, g^p$ and $(f + g)^p$, respectively, and since equivalent positive functions have the same upper integral ($§ 2$, No. 3, Prop. 6), we are reduced to proving the inequality (1) in the case that $f$ and $g$ are everywhere finite; but in this case the inequality is a special case of the general Minkowski inequality proved in Ch. I, No. 2, Prop. 3.
 
 We shall also have occasion to make use of the following elementary inequality: if $p \geqslant 1$ then, for any numbers $a \geqslant 0,\ b \geqslant 0$,
 
@@ -131,7 +131,7 @@ Set $f = \sum_{n=1}^\infty f_n$; $f$ is the upper envelope of the increasing seq
 
 The proposition follows at once from Th. 1 of §2, No. 3.
 
-If f and g are two equivalent mappings of X into F, then $N_p(f) = N_p(g)$ for all $p \geq 1$ (\S2, No. 3, Prop. 6); thus, $N_p(f)$ depends only on the class $\tilde{f}$ of f, and one sets, by definition, $N_p(\tilde{f}) = N_p(f)$. Since the classes of mappings of X into F form a vector space (\S2, No. 4), the relations (3) and (4) may also be written
+If f and g are two equivalent mappings of X into F, then $N_p(f) = N_p(g)$ for all $p \geq 1$ (§ 2, No. 3, Prop. 6); thus, $N_p(f)$ depends only on the class $\tilde{f}$ of f, and one sets, by definition, $N_p(\tilde{f}) = N_p(f)$. Since the classes of mappings of X into F form a vector space (§ 2, No. 4), the relations (3) and (4) may also be written
 
 $$
 (6) \quad N_p(\alpha \tilde{f}) = |\alpha| N_p(\tilde{f})
@@ -188,7 +188,7 @@ $$
 N_p(g) \leqslant \sum_{n=1}^\infty N_p(f_n) < +\infty;
 $$
 
-thus $g$ is finite almost everywhere (\S2, No. 3, Prop. 7), which means that the series with general term $f_n(x)$ is absolutely convergent almost everywhere. Since $\mathbf{F}$ is complete, this series is convergent almost everywhere and, for every $x \in X$, $|f(x)| \leqslant \sum_{n=1}^\infty |f_n(x)| = g(x)$, whence
+thus $g$ is finite almost everywhere (§ 2, No. 3, Prop. 7), which means that the series with general term $f_n(x)$ is absolutely convergent almost everywhere. Since $\mathbf{F}$ is complete, this series is convergent almost everywhere and, for every $x \in X$, $|f(x)| \leqslant \sum_{n=1}^\infty |f_n(x)| = g(x)$, whence
 
 $$
 N_p(f) \leqslant N_p(g) \leqslant \sum_{n=1}^\infty N_p(f_n) < +\infty,
@@ -340,7 +340,7 @@ The condition is sufficient since $f = f^+ - f^-$; it is necessary, because if $
 
 ### 6. Directed sets in $L^p$ and increasing sequences in $\mathcal{L}^p$
 
-We have defined (\S 2, No. 6) an order relation $\tilde{f} \leq \tilde{g}$ in the set $\widetilde{\mathcal{F}}$ of equivalence classes of numerical functions defined and finite almost everywhere in $X$; equipped with this order relation and with its vector space structure, $\widetilde{\mathcal{F}}$ is a *Riesz space*. The corollary of Prop. 12 of No. 5 shows that if $\tilde{f}$ and $\tilde{g}$ are two elements of the subspace $L^p$ of $\widetilde{\mathcal{F}}$, then the supremum $\sup(\tilde{f}, \tilde{g})$ of $\tilde{f}$ and $\tilde{g}$ in $\widetilde{\mathcal{F}}$ (which is the class of each of the functions $\sup(f, g)$, where $f \in \tilde{f}$ and $g \in \tilde{g}$) belongs to $L^p$; this proves in particular that $L^p$, equipped with the order relation induced by that of $\widetilde{\mathcal{F}}$, is a *Riesz space*.
+We have defined (§ 2, No. 6) an order relation $\tilde{f} \leq \tilde{g}$ in the set $\widetilde{\mathcal{F}}$ of equivalence classes of numerical functions defined and finite almost everywhere in $X$; equipped with this order relation and with its vector space structure, $\widetilde{\mathcal{F}}$ is a *Riesz space*. The corollary of Prop. 12 of No. 5 shows that if $\tilde{f}$ and $\tilde{g}$ are two elements of the subspace $L^p$ of $\widetilde{\mathcal{F}}$, then the supremum $\sup(\tilde{f}, \tilde{g})$ of $\tilde{f}$ and $\tilde{g}$ in $\widetilde{\mathcal{F}}$ (which is the class of each of the functions $\sup(f, g)$, where $f \in \tilde{f}$ and $g \in \tilde{g}$) belongs to $L^p$; this proves in particular that $L^p$, equipped with the order relation induced by that of $\widetilde{\mathcal{F}}$, is a *Riesz space*.
 
 #### Proposition 13 {#int-iv-s3-prop-13 .statement}
 
@@ -348,7 +348,7 @@ We have defined (\S 2, No. 6) an order relation $\tilde{f} \leq \tilde{g}$ in th
 
 The first part of the proposition follows at once from Prop. 11 of No. 5; since the set of $\tilde{f} \geq 0$ is also the set of $\tilde{f}$ such that $| \tilde{f} | = f$, it is closed, because $\tilde{f} \mapsto | \tilde{f} |$ is a continuous mapping and $L^p$ is Hausdorff.
 
-We thus see that the topology on $L^p$ defined by the norm $\| \tilde{f} \|_p$ is *compatible* with the ordered vector space structure of $L^p$ (TVS, II, \S 2, No. 7).
+We thus see that the topology on $L^p$ defined by the norm $\| \tilde{f} \|_p$ is *compatible* with the ordered vector space structure of $L^p$ (TVS, II, § 2, No. 7).
 
 #### Proposition 14 {#int-iv-s3-prop-14 .statement}
 
@@ -360,7 +360,7 @@ $$
 
 *The supremum of $H$ in $L^p$ is then the limit* (in the Banach space $L^p$) *of the section filter of $H$*.
 
-The condition is clearly necessary, since $\tilde{f} \mapsto \| \tilde{f} \|_p$ is an increasing function on the set of elements $\geq 0$ of $L^p$. To see that it is sufficient, we first observe that it implies that the image of $H$ under the mapping $\tilde{f} \mapsto \| \tilde{f} \|_p$ has a limit in $\mathbf{R}$, by the monotone limit theorem; the image of the section filter $\mathfrak{F}$ of $H$ under this mapping is therefore a base of a Cauchy filter on $\mathbf{R}$. The proof will be complete if we show that $\mathfrak{F}$ itself is a *base of a Cauchy filter* on $L^p$; for, $\mathfrak{F}$ will then converge in $L^p$, since $L^p$ is complete (No. 4, Th. 2), and the proposition will follow from TVS, II, \S 2, No. 7, Prop. 18.
+The condition is clearly necessary, since $\tilde{f} \mapsto \| \tilde{f} \|_p$ is an increasing function on the set of elements $\geq 0$ of $L^p$. To see that it is sufficient, we first observe that it implies that the image of $H$ under the mapping $\tilde{f} \mapsto \| \tilde{f} \|_p$ has a limit in $\mathbf{R}$, by the monotone limit theorem; the image of the section filter $\mathfrak{F}$ of $H$ under this mapping is therefore a base of a Cauchy filter on $\mathbf{R}$. The proof will be complete if we show that $\mathfrak{F}$ itself is a *base of a Cauchy filter* on $L^p$; for, $\mathfrak{F}$ will then converge in $L^p$, since $L^p$ is complete (No. 4, Th. 2), and the proposition will follow from TVS, II, § 2, No. 7, Prop. 18.
 
 To see that $\mathfrak{F}$ is a base of a Cauchy filter, we shall make use of the following lemma:
 
@@ -501,7 +501,7 @@ $$
 
 by the countable convexity theorem. Moreover, $g_n(x)$ tends almost everywhere to $g(x) = |f(x)|^{(p/q)-1} \cdot f(x)$, therefore Lebesgue’s theorem shows that $g \in \mathcal{L}_F^q$. The converse is immediate, since $f = |g|^{(q/p)-1} \cdot g$.
 
-It can be shown that the mapping $f \mapsto |f|^{\frac{p}{q}-1} \cdot f$ is a homeomorphism of $\mathcal{L}_F^p$ onto $\mathcal{L}_F^q$ (\S 6, Exer. 10).
+It can be shown that the mapping $f \mapsto |f|^{\frac{p}{q}-1} \cdot f$ is a homeomorphism of $\mathcal{L}_F^p$ onto $\mathcal{L}_F^q$ (§ 6, Exer. 10).
 
 #### Corollary 1 {#int-iv-s3-thm-7-cor-1 .statement}
 
@@ -511,7 +511,7 @@ It can be shown that the mapping $f \mapsto |f|^{\frac{p}{q}-1} \cdot f$ is a ho
 
 — *For a positive numerical function $f$ to belong to $\mathcal{L}^p$, it is necessary and sufficient that $f^p$ belong to $\mathcal{L}^1$.*
 
-Note that if $f$ is a numerical function of arbitrary sign, such that $|f|^p$ belongs to $\mathcal{L}^1$, $f$ does not necessarily belong to $\mathcal{L}^p$ (cf. \S 4, Exer. 8).
+Note that if $f$ is a numerical function of arbitrary sign, such that $|f|^p$ belongs to $\mathcal{L}^1$, $f$ does not necessarily belong to $\mathcal{L}^p$ (cf. § 4, Exer. 8).
 
 ### Exercises {#int-iv-s3-exercises}
 

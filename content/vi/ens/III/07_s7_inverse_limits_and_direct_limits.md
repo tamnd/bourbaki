@@ -46,9 +46,9 @@ errata:
     - says: no. 2, Proposition 2, Corollary 2
       read: no. 2, Proposition 1, Corollary 2
       why: The fact cited on page 197 is that the maps of an inverse system compose, h to the lambda nu being h to the lambda mu after h to the mu nu, and that is Corollary 2 of Proposition 1 of no. 2, the corollary on three inverse systems. Proposition 2 of that no. prints one corollary and it carries no number.
-content_sha256: 25f0e85fb54b8cacddbe03e013d690095300deba97ff7d27077ee53b8f45687b
+content_sha256: 7299f1fb581ecb6de8be52f2d2fb06b75994a6c4df61318028d702d439439803
 translated_from: content/en/ens/III/07_s7_inverse_limits_and_direct_limits.md
-source_content_sha256: bb7a905be6e261263bf397713f2e02a786db093bb92d5bee9bb0125307d41884
+source_content_sha256: 463649fb0b2134410a16a31ed5ad5ddcb6c52b640e4c4e568f6e5c66461a51fa
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-00d7eec5
 glossary_version: 34
@@ -285,7 +285,7 @@ $$(16) \qquad \varprojlim_{\alpha,\lambda} \mathrm{E}^\lambda_\alpha = \varprojl
 
 #### Hệ quả 1 {#ens-iii-s7-prop-4-cor-1 .statement tag=03OG}
 
-*Cho* $(\mathrm{E}'^\lambda_\alpha, f'^{\mu\lambda}_{\alpha\beta})$ *là một hệ ngược khác của các tập hợp đối với* $\mathrm{I} \times \mathrm{L}$, *và với mỗi* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *cho* $u^\lambda_\alpha$ *là một ánh xạ từ* $\mathrm{E}^\lambda_\alpha$ *vào* $\mathrm{E}'^\lambda_\alpha$ *sao cho các* $u^\lambda_\alpha$ *lập thành một hệ ngược các ánh xạ. Khi đó*
+*Cho* $(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\alpha\beta})$ *là một hệ ngược khác của các tập hợp đối với* $\mathrm{I} \times \mathrm{L}$, *và với mỗi* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *cho* $u^\lambda_\alpha$ *là một ánh xạ từ* $\mathrm{E}^\lambda_\alpha$ *vào* $\mathrm{{E}'}^\lambda_\alpha$ *sao cho các* $u^\lambda_\alpha$ *lập thành một hệ ngược các ánh xạ. Khi đó*
 
 $$(17) \qquad \varprojlim_{\alpha,\lambda} u^\lambda_\alpha = \varprojlim_\lambda \; (\varprojlim_\alpha u^\lambda_\alpha).$$
 
@@ -622,7 +622,7 @@ $$\varinjlim_{\alpha,\ \lambda} \mathrm{E}_\alpha^\lambda = \varinjlim_{\lambda}
 
 #### Hệ quả {#ens-iii-s7-n7-cor-1 .statement tag=03OQ}
 
-*Cho* $(\mathrm{E}'^\lambda_\alpha, f'^{\mu\lambda}_{\beta\alpha})$ *là một hệ trực tiếp khác của các tập hợp đối với* $\mathrm{I} \times \mathrm{L}$, *và với mỗi* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *cho* $u_\alpha^\lambda$ *là một ánh xạ từ* $\mathrm{E}_\alpha^\lambda$ *vào* $\mathrm{E}'^\lambda_\alpha$, *sao cho các* $u_\alpha^\lambda$ *tạo thành một hệ trực tiếp các ánh xạ. Khi đó ta có*
+*Cho* $(\mathrm{{E}'}^\lambda_\alpha, {f'}^{\mu\lambda}_{\beta\alpha})$ *là một hệ trực tiếp khác của các tập hợp đối với* $\mathrm{I} \times \mathrm{L}$, *và với mỗi* $(\alpha, \lambda) \in \mathrm{I} \times \mathrm{L}$ *cho* $u_\alpha^\lambda$ *là một ánh xạ từ* $\mathrm{E}_\alpha^\lambda$ *vào* $\mathrm{{E}'}^\lambda_\alpha$, *sao cho các* $u_\alpha^\lambda$ *tạo thành một hệ trực tiếp các ánh xạ. Khi đó ta có*
 
 (33)
 $$\varinjlim_{\alpha,\ \lambda} u_\alpha^\lambda = \varinjlim_{\lambda}\ (\varinjlim_{\alpha} u_\alpha^\lambda).$$

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: aa5da82a7db2a4fcd3f02956e627a46809b6c4112bb85259576d359ac3e9cfeb
+content_sha256: 808d1febed5e98d1a4693836305c73d1f084d7d8ef2e3631777c1dd0a2f4de4b
 ---
 
 ## § 2. QUOTIENT OF A SPACE BY A GROUP; HOMOGENEOUS SPACES
@@ -188,14 +188,14 @@ If $f \in \mathcal{K}(X)$, then $f^b \in \mathcal{K}(X/H)$. The mapping $f \maps
 
 — We are going to show that the mapping $f \mapsto f^b$ is a *strict morphism* (GT, III, §2, No. 8) of $\mathcal{K}(X)$ onto $\mathcal{K}(X/H)$.
 
-$a)$ The mapping is continuous: it suffices to prove that, for every compact subset $K$ of $X$, the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a continuous mapping of $\mathcal{K}(X, K)$ into $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Prop. 5); since $H$ operates properly in $X$, the set $P$ of $\xi \in H$ such that $K\xi$ intersects $K$ is compact; one concludes from (3) that $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, and this proves our assertion.
+a) The mapping is continuous: it suffices to prove that, for every compact subset $K$ of $X$, the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a continuous mapping of $\mathcal{K}(X, K)$ into $\mathcal{K}(X/H, \pi(K))$ (TVS, II, §4, No. 4, Prop. 5); since $H$ operates properly in $X$, the set $P$ of $\xi \in H$ such that $K\xi$ intersects $K$ is compact; one concludes from (3) that $\sup_{x \in K} |f^b(\pi(x))| \leq \beta(P) \sup_{x \in K} |f(x)|$, and this proves our assertion.
 
-$b)$ Let $K'$ be a compact subset of $X/H$. Let us choose a compact subset $K$ of $X$ such that $\pi(K) = K'$, and let us show that the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a strict morphism of $\mathcal{K}(X, K)$ onto $\mathcal{K}(X/H, K')$. It suffices to construct a right inverse for this restriction (GT, III, §6, No. 2, Prop. 3). Now, by Lemma 1 of No. 1 (whose notations we adopt), one obtains such an inverse by composing the following mappings:
+b) Let $K'$ be a compact subset of $X/H$. Let us choose a compact subset $K$ of $X$ such that $\pi(K) = K'$, and let us show that the restriction of $f \mapsto f^b$ to $\mathcal{K}(X, K)$ is a strict morphism of $\mathcal{K}(X, K)$ onto $\mathcal{K}(X/H, K')$. It suffices to construct a right inverse for this restriction (GT, III, §6, No. 2, Prop. 3). Now, by Lemma 1 of No. 1 (whose notations we adopt), one obtains such an inverse by composing the following mappings:
 $\alpha)$ the mapping $f' \mapsto f' \circ \pi$ of $\mathcal{K}(X/H, K')$ into the set $E$ of functions of $\mathcal{K}^1(X)$ whose support is contained in $KH$;
 $\beta)$ the mapping of $E$ into $E$ that, to every $g \in E$, makes correspond the function equal to $g/u^1$ on $KH$, and to 0 on $X - KH$;
 $\gamma)$ the mapping of $E$ into $\mathcal{K}(X)$ that, to every function $h \in E$, makes correspond $uh$.
 
-$c)$ This established, if $V$ is a convex neighborhood of 0 in $\mathcal{K}(X)$, then $V \cap \mathcal{K}(X, K)$ is a convex neighborhood of 0 in $\mathcal{K}(X, K)$, therefore $V^b \cap \mathcal{K}(X/H, K')$ is a convex neighborhood of 0 in $\mathcal{K}(X/H, K')$ by b), therefore $V^b$ is a neighborhood of 0 in $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). This completes the proof.
+c) This established, if $V$ is a convex neighborhood of 0 in $\mathcal{K}(X)$, then $V \cap \mathcal{K}(X, K)$ is a convex neighborhood of 0 in $\mathcal{K}(X, K)$, therefore $V^b \cap \mathcal{K}(X/H, K')$ is a convex neighborhood of 0 in $\mathcal{K}(X/H, K')$ by b), therefore $V^b$ is a neighborhood of 0 in $\mathcal{K}(X/H)$ (TVS, II, §4, No. 4). This completes the proof.
 
 #### Proposition 4 {#int-vii-s2-prop-4 .statement}
 
@@ -343,7 +343,7 @@ therefore $h \circ \pi$ is locally $\lambda^\#$-integrable.
 
 #### Corollary 1 {#int-vii-s2-prop-6-cor-1 .statement}
 
-— Let $\lambda, \lambda'$ be two positive measures on $X/H$. For $\lambda'$ to have base $\lambda$, it is necessary and sufficient that $\lambda'^\#$ have base $\lambda^\#$. For $\lambda$ and $\lambda'$ to be equivalent, it is necessary and sufficient that $\lambda^\#$ and $\lambda'^\#$ be equivalent.
+— Let $\lambda, \lambda'$ be two positive measures on $X/H$. For $\lambda'$ to have base $\lambda$, it is necessary and sufficient that ${\lambda'}^\#$ have base $\lambda^\#$. For $\lambda$ and $\lambda'$ to be equivalent, it is necessary and sufficient that $\lambda^\#$ and ${\lambda'}^\#$ be equivalent.
 
 The first assertion follows from Prop. 6, a) and c). The second follows from the first.
 
@@ -351,7 +351,7 @@ The first assertion follows from Prop. 6, a) and c). The second follows from the
 
 — Let $\lambda$ be a positive measure on $X/H$, and $f$ a $\lambda^\#$-measurable numerical function on $X$. Suppose that, for every $\xi \in H$, $\delta(\xi)f = f$ locally $\lambda^\#$-almost everywhere. Then, there exists a $\lambda$-measurable function $g$ on $X/H$ such that $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
 
-Replacing $f$ by $f/(1+|f|)$, one reduces to the case that $f$ is bounded, hence locally $\lambda^\#$-integrable. Let $\mu = f \cdot \lambda^\#$. The hypothesis on $f$ implies that $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ for all $\xi \in H$. There then exists (Prop. 4) a measure $\lambda'$ on $X/H$ such that $\mu = \lambda'^\#$. By Cor. 1, there exists a locally $\lambda$-integrable function $g$ on $X/H$ such that $\lambda' = g \cdot \lambda$. By Prop. 6, $f \cdot \lambda^\# = \lambda'^\# = (g \circ \pi) \cdot \lambda^\#$, whence $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
+Replacing $f$ by $f/(1+|f|)$, one reduces to the case that $f$ is bounded, hence locally $\lambda^\#$-integrable. Let $\mu = f \cdot \lambda^\#$. The hypothesis on $f$ implies that $\delta(\xi)\mu = f \cdot \delta(\xi)\lambda^\# = \Delta_H(\xi)\mu$ for all $\xi \in H$. There then exists (Prop. 4) a measure $\lambda'$ on $X/H$ such that $\mu = {\lambda'}^\#$. By Cor. 1, there exists a locally $\lambda$-integrable function $g$ on $X/H$ such that $\lambda' = g \cdot \lambda$. By Prop. 6, $f \cdot \lambda^\# = {\lambda'}^\# = (g \circ \pi) \cdot \lambda^\#$, whence $f = g \circ \pi$ locally $\lambda^\#$-almost everywhere.
 
 #### Corollary 3 {#int-vii-s2-prop-6-cor-3 .statement}
 
@@ -371,7 +371,7 @@ $$
 (\sup \lambda_\iota)^\# \geq \sup(\lambda_\iota^\#).
 $$
 
-Conversely, assume the family $(\lambda_\iota^\#)$ to be bounded above and let $\nu = \sup(\lambda_\iota^\#)$. Since $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ for all $\xi \in H$, obviously $\delta(\xi)\nu = \Delta_H(\xi)\nu$, therefore there exists a measure $\mu' \in \mathcal{M}(X/H)$ such that $\nu = \mu'^\#$. Since $\lambda^\# \geq 0$ implies $\lambda \geq 0$, we have $\mu' \geq \lambda_\iota$ for all $\iota$, which shows that the family $(\lambda_\iota)$ is bounded above and that $\nu = \mu'^\# \geq (\sup \lambda_\iota)^\#$, whence
+Conversely, assume the family $(\lambda_\iota^\#)$ to be bounded above and let $\nu = \sup(\lambda_\iota^\#)$. Since $\delta(\xi)\lambda_\iota^\# = \Delta_H(\xi)\lambda_\iota^\#$ for all $\xi \in H$, obviously $\delta(\xi)\nu = \Delta_H(\xi)\nu$, therefore there exists a measure $\mu' \in \mathcal{M}(X/H)$ such that $\nu = {\mu'}^\#$. Since $\lambda^\# \geq 0$ implies $\lambda \geq 0$, we have $\mu' \geq \lambda_\iota$ for all $\iota$, which shows that the family $(\lambda_\iota)$ is bounded above and that $\nu = {\mu'}^\# \geq (\sup \lambda_\iota)^\#$, whence
 
 $$
 \sup(\lambda_\iota^\#) \geq (\sup \lambda_\iota)^\#,
@@ -453,7 +453,7 @@ $$
 \int_X h(x) f(\pi(x)) d\lambda^\#(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}) \int_H h(x\xi) d\beta(\xi) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}),
 $$
 
-whence a). The assertion b) is proved similarly. The assertions of c) concerning measurability, essential integrability and formula (14) may then be obtained by applying the results of Ch. V (\S4, Prop. 3, \S5, Th. 1, \S4, Th. 2). If $k$ is $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable (Ch. V, \S3, No. 3, Th. 1). If $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable, Prop. 5 proves that $(h \cdot (k \circ \pi))^b = h^b \cdot k = k$ is $\lambda$-integrable. If $k$ is locally $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is locally $\lambda^\#$-integrable (Prop. 6). Finally, suppose $h \cdot (k \circ \pi)$ locally $\lambda^\#$-integrable; for every $f \in \mathcal{H}(X/H)$, $h \cdot (k \circ \pi) \cdot (f \circ \pi)$ has compact support, and
+whence a). The assertion b) is proved similarly. The assertions of c) concerning measurability, essential integrability and formula (14) may then be obtained by applying the results of Ch. V (§ 4, Prop. 3, § 5, Th. 1, § 4, Th. 2). If $k$ is $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable (Ch. V, § 3, No. 3, Th. 1). If $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable, Prop. 5 proves that $(h \cdot (k \circ \pi))^b = h^b \cdot k = k$ is $\lambda$-integrable. If $k$ is locally $\lambda$-integrable, then $h \cdot (k \circ \pi)$ is locally $\lambda^\#$-integrable (Prop. 6). Finally, suppose $h \cdot (k \circ \pi)$ locally $\lambda^\#$-integrable; for every $f \in \mathcal{H}(X/H)$, $h \cdot (k \circ \pi) \cdot (f \circ \pi)$ has compact support, and
 $$
 |h \cdot (k \circ \pi) \cdot (f \circ \pi)| \leq M |h \cdot (k \circ \pi)|,
 $$
@@ -465,7 +465,7 @@ where $M = \sup |f|$; therefore $h \cdot ((kf) \circ \pi)$ is $\lambda^\#$-integ
 
 Suppose first that $X/H$ is paracompact and let $h$ be a function on $X$ satisfying the conditions of Prop. 8. If $k$ is a $\lambda$-integrable numerical function on $X/H$, then $h \cdot (k \circ \pi)$ is $\lambda^\#$-integrable and $(h \cdot (k \circ \pi))^b = k$ (Prop. 9).
 
-In the general case, let $u \in L^1(X/H, \lambda)$. There exists a function $f \in \mathcal{L}^1(X/H, \lambda)$ with class $u$ and zero outside a countable union of compact sets $K_n$. Let us define recursively a sequence of relatively compact open sets $U_n$ of $X/H$ such that $U_{n+1} \supset K_n \cup \overline{U}_n$, and let $V$ be the union of the $U_n$. Then $V$ is an open subset of $X/H$, a countable union of compact subsets $\overline{U}_n$, hence is paracompact (GT, I, \S9, No. 10, Th. 5). Set $Y = \overline{\pi}^{-1}(V)$ and let $\lambda_V$ (resp. $\lambda_Y^\#$) be the measure induced by $\lambda$ (resp. $\lambda^\#$) on $V$ (resp. $Y$). It is clear that $Y/H$ may be identified with $V$ (GT, I, \S3, Prop. 10) and that $\lambda_Y^\#$ may be identified with $(\lambda_V)^\#$. Moreover, $f$ is zero outside $V$ and belongs to $\mathcal{L}^1(V, \lambda_V)$. Therefore, there exists $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ such that $g^b = f$ almost everywhere in $V$. Extending $g$ by 0 on $X - Y$, one obtains a function $g_1 \in \mathcal{L}^1(X, \lambda^\#)$, and it is clear that the class of $g_1^b$ in $L^1(X/H, \lambda)$ is none other than $u$.
+In the general case, let $u \in L^1(X/H, \lambda)$. There exists a function $f \in \mathcal{L}^1(X/H, \lambda)$ with class $u$ and zero outside a countable union of compact sets $K_n$. Let us define recursively a sequence of relatively compact open sets $U_n$ of $X/H$ such that $U_{n+1} \supset K_n \cup \overline{U}_n$, and let $V$ be the union of the $U_n$. Then $V$ is an open subset of $X/H$, a countable union of compact subsets $\overline{U}_n$, hence is paracompact (GT, I, § 9, No. 10, Th. 5). Set $Y = \overline{\pi}^{-1}(V)$ and let $\lambda_V$ (resp. $\lambda_Y^\#$) be the measure induced by $\lambda$ (resp. $\lambda^\#$) on $V$ (resp. $Y$). It is clear that $Y/H$ may be identified with $V$ (GT, I, § 3, Prop. 10) and that $\lambda_Y^\#$ may be identified with $(\lambda_V)^\#$. Moreover, $f$ is zero outside $V$ and belongs to $\mathcal{L}^1(V, \lambda_V)$. Therefore, there exists $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ such that $g^b = f$ almost everywhere in $V$. Extending $g$ by 0 on $X - Y$, one obtains a function $g_1 \in \mathcal{L}^1(X, \lambda^\#)$, and it is clear that the class of $g_1^b$ in $L^1(X/H, \lambda)$ is none other than $u$.
 
 #### Remark 3 {#int-vii-s2-n4-rem-3 .statement}
 
@@ -477,17 +477,17 @@ In the general case, let $u \in L^1(X/H, \lambda)$. There exists a function $f \
 
 — *Let G be a locally compact group, $\mu$ a left Haar measure on G, $\nu$ and $\nu'$ two nonzero quasi-invariant measures on G. If, for every $s \in G$, the densities of $\gamma(s)\nu$ with respect to $\nu$ and of $\gamma(s)\nu'$* with respect to $\nu'$ are equal locally $\mu$-almost everywhere, then $\nu$ and $\nu'$ are proportional.
 
-Write $\nu = \rho \cdot \mu$, $\nu' = \rho' \cdot \mu$, where $\rho, \rho'$ are locally $\mu$-integrable functions on $G$ and are everywhere nonzero ($\S 1$, No. 9, Prop. 11). For every $s \in G$,
+Write $\nu = \rho \cdot \mu$, $\nu' = \rho' \cdot \mu$, where $\rho, \rho'$ are locally $\mu$-integrable functions on $G$ and are everywhere nonzero ($§ 1$, No. 9, Prop. 11). For every $s \in G$,
 
 $$
 \gamma(s)\nu = (\gamma(s)\rho) \cdot \mu, \qquad \gamma(s)\nu' = (\gamma(s)\rho') \cdot \mu,
 $$
 
-and the hypothesis implies that $\rho^{-1} \cdot \gamma(s)\rho = \rho'^{-1} \cdot \gamma(s)\rho'$ locally $\mu$-almost everywhere. Set $\sigma = \rho'/\rho$, which is a $\mu$-measurable function on $G$. For every $s \in G$, $\gamma(s)\sigma = \sigma$ locally $\mu$-almost everywhere. Therefore $\sigma$ is equal to a constant locally $\mu$-almost everywhere, by Cor. 2 of Prop. 6 applied with $X = H = G$.
+and the hypothesis implies that $\rho^{-1} \cdot \gamma(s)\rho = {\rho'}^{-1} \cdot \gamma(s)\rho'$ locally $\mu$-almost everywhere. Set $\sigma = \rho'/\rho$, which is a $\mu$-measurable function on $G$. For every $s \in G$, $\gamma(s)\sigma = \sigma$ locally $\mu$-almost everywhere. Therefore $\sigma$ is equal to a constant locally $\mu$-almost everywhere, by Cor. 2 of Prop. 6 applied with $X = H = G$.
 
 Let $G$ be a locally compact group, $H$ a closed subgroup of $G$. Consider the homogeneous space $G/H$ of left cosets with respect to $H$, on which $G$ operates continuously on the left. We are going to show that there exists one and only one class of nonzero quasi-invariant measures on $G/H$.
 
-Note that $H$ operates on $G$ continuously and properly by right translations; and the quotient space, which is none other than $G/H$, is paracompact (GT, III, $\S 4$, No. 6, Prop. 13). We may therefore apply the results of Nos. 1 to 4, with $X = G$. We thus have mappings $f \mapsto f^b$ of $\mathcal{K}(G)$ onto $\mathcal{K}(G/H)$, and $\lambda \mapsto \lambda^\#$ of $\mathcal{M}(G/H)$ into $\mathcal{M}(G)$ (once a left Haar measure $\beta$ on $H$ has been fixed). The fact that $G$ operates on the left in $G/H$ gives rise to a supplementary property:
+Note that $H$ operates on $G$ continuously and properly by right translations; and the quotient space, which is none other than $G/H$, is paracompact (GT, III, $§ 4$, No. 6, Prop. 13). We may therefore apply the results of Nos. 1 to 4, with $X = G$. We thus have mappings $f \mapsto f^b$ of $\mathcal{K}(G)$ onto $\mathcal{K}(G/H)$, and $\lambda \mapsto \lambda^\#$ of $\mathcal{M}(G/H)$ into $\mathcal{M}(G)$ (once a left Haar measure $\beta$ on $H$ has been fixed). The fact that $G$ operates on the left in $G/H$ gives rise to a supplementary property:
 
 $$
 \begin{align*}
@@ -524,7 +524,7 @@ c) $\Rightarrow$ b): This follows at once from Prop. 6 a).
 
 b) $\Rightarrow$ a): If property b) holds, then the set of locally $\lambda$-negligible subsets of $G/H$ is invariant under $G$, thus $\lambda$ is quasi-invariant under $G$.
 
-a) $\Rightarrow$ c): Assume $\lambda$ is quasi-invariant under $G$; for every $s \in G$, $\lambda$ and $\gamma_{G/H}(s)\lambda$ are equivalent, therefore $\lambda^\#$ and $\gamma_G(s) \cdot \lambda^\# = (\gamma_{G/H}(s) \cdot \lambda)^\#$ are equivalent (Cor. 1 of Prop. 6); since $\lambda^\# \neq 0$, $\lambda^\#$ is equivalent to $\mu$ (\S 1, No. 9, Prop. 11).
+a) $\Rightarrow$ c): Assume $\lambda$ is quasi-invariant under $G$; for every $s \in G$, $\lambda$ and $\gamma_{G/H}(s)\lambda$ are equivalent, therefore $\lambda^\#$ and $\gamma_G(s) \cdot \lambda^\# = (\gamma_{G/H}(s) \cdot \lambda)^\#$ are equivalent (Cor. 1 of Prop. 6); since $\lambda^\# \neq 0$, $\lambda^\#$ is equivalent to $\mu$ (§ 1, No. 9, Prop. 11).
 
 Moreover, for every $s \in G$,
 
@@ -547,7 +547,7 @@ a) *Any two nonzero quasi-invariant measures on $G/H$ are equivalent; the subset
 
 b) *Let $\lambda, \lambda'$ be two nonzero quasi-invariant measures on $G/H$. If, for every $s \in G$, the densities of $\gamma_{G/H}(s)\lambda$ with respect to $\lambda$ and of $\gamma_{G/H}(s)\lambda'$ with respect to $\lambda'$ are equal almost everywhere for $\lambda$ (or $\lambda'$), then $\lambda$ and $\lambda'$ are proportional.*
 
-The assertion a) follows at once from Lemma 4. Let $\lambda$ and $\lambda'$ be two nonzero quasi-invariant measures satisfying the condition of b). Then, for every $s \in G$, the densities of $\gamma_G(s)\lambda^\#$ with respect to $\lambda^\#$ and of $\gamma_G(s)\lambda'^\#$ with respect to $\lambda'^\#$ are equal locally $\mu$-almost everywhere, therefore (Lemma 3) $\lambda^\#$ and $\lambda'^\#$ are proportional, hence $\lambda$ and $\lambda'$ are proportional.
+The assertion a) follows at once from Lemma 4. Let $\lambda$ and $\lambda'$ be two nonzero quasi-invariant measures satisfying the condition of b). Then, for every $s \in G$, the densities of $\gamma_G(s)\lambda^\#$ with respect to $\lambda^\#$ and of $\gamma_G(s){\lambda'}^\#$ with respect to ${\lambda'}^\#$ are equal locally $\mu$-almost everywhere, therefore (Lemma 3) $\lambda^\#$ and ${\lambda'}^\#$ are proportional, hence $\lambda$ and $\lambda'$ are proportional.
 
 On the other hand, Lemma 4 reduces the search for nonzero quasi-invariant measures on $G/H$ to that for the measures on $G$ equivalent to
 
@@ -691,7 +691,7 @@ Note that this condition is fulfilled when $H$ is unimodular.
 
 — Suppose that $H$ is unimodular and that there exists on $G/H$ a nonzero bounded positive measure $\nu$ relatively invariant under $G$. Then $\nu$ is invariant, and $G$ is unimodular.
 
-Let $\chi$ be the multiplier of $\nu$. For every $s \in G$, $\nu$ and $\gamma(s)\nu$ have the same finite total mass (\S 1, No. 1, formula (6)); since $\gamma(s)\nu = \chi(s)^{-1}\nu$, we have $\chi(s) = 1$. Thus $\nu$ is invariant. By Cor. 2, $\Delta_G(s) = 1$ for all $s \in H$. Let $G'$ be the set of $t \in G$ such that $\Delta_G(t) = 1$. This is a closed normal subgroup of $G$ containing $H$. Let $\pi$ be the canonical mapping of $G/H$ onto $G/G'$. Then $\pi(\nu)$ is a nonzero, bounded positive measure invariant under $G$. Therefore the left Haar measure of the group $G/G'$ is bounded, so that $G/G'$ is compact (\S 1, No. 2, Prop. 2). Consequently the image of $G$ under $\Delta_G$ is a compact subgroup of $\mathbf{R}_+^*$; this subgroup is reduced to $\{1\}$, thus $\Delta_G = 1$ on all of $G$.
+Let $\chi$ be the multiplier of $\nu$. For every $s \in G$, $\nu$ and $\gamma(s)\nu$ have the same finite total mass (§ 1, No. 1, formula (6)); since $\gamma(s)\nu = \chi(s)^{-1}\nu$, we have $\chi(s) = 1$. Thus $\nu$ is invariant. By Cor. 2, $\Delta_G(s) = 1$ for all $s \in H$. Let $G'$ be the set of $t \in G$ such that $\Delta_G(t) = 1$. This is a closed normal subgroup of $G$ containing $H$. Let $\pi$ be the canonical mapping of $G/H$ onto $G/G'$. Then $\pi(\nu)$ is a nonzero, bounded positive measure invariant under $G$. Therefore the left Haar measure of the group $G/G'$ is bounded, so that $G/G'$ is compact (§ 1, No. 2, Prop. 2). Consequently the image of $G$ under $\Delta_G$ is a compact subgroup of $\mathbf{R}_+^*$; this subgroup is reduced to $\{1\}$, thus $\Delta_G = 1$ on all of $G$.
 
 ### 7. Haar measure on a quotient group
 

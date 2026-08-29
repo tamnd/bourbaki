@@ -40,7 +40,7 @@ subsections:
       pdf_page: 29
 statements: 31
 exercises: 29
-content_sha256: 828d95b4c8251b17fdf7d584cf9b8b93aff889aefd6afb347a148d54528f3f9e
+content_sha256: 6c11970e3f005a9e93ca03d9ec2fccd854aa271c289f50e70fb59e94c7385df8
 ---
 
 ## § 2. Systèmes de Tits
@@ -49,7 +49,7 @@ Dans ce paragraphe, les lettres G, B, N, S, T, W ont la signification indiquée 
 
 ### 1. Définition et premières propriétés
 
-Soient G un groupe et B un sous-groupe de G. On fait opérer le groupe $B \times B$ sur G par la loi $(b, b') . g = bgb'^{-1}$ pour $b, b' \in B$ et $g \in G$. Les orbites de $B \times B$ dans G sont les ensembles $BgB$, pour $g \in G$, qu’on appelle *doubles classes* de G suivant B. Elles forment une *partition* de G ; l’ensemble quotient correspondant se note $B \backslash G / B$. Si C et C’ sont deux doubles classes, CC’ est *réunion* de doubles classes.
+Soient G un groupe et B un sous-groupe de G. On fait opérer le groupe $B \times B$ sur G par la loi $(b, b') . g = bg{b'}^{-1}$ pour $b, b' \in B$ et $g \in G$. Les orbites de $B \times B$ dans G sont les ensembles $BgB$, pour $g \in G$, qu’on appelle *doubles classes* de G suivant B. Elles forment une *partition* de G ; l’ensemble quotient correspondant se note $B \backslash G / B$. Si C et C’ sont deux doubles classes, CC’ est *réunion* de doubles classes.
 
 #### Définition 1 {#lie-iv-s2-def-1 .statement}
 
@@ -284,19 +284,19 @@ C(t) \subset C(w) \cdot C(w^{-1}).
 $$
 Si $t \in T_w$, il existe par définition des éléments $w', w'' \in W$ et $s \in S$ tels que
 $$
-w = w' s w'', \quad l_s(w) = l_s(w') + l_s(w'') + 1 \quad \text{et} \quad t = w' s w'^{-1}.
+w = w' s w'', \quad l_s(w) = l_s(w') + l_s(w'') + 1 \quad \text{et} \quad t = w' s {w'}^{-1}.
 $$
 D’après le cor. 1, on a
 $$
-C(w) \cdot C(w^{-1}) = C(w') \cdot C(s) \cdot C(w'') \cdot C(w''^{-1}) \cdot C(s) \cdot C(w'^{-1}).
+C(w) \cdot C(w^{-1}) = C(w') \cdot C(s) \cdot C(w'') \cdot C({w''}^{-1}) \cdot C(s) \cdot C({w'}^{-1}).
 $$
 D’où :
 $$
-C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C(s) \cdot C(w'^{-1}).
+C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C(s) \cdot C({w'}^{-1}).
 $$
 D’après (4), on a $C(s) \subset C(s) \cdot C(s)$. D’où :
 $$
-C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C(w'^{-1}) \supset C(t).
+C(w) \cdot C(w^{-1}) \supset C(w') \cdot C(s) \cdot C({w'}^{-1}) \supset C(t).
 $$
 
 #### Corollaire 3 {#lie-iv-s2-thm-2-cor-3 .statement}
@@ -331,11 +331,11 @@ c) Soit $(X_i)_{i \in I}$ une famille de parties de $S$. Si $X = \bigcap_{i \in 
 
 d) Soient $X$ et $Y$ deux parties de $S$. On a $G_X \subset G_Y$ (resp. $G_X = G_Y$) si et seulement si l’on a $X \subset Y$ (resp. $X = Y$).
 
-Il est clair que $G_X = (G_X)^{-1}$; le lemme 1 du n° 1 montre que $G_X . G_X \subset G_X$; d’où $a)$, compte tenu du cor. 1 du th. 2.
+Il est clair que $G_X = (G_X)^{-1}$; le lemme 1 du n° 1 montre que $G_X . G_X \subset G_X$; d’où a), compte tenu du cor. 1 du th. 2.
 
-L’injectivité de $X \mapsto G_X$ résulte de celle de $X \mapsto W_X$ (\S 1, n° 8, th. 2). Soit d’autre part $H$ un sous-groupe de $G$ contenant $B$. Soit $U$ l’ensemble des $w \in W$ tels que $C(w) \subset H$. On a $H = BUB$ puisque $H$ est réunion de doubles classes. Soit $X = U \cap S$; montrons que $H = G_X$. On a évidemment $G_X \subset H$. D’autre part, soit $u \in U$, et soit $(s_1, \ldots, s_q)$ une décomposition réduite de $u$. Le cor. 3 du th. 2 entraîne $C(s_j) \subset H$, d’où $s_j \in X$ pour $1 \leq j \leq q$. On a donc $u \in W_X$, et comme $H$ est réunion des $C(u)$ pour $u \in U$, on a bien $H \subset G_X$, ce qui achève de prouver $(b)$.
+L’injectivité de $X \mapsto G_X$ résulte de celle de $X \mapsto W_X$ (§ 1, n° 8, th. 2). Soit d’autre part $H$ un sous-groupe de $G$ contenant $B$. Soit $U$ l’ensemble des $w \in W$ tels que $C(w) \subset H$. On a $H = BUB$ puisque $H$ est réunion de doubles classes. Soit $X = U \cap S$; montrons que $H = G_X$. On a évidemment $G_X \subset H$. D’autre part, soit $u \in U$, et soit $(s_1, \ldots, s_q)$ une décomposition réduite de $u$. Le cor. 3 du th. 2 entraîne $C(s_j) \subset H$, d’où $s_j \in X$ pour $1 \leq j \leq q$. On a donc $u \in W_X$, et comme $H$ est réunion des $C(u)$ pour $u \in U$, on a bien $H \subset G_X$, ce qui achève de prouver $(b)$.
 
-Les assertions $c)$ et $d)$ résultent des propriétés analogues des groupes $W_X$ (\S 1, n° 8, th. 2).
+Les assertions c) et d) résultent des propriétés analogues des groupes $W_X$ (§ 1, n° 8, th. 2).
 
 #### Corollaire {#lie-iv-s2-n5-cor-1 .statement}
 
@@ -396,11 +396,11 @@ Il est clair que tout sous-groupe qui contient un sous-groupe parabolique est pa
 
 Soit $P$ un sous-groupe de $G$.
 a) Pour que $P$ soit parabolique, il faut et il suffit qu’il existe une partie $X$ de $S$ telle que $P$ soit conjugué de $G_X$ (cf. n° 5 pour la définition de $G_X$).
-b) Soient $X, X' \subset S$ et $g, g' \in G$ tels que $P = g G_X g^{-1} = g' G_{X'} g'^{-1}$. On a alors $X = X'$ et $g' g^{-1} \in P$.
+b) Soient $X, X' \subset S$ et $g, g' \in G$ tels que $P = g G_X g^{-1} = g' G_{X'} {g'}^{-1}$. On a alors $X = X'$ et $g' g^{-1} \in P$.
 L’assertion a) résulte du th. 3, b).
 Sous les hypothèses de b), on a
 $$
-g^{-1} g' B g'^{-1} g \subset g^{-1} g' G_{X'} g'^{-1} g = G_X,
+g^{-1} g' B {g'}^{-1} g \subset g^{-1} g' G_{X'} {g'}^{-1} g = G_X,
 $$
 et la prop. 3 montre que $g^{-1} g' \in G_X$. D’où $G_{X'} = G_X$ et $X' = X$ d’après le th. 3, b). Enfin, on a :
 $$
@@ -449,12 +449,12 @@ Si la longueur de $s_2 s_1 s_2$ est égale à 3, le cor. 1 du th. 2 entraîne
 $$
 C(s_2) \cdot C(s_1) \cdot C(s_2) = C(s_2 s_1 s_2),
 $$
-d’où $h \in H \cap C(s_2 s_1 s_2)$. Puisque $H \cap C(s_2 s_1 s_2)$ est non vide, on a $s_2 s_1 s_2 \in W_X$. Comme $(s_2, s_1, s_2)$ est une décomposition réduite, on en déduit $s_2 \in X$, contrairement à l’hypothèse ($\S 1$, no 8, cor. 1 de la prop. 7).
+d’où $h \in H \cap C(s_2 s_1 s_2)$. Puisque $H \cap C(s_2 s_1 s_2)$ est non vide, on a $s_2 s_1 s_2 \in W_X$. Comme $(s_2, s_1, s_2)$ est une décomposition réduite, on en déduit $s_2 \in X$, contrairement à l’hypothèse ($§ 1$, no 8, cor. 1 de la prop. 7).
 
-On a donc $l_S(s_2 s_1 s_2) \leq 2$; si $l_S(s_1 s_2) = 1$, on a $s_1 s_2 \in S$, donc $(s_1 s_2)^2 = 1$, $s_1 s_2 = s_2 s_1$. Si $l_S(s_1 s_2) = 2$ la propriété (E) du $\S 1$, no 5 entraîne alors $s_2 s_1 = s_1 s_2$, car $s_1 \neq s_2$. C.Q.F.D.
+On a donc $l_S(s_2 s_1 s_2) \leq 2$; si $l_S(s_1 s_2) = 1$, on a $s_1 s_2 \in S$, donc $(s_1 s_2)^2 = 1$, $s_1 s_2 = s_2 s_1$. Si $l_S(s_1 s_2) = 2$ la propriété (E) du $§ 1$, no 5 entraîne alors $s_2 s_1 = s_1 s_2$, car $s_1 \neq s_2$. C.Q.F.D.
 
 Dans le th. 5 ci-dessous interviendra la propriété suivante d’un groupe $U$:
-(R) Pour tout sous-groupe distingué $V$ de $U$, distinct de $U$, le groupe des commutateurs (cf. Alg., chap. I, $\S 6$, no 8) de $U/V$ est distinct de $U/V$.
+(R) Pour tout sous-groupe distingué $V$ de $U$, distinct de $U$, le groupe des commutateurs (cf. Alg., chap. I, $§ 6$, no 8) de $U/V$ est distinct de $U/V$.
 
 Tout groupe résoluble vérifie (R); en particulier tout groupe commutatif vérifie (R); il en est de même de tout groupe simple non commutatif. On peut montrer que le groupe symétrique $\mathfrak{S}_n$ vérifie (R) pour tout $n$ (cf. exerc. 29).
 
@@ -464,7 +464,7 @@ Soit $Z$ l’intersection des conjugués de $B$, soit $U$ un sous-groupe de $B$ 
 (1) $U$ est distingué dans $B$ et $B = U T$.
 (2) $U$ possède la propriété (R).
 (3) $G_1$ est égal à son groupe des commutateurs.
-(4) Le système de Coxeter $(W, S)$ est irréductible (cf. $\S 1$, no 9).
+(4) Le système de Coxeter $(W, S)$ est irréductible (cf. $§ 1$, no 9).
 Alors tout sous-groupe $H$ de $G$ normalisé par $G_1$ est contenu dans $Z$ ou contient $G_1$.
 
 Montrons d’abord que $G = G_1 T$. Le groupe $G_1 T$ contient $B$, donc est son propre normalisateur (th. 4); comme $N$ normalise $G_1$ et $T$, il normalise aussi $G_1 T$, d’où $N \subset G_1 T$; puisque $G$ est engendré par $B$ et $N$, on a bien $G = G_1 T$.

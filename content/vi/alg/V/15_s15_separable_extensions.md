@@ -38,9 +38,9 @@ subsections:
       pdf_page: 239
 statements: 21
 exercises: 12
-content_sha256: 459f04ac391fa8f958698a1afa06686f8b0d099371de0b7347c097f0e06d7510
+content_sha256: 02e6dd31d2fc0304c2d4f506648bfb0babb58cbab337bfa44f53b7b9611c9102
 translated_from: content/en/alg/V/15_s15_separable_extensions.md
-source_content_sha256: 6e23f56602ad2acdd225f6676142a1a51ca45a73e6a8b8edcd197f9955bb9d4a
+source_content_sha256: cd3cc2bd76e6784392d91069b887e2344baeedd432fedf2725695282c5095d73
 translation_model: gpt-5.4
 translation_run: translate-vi-7c87708d
 glossary_version: 34
@@ -199,15 +199,15 @@ f) *Tồn tại một cơ sở* $(a_i)_{i \in I}$, *của không gian vectơ* $K
 
 Nếu một mở rộng $K'$ của $K$ là một trường hoàn hảo, thì nó chứa một mở rộng con $K$-đẳng cấu với $K^{p^{-\infty}}$ ($V$, p. 6, Prop. 3); hơn nữa, mọi mở rộng căn theo $p$ của $K$ đều đẳng cấu với một mở rộng con của $K^{p^{-\infty}}$ ($V$, p. 26, Prop. 3). Những nhận xét này cho thấy các suy ra $a) \Rightarrow b) \Rightarrow c) \Rightarrow d)$.
 
-Ta hãy chứng minh rằng $d)$ suy ra $e)$. Cho $(a_i)_{i \in I}$, là một họ tự do tuyến tính trong $A$ và cho $(A_i)_{i \in I}$, là một họ giá hữu hạn trong $K$ sao cho $\sum \lambda_i a_i^p = 0$. Gọi $K'$ là mở rộng con của $K^{p^{-\infty}}$ sinh bởi các phần tử $\lambda_i^{p^{-1}}$; nó có bậc hữu hạn và chiều cao $\leqslant 1$. Đặt $x = \sum_{i \in I} \lambda_i^{p^{-1}} \otimes a_i$ trong $K' \otimes_K A$; ta có
+Ta hãy chứng minh rằng d) suy ra e). Cho $(a_i)_{i \in I}$, là một họ tự do tuyến tính trong $A$ và cho $(A_i)_{i \in I}$, là một họ giá hữu hạn trong $K$ sao cho $\sum \lambda_i a_i^p = 0$. Gọi $K'$ là mở rộng con của $K^{p^{-\infty}}$ sinh bởi các phần tử $\lambda_i^{p^{-1}}$; nó có bậc hữu hạn và chiều cao $\leqslant 1$. Đặt $x = \sum_{i \in I} \lambda_i^{p^{-1}} \otimes a_i$ trong $K' \otimes_K A$; ta có
 
 $$
 x^p = \sum_{i \in I} \lambda_i \otimes a_i^p = 1 \otimes \sum_{i \in I} \lambda_i a_i^p = 0
 $$
 
-Theo giả thiết $d)$ ta có $x = 0$, do đó $A_i = 0$ với mọi $i \in I$.
+Theo giả thiết d) ta có $x = 0$, do đó $A_i = 0$ với mọi $i \in I$.
 
-Rõ ràng $e)$ suy ra $f)$ và còn lại phải chỉ ra rằng $f)$ suy ra $a)$. Vậy cho $(a_i)_{i \in I}$ là một cơ sở của $A$ trên $K$ sao cho họ $(a_i^p)_{i \in I}$ là tự do tuyến tính trên $K$. Gọi $L$ là một mở rộng của $K$ và gọi $x$ là một phần tử của $L \otimes_K A$ sao cho $x^p = 0$. Viết $x = \sum_{i \in I} \lambda_i \otimes a_i$ với $A_i \in L$ với mọi $i \in I$. Ta có $x^p = \sum_{i \in I} \lambda_i^p \otimes a_i^p = 0$ và vì họ $(a_i^p)_{i \in I}$, là tự do tuyến tính trên $K$, nên ta có $\lambda_i^p = 0$, do đó $\lambda_i = 0$ với mọi $i \in I$; suy ra $x = 0$. Vậy ta đã chứng minh rằng $x^p = 0$ suy ra $x = 0$ trong $L \otimes_K A$, từ đó suy ra ngay rằng $L \otimes_K A$ là rút gọn.
+Rõ ràng e) suy ra f) và còn lại phải chỉ ra rằng f) suy ra a). Vậy cho $(a_i)_{i \in I}$ là một cơ sở của $A$ trên $K$ sao cho họ $(a_i^p)_{i \in I}$ là tự do tuyến tính trên $K$. Gọi $L$ là một mở rộng của $K$ và gọi $x$ là một phần tử của $L \otimes_K A$ sao cho $x^p = 0$. Viết $x = \sum_{i \in I} \lambda_i \otimes a_i$ với $A_i \in L$ với mọi $i \in I$. Ta có $x^p = \sum_{i \in I} \lambda_i^p \otimes a_i^p = 0$ và vì họ $(a_i^p)_{i \in I}$, là tự do tuyến tính trên $K$, nên ta có $\lambda_i^p = 0$, do đó $\lambda_i = 0$ với mọi $i \in I$; suy ra $x = 0$. Vậy ta đã chứng minh rằng $x^p = 0$ suy ra $x = 0$ trong $L \otimes_K A$, từ đó suy ra ngay rằng $L \otimes_K A$ là rút gọn.
 
 #### Hệ quả 1 (Mac Lane) {#alg-v-s15-thm-2-cor-1 .statement}
 
@@ -219,7 +219,7 @@ b) $L$ *rời nhau tuyến tính với* $K^{p^{-\infty}}$ *trên* $K$.
 
 c) $L$ *rời nhau tuyến tính trên* $K$ *với mọi* $p$*-mở rộng căn của* $K$ *được chứa trong* $\Omega$, *có bậc hữu hạn và chiều cao* $\leqslant 1$.
 
-Trường hợp $K$ có đặc số 0 là tầm thường vì khi đó $L$ tách được trên $K$ (Định lý 1) và $K^{p^{-\infty}} = K$ theo quy ước. Vậy giả sử $p \neq 1$, và trước hết hãy chỉ ra rằng $a)$ kéo theo $b)$. Giả sử rằng $L$ tách được trên $K$ và gọi $(a_i)_{i \in I}$, là một cơ sở của $L$ trên $K$. Gọi $(\lambda_i)_{i \in I}$ là một họ có giá hữu hạn các phần tử của $K^{p^{-\infty}}$ sao cho $\sum_{i \in I} \lambda_i a_i = 0$; tồn tại một số nguyên $f \geqslant 0$ và các phần tử μ_i của K sao cho λ_i = μ_i^{p^{-f}}. Ta có
+Trường hợp $K$ có đặc số 0 là tầm thường vì khi đó $L$ tách được trên $K$ (Định lý 1) và $K^{p^{-\infty}} = K$ theo quy ước. Vậy giả sử $p \neq 1$, và trước hết hãy chỉ ra rằng a) kéo theo b). Giả sử rằng $L$ tách được trên $K$ và gọi $(a_i)_{i \in I}$, là một cơ sở của $L$ trên $K$. Gọi $(\lambda_i)_{i \in I}$ là một họ có giá hữu hạn các phần tử của $K^{p^{-\infty}}$ sao cho $\sum_{i \in I} \lambda_i a_i = 0$; tồn tại một số nguyên $f \geqslant 0$ và các phần tử μ_i của K sao cho λ_i = μ_i^{p^{-f}}. Ta có
 
 $$
 \sum_{i \in I} \mu_i a_i^{p^f} = \left( \sum_{i \in I} \lambda_i a_i \right)^{p^f} = 0

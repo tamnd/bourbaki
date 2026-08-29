@@ -1,0 +1,7 @@
+{"edges": [
+{"from":"","from_label":"fvr-vi-s3","to_label":"fvr-vi-s1","kind":"cites","raw":"VI, p. 282","form":"page","resolved_by":"section","file":"content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md","line":31},
+{"from":"","from_label":"fvr-vi-s3","to_label":"fvr-v-s4","kind":"cites","raw":"V, p. 238","form":"page","resolved_by":"section","file":"content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md","line":67},
+{"from":"","from_label":"fvr-vi-s3","to_label":"fvr-v-a0","kind":"cites","raw":"V, p. 252","form":"page","resolved_by":"section","file":"content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md","line":69},
+{"from":"","from_label":"fvr-vi-s3","to_label":"fvr-v-s3","kind":"cites","raw":"V, p. 232","form":"page","resolved_by":"section","file":"content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md","line":69},
+{"from":"","from_label":"fvr-vi-s3","to_label":"fvr-vi-s3","kind":"cites","raw":"VI, p. 289","form":"page","resolved_by":"section","file":"content/en/fvr/VI/03_s3_bounds_for_the_remainder_in_the_euler.md","line":71}
+]}

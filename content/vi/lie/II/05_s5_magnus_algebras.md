@@ -32,9 +32,9 @@ subsections:
       pdf_page: 172
 statements: 14
 exercises: 12
-content_sha256: e91c75be3aa6d083a52dceac97539ea55c57f00c59b9698c5d39cfa3ed142cea
+content_sha256: c115ac7d11730fe5d45fb64a998b0771ca638940f4496e118f89a0dc7611d8a7
 translated_from: content/en/lie/II/05_s5_magnus_algebras.md
-source_content_sha256: 4507f43efe68f0e8f9d7ed300ec507379070366e7dae5fdc0890eff18cf1a7f5
+source_content_sha256: b447c834d904c0c1c87c668ee3a9a6c76b5fc3212a84bf648612ad2a0a49f556
 translation_model: gpt-5.4
 translation_run: translate-vi-e5cf4dff
 glossary_version: 34
@@ -44,7 +44,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 5. ĐẠI SỐ MAGNUS
 
-Trong đoạn này, X chỉ một tập hợp, F(X) nhóm tự do được xây dựng trên X (Đại số, Chương I, \S 7, no. 5) và A(X) đại số kết hợp tự do được xây dựng trên X với phân bậc toàn phần $(A^n(X))_{n \geq 0}$ của nó (xem Đại số, Chương III, \S 3, no. 1, Ví dụ 3). X được đồng nhất với các ảnh của nó trong F(X) và A(X).
+Trong đoạn này, X chỉ một tập hợp, F(X) nhóm tự do được xây dựng trên X (Đại số, Chương I, § 7, no. 5) và A(X) đại số kết hợp tự do được xây dựng trên X với phân bậc toàn phần $(A^n(X))_{n \geq 0}$ của nó (xem Đại số, Chương III, § 3, no. 1, Ví dụ 3). X được đồng nhất với các ảnh của nó trong F(X) và A(X).
 
 ### 1. ĐẠI SỐ MAGNUS
 
@@ -54,7 +54,7 @@ $$
 (a \cdot b)_n = \sum_{i=0}^n a_i \cdot b_{n-i}
 $$
 
-trong đó $a = (a_n)$ và $b = (b_n)$ thuộc $\hat{A}(X)$. Ta biết (Đại số giao hoán, Chương III, \S 2, no. 12, Ví dụ 1) rằng $\hat{A}(X)$ là một đại số kết hợp và $A(X)$ được đồng nhất với đại số con của $\hat{A}(X)$ gồm các dãy mà mọi số hạng đều bằng không trừ ra một số hữu hạn số hạng.
+trong đó $a = (a_n)$ và $b = (b_n)$ thuộc $\hat{A}(X)$. Ta biết (Đại số giao hoán, Chương III, § 2, no. 12, Ví dụ 1) rằng $\hat{A}(X)$ là một đại số kết hợp và $A(X)$ được đồng nhất với đại số con của $\hat{A}(X)$ gồm các dãy mà mọi số hạng đều bằng không trừ ra một số hữu hạn số hạng.
 
 $\hat{A}(X)$ được trang bị tôpô tích của các tôpô rời rạc trên các thừa số
 
@@ -62,15 +62,15 @@ A^n(X); tôpô này biến $\hat{A}(X)$ thành một đại số tôpô Hausdorf
 
 Cho $a = (a_n) \in \hat{A}(X)$; họ $(a_n)_{n \geq 0}$ là khả tổng và $a = \sum_{n \geq 0} a_n$.
 
-Với mọi số nguyên $m \geq 0$, ký hiệu $\hat{A}_m(X)$ là iđêan gồm các chuỗi $a = \sum_{n \geq m} a_n$ sao cho $a_n \in A^n(X)$ với mọi $n \geq m$. Dãy các iđêan này là một hệ cơ bản các lân cận của 0 trong $\hat{A}(X)$ và một lọc nguyên trên $\hat{A}(X)$. Hàm cấp liên kết với lọc trên được ký hiệu bởi $\omega$; khi đó $\omega(0) = +\infty$ và $\omega(a) = m$ nếu $a = \sum_{n \geq m} a_n$ với $a_n \in A^n(X)$ với mọi $n \geq m$ và $a_m \neq 0$ (\S 4, nos. 1 and 2).
+Với mọi số nguyên $m \geq 0$, ký hiệu $\hat{A}_m(X)$ là iđêan gồm các chuỗi $a = \sum_{n \geq m} a_n$ sao cho $a_n \in A^n(X)$ với mọi $n \geq m$. Dãy các iđêan này là một hệ cơ bản các lân cận của 0 trong $\hat{A}(X)$ và một lọc nguyên trên $\hat{A}(X)$. Hàm cấp liên kết với lọc trên được ký hiệu bởi $\omega$; khi đó $\omega(0) = +\infty$ và $\omega(a) = m$ nếu $a = \sum_{n \geq m} a_n$ với $a_n \in A^n(X)$ với mọi $n \geq m$ và $a_m \neq 0$ (§ 4, nos. 1 and 2).
 
 $\hat{A}(X)$ được gọi là *đại số Magnus* của tập hợp X với các hệ số trong K. Nếu có sự nhập nhằng nào về K thì ta viết $\hat{A}_K(X)$.
 
 #### Mệnh đề 1 {#lie-ii-s5-prop-1 .statement}
 
-*Cho B là một đại số kết hợp có đơn vị với một lọc thực $(B_\alpha)_{\alpha \in \mathbf{R}}$ sao cho B là Hausdorff và đầy đủ (\S 4, số 1 và 2). Cho f là một ánh xạ của X vào B sao cho tồn tại $\lambda > 0$ mà $f(X) \subset B_\lambda$. Khi đó f có thể được mở rộng theo một và chỉ một cách thành một đồng cấu có đơn vị liên tục $\hat{f}$ của $\hat{A}(X)$ vào B.*
+*Cho B là một đại số kết hợp có đơn vị với một lọc thực $(B_\alpha)_{\alpha \in \mathbf{R}}$ sao cho B là Hausdorff và đầy đủ (§ 4, số 1 và 2). Cho f là một ánh xạ của X vào B sao cho tồn tại $\lambda > 0$ mà $f(X) \subset B_\lambda$. Khi đó f có thể được mở rộng theo một và chỉ một cách thành một đồng cấu có đơn vị liên tục $\hat{f}$ của $\hat{A}(X)$ vào B.*
 
-Gọi $f'$ là đồng cấu đại số có đơn vị duy nhất của $A(X)$ vào B mở rộng $f$ (*Đại số*, Chương III, \S 2, no. 7, Mệnh đề 7). Ta sẽ chỉ ra rằng $f'$ là *liên tục*: $f'(A^n(X)) \subset B_{n\lambda}$ do đó $f'(\hat{A}_n(X) \cap A(X)) \subset B_{n\lambda}$. Vì vậy $f'$ có thể được mở rộng theo một và chỉ một cách bằng tính liên tục thành một đồng cấu $\hat{f} : \hat{A}(X) \to B$.
+Gọi $f'$ là đồng cấu đại số có đơn vị duy nhất của $A(X)$ vào B mở rộng $f$ (*Đại số*, Chương III, § 2, no. 7, Mệnh đề 7). Ta sẽ chỉ ra rằng $f'$ là *liên tục*: $f'(A^n(X)) \subset B_{n\lambda}$ do đó $f'(\hat{A}_n(X) \cap A(X)) \subset B_{n\lambda}$. Vì vậy $f'$ có thể được mở rộng theo một và chỉ một cách bằng tính liên tục thành một đồng cấu $\hat{f} : \hat{A}(X) \to B$.
 
 Ta giữ nguyên các giả thiết và ký hiệu của Mệnh đề 1 và lấy $u \in \hat{A}(X)$. Phần tử $\hat{f}(u)$ được ký hiệu bởi $u((f(x))_{x \in X})$ và được gọi là *kết quả của việc thay các f(x) cho các x trong u*. Đặc biệt, $u((x)_{x \in X}) = u$. Bây giờ cho $u = (u_y)_{y \in Y}$ là một họ các phần tử của $\hat{A}_1(X)$ và cho $v \in \hat{A}(Y)$. Điều trên cho phép ta định nghĩa phần tử $v((u_y)_{y \in Y}) \in \hat{A}(X)$. Nó được ký hiệu bởi $v \circ u$. Vì $u_y((f(x))) \in B_\lambda$, nên các phần tử $u_y((f(x)))$ có thể được thay cho các y trong v. Khi đó các ánh xạ $v \mapsto (v \circ u)((f(x)))$ và $v \mapsto v((u_y((f(x))))))$ là hai đồng cấu liên tục của các đại số có đơn vị từ $\hat{A}(X)$ vào B, nhận cùng một giá trị $u_y((f(x)))$ tại phần tử $y \in Y$. Do đó (Mệnh đề 1)
 
@@ -163,9 +163,9 @@ Ký hiệu $\gamma$ là đồng cấu từ $F$ vào $\Gamma$ được xác đị
 
 (B) Tính toàn ánh của $\alpha$.
 
-Vì $X$ sinh nhóm $F = C^1$, nên tập hợp $c(X)$ sinh $\mathbf{Z}$-môđun $g^1 = C^1/C^2$. Nhưng $g^1$ sinh đại số Lie trên $\mathbf{Z}$ $g$ (\S 4, no. 6, Mệnh đề 5), và do đó $c(X)$ sinh $g$, điều này chứng minh rằng $\alpha$ là toàn ánh.
+Vì $X$ sinh nhóm $F = C^1$, nên tập hợp $c(X)$ sinh $\mathbf{Z}$-môđun $g^1 = C^1/C^2$. Nhưng $g^1$ sinh đại số Lie trên $\mathbf{Z}$ $g$ (§ 4, no. 6, Mệnh đề 5), và do đó $c(X)$ sinh $g$, điều này chứng minh rằng $\alpha$ là toàn ánh.
 
-(C) Ta đồng nhất đại số phân bậc $\mathrm{gr}(\hat{A})$ với $A(X)$ dưới các đẳng cấu chính tắc $A^n(X) \to \hat{A}_n/\hat{A}_{n+1}$. Với mọi số nguyên $n \geq 1$, ta đặt $F^n = \gamma^{-1}(\Gamma_n)$; ta biết (\S 4, no. 5) rằng $(F^n)_{n \geq 1}$ là một lọc trung tâm nguyên trên $F$. Ký hiệu $g'$ là đại số Lie $\mathbf{Z}$ phân bậc liên kết (\S 4, no. 4). Gọi $f$ là đồng cấu đại số Lie từ $g'$ vào $A(X)$ liên kết với $\gamma$ (\S 4, no. 5, Mệnh đề 3). Bây giờ $C^n \subset F^n$ với mọi số nguyên $n \geq 1$ (\S 4, no. 6, Mệnh đề 4) và do đó có một đồng cấu chính tắc $\varepsilon$ từ $g = \bigoplus_{n \geq 1} C^n/C^{n+1}$ vào $g' = \bigoplus_{n \geq 1} F^n/F^{n+1}$
+(C) Ta đồng nhất đại số phân bậc $\mathrm{gr}(\hat{A})$ với $A(X)$ dưới các đẳng cấu chính tắc $A^n(X) \to \hat{A}_n/\hat{A}_{n+1}$. Với mọi số nguyên $n \geq 1$, ta đặt $F^n = \gamma^{-1}(\Gamma_n)$; ta biết (§ 4, no. 5) rằng $(F^n)_{n \geq 1}$ là một lọc trung tâm nguyên trên $F$. Ký hiệu $g'$ là đại số Lie $\mathbf{Z}$ phân bậc liên kết (§ 4, no. 4). Gọi $f$ là đồng cấu đại số Lie từ $g'$ vào $A(X)$ liên kết với $\gamma$ (§ 4, no. 5, Mệnh đề 3). Bây giờ $C^n \subset F^n$ với mọi số nguyên $n \geq 1$ (§ 4, no. 6, Mệnh đề 4) và do đó có một đồng cấu chính tắc $\varepsilon$ từ $g = \bigoplus_{n \geq 1} C^n/C^{n+1}$ vào $g' = \bigoplus_{n \geq 1} F^n/F^{n+1}$
 
 $$
 L_\mathbf{Z}(X) \xrightarrow{\alpha} g \xrightarrow{\varepsilon} g' \xrightarrow{f} A(X).
@@ -179,7 +179,7 @@ $$
 
 (D) Chứng minh của Định lý 2 và 3.
 
-Đồng cấu đại số Lie $\beta \circ \alpha : L_\mathbf{Z}(X) \to A(X)$ hạn chế trên $X$ là đồng nhất theo (3) và do đó là đơn ánh chính tắc (\S 3, no. 1). Vì thế $\alpha$ là đơn ánh và do đó song ánh theo (B); điều này chứng minh Định lý 3. Vì $\beta \circ \alpha = f \circ \varepsilon \circ \alpha$ là đơn ánh và $\alpha$ là song ánh, nên $\varepsilon$ là đơn ánh. Với mọi $n \geq 1$,
+Đồng cấu đại số Lie $\beta \circ \alpha : L_\mathbf{Z}(X) \to A(X)$ hạn chế trên $X$ là đồng nhất theo (3) và do đó là đơn ánh chính tắc (§ 3, no. 1). Vì thế $\alpha$ là đơn ánh và do đó song ánh theo (B); điều này chứng minh Định lý 3. Vì $\beta \circ \alpha = f \circ \varepsilon \circ \alpha$ là đơn ánh và $\alpha$ là song ánh, nên $\varepsilon$ là đơn ánh. Với mọi $n \geq 1$,
 
 $$
 \varepsilon_n : C^n/C^{n+1} \to F^n/F^{n+1}
@@ -207,7 +207,7 @@ $$
 
 #### Nhận xét {#lie-ii-s5-n4-rem-1 .statement}
 
-Cho H là một tập Hall đối với X (\S 2, no. 10). Cho M là magma được xác định bởi luật hợp thành (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy trên F(X) và cho $\phi$ là đồng cấu từ M(X) vào M mà hạn chế của nó trên X là đồng nhất. Các phần tử của $\phi(H)$ được gọi là các *giao hoán tử cơ bản* của F(X) liên kết với tập Hall H. Với mọi số nguyên n \geqslant 1, cho H_n là tập con của H gồm các phần tử có độ dài n; ta biết (\S 2, no. 11, Định lý 1) rằng ánh xạ chính tắc của H_n vào L_\mathbf{Z}(X) là một cơ sở của nhóm Abel L_\mathbf{Z}^n(X). Hơn nữa, $\phi(H_n) \subset C^n$; với mọi m \in H_n, cho $\phi_n(m)$ ký hiệu lớp mod. C^{n+1} của $\phi(m) \in C^n$. Khi đó Định lý 3 cho thấy rằng $\phi_n$ là *một song ánh từ H_n lên một cơ sở của nhóm Abel* C^n/C^{n+1}. Suy ra ngay lập tức rằng, với mọi w \in F(X) và mọi i \geqslant 1, tồn tại một phần tử duy nhất $\alpha_i$ của $\mathbf{Z}^{(H_i)}$ sao cho, với n \geqslant 1,
+Cho H là một tập Hall đối với X (§ 2, no. 10). Cho M là magma được xác định bởi luật hợp thành (x, y) \mapsto (x, y) = x^{-1}y^{-1}xy trên F(X) và cho $\phi$ là đồng cấu từ M(X) vào M mà hạn chế của nó trên X là đồng nhất. Các phần tử của $\phi(H)$ được gọi là các *giao hoán tử cơ bản* của F(X) liên kết với tập Hall H. Với mọi số nguyên n \geqslant 1, cho H_n là tập con của H gồm các phần tử có độ dài n; ta biết (§ 2, no. 11, Định lý 1) rằng ánh xạ chính tắc của H_n vào L_\mathbf{Z}(X) là một cơ sở của nhóm Abel L_\mathbf{Z}^n(X). Hơn nữa, $\phi(H_n) \subset C^n$; với mọi m \in H_n, cho $\phi_n(m)$ ký hiệu lớp mod. C^{n+1} của $\phi(m) \in C^n$. Khi đó Định lý 3 cho thấy rằng $\phi_n$ là *một song ánh từ H_n lên một cơ sở của nhóm Abel* C^n/C^{n+1}. Suy ra ngay lập tức rằng, với mọi w \in F(X) và mọi i \geqslant 1, tồn tại một phần tử duy nhất $\alpha_i$ của $\mathbf{Z}^{(H_i)}$ sao cho, với n \geqslant 1,
 
 $$
 w = \prod_{i=1}^n \prod_{m \in H_i} \phi(m)^{\alpha_i(m)} \mod. C^{n+1},
@@ -234,7 +234,7 @@ Trong số này, *p* ký hiệu một số nguyên tố và ta giả thiết r�
 
 *Giả sử rằng X là hữu hạn. Với mọi số nguyên n \geqslant 1, nhóm F(X)/F_n^{(p)}(X) là một p-nhóm hữu hạn có lớp lũy linh \leqslant n.*
 
-Lập luận bằng quy nạp theo $n$, chỉ cần chứng minh rằng $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ là một $p$-nhóm giao hoán hữu hạn với mọi $n \geqslant 1$. Với mọi $w \in F_n^{(p)}(X)$, phần tử $\gamma(w) - 1$ của $\hat{A}(X)$ có cấp $\geqslant n$; ta ký hiệu bởi $\delta_n(w)$ thành phần thuần nhất của $\gamma(w) - 1$ có bậc $n$. Ánh xạ $\delta_n : F_n^{(p)}(X) \to A^n(X)$ là một đồng cấu với hạt nhân $F_{n+1}^{(p)}(X)$ (\S 4, no. 5, Mệnh đề 3) và do đó $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ đẳng cấu với một nhóm con của $A^n(X)$. Vì $X$ là hữu hạn, $A^n(X)$ là một không gian vectơ hữu hạn chiều trên $\mathbf{F}_p$ và do đó là một $p$-nhóm giao hoán hữu hạn, và vì thế $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ cũng vậy.
+Lập luận bằng quy nạp theo $n$, chỉ cần chứng minh rằng $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ là một $p$-nhóm giao hoán hữu hạn với mọi $n \geqslant 1$. Với mọi $w \in F_n^{(p)}(X)$, phần tử $\gamma(w) - 1$ của $\hat{A}(X)$ có cấp $\geqslant n$; ta ký hiệu bởi $\delta_n(w)$ thành phần thuần nhất của $\gamma(w) - 1$ có bậc $n$. Ánh xạ $\delta_n : F_n^{(p)}(X) \to A^n(X)$ là một đồng cấu với hạt nhân $F_{n+1}^{(p)}(X)$ (§ 4, no. 5, Mệnh đề 3) và do đó $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ đẳng cấu với một nhóm con của $A^n(X)$. Vì $X$ là hữu hạn, $A^n(X)$ là một không gian vectơ hữu hạn chiều trên $\mathbf{F}_p$ và do đó là một $p$-nhóm giao hoán hữu hạn, và vì thế $F_n^{(p)}(X)/F_{n+1}^{(p)}(X)$ cũng vậy.
 
 #### Mệnh đề 3 {#lie-ii-s5-prop-3 .statement}
 

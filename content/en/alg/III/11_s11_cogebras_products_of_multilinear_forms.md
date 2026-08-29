@@ -8,64 +8,65 @@ section_title: Cogebras, products of multilinear forms, inner products and duali
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 574-611, 647-654
 pdf_pages: 0598-0635, 0671-0678
 extraction: ocr
 subsections:
     - "no": 1
       title: COGEBRAS
-      page: 0
+      page: 574
       pdf_page: 598
     - "no": 2
       title: COASSOCIATIVITY, COCOMMUTATIVITY, COUNIT
-      page: 0
+      page: 578
       pdf_page: 602
     - "no": 3
       title: PROPERTIES OF GRADED COGEBRAS OF TYPE N
-      page: 0
+      page: 584
       pdf_page: 608
     - "no": 4
       title: BIGEBRAS AND SKEW-BIGEBRAS
-      page: 0
+      page: 585
       pdf_page: 609
     - "no": 5
       title: THE GRADED DUALS $T(M)^{*gr}$, $S(M)^{*gr}$ AND $\bigwedge(M)^{*gr}$
-      page: 0
+      page: 587
       pdf_page: 611
     - "no": 6
       title: 'INNER PRODUCTS: CASE OF ALGEBRAS'
-      page: 0
+      page: 594
       pdf_page: 618
     - "no": 7
       title: 'INNER PRODUCTS: CASE OF COGEbras'
-      page: 0
+      page: 597
       pdf_page: 621
     - "no": 8
       title: 'INNER PRODUCTS: CASE OF BIGEBRAS'
-      page: 0
+      page: 600
       pdf_page: 624
     - "no": 9
       title: INNER PRODUCTS BETWEEN $T(M)$ AND $T(M^*)$, $S(M)$ AND $S(M^*)$, $\Lambda(M)$ AND $\Lambda(M^*)$
-      page: 0
+      page: 603
       pdf_page: 627
     - "no": 10
       title: EXPLICIT FORM OF INNER PRODUCTS IN THE CASE OF A FINITELY GENERATED FREE MODULE
-      page: 0
+      page: 605
       pdf_page: 629
     - "no": 11
       title: ISOMORPHISMS BETWEEN $\wedge^p(M)$ AND $\wedge^{n-p}(M^*)$ FOR AN $n$-DIMENSIONAL FREE MODULE M
-      page: 0
+      page: 607
       pdf_page: 631
     - "no": 12
       title: APPLICATION TO THE SUBSPACE ASSOCIATED WITH A p-VECTOR
-      page: 0
+      page: 608
       pdf_page: 632
     - "no": 13
       title: PURE $p$-VECTORS. GRASSMANNIANS
-      page: 0
+      page: 609
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: 90494d968c59422cd10c0c094900dde16ccd49c45c755154b67be626cbb3b8af
+content_sha256: 975bbc956840cf52ff780bd6ba5b9a2f483e312a57f75aa1aff94045feaa36e6
 ---
 
 ## § 11. COGEBRAS, PRODUCTS OF MULTILINEAR FORMS, INNER PRODUCTS AND DUALITY
@@ -101,11 +102,11 @@ It is immediately verified that the identity mapping is a morphism, that the com
 
 (2) Let E be a cogebra, $c$ its coproduct and $\sigma$ the canonical automorphism of the A-module $E \otimes_A E$ such that $\sigma(x \otimes y) = y \otimes x$ for $x \in E, y \in E$; the A-linear mapping $\sigma \circ c$ defines a new cogebra structure on E. With this structure E is called the *opposite* cogebra to the given cogebra E.
 
-(3) Let B be an A-*algebra* and let $m : B \otimes_A B \to B$ be the A-linear mapping defining multiplication on B (\S 1, no. 3). The transpose $^t m$ is then an A-linear mapping of the dual $B^*$ of the A-module B into the dual $(B \otimes_A B)^*$ of the A-module $B \otimes_A B$. If also B is a *finitely generated projective* A-module, the canonical mapping $\mu : B^* \otimes_A B^* \to (B \otimes_A B)^*$ is an A-module isomorphism (II, § 4, no. 4); the mapping $c = \mu^{-1} \circ ^t m$ is then a coproduct defining a *cogebra* structure on the *dual* $B^*$ of the A-module B.
+(3) Let B be an A-*algebra* and let $m : B \otimes_A B \to B$ be the A-linear mapping defining multiplication on B (§ 1, no. 3). The transpose $^t m$ is then an A-linear mapping of the dual $B^*$ of the A-module B into the dual $(B \otimes_A B)^*$ of the A-module $B \otimes_A B$. If also B is a *finitely generated projective* A-module, the canonical mapping $\mu : B^* \otimes_A B^* \to (B \otimes_A B)^*$ is an A-module isomorphism (II, § 4, no. 4); the mapping $c = \mu^{-1} \circ ^t m$ is then a coproduct defining a *cogebra* structure on the *dual* $B^*$ of the A-module B.
 
 (4) Let X be a set, $A^{(X)}$ the A-module of formal linear combinations of elements of X with coefficients in A (II, § 1, no. 11) and $(e_x)_{x \in X}$ the canonical basis of $A^{(X)}$. An A-linear mapping $c : A^{(X)} \to A^{(X)} \otimes_A A^{(X)}$ is defined by the condition $c(e_x) = e_x \otimes e_x$ and a canonical cogebra structure is thus obtained on $A^{(X)}$.
 
-(5) Let M be an A-module and $T(M)$ the tensor algebra of M (\S 5, no. 1); by II, § 3, no. 9 there exists one and only one A-linear mapping $c$ of the A-module $T(M)$ into the A-module $T(M) \otimes_A T(M)$ such that, for all $n \geq 0$,
+(5) Let M be an A-module and $T(M)$ the tensor algebra of M (§ 5, no. 1); by II, § 3, no. 9 there exists one and only one A-linear mapping $c$ of the A-module $T(M)$ into the A-module $T(M) \otimes_A T(M)$ such that, for all $n \geq 0$,
 
 $$
 c(x_1 x_2 \ldots x_n) = \sum_{0 \leq p \leq n} (x_1 x_2 \ldots x_p) \otimes (x_{p+1} \ldots x_n)
@@ -113,7 +114,7 @@ $$
 
 for all $x_i \in M$ ($x_1 x_2 \ldots x_n$ denotes the product in the algebra $T(M)$). Thus $T(M)$ is given a *cogebra* structure.
 
-(6) Let M be an A-module and $S(M)$ the symmetric algebra of M (\S 6, no. 1); the diagonal mapping $\Delta : x \mapsto (x, x)$ of M into $M \times M$ is an A-linear mapping to which there therefore corresponds a homomorphism $S(\Delta)$ of the A-algebra $S(M)$ into the A-algebra $S(M \times M)$ (\S 6, no. 2, Proposition 3). On the other hand, in § 6, no. 6 we defined a canonical graded algebra isomorphism $h : S(M \times M) \to S(M) \otimes_A S(M)$; by composition we therefore obtain an *A-algebra* homomorphism
+(6) Let M be an A-module and $S(M)$ the symmetric algebra of M (§ 6, no. 1); the diagonal mapping $\Delta : x \mapsto (x, x)$ of M into $M \times M$ is an A-linear mapping to which there therefore corresponds a homomorphism $S(\Delta)$ of the A-algebra $S(M)$ into the A-algebra $S(M \times M)$ (§ 6, no. 2, Proposition 3). On the other hand, in § 6, no. 6 we defined a canonical graded algebra isomorphism $h : S(M \times M) \to S(M) \otimes_A S(M)$; by composition we therefore obtain an *A-algebra* homomorphism
 
 $$
 c = h \circ S(\Delta) : S(M) \to S(M) \otimes_A S(M),
@@ -157,13 +158,13 @@ $$
 
 where the summation is taken over all permutations $\sigma \in S_n$ which are *increasing* in each of the intervals $\{1, p\}$ and $\{p+1, n\}$.
 
-(7) Let $M$ be an $A$-module and proceed with the exterior algebra $\Lambda(M)$ as with $S(M)$ in *Example* 6; the diagonal mapping $\Delta : M \to M \times M$ this time defines a homomorphism $\Lambda(\Delta)$ of the $A$-algebra $\Lambda(M)$ into the $A$-algebra $\Lambda(M \times M)$ (\S 7, no. 2, Proposition 2); on the other hand there is a canonical graded algebra isomorphism
+(7) Let $M$ be an $A$-module and proceed with the exterior algebra $\Lambda(M)$ as with $S(M)$ in *Example* 6; the diagonal mapping $\Delta : M \to M \times M$ this time defines a homomorphism $\Lambda(\Delta)$ of the $A$-algebra $\Lambda(M)$ into the $A$-algebra $\Lambda(M \times M)$ (§ 7, no. 2, Proposition 2); on the other hand there is a canonical graded algebra isomorphism
 
 $$
 h : \Lambda(M \times M) \to \Lambda(M)^g \otimes_A \Lambda(M)
 $$
 
-(\S 7, no. 7, Proposition 10), whence by composition there is an *algebra* homomorphism $c = h \circ \Lambda(\Delta) : \Lambda(M) \to \Lambda(M)^g \otimes_A \Lambda(M)$, which can be considered as an $A$-module homomorphism $\Lambda(M) \to \Lambda(M) \otimes_A \Lambda(M)$ and which therefore defines on $\Lambda(M)$ a *cogebra* structure. It can be proved as in *Example* 6 that $c$ is the unique algebra homomorphism such that, for all $x \in M$,
+(§ 7, no. 7, Proposition 10), whence by composition there is an *algebra* homomorphism $c = h \circ \Lambda(\Delta) : \Lambda(M) \to \Lambda(M)^g \otimes_A \Lambda(M)$, which can be considered as an $A$-module homomorphism $\Lambda(M) \to \Lambda(M) \otimes_A \Lambda(M)$ and which therefore defines on $\Lambda(M)$ a *cogebra* structure. It can be proved as in *Example* 6 that $c$ is the unique algebra homomorphism such that, for all $x \in M$,
 
 (7)
 $$
@@ -225,7 +226,7 @@ $$
 (m(u, v))(x_1, \ldots, x_{p+q}) = m(u(x_1, \ldots, x_p), v(x_{p+1}, \ldots, x_{p+q})).
 $$
 
-(2) Take E to be the graded cogebrà $S(M)$ (no. 1), preserving the same hypotheses on N, $N'$, $N''$. A graded homomorphism of degree $-p$ of $S(M)$ into N then corresponds to a *symmetric multilinear mapping* of $M^p$ into N (\S 6, no. 3). Then we derive from a symmetric multilinear mapping $u : M^p \to N$ and a symmetric multilinear mapping $v : M^q \to N'$ a symmetric multilinear mapping $m(u, v) : M^{p+q} \to N''$, also denoted (to avoid confusion) by $u._m v$ (or even $u.v$) and called the *symmetric product* (relative to $m$) of $u$ and $v$. Formulae (6) (no. 1) and (11) show that, for $x_1, \ldots, x_{p+q}$ in M,
+(2) Take E to be the graded cogebrà $S(M)$ (no. 1), preserving the same hypotheses on N, $N'$, $N''$. A graded homomorphism of degree $-p$ of $S(M)$ into N then corresponds to a *symmetric multilinear mapping* of $M^p$ into N (§ 6, no. 3). Then we derive from a symmetric multilinear mapping $u : M^p \to N$ and a symmetric multilinear mapping $v : M^q \to N'$ a symmetric multilinear mapping $m(u, v) : M^{p+q} \to N''$, also denoted (to avoid confusion) by $u._m v$ (or even $u.v$) and called the *symmetric product* (relative to $m$) of $u$ and $v$. Formulae (6) (no. 1) and (11) show that, for $x_1, \ldots, x_{p+q}$ in M,
 
 $$(u \cdot_m v)(x_1, \ldots, x_{p+q}) = \sum_\sigma m(u(x_{\sigma(1)}, \ldots, x_{\sigma(p)}), v(x_{\sigma(p+1)}, \ldots, x_{\sigma(p+q)}))$$
 
@@ -293,7 +294,7 @@ When the cogebra $E$ satisfies the condition of Proposition 1, it is said to be 
 
 #### Example {#alg-iii-s11-n2-exa-2 .statement}
 
-(4) It is immediately verified that the cogebra $A$ (no. 1, Example (1)) the cogebra $A^{(X)}$ (no. 1, Example 4) and the cogebra $\mathcal{T}(M)$ (no. 1, Example 5) are coassociative. If $B$ is an associative $A$-algebra which is a finitely generated projective $A$-module, the cogebra $B^*$ (no. 1, Example 3) is coassociative: for the commutativity of diagram (12) then follows by transposition from that of the diagram which expresses the associativity of $B$ (\S 1, no. 3). Conversely, the same argument and the canonical identification of the A-module B with its bidual (II, § 2, no. 7, Corollary 4 to Proposition 13) show that if the cogebras B* is coassociative, the algebra B is associative. Finally, the cogebras S(M) and $\Lambda(M)$ (no. 1, Examples 6 and 7) are coassociative; this follows from the commutativity of the diagram
+(4) It is immediately verified that the cogebra $A$ (no. 1, Example (1)) the cogebra $A^{(X)}$ (no. 1, Example 4) and the cogebra $\mathcal{T}(M)$ (no. 1, Example 5) are coassociative. If $B$ is an associative $A$-algebra which is a finitely generated projective $A$-module, the cogebra $B^*$ (no. 1, Example 3) is coassociative: for the commutativity of diagram (12) then follows by transposition from that of the diagram which expresses the associativity of $B$ (§ 1, no. 3). Conversely, the same argument and the canonical identification of the A-module B with its bidual (II, § 2, no. 7, Corollary 4 to Proposition 13) show that if the cogebras B* is coassociative, the algebra B is associative. Finally, the cogebras S(M) and $\Lambda(M)$ (no. 1, Examples 6 and 7) are coassociative; this follows from the commutativity of the diagram
 
 $$
 \begin{array}{ccc}
@@ -303,7 +304,7 @@ M \times M & \xrightarrow{\Delta \times 1_M} & M \times M \times M
 \end{array}
 $$
 
-the functorial properties of S(M) (\S 6, no. 2) and $\Lambda(M)$ (\S 7, no. 2), which give the corresponding commutative diagrams
+the functorial properties of S(M) (§ 6, no. 2) and $\Lambda(M)$ (§ 7, no. 2), which give the corresponding commutative diagrams
 
 $$
 \left\{
@@ -324,7 +325,7 @@ $$
 \right.
 $$
 
-and the existence and functoriality of canonical isomorphisms for symmetric and exterior algebras of a direct sum (\S 6, no. 6 and \S 7, no. 7).
+and the existence and functoriality of canonical isomorphisms for symmetric and exterior algebras of a direct sum (§ 6, no. 6 and § 7, no. 7).
 
 #### Proposition 2 {#alg-iii-s11-prop-2 .statement}
 
@@ -354,13 +355,13 @@ $$
 E \xrightarrow{c} E \otimes E \xrightarrow{v \otimes u} B \otimes B \xrightarrow{m} B.
 $$
 
-It follows that if diagram (15) is commutative the algebra $\mathrm{Hom}_A(E, B)$ is commutative for every commutative A-algebra B. To establish the converse, it suffices to show that there exist a commutative A-algebra B and two A-linear mappings $u, v$ of E into B such that $m \circ (u \otimes v): E \otimes E \to B$ is injective. Take B to be the algebra $S(E \oplus E)$ and $u$ (resp. $v$) the composition of the canonical mapping $E \oplus E \to S(E \oplus E)$ and the mapping $x \mapsto (x, 0)$ (resp. $x \mapsto (0, x)$) of E into $E \oplus E$. If $h: S(E) \otimes S(E) \to S(E \otimes E)$ is the canonical isomorphism (\S 6, no. 6, Proposition 9) and $\lambda: E \to S(E)$ is the canonical mapping, then $h^{-1} \circ m \circ (u \otimes v) = \lambda \otimes \lambda$. Now $\lambda \otimes \lambda$ is injective, for $\lambda(E)$ is a direct factor of $S(E)$ (II, \S 3, no. 7, Corollary 5 to Proposition 7).
+It follows that if diagram (15) is commutative the algebra $\mathrm{Hom}_A(E, B)$ is commutative for every commutative A-algebra B. To establish the converse, it suffices to show that there exist a commutative A-algebra B and two A-linear mappings $u, v$ of E into B such that $m \circ (u \otimes v): E \otimes E \to B$ is injective. Take B to be the algebra $S(E \oplus E)$ and $u$ (resp. $v$) the composition of the canonical mapping $E \oplus E \to S(E \oplus E)$ and the mapping $x \mapsto (x, 0)$ (resp. $x \mapsto (0, x)$) of E into $E \oplus E$. If $h: S(E) \otimes S(E) \to S(E \otimes E)$ is the canonical isomorphism (§ 6, no. 6, Proposition 9) and $\lambda: E \to S(E)$ is the canonical mapping, then $h^{-1} \circ m \circ (u \otimes v) = \lambda \otimes \lambda$. Now $\lambda \otimes \lambda$ is injective, for $\lambda(E)$ is a direct factor of $S(E)$ (II, § 3, no. 7, Corollary 5 to Proposition 7).
 
 When the cogebra E satisfies the condition of Proposition 2, it is said to be cocommutative.
 
 #### Example {#alg-iii-s11-n2-exa-3 .statement}
 
-(5) It is immediate that the cogebra A (no. 1, Example 1) and the cogebra $A^{(X)}$ (II, \S 11, no. 1, Example 4) are cocommutative. It follows from formula (5) of no. 1 that the cogebra $S(M)$ is cocommutative. Finally, for an A-algebra B such that the A-module B is projective and finitely generated to have the property that the cogebra $B^*$ (no. 1, Example 3) is cocommutative, it is necessary and sufficient that B be commutative; for (using the canonical identification of the A-module B with its bidual (II, \S 2, no. 7)), this follows from the fact that the commutativity of diagram (14) is equivalent by transposition to that of the diagram which expressed the commutativity of B (\S 1, no. 3).
+(5) It is immediate that the cogebra A (no. 1, Example 1) and the cogebra $A^{(X)}$ (II, § 11, no. 1, Example 4) are cocommutative. It follows from formula (5) of no. 1 that the cogebra $S(M)$ is cocommutative. Finally, for an A-algebra B such that the A-module B is projective and finitely generated to have the property that the cogebra $B^*$ (no. 1, Example 3) is cocommutative, it is necessary and sufficient that B be commutative; for (using the canonical identification of the A-module B with its bidual (II, § 2, no. 7)), this follows from the fact that the commutativity of diagram (14) is equivalent by transposition to that of the diagram which expressed the commutativity of B (§ 1, no. 3).
 
 #### Proposition 3 {#alg-iii-s11-prop-3 .statement}
 
@@ -482,7 +483,7 @@ and therefore $\gamma(x) = \sum_i \gamma(y_{in}) \gamma(z_{i0}) = \gamma(0) = 0$
 
 #### Proposition 6 {#alg-iii-s11-prop-6 .statement}
 
-*Let E be a graded cogebra over A. In order that, for every commutative A-algebra B, with the trivial graduation, the graded A-algebra of type $\mathbf{Z} \mathrm{Homgr}_A(E, B)$ (no. 2) be anticommutative (\S 4, no. 9, Definition 7), it is necessary and sufficient that, if $\sigma_g$ denotes the automorphism of the A-module $E \otimes_A E$ such that*
+*Let E be a graded cogebra over A. In order that, for every commutative A-algebra B, with the trivial graduation, the graded A-algebra of type $\mathbf{Z} \mathrm{Homgr}_A(E, B)$ (no. 2) be anticommutative (§ 4, no. 9, Definition 7), it is necessary and sufficient that, if $\sigma_g$ denotes the automorphism of the A-module $E \otimes_A E$ such that*
 
 $$
 \sigma_g(x_p \otimes x_q) = (-1)^{pq} x_q \otimes x_p
@@ -539,11 +540,11 @@ If T is another monoid with unit element v, $f : S \to T$ a homomorphism such th
 
 (2) Let M be an A-module. The graded A-algebra (§ 6, no. 1) and graded A-cogebra (no. 1, Example 6) structures defined on S(M) define on this set a *commutative cocommutative graded bigebra* structure; for we have seen (no. 1, Example 6) that the coproduct on S(M) is an *algebra* homomorphism and it follows from the definition of the counit $\gamma$ (no. 2, Example 6) that $\gamma(1) = 1$ and that $\gamma$ is an algebra homomorphism of E into A.
 
-(3) Let M be an A-module. We see as in Example 2 that the graded A-algebra (\S 7, no. 1) and graded A-cogebra (no. 1, Example 7) structures on $\bigwedge(M)$ define on this set an *anticommutative anticocommutative skew graded bigebra* structure.
+(3) Let M be an A-module. We see as in Example 2 that the graded A-algebra (§ 7, no. 1) and graded A-cogebra (no. 1, Example 7) structures on $\bigwedge(M)$ define on this set an *anticommutative anticocommutative skew graded bigebra* structure.
 
 #### Remark {#alg-iii-s11-n4-rem-1 .statement}
 
-If M is an A-module such that $M \otimes_A M \neq \{0\}$, the graded A-algebra (\S 5, no. 1) and graded A-cogebra (no. 1, Example 5) structures on $T(M)$ *do not define* a bigebra structure, for in general
+If M is an A-module such that $M \otimes_A M \neq \{0\}$, the graded A-algebra (§ 5, no. 1) and graded A-cogebra (no. 1, Example 5) structures on $T(M)$ *do not define* a bigebra structure, for in general
 
 $$
 c(x_1 x_2 y_1 y_2) \neq c(x_1 x_2) c(y_1 y_2)
@@ -573,7 +574,7 @@ S(u): S(M) \to S(N) \\
 \end{cases}
 $$
 
-(\S 5, no. 2, \S 6, no. 2 and \S 7, no. 2). It is immediately verified in formula (3) of no. 1 that $T(u)$ is also a *cogebra morphism*. On the other hand, if $\Delta_M$ (resp. $\Delta_N$) denotes the diagonal mapping $M \to M \times M$ (resp. $N \to N \times N$), there is the relation $(u \times u) \circ \Delta_M = \Delta_N \circ u$; it follows that $S(u \times u) \circ S(\Delta_M) = S(\Delta_N) \circ S(u)$
+(§ 5, no. 2, § 6, no. 2 and § 7, no. 2). It is immediately verified in formula (3) of no. 1 that $T(u)$ is also a *cogebra morphism*. On the other hand, if $\Delta_M$ (resp. $\Delta_N$) denotes the diagonal mapping $M \to M \times M$ (resp. $N \to N \times N$), there is the relation $(u \times u) \circ \Delta_M = \Delta_N \circ u$; it follows that $S(u \times u) \circ S(\Delta_M) = S(\Delta_N) \circ S(u)$
 
 (resp. $\Lambda(u \times u) \circ \Lambda(\Delta_M) = \Lambda(\Delta_N) \circ \Lambda(u)$).
 
@@ -595,7 +596,7 @@ $$
 
 are *graded algebra homomorphisms*.
 
-We now note that the dual $M^*$ of $M$ is identified with the submodule of elements of degree 1 in $T(M)^{*gr}$ (resp. $S(M)^{*gr}$, $\Lambda(M)^{*gr}$). It therefore follows from the universal property of the tensor algebra (\S 5, no. 1) and the universal property of the symmetric algebra (\S 6, no. 1) that *there exists one and only one graded algebra homomorphism*
+We now note that the dual $M^*$ of $M$ is identified with the submodule of elements of degree 1 in $T(M)^{*gr}$ (resp. $S(M)^{*gr}$, $\Lambda(M)^{*gr}$). It therefore follows from the universal property of the tensor algebra (§ 5, no. 1) and the universal property of the symmetric algebra (§ 6, no. 1) that *there exists one and only one graded algebra homomorphism*
 
 $$
 \theta_T: T(M^*) \to T(M)^{*gr}
@@ -607,7 +608,7 @@ $$
 \theta_S: S(M^*) \to S(M)^{*gr}
 $$
 
-*which extends the canonical injection* $M^* \to S(M)^{*gr}$. On the other hand, the canonical injection of $M^*$ in the *opposite* algebra to $\Lambda(M)^{*gr}$ is such that the square of every element of $M^*$ is zero; hence (\S 7, no. 1, Proposition 1) *there exists one and only one graded algebra homomorphism*
+*which extends the canonical injection* $M^* \to S(M)^{*gr}$. On the other hand, the canonical injection of $M^*$ in the *opposite* algebra to $\Lambda(M)^{*gr}$ is such that the square of every element of $M^*$ is zero; hence (§ 7, no. 1, Proposition 1) *there exists one and only one graded algebra homomorphism*
 
 $$
 \theta_\Lambda: \Lambda(M^*) \to (\Lambda(M)^{*gr})^0
@@ -628,7 +629,7 @@ T(N)^{*gr} & \xrightarrow{t_{T(n)}} & T(M)^{*gr}
 \end{array}
 $$
 
-is commutative, as follows immediately from the universal property of the tensor algebra (\S 5, no. 1); there are analogous commutative diagrams for $\theta_S$ and $\theta_\wedge$.
+is commutative, as follows immediately from the universal property of the tensor algebra (§ 5, no. 1); there are analogous commutative diagrams for $\theta_S$ and $\theta_\wedge$.
 
 We shall find the homomorphisms $\theta_T, \theta_S$ and $\theta_\wedge$ explicitly. For this we consider more generally a coassociative $A$-cogebra $E$ with coproduct $c$ and define by induction on $n$, for $n \geq 2$, the linear mapping $c_n$ of $E$ into $E^{\otimes n}$ by $c_2 = c$ and
 $$
@@ -668,7 +669,7 @@ $$
 $$
 = m_n \circ (u_1 \otimes u_2 \otimes \cdots \otimes u_n) \circ c_n
 $$
-by virtue of (24), (25), II, \S 3, no. 3, formula (5) and the relation
+by virtue of (24), (25), II, § 3, no. 3, formula (5) and the relation
 $$
 u_n = 1_A \circ u_n \circ 1_{E^*}.
 $$
@@ -758,7 +759,7 @@ Suppose first that M has a *finite basis* $(e_i)_{1 \leq i \leq m}$ and let $(e_
 $$
 \theta_T(e_{j_1}^* \otimes \cdots \otimes e_{j_n}^*)
 $$
-is the element of index s in the basis of $(T^n(M))^*$, *dual* to the basis of $T^n(M)$ consisting of the $e_s = e_{j_1} \otimes \cdots \otimes e_{j_n}$ (\S 5, no. 5, Theorem 1). Hence $\theta_T$ is bijective.
+is the element of index s in the basis of $(T^n(M))^*$, *dual* to the basis of $T^n(M)$ consisting of the $e_s = e_{j_1} \otimes \cdots \otimes e_{j_n}$ (§ 5, no. 5, Theorem 1). Hence $\theta_T$ is bijective.
 
 Similarly, formula (30 bis) shows that, for every finite subset H of $[1, m]$ with n elements, $(-1)^{n(n-1)/2} \theta_\Lambda(e_H^*)$ (notation of § 7, no. 8, Theorem 1) is the element of index H in the basis of $(\bigwedge^n(M))^*$, *dual* to the basis of $\bigwedge^n(M)$ consisting of the $e_H$. Hence $\theta_\Lambda$ is bijective.
 
@@ -788,7 +789,7 @@ and an analogous commutative diagram where $T$ is replaced by $\Lambda$. The pro
 *Let*
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 X & \xrightarrow{u} & Y & \xrightarrow{v} & X \\
 f \downarrow & & g \downarrow & & f \downarrow \\
 X' & \xrightarrow{u'} & Y' & \xrightarrow{v'} & X'
@@ -799,7 +800,7 @@ $$
 
 $u$ is injective since $v \circ u$ is, hence, if $g$ is injective, $u' \circ f = g \circ u$ is injective and therefore $f$ is injective. Similarly $v'$ is surjective since $v' \circ u'$ is; hence, if $g$ is surjective, $f \circ v = v' \circ g$ is surjective and therefore $f$ is surjective.
 
-The last assertion of Proposition 7 follows from the fact that $\Lambda(M)$ is then a finitely generated A-module (\S 7, no. 3, Proposition 6 and II, \S 11, no. 6, Remark).
+The last assertion of Proposition 7 follows from the fact that $\Lambda(M)$ is then a finitely generated A-module (§ 7, no. 3, Proposition 6 and II, § 11, no. 6, Remark).
 
 We now examine what can be said concerning the homomorphism $\theta_S$ when $M$ is *projective and finitely generated*. Suppose first that $M$ admits a finite basis $(e_i)_{1 \leq i \leq m}$. In the notation at the beginning of the chapter the A-module $S^n(M)$ admits as basis the family of elements $e^\alpha$ such that $|\alpha| = n$. Let $u_\alpha$ (for $|\alpha| = n$) denote the element of index $\alpha$ in the basis of $(S^n(M))^*$ *dual* to $(e^\alpha)$. The elements $u_\alpha$, for $\alpha \in \mathbf{N}^m$, therefore form a basis of the algebra $S(M)^{*gr}$ and we shall obtain the multiplication table of this basis explicitly. We write
 
@@ -1104,7 +1105,7 @@ for $u, v$ in $E^{*\mathrm{gr}}$ (II, § 1, no. 14). With the same notation as a
 
 It is therefore seen that the two external laws of composition on $E$ defines on this set an $(E^{*\mathrm{gr}}, E^{*\mathrm{gr}})$*-bimodule* structure.
 
-When the cogebra $E$ is *cocommutative*, then $u \sqcup x = x \sqcap u$ for all $x \in E$ and $u \in E^{*\mathrm{gr}}$; when it is *anticocommutative* (\S 4, no. 9) and $u \in E_p^*$ and $x \in E_q$, we can write $c(x) = \sum_{0 \leq j \leq q} \left( \sum_i y_{ij} \otimes z_{i, q-j} \right)$ with $y_{ij}$ and $z_{ij}$ in $E_j$ for all $j$ and then by hypothesis
+When the cogebra $E$ is *cocommutative*, then $u \sqcup x = x \sqcap u$ for all $x \in E$ and $u \in E^{*\mathrm{gr}}$; when it is *anticocommutative* (§ 4, no. 9) and $u \in E_p^*$ and $x \in E_q$, we can write $c(x) = \sum_{0 \leq j \leq q} \left( \sum_i y_{ij} \otimes z_{i, q-j} \right)$ with $y_{ij}$ and $z_{ij}$ in $E_j$ for all $j$ and then by hypothesis
 
 $$\sum_i z_{ij} \otimes y_{i, q-j} = (-1)^{j(q-j)} \sum_i y_{ij} \otimes z_{i, q-j}.$$
 
@@ -1181,7 +1182,7 @@ Let E be a graded bigebra (resp. skew graded bigebra) (no. 4, Definition 3); the
 
 #### Proposition 9 {#alg-iii-s11-prop-9 .statement}
 
-*Let $E$ be a graded bigebra (resp. skew graded bigebra). For every element $x$ of degree 1 in $E$, the left and right inner products by $x$ are derivations (resp. antiderivations) ($\S 10$, no. 2) of the algebra $E^{*\mathrm{gr}}$.*
+*Let $E$ be a graded bigebra (resp. skew graded bigebra). For every element $x$ of degree 1 in $E$, the left and right inner products by $x$ are derivations (resp. antiderivations) ($§ 10$, no. 2) of the algebra $E^{*\mathrm{gr}}$.*
 
 In the notation of no. 6, for every homogeneous element $x$ of *degree* 1 in a graded bigebra (resp. a skew graded bigebra) $E$,
 $$
@@ -1368,17 +1369,17 @@ $$
 \theta_S(z^* \wedge t) = \theta_S(z^*) \wedge t.
 $$
 
-As above, we can limit ourselves to the case $t = x \in M$. But further, here $i(x)$ is a derivation of $S(M^*)$ and a derivation of $S(M)^{*gr}$. Therefore (\S 10, no. 7, Corollary to Proposition 9) it suffices to verify (70) for $z^* = x^* \in M^*$, since $M^*$ is a generating system of $S(M^*)$; but this is trivial, the two sides then being equal to $\langle x^*, x \rangle$. A similar argument proves the relation
+As above, we can limit ourselves to the case $t = x \in M$. But further, here $i(x)$ is a derivation of $S(M^*)$ and a derivation of $S(M)^{*gr}$. Therefore (§ 10, no. 7, Corollary to Proposition 9) it suffices to verify (70) for $z^* = x^* \in M^*$, since $M^*$ is a generating system of $S(M^*)$; but this is trivial, the two sides then being equal to $\langle x^*, x \rangle$. A similar argument proves the relation
 
 $$
 \theta_\wedge(t \wedge z^*) = t \wedge \theta_\wedge(z^*)
 $$
 
-for $z^* \in \Lambda(M^*)$ and $t \in \Lambda(M)$: observe then that, for $x \in M$, $i(x)$ is an antiderivation in $\Lambda(M^*)$ as well as in $\Lambda(M)^{*gr}$ and use \S 10, no. 7, Corollary to Proposition 9. There is an analogous result for left inner products.
+for $z^* \in \Lambda(M^*)$ and $t \in \Lambda(M)$: observe then that, for $x \in M$, $i(x)$ is an antiderivation in $\Lambda(M^*)$ as well as in $\Lambda(M)^{*gr}$ and use § 10, no. 7, Corollary to Proposition 9. There is an analogous result for left inner products.
 
 ### 10. EXPLICIT FORM OF INNER PRODUCTS IN THE CASE OF A FINITELY GENERATED FREE MODULE
 
-Let $M$ be a finitely generated free $A$-module, $(e_i)_{1 \leq i \leq n}$ a basis of $M$ and $(e_i^*)_{1 \leq i \leq n}$ the dual basis of $M^*$. For every finite sequence $s = (i_1, \ldots, i_p)$ of elements of $\{1, n\}$, let $e_s = e_{i_1} \otimes e_{i_2} \otimes \cdots \otimes e_{i_p}$ (resp. $e_s^* = e_{i_1}^* \otimes \cdots \otimes e_{i_p}^*$). We know (\S 5, no. 5, Theorem 1) that the $e_s$ form a basis of the $A$-module $T(M)$ and the $e_s^*$ a basis of the $A$-module $T(M^*)$. If $s, t$ are two finite sequences of elements of $\{1, n\}$, let $s.t$ denote the sequence obtained as follows: if $s = (i_1, \ldots, i_p)$ and $t = (j_1, \ldots, j_q)$, $s.t$ is the sequence $(i_1, \ldots, i_p, j_1, \ldots, j_q)$ with $p + q$ terms. Then $e_{s.t} = e_s \otimes e_t$. It then follows from (66) that
+Let $M$ be a finitely generated free $A$-module, $(e_i)_{1 \leq i \leq n}$ a basis of $M$ and $(e_i^*)_{1 \leq i \leq n}$ the dual basis of $M^*$. For every finite sequence $s = (i_1, \ldots, i_p)$ of elements of $\{1, n\}$, let $e_s = e_{i_1} \otimes e_{i_2} \otimes \cdots \otimes e_{i_p}$ (resp. $e_s^* = e_{i_1}^* \otimes \cdots \otimes e_{i_p}^*$). We know (§ 5, no. 5, Theorem 1) that the $e_s$ form a basis of the $A$-module $T(M)$ and the $e_s^*$ a basis of the $A$-module $T(M^*)$. If $s, t$ are two finite sequences of elements of $\{1, n\}$, let $s.t$ denote the sequence obtained as follows: if $s = (i_1, \ldots, i_p)$ and $t = (j_1, \ldots, j_q)$, $s.t$ is the sequence $(i_1, \ldots, i_p, j_1, \ldots, j_q)$ with $p + q$ terms. Then $e_{s.t} = e_s \otimes e_t$. It then follows from (66) that
 
 $$
 \begin{cases}
@@ -1387,7 +1388,7 @@ e_{t.u} \wedge e_t^* = e_u.
 \end{cases}
 $$
 
-Similarly, the symmetric algebra $S(M)$ has as basis the set of monomials $e^\alpha$ with $\alpha \in \mathbf{N}^n$ (\S 6, no. 6, Theorem 1) and $S(M^*)$ the set of monomials $e^{*\alpha}$ with $\alpha \in \mathbf{N}^n$; recall (no. 5) that $u_\alpha$, for $|\alpha| = k$, denotes the element of the basis of $(S^k(M))^*$, dual to the basis $(e^\alpha)_{|\alpha|=k}$ of $S^k(M)$; the $u_\alpha$, for $\alpha \in \mathbf{N}^n$, therefore form a basis of $S(M)^{*gr}$. The definition of right inner product by $e^\beta$ in $S(M)^{*gr}$ as the transpose of multiplication by $e^\beta$ in $S(M)$ then shows that
+Similarly, the symmetric algebra $S(M)$ has as basis the set of monomials $e^\alpha$ with $\alpha \in \mathbf{N}^n$ (§ 6, no. 6, Theorem 1) and $S(M^*)$ the set of monomials $e^{*\alpha}$ with $\alpha \in \mathbf{N}^n$; recall (no. 5) that $u_\alpha$, for $|\alpha| = k$, denotes the element of the basis of $(S^k(M))^*$, dual to the basis $(e^\alpha)_{|\alpha|=k}$ of $S^k(M)$; the $u_\alpha$, for $\alpha \in \mathbf{N}^n$, therefore form a basis of $S(M)^{*gr}$. The definition of right inner product by $e^\beta$ in $S(M)^{*gr}$ as the transpose of multiplication by $e^\beta$ in $S(M)$ then shows that
 
 $$
 \begin{cases}
@@ -1424,9 +1425,9 @@ There are analogous formulae for the inner product of an element of $S(M^*)$ by 
 
 #### Remark {#alg-iii-s11-n10-rem-1 .statement}
 
-Being given the basis $(e_i)_{1 \leq i \leq n}$ allows us to identify the algebra $S(M)$ with the polynomial algebra $A[X_1, \ldots, X_n]$ (\S 6, no. 6); formula (75) shows that the inner product by $e^{*\alpha}$ is just the differential operator $D^\alpha = D_1^{\alpha_1}D_2^{\alpha_2}\ldots D_n^{\alpha_n}$, where $D_i = \partial/\partial X_i$ for $1 \leq i \leq n$ (\S 10, no. 11, Example).
+Being given the basis $(e_i)_{1 \leq i \leq n}$ allows us to identify the algebra $S(M)$ with the polynomial algebra $A[X_1, \ldots, X_n]$ (§ 6, no. 6); formula (75) shows that the inner product by $e^{*\alpha}$ is just the differential operator $D^\alpha = D_1^{\alpha_1}D_2^{\alpha_2}\ldots D_n^{\alpha_n}$, where $D_i = \partial/\partial X_i$ for $1 \leq i \leq n$ (§ 10, no. 11, Example).
 
-Consider finally the exterior algebra $\Lambda(M)$, which has as basis the set of elements $e_J$, where $J$ runs through the set of subsets of the interval $\{1, n\}$ of $\mathbf{N}$ (\S 7, no. 8, Theorem 1); similarly $\Lambda(M^*)$ has as basis the elements $e_J^*$. It follows from formula (68) of no. 9 that
+Consider finally the exterior algebra $\Lambda(M)$, which has as basis the set of elements $e_J$, where $J$ runs through the set of subsets of the interval $\{1, n\}$ of $\mathbf{N}$ (§ 7, no. 8, Theorem 1); similarly $\Lambda(M^*)$ has as basis the elements $e_J^*$. It follows from formula (68) of no. 9 that
 
 $$
 \begin{cases}
@@ -1437,7 +1438,7 @@ $$
 
 (76)
 
-where $\rho_{K, J-K}$ is the number defined by formula (19) of \S 7, no. 8. There are analogous formulae with the roles of $M$ and $M^*$ interchanged.
+where $\rho_{K, J-K}$ is the number defined by formula (19) of § 7, no. 8. There are analogous formulae with the roles of $M$ and $M^*$ interchanged.
 
 ### 11. ISOMORPHISMS BETWEEN $\wedge^p(M)$ AND $\wedge^{n-p}(M^*)$ FOR AN $n$-DIMENSIONAL FREE MODULE M
 
@@ -1470,13 +1471,13 @@ $$
 \end{cases}
 $$
 
-This proves that $\phi$ and $\phi'$ are bijective; moreover $\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (\S 7, no. 8, formula (21)); as the number
+This proves that $\phi$ and $\phi'$ are bijective; moreover $\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (§ 7, no. 8, formula (21)); as the number
 
 $$
 \frac{n(n-1)}{2} + \frac{p(p-1)}{2} + \frac{(n-p)(n-p-1)}{2} + p(n-p) = n(n-1)
 $$
 
-is even, it follows that $\phi$ and $\phi'$ are inverses of one another. Finally, to prove (77), it suffices to take $u^* = e_J^*$ and $v^* = e_{I-J}^*$; the verification also follows from the definition of $\theta_{\wedge}$, formulae (78) and the relation $\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (\S 7, no. 8, formula (21)). Note that, for $u^* \in \wedge^p(M^*)$ and $v^* \in \wedge^{n-p}(M^*)$,
+is even, it follows that $\phi$ and $\phi'$ are inverses of one another. Finally, to prove (77), it suffices to take $u^* = e_J^*$ and $v^* = e_{I-J}^*$; the verification also follows from the definition of $\theta_{\wedge}$, formulae (78) and the relation $\rho_{J, I-J} \rho_{I-J, J} = (-1)^{p(n-p)}$ (§ 7, no. 8, formula (21)). Note that, for $u^* \in \wedge^p(M^*)$ and $v^* \in \wedge^{n-p}(M^*)$,
 
 B(\phi_p'(u^*), v^*) is, to within a sign, the coefficient of $u^* \wedge v^*$ with respect to the basis $\{e^*\}$ of $\Lambda^n(M^*)$.
 

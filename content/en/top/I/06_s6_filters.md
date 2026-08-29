@@ -7,52 +7,53 @@ section: 6
 section_title: Filters
 lang: en
 source: top-i-iv
+book_pages: 57-68
 pdf_pages: 0063-0074, 0135-0138
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF A FILTER
-      page: 0
+      page: 57
       pdf_page: 63
     - "no": 2
       title: COMPARISON OF FILTERS
-      page: 0
+      page: 58
       pdf_page: 64
     - "no": 3
       title: BASES OF A FILTER
-      page: 0
+      page: 59
       pdf_page: 65
     - "no": 4
       title: ULTRAFILTERS
-      page: 0
+      page: 60
       pdf_page: 66
     - "no": 5
       title: INDUCED FILTER
-      page: 0
+      page: 61
       pdf_page: 67
     - "no": 6
       title: DIRECT IMAGE AND INVERSE IMAGE OF A FILTER BASE
-      page: 0
+      page: 62
       pdf_page: 68
     - "no": 7
       title: PRODUCT OF FILTERS
-      page: 0
+      page: 63
       pdf_page: 69
     - "no": 8
       title: ELEMENTARY FILTERS
-      page: 0
+      page: 64
       pdf_page: 70
     - "no": 9
       title: GERMS WITH RESPECT TO A FILTER
-      page: 0
+      page: 65
       pdf_page: 71
     - "no": 10
       title: GERMS AT A POINT
-      page: 0
+      page: 68
       pdf_page: 74
 statements: 30
 exercises: 20
-content_sha256: e428657ce0845aa0620d75cac8c82afb983dbc997f2fca66c06d22631b1480b9
+content_sha256: 694e8d15858898977570a8ea1997399c00c59f9050d7858696d71a7fe04011de
 ---
 
 ## 6. FILTERS
@@ -163,9 +164,9 @@ This is an immediate consequence of Definitions 2 and 3.
 
 Two filter bases $\mathcal{B}, \mathcal{B}'$ on a set $X$ are equivalent if and only if every set of $\mathcal{B}$ contains a set of $\mathcal{B}'$ and every set of $\mathcal{B}'$ contains a set of $\mathcal{B}$.
 
-Examples of filter bases. 1) Let $X$ be a topological space. Proposition 3 shows that the bases of the neighbourhood filter of a point $x \in X$ are precisely the fundamental systems of neighbourhoods of $x$ (\$ 1, no. 3, Definition 5).
+Examples of filter bases. 1) Let $X$ be a topological space. Proposition 3 shows that the bases of the neighbourhood filter of a point $x \in X$ are precisely the fundamental systems of neighbourhoods of $x$ (§ 1, no. 3, Definition 5).
 
-2) Let $X$ be a non-empty directed set with respect to a relation $(\sigma)$ (Set Theory, Chapter III, \$ 1, no. 10). For each $a \in X$, the set $S(a)$ of all $x \in X$ such that $a(\sigma)x$ will be called the section of $X$ relative to the element $a$. Then the set $\mathcal{S}$ of sections of $X$ is a filter base, for it clearly satisfies $(\mathrm{B}_{\mathrm{II}})$, and if $a, b$ are any two elements of $X$, then there is by hypothesis an element $c \in X$ such that $a(\sigma)c$ and $b(\sigma)c$, and therefore
+2) Let $X$ be a non-empty directed set with respect to a relation $(\sigma)$ (Set Theory, Chapter III, § 1, no. 10). For each $a \in X$, the set $S(a)$ of all $x \in X$ such that $a(\sigma)x$ will be called the section of $X$ relative to the element $a$. Then the set $\mathcal{S}$ of sections of $X$ is a filter base, for it clearly satisfies $(\mathrm{B}_{\mathrm{II}})$, and if $a, b$ are any two elements of $X$, then there is by hypothesis an element $c \in X$ such that $a(\sigma)c$ and $b(\sigma)c$, and therefore
 $$
 S(c) \subset S(a) \cap S(b),
 $$
@@ -180,7 +181,7 @@ Let $\mathcal{F}$ be a filter on a set $Z$. Since $\mathcal{F}$ is directed with
 
 An ultrafilter on a set $X$ is a filter $\mathcal{F}$ such that there is no filter on $X$ which is strictly finer than $\mathcal{F}$ (in other words, a maximal element in the ordered set of all filters on $X$).
 
-Since the ordered set of all filters on $X$ is inductive (no. 2, Proposition 1, Corollary 3), Zorn's lemma (Set Theory, R, \$ 6, no. 10) shows that:
+Since the ordered set of all filters on $X$ is inductive (no. 2, Proposition 1, Corollary 3), Zorn's lemma (Set Theory, R, § 6, no. 10) shows that:
 
 #### Theorem 1 {#top-i-s6-thm-1 .statement}
 
@@ -238,9 +239,9 @@ If a filter $\mathfrak{F}$ on $X$ induces a filter on $A \subset X$, then the tr
 
 #### Example {#top-i-s6-n5-exa-1 .statement}
 
-Let $X$ be a topological space, $A$ a subset of $X$, $x$ a point of $X$. In order that the trace on $A$ of the *neighbourhood filter* $\mathcal{B}$ of $x$ should be a filter on $A$, it is necessary and sufficient that every neighbourhood of $x$ meets $A$, i.e. that $x$ lies in the *closure* of $A$ (\$ 1, no. 6, Definition 10).
+Let $X$ be a topological space, $A$ a subset of $X$, $x$ a point of $X$. In order that the trace on $A$ of the *neighbourhood filter* $\mathcal{B}$ of $x$ should be a filter on $A$, it is necessary and sufficient that every neighbourhood of $x$ meets $A$, i.e. that $x$ lies in the *closure* of $A$ (§ 1, no. 6, Definition 10).
 
-This example of an induced filter is of interest for two reasons: first because it plays an important role in the theory of limits (\$ 7, no. 5) and secondly because *every filter can be defined in this way*. Indeed, let $\mathfrak{F}$ be a filter on a set $X$ and let $X'$ be the set obtained by *adjoining* a new element $\omega$ to $X$, $X$ being identified with the complement of $\{ \omega \}$ in $X'$ (*Set Theory*, R, \$ 4, no. 5); let $\mathfrak{F}'$ be the filter on $X'$ consisting of the sets $M \cup \{ \omega \}$ where $M$ runs through $\mathfrak{F}$. For each point $x \neq \omega$ of $X'$, let $\mathcal{B}(x)$ be the set of all subsets of $X'$ which contain $x$, and let $\mathcal{B}(\omega)$ be $\mathfrak{F}'$; then the $\mathcal{B}(x)$ for $x \in X'$ obviously satisfy axioms $(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$ and $(\mathrm{V}_{\mathrm{IV}})$ and therefore define a topology on $X'$ for which they are the neighbourhood filters of points. Finally $\omega$ lies in the *closure* of $X$ in this topology, and $\mathfrak{F}$ is induced by $\mathfrak{F}' = \mathcal{B}(\omega)$ on $X$. The topology thus defined on $X'$ (resp. the set $X'$ with this topology) is called the *topology* (resp. the *topological space*) *associated with* $\mathfrak{F}$.
+This example of an induced filter is of interest for two reasons: first because it plays an important role in the theory of limits (§ 7, no. 5) and secondly because *every filter can be defined in this way*. Indeed, let $\mathfrak{F}$ be a filter on a set $X$ and let $X'$ be the set obtained by *adjoining* a new element $\omega$ to $X$, $X$ being identified with the complement of $\{ \omega \}$ in $X'$ (*Set Theory*, R, § 4, no. 5); let $\mathfrak{F}'$ be the filter on $X'$ consisting of the sets $M \cup \{ \omega \}$ where $M$ runs through $\mathfrak{F}$. For each point $x \neq \omega$ of $X'$, let $\mathcal{B}(x)$ be the set of all subsets of $X'$ which contain $x$, and let $\mathcal{B}(\omega)$ be $\mathfrak{F}'$; then the $\mathcal{B}(x)$ for $x \in X'$ obviously satisfy axioms $(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$ and $(\mathrm{V}_{\mathrm{IV}})$ and therefore define a topology on $X'$ for which they are the neighbourhood filters of points. Finally $\omega$ lies in the *closure* of $X$ in this topology, and $\mathfrak{F}$ is induced by $\mathfrak{F}' = \mathcal{B}(\omega)$ on $X$. The topology thus defined on $X'$ (resp. the set $X'$ with this topology) is called the *topology* (resp. the *topological space*) *associated with* $\mathfrak{F}$.
 
 #### Proposition 9 {#top-i-s6-prop-9 .statement}
 
@@ -283,7 +284,7 @@ The reader may easily verify that the product of the filters $\mathfrak{F}_i$ ca
 
 The preceding remarks show that if $\mathcal{B}_i$ is a base of $\mathfrak{F}_i$ for each $i \in I$, then $\mathcal{B}$ is a *base* of the product filter $\prod_{i \in I} \mathfrak{F}_i$ (no. 3, Proposition 3).
 
-On a product $X = \prod_{i \in I} X_i$ of topological spaces, the neighbourhood filter of any point $x = (x_i)$ is the *product* of the neighbourhood filters of the $x_i$ (\S 4, no. 1).
+On a product $X = \prod_{i \in I} X_i$ of topological spaces, the neighbourhood filter of any point $x = (x_i)$ is the *product* of the neighbourhood filters of the $x_i$ (§ 4, no. 1).
 
 The construction of a product filter $\mathfrak{F} = \prod_{i \in I} \mathfrak{F}_i$ is simpler when the index set $I$ is *finite*: a base of $\mathfrak{F}$ is then formed by *all* products $\prod_{i \in I} M_i$, where $M_i \in \mathfrak{F}_i$ for each $i \in I$. If $I = \{ 1, 2, \ldots, n \}$ we write
 $$
@@ -393,7 +394,7 @@ In particular, if $n = 2$ and if $X'_1, X'_2$ and $X''$ are all equal to the sam
 
 ### 10. GERMS AT A POINT
 
-One of the commonest situations to which the definitions and results of no. 9 apply is that in which $\mathfrak{F}$ is the neighbourhood filter of a point $a$ of a topological space $X$; instead of "germs with respect to $\mathfrak{F}$" we then speak of "germs at the point $a$". Notice that there is only one germ of neighbourhoods of $a$, namely the germ of the whole space $X$. The germs of closed sets are identical with the germs of sets which are locally closed at the point $a$, for if $L$ is locally closed at $a$, then the germs of $L$ and $\overline{\Gamma}$ at $a$ are equal (\S 3, no. 1, Proposition 1). It follows that if $\xi, \eta$ are two germs of locally closed sets at $a$, then so are $\xi \cup \eta$ and $\xi \cap \eta$.
+One of the commonest situations to which the definitions and results of no. 9 apply is that in which $\mathfrak{F}$ is the neighbourhood filter of a point $a$ of a topological space $X$; instead of "germs with respect to $\mathfrak{F}$" we then speak of "germs at the point $a$". Notice that there is only one germ of neighbourhoods of $a$, namely the germ of the whole space $X$. The germs of closed sets are identical with the germs of sets which are locally closed at the point $a$, for if $L$ is locally closed at $a$, then the germs of $L$ and $\overline{\Gamma}$ at $a$ are equal (§ 3, no. 1, Proposition 1). It follows that if $\xi, \eta$ are two germs of locally closed sets at $a$, then so are $\xi \cup \eta$ and $\xi \cap \eta$.
 
 Since $a$ is in each $V \in \mathfrak{F}$, $f(a)$ is defined for each mapping $f$ whose domain belongs to $\mathfrak{F}$; furthermore, if $f$ and $g$ have the same germ at $a$ we must have $f(a) = g(a)$, so that $f(a)$ depends only on the germ $\tilde{f}$ of $f$ at $a$, and is called the value of $\tilde{f}$ at $a$ and is denoted by $\tilde{f}(a)$. It should be emphasized that the relation $\tilde{f}(a) = \tilde{g}(a)$ does not in general imply that $\tilde{f} = \tilde{g}$.
 

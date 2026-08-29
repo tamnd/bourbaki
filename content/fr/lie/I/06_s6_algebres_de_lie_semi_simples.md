@@ -52,7 +52,7 @@ subsections:
       pdf_page: 92
 statements: 53
 exercises: 27
-content_sha256: b388112e370167856a847a79c13dc500c5d5ceb9f4270bda614d687d87267d65
+content_sha256: 87a282f119d444f8f1be9df02c5ab840a2722423ceafb8183d3d7e51f79bd855
 ---
 
 ## § 6. Algèbres de Lie semi-simples
@@ -103,13 +103,13 @@ En effet, la forme linéaire x ↦ Tr ρ(x) (x ∈ g) s’annule quand x est de 
 
 Soient $g$ une algèbre de Lie semi-simple, $\rho$ une représentation fidèle de dimension finie de $g$. Alors la forme bilinéaire sur $g$ associée à $\rho$ est non dégénérée.
 
-En effet, l’orthogonal de $g$ pour cette forme est un idéal résoluble ($\S 5$, no 4, th. 2), donc est nul.
+En effet, l’orthogonal de $g$ pour cette forme est un idéal résoluble ($§ 5$, no 4, th. 2), donc est nul.
 
 #### Corollaire 1 {#lie-i-s6-prop-1-cor-1 .statement}
 
 Soient $g$ une algèbre de Lie, $\beta$ sa forme de Killing, $a$ une sous-algèbre semi-simple de $g$. L’orthogonal $h$ de $a$ par rapport à $\beta$ est un sous-espace supplémentaire de $a$ dans $g$, et on a $[a, h]) \subset h$. Si $a$ est un idéal de $g$, il en est de même de $h$, qui est alors le commutant de $a$ dans $g$.
 
-Soit $\beta'$ la restriction de $\beta$ à $a$ : c’est la forme bilinéaire associée à la représentation $x \to \mathrm{ad}_g x$ de $a$ dans l’espace $g$. Cette représentation est fidèle, donc $\beta'$ est non dégénérée (prop. 1). Donc $h$ est supplémentaire de $a$ dans $g$. Par ailleurs, si $x, y$ sont dans $a$ et $z \in h$, on a $\beta(x, [y, z]) = \beta([x, y], z) = 0$, car $[x, y] \in a$, donc $[y, z] \in h$, ce qui prouve que $[a, h]) \subset h$. Si $a$ est un idéal de $g$, on sait que $h$ est un idéal de $g$ ($\S 3$, prop. 7) et $g$ s’identifie à $a \times h$. Comme le centre de $a$ est nul, le commutant de $a$ dans $g$ est $h$.
+Soit $\beta'$ la restriction de $\beta$ à $a$ : c’est la forme bilinéaire associée à la représentation $x \to \mathrm{ad}_g x$ de $a$ dans l’espace $g$. Cette représentation est fidèle, donc $\beta'$ est non dégénérée (prop. 1). Donc $h$ est supplémentaire de $a$ dans $g$. Par ailleurs, si $x, y$ sont dans $a$ et $z \in h$, on a $\beta(x, [y, z]) = \beta([x, y], z) = 0$, car $[x, y] \in a$, donc $[y, z] \in h$, ce qui prouve que $[a, h]) \subset h$. Si $a$ est un idéal de $g$, on sait que $h$ est un idéal de $g$ ($§ 3$, prop. 7) et $g$ s’identifie à $a \times h$. Comme le centre de $a$ est nul, le commutant de $a$ dans $g$ est $h$.
 
 #### Corollaire 2 {#lie-i-s6-prop-1-cor-2 .statement}
 
@@ -121,7 +121,7 @@ Ceci résulte aussitôt du cor. 1.
 
 Si $g$ est semi-simple, toute dérivation de $g$ est intérieure.
 
-En effet, $\mathrm{ad}\, g$ est isomorphe à $g$, donc semi-simple, et est un idéal de l’algèbre de Lie $\mathfrak{d}$ des dérivations de $g$ ($\S 1$, prop. 1). Si $D \in \mathfrak{d}$ commute aux éléments de $\mathrm{ad}\, g$, on a, pour tout $x \in g$, $\mathrm{ad}\, D(x) = [D, \mathrm{ad}\, x] = 0$, d’où $D(x) = 0$; donc $D = 0$. Le cor. 3 résulte donc du cor. 1.
+En effet, $\mathrm{ad}\, g$ est isomorphe à $g$, donc semi-simple, et est un idéal de l’algèbre de Lie $\mathfrak{d}$ des dérivations de $g$ ($§ 1$, prop. 1). Si $D \in \mathfrak{d}$ commute aux éléments de $\mathrm{ad}\, g$, on a, pour tout $x \in g$, $\mathrm{ad}\, D(x) = [D, \mathrm{ad}\, x] = 0$, d’où $D(x) = 0$; donc $D = 0$. Le cor. 3 résulte donc du cor. 1.
 
 ### 2. Semi-simplicité des représentations
 
@@ -129,7 +129,7 @@ En effet, $\mathrm{ad}\, g$ est isomorphe à $g$, donc semi-simple, et est un id
 
 Soit $g$ une algèbre de Lie semi-simple. La représentation adjointe de $g$ est semi-simple. Tout idéal et toute algèbre quotient de $g$ est semi-simple.
 
-En effet, soit $a$ un idéal de $g$. L’orthogonal $b$ de $a$ dans $g$ pour la forme de Killing est un idéal de $g$, et $a \cap b$ est un idéal commutatif ($\S 3$, no 6, prop. 7), donc nul. Donc $b$ est supplémentaire de $a$ dans $g$. En outre, comme la forme de Killing de $g$ est non dégénérée, il en est de même de ses restrictions à $a$ et $b$ (*Alg.*, chap. IX, $\S 4$, no 1, cor. de la prop. 1), donc $a$ et $b$ sont semi-simples (no 1, th. 1, et $\S 3$, no 6, prop. 9).
+En effet, soit $a$ un idéal de $g$. L’orthogonal $b$ de $a$ dans $g$ pour la forme de Killing est un idéal de $g$, et $a \cap b$ est un idéal commutatif ($§ 3$, no 6, prop. 7), donc nul. Donc $b$ est supplémentaire de $a$ dans $g$. En outre, comme la forme de Killing de $g$ est non dégénérée, il en est de même de ses restrictions à $a$ et $b$ (*Alg.*, chap. IX, $§ 4$, no 1, cor. de la prop. 1), donc $a$ et $b$ sont semi-simples (no 1, th. 1, et $§ 3$, no 6, prop. 9).
 
 #### Lemme 2 {#lie-i-s6-lem-2 .statement}
 
@@ -139,7 +139,7 @@ a) *Toutes les représentations linéaires de dimension finie de $g$ sont semi-s
 
 b) *Etant donnés une représentation linéaire $\rho$ de $g$ dans un espace vectoriel $V$ de dimension finie et un sous-espace vectoriel $W$ de codimension 1 tel que $\rho(x)(V) \subset W$ pour tout $x \in g$, il existe une droite supplémentaire de $W$ stable pour $\rho(g)$ (donc annulée par $\rho(g)$).
 
-Il est clair que $a)$ entraîne $b)$. Supposons $b)$ vraie. Soient $\sigma$ une représentation de dimension finie de $g$ dans un espace vectoriel $M$, et $N$ un sous-espace vectoriel stable pour $\sigma(g)$. Soit $\mu$ la représentation de $g$ dans $\mathcal{L}(M)$ canoniquement déduite de $\sigma$ ($\S 3$, no 3) : rappelons que $\mu(x) = \operatorname{ad}_{\mathcal{L}(M)} \sigma(x)$. Soit $V$ (resp. $W$) le sous-espace de $\mathcal{L}(M)$ formé des applications linéaires de $M$ dans $N$ dont la restriction à $N$ est une homothétie (resp. est nulle) ; alors $W$ est de codimension 1 dans $V$, et $\mu(x)(V) \subset W$ pour tout $x \in g$. D’après la condition $b)$, il existe un $u \in V$ annulé par $\mu(x)$ pour tout $x \in g$, et dont la restriction à $N$ est une homothétie non nulle. En multipliant $u$ par un scalaire convenable, on peut supposer que $u$ est un projecteur de $M$ sur $N$. Dire que $\mu(x) \cdot u = 0$ signifie que $u$ est permutable à $\sigma(x)$. Donc le noyau de $u$ est un supplémentaire de $N$ dans $M$ stable pour $\sigma(x)$, quel que soit $x \in g$. Donc $\sigma$ est semi-simple.
+Il est clair que a) entraîne b). Supposons b) vraie. Soient $\sigma$ une représentation de dimension finie de $g$ dans un espace vectoriel $M$, et $N$ un sous-espace vectoriel stable pour $\sigma(g)$. Soit $\mu$ la représentation de $g$ dans $\mathcal{L}(M)$ canoniquement déduite de $\sigma$ ($§ 3$, no 3) : rappelons que $\mu(x) = \operatorname{ad}_{\mathcal{L}(M)} \sigma(x)$. Soit $V$ (resp. $W$) le sous-espace de $\mathcal{L}(M)$ formé des applications linéaires de $M$ dans $N$ dont la restriction à $N$ est une homothétie (resp. est nulle) ; alors $W$ est de codimension 1 dans $V$, et $\mu(x)(V) \subset W$ pour tout $x \in g$. D’après la condition b), il existe un $u \in V$ annulé par $\mu(x)$ pour tout $x \in g$, et dont la restriction à $N$ est une homothétie non nulle. En multipliant $u$ par un scalaire convenable, on peut supposer que $u$ est un projecteur de $M$ sur $N$. Dire que $\mu(x) \cdot u = 0$ signifie que $u$ est permutable à $\sigma(x)$. Donc le noyau de $u$ est un supplémentaire de $N$ dans $M$ stable pour $\sigma(x)$, quel que soit $x \in g$. Donc $\sigma$ est semi-simple.
 
 #### Lemme 3 {#lie-i-s6-lem-3 .statement}
 
@@ -165,7 +165,7 @@ Une algèbre de Lie simple est semi-simple. L’algèbre $\{0\}$ n’est pas sim
 
 Pour qu’une algèbre de Lie $g$ soit semi-simple, il faut et il suffit qu’elle soit produit d’algèbres simples.
 
-La condition est suffisante (no 1, remarque 3). Réciproquement, supposons $g$ semi-simple. Puisque la représentation adjointe de $g$ est semi-simple, $g$ est somme directe d’idéaux non nuls minimaux $a_1, \ldots, a_m$. Alors $g$ s’identifie à l’algèbre produit des $a_i$ ($\S 1, \mathrm{n}^{\circ} 1$). Tout idéal de $a_i$ est alors un idéal de $g$, donc nul ou égal à $a_i$. Par ailleurs, $a_i$ est non commutatif. Donc les $a_i$ sont des algèbres de Lie simples.
+La condition est suffisante (no 1, remarque 3). Réciproquement, supposons $g$ semi-simple. Puisque la représentation adjointe de $g$ est semi-simple, $g$ est somme directe d’idéaux non nuls minimaux $a_1, \ldots, a_m$. Alors $g$ s’identifie à l’algèbre produit des $a_i$ ($§ 1, \mathrm{n}^{\circ} 1$). Tout idéal de $a_i$ est alors un idéal de $g$, donc nul ou égal à $a_i$. Par ailleurs, $a_i$ est non commutatif. Donc les $a_i$ sont des algèbres de Lie simples.
 
 #### Corollaire 1 {#lie-i-s6-prop-2-cor-1 .statement}
 
@@ -179,7 +179,7 @@ Les idéaux simples d’une algèbre de Lie semi-simple sont appelés les *compo
 
 *Soient $g, g'$ deux algèbres de Lie, $r$ et $r'$ leurs radicaux, et $f$ un homomorphisme de $g$ sur $g'$. Alors $r' = f(r)$.*
 
-Comme $f(r)$ est résoluble, on a $f(r) \subset r'$. D’autre part, $g/r$ est semi-simple ($\S 5, \mathrm{n}^{\circ} 2$, prop. 3), donc $g'/f(r)$, qui est isomorphe à un quotient de $g/r$, est semi-simple (lemme 1), donc $f(r) \supset r'$ ($\S 5, \mathrm{n}^{\circ} 2$, prop. 3).
+Comme $f(r)$ est résoluble, on a $f(r) \subset r'$. D’autre part, $g/r$ est semi-simple ($§ 5, \mathrm{n}^{\circ} 2$, prop. 3), donc $g'/f(r)$, qui est isomorphe à un quotient de $g/r$, est semi-simple (lemme 1), donc $f(r) \supset r'$ ($§ 5, \mathrm{n}^{\circ} 2$, prop. 3).
 
 #### Remarque 1 {#lie-i-s6-n2-rem-1 .statement}
 
@@ -203,7 +203,7 @@ Ceci posé, si g est semi-simple, il existe (lemme 3) une droite Z supplémentai
 
 pour tout $x \in g$.
 
-*Supposons $K = \mathbf{R}$. Soit G un groupe de Lie connexe d’algèbre de Lie g. Considérons un homomorphisme analytique $\varphi$ de G dans le groupe affine A de M, correspondant à un homomorphisme $x \to (f(x), \sigma(x))$ de g dans $\mathfrak{af}(M)$. Les résultats précédents peuvent s’interpréter en disant que, si g est semi-simple, $\varphi(G)$ laisse fixe un point de M. En effet, soit H l’ensemble des éléments de $\mathbf{GL}(N)$ qui laissent stables toutes les variétés linéaires de N parallèles à M. Il existe (\$ 1, n° 8, exemple 2) un isomorphisme canonique $\psi$ de A sur H. Soit Z une droite supplémentaire de M dans N. Dire que $\rho(g)$ annule Z revient à dire que $(\psi \circ \varphi)(G)$ laisse fixes les points de Z, donc (compte tenu de la définition de $\psi$) que $\varphi(G)$ laisse fixe la projection sur M du point d’intersection de Z et de $M \times \{1\}$. *
+*Supposons $K = \mathbf{R}$. Soit G un groupe de Lie connexe d’algèbre de Lie g. Considérons un homomorphisme analytique $\varphi$ de G dans le groupe affine A de M, correspondant à un homomorphisme $x \to (f(x), \sigma(x))$ de g dans $\mathfrak{af}(M)$. Les résultats précédents peuvent s’interpréter en disant que, si g est semi-simple, $\varphi(G)$ laisse fixe un point de M. En effet, soit H l’ensemble des éléments de $\mathbf{GL}(N)$ qui laissent stables toutes les variétés linéaires de N parallèles à M. Il existe (§ 1, n° 8, exemple 2) un isomorphisme canonique $\psi$ de A sur H. Soit Z une droite supplémentaire de M dans N. Dire que $\rho(g)$ annule Z revient à dire que $(\psi \circ \varphi)(G)$ laisse fixes les points de Z, donc (compte tenu de la définition de $\psi$) que $\varphi(G)$ laisse fixe la projection sur M du point d’intersection de Z et de $M \times \{1\}$. \*
 
 ### 3. Éléments semi-simples et éléments nilpotents dans les algèbres de Lie semi-simples
 
@@ -211,15 +211,15 @@ pour tout $x \in g$.
 
 Soient M un espace vectoriel de dimension finie sur K, et g une sous-algèbre semi-simple de $\mathrm{gl}(M)$. Alors g contient les composantes semi-simples et nilpotentes de ses éléments.
 
-Si $K_1$ est une extension de $K$, la forme de Killing de $g_{(K_1)}$ est l’extension à $g_{(K_1)}$ de celle de $g$ (\$ 3, no 8), donc est non dégénérée ; par suite, $g_{(K_1)}$ est semi-simple. Il suffit donc de démontrer la prop. 3 lorsque le corps de base est algébriquement clos, ce que nous supposons désormais.
+Si $K_1$ est une extension de $K$, la forme de Killing de $g_{(K_1)}$ est l’extension à $g_{(K_1)}$ de celle de $g$ (§ 3, no 8), donc est non dégénérée ; par suite, $g_{(K_1)}$ est semi-simple. Il suffit donc de démontrer la prop. 3 lorsque le corps de base est algébriquement clos, ce que nous supposons désormais.
 
-Pour tout sous-espace $N$ de $M$, soit $g_N$ la sous-algèbre de $gl(M)$ formée des éléments qui laissent $N$ stable, et dont la restriction à $N$ est de trace nulle. Comme $g = \mathcal{O}g$, on a $g \subset g_N$ si $N$ est stable par $g$. Soit alors $g^*$ l’intersection du normalisateur de $g$ dans $gl(M)$ et des algèbres $g_N$ où $N$ parcourt l’ensemble des sous-espaces de $M$ stables par $g$. Comme la composante semi-simple $s$ (resp. nilpotente $n$) de $x \in gl(M)$ est un polynôme sans terme constant en $x$, et que $ad\ s$ (resp. $ad\ n$) est la partie semi-simple (resp. nilpotente) de $ad\ x$ (\$ 5, no 4, lemme 2), il est clair que $x \in g^*$ implique $s \in g^*$ et $n \in g^*$; il suffit donc de faire voir que $g^* = g$. Puisque $g$ et un idéal semi-simple de $g^*$, on a $g^* = a \times g$ (no 1, cor. 1 de la prop. 1). Soit $a \in a$ et soit $N$ un sous-espace minimal parmi les sous-espaces non nuls de $M$ stables par $g$. La restriction de $a$ à $N$ est un multiple scalaire de l’identité d’après le th. de Burnside, de trace nulle par construction, donc est nulle puisque $K$ est de caractéristique 0. Comme $M$ est somme directe de sous-espaces tels que $N$, il s’ensuit que $a = 0$, donc $g^* = g$.
+Pour tout sous-espace $N$ de $M$, soit $g_N$ la sous-algèbre de $gl(M)$ formée des éléments qui laissent $N$ stable, et dont la restriction à $N$ est de trace nulle. Comme $g = \mathcal{O}g$, on a $g \subset g_N$ si $N$ est stable par $g$. Soit alors $g^*$ l’intersection du normalisateur de $g$ dans $gl(M)$ et des algèbres $g_N$ où $N$ parcourt l’ensemble des sous-espaces de $M$ stables par $g$. Comme la composante semi-simple $s$ (resp. nilpotente $n$) de $x \in gl(M)$ est un polynôme sans terme constant en $x$, et que $ad\ s$ (resp. $ad\ n$) est la partie semi-simple (resp. nilpotente) de $ad\ x$ (§ 5, no 4, lemme 2), il est clair que $x \in g^*$ implique $s \in g^*$ et $n \in g^*$; il suffit donc de faire voir que $g^* = g$. Puisque $g$ et un idéal semi-simple de $g^*$, on a $g^* = a \times g$ (no 1, cor. 1 de la prop. 1). Soit $a \in a$ et soit $N$ un sous-espace minimal parmi les sous-espaces non nuls de $M$ stables par $g$. La restriction de $a$ à $N$ est un multiple scalaire de l’identité d’après le th. de Burnside, de trace nulle par construction, donc est nulle puisque $K$ est de caractéristique 0. Comme $M$ est somme directe de sous-espaces tels que $N$, il s’ensuit que $a = 0$, donc $g^* = g$.
 
 #### Corollaire {#lie-i-s6-n3-cor-1 .statement}
 
 *Un élément $x$ de $g$ est un endomorphisme semi-simple (resp. nilpotent) de $M$ si et seulement si $ad_g\ x$ est un endomorphisme semi-simple (resp. nilpotent) de $g$*.
 
-Soit $s$ (resp. $n$) la composante semi-simple (resp. nilpotente) de $x \in g$. On a $s \in g$ et $n \in g$ (prop. 3). Alors $ad_g\ s$ (resp. $ad_g\ n$) est la composante semi-simple (resp. nilpotente) de $ad_g\ x$, d’après le lemme 2 du \$ 5, no 4. Si $x$ est semi-simple (resp. nilpotent), il en est donc de même de $ad_g\ x$. Si maintenant $ad_g\ x$ est semi-simple (resp. nilpotent), il est égal à $ad_g\ s$ (resp. $ad_g\ n$), donc $x = s$ (resp. $x = n$) puisque la représentation adjointe de $g$ est fidèle.
+Soit $s$ (resp. $n$) la composante semi-simple (resp. nilpotente) de $x \in g$. On a $s \in g$ et $n \in g$ (prop. 3). Alors $ad_g\ s$ (resp. $ad_g\ n$) est la composante semi-simple (resp. nilpotente) de $ad_g\ x$, d’après le lemme 2 du § 5, no 4. Si $x$ est semi-simple (resp. nilpotent), il en est donc de même de $ad_g\ x$. Si maintenant $ad_g\ x$ est semi-simple (resp. nilpotent), il est égal à $ad_g\ s$ (resp. $ad_g\ n$), donc $x = s$ (resp. $x = n$) puisque la représentation adjointe de $g$ est fidèle.
 
 #### Définition 3 {#lie-i-s6-def-3 .statement}
 
@@ -274,7 +274,7 @@ $d) \Rightarrow e)$ : soient $\rho$ une représentation de dimension finie de $g
 
 $e) \Rightarrow f)$ : ceci est évident.
 
-$f) \Rightarrow g)$ : si le radical nilpotent de $g$ est nul, $\mathcal{O}g \cap r$ est nul ($\S 5,$ no 3, th. 1); comme $[g, r] \subset \mathcal{O}g \cap r$, $r$ est le centre de $g$.
+$f) \Rightarrow g)$ : si le radical nilpotent de $g$ est nul, $\mathcal{O}g \cap r$ est nul ($§ 5,$ no 3, th. 1); comme $[g, r] \subset \mathcal{O}g \cap r$, $r$ est le centre de $g$.
 
 #### Remarque {#lie-i-s6-n4-rem-1 .statement}
 
@@ -300,9 +300,9 @@ a) $s = [g, r] = \mathcal{O}g \cap r$.
 
 b) s est l’intersection des orthogonaux de g pour les formes bilinéaires associées aux représentations de dimension finie de g.
 
-Il est clair que $[g, r] \subset \mathcal{O}g \cap r$. On a $\mathcal{O}g \cap r = s$ d’après le th. 1 du § 5, n° 3. Soient $g' = g/[g, r]$, et f l’homomorphisme canonique de g sur $g'$; alors $f(r)$ est le radical $r'$ de $g'$ (cor. 3 de la prop. 2, n° 2), donc $[g', r'] = \{0\}$ et $r'$ est le centre de $g'$; par suite (prop. 5) $g'$ possède une représentation semi-simple fidèle de dimension finie, d’où $s \subset [g, r]$. On a prouvé $a)$.
+Il est clair que $[g, r] \subset \mathcal{O}g \cap r$. On a $\mathcal{O}g \cap r = s$ d’après le th. 1 du § 5, n° 3. Soient $g' = g/[g, r]$, et f l’homomorphisme canonique de g sur $g'$; alors $f(r)$ est le radical $r'$ de $g'$ (cor. 3 de la prop. 2, n° 2), donc $[g', r'] = \{0\}$ et $r'$ est le centre de $g'$; par suite (prop. 5) $g'$ possède une représentation semi-simple fidèle de dimension finie, d’où $s \subset [g, r]$. On a prouvé a).
 
-Soit $t$ l’intersection des orthogonaux de $g$ pour les formes bilinéaires associées aux représentations de dimension finie de $g$. On a $s \subset t$ (\$ 4, n° 3, prop. 4 d)). D'autre part, $g/s$ possède une représentation semi-simple fidèle de dimension finie, donc (prop. 5) une représentation $\rho$ de dimension finie telle que la forme bilinéaire associée soit non dégénérée; considérée comme représentation de $g$, $\rho$ possède une forme bilinéaire associée $\beta$ sur $g$, et l'orthogonal de $g$ pour $\beta$ est $s$, d'où $t \subset s$. Donc $t = s$.
+Soit $t$ l’intersection des orthogonaux de $g$ pour les formes bilinéaires associées aux représentations de dimension finie de $g$. On a $s \subset t$ (§ 4, n° 3, prop. 4 d)). D'autre part, $g/s$ possède une représentation semi-simple fidèle de dimension finie, donc (prop. 5) une représentation $\rho$ de dimension finie telle que la forme bilinéaire associée soit non dégénérée; considérée comme représentation de $g$, $\rho$ possède une forme bilinéaire associée $\beta$ sur $g$, et l'orthogonal de $g$ pour $\beta$ est $s$, d'où $t \subset s$. Donc $t = s$.
 
 Même si $s \neq \{0\}$, il peut exister des formes bilinéaires invariantes symétriques non dégénérées sur $g$ (exerc. 18 c)). De telles formes, bien entendu, ne sont associées à aucune représentation de $g$.
 
@@ -312,7 +312,7 @@ Même si $s \neq \{0\}$, il peut exister des formes bilinéaires invariantes sym
 a) *On a s' = f(s)*.
 b) *g' est réductive si et seulement si le noyau de f contient s*.
 
-En effet, si $r, r'$ sont les radicaux de $g, g'$, on a $s' = [g', r'] = [f(g), f(r)] = f([g, r]) = f(s)$. L'assertion $b)$ est conséquence immédiate de $a)$.
+En effet, si $r, r'$ sont les radicaux de $g, g'$, on a $s' = [g', r'] = [f(g), f(r)] = f([g, r]) = f(s)$. L'assertion b) est conséquence immédiate de a).
 
 ### 5. Application : un critère de semi-simplicité pour les représentations
 
@@ -346,7 +346,7 @@ Soit $T^n$ le sous-espace de T formé des tenseurs homogènes d’ordre $n$. Ce 
 
 Soient $g$ une algèbre de Lie, $\rho$ et $\rho'$ deux représentations semi-simples de dimension finie de $g$ dans des espaces $M$ et $M'$. Alors, la représentation de $g$ dans $\mathcal{L}_k(M, M')$ canoniquement déduite de $\rho$ et $\rho'$ est semi-simple.
 
-En effet, le $g$-module $\mathcal{L}_k(M, M')$ s’identifie canoniquement au $g$-module $M^* \otimes_k M'$ (\$ 3, no 3, prop. 4), de sorte que le cor. 3 résulte du cor. 1.
+En effet, le $g$-module $\mathcal{L}_k(M, M')$ s’identifie canoniquement au $g$-module $M^* \otimes_k M'$ (§ 3, no 3, prop. 4), de sorte que le cor. 3 résulte du cor. 1.
 
 #### Corollaire 4 {#lie-i-s6-thm-4-cor-4 .statement}
 
@@ -354,7 +354,7 @@ Soient $g$ une algèbre de Lie, $a$ un idéal de $g$, $\rho$ une représentation
 a) La restriction $\rho'$ de $\rho$ à $a$ est semi-simple.
 b) Si $\rho$ est simple, $\rho'$ est somme de représentations simples deux à deux isomorphes.
 
-Passant au quotient par le noyau de $\rho$, on peut supposer $\rho$ fidèle. Alors, $g$ est réductive. Soit $g = g_1 \times g_2$, où $g_1$ est le centre de $g$ et où $g_2$ est semi-simple. On a $a = a_1 \times a_2$, avec $a_1 \subset g_1$, $a_2 \subset g_2$, et $a_1$ est le centre de $a$. Les éléments de $\rho(g_1)$, et en particulier ceux de $\rho(a_1)$, sont semi-simples (th. 4), donc $\rho'$ est semi-simple (th. 4). D’où $a$. L’assertion $b$ résulte de $a$, compte tenu du \$ 3, no 1, cor. de la prop. 1.
+Passant au quotient par le noyau de $\rho$, on peut supposer $\rho$ fidèle. Alors, $g$ est réductive. Soit $g = g_1 \times g_2$, où $g_1$ est le centre de $g$ et où $g_2$ est semi-simple. On a $a = a_1 \times a_2$, avec $a_1 \subset g_1$, $a_2 \subset g_2$, et $a_1$ est le centre de $a$. Les éléments de $\rho(g_1)$, et en particulier ceux de $\rho(a_1)$, sont semi-simples (th. 4), donc $\rho'$ est semi-simple (th. 4). D’où $a$. L’assertion $b$ résulte de $a$, compte tenu du § 3, no 1, cor. de la prop. 1.
 
 ### 6. Sous-algèbres réductives dans une algèbre de Lie
 
@@ -558,7 +558,7 @@ Soit $s$ une sous-algèbre de Levi de $g$ (th. 5). Son image canonique dans $g/m
 
 *Soient $g$ une algèbre de Lie, $r$ son radical, $s$ une sous-algèbre de Levi de $g$, $m$ un idéal de $g$. Alors, $m$ est somme directe de $m \cap r$ qui est son radical et de $m \cap s$ qui est une sous-algèbre de Levi de $m$.*
 
-On sait que $m \cap r$ est le radical de $m$ (\S 5, no 5, cor. 3 de la prop. 5). Soient $h$ une sous-algèbre de Levi de $m$, et $s'$ une sous-algèbre de Levi de $g$ contenant $h$ (cor. 1). L’algèbre $m \cap s'$ est un idéal de $s'$, donc est semi-simple, et contient $h$, donc est égale à $h$. Donc $m$ est somme directe de $m \cap r$ et $m \cap s'$. Il existe un automorphisme spécial transformant $s'$ en $s$; cet automorphisme conserve $r$ et $m$; donc $m$ est somme directe de $m \cap r$ et $m \cap s$, et $m \cap s$ est une sous-algèbre de Levi de $m$.
+On sait que $m \cap r$ est le radical de $m$ (§ 5, no 5, cor. 3 de la prop. 5). Soient $h$ une sous-algèbre de Levi de $m$, et $s'$ une sous-algèbre de Levi de $g$ contenant $h$ (cor. 1). L’algèbre $m \cap s'$ est un idéal de $s'$, donc est semi-simple, et contient $h$, donc est égale à $h$. Donc $m$ est somme directe de $m \cap r$ et $m \cap s'$. Il existe un automorphisme spécial transformant $s'$ en $s$; cet automorphisme conserve $r$ et $m$; donc $m$ est somme directe de $m \cap r$ et $m \cap s$, et $m \cap s$ est une sous-algèbre de Levi de $m$.
 
 ### 9. Le théorème des invariants
 
@@ -601,10 +601,10 @@ b) Pour toute classe $\delta$ de représentation simple de $g$ de dimension fini
 Soit $\overline{S} \subset S$ l’idéal des éléments de $S$ sans terme constant. Soit $I$ l’idéal de $S$ engendré par $S_0 \cap \overline{S}$, et soit $(s_1, s_2, \ldots, s_p)$ un système fini de générateurs de l’idéal $I$ (Alg. comm., chap. III, § 3). On peut supposer que les $s_i$ appartiennent à $S_0 \cap \overline{S}$ et sont homogènes (en effet, les $x_s$ conservent les degrés, donc chaque $S_\delta$ est un sous-module gradué). Soit $S_1$ la sous-algèbre de $S$ engendrée par 1 et les $s_i$. On a $S_1 \subset S_0$. Montrons que $S_1 = S_0$. Pour cela, nous allons montrer que tout élément homogène $s$ de $S_0$ est dans $S_1$, en raisonnant par récurrence sur le degré $n$ de $s$. Si $n = 0$, notre assertion est évidente. Supposons donc $n > 0$, et notre assertion démontrée lorsque le degré de $s$ est $< n$. Comme $s \in I$, on a $s = \sum_{i=1}^p s_i s_i'$, les $s_i'$ étant des éléments de $S$ qu’on peut supposer homogènes, avec $\deg(s_i') = \deg(s) - \deg(s_i) < n$. Le lemme 5 est applicable, car le $g$-module $S$ est semi-simple (n° 5, cor. 2 du th. 4); avec les notations de ce lemme, on a
 
 $$
-s = s^\sharp = \sum_{i=1}^p (s_i s_i')^\sharp = \sum_{i=1}^p s_i s_i'^\sharp.
+s = s^\sharp = \sum_{i=1}^p (s_i s_i')^\sharp = \sum_{i=1}^p s_i s_{i'}^\sharp.
 $$
 
-Les $s_i'^\sharp$ sont des éléments de $S_0$ homogènes et de degré $< n$ (parce que chaque $S_\delta$ est un sous-module gradué). Ils sont donc dans $S_1$ d’après l’hypothèse de récurrence. Donc $s \in S_1$, ce qui achève la démonstration de $a$.
+Les $s_{i'}^\sharp$ sont des éléments de $S_0$ homogènes et de degré $< n$ (parce que chaque $S_\delta$ est un sous-module gradué). Ils sont donc dans $S_1$ d’après l’hypothèse de récurrence. Donc $s \in S_1$, ce qui achève la démonstration de $a$.
 
 Maintenant, considérons une représentation simple de classe $\delta$ de $g$ dans un espace $M$ de dimension finie. Soit $L = \mathcal{L}_K(M, S)$. Pour tout $s \in S$ et tout $f \in L$, soit $sf$ l’élément de $L$ défini par $(sf)(m) = s . f(m)$ ($m \in M$); on définit ainsi sur $L$ une structure de $S$-module ; comme $M$ est de dimension finie sur $K$, il est clair que $L$ est un $S$-module de type fini, donc un $S$-module noethérien puisque l’anneau $S$ est noethérien. Par ailleurs, $L$ est muni canoniquement d’une structure de $g$-module. Pour tout entier $n \geqslant 0$, soit $S^n$ l’ensemble des éléments homogènes de degré $n$ de $S$; alors, le $g$-module $\mathcal{L}_K(M, S^n)$ est semi-simple (n° 5, cor. 3 du th. 4), donc le $g$-module $L$ est semi-simple. En outre, on a pour $s \in S,\ f \in L,\ x \in g$ et $m \in M$,
 
@@ -633,7 +633,7 @@ Soit $K_1$ une extension commutative de $K$. Pour qu’une algèbre de Lie $g$ s
 
 Si $g_{(K_1)}$ est simple, $g$ est semi-simple d’après ce qui précède, et ne peut être produit de deux idéaux non nuls, donc $g$ est simple. Par contre, si $g$ est simple, $g_{(K_1)}$ (qui est semi-simple) peut être non simple (exerc. 17 et 26 b)).
 
-Soient $g$ une algèbre de Lie, $r$ son radical. Alors, $r_{(K_1)}$ est le radical de $g_{(K_1)}$ (\S 5, no 6). Par suite, si $s$ désigne le radical nilpotent de $g$, le radical nilpotent de $g_{(K_1)}$ est $[g_{(K_1)}, r_{(K_1)}] = [g, r]_{(K_1)} = s_{(K_1)}$. Il en résulte que $g$ est réductive si et seulement si $g_{(K_1)}$ est réductive.
+Soient $g$ une algèbre de Lie, $r$ son radical. Alors, $r_{(K_1)}$ est le radical de $g_{(K_1)}$ (§ 5, no 6). Par suite, si $s$ désigne le radical nilpotent de $g$, le radical nilpotent de $g_{(K_1)}$ est $[g_{(K_1)}, r_{(K_1)}] = [g, r]_{(K_1)} = s_{(K_1)}$. Il en résulte que $g$ est réductive si et seulement si $g_{(K_1)}$ est réductive.
 
 Soient $g$ une algèbre de Lie, $h$ une sous-algèbre. Rappelons qu’une représentation de $h$ est semi-simple si et seulement si la représentation de $h_{(K_1)}$ qu’on en déduit par extension à $K_1$ du corps de base est semi-simple. Donc $h$ est réductive dans $g$ si et seulement si $h_{(K_1)}$ est réductive dans $g_{(K_1)}$.
 

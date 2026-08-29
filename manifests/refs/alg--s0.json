@@ -1,0 +1,13 @@
+{"edges": [
+{"from":"","from_label":"alg--s0","to_label":"ens-iv-s1","kind":"cites","raw":"Set Theory, IV, § 1, no. 4","form":"section","resolved_by":"section","file":"content/en/alg/00_introduction_i_iii.md","line":29},
+{"from":"","from_label":"alg--s0","to_label":"ens-iv-s1","kind":"cites","raw":"Set Theory, IV, § 1, no. 4","form":"section","resolved_by":"section","file":"content/en/alg/00_introduction_i_iii.md","line":31},
+{"from":"","from_label":"alg--s0","to":"00S3","to_label":"alg-viii-s7-thm-1","kind":"cites","raw":"VIII, p. 120, Theorem 1","form":"page","resolved_by":"page-map","file":"content/en/alg/00_introduction_viii.md","line":31},
+{"from":"","from_label":"alg--s0","to_label":"alg-i-s4-def-9","kind":"cites","raw":"I, §4, No. 7, p. 41, Definition 9","form":"page","resolved_by":"page-map","file":"content/en/alg/00_introduction_viii.md","line":35},
+{"from":"","from_label":"alg--s0","to":"00RY","to_label":"alg-viii-s2-thm-2","kind":"cites","raw":"VIII, p. 37, Theorem 2","form":"page","resolved_by":"page-map","file":"content/en/alg/00_introduction_viii.md","line":35},
+{"from":"","from_label":"alg--s0","to_label":"alg-viii-s2","kind":"cites","raw":"VIII, p. 32","form":"page","resolved_by":"section","file":"content/en/alg/00_introduction_viii.md","line":35},
+{"from":"","from_label":"alg--s0","to":"004Z","to_label":"alg-viii-s4-def-5","kind":"cites","raw":"VIII, p. 69, Definition 5","form":"page","resolved_by":"page-map","file":"content/en/alg/00_introduction_viii.md","line":41},
+{"from":"","from_label":"alg--s0","to":"03RE","to_label":"ens-iii-s4-prop-2-cor-3","kind":"cites","raw":"Set Theory, III, § 4, No. 2, p. 167, Corollary 3","form":"page","resolved_by":"page-map","file":"content/en/alg/00_to_the_reader_viii.md","line":97},
+{"from":"","from_label":"alg--s0","to_label":"alg-ii-s1-prop-17","kind":"cites","raw":"II, § 1, No. 11, p. 215, Proposition 17","form":"page","resolved_by":"page-map","file":"content/en/alg/00_to_the_reader_viii.md","line":101},
+{"from":"","from_label":"alg--s0","kind":"cites","raw":"Comm. Alg., III, § 4, No. 5","form":"section","resolved_by":"out-of-corpus","book":"AC","chapter":"III","file":"content/en/alg/00_to_the_reader_viii.md","line":109},
+{"from":"","from_label":"alg--s0","kind":"cites","raw":"Corollary of Proposition 6","form":"attached","resolved_by":"out-of-corpus","book":"AC","chapter":"III","file":"content/en/alg/00_to_the_reader_viii.md","line":109}
+]}

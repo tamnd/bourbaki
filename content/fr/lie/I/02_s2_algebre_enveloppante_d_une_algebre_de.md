@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: a50a914c34a60008e278663a2268c50a0198b5eda0e5c4b1ce6b3e199ce55ae4
+content_sha256: c4c76c8e191b939527d3fa46a4177ccff60ede09336418aa449b43166a4c5cb2
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie
@@ -153,7 +153,7 @@ $$
 
 Soit $\sigma''$ l’application canonique de $g/\mathfrak{h}$ dans W. Le diagramme commutatif :
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 \mathfrak{h} & \xrightarrow{i} & g & \xrightarrow{p} & g/\mathfrak{h} \\
 \sigma' \downarrow & & \sigma \downarrow & & \downarrow \sigma'' \\
 V & \xrightarrow{\tilde{i}} & U & \xrightarrow{\tilde{p}} & W
@@ -186,15 +186,15 @@ Soit V un K-module. On peut, d’une manière unique, considérer V comme une al
 
 Rappelons (Alg., chap. III, 3e éd., § 6) que S est appelée algèbre symétrique de V, et résumons brièvement les propriétés dont nous aurons besoin dans ce chapitre et dont les démonstrations sont immédiates. Soit T^n l’ensemble des tenseurs homogènes d’ordre $n$ dans $T$. On a $I = (I \cap T^2) + (I \cap T^3) + ...$, donc $S$ est somme directe des images canoniques $S^n$ des $T^n$. Les éléments de $S^n$ sont dits homogènes de degré $n$. On a $S^0 = K.1$, $S^1$ s’identifie à $V$, et $S^n S^p \subset S^{n+p}$. L’algèbre $S$ est engendrée par 1 et $S^1 = V$. Il est clair que deux éléments quelconques de $S^1$ sont permutables, donc $S$ est commutative. Si $V$ est un $K$-module libre de base $(x_\lambda)_{\lambda \in \Lambda}$, l’homomorphisme canonique $f$ de l’algèbre de polynômes $K[X_\lambda]_{\lambda \in \Lambda}$ sur $S$ qui transforme 1 en 1 et $X_\lambda$ en $x_\lambda$ pour tout $\lambda \in \Lambda$ est un isomorphisme : en effet, d’après la propriété universelle de $S$ (no 1, prop. 1), il existe un homomorphisme $g$ de $S$ dans $K[X_\lambda]_{\lambda \in \Lambda}$ qui transforme 1 en 1 et $x_\lambda$ en $X_\lambda$ pour tout $\lambda \in \Lambda$, et $f, g$ sont deux homomorphismes réciproques l’un de l’autre.
 
-Soit $S'^n \subset T^n$ l’ensemble des tenseurs symétriques homogènes d’ordre $n$ ($Alg.$, chap. III, § 5, no 1, déf. 2). Si $K$ est un corps de caractéristique 0, $S'^n$ et $I \cap T^n$ sont supplémentaires dans $T^n$. En effet, soit $(x_\lambda)_{\lambda \in \Lambda}$ une base de $V$. Ordonnons totalement $\Lambda$ ($Ens.$, chap. III, § 2, no 3, th. 1). Soit $\Lambda_n$ l’ensemble des suites croissantes de $n$ éléments de $\Lambda$. Pour $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, soit
+Soit ${S'}^n \subset T^n$ l’ensemble des tenseurs symétriques homogènes d’ordre $n$ ($Alg.$, chap. III, § 5, no 1, déf. 2). Si $K$ est un corps de caractéristique 0, ${S'}^n$ et $I \cap T^n$ sont supplémentaires dans $T^n$. En effet, soit $(x_\lambda)_{\lambda \in \Lambda}$ une base de $V$. Ordonnons totalement $\Lambda$ ($Ens.$, chap. III, § 2, no 3, th. 1). Soit $\Lambda_n$ l’ensemble des suites croissantes de $n$ éléments de $\Lambda$. Pour $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, soit
 
 $$
 y_M = \frac{1}{n!} \sum_{\sigma \in S_n} x_{\lambda_{\sigma(1)}} \otimes \cdots \otimes x_{\lambda_{\sigma(n)}}.
 $$
 
-Les $y_M$, pour $M \in \Lambda_n$, forment un système de générateurs du $K$-espace vectoriel $S'^n$. Or, leurs images canoniques dans $S^n$ constituent, d’après l’alinéa précédent, une base de $S^n$. Donc $(y_M)_{M \in \Lambda_n}$ est une base d’un supplémentaire de $I \cap T^n$ dans $T^n$ ($Alg.$, chap. II, § 1, no 6, prop. 4), ce qui établit notre assertion.
+Les $y_M$, pour $M \in \Lambda_n$, forment un système de générateurs du $K$-espace vectoriel ${S'}^n$. Or, leurs images canoniques dans $S^n$ constituent, d’après l’alinéa précédent, une base de $S^n$. Donc $(y_M)_{M \in \Lambda_n}$ est une base d’un supplémentaire de $I \cap T^n$ dans $T^n$ ($Alg.$, chap. II, § 1, no 6, prop. 4), ce qui établit notre assertion.
 
-Ainsi, lorsque $K$ est un corps de caractéristique 0, la restriction à $S'^n$ de l’application canonique : $T^n \to S^n$, est un isomorphisme de l’espace $S'^n$ sur l’espace $S^n$, et possède donc un isomorphisme réciproque. Les isomorphismes réciproques ainsi obtenus pour chaque $n$ définissent un isomorphisme canonique de l’espace $S$ sur l’espace $S' = \sum_{n \geq 0} S'^n$ des tenseurs symétriques.
+Ainsi, lorsque $K$ est un corps de caractéristique 0, la restriction à ${S'}^n$ de l’application canonique : $T^n \to S^n$, est un isomorphisme de l’espace ${S'}^n$ sur l’espace $S^n$, et possède donc un isomorphisme réciproque. Les isomorphismes réciproques ainsi obtenus pour chaque $n$ définissent un isomorphisme canonique de l’espace $S$ sur l’espace $S' = \sum_{n \geq 0} {S'}^n$ des tenseurs symétriques.
 
 ### 6. Filtration de l’algèbre enveloppante
 
@@ -247,7 +247,7 @@ Par récurrence sur m, il suffit d’envisager le cas de deux idéaux à droite 
 
 Soient g’ une autre algèbre de Lie sur l’anneau K, U’ son algèbre enveloppante, U'_n l’ensemble des éléments de U’ de filtration ≤ n, U^n (resp. U'^n) l’ensemble des images canoniques dans U (resp. U’) des tenseurs symétriques homogènes d’ordre n de g (resp. g’). Soit γ un homomorphisme de g dans g’, et soit $\tilde{\gamma}$ l’homomorphisme correspondant de U dans U’. On a
 
-$$ \tilde{\gamma}(U_n) \subset U'_n, \quad \tilde{\gamma}(U^n) \subset U'^n. $$
+$$ \tilde{\gamma}(U_n) \subset U'_n, \quad \tilde{\gamma}(U^n) \subset {U'}^n. $$
 
 En particulier, l’antiautomorphisme principal de U laisse stables U_n et U^n. L’application K-linéaire de T^n sur lui-même qui transforme $x_1 \otimes x_2 \otimes \cdots \otimes x_n$ en $x_n \otimes x_{n-1} \otimes \cdots \otimes x_1$ quels que soient $x_1, ..., x_n$ dans g est un opérateur de symétrie, donc laisse fixes les tenseurs symétriques homogènes d’ordre n. Donc l’antiautomorphisme principal de U induit dans chaque U^n l’homothétie de rapport (−1)^n.
 
@@ -362,7 +362,7 @@ Soit Λ_n l’ensemble des suites croissantes de n éléments de Λ. Pour M = (�
 Soit S'^n ⊂ T^n l’ensemble des tenseurs symétriques homogènes d’ordre n. Supposons que K soit un corps de caractéristique 0. Alors, l’application composée des applications canoniques
 
 $$
-S^n \longrightarrow S'^n \longrightarrow U_n
+S^n \longrightarrow {S'}^n \longrightarrow U_n
 $$
 
 est un isomorphisme de l’espace vectoriel S^n sur un supplémentaire de U_{n-1} dans U_n.
@@ -377,7 +377,7 @@ $$
 \begin{array}{ccc}
 & & U^n \\
 & \nearrow \psi_n & \searrow \theta_n \\
-S'^n & & G^n \\
+{S'}^n & & G^n \\
 \swarrow \tau_n & & \nwarrow \omega_n \\
 & & S^n
 \end{array}

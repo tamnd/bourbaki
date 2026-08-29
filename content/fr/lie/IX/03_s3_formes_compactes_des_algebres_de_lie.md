@@ -37,7 +37,7 @@ subsections:
       pdf_page: 25
 statements: 16
 exercises: 9
-content_sha256: 7f592928818e489cc333176f1e61d6ed4ae7e1c439e323a213299b16066c4e68
+content_sha256: 059c049ee9636997f6a4dacee25da1b47d77e9c38b0f13cef58c9b07159f308b
 ---
 
 ## § 3. FORMES COMPACTES DES ALGÈBRES DE LIE SEMI-SIMPLES COMPLEXES
@@ -70,7 +70,7 @@ b) Soit $\sigma : a \to a$ une application satisfaisant à (2). Alors l’ensemb
 
 La démonstration est immédiate.
 
-Notons que si l’on désigne par $B$ la forme de Killing de $a$, et si $g$ est une forme réelle de $a$, la restriction de $B$ à $g$ est la forme de Killing de $g$; en particulier $B$ est à valeurs réelles sur $g \times g$. Supposons $a$ réductive ; pour que l’algèbre de Lie réelle $g$ soit compacte, il faut et il suffit que la restriction de $B$ à $g$ soit négative (\$ 1, no 3). On dit alors que $g$ est une forme réelle compacte de $a$.
+Notons que si l’on désigne par $B$ la forme de Killing de $a$, et si $g$ est une forme réelle de $a$, la restriction de $B$ à $g$ est la forme de Killing de $g$; en particulier $B$ est à valeurs réelles sur $g \times g$. Supposons $a$ réductive ; pour que l’algèbre de Lie réelle $g$ soit compacte, il faut et il suffit que la restriction de $B$ à $g$ soit négative (§ 1, no 3). On dit alors que $g$ est une forme réelle compacte de $a$.
 
 ### 2. Formes réelles associées à un système de Chevalley
 
@@ -161,7 +161,7 @@ Soit $a$ une algèbre de Lie semi-simple complexe.
 a) $a$ possède des formes réelles compactes (resp. déployables).
 b) Le groupe $\mathrm{Int}(a)$ opère transitivement dans l'ensemble des formes réelles compactes (resp. déployables) de $a$.
 
-Soit $\mathfrak{h}$ une sous-algèbre de Cartan de $a$. Alors $(\alpha, \mathfrak{h})$ est déployée (VIII, § 2, n° 1, remarque 2), et possède un système de Chevalley $(X_\alpha)$ (VIII, § 4, n° 4, cor. à la prop. 5). La partie $a)$ résulte alors de la prop. 2. Soit $g$ une forme réelle compacte de $a$; montrons qu'il existe $v \in \mathrm{Int}(a)$ tel que $v(a_u) = g$. Soit $t$ une sous-algèbre de Cartan de $g$; alors $t_{(C)}$ est une sous-algèbre de Cartan de $a$; comme $\mathrm{Int}(a)$ opère transitivement sur l'ensemble des sous-algèbres de Cartan de $a$ (VII, § 3, n° 2, th. 1), on peut se ramener au cas où $t_{(C)} = \mathfrak{h}$. Comme la forme $g$ est compacte, les valeurs propres des endomorphismes $ad\ h$, pour $h \in t$, sont imaginaires pures (§ 1, n° 3, prop. 1), donc les racines $\alpha \in \mathbf{R}$ appliquent $t$ dans $i\mathbf{R}$; cela implique $t = i\mathfrak{h}_0$. D'après la prop. 3 (n° 2), il existe alors $v \in \mathrm{Int}(a)$ tel que $v(a_u) = g$, d'où $b)$ dans le cas des formes compactes. Enfin, soient $m_1$ et $m_2$ deux formes réelles déployables de $a$. Il existe des épingleages $(m_1, \mathfrak{h}_1, B_1, (X_\alpha^1))$ et $(m_2, \mathfrak{h}_2, B_2, (X_\alpha^2))$ (VIII, § 4, n° 1). Ceux-ci s'étendent de manière évidente en épingleages $e_1$ et $e_2$ de $a$. Un automorphisme de $a$ qui applique $e_1$ sur $e_2$ applique $m_1$ sur $m_2$; il suffit donc d'appliquer la prop. 5 de VIII, § 5, n° 3, pour obtenir l'existence d'un élément $u$ de $\mathrm{Aut}_0(a) = \mathrm{Int}(a)$ tel que $u(m_1) = m_2$.
+Soit $\mathfrak{h}$ une sous-algèbre de Cartan de $a$. Alors $(\alpha, \mathfrak{h})$ est déployée (VIII, § 2, n° 1, remarque 2), et possède un système de Chevalley $(X_\alpha)$ (VIII, § 4, n° 4, cor. à la prop. 5). La partie a) résulte alors de la prop. 2. Soit $g$ une forme réelle compacte de $a$; montrons qu'il existe $v \in \mathrm{Int}(a)$ tel que $v(a_u) = g$. Soit $t$ une sous-algèbre de Cartan de $g$; alors $t_{(C)}$ est une sous-algèbre de Cartan de $a$; comme $\mathrm{Int}(a)$ opère transitivement sur l'ensemble des sous-algèbres de Cartan de $a$ (VII, § 3, n° 2, th. 1), on peut se ramener au cas où $t_{(C)} = \mathfrak{h}$. Comme la forme $g$ est compacte, les valeurs propres des endomorphismes $ad\ h$, pour $h \in t$, sont imaginaires pures (§ 1, n° 3, prop. 1), donc les racines $\alpha \in \mathbf{R}$ appliquent $t$ dans $i\mathbf{R}$; cela implique $t = i\mathfrak{h}_0$. D'après la prop. 3 (n° 2), il existe alors $v \in \mathrm{Int}(a)$ tel que $v(a_u) = g$, d'où b) dans le cas des formes compactes. Enfin, soient $m_1$ et $m_2$ deux formes réelles déployables de $a$. Il existe des épingleages $(m_1, \mathfrak{h}_1, B_1, (X_\alpha^1))$ et $(m_2, \mathfrak{h}_2, B_2, (X_\alpha^2))$ (VIII, § 4, n° 1). Ceux-ci s'étendent de manière évidente en épingleages $e_1$ et $e_2$ de $a$. Un automorphisme de $a$ qui applique $e_1$ sur $e_2$ applique $m_1$ sur $m_2$; il suffit donc d'appliquer la prop. 5 de VIII, § 5, n° 3, pour obtenir l'existence d'un élément $u$ de $\mathrm{Aut}_0(a) = \mathrm{Int}(a)$ tel que $u(m_1) = m_2$.
 
 #### Remarque {#lie-ix-s3-n3-rem-1 .statement tag=01B5}
 

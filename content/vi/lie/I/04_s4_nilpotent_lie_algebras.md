@@ -32,9 +32,9 @@ subsections:
       pdf_page: 60
 statements: 18
 exercises: 27
-content_sha256: 4c3572898b4878b0936a19df4952bb86b6d3772f777621911d9fcbd7c4f73ec9
+content_sha256: 7815680b8318036c3ec4a4c8ac843d327461e829f8cd8f36969f5036eecb902f
 translated_from: content/en/lie/I/04_s4_nilpotent_lie_algebras.md
-source_content_sha256: ec8fcfdc0c4ee25ad5c1b29d58376b1ebcb9cbf681ca6ed53a7f8804eb1ab7e6
+source_content_sha256: 48ab9b1787343e1f86d71a8b0614a97c02bf7d85a80b47fd455f6abb64aa840b
 translation_model: gpt-5.4
 translation_run: translate-vi-c10151d9
 glossary_version: 34
@@ -117,7 +117,7 @@ Chứng minh được tiến hành bằng quy nạp theo chiều $n$ của $g$. 
 
 Cho $h$ là một đại số Lie con của $g$ có chiều $m < n$. Nếu $x \in h$, thì $\mathrm{ad}_g x$ biến $h$ vào chính nó và khi chuyển qua thương xác định một tự đồng cấu $\sigma(x)$ của không gian $g/h$. Theo Bổ đề 1, $\mathrm{ad}_g x$ là lũy linh và do đó $\sigma(x)$ là lũy linh. Theo giả thiết quy nạp, tồn tại một phần tử khác không của $g/h$ bị mọi $\sigma(x),\ x \in h$, triệt tiêu. Suy ra $h$ là một iđêan trong một đại số con nào đó có số chiều $(m+1)$ của $g$.
 
-Ta kết luận (bằng cách lặp bắt đầu từ $h = \{0\}$) rằng $g$ có một iđêan $h$ chiều $n-1$. Lấy $a \in g,\ a \notin h$. Ta lại dùng giả thiết quy nạp: các $u \in V$ sao cho $x.u = 0$ với mọi $x \in h$ tạo thành một không gian con vectơ khác không U của V. Không gian con này ổn định dưới tác dụng của $a$ (\S 3, no. 5, Mệnh đề 5). Vì $a$ là một tự đồng cấu lũy linh của V, tồn tại một phần tử khác không của U bị triệt tiêu bởi $a$ và do đó bởi mọi phần tử của $g$.
+Ta kết luận (bằng cách lặp bắt đầu từ $h = \{0\}$) rằng $g$ có một iđêan $h$ chiều $n-1$. Lấy $a \in g,\ a \notin h$. Ta lại dùng giả thiết quy nạp: các $u \in V$ sao cho $x.u = 0$ với mọi $x \in h$ tạo thành một không gian con vectơ khác không U của V. Không gian con này ổn định dưới tác dụng của $a$ (§ 3, no. 5, Mệnh đề 5). Vì $a$ là một tự đồng cấu lũy linh của V, tồn tại một phần tử khác không của U bị triệt tiêu bởi $a$ và do đó bởi mọi phần tử của $g$.
 
 #### Hệ quả 1 {#lie-i-s4-thm-1-cor-1 .statement}
 
@@ -139,7 +139,7 @@ Cho $x \in g$. Vì $g/h$ là lũy linh, tồn tại một số nguyên $k$ sao c
 
 #### Ví dụ {#lie-i-s4-n2-exa-1 .statement}
 
-Đại số $\mathfrak{n}(n, K)$ (\S 1, no. 2, Ví dụ 2 (3)) là lũy linh.
+Đại số $\mathfrak{n}(n, K)$ (§ 1, no. 2, Ví dụ 2 (3)) là lũy linh.
 
 ### 3. IĐÊAN LŨY LINH LỚN NHẤT CỦA MỘT BIỂU DIỄN
 
@@ -147,7 +147,7 @@ Cho $x \in g$. Vì $g/h$ là lũy linh, tồn tại một số nguyên $k$ sao c
 
 *Cho g là một đại số Lie, a là một iđêan của g và M là một g-môđun đơn. Nếu, với mọi $x \in a,\ x_M$ là lũy linh, thì $x_M = 0$ với mọi $x \in a$.*
 
-Cho N là không gian con của M gồm các $m \in M$ sao cho $x_M.m = 0$ với mọi $x \in a$. Theo Định lý 1, $N \neq \{0\}$. Mặt khác, với mọi $y \in g$, N ổn định dưới $y_M$ (\S 3, no. 5, Mệnh đề 5). Do đó $N = M$, điều này chứng minh bổ đề.
+Cho N là không gian con của M gồm các $m \in M$ sao cho $x_M.m = 0$ với mọi $x \in a$. Theo Định lý 1, $N \neq \{0\}$. Mặt khác, với mọi $y \in g$, N ổn định dưới $y_M$ (§ 3, no. 5, Mệnh đề 5). Do đó $N = M$, điều này chứng minh bổ đề.
 
 #### Bổ đề 3 {#lie-i-s4-lem-3 .statement}
 

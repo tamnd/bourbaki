@@ -1,0 +1,8 @@
+{"edges": [
+{"from":"","from_label":"fvr-vi-s2","to_label":"fvr-vi-s1","kind":"cites","raw":"VI, p. 275","form":"page","resolved_by":"section","file":"content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md","line":35},
+{"from":"","from_label":"fvr-vi-s2","to_label":"fvr-vi-s1","kind":"cites","raw":"VI, p. 280","form":"page","resolved_by":"section","file":"content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md","line":35},
+{"from":"","from_label":"fvr-vi-s2","to_label":"fvr-vi-s2","kind":"cites","raw":"VI, p. 286","form":"page","resolved_by":"section","file":"content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md","line":167},
+{"from":"","from_label":"fvr-vi-s2","to_label":"fvr-vi-s2-thm-1","kind":"cites","raw":"Theorem 1 of VI, p. 286","form":"named","resolved_by":"page-map","file":"content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md","line":181},
+{"from":"","from_label":"fvr-vi-s2","to_label":"fvr-vi-s1","kind":"cites","raw":"VI, p. 275","form":"page","resolved_by":"section","file":"content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md","line":300},
+{"from":"","from_label":"fvr-vi-s2","to_label":"fvr-vi-s1","kind":"cites","raw":"VI, p. 276","form":"page","resolved_by":"section","file":"content/en/fvr/VI/02_s2_eulerian_expansions_of_the.md","line":300}
+]}

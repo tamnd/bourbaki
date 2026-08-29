@@ -37,9 +37,9 @@ subsections:
       pdf_page: 299
 statements: 39
 exercises: 28
-content_sha256: 5050cc6d89849d79deb5094fe9dba80a9328f7bf2dacb3ec325f44e5af8b231e
+content_sha256: 7dacd2f7dcc68b66f9247e3763c2ae536a5e8247300d431420b92570cc1935a4
 translated_from: content/en/ac/IV/02_s2_primary_decomposition.md
-source_content_sha256: ec4d6e9f0689ebac0dfdea15b3a61e409c2f05eda1aaf2d6890f55706fd47486
+source_content_sha256: 9353d19272573d950f92fba8db2374013f868c6b8d590a53b7b8f6262334c6e8
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4cde209c
 glossary_version: 34
@@ -56,9 +56,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 Cho $A$ là một vành Noether và $M$ là một $A$-môđun. Các điều kiện sau là tương đương:
 (a) $\operatorname{Ass}(M)$ chỉ gồm một phần tử duy nhất.
 
-(b) $M \neq 0$ và mọi phép vị tự của $M$ hoặc là đơn ánh hoặc gần lũy linh ($\S 1$, no. 4). *Nếu* các điều kiện này được thỏa mãn và $p$ là tập hợp các $a \in A$ sao cho phép vị tự $a_M$ là gần lũy linh, thì $\operatorname{Ass}(M) = \{p\}$.
+(b) $M \neq 0$ và mọi phép vị tự của $M$ hoặc là đơn ánh hoặc gần lũy linh ($§ 1$, no. 4). *Nếu* các điều kiện này được thỏa mãn và $p$ là tập hợp các $a \in A$ sao cho phép vị tự $a_M$ là gần lũy linh, thì $\operatorname{Ass}(M) = \{p\}$.
 
-Điều này suy ra ngay lập tức từ $\S 1$, no. 4, Hệ quả của Mệnh đề 9 và no. 1, Hệ quả 2 của Mệnh đề 2.
+Điều này suy ra ngay lập tức từ $§ 1$, no. 4, Hệ quả của Mệnh đề 9 và no. 1, Hệ quả 2 của Mệnh đề 2.
 
 #### Định nghĩa 1 {#ac-iv-s2-def-1 .statement}
 
@@ -66,25 +66,25 @@ Cho $A$ là một vành Noether và $M$ là một $A$-môđun. Các điều ki�
 
 Khi không có sự nhập nhằng, ta sẽ đơn giản nói rằng $Q$ là "p-nguyên sơ" hoặc "nguyên sơ"; rõ ràng với mọi môđun con $N' \neq Q$ của $N$ chứa $Q$, $Q$ là p-nguyên sơ trong $N'$.
 
-Định nghĩa 1 đặc biệt áp dụng cho trường hợp $N = A$; khi đó các môđun con của $N$ là các *iđêan* của $A$ và do đó một iđêan $q$ của $A$ được gọi là *nguyên sơ* nếu $\operatorname{Ass}(A/q)$ chỉ có một phần tử duy nhất hoặc, điều tương đương, nếu $A \neq q$ và mọi ước của không trong vành $A/q$ đều là *lũy linh*. Nếu $q$ là p-nguyên sơ, từ Định nghĩa 1 suy ra rằng $p$ là *căn* (Chương II, $\S 2$, no. 6) của iđêan $q$.
+Định nghĩa 1 đặc biệt áp dụng cho trường hợp $N = A$; khi đó các môđun con của $N$ là các *iđêan* của $A$ và do đó một iđêan $q$ của $A$ được gọi là *nguyên sơ* nếu $\operatorname{Ass}(A/q)$ chỉ có một phần tử duy nhất hoặc, điều tương đương, nếu $A \neq q$ và mọi ước của không trong vành $A/q$ đều là *lũy linh*. Nếu $q$ là p-nguyên sơ, từ Định nghĩa 1 suy ra rằng $p$ là *căn* (Chương II, $§ 2$, no. 6) của iđêan $q$.
 
 #### Nhận xét {#ac-iv-s2-n1-rem-1 .statement}
 
-Cho $q$ là một môđun con p-nguyên sơ của một $A$-môđun $N$. Nếu $N/Q$ là *sinh hữu hạn*, tồn tại một số nguyên $k > 0$ sao cho $p^k N \subset Q$ theo $\S 1$, no. 4, Mệnh đề 9.
+Cho $q$ là một môđun con p-nguyên sơ của một $A$-môđun $N$. Nếu $N/Q$ là *sinh hữu hạn*, tồn tại một số nguyên $k > 0$ sao cho $p^k N \subset Q$ theo $§ 1$, no. 4, Mệnh đề 9.
 
 *Ví dụ*
 
 #### Ví dụ 1 {#ac-iv-s2-n1-exa-1 .statement}
 
-Nếu $p$ là một iđêan nguyên tố của $A$, thì $p$ là p-nguyên sơ ($\S 1$, no. 1, Mệnh đề 1).
+Nếu $p$ là một iđêan nguyên tố của $A$, thì $p$ là p-nguyên sơ ($§ 1$, no. 1, Mệnh đề 1).
 
 #### Ví dụ 2 {#ac-iv-s2-n1-exa-2 .statement}
 
-Cho $q$ là một iđêan của $A$ sao cho tồn tại *một iđêan nguyên tố duy nhất* $m$ (nhất thiết là cực đại) chứa $q$; khi đó, nếu $M$ là một $A$-môđun sao cho $qM \neq M$, thì $qM$ là *m-nguyên sơ* đối với $M$. Mọi phần tử của $\operatorname{Ass}(M/qM)$ đều chứa $q$, do đó bằng $m$ và $\operatorname{Ass}(M/qM) \neq 0$ ($\S 1$, no. 1, Hệ quả 1 của Mệnh đề 2). Đặc biệt $q$ là một iđêan *m-nguyên sơ* trong $A$.
+Cho $q$ là một iđêan của $A$ sao cho tồn tại *một iđêan nguyên tố duy nhất* $m$ (nhất thiết là cực đại) chứa $q$; khi đó, nếu $M$ là một $A$-môđun sao cho $qM \neq M$, thì $qM$ là *m-nguyên sơ* đối với $M$. Mọi phần tử của $\operatorname{Ass}(M/qM)$ đều chứa $q$, do đó bằng $m$ và $\operatorname{Ass}(M/qM) \neq 0$ ($§ 1$, no. 1, Hệ quả 1 của Mệnh đề 2). Đặc biệt $q$ là một iđêan *m-nguyên sơ* trong $A$.
 
 #### Ví dụ 3 {#ac-iv-s2-n1-exa-3 .statement}
 
-Cho $m$ là một iđêan *cực đại* của $A$; khi đó các iđêan m-nguyên sơ là các iđêan $q$ của $A$ sao cho tồn tại một số nguyên $n \geq 1$ thỏa mãn $m^n \subset q \subset m$. Vì nếu $m^n \subset q \subset m$, thì $m$ là iđêan nguyên tố duy nhất chứa $q$ (Chương 11, $\S 1$, no. 1, Hệ quả của Mệnh đề 1) và kết luận suy ra từ *Ví dụ 2*; ngược lại, nếu $q$ là m-nguyên sơ, $m$ là căn của $q$ và do đó tồn tại $n \geq 1$ sao cho $m^n \subset q$ (Chương II, $\S 2$, no. 6, Mệnh đề 15).
+Cho $m$ là một iđêan *cực đại* của $A$; khi đó các iđêan m-nguyên sơ là các iđêan $q$ của $A$ sao cho tồn tại một số nguyên $n \geq 1$ thỏa mãn $m^n \subset q \subset m$. Vì nếu $m^n \subset q \subset m$, thì $m$ là iđêan nguyên tố duy nhất chứa $q$ (Chương 11, $§ 1$, no. 1, Hệ quả của Mệnh đề 1) và kết luận suy ra từ *Ví dụ 2*; ngược lại, nếu $q$ là m-nguyên sơ, $m$ là căn của $q$ và do đó tồn tại $n \geq 1$ sao cho $m^n \subset q$ (Chương II, $§ 2$, no. 6, Mệnh đề 15).
 
 #### Ví dụ 4 {#ac-iv-s2-n1-exa-4 .statement}
 
@@ -178,7 +178,7 @@ $$
 \operatorname{Ass}(Q_i/N) = \bigcup_{j \neq i} \{p_j\} \quad \text{cho mọi } i \in I.
 $$
 
-Nếu điều kiện của mệnh đề được thỏa mãn, $N = \bigcap_{j \neq i} Q_j$ không thể xảy ra, vì ta sẽ suy ra rằng $\operatorname{Ass}(M/N) \subset \bigcup_{j \neq i} \{p_j\}$ (\S 1, no. 1, Hệ quả 2 của Mệnh đề 3) trái với giả thiết; phân tích nguyên sơ $(Q_i)_{i \in I}$ của $N$ khi đó chắc chắn là rút gọn. Ngược lại, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ luôn đúng (\S 1, no. 1, Hệ quả 2 của Mệnh đề 3); mặt khác, với mọi $i \in I$, hãy viết $P_i = \bigcap_j Q_j$; khi đó $P_i \cap Q_i = N$ và $P_i \neq N$ nếu $(Q_i)_{i \in I}$ là rút gọn, do đó $P_i/N$ khác không và đẳng cấu với môđun con $(P_i + Q_i)/Q_i$ của $M/Q_i$, do đó $\{p_i\} = \operatorname{Ass}(P_i/N)$ (\S 1, no. 1, Mệnh đề 3 và Hệ quả 1 của Mệnh đề 2); vì $P_i/N \subset M/N, p_i \in \operatorname{Ass}(M/N)$, điều này hoàn tất chứng minh tính cần thiết của điều kiện trong mệnh đề và công thức (2). Cuối cùng, vì $N = \bigcap_{j \neq i} (Q_j \cap Q_i), \operatorname{Ass}(Q_i/N) \subset \bigcup_{j \neq i} \operatorname{Ass}(Q_i/(Q_j \cap Q_i))$ (\S 1, no. 1, Hệ quả 2 của Mệnh đề 3); nhưng $Q_i/(Q_j \cap Q_i)$ đẳng cấu với môđun con $(Q_i + Q_j)/Q_j$ của $M/Q_j$, do đó $\operatorname{Ass}(Q_i/(Q_j \cap Q_i)) \subset \{p_j\}$ và
+Nếu điều kiện của mệnh đề được thỏa mãn, $N = \bigcap_{j \neq i} Q_j$ không thể xảy ra, vì ta sẽ suy ra rằng $\operatorname{Ass}(M/N) \subset \bigcup_{j \neq i} \{p_j\}$ (§ 1, no. 1, Hệ quả 2 của Mệnh đề 3) trái với giả thiết; phân tích nguyên sơ $(Q_i)_{i \in I}$ của $N$ khi đó chắc chắn là rút gọn. Ngược lại, $\operatorname{Ass}(M/N) \subset \bigcup_{i \in I} \{p_i\}$ luôn đúng (§ 1, no. 1, Hệ quả 2 của Mệnh đề 3); mặt khác, với mọi $i \in I$, hãy viết $P_i = \bigcap_j Q_j$; khi đó $P_i \cap Q_i = N$ và $P_i \neq N$ nếu $(Q_i)_{i \in I}$ là rút gọn, do đó $P_i/N$ khác không và đẳng cấu với môđun con $(P_i + Q_i)/Q_i$ của $M/Q_i$, do đó $\{p_i\} = \operatorname{Ass}(P_i/N)$ (§ 1, no. 1, Mệnh đề 3 và Hệ quả 1 của Mệnh đề 2); vì $P_i/N \subset M/N, p_i \in \operatorname{Ass}(M/N)$, điều này hoàn tất chứng minh tính cần thiết của điều kiện trong mệnh đề và công thức (2). Cuối cùng, vì $N = \bigcap_{j \neq i} (Q_j \cap Q_i), \operatorname{Ass}(Q_i/N) \subset \bigcup_{j \neq i} \operatorname{Ass}(Q_i/(Q_j \cap Q_i))$ (§ 1, no. 1, Hệ quả 2 của Mệnh đề 3); nhưng $Q_i/(Q_j \cap Q_i)$ đẳng cấu với môđun con $(Q_i + Q_j)/Q_j$ của $M/Q_j$, do đó $\operatorname{Ass}(Q_i/(Q_j \cap Q_i)) \subset \{p_j\}$ và
 $$
 \operatorname{Ass}(Q_i/N) \subset \bigcup_{j \neq i} \{p_j\};
 $$
@@ -213,7 +213,7 @@ Cho $A$ là một vành Noether, $M$ là một $A$-môđun, $N$ là một môđu
 
 (iii) *Nếu* $(Q_i)_{i \in J}$ *là một phần tử của* $D_J(M/N')$ *và* $(R_i)_{i \in I}$ *là một phần tử của* $D_I(M/N)$, *họ* $(T_i)_{i \in I}$ *sao cho* $T_i = Q_i$ *với* $i \in J$ *và* $T_i = R_i$ *với* $i \in I - J$ *là một phần tử của* $D_I(M/N)$.
 
-(i) Ta biết (no. 1, Mệnh đề 3) rằng với $i \in J, S^{-1}Q_i$ là nguyên sơ đối với $S^{-1}p_i$ và rằng với $i \in I - J, S^{-1}Q_i = S^{-1}M$; vì $S^{-1}N = \bigcap S^{-1}Q_i$ (Chương II, § 2, no. 4), nên cũng có $S^{-1}N = \bigcap_{i \in J} S^{-1}Q_i$. Các $S^{-1}p_i$ với $i \in J$ là phân biệt và tập hợp của chúng là $\operatorname{Ass}(S^{-1}M/S^{-1}N)$ ($\S 1$, no. 2, Hệ quả của Mệnh đề 5); khi đó (Mệnh đề 4) $(S^{-1}Q_i)_{i \in J}$ là một phân tích nguyên sơ rút gọn của $S^{-1}N$. Hơn nữa, $Q_i = (i_M^S)^{-1}(S^{-1}Q_i)$ (no. 1 Mệnh đề 3), do đó $N' = (i_M^S)^{-1}(S^{-1}N) = \bigcap_{i \in J} Q_i$ và $(Q_i)_{i \in J}$ hiển nhiên là một phân tích nguyên sơ rút gọn của $N'$ trong $M$.
+(i) Ta biết (no. 1, Mệnh đề 3) rằng với $i \in J, S^{-1}Q_i$ là nguyên sơ đối với $S^{-1}p_i$ và rằng với $i \in I - J, S^{-1}Q_i = S^{-1}M$; vì $S^{-1}N = \bigcap S^{-1}Q_i$ (Chương II, § 2, no. 4), nên cũng có $S^{-1}N = \bigcap_{i \in J} S^{-1}Q_i$. Các $S^{-1}p_i$ với $i \in J$ là phân biệt và tập hợp của chúng là $\operatorname{Ass}(S^{-1}M/S^{-1}N)$ ($§ 1$, no. 2, Hệ quả của Mệnh đề 5); khi đó (Mệnh đề 4) $(S^{-1}Q_i)_{i \in J}$ là một phân tích nguyên sơ rút gọn của $S^{-1}N$. Hơn nữa, $Q_i = (i_M^S)^{-1}(S^{-1}Q_i)$ (no. 1 Mệnh đề 3), do đó $N' = (i_M^S)^{-1}(S^{-1}N) = \bigcap_{i \in J} Q_i$ và $(Q_i)_{i \in J}$ hiển nhiên là một phân tích nguyên sơ rút gọn của $N'$ trong $M$.
 
 (ii) *Vì* $S^{-1}N' = S^{-1}N$, ta có thể thay thế $N$ bởi $N'$, nghĩa là giả sử rằng $J = I$. Gọi $(P_i)_{i \in I}$ là một phân tích nguyên sơ thu gọn của $S^{-1}N$ trong $S^{-1}M$ và viết $Q_i = (i_M^S)^{-1}(P_i)$; từ no. 1, Mệnh đề 3 suy ra rằng $Q_i$ là nguyên sơ đối với $p_i$ ($i \in I$) và $(Q_i)_{i \in I}$ khi đó là một phân tích nguyên sơ thu gọn của $N$ trong $M$ theo no. 3, Hệ quả của Mệnh đề 4. Cuối cùng, vì, với mọi $i \in I$ và mọi môđun con $Q'_i$ mà $M$ là $p_i$-nguyên sơ đối với $M, Q'_i = (i_M^S)^{-1}(S^{-1}Q'_i)$ theo no. 1, Mệnh đề 3 và giả thiết $J = I$, ta thấy rằng hai ánh xạ $D_I(M/N) \to D_I(S^{-1}M/S^{-1}N)$ và $D_I(S^{-1}M/S^{-1}N) \to D_I(M/N)$ đã được xác định mà hợp của chúng là các ánh xạ đồng nhất trên $D_I(M/N)$ và $D_I(S^{-1}M/S^{-1}N)$, điều này chứng minh (ii).
 
@@ -252,21 +252,21 @@ Nếu một $A$-môđun $M$ có độ dài hữu hạn, ta sẽ ký hiệu độ
 (b) *Mọi iđêan $p \in \operatorname{Ass}(M)$ là một iđêan cực đại của $A$.*
 (c) *Mọi iđêan $p \in \operatorname{Supp}(M)$ là một iđêan cực đại của $A$.*
 
-Cho $(M_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i/M_{i+1}$ là đẳng cấu với $A/p_i$, trong đó $p_i$ là nguyên tố ($\S 1$, no. 4, Định lý 1). Nếu $M$ có độ dài hữu hạn, thì mỗi môđun $A$ $A/p_i$ cũng vậy, điều này suy ra rằng mỗi vành $A/p_i$ là Artin; nhưng vì $A/p_i$ là một miền nguyên, nên nó là một trường, nói cách khác $p_i$ là cực đại; ta kết luận rằng (a) suy ra (b) ($\S 1$, no. 4, Định lý 2). Điều kiện (b) suy ra (c) theo $\S 1$, no. 3, Mệnh đề 7. Cuối cùng, nếu tất cả các iđêan của $\operatorname{Supp}(M)$ đều là cực đại, thì các $p_i$ cũng vậy ($\S 1$, no. 4, Định lý 2), do đó các $A/p_i$ là các môđun $A$ đơn và $M$ có độ dài hữu hạn, điều này hoàn tất chứng minh.
+Cho $(M_i)_{0 \leq i \leq n}$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i/M_{i+1}$ là đẳng cấu với $A/p_i$, trong đó $p_i$ là nguyên tố ($§ 1$, no. 4, Định lý 1). Nếu $M$ có độ dài hữu hạn, thì mỗi môđun $A$ $A/p_i$ cũng vậy, điều này suy ra rằng mỗi vành $A/p_i$ là Artin; nhưng vì $A/p_i$ là một miền nguyên, nên nó là một trường, nói cách khác $p_i$ là cực đại; ta kết luận rằng (a) suy ra (b) ($§ 1$, no. 4, Định lý 2). Điều kiện (b) suy ra (c) theo $§ 1$, no. 3, Mệnh đề 7. Cuối cùng, nếu tất cả các iđêan của $\operatorname{Supp}(M)$ đều là cực đại, thì các $p_i$ cũng vậy ($§ 1$, no. 4, Định lý 2), do đó các $A/p_i$ là các môđun $A$ đơn và $M$ có độ dài hữu hạn, điều này hoàn tất chứng minh.
 
 #### Hệ quả 1 {#ac-iv-s2-prop-7-cor-1 .statement}
 
 *Với mọi môđun có độ dài hữu hạn $M$ trên một vành Noether $A$, $\operatorname{Ass}(M) = \operatorname{Supp}(M)$.*
 
-Mọi phần tử của $\operatorname{Supp}(M)$ khi đó là cực tiểu trong $\operatorname{Supp}(M)$ và kết luận suy ra từ $\S 1$, no. 3, Hệ quả 1 của Mệnh đề 7.
+Mọi phần tử của $\operatorname{Supp}(M)$ khi đó là cực tiểu trong $\operatorname{Supp}(M)$ và kết luận suy ra từ $§ 1$, no. 3, Hệ quả 1 của Mệnh đề 7.
 
 #### Hệ quả 2 {#ac-iv-s2-prop-7-cor-2 .statement}
 
 *Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$ và $p$ là một iđêan nguyên tố của $A$. Để $M_p$ là một môđun $A_p$ khác không có độ dài hữu hạn, điều kiện cần và đủ là $p$ là một phần tử cực tiểu của $\operatorname{Ass}(M)$.*
 
-Theo $\S 1$, no. 2, Hệ quả của Mệnh đề 5, $\operatorname{Ass}_{A_p}(M_p)$ là tập hợp các iđêan $q_p$, trong đó $q$ chạy qua tập hợp các iđêan của $\operatorname{Ass}(M)$ được chứa trong $p$. Mặt khác, $p_p$ là iđêan cực đại duy nhất của $A_p$; theo Mệnh đề 7, để $M_p$ là một môđun $A_p$ có độ dài hữu hạn, điều kiện cần và đủ là không có phần tử nào của $\operatorname{Ass}(M)$ được chứa thực sự trong $p$. Mặt khác, để $M_p \neq 0$, theo định nghĩa điều kiện cần và đủ là $p \in \operatorname{Supp}(M)$ (Chương 11, § 4, no. 4), nghĩa là $p$ chứa một phần tử của $\operatorname{Ass}(M)$ ($\S 1$, no. 3, Mệnh đề 7). Điều này chứng minh hệ quả.
+Theo $§ 1$, no. 2, Hệ quả của Mệnh đề 5, $\operatorname{Ass}_{A_p}(M_p)$ là tập hợp các iđêan $q_p$, trong đó $q$ chạy qua tập hợp các iđêan của $\operatorname{Ass}(M)$ được chứa trong $p$. Mặt khác, $p_p$ là iđêan cực đại duy nhất của $A_p$; theo Mệnh đề 7, để $M_p$ là một môđun $A_p$ có độ dài hữu hạn, điều kiện cần và đủ là không có phần tử nào của $\operatorname{Ass}(M)$ được chứa thực sự trong $p$. Mặt khác, để $M_p \neq 0$, theo định nghĩa điều kiện cần và đủ là $p \in \operatorname{Supp}(M)$ (Chương 11, § 4, no. 4), nghĩa là $p$ chứa một phần tử của $\operatorname{Ass}(M)$ ($§ 1$, no. 3, Mệnh đề 7). Điều này chứng minh hệ quả.
 
-Nhận xét (1). Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$; hãy để $(M_1), \ldots$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ đẳng cấu với $A/p_i$, trong đó $p_i$ là một iđêan nguyên tố của $A$ ($\S 1$, no. 4, Định lý 1). Nếu $p$ là một phần tử cực tiểu của $\operatorname{Ass}(M)$, độ dài $\operatorname{long}_{A_p}(M_p)$ bằng *số chỉ số* $i$ sao cho $p_i = p$. Vì các $(M_i)_p$ tạo thành một chuỗi hợp thành của $M$, và $(M_i)_p / (M_{i+1})_p$ đẳng cấu với $(A/p_i)_p$ và do đó đẳng cấu với $\{0\}$ nếu $p_i \neq p$ (vì $p$ là cực tiểu trong tập hợp các $p_i$ theo $\S 1$, no. 4, Định lý 2) và với $(A/p)_p$ là một trường, nếu $p_i = p$.
+Nhận xét (1). Cho $M$ là một môđun sinh hữu hạn trên một vành Noether $A$; hãy để $(M_1), \ldots$ là một chuỗi hợp thành của $M$ sao cho, với $0 \leq i \leq n - 1$, $M_i / M_{i+1}$ đẳng cấu với $A/p_i$, trong đó $p_i$ là một iđêan nguyên tố của $A$ ($§ 1$, no. 4, Định lý 1). Nếu $p$ là một phần tử cực tiểu của $\operatorname{Ass}(M)$, độ dài $\operatorname{long}_{A_p}(M_p)$ bằng *số chỉ số* $i$ sao cho $p_i = p$. Vì các $(M_i)_p$ tạo thành một chuỗi hợp thành của $M$, và $(M_i)_p / (M_{i+1})_p$ đẳng cấu với $(A/p_i)_p$ và do đó đẳng cấu với $\{0\}$ nếu $p_i \neq p$ (vì $p$ là cực tiểu trong tập hợp các $p_i$ theo $§ 1$, no. 4, Định lý 2) và với $(A/p)_p$ là một trường, nếu $p_i = p$.
 
 #### Mệnh đề 8 {#ac-iv-s2-prop-8 .statement}
 
@@ -280,7 +280,7 @@ Nhận xét (1). Cho $M$ là một môđun sinh hữu hạn trên một vành No
 
 (iv) *Đơn ánh chính tắc của $M$ vào $\bigoplus_{p \in \operatorname{Ass}(M)} (M/Q(p))$ là song ánh.*
 
-Vì mọi phần tử $p \in \operatorname{Ass}(M)$ đều là cực tiểu trong $\operatorname{Ass}(M)$ (Mệnh đề 7), mệnh đề (i) suy ra từ no. 3, Mệnh đề 5. Vì $M$ sinh hữu hạn, tồn tại $n_0$ sao cho $p^n M \subset Q(p)$ với mọi $p \in \operatorname{Ass}(M)$ và mọi $n \geq n_0$ (no. 1, *Nhận xét*); nhưng vì $p$ là một iđêan cực đại, $p^n M$ là $p$-nguyên sơ đối với $M$ (no. 1, *Ví dụ 2 và 3*) và, vì $\bigcap_{p \in \operatorname{Ass}(M)} p^n M = \{0\}$, suy ra từ (i) rằng nhất thiết $p^n M = Q(p)$ với mọi $p \in \operatorname{Ass}(M)$; do đó có (ii). Vì các $p^n$, với $p \in \operatorname{Ass}(M)$, nguyên tố cùng nhau từng đôi (Chương 11, § 1, no. 2, Mệnh đề 3), ánh xạ chính tắc $M \to \bigoplus_{p \in \operatorname{Ass}(M)} (M/p^n M)$ là toàn ánh (Chương 11, § 1, no. 2, Mệnh đề 6), do đó có (iv). Khi đó $\operatorname{Ass}(Q(p)) = \operatorname{Ass}(M) - \{p\}$ và $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 3, Mệnh đề 4); vì các phần tử của $\operatorname{Ass}(M)$ là các iđêan cực đại, $p$ là phần tử duy nhất của $\operatorname{Ass}(M)$ không giao với $A - p$; do đó $Q(p)$ là hạt nhân của ánh xạ chính tắc $j : M \to M_p$ ($\S 1$, no. 2, Mệnh đề 6). Nếu $s \in A - p$, phép vị tự của $M/Q(p)$ với tỉ số $s$ là đơn ánh nhờ quan hệ $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 1, Mệnh đề 1); vì $M/Q(p)$ là Artin, phép vị tự này là song ánh (*Đại số*, Chương VIII, § 1, no. 2, Bổ đề 3). Ánh xạ chính tắc $M \to M/Q(p)$ khi đó được viết $f \circ j$, trong đó $f : M_p \to M/Q(p)$ là một đồng cấu $A$ (Chương II, § 2, no. 2, Mệnh đề 3); vì $\operatorname{Ker}(j) = \operatorname{Ker}(f \circ j) = Q(p)$, $f$ là đơn ánh; ta kết luận rằng $j$ là toàn ánh và $f$ là song ánh.
+Vì mọi phần tử $p \in \operatorname{Ass}(M)$ đều là cực tiểu trong $\operatorname{Ass}(M)$ (Mệnh đề 7), mệnh đề (i) suy ra từ no. 3, Mệnh đề 5. Vì $M$ sinh hữu hạn, tồn tại $n_0$ sao cho $p^n M \subset Q(p)$ với mọi $p \in \operatorname{Ass}(M)$ và mọi $n \geq n_0$ (no. 1, *Nhận xét*); nhưng vì $p$ là một iđêan cực đại, $p^n M$ là $p$-nguyên sơ đối với $M$ (no. 1, *Ví dụ 2 và 3*) và, vì $\bigcap_{p \in \operatorname{Ass}(M)} p^n M = \{0\}$, suy ra từ (i) rằng nhất thiết $p^n M = Q(p)$ với mọi $p \in \operatorname{Ass}(M)$; do đó có (ii). Vì các $p^n$, với $p \in \operatorname{Ass}(M)$, nguyên tố cùng nhau từng đôi (Chương 11, § 1, no. 2, Mệnh đề 3), ánh xạ chính tắc $M \to \bigoplus_{p \in \operatorname{Ass}(M)} (M/p^n M)$ là toàn ánh (Chương 11, § 1, no. 2, Mệnh đề 6), do đó có (iv). Khi đó $\operatorname{Ass}(Q(p)) = \operatorname{Ass}(M) - \{p\}$ và $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 3, Mệnh đề 4); vì các phần tử của $\operatorname{Ass}(M)$ là các iđêan cực đại, $p$ là phần tử duy nhất của $\operatorname{Ass}(M)$ không giao với $A - p$; do đó $Q(p)$ là hạt nhân của ánh xạ chính tắc $j : M \to M_p$ ($§ 1$, no. 2, Mệnh đề 6). Nếu $s \in A - p$, phép vị tự của $M/Q(p)$ với tỉ số $s$ là đơn ánh nhờ quan hệ $\operatorname{Ass}(M/Q(p)) = \{p\}$ (no. 1, Mệnh đề 1); vì $M/Q(p)$ là Artin, phép vị tự này là song ánh (*Đại số*, Chương VIII, § 1, no. 2, Bổ đề 3). Ánh xạ chính tắc $M \to M/Q(p)$ khi đó được viết $f \circ j$, trong đó $f : M_p \to M/Q(p)$ là một đồng cấu $A$ (Chương II, § 2, no. 2, Mệnh đề 3); vì $\operatorname{Ker}(j) = \operatorname{Ker}(f \circ j) = Q(p)$, $f$ là đơn ánh; ta kết luận rằng $j$ là toàn ánh và $f$ là song ánh.
 
 #### Hệ quả {#ac-iv-s2-n5-cor-1 .statement}
 
@@ -370,7 +370,7 @@ Trong no. này, A và B sẽ chỉ hai vành và ta sẽ xét một đồng cấ
 
 Cho A là một vành Noether, $p$ là một iđêan nguyên tố của A, E là một A-môđun có linh hóa tử chứa một lũy thừa của $p$ và thỏa mãn $\operatorname{Ass}(E) = \{p\}$, và F là một B-môđun sao cho $\rho_*(F)$ là một A-môđun phẳng. Điều kiện $\mathfrak{P} \in \operatorname{Ass}_B(E \otimes_A F)$ khi đó kéo theo $\rho^{-1}(\mathfrak{P}) = p$.
 
-Nếu n là sao cho $p^nE = 0$, thì $p^nB \subset \operatorname{Ann}(E \otimes_A F)$, do đó $p^nB \subset \mathfrak{P}$, điều này kéo theo $p^n \subset \rho_1(\mathfrak{P})$ và do đó $p \subset \rho_1(\mathfrak{P})$ vì $\rho_1(\mathfrak{P})$ là nguyên tố. Hơn nữa, nếu $a \in A - p$, phép vị tự h với tỉ số a trên E là đơn ánh ($\S 1$, no. 1, Hệ quả 2 của Mệnh đề 2); vì $h \otimes 1_F$ là phép vị tự $h'$ với tỉ số $\rho(a)$ trên $E \otimes_A F$ và $\rho_*(F)$ là phẳng, $h'$ là đơn ánh (Chương I, § 2, no. 2, Định nghĩa 1); điều này chứng minh rằng $\rho(a) \notin \mathfrak{P}$, do đó $\rho^{-1}(\mathfrak{P}) = p$.
+Nếu n là sao cho $p^nE = 0$, thì $p^nB \subset \operatorname{Ann}(E \otimes_A F)$, do đó $p^nB \subset \mathfrak{P}$, điều này kéo theo $p^n \subset \rho_1(\mathfrak{P})$ và do đó $p \subset \rho_1(\mathfrak{P})$ vì $\rho_1(\mathfrak{P})$ là nguyên tố. Hơn nữa, nếu $a \in A - p$, phép vị tự h với tỉ số a trên E là đơn ánh ($§ 1$, no. 1, Hệ quả 2 của Mệnh đề 2); vì $h \otimes 1_F$ là phép vị tự $h'$ với tỉ số $\rho(a)$ trên $E \otimes_A F$ và $\rho_*(F)$ là phẳng, $h'$ là đơn ánh (Chương I, § 2, no. 2, Định nghĩa 1); điều này chứng minh rằng $\rho(a) \notin \mathfrak{P}$, do đó $\rho^{-1}(\mathfrak{P}) = p$.
 
 #### Định lý 2 {#ac-iv-s2-thm-2 .statement}
 
@@ -455,7 +455,7 @@ Nếu $pB = B$, Định lý 2 áp dụng cho $E/\mathbf{Q}(p)$ và $B$ cho thấ
 $$
 \operatorname{Ass}_B((E/\mathbf{Q}(p)) \otimes_A B) = \varnothing
 $$
-và, vì $B$ là Noether và là một $A$-môđun phẳng, ta kết luận (\S 1, no. 1, Hệ quả 1 của Mệnh đề 2) rằng $\mathbf{Q}(p) \otimes_A B = E \otimes_A B$. Mệnh đề (ii) suy ra từ Hệ quả 2 của Định lý 2, lấy $\mathfrak{P} = pB$. Cuối cùng, quan hệ $E' \otimes_A B = \bigcap_{p \in \Phi} (\mathbf{Q}(p) \otimes_A B)$ suy ra từ sự kiện rằng $B$ là một $A$-môđun phẳng (Chương I, \S 2, no. 6, Mệnh đề 6); vì $p = \overline{\rho}^{-1}(pB)$ với $p \in \Phi$ (Bổ đề 1), $pB \neq p'B$ đối với hai iđêan phân biệt $p, p'$ của tập hợp $\Phi$; mặt khác,
+và, vì $B$ là Noether và là một $A$-môđun phẳng, ta kết luận (§ 1, no. 1, Hệ quả 1 của Mệnh đề 2) rằng $\mathbf{Q}(p) \otimes_A B = E \otimes_A B$. Mệnh đề (ii) suy ra từ Hệ quả 2 của Định lý 2, lấy $\mathfrak{P} = pB$. Cuối cùng, quan hệ $E' \otimes_A B = \bigcap_{p \in \Phi} (\mathbf{Q}(p) \otimes_A B)$ suy ra từ sự kiện rằng $B$ là một $A$-môđun phẳng (Chương I, § 2, no. 6, Mệnh đề 6); vì $p = \overline{\rho}^{-1}(pB)$ với $p \in \Phi$ (Bổ đề 1), $pB \neq p'B$ đối với hai iđêan phân biệt $p, p'$ của tập hợp $\Phi$; mặt khác,
 $$
 \operatorname{Ass}((E \otimes_A B)/(E' \otimes_A B)) = \Phi
 $$
@@ -475,7 +475,7 @@ $$
 
 *Ví dụ*
 (1) Ta lấy $B = S^{-1}A$, trong đó $S$ là một tập con nhân của $A$; nếu $A$ là Noether, các giả thiết của Mệnh đề 11 được thỏa mãn và ta thu lại một phần của Mệnh đề 6 của no. 4.
-(2) Cho $A$ là một vành Noether, $m$ một iđêan của $A$ và $B$ là bao hoàn Hausdorff của $A$ đối với tôpô $m$-adic; khi đó $B$ là một $A$-môđun phẳng và Định lý 2 có thể được áp dụng với $F = B$; nhưng nói chung các giả thiết của Mệnh đề 11 không được thỏa mãn đối với các iđêan nguyên tố của $A$ (Chương III, \S 2, Bài tập 15 (b)).
+(2) Cho $A$ là một vành Noether, $m$ một iđêan của $A$ và $B$ là bao hoàn Hausdorff của $A$ đối với tôpô $m$-adic; khi đó $B$ là một $A$-môđun phẳng và Định lý 2 có thể được áp dụng với $F = B$; nhưng nói chung các giả thiết của Mệnh đề 11 không được thỏa mãn đối với các iđêan nguyên tố của $A$ (Chương III, § 2, Bài tập 15 (b)).
 (3) Cho $A$ là một vành Noether và $B$ là đại số đa thức $A[X_1, \ldots, X_n]$; $B$ là Noether và là một $A$-môđun tự do, do đó phẳng. Ngoài ra, nếu $p$ là một iđêan nguyên tố của $A$, $B/pB$ là đẳng cấu với $(A/p)[X_1, \ldots, X_n]$, là một miền nguyên, và do đó $pB$ là nguyên tố; các giả thiết của Mệnh đề 11 vì vậy được thỏa mãn đối với mọi $A$-môđun $E$ và mọi môđun con $E'$ của $E$.
 (4) Cho $A$ là một đại số sinh hữu hạn trên một trường $k$, $K$ là một mở rộng của $k$ và $B = A \otimes_k K$ là đại số trên $K$ thu được bằng mở rộng vô hướng; $A$ và $B$ là Noether và $B$ là một $A$-môđun tự do, do đó Định lý 2 có thể được áp dụng cho $F = B$. Trong một số trường hợp (chẳng hạn nếu $k$ đóng đại số) có thể chứng minh rằng đối với mọi iđêan nguyên tố $p$ của $A$, $pB$ là nguyên tố hoặc bằng $B$; ta sẽ trở lại sau với ví dụ này.
 

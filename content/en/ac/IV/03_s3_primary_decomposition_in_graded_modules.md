@@ -25,7 +25,7 @@ subsections:
       pdf_page: 305
 statements: 6
 exercises: 3
-content_sha256: 0f0faf5a814e89f406ad83a8ae7e2310af0973f3e006962317ed786ad8a83fcc
+content_sha256: 55183dce28d121c14a65bc1ae9b8a1e4c9902f11e7b2707081227fe1fa054024
 ---
 
 ## 3. PRIMARY DECOMPOSITION IN GRADED MODULES
@@ -90,7 +90,7 @@ Let $A$ be a torsion-free commutative group, $A$ a graded Noetherian ring of typ
 
 (iii) If $Q_i$ corresponds to a prime ideal $p_i$ which is a minimal element of $\operatorname{Ass}(M/N)$, $Q_i$ is a graded submodule of $M$.
 
-We have seen (no. 2, Proposition 4) that the $Q'_i$ are primary with respect to $M$ and $N \subset Q'' \subset Q_i$, which proves (i). Proposition 4 of no. 2 also shows that the prime ideal $p'_i$ corresponding to $Q'_i$ is the largest graded ideal contained in the prime ideal $p_i$ corresponding to $Q_i$. If the decomposition $N = \bigcap_{i \in I} Q_i$ is reduced, $p_i \in \operatorname{Ass}(M/N)$ for all $i$ (\S 2, no. 3, Proposition 4), hence $p_i$ is a graded ideal (no. 1, Proposition 1) and therefore $p'_i = p_i$; then $\operatorname{Ass}(M/N) = \bigcup_{i \in I} \{p'_i\}$ (\S 2, no. 3, Proposition 4), which proves that the decomposition $N = \bigcap_{i \in I} Q'_i$ is reduced (\S 2, no. 3, Proposition 4). Finally, if $p_i$ is a minimal element of $\operatorname{Ass}(M/N)$, then $p'_i = p_i$ since $p_i$ is graded (no. 1, Proposition 1), whence $Q'_i = Q_i$ by virtue of \S 2, no. 3, Proposition 5.
+We have seen (no. 2, Proposition 4) that the $Q'_i$ are primary with respect to $M$ and $N \subset Q'' \subset Q_i$, which proves (i). Proposition 4 of no. 2 also shows that the prime ideal $p'_i$ corresponding to $Q'_i$ is the largest graded ideal contained in the prime ideal $p_i$ corresponding to $Q_i$. If the decomposition $N = \bigcap_{i \in I} Q_i$ is reduced, $p_i \in \operatorname{Ass}(M/N)$ for all $i$ (§ 2, no. 3, Proposition 4), hence $p_i$ is a graded ideal (no. 1, Proposition 1) and therefore $p'_i = p_i$; then $\operatorname{Ass}(M/N) = \bigcup_{i \in I} \{p'_i\}$ (§ 2, no. 3, Proposition 4), which proves that the decomposition $N = \bigcap_{i \in I} Q'_i$ is reduced (§ 2, no. 3, Proposition 4). Finally, if $p_i$ is a minimal element of $\operatorname{Ass}(M/N)$, then $p'_i = p_i$ since $p_i$ is graded (no. 1, Proposition 1), whence $Q'_i = Q_i$ by virtue of § 2, no. 3, Proposition 5.
 
 ### Exercises {#ac-iv-s3-exercises}
 

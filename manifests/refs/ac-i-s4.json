@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"ac-i-s4-prop-1","to_label":"ac-i-s2-prop-1","kind":"cites","raw":"§ 2, no. 3, Proposition 1","form":"section","resolved_by":"section-no","file":"content/en/ac/I/04_s4_flat_modules_and_tor_functors.md","line":54},
+{"from":"","from_label":"ac-i-s4-prop-1","to_label":"ac-i-s4-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/ac/I/04_s4_flat_modules_and_tor_functors.md","line":56},
+{"from":"","from_label":"ac-i-s4-n0-rem-1","to_label":"ac-i-s4-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/04_s4_flat_modules_and_tor_functors.md","line":112},
+{"from":"","from_label":"ac-i-s4-ex-1","to_label":"ac-i-s4-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/exercises/s4/01.md","line":14}
+]}

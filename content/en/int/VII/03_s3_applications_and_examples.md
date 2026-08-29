@@ -25,14 +25,14 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: be892f61702ef86e17887833e3b3fd6b0a97a2edac49c09d4edd4594b5071311
+content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 ---
 
 ## § 3. APPLICATIONS AND EXAMPLES
 
 ### 1. Compact groups of linear mappings
 
-Let $E$ be a finite-dimensional vector space over $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$. Then $\mathrm{End}(E)$ is a finite-dimensional algebra over $\mathbf{R}$, and the canonical topology on $\mathrm{End}(E)$ (\S 1, No. 10) is the topology of compact convergence. The group $\mathrm{Aut}(E) = \mathbf{GL}(E)$ is an open subset of $\mathrm{End}(E)$, hence is a locally compact group. Let $(e_1, e_2, \ldots, e_n)$ be a basis of $E$ and, for every endomorphism $u$ of $E$, let $M(u) = (\alpha_{ij}(u))$ be the matrix of $u$ with respect to this basis; to say that a subset $S$ of $\mathrm{End}(E)$ is relatively compact in $\mathrm{End}(E)$ is equivalent to saying that the functions $\alpha_{ij}(u)$ are bounded in $S$.
+Let $E$ be a finite-dimensional vector space over $\mathbf{R}, \mathbf{C}$ or $\mathbf{H}$. Then $\mathrm{End}(E)$ is a finite-dimensional algebra over $\mathbf{R}$, and the canonical topology on $\mathrm{End}(E)$ (§ 1, No. 10) is the topology of compact convergence. The group $\mathrm{Aut}(E) = \mathbf{GL}(E)$ is an open subset of $\mathrm{End}(E)$, hence is a locally compact group. Let $(e_1, e_2, \ldots, e_n)$ be a basis of $E$ and, for every endomorphism $u$ of $E$, let $M(u) = (\alpha_{ij}(u))$ be the matrix of $u$ with respect to this basis; to say that a subset $S$ of $\mathrm{End}(E)$ is relatively compact in $\mathrm{End}(E)$ is equivalent to saying that the functions $\alpha_{ij}(u)$ are bounded in $S$.
 
 #### Proposition 1 {#int-vii-s3-prop-1 .statement}
 
@@ -42,13 +42,13 @@ Let $E$ be a finite-dimensional vector space over $\mathbf{R}, \mathbf{C}$ or $\
 (ii) *G is relatively compact in Aut(E)*;
 (iii) *G leaves invariant a nondegenerate$^1$ positive hermitian form on E*.
 
-(iii) $\Rightarrow$ (i): Suppose that $G$ leaves invariant a nondegenerate positive hermitian form $\Psi$. Let $(e_1, \ldots, e_n)$ be an orthonormal basis for $\Psi$ (*Alg.*, Ch. IX, \S 6, No. 1, Cor. 1 of Th. 1). For every $u \in G$, let $(u_{ij})$ be its matrix with respect to $(e_i)$. For any $j$, we have $\sum_{i=1}^n |u_{ij}|^2 = 1$, thus $|u_{ij}| \leq 1$ for all $i$ and $j$, which proves (i).
+(iii) $\Rightarrow$ (i): Suppose that $G$ leaves invariant a nondegenerate positive hermitian form $\Psi$. Let $(e_1, \ldots, e_n)$ be an orthonormal basis for $\Psi$ (*Alg.*, Ch. IX, § 6, No. 1, Cor. 1 of Th. 1). For every $u \in G$, let $(u_{ij})$ be its matrix with respect to $(e_i)$. For any $j$, we have $\sum_{i=1}^n |u_{ij}|^2 = 1$, thus $|u_{ij}| \leq 1$ for all $i$ and $j$, which proves (i).
 
-(i) $\Rightarrow$ (ii): This follows from GT, X, \S 3, No. 5, Cor. of Th. 4, taking into account the fact that the topology of $\mathrm{End}(E)$ is that of compact convergence.
+(i) $\Rightarrow$ (ii): This follows from GT, X, § 3, No. 5, Cor. of Th. 4, taking into account the fact that the topology of $\mathrm{End}(E)$ is that of compact convergence.
 
 (ii) $\Rightarrow$ (iii): Suppose that the closure $\overline{G}$ of $G$ in $\mathrm{Aut}(E)$ is compact. Let $\Phi$ be a nondegenerate positive hermitian form on $E$. If the field of scalars is $\mathbf{R}$ or $\mathbf{C}$, the giving of $\Phi$ makes $E$ a finite-dimensional Hilbert space, and condition (iii) will result from the following lemma:
 
-$^1$ Non dégénérée; in EVT, the term is replaced by séparante, subsequently translated as "separating" (TVS, V, \S 1, No. 1).
+$^1$ Non dégénérée; in EVT, the term is replaced by séparante, subsequently translated as "separating" (TVS, V, § 1, No. 1).
 
 #### Lemma 1 {#int-vii-s3-lem-1 .statement}
 
@@ -212,13 +212,13 @@ $$
 therefore, for all $x', y', z'$ in $K$,
 
 $$
--\varphi(x', y') = \varphi(z', x'y') - y'^{-1}\varphi(z', x') - \varphi(z'x', y').
+-\varphi(x', y') = \varphi(z', x'y') - {y'}^{-1}\varphi(z', x') - \varphi(z'x', y').
 $$
 
 Let us integrate with respect to $z'$ by means of the normalized Haar measure $\alpha$ of $K$. Setting $\psi(x') = \int \varphi(z', x')\, d\alpha(z')$, $\psi$ is a continuous function on K, and (on observing that the operations of K in $\mathbf{R}^n$ respect the vector space structure of $\mathbf{R}^n$ by GT, VII, §2, No. 1, Prop. 1), one obtains
 
 $$
--\varphi(x', y') = \psi(x'y') - y'^{-1}\psi(x') - \psi(y').
+-\varphi(x', y') = \psi(x'y') - {y'}^{-1}\psi(x') - \psi(y').
 $$
 
 In other words, setting $k - \psi \circ \pi$, which is a continuous function on G,
@@ -440,7 +440,7 @@ Z_{11} & Z_{11}Z_{12} & \ldots & Z_{11}Z_{1r} \\
 \end{pmatrix}.
 $$
 
-Now, consider, for $k < l$, the vector space of matrices $Z_{kl} = (z_{ij})_{i \in I_k, j \in I_l}$. It is the direct sum of the $n_l$ subspaces $M_j$ ($j \in I_l$) formed by the matrices such that $z_{ih} = 0$ for $h \neq j$. Each of these subspaces $M_j$ is stable under the mapping $Z_{kl} \mapsto Z_{kk}Z_{kl}$, and the restriction of this mapping to $M_j$ has matrix $Z_{kk}$. Consequently (\S 1, No. 10, Prop. 15) the image of the measure $\bigotimes_{i \in I_k, j \in I_l} dz_{ij}$ under the mapping $Z_{kl} \mapsto Z_{kk}Z_{kl}$ is
+Now, consider, for $k < l$, the vector space of matrices $Z_{kl} = (z_{ij})_{i \in I_k, j \in I_l}$. It is the direct sum of the $n_l$ subspaces $M_j$ ($j \in I_l$) formed by the matrices such that $z_{ih} = 0$ for $h \neq j$. Each of these subspaces $M_j$ is stable under the mapping $Z_{kl} \mapsto Z_{kk}Z_{kl}$, and the restriction of this mapping to $M_j$ has matrix $Z_{kk}$. Consequently (§ 1, No. 10, Prop. 15) the image of the measure $\bigotimes_{i \in I_k, j \in I_l} dz_{ij}$ under the mapping $Z_{kl} \mapsto Z_{kk}Z_{kl}$ is
 
 $$
 (\operatorname{mod} \det Z_{kk})^{-n_l} \cdot \bigotimes_{i \in I_k, j \in I_l} dz_{ij}.
@@ -454,7 +454,7 @@ $$
 
 with $q_k = \sum_{k \leq l \leq r} n_l = n - p_k$.
 
-Let us calculate the *modulus* of $G$, again using Prop. 14 of \S 2. The groups $D$ and $T_J$ are unimodular; on the other hand:
+Let us calculate the *modulus* of $G$, again using Prop. 14 of § 2. The groups $D$ and $T_J$ are unimodular; on the other hand:
 
 $$
 \begin{pmatrix}
@@ -485,7 +485,7 @@ $$
 \end{pmatrix},
 $$
 
-where $Z'_{kl} = Z_{kk}Z_{kl}Z_{ll}^{-1}$. Taking into account Example 3, and Prop. 15 of \S 1, No. 10, and arguing as above, one sees that if $X = \operatorname{diag}(Z_{11}, \ldots, Z_{rr}) \in D$ then the modulus of the automorphism $Z \mapsto X^{-1}ZX$ of $T_J$ is
+where $Z'_{kl} = Z_{kk}Z_{kl}Z_{ll}^{-1}$. Taking into account Example 3, and Prop. 15 of § 1, No. 10, and arguing as above, one sees that if $X = \operatorname{diag}(Z_{11}, \ldots, Z_{rr}) \in D$ then the modulus of the automorphism $Z \mapsto X^{-1}ZX$ of $T_J$ is
 
 $$
 \prod_{k < l} (\operatorname{mod} \det Z_{kk})^{-n_l} (\operatorname{mod} \det Z_{ll})^{n_k},
@@ -541,7 +541,7 @@ The group $T(n, K)^*$ is a closed subgroup of $\mathbf{GL}(n, K)$, and $\Delta_{
 $$
 \Delta_{T(n, K)^*}/\Delta_{\mathbf{GL}(n, K)}
 $$
-on $T(n, K)^*$ cannot be extended to a continuous representation of $\mathbf{GL}(n, K)$ in $\mathbf{C}^*$ (because such a representation would be equal to 1 on $\mathbf{SL}(n, K)$ by Lemma 5, whereas $\operatorname{mod}(z_{11})^{1-n} \neq 1$ for $z_{11}$ suitably chosen). It follows that the homogeneous space $\mathbf{GL}(n, K)/T(n, K)^*$ *admits no relatively invariant measure* if $n > 1$ (\S 2, No. 6, Cor. 1 of Th. 3).
+on $T(n, K)^*$ cannot be extended to a continuous representation of $\mathbf{GL}(n, K)$ in $\mathbf{C}^*$ (because such a representation would be equal to 1 on $\mathbf{SL}(n, K)$ by Lemma 5, whereas $\operatorname{mod}(z_{11})^{1-n} \neq 1$ for $z_{11}$ suitably chosen). It follows that the homogeneous space $\mathbf{GL}(n, K)/T(n, K)^*$ *admits no relatively invariant measure* if $n > 1$ (§ 2, No. 6, Cor. 1 of Th. 3).
 
 This homogeneous space may be identified, for $n = 2$, with the *projective line* over $K$. For, let $(e_1, e_2)$ be the canonical basis of $K^2$. The group $\mathbf{GL}(2, K)$ operates transitively on the set of lines of $K^2$ with 0 omitted, and the stabilizer of $Ke_1 - \{0\}$ is $T(2, K)^*$.
 
@@ -560,7 +560,7 @@ the Haar measure on $D_1$ such that
 $$
 \alpha/\mu = \bigotimes_{k=1}^{r-1} \left( (\operatorname{mod} \det Z_{kk})^{-n_k} \cdot \bigotimes_{i,j \in I_k} dz_{ij} \right)
 $$
-(\S 2, No. 7, Prop. 10). One then shows as in Example 4 that a left Haar measure on $G_1$ is given by
+(§ 2, No. 7, Prop. 10). One then shows as in Example 4 that a left Haar measure on $G_1$ is given by
 $$
 \operatorname{mod} \left( \prod_{k=1}^{r-1} (\det Z_{kk})^{n_k-q_k} \right)
 $$
@@ -568,7 +568,7 @@ $$
 \cdot \left[ \bigotimes_{k=1}^{r-1} ((\operatorname{mod} \det Z_{kk})^{-n_k} \cdot \bigotimes_{i,j \in I_k} dz_{ij}) \otimes' d\mu(Z_{rr}) \right] \otimes \bigotimes_{(i,j) \in J} dz_{ij}.
 $$
 
-Since $G_1$ is normal in $G$, the *modulus* of $G_1$ is the restriction of that of $G$ (\S 2, No. 7, Prop. 10 b)).
+Since $G_1$ is normal in $G$, the *modulus* of $G_1$ is the restriction of that of $G$ (§ 2, No. 7, Prop. 10 b)).
 
 If $n_r = 1$, the subgroup $A$ reduces to the neutral element, and a left Haar measure on $G$ is
 
@@ -643,7 +643,7 @@ b) *Let $\mu_1$ and $\mu_2$ be left Haar measures on the upper strict triangular
 
 c) *The complement of $\Omega'$ in $\mathbf{SL}(n, K)$ is negligible for the Haar measure of $\mathbf{SL}(n, K)$*.
 
-The group $\mathbf{GL}(n, K)$ is unimodular (Example 1), and $\mathbf{SL}(n, K)$ is a normal subgroup of $\mathbf{GL}(n, K)$, hence is unimodular (\S 2, No. 7, Prop. 10 b)). The assertion b) follows from a), Lemma 8, and Prop. 13 of \S 2, No. 9. Let us prove c). By Lemma 8 a), it suffices to prove the following: if $p((u_{ij})_{1 \leq i,j \leq n})$ is a polynomial, not identically zero on $\mathbf{SL}(n, K)$, then the set E of $U \in \mathbf{SL}(n, K)$ such that $p(U) = 0$ is negligible for the Haar measure. Taking into account \S 1, No. 10, Cor. of Prop. 13, the topology of $\mathbf{SL}(n, K)$ has a countable base. It therefore suffices to prove that for every $U_0 \in E$, there exists a neighborhood of $U_0$ in $\mathbf{SL}(n, K)$ whose intersection with E is negligible; or again that there exists a neighborhood W of I in $\mathbf{SL}(n, K)$ such that $U_0^{-1}E \cap W$ is negligible. Let us take $W = \Omega'$. In view of b), it all comes down to showing that the set of pairs $(M, N) \in T_1(n, K) \times G'_1$ such that $p(U_0 MN) = 0$ is negligible for $\mu_1 \otimes \mu_2$. By the expressions for $\mu_1$ and $\mu_2$ (calculated in Examples 3 and 5), this will result from the following lemma:
+The group $\mathbf{GL}(n, K)$ is unimodular (Example 1), and $\mathbf{SL}(n, K)$ is a normal subgroup of $\mathbf{GL}(n, K)$, hence is unimodular (§ 2, No. 7, Prop. 10 b)). The assertion b) follows from a), Lemma 8, and Prop. 13 of § 2, No. 9. Let us prove c). By Lemma 8 a), it suffices to prove the following: if $p((u_{ij})_{1 \leq i,j \leq n})$ is a polynomial, not identically zero on $\mathbf{SL}(n, K)$, then the set E of $U \in \mathbf{SL}(n, K)$ such that $p(U) = 0$ is negligible for the Haar measure. Taking into account § 1, No. 10, Cor. of Prop. 13, the topology of $\mathbf{SL}(n, K)$ has a countable base. It therefore suffices to prove that for every $U_0 \in E$, there exists a neighborhood of $U_0$ in $\mathbf{SL}(n, K)$ whose intersection with E is negligible; or again that there exists a neighborhood W of I in $\mathbf{SL}(n, K)$ such that $U_0^{-1}E \cap W$ is negligible. Let us take $W = \Omega'$. In view of b), it all comes down to showing that the set of pairs $(M, N) \in T_1(n, K) \times G'_1$ such that $p(U_0 MN) = 0$ is negligible for $\mu_1 \otimes \mu_2$. By the expressions for $\mu_1$ and $\mu_2$ (calculated in Examples 3 and 5), this will result from the following lemma:
 
 #### Lemma 9 {#int-vii-s3-lem-9 .statement}
 
@@ -655,7 +655,7 @@ $$
 \psi(X_1, \ldots, X_r) = X_r^m \psi_0(X_1, \ldots, X_{r-1}) + \cdots + \psi_m(X_1, \ldots, X_{r-1})
 $$
 
-with $m > 0$ and $\psi_0 \neq 0$. In the space $K^{r-1}$, let $N_0$ be the set defined by $\psi_0(x_1, \ldots, x_{r-1}) = 0$, which is negligible by the induction hypothesis. For every $(x_1, \ldots, x_{r-1}) \notin N_0$, the set of $x_r \in K$ such that $(x_1, \ldots, x_{r-1}, x_r) \in N$ is finite, therefore negligible. Since $K^r$ is countable at infinity (\S 1, No. 10, Cor. of Prop. 13), $N \cap [(K^{r-1} - N_0) \times K]$ is negligible in $K^r$ (Ch. V, \S 8, No. 2, Prop. 4). Therefore N is negligible.
+with $m > 0$ and $\psi_0 \neq 0$. In the space $K^{r-1}$, let $N_0$ be the set defined by $\psi_0(x_1, \ldots, x_{r-1}) = 0$, which is negligible by the induction hypothesis. For every $(x_1, \ldots, x_{r-1}) \notin N_0$, the set of $x_r \in K$ such that $(x_1, \ldots, x_{r-1}, x_r) \in N$ is finite, therefore negligible. Since $K^r$ is countable at infinity (§ 1, No. 10, Cor. of Prop. 13), $N \cap [(K^{r-1} - N_0) \times K]$ is negligible in $K^r$ (Ch. V, § 8, No. 2, Prop. 4). Therefore N is negligible.
 
 #### Example 7 {#int-vii-s3-n3-exa-7 .statement}
 
@@ -762,7 +762,7 @@ with $h_{ij} = \overline{h_{ji}}$ for all $i$ and $j$. We denote by $\mathfrak{H
 
 The general linear group $\mathbf{GL}(n, K)$ operates continuously on the right in $\mathfrak{H}$ by $(X, \Phi) \mapsto \Phi \circ X$, that is, by $(X, H) \mapsto t \overline{X} \cdot H \cdot X$, where $H$ denotes the hermitian matrix corresponding to $\Phi$. It is clear that $\mathfrak{H}_+^*$ is stable under $\mathbf{GL}(n, K)$. More precisely, by *Alg.*, Ch. IX, §6, No. 1, Cor. 1 of Th. 1,$^1$ $\mathfrak{H}_+^*$ is the orbit under $\mathbf{GL}(n, K)$ of the form $\sum_{i=1}^n \overline{x_i} y_i$ corresponding to the identity matrix $I_n$. The stabilizer of this form is $\mathbf{U}(n, K)$. By Lemma 2 of App. I, $\mathfrak{H}_+^*$ may be identified, as a topological homogeneous space, with $\mathbf{GL}(n, K)/\mathbf{U}(n, K)$.
 
-For every $X \in \mathbf{GL}(n, K)$, let $\widetilde{X}$ be the automorphism $H \mapsto t \overline{X} \cdot H \cdot X$ of the *real* vector space $\mathfrak{H}$. If $\mu$ denotes the Haar measure of the additive group $\mathfrak{H}$, one has $\widetilde{X}^{-1}(\mu) = |\det \widetilde{X}| \cdot \mu$ (\S1, No. 10, Cor. 1 of Prop. 15). Let us show that
+For every $X \in \mathbf{GL}(n, K)$, let $\widetilde{X}$ be the automorphism $H \mapsto t \overline{X} \cdot H \cdot X$ of the *real* vector space $\mathfrak{H}$. If $\mu$ denotes the Haar measure of the additive group $\mathfrak{H}$, one has $\widetilde{X}^{-1}(\mu) = |\det \widetilde{X}| \cdot \mu$ (§ 1, No. 10, Cor. 1 of Prop. 15). Let us show that
 
 $$
 | \det \widetilde{X} | = | N(X) |^\lambda ,

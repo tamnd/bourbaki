@@ -53,9 +53,9 @@ subsections:
       pdf_page: 316
 statements: 52
 exercises: 31
-content_sha256: 2c8f22c9632129c3d0e197babf103bc970503fe3c5096ba3b19b98c3d8b92417
+content_sha256: 59ae08b2722925a6a198a4adf210da3a3eb4a8ed7bb17b1a44fcd6110338c92c
 translated_from: content/en/int/V/05_s5_measures_defined_by_numerical_densities.md
-source_content_sha256: 6a7503ac7070c09ee4ba4dc75d90e625e4265b85f43d14a0cdfa0ac09063fc13
+source_content_sha256: 558c461f3e10e0b61d6e6a8d8129f54ba980ff5cc18f3a572913b450c90ee96e
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-57dece11
 glossary_version: 34
@@ -309,11 +309,11 @@ và ta nói rằng $\int_A f \, d\mu$ là *tích phân của* $f$ *trên* $A$ (h
 $$
 g \cdot \lambda = \sup_{\alpha \in A} g \cdot \lambda_\alpha.
 $$
-Rõ ràng điều kiện là cần. Ngược lại, giả sử rằng $g$ địa phương khả tích đối với từng độ đo $\lambda_\alpha$ và rằng họ $(g \cdot \lambda_\alpha)_{\alpha \in A}$ bị chặn trên; ký hiệu supremum của nó là $\lambda'$. Khi đó hàm $g$ là $\lambda$-đo được (\S 1, No. 4, Hệ quả 2 của Mệnh đề 11); hơn nữa, với mọi hàm $h \in \mathcal{K}_+(T)$,
+Rõ ràng điều kiện là cần. Ngược lại, giả sử rằng $g$ địa phương khả tích đối với từng độ đo $\lambda_\alpha$ và rằng họ $(g \cdot \lambda_\alpha)_{\alpha \in A}$ bị chặn trên; ký hiệu supremum của nó là $\lambda'$. Khi đó hàm $g$ là $\lambda$-đo được (§ 1, No. 4, Hệ quả 2 của Mệnh đề 11); hơn nữa, với mọi hàm $h \in \mathcal{K}_+(T)$,
 $$
 \int^\bullet (hg) \, d\lambda = \sup_{\alpha \in A} \int^\bullet (hg) \, d\lambda_\alpha = \sup_{\alpha \in A} \int^\bullet h \, d(g \cdot \lambda_\alpha) = \int^\bullet h \, d\lambda'
 $$
-(\S 1, No. 4, Mệnh đề 11). Điều này trước hết suy ra rằng thành phần thứ nhất là hữu hạn với mọi $h$, do đó $g$ địa phương khả tích theo $\lambda$; vì vậy ký hiệu $\int^\bullet$ có thể được thay bằng $\int$, và công thức có thể viết là $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. Suy ra $g \cdot \lambda = \lambda'$, và điều đó hoàn tất chứng minh.
+(§ 1, No. 4, Mệnh đề 11). Điều này trước hết suy ra rằng thành phần thứ nhất là hữu hạn với mọi $h$, do đó $g$ địa phương khả tích theo $\lambda$; vì vậy ký hiệu $\int^\bullet$ có thể được thay bằng $\int$, và công thức có thể viết là $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. Suy ra $g \cdot \lambda = \lambda'$, và điều đó hoàn tất chứng minh.
 
 #### Hệ quả {#int-v-s5-n4-cor-1 .statement}
 
@@ -351,13 +351,13 @@ $$
 g \cdot \nu = \int (g \cdot \lambda_t) d\mu(t).
 $$
 
-Let $(K_n)_{n \in \mathbf{N}}$ be an increasing sequence of compact subsets of $X$ whose interiors cover $X$; if $\eta$ is any positive measure on $X$, to say that $g$ is locally $\eta$-integrable is equivalent to saying that $g \varphi_{K_n}$ is $\eta$-integrable for every $n$. Now let $H_n$ be the set of $t \in T$ such that $g \varphi_{K_n}$ is not $\lambda_t$-integrable, and let $H = \bigcup_n H_n$; since $H_n$ is locally $\mu$-negligible for all $n$ (\S 3, No. 3, Th. 1), the same is true of $H$, which establishes the first assertion of the statement. Replacing $\lambda_t$ by 0 for $t$ in $H$ (which does not change the measure $\nu$), we can suppose that $g$ is locally $\lambda_t$-integrable for every $t \in T$. For every $\nu$-measurable positive function $h$ defined on $X$, we have, by Prop. 3 and by Prop. 5 of \S 3, No. 2,
+Let $(K_n)_{n \in \mathbf{N}}$ be an increasing sequence of compact subsets of $X$ whose interiors cover $X$; if $\eta$ is any positive measure on $X$, to say that $g$ is locally $\eta$-integrable is equivalent to saying that $g \varphi_{K_n}$ is $\eta$-integrable for every $n$. Now let $H_n$ be the set of $t \in T$ such that $g \varphi_{K_n}$ is not $\lambda_t$-integrable, and let $H = \bigcup_n H_n$; since $H_n$ is locally $\mu$-negligible for all $n$ (§ 3, No. 3, Th. 1), the same is true of $H$, which establishes the first assertion of the statement. Replacing $\lambda_t$ by 0 for $t$ in $H$ (which does not change the measure $\nu$), we can suppose that $g$ is locally $\lambda_t$-integrable for every $t \in T$. For every $\nu$-measurable positive function $h$ defined on $X$, we have, by Prop. 3 and by Prop. 5 of § 3, No. 2,
 
 $$
 \int^\bullet h d(g \cdot \nu) = \int^\bullet (gh) d\nu = \int^\bullet d\mu(t) \int^\bullet (gh) d\lambda_t = \int^\bullet d\mu(t) \int^\bullet h d(g \cdot \lambda_t).
 $$
 
-This formula and Prop. 5 of \S 3, No. 2 first show (on taking $h \in \mathcal{K}_+(X)$) that the mapping $t \mapsto g \cdot \lambda_t$ is scalarly essentially $\mu$-integrable, and that its integral is $g \cdot \nu$; in other words, the relation (9) holds. Next, let us replace $\mu$ by a positive measure $\mu' \leq \mu$, and let us take for $h$ a positive lower semi-continuous function: it follows at once from these relations that $t \mapsto g \cdot \lambda_t$ is $\mu$-adequate (\S 3, No. 1, Def. 1).
+This formula and Prop. 5 of § 3, No. 2 first show (on taking $h \in \mathcal{K}_+(X)$) that the mapping $t \mapsto g \cdot \lambda_t$ is scalarly essentially $\mu$-integrable, and that its integral is $g \cdot \nu$; in other words, the relation (9) holds. Next, let us replace $\mu$ by a positive measure $\mu' \leq \mu$, and let us take for $h$ a positive lower semi-continuous function: it follows at once from these relations that $t \mapsto g \cdot \lambda_t$ is $\mu$-adequate (§ 3, No. 1, Def. 1).
 
 #### Mệnh đề 8 {#int-v-s5-prop-8 .statement}
 
@@ -392,7 +392,7 @@ một công thức tương đương với (10).
 2) *Mọi tập địa phương $\mu$-không đáng kể đều là địa phương $\nu$-không đáng kể*.
 3) *Mọi tập compact $\mu$-không đáng kể đều là $\nu$-không đáng kể*.
 
-Rõ ràng 1) kéo theo 2) (Hệ quả 1 của Mệnh đề 3), và 2) kéo theo 3). Ta sẽ chứng minh rằng 3) kéo theo 1). Trước hết ta nhận xét rằng nếu điều kiện 3) được thỏa mãn thì mọi tập $A$ vừa *khả đo được mọi nơi* vừa địa phương $\mu$-không đáng kể đều địa phương $\nu$-không đáng kể; thật vậy, $\nu^\bullet(A) = \sup \nu(K)$, trong đó $K$ chạy qua tập hợp các tập compact được chứa trong $A$ (\S 1, No. 3, Mệnh đề 10, a) và Ch. IV, \S 4, No. 6, Hệ quả 2 của Định lý 4). Tiếp theo, ta sẽ thiết lập hai bổ đề.
+Rõ ràng 1) kéo theo 2) (Hệ quả 1 của Mệnh đề 3), và 2) kéo theo 3). Ta sẽ chứng minh rằng 3) kéo theo 1). Trước hết ta nhận xét rằng nếu điều kiện 3) được thỏa mãn thì mọi tập $A$ vừa *khả đo được mọi nơi* vừa địa phương $\mu$-không đáng kể đều địa phương $\nu$-không đáng kể; thật vậy, $\nu^\bullet(A) = \sup \nu(K)$, trong đó $K$ chạy qua tập hợp các tập compact được chứa trong $A$ (§ 1, No. 3, Mệnh đề 10, a) và Ch. IV, § 4, No. 6, Hệ quả 2 của Định lý 4). Tiếp theo, ta sẽ thiết lập hai bổ đề.
 
 #### Bổ đề 2 {#int-v-s5-lem-2 .statement}
 
@@ -404,7 +404,7 @@ $$
 |\beta(g)|^2 \leq \left( \int |g| \, d|\beta| \right)^2 \leq \left( \int d|\beta| \right) \left( \int |g|^2 \, d|\beta| \right) \leq M^2 \alpha(1) \, \alpha(|g|^2).
 $$
 
-Ánh xạ $g \mapsto \beta(g)$ do đó là một dạng tuyến tính liên tục trên $\mathcal{L}^2(T, \alpha)$. Vì không gian Hausdorff gắn với $\mathcal{L}^2(T, \alpha)$ là một không gian Hilbert, nên tồn tại (TVS, Ch. V, \S 1, No. 7, Định lý 3) một hàm thực $u \in \mathcal{L}^2(T, \alpha)$, do đó cũng thuộc $\mathcal{L}^1(T, \alpha)$, sao cho $\beta(g) = \alpha(ug)$ với mọi $g \in \mathcal{L}^2(T, \alpha)$. Áp dụng quan hệ này cho $g \in \mathcal{K}(T)$, ta thấy rằng $\beta = u \cdot \alpha$.
+Ánh xạ $g \mapsto \beta(g)$ do đó là một dạng tuyến tính liên tục trên $\mathcal{L}^2(T, \alpha)$. Vì không gian Hausdorff gắn với $\mathcal{L}^2(T, \alpha)$ là một không gian Hilbert, nên tồn tại (TVS, Ch. V, § 1, No. 7, Định lý 3) một hàm thực $u \in \mathcal{L}^2(T, \alpha)$, do đó cũng thuộc $\mathcal{L}^1(T, \alpha)$, sao cho $\beta(g) = \alpha(ug)$ với mọi $g \in \mathcal{L}^2(T, \alpha)$. Áp dụng quan hệ này cho $g \in \mathcal{K}(T)$, ta thấy rằng $\beta = u \cdot \alpha$.
 
 #### Bổ đề 3 {#int-v-s5-lem-3 .statement}
 

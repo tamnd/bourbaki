@@ -50,7 +50,7 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: 457e0969d8a65a8d0ac531e9ded6cf0fc4bcffb779afaee416c5d69718bce01a
+content_sha256: 636e7419f5096aeaae07da1eedab8fcc50aecad050561d6f5aa49f9685bdb9d7
 ---
 
 ## § 7. SEPARABLE ALGEBRAIC EXTENSIONS
@@ -120,7 +120,7 @@ $$
 
 — 1) Let L be an extension of K and f a non-constant polynomial in K[X]. By *e)* of Prop. 3 and V, p. 32, Cor. 2 it comes to the same to suppose that f is separable, whether considered as element of K[X] or of L[X]. On the other hand, it may well happen that f is irreducible in K[X] but not in L[X].
 
-2) Let $f \in K[X]$; we know (IV, p. 13, Prop. 13) that there exist irreducible polynomials $f_1, \ldots, f_m$ in $K[X]$ such that $f = f_1 \ldots f_m$. Let $\Omega$ be an algebraic closure of $K$; since an irreducible polynomial $g \in K[X]$ is the minimal polynomial over $K$ of each of its roots in $\Omega$, two distinct irreducible polynomials in $K[X]$ have no common root in $\Omega$. Condition $d)$ of Prop. 3 now shows that $f$ is separable if and only if the polynomials $f_1, \ldots, f_m$ are separable and pairwise distinct.
+2) Let $f \in K[X]$; we know (IV, p. 13, Prop. 13) that there exist irreducible polynomials $f_1, \ldots, f_m$ in $K[X]$ such that $f = f_1 \ldots f_m$. Let $\Omega$ be an algebraic closure of $K$; since an irreducible polynomial $g \in K[X]$ is the minimal polynomial over $K$ of each of its roots in $\Omega$, two distinct irreducible polynomials in $K[X]$ have no common root in $\Omega$. Condition d) of Prop. 3 now shows that $f$ is separable if and only if the polynomials $f_1, \ldots, f_m$ are separable and pairwise distinct.
 
 #### Proposition 4 {#alg-v-s7-prop-4 .statement}
 
@@ -131,15 +131,15 @@ b) *There exists an extension $L$ of $K$ in which $f$ has a simple root.*
 c) *The derivative $f'$ off is not zero.*
 d) *The field $K$ is of characteristic $0$, or it is of characteristic $p \neq 0$ and $f \not\in K[X^p]$*.
 
-We note first that an irreducible polynomial in $K[X]$ is not constant. It is clear that $a)$ implies $b)$ (take an algebraic closure of $K$ for $L$). If $x$ is a simple root off in an extension $L$ of $K$, we have $f'(x) \neq 0$ (IV, p. 17, Prop. 7), so $b)$ implies $c)$, and the equivalence of $c)$ and $d)$ follows from V, p. 9, Cor.
+We note first that an irreducible polynomial in $K[X]$ is not constant. It is clear that a) implies b) (take an algebraic closure of $K$ for $L$). If $x$ is a simple root off in an extension $L$ of $K$, we have $f'(x) \neq 0$ (IV, p. 17, Prop. 7), so b) implies c), and the equivalence of c) and d) follows from V, p. 9, Cor.
 
-Suppose finally that $f \neq 0$; let $x$ be a root of $f$ in an algebraically closed extension $\Omega$ of $K$. Since $f$ is the minimal polynomial of $x$ over $K$ and $\deg f' < \deg f$, we have $f'(x) \neq 0$, and so $x$ is a simple root of $f$ (IV, p. 17, Prop. 7). Therefore $f$ is separable and we have shown that $c)$ implies $a)$.
+Suppose finally that $f \neq 0$; let $x$ be a root of $f$ in an algebraically closed extension $\Omega$ of $K$. Since $f$ is the minimal polynomial of $x$ over $K$ and $\deg f' < \deg f$, we have $f'(x) \neq 0$, and so $x$ is a simple root of $f$ (IV, p. 17, Prop. 7). Therefore $f$ is separable and we have shown that c) implies a).
 
 #### Corollary 1 {#alg-v-s7-prop-4-cor-1 .statement}
 
 — *For a field $K$ to be perfect it is necessary and sufficient that every irreducible polynomial of $K[X]$ should be separable*.
 
-If the field $K$ is of characteristic $0$, $K$ is perfect and every irreducible polynomial of $K[X]$ is separable, by $d)$ above. Suppose then that $K$ has characteristic $p \neq 0$.
+If the field $K$ is of characteristic $0$, $K$ is perfect and every irreducible polynomial of $K[X]$ is separable, by d) above. Suppose then that $K$ has characteristic $p \neq 0$.
 
 Suppose first that $K$ is perfect. We have $K[X^p] = K[X]^p$, hence there exists no irreducible polynomial of $K[X]$ belonging to $K[X^p]$. By Prop. 4, every irreducible polynomial of $K[X]$ is then separable.
 
@@ -217,7 +217,7 @@ Next we observe that Condition b) implies that the extension E is of finite degr
 To show that b) $\Rightarrow$ a) we now distinguish two cases:
 A) If the field $K$ is *finite*, the field $E$ is a vector space of finite dimension over K and hence is a finite set. Therefore $^1$ (V, p. 78, Lemma 1) there exists an element $x$ of $E$ generating the multiplicative group of $E$, and we have $E = K[x]$.
 
-B) Suppose now that the field $K$ is infinite. If $b)$ holds, the extension $E$ is of finite degree, so $b)$ can also be expressed by saying that $E$ possesses only a finite number of subalgebras. This being so, the implication $b) \Rightarrow a)$ is a consequence of the following more general proposition (for which the hypothesis that the field $K$ be infinite is indispensable, cf. V, p. 153, Ex. 5 of § 7):
+B) Suppose now that the field $K$ is infinite. If b) holds, the extension $E$ is of finite degree, so b) can also be expressed by saying that $E$ possesses only a finite number of subalgebras. This being so, the implication $b) \Rightarrow a)$ is a consequence of the following more general proposition (for which the hypothesis that the field $K$ be infinite is indispensable, cf. V, p. 153, Ex. 5 of § 7):
 
 #### Proposition 7 {#alg-v-s7-prop-7 .statement}
 
@@ -229,7 +229,7 @@ Let $A_1, \ldots, A_n$ be the subalgebras of $A$ distinct from $A$. If $x \notin
 
 Arguing by induction on $n$, we need only prove that if $V \subset A$, and $V \subset A_1 \cup \ldots \cup A_n$, then $V \subset A_1 \cup \ldots \cup A_{n-1}$. Let $x \in V, x \notin A_n$, and let $y$ be arbitrary in $V$. If $y \in Kx$, we have $y \in A_1 \cup \ldots \cup A_{n-1}$; if not, then the elements $x$ and $y + \lambda x, \lambda \in K$ are strictly greater than $n$ in number and belong to $A_1 \cup \ldots \cup A_n$, so two of them belong to the same $A_i$. Thus there exists $i, 1 \leq i \leq n$ such that either $x \in A_i$ and $y + \lambda x \in A_i$ for some $\lambda \in K$, or $y + \mu x \in A_i$ and $y + \mu x \in A_i$ for two distinct scalars $\lambda, \mu \in K$. In both cases we conclude that $x \in A_i$ and $y \in A_i$; but this implies that $i \neq n$, hence $y \in A_1 \cup \ldots \cup A_{n-1}$, as we wished to show.
 
-This completes the proof of the equivalence of $a)$ and $b)$ in Th. 1. Finally if the extension $E$ is separable and of finite degree, condition $b)$ holds, by V, p. 30, Prop. 3.
+This completes the proof of the equivalence of a) and b) in Th. 1. Finally if the extension $E$ is separable and of finite degree, condition b) holds, by V, p. 30, Prop. 3.
 
 ### 5. Stability properties of separable algebraic extensions
 
@@ -277,7 +277,7 @@ $$
 
 If E is of finite degree over K, it is a separable extension of K if and only if it is an etale algebra over K; the Cor. of V, p. 35 shows that this happens if and only if $E = K[E^p]$.
 
-Suppose now that $E$ is separable and of infinite degree over $K$. Then $K[E^p]$ is the union of the subrings $K[E'^p]$ where $E'$ ranges over the set of subextensions of $E$ of finite degree over $K$; but such an extension $E'$ is separable over $K$ ($V$, p. 36, Prop. 1), whence $E' = K[E'^p] \subset K[E^p]$ by what has been said; finally we have $E = K[E^p]$. By induction on $n \geq 0$, the relation $E = K[E^p]$ implies that $E = K[E^{p^n}]$.
+Suppose now that $E$ is separable and of infinite degree over $K$. Then $K[E^p]$ is the union of the subrings $K[{E'}^p]$ where $E'$ ranges over the set of subextensions of $E$ of finite degree over $K$; but such an extension $E'$ is separable over $K$ ($V$, p. 36, Prop. 1), whence $E' = K[{E'}^p] \subset K[E^p]$ by what has been said; finally we have $E = K[E^p]$. By induction on $n \geq 0$, the relation $E = K[E^p]$ implies that $E = K[E^{p^n}]$.
 
 #### Corollary 1 {#alg-v-s7-prop-11-cor-1 .statement}
 

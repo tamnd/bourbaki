@@ -33,7 +33,7 @@ subsections:
       pdf_page: 297
 statements: 19
 exercises: 2
-content_sha256: 0601f5a972d547031f1e7cc4a0db81f9b81422a6325abb37e5c00dc3f3b61ed5
+content_sha256: e0bde61bd2ef5221c91f98a1a93655e2dfe09109667defb62d5d7f6085ea0b7e
 ---
 
 ## § 3. PRODUIT TENSORIEL D’ESPACES HILBERTIENS
@@ -541,7 +541,7 @@ $$
 $$
 pour $z = (z_1, \ldots, z_n)$ et $z' = (z'_1, \ldots, z'_n)$ dans $\mathbf{C}^n$. Par hypothèse, $\Phi$ est positive.
 
-Supposons d'abord que $\Phi$ soit séparante, c'est-à-dire $D$ non nul. Si $(e_1, \ldots, e_n)$ est la base canonique de $\mathbf{C}^n$, on a $\Phi(e_i, e_j) = a_{ij}$, et le cor. 2 résulte aussitôt du cor. 1, $a)$ où l'on fait $x_i = e_i$.
+Supposons d'abord que $\Phi$ soit séparante, c'est-à-dire $D$ non nul. Si $(e_1, \ldots, e_n)$ est la base canonique de $\mathbf{C}^n$, on a $\Phi(e_i, e_j) = a_{ij}$, et le cor. 2 résulte aussitôt du cor. 1, a) où l'on fait $x_i = e_i$.
 
 Puisque $a_{ii} = \Phi(e_i, e_i) \geqslant 0$, on a aussi l'inégalité (40) si $D = 0$.
 

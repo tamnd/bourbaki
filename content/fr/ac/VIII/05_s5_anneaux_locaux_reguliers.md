@@ -29,7 +29,7 @@ subsections:
       pdf_page: 60
 statements: 31
 exercises: 31
-content_sha256: 61d62c5fb1b3cd474280d2b1da7a38309498c2b03d1ce4e9e1982d20862c828d
+content_sha256: bc0c6917e598be8900d5fcc96d0fafb6274bac3530769cf01ac55c7968309600
 ---
 
 ## § 5. ANNEAUX LOCAUX RÉGULIERS
@@ -104,7 +104,7 @@ En effet, $\hat{A}$ est plat sur A, et l’on a $m_{\hat{A}} = \hat{A}.m_A$ (III
 
 Soit A un anneau local noethérien. Les conditions suivantes sont équivalentes :
 (i) A est régulier.
-(ii) L’idéal $m_A$ est engendré par une partie sécante pour A (\S 3, no 2, déf. 1).
+(ii) L’idéal $m_A$ est engendré par une partie sécante pour A (§ 3, no 2, déf. 1).
 (iii) L’idéal $m_A$ est engendré par une suite complètement sécante pour A (A, X, p. 157, déf. 2).
 (iv) Soit S l’algèbre symétrique du $\kappa_A$-espace vectoriel $m_A/m_A^2$, et soit gr(A) = $\bigoplus_{n \geqslant 0} m_A^n/m_A^{n+1}$ l’anneau gradué associé à A. L’homomorphisme canonique $\gamma$ de S sur gr(A) est bijectif.
 (v) Il existe un entier $r \geqslant 0$ tel que l’on ait $H_{A,m_A} = (1 - T)^{-r}$, c’est-à-dire $m_A = 0$ si $r = 0$ et $[m_A^n/m_A^{n+1} : \kappa_A] = \binom{n + r - 1}{r - 1}$ pour tout entier $n \geqslant 0$ si $r > 0$.
@@ -112,8 +112,8 @@ Soit A un anneau local noethérien. Les conditions suivantes sont équivalentes 
 
 Si ces conditions sont remplies, tout système de coordonnées de A est une suite complètement sécante pour A.
 
-(ii) \Rightarrow (i) : en effet, toute partie sécante a au plus $\dim(A)$ éléments (\S 3, no 2, th. 1).
-(iii) \Rightarrow (ii) : en effet, toute suite complètement sécante est sécante (\S 3, no 2, corollaire de la prop. 3).
+(ii) \Rightarrow (i) : en effet, toute partie sécante a au plus $\dim(A)$ éléments (§ 3, no 2, th. 1).
+(iii) \Rightarrow (ii) : en effet, toute suite complètement sécante est sécante (§ 3, no 2, corollaire de la prop. 3).
 (iv) \Rightarrow (iii) : soit $(x_1, ..., x_r)$ une suite d’éléments de $m_A$ dont les classes modulo $m_A^2$ forment une base $(\xi_1, ..., \xi_r)$ de $m_A/m_A^2$ sur le corps $\kappa_A$. Si la propriété (iv) est satisfaite, gr(A) est l’algèbre de polynômes $\kappa_A[\xi_1, ..., \xi_r]$ et la suite $(x_1, ..., x_r)$ est complètement sécante (A, X, p. 160, th. 1). Ceci prouve aussi la dernière assertion du th. 1.
 (i) \Rightarrow (iv) : posons $r = [m_A/m_A^2 : \kappa_A]$. D’après la formule (6) du § 4, no 2, la série de Poincaré de l’espace vectoriel gradué S sur le corps $\kappa_A$ est égale à
 
@@ -240,9 +240,9 @@ Soient $A$ un anneau, $p$ un idéal premier de $A$ et $P \in A[T]$ un polynôme 
 a) Il n’existe pas de décomposition de la forme $P = P_1 P_2$ où $P_1$ et $P_2$ sont deux polynômes unitaires de $A[T]$ distincts de 1.
 b) Supposons $A$ intégralement clos, de corps des fractions $K$. Alors $P$ est irréductible dans $K[T]$.
 
-Soit $\varphi$ l’homomorphisme canonique de $A$ dans le corps des fractions $k$ de $A/p$ et soit $\varphi': A[T] \to k[T]$ l’extension de $\varphi$ telle que $\varphi'(T) = T$. Supposons qu’on ait $P = P_1P_2$ où $P_1$ et $P_2$ sont deux polynômes unitaires de $A[T]$ distincts de 1. On a alors $T^d = \varphi'(P_1)\varphi'(P_2)$ dans $k[T]$, en notant $d$ le degré de $P$. Si $d_i$ est le degré de $P_i$, on a donc $\varphi'(P_i) = T^{d_i}$, c’est-à-dire $P_i(T) \equiv T^{d_i} \mod pA[T]$, et en particulier $P_i(0) \in p$. Mais alors $P(0) = P_1(0).P_2(0)$ appartient à $p^2$ contrairement aux hypothèses. Ceci prouve $a)$.
+Soit $\varphi$ l’homomorphisme canonique de $A$ dans le corps des fractions $k$ de $A/p$ et soit $\varphi': A[T] \to k[T]$ l’extension de $\varphi$ telle que $\varphi'(T) = T$. Supposons qu’on ait $P = P_1P_2$ où $P_1$ et $P_2$ sont deux polynômes unitaires de $A[T]$ distincts de 1. On a alors $T^d = \varphi'(P_1)\varphi'(P_2)$ dans $k[T]$, en notant $d$ le degré de $P$. Si $d_i$ est le degré de $P_i$, on a donc $\varphi'(P_i) = T^{d_i}$, c’est-à-dire $P_i(T) \equiv T^{d_i} \mod pA[T]$, et en particulier $P_i(0) \in p$. Mais alors $P(0) = P_1(0).P_2(0)$ appartient à $p^2$ contrairement aux hypothèses. Ceci prouve a).
 
-L’assertion $b)$ résulte de $a)$ et de la prop. 11 de V, § 1, no 3.
+L’assertion b) résulte de a) et de la prop. 11 de V, § 1, no 3.
 
 Soient $A$ un anneau local noethérien et $P_1, ..., P_r$ des polynômes unitaires dans $A[T]$, de degré $\geq 2$. Soit $q$ l’idéal de $A[T_1, ..., T_r]$ engendré par $P_1(T_1), ..., P_r(T_r)$ et soit $B$ la $A$-algèbre quotient $A[T_1, ..., T_r]/q$. Pour $1 \leq i \leq r$, on note $d_i$ le degré de $P_i$, $t_i$ la classe de $T_i$ modulo $q$, et $\gamma_i$ la classe de $c_i = P_i(0)$ modulo $m_A^2$. On suppose que l’on a $P_i(T) \equiv T^{d_i} \mod m_A A[T]$ pour $1 \leq i \leq r$.
 
@@ -260,7 +260,7 @@ $$
 
 La $A$-algèbre $B$ est isomorphe au produit tensoriel $B_1 \otimes_A \cdots \otimes_A B_r$ avec $B_i = A[T]/(P_i)$ pour $1 \leq i \leq r$. Il en résulte que les monômes $t_1^{\alpha(1)} ... t_r^{\alpha(r)}$, avec $0 \leq \alpha(i) < d_i$ pour $1 \leq i \leq r$, forment une base du $A$-module $B$. En particulier, $B$ est entier sur $A$, donc $A$ et $B$ ont même dimension d’après le th. 1 du § 2, no 3.
 
-D’après le cor. 3 de la prop. 9 de IV, § 2, no 5, l’anneau $B$ est noethérien, et tout idéal maximal de $B$ contient $B.m_A$. Par ailleurs, vu l’hypothèse faite sur $P_1, ..., P_r$ et la relation $P_i(t_i) = 0$, on a $t_i^{d_i} \in B.m_A$ pour $1 \leq i \leq r$. Donc tout idéal maximal de $B$ contient $t_1, ..., t_r$, donc aussi l’idéal $q' = B.m_A + Bt_1 + \cdots + Bt_r$. Or on a $m_A = A \cap q'$ et $B = A + q'$, donc $B/q'$ est isomorphe à $A/m_A$ et $q'$ est un idéal maximal de $B$; par suite, $B$ est local et l’on a $[\kappa_B : \kappa_A] = 1$. Ceci prouve $a)$.
+D’après le cor. 3 de la prop. 9 de IV, § 2, no 5, l’anneau $B$ est noethérien, et tout idéal maximal de $B$ contient $B.m_A$. Par ailleurs, vu l’hypothèse faite sur $P_1, ..., P_r$ et la relation $P_i(t_i) = 0$, on a $t_i^{d_i} \in B.m_A$ pour $1 \leq i \leq r$. Donc tout idéal maximal de $B$ contient $t_1, ..., t_r$, donc aussi l’idéal $q' = B.m_A + Bt_1 + \cdots + Bt_r$. Or on a $m_A = A \cap q'$ et $B = A + q'$, donc $B/q'$ est isomorphe à $A/m_A$ et $q'$ est un idéal maximal de $B$; par suite, $B$ est local et l’on a $[\kappa_B : \kappa_A] = 1$. Ceci prouve a).
 
 Posons $r = m_A^2 + \sum_{i=1}^r Ac_i$, et notons $\varphi$ l’homomorphisme canonique de $(A/m_A^2)[T_1, ..., T_r]$ sur $B/m_B^2$. Comme on a $m_B = B.m_A + \sum_{i=1}^r Bt_i$, le noyau $n$ de $\varphi$ est l’idéal engendré par les classes $\overline{P}_i(T_i)$ des polynômes $P_i(T_i)$ modulo $m_A^2.A[T_1, ..., T_r]$ et les monômes $T_iT_j$ et $xT_i$ pour $1 \leq i, j \leq r$ et $x$ dans $m_A/m_A^2$. D’après l’hypothèse faite sur $P_i$, à savoir $P_i(T) \equiv T^{d_i} \mod m_A.A[T]$, on peut remplacer $\overline{P}_i(T_i)$ par $\gamma_i$ dans cette description de $n$; par suite, l’anneau $B/m_B^2$ est isomorphe au quotient de $(A/r)[T_1, ..., T_r]$ par l’idéal gradué engendré par les monômes $T_i T_j$ et $x T_i$ pour $x$ dans $m_A / r$. Notons $\tau_i$ la classe de $t_i$ modulo $m_B^2$; on a donc
 
@@ -274,7 +274,7 @@ $$
 m_B / m_B^2 = (m_A / r) \oplus \kappa_A \tau_1 \oplus \cdots \oplus \kappa_A \tau_r.
 $$
 
-L’assertion $b)$ résulte aussitôt de là.
+L’assertion b) résulte aussitôt de là.
 
 D’après la formule (6) et la relation $[ \kappa_B : \kappa_A ] = 1$, on a
 
@@ -288,7 +288,7 @@ $$
 \dim(B) = \dim(A) \leq [m_A / m_A^2 : \kappa_A].
 $$
 
-L’assertion $c)$ résulte aussitôt des formules (7) et (8).
+L’assertion c) résulte aussitôt des formules (7) et (8).
 
 #### Corollaire {#ac-viii-s5-n4-cor-1 .statement}
 

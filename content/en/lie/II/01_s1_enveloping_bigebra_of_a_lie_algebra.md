@@ -7,32 +7,33 @@ section: 1
 section_title: Enveloping bigebra of a Lie algebra
 lang: en
 source: lie-i-iii
+book_pages: 111-122, 178-181
 pdf_pages: 0129-0140, 0196-0199
 extraction: ocr
 subsections:
     - "no": 1
       title: PRIMITIVE ELEMENTS OF A COGEBRA
-      page: 0
+      page: 111
       pdf_page: 129
     - "no": 2
       title: PRIMITIVE ELEMENTS OF A BIGEBRA
-      page: 0
+      page: 113
       pdf_page: 131
     - "no": 3
       title: FILTERED BIGEBRAS
-      page: 0
+      page: 114
       pdf_page: 132
     - "no": 4
       title: ENVELOPING BIGEBRA OF A LIE ALGEBRA
-      page: 0
+      page: 115
       pdf_page: 133
     - "no": 5
       title: STRUCTURE OF THE COGEBRA U(g) IN CHARACTERISTIC 0
-      page: 0
+      page: 116
       pdf_page: 134
     - "no": 6
       title: STRUCTURE OF FILTERED BIGEBRAS IN CHARACTERISTIC 0
-      page: 0
+      page: 119
       pdf_page: 137
 statements: 24
 exercises: 12

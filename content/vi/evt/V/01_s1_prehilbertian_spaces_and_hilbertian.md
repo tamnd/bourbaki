@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: 5225c61ea5dc1a952d38fe07735c8588075848460b3c57f5fb8d179cac224f66
+content_sha256: c4bf422bc15d2018220d988275a58b7bf494d90b74c7c4ead2a076c3fe077f29
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 source_content_sha256: 4bfeeee4e5c1a6ce99f5c929d436d1d7c6606ff2f9558da7d47b0ffdba15c626
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -608,13 +608,13 @@ và do đó $p_N(x) \in M$. Ta kết luận rằng $x - p_N(x) \in M$, do đó $
 
 Ta đã chứng minh a) và phần đầu của b). Bây giờ giả sử rằng $p_M$ và $p_N$ giao hoán và đặt $q = p_M + p_N - p_M p_N$; vì $p_M$ và $p_N$ là các lũy đẳng trong đại số $\mathcal{L}(E)$, q cũng vậy; do đó (GT, III, § 6, No. 2) ảnh của q là một không gian con vectơ đóng của E.
 
-Hiển nhiên ảnh của $q$ được chứa trong $M + N$; tuy nhiên, ta có $p_N(x) = x$, do đó $q(x) = x$ với mọi $x \in N$; vì ta cũng có $q = p_M + p_N - p_N p_M$, suy ra $q(x) = x$ với mọi $x \in M$. Ta kết luận rằng ảnh của $q$ bằng $M + N$. Phần trực giao của $M + N$ bằng $M^\circ \cap N^\circ$, và hạt nhân của $q$ hiển nhiên chứa $M^\circ \cap N^\circ$, do đó $q = p_{M+N}$. Điều này chứng minh $b)$.
+Hiển nhiên ảnh của $q$ được chứa trong $M + N$; tuy nhiên, ta có $p_N(x) = x$, do đó $q(x) = x$ với mọi $x \in N$; vì ta cũng có $q = p_M + p_N - p_N p_M$, suy ra $q(x) = x$ với mọi $x \in M$. Ta kết luận rằng ảnh của $q$ bằng $M + N$. Phần trực giao của $M + N$ bằng $M^\circ \cap N^\circ$, và hạt nhân của $q$ hiển nhiên chứa $M^\circ \cap N^\circ$, do đó $q = p_{M+N}$. Điều này chứng minh b).
 
-Ta có $p_M p_N = 0$ khi và chỉ khi ảnh $N$ của $p_N$ được chứa trong hạt nhân $M^\circ$ của $p_M$, tức là, khi và chỉ khi $M$ vuông góc với $N$. Phần còn lại của mệnh đề $c)$ khi đó là một trường hợp riêng của $b)$.
+Ta có $p_M p_N = 0$ khi và chỉ khi ảnh $N$ của $p_N$ được chứa trong hạt nhân $M^\circ$ của $p_M$, tức là, khi và chỉ khi $M$ vuông góc với $N$. Phần còn lại của mệnh đề c) khi đó là một trường hợp riêng của b).
 
 #### Nhận xét {#evt-v-s1-n6-rem-1 .statement}
 
-— Cho $E$ là một không gian Hilbert và $M, N$ là hai không gian con vectơ đóng của $E$. Quan hệ $M \subset N$ tương đương với tính trực giao của $M$ và $N^\circ$, tức là, với quan hệ $p_M p_{N^\circ} = 0$ theo mệnh đề 9, $c)$. Vì ta có $p_{N^\circ} = 1 - p_N$, ta kết luận rằng *các quan hệ* $M \subset N$ *và* $p_M = p_M p_N$ *là tương đương* (« định lý ba đường vuông góc », *xem* hình 3).
+— Cho $E$ là một không gian Hilbert và $M, N$ là hai không gian con vectơ đóng của $E$. Quan hệ $M \subset N$ tương đương với tính trực giao của $M$ và $N^\circ$, tức là, với quan hệ $p_M p_{N^\circ} = 0$ theo mệnh đề 9, c). Vì ta có $p_{N^\circ} = 1 - p_N$, ta kết luận rằng *các quan hệ* $M \subset N$ *và* $p_M = p_M p_N$ *là tương đương* (« định lý ba đường vuông góc », *xem* hình 3).
 
 ![Biểu đồ cho thấy các không gian con M, N, và các phép chiếu p_M(x), p_N(x)](https://i.imgur.com/3Q5z5QG.png)
 
@@ -628,10 +628,10 @@ Hình 3.
 
 Ánh xạ $x \mapsto x^*$ là nửa tuyến tính theo (2) (V, p. 1) và nhờ bất đẳng thức Cauchy-Schwarz, ta có $\|x^*\| = \sup_{\|y\| \leq 1} |\langle x | y \rangle| = \|x\|$, do đó $x \mapsto x^*$ là một đẳng cự từ $E$ vào $E'$, và đặc biệt là đơn ánh. Để hoàn tất chứng minh, ta cần chứng minh rằng với mọi $x' \neq 0$ trong $E'$, tồn tại $x \in E$ sao cho $x' = x^*$. Nhưng siêu phẳng $H = \mathrm{Ker}\, x'$ là đóng trong $E$; phần trực giao của nó là một đường thẳng $D$. Gọi $b$ là một phần tử khác không của $D$; hạt nhân của dạng tuyến tính $b^*$ bằng $H$ và vì thế tồn tại một vô hướng $\lambda \neq 0$ sao cho $x' = \lambda \cdot b^* = (\overline{\lambda} \cdot b)^*$. ĐPCM.
 
-Ánh xạ $x \mapsto x^*$ từ $E$ lên đối ngẫu của nó $E'$ được gọi là *chính tắc*. Ánh xạ nghịch đảo từ $E'$ lên $E$ cũng được gọi là chính tắc và được ký hiệu bởi $x' \mapsto x'^*$. Ta có
+Ánh xạ $x \mapsto x^*$ từ $E$ lên đối ngẫu của nó $E'$ được gọi là *chính tắc*. Ánh xạ nghịch đảo từ $E'$ lên $E$ cũng được gọi là chính tắc và được ký hiệu bởi $x' \mapsto {x'}^*$. Ta có
 
 $$
-\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle x'^* | x \rangle
+\langle x | y \rangle = \langle y, x^* \rangle, \quad \langle x, x' \rangle = \langle {x'}^* | x \rangle
 $$
 
 với $x, y$ trong $E$ và $x'$ trong $E'$. Cũng vậy $(x^*)^* = x$ với $x \in E$.

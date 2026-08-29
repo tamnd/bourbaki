@@ -7,28 +7,29 @@ section: 5
 section_title: Open mappings and closed mappings
 lang: en
 source: top-i-iv
+book_pages: 50-57, 127-128
 pdf_pages: 0056-0063, 0133-0134
 extraction: ocr
 subsections:
     - "no": 1
       title: OPEN MAPPINGS AND CLOSED MAPPINGS
-      page: 0
+      page: 50
       pdf_page: 56
     - "no": 2
       title: OPEN EQUIVALENCE RELATIONS AND CLOSED EQUIVALENCE RELATIONS
-      page: 0
+      page: 52
       pdf_page: 58
     - "no": 3
       title: PROPERTIES PECULIAR TO OPEN MAPPINGS
-      page: 0
+      page: 54
       pdf_page: 60
     - "no": 4
       title: PROPERTIES PECULIAR TO CLOSED MAPPINGS
-      page: 0
+      page: 56
       pdf_page: 62
 statements: 19
 exercises: 7
-content_sha256: 4bd44bbdc7549036da9b797314f4f397254ee681b4ed5c187bdeceb598f632df
+content_sha256: 770385711f45d74c8c5f1640b5013319a5b971ac533bc0206d4387875c1ade48
 ---
 
 ## 5. OPEN MAPPINGS AND CLOSED MAPPINGS
@@ -43,16 +44,16 @@ In particular, $f(X)$ is then an open (resp. closed) subset of $X'$.
 
 #### Example 1 {#top-i-s5-n1-exa-1 .statement}
 
-Let $A$ be a subspace of a topological space $X$. Then the canonical injection $j : A \to X$ is open (resp. closed) if and only if $A$ is open (resp. closed) in $X$ (\S 3, no. 1).
+Let $A$ be a subspace of a topological space $X$. Then the canonical injection $j : A \to X$ is open (resp. closed) if and only if $A$ is open (resp. closed) in $X$ (§ 3, no. 1).
 2) For a bijection $f$ of a topological space $X$ onto a topological space $X'$ to be a *homeomorphism* it is necessary and sufficient that $f$ is *continuous and open*, or *continuous and closed*.
 
-3) Let $f$ be a surjection of a set $X$ onto a topological space $X'$; if we give $X$ the topology which is the inverse image under $f$ of the topology of $X'$ (\$ 2, no. 3, Example 1), then $f$ is continuous, open and closed.
+3) Let $f$ be a surjection of a set $X$ onto a topological space $X'$; if we give $X$ the topology which is the inverse image under $f$ of the topology of $X'$ (§ 2, no. 3, Example 1), then $f$ is continuous, open and closed.
 
 4) In a product space
 $$
 X = \prod_{i \in I} X_i,
 $$
-each projection $\mathrm{pr}_i : X \to X_i$ is a continuous open mapping, but is not necessarily closed (\$ 4, no. 2, Proposition 5).
+each projection $\mathrm{pr}_i : X \to X_i$ is a continuous open mapping, but is not necessarily closed (§ 4, no. 2, Proposition 5).
 
 \* 5) A holomorphic function on an open subset $A$ of $C$ is an open mapping of $A$ into $C$. \*
 6) Let $X, X'$ be two topological spaces and $f$ a continuous, but not bicontinuous, bijection of $X$ onto $X'$. Then the inverse bijection $g : X' \to X$ is an open and closed mapping of $X'$ onto $X$, but is not continuous.
@@ -67,7 +68,7 @@ b) *If $g \circ f$ is open (resp. closed) and if $f$ is continuous and surjectiv
 
 c) *If $g \circ f$ is open (resp. closed) and if $g$ is continuous and injective, then $f$ is open (resp. closed).*
 
-From Definition 1. a) follows immediately. To prove b) it is enough to remark that every open (resp. closed) subset $A'$ of $X'$ can be written as $f(A)$, where $A = f^{-1}(A')$ is open (resp. closed) in $X$ (\$ 2, no. 1, Theorem 1); hence $g(A') = g(f(A))$ is open (resp. closed) in $X''$. Finally, to prove c), we remark that $f(A) = g^{-1}(g(f(A)))$ for every subset $A$ of $X$; by hypothesis, if $A$ is open (resp. closed) in $X$, then $g(f(A))$ is open (resp. closed) in $X''$, hence $f(A)$ is open (resp. closed) in $X'$ by \$ 2, no. 1, Theorem 1.
+From Definition 1. a) follows immediately. To prove b) it is enough to remark that every open (resp. closed) subset $A'$ of $X'$ can be written as $f(A)$, where $A = f^{-1}(A')$ is open (resp. closed) in $X$ (§ 2, no. 1, Theorem 1); hence $g(A') = g(f(A))$ is open (resp. closed) in $X''$. Finally, to prove c), we remark that $f(A) = g^{-1}(g(f(A)))$ for every subset $A$ of $X$; by hypothesis, if $A$ is open (resp. closed) in $X$, then $g(f(A))$ is open (resp. closed) in $X''$, hence $f(A)$ is open (resp. closed) in $X'$ by § 2, no. 1, Theorem 1.
 
 #### Proposition 2 {#top-i-s5-prop-2 .statement}
 
@@ -79,7 +80,7 @@ b) *Let $(T(i))_{i \in I}$ be a family of subsets of $Y$ whose interiors cover $
 
 a) If $A$ is an open (resp. closed) subset of $f^{-1}(T)$, then there is an open (resp. closed) subset $B$ of $X$ such that $A = B \cap f^{-1}(T)$, and therefore f_T(A) = f(B) \cap T; by hypothesis, $f(B)$ is open (resp. closed), so that $f_T(A)$ is open (resp. closed) in $T$.
 
-$b)$ Let $B$ be an open (resp. closed) subset of $X$, and let $B_i$ denote $B \cap f^{-1}(T(i))$; then $f(B) \cap T(i) = f_{T(i)}(B_i)$. Since $f_{T(i)}(B_i)$ is open (resp. closed) in $T(i)$ by hypothesis, it follows that $f(B)$ is open (resp. closed) in $Y$, by Proposition 3 of § 3, no. 1.
+b) Let $B$ be an open (resp. closed) subset of $X$, and let $B_i$ denote $B \cap f^{-1}(T(i))$; then $f(B) \cap T(i) = f_{T(i)}(B_i)$. Since $f_{T(i)}(B_i)$ is open (resp. closed) in $T(i)$ by hypothesis, it follows that $f(B)$ is open (resp. closed) in $Y$, by Proposition 3 of § 3, no. 1.
 
 #### Corollary {#top-i-s5-n1-cor-1 .statement}
 
@@ -93,7 +94,7 @@ For $f$ is clearly bijective, and is open by virtue of Proposition 2.
 
 *An equivalence relation $R$ on a topological space $X$ is said to be open (resp. closed) if the canonical mapping of $X$ onto $X/R$ is open (resp. closed).*
 
-It comes to the same thing to say that the *saturation* of each open (resp. closed) subset of $X$ with respect to $R$ is open (resp. closed) in $X$ (\S 3, no. 4).
+It comes to the same thing to say that the *saturation* of each open (resp. closed) subset of $X$ with respect to $R$ is open (resp. closed) in $X$ (§ 3, no. 4).
 
 #### Example 1 {#top-i-s5-n2-exa-1 .statement}
 
@@ -113,7 +114,7 @@ $$
 
 #### Example 2 {#top-i-s5-n2-exa-2 .statement}
 
-Let $X$ be the sum of a family $(X_i)$ of subspaces of $X$, and let $X/R$ be the space obtained by *pasting together* the $X_i$ along *open* subsets $A_{ix}$ by means of bijections $h_{ix}$ (\S 2, no. 5); and suppose that $h_{ix}$ is a *homeomorphism* of $A_{ix}$ onto $A_{x'}$ for each pair of indices $(i, x)$.
+Let $X$ be the sum of a family $(X_i)$ of subspaces of $X$, and let $X/R$ be the space obtained by *pasting together* the $X_i$ along *open* subsets $A_{ix}$ by means of bijections $h_{ix}$ (§ 2, no. 5); and suppose that $h_{ix}$ is a *homeomorphism* of $A_{ix}$ onto $A_{x'}$ for each pair of indices $(i, x)$.
 
 Then the relation R is open. For if U is open in X, the saturation of U is the union of the $h_{x!}(U \cap A_{ix})$; since $U \cap A_{ix}$ is open in $A_{ix}$, $h_{x!}(U \cap A_{ix})$ is open in $A_{ix}$ and therefore in X.
 
@@ -183,7 +184,7 @@ By taking complements ($§ 1$, no. 6, formula (2)) we see that b) and c) are equ
 
 Let $R$ be an open equivalence relation on a topological space $X$, and let $\varphi : X \to X/R$ be the canonical mapping. If $A$ is any subset of $X$ which is saturated with respect to $R$, then the closure (resp. the interior) of $\varphi(A)$ in $X/R$ is $\varphi(\overline{A})$ (resp. $\varphi(\overset{\circ}{A})$).
 
-Each of the two assertions of the proposition can be deduced from the other by taking complements and using formula (2) of § 1, no. 6 and the fact that if $B$ is a saturated subset of $X$ then $\varphi(\complement B) = \complement_{\varphi}(B)$. By virtue of Proposition 6, $\overline{A}$ is saturated; hence $\varphi(\overline{A})$ is closed in $X/R$, and since $A \subset \overline{A}$ we have $\varphi(A) \subset \varphi(\overline{A})$, so that $\varphi(A) \subset \varphi(\overline{A})$. But since $\varphi$ is continuous, $\varphi(\overline{A}) \subset \varphi(A)$ (\S 2, no. 1, Theorem 1), and the result follows.
+Each of the two assertions of the proposition can be deduced from the other by taking complements and using formula (2) of § 1, no. 6 and the fact that if $B$ is a saturated subset of $X$ then $\varphi(\complement B) = \complement_{\varphi}(B)$. By virtue of Proposition 6, $\overline{A}$ is saturated; hence $\varphi(\overline{A})$ is closed in $X/R$, and since $A \subset \overline{A}$ we have $\varphi(A) \subset \varphi(\overline{A})$, so that $\varphi(A) \subset \varphi(\overline{A})$. But since $\varphi$ is continuous, $\varphi(\overline{A}) \subset \varphi(A)$ (§ 2, no. 1, Theorem 1), and the result follows.
 
 #### Proposition 8 {#top-i-s5-prop-8 .statement}
 
@@ -231,7 +232,7 @@ Proposition 10 implies the following: if R is closed and if φ denotes the canon
 
 for if $U$ is a neighbourhood in $X$ of an equivalence class $M$, then for each $x \in M$ and each neighbourhood $V \subset U$ of $x$, the saturation of $V$ is certainly a neighbourhood of $M$ in $X$, but this neighbourhood is *not necessarily contained in* $U$.
 
-Finally, there are equivalence relations other than equality which are both open and closed (Exercise 3) and equivalence relations which are neither open nor closed ($\S 8$, Exercise 10).
+Finally, there are equivalence relations other than equality which are both open and closed (Exercise 3) and equivalence relations which are neither open nor closed ($§ 8$, Exercise 10).
 
 ### Exercises {#top-i-s5-exercises}
 

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 52
 statements: 26
 exercises: 5
-content_sha256: edab1d825f495f1f616df6689ad091a5f2956639ec6c53480871bb18cf92868b
+content_sha256: d3eb18a508f1218792b7988d21e624fa9cdebecb239a4f8cc0bc9438ada1011c
 ---
 
 ## § 5. CLASSES DE CONJUGAISON
@@ -116,7 +116,7 @@ Soit $x \in A$; on a alors $\exp x \in T_r$, donc $Z(\exp x)_0 = T$. Pour que $\
 
 #### Remarque 3 {#lie-ix-s5-n2-rem-3 .statement tag=01E1}
 
-Les points spéciaux de $W_a$ (VI, § 2, n° 2) sont les éléments $x$ de $t$ tels que $\delta(\alpha)(x) \in 2\pi i \mathbf{Z}$ pour tout $\alpha \in R(G, T)$ (loc. cit., prop. 3), c’est-à-dire tels que exp $x \in C(G)$ (\S 4, n° 4, prop. 8). Pour un tel élément $x$ on a $wx - x \in N(G, T)$ quel que soit $w \in W$ (VI, \S 1, n° 9, prop. 27), de sorte que les stabilisateurs de $x$ dans $W_a$ et dans $W'_a$ coïncident. Soit $S$ l’ensemble des points spéciaux de $A$; il résulte de ce qui précède et du cor. 1 que le groupe $H_A$ opère librement dans $S$, et que l’application exponentielle induit une bijection de $S/H_A$ sur $C(G)$.
+Les points spéciaux de $W_a$ (VI, § 2, n° 2) sont les éléments $x$ de $t$ tels que $\delta(\alpha)(x) \in 2\pi i \mathbf{Z}$ pour tout $\alpha \in R(G, T)$ (loc. cit., prop. 3), c’est-à-dire tels que exp $x \in C(G)$ (§ 4, n° 4, prop. 8). Pour un tel élément $x$ on a $wx - x \in N(G, T)$ quel que soit $w \in W$ (VI, § 1, n° 9, prop. 27), de sorte que les stabilisateurs de $x$ dans $W_a$ et dans $W'_a$ coïncident. Soit $S$ l’ensemble des points spéciaux de $A$; il résulte de ce qui précède et du cor. 1 que le groupe $H_A$ opère librement dans $S$, et que l’application exponentielle induit une bijection de $S/H_A$ sur $C(G)$.
 
 #### Corollaire 2 {#lie-ix-s5-prop-2-cor-2 .statement tag=01E2}
 
@@ -124,11 +124,11 @@ Soient $C$ une chambre de $t$ et $\overline{C}$ son adhérence. Les injections c
 $$
 \overline{C} \to t/W \to g/\mathrm{Ad}(G) .
 $$
-Les applications canoniques $\overline{C} \to t$ et $t \to t/W$ sont propres (TG, III, p. 28, prop. 2, c)). L’application $\overline{C} \to t/W$ est continue, propre et bijective (prop. 2, c)); c’est donc un homéomorphisme, d’où le corollaire compte tenu du cor. à la prop. 6 du \S 2, n° 5.
+Les applications canoniques $\overline{C} \to t$ et $t \to t/W$ sont propres (TG, III, p. 28, prop. 2, c)). L’application $\overline{C} \to t/W$ est continue, propre et bijective (prop. 2, c)); c’est donc un homéomorphisme, d’où le corollaire compte tenu du cor. à la prop. 6 du § 2, n° 5.
 
 #### Remarque 4 {#lie-ix-s5-n2-rem-4 .statement tag=01E3}
 
-Notons $g_{reg}$ l’ensemble des éléments réguliers de $g$ (VII, \S 2, n° 2, déf. 2) et posons $t_{reg} = t \cap g_{reg}$. Pour $x \in t$, on a
+Notons $g_{reg}$ l’ensemble des éléments réguliers de $g$ (VII, § 2, n° 2, déf. 2) et posons $t_{reg} = t \cap g_{reg}$. Pour $x \in t$, on a
 $$
 \det(X - \mathrm{ad}_g x) = X^{\dim t} \prod_{\alpha \in R(G, T)} (X - \delta(\alpha)(x)) ,
 $$
@@ -141,7 +141,7 @@ $$
 
 Supposons $G$ simplement connexe ; soit $g$ un élément régulier de $G$. Il existe un tore maximal $S$ de $G$ et une alcôve $A$ de $L(S)$, uniquement déterminés, tels que $g \in \exp(A)$ et $0 \in \overline{A}$.
 
-On peut supposer que $g$ appartient à $T_r$ (\S 2, n° 2, th. 2). Soit $x$ un élément de $t_r$ tel que $\exp x = g$, et soit $A'$ l’alcôve de $t$ contenant $x$. Les alcôves $A$ de $t$ telles que $g \in \exp(A)$ sont les alcôves $A' - \gamma$ pour $\gamma \in \Gamma(T)$; l’assertion résulte donc de la prop. 2, d).
+On peut supposer que $g$ appartient à $T_r$ (§ 2, n° 2, th. 2). Soit $x$ un élément de $t_r$ tel que $\exp x = g$, et soit $A'$ l’alcôve de $t$ contenant $x$. Les alcôves $A$ de $t$ telles que $g \in \exp(A)$ sont les alcôves $A' - \gamma$ pour $\gamma \in \Gamma(T)$; l’assertion résulte donc de la prop. 2, d).
 
 ### 3. Automorphismes et éléments réguliers
 
@@ -151,7 +151,7 @@ Soient $u$ un automorphisme de $G$, et $H$ l’ensemble de ses points fixes.
 a) $H$ est un sous-groupe fermé de $G$.
 b) Si $H_0$ est central dans $G$, alors $G$ est commutatif (donc $G = T$).
 
-L’assertion a) est claire. Pour démontrer b), on peut remplacer $G$ par $D(G)$ (\S 1, cor. 1 à la prop. 4), donc supposer $G$ semi-simple. Alors, si $H_0$ est central dans $G$, on a $L(H) = \{ 0 \}$, de sorte que l’endomorphisme $L(u) - \mathrm{Id}$ de $g$ est bijectif. Soit $f$ l’endomorphisme de la variété $G$ défini par $f(g) = u(g)^{-1}g$ pour $g \in G$; il est étale, car si $g \in G$ et $x \in g$, on a $T(f)(xg) = u(g)^{-1}(x - L(u)(x))g$, de sorte que l’application tangente à $f$ en $g$ est bijective. Il s’ensuit que l’image de $f$ est ouverte et compacte, donc coïncide avec $G$ puisque $G$ est connexe. Soient alors $E$ un épinglage de $G$ ($\S$ 4, n° 10, déf. 3) et $u(E)$ son image par $u$. D’après la prop. 19 de loc. cit., il existe un élément $h$ de $G$ tel que $(\mathrm{Int}\ h)\ (E) = u(E)$. Soit $g \in G$ tel que $h = f(g) = u(g)^{-1}g$; on a
+L’assertion a) est claire. Pour démontrer b), on peut remplacer $G$ par $D(G)$ (§ 1, cor. 1 à la prop. 4), donc supposer $G$ semi-simple. Alors, si $H_0$ est central dans $G$, on a $L(H) = \{ 0 \}$, de sorte que l’endomorphisme $L(u) - \mathrm{Id}$ de $g$ est bijectif. Soit $f$ l’endomorphisme de la variété $G$ défini par $f(g) = u(g)^{-1}g$ pour $g \in G$; il est étale, car si $g \in G$ et $x \in g$, on a $T(f)(xg) = u(g)^{-1}(x - L(u)(x))g$, de sorte que l’application tangente à $f$ en $g$ est bijective. Il s’ensuit que l’image de $f$ est ouverte et compacte, donc coïncide avec $G$ puisque $G$ est connexe. Soient alors $E$ un épinglage de $G$ ($\S$ 4, n° 10, déf. 3) et $u(E)$ son image par $u$. D’après la prop. 19 de loc. cit., il existe un élément $h$ de $G$ tel que $(\mathrm{Int}\ h)\ (E) = u(E)$. Soit $g \in G$ tel que $h = f(g) = u(g)^{-1}g$; on a
 $$
 u \circ \mathrm{Int}\ g = (\mathrm{Int}\ u(g)) \circ u = \mathrm{Int}\ g \circ (\mathrm{Int}\ h)^{-1} \circ u ,
 $$
@@ -196,7 +196,7 @@ c) Si G est simplement connexe, l’ensemble des points fixes de u est connexe.
 
 L’assertion a) est le cas particulier x = e de la prop. 3. Supposons maintenant G simplement connexe et démontrons b) et c). Soit x un élément de G fixé par u, et soit g un élément régulier de G, fixé par u et commutant à x (prop. 3). Le centralisateur K de g est un tore maximal de G (n° 2, remarque 2), stable par u, contenant x et g. D’après le cor. 3 à la prop. 2 du n° 2, il existe une unique alcôve A de L(K) telle que $g \in \exp(A)$ et $0 \in \overline{A}$; comme g est fixé par u, L(u) laisse stable A, donc aussi la chambre de L(K) qui contient A. Cela démontre b) ; par ailleurs, l’ensemble des points de K fixés par u est connexe (lemme 3) et contient x et e, d’où c) (TG, I, p. 81, prop. 2).
 
-Il nous reste à démontrer b) dans le cas général. Or, si $\tilde{D}(G)$ est le revêtement universel de D(G), et si $f : \tilde{D}(G) \to G$ est le morphisme canonique, il existe un automorphisme $\tilde{u}$ de $\tilde{D}(G)$ tel que $f \circ \tilde{u} = u \circ f$. Si $\tilde{K}$ est un tore maximal de $\tilde{D}(G)$ et $\tilde{C}$ une chambre de L($\tilde{K}$), stables pour $\tilde{u}$(il en existe d’après ce qui a déjà été démontré), il existe (\S 2, n° 3, remarque 2) un unique tore maximal K de G et une unique chambre C de L(K) tels que $\tilde{K} = f^{-1}(K)$ et $\tilde{C} = L(f)^{-1}(C)$, et on voit aussitôt que K et C sont stables pour u, d’où l’assertion b) dans le cas général.
+Il nous reste à démontrer b) dans le cas général. Or, si $\tilde{D}(G)$ est le revêtement universel de D(G), et si $f : \tilde{D}(G) \to G$ est le morphisme canonique, il existe un automorphisme $\tilde{u}$ de $\tilde{D}(G)$ tel que $f \circ \tilde{u} = u \circ f$. Si $\tilde{K}$ est un tore maximal de $\tilde{D}(G)$ et $\tilde{C}$ une chambre de L($\tilde{K}$), stables pour $\tilde{u}$(il en existe d’après ce qui a déjà été démontré), il existe (§ 2, n° 3, remarque 2) un unique tore maximal K de G et une unique chambre C de L(K) tels que $\tilde{K} = f^{-1}(K)$ et $\tilde{C} = L(f)^{-1}(C)$, et on voit aussitôt que K et C sont stables pour u, d’où l’assertion b) dans le cas général.
 
 #### Corollaire 1 {#lie-ix-s5-thm-1-cor-1 .statement tag=01EB}
 
@@ -213,7 +213,7 @@ Soit $\Gamma$ un sous-groupe compact de Aut(G) possédant la propriété suivant
 
 Alors il existe un tore maximal de $G$ stable pour l’action de $\Gamma$.
 
-Raisonnons par récurrence sur la dimension de $G$. On peut évidemment supposer que $u_1 \neq \mathrm{Id}$; alors le sous-groupe $H$ des points fixes de $u_1$ est distinct de $G$, et est stable pour l’action de $\Gamma$. De plus, puisque $\Gamma$ est compact, l’image de $\Gamma$ dans $\mathrm{Aut}(H_0)$ est un quotient de $\Gamma$, donc satisfait aussi à la condition (*). D’après l’hypothèse de récurrence, il existe un tore maximal $S$ de $H$ stable par $\Gamma$. Le centralisateur $K$ de $S$ dans $G$ est connexe (\S 2, n° 2, cor. 5) et stable par $\Gamma$; c’est un tore maximal de $G$, puisque $H_0$ contient un élément régulier de $G$ (th. 1, *a*)) et que celui-ci est conjugué à un élément de $S$ (*loc. cit.*, cor. 4).
+Raisonnons par récurrence sur la dimension de $G$. On peut évidemment supposer que $u_1 \neq \mathrm{Id}$; alors le sous-groupe $H$ des points fixes de $u_1$ est distinct de $G$, et est stable pour l’action de $\Gamma$. De plus, puisque $\Gamma$ est compact, l’image de $\Gamma$ dans $\mathrm{Aut}(H_0)$ est un quotient de $\Gamma$, donc satisfait aussi à la condition (*). D’après l’hypothèse de récurrence, il existe un tore maximal $S$ de $H$ stable par $\Gamma$. Le centralisateur $K$ de $S$ dans $G$ est connexe (§ 2, n° 2, cor. 5) et stable par $\Gamma$; c’est un tore maximal de $G$, puisque $H_0$ contient un élément régulier de $G$ (th. 1, *a*)) et que celui-ci est conjugué à un élément de $S$ (*loc. cit.*, cor. 4).
 
 #### Corollaire 3 {#lie-ix-s5-thm-1-cor-3 .statement tag=01ED}
 
@@ -223,7 +223,7 @@ Soient $H$ un groupe de Lie et $\Gamma$ un sous-groupe compact de $H$. On suppos
 
 Tout sous-groupe nilpotent d’un groupe de Lie compact est contenu dans le normalisateur d’un tore maximal.
 
-Soient $H$ un groupe de Lie compact, $N$ un sous-groupe nilpotent de $H$. Alors l’adhérence $\Gamma$ de $N$ est aussi un groupe nilpotent (III, § 9, n° 1, cor. 2 à la prop. 1), et il suffit, vu le cor. 3, de prouver que $\Gamma$ satisfait à la condition (*). Or $\Gamma_0$ est un groupe de Lie compact connexe nilpotent, donc est un tore (\S 1, n° 4, cor. 1 à la prop. 4), et il existe un élément $u_1$ de $\Gamma_0$ engendrant un sous-groupe dense de $\Gamma_0$ (TG, VII, p. 8, texte précédant la prop. 8). Le groupe fini $\Gamma/\Gamma_0$ est nilpotent et il existe $\tilde{u}_2, ..., \tilde{u}_n \in \Gamma/\Gamma_0$ engendrant $\Gamma/\Gamma_0$ et tels que le sous-groupe de $\Gamma/\Gamma_0$ engendré par $(\tilde{u}_2, ..., \tilde{u}_r)$ soit distingué pour $r = 2, ..., n$ (A, I, p. 73, th. 1 et p. 76, th. 4). Alors, si $u_2, ..., u_n$ sont des représentants de $\tilde{u}_2, ..., \tilde{u}_n$ dans $\Gamma$, la suite $(u_1, ..., u_n)$ possède la propriété exigée.
+Soient $H$ un groupe de Lie compact, $N$ un sous-groupe nilpotent de $H$. Alors l’adhérence $\Gamma$ de $N$ est aussi un groupe nilpotent (III, § 9, n° 1, cor. 2 à la prop. 1), et il suffit, vu le cor. 3, de prouver que $\Gamma$ satisfait à la condition (*). Or $\Gamma_0$ est un groupe de Lie compact connexe nilpotent, donc est un tore (§ 1, n° 4, cor. 1 à la prop. 4), et il existe un élément $u_1$ de $\Gamma_0$ engendrant un sous-groupe dense de $\Gamma_0$ (TG, VII, p. 8, texte précédant la prop. 8). Le groupe fini $\Gamma/\Gamma_0$ est nilpotent et il existe $\tilde{u}_2, ..., \tilde{u}_n \in \Gamma/\Gamma_0$ engendrant $\Gamma/\Gamma_0$ et tels que le sous-groupe de $\Gamma/\Gamma_0$ engendré par $(\tilde{u}_2, ..., \tilde{u}_r)$ soit distingué pour $r = 2, ..., n$ (A, I, p. 73, th. 1 et p. 76, th. 4). Alors, si $u_2, ..., u_n$ sont des représentants de $\tilde{u}_2, ..., \tilde{u}_n$ dans $\Gamma$, la suite $(u_1, ..., u_n)$ possède la propriété exigée.
 
 #### Exemple {#lie-ix-s5-n3-exa-1 .statement tag=01EF}
 
@@ -239,7 +239,7 @@ $$
 f : (G/T) \times T \to G,
 $$
 
-qui est surjectif (\S 2, n° 2, th. 2). Par restriction, $f$ induit un morphisme surjectif
+qui est surjectif (§ 2, n° 2, th. 2). Par restriction, $f$ induit un morphisme surjectif
 
 $$
 f_r : (G/T) \times T_r \to G_r.

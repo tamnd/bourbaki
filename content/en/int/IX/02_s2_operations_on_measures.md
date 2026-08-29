@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: 60a0a8276ead3ec3b06557c9aa5ca4937f00aaedc3fd871494cee87e933f7e09
+content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
 ---
 
 ## § 2. OPERATIONS ON MEASURES
@@ -140,7 +140,7 @@ $$
 
 It then follows first of all that $f$ is locally $\mu$-integrable: if $x$ is a point of T, and if $V$ is a neighborhood of $x$ such that $\nu^\bullet(V) < +\infty$, then $\mu^\bullet(f \varphi_V) < +\infty$. Next, Prop. 2 shows that the measures $\nu$ and $f \cdot \mu$ have the same essential upper integral. They are therefore equal (§1, No. 2, Cor. of Prop. 2). The uniqueness of $f$ being obvious based on the case of compact spaces, the proposition is established.
 
-Remark 3). — The theory of integration with respect to a measure $\nu = f \cdot \mu$ reduces at once to the theory treated in Ch. V. For, let $(K_\alpha)_{\alpha \in A}$ be a crushing of T for $\mu$, hence for $\nu$, and let $T'$ be the locally compact space defined in the Scholium of §1, No. 8; we can associate to $\mu$ (resp. to $\nu$) a measure $\mu'$ (resp. $\nu'$) on $T'$, in such a way that the measurable functions, the essentially integrable functions with values in a Banach space, and the essential upper integrals of positive functions, are the same for $\mu$ and $\mu'$ (resp. for $\nu$ and $\nu'$). The function $f$ is therefore $\mu'$-measurable; it is locally $\mu'$-integrable, because $T'$ is locally compact, and a compact subset of $T'$ intersects only a finite number of the compact sets $K_\alpha$ ($\alpha \in A$). Finally, the relation $\nu'^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = \mu'^\bullet(fg)$ proves that $\nu' = f \cdot \mu'$ (Ch. V, §5, No. 3, Prop. 3). We leave to the reader the task of transcribing the results of Ch. V, §5.
+Remark 3). — The theory of integration with respect to a measure $\nu = f \cdot \mu$ reduces at once to the theory treated in Ch. V. For, let $(K_\alpha)_{\alpha \in A}$ be a crushing of T for $\mu$, hence for $\nu$, and let $T'$ be the locally compact space defined in the Scholium of §1, No. 8; we can associate to $\mu$ (resp. to $\nu$) a measure $\mu'$ (resp. $\nu'$) on $T'$, in such a way that the measurable functions, the essentially integrable functions with values in a Banach space, and the essential upper integrals of positive functions, are the same for $\mu$ and $\mu'$ (resp. for $\nu$ and $\nu'$). The function $f$ is therefore $\mu'$-measurable; it is locally $\mu'$-integrable, because $T'$ is locally compact, and a compact subset of $T'$ intersects only a finite number of the compact sets $K_\alpha$ ($\alpha \in A$). Finally, the relation ${\nu'}^\bullet(g) = \nu^\bullet(g) = \mu^\bullet(fg) = {\mu'}^\bullet(fg)$ proves that $\nu' = f \cdot \mu'$ (Ch. V, §5, No. 3, Prop. 3). We leave to the reader the task of transcribing the results of Ch. V, §5.
 
 ### 3. Image of a measure
 
@@ -162,7 +162,7 @@ Let $\pi$ be a $\mu$-proper mapping of T into a topological space X. There exist
 Uniqueness is obvious (§1, No. 2, Cor. of Prop. 2). To establish existence, we shall first treat the case that $\mu$ is carried by a compact set K, such that the restriction of $\pi$ to K is continuous. Then $L = \pi(K)$ is compact; let $\pi'$ be the continuous mapping of K into L induced by $\pi$, and let $\nu'$ be the image measure $\pi'(\mu_K)$ on L, $\nu$ the measure on X defined by $\nu'$ (§1, No. 3, Example 2). For every $g \in \mathcal{F}_+(X)$,
 
 $$
-\nu^\bullet(g) = \nu'^\bullet(g_L) = \mu_K^\bullet(g_L \circ \pi') = \mu_K^\bullet((g \circ \pi)_K) = \mu^\bullet((g \circ \pi)_K^0) = \mu^\bullet(g \circ \pi)
+\nu^\bullet(g) = {\nu'}^\bullet(g_L) = \mu_K^\bullet(g_L \circ \pi') = \mu_K^\bullet((g \circ \pi)_K) = \mu^\bullet((g \circ \pi)_K^0) = \mu^\bullet(g \circ \pi)
 $$
 
 (we have used successively formula (3) of §1, No. 3; Prop. 2 of Ch. V, §6, No. 2; the definition of $\mu_K^\bullet$; and the fact that $\mu$ is carried by K). In other words, $\nu^\bullet = \pi(\mu^\bullet)$.
@@ -193,13 +193,13 @@ $$
 
 *Let $\pi$ be a $\mu$-proper mapping of T into a topological space X, and let f be a mapping of X into a topological space F (Hausdorff or not). For f to be $\pi(\mu)$-measurable, it is necessary and sufficient that $f \circ \pi$ be $\mu$-measurable.*
 
-Let us take up again the proof of Prop. 4, and commence with the special case treated at the beginning, with the same notations; g is measurable for the measure $\pi(\mu) = \nu$ if and only if $g_L$ is $\nu'$-measurable (§1, No. 5, *Example*); now, this is equivalent to saying that $g_L \circ \pi' = (g \circ \pi)_K$ is $\mu_K$-measurable (Ch. V, §6, No. 2, Prop. 3), and finally that $g \circ \pi$ is $\mu$-measurable (§1, No. 5, *Example*). Let us now pass to the general case, with the same notations as in the proof of Prop. 4; f is $\nu$-measurable if and only if f is $\nu_\alpha$-measurable for every $\alpha \in A$ (§1, No. 7, Prop. 8), hence if and only if $f \circ \pi$ is $\mu_\alpha$-measurable for every $\alpha \in A$ (the preceding special case) and finally if and only if $f \circ \pi$ is $\mu$-measurable ($\S 1$, No. 7, Prop. 8).
+Let us take up again the proof of Prop. 4, and commence with the special case treated at the beginning, with the same notations; g is measurable for the measure $\pi(\mu) = \nu$ if and only if $g_L$ is $\nu'$-measurable (§1, No. 5, *Example*); now, this is equivalent to saying that $g_L \circ \pi' = (g \circ \pi)_K$ is $\mu_K$-measurable (Ch. V, §6, No. 2, Prop. 3), and finally that $g \circ \pi$ is $\mu$-measurable (§1, No. 5, *Example*). Let us now pass to the general case, with the same notations as in the proof of Prop. 4; f is $\nu$-measurable if and only if f is $\nu_\alpha$-measurable for every $\alpha \in A$ (§1, No. 7, Prop. 8), hence if and only if $f \circ \pi$ is $\mu_\alpha$-measurable for every $\alpha \in A$ (the preceding special case) and finally if and only if $f \circ \pi$ is $\mu$-measurable ($§ 1$, No. 7, Prop. 8).
 
 #### Corollary {#int-ix-s2-n3-cor-1 .statement}
 
 — *Let X and Y be two topological spaces, $\pi$ a $\mu$-proper mapping of T into X, and $\pi'$ a $\pi(\mu)$-proper mapping of X into Y. The mapping $\pi'' = \pi' \circ \pi$ is then $\mu$-proper, and $\pi''(\mu) = \pi'(\pi(\mu))$ ('transitivity of images of measures').
 
-For, $\pi''$ is $\mu$-measurable (Prop. 5). Set $\mu' = \pi(\mu)$; the image encumbrance $\pi'(\mu'^\bullet) = \pi'(\pi(\mu^\bullet))$ is obviously equal to $\pi''(\mu^\bullet)$. Since it is locally bounded, $\pi''$ is $\mu$-proper. The measures $\pi''(\mu)$ and $\pi'(\mu')$ then have the same essential upper integral, hence are equal.
+For, $\pi''$ is $\mu$-measurable (Prop. 5). Set $\mu' = \pi(\mu)$; the image encumbrance $\pi'({\mu'}^\bullet) = \pi'(\pi(\mu^\bullet))$ is obviously equal to $\pi''(\mu^\bullet)$. Since it is locally bounded, $\pi''$ is $\mu$-proper. The measures $\pi''(\mu)$ and $\pi'(\mu')$ then have the same essential upper integral, hence are equal.
 
 #### Proposition 6 {#int-ix-s2-prop-6 .statement}
 
@@ -229,7 +229,7 @@ a) Set $\nu = i(\mu)$; the relation $\nu^\bullet(A) = \mu^\bullet(A \cap T)$, ap
 
 b) Let $f$ be a positive function defined on X; setting $\mu = \lambda_T$, one has $\mu^\bullet(f \circ i) = \lambda_T^\bullet(f_T) = \lambda^\bullet(f \varphi_T) \leq \lambda^\bullet(f)$ (Prop. 1); it follows that i is $\mu$-proper. On the other hand, $\mu^\bullet(f \circ i)$ (resp. $\lambda^\bullet(f \varphi_T)$) is the essential upper integral of $f$ with respect to $i(\mu)$ (resp. $\varphi_T \cdot \lambda$). These two measures are therefore equal.
 
-*Remark 6).* — Let $\pi$ be a $\mu$-proper mapping of $T$ into a topological space $X$. One reduces the theory of integration with respect to the image measure $\nu = \pi(\mu)$ to the theory treated in Ch. V, §6, in the following way. Let $(K_\alpha)_{\alpha \in A}$ (resp. $(L_\beta)_{\beta \in B}$) be a crushing of $T$ (resp. of $X$) for $\mu$ (resp. for $\nu$), and set $N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$. We can suppose that the restriction of $\pi$ to each $K_\alpha$ is continuous (§1, No. 8, Prop. 10). Let $T', X'$ be the locally compact spaces constructed as in the Scholium of §1, No. 8 and let $\mu'$ and $\nu'$ be the measures on these spaces associated with $\mu$ and $\nu$. The topology of $T'$ being the sum of the topologies of the subspaces $K_\alpha$ and the discrete topology on $N$, $\pi$ is a continuous mapping of $T'$ into $X$ and the relation $\mu'^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$ (for $g \in \mathcal{F}_+(X)$) shows that $\pi$ is $\mu'$-proper and that $\pi(\mu') = \nu$. On the other hand, the identity mapping $i$ of $X$ onto $X'$ is $\nu$-proper, and $i(\nu) = \nu'$. It follows that $\pi$ is a $\mu'$-proper mapping of $T'$ into $X'$, and that the image of $\mu'$ under $\pi$ is $\nu'$ (Cor. of Prop. 5). We leave to the reader the task of transcribing the results of Ch. V, §6.
+*Remark 6).* — Let $\pi$ be a $\mu$-proper mapping of $T$ into a topological space $X$. One reduces the theory of integration with respect to the image measure $\nu = \pi(\mu)$ to the theory treated in Ch. V, §6, in the following way. Let $(K_\alpha)_{\alpha \in A}$ (resp. $(L_\beta)_{\beta \in B}$) be a crushing of $T$ (resp. of $X$) for $\mu$ (resp. for $\nu$), and set $N = T - \bigcup_{\alpha \in A} K_\alpha,\ P = X - \bigcup_{\beta \in B} L_\beta$. We can suppose that the restriction of $\pi$ to each $K_\alpha$ is continuous (§1, No. 8, Prop. 10). Let $T', X'$ be the locally compact spaces constructed as in the Scholium of §1, No. 8 and let $\mu'$ and $\nu'$ be the measures on these spaces associated with $\mu$ and $\nu$. The topology of $T'$ being the sum of the topologies of the subspaces $K_\alpha$ and the discrete topology on $N$, $\pi$ is a continuous mapping of $T'$ into $X$ and the relation ${\mu'}^\bullet(g \circ \pi) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g)$ (for $g \in \mathcal{F}_+(X)$) shows that $\pi$ is $\mu'$-proper and that $\pi(\mu') = \nu$. On the other hand, the identity mapping $i$ of $X$ onto $X'$ is $\nu$-proper, and $i(\nu) = \nu'$. It follows that $\pi$ is a $\mu'$-proper mapping of $T'$ into $X'$, and that the image of $\mu'$ under $\pi$ is $\nu'$ (Cor. of Prop. 5). We leave to the reader the task of transcribing the results of Ch. V, §6.
 
 ### 4. Lifting of measures
 
@@ -271,16 +271,16 @@ Taking $g = 1$ in this formula, one sees that the family $(\mu_n)$ is summable a
 Finally, let us assume that $\pi$ is injective, and let us prove b). Let f be an element of $\mathcal{F}_+(T)$; since $\pi$ is injective, there exists a function $g \in \mathcal{F}_+(X)$ such that $f = g \circ \pi$ and, setting $\nu = \pi(\mu) = \pi(\mu')$, by Prop. 4 of No. 3 we have
 
 $$
-\mu^\bullet(f) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g) = \mu'^\bullet(g \circ \pi) = \mu'^\bullet(f).
+\mu^\bullet(f) = \mu^\bullet(g \circ \pi) = \nu^\bullet(g) = {\mu'}^\bullet(g \circ \pi) = {\mu'}^\bullet(f).
 $$
 
-The two measures $\mu$ and $\mu'$ thus have the same essential upper integral, which implies their equality (\$1, No. 2, Cor. of Prop. 2).
+The two measures $\mu$ and $\mu'$ thus have the same essential upper integral, which implies their equality (§ 1, No. 2, Cor. of Prop. 2).
 
 #### Remark {#int-ix-s2-n4-rem-1 .statement}
 
 Suppose that $\pi$ is injective. Let $\theta$ be a complex measure such that $\pi$ is $\theta$-proper and $\pi(\theta) = 0$; then $\theta = 0$. Indeed, by separating $\theta$ into its real and imaginary parts, one can reduce to the case that $\theta$ is real. We then have $\pi(\theta^+) = \pi(\theta^-)$, therefore $\theta^+ = \theta^-$ (Prop. 8), and finally $\theta = 0$.
 
-Here is an important case where condition $a)$ of Prop. 8 is always satisfied.
+Here is an important case where condition a) of Prop. 8 is always satisfied.
 
 #### Proposition 9 {#int-ix-s2-prop-9 .statement}
 
@@ -288,7 +288,7 @@ Here is an important case where condition $a)$ of Prop. 8 is always satisfied.
 
 The hypotheses obviously imply that X is a Souslin space.
 
-Let us consider the set function $c : A \mapsto \nu^\bullet(\pi(A))$ on $\mathfrak{P}(T)$. The relation $A \subset B$ implies $c(A) \leq c(B)$; if $(A_n)$ is an increasing sequence of subsets of T, and if $A = \bigcup_{n \in \mathbf{N}} A_n$, then $c(A) = \sup_n c(A_n)$ from the fact that $\nu^\bullet$ is an encumbrance. Finally, let $A \subset T$ and let $\varepsilon$ be a number $> 0$; choose an open subset G of X containing $\pi(A)$, such that $\nu^\bullet(G) \leq \nu^\bullet(\pi(A)) + \varepsilon$ (\$1, No. 9, Prop. 13); the open subset $H = \overline{\pi^{-1}(G)}$ of T contains A, and $c(H) \leq c(A) + \varepsilon$. The function c is therefore a right-continuous capacity on T (TG, IX, §6, No. 10, Def. 9)(1) and the theorem on capacitability (*loc. cit.*, Th. 6) implies the equality $c(T) = \sup_K c(K)$, where K runs over the set of compact subsets of T. Prop. 8 then implies the existence of the desired measure $\mu$.
+Let us consider the set function $c : A \mapsto \nu^\bullet(\pi(A))$ on $\mathfrak{P}(T)$. The relation $A \subset B$ implies $c(A) \leq c(B)$; if $(A_n)$ is an increasing sequence of subsets of T, and if $A = \bigcup_{n \in \mathbf{N}} A_n$, then $c(A) = \sup_n c(A_n)$ from the fact that $\nu^\bullet$ is an encumbrance. Finally, let $A \subset T$ and let $\varepsilon$ be a number $> 0$; choose an open subset G of X containing $\pi(A)$, such that $\nu^\bullet(G) \leq \nu^\bullet(\pi(A)) + \varepsilon$ (§ 1, No. 9, Prop. 13); the open subset $H = \overline{\pi^{-1}(G)}$ of T contains A, and $c(H) \leq c(A) + \varepsilon$. The function c is therefore a right-continuous capacity on T (TG, IX, §6, No. 10, Def. 9)(1) and the theorem on capacitability (*loc. cit.*, Th. 6) implies the equality $c(T) = \sup_K c(K)$, where K runs over the set of compact subsets of T. Prop. 8 then implies the existence of the desired measure $\mu$.
 
 ### 5. Product of two measures
 
@@ -364,7 +364,7 @@ This result extends at once to complex measures.
 
 — *Suppose that $\lambda$ (resp. $\mu$) is the sum of a summable family $(\lambda_\alpha)_{\alpha \in A}$ (resp. $(\mu_\beta)_{\beta \in B}$) of measures on $S$ (resp. $T$). The family $(\lambda_\alpha \otimes \mu_\beta)_{(\alpha, \beta) \in A \times B}$ is then summable, and its sum is $\lambda \otimes \mu$.*
 
-For, let $p$ be the encumbrance $\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^\bullet$; if $f \in \mathcal{F}_+(S)$ and $g \in \mathcal{F}_+(T)$, then obviously $p(f \otimes g) = \lambda^\bullet(f)\mu^\bullet(g)$. The proof of Cor. 1 then shows that $p$ is locally bounded, so that the family $(\lambda_\alpha \otimes \mu_\beta)$ is summable (\S 1, No. 7, Prop. 7). Its sum $\eta$ then satisfies $\eta^\bullet = p$ (\S 1, No. 7, Prop. 7), and Prop. 10 implies $\eta = \nu$.
+For, let $p$ be the encumbrance $\sum_{\alpha, \beta} (\lambda_\alpha \otimes \mu_\beta)^\bullet$; if $f \in \mathcal{F}_+(S)$ and $g \in \mathcal{F}_+(T)$, then obviously $p(f \otimes g) = \lambda^\bullet(f)\mu^\bullet(g)$. The proof of Cor. 1 then shows that $p$ is locally bounded, so that the family $(\lambda_\alpha \otimes \mu_\beta)$ is summable (§ 1, No. 7, Prop. 7). Its sum $\eta$ then satisfies $\eta^\bullet = p$ (§ 1, No. 7, Prop. 7), and Prop. 10 implies $\eta = \nu$.
 
 ### 6. Integration with respect to the product of two measures
 
@@ -428,9 +428,9 @@ $$
 it is immediate that the sequence $(u_n(x))_{n \geqslant 1}$ is increasing and admits x as limit. The sequence of functions $f_n = u_n \circ f$ is therefore increasing and converges to $f$, and one has $f_n = 2^{-n} \sum_{k=1}^{n \cdot 2^n} \varphi_{U(k,n)}$,
 where $U(k,n)$ is the open set $f^{-1}([k/2^n, +\infty])$ of $X$.
 
-Let us pass to the proof of $b)$. The function $I_f$ being the upper envelope of the increasing directed family of functions $I_f^L$, where $L$ runs over the set of compact subsets of $T$ (Lemma 2), it will suffice to show that the functions $I_f^L$ are lower semi-continuous; the formula (9) may then be deduced from (6) by passing to the upper envelope over $L$ (\$1, No. 6, Prop. 5).
+Let us pass to the proof of b). The function $I_f$ being the upper envelope of the increasing directed family of functions $I_f^L$, where $L$ runs over the set of compact subsets of $T$ (Lemma 2), it will suffice to show that the functions $I_f^L$ are lower semi-continuous; the formula (9) may then be deduced from (6) by passing to the upper envelope over $L$ (§ 1, No. 6, Prop. 5).
 
-Thus let $\mathcal{H}$ be the set of positive lower semi-continuous functions $f$ on $S \times T$ such that $I_f^L$ is lower semi-continuous for every compact subset $L$ of $T$. By Prop. 5 of \$1, No. 6, the supremum of every increasing directed set of elements of $\mathcal{H}$ belongs to $\mathcal{H}$. By Lemma 3, it will therefore suffice to prove that the characteristic function of an open set $W$ of $S \times T$ belongs to $\mathcal{H}$. Moreover, by the definition of the product topology on $S \times T$, the open set $W$ is the union of an increasing directed family $(W_\alpha)_{\alpha \in A}$ of open sets of the form
+Thus let $\mathcal{H}$ be the set of positive lower semi-continuous functions $f$ on $S \times T$ such that $I_f^L$ is lower semi-continuous for every compact subset $L$ of $T$. By Prop. 5 of § 1, No. 6, the supremum of every increasing directed set of elements of $\mathcal{H}$ belongs to $\mathcal{H}$. By Lemma 3, it will therefore suffice to prove that the characteristic function of an open set $W$ of $S \times T$ belongs to $\mathcal{H}$. Moreover, by the definition of the product topology on $S \times T$, the open set $W$ is the union of an increasing directed family $(W_\alpha)_{\alpha \in A}$ of open sets of the form
 $$
 W = \bigcup_{1 \leq i \leq n} (U_i \times V_i),
 $$
@@ -466,19 +466,19 @@ $$
 \iint_X^\bullet f(s, t) \, d\nu(s, t) = \int_S^\bullet d\lambda(s) \int_T^\bullet f(s, t) \, d\mu(t).
 $$
 
-We begin by establishing b) when $f$ is $\nu$-moderated. By Lemma 2, this part of the statement is valid when there exists a compact subset $L$ of $T$ such that $f$ is zero outside $S \times L$; for, in this case $I_f = I_f^{L'}$ for every compact subset $L'$ of $T$ containing $L$, and formula (11) reduces to (6). In particular, b) is established for a function $f$ that is zero outside a compact subset of $S \times T$. On the other hand, Cor. 1 of Prop. 11 implies that b) is true when $f$ is $\nu$-negligible. Since every $\nu$-moderated function is the sum of a $\nu$-negligible function and a sequence of functions with compact support (\S 1, No. 9, Cor. 3 of Prop. 14), the assertion b) is true when $f$ is $\nu$-moderated.
+We begin by establishing b) when $f$ is $\nu$-moderated. By Lemma 2, this part of the statement is valid when there exists a compact subset $L$ of $T$ such that $f$ is zero outside $S \times L$; for, in this case $I_f = I_f^{L'}$ for every compact subset $L'$ of $T$ containing $L$, and formula (11) reduces to (6). In particular, b) is established for a function $f$ that is zero outside a compact subset of $S \times T$. On the other hand, Cor. 1 of Prop. 11 implies that b) is true when $f$ is $\nu$-negligible. Since every $\nu$-moderated function is the sum of a $\nu$-negligible function and a sequence of functions with compact support (§ 1, No. 9, Cor. 3 of Prop. 14), the assertion b) is true when $f$ is $\nu$-moderated.
 
-Similarly, the assertion b) is obvious when $\mu$ is carried by a compact subset $L$ of $T$ (Lemma 2). Suppose that $\mu$ is moderated; then there exists a sequence $(\mu_n)_{n \in \mathbf{N}}$ of measures on $T$ with compact support, such that $\mu = \sum_n \mu_n$ (\S 1, No. 9, Cor. 5 of Prop. 14), whence $\nu = \sum_n \lambda \otimes \mu_n$ (No. 5, Cor. 3 of Prop. 10). The assertion b), being valid for each of the measures $\nu_n = \lambda \otimes \mu_n$, is also valid for $\nu = \sum_n \nu_n$.
+Similarly, the assertion b) is obvious when $\mu$ is carried by a compact subset $L$ of $T$ (Lemma 2). Suppose that $\mu$ is moderated; then there exists a sequence $(\mu_n)_{n \in \mathbf{N}}$ of measures on $T$ with compact support, such that $\mu = \sum_n \mu_n$ (§ 1, No. 9, Cor. 5 of Prop. 14), whence $\nu = \sum_n \lambda \otimes \mu_n$ (No. 5, Cor. 3 of Prop. 10). The assertion b), being valid for each of the measures $\nu_n = \lambda \otimes \mu_n$, is also valid for $\nu = \sum_n \nu_n$.
 
-Let us prove a); denote by $N$ the set of $s \in S$ such that $f_s$ is not $\mu$-measurable; for every compact subset $L$ of $T$, similarly denote by $N_L$ the set of $s \in S$ such that $f_s \varphi_L$ is not $\mu$-measurable. If $K$ and $L$ are compact sets in $S$ and $T$ respectively, then $f_{K \times L}$ is measurable with respect to the measure $\nu_{K \times L} = \lambda_K \otimes \mu_L$, and Prop. 2 of Ch. V, \S 8, No. 2 shows that the set $N_L$ is locally negligible for $\lambda_K$; since $K$ is arbitrary, $N_L$ is locally $\lambda$-negligible.
+Let us prove a); denote by $N$ the set of $s \in S$ such that $f_s$ is not $\mu$-measurable; for every compact subset $L$ of $T$, similarly denote by $N_L$ the set of $s \in S$ such that $f_s \varphi_L$ is not $\mu$-measurable. If $K$ and $L$ are compact sets in $S$ and $T$ respectively, then $f_{K \times L}$ is measurable with respect to the measure $\nu_{K \times L} = \lambda_K \otimes \mu_L$, and Prop. 2 of Ch. V, § 8, No. 2 shows that the set $N_L$ is locally negligible for $\lambda_K$; since $K$ is arbitrary, $N_L$ is locally $\lambda$-negligible.
 
 Suppose that $f$ is zero outside a compact set of the form $K \times L$; then $N = N_L$, and $N$ is contained in $K$; it follows that $N$ is $\lambda$-negligible. Similarly, if $f$ is $\nu$-negligible, Cor. 2 of Prop. 11 implies that $N$ is $\lambda$-negligible. The case that $f$ is $\nu$-moderated can then be treated as above, on combining the preceding two cases.
 
-Suppose that $\mu$ is carried by a compact subset $L$ of $T$; then $N = N_L$ again, therefore $N$ is locally $\lambda$-negligible. Since every moderated measure is the sum of a sequence of measures with compact support ($\S 1$, No. 9, Cor. 5 of Prop. 14), this result extends at once to the case that $\mu$ is moderated, on using Prop. 8 of $\S 1$, No. 7.
+Suppose that $\mu$ is carried by a compact subset $L$ of $T$; then $N = N_L$ again, therefore $N$ is locally $\lambda$-negligible. Since every moderated measure is the sum of a sequence of measures with compact support ($§ 1$, No. 9, Cor. 5 of Prop. 14), this result extends at once to the case that $\mu$ is moderated, on using Prop. 8 of $§ 1$, No. 7.
 
 #### Remark {#int-ix-s2-n6-rem-1 .statement}
 
-— Let $(K_\alpha)_{\alpha \in A}$ be a crushing of $S$ for $\lambda$ and let $M = S - \bigcup_{\alpha \in A} K_\alpha$; define in an analogous way $(L_\beta)_{\beta \in B}$ and $N$ for the measure $\mu$ on $T$. We denote by $S'$ the locally compact space that is the sum of the subspaces $K_\alpha$ of $S$ and the *discrete* space $M$; the space $T'$ is defined analogously, and we set $X' = S' \times T'$. The locally compact space $X'$ is the sum of the family $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ of compact subspaces of $X$ and the subspace $P = (M \times T) \cup (S \times N)$ that is a locally $\nu$-negligible subset of $X$ (one observes that $P$ is in general not a discrete space). We saw in the *Scholium* of $\S 1$, No. 8 that there exists a measure $\lambda'$ on $S'$ such that the measurable functions, the essential upper integral of positive functions, the essentially integrable functions and their integrals, are the same for $\lambda$ and $\lambda'$. We associate the measure $\mu'$ on $T'$ with $\mu$, and the measure $\nu'$ on $X'$ with $\nu$, in conformity with the cited Scholium; one sees immediately that $\nu'^\bullet(f \otimes g) = \lambda'^\bullet(f) \mu'^\bullet(g)$ for $f \in \mathcal{F}_+(S)$ and $g \in \mathcal{F}_+(T)$; therefore $\nu' = \lambda' \otimes \mu'$ by Prop. 10 of No. 5. Since the topology of $X'$ is finer than that of $X$, every $\nu$-moderated function is $\nu'$-moderated. This procedure permits extending without new proof the Lebesgue–Fubini theorem (Ch. V, $\S 8$, No. 4, Th. 1) to the present situation.
+— Let $(K_\alpha)_{\alpha \in A}$ be a crushing of $S$ for $\lambda$ and let $M = S - \bigcup_{\alpha \in A} K_\alpha$; define in an analogous way $(L_\beta)_{\beta \in B}$ and $N$ for the measure $\mu$ on $T$. We denote by $S'$ the locally compact space that is the sum of the subspaces $K_\alpha$ of $S$ and the *discrete* space $M$; the space $T'$ is defined analogously, and we set $X' = S' \times T'$. The locally compact space $X'$ is the sum of the family $(K_\alpha \times L_\beta)_{(\alpha, \beta) \in A \times B}$ of compact subspaces of $X$ and the subspace $P = (M \times T) \cup (S \times N)$ that is a locally $\nu$-negligible subset of $X$ (one observes that $P$ is in general not a discrete space). We saw in the *Scholium* of $§ 1$, No. 8 that there exists a measure $\lambda'$ on $S'$ such that the measurable functions, the essential upper integral of positive functions, the essentially integrable functions and their integrals, are the same for $\lambda$ and $\lambda'$. We associate the measure $\mu'$ on $T'$ with $\mu$, and the measure $\nu'$ on $X'$ with $\nu$, in conformity with the cited Scholium; one sees immediately that ${\nu'}^\bullet(f \otimes g) = {\lambda'}^\bullet(f) {\mu'}^\bullet(g)$ for $f \in \mathcal{F}_+(S)$ and $g \in \mathcal{F}_+(T)$; therefore $\nu' = \lambda' \otimes \mu'$ by Prop. 10 of No. 5. Since the topology of $X'$ is finer than that of $X$, every $\nu$-moderated function is $\nu'$-moderated. This procedure permits extending without new proof the Lebesgue–Fubini theorem (Ch. V, $§ 8$, No. 4, Th. 1) to the present situation.
 
 ### 7. A result on the disintegration of measures
 
@@ -493,7 +493,7 @@ $$
 \int_X f(x)\, d\nu(x) = \int_T d\mu(t) \int_X f(x)\, d\lambda_t(x);
 $$
 
-\footnotetext{(1) A mapping of a topological space $X$ into a topological space $Y$ is said to be *universally measurable* if it is $\mu$-measurable for every measure $\mu$ on $X$ (cf. Ch. V, $\S 3$, No. 4).}
+\footnotetext{(1) A mapping of a topological space $X$ into a topological space $Y$ is said to be *universally measurable* if it is $\mu$-measurable for every measure $\mu$ on $X$ (cf. Ch. V, $§ 3$, No. 4).}
 
 c) the set of $t \in T$ such that $\lambda_t(1) \neq 1$ is locally $\mu$-negligible.
 Moreover, if $t \mapsto \lambda'_t$ is a mapping of $T$ into $\mathcal{M}_+(X)$ satisfying the conditions a) and b), the set of $t \in T$ such that $\lambda_t \neq \lambda'_t$ is locally $\mu$-negligible.
@@ -518,11 +518,11 @@ $$
 \int_{X'} f'(x') \, d\nu'(x') = \int_{T'} d\mu'(t') \int_{X'} f'(x') \, d\lambda'_{t'}(x').
 $$
 
-Let $t \in T$; if $t$ belongs to $T'$, let us denote by $\lambda_t$ the image of $\lambda'_t$ under the canonical injection of $X'$ into $X$, and if $t$ belongs to $T - T'$ we set $\lambda_t = 0$. The reader will verify without difficulty that the mapping $t \mapsto \lambda_t$ satisfies the conditions $a)$ and $b)$ of the statement.
+Let $t \in T$; if $t$ belongs to $T'$, let us denote by $\lambda_t$ the image of $\lambda'_t$ under the canonical injection of $X'$ into $X$, and if $t$ belongs to $T - T'$ we set $\lambda_t = 0$. The reader will verify without difficulty that the mapping $t \mapsto \lambda_t$ satisfies the conditions a) and b) of the statement.
 
 C) *Existence in the general case*:
 
-The measure $\nu$ on $X$ being moderated, we may choose a covering $(U_m)_{m \in \mathbf{N}}$ of $X$ consisting of $\nu$-integrable open sets. Let in addition $(X_n)_{n \in \mathbf{N}}$ be a $\nu$-crushing of $X$ such that the restriction of $p$ to each set $X_n$ is continuous (\S 1, No. 8, Props. 10 and 11); denote by $\nu_n$ the measure $\varphi_{X_n} \cdot \nu$ on $X$ and by $\mu_n$ its image under $p$. By B) there exists, for every integer $n \in \mathbf{N}$, a mapping $t \mapsto \alpha^n_t$ of $T$ into $\mathcal{M}_+(X)$ satisfying the following conditions:
+The measure $\nu$ on $X$ being moderated, we may choose a covering $(U_m)_{m \in \mathbf{N}}$ of $X$ consisting of $\nu$-integrable open sets. Let in addition $(X_n)_{n \in \mathbf{N}}$ be a $\nu$-crushing of $X$ such that the restriction of $p$ to each set $X_n$ is continuous (§ 1, No. 8, Props. 10 and 11); denote by $\nu_n$ the measure $\varphi_{X_n} \cdot \nu$ on $X$ and by $\mu_n$ its image under $p$. By B) there exists, for every integer $n \in \mathbf{N}$, a mapping $t \mapsto \alpha^n_t$ of $T$ into $\mathcal{M}_+(X)$ satisfying the following conditions:
 
 $a'')$ The measure $\alpha^n_t$ is carried by $\overline{p}(t)$ for all $t \in T$.
 
@@ -540,7 +540,7 @@ $$
 
 it is moreover clear that the function $t \mapsto q_t(f)$ on $T$ is universally measurable.
 
-For every $m \in \mathbf{N}$, let $E_m$ be the set of $t \in T$ such that $q_t(U_m) = +\infty$; the set $E_m$ is universally measurable because this is true of the mapping $t \mapsto q_t(U_m)$, and $E_m$ is locally $\mu$-negligible by the formula (14) applied to $f = \varphi_{U_m}$, since $\nu^*(U_m)$ is finite. The set $E = \bigcup_{m \in \mathbf{N}} E_m$ is therefore universally measurable and locally $\mu$-negligible. We set $\lambda_t = 0$ for $t \in E$. Moreover, let $t \in T - E$; the encumbrance $q_t$ is locally bounded since the open sets $U_m$ cover $X$ and since $q_t(U_m)$ is finite; by Prop. 7 of \S 1, No. 7, there exists a measure $\lambda_t$ on $X$ such that $q_t = \lambda_t^*$ and $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. It is immediate that the mapping $t \mapsto \lambda_t$ satisfies the conditions $a)$ and $b)$ of the statement.
+For every $m \in \mathbf{N}$, let $E_m$ be the set of $t \in T$ such that $q_t(U_m) = +\infty$; the set $E_m$ is universally measurable because this is true of the mapping $t \mapsto q_t(U_m)$, and $E_m$ is locally $\mu$-negligible by the formula (14) applied to $f = \varphi_{U_m}$, since $\nu^*(U_m)$ is finite. The set $E = \bigcup_{m \in \mathbf{N}} E_m$ is therefore universally measurable and locally $\mu$-negligible. We set $\lambda_t = 0$ for $t \in E$. Moreover, let $t \in T - E$; the encumbrance $q_t$ is locally bounded since the open sets $U_m$ cover $X$ and since $q_t(U_m)$ is finite; by Prop. 7 of § 1, No. 7, there exists a measure $\lambda_t$ on $X$ such that $q_t = \lambda_t^*$ and $\lambda_t = \sum_{n \in \mathbf{N}} \beta^n_t$. It is immediate that the mapping $t \mapsto \lambda_t$ satisfies the conditions a) and b) of the statement.
 
 D) *Proof of c)*:
 Let $f$ be a universally measurable function on $X$ that is positive and bounded; we are going to show that the universally measurable function $h_f : t \mapsto \lambda_t^\bullet(f)$ on $T$ is a density for the measure $\mu_f = p(f \cdot \nu)$ with respect to $\mu = p(\nu)$. Let $K$ be a compact subset of $T$ and let $A = \overline{p}^{-1}(K)$. For every $t \in T$, the measure $\lambda_t$ is carried by $\overline{p}^{-1}(t)$; if $t$ belongs to $K$ then $\overline{p}^{-1}(t) \subset A$, whence $\lambda_t^\bullet(f \varphi_A) = \lambda_t^\bullet(f)$; on the other hand, if $t$ belongs to $T - K$ then $\overline{p}^{-1}(t) \subset X - A$, whence $\lambda_t^\bullet(f \varphi_A) = 0$. Applying the formula (12) to $f \cdot \varphi_A$,$^{(1)}$ we obtain
@@ -554,7 +554,7 @@ which establishes the relation $\mu_f = h_f \cdot \mu$.
 Letting $f = 1$, one sees that the function $h_1 : t \mapsto \| \lambda_t \|$ is a density of the measure $\mu_1 = \mu$ with respect to $\mu$, hence is equal to 1 locally $\mu$-almost everywhere in $T$.
 
 E) *Uniqueness*:
-Let $t \mapsto \lambda_t^i$ (for $i = 1, 2$) be two mappings of $T$ into $\mathcal{M}_+(X)$ satisfying the conditions $a)$ and $b)$ of the statement. As in C), choose a $\mu$-crushing $(X_n)_{n \in \mathbf{N}}$ of $X$ such that $p_{X_n}$ is continuous for every $n \in \mathbf{N}$, and set $N = X - \bigcup_{n \in \mathbf{N}} X_n$. For every integer $n \in \mathbf{N}$, choose a countable set $D_n$ of positive functions on $X$, zero outside $X_n$, whose restrictions to $X_n$ form a dense set in the normed space $\mathcal{C}(X_n)$ (apply Th. 1 of GT, X, §3, No. 3 to the metrizable compact space $X_n$). We set $D = \bigcup_{n \in \mathbf{N}} D_n$.
+Let $t \mapsto \lambda_t^i$ (for $i = 1, 2$) be two mappings of $T$ into $\mathcal{M}_+(X)$ satisfying the conditions a) and b) of the statement. As in C), choose a $\mu$-crushing $(X_n)_{n \in \mathbf{N}}$ of $X$ such that $p_{X_n}$ is continuous for every $n \in \mathbf{N}$, and set $N = X - \bigcup_{n \in \mathbf{N}} X_n$. For every integer $n \in \mathbf{N}$, choose a countable set $D_n$ of positive functions on $X$, zero outside $X_n$, whose restrictions to $X_n$ form a dense set in the normed space $\mathcal{C}(X_n)$ (apply Th. 1 of GT, X, §3, No. 3 to the metrizable compact space $X_n$). We set $D = \bigcup_{n \in \mathbf{N}} D_n$.
 
 Let $f \in D$; by D), the functions $t \mapsto (\lambda_t^1)^\bullet(f)$ and $t \mapsto (\lambda_t^2)^\bullet(f)$ are densities of the measure $\mu_f$ with respect to $\mu$, and so there exists a locally $\mu$-negligible set $E_f$ in $T$ such that $(\lambda_t^1)^\bullet(f) = (\lambda_t^2)^\bullet(f)$ for $t \in T - E_f$. Moreover, by (12), the set $F_i$ of $t \in T$ such that $(\lambda_t^i)^\bullet(N) \neq 0$ is locally $\mu$-negligible for $i = 1, 2$. Since $D$ is countable, the set $G = (\bigcup_{f \in D} E_f) \cup F_1 \cup F_2$ is locally $\mu$-negligible; for $t \in T - G$, we have $(\lambda_t^1)^\bullet(N) = (\lambda_t^2)^\bullet(N) = 0$ and $(\lambda_t^1)_{X_n} = (\lambda_t^2)_{X_n}$, whence $\lambda_t^1 = \lambda_t^2$ by Prop. 9 of §1, No. 8.
 
@@ -567,9 +567,9 @@ Q.E.D.
 (1) In case $f \cdot \varphi_A$ is not universally measurable, make use of *Remark 2*) below.
 (2) This result does not appear in GT (cf. the footnote to *Remark 1* of §1, No. 9).
 
-and every measure on X is moderated (\S 1, No. 9, Remark 1). By Prop. 13, every measure $\nu$ on X therefore admits a disintegration with respect to every $\nu$-proper mapping.
+and every measure on X is moderated (§ 1, No. 9, Remark 1). By Prop. 13, every measure $\nu$ on X therefore admits a disintegration with respect to every $\nu$-proper mapping.
 
-2) With the notations of Prop. 13, let $f$ be a positive $\nu$-measurable function. One can prove, as in Ch. V, \S 3, No. 2, Prop. 5, that the set of $t \in T$ such that $f$ is not $\lambda_t$-measurable is locally $\mu$-negligible, that $t \mapsto \lambda_t^\bullet(f)$ is $\mu$-measurable, and that the relation (12) again holds.
+2) With the notations of Prop. 13, let $f$ be a positive $\nu$-measurable function. One can prove, as in Ch. V, § 3, No. 2, Prop. 5, that the set of $t \in T$ such that $f$ is not $\lambda_t$-measurable is locally $\mu$-negligible, that $t \mapsto \lambda_t^\bullet(f)$ is $\mu$-measurable, and that the relation (12) again holds.
 
 ### Exercises {#int-ix-s2-exercises}
 

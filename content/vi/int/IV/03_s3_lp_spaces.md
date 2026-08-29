@@ -45,9 +45,9 @@ subsections:
       pdf_page: 138
 statements: 43
 exercises: 3
-content_sha256: 6ef85e5c08c6ad0e3943fa5c1d3c07244326beec8f30e9c775d71a16ead4465b
+content_sha256: 4a57a98e507e96be2e7a08932445fa343c566b842907c923e06bff4a2163a1a4
 translated_from: content/en/int/IV/03_s3_lp_spaces.md
-source_content_sha256: 16b427b4ea1d3b84287755988b90eee74953fb89281b59156d8259d8da9fed05
+source_content_sha256: 990c6868635eb8d33252eba948d26e29837eae81e092411c1ee46078be262311
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4243370b
 glossary_version: 34
@@ -59,7 +59,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Bất đẳng thức Minkowski
 
-Cho X là một không gian địa phương compact, $\mu$ là một độ đo trên X. Trong tập hợp các hàm số dương (hữu hạn hoặc không) xác định trên X, hàm $|\mu|^*(f)$ là dương, thuần nhất dương, tăng và lồi ($\S 1$, No. 3, Props. 10, 11 và 12).
+Cho X là một không gian địa phương compact, $\mu$ là một độ đo trên X. Trong tập hợp các hàm số dương (hữu hạn hoặc không) xác định trên X, hàm $|\mu|^*(f)$ là dương, thuần nhất dương, tăng và lồi ($§ 1$, No. 3, Props. 10, 11 và 12).
 
 #### Mệnh đề 1 {#int-iv-s3-prop-1 .statement}
 
@@ -71,7 +71,7 @@ $$
 
 (bất đẳng thức Minkowski).
 
-Bất đẳng thức (1) là hiển nhiên khi một trong các số hạng của vế thứ hai bằng $+\infty$. Trong trường hợp ngược lại, $f$ và $g$ hữu hạn hầu khắp nơi ($\S 2$, No. 3, Prop. 7). Nếu $f_1$ và $g_1$ là các hàm dương hữu hạn tương đương lần lượt với $f$ và $g$, thì $f_1^p, g_1^p$ và $(f_1 + g_1)^p$ lần lượt tương đương với $f^p, g^p$ và $(f + g)^p$, và vì các hàm dương tương đương có cùng tích phân trên ($\S 2$, No. 3, Prop. 6), ta quy về việc chứng minh bất đẳng thức (1) trong trường hợp $f$ và $g$ hữu hạn khắp nơi; nhưng trong trường hợp này bất đẳng thức là một trường hợp riêng của bất đẳng thức Minkowski tổng quát đã được chứng minh trong Ch. I, No. 2, Prop. 3.
+Bất đẳng thức (1) là hiển nhiên khi một trong các số hạng của vế thứ hai bằng $+\infty$. Trong trường hợp ngược lại, $f$ và $g$ hữu hạn hầu khắp nơi ($§ 2$, No. 3, Prop. 7). Nếu $f_1$ và $g_1$ là các hàm dương hữu hạn tương đương lần lượt với $f$ và $g$, thì $f_1^p, g_1^p$ và $(f_1 + g_1)^p$ lần lượt tương đương với $f^p, g^p$ và $(f + g)^p$, và vì các hàm dương tương đương có cùng tích phân trên ($§ 2$, No. 3, Prop. 6), ta quy về việc chứng minh bất đẳng thức (1) trong trường hợp $f$ và $g$ hữu hạn khắp nơi; nhưng trong trường hợp này bất đẳng thức là một trường hợp riêng của bất đẳng thức Minkowski tổng quát đã được chứng minh trong Ch. I, No. 2, Prop. 3.
 
 Ta cũng sẽ có dịp sử dụng bất đẳng thức sơ cấp sau đây: nếu $p \geqslant 1$ thì, với mọi số $a \geqslant 0,\ b \geqslant 0$,
 
@@ -138,7 +138,7 @@ $$
 
 Mệnh đề suy ra ngay lập tức từ Định lý 1 của §2, No. 3.
 
-Nếu f và g là hai ánh xạ tương đương từ X vào F, thì $N_p(f) = N_p(g)$ với mọi $p \geq 1$ (\S2, No. 3, Mệnh đề 6); do đó, $N_p(f)$ chỉ phụ thuộc vào lớp $\tilde{f}$ của f, và ta đặt, theo định nghĩa, $N_p(\tilde{f}) = N_p(f)$. Vì các lớp các ánh xạ từ X vào F tạo thành một không gian vectơ (\S2, No. 4), các quan hệ (3) và (4) cũng có thể được viết
+Nếu f và g là hai ánh xạ tương đương từ X vào F, thì $N_p(f) = N_p(g)$ với mọi $p \geq 1$ (§ 2, No. 3, Mệnh đề 6); do đó, $N_p(f)$ chỉ phụ thuộc vào lớp $\tilde{f}$ của f, và ta đặt, theo định nghĩa, $N_p(\tilde{f}) = N_p(f)$. Vì các lớp các ánh xạ từ X vào F tạo thành một không gian vectơ (§ 2, No. 4), các quan hệ (3) và (4) cũng có thể được viết
 
 $$
 (6) \quad N_p(\alpha \tilde{f}) = |\alpha| N_p(\tilde{f})
@@ -195,7 +195,7 @@ $$
 N_p(g) \leqslant \sum_{n=1}^\infty N_p(f_n) < +\infty;
 $$
 
-do đó $g$ hữu hạn hầu khắp nơi (\S2, No. 3, Mệnh đề 7), điều đó có nghĩa là chuỗi có số hạng tổng quát $f_n(x)$ hội tụ tuyệt đối hầu khắp nơi. Vì $\mathbf{F}$ là đầy đủ, chuỗi này hội tụ hầu khắp nơi và, với mọi $x \in X$, $|f(x)| \leqslant \sum_{n=1}^\infty |f_n(x)| = g(x)$, do đó
+do đó $g$ hữu hạn hầu khắp nơi (§ 2, No. 3, Mệnh đề 7), điều đó có nghĩa là chuỗi có số hạng tổng quát $f_n(x)$ hội tụ tuyệt đối hầu khắp nơi. Vì $\mathbf{F}$ là đầy đủ, chuỗi này hội tụ hầu khắp nơi và, với mọi $x \in X$, $|f(x)| \leqslant \sum_{n=1}^\infty |f_n(x)| = g(x)$, do đó
 
 $$
 N_p(f) \leqslant N_p(g) \leqslant \sum_{n=1}^\infty N_p(f_n) < +\infty,
@@ -347,7 +347,7 @@ Với mọi $\varepsilon > 0$ tồn tại một hàm liên tục $g$ có giá co
 
 ### 6. Các tập hợp có hướng trong $L^p$ và các dãy tăng trong $\mathcal{L}^p$
 
-Ta đã định nghĩa (\S 2, No. 6) một quan hệ thứ tự $\tilde{f} \leq \tilde{g}$ trong tập hợp $\widetilde{\mathcal{F}}$ gồm các lớp tương đương của các hàm số được xác định và hữu hạn hầu khắp nơi trong $X$; được trang bị quan hệ thứ tự này và cấu trúc không gian vectơ của nó, $\widetilde{\mathcal{F}}$ là một *không gian Riesz*. Hệ quả của Mệnh đề 12 của No. 5 chỉ ra rằng nếu $\tilde{f}$ và $\tilde{g}$ là hai phần tử của không gian con $L^p$ của $\widetilde{\mathcal{F}}$, thì cận trên đúng $\sup(\tilde{f}, \tilde{g})$ của $\tilde{f}$ và $\tilde{g}$ trong $\widetilde{\mathcal{F}}$ (là lớp của mỗi hàm $\sup(f, g)$, trong đó $f \in \tilde{f}$ và $g \in \tilde{g}$) thuộc $L^p$; điều này đặc biệt chứng minh rằng $L^p$, được trang bị quan hệ thứ tự cảm sinh bởi quan hệ của $\widetilde{\mathcal{F}}$, là một *không gian Riesz*.
+Ta đã định nghĩa (§ 2, No. 6) một quan hệ thứ tự $\tilde{f} \leq \tilde{g}$ trong tập hợp $\widetilde{\mathcal{F}}$ gồm các lớp tương đương của các hàm số được xác định và hữu hạn hầu khắp nơi trong $X$; được trang bị quan hệ thứ tự này và cấu trúc không gian vectơ của nó, $\widetilde{\mathcal{F}}$ là một *không gian Riesz*. Hệ quả của Mệnh đề 12 của No. 5 chỉ ra rằng nếu $\tilde{f}$ và $\tilde{g}$ là hai phần tử của không gian con $L^p$ của $\widetilde{\mathcal{F}}$, thì cận trên đúng $\sup(\tilde{f}, \tilde{g})$ của $\tilde{f}$ và $\tilde{g}$ trong $\widetilde{\mathcal{F}}$ (là lớp của mỗi hàm $\sup(f, g)$, trong đó $f \in \tilde{f}$ và $g \in \tilde{g}$) thuộc $L^p$; điều này đặc biệt chứng minh rằng $L^p$, được trang bị quan hệ thứ tự cảm sinh bởi quan hệ của $\widetilde{\mathcal{F}}$, là một *không gian Riesz*.
 
 #### Mệnh đề 13 {#int-iv-s3-prop-13 .statement}
 
@@ -355,7 +355,7 @@ Ta đã định nghĩa (\S 2, No. 6) một quan hệ thứ tự $\tilde{f} \leq 
 
 Phần thứ nhất của mệnh đề suy ra ngay từ Mệnh đề 11 của No. 5; vì tập hợp các $\tilde{f} \geq 0$ cũng là tập hợp các $\tilde{f}$ sao cho $| \tilde{f} | = f$, nó là đóng, bởi vì $\tilde{f} \mapsto | \tilde{f} |$ là một ánh xạ liên tục và $L^p$ là Hausdorff.
 
-Do đó ta thấy rằng tôpô trên $L^p$ xác định bởi chuẩn $\| \tilde{f} \|_p$ là *tương thích* với cấu trúc không gian vectơ có thứ tự của $L^p$ (TVS, II, \S 2, No. 7).
+Do đó ta thấy rằng tôpô trên $L^p$ xác định bởi chuẩn $\| \tilde{f} \|_p$ là *tương thích* với cấu trúc không gian vectơ có thứ tự của $L^p$ (TVS, II, § 2, No. 7).
 
 #### Mệnh đề 14 {#int-iv-s3-prop-14 .statement}
 
@@ -367,7 +367,7 @@ $$
 
 *Supremum của $H$ trong $L^p$ khi đó là giới hạn* (trong không gian Banach $L^p$) *của lọc tiết diện của $H$*.
 
-Điều kiện này rõ ràng là cần, vì $\tilde{f} \mapsto \| \tilde{f} \|_p$ là một hàm tăng trên tập hợp các phần tử $\geq 0$ của $L^p$. Để thấy rằng nó đủ, trước hết ta nhận thấy rằng nó kéo theo ảnh của $H$ qua ánh xạ $\tilde{f} \mapsto \| \tilde{f} \|_p$ có một giới hạn trong $\mathbf{R}$, theo định lý giới hạn đơn điệu; do đó ảnh của lọc tiết diện $\mathfrak{F}$ của $H$ qua ánh xạ này là một cơ sở của một lọc Cauchy trên $\mathbf{R}$. Chứng minh sẽ hoàn tất nếu ta chỉ ra rằng bản thân $\mathfrak{F}$ là một *cơ sở của một lọc Cauchy* trên $L^p$; vì khi đó $\mathfrak{F}$ sẽ hội tụ trong $L^p$, do $L^p$ là đầy đủ (No. 4, Th. 2), và mệnh đề sẽ suy ra từ TVS, II, \S 2, No. 7, Mệnh đề 18.
+Điều kiện này rõ ràng là cần, vì $\tilde{f} \mapsto \| \tilde{f} \|_p$ là một hàm tăng trên tập hợp các phần tử $\geq 0$ của $L^p$. Để thấy rằng nó đủ, trước hết ta nhận thấy rằng nó kéo theo ảnh của $H$ qua ánh xạ $\tilde{f} \mapsto \| \tilde{f} \|_p$ có một giới hạn trong $\mathbf{R}$, theo định lý giới hạn đơn điệu; do đó ảnh của lọc tiết diện $\mathfrak{F}$ của $H$ qua ánh xạ này là một cơ sở của một lọc Cauchy trên $\mathbf{R}$. Chứng minh sẽ hoàn tất nếu ta chỉ ra rằng bản thân $\mathfrak{F}$ là một *cơ sở của một lọc Cauchy* trên $L^p$; vì khi đó $\mathfrak{F}$ sẽ hội tụ trong $L^p$, do $L^p$ là đầy đủ (No. 4, Th. 2), và mệnh đề sẽ suy ra từ TVS, II, § 2, No. 7, Mệnh đề 18.
 
 Để thấy rằng $\mathfrak{F}$ là một cơ sở của một lọc Cauchy, ta sẽ sử dụng bổ đề sau:
 
@@ -508,7 +508,7 @@ $$
 
 theo định lý lồi đếm được. Hơn nữa, $g_n(x)$ tiến tới hầu khắp nơi tới $g(x) = |f(x)|^{(p/q)-1} \cdot f(x)$, do đó định lý Lebesgue chỉ ra rằng $g \in \mathcal{L}_F^q$. Điều đảo lại là ngay lập tức, vì $f = |g|^{(q/p)-1} \cdot g$.
 
-Có thể chứng minh được rằng ánh xạ $f \mapsto |f|^{\frac{p}{q}-1} \cdot f$ là một đồng phôi từ $\mathcal{L}_F^p$ lên $\mathcal{L}_F^q$ (\S 6, Exer. 10).
+Có thể chứng minh được rằng ánh xạ $f \mapsto |f|^{\frac{p}{q}-1} \cdot f$ là một đồng phôi từ $\mathcal{L}_F^p$ lên $\mathcal{L}_F^q$ (§ 6, Exer. 10).
 
 #### Hệ quả 1 {#int-iv-s3-thm-7-cor-1 .statement}
 
@@ -518,7 +518,7 @@ Có thể chứng minh được rằng ánh xạ $f \mapsto |f|^{\frac{p}{q}-1} 
 
 — *Để một hàm số dương $f$ thuộc $\mathcal{L}^p$, điều kiện cần và đủ là $f^p$ thuộc $\mathcal{L}^1$.*
 
-Chú ý rằng nếu $f$ là một hàm số có dấu tùy ý, sao cho $|f|^p$ thuộc $\mathcal{L}^1$, thì $f$ không nhất thiết thuộc $\mathcal{L}^p$ (xem \S 4, Exer. 8).
+Chú ý rằng nếu $f$ là một hàm số có dấu tùy ý, sao cho $|f|^p$ thuộc $\mathcal{L}^1$, thì $f$ không nhất thiết thuộc $\mathcal{L}^p$ (xem § 4, Exer. 8).
 
 ### Bài tập {#int-iv-s3-exercises}
 

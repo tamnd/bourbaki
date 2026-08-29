@@ -37,9 +37,9 @@ subsections:
       pdf_page: 121
 statements: 23
 exercises: 5
-content_sha256: f4ded34d83d26206bc22cb03b3f1cf95a6dbc37837a0192ffecb436cabb673af
+content_sha256: f5c4e0b03ef410246ff7b71a776980171f65f871d1d985e492ef08736704bfaf
 translated_from: content/en/alg/V/01_s1_prime_fields_characteristic.md
-source_content_sha256: 1c57a4e149cdea35fb3299e7edcd8a05a7f7d66fd56689576fbf98195a063c37
+source_content_sha256: 9f0b3fd5a207c13f294d97e009459524508d20f2e3997660100744248b28d20c
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-78072c4e
 glossary_version: 34
@@ -80,15 +80,15 @@ Cho $K$ là một trường con của $A$, $C$ là tâm của $A$, và đặt $K
 Ta sẽ định nghĩa đặc số của một vành $A$ chỉ khi $A$ có một trường con. Khi điều này xảy ra, cho $f$ là đồng cấu vành duy nhất từ $\mathbf{Z}$ vào $A$, và cho $n$ là số nguyên dương duy nhất sinh iđêan của $\mathbf{Z}$ là hạt nhân của $f$ (I, p. 111); khi đó số nguyên $n$ được gọi là đặc số của $A$.
 
 Cho $A$ là một vành mà đặc số đã được định nghĩa; khi đó $A$ không rút gọn về 0. Theo Định lý 1 tồn tại một trường con duy nhất $P$ của $A$ là một trường nguyên tố; ta sẽ gọi nó là trường con nguyên tố của $A$. Theo chứng minh của Định lý 1 có hai khả năng sau:
-$a)$ đặc số của $A$ là 0, $P$ đẳng cấu với $Q$,
-$b)$ đặc số của $A$ là một số nguyên tố $p$, $P$ đẳng cấu với $\mathbf{F}_p$.
+a) đặc số của $A$ là 0, $P$ đẳng cấu với $Q$,
+b) đặc số của $A$ là một số nguyên tố $p$, $P$ đẳng cấu với $\mathbf{F}_p$.
 
 Nếu đặc số của $A$ là không, tồn tại một đồng cấu vành duy nhất từ $Q$ vào $A$; ảnh của nó là trường con nguyên tố của $A$, được chứa trong tâm của $A$. Do đó tồn tại một cấu trúc đại số $Q$ duy nhất của $A$ tương thích với cấu trúc vành. Khi đặc số của $A$ là một số nguyên tố $p$, ta có các tính chất tương ứng khi thay thế trường $Q$ bởi trường $\mathbf{F}_p$.
 
 #### Mệnh đề 1 {#alg-v-s1-prop-1 .statement}
 
 — Cho $A$ là một vành không rút gọn về 0.
-$a)$ Để $A$ có đặc số 0, điều kiện cần và đủ là ánh xạ $x \mapsto n \cdot x$ từ $A$ vào chính nó phải là song ánh, với mọi số nguyên $n \neq$
+a) Để $A$ có đặc số 0, điều kiện cần và đủ là ánh xạ $x \mapsto n \cdot x$ từ $A$ vào chính nó phải là song ánh, với mọi số nguyên $n \neq$
 
 b) Cho $p$ là một số nguyên tố. Để $A$ có đặc số $p$, điều kiện cần và đủ là $p \cdot x = 0$ với mọi $x \in A$.
 
@@ -159,9 +159,9 @@ a) *Ta có $K[S]^{p^f} = K^{p^f}[S^{p^f}]$, và nếu $A$ là một trường, $
 
 b) *Nếu môđun $K$- $K[S]$ được sinh bởi họ $(a_i)_{i \in I}$ các phần tử của $A$, thì môđun $K$- $K[S^{p^f}]$ được sinh bởi họ $(a_i^{p^f})_{i \in I'}$*
 
-Vì $K[S]$ là vành con của $A$ sinh bởi $K \cup S$, ảnh $KISlp^f$ của nó qua tự đồng cấu $\pi : a \mapsto a^{p^f}$ của vành $A$ là vành con của $A$ sinh bởi ảnh $K^{p^f} \cup S^{p^f}$ của $K \cup S$ qua $\pi$, do đó $K[S]^{p^f} = K^{p^f}[S^{p^f}]$. Trường hợp các trường được xử lý tương tự; điều này chứng minh $a)$.
+Vì $K[S]$ là vành con của $A$ sinh bởi $K \cup S$, ảnh $KISlp^f$ của nó qua tự đồng cấu $\pi : a \mapsto a^{p^f}$ của vành $A$ là vành con của $A$ sinh bởi ảnh $K^{p^f} \cup S^{p^f}$ của $K \cup S$ qua $\pi$, do đó $K[S]^{p^f} = K^{p^f}[S^{p^f}]$. Trường hợp các trường được xử lý tương tự; điều này chứng minh a).
 
-Hiển nhiên họ $(a_i^{p^f})_{i \in I}$ sinh $K^{p^f}$-môđun $K[S]^{p^f}$. $K$-môđun $K[S^{p^f}]$ được sinh bởi các tích có dạng $x_1^{p^f} \cdots x_n^{p^f} = (x, \ldots x_n)^{p^f}$ với $x_1, \ldots, x_n$ tùy ý trong $S$, do đó cũng bởi tập hợp $K[S]^{p^f}$. Mệnh đề $b)$ suy ra trực tiếp từ điều này.
+Hiển nhiên họ $(a_i^{p^f})_{i \in I}$ sinh $K^{p^f}$-môđun $K[S]^{p^f}$. $K$-môđun $K[S^{p^f}]$ được sinh bởi các tích có dạng $x_1^{p^f} \cdots x_n^{p^f} = (x, \ldots x_n)^{p^f}$ với $x_1, \ldots, x_n$ tùy ý trong $S$, do đó cũng bởi tập hợp $K[S]^{p^f}$. Mệnh đề b) suy ra trực tiếp từ điều này.
 
 ^1 Dĩ nhiên tập hợp $S^{p^f}$ không được nhầm lẫn với tích tập hợp của $p^f$ tập hợp bằng $S$, cũng không với tập hợp các tích của $p^f$ phần tử thuộc $S$.
 

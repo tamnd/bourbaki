@@ -29,6 +29,10 @@ books:
       page_height_pt: 666.142
       grammar: foot-number
       pagination: continuous
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 5
+        last_pdf_page: 7
       introduction:
         title: INTRODUCTION
         page: 7
@@ -61,6 +65,16 @@ books:
       page_height_pt: 565.56
       grammar: foot-number
       pagination: continuous
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 5
+        last_pdf_page: 7
+        file: 00_to_the_reader_i_iii.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 21
+        last_pdf_page: 23
+        file: 00_introduction_i_iii.md
     - id: alg-iv-vii
       book: alg
       lang: en
@@ -89,6 +103,11 @@ books:
       page_height_pt: 596.16
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 6
+        last_pdf_page: 8
+        file: 00_to_the_reader_iv_vii.md
     - id: alg-viii
       book: alg
       lang: en
@@ -108,6 +127,16 @@ books:
       page_height_pt: 680.315
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 5
+        last_pdf_page: 8
+        file: 00_to_the_reader_viii.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 16
+        last_pdf_page: 17
+        file: 00_introduction_viii.md
     - id: alg-i-iii-fr
       book: alg
       lang: fr
@@ -136,6 +165,16 @@ books:
       page_height_pt: 666.142
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 5
+        last_pdf_page: 7
+        file: 00_to_the_reader_i_iii.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 8
+        last_pdf_page: 10
+        file: 00_introduction_i_iii.md
     - id: alg-iv-vii-fr
       book: alg
       lang: fr
@@ -170,6 +209,11 @@ books:
             - 273
             - 274
           why: pdf 274 heads A V.169 and ends the exercices of chapter V, and pdf 273 opens the note historique at printed 170 and its last paragraph runs straight into pdf 275, which heads A V.171
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 5
+        last_pdf_page: 7
+        file: 00_to_the_reader_iv_vii.md
     - id: alg-viii-fr
       book: alg
       lang: fr
@@ -189,6 +233,16 @@ books:
       page_height_pt: 666
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 6
+        last_pdf_page: 8
+        file: 00_to_the_reader_viii.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 10
+        last_pdf_page: 11
+        file: 00_introduction_viii.md
     - id: alg-ix-fr
       book: alg
       lang: fr
@@ -241,6 +295,11 @@ books:
       page_height_pt: 792
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 4
+        last_pdf_page: 6
+        file: 00_to_the_reader_x.md
     - id: top-i-iv
       book: top
       lang: en
@@ -270,6 +329,15 @@ books:
       page_height_pt: 666.142
       grammar: foot-number
       pagination: continuous
+      reader_note:
+        title: ADVICE TO THE READER
+        first_pdf_page: 5
+        last_pdf_page: 7
+        file: 00_to_the_reader_i_iv.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 18
+        last_pdf_page: 22
     - id: top-v-x
       book: top
       lang: en
@@ -301,6 +369,11 @@ books:
       page_height_pt: 648.36
       grammar: foot-number
       pagination: continuous
+      reader_note:
+        title: ADVICE TO THE READER
+        first_pdf_page: 5
+        last_pdf_page: 6
+        file: 00_to_the_reader_v_x.md
     - id: top-i-iv-fr
       book: top
       lang: fr
@@ -330,6 +403,15 @@ books:
       page_height_pt: 666.142
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 5
+        last_pdf_page: 7
+        file: 00_to_the_reader_i_iv.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 8
+        last_pdf_page: 12
     - id: top-v-x-fr
       book: top
       lang: fr
@@ -361,6 +443,11 @@ books:
       page_height_pt: 680.315
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 5
+        last_pdf_page: 7
+        file: 00_to_the_reader_v_x.md
     - id: fvr-i-vii
       book: fvr
       lang: en
@@ -393,6 +480,14 @@ books:
       page_height_pt: 599.94
       grammar: head-number
       pagination: continuous
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 6
+        last_pdf_page: 8
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 16
+        last_pdf_page: 17
     - id: fvr-i-vii-fr
       book: fvr
       lang: fr
@@ -426,6 +521,14 @@ books:
       grammar: head-label
       pagination: per-chapter
       first_page: 3
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 4
+        last_pdf_page: 6
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 7
+        last_pdf_page: 8
     - id: evt-i-v
       book: evt
       lang: en
@@ -456,6 +559,10 @@ books:
       page_height_pt: 666
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 6
+        last_pdf_page: 8
     - id: evt-i-v-fr
       book: evt
       lang: fr
@@ -486,6 +593,10 @@ books:
       page_height_pt: 680.315
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 4
+        last_pdf_page: 6
     - id: int-i-vi
       book: int
       lang: en
@@ -517,6 +628,15 @@ books:
       page_height_pt: 666.142
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 6
+        last_pdf_page: 8
+        file: 00_to_the_reader_i_vi.md
+      introduction:
+        title: Introduction
+        first_pdf_page: 9
+        last_pdf_page: 15
     - id: int-vii-ix
       book: int
       lang: en
@@ -545,6 +665,11 @@ books:
       page_height_pt: 666.142
       grammar: head-label
       pagination: per-chapter
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 4
+        last_pdf_page: 6
+        file: 00_to_the_reader_vii_ix.md
     - id: int-i-iv-fr
       book: int
       lang: fr
@@ -574,6 +699,10 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 5
+        last_pdf_page: 12
     - id: int-v-fr
       book: int
       lang: fr
@@ -711,6 +840,14 @@ books:
       page_height_pt: 563
       grammar: foot-number
       pagination: continuous
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 3
+        last_pdf_page: 5
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 17
+        last_pdf_page: 20
     - id: ac-i-iv-fr
       book: ac
       lang: fr
@@ -740,6 +877,10 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 5
+        last_pdf_page: 10
     - id: ac-v-vii-fr
       book: ac
       lang: fr
@@ -848,6 +989,14 @@ books:
       pagination: continuous
       restarts:
         - 96
+      reader_note:
+        title: AVERTISSEMENT
+        first_pdf_page: 4
+        last_pdf_page: 4
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 6
+        last_pdf_page: 6
     - id: lie-i-iii
       book: lie
       lang: en
@@ -876,6 +1025,10 @@ books:
       page_height_pt: 422.52
       grammar: foot-number
       pagination: continuous
+      reader_note:
+        title: TO THE READER
+        first_pdf_page: 5
+        last_pdf_page: 7
     - id: lie-iv-vi
       book: lie
       lang: en
@@ -903,6 +1056,10 @@ books:
       page_height_pt: 666
       grammar: head-number
       pagination: continuous
+      introduction:
+        title: INTRODUCTION TO CHAPTERS IV, V AND VI
+        first_pdf_page: 6
+        last_pdf_page: 7
     - id: lie-vii-ix
       book: lie
       lang: en
@@ -1005,6 +1162,10 @@ books:
       page_height_pt: 680.315
       grammar: head-number
       pagination: continuous
+      introduction:
+        title: INTRODUCTION AUX CHAPITRES IV, V ET VI
+        first_pdf_page: 6
+        last_pdf_page: 7
     - id: lie-vii-viii-fr
       book: lie
       lang: fr
@@ -1012,7 +1173,6 @@ books:
       edition: ""
       chapters:
         - VII
-        - VIII
       pdf: pdf/fr/Groupes et algèbres de Lie_ Chapitres 7 et 8.pdf
       pdf_sha256: eb1f7887a5ca216c4361708ac11e9e5250f5586c8c63c6462bb7f01cb080e9ab
       pdf_bytes: 2805285
@@ -1078,6 +1238,16 @@ books:
       page_height_pt: 666.14
       grammar: head-label
       pagination: continuous
+      reader_note:
+        title: MODE D’EMPLOI
+        first_pdf_page: 7
+        last_pdf_page: 10
+        file: 00_to_the_reader_i_ii.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 11
+        last_pdf_page: 13
+        file: 00_introduction_i_ii.md
     - id: ts-iii-v-fr
       book: ts
       lang: fr
@@ -1099,6 +1269,16 @@ books:
       page_height_pt: 666.14
       grammar: head-label
       pagination: continuous
+      reader_note:
+        title: MODE D’EMPLOI
+        first_pdf_page: 7
+        last_pdf_page: 10
+        file: 00_to_the_reader_iii_v.md
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 11
+        last_pdf_page: 14
+        file: 00_introduction_iii_v.md
     - id: ta-i-iv-fr
       book: ta
       lang: fr
@@ -1121,6 +1301,14 @@ books:
       page_height_pt: 666.14
       grammar: head-label
       pagination: continuous
+      reader_note:
+        title: MODE D’EMPLOI
+        first_pdf_page: 8
+        last_pdf_page: 11
+      introduction:
+        title: INTRODUCTION
+        first_pdf_page: 12
+        last_pdf_page: 15
     - id: hist
       book: hist
       lang: en
@@ -1170,3 +1358,7 @@ books:
       page_height_pt: 509
       grammar: head-number
       pagination: continuous
+      reader_note:
+        title: AVERTISSEMENT
+        first_pdf_page: 5
+        last_pdf_page: 5

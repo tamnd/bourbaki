@@ -1,0 +1,18 @@
+{"edges": [
+{"from":"","from_label":"alg-v-s12-prop-2","to_label":"alg-v-s12-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/12_s12_finite_fields.md","line":66},
+{"from":"","from_label":"alg-v-s12-n1-cor-1","to_label":"alg-v-s12-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/12_s12_finite_fields.md","line":72},
+{"from":"","from_label":"alg-v-s12-n1-cor-1","to_label":"alg-v-s4","kind":"cites","raw":"V, p. 22","form":"page","resolved_by":"section","file":"content/en/alg/V/12_s12_finite_fields.md","line":72},
+{"from":"","from_label":"alg-v-s12-prop-3","to_label":"alg-iv-s2-prop-7","kind":"cites","raw":"IV, p. 17, Prop. 7","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":102},
+{"from":"","from_label":"alg-v-s12-prop-3","to_label":"alg-v-s12-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/12_s12_finite_fields.md","line":104},
+{"from":"","from_label":"alg-v-s12-n2-cor-1","to_label":"alg-v-s4-thm-2","kind":"cites","raw":"V, p. 23, Th. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":114},
+{"from":"","from_label":"alg-v-s12-n2-cor-1","to_label":"alg-v-s12-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/alg/V/12_s12_finite_fields.md","line":114},
+{"from":"","from_label":"alg-v-s12-n2-cor-1","to_label":"alg-v-s12-n1-cor-1","kind":"cites","raw":"Cor. of Prop. 2","form":"attached","resolved_by":"parent-label","file":"content/en/alg/V/12_s12_finite_fields.md","line":114},
+{"from":"","from_label":"alg-v-s12-prop-4","to_label":"alg-v-s10-thm-3","kind":"cites","raw":"V, p. 66, Th. 3","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":126},
+{"from":"","from_label":"alg-v-s12-prop-4","to_label":"alg-v-s8","kind":"cites","raw":"V, p. 49","form":"page","resolved_by":"section","file":"content/en/alg/V/12_s12_finite_fields.md","line":130},
+{"from":"","from_label":"alg-v-s12","to_label":"alg-i-s5-prop-8","kind":"cites","raw":"I, p. 64, Prop. 8","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":136},
+{"from":"","from_label":"alg-v-s12","to_label":"alg-i-s8-prop-11","kind":"cites","raw":"I, p. 112, Prop. 11","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":150},
+{"from":"","from_label":"alg-v-s12","to_label":"alg-v-s12-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/alg/V/12_s12_finite_fields.md","line":152},
+{"from":"","from_label":"alg-v-s12-prop-5","to_label":"alg-v-s10-lem-2","kind":"cites","raw":"V, p. 67, Lemma 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/12_s12_finite_fields.md","line":160},
+{"from":"","from_label":"alg-v-s12-ex-11","to_label":"alg-i-s5","kind":"cites","raw":"I, p. 62","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s12/11.md","line":14},
+{"from":"","from_label":"alg-v-s12-ex-12","to_label":"alg-i-s5-prop-9","kind":"cites","raw":"I, p. 63, Prop. 9","form":"page","resolved_by":"page-map","file":"content/en/alg/V/exercises/s12/12.md","line":14}
+]}

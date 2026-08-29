@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 50
 exercises: 20
-content_sha256: 111657bd3d99c748159e0ecbf72bd43cd8feeec35a24426a9f9fa5ecbde1fb29
+content_sha256: 99c126ab4b18ba333a16816f882676b7b1b31e7b9cb94934384e91432ab4f93c
 ---
 
 ## § 2. ENSEMBLES CONVEXES
@@ -464,7 +464,7 @@ $$
 
 par définition de $F$, cela entraîne que $(\lambda x + (1 - \lambda) y, \lambda a + (1 - \lambda) b)$ appartient à $F$.
 
-Enfin, $b)$ entraîne $a)$, car (avec les mêmes notations), dire que le point $(\lambda x + (1 - \lambda) y, \lambda a + (1 - \lambda) b)$ appartient à F signifie que l’on a :
+Enfin, b) entraîne a), car (avec les mêmes notations), dire que le point $(\lambda x + (1 - \lambda) y, \lambda a + (1 - \lambda) b)$ appartient à F signifie que l’on a :
 
 $$
 f(\lambda x + (1 - \lambda) y) \leq \lambda a + (1 - \lambda) b

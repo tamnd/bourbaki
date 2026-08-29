@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 39
 exercises: 7
-content_sha256: a2bb35cfe2d14c222748ac9ab0cd56ab79a3337067d7023054b9fe4c23f83710
+content_sha256: 7f34e8fa776003d5116ba6baec027fc4736d0298ce93dee623ca18e4bbb7b4ec
 ---
 
 ## 3. $\mathfrak{m}$-adic topologies on Noetherian rings
@@ -219,7 +219,7 @@ The hypothesis that $A$ is *Noetherian* is essential in this corollary. For exam
 
 *Let $\mathbf{A}$ be a topological ring. If a two-sided ideal $m$ of $\mathbf{A}$ is such that the given topology on $\mathbf{A}$ is the $m$-adic topology, $m$ is called a defining ideal & the topology on $\mathbf{A}$.*
 
-Let $A$ be a commutative Noetherian ring, $m$ an ideal of $A$ and $t$ its radical (Chapter II, § 2, no. 6). If $m'$ is a defining ideal of the $m$-adic topology, there exists an integer $n > 0$ such that $m'^n \subset m$ ($\S 2$, no. 5) and hence $m' \subset t$; conversely, since $A$ is Noetherian, there exists an integer $k > 0$ such that $t^k \subset m$ (Chapter II, § 2, no. 6, Proposition 15) and hence $t$ is *the largest defining ideal* of the $m$-adic topology.
+Let $A$ be a commutative Noetherian ring, $m$ an ideal of $A$ and $t$ its radical (Chapter II, § 2, no. 6). If $m'$ is a defining ideal of the $m$-adic topology, there exists an integer $n > 0$ such that ${m'}^n \subset m$ ($§ 2$, no. 5) and hence $m' \subset t$; conversely, since $A$ is Noetherian, there exists an integer $k > 0$ such that $t^k \subset m$ (Chapter II, § 2, no. 6, Proposition 15) and hence $t$ is *the largest defining ideal* of the $m$-adic topology.
 
 ### 3. ZARISKI RINGS
 
@@ -267,7 +267,7 @@ Let $A$ be a *Noetherian semi-local* ring and $r$ its Jacobson radical. Then $A$
 
 (iii) *If $h$ is injective (thus identifying $A$ with a subring of $A'$), the $m'$-adic topology on $A'$ induces on $A$ the $m$-adic topology.*
 
-Recall that the $m'$-adic filtration on $A'$ coincides with the $m$-adic filtration on the *A-module* $A'$ (\S 2, no. 1, *Example 3*). Assertion (i) is thus a special case of Proposition 5 of no. 2 and assertion (iii) a special case of Theorem 2 of no. 2. Finally let us show (ii). Suppose that $A$ is a Zariski ring with the $m$-adic topology and let $E'$ be a finitely generated $A'$-module; it is also a finitely generated $A$-module and the $m$-adic and $m'$-adic filtrations on $E'$ coincide; then $E'$ is Hausdorff with the $m'$-adic topology. Finally the $A$-module $A'$ is Noetherian and hence the ring $A'$ is Noetherian, which completes the proof that $A'$ is a Zariski ring.
+Recall that the $m'$-adic filtration on $A'$ coincides with the $m$-adic filtration on the *A-module* $A'$ (§ 2, no. 1, *Example 3*). Assertion (i) is thus a special case of Proposition 5 of no. 2 and assertion (iii) a special case of Theorem 2 of no. 2. Finally let us show (ii). Suppose that $A$ is a Zariski ring with the $m$-adic topology and let $E'$ be a finitely generated $A'$-module; it is also a finitely generated $A$-module and the $m$-adic and $m'$-adic filtrations on $E'$ coincide; then $E'$ is Hausdorff with the $m'$-adic topology. Finally the $A$-module $A'$ is Noetherian and hence the ring $A'$ is Noetherian, which completes the proof that $A'$ is a Zariski ring.
 
 ### 4. THE HAUSDORFF COMPLETION OF A NOETHERIAN RING
 
@@ -370,15 +370,15 @@ Let $A$ be a commutative Noetherian ring, $m$ an ideal of $A$, $\hat{A}$ the Hau
 
 (iii) *Let* $n$ *be a maximal ideal of* $A$ *containing* $m$. *The homomorphism* $j': A_n \to \hat{A}_{\hat{n}}$ *derived from* $j$ *is injection; if* $A$, *is identified by means of* $j$ *with a subring of* $\hat{A}$, *the* $(nA_n)$*-adic topology on* $A_n$ *is induced by the* $A$*-adic topology on* $\hat{A}_{\hat{n}}$ *and* $A_n$ *is dense in* $A$, *with the* $A$*-adic topology*.
 
-Let us show (i). As $m$ is a finitely generated ideal, $(m^n)^{\wedge} = (\hat{m})^n = m^n \hat{A}$ (\S 2, no. 12, Corollary 2 to Proposition 16) and the topology on $\hat{A}$ is the $m$-adic topology. As $\hat{A}/\hat{m}$ is isomorphic to $A/m$, it is a Noetherian ring and $\hat{m} = m \hat{A}$ is a finitely generated $A$-module and therefore $\hat{A}$ is Noetherian (\$2, no. 10, Corollary 5 to Theorem 2); finally, as $\hat{A}$ is Hausdorff and complete with respect to the $m$-adic topology, $\hat{A}$ is a Zariski ring (no. 3, *Example* 1).
+Let us show (i). As $m$ is a finitely generated ideal, $(m^n)^{\wedge} = (\hat{m})^n = m^n \hat{A}$ (§ 2, no. 12, Corollary 2 to Proposition 16) and the topology on $\hat{A}$ is the $m$-adic topology. As $\hat{A}/\hat{m}$ is isomorphic to $A/m$, it is a Noetherian ring and $\hat{m} = m \hat{A}$ is a finitely generated $A$-module and therefore $\hat{A}$ is Noetherian (§ 2, no. 10, Corollary 5 to Theorem 2); finally, as $\hat{A}$ is Hausdorff and complete with respect to the $m$-adic topology, $\hat{A}$ is a Zariski ring (no. 3, *Example* 1).
 
 Assertion (ii) follows immediately from the fact that the canonical homomorphism $A/m + \hat{A}/\hat{m}$ derived from $j$ is bijective and the fact that every maximal ideal of $\hat{A}$ contains $\hat{m}$, since $\hat{A}$ is a Zariski ring and the Jacobson radical of $\hat{A}$ then contains $m$ (no. 3, Proposition 6).
 
-Finally let us prove (iii). As $n = j^{-1}(A)$, $j(A - n) \subset \hat{A} - \hat{n}$ and $j$ certainly defines a homomorphism $j': A_n \to \hat{A}_{\hat{n}}$ (Chapter II, \S 2, no. 1, Proposition 2). Let us show that $j'$ is injective; let $a \in A, s \in A - n$ be such that
+Finally let us prove (iii). As $n = j^{-1}(A)$, $j(A - n) \subset \hat{A} - \hat{n}$ and $j$ certainly defines a homomorphism $j': A_n \to \hat{A}_{\hat{n}}$ (Chapter II, § 2, no. 1, Proposition 2). Let us show that $j'$ is injective; let $a \in A, s \in A - n$ be such that
 $$
 j'(a/s) = j(a)/j(s) = 0;
 $$
-then there exists $s' \in \hat{A} - \hat{n}$ such that $s'j(a) = 0$ (Chapter II, \S 2, no. 1, *Remark* 3) and the annihilator of $j(a)$ in $\hat{A}$ is therefore not contained in $\hat{n}$. Now, if $b$ is the annihilator of $a$ in $A$, the annihilator of $j(a)$ in $\hat{A}$ is $b$ (Corollary 1 to Theorem 3); hence $b \notin n$, which shows that $a/s = 0$.
+then there exists $s' \in \hat{A} - \hat{n}$ such that $s'j(a) = 0$ (Chapter II, § 2, no. 1, *Remark* 3) and the annihilator of $j(a)$ in $\hat{A}$ is therefore not contained in $\hat{n}$. Now, if $b$ is the annihilator of $a$ in $A$, the annihilator of $j(a)$ in $\hat{A}$ is $b$ (Corollary 1 to Theorem 3); hence $b \notin n$, which shows that $a/s = 0$.
 
 Moreover, there is a commutative diagram
 $$
@@ -388,7 +388,7 @@ h \downarrow & & h' \downarrow \\
 \hat{A}/\hat{n}^k & \longrightarrow & \hat{A}_{\hat{n}}/(\hat{n}\hat{A}_{\hat{n}})^k
 \end{array}
 $$
-where $h$ and $h'$ are derived from $j$ and $j'$ respectively and the horizontal arrows are the canonical isomorphisms of Chapter II, \S 3, no. 3, Proposition 9. As $n^k$ is an open ideal of $A$ (since it contains $m^k$), $h$ is bijective and hence so is $h'$. This shows first that $(nA_n)^k = j'((\hat{n}\hat{A}_{\hat{n}})^k)$ and hence the topology on $A_n$ is induced by that on $A_n$; moreover, $\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$ for all $k > 0$ and hence $A_n$ is everywhere dense in $A_n$.
+where $h$ and $h'$ are derived from $j$ and $j'$ respectively and the horizontal arrows are the canonical isomorphisms of Chapter II, § 3, no. 3, Proposition 9. As $n^k$ is an open ideal of $A$ (since it contains $m^k$), $h$ is bijective and hence so is $h'$. This shows first that $(nA_n)^k = j'((\hat{n}\hat{A}_{\hat{n}})^k)$ and hence the topology on $A_n$ is induced by that on $A_n$; moreover, $\hat{A}_{\hat{n}} = A_n + (\hat{n}\hat{A}_{\hat{n}})^k$ for all $k > 0$ and hence $A_n$ is everywhere dense in $A_n$.
 
 #### Corollary {#ac-iii-s3-n4-cor-1 .statement}
 

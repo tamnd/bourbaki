@@ -7,36 +7,37 @@ section: 5
 section_title: Infinite sums in commutative groups
 lang: en
 source: top-i-iv
+book_pages: 261-270
 pdf_pages: 0267-0276, 0320-0321
 extraction: ocr
 subsections:
     - "no": 1
       title: SUMMABLE FAMILIES IN A COMMUTATIVE GROUP
-      page: 0
+      page: 261
       pdf_page: 267
     - "no": 2
       title: CAUCHY'S CRITERION
-      page: 0
+      page: 262
       pdf_page: 268
     - "no": 3
       title: PARTIAL SUMS ; ASSOCIATIVITY
-      page: 0
+      page: 264
       pdf_page: 270
     - "no": 4
       title: SUMMABLE FAMILIES IN A PRODUCT OF GROUPS
-      page: 0
+      page: 266
       pdf_page: 272
     - "no": 5
       title: IMAGE OF A SUMMABLE FAMILY UNDER A CONTINUOUS HOMOMORPHISM
-      page: 0
+      page: 267
       pdf_page: 273
     - "no": 6
       title: SERIES
-      page: 0
+      page: 267
       pdf_page: 273
     - "no": 7
       title: COMMUTATIVELY CONVERGENT SERIES
-      page: 0
+      page: 269
       pdf_page: 275
 statements: 19
 exercises: 7

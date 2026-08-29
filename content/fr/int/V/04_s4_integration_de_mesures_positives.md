@@ -28,7 +28,7 @@ subsections:
       pdf_page: 45
 statements: 10
 exercises: 2
-content_sha256: 4520a35e8834ab3eab243c8ddf3c3354879d36bad295c2c83aa8a23b63553243
+content_sha256: 6376bb3925ebbad5b62639850b47659e733a09c2c471abe4f46acc73241f6f78
 ---
 
 ## § 4. Intégration de mesures positives ponctuelles
@@ -205,7 +205,7 @@ $$
 \int^\ast |f(x)| \, d\nu(x) = \int^\ast |f(\pi(t))|g(t) \, d\mu(t) < +\infty
 $$
 
-(n° 2, th. 1) : $f$ est donc essentiellement $\nu$-intégrable ($\S 1$, n° 3, prop. 9), donc $\nu$-intégrable. Le th. 1 du $\S 3$, n° 3 entraîne alors (9).
+(n° 2, th. 1) : $f$ est donc essentiellement $\nu$-intégrable ($§ 1$, n° 3, prop. 9), donc $\nu$-intégrable. Le th. 1 du $§ 3$, n° 3 entraîne alors (9).
 
 B) Passons au cas général. Soit $\mathcal{K}$ l’ensemble des parties compactes $K$ de $T$ telles que $g|K$ soit continue : $\mathcal{K}$ est $\mu$-dense (chap. IV, 2e éd., § 5, n° 10, prop. 15), et la mesure $\mu$ est donc somme d’une famille $(\mu_\alpha)_{\alpha \in A}$ de mesures portées par des éléments de $\mathfrak{R}$ (§ 2, n° 3, prop. 4). Le couple $(g, \pi)$ est évidemment $\mu_\alpha$-adapté pour tout $\alpha \in A$, et la mesure $\nu$ est somme de la famille des mesures $\nu_\alpha = \int \varepsilon_{\pi(t)} g(t) \, d\mu_\alpha(t)$ (§ 3, n° 1, prop. 12). Le raisonnement de A) s’appliquant aux mesures $\mu_\alpha, \nu_\alpha$, la première partie de l’énoncé résulte alors de la prop. 3 du § 2, n° 2.
 

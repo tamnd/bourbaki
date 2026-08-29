@@ -7,28 +7,29 @@ section: 10
 section_title: Proper mappings
 lang: en
 source: top-i-iv
+book_pages: 97-107, 150-155
 pdf_pages: 0103-0113, 0156-0161
 extraction: ocr
 subsections:
     - "no": 1
       title: PROPER MAPPINGS
-      page: 0
+      page: 97
       pdf_page: 103
     - "no": 2
       title: CHARACTERIZATION OF PROPER MAPPINGS BY COMPACTNESS PROPERTIES
-      page: 0
+      page: 101
       pdf_page: 107
     - "no": 3
       title: PROPER MAPPINGS INTO LOCALLY COMPACT SPACES
-      page: 0
+      page: 104
       pdf_page: 110
     - "no": 4
       title: QUOTIENT SPACES OF COMPACT SPACES AND LOCALLY COMPACT SPACES
-      page: 0
+      page: 105
       pdf_page: 111
 statements: 30
 exercises: 20
-content_sha256: 752a3f2114b7b2e1b937e4b72de178e2444ea673ea6b132cd42fb8856f3499dd
+content_sha256: 4090cf2d28c3566332e20a1f373d65f57c9a4a96f1defbe488f43340f5366b01
 ---
 
 ## 10. PROPER MAPPINGS
@@ -41,7 +42,7 @@ If $f : X \to Y$ and $f' : X' \to Y'$ are two *continuous closed* mappings, the 
 
 #### Example {#top-i-s10-n1-exa-1 .statement}
 
-Every constant mapping into a Hausdorff space is closed. But it $f$ is the constant mapping $Q \to 0$, then $f \times \iota_Q$ is the mapping $(x, y) \to (0, y)$ of $Q^2$ into $Q^2$, so it is the second projection and is not closed (\S 4, no. 2, Remark 1).
+Every constant mapping into a Hausdorff space is closed. But it $f$ is the constant mapping $Q \to 0$, then $f \times \iota_Q$ is the mapping $(x, y) \to (0, y)$ of $Q^2$ into $Q^2$, so it is the second projection and is not closed (§ 4, no. 2, Remark 1).
 
 #### Definition 1 {#top-i-s10-def-1 .statement}
 
@@ -93,9 +94,9 @@ a) Suppose that $f_1, f_2$ are proper, and let $Z$ be a topological space; $f_1 
 $$
 f_1 \times \iota_{X_2} \times \iota_Z;
 $$
-these two mappings are closed by hypothesis, hence so is $f_1 \times f_2 \times \iota_Z$ [\S 5, no. 1, Proposition 1 a)], whence $f_1 \times f_2$ is proper.
+these two mappings are closed by hypothesis, hence so is $f_1 \times f_2 \times \iota_Z$ [§ 5, no. 1, Proposition 1 a)], whence $f_1 \times f_2$ is proper.
 
-b) Now suppose $f$ is proper. Let $F$ be a closed subset of $X_2 \times Z$ and let $G$ be the image of $F$ in $Y_2 \times Z$ under the mapping $f_2 \times \iota_Z$. Then the image of $X_1 \times F$ in $Y_1 \times Y_2 \times Z$ under $f_1 \times f_2 \times \iota_Z$ is $f_1(X_1) \times G$. By hypothesis, this is closed in $Y_1 \times Y_2 \times Z$; if $X_1 \neq \emptyset$, then $f_1(X_1)$ is not empty, which implies that $G$ is closed in $Y_2 \times Z$ (\S 4, no. 3, Corollary to Proposition 7); hence $f_2$ is proper. Similarly $f_1$ is proper if $X_2 \neq \emptyset$.
+b) Now suppose $f$ is proper. Let $F$ be a closed subset of $X_2 \times Z$ and let $G$ be the image of $F$ in $Y_2 \times Z$ under the mapping $f_2 \times \iota_Z$. Then the image of $X_1 \times F$ in $Y_1 \times Y_2 \times Z$ under $f_1 \times f_2 \times \iota_Z$ is $f_1(X_1) \times G$. By hypothesis, this is closed in $Y_1 \times Y_2 \times Z$; if $X_1 \neq \emptyset$, then $f_1(X_1)$ is not empty, which implies that $G$ is closed in $Y_2 \times Z$ (§ 4, no. 3, Corollary to Proposition 7); hence $f_2$ is proper. Similarly $f_1$ is proper if $X_2 \neq \emptyset$.
 
 #### Proposition 5 {#top-i-s10-prop-5 .statement}
 
@@ -109,7 +110,7 @@ Let $Z$ be a topological space. We have
 $$
 (g \circ f) \times \iota_Z = (g \times \iota_Z) \circ (f \times \iota_Z);
 $$
-if $f$ and $g$ are proper, then $f \times \iota_Z$ and $g \times \iota_Z$ are closed; hence [\S 5, no. 1, Proposition 1 a)] $(g \circ f) \times \iota_Z$ is closed; this proves a). The proof of b) [resp. c)] runs along the same lines, using part b) [resp. c)] of Proposition 1 of \S 5, no. 1, and remarking that if $f$ is surjective (resp. if $g$ is injective) then $f \times \iota_Z$ is surjective (resp. $g \times \iota_Z$ is injective). Finally, to prove d), consider the commutative diagram
+if $f$ and $g$ are proper, then $f \times \iota_Z$ and $g \times \iota_Z$ are closed; hence [§ 5, no. 1, Proposition 1 a)] $(g \circ f) \times \iota_Z$ is closed; this proves a). The proof of b) [resp. c)] runs along the same lines, using part b) [resp. c)] of Proposition 1 of § 5, no. 1, and remarking that if $f$ is surjective (resp. if $g$ is injective) then $f \times \iota_Z$ is surjective (resp. $g \times \iota_Z$ is injective). Finally, to prove d), consider the commutative diagram
 
 $$
 \begin{array}{ccc}
@@ -119,7 +120,7 @@ X' & \underset{\psi}{\to} & X'' \times X'
 \end{array}
 $$
 
-where $\varphi(x) = (x, f(x))$ and $\psi(x') = (g(x'), x')$. The mapping $\varphi$ (resp. $\psi$) is a homeomorphism of $X$ (resp. $X'$) onto the graph of $f$ (resp. the reflection of the graph of $g$) (\S 4, no. 1, Proposition 1, Corollary 2). Further, since $X'$ is Hausdorff, the graph $\varphi(X)$ of $f$ is closed in $X \times X'$ (\S 8, no. 1, Proposition 2, Corollary 2). Hence (Proposition 2) $\varphi$ is proper; on the other hand Proposition 4 shows that $(g \circ f) \times i_{X'}$ is proper. By a) above and the commutativity of the diagram (1), $\psi \circ f$ is proper; but $\psi$ is injective and therefore $f$ is proper by c) above.
+where $\varphi(x) = (x, f(x))$ and $\psi(x') = (g(x'), x')$. The mapping $\varphi$ (resp. $\psi$) is a homeomorphism of $X$ (resp. $X'$) onto the graph of $f$ (resp. the reflection of the graph of $g$) (§ 4, no. 1, Proposition 1, Corollary 2). Further, since $X'$ is Hausdorff, the graph $\varphi(X)$ of $f$ is closed in $X \times X'$ (§ 8, no. 1, Proposition 2, Corollary 2). Hence (Proposition 2) $\varphi$ is proper; on the other hand Proposition 4 shows that $(g \circ f) \times i_{X'}$ is proper. By a) above and the commutativity of the diagram (1), $\psi \circ f$ is proper; but $\psi$ is injective and therefore $f$ is proper by c) above.
 
 #### Remark {#top-i-s10-n1-rem-1 .statement}
 
@@ -135,13 +136,13 @@ For this restriction is the composition $f \circ j$, where $j : F \to X$ is the 
 
 *Let $f : X \to Y$ be a proper mapping, where $X$ is Hausdorff. Then the subspace $f(X)$ of $Y$ is Hausdorff.*
 
-By reason of Proposition 5 c) we need only consider the case where $f(X) = Y$. Then the diagonal of $Y \times Y$ is the image under $f \times f$ of the diagonal of $X$, which is closed (\S 8, no. 1, Proposition 1); $f \times f$ is proper (Proposition 4); hence the diagonal of $Y \times Y$ is closed (Proposition 1) and therefore $Y$ is Hausdorff (\S 8, no. 1, Proposition 1).
+By reason of Proposition 5 c) we need only consider the case where $f(X) = Y$. Then the diagonal of $Y \times Y$ is the image under $f \times f$ of the diagonal of $X$, which is closed (§ 8, no. 1, Proposition 1); $f \times f$ is proper (Proposition 4); hence the diagonal of $Y \times Y$ is closed (Proposition 1) and therefore $Y$ is Hausdorff (§ 8, no. 1, Proposition 1).
 
 #### Corollary 3 {#top-i-s10-prop-5-cor-3 .statement}
 
 *Let $I$ be a finite set and for each $i \in I$, let $f_i : X \to Y_i$ be a proper mapping. If $X$ is Hausdorff, then the mapping $x \mapsto (f_i(x))$ of $X$ into $\prod_{i \in I} Y_i$ is proper.*
 
-This mapping is the composition of the product mapping $(x_i) \mapsto (f_i(x_i))$ of $X^I$ into $\prod_i Y_i$ and the diagonal mapping of $X$ into $X^I$; since the latter is proper (by Proposition 2 and \S 8, no. 1, Proposition 1) the conclusion follows from Proposition 4 and Proposition 5 a).
+This mapping is the composition of the product mapping $(x_i) \mapsto (f_i(x_i))$ of $X^I$ into $\prod_i Y_i$ and the diagonal mapping of $X$ into $X^I$; since the latter is proper (by Proposition 2 and § 8, no. 1, Proposition 1) the conclusion follows from Proposition 4 and Proposition 5 a).
 
 #### Corollary 4 {#top-i-s10-prop-5-cor-4 .statement}
 
@@ -151,7 +152,7 @@ X \xrightarrow{p} X/R \xrightarrow{h} f(X) \xrightarrow{i} Y
 $$
 *the canonical decomposition of $f$.* *Then for $f$ to be proper it is necessary and sufficient that $p$ is proper, $h$ a homeomorphism and $f(X)$ a closed subset of $Y$.*
 
-The conditions are sufficient by virtue of Proposition 5 a) and Proposition 2. Conversely, if $f$ is proper, then $f$ is closed; hence $f(X)$ is closed in $Y$ and $h$ is a homeomorphism ($\S 5$, no. 2, Proposition 3); also $h \circ p$ is proper by Proposition 5 c); hence $p = h^{-1} \circ (h \circ p)$ is proper by Proposition 5 a).
+The conditions are sufficient by virtue of Proposition 5 a) and Proposition 2. Conversely, if $f$ is proper, then $f$ is closed; hence $f(X)$ is closed in $Y$ and $h$ is a homeomorphism ($§ 5$, no. 2, Proposition 3); also $h \circ p$ is proper by Proposition 5 c); hence $p = h^{-1} \circ (h \circ p)$ is proper by Proposition 5 a).
 
 ### 2. CHARACTERIZATION OF PROPER MAPPINGS BY COMPACTNESS PROPERTIES
 
@@ -163,7 +164,7 @@ In this subsection we shall denote by $P$ a space consisting of a single point, 
 
 (We shall see a little later on (Theorem 1, Corollary 1) that this property characterizes quasi-compact spaces.)
 
-We may restrict ourselves to the case where $X$ is not empty. Let $\mathcal{F}$ be a filter on $X$, and $X' = X \cup \{ \omega \}$ the topological space associated with $\mathcal{F}$ ($\S 6$, no. 5, Example). Let $\Delta$ be the subset of $X \times X'$ consisting of all $(x, x)$ where $x \in X$, and let $F = \overline{\Delta}$ be the closure of $\Delta$ in $X \times X'$. In view of the hypothesis on $X$, the image of $F$ under the projection $X \times X' \to X'$ is closed in $X'$; this image contains $X$ and therefore contains $\omega$, which lies in the closure of $X$; in other words, there is a point $x \in X$ such that $(x, \omega) \in F$. By the definition of the topology of $X \times X'$, this means that, for each neighbourhood $V$ of $x$ in $X$ and each $M \in \mathcal{F}$, we have $(V \times M) \cap \Delta \neq \emptyset$, i.e. $V \cap M \neq \emptyset$, so that $x$ is a cluster point of the filter $\mathcal{F}$, and therefore $X$ is quasi-compact.
+We may restrict ourselves to the case where $X$ is not empty. Let $\mathcal{F}$ be a filter on $X$, and $X' = X \cup \{ \omega \}$ the topological space associated with $\mathcal{F}$ ($§ 6$, no. 5, Example). Let $\Delta$ be the subset of $X \times X'$ consisting of all $(x, x)$ where $x \in X$, and let $F = \overline{\Delta}$ be the closure of $\Delta$ in $X \times X'$. In view of the hypothesis on $X$, the image of $F$ under the projection $X \times X' \to X'$ is closed in $X'$; this image contains $X$ and therefore contains $\omega$, which lies in the closure of $X$; in other words, there is a point $x \in X$ such that $(x, \omega) \in F$. By the definition of the topology of $X \times X'$, this means that, for each neighbourhood $V$ of $x$ in $X$ and each $M \in \mathcal{F}$, we have $(V \times M) \cap \Delta \neq \emptyset$, i.e. $V \cap M \neq \emptyset$, so that $x$ is a cluster point of the filter $\mathcal{F}$, and therefore $X$ is quasi-compact.
 
 Q.E.D.
 
@@ -178,11 +179,11 @@ d) *If $\mathcal{U}$ is an ultrafilter on $X$ and if $y \in Y$ is a limit point 
 
 a) $\Longrightarrow$ b): If $f$ is proper then $f$ is closed (no. 1, Proposition 1) and for each $y \in Y$ the mapping $f_{|y|} : \overline{f}^{-1}(y) \to \{ y \}$ is proper [no. 1, Proposition 3a)]. By Lemma 1, this implies that $\overline{f}^{-1}(y)$ is quasi-compact.
 
-b) $\Longrightarrow$ c): Suppose $\mathfrak{F}$ and $y$ satisfy the hypotheses of c). Let $\mathcal{B}$ be the filter base on $X$ formed by the closures of the sets of $\mathfrak{F}$. Since $f$ is closed, we have $f(\overline{M}) = f(M)$ for each $M \in \mathfrak{F}$ (\S 5, no. 4, Proposition 9). This shows that the sets $\overline{M} \cap \overline{f}^{-1}(y)$ are non-empty for all $M \in \mathfrak{F}$, and hence form a filter base on $\overline{f}^{-1}(y)$ whose elements are closed subsets of $\overline{f}^{-1}(y)$. Since $\overline{f}^{-1}(y)$ is quasi-compact, there is a point $x \in \overline{f}^{-1}(y)$ which belongs to all the sets $M$ as $M$ runs through $\mathfrak{F}$. Hence $f(x) = y$ and $x$ is a cluster point of $\mathfrak{F}$.
+b) $\Longrightarrow$ c): Suppose $\mathfrak{F}$ and $y$ satisfy the hypotheses of c). Let $\mathcal{B}$ be the filter base on $X$ formed by the closures of the sets of $\mathfrak{F}$. Since $f$ is closed, we have $f(\overline{M}) = f(M)$ for each $M \in \mathfrak{F}$ (§ 5, no. 4, Proposition 9). This shows that the sets $\overline{M} \cap \overline{f}^{-1}(y)$ are non-empty for all $M \in \mathfrak{F}$, and hence form a filter base on $\overline{f}^{-1}(y)$ whose elements are closed subsets of $\overline{f}^{-1}(y)$. Since $\overline{f}^{-1}(y)$ is quasi-compact, there is a point $x \in \overline{f}^{-1}(y)$ which belongs to all the sets $M$ as $M$ runs through $\mathfrak{F}$. Hence $f(x) = y$ and $x$ is a cluster point of $\mathfrak{F}$.
 
 c) $\Longrightarrow$ d): Trivial.
 
-d) $\Longrightarrow$ a): We show first that if d) is satisfied, then $f$ is a closed mapping. Let $A$ be a non-empty closed subset of $X$ and let $\mathfrak{F}$ be the filter of subsets of $X$ which contain $A$. Then $A$ is the set of cluster points of $\mathfrak{F}$. Let $B$ be the set of cluster points of the filter base $f(\mathfrak{F})$ on $Y$; $B$ is closed and clearly contains $f(A)$; we shall show that $B = f(A)$. Let $y \in B$ and let $\mathcal{B}$ be the neighbourhood filter of $y$ in $Y$; then by hypothesis every set of $\mathfrak{W} = \overline{f}^{-1}(\mathcal{B})$ meets every set of $\mathfrak{F}$; hence $\mathfrak{W}$ is a filter base on $X$ and there is an ultrafilter $U$ on $X$ which is finer than both $\mathfrak{F}$ and the filter whose base is $\mathfrak{W}$ (\S 6, no. 2, Proposition 1, Corollary 1 and no. 4, Theorem 1). The ultrafilter whose base is $f(U)$ is finer than $\mathcal{B}$ and therefore converges to $y$. By virtue of d) there is a point $x \in X$ such that $f(x) = y$ and $U$ converges to $x$; since $U$ is finer than $\mathfrak{F}$, $x$ is a cluster point of $\mathfrak{F}$; hence $x \in A$. This shows that $B = f(A)$ and therefore that $f$ is closed.
+d) $\Longrightarrow$ a): We show first that if d) is satisfied, then $f$ is a closed mapping. Let $A$ be a non-empty closed subset of $X$ and let $\mathfrak{F}$ be the filter of subsets of $X$ which contain $A$. Then $A$ is the set of cluster points of $\mathfrak{F}$. Let $B$ be the set of cluster points of the filter base $f(\mathfrak{F})$ on $Y$; $B$ is closed and clearly contains $f(A)$; we shall show that $B = f(A)$. Let $y \in B$ and let $\mathcal{B}$ be the neighbourhood filter of $y$ in $Y$; then by hypothesis every set of $\mathfrak{W} = \overline{f}^{-1}(\mathcal{B})$ meets every set of $\mathfrak{F}$; hence $\mathfrak{W}$ is a filter base on $X$ and there is an ultrafilter $U$ on $X$ which is finer than both $\mathfrak{F}$ and the filter whose base is $\mathfrak{W}$ (§ 6, no. 2, Proposition 1, Corollary 1 and no. 4, Theorem 1). The ultrafilter whose base is $f(U)$ is finer than $\mathcal{B}$ and therefore converges to $y$. By virtue of d) there is a point $x \in X$ such that $f(x) = y$ and $U$ converges to $x$; since $U$ is finer than $\mathfrak{F}$, $x$ is a cluster point of $\mathfrak{F}$; hence $x \in A$. This shows that $B = f(A)$ and therefore that $f$ is closed.
 
 To complete the proof we have to show that $f \times \iota_Z$ is closed for every topological space $Z$. From what has been proved it is enough to show that if $f$ satisfies condition d), then so does $f \times \iota_Z$. This is a consequence of the following general lemma:
 
@@ -194,7 +195,7 @@ f : (x_i) \to (f_i(x_i))
 $$
 *also satisfies* d).
 
-Let $U$ be an ultrafilter on $X = \prod_i X_i$, and let $y = (y_i)$ be a point of $Y = \prod_i Y_i$ such that $f(U)$ converges to $y$. This means that each of the ultrafilter bases $\operatorname{pr}_i(f(U)) = f_i(\operatorname{pr}_i(U))$ converges to $y_i$ (\S 7, no. 6, Proposition 10, Corollary 1). By virtue of condition d), for each $i \in I$ there exists $x_i \in X_i$ such that $f_i(x_i) = y_i$ and $\operatorname{pr}_i(U)$ converges to $x_i$; but then $U$ converges to $x = (x_i)$ (*loc. cit.*) and we have $f(x) = y$. This completes the proof of Lemma 2 and hence of Theorem 1.
+Let $U$ be an ultrafilter on $X = \prod_i X_i$, and let $y = (y_i)$ be a point of $Y = \prod_i Y_i$ such that $f(U)$ converges to $y$. This means that each of the ultrafilter bases $\operatorname{pr}_i(f(U)) = f_i(\operatorname{pr}_i(U))$ converges to $y_i$ (§ 7, no. 6, Proposition 10, Corollary 1). By virtue of condition d), for each $i \in I$ there exists $x_i \in X_i$ such that $f_i(x_i) = y_i$ and $\operatorname{pr}_i(U)$ converges to $x_i$; but then $U$ converges to $x = (x_i)$ (*loc. cit.*) and we have $f(x) = y$. This completes the proof of Lemma 2 and hence of Theorem 1.
 
 #### Corollary 1 {#top-i-s10-lem-2-cor-1 .statement}
 
@@ -262,7 +263,7 @@ If f is proper and K is a compact subset of Y, then $\overline{f}^{-1}(K)$ is co
 
 #### Corollary {#top-i-s10-n3-cor-1 .statement}
 
-*Let X, X' be two locally compact spaces, and let Y (resp. Y') be the compact space obtained by adjoining a point at infinity $\omega$ (resp. $\omega'$) to X (resp. X') (\S 9, no. 8). Then a continuous mapping $f : X \to X'$ is proper if and only if its extension $\overline{f} : Y \to Y'$, such that $\overline{f}(\omega) = \omega'$, is continuous.*
+*Let X, X' be two locally compact spaces, and let Y (resp. Y') be the compact space obtained by adjoining a point at infinity $\omega$ (resp. $\omega'$) to X (resp. X') (§ 9, no. 8). Then a continuous mapping $f : X \to X'$ is proper if and only if its extension $\overline{f} : Y \to Y'$, such that $\overline{f}(\omega) = \omega'$, is continuous.*
 
 By Proposition 7, f is proper if and only if, for each compact subset K' of X', $\overline{f}^{-1}(X' - K') = X - \overline{f}^{-1}(K')$ is the complement of a compact subset of X; by the definition of the neighbourhoods of $\omega$ (resp. $\omega'$) in Y (resp. Y') this is so if and only if $\overline{f}$ is continuous at $\omega$.
 
@@ -306,15 +307,15 @@ a) $\Longrightarrow$ b): Since $X/R = f(X)$ and $f$ is proper, $X/R$ is Hausdorf
 
 The saturation of $K$ with respect to $R$ is $\overline{f}^{-1}(f(K))$ and is therefore compact by no. 2, Proposition 6.
 
-b) $\Longrightarrow$ c) : If $F'$ is closed in $X'$ and does not contain $\omega$, then $F'$ is a compact subset of $X$; hence its saturation with respect to $R'$, which is the same as its saturation with respect to $R$, is compact and *a fortiori* closed in $X'$. If $\omega \in F'$ and if $F = F' \cap X = F' - \{ \omega \}$, then the saturation of $F'$ with respect to $R'$ is the union of $\{ \omega \}$ and the saturation $H$ of $F$ with respect to $R$; hence it is enough to show that $H$ is *closed* in $X$ (i.e. that $R$ is a *closed* relation). For this, it is enough to show that if $K$ is any compact subset of $X$ then $H \cap K$ is compact ($\S 9$, no. 7, Proposition 11). Now the saturation $L$ of $K$ with respect to $R$ is compact by hypothesis, and $H \cap L$ is the saturation of $F \cap L$, which is also compact; *a fortiori* $H \cap K = (H \cap L) \cap K$ is compact.
+b) $\Longrightarrow$ c) : If $F'$ is closed in $X'$ and does not contain $\omega$, then $F'$ is a compact subset of $X$; hence its saturation with respect to $R'$, which is the same as its saturation with respect to $R$, is compact and *a fortiori* closed in $X'$. If $\omega \in F'$ and if $F = F' \cap X = F' - \{ \omega \}$, then the saturation of $F'$ with respect to $R'$ is the union of $\{ \omega \}$ and the saturation $H$ of $F$ with respect to $R$; hence it is enough to show that $H$ is *closed* in $X$ (i.e. that $R$ is a *closed* relation). For this, it is enough to show that if $K$ is any compact subset of $X$ then $H \cap K$ is compact ($§ 9$, no. 7, Proposition 11). Now the saturation $L$ of $K$ with respect to $R$ is compact by hypothesis, and $H \cap L$ is the saturation of $F \cap L$, which is also compact; *a fortiori* $H \cap K = (H \cap L) \cap K$ is compact.
 
-c) $\Longrightarrow$ d) : Since $X'$ is regular ($\S 9$, no. 2, Corollary to Proposition 1), $C'$ is *closed* in $X' \times X'$ ($\S 8$, no. 6, Proposition 14) and therefore compact. It follows that $C'$ is the one-point compactification of $C$ ($\S 9$, no. 8, Theorem 4). Since the restriction to $C'$ of $pr_2 : X' \times X' \to X'$ is continuous at $\omega$, the result follows from no. 3, Corollary to Proposition 7.
+c) $\Longrightarrow$ d) : Since $X'$ is regular ($§ 9$, no. 2, Corollary to Proposition 1), $C'$ is *closed* in $X' \times X'$ ($§ 8$, no. 6, Proposition 14) and therefore compact. It follows that $C'$ is the one-point compactification of $C$ ($§ 9$, no. 8, Theorem 4). Since the restriction to $C'$ of $pr_2 : X' \times X' \to X'$ is continuous at $\omega$, the result follows from no. 3, Corollary to Proposition 7.
 
 d) $\Longrightarrow$ e) : If $F$ is any closed subset of $X$, then $C \cap (F \times X)$ is closed in $C$, whence the saturation of $F$ with respect to $R$, which is equal to $pr_2(C \cap (F \times X))$, is closed in $X$ (no. 1, Proposition 1). Also the equivalence class of $x \in X$ mod $R$ is homeomorphic to the inverse image of $\{ x \}$ under the restriction of $pr_2$ to $C$ and is therefore compact [no. 2, Theorem 1 b)].
 
 e) $\Longrightarrow$ a) : If $R$ is closed, then by definition $f$ is closed, and for each $z \in X/R$, $f^{-1}(z)$ is an equivalence class mod $R$ and is therefore compact; hence $f$ is proper by Theorem 1 b) of no. 2.
 
-Finally we have to prove that $X/R$ is locally compact. $X'/R'$ is compact by c) and Proposition 8; the relation $R$ is that induced on $X$ by $R'$; $X$ is open in $X'$ and is saturated with respect to $R'$; hence $X/R$ is homeomorphic to the image $f'(X)$ of $X$ under the canonical mapping $f' : X' \to X'/R'$ ($\S 3$, no. 6, Proposition 10, Corollary 1). Now $f'(X)$ is open in $X'/R'$, and hence is a locally compact subspace of $X'/R'$.
+Finally we have to prove that $X/R$ is locally compact. $X'/R'$ is compact by c) and Proposition 8; the relation $R$ is that induced on $X$ by $R'$; $X$ is open in $X'$ and is saturated with respect to $R'$; hence $X/R$ is homeomorphic to the image $f'(X)$ of $X$ under the canonical mapping $f' : X' \to X'/R'$ ($§ 3$, no. 6, Proposition 10, Corollary 1). Now $f'(X)$ is open in $X'/R'$, and hence is a locally compact subspace of $X'/R'$.
 
 Q.E.D.
 
@@ -330,7 +331,7 @@ If X is locally compact but not compact, then a closed equivalence relation R on
 
 Let X be a locally compact space, R an open Hausdorff equivalence relation on X, and let f : X \to X/R be the canonical mapping. Then X/R is locally compact, and if K' is any compact subset of X/R there is a compact subset K of X such that f(K) = K'.
 
-The first assertion is a consequence of the facts that each x \in X has a compact neighbourhood V and that f(V) is a compact neighbourhood of f(x) (\S 5, no. 3, Proposition 5 and § 9, no. 4, Theorem 2, Corollary 1). For each y \in K' let V(y) be a compact neighbourhood of some point of f^{-1}(y) in X, so that f(V(y)) is a compact neighbourhood of y. There are a finite number of points y_i \in K' such that the f(V(y_i)) cover K'. Let K_1 be the compact set $\bigcup_i V(y_i)$ in X; we have K' \subset f(K_1); hence K = K_1 \cap f^{-1}(K') is compact (because it is closed in K_1) and f(K) = K'.
+The first assertion is a consequence of the facts that each x \in X has a compact neighbourhood V and that f(V) is a compact neighbourhood of f(x) (§ 5, no. 3, Proposition 5 and § 9, no. 4, Theorem 2, Corollary 1). For each y \in K' let V(y) be a compact neighbourhood of some point of f^{-1}(y) in X, so that f(V(y)) is a compact neighbourhood of y. There are a finite number of points y_i \in K' such that the f(V(y_i)) cover K'. Let K_1 be the compact set $\bigcup_i V(y_i)$ in X; we have K' \subset f(K_1); hence K = K_1 \cap f^{-1}(K') is compact (because it is closed in K_1) and f(K) = K'.
 
 ### Exercises {#top-i-s10-exercises}
 

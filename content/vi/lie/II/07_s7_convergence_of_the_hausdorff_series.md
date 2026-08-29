@@ -24,9 +24,9 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: da68e2c28bc5e28f4c2d93b1c91c7d82739d404ce11d0433f30309b79a7ca2b7
+content_sha256: 86b5141541e5b8d10194af725cf8d91bad5b6e269f3dd677223c592bef332e4f
 translated_from: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
-source_content_sha256: cf630f9a51064efcc683400cee4a9c6c0b309024e6830285793a6c94f104ce78
+source_content_sha256: 0c070915f018ae2f28d7ba10eba8e260e6b24a97ffbf46012a1958fa6e91eda0
 translation_model: gpt-5.4
 translation_run: translate-vi-ae28c9b7
 glossary_version: 34
@@ -55,7 +55,7 @@ $$
 \tilde{u} = \sum_{v \in \mathbf{N}^I} \tilde{u}_v, \quad \text{trong đó } \tilde{u}_v \in P_v(g^I; g).
 $$
 
-Cho $u = (u_j)_{j \in J}$ là một họ hữu hạn các phần tử của $\hat{L}(I)$, cho $v \in \hat{L}(J)$ và đặt $w = v \circ u$ (\S 6, no. 3). Ta viết $\tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g}$. Khi đó
+Cho $u = (u_j)_{j \in J}$ là một họ hữu hạn các phần tử của $\hat{L}(I)$, cho $v \in \hat{L}(J)$ và đặt $w = v \circ u$ (§ 6, no. 3). Ta viết $\tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g}$. Khi đó
 
 (2)
 $$
@@ -66,7 +66,7 @@ $$
 
 ### 2. MẦM NHÓM ĐƯỢC XÁC ĐỊNH BỞI MỘT ĐẠI SỐ LIE ĐỊNH CHUẨN ĐẦY ĐỦ
 
-Cho $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ là chuỗi Hausdorff (\S 6, no. 4, Định nghĩa 1). Ta sẽ chỉ ra rằng chuỗi lũy thừa hình thức tương ứng
+Cho $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ là chuỗi Hausdorff (§ 6, no. 4, Định nghĩa 1). Ta sẽ chỉ ra rằng chuỗi lũy thừa hình thức tương ứng
 
 (3)
 $$
@@ -269,7 +269,7 @@ $$
 
 trong đó $m : A \times A \to A$ ký hiệu phép nhân trên A. Lập luận như trong no. 1 và dùng Mệnh đề 1 của § 5, no. 1, ta định nghĩa một đồng cấu liên tục của các đại số có đơn vị $u \mapsto \tilde{u}$ từ $\hat{A}(I)$ vào $\hat{P}(A^I; A)$ biến ẩn bất định có chỉ số i thành $pr_i$; đồng cấu này mở rộng đồng cấu đại số Lie từ $\hat{L}(I)$ vào $\hat{P}(A^I; A)$ được định nghĩa trong no. 1. Nếu $u = \sum_v u_v$ với $u_v \in A^v(I)$ đối với $v \in \mathbf{N}^I$, thì $\tilde{u} = \sum_v \tilde{u}_v$, trong đó $\tilde{u}_v$ là ánh xạ đa thức $(t_i)_{i \in I} \mapsto u_v((t_i))$.
 
-Cho $u = (u_j)_{j \in I}$ là một họ hữu hạn các phần tử của $\hat{A}(I)$, cho $v \in \hat{A}(J)$ và viết $w = v \circ u$ (\S 5, no. 1). Khi đó
+Cho $u = (u_j)_{j \in I}$ là một họ hữu hạn các phần tử của $\hat{A}(I)$, cho $v \in \hat{A}(J)$ và viết $w = v \circ u$ (§ 5, no. 1). Khi đó
 
 $$
 (v \circ u)^{\sim} = \tilde{v} \circ \tilde{u}.

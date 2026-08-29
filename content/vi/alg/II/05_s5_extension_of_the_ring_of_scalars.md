@@ -33,9 +33,9 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: 3f5cb811ce03a9d62af4efb8da8d575769558630f8ae9b7b4971cd1aec73aeef
+content_sha256: 2e0cfe46da907916c960215871f8988472f4407ea3c5199f7eaae7e9e4d4cb54
 translated_from: content/en/alg/II/05_s5_extension_of_the_ring_of_scalars.md
-source_content_sha256: 9dcec4379b178efb0b444af507c3865e7f1e54d30e287fb7364b2bc5107f0bd3
+source_content_sha256: febcd34cae06506edd112484e71c36d0c4e9ea06b4c8287244a60b89d1e7d7bd
 translation_model: gpt-5.4-mini, gpt-5.4
 translation_run: translate-vi-6f13837c
 glossary_version: 34
@@ -47,7 +47,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. MỞ RỘNG VÀNH VÔ HƯỚNG CỦA MỘT MÔĐUN
 
-Cho $A, B$ là hai vành và $\rho : A \to B$ là một đồng cấu vành; ta xét $A$-môđun phải $\rho^*(B_d)$ được xác định bởi đồng cấu này ($\S 1$, no. 13); $A$-môđun này cũng có cấu trúc $B$-môđun trái, cụ thể là cấu trúc của $B_s$ và, vì $b'(b\rho(a)) = (b'b)\rho(a)$ với $a \in A, b, b'$ trong $B$, hai cấu trúc môđun này trên $B$ là tương thích ($\S 1$, no. 14). Điều này cho phép, với mọi $A$-môđun trái $E$, định nghĩa một cấu trúc $B$-môđun trái trên tích tenxơ $\rho_*(B_d) \otimes_A E$ sao cho $\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ với $\beta, \beta'$ trong $B$ và $x \in E$ ($\S 3$, no. 3). $B$-môđun trái này được gọi là *dẫn xuất từ $E$ bằng cách mở rộng vành vô hướng đến $B$ bằng $\rho$* và được ký hiệu bởi $\rho^*(E)$ hoặc $E_{(B)}$ nếu không sợ nhầm lẫn.
+Cho $A, B$ là hai vành và $\rho : A \to B$ là một đồng cấu vành; ta xét $A$-môđun phải $\rho^*(B_d)$ được xác định bởi đồng cấu này ($§ 1$, no. 13); $A$-môđun này cũng có cấu trúc $B$-môđun trái, cụ thể là cấu trúc của $B_s$ và, vì $b'(b\rho(a)) = (b'b)\rho(a)$ với $a \in A, b, b'$ trong $B$, hai cấu trúc môđun này trên $B$ là tương thích ($§ 1$, no. 14). Điều này cho phép, với mọi $A$-môđun trái $E$, định nghĩa một cấu trúc $B$-môđun trái trên tích tenxơ $\rho_*(B_d) \otimes_A E$ sao cho $\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ với $\beta, \beta'$ trong $B$ và $x \in E$ ($§ 3$, no. 3). $B$-môđun trái này được gọi là *dẫn xuất từ $E$ bằng cách mở rộng vành vô hướng đến $B$ bằng $\rho$* và được ký hiệu bởi $\rho^*(E)$ hoặc $E_{(B)}$ nếu không sợ nhầm lẫn.
 
 #### Mệnh đề 1 {#alg-ii-s5-prop-1 .statement}
 
@@ -58,7 +58,7 @@ $B$ có thể được xem như một song môđun $(B, A)$ nhờ $\rho$; khi đ
 $$
 \operatorname{Hom}_B(B \otimes_A E, F) \to \operatorname{Hom}_A(E, \operatorname{Hom}_B(B_s, F))
 $$
-như đã thấy trong $\S 4$, no. 1, Mệnh đề 1. Nhưng A-môđun trái $\operatorname{Hom}_B(B_s, F)$ được đồng nhất một cách chính tắc với $\rho^*(F)$: thật vậy, theo định nghĩa ($\S 1$, no. 14), ứng với một phần tử $y \in F$ là đồng cấu $\theta(y) : B_s \to F$ sao cho $(\theta(y))(1) = y$; do đó, với mọi $\lambda \in A$, ứng với $\rho(\lambda)y \in F$ là đồng cấu $\mu \mapsto \mu \rho(\lambda)y$ từ $B_s$ vào $F$, mà đó chính là $\lambda \theta(y)$ đối với cấu trúc A-môđun trái trên $\operatorname{Hom}_B(B_s, F)$ ($\S 1$, no. 14). Dùng sự đồng nhất này, vì thế ta thu được một *đẳng cấu* $\mathbf{Z}$-môđun *chính tắc*, nghịch đảo của (1)
+như đã thấy trong $§ 4$, no. 1, Mệnh đề 1. Nhưng A-môđun trái $\operatorname{Hom}_B(B_s, F)$ được đồng nhất một cách chính tắc với $\rho^*(F)$: thật vậy, theo định nghĩa ($§ 1$, no. 14), ứng với một phần tử $y \in F$ là đồng cấu $\theta(y) : B_s \to F$ sao cho $(\theta(y))(1) = y$; do đó, với mọi $\lambda \in A$, ứng với $\rho(\lambda)y \in F$ là đồng cấu $\mu \mapsto \mu \rho(\lambda)y$ từ $B_s$ vào $F$, mà đó chính là $\lambda \theta(y)$ đối với cấu trúc A-môđun trái trên $\operatorname{Hom}_B(B_s, F)$ ($§ 1$, no. 14). Dùng sự đồng nhất này, vì thế ta thu được một *đẳng cấu* $\mathbf{Z}$-môđun *chính tắc*, nghịch đảo của (1)
 
 (2)
 $$
@@ -119,7 +119,7 @@ $$
 
 Các $\mathbf{Z}$-môđun nền của $\sigma^*(\rho^*(E))$ và $(\sigma \circ \rho)^*(E)$ lần lượt là $C \otimes_B (B \otimes_A E)$ và $C \otimes_A E$. Tồn tại một $\mathbf{Z}$-đẳng cấu chính tắc $C \otimes_B (B \otimes_A E) \to (C \otimes_B B) \otimes_A E$ ($§ 3$, no. 8, Mệnh đề 8), và đó cũng là một C-đẳng cấu đối với các cấu trúc C-môđun trái ở hai vế. Hơn nữa,
 
-C-môđun $C \otimes_B B$ được đồng nhất một cách chính tắc với C-môđun $C_s$ dưới đẳng cấu ánh xạ $\gamma \otimes \beta$ tới $\gamma \sigma(\beta)$ (\S 3, no. 4, Mệnh đề 4) và đẳng cấu này cũng là một đẳng cấu đối với cấu trúc A-môđun phải trên $C \otimes_B B$ xác định bởi $\rho$ và cấu trúc A-môđun phải trên C xác định bởi $\sigma \circ \rho$. Do đó thu được một đẳng cấu chính tắc
+C-môđun $C \otimes_B B$ được đồng nhất một cách chính tắc với C-môđun $C_s$ dưới đẳng cấu ánh xạ $\gamma \otimes \beta$ tới $\gamma \sigma(\beta)$ (§ 3, no. 4, Mệnh đề 4) và đẳng cấu này cũng là một đẳng cấu đối với cấu trúc A-môđun phải trên $C \otimes_B B$ xác định bởi $\rho$ và cấu trúc A-môđun phải trên C xác định bởi $\sigma \circ \rho$. Do đó thu được một đẳng cấu chính tắc
 
 $$
 (C \otimes_B B) \otimes_A E \to C \otimes_A E
@@ -145,7 +145,7 @@ $$
 
 *ánh xạ* $(1 \otimes x) \otimes (1 \otimes x')$ *tới* $1 \otimes (x \otimes x')$ *với* $x \in E, x' \in E'$, *và đồng cấu này là song ánh*.
 
-Vế trái của (5) có thể viết thành $(B \otimes_A E) \otimes_B (B \otimes_A E')$ và được đồng nhất với $(E \otimes_A B) \otimes_B (B \otimes_A E')$ vì A và B giao hoán; tích sau này lại được đồng nhất liên tiếp với $E \otimes_A (B \otimes_B B) \otimes_A E'$, $E \otimes_A (B \otimes_A E')$, $E \otimes_A (E' \otimes_A B)$ và cuối cùng là $(E \otimes_A E') \otimes_A B$, bằng cách dùng tính kết hợp của tích tenxơ (\S 3, no. 8, Mệnh đề 8), Mệnh đề 4, \S 3, no. 4, và tính giao hoán của A và B. Đẳng cấu cần tìm là hợp thành của các đẳng cấu chính tắc liên tiếp ấy.
+Vế trái của (5) có thể viết thành $(B \otimes_A E) \otimes_B (B \otimes_A E')$ và được đồng nhất với $(E \otimes_A B) \otimes_B (B \otimes_A E')$ vì A và B giao hoán; tích sau này lại được đồng nhất liên tiếp với $E \otimes_A (B \otimes_B B) \otimes_A E'$, $E \otimes_A (B \otimes_A E')$, $E \otimes_A (E' \otimes_A B)$ và cuối cùng là $(E \otimes_A E') \otimes_A B$, bằng cách dùng tính kết hợp của tích tenxơ (§ 3, no. 8, Mệnh đề 8), Mệnh đề 4, § 3, no. 4, và tính giao hoán của A và B. Đẳng cấu cần tìm là hợp thành của các đẳng cấu chính tắc liên tiếp ấy.
 
 Rõ ràng nếu S là một hệ sinh của E, thì ảnh của S dưới ánh xạ chính tắc $E \to E_{(B)}$ là một hệ sinh của $E_{(B)}$; đặc biệt, nếu E là một A-môđun hữu hạn sinh, thì $E_{(B)}$ là một B-môđun hữu hạn sinh.
 
@@ -153,7 +153,7 @@ Rõ ràng nếu S là một hệ sinh của E, thì ảnh của S dưới ánh x
 
 *Cho E là một A-môđun thừa nhận một cơ sở* $(a_\lambda)_{\lambda \in L}$; *nếu* $\phi : x \mapsto 1 \otimes x$ *là ánh xạ chính tắc từ E vào* $\rho^*(E)$, *thì* $(\phi(a_\lambda))_{\lambda \in L}$ *là một cơ sở của* $\rho^*(E)$. *Nếu* $\rho$ *là đơn ánh, thì* $\phi$ *cũng vậy*.
 
-Mệnh đề thứ nhất suy ra ngay lập tức từ \S 3, no. 7, Hệ quả 1 của Mệnh đề 7. Hơn nữa, với mọi họ $(\xi_\lambda)_{\lambda \in L}$ các phần tử của A có giá hữu hạn,
+Mệnh đề thứ nhất suy ra ngay lập tức từ § 3, no. 7, Hệ quả 1 của Mệnh đề 7. Hơn nữa, với mọi họ $(\xi_\lambda)_{\lambda \in L}$ các phần tử của A có giá hữu hạn,
 
 $$
 \phi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = \sum_{\lambda \in L} \rho(\xi_\lambda) \phi(a_\lambda)
@@ -173,7 +173,7 @@ Nhận xét (4). Xét A-môđun trái $\rho_*(B_s)$ được định nghĩa bở
 $$
 \tilde{\rho}(E) = \operatorname{Hom}_A(\rho_*(B_s), E).
 $$
-Vì $\rho_*(B_s)$ có một cấu trúc B-môđun phải, nên từ đó dẫn xuất một cấu trúc B-môđun trái trên $\tilde{\rho}(E)$ (\S 1, no. 14) sao cho, nếu $u \in \tilde{\rho}(E)$ và $b' \in B$, thì $b'u$ là đồng cấu $b \mapsto u(bb')$ từ $\rho_*(B_s)$ vào E. Ta còn định nghĩa một ánh xạ A-tuyến tính, gọi là chính tắc,
+Vì $\rho_*(B_s)$ có một cấu trúc B-môđun phải, nên từ đó dẫn xuất một cấu trúc B-môđun trái trên $\tilde{\rho}(E)$ (§ 1, no. 14) sao cho, nếu $u \in \tilde{\rho}(E)$ và $b' \in B$, thì $b'u$ là đồng cấu $b \mapsto u(bb')$ từ $\rho_*(B_s)$ vào E. Ta còn định nghĩa một ánh xạ A-tuyến tính, gọi là chính tắc,
 $$
 \eta : \rho_*(\tilde{\rho}(E)) \to E
 $$
@@ -181,7 +181,7 @@ gán cho mọi đồng cấu $u \in \tilde{\rho}(E)$ phần tử $u(1)$ trong E.
 $$
 \operatorname{Hom}_A(\rho_*(B_s) \otimes_B F, E) \to \operatorname{Hom}_B(F, \operatorname{Hom}_A(\rho_*(B_s), E))
 $$
-(\S 1, no. 1, Mệnh đề 1). Vì A-môđun trái $\rho^*(B_s) \otimes_B F$ được đồng nhất một cách chính tắc với $\rho_*(F)$ theo § 3, no. 4, Mệnh đề 4, ta thu được một đẳng cấu chính tắc các $\mathbf{Z}$-môđun, nghịch đảo của đẳng cấu trên,
+(§ 1, no. 1, Mệnh đề 1). Vì A-môđun trái $\rho^*(B_s) \otimes_B F$ được đồng nhất một cách chính tắc với $\rho_*(F)$ theo § 3, no. 4, Mệnh đề 4, ta thu được một đẳng cấu chính tắc các $\mathbf{Z}$-môđun, nghịch đảo của đẳng cấu trên,
 $$
 \operatorname{Hom}_B(F, \tilde{\rho}(E)) \to \operatorname{Hom}_A(\rho_*(F), E)
 $$
@@ -274,7 +274,7 @@ $$
 
 trong đó $r_b$ ký hiệu phép nhân bên phải bởi $b$ trong $B$.
 
-Hơn nữa, giả thiết rằng $\omega$ là một đồng cấu *trung tâm* hàm ý rằng $(bb')\rho(a) = b\rho(a))b'$ với $b,\ b'$ trong $B$ và $a \in A$; nói cách khác cấu trúc $B$-môđun *phải* của $B_d$ là *tương thích* với cấu trúc $A$-môđun của nó; do đó nó xác định trên $B \otimes_A \operatorname{Hom}_A(E, F)$ một cấu trúc *môđun* $B$ *phải* (\S 3, no. 4) và cũng xác định như vậy trên $F_{(B)} = B \otimes_A F$, và sau cùng, vì các cấu trúc $B$-môđun trái và phải trên $F_{(B)}$ là *tương thích*, ta cũng thu được một cấu trúc *môđun* $B$ *phải* trên $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (\S 1, no. 14). Khi đó kiểm tra ngay lập tức được rằng (17) là một *đồng cấu* *môđun* $B$ *phải* đối với các cấu trúc ấy.
+Hơn nữa, giả thiết rằng $\omega$ là một đồng cấu *trung tâm* hàm ý rằng $(bb')\rho(a) = b\rho(a))b'$ với $b,\ b'$ trong $B$ và $a \in A$; nói cách khác cấu trúc $B$-môđun *phải* của $B_d$ là *tương thích* với cấu trúc $A$-môđun của nó; do đó nó xác định trên $B \otimes_A \operatorname{Hom}_A(E, F)$ một cấu trúc *môđun* $B$ *phải* (§ 3, no. 4) và cũng xác định như vậy trên $F_{(B)} = B \otimes_A F$, và sau cùng, vì các cấu trúc $B$-môđun trái và phải trên $F_{(B)}$ là *tương thích*, ta cũng thu được một cấu trúc *môđun* $B$ *phải* trên $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14). Khi đó kiểm tra ngay lập tức được rằng (17) là một *đồng cấu* *môđun* $B$ *phải* đối với các cấu trúc ấy.
 
 #### Mệnh đề 7 {#alg-ii-s5-prop-7 .statement}
 
@@ -294,13 +294,13 @@ $$
 v_E : (E^*)_{(B)} \to (E_{(B)})^*.
 $$
 
-Vế trái của (19) có thể được viết thành $\mathrm{Hom}_A(E, A) \otimes_A \rho_* (B_s)$, trong đó, trong $\mathrm{Hom}_A(E, A)$, A được xét như một song môđun (A, A). Khi đó có một $\mathbf{Z}$-đồng cấu chính tắc ($\S 4$, no. 2, công thức (7))
+Vế trái của (19) có thể được viết thành $\mathrm{Hom}_A(E, A) \otimes_A \rho_* (B_s)$, trong đó, trong $\mathrm{Hom}_A(E, A)$, A được xét như một song môđun (A, A). Khi đó có một $\mathbf{Z}$-đồng cấu chính tắc ($§ 4$, no. 2, công thức (7))
 
 $$
 v : \mathrm{Hom}_A(E, A) \otimes_A \rho_* (B_s) \to \mathrm{Hom}_A(E, A \otimes_A \rho_* (B_s)) = \mathrm{Hom}_A(E, \rho_* (B_s))
 $$
 
-với sự đồng nhất được cho bởi đẳng cấu chính tắc của $\S 3$, no. 4, Mệnh đề 4. Mặt khác, vế phải của (19) có thể được viết thành $\mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s)$; vì B là một (B, A)-song môđun, nên có một đẳng cấu $\mathbf{Z}$ chính tắc ($\S 4$, no. 1, Mệnh đề 1)
+với sự đồng nhất được cho bởi đẳng cấu chính tắc của $§ 3$, no. 4, Mệnh đề 4. Mặt khác, vế phải của (19) có thể được viết thành $\mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s)$; vì B là một (B, A)-song môđun, nên có một đẳng cấu $\mathbf{Z}$ chính tắc ($§ 4$, no. 1, Mệnh đề 1)
 
 $$
 \beta : \mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s) \to \mathrm{Hom}_A(E, \mathrm{Hom}_B(B_s, B_s))
@@ -338,7 +338,7 @@ Giả sử riêng rằng E là một A-môđun tự do sinh hữu hạn và $(e_
 
 Cho B là một vành, A là một vành con của B và P là một A-môđun trái xạ ảnh. Khi đó, nếu $P_{(B)}$ là một B-môđun sinh hữu hạn, thì bản thân P là một A-môđun sinh hữu hạn.
 
-Ta biết (\S 2, no. 6, Mệnh đề 12) rằng tồn tại một họ $(a_\lambda)_{\lambda \in L}$ các phần tử của P và một họ $(a_\lambda^*)_{\lambda \in L}$ các phần tử của đối ngẫu P* sao cho, với mọi $x \in P$, họ $\langle x, a_\lambda^* \rangle$ có giá hữu hạn và $x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$. Vì $P_{(B)}$ sinh hữu hạn, nên tồn tại một họ hữu hạn $(y_i)_{i \in I}$ các phần tử của P sao cho $P_{(B)}$ được sinh bởi các phần tử $1 \otimes y_i$. Với mỗi chỉ số i, họ $\langle y_i, a_\lambda^* \rangle$ có giá hữu hạn. Do đó tồn tại một tập con hữu hạn H của L sao cho $\langle y_i, a_\lambda^* \rangle = 0$ với $i \in I$ và $\lambda \notin H$. Vì
+Ta biết (§ 2, no. 6, Mệnh đề 12) rằng tồn tại một họ $(a_\lambda)_{\lambda \in L}$ các phần tử của P và một họ $(a_\lambda^*)_{\lambda \in L}$ các phần tử của đối ngẫu P* sao cho, với mọi $x \in P$, họ $\langle x, a_\lambda^* \rangle$ có giá hữu hạn và $x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$. Vì $P_{(B)}$ sinh hữu hạn, nên tồn tại một họ hữu hạn $(y_i)_{i \in I}$ các phần tử của P sao cho $P_{(B)}$ được sinh bởi các phần tử $1 \otimes y_i$. Với mỗi chỉ số i, họ $\langle y_i, a_\lambda^* \rangle$ có giá hữu hạn. Do đó tồn tại một tập con hữu hạn H của L sao cho $\langle y_i, a_\lambda^* \rangle = 0$ với $i \in I$ và $\lambda \notin H$. Vì
 $$
 \langle 1 \otimes y_i, 1 d_B \otimes a_\lambda^* \rangle = \langle y_i, a_\lambda^* \rangle,
 $$

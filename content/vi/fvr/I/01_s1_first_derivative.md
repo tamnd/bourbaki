@@ -40,9 +40,9 @@ subsections:
       pdf_page: 25
 statements: 31
 exercises: 9
-content_sha256: de796670952022610f2d517314d4917d4072c4a291a4ea4b7d6b463bba78561d
+content_sha256: d23ef4f6eaeaf14b8b69f866d2cbf73e6ee444fb0601f9d692297d241fc2008b
 translated_from: content/en/fvr/I/01_s1_first_derivative.md
-source_content_sha256: a411ec6338883a3109c8cef83bc1bd84e50d906c78f0da4e98858ad55ca77a45
+source_content_sha256: 5ac79d247600e1af8da17be22be9f55ff6aac813b9c80ef686bdb4b3e310cfcd
 translation_model: gpt-5.4
 translation_run: translate-vi-9093b294
 glossary_version: 34
@@ -307,7 +307,7 @@ với $y \neq y_0$. Khi $y$ tiến tới $y_0$ trong khi vẫn thuộc $J$ và $
 
 Ví dụ, với mỗi số nguyên $n > 0$, hàm $x^{1/n}$ là một đồng phôi của $\mathbf{R}_+$ lên chính nó, là hàm nghịch đảo của $x^n$, và có đạo hàm $\frac{1}{n} x^{\frac{1}{n} - 1}$ tại mỗi $x > 0$.
 
-Từ mệnh đề 5, người ta dễ dàng suy ra rằng với mọi số hữu tỉ $r = p/q > 0$ thì hàm $x^r = (x^{1/q})^p$ có đạo hàm $rx'^{-1}$ tại mọi $x > 0$.
+Từ mệnh đề 5, người ta dễ dàng suy ra rằng với mọi số hữu tỉ $r = p/q > 0$ thì hàm $x^r = (x^{1/q})^p$ có đạo hàm $r{x'}^{-1}$ tại mọi $x > 0$.
 
 $^3$ Để $f$ là một đồng phôi từ $I$ lên một tập con của $\mathbf{R}$ thì điều kiện cần và đủ là $f$ liên tục và đơn điệu nghiêm ngặt trên $I$ (*Gen. Top.*, IV, p. 338, định lý 5).
 

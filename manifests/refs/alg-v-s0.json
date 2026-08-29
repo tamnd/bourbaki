@@ -1,0 +1,10 @@
+{"edges": [
+{"from":"","from_label":"alg-v-s0","to_label":"alg-i-s7","kind":"cites","raw":"I, p. 166","form":"page","resolved_by":"section","file":"content/en/alg/V/historical_note.md","line":146},
+{"from":"","from_label":"alg-v-s0","to_label":"alg-ii-s1","kind":"cites","raw":"II, p. 219","form":"page","resolved_by":"section","file":"content/en/alg/V/historical_note.md","line":146},
+{"from":"","from_label":"alg-v-s0","kind":"cites","raw":"X, p. 161","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"X","file":"content/en/alg/V/historical_note.md","line":150},
+{"from":"","from_label":"alg-v-s0","to_label":"alg-v-s10-n2-exa-5","kind":"cites","raw":"V, p. 59, Example 5","form":"page","resolved_by":"page-map","file":"content/en/alg/V/historical_note.md","line":154},
+{"from":"","from_label":"alg-v-s0","to_label":"alg-i-s5","kind":"cites","raw":"I, p. 142","form":"page","resolved_by":"section","file":"content/en/alg/V/historical_note.md","line":154},
+{"from":"","from_label":"alg-v-s0","to_label":"alg-i-s1","kind":"cites","raw":"I, p. 1","form":"page","resolved_by":"section","file":"content/en/alg/V/historical_note.md","line":173},
+{"from":"","from_label":"alg-v-s0","to_label":"alg-i-s4","kind":"cites","raw":"I, p. 40","form":"page","resolved_by":"section","file":"content/en/alg/V/historical_note.md","line":177},
+{"from":"","from_label":"alg-v-s0","to_label":"alg-ii-s1","kind":"cites","raw":"II, p. 212","form":"page","resolved_by":"section","file":"content/en/alg/V/historical_note.md","line":183}
+]}

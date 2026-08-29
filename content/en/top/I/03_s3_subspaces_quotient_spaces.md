@@ -7,43 +7,44 @@ section: 3
 section_title: Subspaces, quotient spaces
 lang: en
 source: top-i-iv
+book_pages: 35-43, 122-125
 pdf_pages: 0041-0049, 0128-0131
 extraction: ocr
 subsections:
     - "no": 1
       title: SUBSPACES OF A TOPOLOGICAL SPACE
-      page: 0
+      page: 35
       pdf_page: 41
     - "no": 2
       title: CONTINUITY WITH RESPECT TO A SUBSPACE
-      page: 0
+      page: 37
       pdf_page: 43
     - "no": 3
       title: LOCALLY CLOSED SUBSPACES
-      page: 0
+      page: 38
       pdf_page: 44
     - "no": 4
       title: QUOTIENT SPACES
-      page: 0
+      page: 39
       pdf_page: 45
     - "no": 5
       title: CANONICAL DECOMPOSITION OF A CONTINUOUS MAPPING
-      page: 0
+      page: 40
       pdf_page: 46
     - "no": 6
       title: QUOTIENT SPACE OF A SUBSPACE
-      page: 0
+      page: 42
       pdf_page: 48
 statements: 24
 exercises: 16
-content_sha256: 862adf5542a6bab731b539625326a928f16445b7d34d1aa5bea00e0a31df6348
+content_sha256: 3268e44c8c9d9e92545692b234c169a265647c5944508f6c4bba34e83499677d
 ---
 
 ## 3. SUBSPACES; QUOTIENT SPACES
 
 ### 1. SUBSPACES OF A TOPOLOGICAL SPACE
 
-Let $A$ be a subset of a topological space $X$. We have defined the *topology induced* on $A$ by the topology of $X$ as the inverse image of the latter under the canonical injection $A \to X$ (\S 2, no. 3, Example 1). An equivalent definition is as follows:
+Let $A$ be a subset of a topological space $X$. We have defined the *topology induced* on $A$ by the topology of $X$ as the inverse image of the latter under the canonical injection $A \to X$ (§ 2, no. 3, Example 1). An equivalent definition is as follows:
 
 #### Definition 1 {#top-i-s3-def-1 .statement}
 
@@ -53,13 +54,13 @@ Let $A$ be a subset of a topological space $X$. The topology induced on $A$ by t
 
 The topology induced on the set $\mathbf{Z}$ of rational integers by the topology of the rational line is the discrete topology, for the intersection of $\mathbf{Z}$ and the open interval $]n - 1/2, n + 1/2[$ is the set $\{ n \}$.
 
-By Proposition 5 of § 2, no. 3 (or directly from Definition 1) we see that, if $B \subset A \subset X$, the subspace $B$ of $X$ is identical with the subspace $B$ of the subspace $A$ of $X$ (transitivity of induced topologies). If $\mathcal{G}$ is a subbase (resp. a base) of the topology of $X$ ($\S 2$, no. 3, Example 3) its trace $\mathcal{G}_A$ on $A$ is a subbase (resp. a base) of the topology induced on $A$.
+By Proposition 5 of § 2, no. 3 (or directly from Definition 1) we see that, if $B \subset A \subset X$, the subspace $B$ of $X$ is identical with the subspace $B$ of the subspace $A$ of $X$ (transitivity of induced topologies). If $\mathcal{G}$ is a subbase (resp. a base) of the topology of $X$ ($§ 2$, no. 3, Example 3) its trace $\mathcal{G}_A$ on $A$ is a subbase (resp. a base) of the topology induced on $A$.
 
 In all questions which involve the elements or subsets of $A$, it is essential to distinguish carefully between their properties as points (resp. subsets) of $X$, and their properties as points (resp. subsets) of the subspace $A$. We shall make this distinction by using the phrases "in $A$", "with respect to $A$", or "relative to $A$" to refer to properties in the latter category (possibly contrasting them with the phrases "in $X$", "with respect to $X$", "relative to $X$").
 
 An open set of the subspace $A$ need not be open in $X$; in order that every set which is open in $A$ should be open in $X$ it is necessary and sufficient that $A$ is open in $X$. The condition is necessary, since $A$ is open in $A$, and it is sufficient by virtue of $(O_{II})$ and Definition 1.
 
-The sets which are closed in $A$ are the intersections with $A$ of the closed sets in $X$ ($\S 2$, no. 3, Example 1); as above we see that every set which is closed in $A$ is closed in $X$ if and only if $A$ is closed in $X$.
+The sets which are closed in $A$ are the intersections with $A$ of the closed sets in $X$ ($§ 2$, no. 3, Example 1); as above we see that every set which is closed in $A$ is closed in $X$ if and only if $A$ is closed in $X$.
 
 The neighbourhoods of a point $x \in A$ relative to $A$ are the intersections with $A$ of neighbourhoods of $x$ relative to $X$. Every neighbourhood of $x$ relative to $A$ is a neighbourhood of $x$ relative to $X$ if and only if $A$ is a neighbourhood of $x$ in $X$.
 
@@ -79,19 +80,19 @@ It follows that if $A, B, C$ are three subsets of $X$ such that $A \supset B \su
 
 *Let $A$ be a dense subset of a topological space $X$; then for each $x \in A$ and each neighbourhood $V$ of $x$ relative to $A$, the closure $\overline{V}$ of $V$ in $X$ is a neighbourhood of $x$ in $X$.*
 
-For $V$ contains $U \cap A$, where $U$ is an open subset of $X$ which contains $x$, hence $\overline{V}$ contains $U \cap \overline{A} = U$ (\S 1, no. 6, Proposition 5).
+For $V$ contains $U \cap A$, where $U$ is an open subset of $X$ which contains $x$, hence $\overline{V}$ contains $U \cap \overline{A} = U$ (§ 1, no. 6, Proposition 5).
 
 #### Proposition 3 {#top-i-s3-prop-3 .statement}
 
 *Let $(A_i)_{i \in I}$ be a family of subsets of a topological space $X$, such that one of the following properties holds:
 a) The interiors of the $A_i$ cover $X$.
-b) $(A_i)_{i \in I}$ is a locally finite closed covering of $X$ (\S 1, no. 5).*
+b) $(A_i)_{i \in I}$ is a locally finite closed covering of $X$ (§ 1, no. 5).*
 
 *Under these conditions, a subset $B$ of $X$ is open (resp. closed) in $X$ if and only if each of the sets $B \cap A_i$ is open (resp. closed) in $A_i$.*
 
 Clearly if $B$ is open (resp. closed) in $X$, then $B \cap A_i$ is open (resp. closed) in $A_i$. Conversely, suppose first that condition a) is satisfied; since $(\complement B) \cap A_i = A_i - (B \cap A_i)$, it is enough, by duality, to consider the case in which each of the $B \cap A_i$ is *open* with respect to $A_i$. In this case $B \cap \dot{A}_i$ is open in $\dot{A}_i$ for each $i \in I$, and therefore open in $X$; and since $B = \bigcup_i (B \cap \dot{A}_i)$ by hypothesis, it follows that $B$ is open in $X$.
 
-Now suppose that b) is satisfied; by duality again, we need only consider the case in which each of the $B \cap A_i$ is *closed* in $A_i$, and therefore closed in $X$. Since the family $(B \cap A_i)$ is locally finite and $B = \bigcup_i (B \cap A_i)$, it follows from \S 1, no. 5, Proposition 4 that $B$ is closed in $X$.
+Now suppose that b) is satisfied; by duality again, we need only consider the case in which each of the $B \cap A_i$ is *closed* in $A_i$, and therefore closed in $X$. Since the family $(B \cap A_i)$ is locally finite and $B = \bigcup_i (B \cap A_i)$, it follows from § 1, no. 5, Proposition 4 that $B$ is closed in $X$.
 
 #### Remark {#top-i-s3-n1-rem-1 .statement}
 
@@ -99,11 +100,11 @@ Let $(U_i)_{i \in I}$ be an *open* covering of a topological space $X$, and for 
 
 ### 2. CONTINUITY WITH RESPECT TO A SUBSPACE
 
-Let $X$ and $Y$ be two topological spaces, $f$ a mapping of $X$ into $Y$, $B$ a subset of $Y$ which contains $f(X)$. The definition of the induced topology as an initial topology (\S 2, no. 3, Proposition 4) shows that $f$ is continuous at $x \in X$ if and only if the mapping of $X$ into the *subspace* $B$ of $Y$, having the same graph as $f$, is continuous at $x$.
+Let $X$ and $Y$ be two topological spaces, $f$ a mapping of $X$ into $Y$, $B$ a subset of $Y$ which contains $f(X)$. The definition of the induced topology as an initial topology (§ 2, no. 3, Proposition 4) shows that $f$ is continuous at $x \in X$ if and only if the mapping of $X$ into the *subspace* $B$ of $Y$, having the same graph as $f$, is continuous at $x$.
 
 Now let $A$ be a subset of $X$; if $f$ is continuous at $x \in A$ (resp. continuous on $X$), its restriction $f|A$ is a mapping of the subspace $A$ into $Y$, which is continuous at $x$ (resp. continuous on $A$) by Proposition 2 of § 2, no. 1. We shall sometimes say that a mapping $f : X \to Y$ is *continuous relative to $A$ at $x \in A$* (resp. *continuous relative to $A$*) if its restriction $f|A$ is continuous at $x$ (resp. continuous on $A$).
 
-It should be noted that $f|A$ can be continuous without $f$ being continuous at any point of $X$; an example of this phenomenon is provided by the characteristic function $\varphi_A$ of a subset $A$ of $X$ which is such that both $A$ and its complement are dense in $X$ ($\S 2$, Exercise 11), $\varphi_A$ being regarded as a mapping of $X$ into the discrete space $\{0, 1\}$. $\varphi_A$ is not continuous at any point of $X$, but its restriction to $A$ is constant and therefore continuous.
+It should be noted that $f|A$ can be continuous without $f$ being continuous at any point of $X$; an example of this phenomenon is provided by the characteristic function $\varphi_A$ of a subset $A$ of $X$ which is such that both $A$ and its complement are dense in $X$ ($§ 2$, Exercise 11), $\varphi_A$ being regarded as a mapping of $X$ into the discrete space $\{0, 1\}$. $\varphi_A$ is not continuous at any point of $X$, but its restriction to $A$ is constant and therefore continuous.
 
 If $A$ is a neighbourhood in $X$ of a point $x \in A$, and if $f : X \to Y$ is such that $f|A$ is continuous at $x$, then $f$ is continuous at $x$; for each neighbourhood of $x$ in $A$ is a neighbourhood of $x$ in $X$ (*local* character of continuity).
 
@@ -111,7 +112,7 @@ If $A$ is a neighbourhood in $X$ of a point $x \in A$, and if $f : X \to Y$ is s
 
 *Let* $(A_i)_{i \in I}$ *be a family of subsets of a topological space* $X$ *whose interiors cover* $X$, *or which is a locally finite closed covering of* $X$. *Let* $f$ *be a mapping of* $X$ *into a topological space* $X'$. *If the restriction of* $f$ *to each of the subspaces* $A_i$ *is continuous, then* $f$ *is continuous.*
 
-For if $F'$ is a closed subset of $X'$ and if $F = \overline{f}(F')$, then $F \cap A_i$ is closed in $A_i$ for each $i \in I$ ($\S 2$, no. 1, Theorem 1) and therefore $F$ is closed in $X$ by Proposition 3 of no. 1; the result now follows from Theorem 1 of $\S 2$, no. 1.
+For if $F'$ is a closed subset of $X'$ and if $F = \overline{f}(F')$, then $F \cap A_i$ is closed in $A_i$ for each $i \in I$ ($§ 2$, no. 1, Theorem 1) and therefore $F$ is closed in $X$ by Proposition 3 of no. 1; the result now follows from Theorem 1 of $§ 2$, no. 1.
 
 ### 3. LOCALLY CLOSED SUBSPACES
 
@@ -145,17 +146,17 @@ This follows immediately from Proposition 5 above and Theorem 1 of § 2, no. 1.
 
 #### Definition 3 {#top-i-s3-def-3 .statement}
 
-*Let $X$ be a topological space, $R$ an equivalence relation on $X$. The quotient space of $X$ by $R$ is the quotient set $X/R$ with the topology which is the quotient of the topology of $X$ by the relation $R$ (\S 2, no. 4, Example 1)*.
+*Let $X$ be a topological space, $R$ an equivalence relation on $X$. The quotient space of $X$ by $R$ is the quotient set $X/R$ with the topology which is the quotient of the topology of $X$ by the relation $R$ (§ 2, no. 4, Example 1)*.
 
 Unless the contrary is expressly stated, whenever we speak of $X/R$ as a topological space, it is to be understood that we mean the quotient space of $X$ by $R$. We shall often say that this topological space is the space obtained by identifying the points of $X$ which belong to the same equivalence class mod $R$.
 
-Let $\varphi$ be the canonical mapping $X \to X/R$. By definition (\S 2, no. 4, Proposition 6 and its corollary) the open (resp. closed) sets in $X/R$ are the sets $A$ such that $\varphi^{-1}(A)$ is open (resp. closed) in $X$; in other words, the open (resp. closed) sets in $X/R$ are in one-to-one correspondence with the open (resp. closed) subsets of $X$ which are saturated with respect to $R$ and are the canonical images of these subsets.
+Let $\varphi$ be the canonical mapping $X \to X/R$. By definition (§ 2, no. 4, Proposition 6 and its corollary) the open (resp. closed) sets in $X/R$ are the sets $A$ such that $\varphi^{-1}(A)$ is open (resp. closed) in $X$; in other words, the open (resp. closed) sets in $X/R$ are in one-to-one correspondence with the open (resp. closed) subsets of $X$ which are saturated with respect to $R$ and are the canonical images of these subsets.
 
 #### Proposition 6 {#top-i-s3-prop-6 .statement}
 
 *Let $X$ be a topological space, $R$ an equivalence relation on $X$, $\varphi$ the canonical mapping of $X$ onto $X/R$; then a mapping $f$ of $X/R$ into a topological space $Y$ is continuous if and only if $f \circ \varphi$ is continuous on $X$*.
 
-This is a particular case of \S 2, no. 4, Proposition 6; it expresses the fact that the quotient topology is the final topology for the mapping $\varphi$.
+This is a particular case of § 2, no. 4, Proposition 6; it expresses the fact that the quotient topology is the final topology for the mapping $\varphi$.
 
 Proposition 6 shows that there is a one-to-one correspondence between the continuous mappings of $X/R$ into $Y$ and the continuous maps of $X$ into $Y$ *which are constant on each equivalence class mod $R$*.
 
@@ -200,7 +201,7 @@ For the condition b) [resp. c)] expresses that the image under $g$ of every open
 
 #### Example {#top-i-s3-n5-exa-1 .statement}
 
-Let $X$ be a topological space, $(X_i)_{i \in I}$ a covering of $X$, $Y$ the sum of the subspaces $X_i$ of $X$; then there is a partition $(Y_i)_{i \in I}$ of $Y$ into subspaces which are both open and closed, and for each $i \in I$ there is a homeomorphism $f_i : Y_i \to X_i$. Let $f : Y \to X$ be the continuous mapping which agrees with $f_i$ on $Y_i$ for each $i \in I$, and let $R$ be the equivalence relation $f(x) = f(y)$; the quotient space $Y/R$ is thus obtained by "pasting together" the $Y_i$ (\S 2, no. 5). Consider the bijection $g : Y/R \to X$ associated with $f$; in general $g$ is not a homeomorphism, as is shown by the example in which each $X_i$ consists of a single point and $X$ is not discrete. However, if the interiors of the $X_i$ cover $X$, or if $(X_i)$ is a locally finite closed covering of $X$, then $g$ is a homeomorphism: for if $U$ is any open subset of $Y$ which is saturated with respect to $R$, then for each $i \in I$ the set
+Let $X$ be a topological space, $(X_i)_{i \in I}$ a covering of $X$, $Y$ the sum of the subspaces $X_i$ of $X$; then there is a partition $(Y_i)_{i \in I}$ of $Y$ into subspaces which are both open and closed, and for each $i \in I$ there is a homeomorphism $f_i : Y_i \to X_i$. Let $f : Y \to X$ be the continuous mapping which agrees with $f_i$ on $Y_i$ for each $i \in I$, and let $R$ be the equivalence relation $f(x) = f(y)$; the quotient space $Y/R$ is thus obtained by "pasting together" the $Y_i$ (§ 2, no. 5). Consider the bijection $g : Y/R \to X$ associated with $f$; in general $g$ is not a homeomorphism, as is shown by the example in which each $X_i$ consists of a single point and $X$ is not discrete. However, if the interiors of the $X_i$ cover $X$, or if $(X_i)$ is a locally finite closed covering of $X$, then $g$ is a homeomorphism: for if $U$ is any open subset of $Y$ which is saturated with respect to $R$, then for each $i \in I$ the set
 $$
 f(U) \cap X_i = f_i(U \cap Y_i)
 $$
@@ -261,11 +262,11 @@ For if A is open (resp. closed) in X and saturated with respect to R, and if $B 
 
 *If there is a continuous mapping $u : X \to A$ such that $u(x)$ is congruent to $x$ mod R for each $x \in X$, then $f(A) = X/R$ and the canonical mapping $h : A/R_A \to X/R$ is a homeomorphism.*
 
-Since each equivalence class mod R meets A, the canonical image of $A/R_A$ in $X/R$ is the whole of $X/R$; on the other hand, if U is open in A and is saturated with respect to $R_A$, it follows from the hypothesis that $\bar{u}^1(U)$ is the set obtained by saturating U with respect to R; since $u$ is continuous, $\bar{u}^1(U)$ is open in X (\S 2, no. 1, Theorem 1). The corollary follows from this fact by virtue of Proposition 10.
+Since each equivalence class mod R meets A, the canonical image of $A/R_A$ in $X/R$ is the whole of $X/R$; on the other hand, if U is open in A and is saturated with respect to $R_A$, it follows from the hypothesis that $\bar{u}^1(U)$ is the set obtained by saturating U with respect to R; since $u$ is continuous, $\bar{u}^1(U)$ is open in X (§ 2, no. 1, Theorem 1). The corollary follows from this fact by virtue of Proposition 10.
 
 #### Example {#top-i-s3-n6-exa-1 .statement}
 
-Let R denote the equivalence relation $x \equiv y \pmod{1}$ on the real line $\mathbf{R}$ (no. 4, Example) and let A denote the closed interval $[0, 1]$; A contains at least one point of each equivalence class mod R. The canonical mapping of $A/R_A$ onto the torus T is a homeomorphism; for if F is closed in A (and hence in R), in order to saturate F with respect to the relation R we have to take the union of the closed sets $F + n$ (for all $n \in \mathbf{Z}$), which evidently form a locally finite family, so that their union is closed (\S 1, no. 5, Proposition 4); the assertion follows from this. We remark that $A/R_A$ is obtained by identifying the points 0 and 1 in A. \*
+Let R denote the equivalence relation $x \equiv y \pmod{1}$ on the real line $\mathbf{R}$ (no. 4, Example) and let A denote the closed interval $[0, 1]$; A contains at least one point of each equivalence class mod R. The canonical mapping of $A/R_A$ onto the torus T is a homeomorphism; for if F is closed in A (and hence in R), in order to saturate F with respect to the relation R we have to take the union of the closed sets $F + n$ (for all $n \in \mathbf{Z}$), which evidently form a locally finite family, so that their union is closed (§ 1, no. 5, Proposition 4); the assertion follows from this. We remark that $A/R_A$ is obtained by identifying the points 0 and 1 in A. \*
 
 ### Exercises {#top-i-s3-exercises}
 

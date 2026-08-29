@@ -12,9 +12,9 @@ pdf_pages: 0412-0443
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4d38419e071a322d8bbdfd7593efd98514d2586c019db15797f0b8bac5147c4f
+content_sha256: c8337d6c2c0266024b24f9ab3dfcffc9dc578fe5dbec76e7fe7d53c6cc3ac104
 translated_from: content/en/top/IV/historical_note.md
-source_content_sha256: 709656219df69155d8a4576d172b2d91933b3847508fbdbed2c1f2bca2e04d22
+source_content_sha256: fa5af6e307c63a6d9a1e252507d1582a395981a6446717689b181a7ec79a0ac1
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-089ac01f
 glossary_version: 34
@@ -87,7 +87,7 @@ Nếu $x_0, y_0$ đã cho và $> 0$, đặt $x_{n+1} = (x_n + y_n)/2$ và
 $$
 y_{n+1} = \sqrt{x_n y_n};
 $$
-khi $n$ tiến tới $+\infty$, $x_n$ và $y_n$ tiến tới (rất nhanh) một giới hạn chung, gọi là trung bình số-hình học của $x_0$ và $y_0$ (\S 5, Bài tập 16); hàm này liên quan chặt chẽ với các hàm elliptic và là điểm khởi đầu cho công trình quan trọng của Gauss về chủ đề này.
+khi $n$ tiến tới $+\infty$, $x_n$ và $y_n$ tiến tới (rất nhanh) một giới hạn chung, gọi là trung bình số-hình học của $x_0$ và $y_0$ (§ 5, Bài tập 16); hàm này liên quan chặt chẽ với các hàm elliptic và là điểm khởi đầu cho công trình quan trọng của Gauss về chủ đề này.
 
 Khi đã đi đến điểm này, các nhà toán học chỉ còn nhiệm vụ làm chính xác và mở rộng các kết quả đã thu được, bằng cách sửa chữa những sai lầm khác nhau và lấp đầy những khoảng trống khác nhau. Chẳng hạn, có một thời Cauchy đã tin rằng một chuỗi hội tụ, mà các số hạng của nó là các hàm liên tục của một biến, có một hàm liên tục làm tổng. Sự hiệu đính của Abel về điểm này, trong quá trình công trình quan trọng của ông về chuỗi ([12], vol. 1, p. 219; cf. cũng vol. 2, p. 257 và passim), cuối cùng đã dẫn đến việc Weierstrass làm sáng tỏ khái niệm hội tụ đều (trong các bài giảng của ông, vốn không được xuất bản nhưng có ảnh hưởng đáng kể; xem Ghi chú lịch sử cho Chương X). Một lần nữa, Cauchy đã giả thiết, mà không có đủ biện minh, sự tồn tại của cực tiểu của một hàm liên tục trong một trong các chứng minh của ông về sự tồn tại của nghiệm của một đa thức; và một lần nữa Weierstrass là người làm sáng tỏ những câu hỏi thuộc loại này bằng cách chứng minh (trong các bài giảng của ông) Định lý 1 của § 6 đối với các hàm của các biến thực, được xác định trên các khoảng đóng bị chặn. Sau sự phê phán của ông đối với những áp dụng không có cơ sở của định lý này vào các tập hợp hàm ("nguyên lý Dirichlet" là ví dụ nổi tiếng nhất), đã bắt đầu một phong trào tư tưởng dẫn tới, như chúng ta đã thấy trong Ghi chú lịch sử cho Chương I, định nghĩa tổng quát về các không gian compact và phát biểu hiện đại của định lý như chúng tôi đã đưa ra.
 

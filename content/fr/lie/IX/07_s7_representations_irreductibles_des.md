@@ -37,7 +37,7 @@ subsections:
       pdf_page: 80
 statements: 27
 exercises: 8
-content_sha256: 41fc7f641f75b0c8f5beb2a9241c335ecf284c9b079e4ea21f934f59374acbf1
+content_sha256: 94bec922e39b175a95c2e9bac03d80b3eef4ba42c5399288591e184c2d1b2a9f
 ---
 
 ## § 7. REPRÉSENTATIONS IRRÉDUCTIBLES DES GROUPES DE LIE COMPACTS CONNEXES $^1$
@@ -490,7 +490,7 @@ $$
 
 où $\lambda$ est le plus grand poids de $\tau$. La forme $Q_\Gamma$ est positive, séparante et invariante par W.
 
-Soit F une forme bilinéaire symétrique négative et séparante sur g définissant $\Gamma$. Soit $\tau : G \to GL(V)$ une représentation irréductible de G ; soient $\langle , \rangle$ un produit scalaire hilbertien sur V invariant par G ($\S 1,$ no 1), et $(e_i)$ une base de g telle que $F(e_i, e_j) = - \delta_{ij}$. Alors, pour tout élément $v$ de V non invariant par G, on a
+Soit F une forme bilinéaire symétrique négative et séparante sur g définissant $\Gamma$. Soit $\tau : G \to GL(V)$ une représentation irréductible de G ; soient $\langle , \rangle$ un produit scalaire hilbertien sur V invariant par G ($§ 1,$ no 1), et $(e_i)$ une base de g telle que $F(e_i, e_j) = - \delta_{ij}$. Alors, pour tout élément $v$ de V non invariant par G, on a
 
 $$
 \tilde{\Gamma}(\tau) \langle v, v \rangle = \langle v, \Gamma_V(v) \rangle = - \sum_i \langle v, (e_i)_V^2 v \rangle = \sum_i \langle v, (e_i)_V^*(e_i)_V v \rangle

@@ -49,9 +49,9 @@ subsections:
       pdf_page: 342
 statements: 69
 exercises: 29
-content_sha256: 1aaf1d2e6005a4c3d7ab5799637c6431784f3d0e3d655d772ea8c432fde23e4c
+content_sha256: c9fe750c6079f11c6c7838202df8d0d10209a7b299de7dca04ce287045928b32
 translated_from: content/en/ac/V/01_s1_notion_of_an_integral_element.md
-source_content_sha256: b337d342b6babab0c6b02f64471e31ee927565e55a6466a64bf4f9ce1fce980c
+source_content_sha256: 2f79a65f77c0aff7fecf7b74bea588fece9fce74137af610f9bfb9d0274e5dc9
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-341390b7
 glossary_version: 34
@@ -416,7 +416,7 @@ thì suy ra ngay lập tức từ giả thiết rằng cũng có $Q(P - P_1)^m \
 
 Cho $(A_n)_{n \in \mathbf{Z}}$ là lọc được xác định trên $A$; vì $\bigcap_{n \in \mathbf{Z}} A_n$, là bao đóng của iđêan (0) (Chương III, § 2, no. 5), giả thiết trước hết kéo theo rằng lọc $(A,,)$ là tách được và, vì $\mathrm{gr}(A)$ là một miền nguyên, nên $A$ cũng vậy (Chương III, § 2, no. 3, Hệ quả của Mệnh đề 1). Cho $x = b/a$ là một phần tử của trường các phân thức $K$ của $A$ ($a \in A, b \in A$) sao cho tồn tại một phần tử $d \neq 0$ của $A$ thỏa mãn $dx^n \in A$ với mọi $n \geq 0$. Ta phải chứng minh rằng $b \in A a$ và, vì theo giả thiết iđêan $A a$ là đóng, chỉ cần chỉ ra rằng, với mọi $n \in \mathbf{Z}, b \in A a + A$. Vì lọc của $A$ là đầy đủ, tồn tại một số nguyên $q \in \mathbf{Z}$ sao cho $b \in A a + A_q$. Do đó chỉ cần chứng minh rằng quan hệ $b \in A a + A_q$ kéo theo $b \in A a + A_{q+1}$.
 
-Giả sử khi đó rằng $b = a y + z$ trong đó $y \in A, z \in A_{q+1}$. Khi đó theo giả thiết $dx^n \in A$ với mọi $n \geq 0$, do đó ta thu được ngay lập tức $d(x - y)^n \in A$ với mọi $n \geq 0$; nói cách khác, $dz^n = a^n t_n$ trong đó $t_n \in A$ với mọi $n \geq 0$. Ta hiển nhiên có thể giới hạn sự chú ý của mình vào trường hợp $z \neq 0$. Gọi $v$ là hàm cấp trên $A$ (chương III, § 1, no. 2) và viết $v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$; gọi $d', z', a'$ là các ảnh tương ứng của $d, z, a$ trong $A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$. Với mọi $n \geq 0,\ v(dz^n) = n_1 + nn_2$ (chương III, § 2, no. 3, Mệnh đề 1) và do đó ảnh chính tắc trong $\mathrm{gr}(A)$ của $dz^n$ là $d'z'^n$; tương tự, người ta thấy rằng ảnh chính tắc trong $\mathrm{gr}(A)$ của $a^n t_n$ có dạng $d'^n t'_n$ trong đó $t'_n \in \mathrm{gr}(A)$ và, vì $a' \neq 0$ ta suy ra rằng, với mọi $n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$. Giả thiết rằng $\mathrm{gr}(A)$ là hoàn toàn nguyên đóng do đó kéo theo sự tồn tại của một $s' \in \mathrm{gr}(A)$ sao cho $z' = a's'$; phân tích $s'$ thành một tổng các phần tử thuần nhất, người ta còn thấy (vì $z'$ và $a'$ là thuần nhất) rằng có thể giả sử $s'$ là thuần nhất, nghĩa là ảnh của một phần tử $s \in A$; khi đó $v(as) = v(z) = n_2$ và $z \equiv as \pmod{A_{n_2+1}}$; vì $n_2 \geq m, a fortiori$ $z \equiv as \pmod{A_{m+1}}$, do đó $b \equiv a(y+s) \pmod{A,,+,}$.
+Giả sử khi đó rằng $b = a y + z$ trong đó $y \in A, z \in A_{q+1}$. Khi đó theo giả thiết $dx^n \in A$ với mọi $n \geq 0$, do đó ta thu được ngay lập tức $d(x - y)^n \in A$ với mọi $n \geq 0$; nói cách khác, $dz^n = a^n t_n$ trong đó $t_n \in A$ với mọi $n \geq 0$. Ta hiển nhiên có thể giới hạn sự chú ý của mình vào trường hợp $z \neq 0$. Gọi $v$ là hàm cấp trên $A$ (chương III, § 1, no. 2) và viết $v(d) = n_1,\ v(z) = n_2 \geq m,\ v(a) = n_3$; gọi $d', z', a'$ là các ảnh tương ứng của $d, z, a$ trong $A_{n_1}/A_{n_1+1},\ A_{n_2}/A_{n_2+1},\ A_{n_3}/A_{n_3+1}$. Với mọi $n \geq 0,\ v(dz^n) = n_1 + nn_2$ (chương III, § 2, no. 3, Mệnh đề 1) và do đó ảnh chính tắc trong $\mathrm{gr}(A)$ của $dz^n$ là $d'{z'}^n$; tương tự, người ta thấy rằng ảnh chính tắc trong $\mathrm{gr}(A)$ của $a^n t_n$ có dạng ${d'}^n t'_n$ trong đó $t'_n \in \mathrm{gr}(A)$ và, vì $a' \neq 0$ ta suy ra rằng, với mọi $n \geq 0,\ d'(z'/a')^n \in \mathrm{gr}(A)$. Giả thiết rằng $\mathrm{gr}(A)$ là hoàn toàn nguyên đóng do đó kéo theo sự tồn tại của một $s' \in \mathrm{gr}(A)$ sao cho $z' = a's'$; phân tích $s'$ thành một tổng các phần tử thuần nhất, người ta còn thấy (vì $z'$ và $a'$ là thuần nhất) rằng có thể giả sử $s'$ là thuần nhất, nghĩa là ảnh của một phần tử $s \in A$; khi đó $v(as) = v(z) = n_2$ và $z \equiv as \pmod{A_{n_2+1}}$; vì $n_2 \geq m, a fortiori$ $z \equiv as \pmod{A_{m+1}}$, do đó $b \equiv a(y+s) \pmod{A,,+,}$.
 
 ### 5. ĐÓNG NGUYÊN CỦA MỘT VÀNH PHÂN THỨC
 
@@ -450,7 +450,7 @@ $$
 (sr^n + a_1 r^{n-1} + \ldots + a_n)/s = 0
 $$
 
-và do đó tồn tại $s' \in S$ sao cho $s'^n(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; ta suy ra rằng $(s'sr)^n + s'a_1(s'sr)^{n-1} + \ldots + s'^ns^{n-1}a_n = 0$. Theo định nghĩa, do đó $s'sr \in A'$, do đó $r/1 \in S^{-1}A'$ và $r/t \in S^{-1}A'$.
+và do đó tồn tại $s' \in S$ sao cho ${s'}^n(sr^n + a_1 r^{n-1} + \ldots + a_n) = 0$; ta suy ra rằng $(s'sr)^n + s'a_1(s'sr)^{n-1} + \ldots + {s'}^ns^{n-1}a_n = 0$. Theo định nghĩa, do đó $s'sr \in A'$, do đó $r/1 \in S^{-1}A'$ và $r/t \in S^{-1}A'$.
 
 #### Hệ quả 1 {#ac-v-s1-prop-16-cor-1 .statement}
 

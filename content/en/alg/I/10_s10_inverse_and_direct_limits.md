@@ -8,28 +8,29 @@ section_title: Inverse and direct limits
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 118-123, 179
 pdf_pages: 0142-0147, 0203-0203
 extraction: ocr
 subsections:
     - "no": 1
       title: INVERSE SYSTEMS OF MAGMAS
-      page: 0
+      page: 118
       pdf_page: 142
     - "no": 2
       title: INVERSE LIMITS OF ACTIONS
-      page: 0
+      page: 119
       pdf_page: 143
     - "no": 3
       title: DIRECT SYSTEMS OF MAGMAS
-      page: 0
+      page: 120
       pdf_page: 144
     - "no": 4
       title: DIRECT LIMIT OF ACTIONS
-      page: 0
+      page: 123
       pdf_page: 147
 statements: 5
 exercises: 2
-content_sha256: eda23b210e59619e1734616da70112e44f5cd51fee3246e868678c78f8727ff2
+content_sha256: 4d3540b7ec97407be71cb0f6cb3acc3e307d1f899278290311099ea565ce0b4a
 ---
 
 ## § 10. INVERSE AND DIRECT LIMITS
@@ -159,7 +160,7 @@ u(e) = u(f_\alpha(e_\alpha)) = u_\alpha(e_\alpha) = e'
 $$
 for $u_\alpha$ is unital. Hence $u$ is unital.
 
-By analogy with the notion of direct system of magmas, that of a direct system of monoids or groups can be formulated. Proposition 1 shows that the magma E which is the limit of a direct system of monoids $(E_\alpha, f_{\beta\alpha})_{\alpha, \beta \in I}$ is a monoid. We show that E is a group if the $E_\alpha$ are groups: let $x \in E, \alpha \in I$ and $x_\alpha \in E_\alpha$ be such that $x = f_\alpha(x_\alpha)$; the element $y = f_\alpha(x_\alpha^{-1})$ of E is the inverse of x (\S 2, no. 3). The universal property of Proposition 2 goes over immediately in the case of a direct system of monoids or groups.
+By analogy with the notion of direct system of magmas, that of a direct system of monoids or groups can be formulated. Proposition 1 shows that the magma E which is the limit of a direct system of monoids $(E_\alpha, f_{\beta\alpha})_{\alpha, \beta \in I}$ is a monoid. We show that E is a group if the $E_\alpha$ are groups: let $x \in E, \alpha \in I$ and $x_\alpha \in E_\alpha$ be such that $x = f_\alpha(x_\alpha)$; the element $y = f_\alpha(x_\alpha^{-1})$ of E is the inverse of x (§ 2, no. 3). The universal property of Proposition 2 goes over immediately in the case of a direct system of monoids or groups.
 
 The reader is left to define a direct system of rings. Let $(A_\alpha, f_{\beta\alpha})$ be such a direct system; let $A = \lim \overrightarrow{A_\alpha}$ and $f_\alpha : A_\alpha \to A$ the canonical homomorphisms. There exists (Proposition 2) on A one and only one addition and multiplication characterized by $x + y = f_\alpha(x_\alpha + y_\alpha), xy = f_\alpha(x_\alpha y_\alpha)$ for $\alpha \in I, x_\alpha, y_\alpha$ in $A_\alpha$ and $x = f_\alpha(x_\alpha), y = f_\alpha(y_\alpha)$. Under addition A is a commutative group and multiplication is associative and unital. Finally, for $x, y, z$ in A, choose $\alpha$ in I and $x_\alpha, y_\alpha$ and $z_\alpha$ in $A_\alpha$ with
 $$

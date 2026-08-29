@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: 1f5a11246817b1049347e874ac40eff9cdd1c9272e29d5de4d941f672862efa6
+content_sha256: 4a7eb7edeaedbf7cecde573e26a8fb9c56239ed2e562523d47fdf93c6bb09fe8
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -129,7 +129,7 @@ $$
 
 où $\varphi$ est l’application $h \mapsto (g, h)$ et où $\psi$ est l’application $(h', h) \mapsto h'h$. On a $\gamma(g) = \psi \circ \varphi$, donc $\gamma(g)*t = \psi_*(\varphi_*(t))$. Or $\varphi_*(t) = \varepsilon_g \otimes t$, donc $\psi_*(\varphi_*(t)) = \varepsilon_g * t$. On raisonne de même pour $\delta(g)*t$. Enfin, $\mathrm{Int}\, g = \gamma(g) \circ \delta(g)$, donc $(\mathrm{Int}\, g)_* = \gamma(g)_* \circ \delta(g)_*$.
 
-On voit donc que, pour $t \in T(G)$, $\varepsilon_g * t$ et $t * \varepsilon_g$ sont égaux à $gt$ et $tg$ calculés dans le groupe $T(G)$ (\S 2, n° 2). On prendra garde que, pour $t, t'$ dans $T(G)$, le produit $tt'$ au sens du \S 2 est en général distinct de $t * t'$.
+On voit donc que, pour $t \in T(G)$, $\varepsilon_g * t$ et $t * \varepsilon_g$ sont égaux à $gt$ et $tg$ calculés dans le groupe $T(G)$ (§ 2, n° 2). On prendra garde que, pour $t, t'$ dans $T(G)$, le produit $tt'$ au sens du § 2 est en général distinct de $t * t'$.
 
 #### Définition 2 {#lie-iii-s3-def-2 .statement}
 
@@ -193,7 +193,7 @@ $$
 \end{array}
 $$
 
-est commutatif. Or $T(m) : L \times L \to L$ transforme $(x, y)$ en $x + y$ (\S 2, n° 1, prop. 2 (ii)). D’après A, IV, § 5, n° 6, prop. 7, n^{elle} édition, $\mathrm{TS}(T(m)) \circ q$ est donc la multiplication de l’algèbre $\mathrm{TS}(L)$.
+est commutatif. Or $T(m) : L \times L \to L$ transforme $(x, y)$ en $x + y$ (§ 2, n° 1, prop. 2 (ii)). D’après A, IV, § 5, n° 6, prop. 7, n^{elle} édition, $\mathrm{TS}(T(m)) \circ q$ est donc la multiplication de l’algèbre $\mathrm{TS}(L)$.
 
 ### 2. Propriétés fonctorielles
 
@@ -219,7 +219,7 @@ $$
 
 Les groupes de Lie G et $G^\vee$ ont la même variété sous-jacente, donc les espaces vectoriels $\mathcal{T}^{(\infty)}(G)$ et $\mathcal{T}^{(\infty)}(G^\vee)$ sont les mêmes. Soit $\theta$ l’application $g \mapsto g^{-1}$, qui est un isomorphisme du groupe de Lie G sur le groupe de Lie $G^\vee$. Alors $\theta_*$ est un automorphisme de l’espace vectoriel $\mathcal{T}^{(\infty)}(G)$, automorphisme qu’on note $t \mapsto t^\vee$. On a $(\varepsilon_g)^\vee = \varepsilon_{g^{-1}}$. Si $t \in T_e(G)$, on a
 $$
-t^\vee = -t \quad (\S 2, \text{prop. } 2).
+t^\vee = -t \quad (§ 2, \text{prop. } 2).
 $$
 
 #### Exemple {#lie-iii-s3-n2-exa-1 .statement}
@@ -230,7 +230,7 @@ Supposons que G soit le groupe de Lie défini par un espace normable complet E. 
 
 *Soit G un groupe de Lie. Soient t, t' dans $\mathcal{T}^{(\infty)}(G)$.*
 (i) *Le produit t \* t' calculé relativement à $G^\vee$ est égal au produit t' \* t calculé relativement à G.*
-(ii) *On a $(t * t')^\vee = t'^\vee * t^\vee$.*
+(ii) *On a $(t * t')^\vee = {t'}^\vee * t^\vee$.*
 Considérons le diagramme
 
 $$
@@ -297,13 +297,13 @@ Soit $G$ un groupe de Lie.
 (i) La cogèbre $\mathcal{T}^{(\infty)}(G)$, munie de la convolution, est une bigèbre (A, III, p. 149).
 
 (ii) Soit c le coproduit dans $\mathcal{T}^{(\infty)}(G)$. Soit $t \in \mathcal{T}^{(\infty)}(G)$, et posons $c(t) = \sum_{i=1}^n t_i \otimes t'_i$.
-Alors $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_i'^\vee$.
+Alors $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
 
 Prouvons (i). Dans la définition citée des bigèbres, la condition 1° résulte des prop. 2 et 3, la condition 2° résulte de VAR, R, 13.5.1. Soit d l’application $g \mapsto (g, g)$ de G dans $G \times G$. On a $c = d_*$, donc c est un morphisme d’algèbres (prop. 6 et 9), ce qui est la condition 3°. Soient $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$, sans termes constants et $\lambda, \lambda'$ dans K; alors $\varepsilon_g \otimes tt', t \otimes \varepsilon_{g'}, t \otimes t'$ sont sans termes constants (VAR, R, 13.4.1), donc le terme constant de $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ est $\lambda \lambda'$; donc la condition 4° est vérifiée.
 
 Prouvons (ii). D’après les prop. 8 et 9, on a
 $$
-c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_i^\vee \otimes t_i'^\vee.
+c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee.
 $$
 
 #### Proposition 12 {#lie-iii-s3-prop-12 .statement}
@@ -421,7 +421,7 @@ $$
 En effet, pour tout $x \in X$, on a
 $$
 \langle \varepsilon_x, (t * t') * f \rangle = \langle ((t * t')^\vee * \varepsilon_x, f \rangle \quad \text{d'après (5)} \\
-= \langle t'^\vee * (t^\vee * \varepsilon_x), f \rangle \quad \text{(prop. 2 et 7)} \\
+= \langle {t'}^\vee * (t^\vee * \varepsilon_x), f \rangle \quad \text{(prop. 2 et 7)} \\
 = \langle t^\vee * \varepsilon_x, t' * f \rangle \quad \text{(prop. 17)} \\
 = \langle \varepsilon_x, t * (t' * f) \rangle \quad \text{(prop. 17).}
 $$
@@ -480,9 +480,9 @@ En effet, pour tout x \in X, on a
 
 $$
 \begin{align*}
-\langle \varepsilon_x, (t * f) * t' \rangle &= \langle \varepsilon_x * t'^\nu, t * f \rangle &\text{d'après (8)} \\
-&= \langle t'^\nu * (\varepsilon_x * t'^\nu), f \rangle &\text{(prop. 17)} \\
-&= \langle t'^\nu * \varepsilon_x, f * t' \rangle &\text{(prop. 2, et (11))} \\
+\langle \varepsilon_x, (t * f) * t' \rangle &= \langle \varepsilon_x * {t'}^\nu, t * f \rangle &\text{d'après (8)} \\
+&= \langle {t'}^\nu * (\varepsilon_x * {t'}^\nu), f \rangle &\text{(prop. 17)} \\
+&= \langle {t'}^\nu * \varepsilon_x, f * t' \rangle &\text{(prop. 2, et (11))} \\
 &= \langle \varepsilon_x, t * (f * t') \rangle &\text{d'après (5).}
 \end{align*}
 $$
@@ -575,7 +575,7 @@ $$\Delta_{gg'} = \gamma(g)_*\Delta_{g'} \quad \text{pour } g, g' \text{ dans } G
 ou encore si
 $$\Delta_{gg'} = \varepsilon_g * \Delta_{g'} \quad \text{pour } g, g' \text{ dans } G.$$
 Il est invariant à droite si
-$$\Delta_{gg'} = \delta(g'^{-1})_*\Delta_g \quad \text{pour } g, g' \text{ dans } G,$$
+$$\Delta_{gg'} = \delta({g'}^{-1})_*\Delta_g \quad \text{pour } g, g' \text{ dans } G,$$
 ou encore si
 $$\Delta_{gg'} = \Delta_g * \varepsilon_{g'} \quad \text{pour } g, g' \text{ dans } G.$$
 
@@ -597,8 +597,8 @@ Autrement dit, $L_t$ (resp. $R_t$) est le champ de distributions défini par $t$
 
 Dans $G$, toute translation à droite commute à toute translation à gauche. D’après la prop. 21 du n° 5, $L_t$ est donc invariant à gauche. Comme $(L_t)_e = t$, l’application $t \mapsto L_t$ est injective. Soit $\Delta$ un champ de distributions invariant à gauche sur $G$; soit $t = \Delta_e$; alors $\Delta$ et $L_t$ ont même valeur en $e$ et sont invariants à gauche, donc $\Delta = L_t$. Ceci prouve (i) pour $L_t$ et on raisonne de même pour $R_t$. Les formules $L_{t*t'} = L_t \circ L_{t'}, \ R_{t*t'} = R_{t'} \circ R_t$ résultent de (21) et (18). Soient $t \in U_s(G), \ t' \in U_{s'}(G), f \in \mathcal{C}^r(\Omega, F)$, où $\Omega$ est ouvert dans $G$ et où $s + s' \leq r$; on a
 $$
-L_t R_{t'} f = L_t (t'^\nu * f) = (t'^\nu * f) * t^\nu \\
-= t'^\nu * (f * t^\nu) \tag{prop. 20} \\
+L_t R_{t'} f = L_t ({t'}^\nu * f) = ({t'}^\nu * f) * t^\nu \\
+= {t'}^\nu * (f * t^\nu) \tag{prop. 20} \\
 = R_{t'} L_t f
 $$
 donc $L_t \circ R_{t'} = R_{t'} \circ L_t$. Comme $\theta$ est un isomorphisme de $G$ sur $G^\nu$, $\theta(L_t)$ est un champ de distributions invariant à droite sur $G$; sa valeur en $e$ est $\theta^*(t) = t^\nu$; donc $\theta(L_t) = R_{t^\nu}$. Enfin, on a
@@ -702,7 +702,7 @@ En particulier, chaque champ de vecteurs $D_a$ est de classe $C^{r-1}$.
 
 #### Remarque {#lie-iii-s3-n7-rem-1 .statement}
 
-Soient $X$ une variété de classe $C^r$, $g$ une algèbre de Lie de dimension finie, $a \mapsto D_a$ une application linéaire de $g$ dans l’espace vectoriel des champs de vecteurs de classe $C^{r-1}$ sur $X$. Alors la condition $a)$ de la déf. 7 est vérifiée. En effet, en considérant une base de $g$ et en appliquant VAR, R, 7.7.1, on se ramène au cas où $\dim g = 1$, et notre assertion est alors évidente.
+Soient $X$ une variété de classe $C^r$, $g$ une algèbre de Lie de dimension finie, $a \mapsto D_a$ une application linéaire de $g$ dans l’espace vectoriel des champs de vecteurs de classe $C^{r-1}$ sur $X$. Alors la condition a) de la déf. 7 est vérifiée. En effet, en considérant une base de $g$ et en appliquant VAR, R, 7.7.1, on se ramène au cas où $\dim g = 1$, et notre assertion est alors évidente.
 
 #### Proposition 27 {#lie-iii-s3-prop-27 .statement}
 
@@ -794,7 +794,7 @@ Soient G un groupe de Lie de dimension finie à base dénombrable, H et H' des s
 
 (ii) Supposons tout élément de H permutable à tout élément de H'. Alors HH' est un sous-groupe de Lie de G. Soit φ l’application (h, h') ↦ hh' de H × H' sur HH'. Le noyau de φ est l’ensemble des (m, m^{-1}) où m ∈ H ∩ H', et le morphisme de (H × H')/Ker φ sur HH' déduit de φ par passage au quotient est un isomorphisme de groupes de Lie.
 
-Faisons opérer $H \times H'$ à gauche dans $G$ par l’application $((h, h'), g) \mapsto hgh'^{-1}$. L’application orbitale $\rho$ de $e$ est $(h, h') \mapsto hh'^{-1}$. D’après la prop. 14 (iii) du § 1, n° 7, $HH'$ est une sous-variété de $G$, et $T_e(HH') = \operatorname{Im} T_e(\rho)$. Or
+Faisons opérer $H \times H'$ à gauche dans $G$ par l’application $((h, h'), g) \mapsto hg{h'}^{-1}$. L’application orbitale $\rho$ de $e$ est $(h, h') \mapsto h{h'}^{-1}$. D’après la prop. 14 (iii) du § 1, n° 7, $HH'$ est une sous-variété de $G$, et $T_e(HH') = \operatorname{Im} T_e(\rho)$. Or
 $$
 T_e(\rho)(L(H) \times \{0\}) = L(H) \text{ et } T_e(\rho)(\{0\} \times L(H')) = L(H')
 $$
@@ -912,7 +912,7 @@ $$
 f(1 + y) \in 1 + y + y^i + o(\|y\|) \quad \text{pour } y \text{ tendant vers } 0.
 $$
 
-Ainsi, $T_1(f)(y) = y + y^i$, de sorte que $f$ est une submersion en 1. Par suite, il existe un voisinage ouvert U de 1 dans A tel que $U \cap G$ soit une sous-variété de U. Donc (\S 1, n° 3, prop. 6), G est un sous-groupe de Lie de $A^*$. En outre, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
+Ainsi, $T_1(f)(y) = y + y^i$, de sorte que $f$ est une submersion en 1. Par suite, il existe un voisinage ouvert U de 1 dans A tel que $U \cap G$ soit une sous-variété de U. Donc (§ 1, n° 3, prop. 6), G est un sous-groupe de Lie de $A^*$. En outre, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
 
 #### Corollaire 1 {#lie-iii-s3-prop-37-cor-1 .statement}
 
@@ -944,7 +944,7 @@ Lorsque $E \neq \{0\}$, U n’est *pas* un sous-groupe de Lie du groupe de Lie c
 
 ### 11. Représentations linéaires
 
-Soient G un groupe de Lie, E un espace normable complet, π une représentation linéaire analytique de G dans E (\S 1, n° 2). Le morphisme associé $t \mapsto \langle t, \pi \rangle$ de $\mathcal{T}^{(\infty)}(G)$ dans $\mathcal{L}(E)$ est un morphisme d’algèbres (n° 9, prop. 33), et sa restriction à $L(G)$ est $L(\pi)$. Donc $L(\pi)$ est une représentation de $L(G)$ dans E (chap. I, \S 3, déf. 1).
+Soient G un groupe de Lie, E un espace normable complet, π une représentation linéaire analytique de G dans E (§ 1, n° 2). Le morphisme associé $t \mapsto \langle t, \pi \rangle$ de $\mathcal{T}^{(\infty)}(G)$ dans $\mathcal{L}(E)$ est un morphisme d’algèbres (n° 9, prop. 33), et sa restriction à $L(G)$ est $L(\pi)$. Donc $L(\pi)$ est une représentation de $L(G)$ dans E (chap. I, § 3, déf. 1).
 
 #### Proposition 38 {#lie-iii-s3-prop-38 .statement}
 
@@ -1136,9 +1136,9 @@ $$
 L(\pi)a.\xi_0 = -[D_a, \xi](x_0).
 $$
 
-On a $\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$), donc $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). D’autre part, puisque TX est un G-fibré vectoriel de classe $C^\omega$ (\S 1, n° 8, prop. 16), $\pi$ est analytique, d’où (i).
+On a $\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$), donc $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). D’autre part, puisque TX est un G-fibré vectoriel de classe $C^\omega$ (§ 1, n° 8, prop. 16), $\pi$ est analytique, d’où (i).
 
-Pour prouver (ii), supposons que G opère à gauche. Il existe un voisinage ouvert I de 0 dans K et une application analytique $\gamma$ de I dans G tels que $\gamma(0) = e$, $T_0(\gamma)1 = a$. Alors $D_a$ est le champ de vecteurs sur X défini par l’application $\varphi : (\lambda, x) \mapsto \gamma(\lambda)x$ de $I \times X$ dans X (\S 2, n° 2). Si l’on note $\varphi_\lambda$ la bijection $x \mapsto \gamma(\lambda)x$ de X dans X, on a
+Pour prouver (ii), supposons que G opère à gauche. Il existe un voisinage ouvert I de 0 dans K et une application analytique $\gamma$ de I dans G tels que $\gamma(0) = e$, $T_0(\gamma)1 = a$. Alors $D_a$ est le champ de vecteurs sur X défini par l’application $\varphi : (\lambda, x) \mapsto \gamma(\lambda)x$ de $I \times X$ dans X (§ 2, n° 2). Si l’on note $\varphi_\lambda$ la bijection $x \mapsto \gamma(\lambda)x$ de X dans X, on a
 
 $$
 [D_a, \xi](x_0) = \left( \frac{d}{d\lambda} (T_{\varphi_\lambda(x_0)}(\varphi_\lambda^{-1})\xi(\varphi_\lambda(x_0))) \right)_{\lambda=0} \tag{VAR, R, 8.4.5}
@@ -1190,13 +1190,13 @@ quels que soient $t, t'$ dans $\mathcal{T}^{(\infty)}(G)$; cela résulte de la p
 
 *Soient $t, u$ dans $\mathcal{T}^{(\infty)}(G)$. Soit $\sum_{i=1}^n t_i \otimes t'_i$ l’image de $t$ par le coproduit.* Alors
 $$
-t \top u = \sum_{i=1}^n t_i * u * t_i'^\vee.
+t \top u = \sum_{i=1}^n t_i * u * t_{i'}^\vee.
 $$
 Par définition, $t \top u$ est l’image de $t \otimes u$ par l’application $(g, g') \mapsto gg'g^{-1}$ de $G \times G$ dans $G$. Or cette application s’obtient en composant les applications suivantes:
 $$
 \begin{align*}
 \alpha : (g, g') &\mapsto (g, g, g') & \text{de } G \times G \text{ dans } G \times G \times G \\
-\beta : (g, g', g'') &\mapsto (g, g'^{-1}, g'') & \text{de } G \times G \times G \text{ dans } G \times G \times G \\
+\beta : (g, g', g'') &\mapsto (g, {g'}^{-1}, g'') & \text{de } G \times G \times G \text{ dans } G \times G \times G \\
 \gamma : (g, g', g'') &\mapsto gg''g' & \text{de } G \times G \times G \text{ dans } G.
 \end{align*}
 $$
@@ -1205,10 +1205,10 @@ $$
 \alpha_* (t \otimes u) = \sum_{i=1}^n (t_i \otimes t'_i) \otimes u = \sum_{i=1}^n t_i \otimes t'_i \otimes u
 $$
 $$
-\beta_* \left( \sum_{i=1}^n t_i \otimes t'_i \otimes u \right) = \sum_{i=1}^n t_i \otimes t_i'^\vee \otimes u
+\beta_* \left( \sum_{i=1}^n t_i \otimes t'_i \otimes u \right) = \sum_{i=1}^n t_i \otimes t_{i'}^\vee \otimes u
 $$
 $$
-\gamma_* \left( \sum_{i=1}^n t_i \otimes t_i'^\vee \otimes u \right) = \sum_{i=1}^n t_i * u * t_i'^\vee.
+\gamma_* \left( \sum_{i=1}^n t_i \otimes t_{i'}^\vee \otimes u \right) = \sum_{i=1}^n t_i * u * t_{i'}^\vee.
 $$
 
 #### Corollaire 1 {#lie-iii-s3-prop-43-cor-1 .statement}
@@ -1326,7 +1326,7 @@ Rappelons que $\mathrm{Ad}\, g = T_1(\mathrm{Int}\, g)$. Soit $u_g$ l’applicat
 
 ### 13. Tenseurs et formes invariantes
 
-Soit $G$ un groupe de Lie. Considérons $G$ comme opérant sur lui-même par translations à gauche (resp. à droite). Soit $\lambda$ un foncteur vectoriel de classe $C^\omega$ pour les isomorphismes. Alors $\lambda(TG)$ est un $G$-fibré vectoriel à gauche (resp. à droite) analytique ($\S 1$, n° 8, cor. de la prop. 16). L’application $(g, u) \mapsto gu$ (resp. $ug$) de $G \times \lambda(\mathbf{L}(G))$ sur $\lambda(TG)$ est un isomorphisme $\varphi$ (resp. $\psi$) de $G$-fibrés vectoriels ($\S 1$, n° 8, cor. 2 de la prop. 17). Toute section $G$-invariante de $\lambda(TG)$ est analytique, et déterminé par sa valeur en $e$ ($\S 1$, n° 8, cor. 1 de la prop. 17). Une telle section est dite *invariante à gauche* (resp. *à droite*). Soit $\sigma$ une section invariante-à-gauche de $\lambda(TG)$; la transformée $\sigma'$ de $\sigma$ par une translation à droite $\delta(g)$ est définie par $\sigma'(\delta(g)h) = \lambda(T_h(\delta(g)))\sigma(h)$ quel que soit $h \in G$; elle est encore invariante à gauche; elle se déduit aussi de $\sigma$ par $\gamma(g) \circ \delta(g) = \mathrm{Int}(g)$, donc
+Soit $G$ un groupe de Lie. Considérons $G$ comme opérant sur lui-même par translations à gauche (resp. à droite). Soit $\lambda$ un foncteur vectoriel de classe $C^\omega$ pour les isomorphismes. Alors $\lambda(TG)$ est un $G$-fibré vectoriel à gauche (resp. à droite) analytique ($§ 1$, n° 8, cor. de la prop. 16). L’application $(g, u) \mapsto gu$ (resp. $ug$) de $G \times \lambda(\mathbf{L}(G))$ sur $\lambda(TG)$ est un isomorphisme $\varphi$ (resp. $\psi$) de $G$-fibrés vectoriels ($§ 1$, n° 8, cor. 2 de la prop. 17). Toute section $G$-invariante de $\lambda(TG)$ est analytique, et déterminé par sa valeur en $e$ ($§ 1$, n° 8, cor. 1 de la prop. 17). Une telle section est dite *invariante à gauche* (resp. *à droite*). Soit $\sigma$ une section invariante-à-gauche de $\lambda(TG)$; la transformée $\sigma'$ de $\sigma$ par une translation à droite $\delta(g)$ est définie par $\sigma'(\delta(g)h) = \lambda(T_h(\delta(g)))\sigma(h)$ quel que soit $h \in G$; elle est encore invariante à gauche; elle se déduit aussi de $\sigma$ par $\gamma(g) \circ \delta(g) = \mathrm{Int}(g)$, donc
 
 $$
 \sigma'(e) = \lambda(\mathrm{Ad}\, g) \cdot \sigma(e).
@@ -1338,7 +1338,7 @@ $$
 \tau'(e) = \lambda(\mathrm{Ad}\, g) \cdot \tau(e).
 $$
 
-Considérons maintenant $G \times G$ comme opérant à gauche dans $G$ par $((g, g'), g'') \mapsto gg''g'^{-1}$. Alors $G$ est un espace homogène de Lie à gauche pour $G \times G$ ($\S 1$, n° 6, *Exemple*). Donc $\lambda(TG)$ est un $(G \times G)$-fibré vectoriel à gauche analytique. Une section de $\lambda(TG)$ est dite *biinvariante* si elle est invariante par l’action de $G \times G$ dans $\lambda(TG)$, autrement dit si elle est invariante par les translations à gauche et à droite. Soit $\lambda(\mathbf{L}(G))_0$ l’ensemble des éléments de $\lambda(\mathbf{L}(G))$ invariants par $\lambda(\mathrm{Ad}(G))$. Pour tout $u \in \lambda(\mathbf{L}(G))_0$, soit $\sigma_u$ l’application de $G$ dans $\lambda(TG)$ définie par $\sigma_u(g) = gu = ug$. Alors, $u \mapsto \sigma_u$ est une bijection de $\lambda(\mathbf{L}(G))_0$ sur l’ensemble des sections biinvariantes de $\lambda(TG)$ ($\S 1$, n° 8, cor. 1 de la prop. 17).
+Considérons maintenant $G \times G$ comme opérant à gauche dans $G$ par $((g, g'), g'') \mapsto gg''{g'}^{-1}$. Alors $G$ est un espace homogène de Lie à gauche pour $G \times G$ ($§ 1$, n° 6, *Exemple*). Donc $\lambda(TG)$ est un $(G \times G)$-fibré vectoriel à gauche analytique. Une section de $\lambda(TG)$ est dite *biinvariante* si elle est invariante par l’action de $G \times G$ dans $\lambda(TG)$, autrement dit si elle est invariante par les translations à gauche et à droite. Soit $\lambda(\mathbf{L}(G))_0$ l’ensemble des éléments de $\lambda(\mathbf{L}(G))$ invariants par $\lambda(\mathrm{Ad}(G))$. Pour tout $u \in \lambda(\mathbf{L}(G))_0$, soit $\sigma_u$ l’application de $G$ dans $\lambda(TG)$ définie par $\sigma_u(g) = gu = ug$. Alors, $u \mapsto \sigma_u$ est une bijection de $\lambda(\mathbf{L}(G))_0$ sur l’ensemble des sections biinvariantes de $\lambda(TG)$ ($§ 1$, n° 8, cor. 1 de la prop. 17).
 
 #### Proposition 50 {#lie-iii-s3-prop-50 .statement}
 
@@ -1710,7 +1710,7 @@ Dans ce n°, on désigne par (G, e, θ, m) un groupuscule de Lie. Une grande par
 
 18.1 Soit $\Omega$ l’ensemble de définition de $m$. Soient $(g, g') \in \Omega,\ t \in T_g^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. Comme au n° 1, on appelle produit de convolution de $t$ et $t'$, et on note $t * t'$, l’image de $t \otimes t'$ par $m$. On pose $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. Pour $t, t'$ dans $U(G)$, $t * t'$ est défini et appartient à $U(G)$. Pour le produit de convolution, $U(G)$ est une algèbre associative, avec l’élément unité $\varepsilon_e$, filtrée par les $U_s(G)$. L’isomorphisme canonique $i_{G,e}$ de gr $U(G)$ sur $TS(T_e(G))$ est un isomorphisme d’algèbres.
 
-18.2. Soient $G, H$ des groupuscules de Lie, $\varphi : G \to H$ un morphisme. Si $t \in U(G)$, l’image $U(\varphi)(t)$ de $t$ par $\varphi_*$ est un élément de $U(H)$, et $U(\varphi)$ est un morphisme de l’algèbre $U(G)$ dans l’algèbre $U(H)$. L’application $\theta : x \mapsto x^{-1}$ de $G$ dans $G$ définit une application $t \mapsto t^\vee$ de $U(G)$ dans $U(G)$. Pour $t, t'$ dans $U(G)$, le produit $t * t'$ calculé relativement à $G^\vee$ est égal au produit $t' * t$ calculé relativement à $G$, et $(t * t')^\vee = t'^\vee * t^\vee$. On a $U(\varphi)(t^\vee) = (U(\varphi)t)^\vee$. Si $G_1, \ldots, G_n$ sont des groupuscules de Lie, et $G = G_1 \times \cdots \times G_n$, l’isomorphisme canonique de $U(G_1) \otimes \cdots \otimes U(G_n)$ sur $U(G)$ est un isomorphisme d’algèbres; pour $t_1, \ldots, t_n$ dans $U(G)$, on a $(t_1 \otimes \cdots \otimes t_n)^\vee = t_1^\vee \otimes \cdots \otimes t_n^\vee$. Soient $L$ un sous-groupuscule de Lie de $G$, et $i : L \to G$ l’injection canonique. Alors $U(i)$ est un homomorphisme injectif de l’algèbre $U(H)$ dans l’algèbre $U(G)$, et $U(i)(t^\vee) = (U(i)(t))^\vee$ pour tout $t \in U(H)$. Munie du produit de convolution et du coproduit que définit la structure de variété de $G$, $U(G)$ est une bigèbre, et $U(\varphi)$ est un morphisme de bigèbres.
+18.2. Soient $G, H$ des groupuscules de Lie, $\varphi : G \to H$ un morphisme. Si $t \in U(G)$, l’image $U(\varphi)(t)$ de $t$ par $\varphi_*$ est un élément de $U(H)$, et $U(\varphi)$ est un morphisme de l’algèbre $U(G)$ dans l’algèbre $U(H)$. L’application $\theta : x \mapsto x^{-1}$ de $G$ dans $G$ définit une application $t \mapsto t^\vee$ de $U(G)$ dans $U(G)$. Pour $t, t'$ dans $U(G)$, le produit $t * t'$ calculé relativement à $G^\vee$ est égal au produit $t' * t$ calculé relativement à $G$, et $(t * t')^\vee = {t'}^\vee * t^\vee$. On a $U(\varphi)(t^\vee) = (U(\varphi)t)^\vee$. Si $G_1, \ldots, G_n$ sont des groupuscules de Lie, et $G = G_1 \times \cdots \times G_n$, l’isomorphisme canonique de $U(G_1) \otimes \cdots \otimes U(G_n)$ sur $U(G)$ est un isomorphisme d’algèbres; pour $t_1, \ldots, t_n$ dans $U(G)$, on a $(t_1 \otimes \cdots \otimes t_n)^\vee = t_1^\vee \otimes \cdots \otimes t_n^\vee$. Soient $L$ un sous-groupuscule de Lie de $G$, et $i : L \to G$ l’injection canonique. Alors $U(i)$ est un homomorphisme injectif de l’algèbre $U(H)$ dans l’algèbre $U(G)$, et $U(i)(t^\vee) = (U(i)(t))^\vee$ pour tout $t \in U(H)$. Munie du produit de convolution et du coproduit que définit la structure de variété de $G$, $U(G)$ est une bigèbre, et $U(\varphi)$ est un morphisme de bigèbres.
 
 18.3. Soient $G$ un groupuscule de Lie, $X$ une variété de classe $C^r$, et $\psi$ un morceau de loi d’opération à gauche de classe $C^r$ de $G$ dans $X$. Soit $\Omega$ l’ensemble de définition de $\psi$. Si $t \in T_g^{(s)}(G),\ u \in T_x^{(s')}(X)$, si $(g, x) \in \Omega$ et si $s + s' \leq r$, on note $t * u$ l’image de $t \otimes u$ par $\psi_*$. Soient $t \in T_g^{(s)}(G),\ t' \in T_{g'}^{(s')}(G),\ u \in T_x^{(s'')}(X)$; si $s + s' + s'' \leq r$, et si $gg',\ (gg')x, g'x, g(g'x)$ sont définis, alors
 $$

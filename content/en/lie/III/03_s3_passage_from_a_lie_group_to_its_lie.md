@@ -7,84 +7,85 @@ section: 3
 section_title: Passage from a Lie group to its Lie algebra
 lang: en
 source: lie-i-iii
+book_pages: 238-279, 372-376
 pdf_pages: 0256-0297, 0390-0394
 extraction: ocr
 subsections:
     - "no": 1
       title: CONVOLUTION OF POINT DISTRIBUTIONS ON A LIE GROUP
-      page: 0
+      page: 238
       pdf_page: 256
     - "no": 2
       title: FUNCTIORAL PROPERTIES
-      page: 0
+      page: 241
       pdf_page: 259
     - "no": 3
       title: CASE OF A GROUP OPERATING ON A MANIFOLD
-      page: 0
+      page: 244
       pdf_page: 262
     - "no": 4
       title: CONVOLUTION OF POINT DISTRIBUTIONS AND FUNCTIONS
-      page: 0
+      page: 245
       pdf_page: 263
     - "no": 5
       title: FIELDS OF POINT DISTRIBUTIONS DEFINED BY THE ACTION OF A GROUP ON A MANIFOLD
-      page: 0
+      page: 248
       pdf_page: 266
     - "no": 6
       title: INVARIANT FIELDS OF POINT DISTRIBUTIONS ON A LIE GROUP
-      page: 0
+      page: 249
       pdf_page: 267
     - "no": 7
       title: LIE ALGEBRA OF A LIE GROUP
-      page: 0
+      page: 251
       pdf_page: 269
     - "no": 8
       title: FUNCTIORIAL PROPERTIES OF THE LIE ALGEBRA
-      page: 0
+      page: 254
       pdf_page: 272
     - "no": 9
       title: LIE ALGEBRA OF THE GROUP OF INVERTIBLE ELEMENTS OF AN ALGEBRA
-      page: 0
+      page: 257
       pdf_page: 275
     - "no": 10
       title: LIE ALGEBRAS OF CERTAIN LINEAR GROUPS
-      page: 0
+      page: 258
       pdf_page: 276
     - "no": 11
       title: LINEAR REPRESENTATIONS
-      page: 0
+      page: 259
       pdf_page: 277
     - "no": 12
       title: ADJOINT REPRESENTATION
-      page: 0
+      page: 264
       pdf_page: 282
     - "no": 13
       title: TENSORS AND INVARIANT FORMS
-      page: 0
+      page: 268
       pdf_page: 286
     - "no": 14
       title: MAURER–CARTAN FORMULAE
-      page: 0
+      page: 269
       pdf_page: 287
     - "no": 15
       title: CONSTRUCTION OF INVARIANT DIFFERENTIAL FORMS
-      page: 0
+      page: 271
       pdf_page: 289
     - "no": 16
       title: HAAR MEASURE ON A LIE GROUP
-      page: 0
+      page: 271
       pdf_page: 289
     - "no": 17
       title: LEFT DIFFERENTIAL
-      page: 0
+      page: 274
       pdf_page: 292
     - "no": 18
       title: LIE ALGEBRA OF A LIE GROUP GERM
-      page: 0
+      page: 276
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: e090b39b6829a3b5aab768859eec4c860b0bcb114797109d764f3c993c7b88da
+content_sha256: 5762aa9c03ccb6cefa82b2dc514fd62774faa93aeda563194756642698c12f55
 ---
 
 ## § 3. PASSAGE FROM A LIE GROUP TO ITS LIE ALGEBRA
@@ -129,7 +130,7 @@ If t \in \mathcal{T}^{(\infty)}(G) and g \in G, then $\gamma(g)_* t = \varepsilo
 Consider the diagram
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 G & \xrightarrow{\phi} & G \times G & \xrightarrow{\psi} & G \\
 \end{array}
 $$
@@ -142,7 +143,7 @@ $$
 
 and hence $(\operatorname{Int} g)_* = \gamma(g)_* \circ \delta(g)_*$.
 
-It is therefore seen that, for $t \in T(G)$, $\varepsilon_g * t$ and $t * \varepsilon_g$ are equal to $gt$ and $tg$ calculated in the group T(G) (\S 2, no. 2). But it should be noted that, for $t, t'$ in T(G), the product $tt'$ in the sense of \S 2 is in general different from $t * t'$.
+It is therefore seen that, for $t \in T(G)$, $\varepsilon_g * t$ and $t * \varepsilon_g$ are equal to $gt$ and $tg$ calculated in the group T(G) (§ 2, no. 2). But it should be noted that, for $t, t'$ in T(G), the product $tt'$ in the sense of § 2 is in general different from $t * t'$.
 
 #### Definition 2 {#lie-iii-s3-def-2 .statement}
 
@@ -196,7 +197,7 @@ $$
 \mathrm{TS}(L) \times \mathrm{TS}(L) & \xrightarrow{\mathrm{TS}(T(m)) \circ q} & \mathrm{TS}(L)
 \end{array}
 $$
-is commutative. Now $T(m): L \times L \to L$ maps $(x, y)$ to $x + y$ (\S 2, no. 1, Proposition 2 (ii)). By *Algebra*, Chapter IV, \S 5, no. 6, Proposition 7, $\mathrm{TS}(T(m)) \circ q$ is therefore the multiplication of the algebra $\mathrm{TS}(L)$.
+is commutative. Now $T(m): L \times L \to L$ maps $(x, y)$ to $x + y$ (§ 2, no. 1, Proposition 2 (ii)). By *Algebra*, Chapter IV, § 5, no. 6, Proposition 7, $\mathrm{TS}(T(m)) \circ q$ is therefore the multiplication of the algebra $\mathrm{TS}(L)$.
 
 ### 2. FUNCTIORAL PROPERTIES
 
@@ -222,7 +223,7 @@ $$
 
 The Lie groups $G$ and $G^\vee$ have the same underlying manifold and hence the vector spaces $\mathcal{T}^{(\infty)}(G)$ and $\mathcal{T}^{(\infty)}(G^\vee)$ are the same. Let $\theta$ be the mapping $g \mapsto g^{-1}$, which is an isomorphism of the Lie group $G$ onto the Lie group $G^\vee$. Then $\theta^*$ is an automorphism of the vector space $\mathcal{T}^{(\infty)}(G)$, which automorphism we denote by $t \mapsto t^\vee$. Then $(\varepsilon_g)^\vee = \varepsilon_{g^{-1}}$. If $t \in T_e(G)$, then
 $$
-t^\vee = -t \quad (\S 2, \text{Proposition 2}).
+t^\vee = -t \quad (§ 2, \text{Proposition 2}).
 $$
 
 #### Example {#lie-iii-s3-n2-exa-1 .statement}
@@ -235,7 +236,7 @@ Let G be a Lie group. Let t, t' be in $\mathcal{T}^{(\infty)}(G)$.
 
 (i) The product $t * t'$ calculated relative to $G^\vee$ is equal to the product $t' * t$ calculated relative to G.
 
-(ii) $(t * t')^\vee = t'^\vee * t^\vee$.
+(ii) $(t * t')^\vee = {t'}^\vee * t^\vee$.
 
 Consider the diagram
 
@@ -319,13 +320,13 @@ Let G be a Lie group.
 $$
 c(t) = \sum_{i=1}^n t_i \otimes t_i'.
 $$
-Then $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_i'^\vee$.
+Then $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
 
 We prove (i). In the definition of bigebra referred to, condition (1) follows from Propositions 2 and 3 and condition (2) follows from Differentiable and Analytic Manifolds, R, 13.5.1. Let d be the mapping $g \mapsto (g, g)$ of G into $G \times G$. Then $c = d_*$ and hence c is an algebra morphism (Propositions 6 and 9), which is condition (3). Let $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$ have no constant term and $\lambda, \lambda'$ be elements of K; then $\varepsilon_g \otimes t', t \otimes \varepsilon_{g'}, t \otimes t'$ are without constant term (Differentiable and Analytic Manifolds, R, 13.4.1) and hence the constant term of $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ is $\lambda \lambda'$; hence condition (4) holds.
 
 We prove (ii). By Propositions 8 and 9,
 $$
-c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_i'^\vee \otimes t_i'^\vee.
+c(t^\vee) = d_*(t^\vee) = (d_*(t))^\vee = \left( \sum_{i=1}^n t_i \otimes t_i' \right)^\vee = \sum_{i=1}^n t_{i'}^\vee \otimes t_{i'}^\vee.
 $$
 
 #### Proposition 12 {#lie-iii-s3-prop-12 .statement}
@@ -454,7 +455,7 @@ For all $x \in X$,
 $$
 \begin{align*}
 \langle \varepsilon_x, (t * t') * f \rangle &= \langle ((t * t')^\vee * \varepsilon_x), f \rangle \quad \text{by (5)} \\
-&= \langle t'^\vee * (t^\vee * \varepsilon_x), f \rangle \quad (\text{Propositions 2 and 7}) \\
+&= \langle {t'}^\vee * (t^\vee * \varepsilon_x), f \rangle \quad (\text{Propositions 2 and 7}) \\
 &= \langle t^\vee * \varepsilon_x, t' * f \rangle \quad (\text{Proposition 17}) \\
 &= \langle \varepsilon_x, t * (t' * f) \rangle \quad (\text{Proposition 17}).
 \end{align*}
@@ -476,7 +477,7 @@ Let $x \in X$ and let $\rho(x)$ denote the orbital mapping of $x$. Then
 $$
 \langle \varepsilon_x, t * (ff') \rangle = \langle t^\vee, (ff') \circ \rho(x) \rangle \quad \text{by (4)} \\
 = \langle t^\vee, (f \circ \rho(x))(f' \circ \rho(x)) \rangle \\
-= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_i'^\vee, f' \circ \rho(x) \rangle \tag{Diff. \& Man. Anal., R, 13.5.2} \\
+= \sum_{i=1}^n \langle t_i^\vee, f \circ \rho(x) \rangle \langle t_{i'}^\vee, f' \circ \rho(x) \rangle \tag{Diff. \& Man. Anal., R, 13.5.2} \\
 = \sum_{i=1}^n \langle \varepsilon_x, t_i * f \rangle \langle \varepsilon_x, t_i' * f' \rangle \quad \text{by (4).}
 $$
 
@@ -516,8 +517,8 @@ $$
 $$
 For all $x \in X$,
 $$
-\langle \varepsilon_x, (t * f) * t' \rangle = \langle \varepsilon_x * t'^\vee, t * f \rangle \quad \text{by (8)} \\
-= \langle t^\vee * (\varepsilon_x * t'^\vee), f \rangle \quad \text{(Proposition 17)} \\
+\langle \varepsilon_x, (t * f) * t' \rangle = \langle \varepsilon_x * {t'}^\vee, t * f \rangle \quad \text{by (8)} \\
+= \langle t^\vee * (\varepsilon_x * {t'}^\vee), f \rangle \quad \text{(Proposition 17)} \\
 = \langle t^\vee * \varepsilon_x, f * t' \rangle \quad \text{(Proposition 2 and (11))} \\
 = \langle \varepsilon_x, t * (f * t') \rangle \quad \text{by (5).}
 $$
@@ -616,7 +617,7 @@ $$
 for $g, g'$ in $G$.
 It is right invariant if
 $$
-\Delta_{gg'} = \delta(g'^{-1}) * \Delta_g
+\Delta_{gg'} = \delta({g'}^{-1}) * \Delta_g
 $$
 for $g, g'$ in $G$,
 or again if:
@@ -645,8 +646,8 @@ $$
 In $G$ every right translation commutes with every left translation. By Proposition 21 of no. 5, $L_t$ is therefore left invariant. As $(L_t)_e = t$, the mapping $t \mapsto L_t$ is injective. Let $\Delta$ be a field of left invariant distributions on $G$; let $t = \Delta_e$; then $\Delta$ and $L_t$ have the same value at $e$ and are left invariant and hence $\Delta = L_t$. This proves (i) for $L_t$ and the argument is similar for $R_t$. The formulae $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$ follow from (21) and (18). Let $t \in U_s(G)$, $t' \in U_{s'}(G)$, $f \in C^r(\Omega, F)$, where $\Omega$ is open in $G$ and $s + s' \leq r$; then
 $$
 \begin{align*}
-L_t R_{t'} f &= L_t (t'^\vee * f) = (t'^\vee * f) * t \\
-&= t'^\vee * (f * t^\vee) \tag{Proposition 20} \\
+L_t R_{t'} f &= L_t ({t'}^\vee * f) = ({t'}^\vee * f) * t \\
+&= {t'}^\vee * (f * t^\vee) \tag{Proposition 20} \\
 &= R_{t'} L_t f
 \end{align*}
 $$
@@ -665,11 +666,11 @@ Suppose that G is finite-dimensional. The mapping
 
 $$(t, g) \mapsto (\mathbf{R}_t)_g = t * \varepsilon_g$$
 
-of $U_s(G) \times G$ into $T^{(s)}(G)$ is an isomorphism of analytic vector bundles; for this mapping is bijective, linear on each fibre and analytic (no. 5); on the other hand, let $\phi : T^{(s)}(G) \to U_s(G) \times G$ be the inverse bijection; if $t \in T^{(s)}_g(G)$, then $\phi(t) = (t * \varepsilon_{g^{-1}}, g)$ and hence $\phi$ is analytic. The isomorphism $\phi$ is called the right trivialization of $T^{(s)}(G)$. Similarly, consider the mapping $(t, g) \mapsto (\mathbf{L}_t)_g = \varepsilon_g * t$ of $U_g(G) \times G$ into $T^{(s)}(G)$; the inverse isomorphism is called the left trivialization of $T^{(s)}(G)$. By restriction we recover the right and left trivializations of $T(G)$ (\S 2, no. 2).
+of $U_s(G) \times G$ into $T^{(s)}(G)$ is an isomorphism of analytic vector bundles; for this mapping is bijective, linear on each fibre and analytic (no. 5); on the other hand, let $\phi : T^{(s)}(G) \to U_s(G) \times G$ be the inverse bijection; if $t \in T^{(s)}_g(G)$, then $\phi(t) = (t * \varepsilon_{g^{-1}}, g)$ and hence $\phi$ is analytic. The isomorphism $\phi$ is called the right trivialization of $T^{(s)}(G)$. Similarly, consider the mapping $(t, g) \mapsto (\mathbf{L}_t)_g = \varepsilon_g * t$ of $U_g(G) \times G$ into $T^{(s)}(G)$; the inverse isomorphism is called the left trivialization of $T^{(s)}(G)$. By restriction we recover the right and left trivializations of $T(G)$ (§ 2, no. 2).
 
 ### 7. LIE ALGEBRA OF A LIE GROUP
 
-Let G be a Lie group. In $U(G)$, as in any associative algebra, we write $[t, t'] = t * t' - t' * t$. As $T_e(G)$ is the set of primitive elements of $U(G)$, $[T_e(G), T_e(G)] \subset T_e(G)$ (Chapter II, \S 1, no. 2, Proposition 4). The restriction of the bracket to $T_e(G)$ therefore defines on $T_e(G)$ a Lie algebra structure.
+Let G be a Lie group. In $U(G)$, as in any associative algebra, we write $[t, t'] = t * t' - t' * t$. As $T_e(G)$ is the set of primitive elements of $U(G)$, $[T_e(G), T_e(G)] \subset T_e(G)$ (Chapter II, § 1, no. 2, Proposition 4). The restriction of the bracket to $T_e(G)$ therefore defines on $T_e(G)$ a Lie algebra structure.
 
 #### Lemma 1 {#lie-iii-s3-lem-1 .statement}
 
@@ -866,7 +867,7 @@ H and H' Lie subgroups of G. Suppose that K is of characteristic 0 and that HH' 
 
 (ii) Suppose that every element of H commutes with every element of H'. Then HH' is a Lie subgroup of G. Let $\phi$ be the mapping $(h, h') \mapsto hh'$ of $H \times H'$ onto HH'. The kernel of $\phi$ is the set of $(m, m^{-1})$ where $m \in H \cap H'$ and the morphism of $(H \times H')/\mathrm{Ker}\ \phi$ onto HH' derived from $\phi$ by passing to the quotient is a Lie group isomorphism.
 
-Let $H \times H'$ operate on G on the right by the mapping $((h, h'), g) \mapsto hgh'^{-1}$. The orbital mapping $\rho$ of e is $(h, h') \mapsto hh'^{-1}$. By Proposition 14 (iii) of § 1, no. 7, HH' is a submanifold of G and $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Now
+Let $H \times H'$ operate on G on the right by the mapping $((h, h'), g) \mapsto hg{h'}^{-1}$. The orbital mapping $\rho$ of e is $(h, h') \mapsto h{h'}^{-1}$. By Proposition 14 (iii) of § 1, no. 7, HH' is a submanifold of G and $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Now
 
 $$
 T_e(\rho)(L(H) \times \{0\}) = L(H) \quad \text{and} \quad T_e(\rho)(\{0\} \times L(H')) = L(H')
@@ -900,7 +901,7 @@ and hence $T_g(\phi)$ is K-linear. The proposition then follows from Differentia
 
 ### 9. LIE ALGEBRA OF THE GROUP OF INVERTIBLE ELEMENTS OF AN ALGEBRA
 
-Let $A$ be a complete normable associative algebra with unit element $e$. Let $A^*$ be the group of invertible elements of $A$. We have seen (\$ 1, no. 1) that $A^*$ is an open submanifold of $A$ and is a Lie group. Let $G$ be a Lie group and $f$ a morphism of the Lie group $G$ into the Lie group $A^*$. $f$ can be considered as an analytic mapping of $G$ into the complete normable space $A$. Hence, if $t \in \mathcal{T}^{(\infty)}(G)$, we can form $\langle t, f \rangle$, which is an element of $A$.
+Let $A$ be a complete normable associative algebra with unit element $e$. Let $A^*$ be the group of invertible elements of $A$. We have seen (§ 1, no. 1) that $A^*$ is an open submanifold of $A$ and is a Lie group. Let $G$ be a Lie group and $f$ a morphism of the Lie group $G$ into the Lie group $A^*$. $f$ can be considered as an analytic mapping of $G$ into the complete normable space $A$. Hence, if $t \in \mathcal{T}^{(\infty)}(G)$, we can form $\langle t, f \rangle$, which is an element of $A$.
 
 #### Proposition 33 {#lie-iii-s3-prop-33 .statement}
 
@@ -988,7 +989,7 @@ $$
 f(1 + y) \in 1 + y + y^t + o(\|y\|) \quad \text{for } y \text{ tending to } 0.
 $$
 
-Thus, $T_1(f)(y) = y + y^t$, so that f is a submersion at 1. Therefore, there exists an open neighbourhood U of 1 in A such that $U \cap G$ is a submanifold of U. Hence (\$ 1, no. 3, Proposition 6) G is a Lie subgroup of A*. Moreover, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
+Thus, $T_1(f)(y) = y + y^t$, so that f is a submersion at 1. Therefore, there exists an open neighbourhood U of 1 in A such that $U \cap G$ is a submanifold of U. Hence (§ 1, no. 3, Proposition 6) G is a Lie subgroup of A*. Moreover, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
 
 #### Corollary 1 {#lie-iii-s3-prop-37-cor-1 .statement}
 
@@ -1004,7 +1005,7 @@ $$
 {}^tX = -JXJ^{-1}.
 $$
 
-This follows from *Algebra*, Chapter IX, \$ 1, formula (50).
+This follows from *Algebra*, Chapter IX, § 1, formula (50).
 
 #### Corollary 2 {#lie-iii-s3-prop-37-cor-2 .statement}
 
@@ -1020,7 +1021,7 @@ When $E \neq \{0\}$, U is *not* a Lie subgroup of the complex Lie group $\mathbf
 
 ### 11. LINEAR REPRESENTATIONS
 
-Let G be a Lie group, E a complete normable space and $\pi$ an analytic linear representation of G on E (\$ 1, no. 2). The associated morphism $t \mapsto \langle t, \pi \rangle$ of $\mathcal{T}^{(\infty)}(G)$ into $\mathcal{L}(E)$ is an algebra morphism (no. 9, Proposition 33) and its restriction to $L(G)$ is $L(\pi)$. Hence $L(\pi)$ is a representation of $L(G)$ on $E$ (Chapter I, § 3, Definition 1).
+Let G be a Lie group, E a complete normable space and $\pi$ an analytic linear representation of G on E (§ 1, no. 2). The associated morphism $t \mapsto \langle t, \pi \rangle$ of $\mathcal{T}^{(\infty)}(G)$ into $\mathcal{L}(E)$ is an algebra morphism (no. 9, Proposition 33) and its restriction to $L(G)$ is $L(\pi)$. Hence $L(\pi)$ is a representation of $L(G)$ on $E$ (Chapter I, § 3, Definition 1).
 
 #### Proposition 38 {#lie-iii-s3-prop-38 .statement}
 
@@ -1204,9 +1205,9 @@ $$
 L(\pi)a.\xi_0 = -[D_a, \xi](x_0).
 $$
 
-$\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$) and hence $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). On the other hand, since $TX$ is a vector G-bundle of class $C^\omega$ (\S 1, no. 8, Proposition 16), $\pi$ is analytic, whence (i).
+$\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$) and hence $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). On the other hand, since $TX$ is a vector G-bundle of class $C^\omega$ (§ 1, no. 8, Proposition 16), $\pi$ is analytic, whence (i).
 
-To prove (ii), suppose that G operates on the left. There exists an open neighbourhood I of 0 in K and an analytic mapping $\gamma$ of I into G such that $\gamma(0) = e, T_0(\gamma)1 = a$. Then $D_a$ is the vector field on X defined by the mapping $\phi : (\lambda, x) \mapsto \gamma(\lambda)x$ of $I \times X$ into X (\S 2, no. 2). If $\phi_\lambda$ denotes the bijection $x \mapsto \gamma(\lambda)x$ of X into X, then
+To prove (ii), suppose that G operates on the left. There exists an open neighbourhood I of 0 in K and an analytic mapping $\gamma$ of I into G such that $\gamma(0) = e, T_0(\gamma)1 = a$. Then $D_a$ is the vector field on X defined by the mapping $\phi : (\lambda, x) \mapsto \gamma(\lambda)x$ of $I \times X$ into X (§ 2, no. 2). If $\phi_\lambda$ denotes the bijection $x \mapsto \gamma(\lambda)x$ of X into X, then
 
 $$
 [D_a, \xi](x_0) = \left( \frac{d}{d\lambda} (T_{\phi_\lambda(x_0)}(\phi_\lambda^{-1})\xi(\phi_\lambda(x_0))) \right)_{\lambda=0} \quad (\text{Diff. \& Anal. Man., R,}
@@ -1264,7 +1265,7 @@ By definition, $t \top u$ is the image of $t \otimes u$ under the mapping $(g, g
 $$
 \begin{aligned}
 \alpha & : (g, g') \mapsto (g, g, g') & \text{of } G \times G \text{ into } G \times G \times G \\
-\beta & : (g, g', g'') \mapsto (g, g'^{-1}, g'') & \text{of } G \times G \times G \text{ into } G \times G \times G \\
+\beta & : (g, g', g'') \mapsto (g, {g'}^{-1}, g'') & \text{of } G \times G \times G \text{ into } G \times G \times G \\
 \gamma & : (g, g', g'') \mapsto gg''g' & \text{of } G \times G \times G \text{ into } G.
 \end{aligned}
 $$
@@ -1398,7 +1399,7 @@ This follows from Propositions 49 and 44.
 
 ### 13. TENSORS AND INVARIANT FORMS
 
-Let G be a Lie group. We consider G as operating on itself by left (resp. right) translation. Let $\lambda$ be a vector functor of class $C^\omega$ for isomorphisms. Then $\lambda(\mathrm{TG})$ is an analytic left (resp. right) vector G-bundle (\S 1, no. 8, Corollary to Proposition 16). The mapping $(g, u) \mapsto gu$ (resp. $ug$) of $G \times \lambda(\mathrm{L}(G))$ onto $\lambda(\mathrm{TG})$ is an isomorphism $\phi$ (resp. $\psi$) of vector G-bundles (\S 7, no. 8, Corollary 2 to Proposition 17). Every G-invariant section of $\lambda(\mathrm{TG})$ is analytic and determined by its value at $e$ (\S 1, no. 8, Corollary 1 to Proposition 17). Such a section is called *left* (resp. *right*) *invariant*. Let $\sigma$ be a left invariant section of $\lambda(\mathrm{TG})$; the transform $\sigma'$ of $\sigma$ under a right translation $\delta(g)$ is defined by $\sigma'(\delta(g)h) = \lambda(\mathrm{T}_h(\delta(g)))\sigma(h)$ for all $h \in G$; it is also left invariant; it is also derived from $\sigma$ by $\gamma(g) \circ \delta(g) = \mathrm{Int}(g)$ and hence
+Let G be a Lie group. We consider G as operating on itself by left (resp. right) translation. Let $\lambda$ be a vector functor of class $C^\omega$ for isomorphisms. Then $\lambda(\mathrm{TG})$ is an analytic left (resp. right) vector G-bundle (§ 1, no. 8, Corollary to Proposition 16). The mapping $(g, u) \mapsto gu$ (resp. $ug$) of $G \times \lambda(\mathrm{L}(G))$ onto $\lambda(\mathrm{TG})$ is an isomorphism $\phi$ (resp. $\psi$) of vector G-bundles (§ 7, no. 8, Corollary 2 to Proposition 17). Every G-invariant section of $\lambda(\mathrm{TG})$ is analytic and determined by its value at $e$ (§ 1, no. 8, Corollary 1 to Proposition 17). Such a section is called *left* (resp. *right*) *invariant*. Let $\sigma$ be a left invariant section of $\lambda(\mathrm{TG})$; the transform $\sigma'$ of $\sigma$ under a right translation $\delta(g)$ is defined by $\sigma'(\delta(g)h) = \lambda(\mathrm{T}_h(\delta(g)))\sigma(h)$ for all $h \in G$; it is also left invariant; it is also derived from $\sigma$ by $\gamma(g) \circ \delta(g) = \mathrm{Int}(g)$ and hence
 
 $$
 \sigma'(e) = \lambda(\mathrm{Ad}\ g)\cdot \sigma(e).
@@ -1413,10 +1414,10 @@ $$
 We now consider $G \times G$ as operating on $G$ on the left by
 
 $$
-((g, g'), g'') \mapsto gg''g'^{-1}.
+((g, g'), g'') \mapsto gg''{g'}^{-1}.
 $$
 
-Then G is a left Lie homogeneous space of $G \times G$ (\S 1, no. 6, *Example*). Hence $\lambda(\mathrm{TG})$ is an analytic left vector $(G \times G)$-bundle. A section of $\lambda(\mathrm{TG})$ is called *biinvariant* if it is invariant under the action of $G \times G$ on $\lambda(\mathrm{TG})$, in other words if it is invariant under left and right translations. Let $\lambda(\mathrm{L}(G))_0$ be the set of elements of $\lambda(\mathrm{L}(G))$ invariant under $\lambda(\mathrm{Ad}(G))$. For all $u \in \lambda(\mathrm{L}(G))_0$, let $\sigma_u$ be the mapping of $G$ into $\lambda(\mathrm{TG})$ defined by $\sigma_u(g) = gu = ug$. Then $u \mapsto \sigma_u$ is a bijection of $\lambda(\mathrm{L}(G))_0$ onto the set of biinvariant sections of $\lambda(\mathrm{TG})$ (\S 1, no. 8, Corollary 1 to Proposition 17).
+Then G is a left Lie homogeneous space of $G \times G$ (§ 1, no. 6, *Example*). Hence $\lambda(\mathrm{TG})$ is an analytic left vector $(G \times G)$-bundle. A section of $\lambda(\mathrm{TG})$ is called *biinvariant* if it is invariant under the action of $G \times G$ on $\lambda(\mathrm{TG})$, in other words if it is invariant under left and right translations. Let $\lambda(\mathrm{L}(G))_0$ be the set of elements of $\lambda(\mathrm{L}(G))$ invariant under $\lambda(\mathrm{Ad}(G))$. For all $u \in \lambda(\mathrm{L}(G))_0$, let $\sigma_u$ be the mapping of $G$ into $\lambda(\mathrm{TG})$ defined by $\sigma_u(g) = gu = ug$. Then $u \mapsto \sigma_u$ is a bijection of $\lambda(\mathrm{L}(G))_0$ onto the set of biinvariant sections of $\lambda(\mathrm{TG})$ (§ 1, no. 8, Corollary 1 to Proposition 17).
 
 #### Proposition 50 {#lie-iii-s3-prop-50 .statement}
 
@@ -1727,7 +1728,7 @@ $$
 The latter expression is equal, on the one hand, to
 
 $$
-T(h)(f(x)^{-1}.T(f)(u)) \quad (\S 2, \text{Proposition 5})
+T(h)(f(x)^{-1}.T(f)(u)) \quad (§ 2, \text{Proposition 5})
 $$
 $$
 = T_e(h)((f^{-1}.df)(u))
@@ -1795,7 +1796,7 @@ In this no. $(G, e, \theta, m)$ denotes a Lie group germ. A large part of the re
 
 18.1. Let $\Omega$ be the set of definition of $m$. Let $(g, g') \in \Omega,\ t \in T_e^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. As in no. 1, the convolution product of $t$ and $t'$, denoted by $t * t'$, is the image of $t \otimes t'$ under $m$. We write $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. For $t, t'$ in $U(G)$, $t * t'$ is defined and belongs to $U(G)$. With the convolution product, $U(G)$ is an associative algebra with unit element $\varepsilon_e$, filtered by the $U_s(G)$. The canonical isomorphism $i_{G,e}$ of gr $U(G)$ onto $TS(T_e(G))$ is an algebra isomorphism.
 
-18.2. Let $G, H$ be Lie group germs and $\phi : G \to H$ a morphism. If $t \in U(G)$, the image $U(\phi)(t)$ of $t$ under $\phi_*$ is an element of $U(H)$ and $U(\phi)$ is a morphism of the algebra $U(G)$ into the algebra $U(H)$. The mapping $\theta : x \mapsto x^{-1}$ of $G$ into $G$ defines a mapping $t \mapsto t^\vee$ of $U(G)$ into $U(G)$. For $t, t'$ in $U(G)$, the product $t * t'$ evaluated relative to $G^\vee$ is equal to the product $t' * t$ evaluated relative to $G$ and $(t * t')^\vee = t'^\vee * t^\vee$. Then $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. If $G_1, \ldots, G_n$ are Lie group germs and $G = G_1 \times \cdots \times G_n$, the canonical isomorphism of $U(G_1) \otimes \cdots \otimes U(G_n)$ onto $U(G)$ is an algebra isomorphism;
+18.2. Let $G, H$ be Lie group germs and $\phi : G \to H$ a morphism. If $t \in U(G)$, the image $U(\phi)(t)$ of $t$ under $\phi_*$ is an element of $U(H)$ and $U(\phi)$ is a morphism of the algebra $U(G)$ into the algebra $U(H)$. The mapping $\theta : x \mapsto x^{-1}$ of $G$ into $G$ defines a mapping $t \mapsto t^\vee$ of $U(G)$ into $U(G)$. For $t, t'$ in $U(G)$, the product $t * t'$ evaluated relative to $G^\vee$ is equal to the product $t' * t$ evaluated relative to $G$ and $(t * t')^\vee = {t'}^\vee * t^\vee$. Then $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. If $G_1, \ldots, G_n$ are Lie group germs and $G = G_1 \times \cdots \times G_n$, the canonical isomorphism of $U(G_1) \otimes \cdots \otimes U(G_n)$ onto $U(G)$ is an algebra isomorphism;
 
 for $t_1, \ldots, t_n$ in $U(G)$, $(t_1 \otimes \cdots \otimes t_n)^{\vee} = t_1^{\vee} \otimes \cdots \otimes t_n^{\vee}$. Let $H$ be a Lie subgroup germ of $G$ and $i : H \to G$ the canonical injection. Then $U(i)$ is an injective homomorphism of the algebra $U(H)$ into $U(G)$ and
 $$

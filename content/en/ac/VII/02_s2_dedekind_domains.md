@@ -33,7 +33,7 @@ subsections:
       pdf_page: 517
 statements: 14
 exercises: 27
-content_sha256: cc7d7aebe3c9feefed99d2b6823c6c99ac2960660a90318e1a3fa69f6af4754d
+content_sha256: 16fa7953b099cb50ab812cae794d31718963a0e7a0358d8c489c21f500087f43
 ---
 
 ## 2. DEDEKIND DOMAINS
@@ -51,9 +51,9 @@ A Krull domain all of whose non-zero prime ideals are maximal is called a Dedeki
 
 Examples of Dedekind domains
 (1) Every principal ideal domain is a Dedekind domain.
-(2) Let K be a finite extension of $\mathbf{Q}$ and A the integral closure of $\mathbf{Z}$ in K. The ring A is a Krull domain (\$ 1, no. 8, Proposition 12). Let $\mathfrak{p}$ be a non-zero prime ideal of A. Then $\mathfrak{p} \cap \mathbf{Z}$ is non-zero (Chapter V, \$ 2, no. 1, Corollary to Proposition 1) and hence is a maximal ideal of $\mathbf{Z}$; hence $\mathfrak{p}$ is a maximal ideal of A (*loc. cit.*, Proposition 1). Therefore, A is a Dedekind domain. In general, A is not a principal ideal domain (*Algebra*, Chapter VII, \$ 1, Exercise 12).
+(2) Let K be a finite extension of $\mathbf{Q}$ and A the integral closure of $\mathbf{Z}$ in K. The ring A is a Krull domain (§ 1, no. 8, Proposition 12). Let $\mathfrak{p}$ be a non-zero prime ideal of A. Then $\mathfrak{p} \cap \mathbf{Z}$ is non-zero (Chapter V, § 2, no. 1, Corollary to Proposition 1) and hence is a maximal ideal of $\mathbf{Z}$; hence $\mathfrak{p}$ is a maximal ideal of A (*loc. cit.*, Proposition 1). Therefore, A is a Dedekind domain. In general, A is not a principal ideal domain (*Algebra*, Chapter VII, § 1, Exercise 12).
 (3) \* Let V be an affine algebraic variety and A the ring of functions regular on V. Suppose that A is not a field (i.e. that V is not reduced to a point). For A to be a Dedekind domain, it is necessary and sufficient that V be an irreducible curve with no singular point: for to say that A is an integral domain amounts to saying that V is irreducible; to say that every non-zero prime ideal of A is maximal amounts to saying that A is a curve; finally, as A is Noetherian, to say that it is a Krull domain amounts to saying that it is integrally closed, that is that V is a normal curve, or also that it has no singular point. \*
-(4) A ring of fractions $S^{-1}A$ of a Dedekind domain A is a Dedekind domain if $0 \notin S$. For $S^{-1}A$ is a Krull domain (\$ 1, no. 4, Proposition 6) and every non-zero prime ideal of $S^{-1}A$ is maximal by Chapter II, \$ 2, no. 5, Proposition 11.
+(4) A ring of fractions $S^{-1}A$ of a Dedekind domain A is a Dedekind domain if $0 \notin S$. For $S^{-1}A$ is a Krull domain (§ 1, no. 4, Proposition 6) and every non-zero prime ideal of $S^{-1}A$ is maximal by Chapter II, § 2, no. 5, Proposition 11.
 
 ### 2. CHARACTERIZATIONS OF DEDEKIND DOMAINS
 
@@ -68,7 +68,7 @@ Let A be an integral domain and K its field of fractions. The following conditio
 (f) A is Noetherian and, for every maximal ideal m of A, $A_m$ is either a field or a discrete valuation ring;
 (g) A is Noetherian and, for every maximal ideal m of A, $A_m$ is a principal ideal domain.
 
-We show first the equivalence of (a) and (b). Corollary 2 to Theorem 3, \$ 1, no. 6, shows immediately that (a) implies (b). Conversely, (b) implies (a), since, for every prime ideal $p$ of $A$, there exists a valuation ring of $K$ which dominates $A_p$ (Chapter VI, § 1, no. 2, Corollary to Theorem 2).
+We show first the equivalence of (a) and (b). Corollary 2 to Theorem 3, § 1, no. 6, shows immediately that (a) implies (b). Conversely, (b) implies (a), since, for every prime ideal $p$ of $A$, there exists a valuation ring of $K$ which dominates $A_p$ (Chapter VI, § 1, no. 2, Corollary to Theorem 2).
 
 The remainder of the proof is carried out by proving the following implications:
 
@@ -76,35 +76,35 @@ $$
 (a) \Rightarrow (c) \Rightarrow (d) \Rightarrow (e) \Rightarrow (f) \Rightarrow (g) \Rightarrow (a).
 $$
 
-If $A$ is a Dedekind domain and $b$ is a non-zero fractional ideal, then $bA_p = bA_p$ for every maximal ideal $p$ ($\S 1$, no. 4, Proposition 7) and hence $b = 6$ (Chapter II, $\S 3$, no. 3, Corollary 3 to Theorem 1); thus (a) implies (c).
+If $A$ is a Dedekind domain and $b$ is a non-zero fractional ideal, then $bA_p = bA_p$ for every maximal ideal $p$ ($§ 1$, no. 4, Proposition 7) and hence $b = 6$ (Chapter II, $§ 3$, no. 3, Corollary 3 to Theorem 1); thus (a) implies (c).
 
-We now show that (c) implies (d). If (c) holds, the mapping $a \mapsto \operatorname{div} a$ is a bijection of $I(A)$ onto $D(A)$ (cf. $\S 1$, no. 1); as it is a homomorphism ($\S 1$, no. 2) and $D(A)$ is a group, every element of $I(A)$ is invertible.
+We now show that (c) implies (d). If (c) holds, the mapping $a \mapsto \operatorname{div} a$ is a bijection of $I(A)$ onto $D(A)$ (cf. $§ 1$, no. 1); as it is a homomorphism ($§ 1$, no. 2) and $D(A)$ is a group, every element of $I(A)$ is invertible.
 
-We show that (d) implies (e). If (d) holds, every integral ideal $\neq (0)$ of $A$ is finitely generated (Chapter 11, $\S 5$, no. 6, Theorem 4) and hence $A$ is Noetherian; as $I(A)$ is a group, $D(A)$ is a group and $A$ is therefore completely integrally closed ($\S 1$, no. 2, Theorem 1). Finally, if $p$ is a non-zero prime ideal of $A$ and $m$ is a maximal ideal of $A$ containing $p$, the ring $A_{m}$ is a principal ideal domain (Chapter II, $\S 5$, no. 6, Theorem 4); as $pA_m$ is prime and non-zero, necessarily $pA_m = mA_m$ (a principal ideal domain being a Dedekind domain) whence $p = m$ (Chapter 11, $\S 2$, no. 5, Proposition 11) and $p$ is maximal.
+We show that (d) implies (e). If (d) holds, every integral ideal $\neq (0)$ of $A$ is finitely generated (Chapter 11, $§ 5$, no. 6, Theorem 4) and hence $A$ is Noetherian; as $I(A)$ is a group, $D(A)$ is a group and $A$ is therefore completely integrally closed ($§ 1$, no. 2, Theorem 1). Finally, if $p$ is a non-zero prime ideal of $A$ and $m$ is a maximal ideal of $A$ containing $p$, the ring $A_{m}$ is a principal ideal domain (Chapter II, $§ 5$, no. 6, Theorem 4); as $pA_m$ is prime and non-zero, necessarily $pA_m = mA_m$ (a principal ideal domain being a Dedekind domain) whence $p = m$ (Chapter 11, $§ 2$, no. 5, Proposition 11) and $p$ is maximal.
 
-We now show that (e) implies (f). If $m$ is a maximal ideal of $A$ and (e) holds, $A_{m}$ is an integrally closed Noetherian domain and its maximal ideal $mA_m$ is, either (0), or the only non-zero prime ideal of $A_{m}$; hence $A_{m}$ is a field or a discrete valuation ring by Proposition 11 of $\S 1$, no. 7.
+We now show that (e) implies (f). If $m$ is a maximal ideal of $A$ and (e) holds, $A_{m}$ is an integrally closed Noetherian domain and its maximal ideal $mA_m$ is, either (0), or the only non-zero prime ideal of $A_{m}$; hence $A_{m}$ is a field or a discrete valuation ring by Proposition 11 of $§ 1$, no. 7.
 
 The fact that (f) implies (g) is obvious.
 
-We show finally that (g) implies (a). As $A$ is the intersection of the $A_{m}$, where $m$ runs through the set of maximal ideals (Chapter II, $\S 3$, no. 3, Corollary 4 to Theorem 1), (g) implies that $A$ is integrally closed and Noetherian and hence that $A$ is a Krull domain ($\S 1$, no. 3, Corollary to Theorem 2). On the other hand, it can be shown that every non-zero prime ideal of $A$ is maximal as in the proof that (d) $\Rightarrow$ (e).
+We show finally that (g) implies (a). As $A$ is the intersection of the $A_{m}$, where $m$ runs through the set of maximal ideals (Chapter II, $§ 3$, no. 3, Corollary 4 to Theorem 1), (g) implies that $A$ is integrally closed and Noetherian and hence that $A$ is a Krull domain ($§ 1$, no. 3, Corollary to Theorem 2). On the other hand, it can be shown that every non-zero prime ideal of $A$ is maximal as in the proof that (d) $\Rightarrow$ (e).
 
 #### Proposition 1 {#ac-vii-s2-prop-1 .statement}
 
 *A semi-local Dedekind domain is a principal ideal domain.*
 
-Let $A$ be a semi-local Dedekind domain, $K$ its field of fractions, $p_1, \ldots, p_n$ its maximal ideals and $v_1, \ldots, v$, the corresponding essential valuations; these are the only essential valuations of $A$. Let $a$ be a non-zero integral ideal of $A$. Since it is divisorial, there exists ($\S 1$, no. 4, Proposition 5) integers $q_1, \ldots, q_n$ such that $a$ is the set of $x \in K$ such that $v_i(x) \geq q_i$ for $1 \leq i \leq n$. Let $x_0$ be an element of $K$ such that $v_i(x_0) = q_i$ for $1 \leq i \leq n$ (Chapter VI, $\S 7$, no. 2, Corollary 1 to Theorem 1). Then $a$ is the set of $x \in K$ such that $v_i(xx_0^{-1}) \geq 0$ for $1 \leq i \leq n$. Thus $a = Ax_0$.
+Let $A$ be a semi-local Dedekind domain, $K$ its field of fractions, $p_1, \ldots, p_n$ its maximal ideals and $v_1, \ldots, v$, the corresponding essential valuations; these are the only essential valuations of $A$. Let $a$ be a non-zero integral ideal of $A$. Since it is divisorial, there exists ($§ 1$, no. 4, Proposition 5) integers $q_1, \ldots, q_n$ such that $a$ is the set of $x \in K$ such that $v_i(x) \geq q_i$ for $1 \leq i \leq n$. Let $x_0$ be an element of $K$ such that $v_i(x_0) = q_i$ for $1 \leq i \leq n$ (Chapter VI, $§ 7$, no. 2, Corollary 1 to Theorem 1). Then $a$ is the set of $x \in K$ such that $v_i(xx_0^{-1}) \geq 0$ for $1 \leq i \leq n$. Thus $a = Ax_0$.
 
-If $A$ is a Dedekind domain, it has been seen, in the proof of Theorem 1, that the group D(A) of divisors of A is identified with the group I(A) of fractional ideals $a \neq (0)$ (as A is Noetherian, every non-zero fractional ideal is finitely generated). The divisor class group C(A) of A ($\S 1$, no. 2) is then identified with the group of classes of ideals $\neq 0$ of A (defined in Chapter II, $\S 5$, no. 7).
+If $A$ is a Dedekind domain, it has been seen, in the proof of Theorem 1, that the group D(A) of divisors of A is identified with the group I(A) of fractional ideals $a \neq (0)$ (as A is Noetherian, every non-zero fractional ideal is finitely generated). The divisor class group C(A) of A ($§ 1$, no. 2) is then identified with the group of classes of ideals $\neq 0$ of A (defined in Chapter II, $§ 5$, no. 7).
 
 ### 3. DECOMPOSITION OF IDEALS INTO PRODUCTS OF PRIME IDEALS
 
-Let A be a Dedekind domain, I(A) the ordered multiplicative group of non-zero fractional ideals of A and D(A) the group of divisors of A. The isomorphism $a \mapsto \operatorname{div} a$ of I(A) onto D(A) maps the extremal divisors to the non-zero prime ideals of A ($\S 1$, no. 6, Theorem 3) and hence the multiplicative group I(A) admits as basis the set of non-zero prime ideals of A ($\S 1$, no. 3, Theorem 2). In other words, *every non-zero fractional ideal a of A admits a unique decomposition of the form*:
+Let A be a Dedekind domain, I(A) the ordered multiplicative group of non-zero fractional ideals of A and D(A) the group of divisors of A. The isomorphism $a \mapsto \operatorname{div} a$ of I(A) onto D(A) maps the extremal divisors to the non-zero prime ideals of A ($§ 1$, no. 6, Theorem 3) and hence the multiplicative group I(A) admits as basis the set of non-zero prime ideals of A ($§ 1$, no. 3, Theorem 2). In other words, *every non-zero fractional ideal a of A admits a unique decomposition of the form*:
 
 $$
 a = \prod_p p^{n(p)}
 $$
 
-where the product extends to the non-zero prime ideals of A, the exponents $n(p)$ being zero except for a finite number of them. Further a is integral if and only if the $n(p)$ are all positive. The relation (1) is called the *decomposition of a into prime factors*. In particular, if a is a principal ideal $Ax$, then, for all $p$, $n(p) = v_p(x)$, where $v_p$ denotes the essential valuation corresponding to $p$; this follows from formula (4) of $\S 1$, no. 3. Let
+where the product extends to the non-zero prime ideals of A, the exponents $n(p)$ being zero except for a finite number of them. Further a is integral if and only if the $n(p)$ are all positive. The relation (1) is called the *decomposition of a into prime factors*. In particular, if a is a principal ideal $Ax$, then, for all $p$, $n(p) = v_p(x)$, where $v_p$ denotes the essential valuation corresponding to $p$; this follows from formula (4) of $§ 1$, no. 3. Let
 
 $$
 a = \prod_p p^{m(p)}, \quad b = \prod_p p^{n(p)}
@@ -131,7 +131,7 @@ $$
 \operatorname{div}(a : b) = \operatorname{div} a - \operatorname{div} b
 $$
 
-($\S 1$, no. 2, Corollary to Theorem 1); formulae (4) and (5) follow from Proposition 2, $\S 1$, no. 1.
+($§ 1$, no. 2, Corollary to Theorem 1); formulae (4) and (5) follow from Proposition 2, $§ 1$, no. 1.
 
 These results apply in particular to the integral closure of $\mathbf{Z}$ in a finite extension of $\mathbf{Q}$.
 

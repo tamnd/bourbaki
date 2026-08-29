@@ -33,9 +33,9 @@ subsections:
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: 9f589e2dcdfaa836da6ca1ac7a91d639484af3bcd4023811e9520ff99b30a85b
+content_sha256: d2d3cca86ad8c530e41d836f7e59c0b73e4c944111149381e2331d97036adfce
 translated_from: content/en/alg/I/03_s3_actions.md
-source_content_sha256: b7b14957adea4a121aeb6342cb8f599de07efdca80c7e79743c005013e324aec
+source_content_sha256: ea8e120387da4eeeb5565a60d17f5eac8359a45e81eafde8841009256e414458
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-3445099e
 glossary_version: 34
@@ -73,7 +73,7 @@ thay cho "luật tác động trái". Phần tử $f_\alpha(x)$ của E (với $
 
 (6) Cho $\alpha \mapsto f_\alpha$ là một tác động của $\Omega$ lên E. Cho g là một ánh xạ từ $\Omega'$ vào $\Omega$. Khi đó ánh xạ $\beta \mapsto f_{g(\beta)}$ là một tác động của $\Omega'$ lên E.
 
-(7) Cho $f : E \times E \to E$ là một luật hợp thành trên một tập hợp E. Ánh xạ $\gamma : x \mapsto \gamma_x$ (tương ứng. $\delta : x \mapsto \delta_x$) (\S 2, no. 2) gắn với phần tử $x \in E$ phép tịnh tiến trái (tương ứng. phải) bởi $x$ là một tác động của E lên chính nó; nó được gọi là *tác động* *trái* (tương ứng. *phải*) của E lên chính nó *dẫn xuất* từ luật đã cho. Khi $f$ là giao hoán, hai tác động này trùng nhau.
+(7) Cho $f : E \times E \to E$ là một luật hợp thành trên một tập hợp E. Ánh xạ $\gamma : x \mapsto \gamma_x$ (tương ứng. $\delta : x \mapsto \delta_x$) (§ 2, no. 2) gắn với phần tử $x \in E$ phép tịnh tiến trái (tương ứng. phải) bởi $x$ là một tác động của E lên chính nó; nó được gọi là *tác động* *trái* (tương ứng. *phải*) của E lên chính nó *dẫn xuất* từ luật đã cho. Khi $f$ là giao hoán, hai tác động này trùng nhau.
 
 Luật của tác động trái (tương ứng. phải) liên kết với $\gamma$ là $f$ (tương ứng. luật đối của $f$). Luật của tác động phải (tương ứng. trái) liên kết với $\delta$ là $f$ (tương ứng. luật đối của $f$).
 

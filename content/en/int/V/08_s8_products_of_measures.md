@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: f32ac9b0595976df24efb98f8ebc133115fe2afd869695655c5382ac45e70518
+content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
 ---
 
 ## § 8. PRODUCTS OF MEASURES
@@ -58,7 +58,7 @@ $$
 
 which is also expressed by the relation $\lambda'_t = \varepsilon_t \otimes \mu'$.
 
-Moreover, the mapping $t \mapsto \lambda'_t(f)$ is continuous, with compact support (Ch. III, §4, No. 1, Lemma 2), therefore the mapping $t \mapsto \lambda'_t$ of T into $\mathcal{M}(X)$ is vaguely continuous (and, *a fortiori*, vaguely $\mu$-measurable); consequently, the family of measures $t \mapsto \lambda'_t$ is $\mu$-adequate ($\S 3$, No. 1, Prop. 2a)). The integral of $f$ with respect to the measure $\int \lambda'_t \, d\mu(t)$ is by definition
+Moreover, the mapping $t \mapsto \lambda'_t(f)$ is continuous, with compact support (Ch. III, §4, No. 1, Lemma 2), therefore the mapping $t \mapsto \lambda'_t$ of T into $\mathcal{M}(X)$ is vaguely continuous (and, *a fortiori*, vaguely $\mu$-measurable); consequently, the family of measures $t \mapsto \lambda'_t$ is $\mu$-adequate ($§ 3$, No. 1, Prop. 2a)). The integral of $f$ with respect to the measure $\int \lambda'_t \, d\mu(t)$ is by definition
 
 $$
 \int \langle f, \lambda'_t \rangle \, d\mu(t) = \int d\mu(t) \int f_t(t') \, d\mu'(t') = \int f(t, t') \, d\nu(t, t')
@@ -150,9 +150,9 @@ a) If $f$ is constant on the complement of a $\nu$-moderated subset of $T \times
 
 b) If $\mu'$ is moderated, then M is $\mu$-negligible.
 
-The assertion a) follows from Prop. 4b) of §3, No. 2 and the remarks of No. 1. To treat b), note that $\mu'$ is the sum of a sequence $\mu'_n$ of bounded measures (§2, No. 3, Prop. 4); $f$ is measurable with respect to $\mu \otimes \mu'_n \leq \nu$, and the set $M$ is the union of the sets $M_n$ associated with the measures $\mu'_n$ (\S 2, No. 2, Prop. 2). One is thus reduced to the case that $\mu'$ is bounded, which follows from Prop. 4c) of \S 3, No. 2.
+The assertion a) follows from Prop. 4b) of §3, No. 2 and the remarks of No. 1. To treat b), note that $\mu'$ is the sum of a sequence $\mu'_n$ of bounded measures (§2, No. 3, Prop. 4); $f$ is measurable with respect to $\mu \otimes \mu'_n \leq \nu$, and the set $M$ is the union of the sets $M_n$ associated with the measures $\mu'_n$ (§ 2, No. 2, Prop. 2). One is thus reduced to the case that $\mu'$ is bounded, which follows from Prop. 4c) of § 3, No. 2.
 
-This statement extends immediately to complex measures (Ch. III, \S 4, No. 2, Prop. 3).
+This statement extends immediately to complex measures (Ch. III, § 4, No. 2, Prop. 3).
 
 #### Corollary {#int-v-s8-n2-cor-1 .statement}
 
@@ -162,21 +162,21 @@ a) *If A is $\nu$-moderated, then M is $\mu$-negligible.*
 
 b) *If the projection of A on $T'$ is $\mu'$-moderated, then M is locally $\mu$-negligible.*
 
-The assertion a) follows immediately from Prop. 2. To establish b), denote by B a set, the union of a sequence of $\mu'$-integrable open sets in $T'$, that contains the projection of A on $T'$, and denote by $\mu'_1$ the moderated measure $\varphi_B \cdot \mu'$; since A is measurable with respect to $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, Prop. 2 implies that $A(t)$ is $\mu'_1$-measurable, except for $t$ forming a locally $\mu$-negligible set. But since $A(t) \subset B$, to say that $A(t)$ is $\mu'_1$-measurable is equivalent to saying that $A(t)$ is $\mu'$-measurable (\S 5, No. 3, Cor. of Prop. 4).
+The assertion a) follows immediately from Prop. 2. To establish b), denote by B a set, the union of a sequence of $\mu'$-integrable open sets in $T'$, that contains the projection of A on $T'$, and denote by $\mu'_1$ the moderated measure $\varphi_B \cdot \mu'$; since A is measurable with respect to $\mu \otimes \mu'_1 \leq \mu \otimes \mu'$, Prop. 2 implies that $A(t)$ is $\mu'_1$-measurable, except for $t$ forming a locally $\mu$-negligible set. But since $A(t) \subset B$, to say that $A(t)$ is $\mu'_1$-measurable is equivalent to saying that $A(t)$ is $\mu'$-measurable (§ 5, No. 3, Cor. of Prop. 4).
 
 #### Proposition 3 {#int-v-s8-prop-3 .statement}
 
 — *Let f be a mapping of T into a topological space F. If f is $\mu$-measurable, then the mapping $(t, t') \mapsto f(t)$ is $\nu$-measurable. Conversely, if $\mu' \neq 0$, and if this mapping is $\nu$-measurable, then the function f is $\mu$-measurable.*
 
-The first assertion follows from Cor. 1 of Prop. 10 of \S 6, No. 6. Suppose that $\mu' \neq 0$, denote by $\mu'_1$ a nonzero measure with compact support that is bounded above by $\mu'$, by $\nu_1$ the measure $\mu \otimes \mu'_1$, and set $a = \| \mu'_1 \|$. The projection $\mathrm{pr}_1$ of $T \times T'$ onto T is then $\nu_1$-proper, and the image measure $\mathrm{pr}_1(\nu_1)$ is equal to $a \mu$ (\S 6, No. 6, Prop. 10). If $(t, t') \mapsto f(t)$ is $\nu$-measurable, then it is also $\nu_1$-measurable, therefore $f$ is measurable with respect to the measure $a \mu$ (\S 6, No. 2, Prop. 3), whence the result since $a \neq 0$.
+The first assertion follows from Cor. 1 of Prop. 10 of § 6, No. 6. Suppose that $\mu' \neq 0$, denote by $\mu'_1$ a nonzero measure with compact support that is bounded above by $\mu'$, by $\nu_1$ the measure $\mu \otimes \mu'_1$, and set $a = \| \mu'_1 \|$. The projection $\mathrm{pr}_1$ of $T \times T'$ onto T is then $\nu_1$-proper, and the image measure $\mathrm{pr}_1(\nu_1)$ is equal to $a \mu$ (§ 6, No. 6, Prop. 10). If $(t, t') \mapsto f(t)$ is $\nu$-measurable, then it is also $\nu_1$-measurable, therefore $f$ is measurable with respect to the measure $a \mu$ (§ 6, No. 2, Prop. 3), whence the result since $a \neq 0$.
 
-The preceding statement extends immediately to complex measures (Ch. III, \S 4, No. 2, Prop. 3), as do the following corollaries.
+The preceding statement extends immediately to complex measures (Ch. III, § 4, No. 2, Prop. 3), as do the following corollaries.
 
 #### Corollary 1 {#int-v-s8-prop-3-cor-1 .statement}
 
 — *Let F, F' and G be three topological spaces, and let u be a continuous mapping of $F \times F'$ into G. Let f (resp. $f'$) be a function defined on T (resp. $T'$) with values in F (resp. $F'$) and measurable for $\mu$ (resp. $\mu'$). Then the function $(t, t') \mapsto u(f(t), f'(t'))$ is measurable for $\mu \otimes \mu'$.*
 
-The mappings $(t, t') \mapsto f(t)$, $(t, t') \mapsto f'(t')$ being $\nu$-measurable by Prop. 3, this follows from Th. 1 of Ch. IV, \S 5, No. 3.
+The mappings $(t, t') \mapsto f(t)$, $(t, t') \mapsto f'(t')$ being $\nu$-measurable by Prop. 3, this follows from Th. 1 of Ch. IV, § 5, No. 3.
 
 #### Corollary 2 {#int-v-s8-prop-3-cor-2 .statement}
 
@@ -199,7 +199,7 @@ The case of complex functions, or of finite real functions, is an immediate cons
 
 — *Let $A$ be a subset of $T$. If $A$ is locally $\mu$-negligible, then $A \times T'$ is locally $\nu$-negligible. Conversely, if $A \times T'$ is locally $\nu$-negligible and if $\mu' \neq 0$, then $A$ is locally $\mu$-negligible.*
 
-The first assertion follows from Cor. 1 of Prop. 10 of §6, No. 6. To establish the second assertion, let us take up again the notations in the proof of Prop. 3; $A \times T' = \mathrm{pr}_1^{-1}(A)$ is locally negligible for the measure $\nu_1$, therefore $A$ is locally negligible for $a\mu$ (\S6, No. 2, Cor. of Prop. 2), whence the result since $a \neq 0$.
+The first assertion follows from Cor. 1 of Prop. 10 of §6, No. 6. To establish the second assertion, let us take up again the notations in the proof of Prop. 3; $A \times T' = \mathrm{pr}_1^{-1}(A)$ is locally negligible for the measure $\nu_1$, therefore $A$ is locally negligible for $a\mu$ (§ 6, No. 2, Cor. of Prop. 2), whence the result since $a \neq 0$.
 
 The preceding statement extends at once to the product of two complex measures (Ch. III, §4, No. 2, Prop. 3), as does the following corollary.
 
@@ -290,11 +290,11 @@ $$
 $$
 (8)
 
-The assertion a), as well as the assertion b) when $\mu'$ is bounded, are consequences of Prop. 5 of §3, No. 2. To treat the case that $\mu'$ is moderated, let us represent $\mu'$ as a sum $\sum_{n \in \mathbf{N}} \mu'_n$ of a sequence of bounded measures (\S2, No. 3, Prop. 4). The function $t \mapsto \int^* f(t, t') d\mu'_n(t')$ is then $\mu$-measurable, and
+The assertion a), as well as the assertion b) when $\mu'$ is bounded, are consequences of Prop. 5 of §3, No. 2. To treat the case that $\mu'$ is moderated, let us represent $\mu'$ as a sum $\sum_{n \in \mathbf{N}} \mu'_n$ of a sequence of bounded measures (§ 2, No. 3, Prop. 4). The function $t \mapsto \int^* f(t, t') d\mu'_n(t')$ is then $\mu$-measurable, and
 $$
 \iint^* f(t, t') d\mu(t) d\mu'_n(t') = \int^* d\mu(t) \int^* f(t, t') d\mu'_n(t').
 $$
-But $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (Prop. 1); the assertion b) is then obtained by summing on $n$ (\S2, No. 2, Prop. 1).
+But $\mu \otimes \mu' = \sum_{n \in \mathbf{N}} (\mu \otimes \mu'_n)$ (Prop. 1); the assertion b) is then obtained by summing on $n$ (§ 2, No. 2, Prop. 1).
 
 #### Corollary 1 {#int-v-s8-prop-7-cor-1 .statement}
 
@@ -351,7 +351,7 @@ $$
 = \left( \int^* f(t)\, d\mu(t) \right) \left( \int^* f'(t')\, d\mu'(t') \right),
 $$
 
-which is the sought-for inequality. Thus the proposition is established when $\mu$ and $\mu'$ are measures with compact support. To treat the general case, it suffices to represent $\mu$ (resp. $\mu'$) as the sum of a family $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) of measures with compact support (\S 2, No. 3, Prop. 4), write the formula (10) for each measure $\mu_\alpha \otimes \mu'_\beta$, and sum on $(\alpha, \beta)$, taking into account Prop. 1 (\S 2, No. 2, Prop. 1).
+which is the sought-for inequality. Thus the proposition is established when $\mu$ and $\mu'$ are measures with compact support. To treat the general case, it suffices to represent $\mu$ (resp. $\mu'$) as the sum of a family $(\mu_\alpha)_{\alpha \in A}$ (resp. $(\mu'_\beta)_{\beta \in B}$) of measures with compact support (§ 2, No. 3, Prop. 4), write the formula (10) for each measure $\mu_\alpha \otimes \mu'_\beta$, and sum on $(\alpha, \beta)$, taking into account Prop. 1 (§ 2, No. 2, Prop. 1).
 
 #### Corollary 1 {#int-v-s8-prop-8-cor-1 .statement}
 
@@ -363,7 +363,7 @@ $$
 
 except possibly when one of the factors of the second member is equal to 0 and the other is equal to $+\infty$.
 
-When the two factors of the second member are finite, the functions $f$ and $f'$ are moderated (\S 1, No. 2, Prop. 7), therefore the function $f \otimes f'$ is moderated (Cor. 2 of Prop. 5); the above equality therefore reduces to the formula (10) (\S 1, No. 2, Prop. 7). When one of the factors of the second member has the value $+\infty$ and the other is not zero, then the second member has the value $+\infty$, and the above equality follows from Prop. 6.
+When the two factors of the second member are finite, the functions $f$ and $f'$ are moderated (§ 1, No. 2, Prop. 7), therefore the function $f \otimes f'$ is moderated (Cor. 2 of Prop. 5); the above equality therefore reduces to the formula (10) (§ 1, No. 2, Prop. 7). When one of the factors of the second member has the value $+\infty$ and the other is not zero, then the second member has the value $+\infty$, and the above equality follows from Prop. 6.
 
 #### Corollary 2 {#int-v-s8-prop-8-cor-2 .statement}
 
@@ -373,7 +373,7 @@ $$
 \iint f(t)f'(t')\,d\mu(t)\,d\mu'(t') = \left( \int f(t)\,d\mu(t) \right) \left( \int f'(t')\,d\mu'(t') \right).
 $$
 
-When $f$ and $f'$ are positive, $f \otimes f'$ is measurable by Cor. 3 of Prop. 3, and the statement follows from formula (10) (resp. (11)) and the criterion for essential integrability (\S 1, No. 3, Prop. 9) (resp. the integrability criterion of Ch. IV, \S 5, No. 6, Th. 5). The general case then follows immediately.
+When $f$ and $f'$ are positive, $f \otimes f'$ is measurable by Cor. 3 of Prop. 3, and the statement follows from formula (10) (resp. (11)) and the criterion for essential integrability (§ 1, No. 3, Prop. 9) (resp. the integrability criterion of Ch. IV, § 5, No. 6, Th. 5). The general case then follows immediately.
 
 Corollary 2 extends at once to the product of two complex measures.
 
@@ -436,7 +436,7 @@ $$
 = b \left( \int^\bullet |\mathbf{f}(t)| d\mu(t) \right) \left( \int^\bullet |\mathbf{f}'(t')| d\mu'(t') \right)
 $$
 
-by virtue of Prop. 8. This shows that $[\mathbf{f}(t) \cdot \mathbf{f}'(t')]$ is essentially integrable for $\mu \otimes \mu'$ (\S 1, No. 3, Prop. 9). Suppose that $\mathbf{f}$ and $\mathbf{f}'$ are integrable: then $\mathbf{f}$ and $\mathbf{f}'$ are moderated, and $\mathbf{g}$ is moderated (Cor. 2 of Prop. 5) therefore integrable (\S 1, No. 3, Cor. of Prop. 9). In this case the formula (14) follows from the Lebesgue–Fubini theorem and the linearity of the integral (Ch. IV, \S 4, No. 2, Th. 1). To complete the treatment of the case that $\mathbf{f}$ and $\mathbf{f}'$ are essentially integrable, one then applies (14) to two integrable functions $\mathbf{f}_1$ and $\mathbf{f}_1'$, equal locally almost everywhere to $\mathbf{f}$ and $\mathbf{f}'$, on observing that $[\mathbf{f} \cdot \mathbf{f}'] = [\mathbf{f}_1 \cdot \mathbf{f}_1']$ locally almost everywhere in $T \times T'$ (Prop. 4).
+by virtue of Prop. 8. This shows that $[\mathbf{f}(t) \cdot \mathbf{f}'(t')]$ is essentially integrable for $\mu \otimes \mu'$ (§ 1, No. 3, Prop. 9). Suppose that $\mathbf{f}$ and $\mathbf{f}'$ are integrable: then $\mathbf{f}$ and $\mathbf{f}'$ are moderated, and $\mathbf{g}$ is moderated (Cor. 2 of Prop. 5) therefore integrable (§ 1, No. 3, Cor. of Prop. 9). In this case the formula (14) follows from the Lebesgue–Fubini theorem and the linearity of the integral (Ch. IV, § 4, No. 2, Th. 1). To complete the treatment of the case that $\mathbf{f}$ and $\mathbf{f}'$ are essentially integrable, one then applies (14) to two integrable functions $\mathbf{f}_1$ and $\mathbf{f}_1'$, equal locally almost everywhere to $\mathbf{f}$ and $\mathbf{f}'$, on observing that $[\mathbf{f} \cdot \mathbf{f}'] = [\mathbf{f}_1 \cdot \mathbf{f}_1']$ locally almost everywhere in $T \times T'$ (Prop. 4).
 
 This result extends to the product of complex measures.
 
@@ -453,11 +453,11 @@ $$
 
 b) Conversely, if $g \otimes g'$ is locally $\nu$-integrable, and if $g'$ is not locally $\mu'$-negligible, then $g$ is locally $\mu$-integrable.
 
-a) Let $K$ and $K'$ be two compact subsets of $T$ and $T'$, respectively; Cor. 2 of Prop. 8 shows that the function $(t, t') \mapsto g(t)g'(t')\varphi_{K \times K'}(t, t')$, equal to $(g\varphi_K) \otimes (g'\varphi_{K'})$, is $\nu$-integrable. Consequently, $g \otimes g'$ is locally $\nu$-integrable. One then verifies immediately that the second member of (15) satisfies the characteristic property of product measures (Ch. III, \S 4, No. 1, Th. 1).
+a) Let $K$ and $K'$ be two compact subsets of $T$ and $T'$, respectively; Cor. 2 of Prop. 8 shows that the function $(t, t') \mapsto g(t)g'(t')\varphi_{K \times K'}(t, t')$, equal to $(g\varphi_K) \otimes (g'\varphi_{K'})$, is $\nu$-integrable. Consequently, $g \otimes g'$ is locally $\nu$-integrable. One then verifies immediately that the second member of (15) satisfies the characteristic property of product measures (Ch. III, § 4, No. 1, Th. 1).
 
 b) Now suppose that $g \otimes g'$ is locally $\nu$-integrable, and that $g'$ is not locally $\mu'$-negligible. Let $\mu_1$ be a positive measure with compact support such that $\mu_1 \leq \mu$; $g \otimes g'$ being $(\mu_1 \otimes \mu')$-measurable, $t \mapsto g(t)g'(t')$ is $\mu_1$-measurable except for a locally $\mu'$-negligible set of values of $t'$ (Prop. 2).
 
-Since $g'$ is not zero locally $\mu'$-almost everywhere, from this we deduce that that $g$ is $\mu_1$-measurable, then $\mu$-measurable on decomposing $\mu$ into a sum of a family of measures with compact support (\S 2, No. 3, Prop. 4 and \S 2, No. 2, Prop. 2). Having established this point, we may reduce to the case that $g$ and $g'$ are $\geqslant 0$, on replacing $g$ and $g'$ by their absolute values if necessary. Let $K$ be any compact subset of $T$, and let $K'$ be a compact subset of $T'$ such that $\int g' \varphi_{K'} d\mu' \neq 0$. By Prop. 8,
+Since $g'$ is not zero locally $\mu'$-almost everywhere, from this we deduce that that $g$ is $\mu_1$-measurable, then $\mu$-measurable on decomposing $\mu$ into a sum of a family of measures with compact support (§ 2, No. 3, Prop. 4 and § 2, No. 2, Prop. 2). Having established this point, we may reduce to the case that $g$ and $g'$ are $\geqslant 0$, on replacing $g$ and $g'$ by their absolute values if necessary. Let $K$ be any compact subset of $T$, and let $K'$ be a compact subset of $T'$ such that $\int g' \varphi_{K'} d\mu' \neq 0$. By Prop. 8,
 
 $$
 \left( \int^\bullet g \varphi_K d\mu \right) \left( \int^\bullet g' \varphi_{K'} d\mu' \right) = \iiint^\bullet (g \otimes g') \varphi_{K \times K'} d\mu d\mu' < +\infty .
@@ -465,7 +465,7 @@ $$
 
 The first factor of the first member is therefore finite, and this completes the proof.
 
-This proposition extends to complex measures, thanks to Prop. 3 of Ch. III, \S 4, No. 2.
+This proposition extends to complex measures, thanks to Prop. 3 of Ch. III, § 4, No. 2.
 
 #### Proposition 11 {#int-v-s8-prop-11 .statement}
 
@@ -484,7 +484,7 @@ $$
 = \left( \int f(\pi(t)) d\mu(t) \right) \left( \int f'(\pi'(t')) d\mu'(t') \right)
 $$
 
-(Cor. 2 of Prop. 8), which proves that $\nu_1 = \mu_1 \otimes \mu'_1$ (Ch. III, \S 4, No. 1, Th. 1).
+(Cor. 2 of Prop. 8), which proves that $\nu_1 = \mu_1 \otimes \mu'_1$ (Ch. III, § 4, No. 1, Th. 1).
 
 b) Now suppose that $\pi \times \pi'$ is $\mu \otimes \mu'$-proper and that $\mu' \neq 0$. Let $\mu_1$ be a measure $\leq \mu$ with compact support. The function $\pi \times \pi'$ being measurable for $\mu_1 \otimes \mu'$, the mapping $t \mapsto (\pi(t), \pi'(t'))$ is $\mu$-measurable except for $t'$ forming a locally $\mu'$-negligible set (No. 2, Prop. 2). Since $\mu' \neq 0$, it follows that $\pi$ is $\mu_1$-measurable, and finally that $\pi$ is $\mu$-measurable
 

@@ -1,0 +1,23 @@
+{"edges": [
+{"from":"","from_label":"fvr-v-s1","to_label":"top-i-s6","kind":"cites","raw":"*Gen. Top.*, I, p. 58","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":41},
+{"from":"","from_label":"fvr-v-s1","to_label":"top-i-s6","kind":"cites","raw":"*Gen. Top.*, I, p. 66","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":59},
+{"from":"","from_label":"fvr-v-s1","to_label":"ens-ii-s6","kind":"cites","raw":"*Set Theory*, II, p. 117","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":59},
+{"from":"","from_label":"fvr-v-s1-n1-exa-5","to_label":"top-i-s6","kind":"cites","raw":"*Gen. Top.*, I, p. 67","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":69},
+{"from":"","from_label":"fvr-v-s1-n1-cor-1","to_label":"ens-ii-s6","kind":"cites","raw":"*Set Theory*, II, p. 113","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":119},
+{"from":"","from_label":"fvr-v-s1-n1-exa-4","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 213","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":143},
+{"from":"","from_label":"fvr-v-s1-n1-rem-2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 213","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":155},
+{"from":"","from_label":"fvr-v-s1-n1-rem-2","to_label":"ens-iii-s1","kind":"cites","raw":"*Set Theory*, III, p. 134","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":155},
+{"from":"","from_label":"fvr-v-s1-def-3","to_label":"fvr-iii-s2","kind":"cites","raw":"III, p. 105","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":173},
+{"from":"","from_label":"fvr-v-s1-prop-5","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 213","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":190},
+{"from":"","from_label":"fvr-v-s1-prop-6","to_label":"fvr-v-s1-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":196},
+{"from":"","from_label":"fvr-v-s1-prop-7","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":202},
+{"from":"","from_label":"fvr-v-s1-n2-cor-1","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":208},
+{"from":"","from_label":"fvr-v-s1-n2-exa-4","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 3","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":230},
+{"from":"","from_label":"fvr-v-s1-prop-8","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":255},
+{"from":"","from_label":"fvr-v-s1-prop-8","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 214","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":257},
+{"from":"","from_label":"fvr-v-s1-n2-rem-2","kind":"cites","raw":"IX, p. 170","form":"page","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":271},
+{"from":"","from_label":"fvr-v-s1-prop-9","to_label":"top-i-s9","kind":"cites","raw":"*Gen. Top.*, I, p. 85","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":287},
+{"from":"","from_label":"fvr-v-s1","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 213","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":345},
+{"from":"","from_label":"fvr-v-s1","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/01_s1_comparison_of_functions_on_a_filtered.md","line":354},
+{"from":"","from_label":"fvr-v-s1-ex-3","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 217","form":"page","resolved_by":"section","file":"content/en/fvr/V/exercises/s1/03.md","line":17}
+]}

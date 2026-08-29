@@ -24,9 +24,9 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 4b593811c35eea7173d084347922e5d4ace07a7529466767f76223cecf3dfb51
+content_sha256: 9f8d57f83d7bd5f1154c5659bf43744dc834cb1e4c1a52542653e53cdef66f9d
 translated_from: content/en/lie/I/07_s7_ado_s_theorem.md
-source_content_sha256: 785bf10df6ae3eac87a721387892f9d4d16e5bc6b61371a0eddb306d3befda22
+source_content_sha256: 88c99569fd7f93541de8470999a923ed72c5b349486bddb4207865298e2f0c53
 translation_model: gpt-5.4, copied
 translation_run: translate-vi-eb57ee92
 glossary_version: 34
@@ -61,13 +61,13 @@ $$
 
 (3) $x \in h, y \in h$: khi đó $[x, y]_{U'}$ và $[x_{U'}, y_{U'}]$ là hai đạo hàm của $U'$ mà các hạn chế của chúng lên $g'$ trùng nhau với các hạn chế của $\mathrm{ad}_g[x, y]$ và $[\mathrm{ad}_g x, \mathrm{ad}_g y]$; do đó các đạo hàm này bằng nhau.
 
-Ta cũng sẽ xét biểu diễn đối ngẫu $x \mapsto {}^t x_{U'}$ của g trên $U'^*$. Với $x \in g'$, ${}^t x_{U'}$ là chuyển vị của phép nhân phải bởi x trong $U'$; do đó biểu diễn tương ứng của $U'$ là biểu diễn đối chính quy của $U'$.
+Ta cũng sẽ xét biểu diễn đối ngẫu $x \mapsto {}^t x_{U'}$ của g trên ${U'}^*$. Với $x \in g'$, ${}^t x_{U'}$ là chuyển vị của phép nhân phải bởi x trong $U'$; do đó biểu diễn tương ứng của $U'$ là biểu diễn đối chính quy của $U'$.
 
 #### Định nghĩa 1 {#lie-i-s7-def-1 .statement}
 
 Cho $g$ là một đại số Lie, $g'$ là một đại số con của $g$ và $\rho'$ là một biểu diễn của $g'$ trên $V'$. Một biểu diễn $\rho$ của $g$ trên $V$ được gọi là một mở rộng của $\rho'$ lên $g$ nếu tồn tại một đồng cấu đơn cấu của $g'$-môđun vào $g'$-môđun $V$. Ta cũng nói rằng $g$-môđun $V$ là một mở rộng của $g'$-môđun $V'$.
 
-Nếu $\rho'$ là hữu hạn chiều và $g'$ là một iđêan giải được của $g$, thì điều kiện cần để tồn tại một mở rộng hữu hạn chiều là $[g, g']$ được chứa trong iđêan lũy linh lớn nhất của $\rho'$ (\S 5, no. 3, Định lý 1).
+Nếu $\rho'$ là hữu hạn chiều và $g'$ là một iđêan giải được của $g$, thì điều kiện cần để tồn tại một mở rộng hữu hạn chiều là $[g, g']$ được chứa trong iđêan lũy linh lớn nhất của $\rho'$ (§ 5, no. 3, Định lý 1).
 
 #### Định lý 1 (Zassenhaus) {#lie-i-s7-thm-1 .statement}
 
@@ -77,11 +77,11 @@ Cho $g = g' + h$ là một đại số Lie là tổng trực tiếp của một 
 
 (b) Nếu với mọi $x \in h$ thì hạn chế lên $g'$ của $\operatorname{ad}_gx$ là lũy linh, có thể chọn $\rho$ sao cho hơn nữa iđêan lũy linh lớn nhất của $\rho$ chứa $h$.
 
-Cho $U'$ là đại số bao của $g'$. Giả sử $U'$ và $U'^*$ có các cấu trúc $g$-môđun được xác định ở đầu no này.
+Cho $U'$ là đại số bao của $g'$. Giả sử $U'$ và ${U'}^*$ có các cấu trúc $g$-môđun được xác định ở đầu no này.
 
 $$
 \begin{array}{ll}
-U'^* & \text{Cho } I \subset U' \text{ là hạt nhân của } \rho' \text{ (đồng nhất với một biểu diễn của } U'). \text{ Nó là một iđêan hai phía của } U' \text{ có đối chiều hữu hạn. Không gian con } C(\rho') \text{ của } U'^* \text{ (x. no. 1) trực giao với } I. \text{ Cho } S \text{ là môđun con-} g \text{ của } U'^* \text{ được sinh bởi } C(\rho'). \\
+{U'}^* & \text{Cho } I \subset U' \text{ là hạt nhân của } \rho' \text{ (đồng nhất với một biểu diễn của } U'). \text{ Nó là một iđêan hai phía của } U' \text{ có đối chiều hữu hạn. Không gian con } C(\rho') \text{ của } {U'}^* \text{ (x. no. 1) trực giao với } I. \text{ Cho } S \text{ là môđun con-} g \text{ của } {U'}^* \text{ được sinh bởi } C(\rho'). \\
 C(\rho')
 \end{array}
 $$
@@ -89,20 +89,20 @@ $$
 Bây giờ ta chỉ ra rằng $S$ là hữu hạn chiều trên $K$. Gọi $V'$ là không gian mà trên đó $\rho'$ tác động và $V' = V'_0 \supset V'_1 \supset \cdots \supset V'_d = \{0\}$ là một chuỗi Jordan-Hölder của $g'$-môđun $V'$. Gọi $\rho'_i$ là biểu diễn của $g'$ trên $V'_{i-1}/V'_i$ dẫn xuất từ $\rho'$ ($1 \leq i \leq d$). Gọi $I' \subset U'$ là giao của các hạt nhân của các $\rho'_i$ (được đồng nhất với các biểu diễn của $U'$). Khi đó
 
 $$
-I'^d \subset I \subset I'
+{I'}^d \subset I \subset I'
 $$
 
-và $I' \cap g'$ là iđêan lũy linh lớn nhất của $\rho'$. Theo \S 2, no. 6, Hệ quả của Mệnh đề 6, $I'^d$ có đối chiều hữu hạn trong $U'$. Nếu $x \in h$, đạo hàm $u \mapsto xu - ux$ của $U'$ ánh xạ $g'$ vào $[h, g'] \subset I'$, do đó ánh xạ $U'$ vào $I'$ và vì thế ánh xạ $I'^d$ vào $I'^d$. Mặt khác, rõ ràng $I'^d$ là một dưới-$g'$-môđun của $U'$. Vậy $I'^d$ là một dưới-$g$-môđun của $U'$. Phần trực giao của $I'^d$ trong $U'^*$ là một dưới-$g$-môđun hữu hạn chiều chứa $C(\rho')$ và do đó chứa $S$. Điều này chứng tỏ rằng $S$ là hữu hạn chiều trên $K$. Với $x \in I' \cap g'$, $x^d$ hiển nhiên được chứa trong linh hóa tử của $g$-môđun $U'/I'^d$ và do đó cũng được chứa trong linh hóa tử của $g$-môđun $S$.
+và $I' \cap g'$ là iđêan lũy linh lớn nhất của $\rho'$. Theo § 2, no. 6, Hệ quả của Mệnh đề 6, ${I'}^d$ có đối chiều hữu hạn trong $U'$. Nếu $x \in h$, đạo hàm $u \mapsto xu - ux$ của $U'$ ánh xạ $g'$ vào $[h, g'] \subset I'$, do đó ánh xạ $U'$ vào $I'$ và vì thế ánh xạ ${I'}^d$ vào ${I'}^d$. Mặt khác, rõ ràng ${I'}^d$ là một dưới-$g'$-môđun của $U'$. Vậy ${I'}^d$ là một dưới-$g$-môđun của $U'$. Phần trực giao của ${I'}^d$ trong ${U'}^*$ là một dưới-$g$-môđun hữu hạn chiều chứa $C(\rho')$ và do đó chứa $S$. Điều này chứng tỏ rằng $S$ là hữu hạn chiều trên $K$. Với $x \in I' \cap g'$, $x^d$ hiển nhiên được chứa trong linh hóa tử của $g$-môđun $U'/{I'}^d$ và do đó cũng được chứa trong linh hóa tử của $g$-môđun $S$.
 
 Ta đã thấy ở no. 1 rằng $g'$-môđun $V'$ đẳng cấu với một môđun con-$g'$ của một tích $(C(\rho'))^n$. Do đó, $g$-môđun $S^n$ cho một mở rộng hữu hạn chiều $\rho$ của $\rho'$ lên $g$. Hơn nữa, $\rho(x)$ là lũy linh với $x \in I' \cap g'$; vì $I' \cap g'$ là một iđêan của $g$ (do nó chứa $[h, g']$ theo giả thiết), ta thấy rằng $I' \cap g'$ được chứa trong iđêan lũy linh lớn nhất của $\rho$. Vậy (a) được chứng minh.
 
-Giả sử sau cùng rằng với mọi $x \in h$ phép hạn chế lên $g'$ của $\mathrm{ad}_{\psi}x$ là lũy linh. Vì các phần tử của $h$ tác động lên $U'$ bởi các phép dẫn xuất, nên với mọi $u \in U'$ và mọi $x \in h$ tồn tại một số nguyên $e$ sao cho $(x_{U'})^e.u = 0$; do đó các nội cấu dẫn xuất từ $x_{U'}$ trên $U'/I'^d$ và trên $S$ (là các không gian hữu hạn chiều) đều lũy linh. Vậy $\rho(x)$ là lũy linh với mọi $x \in h$. Ta đã thấy trước đó rằng điều này cũng đúng với $x \in I' \cap g'$. Vì $I' \cap g'$ là một iđêan của $g'$ chứa $[h, g']$, nên tổng $h + (I' \cap g')$ cũng là một iđêan của $g$. Mệnh đề (b) của Định lý 1 khi đó suy ra từ bổ đề sau:
+Giả sử sau cùng rằng với mọi $x \in h$ phép hạn chế lên $g'$ của $\mathrm{ad}_{\psi}x$ là lũy linh. Vì các phần tử của $h$ tác động lên $U'$ bởi các phép dẫn xuất, nên với mọi $u \in U'$ và mọi $x \in h$ tồn tại một số nguyên $e$ sao cho $(x_{U'})^e.u = 0$; do đó các nội cấu dẫn xuất từ $x_{U'}$ trên $U'/{I'}^d$ và trên $S$ (là các không gian hữu hạn chiều) đều lũy linh. Vậy $\rho(x)$ là lũy linh với mọi $x \in h$. Ta đã thấy trước đó rằng điều này cũng đúng với $x \in I' \cap g'$. Vì $I' \cap g'$ là một iđêan của $g'$ chứa $[h, g']$, nên tổng $h + (I' \cap g')$ cũng là một iđêan của $g$. Mệnh đề (b) của Định lý 1 khi đó suy ra từ bổ đề sau:
 
 #### Bổ đề 1 {#lie-i-s7-lem-1 .statement}
 
 *Cho $g = g' + h$ là một đại số Lie là tổng của một iđêan $g'$ và một đại số con $h$. Cho $\sigma$ là một biểu diễn hữu hạn chiều của $g$. Giả sử rằng $\sigma(x)$ là lũy linh với mọi $x \in g'$ và mọi $x \in h$. Khi đó $\sigma(x)$ là lũy linh với mọi $x \in g$.*
 
-Chuyển qua thương theo hạt nhân của $\sigma$, có thể giả sử $\sigma$ là trung thành. Khi đó $g'$ và $h$ là lũy linh và do đó $g$, là một mở rộng của một thương của $h$ bởi $g'$, là giải được. Khi đó $h$ và $g'$ được chứa trong iđêan lũy linh lớn nhất của $\sigma$ (\S 5, no. 3, Hệ quả 6 của Định lý 1).
+Chuyển qua thương theo hạt nhân của $\sigma$, có thể giả sử $\sigma$ là trung thành. Khi đó $g'$ và $h$ là lũy linh và do đó $g$, là một mở rộng của một thương của $h$ bởi $g'$, là giải được. Khi đó $h$ và $g'$ được chứa trong iđêan lũy linh lớn nhất của $\sigma$ (§ 5, no. 3, Hệ quả 6 của Định lý 1).
 
 Để có một cải tiến của Định lý 1, xem Bài tập 4.
 
@@ -112,11 +112,11 @@ Chuyển qua thương theo hạt nhân của $\sigma$, có thể giả sử $\si
 
 *Cho $g$ là một đại số Lie, $n$ là iđêan lũy linh lớn nhất của nó, $a$ là một iđêan lũy linh của $g$ và $\rho$ là một biểu diễn hữu hạn chiều của $a$ sao cho mọi phần tử của $\rho(a)$ đều lũy linh. Khi đó $\rho$ có một mở rộng hữu hạn chiều $\sigma$ lên $g$ sao cho mọi phần tử của $\sigma(n)$ đều lũy linh.*
 
-Cho $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ là một dãy các đại số con của $n$ sao cho $n_{i-1}$ là một iđêan của $n_i$ có đối chiều 1 với $1 \leq i \leq p$ (\S 4, no. 1, Mệnh đề 1 (e)). Do đó đại số $n_i$ là tổng trực tiếp của $n_{i-1}$ và một đại số con 1-chiều. Vì $\mathrm{ad}_{n}x$ là lũy linh với mọi $x \in n$, nên có thể tìm được lần lượt các mở rộng hữu hạn chiều $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ của $\rho$ lên $n_1, n_2, \ldots, n_p = n$ sao cho mọi phần tử của $\rho'(n)$ đều lũy linh.
+Cho $a = n_0 \subset n_1 \subset \cdots \subset n_p = n$ là một dãy các đại số con của $n$ sao cho $n_{i-1}$ là một iđêan của $n_i$ có đối chiều 1 với $1 \leq i \leq p$ (§ 4, no. 1, Mệnh đề 1 (e)). Do đó đại số $n_i$ là tổng trực tiếp của $n_{i-1}$ và một đại số con 1-chiều. Vì $\mathrm{ad}_{n}x$ là lũy linh với mọi $x \in n$, nên có thể tìm được lần lượt các mở rộng hữu hạn chiều $\rho_1, \rho_2, \ldots, \rho_p = \rho'$ của $\rho$ lên $n_1, n_2, \ldots, n_p = n$ sao cho mọi phần tử của $\rho'(n)$ đều lũy linh.
 
-Gọi $r$ là căn của $g$ và gọi $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ là một dãy các đại số con của $r$ sao cho $r_{i-1}$ là một iđêan của $r_i$ có đối chiều 1 với $1 \leq i \leq q$ (\S 5, no. 1, Mệnh đề 2 (d)). Do đó đại số $r_i$ là tổng trực tiếp của $r_{i-1}$ và một đại số con một chiều. Vì $[r, r] \subset n$, nên có thể (Định lý 1) tìm lần lượt các mở rộng hữu hạn chiều $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ của $\rho'$ lên $r_1, r_2, \ldots, r_q = r$ sao cho mọi phần tử của $\rho''(n)$ đều lũy linh.
+Gọi $r$ là căn của $g$ và gọi $n = r_0 \subset r_1 \subset \cdots \subset r_q = r$ là một dãy các đại số con của $r$ sao cho $r_{i-1}$ là một iđêan của $r_i$ có đối chiều 1 với $1 \leq i \leq q$ (§ 5, no. 1, Mệnh đề 2 (d)). Do đó đại số $r_i$ là tổng trực tiếp của $r_{i-1}$ và một đại số con một chiều. Vì $[r, r] \subset n$, nên có thể (Định lý 1) tìm lần lượt các mở rộng hữu hạn chiều $\rho'_1, \rho'_2, \ldots, \rho'_q = \rho''$ của $\rho'$ lên $r_1, r_2, \ldots, r_q = r$ sao cho mọi phần tử của $\rho''(n)$ đều lũy linh.
 
-Cuối cùng $g$ là tổng trực tiếp của $r$ và một đại số con $s$ (\S 6, no. 8, Định lý 5). Vì $[s, r] \subset n$, nên có thể (Định lý 1) tìm được một mở rộng hữu hạn chiều $\sigma$ của $\rho''$ lên $g$ sao cho mọi phần tử của $\sigma(n)$ đều lũy linh.
+Cuối cùng $g$ là tổng trực tiếp của $r$ và một đại số con $s$ (§ 6, no. 8, Định lý 5). Vì $[s, r] \subset n$, nên có thể (Định lý 1) tìm được một mở rộng hữu hạn chiều $\sigma$ của $\rho''$ lên $g$ sao cho mọi phần tử của $\sigma(n)$ đều lũy linh.
 
 #### Định lý 2 {#lie-i-s7-thm-2 .statement}
 

@@ -25,9 +25,9 @@ subsections:
       pdf_page: 228
 statements: 16
 exercises: 18
-content_sha256: 52ff2322a9621390e516a52f8f3c9daa05f376063ab4268b1ef2ae9412aad15e
+content_sha256: 8ffbeac21c0874e3e524b9a139fefcf83c5998159dd048df67f7c8045b84c252
 translated_from: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
-source_content_sha256: 7bc764a9b78ff43fbe0ede2d34d02c8291669a44121e1fd0b1781b5cd157cf3d
+source_content_sha256: 2493836e74654f6d6eea61a9256ec8940a776c449c0ec756069912399a77fc43
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-6850220c
 glossary_version: 34
@@ -61,7 +61,7 @@ $$
 
 Khi đó đo $\mu$ là duy nhất.
 
-Tính duy nhất của $\mu$ suy ra từ Hệ quả của Mệnh đề 2 của \S 1, No. 2. Các điều kiện trên là cần thiết, ba điều kiện đầu tiên theo cách hiển nhiên, điều kiện cuối cùng từ sự kiện rằng $\mu^\bullet$ là một hàm bao địa phương bị chặn, và điều kiện 4) theo Hệ quả của Mệnh đề 5 của \S 1, No. 6.
+Tính duy nhất của $\mu$ suy ra từ Hệ quả của Mệnh đề 2 của § 1, No. 2. Các điều kiện trên là cần thiết, ba điều kiện đầu tiên theo cách hiển nhiên, điều kiện cuối cùng từ sự kiện rằng $\mu^\bullet$ là một hàm bao địa phương bị chặn, và điều kiện 4) theo Hệ quả của Mệnh đề 5 của § 1, No. 6.
 
 Để chỉ ra rằng các điều kiện này là đủ, ta bắt đầu bằng việc xét trường hợp T compact.
 
@@ -118,7 +118,7 @@ $$
 
 do đó ngay lập tức nhận được công thức mong muốn (3), xét đến tính tùy ý của $\varepsilon$. Sau khi điều này được thiết lập, các bất đẳng thức trước đó suy ra rằng $J(C) \geq J(A_1 \cup A_2) - 6\varepsilon$; nếu $A_1$ và $A_2$ rời nhau, thì $C$ là hợp của $K_1 \cap L_2 \subset A_1$ và $K_2 \cap L_1 \subset A_2$, từ đó suy ra rằng $J(A_1 \cup A_2) \leq J(A_1) + J(A_2)$. Bất đẳng thức ngược là hiển nhiên, $J$ thực sự cộng tính trên $\Phi$, và bổ đề được chứng minh.
 
-Ta hoàn thành chứng minh định lý cho trường hợp $T$ compact. Gọi $\mathcal{E}(\Phi)$ là không gian vectơ các hàm bậc thang $\Phi$ trên $T$, được trang bị tôpô hội tụ đều (Ch. IV, §4, No. 9, Định nghĩa 4); ta lại ký hiệu $J$ là dạng tuyến tính dương trên $\mathcal{E}(\Phi)$ liên kết với hàm cộng tính $J$ (loc. cit., Mệnh đề 18). Vì $J(T) = l$, $J$ liên tục và có chuẩn $l$. Khi đó, gọi $\mathcal{H}$ là bao đóng của $\mathcal{E}(\Phi)$ đối với tôpô hội tụ đều; ta kiểm tra ngay được rằng $J$ có thể được mở rộng bằng tính liên tục thành một dạng tuyến tính *dương* trên $\mathcal{H}$, vẫn ký hiệu là $J$. Vì $\mathcal{H}$ chứa $\mathcal{C}(T)$ (loc. cit., No. 10, Mệnh đề 19), hạn chế của $J$ trên $\mathcal{C}(T)$ là một độ đo dương $\mu$. Còn phải chứng minh rằng $\mu^\bullet(K) = I(K)$ với mọi tập compact $K$ của $T$. Bây giờ, ta có $\mu^\bullet(K) = \inf_{f \in S_K} \mu^\bullet(f)$, trong đó $S_K$ ký hiệu tập hợp các phần tử của $\mathcal{C}(T)$ thỏa mãn $\geq \varphi_K$ (\S1, No. 6, Mệnh đề 5). Vì $J(f) = \mu^\bullet(f)$ với $f \in \mathcal{C}(T)$, rõ ràng chỉ cần chứng minh rằng $J(K) \geq \inf_{f \in S_K} J(f)$. Như trong chứng minh của Bổ đề 1, gọi $H$ là một lân cận compact của $K$ sao cho $J(H) \leq J(K) + \varepsilon$, và gọi $f$ là một hàm liên tục trên $T$, nằm giữa 0 và 1, bằng 1 trên $K$ và bằng 0 bên ngoài $H$ (GT, IX, §4, No. 1, Mệnh đề 1). Khi đó
+Ta hoàn thành chứng minh định lý cho trường hợp $T$ compact. Gọi $\mathcal{E}(\Phi)$ là không gian vectơ các hàm bậc thang $\Phi$ trên $T$, được trang bị tôpô hội tụ đều (Ch. IV, §4, No. 9, Định nghĩa 4); ta lại ký hiệu $J$ là dạng tuyến tính dương trên $\mathcal{E}(\Phi)$ liên kết với hàm cộng tính $J$ (loc. cit., Mệnh đề 18). Vì $J(T) = l$, $J$ liên tục và có chuẩn $l$. Khi đó, gọi $\mathcal{H}$ là bao đóng của $\mathcal{E}(\Phi)$ đối với tôpô hội tụ đều; ta kiểm tra ngay được rằng $J$ có thể được mở rộng bằng tính liên tục thành một dạng tuyến tính *dương* trên $\mathcal{H}$, vẫn ký hiệu là $J$. Vì $\mathcal{H}$ chứa $\mathcal{C}(T)$ (loc. cit., No. 10, Mệnh đề 19), hạn chế của $J$ trên $\mathcal{C}(T)$ là một độ đo dương $\mu$. Còn phải chứng minh rằng $\mu^\bullet(K) = I(K)$ với mọi tập compact $K$ của $T$. Bây giờ, ta có $\mu^\bullet(K) = \inf_{f \in S_K} \mu^\bullet(f)$, trong đó $S_K$ ký hiệu tập hợp các phần tử của $\mathcal{C}(T)$ thỏa mãn $\geq \varphi_K$ (§ 1, No. 6, Mệnh đề 5). Vì $J(f) = \mu^\bullet(f)$ với $f \in \mathcal{C}(T)$, rõ ràng chỉ cần chứng minh rằng $J(K) \geq \inf_{f \in S_K} J(f)$. Như trong chứng minh của Bổ đề 1, gọi $H$ là một lân cận compact của $K$ sao cho $J(H) \leq J(K) + \varepsilon$, và gọi $f$ là một hàm liên tục trên $T$, nằm giữa 0 và 1, bằng 1 trên $K$ và bằng 0 bên ngoài $H$ (GT, IX, §4, No. 1, Mệnh đề 1). Khi đó
 
 $$
 J(f) \leq J(H) \leq J(K) + \varepsilon;
@@ -132,7 +132,7 @@ Bây giờ ta chuyển sang trường hợp tổng quát. Với mỗi tập comp
 
 Điều kiện 4) có thể được thay thế, trong phát biểu của Định lý 1, bởi điều kiện sau đây ('liên tục phải'):
 $4')$ Với mọi $K \in \mathcal{K}(T)$ và mọi $\varepsilon > 0$, tồn tại một tập mở $U$ chứa $K$, sao cho $I(H) \leq I(K) + \varepsilon$ với mọi tập compact $H \subset U$.
-Thật vậy, nếu $\mu$ là một độ đo, hàm $I : K \mapsto \mu^*(K)$ thỏa mãn $4'$ (\S 1, No. 9, Mệnh đề 13). Ngược lại, giả sử rằng $I$ thỏa mãn 1) và $4'$; ta hãy chứng minh rằng khi đó $I$ thỏa mãn 4). Với các ký hiệu như trong phát biểu của Định lý 1, chọn một $\varepsilon > 0$ và một tập mở $U$ chứa tập compact $K = \bigcap_{\alpha \in A} K_\alpha$ và sao cho $4'$) được thỏa mãn. Khi đó tồn tại một chỉ số $\beta \in A$ sao cho $K_\beta \subset U$, và điều này kéo theo
+Thật vậy, nếu $\mu$ là một độ đo, hàm $I : K \mapsto \mu^*(K)$ thỏa mãn $4'$ (§ 1, No. 9, Mệnh đề 13). Ngược lại, giả sử rằng $I$ thỏa mãn 1) và $4'$; ta hãy chứng minh rằng khi đó $I$ thỏa mãn 4). Với các ký hiệu như trong phát biểu của Định lý 1, chọn một $\varepsilon > 0$ và một tập mở $U$ chứa tập compact $K = \bigcap_{\alpha \in A} K_\alpha$ và sao cho $4'$) được thỏa mãn. Khi đó tồn tại một chỉ số $\beta \in A$ sao cho $K_\beta \subset U$, và điều này kéo theo
 $$
 \inf_{\alpha \in A} I(K_\alpha) \leq I(K_\beta) \leq I(K) + \varepsilon
 $$
@@ -195,7 +195,7 @@ Ta có thể chỉ ra rằng nếu I là cộng tính, nghĩa là thỏa mãn (4
 
 — Cho T là một không gian tôpô, và cho I là một hàm xác định trên $\mathcal{B}(T)$, với các giá trị trong $\overline{\mathbf{R}}_+$. Để tồn tại một độ đo $\mu$ trên T sao cho $\mu^*(A) = I(A)$ với mọi $A \in \mathcal{B}(T)$, điều kiện cần và đủ là I cộng tính đếm được, địa phương bị chặn và nội chính quy. Khi đó độ đo $\mu$ là duy nhất.
 
-Ba điều kiện này là cần thiết: vì, ánh xạ $A \mapsto \mu^*(A)$ trên $\mathcal{B}(T)$ là cộng tính đếm được (\S 1, No. 5, Hệ quả của Mệnh đề 4), địa phương bị chặn theo định nghĩa của các độ đo (\S 1, No. 2, Định nghĩa 5), và nội chính quy theo Nhận xét 3 của \S 1, No. 2.
+Ba điều kiện này là cần thiết: vì, ánh xạ $A \mapsto \mu^*(A)$ trên $\mathcal{B}(T)$ là cộng tính đếm được (§ 1, No. 5, Hệ quả của Mệnh đề 4), địa phương bị chặn theo định nghĩa của các độ đo (§ 1, No. 2, Định nghĩa 5), và nội chính quy theo Nhận xét 3 của § 1, No. 2.
 
 Ta chuyển sang sự tồn tại. Rõ ràng là hạn chế của I trên $\mathcal{K}(T)$ thỏa mãn các điều kiện 1), 2), 3) và 5) của mệnh đề của Đl. 1; ta hãy chỉ ra rằng 4) cũng được thỏa mãn. Cho K là một tập con compact của T, là giao của một họ có hướng giảm $(K_\alpha)_{\alpha \in A}$ các tập compact, và cho $\varepsilon$ là một số $> 0$; vì I địa phương bị chặn, tồn tại một lân cận mở (do đó Borel) V của K sao cho $I(V) < +\infty$, và khi đó tồn tại một chỉ số $\alpha$ sao cho $K_\alpha \subset V$; nếu cần thay đổi ký hiệu, ta có thể giả sử rằng $K_\alpha \subset V$ với mọi $\alpha \in A$. Theo tính nội chính quy của I, tồn tại một tập compact $L \subset V - K$ sao cho $I(L) \geq I(V - K) - \varepsilon$; vì L không giao với K, tồn tại một chỉ số $\alpha$ sao cho $L \cap K_\alpha = \varnothing$, và khi đó ta có $I(V - K_\alpha) \geq I(L) \geq I(V - K) - \varepsilon$. Vì $K_\alpha \subset V$, suy ra rằng $I(K_\alpha) \leq I(K) + \varepsilon$ và điều kiện 4) được kiểm chứng.
 
@@ -215,9 +215,9 @@ Tồn tại các không gian Radon không là Radon mạnh.
 
 *Mọi không gian Radon Lindelöf*$^{(1)}$* đều là Radon mạnh.*
 
-Cho T là một không gian Lindelöf chính quy Radon, và I là một hàm tập hợp trên đại số $\mathcal{B}(T)$ có tính dương, cộng tính đếm được và bị chặn địa phương. Các tập mở V sao cho $I(V) < +\infty$ tạo thành một phủ của T, từ đó có thể trích ra một phủ đếm được $(V_n)_{n \in \mathbf{N}}$. Đặt $G_n = V_0 \cup V_1 \cup \cdots \cup V_n$ với mọi $n \in \mathbf{N}$; đặt $H_0 = G_0$ và $H_n = G_n - G_{n-1}$ với $n \geq 1$; cuối cùng, ký hiệu $I_n$ là hàm tập hợp $A \mapsto I(A \cap H_n)$ trên $\mathcal{B}(T)$, hàm này hiển nhiên cộng tính đếm được và bị chặn. Vì các tập hợp $H_n$ tạo thành một phân hoạch của T, ta có $I = \sum_n I_n$. Do không gian T là Radon, với mọi $n \in \mathbf{N}$ tồn tại một độ đo bị chặn $\mu_n$ trên T sao cho $\mu_n^\bullet(A) = I_n(A)$ với mọi $A \in \mathcal{B}(T)$; do đó cũng có $\sum_n \mu_n^\bullet(A) = I(A)$. Vì I bị chặn địa phương, họ $(\mu_n)$ là khả tổng (\S 1, No. 7, Prop. 7); nếu $\mu$ ký hiệu $\sum_n \mu_n$, ta có $\mu^\bullet(A) = I(A)$ với mọi $A \in \mathcal{B}(T)$, và suy ra I là chính quy nội. Nói cách khác, T là Radon mạnh.
+Cho T là một không gian Lindelöf chính quy Radon, và I là một hàm tập hợp trên đại số $\mathcal{B}(T)$ có tính dương, cộng tính đếm được và bị chặn địa phương. Các tập mở V sao cho $I(V) < +\infty$ tạo thành một phủ của T, từ đó có thể trích ra một phủ đếm được $(V_n)_{n \in \mathbf{N}}$. Đặt $G_n = V_0 \cup V_1 \cup \cdots \cup V_n$ với mọi $n \in \mathbf{N}$; đặt $H_0 = G_0$ và $H_n = G_n - G_{n-1}$ với $n \geq 1$; cuối cùng, ký hiệu $I_n$ là hàm tập hợp $A \mapsto I(A \cap H_n)$ trên $\mathcal{B}(T)$, hàm này hiển nhiên cộng tính đếm được và bị chặn. Vì các tập hợp $H_n$ tạo thành một phân hoạch của T, ta có $I = \sum_n I_n$. Do không gian T là Radon, với mọi $n \in \mathbf{N}$ tồn tại một độ đo bị chặn $\mu_n$ trên T sao cho $\mu_n^\bullet(A) = I_n(A)$ với mọi $A \in \mathcal{B}(T)$; do đó cũng có $\sum_n \mu_n^\bullet(A) = I(A)$. Vì I bị chặn địa phương, họ $(\mu_n)$ là khả tổng (§ 1, No. 7, Prop. 7); nếu $\mu$ ký hiệu $\sum_n \mu_n$, ta có $\mu^\bullet(A) = I(A)$ với mọi $A \in \mathcal{B}(T)$, và suy ra I là chính quy nội. Nói cách khác, T là Radon mạnh.
 
-Nhắc lại rằng một tập con A của một không gian tôpô T được gọi là *đo được phổ quát* nếu A là $\mu$-đo được đối với mọi độ đo $\mu$ trên T. Điều này tương đương với việc A là $\mu$-đo được đối với mọi độ đo $\mu$ trên T có *giá compact* (\S 1, No. 8, Prop. 9).
+Nhắc lại rằng một tập con A của một không gian tôpô T được gọi là *đo được phổ quát* nếu A là $\mu$-đo được đối với mọi độ đo $\mu$ trên T. Điều này tương đương với việc A là $\mu$-đo được đối với mọi độ đo $\mu$ trên T có *giá compact* (§ 1, No. 8, Prop. 9).
 
 (1) Nhắc lại (GT, I, §9, Exer. 14; TG, IX, Phụ lục I) rằng một *không gian Lindelöf* là một không gian tôpô T sao cho mọi phủ mở của T đều chứa một phủ đếm được.
 
@@ -255,9 +255,9 @@ $$
 \sup_n \lambda^\bullet(K_n) = J(T) = \lambda^\bullet(C).
 $$
 
-Đặt $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ là Borel trong $X$, $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, do đó ba tập hợp này chỉ khác nhau bởi các tập $\lambda$-không đáng kể, và vì vậy T là $\lambda$-đo được. Điều này hoàn tất chứng minh của $a)$.
+Đặt $K' = \bigcup_{n \in \mathbf{N}} K_n$; $K'$ là Borel trong $X$, $K' \subset T \subset C$, $\lambda^*(K') = \lambda^*(C)$, do đó ba tập hợp này chỉ khác nhau bởi các tập $\lambda$-không đáng kể, và vì vậy T là $\lambda$-đo được. Điều này hoàn tất chứng minh của a).
 
-Ta chuyển sang $b)$. Giả sử rằng $X$ là một không gian Radon, và rằng T là đo được phổ quát trong $X$. Cho $I$ là một hàm dương trên $\mathcal{B}(T)$ cộng tính đếm được và bị chặn; hàm $A \mapsto I(A \cap T)$ trên $\mathcal{B}(X)$ khi đó là dương, cộng tính đếm được và bị chặn, do đó tồn tại một độ đo bị chặn $\nu$ trên $X$ sao cho $I(A \cap T) = \nu^*(A)$ với mọi $A \in \mathcal{B}(X)$. Khi đó, $T$ là $\nu$-đo được; quan hệ trước đó chỉ ra rằng $\nu^*(K) = 0$ với mọi tập con compact $K$ của $X$ rời nhau với T, do đó $\nu$ tập trung trên T. Do đó, với mọi tập Borel $A$ của $X$, ta có $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, trong đó $\mu$ là độ đo cảm sinh bởi $\nu$ trên T. Cuối cùng, suy ra rằng $I(B) = \mu^*(B)$ với mọi tập hợp $B \in \mathcal{B}(T)$ (GT, IX, §6, No. 3, *Nhận xét 2*), và $I$ thực sự là nội chính quy.
+Ta chuyển sang b). Giả sử rằng $X$ là một không gian Radon, và rằng T là đo được phổ quát trong $X$. Cho $I$ là một hàm dương trên $\mathcal{B}(T)$ cộng tính đếm được và bị chặn; hàm $A \mapsto I(A \cap T)$ trên $\mathcal{B}(X)$ khi đó là dương, cộng tính đếm được và bị chặn, do đó tồn tại một độ đo bị chặn $\nu$ trên $X$ sao cho $I(A \cap T) = \nu^*(A)$ với mọi $A \in \mathcal{B}(X)$. Khi đó, $T$ là $\nu$-đo được; quan hệ trước đó chỉ ra rằng $\nu^*(K) = 0$ với mọi tập con compact $K$ của $X$ rời nhau với T, do đó $\nu$ tập trung trên T. Do đó, với mọi tập Borel $A$ của $X$, ta có $I(A \cap T) = \nu^*(A \cap T) = \mu^*(A \cap T)$, trong đó $\mu$ là độ đo cảm sinh bởi $\nu$ trên T. Cuối cùng, suy ra rằng $I(B) = \mu^*(B)$ với mọi tập hợp $B \in \mathcal{B}(T)$ (GT, IX, §6, No. 3, *Nhận xét 2*), và $I$ thực sự là nội chính quy.
 
 #### Hệ quả {#int-ix-s3-n3-cor-1 .statement}
 

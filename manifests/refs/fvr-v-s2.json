@@ -1,0 +1,15 @@
+{"edges": [
+{"from":"","from_label":"fvr-v-s2-n1-exa-5","to_label":"fvr-v-s2-n1-exa-2","kind":"cites","raw":"Example 2","form":"local","resolved_by":"nearest-above","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":75},
+{"from":"","from_label":"fvr-v-s2-n2-exa-2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 216","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":93},
+{"from":"","from_label":"fvr-v-s2-def-2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 219","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":107},
+{"from":"","from_label":"fvr-v-s2-def-2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":111},
+{"from":"","from_label":"fvr-v-s2-def-2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":113},
+{"from":"","from_label":"fvr-v-s2-def-2","to_label":"fvr-i-s3","kind":"cites","raw":"I, p. 21","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":117},
+{"from":"","from_label":"fvr-v-s2","to_label":"fvr-v-s2","kind":"cites","raw":"V, p. 222","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":121},
+{"from":"","from_label":"fvr-v-s2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 213","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":125},
+{"from":"","from_label":"fvr-v-s2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":125},
+{"from":"","from_label":"fvr-v-s2","to_label":"fvr-v-s1","kind":"cites","raw":"V, p. 215","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":125},
+{"from":"","from_label":"fvr-v-s2","to_label":"fvr-i-s3","kind":"cites","raw":"I, p. 21","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":141},
+{"from":"","from_label":"fvr-v-s2-n5-exa-1","to_label":"fvr-v-s2","kind":"cites","raw":"V, p. 222","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":213},
+{"from":"","from_label":"fvr-v-s2-n5-exa-1","to_label":"fvr-v-s2","kind":"cites","raw":"V, p. 223","form":"page","resolved_by":"section","file":"content/en/fvr/V/02_s2_asymptotic_expansions.md","line":215}
+]}

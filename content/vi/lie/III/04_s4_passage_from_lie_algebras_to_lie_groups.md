@@ -40,9 +40,9 @@ subsections:
       pdf_page: 312
 statements: 40
 exercises: 8
-content_sha256: e7df828f400d76a3b15860f86adea3f888736429cd8516520616f3839854a8d3
+content_sha256: 83343a3aa12a83af2855fb38e03e1be002ab201a00a55d0c5c7537cda514d805
 translated_from: content/en/lie/III/04_s4_passage_from_lie_algebras_to_lie_groups.md
-source_content_sha256: f6119fafd0c50520cc240963bc402a61a2e75894df4eadd672f32edea82dae6f
+source_content_sha256: dc59481a501f40d45c0742b137c5851b6eca2830d1e1723f2728e33fa3a87a07
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-cbb0aad0
 glossary_version: 34
@@ -60,7 +60,7 @@ Nhắc lại rằng, cho đến hết chương này, K được giả thiết l�
 
 *Cho G là một mầm nhóm Lie và $\mathfrak{h}$ là một đại số con Lie của $L(G)$ thừa nhận một phần bù tôpô. Hợp của các $g\mathfrak{h}$ (tương ứng $\mathfrak{h}g$) với $g \in G$ là một phân bó vectơ con khả tích của $T(G)$.*
 
-Bằng cách xét phép tầm thường hóa trái của $T(G)$ (\S 2, no. 3), ta thấy ngay lập tức rằng các $g\mathfrak{h}$, với $g \in G$, là các thớ của một phân bó vectơ con E của $T(G)$. Cho $g \in G$. Tập hợp các $(L_a)_g$, trong đó $a \in \mathfrak{h}$, bằng $g\mathfrak{h}$. Bây giờ, nếu $a$ và $b$ thuộc $\mathfrak{h}$, thì $[L_a, L_b] = L_{[a, b]}$ và $[a, b] \in \mathfrak{h}$. Do đó E là khả tích (*Differentiable and Analytic Manifolds*, R, 9.3.3 (iv)). Lập luận tương tự đối với các $\mathfrak{h}g$.
+Bằng cách xét phép tầm thường hóa trái của $T(G)$ (§ 2, no. 3), ta thấy ngay lập tức rằng các $g\mathfrak{h}$, với $g \in G$, là các thớ của một phân bó vectơ con E của $T(G)$. Cho $g \in G$. Tập hợp các $(L_a)_g$, trong đó $a \in \mathfrak{h}$, bằng $g\mathfrak{h}$. Bây giờ, nếu $a$ và $b$ thuộc $\mathfrak{h}$, thì $[L_a, L_b] = L_{[a, b]}$ và $[a, b] \in \mathfrak{h}$. Do đó E là khả tích (*Differentiable and Analytic Manifolds*, R, 9.3.3 (iv)). Lập luận tương tự đối với các $\mathfrak{h}g$.
 
 Phân lá nguyên (*Differentiable and Analytic Manifolds*, R, 9.3.2) của hợp các $g\mathfrak{h}$ (tương ứng $\mathfrak{h}g$) được gọi là *phân lá* *trái* (tương ứng *phải*) của G liên kết với $\mathfrak{h}$.
 
@@ -193,13 +193,13 @@ Tồn tại một mầm nhóm Lie $H'$ có đại số Lie đẳng cấu với $
 
 Cho G là một mầm nhóm Lie và H và $H'$ là hai mầm nhóm con Lie. Để $L(H) \supset L(H')$, điều kiện cần và đủ là $H \cap H'$ mở trong $H'$.
 
-Nếu $H \cap H'$ là mở trong $H'$, thì $L(H') = L(H \cap H') \subset L(H)$. Giả sử rằng $L(H) \supset L(H')$. Gọi i, $i'$ là các đơn ánh chính tắc của H, $H'$ vào G. Bằng cách thu nhỏ $H'$ nếu cần thiết, có thể giả sử rằng tồn tại một cấu xạ $\psi$ từ $H'$ vào H sao cho $L(\psi)$ là đơn ánh chính tắc của $L(H')$ vào $L(H)$ (no. 1, Định lý 1). Khi đó $L(i \circ \psi) = L(i')$ và do đó tồn tại một lân cận V của $e_{H'}$ trong $H'$ sao cho $i \circ \psi$ và $i'$ trùng nhau trên V (Định lý 1). Vì vậy $V \subset H$, do đó $V \subset H \cap H'$ và $H \cap H'$ là mở trong $H'$ (\S 1, no. 10).
+Nếu $H \cap H'$ là mở trong $H'$, thì $L(H') = L(H \cap H') \subset L(H)$. Giả sử rằng $L(H) \supset L(H')$. Gọi i, $i'$ là các đơn ánh chính tắc của H, $H'$ vào G. Bằng cách thu nhỏ $H'$ nếu cần thiết, có thể giả sử rằng tồn tại một cấu xạ $\psi$ từ $H'$ vào H sao cho $L(\psi)$ là đơn ánh chính tắc của $L(H')$ vào $L(H)$ (no. 1, Định lý 1). Khi đó $L(i \circ \psi) = L(i')$ và do đó tồn tại một lân cận V của $e_{H'}$ trong $H'$ sao cho $i \circ \psi$ và $i'$ trùng nhau trên V (Định lý 1). Vì vậy $V \subset H$, do đó $V \subset H \cap H'$ và $H \cap H'$ là mở trong $H'$ (§ 1, no. 10).
 
 #### Mệnh đề 2 {#lie-iii-s4-prop-2 .statement}
 
 Cho G là một nhóm Lie trên K, k là một trường con đóng không rời rạc của K và H là một nhóm con Lie của nhóm Lie-k G. Giả sử rằng $L(H)$ là một không gian con-K vectơ của $L(G)$ thừa nhận một phần bù tôpô. Khi đó H là một nhóm con Lie của nhóm Lie-K G.
 
-Tồn tại một mầm nhóm con Lie $H'$ của nhóm Lie K G sao cho $L(H') = L(H)$ (Định lý 3). Xét G, H, $H'$ như các mầm nhóm Lie k; khi đó Định lý 3 chứng minh rằng $H \cap H'$ là mở trong H và $H'$. Do đó tồn tại một lân cận mở U của e trong G sao cho $U \cap H$ là một đa tạp con của G trên K. Vì vậy, H là một nhóm con Lie của nhóm Lie K G (\S 1, no. 3, Mệnh đề 6).
+Tồn tại một mầm nhóm con Lie $H'$ của nhóm Lie K G sao cho $L(H') = L(H)$ (Định lý 3). Xét G, H, $H'$ như các mầm nhóm Lie k; khi đó Định lý 3 chứng minh rằng $H \cap H'$ là mở trong H và $H'$. Do đó tồn tại một lân cận mở U của e trong G sao cho $U \cap H$ là một đa tạp con của G trên K. Vì vậy, H là một nhóm con Lie của nhóm Lie K G (§ 1, no. 3, Mệnh đề 6).
 
 ### 3. ÁNH XẠ MŨ
 
@@ -236,7 +236,7 @@ Cho G là một mầm nhóm Lie và L là đại số Lie của nó. Một ánh 
 
 (1) Cho G là nhóm cộng của một không gian chuẩn hóa đầy đủ E. Đẳng cấu chính tắc của L(G) lên E thỏa mãn điều kiện (i) của Định lý 4 và do đó là một ánh xạ mũ của G.
 
-(2) Cho A là một đại số kết hợp có đơn vị chuẩn đầy đủ. Gọi A* là nhóm Lie gồm các phần tử khả nghịch của A. Ta đồng nhất L(A*) với A (\$ 3, no. 9, Hệ quả của Mệnh đề 33). Nếu K = \mathbf{R} hoặc \mathbf{C}, ta biết rằng ánh xạ exp của A vào A* được định nghĩa trong Chương II, \$ 7, no. 3 thỏa mãn điều kiện (i) của Định lý 4 và do đó là một ánh xạ mũ. Bây giờ cho K là ultrametric. Gọi $p$ là đặc số của trường thặng dư của K. Nếu $p \neq 0$, đặt $\lambda = |p|^{1/(p-1)}$; nếu $p = 0$, đặt $\lambda = 1$. Gọi U là tập hợp các $x \in A$ sao cho $\|x\| < \lambda$. Ta biết (Chương II, \$ 8, no. 4) rằng ánh xạ exp của U vào A* thỏa mãn điều kiện (i) của Định lý 4 và do đó là một ánh xạ mũ. Chú ý rằng U là một nhóm con cộng tính của A.
+(2) Cho A là một đại số kết hợp có đơn vị chuẩn đầy đủ. Gọi A* là nhóm Lie gồm các phần tử khả nghịch của A. Ta đồng nhất L(A*) với A (§ 3, no. 9, Hệ quả của Mệnh đề 33). Nếu K = \mathbf{R} hoặc \mathbf{C}, ta biết rằng ánh xạ exp của A vào A* được định nghĩa trong Chương II, § 7, no. 3 thỏa mãn điều kiện (i) của Định lý 4 và do đó là một ánh xạ mũ. Bây giờ cho K là ultrametric. Gọi $p$ là đặc số của trường thặng dư của K. Nếu $p \neq 0$, đặt $\lambda = |p|^{1/(p-1)}$; nếu $p = 0$, đặt $\lambda = 1$. Gọi U là tập hợp các $x \in A$ sao cho $\|x\| < \lambda$. Ta biết (Chương II, § 8, no. 4) rằng ánh xạ exp của U vào A* thỏa mãn điều kiện (i) của Định lý 4 và do đó là một ánh xạ mũ. Chú ý rằng U là một nhóm con cộng tính của A.
 
 Ví dụ này giải thích thuật ngữ được dùng trong Định nghĩa 1.
 
@@ -470,7 +470,7 @@ Theo *Đa tạp khả vi và giải tích*, R, 7.7.1, $\theta$ và $\theta'$ là
 
 #### Bổ đề 6 {#lie-iii-s4-lem-6 .statement}
 
-Cho $G$ là một mầm nhóm Lie, $\omega$ là dạng vi phân trái chính tắc của $G$ (\S 3, no. 18.9), $M$ là một đa tạp lớp $C^r$ ($r \geq 2$) và $\alpha$ là một dạng vi phân lớp $C^{r-1}$ và bậc 1 trên $M$ nhận giá trị trong $L(G)$.
+Cho $G$ là một mầm nhóm Lie, $\omega$ là dạng vi phân trái chính tắc của $G$ (§ 3, no. 18.9), $M$ là một đa tạp lớp $C^r$ ($r \geq 2$) và $\alpha$ là một dạng vi phân lớp $C^{r-1}$ và bậc 1 trên $M$ nhận giá trị trong $L(G)$.
 
 (i) Các phần tử của $T(M \times G)$ tại đó dạng vi phân
 $$
@@ -480,7 +480,7 @@ bằng không tạo thành một phân thớ con vectơ $S$ của $T(M \times G)
 
 (ii) Với mọi $(x, g) \in M \times G$, $T(\mathrm{pr}_1)|S_{(x, g)}$ là một đẳng cấu từ $S_{(x, g)}$ lên $T_x(M)$.
 
-(iii) *Nếu* $d\alpha + [\alpha]^2 = 0$ (cf. \S 3, no. 14) *thì phân thớ con vectơ* $S$ *có thể tích phân*.
+(iii) *Nếu* $d\alpha + [\alpha]^2 = 0$ (cf. § 3, no. 14) *thì phân thớ con vectơ* $S$ *có thể tích phân*.
 
 ==========
 
@@ -512,14 +512,14 @@ Cho G là một mầm nhóm Lie, M là một đa tạp lớp $C^r$ ($r \geq 2$) 
 Cho $x \in M$ và $g \in G$. Theo Bổ đề 6 (chúng ta dùng ký hiệu của nó) và *Differentiable and Analytic Manifolds*, R, 9.3.7, tồn tại một lân cận mở U của $x$ trong M và một ánh xạ $m \mapsto \phi(m) = (m, f(m))$ lớp $C^{r-1}$ từ U vào $M \times G$ sao cho $f(x) = g$ và $\phi^*(0) = 0$. Khi đó
 
 $$
-f^{-1}.df = f^*(\omega) \quad (\S 3, \text{no. 18.9}) \\
+f^{-1}.df = f^*(\omega) \quad (§ 3, \text{no. 18.9}) \\
 = (\mathrm{pr}_2 \circ \phi)^*(\omega) \quad (\text{với } f = \mathrm{pr}_2 \circ \phi) \\
 = \phi^*(\mathrm{pr}_1^*\alpha - \theta) \quad (\text{Bổ đề 6}) \\
 = \phi^*(\mathrm{pr}_1^*\alpha) \quad (\text{vì } \phi^*(\theta) = 0) \\
 = \alpha \quad (\text{vì } \mathrm{pr}_1 \circ \phi = \mathrm{Id}_U).
 $$
 
-Cho $f'$ là một ánh xạ lớp $C^{r-1}$ từ U vào G sao cho $f'(x) = g$ và $f'^{-1}df' = \alpha$. Theo \S 3, 18.9, $f'^{-1}$ là hằng địa phương và do đó $f' = f$ trong một lân cận của $x$.
+Cho $f'$ là một ánh xạ lớp $C^{r-1}$ từ U vào G sao cho $f'(x) = g$ và ${f'}^{-1}df' = \alpha$. Theo § 3, 18.9, ${f'}^{-1}$ là hằng địa phương và do đó $f' = f$ trong một lân cận của $x$.
 
 #### Mệnh đề 10 {#lie-iii-s4-prop-10 .statement}
 
@@ -539,7 +539,7 @@ $$
 $$
 và do đó $m \mapsto \alpha_{m_0}^{-1} \circ \alpha_m$ là dạng vi phân chính tắc trái của $M'$.
 
-Let $M''$ be an open neighbourhood of $m_0$, with a Lie group germ structure, with identity element $m_0$ and with the analogous properties to properties (i) and (ii). Then $\alpha_{m_0}$ is an isomorphism of $L(M')$ onto $g$ and also of $L(M'')$ onto $g$ and hence $L(M') = L(M'')$. Therefore, shrinking $M'$ and $M''$, it can be assumed that there exists an isomorphism $\phi$ of the group germ $M'$ onto the group germ $M''$ (no. 1, Corollary 1 to Theorem 1). Then $\phi^{-1}.d\phi$ is the canonical left differential of $M'$. On the other hand, let $\psi$ be the canonical injection of the manifold $M' \cap M''$ into the Lie group germ $M''$; clearly $\psi^{-1}.d\psi$ is a restriction of the canonical left differential of $M''$. Hence $(\psi^{-1}.d\psi)(m) = \alpha_{m_0}^{-1} \circ \alpha_m = (\phi^{-1}.d\phi)(m)$ for all $m \in M' \cap M''$. Therefore $\phi$ and $\psi$ coincide on a neighbourhood of $m_0$ (\S 3, 18.9). This proves the last assertion of the proposition.
+Let $M''$ be an open neighbourhood of $m_0$, with a Lie group germ structure, with identity element $m_0$ and with the analogous properties to properties (i) and (ii). Then $\alpha_{m_0}$ is an isomorphism of $L(M')$ onto $g$ and also of $L(M'')$ onto $g$ and hence $L(M') = L(M'')$. Therefore, shrinking $M'$ and $M''$, it can be assumed that there exists an isomorphism $\phi$ of the group germ $M'$ onto the group germ $M''$ (no. 1, Corollary 1 to Theorem 1). Then $\phi^{-1}.d\phi$ is the canonical left differential of $M'$. On the other hand, let $\psi$ be the canonical injection of the manifold $M' \cap M''$ into the Lie group germ $M''$; clearly $\psi^{-1}.d\psi$ is a restriction of the canonical left differential of $M''$. Hence $(\psi^{-1}.d\psi)(m) = \alpha_{m_0}^{-1} \circ \alpha_m = (\phi^{-1}.d\phi)(m)$ for all $m \in M' \cap M''$. Therefore $\phi$ and $\psi$ coincide on a neighbourhood of $m_0$ (§ 3, 18.9). This proves the last assertion of the proposition.
 
 #### Hệ quả {#lie-iii-s4-n6-cor-1 .statement}
 
@@ -558,7 +558,7 @@ $$
 và
 $$
 \begin{align*}
-[\alpha]^2 &= \sum_{k=1}^n [\omega_k e_k]^2 + \sum_{i<j} (\omega_i e_i) \wedge (\omega_j e_j) \quad (\S 3, \text{công thức (30)}) \\
+[\alpha]^2 &= \sum_{k=1}^n [\omega_k e_k]^2 + \sum_{i<j} (\omega_i e_i) \wedge (\omega_j e_j) \quad (§ 3, \text{công thức (30)}) \\
 &= \sum_{i<j} (\omega_i \wedge \omega_j)[e_i, e_j] \\
 &= -\sum_{k=1}^n \sum_{i<j} (c_{ijk}\omega_i \wedge \omega_j)e_k \\
 &= -d\alpha.
@@ -616,7 +616,7 @@ Cho $S_{(g, x)}$ là tập các $Q_a(g, x)$ với $a \in L(G)$. Theo Bổ đề 
 $$
 \begin{align*}
 [Q_a, Q_b](g, x) &= ([R_a, R_b](g), [D_a, D_b](x)) \\
-&= (-R_{[a, b]}(g), -D_{[a, b]}(x)) \quad (\S 3, 18.6) \\
+&= (-R_{[a, b]}(g), -D_{[a, b]}(x)) \quad (§ 3, 18.6) \\
 &= Q_{-[a, b]}(g, x)
 \end{align*}
 $$

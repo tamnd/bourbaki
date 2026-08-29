@@ -37,9 +37,9 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 0b053e711c1073ce145636f61e396419e0d88d45f8757d6e011282d247b48049
+content_sha256: 87ab7956f6dfd41c6e6e9ad9d8506b03da6a949836f69cabb76caf8397039a9a
 translated_from: content/en/lie/IX/07_s7_irreducible_representations_of.md
-source_content_sha256: e5d4512731c2c4775f6967a56df8bfea9f2c9f836e9424ff340a85f1fc7ae72d
+source_content_sha256: 375df81cdee840da6e0b458ac2f5db5264d7654fce07a342d3dce277a3f78519
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-82beb20c
 glossary_version: 34
@@ -461,9 +461,9 @@ a) sup$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|^N<\infty$, trong đó 
 
 b) Nếu G là nửa đơn, inf$_{\lambda\in X_{++}}d(\lambda )/\|\lambda +\rho \|>0$.
 
-$a)$ Với mọi $\alpha \in R_+$, tồn tại $A_{\alpha}>0$ sao cho $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\|\lambda +\rho \|$, do đó $d(\lambda )/\|\lambda +\rho \|^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
+a) Với mọi $\alpha \in R_+$, tồn tại $A_{\alpha}>0$ sao cho $|\langle \lambda +\rho , K_{\alpha}\rangle | \leq A_{\alpha}\|\lambda +\rho \|$, do đó $d(\lambda )/\|\lambda +\rho \|^N\leq \prod_{\alpha >0}A_{\alpha}/\langle \rho , K_{\alpha}\rangle$.
 
-$b)$ Giả sử G là nửa đơn, ký hiệu $\beta_1, . . . , \beta_r$ là các rễ đơn và đặt $N_i=K_{\beta_i}$. Khi đó
+b) Giả sử G là nửa đơn, ký hiệu $\beta_1, . . . , \beta_r$ là các rễ đơn và đặt $N_i=K_{\beta_i}$. Khi đó
 
 $$
 d(\lambda )\geq \prod_{i=1}^r\frac{\langle\lambda + \rho , N_i\rangle}{\langle\rho , N_i\rangle}=\prod_{i=1}^r\langle \lambda +\rho , N_i\rangle
@@ -473,7 +473,7 @@ vì $\langle \lambda +\rho , N_i\rangle  \geq  \langle \rho , N_i\rangle = 1$, �
 
 $d(\lambda )\geq$ sup$_i|\langle \lambda +\rho , N_i\rangle |$.
 
-Nếu G là nửa đơn, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ là một chuẩn trên $X(T)\otimes \mathbf{R}$, tất yếu tương đương với chuẩn đã cho, nên b)$.
+Nếu G là nửa đơn, $x \rightarrow$ sup$|\langle x, N_i\rangle |$ là một chuẩn trên $X(T)\otimes \mathbf{R}$, tất yếu tương đương với chuẩn đã cho, nên b).
 
 #### Hệ quả 2 {#lie-ix-s7-lem-5-cor-2 .statement tag=01GO}
 

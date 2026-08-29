@@ -32,9 +32,9 @@ subsections:
       pdf_page: 194
 statements: 24
 exercises: 7
-content_sha256: f0b9f53e5659d1d8f7bebf119767a2e4b3e4aa7824078538581ddf1e20494b05
+content_sha256: b3e0de391164cdab91423d6cae78828580792d68a98579bcd753033391a4681e
 translated_from: content/en/top/IX/04_s4_normal_spaces.md
-source_content_sha256: 5a6d198ba815a6b655dfe1a7d2ffc8cb1105b770a7bb04499c7a43e1d1d1167e
+source_content_sha256: eb00915eefc2542b1cb326ffd5f62b68b64c27c30b72b3cd48135ced89e8d6d5
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
 translation_run: translate-vi-fbd3e0f2
 glossary_version: 34
@@ -46,7 +46,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. ĐỊNH NGHĨA CÁC KHÔNG GIAN CHÍNH QUY
 
-Tiên đề ($O_{IV}$) đối với các không gian đồng nhất hóa được ($\S 1$, no. 5) có thể được phát biểu dưới dạng sau: *với mọi tập đóng* $A$ *và mọi điểm* $x \in \mathbf{C}A$, *có một ánh xạ liên tục từ* $X$ *vào* $[0, 1]$ *bằng* 0 *tại* $x$ *và bằng* 1 *tại mọi điểm của* $A$; tính chất này lại có thể được biểu diễn bằng cách nói rằng trong một không gian đồng nhất hóa được ta có thể phân tách một điểm và một tập đóng (không chứa điểm đó) bằng một hàm thực liên tục.
+Tiên đề ($O_{IV}$) đối với các không gian đồng nhất hóa được ($§ 1$, no. 5) có thể được phát biểu dưới dạng sau: *với mọi tập đóng* $A$ *và mọi điểm* $x \in \mathbf{C}A$, *có một ánh xạ liên tục từ* $X$ *vào* $[0, 1]$ *bằng* 0 *tại* $x$ *và bằng* 1 *tại mọi điểm của* $A$; tính chất này lại có thể được biểu diễn bằng cách nói rằng trong một không gian đồng nhất hóa được ta có thể phân tách một điểm và một tập đóng (không chứa điểm đó) bằng một hàm thực liên tục.
 
 Bây giờ ta sẽ nghiên cứu các không gian trong đó có thể, theo cùng một cách, phân tách hai tập đóng rời nhau bằng một hàm thực liên tục:
 
@@ -133,7 +133,7 @@ Mệnh đề 2 cho một điều kiện *cần* khác cho tính mêtric hóa đ�
 
 Theo $(O'_V)$, mọi tập hợp *đóng* của một không gian chuẩn tắc là một *không gian con chuẩn tắc*; nhưng điều này không phải lúc nào cũng đúng đối với một tập hợp *tùy ý* của một không gian chuẩn tắc.
 
-Ví dụ, một không gian hoàn toàn chính quy không chuẩn tắc là đồng phôi với một không gian con của một không gian compact (\$ 1, no. 5, Mệnh đề 3), và không gian sau là chuẩn tắc.
+Ví dụ, một không gian hoàn toàn chính quy không chuẩn tắc là đồng phôi với một không gian con của một không gian compact (§ 1, no. 5, Mệnh đề 3), và không gian sau là chuẩn tắc.
 
 Cuối cùng ta ghi nhận rằng *tích* của hai không gian chuẩn tắc không nhất thiết là chuẩn tắc (xem Bài tập 9 và § 5, Bài tập 16).
 
@@ -209,7 +209,7 @@ Trước hết xét trường hợp trong đó $f(x) \geq 0$ với mọi $x \in 
 
 #### Nhận xét {#top-ix-s4-n2-rem-1 .statement}
 
-Nếu $X$ là một không gian chuẩn tắc và nếu $A$ là một tập con đóng của $X$, cũng tồn tại một mở rộng liên tục của mọi ánh xạ liên tục $f$ của $A$ vào một *khối lập phương* $K^1$ (\S 1, no. 5) lên $X$; vì khi đó ta có $f = (f_i)_{i \in I}, f_i$ là một ánh xạ liên tục của $A$ vào khoảng compact $K$ của $\mathbf{R}$; vì tồn tại một ánh xạ liên tục $g_i : X \to K$ mở rộng $f_i$, nên ánh xạ $g = (g_i)$ là một mở rộng liên tục của $f$ lên $X$.
+Nếu $X$ là một không gian chuẩn tắc và nếu $A$ là một tập con đóng của $X$, cũng tồn tại một mở rộng liên tục của mọi ánh xạ liên tục $f$ của $A$ vào một *khối lập phương* $K^1$ (§ 1, no. 5) lên $X$; vì khi đó ta có $f = (f_i)_{i \in I}, f_i$ là một ánh xạ liên tục của $A$ vào khoảng compact $K$ của $\mathbf{R}$; vì tồn tại một ánh xạ liên tục $g_i : X \to K$ mở rộng $f_i$, nên ánh xạ $g = (g_i)$ là một mở rộng liên tục của $f$ lên $X$.
 
 ### 3. CÁC PHỦ MỞ HỮU HẠN ĐỊA PHƯƠNG CỦA MỘT TẬP ĐÓNG TRONG MỘT KHÔNG GIAN CHUẨN TẮC
 

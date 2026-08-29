@@ -33,7 +33,7 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: be3cb5311dfcff17a32fb94027cfb553debd514fcdf27d97021e6882295e9679
+content_sha256: 39579207db3a1ec2253382ca725a94cb3a2ec6751a183b5842e7d93e1c5e7a32
 ---
 
 ## § 1. DIMENSION DE KRULL D’UN ANNEAU
@@ -150,7 +150,7 @@ $$
 \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T) \leq \operatorname{codim}(Y, T).
 $$
 
-Il suffit de démontrer l’assertion $a)$ dans le cas où $\dim(X)$ est fini. Dans ce cas, $\dim(Y)$ et $\operatorname{codim}(Y, X)$ sont finis. Il existe une chaîne $Y_0 \subset ... \subset Y_n$ de parties fermées irréductibles de $Y$, de longueur $n = \dim(Y)$ et une chaîne $Y_n \subset ... \subset Y_{n+p}$ de parties fermées irréductibles de $X$, de longueur $p \geq \operatorname{codim}(Y, X)$. On en déduit que $\dim(X) \geq n + p$, d’où $a)$. Pour établir $b)$, on peut supposer $Y$ irréductible. Comme on a $\operatorname{codim}(Y, Z) \leq \operatorname{codim}(Y, T)$, l’inégalité est démontrée si $\operatorname{codim}(Y, Z) = +\infty$. Sinon, soit $Z_0$ une composante irréductible de $Z$ contenant $Y$ et telle que $\operatorname{codim}(Y, Z) = \operatorname{codim}(Y, Z_0)$. On a $\operatorname{codim}(Z, T) \leq \operatorname{codim}(Z_0, T)$, et on voit, comme ci-dessus, que $\operatorname{codim}(Y, Z_0) + \operatorname{codim}(Z_0, T) \leq \operatorname{codim}(Y, T)$, d’où $b)$.
+Il suffit de démontrer l’assertion a) dans le cas où $\dim(X)$ est fini. Dans ce cas, $\dim(Y)$ et $\operatorname{codim}(Y, X)$ sont finis. Il existe une chaîne $Y_0 \subset ... \subset Y_n$ de parties fermées irréductibles de $Y$, de longueur $n = \dim(Y)$ et une chaîne $Y_n \subset ... \subset Y_{n+p}$ de parties fermées irréductibles de $X$, de longueur $p \geq \operatorname{codim}(Y, X)$. On en déduit que $\dim(X) \geq n + p$, d’où a). Pour établir b), on peut supposer $Y$ irréductible. Comme on a $\operatorname{codim}(Y, Z) \leq \operatorname{codim}(Y, T)$, l’inégalité est démontrée si $\operatorname{codim}(Y, Z) = +\infty$. Sinon, soit $Z_0$ une composante irréductible de $Z$ contenant $Y$ et telle que $\operatorname{codim}(Y, Z) = \operatorname{codim}(Y, Z_0)$. On a $\operatorname{codim}(Z, T) \leq \operatorname{codim}(Z_0, T)$, et on voit, comme ci-dessus, que $\operatorname{codim}(Y, Z_0) + \operatorname{codim}(Z_0, T) \leq \operatorname{codim}(Y, T)$, d’où b).
 
 #### Définition 4 {#ac-viii-s1-def-4 .statement}
 
@@ -168,7 +168,7 @@ $$
 \operatorname{codim}(Y, T) = \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T)
 $$
 
-Supposons $X$ caténaire. Compte tenu de la prop. 3, $b)$, il suffit de démontrer la relation lorsque $\operatorname{codim}(Y, Z)$ et $\operatorname{codim}(Z, T)$ sont finis. En mettant bout à bout une chaîne saturée de parties fermées irréductibles d’extrémités $Y$ et $Z$, de longueur $\operatorname{codim}(Y, Z)$, et une chaîne saturée de parties fermées irréductibles d’extrémités $Z$ et $T$, de longueur $\operatorname{codim}(Z, T)$, on obtient une chaîne saturée d’extrémités $Y$ et $T$, de longueur $\operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T)$. Mais, comme $X$ est caténaire, cette longueur est nécessairement égale à $\operatorname{codim}(Y, T)$.
+Supposons $X$ caténaire. Compte tenu de la prop. 3, b), il suffit de démontrer la relation lorsque $\operatorname{codim}(Y, Z)$ et $\operatorname{codim}(Z, T)$ sont finis. En mettant bout à bout une chaîne saturée de parties fermées irréductibles d’extrémités $Y$ et $Z$, de longueur $\operatorname{codim}(Y, Z)$, et une chaîne saturée de parties fermées irréductibles d’extrémités $Z$ et $T$, de longueur $\operatorname{codim}(Z, T)$, on obtient une chaîne saturée d’extrémités $Y$ et $T$, de longueur $\operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T)$. Mais, comme $X$ est caténaire, cette longueur est nécessairement égale à $\operatorname{codim}(Y, T)$.
 
 Réciproquement, supposons que l’on ait $\operatorname{codim}(Y, T) = \operatorname{codim}(Y, Z) + \operatorname{codim}(Z, T)$ quelles que soient les parties fermées irréductibles $Y, Z, T$ de $X$ telles que $Y \subset Z \subset T$, et démontrons que $X$ est caténaire. Pour cela, démontrons par récurrence sur l’entier $n \geq 0$ que, pour toute chaîne saturée $Z_0 \subset ... \subset Z_n$ de parties fermées irréductibles de $X$, on a $\operatorname{codim}(Z_0, Z_n) = n$. Si $n = 0$, c’est clair. Soit $n > 0$, et supposons la propriété satisfaite pour les chaînes de longueur $\leq n - 1$. Si $Z_0 \subset ... \subset Z_n$ est une chaîne saturée de longueur $n$, alors $Z_0 \subset ... \subset Z_{n-1}$ est une chaîne saturée de longueur $n - 1$, donc $\operatorname{codim}(Z_0, Z_{n-1}) = n - 1$. Vu l’hypothèse faite sur $X$, on a $\operatorname{codim}(Z_0, Z_n) = \operatorname{codim}(Z_0, Z_{n-1}) + \operatorname{codim}(Z_{n-1}, Z_n) = (n - 1) + 1 = n$.
 
@@ -384,7 +384,7 @@ $$
 
 a) Soit $a$ l’annulateur de $M$; alors l’annulateur du $A_p$-module $M_p$ est $aA_p$ (II, § 2, n° 4, formule (9)), d’où $\dim_{A_p}(M_p) = \dim(A_p/aA_p)$. On conclut par la prop. 7, b) du n° 3.
 
-b) Cela résulte aussitôt de $a)$ et du fait que $\dim_{A_p}(M_p) = -\infty$ si $p$ n’appartient pas à $\mathrm{Supp}(M)$.
+b) Cela résulte aussitôt de a) et du fait que $\dim_{A_p}(M_p) = -\infty$ si $p$ n’appartient pas à $\mathrm{Supp}(M)$.
 
 c) On a $\mathrm{Supp}(M) = \mathrm{Supp}(M') \cup \mathrm{Supp}(M/M')$ (II, § 4, n° 4, prop. 16), et on applique la prop. 1 du n° 1.
 

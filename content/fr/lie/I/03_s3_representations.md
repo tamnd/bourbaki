@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 23
 exercises: 12
-content_sha256: d628f3db18f908cda443577901b87b44e561be68df45f32bf2881df203c870b3
+content_sha256: 98eb0b5c20a690e1cfd1fe1597946fbbc18957182be29b54bcb587ab5f88fc95
 ---
 
 ## § 3. Représentations
@@ -125,7 +125,7 @@ Puisque le $\alpha$-module $M$ est de longueur finie, il existe un élément min
 
 Nous avons défini, au n° 1, la somme directe d’une famille de représentations de $g$. Nous allons maintenant définir d’autres opérations sur les représentations.
 
-Soient $g_1$, $g_2$ deux algèbres de Lie sur $K$, et $M_i$ un $g_i$-module ($i = 1, 2$). Soient $U_i$ l’algèbre enveloppante de $g_i$, et $\sigma_i$ l’application canonique de $g_i$ dans $U_i$. Alors $M_i$ est un $U_i$-module à gauche, donc $M_1 \otimes_K M_2$ est canoniquement muni d’une structure de $(U_1 \otimes_K U_2)$-module à gauche. Or $U_1 \otimes_K U_2$ est l’algèbre enveloppante de $g_1 \times g_2$, et l’application $(x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)$ est l’application canonique de $g_1 \times g_2$ dans cette algèbre enveloppante (\S 2, n° 2). Donc il existe une structure de $(g_1 \times g_2)$-module sur $M = M_1 \otimes_K M_2$ telle que :
+Soient $g_1$, $g_2$ deux algèbres de Lie sur $K$, et $M_i$ un $g_i$-module ($i = 1, 2$). Soient $U_i$ l’algèbre enveloppante de $g_i$, et $\sigma_i$ l’application canonique de $g_i$ dans $U_i$. Alors $M_i$ est un $U_i$-module à gauche, donc $M_1 \otimes_K M_2$ est canoniquement muni d’une structure de $(U_1 \otimes_K U_2)$-module à gauche. Or $U_1 \otimes_K U_2$ est l’algèbre enveloppante de $g_1 \times g_2$, et l’application $(x_1, x_2) \mapsto \sigma_1(x_1) \otimes 1 + 1 \otimes \sigma_2(x_2)$ est l’application canonique de $g_1 \times g_2$ dans cette algèbre enveloppante (§ 2, n° 2). Donc il existe une structure de $(g_1 \times g_2)$-module sur $M = M_1 \otimes_K M_2$ telle que :
 
 $$
 \begin{align*}
@@ -394,7 +394,7 @@ En effet, soit u un endomorphisme de l’espace vectoriel g qui laisse stable a.
 
 *Supposons que K soit un corps, et que l’algèbre de Lie g soit de dimension finie sur K. La forme de Killing $\beta$ de g est complètement invariante.*
 
-Soit D une dérivation de g. Il existe une algèbre de Lie $g'$ contenant g comme idéal de codimension 1, et un élément $x_0$ de $g'$, tels que $Dx = [x_0, x]$ pour tout $x \in g$ (\S 1, no 8, exemple 1). Soit $\beta'$ la forme de Killing de $g'$. Pour $x, y$ dans g, on a $\beta'([x, x_0], y) = \beta'(x, [x_0, y])$, c’est-à-dire $\beta'(Dx, y) + \beta'(x, Dy) = 0$. Or, la restriction de $\beta'$ à g est $\beta$ (prop. 9). D’où la proposition.
+Soit D une dérivation de g. Il existe une algèbre de Lie $g'$ contenant g comme idéal de codimension 1, et un élément $x_0$ de $g'$, tels que $Dx = [x_0, x]$ pour tout $x \in g$ (§ 1, no 8, exemple 1). Soit $\beta'$ la forme de Killing de $g'$. Pour $x, y$ dans g, on a $\beta'([x, x_0], y) = \beta'(x, [x_0, y])$, c’est-à-dire $\beta'(Dx, y) + \beta'(x, Dy) = 0$. Or, la restriction de $\beta'$ à g est $\beta$ (prop. 9). D’où la proposition.
 
 ### 7. Élément de Casimir
 
@@ -432,7 +432,7 @@ Soient $K, K_1$ et $\varphi$ comme au début de ce no. Soient $g$ une $K$-algèb
 
 La démonstration se fait en deux étapes.
 
-1° Supposons d’abord que $K_1$ soit une extension de $K$ de *degré fini* $n$. Soit $U$ l’algèbre enveloppante de $g$, de sorte que l’algèbre enveloppante de $g_{(K_1)}$ est $U_{(K_1)} = U \otimes_K K_1$ (\S 2, no 9). Étant isomorphes en tant que $U_{(K_1)}$-modules, $M_{(K_1)}$ et $N_{(K_1)}$ le sont *a fortiori* en tant que $U$-modules ; mais en tant que $U$-modules, ils sont respectivement isomorphes à $M^n$ et $N^n$. Or, $M$ et $N$ sont des $U$-modules de longueur finie ; $M$ (resp. $N$) est donc somme directe d’une famille $(P_i^{r_i})_{1 \leq i \leq p}$ (resp. $(Q_j^{s_j})_{1 \leq j \leq q}$) de sous-modules tels que les $P_i$ (resp. $Q_j$) soient indécomposables et deux $P_i$ (resp. $Q_j$) d’in-
+1° Supposons d’abord que $K_1$ soit une extension de $K$ de *degré fini* $n$. Soit $U$ l’algèbre enveloppante de $g$, de sorte que l’algèbre enveloppante de $g_{(K_1)}$ est $U_{(K_1)} = U \otimes_K K_1$ (§ 2, no 9). Étant isomorphes en tant que $U_{(K_1)}$-modules, $M_{(K_1)}$ et $N_{(K_1)}$ le sont *a fortiori* en tant que $U$-modules ; mais en tant que $U$-modules, ils sont respectivement isomorphes à $M^n$ et $N^n$. Or, $M$ et $N$ sont des $U$-modules de longueur finie ; $M$ (resp. $N$) est donc somme directe d’une famille $(P_i^{r_i})_{1 \leq i \leq p}$ (resp. $(Q_j^{s_j})_{1 \leq j \leq q}$) de sous-modules tels que les $P_i$ (resp. $Q_j$) soient indécomposables et deux $P_i$ (resp. $Q_j$) d’in-
 
 2° Cas général. Soient $P$ le g-module $\mathcal{L}_K(M, N)$ et $Q$ le sous-espace des invariants de $P$, c’est-à-dire l’ensemble des homomorphismes du g-module $M$ dans le g-module $N$. Dans le $g_{(K_1)}$-module $\mathcal{L}_{K_1}(M_{(K_1)}, N_{(K_1)}) = (\mathcal{L}_K(M, N))_{(K_1)}$, le sous-espace des invariants est $Q_{(K_1)}$. L’hypothèse que $M_{(K_1)}$ et $N_{(K_1)}$ sont isomorphes entraîne que $M$ et $N$ ont même dimension sur $K$, et qu’il existe dans $Q_{(K_1)}$ un élément $g$ qui est un isomorphisme de $M_{(K_1)}$ sur $N_{(K_1)}$. Soit $(f_1, \ldots, f_d)$ une base de $Q$ sur $K$. Choisissons d’autre part des bases de $M$ et $N$ sur $K$. Si $\lambda_k \in K_1$ pour $1 \leq k \leq d$, la matrice de $f = \sum_{k=1}^d \lambda_k f_k$ par rapport à ces bases a un déterminant qui est un polynôme $D(\lambda_1, \ldots, \lambda_d)$ à coefficients dans $K$. Lorsque $f = g$, ce déterminant est non nul, donc les coefficients de $D$ ne sont pas tous nuls. Par suite, si $\Omega$ est la clôture algébrique de $K$, il existe (puisque $\Omega$ est infini) des éléments $\mu_k \in \Omega$ ($1 \leq k \leq d$) tels que $D(\mu_1, \ldots, \mu_d) \neq 0$ (Alg., chap. IV, § 2, n° 5, prop. 8). Si $K_2$ est l’extension algébrique de $K$ engendrée par les $\mu_k$ ($1 \leq k \leq d$), on en conclut que $\sum_{k=1}^d \mu_k f_k$ est un isomorphisme de $M_{(K_2)}$ sur $N_{(K_2)}$; mais $K_2$ est de degré fini sur $K$ (Alg., chap. V, § 3, n° 2, prop. 5), donc $M$ et $N$ sont isomorphes en vertu de la première partie du raisonnement.
 

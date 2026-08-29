@@ -33,7 +33,7 @@ subsections:
       pdf_page: 223
 statements: 9
 exercises: 16
-content_sha256: 4b697e6e0108b2f5deffd1a05ae547dd83690cc42819ad75daccd4ee142c4b9a
+content_sha256: 8133b61f1df80be5ff13324ff876eecede9ed2ad44de1d0480eaab61020a8084
 ---
 
 ## § 5. CRITÈRES DE COMPACITÉ
@@ -130,11 +130,11 @@ La condition énoncée est évidemment nécessaire.
 
 Supposons que toute suite infinie de points de A ait une valeur d’adhérence pour $\mathcal{T}$, donc aussi pour la topologie moins fine $\sigma(E, E')$. Alors A est précompacte pour $\mathcal{T}$ (IV, p. 32, prop. 1); pour que A soit relativement compacte pour $\mathcal{T}$, il faut et il suffit qu’elle le soit pour $\sigma(E, E')$ (loc. cit.). Il suffit donc de prouver le théorème lorsque $\mathcal{T}$ est la topologie affaiblie $\sigma(E, E')$.
 
-Notons $\hat{E}$ le complété de E, que l’on identifie comme d’habitude à un sous-espace du dual algébrique $E'^*$ de E' (III, p. 21, th. 2). On note $E_\sigma$, $\hat{E}_\sigma$ et $E'_\sigma$ les espaces E, $\hat{E}$ et $E'^*$ munis respectivement des topologies $\sigma(E, E')$, $\sigma(\hat{E}, E')$ et $\sigma(E'^*, E')$.
+Notons $\hat{E}$ le complété de E, que l’on identifie comme d’habitude à un sous-espace du dual algébrique ${E'}^*$ de E' (III, p. 21, th. 2). On note $E_\sigma$, $\hat{E}_\sigma$ et $E'_\sigma$ les espaces E, $\hat{E}$ et ${E'}^*$ munis respectivement des topologies $\sigma(E, E')$, $\sigma(\hat{E}, E')$ et $\sigma({E'}^*, E')$.
 
 Soit $(x'_i)_{i \in I}$ une base de l’espace vectoriel E' sur le corps K. L’application $f \mapsto (f(x'_i))_{i \in I}$ est un homéomorphisme $\varphi$ de $E'_\sigma$ sur $K^I$; pour tout $i \in I$, l’image de A par l’application $x'_i$ de E dans K est relativement compacte : en effet, K est métrisable et toute suite infinie d’éléments de $x'_i(A)$ a une valeur d’adhérence. On en déduit que $\varphi(A)$ est relativement compacte dans $K^I$, donc que l’adhérence $\overline{A}$ de A dans $E'_\sigma$ est compacte.
 
-Prouvons que $\overline{A}$ est contenue dans $\hat{E}$. Soit H une partie équicontinue de E' ; soit X son adhérence pour $\sigma(E', E)$; elle est compacte (III, p. 17, cor. 2). Pour tout $x \in E'^*$, soit $\varphi_x$ la restriction de $x' \mapsto \langle x, x' \rangle$ à X ; soit $\tilde{A} \subset \mathscr{C}_s(X)$ l’ensemble des fonctions $\varphi_x$ pour $x$ parcourant A. Vu l’hypothèse faite sur A, toute suite infinie d’éléments de $\tilde{A}$ a une valeur d’adhérence dans $\mathscr{C}_s(X)$; d’après la prop. 2 (IV, p. 33), l’ensemble $\tilde{A}$ est donc relativement compact dans $\mathscr{C}_s(X)$. Il en résulte que pour tout $a \in \overline{A}$, la fonction $\varphi_a$ sur X est continue. L’inclusion $\overline{A} \subset \hat{E}$ résulte alors du th. 2 de III, p. 21.
+Prouvons que $\overline{A}$ est contenue dans $\hat{E}$. Soit H une partie équicontinue de E' ; soit X son adhérence pour $\sigma(E', E)$; elle est compacte (III, p. 17, cor. 2). Pour tout $x \in {E'}^*$, soit $\varphi_x$ la restriction de $x' \mapsto \langle x, x' \rangle$ à X ; soit $\tilde{A} \subset \mathscr{C}_s(X)$ l’ensemble des fonctions $\varphi_x$ pour $x$ parcourant A. Vu l’hypothèse faite sur A, toute suite infinie d’éléments de $\tilde{A}$ a une valeur d’adhérence dans $\mathscr{C}_s(X)$; d’après la prop. 2 (IV, p. 33), l’ensemble $\tilde{A}$ est donc relativement compact dans $\mathscr{C}_s(X)$. Il en résulte que pour tout $a \in \overline{A}$, la fonction $\varphi_a$ sur X est continue. L’inclusion $\overline{A} \subset \hat{E}$ résulte alors du th. 2 de III, p. 21.
 
 Montrons maintenant que $\overline{A}$ est contenue dans E. Comme A est précompacte dans $E_\sigma$ (IV, p. 32, prop. 1), elle est bornée dans $E_\sigma$ (III, p. 3, prop. 2), donc aussi dans E (IV, p. 1, prop. 1). Soit C l’enveloppe fermée convexe équilibrée de A dans E. Elle est bornée puisque A est bornée, donc complète puisque E est quasi-complet. Autrement dit, C est une partie convexe et fermée de $\hat{E}$, donc de $\hat{E}_\sigma$ (IV, p. 1, prop. 1). Comme on a $A \subset C$ et que la topologie de $\hat{E}_\sigma$ est induite par celle de ${E'_\sigma}^*$, on a donc $\overline{A} \subset C$, d’où $\overline{A} \subset E$.
 
@@ -197,7 +197,7 @@ $$
 
 existent, on a $\gamma = \delta$.
 
-Soient X le compactifié de Stone-Čech de S (TG, IX, p. 10) et $\alpha$ l’application canonique de S dans X. Posons D = $\alpha(S)$. L’application $\varphi : f \mapsto f \circ \alpha$ est un isomorphisme de l’espace normé $\mathcal{C}(X)$ sur l’espace normé $\mathcal{C}^b(S)$; posons $\tilde{A} = \varphi^{-1}(A)$. Comme X est compact et D dense dans X, la prop. 2 (IV, p. 33) montre que la condition (ii) équivaut à la compacité de $\tilde{A}$ pour la topologie de la convergence simple. L’équivalence de (i) et (ii) résulte donc de la prop. 3. *
+Soient X le compactifié de Stone-Čech de S (TG, IX, p. 10) et $\alpha$ l’application canonique de S dans X. Posons D = $\alpha(S)$. L’application $\varphi : f \mapsto f \circ \alpha$ est un isomorphisme de l’espace normé $\mathcal{C}(X)$ sur l’espace normé $\mathcal{C}^b(S)$; posons $\tilde{A} = \varphi^{-1}(A)$. Comme X est compact et D dense dans X, la prop. 2 (IV, p. 33) montre que la condition (ii) équivaut à la compacité de $\tilde{A}$ pour la topologie de la convergence simple. L’équivalence de (i) et (ii) résulte donc de la prop. 3. \*
 
 ### *5. Enveloppe convexe d’un ensemble faiblement compact
 
@@ -229,7 +229,7 @@ Il est clair que $v$ est continue si l’on munit $\mathscr{C}(A)'$ de la topolo
 
 La boule unité (fermée) B de l’espace de Banach $\mathscr{C}(A)'$ est compacte pour la topologie $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$ (III, p. 17, cor. 3). Par suite, $v(B)$ est une partie de E convexe, équilibrée et compacte pour $\sigma(E, E')$. Pour tout $a \in A$, la forme linéaire continue $\varepsilon_a : f \mapsto f(a)$ sur $\mathscr{C}(A)$ appartient à B, et l’on a $v(\varepsilon_a) = a$ d’après les formules (7) et (8). On a donc $A \subset v(B)$, d’où $C \subset v(B)$. Ceci prouve que C est compacte pour $\sigma(E, E')$.
 
-C.Q.F.D. *
+C.Q.F.D. \*
 
 ## EXERCICES {#evt-iv-s5-exercises}
 

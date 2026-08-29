@@ -1,0 +1,11 @@
+{"edges": [
+{"from":"","from_label":"int-vi-a0-n1-cor-1","to_label":"int-vi-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":76},
+{"from":"","from_label":"int-vi-a0-n1-cor-1","to_label":"int-vi-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":85},
+{"from":"","from_label":"int-vi-a0","kind":"cites","raw":"I, §3, No. 3, Cor. 5","form":"section","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":89},
+{"from":"","from_label":"int-vi-a0-prop-3","to_label":"int-vi-a0-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":105},
+{"from":"","from_label":"int-vi-a0-prop-3","to_label":"int-iv-s3-prop-4","kind":"cites","raw":"IV, §3, No. 4, Prop. 4","form":"section","resolved_by":"section-no","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":105},
+{"from":"","from_label":"int-vi-a0-n2-lem-1","to_label":"int-iii-s3-prop-7-cor-2","kind":"cites","raw":"III, §3, No. 5, Cor. 2","form":"section","resolved_by":"section-no","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":111},
+{"from":"","from_label":"int-vi-a0-n2-lem-1","to_label":"int-iv-s1-prop-1","kind":"cites","raw":"IV, §1, No. 1, Prop. 1","form":"section","resolved_by":"section-no","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":115},
+{"from":"","from_label":"int-vi-a0-n2-lem-1","to_label":"int-iii-s3-prop-7-cor-2","kind":"cites","raw":"III, §3, No. 4, Cor. 2","form":"section","resolved_by":"section-no","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":115},
+{"from":"","from_label":"int-vi-a0-n2-lem-1","to_label":"int-iii-s3-prop-7","kind":"cites","raw":"and No. 5, Prop. 7","form":"section","resolved_by":"section-no","file":"content/en/int/VI/A_a_complements_on_topological_vector_spaces.md","line":115}
+]}

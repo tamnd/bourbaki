@@ -7,32 +7,33 @@ section: 2
 section_title: Continuous functions
 lang: en
 source: top-i-iv
+book_pages: 25-35, 119-122
 pdf_pages: 0031-0041, 0125-0128
 extraction: ocr
 subsections:
     - "no": 1
       title: CONTINUOUS FUNCTIONS
-      page: 0
+      page: 25
       pdf_page: 31
     - "no": 2
       title: COMPARISON OF TOPOLOGIES
-      page: 0
+      page: 28
       pdf_page: 34
     - "no": 3
       title: INITIAL TOPOLOGIES
-      page: 0
+      page: 30
       pdf_page: 36
     - "no": 4
       title: FINAL TOPOLOGIES
-      page: 0
+      page: 32
       pdf_page: 38
     - "no": 5
       title: PASTING TOGETHER OF TOPOLOGICAL SPACES
-      page: 0
+      page: 34
       pdf_page: 40
 statements: 26
 exercises: 10
-content_sha256: de676d150cd076c42ee9491ceb3438511e6983bcd98ca888740383d9a0a55b16
+content_sha256: 16e7ac6daa7f6e8d5016ffb450612e74265560ae6512c3a4b479d5b88d5f0cf7
 ---
 
 ## 2. CONTINUOUS FUNCTIONS
@@ -45,7 +46,7 @@ A mapping $f$ of a topological space $X$ into a topological space $X'$ is said t
 
 Definition 1 may be restated in the following more intuitive form: to say that $f$ is continuous at the point $x_0$ means that $f(x)$ is as near as we please to $f(x_0)$ whenever $x$ is sufficiently near $x_0$.
 
-The relation "for each $x \in V, f(x) \in V'$" is equivalent to $f(V) \subset V'$ or again to $V \subset \overline{f}^{-1}(V')$; in view of the neighbourhood axiom ($V_I$), we see that Definition 1 is equivalent to the following: $f : X \to X'$ is said to be continuous at the point $x_0$ if, for each neighbourhood $V'$ of $f(x_0)$ in $X'$, $\overline{f}^{-1}(V')$ is a neighbourhood of $x_0$ in $X$. Moreover, it is sufficient that $\overline{f}^{-1}(V')$ is a neighbourhood of $x_0$ for each neighbourhood $V'$ belonging to a fundamental system of neighbourhoods of $f(x_0)$ in $X'$ ($\S 1$, no. 3).
+The relation "for each $x \in V, f(x) \in V'$" is equivalent to $f(V) \subset V'$ or again to $V \subset \overline{f}^{-1}(V')$; in view of the neighbourhood axiom ($V_I$), we see that Definition 1 is equivalent to the following: $f : X \to X'$ is said to be continuous at the point $x_0$ if, for each neighbourhood $V'$ of $f(x_0)$ in $X'$, $\overline{f}^{-1}(V')$ is a neighbourhood of $x_0$ in $X$. Moreover, it is sufficient that $\overline{f}^{-1}(V')$ is a neighbourhood of $x_0$ for each neighbourhood $V'$ belonging to a fundamental system of neighbourhoods of $f(x_0)$ in $X'$ ($§ 1$, no. 3).
 
 #### Proposition 1 {#top-i-s2-prop-1 .statement}
 
@@ -89,7 +90,7 @@ $$
 
 and hence $x \in \overline{f^{-1}(A')} \subset \overline{f^{-1}(V')}$. By hypothesis, $\overline{f^{-1}(A')}$ is open in $X$, so that $\overline{f^{-1}(V')}$ is a neighbourhood of $x$ in $X$. Thus d) implies a).
 
-Remarks. 1) Let $\mathcal{B}$ be a base (\S 1, no. 3) of the topology of $X'$; then for $f : X \to X'$ to be continuous, it is necessary and sufficient that $\overline{f^{-1}(U')}$ is open in $X$ for every $U' \in \mathcal{B}$.
+Remarks. 1) Let $\mathcal{B}$ be a base (§ 1, no. 3) of the topology of $X'$; then for $f : X \to X'$ to be continuous, it is necessary and sufficient that $\overline{f^{-1}(U')}$ is open in $X$ for every $U' \in \mathcal{B}$.
 
 #### Example {#top-i-s2-n1-exa-2 .statement}
 
@@ -113,7 +114,7 @@ Likewise, the mapping $x \to ax$ is continuous on $\mathbf{Q}$; this is clear if
 
 2) For a bijection $f$ of a topological space $X$ onto a topological space $X'$ to be a homeomorphism, it is necessary and sufficient that $f$ and the inverse of $f$ are continuous (or, as is also said, that $f$ is bicontinuous).
 
-The first assertion is an immediate consequence of Proposition 2; the second follows from Theorem 1, d) and the definition of a homeomorphism (\$ 1, no. 1).
+The first assertion is an immediate consequence of Proposition 2; the second follows from Theorem 1, d) and the definition of a homeomorphism (§ 1, no. 1).
 
 #### Remark 1 {#top-i-s2-n1-rem-1 .statement}
 
@@ -125,7 +126,7 @@ To verify that a continuous bijection $f : X \to X'$ is a homeomorphism, it is e
 
 #### Remark 3 {#top-i-s2-n1-rem-3 .statement}
 
-Let $X$ be a topological space, and for each $x \in X$ let $\mathcal{B}(x)$ be the set of all neighbourhoods of $x$. Let $x_0$ be a point of $X$; for each $x \in X$, define a set $\mathcal{B}_0(x)$ of subsets of $X$ as follows: $\mathcal{B}_0(x_0) = \mathcal{B}(x_0)$, and if $x \neq x_0$ then $\mathcal{B}_0(x)$ is to be the set of all subsets of $X$ which contain $x$. It is immediately verified (\$ 1, no. 2, Proposition 2) that the sets $\mathcal{B}_0(x)$ are sets of neighbourhoods of points of $X$ for a topology on $X$; let $X_0$ denote the topological space thus obtained, and let $j : X_0 \to X$ denote the identity map, which is continuous but not in general bicontinuous. A mapping $f$ of $X$ into a topological space $X'$ is continuous at the point $x_0$ if and only if the composition $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ is continuous on $X_0$; this follows immediately from the definitions.
+Let $X$ be a topological space, and for each $x \in X$ let $\mathcal{B}(x)$ be the set of all neighbourhoods of $x$. Let $x_0$ be a point of $X$; for each $x \in X$, define a set $\mathcal{B}_0(x)$ of subsets of $X$ as follows: $\mathcal{B}_0(x_0) = \mathcal{B}(x_0)$, and if $x \neq x_0$ then $\mathcal{B}_0(x)$ is to be the set of all subsets of $X$ which contain $x$. It is immediately verified (§ 1, no. 2, Proposition 2) that the sets $\mathcal{B}_0(x)$ are sets of neighbourhoods of points of $X$ for a topology on $X$; let $X_0$ denote the topological space thus obtained, and let $j : X_0 \to X$ denote the identity map, which is continuous but not in general bicontinuous. A mapping $f$ of $X$ into a topological space $X'$ is continuous at the point $x_0$ if and only if the composition $X_0 \xrightarrow{j} X \xrightarrow{f} X'$ is continuous on $X_0$; this follows immediately from the definitions.
 
 ### 2. COMPARISON OF TOPOLOGIES
 
@@ -270,7 +271,7 @@ then also $x = h_{\lambda \mu}(y)$ and therefore, by (ii), $x \in A_{\lambda \mu
 
 Now suppose that each $X_\lambda$ is a *topological space*, and let $\mathcal{T}_\lambda$ be its topology. Let $\mathcal{T}$ be the finest topology on the set $X/R$ for which the mappings $\varphi \circ j_\lambda$ are continuous; $\mathcal{T}$ is the quotient by $R$ of the topology on $X$ which is the *sum* of the topologies $\mathcal{T}_\lambda$. We say that the topological space $X/R$ (with the topology $\mathcal{T}$) is obtained by *pasting together the topological spaces* $X_\lambda$ *along the* $A_{\lambda \mu}$ *by means of the bijections* $h_{\mu \lambda}$. The *open* (resp. *closed*) subsets of $X/R$ are thus the canonical images of the subsets $B$ of $X$ which are *saturated* with respect to $R$ and are such that $B \cap X_\lambda$ is *open* (resp. *closed*) in $X_\lambda$ for each $\lambda \in L$.
 
-Since the restriction of $\varphi$ to each $X_\lambda$ is a bijection onto the subset $X'_\lambda = \varphi(X_\lambda)$ of $X/R$, we can transport the topology $\mathcal{T}_\lambda$ to $X'_\lambda$ by means of this bijection, so that $X'_\lambda$ carries a topology $\mathcal{T}'_\lambda$; and the topology $\mathcal{T}$ on $X/R$ is the *finest* for which the canonical injections $X'_\lambda \to X/R$ are continuous. In general, the topology induced by $\mathcal{T}$ on $X'_\lambda$ is *coarser* than $\mathcal{T}'_\lambda$, but not identical with the latter; even if the $h_{\mu \lambda}$ are homeomorphisms (\S 3, Exercise 15). However, it follows from no. 4, Proposition 8 that, with the preceding notation:
+Since the restriction of $\varphi$ to each $X_\lambda$ is a bijection onto the subset $X'_\lambda = \varphi(X_\lambda)$ of $X/R$, we can transport the topology $\mathcal{T}_\lambda$ to $X'_\lambda$ by means of this bijection, so that $X'_\lambda$ carries a topology $\mathcal{T}'_\lambda$; and the topology $\mathcal{T}$ on $X/R$ is the *finest* for which the canonical injections $X'_\lambda \to X/R$ are continuous. In general, the topology induced by $\mathcal{T}$ on $X'_\lambda$ is *coarser* than $\mathcal{T}'_\lambda$, but not identical with the latter; even if the $h_{\mu \lambda}$ are homeomorphisms (§ 3, Exercise 15). However, it follows from no. 4, Proposition 8 that, with the preceding notation:
 
 #### Proposition 9 {#top-i-s2-prop-9 .statement}
 

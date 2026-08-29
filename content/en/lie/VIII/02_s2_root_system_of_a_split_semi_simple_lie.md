@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 11
-content_sha256: 2f817ca2f2760b014487000082efaaaf6a394cd0120f4c55517995e3ea6625c4
+content_sha256: 5b8fba70b72c8f243ecb19eff11bd99a4fc4e1594703137b927fa6344b3f9e7f
 ---
 
 ## § 2. ROOT SYSTEM OF A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -106,11 +106,11 @@ Let $\alpha$ be a root of $(\mathfrak{g},\mathfrak{h})$.
 
 (iv) If $X_{\alpha}$ is a non-zero element of $\mathfrak{g}^{\alpha}$, there exists a unique $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ such that $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$. Let $\varphi$ be the linear map from $\mathfrak{s}\mathfrak{l}(2, k)$ to $\mathfrak{g}$ that takes $X_+$ to $X_{\alpha},X_-$ to $X_{-\alpha}$, and $H$ to $H_{\alpha}$; then $\varphi$ is an isomorphism from the Lie algebra $\mathfrak{s}\mathfrak{l}(2, k)$ to the Lie algebra $\mathfrak{s}_{\alpha}$.
 
-$a)$ Let $h_{\alpha}$ be the unique element of $\mathfrak{h}$ such that $\alpha (h) =\langle h_{\alpha}, h\rangle$ for all $h\in \mathfrak{h}$. By Prop. $1, [x, y] =\langle x, y\rangle h_{\alpha}$ for all $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$; on the other hand $\langle \mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}\rangle  \not= 0$. Hence $\mathfrak{h}_{\alpha}= [\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}] =kh_{\alpha}$.
+a) Let $h_{\alpha}$ be the unique element of $\mathfrak{h}$ such that $\alpha (h) =\langle h_{\alpha}, h\rangle$ for all $h\in \mathfrak{h}$. By Prop. $1, [x, y] =\langle x, y\rangle h_{\alpha}$ for all $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$; on the other hand $\langle \mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}\rangle  \not= 0$. Hence $\mathfrak{h}_{\alpha}= [\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}] =kh_{\alpha}$.
 
-$b)$ Choose $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$ such that $\langle x, y\rangle = 1$, so $[x, y] =h_{\alpha}$. Recall that $[h_{\alpha}, x] =\alpha (h_{\alpha})x, [h_{\alpha}, y] =-\alpha (h_{\alpha})y$. If $\alpha (h_{\alpha}) = 0$, it follows that $kx+ky+kh_{\alpha}$ is a nilpotent subalgebra $\mathfrak{t}$ of $\mathfrak{g}$; since $h_{\alpha}\in [\mathfrak{t},\mathfrak{t}]$, ad$_{\mathfrak{g}}h_{\alpha}$ is nilpotent (Chap. I, §5, no. 3, Th. 1), which is absurd since ad$_{\mathfrak{g}}h_{\alpha}$ is non-zero semi-simple. So $\alpha (h_{\alpha})\not= 0$. Hence there exists a unique $H_{\alpha}\in \mathfrak{h}_{\alpha}$ such that $\alpha (H_{\alpha}) = 2$, which proves (ii).
+b) Choose $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$ such that $\langle x, y\rangle = 1$, so $[x, y] =h_{\alpha}$. Recall that $[h_{\alpha}, x] =\alpha (h_{\alpha})x, [h_{\alpha}, y] =-\alpha (h_{\alpha})y$. If $\alpha (h_{\alpha}) = 0$, it follows that $kx+ky+kh_{\alpha}$ is a nilpotent subalgebra $\mathfrak{t}$ of $\mathfrak{g}$; since $h_{\alpha}\in [\mathfrak{t},\mathfrak{t}]$, ad$_{\mathfrak{g}}h_{\alpha}$ is nilpotent (Chap. I, §5, no. 3, Th. 1), which is absurd since ad$_{\mathfrak{g}}h_{\alpha}$ is non-zero semi-simple. So $\alpha (h_{\alpha})\not= 0$. Hence there exists a unique $H_{\alpha}\in \mathfrak{h}_{\alpha}$ such that $\alpha (H_{\alpha}) = 2$, which proves (ii).
 
-$c)$ Choose a non-zero element $X_{\alpha}$ of $\mathfrak{g}^{\alpha}$. There exists $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ such that $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ (since $[X_{\alpha},\mathfrak{g}^{-\alpha}] =\mathfrak{h}_{\alpha}$ by $b$)$)$. Then
+c) Choose a non-zero element $X_{\alpha}$ of $\mathfrak{g}^{\alpha}$. There exists $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ such that $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ (since $[X_{\alpha},\mathfrak{g}^{-\alpha}] =\mathfrak{h}_{\alpha}$ by $b$)$)$. Then
 
 $$
 [H_{\alpha}, X_{\alpha}] =\alpha (H_{\alpha})X_{\alpha}= 2X_{\alpha},[H_{\alpha}, X_{-\alpha}] =-\alpha (H_{\alpha})X_{-\alpha}=-2X_{-\alpha}
@@ -122,7 +122,7 @@ $$
 
 hence $kX_{\alpha}+kX_{-\alpha}+kH_{\alpha}$ is a subalgebra of $\mathfrak{g}$ and the linear map $\varphi$ from $\mathfrak{s}\mathfrak{l}(2, k)$ to $kX_{\alpha}+kX_{-\alpha}+kH_{\alpha}$ such that $\varphi (X_+) =X_{\alpha},\varphi (X_-) =X_{-\alpha}$, $\varphi (H) =H_{\alpha}$ is an isomorphism of Lie algebras.
 
-$d)$ Assume that dim$\mathfrak{g}^{\alpha}>1$. Let $y$ be a non-zero element of $\mathfrak{g}^{-\alpha}$. There exists a non-zero element $X_{\alpha}$ of $\mathfrak{g}_{\alpha}$ such that $\langle y, X_{\alpha}\rangle = 0$. Choose $X_{-\alpha}$ as in $c)$, and consider the representation $\rho :u \rightarrow$ ad$_{\mathfrak{g}}\varphi (u)$ from $\mathfrak{s}\mathfrak{l}(2, k)$ to $\mathfrak{g}$. We have
+d) Assume that dim$\mathfrak{g}^{\alpha}>1$. Let $y$ be a non-zero element of $\mathfrak{g}^{-\alpha}$. There exists a non-zero element $X_{\alpha}$ of $\mathfrak{g}_{\alpha}$ such that $\langle y, X_{\alpha}\rangle = 0$. Choose $X_{-\alpha}$ as in c), and consider the representation $\rho :u \rightarrow$ ad$_{\mathfrak{g}}\varphi (u)$ from $\mathfrak{s}\mathfrak{l}(2, k)$ to $\mathfrak{g}$. We have
 
 $$
 \rho (H)y= [\varphi (H), y] = [H_{\alpha}, y] =-2y
@@ -134,7 +134,7 @@ $$
 
 Thus, $y$ is primitive for $\rho$, of weight $-2$, which contradicts Prop. 2 of §1, no. 2. This proves (i).
 
-$e)$ Assertion (iii) is now a consequence of $c)$. On the other hand, if $X_{\alpha}$ is a non-zero element of $\mathfrak{g}^{\alpha}$, the element $X_{-\alpha}$ constructed in $c)$ is the unique element of $\mathfrak{g}^{-\alpha}$ such that $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ since dim $\mathfrak{g}^{-\alpha}= 1$. The last assertion of (iv) is a consequence of $c)$. Q.E.D.
+e) Assertion (iii) is now a consequence of c). On the other hand, if $X_{\alpha}$ is a non-zero element of $\mathfrak{g}^{\alpha}$, the element $X_{-\alpha}$ constructed in c) is the unique element of $\mathfrak{g}^{-\alpha}$ such that $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ since dim $\mathfrak{g}^{-\alpha}= 1$. The last assertion of (iv) is a consequence of c). Q.E.D.
 
 The notations $h_{\alpha},H_{\alpha},\mathfrak{s}_{\alpha}$ will be retained in what follows. (To define $h_{\alpha}$, we take $\langle \cdot ,\cdot \rangle$ equal to the Killing form.) If $X_{\alpha}$ is a non-zero element of $\mathfrak{g}^{\alpha}$, the isomorphism $\varphi$ of Th. 1 and the representation $u \rightarrow$ ad$_{\mathfrak{g}}\varphi (u)$ of $\mathfrak{s}\mathfrak{l}(2, k)$ on $\mathfrak{g}$ will be said to be associated to $X_{\alpha}$.
 

@@ -49,9 +49,9 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 0
-content_sha256: 61d21865387ae7d39c1290eaf872a1e995fa301830c6d854235aec081c8a95eb
+content_sha256: 18f4615ecdc7a7819e7a64c81d8c37838e0673430bc726c259d24a141bc78334
 translated_from: content/en/ac/VII/03_s3_factorial_domains.md
-source_content_sha256: 9a9045d263d1c89874a549163bdb7f5c0542895d8b247dce4869a232dfc8d799
+source_content_sha256: 24b2404392ec37a498e3b069e48cd23f3c3de2b03e46d826d86d894e0aa6aa9e
 translation_model: gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-d91a6f09
 glossary_version: 34
@@ -67,10 +67,10 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 Một miền Krull mà mọi iđêan ước của nó đều là chính được gọi là một miền phân tích duy nhất (hay miền phân tích duy nhất).
 
-Nói cách khác, nhóm các lớp ước (\S 1, no. 2) suy biến thành 0.
+Nói cách khác, nhóm các lớp ước (§ 1, no. 2) suy biến thành 0.
 
 Ví dụ
-(1) Mọi miền iđêan chính đều là miền phân tích duy nhất (và, nhớ rằng, là một miền Dedekind). Ngược lại, mọi miền Dedekind phân tích duy nhất đều là một miền iđêan chính bởi \S 2, no. 2, Định lý 1 (c).
+(1) Mọi miền iđêan chính đều là miền phân tích duy nhất (và, nhớ rằng, là một miền Dedekind). Ngược lại, mọi miền Dedekind phân tích duy nhất đều là một miền iđêan chính bởi § 2, no. 2, Định lý 1 (c).
 (2) Đặc biệt, nếu K là một trường, thì các vành K[X] và K[[X]] là các miền phân tích duy nhất (xem Định lý 2 và Mệnh đề 8 dưới đây đối với các tổng quát hóa).
 (3) \* Vành địa phương của một điểm đơn của một đa tạp đại số là một miền phân tích duy nhất. Vành các mầm của các hàm giải tích tại gốc của $\mathbf{C}^n$ là một miền phân tích duy nhất. \*
 
@@ -93,11 +93,11 @@ Ta sẽ ký hiệu bởi K trường phân thức của A và bởi $\mathcal{P}
 
 (a) ⇔ (b) ⇔ (c) ⇔ (d) ⇔ (e)
 
-Ta chứng minh rằng (a) kéo theo (b); nếu A là miền phân tích duy nhất, $\mathcal{P}^*$ đẳng cấu với nhóm các ước của A và do đó với một tổng trực tiếp của các nhóm $\mathbf{Z}$ ($\S 1$, no. 3, Định lý 2).
+Ta chứng minh rằng (a) kéo theo (b); nếu A là miền phân tích duy nhất, $\mathcal{P}^*$ đẳng cấu với nhóm các ước của A và do đó với một tổng trực tiếp của các nhóm $\mathbf{Z}$ ($§ 1$, no. 3, Định lý 2).
 
-Lưu ý ngay rằng quan hệ "giao của hai iđêan chính nguyên của A là một iđêan chính" có nghĩa là mọi cặp có thứ tự các phần tử của A đều có một $lcm$, tức là $\mathcal{P}^*$ là một nhóm có thứ tự dàn (Algebra, Chapter VI, $\S 1$, no. 9, Mệnh đề 8). Việc (b) kéo theo (c) (và thậm chí tương đương với nó) do đó suy ra từ Algebra, Chapter VI, $\S 1$, no. 13, Định lý 2. Việc (c) kéo theo (d) suy ra từ Algebra, Chapter VI, $\S 1$, no. 13, Mệnh đề 14 (DIV).
+Lưu ý ngay rằng quan hệ "giao của hai iđêan chính nguyên của A là một iđêan chính" có nghĩa là mọi cặp có thứ tự các phần tử của A đều có một $lcm$, tức là $\mathcal{P}^*$ là một nhóm có thứ tự dàn (Algebra, Chapter VI, $§ 1$, no. 9, Mệnh đề 8). Việc (b) kéo theo (c) (và thậm chí tương đương với nó) do đó suy ra từ Algebra, Chapter VI, $§ 1$, no. 13, Định lý 2. Việc (c) kéo theo (d) suy ra từ Algebra, Chapter VI, $§ 1$, no. 13, Mệnh đề 14 (DIV).
 
-Việc (d) kéo theo (b) suy ra từ Algebra, Chapter VI, $\S 1$, no. 13, Định lý 2 áp dụng cho nhóm $\mathcal{S}^*$.
+Việc (d) kéo theo (b) suy ra từ Algebra, Chapter VI, $§ 1$, no. 13, Định lý 2 áp dụng cho nhóm $\mathcal{S}^*$.
 
 Ta chứng minh rằng (b) kéo theo (e). Nếu (b) đúng, thì có một đẳng cấu từ $\mathcal{P}^*$ lên $\mathbf{Z}^{(l)}$; ký hiệu $(v_i(x))_{i \in I}$ phần tử của $\mathbf{Z}^{(l)}$ tương ứng với iđêan $Ax$ ($x \in K^*$). Dễ thấy ngay rằng mỗi $v_i$ là một định giá rời rạc trên K, rằng A là giao của các vành định giá của các $v_i$ và rằng, với $x \in K^*$, $v_i(x) = 0$ trừ một số hữu hạn các chỉ số $i$; do đó A là một miền Krull. Mặt khác, cho q là một iđêan nguyên tố của A cấp 1; nó chứa một phần tử khác 0 a mà nhất thiết không khả nghịch và vì thế cũng (theo định nghĩa của iđêan nguyên tố) là một trong các phần tử cực trị của A; vì $Ap$ là nguyên tố và khác 0, $q = Ap$, điều đó chứng tỏ rằng q là chính.
 
@@ -107,19 +107,19 @@ Cuối cùng ta chứng minh rằng (e) kéo theo (a). Cho a là một iđêan �
 
 *Cho A là một miền Krull. Nếu mọi iđêan ước của A đều khả nghịch, thì, với mọi iđêan cực đại m của A, $A_m$ là miền phân tích duy nhất. Đảo lại đúng nếu cũng giả sử rằng mọi iđêan ước của A đều sinh hữu hạn (đặc biệt nếu A là Noether).*
 
-Giả sử rằng mọi iđêan divisorial của $A$ đều khả nghịch; vì $A_{,,}$ là một miền Krull ($\S 1$, no. 4, Mệnh đề 6), mọi iđêan divisorial $a$ của $A_{,,}$ đều là giao của hai iđêan phân thức chính ($\S 1$, no. 5, Hệ quả 2 của Mệnh đề 9); do đó $a = bA_m$, trong đó $b$ là một iđêan divisorial của $A$ (Chương II, $\S 2$, no. 4); vì $b$ khả nghịch theo giả thiết, suy ra từ Chương II, $\S 5$, no. 6, Định lý 4 rằng $a$ là iđêan chính và do đó $A_{,,}$ là một miền nhân tử (no. 1, Định nghĩa 1). Ngược lại, nếu mọi $A_{,,}$ đều là miền nhân tử và $c$ là một iđêan divisorial sinh hữu hạn của $A$, thì $cA_m$ là một iđêan divisorial của $A_{,,}$, như suy ra từ $\S 1$, no. 5, Hệ quả 2 của Mệnh đề 9 và Chương II, $\S 2$, no. 4; theo giả thiết $cA_m$ là iđêan chính và do đó suy ra từ Chương 11, $\S 5$, no. 6, Định lý 4 rằng $c$ khả nghịch.
+Giả sử rằng mọi iđêan divisorial của $A$ đều khả nghịch; vì $A_{,,}$ là một miền Krull ($§ 1$, no. 4, Mệnh đề 6), mọi iđêan divisorial $a$ của $A_{,,}$ đều là giao của hai iđêan phân thức chính ($§ 1$, no. 5, Hệ quả 2 của Mệnh đề 9); do đó $a = bA_m$, trong đó $b$ là một iđêan divisorial của $A$ (Chương II, $§ 2$, no. 4); vì $b$ khả nghịch theo giả thiết, suy ra từ Chương II, $§ 5$, no. 6, Định lý 4 rằng $a$ là iđêan chính và do đó $A_{,,}$ là một miền nhân tử (no. 1, Định nghĩa 1). Ngược lại, nếu mọi $A_{,,}$ đều là miền nhân tử và $c$ là một iđêan divisorial sinh hữu hạn của $A$, thì $cA_m$ là một iđêan divisorial của $A_{,,}$, như suy ra từ $§ 1$, no. 5, Hệ quả 2 của Mệnh đề 9 và Chương II, $§ 2$, no. 4; theo giả thiết $cA_m$ là iđêan chính và do đó suy ra từ Chương 11, $§ 5$, no. 6, Định lý 4 rằng $c$ khả nghịch.
 
 ### 3. PHÂN TÍCH THÀNH CÁC PHẦN TỬ CỰC TRỊ
 
-Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $U$ là nhóm nhân của các phần tử khả nghịch của $A$. Nhắc lại (Đại số, Chương VI, $\S 1$, no. 5) rằng có một đẳng cấu chính tắc từ $K^*/U$ lên nhóm $\mathcal{P}^*$ của các iđêan phân thức chính khác không của $A$. Điều kiện (b) của Định lý 1 khi đó có thể được phát biểu như sau:
+Cho $A$ là một miền nguyên, $K$ là trường phân thức của nó và $U$ là nhóm nhân của các phần tử khả nghịch của $A$. Nhắc lại (Đại số, Chương VI, $§ 1$, no. 5) rằng có một đẳng cấu chính tắc từ $K^*/U$ lên nhóm $\mathcal{P}^*$ của các iđêan phân thức chính khác không của $A$. Điều kiện (b) của Định lý 1 khi đó có thể được phát biểu như sau:
 
 #### Mệnh đề 2 {#ac-vii-s3-prop-2 .statement}
 
 *Cho $A$ là một miền nguyên. Để $A$ là miền nhân tử, cần và đủ tồn tại một tập con $P$ của $A$ sao cho mọi $a \in A - \{0\}$ đều có thể viết duy nhất dưới dạng $a = u \prod_{p \in P} p^{n(p)}$, trong đó $u \in U$ và các $n(p)$ là các số nguyên dương, bằng không trừ hữu hạn số trong đó.*
 
-Nếu $P$ thỏa điều kiện này, rõ ràng mọi phần tử của nó đều là *cực trị* và mỗi phần tử cực trị của $A$ đều liên kết với một phần tử duy nhất của $P$. Nhắc lại rằng khi đó $P$ được gọi là một *hệ đại diện các phần tử cực trị* của $A$ (Đại số, Chương VII, $\S 1$, no. 3, Định nghĩa 2).
+Nếu $P$ thỏa điều kiện này, rõ ràng mọi phần tử của nó đều là *cực trị* và mỗi phần tử cực trị của $A$ đều liên kết với một phần tử duy nhất của $P$. Nhắc lại rằng khi đó $P$ được gọi là một *hệ đại diện các phần tử cực trị* của $A$ (Đại số, Chương VII, $§ 1$, no. 3, Định nghĩa 2).
 
-Luôn giả sử rằng $A$ là miền nhân tử. Đã thấy (no. 2, Định lý 1) rằng nhóm $\mathcal{P}^*$ là một dàn. Vì vậy ta có thể áp dụng các kết quả của Đại số, Chương VI, $\S 1$, nos. 9 và 13. Đặc biệt, mỗi phần tử của $K^*$ có thể được viết theo một cách về bản chất là duy nhất dưới dạng một *phân thức bất khả quy*. Bất kỳ hai phần tử $a, b$ của $K^*$ đều có một g.c.d. và một l.c.m.; nếu $a = u \prod_{p \in P} p^{n(p)}$ và
+Luôn giả sử rằng $A$ là miền nhân tử. Đã thấy (no. 2, Định lý 1) rằng nhóm $\mathcal{P}^*$ là một dàn. Vì vậy ta có thể áp dụng các kết quả của Đại số, Chương VI, $§ 1$, nos. 9 và 13. Đặc biệt, mỗi phần tử của $K^*$ có thể được viết theo một cách về bản chất là duy nhất dưới dạng một *phân thức bất khả quy*. Bất kỳ hai phần tử $a, b$ của $K^*$ đều có một g.c.d. và một l.c.m.; nếu $a = u \prod_{p \in P} p^{n(p)}$ và
 $$
 b = u' \prod_{p \in P} p^{m(p)}
 $$

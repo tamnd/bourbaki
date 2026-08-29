@@ -36,7 +36,7 @@ subsections:
       pdf_page: 67
 statements: 27
 exercises: 17
-content_sha256: 7afddb0c17fe4353d16f1b5f3d5424a6a799d10e78a41373b3b1a4bd6aee8126
+content_sha256: 4ec48d785e36a09121ed23d80cd3f72556bfd845252eafe16fc5726d6743d3c3
 translated_from: content/en/lie/I/05_s5_solvable_lie_algebras.md
 source_content_sha256: 8a5f1722668ed0f1d583adf9e15208692fd4cf6dd73a499078943bdc4e608704
 translation_model: gpt-5.4
@@ -208,7 +208,7 @@ Ký hiệu các tập hợp này bởi $a, b, c, d$. Các bao hàm $a \subset b 
 
 Cho $x$ là một tự đồng cấu của một không gian vectơ hữu hạn chiều V, và s (tương ứng n) là thành phần nửa đơn (tương ứng lũy linh) của nó (xem Đại số, Chương VIII, § 9, no. 4, Định nghĩa 4). Gọi $\mathrm{ad}\, x, \mathrm{ad}\, s, \mathrm{ad}\, n$ là các ảnh tương ứng của $x, s, n$ trong biểu diễn phụ hợp của $\mathfrak{gl}(V)$. Khi đó $\mathrm{ad}\, s$ (tương ứng $\mathrm{ad}\, n$) là thành phần nửa đơn (tương ứng lũy linh) của $\mathrm{ad}\, x$ và bằng một đa thức theo $\mathrm{ad}\, x$ với các hệ số trong K và không có số hạng hằng.
 
-Ta biết rằng $\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$ và $\mathrm{ad}\, n$ là lũy linh ($\S 4$, Bổ đề 1). Ta chứng minh rằng $\mathrm{ad}\, s$ là nửa đơn. Chỉ cần làm điều đó khi K đóng đại số (x. Đại số, Chương VIII, § 9, no. 2, Mệnh đề 3). Khi đó, lấy $(e_i)_{1 \leq i \leq n}$ là một cơ sở của V sao cho $s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$). Gọi $(E_{ij})$ là cơ sở chính tắc của $M_n(K) = \mathfrak{gl}(V)$. Theo các công thức (5) của $\S 1$,
+Ta biết rằng $\mathrm{ad}\, x = \mathrm{ad}\, s + \mathrm{ad}\, n, [\mathrm{ad}\, s, \mathrm{ad}\, n] = 0$ và $\mathrm{ad}\, n$ là lũy linh ($§ 4$, Bổ đề 1). Ta chứng minh rằng $\mathrm{ad}\, s$ là nửa đơn. Chỉ cần làm điều đó khi K đóng đại số (x. Đại số, Chương VIII, § 9, no. 2, Mệnh đề 3). Khi đó, lấy $(e_i)_{1 \leq i \leq n}$ là một cơ sở của V sao cho $s(e_i) = \lambda_i e_i$ ($\lambda_i \in K$). Gọi $(E_{ij})$ là cơ sở chính tắc của $M_n(K) = \mathfrak{gl}(V)$. Theo các công thức (5) của $§ 1$,
 
 $$
 (\mathrm{ad}\, s)\cdot E_{ij} = (\lambda_i - \lambda_j)E_{ij}
@@ -266,7 +266,7 @@ Cho g là một đại số Lie. Khi đó g giải được khi và chỉ khi $\
 
 Căn r của một đại số Lie g là một iđêan đặc số.
 
-$\mathcal{D}g$ là một iđêan đặc số và dạng Killing là hoàn toàn bất biến (\S 3, no. 6, Mệnh đề 10). Do đó trực giao của $\mathcal{D}g$ đối với dạng Killing là một iđêan đặc số (\S 3, no. 6, Mệnh đề 7 (b)).
+$\mathcal{D}g$ là một iđêan đặc số và dạng Killing là hoàn toàn bất biến (§ 3, no. 6, Mệnh đề 10). Do đó trực giao của $\mathcal{D}g$ đối với dạng Killing là một iđêan đặc số (§ 3, no. 6, Mệnh đề 7 (b)).
 
 #### Hệ quả 3 {#lie-i-s5-prop-5-cor-3 .statement}
 
@@ -280,7 +280,7 @@ Hệ quả 2 có thể được làm chính xác hơn như sau:
 
 Cho g là một đại số Lie, r là căn của nó và n là iđêan lũy linh lớn nhất của nó. Mọi đạo hàm của g biến r vào n.
 
-Gọi D là một đạo hàm của g. Gọi g' = g + Kx_0 là một đại số Lie trong đó g là một iđêan đối chiều 1 sao cho Dx = [x_0, x] với mọi x ∈ g (\S 1, no. 8, Ví dụ 1). Theo Hệ quả 3 của Mệnh đề 5, r được chứa trong căn r' của g'. Khi đó D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. Với mọi x ∈ s', ad_{g'} x là lũy linh (Định lý 1). Do đó, với mọi x ∈ s' ∩ g, ad_g x là lũy linh. Do đó D(r) được chứa trong iđêan lũy linh s' ∩ g của g.
+Gọi D là một đạo hàm của g. Gọi g' = g + Kx_0 là một đại số Lie trong đó g là một iđêan đối chiều 1 sao cho Dx = [x_0, x] với mọi x ∈ g (§ 1, no. 8, Ví dụ 1). Theo Hệ quả 3 của Mệnh đề 5, r được chứa trong căn r' của g'. Khi đó D(r) = [x_0, r] ⊂ [g', g'] ∩ r' = s'. Với mọi x ∈ s', ad_{g'} x là lũy linh (Định lý 1). Do đó, với mọi x ∈ s' ∩ g, ad_g x là lũy linh. Do đó D(r) được chứa trong iđêan lũy linh s' ∩ g của g.
 
 #### Hệ quả {#lie-i-s5-n5-cor-1 .statement}
 

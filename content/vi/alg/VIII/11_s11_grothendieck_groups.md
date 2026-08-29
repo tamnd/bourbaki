@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: 0413e9d778dfb0c97f05520255e469442c9582959da928daefb7291ff79b73af
+content_sha256: d19341c75ff92cb1174fa888cdecab2e1d604828252791313c11ae9009090461
 translated_from: content/en/alg/VIII/11_s11_grothendieck_groups.md
 source_content_sha256: bc6f23569d66726f9edb899a7ea492701ad1b2a6d43e816e11728c34011d5e59
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -765,7 +765,7 @@ Do đó nếu $f$ làm cho $B$ trở thành một $A$-môđun xạ ảnh sinh h�
 
 ### 11. Luật tương hỗ Frobenius
 
-Cho $A$ là một vành nửa đơn. Cho $f$ là một đồng cấu từ $A$ đến một vành nửa đơn $B$. Cho $S$ là một $A$-môđun đơn và $T$ một $B$-môđun đơn, và cho $D$ và $E$ lần lượt là các bộ giao hoán của $S$ và $T$. Theo bổ đề Schur (VIII, p. 47, Hệ quả), $D$ và $E$ là các trường. Cho $H$ là tập hợp các đồng cấu A-tuyến tính từ $S$ đến $f_*(T)$. Ta trang bị cho $H$ một cấu trúc song môđun $(E$, $D)$ với các luật ngoài $(e, u)\mapsto e\circ u$ và $(d, u)\mapsto u\circ d$ với $e\in E,u\in H$, $d\in D$.
+Cho $A$ là một vành nửa đơn. Cho $f$ là một đồng cấu từ $A$ đến một vành nửa đơn $B$. Cho $S$ là một $A$-môđun đơn và $T$ một $B$-môđun đơn, và cho $D$ và $E$ lần lượt là các bộ giao hoán của $S$ và $T$. Theo bổ đề Schur (VIII, p. 47, Hệ quả), $D$ và $E$ là các trường. Cho $H$ là tập hợp các đồng cấu A-tuyến tính từ $S$ đến $f_*(T)$. Ta trang bị cho $H$ một cấu trúc song môđun $(E$, D) với các luật ngoài $(e, u)\mapsto e\circ u$ và $(d, u)\mapsto u\circ d$ với $e\in E,u\in H$, $d\in D$.
 
 #### Mệnh đề 11 {#alg-viii-s11-prop-11 .statement tag=00DQ}
 

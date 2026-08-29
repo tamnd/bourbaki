@@ -32,7 +32,7 @@ subsections:
       pdf_page: 55
 statements: 20
 exercises: 6
-content_sha256: cc4c4c91056ceff910084b079cbdb9376ec061cce2e20fe4d3319ece23785316
+content_sha256: a10be4f9a4b0a7cf6e5d53c645b9e9ee805b034d054ca0c6ac6bef083bbd4e10
 ---
 
 ## § 6. La série de Hausdorff
@@ -105,7 +105,7 @@ Soit $E$ une algèbre associative unifière. Si $a$ est un élément nilpotent d
 
 ### 2. Groupe de Hausdorff
 
-Soit $X$ un ensemble. Reprenons les notations du § 5, n°s 1 et 2. On identifie l’algèbre de Lie libre $L(X)$ à son image canonique dans $A(X)$ (\S 3, n° 1, th. 1). On notera $\hat{L}(X)$ l’adhérence de $L(X)$ dans $\hat{A}(X)$, c’est-à-dire l’ensemble des éléments de $\hat{A}(X)$ de la forme $a = \sum_{n \geq 1} a_n$ tels que $a_n \in L^n(X)$ pour tout $n \geq 0$; c’est une sous-algèbre de Lie filtrée de $\hat{A}(X)$.
+Soit $X$ un ensemble. Reprenons les notations du § 5, n°s 1 et 2. On identifie l’algèbre de Lie libre $L(X)$ à son image canonique dans $A(X)$ (§ 3, n° 1, th. 1). On notera $\hat{L}(X)$ l’adhérence de $L(X)$ dans $\hat{A}(X)$, c’est-à-dire l’ensemble des éléments de $\hat{A}(X)$ de la forme $a = \sum_{n \geq 1} a_n$ tels que $a_n \in L^n(X)$ pour tout $n \geq 0$; c’est une sous-algèbre de Lie filtrée de $\hat{A}(X)$.
 
 #### Théorème 1 {#lie-ii-s6-thm-1 .statement}
 
@@ -246,7 +246,7 @@ C.Q.F.D.
 
 #### Remarque 1 {#lie-ii-s6-n4-rem-1 .statement}
 
-On a défini (\S 3, n° 2, Remarque) un projecteur Q de A(X) sur L(X) tel que Q(a^m) = 0 pour $a \in L(X)$ et $m \geq 2$, et Q(1) = 0. On a alors $H = Q(\exp H) = Q(\exp U \cdot \exp V)$, d’où immédiatement
+On a défini (§ 3, n° 2, Remarque) un projecteur Q de A(X) sur L(X) tel que Q(a^m) = 0 pour $a \in L(X)$ et $m \geq 2$, et Q(1) = 0. On a alors $H = Q(\exp H) = Q(\exp U \cdot \exp V)$, d’où immédiatement
 
 $$
 H_{r,s} = Q \left( \frac{U^r}{r!} \frac{V^s}{s!} \right) \quad \text{pour } r + s \geq 1.
@@ -278,7 +278,7 @@ $$
 
 ### 5. Substitutions dans la série de Hausdorff
 
-Comme K est un corps contenant $\mathbf{Q}$, la série de Hausdorff peut être considérée comme une série formelle de Lie à coefficients dans K. Par suite, si $g$ est une algèbre de Lie filtrée, séparée et complète avec $g = \bigcup_{\alpha > 0} g_\alpha$, on peut, pour $a, b$ dans $g$, substituer $a$ et $b$ à U et V dans H (cf. n° 3 et \S 2, n° 5, Remarque).
+Comme K est un corps contenant $\mathbf{Q}$, la série de Hausdorff peut être considérée comme une série formelle de Lie à coefficients dans K. Par suite, si $g$ est une algèbre de Lie filtrée, séparée et complète avec $g = \bigcup_{\alpha > 0} g_\alpha$, on peut, pour $a, b$ dans $g$, substituer $a$ et $b$ à U et V dans H (cf. n° 3 et § 2, n° 5, Remarque).
 
 En particulier, soit A une algèbre associative unifière, filtrée, séparée et complète. Posons $m = \bigcup_{\alpha > 0} A_\alpha$ et $m_\alpha = A_\alpha \cap m$ pour $\alpha \in \mathbf{R}$; on a donc $m_\alpha = A_\alpha$ pour $\alpha > 0$ et $m_\alpha = m$ pour $\alpha \leq 0$. Pour le crochet $[a, b] = ab - ba$, m est une algèbre de Lie filtrée, séparée et complète, à laquelle on peut appliquer ce qui précède. Avec ces notations, on a le résultat suivant, qui complète la prop. 1 du n° 1.
 
@@ -286,7 +286,7 @@ En particulier, soit A une algèbre associative unifière, filtrée, séparée e
 
 Si $a \in m, b \in m$, on a $\exp H(a, b) = \exp a \cdot \exp b$.
 
-Soient $a, b$ dans $m$; il existe $\alpha > 0$ tel que $a \in A_\alpha$ et $b \in A_\alpha$. Par suite, il existe un homomorphisme continu $\theta$ de l’algèbre de Magnus $\hat{A}(\{U, V\})$ dans A appliquant U sur $a$ et V sur $b$ (\S 5, n° 1, prop. 1).
+Soient $a, b$ dans $m$; il existe $\alpha > 0$ tel que $a \in A_\alpha$ et $b \in A_\alpha$. Par suite, il existe un homomorphisme continu $\theta$ de l’algèbre de Magnus $\hat{A}(\{U, V\})$ dans A appliquant U sur $a$ et V sur $b$ (§ 5, n° 1, prop. 1).
 
 La restriction de $\theta$ à $\hat{L}(\{U, V\})$ est un homomorphisme continu d’algèbres de Lie de $\hat{L}(\{U, V\})$ dans m qui applique U (resp. V) sur $a$ (resp. $b$). D’après la formule (6) du n° 3, on a donc $\theta(H) = H(a, b)$. Il suffit alors d’appliquer l’homomorphisme continu $\theta$ aux deux membres de la relation $\exp H(U, V) = \exp U \cdot \exp V$ en tenant compte de la Remarque 3 du n° 1.
 
@@ -338,7 +338,7 @@ la loi du groupe de Hausdorff est donc donnée par la série de Hausdorff.
 
 #### Remarque 3 {#lie-ii-s6-n5-rem-3 .statement}
 
-Soit $g$ une algèbre de Lie munie de la filtration entière $(\mathcal{C}^n g)$ définie par la suite centrale descendante. Supposons qu’il existe un $m \geq 1$ tel que $\mathcal{C}^m g = \{0\}$. Pour la topologie déduite de la filtration $(\mathcal{C}^n g)_{n \geq 1}$, l’algèbre de Lie $g$ est séparée, complète, et même discrète. On a $P(a_1, \ldots, a_r) = 0$ pour $a_1, \ldots, a_r$ dans $g$ et pour tout polynôme de Lie $P$ homogène de degré $\geq m$; en particulier, on a $H_{r,s}(a, b) = 0$ pour $r + s \geq m$, et la série $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ n’a qu’un nombre fini de termes non nuls. La loi de groupe $(a, b) \mapsto H(a, b)$ sur $g$ est alors une application polynomiale (\S 2, n° 4).
+Soit $g$ une algèbre de Lie munie de la filtration entière $(\mathcal{C}^n g)$ définie par la suite centrale descendante. Supposons qu’il existe un $m \geq 1$ tel que $\mathcal{C}^m g = \{0\}$. Pour la topologie déduite de la filtration $(\mathcal{C}^n g)_{n \geq 1}$, l’algèbre de Lie $g$ est séparée, complète, et même discrète. On a $P(a_1, \ldots, a_r) = 0$ pour $a_1, \ldots, a_r$ dans $g$ et pour tout polynôme de Lie $P$ homogène de degré $\geq m$; en particulier, on a $H_{r,s}(a, b) = 0$ pour $r + s \geq m$, et la série $H(a, b) = \sum_{r,s} H_{r,s}(a, b)$ n’a qu’un nombre fini de termes non nuls. La loi de groupe $(a, b) \mapsto H(a, b)$ sur $g$ est alors une application polynomiale (§ 2, n° 4).
 
 § 5
 LA SÉRIE DE HAUSDORFF

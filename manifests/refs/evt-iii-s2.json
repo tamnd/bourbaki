@@ -1,0 +1,11 @@
+{"edges": [
+{"from":"","from_label":"evt-iii-s2-lem-1","to_label":"evt-ii-s2","kind":"cites","raw":"II, p. 20","form":"page","resolved_by":"section","file":"content/en/evt/III/02_s2_bornological_spaces.md","line":41},
+{"from":"","from_label":"evt-iii-s2-lem-1","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 27","form":"page","resolved_by":"section","file":"content/en/evt/III/02_s2_bornological_spaces.md","line":41},
+{"from":"","from_label":"evt-iii-s2-lem-1","to_label":"evt-iii-s2","kind":"cites","raw":"III, p. 11","form":"page","resolved_by":"section","file":"content/en/evt/III/02_s2_bornological_spaces.md","line":43},
+{"from":"","from_label":"evt-iii-s2-lem-1","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 27","form":"page","resolved_by":"section","file":"content/en/evt/III/02_s2_bornological_spaces.md","line":43},
+{"from":"","from_label":"evt-iii-s2-n0-exa-1","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 28","form":"page","resolved_by":"section","file":"content/en/evt/III/02_s2_bornological_spaces.md","line":55},
+{"from":"","from_label":"evt-iii-s2-n0-exa-1","to_label":"evt-iv-s4","kind":"cites","raw":"IV, p. 63","form":"page","resolved_by":"section","file":"content/en/evt/III/02_s2_bornological_spaces.md","line":57},
+{"from":"","from_label":"evt-iii-s2-n0-cor-2","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 24","form":"page","resolved_by":"section","file":"content/en/evt/III/02_s2_bornological_spaces.md","line":73},
+{"from":"","from_label":"evt-iii-s2-ex-2","to_label":"evt-iii-s2","kind":"cites","raw":"III, p. 11","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s2/02.md","line":15},
+{"from":"","from_label":"evt-iii-s2-ex-4","to_label":"evt-iv-s4","kind":"cites","raw":"IV, p. 64","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s2/04.md","line":14}
+]}

@@ -8,32 +8,33 @@ section_title: Laws of composition; associativity; commutativity
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 1-12, 124-126
 pdf_pages: 0025-0036, 0148-0150
 extraction: ocr
 subsections:
     - "no": 1
       title: LAWS OF COMPOSITION
-      page: 0
+      page: 1
       pdf_page: 25
     - "no": 2
       title: COMPOSITION OF AN ORDERED SEQUENCE OF ELEMENTS
-      page: 0
+      page: 3
       pdf_page: 27
     - "no": 3
       title: ASSOCIATIVE LAWS
-      page: 0
+      page: 4
       pdf_page: 28
     - "no": 4
       title: STABLE SUBSETS. INDUCED LAWS
-      page: 0
+      page: 6
       pdf_page: 30
     - "no": 5
       title: PERMUTABLE ELEMENTS. COMMUTATIVE LAWS
-      page: 0
+      page: 7
       pdf_page: 31
     - "no": 6
       title: QUOTIENT LAWS
-      page: 0
+      page: 11
       pdf_page: 35
 statements: 31
 exercises: 16

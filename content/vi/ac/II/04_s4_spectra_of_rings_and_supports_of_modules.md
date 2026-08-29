@@ -29,9 +29,9 @@ subsections:
       pdf_page: 124
 statements: 49
 exercises: 28
-content_sha256: 290369e1986bb5de903a7027d556ee1db5cfa31834d8b3bf651ed3813e310a18
+content_sha256: 14f73fe44fb9e2681b77121c24e2b4800b39ad9be11ce57788d45bcc0a93ff10
 translated_from: content/en/ac/II/04_s4_spectra_of_rings_and_supports_of_modules.md
-source_content_sha256: b16f1abe7ac650655d0924695aa6469a481241cf9a4fd4a93b724be5db0609ea
+source_content_sha256: afbce0ee70ea654b4478dd2d27c1a7060b1124651d86be84ea7b4b58f7101cd3
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-b4ef23db
 glossary_version: 34
@@ -186,15 +186,15 @@ với mọi họ $(M_i)_{i \in I}$ các tập con của A;
 $$
 V(a \cap a') = V(aa') = V(a) \cup V(a')
 $$
-với mọi cặp iđêan $a,\ a'$ trong A. Các công thức (1) và (2) là hiển nhiên; mặt khác, công thức (3) có nghĩa là, để một iđêan nguyên tố $p$ của A chứa một trong các iđêan $a$ hoặc $a'$, thì điều kiện cần và đủ là nó chứa $aa'$ hoặc nó chứa $a \cap a'$; khi đó nó là một hệ quả của § 1, no. 1, Mệnh đề 1. Công thức thứ hai (1) có đảo lại sau đây: nếu $a$ là một iđêan của $A$ sao cho $V(a) = \varnothing$, thì $a = A$, vì không có iđêan cực đại nào của $A$ chứa $a$. Cuối cùng, nếu $a$ là một iđêan của $A$ và $r(a)$ là căn của nó ($\S 2$, no. 6, Định nghĩa 4), thì
+với mọi cặp iđêan $a,\ a'$ trong A. Các công thức (1) và (2) là hiển nhiên; mặt khác, công thức (3) có nghĩa là, để một iđêan nguyên tố $p$ của A chứa một trong các iđêan $a$ hoặc $a'$, thì điều kiện cần và đủ là nó chứa $aa'$ hoặc nó chứa $a \cap a'$; khi đó nó là một hệ quả của § 1, no. 1, Mệnh đề 1. Công thức thứ hai (1) có đảo lại sau đây: nếu $a$ là một iđêan của $A$ sao cho $V(a) = \varnothing$, thì $a = A$, vì không có iđêan cực đại nào của $A$ chứa $a$. Cuối cùng, nếu $a$ là một iđêan của $A$ và $r(a)$ là căn của nó ($§ 2$, no. 6, Định nghĩa 4), thì
 
 $$
 V(a) = V(r(a))
 $$
 
-suy ra từ $\S 2$, no. 6, Hệ quả 1 của Mệnh đề 13.
+suy ra từ $§ 2$, no. 6, Hệ quả 1 của Mệnh đề 13.
 
-Các công thức (1) đến (3) chỉ ra rằng các tập con $V(M)$ của $X$ thỏa mãn các tiên đề *tập đóng* của một tôpô (*Tôpô đại cương*, Chương I, $\S 1$, no. 4).
+Các công thức (1) đến (3) chỉ ra rằng các tập con $V(M)$ của $X$ thỏa mãn các tiên đề *tập đóng* của một tôpô (*Tôpô đại cương*, Chương I, $§ 1$, no. 4).
 
 #### Định nghĩa 4 {#ac-ii-s4-def-4 .statement}
 
@@ -409,7 +409,7 @@ Cho $a$ là một iđêan của $A$; theo ký hiệu của no. 3, ta có
 $$
 V(a) = \operatorname{Supp}(A/a).
 $$
-Nếu $p$ là một nguyên tố của $A$ sao cho $a \notin p$, thì $(A/a)_p = 0$ (\S 3, no. 1, Nhận xét 3); nếu ngược lại $a \subset p$, $aA_p$ được chứa trong iđêan cực đại $pA_p$ của $A$, và $(A/a)_p$ là đẳng cấu với $A_p/aA_p$ và do đó là khác không (\S 3, no. 1, Mệnh đề 3); do đó có mệnh đề của chúng ta.
+Nếu $p$ là một nguyên tố của $A$ sao cho $a \notin p$, thì $(A/a)_p = 0$ (§ 3, no. 1, Nhận xét 3); nếu ngược lại $a \subset p$, $aA_p$ được chứa trong iđêan cực đại $pA_p$ của $A$, và $(A/a)_p$ là đẳng cấu với $A_p/aA_p$ và do đó là khác không (§ 3, no. 1, Mệnh đề 3); do đó có mệnh đề của chúng ta.
 Đặc biệt, $\operatorname{Supp}(A) = \operatorname{Spec}(A)$.
 
 #### Mệnh đề 16 {#ac-ii-s4-prop-16 .statement}
@@ -427,8 +427,8 @@ $$
 $$
 0 \to N_p \to M_p \to (M/N)_p \to 0
 $$
-(\S 2, no. 4, Định lý 1). Đối với $M$, để được thu gọn về 0, điều kiện cần và đủ là $N_p$ và $(M/N)_p$ cũng như vậy. Nói cách khác, quan hệ $p \notin \operatorname{Supp}(M)$ tương đương với "p $\notin \operatorname{Supp}(N)$ và $p \notin \operatorname{Supp}(M/N)$", điều này chứng minh (i).
-(ii) Với mọi iđêan nguyên tố $p$ của $A$, $M$, là tổng của họ các môđun con $(N_i)_p$ (\S 2, no. 4). Nói rằng $M, \neq 0$ có nghĩa là tồn tại $i \in I$ sao cho $(N_i)_p \neq 0$, do đó (ii).
+(§ 2, no. 4, Định lý 1). Đối với $M$, để được thu gọn về 0, điều kiện cần và đủ là $N_p$ và $(M/N)_p$ cũng như vậy. Nói cách khác, quan hệ $p \notin \operatorname{Supp}(M)$ tương đương với "p $\notin \operatorname{Supp}(N)$ và $p \notin \operatorname{Supp}(M/N)$", điều này chứng minh (i).
+(ii) Với mọi iđêan nguyên tố $p$ của $A$, $M$, là tổng của họ các môđun con $(N_i)_p$ (§ 2, no. 4). Nói rằng $M, \neq 0$ có nghĩa là tồn tại $i \in I$ sao cho $(N_i)_p \neq 0$, do đó (ii).
 
 #### Hệ quả {#ac-ii-s4-n4-cor-1 .statement}
 
@@ -457,7 +457,7 @@ Suy ra từ Mệnh đề 17 rằng giao của các iđêan nguyên tố thuộc 
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn và $a$ là một iđêan của $A$. Để $\operatorname{Supp}(M) \subset V(a)$, điều kiện cần và đủ là tồn tại một số nguyên $k$ sao cho $a^k M = 0$.
 
-Nếu $b$ là linh hóa tử của $M$, quan hệ $\operatorname{Supp}(M) \subset V(a)$ tương đương với $V(b) \subset V(a)$ theo Mệnh đề 17 và do đó tương đương với $a \subset r(b)$, trong đó $r(b)$ là căn của $b$ (no. 3, Hệ quả 2 của Mệnh đề 11). Vì $A$ là Noether, điều kiện này cũng tương đương với sự tồn tại của một số nguyên $k > 0$ sao cho $a^k \subset b$ (\S 2, no. 6, Mệnh đề 15).
+Nếu $b$ là linh hóa tử của $M$, quan hệ $\operatorname{Supp}(M) \subset V(a)$ tương đương với $V(b) \subset V(a)$ theo Mệnh đề 17 và do đó tương đương với $a \subset r(b)$, trong đó $r(b)$ là căn của $b$ (no. 3, Hệ quả 2 của Mệnh đề 11). Vì $A$ là Noether, điều kiện này cũng tương đương với sự tồn tại của một số nguyên $k > 0$ sao cho $a^k \subset b$ (§ 2, no. 6, Mệnh đề 15).
 
 #### Mệnh đề 18 {#ac-ii-s4-prop-18 .statement}
 
@@ -467,19 +467,19 @@ $$
 \operatorname{Supp}(M \otimes_A M') = \operatorname{Supp}(M) \cap \operatorname{Supp}(M').
 $$
 
-Ta cần chứng minh rằng, nếu $p$ là một iđêan nguyên tố của $A$, các quan hệ $(M \otimes_A M')_p \neq 0$ và "$M_p \neq 0$ và $M'_p \neq 0$" là tương đương. Vì các $A_p$-môđun $M, \otimes_{A_p} M'_p$ và $(M \otimes_A M')_p$ là đẳng cấu (\S 2, no. 7, Mệnh đề 18), mệnh đề của chúng ta suy ra từ bổ đề sau:
+Ta cần chứng minh rằng, nếu $p$ là một iđêan nguyên tố của $A$, các quan hệ $(M \otimes_A M')_p \neq 0$ và "$M_p \neq 0$ và $M'_p \neq 0$" là tương đương. Vì các $A_p$-môđun $M, \otimes_{A_p} M'_p$ và $(M \otimes_A M')_p$ là đẳng cấu (§ 2, no. 7, Mệnh đề 18), mệnh đề của chúng ta suy ra từ bổ đề sau:
 
 #### Bổ đề 3 {#ac-ii-s4-lem-3 .statement}
 
 Cho $B$ là một vành địa phương và $E$ và $E'$ là hai $B$-môđun sinh hữu hạn. Nếu $E \neq 0$ và $E' \neq 0$, thì $E \otimes_B E' \neq 0$.
 
-Cho $k$ là trường thặng dư của $B$. Theo \S 3, no. 2, Mệnh đề 4, $k \otimes_B E \neq 0$ và $k \otimes_B E' \neq 0$; khi đó ta suy ra rằng
+Cho $k$ là trường thặng dư của $B$. Theo § 3, no. 2, Mệnh đề 4, $k \otimes_B E \neq 0$ và $k \otimes_B E' \neq 0$; khi đó ta suy ra rằng
 
 $$
 (k \otimes_B E) \otimes_k (k \otimes_B E') \neq 0
 $$
 
-(Đại số, Chương II, \S 3, no. 7). Nhưng, vì tích tenxơ là kết hợp (loc. cit., \S 3, no. 8), tích tenxơ này đẳng cấu với
+(Đại số, Chương II, § 3, no. 7). Nhưng, vì tích tenxơ là kết hợp (loc. cit., § 3, no. 8), tích tenxơ này đẳng cấu với
 
 $$
 E \otimes_B ((k \otimes_k k) \otimes_B E') = E \otimes_B (k \otimes_B E')
@@ -506,7 +506,7 @@ $$
 $$
 \operatorname{Supp}(M_{(B)}) = ^{a}\phi^{-1}(\operatorname{Supp}(M)).
 $$
-Cho $q$ là một iđêan nguyên tố của $B$ và $p = \phi^{-1}(q)$. Giả sử rằng $q$ thuộc $\operatorname{Supp}(M_{(B)})$; khi đó $M_{(B)} \otimes_B B_q = (M \otimes_A B) \otimes_B B_q = M \otimes_A B_q = (M \otimes_A A_p) \otimes_A B_q$, vì đồng cấu $A \to B \to B_q$ phân tích thành $A \to A_p \to B_q$ (\$2, no. 1, Mệnh đề 2); giả thiết $M_{(B)} \otimes_B B_q \neq 0$ kéo theo do đó $M \otimes_A A_q \neq 0$, do đó có mệnh đề thứ nhất. Vì đồng cấu $\phi_q : A_p \to B_q$ là địa phương, mệnh đề thứ hai suy ra từ bổ đề sau:
+Cho $q$ là một iđêan nguyên tố của $B$ và $p = \phi^{-1}(q)$. Giả sử rằng $q$ thuộc $\operatorname{Supp}(M_{(B)})$; khi đó $M_{(B)} \otimes_B B_q = (M \otimes_A B) \otimes_B B_q = M \otimes_A B_q = (M \otimes_A A_p) \otimes_A B_q$, vì đồng cấu $A \to B \to B_q$ phân tích thành $A \to A_p \to B_q$ (§ 2, no. 1, Mệnh đề 2); giả thiết $M_{(B)} \otimes_B B_q \neq 0$ kéo theo do đó $M \otimes_A A_q \neq 0$, do đó có mệnh đề thứ nhất. Vì đồng cấu $\phi_q : A_p \to B_q$ là địa phương, mệnh đề thứ hai suy ra từ bổ đề sau:
 
 #### Bổ đề 4 {#ac-ii-s4-lem-4 .statement}
 
@@ -522,7 +522,7 @@ Cho $p \in \operatorname{Supp}(M)$. Vì $M$ là sinh hữu hạn và $M_p \neq 0
 $$
 M_p/pM_p = M_p \otimes_A (A_p/pA_p) \neq 0
 $$
-(\$3, no. 2, Mệnh đề 4). Cho $K = A_p/pA_p$ là trường các phân thức của miền nguyên $A/p$; vì $M_p/pM_p$ là một không gian vectơ trên $K$, không rút gọn về 0, nên tồn tại một dạng tuyến tính khác không $u : M_p/pM_p \to K$. Nếu $(x_i)_1 <_n^*$ là một hệ các phần tử sinh của $M$, $\bar{x}_i$ là ảnh của $x_i$, trong $(A/p)$-môđun $M_p/pM_p$, thì tồn tại một phần tử $\alpha \neq 0$ của $A/p$ sao cho các $\alpha u(\bar{x}_i)$ thuộc $A/p$ với $1 \leq i \leq n$; do đó $v = \alpha u$ là một ánh xạ tuyến tính $(A/p)$ khác không từ $M_p/pM_p$ đến $A/p$. Ánh xạ hợp thành
+(§ 3, no. 2, Mệnh đề 4). Cho $K = A_p/pA_p$ là trường các phân thức của miền nguyên $A/p$; vì $M_p/pM_p$ là một không gian vectơ trên $K$, không rút gọn về 0, nên tồn tại một dạng tuyến tính khác không $u : M_p/pM_p \to K$. Nếu $(x_i)_1 <_n^*$ là một hệ các phần tử sinh của $M$, $\bar{x}_i$ là ảnh của $x_i$, trong $(A/p)$-môđun $M_p/pM_p$, thì tồn tại một phần tử $\alpha \neq 0$ của $A/p$ sao cho các $\alpha u(\bar{x}_i)$ thuộc $A/p$ với $1 \leq i \leq n$; do đó $v = \alpha u$ là một ánh xạ tuyến tính $(A/p)$ khác không từ $M_p/pM_p$ đến $A/p$. Ánh xạ hợp thành
 $$
 w : M \longrightarrow M, \longrightarrow M_p/pM_p \overset{v}{\longrightarrow} A/p
 $$

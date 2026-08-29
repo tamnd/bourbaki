@@ -8,56 +8,57 @@ section_title: Affine spaces and projective spaces
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 325-337, 410-417
 pdf_pages: 0349-0361, 0434-0441
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF AFFINE SPACES
-      page: 0
+      page: 325
       pdf_page: 349
     - "no": 2
       title: BARYCENTRIC CALCULUS
-      page: 0
+      page: 326
       pdf_page: 350
     - "no": 3
       title: AFFINE LINEAR VARIETIES
-      page: 0
+      page: 327
       pdf_page: 351
     - "no": 4
       title: AFFINE LINEAR MAPPINGS
-      page: 0
+      page: 329
       pdf_page: 353
     - "no": 5
       title: DEFINITION OF PROJECTIVE SPACES
-      page: 0
+      page: 331
       pdf_page: 355
     - "no": 6
       title: HOMOGENEOUS COORDINATES
-      page: 0
+      page: 331
       pdf_page: 355
     - "no": 7
       title: PROJECTIVE LINEAR VARIETIES
-      page: 0
+      page: 332
       pdf_page: 356
     - "no": 8
       title: PROJECTIVE COMPLETION OF AN AFFINE SPACE
-      page: 0
+      page: 333
       pdf_page: 357
     - "no": 9
       title: EXTENSION OF RATIONAL FUNCTIONS
-      page: 0
+      page: 334
       pdf_page: 358
     - "no": 10
       title: PROJECTIVE LINEAR MAPPINGS
-      page: 0
+      page: 335
       pdf_page: 359
     - "no": 11
       title: PROJECTIVE SPACE STRUCTURE
-      page: 0
+      page: 337
       pdf_page: 361
 statements: 12
 exercises: 6
-content_sha256: e8f5479c926f36efd930209e9e33bd70d93806fd5c3cf7274d90e1ef224a7e56
+content_sha256: 6d5414948dceab419cbfb016f0d02a94213bdb1f5a7f8c8b4975a8a4bd8908c9
 ---
 
 ## § 9. AFFINE SPACES AND PROJECTIVE SPACES
@@ -267,13 +268,13 @@ whence u_2 = u_1, t_2 = u_1^{-1}t_1u_1. Finally, the linear mappings associated 
 
 Let E, E' be two affine spaces over K. The direct (resp. inverse) image of a linear variety of E (resp. E') under an affine mapping u of E into E' is a linear variety of E' (resp. E); the rank of u is by definition the dimension of u(E); it is equal to the rank of the linear mapping associated with u. If V, V' are linear varieties of the same finite dimension m in E, E' respectively, there exists an affine mapping $u$ of $E$ into $E'$ such that $u(V) = V'$: taking as origins in $E$ and $E'$ points of $V$ and $V'$ respectively, then taking in $E$ (resp. $E'$) a basis whose first $m$ vectors form a basis of $V$ (resp. $V'$), the proposition follows immediately from § 1, no. 11, Corollary 3 to Proposition 17.
 
-As the field $K$ has canonically a left vector space structure (of dimension 1) over $K$, it can be considered as an affine space of dimension 1. An affine mapping of an affine space $D$ (over $K$) into the affine space $K$ is also called an *affine linear function* (or an *affine function*). If a point $a$ is taken as origin in $E$, every affine function on $E$ can then be written uniquely as $x \mapsto \alpha + v(x)$, where $\alpha \in K$ and $v$ is a linear form on the vector space $E$ thus obtained; the affine functions on $E$ therefore form a *right vector space over* $K$ of dimension $1 + \dim E$. If $u$ is a non-constant affine function on $E$ and $\lambda \in K$, the set of $x \in E$ satisfying the equation $u(x) = \lambda$ is a hyperplane; conversely, for every hyperplane $H$ in $E$, there exists an affine function $u_0$ on $E$ such that $H = u_0^{-1}(0)$ and every affine function $u$ such that $H = u^{-1}(0)$ is of the form $u_0 \mu$, where $\mu \in K$ (\S 7, no. 5, Proposition 11). If $u$ is an affine function on $E$, the hyperplanes with equations $u(x) = \alpha$ and $u(x) = \beta$ are parallel.
+As the field $K$ has canonically a left vector space structure (of dimension 1) over $K$, it can be considered as an affine space of dimension 1. An affine mapping of an affine space $D$ (over $K$) into the affine space $K$ is also called an *affine linear function* (or an *affine function*). If a point $a$ is taken as origin in $E$, every affine function on $E$ can then be written uniquely as $x \mapsto \alpha + v(x)$, where $\alpha \in K$ and $v$ is a linear form on the vector space $E$ thus obtained; the affine functions on $E$ therefore form a *right vector space over* $K$ of dimension $1 + \dim E$. If $u$ is a non-constant affine function on $E$ and $\lambda \in K$, the set of $x \in E$ satisfying the equation $u(x) = \lambda$ is a hyperplane; conversely, for every hyperplane $H$ in $E$, there exists an affine function $u_0$ on $E$ such that $H = u_0^{-1}(0)$ and every affine function $u$ such that $H = u^{-1}(0)$ is of the form $u_0 \mu$, where $\mu \in K$ (§ 7, no. 5, Proposition 11). If $u$ is an affine function on $E$, the hyperplanes with equations $u(x) = \alpha$ and $u(x) = \beta$ are parallel.
 
 ### 5. DEFINITION OF PROJECTIVE SPACES
 
 #### Definition 4 {#alg-ii-s9-def-4 .statement}
 
-*Given a left (resp. right) vector space* $V$ *over a field* $K$, *the left (resp. right) projective space derived from* $V$, *denoted by* $\mathbf{P}(V)$, *is the quotient of the complement* $V - \{0\}$ *of* $\{0\}$ *in* $V$ *by the equivalence relation* $\Delta(V)$ *"there exists* $\lambda \neq 0$ *in* $K$ *such that* $y = \lambda x$ *(resp.* $y = x \lambda$ )  *between* $x$ *and* $y$ *in* $V - \{0\}$.
+*Given a left (resp. right) vector space* $V$ *over a field* $K$, *the left (resp. right) projective space derived from* $V$, *denoted by* $\mathbf{P}(V)$, *is the quotient of the complement* $V - \{0\}$ *of* $\{0\}$ *in* $V$ *by the equivalence relation* $\Delta(V)$ *"there exists* $\lambda \neq 0$ *in* $K$ *such that* $y = \lambda x$ *(resp.* $y = x \lambda$ ) *between* $x$ *and* $y$ *in* $V - \{0\}$.
 
 When $V = K_s^{n+1}$, we also write $\mathbf{P}_n(K)$ instead of $\mathbf{P}(K_s^{n+1})$ and $\Delta_n(K)$ instead of $\Delta(V)$.
 
@@ -313,7 +314,7 @@ Every intersection of linear varieties of $\mathbf{P}(V)$ is a linear variety; f
 
 If W is the vector subspace of V generated by $\pi^{-1}(A)$, then $L = \mathbf{P}(W)$.
 
-If L and M are any two linear varieties in $\mathbf{P}(V)$ and N the variety generated by $L \cup M$, then (\$ 7, no. 3, Corollary 3 to Proposition 4)
+If L and M are any two linear varieties in $\mathbf{P}(V)$ and N the variety generated by $L \cup M$, then (§ 7, no. 3, Corollary 3 to Proposition 4)
 
 $$
 \text{dim } L + \text{dim } M = \text{dim}(L \cap M) + \text{dim } N.
@@ -337,7 +338,7 @@ There is therefore a one-to-one correspondence between the affine linear varieti
 
 ### 9. EXTENSION OF RATIONAL FUNCTIONS
 
-If the results of no. 8 are applied to the vector space $V = K_s$ of dimension 1, it is seen that there exists a canonical injection $\phi$ of $K_s$ into the projective line $P_1(K) = P(K_s \times K_s)$; for all $\xi \in K$, $\phi(\xi)$ is the point with homogeneous coordinates $(1, \xi)$ with respect to the canonical basis (\$ 1, no. 11) of $K_s \times K_s$. The complement of $\phi(K)$ in $P_1(K)$ consists of the single point with homogeneous coordinates $(0, 1)$ with respect to the above basis; it is called the "point at infinity". $P_1(K)$ is also called the projective field associated with $K$ and denoted by $\tilde{K}$, the point at infinity in $\tilde{K}$ being denoted by $\infty$.
+If the results of no. 8 are applied to the vector space $V = K_s$ of dimension 1, it is seen that there exists a canonical injection $\phi$ of $K_s$ into the projective line $P_1(K) = P(K_s \times K_s)$; for all $\xi \in K$, $\phi(\xi)$ is the point with homogeneous coordinates $(1, \xi)$ with respect to the canonical basis (§ 1, no. 11) of $K_s \times K_s$. The complement of $\phi(K)$ in $P_1(K)$ consists of the single point with homogeneous coordinates $(0, 1)$ with respect to the above basis; it is called the "point at infinity". $P_1(K)$ is also called the projective field associated with $K$ and denoted by $\tilde{K}$, the point at infinity in $\tilde{K}$ being denoted by $\infty$.
 
 *Consider in particular the case where $K$ is a commutative field and let f \in K(X) be a rational function in one indeterminate over K (IV, § 4); if $f \neq 0$, there is a unique expression $f = \alpha p/q$, where $\alpha \in K^*$ and $p$ and $q$ are two relatively prime monic polynomials (VII, § 1); let $m$ and $n$ be their respective degrees and let $r = \sup(m, n)$. We write
 $$
@@ -383,7 +384,7 @@ $$
 \dim g(M) + \dim(M \cap C) + 1 = \dim M
 $$
 
-(\S 7, no. 4, formula (12)). If $M'$ is a linear variety of $\mathbf{P}(V')$, $g^{-1}(M') \cup C$ is a linear variety of $\mathbf{P}(V)$ and
+(§ 7, no. 4, formula (12)). If $M'$ is a linear variety of $\mathbf{P}(V')$, $g^{-1}(M') \cup C$ is a linear variety of $\mathbf{P}(V)$ and
 
 $$
 \dim(g^{-1}(M') \cup C) = \dim C + \dim(M' \cap g(\mathbf{P}(V))) + 1.
@@ -409,7 +410,7 @@ $$(\mathrm{EP}_{II})$$ *For every ordered pair of elements $f, g$ of $\Phi$ defi
 
 $$(\mathrm{EP}_{III})$$ *Conversely, if $f \in \Phi$ is defined on the linear variety $\mathbf{P}(V)$ and $h$ is a bijective projective mapping of $\mathbf{P}(V)$ onto a linear variety $\mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)})$, then $f \circ h^{-1} \in \Phi$.*
 
-Let E be a set, $(V_\lambda)_{\lambda \in L}$ a family of vector spaces over K and suppose given for each $\lambda \in L$ a bijection $f_\lambda$ of $\mathbf{P}(V_\lambda)$ onto E such that, for every ordered pair of indices $\lambda, \mu, f_\lambda^{-1} \circ f_\mu$ is a *projective mapping* of $\mathbf{P}(V_\mu)$ onto $\mathbf{P}(V_\lambda)$. Then we can define on E a projective space structure with respect to K as follows: let $(e_i)_{i \in I}$ be a basis of a space $V_\lambda$ and write $a_i = f_\lambda(\pi(e_i))$; let $b_i$ be the element of index $a_i$ in the canonical basis of $K_s^{(E)}$ (\S 1, no. 11). The relation $i \neq \kappa$ implies $b_i \neq b_\kappa$ because of the hypothesis that $f_\lambda$ is bijective; hence the $b_i$ form a basis of a vector subspace $W_0$ of $K_s^{(E)}$ and there therefore exists a bijective projective mapping $h$ of $\mathbf{P}(W_0)$ onto $\mathbf{P}(V_\lambda)$ such that $h(\pi(b_i)) = \pi(e_i)$ for all $i \in I$. If $\Phi$ is taken to be the set of all bijective projective mappings $f_\lambda \circ h \circ g^{-1}$, where $g$ runs through the set of all bijective projective mappings $\mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)})$, it is immediately verified that $\Phi$ satisfies axioms (EP_I), (EP_{II}) and (EP_{III}). It is moreover immediate that $\Phi$ depends neither on the choice of index $\lambda \in L$, nor on the choice of basis $(e_i)$ in $V_\lambda$, nor on the choice of $h$.
+Let E be a set, $(V_\lambda)_{\lambda \in L}$ a family of vector spaces over K and suppose given for each $\lambda \in L$ a bijection $f_\lambda$ of $\mathbf{P}(V_\lambda)$ onto E such that, for every ordered pair of indices $\lambda, \mu, f_\lambda^{-1} \circ f_\mu$ is a *projective mapping* of $\mathbf{P}(V_\mu)$ onto $\mathbf{P}(V_\lambda)$. Then we can define on E a projective space structure with respect to K as follows: let $(e_i)_{i \in I}$ be a basis of a space $V_\lambda$ and write $a_i = f_\lambda(\pi(e_i))$; let $b_i$ be the element of index $a_i$ in the canonical basis of $K_s^{(E)}$ (§ 1, no. 11). The relation $i \neq \kappa$ implies $b_i \neq b_\kappa$ because of the hypothesis that $f_\lambda$ is bijective; hence the $b_i$ form a basis of a vector subspace $W_0$ of $K_s^{(E)}$ and there therefore exists a bijective projective mapping $h$ of $\mathbf{P}(W_0)$ onto $\mathbf{P}(V_\lambda)$ such that $h(\pi(b_i)) = \pi(e_i)$ for all $i \in I$. If $\Phi$ is taken to be the set of all bijective projective mappings $f_\lambda \circ h \circ g^{-1}$, where $g$ runs through the set of all bijective projective mappings $\mathbf{P}(W) \subset \mathbf{P}(K_s^{(E)})$, it is immediately verified that $\Phi$ satisfies axioms (EP_I), (EP_{II}) and (EP_{III}). It is moreover immediate that $\Phi$ depends neither on the choice of index $\lambda \in L$, nor on the choice of basis $(e_i)$ in $V_\lambda$, nor on the choice of $h$.
 
 In particular (taking L to consist of a single element), every projective space $\mathbf{P}(V)$ derived from a vector space V (no. 5, Definition 4) thus has a well determined "projective space structure" in the sense of the definition given in this no. Hence any set with a projective space structure can be called a *projective space*.
 

@@ -33,9 +33,9 @@ subsections:
       pdf_page: 164
 statements: 16
 exercises: 15
-content_sha256: eec5152fc687bfefa551b19044dea622d7331e7b9c254bf94958b30e3b0d4dfe
+content_sha256: 06e260806e85baf1fe4b11b64c328fdca99decbb5facabf26e221cab9750214f
 translated_from: content/en/evt/III/05_s5_hypocontinuous_bilinear_mappings.md
-source_content_sha256: 5d33698cee35dc6eb343bf8be269c10b1f66662defc3d540ebe69adfaa305a8c
+source_content_sha256: b5755948295cc28eeaa8a16dd678ffa2ce677b2bb914f5ea6530d05c0e05a8cd
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-f8d5b184
 glossary_version: 34
@@ -180,7 +180,7 @@ từ $E \times F_\alpha$ vào $G$ là $\mathcal{S}$-hypocontinuous.
 
 Bây giờ giả sử rằng $E$ là một không gian lồi địa phương, là giới hạn quy nạp *ngặt* của một dãy tăng $(E_n)$ các không gian con vectơ đóng của $E$ (II, p. 33); khi đó mọi tập hợp $M \in \mathcal{S}$ đều được chứa trong một trong các $E_n$ và bị chặn trong không gian con này (III, p. 5, mệnh đề 6). Ký hiệu $\mathcal{S}_n$ là họ tất cả các tập con thuộc $\mathcal{S}$ được chứa trong $E_n$.
 
-Điều kiện $a)$ của mệnh đề 3 (III, p. 30) cho thấy rằng để một ánh xạ song tuyến tính $u : E \times F \to G$ là $\mathfrak{S}$-hypocontinuous, cần và đủ rằng mỗi một trong các hạn chế $u_n : E_n \times F \to G$ của $u$ là $\mathfrak{S}_n$-hypocontinuous.
+Điều kiện a) của mệnh đề 3 (III, p. 30) cho thấy rằng để một ánh xạ song tuyến tính $u : E \times F \to G$ là $\mathfrak{S}$-hypocontinuous, cần và đủ rằng mỗi một trong các hạn chế $u_n : E_n \times F \to G$ của $u$ là $\mathfrak{S}_n$-hypocontinuous.
 
 ### 4. Mở rộng của một ánh xạ song tuyến tính hypocontinuous
 

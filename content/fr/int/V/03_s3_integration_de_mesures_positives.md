@@ -36,7 +36,7 @@ subsections:
       pdf_page: 37
 statements: 30
 exercises: 11
-content_sha256: 09d9955914636aa262d75a48202fe95c33fbd3958941a9103be72ba6c6efdbac
+content_sha256: 8327be9b9c08fc6f5d3b4026a7e67dabb34622328ed639a4a64a845e9cbf8f56
 ---
 
 ## § 3. Intégration de mesures positives
@@ -116,7 +116,7 @@ Soit $f$ une fonction semi-continue inférieurement $\geq 0$ définie dans $X$. 
 $$
 h_f(t) = \lambda_t^*(f) = \lambda_t^\bullet(f) = \sup_{g \in F} h_g(t)
 $$
-(\S 1, n° 1, prop. 4). Faisons l’hypothèse suivante, plus faible que celle de a): supposons seulement que la restriction de $\Lambda$ à $S$ soit vaguement continue, $S$ étant un fermé de $T$ contenant le support de $\mu$. Pour $g \in F$, notons $\bar{h}_g$ la fonction numérique qui coïncide avec $h_g$ dans $S$ et qui vaut $+\infty$ dans $\mathbf{C}S$. Posons $\bar{h}_f = \sup_{g \in F} \bar{h}_g$; on a $\bar{h}_f = h_f$ dans $S$. Pour toute $g \in F$ la fonction $\bar{h}_g$ est semi-continue inférieurement; $\bar{h}_f$ est donc semi-continue inférieurement
+(§ 1, n° 1, prop. 4). Faisons l’hypothèse suivante, plus faible que celle de a): supposons seulement que la restriction de $\Lambda$ à $S$ soit vaguement continue, $S$ étant un fermé de $T$ contenant le support de $\mu$. Pour $g \in F$, notons $\bar{h}_g$ la fonction numérique qui coïncide avec $h_g$ dans $S$ et qui vaut $+\infty$ dans $\mathbf{C}S$. Posons $\bar{h}_f = \sup_{g \in F} \bar{h}_g$; on a $\bar{h}_f = h_f$ dans $S$. Pour toute $g \in F$ la fonction $\bar{h}_g$ est semi-continue inférieurement; $\bar{h}_f$ est donc semi-continue inférieurement
 
 \* Dans la 1re édition, on appelait applications $\mu$-adéquates les applications scalairement $\mu$-intégrables et vaguement $\mu$-mesurables. La définition qui est donnée ici est plus générale (prop. 2).
 
@@ -194,7 +194,7 @@ $$
 \int^* f(x) \, dv_\alpha(x) \geq \int^* d\mu_\alpha(t) \int^* f(x) \, d\lambda_t(x) = \int^* d\mu_\alpha(t) \int^* f(x) \, d\lambda_t(x)
 $$
 
-(la dernière égalité provient de ce que $\lambda_t$ est bornée localement presque partout, et de la prop. 7 du § 1). L’inégalité (7) s’obtient en sommant sur $\alpha$ (\$ 2, n° 2, prop. 1).
+(la dernière égalité provient de ce que $\lambda_t$ est bornée localement presque partout, et de la prop. 7 du § 1). L’inégalité (7) s’obtient en sommant sur $\alpha$ (§ 2, n° 2, prop. 1).
 
 Si l’on ne fait aucune hypothèse analogue à celle de c), l’inégalité (8) peut être mise en défaut (exerc. 2).
 
@@ -208,7 +208,7 @@ c) Si $f$ est localement $v$-négligeable, et si $\lambda_t^*(1) < +\infty$ loca
 #### Corollaire 2 {#int-v-s3-prop-3-cor-2 .statement}
 
 Soit $f$ une fonction $\geq 0$ définie dans $X$ et $v$-modérée. L’ensemble des $t \in T$ tels que $f$ ne soit pas $\lambda_t$-modérée est alors localement $\mu$-négligeable (et même $\mu$-négligeable si $\Lambda$ est vaguement continue).
-En effet, $f$ est la somme d’une suite de fonctions $f_n \geq 0$, telle que $f_n$ soit nulle hors d’un compact $K_n$ pour $n \geq 1$, et que $f_0$ soit $v$-négligeable (\$ 1, n° 2, prop. 6); $f_0$ est alors $\lambda_t$-négligeable, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable (et même $\mu$-négligeable si $\Lambda$ est vaguement continue) d’après le cor. 1, et l’énoncé en résulte aussitôt.
+En effet, $f$ est la somme d’une suite de fonctions $f_n \geq 0$, telle que $f_n$ soit nulle hors d’un compact $K_n$ pour $n \geq 1$, et que $f_0$ soit $v$-négligeable (§ 1, n° 2, prop. 6); $f_0$ est alors $\lambda_t$-négligeable, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable (et même $\mu$-négligeable si $\Lambda$ est vaguement continue) d’après le cor. 1, et l’énoncé en résulte aussitôt.
 
 #### Proposition 4 {#int-v-s3-prop-4 .statement}
 
@@ -220,7 +220,7 @@ c) Supposons qu’on ait $\lambda_t^*(1) < +\infty$ localement $\mu$-presque par
 
 Démontrons d’abord a) (resp. b)). Tout ensemble $v$-intégrable étant contenu dans un ouvert $v$-intégrable, la fonction $f$ est constante dans le complémentaire B d’une réunion dénombrable d’ouverts $v$-intégrables. Il existe une partition de $X - B$ formée d’un ensemble $v$-négligeable N, et d’une suite $(K_n)$ d’ensembles compacts tels que la restriction de $f$ à chacun des $K_n$ soit continue. Soit S l’ensemble des $t \in T$ tels que N ne soit pas $\lambda_t$-négligeable : S est localement $\mu$-négligeable (resp. $\mu$-négligeable) d’après le cor. 1 de la prop. 3. Les ensembles $K_n$, B, N sont mesurables pour toute mesure sur T, et la restriction de $f$ à chacun d’eux est $\lambda_t$-mesurable pour tout $t \notin S$. La fonction $f$ est donc $\lambda_t$-mesurable pour tout $t \notin S$ (chap. IV, 2e éd., § 5, n° 10, prop. 6).
 
-Pour établir c), reprenons les notations de la démonstration de la prop. 3 ; $f$ étant $v$-mesurable, est mesurable pour chacune des mesures $\nu_\alpha \leq \nu$. Or ces mesures sont bornées, donc modérées, et il résulte de a) que M est localement $\mu_\alpha$-négligeable pour tout $\alpha \in A$. Cela entraîne que M est localement $\mu$-négligeable ($\S 2$, n° 2, cor. 2 de la prop. 1).
+Pour établir c), reprenons les notations de la démonstration de la prop. 3 ; $f$ étant $v$-mesurable, est mesurable pour chacune des mesures $\nu_\alpha \leq \nu$. Or ces mesures sont bornées, donc modérées, et il résulte de a) que M est localement $\mu_\alpha$-négligeable pour tout $\alpha \in A$. Cela entraîne que M est localement $\mu$-négligeable ($§ 2$, n° 2, cor. 2 de la prop. 1).
 
 #### Proposition 5 {#int-v-s3-prop-5 .statement}
 
@@ -301,7 +301,7 @@ $$
 
 Comme $\int f_n(x)\, dv(x)$ tend vers $\int f(x)\, dv(x)$ lorsque $n$ tend vers $+\infty$, d’après les hypothèses faites sur la suite $(f_n)$, la relation (11) en résulte, et on a prouvé a) (resp. b)).
 
-Supposons maintenant que $\lambda_t^*(1) < +\infty$ localement $\mu$-presque partout, et que $g$ soit une fonction essentiellement $v$-intégrable. Soit $f$ une fonction $v$-intégrable telle que $g = f$ localement $v$-presque partout ($\S 1, n° 3$). On a alors $g = f$ presque partout pour $\lambda_t$, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable $P$ (cor. 1 c) de la prop. 3). On a $\int g\, d\lambda_t = \int f\, d\lambda_t$ pour $t \notin P \cup H$, et cela achève la démonstration.
+Supposons maintenant que $\lambda_t^*(1) < +\infty$ localement $\mu$-presque partout, et que $g$ soit une fonction essentiellement $v$-intégrable. Soit $f$ une fonction $v$-intégrable telle que $g = f$ localement $v$-presque partout ($§ 1, n° 3$). On a alors $g = f$ presque partout pour $\lambda_t$, sauf pour des $t$ qui forment un ensemble localement $\mu$-négligeable $P$ (cor. 1 c) de la prop. 3). On a $\int g\, d\lambda_t = \int f\, d\lambda_t$ pour $t \notin P \cup H$, et cela achève la démonstration.
 
 #### Remarque {#int-v-s3-n3-rem-1 .statement}
 

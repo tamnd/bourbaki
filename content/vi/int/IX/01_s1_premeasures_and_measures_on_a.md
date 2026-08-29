@@ -52,9 +52,9 @@ subsections:
       pdf_page: 202
 statements: 52
 exercises: 10
-content_sha256: 4ebdc69262b9ba757683c1563fb65dd6ff00b75d6d6f9bc41dc02ea69ca0d031
+content_sha256: 1a8a2cb0fa2a55cbd7cdbe93b205cd8ec5d59004319cc6cc7627726b3d95ca1b
 translated_from: content/en/int/IX/01_s1_premeasures_and_measures_on_a.md
-source_content_sha256: 08cd64a9f736fcf3e935c7f25b844b7cb16ccedcafa8c3831a78cdb4a9369a30
+source_content_sha256: 396f9305e8378565df6b6843f0c7f2210c00d7f2557e26f83d0d7eb3f062b066
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-3557822e
 glossary_version: 34
@@ -124,7 +124,7 @@ $$
 f \varphi_B \leq (+\infty) \cdot \varphi_B = \sup_{n \in \mathbf{N}} n \varphi_B,
 $$
 
-do đó $p(f \varphi_B) = 0$ theo các tính chất $a), b), d)$ của Định nghĩa 1. Suy ra từ $c)$ rằng $p(f) \leq p(f \varphi_A) + p(f \varphi_B) = p(f \varphi_A)$, và cuối cùng $p(f) = p(f \varphi_A)$ theo $a)$.
+do đó $p(f \varphi_B) = 0$ theo các tính chất $a), b), d)$ của Định nghĩa 1. Suy ra từ c) rằng $p(f) \leq p(f \varphi_A) + p(f \varphi_B) = p(f \varphi_A)$, và cuối cùng $p(f) = p(f \varphi_A)$ theo a).
 
 ### 2. Tiền độ đo và độ đo
 
@@ -541,7 +541,7 @@ Xét một $\mu$-phân hoạch $(K_\alpha)_{\alpha \in A}$ của T. Vì ánh x�
 
 #### Chú giải {#int-ix-s1-n8-sch-1 .statement}
 
-— Cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T, và đặt $N = T - \bigcup_\alpha K_\alpha$. Ký hiệu $T'$ là không gian địa phương compact thu được bằng cách trang bị cho $T'$ tôpô tổng của các tôpô của các không gian con $K_\alpha$ và bất kỳ tôpô địa phương compact nào trên $N$ (trừ khi được nói rõ ngược lại, $N$ sẽ luôn được trang bị tôpô rời rạc). Với mỗi $\alpha \in A$, đặt $i_\alpha$ là đơn ánh chính tắc của $K_\alpha$ vào $T'$, và đặt $\mu'_\alpha$ là đo trên $T'$ là ảnh của $\mu_{K_\alpha}$ qua $i_\alpha$. Họ $(\mu'_\alpha)$ là khả tổng: vì, nếu $f$ là một hàm liên tục trên $T'$ có giá compact, thì $\operatorname{Supp}(f)$ chỉ cắt $K_\alpha$ đối với một số hữu hạn chỉ số $\alpha$. Đặt $\mu' = \sum_{\alpha \in A} \mu'_\alpha$. Tập $N$ là không đáng kể địa phương đối với $\mu'$, vì nó như thế đối với từng $\mu'_\alpha$ (Mệnh đề 9), nên họ $(K_\alpha)_{\alpha \in A}$ là một $\mu'$-phân hoạch của $T'$; nay, đo cảm sinh bởi $\mu'$ trên $K_\alpha$ hiển nhiên là $\mu_{K_\alpha}$ và công thức (7), áp dụng cho $\mu$ và cho $\mu'$, cho thấy rằng $\mu^\bullet = \mu'^\bullet$. Tương tự, khẳng định cuối cùng của mệnh đề của Mệnh đề 9, áp dụng cho $\mu$ và cho $\mu'$, cho thấy rằng *các ánh xạ đo được là như nhau đối với hai đo $\mu$ và $\mu'$*.
+— Cho $(K_\alpha)_{\alpha \in A}$ là một phân hoạch của T, và đặt $N = T - \bigcup_\alpha K_\alpha$. Ký hiệu $T'$ là không gian địa phương compact thu được bằng cách trang bị cho $T'$ tôpô tổng của các tôpô của các không gian con $K_\alpha$ và bất kỳ tôpô địa phương compact nào trên $N$ (trừ khi được nói rõ ngược lại, $N$ sẽ luôn được trang bị tôpô rời rạc). Với mỗi $\alpha \in A$, đặt $i_\alpha$ là đơn ánh chính tắc của $K_\alpha$ vào $T'$, và đặt $\mu'_\alpha$ là đo trên $T'$ là ảnh của $\mu_{K_\alpha}$ qua $i_\alpha$. Họ $(\mu'_\alpha)$ là khả tổng: vì, nếu $f$ là một hàm liên tục trên $T'$ có giá compact, thì $\operatorname{Supp}(f)$ chỉ cắt $K_\alpha$ đối với một số hữu hạn chỉ số $\alpha$. Đặt $\mu' = \sum_{\alpha \in A} \mu'_\alpha$. Tập $N$ là không đáng kể địa phương đối với $\mu'$, vì nó như thế đối với từng $\mu'_\alpha$ (Mệnh đề 9), nên họ $(K_\alpha)_{\alpha \in A}$ là một $\mu'$-phân hoạch của $T'$; nay, đo cảm sinh bởi $\mu'$ trên $K_\alpha$ hiển nhiên là $\mu_{K_\alpha}$ và công thức (7), áp dụng cho $\mu$ và cho $\mu'$, cho thấy rằng $\mu^\bullet = {\mu'}^\bullet$. Tương tự, khẳng định cuối cùng của mệnh đề của Mệnh đề 9, áp dụng cho $\mu$ và cho $\mu'$, cho thấy rằng *các ánh xạ đo được là như nhau đối với hai đo $\mu$ và $\mu'$*.
 
 Hai tính chất này cho phép quy hầu như toàn bộ lý thuyết tích phân theo $\mu$ về lý thuyết được xây dựng cho các không gian địa phương compact. Các xét này sẽ được trình bày ở No. 10.
 
@@ -573,7 +573,7 @@ Một hàm $f$ có giá trị trong một không gian Banach hoặc trong $\over
 
 *Hàm $\mu^*$ là một gánh nặng trên $T$.*
 
-Các tính chất $a), b), c)$ của Định nghĩa 1 của No. 1 là hiển nhiên. Chứng minh của tính chất $d)$ giống hệt chứng minh của Định lý 3 của Ch. IV, §1, No. 3, khi xét đến các Mệnh đề 4 và 5 *a)*.
+Các tính chất $a), b), c)$ của Định nghĩa 1 của No. 1 là hiển nhiên. Chứng minh của tính chất d) giống hệt chứng minh của Định lý 3 của Ch. IV, §1, No. 3, khi xét đến các Mệnh đề 4 và 5 *a)*.
 
 #### Hệ quả {#int-ix-s1-n9-cor-1 .statement}
 
@@ -681,7 +681,7 @@ Các ký hiệu trên thường được viết tắt thành $\overline{\mathcal
 
 Chúng ta đã thấy ở No. 8 (*Chú giải*) rằng có thể xây dựng một không gian địa phương compact T', có cùng tập nền với T và một tôpô mịn hơn tôpô của T, rồi trang bị cho T' một độ đo $\mu'$ sao cho các hàm đo được theo $\mu$ và các hàm đo được theo $\mu'$ là như nhau, và sao cho các nguyên trên cốt yếu của các hàm dương đối với $\mu$ và $\mu'$ bằng nhau. Suy ra rằng các tập $\overline{\mathcal{L}}_F^p(\mu)$ và $\overline{\mathcal{L}}_F^p(\mu')$ là đồng nhất với nhau đối với $1 \leq p \leq +\infty$ $^{(1)}$. Điều này cũng suy ra ngay không cần chứng minh mới rằng $\overline{\mathcal{L}}_F^p$ là một không gian vectơ, và hàm $\overline{N}_p$ là một bán chuẩn trên $\overline{\mathcal{L}}_F^p(\mu)$, với bán chuẩn đó không gian này đầy đủ.
 
-Cho $\mathbf{f}$ là một phần tử của $\overline{\mathcal{L}}_F^p$ ($1 \leq p < +\infty$); vì ta có $\mu^\bullet(|\mathbf{f}|^p) = \mu'^\bullet(|\mathbf{f}|^p) < +\infty$, Mệnh đề 7 của Ch. V, §1, No. 2 suy ra rằng $\mathbf{f}$ bằng 0 ngoài
+Cho $\mathbf{f}$ là một phần tử của $\overline{\mathcal{L}}_F^p$ ($1 \leq p < +\infty$); vì ta có $\mu^\bullet(|\mathbf{f}|^p) = {\mu'}^\bullet(|\mathbf{f}|^p) < +\infty$, Mệnh đề 7 của Ch. V, §1, No. 2 suy ra rằng $\mathbf{f}$ bằng 0 ngoài
 
 (1) Chú ý rằng không gian $\mathcal{L}_F^p(\mu)$ được chứa trong $\mathcal{L}_F^p(\mu')$, nhưng nói chung khác với nó.
 
@@ -706,7 +706,7 @@ Ta chuyển sang định nghĩa của nguyên.
 *Tồn tại duy nhất một ánh xạ tuyến tính liên tục $f \mapsto \int f d\mu$, từ không gian $\overline{\mathcal{L}}_F^1(\mu)$ vào F, có tính chất sau:
 Nếu f có dạng $t \mapsto g(t)a$, với $a \in F$, và g là một hàm dương, hữu hạn, $\mu$-đo được và thỏa mãn $\mu^*(g) < +\infty$, thì $\int f d\mu = \mu^*(g) \cdot a$.*
 
-Vì thế, các không gian nửa chuẩn $\overline{\mathcal{L}}_F^1(\mu)$ và $\overline{\mathcal{L}}_F^1(\mu')$ là trùng nhau. Vì $\mu^* = \mu'^*$, ánh xạ $f \mapsto \int f d\mu'$ thỏa mãn các điều kiện của mệnh đề. Mặt khác, tập hợp các hàm có dạng $f = g \cdot a$ được xét trong mệnh đề là *toàn phần* trong $\overline{\mathcal{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Mệnh đề 10), do đó có tính duy nhất.
+Vì thế, các không gian nửa chuẩn $\overline{\mathcal{L}}_F^1(\mu)$ và $\overline{\mathcal{L}}_F^1(\mu')$ là trùng nhau. Vì $\mu^* = {\mu'}^*$, ánh xạ $f \mapsto \int f d\mu'$ thỏa mãn các điều kiện của mệnh đề. Mặt khác, tập hợp các hàm có dạng $f = g \cdot a$ được xét trong mệnh đề là *toàn phần* trong $\overline{\mathcal{L}}_F^1(\mu')$ (Ch. IV, §3, No. 5, Mệnh đề 10), do đó có tính duy nhất.
 
 Người ta nói rằng $\int f\, d\mu$ là nguyên của $f$ đối với $\mu$, và vectơ này cũng được ký hiệu là $\mu(f)$ hoặc $\int f(t)\, d\mu(t)$.
 

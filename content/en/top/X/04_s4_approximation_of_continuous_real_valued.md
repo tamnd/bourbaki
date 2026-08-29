@@ -28,7 +28,7 @@ subsections:
       pdf_page: 320
 statements: 18
 exercises: 5
-content_sha256: e1f48f0eea3cb2695064b08242793cda7fbea618354ff2ab03b050d4fdbb35fc
+content_sha256: 352337cc126af02c15ffde78bc5a2610b483c38d6be644a79f5231184afe7314
 ---
 
 ## 4. APPROXIMATION OF CONTINUOUS REAL-VALUED FUNCTIONS
@@ -41,7 +41,7 @@ $$
 ||f|| = \sup_{x \in X} |f(x)|
 $$
 
-and that this norm is compatible with the $\mathbf{R}$-algebra structure of $\mathcal{C}$. With this norm and this algebra structure, $\mathcal{C}$ is a *complete normed algebra* over $\mathbf{R}$ ($\S 1$, no. 6, Theorem 2, Corollary 1).
+and that this norm is compatible with the $\mathbf{R}$-algebra structure of $\mathcal{C}$. With this norm and this algebra structure, $\mathcal{C}$ is a *complete normed algebra* over $\mathbf{R}$ ($§ 1$, no. 6, Theorem 2, Corollary 1).
 
 (*) The real-valued functions under consideration in this section are assumed always to be *finite*.
 
@@ -205,7 +205,7 @@ If not all the $X_i$ are compact, the conclusion of Theorem 4 is not necessarily
 
 ### 4. APPROXIMATION OF CONTINUOUS MAPPINGS OF A COMPACT SPACE INTO A NORMED SPACE
 
-Let $X$ be a compact space and let $Y$ be a normed vector space over the field $\mathbf{R}$ (Chapter IX, § 3); the space $C(X; Y)$ will always be assumed to carry the topology of uniform convergence defined by the norm $\|u\| = \sup_{x \in X} \|u(x)\|$ ($\S 3$, no. 2).
+Let $X$ be a compact space and let $Y$ be a normed vector space over the field $\mathbf{R}$ (Chapter IX, § 3); the space $C(X; Y)$ will always be assumed to carry the topology of uniform convergence defined by the norm $\|u\| = \sup_{x \in X} \|u(x)\|$ ($§ 3$, no. 2).
 
 Given a set $H$ of continuous real-valued functions defined on $X$, a finite family $(u_i)_{1 \leq i \leq n}$ of functions belonging to $H$, and a finite family $(a_i)_{1 \leq i \leq n}$ of points of $Y$: the mapping $x \to \sum_{i=1}^n a_i u_i(x)$ of $X$ into $Y$ is then continuous; we denote it by $\sum_{i=1}^n a_i u_i$, and we say that it is a linear combination of functions of $H$ with coefficients in $Y$. We say that a continuous mapping $f : X \to Y$ can be uniformly approximated by linear combinations of functions of $H$ (with coefficients in $Y$), if $f$ lies in the closure of the vector subspace of $C(X; Y)$ formed by these linear combinations.
 

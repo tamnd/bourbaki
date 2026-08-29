@@ -58,9 +58,9 @@ subsections:
       pdf_page: 190
 statements: 49
 exercises: 23
-content_sha256: 5f3dd48af337619c27d4fbcc03b8dfdc26d47c52a29abd8098a7d58cedca39a4
+content_sha256: d0c4fe0c62204dc7c4fe1aa11ef226cb4e3f09fb5060e8c84509337da5e516a2
 translated_from: content/en/alg/V/10_s10_galois_extensions.md
-source_content_sha256: bb424b0fb2ae9f504120455a04488e0309edc0e44d61041d427cf30a9a80ec43
+source_content_sha256: 4d2ea6b2e3fe8136b4cbf004a6c050629d9e8414a0cc6650ceb165d4728343b0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-19dbb229
 glossary_version: 34
@@ -246,13 +246,13 @@ b) Nếu $\Gamma$ hữu hạn, thì $\varphi$ là song ánh và $V_0$ là một 
 
 Rõ ràng $V_0$ là một không gian con-K vectơ của $V$.
 
-Công thức $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ cho thấy hạt nhân $W$ của $\varphi$ ổn định dưới các ánh xạ $\sigma \otimes \mathrm{Id}_{V_0}$; do Hệ quả của Mệnh đề 6, do đó tồn tại một không gian con $W_0$ của $V_0$ sao cho $W = N \otimes_K W_0$. Nếu $x$ thuộc $W_0$ thì ta có $x = \varphi(1 \otimes x) = 0$, suy ra $W_0 = 0$ và do đó $W = 0$. Điều này chứng minh $a)$.
+Công thức $u_\sigma \circ \varphi = \varphi \circ (\sigma \otimes \mathrm{Id}_{V_0})$ cho thấy hạt nhân $W$ của $\varphi$ ổn định dưới các ánh xạ $\sigma \otimes \mathrm{Id}_{V_0}$; do Hệ quả của Mệnh đề 6, do đó tồn tại một không gian con $W_0$ của $V_0$ sao cho $W = N \otimes_K W_0$. Nếu $x$ thuộc $W_0$ thì ta có $x = \varphi(1 \otimes x) = 0$, suy ra $W_0 = 0$ và do đó $W = 0$. Điều này chứng minh a).
 
 Giả sử $\Gamma$ là hữu hạn; ta phải chứng minh rằng $\varphi$ là toàn ánh, hay tương đương rằng $V_0$ sinh ra không gian vectơ N $V$. Do đó, cho $f$ là một dạng N-tuyến tính trên $V$ mà hạn chế của nó lên $V_0$ bằng không. Cho $x \in V$; với mọi $A \in N$ phần tử $y, = \sum_{\sigma \in \Gamma} u_\sigma(\lambda x)$ của $V$ rõ ràng thuộc $V_0$, do đó $f(y,) = 0$, nghĩa là,
 $$
 \sum_{\sigma \in \Gamma} f(u_\sigma(x)) \sigma(A) = 0.
 $$
-Theo định lý Dedekind (V, p. 27, Hệ quả 2), do đó ta có $f(u_\sigma(x)) = 0$ với mỗi $\sigma \in \Gamma$; đặc biệt, lấy $\sigma = \varepsilon$ ta được $f(x) = 0$, điều này có nghĩa là $f = 0$. Điều này chứng minh $b)$.
+Theo định lý Dedekind (V, p. 27, Hệ quả 2), do đó ta có $f(u_\sigma(x)) = 0$ với mỗi $\sigma \in \Gamma$; đặc biệt, lấy $\sigma = \varepsilon$ ta được $f(x) = 0$, điều này có nghĩa là $f = 0$. Điều này chứng minh b).
 
 Cho $M$ là một không gian vectơ trên $N$; với mỗi $\sigma \in \Gamma$, cho $M^\sigma$ là không gian vectơ trên $N$ có cùng nhóm cộng cơ sở như $M$, với phép toán ngoài $(A, x) \mapsto \sigma(\lambda) x$. Viết $V = \prod_{\sigma \in \Gamma} M^\sigma$; nhóm cộng cơ sở của $V$ là nhóm của tất cả các ánh xạ từ $\Gamma$ vào $M$, với phép toán ngoài được định nghĩa bởi
 $$
@@ -568,7 +568,7 @@ Từ nay, hãy giả sử rằng $N$ có bậc hữu hạn trên $K$. Cho $x \in
 
 *Cho $N$ là một mở rộng Galois có bậc hữu hạn trên $K$ và cho $\Gamma$ là nhóm Galois của $N$ trên $K$. Khi đó tồn tại một cơ sở chuẩn của $N$ trên $K$; nói cách khác, môđun $\mathbf{K}^{(\Gamma)}$ của $N$ là tự do hạng 1.*
 
-Ta sẽ đưa ra hai chứng minh cho mệnh đề này. Chứng minh thứ nhất dùng bổ đề sau đây, bổ đề này sẽ được chứng minh ở Chương VIII (\$2, No. 5).
+Ta sẽ đưa ra hai chứng minh cho mệnh đề này. Chứng minh thứ nhất dùng bổ đề sau đây, bổ đề này sẽ được chứng minh ở Chương VIII (§ 2, No. 5).
 
 \* Bổ đề 3. — Cho $A$ là một K-đại số, $M_1$ và $M_2$ là hai A-môđun có hạng hữu hạn trên $K$ và giả sử rằng tồn tại một mở rộng $L$ của $K$ sao cho các môđun $L \otimes_K M_1$ và $L \otimes_K M_2$ trên vành $L \otimes_K A$ là đẳng cấu. Khi đó các A-môđun $M_1$ và $M_2$ đẳng cấu.
 

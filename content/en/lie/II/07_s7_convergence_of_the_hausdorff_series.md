@@ -7,24 +7,25 @@ section: 7
 section_title: Convergence of the Hausdorff series (real or complex case)
 lang: en
 source: lie-i-iii
+book_pages: 164-170, 204
 pdf_pages: 0182-0188, 0222-0222
 extraction: ocr
 subsections:
     - "no": 1
       title: CONTINUOUS-POLYNOMIALS WITH VALUES IN $g$
-      page: 0
+      page: 164
       pdf_page: 182
     - "no": 2
       title: GROUP GERM DEFINED BY A COMPLETE NORMED LIE ALGEBRA
-      page: 0
+      page: 165
       pdf_page: 183
     - "no": 3
       title: Exponential in Complete Normed Associative Algebras
-      page: 0
+      page: 169
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: cf630f9a51064efcc683400cee4a9c6c0b309024e6830285793a6c94f104ce78
+content_sha256: 0c070915f018ae2f28d7ba10eba8e260e6b24a97ffbf46012a1958fa6e91eda0
 ---
 
 ## § 7. CONVERGENCE OF THE HAUSDORFF SERIES (REAL OR COMPLEX CASE)
@@ -48,7 +49,7 @@ $$
 \tilde{u} = \sum_{v \in \mathbf{N}^I} \tilde{u}_v, \quad \text{where } \tilde{u}_v \in P_v(g^I; g).
 $$
 
-Let $u = (u_j)_{j \in J}$ be a finite family of elements of $\hat{L}(I)$, let $v \in \hat{L}(J)$ and let $w = v \circ u$ (\S 6, no. 3). We write $\tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g}$. Then
+Let $u = (u_j)_{j \in J}$ be a finite family of elements of $\hat{L}(I)$, let $v \in \hat{L}(J)$ and let $w = v \circ u$ (§ 6, no. 3). We write $\tilde{u} = (\tilde{u}_j)_{j \in J} \in \mathfrak{g}$. Then
 
 (2)
 $$
@@ -59,7 +60,7 @@ This follows by extending by continuity formula (7) of § 6, no. 3 and from Diff
 
 ### 2. GROUP GERM DEFINED BY A COMPLETE NORMED LIE ALGEBRA
 
-Let $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ be the Hausdorff series (\S 6, no. 4, Definition 1). We shall show that the corresponding formal power series
+Let $H = \sum_{r,s \geq 0} H_{r,s} \in \hat{L}(U, V)$ be the Hausdorff series (§ 6, no. 4, Definition 1). We shall show that the corresponding formal power series
 
 (3)
 $$
@@ -262,7 +263,7 @@ $$
 
 where $m : A \times A \to A$ denotes multiplication on A. Arguing as in no. 1 and using Proposition 1 of § 5, no. 1, we define a continuous homomorphism of unital algebras $u \mapsto \tilde{u}$ of $\hat{A}(I)$ into $\hat{P}(A^I; A)$ mapping the indeterminate of index i to $pr_i$; this homomorphism extends the Lie algebra homomorphism of $\hat{L}(I)$ into $\hat{P}(A^I; A)$ defined in no. 1. If $u = \sum_v u_v$ with $u_v \in A^v(I)$ for $v \in \mathbf{N}^I$, then $\tilde{u} = \sum_v \tilde{u}_v$, where $\tilde{u}_v$ is the polynomial mapping $(t_i)_{i \in I} \mapsto u_v((t_i))$.
 
-Let $u = (u_j)_{j \in I}$ be a finite family of elements of $\hat{A}(I)$, let $v \in \hat{A}(J)$ and write $w = v \circ u$ (\S 5, no. 1). Then
+Let $u = (u_j)_{j \in I}$ be a finite family of elements of $\hat{A}(I)$, let $v \in \hat{A}(J)$ and write $w = v \circ u$ (§ 5, no. 1). Then
 
 $$
 (v \circ u)^{\sim} = \tilde{v} \circ \tilde{u}.

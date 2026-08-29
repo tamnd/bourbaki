@@ -7,41 +7,42 @@ section: 7
 section_title: Lie groups over an ultrametric field
 lang: en
 source: lie-i-iii
+book_pages: 326-337, 391-395
 pdf_pages: 0344-0355, 0409-0413
 extraction: ocr
 subsections:
     - "no": 1
       title: PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
-      page: 0
+      page: 327
       pdf_page: 345
     - "no": 2
       title: EXPONENTIAL MAPPINGS
-      page: 0
+      page: 328
       pdf_page: 346
     - "no": 3
       title: STANDARD GROUPS†
-      page: 0
+      page: 328
       pdf_page: 346
     - "no": 4
       title: FILTRATION OF STANDARD GROUPS
-      page: 0
+      page: 330
       pdf_page: 348
     - "no": 5
       title: POWERS IN STANDARD GROUPS
-      page: 0
+      page: 331
       pdf_page: 349
     - "no": 6
       title: LOGARITHMIC MAPPING
-      page: 0
+      page: 333
       pdf_page: 351
 statements: 26
 exercises: 10
-content_sha256: 99933437c8c4d2e2f5fcf1297f50f16501e540051b440dd1d8a6c64abe8c68f7
+content_sha256: 0c680762cdc1f3ee887ddeb36734fc91db046db61ac47e4409f0c49baf665b4b
 ---
 
 ## § 7. LIE GROUPS OVER AN ULTRAMETRIC FIELD
 
-In this paragraph, the valued field $K$ is assumed to be ultrametric and of characteristic 0. Let $A$ denote the valuation ring of $K$, $m$ the maximal ideal of $A$ and $p$ the characteristic of the residue field $A/m$. If $K$ is locally compact, then $p \neq 0$ (*Commutative Algebra*, Chapter VI, \S 9, Theorem 1).
+In this paragraph, the valued field $K$ is assumed to be ultrametric and of characteristic 0. Let $A$ denote the valuation ring of $K$, $m$ the maximal ideal of $A$ and $p$ the characteristic of the residue field $A/m$. If $K$ is locally compact, then $p \neq 0$ (*Commutative Algebra*, Chapter VI, § 9, Theorem 1).
 
 ### 1. PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
 
@@ -94,7 +95,7 @@ Let G be a Lie group. There exists an exponential mapping $\phi$ of G with the f
 (ii) $\phi(U)$ is an open subgroup of G and $\phi$ is an isomorphism of the analytic manifold U onto the analytic manifold $\phi(U)$;
 (iii) $\phi(nx) = \phi(x)^n$ for all $x \in U$ and all $n \in \mathbf{Z}$.
 
-Let $L(G)$ be given a norm compatible with its topology and such that $\| [x, y] \| \leq \| x \| \| y \|$ for $x, y$ in $L(G)$. Let $G_1$ be the Lie group defined by $L(G)$. Let $\psi = \mathrm{Id}_{G_1}$, which is an exponential mapping of $G_1$. For all $\mu > 0$, let $L_\mu$ be the set of $x \in L(G)$ such that $\| x \| < \mu$. Then, for $\mu$ sufficiently small, $L_\mu$ is an open subgroup of the additive group $L(G)$, $\psi(L_\mu)$ is an open subgroup of $G_1$ (\S 4, no. 2, Lemma 3), $\psi|L_\mu$ is an isomorphism of analytic manifolds of $L_\mu$ onto $\psi(L_\mu)$ and $\psi(nx) = \psi(x)^n$ for all $x \in L_\mu$ and all $n \in \mathbf{Z}$. The $L_\mu$ form a fundamental system of neighbourhoods of 0 in $L(G)$. By Theorem 1, there exist $\mu$ and an open subgroup $G'$ of G such that $\psi(L_\mu)$ and $G'$ are isomorphic, whence the proposition.
+Let $L(G)$ be given a norm compatible with its topology and such that $\| [x, y] \| \leq \| x \| \| y \|$ for $x, y$ in $L(G)$. Let $G_1$ be the Lie group defined by $L(G)$. Let $\psi = \mathrm{Id}_{G_1}$, which is an exponential mapping of $G_1$. For all $\mu > 0$, let $L_\mu$ be the set of $x \in L(G)$ such that $\| x \| < \mu$. Then, for $\mu$ sufficiently small, $L_\mu$ is an open subgroup of the additive group $L(G)$, $\psi(L_\mu)$ is an open subgroup of $G_1$ (§ 4, no. 2, Lemma 3), $\psi|L_\mu$ is an isomorphism of analytic manifolds of $L_\mu$ onto $\psi(L_\mu)$ and $\psi(nx) = \psi(x)^n$ for all $x \in L_\mu$ and all $n \in \mathbf{Z}$. The $L_\mu$ form a fundamental system of neighbourhoods of 0 in $L(G)$. By Theorem 1, there exist $\mu$ and an open subgroup $G'$ of G such that $\psi(L_\mu)$ and $G'$ are isomorphic, whence the proposition.
 
 #### Proposition 4 {#lie-iii-s7-prop-4 .statement}
 
@@ -109,7 +110,7 @@ $$
 [x, y] = \lim_{n \to +\infty} p^{-2n} \phi^{-1}(\phi(p^n x) \phi(p^n y) \phi(-p^n x) \phi(-p^n y)).
 $$
 
-These are special cases of Proposition 4 of \S 4, no. 3.
+These are special cases of Proposition 4 of § 4, no. 3.
 
 ### 3. STANDARD GROUPS†
 
@@ -143,9 +144,9 @@ By replacing G by a group isomorphic to an open subgroup of G, the problem is re
 
 where the series on the right hand side are convergent for x, y in G (§ 5, no. 1). Let λ ∈ K* and let the group law be transported from G to G' = λG by the homothety of ratio λ. For x', y' in G', the product x'.y' and the inverse x'^{[-1]} evaluated in G' have coordinates
 
-$$(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} x'^\alpha y'^\beta \quad (i = 1, 2, \ldots, r)$$
+$$(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} {x'}^\alpha {y'}^\beta \quad (i = 1, 2, \ldots, r)$$
 
-$$(x'^{[-1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} x'^\alpha \quad (i = 1, 2, \ldots, r)$$
+$$({x'}^{[-1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} {x'}^\alpha \quad (i = 1, 2, \ldots, r)$$
 
 where
 
@@ -389,7 +390,7 @@ We again use the notation of nos. 3, 4 and 5.
 
 (iii) *The mapping $E'$ is an isomorphism of $\Delta$, with the Hausdorff law, onto the subgroup $\Delta$ of G.*
 
-Using the notation of § 5, nos. 3 and 4, $E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$ ($\S 5$, no. 4, Proposition 3). As the coefficients $c_{\alpha \beta \gamma}$ belong to A, $\| \psi_{m,m} \| \leq 1$ (Differentiable and Analytic Manifolds, R, Appendix) $K^r$ is assumed to have the norm
+Using the notation of § 5, nos. 3 and 4, $E = \sum_{m \geq 1} \frac{\psi_{m,m}}{m!}$ ($§ 5$, no. 4, Proposition 3). As the coefficients $c_{\alpha \beta \gamma}$ belong to A, $\| \psi_{m,m} \| \leq 1$ (Differentiable and Analytic Manifolds, R, Appendix) $K^r$ is assumed to have the norm
 
 $$
 \| (\lambda_1, \ldots, \lambda_r ) \| = \sup(|\lambda_1|, \ldots, |\lambda_r|)
@@ -425,13 +426,13 @@ L'(E'(x)) = E'(L'(x)) = x
 $$
 for $x \in \Delta$. Hence $E'$ is an isomorphism of the manifold $\Delta$ onto itself and the inverse isomorphism is the restriction of $L'$ to $\Delta$.
 
-$L(X^{[n]}) = nL(X)$ for $n$ an integer $> 0$ (cf. § 5, no. 4). As $G$ is contained in the domain of absolute convergence of $L$ and $X^{[n]}$, therefore $L'(x^n) = nL'(x)$ for all $x \in G$. The relation $L'|_{\Delta} = E'^{-1}$ implies that $L'(x^n) = \log x^n$ for $n$ sufficiently large. Hence $L'(x) = \log x$. We have thus proved (i) and (ii).
+$L(X^{[n]}) = nL(X)$ for $n$ an integer $> 0$ (cf. § 5, no. 4). As $G$ is contained in the domain of absolute convergence of $L$ and $X^{[n]}$, therefore $L'(x^n) = nL'(x)$ for all $x \in G$. The relation $L'|_{\Delta} = {E'}^{-1}$ implies that $L'(x^n) = \log x^n$ for $n$ sufficiently large. Hence $L'(x) = \log x$. We have thus proved (i) and (ii).
 
 Let $H = \sum_{r,s \geq 0} H_{r,s}$ be the Hausdorff formal power series and $h$ the Hausdorff function relative to $L(G)$. The domain of absolute convergence of $\tilde{H}$ contains $\Delta \times \Delta$ and $h$ is defined on $\Delta \times \Delta$ (Chapter II, § 8, Proposition 2). Then
 $$
 E'(x)E'(y) = E'(h(x, y))
 $$
-for $x, y$ sufficiently close to 0 ($\S 4$, Theorem 4 (v)). Hence, in the notation of no. 3, Definition 1, the formal power series $F(E(X), E(Y))$ and $E(H(X, Y))$ are equal. Let $x, y$ be elements of $\Delta$. Then
+for $x, y$ sufficiently close to 0 ($§ 4$, Theorem 4 (v)). Hence, in the notation of no. 3, Definition 1, the formal power series $F(E(X), E(Y))$ and $E(H(X, Y))$ are equal. Let $x, y$ be elements of $\Delta$. Then
 $$
 \sup_m \left| \frac{\psi_{m,m}}{m!} \right| (\sup \|x\|, \|y\|)^m < 1 \\
 \sup_{r,s} \|H_{r,s}\| \|x\|^r \|y\|^s < |\rho|^{1/(p-1)}

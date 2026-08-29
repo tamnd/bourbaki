@@ -68,7 +68,7 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: 0c153ae39564b4d702d2c032dca1d31b01e6780eaeb4dcb9c8642c3524393f7c
+content_sha256: 885d53becbd2c5c2ecfaf01892276712763fa1f29752646fc20fb98bbf979c99
 ---
 
 ## § 4. CLASSIFICATION OF ROOT SYSTEMS
@@ -388,7 +388,7 @@ It is clear that an automorphism of $R$ defines an automorphism of the Dynkin gr
 
 *The homomorphism $\varphi$ defines by passage to the quotient an isomorphism from the group $A(R)/W(R)$ to the group of automorphisms of the Dynkin graph of $R$.*
 
-Clearly, $\varphi(g) = \mathrm{Id}$ for all $g \in W(R)$. On the other hand, Prop. 1 shows that there exists an isomorphism $\psi$ from the group of isomorphisms of the Dynkin graph of $R$ to the subgroup $E$ of elements of $A(R)$ leaving fixed a given basis $B$ of $R$, such that $\varphi \circ \psi = \mathrm{Id}$. Since $A(R)$ is the semi-direct product of $E$ and $W(R)$ (\S 1, no. 5, Prop. 16), the corollary follows.
+Clearly, $\varphi(g) = \mathrm{Id}$ for all $g \in W(R)$. On the other hand, Prop. 1 shows that there exists an isomorphism $\psi$ from the group of isomorphisms of the Dynkin graph of $R$ to the subgroup $E$ of elements of $A(R)$ leaving fixed a given basis $B$ of $R$, such that $\varphi \circ \psi = \mathrm{Id}$. Since $A(R)$ is the semi-direct product of $E$ and $W(R)$ (§ 1, no. 5, Prop. 16), the corollary follows.
 
 In practice, the Dynkin graph $(X, f)$ is represented by a diagram composed of nodes and bonds in the following way. The nodes correspond to the vertices of $X$; two nodes corresponding to two distinct vertices $i$ and $j$ are joined by 0, 1, 2 or 3 bonds in cases 1), 2), 3) and 4) above (up to interchanging $i$ and $j$). Moreover, in cases 3) and 4), that is when $f(i, j) > 1$, or when the roots $\alpha_i$ and $\alpha_j$ are not orthogonal and not of the same length, an inequality sign $>$ is placed on the double or triple bond joining the nodes corresponding to $i$ and $j$ oriented towards the node corresponding to $j$ (that is, the shortest root):
 
@@ -443,13 +443,13 @@ $$
 
 It is immediate that the graph \tilde{X} and the map \tilde{f} thus defined do not depend on the choice of B or the scalar product.
 
-If the rank l of R is equal to 1, then I = \{i\} and \alpha_0 = -\alpha_1; hence \tilde{f}(0, i) = 1. If l \geq 2, \alpha_0 is not proportional to any of the \alpha_i and \langle \alpha_0 | \alpha_i \rangle is \leq 0 (\S 1, no. 8, Prop. 25). For any pair (i, j) of distinct elements of \tilde{I}, the only possibilities are those denoted by 1), 2), 3), 4) in the preceding number (putting, for example, n_{0i} = n(\alpha_0, \alpha_i) and m_{0i} = order of s_{\alpha_0} s_{\alpha_i} for all i \in I).
+If the rank l of R is equal to 1, then I = \{i\} and \alpha_0 = -\alpha_1; hence \tilde{f}(0, i) = 1. If l \geq 2, \alpha_0 is not proportional to any of the \alpha_i and \langle \alpha_0 | \alpha_i \rangle is \leq 0 (§ 1, no. 8, Prop. 25). For any pair (i, j) of distinct elements of \tilde{I}, the only possibilities are those denoted by 1), 2), 3), 4) in the preceding number (putting, for example, n_{0i} = n(\alpha_0, \alpha_i) and m_{0i} = order of s_{\alpha_0} s_{\alpha_i} for all i \in I).
 
-In the case l \geq 2, the completed Dynkin graph is represented by a diagram with the same conventions as in the preceding number, sometimes indicating by dotted lines the bonds joining the vertex 0 to the other vertices. We remark that the inequality sign > on such a bond, if it exists, is always directed towards the vertex distinct from 0, since \alpha_0 is a longest root (\S 1, no. 8, Prop. 25). The graph (X, f) is the subgraph obtained from (\tilde{X}, \tilde{f}) by deleting the vertex 0.
+In the case l \geq 2, the completed Dynkin graph is represented by a diagram with the same conventions as in the preceding number, sometimes indicating by dotted lines the bonds joining the vertex 0 to the other vertices. We remark that the inequality sign > on such a bond, if it exists, is always directed towards the vertex distinct from 0, since \alpha_0 is a longest root (§ 1, no. 8, Prop. 25). The graph (X, f) is the subgraph obtained from (\tilde{X}, \tilde{f}) by deleting the vertex 0.
 
 The action of A(R) on (X, f) extends to an action on (\tilde{X}, \tilde{f}), leaving 0 fixed, and W(R) acts trivially on (\tilde{X}, \tilde{f}).
 
-We retain the notations of \S 2, Prop. 5 of \S 2, no. 2, together with Th. 1 of Chap. V, \S 3, no. 2, shows that the Coxeter graph \Sigma of the affine Weyl group W_a(R) can be obtained from (\tilde{X}, \tilde{f}) by the same rules by which the Coxeter graph of W(R) is obtained from (X, f). On the other hand, let G be the normaliser of W_a(R) (\S 2, no. 3). To any g \in G corresponds an automorphism \varphi(g) of \Sigma and \varphi(g) = \mathrm{Id} if g \in W_a(R). Conversely, given an automorphism \lambda of \Sigma there is, by Prop. 11 of Chap. V, \S 4, no. 9, a unique element g = \psi(\lambda) preserving a given alcove C and such that \varphi(g) = \lambda. Since G is the semi-direct product of the subgroup G_C of elements preserving C and W_a(R) (\S 2, no. 3), we deduce that \varphi defines by passage to the quotient an isomorphism from G/W_a (or from G_C) to Aut(\Sigma). It is immediate that the composite of this isomorphism with the canonical map from A(R)/W(R) to G/W_a coincides with the homomorphism from A(R)/W(R) to Aut(\Sigma) induced by the homomorphism from A(R)/W(R) to Aut(\tilde{X}, \tilde{f}) defined above. By \S 2, no. 3, the group Aut(\Sigma) is isomorphic to the semi-direct product of
+We retain the notations of § 2, Prop. 5 of § 2, no. 2, together with Th. 1 of Chap. V, § 3, no. 2, shows that the Coxeter graph \Sigma of the affine Weyl group W_a(R) can be obtained from (\tilde{X}, \tilde{f}) by the same rules by which the Coxeter graph of W(R) is obtained from (X, f). On the other hand, let G be the normaliser of W_a(R) (§ 2, no. 3). To any g \in G corresponds an automorphism \varphi(g) of \Sigma and \varphi(g) = \mathrm{Id} if g \in W_a(R). Conversely, given an automorphism \lambda of \Sigma there is, by Prop. 11 of Chap. V, § 4, no. 9, a unique element g = \psi(\lambda) preserving a given alcove C and such that \varphi(g) = \lambda. Since G is the semi-direct product of the subgroup G_C of elements preserving C and W_a(R) (§ 2, no. 3), we deduce that \varphi defines by passage to the quotient an isomorphism from G/W_a (or from G_C) to Aut(\Sigma). It is immediate that the composite of this isomorphism with the canonical map from A(R)/W(R) to G/W_a coincides with the homomorphism from A(R)/W(R) to Aut(\Sigma) induced by the homomorphism from A(R)/W(R) to Aut(\tilde{X}, \tilde{f}) defined above. By § 2, no. 3, the group Aut(\Sigma) is isomorphic to the semi-direct product of
 
 A(R)/W(R) by P(R^*)/Q(R^*). and P(R^*)/Q(R^*) is isomorphic to the group $I_C = G_C \cap W'_a$ (with the notation of § 2, no. 3): the element of Aut($\Sigma$) corresponding to the element $\gamma_i$ of $I_C$ transforms the vertex 0 to the vertex $i$ of $\Sigma$.
 
@@ -568,15 +568,15 @@ $$
 \varepsilon_i - \varepsilon_j = \alpha_i + \alpha_{i+1} + \cdots + \alpha_{j-1} \quad (1 \leq i < j \leq l).
 $$
 
-Thus $(\alpha_1, \alpha_2, \ldots, \alpha_l)$ is a basis of $R$ (\S 1, no. 7, Cor. 3 of Prop. 20). Moreover, $\| \alpha_i \|^2 = 2$ for $i < l$, $\| \alpha_l \|^2 = 1$, $(\alpha_i|\alpha_{i+1}) = -1$ for $1 \leq i \leq l-1$, $(\alpha_i|\alpha_j) = 0$ for $j > i + 1$: the Dynkin graph of $R$ is thus of type $B_l$, which shows that $R$ is irreducible. The positive roots are the $\varepsilon_i$ and the $\varepsilon_i \pm \varepsilon_j$ ($i < j$).
+Thus $(\alpha_1, \alpha_2, \ldots, \alpha_l)$ is a basis of $R$ (§ 1, no. 7, Cor. 3 of Prop. 20). Moreover, $\| \alpha_i \|^2 = 2$ for $i < l$, $\| \alpha_l \|^2 = 1$, $(\alpha_i|\alpha_{i+1}) = -1$ for $1 \leq i \leq l-1$, $(\alpha_i|\alpha_j) = 0$ for $j > i + 1$: the Dynkin graph of $R$ is thus of type $B_l$, which shows that $R$ is irreducible. The positive roots are the $\varepsilon_i$ and the $\varepsilon_i \pm \varepsilon_j$ ($i < j$).
 
-(III) By Th. 1 (ii) of Chap. V, \S 6, no. 2,
+(III) By Th. 1 (ii) of Chap. V, § 6, no. 2,
 
 $$
 h = n/l = 2l.
 $$
 
-(IV) Let $\tilde{\alpha} = \varepsilon_1 + \varepsilon_2 = \alpha_1 + 2\alpha_2 + 2\alpha_3 + \cdots + 2\alpha_l$, which is a root. The sum of its coordinates relative to the basis $(\alpha_i)$ is $2l - 1 = h - 1$. In view of Prop. 31 of \S 1, no. 11, $\tilde{\alpha}$ is the highest root of $R$. We have $(\tilde{\alpha}|\alpha_i) = 0$ for $i \neq 2$ and $(\tilde{\alpha}|\alpha_2) = 1$. Since $\alpha_2$ is of length 1 (resp. $\sqrt{2}$) when $l = 2$ (resp. $l \geq 3$), the completed Dynkin graph of $R$ is as follows:
+(IV) Let $\tilde{\alpha} = \varepsilon_1 + \varepsilon_2 = \alpha_1 + 2\alpha_2 + 2\alpha_3 + \cdots + 2\alpha_l$, which is a root. The sum of its coordinates relative to the basis $(\alpha_i)$ is $2l - 1 = h - 1$. In view of Prop. 31 of § 1, no. 11, $\tilde{\alpha}$ is the highest root of $R$. We have $(\tilde{\alpha}|\alpha_i) = 0$ for $i \neq 2$ and $(\tilde{\alpha}|\alpha_2) = 1$. Since $\alpha_2$ is of length 1 (resp. $\sqrt{2}$) when $l = 2$ (resp. $l \geq 3$), the completed Dynkin graph of $R$ is as follows:
 
 for $l = 2$
 
@@ -710,7 +710,7 @@ $$
 $$
 \alpha_1 = \varepsilon_1 - \varepsilon_2,\ \alpha_2 = \varepsilon_2 - \varepsilon_3, \ldots, \alpha_l = \varepsilon_l - \varepsilon_{l+1},\ \alpha_{l+1} = \varepsilon_{l+1}.
 $$
-Since $\alpha_1, \ldots, \alpha_l$ generate $V$, $R = R' \cap V$ is a root system in $V$ with basis $(\alpha_1, \ldots, \alpha_l)$ (\S 1, no. 7, Cor. 4 of Prop. 20). By the calculation of the scalar products in no. 5, it is immediate that $R$ is of type $A_l$. The elements of $R$ are the $\varepsilon_i - \varepsilon_j$ ($i \neq j, 1 \leq i \leq l+1, 1 \leq j \leq l+1$). There are $n = l(l+1)$ roots. The positive roots are the $\varepsilon_i - \varepsilon_j$ where $i < j$.
+Since $\alpha_1, \ldots, \alpha_l$ generate $V$, $R = R' \cap V$ is a root system in $V$ with basis $(\alpha_1, \ldots, \alpha_l)$ (§ 1, no. 7, Cor. 4 of Prop. 20). By the calculation of the scalar products in no. 5, it is immediate that $R$ is of type $A_l$. The elements of $R$ are the $\varepsilon_i - \varepsilon_j$ ($i \neq j, 1 \leq i \leq l+1, 1 \leq j \leq l+1$). There are $n = l(l+1)$ roots. The positive roots are the $\varepsilon_i - \varepsilon_j$ where $i < j$.
 
 (III) We have $h = n/l = l+1$.
 
@@ -730,9 +730,9 @@ For $l \geq 2$. $(\tilde{\alpha}|\alpha_i) = 0$ for $0 < i < l$ and $(\tilde{\al
 
 (V) Identifying V with its dual using the scalar product, we have $\tilde{\alpha} = \frac{2\alpha}{(\alpha|\alpha)} = \alpha$ for all $\alpha \in \mathbf{R}$, so $R^* = R$.
 
-For the form $\Phi_R$, the length of the roots is $h^{-1/2} = (l+1)^{-1/2}$ (\S 1, no. 12); so $\Phi_r(x, y) = (x|y)/2(l+1)$.
+For the form $\Phi_R$, the length of the roots is $h^{-1/2} = (l+1)^{-1/2}$ (§ 1, no. 12); so $\Phi_r(x, y) = (x|y)/2(l+1)$.
 
-We have $\gamma(R) = (l+1)^2$ (\S 1, no. 12, formula (20)).
+We have $\gamma(R) = (l+1)^2$ (§ 1, no. 12, formula (20)).
 
 (VI) Let $(\omega_i)_{1 \leq i \leq l}$ be the family of fundamental weights. Put
 
@@ -765,7 +765,7 @@ $$
 \end{align*}
 $$
 
-(VIII) Introduce in $E = \mathbf{R}^{l+1}$ the subgroup $L_0$ of no. 4. Let $p$ be the orthogonal projection of $E$ onto $V$. By \S 1, no. 10, Prop. 28, we have
+(VIII) Introduce in $E = \mathbf{R}^{l+1}$ the subgroup $L_0$ of no. 4. Let $p$ be the orthogonal projection of $E$ onto $V$. By § 1, no. 10, Prop. 28, we have
 
 $$
 Q(R) = Q(R') \cap V \not\subset L_0 \cap V, \quad \text{and} \quad P(R) = p(P(R'));
@@ -836,7 +836,7 @@ $$
 \varepsilon_{l-1} + \varepsilon_l = \alpha_l.
 $$
 
-so $(\alpha_1, \ldots, \alpha_l)$ is a basis if $R$ (\S 1, no. 2, Cor. 3 of Prop. 20). Further, $\| \alpha_i \| ^2 = 2$ for all $i$. $(\alpha_i|\alpha_j) = 0$ for $i + 1 < j$ except for $i = l-2, j = l$ in which case $(\alpha_{l-2}|\alpha_l) = -1$, $(\alpha_i|\alpha_{i+1}) = -1$ for $i \leq l-2$, and finally $(\alpha_{l-1}|\alpha_l) = -1$; the Dynkin graph of $R$ is thus of type $D_l$. The positive roots are the $\varepsilon_i \pm \varepsilon_j$ for $i < j$.
+so $(\alpha_1, \ldots, \alpha_l)$ is a basis if $R$ (§ 1, no. 2, Cor. 3 of Prop. 20). Further, $\| \alpha_i \| ^2 = 2$ for all $i$. $(\alpha_i|\alpha_j) = 0$ for $i + 1 < j$ except for $i = l-2, j = l$ in which case $(\alpha_{l-2}|\alpha_l) = -1$, $(\alpha_i|\alpha_{i+1}) = -1$ for $i \leq l-2$, and finally $(\alpha_{l-1}|\alpha_l) = -1$; the Dynkin graph of $R$ is thus of type $D_l$. The positive roots are the $\varepsilon_i \pm \varepsilon_j$ for $i < j$.
 
 (III) We have $h = n/l = 2(l-1)$.
 
@@ -989,7 +989,7 @@ $$
 
 (VIII) We have $Q(R) = L_2$ (no. 4), and $P(R) = Q(R)$ by (VI). Hence, the connection index is 1.
 
-(IX) The family of exponents has 4 terms, and since $h = 12$, it must contain the integers 1, 5, 7, 11, coprime to 12 (\S 1, no. 11, Prop. 30); consequently, these are all the exponents of $W(R)$.
+(IX) The family of exponents has 4 terms, and since $h = 12$, it must contain the integers 1, 5, 7, 11, coprime to 12 (§ 1, no. 11, Prop. 30); consequently, these are all the exponents of $W(R)$.
 
 (X) and (XI) The only automorphism of the Dynkin graph is the identity, so $A(R) = W(R)$ and $w_0 = -1$. Let $R'$ be the set of longest elements of $R$, that is, the $\pm \varepsilon_i \pm \varepsilon_j$; $R'$ is the root system of type $D_4$ constructed in no. 8. Clearly, every element of $A(R)$ is an element of $A(R')$. Conversely, an element of $A(R')$ leaves $L_1$ stable (since it is generated by $R'$), hence also its associated $L_2$, and hence also $R$. So $W(R) = A(R) = A(R')$. By no. 8, $W(R)$ is the semi-direct product of $S_3$ by $W(R')$, $W(R')$ itself being the semi-direct product of $S_4$ by $(\mathbf{Z}/2\mathbf{Z})^3$. The order of $W(R)$ is $3!4!2^3 = 2^7.3^2$.
 
@@ -1011,7 +1011,7 @@ with $\sum_{i=1}^8 \nu(i)$ even.
 
 We have seen (no. 4) that $(\alpha|\beta) \in \mathbf{Z}$ for all $\alpha, \beta \in L_3$. Hence, R is a reduced root system. The number of roots is $n = \binom{8}{2} . 4 + 2^7 = 240$.
 
-(II) Let $\rho$ be the vector $(0, 1, 2, 3, 4, 5, 6, 23)$ of $L_3$. No element of R is orthogonal to $\rho$ (this is clear for the $\pm \varepsilon_i \pm \varepsilon_j$; if $\frac{1}{2} \sum_{i=1}^8 (-1)^{\nu(i)} \varepsilon_i$ were orthogonal to $\rho$, we would have $\sum_{i=1}^6 i(-1)^{\nu(i+1)} + 23(-1)^{\nu(8)} = 0$, which is impossible since $\sum_{i=1}^6 i < 23$). Hence (\S 1, no. 7, Cor. 2 of Prop. 20) the $\alpha \in R$ such that $(\alpha|\rho) > 0$ are the positive roots relative to a certain chamber. These roots are the $\pm \varepsilon_i + \varepsilon_j \ (i < j)$, and the
+(II) Let $\rho$ be the vector $(0, 1, 2, 3, 4, 5, 6, 23)$ of $L_3$. No element of R is orthogonal to $\rho$ (this is clear for the $\pm \varepsilon_i \pm \varepsilon_j$; if $\frac{1}{2} \sum_{i=1}^8 (-1)^{\nu(i)} \varepsilon_i$ were orthogonal to $\rho$, we would have $\sum_{i=1}^6 i(-1)^{\nu(i+1)} + 23(-1)^{\nu(8)} = 0$, which is impossible since $\sum_{i=1}^6 i < 23$). Hence (§ 1, no. 7, Cor. 2 of Prop. 20) the $\alpha \in R$ such that $(\alpha|\rho) > 0$ are the positive roots relative to a certain chamber. These roots are the $\pm \varepsilon_i + \varepsilon_j \ (i < j)$, and the
 
 $$
 \frac{1}{2} (\varepsilon_8 + \sum_{i=1}^7 (-1)^{\nu(i)} \varepsilon_i)
@@ -1027,7 +1027,7 @@ $$
 \end{align*}
 $$
 
-and these eight vectors form a basis of $\mathbf{R}^8$. By \S 1, no. 6, Cor. 1 of Prop. 19, $(\alpha_1, \alpha_2, \ldots, \alpha_8)$ is a basis of R for which the positive roots are those which have been defined above. We have
+and these eight vectors form a basis of $\mathbf{R}^8$. By § 1, no. 6, Cor. 1 of Prop. 19, $(\alpha_1, \alpha_2, \ldots, \alpha_8)$ is a basis of R for which the positive roots are those which have been defined above. We have
 
 $$
 (\alpha_4|\alpha_5) = (\alpha_5|\alpha_6) = (\alpha_6|\alpha_7) = (\alpha_7|\alpha_8) = (\alpha_4|\alpha_2) = (\alpha_4|\alpha_3) = (\alpha_3|\alpha_1) = -1,
@@ -1047,7 +1047,7 @@ which is a root. The sum of its coordinates with respect to $(\alpha_i)$ is $29 
 
 (V) Since $(\alpha|\alpha) = 2$ for all $\alpha \in R$, we have $R^- = R$.
 
-For $\Phi_R$, the squared length of the roots is $\frac{1}{30}$ (\S 1, no. 12). Hence, $\Phi_R(x, y) = (x|y)/60$ and $\gamma(R) = 900$ (\S 1. no. 12, formula (20)).
+For $\Phi_R$, the squared length of the roots is $\frac{1}{30}$ (§ 1, no. 12). Hence, $\Phi_R(x, y) = (x|y)/60$ and $\gamma(R) = 900$ (§ 1. no. 12, formula (20)).
 
 (VI) Calculating the fundamental weights gives
 $$
@@ -1070,7 +1070,7 @@ $$
 \end{align*}
 $$
 
-(VII) Half the sum of the positive roots is the sum of the fundamental weights (\S 1, no. 10, Prop. 29); this gives
+(VII) Half the sum of the positive roots is the sum of the fundamental weights (§ 1, no. 10, Prop. 29); this gives
 $$
 \begin{align*}
 \rho &= \varepsilon_2 + 2\varepsilon_3 + 3\varepsilon_4 + 4\varepsilon_5 + 5\varepsilon_6 + 6\varepsilon_7 + 23\varepsilon_8 \\

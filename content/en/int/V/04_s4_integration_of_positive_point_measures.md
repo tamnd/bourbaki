@@ -29,7 +29,7 @@ subsections:
       pdf_page: 292
 statements: 10
 exercises: 2
-content_sha256: 430049d52ece7ec09ca13d7fcfbee0ced4d0c7ea802338d6a358ebe95493a050
+content_sha256: 3c0c4299b63b198ba8be5789099b080c2d5176490f2fda987ee1745f2a1fbb81
 ---
 
 ## § 4. INTEGRATION OF POSITIVE POINT MEASURES
@@ -61,12 +61,12 @@ We shall make use of the following lemma:
 For every (finite) real number $a$, denote by $B_a$ the set of $x \in X$ such that $f(x) \leq a$, and by $A_a$ the set of $t \in T$ such that $g(t) \leq a$; it all comes down to showing that $B_a$ is closed (GT, IV, §6, No. 2, Prop. 1). Now, $A_a$ is closed (same ref.) and the proper mapping $\pi$ is closed (GT, I, §10, No. 1, Prop. 1); we are thus reduced to proving that $\pi(A_a) = B_a$. The obvious relation $f(\pi(t)) \leq g(t)$ for all $t \in T$ implies that $\pi(A_a) \subset B_a$. On the other hand, let $x \in B_a$; the set $\overline{\pi}^{-1}(x)$ is quasi-compact (GT, I, §10, No. 2, Th. 1) and nonempty, therefore there exists a $t \in \overline{\pi}^{-1}(x)$ such that
 
 $$
-g(t) = \inf_{u \in \pi^{-1}(x)} g(u) = f(x) \quad (\text{GT, IV, } \S 6, \text{ No. 2, Th. 3}); \text{ thus } t \in A_a \text{ and } \pi(t) = x.
+g(t) = \inf_{u \in \pi^{-1}(x)} g(u) = f(x) \quad (\text{GT, IV, } § 6, \text{ No. 2, Th. 3}); \text{ thus } t \in A_a \text{ and } \pi(t) = x.
 $$
 
 ### 2. Upper integrals of positive functions with respect to an integral of point measures
 
-We are going to see that, when $(\pi, g)$ is a $\mu$-adapted pair, one can sharpen the results obtained by applying the propositions of $\S 3$ to the family $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)},$ which is $\mu$-adequate by Prop. 1.
+We are going to see that, when $(\pi, g)$ is a $\mu$-adapted pair, one can sharpen the results obtained by applying the propositions of $§ 3$ to the family $t \mapsto \lambda_t = g(t)\varepsilon_{\pi(t)},$ which is $\mu$-adequate by Prop. 1.
 
 #### Theorem 1 {#int-v-s4-thm-1 .statement}
 
@@ -79,7 +79,7 @@ $$
 \int^\bullet f(x)\, d\nu(x) = \int^\bullet f(\pi(t))g(t)\, d\mu(t).
 $$
 
-A) Suppose first that the measure $\mu$ has compact support K and that the restrictions to K of the functions $g$ and $\pi$ are continuous. By formula (4) of $\S 3$, No. 1, $\nu^\bullet(1) = \int_K g(t)\, d\mu(t) < +\infty,$ so that all of the measures that figure in formula (1) are bounded. We may therefore replace $\int^\bullet$ by $\int^*$ in the first member. In view of formula (6) of $\S 3$, No. 2, it all comes down to proving that (2)
+A) Suppose first that the measure $\mu$ has compact support K and that the restrictions to K of the functions $g$ and $\pi$ are continuous. By formula (4) of $§ 3$, No. 1, $\nu^\bullet(1) = \int_K g(t)\, d\mu(t) < +\infty,$ so that all of the measures that figure in formula (1) are bounded. We may therefore replace $\int^\bullet$ by $\int^*$ in the first member. In view of formula (6) of $§ 3$, No. 2, it all comes down to proving that (2)
 $$
 \int^* f(x)\, d\nu(x) \leq \int^\bullet f(\pi(t))g(t)\, d\mu(t),
 $$

@@ -7,28 +7,29 @@ section: 8
 section_title: Convergence of the Hausdorff series (ultrametric case)
 lang: en
 source: lie-i-iii
+book_pages: 170-176, 205-207
 pdf_pages: 0188-0194, 0223-0225
 extraction: ocr
 subsections:
     - "no": 1
       title: $p$-adic upper bounds of the series exp, log and $\mathbf{H}$
-      page: 0
+      page: 171
       pdf_page: 189
     - "no": 2
       title: NORMED LIE ALGEBRAS
-      page: 0
+      page: 172
       pdf_page: 190
     - "no": 3
       title: GROUP DEFINED BY A COMPLETE NORMED LIE ALGEBRA
-      page: 0
+      page: 172
       pdf_page: 190
     - "no": 4
       title: EXPONENTIAL IN COMPLETE NORMED ASSOCIATIVE ALGEBRAS
-      page: 0
+      page: 174
       pdf_page: 192
 statements: 9
 exercises: 4
-content_sha256: 71106fc968153da769e22b3973c71dea5361a186a8c2d139be20dc4b5d4afa1e
+content_sha256: dd8b3a4a37711971ee89a625e730b67e3445af5fd7e146dbb08e9a125ac0c3d4
 ---
 
 ## § 8. CONVERGENCE OF THE HAUSDORFF SERIES (ULTRAMETRIC CASE)
@@ -67,7 +68,7 @@ Let $I = \{ U, V \}$ be a set of two elements and let
 $$
 \mathbf{H} = \sum_{r,s \geqslant 0} H_{r,s}(U, V) \in \hat{\mathbf{L}}_{\mathbf{Q}}(I)
 $$
-be the Hausdorff series (\S 6, no. 4, Definition 1). Let $\mathbf{Z}_{(p)}$ be the local ring of $\mathbf{Z}$ relative to the prime ideal $(p)$ and $(e_b)_{b \in B}$ a basis of $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ over $\mathbf{Z}$ (\S 2, no. 11, Theorem 1). It is also a basis of $\mathbf{L}_{\mathbf{Q}}(I)$ over $\mathbf{Q}$.
+be the Hausdorff series (§ 6, no. 4, Definition 1). Let $\mathbf{Z}_{(p)}$ be the local ring of $\mathbf{Z}$ relative to the prime ideal $(p)$ and $(e_b)_{b \in B}$ a basis of $\mathbf{L}_{\mathbf{Z}_{(p)}}(I)$ over $\mathbf{Z}$ (§ 2, no. 11, Theorem 1). It is also a basis of $\mathbf{L}_{\mathbf{Q}}(I)$ over $\mathbf{Q}$.
 
 #### Proposition 1 {#lie-ii-s8-prop-1 .statement}
 
@@ -142,7 +143,7 @@ Moreover,
 $$
 \| \tilde{e}_b \| \leq 1 \quad \text{for } b \in B.
 $$
-We show more generally by induction on $n$ that, for every alternant $b$ of degree $n$ in the two indeterminates U and V (\S 2, no. 6), $\| \tilde{b} \| \leq 1$. If $n = 1$, $\tilde{b}$ is one of the projections of $g \times g$ onto $g$ and hence is of norm $\leq 1$; if $n > 1$, there exist two alternants $b_1$ and $b_2$ of degrees $< n$ such that $b = [b_1, b_2]$. As the mapping $\gamma : (x, y) \mapsto [x, y]$ of $g \times g$ into $g$ is bilinear of norm $\leq 1$, we have (Differentiable and Analytic Manifolds, R, Appendix, no. 4)
+We show more generally by induction on $n$ that, for every alternant $b$ of degree $n$ in the two indeterminates U and V (§ 2, no. 6), $\| \tilde{b} \| \leq 1$. If $n = 1$, $\tilde{b}$ is one of the projections of $g \times g$ onto $g$ and hence is of norm $\leq 1$; if $n > 1$, there exist two alternants $b_1$ and $b_2$ of degrees $< n$ such that $b = [b_1, b_2]$. As the mapping $\gamma : (x, y) \mapsto [x, y]$ of $g \times g$ into $g$ is bilinear of norm $\leq 1$, we have (Differentiable and Analytic Manifolds, R, Appendix, no. 4)
 $$
 \| \tilde{b} \| = \| \gamma \circ (\tilde{b}_1, \tilde{b}_2) \| \leq \| \tilde{b}_1 \| \cdot \| \tilde{b}_2 \| \leq 1.
 $$
@@ -208,7 +209,7 @@ As
 $$
 H(H(U, V), W) = H(U, H(V, W))
 $$
-in $\hat{L}(\{ U, V, W \})$ (\S 6, no. 5, Proposition 4), we have
+in $\hat{L}(\{ U, V, W \})$ (§ 6, no. 5, Proposition 4), we have
 $$
 \tilde{H} \circ (\tilde{H} \times \mathrm{Id}_g) = \tilde{H} \circ (\mathrm{Id}_g \times \tilde{H})
 $$

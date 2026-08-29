@@ -53,6 +53,9 @@ chapters:
               title: Structure des modules injectifs
               page: 22
               pdf_page: 28
+          exercises:
+            page: 168
+            pdf_page: 174
         - section: 2
           title: Complexes de A-modules
           page: 23
@@ -98,6 +101,9 @@ chapters:
               title: 'Exemple : complexe de de Rham'
               page: 43
               pdf_page: 49
+          exercises:
+            page: 173
+            pdf_page: 179
         - section: 3
           title: Résolutions
           page: 46
@@ -139,6 +145,9 @@ chapters:
               title: Résolutions et groupes de Grothendieck
               page: 58
               pdf_page: 64
+          exercises:
+            page: 178
+            pdf_page: 184
         - section: 4
           title: Produits de torsion
           page: 61
@@ -180,6 +189,9 @@ chapters:
               title: Généralisation aux complexes de multimodules
               page: 80
               pdf_page: 86
+          exercises:
+            page: 184
+            pdf_page: 190
         - section: 5
           title: Modules d’extensions
           page: 81
@@ -213,6 +225,9 @@ chapters:
               title: Généralisation aux complexes de multimodules ; les isomorphismes canoniques
               page: 98
               pdf_page: 104
+          exercises:
+            page: 187
+            pdf_page: 193
         - section: 6
           title: Utilisation de résolutions non canoniques
           page: 100
@@ -250,6 +265,9 @@ chapters:
               title: 'Application : homologie et cohomologie des groupes'
               page: 111
               pdf_page: 117
+          exercises:
+            page: 189
+            pdf_page: 195
         - section: 7
           title: Produit de composition
           page: 113
@@ -283,3 +301,98 @@ chapters:
               title: L’homomorphisme $\mathrm{Ext}_A(P, Q) \otimes \mathrm{Tor}^A(P, M) \to \mathrm{Tor}^A(Q, M)$
               page: 128
               pdf_page: 134
+            - "no": 8
+              title: Produits de composition et homomorphismes de liaison des produits de torsion
+              page: 130
+              pdf_page: 136
+            - "no": 9
+              title: Calcul des produits de composition par décalage de résolutions
+              page: 132
+              pdf_page: 138
+          exercises:
+            page: 197
+            pdf_page: 203
+        - section: 8
+          title: Dimension homologique
+          page: 134
+          pdf_page: 140
+          subsections:
+            - "no": 1
+              title: Dimension projective d’un module
+              page: 134
+              pdf_page: 140
+            - "no": 2
+              title: L’homomorphisme TorⁿA(P, M) → HomA(ExtⁿA(M, A), P)
+              page: 137
+              pdf_page: 143
+            - "no": 3
+              title: Dimension homologique d’un anneau
+              page: 138
+              pdf_page: 144
+            - "no": 4
+              title: Anneaux de dimension homologique 0
+              page: 140
+              pdf_page: 146
+            - "no": 5
+              title: Anneaux de dimension homologique 1
+              page: 140
+              pdf_page: 146
+            - "no": 6
+              title: Dimension homologique des anneaux de polynômes
+              page: 141
+              pdf_page: 147
+            - "no": 7
+              title: Dimension homologique des modules gradués
+              page: 143
+              pdf_page: 149
+          exercises:
+            page: 202
+            pdf_page: 208
+        - section: 9
+          title: Complexes de Koszul
+          page: 147
+          pdf_page: 153
+          subsections:
+            - "no": 1
+              title: Les complexes K(u), K.(u, C), K⁻(u, C)
+              page: 147
+              pdf_page: 153
+            - "no": 2
+              title: Fonctorialité
+              page: 150
+              pdf_page: 156
+            - "no": 3
+              title: 'Exemple 1 : le complexe S(L) ⊗A Λ(L)'
+              page: 151
+              pdf_page: 157
+            - "no": 4
+              title: 'Exemple 2 : le cas d’un module libre'
+              page: 153
+              pdf_page: 159
+            - "no": 5
+              title: 'Exemple 3 : le cas L = A'
+              page: 156
+              pdf_page: 162
+            - "no": 6
+              title: Familles complètement sécantes
+              page: 157
+              pdf_page: 163
+            - "no": 7
+              title: Un critère pour les suites complètement sécantes
+              page: 159
+              pdf_page: 165
+            - "no": 8
+              title: 'Démonstration du théorème 1 : première partie'
+              page: 161
+              pdf_page: 167
+            - "no": 9
+              title: 'Démonstration du théorème 1 : deuxième partie'
+              page: 163
+              pdf_page: 169
+            - "no": 10
+              title: Classe d’extensions associée à une suite régulière
+              page: 165
+              pdf_page: 171
+          exercises:
+            page: 206
+            pdf_page: 212

@@ -33,9 +33,9 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: b308a8c406a09479ac4d6c41168bff4088f9d912ac3ee621ad5111da37c28fb1
+content_sha256: b9b976df2eab2351bd4474013c0db66fc16abc49f180ecfef1b343cdc1aebdce
 translated_from: content/en/lie/IX/09_s9_compact_lie_groups_operating_on.md
-source_content_sha256: 2a82e6269703610eb0aec6a364adfc78d840c576702417f4d79de46898d441fb
+source_content_sha256: dbd6a8fe77e36a2dde3d4d956d5fc6fd2a6bf284a5e6f34dca83531dabcebd7f
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini
 translation_run: translate-vi-79bcb0f4
 glossary_version: 34
@@ -87,7 +87,7 @@ Cho A là một tập con compact của X. Tập hợp $\mathscr{P}$ các cấu 
 
 Rõ ràng, chỉ cần chứng minh mệnh đề với $r= 1$.
 
-$a)$ Trước hết ta chứng minh rằng tập con J của $\mathscr{C}^1(X;Y)$ gồm các cấu xạ là các phép dìm tại mọi điểm của A là mở. Xét ánh xạ $j_A:\mathscr{C}^1(X;Y)\times A\rightarrow J^1(X;Y)$ sao cho $j_A(\varphi , x) =j_x^1(\varphi ) ($Đa tạp khả vi và giải tích, Kết quả, 12.1).
+a) Trước hết ta chứng minh rằng tập con J của $\mathscr{C}^1(X;Y)$ gồm các cấu xạ là các phép dìm tại mọi điểm của A là mở. Xét ánh xạ $j_A:\mathscr{C}^1(X;Y)\times A\rightarrow J^1(X;Y)$ sao cho $j_A(\varphi , x) =j_x^1(\varphi ) ($Đa tạp khả vi và giải tích, Kết quả, 12.1).
 
 Theo định nghĩa của tôpô trên $\mathscr{C}^1$(X;Y), ánh xạ $\widetilde{j}_A:\varphi \rightarrow j_A(\varphi , .)$ từ $\mathscr{C}^1(X;Y)$ vào $\mathscr{C}(A;J^1(X;Y))$ là liên tục; từ đó suy ra theo Tôpô đại cương, Chương X, §3, no. 4, Định lý 3, rằng $j_A$ là liên tục.
 
@@ -95,7 +95,7 @@ Mặt khác, cho M là tập hợp các mầm $j$ trong $J^1(X;Y)$ mà ánh xạ
 
 Ta kết luận từ điều đã nêu trước đó rằng tập hợp $j_A^{-1}(M)$ là mở trong $\mathscr{C}^1(X;Y)\times A$, do đó phần bù của nó $\mathscr{F}$ là đóng. Vì A là compact, phép chiếu pr$_1:\mathscr{C}^1(X;Y)\times A\rightarrow \mathscr{C}^1(X;Y)$ là một cấu xạ thực sự, do đó đóng; vì vậy, tập hợp J, bằng $\mathscr{C}^1(X;Y)$ **--** pr$_1(\mathscr{F})$, là mở trong $\mathscr{C}^1(X;Y)$.
 
-$b)$ Gọi H là tập con của $J\times A\times A$ gồm các phần tử $(f, x, y)$ sao cho $f(x) =f(y)$. Rõ ràng H chứa $J\times \Delta$, trong đó $\Delta$ ký hiệu đường chéo trong tích $A\times A$; ta chứng minh rằng $H'= H$ **--** $(J\times \Delta )$ là đóng trong $J\times A\times A$. Vì $\mathscr{P}$ là phần bù trong J của ảnh của $H'$ qua phép chiếu thực sự pr$_1: J\times A\times A\rightarrow J$, điều này sẽ suy ra mệnh đề.
+b) Gọi H là tập con của $J\times A\times A$ gồm các phần tử $(f, x, y)$ sao cho $f(x) =f(y)$. Rõ ràng H chứa $J\times \Delta$, trong đó $\Delta$ ký hiệu đường chéo trong tích $A\times A$; ta chứng minh rằng $H'= H$ **--** $(J\times \Delta )$ là đóng trong $J\times A\times A$. Vì $\mathscr{P}$ là phần bù trong J của ảnh của $H'$ qua phép chiếu thực sự pr$_1: J\times A\times A\rightarrow J$, điều này sẽ suy ra mệnh đề.
 
 Tôpô của $\mathscr{C}^1(X;Y)$ mịn hơn tôpô hội tụ compact, nên ánh xạ $(\varphi , x) \rightarrow \varphi (x)$ từ $\mathscr{C}^1(X;Y)\times A$ đến Y là liên tục (General Topology, Chap. X, §3, no. 4, Cor. 1 of Th. 3); do đó H là đóng trong $J\times A\times A$. Vì vậy, chỉ cần chứng minh rằng $J\times \Delta$ là mở trong H, nói cách khác, rằng với mọi $\varphi \in J$ và mọi $x\in A$ tồn tại một lân cận $\Omega$ của $\varphi$ trong J và một lân cận B của $x$ trong X sao cho, với mọi cấu xạ $\psi$ trong $\Omega$, hạn chế của $\psi$ trên $A\cap B$ là đơn ánh.
 
@@ -243,7 +243,7 @@ Theo các điều kiện của Mệnh đề 6, ảnh của $\alpha$ là một l�
 
 Cho G là một nhóm tôpô tác động liên tục lên một không gian tôpô tách biệt E. Với mọi điểm $x$ của E, ký hiệu $G_x$ là nhóm ổn định của $x$ trong G, và giả sử rằng ánh xạ chính tắc $G/G_x\rightarrow Gx$ là một đồng phôi; điều này đặc biệt đúng trong hai trường hợp sau:
 
-$a)$ tôpô của G và E là rời rạc;
+a) tôpô của G và E là rời rạc;
 
 $b) G$ tác động thực sự lên E (General Topology, Chap. III, §4, no. 2, Mệnh đề 4), ví dụ, G là compact (General Topology, Chap. III, §4, no. 1, Mệnh đề 2).
 
@@ -267,15 +267,15 @@ b) Cho H và $H'$ là hai nhóm con compact của G sao cho $H\subset H'$ và sa
 
 c) Với quan hệ $t\leq t'$, tập hợp $\mathscr{T}$ là một tập có thứ tự Noether (Lý thuyết tập hợp, Chương III, §6, no. 5, văn bản trước Mệnh đề 7).
 
-$a)$ Cho $(H_i)_{i\geq 1}$ là một dãy giảm các nhóm con compact của G; đây là các nhóm con Lie của G (Chương III, §8, no. 2, Định lý 2). Dãy các số nguyên (dim $H_i$)$_{i\geq 1}$ là giảm, do đó dừng, nên tồn tại một số nguyên N sao cho các nhóm con $H_i$ có cùng thành phần liên thông đơn vị với mọi $i\geq N$. Khi đó dãy giảm các số nguyên dương $(H_i: (H_i)_0)_{i\geq N}$ là dừng, nên $H_i= H_{i+1}$ với mọi $i$ đủ lớn.
+a) Cho $(H_i)_{i\geq 1}$ là một dãy giảm các nhóm con compact của G; đây là các nhóm con Lie của G (Chương III, §8, no. 2, Định lý 2). Dãy các số nguyên (dim $H_i$)$_{i\geq 1}$ là giảm, do đó dừng, nên tồn tại một số nguyên N sao cho các nhóm con $H_i$ có cùng thành phần liên thông đơn vị với mọi $i\geq N$. Khi đó dãy giảm các số nguyên dương $(H_i: (H_i)_0)_{i\geq N}$ là dừng, nên $H_i= H_{i+1}$ với mọi $i$ đủ lớn.
 
-$b)$ Cho $f$ là một đẳng cấu từ $H'$ đến H. Dãy $(f^n(H))_{n\geq 0}$ là một dãy giảm các nhóm con compact của G, nên $f^n(H) =f^{n+1}(H)$ với mọi $n$ đủ lớn, theo a). Vì $f$ là một đẳng cấu, điều này suy ra $f(H) = H =f(H')$, do đó $H = H'$.
+b) Cho $f$ là một đẳng cấu từ $H'$ đến H. Dãy $(f^n(H))_{n\geq 0}$ là một dãy giảm các nhóm con compact của G, nên $f^n(H) =f^{n+1}(H)$ với mọi $n$ đủ lớn, theo a). Vì $f$ là một đẳng cấu, điều này suy ra $f(H) = H =f(H')$, do đó $H = H'$.
 
 ==========
 
 Đó là toàn bộ đoạn văn. Hãy viết bản dịch của mọi thứ nằm giữa hai dòng đó, và dừng ở đó.
 
-c)$ Cho $t, t'\in \mathscr{T}$ sao cho $t\leq t'$ và $t'\leq t$. Khi đó, tồn tại $H,H_1\in t$ và $H',H'_1\in t'$ sao cho $H\supset H'$ và $H_1\subset H'_1$. Gọi $g$ và $g'$ là hai phần tử của G sao cho $H_1=gHg^{-1}$ và $H'_1=g'H'g^{'-1}$; đặt $u=g^{'-1}g$. Khi đó
+c) Cho $t, t'\in \mathscr{T}$ sao cho $t\leq t'$ và $t'\leq t$. Khi đó, tồn tại $H,H_1\in t$ và $H',H'_1\in t'$ sao cho $H\supset H'$ và $H_1\subset H'_1$. Gọi $g$ và $g'$ là hai phần tử của G sao cho $H_1=gHg^{-1}$ và $H'_1=g'H'g^{'-1}$; đặt $u=g^{'-1}g$. Khi đó
 
 $$
 uHu^{-1}\subset H'\subset H
@@ -293,21 +293,21 @@ b) Với mọi $t\in \mathscr{T},X_{(t)}$ là một đa tạp con của X, quan 
 
 c) Giả sử $X/G$ liên thông. Khi đó tập hợp các kiểu quỹ đạo của các phần tử của X có một phần tử lớn nhất $\tau$; hơn nữa, $X_{(\tau)}$ là một tập con mở trù mật của X và $X_{(\tau)}/G$ liên thông.
 
-Cho $x$ là một điểm của X và $t\in \mathscr{T}$ là kiểu của nó. Để chứng minh $a)$ và $b)$, ta có thể thay X bởi một tập mở ổn định chứa $x$, và do đó (Mệnh đề 6) có thể giả sử rằng X có dạng $G\times^HW$, trong đó W là không gian của một biểu diễn tuyến tính giải tích hữu hạn chiều của một nhóm con compact H của G, còn điểm $x$ là ảnh $p(e,0)$ của $(e,0)\in G\times W$ qua phép chiếu chính tắc $p: G\times W\rightarrow G\times^HW$. Nếu $u=p(g, y)\in G\times^HW$ và $a\in G$, thì $au=u$ khi và chỉ khi tồn tại $h\in H$ sao cho $(ag, y) = (gh^{-1}, hy)$, tức là, nếu $a\in gH_yg^{-1}$. Do đó, $G_u=gH_yg^{-1}$; nói riêng, $G_x= H$, nên $G_u$ liên hợp với một nhóm con của $G_x$, điều này chứng minh rằng kiểu của $u$ là $\geq t$, suy ra $a)$.
+Cho $x$ là một điểm của X và $t\in \mathscr{T}$ là kiểu của nó. Để chứng minh a) và b), ta có thể thay X bởi một tập mở ổn định chứa $x$, và do đó (Mệnh đề 6) có thể giả sử rằng X có dạng $G\times^HW$, trong đó W là không gian của một biểu diễn tuyến tính giải tích hữu hạn chiều của một nhóm con compact H của G, còn điểm $x$ là ảnh $p(e,0)$ của $(e,0)\in G\times W$ qua phép chiếu chính tắc $p: G\times W\rightarrow G\times^HW$. Nếu $u=p(g, y)\in G\times^HW$ và $a\in G$, thì $au=u$ khi và chỉ khi tồn tại $h\in H$ sao cho $(ag, y) = (gh^{-1}, hy)$, tức là, nếu $a\in gH_yg^{-1}$. Do đó, $G_u=gH_yg^{-1}$; nói riêng, $G_x= H$, nên $G_u$ liên hợp với một nhóm con của $G_x$, điều này chứng minh rằng kiểu của $u$ là $\geq t$, suy ra a).
 
 Hơn nữa, $u$ có kiểu $t$ khi và chỉ khi $G_u$ liên hợp với H trong G, hoặc tương đương là $H_y$ liên hợp với H trong G; theo Bổ đề $6b)$, điều này có nghĩa là $H_y= H$, và do đó $y$ bị H cố định. Nếu $W'$ là không gian con vectơ của W gồm các phần tử bị H cố định, suy ra $X_{(t)}$ có thể được đồng nhất với $G\times^HW'$, và do đó cũng với $G/H\times W'$, suy ra b).
 
-Để chứng minh $c)$, xét rằng giả thiết $X/G$ liên thông ngụ ý rằng X thuần có số chiều hữu hạn: thật vậy, với mọi $k\geq 0$, ký hiệu bởi $X_k$ tập các điểm $x\in X$ sao cho dim$_xX =k$; khi đó $X_k$ mở và đóng trong X, và ổn định dưới tác dụng của G, nên X bằng một trong các $X_k$.
+Để chứng minh c), xét rằng giả thiết $X/G$ liên thông ngụ ý rằng X thuần có số chiều hữu hạn: thật vậy, với mọi $k\geq 0$, ký hiệu bởi $X_k$ tập các điểm $x\in X$ sao cho dim$_xX =k$; khi đó $X_k$ mở và đóng trong X, và ổn định dưới tác dụng của G, nên X bằng một trong các $X_k$.
 
-Ta nay chứng minh $c)$ bằng quy nạp theo chiều của X, mệnh đề hiển nhiên khi dim X = 0. Cho $\tau$ là một phần tử cực đại trong số các kiểu quỹ đạo của các điểm của X (một phần tử như vậy tồn tại theo Bổ đề $6c$)$). Ta sẽ chứng minh điều sau:
+Ta nay chứng minh c) bằng quy nạp theo chiều của X, mệnh đề hiển nhiên khi dim X = 0. Cho $\tau$ là một phần tử cực đại trong số các kiểu quỹ đạo của các điểm của X (một phần tử như vậy tồn tại theo Bổ đề $6c$)). Ta sẽ chứng minh điều sau:
 
 $c')$ Với mọi tập con A của $X_{(t)}$, mở và đóng trong $X_{(\tau)}$ và ổn định dưới tác dụng của G, bao đóng $\overline{A}$ của A trong X là mở.
 
-Mệnh đề này suy ra $c)$. Thật vậy, trước hết chú ý rằng $X_{(\tau)}$ mở trong X, theo $a)$; mệnh đề $c')$ suy ra rằng $\overline{X}_{(\tau)}$ mở và đóng trong X, do đó bằng X vì nó ổn định dưới tác dụng của G và $X/G$ liên thông. Cho A là một tập con không rỗng, mở và đóng của $X_{(\tau)}$ ổn định dưới tác dụng của G; theo $c')$, $\overline{A}$ mở và đóng trong X và ổn định dưới tác dụng của G, do đó bằng X; điều này ngụ ý rằng A trù mật trong $X_{(\tau)}$, do đó bằng $X_{(\tau)}$. Do đó, mọi tập con không rỗng, mở và đóng của $X_{(\tau)}/G$ đều bằng $X_{(\tau)}/G$, điều đó chứng tỏ rằng $X_{(\tau)}/G$ liên thông. Cuối cùng, vì $X_{(\tau)}$ trù mật trong X, suy ra từ $a)$ rằng mọi điểm của X đều có kiểu $\leq \tau$; nói cách khác, $\tau$ là phần tử lớn nhất trong số các kiểu quỹ đạo của các điểm của X.
+Mệnh đề này suy ra c). Thật vậy, trước hết chú ý rằng $X_{(\tau)}$ mở trong X, theo a); mệnh đề $c')$ suy ra rằng $\overline{X}_{(\tau)}$ mở và đóng trong X, do đó bằng X vì nó ổn định dưới tác dụng của G và $X/G$ liên thông. Cho A là một tập con không rỗng, mở và đóng của $X_{(\tau)}$ ổn định dưới tác dụng của G; theo $c')$, $\overline{A}$ mở và đóng trong X và ổn định dưới tác dụng của G, do đó bằng X; điều này ngụ ý rằng A trù mật trong $X_{(\tau)}$, do đó bằng $X_{(\tau)}$. Do đó, mọi tập con không rỗng, mở và đóng của $X_{(\tau)}/G$ đều bằng $X_{(\tau)}/G$, điều đó chứng tỏ rằng $X_{(\tau)}/G$ liên thông. Cuối cùng, vì $X_{(\tau)}$ trù mật trong X, suy ra từ a) rằng mọi điểm của X đều có kiểu $\leq \tau$; nói cách khác, $\tau$ là phần tử lớn nhất trong số các kiểu quỹ đạo của các điểm của X.
 
 Bây giờ chứng minh $c')$. Có thể giả sử rằng A không rỗng; lấy $x\in A$. Chỉ cần chứng minh rằng A là một lân cận của x. Để làm điều đó, như trên, có thể giả sử rằng $X = G\times^HW$ với H compact, x là ảnh chính tắc của $(e,0)$. Giả sử trước hết rằng H tác động tầm thường lên W: khi đó X có thể được đồng nhất với $(G/H)\times W$, và $X_{(\tau)}/G = X/G$ đồng phôi với W, do đó liên thông; vì vậy, $A/G = X/G$, suy ra A = X. Từ đây giả sử rằng H không tác động tầm thường lên W. Chọn một tích vô hướng trên W bất biến dưới nhóm compact H; lấy S là mặt cầu đơn vị trong W (tập hợp các vectơ có chuẩn 1). Chú ý rằng $S/H$ liên thông: thật vậy, nếu dim(W) $\geq 2$, S liên thông, và nếu dim(W) = 1, S là một không gian gồm hai điểm mà H tác động không tầm thường. Đặt $Y = G\times^HS$; đây là một đa tạp con đóng của X, ổn định dưới G, có đồng chiều 1, và $Y/G$, vốn đồng phôi với $S/H$, là liên thông. Do đó, theo giả thiết quy nạp, tồn tại một kiểu quỹ đạo cực đại $\theta$ cho Y, tập $Y_{(\theta)}$ mở và trù mật trong Y, và $Y_{(\theta)}/G$ liên thông.
 
-Xét phép toán của $\mathbf{R}^*_+$ trên X cảm sinh bởi việc qua thương theo luật phép toán $(\lambda ,(g, w)) \rightarrow (g, \lambda w)$ của $\mathbf{R}^*_+$ trên $G\times W$. Hai điểm của X liên hợp dưới phép toán này thì cùng kiểu quỹ đạo; do đó, $X_{(\theta)}$ chứa $\mathbf{R}^*_+Y_{(\theta)}$, là một tập con mở trù mật của X. Nhưng $X_{(\tau)}$ mở theo $a)$, nên giao với $X_{(\theta)}$, suy ra $\theta =\tau$.
+Xét phép toán của $\mathbf{R}^*_+$ trên X cảm sinh bởi việc qua thương theo luật phép toán $(\lambda ,(g, w)) \rightarrow (g, \lambda w)$ của $\mathbf{R}^*_+$ trên $G\times W$. Hai điểm của X liên hợp dưới phép toán này thì cùng kiểu quỹ đạo; do đó, $X_{(\theta)}$ chứa $\mathbf{R}^*_+Y_{(\theta)}$, là một tập con mở trù mật của X. Nhưng $X_{(\tau)}$ mở theo a), nên giao với $X_{(\theta)}$, suy ra $\theta =\tau$.
 
 Mặt khác, đồng phôi $(\lambda , w) \rightarrow \lambda w$ từ $\mathbf{R}^*_+\times S$ đến W **--** $\{0\}($General Topology, Chap. VI, §2, no. 3, Mệnh đề 3) cảm sinh một đồng phôi từ $\mathbf{R}^*_+\times (S/H)$ đến $(\mathbf{R}^*_+S)/H$, do đó cũng từ $\mathbf{R}^*_+\times (Y/G)$ đến $(\mathbf{R}^*_+Y)/G$, và từ $\mathbf{R}^*_+\times (Y_{(\theta)}/G)$ đến $(\mathbf{R}^*_+Y_{(\theta)})/G$. Vì vậy, $(\mathbf{R}^*_+Y_{(\theta)})/G$ liên thông, và $X_{(\tau)}/G$, vốn chứa một tập con trù mật liên thông, tự nó liên thông (General Topology, Chap. I, §11, no. 1, Mệnh đề 1). Do đó, A bằng $X_{(\tau)}$, suy ra trù mật trong X, và A là một lân cận của x. Điều này hoàn tất chứng minh định lý.
 
@@ -315,7 +315,7 @@ Với ký hiệu trong Định lý $2c)$, các điểm của $X_{(\tau)}$ đư�
 
 #### Ví dụ 1 {#lie-ix-s9-n4-exa-1 .statement tag=01HV}
 
-Cho G là một nhóm Lie compact liên thông, tác động lên chính nó bởi các tự đẳng cấu nội. Nhóm ổn định của một phần tử $x$ của G đơn giản là tập trung hóa $Z(x)$ của $x$ trong G; nó chứa mọi xuyến cực đại chứa $x$. Do đó kiểu quỹ đạo lớn nhất $\tau$ là lớp liên hợp của các xuyến cực đại của G. Tập mở $G_{(\tau)}$ là tập các phần tử rất chính quy của G (§5, no. 1, Nhận xét). Giả sử rằng G là đơn liên thông. Khi đó $G_{(\tau)}$ bằng với tập $G_r$ của các phần tử chính quy của G (§5, no. 2, Nhận xét 2); nếu A là một alcove của một đại số con Cartan $\mathfrak{t}$ của $\mathfrak{g}= L(G)$, thì ánh xạ hợp thành $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) là một đẳng cấu của các đa tạp giải tích. Thật vậy, đây là một đồng phôi (§5, no. 2, Hệ quả của Mệnh đề 2); lấy $a\in A$, đặt t=$ exp $a$ và đồng nhất $T_t(G)$ với $\mathfrak{g}$ bằng phép tịnh tiến $\gamma (t)$. Khi đó, ánh xạ tiếp tuyến $T_a(\pi )$ có thể được đồng nhất với hợp thành của đơn ánh chính tắc $\mathfrak{t}\rightarrow \mathfrak{g}$ và ánh xạ thương $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1$). Vì $t$ là chính quy, $T_a(\pi )$ là một đẳng cấu, do đó có kết quả đã nêu (Differentiable and Analytic Manifolds, Kết quả, 5.7.8).
+Cho G là một nhóm Lie compact liên thông, tác động lên chính nó bởi các tự đẳng cấu nội. Nhóm ổn định của một phần tử $x$ của G đơn giản là tập trung hóa $Z(x)$ của $x$ trong G; nó chứa mọi xuyến cực đại chứa $x$. Do đó kiểu quỹ đạo lớn nhất $\tau$ là lớp liên hợp của các xuyến cực đại của G. Tập mở $G_{(\tau)}$ là tập các phần tử rất chính quy của G (§5, no. 1, Nhận xét). Giả sử rằng G là đơn liên thông. Khi đó $G_{(\tau)}$ bằng với tập $G_r$ của các phần tử chính quy của G (§5, no. 2, Nhận xét 2); nếu A là một alcove của một đại số con Cartan $\mathfrak{t}$ của $\mathfrak{g}= L(G)$, thì ánh xạ hợp thành $\pi : A\longrightarrow^{exp}G_r\longrightarrow G_r/$Int(G) là một đẳng cấu của các đa tạp giải tích. Thật vậy, đây là một đồng phôi (§5, no. 2, Hệ quả của Mệnh đề 2); lấy $a\in A$, đặt $t=$ exp $a$ và đồng nhất $T_t(G)$ với $\mathfrak{g}$ bằng phép tịnh tiến $\gamma (t)$. Khi đó, ánh xạ tiếp tuyến $T_a(\pi )$ có thể được đồng nhất với hợp thành của đơn ánh chính tắc $\mathfrak{t}\rightarrow \mathfrak{g}$ và ánh xạ thương $\mathfrak{g}\rightarrow \mathfrak{g}/$Im(Ad $t^{-1}-1$). Vì $t$ là chính quy, $T_a(\pi )$ là một đẳng cấu, do đó có kết quả đã nêu (Differentiable and Analytic Manifolds, Kết quả, 5.7.8).
 
 #### Ví dụ 2 {#lie-ix-s9-n4-exa-2 .statement tag=01HW}
 

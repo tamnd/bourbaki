@@ -7,32 +7,33 @@ section: 4
 section_title: Nilpotent Lie algebras
 lang: en
 source: lie-i-iii
+book_pages: 38-42, 91-98
 pdf_pages: 0056-0060, 0109-0116
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF NILPOTENT LIE ALGEBRAS
-      page: 0
+      page: 38
       pdf_page: 56
     - "no": 2
       title: ENGEL'S THEOREM
-      page: 0
+      page: 39
       pdf_page: 57
     - "no": 3
       title: THE LARGEST NILPOTENCY IDEAL OF A REPRESENTATION
-      page: 0
+      page: 40
       pdf_page: 58
     - "no": 4
       title: THE LARGEST NILPOTENT IDEAL OF A LIE ALGEBRA
-      page: 0
+      page: 42
       pdf_page: 60
     - "no": 5
       title: EXTENSION OF THE BASE FIELD
-      page: 0
+      page: 42
       pdf_page: 60
 statements: 18
 exercises: 27
-content_sha256: ec8fcfdc0c4ee25ad5c1b29d58376b1ebcb9cbf681ca6ed53a7f8804eb1ab7e6
+content_sha256: 48ab9b1787343e1f86d71a8b0614a97c02bf7d85a80b47fd455f6abb64aa840b
 ---
 
 ## § 4. NILPOTENT LIE ALGEBRAS
@@ -110,7 +111,7 @@ The proof proceeds by induction on the dimension $n$ of $g$. The theorem is obvi
 
 Let $h$ be a Lie subalgebra of $g$ of dimension $m < n$. If $x \in h$, and $\mathrm{ad}_g x$ maps $h$ into itself and defines on passing to the quotient an endomorphism $\sigma(x)$ of the space $g/h$. By Lemma 1 $\mathrm{ad}_g x$ is nilpotent and hence $\sigma(x)$ is nilpotent. By the induction hypothesis there exists a non-zero element of $g/h$ which is annihilated by all the $\sigma(x),\ x \in h$. It follows that $h$ is an ideal in a certain $(m+1)$-dimensional subalgebra of $g$.
 
-We conclude (by iteration starting with $h = \{0\}$) that $g$ has an ideal $h$ of dimension $n-1$. Let $a \in g,\ a \notin h$. We again use the induction hypothesis: the $u \in V$ such that $x.u = 0$ for all $x \in h$ form a non-zero vector subspace U of V. This subspace is stable under $a$ (\S 3, no. 5, Proposition 5). Since $a$ is a nilpotent endomorphism of V, there exists a non-zero element of U which is annihilated by $a$ and hence by every element of $g$.
+We conclude (by iteration starting with $h = \{0\}$) that $g$ has an ideal $h$ of dimension $n-1$. Let $a \in g,\ a \notin h$. We again use the induction hypothesis: the $u \in V$ such that $x.u = 0$ for all $x \in h$ form a non-zero vector subspace U of V. This subspace is stable under $a$ (§ 3, no. 5, Proposition 5). Since $a$ is a nilpotent endomorphism of V, there exists a non-zero element of U which is annihilated by $a$ and hence by every element of $g$.
 
 #### Corollary 1 {#lie-i-s4-thm-1-cor-1 .statement}
 
@@ -132,7 +133,7 @@ This follows immediately from Lemma 1 and Corollary 1.
 
 #### Example {#lie-i-s4-n2-exa-1 .statement}
 
-The algebra $\mathfrak{n}(n, K)$ (\S 1, no. 2, Example 2 (3)) is nilpotent.
+The algebra $\mathfrak{n}(n, K)$ (§ 1, no. 2, Example 2 (3)) is nilpotent.
 
 ### 3. THE LARGEST NILPOTENCY IDEAL OF A REPRESENTATION
 
@@ -140,7 +141,7 @@ The algebra $\mathfrak{n}(n, K)$ (\S 1, no. 2, Example 2 (3)) is nilpotent.
 
 *Let g be a Lie algebra, a an ideal of g and M a simple g-module. If, for all $x \in a,\ x_M$ is nilpotent, then $x_M = 0$ for all $x \in a$.*
 
-Let N be the subspace of M consisting of the $m \in M$ such that $x_M.m = 0$ for all $x \in a$. By Theorem 1, $N \neq \{0\}$. On the other hand, for all $y \in g$, N is stable under $y_M$ (\S 3, no. 5, Proposition 5). Hence $N = M$, which proves the lemma.
+Let N be the subspace of M consisting of the $m \in M$ such that $x_M.m = 0$ for all $x \in a$. By Theorem 1, $N \neq \{0\}$. On the other hand, for all $y \in g$, N is stable under $y_M$ (§ 3, no. 5, Proposition 5). Hence $N = M$, which proves the lemma.
 
 #### Lemma 3 {#lie-i-s4-lem-3 .statement}
 

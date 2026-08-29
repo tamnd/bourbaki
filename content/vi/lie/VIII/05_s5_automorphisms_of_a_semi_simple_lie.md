@@ -37,9 +37,9 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: 440ebc34e96e227ef1f3db0c5adb37a0b5aed95bdad60627fa9e34933f33cff3
+content_sha256: ad88b1b3239bfb3964472405b46e2701b09f0cd7980ced7a476855f6837c5c42
 translated_from: content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md
-source_content_sha256: a1d0b9433cf5b198abcf0509ba2e9f5eb8b68353a4b2fdd1097f389a9f20c040
+source_content_sha256: 80823ac5024f35186150a7d683b4b02c82a9670ba20df80f2f6ba46b412253ae
 translation_model: gpt-5.4
 translation_run: translate-vi-e27281d2
 glossary_version: 34
@@ -103,13 +103,13 @@ Dãy các đồng cấu
 
 là khớp.
 
-$a)$ Cho $\varphi \in$ Ker $f$. Khi đó $\varphi (\alpha ) = 1$ với mọi $\alpha \in R$. Vì R sinh nhóm $Q(R),\varphi$ là phần tử đơn vị của $T_Q$.
+a) Cho $\varphi \in$ Ker $f$. Khi đó $\varphi (\alpha ) = 1$ với mọi $\alpha \in R$. Vì R sinh nhóm $Q(R),\varphi$ là phần tử đơn vị của $T_Q$.
 
-$b)$ Cho $\varphi \in T_Q$. Hạn chế của $f(\varphi )$ trên $\mathfrak{h}=\mathfrak{g}^0$ là đồng nhất, do đó
+b) Cho $\varphi \in T_Q$. Hạn chế của $f(\varphi )$ trên $\mathfrak{h}=\mathfrak{g}^0$ là đồng nhất, do đó
 
 Im $f\subset$ Ker$\varepsilon$.
 
-$c)$ Cho $s\in$ Ker$\varepsilon$. Khi đó $s|\mathfrak{h}=$ Id$_{\mathfrak{h}}$. Với mọi $\alpha \in R$, ta có $s(\mathfrak{g}^{\alpha}) =\mathfrak{g}^{\alpha}$, và tồn tại một $t_{\alpha}\in k^*$ sao cho $sx=t_{\alpha}x$ với mọi $x\in \mathfrak{g}^{\alpha}$. Viết điều kiện để $s\in$ Aut($\mathfrak{g}$), ta thu được các hệ thức
+c) Cho $s\in$ Ker$\varepsilon$. Khi đó $s|\mathfrak{h}=$ Id$_{\mathfrak{h}}$. Với mọi $\alpha \in R$, ta có $s(\mathfrak{g}^{\alpha}) =\mathfrak{g}^{\alpha}$, và tồn tại một $t_{\alpha}\in k^*$ sao cho $sx=t_{\alpha}x$ với mọi $x\in \mathfrak{g}^{\alpha}$. Viết điều kiện để $s\in$ Aut($\mathfrak{g}$), ta thu được các hệ thức
 
 $t_{\alpha}t_{-\alpha}= 1$ với mọi $\alpha \in R$
 
@@ -117,7 +117,7 @@ $t_{\alpha}t_{\beta}=t_{\alpha+\beta}$ khi $\alpha , \beta , \alpha +\beta \in R
 
 Trong các điều kiện này, tồn tại $\varphi \in T_Q$ sao cho $\varphi (\alpha ) =t_{\alpha}$ với mọi $\alpha \in R$ (Chương VI, §1, no. 6, Hệ quả 2 của Mệnh đề 19). Khi đó $s=f(\varphi )$. Do đó, Ker $\varepsilon \subset$ Im $f$.
 
-$d)$ Ảnh của Aut($\mathfrak{g},\mathfrak{h}$) qua $\varepsilon$ chứa W(R) theo §2, no. 2, Hệ quả của Định lý 2, và chứa Aut(R$,B$) theo Mệnh đề 1. Do đó ảnh này bằng A(R).
+d) Ảnh của Aut($\mathfrak{g},\mathfrak{h}$) qua $\varepsilon$ chứa W(R) theo §2, no. 2, Hệ quả của Định lý 2, và chứa Aut(R$,B$) theo Mệnh đề 1. Do đó ảnh này bằng A(R).
 
 #### Hệ quả 1 {#lie-viii-s5-prop-2-cor-1 .statement tag=011P}
 
@@ -195,19 +195,19 @@ nên $\chi |Q(R) =\psi^m$. Điều này chứng minh (i). Nếu $k$ đóng đạ
 
 Ta có $f(T_Q)\subset$Aut$_0(\mathfrak{g},\mathfrak{h})$ và $\varepsilon^{-1}(W(R)) =$ Aut$_0(\mathfrak{g},\mathfrak{h})$.
 
-$a)$ Cho $\varphi \in T_Q$ và cho $\overline{k}$ là một bao đóng đại số của $k$. Theo Bổ đề $3,\varphi$ kéo dài thành một phần tử của Hom(P(R)$, k^*$). Theo Mệnh đề 3,
+a) Cho $\varphi \in T_Q$ và cho $\overline{k}$ là một bao đóng đại số của $k$. Theo Bổ đề $3,\varphi$ kéo dài thành một phần tử của Hom(P(R)$, k^*$). Theo Mệnh đề 3,
 
 $f(\varphi )\otimes 1\in$ Aut$_e(\mathfrak{g}\otimes_k\overline{k},\mathfrak{h}\otimes_k\overline{k})$.
 
 Do đó $f(\varphi )\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$, và Ker $\varepsilon \subset$ Aut$_0(\mathfrak{g},\mathfrak{h})$.
 
-$b)$ Ảnh của Aut$_e(\mathfrak{g},\mathfrak{h})$ dưới $\varepsilon$ chứa W(R) (§2, no. 2, Hệ quả của Định lý 2). Theo $a)$, ta thấy rằng $\varepsilon^{-1}(W(R))\subset$ Aut$_0(\mathfrak{g},\mathfrak{h})$.
+b) Ảnh của Aut$_e(\mathfrak{g},\mathfrak{h})$ dưới $\varepsilon$ chứa W(R) (§2, no. 2, Hệ quả của Định lý 2). Theo a), ta thấy rằng $\varepsilon^{-1}(W(R))\subset$ Aut$_0(\mathfrak{g},\mathfrak{h})$.
 
-$c)$ Còn phải chứng minh rằng Aut$_0(\mathfrak{g},\mathfrak{h})\subset \varepsilon^{-1}(W(R))$. Theo $b)$, chỉ cần chứng minh rằng $\varepsilon$(Aut$_0(\mathfrak{g},\mathfrak{h})$)$\cap$ Aut(R$,B$), trong đó B chỉ một cơ sở của R, rút gọn thành $\{1\}$.
+c) Còn phải chứng minh rằng Aut$_0(\mathfrak{g},\mathfrak{h})\subset \varepsilon^{-1}(W(R))$. Theo b), chỉ cần chứng minh rằng $\varepsilon$(Aut$_0(\mathfrak{g},\mathfrak{h})$)$\cap$ Aut(R$,B$), trong đó B chỉ một cơ sở của R, rút gọn thành $\{1\}$.
 
 Cho $s\in$ Aut$_0(\mathfrak{g},\mathfrak{h})$ sao cho $\varepsilon (s)\in$ Aut(R$,B$). Nhóm con của A(R) được sinh bởi $\varepsilon (s)$ có một số hữu hạn quỹ đạo trên R. Cho U là một quỹ đạo như vậy, có lực lượng $r$, và $\mathfrak{g}^U=\sum_{\beta\in U}\mathfrak{g}^{\beta}$. Lấy $\beta_1\in U$, và đặt $\beta_i=\varepsilon (s)^{i-1}\beta_1$ với
 
-$1\leq i\leq r$, sao cho $U =\{\beta_1, . . . , \beta_r\}$. Gọi $X_{\beta_1}$ là một phần tử khác không của $\mathfrak{g}^{\beta_1}$, và đặt $X_{\beta_i}=s^{i-1}X_{\beta_1}$ với $1\leq i\leq r$. Tồn tại $c_U\in k^*$ sao cho $s^rX_{\beta_1}=$ $c_UX_{\beta_1}$, do đó $s^rX_{\beta_i}=c_UX_{\beta_i}$ với mọi $i$, và do đó $s^r|\mathfrak{g}^U=c_U.1$. Gọi $\varphi \in T_Q$, và $s'=s\circ f(\varphi )$, theo $a)$ thì đó là một phần tử của Aut$_0(\mathfrak{g},\mathfrak{h})$. Ta có ${s'}^r|\mathfrak{g}^U=c'_U.1$, trong đó
+$1\leq i\leq r$, sao cho $U =\{\beta_1, . . . , \beta_r\}$. Gọi $X_{\beta_1}$ là một phần tử khác không của $\mathfrak{g}^{\beta_1}$, và đặt $X_{\beta_i}=s^{i-1}X_{\beta_1}$ với $1\leq i\leq r$. Tồn tại $c_U\in k^*$ sao cho $s^rX_{\beta_1}=$ $c_UX_{\beta_1}$, do đó $s^rX_{\beta_i}=c_UX_{\beta_i}$ với mọi $i$, và do đó $s^r|\mathfrak{g}^U=c_U.1$. Gọi $\varphi \in T_Q$, và $s'=s\circ f(\varphi )$, theo a) thì đó là một phần tử của Aut$_0(\mathfrak{g},\mathfrak{h})$. Ta có ${s'}^r|\mathfrak{g}^U=c'_U.1$, trong đó
 
 $$
 c'_U=c_U\prod_{i=1}^r\varphi (\beta_i) =c_U\varphi (\sum_{i=1}^r\beta_i)

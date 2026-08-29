@@ -28,9 +28,9 @@ subsections:
       pdf_page: 88
 statements: 10
 exercises: 7
-content_sha256: cd87a5f1f6488f4ae5e2cc3707a1dd509720b39554a184a36590004d0b0bf1b5
+content_sha256: 2431819e4f257c9ba4aab1899aec2c3d53129edc302d992756cf4c1e4654e718
 translated_from: content/en/top/VII/02_s2_continuous_homomorphisms_of_mathbf_r_n.md
-source_content_sha256: 92b475781e2cf8088893813862965f43bc36bf3c5060161832b5e64d7459548d
+source_content_sha256: 8bac6f5f085612cbe2e567dc3d0ccfcfe4773748f05ca5e249aabb38593a949e
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-4b78a625
 glossary_version: 34
@@ -144,7 +144,7 @@ Xét các điều kiện để $f$ là một *đẳng cấu* của $\mathbf{T}^n
 $$
 f(\varphi(x)) = f(\varphi(0)) \quad \text{và} \quad \varphi(x) \neq \varphi(0),
 $$
-trái với giả thiết. Điều kiện này kéo theo $p \geq n$. Ảnh $u(\mathbf{Z}^n)$ khi đó là một nhóm con rời rạc hạng $n$ của nhóm $\mathbf{Z}^p$; các *nhân tử bất biến* của $u(\mathbf{Z}^n)$ đối với $\mathbf{Z}^p$ (\S 1, no. 1) phải đều bằng 1, nếu không sẽ tồn tại một điểm $x \in \mathbf{Z}^n$ và một số nguyên $k > 1$ sao cho $u(k^{-1}x) \in \mathbf{Z}^n$ và $k^{-1} \notin \mathbf{Z}^n$, do đó $f(\varphi(k^{-1}x)) = f(\varphi(0))$ và $\varphi(k^{-1}x) \neq \varphi(0)$, trái với giả thiết. Ngược lại, nếu điều kiện này được thỏa mãn, $u(\mathbf{R}^n) \cap \mathbf{Z}^n = u(\mathbf{Z}^n)$, và $f$ là một đẳng cấu của $\mathbf{T}^n$ lên $u(\mathbf{R}^n)/u(\mathbf{Z}^n)$.
+trái với giả thiết. Điều kiện này kéo theo $p \geq n$. Ảnh $u(\mathbf{Z}^n)$ khi đó là một nhóm con rời rạc hạng $n$ của nhóm $\mathbf{Z}^p$; các *nhân tử bất biến* của $u(\mathbf{Z}^n)$ đối với $\mathbf{Z}^p$ (§ 1, no. 1) phải đều bằng 1, nếu không sẽ tồn tại một điểm $x \in \mathbf{Z}^n$ và một số nguyên $k > 1$ sao cho $u(k^{-1}x) \in \mathbf{Z}^n$ và $k^{-1} \notin \mathbf{Z}^n$, do đó $f(\varphi(k^{-1}x)) = f(\varphi(0))$ và $\varphi(k^{-1}x) \neq \varphi(0)$, trái với giả thiết. Ngược lại, nếu điều kiện này được thỏa mãn, $u(\mathbf{R}^n) \cap \mathbf{Z}^n = u(\mathbf{Z}^n)$, và $f$ là một đẳng cấu của $\mathbf{T}^n$ lên $u(\mathbf{R}^n)/u(\mathbf{Z}^n)$.
 
 Nếu ta áp dụng lập luận này vào trường hợp $p = n$, ta có mệnh đề sau:
 
@@ -152,7 +152,7 @@ Nếu ta áp dụng lập luận này vào trường hợp $p = n$, ta có mện
 
 *Mọi đẳng cấu của nhóm tôpô $\mathbf{T}^n$ lên một trong các nhóm con của nó là một tự đẳng cấu của $\mathbf{T}^n$ thu được bằng cách chuyển qua thương từ một ánh xạ tuyến tính $u$ của $\mathbf{R}^n$ lên chính nó, ánh xạ này, hạn chế trên $\mathbf{Z}^n$, là một tự đẳng cấu của $\mathbf{Z}^n$.*
 
-Tương đương (\S 1, no. 1), nếu $u(e_i) = \sum_{j=1}^n a_{ij} e_j$, thì các $a_{ij}$ phải là các số nguyên sao cho $\det(a_{ij}) = \pm 1$. Đặc biệt, với $n = 1$:
+Tương đương (§ 1, no. 1), nếu $u(e_i) = \sum_{j=1}^n a_{ij} e_j$, thì các $a_{ij}$ phải là các số nguyên sao cho $\det(a_{ij}) = \pm 1$. Đặc biệt, với $n = 1$:
 
 #### Mệnh đề 6 {#top-vii-s2-prop-6 .statement}
 

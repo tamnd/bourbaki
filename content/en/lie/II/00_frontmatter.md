@@ -8,6 +8,7 @@ section_title: FREE LIE ALGEBRAS
 kind: front
 lang: en
 source: lie-i-iii
+book_pages: "111"
 pdf_pages: 0129-0129
 extraction: ocr
 statements: 0

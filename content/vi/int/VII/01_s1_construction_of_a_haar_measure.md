@@ -56,9 +56,9 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: 0e968180238781c68df628410a70360b5f09b8544543739b6c1d6f65f7b5f949
+content_sha256: 82e42d161d4f4680d84e47cb45de3f85ffdf038e5b86ba05f0f14303cf30c4ff
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
-source_content_sha256: bb2e4dac8054be7f706d40123e45594629215f3acd354e292ab7ac1b0ae9e17c
+source_content_sha256: f223846d7e283fe3e359c0fdab7593b17359f020a6953967222d4e06deabaf12
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-ae8ef630
 glossary_version: 34
@@ -554,7 +554,7 @@ Từ đó, suy ra ngay:
 
 Điều này hơn nữa là tầm thường khi G *giao hoán*. Chú ý thêm rằng nếu G *rời rạc*, thì độ đo trên G sao cho mỗi điểm có khối lượng 1 hiển nhiên là một độ đo Haar trái và phải trên G, gọi là độ đo Haar *chuẩn hóa* trên G. Nếu G *compact*, thì tồn tại một và chỉ một độ đo Haar trên G sao cho $\mu(G) = 1$; nó được gọi là độ đo Haar *chuẩn hóa* của G. Hai quy ước trên không phù hợp với nhau khi G vừa rời rạc vừa compact, tức là hữu hạn; trong trường hợp này ta sẽ luôn nói tường minh ý nghĩa của độ đo Haar chuẩn hóa.
 
-Các nhóm con và các nhóm thương của một nhóm đơn môđula không phải luôn luôn đơn môđula (\S 2, Bài tập 5). Tuy nhiên, xem Mệnh đề 10 của \S 2, Mục 7.
+Các nhóm con và các nhóm thương của một nhóm đơn môđula không phải luôn luôn đơn môđula (§ 2, Bài tập 5). Tuy nhiên, xem Mệnh đề 10 của § 2, Mục 7.
 
 *Sau này ta sẽ thấy rằng các nhóm Lie liên thông nửa đơn hoặc lũy linh là đơn môđula.*
 
@@ -770,7 +770,7 @@ Các khái niệm về hàm không đáng kể, hàm không đáng kể địa p
 
 Điều kiện đủ là hiển nhiên. Cho $\nu \neq 0$ là một độ đo nửa bất biến trái, và ta hãy chứng minh rằng $\nu$ tương đương với $\mu$. Ta có thể chỉ xét trường hợp $\nu > 0$. Cho A là một tập con compact của G. Ta sẽ chứng minh, và điều đó sẽ thiết lập mệnh đề, rằng các điều kiện $\mu(A) = 0$, $\nu(A) = 0$ là tương đương (Chương V, §5, No. 5, Định lý 2).
 
-$a)$ Với mọi $f \in \mathcal{K}_+(G)$, hàm $(x, y) \mapsto f(x)\varphi_A(xy)$ trên $G \times G$ là khả tích $(\nu \otimes \mu)$, vì nó là nửa liên tục trên, bị chặn, và giá đỡ của nó được chứa trong tập compact $K \times K^{-1}A$ nếu đặt $K = \operatorname{Supp} f$. Do đó, theo định lý Lebesgue–Fubini,
+a) Với mọi $f \in \mathcal{K}_+(G)$, hàm $(x, y) \mapsto f(x)\varphi_A(xy)$ trên $G \times G$ là khả tích $(\nu \otimes \mu)$, vì nó là nửa liên tục trên, bị chặn, và giá đỡ của nó được chứa trong tập compact $K \times K^{-1}A$ nếu đặt $K = \operatorname{Supp} f$. Do đó, theo định lý Lebesgue–Fubini,
 
 $$
 \int d\nu(y) \int \varphi_A(xy)f(x)\,d\mu(x) = \int f(x)\,d\mu(x) \int \varphi_A(xy)\,d\nu(y).

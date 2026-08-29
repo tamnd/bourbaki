@@ -7,20 +7,21 @@ section: 2
 section_title: EULERIAN EXPANSIONS OF THE TRIGONOMETRIC FUNCTIONS AND BERNOULLI NUMBERS
 lang: en
 source: fvr-i-vii
+book_pages: 283-288, 292-296
 pdf_pages: 0298-0303, 0307-0311
 extraction: ocr
 subsections:
     - "no": 1
       title: EULERIAN EXPANSION OF $\cot z$
-      page: 0
+      page: 283
       pdf_page: 298
     - "no": 2
       title: EULERIAN EXPANSION OF $\sin z$
-      page: 0
+      page: 286
       pdf_page: 301
     - "no": 3
       title: APPLICATION TO THE BERNOULLI NUMBERS
-      page: 0
+      page: 287
       pdf_page: 302
 statements: 5
 exercises: 1

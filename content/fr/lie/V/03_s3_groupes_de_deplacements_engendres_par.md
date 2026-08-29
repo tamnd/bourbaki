@@ -52,7 +52,7 @@ subsections:
       pdf_page: 86
 statements: 35
 exercises: 8
-content_sha256: e977c875824e5339c38db46533a873c2d3517274e8e7c3f31d275c1d4c688bf1
+content_sha256: 32c5fa5d54403ea1e812a7f9bdde4e4f8cf337e86cc33a4c4cc2b637fe2acbee
 ---
 
 ## § 3. Groupes de déplacements engendrés par des réflexions
@@ -183,13 +183,13 @@ Nous raisonnons par récurrence sur la longueur q de w (relativement à l’ense
 
 Démonstration du théorème 2 : il résulte de (I) et du lemme 2.
 
-Démonstration de la proposition 1 : on sait que deux facettes distinctes sont disjointes et ont des adhérences distinctes (\S 1, n° 2, cor. de la prop. 3). L’équivalence de (i), (ii) et (iii) en résulte. D’autre part, il est clair que
+Démonstration de la proposition 1 : on sait que deux facettes distinctes sont disjointes et ont des adhérences distinctes (§ 1, n° 2, cor. de la prop. 3). L’équivalence de (i), (ii) et (iii) en résulte. D’autre part, il est clair que
 
 (vii) $\Longrightarrow$ (vi) $\Longrightarrow$ (v) $\Longrightarrow$ (iv) $\Longrightarrow$ (i)
 
 et l’assertion (I) montre que (i) $\Longrightarrow$ (vii).
 
-Démonstration de la proposition 2 : soit $A''$ le sous-espace affine de E engendré par A. On a évidemment $W(A) = W(A'')$. D’après la prop. 7 du \S 1, n° 3, il existe un point $x \in A''$ n’appartenant à aucun hyperplan $H \in \mathfrak{H} - \mathfrak{H}_A$. Soit $F_x$ la facette contenant $x$ : elle est ouverte dans $A''$ et la prop. 1 montre que
+Démonstration de la proposition 2 : soit $A''$ le sous-espace affine de E engendré par A. On a évidemment $W(A) = W(A'')$. D’après la prop. 7 du § 1, n° 3, il existe un point $x \in A''$ n’appartenant à aucun hyperplan $H \in \mathfrak{H} - \mathfrak{H}_A$. Soit $F_x$ la facette contenant $x$ : elle est ouverte dans $A''$ et la prop. 1 montre que
 
 $$
 W(F_x) \subset W(A') \subset W(A) = W(A'') \subset W(\{x\}) = W(F_x)
@@ -241,13 +241,13 @@ $$
 
 (iii) On a (e_i|e_j) \leq 0.
 
-Si H_i et H_j sont parallèles, s_i s_j est une translation (\S 2, no 4, prop. 5), d’où m_{ij} = \infty. De plus, on a ou bien e_i = e_j, ou bien e_i = -e_j. Or il existe un point a (resp. a’) adhérent à C et appartenant à H_i (resp. H_j), mais n’appartenant pas à H_j (resp. H_i). On a alors (a’ - a|e_i) > 0 et (a - a’|e_j) > 0, ce qui exclut le cas e_i = e_j et démontre (i).
+Si H_i et H_j sont parallèles, s_i s_j est une translation (§ 2, no 4, prop. 5), d’où m_{ij} = \infty. De plus, on a ou bien e_i = e_j, ou bien e_i = -e_j. Or il existe un point a (resp. a’) adhérent à C et appartenant à H_i (resp. H_j), mais n’appartenant pas à H_j (resp. H_i). On a alors (a’ - a|e_i) > 0 et (a - a’|e_j) > 0, ce qui exclut le cas e_i = e_j et démontre (i).
 
-Supposons maintenant que H_i et H_j ne soient pas parallèles. Choisissons une origine a \in H_i \cap H_j et identifions T et E par la bijection t \mapsto a + t. Soit V le plan orthogonal à H_i \cap H_j passant par a. Posons \Gamma = V \cap D_{H_i}(C) \cap D_{H_j}(C) (où D_H(C) désigne le demi-espace ouvert limité par H et contenant C (\S 1, no 1)) et soit D (resp. D’) la demi-droite de V portée par H_i \cap V (resp. H_j \cap V) et contenue dans l’adhérence de \Gamma. Pour une orientation convenable de V l’ensemble \Gamma est la réunion des demi-droites ouvertes \Delta de V telles que
+Supposons maintenant que H_i et H_j ne soient pas parallèles. Choisissons une origine a \in H_i \cap H_j et identifions T et E par la bijection t \mapsto a + t. Soit V le plan orthogonal à H_i \cap H_j passant par a. Posons \Gamma = V \cap D_{H_i}(C) \cap D_{H_j}(C) (où D_H(C) désigne le demi-espace ouvert limité par H et contenant C (§ 1, no 1)) et soit D (resp. D’) la demi-droite de V portée par H_i \cap V (resp. H_j \cap V) et contenue dans l’adhérence de \Gamma. Pour une orientation convenable de V l’ensemble \Gamma est la réunion des demi-droites ouvertes \Delta de V telles que
 
 $$ 0 < (\overline{D, \Delta}) < (\overline{D, D'}) . $$
 
-Soit W’ le sous-groupe de W engendré par s_i et s_j. Pour tout w \in W’, les hyperplans w(H_i) et w(H_j) appartiennent à \mathcal{S}, contiennent H_i \cap H_j et ne rencontrent pas C. Il en résulte qu’ils ne rencontrent pas \Gamma (\S 1, no 5, prop. 10). Le cor. de la prop. 7 du \S 2, no 5 entraîne alors (ii).
+Soit W’ le sous-groupe de W engendré par s_i et s_j. Pour tout w \in W’, les hyperplans w(H_i) et w(H_j) appartiennent à \mathcal{S}, contiennent H_i \cap H_j et ne rencontrent pas C. Il en résulte qu’ils ne rencontrent pas \Gamma (§ 1, no 5, prop. 10). Le cor. de la prop. 7 du § 2, no 5 entraîne alors (ii).
 
 Enfin, l’assertion (iii) résulte immédiatement de (i) et (ii), puisque m_{ij} \geq 2 pour i \neq j.
 
@@ -289,7 +289,7 @@ Alors :
 
 Comme $q$ est une forme quadratique positive, le noyau $N$ de $q$ est l’ensemble des vecteurs isotropes pour $q$ (Alg., chap. IX, § 7, no 1, cor. de la prop. 2). Soit $a_1, \ldots, a_n$ la base canonique de $\mathbf{R}^n$. Si $\sum_i c_i a_i \in N$, le lemme 3 montre que l’on a aussi $\sum_i |c_i| \cdot a_i \in N$, d’où $\sum_i q_{ji}|c_i| = 0$ pour tout $j$. Soit alors $I$ l’ensemble des $i$ tels que $c_i \neq 0$. Si $j \notin I$, on a $q_{ji}|c_i| \leq 0$ pour $i \in I$ et $q_{ji}|c_i| = 0$ pour $i \notin I$, d’où $q_{ji} = 0$ pour $j \notin I$ et $i \in I$. L’hypothèse b) entraîne donc que ou bien $I = \varnothing$, ou bien $I = \{1, \ldots, n\}$. Par suite, tout vecteur non nul de $N$ a toutes ses coordonnées $\neq 0$. Si on avait $\dim N \geq 2$, l’intersection de $N$ et de l’hyperplan d’équation $x_i = 0$ serait de dimension $\geq 1$, contrairement à ce que l’on vient de voir. En outre, ce qui précède montre que, si $\dim N = 1$, alors $N$ contient un vecteur de coordonnées toutes $> 0$. Ceci achève la démonstration de (i).
 
-D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap. IX, § 7, no 3, prop. 5) et positives puisque $q$ est positive. Soit $\lambda$ la plus petite d’entre elles. La matrice $Q' = Q - \lambda I_n$ est alors la matrice d’une forme positive dégénérée $q'$ et les éléments non diagonaux de $Q'$ sont les mêmes que ceux de $Q$. Par suite, $Q'$ satisfait aux conditions $a), b)$ et $c)$ de l’énoncé. Comme le noyau $N'$ de $q'$ est le sous-espace propre de $Q$ correspondant à la valeur propre $\lambda$, l’assertion (ii) résulte de (i).
+D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap. IX, § 7, no 3, prop. 5) et positives puisque $q$ est positive. Soit $\lambda$ la plus petite d’entre elles. La matrice $Q' = Q - \lambda I_n$ est alors la matrice d’une forme positive dégénérée $q'$ et les éléments non diagonaux de $Q'$ sont les mêmes que ceux de $Q$. Par suite, $Q'$ satisfait aux conditions $a), b)$ et c) de l’énoncé. Comme le noyau $N'$ de $q'$ est le sous-espace propre de $Q$ correspondant à la valeur propre $\lambda$, l’assertion (ii) résulte de (i).
 
 #### Lemme 5 {#lie-v-s3-lem-5 .statement}
 
@@ -300,7 +300,7 @@ D’autre part, on sait que les valeurs propres de $Q$ sont réelles (Alg., chap
         1) $(e_1, \ldots, e_n)$ est une base de $T;$
         2) $n = \dim T + 1;$ *il existe une famille $(c_i)_{1 \leq i \leq n}$ de nombres réels $> 0$ tels que $\sum_i c_i e_i = 0,$ et toute famille $(c'_i)_{1 \leq i \leq n}$ de nombres réels tels que $\sum_i c'_i e_i = 0$ est proportionnelle à $(c_i)_{1 \leq i \leq n}$.*
 
-    Posons $q_{ij} = (e_i|e_j)$. La matrice $Q = (q_{ij})$ satisfait alors aux hypothèses du lemme 4 : les conditions $a)$ et $b)$ du lemme 4 sont les mêmes que les conditions $a)$ et $b)$ ci-dessus, et $c)$ est satisfaite puisque $\sum_{i,j} q_{ij} x_i x_j = \sum_i ||x_i e_i||^2$. Le noyau $N$ de la forme quadratique $q$ sur $\mathbf{R}^n$, de matrice $Q$, est l’ensemble des $(c_1, \ldots, c_n) \in \mathbf{R}^n$ tels que $\sum_i c_i e_i = 0$. Si $N = \{0\}$, les $e_i$ sont linéairement indépendants et l’on est dans le cas 1). Si $\dim N > 0$, le lemme 4 (i) montre que l’on est dans le cas 2).
+    Posons $q_{ij} = (e_i|e_j)$. La matrice $Q = (q_{ij})$ satisfait alors aux hypothèses du lemme 4 : les conditions a) et b) du lemme 4 sont les mêmes que les conditions a) et b) ci-dessus, et c) est satisfaite puisque $\sum_{i,j} q_{ij} x_i x_j = \sum_i ||x_i e_i||^2$. Le noyau $N$ de la forme quadratique $q$ sur $\mathbf{R}^n$, de matrice $Q$, est l’ensemble des $(c_1, \ldots, c_n) \in \mathbf{R}^n$ tels que $\sum_i c_i e_i = 0$. Si $N = \{0\}$, les $e_i$ sont linéairement indépendants et l’on est dans le cas 1). Si $\dim N > 0$, le lemme 4 (i) montre que l’on est dans le cas 2).
 
 #### Lemme 6 {#lie-v-s3-lem-6 .statement}
 
@@ -344,7 +344,7 @@ On définit ainsi un homomorphisme $U$ du groupe W dans le groupe orthogonal de 
 (ii) *L’ensemble des directions des hyperplans appartenant à $\mathfrak{H}$ est fini.*
 (iii) *Le groupe $U(W)$ est fini.*
 
-L’assertion (i) résulte aussitôt de la prop. 3, (iii) et du lemme 7. Démontrons (ii). Soient C une chambre et $\mathfrak{M}$ l’ensemble de ses murs. Les facettes de $\overline{C}$ (relativement à $\mathfrak{H}$) sont les mêmes que celles relativement à $\mathfrak{M}$ ($\S 1$, no 4, prop. 9). Puisque $\mathfrak{M}$ est fini, elles sont en nombre fini. Comme une facette ne rencontre qu’un nombre fini d’hyperplans appartenant à $\mathfrak{H}$, l’ensemble des hyperplans appartenant à $\mathfrak{H}$ et rencontrant $\overline{C}$ est fini, ainsi que l’ensemble $A(C)$ des vecteurs unitaires de T orthogonaux à un hyperplan appartenant à $\mathfrak{H}$ et rencontrant $\overline{C}$. Par suite, il existe un nombre réel $\lambda < 1$ tel que $(a|a') \leq \lambda$ pour $a, a' \in A(C)$ et $a \neq a'$.
+L’assertion (i) résulte aussitôt de la prop. 3, (iii) et du lemme 7. Démontrons (ii). Soient C une chambre et $\mathfrak{M}$ l’ensemble de ses murs. Les facettes de $\overline{C}$ (relativement à $\mathfrak{H}$) sont les mêmes que celles relativement à $\mathfrak{M}$ ($§ 1$, no 4, prop. 9). Puisque $\mathfrak{M}$ est fini, elles sont en nombre fini. Comme une facette ne rencontre qu’un nombre fini d’hyperplans appartenant à $\mathfrak{H}$, l’ensemble des hyperplans appartenant à $\mathfrak{H}$ et rencontrant $\overline{C}$ est fini, ainsi que l’ensemble $A(C)$ des vecteurs unitaires de T orthogonaux à un hyperplan appartenant à $\mathfrak{H}$ et rencontrant $\overline{C}$. Par suite, il existe un nombre réel $\lambda < 1$ tel que $(a|a') \leq \lambda$ pour $a, a' \in A(C)$ et $a \neq a'$.
 
 Soit alors A l’ensemble des vecteurs unitaires de T qui sont orthogonaux à un hyperplan appartenant à $\mathfrak{H}$. Soient $a, a' \in A$ avec $a \neq a'$. Si $a$ et $a'$ sont parallèles, on a $a = -a'$ et $(a|a') = -1$. Sinon, soit $H \in \mathfrak{H}$ (resp. $H' \in \mathfrak{H}$) tel que $a$ (resp. $a'$) soit orthogonal à $H$ (resp. $H'$). On a $H \cap H' \neq \emptyset$, et si $x \in H \cap H'$, il existe un élément $w \in W$ tel que $x \in w(\overline{C})$. Les vecteurs $U(w).a$ et $U(w).a'$ appartiennent alors à $A(C)$, l’on a :
 
@@ -413,7 +413,7 @@ $$
 
 L’assertion (i) résulte du chap. IV, § 1, n° 9. D’autre part, nous avons déjà vu que les sous-espaces $T_p$ sont invariants par $U(W)$, et il en est de même de $T_0$. Soit C une chambre; comme $W_p$ est engendré par les réflexions $s_i(C)$ pour $i \in J_p$, il est clair que $T'_p$ est le sous-espace orthogonal aux $e_i(C)$ pour $i \in J_p$, d’où (iv). Par ailleurs, si $i \in J_p, j \in J_q$ avec $p \neq q$, on a $m_{ij} = 2$ puisque $\{i, j\}$ n’est pas une arête du graphe de Coxeter de W, d’où $(e_i|e_j) = 0$. On en déduit aussitôt (ii). L’assertion (iii) en résulte, puisque $T'_q$ est l’orthogonal de $T_q$.
 
-Enfin, soit V un sous-espace de $T_p$ invariant par $U(W_p)$. Pour tout $i \in J_p$, ou bien on a $e_i \in V$, ou bien $e_i$ est orthogonal à V ($\S 2$, n° 2, prop. 3). Soit A (resp. B) l’ensemble des $i \in J_p$ tels que $e_i \in V$ (resp. $e_i$ orthogonal à V). On a évidemment $(e_i|e_j) = 0$ pour $i \in A$ et $j \in B$, et puisque $J_p$ est connexe, on en déduit, ou bien $A = \emptyset$ et $V = \{0\}$, ou bien $A = J_p$ et $V = T_p$. Par suite, la représentation de $W_p$ dans $T_p$ est irréductible, donc absolument irréductible ($\S 2$, n° 1, prop. 1). Elle est non triviale par définition même de $T_p$. Enfin, la dernière assertion de (v) résulte aussitôt de (iii).
+Enfin, soit V un sous-espace de $T_p$ invariant par $U(W_p)$. Pour tout $i \in J_p$, ou bien on a $e_i \in V$, ou bien $e_i$ est orthogonal à V ($§ 2$, n° 2, prop. 3). Soit A (resp. B) l’ensemble des $i \in J_p$ tels que $e_i \in V$ (resp. $e_i$ orthogonal à V). On a évidemment $(e_i|e_j) = 0$ pour $i \in A$ et $j \in B$, et puisque $J_p$ est connexe, on en déduit, ou bien $A = \emptyset$ et $V = \{0\}$, ou bien $A = J_p$ et $V = T_p$. Par suite, la représentation de $W_p$ dans $T_p$ est irréductible, donc absolument irréductible ($§ 2$, n° 1, prop. 1). Elle est non triviale par définition même de $T_p$. Enfin, la dernière assertion de (v) résulte aussitôt de (iii).
 
 On dit que W est essentiel si le sous-espace T_0 des vecteurs de T invariants par U(W) est réduit à {0}; on dit que W est irréductible si la représentation U de W dans T est irréductible.
 
@@ -565,7 +565,7 @@ Il est clair que (i) $\iff$ (ii), puisque $L$ est le noyau de $U$ et que $L \cap
 
 Admettons (i) et soit $H \in \mathfrak{S}$; on a $s_H \in W_a . L$ et il existe donc un vecteur $t \in \Lambda$ tel que $a = s_H(a) + t$; le vecteur $t$ est orthogonal à $H$, et si $H' = H + \frac{1}{2} t$ on a $s_{H'}(x) = s_H(x) + t$ pour tout $x \in E$ (cf. § 2, no 4, prop. 5). Comme on a $t \in \Lambda$ et $s_H \in W$, on a $s_{H'} \in W$, d’où $H' \in \mathfrak{S}$; on a aussi $a = s_{H'}(a)$, d’où $a \in H'$. Donc (i) implique (iii).
 
-Admettons (iii). Soit $H \in \mathfrak{S}$; prenons $H'$ comme dans (iii). Alors $s_{H'}(a) = a$, d’où $s_{H'} \in W_a$; comme $H$ est parallèle à $H'$, l’élément $w = s_{H'} s_H$ de $W$ est une translation (\$ 2, no 4, prop. 5), d’où $w \in L$; on a alors $s_H = s_{H'} w \in W_a . L$. Comme $W$ est engendré par la famille $(s_H)_{H \in \mathfrak{S}}$, on a donc $W = W_a . L$ et (iii) implique (i).
+Admettons (iii). Soit $H \in \mathfrak{S}$; prenons $H'$ comme dans (iii). Alors $s_{H'}(a) = a$, d’où $s_{H'} \in W_a$; comme $H$ est parallèle à $H'$, l’élément $w = s_{H'} s_H$ de $W$ est une translation (§ 2, no 4, prop. 5), d’où $w \in L$; on a alors $s_H = s_{H'} w \in W_a . L$. Comme $W$ est engendré par la famille $(s_H)_{H \in \mathfrak{S}}$, on a donc $W = W_a . L$ et (iii) implique (i).
 
 #### Définition 1 {#lie-v-s3-def-1 .statement}
 

@@ -5221,7 +5221,7 @@
         },
         {
           "chapter": "VII",
-          "title": "The additive groups $ \\mathbf{R}^n $",
+          "title": "The additive groups $\\mathbf{R}^n$",
           "total": 24,
           "sections": [
             {
@@ -5412,6 +5412,1249 @@
           "title": "Formes sesquilinéaires et formes quadratiques",
           "total": 0,
           "sections": null
+        }
+      ]
+    },
+    {
+      "id": "alg-i-iii-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "STRUCTURES ALGÉBRIQUES",
+          "total": 218,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-i-s1",
+              "dir": "s1",
+              "count": 16,
+              "first": 1,
+              "last": 16
+            },
+            {
+              "section": 2,
+              "label": "alg-i-s2",
+              "dir": "s2",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 5
+            },
+            {
+              "section": 3,
+              "label": "alg-i-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 3
+            },
+            {
+              "section": 4,
+              "label": "alg-i-s4",
+              "dir": "s4",
+              "count": 26,
+              "first": 1,
+              "last": 26,
+              "starred": 9
+            },
+            {
+              "section": 5,
+              "label": "alg-i-s5",
+              "dir": "s5",
+              "count": 29,
+              "first": 1,
+              "last": 29,
+              "starred": 9
+            },
+            {
+              "section": 6,
+              "label": "alg-i-s6",
+              "dir": "s6",
+              "count": 41,
+              "first": 1,
+              "last": 41,
+              "starred": 15
+            },
+            {
+              "section": 7,
+              "label": "alg-i-s7",
+              "dir": "s7",
+              "count": 40,
+              "first": 1,
+              "last": 40,
+              "starred": 13
+            },
+            {
+              "section": 8,
+              "label": "alg-i-s8",
+              "dir": "s8",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "alg-i-s9",
+              "dir": "s9",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "starred": 2
+            },
+            {
+              "section": 10,
+              "label": "alg-i-s10",
+              "dir": "s10",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "ALGÈBRE LINÉAIRE",
+          "total": 157,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-ii-s1",
+              "dir": "s1",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 2,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-ii-s2",
+              "dir": "s2",
+              "count": 24,
+              "first": 1,
+              "last": 24,
+              "starred": 10
+            },
+            {
+              "section": 3,
+              "label": "alg-ii-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "alg-ii-s4",
+              "dir": "s4",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 1
+            },
+            {
+              "section": 5,
+              "label": "alg-ii-s5",
+              "dir": "s5",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 6,
+              "label": "alg-ii-s6",
+              "dir": "s6",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 7,
+              "label": "alg-ii-s7",
+              "dir": "s7",
+              "count": 39,
+              "first": 1,
+              "last": 39,
+              "starred": 8,
+              "supplementary": 2
+            },
+            {
+              "section": 8,
+              "label": "alg-ii-s8",
+              "dir": "s8",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "alg-ii-s9",
+              "dir": "s9",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 2,
+              "supplementary": 6
+            },
+            {
+              "section": 10,
+              "label": "alg-ii-s10",
+              "dir": "s10",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 6
+            },
+            {
+              "section": 11,
+              "label": "alg-ii-s11",
+              "dir": "s11",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "alg-ii-a0",
+              "dir": "a0",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "ALGÈBRES TENSORIELLES, ALGÈBRES EXTÉRIEURES, ALGÈBRES SYMÉTRIQUES",
+          "total": 100,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-iii-s1",
+              "dir": "s1",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-iii-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 3,
+              "label": "alg-iii-s3",
+              "dir": "s3",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 4,
+              "label": "alg-iii-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 2
+            },
+            {
+              "section": 5,
+              "label": "alg-iii-s5",
+              "dir": "s5",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 5
+            },
+            {
+              "section": 6,
+              "label": "alg-iii-s6",
+              "dir": "s6",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 2
+            },
+            {
+              "section": 7,
+              "label": "alg-iii-s7",
+              "dir": "s7",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 5
+            },
+            {
+              "section": 8,
+              "label": "alg-iii-s8",
+              "dir": "s8",
+              "count": 26,
+              "first": 1,
+              "last": 26,
+              "starred": 3
+            },
+            {
+              "section": 9,
+              "label": "alg-iii-s9",
+              "dir": "s9",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 10,
+              "label": "alg-iii-s10",
+              "dir": "s10",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1,
+              "supplementary": 1
+            },
+            {
+              "section": 11,
+              "label": "alg-iii-s11",
+              "dir": "s11",
+              "count": 27,
+              "first": 1,
+              "last": 27,
+              "starred": 2
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "alg-iii-a0",
+              "dir": "a0",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac-i-iv-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "Modules plats",
+          "total": 33,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-i-s1",
+              "dir": "s1",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 2,
+              "label": "ac-i-s2",
+              "dir": "s2",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 4
+            },
+            {
+              "section": 3,
+              "label": "ac-i-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            },
+            {
+              "section": 4,
+              "label": "ac-i-s4",
+              "dir": "s4",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "Localisation",
+          "total": 87,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-ii-s1",
+              "dir": "s1",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "ac-ii-s2",
+              "dir": "s2",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 2
+            },
+            {
+              "section": 3,
+              "label": "ac-ii-s3",
+              "dir": "s3",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 4
+            },
+            {
+              "section": 4,
+              "label": "ac-ii-s4",
+              "dir": "s4",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 2
+            },
+            {
+              "section": 5,
+              "label": "ac-ii-s5",
+              "dir": "s5",
+              "count": 25,
+              "first": 1,
+              "last": 25,
+              "starred": 10
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "Graduations, filtrations et topologies",
+          "total": 57,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-iii-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 2,
+              "label": "ac-iii-s2",
+              "dir": "s2",
+              "count": 31,
+              "first": 1,
+              "last": 31,
+              "starred": 10
+            },
+            {
+              "section": 3,
+              "label": "ac-iii-s3",
+              "dir": "s3",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 2,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "ac-iii-s4",
+              "dir": "s4",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 3
+            },
+            {
+              "section": 5,
+              "label": "ac-iii-s5",
+              "dir": "s5",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 2
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "Idéaux premiers associés et décomposition primaire",
+          "total": 57,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-iv-s1",
+              "dir": "s1",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 2,
+              "supplementary": 2
+            },
+            {
+              "section": 2,
+              "label": "ac-iv-s2",
+              "dir": "s2",
+              "count": 35,
+              "first": 1,
+              "last": 35,
+              "starred": 13,
+              "supplementary": 2
+            },
+            {
+              "section": 3,
+              "label": "ac-iv-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-i-iv-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "STRUCTURES TOPOLOGIQUES",
+          "total": 196,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-i-s1",
+              "dir": "s1",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            },
+            {
+              "section": 2,
+              "label": "top-i-s2",
+              "dir": "s2",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 4
+            },
+            {
+              "section": 3,
+              "label": "top-i-s3",
+              "dir": "s3",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 1,
+              "supplementary": 2
+            },
+            {
+              "section": 4,
+              "label": "top-i-s4",
+              "dir": "s4",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 2
+            },
+            {
+              "section": 5,
+              "label": "top-i-s5",
+              "dir": "s5",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "supplementary": 2
+            },
+            {
+              "section": 6,
+              "label": "top-i-s6",
+              "dir": "s6",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "starred": 4
+            },
+            {
+              "section": 7,
+              "label": "top-i-s7",
+              "dir": "s7",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 8,
+              "label": "top-i-s8",
+              "dir": "s8",
+              "count": 29,
+              "first": 1,
+              "last": 29,
+              "starred": 4,
+              "supplementary": 6
+            },
+            {
+              "section": 9,
+              "label": "top-i-s9",
+              "dir": "s9",
+              "count": 31,
+              "first": 1,
+              "last": 31,
+              "starred": 15
+            },
+            {
+              "section": 10,
+              "label": "top-i-s10",
+              "dir": "s10",
+              "count": 25,
+              "first": 1,
+              "last": 25,
+              "starred": 13,
+              "supplementary": 2
+            },
+            {
+              "section": 11,
+              "label": "top-i-s11",
+              "dir": "s11",
+              "count": 29,
+              "first": 1,
+              "last": 29,
+              "starred": 9,
+              "supplementary": 7
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "STRUCTURES UNIFORMES",
+          "total": 44,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-ii-s1",
+              "dir": "s1",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1,
+              "supplementary": 2
+            },
+            {
+              "section": 2,
+              "label": "top-ii-s2",
+              "dir": "s2",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "top-ii-s3",
+              "dir": "s3",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 2,
+              "supplementary": 2
+            },
+            {
+              "section": 4,
+              "label": "top-ii-s4",
+              "dir": "s4",
+              "count": 26,
+              "first": 1,
+              "last": 26,
+              "starred": 7,
+              "supplementary": 1
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "GROUPES TOPOLOGIQUES",
+          "total": 118,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-iii-s1",
+              "dir": "s1",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 1,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "top-iii-s2",
+              "dir": "s2",
+              "count": 31,
+              "first": 1,
+              "last": 31,
+              "starred": 9,
+              "supplementary": 3
+            },
+            {
+              "section": 3,
+              "label": "top-iii-s3",
+              "dir": "s3",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "supplementary": 2
+            },
+            {
+              "section": 4,
+              "label": "top-iii-s4",
+              "dir": "s4",
+              "count": 25,
+              "first": 1,
+              "last": 25,
+              "starred": 9,
+              "supplementary": 2
+            },
+            {
+              "section": 5,
+              "label": "top-iii-s5",
+              "dir": "s5",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 3
+            },
+            {
+              "section": 6,
+              "label": "top-iii-s6",
+              "dir": "s6",
+              "count": 29,
+              "first": 1,
+              "last": 29,
+              "starred": 9
+            },
+            {
+              "section": 7,
+              "label": "top-iii-s7",
+              "dir": "s7",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 2,
+              "supplementary": 1
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "NOMBRES RÉELS",
+          "total": 103,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-iv-s1",
+              "dir": "s1",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "top-iv-s2",
+              "dir": "s2",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 9
+            },
+            {
+              "section": 3,
+              "label": "top-iv-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "top-iv-s4",
+              "dir": "s4",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 1
+            },
+            {
+              "section": 5,
+              "label": "top-iv-s5",
+              "dir": "s5",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 4
+            },
+            {
+              "section": 6,
+              "label": "top-iv-s6",
+              "dir": "s6",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 7
+            },
+            {
+              "section": 7,
+              "label": "top-iv-s7",
+              "dir": "s7",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 3
+            },
+            {
+              "section": 8,
+              "label": "top-iv-s8",
+              "dir": "s8",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "starred": 8,
+              "supplementary": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alg-x-fr",
+      "chapters": [
+        {
+          "chapter": "X",
+          "title": "ALGÈBRE HOMOLOGIQUE",
+          "total": 132,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-x-s1",
+              "dir": "s1",
+              "count": 17,
+              "first": 1,
+              "last": 17,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-x-s2",
+              "dir": "s2",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "alg-x-s3",
+              "dir": "s3",
+              "count": 19,
+              "first": 1,
+              "last": 19,
+              "starred": 1,
+              "supplementary": 2
+            },
+            {
+              "section": 4,
+              "label": "alg-x-s4",
+              "dir": "s4",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 5,
+              "label": "alg-x-s5",
+              "dir": "s5",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 6,
+              "label": "alg-x-s6",
+              "dir": "s6",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 1
+            },
+            {
+              "section": 7,
+              "label": "alg-x-s7",
+              "dir": "s7",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 3,
+              "supplementary": 1
+            },
+            {
+              "section": 8,
+              "label": "alg-x-s8",
+              "dir": "s8",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 3
+            },
+            {
+              "section": 9,
+              "label": "alg-x-s9",
+              "dir": "s9",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-i-iv-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "Inégalités de convexité",
+          "total": 0,
+          "sections": null
+        },
+        {
+          "chapter": "II",
+          "title": "Espaces de Riesz",
+          "total": 23,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-ii-s1",
+              "dir": "s1",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "starred": 3
+            },
+            {
+              "section": 2,
+              "label": "int-ii-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 6
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "Mesures sur les espaces localement compacts",
+          "total": 14,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-iii-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "int-iii-s2",
+              "dir": "s2",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "int-iii-s3",
+              "dir": "s3",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 4,
+              "label": "int-iii-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "Prolongement d'une mesure. Espaces $L^p$",
+          "total": 69,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-iv-s1",
+              "dir": "s1",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 3,
+              "label": "int-iv-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 4,
+              "label": "int-iv-s4",
+              "dir": "s4",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 5,
+              "label": "int-iv-s5",
+              "dir": "s5",
+              "count": 30,
+              "first": 1,
+              "last": 30,
+              "starred": 13
+            },
+            {
+              "section": 6,
+              "label": "int-iv-s6",
+              "dir": "s6",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "starred": 8
+            },
+            {
+              "section": 7,
+              "label": "int-iv-s7",
+              "dir": "s7",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "var-fr",
+      "chapters": [
+        {
+          "chapter": "1",
+          "title": "VARIÉTÉS DIFFÉRENTIELLES ET ANALYTIQUES, FASCICULE DE RÉSULTATS",
+          "total": 0,
+          "sections": null
+        }
+      ]
+    },
+    {
+      "id": "hist-fr",
+      "chapters": [
+        {
+          "chapter": "1",
+          "title": "ÉLÉMENTS D'HISTOIRE DES MATHÉMATIQUES",
+          "total": 0,
+          "sections": null
+        }
+      ]
+    },
+    {
+      "id": "hist",
+      "chapters": [
+        {
+          "chapter": "1",
+          "title": "ELEMENTS OF THE HISTORY OF MATHEMATICS",
+          "total": 0,
+          "sections": null
+        }
+      ]
+    },
+    {
+      "id": "lie-vii-viii-fr",
+      "chapters": [
+        {
+          "chapter": "VII",
+          "title": "Sous-algèbres de Cartan. Éléments réguliers",
+          "total": 60,
+          "sections": [
+            {
+              "section": 1,
+              "label": "lie-vii-s1",
+              "dir": "s1",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 4
+            },
+            {
+              "section": 2,
+              "label": "lie-vii-s2",
+              "dir": "s2",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 3
+            },
+            {
+              "section": 3,
+              "label": "lie-vii-s3",
+              "dir": "s3",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 4
+            },
+            {
+              "section": 4,
+              "label": "lie-vii-s4",
+              "dir": "s4",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            },
+            {
+              "section": 5,
+              "label": "lie-vii-s5",
+              "dir": "s5",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac-x-fr",
+      "chapters": [
+        {
+          "chapter": "X",
+          "title": "Profondeur, régularité, dualité",
+          "total": 124,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ac-x-s1",
+              "dir": "s1",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "ac-x-s2",
+              "dir": "s2",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 5
+            },
+            {
+              "section": 3,
+              "label": "ac-x-s3",
+              "dir": "s3",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 5
+            },
+            {
+              "section": 4,
+              "label": "ac-x-s4",
+              "dir": "s4",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 5
+            },
+            {
+              "section": 5,
+              "label": "ac-x-s5",
+              "dir": "s5",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 3
+            },
+            {
+              "section": 6,
+              "label": "ac-x-s6",
+              "dir": "s6",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 7,
+              "label": "ac-x-s7",
+              "dir": "s7",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "starred": 3,
+              "supplementary": 1
+            },
+            {
+              "section": 8,
+              "label": "ac-x-s8",
+              "dir": "s8",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 2
+            },
+            {
+              "section": 9,
+              "label": "ac-x-s9",
+              "dir": "s9",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 3
+            },
+            {
+              "section": 10,
+              "label": "ac-x-s10",
+              "dir": "s10",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 2
+            }
+          ]
         }
       ]
     }

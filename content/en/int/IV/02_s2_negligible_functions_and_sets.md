@@ -37,7 +37,7 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: 9957be94383368f258413ad77a26b8feab56a9aef5f931c556546f1c9349b5cd
+content_sha256: 8ed4876b66e4b93e4252c89f40e59e5df51207d878e7a01e38c48f580a5ec1d0
 ---
 
 ## § 2. NEGLIGIBLE FUNCTIONS AND SETS
@@ -58,13 +58,13 @@ We then also say that $f$ is $\mu$*-negligible*, or simply *negligible* if no co
 
 — *The sum and upper envelope of a sequence* $(f_n)$ *of negligible functions* $\geq 0$ *are negligible*.
 
-For, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (\S1, No. 3, Prop. 13) and $\sup_n f_n \leq \sum_n f_n$.
+For, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (§ 1, No. 3, Prop. 13) and $\sup_n f_n \leq \sum_n f_n$.
 
 #### Proposition 3 {#int-iv-s2-prop-3 .statement}
 
 *For a lower semi-continuous function $f \geq 0$ on $X$ to be negligible, it is necessary and sufficient that $f$ be zero on the support of $\mu$.*
 
-If $|\mu|^*(f) = 0$ then $|\mu|(g) = 0$ for every function $g \in \mathcal{K}_+$ such that $g \leq f$; it follows (Ch. III, \S2, No. 3, Prop. 9) that $g$ is zero on the support $S$ of $\mu$; since $f$ is the upper envelope of the functions $g \in \mathcal{K}_+$ such that $g \leq f$ (\S1, No. 1, Lemma), $f(x) = 0$ on $S$. Conversely, if $f(x) = 0$ on $S$ then $g(x) = 0$ on $S$ for every function $g \in \mathcal{K}_+$ such that $g \leq f$, therefore (Ch. III, \S2, No. 3, Prop. 8) $|\mu|(g) = 0$, which, by definition, implies that $|\mu|^*(f) = 0$.
+If $|\mu|^*(f) = 0$ then $|\mu|(g) = 0$ for every function $g \in \mathcal{K}_+$ such that $g \leq f$; it follows (Ch. III, § 2, No. 3, Prop. 9) that $g$ is zero on the support $S$ of $\mu$; since $f$ is the upper envelope of the functions $g \in \mathcal{K}_+$ such that $g \leq f$ (§ 1, No. 1, Lemma), $f(x) = 0$ on $S$. Conversely, if $f(x) = 0$ on $S$ then $g(x) = 0$ on $S$ for every function $g \in \mathcal{K}_+$ such that $g \leq f$, therefore (Ch. III, § 2, No. 3, Prop. 8) $|\mu|(g) = 0$, which, by definition, implies that $|\mu|^*(f) = 0$.
 
 ### 2. Negligible sets
 
@@ -82,7 +82,7 @@ This is an immediate consequence of Props. 1 and 2.
 
 #### Example {#int-iv-s2-n2-exa-1 .statement}
 
-— Let $\mu$ be Lebesgue measure on $\mathbf{R}$. Every set $\{x_0\}$ reduced to a point is negligible (cf. \S1, No. 3, *Remark* 1). It follows that *every countable subset of $\mathbf{R}$ is negligible for Lebesgue measure*. The converse of this proposition is incorrect (\S4, Exer. 4 b)).
+— Let $\mu$ be Lebesgue measure on $\mathbf{R}$. Every set $\{x_0\}$ reduced to a point is negligible (cf. § 1, No. 3, *Remark* 1). It follows that *every countable subset of $\mathbf{R}$ is negligible for Lebesgue measure*. The converse of this proposition is incorrect (§ 4, Exer. 4 b)).
 
 #### Proposition 5 {#int-iv-s2-prop-5 .statement}
 

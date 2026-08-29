@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 615a424395d02536abb89648bf8742fcbb947b618f6b73bb94673f242901bf18
+content_sha256: 746c6186434593ae87ea52347a193f0e294cca0a933dcfbfbd4549276c4b772c
 ---
 
 ## § 6. INTEGRATION ON COMPACT LIE GROUPS
@@ -70,7 +70,7 @@ $$
 
 The map $\varphi :$ Alt$^s(M'')\otimes_A$Alt$^r(M')\rightarrow$ Alt$^{s+r}(M)$ such that $\varphi (u\otimes v) =u\cap v$ is an isomorphism of free A-modules of rank one.
 
-The existence of a form $v_1$ satisfying condition $a)$ follows from the fact that $\wedge \wedge^r(i)$ induces an isomorphism from $\wedge \wedge^r(M')$ to a direct factor submodule of $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 2). Let $v_1$ be such a form; put $u\cap v=u_1\wedge v_1$. Formula (1) is then satisfied, since if we put $i(x'_k) =x_{s+k}$ for $1\leq k\leq r$, the only element $\sigma$ of $\mathfrak{S}_{s,r}$ such that $p(x_{\sigma(i)})\not= 0$ for $1\leq i\leq s$ is the identity permutation. On the other hand, formula (1) determines $u\cap v$ uniquely: indeed, let $(e'_1, . . . , e'_r)$ be a basis of $M', (f''_1, . . . , f''_s)$ a basis of $M''$, and $f_1, . . . , f_s$ elements of M such that $p(f_i) =f''_i$ for $1\leq i\leq s$. Then $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ is a basis of M (Algebra, Chap. II, §1, no. 11, Prop. 21), and formula (1) can be written
+The existence of a form $v_1$ satisfying condition a) follows from the fact that $\wedge \wedge^r(i)$ induces an isomorphism from $\wedge \wedge^r(M')$ to a direct factor submodule of $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 2). Let $v_1$ be such a form; put $u\cap v=u_1\wedge v_1$. Formula (1) is then satisfied, since if we put $i(x'_k) =x_{s+k}$ for $1\leq k\leq r$, the only element $\sigma$ of $\mathfrak{S}_{s,r}$ such that $p(x_{\sigma(i)})\not= 0$ for $1\leq i\leq s$ is the identity permutation. On the other hand, formula (1) determines $u\cap v$ uniquely: indeed, let $(e'_1, . . . , e'_r)$ be a basis of $M', (f''_1, . . . , f''_s)$ a basis of $M''$, and $f_1, . . . , f_s$ elements of M such that $p(f_i) =f''_i$ for $1\leq i\leq s$. Then $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ is a basis of M (Algebra, Chap. II, §1, no. 11, Prop. 21), and formula (1) can be written
 
 $$
 (u\cap v)(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r)) =u(f''_1, . . . , f''_s)v(e'_1, . . . , e'_r) \tag{2}
@@ -78,7 +78,7 @@ $$
 
 but an element of Alt$^{s+r}(M)$ is determined by its value on a basis.
 
-It follows from the preceding that each of the conditions $a)$ and $b)$ determines the product $u\cap v$ uniquely; it is clear that this product is bilinear. Finally, the last assertion of the lemma follows from formula (2).
+It follows from the preceding that each of the conditions a) and b) determines the product $u\cap v$ uniquely; it is clear that this product is bilinear. Finally, the last assertion of the lemma follows from formula (2).
 
 ### 2. INTEGRATION FORMULA OF H. WEYL
 
@@ -594,11 +594,11 @@ b) Let $\omega \in$ Alt($\mathfrak{g}$). Then $\omega$ belongs to Alt($\mathfrak
 
 c) The graded vector space $H(\Omega (G))$ is isomorphic to Alt($\mathfrak{g}$)$^G$.
 
-The theorem, applied to the action of G on G by left translations (resp. to the action $((g, h);x) \rightarrow gxh^{-1}$ of $G\times G$ on G) implies that the canonical injection $\Omega (G)^G\rightarrow \Omega (G)$ (resp. $^G\Omega (G)^G\rightarrow \Omega (G)$) is a homotopism; in view of Algèbre, Chap. X, p. 34, Cor., assertion $a)$ follows.
+The theorem, applied to the action of G on G by left translations (resp. to the action $((g, h);x) \rightarrow gxh^{-1}$ of $G\times G$ on G) implies that the canonical injection $\Omega (G)^G\rightarrow \Omega (G)$ (resp. $^G\Omega (G)^G\rightarrow \Omega (G)$) is a homotopism; in view of Algèbre, Chap. X, p. 34, Cor., assertion a) follows.
 
-We prove $b)$. By Prop. 51 of Chap. III, §3, no. 14, we have $d\alpha =-d\alpha$, that is $d\alpha = 0$, for every differential form $\alpha$ on G that is left and right invariant. Thus, if $\omega \in$ Alt($\mathfrak{g}$)$^G$, then $d\omega = 0$, and consequently $d(i(\xi )\omega ) =$ $\theta (\xi )\omega -i(\xi )d\omega = 0$. Conversely, if $d\omega = 0$ and $d(i(\xi )d\omega ) = 0$, then $\theta (\xi )\omega = 0$.
+We prove b). By Prop. 51 of Chap. III, §3, no. 14, we have $d\alpha =-d\alpha$, that is $d\alpha = 0$, for every differential form $\alpha$ on G that is left and right invariant. Thus, if $\omega \in$ Alt($\mathfrak{g}$)$^G$, then $d\omega = 0$, and consequently $d(i(\xi )\omega ) =$ $\theta (\xi )\omega -i(\xi )d\omega = 0$. Conversely, if $d\omega = 0$ and $d(i(\xi )d\omega ) = 0$, then $\theta (\xi )\omega = 0$.
 
-Assertion $c)$ follows from $a)$ and $b)$.
+Assertion c) follows from a) and b).
 
 #### Remark {#lie-ix-s6-n5-rem-1 .statement tag=01FK}
 

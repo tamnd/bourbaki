@@ -38,7 +38,7 @@ subsections:
       pdf_page: 257
 statements: 20
 exercises: 5
-content_sha256: 10864e090c0116390b64e2549b5aceaa45dd64eb00650cfc0f059473d1d90a1f
+content_sha256: 0970c4aa41158ef33231d08b21a0ce6a9b85ee1660b0f424d771a6b9760e1253
 ---
 
 ## § 17. REGULAR EXTENSIONS
@@ -217,7 +217,7 @@ c) $\Rightarrow$ d): With the notation of d) we can identify $\overline{K}$ with
 
 E $\otimes_K$ L of A is an integral domain and hence is an algebra of finite degree over L; by the Cor. of V, p. 10 it is a field. Since $\bar{K}$ is the union the increasing directed set of extensions E of the above type, A is a field (V, p. 11, Prop. 3). The canonical homomorphism of A into $\bar{L}$ mapping $x \otimes y$ to $xy$ (for $x \in \bar{K}$ and $y \in L$) is therefore injective, so L and $\bar{K}$ are linearly disjoint over K.
 
-$d) \Rightarrow a)$: Under the hypotheses of $d)$ we have $L \cap \bar{K} = K$, so K is relatively algebraically closed in L; further if p is the characteristic exponent of K, the field $L$ is linearly disjoint from $K^{p^{-\infty}}$ over $K$, hence L is separable over K (V, p. 123, Cor. 1).
+$d) \Rightarrow a)$: Under the hypotheses of d) we have $L \cap \bar{K} = K$, so K is relatively algebraically closed in L; further if p is the characteristic exponent of K, the field $L$ is linearly disjoint from $K^{p^{-\infty}}$ over $K$, hence L is separable over K (V, p. 123, Cor. 1).
 
 #### Corollary 1 {#alg-v-s17-prop-9-cor-1 .statement}
 

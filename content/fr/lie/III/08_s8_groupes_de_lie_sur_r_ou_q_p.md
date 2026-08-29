@@ -20,7 +20,7 @@ subsections:
       pdf_page: 225
 statements: 10
 exercises: 7
-content_sha256: 78521e2099e3f9384f38950c262118a0748b7272a54109b6e52efcd2e553264f
+content_sha256: dc761e6e2fb109842b55eef3c15386c268145bac74eee0f684b381d410b75745
 ---
 
 ## § 8. Groupes de Lie sur $\mathbf{R}$ ou $\mathbf{Q}_p$
@@ -164,7 +164,7 @@ Soient $G$ un groupe de Lie de dimension finie sur $K$, $H$ un sous-groupe de $G
 
 (ii) Si $K$ est une extension de degré fini de $\mathbf{Q}_p$, et si $I$ est fini, $H$ est un sous-groupe de Lie de $G$.
 
-(i) Supposons $K = \mathbf{C}$. Considérons $G$ comme un groupe de Lie réel. Alors $H$ est un sous-groupe de Lie réel de $G$ (th. 2). Soit $a \in L(H)$. Il existe un voisinage ouvert connexe $W$ de $0$ dans $\mathbf{C}$ tel que $\exp \lambda a \in V$ pour tout $\lambda \in W$. Soit $i \in I$. On a $f_i(\exp \lambda a) = f_i(e)$ si $\lambda \in \mathbf{R} \cap W$. Donc $f_i(\exp \lambda a) = f_i(e)$ si $\lambda \in W$ par prolongement analytique. Ainsi, $\exp \lambda a \in H$ pour $\lambda \in W$, et par suite $\mu a \in L(H)$ pour tout $\mu \in \mathbf{C}$. Par suite, $H$ est un sous-groupe de Lie du groupe de Lie complexe $G$ (\S 4, n° 2, prop. 2).
+(i) Supposons $K = \mathbf{C}$. Considérons $G$ comme un groupe de Lie réel. Alors $H$ est un sous-groupe de Lie réel de $G$ (th. 2). Soit $a \in L(H)$. Il existe un voisinage ouvert connexe $W$ de $0$ dans $\mathbf{C}$ tel que $\exp \lambda a \in V$ pour tout $\lambda \in W$. Soit $i \in I$. On a $f_i(\exp \lambda a) = f_i(e)$ si $\lambda \in \mathbf{R} \cap W$. Donc $f_i(\exp \lambda a) = f_i(e)$ si $\lambda \in W$ par prolongement analytique. Ainsi, $\exp \lambda a \in H$ pour $\lambda \in W$, et par suite $\mu a \in L(H)$ pour tout $\mu \in \mathbf{C}$. Par suite, $H$ est un sous-groupe de Lie du groupe de Lie complexe $G$ (§ 4, n° 2, prop. 2).
 
 (ii) Supposons que $K$ soit une extension de degré fini de $\mathbf{Q}_p$. Considérons $G$ comme un groupe de Lie sur $\mathbf{Q}_p$. Il est de dimension finie, et le th. 2 implique que $H$ est un sous-groupe de Lie $p$-adique de $G$. Puisque $I$ est fini, $\prod_{i \in I} M_i$ est une variété, et on peut supposer que la famille $(f_i)$ se réduit à une seule application $f$. Soit $a \in L(G)$. Soit $\varphi$ une application exponentielle de $G$. On a $f(\varphi(\lambda a)) = f(e)$ pour $\lambda \in \mathbf{Q}_p$ et $|\lambda|$ assez petit. Puisque $f$ est $K$-analytique, on en déduit que $f(\varphi(\lambda a)) = f(e)$ pour $\lambda \in K$ et $|\lambda|$ assez petit. Donc $\varphi(\lambda a) \in H$ pour $\lambda \in K$ et $|\lambda|$ assez petit, et par suite $\mu a \in L(H)$ pour tout $\mu \in K$. On termine comme dans (i).
 

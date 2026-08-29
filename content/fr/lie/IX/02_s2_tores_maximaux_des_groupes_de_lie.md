@@ -37,7 +37,7 @@ subsections:
       pdf_page: 18
 statements: 33
 exercises: 11
-content_sha256: b80da8fc4bd9b2c66ba62bb7534455869cd480af5bb0d11f25e7a33dcb8a8ed0
+content_sha256: 31be9da97c8052633252671d3863584cd62d0e193e2f78b07f66cb5ff204ffd3
 ---
 
 ## § 2. TORES MAXIMAUX DES GROUPES DE LIE COMPACTS
@@ -91,7 +91,7 @@ Soit t une sous-algèbre de Cartan de L(G) ; le sous-groupe intégral de G d’a
 
 Notons $X$ la réunion des tores maximaux de $G$, et soit $T$ un tore maximal de $G$. L’application continue $(g, t) \mapsto gtg^{-1}$ de $G \times T$ dans $G$ a pour image $X$, qui est donc fermé dans $G$; pour démontrer $c$, il suffit donc de prouver que $X$ est ouvert dans $G$; comme $X$ est invariant par automorphismes intérieurs, il suffit de montrer que pour tout $a \in T$, $X$ est un voisinage de $a$. Raisonnons par récurrence sur la dimension de $G$ et distinguons deux cas :
 
-1) $a$ n’est pas central dans $G$. Soit alors $H$ la composante neutre du centralisateur de $a$ dans $G$; c’est un sous-groupe compact connexe de $G$ distinct de $G$, qui contient $T$, donc $a$. Comme $\operatorname{Ad}\,a$ est semi-simple ($\S 1$, no 1 ), l’algèbre de Lie de $H$ est le nilspace de $\operatorname{Ad}\,a - 1$; il résulte alors de VII, § 4, no 2, prop. 4, que la réunion $Y$ des conjugués de $H$ est un voisinage de $a$. D’après l’hypothèse de récurrence, on a $H \subset X$, donc $Y \subset X$; ainsi $X$ est un voisinage de $a$.
+1) $a$ n’est pas central dans $G$. Soit alors $H$ la composante neutre du centralisateur de $a$ dans $G$; c’est un sous-groupe compact connexe de $G$ distinct de $G$, qui contient $T$, donc $a$. Comme $\operatorname{Ad}\,a$ est semi-simple ($§ 1$, no 1 ), l’algèbre de Lie de $H$ est le nilspace de $\operatorname{Ad}\,a - 1$; il résulte alors de VII, § 4, no 2, prop. 4, que la réunion $Y$ des conjugués de $H$ est un voisinage de $a$. D’après l’hypothèse de récurrence, on a $H \subset X$, donc $Y \subset X$; ainsi $X$ est un voisinage de $a$.
 
 2) $a$ est central dans $G$. Il suffit de prouver que $a \exp x$ appartient à $X$ pour tout $x$ dans $L(G)$. Or tout élément $x$ de $L(G)$ appartient à une sous-algèbre de Cartan de $G$ (th. 1); le sous-groupe intégral $T'$ correspondant contient $\exp x$; comme il est conjugué à $T$, il contient $a$ et donc $a \exp x$, d’où l’assertion cherchée.
 
@@ -131,7 +131,7 @@ a) Soit $S$ un tore de $G$. Le centralisateur de $S$ est connexe ; c’est la r�
 
 b) Soit $s$ une sous-algèbre commutative de $L(G)$. Le fixateur de $s$ dans $G$ est connexe ; c’est la réunion des tores maximaux de $G$ dont l’algèbre de Lie contient $s$.
 
-Pour démontrer $a)$, il suffit de prouver que si un élément $g$ de $G$ centralise $S$, il existe un tore maximal de $G$ contenant $S$ et $g$. Or, si $C$ est le centralisateur de $g$, on a $g \in C_0$ (cor. 3) et $S \subset C_0$; si $T$ est un tore maximal du groupe de Lie compact connexe $C_0$ contenant $S$, on a $g \in T$ (cor. 2), d’où $a)$. L’assertion $b)$ résulte de $a)$ appliqué à l’adhérence du sous-groupe intégral d’algèbre de Lie $s$, compte tenu de III, § 9, n° 3, prop. 9.
+Pour démontrer a), il suffit de prouver que si un élément $g$ de $G$ centralise $S$, il existe un tore maximal de $G$ contenant $S$ et $g$. Or, si $C$ est le centralisateur de $g$, on a $g \in C_0$ (cor. 3) et $S \subset C_0$; si $T$ est un tore maximal du groupe de Lie compact connexe $C_0$ contenant $S$, on a $g \in T$ (cor. 2), d’où a). L’assertion b) résulte de a) appliqué à l’adhérence du sous-groupe intégral d’algèbre de Lie $s$, compte tenu de III, § 9, n° 3, prop. 9.
 
 #### Remarque 2 {#lie-ix-s2-n2-rem-2 .statement tag=01A9}
 
@@ -215,7 +215,7 @@ $$
 \pi_1(H) \to \pi_1(G) \to \pi_1(G/H, \overline{e}) \to 0
 $$
 
-où $\overline{e}$ est l’image dans $G/H$ de l’élément neutre de G. Comme $G/H$ est connexe, cela entraîne aussitôt l’équivalence des assertions a) et b). Par ailleurs, si $f : G' \to G$ est un morphisme surjectif de groupes de Lie compacts connexes dont le noyau est central, il revient au même de démontrer la proposition (sous la forme a)) pour G ou pour $G'$ (prop. 2). On peut donc d’abord remplacer G par $\mathrm{Ad}(G)$, donc supposer G semi-simple, puis remplacer G par un revêtement universel (\$ 1, n° 4, cor. 2), donc supposer G simplement connexe. Mais alors l’assertion b) est triviale.
+où $\overline{e}$ est l’image dans $G/H$ de l’élément neutre de G. Comme $G/H$ est connexe, cela entraîne aussitôt l’équivalence des assertions a) et b). Par ailleurs, si $f : G' \to G$ est un morphisme surjectif de groupes de Lie compacts connexes dont le noyau est central, il revient au même de démontrer la proposition (sous la forme a)) pour G ou pour $G'$ (prop. 2). On peut donc d’abord remplacer G par $\mathrm{Ad}(G)$, donc supposer G semi-simple, puis remplacer G par un revêtement universel (§ 1, n° 4, cor. 2), donc supposer G simplement connexe. Mais alors l’assertion b) est triviale.
 
 #### Proposition 4 {#lie-ix-s2-prop-4 .statement tag=01AJ}
 
@@ -288,19 +288,19 @@ L’assertion a) résulte du cor. 8 au th. 2 (n° 2), et l’assertion b) est un
 
 ### 6. Tores maximaux et relèvement d’homomorphismes
 
-Soient G un groupe de Lie compact connexe, T un tore maximal de G. Considérons le groupe dérivé D(G) de G et son revêtement universel $\tilde{D}(G)$; soit $p : \tilde{D}(G) \to G$ le morphisme composé des morphismes canoniques $\tilde{D}(G) \to D(G)$ et $D(G) \to G$. Alors $\tilde{D}(G)$ est un groupe de Lie compact connexe ($\S 1$, no 4, cor. 2 à la prop. 4); de plus, l’image réciproque $\tilde{T}$ de T par $p$ est un tore maximal de $\tilde{D}(G)$ (no 3, prop. 1).
+Soient G un groupe de Lie compact connexe, T un tore maximal de G. Considérons le groupe dérivé D(G) de G et son revêtement universel $\tilde{D}(G)$; soit $p : \tilde{D}(G) \to G$ le morphisme composé des morphismes canoniques $\tilde{D}(G) \to D(G)$ et $D(G) \to G$. Alors $\tilde{D}(G)$ est un groupe de Lie compact connexe ($§ 1$, no 4, cor. 2 à la prop. 4); de plus, l’image réciproque $\tilde{T}$ de T par $p$ est un tore maximal de $\tilde{D}(G)$ (no 3, prop. 1).
 
 #### Lemme 2 {#lie-ix-s2-lem-2 .statement tag=01AO}
 
 Soient H un groupe de Lie, $f_T : T \to H$ et $\tilde{f} : \tilde{D}(G) \to H$ des morphismes de groupes de Lie tels que, pour tout $t \in \tilde{T}$, on ait $f_T(p(t)) = \tilde{f}(t)$. Il existe un unique morphisme de groupes de Lie $f : G \to H$ tel que $f \circ p = \tilde{f}$ et que la restriction de $f$ à T soit $f_T$.
 
-Posons $Z = C(G)_0$; d’après $\S 1$, no 4, cor. 1 à la prop. 4, le morphisme de groupes de Lie $g : Z \times \tilde{D}(G) \to G$ tel que $g(z, x) = z^{-1}p(x)$ est un revêtement; son noyau est formé des couples $(z, x)$ tels que $p(x) = z$, pour lesquels on a donc $x \in p^{-1}(Z) \subset \tilde{T}$. Puisque le morphisme $(z, x) \mapsto f_T(z^{-1})\tilde{f}(x)$ de $Z \times \tilde{D}(G)$ dans H applique Ker $g$ dans $\{e\}$, il existe un morphisme $f$ de G dans H tel que $f \circ p = \tilde{f}$ et $f(z) = f_T(z)$ pour $z \in Z$. Mais on a aussi $f(t) = f_T(t)$ pour $t \in p(\tilde{T})$; comme $T = Z.p(\tilde{T})$, la restriction de $f$ à T est bien $f_T$.
+Posons $Z = C(G)_0$; d’après $§ 1$, no 4, cor. 1 à la prop. 4, le morphisme de groupes de Lie $g : Z \times \tilde{D}(G) \to G$ tel que $g(z, x) = z^{-1}p(x)$ est un revêtement; son noyau est formé des couples $(z, x)$ tels que $p(x) = z$, pour lesquels on a donc $x \in p^{-1}(Z) \subset \tilde{T}$. Puisque le morphisme $(z, x) \mapsto f_T(z^{-1})\tilde{f}(x)$ de $Z \times \tilde{D}(G)$ dans H applique Ker $g$ dans $\{e\}$, il existe un morphisme $f$ de G dans H tel que $f \circ p = \tilde{f}$ et $f(z) = f_T(z)$ pour $z \in Z$. Mais on a aussi $f(t) = f_T(t)$ pour $t \in p(\tilde{T})$; comme $T = Z.p(\tilde{T})$, la restriction de $f$ à T est bien $f_T$.
 
 #### Proposition 8 {#lie-ix-s2-prop-8 .statement tag=01AP}
 
 Soient G un groupe de Lie compact connexe, T un tore maximal de G, H un groupe de Lie et $\varphi : L(G) \to L(H)$ un homomorphisme d’algèbres de Lie. Pour qu’il existe un morphisme de groupes de Lie $f : G \to H$ tel que $L(f) = \varphi$, il faut et il suffit qu’il existe un morphisme de groupes de Lie $f_T : T \to H$ tel que $L(f_T) = \varphi|L(T)$; on a alors $f_T = f|T$.
 
-Si $f : G \to H$ est un morphisme de groupes de Lie tel que $L(f) = \varphi$, alors la restriction $f_T$ de $f$ à T est l’unique morphisme de T dans H tel que $L(f_T) = \varphi|L(T)$. Inversement, soit $f_T : T \to H$ un morphisme de groupes de Lie tel que $L(f_T) = \varphi|L(T)$. Soient $\tilde{D}(G)$ et $p$ comme ci-dessus; l’application $L(p)$ induit un isomorphisme de $L(\tilde{D}(G))$ sur l’algèbre dérivée b de $L(G)$. Il existe un morphisme de groupes de Lie $\tilde{f} : \tilde{D}(G) \to H$ tel que $L(\tilde{f}) = (\varphi|b) \circ L(p)$ (III, $\S 6$, no 1, th. 1). Les morphismes $t \mapsto \tilde{f}(t)$ et $t \mapsto f_T(p(t))$ de $\tilde{T}$ dans H induisent le même homomorphisme des algèbres de Lie, donc coïncident. Appliquant le lemme 2, on en déduit l’existence d’un morphisme $f : G \to H$ tel que $L(f)$ et $\varphi$ coïncident sur $L(T)$ et b. Comme $L(G) = b + L(T)$, on a bien $L(f) = \varphi$.
+Si $f : G \to H$ est un morphisme de groupes de Lie tel que $L(f) = \varphi$, alors la restriction $f_T$ de $f$ à T est l’unique morphisme de T dans H tel que $L(f_T) = \varphi|L(T)$. Inversement, soit $f_T : T \to H$ un morphisme de groupes de Lie tel que $L(f_T) = \varphi|L(T)$. Soient $\tilde{D}(G)$ et $p$ comme ci-dessus; l’application $L(p)$ induit un isomorphisme de $L(\tilde{D}(G))$ sur l’algèbre dérivée b de $L(G)$. Il existe un morphisme de groupes de Lie $\tilde{f} : \tilde{D}(G) \to H$ tel que $L(\tilde{f}) = (\varphi|b) \circ L(p)$ (III, $§ 6$, no 1, th. 1). Les morphismes $t \mapsto \tilde{f}(t)$ et $t \mapsto f_T(p(t))$ de $\tilde{T}$ dans H induisent le même homomorphisme des algèbres de Lie, donc coïncident. Appliquant le lemme 2, on en déduit l’existence d’un morphisme $f : G \to H$ tel que $L(f)$ et $\varphi$ coïncident sur $L(T)$ et b. Comme $L(G) = b + L(T)$, on a bien $L(f) = \varphi$.
 
 #### Proposition 9 {#lie-ix-s2-prop-9 .statement tag=01AQ}
 

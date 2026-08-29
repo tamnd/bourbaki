@@ -24,7 +24,7 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: 693e6fdc19755fda00825e8c7dc2e818b1c457da08c603a8d654e97e5a9f7eb2
+content_sha256: 3297869f5fb81cc931b58ea4d147d5b89ddb0dbe0ebc72abf7eab7ab5a691f46
 ---
 
 ## § 5. Propriétés spéciales aux formes bilinéaires alternées
@@ -43,7 +43,7 @@ $2^o$ Tous les autres éléments $\Phi(e_i, e_j)$ où $i \leq j$ sont nuls.
 
 Les idéaux $A \alpha_i$ ($i = 1, \ldots, r$) sont uniquement déterminés par les conditions précédentes. Le sous-module $E^0$ de $E$ orthogonal à $E$ est engendré par $e_{2r+1}, \ldots, e_n$.
 
-Nous procéderons par récurrence sur la dimension $n$ de $E$. Le théorème est évident pour $n = 0$. Si $\Phi = 0$, le théorème est évident aussi ; on peut donc supposer $\Phi \neq 0$. Notons $f$ l’application linéaire $d_\Phi$ de $E$ dans $E^*$ associée à droite à $\Phi$ ($\S 1$, no 1); alors $f(E)$ est un sous-module non réduit à 0 du module $E^*$, qui est un module libre de dimension $n$. Soit $A\alpha_1$ le plus grand facteur invariant de $f(E)$ par rapport à $E^*$ (chap. VII, $\S 4$, no 2, th. 1); on sait (*loc. cit.*) qu’il existe une base $(e'_1, a'_2, \ldots, a'_n)$ de $E^*$ et un élément $f(e_2) \in f(E)$ tels que $f(e_2) = \alpha_1 e'_1$. Soit $(e_1, a_2, \ldots, a_n)$ la base de $E$ (identifié au bidual $E^{**}$) duale de $(e'_1, a'_2, \ldots, a'_n)$; on a
+Nous procéderons par récurrence sur la dimension $n$ de $E$. Le théorème est évident pour $n = 0$. Si $\Phi = 0$, le théorème est évident aussi ; on peut donc supposer $\Phi \neq 0$. Notons $f$ l’application linéaire $d_\Phi$ de $E$ dans $E^*$ associée à droite à $\Phi$ ($§ 1$, no 1); alors $f(E)$ est un sous-module non réduit à 0 du module $E^*$, qui est un module libre de dimension $n$. Soit $A\alpha_1$ le plus grand facteur invariant de $f(E)$ par rapport à $E^*$ (chap. VII, $§ 4$, no 2, th. 1); on sait (*loc. cit.*) qu’il existe une base $(e'_1, a'_2, \ldots, a'_n)$ de $E^*$ et un élément $f(e_2) \in f(E)$ tels que $f(e_2) = \alpha_1 e'_1$. Soit $(e_1, a_2, \ldots, a_n)$ la base de $E$ (identifié au bidual $E^{**}$) duale de $(e'_1, a'_2, \ldots, a'_n)$; on a
 
 $$
 \Phi(e_1, e_2) = -\Phi(e_2, e_1) = \langle e_1, f(e_2) \rangle = \alpha_1.
@@ -61,7 +61,7 @@ $$
 \langle e_1, f(x) \rangle = \xi_2 \alpha_1, \langle e_2, f(x) \rangle = -\xi_1 \alpha_1.
 $$
 
-Mais on sait (*loc. cit.*) que l’image de $f(E)$ par toute forme linéaire sur $E^*$ est contenue dans l’idéal $A\alpha_1$, autrement dit toutes les valeurs $\Phi(x, y) = \langle x, f(y) \rangle$ appartiennent à $A\alpha_1$; d’où l’existence et l’unicité de $\xi_1$ et $\xi_2$. Ainsi $P^0$ est un module libre de rang $n-2$; il existe donc, dans $P^0$, d’après l’hypothèse de récurrence, une base $(e_3, e_4, \ldots, e_n)$ satisfaisant aux conditions de l’énoncé. Pour montrer que la base $(e_1, \ldots, e_n)$ de $E$ ainsi obtenue satisfait aussi à ces conditions, il suffit de prouver que $\alpha_1$ divise $\alpha_2$; or cela résulte de ce que toutes les valeurs $\Phi(x, y)$ sont des multiples de $\alpha_1$. Il est alors clair que $e_{2r+1}, \ldots, e_n$ engendrent $E^0$. Enfin, si $(e'_i)$ est la base duale de $(e_i)$, on a $f(e_{2j-1}) = -\alpha_j e'_{2j}$ et $f(e_{2j}) = \alpha_j e'_{2j}$ pour $j = 1, \ldots, r$ et $f(e_k) = 0$ pour $k = 2r+1, \ldots, n$; les idéaux $A\alpha_1, A\alpha_1, A\alpha_2, A\alpha_2, \ldots, A\alpha_r, A\alpha_r$ sont donc les facteurs invariants de $f(E)$ par rapport à $E^*$, ce qui démontre leur unicité (chap. VII, $\S 4$, no 2, th. 1).
+Mais on sait (*loc. cit.*) que l’image de $f(E)$ par toute forme linéaire sur $E^*$ est contenue dans l’idéal $A\alpha_1$, autrement dit toutes les valeurs $\Phi(x, y) = \langle x, f(y) \rangle$ appartiennent à $A\alpha_1$; d’où l’existence et l’unicité de $\xi_1$ et $\xi_2$. Ainsi $P^0$ est un module libre de rang $n-2$; il existe donc, dans $P^0$, d’après l’hypothèse de récurrence, une base $(e_3, e_4, \ldots, e_n)$ satisfaisant aux conditions de l’énoncé. Pour montrer que la base $(e_1, \ldots, e_n)$ de $E$ ainsi obtenue satisfait aussi à ces conditions, il suffit de prouver que $\alpha_1$ divise $\alpha_2$; or cela résulte de ce que toutes les valeurs $\Phi(x, y)$ sont des multiples de $\alpha_1$. Il est alors clair que $e_{2r+1}, \ldots, e_n$ engendrent $E^0$. Enfin, si $(e'_i)$ est la base duale de $(e_i)$, on a $f(e_{2j-1}) = -\alpha_j e'_{2j}$ et $f(e_{2j}) = \alpha_j e'_{2j}$ pour $j = 1, \ldots, r$ et $f(e_k) = 0$ pour $k = 2r+1, \ldots, n$; les idéaux $A\alpha_1, A\alpha_1, A\alpha_2, A\alpha_2, \ldots, A\alpha_r, A\alpha_r$ sont donc les facteurs invariants de $f(E)$ par rapport à $E^*$, ce qui démontre leur unicité (chap. VII, $§ 4$, no 2, th. 1).
 
 #### Corollaire 1 {#alg-ix-s5-thm-1-cor-1 .statement}
 
@@ -192,13 +192,13 @@ Si $A$ est un corps commutatif et $\Phi$ une forme bilinéaire alternée non dé
 
 *Exercices.* — ¶ 1) Soient $A$ un anneau commutatif principal, $E$ un $A$-module libre de dimension finie $n$, $\Phi$ une forme bilinéaire alternée sur $E$ ; les idéaux $A \alpha_i$ ($1 \leq i \leq r$) définis dans le th. 1 du n° 1 sont appelés les *facteurs invariants* de $\Phi$.
 
-$a)$ Soit $F$ un sous-module de $E$, et soit $\Phi_F$ la restriction de $\Phi$ à $F \times F$. Montrer que si $A \beta_i$ ($1 \leq i \leq s$) sont les facteurs invariants de $\Phi_F$ (où $\beta_i$ divise $\beta_{i+1}$), on a $s \leq r$ et $\beta_i$ est multiple de $\alpha_i$ pour $1 \leq i \leq s$. (Se ramener au cas où $r = s = n/2$, et utiliser les exerc. 9 b) et 9 c) du chap. VII, § 4).
+a) Soit $F$ un sous-module de $E$, et soit $\Phi_F$ la restriction de $\Phi$ à $F \times F$. Montrer que si $A \beta_i$ ($1 \leq i \leq s$) sont les facteurs invariants de $\Phi_F$ (où $\beta_i$ divise $\beta_{i+1}$), on a $s \leq r$ et $\beta_i$ est multiple de $\alpha_i$ pour $1 \leq i \leq s$. (Se ramener au cas où $r = s = n/2$, et utiliser les exerc. 9 b) et 9 c) du chap. VII, § 4).
 
-$b)$ Soient $E_1$ un second $A$-module libre de dimension finie, $\Phi_1$ une forme bilinéaire alternée sur $E_1$, $A \gamma_1, \ldots, A \gamma_s$ ses facteurs invariants ($\gamma_i$ divisant $\gamma_{i+1}$). Pour que $\Phi_1$ soit l’image réciproque de $\Phi$ par une application linéaire de $E_1$ dans $E$, il faut et il suffit que $s \leq r$ et que $\gamma_i$ soit multiple de $\alpha_i$ pour $1 \leq i \leq s$. (Utiliser $a$) et la prop. 4 du chap. VII, § 4, n° 5).
+b) Soient $E_1$ un second $A$-module libre de dimension finie, $\Phi_1$ une forme bilinéaire alternée sur $E_1$, $A \gamma_1, \ldots, A \gamma_s$ ses facteurs invariants ($\gamma_i$ divisant $\gamma_{i+1}$). Pour que $\Phi_1$ soit l’image réciproque de $\Phi$ par une application linéaire de $E_1$ dans $E$, il faut et il suffit que $s \leq r$ et que $\gamma_i$ soit multiple de $\alpha_i$ pour $1 \leq i \leq s$. (Utiliser $a$) et la prop. 4 du chap. VII, § 4, n° 5).
 
-$c)$ Soient $F, G$ deux sous-modules de $E$, tels que $F^0$ (resp. $G^0$) soit supplémentaire de $F$ (resp. $G$) dans $E$. Si les restrictions de $\Phi$ à $F$ et $G$ sont équivalentes, montrer qu’il en est de même des restrictions de $\Phi$ à $F^0$ et à $G^0$, et qu’il existe un automorphisme de $E$ laissant $\Phi$ invariante et transformant $F$ en $G$.
+c) Soient $F, G$ deux sous-modules de $E$, tels que $F^0$ (resp. $G^0$) soit supplémentaire de $F$ (resp. $G$) dans $E$. Si les restrictions de $\Phi$ à $F$ et $G$ sont équivalentes, montrer qu’il en est de même des restrictions de $\Phi$ à $F^0$ et à $G^0$, et qu’il existe un automorphisme de $E$ laissant $\Phi$ invariante et transformant $F$ en $G$.
 
-$d)$ Donner un exemple de deux sous-modules $F, G$ de $E$, de dimension 2, tels que $F$ et $G$ admettent des supplémentaires dans $E$ et que les restrictions $\Phi_F$ et $\Phi_G$ soient équivalentes, mais qu’il n’existe aucun automorphisme de $E$ laissant $\Phi$ invariante et transformant $F$ en $G$ (prendre $n = 4$).
+d) Donner un exemple de deux sous-modules $F, G$ de $E$, de dimension 2, tels que $F$ et $G$ admettent des supplémentaires dans $E$ et que les restrictions $\Phi_F$ et $\Phi_G$ soient équivalentes, mais qu’il n’existe aucun automorphisme de $E$ laissant $\Phi$ invariante et transformant $F$ en $G$ (prendre $n = 4$).
 
 2) Soit $\Phi$ une forme bilinéaire alternée sur un espace vectoriel $E$ de dimension finie. Montrer que pour tout sous-espace vectoriel $M$ de $E$, la différence dim M – dim (M ∩ M^0) est paire. (Considérer d’abord le cas où Φ est non dégénérée).
 
@@ -249,7 +249,7 @@ $$
 
 11) Soit A un corps commutatif. Montrer que toute transformation $u$ appartenant au groupe symplectique $\mathbf{Sp}(2m, A)$ est un produit de transvections appartenant à ce groupe (dites transvections symplectiques ; cf. § 4, exerc. 6). (Raisonner par récurrence sur $m$, en montrant que si $x, y$ sont deux vecteurs non orthogonaux de $E = A^{2m}$, il existe un produit $v$ de transvections symplectiques tel que $vu$ laisse invariants $x$ et $y$). En déduire une nouvelle démonstration de la prop. 3 du no 3.
 
-*12) Soient A un corps commutatif, E un espace vectoriel de dimension paire $n = 2m$ sur A, $\Phi$ une forme bilinéaire alternée non dégénérée sur E. Montrer que, pour toute similitude $u$ pour la forme $\Phi$ ($\S 6$, no 5), de multiplicateur $\alpha$, on a $\det u = \alpha^m$ (utiliser la formule (7)).*
+*12) Soient A un corps commutatif, E un espace vectoriel de dimension paire $n = 2m$ sur A, $\Phi$ une forme bilinéaire alternée non dégénérée sur E. Montrer que, pour toute similitude $u$ pour la forme $\Phi$ ($§ 6$, no 5), de multiplicateur $\alpha$, on a $\det u = \alpha^m$ (utiliser la formule (7)).*
 
 § 13) On suppose que A est un corps commutatif de caractéristique 0, E un espace vectoriel de dimension $2m$ sur A, $\Phi$ une forme bilinéaire alternée non dégénérée sur E. On identifie la forme inverse $\widehat{\Phi}$ de $\Phi$ à un bivecteur $\Gamma \in \bigwedge^2 E$, de sorte que pour toute base symplectique $(e_i)_{1 \leq i \leq 2m}$ de E (pour $\Phi$), indexée de sorte que $\Phi(e_i, e_j) = \Phi(e_{m+i}, e_{m+j}) = 0$, $\Phi(e_i, e_{m+j}) = \delta_{ij}$ ($1 \leq i \leq m, 1 \leq j \leq m$), on ait
 

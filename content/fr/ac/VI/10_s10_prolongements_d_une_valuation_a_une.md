@@ -24,7 +24,7 @@ subsections:
       pdf_page: 161
 statements: 14
 exercises: 2
-content_sha256: 5c336863a6067c1a78258033859c6870cf016bf2079166e1467649d9e004802b
+content_sha256: 21d8edd7def4b194356f8ff434d28d0c855d313af5be8e5c3fd2d649da69d566
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
@@ -122,7 +122,7 @@ $$
 
 #### Proposition 3 {#ac-vi-s10-prop-3 .statement}
 
-Soient $G$ un groupe commutatif totalement ordonné, et $H$ un sous-groupe de $G$. Si l’on note $h(G)$ et $h(H)$ les hauteurs de $G$ et $H$ ($\S 4$, no 4), on a l’inégalité
+Soient $G$ un groupe commutatif totalement ordonné, et $H$ un sous-groupe de $G$. Si l’on note $h(G)$ et $h(H)$ les hauteurs de $G$ et $H$ ($§ 4$, no 4), on a l’inégalité
 
 $$
 h(G) \leq h(H) + r(G/H).
@@ -152,7 +152,7 @@ Or $G/G_{n-1}$ est un groupe totalement ordonné non réduit à 0; ce n’est do
 
 D’où, d’après (4), $r(G/H) \geq r(G_{n-1}/H) + 1$. En portant dans (8), on obtient bien l’inégalité (6) cherchée.
 
-$b)$ On a $H \cap G_{n-1} \neq H$. Comme $H \cap G_{n-1}$ est un sous-groupe isolé de $H$, on en conclut que $h(H) \geq h(H \cap G_{n-1}) + 1$. D’autre part on a évidemment $r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$. En portant dans (7), on obtient encore (6).
+b) On a $H \cap G_{n-1} \neq H$. Comme $H \cap G_{n-1}$ est un sous-groupe isolé de $H$, on en conclut que $h(H) \geq h(H \cap G_{n-1}) + 1$. D’autre part on a évidemment $r(G/H) \geq r(G_{n-1}/(H \cap G_{n-1}))$. En portant dans (7), on obtient encore (6).
 
 #### Corollaire {#ac-vi-s10-n2-cor-1 .statement}
 
@@ -171,7 +171,7 @@ Supposons maintenant qu’on ait $r \geq 2$, et raisonnons par récurrence sur $
 
 *Soit* $H$ *un sous-groupe isolé d’un groupe commutatif totalement ordonné* $G$. *Si* $H$ *est facteur direct dans* $G$, *le groupe ordonné* $G$ *est isomorphe au groupe* $(G/H) \times H$ *ordonné lexicographiquement*.
 
-Soit $j$ un isomorphisme de groupes de $(G/H) \times H$ sur $G$ tel que $j(0, x) = x$ pour tout $x \in H$, et que $j(y, x)$ admette $y$ pour classe modulo $H$. Comme $(G/H) \times H$ est totalement ordonné, tout revient à montrer que $j$ est *croissant* (*Ens.*, chap. III, 2e éd., § 1, no 12, prop. 11). Soit $(y, x)$ un élément $\geqslant 0$ de $(G/H) \times H$ ordonné lexicographiquement. Si $y > 0$, la classe de $j(y, x)$ modulo $H$ est un élément $> 0$, d’où $j(y, x) > 0$, car, sinon, on aurait $y \leqslant 0$ (\S 4, no 2, prop. 3). Si $y = 0$ et $x \geqslant 0$, on a $j(y, x) = x \geqslant 0$. Donc $j$ est bien croissant.
+Soit $j$ un isomorphisme de groupes de $(G/H) \times H$ sur $G$ tel que $j(0, x) = x$ pour tout $x \in H$, et que $j(y, x)$ admette $y$ pour classe modulo $H$. Comme $(G/H) \times H$ est totalement ordonné, tout revient à montrer que $j$ est *croissant* (*Ens.*, chap. III, 2e éd., § 1, no 12, prop. 11). Soit $(y, x)$ un élément $\geqslant 0$ de $(G/H) \times H$ ordonné lexicographiquement. Si $y > 0$, la classe de $j(y, x)$ modulo $H$ est un élément $> 0$, d’où $j(y, x) > 0$, car, sinon, on aurait $y \leqslant 0$ (§ 4, no 2, prop. 3). Si $y = 0$ et $x \geqslant 0$, on a $j(y, x) = x \geqslant 0$. Donc $j$ est bien croissant.
 
 ### 3. *Cas d’une extension transcendante quelconque.*
 
@@ -195,7 +195,7 @@ a) On a un élément $x$ de l’anneau de $\nu'$ tel que $\overline{x}$ soit tra
 
 b) On a un élément $y$ de $K'$ tel que les relations $n\nu'(y) \in \Gamma$ et $n \in \mathbf{Z}$ entraînent $n=0$; il s’agit de montrer que $y$ est transcendant sur $K$, et que la restriction de $\nu'$ à $K(y)$ admet $k$ pour corps résiduel, et $\Gamma + \mathbf{Z}\nu'(y)$ pour groupe des ordres.
 
-Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de $a)$ (resp. $b$)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
+Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de a) (resp. b)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
 
 #### Corollaire 1 {#ac-vi-s10-thm-1-cor-1 .statement}
 

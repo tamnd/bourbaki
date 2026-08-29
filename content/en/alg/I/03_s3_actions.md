@@ -8,32 +8,33 @@ section_title: Actions
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 24-29, 129-132
 pdf_pages: 0048-0053, 0153-0156
 extraction: ocr
 subsections:
     - "no": 1
       title: ACTIONS
-      page: 0
+      page: 24
       pdf_page: 48
     - "no": 2
       title: SUBSETS STABLE UNDER AN ACTION. INDUCED ACTION
-      page: 0
+      page: 26
       pdf_page: 50
     - "no": 3
       title: QUOTIENT ACTION
-      page: 0
+      page: 26
       pdf_page: 50
     - "no": 4
       title: DISTRIBUTIVITY
-      page: 0
+      page: 27
       pdf_page: 51
     - "no": 5
       title: DISTRIBUTIVITY OF ONE INTERNAL LAW WITH RESPECT TO ANOTHER
-      page: 0
+      page: 29
       pdf_page: 53
 statements: 14
 exercises: 10
-content_sha256: b7b14957adea4a121aeb6342cb8f599de07efdca80c7e79743c005013e324aec
+content_sha256: ea8e120387da4eeeb5565a60d17f5eac8359a45e81eafde8841009256e414458
 ---
 
 ## § 3. ACTIONS
@@ -66,7 +67,7 @@ instead of "law of left action". The element $f_\alpha(x)$ of E (for $\alpha \in
 
 (6) Let $\alpha \mapsto f_\alpha$ be an action of $\Omega$ on E. Let g be a mapping of $\Omega'$ into $\Omega$. Then the mapping $\beta \mapsto f_{g(\beta)}$ is an action of $\Omega'$ on E.
 
-(7) Let $f : E \times E \to E$ be a law of composition on a set E. The mapping $\gamma : x \mapsto \gamma_x$ (resp. $\delta : x \mapsto \delta_x$) (\S 2, no. 2) which associates with the element $x \in E$ left (resp. right) translation by $x$ is an action of E on itself; it is called the *left* (resp. *right*) *action* of E on itself *derived* from the given law. When $f$ is commutative, these two actions coincide.
+(7) Let $f : E \times E \to E$ be a law of composition on a set E. The mapping $\gamma : x \mapsto \gamma_x$ (resp. $\delta : x \mapsto \delta_x$) (§ 2, no. 2) which associates with the element $x \in E$ left (resp. right) translation by $x$ is an action of E on itself; it is called the *left* (resp. *right*) *action* of E on itself *derived* from the given law. When $f$ is commutative, these two actions coincide.
 
 The law of left (resp. right) action associated with $\gamma$ is $f$ (resp. the opposite law to $f$). The law of right (resp. left) action associated with $\delta$ is $f$ (resp. the opposite law to $f$).
 

@@ -7,32 +7,33 @@ section: 3
 section_title: DERIVATIVES AND INTEGRALS OF FUNCTIONS DEPENDING ON A PARAMETER
 lang: en
 source: fvr-i-vii
+book_pages: 68-78, 86-90
 pdf_pages: 0083-0093, 0101-0105
 extraction: ocr
 subsections:
     - "no": 1
       title: INTEGRAL OF A LIMIT OF FUNCTIONS ON A COMPACT INTERVAL
-      page: 0
+      page: 68
       pdf_page: 83
     - "no": 2
       title: INTEGRAL OF A LIMIT OF FUNCTIONS ON A NON-COMPACT INTERVAL
-      page: 0
+      page: 69
       pdf_page: 84
     - "no": 3
       title: NORMALLY CONVERGENT INTEGRALS
-      page: 0
+      page: 72
       pdf_page: 87
     - "no": 4
       title: DERIVATIVE WITH RESPECT TO A PARAMETER OF AN INTEGRAL OVER A COMPACT INTERVAL
-      page: 0
+      page: 73
       pdf_page: 88
     - "no": 5
       title: DERIVATIVE WITH RESPECT TO A PARAMETER OF AN INTEGRAL OVER A NON-COMPACT INTERVAL
-      page: 0
+      page: 75
       pdf_page: 90
     - "no": 6
       title: CHANGE OF ORDER OF INTEGRATION
-      page: 0
+      page: 76
       pdf_page: 91
 statements: 17
 exercises: 10

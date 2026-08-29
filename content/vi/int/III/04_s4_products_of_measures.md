@@ -37,7 +37,7 @@ subsections:
       pdf_page: 98
 statements: 22
 exercises: 8
-content_sha256: 35ef8ce15c487d912a3bffd56513b6e54b36dc72f936ed9297884cca6a2e10c4
+content_sha256: 48d46ac9f287d5b8b5ce30719c295002d5ef3d7d4c156c5d8c2725ce5c633ca4
 translated_from: content/en/int/III/04_s4_products_of_measures.md
 source_content_sha256: cab5149dddbd12aeacdfdad3d50a4e38cf1309160c05a4be01a10914acb111c7
 translation_model: gpt-5.4-mini
@@ -85,7 +85,7 @@ $$
 \mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})
 $$
 
-được đồng nhất với một không gian con của $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, lại chính là không gian $\mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})$ nhưng lần này được đồng nhất một cách chính tắc với một không gian các ánh xạ từ $X$ vào $\mathcal{K}(Y, L; \mathbf{C})$ (A, II, §7, No. 7, Cor. of Prop. 15); nhưng không gian con này của $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ được biết là *trù mật* trong không gian sau (\S1, No. 2, Prop. 5), do đó kết luận của (ii) suy ra từ sự kiện rằng hạn chế của $\omega$ là một đẳng cấu tôpô.
+được đồng nhất với một không gian con của $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, lại chính là không gian $\mathcal{K}(X, K; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y, L; \mathbf{C})$ nhưng lần này được đồng nhất một cách chính tắc với một không gian các ánh xạ từ $X$ vào $\mathcal{K}(Y, L; \mathbf{C})$ (A, II, §7, No. 7, Cor. of Prop. 15); nhưng không gian con này của $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ được biết là *trù mật* trong không gian sau (§ 1, No. 2, Prop. 5), do đó kết luận của (ii) suy ra từ sự kiện rằng hạn chế của $\omega$ là một đẳng cấu tôpô.
 
 Đã chứng minh bổ đề, ta nhận xét rằng mọi tập con compact của $X \times Y$ đều được chứa trong một tích $K \times L$, trong đó $K$ (resp. $L$) là một tập con compact của $X$ (resp. $Y$). Do đó từ Bổ đề 1, (ii) suy ra không gian con $\mathcal{K}(X; \mathbf{C}) \otimes_{\mathbf{C}} \mathcal{K}(Y; \mathbf{C})$ là *trù mật* trong $\mathcal{K}(X \times Y; \mathbf{C})$; vì quan hệ (1) cũng có thể viết là $\nu(g \otimes h) = \lambda(g)\mu(h)$ với $g \in \mathcal{K}(X; \mathbf{C})$, $h \in \mathcal{K}(Y; \mathbf{C})$, nên tính *duy nhất* của $\nu$ suy ra ngay lập tức. Để chứng minh sự tồn tại của $\nu$, ta sẽ dùng bổ đề sau:
 
@@ -99,7 +99,7 @@ $$
 
 *thuộc* $\mathcal{K}(Y, L; \mathbf{C})$.
 
-Với mọi hàm $u \in \mathcal{K}(X; \mathcal{K}(Y, L; \mathbf{C}))$, tích phân $\int u(x) d\lambda(x)$ thuộc $\mathcal{K}(Y, L; \mathbf{C})$ vì không gian sau là một không gian Banach (\S 3, No. 3, Cor. 1 of Prop. 7); nhưng với $u = \omega(f)$ và với mọi $y \in Y$,
+Với mọi hàm $u \in \mathcal{K}(X; \mathcal{K}(Y, L; \mathbf{C}))$, tích phân $\int u(x) d\lambda(x)$ thuộc $\mathcal{K}(Y, L; \mathbf{C})$ vì không gian sau là một không gian Banach (§ 3, No. 3, Cor. 1 of Prop. 7); nhưng với $u = \omega(f)$ và với mọi $y \in Y$,
 
 $$
 \left\langle \int u(x) d\lambda(x), \varepsilon_y \right\rangle = \int u(x)(y) d\lambda(x) = \int f(x, y) d\lambda(x),
@@ -218,7 +218,7 @@ $$
 
 *Giá đỡ của tích $\lambda \otimes \mu$ bằng tích của giá đỡ của $\lambda$ và giá đỡ của $\mu$. \*
 
-Trước hết, ta thấy rằng quan hệ $\lambda \otimes \mu = 0$ kéo theo một trong các độ đo $\lambda, \mu$ bằng không (A, II, §7, No. 7, Mệnh đề 16, (ii)). Mặt khác, nếu U (resp. V) là một tập mở trong X (resp. Y), thì hạn chế của $\lambda \otimes \mu$ lên tích $U \times V$ là tích của các hạn chế của $\lambda$ lên U và của $\mu$ lên V, suy ra từ ĐL. 1 của No. 1 và định nghĩa của hạn chế của một độ đo trên một tập mở (\S 2, No. 1). Do đó, để hạn chế của $\lambda \otimes \mu$ trên $U \times V$ bằng không, cần và đủ rằng hoặc hạn chế của $\lambda$ trên U hoặc hạn chế của $\mu$ trên V bằng không, điều này chứng minh mệnh đề, khi xét đến định nghĩa của giá đỡ của một độ đo (\S 2, No. 2).
+Trước hết, ta thấy rằng quan hệ $\lambda \otimes \mu = 0$ kéo theo một trong các độ đo $\lambda, \mu$ bằng không (A, II, §7, No. 7, Mệnh đề 16, (ii)). Mặt khác, nếu U (resp. V) là một tập mở trong X (resp. Y), thì hạn chế của $\lambda \otimes \mu$ lên tích $U \times V$ là tích của các hạn chế của $\lambda$ lên U và của $\mu$ lên V, suy ra từ ĐL. 1 của No. 1 và định nghĩa của hạn chế của một độ đo trên một tập mở (§ 2, No. 1). Do đó, để hạn chế của $\lambda \otimes \mu$ trên $U \times V$ bằng không, cần và đủ rằng hoặc hạn chế của $\lambda$ trên U hoặc hạn chế của $\mu$ trên V bằng không, điều này chứng minh mệnh đề, khi xét đến định nghĩa của giá đỡ của một độ đo (§ 2, No. 2).
 
 #### Mệnh đề 3 {#int-iii-s4-prop-3 .statement}
 
@@ -228,7 +228,7 @@ $$
 |\lambda \otimes \mu| = |\lambda| \otimes |\mu|.
 $$
 
-Cho $f \in \mathcal{K}_+(X \times Y),\ g \in \mathcal{K}(X \times Y; \mathbf{C})$ sao cho $|g| \leq f$; ta có (\S 1, No. 6, công thức (13))
+Cho $f \in \mathcal{K}_+(X \times Y),\ g \in \mathcal{K}(X \times Y; \mathbf{C})$ sao cho $|g| \leq f$; ta có (§ 1, No. 6, công thức (13))
 
 $$
 \begin{align*}
@@ -249,7 +249,7 @@ Mặt khác, cho $u \in \mathcal{K}_+(X),\ v \in \mathcal{K}_+(Y)$. Với mọi 
 $$
 |\langle u_1, \lambda \rangle| \geq \langle u, |\lambda| \rangle - \varepsilon,\quad |\langle v_1, \mu \rangle| \geq \langle v, |\mu| \rangle - \varepsilon
 $$
-(\S 1, No. 6). Suy ra rằng $|u_1 \otimes v_1| \leq u \otimes v$ và
+(§ 1, No. 6). Suy ra rằng $|u_1 \otimes v_1| \leq u \otimes v$ và
 
 $$
 \begin{align*}
@@ -347,11 +347,11 @@ Với mọi hàm $f \in \mathcal{K}(X \times Y; \mathbf{C})$, ta biết rằng h
 
 #### Proposition 6 {#int-iii-s4-prop-6 .statement}
 
-*Khi* $\mathcal{M}(X; \mathbf{C}) , \ \mathcal{M}(Y; \mathbf{C})$ *và* $\mathcal{M}(X \times Y; \mathbf{C})$ *được trang bị tôpô của hội tụ compact chặt* (\S 1, No. 10), *ánh xạ song tuyến tính* $(\lambda, \mu) \mapsto \lambda \otimes \mu$ *từ* $\mathcal{M}(X; \mathbf{C}) \times \mathcal{M}(Y; \mathbf{C})$ *vào* $\mathcal{M}(X \times Y; \mathbf{C})$ *là nửa liên tục đối với tập các tập con bị chặn mờ của* $\mathcal{M}(X; \mathbf{C})$ *và* $\mathcal{M}(Y; \mathbf{C})$ *(TVS, III, \S 5, No. 3)*.
+*Khi* $\mathcal{M}(X; \mathbf{C}) , \ \mathcal{M}(Y; \mathbf{C})$ *và* $\mathcal{M}(X \times Y; \mathbf{C})$ *được trang bị tôpô của hội tụ compact chặt* (§ 1, No. 10), *ánh xạ song tuyến tính* $(\lambda, \mu) \mapsto \lambda \otimes \mu$ *từ* $\mathcal{M}(X; \mathbf{C}) \times \mathcal{M}(Y; \mathbf{C})$ *vào* $\mathcal{M}(X \times Y; \mathbf{C})$ *là nửa liên tục đối với tập các tập con bị chặn mờ của* $\mathcal{M}(X; \mathbf{C})$ *và* $\mathcal{M}(Y; \mathbf{C})$ *(TVS, III, § 5, No. 3)*.
 
-Cho $K \subset X , \ L \subset Y$ là hai tập compact, $A$ là một tập con compact của $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, và $B$ là một tập con bị chặn mơ hồ và đóng của $\mathcal{M}(X; \mathbf{C})$; đã biết rằng $B$ compact theo tôpô mơ hồ (\S 1, No. 9, Mệnh đề 15), do đó cũng compact đối với tôpô hội tụ compact chặt (\S 1, No. 10, Mệnh đề 17). Mặt khác, không gian Banach $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$ đẳng cự với $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ (No. 1, Bổ đề 1); ánh xạ $\varphi$ của $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C})) \times \mathcal{M}(X; \mathbf{C})$ vào $\mathcal{K}(Y, L; \mathbf{C})$, sao cho $\varphi(g, \lambda)$ là hàm $h$ được xác định bởi $h(y) = \int g(x, y) d\lambda(x)$, là *liên tục riêng rẽ* nhờ \S 3, No. 4, Mệnh đề 8 và 9. Vì $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ là barreled, suy ra ánh xạ $\varphi$ là *giả liên tục* đối với các tập con bị chặn mơ hồ của $\mathcal{M}(X; \mathbf{C})$ (TVS, III, \S 5, No. 3, Mệnh đề 6); do đó hạn chế của ánh xạ này lên $A \times B$ là *liên tục* (*loc. cit.*, Mệnh đề 4). Ảnh $C$ của $A \times B$ dưới ánh xạ này do đó là một tập con compact của không gian Banach $\mathcal{K}(Y, L; \mathbf{C})$. Khi đó, $C$ chẳng qua là tập các hàm $h(y) = \int f(x, y) d\lambda(x)$ khi $f$ chạy qua $A$ và $\lambda$ chạy qua $B$; nhờ công thức (3) của No. 1, các điều kiện $\lambda \in B$ và $\mu \in C^\circ$ do đó suy ra $\lambda \otimes \mu \in A^\circ$. Xét theo định nghĩa của tôpô hội tụ compact chặt, điều này chứng minh mệnh đề (TVS, III, \S 5, No. 3, Định nghĩa 2).
+Cho $K \subset X , \ L \subset Y$ là hai tập compact, $A$ là một tập con compact của $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$, và $B$ là một tập con bị chặn mơ hồ và đóng của $\mathcal{M}(X; \mathbf{C})$; đã biết rằng $B$ compact theo tôpô mơ hồ (§ 1, No. 9, Mệnh đề 15), do đó cũng compact đối với tôpô hội tụ compact chặt (§ 1, No. 10, Mệnh đề 17). Mặt khác, không gian Banach $\mathcal{K}(X \times Y, K \times L; \mathbf{C})$ đẳng cự với $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ (No. 1, Bổ đề 1); ánh xạ $\varphi$ của $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C})) \times \mathcal{M}(X; \mathbf{C})$ vào $\mathcal{K}(Y, L; \mathbf{C})$, sao cho $\varphi(g, \lambda)$ là hàm $h$ được xác định bởi $h(y) = \int g(x, y) d\lambda(x)$, là *liên tục riêng rẽ* nhờ § 3, No. 4, Mệnh đề 8 và 9. Vì $\mathcal{K}(X, K; \mathcal{K}(Y, L; \mathbf{C}))$ là barreled, suy ra ánh xạ $\varphi$ là *giả liên tục* đối với các tập con bị chặn mơ hồ của $\mathcal{M}(X; \mathbf{C})$ (TVS, III, § 5, No. 3, Mệnh đề 6); do đó hạn chế của ánh xạ này lên $A \times B$ là *liên tục* (*loc. cit.*, Mệnh đề 4). Ảnh $C$ của $A \times B$ dưới ánh xạ này do đó là một tập con compact của không gian Banach $\mathcal{K}(Y, L; \mathbf{C})$. Khi đó, $C$ chẳng qua là tập các hàm $h(y) = \int f(x, y) d\lambda(x)$ khi $f$ chạy qua $A$ và $\lambda$ chạy qua $B$; nhờ công thức (3) của No. 1, các điều kiện $\lambda \in B$ và $\mu \in C^\circ$ do đó suy ra $\lambda \otimes \mu \in A^\circ$. Xét theo định nghĩa của tôpô hội tụ compact chặt, điều này chứng minh mệnh đề (TVS, III, § 5, No. 3, Định nghĩa 2).
 
-Kết luận của Mệnh đề 6 không còn đúng khi tôpô hội tụ compact chặt được thay bằng tôpô mơ hồ (Bài tập 2 c)). Tuy nhiên, nếu B (tương ứng C) là một tập con bị chặn mơ hồ của $\mathcal{M}(X; \mathbf{C})$ (tương ứng $\mathcal{M}(Y; \mathbf{C})$), thì ảnh của $B \times C$ dưới ánh xạ $(\lambda, \mu) \mapsto \lambda \otimes \mu$ là bị chặn mơ hồ trong $\mathcal{M}(X \times Y; \mathbf{C})$ và do đó hạn chế của ánh xạ này lên $B \times C$ là liên tục mơ hồ, nhờ Mệnh đề 6, của \S 1, No. 10, Mệnh đề 17, và của Mệnh đề 4 của TVS, III, \S 5, No. 3 (xem Bài tập 3).
+Kết luận của Mệnh đề 6 không còn đúng khi tôpô hội tụ compact chặt được thay bằng tôpô mơ hồ (Bài tập 2 c)). Tuy nhiên, nếu B (tương ứng C) là một tập con bị chặn mơ hồ của $\mathcal{M}(X; \mathbf{C})$ (tương ứng $\mathcal{M}(Y; \mathbf{C})$), thì ảnh của $B \times C$ dưới ánh xạ $(\lambda, \mu) \mapsto \lambda \otimes \mu$ là bị chặn mơ hồ trong $\mathcal{M}(X \times Y; \mathbf{C})$ và do đó hạn chế của ánh xạ này lên $B \times C$ là liên tục mơ hồ, nhờ Mệnh đề 6, của § 1, No. 10, Mệnh đề 17, và của Mệnh đề 4 của TVS, III, § 5, No. 3 (xem Bài tập 3).
 
 ### 4. Tích của một số hữu hạn các độ đo
 
@@ -430,7 +430,7 @@ $$
 \langle {}^t p'(\mu), f \rangle = \langle \mu, f \circ p \rangle
 $$
 
-với mọi hàm $f \in \mathcal{C}(Y; \mathbf{C})$. Chú ý rằng với mọi $x \in X$, ${}^t p'(\varepsilon_x) = \varepsilon_{p(x)}$; vì lý do này, ta sẽ ký hiệu độ đo ${}^t p'(\mu)$ là $p_*(\mu)$, do đó nó mở rộng $p$ khi $X$ (tương ứng $Y$) được nhúng một cách chính tắc vào $\mathcal{M}(X; \mathbf{C})$ (tương ứng $\mathcal{M}(Y; \mathbf{C})$) (\S 1, No. 9, Mệnh đề 13); với mọi độ đo $\mu$ trên $X$, $p_*(\mu)$ là một trường hợp riêng của khái niệm tổng quát về *ảnh của một độ đo*, mà ta sẽ nghiên cứu trong Ch. V, §6. Vì, như ta đã thấy ở trên, $\|p'\| \leq 1$, ta cũng có $\|{}^t p'\| \leq 1$ và do đó
+với mọi hàm $f \in \mathcal{C}(Y; \mathbf{C})$. Chú ý rằng với mọi $x \in X$, ${}^t p'(\varepsilon_x) = \varepsilon_{p(x)}$; vì lý do này, ta sẽ ký hiệu độ đo ${}^t p'(\mu)$ là $p_*(\mu)$, do đó nó mở rộng $p$ khi $X$ (tương ứng $Y$) được nhúng một cách chính tắc vào $\mathcal{M}(X; \mathbf{C})$ (tương ứng $\mathcal{M}(Y; \mathbf{C})$) (§ 1, No. 9, Mệnh đề 13); với mọi độ đo $\mu$ trên $X$, $p_*(\mu)$ là một trường hợp riêng của khái niệm tổng quát về *ảnh của một độ đo*, mà ta sẽ nghiên cứu trong Ch. V, §6. Vì, như ta đã thấy ở trên, $\|p'\| \leq 1$, ta cũng có $\|{}^t p'\| \leq 1$ và do đó
 
 $$
 \|p_*(\mu)\| \leq \|\mu\|

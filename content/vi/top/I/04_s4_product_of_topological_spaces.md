@@ -28,9 +28,9 @@ subsections:
       pdf_page: 54
 statements: 21
 exercises: 10
-content_sha256: 1e5cf77ba2c7d50d4daff69feaa3e63475086501a77a253162e3aad8db19bc30
+content_sha256: 64b8416263c5c0ea21233e45f4cab5aca485152e11743da7d8abf3e6641a1dc6
 translated_from: content/en/top/I/04_s4_product_of_topological_spaces.md
-source_content_sha256: 1a13adb7bc7e4153dcc789210ec0e3032ec6e298f64eb440003ae30e35867a10
+source_content_sha256: 2382a23355a4b83b1e4ed36ef3546b83a36f553cf1d80a81cef3440a91efdaa1
 translation_model: gpt-5.4
 translation_run: translate-vi-40a2834b
 glossary_version: 34
@@ -44,11 +44,11 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#top-i-s4-def-1 .statement}
 
-*Cho một họ $(X_i)_{i \in I}$ các không gian tôpô, không gian tích của họ này là tập hợp tích $X = \prod_{i \in I} X_i$ được trang bị tôpô là tích của các tôpô của các $X_i$ (\S 2, no. 3, Ví dụ 3). Các không gian $X_i (i \in I)$ được gọi là các nhân tử của X.*
+*Cho một họ $(X_i)_{i \in I}$ các không gian tôpô, không gian tích của họ này là tập hợp tích $X = \prod_{i \in I} X_i$ được trang bị tôpô là tích của các tôpô của các $X_i$ (§ 2, no. 3, Ví dụ 3). Các không gian $X_i (i \in I)$ được gọi là các nhân tử của X.*
 
 Theo § 2, no. 3, Mệnh đề 4, tôpô tích trên $X$ có một cơ sở là tập hợp $\mathcal{B}$ gồm các giao hữu hạn của các tập hợp có dạng $\overline{\mathrm{pr}}_i^{-1}(U_i)$, trong đó $U_i$ là mở trong $X_i$; các tập hợp này là các tích $\prod_{i \in I} A_i$, trong đó $A_i$ là mở trong $X_i$ với mỗi $i \in I$ và $A_i = X_i$ trừ ra đối với một số hữu hạn chỉ số. Các tập hợp này sẽ được gọi là các tập hợp sơ cấp.
 
-Nếu $\mathcal{B}_i$ là một cơ sở của tôpô của $X_i$ (với mỗi $i \in I$), thì hiển nhiên là các tập hợp sơ cấp $\prod_{i \in I} A_i$ sao cho $A_i \in \mathcal{B}_i$ với mỗi chỉ số $i$ mà $A_i \neq X_i$ tạo thành một cơ sở khác của tôpô tích. Do đó, các tập hợp sơ cấp thuộc kiểu này chứa một điểm đã cho $x \in X$ tạo thành một hệ cơ bản các lân cận của $x$ ($\S 1$, no. 3, Mệnh đề 3).
+Nếu $\mathcal{B}_i$ là một cơ sở của tôpô của $X_i$ (với mỗi $i \in I$), thì hiển nhiên là các tập hợp sơ cấp $\prod_{i \in I} A_i$ sao cho $A_i \in \mathcal{B}_i$ với mỗi chỉ số $i$ mà $A_i \neq X_i$ tạo thành một cơ sở khác của tôpô tích. Do đó, các tập hợp sơ cấp thuộc kiểu này chứa một điểm đã cho $x \in X$ tạo thành một hệ cơ bản các lân cận của $x$ ($§ 1$, no. 3, Mệnh đề 3).
 
 Nếu $I$ là một tập hợp hữu hạn, phép dựng tôpô tích từ các tôpô của các thừa số $X_i$ là đơn giản hơn: các tập hợp sơ cấp chỉ đơn giản là các tích $\prod_{i \in I} A_i$, trong đó $A_i$ là một tập con mở bất kỳ của $X_i$, với mỗi $i \in I$ (x. Bài tập 9).
 
@@ -165,7 +165,7 @@ Các kết quả của tiểu mục này dễ dàng được mở rộng cho m�
 
 Trong một không gian tích $\prod_{i \in I} X_i$, bao đóng của một tích các tập hợp $\prod_{i \in I} A_i$ cũng chính là tích $\prod_{i \in I} \overline{A}_i$ của các bao đóng của chúng.
 
-Giả sử rằng $a = (a_i)$ thuộc bao đóng của $\prod_{i \in I} A_i$; khi đó với mỗi $x \in I$, $a_x = \operatorname{pr}_x a$ thuộc bao đóng của $A_x$ do tính liên tục của $\operatorname{pr}_x$ (\S 2, no. 1, Định lý 1) và vì thế $a \in \prod_{i \in I} \overline{A}_i$. Ngược lại, cho $b = (b_i) \in \prod_{i \in I} \overline{A}_i$, và cho $\prod_{i \in I} V_i$ là một tập hợp sơ cấp bất kỳ chứa $b$; với mỗi $i \in I$, $V_i$ chứa một điểm $x_i \in A_i$; do đó $\prod_{i \in I} V_i$ chứa điểm $(x_i) \in \prod_{i \in I} A_i$ và vì thế $b$ thuộc bao đóng của $\prod_{i \in I} A_i$.
+Giả sử rằng $a = (a_i)$ thuộc bao đóng của $\prod_{i \in I} A_i$; khi đó với mỗi $x \in I$, $a_x = \operatorname{pr}_x a$ thuộc bao đóng của $A_x$ do tính liên tục của $\operatorname{pr}_x$ (§ 2, no. 1, Định lý 1) và vì thế $a \in \prod_{i \in I} \overline{A}_i$. Ngược lại, cho $b = (b_i) \in \prod_{i \in I} \overline{A}_i$, và cho $\prod_{i \in I} V_i$ là một tập hợp sơ cấp bất kỳ chứa $b$; với mỗi $i \in I$, $V_i$ chứa một điểm $x_i \in A_i$; do đó $\prod_{i \in I} V_i$ chứa điểm $(x_i) \in \prod_{i \in I} A_i$ và vì thế $b$ thuộc bao đóng của $\prod_{i \in I} A_i$.
 
 #### Hệ quả {#top-i-s4-n3-cor-1 .statement}
 
@@ -230,7 +230,7 @@ $$
 
 (ii) *Nếu $A$ đóng trong $X$, thì $A = \varprojlim A_\alpha = \varprojlim \overline{A}_\alpha$.*
 
-Mệnh đề thứ nhất của (i) suy ra từ các hệ thức $f_\alpha = f_{\alpha\beta} \circ f_\beta$ với $\alpha \leq \beta$ và từ tính liên tục của các $f_{\alpha\beta}$ (\S 2, no. 1, Định lý 1). Ký hiệu $A'$ là
+Mệnh đề thứ nhất của (i) suy ra từ các hệ thức $f_\alpha = f_{\alpha\beta} \circ f_\beta$ với $\alpha \leq \beta$ và từ tính liên tục của các $f_{\alpha\beta}$ (§ 2, no. 1, Định lý 1). Ký hiệu $A'$ là
 $$
 \bigcap_\alpha \overline{f}_\alpha(\overline{A}_\alpha);
 $$
@@ -244,7 +244,7 @@ và (ii) suy ra.
 
 #### Ví dụ {#top-i-s4-n4-exa-1 .statement}
 
-Cho $I$ là một tập có hướng và $(X_\alpha)_{\alpha \in I}$ là một họ các tập con của một tập hợp $Y$, sao cho $X_\alpha \supset X_\beta$ mỗi khi $\alpha \leq \beta$. Với mỗi $\alpha \in I$ cho $\mathcal{T}_\alpha$ là một tôpô trên $X_\alpha$ sao cho $\mathcal{T}_\beta$ mịn hơn tôpô cảm sinh trên $X_\beta$ bởi $\mathcal{T}_\alpha$ mỗi khi $\alpha \leq \beta$. Nếu lấy $f_{\alpha\beta}$ là đơn ánh chính tắc $X_\beta \to X_\alpha$ đối với $\alpha \leq \beta$, thì $\lim X_\alpha$ có thể được đồng nhất một cách chính tắc với *giao* $X$ của các $X_\alpha$, được trang bị tôpô là *cận trên bé nhất* (\S 2, no. 3, Ví dụ 2) của các tôpô cảm sinh trên $X$ bởi các $\mathcal{T}_\alpha$.
+Cho $I$ là một tập có hướng và $(X_\alpha)_{\alpha \in I}$ là một họ các tập con của một tập hợp $Y$, sao cho $X_\alpha \supset X_\beta$ mỗi khi $\alpha \leq \beta$. Với mỗi $\alpha \in I$ cho $\mathcal{T}_\alpha$ là một tôpô trên $X_\alpha$ sao cho $\mathcal{T}_\beta$ mịn hơn tôpô cảm sinh trên $X_\beta$ bởi $\mathcal{T}_\alpha$ mỗi khi $\alpha \leq \beta$. Nếu lấy $f_{\alpha\beta}$ là đơn ánh chính tắc $X_\beta \to X_\alpha$ đối với $\alpha \leq \beta$, thì $\lim X_\alpha$ có thể được đồng nhất một cách chính tắc với *giao* $X$ của các $X_\alpha$, được trang bị tôpô là *cận trên bé nhất* (§ 2, no. 3, Ví dụ 2) của các tôpô cảm sinh trên $X$ bởi các $\mathcal{T}_\alpha$.
 
 ### Bài tập {#top-i-s4-exercises}
 

@@ -8,36 +8,37 @@ section_title: Graded modules and rings
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 363-377, 424-425
 pdf_pages: 0387-0401, 0448-0449
 extraction: ocr
 subsections:
     - "no": 1
       title: GRADED COMMUTATIVE GROUPS
-      page: 0
+      page: 363
       pdf_page: 387
     - "no": 2
       title: GRADED RINGS AND MODULES
-      page: 0
+      page: 364
       pdf_page: 388
     - "no": 3
       title: GRADED SUBMODULES
-      page: 0
+      page: 367
       pdf_page: 391
     - "no": 4
       title: CASE OF AN ORDERED GROUP OF DEGREES
-      page: 0
+      page: 371
       pdf_page: 395
     - "no": 5
       title: GRADED TENSOR PRODUCT OF GRADED MODULES
-      page: 0
+      page: 374
       pdf_page: 398
     - "no": 6
       title: GRADED MODULES OF GRADED HOMOMORPHISMS
-      page: 0
+      page: 375
       pdf_page: 399
 statements: 28
 exercises: 1
-content_sha256: d4032eb7a841f7ff38380677998a8eb6cef40d7835bcc3e365103ff7d5170d82
+content_sha256: 37bce07c0427eabe99cd01d758109ab262fac328c645d602b6a24c6368dc128f
 ---
 
 ## § 11. GRADED MODULES AND RINGS
@@ -66,7 +67,7 @@ When $\Delta$ is a commutative group written additively and $\rho$ the mapping $
 
 (4) Let $\Delta_0$ be a commutative monoid written additively, with identity element denoted by 0; let $I$ be any set and $\Delta_0^{(I)} = \Delta$ denote the submonoid of the product $\Delta_0^I$ consisting of the families $(\lambda_i)_{i \in I}$ of finite support. Let $\rho : \Delta \to \Delta_0$ be the surjective (codiagonal) homomorphism of $\Delta$ into $\Delta_0$ defined by $\rho((\lambda_i)) = \sum_{i \in I} \lambda_i$. From every graduation of type $\Delta$ a graduation of type $\Delta_0$ is derived by means of $\rho$ (*Example 2*); it is called the *total graduation* associated with the given "multigraduation" of type $\Delta$.
 
-The definitions and examples of this no. extend immediately to the case where $G$ is a group which is *not necessarily commutative*; it is simply necessary to replace everywhere the notion of direct sum by that of "restricted sum" (\S 1, no. 6, *Remark*). Note that in this case the $G_\lambda$ are normal subgroups of $G$ and that for $\lambda \neq \mu$ every element of $G_\lambda$ is permutable with every element of $G_\mu$.
+The definitions and examples of this no. extend immediately to the case where $G$ is a group which is *not necessarily commutative*; it is simply necessary to replace everywhere the notion of direct sum by that of "restricted sum" (§ 1, no. 6, *Remark*). Note that in this case the $G_\lambda$ are normal subgroups of $G$ and that for $\lambda \neq \mu$ every element of $G_\lambda$ is permutable with every element of $G_\mu$.
 
 ### 2. GRADED RINGS AND MODULES
 
@@ -285,7 +286,7 @@ $$
 (N/u(\mathbf{M})) \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0)
 $$
 
-is isomorphic to $(N \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0))/\mathrm{Im}(u \otimes 1)$ (\S 3, no. 6, Proposition 6). The hypothesis therefore implies $(N/u(\mathbf{M})) \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0) = 0$ and hence $\mathbf{N} = u(\mathbf{M})$ by Corollary 1.
+is isomorphic to $(N \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0))/\mathrm{Im}(u \otimes 1)$ (§ 3, no. 6, Proposition 6). The hypothesis therefore implies $(N/u(\mathbf{M})) \otimes_{\mathbf{A}} (\mathbf{A}/\mathfrak{J}_0) = 0$ and hence $\mathbf{N} = u(\mathbf{M})$ by Corollary 1.
 
 #### Remark {#alg-ii-s11-n4-rem-1 .statement}
 
@@ -304,7 +305,7 @@ This will be the case if $\Delta = \mathbf{Z}$ and $\mathbf{M}$ (resp. $\mathbf{
 
 Then $\mathbf{M}$ is a graded free $\mathbf{A}$-module (no. 2, Remark 3) and, to be precise, if $x_{i\lambda}$ is an element of $M_\lambda$ whose image in $N_\lambda$ is $y_{i\lambda}$, the family $(x_{i\lambda})_{(i, \lambda) \in I}$ (where $I$ is the set the sum of the $I_\lambda$) is a basis of $\mathbf{M}$.*
 
-We know (no. 2, *Remark 3*) that there is a graded free $\mathbf{A}$-module $\mathbf{L}$ (of graduation $(L_\lambda)$) and a surjective homomorphism $p : \mathbf{L} \to \mathbf{M}$ of degree 0 such that $p(e_{i\lambda}) = x_{i\lambda}$ for all $(i, \lambda) \in I$ ($(e_{i\lambda})_{(i, \lambda) \in I}$ being a basis of $\mathbf{L}$ consisting of homogeneous elements $e_{i\lambda} \in L_\lambda$). It follows from the above *Remark* that $p$ is *surjective*. Consider the graded $\mathbf{A}$-module $\mathbf{R} = \mathrm{Ker}(p)$ and note that $R_\lambda = \{0\}$ for $\lambda < \lambda_0$ by definition; we need to prove that $\mathbf{R} = \{0\}$ and by Proposition 6 it will suffice to show that $\mathfrak{J}_0 R = R$. Consider the commutative diagram (\S 3, no. 6, Proposition 5)
+We know (no. 2, *Remark 3*) that there is a graded free $\mathbf{A}$-module $\mathbf{L}$ (of graduation $(L_\lambda)$) and a surjective homomorphism $p : \mathbf{L} \to \mathbf{M}$ of degree 0 such that $p(e_{i\lambda}) = x_{i\lambda}$ for all $(i, \lambda) \in I$ ($(e_{i\lambda})_{(i, \lambda) \in I}$ being a basis of $\mathbf{L}$ consisting of homogeneous elements $e_{i\lambda} \in L_\lambda$). It follows from the above *Remark* that $p$ is *surjective*. Consider the graded $\mathbf{A}$-module $\mathbf{R} = \mathrm{Ker}(p)$ and note that $R_\lambda = \{0\}$ for $\lambda < \lambda_0$ by definition; we need to prove that $\mathbf{R} = \{0\}$ and by Proposition 6 it will suffice to show that $\mathfrak{J}_0 R = R$. Consider the commutative diagram (§ 3, no. 6, Proposition 5)
 
 $$
 \begin{array}{ccccccccc}
@@ -314,7 +315,7 @@ $$
 \end{array}
 $$
 
-where $j$ is the canonical injection, $a, b, c$ deriving from the canonical injection $\mathfrak{J}_0 \to A$ (\S 3, no. 4, Proposition 4); it must be shown that $a$ is surjective. Note that, as $L$ is free, $b$ is injective (\S 3, no. 7, Corollary 6 to Proposition 7) and $c$ is injective by hypothesis. Then let $t$ be an element of $R$ and $t$ its class in $R / \mathfrak{J}_0 R$; then there is an exact sequence (\S 3, no. 6, Proposition 5 and Corollary 2 to Proposition 6)
+where $j$ is the canonical injection, $a, b, c$ deriving from the canonical injection $\mathfrak{J}_0 \to A$ (§ 3, no. 4, Proposition 4); it must be shown that $a$ is surjective. Note that, as $L$ is free, $b$ is injective (§ 3, no. 7, Corollary 6 to Proposition 7) and $c$ is injective by hypothesis. Then let $t$ be an element of $R$ and $t$ its class in $R / \mathfrak{J}_0 R$; then there is an exact sequence (§ 3, no. 6, Proposition 5 and Corollary 2 to Proposition 6)
 
 $$
 R / \mathfrak{J}_0 R \xrightarrow{j} L / \mathfrak{J}_0 L \xrightarrow{\bar{p}} M / \mathfrak{J}_0 M \longrightarrow 0
@@ -322,13 +323,13 @@ $$
 
 where $j$ and $\bar{p}$ derive from $j$ and $p$ when passing to the quotients and $\bar{p}$ is by hypothesis a bijection; then $j(\bar{t}) = 0$, in other words $j(t) \in \mathfrak{J}_0 L$. Then there is an element $z \in \mathfrak{J}_0 \otimes L$ such that $j(t) = b(z)$; as $p(b(z)) = 0$, $c((1 \otimes p)(z)) = 0$ and, as $c$ is injective, $(1 \otimes p)(z) = 0$. In other words, $z$ is the image of an element $t' \in \mathfrak{J}_0 \otimes R$ under $1 \otimes j$ and then $j(a(t')) = b(z) = j(t)$; as $j$ is injective, this implies $t = a(t')$.
 
-We shall show later (Commutative Algebra, II, \S 3, no. 2, Proposition 5) how this proposition can be extended to non-graded modules.
+We shall show later (Commutative Algebra, II, § 3, no. 2, Proposition 5) how this proposition can be extended to non-graded modules.
 
 #### Lemma 1 {#alg-ii-s11-lem-1 .statement}
 
 *For a commutative group $\Delta$ to be such that there exists on $\Delta$ a total ordering compatible with the group structure of $\Delta$, it is necessary and sufficient that $\Delta$ be torsion-free.*
 
-If there exists such an order structure on $\Delta$ and if $\lambda > 0$, then $\lambda + \mu > 0$ for all $\mu \geq 0$ and in particular, by induction on the integer $n > 0$, $n.\lambda > 0$, which proves that $\Delta$ is torsion-free (since every element $\neq 0$ of $\Delta$ is either $> 0$ or $< 0$). Conversely, if $\Delta$ is torsion-free, $\Delta$ is a sub-$\mathbf{Z}$-module of a vector $\mathbf{Q}$-space (\S 7, no. 10, Corollary 1 to Proposition 26) which may be assumed of the form $\mathbf{Q}^{(I)}$; if $I$ is given a well-ordering (*Set Theory*, III, \S 2, no. 3, Theorem 1) and $\mathbf{Q}$ its usual ordering, the set $\mathbf{Q}^{(I)}$ with the *lexicographical ordering* is totally ordered (*Set Theory*, III, \S 2, no. 6); it is immediate that this ordering is compatible with the additive group structure of $\mathbf{Q}^{(I)}$.
+If there exists such an order structure on $\Delta$ and if $\lambda > 0$, then $\lambda + \mu > 0$ for all $\mu \geq 0$ and in particular, by induction on the integer $n > 0$, $n.\lambda > 0$, which proves that $\Delta$ is torsion-free (since every element $\neq 0$ of $\Delta$ is either $> 0$ or $< 0$). Conversely, if $\Delta$ is torsion-free, $\Delta$ is a sub-$\mathbf{Z}$-module of a vector $\mathbf{Q}$-space (§ 7, no. 10, Corollary 1 to Proposition 26) which may be assumed of the form $\mathbf{Q}^{(I)}$; if $I$ is given a well-ordering (*Set Theory*, III, § 2, no. 3, Theorem 1) and $\mathbf{Q}$ its usual ordering, the set $\mathbf{Q}^{(I)}$ with the *lexicographical ordering* is totally ordered (*Set Theory*, III, § 2, no. 6); it is immediate that this ordering is compatible with the additive group structure of $\mathbf{Q}^{(I)}$.
 
 #### Proposition 8 {#alg-ii-s11-prop-8 .statement}
 
@@ -340,29 +341,29 @@ Let $\Delta$ be given a total ordering compatible with its group structure (Lemm
 
 ### 5. GRADED TENSOR PRODUCT OF GRADED MODULES
 
-Let $\Delta$ be a commutative monoid with its identity element denoted by 0, $A$ a graded ring of type $\Delta$ and $M$ (resp. $N$) a graded right (resp. left) $A$-module of type $\Delta$. Let $(A_\lambda)$ (resp. $(M_\lambda), (N_\lambda)$) be the graduation of $A$ (resp. $M, N$); the tensor product $M \otimes_{\mathbf{Z}} N$ of the $\mathbf{Z}$-modules $M$ and $N$ is the direct sum of the $M_\lambda \otimes_{\mathbf{Z}} N_\mu$ (\S 3, no. 7, Proposition 7) and hence the latter form a *bigraduation* of types $\Delta, \Delta$ on this $\mathbf{Z}$-module. Consider on $M \otimes_{\mathbf{Z}} N$ the *total graduation* of type $\Delta$ associated with this bigraduation (no. 1, *Example 4*); it consists of the sub-$\mathbf{Z}$-modules $P_\lambda = \sum_{\mu + \nu = \lambda} (M_\mu \otimes_{\mathbf{Z}} N_\nu)$. It is known that the $\mathbf{Z}$-module $M \otimes_A N$ is the quotient of $M \otimes_{\mathbf{Z}} N$ by the sub-$\mathbf{Z}$-module $Q$ generated by the elements $(xa) \otimes y - x \otimes (ay)$, where $x \in M, y \in N$ and $a \in A$ (\S 3, no. 1); if, for all $\lambda \in \Delta$, $x_\lambda, y_\lambda, a_\lambda$ are the homogeneous components of degree $\lambda$ of $x, y, a$ respectively, clearly $(xa) \otimes y - x \otimes (zy)$ is the sum of the homogeneous elements $(x_\lambda a_\nu) \otimes y_\mu - x_\lambda \otimes (a_\nu y_\mu)$, in other words $Q$ is a *graded* sub-$\mathbf{Z}$-module of $M \otimes_{\mathbf{Z}} N$ (no. 3, Proposition 2) and the quotient
+Let $\Delta$ be a commutative monoid with its identity element denoted by 0, $A$ a graded ring of type $\Delta$ and $M$ (resp. $N$) a graded right (resp. left) $A$-module of type $\Delta$. Let $(A_\lambda)$ (resp. $(M_\lambda), (N_\lambda)$) be the graduation of $A$ (resp. $M, N$); the tensor product $M \otimes_{\mathbf{Z}} N$ of the $\mathbf{Z}$-modules $M$ and $N$ is the direct sum of the $M_\lambda \otimes_{\mathbf{Z}} N_\mu$ (§ 3, no. 7, Proposition 7) and hence the latter form a *bigraduation* of types $\Delta, \Delta$ on this $\mathbf{Z}$-module. Consider on $M \otimes_{\mathbf{Z}} N$ the *total graduation* of type $\Delta$ associated with this bigraduation (no. 1, *Example 4*); it consists of the sub-$\mathbf{Z}$-modules $P_\lambda = \sum_{\mu + \nu = \lambda} (M_\mu \otimes_{\mathbf{Z}} N_\nu)$. It is known that the $\mathbf{Z}$-module $M \otimes_A N$ is the quotient of $M \otimes_{\mathbf{Z}} N$ by the sub-$\mathbf{Z}$-module $Q$ generated by the elements $(xa) \otimes y - x \otimes (ay)$, where $x \in M, y \in N$ and $a \in A$ (§ 3, no. 1); if, for all $\lambda \in \Delta$, $x_\lambda, y_\lambda, a_\lambda$ are the homogeneous components of degree $\lambda$ of $x, y, a$ respectively, clearly $(xa) \otimes y - x \otimes (zy)$ is the sum of the homogeneous elements $(x_\lambda a_\nu) \otimes y_\mu - x_\lambda \otimes (a_\nu y_\mu)$, in other words $Q$ is a *graded* sub-$\mathbf{Z}$-module of $M \otimes_{\mathbf{Z}} N$ (no. 3, Proposition 2) and the quotient
 
 $$
 M \otimes_A N = (M \otimes_{\mathbf{Z}} N)/Q
 $$
 
-therefore has canonically a graded $\mathbf{Z}$-module structure of type $\Delta$ (no. 3). Moreover (no. 3, Proposition 5), the *centre* $C$ of $A$ is a graded subring of $A$; the graduation which we have just defined on $M \otimes_A N$ is *compatible with its module structure over the graded ring* $C$. For $M \otimes_{\mathbf{Z}} N$ has canonically *two* $C$-module structures, for which respectively $c(x \otimes y) = (xc) \otimes y$ and $(x \otimes y)c = x \otimes (cy)$ for $x \in M, y \in N, c \in C$ (\S 3, no. 3); if $x \in M_\lambda, y \in N_\mu, c \in C \cap A_v$, the two elements $c(x \otimes y)$ and $(x \otimes y)c$ belong to $(M \otimes_{\mathbf{Z}} N)_{\lambda + \mu + v}$ and their difference belongs to $Q$ and hence their common image in $M \otimes_A N$ belongs to $(M \otimes_A N)_{\lambda + \mu + v}$, which establishes our assertion. When we speak of $M \otimes_A N$ as a *graded* $C$-*module*, we always mean with the structure thus defined, unless otherwise mentioned. Note that $(M \otimes_A N)_\lambda$ can be defined as the additive group of $M \otimes_A N$ generated by the $x_\mu \otimes y_\nu$, where $x_\mu \in M_\mu, y_\nu \in N_\nu$ and $\mu + \nu = \lambda$.
+therefore has canonically a graded $\mathbf{Z}$-module structure of type $\Delta$ (no. 3). Moreover (no. 3, Proposition 5), the *centre* $C$ of $A$ is a graded subring of $A$; the graduation which we have just defined on $M \otimes_A N$ is *compatible with its module structure over the graded ring* $C$. For $M \otimes_{\mathbf{Z}} N$ has canonically *two* $C$-module structures, for which respectively $c(x \otimes y) = (xc) \otimes y$ and $(x \otimes y)c = x \otimes (cy)$ for $x \in M, y \in N, c \in C$ (§ 3, no. 3); if $x \in M_\lambda, y \in N_\mu, c \in C \cap A_v$, the two elements $c(x \otimes y)$ and $(x \otimes y)c$ belong to $(M \otimes_{\mathbf{Z}} N)_{\lambda + \mu + v}$ and their difference belongs to $Q$ and hence their common image in $M \otimes_A N$ belongs to $(M \otimes_A N)_{\lambda + \mu + v}$, which establishes our assertion. When we speak of $M \otimes_A N$ as a *graded* $C$-*module*, we always mean with the structure thus defined, unless otherwise mentioned. Note that $(M \otimes_A N)_\lambda$ can be defined as the additive group of $M \otimes_A N$ generated by the $x_\mu \otimes y_\nu$, where $x_\mu \in M_\mu, y_\nu \in N_\nu$ and $\mu + \nu = \lambda$.
 
 Let $M'$ (resp. $N'$) be another graded right (resp. left) $A$-module and $u : M \to M', v : N \to N'$ graded homomorphisms of respective degrees $\alpha$ and $\beta$. Then it follows immediately from the above remark that $u \otimes v$ is a *graded* (C-module) homomorphism of degree $\alpha + \beta$.
 
-When $A$ is commutative, a graduation (compatible with the $A$-module structure) is similarly defined on the tensor product of any finite number of graded $A$-modules; it is moreover immediate that the associativity isomorphisms such as $(M \otimes N) \otimes P \to M \otimes (N \otimes P)$ ($\S 3$, no. 8, Proposition 8) are isomorphisms of *graded* modules.
+When $A$ is commutative, a graduation (compatible with the $A$-module structure) is similarly defined on the tensor product of any finite number of graded $A$-modules; it is moreover immediate that the associativity isomorphisms such as $(M \otimes N) \otimes P \to M \otimes (N \otimes P)$ ($§ 3$, no. 8, Proposition 8) are isomorphisms of *graded* modules.
 
 #### Remark {#alg-ii-s11-n5-rem-1 .statement}
 
 When $A$ has the *trivial* graduation (no. 1, *Example* 1), $(M \otimes_A N)_\lambda$ is then simply the direct sum of the sub-$Y$-modules $M_\mu \otimes_A N_\nu$ of $M \otimes_A N$ such that $\mu + \nu = \lambda$.
 
-Let $M$ (resp. $N$) be a graded right (resp. left) $A$-module of type $\Delta$, $P$ a graded $\mathbf{Z}$-module of type $\Delta$ and let $f$ be a $\mathbf{Z}$-bilinear mapping of $M \times N$ into $P$ satisfying condition (1) of $\S 3$, no. 1, and such moreover that
+Let $M$ (resp. $N$) be a graded right (resp. left) $A$-module of type $\Delta$, $P$ a graded $\mathbf{Z}$-module of type $\Delta$ and let $f$ be a $\mathbf{Z}$-bilinear mapping of $M \times N$ into $P$ satisfying condition (1) of $§ 3$, no. 1, and such moreover that
 $$
 f(x_\lambda, y_\mu) \in P_{\lambda+\mu} \quad \text{for } x_\lambda \in M_\lambda, y_\mu \in N_\mu, \lambda, \mu \text{ in } \Delta.
 $$
-Then $f(x, y) = g(x \otimes y)$, where $g : M \otimes_A N \to P$ is a $\mathbf{Z}$-linear mapping ($\S 3$, no. 1, Proposition 1) and it follows from the above condition that $g$ is a *graded* $\mathbf{Z}$-module homomorphism of degree 0.
+Then $f(x, y) = g(x \otimes y)$, where $g : M \otimes_A N \to P$ is a $\mathbf{Z}$-linear mapping ($§ 3$, no. 1, Proposition 1) and it follows from the above condition that $g$ is a *graded* $\mathbf{Z}$-module homomorphism of degree 0.
 
-Let $B$ be another graded ring of type $\Delta$ and $\rho : A \to B$ a homomorphism of graded rings (no. 2); then $\rho^*(B_d)$ is a graded right $A$-module of type $\Delta$. If $E$ is a graded left $A$-module of type $\Delta$ and $\rho^*(B_d) \otimes_A E$ is given the graded $\mathbf{Z}$-module structure of type $\Delta$ defined above, the canonical left $B$-module structure ($\S 5$, no. 1) is compatible with the graduation of
+Let $B$ be another graded ring of type $\Delta$ and $\rho : A \to B$ a homomorphism of graded rings (no. 2); then $\rho^*(B_d)$ is a graded right $A$-module of type $\Delta$. If $E$ is a graded left $A$-module of type $\Delta$ and $\rho^*(B_d) \otimes_A E$ is given the graded $\mathbf{Z}$-module structure of type $\Delta$ defined above, the canonical left $B$-module structure ($§ 5$, no. 1) is compatible with the graduation of
 $$
 E_{(B)} = \rho^*(E) = \rho^*(B_d) \otimes_A E.
 $$
@@ -370,7 +371,7 @@ The graded $B$-module thus obtained is said to be obtained by extending the ring
 
 ### 6. GRADED MODULES OF GRADED HOMOMORPHISMS
 
-We suppose in this no. that the monoid $\Delta$ is a *group*. Let $A$ be a graded ring of type $\Delta$ and $M, N$ two graded left (for example) $A$-modules of type $\Delta$. Let $H_\lambda$ denote the additive group of *graded homomorphisms of degree* $\lambda$ of $M$ into $N$ (no. 2); in the additive group $\mathrm{Hom}_A(M, N)$ of *all* homomorphisms of $M$ into $N$ (with the *non-graded* $A$-module structures) the sum (for $\lambda \in \Delta$) of the $H_\lambda$ is *direct*. For, if there is a relation $\sum_\lambda u_\lambda = 0$ with $u_\lambda \in H_\lambda$ for all $\lambda$, it follows that $\sum_\lambda u_\lambda(x_\mu) = 0$ for all $\mu$ and all $x_\mu \in M_\mu$. As the elements of $\Delta$ are cancellable, $u_\lambda(x_\mu)$ is the homogeneous component of $\sum_\lambda u_\lambda(x_\mu)$ of degree $\lambda + \mu$; hence $u_\lambda(x_\mu) = 0$ for every ordered pair $(\mu, \lambda)$ and every $x_\mu \in M_\mu$, which implies $u_\lambda = 0$ for all $\lambda \in \Delta$. We shall denote (in this paragraph) by $\mathrm{Homgr}_A(M, N)$ the additive subgroup of $\mathrm{Hom}_A(M, N)$ the sum of the $H_\lambda$ and we shall call it the additive group of *graded* $A$-*module homomorphisms* of $M$ into $N$. Let $C$ be the centre of $A$, which is a graded subring (no. 3, Corollary to Proposition 5); for the canonical $C$-module structure on $\mathrm{Hom}_A(M, N)$ ($\S 1$, no. 14, *Remark* 1), $\mathrm{Homgr}_A(M, N)$ is a *submodule* and the graduation $(H_\lambda)$ is *compatible* with the $C$-module structure: for, if $c_v \in C \cap A_v$, $x_\mu \in N_\mu$ and $u_\lambda \in H_\lambda$, then by definition $(c_vu_\lambda)(x_\mu) = c_v.u_\lambda(x_\mu) \subset N_{\lambda+\mu+v}$ and hence $c_vu_\lambda \in H_{\lambda+v}$.
+We suppose in this no. that the monoid $\Delta$ is a *group*. Let $A$ be a graded ring of type $\Delta$ and $M, N$ two graded left (for example) $A$-modules of type $\Delta$. Let $H_\lambda$ denote the additive group of *graded homomorphisms of degree* $\lambda$ of $M$ into $N$ (no. 2); in the additive group $\mathrm{Hom}_A(M, N)$ of *all* homomorphisms of $M$ into $N$ (with the *non-graded* $A$-module structures) the sum (for $\lambda \in \Delta$) of the $H_\lambda$ is *direct*. For, if there is a relation $\sum_\lambda u_\lambda = 0$ with $u_\lambda \in H_\lambda$ for all $\lambda$, it follows that $\sum_\lambda u_\lambda(x_\mu) = 0$ for all $\mu$ and all $x_\mu \in M_\mu$. As the elements of $\Delta$ are cancellable, $u_\lambda(x_\mu)$ is the homogeneous component of $\sum_\lambda u_\lambda(x_\mu)$ of degree $\lambda + \mu$; hence $u_\lambda(x_\mu) = 0$ for every ordered pair $(\mu, \lambda)$ and every $x_\mu \in M_\mu$, which implies $u_\lambda = 0$ for all $\lambda \in \Delta$. We shall denote (in this paragraph) by $\mathrm{Homgr}_A(M, N)$ the additive subgroup of $\mathrm{Hom}_A(M, N)$ the sum of the $H_\lambda$ and we shall call it the additive group of *graded* $A$-*module homomorphisms* of $M$ into $N$. Let $C$ be the centre of $A$, which is a graded subring (no. 3, Corollary to Proposition 5); for the canonical $C$-module structure on $\mathrm{Hom}_A(M, N)$ ($§ 1$, no. 14, *Remark* 1), $\mathrm{Homgr}_A(M, N)$ is a *submodule* and the graduation $(H_\lambda)$ is *compatible* with the $C$-module structure: for, if $c_v \in C \cap A_v$, $x_\mu \in N_\mu$ and $u_\lambda \in H_\lambda$, then by definition $(c_vu_\lambda)(x_\mu) = c_v.u_\lambda(x_\mu) \subset N_{\lambda+\mu+v}$ and hence $c_vu_\lambda \in H_{\lambda+v}$.
 
 Let $M'$ and $N'$ be two graded left $A$-modules of type $\Delta$ and $u': M' \to M$, $v': N \to N'$ graded homomorphisms of respective degrees $\alpha$ and $\beta$. Then it is immediate that $\mathrm{Hom}(u', v'): w \mapsto v' \circ w \circ u'$ maps $\mathrm{Homgr}_A(M, N)$ into $\mathrm{Homgr}_A(M', N')$ and that its restriction to $\mathrm{Homgr}_A(M, N)$ is a *graded* homomorphism into $\mathrm{Homgr}_A(M', N')$ *of degree* $\alpha + \beta$.
 
@@ -378,9 +379,9 @@ In particular $\mathrm{Homgr}_A(M, M)$ is a *graded subring* of $\mathrm{End}_A(
 
 #### Remark {#alg-ii-s11-n6-rem-1 .statement}
 
-If $M$ and $N$ are graded left $A$-modules, $\mathrm{Homgr}_A(M, N)$ is in general distinct from $\mathrm{Hom}_A(M, N)$. However these two sets are equal when $M$ is a *finitely generated* $A$-module. For $M$ is then generated by a finite number of homogeneous elements $x_i$ ($1 \leq i \leq n$); let $d(i)$ be the degree of $x_i$; let $u \in \mathrm{Hom}_A(M, N)$ and for all $\lambda \in \Delta$ let $z_{i,\lambda}$ denote the homogeneous component of $u(x_i)$ of degree $\lambda + d(i)$. We show that there exists a homomorphism $u_\lambda : M \to N$ such that $u_\lambda(x_i) = z_{i,\lambda}$ for all $i$. It suffices to prove that if $\sum_i a_ix_i = 0$ with $a_i \in A$ for $1 \leq i \leq n$, then $\sum_i a_iz_{i,\lambda} = 0$ for all $\lambda \in \Delta$ ($\S 1$, no. 7, *Remark*). It can be assumed that each $a_i$ is homogeneous of degree $d'(i)$ such that $d(i) + d'(i) = \mu$ for all $i$ (no. 3, *Remark* 1); then $\sum_i a_iu(x_i) = 0$; taking the homogeneous component of degree $\lambda + \mu$ on the left-hand side, we obtain $\sum_i a_iz_{i,\lambda} = 0$, whence the existence of the homomorphism $u_\lambda$; clearly moreover $u_\lambda$ is *graded* of degree $\lambda$. Finally, $u_\lambda = 0$ except for a finite number of values of $\lambda$, and $u = \sum_\lambda u_\lambda$ by definition, which proves our assertion.
+If $M$ and $N$ are graded left $A$-modules, $\mathrm{Homgr}_A(M, N)$ is in general distinct from $\mathrm{Hom}_A(M, N)$. However these two sets are equal when $M$ is a *finitely generated* $A$-module. For $M$ is then generated by a finite number of homogeneous elements $x_i$ ($1 \leq i \leq n$); let $d(i)$ be the degree of $x_i$; let $u \in \mathrm{Hom}_A(M, N)$ and for all $\lambda \in \Delta$ let $z_{i,\lambda}$ denote the homogeneous component of $u(x_i)$ of degree $\lambda + d(i)$. We show that there exists a homomorphism $u_\lambda : M \to N$ such that $u_\lambda(x_i) = z_{i,\lambda}$ for all $i$. It suffices to prove that if $\sum_i a_ix_i = 0$ with $a_i \in A$ for $1 \leq i \leq n$, then $\sum_i a_iz_{i,\lambda} = 0$ for all $\lambda \in \Delta$ ($§ 1$, no. 7, *Remark*). It can be assumed that each $a_i$ is homogeneous of degree $d'(i)$ such that $d(i) + d'(i) = \mu$ for all $i$ (no. 3, *Remark* 1); then $\sum_i a_iu(x_i) = 0$; taking the homogeneous component of degree $\lambda + \mu$ on the left-hand side, we obtain $\sum_i a_iz_{i,\lambda} = 0$, whence the existence of the homomorphism $u_\lambda$; clearly moreover $u_\lambda$ is *graded* of degree $\lambda$. Finally, $u_\lambda = 0$ except for a finite number of values of $\lambda$, and $u = \sum_\lambda u_\lambda$ by definition, which proves our assertion.
 
-In particular, $\mathrm{Homgr}_A(A_s, M) = \mathrm{Hom}_A(A_s, M)$ for every graded left $A$-module $M$; moreover $\mathrm{Hom}_A(A_s, M)$ has a *graded left A-module* structure (and not just a graded $C$-module structure), and it is immediate that with this structure the canonical mapping of $M$ into $\mathrm{Hom}_A(A_s, M)$ ($\S 1$, no. 14, *Remark* 2) is a *graded A-module isomorphism*.
+In particular, $\mathrm{Homgr}_A(A_s, M) = \mathrm{Hom}_A(A_s, M)$ for every graded left $A$-module $M$; moreover $\mathrm{Hom}_A(A_s, M)$ has a *graded left A-module* structure (and not just a graded $C$-module structure), and it is immediate that with this structure the canonical mapping of $M$ into $\mathrm{Hom}_A(A_s, M)$ ($§ 1$, no. 14, *Remark* 2) is a *graded A-module isomorphism*.
 
 Similarly, $\mathrm{Homgr}_A(M, A_s)$ has a *graded right A-module* structure (and not only a graded $C$-module structure); it is called the *graded dual* of the graded $A$-module $M$ and is denoted by $M^{*\mathrm{gr}}$, or simply $M^*$ when no confusion results. If $u : M \to N$ is a graded homomorphism of degree $\delta$, it follows from the above that the restriction to $N^{*\mathrm{gr}}$ of ${}^t u = \mathrm{Hom}(u, 1_{A_s})$ is a graded homomorphism of the graded dual $N^{*\mathrm{gr}}$ into the graded dual $M^{*\mathrm{gr}}$, of degree $\delta$, called the *graded transpose* of $u$.
 

@@ -36,9 +36,9 @@ subsections:
       pdf_page: 88
 statements: 28
 exercises: 24
-content_sha256: 737235081e66413ef165082ac447558f4430ff4b5d4987b15a7e263176d30fb7
+content_sha256: 31e89de76d209caece3ce19f9bba9230689e420ea2de27cd580a919cf9279395
 translated_from: content/en/top/I/08_s8_hausdorff_spaces_and_regular_spaces.md
-source_content_sha256: 095423ce546f09bce22cf54a776d11e826637014b4d70bfe4a684e945a43a3bb
+source_content_sha256: f1786c8e71990c5b477a3226adfcfe52fdd3cc7520408bdd42e9767c604fb35d
 translation_model: gpt-5.4
 translation_run: translate-vi-d9a27e24
 glossary_version: 34
@@ -81,11 +81,11 @@ và
 
 (Hiv) $\Longrightarrow$ (H): Giả sử $x \neq y$ và mọi lân cận $V$ của $x$ đều gặp mọi lân cận $W$ của $y$. Khi đó các tập hợp $V \cap W$ tạo thành một cơ sở của một bộ lọc mà cả $x$ lẫn $y$ đều là các điểm giới hạn, điều này trái với giả thiết.
 
-(H) $\Longrightarrow$ (Hiii): Cho $(x) = (x_i)$ là một điểm của $X^I$ không thuộc đường chéo $\Delta$. Khi đó tồn tại ít nhất hai chỉ số $\lambda, \mu$ sao cho $x_\lambda \neq x_\mu$. Gọi $V_\lambda$ (resp. $V_\mu$) là một lân cận của $x_\lambda$ (resp. $x_\mu$) trong $X$, sao cho $V_\lambda \cap V_\mu = \varnothing$; khi đó tập hợp $W = V_\lambda \times V_\mu \times \prod_{i \neq \lambda, \mu} X_i$ (trong đó $X_i = X$ nếu $i \neq \lambda, \mu$) là một lân cận của $x$ trong $X^I$ (\S 4, no. 1) không giao với $\Delta$. Do đó $\Delta$ là đóng trong $X^I$.
+(H) $\Longrightarrow$ (Hiii): Cho $(x) = (x_i)$ là một điểm của $X^I$ không thuộc đường chéo $\Delta$. Khi đó tồn tại ít nhất hai chỉ số $\lambda, \mu$ sao cho $x_\lambda \neq x_\mu$. Gọi $V_\lambda$ (resp. $V_\mu$) là một lân cận của $x_\lambda$ (resp. $x_\mu$) trong $X$, sao cho $V_\lambda \cap V_\mu = \varnothing$; khi đó tập hợp $W = V_\lambda \times V_\mu \times \prod_{i \neq \lambda, \mu} X_i$ (trong đó $X_i = X$ nếu $i \neq \lambda, \mu$) là một lân cận của $x$ trong $X^I$ (§ 4, no. 1) không giao với $\Delta$. Do đó $\Delta$ là đóng trong $X^I$.
 
 (Hiii) $\Longrightarrow$ (Hii): Hiển nhiên.
 
-(Hii) $\Longrightarrow$ (H): Nếu $x \neq y$ thì $(x, y) \in X \times X$ không thuộc đường chéo $\Delta$, do đó (\$ 4, no. 1) tồn tại một lân cận $V$ của $x$ và một lân cận $W$ của $y$ trong $X$ sao cho $(V \times W) \cap \Delta = \varnothing$, điều đó có nghĩa là
+(Hii) $\Longrightarrow$ (H): Nếu $x \neq y$ thì $(x, y) \in X \times X$ không thuộc đường chéo $\Delta$, do đó (§ 4, no. 1) tồn tại một lân cận $V$ của $x$ và một lân cận $W$ của $y$ trong $X$ sao cho $(V \times W) \cap \Delta = \varnothing$, điều đó có nghĩa là
 $$
 V \cap W = \varnothing.
 $$
@@ -100,7 +100,7 @@ Tiên đề (H) là *tiên đề Hausdorff*.
 
 Mọi không gian rời rạc đều là Hausdorff. Đường thẳng hữu tỉ $Q$ là Hausdorff, vì nếu $x, y$ là hai số hữu tỉ sao cho $x < y$ thì tồn tại một số hữu tỉ $z$ sao cho $x < z < y$, và các lân cận ]$\leftarrow, z[$ của $x$ và ]$z, \rightarrow[$ của $y$ không giao nhau.
 
-Một tập hợp $X$ có ít nhất hai điểm và được trang bị tôpô thô nhất (\$ 2, no. 2) không phải là một không gian Hausdorff.
+Một tập hợp $X$ có ít nhất hai điểm và được trang bị tôpô thô nhất (§ 2, no. 2) không phải là một không gian Hausdorff.
 
 Cho $f : X \to Y$ là một ánh xạ từ một tập hợp $X$ vào một không gian *Hausdorff* $Y$; khi đó suy ra ngay lập tức từ Mệnh đề 1 rằng $f$ có thể có *nhiều nhất một giới hạn* đối với một bộ lọc $\mathfrak{F}$ trên $X$, và nếu $f$ có $y$ là một giới hạn đối với $\mathfrak{F}$, thì $y$ là *điểm tụ duy nhất* của $f$ đối với $\mathfrak{F}$.
 
@@ -108,7 +108,7 @@ Cho $f : X \to Y$ là một ánh xạ từ một tập hợp $X$ vào một khô
 
 *Cho $f, g$ là hai ánh xạ liên tục từ một không gian tôpô $X$ vào một không gian Hausdorff $Y$; khi đó tập hợp tất cả các $x \in X$ sao cho $f(x) = g(x)$ là đóng trong $X$.*
 
-Vì tập hợp này là ảnh ngược của đường chéo của $Y \times Y$ dưới ánh xạ $x \mapsto (f(x), g(x))$, ánh xạ này liên tục (\$ 4, no. 1, Mệnh đề 1). Do đó kết quả suy ra từ (Hii) và \$ 2, no. 1, Định lý 1.
+Vì tập hợp này là ảnh ngược của đường chéo của $Y \times Y$ dưới ánh xạ $x \mapsto (f(x), g(x))$, ánh xạ này liên tục (§ 4, no. 1, Mệnh đề 1). Do đó kết quả suy ra từ (Hii) và § 2, no. 1, Định lý 1.
 
 #### Hệ quả 1 (Nguyên lý mở rộng các đồng nhất thức) {#top-i-s8-prop-2-cor-1 .statement}
 
@@ -160,7 +160,7 @@ Cho $V'$ và $W'$ lần lượt là các lân cận rời nhau của $f(x)$ và 
 
 *Một không gian tôpô $X$ là Hausdorff nếu mỗi điểm của $X$ có một lân cận đóng là một không gian con Hausdorff của $X$.*
 
-Cho $x \in X$ và cho $V$ là một lân cận đóng của $x$ trong $X$ sao cho không gian con $V$ là Hausdorff. Khi đó các lân cận đóng của $x$ trong $V$ có giao là $\{x\}$ (tiên đề (H\textsuperscript{'})); nhưng chúng cũng là các lân cận đóng của $x$ trong $X$ (\S 3, no. 1) và do đó $X$ thỏa mãn (H\textsuperscript{i}).
+Cho $x \in X$ và cho $V$ là một lân cận đóng của $x$ trong $X$ sao cho không gian con $V$ là Hausdorff. Khi đó các lân cận đóng của $x$ trong $V$ có giao là $\{x\}$ (tiên đề (H\textsuperscript{'})); nhưng chúng cũng là các lân cận đóng của $x$ trong $X$ (§ 3, no. 1) và do đó $X$ thỏa mãn (H\textsuperscript{i}).
 
 Tồn tại các không gian *không Hausdorff* mà trong đó mỗi điểm đều có một lân cận Hausdorff (Bài tập 7).
 
@@ -168,13 +168,13 @@ Tồn tại các không gian *không Hausdorff* mà trong đó mỗi điểm đ�
 
 *Mọi tích của các không gian Hausdorff đều là Hausdorff. Ngược lại, nếu một tích của các không gian khác rỗng là Hausdorff, thì mỗi nhân tử là một không gian Hausdorff.*
 
-Cho $X = \prod_{i \in I} X_i$ là một tích các không gian tôpô. Khi đó nếu $x, y$ là hai điểm phân biệt của $X$, ta có $\operatorname{pr}_i x \neq \operatorname{pr}_i y$ đối với một chỉ số $i$, và Mệnh đề 5 của no. 1 cho thấy rằng $X$ là Hausdorff nếu các $X_i$ là Hausdorff. Ngược lại, nếu $X$ là Hausdorff và các $X_i$ là không rỗng, thì mỗi $X_i$ đẳng cấu đồng phôi với một không gian con của $X$ (\S 4, no. 2, Mệnh đề 4) và do đó là Hausdorff.
+Cho $X = \prod_{i \in I} X_i$ là một tích các không gian tôpô. Khi đó nếu $x, y$ là hai điểm phân biệt của $X$, ta có $\operatorname{pr}_i x \neq \operatorname{pr}_i y$ đối với một chỉ số $i$, và Mệnh đề 5 của no. 1 cho thấy rằng $X$ là Hausdorff nếu các $X_i$ là Hausdorff. Ngược lại, nếu $X$ là Hausdorff và các $X_i$ là không rỗng, thì mỗi $X_i$ đẳng cấu đồng phôi với một không gian con của $X$ (§ 4, no. 2, Mệnh đề 4) và do đó là Hausdorff.
 
 #### Hệ quả 1 {#top-i-s8-prop-7-cor-1 .statement}
 
 *Cho $X$ là một tập hợp, cho $(Y_i)_{i \in I}$ là một họ các không gian tôpô Hausdorff, và với mỗi $i \in I$ cho $f_i$ là một ánh xạ từ $X$ vào $Y_i$. Trang bị cho $X$ tôpô thô nhất $\mathcal{T}$ sao cho các $f_i$ đều liên tục. Khi đó, điều kiện cần và đủ để $X$ là Hausdorff là với mỗi cặp điểm phân biệt $x, y$ của $X$ ta có $f_i(x) \neq f_i(y)$ đối với một chỉ số $i \in I$ nào đó.*
 
-Điều kiện là đủ do Mệnh đề 5 của no. 1. Ngược lại, giả sử $X$ là Hausdorff; đặt $Y = \prod_{i \in I} Y_i$ và $f = (f_i)_{i \in I}$ là ánh xạ $x \to (f_i(x))$. Theo Mệnh đề 7 ở trên, $Y$ là Hausdorff, và theo Mệnh đề 3 của \S 4, no. 1, $\mathcal{T}$ là ảnh ngược theo $f$ của tôpô của $Y$. Nếu $f(x) = f(y)$ với hai điểm phân biệt $x, y$ của $X$ thì hiển nhiên mọi tập mở (trong tôpô $\mathcal{T}$) chứa $x$ cũng chứa $y$, trái với giả thiết rằng $X$ là Hausdorff.
+Điều kiện là đủ do Mệnh đề 5 của no. 1. Ngược lại, giả sử $X$ là Hausdorff; đặt $Y = \prod_{i \in I} Y_i$ và $f = (f_i)_{i \in I}$ là ánh xạ $x \to (f_i(x))$. Theo Mệnh đề 7 ở trên, $Y$ là Hausdorff, và theo Mệnh đề 3 của § 4, no. 1, $\mathcal{T}$ là ảnh ngược theo $f$ của tôpô của $Y$. Nếu $f(x) = f(y)$ với hai điểm phân biệt $x, y$ của $X$ thì hiển nhiên mọi tập mở (trong tôpô $\mathcal{T}$) chứa $x$ cũng chứa $y$, trái với giả thiết rằng $X$ là Hausdorff.
 
 #### Hệ quả 2 {#top-i-s8-prop-7-cor-2 .statement}
 
@@ -182,7 +182,7 @@ Cho $X = \prod_{i \in I} X_i$ là một tích các không gian tôpô. Khi đó 
 
 Mệnh đề thứ nhất suy ra từ sự kiện rằng $X$ là một không gian con của không gian Hausdorff $\prod_\alpha X_\alpha$ (Mệnh đề 7). Để chỉ ra rằng $X$ là đóng trong không gian tích, gọi $F_{\alpha \beta}$ ($\alpha \leq \beta$) là tập con của $\prod_\alpha X_\alpha$ gồm các điểm $x$ sao cho $\operatorname{pr}_\alpha x = f_{\alpha \beta}(\operatorname{pr}_\beta x)$; các $F_{\alpha \beta}$ là đóng trong $\prod_\alpha X_\alpha$ (no. 1, Mệnh đề 2), do đó giao của chúng là $X$ cũng đóng.
 
-Hiển nhiên, mọi *tổng* của các không gian Hausdorff (\S 2, no. 4, Ví dụ 3) đều là một không gian Hausdorff.
+Hiển nhiên, mọi *tổng* của các không gian Hausdorff (§ 2, no. 4, Ví dụ 3) đều là một không gian Hausdorff.
 
 ### 3. CÁC KHÔNG GIAN THƯƠNG HAUSDORFF
 
@@ -194,11 +194,11 @@ Hãy tìm các điều kiện để một không gian thương $X/R$ là *Hausdo
 
 *Điều kiện cần để không gian thương $X/R$ là Hausdorff là đồ thị $C$ của $R$ đóng trong $X \times X$. Nếu quan hệ tương đương $R$ là mở, thì điều kiện này cũng đủ.*
 
-Cho $\varphi : X \to X/R$ là ánh xạ chính tắc; khi đó $C$ là ảnh ngược theo $\varphi \times \varphi : X \times X \to (X/R) \times (X/R)$ của đường chéo $\Delta$ của $(X/R) \times (X/R)$. Phần thứ nhất của mệnh đề do đó suy ra từ tính liên tục của $\varphi \times \varphi$ [Tiên đề (Hii) và Định lý 1 của § 2, no. 1]. Nếu $R$ là mở thì $(X/R) \times (X/R)$ có thể được đồng nhất với không gian thương $(X \times X)/(R \times R)$ ($\S 5$, no. 3, hệ quả của Mệnh đề 8), và khi đó $\Delta$ được đồng nhất với ảnh chính tắc trong $(X \times X)/(R \times R)$ của tập hợp $C$, tập hợp này bão hòa đối với $R \times R$. Vậy $\Delta$ là đóng trong $X \times X$ và do đó $X$ là Hausdorff.
+Cho $\varphi : X \to X/R$ là ánh xạ chính tắc; khi đó $C$ là ảnh ngược theo $\varphi \times \varphi : X \times X \to (X/R) \times (X/R)$ của đường chéo $\Delta$ của $(X/R) \times (X/R)$. Phần thứ nhất của mệnh đề do đó suy ra từ tính liên tục của $\varphi \times \varphi$ [Tiên đề (Hii) và Định lý 1 của § 2, no. 1]. Nếu $R$ là mở thì $(X/R) \times (X/R)$ có thể được đồng nhất với không gian thương $(X \times X)/(R \times R)$ ($§ 5$, no. 3, hệ quả của Mệnh đề 8), và khi đó $\Delta$ được đồng nhất với ảnh chính tắc trong $(X \times X)/(R \times R)$ của tập hợp $C$, tập hợp này bão hòa đối với $R \times R$. Vậy $\Delta$ là đóng trong $X \times X$ và do đó $X$ là Hausdorff.
 
 Nếu $R$ không mở, thì có những ví dụ trong đó $C$ là đóng nhưng $R$ không Hausdorff (Bài tập 10 và 28).
 
-Để chứng tỏ rằng $X/R$ là Hausdorff ta cũng có thể áp dụng Mệnh đề 5 của no. 1: $M$ và $N$ là hai lớp tương đương phân biệt của $R$ thì điều kiện đủ là tồn tại một ánh xạ liên tục $f$ từ một tập con mở $A$ của $X$, bão hòa đối với $R$ và chứa $M$ và $N$, vào một không gian Hausdorff $X'$, sao cho 1) $f$ là hằng trên mỗi lớp tương đương mod $R$ được chứa trong $A$, 2) $f$ nhận các giá trị phân biệt trên $M$ và $N$. Thật vậy, vì $A/R_A$ có thể được đồng nhất với một tập con mở của $X/R$ ($\S 3$, no. 6, Mệnh đề 10, Hệ quả 1), ta có thể áp dụng Mệnh đề 5 của no. 1 cho ánh xạ $g : A/R_A \to X'$ được cảm sinh bởi $f$, vì $g$ liên tục ($\S 3$, no. 4, Mệnh đề 6).
+Để chứng tỏ rằng $X/R$ là Hausdorff ta cũng có thể áp dụng Mệnh đề 5 của no. 1: $M$ và $N$ là hai lớp tương đương phân biệt của $R$ thì điều kiện đủ là tồn tại một ánh xạ liên tục $f$ từ một tập con mở $A$ của $X$, bão hòa đối với $R$ và chứa $M$ và $N$, vào một không gian Hausdorff $X'$, sao cho 1) $f$ là hằng trên mỗi lớp tương đương mod $R$ được chứa trong $A$, 2) $f$ nhận các giá trị phân biệt trên $M$ và $N$. Thật vậy, vì $A/R_A$ có thể được đồng nhất với một tập con mở của $X/R$ ($§ 3$, no. 6, Mệnh đề 10, Hệ quả 1), ta có thể áp dụng Mệnh đề 5 của no. 1 cho ánh xạ $g : A/R_A \to X'$ được cảm sinh bởi $f$, vì $g$ liên tục ($§ 3$, no. 4, Mệnh đề 6).
 
 Đặc biệt:
 
@@ -210,7 +210,7 @@ Nếu $R$ không mở, thì có những ví dụ trong đó $C$ là đóng nhưn
 
 *Nếu $X$ là một không gian Hausdorff, và nếu $X$ có một tiết diện liên tục $s$ đối với quan hệ tương đương $R$, thì $X/R$ là Hausdorff và $s(X/R)$ đóng trong $X$.*
 
-Theo ($\S 3$, no. 5), $X/R$ đồng phôi với không gian con $s(X/R)$ của $X$, không gian này là Hausdorff. Hơn nữa $s(X/R)$ là tập hợp tất cả các $x \in X$ sao cho $s(\varphi(x)) = x$, trong đó $\varphi : X \to X/R$ là ánh xạ chính tắc; do đó mệnh đề thứ hai suy ra từ no. 1, Mệnh đề 2.
+Theo ($§ 3$, no. 5), $X/R$ đồng phôi với không gian con $s(X/R)$ của $X$, không gian này là Hausdorff. Hơn nữa $s(X/R)$ là tập hợp tất cả các $x \in X$ sao cho $s(\varphi(x)) = x$, trong đó $\varphi : X \to X/R$ là ánh xạ chính tắc; do đó mệnh đề thứ hai suy ra từ no. 1, Mệnh đề 2.
 
 ### 4. KHÔNG GIAN CHÍNH QUY
 
@@ -283,7 +283,7 @@ b) $\lim_{x_2, \mathfrak{F}_2} f(x_1, x_2) = g(x_1)$ tồn tại với mọi $x_
 
 Khi đó $\lim_{x_1, \mathfrak{F}_1} g(x_1)$ tồn tại và bằng $\lim_{\mathfrak{F}_1 \times \mathfrak{F}_2} f$.
 
-Cho $X'_1 = X_1 \cup \{\omega_1\}$ (tương ứng $X'_2 = X_2 \cup \{\omega_2\}$) là không gian tôpô *liên kết với bộ lọc* $\mathfrak{F}_1$ (tương ứng $\mathfrak{F}_2$) (\S 6, no. 5, Ví dụ). Trong không gian tích $X' = X'_1 \times X'_2$ gọi $X''$ là hợp của các không gian con $X_1 \times X'_2$ và $\{(\omega_1, \omega_2)\}$. $X$ rõ ràng là một không gian con trù mật của $X''$, và các giả thiết kéo theo rằng $f(y_1, y_2)$ tiến tới một giới hạn khi $(y_1, y_2)$ tiến tới bất kỳ điểm nào $(x_1, x_2)$ của $X''$ trong khi vẫn nằm trong $X$. Khi đó sự tồn tại của mở rộng của $f$ bằng tính liên tục lên $X''$ suy ra từ Định lý 1. Vì $(\omega_1, \omega_2)$ cũng nằm trong bao đóng của $X_1 \times \{\omega_2\}$ tương đối đối với $X''$, kết quả suy ra ngay lập tức (\S 7, no. 5).
+Cho $X'_1 = X_1 \cup \{\omega_1\}$ (tương ứng $X'_2 = X_2 \cup \{\omega_2\}$) là không gian tôpô *liên kết với bộ lọc* $\mathfrak{F}_1$ (tương ứng $\mathfrak{F}_2$) (§ 6, no. 5, Ví dụ). Trong không gian tích $X' = X'_1 \times X'_2$ gọi $X''$ là hợp của các không gian con $X_1 \times X'_2$ và $\{(\omega_1, \omega_2)\}$. $X$ rõ ràng là một không gian con trù mật của $X''$, và các giả thiết kéo theo rằng $f(y_1, y_2)$ tiến tới một giới hạn khi $(y_1, y_2)$ tiến tới bất kỳ điểm nào $(x_1, x_2)$ của $X''$ trong khi vẫn nằm trong $X$. Khi đó sự tồn tại của mở rộng của $f$ bằng tính liên tục lên $X''$ suy ra từ Định lý 1. Vì $(\omega_1, \omega_2)$ cũng nằm trong bao đóng của $X_1 \times \{\omega_2\}$ tương đối đối với $X''$, kết quả suy ra ngay lập tức (§ 7, no. 5).
 
 ### 6. QUAN HỆ TƯƠNG ĐƯƠNG TRÊN MỘT KHÔNG GIAN CHÍNH QUY
 

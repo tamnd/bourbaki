@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: c0d7c8b724352f8b0f88aedc95fe9241b73de923d6f20ae8f8560d6971352e3d
+content_sha256: 0bb759b2ee3f2642c3cb5cbb61bbe2b238f671b8a55c5bd0897c6be64264dcf6
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -62,7 +62,7 @@ Si $\Phi$ est une forme $\varepsilon$-hermitienne sur E, on a $\Phi(x, y) = \var
 
 L’application $(y, x) \to \overline{\Phi(x, y)}$ étant sesquilinéaire pour J, pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que l’on ait $\Phi(y, x) = \varepsilon \overline{\Phi(x, y)}$ lorsque $x$ et $y$ parcourent un système de générateurs de E. En particulier, si E admet une base finie $(e_i)_{1 \leq i \leq n}$, pour qu’une forme sesquilinéaire $\Phi$ sur E soit $\varepsilon$-hermitienne, il faut et il suffit que sa matrice $R = (\rho_{ij}) = (\Phi(e_i, e_j))$ vérifie les relations $\rho_{ji} = \varepsilon \overline{\rho_{ij}}$ quels que soient $i, j$, c’est-à-dire $'R = \varepsilon \overline{R}$ ; une matrice $R$ possédant cette propriété est dite $\varepsilon$-hermitienne. Lorsque $\varepsilon = 1$ (resp. $-1$) on dit que $R$ est hermitienne (resp. antihermitienne) relativement à l’antiautomorphisme J. Lorsque J est l’identité (donc A commutatif), une matrice hermitienne (resp. antihermitienne) $R$ est telle que $'R = R$ (resp. $'R = -R$) ; on dit alors que $R$ est une matrice symétrique (resp. antisymétrique). Pour que $\Phi$ soit une forme alternée, il faut et il suffit que sa matrice soit antisymétrique et, en outre, que les termes diagonaux de $R$ soient tous nuls ; une matrice possédant ces propriétés est dite alternée.
 
-Soit $\Phi$ une forme sesquilinéaire sur $E$, et soient $s_\Phi$ et $d_\Phi$ les applications de $E$ dans $E^*$ associées à $\Phi$ à gauche et à droite ($\S 1$, n° 6). Pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que $\langle x, s_\Phi(y) \rangle = \bar{\varepsilon} \langle x, d_\Phi(y) \rangle$ quels que soient les éléments $x, y$ de $E$, donc que $s_\Phi = \bar{\varepsilon} d_\Phi$, ou encore que $\langle x, d_\Phi(y) \rangle = \varepsilon \langle x, s_\Phi(y) \rangle$, donc que $d_\Phi = \varepsilon s_\Phi$.
+Soit $\Phi$ une forme sesquilinéaire sur $E$, et soient $s_\Phi$ et $d_\Phi$ les applications de $E$ dans $E^*$ associées à $\Phi$ à gauche et à droite ($§ 1$, n° 6). Pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que $\langle x, s_\Phi(y) \rangle = \bar{\varepsilon} \langle x, d_\Phi(y) \rangle$ quels que soient les éléments $x, y$ de $E$, donc que $s_\Phi = \bar{\varepsilon} d_\Phi$, ou encore que $\langle x, d_\Phi(y) \rangle = \varepsilon \langle x, s_\Phi(y) \rangle$, donc que $d_\Phi = \varepsilon s_\Phi$.
 
 Soit $\Phi$ une forme $\varepsilon$-hermitienne telle que l’application $d_\Phi$ de $E$ dans $E^*$ associée à droite à $\Phi$ soit bijective. Pour tout endomorphisme $u$ de $E$ on a alors
 $$
@@ -77,7 +77,7 @@ $$
 $$
 donc $u^{**(x)} = \varepsilon \bar{\varepsilon} u(x)$ puisque $\Phi$ est non dégénérée.
 
-Si $\Phi$ est une forme $\varepsilon$-hermitienne telle que les applications $s_\Phi$ et $d_\Phi$ soient bijectives, alors la *forme inverse* $\widehat{\Phi}$ de $\Phi$ ($\S 1$, n° 7) *est une forme* $\bar{\varepsilon}$-hermitienne. En effet, en posant $s = s_\Phi$, $d = d_\Phi$ pour abréger, on déduit de $d = \varepsilon s$ que $s^{-1} = \bar{\varepsilon} d^{-1}$, $s$ étant semi-linéaire. Par suite, quels que soient $u, v$ dans $E$, on a
+Si $\Phi$ est une forme $\varepsilon$-hermitienne telle que les applications $s_\Phi$ et $d_\Phi$ soient bijectives, alors la *forme inverse* $\widehat{\Phi}$ de $\Phi$ ($§ 1$, n° 7) *est une forme* $\bar{\varepsilon}$-hermitienne. En effet, en posant $s = s_\Phi$, $d = d_\Phi$ pour abréger, on déduit de $d = \varepsilon s$ que $s^{-1} = \bar{\varepsilon} d^{-1}$, $s$ étant semi-linéaire. Par suite, quels que soient $u, v$ dans $E$, on a
 $$
 \widehat{\Phi}(u, v) = \Phi(s^{-1}(u), d^{-1}(v)) = \bar{\varepsilon} \Phi(d^{-1}(u), d^{-1}(v)),
 $$
@@ -87,7 +87,7 @@ $$
 $$
 puisque, $\varepsilon$ est dans le centre de $A$.
 
-Enfin, lorsque l’anneau $A$ est commutatif, les prolongements canoniques d’une forme $\varepsilon$-hermitienne $\Phi$ aux puissances tensorielle et extérieure $\bigotimes^p E$ et $\wedge^p E$ de $E$ sont des formes $\varepsilon^p$-hermitiennes, comme il résulte aussitôt des formules (35) et (37) du $\S 1$, n° 9.
+Enfin, lorsque l’anneau $A$ est commutatif, les prolongements canoniques d’une forme $\varepsilon$-hermitienne $\Phi$ aux puissances tensorielle et extérieure $\bigotimes^p E$ et $\wedge^p E$ de $E$ sont des formes $\varepsilon^p$-hermitiennes, comme il résulte aussitôt des formules (35) et (37) du $§ 1$, n° 9.
 
 ### 2. *Modules sur une extension quadratique*.
 
@@ -148,7 +148,7 @@ Il résulte de ceci que, pour qu’une forme sesquilinéaire $\Phi = \Phi_1 + i 
 #### Remarque 1 {#alg-ix-s3-n3-rem-1 .statement}
 
 Les formules (7) et (8) montrent que, si $x \in E$, pour que l’on ait $\Phi(x, x') = 0$ pour tout $x' \in E'$, il faut et il suffit que $\Phi_1(x, x') = 0$ (resp. $\Phi_2(x, x') = 0$) pour tout $x' \in E'$.
-2) L’adjoint d’un endomorphisme $u$ de $E$ par rapport à $\Phi$ ($\S 1$, n° 8) est le même que l’adjoint de $u$ (considéré comme endomorphisme de $E_0$) par rapport à $\Phi_1$ (resp. $\Phi_2$).
+2) L’adjoint d’un endomorphisme $u$ de $E$ par rapport à $\Phi$ ($§ 1$, n° 8) est le même que l’adjoint de $u$ (considéré comme endomorphisme de $E_0$) par rapport à $\Phi_1$ (resp. $\Phi_2$).
 
 ### 4. Formes quadratiques.
 
@@ -196,7 +196,7 @@ la dernière sommation étant étendue aux sous-ensembles $\{i, j\}$ de $I$ ayan
 
 En effet, comme la formule (16) n’est qu’une transcription de la formule (14), l’unicité d’une forme quadratique $Q$ vérifiant (15) est démontrée. Pour démontrer son existence, remarquons d’abord qu’il existe une famille $(b'_{ij})$ d’éléments de $A$ telle que $b'_{ii} = b_{ii}$ et que $b'_{ij} + b'_{ji} = b_{ij}$ pour $i \neq j$; on obtient par exemple une telle famille en munissant $I$ d’une structure d’ensemble totalement ordonné (*Ens.*, chap. III, § 2, n° 3, th. 1) et en posant $b'_{ij} = b_{ij}$ pour $i < j$ et $b'_{ij} = 0$ pour $i > j$. Comme les $e_i$ forment une base de $E$, il existe une forme bilinéaire $f$ sur $E \times E$ telle que $f(e_i, e_j) = b'_{ij}$; en posant $Q'(x) = f(x, x)$ et en désignant par $\Phi'$ la forme bilinéaire associée à la forme quadratique $Q'$, on obtient $Q'(e_i) = b_{ii}$ et $\Phi'(e_i, e_j) = f(e_i, e_j) + f(e_j, e_i) = b_{ij}$. Ceci démontre notre seconde assertion. Quant à la première, elle en résulte aussitôt car, en vertu de l’unicité, si une forme quadratique $Q$ vérifie (15), on a $Q(x) = Q'(x) = f(x, x)$.
 
-Le module $E$ muni de la structure définie par une forme quadratique $Q$ prend le nom de *module quadratique*. Un homomorphisme du module quadratique $(E, Q)$ dans un module quadratique $(E', Q')$ est une application linéaire $u$ de $E$ dans $E'$ telle que $Q = Q' \circ u$; si $\Phi$ et $\Phi'$ sont les formes bilinéaires associées à $Q$ et $Q'$, on a alors $\Phi(x, y) = \Phi'(u(x), u(y))$ pour $x \in E,\ y \in E$; autrement dit $\Phi'$ est l’image réciproque de $\Phi$ par $u$ (\S 1, n° 1). On dit que deux formes quadratiques $Q$ et $Q'$ sur deux $A$-modules $E$ et $E'$ sont *équivalentes* si les modules quadratiques correspondants sont isomorphes.
+Le module $E$ muni de la structure définie par une forme quadratique $Q$ prend le nom de *module quadratique*. Un homomorphisme du module quadratique $(E, Q)$ dans un module quadratique $(E', Q')$ est une application linéaire $u$ de $E$ dans $E'$ telle que $Q = Q' \circ u$; si $\Phi$ et $\Phi'$ sont les formes bilinéaires associées à $Q$ et $Q'$, on a alors $\Phi(x, y) = \Phi'(u(x), u(y))$ pour $x \in E,\ y \in E$; autrement dit $\Phi'$ est l’image réciproque de $\Phi$ par $u$ (§ 1, n° 1). On dit que deux formes quadratiques $Q$ et $Q'$ sur deux $A$-modules $E$ et $E'$ sont *équivalentes* si les modules quadratiques correspondants sont isomorphes.
 
 Soit $(E_i, Q_i)_{i \in I}$ une famille de modules quadratiques, et soit $E$ la somme directe des modules $E_i$. On appelle *somme directe externe* des modules quadratiques $(E_i, Q_i)$ le module quadratique obtenu en munissant $E$ de la forme quadratique $Q$ définie par $Q(\sum_i x_i) = \sum_i Q_i(x_i)$ pour $x_i \in E_i$. On dit aussi que la forme quadratique $Q$ est la *somme directe externe* des formes quadratiques $Q_i$.
 
@@ -260,7 +260,7 @@ b) Si $M_1, M_2$ sont deux sous-espaces vectoriels de $E$, montrer que l’on a 
 ¶ 4) a) Soient $A$ un anneau (commutatif ou non), $\sigma$ un automorphisme de $A$ tel qu’il existe un élément inversible $\gamma \in A$ vérifiant $\gamma^\sigma = \gamma$, et tel que l’on ait $\xi^{\sigma^2} = \gamma \xi \gamma^{-1}$ pour tout $\xi \in A$. Soit $B$ un $A$-module à gauche ayant une base de deux éléments $(e_1, e_2)$; montrer qu’on définit sur $B$ une structure d’anneau en prenant comme multiplication dans $B$ la loi de composition
 
 $$
-(\xi e_1 + \eta e_2)(\xi' e_1 + \eta' e_2) = (\xi \xi' + \eta \eta' \gamma) e_1 + (\eta \xi'^\sigma + \xi \eta') e_2.
+(\xi e_1 + \eta e_2)(\xi' e_1 + \eta' e_2) = (\xi \xi' + \eta \eta' \gamma) e_1 + (\eta {\xi'}^\sigma + \xi \eta') e_2.
 $$
 
 Pour cette structure d’anneau, $e_1$ est élément unité (qu’on identifie avec l’élément unité 1 de $A$); si on pose $e_2 = \rho$, on a $\rho^2 = \gamma$ et $\rho \xi = \xi^\sigma \rho$ pour tout $\xi \in A$; en outre, $B$ est un $A$-module à droite, dont 1 et $\rho$ forment une base. Si $A$ est un corps, une condition nécessaire et suffisante pour que $B$ soit un corps est que $\gamma$ ne soit pas de la forme $\lambda^\sigma \lambda$ (où $\lambda \in A$). (Cf. chap. VIII, § 12, exerc. 8).
@@ -299,19 +299,19 @@ d) Soit $u$ un automorphisme du A-module E. Pour que $u$ soit un automorphisme d
 $$
 \sum_{\{i, j\}} b_{ij} a_{\lambda i} a_{\lambda j} = \sum_{j \neq i} b_{ij} a_{\lambda j} + 2b_{ii} a_{\lambda i} = 0;
 $$
-on a alors $Q(\sum a_i x_i) = \sum_{\{i, j\}} b_{ij} a_i a_j$. En déduire une nouvelle démonstration de la prop. 3 du no 4. (Remarquer que les $x'_i = 1 \otimes x_i$ forment un système de générateurs de $A' \otimes_A E$, et que le $A'$-module $A' \otimes_A E$ est isomorphe à $A'^{(1)}/R'$, où $A'^{(1)}$ est identifié à $A' \otimes_A A^{(1)}$ et $R'$ est engendré par l’image de R par l’application canonique de $A^{(1)}$ dans $A'^{(1)}$.
+on a alors $Q(\sum a_i x_i) = \sum_{\{i, j\}} b_{ij} a_i a_j$. En déduire une nouvelle démonstration de la prop. 3 du no 4. (Remarquer que les $x'_i = 1 \otimes x_i$ forment un système de générateurs de $A' \otimes_A E$, et que le $A'$-module $A' \otimes_A E$ est isomorphe à ${A'}^{(1)}/R'$, où ${A'}^{(1)}$ est identifié à $A' \otimes_A A^{(1)}$ et $R'$ est engendré par l’image de R par l’application canonique de $A^{(1)}$ dans ${A'}^{(1)}$.
 
 6) Soient $A$ un anneau commutatif de caractéristique 2, $E$ un $A$-module libre, $\mathcal{A}$ (resp. $\mathcal{S}$, $\mathcal{Q}$) le $A$-module des formes bilinéaires alternées (resp. bilinéaires symétriques, quadratiques) sur $E$. On a $\mathcal{A} \subset \mathcal{S}$; on définit en outre une application linéaire $\omega$ de $\mathcal{S}$ dans $\mathcal{Q}$, et une application linéaire $\theta$ de $\mathcal{Q}$ dans $\mathcal{A}$ de la façon suivante : pour toute forme bilinéaire $\Phi \in \mathcal{S}$, $\omega(\Phi)$ est la forme quadratique $x \to \Phi(x, x)$, et pour toute forme quadratique $Q \in \mathcal{Q}$, $\theta(Q)$ est la forme bilinéaire associée à $Q$, qui est alternée. Montrer que $\omega(0) = \mathcal{A}$, $\theta(\mathcal{Q}) = \mathcal{A}$ et $\theta(0) = \omega(\mathcal{S})$.
 
 ¶ 7) Soient $A$ un anneau commutatif, $E, F$ deux $A$-modules. On dit qu’une application $Q$ de $E$ dans $F$ est *quadratique* si elle satisfait aux conditions suivantes : $1^\circ$ $Q(\alpha x) = \alpha^2 Q(x)$ pour $\alpha \in A, x \in E$; $2^\circ$ l’application $(x, y) \to Q(x + y) - Q(x) - Q(y)$ de $E \times E$ dans $F$ est bilinéaire. Si $f$ est une application linéaire d’un $A$-module $E_1$ dans $E$, $Q \circ f$ est une application quadratique de $E_1$ dans $F$.
 
-$a)$ Soient $E$ un $A$-module, $A^{(E)}$ le module des combinaisons linéaires formelles des éléments de $E$ à coefficients dans $A$ (chap. II, § 1, no 8), et pour tout $x \in E$, soit $\varepsilon_x$ l’élément correspondant de la base canonique de $A^{(E)}$. Soit $\Gamma^2(E)$ le quotient de $A^{(E)} \times (E \otimes_A E)$ par le sous-module $R$ engendré par les éléments $(\varepsilon_{x+y} - \varepsilon_x - \varepsilon_y, -x \otimes y)$ et $(\varepsilon_{\lambda x} - \lambda^2 \varepsilon_x, 0)$, pour $x \in E, y \in E, \lambda \in A$. Pour tout $x \in E$, on pose $\gamma(x) = \varphi(\varepsilon_x, 0)$, en désignant par $\varphi$ l’application canonique de $A^{(E)} \times (E \otimes E)$ sur $\Gamma^2(E)$; on dit que $\gamma$ est l'*application canonique* de $E$ dans $\Gamma^2(E)$. Montrer que $\gamma$ est une application quadratique de $E$ dans $\Gamma^2(E)$ et que, pour toute application quadratique $Q$ de $E$ dans un $A$-module $F$, il existe une application *linéaire* et une seule $q$ de $\Gamma^2(E)$ dans $F$ telle que $Q = q \circ \gamma$ (en d’autres termes, $(\Gamma^2(E), \gamma)$ est solution d’un problème d’application universelle ; cf. *Ens.*, chap. IV, § 3).
+a) Soient $E$ un $A$-module, $A^{(E)}$ le module des combinaisons linéaires formelles des éléments de $E$ à coefficients dans $A$ (chap. II, § 1, no 8), et pour tout $x \in E$, soit $\varepsilon_x$ l’élément correspondant de la base canonique de $A^{(E)}$. Soit $\Gamma^2(E)$ le quotient de $A^{(E)} \times (E \otimes_A E)$ par le sous-module $R$ engendré par les éléments $(\varepsilon_{x+y} - \varepsilon_x - \varepsilon_y, -x \otimes y)$ et $(\varepsilon_{\lambda x} - \lambda^2 \varepsilon_x, 0)$, pour $x \in E, y \in E, \lambda \in A$. Pour tout $x \in E$, on pose $\gamma(x) = \varphi(\varepsilon_x, 0)$, en désignant par $\varphi$ l’application canonique de $A^{(E)} \times (E \otimes E)$ sur $\Gamma^2(E)$; on dit que $\gamma$ est l'*application canonique* de $E$ dans $\Gamma^2(E)$. Montrer que $\gamma$ est une application quadratique de $E$ dans $\Gamma^2(E)$ et que, pour toute application quadratique $Q$ de $E$ dans un $A$-module $F$, il existe une application *linéaire* et une seule $q$ de $\Gamma^2(E)$ dans $F$ telle que $Q = q \circ \gamma$ (en d’autres termes, $(\Gamma^2(E), \gamma)$ est solution d’un problème d’application universelle ; cf. *Ens.*, chap. IV, § 3).
 
 Pour tout couple de $A$-modules $E, E'$ et toute application linéaire $f$ de $E$ dans $E'$, montrer que, si $\gamma'$ désigne l’application canonique de $E'$ dans $\Gamma^2(E')$, il existe une et une seule application linéaire $\bar{f}$ de $\Gamma^2(E)$ dans $\Gamma^2(E')$ telle que $\gamma' \circ f = \bar{f} \circ \gamma$.
 
-$b)$ On suppose que $E$ est somme directe de deux sous-modules $M, N$. Définir un isomorphisme canonique de $\Gamma^2(E)$ sur la somme directe des modules $\Gamma^2(M), \Gamma^2(N)$ et $M \otimes N$ (montrer que cette somme directe est solution du même problème d’application universelle que $\Gamma^2(E)$).
+b) On suppose que $E$ est somme directe de deux sous-modules $M, N$. Définir un isomorphisme canonique de $\Gamma^2(E)$ sur la somme directe des modules $\Gamma^2(M), \Gamma^2(N)$ et $M \otimes N$ (montrer que cette somme directe est solution du même problème d’application universelle que $\Gamma^2(E)$).
 
-$c)$ Soient $F$ un sous-module de $E$, $j$ l’injection canonique de $F$ dans $E$. Définir un isomorphisme canonique de $\Gamma^2(E/F)$ sur
+c) Soient $F$ un sous-module de $E$, $j$ l’injection canonique de $F$ dans $E$. Définir un isomorphisme canonique de $\Gamma^2(E/F)$ sur
 
 $$
 \Gamma^2(E)/(\bar{j}(\Gamma^2(F)) + \psi(E \times F)),
@@ -319,9 +319,9 @@ $$
 
 où $\psi(x, y) = \varphi(0, x \otimes j(y))$ pour $x \in E, y \in F$. (Même méthode).
 
-$d)$ Soient $A'$ un anneau commutatif, $h$ un homomorphisme de $A$ dans $A'$. Définir un isomorphisme canonique de $\Gamma^2(A' \otimes_A E)$ sur $A' \otimes_A \Gamma^2(E)$ (même méthode).
+d) Soient $A'$ un anneau commutatif, $h$ un homomorphisme de $A$ dans $A'$. Définir un isomorphisme canonique de $\Gamma^2(A' \otimes_A E)$ sur $A' \otimes_A \Gamma^2(E)$ (même méthode).
 
-$e)$ Il existe une application linéaire et une seule $s$ de $\Gamma^2(E)$ dans $E \otimes E$ telle que $s(\gamma(x)) = x \otimes x$ pour tout $x \in E$; montrer que si $E$ est un module libre, s est un isomorphisme sur le sous-module des tenseurs symétriques d’ordre 2 sur E.
+e) Il existe une application linéaire et une seule $s$ de $\Gamma^2(E)$ dans $E \otimes E$ telle que $s(\gamma(x)) = x \otimes x$ pour tout $x \in E$; montrer que si $E$ est un module libre, s est un isomorphisme sur le sous-module des tenseurs symétriques d’ordre 2 sur E.
 
 f) On suppose que $A = \mathbf{Z}$ et que E est un groupe cyclique fini d’ordre n. Montrer que $\Gamma^2(E)$ est un groupe cyclique d’ordre n si n est impair, d’ordre $2n$ si n est pair. (Remarquer d’abord que si a est un générateur de E, $\gamma(a)$ est un générateur de $\Gamma^2(E)$, et que $\gamma(-ha) = \gamma(ha)$ pour tout entier h ; déduire de là que si n est impair, $n\gamma(a) = 0$ en prenant $h = (n-1)/2$; montrer de même que $2n\gamma(a) = 0$ si n est pair. Prouver enfin que si n est impair (resp. pair), il existe une application quadratique Q de E dans un groupe cyclique d’ordre n (resp. $2n$) appliquant a sur un générateur de ce groupe).
 

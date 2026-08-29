@@ -41,9 +41,9 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: d95ddee4e4bca1c252c7dc595c647899b98e45b75dfcf1631b2a20cae12b57b8
+content_sha256: 5a924b8a556f4d3ffe17c0d9bb117b1c37238d340628987dd8cf6e4cc7e1db11
 translated_from: content/en/alg/I/06_s6_extensions_solvable_groups_nilpotent.md
-source_content_sha256: be0e26ecf82aeb97df1892fe9532d8fae275bae2d34183c1c9c07879b6539a95
+source_content_sha256: 5e97e8733a0ddc8d0586f23204c8a05ccc9e62763723a694e63593829f247770
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-91a0ea53
 glossary_version: 34
@@ -189,7 +189,7 @@ $$
 (f' \circ f)(gb) = f'(\gamma(g)f(b)) = \gamma'(\gamma(g))f'(f(b))
 $$
 điều đó chứng tỏ rằng $f' \circ f \in A$ và $p(f' \circ f) = p(f')p(f)$. Mặt khác, $f(\gamma^{-1}(g)f^{-1}(b)) = gb$, do đó $f^{-1}(gb) = \gamma^{-1}(g)f^{-1}(b)$ và $f^{-1} \in A$. Vậy $A$ là một nhóm con của $\mathcal{S}_E$ và $p$ là một đồng cấu từ $A$ vào $\Gamma$. Nhân của $p$ là tập hợp $\mathrm{Aut}_G(E)$ gồm các tự đẳng cấu của $G$-tập hợp $E$.
-Ta cố định $a \in E$. Trong § 5, no. 6, ta đã định nghĩa một đẳng cấu $\psi_a$ của $G^0$ lên $\mathrm{Aut}_G(E)$ sao cho $\psi_a(x)(ga) = gxa$ với mọi $g, x$ trong $G$. Mặt khác, với $\gamma \in \Gamma$, cho $s_a(\gamma)$ là phép hoán vị của $E$ được xác định bởi $s_a(\gamma)(ga) = \gamma(g)a$ với mọi $g \in G$; ta kiểm tra ngay rằng $s_a$ là một đồng cấu từ $\Gamma$ vào $A$ sao cho $p \circ s_a = \mathrm{Id}_{\tau}$. Vậy $G^0 \xrightarrow{\psi_a} A \xrightarrow{p} \Gamma$ là một mở rộng của $\Gamma$ bởi $G^0$ và $s_a$ là một tiết diện của mở rộng này. Mở rộng này và tiết diện này xác định một phép toán của $\Gamma$ trên $G^0$, trong đó $s_a(\Gamma)$ tác động lên $\psi_a(G^0)$ bởi các tự đẳng cấu nội; ta viết phép toán này theo lối số mũ. Ta chỉ ra rằng phép toán này là phép toán tự nhiên ($\S 3$, no. 1, Ví dụ 3): với $x, g$ trong $G$ và $\gamma \in \Gamma$,
+Ta cố định $a \in E$. Trong § 5, no. 6, ta đã định nghĩa một đẳng cấu $\psi_a$ của $G^0$ lên $\mathrm{Aut}_G(E)$ sao cho $\psi_a(x)(ga) = gxa$ với mọi $g, x$ trong $G$. Mặt khác, với $\gamma \in \Gamma$, cho $s_a(\gamma)$ là phép hoán vị của $E$ được xác định bởi $s_a(\gamma)(ga) = \gamma(g)a$ với mọi $g \in G$; ta kiểm tra ngay rằng $s_a$ là một đồng cấu từ $\Gamma$ vào $A$ sao cho $p \circ s_a = \mathrm{Id}_{\tau}$. Vậy $G^0 \xrightarrow{\psi_a} A \xrightarrow{p} \Gamma$ là một mở rộng của $\Gamma$ bởi $G^0$ và $s_a$ là một tiết diện của mở rộng này. Mở rộng này và tiết diện này xác định một phép toán của $\Gamma$ trên $G^0$, trong đó $s_a(\Gamma)$ tác động lên $\psi_a(G^0)$ bởi các tự đẳng cấu nội; ta viết phép toán này theo lối số mũ. Ta chỉ ra rằng phép toán này là phép toán tự nhiên ($§ 3$, no. 1, Ví dụ 3): với $x, g$ trong $G$ và $\gamma \in \Gamma$,
 $$
 (\psi_a(\gamma x))(ga) = (s_a(\gamma) \circ \psi_a(x) \circ s_a(\gamma)^{-1})(ga)
 = (s_a(\gamma) \circ \psi_a(x))(\gamma^{-1}(g)a) = s_a(\gamma)(\gamma^{-1}(g)xa)
@@ -558,17 +558,17 @@ là một chuỗi Jordan-Hölder của $G$. Để $G$ giải được, cần và
 
 ### 5. $p$-NHÓM
 
-Trong mục này và mục sau, chữ $p$ biểu thị một số nguyên tố ($\S 4$, no 10, Mệnh đề 16).
+Trong mục này và mục sau, chữ $p$ biểu thị một số nguyên tố ($§ 4$, no 10, Mệnh đề 16).
 
 #### Định nghĩa 9 {#alg-i-s6-def-9 .statement}
 
 Một nhóm hữu hạn có cấp là một lũy thừa của $p$ được gọi là một $p$-nhóm.
 
-Cho $G$ là một $p$-nhóm có cấp $p^r$. Mọi ước của $p^r$ đều là một lũy thừa của $p$ ($\S 4$, no. 10, Hệ quả của Định lý 7). Do đó mọi nhóm con và mọi nhóm thương của $G$ đều là một $p$-nhóm ($\S 4$, no. 4, Hệ quả của Mệnh đề 4); lực lượng của mọi không gian thuần nhất của $G$ là một lũy thừa của $p$ ($\S 5$, no. 5, Định lý 1).
+Cho $G$ là một $p$-nhóm có cấp $p^r$. Mọi ước của $p^r$ đều là một lũy thừa của $p$ ($§ 4$, no. 10, Hệ quả của Định lý 7). Do đó mọi nhóm con và mọi nhóm thương của $G$ đều là một $p$-nhóm ($§ 4$, no. 4, Hệ quả của Mệnh đề 4); lực lượng của mọi không gian thuần nhất của $G$ là một lũy thừa của $p$ ($§ 5$, no. 5, Định lý 1).
 
 Một mở rộng của một $p$-nhóm bởi một $p$-nhóm là một $p$-nhóm.
 
-*Ví dụ. (1) Một $p$-nhóm giao hoán đẳng cấu với một tích của các nhóm tuần hoàn $\mathbf{Z}/p^n\mathbf{Z}$ (cf. Bài tập 19 và cả VII, $\S 4$, no. 7, Mệnh đề 7).
+*Ví dụ. (1) Một $p$-nhóm giao hoán đẳng cấu với một tích của các nhóm tuần hoàn $\mathbf{Z}/p^n\mathbf{Z}$ (cf. Bài tập 19 và cả VII, $§ 4$, no. 7, Mệnh đề 7).
 (2) Cho $k$ là một trường hữu hạn có đặc số $p$. Nhóm tam giác ngặt $T_1(n, k)$ là một $p$-nhóm.
 (3) Nhóm quaternionic $\{ \pm 1, \pm i, \pm j, \pm k \}$ là một 2-nhóm (cf. Bài tập 4).*
 
@@ -603,7 +603,7 @@ $$
 
 *sao cho* $(G, G^k) \subset G^{k+1}, 1 \leq k \leq r,$ và $G^k/G^{k+1}, 1 \leq k \leq r,$ *là chu trình cấp* $p$.
 
-Định lý đúng với $G = \{e\}$. Chúng tôi chứng minh nó bằng quy nạp trên $\operatorname{Card}(G)$. Gọi Z là tâm của G, $x \neq e$ là một phần tử của Z (Hệ quả của Mệnh đề 11) và $p^s, s \neq 0,$ là cấp của x. Khi đó $x^{p^s - 1}$ là một phần tử có cấp $p$ và do đó Z chứa một nhóm con $G'$ chu trình cấp $p$. Theo giả thiết quy nạp, nhóm $G' = G/G'$ có một dãy các nhóm con $({G'}^k)_{1 \leq k \leq r}$ với các tính chất yêu cầu. Gọi $\pi : G \to G'$ là đồng cấu chính tắc. Dãy các nhóm con của G được xác định bởi $G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$ là một nghiệm vì $G^k/G^{k+1}$ đẳng cấu với ${G'}^k/{G'}^{k+1}$ với $1 \leq k \leq r$ (\S 4, no. 7, Định lý 4).
+Định lý đúng với $G = \{e\}$. Chúng tôi chứng minh nó bằng quy nạp trên $\operatorname{Card}(G)$. Gọi Z là tâm của G, $x \neq e$ là một phần tử của Z (Hệ quả của Mệnh đề 11) và $p^s, s \neq 0,$ là cấp của x. Khi đó $x^{p^s - 1}$ là một phần tử có cấp $p$ và do đó Z chứa một nhóm con $G'$ chu trình cấp $p$. Theo giả thiết quy nạp, nhóm $G' = G/G'$ có một dãy các nhóm con $({G'}^k)_{1 \leq k \leq r}$ với các tính chất yêu cầu. Gọi $\pi : G \to G'$ là đồng cấu chính tắc. Dãy các nhóm con của G được xác định bởi $G^k = \pi^{-1}({G'}^k), 1 \leq k \leq r, G^{r+1} = \{e\}$ là một nghiệm vì $G^k/G^{k+1}$ đẳng cấu với ${G'}^k/{G'}^{k+1}$ với $1 \leq k \leq r$ (§ 4, no. 7, Định lý 4).
 
 #### Hệ quả {#alg-i-s6-n5-cor-2 .statement}
 
@@ -618,7 +618,7 @@ $$
 (a) *Nhóm chuẩn hóa* $N_G(H)$ *của H trong G khác G*.
 (b) *Tồn tại một nhóm con chuẩn tắc* N *của G có chỉ số p trong G, chứa* H.
 
-Mệnh đề (a) suy ra từ no. 3, Hệ quả 1 của Mệnh đề 8. Chúng tôi chứng minh (b). Theo no. 3, Hệ quả 2 của Mệnh đề 8, tồn tại một nhóm con chuẩn tắc $N'$ của G chứa H, khác G và sao cho $G/N'$ giao hoán. Gọi N là một nhóm con cực đại khác G chứa $N'$. Khi đó N là chuẩn tắc (no. 2, Hệ quả 3 của Mệnh đề 6) và $G/N$ là một nhóm p giao hoán đơn và do đó chu trình cấp $p$ (\S 4, no. 10, Hệ quả của Mệnh đề 20).
+Mệnh đề (a) suy ra từ no. 3, Hệ quả 1 của Mệnh đề 8. Chúng tôi chứng minh (b). Theo no. 3, Hệ quả 2 của Mệnh đề 8, tồn tại một nhóm con chuẩn tắc $N'$ của G chứa H, khác G và sao cho $G/N'$ giao hoán. Gọi N là một nhóm con cực đại khác G chứa $N'$. Khi đó N là chuẩn tắc (no. 2, Hệ quả 3 của Mệnh đề 6) và $G/N$ là một nhóm p giao hoán đơn và do đó chu trình cấp $p$ (§ 4, no. 10, Hệ quả của Mệnh đề 20).
 
 #### Hệ quả {#alg-i-s6-n5-cor-3 .statement}
 
@@ -729,7 +729,7 @@ Cho $G$ là một nhóm hữu hạn. Các điều kiện sau là tương đươn
 
 Giả sử (a) đúng và cho $P$ là một Sylow $p$-nhóm của $G$. Nếu $N$ là nhóm chuẩn hoá của $P$ trong $G$, Hệ quả 1 của Định lý 3 cho thấy rằng $N$ là nhóm chuẩn hoá của chính nó. Theo § 6, no. 3, Hệ quả của Mệnh đề 8, điều này cho thấy rằng $N = G$. Do đó (a) $\Rightarrow$ (c).
 
-Giả sử (c) đúng và cho $I$ là tập hợp các số nguyên tố chia $\mathrm{Card}(G)$. Với mọi $p \in I$, đặt $P_p$ là một Sylow $p$-nhóm chuẩn tắc của $G$. Với mọi $p \neq q$, $P_p \cap P_q$ chỉ còn $e$ vì nó vừa là một $p$-nhóm vừa là một $q$-nhóm, nên $P_p$ và $P_q$ giao hoán với nhau ($\S 4$, no. 9, Mệnh đề 15). Cho $\phi$ là đồng cấu chính tắc ($\S 4$, no. 9, Mệnh đề 12) của $\prod_{p \in I} P_p$ vào $G$. Đồng cấu $\phi$ là toàn ánh theo Nhận xét của no. 6. Vì $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, suy ra $\phi$ là song ánh.
+Giả sử (c) đúng và cho $I$ là tập hợp các số nguyên tố chia $\mathrm{Card}(G)$. Với mọi $p \in I$, đặt $P_p$ là một Sylow $p$-nhóm chuẩn tắc của $G$. Với mọi $p \neq q$, $P_p \cap P_q$ chỉ còn $e$ vì nó vừa là một $p$-nhóm vừa là một $q$-nhóm, nên $P_p$ và $P_q$ giao hoán với nhau ($§ 4$, no. 9, Mệnh đề 15). Cho $\phi$ là đồng cấu chính tắc ($§ 4$, no. 9, Mệnh đề 12) của $\prod_{p \in I} P_p$ vào $G$. Đồng cấu $\phi$ là toàn ánh theo Nhận xét của no. 6. Vì $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, suy ra $\phi$ là song ánh.
 
 #### Nhận xét {#alg-i-s6-n7-rem-1 .statement}
 

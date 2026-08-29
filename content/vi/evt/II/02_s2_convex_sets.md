@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 49
 exercises: 43
-content_sha256: 05958c09b57004105d73d417c68a7111b680bcd21480405bd8871b8af47888d8
+content_sha256: 4c1f60d8ab6be2aa596b031746ddcdadb1b96c462aeabf21f9df572f698bb5d7
 translated_from: content/en/evt/II/02_s2_convex_sets.md
 source_content_sha256: 742c952fc6a2e57dc8eb5e75ac174e898ff3d3d87043cbf6c8ab24a81db58512
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -365,8 +365,6 @@ Cho E là một không gian vectơ có thứ tự. Một tôpô trên E là *tư
 Một không gian vectơ có thứ tự E với một tôpô tương thích được gọi là một không gian vectơ tôpô có thứ tự.
 
 #### Ví dụ {#evt-ii-s2-n7-exa-1 .statement}
-
-### 8. Hàm lồi
 
 Không gian $\mathbf{R}^n$ với tôpô thông thường của nó và cấu trúc thứ tự là tích của cấu trúc thứ tự của các thừa số của nó là một không gian vectơ tôpô có thứ tự. Mặt khác, với $n \geq 2$, khi $\mathbf{R}^n$ mang thứ tự từ điển (S, III, § 2.6), tôpô thông thường không tương thích với cấu trúc không gian vectơ có thứ tự của $\mathbf{R}^n$.
 

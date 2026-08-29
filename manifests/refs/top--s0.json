@@ -1,0 +1,4 @@
+{"edges": [
+{"from":"","from_label":"top--s0","to_label":"alg-i-s1","kind":"cites","raw":"Chapter I, § 1","form":"section","resolved_by":"section","file":"content/en/top/00_introduction.md","line":37},
+{"from":"","from_label":"top--s0","to_label":"alg-i-s2","kind":"cites","raw":"Chapter I, § 2","form":"section","resolved_by":"section","file":"content/en/top/00_introduction.md","line":39}
+]}

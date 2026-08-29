@@ -29,9 +29,9 @@ subsections:
       pdf_page: 180
 statements: 13
 exercises: 3
-content_sha256: 0bb44f147c2499fffebd4e88994b638b790f4506a90dbdcc2356451298ffc052
+content_sha256: fa0bbcf884263947828b08562c18f205aebe6e8505c2af6ac678fac51c6381ce
 translated_from: content/en/ac/III/01_s1_finitely_generated_graded_algebras.md
-source_content_sha256: 91f52b8ee552f51f2f9983f2b181714c7c33ea17947d2ce7286c36c1ca020a86
+source_content_sha256: f5a839fc9eb2de4a6348015dd8cd693291996b095c75da79331ecfb76c8dfc47
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-78d3ca82
 glossary_version: 34
@@ -182,7 +182,7 @@ suy ra rằng $axy \notin a_{m+n+d}$ vì $xy \notin p$. Cuối cùng, nếu $n \
 
 (i) Nếu $a \in A_k$ không thuộc $p_k$, $a^{kd}$ không thuộc $p_{kd}$ và do đó $p \cap A^{(d)}$ là cốt yếu.
 
-(ii) Với mọi $n \geq 0$, tập $p \cap A$, phải bằng tập $a_n$ gồm các $x \in A$ sao cho $x^d \in p'$. Hãy ցույց rằng $a = \bigoplus_{n \geq 0} a_n$ là một iđêan nguyên tố phân bậc; vì $a_n = p'_n$ khi $n$ là một bội của $d$, do $p'$ là nguyên tố, điều này sẽ chứng minh tính duy nhất của $p$. Bây giờ, nếu $x \in a_n$, $y \in a_m$, thì $(x - y)^{2d}$ là tổng của các hạng, mỗi hạng là một tích của $x^d$ hoặc $y^d$ với một phần tử thuần nhất bậc $nd$ và do đó $(x - y)^{2d} \in p'$ và, vì $p'$ là nguyên tố, $(x - y)^d \in p'$ và bởi vậy $a_n$ là một nhóm con của $A$. Vì $p'$ là một iđêan của $A^{(d)}$, $a$ là một iđêan phân bậc của $A$; cuối cùng, quan hệ $(xy)^d \in p'$ suy ra $x^d \in p'$ hoặc $y^d \in p'$, và điều đó hoàn tất chứng minh nhờ Mệnh đề 4.
+(ii) Với mọi $n \geq 0$, tập $p \cap A$, phải bằng tập $a_n$ gồm các $x \in A$ sao cho $x^d \in p'$. Hãy chứng minh rằng $a = \bigoplus_{n \geq 0} a_n$ là một iđêan nguyên tố phân bậc; vì $a_n = p'_n$ khi $n$ là một bội của $d$, do $p'$ là nguyên tố, điều này sẽ chứng minh tính duy nhất của $p$. Bây giờ, nếu $x \in a_n$, $y \in a_m$, thì $(x - y)^{2d}$ là tổng của các hạng, mỗi hạng là một tích của $x^d$ hoặc $y^d$ với một phần tử thuần nhất bậc $nd$ và do đó $(x - y)^{2d} \in p'$ và, vì $p'$ là nguyên tố, $(x - y)^d \in p'$ và bởi vậy $a_n$ là một nhóm con của $A$. Vì $p'$ là một iđêan của $A^{(d)}$, $a$ là một iđêan phân bậc của $A$; cuối cùng, quan hệ $(xy)^d \in p'$ suy ra $x^d \in p'$ hoặc $y^d \in p'$, và điều đó hoàn tất chứng minh nhờ Mệnh đề 4.
 
 Cho $A$ là một vành giao hoán phân bậc với các bậc dương và $p$ là một iđêan nguyên tố phân bậc cốt yếu của $A$. Tập $S$ gồm các phần tử *thuần nhất* của $A$ không thuộc $p$ là nhân đóng và vành phân thức $S^{-1}A$ do đó được phân bậc một cách chính tắc (chương II, § 2, no. 9) (chú ý rằng nói chung trong phép phân bậc này sẽ có các phần tử thuần nhất $\neq 0$ có bậc âm). Ta sẽ ký hiệu $A_{(p)}$ là vành con của $S^{-1}A$ gồm các phần tử thuần nhất bậc 0, nói cách khác là tập các phân thức $x/s$, trong đó $x$ và $s$ là thuần nhất cùng bậc trong $A$ và $s \notin p$. Tương tự, với mọi A-môđun phân bậc $M$, $S^{-1}M$ được phân bậc một cách chính tắc (*loc. cit.*) và ta sẽ ký hiệu $M_{(p)}$ là nhóm con gồm các phần tử thuần nhất bậc 0, hiển nhiên là một $A_{(p)}$-môđun.
 
@@ -190,7 +190,7 @@ Cho $A$ là một vành giao hoán phân bậc với các bậc dương và $p$ 
 
 *Cho $p$ là một iđêan nguyên tố phân bậc của $A$, $d$ là một số nguyên $\geq 1$ và $p'$ là iđêan nguyên tố phân bậc $p \cap A^{(d)}$ của $A^{(d)}$; với mọi A-môđun phân bậc $M$, đồng cấu $(M^{(d)})_{(p')} \to M_{(p)}$ dẫn xuất từ đơn ánh chính tắc $M^{(d)} \to M$ là song ánh.*
 
-Nếu $S$ là tập hợp các phần tử thuần nhất của $A$ không thuộc $p$ và $S' = S \cap A^{(d)}$, thì đồng cấu chính tắc $\phi : S'^{-1}M^{(d)} \to S^{-1}M$ là một đồng cấu thuần nhất bậc 0 và nó đơn ánh, vì nếu $x \in M_{nd}$ thỏa mãn $sx = 0$ với $s \in A_n, s \notin p$, thì cũng có $s^dx = 0$ và $s^d \in A_{md}, s^d \notin p'$. Còn lại phải chứng minh rằng ảnh dưới $\phi$ của $(M^{(d)})_{(p')}$ là toàn bộ $M_{(p)}$; nhưng nếu $x \in M_n, s \in A_n$ và $s \notin p$, thì cũng có $x/s = (xs^{d-1})/s^d$ trong đó $xs^{d-1} \in A_{nd}, s^d \in A_n$ và $s^d \notin p'$, do đó mệnh đề của chúng ta.
+Nếu $S$ là tập hợp các phần tử thuần nhất của $A$ không thuộc $p$ và $S' = S \cap A^{(d)}$, thì đồng cấu chính tắc $\phi : {S'}^{-1}M^{(d)} \to S^{-1}M$ là một đồng cấu thuần nhất bậc 0 và nó đơn ánh, vì nếu $x \in M_{nd}$ thỏa mãn $sx = 0$ với $s \in A_n, s \notin p$, thì cũng có $s^dx = 0$ và $s^d \in A_{md}, s^d \notin p'$. Còn lại phải chứng minh rằng ảnh dưới $\phi$ của $(M^{(d)})_{(p')}$ là toàn bộ $M_{(p)}$; nhưng nếu $x \in M_n, s \in A_n$ và $s \notin p$, thì cũng có $x/s = (xs^{d-1})/s^d$ trong đó $xs^{d-1} \in A_{nd}, s^d \in A_n$ và $s^d \notin p'$, do đó mệnh đề của chúng ta.
 
 #### Mệnh đề 8 {#ac-iii-s1-prop-8 .statement}
 

@@ -7,48 +7,49 @@ section: 1
 section_title: DERIVATIVES OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS
 lang: en
 source: fvr-i-vii
+book_pages: 91-104, 115-125
 pdf_pages: 0106-0119, 0130-0140
 extraction: ocr
 subsections:
     - "no": 1
       title: DERIVATIVES OF THE EXPONENTIAL FUNCTIONS; THE NUMBER $e$
-      page: 0
+      page: 91
       pdf_page: 106
     - "no": 2
       title: DERIVATIVE OF $\log_a x$
-      page: 0
+      page: 93
       pdf_page: 108
     - "no": 3
       title: DERIVATIVES OF THE CIRCULAR FUNCTIONS; THE NUMBER $\pi$
-      page: 0
+      page: 94
       pdf_page: 109
     - "no": 4
       title: INVERSE CIRCULAR FUNCTIONS
-      page: 0
+      page: 95
       pdf_page: 110
     - "no": 5
       title: THE COMPLEX EXPONENTIAL
-      page: 0
+      page: 97
       pdf_page: 112
     - "no": 6
       title: PROPERTIES OF THE FUNCTION $e^z$
-      page: 0
+      page: 98
       pdf_page: 113
     - "no": 7
       title: THE COMPLEX LOGARITHM
-      page: 0
+      page: 100
       pdf_page: 115
     - "no": 8
       title: PRIMITIVES OF RATIONAL FUNCTIONS
-      page: 0
+      page: 101
       pdf_page: 116
     - "no": 9
       title: COMPLEX CIRCULAR FUNCTIONS; HYPERBOLIC FUNCTIONS
-      page: 0
+      page: 102
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: 38a7e7172ac9a7a995bec3e4049bf599318e62b430ee9654d79bc4e78ef0388f
+content_sha256: 2478d73e7dea6ae86c44de479cf637d4b4394218fc6dbee2396f8f6140182119
 ---
 
 ## § 1. DERIVATIVES OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS
@@ -430,13 +431,13 @@ a formula which generalizes formula (10) of III, p. 93.
 
 Formula (31) allows us to evaluate the primitive of an arbitrary rational function $r(x)$ of a real variable $x$, with real or complex coefficients. We know (A.VII.7) that such a function can be written (in unique manner) as a finite sum of terms, which are:
 
-$a)$ either of the form $ax^p$ ($p$ an integer $\geqslant 0$, $a$ a complex number);
-$b)$ or of the form $a/(x-b)^m$ ($m$ an integer $\geqslant 0$, $a$ and $b$ complex numbers).
+a) either of the form $ax^p$ ($p$ an integer $\geqslant 0$, $a$ a complex number);
+b) or of the form $a/(x-b)^m$ ($m$ an integer $\geqslant 0$, $a$ and $b$ complex numbers).
 
 Now it is easy to obtain a primitive of each of these terms:
-$a)$ a primitive of $ax^p$ is $a \frac{x^{p+1}}{p+1}$;
-$b)$ if $m > 1$ a primitive of $a/(x-b)^m$ is $\frac{a}{(1-m)(x-b)^{m-1}}$;
-$c)$ finally, from formulae (10) (III, p. 93) and (31) (III, p. 101), a primitive of $\frac{a}{x-b}$ is $a \log |x-b|$ if $b$ is real, $a \log(x-b)$ if $b$ is complex. In the last case, if $b = p + iq$, one has furthermore (III, p. 100, formulae (30))
+a) a primitive of $ax^p$ is $a \frac{x^{p+1}}{p+1}$;
+b) if $m > 1$ a primitive of $a/(x-b)^m$ is $\frac{a}{(1-m)(x-b)^{m-1}}$;
+c) finally, from formulae (10) (III, p. 93) and (31) (III, p. 101), a primitive of $\frac{a}{x-b}$ is $a \log |x-b|$ if $b$ is real, $a \log(x-b)$ if $b$ is complex. In the last case, if $b = p + iq$, one has furthermore (III, p. 100, formulae (30))
 $$
 \log(x-b) = \log \sqrt{(x-p)^2 + q^2} + i \operatorname{Arc tan} \frac{x-p}{q} \pm i \frac{\pi}{2}.
 $$

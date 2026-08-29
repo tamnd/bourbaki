@@ -38,9 +38,9 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: 1f9720e6809109a5eeffd0b3355bd35f8aef202918c4998e70f6a24705c39a6f
+content_sha256: a3637293c9789db7b3b7b6ddd910606cae9d5dd3fb27815e65bfe0ab7347e25a
 translated_from: content/en/ens/III/02_s2_well_ordered_sets.md
-source_content_sha256: 99e23b3436ca4b6d843107f58900119e0912e966f7d9b5f9e4cda130442d7adf
+source_content_sha256: c4d656736e563f6ac82971fd4e1ec144ad45c95e80a8241c21c0579eaa1576cb
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-25341e40
 glossary_version: 34
@@ -160,9 +160,9 @@ thường được gọi là “giả thiết quy nạp”.
 
 C60. (Định nghĩa một ánh xạ bằng quy nạp siêu hạn.) *Cho $u$ là một chữ cái, $\mathrm{T}\{u\}$ là một số hạng trong lý thuyết $\mathscr{T}$. Tồn tại một tập hợp $U$ và một ánh xạ $f$ của $E$ lên $U$ sao cho với mọi $x\in E$ ta có $f(x)=\mathrm{T}\{f^{(x)}\}$. Hơn nữa, tập hợp $U$ và ánh xạ $f$ được xác định duy nhất bởi các điều kiện này.*
 
-Trước hết hãy chứng minh tính duy nhất. Giả sử rằng $f'$ và $\mathrm{U}'$ cũng thỏa mãn các điều kiện của tiêu chuẩn. Gọi $\mathfrak{S}$ là tập hợp các đoạn S của E sao cho $f$ và $f'$ trùng nhau trên S. Hiển nhiên mọi hợp của các đoạn thuộc $\mathfrak{S}$ cũng thuộc $\mathfrak{S}$. Mặt khác, nếu $\mathrm{S}_x \in \mathfrak{S}$, thì $f$ và $f'$ trùng nhau trên $\mathrm{S}_x$ và do đó $f^{(x)} = f'^{(x)}$; do đó
+Trước hết hãy chứng minh tính duy nhất. Giả sử rằng $f'$ và $\mathrm{U}'$ cũng thỏa mãn các điều kiện của tiêu chuẩn. Gọi $\mathfrak{S}$ là tập hợp các đoạn S của E sao cho $f$ và $f'$ trùng nhau trên S. Hiển nhiên mọi hợp của các đoạn thuộc $\mathfrak{S}$ cũng thuộc $\mathfrak{S}$. Mặt khác, nếu $\mathrm{S}_x \in \mathfrak{S}$, thì $f$ và $f'$ trùng nhau trên $\mathrm{S}_x$ và do đó $f^{(x)} = {f'}^{(x)}$; do đó
 
-$$f(x) = \mathrm{T}\{f^{(x)}\} = \mathrm{T}\{f'^{(x)}\} = f'(x),$$
+$$f(x) = \mathrm{T}\{f^{(x)}\} = \mathrm{T}\{{f'}^{(x)}\} = f'(x),$$
 
 điều đó cho thấy rằng $\mathrm{S}_x \cup \{x\} \in \mathfrak{S}$. Suy ra $\mathrm{E} \in \mathfrak{S}$ (Bổ đề 2), do đó $f' = f$ và $\mathrm{U}' = f'(\mathrm{E}) = f(\mathrm{E}) = \mathrm{U}$.
 

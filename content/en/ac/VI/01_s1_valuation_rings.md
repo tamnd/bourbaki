@@ -29,7 +29,7 @@ subsections:
       pdf_page: 397
 statements: 15
 exercises: 7
-content_sha256: a947fe432911be13d4aa196ac570607e0088749f8ccb41825c16db8646985cc3
+content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
 ---
 
 ## 1. VALUATION RINGS
@@ -116,7 +116,7 @@ Suppose finally that (e) holds. As $V$ has a maximal ideal, it has only one and 
 
 #### Theorem 2 {#ac-vi-s1-thm-2 .statement}
 
-*Let $K$ be a field and $h$ a homomorphism from a subring $A$ of $K$ to an algebraically closed field $L$. Then there exist a valuation ring $V$ for $K$ and a homomorphism $h'$ from $V$ to $L$ such that $V$ contains $A$, $h'$ extends $h$ and $h'^{-1}(O) = m(V)$.*
+*Let $K$ be a field and $h$ a homomorphism from a subring $A$ of $K$ to an algebraically closed field $L$. Then there exist a valuation ring $V$ for $K$ and a homomorphism $h'$ from $V$ to $L$ such that $V$ contains $A$, $h'$ extends $h$ and ${h'}^{-1}(O) = m(V)$.*
 
 Let $\mathfrak{S}$ be the set of homomorphisms of subrings of $K$ to $L$, ordered by the relation of extension. This set is inductive; for if $(h_\alpha)_{\alpha \in I}$ is a non-empty totally ordered family of elements of $\mathfrak{S}$ and $B$, is the defining ring of $h_\alpha$, the $B_\alpha$ form a totally ordered family of subrings of $K$ and their union $B$ is therefore a subring of $K$; there therefore exists a unique mapping $\bar{h}$ from $B$ to $L$ which extends the $h_\alpha$ (*Set Theory*, Chapter II, § 4, no. 6, Proposition 7) and it is immediately seen that $\bar{h}$ is a homomorphism from $B$ to $L$. Zorn's Lemma then shows that there exists a maximal element $h'$ of $\mathfrak{S}$ which extends $h$. The defining ring $V$ of $h'$ is a valuation ring of $K$ (Theorem 1); if $p$ is the kernel of $h'$, $h'$ can be extended to a homomorphism from $V_p$ to $L$ (Chapter II, § 2, no. 1, Proposition 1), whence $V_p = V$ and $p = m(V)$.
 

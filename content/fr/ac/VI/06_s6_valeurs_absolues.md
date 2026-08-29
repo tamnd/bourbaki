@@ -28,7 +28,7 @@ subsections:
       pdf_page: 123
 statements: 13
 exercises: 2
-content_sha256: 3b27ac1705ebcf95a16ed8b6b608129fa4bec0f84f87d8f7fe393803daee09c2
+content_sha256: e84992f155d3dd4337b5374eebb7ccef55c0220ecb85e9133f163139a80f5cff
 ---
 
 ## § 6. Valeurs absolues.
@@ -113,7 +113,7 @@ b) Il existe une valuation $v$ de $K$, à valeurs dans $\mathbf{R}$, et un nombr
 c) $f$ appartient à $\mathcal{V}(K)$ et l’on a $f(n.1) \leq 1$ pour tout entier $n > 0$.
 
 d) Pour tout $s > 0$, $f^s$ est une valeur absolue.
-Pour tout nombre réel $c$ tel que $0 < c < 1$, l’application $t \to c^t$ est un isomorphisme du groupe ordonné $\mathbf{R}$ (muni de l’ordre opposé à l’ordre usuel) sur le groupe ordonné $\mathbf{R}_+^*$; cela montre l’équivalence de $a)$ et $b)$. Il est clair que $a)$ implique $c);$ $c)$ entraîne $d)$, car on déduit de $c)$ que $(f(n.1))^s \leqslant 1 \leqslant n$ pour tout entier $n > 0$ et la prop. 2 du no 1 montre que $f^s$ est une valeur absolue. Enfin $d)$ entraîne $a)$: en effet, si $f^s$ est une valeur absolue, elle vérifie $(\mathrm{U}_2)$, donc $f$ vérifie $\mathrm{U}_{2^{1/s}}$ pour tout $s > 0$, et par suite aussi $(\mathrm{U}_1)$ en faisant tendre $s$ vers $+ \infty$.
+Pour tout nombre réel $c$ tel que $0 < c < 1$, l’application $t \to c^t$ est un isomorphisme du groupe ordonné $\mathbf{R}$ (muni de l’ordre opposé à l’ordre usuel) sur le groupe ordonné $\mathbf{R}_+^*$; cela montre l’équivalence de a) et b). Il est clair que a) implique $c);$ c) entraîne d), car on déduit de c) que $(f(n.1))^s \leqslant 1 \leqslant n$ pour tout entier $n > 0$ et la prop. 2 du no 1 montre que $f^s$ est une valeur absolue. Enfin d) entraîne a): en effet, si $f^s$ est une valeur absolue, elle vérifie $(\mathrm{U}_2)$, donc $f$ vérifie $\mathrm{U}_{2^{1/s}}$ pour tout $s > 0$, et par suite aussi $(\mathrm{U}_1)$ en faisant tendre $s$ vers $+ \infty$.
 
 #### Corollaire {#ac-vi-s6-n2-cor-1 .statement}
 
@@ -141,7 +141,7 @@ $$
 
 Dans le cas (iii), pour que $f$ soit une valeur absolue sur $\mathbf{Q}$, il faut et il suffit que $0 < s \leq 1$.
 
-Supposons d’abord que l’on ait $f(n) \leq 1$ pour tout entier $n > 0$. En vertu de la prop. 3 du no 2, il existe un nombre réel $b$ et une valuation $\nu$ de $\mathbf{Q}$ tels que $0 < b < 1$ et $f = b^\nu$. Or, on sait ($\S 3$, no 4, Exemple 4) que les seules valuations sur $\mathbf{Q}$ sont (à équivalence près) la valuation impropre et les valuations $p$-adiques $\nu_p$; on est donc dans l’un des cas (i) ou (ii).
+Supposons d’abord que l’on ait $f(n) \leq 1$ pour tout entier $n > 0$. En vertu de la prop. 3 du no 2, il existe un nombre réel $b$ et une valuation $\nu$ de $\mathbf{Q}$ tels que $0 < b < 1$ et $f = b^\nu$. Or, on sait ($§ 3$, no 4, Exemple 4) que les seules valuations sur $\mathbf{Q}$ sont (à équivalence près) la valuation impropre et les valuations $p$-adiques $\nu_p$; on est donc dans l’un des cas (i) ou (ii).
 
 Supposons désormais qu’il existe un entier $h > 0$ tel que $f(h) > 1$; en vertu du no 1, cor. 2 de la prop. 2, il existe un nombre $\rho > 0$ tel que $f^\rho$ soit une valeur absolue; posons
 

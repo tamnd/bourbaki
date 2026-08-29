@@ -29,7 +29,7 @@ subsections:
       pdf_page: 8
 statements: 13
 exercises: 9
-content_sha256: 49eab98556f4c0bfff1bef865d44c5f7757312de1a6828005a9cd82c3c2f1029
+content_sha256: 80e6589dc4619ad20bee2aab29b24ac20c8da7a662d382de7080a64e023d4e02
 ---
 
 ## § 1. ALGÈBRES DE LIE COMPACTES
@@ -55,11 +55,11 @@ $$
 
 pour que $\Phi(\rho(g)\ u,\ \rho(g)\ v) = \Phi(u,\ v)$ pour tous $u,\ v$ dans $V$, il est donc nécessaire et suffisant que $\rho(g)^*\rho(g) = \mathrm{Id}_V$; de même, pour que $\Phi(\varphi(x)\ u,\ v) + \Phi(u,\ \varphi(x)\ v) = 0$ pour tous $u,\ v$ dans $V$, il est nécessaire et suffisant que $\varphi(x) + \varphi(x)^* = 0$, d’où l’assertion annoncée.
 
-$b)$ Si la forme $\Phi$ est invariante par $G$ (resp. $g$), l’orthogonal d’un sous-espace stable de $V$ est stable; en particulier, la représentation $\rho$ (resp. $\varphi$) est alors semi-simple ($cf.$ A, IX); de plus, pour tout $g \in G$ (resp. tout $x \in g$), l’endomorphisme $\rho(g)$ (resp. $\varphi(x)$) de $V$ est alors semi-simple, à valeurs propres de valeur absolue 1 (resp. à valeurs propres imaginaires pures); en effet $\rho(g)$ est unitaire (resp. $i\varphi(x)$ est hermitien, $cf.$ A, IX).
+b) Si la forme $\Phi$ est invariante par $G$ (resp. $g$), l’orthogonal d’un sous-espace stable de $V$ est stable; en particulier, la représentation $\rho$ (resp. $\varphi$) est alors semi-simple ($cf.$ A, IX); de plus, pour tout $g \in G$ (resp. tout $x \in g$), l’endomorphisme $\rho(g)$ (resp. $\varphi(x)$) de $V$ est alors semi-simple, à valeurs propres de valeur absolue 1 (resp. à valeurs propres imaginaires pures); en effet $\rho(g)$ est unitaire (resp. $i\varphi(x)$ est hermitien, $cf.$ A, IX).
 
-$c)$ Supposons $k = \mathbf{R}$. Si $G$ est un groupe de Lie connexe, $\rho$ un morphisme de groupes de Lie, $g$ l’algèbre de Lie de $G$ et $\varphi$ l’homomorphisme déduit de $\rho$, alors $\Phi$ est invariante par $G$ si et seulement si elle est invariante par $g$ (III, § 6, n° 5, cor. 3).
+c) Supposons $k = \mathbf{R}$. Si $G$ est un groupe de Lie connexe, $\rho$ un morphisme de groupes de Lie, $g$ l’algèbre de Lie de $G$ et $\varphi$ l’homomorphisme déduit de $\rho$, alors $\Phi$ est invariante par $G$ si et seulement si elle est invariante par $g$ (III, § 6, n° 5, cor. 3).
 
-$d)$ Pour qu’il existe sur $V$ une forme hermitienne positive séparante invariante par $G$, il faut et il suffit que le sous-groupe $\rho(G)$ de $\mathbf{GL}(V)$ soit relativement compact (INT, VII, § 3, n° 1, prop. 1).
+d) Pour qu’il existe sur $V$ une forme hermitienne positive séparante invariante par $G$, il faut et il suffit que le sous-groupe $\rho(G)$ de $\mathbf{GL}(V)$ soit relativement compact (INT, VII, § 3, n° 1, prop. 1).
 
 ### 2. Groupes de Lie réels commutatifs connexes
 
@@ -71,9 +71,9 @@ $$
 
 est un morphisme de groupes de Lie, surjectif à noyau discret (III, § 6, n° 4, prop. 11), donc fait de $\mathbf{L}(G)$ un revêtement connexe de $G$.
 
-$a)$ Les conditions suivantes sont équivalentes : $G$ est simplement connexe, $\exp_G$ est un isomorphisme, $G$ est isomorphe à $\mathbf{R}^n$ ($n = \dim G$). Si on transporte alors à $G$ par l’isomorphisme $\exp_G$ la structure d’espace vectoriel de $\mathbf{L}(G)$, on obtient sur $G$ une structure d’espace vectoriel, qui est la seule compatible avec la structure de groupe topologique de $G$. Les groupes de Lie commutatifs simplement connexes sont appelés groupes (de Lie) *vectoriels* ; sauf mention expresse du contraire, on les munit toujours de la structure de $\mathbf{R}$-espace vectoriel définie ci-dessus.
+a) Les conditions suivantes sont équivalentes : $G$ est simplement connexe, $\exp_G$ est un isomorphisme, $G$ est isomorphe à $\mathbf{R}^n$ ($n = \dim G$). Si on transporte alors à $G$ par l’isomorphisme $\exp_G$ la structure d’espace vectoriel de $\mathbf{L}(G)$, on obtient sur $G$ une structure d’espace vectoriel, qui est la seule compatible avec la structure de groupe topologique de $G$. Les groupes de Lie commutatifs simplement connexes sont appelés groupes (de Lie) *vectoriels* ; sauf mention expresse du contraire, on les munit toujours de la structure de $\mathbf{R}$-espace vectoriel définie ci-dessus.
 
-$b)$ Notons $\Gamma(G)$ le noyau de $\exp_G$. D’après TG, VII, p. 4, th. 1, le groupe $G$ est compact si et seulement si $\Gamma(G)$ est un *réseau* de $\mathbf{L}(G)$, c’est-à-dire (*loc. cit.*) si le rang du $\mathbf{Z}$-module libre $\Gamma(G)$ est égal à la dimension de $G$. Inversement, si $L$ est un $\mathbf{R}$-espace vectoriel de dimension finie et $\Gamma$ un réseau de $L$, le groupe topologique quotient $L/\Gamma$ est un groupe de Lie commutatif compact connexe.
+b) Notons $\Gamma(G)$ le noyau de $\exp_G$. D’après TG, VII, p. 4, th. 1, le groupe $G$ est compact si et seulement si $\Gamma(G)$ est un *réseau* de $\mathbf{L}(G)$, c’est-à-dire (*loc. cit.*) si le rang du $\mathbf{Z}$-module libre $\Gamma(G)$ est égal à la dimension de $G$. Inversement, si $L$ est un $\mathbf{R}$-espace vectoriel de dimension finie et $\Gamma$ un réseau de $L$, le groupe topologique quotient $L/\Gamma$ est un groupe de Lie commutatif compact connexe.
 
 Les groupes de Lie commutatifs compacts connexes sont appelés *tores réels*, ou (dans ce chapitre) *tores*.
 
@@ -194,8 +194,8 @@ b) Supposons le groupe des composantes connexes de $G$ fini. Alors :
 (ii) Si $K_1$ et $K_2$ sont deux sous-groupes compacts maximaux de $G$, il existe $g \in G$ tel que $K_2 = gK_1g^{-1}$.
 (iii) Soit $K$ un sous-groupe compact maximal de $G$. Alors $K \cap G_0$ est égal à $K_0$; c’est le plus grand sous-groupe compact de $G_0$.
 (iv) Il existe un sous-groupe vectoriel central fermé $N$ de $G_0$, distingué dans $G$, tel que, pour tout sous-groupe compact maximal $K$ de $G$, $G_0$ soit le produit direct de $K_0$ par $N$ et $G$ le produit semi-direct de $K$ par $N$.
-a) Reprenons les notations de la prop. 4. La projection de $\mathrm{Ker}\, f$ sur $V$ est un sous-groupe fini du groupe vectoriel $V$, donc est réduite à l’élément neutre. Il s’ensuit que $\mathrm{Ker}\, f$ est contenu dans $T \times S$, donc que $G$ est le produit direct du groupe vectoriel $N = f(V)$ et du groupe compact $K = f(T \times S)$. Tout sous-groupe compact de $G$ a une projection dans $N$ réduite à l’élément neutre, donc est contenu dans $K$. Cela démontre $a)$.
-b) Supposons maintenant $G/G_0$ fini. D’après $a)$, $G_0$ est le produit direct de son plus grand sous-groupe compact $M$ par un sous-groupe vectoriel $P$; le sous-groupe
+a) Reprenons les notations de la prop. 4. La projection de $\mathrm{Ker}\, f$ sur $V$ est un sous-groupe fini du groupe vectoriel $V$, donc est réduite à l’élément neutre. Il s’ensuit que $\mathrm{Ker}\, f$ est contenu dans $T \times S$, donc que $G$ est le produit direct du groupe vectoriel $N = f(V)$ et du groupe compact $K = f(T \times S)$. Tout sous-groupe compact de $G$ a une projection dans $N$ réduite à l’élément neutre, donc est contenu dans $K$. Cela démontre a).
+b) Supposons maintenant $G/G_0$ fini. D’après a), $G_0$ est le produit direct de son plus grand sous-groupe compact $M$ par un sous-groupe vectoriel $P$; le sous-groupe
 
 M de G est évidemment distingué. Soit n un sous-espace vectoriel de L(G), supplémentaire de L(M) et stable pour la représentation adjointe de G (n° 1 et n° 3, prop. 3); c’est un idéal de L(G) et on a L(G) = L(M) × n. Soit N le sous-groupe intégral de G d’algèbre de Lie n ; d’après III, § 6, n° 6, prop. 14, il est distingué dans G. La projection de L(G) sur L(P), de noyau L(M), induit un isomorphisme de n sur L(P); il en résulte que la projection de G₀ sur P induit un morphisme étale de N sur P; comme P est simplement connexe, c’est un isomorphisme, et N est un groupe vectoriel. Le morphisme (x, y) ↦ xy de M × N dans G₀ est un morphisme étale injectif (puisque M ∩ N est réduit à l’élément neutre), donc un isomorphisme. Il s’ensuit que N est un sous-groupe fermé de G et que le quotient G/N est compact, puisque G₀/N est compact et que G/G₀ est fini (TG, III, p. 29, cor. 2).
 

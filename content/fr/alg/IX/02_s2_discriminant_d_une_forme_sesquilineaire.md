@@ -11,7 +11,7 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: 199682f78d4971b08776a340578d6dabcc2d99439bce9d0b644fd986838454f8
+content_sha256: a03e917bbb712788678cb44f2f8c4eeb837bff91ffaff8fe794b3c2a69ffeff6
 ---
 
 ## § 2. DISCRIMINANT D’UNE FORME SESQUILINÉAIRE
@@ -34,7 +34,7 @@ Etant donnée une forme $\Phi$ sesquilinéaire pour $J$ sur $E$ et un système $
 
 Si $(e_1, \ldots, e_n)$ est une base de $E$, le discriminant de $\Phi$ par rapport à cette base n’est autre que le déterminant de la matrice de $\Phi$ par rapport à cette base.
 
-Il résulte de la définition de l’extension de $\Phi$ à $\wedge^n E$ ($\S 1$, no 9) que l’on a
+Il résulte de la définition de l’extension de $\Phi$ à $\wedge^n E$ ($§ 1$, no 9) que l’on a
 
 $$
 D_\Phi(x_1, \ldots, x_n) = \Phi_{(n)}(x_1 \wedge \ldots \wedge x_n, x_1 \wedge \ldots \wedge x_n),
@@ -85,19 +85,19 @@ $$
 
 Il résulte de la prop. 1 que, si $(e_i)$ est une base de $E$ et $(x_i)$ un système quelconque de $n$ éléments de $E$, $D_\Phi(e_1, \ldots, e_n)$ *divise* $D_\Phi(x_1, \ldots, x_n)$. En particulier les discriminants de $\Phi$ par rapport à deux bases quelconques de $E$ engendrent le même idéal principal de $A$.
 
-Soient $(E_i)_{i \in I}$ une famille finie de $A$-modules libres de dimensions finies, $\Phi_i$ une forme sesquilinéaire pour $J$ sur $E_i$, et $B_i$ une base de $E_i$. Si $\Phi$ désigne la *somme directe* des $\Phi_i$ (\S 1, no 3) et $B$ la base de $\prod_{i \in I} E_i$ obtenue par réunion des $B_i$, on a évidemment
+Soient $(E_i)_{i \in I}$ une famille finie de $A$-modules libres de dimensions finies, $\Phi_i$ une forme sesquilinéaire pour $J$ sur $E_i$, et $B_i$ une base de $E_i$. Si $\Phi$ désigne la *somme directe* des $\Phi_i$ (§ 1, no 3) et $B$ la base de $\prod_{i \in I} E_i$ obtenue par réunion des $B_i$, on a évidemment
 $$
 (5) \qquad D_\Phi(B) = \prod_{i \in I} D_{\Phi_i}(B_i).
 $$
 
-Soient $\Phi$ une forme sesquilinéaire pour $J$ sur $E$, $h$ un homomorphisme de $A$ dans un anneau commutatif $A'$, $\Phi'$ la forme sesquilinéaire sur $A' \otimes_A E$ obtenue par extension de $\Phi$ (\S 1, no 4) et $(x_1, \ldots, x_n)$ un système quelconque d’éléments de $E$. Comme $A' \otimes_A E$ est un $A'$-module libre, $D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n)$ est défini, et on a évidemment
+Soient $\Phi$ une forme sesquilinéaire pour $J$ sur $E$, $h$ un homomorphisme de $A$ dans un anneau commutatif $A'$, $\Phi'$ la forme sesquilinéaire sur $A' \otimes_A E$ obtenue par extension de $\Phi$ (§ 1, no 4) et $(x_1, \ldots, x_n)$ un système quelconque d’éléments de $E$. Comme $A' \otimes_A E$ est un $A'$-module libre, $D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n)$ est défini, et on a évidemment
 $$
 (6) \qquad D_{\Phi'}(1 \otimes x_1, \ldots, 1 \otimes x_n) = h(D_\Phi(x_1, \ldots, x_n)).
 $$
 
 #### Exemple {#alg-ix-s2-n0-exa-2 .statement}
 
-Soient $B$ une algèbre sur $A$ qui soit un $A$-module libre de dimension finie $n$, $(x_1, \ldots, x_n)$ une base de $B$ sur $A$, et $m$ un idéal de $A$. Si l’on note $h$ l’homomorphisme canonique de $B$ sur $B/mB$, $(h(x_1), \ldots, h(x_n))$ est une base de $B/mB$ sur $A/m$ (chap. I, \S 6, no 5, prop. 5), et $B/mB$ est isomorphe à $(A/m) \otimes_A B$. On a donc
+Soient $B$ une algèbre sur $A$ qui soit un $A$-module libre de dimension finie $n$, $(x_1, \ldots, x_n)$ une base de $B$ sur $A$, et $m$ un idéal de $A$. Si l’on note $h$ l’homomorphisme canonique de $B$ sur $B/mB$, $(h(x_1), \ldots, h(x_n))$ est une base de $B/mB$ sur $A/m$ (chap. I, § 6, no 5, prop. 5), et $B/mB$ est isomorphe à $(A/m) \otimes_A B$. On a donc
 $$
 D_{(B/mB)/(A/m)}(h(x_1), \ldots, h(x_n)) = h(D_{B/A}(x_1, \ldots, x_n)).
 $$
@@ -110,9 +110,9 @@ a) Pour qu’un système $(x_1, \ldots, x_n)$ de $n$ éléments de $E$ soit libr
 
 b) Pour qu’un système $(x_1, \ldots, x_n)$ de $n$ éléments de $E$ soit une base de $E$, il faut et il suffit que $D_\Phi(x_1, \ldots, x_n)$ et $D_\Phi(e_1, \ldots, e_n)$ soient des éléments associés dans $A$ (cf. chap. VI, § 1, no 5).
 
-Posons $x_j = \sum_{i=1}^n a_{ji} e_i$ ($a_{ji} \in A$). Démontrons d’abord $a)$. Si $D_\Phi(x_1, \ldots, x_n) = 0$, on a $\det(a_{ji}) \cdot \det(a_{ji})' = 0$ (prop. 1) puisque $D_\Phi(e_1, \ldots, e_n) \neq 0$ et que $A$ est intègre ; on a donc $\det(a_{ji}) = 0$, et les vecteurs $x_j$ sont linéairement dépendants (chap. III, § 7, no 1, th. 1, appliqué à l’espace vectoriel $K \otimes_A E$, où $K$ désigne le corps des fractions de $A$). Réciproquement, si ces vecteurs sont linéairement dépendants on a $\det(a_{ji}) = 0$ (*ibid.*), d’où $D_\Phi(x_1, \ldots, x_n) = 0$ (prop. 1).
+Posons $x_j = \sum_{i=1}^n a_{ji} e_i$ ($a_{ji} \in A$). Démontrons d’abord a). Si $D_\Phi(x_1, \ldots, x_n) = 0$, on a $\det(a_{ji}) \cdot \det(a_{ji})' = 0$ (prop. 1) puisque $D_\Phi(e_1, \ldots, e_n) \neq 0$ et que $A$ est intègre ; on a donc $\det(a_{ji}) = 0$, et les vecteurs $x_j$ sont linéairement dépendants (chap. III, § 7, no 1, th. 1, appliqué à l’espace vectoriel $K \otimes_A E$, où $K$ désigne le corps des fractions de $A$). Réciproquement, si ces vecteurs sont linéairement dépendants on a $\det(a_{ji}) = 0$ (*ibid.*), d’où $D_\Phi(x_1, \ldots, x_n) = 0$ (prop. 1).
 
-Démontrons maintenant $b)$. Si $D_\Phi(x_1, \ldots, x_n)$ et $D_\Phi(e_1, \ldots, e_n)$ sont associés dans $A$, la prop. 1 montre que $\det(a_{ij}) \cdot \det(a_{ij})'$ est inversible dans $A$. Ainsi $\det(a_{ij})$ est lui aussi inversible dans $A$; donc la matrice $(a_{ij})$ sur $A$ est inversible (chap. III, § 6, no 5, th. 2), et l’endomorphisme $g$ de $E$ défini par $g(e_i) = x_i$ ($i = 1, \ldots, n$) est un automorphisme ; par conséquent $(x_1, \ldots, x_n)$ est une base de $E$. La réciproque résulte aussitôt de la prop. 1.
+Démontrons maintenant b). Si $D_\Phi(x_1, \ldots, x_n)$ et $D_\Phi(e_1, \ldots, e_n)$ sont associés dans $A$, la prop. 1 montre que $\det(a_{ij}) \cdot \det(a_{ij})'$ est inversible dans $A$. Ainsi $\det(a_{ij})$ est lui aussi inversible dans $A$; donc la matrice $(a_{ij})$ sur $A$ est inversible (chap. III, § 6, no 5, th. 2), et l’endomorphisme $g$ de $E$ défini par $g(e_i) = x_i$ ($i = 1, \ldots, n$) est un automorphisme ; par conséquent $(x_1, \ldots, x_n)$ est une base de $E$. La réciproque résulte aussitôt de la prop. 1.
 
 #### Proposition 3 {#alg-ix-s2-prop-3 .statement}
 
@@ -130,13 +130,13 @@ En effet la condition c) exprime que la matrice de $\Phi$ par rapport à $S$ est
 
 On suppose $A$ intègre. Soit $S$ une base de $E$. Une condition nécessaire et suffisante pour qu’une forme sesquilinéaire $\Phi$ sur $E$ soit non dégénérée est que l’on ait $D_\Phi(S) \neq 0$.
 
-Soit en effet K le corps des fractions de A, et soit $\Phi'$ l’extension de $\Phi$ au K-espace vectoriel $K \otimes_A E$; identifions E à une partie de cet espace vectoriel. La relation $D_{\Phi}(S) \neq 0$ est alors équivalente à $D_{\Phi'}(S) \neq 0$ (formule (6)), qui elle-même exprime que $s_{\Phi'}$ est bijective (prop. 3), c’est-à-dire que $\Phi'$ est non dégénérée (\$ 1, no 6, prop. 6). Or, pour tout $x \in K \otimes_A E$, il existe $a \in A$ tel que $ax \in E$; par suite, pour que $\Phi$ soit dégénérée, il faut et il suffit que $\Phi'$ le soit. Ceci démontre notre assertion.
+Soit en effet K le corps des fractions de A, et soit $\Phi'$ l’extension de $\Phi$ au K-espace vectoriel $K \otimes_A E$; identifions E à une partie de cet espace vectoriel. La relation $D_{\Phi}(S) \neq 0$ est alors équivalente à $D_{\Phi'}(S) \neq 0$ (formule (6)), qui elle-même exprime que $s_{\Phi'}$ est bijective (prop. 3), c’est-à-dire que $\Phi'$ est non dégénérée (§ 1, no 6, prop. 6). Or, pour tout $x \in K \otimes_A E$, il existe $a \in A$ tel que $ax \in E$; par suite, pour que $\Phi$ soit dégénérée, il faut et il suffit que $\Phi'$ le soit. Ceci démontre notre assertion.
 
 #### Proposition 5 {#alg-ix-s2-prop-5 .statement}
 
 *Soient A un corps, B une algèbre commutative de dimension finie n sur A, et S une base de B. Pour que B soit séparable (chap. VIII, § 7, no 5, déf. 1) il faut et il suffit que l’on ait* $D_{B/A}(S) \neq 0$.
 
-Soient en effet $A'$ la clôture algébrique de A, et $B'$ l’algèbre $A' \otimes_A B$ sur $A'$. Si B est séparable, $B'$ est semi-simple (chap. VIII, § 7, no 5, cor. de la prop. 7) et est donc composée directe de n corps isomorphes à $A'$ (chap. VIII, § 6, no 4, cor. de la prop. 9). Si $S'$ désigne la base canonique de $B'$ (identifiée à $A'^n$), on a $D_{B'/A'}(S') = 1$, d’où $D_{B'/A'}(S) \neq 0$ (prop. 1) et $D_{B/A}(S) \neq 0$ (formule (6)).
+Soient en effet $A'$ la clôture algébrique de A, et $B'$ l’algèbre $A' \otimes_A B$ sur $A'$. Si B est séparable, $B'$ est semi-simple (chap. VIII, § 7, no 5, cor. de la prop. 7) et est donc composée directe de n corps isomorphes à $A'$ (chap. VIII, § 6, no 4, cor. de la prop. 9). Si $S'$ désigne la base canonique de $B'$ (identifiée à ${A'}^n$), on a $D_{B'/A'}(S') = 1$, d’où $D_{B'/A'}(S) \neq 0$ (prop. 1) et $D_{B/A}(S) \neq 0$ (formule (6)).
 
 Réciproquement supposons que l’on ait $D_{B/A}(S) \neq 0$. Pour montrer que B est séparable, il suffit de montrer que $B'$ est semi-simple, c’est-à-dire qu’elle n’admet pas d’élément nilpotent $\neq 0$. Or, si $x'$ était un élément nilpotent non nul de $B'$, on pourrait le prendre comme premier élément d’une base $S'$ de $B'$, et on aurait alors $\mathrm{Tr}_{B'/A'}(x'y') = 0$ pour tout $y' \in S'$ puisqu’un endomorphisme nilpotent a ses valeurs propres nulles (chap. VII, § 5, no 3, cor. 3 de la prop. 8), donc une trace nulle. Il en résulterait que $D_{B'/A'}(S') = 0$, d’où $D_{B'/A'}(S) = 0$ (prop. 1) et $D_{B/A}(S) = 0$ (formule (6)), contrairement à l’hypothèse.
 
@@ -183,7 +183,7 @@ Exercices. — 1) Soit A une algèbre de rang fini sur un corps commutatif K, ay
 
 ¶ 2) Soient B un anneau, A un sous-anneau de B contenant l’élément unité de B ; B est donc un (A, A)-bimodule ; on désigne par $^sB$ (resp. $^dB$) l’ensemble B considéré comme A-module à gauche (resp. à droite), par $^sB^*$ (resp. $^dB^*$) le A-module à droite (resp. à gauche) dual de $^sB$ (resp. $^dB$). Pour tout $x' \in ^sB^*$ et tout $b \in B$, $x \to \langle xb, x' \rangle$ est une forme A-linéaire sur $^sB$, donc un élément de $^sB^*$ qu’on désigne par $bx'$ ; l’application $(b, x') \to bx'$ définit sur $^sB^*$ une structure de B-module à gauche (cf. chap. III, 2e éd., App. II, n° 7).
    a) Soit $\varphi$ un homomorphisme du (A, A)-bimodule B dans le (A, A)-bimodule A ; pour que l’application A-bilinéaire $\Phi : (x, y) \to \varphi(xy)$ de $^sB \times ^dB$ dans A soit non dégénérée, il faut et il suffit que $\varphi(0)$ ne contienne aucun idéal (à gauche ou à droite) de B distinct de $\{0\}$. On dit alors que $\varphi$ est un homomorphisme frobeniusien de B dans A.
-   b) Soit $\varphi$ un homomorphisme frobeniusien de B dans A ; montrer que l’application $d_\varphi$ associée à droite à $\Phi$ est un isomorphisme du B-module à gauche $B_s$ sur un sous-module du B-module à gauche $^sB^*$. Montrer que $d_\varphi$ est bijectif dans chacun des deux cas suivants : 1° A est un anneau artinien à gauche et à droite satisfaisant aux conditions (N_s) et (N_d) (\S 1, exerc. 11), et $^sB$ et $^dB$ sont des A-modules libres de longueurs finies (utiliser l’exerc. 11 b) du \S 1) ; 2° A est un anneau artinien commutatif et involutif (chap. VIII, § 3, exerc. 11), contenu dans le centre de B, et $^sB$ est un A-module de longueur finie (utiliser l’exerc. 11 du chap. VIII, § 3).
+   b) Soit $\varphi$ un homomorphisme frobeniusien de B dans A ; montrer que l’application $d_\varphi$ associée à droite à $\Phi$ est un isomorphisme du B-module à gauche $B_s$ sur un sous-module du B-module à gauche $^sB^*$. Montrer que $d_\varphi$ est bijectif dans chacun des deux cas suivants : 1° A est un anneau artinien à gauche et à droite satisfaisant aux conditions (N_s) et (N_d) (§ 1, exerc. 11), et $^sB$ et $^dB$ sont des A-modules libres de longueurs finies (utiliser l’exerc. 11 b) du § 1) ; 2° A est un anneau artinien commutatif et involutif (chap. VIII, § 3, exerc. 11), contenu dans le centre de B, et $^sB$ est un A-module de longueur finie (utiliser l’exerc. 11 du chap. VIII, § 3).
 
 c) Réciproquement, montrer que si $B_s$ et $^sB^*$ sont isomorphes, il existe un homomorphisme frobeniusien de B dans A lorsqu’on est dans l’un des deux cas considérés dans b) et que $^sB$ et $^dB$ ont même longueur (utiliser l’exerc. 11 b) du § 1).
 
@@ -199,7 +199,7 @@ b) Soit $\varphi$ un homomorphisme frobeniusien de B dans A ; toute forme A-lin�
 
 c) Pour tout $x \in B$, soit $x^\sigma$ l’unique élément (cf. b)) tel que $\varphi(xy) = \varphi(yx^\sigma)$ pour tout $y \in B$. Montrer que $x \to x^\sigma$ est un A-automorphisme de B. On dit que l’algèbre frobeniusienne B est symétrique si $\sigma$ est un automorphisme intérieur de B ; il y a alors un homomorphisme frobeniusien de B dans A pour lequel $\sigma$ est l’identité (cf. b)). Il revient au même de dire que les (B, B)-bimodules B et $^sB^* = ^dB^*$ (qu’on écrit B*) sont isomorphes (exerc. 2 c)).
 
-d) Soient E un B-module à gauche de longueur finie, E’ son dual, E’* le dual de E’ considéré comme espace vectoriel sur A ; E’* est muni d’une structure de B-module à gauche en posant, pour $x' \in E'$, $x'' \in E'^*$, $b \in B$, $\langle x', bx'' \rangle = \langle x'b, x'' \rangle$ (chap. III, 2e éd., App. II, n° 7). Pour tout $x \in E$, soit $f_E(x)$ (ou simplement $f(x)$) l’élément de E’*tel que $\langle x', f(x) \rangle = \varphi(\langle x, x' \rangle)$ pour tout $x' \in E'$; montrer que $f$ est une bijection semi-linéaire pour l’automorphisme $\sigma$, du B-module à gauche E sur le B-module à gauche E’* (utiliser l’exerc. 10 du chap. VIII, § 4). Pour $E = B_s$, on a (avec les notations de l’exerc. 2 b)) $d_\Phi(x^\sigma) = f_{B_s}(x)$ pour tout $x \in B$.
+d) Soient E un B-module à gauche de longueur finie, E’ son dual, E’* le dual de E’ considéré comme espace vectoriel sur A ; E’* est muni d’une structure de B-module à gauche en posant, pour $x' \in E'$, $x'' \in {E'}^*$, $b \in B$, $\langle x', bx'' \rangle = \langle x'b, x'' \rangle$ (chap. III, 2e éd., App. II, n° 7). Pour tout $x \in E$, soit $f_E(x)$ (ou simplement $f(x)$) l’élément de E’*tel que $\langle x', f(x) \rangle = \varphi(\langle x, x' \rangle)$ pour tout $x' \in E'$; montrer que $f$ est une bijection semi-linéaire pour l’automorphisme $\sigma$, du B-module à gauche E sur le B-module à gauche E’* (utiliser l’exerc. 10 du chap. VIII, § 4). Pour $E = B_s$, on a (avec les notations de l’exerc. 2 b)) $d_\Phi(x^\sigma) = f_{B_s}(x)$ pour tout $x \in B$.
 
 4) a) Soit G un groupe fini. Montrer que l’algèbre B du groupe G sur un corps commutatif quelconque A est une algèbre frobeniusienne symétrique (exerc. 3). (Considérer l’application $\varphi$ de B dans A qui, à tout élément $x = \sum_{s \in G} \xi_s . s$, associe $\varphi(x) = \xi_e$, e désignant l’élément neutre de G).
 

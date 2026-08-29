@@ -1,0 +1,4 @@
+{"edges": [
+{"from":"","from_label":"ac--s0","to_label":"top-iii-s6","kind":"cites","raw":"*General Topology*, Chapter III, § 6","form":"section","resolved_by":"section","file":"content/en/ac/00_introduction.md","line":36},
+{"from":"","from_label":"ac--s0","to_label":"alg-vi-s1","kind":"cites","raw":"Algebra, Chapter VI, § 1","form":"section","resolved_by":"section","file":"content/en/ac/00_introduction.md","line":46}
+]}

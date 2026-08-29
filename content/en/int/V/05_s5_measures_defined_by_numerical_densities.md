@@ -53,7 +53,7 @@ subsections:
       pdf_page: 316
 statements: 52
 exercises: 31
-content_sha256: 6a7503ac7070c09ee4ba4dc75d90e625e4265b85f43d14a0cdfa0ac09063fc13
+content_sha256: 558c461f3e10e0b61d6e6a8d8129f54ba980ff5cc18f3a572913b450c90ee96e
 ---
 
 ## § 5. MEASURES DEFINED BY NUMERICAL DENSITIES
@@ -302,11 +302,11 @@ and one says that $\int_A f \, d\mu$ is the *integral of* $f$ *on* $A$ (or *exte
 $$
 g \cdot \lambda = \sup_{\alpha \in A} g \cdot \lambda_\alpha.
 $$
-It is clear that the condition is necessary. Conversely, suppose that $g$ is locally integrable for each of the measures $\lambda_\alpha$ and that the family $(g \cdot \lambda_\alpha)_{\alpha \in A}$ is bounded above; denote its supremum by $\lambda'$. The function $g$ is then $\lambda$-measurable (\S 1, No. 4, Cor. 2 of Prop. 11); moreover, for every function $h \in \mathcal{K}_+(T)$,
+It is clear that the condition is necessary. Conversely, suppose that $g$ is locally integrable for each of the measures $\lambda_\alpha$ and that the family $(g \cdot \lambda_\alpha)_{\alpha \in A}$ is bounded above; denote its supremum by $\lambda'$. The function $g$ is then $\lambda$-measurable (§ 1, No. 4, Cor. 2 of Prop. 11); moreover, for every function $h \in \mathcal{K}_+(T)$,
 $$
 \int^\bullet (hg) \, d\lambda = \sup_{\alpha \in A} \int^\bullet (hg) \, d\lambda_\alpha = \sup_{\alpha \in A} \int^\bullet h \, d(g \cdot \lambda_\alpha) = \int^\bullet h \, d\lambda'
 $$
-(\S 1, No. 4, Prop. 11). This implies first of all that the first member is finite for any $h$, so that $g$ is locally $\lambda$-integrable; the symbol $\int^\bullet$ may therefore be replaced by $\int$, and the formula may be written $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. It follows that $g \cdot \lambda = \lambda'$, and this completes the proof.
+(§ 1, No. 4, Prop. 11). This implies first of all that the first member is finite for any $h$, so that $g$ is locally $\lambda$-integrable; the symbol $\int^\bullet$ may therefore be replaced by $\int$, and the formula may be written $\int h \, d(g \cdot \lambda) = \int h \, d\lambda'$. It follows that $g \cdot \lambda = \lambda'$, and this completes the proof.
 
 #### Corollary {#int-v-s5-n4-cor-1 .statement}
 
@@ -344,13 +344,13 @@ $$
 g \cdot \nu = \int (g \cdot \lambda_t) d\mu(t).
 $$
 
-Let $(K_n)_{n \in \mathbf{N}}$ be an increasing sequence of compact subsets of $X$ whose interiors cover $X$; if $\eta$ is any positive measure on $X$, to say that $g$ is locally $\eta$-integrable is equivalent to saying that $g \varphi_{K_n}$ is $\eta$-integrable for every $n$. Now let $H_n$ be the set of $t \in T$ such that $g \varphi_{K_n}$ is not $\lambda_t$-integrable, and let $H = \bigcup_n H_n$; since $H_n$ is locally $\mu$-negligible for all $n$ (\S 3, No. 3, Th. 1), the same is true of $H$, which establishes the first assertion of the statement. Replacing $\lambda_t$ by 0 for $t$ in $H$ (which does not change the measure $\nu$), we can suppose that $g$ is locally $\lambda_t$-integrable for every $t \in T$. For every $\nu$-measurable positive function $h$ defined on $X$, we have, by Prop. 3 and by Prop. 5 of \S 3, No. 2,
+Let $(K_n)_{n \in \mathbf{N}}$ be an increasing sequence of compact subsets of $X$ whose interiors cover $X$; if $\eta$ is any positive measure on $X$, to say that $g$ is locally $\eta$-integrable is equivalent to saying that $g \varphi_{K_n}$ is $\eta$-integrable for every $n$. Now let $H_n$ be the set of $t \in T$ such that $g \varphi_{K_n}$ is not $\lambda_t$-integrable, and let $H = \bigcup_n H_n$; since $H_n$ is locally $\mu$-negligible for all $n$ (§ 3, No. 3, Th. 1), the same is true of $H$, which establishes the first assertion of the statement. Replacing $\lambda_t$ by 0 for $t$ in $H$ (which does not change the measure $\nu$), we can suppose that $g$ is locally $\lambda_t$-integrable for every $t \in T$. For every $\nu$-measurable positive function $h$ defined on $X$, we have, by Prop. 3 and by Prop. 5 of § 3, No. 2,
 
 $$
 \int^\bullet h d(g \cdot \nu) = \int^\bullet (gh) d\nu = \int^\bullet d\mu(t) \int^\bullet (gh) d\lambda_t = \int^\bullet d\mu(t) \int^\bullet h d(g \cdot \lambda_t).
 $$
 
-This formula and Prop. 5 of \S 3, No. 2 first show (on taking $h \in \mathcal{K}_+(X)$) that the mapping $t \mapsto g \cdot \lambda_t$ is scalarly essentially $\mu$-integrable, and that its integral is $g \cdot \nu$; in other words, the relation (9) holds. Next, let us replace $\mu$ by a positive measure $\mu' \leq \mu$, and let us take for $h$ a positive lower semi-continuous function: it follows at once from these relations that $t \mapsto g \cdot \lambda_t$ is $\mu$-adequate (\S 3, No. 1, Def. 1).
+This formula and Prop. 5 of § 3, No. 2 first show (on taking $h \in \mathcal{K}_+(X)$) that the mapping $t \mapsto g \cdot \lambda_t$ is scalarly essentially $\mu$-integrable, and that its integral is $g \cdot \nu$; in other words, the relation (9) holds. Next, let us replace $\mu$ by a positive measure $\mu' \leq \mu$, and let us take for $h$ a positive lower semi-continuous function: it follows at once from these relations that $t \mapsto g \cdot \lambda_t$ is $\mu$-adequate (§ 3, No. 1, Def. 1).
 
 #### Proposition 8 {#int-v-s5-prop-8 .statement}
 
@@ -385,7 +385,7 @@ a formula equivalent to (10).
 2) *Every locally $\mu$-negligible set is locally $\nu$-negligible*.
 3) *Every $\mu$-negligible compact set is $\nu$-negligible*.
 
-It is clear that 1) implies 2) (Cor. 1 of Prop. 3), and that 2) implies 3). We are going to show that 3) implies 1). We first note that if the condition 3) is satisfied, then every set $A$ that is *universally measurable* and locally $\mu$-negligible is locally $\nu$-negligible; for, $\nu^\bullet(A) = \sup \nu(K)$, where $K$ runs over the set of compact sets contained in $A$ (\S 1, No. 3, Prop. 10, a) and Ch. IV, \S 4, No. 6, Cor. 2 of Th. 4). Next, we shall establish two lemmas.
+It is clear that 1) implies 2) (Cor. 1 of Prop. 3), and that 2) implies 3). We are going to show that 3) implies 1). We first note that if the condition 3) is satisfied, then every set $A$ that is *universally measurable* and locally $\mu$-negligible is locally $\nu$-negligible; for, $\nu^\bullet(A) = \sup \nu(K)$, where $K$ runs over the set of compact sets contained in $A$ (§ 1, No. 3, Prop. 10, a) and Ch. IV, § 4, No. 6, Cor. 2 of Th. 4). Next, we shall establish two lemmas.
 
 #### Lemma 2 {#int-v-s5-lem-2 .statement}
 
@@ -397,7 +397,7 @@ $$
 |\beta(g)|^2 \leq \left( \int |g| \, d|\beta| \right)^2 \leq \left( \int d|\beta| \right) \left( \int |g|^2 \, d|\beta| \right) \leq M^2 \alpha(1) \, \alpha(|g|^2).
 $$
 
-The mapping $g \mapsto \beta(g)$ is thus a continuous linear form on $\mathcal{L}^2(T, \alpha)$. The Hausdorff space associated with $\mathcal{L}^2(T, \alpha)$ being a Hilbert space, there then exists (TVS, Ch. V, \S 1, No. 7, Th. 3) a real function $u \in \mathcal{L}^2(T, \alpha)$, therefore also belonging to $\mathcal{L}^1(T, \alpha)$, such that $\beta(g) = \alpha(ug)$ for every $g \in \mathcal{L}^2(T, \alpha)$. Applying this relation for $g \in \mathcal{K}(T)$, one sees that $\beta = u \cdot \alpha$.
+The mapping $g \mapsto \beta(g)$ is thus a continuous linear form on $\mathcal{L}^2(T, \alpha)$. The Hausdorff space associated with $\mathcal{L}^2(T, \alpha)$ being a Hilbert space, there then exists (TVS, Ch. V, § 1, No. 7, Th. 3) a real function $u \in \mathcal{L}^2(T, \alpha)$, therefore also belonging to $\mathcal{L}^1(T, \alpha)$, such that $\beta(g) = \alpha(ug)$ for every $g \in \mathcal{L}^2(T, \alpha)$. Applying this relation for $g \in \mathcal{K}(T)$, one sees that $\beta = u \cdot \alpha$.
 
 #### Lemma 3 {#int-v-s5-lem-3 .statement}
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 188
 statements: 8
 exercises: 2
-content_sha256: f3689cb510418d67f1099834733ee4dd94b1c5eeaa96784df78a9541b550365b
+content_sha256: 80d029d8486437790893b85347d042555ce8692a018258d92b693b3e80f38c6f
 ---
 
 ## § 5. Calculs formels dans les groupes de Lie
@@ -297,7 +297,7 @@ $$
 x^{[t]} = \sum_{i=0}^{t} \binom{t}{i} ψ_i(x) = \sum_{i=0}^∞ \binom{t}{i} ψ_i(x).
 $$
 
-Cela établi, posons $x^{[t]'} = \sum_{i=0}^∞ \binom{t}{i} ψ_i(x)$ pour tout $t ∈ K$. Dans les séries entières $x^{[t]}$ et $x^{[t]'}$, chaque coefficient est fonction polynomiale de $t$. En effet, cela est évident pour $x^{[t]'}$. En ce qui concerne $x^{[t]}$, il suffit de prouver que, pour tout $u ∈ U(G)$, l’image de $u$ par $x ↦ x^{[t]}$ est fonction polynomiale de $t$. Or, pour $u ∈ U^m(G)$, cette image est $t^m u$ (\S 4, n° 3, prop. 7 (iv)).
+Cela établi, posons $x^{[t]'} = \sum_{i=0}^∞ \binom{t}{i} ψ_i(x)$ pour tout $t ∈ K$. Dans les séries entières $x^{[t]}$ et $x^{[t]'}$, chaque coefficient est fonction polynomiale de $t$. En effet, cela est évident pour $x^{[t]'}$. En ce qui concerne $x^{[t]}$, il suffit de prouver que, pour tout $u ∈ U(G)$, l’image de $u$ par $x ↦ x^{[t]}$ est fonction polynomiale de $t$. Or, pour $u ∈ U^m(G)$, cette image est $t^m u$ (§ 4, n° 3, prop. 7 (iv)).
 
 Comme $x^{[t]} = x^{[t]'}$ pour $t$ entier $≥ 0$, on conclut de là que $x^{[t]} = x^{[t]'}$ pour tout $t ∈ K$.
 

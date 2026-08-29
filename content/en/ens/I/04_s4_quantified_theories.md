@@ -30,7 +30,7 @@ subsections:
       pdf_page: 48
 statements: 0
 exercises: 8
-content_sha256: 925e2bcab4be745aed7f8144472e31fbff6ba56d97432fbf6fd6794efb7b351c
+content_sha256: 07568a80b2b793e5dd22b88d7dc9caf03ded631f676da9f844c975c64e8b5a2c
 ---
 
 ## 4. QUANTIFIED THEORIES
@@ -154,7 +154,7 @@ $$
 
 It is sufficient to prove these criteria in $\mathscr{T}_0$, in which $x$ is not a constant. If $(\forall x)(R\text{ and }S)$ is true, then “$R$ and $S$” is true, and therefore each of the relations $R$, $S$ is true. Consequently each of the relations $(\forall x)R$, $(\forall x)S$ is true, and hence “$(\forall x)R$ and $(\forall x)S$” is true. Similarly one shows that if “$(\forall x)R$ and $(\forall x)S$” is true, then $(\forall x)(R\text{ and }S)$ is true. Hence the first theorem. The second follows by applying C29.
 
-It should be noted that if $(\forall x) (R$ or $S)$ is a theorem in $\mathscr{T}$, we may not conclude that $((\forall x)R$ or $(\forall x)S)$ is a theorem in $\mathscr{T}$. Intuitively, to say that the relation $(\forall x) (R$ or $S)$ is true means that for each object $x$, at least one of the relations $R$, $S$ is true; but in general only one of the two will be true, and whether it is $R$ or $S$ will depend on the choice of $x$. Likewise, if $((\forall x)R$ and $(\exists x)S)$ is a theorem in $\mathscr{T}$, we may not conclude that $(\exists x)(R$ and $S)$ is a theorem in $\mathscr{T}$. However, there is the following criterion :
+It should be noted that if $(\forall x) (R$ or S) is a theorem in $\mathscr{T}$, we may not conclude that $((\forall x)R$ or $(\forall x)S)$ is a theorem in $\mathscr{T}$. Intuitively, to say that the relation $(\forall x) (R$ or S) is true means that for each object $x$, at least one of the relations $R$, $S$ is true; but in general only one of the two will be true, and whether it is $R$ or $S$ will depend on the choice of $x$. Likewise, if $((\forall x)R$ and $(\exists x)S)$ is a theorem in $\mathscr{T}$, we may not conclude that $(\exists x)(R$ and S) is a theorem in $\mathscr{T}$. However, there is the following criterion :
 
 C33. *Let $R$ and $S$ be relations in $\mathscr{T}$, and let $x$ be a letter which does not appear in $R$. Then the relations*
 
@@ -163,11 +163,11 @@ $$(\exists x)(R \text{ and } S) \iff (R \text{ and } (\exists x)S)$$
 
 *are theorems in $\mathscr{T}$.*
 
-It is sufficient to establish the criterion in $\mathscr{T}_0$, in which $x$ is not a constant. Let $\mathscr{T}'$ be the theory obtained by adjoining $(\forall x)(R$ or $S)$ to the axioms of $\mathscr{T}_0$. In $\mathscr{T}'$, "$R$ or $S$", and therefore (not $R$) $\Rightarrow S$, are theorems. If "not $R$" is true (a hypothesis in which $x$ does not feature), then $S$ and therefore also $(\forall x)S$ are true. Consequently
+It is sufficient to establish the criterion in $\mathscr{T}_0$, in which $x$ is not a constant. Let $\mathscr{T}'$ be the theory obtained by adjoining $(\forall x)(R$ or S) to the axioms of $\mathscr{T}_0$. In $\mathscr{T}'$, "$R$ or $S$", and therefore (not $R$) $\Rightarrow S$, are theorems. If "not $R$" is true (a hypothesis in which $x$ does not feature), then $S$ and therefore also $(\forall x)S$ are true. Consequently
 
 $$(\text{not } R) \Rightarrow (\forall x)S$$
 
-is a theorem in $\mathscr{T}'$, and hence $(\forall x)(R$ or $S) \Rightarrow (R$ or $(\forall x)S)$ is a theorem in $\mathscr{T}_0$. Likewise, if "$R$ or $(\forall x)S$" is true, then "$R$ or $S$" and therefore $(\forall x)(R$ or $S)$ are true. Consequently
+is a theorem in $\mathscr{T}'$, and hence $(\forall x)(R$ or $S) \Rightarrow (R$ or $(\forall x)S)$ is a theorem in $\mathscr{T}_0$. Likewise, if "$R$ or $(\forall x)S$" is true, then "$R$ or $S$" and therefore $(\forall x)(R$ or S) are true. Consequently
 
 $$(R \text{ or } (\forall x)S) \Rightarrow (\forall x)(R \text{ or } S)$$
 
@@ -187,7 +187,7 @@ On the other hand, if $(\forall y)(\exists x)R$ is a theorem in $\mathscr{T}$, w
 
 ### 4. TYPICAL QUANTIFIERS
 
-Let $A$ and $R$ be assemblies and let $x$ be a letter. We denote the assembly $(\exists x)(A$ and $R)$ by $(\exists_A x)R$, and the assembly
+Let $A$ and $R$ be assemblies and let $x$ be a letter. We denote the assembly $(\exists x)(A$ and R) by $(\exists_A x)R$, and the assembly
 
 $$\text{“not } (\exists_A x) \text{ (not } R)\text{”}$$
 

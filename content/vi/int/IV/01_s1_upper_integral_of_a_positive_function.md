@@ -28,9 +28,9 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: e95b24e62ec26926743eca5a10a33f9a102a3193e8b0f5730dd3f4eac428a681
+content_sha256: e111b9a774b63dd7b3a9b46a9a2aaf24633a062d68ecb637ce5db5194f970879
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
-source_content_sha256: c5fee5d89da8b5caf64023102a6a2e177c1d72711c4a928dd3ab10cbc5d50bb8
+source_content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
 translation_model: gpt-5.4
 translation_run: translate-vi-cbe59f39
 glossary_version: 34
@@ -278,7 +278,7 @@ $$
 $$
 đó chính là bất đẳng thức (9).
 
-Các Mệnh đề 10, 11 và 12 biểu thị rằng $\mu^*$ là một hàm *tăng, thuần nhất dương* và *lồi* trên tập hợp các hàm số trị số $\geqslant 0$ xác định trên X (Ch. I, No. 1). Chú ý rằng nếu $f_1$ và $f_2$ là hai hàm dương bất kỳ, thì hai vế của (9) không nhất thiết bằng nhau (\$4, Exer. 8 d)); trong §5, No. 6 chúng tôi sẽ cho các điều kiện để có đẳng thức.
+Các Mệnh đề 10, 11 và 12 biểu thị rằng $\mu^*$ là một hàm *tăng, thuần nhất dương* và *lồi* trên tập hợp các hàm số trị số $\geqslant 0$ xác định trên X (Ch. I, No. 1). Chú ý rằng nếu $f_1$ và $f_2$ là hai hàm dương bất kỳ, thì hai vế của (9) không nhất thiết bằng nhau (§ 4, Exer. 8 d)); trong §5, No. 6 chúng tôi sẽ cho các điều kiện để có đẳng thức.
 
 #### Định lý 3 {#int-iv-s1-thm-3 .statement}
 

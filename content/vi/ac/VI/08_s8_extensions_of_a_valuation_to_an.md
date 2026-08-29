@@ -41,9 +41,9 @@ subsections:
       pdf_page: 446
 statements: 36
 exercises: 21
-content_sha256: ee952753a64c13c1cd8b1535126ff5ea7e89e20dbd83b7b27ebed9bf850b12bd
+content_sha256: 6b7933635de2cd253b9e83c22ea64967329dfa8a7052ab863cabcc31927181ea
 translated_from: content/en/ac/VI/08_s8_extensions_of_a_valuation_to_an.md
-source_content_sha256: 123180033e56ca71eacd77c99d019dbec4f763c7ddf35fcae6bb1595c301c345
+source_content_sha256: e49f6fbfa95ed268d0719b34c59a38becfcce0b552ca780ea3e2dc144c85d20e
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-568d1a67
 glossary_version: 34
@@ -178,9 +178,9 @@ $$
 \sum_{i=1}^s n_i \leq n.
 $$
 
-Trước hết ta chứng minh (a). Giả sử rằng v không là không thích hợp. Vì v và $\hat{v}$ (tương ứng $v'$ và $\hat{v}'$) có cùng nhóm cấp và cùng trường thặng dư (\S 5, no. 3, Mệnh đề 5 (b) và (f)), nên (4) đúng. Ta suy ra (6) từ đó bằng Bổ đề 2. Cuối cùng, không gian con-vectơ $\hat{K}$ của $\hat{L}_{v'}$ sinh bởi L là đóng (\S 5, no. 2, Hệ quả của Mệnh đề 4) và trù mật khắp nơi, do đó bằng $\hat{L}_{v'}$; điều này chứng minh (5).
+Trước hết ta chứng minh (a). Giả sử rằng v không là không thích hợp. Vì v và $\hat{v}$ (tương ứng $v'$ và $\hat{v}'$) có cùng nhóm cấp và cùng trường thặng dư (§ 5, no. 3, Mệnh đề 5 (b) và (f)), nên (4) đúng. Ta suy ra (6) từ đó bằng Bổ đề 2. Cuối cùng, không gian con-vectơ $\hat{K}$ của $\hat{L}_{v'}$ sinh bởi L là đóng (§ 5, no. 2, Hệ quả của Mệnh đề 4) và trù mật khắp nơi, do đó bằng $\hat{L}_{v'}$; điều này chứng minh (5).
 
-Bây giờ ta chuyển sang (b). Ta vẫn có thể giả sử rằng v không là không thích hợp. Cho $(v_1', \ldots, v_r')$ là một họ hữu hạn các định giá từng đôi một độc lập trên L mở rộng v. Ảnh của L trong $\prod_{i=1}^r L_i$, theo ánh xạ đường chéo, là trù mật khắp nơi (\S 7, no. 2, Định lý 1) và $\prod_{i=1}^r L_i$ là trù mật trong $\prod_{i=1}^r \hat{L}_i$. Do đó ảnh chính tắc của $\hat{K} \otimes_K L$ trong $\prod_{i=1}^r \hat{L}_i$ là trù mật khắp nơi. Mặt khác ảnh này là một không gian con-vectơ $\hat{K}$ của $\prod_{i=1}^r \hat{L}_i$; vì $\prod_{i=1}^r \hat{L}_i$ có số chiều hữu hạn trên $\hat{K}$ theo (5), ảnh của $\hat{K} \otimes_K L$ là đóng (\S 5, no. 2, Hệ quả của Mệnh đề 4) và do đó bằng $\prod_{i=1}^r \hat{L}_i$. Vì số chiều của $\hat{K} \otimes_K L$ trên K là n, nên $\sum_{i=1}^r n_i \leq n$. Điều này đặc biệt cho thấy số nguyên r bị chặn trên bởi n và chứng minh mệnh đề đầu tiên của (b).
+Bây giờ ta chuyển sang (b). Ta vẫn có thể giả sử rằng v không là không thích hợp. Cho $(v_1', \ldots, v_r')$ là một họ hữu hạn các định giá từng đôi một độc lập trên L mở rộng v. Ảnh của L trong $\prod_{i=1}^r L_i$, theo ánh xạ đường chéo, là trù mật khắp nơi (§ 7, no. 2, Định lý 1) và $\prod_{i=1}^r L_i$ là trù mật trong $\prod_{i=1}^r \hat{L}_i$. Do đó ảnh chính tắc của $\hat{K} \otimes_K L$ trong $\prod_{i=1}^r \hat{L}_i$ là trù mật khắp nơi. Mặt khác ảnh này là một không gian con-vectơ $\hat{K}$ của $\prod_{i=1}^r \hat{L}_i$; vì $\prod_{i=1}^r \hat{L}_i$ có số chiều hữu hạn trên $\hat{K}$ theo (5), ảnh của $\hat{K} \otimes_K L$ là đóng (§ 5, no. 2, Hệ quả của Mệnh đề 4) và do đó bằng $\prod_{i=1}^r \hat{L}_i$. Vì số chiều của $\hat{K} \otimes_K L$ trên K là n, nên $\sum_{i=1}^r n_i \leq n$. Điều này đặc biệt cho thấy số nguyên r bị chặn trên bởi n và chứng minh mệnh đề đầu tiên của (b).
 
 Bây giờ ta lấy $(v_1', \ldots, v_s')$ như trong mệnh đề. Tính chất rằng
 
@@ -190,7 +190,7 @@ $$
 
 là toàn ánh và quan hệ (7) đã được chứng minh. Còn lại cần kiểm tra rằng hạt nhân n của $\phi$ là căn Jacobson $t$ của $\hat{K} \otimes_K L$. Vì $\prod_{i=1}^s \hat{L}_i$ là nửa đơn, nên $t \subset n$. Mặt khác, với mọi iđêan cực đại m của $\hat{K} \otimes_K L$, trường thương $L(m) = (\hat{K} \otimes_K L)/m$ là một mở rộng hợp thành của $\hat{K}$ và L trên K (Algebra,
 
-Chapter VIII, § 8, Mệnh đề 1). Có một định giá w trên L(m) mở rộng $\vartheta$ (§ 3, no. 3, Mệnh đề 5); hạn chế $v'$ của w trên L mở rộng $v$. Vì $[L(m): \hat{K}]$ là hữu hạn, $L(m)$ là đầy đủ đối với w ($\S 5$, no. 2, Mệnh đề 4). Bây giờ bao đóng của L trong $L(m)$ là một trường chứa $\mathbf{K}$ và L và do đó bằng $L(m)$. Do đó $L(m)$ được đồng nhất với phần bù đầy đủ $\hat{L}_{v'}$ và m là hạt nhân của ánh xạ chính tắc của $\hat{K} \otimes_K L$ lên $\hat{L}_{v'}$. Bây giờ, theo giả thiết, tồn tại một chỉ số $i$ sao cho $v'$ và $v'_i$ phụ thuộc; do đó $L_{v'} = L_i$ ($\S 7$, no. 2, Mệnh đề 3). Vì vậy $n \subset m$, điều này chứng minh rằng $n \subset r$ và hoàn tất chứng minh.
+Chapter VIII, § 8, Mệnh đề 1). Có một định giá w trên L(m) mở rộng $\vartheta$ (§ 3, no. 3, Mệnh đề 5); hạn chế $v'$ của w trên L mở rộng $v$. Vì $[L(m): \hat{K}]$ là hữu hạn, $L(m)$ là đầy đủ đối với w ($§ 5$, no. 2, Mệnh đề 4). Bây giờ bao đóng của L trong $L(m)$ là một trường chứa $\mathbf{K}$ và L và do đó bằng $L(m)$. Do đó $L(m)$ được đồng nhất với phần bù đầy đủ $\hat{L}_{v'}$ và m là hạt nhân của ánh xạ chính tắc của $\hat{K} \otimes_K L$ lên $\hat{L}_{v'}$. Bây giờ, theo giả thiết, tồn tại một chỉ số $i$ sao cho $v'$ và $v'_i$ phụ thuộc; do đó $L_{v'} = L_i$ ($§ 7$, no. 2, Mệnh đề 3). Vì vậy $n \subset m$, điều này chứng minh rằng $n \subset r$ và hoàn tất chứng minh.
 
 #### Hệ quả 1 {#ac-vi-s8-prop-2-cor-1 .statement}
 
@@ -242,13 +242,13 @@ có hai cái nào tương đương. Trước hết ta sẽ chứng minh rằng $
 
 Ta lập luận bằng quy nạp theo s và do đó giả sử rằng bất đẳng thức đã được thiết lập cho trường hợp có 0, 1, ..., s - 1 giá trị hóa. Ta phân biệt hai trường hợp.
 
-(1) Giả sử rằng tồn tại ít nhất hai giá trị hóa độc lập $v'_i$. Khi đó tồn tại (\S 7, no. 2, Nhận xét 1) một phân hoạch $[1, s] = I_1 \cup \ldots \cup I_t$ của $[1, s]$ sao cho:
+(1) Giả sử rằng tồn tại ít nhất hai giá trị hóa độc lập $v'_i$. Khi đó tồn tại (§ 7, no. 2, Nhận xét 1) một phân hoạch $[1, s] = I_1 \cup \ldots \cup I_t$ của $[1, s]$ sao cho:
 (i) để $v'_i$ và $v'_j$ phụ thuộc, điều kiện cần và đủ là $i$ và $j$ thuộc cùng một $I_k$;
 (ii) Card$(I_k) < s$ với mọi $k$.
 
-Ta chọn trong mỗi $I_k$ một chỉ số $i(k)$. Ký hiệu $\hat{L}_{i(k)}$ là phép đầy đủ của L đối với $v'_{i(k)}$ và $n(k) = [\hat{L}_{i(k)} : \hat{K}]$. Với mọi $i \in I_k$, $v'_i$ xác định trên $L$ cùng một tôpô như $v'_{i(k)}$ (\S 7, no. 2, Mệnh đề 3) và do đó có thể được mở rộng thành một giá trị hóa $\bar{v}'_i$ trên $\hat{L}_{i(k)}$ mà hạn chế của nó lên $\hat{K}$ là 0. Vì không có hai giá trị nào trong các $v'_i$ với $i \in I$, là tương đương, điều tương tự cũng đúng đối với các $\bar{v}'_i$. Giả thiết quy nạp áp dụng cho cặp có thứ tự $(\hat{K}, \hat{L}_{i(k)})$ cho thấy, nhờ Mệnh đề 2 (a), công thức (4), rằng $\sum_{i \in I_k} e(v'_i/v)f(v'_i/v) \leq n(k)$. Vì $\sum_{k=1}^t n(k) \leq n$ (Mệnh đề 2 (b), công thức (7)), chắc chắn $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$.
+Ta chọn trong mỗi $I_k$ một chỉ số $i(k)$. Ký hiệu $\hat{L}_{i(k)}$ là phép đầy đủ của L đối với $v'_{i(k)}$ và $n(k) = [\hat{L}_{i(k)} : \hat{K}]$. Với mọi $i \in I_k$, $v'_i$ xác định trên $L$ cùng một tôpô như $v'_{i(k)}$ (§ 7, no. 2, Mệnh đề 3) và do đó có thể được mở rộng thành một giá trị hóa $\bar{v}'_i$ trên $\hat{L}_{i(k)}$ mà hạn chế của nó lên $\hat{K}$ là 0. Vì không có hai giá trị nào trong các $v'_i$ với $i \in I$, là tương đương, điều tương tự cũng đúng đối với các $\bar{v}'_i$. Giả thiết quy nạp áp dụng cho cặp có thứ tự $(\hat{K}, \hat{L}_{i(k)})$ cho thấy, nhờ Mệnh đề 2 (a), công thức (4), rằng $\sum_{i \in I_k} e(v'_i/v)f(v'_i/v) \leq n(k)$. Vì $\sum_{k=1}^t n(k) \leq n$ (Mệnh đề 2 (b), công thức (7)), chắc chắn $\sum_{i=1}^s e(v'_i/v)f(v'_i/v) \leq n$.
 
-(2) Bây giờ ta chuyển sang trường hợp trong đó hai phần tử bất kỳ nào của $v'_i$ cũng phụ thuộc nhau. Gọi $A'_i$ là vành của $v'_i$ ($1 \leq i \leq s$); ký hiệu $A$ là vành của $v$, ta có $A'_i \cap K = A$ với mọi $i$. Gọi $B'$ là vành con của $L$ sinh bởi $A'_1, \ldots, A'_s$; ta ký hiệu $B = B' \cap K$; khi đó $B \supseteq A$. Khi đó $B$ là vành của một định giá $w$ trên $K$ và $B'$ là vành của một định giá $w'$ không suy biến và mở rộng $w$ (\S 7, no. 2, Mệnh đề 4); trường $\kappa(B')$ là một mở rộng của $\kappa(B)$ có bậc $f(w'/w)$. Xét các ảnh chính tắc $\bar{A}'_i, \bar{A}$ của $A'_i$ và $A$ trong $\kappa(B')$; khi đó $\bar{A}$ là vành của một định giá $\bar{v}$ trên $\kappa(B)$ và các $\bar{A}'_i$ là các vành của các định giá $\bar{v}'_i$ trên $\kappa(B')$ mở rộng $\bar{v}$. Vì các $A'_i$ sinh ra $B'$, các $\bar{A}'_i$ sinh ra $\kappa(B')$ và do đó các $\bar{v}'_i$ không phải tất cả đều phụ thuộc nhau (\S 7, no. 2, Mệnh đề 4). Từ phần đầu của chứng minh,
+(2) Bây giờ ta chuyển sang trường hợp trong đó hai phần tử bất kỳ nào của $v'_i$ cũng phụ thuộc nhau. Gọi $A'_i$ là vành của $v'_i$ ($1 \leq i \leq s$); ký hiệu $A$ là vành của $v$, ta có $A'_i \cap K = A$ với mọi $i$. Gọi $B'$ là vành con của $L$ sinh bởi $A'_1, \ldots, A'_s$; ta ký hiệu $B = B' \cap K$; khi đó $B \supseteq A$. Khi đó $B$ là vành của một định giá $w$ trên $K$ và $B'$ là vành của một định giá $w'$ không suy biến và mở rộng $w$ (§ 7, no. 2, Mệnh đề 4); trường $\kappa(B')$ là một mở rộng của $\kappa(B)$ có bậc $f(w'/w)$. Xét các ảnh chính tắc $\bar{A}'_i, \bar{A}$ của $A'_i$ và $A$ trong $\kappa(B')$; khi đó $\bar{A}$ là vành của một định giá $\bar{v}$ trên $\kappa(B)$ và các $\bar{A}'_i$ là các vành của các định giá $\bar{v}'_i$ trên $\kappa(B')$ mở rộng $\bar{v}$. Vì các $A'_i$ sinh ra $B'$, các $\bar{A}'_i$ sinh ra $\kappa(B')$ và do đó các $\bar{v}'_i$ không phải tất cả đều phụ thuộc nhau (§ 7, no. 2, Mệnh đề 4). Từ phần đầu của chứng minh,
 
 $$
 \sum_{i=1}^s e(\bar{v}'_i/\bar{v})f(\bar{v}'_i/\bar{v}) \leq [\kappa(B') : \kappa(B)] = f(w'/w)
@@ -269,7 +269,7 @@ $$
 Về điều này, ta nhận xét rằng $v$ và $\bar{v}$ (tương ứng $v'_i$ và $\bar{v}'_i$) có cùng trường thặng dư (§ 4, no. 1, Hệ quả của Mệnh đề 2); điều này chứng minh đẳng thức thứ nhất. Đối với đẳng thức thứ hai, theo Nhận xét trong §4, no. 3, ta có biểu đồ giao hoán sau, trong đó các hàng là các dãy khớp và các mũi tên đứng biểu diễn các đơn ánh chính tắc:
 
 $$
-\begin{array}{cccccc}
+\begin{array}{ccccccccc}
 0 & \to & \Gamma_{\bar{v}} & \to & \Gamma_v & \to & \Gamma_w & \to & 0 \\
 & & \downarrow & & \downarrow & & \downarrow & & \\
 0 & \to & \Gamma_{\bar{v}_i'} & \to & \Gamma_{v_i'} & \to & \Gamma_{w'} & \to & 0
@@ -336,7 +336,7 @@ $$
 [A'/mA': A/m] = \varepsilon(w/v) f(w/v).
 $$
 
-Các iđêan của $A'$ chứa $mA'$ và phân biệt với $A'$ tương ứng với các tập con lớn của $\Gamma_w$ gồm các phần tử >0 và chứa các phần tử >0 của $\Gamma_v$ (\S 3, no. 5, Hệ quả của Mệnh đề 7). Do đó chúng có số lượng bằng $\varepsilon(w/v)$ và, vì chúng tạo thành một tập sắp thứ tự toàn phần theo quan hệ bao hàm, số này bằng độ dài của vành thương $A'/mA'$. Bây giờ một môđun có độ dài 1 trên $A'$ là một không gian vectơ chiều 1 trên $A'/m'$ và do đó là một môđun có độ dài $f(w/v)$ trên $A$; do đó, vì $A'/mA'$ có độ dài $\varepsilon(w/v)$ trên $A'$, nó có độ dài $\varepsilon(w/v) f(w/v)$ trên $A$, tức là trên $A/m$.
+Các iđêan của $A'$ chứa $mA'$ và phân biệt với $A'$ tương ứng với các tập con lớn của $\Gamma_w$ gồm các phần tử >0 và chứa các phần tử >0 của $\Gamma_v$ (§ 3, no. 5, Hệ quả của Mệnh đề 7). Do đó chúng có số lượng bằng $\varepsilon(w/v)$ và, vì chúng tạo thành một tập sắp thứ tự toàn phần theo quan hệ bao hàm, số này bằng độ dài của vành thương $A'/mA'$. Bây giờ một môđun có độ dài 1 trên $A'$ là một không gian vectơ chiều 1 trên $A'/m'$ và do đó là một môđun có độ dài $f(w/v)$ trên $A$; do đó, vì $A'/mA'$ có độ dài $\varepsilon(w/v)$ trên $A'$, nó có độ dài $\varepsilon(w/v) f(w/v)$ trên $A$, tức là trên $A/m$.
 
 ### 5. QUAN HỆ $\sum_i e_i f_i = n$
 
@@ -348,7 +348,7 @@ $$
 [B/mB : A/m] = \sum_{i=1}^s \varepsilon(v'_i/v) f(v'_i/v).
 $$
 
-Gọi $A_i$ là vành của $v'_i$; khi đó $A_i = B_{m_i}$ trong đó $m_i$ chạy qua họ các iđêan cực đại của $B$ (no. 3, Nhận xét). Gọi $q_i$ là bão hòa của $mB$ đối với $m_i$ (Chương II, \S 2, no. 4). Theo Chương V, Hệ quả 3 của Mệnh đề 1, no. 1, \S 2, đồng cấu chính tắc $B/mB \to \prod_{i=1}^s B/q_i$ là một đẳng cấu và $m_i$ là iđêan cực đại duy nhất của B chứa $q_i$. Do đó $B/q_i$ đẳng cấu chính tắc với $(B/q_i)_{m_i}$ (Chương II, § 3, no. 3, Mệnh đề 8), tức là với
+Gọi $A_i$ là vành của $v'_i$; khi đó $A_i = B_{m_i}$ trong đó $m_i$ chạy qua họ các iđêan cực đại của $B$ (no. 3, Nhận xét). Gọi $q_i$ là bão hòa của $mB$ đối với $m_i$ (Chương II, § 2, no. 4). Theo Chương V, Hệ quả 3 của Mệnh đề 1, no. 1, § 2, đồng cấu chính tắc $B/mB \to \prod_{i=1}^s B/q_i$ là một đẳng cấu và $m_i$ là iđêan cực đại duy nhất của B chứa $q_i$. Do đó $B/q_i$ đẳng cấu chính tắc với $(B/q_i)_{m_i}$ (Chương II, § 3, no. 3, Mệnh đề 8), tức là với
 $$
 B_{m_i}/mB_{m_i} = A_i/mA_i.
 $$
@@ -426,7 +426,7 @@ và mặt khác $n = sn$, theo Hệ quả 3; điều này chứng minh rằng $\
 
 *Nhận xét (2)*. Một phần các kết quả trên mở rộng được sang trường hợp các định giá trên một trường K *không nhất thiết giao hoán* (xem § 3, no. 1). Cho L là một mở rộng trường của K và cho $v'$ là một định giá trên L, $v$ là hạn chế của nó trên K và A' và A là các vành tương ứng của các định giá $v'$ và $v$; khi đó có xác định một chỉ số phân nhánh $e(v'/v)$ như trong no. 1; mặt khác, $\kappa(A)$ được đồng nhất với một trường con của $\kappa(A')$ và hạng thặng dư (trái) của $v'$ đối với $v$ được định nghĩa là số $f(v'/v)$ bằng số chiều của không gian vectơ trái $\kappa(A)$-không gian $\kappa(A')$, nếu chiều này hữu hạn, và $+\infty$ trong trường hợp đối. Khi đó, nếu L là một không gian vectơ trái K có số chiều hữu hạn $n$, Bổ đề 2 của no. 1 và chứng minh của nó vẫn giữ nguyên. Hơn nữa, nếu K đầy đủ đối với $v$, các mệnh đề của Hệ quả 2 của Định lý 2 của no. 5 (ngoài sự tồn tại của $u'$) cũng đúng ($n$ ký hiệu chiều của L như một không gian vectơ trái K) với chứng minh sau:
 
-Trước hết, tôpô xác định bởi $v'$ trên L là Hausdorff và tương thích với cấu trúc không gian vectơ trái K của nó và do đó hai mở rộng của $v$ lên L cho cùng một tôpô trên L ($\S 5$, no. 2, Mệnh đề 4), điều này chứng minh rằng các mở rộng này là như nhau đến tương đương ($\S 6$, no. 2). Tiếp theo ta chứng minh rằng, nếu $m = m(A)$, $A'/mA'$ là một không gian vectơ trái $(A/m)$ có số chiều $e(v'/v) f(v'/v)$. Viết $e = e(v'/v)$, ta có thể giả sử rằng $v(K^*) = Z$ và $v'(L^*) = e^{-1}Z$; gọi $u'$ là một phần tử của L sao cho $v'(u') = e^{-1}$ và $u$ là một phần tử của K sao cho $v(u) = 1$; do đó $u = zu'^e$, trong đó $z \in L$ là phần tử sao cho $v'(z) = 0$. Vì m được sinh bởi $u$ (như một iđêan trái hoặc phải của A), $mA' = u'^eA' = A'u'^e$ và chỉ cần chứng minh rằng, với $0 \leq k \leq e - 1$, $A'u'^k/A'u'^{k+1}$ là một không gian vectơ trái $(A/m)$ có số chiều $f(v'/v)$. Nhưng $t \mapsto tu'^k$ là một đẳng cấu của A-môđun trái A lên A-môđun trái $A'u'^k$ biến $A'u'$ thành $A'u'^{k+1}$ và do đó bằng cách lấy thương cho một $(A/m)$-đẳng cấu của $A'/A'u'$ lên $A'u'^k/A'u'^{k+1}$, do đó mệnh đề của ta theo định nghĩa của $f(v'/v)$, $u'$ sinh iđêan cực đại của $A'$. Chứng minh được hoàn tất như trong trường hợp K và L giao hoán (sự kiện rằng một A-môđun xoắn không có xoắn sinh hữu hạn là tự do được chứng minh như trong $\S 3$, no. 6, Bổ đề 1).
+Trước hết, tôpô xác định bởi $v'$ trên L là Hausdorff và tương thích với cấu trúc không gian vectơ trái K của nó và do đó hai mở rộng của $v$ lên L cho cùng một tôpô trên L ($§ 5$, no. 2, Mệnh đề 4), điều này chứng minh rằng các mở rộng này là như nhau đến tương đương ($§ 6$, no. 2). Tiếp theo ta chứng minh rằng, nếu $m = m(A)$, $A'/mA'$ là một không gian vectơ trái $(A/m)$ có số chiều $e(v'/v) f(v'/v)$. Viết $e = e(v'/v)$, ta có thể giả sử rằng $v(K^*) = Z$ và $v'(L^*) = e^{-1}Z$; gọi $u'$ là một phần tử của L sao cho $v'(u') = e^{-1}$ và $u$ là một phần tử của K sao cho $v(u) = 1$; do đó $u = z{u'}^e$, trong đó $z \in L$ là phần tử sao cho $v'(z) = 0$. Vì m được sinh bởi $u$ (như một iđêan trái hoặc phải của A), $mA' = {u'}^eA' = A'{u'}^e$ và chỉ cần chứng minh rằng, với $0 \leq k \leq e - 1$, $A'{u'}^k/A'{u'}^{k+1}$ là một không gian vectơ trái $(A/m)$ có số chiều $f(v'/v)$. Nhưng $t \mapsto t{u'}^k$ là một đẳng cấu của A-môđun trái A lên A-môđun trái $A'{u'}^k$ biến $A'u'$ thành $A'{u'}^{k+1}$ và do đó bằng cách lấy thương cho một $(A/m)$-đẳng cấu của $A'/A'u'$ lên $A'{u'}^k/A'{u'}^{k+1}$, do đó mệnh đề của ta theo định nghĩa của $f(v'/v)$, $u'$ sinh iđêan cực đại của $A'$. Chứng minh được hoàn tất như trong trường hợp K và L giao hoán (sự kiện rằng một A-môđun xoắn không có xoắn sinh hữu hạn là tự do được chứng minh như trong $§ 3$, no. 6, Bổ đề 1).
 
 ### 6. CÁC VÀNH ĐỊNH GIÁ TRONG MỘT MỞ RỘNG ĐẠI SỐ
 
@@ -434,19 +434,19 @@ Trước hết, tôpô xác định bởi $v'$ trên L là Hausdorff và tương
 
 Cho K là một trường, $v$ là một định giá trên K, A là vành của nó, L là một mở rộng đại số của K và $A'$ là bao đóng nguyên của A trong L. Cho 23 là tập hợp các vành định giá trên L mở rộng $v$ và $\mathfrak{M}'$ là tập hợp các iđêan cực đại của $A'$. Khi đó ánh xạ $V \mapsto m(V) \cap A'$ là một song ánh từ 23 lên $\mathfrak{M}'$ và $m' \mapsto A'_{m'}$ là song ánh ngược.
 
-Mọi iđêan cực đại $m'$ của $A'$ đều sao cho $m' \cap A$ là iđêan cực đại của A (Chương V, § 2, no. 1, Mệnh đề 1) và $A'_{m'}$ bị trội bởi một vành định giá V của L (do đó nó là vành của một định giá trên L mở rộng $v$) ($\S 1$, no. 2, Hệ quả của Định lý 2). Trường L là hợp của một họ có hướng các mở rộng con K, của L hữu hạn trên K và sẽ đủ, để thấy rằng $V = A'_{m'}$, phải chứng minh rằng $V \cap K = A'_{m'} \cap K$, với mọi $\alpha$. Bây giờ, nếu ta viết $A'_\alpha = A' \cap K_\alpha$, thì $A'_\alpha$ là bao đóng nguyên của A trong K, và do đó là giao của các vành của các định giá trên K, mở rộng $v$ và các vành này $V_\alpha$ có số lượng hữu hạn và là các vành địa phương $(A'_\alpha)_{i|m_\alpha}$ của $A'_\alpha$ ($1 \leq i \leq n$), trong đó các $m'_{i\alpha}$ là các iđêan cực đại phân biệt của $A'_\alpha$ (no. 3, Nhận xét); nhưng $m' \cap A'_\alpha$ là một trong các $m'_{i\alpha}$ và $V \cap K_\alpha$ do đó bằng vành địa phương tương ứng $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$, điều này hoàn thành chứng minh rằng $V = A'_{m'}$. Ngược lại, nếu $V \in \mathfrak{V}$, thì $A' \subset V$ (\$3, no. 3, Mệnh đề 6) và, nếu $m' = m(V) \cap A'$, thì $m' \cap A = m$, do đó $m'$ là một iđêan cực đại của $A'$ (Chương V, § 2, no. 1, Mệnh đề 1) và lập luận trên cho thấy rằng $V = A'_{m'}$.
+Mọi iđêan cực đại $m'$ của $A'$ đều sao cho $m' \cap A$ là iđêan cực đại của A (Chương V, § 2, no. 1, Mệnh đề 1) và $A'_{m'}$ bị trội bởi một vành định giá V của L (do đó nó là vành của một định giá trên L mở rộng $v$) ($§ 1$, no. 2, Hệ quả của Định lý 2). Trường L là hợp của một họ có hướng các mở rộng con K, của L hữu hạn trên K và sẽ đủ, để thấy rằng $V = A'_{m'}$, phải chứng minh rằng $V \cap K = A'_{m'} \cap K$, với mọi $\alpha$. Bây giờ, nếu ta viết $A'_\alpha = A' \cap K_\alpha$, thì $A'_\alpha$ là bao đóng nguyên của A trong K, và do đó là giao của các vành của các định giá trên K, mở rộng $v$ và các vành này $V_\alpha$ có số lượng hữu hạn và là các vành địa phương $(A'_\alpha)_{i|m_\alpha}$ của $A'_\alpha$ ($1 \leq i \leq n$), trong đó các $m'_{i\alpha}$ là các iđêan cực đại phân biệt của $A'_\alpha$ (no. 3, Nhận xét); nhưng $m' \cap A'_\alpha$ là một trong các $m'_{i\alpha}$ và $V \cap K_\alpha$ do đó bằng vành địa phương tương ứng $(A'_\alpha)_{m'_{i\alpha}} \subset A'_{m'}$, điều này hoàn thành chứng minh rằng $V = A'_{m'}$. Ngược lại, nếu $V \in \mathfrak{V}$, thì $A' \subset V$ (§ 3, no. 3, Mệnh đề 6) và, nếu $m' = m(V) \cap A'$, thì $m' \cap A = m$, do đó $m'$ là một iđêan cực đại của $A'$ (Chương V, § 2, no. 1, Mệnh đề 1) và lập luận trên cho thấy rằng $V = A'_{m'}$.
 
 #### Mệnh đề 7 {#ac-vi-s8-prop-7 .statement}
 
 *Cho K là một trường, L một mở rộng quasi-Galois của K và f và $f'$ là các nơi của L với giá trị trong cùng một trường F. Giả sử rằng các hạn chế của f và $f'$ lên K trùng nhau. Khi đó tồn tại một tự đẳng cấu K của L sao cho $f' = f \circ s$.*
 
-Gọi A là vành của nơi của K là hạn chế chung của f và $f'$. Các vành của f và $f'$ chứa bao đóng nguyên $A'$ của A trong L (\$ 1, no. 3, Hệ quả 3 của Định lý 3) và do đó (Chương V, § 2, no. 3, Hệ quả 1 của Mệnh đề 6) tồn tại một tự đẳng cấu K của L sao cho các hạn chế của f và $f \circ s$ lên $A'$ bằng nhau; nếu $m'$ là hạt nhân chung của các hạn chế này, $m' \cap A$ là iđêan cực đại của A, do đó $m'$ là một iđêan cực đại của $A'$ và các nơi $f'$ và $f \circ s$ trùng nhau trên vành $A'_{m'}$; nhưng theo Mệnh đề 6 vành định giá duy nhất của L trội lên $A'_{m'}$ là chính vành $A'_{m'}$ và do đó các vành của các nơi $f'$ và $f \circ s$ là như nhau.
+Gọi A là vành của nơi của K là hạn chế chung của f và $f'$. Các vành của f và $f'$ chứa bao đóng nguyên $A'$ của A trong L (§ 1, no. 3, Hệ quả 3 của Định lý 3) và do đó (Chương V, § 2, no. 3, Hệ quả 1 của Mệnh đề 6) tồn tại một tự đẳng cấu K của L sao cho các hạn chế của f và $f \circ s$ lên $A'$ bằng nhau; nếu $m'$ là hạt nhân chung của các hạn chế này, $m' \cap A$ là iđêan cực đại của A, do đó $m'$ là một iđêan cực đại của $A'$ và các nơi $f'$ và $f \circ s$ trùng nhau trên vành $A'_{m'}$; nhưng theo Mệnh đề 6 vành định giá duy nhất của L trội lên $A'_{m'}$ là chính vành $A'_{m'}$ và do đó các vành của các nơi $f'$ và $f \circ s$ là như nhau.
 
 #### Hệ quả 1 {#ac-vi-s8-prop-7-cor-1 .statement}
 
 *Cho K là một trường, v một định giá trên K, L một mở rộng quasi-Galois của K và $v'$ và $v''$ là hai mở rộng của v lên L. Khi đó tồn tại một tự đẳng cấu K của L sao cho $v''$ tương đương với $v' \circ s$.*
 
-Gọi $f'$ và $f''$ là các nơi của K liên kết với $v'$ và $v''$; thay thế chúng nếu cần bằng các nơi tương đương, ta có thể giả sử rằng cả hai đều nhận giá trị của chúng trong bao đóng đại số của trường thặng dư của v (no. 1, Mệnh đề 1). Khi đó tồn tại một tự đẳng cấu K của L sao cho $f'' = f' \circ s$ (Mệnh đề 7); do đó $v''$ tương đương với $v' \circ s$ theo sự tương ứng giữa các nơi và các định giá (\$ 3, no. 3).
+Gọi $f'$ và $f''$ là các nơi của K liên kết với $v'$ và $v''$; thay thế chúng nếu cần bằng các nơi tương đương, ta có thể giả sử rằng cả hai đều nhận giá trị của chúng trong bao đóng đại số của trường thặng dư của v (no. 1, Mệnh đề 1). Khi đó tồn tại một tự đẳng cấu K của L sao cho $f'' = f' \circ s$ (Mệnh đề 7); do đó $v''$ tương đương với $v' \circ s$ theo sự tương ứng giữa các nơi và các định giá (§ 3, no. 3).
 
 #### Hệ quả 2 {#ac-vi-s8-prop-7-cor-2 .statement}
 
@@ -466,7 +466,7 @@ L là một mở rộng quasi-Galois và tự đẳng cấu duy nhất của nó
 
 *Cho K là một trường, L là một mở rộng đại số của K và $\mathfrak{f}$ là một giá trị tuyệt đối trên K. Khi đó $\mathfrak{f}$ có thể được mở rộng thành một giá trị tuyệt đối trên L.*
 
-Trước hết giả sử rằng tồn tại một giá trị định chuẩn $v$ trên $K$ với các giá trị thực sao cho $f(x) = e^{-v(x)}$. Tồn tại một giá trị định chuẩn $v'$ trên $L$ mà hạn chế của nó trên $K$ tương đương với $v$ ($\S 3$, no. 3, Mệnh đề 5). Khi đó $v'$ có chiều cao 0 hoặc 1 (no. 1, Hệ quả 2 của Mệnh đề 1) và do đó có thể giả sử rằng nó có các giá trị thực. Hạn chế của ánh xạ $x \mapsto e^{-v'(x)}$ trên $K$ là một giá trị tuyệt đối tương đương với $f$ và vì thế có dạng $f^s$ với $s > 0$ (*Tôpô đại cương*, Chương IX, $\S 3$, no. 2, Mệnh đề 5). Ta kết luận rằng
+Trước hết giả sử rằng tồn tại một giá trị định chuẩn $v$ trên $K$ với các giá trị thực sao cho $f(x) = e^{-v(x)}$. Tồn tại một giá trị định chuẩn $v'$ trên $L$ mà hạn chế của nó trên $K$ tương đương với $v$ ($§ 3$, no. 3, Mệnh đề 5). Khi đó $v'$ có chiều cao 0 hoặc 1 (no. 1, Hệ quả 2 của Mệnh đề 1) và do đó có thể giả sử rằng nó có các giá trị thực. Hạn chế của ánh xạ $x \mapsto e^{-v'(x)}$ trên $K$ là một giá trị tuyệt đối tương đương với $f$ và vì thế có dạng $f^s$ với $s > 0$ (*Tôpô đại cương*, Chương IX, $§ 3$, no. 2, Mệnh đề 5). Ta kết luận rằng
 
 $$
 x \mapsto e^{-v'(x)/s}
@@ -474,7 +474,7 @@ $$
 
 là một giá trị tuyệt đối trên $L$ mở rộng $f$.
 
-Bây giờ giả sử rằng $f$ không là phi Archimedes. Khi đó $K$ được đồng nhất với một trường con của $\mathbf{C}$ sao cho $f(x) = |x|^s$ trong đó $0 \leq s \leq 1$ ($\S 6$, no. 4, Định lý 2). Vì $\mathbf{C}$ là đóng đại số, $L$ được đồng nhất với một trường con của $\mathbf{C}$ và giá trị tuyệt đối $x \mapsto |x|^s$ mở rộng $f$.
+Bây giờ giả sử rằng $f$ không là phi Archimedes. Khi đó $K$ được đồng nhất với một trường con của $\mathbf{C}$ sao cho $f(x) = |x|^s$ trong đó $0 \leq s \leq 1$ ($§ 6$, no. 4, Định lý 2). Vì $\mathbf{C}$ là đóng đại số, $L$ được đồng nhất với một trường con của $\mathbf{C}$ và giá trị tuyệt đối $x \mapsto |x|^s$ mở rộng $f$.
 
 #### Mệnh đề 10 {#ac-vi-s8-prop-10 .statement}
 
@@ -486,7 +486,7 @@ $$
 
 *đối với mọi* $x \in L$.
 
-Sự tồn tại của $f'$ suy ra từ Mệnh đề 9 và tính duy nhất của nó (trên mọi mở rộng con hữu hạn của $L$ và do đó trên toàn bộ $L$) suy ra từ Bổ đề 2 của $\S 6$, no. 4. Gọi $f'$ là mở rộng duy nhất của f tới bao đóng đại số của $K$ và giả sử $L$ có bậc hữu hạn $n$. Ta biết rằng $N_{L/K}(x) = \prod_{i=1}^n x_i$, trong đó mỗi $x_i$ là một phần tử liên hợp của $x$ trên $K$ (*Đại số*, Chương VIII, $\S 12$, no. 2, Mệnh đề 4). Do tính duy nhất của $f'$, $f'(x_i) = f'(x)$ với mọi $i$, do đó có công thức đã nêu.
+Sự tồn tại của $f'$ suy ra từ Mệnh đề 9 và tính duy nhất của nó (trên mọi mở rộng con hữu hạn của $L$ và do đó trên toàn bộ $L$) suy ra từ Bổ đề 2 của $§ 6$, no. 4. Gọi $f'$ là mở rộng duy nhất của f tới bao đóng đại số của $K$ và giả sử $L$ có bậc hữu hạn $n$. Ta biết rằng $N_{L/K}(x) = \prod_{i=1}^n x_i$, trong đó mỗi $x_i$ là một phần tử liên hợp của $x$ trên $K$ (*Đại số*, Chương VIII, $§ 12$, no. 2, Mệnh đề 4). Do tính duy nhất của $f'$, $f'(x_i) = f'(x)$ với mọi $i$, do đó có công thức đã nêu.
 
 #### Mệnh đề 11 {#ac-vi-s8-prop-11 .statement}
 
@@ -519,7 +519,7 @@ Chú ý rằng hai mở rộng của f tới L xác định cùng một tôpô t
 
 Nhận xét
 (1) Mệnh đề 11 (b) chỉ ra rằng mọi mở rộng hợp thành của $\hat{K}$ và L trên K đều đẳng cấu với một trong các phép hoàn thành $\hat{L}_i$ và rằng các mở rộng này là những mở rộng hợp thành mà không có hai cái nào trong chúng đẳng cấu với nhau.
-(2) Ta biết rằng các phép hoàn thành $\hat{K}$ và $\hat{L}_i$ đẳng cấu với $\mathbf{R}$ hoặc $\mathbf{C}$ ($\S 6$, no. 4, Định lý 2). Nếu $\hat{K}$ đẳng cấu với $\mathbf{C}$, thì $\hat{L}_i$ cũng vậy với mọi $i$ và (10) chỉ ra rằng số các mở rộng $f_i'$ là *bằng n*. Nếu $\hat{K}$ đẳng cấu với $\mathbf{R}$ (chẳng hạn nếu $K = \mathbf{Q}$), gọi $r_1$ (resp. $r_2$) là số các chỉ số $i$ sao cho $\hat{L}_i$ đẳng cấu với $\mathbf{R}$ (resp. $\mathbf{C}$); khi đó (10) có thể được viết:
+(2) Ta biết rằng các phép hoàn thành $\hat{K}$ và $\hat{L}_i$ đẳng cấu với $\mathbf{R}$ hoặc $\mathbf{C}$ ($§ 6$, no. 4, Định lý 2). Nếu $\hat{K}$ đẳng cấu với $\mathbf{C}$, thì $\hat{L}_i$ cũng vậy với mọi $i$ và (10) chỉ ra rằng số các mở rộng $f_i'$ là *bằng n*. Nếu $\hat{K}$ đẳng cấu với $\mathbf{R}$ (chẳng hạn nếu $K = \mathbf{Q}$), gọi $r_1$ (resp. $r_2$) là số các chỉ số $i$ sao cho $\hat{L}_i$ đẳng cấu với $\mathbf{R}$ (resp. $\mathbf{C}$); khi đó (10) có thể được viết:
 
 $$
 r_1 + 2r_2 = n.
@@ -537,7 +537,7 @@ $$
 f''(x) = |u''(x)|^{a''}
 $$
 
-for all $x \in L$ ($\S 6$, no. 4, Định lý 2). Lấy $x = 2$, ta thấy rằng $a' = a''$. Các hạn chế của $u'$ và $u''$ lên K mở rộng bằng tính liên tục thành các đẳng cấu $u_1$ và $u_2$ của $\hat{K}$ lên $\mathbf{R}$ (resp. $\mathbf{C}$). Khi đó $u_2 \circ \bar{u}_1^{-1}$ là một tự đẳng cấu của trường *được định giá* $\mathbf{R}$ (resp. $\mathbf{C}$) và do đó là đồng nhất (resp. đồng nhất hoặc tự đẳng cấu $c : \zeta \to \bar{\zeta}$). Thay thế nếu cần $u'$ bởi $c \circ u'$, ta thấy rằng các hạn chế của $u'$ và $u''$ lên K có thể được giả thiết là trùng nhau. Đồng nhất hóa K với một trường con của $\mathbf{C}$ bằng hạn chế chung này, $u'$ và $u''$ là các K-đẳng cấu của L lên các trường con của $\mathbf{C}$. Vì L là một mở rộng Galois suy rộng của K, tồn tại một K-tự đẳng cấu s của L sao cho $u'' = u' \circ s$; vì $a' = a''$, ta suy ra ngay lập tức rằng $f'' = f' \circ s$.
+for all $x \in L$ ($§ 6$, no. 4, Định lý 2). Lấy $x = 2$, ta thấy rằng $a' = a''$. Các hạn chế của $u'$ và $u''$ lên K mở rộng bằng tính liên tục thành các đẳng cấu $u_1$ và $u_2$ của $\hat{K}$ lên $\mathbf{R}$ (resp. $\mathbf{C}$). Khi đó $u_2 \circ \bar{u}_1^{-1}$ là một tự đẳng cấu của trường *được định giá* $\mathbf{R}$ (resp. $\mathbf{C}$) và do đó là đồng nhất (resp. đồng nhất hoặc tự đẳng cấu $c : \zeta \to \bar{\zeta}$). Thay thế nếu cần $u'$ bởi $c \circ u'$, ta thấy rằng các hạn chế của $u'$ và $u''$ lên K có thể được giả thiết là trùng nhau. Đồng nhất hóa K với một trường con của $\mathbf{C}$ bằng hạn chế chung này, $u'$ và $u''$ là các K-đẳng cấu của L lên các trường con của $\mathbf{C}$. Vì L là một mở rộng Galois suy rộng của K, tồn tại một K-tự đẳng cấu s của L sao cho $u'' = u' \circ s$; vì $a' = a''$, ta suy ra ngay lập tức rằng $f'' = f' \circ s$.
 
 Nhận xét (3). Nếu $\hat{K}$ đẳng cấu với $\mathbf{R}$, Mệnh đề 12 chỉ ra rằng mọi phép hoàn thiện $\hat{L}_t$ của $L$ (theo ký hiệu của Mệnh đề 11) đều đẳng cấu với nhau. Như vậy, với ký hiệu của Nhận xét 2 ở trên, hoặc là $r_1 = n$ và $r_2 = 0$, hoặc là $r_1 = 0$ và $2r_2 = n$.
 

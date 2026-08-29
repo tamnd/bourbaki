@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"alg-ii-a0","to_label":"alg-i-s8","kind":"cites","raw":"I, § 8, no. 1","form":"section","resolved_by":"section","file":"content/en/alg/II/A_a_pseudomodules.md","line":35},
+{"from":"","from_label":"alg-ii-a0","to_label":"alg-i-s8","kind":"cites","raw":"I, § 8, no. 11","form":"section","resolved_by":"section","file":"content/en/alg/II/A_a_pseudomodules.md","line":52},
+{"from":"","from_label":"alg-ii-a0","to_label":"alg-ii-s1-def-1","kind":"cites","raw":"§ 1, no. 1, Definition 1","form":"section","resolved_by":"section-no","file":"content/en/alg/II/A_a_pseudomodules.md","line":56},
+{"from":"","from_label":"alg-ii-a0","to_label":"alg-ii-s1-def-1","kind":"cites","raw":"§ 1, no. 1, Definition 1","form":"section","resolved_by":"section-no","file":"content/en/alg/II/A_a_pseudomodules.md","line":64}
+]}

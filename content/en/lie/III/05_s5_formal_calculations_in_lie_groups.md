@@ -7,28 +7,29 @@ section: 5
 section_title: Formal calculations in Lie groups
 lang: en
 source: lie-i-iii
+book_pages: 297-304, 382-383
 pdf_pages: 0315-0322, 0400-0401
 extraction: ocr
 subsections:
     - "no": 1
       title: THE COEFFICIENTS $c_{\alpha \beta \gamma}$
-      page: 0
+      page: 297
       pdf_page: 315
     - "no": 2
       title: BRACKET IN THE LIE ALGEBRA
-      page: 0
+      page: 298
       pdf_page: 316
     - "no": 3
       title: POWERS
-      page: 0
+      page: 300
       pdf_page: 318
     - "no": 4
       title: EXPONENTIAL
-      page: 0
+      page: 303
       pdf_page: 321
 statements: 5
 exercises: 2
-content_sha256: cd937d983bc405d657b449070d2500d889e40909800ae25e3707f9d043c12bc7
+content_sha256: 4018c4beb2ee03f8be21f730d567b35b84d29744806b1d273615632c7f2274ba
 ---
 
 ## § 5. FORMAL CALCULATIONS IN LIE GROUPS
@@ -275,7 +276,7 @@ $$
 x^{[t]} = \sum_{i=0}^t \binom{t}{i} \psi_i(x) = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x).
 $$
 
-Then we write $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ for all $t \in \mathbf{K}$. In the integral series $x^{[t]}$ and $x^{[t]'}$, each coefficient is a polynomial function of $t$. For this is obvious for $x^{[t]'}$. As far as $x^{[t]}$ is concerned, it suffices to prove that, for all $u \in \mathrm{U}(G)$, the image of $u$ under $x \mapsto x^{[t]}$ is a polynomial function of $t$. Now, for $u \in \mathrm{U}^m(G)$, this image is $t^m u$ (\S 4, no. 3, Proposition 7 (iv)).
+Then we write $x^{[t]'} = \sum_{i=0}^\infty \binom{t}{i} \psi_i(x)$ for all $t \in \mathbf{K}$. In the integral series $x^{[t]}$ and $x^{[t]'}$, each coefficient is a polynomial function of $t$. For this is obvious for $x^{[t]'}$. As far as $x^{[t]}$ is concerned, it suffices to prove that, for all $u \in \mathrm{U}(G)$, the image of $u$ under $x \mapsto x^{[t]}$ is a polynomial function of $t$. Now, for $u \in \mathrm{U}^m(G)$, this image is $t^m u$ (§ 4, no. 3, Proposition 7 (iv)).
 
 As $x^{[t]} = x^{[t]'}$ for $t$ an integer $\geq 0$, it then follows that $x^{[t]} = x^{[t]'}$ for all $t \in \mathbf{K}$.
 

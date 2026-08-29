@@ -36,14 +36,14 @@ subsections:
       pdf_page: 83
 statements: 29
 exercises: 22
-content_sha256: 3e399d876bc27db867da74ec49726ca49037a86fa5babca54071af65a15fb95d
+content_sha256: ea5d01166e33130bb18c5891fb8a66f5e46271aad8bfa5b0bde28e730eaeed32
 ---
 
 ## § 6. — Images d’une mesure
 
 ### 1. *Image d’une mesure positive*
 
-Soient X un espace localement compact, $\pi$ une application $\mu$-mesurable de T dans X. Dire que le couple $(\pi, 1)$ est $\mu$-adapté (\S 4, n° 1) équivaut à dire que pour toute fonction $f \in \mathcal{K}(X)$ la fonction $f \circ \pi$ est essentiellement $\mu$-intégrable.
+Soient X un espace localement compact, $\pi$ une application $\mu$-mesurable de T dans X. Dire que le couple $(\pi, 1)$ est $\mu$-adapté (§ 4, n° 1) équivaut à dire que pour toute fonction $f \in \mathcal{K}(X)$ la fonction $f \circ \pi$ est essentiellement $\mu$-intégrable.
 
 #### Proposition 1 {#int-v-s6-prop-1 .statement}
 
@@ -53,7 +53,7 @@ a) pour toute fonction $f \in \mathcal{K}(X)$, $f \circ \pi$ est essentiellement
 
 b) pour tout ensemble compact $K \subset X$, $\pi^{-1}(K)$ est essentiellement $\mu$-intégrable.
 
-Nous venons de remarquer que a) entraîne que le couple $(\pi, 1)$ est $\mu$-adapté. Par suite (\S 4, n° 4, th. 2), pour tout ensemble compact $K \subset X$, la fonction $\varphi_K \circ \pi = \varphi_A$, où $A = \pi^{-1}(K)$, est essentiellement $\mu$-intégrable, autrement dit, a) entraîne b).
+Nous venons de remarquer que a) entraîne que le couple $(\pi, 1)$ est $\mu$-adapté. Par suite (§ 4, n° 4, th. 2), pour tout ensemble compact $K \subset X$, la fonction $\varphi_K \circ \pi = \varphi_A$, où $A = \pi^{-1}(K)$, est essentiellement $\mu$-intégrable, autrement dit, a) entraîne b).
 
 Inversement, supposons que $\pi^{-1}(K)$ soit essentiellement $\mu$-intégrable pour toute partie compacte K de X, et montrons que a) est vérifiée. Soit en effet S le support de $f$; comme S est compact, on a, par hypothèse, en posant $A = \pi^{-1}(S)$
 
@@ -61,14 +61,14 @@ $$
 \int |f(\pi(t))| d\mu(t) \leq \|f\| \int \varphi_S(\pi(t)) d\mu(t) = \|f\| \int \varphi_A(t) d\mu(t) < +\infty.
 $$
 
-Comme $f \circ \pi$ est $\mu$-mesurable (chap. IV, § 5, n° 3, th. 1), on voit que $f \circ \pi$ est essentiellement $\mu$-intégrable ($\S 1, n° 3,$ prop. 9).
+Comme $f \circ \pi$ est $\mu$-mesurable (chap. IV, § 5, n° 3, th. 1), on voit que $f \circ \pi$ est essentiellement $\mu$-intégrable ($§ 1, n° 3,$ prop. 9).
 
 La propriété b) est évidemment équivalente à la propriété suivante (qui équivaut donc aussi à a)):
 c) Pour tout point x de X, il existe un voisinage V de X tel que $\pi^{-1}(V)$ soit essentiellement $\mu$-intégrable.
 
 #### Définition 1 {#int-v-s6-def-1 .statement}
 
-Soit $\mu$ une mesure positive sur un espace localement compact T. On dit qu’une application $\pi$ de T dans un espace localement compact X est $\mu$-propre (ou propre pour la mesure $\mu$) si le couple $(\pi, 1)$ est $\mu$-adapté, c’est-à-dire ($\S 4, n° 1$) si $\pi$ est $\mu$-mesurable et satisfait aux conditions (équivalentes) de la prop. 1. La mesure $\int \varepsilon_{\pi(t)} d\mu(t)$ sur X s’appelle alors l’image de $\mu$ par $\pi$ et se note $\pi(\mu)$.
+Soit $\mu$ une mesure positive sur un espace localement compact T. On dit qu’une application $\pi$ de T dans un espace localement compact X est $\mu$-propre (ou propre pour la mesure $\mu$) si le couple $(\pi, 1)$ est $\mu$-adapté, c’est-à-dire ($§ 4, n° 1$) si $\pi$ est $\mu$-mesurable et satisfait aux conditions (équivalentes) de la prop. 1. La mesure $\int \varepsilon_{\pi(t)} d\mu(t)$ sur X s’appelle alors l’image de $\mu$ par $\pi$ et se note $\pi(\mu)$.
 
 Si $v = \pi(\mu)$, on a donc, par définition, pour $f \in \mathcal{K}(X)$
 
@@ -151,7 +151,7 @@ Il suffit d’appliquer le th. 2 du § 4, n° 4.
 
 *Pour qu’une partie $A$ de $X$ soit essentiellement $\nu$-intégrable, il faut et il suffit que $\overline{\pi}^{-1}(A)$ soit essentiellement $\mu$-intégrable, et on a alors $\nu(A) = \mu(\overline{\pi}^{-1}(A))$.*
 
-En particulier, pour tout ensemble compact $K \subset X$, on a $\nu(K) = \mu(\overline{\pi}^{-1}(K))$. Il résulte de là et du cor. 3 de la prop. 2 que, si $\mu$ est *atomique* ($\S 5$, n° 10), il en est de même de $\pi(\mu) = \nu$. En effet, soit $M$ l’ensemble des $t \in T$ tels que $\mu(\{t\}) \neq 0$; comme $\mu$ est portée par $M$, $\nu$ est portée par $\pi(M)$; en outre, pour tout $x \in \pi(M)$, on a $\nu(\{x\}) = \mu(\overline{\pi}^{-1}(x)) > 0$, puisque $\overline{\pi}^{-1}(x)$ contient au moins un point de $M$. Donc $\nu$ est atomique ($\S 5$, n° 10, prop. 15).
+En particulier, pour tout ensemble compact $K \subset X$, on a $\nu(K) = \mu(\overline{\pi}^{-1}(K))$. Il résulte de là et du cor. 3 de la prop. 2 que, si $\mu$ est *atomique* ($§ 5$, n° 10), il en est de même de $\pi(\mu) = \nu$. En effet, soit $M$ l’ensemble des $t \in T$ tels que $\mu(\{t\}) \neq 0$; comme $\mu$ est portée par $M$, $\nu$ est portée par $\pi(M)$; en outre, pour tout $x \in \pi(M)$, on a $\nu(\{x\}) = \mu(\overline{\pi}^{-1}(x)) > 0$, puisque $\overline{\pi}^{-1}(x)$ contient au moins un point de $M$. Donc $\nu$ est atomique ($§ 5$, n° 10, prop. 15).
 
 ### 3. Propriétés de l’image d’une mesure positive
 
@@ -163,7 +163,7 @@ a) Supposons que π soit μ-propre et soit μ' = π(μ). Pour que π' soit μ'-p
 
 b) Supposons que π' soit continue, et que π'' soit μ-propre ; π est alors μ-propre, π' est π(μ)-propre, et on a π''(μ) = π'(π(μ)).
 
-Sous les hypothèses de a), pour que π'' soit μ-mesurable, il faut et il suffit que π' soit μ'-mesurable (n° 2, prop. 3). D’autre part, si K est une partie compacte de T'', on a $\pi''^{-1}(K) = \pi'^{-1}(\pi'(K))$; pour que $\pi''^{-1}(K)$ soit essentiellement μ-intégrable, il faut et il suffit que $\pi'^{-1}(K)$ soit essentiellement μ'-intégrable, en vertu du cor. du th. 1. Enfin, si π'' est μ-propre, en posant $\mu'' = \pi''(\mu)$, on a, pour toute fonction $f \in \mathcal{K}(T'')$,
+Sous les hypothèses de a), pour que π'' soit μ-mesurable, il faut et il suffit que π' soit μ'-mesurable (n° 2, prop. 3). D’autre part, si K est une partie compacte de T'', on a ${\pi''}^{-1}(K) = {\pi'}^{-1}(\pi'(K))$; pour que ${\pi''}^{-1}(K)$ soit essentiellement μ-intégrable, il faut et il suffit que ${\pi'}^{-1}(K)$ soit essentiellement μ'-intégrable, en vertu du cor. du th. 1. Enfin, si π'' est μ-propre, en posant $\mu'' = \pi''(\mu)$, on a, pour toute fonction $f \in \mathcal{K}(T'')$,
 
 $$
 \int f(t'')\,d\mu''(t'') = \int f(\pi''(t))\,d\mu(t)
@@ -174,11 +174,11 @@ $$
 
 en vertu du th. 1 du n° 2, ce qui achève la démonstration de a).
 
-Sous les hypothèses de b), soit K' une partie compacte de T'. Alors $K'' = \pi'(K')$ est compact, donc $\pi''^{-1}(K'')$ est essentiellement μ-intégrable, donc $\pi'^{-1}(K') \subset \pi''^{-1}(K'')$ est essentiellement μ-intégrable (chap. IV, 2e éd., § 5, n° 5, prop. 7), de sorte que π est μ-propre. On achève alors en appliquant la partie a) de l’énoncé.
+Sous les hypothèses de b), soit K' une partie compacte de T'. Alors $K'' = \pi'(K')$ est compact, donc ${\pi''}^{-1}(K'')$ est essentiellement μ-intégrable, donc ${\pi'}^{-1}(K') \subset {\pi''}^{-1}(K'')$ est essentiellement μ-intégrable (chap. IV, 2e éd., § 5, n° 5, prop. 7), de sorte que π est μ-propre. On achève alors en appliquant la partie a) de l’énoncé.
 
 #### Corollaire {#int-v-s6-n3-cor-1 .statement}
 
-Soient T et T' deux espaces localement compacts, μ une mesure positive sur T, π une application bijective de T sur T', $\pi'^{-1}$ l’application réciproque. Supposons que π soit μ-propre, et soit $\mu' = \pi(\mu)$. Alors $\pi'^{-1}$ est μ'-propre et on a $\pi'^{-1}(\pi(\mu)) = \mu$.
+Soient T et T' deux espaces localement compacts, μ une mesure positive sur T, π une application bijective de T sur T', ${\pi'}^{-1}$ l’application réciproque. Supposons que π soit μ-propre, et soit $\mu' = \pi(\mu)$. Alors ${\pi'}^{-1}$ est μ'-propre et on a ${\pi'}^{-1}(\pi(\mu)) = \mu$.
 
 #### Proposition 5 {#int-v-s6-prop-5 .statement}
 
@@ -294,7 +294,7 @@ $$
 
 La fonction numérique $G$ est *continue* dans $I$; cela résulte aussitôt du th. de Lebesgue (chap. IV, § 4, n° 3, cor. 1 du th. 2), car le produit de $g$ et de la fonction caractéristique de l’intervalle d’extrémités $x$ et $x + h$ tend vers une fonction négligeable lorsque $h$ tend vers 0. Donc $G(I)$ est un *intervalle* de $\mathbf{R}$. Dans tout ce n°, on considérera $G$ comme une application de $I$ sur l’espace localement compact $G(I)$. On désignera par $\lambda$ la mesure $g . \mu$ sur $I$.
 
-Supposons d’abord que $g$ soit $\mu$-intégrable. Alors, le même raisonnement que ci-dessus montre que les limites $G(a+)$ et $G(b-)$ existent et sont *finies*; en outre, la mesure $|\lambda|$ est *bornée* ($\S 5$, n° 3, cor. du th. 1), et l’application $G$ de $I$ dans $G(I)$ est *$\lambda$-propre*.
+Supposons d’abord que $g$ soit $\mu$-intégrable. Alors, le même raisonnement que ci-dessus montre que les limites $G(a+)$ et $G(b-)$ existent et sont *finies*; en outre, la mesure $|\lambda|$ est *bornée* ($§ 5$, n° 3, cor. du th. 1), et l’application $G$ de $I$ dans $G(I)$ est *$\lambda$-propre*.
 
 #### Proposition 8 {#int-v-s6-prop-8 .statement}
 
@@ -355,7 +355,7 @@ $$
 \int^\ast (f \circ \pi)\, dv = \int^\ast d\mu(t) \int^\ast (f \circ \pi)\, d\lambda_t = \int^\ast f(t)g(t)\, d\mu(t),
 $$
 
-du fait que $\lambda_t$ est concentrée sur $\bar{\pi}^1(t)$. On sait que $g$ est $\mu$-mesurable, puisque $\Lambda$ est $\mu$-adéquate (\S 3, n° 1, déf. 1). Dire que le premier membre est fini pour toute $f \in \mathscr{K}_+(T)$ équivaut donc à dire que $g$ est localement $\mu$-intégrable (\S 5, prop. 1), et (14) résulte aussitôt dans ce cas des relations ci-dessus.
+du fait que $\lambda_t$ est concentrée sur $\bar{\pi}^1(t)$. On sait que $g$ est $\mu$-mesurable, puisque $\Lambda$ est $\mu$-adéquate (§ 3, n° 1, déf. 1). Dire que le premier membre est fini pour toute $f \in \mathscr{K}_+(T)$ équivaut donc à dire que $g$ est localement $\mu$-intégrable (§ 5, prop. 1), et (14) résulte aussitôt dans ce cas des relations ci-dessus.
 
 Il nous reste donc seulement à éliminer l’hypothèse auxiliaire. Si g est localement $\mu$-intégrable, g est finie localement $\mu$-presque partout, et l’hypothèse est bien satisfaite. Supposons que $\pi$ soit $\nu$-propre, et montrons que g est finie localement presque partout. Soit $\mathfrak{R}$ l’ensemble $\mu$-dense des compacts K tels que $\Lambda|K$ soit vaguement continue; comme g est $\mu$-mesurable, on est ramené à montrer que tout compact $K \in \mathfrak{R}$, tel que $g|K = +\infty$, est $\mu$-négligeable. Or soit $\mathcal{H}$ l’ensemble des fonctions $h \in \mathcal{K}_+(X)$ telles que $h \leq 1$; posons $g_h(t) = \lambda_t(h)$, désignons par $\Lambda_h$ l’application $\mu$-adéquate $t \mapsto h \cdot \lambda_t$, par $\nu_h$ l’intégrale de $\Lambda_h$, par $f$ un élément de $\mathcal{K}_+(T)$ tel que $f \geq \varphi_K$. Si nous appliquons la formule (14) à $\Lambda_h$, qui satisfait à l’hypothèse auxiliaire, nous obtenons:
 
@@ -373,7 +373,7 @@ a) Si $N \subset T$ est localement $\mu$-négligeable, $\bar{\pi}^{-1}(N)$ est l
 
 b) Si $f$ est une application $\mu$-mesurable de T dans un espace topologique G, $f \circ \pi$ est $\nu$-mesurable.
 
-Reprenons les notations $\Lambda_h$, $\nu_h$, $g_h$ de la fin de la démonstration précédente: $\nu_h$ étant une mesure bornée pour tout $h \in \mathcal{H}$, $\pi$ est $\nu_h$-propre, $g_h$ est localement $\mu$-intégrable, et $\pi(\nu_h) = g_h \cdot \mu$, mesure de base $\mu$. Il en résulte que N est localement négligeable (resp. que $f$ est mesurable) pour la mesure $\pi(\nu_h)$ ($\S 5$, n° 3, cor. 1 de la prop. 3 et cor. de la prop. 4). Par conséquent, $\bar{\pi}^{-1}(N)$ est localement négligeable (resp. $f \circ \pi$ est mesurable) pour la mesure $\nu_h$ (cor. 2 de la prop. 2, resp. prop. 3). On remarque enfin que les mesures $\nu_h$ forment une famille filtrante croissante de mesures positives, dont la borne supérieure est $\nu$ ($\S 3$, n° 1, prop. 1), et on applique le cor. 1 (resp. 2) de la prop. 11 du $\S 1$, n° 4.
+Reprenons les notations $\Lambda_h$, $\nu_h$, $g_h$ de la fin de la démonstration précédente: $\nu_h$ étant une mesure bornée pour tout $h \in \mathcal{H}$, $\pi$ est $\nu_h$-propre, $g_h$ est localement $\mu$-intégrable, et $\pi(\nu_h) = g_h \cdot \mu$, mesure de base $\mu$. Il en résulte que N est localement négligeable (resp. que $f$ est mesurable) pour la mesure $\pi(\nu_h)$ ($§ 5$, n° 3, cor. 1 de la prop. 3 et cor. de la prop. 4). Par conséquent, $\bar{\pi}^{-1}(N)$ est localement négligeable (resp. $f \circ \pi$ est mesurable) pour la mesure $\nu_h$ (cor. 2 de la prop. 2, resp. prop. 3). On remarque enfin que les mesures $\nu_h$ forment une famille filtrante croissante de mesures positives, dont la borne supérieure est $\nu$ ($§ 3$, n° 1, prop. 1), et on applique le cor. 1 (resp. 2) de la prop. 11 du $§ 1$, n° 4.
 
 #### Corollaire 2 {#int-v-s6-prop-10-cor-2 .statement}
 

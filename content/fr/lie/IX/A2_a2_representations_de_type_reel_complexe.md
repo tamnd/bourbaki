@@ -21,7 +21,7 @@ subsections:
       pdf_page: 107
 statements: 6
 exercises: 0
-content_sha256: ffae5c312a22fde35bcf22c2aa4443e051e7a5e14c076213a2c51f3de0e4878b
+content_sha256: adb80f7258da51f557ea84dd0c3de4fb1d1f67b32e6b291b0d3bf087cacd41eb
 ---
 
 ## APPENDICE 2
@@ -52,8 +52,8 @@ Le commutant $E_{(\mathbf{C})}$ de $V_{(\mathbf{C})}$ contient donc $\mathbf{C} 
 
 Soient $A$ une $\mathbf{R}$-algèbre (associative et unifère), et $W$ un $A_{(\mathbf{C})}$-module simple, de dimension finie sur $\mathbf{C}$. On est alors dans l’un des trois cas suivants :
 
-$a)$ Il existe un $A_{(\mathbf{C})}$-isomorphisme $\theta$ de $W$ sur $\overline{W}$, avec $\theta \circ \theta = 1_W$. Alors l’ensemble $V$ des points fixes de $\theta$ est une $\mathbf{R}$-structure sur $W$, et un $A$-module simple de commutant $\mathbf{R} \cdot 1_V$. De plus, $W_{[\mathbf{R}]}$ est somme directe de deux $A$-modules simples isomorphes.
-$b)$ Les $A_{(\mathbf{C})}$-modules $W$ et $\overline{W}$ ne sont pas isomorphes ; alors $W_{[\mathbf{R}]}$ est un $A$-module simple, de commutant $\mathbf{C} \cdot 1_W$.
+a) Il existe un $A_{(\mathbf{C})}$-isomorphisme $\theta$ de $W$ sur $\overline{W}$, avec $\theta \circ \theta = 1_W$. Alors l’ensemble $V$ des points fixes de $\theta$ est une $\mathbf{R}$-structure sur $W$, et un $A$-module simple de commutant $\mathbf{R} \cdot 1_V$. De plus, $W_{[\mathbf{R}]}$ est somme directe de deux $A$-modules simples isomorphes.
+b) Les $A_{(\mathbf{C})}$-modules $W$ et $\overline{W}$ ne sont pas isomorphes ; alors $W_{[\mathbf{R}]}$ est un $A$-module simple, de commutant $\mathbf{C} \cdot 1_W$.
 
 c) Il existe un $A_{(C)}$-isomorphisme $\theta$ de $W$ sur $\overline{W}$, avec $\theta \circ \theta = -1_W$. Alors le $A$-module $W_{[R]}$ est simple, et son commutant est le corps $C.1_W \oplus C.\theta$, isomorphe à $H$.
 
@@ -63,13 +63,13 @@ a) Il existe $\theta \in \mathrm{Hom}_{A_{(C)}}(W, \overline{W})$ avec $\theta \
 b) $\mathrm{Hom}_{A_{(C)}}(W, \overline{W}) = \{0\}$;
 c) Il existe $\theta \in \mathrm{Hom}_{A_{(C)}}(W, \overline{W})$ avec $\theta \circ \theta = -1_W$.
 
-Dans le cas $a)$, l’ensemble $V$ des points fixes de $\theta$ est une $R$-structure sur $W$ (A, V, p. 61, prop. 7); puisque $V_{(C)}$ est isomorphe à $W$, le $A$-module $V$ est simple, de commutant $R.1_V$ (prop. 1), et $W_{[R]}$ n’est pas simple.
+Dans le cas a), l’ensemble $V$ des points fixes de $\theta$ est une $R$-structure sur $W$ (A, V, p. 61, prop. 7); puisque $V_{(C)}$ est isomorphe à $W$, le $A$-module $V$ est simple, de commutant $R.1_V$ (prop. 1), et $W_{[R]}$ n’est pas simple.
 
 Inversement, si $W_{[R]}$ n’est pas simple, soit $V$ un sous-$A$-module simple de $W_{[R]}$; puisque le $A_{(C)}$-module $W$ est simple, on a $V + iV = W$ et $V \cap iV = \{0\}$, c’est-à-dire $W = V \oplus iV$. Ainsi $V$ est une $R$-structure sur $W$, et l’isomorphisme $\theta$ de $W$ sur $\overline{W}$ tel que $\theta(v + iv') = v - iv'$ pour $v$ et $v'$ dans $V$ satisfait à $\theta \circ \theta = 1_W$.
 
-Par conséquent, dans les cas $b)$ et $c)$, le $A$-module $W_{[R]}$ est simple ; d’après la prop. 1, son commutant $E$ est isomorphe à $C$ dans le cas $b)$, et à $H$ dans le cas $c)$. De plus il est clair que $E$ contient $C.1_W$, et $C.\theta$ dans le cas $c)$, d’où la proposition.
+Par conséquent, dans les cas b) et c), le $A$-module $W_{[R]}$ est simple ; d’après la prop. 1, son commutant $E$ est isomorphe à $C$ dans le cas b), et à $H$ dans le cas c). De plus il est clair que $E$ contient $C.1_W$, et $C.\theta$ dans le cas c), d’où la proposition.
 
-Sous les hypothèses de la proposition, on dit que le $A_{(C)}$-module $W$ est de type réel, complexe ou quaternionien (relativement à $A$) suivant qu’on est dans le cas $a)$, $b)$ ou $c)$ respectivement.
+Sous les hypothèses de la proposition, on dit que le $A_{(C)}$-module $W$ est de type réel, complexe ou quaternionien (relativement à $A$) suivant qu’on est dans le cas a), b) ou c) respectivement.
 
 Pour $K = R$ ou $C$, notons $\mathfrak{S}_K(A)$ l’ensemble des classes de $A_{(K)}$-modules simples, de dimension finie sur $K$. Le groupe $\Gamma = \mathrm{Gal}(C/R)$ opère sur $\mathfrak{S}_C(A)$; les deux propositions précédentes établissent une correspondance bijective entre $\mathfrak{S}_R(A)$ et l’ensemble quotient $\mathfrak{S}_C(A)/\Gamma$.
 
@@ -103,7 +103,7 @@ $$
 H(\theta x, \theta x) = B_\theta(x, \theta x) = \varepsilon B_\theta(\theta x, x) = \varepsilon H(\theta \circ \theta(x), x) = \varepsilon \alpha H(x, x)
 $$
 
-d'où $\varepsilon \alpha > 0$ puisque $H$ est positive, c'est-à-dire $\varepsilon = \alpha$. Les assertions $a)$ et $c)$ résultent alors de la prop. 2.
+d'où $\varepsilon \alpha > 0$ puisque $H$ est positive, c'est-à-dire $\varepsilon = \alpha$. Les assertions a) et c) résultent alors de la prop. 2.
 
 Notons $dg$ la mesure de Haar de masse totale 1 sur $G$.
 

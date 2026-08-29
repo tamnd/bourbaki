@@ -36,7 +36,7 @@ subsections:
       pdf_page: 219
 statements: 26
 exercises: 10
-content_sha256: be713b3c3a50cf3d05db89ec2e044110f9d050f185218a8a1335557021a0bfc6
+content_sha256: dfa383327462e7c389e1556754b9c2a02f33db6f08c41bee1b53d46d1563d007
 ---
 
 ## § 7. Groupes de Lie sur un corps ultramétrique
@@ -83,7 +83,7 @@ Soit G un groupe de Lie. Il existe une application exponentielle φ de G ayant l
 (ii) φ(U) est un sous-groupe ouvert de G, et φ est un isomorphisme de la variété analytique U sur la variété analytique φ(U);
 (iii) φ(nx) = φ(x)^n pour tout x ∈ U et tout n ∈ \mathbf{Z}.
 
-Munissons L(G) d’une norme compatible avec sa topologie et telle que $\| [x, y] \| \leq \| x \| \| y \|$ pour x, y dans L(G). Soit G_1 le groupe de Lie défini par L(G). Soit ψ = Id_{G_1}, qui est une application exponentielle de G_1. Pour tout μ > 0, soit L_μ l’ensemble des x ∈ L(G) tels que $\| x \| < μ$. Alors, pour μ assez petit, L_μ est un sous-groupe ouvert du groupe additif L(G), ψ(L_μ) est un sous-groupe ouvert de G_1 (\S 4, n° 2, lemme 3), ψ|L_μ est un isomorphisme de variétés analytiques de L_μ sur ψ(L_μ), et ψ(nx) = ψ(x)^n pour tout x ∈ L_μ et tout n ∈ \mathbf{Z}. Les L_μ forment un système fondamental de voisinages de 0 dans L(G). D’après le th. 1, il existe un μ et un sous-groupe ouvert G' de G tels que ψ(L_μ) et G' soient isomorphes, d’où la proposition.
+Munissons L(G) d’une norme compatible avec sa topologie et telle que $\| [x, y] \| \leq \| x \| \| y \|$ pour x, y dans L(G). Soit G_1 le groupe de Lie défini par L(G). Soit ψ = Id_{G_1}, qui est une application exponentielle de G_1. Pour tout μ > 0, soit L_μ l’ensemble des x ∈ L(G) tels que $\| x \| < μ$. Alors, pour μ assez petit, L_μ est un sous-groupe ouvert du groupe additif L(G), ψ(L_μ) est un sous-groupe ouvert de G_1 (§ 4, n° 2, lemme 3), ψ|L_μ est un isomorphisme de variétés analytiques de L_μ sur ψ(L_μ), et ψ(nx) = ψ(x)^n pour tout x ∈ L_μ et tout n ∈ \mathbf{Z}. Les L_μ forment un système fondamental de voisinages de 0 dans L(G). D’après le th. 1, il existe un μ et un sous-groupe ouvert G' de G tels que ψ(L_μ) et G' soient isomorphes, d’où la proposition.
 
 #### Proposition 4 {#lie-iii-s7-prop-4 .statement}
 
@@ -97,7 +97,7 @@ $$
 [x, y] = \lim_{n \to + \infty} p^{-2n} \varphi^{-1}(\varphi(p^n x) \varphi(p^n y) \varphi(-p^n x) \varphi(-p^n y)).
 $$
 
-Ce sont des cas particuliers de la prop. 4 du \S 4, n° 3.
+Ce sont des cas particuliers de la prop. 4 du § 4, n° 3.
 
 ### 3. Groupes standard¹
 
@@ -133,14 +133,14 @@ $$
 (x^{[−1]})_i = -x_i + \sum_{|\alpha| > 1} d_{\alpha i} x^\alpha \quad (i = 2, 2, \ldots, r)
 $$
 
-les séries des seconds membres étant convergentes pour $x, y$ dans $G$ (\S 5, n° 1). Soit $\lambda \in K^*$, et transportons la loi de groupe de $G$ à $G' = \lambda G$ par l’homothétie de rapport $\lambda$. Pour $x', y'$ dans $G'$, le produit $x'.y'$ et l’inverse $x'^{[−1]}$ calculés dans $G'$ ont pour coordonnées
+les séries des seconds membres étant convergentes pour $x, y$ dans $G$ (§ 5, n° 1). Soit $\lambda \in K^*$, et transportons la loi de groupe de $G$ à $G' = \lambda G$ par l’homothétie de rapport $\lambda$. Pour $x', y'$ dans $G'$, le produit $x'.y'$ et l’inverse ${x'}^{[−1]}$ calculés dans $G'$ ont pour coordonnées
 
 $$
-(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} x'^\alpha y'^\beta \quad (i = 1, 2, \ldots, r)
+(x'.y')_i = x'_i + y'_i + \sum_{|\alpha| \geq 1, |\beta| \geq 1} c'_{\alpha \beta i} {x'}^\alpha {y'}^\beta \quad (i = 1, 2, \ldots, r)
 $$
 
 $$
-(x'^{[−1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} x'^\alpha \quad (i = 1, 2, \ldots, r)
+({x'}^{[−1]})_i = -x'_i + \sum_{|\alpha| > 1} d'_{\alpha i} {x'}^\alpha \quad (i = 1, 2, \ldots, r)
 $$
 
 avec
@@ -308,7 +308,7 @@ d’où notre assertion. Posons $\psi(x) = \frac{1}{m} \varphi^{-1}(x^m)$. On a 
 $$
 \psi(x^n) = \frac{1}{m} \varphi^{-1}(x^{nm}) = \frac{n}{m} \varphi^{-1}(x^m) = n \psi(x).
 $$
-Donc $\psi$ possède les propriétés $a)$ et $b)$ de la proposition. Au voisinage de $x$, $\psi$ est composée des applications $x \mapsto x^m, y \mapsto \varphi^{-1}(y)$ et $z \mapsto \frac{1}{m} z$; donc $\psi$ est analytique dans $G_f$.
+Donc $\psi$ possède les propriétés a) et b) de la proposition. Au voisinage de $x$, $\psi$ est composée des applications $x \mapsto x^m, y \mapsto \varphi^{-1}(y)$ et $z \mapsto \frac{1}{m} z$; donc $\psi$ est analytique dans $G_f$.
 
 Enfin, soient $\psi'$ une application de $G_f$ dans $\mathrm{L}(G)$, et $V'$ un voisinage de $e$ dans $G_f$, tels que $\psi'(x^n) = n \psi'(x)$ pour $x \in G_f$ et $n \in \mathbf{Z}$, et tels que $\psi'|V'$ soit l’application réciproque d’une application exponentielle injective. Alors $\psi$ et $\psi'$ coïncident dans un voisinage $W$ de $e$. Si $x \in G_f$, il existe $n \in \mathbf{Z}$ tel que $x^n \in W$. Alors
 $$
@@ -405,7 +405,7 @@ Par suite, si $\omega(x) > 0$, $\| L_m \| \cdot \| x \|^{m}$ tend vers 0 quand $
 
 Comme les séries formelles $L(E(X))$ et $E(L(X))$ sont égales à $X$, le n° 4.1.5 de VAR, R, prouve que $L'(E'(x)) = E'(L'(x)) = x$ pour $x \in \Delta$. Donc $E'$ est un isomorphisme de la variété $\Delta$ sur elle-même, et l’isomorphisme réciproque est la restriction de $L'$ à $\Delta$.
 
-On a $L(X^{[n]}) = nL(X)$ pour $n$ entier $> 0$ (cf. § 5, n° 4). Comme $G$ est contenu dans le domaine de convergence stricte de $L$ et de $X^{[n]}$, on a donc $L'(x^n) = nL'(x)$ pour tout $x \in G$. La relation $L'|_{\Delta} = E'^{-1}$ entraîne que $L'(x^n) = \log x^n$ pour assez grand. Donc $L'(x) = \log x$. On a ainsi prouvé (i) et (ii).
+On a $L(X^{[n]}) = nL(X)$ pour $n$ entier $> 0$ (cf. § 5, n° 4). Comme $G$ est contenu dans le domaine de convergence stricte de $L$ et de $X^{[n]}$, on a donc $L'(x^n) = nL'(x)$ pour tout $x \in G$. La relation $L'|_{\Delta} = {E'}^{-1}$ entraîne que $L'(x^n) = \log x^n$ pour assez grand. Donc $L'(x) = \log x$. On a ainsi prouvé (i) et (ii).
 
 Soient $H = \sum_{r,s \geq 0} H_{r,s}$ la série formelle de Hausdorff, et $h$ la fonction de
 
@@ -413,7 +413,7 @@ Hausdorff, relatives à $L(G)$. Le domaine de convergence strict de $\tilde{H}$ 
 $$
 E'(x)E'(y) = E'(h(x, y))
 $$
-pour $x, y$ assez voisins de 0 ($\S 4$, th. 4 (v)). Donc, avec les notations du n° 3, déf. 1, les séries formelles $F(E(X), E(Y))$ et $E(H(X, Y))$ sont égales. Soient $x, y$ dans $\Delta$. On a
+pour $x, y$ assez voisins de 0 ($§ 4$, th. 4 (v)). Donc, avec les notations du n° 3, déf. 1, les séries formelles $F(E(X), E(Y))$ et $E(H(X, Y))$ sont égales. Soient $x, y$ dans $\Delta$. On a
 $$
 \sup_m \left\| \frac{\psi_{m,m}}{m!} \right\| (\sup (\|x\|, \|y\|))^m < 1
 $$

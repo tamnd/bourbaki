@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"alg-i-s0","to_label":"alg-ii-s3","kind":"cites","raw":"II, p. 266","form":"page","resolved_by":"section","file":"content/en/alg/I/historical_note.md","line":60},
+{"from":"","from_label":"alg-i-s0","to_label":"alg-i-s5","kind":"cites","raw":"I, p. 64","form":"page","resolved_by":"section","file":"content/en/alg/I/historical_note.md","line":62},
+{"from":"","from_label":"alg-i-s0","to_label":"alg-viii-s18","kind":"cites","raw":"VIII, p. 357","form":"page","resolved_by":"section","file":"content/en/alg/I/historical_note.md","line":66},
+{"from":"","from_label":"alg-i-s0","to_label":"alg-iii-s2","kind":"cites","raw":"III, p. 439","form":"page","resolved_by":"section","file":"content/en/alg/I/historical_note.md","line":94}
+]}

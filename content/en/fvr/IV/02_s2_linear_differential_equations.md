@@ -7,44 +7,45 @@ section: 2
 section_title: LINEAR DIFFERENTIAL EQUATIONS
 lang: en
 source: fvr-i-vii
+book_pages: 177-198, 204-206
 pdf_pages: 0192-0213, 0219-0221
 extraction: ocr
 subsections:
     - "no": 1
       title: EXISTENCE OF INTEGRALS OF A LINEAR DIFFERENTIAL EQUATION
-      page: 0
+      page: 177
       pdf_page: 192
     - "no": 2
       title: LINEARITY OF THE INTEGRALS OF A LINEAR DIFFERENTIAL EQUATION
-      page: 0
+      page: 179
       pdf_page: 194
     - "no": 3
       title: INTEGRATING THE INHOMOGENEOUS LINEAR EQUATION
-      page: 0
+      page: 182
       pdf_page: 197
     - "no": 4
       title: FUNDAMENTAL SYSTEMS OF INTEGRALS OF A LINEAR SYSTEM OF SCALAR DIFFERENTIAL EQUATIONS
-      page: 0
+      page: 183
       pdf_page: 198
     - "no": 5
       title: ADJOINT EQUATION
-      page: 0
+      page: 186
       pdf_page: 201
     - "no": 6
       title: LINEAR DIFFERENTIAL EQUATIONS WITH CONSTANT COEFFICIENTS
-      page: 0
+      page: 188
       pdf_page: 203
     - "no": 7
       title: LINEAR EQUATIONS OF ORDER $n$
-      page: 0
+      page: 192
       pdf_page: 207
     - "no": 8
       title: LINEAR EQUATIONS OF ORDER $n$ WITH CONSTANT COEFFICIENTS
-      page: 0
+      page: 194
       pdf_page: 209
     - "no": 9
       title: SYSTEMS OF LINEAR EQUATIONS WITH CONSTANT COEFFICIENTS
-      page: 0
+      page: 196
       pdf_page: 211
 statements: 25
 exercises: 10

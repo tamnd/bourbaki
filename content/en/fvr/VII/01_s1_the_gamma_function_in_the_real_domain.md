@@ -7,24 +7,25 @@ section: 1
 section_title: THE GAMMA FUNCTION IN THE REAL DOMAIN
 lang: en
 source: fvr-i-vii
+book_pages: 305-314, 325-327
 pdf_pages: 0320-0329, 0340-0342
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE GAMMA FUNCTION
-      page: 0
+      page: 305
       pdf_page: 320
     - "no": 2
       title: PROPERTIES OF THE GAMMA FUNCTION
-      page: 0
+      page: 307
       pdf_page: 322
     - "no": 3
       title: THE EULER INTEGRALS
-      page: 0
+      page: 310
       pdf_page: 325
 statements: 8
 exercises: 6
-content_sha256: 752ce38907fef650e8ea8bf4b5fa4f04eca836602530c6e62155c59c5cb349bb
+content_sha256: f1dbe01f2e933089ae266a6020c73d595c10a78aa1cea50f223a11623430aacd
 ---
 
 ## § 1. THE GAMMA FUNCTION IN THE REAL DOMAIN
@@ -244,7 +245,7 @@ It is clear that the *product* of two logarithmically convex functions on $I$ is
 
 *Let $f$ and $g$ be two functions $> 0$ and twice differentiable on an open interval $I$. If $f$ and $g$ are logarithmically convex functions on $I$, then $f + g$ is logarithmically convex on $I$.*
 
-The relation $D^2 (\log f(x)) \geq 0$ can be written $f(x)f''(x) - (f'(x))^2 \geq 0$. We are reduced to showing that the relations $a > 0, a' > 0, ac - b^2 \geq 0, a'c' - b'^2 \geq 0$ imply $(a + a')(c + c') - (b + b')^2 \geq 0$; now, when $a > 0$, the relation $ac - b^2 \geq 0$ is equivalent to the fact that the quadratic form $ax^2 + 2bxy + cy^2$ is $\geq 0$ on $\mathbf{R}^2$, and it is clear that if
+The relation $D^2 (\log f(x)) \geq 0$ can be written $f(x)f''(x) - (f'(x))^2 \geq 0$. We are reduced to showing that the relations $a > 0, a' > 0, ac - b^2 \geq 0, a'c' - {b'}^2 \geq 0$ imply $(a + a')(c + c') - (b + b')^2 \geq 0$; now, when $a > 0$, the relation $ac - b^2 \geq 0$ is equivalent to the fact that the quadratic form $ax^2 + 2bxy + cy^2$ is $\geq 0$ on $\mathbf{R}^2$, and it is clear that if
 
 $$
 ax^2 + 2bxy + cy^2 \geq 0 \quad \text{and} \quad a'x^2 + 2b'xy + c'y^2 \geq 0
@@ -405,7 +406,7 @@ and the formula (18) then gives, for $y$ fixed, the asymptotic expansion
 
 $$
 \mathbf{B}(x, y) = \frac{1}{x} + \left( \Gamma'(1) - \frac{\Gamma'(y)}{\Gamma(y)} \right)
-+ \left( \frac{\Gamma''(1)}{2} - \Gamma'(1) \frac{\Gamma'(y)}{\Gamma(y)} + \frac{2\Gamma'^2(y) - \Gamma(y)\Gamma''(y)}{2\Gamma^2(y)} \right) x + O(x^2)
++ \left( \frac{\Gamma''(1)}{2} - \Gamma'(1) \frac{\Gamma'(y)}{\Gamma(y)} + \frac{2{\Gamma'}^2(y) - \Gamma(y)\Gamma''(y)}{2\Gamma^2(y)} \right) x + O(x^2)
 $$
 on a neighbourhood of $x = 0$.
 

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 147
 statements: 46
 exercises: 27
-content_sha256: 07b1f00fe3cea79efdf639a1f4947eddb8bebdd9fb3701734ea3bf156aa46bd8
+content_sha256: ed5e53f6a5d3e5a763b2ce062b4bcc72122e2012ef339cee5d3bb3a328b965ff
 ---
 
 ## § 7. FINITE DIMENSIONAL MODULES OVER A SPLIT SEMI-SIMPLE LIE ALGEBRA
@@ -490,13 +490,13 @@ Let E be a finite dimensional simple $\mathfrak{g}$-module, $\omega$ its highest
 
 (ii) Assume that $w_0(\omega ) =-\omega$. Then $\mathscr{B}$ is of dimension 1, and every non-zero element of $\mathscr{B}$ is non-degenerate. If $m$ is even (resp. odd ), every element of $\mathscr{B}$ is symmetric (resp. alternating).
 
-$a)$ Let $\Phi \in \mathscr{B}$. The map $\varphi$ from E to $E^*$ defined, for $x, y\in E$, by $\varphi (x)(y) =$ $\Phi (x, y)$ is a homomorphism of $\mathfrak{g}$-modules. If $\Phi \not= 0$, then $\varphi \not= 0$, so $\varphi$ is an isomorphism by Schur’s lemma, and hence $\Phi$ is non-degenerate. Consequently, the $\mathfrak{g}$-module E is isomorphic to the $\mathfrak{g}$-module $E^*$, so that $w_0(\omega ) =-\omega$. We have thus proved (i).
+a) Let $\Phi \in \mathscr{B}$. The map $\varphi$ from E to $E^*$ defined, for $x, y\in E$, by $\varphi (x)(y) =$ $\Phi (x, y)$ is a homomorphism of $\mathfrak{g}$-modules. If $\Phi \not= 0$, then $\varphi \not= 0$, so $\varphi$ is an isomorphism by Schur’s lemma, and hence $\Phi$ is non-degenerate. Consequently, the $\mathfrak{g}$-module E is isomorphic to the $\mathfrak{g}$-module $E^*$, so that $w_0(\omega ) =-\omega$. We have thus proved (i).
 
-$b)$ Assume from now on that $w_0(\omega)=-\omega$. Then E is isomorphic to $E^*$. The vector space $\mathscr B$ is isomorphic to $\operatorname{Hom}_{\mathfrak g}(E,E^*)$, and hence to $\operatorname{Hom}_{\mathfrak g}(E,E)$ which is of dimension 1 (§6, no. 1, Prop. 1 (iii)). Hence $\dim \mathscr B=1$. Every non-zero element $\Phi$ of $\mathscr B$ is non-degenerate by a). Put $\Phi_1(x,y)=\Phi(y,x)$ for $x,y\in E$. By the preceding, there exists $\lambda\in k$ such that $\Phi_1(x,y)=\lambda\Phi(x,y)$ for all $x,y\in E$. Then $\Phi(y,x)=\lambda\Phi(x,y)=\lambda^2\Phi(y,x)$, so $\lambda^2=1$ and $\lambda=\pm1$. Thus, $\Phi$ is either symmetric or alternating.
+b) Assume from now on that $w_0(\omega)=-\omega$. Then E is isomorphic to $E^*$. The vector space $\mathscr B$ is isomorphic to $\operatorname{Hom}_{\mathfrak g}(E,E^*)$, and hence to $\operatorname{Hom}_{\mathfrak g}(E,E)$ which is of dimension 1 (§6, no. 1, Prop. 1 (iii)). Hence $\dim \mathscr B=1$. Every non-zero element $\Phi$ of $\mathscr B$ is non-degenerate by a). Put $\Phi_1(x,y)=\Phi(y,x)$ for $x,y\in E$. By the preceding, there exists $\lambda\in k$ such that $\Phi_1(x,y)=\lambda\Phi(x,y)$ for all $x,y\in E$. Then $\Phi(y,x)=\lambda\Phi(x,y)=\lambda^2\Phi(y,x)$, so $\lambda^2=1$ and $\lambda=\pm1$. Thus, $\Phi$ is either symmetric or alternating.
 
-$c)$ By Chap. VII, §1, no. 3, Prop. 9 (v), $E^\lambda$ and $E^\mu$ are orthogonal with respect to $\Phi$ if $\lambda+\mu\ne0$. Since $\Phi$ is non-degenerate, it follows that $E^\omega,E^{-\omega}$ are not orthogonal with respect to $\Phi$.
+c) By Chap. VII, §1, no. 3, Prop. 9 (v), $E^\lambda$ and $E^\mu$ are orthogonal with respect to $\Phi$ if $\lambda+\mu\ne0$. Since $\Phi$ is non-degenerate, it follows that $E^\omega,E^{-\omega}$ are not orthogonal with respect to $\Phi$.
 
-$d)$ There exists a homomorphism $\varphi$ from $\mathfrak{sl}(2,k)$ onto a subalgebra of $\mathfrak g$ that takes $H$ to
+d) There exists a homomorphism $\varphi$ from $\mathfrak{sl}(2,k)$ onto a subalgebra of $\mathfrak g$ that takes $H$ to
 $$
 \sum_{\alpha\in R_+}H_\alpha
 $$

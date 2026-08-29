@@ -21,7 +21,7 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: 1b5bfd8804f03cc3ee0ccdadad5a967b6ee8842cca8b6471ecb23b5ec4046120
+content_sha256: eaf2b502618aa5ba762ff7b78f5dd83041b3b831304194dfec9cee96f2fab555
 ---
 
 ## 1. PRIME IDEALS
@@ -87,7 +87,7 @@ Let $p$ be a prime ideal of $A$. If $p$ contains $a$ and $b_1 b_2 \ldots b_n$ it
 *Let $(a_i)_{i \in I}$ be a non-empty finite family of ideals of a ring $A$. The following properties are equivalent =
 (a) For $i \neq j$, $a_i$ and $a_j$ are relatively prime.
 (b) *The canonical homomorphism* $\phi : A \to \prod_{i \neq I} (A/a_i)$ (*Algebra*, Chapter 11, § 1, no. 7) is surjective.
-*If these hold, the intersection $a$ of the $a_i$ is equal to their product and the canonical homomorphism* $\$ : A/a \to \prod_{i \in I} (A/a_i)$ (*Algebra*, Chapter II, § 1, no. 7) is bijective.*
+*If these hold, the intersection $a$ of the $a_i$ is equal to their product and the canonical homomorphism* $\phi : A/a \to \prod_{i \in I} (A/a_i)$ (*Algebra*, Chapter II, § 1, no. 7) is bijective.*
 
 We argue by induction on $n$ the number of elements in $I$, the case $n = 1$ being trivial. Consider first the case $n = 2$. Then the equivalence of (a) and (b) follows from the exactness of the sequence
 

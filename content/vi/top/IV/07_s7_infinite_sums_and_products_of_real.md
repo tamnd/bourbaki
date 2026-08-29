@@ -36,9 +36,9 @@ subsections:
       pdf_page: 376
 statements: 20
 exercises: 22
-content_sha256: d03aa8ee0c2eccf74d6bb7652e3961dde8faf9d4ec008cbb5f917bd4b1510dfc
+content_sha256: 45fb271e86e6249de938649ae24886f7532c2f9b4c5f44a4880e1780adab8d4d
 translated_from: content/en/top/IV/07_s7_infinite_sums_and_products_of_real.md
-source_content_sha256: 53fa6856b0ed9b2e76f1e361c0d82aa4411cc7ecfa0b354e495808655f7944b3
+source_content_sha256: d12e61abaa0776c3c22cc180ebafa3f47bdea5f60a24d2473807cbb0c4c47432
 translation_model: gpt-5.4
 translation_run: translate-vi-e536aaea
 glossary_version: 34
@@ -56,7 +56,7 @@ Vì mọi điểm của $\mathbf{R}$ đều có một hệ cơ bản lân cận 
 
 *Một họ* $(x_i)$ *các số thực hữu hạn* $\geqslant 0$ *là khả tổng trong* $\mathbf{R}$ *khi và chỉ khi tập hợp các tổng riêng phần hữu hạn của họ bị chặn trên trong* $\mathbf{R}$. *Khi đó, cận trên bé nhất của tập hợp này là tổng của họ* $(x_i)$.
 
-Với mỗi tập con hữu hạn $H$ của tập chỉ số $I$, đặt $s_H = \sum_{i \in H} x_i$; vì các $x_i$ đều $\geqslant 0$, quan hệ $H \subset H'$ kéo theo $s_H \leqslant s_{H'}$. Nói cách khác, ánh xạ $H \to s_H$ là một hàm *tăng* trên tập có hướng $\mathfrak{F}(I)$ các tập con hữu hạn của $I$; do đó (\$ 5, no. 2, Hệ quả của Định lý 2) nó có một giới hạn hữu hạn khi và chỉ khi nó *bị chặn trên*.
+Với mỗi tập con hữu hạn $H$ của tập chỉ số $I$, đặt $s_H = \sum_{i \in H} x_i$; vì các $x_i$ đều $\geqslant 0$, quan hệ $H \subset H'$ kéo theo $s_H \leqslant s_{H'}$. Nói cách khác, ánh xạ $H \to s_H$ là một hàm *tăng* trên tập có hướng $\mathfrak{F}(I)$ các tập con hữu hạn của $I$; do đó (§ 5, no. 2, Hệ quả của Định lý 2) nó có một giới hạn hữu hạn khi và chỉ khi nó *bị chặn trên*.
 
 #### Nhận xét {#top-iv-s7-n1-rem-1 .statement}
 
@@ -92,7 +92,7 @@ s_{2^n} > n/2
 $$
 nên tiêu chuẩn của Định lý 1 không được thỏa mãn.
 
-5) Cho $(I_n)$ là một dãy các khoảng mở không rỗng đôi một rời nhau, tất cả đều được chứa trong một khoảng có độ dài hữu hạn $l$. Tổng các độ dài của một số hữu hạn khoảng thuộc họ này là $\leq l$ ($\S 1$, no. 5) và do đó họ các độ dài của các $I_n$ là khả tổng trong $\mathbf{R}$, và tổng của nó là $\leq l$.
+5) Cho $(I_n)$ là một dãy các khoảng mở không rỗng đôi một rời nhau, tất cả đều được chứa trong một khoảng có độ dài hữu hạn $l$. Tổng các độ dài của một số hữu hạn khoảng thuộc họ này là $\leq l$ ($§ 1$, no. 5) và do đó họ các độ dài của các $I_n$ là khả tổng trong $\mathbf{R}$, và tổng của nó là $\leq l$.
 
 #### Định lý 2 (Nguyên lý so sánh) {#top-iv-s7-thm-2 .statement}
 
@@ -102,7 +102,7 @@ Giả thiết suy ra rằng,
 $$
 \sum_{i \in H} x_i \leq \sum_{i \in H} y_i,
 $$
-với mọi tập con hữu hạn $H$ của $I$, và phần thứ nhất của định lý được suy ra từ điều này; bất đẳng thức liên hệ các tổng được suy ra từ nguyên lý mở rộng các bất đẳng thức ($\S 5$, no. 2, Định lý 1). Nếu $x_x < y_x$, thì
+với mọi tập con hữu hạn $H$ của $I$, và phần thứ nhất của định lý được suy ra từ điều này; bất đẳng thức liên hệ các tổng được suy ra từ nguyên lý mở rộng các bất đẳng thức ($§ 5$, no. 2, Định lý 1). Nếu $x_x < y_x$, thì
 $$
 \sum_i x_i = x_x + \sum_{i \neq x} x_i < y_x + \sum_{i \neq x} y_i = \sum_i y_i.
 $$
@@ -307,7 +307,7 @@ $$
 $$
 hơn nữa, nếu chuỗi $(u_n)$ hội tụ thì chuỗi $(au_n)$ hội tụ với mọi số thực hữu hạn $a$, và $\sum_{n=0}^{\infty} au_n = a \cdot \sum_{n=0}^{\infty} u_n$.
 
-Cuối cùng, nếu các chuỗi $(u_n)$ và $(v_n)$ hội tụ, và nếu $u_n \leq v_n$ với mọi $n$, thì ta có $\sum_{n=0}^{\infty} u_n \leq \sum_{n=0}^{\infty} v_n$ theo nguyên lý mở rộng các bất đẳng thức (\S 5, no. 2, Định lý 1).
+Cuối cùng, nếu các chuỗi $(u_n)$ và $(v_n)$ hội tụ, và nếu $u_n \leq v_n$ với mọi $n$, thì ta có $\sum_{n=0}^{\infty} u_n \leq \sum_{n=0}^{\infty} v_n$ theo nguyên lý mở rộng các bất đẳng thức (§ 5, no. 2, Định lý 1).
 
 Cần lưu ý rằng, nếu ta giả sử chuỗi $(v_n)$ hội tụ nhưng không hội tụ tuyệt đối, và nếu $|u_n| \leq |v_n|$ với mỗi $n$, thì hoàn toàn không thể suy ra rằng chuỗi $(u_n)$ hội tụ, như thấy được khi lấy $u_n = |v_n|$.
 
@@ -321,7 +321,7 @@ Một tích vô hạn các số thực hữu hạn khác không được gọi �
 
 *Một tích vô hạn các số thực hữu hạn là hội tụ giao hoán khi và chỉ khi nó hội tụ tuyệt đối.*
 
-Điều này suy ra từ Chương III, \S 5, no. 7, Mệnh đề 9, và từ Định lý 4 ở trên.
+Điều này suy ra từ Chương III, § 5, no. 7, Mệnh đề 9, và từ Định lý 4 ở trên.
 
 Hơn nữa, tích có nhân tử tổng quát là $1 + u_n$ là *hội tụ tuyệt đối* khi và chỉ khi chuỗi có số hạng tổng quát là $u_n$ là *hội tụ tuyệt đối*.
 

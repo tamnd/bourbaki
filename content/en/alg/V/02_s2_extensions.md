@@ -221,7 +221,7 @@ Thus we may say, speaking intuitively, that linear disjunction is a property « 
 — Let E, F, G be three extensions of a field K contained in $\Omega$, such that $F \subset G$. For E and G to be linearly disjoint over K it is necessary and sufficient that E and F should be linearly disjoint over K and that E(F) and G be linearly disjoint over F.
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 E & \longrightarrow & E(F) \\
 K & \longrightarrow & F & \longrightarrow & G.
 \end{array}

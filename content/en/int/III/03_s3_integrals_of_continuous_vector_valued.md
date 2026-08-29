@@ -29,7 +29,7 @@ subsections:
       pdf_page: 84
 statements: 17
 exercises: 4
-content_sha256: d6155135b1817c322a8dffb224f77b5d802251e42fc17778ac5f4c2e80f82a83
+content_sha256: 08e80431efbc022e93acec00bafa9892334f63e19b825a718a5f6da8a6173417
 ---
 
 ## § 3. INTEGRALS OF CONTINUOUS VECTOR-VALUED FUNCTIONS
@@ -78,7 +78,7 @@ $$
 \int f d\mu = \sum_{i=1}^n \mu(f_i) e_i.
 $$
 
-2) Let us take for $E$ the space $\mathcal{M}(X; \mathbf{C})$ of measures on $X$, equipped with the *vague* topology (\S 1, No. 9); the dual $E'$ of $E$ may then be canonically identified with the space $\mathcal{K}(X; \mathbf{C})$ (TVS, II, \S 6, No. 2, Prop. 3). The mapping $x \mapsto \varepsilon_x$ of $X$ into $E$ is *continuous* (\S 1, No. 9, Prop. 13), but its support is not compact if $X$ is not compact; however, it is *scalarly of compact* support, because for every function $f \in E'$ the function $x \mapsto \langle \varepsilon_x, f \rangle = f(x)$ by definition has compact support. Moreover,
+2) Let us take for $E$ the space $\mathcal{M}(X; \mathbf{C})$ of measures on $X$, equipped with the *vague* topology (§ 1, No. 9); the dual $E'$ of $E$ may then be canonically identified with the space $\mathcal{K}(X; \mathbf{C})$ (TVS, II, § 6, No. 2, Prop. 3). The mapping $x \mapsto \varepsilon_x$ of $X$ into $E$ is *continuous* (§ 1, No. 9, Prop. 13), but its support is not compact if $X$ is not compact; however, it is *scalarly of compact* support, because for every function $f \in E'$ the function $x \mapsto \langle \varepsilon_x, f \rangle = f(x)$ by definition has compact support. Moreover,
 
 $$
 \int \langle \varepsilon_x, f \rangle d\mu = \int f(x) d\mu(x) = \langle \mu, f \rangle
@@ -202,7 +202,7 @@ Suppose first that $\mu$ is positive; by hypothesis, the support K of f is compa
 
 *Suppose that the space* X *is compact, and let* f *be a continuous mapping of* X *into a Hausdorff locally convex space* E. *The closed convex envelope of* f(X) *in* E'** *(for* $\sigma(E', E')$) *is equal to the set of vectors* $\int f\, d\mu$ *for all of the positive measures* $\mu$ *on* X *of total mass* 1.
 
-Let C be the closed convex envelope of f(X) in E'**; since f(X) is compact and E'** is *complete*, C is compact. We already know (Prop. 4) that $\int f d\mu \in C$ for every measure $\mu$ belonging to the convex set $H$ of positive measures on $X$ of total mass equal to 1. On the other hand, $H$ is convex and *compact* for the vague topology (\S 1, No. 9, Cor. 3 of Prop. 15) and is the closure (for this topology) of the convex set $H_0$ of positive measures of mass 1 and *finite* support (\S 2, No. 4, Cor. 3 of Th. 1). Now, the image of $H_0$ under the mapping $\mu \mapsto \int f d\mu$ is the convex envelope $C_0$ of $f(X)$ in ${E'}^*$. On the other hand, this mapping is continuous for the vague topology on $\mathcal{M}(X; C)$ and the topology $\sigma({E'}^*, E')$ on ${E'}^*$ since $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ by definition; thus the image of $H = \overline{H_0}$ is a *compact* convex set containing $C_0$ and contained in $C$; since $C = \overline{C_0}$, this image is equal to $C$.
+Let C be the closed convex envelope of f(X) in E'**; since f(X) is compact and E'** is *complete*, C is compact. We already know (Prop. 4) that $\int f d\mu \in C$ for every measure $\mu$ belonging to the convex set $H$ of positive measures on $X$ of total mass equal to 1. On the other hand, $H$ is convex and *compact* for the vague topology (§ 1, No. 9, Cor. 3 of Prop. 15) and is the closure (for this topology) of the convex set $H_0$ of positive measures of mass 1 and *finite* support (§ 2, No. 4, Cor. 3 of Th. 1). Now, the image of $H_0$ under the mapping $\mu \mapsto \int f d\mu$ is the convex envelope $C_0$ of $f(X)$ in ${E'}^*$. On the other hand, this mapping is continuous for the vague topology on $\mathcal{M}(X; C)$ and the topology $\sigma({E'}^*, E')$ on ${E'}^*$ since $\langle \int f d\mu, z' \rangle = \int \langle f, z' \rangle d\mu$ by definition; thus the image of $H = \overline{H_0}$ is a *compact* convex set containing $C_0$ and contained in $C$; since $C = \overline{C_0}$, this image is equal to $C$.
 
 #### Proposition 6 {#int-iii-s3-prop-6 .statement}
 
@@ -212,7 +212,7 @@ $$
 q \left( \int f d\mu \right) \leq \int (q \circ f) \ d|\mu|.
 $$
 
-Let $D$ be the set of $z \in E$ such that $q(z) \leq 1$; $D$ is closed, convex and contains 0, therefore $D = D^{o o}$ (TVS, II, \S 6, No. 3, Cor. 3 of Th. 1). It therefore suffices to prove that for every $z' \in D^o$,
+Let $D$ be the set of $z \in E$ such that $q(z) \leq 1$; $D$ is closed, convex and contains 0, therefore $D = D^{o o}$ (TVS, II, § 6, No. 3, Cor. 3 of Th. 1). It therefore suffices to prove that for every $z' \in D^o$,
 
 $$
 \left| \left\langle \int f d\mu, z' \right\rangle \right| \leq \int (q \circ f) \ d|\mu|;
@@ -230,7 +230,7 @@ $$
 |\langle f(x), z' \rangle| \leq q(f(x))
 $$
 
-for all $x \in X$, the desired inequality follows from the inequality (13) of \S 1, No. 6.
+for all $x \in X$, the desired inequality follows from the inequality (13) of § 1, No. 6.
 
 ### 3. Criteria for the integral to belong to $E$
 
@@ -301,13 +301,13 @@ $$
 \left\langle \int f d\varepsilon_x, z' \right\rangle = \int (z' \circ f) d\varepsilon_x = z'(f(x)) = \langle f(x), z' \rangle ,
 $$
 
-whence $\int f\, d\varepsilon_x = f(x)$. We know, moreover, that the set of point measures is total in $\mathcal{M}(X; \mathbf{C})$ for the topology of strictly compact convergence (\S 2, No. 4, Cor. 4 of Th. 1). Thus it all comes down to proving the continuity of the linear mapping $u : \mu \mapsto \int f\, d\mu$. For this, consider the linear mapping $v : z' \mapsto \langle f, z' \rangle$ of $E'$ into $\mathcal{K}(X; \mathbf{C})$, and let us show that the image under $v$ of an equicontinuous subset $H$ of $E'$ is contained in a strictly compact subset of $\mathcal{K}(X; \mathbf{C})$. For, if $K$ is the support of $f$, the functions $\langle f, z' \rangle$ for $z' \in H$ have support contained in $K$; on the other hand, these functions form an equicontinuous set, and for each $x \in X$ the set of $z'(f(x))$ is bounded; our assertion therefore follows from Ascoli’s theorem (GT, X, \S 2, No. 5, Cor. 3 of Th. 2). Now, it follows from formula (1) of No. 1 that $u$ is none other than the restriction to $\mathcal{M}(X; \mathbf{C})$ of the transpose $^t v$ (in the algebraic sense); its continuity therefore follows from the foregoing (TVS, IV, \S 1, No. 3, Prop. 6).
+whence $\int f\, d\varepsilon_x = f(x)$. We know, moreover, that the set of point measures is total in $\mathcal{M}(X; \mathbf{C})$ for the topology of strictly compact convergence (§ 2, No. 4, Cor. 4 of Th. 1). Thus it all comes down to proving the continuity of the linear mapping $u : \mu \mapsto \int f\, d\mu$. For this, consider the linear mapping $v : z' \mapsto \langle f, z' \rangle$ of $E'$ into $\mathcal{K}(X; \mathbf{C})$, and let us show that the image under $v$ of an equicontinuous subset $H$ of $E'$ is contained in a strictly compact subset of $\mathcal{K}(X; \mathbf{C})$. For, if $K$ is the support of $f$, the functions $\langle f, z' \rangle$ for $z' \in H$ have support contained in $K$; on the other hand, these functions form an equicontinuous set, and for each $x \in X$ the set of $z'(f(x))$ is bounded; our assertion therefore follows from Ascoli’s theorem (GT, X, § 2, No. 5, Cor. 3 of Th. 2). Now, it follows from formula (1) of No. 1 that $u$ is none other than the restriction to $\mathcal{M}(X; \mathbf{C})$ of the transpose $^t v$ (in the algebraic sense); its continuity therefore follows from the foregoing (TVS, IV, § 1, No. 3, Prop. 6).
 
 #### Corollary {#int-iii-s3-n4-cor-1 .statement}
 
 — *With hypotheses and notations as in Prop. 9, the restriction of the mapping* $\mu \mapsto \int f\, d\mu$ *to the set* $\mathcal{M}_+(X)$ *of positive measures, or to a vaguely bounded subset B of* $\mathcal{M}(X; \mathbf{C})$, *is vaguely continuous.*
 
-For, it follows from \S 1, No. 10, Props. 17 and 18 that, on $\mathcal{M}_+(X)$ or on $B$, the topology induced by the topology of strictly compact convergence is the same as the topology induced by the vague topology.
+For, it follows from § 1, No. 10, Props. 17 and 18 that, on $\mathcal{M}_+(X)$ or on $B$, the topology induced by the topology of strictly compact convergence is the same as the topology induced by the vague topology.
 
 However, the mapping $\mu \mapsto \int f\, d\mu$ is not necessarily continuous on all of $\mathcal{M}(X; \mathbf{C})$ for the vague topology (Exer. 2).
 

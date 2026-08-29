@@ -30,9 +30,9 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 7af7583b97126535ccf75c270699be5819d53207d17c034bf3c23606fc333878
+content_sha256: 7ef13ffa3bcea1a11222edc254aa4201da7a8951ed2fe85ad922b2817fbaa5be
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
-source_content_sha256: c71157cd922d476b1b228708495f9f9f1ee9a9b4740af6b3058e100e9e1d1ca3
+source_content_sha256: 0d4d0127bd0f36cbd3c2a6be311c933fe5929eadbf69e81319cc08695d227e44
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-3c913cac
 glossary_version: 34
@@ -84,11 +84,11 @@ $$
 f(y) = f(u(x)) = u(f(x)) = 0,
 $$
 
-và $f$ là một đa thức bất khả quy đơn nhất trong $\mathbf{K}[X]$; do đó ($V$, p. 16, Định lý 1, c)), $f$ là đa thức tối tiểu của $y$ trên $K$. Vậy $a)$ kéo theo $c)$.
+và $f$ là một đa thức bất khả quy đơn nhất trong $\mathbf{K}[X]$; do đó ($V$, p. 16, Định lý 1, c)), $f$ là đa thức tối tiểu của $y$ trên $K$. Vậy a) kéo theo c).
 
-Giả sử giờ đây $x$ và $y$ có cùng đa thức tối tiểu $f$ trên $K$. Tồn tại một $K$-đẳng cấu của trường $\mathbf{K}[X]/(f)$ lên $\mathbf{K}(x)$ (resp. lên $\mathbf{K}(y)$) gửi lớp thặng dư của $X$ modulo $(f)$ đến $x$ (resp. $y$) ($V$, p. 16, ĐL. 1, b)); do đó tồn tại một $K$-đẳng cấu $v$ của $\mathbf{K}(x)$ lên $\mathbf{K}(y)$ sao cho $v(x) = y$. Vì vậy $c)$ suy ra $b)$.
+Giả sử giờ đây $x$ và $y$ có cùng đa thức tối tiểu $f$ trên $K$. Tồn tại một $K$-đẳng cấu của trường $\mathbf{K}[X]/(f)$ lên $\mathbf{K}(x)$ (resp. lên $\mathbf{K}(y)$) gửi lớp thặng dư của $X$ modulo $(f)$ đến $x$ (resp. $y$) ($V$, p. 16, ĐL. 1, b)); do đó tồn tại một $K$-đẳng cấu $v$ của $\mathbf{K}(x)$ lên $\mathbf{K}(y)$ sao cho $v(x) = y$. Vì vậy c) suy ra b).
 
-Sau cùng, dưới giả thiết $b)$, Mệnh đề 1 suy ra tồn tại một $K$-tự đẳng cấu $u$ của $\Omega$ kéo dài $v$; khi đó ta có $u(x) = y$, do đó $x$ và $y$ liên hợp trên $K$, nên $b)$ suy ra $a)$.
+Sau cùng, dưới giả thiết b), Mệnh đề 1 suy ra tồn tại một $K$-tự đẳng cấu $u$ của $\Omega$ kéo dài $v$; khi đó ta có $u(x) = y$, do đó $x$ và $y$ liên hợp trên $K$, nên b) suy ra a).
 
 #### Hệ quả 1 {#alg-v-s9-prop-2-cor-1 .statement}
 
@@ -151,7 +151,7 @@ Cho $w$ là một K-tự đẳng cấu của $\Omega$ mở rộng $u$ (V, p. 52,
 
 Cho $(f_i)_{i \in I}$ là một họ các đa thức không hằng trong $K[X]$ mà trường phân rã trên $K$ của chúng là $E$. Khi đó hiển nhiên $E'$ là trường phân rã của họ $(f_i)_{i \in I}$ trên $K'$, nên nó là quasi-Galois trên $K'$.
 
-#### Nhận xét 1 {#alg-v-s9-prop-3-cor-1 .statement}
+#### Nhận xét 1 {#alg-v-s9-n3-rem-1 .statement}
 
 Cho $F$ là một mở rộng của $K$ và $E$ là một mở rộng trung gian của $F$, và giả sử rằng $E$ là quasi-Galois trên $K$. Ta hãy chứng minh rằng mọi $K$-tự đẳng cấu $u$ của $F$ đều để $E$ bất biến. Thật vậy, lấy $x \in E$ và $f$ là đa thức tối tiểu của $x$ trên $K$. Vì $E$ là quasi-Galois trên $K$, tồn tại $a_1, \ldots, a_n \in E$ sao cho $f(X) = \Pi(X - a_i)$; ta có $f(u(x)) = u(f(x)) = 0$, do đó $u(x)$ là một trong các $a_i$ và vì thế thuộc $E$. Ta đã chứng minh $u(E) \subset E$, và giờ $u(E) = E$ suy ra theo V, p. 52, Mệnh đề 1.
 

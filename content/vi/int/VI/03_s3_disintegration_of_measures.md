@@ -33,9 +33,9 @@ subsections:
       pdf_page: 441
 statements: 16
 exercises: 12
-content_sha256: d55fcfd827b324765b78ff5a809f814d574126d69f799067878458923fe8a6ab
+content_sha256: 56798dc47dd81cf53b56a86323ba48cbe3ad59b0d050ec9749d442d8a38f3235
 translated_from: content/en/int/VI/03_s3_disintegration_of_measures.md
-source_content_sha256: 6c7c7d84bc3a47a89cf864e928daf459d8ae1ed8bb404a27eaa408e6c0c22b3a
+source_content_sha256: 8879ed2dcbac290dcceecb297da3c70b77ffea9c231d05f50a9508eb784557f9
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-71f41523
 glossary_version: 34
@@ -63,13 +63,13 @@ Bổ đề này không gì khác hơn là Hệ quả của Định lý 1 của G
 
 #### Bổ đề 3 {#int-vi-s3-lem-3 .statement}
 
-— *Cho T và X là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một đo lường dương trên T, và $t \mapsto \lambda_t$ ($t \in T$) là một họ các đo lường dương trên X. Nếu ánh xạ $t \mapsto \lambda_t$ là $\mu$-nguyên theo vô hướng (đối với tôpô $\sigma(\mathcal{M}(X), \mathcal{K}(X))$), thì họ $t \mapsto \lambda_t$ là $\mu$-thích hợp ($\S 1$, No. 1, Ví dụ).*
+— *Cho T và X là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một đo lường dương trên T, và $t \mapsto \lambda_t$ ($t \in T$) là một họ các đo lường dương trên X. Nếu ánh xạ $t \mapsto \lambda_t$ là $\mu$-nguyên theo vô hướng (đối với tôpô $\sigma(\mathcal{M}(X), \mathcal{K}(X))$), thì họ $t \mapsto \lambda_t$ là $\mu$-thích hợp ($§ 1$, No. 1, Ví dụ).*
 
-Vì, Bổ đề 1, áp dụng cho $\mathcal{K}(X)$, chỉ ra rằng ánh xạ $t \mapsto \lambda_t$ là đo được theo nghĩa mơ hồ đối với $\mu$ ($\S 1$, No. 5, Mệnh đề 13).
+Vì, Bổ đề 1, áp dụng cho $\mathcal{K}(X)$, chỉ ra rằng ánh xạ $t \mapsto \lambda_t$ là đo được theo nghĩa mơ hồ đối với $\mu$ ($§ 1$, No. 5, Mệnh đề 13).
 
 #### Định lý 1 {#int-vi-s3-thm-1 .statement}
 
-*Cho T và B là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một độ đo dương trên T, p là một ánh xạ $\mu$-thực sự (Ch. V, §6, No. 1, Định nghĩa 1) của T vào B, và $\nu = p(\mu)$ là ảnh của $\mu$ qua p. Khi đó tồn tại một họ $\nu$-thích hợp ($\S 1$, No. 1, Ví dụ) $b \mapsto \lambda_b$ ($b \in B$) các độ đo dương trên T, có các tính chất sau:
+*Cho T và B là hai không gian compact địa phương có các cơ sở đếm được, $\mu$ là một độ đo dương trên T, p là một ánh xạ $\mu$-thực sự (Ch. V, §6, No. 1, Định nghĩa 1) của T vào B, và $\nu = p(\mu)$ là ảnh của $\mu$ qua p. Khi đó tồn tại một họ $\nu$-thích hợp ($§ 1$, No. 1, Ví dụ) $b \mapsto \lambda_b$ ($b \in B$) các độ đo dương trên T, có các tính chất sau:
 
 a) $\| \lambda_b \| = 1$ với mọi $b \in p(T)$;
 

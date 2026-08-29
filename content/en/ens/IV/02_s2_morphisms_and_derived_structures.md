@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 33716172cbb3b2bb56712f0439f68cc2acc589398de3fe56f5601e43675e217a
+content_sha256: f3deeaa7f667542d82042b94967bb4d68d106fa3b1b0bdd6f7b4555f277bea62
 ---
 
 ## 2. MORPHISMS AND DERIVED STRUCTURES
@@ -65,9 +65,7 @@ If $\Sigma$ and $\sigma$ are given, the relation $f\in\sigma\{x,y,s,t\}$ is expr
 
 #### Example 1 {#ens-iv-s2-n1-exa-1 .statement tag=03VL}
 
-Take $\Sigma$ to be the species of order structures and let $\sigma\{x,y,s,t\}$ denote the set of all mappings $f$ of $x$ into $y$ such that the relation $(u,v)\in s$ implies $(f(u),f(v))\in t$. With the notation of Chapter III, § 1,
-
-271 this means that $u \leqslant v$ implies $f(u) \leqslant f(v)$, i.e., that $f$ is *increasing*. The verification of axioms $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, and $(\mathrm{MO_{III}})$ is obvious.
+Take $\Sigma$ to be the species of order structures and let $\sigma\{x,y,s,t\}$ denote the set of all mappings $f$ of $x$ into $y$ such that the relation $(u,v)\in s$ implies $(f(u),f(v))\in t$. With the notation of Chapter III, § 1, this means that $u \leqslant v$ implies $f(u) \leqslant f(v)$, i.e., that $f$ is *increasing*. The verification of axioms $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, and $(\mathrm{MO_{III}})$ is obvious.
 
 #### Example 2 {#ens-iv-s2-n1-exa-2 .statement tag=03VM}
 
@@ -185,9 +183,7 @@ CST11. *Let B be a subset of A, let C be a subset of B, and let $\mathscr{G}$ be
 
 CST12. *Let A, A' be two sets endowed with structures $\mathscr{G}$, $\mathscr{G}'$ of species $\Sigma$. Let B be a subset of A, and B' a subset of A'. Suppose that $\mathscr{G}$ (resp. $\mathscr{G}'$) induces a structure of species $\Sigma$ on B (resp. B'). If $f$ is a morphism of A into A' such that $f(B)\subset B'$, then the mapping of B into B' which coincides with $f$ on B is a morphism (with respect to the structures induced by $\mathscr{G}$ and $\mathscr{G}'$).*
 
-Let $j$ (resp. $j'$) be the canonical injection of B (resp. B') into A (resp. A'). By definition we have $f\circ j=j'\circ g$. Since $f$ and $j$ are morphisms,
-
-276 so is $f\circ j$ by (MO$_{\mathrm{II}}$); but then, $j'\circ g$ being a morphism, the mapping $g$ is a morphism by the definition of initial structure.
+Let $j$ (resp. $j'$) be the canonical injection of B (resp. B') into A (resp. A'). By definition we have $f\circ j=j'\circ g$. Since $f$ and $j$ are morphisms, so is $f\circ j$ by (MO$_{\mathrm{II}}$); but then, $j'\circ g$ being a morphism, the mapping $g$ is a morphism by the definition of initial structure.
 
 III. *Product structure.* Let $(A_i)_{i\in I}$ be a family of sets, and on each set $A_i$ let $\mathscr{S}_i$ be a structure of species $\Sigma$. Let $E=\prod_{i\in I}A_i$ be the *product* of the family $(A_i)_{i\in I}$ (Chapter II, § 5), and let $\operatorname{pr}_i$ denote the projection of $E$ onto $A_i$. The initial structure (if it exists) with respect to the family $(A_i,\mathscr{S}_i,\operatorname{pr}_i)_{i\in I}$ is called the *product* of the structures $\mathscr{S}_i$.
 

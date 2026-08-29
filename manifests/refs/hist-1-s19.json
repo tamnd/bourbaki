@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s19","kind":"cites","raw":"XV, p. 82","form":"page","resolved_by":"out-of-corpus","chapter":"XV","file":"content/en/hist/1/19_s19_the_gamma_function.md","line":19},
+{"from":"","from_label":"hist-1-s19","kind":"cites","raw":"XVII, p. 342","form":"page","resolved_by":"out-of-corpus","chapter":"XVII","file":"content/en/hist/1/19_s19_the_gamma_function.md","line":19},
+{"from":"","from_label":"hist-1-s19","kind":"cites","raw":"XVII, p. 355","form":"page","resolved_by":"out-of-corpus","chapter":"XVII","file":"content/en/hist/1/19_s19_the_gamma_function.md","line":19},
+{"from":"","from_label":"hist-1-s19","kind":"cites","raw":"XIX, p. 483","form":"page","resolved_by":"out-of-corpus","chapter":"XIX","file":"content/en/hist/1/19_s19_the_gamma_function.md","line":19}
+]}

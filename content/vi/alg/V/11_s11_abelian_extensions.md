@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: ace8e88fa746b0f4c6b97a7a869ed25f56d1d62622920e7e0ac3b79c002aa38e
+content_sha256: b67b9b7df6df2f68f7603eed446a754a8a5c9551c716516623f43abd4c982d87
 translated_from: content/en/alg/V/11_s11_abelian_extensions.md
 source_content_sha256: 59b836b035495edfdf1402c42c8c9377eff55f5660611ac36d05aba9452ca433
 translation_model: gpt-5.4-mini
@@ -558,9 +558,11 @@ Hãy lấy $K = \mathbf{Q}$ và $n = 2$. Khi đó $\mathbf{Q}^*/\mathbf{Q}^{*2}$
 
 #### Ví dụ 3 {#alg-v-s11-n8-exa-3 .statement}
 
-Ngược lại, cho $a \in K^*$ và cho $r$ là số nguyên nhỏ nhất $> 0$ sao cho $a' \in K^{*n}$; khi đó trường con $L$ của $\Omega$ được sinh bởi các nghiệm của đa thức $X^n - a$ là một mở rộng tuần hoàn của $K$ có bậc $r$. Đặc biệt, $X^n - a$ là bất khả quy khi và chỉ khi $r = n$.
+Cho L là một mở rộng tuần hoàn của K có bậc $n$; khi đó nhóm $(L^n \cap K^*)/K^{*n}$ là tuần hoàn cấp $n$. Nếu $a \in K^*$ sao cho lớp thặng dư của $a$ mod $K^{*n}$ là một phần tử sinh của nhóm này, thì L là K-đẳng cấu với $K[X]/(X^n - a)$ và nhóm $\mathrm{Gal}(L/K)$ gồm $n$ tự đẳng cấu biến $X$ thành $\zeta X$, $\zeta \in \mu_n(K)$.
 
 #### Ví dụ 4 {#alg-v-s11-n8-exa-4 .statement}
+
+Ngược lại, cho $a \in K^*$ và cho $r$ là số nguyên nhỏ nhất $> 0$ sao cho $a' \in K^{*n}$; khi đó trường con $L$ của $\Omega$ được sinh bởi các nghiệm của đa thức $X^n - a$ là một mở rộng tuần hoàn của $K$ có bậc $r$. Đặc biệt, $X^n - a$ là bất khả quy khi và chỉ khi $r = n$.
 
 #### Nhận xét {#alg-v-s11-n8-rem-1 .statement}
 
@@ -645,7 +647,7 @@ c) Cho $A$ là một nhóm con của $K$ chứa $\mathcal{P}(K)$ và cho $B$ là
 
 #### Ví dụ 1 {#alg-v-s11-n9-exa-1 .statement}
 
-Tồn tại một mở rộng Abel lớn nhất của $K$ có số mũ chia hết cho $p$, nằm trong $\Omega$; đó là $K(B^1(K))$, nhóm Galois của nó có thể được đồng nhất với Horn(K/\mathfrak{p}(K),\mathbf{F}_p)$.
+Tồn tại một mở rộng Abel lớn nhất của $K$ có số mũ chia hết cho $p$, nằm trong $\Omega$; đó là $K(B^1(K))$, nhóm Galois của nó có thể được đồng nhất với $\mathrm{Hom}(K/\mathfrak{p}(K),\mathbf{F}_p)$.
 
 #### Ví dụ 2 {#alg-v-s11-n9-exa-2 .statement}
 

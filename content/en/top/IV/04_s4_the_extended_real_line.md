@@ -7,24 +7,25 @@ section: 4
 section_title: The extended real line
 lang: en
 source: top-i-iv
+book_pages: 342-347, 388-389
 pdf_pages: 0348-0353, 0394-0395
 extraction: ocr
 subsections:
     - "no": 1
       title: HOMEOMORPHISMS OF OPEN INTERVALS OF $\mathbf{R}$
-      page: 0
+      page: 342
       pdf_page: 348
     - "no": 2
       title: THE EXTENDED LINE
-      page: 0
+      page: 343
       pdf_page: 349
     - "no": 3
       title: ADDITION AND MULTIPLICATION IN $\overline{\mathbf{R}}$
-      page: 0
+      page: 345
       pdf_page: 351
 statements: 11
 exercises: 7
-content_sha256: bde5cf9771f37e7242a9485ba17a343fa16c0d4c53f40f5fe2037fb4f0fa1c9f
+content_sha256: 3477e139826e65849e4c720f23000de6a586e29c28b763b37fc584aa0cc71567
 ---
 
 ## 4. THE EXTENDED REAL LINE
@@ -35,7 +36,7 @@ content_sha256: bde5cf9771f37e7242a9485ba17a343fa16c0d4c53f40f5fe2037fb4f0fa1c9f
 
 All non-empty open intervals of $\mathbf{R}$ are homeomorphic to $\mathbf{R}$.
 
-Consider first a bounded open interval $I = ]a, b[$ ($a < b$). For each $x \in I$ put $f(x) = -\left( \frac{1}{x-a} + \frac{1}{x-b} \right)$. This function is continuous and strictly increasing on $I$, for we have seen that $\frac{1}{x-b}$ is strictly decreasing in $]-, b[$ and $\frac{1}{x-a}$ strictly decreasing in $]a, \to[$. It follows that $f$ is a homeomorphism of $I$ onto an interval $f(I)$ of $\mathbf{R}$ (\S 2, no. 6, Theorem 5). $f(I)$ is neither bounded above nor below; if, for example, we had $f(x) \leq c$ for all $x \in I$, it would follow that $1 - \frac{b-x}{x-a} \leq c(b-x)$, since $b-x > 0$; and this leads to a contradiction when $x$ is sufficiently near $b$ (by virtue of the continuity of the two sides of the inequality, which are rational functions, at the point $b$). Hence $f(I) = \mathbf{R}$, and therefore every bounded open interval is homeomorphic to $\mathbf{R}$. Let $g$ be the inverse of $f$: it maps every unbounded open interval of $\mathbf{R}$ onto an interval $J$ contained in $I$ and open in $I$. Since $I$ is open in $\mathbf{R}$, $J$ is also open in $\mathbf{R}$; since it is bounded, it is homeomorphic to $\mathbf{R}$; and thus we have proved that every unbounded open interval is homeomorphic to $\mathbf{R}$.
+Consider first a bounded open interval $I = ]a, b[$ ($a < b$). For each $x \in I$ put $f(x) = -\left( \frac{1}{x-a} + \frac{1}{x-b} \right)$. This function is continuous and strictly increasing on $I$, for we have seen that $\frac{1}{x-b}$ is strictly decreasing in $]-, b[$ and $\frac{1}{x-a}$ strictly decreasing in $]a, \to[$. It follows that $f$ is a homeomorphism of $I$ onto an interval $f(I)$ of $\mathbf{R}$ (§ 2, no. 6, Theorem 5). $f(I)$ is neither bounded above nor below; if, for example, we had $f(x) \leq c$ for all $x \in I$, it would follow that $1 - \frac{b-x}{x-a} \leq c(b-x)$, since $b-x > 0$; and this leads to a contradiction when $x$ is sufficiently near $b$ (by virtue of the continuity of the two sides of the inequality, which are rational functions, at the point $b$). Hence $f(I) = \mathbf{R}$, and therefore every bounded open interval is homeomorphic to $\mathbf{R}$. Let $g$ be the inverse of $f$: it maps every unbounded open interval of $\mathbf{R}$ onto an interval $J$ contained in $I$ and open in $I$. Since $I$ is open in $\mathbf{R}$, $J$ is also open in $\mathbf{R}$; since it is bounded, it is homeomorphic to $\mathbf{R}$; and thus we have proved that every unbounded open interval is homeomorphic to $\mathbf{R}$.
 
 #### Remark {#top-iv-s4-n1-rem-1 .statement}
 

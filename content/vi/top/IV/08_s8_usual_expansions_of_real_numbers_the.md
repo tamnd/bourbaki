@@ -36,9 +36,9 @@ subsections:
       pdf_page: 383
 statements: 3
 exercises: 6
-content_sha256: 5c07ca8815c9c34982fb7af4a13a49d23b0c0ee0191fde6d53bbd7187f240775
+content_sha256: 76a4a43de46bc2434fa583c111420f7f6665b299a8302066dba0a45f5c5ac71d
 translated_from: content/en/top/IV/08_s8_usual_expansions_of_real_numbers_the.md
-source_content_sha256: d761c077501377ceeab84374ca512fcd6975784dba66e86cf8a3fa55e597bfd8
+source_content_sha256: cc580553600faae651b7943eeadba958e4028101a52e112dfe1c9051a2cb6aa3
 translation_model: gpt-5.4
 translation_run: translate-vi-6c609c53
 glossary_version: 34
@@ -58,7 +58,7 @@ Cho $A$ là một tập con trù mật của $\mathbf{R}$. Với mỗi $x \in \m
 
 Trong trường hợp $A$ là một nhóm con của nhóm cộng $\mathbf{R}$, và ta hạn chế các $\varepsilon_n$ thuộc $A$, ta có thể định nghĩa một cách chính tắc đối với mỗi $x \in \mathbf{R}$ một dãy $(r_n)$ các xấp xỉ thiếu của $x$, thuộc $A$.
 
-Thật vậy, theo tiên đề Archimedes (\S 2, no. 1, Định lý 1), tập hợp các số nguyên $p$ sao cho $p \varepsilon_n \leq x$ có một phần tử lớn nhất $p_n$; nói cách khác, tồn tại một số nguyên duy nhất $p_n$ sao cho
+Thật vậy, theo tiên đề Archimedes (§ 2, no. 1, Định lý 1), tập hợp các số nguyên $p$ sao cho $p \varepsilon_n \leq x$ có một phần tử lớn nhất $p_n$; nói cách khác, tồn tại một số nguyên duy nhất $p_n$ sao cho
 
 $$
 p_n \varepsilon_n \leq x < (p_n + 1) \varepsilon_n.
@@ -98,7 +98,7 @@ Với mỗi số nguyên $m > 0$ ta có (theo nguyên lý so sánh)
 $$
 \sum_{n=m+1}^\infty \frac{v_n}{d_n} \leq \sum_{n=m+1}^\infty \frac{a_n - 1}{d_n} = \sum_{n=m+1}^\infty \left( \frac{1}{d_{n-1}} - \frac{1}{d_n} \right) = \frac{1}{d_m}
 $$
-và các số hạng ngoài cùng bên trái và bên phải bằng nhau chỉ khi $v_n = a_n - 1$ với mỗi $n > m$ (\S 7, no. 1, Định lý 2). Do đó chuỗi có số hạng tổng quát là $\frac{v_n}{d_n}$ là hội tụ; hơn nữa, nếu $x = q_0 + \sum_{n=1}^\infty \frac{v_n}{d_n}$, ta có
+và các số hạng ngoài cùng bên trái và bên phải bằng nhau chỉ khi $v_n = a_n - 1$ với mỗi $n > m$ (§ 7, no. 1, Định lý 2). Do đó chuỗi có số hạng tổng quát là $\frac{v_n}{d_n}$ là hội tụ; hơn nữa, nếu $x = q_0 + \sum_{n=1}^\infty \frac{v_n}{d_n}$, ta có
 $$
 s_m = q_0 + \sum_{n=1}^m \frac{v_n}{d_n} \leq x \leq s_m + \frac{1}{d_m}
 $$

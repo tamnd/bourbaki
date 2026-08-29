@@ -4,21 +4,21 @@
   "pagination": "per-chapter",
   "prefix": "A",
   "pdf_pages": 222,
-  "body_pages": 215,
-  "front_matter_pages": 7,
+  "body_pages": 216,
+  "front_matter_pages": 6,
   "counts": {
     "interpolated": 9,
-    "label": 206,
-    "none": 7
+    "label": 207,
+    "none": 6
   },
-  "printed_pct_of_body": 95.81395348837209,
+  "printed_pct_of_body": 95.83333333333334,
   "chapters": [
     {
       "chapter": "X",
       "first_pdf_page": 7,
-      "last_pdf_page": 221,
+      "last_pdf_page": 222,
       "first_page": 1,
-      "last_page": 215
+      "last_page": 216
     }
   ],
   "steps": [],
@@ -77,12 +77,6 @@
       "to": 220,
       "pages": 1,
       "confidence": "interpolated"
-    },
-    {
-      "from": 222,
-      "to": 222,
-      "pages": 1,
-      "confidence": "none"
     }
   ]
 }

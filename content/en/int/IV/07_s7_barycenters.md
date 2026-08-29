@@ -37,7 +37,7 @@ subsections:
       pdf_page: 222
 statements: 31
 exercises: 10
-content_sha256: cbec185163347319d49fb53b18b0e71d6a09df29c224643c1f8cbec5c38c31bd
+content_sha256: d918fc8bfca5bdbfb7f09764b73864ce7ca0e6b0610a120b0c82f1ca0bbd082a
 ---
 
 ## § 7. BARYCENTERS
@@ -340,7 +340,7 @@ By Prop. 5 of No. 3 applied to $\mathcal{H}_r$, there exists $b \in \mathrm{Ch}_
 a) $F$ contains $\check{S}_{\mathcal{H}}(X)$.
 b) For every function $f \in \mathcal{H}$, $F$ intersects the set of points of $X$ where $|f|$ attains its supremum.
 c) For every point $x \in X$, there exists a positive measure $\mu$ of total mass 1 on $X$ such that $\mathrm{Supp}(\mu) \subset F$ and $f(x) = \int f d\mu$ for every function $f \in \mathcal{H}$.
-Let us prove the equivalence of the conditions a) and c): let $f = f_1 + i f_2$ with $f_1, f_2$ in $\mathcal{H}_r$; the relation $f(x) = \int f d\mu$ is equivalent to the two relations $f_1(x) = \int f_1 d\mu$ and $f_2(x) = \int f_2 d\mu$; it thus suffices to apply to $\mathcal{H}_r$ the equivalence of the conditions $a)$ and $c)$ of Prop. 7 of No. 3. The fact that $a)$ implies $b)$ follows from Prop. 9. Let us show that $b)$ implies $a)$; this is a matter of seeing that if $b)$ is verified, then, for every $h \in \mathcal{H}_r$, F intersects the set of points where $h$ attains its infimum in X. The condition $b)$ implies that F is nonempty; since F is compact, there exists $a \in F$ such that $h(a) \leq h(y)$ for all $y \in F$. Let $f \in \mathcal{H}$ be such that $h = \mathcal{R}(f)$; for every $\varepsilon > 0$, the function $g = f - h(a) + \varepsilon$ belongs to $\mathcal{H}$, and
+Let us prove the equivalence of the conditions a) and c): let $f = f_1 + i f_2$ with $f_1, f_2$ in $\mathcal{H}_r$; the relation $f(x) = \int f d\mu$ is equivalent to the two relations $f_1(x) = \int f_1 d\mu$ and $f_2(x) = \int f_2 d\mu$; it thus suffices to apply to $\mathcal{H}_r$ the equivalence of the conditions a) and c) of Prop. 7 of No. 3. The fact that a) implies b) follows from Prop. 9. Let us show that b) implies a); this is a matter of seeing that if b) is verified, then, for every $h \in \mathcal{H}_r$, F intersects the set of points where $h$ attains its infimum in X. The condition b) implies that F is nonempty; since F is compact, there exists $a \in F$ such that $h(a) \leq h(y)$ for all $y \in F$. Let $f \in \mathcal{H}$ be such that $h = \mathcal{R}(f)$; for every $\varepsilon > 0$, the function $g = f - h(a) + \varepsilon$ belongs to $\mathcal{H}$, and
 $$
 \mathcal{R}(g(y)) = h(y) - h(a) + \varepsilon \geq \varepsilon
 $$
@@ -457,7 +457,7 @@ $$
 \mathrm{Ch}_{\mathcal{A}}(X) = \bigcap_{M \in \mathfrak{M}} M = \bigcap_{N \in \mathfrak{N}} N.
 $$
 
-Since, in a metrizable space, every point admits a countable fundamental system of neighborhoods, the equivalence of $a)$ and $b)$ follows from Th. 2. Let us show that $b)$ implies $c)$: indeed, $a$ is the unique point where $|u|$ attains its supremum; on the other hand, $c)$ implies $a)$ because, for every $f \in \mathcal{A}$, $\mathrm{Ch}_{\mathcal{A}}(X)$ intersects the set of points where $|f|$ attains its supremum (No. 4, Prop. 9). The same reasoning, using Prop. 5 of No. 3, shows that $d)$ implies $a)$. Finally, to see that $b)$ implies $d)$, we can restrict ourselves to the case that $X$ does not reduce to the single point $a$, therefore $u(a) \neq 0$; the function $v = u/u(a)$ then belongs to $\mathcal{A}$, and we have $v(a) = 1$ and $|v(x)| < 1$ for $x \neq a$, whence $\mathcal{R}(v(a)) = 1$ and $\mathcal{R}(v(x)) < 1$ for $x \neq a$. Since the function $\mathcal{R}(v)$ attains its supremum only at the point $a$, we have indeed $a \in N$ for every $N \in \mathfrak{N}$.
+Since, in a metrizable space, every point admits a countable fundamental system of neighborhoods, the equivalence of a) and b) follows from Th. 2. Let us show that b) implies c): indeed, $a$ is the unique point where $|u|$ attains its supremum; on the other hand, c) implies a) because, for every $f \in \mathcal{A}$, $\mathrm{Ch}_{\mathcal{A}}(X)$ intersects the set of points where $|f|$ attains its supremum (No. 4, Prop. 9). The same reasoning, using Prop. 5 of No. 3, shows that d) implies a). Finally, to see that b) implies d), we can restrict ourselves to the case that $X$ does not reduce to the single point $a$, therefore $u(a) \neq 0$; the function $v = u/u(a)$ then belongs to $\mathcal{A}$, and we have $v(a) = 1$ and $|v(x)| < 1$ for $x \neq a$, whence $\mathcal{R}(v(a)) = 1$ and $\mathcal{R}(v(x)) < 1$ for $x \neq a$. Since the function $\mathcal{R}(v)$ attains its supremum only at the point $a$, we have indeed $a \in N$ for every $N \in \mathfrak{N}$.
 
 #### Example {#int-iv-s7-n5-exa-1 .statement}
 
@@ -529,7 +529,7 @@ Since $\varepsilon$ is an arbitrary number $> 0$, we have proved that $\overline
 
 Let $\mathcal{A}$ (resp. $\mathcal{A}'$) be the set of restrictions to $C$ of the continuous linear forms (resp. affine functions) on $E$. We know (TVS, II, §5, No. 4, Remark 2) that $f$ is the upper envelope of the set of elements of $\mathcal{A}$ that are $\leq f$. The set of functions of the form $\sup(f_1, \ldots, f_p)$, where $f_1, \ldots, f_p$ belong to $\mathcal{A}$, $f_1 \geq 0, \ldots, f_p \geq 0$, is an increasing directed set and has $f$ as its upper envelope. Taking into account §1, No. 1, Th. 1, it suffices to verify the equality $\lambda(f|K) = \lambda'(f|K)$ when $f$ is of the preceding form.
 
-Define $\overline{f}$ as in Lemma 5. It is clear that $\overline{f}(y) = f(y)$ if $y \in G$. Since $\lambda^*(K - (K \cap G)) = 0$, we have $\lambda(f|K) = \lambda(\overline{f}|K)$. By Lemma 6, $\overline{f}$ is affine and upper semi-continuous. Therefore $\overline{f}|K$ is the lower envelope of a decreasing directed set of restrictions of elements of $\mathcal{A}'$ to K (TVS, II, §5, No. 4, Prop. 6). Let $x \in K$ be the barycenter of $\lambda$. If $g \in \mathcal{A}$ then $\lambda(g|K) = g(x)$. Therefore $\lambda(\overline{f}|K) = \overline{f}(x)$ (\S4, No. 4, Cor. 2 of Prop. 5). Thus $\lambda(f|K) = \overline{f}(x)$, and one sees similarly that $\lambda'(f|K) = \overline{f}(x)$.
+Define $\overline{f}$ as in Lemma 5. It is clear that $\overline{f}(y) = f(y)$ if $y \in G$. Since $\lambda^*(K - (K \cap G)) = 0$, we have $\lambda(f|K) = \lambda(\overline{f}|K)$. By Lemma 6, $\overline{f}$ is affine and upper semi-continuous. Therefore $\overline{f}|K$ is the lower envelope of a decreasing directed set of restrictions of elements of $\mathcal{A}'$ to K (TVS, II, §5, No. 4, Prop. 6). Let $x \in K$ be the barycenter of $\lambda$. If $g \in \mathcal{A}$ then $\lambda(g|K) = g(x)$. Therefore $\lambda(\overline{f}|K) = \overline{f}(x)$ (§ 4, No. 4, Cor. 2 of Prop. 5). Thus $\lambda(f|K) = \overline{f}(x)$, and one sees similarly that $\lambda'(f|K) = \overline{f}(x)$.
 
 #### Corollary {#int-iv-s7-n6-cor-1 .statement}
 

@@ -8,39 +8,40 @@ section_title: Extension of the ring of scalars
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 277-284, 398-399
 pdf_pages: 0301-0308, 0422-0423
 extraction: ocr
 subsections:
     - "no": 1
       title: EXTENSION OF THE RING OF SCALARS OF A MODULE
-      page: 0
+      page: 277
       pdf_page: 301
     - "no": 2
       title: RELATIONS BETWEEN RESTRICTION AND EXTENSION OF THE RING OF SCALARS
-      page: 0
+      page: 280
       pdf_page: 304
     - "no": 3
       title: EXTENSION OF THE RING OF OPERATORS OF A HOMOMORPHISM MODULE
-      page: 0
+      page: 282
       pdf_page: 306
     - "no": 4
       title: DUAL OF A MODULE OBTAINED BY EXTENSION OF SCALARS
-      page: 0
+      page: 283
       pdf_page: 307
     - "no": 5
       title: A CRITERION FOR FINITENESS
-      page: 0
+      page: 284
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: 9dcec4379b178efb0b444af507c3865e7f1e54d30e287fb7364b2bc5107f0bd3
+content_sha256: febcd34cae06506edd112484e71c36d0c4e9ea06b4c8287244a60b89d1e7d7bd
 ---
 
 ## § 5. EXTENSION OF THE RING OF SCALARS
 
 ### 1. EXTENSION OF THE RING OF SCALARS OF A MODULE
 
-Let $A, B$ be two rings and $\rho : A \to B$ a ring homomorphism; we consider the right $A$-module $\rho^*(B_d)$ defined by this homomorphism ($\S 1$, no. 13); this $A$-module also has a left $B$-module structure, namely that of $B_s$ and, as $b'(b\rho(a)) = (b'b)\rho(a)$ for $a \in A, b, b'$ in $B$, these two module structures on $B$ are compatible ($\S 1$, no. 14). This allows us, for every left $A$-module $E$, to define a left $B$-module structure on the tensor product $\rho_*(B_d) \otimes_A E$ such that $\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ for $\beta, \beta'$ in $B$ and $x \in E$ ($\S 3$, no. 3). This left $B$-module is said to be *derived from $E$ by extending the ring of scalars to $B$ by means of $\rho$* and it is denoted by $\rho^*(E)$ or $E_{(B)}$ if no confusion arises.
+Let $A, B$ be two rings and $\rho : A \to B$ a ring homomorphism; we consider the right $A$-module $\rho^*(B_d)$ defined by this homomorphism ($§ 1$, no. 13); this $A$-module also has a left $B$-module structure, namely that of $B_s$ and, as $b'(b\rho(a)) = (b'b)\rho(a)$ for $a \in A, b, b'$ in $B$, these two module structures on $B$ are compatible ($§ 1$, no. 14). This allows us, for every left $A$-module $E$, to define a left $B$-module structure on the tensor product $\rho_*(B_d) \otimes_A E$ such that $\beta'(\beta \otimes x) = (\beta'\beta) \otimes x$ for $\beta, \beta'$ in $B$ and $x \in E$ ($§ 3$, no. 3). This left $B$-module is said to be *derived from $E$ by extending the ring of scalars to $B$ by means of $\rho$* and it is denoted by $\rho^*(E)$ or $E_{(B)}$ if no confusion arises.
 
 #### Proposition 1 {#alg-ii-s5-prop-1 .statement}
 
@@ -52,7 +53,7 @@ $B$ can be considered as a $(B, A)$-bimodule by means of $\rho$; then there is a
 $$
 \operatorname{Hom}_B(B \otimes_A E, F) \to \operatorname{Hom}_A(E, \operatorname{Hom}_B(B_s, F))
 $$
-as has been seen in $\S 4$, no. 1, Proposition 1. But the left $A$-module $\operatorname{Hom}_B(B_s, F)$ is canonically identified with $\rho^*(F)$: for, by definition ($\S 1$, no. 14), there corresponds to an element $y \in F$ the homomorphism $\theta(y) : B_s \to F$ such that $(\theta(y))(1) = y$; for all $\lambda \in A$, there thus corresponds to $\rho(\lambda)y \in F$ the homomorphism $\mu \mapsto \mu \rho(\lambda)y$ of $B_s$ into $F$, which is just $\lambda \theta(y)$ for the left $A$-module structure on $\operatorname{Hom}_B(B_s, F)$ ($\S 1$, no. 14). Using this identification, we obtain therefore a *canonical* $\mathbf{Z}$-module *isomorphism*, the inverse of (1)
+as has been seen in $§ 4$, no. 1, Proposition 1. But the left $A$-module $\operatorname{Hom}_B(B_s, F)$ is canonically identified with $\rho^*(F)$: for, by definition ($§ 1$, no. 14), there corresponds to an element $y \in F$ the homomorphism $\theta(y) : B_s \to F$ such that $(\theta(y))(1) = y$; for all $\lambda \in A$, there thus corresponds to $\rho(\lambda)y \in F$ the homomorphism $\mu \mapsto \mu \rho(\lambda)y$ of $B_s$ into $F$, which is just $\lambda \theta(y)$ for the left $A$-module structure on $\operatorname{Hom}_B(B_s, F)$ ($§ 1$, no. 14). Using this identification, we obtain therefore a *canonical* $\mathbf{Z}$-module *isomorphism*, the inverse of (1)
 
 (2)
 $$
@@ -113,7 +114,7 @@ $$
 
 The underlying $\mathbf{Z}$-modules of $\sigma^*(\rho^*(E))$ and $(\sigma \circ \rho)^*(E)$ are respectively $C \otimes_B (B \otimes_A E)$ and $C \otimes_A E$. There exists a canonical $\mathbf{Z}$-isomorphism $C \otimes_B (B \otimes_A E) \to (C \otimes_B B) \otimes_A E$ ($§ 3$, no. 8, Proposition 8), which is also a C-isomorphism for the left C-module structures on both sides. Moreover, the
 
-C-module $C \otimes_B B$ is canonically identified with the C-module $C_s$ under the isomorphism which maps $\gamma \otimes \beta$ to $\gamma \sigma(\beta)$ (\S 3, no. 4, Proposition 4) and this isomorphism is also an isomorphism for the right A-module structure on $C \otimes_B B$ defined by $\rho$ and the right A-module structure on C defined by $\sigma \circ \rho$. Thus a canonical isomorphism
+C-module $C \otimes_B B$ is canonically identified with the C-module $C_s$ under the isomorphism which maps $\gamma \otimes \beta$ to $\gamma \sigma(\beta)$ (§ 3, no. 4, Proposition 4) and this isomorphism is also an isomorphism for the right A-module structure on $C \otimes_B B$ defined by $\rho$ and the right A-module structure on C defined by $\sigma \circ \rho$. Thus a canonical isomorphism
 
 $$
 (C \otimes_B B) \otimes_A E \to C \otimes_A E
@@ -139,7 +140,7 @@ $$
 
 *mapping* $(1 \otimes x) \otimes (1 \otimes x')$ *to* $1 \otimes (x \otimes x')$ *for* $x \in E, x' \in E'$, *and this homomorphism is bijective*.
 
-The left hand side of (5) may be written $(B \otimes_A E) \otimes_B (B \otimes_A E')$ and is identified with $(E \otimes_A B) \otimes_B (B \otimes_A E')$ since A and B are commutative; the latter product is identified successively with $E \otimes_A (B \otimes_B B) \otimes_A E'$, $E \otimes_A (B \otimes_A E')$, $E \otimes_A (E' \otimes_A B)$ and finally $(E \otimes_A E') \otimes_A B$, using the associativity of the tensor product (\S 3, no. 8, Proposition 8), Proposition 4, \S 3, no. 4, and the commutativity of A and B. The desired isomorphism is the composition of the successive canonical isomorphisms.
+The left hand side of (5) may be written $(B \otimes_A E) \otimes_B (B \otimes_A E')$ and is identified with $(E \otimes_A B) \otimes_B (B \otimes_A E')$ since A and B are commutative; the latter product is identified successively with $E \otimes_A (B \otimes_B B) \otimes_A E'$, $E \otimes_A (B \otimes_A E')$, $E \otimes_A (E' \otimes_A B)$ and finally $(E \otimes_A E') \otimes_A B$, using the associativity of the tensor product (§ 3, no. 8, Proposition 8), Proposition 4, § 3, no. 4, and the commutativity of A and B. The desired isomorphism is the composition of the successive canonical isomorphisms.
 
 Clearly if S is a generating system of E, the image of S under the canonical mapping $E \to E_{(B)}$ is a generating system of $E_{(B)}$; in particular, if E is a finitely generated A-module, $E_{(B)}$ is a finitely generated B-module.
 
@@ -147,7 +148,7 @@ Clearly if S is a generating system of E, the image of S under the canonical map
 
 *Let E be an A-module admitting a basis* $(a_\lambda)_{\lambda \in L}$; *if* $\phi : x \mapsto 1 \otimes x$ *is the canonical mapping of E into* $\rho^*(E)$, *then* $(\phi(a_\lambda))_{\lambda \in L}$ *is a basis of* $\rho^*(E)$. *If* $\rho$ *is injective, so is* $\phi$.
 
-The first assertion follows immediately from \S 3, no. 7, Corollary 1 to Proposition 7. Also, for every family $(\xi_\lambda)_{\lambda \in L}$ of elements of A of finite support,
+The first assertion follows immediately from § 3, no. 7, Corollary 1 to Proposition 7. Also, for every family $(\xi_\lambda)_{\lambda \in L}$ of elements of A of finite support,
 
 $$
 \phi \left( \sum_{\lambda \in L} \xi_\lambda a_\lambda \right) = \sum_{\lambda \in L} \rho(\xi_\lambda) \phi(a_\lambda)
@@ -167,7 +168,7 @@ Remark (4). Consider the left A-module $\rho_*(B_s)$ defined by $\rho$ and for e
 $$
 \tilde{\rho}(E) = \operatorname{Hom}_A(\rho_*(B_s), E).
 $$
-As $\rho_*(B_s)$ has a right B-module structure, a left B-module structure is derived on $\tilde{\rho}(E)$ (\S 1, no. 14) such that, if $u \in \tilde{\rho}(E)$ and $b' \in B$, $b'u$ is the homomorphism $b \mapsto u(bb')$ of $\rho_*(B_s)$ into E. We further define an A-linear mapping, called canonical
+As $\rho_*(B_s)$ has a right B-module structure, a left B-module structure is derived on $\tilde{\rho}(E)$ (§ 1, no. 14) such that, if $u \in \tilde{\rho}(E)$ and $b' \in B$, $b'u$ is the homomorphism $b \mapsto u(bb')$ of $\rho_*(B_s)$ into E. We further define an A-linear mapping, called canonical
 $$
 \eta : \rho_*(\tilde{\rho}(E)) \to E
 $$
@@ -175,7 +176,7 @@ associating with every homomorphism $u \in \tilde{\rho}(E)$ the element $u(1)$ i
 $$
 \operatorname{Hom}_A(\rho_*(B_s) \otimes_B F, E) \to \operatorname{Hom}_B(F, \operatorname{Hom}_A(\rho_*(B_s), E))
 $$
-(\S 1, no. 1, Proposition 1). As the left A-module $\rho^*(B_s) \otimes_B F$ is canonically identified with $\rho_*(F)$ by virtue of § 3, no. 4, Proposition 4, we obtain a canonical $\mathbf{Z}$-module isomorphism, the inverse of the above
+(§ 1, no. 1, Proposition 1). As the left A-module $\rho^*(B_s) \otimes_B F$ is canonically identified with $\rho_*(F)$ by virtue of § 3, no. 4, Proposition 4, we obtain a canonical $\mathbf{Z}$-module isomorphism, the inverse of the above
 $$
 \operatorname{Hom}_B(F, \tilde{\rho}(E)) \to \operatorname{Hom}_A(\rho_*(F), E)
 $$
@@ -268,7 +269,7 @@ $$
 
 where $r_b$ denotes right multiplication by $b$ in $B$.
 
-Moreover, the hypothesis that $\omega$ is a *central* homomorphism implies that $(bb')\rho(a) = b\rho(a))b'$ for $b,\ b'$ in $B$ and $a \in A$; in other words the *right* $B$-module structure of $B_d$ is *compatible* with its $A$-module structure; it thus defines on $B \otimes_A \operatorname{Hom}_A(E, F)$ a *right* $B$*-module* structure (\S 3, no. 4) and also on $F_{(B)} = B \otimes_A F$, and finally, as the left and right $B$-module structures on $F_{(B)}$ are *compatible*, a *right* $B$*-module* structure is also obtained on $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (\S 1, no. 14). Then it is immediately verified that (17) is a *right* $B$*-module* homomorphism* for these structures.
+Moreover, the hypothesis that $\omega$ is a *central* homomorphism implies that $(bb')\rho(a) = b\rho(a))b'$ for $b,\ b'$ in $B$ and $a \in A$; in other words the *right* $B$-module structure of $B_d$ is *compatible* with its $A$-module structure; it thus defines on $B \otimes_A \operatorname{Hom}_A(E, F)$ a *right* $B$*-module* structure (§ 3, no. 4) and also on $F_{(B)} = B \otimes_A F$, and finally, as the left and right $B$-module structures on $F_{(B)}$ are *compatible*, a *right* $B$*-module* structure is also obtained on $\operatorname{Hom}_B(E_{(B)}, F_{(B)})$ (§ 1, no. 14). Then it is immediately verified that (17) is a *right* $B$*-module* homomorphism* for these structures.
 
 #### Proposition 7 {#alg-ii-s5-prop-7 .statement}
 
@@ -288,13 +289,13 @@ $$
 v_E : (E^*)_{(B)} \to (E_{(B)})^*.
 $$
 
-The left hand side of (19) may be written as $\mathrm{Hom}_A(E, A) \otimes_A \rho_* (B_s)$, where, in $\mathrm{Hom}_A(E, A)$, A is considered as an (A, A)-bimodule. Then there is a canonical $\mathbf{Z}$-homomorphism ($\S 4$, no. 2, formula (7))
+The left hand side of (19) may be written as $\mathrm{Hom}_A(E, A) \otimes_A \rho_* (B_s)$, where, in $\mathrm{Hom}_A(E, A)$, A is considered as an (A, A)-bimodule. Then there is a canonical $\mathbf{Z}$-homomorphism ($§ 4$, no. 2, formula (7))
 
 $$
 v : \mathrm{Hom}_A(E, A) \otimes_A \rho_* (B_s) \to \mathrm{Hom}_A(E, A \otimes_A \rho_* (B_s)) = \mathrm{Hom}_A(E, \rho_* (B_s))
 $$
 
-with the identification given by the canonical isomorphism of $\S 3$, no. 4, Proposition 4. On the other hand, the right hand side of (19) may be written as $\mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s)$; as B is a (B, A)-bimodule, there is a canonical $\mathbf{Z}$-isomorphism ($\S 4$, no. 1, Proposition 1)
+with the identification given by the canonical isomorphism of $§ 3$, no. 4, Proposition 4. On the other hand, the right hand side of (19) may be written as $\mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s)$; as B is a (B, A)-bimodule, there is a canonical $\mathbf{Z}$-isomorphism ($§ 4$, no. 1, Proposition 1)
 
 $$
 \beta : \mathrm{Hom}_B(\rho_* (B_d) \otimes_A E, B_s) \to \mathrm{Hom}_A(E, \mathrm{Hom}_B(B_s, B_s))
@@ -332,7 +333,7 @@ Suppose in particular that E is a finitely generated free A-module and let $(e_i
 
 Let B be a ring, A a subring of B and P a projective left A-module. Then, if $P_{(B)}$ is a finitely generated B-module, P is itself a finitely generated A-module.
 
-We know (\S 2, no. 6, Proposition 12) that there exists a family $(a_\lambda)_{\lambda \in L}$ of elements of P and a family $(a_\lambda^*)_{\lambda \in L}$ of elements of the dual P* such that, for all $x \in P$, the family $\langle x, a_\lambda^* \rangle$ is of finite support and $x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$. Since $P_{(B)}$ is finitely generated, there exists a finite family $(y_i)_{i \in I}$ of elements of P such that $P_{(B)}$ is generated by the elements $1 \otimes y_i$. For each index i, the family $\langle y_i, a_\lambda^* \rangle$ has finite support. Hence there exists a finite subset H of L such that $\langle y_i, a_\lambda^* \rangle = 0$ for $i \in I$ and $\lambda \notin H$. Since
+We know (§ 2, no. 6, Proposition 12) that there exists a family $(a_\lambda)_{\lambda \in L}$ of elements of P and a family $(a_\lambda^*)_{\lambda \in L}$ of elements of the dual P* such that, for all $x \in P$, the family $\langle x, a_\lambda^* \rangle$ is of finite support and $x = \sum_\lambda \langle x, a_\lambda^* \rangle a_\lambda$. Since $P_{(B)}$ is finitely generated, there exists a finite family $(y_i)_{i \in I}$ of elements of P such that $P_{(B)}$ is generated by the elements $1 \otimes y_i$. For each index i, the family $\langle y_i, a_\lambda^* \rangle$ has finite support. Hence there exists a finite subset H of L such that $\langle y_i, a_\lambda^* \rangle = 0$ for $i \in I$ and $\lambda \notin H$. Since
 $$
 \langle 1 \otimes y_i, 1 d_B \otimes a_\lambda^* \rangle = \langle y_i, a_\lambda^* \rangle,
 $$

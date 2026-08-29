@@ -42,9 +42,9 @@ subsections:
       pdf_page: 250
 statements: 32
 exercises: 9
-content_sha256: aad149359b61de88af3cc28dc33dd42f6558d7a63633d2ee038a160bc21df963
+content_sha256: 420a99a6fc5316a4998c841f02f3ae5225428ffd95bfa999c0f1d8e00fc00f3e
 translated_from: content/en/alg/V/16_s16_differential_criteria_of_separability.md
-source_content_sha256: 9700b50da74a6fb09292a3200d612cf177fbdfc53c16974c386fb84910fa7680
+source_content_sha256: 7f15228bbbd0bb154811166b008cebe85fd5d06f7bc8e0339624a70cc910a47b
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-ff6e7523
 glossary_version: 34
@@ -137,9 +137,9 @@ a) Mọi $K$-đạo hàm của $L$ vào $V$ đều là không.
 
 b) Nếu $A$ là một đạo hàm của $K$ vào $V$, tồn tại duy nhất một đạo hàm $D$ của $L$ vào $V$ mở rộng $A$.
 
-Cho $D$ là một $K$-đạo hàm của $L$ vào $V$. Nếu $E$ là một mở rộng con của $L$ có bậc hữu hạn trên $K$, thì $K$-đại số $E$ là étale, và do đó $\Omega_K(E) = 0$ ($V$, p. 33, Th. 3), do đó $D|_E = 0$ theo tính chất phổ quát của $\Omega_K(E)$ (III, p. 569). Vì $L$ là hợp của một họ các mở rộng con có bậc hữu hạn trên $K$, ta có $D = 0$, do đó $a)$.
+Cho $D$ là một $K$-đạo hàm của $L$ vào $V$. Nếu $E$ là một mở rộng con của $L$ có bậc hữu hạn trên $K$, thì $K$-đại số $E$ là étale, và do đó $\Omega_K(E) = 0$ ($V$, p. 33, Th. 3), do đó $D|_E = 0$ theo tính chất phổ quát của $\Omega_K(E)$ (III, p. 569). Vì $L$ là hợp của một họ các mở rộng con có bậc hữu hạn trên $K$, ta có $D = 0$, do đó a).
 
-Cho $A$ là một đạo hàm của $K$ vào $V$. Nếu $D'$ và $D''$ là hai mở rộng của $A$ thành một đạo hàm của $L$ vào $V$, thì hiệu $D' - D''$ là một $K$-đạo hàm của $L$ vào $V$; do đó nó bằng không theo $a)$ và suy ra $D' = D''$.
+Cho $A$ là một đạo hàm của $K$ vào $V$. Nếu $D'$ và $D''$ là hai mở rộng của $A$ thành một đạo hàm của $L$ vào $V$, thì hiệu $D' - D''$ là một $K$-đạo hàm của $L$ vào $V$; do đó nó bằng không theo a) và suy ra $D' = D''$.
 
 Còn phải chứng minh sự tồn tại của một mở rộng của $A$. Bổ đề Zorn (E, III, p. 20) suy ra sự tồn tại của một mở rộng cực đại $D_0$ của $A$ thành một đạo hàm xác định trên một trường con $L_0$ của $L$ chứa $K$.
 
@@ -306,11 +306,11 @@ $$
 
 Vì $L$ là một mở rộng sinh hữu hạn của $K$, Công thức (5) và Hệ quả của $V$, p. 111 cho thấy chỉ cần xét trường hợp tồn tại $x$ sao cho $L = K(x)$; hơn nữa, nếu $x$ là đại số trên $K$, tồn tại một lũy thừa $q$ của số mũ đặc số của $L$ sao cho $x^q$ là đại số tách được trên $K$ ($V$, p. 44, Mệnh đề 13). Do đó chỉ cần chứng minh đẳng thức $d(L/K) = \operatorname{tr} . \deg_K L$ trong ba trường hợp đặc biệt dưới đây:
 
-$a)$ $x$ là siêu việt trên $K$: khi đó $a$ là đơn ánh và đối hạt nhân của nó có hạng 1 trên $L$ ($V$, p. 129, Cor.) ; do đó $d(L/K) = 1$ và cũng $\operatorname{tr} . \deg_K L = 1$.
+a) $x$ là siêu việt trên $K$: khi đó $a$ là đơn ánh và đối hạt nhân của nó có hạng 1 trên $L$ ($V$, p. 129, Cor.) ; do đó $d(L/K) = 1$ và cũng $\operatorname{tr} . \deg_K L = 1$.
 
-$b)$ $x$ là đại số tách được trên $K$: khi đó $a$ là song ánh ($V$, p. 130, Cor. 2), do đó $d(L/K) = 0$; rõ ràng cũng $\operatorname{tr} . \deg_K L = 0$.
+b) $x$ là đại số tách được trên $K$: khi đó $a$ là song ánh ($V$, p. 130, Cor. 2), do đó $d(L/K) = 0$; rõ ràng cũng $\operatorname{tr} . \deg_K L = 0$.
 
-$c)$ *Trường $L$ có đặc số $p \neq 0$, $x \notin K$ và $x^p = a$ thuộc $K$*: đối hạt nhân $C$ của $a$ đẳng cấu với $\Omega_K(L)$, và vì $\{ x \}$ là một $p$-cơ sở của $L$ trên $K$, không gian $C$ có chiều 1 trên $L$ ($V$, p. 102, Đl. 1). Vì $a$ là một lũy thừa $p$-th trong $L$, ta có $d_{L/pa} = 0$ và hạt nhân của $a$ chứa không gian con $R$ của $U = \Omega_p(K) \otimes_K L$ sinh bởi $d_{K/pa} \otimes 1$. Với mỗi $y \in K$ cho $\Delta(y)$ là lớp thặng dư của $d_{K/p}y \otimes 1$ mod $R$; khi đó $A$ là một $P$-đạo hàm của $K$ vào $U/R$ sao cho $\Delta(a) = 0$. Mệnh đề 5 ($V$, p. 101) chỉ ra rằng $A$ mở rộng thành một $P$-đạo hàm $D$ của $L$ vào $U/R$. Do đó tồn tại một ánh xạ tuyến tính $L$ $\beta : \Omega_p(L) \to U/R$ sao cho $D = \beta \circ d_{L/P}$ và $\beta \circ a$ là ánh xạ chính tắc của $U$ lên $U/R$. Điều này chứng minh rằng $R$ là hạt nhân của $a$. Vì $P$ hoàn hảo, ta có $P(K^P) = K^p$, do đó $a \notin P(K^P)$ và cuối cùng $d_{K/pa} \neq 0$ ($V$, p. 103, Mệnh đề 6). Hạt nhân và đối hạt nhân của $a$ do đó có chiều 1, do đó $d(L/K) = 0$, và ta cũng có $\operatorname{tr} . \deg_K L = 0$.
+c) *Trường $L$ có đặc số $p \neq 0$, $x \notin K$ và $x^p = a$ thuộc $K$*: đối hạt nhân $C$ của $a$ đẳng cấu với $\Omega_K(L)$, và vì $\{ x \}$ là một $p$-cơ sở của $L$ trên $K$, không gian $C$ có chiều 1 trên $L$ ($V$, p. 102, Đl. 1). Vì $a$ là một lũy thừa $p$-th trong $L$, ta có $d_{L/pa} = 0$ và hạt nhân của $a$ chứa không gian con $R$ của $U = \Omega_p(K) \otimes_K L$ sinh bởi $d_{K/pa} \otimes 1$. Với mỗi $y \in K$ cho $\Delta(y)$ là lớp thặng dư của $d_{K/p}y \otimes 1$ mod $R$; khi đó $A$ là một $P$-đạo hàm của $K$ vào $U/R$ sao cho $\Delta(a) = 0$. Mệnh đề 5 ($V$, p. 101) chỉ ra rằng $A$ mở rộng thành một $P$-đạo hàm $D$ của $L$ vào $U/R$. Do đó tồn tại một ánh xạ tuyến tính $L$ $\beta : \Omega_p(L) \to U/R$ sao cho $D = \beta \circ d_{L/P}$ và $\beta \circ a$ là ánh xạ chính tắc của $U$ lên $U/R$. Điều này chứng minh rằng $R$ là hạt nhân của $a$. Vì $P$ hoàn hảo, ta có $P(K^P) = K^p$, do đó $a \notin P(K^P)$ và cuối cùng $d_{K/pa} \neq 0$ ($V$, p. 103, Mệnh đề 6). Hạt nhân và đối hạt nhân của $a$ do đó có chiều 1, do đó $d(L/K) = 0$, và ta cũng có $\operatorname{tr} . \deg_K L = 0$.
 
 #### Hệ quả 1 {#alg-v-s16-thm-4-cor-1 .statement}
 

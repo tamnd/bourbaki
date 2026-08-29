@@ -36,7 +36,7 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: b099f45ab79d6a87dd633788b15801b9ec85477d80a3c4fc4267f343f00718ba
+content_sha256: 53d9a6c6d16fec228a219b9d179e95bab1a2ba49b45ee6d650a09b758196d514
 ---
 
 ## 3. REAL PROJECTIVE SPACES
@@ -81,7 +81,7 @@ The projective space $P_n$ is Hausdorff.
 
 We start by showing that the relation $\Delta_n$ is open (Chapter I, § 5, no. 2). Let $A$ be an open set in $\mathbf{R}_{n+1}^*$; to saturate $A$ with respect to $\Delta_n$ we have to take the union of the sets $tA$ homothetic to $A$, as $t$ runs through the set of real numbers $\neq 0$; since each of these sets is open, so is their union.
 
-By Proposition 8 of Chapter I, § 8, no. 3, the proposition will be proved if we show that the subset $M$ of $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ defined by the relation $\Delta_n$ is closed. Let then $(x, y)$ be a point of $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ lying in the closure of $M$. If $x = (x_i)$, there is an index $i$ such that $x_i \neq 0$; hence there is a neighbourhood $V$ of $(x, y)$ such that for every point $(x', y') \in M \cap V$ the ith coordinate $x'_i$ of $x'$ is not 0. As $(x', y')$ tends to $(x, y)$ while remaining in $M$, $y'_i x'^{-1}_i$ tends to $t = y_i x_i^{-1}$; since $y' = (y'_i x'^{-1}_i) x'$, we see by passing to the limit that $y = x$, which shows that $(x, y) \in M$.
+By Proposition 8 of Chapter I, § 8, no. 3, the proposition will be proved if we show that the subset $M$ of $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ defined by the relation $\Delta_n$ is closed. Let then $(x, y)$ be a point of $\mathbf{R}_{n+1}^* \times \mathbf{R}_{n+1}^*$ lying in the closure of $M$. If $x = (x_i)$, there is an index $i$ such that $x_i \neq 0$; hence there is a neighbourhood $V$ of $(x, y)$ such that for every point $(x', y') \in M \cap V$ the ith coordinate $x'_i$ of $x'$ is not 0. As $(x', y')$ tends to $(x, y)$ while remaining in $M$, $y'_i {x'}^{-1}_i$ tends to $t = y_i x_i^{-1}$; since $y' = (y'_i {x'}^{-1}_i) x'$, we see by passing to the limit that $y = x$, which shows that $(x, y) \in M$.
 
 #### Proposition 2 {#top-vi-s3-prop-2 .statement}
 

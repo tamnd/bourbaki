@@ -8,44 +8,45 @@ section_title: Identity element; cancellable elements; invertible elements
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 12-24, 126-129
 pdf_pages: 0036-0048, 0150-0153
 extraction: ocr
 subsections:
     - "no": 1
       title: IDENTITY ELEMENT
-      page: 0
+      page: 12
       pdf_page: 36
     - "no": 2
       title: CANCELABLE ELEMENTS
-      page: 0
+      page: 14
       pdf_page: 38
     - "no": 3
       title: INVERTIBLE ELEMENTS
-      page: 0
+      page: 15
       pdf_page: 39
     - "no": 4
       title: MONOID OF FRACTIONS OF A COMMUTATIVE MONOID
-      page: 0
+      page: 17
       pdf_page: 41
     - "no": 5
       title: 'APPLICATIONS: I. RATIONAL INTEGERS'
-      page: 0
+      page: 20
       pdf_page: 44
     - "no": 6
       title: 'APPLICATIONS: II. MULTIPLICATION OF RATIONAL INTEGERS'
-      page: 0
+      page: 22
       pdf_page: 46
     - "no": 7
       title: 'APPLICATIONS: III. GENERALIZED POWERS'
-      page: 0
+      page: 23
       pdf_page: 47
     - "no": 8
       title: NOTATION
-      page: 0
+      page: 23
       pdf_page: 47
 statements: 25
 exercises: 17
-content_sha256: cc62dde4f620501b1c1bf68a6fda4a9cfec608416078d5f1a3f2dd2034f84283
+content_sha256: 14262eeea309ef0eeb9e6269c13480b3d9f7d00e819290b8524e10ac95ff8282
 ---
 
 ## § 2. IDENTITY ELEMENT; CANCELLABLE ELEMENTS; INVERTIBLE ELEMENTS
@@ -72,7 +73,7 @@ If $E, E'$ are monoids, a unital morphism of $E$ into $E'$ is called a monoid ho
 
 (3) The set $\mathbf{N}$ has no identity element under the law $(x, y) \mapsto x^y$. Under the law $(X, Y) \mapsto X \circ Y$ between subsets of $E \times E$ the diagonal $\Delta$ is the identity element. Under the law $(f, g) \mapsto f \circ g$ between mappings of $E$ into $E$ the identity mapping of $E$ onto $E$ is the identity element.
 
-(4) Let $E$ be a magma and $R$ an equivalence relation on $E$ compatible with the law on $E$ (\S 1, no. 6). If $e$ is an identity element of $E$ the canonical image of $e$ in $E/R$ is an identity element of the magma $E/R$.
+(4) Let $E$ be a magma and $R$ an equivalence relation on $E$ compatible with the law on $E$ (§ 1, no. 6). If $e$ is an identity element of $E$ the canonical image of $e$ in $E/R$ is an identity element of the magma $E/R$.
 
 The identity element of a unital magma is a unital homomorphism; the composition of two unital homomorphisms is also one. For a mapping to be a unital magma isomorphism it is necessary and sufficient that it be a bijective unital homomorphism and the inverse mapping is then a unital homomorphism. Let $E$ and $E'$ be unital magmas and $e'$ the identity element of $E'$; the constant mapping of $E$ into $E'$ mapping $E$ to $e'$ is a unital homomorphism, called a trivial homomorphism.
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 441
 statements: 16
 exercises: 12
-content_sha256: 6c7c7d84bc3a47a89cf864e928daf459d8ae1ed8bb404a27eaa408e6c0c22b3a
+content_sha256: 8879ed2dcbac290dcceecb297da3c70b77ffea9c231d05f50a9508eb784557f9
 ---
 
 ## § 3. DISINTEGRATION OF MEASURES
@@ -56,13 +56,13 @@ This lemma is none other than the Cor. to Th. 1 of GT, X, §3, No. 3. One may ob
 
 #### Lemma 3 {#int-vi-s3-lem-3 .statement}
 
-— *Let T and X be two locally compact spaces with countable bases, $\mu$ a positive measure on T, and $t \mapsto \lambda_t$ ($t \in T$) a family of positive measures on X. If the mapping $t \mapsto \lambda_t$ is scalarly $\mu$-integrable (for the topology $\sigma(\mathcal{M}(X), \mathcal{K}(X))$), then the family $t \mapsto \lambda_t$ is $\mu$-adequate ($\S 1$, No. 1, Example).*
+— *Let T and X be two locally compact spaces with countable bases, $\mu$ a positive measure on T, and $t \mapsto \lambda_t$ ($t \in T$) a family of positive measures on X. If the mapping $t \mapsto \lambda_t$ is scalarly $\mu$-integrable (for the topology $\sigma(\mathcal{M}(X), \mathcal{K}(X))$), then the family $t \mapsto \lambda_t$ is $\mu$-adequate ($§ 1$, No. 1, Example).*
 
-For, Lemma 1, applied to $\mathcal{K}(X)$, shows that the mapping $t \mapsto \lambda_t$ is vaguely $\mu$-measurable ($\S 1$, No. 5, Prop. 13).
+For, Lemma 1, applied to $\mathcal{K}(X)$, shows that the mapping $t \mapsto \lambda_t$ is vaguely $\mu$-measurable ($§ 1$, No. 5, Prop. 13).
 
 #### Theorem 1 {#int-vi-s3-thm-1 .statement}
 
-*Let T and B be two locally compact spaces having countable bases, $\mu$ a positive measure on T, p a $\mu$-proper mapping (Ch. V, §6, No. 1, Def. 1) of T into B, and $\nu = p(\mu)$ the image of $\mu$ under p. Then there exists a $\nu$-adequate family ($\S 1$, No. 1, Example) $b \mapsto \lambda_b$ ($b \in B$) of positive measures on T, having the following properties:
+*Let T and B be two locally compact spaces having countable bases, $\mu$ a positive measure on T, p a $\mu$-proper mapping (Ch. V, §6, No. 1, Def. 1) of T into B, and $\nu = p(\mu)$ the image of $\mu$ under p. Then there exists a $\nu$-adequate family ($§ 1$, No. 1, Example) $b \mapsto \lambda_b$ ($b \in B$) of positive measures on T, having the following properties:
 
 a) $\| \lambda_b \| = 1$ for all $b \in p(T)$;
 

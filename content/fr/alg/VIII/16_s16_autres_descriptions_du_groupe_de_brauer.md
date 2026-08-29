@@ -57,7 +57,7 @@ subsections:
       pdf_page: 320
 statements: 63
 exercises: 17
-content_sha256: d982aaf523b269b44f69cd491d7be5c7536f9d0e2bf050fd031f7f3a9758e911
+content_sha256: bd333af79292fbdeebec020e3b1d204bf66a1c4ced4dce293767fc48a256c721
 ---
 
 ## § 16. AUTRES DESCRIPTIONS DU GROUPE DE BRAUER
@@ -122,7 +122,7 @@ pour $g_1\in G_1,g_2\in G_2,f_1\in F_1$ et $f_2\in F_2$. Soient $\mathscr{E}_1= 
 
 Soient $G$ et $G'$ des groupes. Soit $F$ un groupe abélien, soit $\tau : G \to \operatorname{Aut}(F)$ un homomorphisme de groupes et soit $u : G' \to G$ un homomorphisme de groupes. Considérons l’homomorphisme de groupes $\tau' = \tau \circ u : G' \to \operatorname{Aut}(F)$ et notons $\Gamma'$ le produit fibré $\Gamma \times_G G'$ relativement à $\pi$ et $u$ (I, p. 44). C’est le sous-groupe de $\Gamma \times G'$ formé des couples $(\gamma, g')$ tels que $\pi(\gamma) = u(g')$. Soit $\iota' : F \to \Gamma'$ l’homomorphisme de groupes donné par $\iota'(\alpha) = (\iota(\alpha), e)$ pour $\alpha \in F$ et notons $\pi' : \Gamma' \to G'$ la seconde projection. Alors le morphisme $\iota'$ est injectif, le morphisme $\pi'$ est surjectif puisque $\pi$ l’est et l’image de $\iota'$ coïncide avec le noyau de $\pi'$. En outre, pour tout $\alpha \in F$ et tout $\gamma' = (\gamma, g) \in \Gamma'$, on a les relations
 $$
-\gamma' \iota'(\alpha) \gamma'^{-1} = (\gamma, g)(\iota(\alpha), e)(\gamma, g)^{-1} = (\iota(\tau(\pi(\gamma)).\alpha), e) = \iota'(\tau'(\pi'(\gamma')).\alpha).
+\gamma' \iota'(\alpha) {\gamma'}^{-1} = (\gamma, g)(\iota(\alpha), e)(\gamma, g)^{-1} = (\iota(\tau(\pi(\gamma)).\alpha), e) = \iota'(\tau'(\pi'(\gamma')).\alpha).
 $$
 Par conséquent, $(\Gamma', \iota', \pi')$ est une $\tau'$-extension de $G'$ par $F$ qu’on appelle l’image inverse par $u$ de $\mathscr{E}$ et qu’on note $u^*(\mathscr{E})$. La première projection est un homomorphisme de groupes $\varphi : \Gamma' \to \Gamma$ qui sera dit canonique.
 
@@ -199,7 +199,7 @@ La classe de la $\tau'$-extension $u^*(\mathcal{E})$ ne dépend donc que de la c
 
 #### Corollaire 2 {#alg-viii-s16-lem-2-cor-2 .statement tag=00IF}
 
-Soit $u' : G'' \to G'$ un homomorphisme de groupes et soit $\mathcal{E}$ une $\tau$-extension de $G$ par $F$. Posons $\tau'' = \tau' \circ u'$ et notons $\varphi$ (resp. $\varphi', \varphi''$) l’homomorphisme canonique associé à la $\tau'$-extension $u^*(\mathcal{E})$ (resp. la $\tau''$-extension $u'^*(u^*(\mathcal{E}))$), la $\tau''$-extension $(u \circ u')^*(\mathcal{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau''$-extension $u'^*(u^*(\mathcal{E}))$ dans la $\tau''$-extension $(u \circ u')^*(\mathcal{E})$ telle que $\varphi'' \circ \psi = \varphi \circ \varphi'$.
+Soit $u' : G'' \to G'$ un homomorphisme de groupes et soit $\mathcal{E}$ une $\tau$-extension de $G$ par $F$. Posons $\tau'' = \tau' \circ u'$ et notons $\varphi$ (resp. $\varphi', \varphi''$) l’homomorphisme canonique associé à la $\tau'$-extension $u^*(\mathcal{E})$ (resp. la $\tau''$-extension ${u'}^*(u^*(\mathcal{E}))$), la $\tau''$-extension $(u \circ u')^*(\mathcal{E})$). Alors il existe un unique morphisme $\psi$ de la $\tau''$-extension ${u'}^*(u^*(\mathcal{E}))$ dans la $\tau''$-extension $(u \circ u')^*(\mathcal{E})$ telle que $\varphi'' \circ \psi = \varphi \circ \varphi'$.
 
 #### Exemple {#alg-viii-s16-n2-exa-1 .statement tag=00RI}
 

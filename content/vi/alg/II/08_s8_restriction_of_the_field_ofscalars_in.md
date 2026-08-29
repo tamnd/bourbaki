@@ -41,9 +41,9 @@ subsections:
       pdf_page: 347
 statements: 17
 exercises: 5
-content_sha256: 0e4ae44b7f3e7d9b859e7a0d292bb11fd8c270f37269662521f4ae62855075ff
+content_sha256: 96945e45659c7d3584c3c69c30a2e33eb6c072c9c7d082f5d1af33b5ee0ae145
 translated_from: content/en/alg/II/08_s8_restriction_of_the_field_ofscalars_in.md
-source_content_sha256: 01bfd2dfe388d2aeb996e17989a04bf2d0aed7b51ba6a6c2389583c785d4ba8c
+source_content_sha256: 6810d0ad2d7a1ac57e96581b1b317b077f67da34f1fea1aceace9aa72bc903be
 translation_model: gpt-5.4-mini, gpt-5-mini
 translation_run: translate-vi-2f9cd8fa
 glossary_version: 34
@@ -71,11 +71,11 @@ Cho V là một không gian vectơ phải trên K và V' là một tập con c�
 
 (e) Không gian K-vectơ V được sinh bởi V' và mọi tập con của V' tự do trên K' đều tự do trên K.
 
-Ta biết (\S 5, no. 1) rằng $V'_{(K)}$ có một cấu trúc không gian vectơ phải trên K theo đó $(x' \otimes \xi)\eta = x' \otimes (\xi\eta)$ ($\xi, \eta$ in K, $x' \in V'$) và rằng với mọi ánh xạ K'-tuyến tính $f'$ của V' vào một không gian K-vectơ W, tồn tại một và chỉ một ánh xạ K-tuyến tính $\bar{f}'$ của $V'_{(K)}$ vào W sao cho $\bar{f}'(x' \otimes 1) = f'(x')$ với $x' \in V'$. Nếu j là đơn ánh chính tắc của V' vào V, thì $\lambda$ chỉ là ánh xạ K-tuyến tính tương ứng $\bar{j}$. Nếu $\lambda$ là song ánh, thì với mọi ánh xạ K'-tuyến tính $f': V' \to W$, $\bar{f}' \circ \lambda^{-1}$ là ánh xạ K-tuyến tính duy nhất của V vào W kéo dài $f'$; nói cách khác, (a) suy ra (b). Ngược lại, nếu (b) đúng, thì đặc biệt tồn tại một ánh xạ K-tuyến tính $\mu$ của V vào $V'_{(K)}$ sao cho $\mu(x') = x' \otimes 1$ với mọi $x' \in V'$; rõ ràng $\mu \circ \lambda = 1_{V'_{(K)}}$; mặt khác, $\lambda(\mu(x')) = x'$ với mọi $x' \in V'$ và, vì theo giả thiết $j: V' \to V$ có thể được kéo dài duy nhất thành một tự đồng cấu của V, tất yếu $\lambda \circ \mu = 1_V$, điều đó hoàn tất chứng minh rằng (a) và (b) là tương đương.
+Ta biết (§ 5, no. 1) rằng $V'_{(K)}$ có một cấu trúc không gian vectơ phải trên K theo đó $(x' \otimes \xi)\eta = x' \otimes (\xi\eta)$ ($\xi, \eta$ in K, $x' \in V'$) và rằng với mọi ánh xạ K'-tuyến tính $f'$ của V' vào một không gian K-vectơ W, tồn tại một và chỉ một ánh xạ K-tuyến tính $\bar{f}'$ của $V'_{(K)}$ vào W sao cho $\bar{f}'(x' \otimes 1) = f'(x')$ với $x' \in V'$. Nếu j là đơn ánh chính tắc của V' vào V, thì $\lambda$ chỉ là ánh xạ K-tuyến tính tương ứng $\bar{j}$. Nếu $\lambda$ là song ánh, thì với mọi ánh xạ K'-tuyến tính $f': V' \to W$, $\bar{f}' \circ \lambda^{-1}$ là ánh xạ K-tuyến tính duy nhất của V vào W kéo dài $f'$; nói cách khác, (a) suy ra (b). Ngược lại, nếu (b) đúng, thì đặc biệt tồn tại một ánh xạ K-tuyến tính $\mu$ của V vào $V'_{(K)}$ sao cho $\mu(x') = x' \otimes 1$ với mọi $x' \in V'$; rõ ràng $\mu \circ \lambda = 1_{V'_{(K)}}$; mặt khác, $\lambda(\mu(x')) = x'$ với mọi $x' \in V'$ và, vì theo giả thiết $j: V' \to V$ có thể được kéo dài duy nhất thành một tự đồng cấu của V, tất yếu $\lambda \circ \mu = 1_V$, điều đó hoàn tất chứng minh rằng (a) và (b) là tương đương.
 
-Với mọi cơ sở B' của V' trên K', tập B gồm các phần tử $v' \otimes 1$ của $V'_{(K)}$, trong đó $v'$ chạy qua B', là một cơ sở của $V'_{(K)}$ trên K (\S 5, no. 1, Mệnh đề 4) và $\lambda(B) = B'$. Để $\lambda$ là song ánh, điều cần thiết là ảnh của mọi cơ sở của $V'_{(K)}$ qua $\lambda$ phải là một cơ sở của V trên K, và đủ là chỉ cần đúng với một cơ sở của $V'_{(K)}$ (\S 1, no. 11, Hệ quả 2 của Mệnh đề 17). Điều này chứng minh (a), (c) và (d) là tương đương.
+Với mọi cơ sở B' của V' trên K', tập B gồm các phần tử $v' \otimes 1$ của $V'_{(K)}$, trong đó $v'$ chạy qua B', là một cơ sở của $V'_{(K)}$ trên K (§ 5, no. 1, Mệnh đề 4) và $\lambda(B) = B'$. Để $\lambda$ là song ánh, điều cần thiết là ảnh của mọi cơ sở của $V'_{(K)}$ qua $\lambda$ phải là một cơ sở của V trên K, và đủ là chỉ cần đúng với một cơ sở của $V'_{(K)}$ (§ 1, no. 11, Hệ quả 2 của Mệnh đề 17). Điều này chứng minh (a), (c) và (d) là tương đương.
 
-Vì mọi tập con của V' tự do trên K' đều được chứa trong một cơ sở của V' trên K' (\S 7, no. 1, Định lý 2), nên (c) suy ra (e). Cuối cùng, giả sử rằng (e) đúng; nếu B' là một cơ sở của V' trên K', thì nó là một tập con tự do của V trên K; mặt khác B' sinh V' trên K' và do đó sinh V trên K theo giả thiết; vì vậy B' là một cơ sở của V trên K, điều đó chứng minh rằng (e) suy ra (c).
+Vì mọi tập con của V' tự do trên K' đều được chứa trong một cơ sở của V' trên K' (§ 7, no. 1, Định lý 2), nên (c) suy ra (e). Cuối cùng, giả sử rằng (e) đúng; nếu B' là một cơ sở của V' trên K', thì nó là một tập con tự do của V trên K; mặt khác B' sinh V' trên K' và do đó sinh V trên K theo giả thiết; vì vậy B' là một cơ sở của V trên K, điều đó chứng minh rằng (e) suy ra (c).
 
 #### Định nghĩa 1 {#alg-ii-s8-def-1 .statement}
 
@@ -107,7 +107,7 @@ Rõ ràng song ánh $\lambda^{-1}: V \to V' \otimes_{\mathbf{K'}} \mathbf{K}$, n
 
 *Mọi tổng và mọi giao của các không gian con K-vectơ của V hữu tỉ trên K' đều là một không gian con hữu tỉ trên K'*
 
-Mệnh đề về các tổng là hiển nhiên. Mặt khác, nếu $(W'_i)_{i \in I}$ là một họ các không gian con vectơ-$\mathbf{K}'$ của $V'$, thì $\left( \bigcap_{i \in I} W'_i \right) \otimes_{\mathbf{K}'} \mathbf{K} = \bigcap_{i \in I} (W_i \otimes_{\mathbf{K}'} \mathbf{K})$ (\S 7, no. 7, Hệ quả của Mệnh đề 14), do đó chứng minh hệ quả.
+Mệnh đề về các tổng là hiển nhiên. Mặt khác, nếu $(W'_i)_{i \in I}$ là một họ các không gian con vectơ-$\mathbf{K}'$ của $V'$, thì $\left( \bigcap_{i \in I} W'_i \right) \otimes_{\mathbf{K}'} \mathbf{K} = \bigcap_{i \in I} (W_i \otimes_{\mathbf{K}'} \mathbf{K})$ (§ 7, no. 7, Hệ quả của Mệnh đề 14), do đó chứng minh hệ quả.
 
 Một cơ sở $B$ của $V$ trên $\mathbf{K}$ được gọi là *hữu tỉ trên $\mathbf{K}'$* nếu nó gồm các vectơ hữu tỉ trên $\mathbf{K}'$.
 
@@ -139,7 +139,7 @@ $$
 
 (i) Rõ ràng với các nhận dạng ở trên, nếu $f' : V'_1 \to V'_2$ là một ánh xạ tuyến tính $\mathbf{K}'$, $f'_{(\mathbf{K})} = f' \otimes 1_{\mathbf{K}}$ là hữu tỉ trên $\mathbf{K}'$ và $f'$ là ánh xạ có cùng đồ thị với hạn chế của $f'_{(\mathbf{K})}$ lên $V'_1$. Ngược lại, nếu $f : V_1 \to V_2$ là một ánh xạ tuyến tính $\mathbf{K}$ hữu tỉ trên $\mathbf{K}'$ và $f' : V'_1 \to V'_2$ có cùng đồ thị với hạn chế của $f$ lên $V'_1$, $f$ và $f'_{(\mathbf{K})}$ trùng nhau trên $V'_1$, mà đây là một hệ sinh của $V_1$ trên $\mathbf{K}$, do đó $f = f'_{(\mathbf{K})}$.
 
-(ii) Nếu $f = f' \otimes 1_{\mathbf{K}}$, thì $f(V_1) = f(V'_1 \otimes_{\mathbf{K}'} \mathbf{K}) = f'(V'_1) \otimes_{\mathbf{K}'} \mathbf{K}$ và, vì $f'(V'_1) \subset V'_2, f(V'_1) = f'(V'_1) \cap V'_2$ (\S 7, no. 9, Mệnh đề 19); công thức $f^{-1}(V'_2) = V'_1 + \mathrm{Ker}(f)$ suy ra ngay lập tức.
+(ii) Nếu $f = f' \otimes 1_{\mathbf{K}}$, thì $f(V_1) = f(V'_1 \otimes_{\mathbf{K}'} \mathbf{K}) = f'(V'_1) \otimes_{\mathbf{K}'} \mathbf{K}$ và, vì $f'(V'_1) \subset V'_2, f(V'_1) = f'(V'_1) \cap V'_2$ (§ 7, no. 9, Mệnh đề 19); công thức $f^{-1}(V'_2) = V'_1 + \mathrm{Ker}(f)$ suy ra ngay lập tức.
 
 #### Hệ quả 1 {#alg-ii-s8-prop-3-cor-1 .statement}
 
@@ -177,11 +177,11 @@ Cho $V$ là một không gian vectơ phải trên $\mathbf{K}$ với một $\mat
 
 (I) $$ {V'}^* \xrightarrow{\phi} K \otimes_{K'} {V'}^* \xrightarrow{\upsilon} V^* $$
 
-trong đó $\phi({x'}^*) = 1 \otimes {x'}^*$ và $\upsilon(\xi \otimes {x'}^*)$ là dạng tuyến tính $y^*$ trên V sao cho $y^*(x') = \xi \langle {x'}^*, x' \rangle$ với mọi $x' \in V'$ (\S 5, no. 4). Ta biết rằng ánh xạ này là đơn ánh (\S 7, no. 9, Mệnh đề 20 và 19) và rõ ràng $R'$ là một không gian con vectơ trái trên $K'$ của $V^*$; hơn nữa mọi tập con của $R'$ tự do trên $K'$ đều tự do trên $K$. Nhưng nói chung $R'$ không nhất thiết sinh $V^*$ trên $K$ và do đó không xác định một $\mathbf{K}'$-cấu trúc trên $V^*$ (Bài tập 2). Tuy nhiên, nếu V có số chiều hữu hạn n trên K, thì ${V'}^*$ có chiều n trên $K'$ và khi đó $R'$ xác định một cách chính tắc một $\mathbf{K}'$-cấu trúc trên $V^*$.
+trong đó $\phi({x'}^*) = 1 \otimes {x'}^*$ và $\upsilon(\xi \otimes {x'}^*)$ là dạng tuyến tính $y^*$ trên V sao cho $y^*(x') = \xi \langle {x'}^*, x' \rangle$ với mọi $x' \in V'$ (§ 5, no. 4). Ta biết rằng ánh xạ này là đơn ánh (§ 7, no. 9, Mệnh đề 20 và 19) và rõ ràng $R'$ là một không gian con vectơ trái trên $K'$ của $V^*$; hơn nữa mọi tập con của $R'$ tự do trên $K'$ đều tự do trên $K$. Nhưng nói chung $R'$ không nhất thiết sinh $V^*$ trên $K$ và do đó không xác định một $\mathbf{K}'$-cấu trúc trên $V^*$ (Bài tập 2). Tuy nhiên, nếu V có số chiều hữu hạn n trên K, thì ${V'}^*$ có chiều n trên $K'$ và khi đó $R'$ xác định một cách chính tắc một $\mathbf{K}'$-cấu trúc trên $V^*$.
 
 #### Mệnh đề 5 {#alg-ii-s8-prop-5 .statement}
 
-Cho V là một không gian vectơ phải trên K, V' một $\mathbf{K}'$-cấu trúc trên V và W là một không gian con $K$-vectơ của V. Để W hữu tỉ trên $K'$, điều kiện cần và đủ là tồn tại một tập $H \subset V^*$ gồm các dạng tuyến tính hữu tỉ trên $K'$ sao cho W là trực giao của H trong V (\S 2, no. 4).
+Cho V là một không gian vectơ phải trên K, V' một $\mathbf{K}'$-cấu trúc trên V và W là một không gian con $K$-vectơ của V. Để W hữu tỉ trên $K'$, điều kiện cần và đủ là tồn tại một tập $H \subset V^*$ gồm các dạng tuyến tính hữu tỉ trên $K'$ sao cho W là trực giao của H trong V (§ 2, no. 4).
 
 Cho H là một tập con của $V^*$ mà các phần tử của nó là các dạng tuyến tính hữu tỉ trên $K'$. Với mọi $x^* \in H$, hạt nhân của $x^*$ là một không gian con $K$-vectơ của V, hữu tỉ trên $K'$ (no. 3, Hệ quả 2 của Mệnh đề 3); do đó giao của các hạt nhân này cũng là một không gian con $K$-vectơ của V, hữu tỉ trên $K'$ (no. 2, Hệ quả 1 của Mệnh đề 2).
 
@@ -191,7 +191,7 @@ $$
 \operatorname{Ker}(x^*) = (\operatorname{Ker}({x'}^*)) \otimes_{K'} K \quad \text{and} \quad \operatorname{Ker}(x^{*\prime}) = (\operatorname{Ker}(x^*)) \cap V'.
 $$
 
-Cho H' là trực giao của W' trong ${V'}^*$; ta biết (\S 7, no. 5, Định lý 7) rằng W' là trực giao của H' trong V'; nếu H là ảnh của H' trong $V^*$ qua ánh xạ (1), thì từ điều trên suy ra rằng W là trực giao của H trong V, xét đến no. 7, Hệ quả của Mệnh đề 14.
+Cho H' là trực giao của W' trong ${V'}^*$; ta biết (§ 7, no. 5, Định lý 7) rằng W' là trực giao của H' trong V'; nếu H là ảnh của H' trong $V^*$ qua ánh xạ (1), thì từ điều trên suy ra rằng W là trực giao của H trong V, xét đến no. 7, Hệ quả của Mệnh đề 14.
 
 #### Mệnh đề 6 {#alg-ii-s8-prop-6 .statement}
 
@@ -213,13 +213,13 @@ $$
 
 (i) Với mỗi tập S, cho không gian vectơ phải $K$-không gian $K_d^{(S)}$ mang cấu trúc $K'$ $K_{d'}^{(S)}$. Cho $f$ là ánh xạ tuyến tính trên K của $K_d^{(I)}$ vào $K_d^{(M)}$, ánh xạ mỗi vectơ $(\xi_i)_{i \in I}$ tới vectơ $(\zeta_\mu)_{\mu \in M}$ được xác định bởi $\zeta_\mu = \sum_{i \in I} \alpha_{\mu i} \xi_i$ với mọi $\mu \in M$. Rõ ràng $f$ là hữu tỉ trên $K'$; hạt nhân V của nó, tức là tập các nghiệm trong K của hệ (2), là một không gian con của $K_d^{(I)}$ hữu tỉ trên $K'$ (no. 3, Hệ quả 2 của Mệnh đề 3) và do đó được sinh bởi các nghiệm của (2) trong $K'$.
 
-(ii) Ta xét K như một không gian vectơ trái trên $K'$; tồn tại một phép chiếu $K'$-tuyến tính $p$ của K lên không gian con vectơ $K'_s$ của nó (\S 7, no. 3, Mệnh đề 4); nếu $(\xi_i)$ là một nghiệm của (3) trong K, thì $\sum_{i \in I} \alpha_{\mu i} p(\xi_i) = p \left( \sum_{i \in I} \alpha_{\mu i} \xi_i \right) = p(\beta_\mu) = \beta_\mu$, điều đó chứng tỏ rằng $(p(\xi_i))$ là một nghiệm của (3) trong $K'$.
+(ii) Ta xét K như một không gian vectơ trái trên $K'$; tồn tại một phép chiếu $K'$-tuyến tính $p$ của K lên không gian con vectơ $K'_s$ của nó (§ 7, no. 3, Mệnh đề 4); nếu $(\xi_i)$ là một nghiệm của (3) trong K, thì $\sum_{i \in I} \alpha_{\mu i} p(\xi_i) = p \left( \sum_{i \in I} \alpha_{\mu i} \xi_i \right) = p(\beta_\mu) = \beta_\mu$, điều đó chứng tỏ rằng $(p(\xi_i))$ là một nghiệm của (3) trong $K'$.
 
 ==========
 
 Đó là toàn bộ đoạn trích. Chỉ viết bản dịch của mọi thứ ở giữa hai dòng, và dừng ở đó.
 
-Một vành K được gọi là (trái) *phẳng trung thành* trên một vành con $K'$ nếu Mệnh đề 6 đúng cho K và $K'$; ta sẽ khảo sát khái niệm này chi tiết hơn sau (*Commutative Algebra*, I, \S 3).
+Một vành K được gọi là (trái) *phẳng trung thành* trên một vành con $K'$ nếu Mệnh đề 6 đúng cho K và $K'$; ta sẽ khảo sát khái niệm này chi tiết hơn sau (*Commutative Algebra*, I, § 3).
 
 ### 6. TRƯỜNG HỮU TỈ NHỎ NHẤT
 

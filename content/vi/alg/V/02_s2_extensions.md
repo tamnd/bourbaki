@@ -228,7 +228,7 @@ Do đó ta có thể nói, theo cách nói trực giác, rằng tính rời nhau
 — Cho E, F, G là ba mở rộng của một trường K được chứa trong $\Omega$, sao cho $F \subset G$. Để E và G rời nhau tuyến tính trên K, điều kiện cần và đủ là E và F rời nhau tuyến tính trên K và E(F) và G rời nhau tuyến tính trên F.
 
 $$
-\begin{array}{ccc}
+\begin{array}{ccccc}
 E & \longrightarrow & E(F) \\
 K & \longrightarrow & F & \longrightarrow & G.
 \end{array}

@@ -37,9 +37,9 @@ subsections:
       pdf_page: 123
 statements: 15
 exercises: 0
-content_sha256: 7fff1fb683cd8e736ee4acb2cdfefca672ae06aab92cebb144e83682668054df
+content_sha256: 56eed24fea44908e22ade4d7a360464fb05ec94f8609e473f96e479bbe5872d1
 translated_from: content/en/int/IV/02_s2_negligible_functions_and_sets.md
-source_content_sha256: 9957be94383368f258413ad77a26b8feab56a9aef5f931c556546f1c9349b5cd
+source_content_sha256: 8ed4876b66e4b93e4252c89f40e59e5df51207d878e7a01e38c48f580a5ec1d0
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-12513e78
 glossary_version: 34
@@ -65,13 +65,13 @@ Khi đó ta cũng nói rằng $f$ là *$\mu$-không đáng kể*, hoặc đơn g
 
 — *Tổng và bao trên của một dãy* $(f_n)$ *các hàm không đáng kể* $\geq 0$ *là không đáng kể*.
 
-Thật vậy, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (\S1, No. 3, Mệnh đề 13) và $\sup_n f_n \leq \sum_n f_n$.
+Thật vậy, $|\mu|^*(\sum_n f_n) \leq \sum_n |\mu|^*(f_n) = 0$ (§ 1, No. 3, Mệnh đề 13) và $\sup_n f_n \leq \sum_n f_n$.
 
 #### Mệnh đề 3 {#int-iv-s2-prop-3 .statement}
 
 *Đối với một hàm nửa liên tục dưới $f \geq 0$ trên $X$, để là không đáng kể, điều kiện cần và đủ là $f$ bằng không trên giá của $\mu$.*
 
-Nếu $|\mu|^*(f) = 0$ thì $|\mu|(g) = 0$ đối với mọi hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$; suy ra (Ch. III, \S2, No. 3, Mệnh đề 9) rằng $g$ bằng không trên giá $S$ của $\mu$; vì $f$ là bao trên của các hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$ (\S1, No. 1, Bổ đề), nên $f(x) = 0$ trên $S$. Ngược lại, nếu $f(x) = 0$ trên $S$ thì $g(x) = 0$ trên $S$ đối với mọi hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$, do đó (Ch. III, \S2, No. 3, Mệnh đề 8) $|\mu|(g) = 0$, điều này, theo định nghĩa, kéo theo $|\mu|^*(f) = 0$.
+Nếu $|\mu|^*(f) = 0$ thì $|\mu|(g) = 0$ đối với mọi hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$; suy ra (Ch. III, § 2, No. 3, Mệnh đề 9) rằng $g$ bằng không trên giá $S$ của $\mu$; vì $f$ là bao trên của các hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$ (§ 1, No. 1, Bổ đề), nên $f(x) = 0$ trên $S$. Ngược lại, nếu $f(x) = 0$ trên $S$ thì $g(x) = 0$ trên $S$ đối với mọi hàm $g \in \mathcal{K}_+$ sao cho $g \leq f$, do đó (Ch. III, § 2, No. 3, Mệnh đề 8) $|\mu|(g) = 0$, điều này, theo định nghĩa, kéo theo $|\mu|^*(f) = 0$.
 
 ### 2. Các tập hợp không đáng kể
 
@@ -89,7 +89,7 @@ Ta cũng nói rằng $A$ là $\mu$-không đáng kể, hoặc đơn giản là k
 
 #### Ví dụ {#int-iv-s2-n2-exa-1 .statement}
 
-— Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$. Mọi tập hợp $\{x_0\}$ thu gọn thành một điểm đều không đáng kể (xem \S1, No. 3, *Nhận xét* 1). Suy ra rằng *mọi tập con đếm được của $\mathbf{R}$ đều không đáng kể đối với độ đo Lebesgue*. Đảo lại của mệnh đề này không đúng (\S4, Bài tập 4 b)).
+— Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$. Mọi tập hợp $\{x_0\}$ thu gọn thành một điểm đều không đáng kể (xem § 1, No. 3, *Nhận xét* 1). Suy ra rằng *mọi tập con đếm được của $\mathbf{R}$ đều không đáng kể đối với độ đo Lebesgue*. Đảo lại của mệnh đề này không đúng (§ 4, Bài tập 4 b)).
 
 #### Mệnh đề 5 {#int-iv-s2-prop-5 .statement}
 

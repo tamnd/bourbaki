@@ -7,20 +7,21 @@ section: 2
 section_title: THE GAMMA FUNCTION IN THE COMPLEX DOMAIN
 lang: en
 source: fvr-i-vii
+book_pages: 315-323, 327-328
 pdf_pages: 0330-0338, 0342-0343
 extraction: ocr
 subsections:
     - "no": 1
       title: EXTENDING THE GAMMA FUNCTION TO C
-      page: 0
+      page: 315
       pdf_page: 330
     - "no": 2
       title: THE COMPLEMENTS’ RELATION AND THE LEGENDRE-GAUSS MULTIPLICATION FORMULA
-      page: 0
+      page: 316
       pdf_page: 331
     - "no": 3
       title: STIRLING'S EXPANSION
-      page: 0
+      page: 319
       pdf_page: 334
 statements: 6
 exercises: 6

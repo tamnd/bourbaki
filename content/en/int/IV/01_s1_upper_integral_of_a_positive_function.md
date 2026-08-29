@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: c5fee5d89da8b5caf64023102a6a2e177c1d72711c4a928dd3ab10cbc5d50bb8
+content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
 ---
 
 ## § 1. UPPER INTEGRAL OF A POSITIVE FUNCTION
@@ -271,7 +271,7 @@ $$
 $$
 which is none other than the inequality (9).
 
-Props. 10, 11 and 12 express that $\mu^*$ is an *increasing, positively homogeneous* and *convex* function on the set of numerical functions $\geqslant 0$ defined on X (Ch. I, No. 1). Note that if $f_1$ and $f_2$ are any two positive functions, the two members of (9) are not necessarily equal (\$4, Exer. 8 d)); in §5, No. 6 we shall give conditions under which equality holds.
+Props. 10, 11 and 12 express that $\mu^*$ is an *increasing, positively homogeneous* and *convex* function on the set of numerical functions $\geqslant 0$ defined on X (Ch. I, No. 1). Note that if $f_1$ and $f_2$ are any two positive functions, the two members of (9) are not necessarily equal (§ 4, Exer. 8 d)); in §5, No. 6 we shall give conditions under which equality holds.
 
 #### Theorem 3 {#int-iv-s1-thm-3 .statement}
 

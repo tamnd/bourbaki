@@ -52,9 +52,9 @@ subsections:
       pdf_page: 74
 statements: 30
 exercises: 20
-content_sha256: 1d0c0d80386725a7710ec3c1a9ceaef14b7c50930bc26348bdd10edaada8bfab
+content_sha256: b05c1a83014296ad416e9a5927dd6ee3fabaea9fec9ea2058c62b69648def83e
 translated_from: content/en/top/I/06_s6_filters.md
-source_content_sha256: e428657ce0845aa0620d75cac8c82afb983dbc997f2fca66c06d22631b1480b9
+source_content_sha256: 694e8d15858898977570a8ea1997399c00c59f9050d7858696d71a7fe04011de
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-43b6c5e6
 glossary_version: 34
@@ -170,9 +170,9 @@ Trên một tập $X$, một lọc $\mathcal{F}'$ với cơ sở $\mathcal{B}'$ 
 
 Hai cơ sở lọc $\mathcal{B}, \mathcal{B}'$ trên một tập $X$ là tương đương khi và chỉ khi mọi tập của $\mathcal{B}$ chứa một tập của $\mathcal{B}'$ và mọi tập của $\mathcal{B}'$ chứa một tập của $\mathcal{B}$.
 
-Ví dụ về các cơ sở lọc. 1) Cho $X$ là một không gian tôpô. Mệnh đề 3 chỉ ra rằng các cơ sở của lọc lân cận của một điểm $x \in X$ chính xác là các hệ cơ bản các lân cận của $x$ (\$ 1, no. 3, Định nghĩa 5).
+Ví dụ về các cơ sở lọc. 1) Cho $X$ là một không gian tôpô. Mệnh đề 3 chỉ ra rằng các cơ sở của lọc lân cận của một điểm $x \in X$ chính xác là các hệ cơ bản các lân cận của $x$ (§ 1, no. 3, Định nghĩa 5).
 
-2) Cho $X$ là một tập có hướng không rỗng đối với một quan hệ $(\sigma)$ (Lý thuyết tập hợp, Chương III, \$ 1, no. 10). Với mỗi $a \in X$, tập $S(a)$ gồm tất cả các $x \in X$ sao cho $a(\sigma)x$ sẽ được gọi là tiết diện của $X$ tương ứng với phần tử $a$. Khi đó tập $\mathcal{S}$ các tiết diện của $X$ là một cơ sở lọc, vì nó rõ ràng thỏa mãn $(\mathrm{B}_{\mathrm{II}})$, và nếu $a, b$ là hai phần tử bất kỳ của $X$, thì theo giả thiết tồn tại một phần tử $c \in X$ sao cho $a(\sigma)c$ và $b(\sigma)c$, và do đó
+2) Cho $X$ là một tập có hướng không rỗng đối với một quan hệ $(\sigma)$ (Lý thuyết tập hợp, Chương III, § 1, no. 10). Với mỗi $a \in X$, tập $S(a)$ gồm tất cả các $x \in X$ sao cho $a(\sigma)x$ sẽ được gọi là tiết diện của $X$ tương ứng với phần tử $a$. Khi đó tập $\mathcal{S}$ các tiết diện của $X$ là một cơ sở lọc, vì nó rõ ràng thỏa mãn $(\mathrm{B}_{\mathrm{II}})$, và nếu $a, b$ là hai phần tử bất kỳ của $X$, thì theo giả thiết tồn tại một phần tử $c \in X$ sao cho $a(\sigma)c$ và $b(\sigma)c$, và do đó
 $$
 S(c) \subset S(a) \cap S(b),
 $$
@@ -187,7 +187,7 @@ Cho $\mathcal{F}$ là một lọc trên một tập hợp $Z$. Vì $\mathcal{F}$
 
 Một lọc siêu trên một tập hợp $X$ là một lọc $\mathcal{F}$ sao cho không có lọc nào trên $X$ mịn hơn thực sự $\mathcal{F}$ (nói cách khác, là một phần tử cực đại trong tập hợp có thứ tự của tất cả các lọc trên $X$).
 
-Vì tập hợp có thứ tự của tất cả các lọc trên $X$ là quy nạp (no. 2, Mệnh đề 1, Hệ quả 3), bổ đề Zorn (Lý thuyết tập hợp, R, \$ 6, no. 10) chỉ ra rằng:
+Vì tập hợp có thứ tự của tất cả các lọc trên $X$ là quy nạp (no. 2, Mệnh đề 1, Hệ quả 3), bổ đề Zorn (Lý thuyết tập hợp, R, § 6, no. 10) chỉ ra rằng:
 
 #### Định lý 1 {#top-i-s6-thm-1 .statement}
 
@@ -245,9 +245,9 @@ Nếu một lọc $\mathfrak{F}$ trên $X$ cảm sinh một lọc trên $A \subs
 
 #### Ví dụ {#top-i-s6-n5-exa-1 .statement}
 
-Cho $X$ là một không gian tôpô, $A$ một tập con của $X$, $x$ một điểm của $X$. Để vết trên $A$ của *lọc lân cận* $\mathcal{B}$ của $x$ là một lọc trên $A$, điều kiện cần và đủ là mọi lân cận của $x$ đều giao với $A$, nghĩa là $x$ nằm trong *bao đóng* của $A$ (\$ 1, no. 6, Định nghĩa 10).
+Cho $X$ là một không gian tôpô, $A$ một tập con của $X$, $x$ một điểm của $X$. Để vết trên $A$ của *lọc lân cận* $\mathcal{B}$ của $x$ là một lọc trên $A$, điều kiện cần và đủ là mọi lân cận của $x$ đều giao với $A$, nghĩa là $x$ nằm trong *bao đóng* của $A$ (§ 1, no. 6, Định nghĩa 10).
 
-Ví dụ này về một lọc cảm sinh có ý nghĩa vì hai lý do: trước hết vì nó đóng một vai trò quan trọng trong lý thuyết về giới hạn (\$ 7, no. 5) và thứ hai vì *mọi lọc đều có thể được định nghĩa theo cách này*. Thật vậy, cho $\mathfrak{F}$ là một lọc trên một tập hợp $X$ và cho $X'$ là tập hợp nhận được bằng cách *ghép thêm* một phần tử mới $\omega$ vào $X$, $X$ được đồng nhất với phần bù của $\{ \omega \}$ trong $X'$ (*Lý thuyết tập hợp*, R, \$ 4, no. 5); cho $\mathfrak{F}'$ là lọc trên $X'$ gồm các tập hợp $M \cup \{ \omega \}$ trong đó $M$ chạy qua $\mathfrak{F}$. Với mỗi điểm $x \neq \omega$ của $X'$, cho $\mathcal{B}(x)$ là tập hợp tất cả các tập con của $X'$ chứa $x$, và cho $\mathcal{B}(\omega)$ là $\mathfrak{F}'$; khi đó các $\mathcal{B}(x)$ với $x \in X'$ hiển nhiên thỏa mãn các tiên đề $(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$ và $(\mathrm{V}_{\mathrm{IV}})$ và do đó định nghĩa một tôpô trên $X'$ mà đối với nó chúng là các lọc lân cận của các điểm. Cuối cùng $\omega$ nằm trong *bao đóng* của $X$ trong tôpô này, và $\mathfrak{F}$ được cảm sinh bởi $\mathfrak{F}' = \mathcal{B}(\omega)$ trên $X$. Tôpô được định nghĩa như vậy trên $X'$ (tương ứng tập hợp $X'$ với tôpô này) được gọi là *tôpô* (tương ứng *không gian tôpô*) *liên kết với* $\mathfrak{F}$.
+Ví dụ này về một lọc cảm sinh có ý nghĩa vì hai lý do: trước hết vì nó đóng một vai trò quan trọng trong lý thuyết về giới hạn (§ 7, no. 5) và thứ hai vì *mọi lọc đều có thể được định nghĩa theo cách này*. Thật vậy, cho $\mathfrak{F}$ là một lọc trên một tập hợp $X$ và cho $X'$ là tập hợp nhận được bằng cách *ghép thêm* một phần tử mới $\omega$ vào $X$, $X$ được đồng nhất với phần bù của $\{ \omega \}$ trong $X'$ (*Lý thuyết tập hợp*, R, § 4, no. 5); cho $\mathfrak{F}'$ là lọc trên $X'$ gồm các tập hợp $M \cup \{ \omega \}$ trong đó $M$ chạy qua $\mathfrak{F}$. Với mỗi điểm $x \neq \omega$ của $X'$, cho $\mathcal{B}(x)$ là tập hợp tất cả các tập con của $X'$ chứa $x$, và cho $\mathcal{B}(\omega)$ là $\mathfrak{F}'$; khi đó các $\mathcal{B}(x)$ với $x \in X'$ hiển nhiên thỏa mãn các tiên đề $(\mathrm{V}_1), (\mathrm{V}_{\mathrm{II}}), (\mathrm{V}_{\mathrm{III}})$ và $(\mathrm{V}_{\mathrm{IV}})$ và do đó định nghĩa một tôpô trên $X'$ mà đối với nó chúng là các lọc lân cận của các điểm. Cuối cùng $\omega$ nằm trong *bao đóng* của $X$ trong tôpô này, và $\mathfrak{F}$ được cảm sinh bởi $\mathfrak{F}' = \mathcal{B}(\omega)$ trên $X$. Tôpô được định nghĩa như vậy trên $X'$ (tương ứng tập hợp $X'$ với tôpô này) được gọi là *tôpô* (tương ứng *không gian tôpô*) *liên kết với* $\mathfrak{F}$.
 
 #### Mệnh đề 9 {#top-i-s6-prop-9 .statement}
 
@@ -290,7 +290,7 @@ Người đọc có thể dễ dàng kiểm tra rằng tích của các lọc $\
 
 Các nhận xét trước đó chỉ ra rằng nếu $\mathcal{B}_i$ là một cơ sở của $\mathfrak{F}_i$ với mỗi $i \in I$, thì $\mathcal{B}$ là một *cơ sở* của lọc tích $\prod_{i \in I} \mathfrak{F}_i$ (no. 3, Mệnh đề 3).
 
-Trên một tích $X = \prod_{i \in I} X_i$ của các không gian tôpô, lọc lân cận của mọi điểm $x = (x_i)$ là *tích* của các lọc lân cận của các $x_i$ (\S 4, no. 1).
+Trên một tích $X = \prod_{i \in I} X_i$ của các không gian tôpô, lọc lân cận của mọi điểm $x = (x_i)$ là *tích* của các lọc lân cận của các $x_i$ (§ 4, no. 1).
 
 Phép dựng của một tích bộ lọc $\mathfrak{F} = \prod_{i \in I} \mathfrak{F}_i$ đơn giản hơn khi tập hợp chỉ số $I$ là *hữu hạn*: một cơ sở của $\mathfrak{F}$ khi đó được tạo bởi *tất cả* các tích $\prod_{i \in I} M_i$, trong đó $M_i \in \mathfrak{F}_i$ với mỗi $i \in I$. Nếu $I = \{ 1, 2, \ldots, n \}$ ta viết
 $$
@@ -400,7 +400,7 @@ vào tập hợp $\tilde{\Phi}'$ các mầm của các ánh xạ từ $X$ vào $
 
 ### 10. CÁC MẦM TẠI MỘT ĐIỂM
 
-Một trong những tình huống thường gặp nhất mà các định nghĩa và kết quả của no. 9 được áp dụng là tình huống trong đó $\mathfrak{F}$ là bộ lọc lân cận của một điểm $a$ của một không gian tôpô $X$; thay vì nói "các mầm đối với $\mathfrak{F}$" ta khi đó nói "các mầm tại điểm $a$". Chú ý rằng chỉ có một mầm các lân cận của $a$, đó là mầm của toàn bộ không gian $X$. Các mầm của các tập hợp đóng trùng với các mầm của các tập hợp đóng địa phương tại điểm $a$, vì nếu $L$ đóng địa phương tại $a$, thì các mầm của $L$ và $\overline{\Gamma}$ tại $a$ là bằng nhau (\S 3, no. 1, Proposition 1). Suy ra rằng nếu $\xi, \eta$ là hai mầm của các tập hợp đóng địa phương tại $a$, thì $\xi \cup \eta$ và $\xi \cap \eta$ cũng vậy.
+Một trong những tình huống thường gặp nhất mà các định nghĩa và kết quả của no. 9 được áp dụng là tình huống trong đó $\mathfrak{F}$ là bộ lọc lân cận của một điểm $a$ của một không gian tôpô $X$; thay vì nói "các mầm đối với $\mathfrak{F}$" ta khi đó nói "các mầm tại điểm $a$". Chú ý rằng chỉ có một mầm các lân cận của $a$, đó là mầm của toàn bộ không gian $X$. Các mầm của các tập hợp đóng trùng với các mầm của các tập hợp đóng địa phương tại điểm $a$, vì nếu $L$ đóng địa phương tại $a$, thì các mầm của $L$ và $\overline{\Gamma}$ tại $a$ là bằng nhau (§ 3, no. 1, Proposition 1). Suy ra rằng nếu $\xi, \eta$ là hai mầm của các tập hợp đóng địa phương tại $a$, thì $\xi \cup \eta$ và $\xi \cap \eta$ cũng vậy.
 
 Vì $a$ thuộc mọi $V \in \mathfrak{F}$, $f(a)$ được xác định với mỗi ánh xạ $f$ mà miền xác định thuộc $\mathfrak{F}$; hơn nữa, nếu $f$ và $g$ có cùng mầm tại $a$ thì ta phải có $f(a) = g(a)$, do đó $f(a)$ chỉ phụ thuộc vào mầm $\tilde{f}$ của $f$ tại $a$, và được gọi là giá trị của $\tilde{f}$ tại $a$ và được ký hiệu là $\tilde{f}(a)$. Cần nhấn mạnh rằng quan hệ $\tilde{f}(a) = \tilde{g}(a)$ nói chung không kéo theo $\tilde{f} = \tilde{g}$.
 

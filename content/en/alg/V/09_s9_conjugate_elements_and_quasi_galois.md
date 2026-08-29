@@ -30,7 +30,7 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: c71157cd922d476b1b228708495f9f9f1ee9a9b4740af6b3058e100e9e1d1ca3
+content_sha256: 0d4d0127bd0f36cbd3c2a6be311c933fe5929eadbf69e81319cc08695d227e44
 ---
 
 ## § 9. CONJUGATE ELEMENTS AND QUASI-GALOIS EXTENSIONS
@@ -77,11 +77,11 @@ $$
 f(y) = f(u(x)) = u(f(x)) = 0,
 $$
 
-and $f$ is a monic irreducible polynomial in $\mathbf{K}[X]$; therefore ($V$, p. 16, Th. 1, c)), $f$ is the minimal polynomial of $y$ over $K$. Thus $a)$ implies $c)$.
+and $f$ is a monic irreducible polynomial in $\mathbf{K}[X]$; therefore ($V$, p. 16, Th. 1, c)), $f$ is the minimal polynomial of $y$ over $K$. Thus a) implies c).
 
-Suppose now that $x$ and $y$ have the same minimal polynomial $f$ over $K$. There exists a $K$-isomorphism of the field $\mathbf{K}[X]/(f)$ onto $\mathbf{K}(x)$ (resp. onto $\mathbf{K}(y)$) mapping the residue class of $X$ modulo $(f)$ to $x$ (resp. $y$) ($V$, p. 16, Th. 1, b)); hence there exists a $K$-isomorphism $v$ of $\mathbf{K}(x)$ onto $\mathbf{K}(y)$ such that $v(x) = y$. Therefore $c)$ implies $b)$.
+Suppose now that $x$ and $y$ have the same minimal polynomial $f$ over $K$. There exists a $K$-isomorphism of the field $\mathbf{K}[X]/(f)$ onto $\mathbf{K}(x)$ (resp. onto $\mathbf{K}(y)$) mapping the residue class of $X$ modulo $(f)$ to $x$ (resp. $y$) ($V$, p. 16, Th. 1, b)); hence there exists a $K$-isomorphism $v$ of $\mathbf{K}(x)$ onto $\mathbf{K}(y)$ such that $v(x) = y$. Therefore c) implies b).
 
-Finally, under the hypothesis $b)$, Prop. 1 implies the existence of a $K$-automorphism $u$ of $\Omega$ extending $v$; we then have $u(x) = y$, hence $x$ and $y$ are conjugate over $K$, so $b)$ implies $a)$.
+Finally, under the hypothesis b), Prop. 1 implies the existence of a $K$-automorphism $u$ of $\Omega$ extending $v$; we then have $u(x) = y$, hence $x$ and $y$ are conjugate over $K$, so b) implies a).
 
 #### Corollary 1 {#alg-v-s9-prop-2-cor-1 .statement}
 

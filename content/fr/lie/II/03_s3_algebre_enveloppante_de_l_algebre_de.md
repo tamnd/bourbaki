@@ -24,7 +24,7 @@ subsections:
       pdf_page: 33
 statements: 10
 exercises: 4
-content_sha256: 2710c57d6254eb41ad2ed3c2cce87034680840acbd9b1dffbcf10c482af146d7
+content_sha256: d6c2a564c559d519032904eead59c46cead0d98512d7563ff451634779824a5c
 ---
 
 ## § 3. Algèbre enveloppante de l’algèbre de Lie libre
@@ -47,7 +47,7 @@ Enfin, comme $L(X)$ est un $K$-module libre (§ 2, n° 11, cor. du th. 1), $\sig
 
 Il existe sur l’algèbre $A(X)$ un unique coproduit faisant de $A(X)$ une bigèbre et tel que les éléments de $X$ soient primitifs. De plus, $\beta$ est un isomorphisme de la bigèbre $U(L(X))$ sur $A(X)$ munie de cette structure de bigèbre.
 
-Cela résulte de l’assertion $b)$ du théorème et du fait que $X$ engendre l’algèbre unifère $A(X)$.
+Cela résulte de l’assertion b) du théorème et du fait que $X$ engendre l’algèbre unifère $A(X)$.
 
 Dorénavant, on munit $A(X)$ de cette structure de bigèbre et *on identifie* $L(X)$ à son image par $\alpha$, c’est-à-dire *à la sous-algèbre de Lie de $A(X)$ engendrée par $X$*.
 
@@ -209,14 +209,14 @@ c(r) = \frac{1}{r} \sum_{d|r} \mu(d) n^{r/d},
 $$
 
 *où $\mu$ est la fonction de Möbius.*
-    *b)* *Pour tout $\alpha \in \mathbf{N}^X - \{0\}$, le K-module L^\alpha(X) (\S 2, n° 6) est libre de rang*
+    *b)* *Pour tout $\alpha \in \mathbf{N}^X - \{0\}$, le K-module L^\alpha(X) (§ 2, n° 6) est libre de rang*
 
 $$(16)$$
 $$
 c(\alpha) = \frac{1}{|\alpha|} \sum_{d|\alpha} \mu(d) \frac{(|\alpha|/d)!}{(\alpha/d)!}.
 $$
 
-Nous savons déjà que les modules L^r(X) pour $r \in \mathbf{N}$, et L^\alpha(X) pour $\alpha \in \mathbf{N}^X$, sont libres (\S 2, n° 11, cor. du th. 1). Considérons la multigraduation $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ de A(X) définie par l’homomorphisme canonique $\varphi$ de Mo(X) dans $\mathbf{N}^X$ (A, III, p. 31, *Exemple 3*) ; on a $A^\alpha(X) \cap L(X) = L^\alpha(X)$ d’après la *Remarque 3* du n° 1. Pour $\alpha \in \mathbf{N}^X$, le K-module A^\alpha(X) admet pour base l’ensemble des mots dans lesquels chaque lettre x de X apparaît $\alpha(x)$ fois. Soit $d(\alpha)$ le nombre de ces mots, c’est-à-dire le rang de $A^\alpha(X)$; nous allons calculer de deux manières différentes la série formelle $P((T_x)_{x \in X}) \in \mathbf{Z}[[(T_x)_{x \in X}]]$ définie par
+Nous savons déjà que les modules L^r(X) pour $r \in \mathbf{N}$, et L^\alpha(X) pour $\alpha \in \mathbf{N}^X$, sont libres (§ 2, n° 11, cor. du th. 1). Considérons la multigraduation $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ de A(X) définie par l’homomorphisme canonique $\varphi$ de Mo(X) dans $\mathbf{N}^X$ (A, III, p. 31, *Exemple 3*) ; on a $A^\alpha(X) \cap L(X) = L^\alpha(X)$ d’après la *Remarque 3* du n° 1. Pour $\alpha \in \mathbf{N}^X$, le K-module A^\alpha(X) admet pour base l’ensemble des mots dans lesquels chaque lettre x de X apparaît $\alpha(x)$ fois. Soit $d(\alpha)$ le nombre de ces mots, c’est-à-dire le rang de $A^\alpha(X)$; nous allons calculer de deux manières différentes la série formelle $P((T_x)_{x \in X}) \in \mathbf{Z}[[(T_x)_{x \in X}]]$ définie par
 
 $$
 P(T) = \sum_{\alpha \in \mathbf{N}^X} d(\alpha) T^\alpha.
@@ -261,7 +261,7 @@ $$
 1 - \sum_{x \in X} T_x = \prod_{\alpha \in \mathbf{N}^X - \{0\}} (1 - T^\alpha)^{c(\alpha)}.
 $$
 
-Le lemme 1 donne alors $b)$.
+Le lemme 1 donne alors b).
 
 Substituant maintenant une même indéterminée $U$ aux $T_x$ pour $x \in X$, dans la formule (20), on obtient
 
@@ -269,7 +269,7 @@ $$
 1 - nU = \prod_{\alpha \in \mathbf{N}^X - \{0\}} (1 - U^{|c(\alpha)|})^{c(\alpha)} = \prod_{r > 0} (1 - U^r)^{c(r)}.
 $$
 
-En appliquant de nouveau le lemme 1, on en déduit $a)$.
+En appliquant de nouveau le lemme 1, on en déduit a).
 
 #### Exemple {#lie-ii-s3-n3-exa-1 .statement}
 

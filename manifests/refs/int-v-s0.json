@@ -1,0 +1,9 @@
+{"edges": [
+{"from":"","from_label":"int-v-s0","to_label":"alg-iii-s1","kind":"cites","raw":"III, §1, No. 3","form":"section","resolved_by":"section","file":"content/en/int/V/00_frontmatter.md","line":22},
+{"from":"","from_label":"int-v-s0","to_label":"alg-i-s9","kind":"cites","raw":"I, §9, No. 9","form":"section","resolved_by":"section","file":"content/en/int/V/00_frontmatter.md","line":24},
+{"from":"","from_label":"int-v-s0","to_label":"alg-iv-s5","kind":"cites","raw":"IV, §5","form":"section","resolved_by":"section","file":"content/en/int/V/historical_note.md","line":71},
+{"from":"","from_label":"int-v-s0","kind":"cites","raw":"FRV, II, §2","form":"section","resolved_by":"out-of-corpus","book":"FVR","chapter":"II","file":"content/en/int/V/historical_note.md","line":75},
+{"from":"","from_label":"int-v-s0","to_label":"alg-v-s5","kind":"cites","raw":"V, §5, No. 9","form":"section","resolved_by":"section","file":"content/en/int/V/historical_note.md","line":118},
+{"from":"","from_label":"int-v-s0","to_label":"alg-v-s6","kind":"cites","raw":"V, §6","form":"section","resolved_by":"section","file":"content/en/int/V/historical_note.md","line":122},
+{"from":"","from_label":"int-v-s0","to_label":"alg-iv-s1","kind":"cites","raw":"IV, §1","form":"section","resolved_by":"section","file":"content/en/int/V/historical_note.md","line":132}
+]}

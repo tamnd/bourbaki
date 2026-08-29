@@ -1,0 +1,20 @@
+{"edges": [
+{"from":"","from_label":"int-iv-s2-prop-2","to_label":"int-iv-s1-prop-13","kind":"cites","raw":"§ 1, No. 3, Prop. 13","form":"section","resolved_by":"section-no","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":61},
+{"from":"","from_label":"int-iv-s2-prop-3","to_label":"int-iii-s2-prop-9","kind":"cites","raw":"III, § 2, No. 3, Prop. 9","form":"section","resolved_by":"section-no","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":67},
+{"from":"","from_label":"int-iv-s2-prop-3","to_label":"int-iv-s1","kind":"cites","raw":"§ 1, No. 1","form":"section","resolved_by":"section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":67},
+{"from":"","from_label":"int-iv-s2-prop-3","to_label":"int-iii-s2-prop-8","kind":"cites","raw":"III, § 2, No. 3, Prop. 8","form":"section","resolved_by":"section-no","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":67},
+{"from":"","from_label":"int-iv-s2-n2-exa-1","to_label":"int-iv-s1","kind":"cites","raw":"§ 1, No. 3","form":"section","resolved_by":"section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":85},
+{"from":"","from_label":"int-iv-s2-prop-5","to_label":"int-iv-s2-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":91},
+{"from":"","from_label":"int-iv-s2-prop-8","to_label":"int-iv-s2-prop-4","kind":"cites","raw":"No. 2, Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":133},
+{"from":"","from_label":"int-iv-s2-prop-9","kind":"cites","raw":"I, §8, No. 1","form":"section","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":149},
+{"from":"","from_label":"int-iv-s2-prop-9","to_label":"int-iv-s2-prop-5","kind":"cites","raw":"No. 2, Prop. 5","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":149},
+{"from":"","from_label":"int-iv-s2-prop-10","to_label":"int-iv-s2-prop-10","kind":"cites","raw":"Prop. 10","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":157},
+{"from":"","from_label":"int-iv-s2-prop-10","to_label":"int-iii-s3-prop-7-cor-2","kind":"cites","raw":"III, §3, No. 4, Cor. 2","form":"section","resolved_by":"section-no","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":157},
+{"from":"","from_label":"int-iv-s2-prop-10","to_label":"int-iv-s2-prop-6","kind":"cites","raw":"Prop. 6","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":157},
+{"from":"","from_label":"int-iv-s2","to_label":"int-iv-s2-prop-8","kind":"cites","raw":"Prop. 8","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":163},
+{"from":"","from_label":"int-iv-s2","to_label":"int-ix-s2-def-4","kind":"cites","raw":"IX, §2, No. 8, Def. 4","form":"section","resolved_by":"section-no","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":165},
+{"from":"","from_label":"int-iv-s2","to_label":"int-iv-s4","kind":"cites","raw":"IV, §4, No. 3","form":"section","resolved_by":"section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":181},
+{"from":"","from_label":"int-iv-s2","to_label":"int-iv-s2-prop-8","kind":"cites","raw":"Prop. 8","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":183},
+{"from":"","from_label":"int-iv-s2","to_label":"int-iv-s2-def-1","kind":"cites","raw":"Def. 1","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":185},
+{"from":"","from_label":"int-iv-s2","to_label":"int-iv-s2-thm-1","kind":"cites","raw":"Th. 1","form":"local","resolved_by":"in-section","file":"content/en/int/IV/02_s2_negligible_functions_and_sets.md","line":185}
+]}

@@ -32,14 +32,14 @@ subsections:
       pdf_page: 194
 statements: 24
 exercises: 7
-content_sha256: 5a6d198ba815a6b655dfe1a7d2ffc8cb1105b770a7bb04499c7a43e1d1d1167e
+content_sha256: eb00915eefc2542b1cb326ffd5f62b68b64c27c30b72b3cd48135ced89e8d6d5
 ---
 
 ## 4. NORMAL SPACES
 
 ### 1. DEFINITION OF NORMAL SPACES
 
-Axiom ($O_{IV}$) for uniformizable spaces ($\S 1$, no. 5) can be stated in the following form: *given any closed set* $A$ *and any point* $x \in \mathbf{C}A$, *there is a continuous mapping of* $X$ *into* $[0, 1]$ *which is equal to* 0 *at* $x$ *and is equal to* 1 *at* every point of $A$; this property can again be expressed by saying that in a uniformizable space we can separate a point and a closed set (not containing the point) by a continuous real-valued function.
+Axiom ($O_{IV}$) for uniformizable spaces ($§ 1$, no. 5) can be stated in the following form: *given any closed set* $A$ *and any point* $x \in \mathbf{C}A$, *there is a continuous mapping of* $X$ *into* $[0, 1]$ *which is equal to* 0 *at* $x$ *and is equal to* 1 *at* every point of $A$; this property can again be expressed by saying that in a uniformizable space we can separate a point and a closed set (not containing the point) by a continuous real-valued function.
 
 We shall now study spaces in which it is possible in the same way to separate two disjoint closed sets by a continuous real-valued function:
 
@@ -126,7 +126,7 @@ Proposition 2 gives another *necessary* condition for metrizability; but this co
 
 By $(O'_V)$, every *closed* subset of a normal space is a *normal subspace*; but this is not always the case for an *arbitrary* subset of a normal space.
 
-For example, a completely regular space which is not normal is homeomorphic to a subspace of a compact space (\$ 1, no. 5, Proposition 3), and the latter is normal.
+For example, a completely regular space which is not normal is homeomorphic to a subspace of a compact space (§ 1, no. 5, Proposition 3), and the latter is normal.
 
 Finally we record that the *product* of two normal spaces is not necessarily normal (see Exercise 9 and § 5, Exercise 16).
 
@@ -202,7 +202,7 @@ To pass to the general case, it is enough to remark that, if $f$ is finite and c
 
 #### Remark {#top-ix-s4-n2-rem-1 .statement}
 
-If $X$ is a normal space and if $A$ is a closed subset of $X$, there exists also a continuous extension to $X$ of every continuous mapping $f$ of $A$ into a *cube* $K^1$ (\S 1, no. 5); for we have then $f = (f_i)_{i \in I}, f_i$ being a continuous mapping of $A$ into the compact interval $K$ of $\mathbf{R}$; since there exists a continuous mapping $g_i : X \to K$ which extends $f_i$, the mapping $g = (g_i)$ is a continuous extension of $f$ to $X$.
+If $X$ is a normal space and if $A$ is a closed subset of $X$, there exists also a continuous extension to $X$ of every continuous mapping $f$ of $A$ into a *cube* $K^1$ (§ 1, no. 5); for we have then $f = (f_i)_{i \in I}, f_i$ being a continuous mapping of $A$ into the compact interval $K$ of $\mathbf{R}$; since there exists a continuous mapping $g_i : X \to K$ which extends $f_i$, the mapping $g = (g_i)$ is a continuous extension of $f$ to $X$.
 
 ### 3. LOCALLY FINITE OPEN COVERINGS OF A CLOSED SET IN A NORMAL SPACE
 

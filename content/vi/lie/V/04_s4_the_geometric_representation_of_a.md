@@ -48,9 +48,9 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: f69a0101294a4320185a95da674bccbc8f4b104a08dc25cec438ae77740a8447
+content_sha256: 26e75cff2c41c454d4060b12232f694af428eedaa54e0bea5e2a35caeec622da
 translated_from: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
-source_content_sha256: 5021df5e2a7b11b0c834f2fb2e676b42a4dacb732a0bd97707442cbf9c1ff7ef
+source_content_sha256: b37e57ba0e6700d5644218e6cb51eb2aa578040de72fb7f9df614a11c81b3ddd
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-bcfa38fa
 glossary_version: 34
@@ -83,7 +83,7 @@ $$
 B_M(e_s, e_s) = 1 \quad \text{và} \quad B_M(e_s, e_{s'}) \leq 0 \quad \text{nếu} \quad s \neq s'.
 $$
 
-Cho $s \in S$ và cho $f_s$ là dạng tuyến tính $x \mapsto 2B_M(e_s, x)$. Ta ký hiệu $\sigma_s$ là phản xạ giả được xác định bởi cặp $(e_s, f_s)$ (cf. § 2, no. 1); vì $\langle e_s, f_s \rangle = 2$, nên đó là một phản xạ ($\S 2$, no. 2). Ta có
+Cho $s \in S$ và cho $f_s$ là dạng tuyến tính $x \mapsto 2B_M(e_s, x)$. Ta ký hiệu $\sigma_s$ là phản xạ giả được xác định bởi cặp $(e_s, f_s)$ (cf. § 2, no. 1); vì $\langle e_s, f_s \rangle = 2$, nên đó là một phản xạ ($§ 2$, no. 2). Ta có
 
 $$
 \sigma_s(x) = x - 2B_M(e_s, x).e_s
@@ -95,7 +95,7 @@ $$
 \sigma_s(e_{s'}) = e_{s'} + 2 \cos \frac{\pi}{m(s, s')}.e_s.
 $$
 
-Vì $e_s$ không đẳng phương đối với $B_M$, không gian E là tổng trực tiếp của đường thẳng $\mathbf{R}e_s$ và siêu phẳng $H_s$ trực giao với $e_s$. Vì $\sigma_s$ bằng $-1$ trên $\mathbf{R}e_s$ và bằng 1 trên $H_s$, suy ra $\sigma_s$ bảo toàn dạng $B_M$. Khi S hữu hạn và $B_M$ không suy biến (trường hợp mà ta sẽ trở lại ở no. 8), suy ra $\sigma_s$ là một phản xạ trực giao ($\S 2$, no. 3).
+Vì $e_s$ không đẳng phương đối với $B_M$, không gian E là tổng trực tiếp của đường thẳng $\mathbf{R}e_s$ và siêu phẳng $H_s$ trực giao với $e_s$. Vì $\sigma_s$ bằng $-1$ trên $\mathbf{R}e_s$ và bằng 1 trên $H_s$, suy ra $\sigma_s$ bảo toàn dạng $B_M$. Khi S hữu hạn và $B_M$ không suy biến (trường hợp mà ta sẽ trở lại ở no. 8), suy ra $\sigma_s$ là một phản xạ trực giao ($§ 2$, no. 3).
 
 ### 2. MẶT PHẲNG $E_{s,s'}$ VÀ NHÓM SINH BỞI $\sigma_s$ VÀ $\sigma_{s'}$
 
@@ -317,7 +317,7 @@ Cho $E_{s,s'}^*$ là đối ngẫu của mặt phẳng $E_{s,s'} = \mathbf{R}e_s
 
 $p : E^* \to E_{s,s'}^*$
 
-giao hoán với tác động của nhóm $W_{s,s'}$. Rõ ràng $A_s, $A_{s'}$ và $A_s \cap A_{s'}$ là các ảnh ngược qua $p$ của các tập con tương ứng của $E_{s,s'}^*$ (xét như không gian của biểu diễn phản biến của nhóm Coxeter $W_{s,s'}$). Hơn nữa, vì độ dài của một phần tử của $W_{s,s'}$ là như nhau theo $\{s, s'\}$ và theo $S$ (Chương IV, § 1, no. 8), cuối cùng ta quy về trường hợp $S = \{s, s'\}$; nếu $m = m(s, s')$, thì nhóm $W$ khi đó là một nhóm nhị diện có cấp $2m$.
+giao hoán với tác động của nhóm $W_{s,s'}$. Rõ ràng $A_s$, $A_{s'}$ và $A_s \cap A_{s'}$ là các ảnh ngược qua $p$ của các tập con tương ứng của $E_{s,s'}^*$ (xét như không gian của biểu diễn phản biến của nhóm Coxeter $W_{s,s'}$). Hơn nữa, vì độ dài của một phần tử của $W_{s,s'}$ là như nhau theo $\{s, s'\}$ và theo $S$ (Chương IV, § 1, no. 8), cuối cùng ta quy về trường hợp $S = \{s, s'\}$; nếu $m = m(s, s')$, thì nhóm $W$ khi đó là một nhóm nhị diện có cấp $2m$.
 
 Ta xét hai trường hợp:
 a) $m = +\infty$.
@@ -422,7 +422,7 @@ Cho $E'$ là một không gian con của E ổn định dưới W. Cho $s, s' \i
     a) *Nếu* $B_M$ *không suy biến, W-môđun* $E$ *là đơn tuyệt đối*.
     b) *Nếu* $B_M$ *suy biến, W-môđun* $E$ *không nửa đơn*.
 
-Trong trường hợp *a)*, Mệnh đề 7 chỉ ra rằng $E$ là đơn, do đó cũng là đơn tuyệt đối ($\S 2$, no. 1, Mệnh đề 1).
+Trong trường hợp *a)*, Mệnh đề 7 chỉ ra rằng $E$ là đơn, do đó cũng là đơn tuyệt đối ($§ 2$, no. 1, Mệnh đề 1).
 
 Trong trường hợp *b)*, $E^0 \neq 0$, $E \neq E^0$ (vì $B_M \neq 0$), và Mệnh đề 7 chỉ ra rằng $E^0$ không có phần bù ổn định dưới $W$; do đó, W-môđun $E$ không nửa đơn.
 
@@ -436,9 +436,9 @@ Ta giữ lại ký hiệu của các no. trước, và giả sử rằng $S$ là
     (1) $W$ *là hữu hạn*.
     (2) *Dạng* $B_M$ *là dương và không suy biến*.
 
-(1) $\Longrightarrow$ (2). Cho $S = \bigcup_i S_i$ là phân tích của $S$ thành các thành phần liên thông (Ch. IV, $\S 1$, no. 9), và cho $W = \prod_i W_i$ là phân tích tương ứng của $W$. Không gian $E$ có thể được đồng nhất với tổng trực tiếp của các không gian $E_i = \mathbf{R}^{S_i}$, và $B_M$ có thể được đồng nhất với tổng trực tiếp của các dạng tương ứng $B_{M_i}$. Do đó ta quy về trường hợp $(W, S)$ là *bất khả quy*. Vì $W$ được giả thiết là hữu hạn, $E$ là một W-môđun nửa đơn (Phụ lục, Mđ. 2). Theo Hệ quả của Mđ. 5, suy ra rằng $E$ là tuyệt đối đơn. Gọi $B'$ là một dạng dương không suy biến trên $E$, và gọi $B''$ là tổng các biến đổi của nó dưới tác dụng của $W$. Vì $B''$ bất biến dưới $W$, nó tỉ lệ với $B_M$ ($\S 2$, no. 1, Mđ. 1); vì $B_M(e_s, c_s) = 1$ với mọi $s \in S$, hệ số tỉ lệ là $> 0$, và vì $B''$ là dương nên $B_M$ cũng vậy, điều này chứng minh (2).
+(1) $\Longrightarrow$ (2). Cho $S = \bigcup_i S_i$ là phân tích của $S$ thành các thành phần liên thông (Ch. IV, $§ 1$, no. 9), và cho $W = \prod_i W_i$ là phân tích tương ứng của $W$. Không gian $E$ có thể được đồng nhất với tổng trực tiếp của các không gian $E_i = \mathbf{R}^{S_i}$, và $B_M$ có thể được đồng nhất với tổng trực tiếp của các dạng tương ứng $B_{M_i}$. Do đó ta quy về trường hợp $(W, S)$ là *bất khả quy*. Vì $W$ được giả thiết là hữu hạn, $E$ là một W-môđun nửa đơn (Phụ lục, Mđ. 2). Theo Hệ quả của Mđ. 5, suy ra rằng $E$ là tuyệt đối đơn. Gọi $B'$ là một dạng dương không suy biến trên $E$, và gọi $B''$ là tổng các biến đổi của nó dưới tác dụng của $W$. Vì $B''$ bất biến dưới $W$, nó tỉ lệ với $B_M$ ($§ 2$, no. 1, Mđ. 1); vì $B_M(e_s, c_s) = 1$ với mọi $s \in S$, hệ số tỉ lệ là $> 0$, và vì $B''$ là dương nên $B_M$ cũng vậy, điều này chứng minh (2).
 
-(2) $\Longrightarrow$ (1). Nếu $B_M$ dương không suy biến, nhóm trực giao $O(B_M)$ là *compact* (*Tích phân*, Ch. VII, $\S 3$, no. 1). Vì $\sigma(W)$ là một nhóm con *rời rạc* của $O(B_M)$ (Hệ quả 3 của Đl. 1), suy ra $\sigma(W)$ là hữu hạn, do đó $W$ cũng hữu hạn. Q.E.D.
+(2) $\Longrightarrow$ (1). Nếu $B_M$ dương không suy biến, nhóm trực giao $O(B_M)$ là *compact* (*Tích phân*, Ch. VII, $§ 3$, no. 1). Vì $\sigma(W)$ là một nhóm con *rời rạc* của $O(B_M)$ (Hệ quả 3 của Đl. 1), suy ra $\sigma(W)$ là hữu hạn, do đó $W$ cũng hữu hạn. Q.E.D.
 
 Kết quả sau đây đã được thiết lập trong quá trình chứng minh:
 
@@ -446,7 +446,7 @@ Kết quả sau đây đã được thiết lập trong quá trình chứng minh
 
 *Nếu* $(W, S)$ *là bất khả quy và hữu hạn, thì E là một W-môđun tuyệt đối đơn*.
 
-Tiêu chuẩn hữu hạn do Đl. 2 cung cấp cho phép phân loại mọi nhóm Coxeter *hữu hạn* (xem Ch. VI, $\S 4$). Ở đây ta chỉ xét kết quả sơ bộ sau:
+Tiêu chuẩn hữu hạn do Đl. 2 cung cấp cho phép phân loại mọi nhóm Coxeter *hữu hạn* (xem Ch. VI, $§ 4$). Ở đây ta chỉ xét kết quả sơ bộ sau:
 
 #### Mệnh đề 8 {#lie-v-s4-prop-8 .statement}
 
@@ -495,7 +495,7 @@ $w \in W$ và mọi $s \in S$, $w(C_0)$ không gặp $H_s$. Suy ra rằng $C_0$ 
 
 Ta có thể áp dụng cho $W$ và $C_0$ tất cả các tính chất đã chứng minh trong § 3. Đặc biệt, $\overline{C_0}$ là một miền cơ bản đối với tác động của $W$ trên $E$ (nói cách khác, nón $U$ được xác định trong no. 6 bằng toàn bộ $E$).
 
-Ngược lại, cho $E$ là một không gian vectơ thực hữu hạn chiều, được trang bị một tích vô hướng $(x|y)$ và cho $W$ là một nhóm hữu hạn cốt yếu các phép dời của $E$ giữ 0 cố định; giả sử rằng $W$ được sinh bởi các phép phản xạ. Cho $C_0$ là một phòng của $E$ đối với $W$ (xem § 3), và cho $S$ là tập hợp các phép phản xạ trực giao đối với các tường của $C_0$. Khi đó $(W, S)$ là một hệ Coxeter hữu hạn ($\S 3$, no. 2, Định lý 1). Hơn nữa, nếu $s \in S$, ký hiệu $H_s$ là tường của $C_0$ tương ứng với $s$, và ký hiệu $e_s$ là vectơ đơn vị vuông góc với $H_s$ và nằm cùng phía của $H_s$ với $C_0$. Nếu $(m(s, s'))$ là ma trận Coxeter của $(W, S)$, Mệnh đề 3 và 7 của $\S 3$ cho thấy rằng
+Ngược lại, cho $E$ là một không gian vectơ thực hữu hạn chiều, được trang bị một tích vô hướng $(x|y)$ và cho $W$ là một nhóm hữu hạn cốt yếu các phép dời của $E$ giữ 0 cố định; giả sử rằng $W$ được sinh bởi các phép phản xạ. Cho $C_0$ là một phòng của $E$ đối với $W$ (xem § 3), và cho $S$ là tập hợp các phép phản xạ trực giao đối với các tường của $C_0$. Khi đó $(W, S)$ là một hệ Coxeter hữu hạn ($§ 3$, no. 2, Định lý 1). Hơn nữa, nếu $s \in S$, ký hiệu $H_s$ là tường của $C_0$ tương ứng với $s$, và ký hiệu $e_s$ là vectơ đơn vị vuông góc với $H_s$ và nằm cùng phía của $H_s$ với $C_0$. Nếu $(m(s, s'))$ là ma trận Coxeter của $(W, S)$, Mệnh đề 3 và 7 của $§ 3$ cho thấy rằng
 
 $$
 (e_s|e_{s'}) = -\cos(\pi/m(s, s'))
@@ -511,7 +511,7 @@ Trong số này, ta giả sử rằng $S$ là hữu hạn, rằng $(W, S)$ là b
 
 *Phần bù trực giao $E^0$ của $E$ đối với $B_M$ có chiều 1; nó được sinh bởi một phần tử $v = \sum_{s \in S} v_s e_s$ với $v_s > 0$ đối với mọi $s$.*
 
-Điều này suy ra từ Bổ đề 4 của $\S 3$, no. 5, áp dụng cho ma trận có các phần tử $B_M(e_s, e_{s'})$.
+Điều này suy ra từ Bổ đề 4 của $§ 3$, no. 5, áp dụng cho ma trận có các phần tử $B_M(e_s, e_{s'})$.
 
 Cho $v = \sum_s v_s e_s$ là vectơ thỏa mãn các điều kiện của Bổ đề 2 và sao cho $\sum_s v_s = 1$, và cho $A$ là siêu phẳng afin của $E^*$ gồm các $y^* \in E^*$ sao cho $\langle v, y^* \rangle = 1$. Nếu $T$ ký hiệu phần bù trực giao của $v$ trong $E^*$, thì $A$ có một cấu trúc tự nhiên của một không gian afin với không gian tịnh tiến $T$. Hơn nữa, dạng $B_M$ qua thương xác định một tích vô hướng không suy biến trên $E/E^0$, do đó cũng trên đối ngẫu $T$ của nó; điều này cho một *cấu trúc Euclid* trên không gian afin $A$ (*Đại số*, Ch. IX, § 6, no. 6).
 
@@ -523,7 +523,7 @@ Cho $G$ là nhóm con của $\mathbf{GL}(E)$ gồm các tự đẳng cấu giữ
 
 Theo Hệ quả 3 của Định lý 1, $W$ rời rạc trong $\mathbf{GL}(E)$, và do đó trong $G$, và tác động đúng trên $A$. Cho $s \in S$. Vì Card $S \ge 2$, siêu phẳng của $E^*$ trực giao với $e_s$ không trực giao với $v$ và giao của nó với $A$, tức $L_s$, thật sự là một siêu phẳng. Phép dời hình ứng với $s$ vì thế là một phép dời hình có cấp 2, giữ cố định mọi điểm của $L_s$: nó tất yếu là phép phản xạ trực giao gắn với $L_s$. Suy ra $W$ được sinh bởi các phép phản xạ trực giao. Định lý 2 cho thấy ngay rằng nó là vô hạn và Mệnh đề 7 rằng nó là cốt yếu và bất khả quy.
 
-Vì $C$ là một nón đơn hình mở, có các vách là các siêu phẳng có phương trình $\langle x^*, e_s \rangle = 0$ (với $s \in S$), nên giao $C \cap A$ là một tập con lồi, do đó liên thông, vừa mở vừa đóng, của phần bù của hợp các $L_s$ trong $A$. Hơn nữa, $C \cap A$ không rỗng, vì nếu $x^* \in C$ thì $\langle x^*, v \rangle = \sum_s v_s \langle x^*, e_s \rangle > 0$ và $\langle x^*, v \rangle^{-1} x^* \in C \cap A$. Suy ra $C \cap A$ là một buồng của $A$ đối với hệ các $L_s$. Hơn nữa, $w(C \cap A) \cap L_s = \varnothing$ với mọi $w \in W$ (xem no. 4, tính chất (P_n)) và suy ra $C \cap A$ là một buồng của $A$ đối với hệ gồm các ảnh của các $L_s bởi các phần tử của W; theo Hệ quả của Định lý 1 của § 3, no. 2, suy ra $C \cap A$ là một buồng của $A$ đối với W.
+Vì $C$ là một nón đơn hình mở, có các vách là các siêu phẳng có phương trình $\langle x^*, e_s \rangle = 0$ (với $s \in S$), nên giao $C \cap A$ là một tập con lồi, do đó liên thông, vừa mở vừa đóng, của phần bù của hợp các $L_s$ trong $A$. Hơn nữa, $C \cap A$ không rỗng, vì nếu $x^* \in C$ thì $\langle x^*, v \rangle = \sum_s v_s \langle x^*, e_s \rangle > 0$ và $\langle x^*, v \rangle^{-1} x^* \in C \cap A$. Suy ra $C \cap A$ là một buồng của $A$ đối với hệ các $L_s$. Hơn nữa, $w(C \cap A) \cap L_s = \varnothing$ với mọi $w \in W$ (xem no. 4, tính chất (P_n)) và suy ra $C \cap A$ là một buồng của $A$ đối với hệ gồm các ảnh của các $L_s$ bởi các phần tử của W; theo Hệ quả của Định lý 1 của § 3, no. 2, suy ra $C \cap A$ là một buồng của $A$ đối với W.
 
 Cho $a_s^*$ là đỉnh của đơn hình $C \cap A$ không thuộc $L_s$. Ta có
 
@@ -565,7 +565,7 @@ Mệnh đề 10 có mệnh đề đảo:
 
 *Cho $W$ là một nhóm các phép dời hình của một không gian affine Euclid $A$, thỏa mãn các giả thiết của § 3. Giả sử rằng $W$ là vô hạn, cốt yếu và bất khả quy. Khi đó dạng $B_M$ gắn với ma trận Coxeter $M$ của $W$ là dương suy biến và tồn tại duy nhất một đẳng cấu từ không gian affine $A_M$ liên kết với $M$ đến $A$, giao hoán với tác động của $W$. Đẳng cấu này biến tích vô hướng của $A_M$ thành một bội của tích vô hướng của $A$.*
 
-Cho $C_0$ là một buồng của $A$ và cho $S$ là tập hợp các phép đối xứng trực giao đối với các vách của $C_0$. Nếu $\eta_s$ ký hiệu vectơ đơn vị vuông góc với siêu phẳng $N_s$ liên kết với phép đối xứng $s$ và ở cùng phía của $N_s$ với $C_0$ (\S 3, Mệnh đề 3), thì dạng $B_M$ thỏa mãn $B_M(e_s, e_t) = (\eta_s | \eta_t)$ với $s, t \in S$. Vì vậy nó là *dương*. Vì các $\eta_s$ phụ thuộc tuyến tính (\S 3, no. 9, Mệnh đề 8), nó là *suy biến*.
+Cho $C_0$ là một buồng của $A$ và cho $S$ là tập hợp các phép đối xứng trực giao đối với các vách của $C_0$. Nếu $\eta_s$ ký hiệu vectơ đơn vị vuông góc với siêu phẳng $N_s$ liên kết với phép đối xứng $s$ và ở cùng phía của $N_s$ với $C_0$ (§ 3, Mệnh đề 3), thì dạng $B_M$ thỏa mãn $B_M(e_s, e_t) = (\eta_s | \eta_t)$ với $s, t \in S$. Vì vậy nó là *dương*. Vì các $\eta_s$ phụ thuộc tuyến tính (§ 3, no. 9, Mệnh đề 8), nó là *suy biến*.
 
 Do đó ta có thể áp dụng các xây dựng trước đó cho $M$. Với cùng ký hiệu như trên, $(\varepsilon_s | \varepsilon_t) = (\eta_s | \eta_t)$ và tồn tại duy nhất một đẳng cấu $\varphi$ của các không gian Hilbert từ $T$ đến không gian các phép tịnh tiến của $A$ sao cho $\varphi(\varepsilon_s) = \eta_s$. Cho $a$ và $b$ là hai đỉnh phân biệt của $C_0$ và $s_0$ là phép đối xứng trong $S$ sao cho $a \notin N_{s_0}$. Đặt $\lambda = (\eta_s | a - b)$ và cho $\psi$ là song ánh affine từ $A_M$ đến $A$ được xác định bởi
 

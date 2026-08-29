@@ -32,10 +32,10 @@ subsections:
       pdf_page: 311
 statements: 31
 exercises: 10
-content_sha256: bc4311a1c24ef79654917c30ad7066ecbe2e0596feb5d982386f4394215cbfee
+content_sha256: 959d51e0b17c1e53acd1b04ec5addba3190172ba3449001ca8efef0e093433a6
 translated_from: content/en/top/X/03_s3_special_function_spaces.md
-source_content_sha256: 9fd48fda6c93ba00fed2c64041652f863a82e9936880e73fb2c09a90216c6f27
-translation_model: gpt-5-6, gpt-5-6-mini
+source_content_sha256: 0242e85ddd5aef10eee50cb9154a8440bef872dc1313f8c42d3c58a661af6a30
+translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-db4d7dc7
 glossary_version: 34
 glossary_terms_sha256: 1726272806081c8b29f42eaf4ad44250975f26a010bf0d168e42f204df71de36
@@ -44,47 +44,47 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## 3. CÁC KHÔNG GIAN HÀM ĐẶC BIỆT
 
-### 1. CÁC KHÔNG GIAN CỦA CÁC ÁNH XẠ VÀO MỘT KHÔNG GIAN METRIC
+### 1. CÁC KHÔNG GIAN ÁNH XẠ VÀO MỘT KHÔNG GIAN MÊTRIC
 
-Cho $X$ là một tập hợp, $Y$ là một không gian đều, $(f_i)_{i \in I}$ là một họ các giả metric xác định cấu trúc đều của $Y$ (Chương IX, \S 1, no. 4), và cho $\mathcal{S}$ là một tập hợp các tập con của $X$. Với mỗi $i \in I$, mỗi tập hợp $A \in \mathcal{S}$, và mỗi cặp $(u, v)$ các ánh xạ của $X$ vào $Y$, đặt
+Cho $X$ là một tập hợp, $Y$ là một không gian đều, $(f_i)_{i \in I}$ là một họ giả mêtric xác định cấu trúc đều của $Y$ (Chương IX, § 1, no. 4), và $\mathcal{S}$ là một tập hợp các tập con của $X$. Với mỗi $i \in I$, mỗi tập hợp $A \in \mathcal{S}$, và mỗi cặp $(u, v)$ các ánh xạ từ $X$ vào $Y$, viết
 
 $$
 g_{i, A}(u, v) = \sup_{x \in A} f_i(u(x), v(x));
 $$
 
-ta suy ra ngay lập tức rằng $g_{i, A}$ là một *giả metric* trên $\mathcal{F}(X; Y)$ và họ các giả metric $(g_{i, A})_{i \in I, A \in \mathcal{S}}$ xác định tính đều của sự $\mathcal{S}$-*hội tụ* trên $\mathcal{F}(X; Y)$. Đặc biệt:
+ngay lập tức suy ra rằng $g_{i, A}$ là một *giả mêtric* trên $\mathcal{F}(X; Y)$ và rằng họ các giả mêtric $(g_{i, A})_{i \in I, A \in \mathcal{S}}$ xác định cấu trúc đều của sự *hội tụ* theo $\mathcal{S}$ trên $\mathcal{F}(X; Y)$. Đặc biệt:
 
 #### Mệnh đề 1 {#top-x-s3-prop-1 .statement}
 
-*Nếu $Y$ là một không gian đều mêtric hóa được, thì tính đều của sự hội tụ đều trên $\mathcal{F}(X; Y)$ là mêtric hóa được.*
+*Nếu $Y$ là một không gian đều mêtric hóa được, thì cấu trúc đều của sự hội tụ đều trên $\mathcal{F}(X; Y)$ là mêtric hóa được.*
 
-Thật vậy, nếu $d$ là một metric trên $Y$ tương thích với cấu trúc đều của nó, thì cấu trúc của sự hội tụ đều trên $\mathcal{F}(X; Y)$ được xác định bởi giả metric duy nhất
+Thật vậy, nếu $d$ là một mêtric trên $Y$ tương thích với cấu trúc đều của nó, thì cấu trúc của sự hội tụ đều trên $\mathcal{F}(X; Y)$ được xác định bởi giả mêtric duy nhất
 
 $$
 \varepsilon(u, v) = \sup_{x \in X} d(u(x), v(x));
 $$
 
-nói chung giả metric này không hữu hạn, nhưng nó tương đương với một giả metric hữu hạn (Chương IX, § 1, no. 2), và vì tính đều của sự hội tụ đều là Hausdorff (§ 1, no. 2, Mệnh đề 1), nó là mêtric hóa được.
+nói chung giả mêtric này không hữu hạn, nhưng nó tương đương với một giả mêtric hữu hạn (Chương IX, § 1, no. 2), và vì cấu trúc đều của sự hội tụ đều là Hausdorff (§ 1, no. 2, Mệnh đề 1), nên nó là mêtric hóa được.
 
 #### Hệ quả {#top-x-s3-n1-cor-1 .statement}
 
-Cho $X$ là một không gian tôpô và cho $Y$ là một không gian đều mêtric hóa được. Giả sử rằng có một dãy $(K_n)$ các tập con compact của $X$ sao cho mọi tập con compact của $X$ đều được chứa trong một $K_n$ nào đó. Khi đó tính đều của sự hội tụ compact trên $\mathcal{F}(X; Y)$ là mêtric hóa được.
+Cho $X$ là một không gian tôpô và $Y$ là một không gian đều mêtric hóa được. Giả sử rằng tồn tại một dãy $(K_n)$ các tập con compact của $X$ sao cho mọi tập con compact của $X$ đều được chứa trong một $K_n$ nào đó. Khi đó cấu trúc đều của sự hội tụ compact trên $\mathcal{F}(X; Y)$ là mêtric hóa được.
 
-Vì các $K_n$ phủ $X$, $\mathcal{F}_c(X; Y)$ đẳng cấu với một không gian con đều của $\prod_n \mathcal{F}_u(K_n; Y)$ ($\S 1$, no. 2, Nhận xét 3), và do đó hệ quả suy ra từ Mệnh đề 1 (Chương IX, § 2, no. 4, Định lý 1, Hệ quả 2).
+Vì các $K_n$ phủ $X$, $\mathcal{F}_c(X; Y)$ đẳng cấu với một không gian con đều của $\prod_n \mathcal{F}_u(K_n; Y)$ ($§ 1$, no. 2, Nhận xét 3), và do đó hệ quả suy ra từ Mệnh đề 1 (Chương IX, § 2, no. 4, Định lý 1, Hệ quả 2).
 
-Chú ý rằng hệ quả này áp dụng đặc biệt nếu $X$ là *compact địa phương và σ-compact* (Chương I, § 9, no. 9, Mệnh đề 15, Hệ quả 1).
+Chú ý rằng hệ quả này áp dụng đặc biệt khi $X$ là *địa phương compact và σ-compact* (Chương I, § 9, no. 9, Mệnh đề 15, Hệ quả 1).
 
-Bây giờ cho $Y$ là một không gian metric và cho $d$ là metric của nó. Nếu $X$ là một tập hợp bất kỳ và $\mathcal{S}$ là một tập hợp bất kỳ các tập con của $X$, ta ký hiệu bởi $\mathcal{B}_{\mathcal{S}}(X; Y)$ tập hợp tất cả các ánh xạ $u : X \to Y$ sao cho $u(A)$ là *bị chặn* với mỗi $A \in \mathcal{S}$. Trừ khi điều ngược lại được phát biểu rõ ràng, ta sẽ xem $\mathcal{B}_{\mathcal{S}}(X; Y)$ như được trang bị tính đều của sự $\mathcal{S}$-hội tụ, được xác định bởi họ các giả metric sau đây trên $\mathcal{B}_{\mathcal{S}}(X; Y)$:
+Bây giờ cho $Y$ là một không gian mêtric và $d$ là mêtric của nó. Nếu $X$ là một tập hợp bất kỳ và $\mathcal{S}$ là một tập hợp bất kỳ các tập con của $X$, ta sẽ ký hiệu bởi $\mathcal{B}_{\mathcal{S}}(X; Y)$ tập hợp tất cả các ánh xạ $u : X \to Y$ sao cho $u(A)$ là *bị chặn* với mỗi $A \in \mathcal{S}$. Trừ khi nói rõ điều ngược lại, ta sẽ xem $\mathcal{B}_{\mathcal{S}}(X; Y)$ được trang bị cấu trúc đều của sự hội tụ theo $\mathcal{S}$, được xác định bởi họ giả mêtric sau trên $\mathcal{B}_{\mathcal{S}}(X; Y)$:
 
 $$
 d_A(u, v) = \sup_{x \in A} d(u(x), v(x)) \tag{$A \in \mathcal{S}$}
 $$
 
-vốn *hữu hạn* theo giả thiết. Khi $\mathcal{S} = \{X\}$, ta viết $\mathcal{B}(X; Y)$ thay cho $\mathcal{B}_{\mathcal{S}}(X; Y)$. Một ánh xạ $u : X \to Y$ được gọi là *bị chặn* nếu nó thuộc về $\mathcal{B}(X; Y)$, tức là nếu $u(X)$ là một tập con bị chặn của $Y$.
+chúng là *hữu hạn* theo giả thiết. Khi $\mathcal{S} = \{X\}$, ta viết $\mathcal{B}(X; Y)$ thay cho $\mathcal{B}_{\mathcal{S}}(X; Y)$. Một ánh xạ $u : X \to Y$ được gọi là *bị chặn* nếu nó thuộc $\mathcal{B}(X; Y)$, tức là nếu $u(X)$ là một tập con bị chặn của $Y$.
 
 #### Mệnh đề 2 {#top-x-s3-prop-2 .statement}
 
-Cho $X$ là một tập hợp và $Y$ là một không gian metric. Tập hợp $\mathcal{B}(X; Y)$ các ánh xạ bị chặn vừa mở vừa đóng trong không gian $\mathcal{F}_u(X; Y)$.
+Cho $X$ là một tập hợp và $Y$ là một không gian mêtric. Tập hợp $\mathcal{B}(X; Y)$ các ánh xạ bị chặn vừa mở vừa đóng trong không gian $\mathcal{F}_u(X; Y)$.
 
 Nếu $u$ bị chặn, thì mọi ánh xạ $v : X \to Y$ sao cho với mọi $x \in X$, ta có $d(u(x), v(x)) \leq 1$ đều bị chặn, vì
 
@@ -104,7 +104,7 @@ Vì $\mathcal{B}_\mathfrak{S}(X; Y)$ là ảnh ngược của tập con $\prod_{
 
 *Cho X là một không gian tôpô và Y là một không gian mêtric. Khi đó không gian của tất cả các ánh xạ liên tục bị chặn của X vào Y vừa mở vừa đóng trong $C_u(X; Y)$; nó đầy đủ nếu Y đầy đủ.*
 
-Không gian được xét là $\mathcal{B}(X; Y) \cap C_u(X; Y)$; mệnh đề thứ nhất suy ra từ Mệnh đề 2; mệnh đề thứ hai suy ra từ mệnh đề thứ nhất ($\S 1$, no. 6, Định lý 2, Hệ quả 1).
+Không gian được xét là $\mathcal{B}(X; Y) \cap C_u(X; Y)$; mệnh đề thứ nhất suy ra từ Mệnh đề 2; mệnh đề thứ hai suy ra từ mệnh đề thứ nhất ($§ 1$, no. 6, Định lý 2, Hệ quả 1).
 
 ### 2. CÁC KHÔNG GIAN CỦA CÁC ÁNH XẠ VÀO MỘT KHÔNG GIAN CÓ CHUẨN
 
@@ -147,7 +147,7 @@ u(x_1, \ldots, x_i' + x_i'', \ldots, x_n) &= u(x_1, \ldots, x_i', \ldots, x_n) \
 u(x_1, \ldots, \lambda x_i, \ldots, x_n) &= \lambda u(x_1, \ldots, x_i, \ldots, x_n)
 \end{align*}
 $$
-($1 \leq i \leq n,\ x_i,\ x_i',\ x_i''$ là các phần tử tùy ý của $X_i$, $\lambda$ là một phần tử tùy ý của $K$); vì hai vế của các hệ thức (1) là các hàm liên tục của $u$ trên $\mathcal{F}_s(X; Y)$ (\S 1, no. 2, Nhận xét 6), kết quả suy ra (Chương I, § 8, no. 1, Mệnh đề 2).
+($1 \leq i \leq n,\ x_i,\ x_i',\ x_i''$ là các phần tử tùy ý của $X_i$, $\lambda$ là một phần tử tùy ý của $K$); vì hai vế của các hệ thức (1) là các hàm liên tục của $u$ trên $\mathcal{F}_s(X; Y)$ (§ 1, no. 2, Nhận xét 6), kết quả suy ra (Chương I, § 8, no. 1, Mệnh đề 2).
 
 #### Mệnh đề 5 {#top-x-s3-prop-5 .statement}
 
@@ -233,7 +233,7 @@ b) Không gian $\mathcal{C}_c(X; Y)$ các ánh xạ liên tục của $X$ vào $
 
 a) Gọi $X'$ là không gian compact thu được bằng cách thêm vào $X$ một điểm tại vô cực (Chương I, § 9, no. 8, Định lý 4); theo định nghĩa, mọi hàm $f \in \mathcal{L}$ đều có thể được mở rộng duy nhất thành một hàm liên tục $\overline{f} : X' \to Y$, và $f \to \overline{f}$ do đó là một song ánh từ L lên $C(X'; Y)$; và song ánh này là một đồng phôi từ không gian L lên $C_u(X'; Y)$ theo Mệnh đề 6 của § 1, no. 6. Vì $X'$ mêtric hóa được (Chương IX, § 2, no. 9, Mệnh đề 16, Hệ quả), kết quả suy ra từ Định lý 1, áp dụng cho $X'$ và Y.
 
-b) Gọi $(U_n)$ là một phủ của X bởi các tập mở tương đối compact, sao cho mọi tập con compact của X được chứa trong một $U_n$ nào đó (Chương I, § 9, no. 9, Mệnh đề 15, Hệ quả 1). Nếu $S$ là tập hợp các $\overline{U}_n$, thì tôpô hội tụ compact trên $C(X; Y)$ trùng với tôpô hội tụ theo $S$. Do đó ($\S 1,$ no. 2, Nhận xét 3) không gian $C_c(X; Y)$ đồng phôi với một không gian con của tích $\prod_n C_u(\overline{U}_n; Y)$; vì mỗi không gian compact $\overline{U}_n$ có một cơ sở đếm được, nó mêtric hóa được (Chương IX, § 2, no. 9, Mệnh đề 16); mỗi không gian $C_u(\overline{U}_n; Y)$ do đó mêtric hóa được và có kiểu đếm được theo Định lý 1, và do đó $C_c(X; Y)$ cũng vậy.
+b) Gọi $(U_n)$ là một phủ của X bởi các tập mở tương đối compact, sao cho mọi tập con compact của X được chứa trong một $U_n$ nào đó (Chương I, § 9, no. 9, Mệnh đề 15, Hệ quả 1). Nếu $S$ là tập hợp các $\overline{U}_n$, thì tôpô hội tụ compact trên $C(X; Y)$ trùng với tôpô hội tụ theo $S$. Do đó ($§ 1,$ no. 2, Nhận xét 3) không gian $C_c(X; Y)$ đồng phôi với một không gian con của tích $\prod_n C_u(\overline{U}_n; Y)$; vì mỗi không gian compact $\overline{U}_n$ có một cơ sở đếm được, nó mêtric hóa được (Chương IX, § 2, no. 9, Mệnh đề 16); mỗi không gian $C_u(\overline{U}_n; Y)$ do đó mêtric hóa được và có kiểu đếm được theo Định lý 1, và do đó $C_c(X; Y)$ cũng vậy.
 
 Chú ý rằng không gian của tất cả các hàm liên tục bị chặn nhận giá trị thực trên $\mathbf{R}$, được trang bị tôpô hội tụ đều, không có kiểu đếm được (Bài tập 4).
 
@@ -243,7 +243,7 @@ Chú ý rằng không gian của tất cả các hàm liên tục bị chặn nh
 
 *Cho X là một không gian tôpô, Y là một không gian đều. Với mỗi tập con compact K của X và mỗi tập con mở U của Y, ký hiệu T(K, U) là tập hợp của tất cả các ánh xạ liên tục $u : X \to Y$ sao cho $u(K) \subset U$. Khi đó các tập hợp $T(K, U)$ sinh ra tôpô hội tụ compact trên $C(X; Y)$.*
 
-Gọi $Y'$ là không gian đều Hausdorff liên kết với Y (Chương II, § 3, no. 8) và gọi $i : Y \to Y'$ là ánh xạ chính tắc của Y lên $Y'$. Tôpô hội tụ compact là tôpô thô nhất sao cho các ánh xạ $u \to (i \circ u)|K$ từ $C(X; Y)$ vào $C_u(K; Y')$ là liên tục, khi K chạy qua tập hợp của tất cả các tập con compact của X ($\S 1,$ no. 4, Mệnh đề 4). Do đó ta thu được một cơ sở phụ của tôpô của $C_c(X; Y)$ bằng cách lấy một cơ sở phụ của tôpô của $C_c(K; Y')$ với mỗi tập con compact K của X rồi lấy hợp [trong $\mathfrak{B}(C(X; Y))$] của các ảnh ngược của các cơ sở phụ này trong $C(X, Y)$. Mặt khác, mọi tập con mở của Y đều có dạng $\overline{i}^{-1}(U')$, trong đó $U'$ là mở trong $Y'$ (Chương II, § 3, no. 7, Mệnh đề 12); do đó, với mỗi tập con compact $K' \supset K$, $T(K, \overline{i}^{-1}(U'))$ là ảnh ngược của $T(K, U')$ theo ánh xạ
+Gọi $Y'$ là không gian đều Hausdorff liên kết với Y (Chương II, § 3, no. 8) và gọi $i : Y \to Y'$ là ánh xạ chính tắc của Y lên $Y'$. Tôpô hội tụ compact là tôpô thô nhất sao cho các ánh xạ $u \to (i \circ u)|K$ từ $C(X; Y)$ vào $C_u(K; Y')$ là liên tục, khi K chạy qua tập hợp của tất cả các tập con compact của X ($§ 1,$ no. 4, Mệnh đề 4). Do đó ta thu được một cơ sở phụ của tôpô của $C_c(X; Y)$ bằng cách lấy một cơ sở phụ của tôpô của $C_c(K; Y')$ với mỗi tập con compact K của X rồi lấy hợp [trong $\mathfrak{B}(C(X; Y))$] của các ảnh ngược của các cơ sở phụ này trong $C(X, Y)$. Mặt khác, mọi tập con mở của Y đều có dạng $\overline{i}^{-1}(U')$, trong đó $U'$ là mở trong $Y'$ (Chương II, § 3, no. 7, Mệnh đề 12); do đó, với mỗi tập con compact $K' \supset K$, $T(K, \overline{i}^{-1}(U'))$ là ảnh ngược của $T(K, U')$ theo ánh xạ
 
 $$
 C(X; Y) \to C_a(K'; Y').
@@ -301,7 +301,7 @@ Thật vậy, theo Định lý 3, ánh xạ này liên tục khi và chỉ khi �
 
 #### Nhận xét 3 {#top-x-s3-n4-rem-3 .statement}
 
-Cho $X$ là một không gian địa phương compact và $Y$ là một không gian tôpô Hausdorff. Nếu $\mathcal{T}$ là một tôpô trên một tập con $H$ của $C(X; Y)$ sao cho ánh xạ $(u, x) \to u(x)$ là liên tục trên $H \times X$ và nếu thêm nữa $H$ là *compact* đối với $\mathcal{T}$, thì $\mathcal{T}$ là tôpô compact-mở. Thật vậy, nó mịn hơn tôpô sau theo Hệ quả 1, và vì tôpô compact-mở là Hausdorff, hai tôpô là đồng nhất. Chú ý rằng nếu thêm vào đó $Y$ là *chính quy hoàn toàn*, thì $H$ là *đồng liên tục* đối với mọi cấu trúc đều tương thích với tôpô của $Y$ (\S 2, no. 5, Định lý 2, Hệ quả 3), và với mọi tập con compact $K$ của $X$, tập hợp
+Cho $X$ là một không gian địa phương compact và $Y$ là một không gian tôpô Hausdorff. Nếu $\mathcal{T}$ là một tôpô trên một tập con $H$ của $C(X; Y)$ sao cho ánh xạ $(u, x) \to u(x)$ là liên tục trên $H \times X$ và nếu thêm nữa $H$ là *compact* đối với $\mathcal{T}$, thì $\mathcal{T}$ là tôpô compact-mở. Thật vậy, nó mịn hơn tôpô sau theo Hệ quả 1, và vì tôpô compact-mở là Hausdorff, hai tôpô là đồng nhất. Chú ý rằng nếu thêm vào đó $Y$ là *chính quy hoàn toàn*, thì $H$ là *đồng liên tục* đối với mọi cấu trúc đều tương thích với tôpô của $Y$ (§ 2, no. 5, Định lý 2, Hệ quả 3), và với mọi tập con compact $K$ của $X$, tập hợp
 
 $$
 H(K) = \bigcup_{x \in K} H(x)
@@ -311,7 +311,7 @@ là compact, vì nó là ảnh của $H \times K$ qua ánh xạ liên tục $(u,
 
 #### Hệ quả 2 {#top-x-s3-thm-3-cor-2 .statement}
 
-*Cho $X, Y, Z$ là ba không gian tôpô sao cho $X$ là Hausdorff và $Y$ là compact địa phương. Khi đó hạn chế vào $C(X \times Y; Z)$ của song ánh chính tắc $\mathcal{F}(X \times Y; Z) \to \mathcal{F}(X; \mathcal{F}(Y; Z))$ (Lý thuyết tập hợp, R, \S 4, no. 14) là một đồng phôi từ $C_c(X \times Y; Z)$ lên $C_c(X; C_c(Y; Z))$.*
+*Cho $X, Y, Z$ là ba không gian tôpô sao cho $X$ là Hausdorff và $Y$ là compact địa phương. Khi đó hạn chế vào $C(X \times Y; Z)$ của song ánh chính tắc $\mathcal{F}(X \times Y; Z) \to \mathcal{F}(X; \mathcal{F}(Y; Z))$ (Lý thuyết tập hợp, R, § 4, no. 14) là một đồng phôi từ $C_c(X \times Y; Z)$ lên $C_c(X; C_c(Y; Z))$.*
 
 Hạn chế này hiển nhiên là một song ánh
 
@@ -349,7 +349,7 @@ Cho $X$ là một không gian compact và cho $\Gamma$ là nhóm gồm tất c�
 
 Ta đã biết (no. 4, Mệnh đề 9) rằng ánh xạ $(u, v) \to v \circ u$ của $\Gamma \times \Gamma$ vào $\Gamma$ là liên tục đối với tôpô này; do đó ta phải chứng minh rằng $u \to u^{-1}$ là liên tục tại mọi điểm $u_0$ của $\Gamma$. Vì $u_0^{-1}$ là liên tục đều trên $X$, với mọi lân cận đối xứng $V$ của $X$ tồn tại một lân cận $W$ của $X$ sao cho quan hệ $(x, x') \in W$ kéo theo $(u_0^{-1}(x), u_0^{-1}(x')) \in V$. Vì vậy, nếu $u \in \Gamma$ sao cho $(u_0(x), u(x)) \in W$ với mọi $x \in X$, thì suy ra rằng $(x, u_0^{-1}(u(x))) \in V$ với mọi $x \in X$, và do đó (vì $u$ là song ánh) $(u^{-1}(x), u_0^{-1}(x)) \in V$ với mọi $x \in X$. Điều này hoàn tất chứng minh.
 
-Bây giờ cho $X$ là một không gian compact địa phương và cho $\Gamma$ là nhóm gồm tất cả các đồng phôi của $X$ lên chính nó. Tôpô của sự hội tụ compact trong $X$ không nhất thiết tương thích với cấu trúc nhóm của $\Gamma$ (Bài tập 17). Gọi $X'$ là không gian compact thu được bằng cách ghép thêm một điểm ở vô cực $\omega$ vào $X$. Mọi đồng phôi $u$ của $X$ lên chính nó mở rộng duy nhất thành một đồng phôi $u'$ của $X'$ lên chính nó sao cho $u'(\omega) = \omega$ (Chương I, § 10, no. 3, Hệ quả của Mệnh đề 7), do đó $\Gamma$ có thể được đồng nhất với nhóm con của nhóm $\Gamma'$ gồm tất cả các đồng phôi của $X'$ lên chính nó, gồm tất cả các đồng phôi giữ cố định $\omega$. Tôpô cảm sinh trên $\Gamma$ bởi tôpô của $C_u(X'; X')$ vì thế tương thích với cấu trúc nhóm của $\Gamma'$ (Mệnh đề 11), và $\Gamma$ là đóng trong $\Gamma'$ [đối với tôpô cảm sinh bởi tôpô của $C_u(X'; X')$] vì nó được xác định bởi phương trình $u(\omega) = \omega$ (\S 1, no. 2, Nhận xét 6). Ta ký hiệu bởi $\mathcal{T}_\beta$ tôpô nhóm được xác định như vậy trên $\Gamma$; nó mịn hơn tôpô của sự hội tụ compact và cũng có thể (nhờ \S 1, no. 6, Mệnh đề 6) được định nghĩa là tôpô của sự hội tụ đều trên $X$, khi $X$ được trang bị cấu trúc đều cảm sinh bởi cấu trúc đều duy nhất của $X'$.
+Bây giờ cho $X$ là một không gian compact địa phương và cho $\Gamma$ là nhóm gồm tất cả các đồng phôi của $X$ lên chính nó. Tôpô của sự hội tụ compact trong $X$ không nhất thiết tương thích với cấu trúc nhóm của $\Gamma$ (Bài tập 17). Gọi $X'$ là không gian compact thu được bằng cách ghép thêm một điểm ở vô cực $\omega$ vào $X$. Mọi đồng phôi $u$ của $X$ lên chính nó mở rộng duy nhất thành một đồng phôi $u'$ của $X'$ lên chính nó sao cho $u'(\omega) = \omega$ (Chương I, § 10, no. 3, Hệ quả của Mệnh đề 7), do đó $\Gamma$ có thể được đồng nhất với nhóm con của nhóm $\Gamma'$ gồm tất cả các đồng phôi của $X'$ lên chính nó, gồm tất cả các đồng phôi giữ cố định $\omega$. Tôpô cảm sinh trên $\Gamma$ bởi tôpô của $C_u(X'; X')$ vì thế tương thích với cấu trúc nhóm của $\Gamma'$ (Mệnh đề 11), và $\Gamma$ là đóng trong $\Gamma'$ [đối với tôpô cảm sinh bởi tôpô của $C_u(X'; X')$] vì nó được xác định bởi phương trình $u(\omega) = \omega$ (§ 1, no. 2, Nhận xét 6). Ta ký hiệu bởi $\mathcal{T}_\beta$ tôpô nhóm được xác định như vậy trên $\Gamma$; nó mịn hơn tôpô của sự hội tụ compact và cũng có thể (nhờ § 1, no. 6, Mệnh đề 6) được định nghĩa là tôpô của sự hội tụ đều trên $X$, khi $X$ được trang bị cấu trúc đều cảm sinh bởi cấu trúc đều duy nhất của $X'$.
 
 Tôpô $\mathcal{T}_\beta$ có thể được đặc trưng như sau:
 
@@ -369,7 +369,7 @@ $$
 (u_0(x), u(x)) \in V \text{ với mọi } x \in X.
 $$
 
-Cho $V_1$ là một lân cận đối xứng mở của $X'$ sao cho $\overset{2}{V}_1 \subset V$; khi đó $K_1 = X' - V_1(\omega)$ là một tập con compact của $X$. Chọn một lân cận đối xứng mở $W$ của $X'$ sao cho $W \subset V$ và $W(\omega) \cap W(u_0^{-1}(K_1)) = \emptyset$; điều này có thể thực hiện được theo Mệnh đề 4 của Chương II, \S 4, no. 3. Đặt $K_2 = X' - W(\omega)$, là một tập con compact của $X$. Ta sẽ thấy rằng $W$ và tập compact $K = K_1 \cup K_2$ thực hiện điều cần thiết. Vì $W \subset V$, chỉ cần chứng minh rằng quan hệ
+Cho $V_1$ là một lân cận đối xứng mở của $X'$ sao cho $\overset{2}{V}_1 \subset V$; khi đó $K_1 = X' - V_1(\omega)$ là một tập con compact của $X$. Chọn một lân cận đối xứng mở $W$ của $X'$ sao cho $W \subset V$ và $W(\omega) \cap W(u_0^{-1}(K_1)) = \emptyset$; điều này có thể thực hiện được theo Mệnh đề 4 của Chương II, § 4, no. 3. Đặt $K_2 = X' - W(\omega)$, là một tập con compact của $X$. Ta sẽ thấy rằng $W$ và tập compact $K = K_1 \cup K_2$ thực hiện điều cần thiết. Vì $W \subset V$, chỉ cần chứng minh rằng quan hệ
 
 $$
 (u_0^{-1}(x), u^{-1}(x)) \in W \text{ với mọi } x \in K_1 \quad (u \in \Gamma)

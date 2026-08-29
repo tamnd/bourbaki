@@ -29,9 +29,9 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 11
-content_sha256: fcdcf1195ffcc9191f5e4819e3c6e3406da22f670ce9889ce71573d80e9566f8
+content_sha256: 81ce4377e88dc1b9aeaa54039185d6683805a340b699d7630369714cedd46942
 translated_from: content/en/lie/VIII/02_s2_root_system_of_a_split_semi_simple_lie.md
-source_content_sha256: 2f817ca2f2760b014487000082efaaaf6a394cd0120f4c55517995e3ea6625c4
+source_content_sha256: 5b8fba70b72c8f243ecb19eff11bd99a4fc4e1594703137b927fa6344b3f9e7f
 translation_model: gpt-5.4
 translation_run: translate-vi-cd36f7b1
 glossary_version: 34
@@ -113,11 +113,11 @@ Cho $\alpha$ là một nghiệm của $(\mathfrak{g},\mathfrak{h})$.
 
 (iv) Nếu $X_{\alpha}$ là một phần tử khác không của $\mathfrak{g}^{\alpha}$, thì tồn tại một $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ duy nhất sao cho $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$. Gọi $\varphi$ là ánh xạ tuyến tính từ $\mathfrak{s}\mathfrak{l}(2, k)$ vào $\mathfrak{g}$ biến $X_+$ thành $X_{\alpha},X_-$ thành $X_{-\alpha}$, và $H$ thành $H_{\alpha}$; khi đó $\varphi$ là một đẳng cấu từ đại số Lie $\mathfrak{s}\mathfrak{l}(2, k)$ lên đại số Lie $\mathfrak{s}_{\alpha}$.
 
-$a)$ Gọi $h_{\alpha}$ là phần tử duy nhất của $\mathfrak{h}$ sao cho $\alpha (h) =\langle h_{\alpha}, h\rangle$ với mọi $h\in \mathfrak{h}$. Theo Mệnh đề $1, [x, y] =\langle x, y\rangle h_{\alpha}$ với mọi $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$; mặt khác $\langle \mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}\rangle  \not= 0$. Do đó $\mathfrak{h}_{\alpha}= [\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}] =kh_{\alpha}$.
+a) Gọi $h_{\alpha}$ là phần tử duy nhất của $\mathfrak{h}$ sao cho $\alpha (h) =\langle h_{\alpha}, h\rangle$ với mọi $h\in \mathfrak{h}$. Theo Mệnh đề $1, [x, y] =\langle x, y\rangle h_{\alpha}$ với mọi $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$; mặt khác $\langle \mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}\rangle  \not= 0$. Do đó $\mathfrak{h}_{\alpha}= [\mathfrak{g}^{\alpha},\mathfrak{g}^{-\alpha}] =kh_{\alpha}$.
 
-$b)$ Chọn $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$ sao cho $\langle x, y\rangle = 1$, do đó $[x, y] =h_{\alpha}$. Nhắc lại rằng $[h_{\alpha}, x] =\alpha (h_{\alpha})x, [h_{\alpha}, y] =-\alpha (h_{\alpha})y$. Nếu $\alpha (h_{\alpha}) = 0$, suy ra $kx+ky+kh_{\alpha}$ là một đại số con lũy linh $\mathfrak{t}$ của $\mathfrak{g}$; vì $h_{\alpha}\in [\mathfrak{t},\mathfrak{t}]$, ad$_{\mathfrak{g}}h_{\alpha}$ là lũy linh (Chương I, §5, no. 3, Định lý 1), điều này vô lý vì ad$_{\mathfrak{g}}h_{\alpha}$ là nửa đơn khác không. Vậy $\alpha (h_{\alpha})\not= 0$. Do đó tồn tại duy nhất $H_{\alpha}\in \mathfrak{h}_{\alpha}$ sao cho $\alpha (H_{\alpha}) = 2$, điều này chứng minh (ii).
+b) Chọn $x\in \mathfrak{g}^{\alpha},y\in \mathfrak{g}^{-\alpha}$ sao cho $\langle x, y\rangle = 1$, do đó $[x, y] =h_{\alpha}$. Nhắc lại rằng $[h_{\alpha}, x] =\alpha (h_{\alpha})x, [h_{\alpha}, y] =-\alpha (h_{\alpha})y$. Nếu $\alpha (h_{\alpha}) = 0$, suy ra $kx+ky+kh_{\alpha}$ là một đại số con lũy linh $\mathfrak{t}$ của $\mathfrak{g}$; vì $h_{\alpha}\in [\mathfrak{t},\mathfrak{t}]$, ad$_{\mathfrak{g}}h_{\alpha}$ là lũy linh (Chương I, §5, no. 3, Định lý 1), điều này vô lý vì ad$_{\mathfrak{g}}h_{\alpha}$ là nửa đơn khác không. Vậy $\alpha (h_{\alpha})\not= 0$. Do đó tồn tại duy nhất $H_{\alpha}\in \mathfrak{h}_{\alpha}$ sao cho $\alpha (H_{\alpha}) = 2$, điều này chứng minh (ii).
 
-$c)$ Chọn một phần tử khác không $X_{\alpha}$ của $\mathfrak{g}^{\alpha}$. Tồn tại $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ sao cho $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ (vì $[X_{\alpha},\mathfrak{g}^{-\alpha}] =\mathfrak{h}_{\alpha}$ theo $b$)$)$. Khi đó
+c) Chọn một phần tử khác không $X_{\alpha}$ của $\mathfrak{g}^{\alpha}$. Tồn tại $X_{-\alpha}\in \mathfrak{g}^{-\alpha}$ sao cho $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ (vì $[X_{\alpha},\mathfrak{g}^{-\alpha}] =\mathfrak{h}_{\alpha}$ theo $b$)$)$. Khi đó
 
 $$
 [H_{\alpha}, X_{\alpha}] =\alpha (H_{\alpha})X_{\alpha}= 2X_{\alpha},[H_{\alpha}, X_{-\alpha}] =-\alpha (H_{\alpha})X_{-\alpha}=-2X_{-\alpha}
@@ -129,7 +129,7 @@ $$
 
 do đó $kX_{\alpha}+kX_{-\alpha}+kH_{\alpha}$ là một đại số con của $\mathfrak{g}$ và ánh xạ tuyến tính $\varphi$ từ $\mathfrak{s}\mathfrak{l}(2, k)$ tới $kX_{\alpha}+kX_{-\alpha}+kH_{\alpha}$ sao cho $\varphi (X_+) =X_{\alpha},\varphi (X_-) =X_{-\alpha}$, $\varphi (H) =H_{\alpha}$ là một đẳng cấu của các đại số Lie.
 
-$d)$ Giả sử dim$\mathfrak{g}^{\alpha}>1$. Cho $y$ là một phần tử khác không của $\mathfrak{g}^{-\alpha}$. Tồn tại một phần tử khác không $X_{\alpha}$ của $\mathfrak{g}_{\alpha}$ sao cho $\langle y, X_{\alpha}\rangle = 0$. Chọn $X_{-\alpha}$ như trong $c)$, và xét biểu diễn $\rho :u \rightarrow$ ad$_{\mathfrak{g}}\varphi (u)$ từ $\mathfrak{s}\mathfrak{l}(2, k)$ vào $\mathfrak{g}$. Ta có
+d) Giả sử dim$\mathfrak{g}^{\alpha}>1$. Cho $y$ là một phần tử khác không của $\mathfrak{g}^{-\alpha}$. Tồn tại một phần tử khác không $X_{\alpha}$ của $\mathfrak{g}_{\alpha}$ sao cho $\langle y, X_{\alpha}\rangle = 0$. Chọn $X_{-\alpha}$ như trong c), và xét biểu diễn $\rho :u \rightarrow$ ad$_{\mathfrak{g}}\varphi (u)$ từ $\mathfrak{s}\mathfrak{l}(2, k)$ vào $\mathfrak{g}$. Ta có
 
 $$
 \rho (H)y= [\varphi (H), y] = [H_{\alpha}, y] =-2y
@@ -141,7 +141,7 @@ $$
 
 Vì thế, $y$ là nguyên thủy đối với $\rho$, có trọng số $-2$, điều này mâu thuẫn với Mệnh đề 2 của §1, no. 2. Điều này chứng minh (i).
 
-$e)$ Mệnh đề (iii) bây giờ là một hệ quả của $c)$. Mặt khác, nếu $X_{\alpha}$ là một phần tử khác không của $\mathfrak{g}^{\alpha}$, thì phần tử $X_{-\alpha}$ được xây dựng trong $c)$ là phần tử duy nhất của $\mathfrak{g}^{-\alpha}$ sao cho $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ vì dim $\mathfrak{g}^{-\alpha}= 1$. Khẳng định cuối cùng của (iv) là một hệ quả của $c)$. Q.E.D.
+e) Mệnh đề (iii) bây giờ là một hệ quả của c). Mặt khác, nếu $X_{\alpha}$ là một phần tử khác không của $\mathfrak{g}^{\alpha}$, thì phần tử $X_{-\alpha}$ được xây dựng trong c) là phần tử duy nhất của $\mathfrak{g}^{-\alpha}$ sao cho $[X_{\alpha}, X_{-\alpha}] =-H_{\alpha}$ vì dim $\mathfrak{g}^{-\alpha}= 1$. Khẳng định cuối cùng của (iv) là một hệ quả của c). Q.E.D.
 
 Các ký hiệu $h_{\alpha},H_{\alpha},\mathfrak{s}_{\alpha}$ sẽ được giữ lại trong phần sau. (Để định nghĩa $h_{\alpha}$, ta lấy $\langle \cdot ,\cdot \rangle$ bằng dạng Killing.) Nếu $X_{\alpha}$ là một phần tử khác không của $\mathfrak{g}^{\alpha}$, thì đẳng cấu $\varphi$ của Định lý 1 và biểu diễn $u \rightarrow$ ad$_{\mathfrak{g}}\varphi (u)$ của $\mathfrak{s}\mathfrak{l}(2, k)$ trên $\mathfrak{g}$ sẽ được gọi là liên kết với $X_{\alpha}$.
 

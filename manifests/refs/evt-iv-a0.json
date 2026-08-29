@@ -1,0 +1,17 @@
+{"edges": [
+{"from":"","from_label":"evt-iv-a0","kind":"cites","raw":"X, § 3, No. 1","form":"section","resolved_by":"out-of-corpus","chapter":"X","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":74},
+{"from":"","from_label":"evt-iv-a0-lem-1","to_label":"evt-iii-s3","kind":"cites","raw":"III, p. 17","form":"page","resolved_by":"section","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":96},
+{"from":"","from_label":"evt-iv-a0-lem-2","to_label":"evt-ii-s7","kind":"cites","raw":"II, p. 55","form":"page","resolved_by":"section","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":140},
+{"from":"","from_label":"evt-iv-a0-lem-2","kind":"cites","raw":"IX, § 5, No. 3","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":140},
+{"from":"","from_label":"evt-iv-a0-lem-2","to_label":"evt-ii-s7","kind":"cites","raw":"II, p. 55","form":"page","resolved_by":"section","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":142},
+{"from":"","from_label":"evt-iv-a0-lem-2","to_label":"evt-ii-s7","kind":"cites","raw":"II, p. 56","form":"page","resolved_by":"section","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":142},
+{"from":"","from_label":"evt-iv-a0-lem-3","to_label":"evt-iii-s3","kind":"cites","raw":"III, § 3, No. 4","form":"section","resolved_by":"section","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":162},
+{"from":"","from_label":"evt-iv-a0-lem-3","kind":"cites","raw":"IX, § 2, No. 8","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":164},
+{"from":"","from_label":"evt-iv-a0-n3-cor-1","to_label":"evt-iv-s2","kind":"cites","raw":"IV, p. 15","form":"page","resolved_by":"section","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":188},
+{"from":"","from_label":"evt-iv-a0","kind":"cites","raw":"X, § 3, No. 4","form":"section","resolved_by":"out-of-corpus","chapter":"X","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":230},
+{"from":"","from_label":"evt-iv-a0","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 25","form":"page","resolved_by":"section","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":230},
+{"from":"","from_label":"evt-iv-a0","kind":"cites","raw":"VII, § 1, No. 2","form":"section","resolved_by":"out-of-corpus","chapter":"VII","file":"content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md","line":250},
+{"from":"","from_label":"evt-iv-a0-ex-8","to_label":"evt-iii-s3","kind":"cites","raw":"III, p. 22","form":"page","resolved_by":"section","file":"content/en/evt/IV/exercises/a0/08.md","line":59},
+{"from":"","from_label":"evt-iv-a0-ex-8","to_label":"evt-iii-s4","kind":"cites","raw":"III, p. 27","form":"page","resolved_by":"section","file":"content/en/evt/IV/exercises/a0/08.md","line":63},
+{"from":"","from_label":"evt-iv-a0-ex-8","to_label":"evt-iii-s4","kind":"cites","raw":"III, p. 27","form":"page","resolved_by":"section","file":"content/en/evt/IV/exercises/a0/08.md","line":64}
+]}

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 364
 statements: 15
 exercises: 15
-content_sha256: 8391d460561adeb449ac1dffa38cdbf8ce479bf1cd6f9f8c60527fcfd05e8a6f
+content_sha256: d2178e31c081e0480a4d4b238d5f836620d03ea14b805f7aa3091d47b48f145d
 ---
 
 ## § 1. PRINCIPAL IDEAL DOMAINS
@@ -96,7 +96,7 @@ a) « $d$ is a gcd of $a$ and $b$ » is equivalent to « $(d) = (a) + (b)$ ».
 b) « $m$ is an lcm of $a$ and $b$ » is equivalent to « $m = (a) \cap (b)$ ».
 c) « $p$ is an irreducible element of $A$ » is equivalent to « $(p)$ is a nonzero maximal ideal of $A$ » and to « $(p)$ is a nonzero prime ideal of $A$ ».
 
-We have already proved $a)$ (Prop. *1*). Since the common multiples of $a$ and $b$ are the elements of $(a) \cap (b)$, and since, by hypothesis, the ideal $(a) \cap (b)$ is principal, say $(a) \cap (b) = (m)$, it follows that $m$ is an Icm of $a$ and $b$, which proves $b)$. Finally, to say that $p \neq 0$ is an irreducible element of $A$ means by definition (VI, p. *17*) that $(p)$ is a maximal element of the family of principal ideals $\neq A$ of $A$, ordered by inclusion; since $A$ has no ideals other than the principal ideals, this means that $(p)$ is a maximal ideal of $A$, whence $c)$, by the remark in VI, p. 17.
+We have already proved a) (Prop. *1*). Since the common multiples of $a$ and $b$ are the elements of $(a) \cap (b)$, and since, by hypothesis, the ideal $(a) \cap (b)$ is principal, say $(a) \cap (b) = (m)$, it follows that $m$ is an Icm of $a$ and $b$, which proves b). Finally, to say that $p \neq 0$ is an irreducible element of $A$ means by definition (VI, p. *17*) that $(p)$ is a maximal element of the family of principal ideals $\neq A$ of $A$, ordered by inclusion; since $A$ has no ideals other than the principal ideals, this means that $(p)$ is a maximal ideal of $A$, whence c), by the remark in VI, p. 17.
 
 In a principal ideal domain $A$, the sum (resp. the intersection) of a finite number of ideals is also called the gcd (resp. lcm) of these ideals.
 

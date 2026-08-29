@@ -48,9 +48,9 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: 0fef601142ca5eda4ed34245eb787fa759da5589a484d466fca3369078b197e6
+content_sha256: dcc3ae76848d01fd6281ccd5d648609cffbfebe835ab728bbd49732c7d29dc0d
 translated_from: content/en/top/II/03_s3_complete_spaces.md
-source_content_sha256: b899daa8846633f6cdf61d18cd1f4b10d1cd0aa64ecf5736fc852ce65373e0b1
+source_content_sha256: d782c4a27c7dfb328d8d4bcb0a0fc179bed02b77ea87afcfdc15ece558d53cbb
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-b50a24e1
 glossary_version: 34
@@ -214,7 +214,7 @@ Trong các điều kiện của Mệnh đề 7, nếu $U_2$ là một tôpô đ�
 
 Vì mọi bộ lọc Cauchy đối với $U_1$ khi đó là một bộ lọc Cauchy đối với $U_2$ và do đó hội tụ trong tôpô $\mathcal{T}_2$.
 
-Chú ý rằng các giả thiết của Hệ quả của Mệnh đề 7 được thỏa mãn khi $\mathcal{T}_1 = \mathcal{T}_2$ (\S 1, no. 2, Hệ quả 2 của Mệnh đề 2).
+Chú ý rằng các giả thiết của Hệ quả của Mệnh đề 7 được thỏa mãn khi $\mathcal{T}_1 = \mathcal{T}_2$ (§ 1, no. 2, Hệ quả 2 của Mệnh đề 2).
 
 ### 4. KHÔNG GIAN CON CỦA CÁC KHÔNG GIAN ĐẦY ĐỦ
 
@@ -357,7 +357,7 @@ tổng sau này là một hàm khả chỉnh trong một lân cận nào đó c�
 
 *Cho $A$ là một tập con trù mật của một không gian tôpô $X$, và cho $f$ là một ánh xạ từ $A$ vào một không gian đều Hausdorff đầy đủ $X'$. Khi đó $f$ có thể được mở rộng bằng tính liên tục đến $X$ khi và chỉ khi, với mỗi $x \in X$, ảnh dưới $f$ của vết trên $A$ của lọc lân cận của $x$ trong $X$ là một cơ sở lọc Cauchy trong $X'$.
 
-Điều này suy ra từ định lý mở rộng bằng tính liên tục (loc. cit.) vì $X'$ chính quy (\$ 1, no. 2, Mệnh đề 3) và vì trên $X'$ các lọc hội tụ cũng chính là các lọc Cauchy.
+Điều này suy ra từ định lý mở rộng bằng tính liên tục (loc. cit.) vì $X'$ chính quy (§ 1, no. 2, Mệnh đề 3) và vì trên $X'$ các lọc hội tụ cũng chính là các lọc Cauchy.
 
 Khi $X$ cũng là một không gian đều, có định lý sau:
 
@@ -399,7 +399,7 @@ Cần lưu ý rằng nếu $f$ là một ánh xạ liên tục đều *song ánh
 
 Tiếp theo ta chứng minh rằng không gian đều $\hat{X}$ là Hausdorff. Cho $\mathcal{K}, \mathcal{Y}$ là hai bộ lọc Cauchy cực tiểu trên $X$ sao cho $(\mathcal{K}, \mathcal{Y}) \in \hat{X}$ với mọi entourage đối xứng $V$ của $X$. Suy ra ngay rằng các tập $M \cup N$, với $M \in \mathcal{K}$ và $N \in \mathcal{Y}$, lập thành một cơ sở của một bộ lọc $\mathcal{B}$ thô hơn $\mathcal{K}$ và $\mathcal{Y}$. Bây giờ $\mathcal{B}$ là một bộ lọc Cauchy, vì với mọi entourage đối xứng $V$ của $X$ theo giả thiết có một tập $V$-nhỏ $P$ thuộc cả $\mathcal{K}$ và $\mathcal{Y}$ và do đó thuộc $\mathcal{B}$. Theo định nghĩa của các bộ lọc Cauchy cực tiểu, ta có $\mathcal{K} = \mathcal{B} = \mathcal{Y}$, và điều này cho thấy rằng $\hat{X}$ là Hausdorff.
 
-2) Định nghĩa của $i$; cấu trúc đều của $X$ là ảnh ngược qua $i$ của cấu trúc của $\hat{X}$. Ta biết rằng với mỗi $x \in X$ thì bộ lọc lân cận $\mathfrak{B}(x)$ của $x$ trong $X$ là một bộ lọc Cauchy cực tiểu (no. 2, Mệnh đề 5, Hệ quả 1). Vì vậy ta định nghĩa $i(x) = \mathfrak{B}(x)$. Đặt $f = i \times i$; ta sẽ chứng minh rằng với mỗi lân cận đối xứng $V$ của $X$ ta có $j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$, và điều này sẽ chứng minh mệnh đề của ta (\S 2, no. 4). Bây giờ, nếu $[i(x), i(y)] \in \tilde{V}$, thì có một tập $V$-nhỏ $M$ là lân cận của cả $x$ và $y$, do đó $(x, y) \in V$. Ngược lại, nếu $(x, y) \in V$, thì thấy ngay rằng tập $V(x) \cup V(y)$ là $V$-nhỏ và là lân cận của cả $x$ và $y$.
+2) Định nghĩa của $i$; cấu trúc đều của $X$ là ảnh ngược qua $i$ của cấu trúc của $\hat{X}$. Ta biết rằng với mỗi $x \in X$ thì bộ lọc lân cận $\mathfrak{B}(x)$ của $x$ trong $X$ là một bộ lọc Cauchy cực tiểu (no. 2, Mệnh đề 5, Hệ quả 1). Vì vậy ta định nghĩa $i(x) = \mathfrak{B}(x)$. Đặt $f = i \times i$; ta sẽ chứng minh rằng với mỗi lân cận đối xứng $V$ của $X$ ta có $j^{-1}(\tilde{V}) \subset V \cup j^{-1}[(\tilde{V})^3]$, và điều này sẽ chứng minh mệnh đề của ta (§ 2, no. 4). Bây giờ, nếu $[i(x), i(y)] \in \tilde{V}$, thì có một tập $V$-nhỏ $M$ là lân cận của cả $x$ và $y$, do đó $(x, y) \in V$. Ngược lại, nếu $(x, y) \in V$, thì thấy ngay rằng tập $V(x) \cup V(y)$ là $V$-nhỏ và là lân cận của cả $x$ và $y$.
 
 3) $\hat{X}$ là đầy đủ và $i(X)$ trù mật trong $\hat{X}$. Phần vết trên $i(X)$ của một lân cận $\tilde{V}(\mathcal{X})$ của một điểm $\mathcal{X} \in X$ là tập gồm mọi $i(x)$ sao cho
 
@@ -443,7 +443,7 @@ Ta cũng lưu ý các sự kiện sau:
 (iii) *Cấu trúc đều của* $X$ *là ảnh ngược qua* $i$ *của cấu trúc đều của* $\hat{X}$ *[hoặc của cấu trúc đều của không gian con* $i(X)$].
 (iv) *Các lân cận của* $i(X)$ *là các ảnh qua* $i \times i$ *của các lân cận của* $X$, *và các bao đóng trong* $\hat{X} \times \hat{X}$ *của các lân cận của* $i(X)$ *tạo thành một hệ cơ bản các lân cận của* $\hat{X}$.
 
-(i) và (iii) đã được chứng minh trong quá trình chứng minh Định lý 3; (iv) là hệ quả của (i) và (iii) nhờ các kết quả tổng quát đã chứng minh trước đó (\S 2, no. 4, Nhận xét và Mệnh đề 6). Quan hệ
+(i) và (iii) đã được chứng minh trong quá trình chứng minh Định lý 3; (iv) là hệ quả của (i) và (iii) nhờ các kết quả tổng quát đã chứng minh trước đó (§ 2, no. 4, Nhận xét và Mệnh đề 6). Quan hệ
 $$
 i(x) = i(x')
 $$
@@ -535,13 +535,13 @@ Không gian Hausdorff liên kết với một không gian đều cũng có thể
 
 Cho $X$ là một không gian đều, $i(X)$ là không gian Hausdorff liên kết của nó, và cho $f$ là một ánh xạ của $X$ lên một không gian đều Hausdorff $X'$, sao cho cấu trúc đều của $X$ là ảnh ngược qua $f$ của cấu trúc đều của $X'$. Khi đó ánh xạ $g : i(X) \to X'$ sao cho $f = g \circ i$ là một đẳng cấu.
 
-Theo Mệnh đề 16, $g$ là liên tục đều; đồng thời $g$ hiển nhiên là toàn ánh, và cũng là đơn ánh vì đẳng thức $f(x) = f(y)$ suy ra theo định nghĩa rằng $(x, y)$ thuộc mọi lân cận của $X$, và do đó $i(x) = i(y)$ (no. 7, Mệnh đề 12). Cuối cùng, các lân cận của $X'$ là các ảnh qua $f \times f$ của các lân cận của $X$ ($\S 2$, no. 4, Nhận xét), do đó chúng cũng là các ảnh qua $g \times g$ của các lân cận của $i(X)$ (no. 7, Mệnh đề 12); suy ra điều phải chứng minh.
+Theo Mệnh đề 16, $g$ là liên tục đều; đồng thời $g$ hiển nhiên là toàn ánh, và cũng là đơn ánh vì đẳng thức $f(x) = f(y)$ suy ra theo định nghĩa rằng $(x, y)$ thuộc mọi lân cận của $X$, và do đó $i(x) = i(y)$ (no. 7, Mệnh đề 12). Cuối cùng, các lân cận của $X'$ là các ảnh qua $f \times f$ của các lân cận của $X$ ($§ 2$, no. 4, Nhận xét), do đó chúng cũng là các ảnh qua $g \times g$ của các lân cận của $i(X)$ (no. 7, Mệnh đề 12); suy ra điều phải chứng minh.
 
 #### Nhận xét {#top-ii-s3-n8-rem-1 .statement}
 
-Cho $R$ là quan hệ tương đương $i(x) = i(x')$ trên $X$. Ta đã thấy (no. 7, Mệnh đề 12) rằng đồ thị $C$ của $R$ là giao của mọi lân cận của $X$. Hiển nhiên mọi tập mở (và do đó mọi tập đóng) trong $X$ đều *bão hòa* đối với $R$; xét đến định nghĩa của ảnh ngược của một tôpô, ta kết luận rằng song ánh chính tắc của không gian thương $X/R$ lên $i(X)$ cảm sinh bởi $i$ là một *đồng phôi*. Không gian Hausdorff liên kết với $X$ vì thế có thể được đồng nhất, *với tư cách là* không gian tôpô, với $X/R$. Ánh xạ chính tắc $i : X \to i(X)$ là mở và đóng, và thậm chí là thực sự (Chương I, $\S 10$, no. 2, Ví dụ).
+Cho $R$ là quan hệ tương đương $i(x) = i(x')$ trên $X$. Ta đã thấy (no. 7, Mệnh đề 12) rằng đồ thị $C$ của $R$ là giao của mọi lân cận của $X$. Hiển nhiên mọi tập mở (và do đó mọi tập đóng) trong $X$ đều *bão hòa* đối với $R$; xét đến định nghĩa của ảnh ngược của một tôpô, ta kết luận rằng song ánh chính tắc của không gian thương $X/R$ lên $i(X)$ cảm sinh bởi $i$ là một *đồng phôi*. Không gian Hausdorff liên kết với $X$ vì thế có thể được đồng nhất, *với tư cách là* không gian tôpô, với $X/R$. Ánh xạ chính tắc $i : X \to i(X)$ là mở và đóng, và thậm chí là thực sự (Chương I, $§ 10$, no. 2, Ví dụ).
 
-Cho $X'$ là một không gian đều khác, $C'$ là giao của mọi lân cận của $X'$, và $R'$ là quan hệ tương đương có đồ thị là $C'$. Cho $f : X \to X'$ là một ánh xạ *liên tục*. Vì ảnh ngược qua $f$ của bất kỳ lân cận nào của $f(x)$ là một lân cận của $x$, suy ra ảnh ngược qua $f$ của $C'(f(x))$ chứa $C(x)$, và do đó $f$ *tương thích* với $R$ và $R'$, và cảm sinh một ánh xạ liên tục $X/R \to X'/R'$ (Chương I, $\S 3$, no. 4, Hệ quả của Mệnh đề 6). Điều này khái quát hóa hệ quả của Mệnh đề 16.
+Cho $X'$ là một không gian đều khác, $C'$ là giao của mọi lân cận của $X'$, và $R'$ là quan hệ tương đương có đồ thị là $C'$. Cho $f : X \to X'$ là một ánh xạ *liên tục*. Vì ảnh ngược qua $f$ của bất kỳ lân cận nào của $f(x)$ là một lân cận của $x$, suy ra ảnh ngược qua $f$ của $C'(f(x))$ chứa $C(x)$, và do đó $f$ *tương thích* với $R$ và $R'$, và cảm sinh một ánh xạ liên tục $X/R \to X'/R'$ (Chương I, $§ 3$, no. 4, Hệ quả của Mệnh đề 6). Điều này khái quát hóa hệ quả của Mệnh đề 16.
 
 ### 9. SỰ HOÀN THÀNH CỦA CÁC KHÔNG GIAN CON VÀ CÁC KHÔNG GIAN TÍCH
 
@@ -561,9 +561,9 @@ $$
 
 giao hoán (*i* là ánh xạ chính tắc).
 
-Tính bắc cầu của các cấu trúc đều ban đầu (\S 2, no. 3, Proposition 5) cho thấy một mặt rằng $\mathcal{U}$ là cấu trúc đều thô nhất sao cho các ánh xạ $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ đều liên tục, và mặt khác rằng $\mathcal{U}$ cũng là ảnh ngược qua $i$ của cấu trúc đều thô nhất $\mathcal{U}'$ trên tập hợp $X'$ sao cho các $f'_\lambda$ đều liên tục. Bây giờ $\mathcal{U}'$ là *Hausdorff*, vì nếu $x_1, x_2$ là hai điểm của $X$ sao cho $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ với mỗi $\lambda \in L$, thì $(x_1, x_2)$ thuộc mọi lân cận của $\mathcal{U}$ và do đó $i(x_1) = i(x_2)$. Do đó Proposition 17 của no. 8 cho thấy $\mathcal{U}'$ là cấu trúc đều của không gian Hausdorff $X'$ liên kết với $X$.
+Tính bắc cầu của các cấu trúc đều ban đầu (§ 2, no. 3, Proposition 5) cho thấy một mặt rằng $\mathcal{U}$ là cấu trúc đều thô nhất sao cho các ánh xạ $j_\lambda \circ f_\lambda : X \to Y'_\lambda$ đều liên tục, và mặt khác rằng $\mathcal{U}$ cũng là ảnh ngược qua $i$ của cấu trúc đều thô nhất $\mathcal{U}'$ trên tập hợp $X'$ sao cho các $f'_\lambda$ đều liên tục. Bây giờ $\mathcal{U}'$ là *Hausdorff*, vì nếu $x_1, x_2$ là hai điểm của $X$ sao cho $j_\lambda(f_\lambda(x_1)) = j_\lambda(f_\lambda(x_2))$ với mỗi $\lambda \in L$, thì $(x_1, x_2)$ thuộc mọi lân cận của $\mathcal{U}$ và do đó $i(x_1) = i(x_2)$. Do đó Proposition 17 của no. 8 cho thấy $\mathcal{U}'$ là cấu trúc đều của không gian Hausdorff $X'$ liên kết với $X$.
 
-Do đó, song ánh $x' \to (f'_\lambda(x'))$ đồng nhất $X$ với một không gian con đều của tích $\prod_\lambda Y'_\lambda$ (\S 2, no. 6, Mệnh đề 8). Vì các $Y'_\lambda$ là Hausdorff, nên mỗi $Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của phần hoàn thành $\hat{Y}_\lambda$ của nó, và do đó $\prod_\lambda Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của $\prod_\lambda \hat{Y}_\lambda$ (Chương I, \S 4, no. 3, Mệnh đề 7). Nhưng $\prod_\lambda \hat{Y}_\lambda$ là Hausdorff và đầy đủ (no. 5, Mệnh đề 10); do đó, bao đóng $\overline{X'}$ của $X'$ trong $\prod_\lambda \hat{Y}_\lambda$ là một không gian con Hausdorff đầy đủ (no. 4, Mệnh đề 8) có thể được đồng nhất với phần hoàn thành Hausdorff $\hat{X}$ của $X$; dưới sự đồng nhất này, các ánh xạ $\hat{f}_\lambda$ trở thành các phép chiếu lên các thừa số $\hat{Y}_\lambda$, và mệnh đề được chứng minh.
+Do đó, song ánh $x' \to (f'_\lambda(x'))$ đồng nhất $X$ với một không gian con đều của tích $\prod_\lambda Y'_\lambda$ (§ 2, no. 6, Mệnh đề 8). Vì các $Y'_\lambda$ là Hausdorff, nên mỗi $Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của phần hoàn thành $\hat{Y}_\lambda$ của nó, và do đó $\prod_\lambda Y'_\lambda$ có thể được đồng nhất với một không gian con trù mật của $\prod_\lambda \hat{Y}_\lambda$ (Chương I, § 4, no. 3, Mệnh đề 7). Nhưng $\prod_\lambda \hat{Y}_\lambda$ là Hausdorff và đầy đủ (no. 5, Mệnh đề 10); do đó, bao đóng $\overline{X'}$ của $X'$ trong $\prod_\lambda \hat{Y}_\lambda$ là một không gian con Hausdorff đầy đủ (no. 4, Mệnh đề 8) có thể được đồng nhất với phần hoàn thành Hausdorff $\hat{X}$ của $X$; dưới sự đồng nhất này, các ánh xạ $\hat{f}_\lambda$ trở thành các phép chiếu lên các thừa số $\hat{Y}_\lambda$, và mệnh đề được chứng minh.
 
 #### Hệ quả 1 {#top-ii-s3-prop-18-cor-1 .statement}
 
@@ -575,4 +575,4 @@ Do đó, song ánh $x' \to (f'_\lambda(x'))$ đồng nhất $X$ với một khô
 
 ### Bài tập {#top-ii-s3-exercises}
 
-Xem [các bài tập cho \S 3](exercises/s3/).
+Xem [các bài tập cho § 3](exercises/s3/).

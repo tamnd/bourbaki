@@ -1,0 +1,20 @@
+{"edges": [
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s6","kind":"cites","raw":"§ 6, no. 3","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":46},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s2","kind":"cites","raw":"§ 2, no. 4","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":46},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s6","kind":"cites","raw":"§ 6, no. 3","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":52},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s6","kind":"cites","raw":"§ 6, no. 3","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":59},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s6-def-1","kind":"cites","raw":"§ 6, no. 4, Definition 1","form":"section","resolved_by":"section-no","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":63},
+{"from":"","from_label":"lie-ii-s7-lem-1","to_label":"lie-ii-s6","kind":"cites","raw":"§ 6, no. 4","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":121},
+{"from":"","from_label":"lie-ii-s7-prop-1","to_label":"lie-ii-s7-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":148},
+{"from":"","from_label":"lie-ii-s7-prop-2","to_label":"lie-ii-s6-prop-4","kind":"cites","raw":"Proposition 4 of § 6, no. 5","form":"section","resolved_by":"section-no","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":222},
+{"from":"","from_label":"lie-ii-s7-prop-2","to_label":"lie-iii-s1","kind":"cites","raw":"Chapter III, § 1","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":252},
+{"from":"","from_label":"lie-ii-s7","to_label":"top-ix-s3","kind":"cites","raw":"General Topology, Chapter IX, § 3, no. 7","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":256},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s5-prop-1","kind":"cites","raw":"Proposition 1 of § 5, no. 1","form":"section","resolved_by":"section-no","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":264},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s5","kind":"cites","raw":"§ 5, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":266},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s5","kind":"cites","raw":"§ 5, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":272},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s6","kind":"cites","raw":"§ 6, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":290},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s7-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":300},
+{"from":"","from_label":"lie-ii-s7","to_label":"lie-ii-s3","kind":"cites","raw":"§ 3, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md","line":304},
+{"from":"","from_label":"lie-ii-s7-ex-1","kind":"cites","raw":"Functions of a Real Variable, Chapter VI, § 2, no. 3","form":"section","resolved_by":"out-of-corpus","book":"FVR","chapter":"VI","file":"content/en/lie/II/exercises/s7/01.md","line":20},
+{"from":"","from_label":"lie-ii-s7-ex-1","to_label":"lie-ii-s7-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/lie/II/exercises/s7/01.md","line":32}
+]}

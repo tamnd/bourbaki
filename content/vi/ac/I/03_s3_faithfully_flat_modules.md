@@ -41,9 +41,9 @@ subsections:
       pdf_page: 55
 statements: 18
 exercises: 10
-content_sha256: 8b587a9f5f49785d7231e6426948fabc756a6cc0be21aea41054c0a7508c31bb
+content_sha256: 513e330a164a52bd5b70274660d7432ca6a3049748c35dc687b01d4b60ccd1eb
 translated_from: content/en/ac/I/03_s3_faithfully_flat_modules.md
-source_content_sha256: 6eca3d9ab803d413bfaf6f39a861f11ddce5dbf12fbed96d89ca819c7210a451
+source_content_sha256: 0d9072835e4cc9d8e53fe3b6aad9c26f3af0064dfdb8a3707999932c7d47ff19
 translation_model: gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-15ae5fed
 glossary_version: 34
@@ -75,9 +75,9 @@ là khớp.
 
 Trước hết ta chứng minh sự tương đương của (a), (b) và (c).
 
-Ta chứng minh rằng (a) kéo theo (b). Nếu (a) đúng, rõ ràng $E$ là phẳng (\$2, no. 3, Mệnh đề 1). Mặt khác, cho $N$ là một $A$-môđun trái sao cho $T(N) = 0$ và xét dãy $0 \to N \to 0$; giả thiết $T(N) = 0$ có nghĩa là dãy $0 \to T(N) \to 0$ là khớp. Theo (a), dãy $0 \to N \to 0$ là khớp, do đó $N = 0$.
+Ta chứng minh rằng (a) kéo theo (b). Nếu (a) đúng, rõ ràng $E$ là phẳng (§ 2, no. 3, Mệnh đề 1). Mặt khác, cho $N$ là một $A$-môđun trái sao cho $T(N) = 0$ và xét dãy $0 \to N \to 0$; giả thiết $T(N) = 0$ có nghĩa là dãy $0 \to T(N) \to 0$ là khớp. Theo (a), dãy $0 \to N \to 0$ là khớp, do đó $N = 0$.
 
-Ta chứng minh rằng (b) kéo theo (c). Giả sử (b) đúng và cho $u : N' \to N$ là một đồng cấu và $I$ là ảnh của nó. Vì ảnh của $T(v)$ được đồng nhất với $T(I)$ (\$2, no. 3, Nhận xét 2), giả thiết $T(v) = 0$ kéo theo $T(I) = 0$, do đó $I = 0$ theo (b) và do đó $v = 0$.
+Ta chứng minh rằng (b) kéo theo (c). Giả sử (b) đúng và cho $u : N' \to N$ là một đồng cấu và $I$ là ảnh của nó. Vì ảnh của $T(v)$ được đồng nhất với $T(I)$ (§ 2, no. 3, Nhận xét 2), giả thiết $T(v) = 0$ kéo theo $T(I) = 0$, do đó $I = 0$ theo (b) và do đó $v = 0$.
 
 Ta chứng minh rằng (c) kéo theo (a). Khi đó giả sử (c) đúng và xét một dãy
 $$
@@ -88,7 +88,7 @@ $$
 T(N') \xrightarrow{T(v)} T(N) \xrightarrow{T(w)} T(N'').
 $$
 
-Nếu dãy (1) là khớp, thì (2) cũng khớp, vì $E$ là phẳng (\$2, no. 3, Mệnh đề 1). Ngược lại, nếu (2) là khớp, trước hết ta có $T(w \circ v) = T(w) \circ T(v) = 0$, do đó $w \circ v = 0$ theo giả thiết. Đặt $I = v(N')$ và $K = \overline{w}(0)$; khi đó $I$ được chứa trong $K$ theo điều trên. Xét dãy khớp
+Nếu dãy (1) là khớp, thì (2) cũng khớp, vì $E$ là phẳng (§ 2, no. 3, Mệnh đề 1). Ngược lại, nếu (2) là khớp, trước hết ta có $T(w \circ v) = T(w) \circ T(v) = 0$, do đó $w \circ v = 0$ theo giả thiết. Đặt $I = v(N')$ và $K = \overline{w}(0)$; khi đó $I$ được chứa trong $K$ theo điều trên. Xét dãy khớp
 $$
 0 \to I \xrightarrow{i} K \xrightarrow{p} K/I \to 0
 $$
@@ -96,7 +96,7 @@ trong đó $i$ và $p$ là các ánh xạ chính tắc. Vì $E$ là phẳng, dã
 $$
 0 \to T(I) \xrightarrow{T(i)} T(K) \xrightarrow{T(p)} T(K/I) \to 0
 $$
-là khớp, nói cách khác, $T(K/I)$ là đẳng cấu với $T(K)/T(I)$, mà bằng 0 theo giả thiết, vì $T(I)$ (tương ứng $T(K)$) được đồng nhất với ảnh của $T(v)$ (tương ứng hạt nhân của $T(w)$) (\$2, no. 3, Nhận xét 2). Nhưng quan hệ $T(p) = 0$ suy ra $p = 0$ theo giả thiết, do đó $K = I$, điều này chứng minh rằng dãy (1) là khớp.
+là khớp, nói cách khác, $T(K/I)$ là đẳng cấu với $T(K)/T(I)$, mà bằng 0 theo giả thiết, vì $T(I)$ (tương ứng $T(K)$) được đồng nhất với ảnh của $T(v)$ (tương ứng hạt nhân của $T(w)$) (§ 2, no. 3, Nhận xét 2). Nhưng quan hệ $T(p) = 0$ suy ra $p = 0$ theo giả thiết, do đó $K = I$, điều này chứng minh rằng dãy (1) là khớp.
 
 Cuối cùng ta chứng minh sự tương đương của (b) và (d). Nếu (b) đúng, thì
 
@@ -132,13 +132,13 @@ Nếu $E$ là một môđun $A$ phẳng trung thành, thì $E$ là một môđun
 
 Cho $0 \to E' \to E \to E'' \to +0$ là một dãy khớp của các $A$-môđun phải. Giả sử rằng $E'$ và $E''$ là phẳng và một trong chúng là phẳng trung thành. Khi đó $E$ là phẳng trung thành.
 
-Ta đã biết rằng $E$ là phẳng ($\S 2$, no. 5, Mệnh đề 5). Ta kiểm tra rằng $E$ có tính chất (b) của Mệnh đề 1. Cho $N$ là một $A$-môđun trái. Vì $E''$ là phẳng, có một dãy khớp
+Ta đã biết rằng $E$ là phẳng ($§ 2$, no. 5, Mệnh đề 5). Ta kiểm tra rằng $E$ có tính chất (b) của Mệnh đề 1. Cho $N$ là một $A$-môđun trái. Vì $E''$ là phẳng, có một dãy khớp
 
 $$
 0 \to E' \otimes_A N \to E \otimes_A N \to E'' \otimes_A N \to 0
 $$
 
-($\S 2$, no. 5, Mệnh đề 4). Nếu $E \otimes_A N = 0$, suy ra rằng $E' \otimes_A N$ và $E'' \otimes_A N$ bằng không; vì một trong các môđun $E'$, $E''$ là phẳng trung thành, điều này kéo theo $N = 0$.
+($§ 2$, no. 5, Mệnh đề 4). Nếu $E \otimes_A N = 0$, suy ra rằng $E' \otimes_A N$ và $E'' \otimes_A N$ bằng không; vì một trong các môđun $E'$, $E''$ là phẳng trung thành, điều này kéo theo $N = 0$.
 
 ### 2. TÍCH TENXƠ CỦA CÁC MÔĐUN PHẲNG TRUNG THÀNH
 
@@ -146,7 +146,7 @@ $$
 
 Cho $R, S$ là hai vành, $E$ là một $R$-môđun phải và $F$ là một song môđun $(R, S)$. Giả sử rằng $E$ là phẳng trung thành. Khi đó, để $F$ là một $S$-môđun phẳng (tương ứng. phẳng trung thành), điều kiện cần và đủ là $E \otimes_R F$ cũng như vậy.
 
-(1) Nếu $F$ là phẳng, $E \otimes_R F$ là phẳng ($\S 2$, no. 7, Mệnh đề 8).
+(1) Nếu $F$ là phẳng, $E \otimes_R F$ là phẳng ($§ 2$, no. 7, Mệnh đề 8).
 
 (2) Giả sử rằng $E \otimes_R F$ là phẳng và cho $\nu : N' \to N$ là một đồng cấu $S$-môđun trái đơn ánh. Đồng cấu
 
@@ -154,7 +154,7 @@ $$
 l_E \otimes l_F \otimes \nu : E \otimes_R F \otimes_S N' \to E \otimes_R F \otimes_S N
 $$
 
-khi đó là đơn ánh ($\S 2$, no. 3, Mệnh đề 1). Suy ra từ Mệnh đề 2 của no. 1 rằng $l_F \otimes \nu : F \otimes_S N' \to F \otimes_S N$ là đơn ánh; khi đó $F$ là một $S$-môđun phẳng ($\S 2$, no. 3, Mệnh đề 1).
+khi đó là đơn ánh ($§ 2$, no. 3, Mệnh đề 1). Suy ra từ Mệnh đề 2 của no. 1 rằng $l_F \otimes \nu : F \otimes_S N' \to F \otimes_S N$ là đơn ánh; khi đó $F$ là một $S$-môđun phẳng ($§ 2$, no. 3, Mệnh đề 1).
 
 (3) Giả sử $F$ phẳng trung thành và cho $N$ là một môđun trái $S$ sao cho $E \otimes_R F \otimes_S N = 0$. Vì $E$ phẳng trung thành, điều này suy ra rằng $F \otimes_S N = 0$, do đó $N = 0$ vì $F$ phẳng trung thành; điều này chứng tỏ rằng $E \otimes_R F$ phẳng trung thành.
 
@@ -226,7 +226,7 @@ $$
 i \otimes 1_F : \rho_*(M) \otimes_A F \to \rho_*(M) \otimes_A B \otimes_A F
 $$
 
-là đơn ánh (\S 2, no. 1, Bổ đề 2). Lấy $M = E$, suy ra (vì $i \otimes 1_F = 1_M \otimes j$) rằng $j$ là đơn ánh (no. 1, Mệnh đề 2).
+là đơn ánh (§ 2, no. 1, Bổ đề 2). Lấy $M = E$, suy ra (vì $i \otimes 1_F = 1_M \otimes j$) rằng $j$ là đơn ánh (no. 1, Mệnh đề 2).
 
 Mệnh đề (ii) suy ra từ (i) bằng cách lấy $F = A_s/a$ và (iii) suy ra từ (ii) bằng cách lấy $a = \{0\}$.
 
@@ -291,19 +291,19 @@ là đơn ánh; xét các sự đồng nhất đã thực hiện, ảnh của n�
 
 (1) Không cần giả thiết nào về $B$, hiển nhiên nếu $F$ là một $A$-môđun trái sinh hữu hạn, thì $B \otimes_A F$ là một $B$-môđun trái sinh hữu hạn. Ngược lại, nếu $B \otimes_A F$ là một $B$-môđun sinh hữu hạn, thì nó được sinh bởi một số hữu hạn các phần tử dạng $1 \otimes x_i$ với $x_i \in F$; nếu $M$ là một A-môđun con của $F$ được sinh bởi các $x_i$ và $j$ là đơn ánh chính tắc $M \to F$, $1, \otimes j : B \otimes_A M \to B \otimes_A F$ là một đồng cấu toàn ánh, do đó $j$ là toàn ánh (no. 1, Mệnh đề 2), điều này chứng tỏ rằng $F$ là sinh hữu hạn.
 
-(2) *Nếu* F *có một trình bày hữu hạn, thì* $B \otimes_A F$ *cũng vậy mà không cần giả thiết nào* về B (\S 2, no. 8). Còn phải chứng minh rằng, nếu $B \otimes_A F$ có một trình bày hữu hạn, thì F cũng vậy. Ta đã biết từ (1) rằng F sinh hữu hạn, do đó tồn tại một đồng cấu toàn ánh $u : L \to F$, trong đó L là một A-môđun tự do sinh hữu hạn. Cho R là hạt nhân của u, khi đó $B \otimes_A R$ được đồng nhất với hạt nhân của đồng cấu toàn ánh $l_B \otimes u : B \otimes_A L \to B \otimes_A F$ (\S 2, no. 3, *Nhận xét 2*). Vì $B \otimes_A F$ theo giả thiết có một trình bày hữu hạn, suy ra (\S 2, no. 8, Bổ đề 9) rằng $B \otimes_A R$ sinh hữu hạn; rồi từ (1) suy ra R là một A-môđun sinh hữu hạn và do đó F có một trình bày hữu hạn.
+(2) *Nếu* F *có một trình bày hữu hạn, thì* $B \otimes_A F$ *cũng vậy mà không cần giả thiết nào* về B (§ 2, no. 8). Còn phải chứng minh rằng, nếu $B \otimes_A F$ có một trình bày hữu hạn, thì F cũng vậy. Ta đã biết từ (1) rằng F sinh hữu hạn, do đó tồn tại một đồng cấu toàn ánh $u : L \to F$, trong đó L là một A-môđun tự do sinh hữu hạn. Cho R là hạt nhân của u, khi đó $B \otimes_A R$ được đồng nhất với hạt nhân của đồng cấu toàn ánh $l_B \otimes u : B \otimes_A L \to B \otimes_A F$ (§ 2, no. 3, *Nhận xét 2*). Vì $B \otimes_A F$ theo giả thiết có một trình bày hữu hạn, suy ra (§ 2, no. 8, Bổ đề 9) rằng $B \otimes_A R$ sinh hữu hạn; rồi từ (1) suy ra R là một A-môđun sinh hữu hạn và do đó F có một trình bày hữu hạn.
 
 #### Mệnh đề 12 {#ac-i-s3-prop-12 .statement}
 
 *Cho B là một vành và A là một vành con giao hoán của tâm của B sao cho B là một A-môđun phẳng trung thực. Để một A-môđun F là xạ ảnh và sinh hữu hạn, điều kiện cần và đủ là $B \otimes_A F$ là một B-môđun trái xạ ảnh sinh hữu hạn.*
 
-Điều kiện này hiển nhiên là cần mà không cần giả thiết nào về A hoặc B (*Đại số*, Chương II, \S 5, no. 1, Hệ quả của Mệnh đề 4); ta chứng minh rằng nó là đủ. Nếu một môđun xạ ảnh sinh hữu hạn có một trình bày hữu hạn (\S 2, no. 8, Bổ đề 8), thì giả thiết suy ra F có một trình bày hữu hạn nhờ Mệnh đề 11, do đó, với mọi A-môđun M, ta có một đẳng cấu chính tắc
+Điều kiện này hiển nhiên là cần mà không cần giả thiết nào về A hoặc B (*Đại số*, Chương II, § 5, no. 1, Hệ quả của Mệnh đề 4); ta chứng minh rằng nó là đủ. Nếu một môđun xạ ảnh sinh hữu hạn có một trình bày hữu hạn (§ 2, no. 8, Bổ đề 8), thì giả thiết suy ra F có một trình bày hữu hạn nhờ Mệnh đề 11, do đó, với mọi A-môđun M, ta có một đẳng cấu chính tắc
 
 $$
 \omega : B \otimes_A \operatorname{Hom}_A(F, M) \to \operatorname{Hom}_B(B \otimes_A F, B \otimes_A M)
 $$
 
-(\S 2, no. 10, Mệnh đề 11). Khi đó, cho $v : M \to M''$ là một đồng cấu A-môđun *toàn ánh* và xét biểu đồ giao hoán
+(§ 2, no. 10, Mệnh đề 11). Khi đó, cho $v : M \to M''$ là một đồng cấu A-môđun *toàn ánh* và xét biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
@@ -313,7 +313,7 @@ B \otimes_A \operatorname{Hom}_A(F, M'') & \xrightarrow{\omega} & \operatorname{
 \end{array}
 $$
 
-Vì $1_B \otimes v$ là toàn ánh và $B \otimes_A F$ được giả sử là xạ ảnh, $\operatorname{Hom}(1_{B \otimes F}, 1_B \otimes v)$ là *toàn ánh* (*Đại số*, Chương II, \S 2, no. 2, Mệnh đề 4) và do đó $1_B \otimes \operatorname{Hom}(1_F, v)$ cũng vậy. Nhưng vì B là một A-môđun phẳng trung thực, $\operatorname{Hom}(1_F, v)$ tự nó là toàn ánh (no. 1, Mệnh đề 2), do đó F là một A-môđun xạ ảnh (*Đại số*, Chương II, \S 2, no. 2, Mệnh đề 4).
+Vì $1_B \otimes v$ là toàn ánh và $B \otimes_A F$ được giả sử là xạ ảnh, $\operatorname{Hom}(1_{B \otimes F}, 1_B \otimes v)$ là *toàn ánh* (*Đại số*, Chương II, § 2, no. 2, Mệnh đề 4) và do đó $1_B \otimes \operatorname{Hom}(1_F, v)$ cũng vậy. Nhưng vì B là một A-môđun phẳng trung thực, $\operatorname{Hom}(1_F, v)$ tự nó là toàn ánh (no. 1, Mệnh đề 2), do đó F là một A-môđun xạ ảnh (*Đại số*, Chương II, § 2, no. 2, Mệnh đề 4).
 
 ### 7. PHƯƠNG TRÌNH TUYẾN TÍNH TRÊN MỘT VÀNH PHẲNG TRUNG THỰC
 
@@ -337,7 +337,7 @@ trong đó $(x_k)$ là một nghiệm của (3) gồm các phần tử của $A$
 
 Cho A là một vành con của một vành B. Để cặp có thứ tự $(A, B)$ thỏa mãn tính chất mở rộng tuyến tính, điều kiện cần và đủ là B là một A-môđun phẳng trung thực.
 
-Điều kiện này là *đủ*. Thật vậy, vì B là một A-môđun phẳng, mọi nghiệm với các phần tử trong B của hệ phương trình tuyến tính *thuần nhất* liên kết với (3) đều là một tổ hợp tuyến tính với hệ số trong B của các nghiệm gồm các phần tử của A (\S 2, no. 11, Hệ quả 2 của Mệnh đề 13). Bài toán khi đó quy về chứng minh rằng sự tồn tại của một nghiệm của (3) với các phần tử trong B kéo theo sự tồn tại của *một* nghiệm với các phần tử trong A. Bây giờ, nếu ta đặt
+Điều kiện này là *đủ*. Thật vậy, vì B là một A-môđun phẳng, mọi nghiệm với các phần tử trong B của hệ phương trình tuyến tính *thuần nhất* liên kết với (3) đều là một tổ hợp tuyến tính với hệ số trong B của các nghiệm gồm các phần tử của A (§ 2, no. 11, Hệ quả 2 của Mệnh đề 13). Bài toán khi đó quy về chứng minh rằng sự tồn tại của một nghiệm của (3) với các phần tử trong B kéo theo sự tồn tại của *một* nghiệm với các phần tử trong A. Bây giờ, nếu ta đặt
 
 $$
 c_k = (c_{ki})_{1 \leq i \leq m} \in A_s^m, \qquad d = (d_i) \in A_s^m,
@@ -347,7 +347,7 @@ Hệ (3) tương đương với phương trình $\sum_{k=1}^n y_k \otimes c_k = 
 
 Nói cách khác, nếu $M$ là môđun con-$A$ của $A_s^m$ được sinh bởi các $c_k$ $(1 \leq k \leq n)$, thì sự tồn tại của nghiệm $(y_k)$ của (3) tương đương (với các đồng nhất đã thực hiện ở no. 5) với quan hệ $d \in BM \cap A_s^m$; nhưng vì $BM \cap A_s^m = M$ (no. 5, Mệnh đề 10, (ii)), điều đó suy ra $d \in M$, tức là, sự tồn tại của một nghiệm $(x_k)$ của hệ (3) với các phần tử trong $A$.
 
-Điều kiện là cần thiết. Thật vậy, giả sử $(A, B)$ thỏa mãn tính chất mở rộng tuyến tính; ta đã biết rằng $B$ là một A-môđun phải phẳng (\S 2, no. 11, Hệ quả 2 của Mệnh đề 13); ta chứng minh rằng, với mọi iđêan trái $a$ của $A$, $Ba \cap A = a$, điều đó cho thấy rằng $B$ là một A-môđun phải phẳng trung thành (no. 5, Mệnh đề 9, (d)). Bây giờ, lấy $x \in Ba \cap A$; theo giả thiết tồn tại $y_i \in B$ và $a_i \in a$ sao cho $\sum_i y_i a_i = x$; tính chất (E) áp dụng cho phương trình tuyến tính này với các hệ số và vế phải trong $A$ cho thấy rằng tồn tại $x_i \in A$ sao cho $x = \sum_i x_i a_i$, do đó $x \in a$.
+Điều kiện là cần thiết. Thật vậy, giả sử $(A, B)$ thỏa mãn tính chất mở rộng tuyến tính; ta đã biết rằng $B$ là một A-môđun phải phẳng (§ 2, no. 11, Hệ quả 2 của Mệnh đề 13); ta chứng minh rằng, với mọi iđêan trái $a$ của $A$, $Ba \cap A = a$, điều đó cho thấy rằng $B$ là một A-môđun phải phẳng trung thành (no. 5, Mệnh đề 9, (d)). Bây giờ, lấy $x \in Ba \cap A$; theo giả thiết tồn tại $y_i \in B$ và $a_i \in a$ sao cho $\sum_i y_i a_i = x$; tính chất (E) áp dụng cho phương trình tuyến tính này với các hệ số và vế phải trong $A$ cho thấy rằng tồn tại $x_i \in A$ sao cho $x = \sum_i x_i a_i$, do đó $x \in a$.
 
 ### Bài tập {#ac-i-s3-exercises}
 

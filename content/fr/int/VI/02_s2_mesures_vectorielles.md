@@ -52,7 +52,7 @@ subsections:
       pdf_page: 55
 statements: 46
 exercises: 27
-content_sha256: b02e1311c2ff0a23ff6c124913cfb6d3650bcde817306e1dbf56e2aaa92763a8
+content_sha256: 6115c6b42cd15322e6df990c8dffdb5b77d30ac5140483c4ff2eb60eed5ac5d3
 ---
 
 ## § 2. Mesures vectorielles
@@ -127,7 +127,7 @@ Il est clair que l’ensemble des fonctions numériques finies essentiellement i
 
 Prenons pour $m$ l’application identique de $\mathcal{K}(T)$ sur lui-même. Comme le dual de $\mathcal{K}(T)$ est l’espace $\mathcal{M}(T)$ des mesures scalaires sur $T$, les fonctions $f \in \mathcal{L}(m)$ sont celles qui sont essentiellement intégrables pour toute mesure scalaire $\mu$ (cf. exerc. 1), et l’intégrale $\int f d\mathbf{m}$ est la forme linéaire $\mu \to \int f d\mu$ sur $\mathcal{M}(T)$. On ne peut avoir $\int f d\mu = 0$ pour toute mesure $\mu \in \mathcal{M}(T)$ que si $f = 0$, comme on le voit en prenant $\mu = \varepsilon_t$, où $t$ est arbitraire dans $T$; autrement dit l’application $f \to \int f d\mathbf{m}$ est une injection de $\mathcal{L}(m)$ dans le dual algébrique de $\mathcal{K}(T)$, qui prolonge l’application identique de $\mathcal{K}(T)$. La relation $\int f d\mathbf{m} \in F = \mathcal{K}(T)$ est donc équivalente à $f \in \mathcal{K}(T)$.
 
-Soit $u$ une application linéaire continue de $F$ dans un espace localement convexe séparé $G$, et notons encore $u$ son prolongement par bitransposition en une application linéaire de $F'^*$ dans $G'^*$ (\$ 1, no 1). Avec cette convention :
+Soit $u$ une application linéaire continue de $F$ dans un espace localement convexe séparé $G$, et notons encore $u$ son prolongement par bitransposition en une application linéaire de ${F'}^*$ dans ${G'}^*$ (§ 1, no 1). Avec cette convention :
 
 #### Proposition 2 {#int-vi-s2-prop-2 .statement}
 
@@ -137,13 +137,13 @@ $$
 $$
 La proposition est évidente, compte tenu de l’égalité $y' \circ u \circ m = 'u(y') \circ m$ pour tout $y' \in G'$.
 
-En général, si $f \in \mathcal{L}(m)$, l’intégrale $\int f d\mathbf{m}$ appartient à $F'^*$ mais non à $F$ (voir Exemple ci-dessus). Cependant :
+En général, si $f \in \mathcal{L}(m)$, l’intégrale $\int f d\mathbf{m}$ appartient à ${F'}^*$ mais non à $F$ (voir Exemple ci-dessus). Cependant :
 
 #### Proposition 3 {#int-vi-s2-prop-3 .statement}
 
 Si l’image par $m$ de l’ensemble des $f \in \mathcal{K}(T)$ telles que $\sup_{t \in T} |f(t)| \leq 1$ est faiblement relativement compacte dans $F$, alors on a $\int f d\mathbf{m} \in F$ pour toute fonction numérique bornée $f$ essentiellement intégrable pour $m$.
 
-Soit $A$ l’ensemble des $f \in \mathcal{L}(m)$ telles que $\sup_{t \in T} |f(t)| \leq 1$, et soit $B = A \cap \mathcal{K}(T)$ : par hypothèse, $m(B)$ est faiblement relativement compact dans $F$, et il suffit donc de montrer que $m(A)$ est contenu dans l’adhérence (dans $F' \ast$) de $m(B)$ pour la topologie $\sigma(F', F')$; comme $m(B)$ est convexe et équilibré, il suffit de prouver que le polaire de $m(B)$ dans $F'$ est contenu dans celui de $m(A)$ ($Esp.\ vect.\ top.\$$ ), chap. IV, § 1, no 3, prop. 3). Or, pour qu’une forme linéaire$z' \in F'$ appartienne à $(m(B))^0$, il faut et il suffit que
+Soit $A$ l’ensemble des $f \in \mathcal{L}(m)$ telles que $\sup_{t \in T} |f(t)| \leq 1$, et soit $B = A \cap \mathcal{K}(T)$ : par hypothèse, $m(B)$ est faiblement relativement compact dans $F$, et il suffit donc de montrer que $m(A)$ est contenu dans l’adhérence (dans $F' \ast$) de $m(B)$ pour la topologie $\sigma(F'^*, F')$; comme $m(B)$ est convexe et équilibré, il suffit de prouver que le polaire de $m(B)$ dans $F'$ est contenu dans celui de $m(A)$ (Esp. vect. top., chap. IV, § 1, n° 3, prop. 3). Or, pour qu’une forme linéaire $z' \in F'$ appartienne à $(m(B))^0$, il faut et il suffit que
 $$
 |\langle z', m(g) \rangle| = \left| \int g d(z' \circ m) \right| \leq 1 \text{ pour toute fonction } g \in B,
 $$
@@ -190,11 +190,11 @@ pour tout $z' \in A_q'$, ce qui démontre la proposition.
 
 #### Corollaire {#int-vi-s2-n3-cor-1 .statement}
 
-Si l’espace F est de dimension finie, toute mesure vectorielle m à valeurs dans F est majorable. Pour qu’une fonction numérique soit essentiellement intégrable pour m, il faut et il suffit qu’elle soit essentiellement intégrable pour $|\mathbf{m}|(|\mathbf{x}|$ désignant une norme quelconque sur F$)$.
+Si l’espace F est de dimension finie, toute mesure vectorielle m à valeurs dans F est majorable. Pour qu’une fonction numérique soit essentiellement intégrable pour m, il faut et il suffit qu’elle soit essentiellement intégrable pour $|\mathbf{m}|(|\mathbf{x}|$ désignant une norme quelconque sur F).
 
 #### Proposition 5 {#int-vi-s2-prop-5 .statement}
 
-Soit q une semi-norme semi-continue inférieurement sur F. Soit m une mesure q-majorable, et soit f une fonction essentiellement intégrable pour m et telle que$\int f d\mathbf{m} \in F$. Alors on a
+Soit q une semi-norme semi-continue inférieurement sur F. Soit m une mesure q-majorable, et soit f une fonction essentiellement intégrable pour m et telle que $\int f d\mathbf{m} \in F$. Alors on a
 $$
 q\left( \int f d\mathbf{m} \right) \leq \int^* |f| dq(\mathbf{m}).
 $$
@@ -217,9 +217,9 @@ a) tout élément de $\mathcal{L}_0$ est adhérent à une partie bornée de $\ma
 
 b) tout élément de $\mathcal{L}^1((\mu_i)_{i \in I})$ est adhérent à une partie bornée de $\mathcal{L}_0$.
 
-Pour démontrer $a)$, on peut se restreindre au cas d’un élément de la forme $f = g \varphi_K$ ($g \in C(T)$, K compact dans T). Il est immédiat (en vertu du th. d’Urysohn) que $f$ est adhérente à l’ensemble B des fonctions de la forme $gh$, où $h$ décrit l’ensemble des applications continues de T dans $[0, 1]$, égale à 1 dans K et à 0 dans le complémentaire d’un voisinage compact fixe H de K. De plus, l’ensemble B est borné, car $\mu_i(|gh|) \leq \mu_i(|g \varphi_H|)$ pour toute fonction $h$ ayant les propriétés précédentes.
+Pour démontrer a), on peut se restreindre au cas d’un élément de la forme $f = g \varphi_K$ ($g \in C(T)$, K compact dans T). Il est immédiat (en vertu du th. d’Urysohn) que $f$ est adhérente à l’ensemble B des fonctions de la forme $gh$, où $h$ décrit l’ensemble des applications continues de T dans $[0, 1]$, égale à 1 dans K et à 0 dans le complémentaire d’un voisinage compact fixe H de K. De plus, l’ensemble B est borné, car $\mu_i(|gh|) \leq \mu_i(|g \varphi_H|)$ pour toute fonction $h$ ayant les propriétés précédentes.
 
-Démontrons maintenant $b)$ : on peut se restreindre au cas d’un élément $f \geq 0$ de $\mathcal{L}^1((\mu_i)_{i \in I})$. Pour tout $i \in I$ et tout $\varepsilon > 0$, il existe une partie compacte $K(i, \varepsilon)$ de T telle que la restriction de $f$ à $K(i, \varepsilon)$ soit continue et que $\mu_i(|f - f \varphi_{K(i, \varepsilon)}|) \leq \varepsilon$. Il est clair que $f$ est adhérente à l’ensemble C des $f \varphi_{K(i, \varepsilon)}$ (où $i \in I, \varepsilon > 0$). En vertu du th. d’Urysohn, l’ensemble C est contenu dans $\mathcal{L}_0$; de plus, il est borné, car on a $\mu_x(f \varphi_{K(i, \varepsilon)}) \leq \mu_x(f)$ quels que soient $i \in I, x \in I$ et $\varepsilon > 0$.
+Démontrons maintenant b) : on peut se restreindre au cas d’un élément $f \geq 0$ de $\mathcal{L}^1((\mu_i)_{i \in I})$. Pour tout $i \in I$ et tout $\varepsilon > 0$, il existe une partie compacte $K(i, \varepsilon)$ de T telle que la restriction de $f$ à $K(i, \varepsilon)$ soit continue et que $\mu_i(|f - f \varphi_{K(i, \varepsilon)}|) \leq \varepsilon$. Il est clair que $f$ est adhérente à l’ensemble C des $f \varphi_{K(i, \varepsilon)}$ (où $i \in I, \varepsilon > 0$). En vertu du th. d’Urysohn, l’ensemble C est contenu dans $\mathcal{L}_0$; de plus, il est borné, car on a $\mu_x(f \varphi_{K(i, \varepsilon)}) \leq \mu_x(f)$ quels que soient $i \in I, x \in I$ et $\varepsilon > 0$.
 
 Démontrons maintenant la prop. 6 : pour toute fonction $g \in \mathcal{J}(T)$ et toute semi-norme continue $q$ sur F, on a
 $$
@@ -315,7 +315,7 @@ Par hypothèse il existe une partie dénombrable dense H de G, qui soit un sous-
 
 Soient $F$ un espace localement convexe séparé, $F'_s$ son dual muni de la topologie $\sigma(F', F)$. On désigne par $\mathcal{L}_{F'_s}^\infty$ l’espace vectoriel des applications $f$ de $T$ dans $F'_s$, telles que $f$ soit scalairement $\mu$-mesurable et égale scalairement localement presque partout (pour $\mu$) à une application de $T$ dans une partie équicontinue de $F'$. On désigne par $L_{F'_s}^\infty$ l’espace quotient de $\mathcal{L}_{F'_s}^\infty$ par l’espace des applications scalairement localement $\mu$-négligeables de $T$ dans $F'_s$.
 
-Lorsque $F$ vérifie les hypothèses du § 1, no 5, prop. 13, les fonctions de $\mathcal{L}_{F'_s}^\infty$ sont $\mu$-mesurables pour la topologie faible $\sigma(F', F)$, mais ne sont pas nécessairement mesurables pour la topologie forte sur $F'$, même si $F$ est un espace de Banach ($\S 1$, exerc. 17). Dans les mêmes conditions, les applications scalairement localement $\mu$-négligeables de $T$ dans $F'_s$ sont identiques aux applications localement $\mu$-négligeables de $T$ dans $F'_s$ ($\S 1$, no 1, Remarque 2).
+Lorsque $F$ vérifie les hypothèses du § 1, no 5, prop. 13, les fonctions de $\mathcal{L}_{F'_s}^\infty$ sont $\mu$-mesurables pour la topologie faible $\sigma(F', F)$, mais ne sont pas nécessairement mesurables pour la topologie forte sur $F'$, même si $F$ est un espace de Banach ($§ 1$, exerc. 17). Dans les mêmes conditions, les applications scalairement localement $\mu$-négligeables de $T$ dans $F'_s$ sont identiques aux applications localement $\mu$-négligeables de $T$ dans $F'_s$ ($§ 1$, no 1, Remarque 2).
 
 Lorsque $F$ est un espace normé de type dénombrable, les éléments de $\mathcal{L}_{F'_s}^\infty$ sont les applications $f$ de $T$ dans $F'_s$, telles que $f$ soit scalairement $\mu$-mesurable et que $|f|$ soit bornée en mesure ; on peut alors définir sur l’espace $L_{F'_s}^\infty$ une structure d’espace normé, en le munissant de la norme $N_\infty$ (chap. IV, § 6, no 3).
 

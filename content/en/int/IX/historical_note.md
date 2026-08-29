@@ -12,7 +12,7 @@ pdf_pages: 0302-0332
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9e9f1f84c67db9c69cde0179be0fe5c5635e6c7e33ace4ff973f8c0694e1f28b
+content_sha256: 99a55fef46c115102e6ca090941abc261582890dfee3c615e90b28ab94c2f2b9
 ---
 
 # HISTORICAL NOTE
@@ -63,7 +63,7 @@ where $k$ is Boltzmann’s constant. According to the ideas of Gibbs, the multit
 
 (3) A very lively account of this history may be found in the recent book of E. Nelson, Dynamical theories of Brownian motion, Mathematical Notes, Princeton, 1967.
 
-that P is the measure on the sphere S with mass 1 invariant under rotation. Moreover, Maxwell’s law of velocities states that the law of probability of a component of the velocity of a molecule is a Gaussian measure with variance $2kT/m$ (\S 6, No. 5, *Remark 3*). Borel seems to have been the first to observe in 1914 that Maxwell’s law is a consequence of Gibbs’ hypotheses and the properties of the sphere when the number of molecules is very large. He considered a sphere S in a Euclidean space of large dimension and the measure P of mass 1 on S invariant under rotation; using the classical approximation methods based on Stirling’s formula, he showed that the projection of P on a coordinate axis is approximately Gaussian. These results were sharpened a little later by Gâteaux and Lévy (IX, *a*). Given an integer $m \geqslant 1$ and a number $r > 0$, denote by $S_{m,r}$ the set of sequences of the form $(x_1, \ldots, x_m, 0, 0, \ldots)$ with $x_1^2 + \cdots + x_m^2 = r^2$; also, denote by $\sigma_{m,r}$ the measure with mass 1 on $S_{m,r}$ invariant under rotation. Stated in modern language, the result of Gâteaux and Lévy is as follows: the sequence of measures $\sigma_{m,1}$ tends tightly to a unit mass at the origin $(0, 0, \ldots)$, and the sequence of measures $\sigma_{m, \sqrt{m}}$ tends tightly to a measure $\Gamma$ of the form
+that P is the measure on the sphere S with mass 1 invariant under rotation. Moreover, Maxwell’s law of velocities states that the law of probability of a component of the velocity of a molecule is a Gaussian measure with variance $2kT/m$ (§ 6, No. 5, *Remark 3*). Borel seems to have been the first to observe in 1914 that Maxwell’s law is a consequence of Gibbs’ hypotheses and the properties of the sphere when the number of molecules is very large. He considered a sphere S in a Euclidean space of large dimension and the measure P of mass 1 on S invariant under rotation; using the classical approximation methods based on Stirling’s formula, he showed that the projection of P on a coordinate axis is approximately Gaussian. These results were sharpened a little later by Gâteaux and Lévy (IX, *a*). Given an integer $m \geqslant 1$ and a number $r > 0$, denote by $S_{m,r}$ the set of sequences of the form $(x_1, \ldots, x_m, 0, 0, \ldots)$ with $x_1^2 + \cdots + x_m^2 = r^2$; also, denote by $\sigma_{m,r}$ the measure with mass 1 on $S_{m,r}$ invariant under rotation. Stated in modern language, the result of Gâteaux and Lévy is as follows: the sequence of measures $\sigma_{m,1}$ tends tightly to a unit mass at the origin $(0, 0, \ldots)$, and the sequence of measures $\sigma_{m, \sqrt{m}}$ tends tightly to a measure $\Gamma$ of the form
 
 $$
 d\Gamma(x_1, x_2, \ldots) = \prod_{n=1}^\infty d\gamma(x_n)
@@ -682,13 +682,13 @@ $$
 f \chi^{-1/q} \in L^1(G, \beta) \text{ and } g \in L^p(G, \beta), \text{ where } 1/p + 1/q = 1 \text{ (then } f * g \in L^p(G, \beta) \text{ and } \|f * g\|_p \leq \|f \chi^{-1/q}\|_1 \|g\|_p).
 $$
 $$
-f \in L^p(G, \beta) \text{ and } g \chi'^{-1/q} \in L^1(G, \beta) \text{ (then } f * g \in L^p(G, \beta) \text{ and } \|f * g\|_p \leq \|f\|_p \|g \chi'^{-1/q}\|_1 ).
+f \in L^p(G, \beta) \text{ and } g {\chi'}^{-1/q} \in L^1(G, \beta) \text{ (then } f * g \in L^p(G, \beta) \text{ and } \|f * g\|_p \leq \|f\|_p \|g {\chi'}^{-1/q}\|_1 ).
 $$
 $$
 f \chi^{-1} \in L^1(G, \beta) \text{ and } g \in \mathcal{C}^\infty(G) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ (then } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
 $$
 $$
-f \in \mathcal{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ and } g \chi'^{-1} \in L^1(G, \beta) \text{ (then } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
+f \in \mathcal{C}^\infty(G, \beta) \text{ (resp. } \overline{\mathcal{K}(G)} ) \text{ and } g {\chi'}^{-1} \in L^1(G, \beta) \text{ (then } f * g \in \mathcal{C}^\infty(G) \text{ (resp. } \mathcal{K}(G) ) ).
 $$
 $$
 f \in L^p(G, \beta), \ g \in L^q(G, \dot{\beta}) \text{ with } 1/p + 1/q = 1, \ 1 < p < +\infty, \ \beta \text{ left-invariant (then } f * g \in \overline{\mathcal{K}(G)} \text{ and } \|f * g\|_\infty \leq \|f\|_p \|g\|_q ).
