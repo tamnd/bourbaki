@@ -204,7 +204,7 @@ The French is counted and not compared against the English. A file name carries 
 | Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done |
 | --- | --- | --- | --- | --- | --- |
 | Theory of Sets | 30 | 211 | 30 | 211 | 100% |
-| Algebra | 129 | 1028 | 118 | 1028 | 99% |
+| Algebra | 129 | 1028 | 119 | 1028 | 99% |
 | General Topology | 78 | 578 | 78 | 577 | 100% |
 | Functions of a Real Variable | 34 | 203 | 34 | 203 | 100% |
 | Topological Vector Spaces | 34 | 409 | 34 | 408 | 100% |
@@ -214,12 +214,12 @@ The French is counted and not compared against the English. A file name carries 
 | Lie Groups and Lie Algebras | 85 | 785 | 84 | 134 | 25% |
 | Théories spectrales | 36 | 371 | 1 | 0 | 0% |
 | Topologie algébrique | 28 | 164 | 4 | 0 | 2% |
-| Elements of the History of Mathematics | 27 | 0 | 5 | 0 | 19% |
-| **All** | **617** | **4900** | **505** | **3541** | **73%** |
+| Elements of the History of Mathematics | 27 | 0 | 8 | 0 | 30% |
+| **All** | **617** | **4900** | **509** | **3541** | **73%** |
 
 The source column is the English, which is 617 sections and 4900 exercises: 4619 files in `content/en` where Springer printed an English translation and 898 in `content/en-mt` where this project read the French instead. The French originals are 475 sections and 4504 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 505 of the 617 sections and 3541 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 509 of the 617 sections and 3541 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 <!-- END TRANSLATION -->
 
 ## Building it
