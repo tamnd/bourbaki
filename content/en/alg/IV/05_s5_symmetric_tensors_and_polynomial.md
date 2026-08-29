@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 36
 exercises: 16
-content_sha256: 33f7cba6ad37ef4f3eac426b0665f77c4884db538804d6454ec344d187c55550
+content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS

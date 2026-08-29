@@ -12,7 +12,7 @@ pdf_pages: 0262-0314
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: db0552de5025618fdbbefe01a1ffe0e3162a9209c709d0dcff0a6ea9b8a02fe5
+content_sha256: 291fe64be7b05e0ac34cfee4602454a829101e41a9e342077795e4d2fe1e3127
 ---
 
 # HISTORICAL NOTE

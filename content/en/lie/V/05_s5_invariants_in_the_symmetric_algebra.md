@@ -32,7 +32,7 @@ subsections:
       pdf_page: 132
 statements: 24
 exercises: 9
-content_sha256: f50c33a45eeffcb4b8b0020b5a8192ce8b9794c14827e47163a2aaaa08bb950f
+content_sha256: 5bb79afffad07c548984011c327f46cee79084bb3100b183fe16d8e2fa8d7da2
 ---
 
 ## § 5. INVARIANTS IN THE SYMMETRIC ALGEBRA
@@ -435,7 +435,7 @@ $$
 
 d) Parts a) and c) of the proof show that D is anti-invariant under G. Next, if $y \in R$, it is clear that $yD$ is anti-invariant under G. Finally, if $z \in S$ is anti-invariant under G, we have seen in b) that there exists $y \in S$ such that $z = yD$. Since S is integral, $y \in R$. This proves (i).
 
-### *5. COMPLEMENTS*
+### \*5. COMPLEMENTS*
 
 #### Lemma 4 {#lie-v-s5-lem-4 .statement}
 

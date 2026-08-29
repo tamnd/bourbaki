@@ -12,7 +12,7 @@ pdf_pages: 0591-0645
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 794c7f10882cc7edf566a88fdf1ae03b6081d36f425120b6081a7805ffa72c79
+content_sha256: 192c431576abe84c064e68ce412945a6edc3974eca8e723473549d8017fcb70f
 ---
 
 # NOTE HISTORIQUE
@@ -140,7 +140,7 @@ nx (n \in \mathbf{Z}): I, p. 23.
 x^n (n \in \mathbf{Z}): I, p. 23.
 \frac{1}{x}, \frac{x}{y}, x/y: I, p. 23.
 \alpha.x, x.\alpha, x^\alpha (\alpha opérateur): I, p. 24.
-\alpha \perp x, \alpha \perp X, \exists \perp X (\alpha opérateur, \exists ensemble d’opérateurs): I, p. 24.
+\alpha \perp x, \alpha \perp X, \Omega \perp X (\alpha opérateur, \Omega ensemble d’opérateurs): I, p. 24.
 \mathfrak{S}_F: I, p. 29.
 (G:H), G/H (H sous-groupe de G): I, p. 34.
 x \equiv y (\text{mod. } H), x \equiv y (\text{H sous-groupe distingué}): I, p. 35.
@@ -153,8 +153,8 @@ v_p(a) (p nombre premier, a entier rationnel): I, p. 49.
 Aut(G), Int(G), Int(x) (G groupe, x \in G): I, p. 53.
 N_G(A), N(A) (G groupe, A \subset G): I, p. 54.
 C_G(A), C(A) (G groupe, A \subset G): I, p. 54.
-E/G, G|E (G groupe opérant dans E): I, p. 55.
-G|E/H (G, H groupes opérant dans E par des actions qui commutent): I, p. 55.
+E/G, G\backslash E (G groupe opérant dans E): I, p. 55.
+G\backslash E/H (G, H groupes opérant dans E par des actions qui commutent): I, p. 55.
 \mathfrak{S}_n: I, p. 59.
 \tau_{x, y} (transposition de support \{x, y\}): I, p. 60.
 \varepsilon(\sigma), \varepsilon_\sigma (\sigma permutation): I, p. 62.
@@ -415,10 +415,10 @@ $u.v, u.mv$ ($u, v$ applications multilinéaires symétriques) : III, p. 142.
 $u \wedge v$ ($u, v$ applications multilinéaires alternées) : III, p. 142.
 
 θ_T, θ_S, θ_Λ : III, p. 151.
-u ⊥ x, i(x) : III, p. 156.
-x ⊥ u, i'(x) : III, p. 157.
-x ⊥ u, i(u) : III, p. 159.
-u ⊥ x, i'(u) : III, p. 160.
+$u \perp x$, i(x) : III, p. 156.
+$x \perp u$, i'(x) : III, p. 157.
+$x \perp u$, i(u) : III, p. 159.
+$u \perp x$, i'(u) : III, p. 160.
 G_p(E), G_{n,p}(K) : III, p. 172.
 a(x, y, z) : III, p. 172.
 ME : III, p. 181, exerc. 13.

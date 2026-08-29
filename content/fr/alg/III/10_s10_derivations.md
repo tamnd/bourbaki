@@ -61,7 +61,7 @@ subsections:
       pdf_page: 522
 statements: 41
 exercises: 5
-content_sha256: 5967d5f78522738e08118204b3d8794c1c7b323d7f835110ffde11c6a5076c65
+content_sha256: f74bdf49729b5ad664db0ff655817d64e0fb391c122955c70c853d7980feebd7
 ---
 
 ## § 10. DÉRIVATIONS
@@ -669,7 +669,7 @@ La ε'-dérivation d est alors unique.
 On applique la Remarque 2 de III, p. 118 en modifiant l’une des lois d’action de B-module de E (avec B égal à T(N), S(M) ou ∧(M)); la loi d’action ainsi modifiée est encore, en vertu de (1) (III, p. 116), une loi de B-module, et la structure de B-module ainsi obtenue sur E est encore compatible avec l’autre structure de B-module. Il suffit alors d’appliquer la prop. 14 (III, p. 128), avec A = K et d₀ = 0.
 
 Exemple 1). — Dans l’application de la prop. 14, on notera que si d₀ = 0, la condition (29) (III, p. 128) signifie simplement que d₁ est A-linéaire. Si l’on prend en particulier E = B, et la structure de (B, B)-bimodule déduite de la structure d’anneau de B, les conditions (30) et (31) (III, p. 128) sont automatiquement vérifiées lorsqu’on prend pour d₁ la composée d’un endomorphisme s de M et de l’injection canonique M → B: c’est évident pour (30) puisque S(M) est commutative, et pour (31) cela résulte de ce que x et s(x) sont de degré 1 dans ∧(M). On voit donc que tout endomorphisme s de M se prolonge d’une seule manière en une dérivation Dₛ de T(M) (resp. de S(M), resp. de ∧(M)), qui est de degré 0. En outre, on a, pour deux endomorphismes s, t de M,
-(35) [Dₛ, Dₜ] = D_{[s, t]}
+(35) $[D_s, D_t] = D_{[s, t]}$
 car les deux membres sont des dérivations de T(M) (resp. S(M), resp. ∧(M)) qui sont égales à [s, t] dans M.
 
 On obtiendra l’expression de Dₛ à l’aide de la formule (21) de III, p. 123, qui donne respectivement, pour x₁, x₂, ..., xₙ dans M

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 32
 statements: 6
 exercises: 7
-content_sha256: 910b4e9b4d27002cfff67ec623ea610906293af8568dd81019f31884881692e0
+content_sha256: 7198747b0b6bbdd08037685e5f795da17bcc151029f7c5022d6d539a5ea0b283
 ---
 
 ## § 3. RATIONAL FRACTIONS
@@ -129,7 +129,7 @@ Let $f \in K((X_i)_{i \in I})$ and let $(g_i)_{i \in I}$ be a family of elements
 (i) (g_i)_{i \in I} is substitutable in f;
 (ii) if we denote by h the element f((g_i)) of K((Y_l)_{l \in L}), then y is substitutable in h and h(y) = f((g_i(y))).
 
-We may take I to be finite. By hypothesis, for each i \in I, g_i can be put in the form p_i/q_i where p_i, q_i \in K[(Y_l)_{l \in L}] and q_i(y) is invertible in E. Likewise f can be written as u/v, where u, v \in K[(X_i)_{i \in I}] and v((g_i(y))) is invertible. Let m = \sup(\deg u, \deg v), and let w = \prod_{i \in I} q_i \in K[(Y_l)_{l \in L}], u_1 = u((g_i)) w^m, v_1 = v((g_i)) w^m. The polynomial u is a K-linear combination of monomials \prod_{i \in I} X_i^{v_i} such that \sum_{i \in I} v_i \leq m. We have w^m \prod_{i \in I} g_i^{v_i} = w^m \left( \prod_{i \in I} p_i^{v_i} \right) \left( \prod_{i \in I} q_i^{v_i} \right)^{-1} \in K[(Y_l)_{l \in L}] by the choice of m. Hence u_1 \in K[(Y_l)_{l \in L}] and similarly v_1 \in K[(Y_l)_{l \in L}]. Moreover, v_1(y) = (w(y))^m v((g_i(y))) is invertible. Hence v_1 \neq 0, because E \neq 0, and so v((g_i)) \neq 0. The family (g_i) is thus substitutable in f. Besides we have f((g_i)) = u_1/v_1, hence y is substitutable in h = f((g_i)), and h(y) = u_1(y)/v_1(y) = u((g_i(y)))/v((g_i(y))) = f((g_i(y))).
+We may take I to be finite. By hypothesis, for each $i \in I$, $g_i$ can be put in the form $p_i/q_i$ where $p_i, q_i \in K[(Y_l)_{l \in L}]$ and $q_i(y)$ is invertible in E. Likewise f can be written as $u/v$, where $u, v \in K[(X_i)_{i \in I}]$ and $v((g_i(y)))$ is invertible. Let $m = \sup(\deg u, \deg v)$, and let $w = \prod_{i \in I} q_i \in K[(Y_l)_{l \in L}]$, $u_1 = u((g_i)) w^m$, $v_1 = v((g_i)) w^m$. The polynomial u is a K-linear combination of monomials $\prod_{i \in I} X_i^{v_i}$ such that $\sum_{i \in I} v_i \leq m$. We have $w^m \prod_{i \in I} g_i^{v_i} = w^m \left( \prod_{i \in I} p_i^{v_i} \right) \left( \prod_{i \in I} q_i^{v_i} \right)^{-1} \in K[(Y_l)_{l \in L}]$ by the choice of m. Hence $u_1 \in K[(Y_l)_{l \in L}]$ and similarly $v_1 \in K[(Y_l)_{l \in L}]$. Moreover, $v_1(y) = (w(y))^m v((g_i(y)))$ is invertible. Hence $v_1 \neq 0$, because $E \neq 0$, and so $v((g_i)) \neq 0$. The family $(g_i)$ is thus substitutable in f. Besides we have $f((g_i)) = u_1/v_1$, hence y is substitutable in $h = f((g_i))$, and $h(y) = u_1(y)/v_1(y) = u((g_i(y)))/v((g_i(y))) = f((g_i(y)))$.
 
 Let K be a commutative field, E a commutative associative and unital K-algebra, and let f \in K((X_i)_{i \in I}). Let T_f be the set of all x = (x_i)_{i \in I} \in E^I which are substitutable in f. The mapping x \mapsto f(x) of T_f into E is called the rational function associated with f (and E); we sometimes denote it by \tilde{f}. If g \in K((X_i)_{i \in I}) we have T_f \cap T_g \subset T_{f+g}, T_f \cap T_g \subset T_{fg}, hence the rational function associated with f + g (resp. fg) is defined on T_f \cap T_g and has the same value on this set as \tilde{f} + \tilde{g} (resp. \tilde{f}\tilde{g}). Let T'_f be the set of x \in T_f such that f(x) is invertible; if x \in T'_f, x is substitutable in 1/f and the rational function associated with 1/f takes at x the value f(x)^{-1}.
 

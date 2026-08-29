@@ -49,7 +49,7 @@ subsections:
       pdf_page: 138
 statements: 34
 exercises: 11
-content_sha256: 7e4ae25ed21a48d4bbe1a0c05879d017dc278aa2aa837d499da6ec6fda46b955
+content_sha256: d8c8eb99f6650920ba4deb364722d8d7f501be8f487b2644b5e098c334c1068e
 translated_from: content/fr/alg/X/07_s7_produit_de_composition.md
 source_lang: fr
 translation_method: machine

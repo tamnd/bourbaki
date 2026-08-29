@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 39
 exercises: 9
-content_sha256: 79f670c906cc92739f9138f299914c12e4a33cc56cea479b6582e1c0eb261575
+content_sha256: 7cd64a7ad3c3af38edd96851d0e24b924bbb8ef9af1e92be9cdb84f739041489
 translated_from: content/fr/alg/X/04_s4_produits_de_torsion.md
 source_lang: fr
 translation_method: machine

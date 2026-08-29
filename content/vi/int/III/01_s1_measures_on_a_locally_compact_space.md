@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 2e47cfb8e6d6fa7630efe1d6acc56507a4838f2b4f1be0eb9220ebffa4c6d386
+content_sha256: 639d738128e232481d0eb40bd3149f6b21102bab475d08991b6e669cb41b0c18
 translated_from: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
 source_content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
@@ -428,7 +428,7 @@ $$
 L(f) = \sup_{|g| \leq f,\ g \in \mathcal{K}(\mathrm{X}; \mathbf{C})} \left| \int g\, d\mu \right|
 $$
 
-là hữu hạn, क्योंकि quan hệ $|g| \leq f$ kéo theo $\operatorname{Supp}(g) \subset \operatorname{Supp}(f)$ và $\|g\| \leq \|f\|$, do đó mệnh đề của chúng ta suy ra từ công thức (4) của No. 3. Hãy chỉ ra rằng $L$ có thể được mở rộng, theo đúng một cách, thành một độ đo dương trên $\mathrm{X}$; xét No. 5, Th. 1 và Ch. II, §2, No. 1, Prop. 3, chỉ cần chỉ ra rằng nếu $f_1,\ f_2$ là hai hàm trong $\mathcal{K}_+(\mathrm{X})$, thì $L(f_1 + f_2) = L(f_1) + L(f_2)$. Bây giờ, nếu $|g_1| \leq f_1$ và $|g_2| \leq f_2$, trong đó $g_1$ và $g_2$ là các hàm trong $\mathcal{K}(\mathrm{X}; \mathbf{C})$, thì ta có $|g_1 + \zeta g_2| \leq f_1 + f_2$ với mọi số phức $\zeta$ có giá trị tuyệt đối bằng 1, do đó
+là hữu hạn, vì quan hệ $|g| \leq f$ kéo theo $\operatorname{Supp}(g) \subset \operatorname{Supp}(f)$ và $\|g\| \leq \|f\|$, do đó mệnh đề của chúng ta suy ra từ công thức (4) của No. 3. Hãy chỉ ra rằng $L$ có thể được mở rộng, theo đúng một cách, thành một độ đo dương trên $\mathrm{X}$; xét No. 5, Th. 1 và Ch. II, §2, No. 1, Prop. 3, chỉ cần chỉ ra rằng nếu $f_1,\ f_2$ là hai hàm trong $\mathcal{K}_+(\mathrm{X})$, thì $L(f_1 + f_2) = L(f_1) + L(f_2)$. Bây giờ, nếu $|g_1| \leq f_1$ và $|g_2| \leq f_2$, trong đó $g_1$ và $g_2$ là các hàm trong $\mathcal{K}(\mathrm{X}; \mathbf{C})$, thì ta có $|g_1 + \zeta g_2| \leq f_1 + f_2$ với mọi số phức $\zeta$ có giá trị tuyệt đối bằng 1, do đó
 
 $$
 |\mu(g_1 + \zeta g_2)| = |\mu(g_1) + \zeta \mu(g_2)| \leq L(f_1 + f_2).
@@ -669,7 +669,7 @@ Cần lưu ý rằng chính không gian $\mathcal{M}(X; \mathbf{C})$ (hoặc $\m
 
 *Nếu A và B là hai tập con đóng theo tôpô vague của $\mathcal{M}_+(X)$, thì $A + B$ đóng theo tôpô vague trong $\mathcal{M}_+(X)$ (do đó cũng đóng trong $\mathcal{M}(X; \mathbf{C})$).*
 
-Đây वास्तव ra là một tính chất tổng quát của các nón đầy đủ yếu, thực sự trong các không gian lồi địa phương (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11).
+Đây thực ra là một tính chất tổng quát của các nón đầy đủ yếu, thực sự trong các không gian lồi địa phương (TVS, II, §6, No. 8, Hệ quả 2 của Mệnh đề 11).
 
 #### Mệnh đề 15 {#int-iii-s1-prop-15 .statement}
 

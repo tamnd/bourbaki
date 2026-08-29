@@ -65,7 +65,7 @@ subsections:
       pdf_page: 328
 statements: 52
 exercises: 34
-content_sha256: e3e585a2a4aeab33f921b3d9db8806be1e051cd589eb4b681c324c1c14dc83ac
+content_sha256: d0e4f342cdf9ffe3e7715d0c79279f8299dfb334b4df179aea1437bbd401e004
 translated_from: content/en/alg/VI/01_s1_ordered_groups_divisibility.md
 source_content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5-6, gpt-5.4
@@ -599,7 +599,7 @@ Tính chất phân phối này là đặc thù của *nhóm* có thứ tự dàn
 
 Cho x là một phần tử bất khả quy của nhóm có thứ tự G; nếu y là một phần tử dương của G thì phần tử inf(x, y), nếu nó tồn tại, chỉ có thể bằng x hoặc bằng 0. Do đó trong một nhóm có thứ tự dàn G, mọi y dương hoặc lớn hơn hoặc nguyên tố cùng nhau với phần tử bất khả quy x; đặc biệt, hai phần tử bất khả quy phân biệt nguyên tố cùng nhau.
 
-(DIV) Một phần tử p của A được gọi là *bất khả quy* nếu iđêan (p) là một phần tử bất khả quy của nhóm có thứ tự $\mathcal{P}^*$; điều này có nghĩa là p không phải là không cũng không phải là khả nghịch, và mọi phần tử của $A$ chia hết p đều liên kết либо với p hoặc với 1. Nếu $\mathcal{P}^*$ là một dàn có thứ tự, thì mọi $a \in A$ hoặc nguyên tố cùng nhau với p hoặc là một bội của p.
+(DIV) Một phần tử p của A được gọi là *bất khả quy* nếu iđêan (p) là một phần tử bất khả quy của nhóm có thứ tự $\mathcal{P}^*$; điều này có nghĩa là p không phải là không cũng không phải là khả nghịch, và mọi phần tử của $A$ chia hết p đều liên kết hoặc với p hoặc với 1. Nếu $\mathcal{P}^*$ là một dàn có thứ tự, thì mọi $a \in A$ hoặc nguyên tố cùng nhau với p hoặc là một bội của p.
 
 *Ví dụ (DIV). —* 1) Một số nguyên $p > 0$ là bất khả quy trong $\mathbf{Z}$ khi và chỉ khi nó là *nguyên tố* (I, p. 50).
 

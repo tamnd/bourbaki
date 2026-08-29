@@ -53,7 +53,7 @@ subsections:
       pdf_page: 56
 statements: 53
 exercises: 13
-content_sha256: 607f4b7bb4a870f343671558ebbfab770d216680894e15869cd7af1dc4cfe26c
+content_sha256: d6446e0fdd80cc2df92f7ea6ea868a5c8f8a144b082c70b26bc4e37ef9312842
 translated_from: content/en/int/VII/02_s2_quotient_of_a_space_by_a_group.md
 source_content_sha256: 808d1febed5e98d1a4693836305c73d1f084d7d8ef2e3631777c1dd0a2f4de4b
 translation_model: gpt-5.4-mini, gpt-5-6-mini
@@ -492,7 +492,7 @@ $$
 
 và giả thiết suy ra rằng $\rho^{-1} \cdot \gamma(s)\rho = {\rho'}^{-1} \cdot \gamma(s)\rho'$ địa phương $\mu$-gần khắp nơi. Đặt $\sigma = \rho'/\rho$, là một hàm $\mu$-đo được trên $G$. Với mọi $s \in G$, $\gamma(s)\sigma = \sigma$ địa phương $\mu$-gần khắp nơi. Do đó $\sigma$ bằng một hằng số địa phương $\mu$-gần khắp nơi, theo Hệ quả 2 của Mệnh đề 6 áp dụng với $X = H = G$.
 
-Cho $G$ là một nhóm địa phương compact, $H$ là một nhóm con đóng của $G$. Xét không gian thuần nhất $G/H$ của các lớp ghép trái theo $H$, trên đó $G$ tác động liên tục ở bên trái. Ta sẽ ցույց rằng tồn tại một và chỉ một lớp các độ đo khác không gần bất biến trên $G/H$.
+Cho $G$ là một nhóm địa phương compact, $H$ là một nhóm con đóng của $G$. Xét không gian thuần nhất $G/H$ của các lớp ghép trái theo $H$, trên đó $G$ tác động liên tục ở bên trái. Ta sẽ chứng tỏ rằng tồn tại một và chỉ một lớp các độ đo khác không gần bất biến trên $G/H$.
 
 Chú ý rằng $H$ tác động trên $G$ một cách liên tục và đúng đắn bởi các phép tịnh tiến phải; và không gian thương, chính là $G/H$, là paracompact (GT, III, $§ 4$, No. 6, Prop. 13). Vì thế ta có thể áp dụng các kết quả từ No. 1 đến 4, với $X = G$. Do đó ta có các ánh xạ $f \mapsto f^b$ từ $\mathcal{K}(G)$ lên $\mathcal{K}(G/H)$, và $\lambda \mapsto \lambda^\#$ từ $\mathcal{M}(G/H)$ vào $\mathcal{M}(G)$ (một khi đã cố định một độ đo Haar trái $\beta$ trên $H$). Việc $G$ tác động ở bên trái trên $G/H$ dẫn đến một tính chất bổ sung:
 

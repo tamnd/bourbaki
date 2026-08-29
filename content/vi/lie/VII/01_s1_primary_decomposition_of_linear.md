@@ -33,7 +33,7 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: 106bb8dc5f4f8eec6b23a80190a87cc25e125eae886e9b994a92f343a13189dc
+content_sha256: ac8acaa8ff4ea17b65bb6afa878dba5be9b43fee174eecd466b1583c03dc19ac
 translated_from: content/en/lie/VII/01_s1_primary_decomposition_of_linear.md
 source_content_sha256: 6d999a4f63ad71547f9729f56137320e39f7832c9c6c88d90de525d543eda5ce
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -385,7 +385,7 @@ $$
 
 theo trên, đây là một biểu diễn của $\mathfrak{h}$ trên M, và $\rho (x)$ là lũy linh với mọi $x\in \mathfrak{h}$. Theo định lý Engel (Chương I, §4, no. 2, Định lý 1), tồn tại $m\not= 0$ trong M sao cho $\rho (x)m= 0$ với mọi $x\in \mathfrak{h}$, nên $m\in M_{\lambda}(\mathfrak{h})$.
 
-Mệnh đề đầu tiên của (v) suy ra từ no. 1, Mệnh đề 2 (ii). Để chứng minh mệnh đề thứ hai, ta có thể giả sử rằng $k$ là đóng đại số theo Mệnh đề 1 của no. 1; khi đó suy ra từ mệnh đề thứ nhất và तथ्य rằng $M =\sum_{\lambda}M^{\lambda}(\mathfrak{h}), N =\sum_{\lambda}N^{\lambda}(\mathfrak{h})$, xem (i).
+Mệnh đề đầu tiên của (v) suy ra từ no. 1, Mệnh đề 2 (ii). Để chứng minh mệnh đề thứ hai, ta có thể giả sử rằng $k$ là đóng đại số theo Mệnh đề 1 của no. 1; khi đó suy ra từ mệnh đề thứ nhất và sự kiện rằng $M =\sum_{\lambda}M^{\lambda}(\mathfrak{h}), N =\sum_{\lambda}N^{\lambda}(\mathfrak{h})$, xem (i).
 
 #### Nhận xét {#lie-vii-s1-n3-rem-1 .statement tag=00SY}
 

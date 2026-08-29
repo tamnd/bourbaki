@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: 5e97e8733a0ddc8d0586f23204c8a05ccc9e62763723a694e63593829f247770
+content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
 ---
 
 ## § 6. EXTENSIONS, SOLVABLE GROUPS, NILPOTENT GROUPS
@@ -659,7 +659,7 @@ $$
 $$
 whence, by virtue of the lemma, $\mathrm{Card}(E) \not\equiv 0 \pmod{p}$. Consider the extension to E of the operation of G on itself by left translation. There exists $X \in E$ whose orbit has non-zero cardinal mod. $p$. If $H_X$ denotes the stabilizer of X, then
 
-(G:H_x) \not\equiv 0 \pmod{p}, which means that $p^r$ divides Card(H_x). But H_x consists of the $s \in G$ such that $sX = X$; if $x \in X$, then $H_x \subset X.x^{-1}$, whence Card(H_x) $\leqslant$ Card(X) = $p^r$. Hence Card(H_x) = $p^r$.
+$(G:H_x) \not\equiv 0 \pmod{p}$, which means that $p^r$ divides $\mathrm{Card}(H_x)$. But $H_x$ consists of the $s \in G$ such that $sX = X$; if $x \in X$, then $H_x \subset X.x^{-1}$, whence $\mathrm{Card}(H_x) \leqslant \mathrm{Card}(X) = p^r$. Hence $\mathrm{Card}(H_x) = p^r$.
 
 #### Corollary {#alg-i-s6-n6-cor-1 .statement}
 

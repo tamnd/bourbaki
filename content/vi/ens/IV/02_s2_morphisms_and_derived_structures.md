@@ -38,10 +38,10 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: ad24a30e37753a66165ddc3a7a386403ed5bad4ffa3d50fc2f8fbf913e1ce29e
+content_sha256: 38ab0c155c939c82f50b44d670c0b5ad1ab07d60e31858e124c0b5a315ef3675
 translated_from: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
-source_content_sha256: 33716172cbb3b2bb56712f0439f68cc2acc589398de3fe56f5601e43675e217a
-translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini, gpt-5-6
+source_content_sha256: f3deeaa7f667542d82042b94967bb4d68d106fa3b1b0bdd6f7b4555f277bea62
+translation_model: gpt-5-6-mini, gpt-5.4, gpt-5.4-mini, gpt-5-mini, gpt-5-6
 translation_run: translate-vi-10c66441
 glossary_version: 34
 glossary_terms_sha256: f348b3bda3c3fd38fb2e806d1241ce9b7d0a293b1564809824de7ef754581cfe
@@ -72,27 +72,25 @@ Nếu $\Sigma$ và $\sigma$ được cho, quan hệ $f\in\sigma\{x,y,s,t\}$ đư
 
 #### Ví dụ 1 {#ens-iv-s2-n1-exa-1 .statement tag=03VL}
 
-Lấy $\Sigma$ là loài cấu trúc thứ tự và ký hiệu $\sigma\{x,y,s,t\}$ là tập hợp tất cả các ánh xạ $f$ từ $x$ vào $y$ sao cho quan hệ $(u,v)\in s$ kéo theo $(f(u),f(v))\in t$. Với ký hiệu của Chương III, § 1,
-
-271 điều này có nghĩa là $u \leqslant v$ kéo theo $f(u) \leqslant f(v)$, nghĩa là $f$ là *tăng*. Việc kiểm tra các tiên đề $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$ là hiển nhiên.
+Lấy $\Sigma$ là loài các cấu trúc thứ tự và cho $\sigma\{x,y,s,t\}$ ký hiệu tập hợp mọi ánh xạ $f$ của $x$ vào $y$ sao cho quan hệ $(u,v)\in s$ kéo theo $(f(u),f(v))\in t$. Theo ký hiệu của Chương III, § 1, điều này có nghĩa là $u \leqslant v$ kéo theo $f(u) \leqslant f(v)$, tức là $f$ là *tăng*. Việc kiểm tra các tiên đề $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$ là hiển nhiên.
 
 #### Ví dụ 2 {#ens-iv-s2-n1-exa-2 .statement tag=03VM}
 
-Lấy $\Sigma$ là một loài cấu trúc đại số có một luật hợp thành (nội tại) duy nhất, được xác định khắp nơi (§1, no. 4, Ví dụ 2). Cho A, A$'$ là hai tập hợp được trang bị các cấu trúc thuộc loài $\Sigma$, và cho $p$, $p'$ là các luật hợp thành của hai cấu trúc này. Xét các ánh xạ $f$ từ A vào A$'$ sao cho $p'(f(x), f(y)) = f(p(x,\ y))$ với mọi $x \in \mathrm{A}$ và mọi $y \in \mathrm{A}$. Các ánh xạ này thỏa mãn $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$, và được gọi là các *đồng cấu* của A vào A$'$.
+Lấy $\Sigma$ là một loài cấu trúc đại số chỉ có một luật hợp thành (trong) duy nhất, xác định khắp nơi (§1, no. 4, Example 2). Cho A, A$'$ là hai tập hợp được trang bị các cấu trúc thuộc loài $\Sigma$, và cho $p$, $p'$ là các luật hợp thành của hai cấu trúc đó. Xét các ánh xạ $f$ của A vào A$'$ sao cho $p'(f(x), f(y)) = f(p(x,\ y))$ với mọi $x \in \mathrm{A}$ và mọi $y \in \mathrm{A}$. Các ánh xạ này thỏa mãn $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$, và được gọi là các *đồng cấu* của A vào A$'$.
 
 #### Ví dụ 3 {#ens-iv-s2-n1-exa-3 .statement tag=03VN}
 
-Lấy $\Sigma$ là loài cấu trúc tôpô (§1, no. 4, Ví dụ 3). Cho A, A$'$ là hai tập hợp được trang bị các tôpô V, V$'$, tương ứng. Xét các ánh xạ $f$ từ A vào A$'$ sao cho quan hệ $\mathrm{X}' \in \mathrm{V}'$ kéo theo $\overset{-1}{f}(\mathrm{X}') \in \mathrm{V}$ (nói cách khác, sao cho ảnh ngược của mọi tập mở trong tôpô V$'$ là một tập mở trong tôpô V). Các ánh xạ này, thỏa mãn $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$, là các ánh xạ *liên tục* của A vào A$'$ (đối với các tôpô V và V$'$) (xem *Tôpô đại cương*, Chương I, § 2).
+Lấy $\Sigma$ là loài các cấu trúc tôpô (§1, no. 4, Example 3). Cho A, A$'$ là hai tập hợp được trang bị các tôpô V, V$'$, tương ứng. Xét các ánh xạ $f$ của A vào A$'$ sao cho quan hệ $\mathrm{X}' \in \mathrm{V}'$ kéo theo $\overset{-1}{f}(\mathrm{X}') \in \mathrm{V}$ (nói cách khác, sao cho ảnh ngược của mọi tập mở trong tôpô V$'$ là một tập mở trong tôpô V). Các ánh xạ này, thỏa mãn $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$, là các ánh xạ *liên tục* của A vào A$'$ (đối với các tôpô V và V$'$) (x. *General Topology*, Chương I, § 2).
 
 #### Nhận xét {#ens-iv-s2-n1-rem-1 .statement tag=03VO}
 
-Đối với một loài cấu trúc $\Sigma$ cho trước, ta có thể có dịp định nghĩa các thuật ngữ khác nhau $\sigma \} x,\ y,\ s,\ t \{$ thỏa mãn các điều kiện $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$. Chẳng hạn, nếu $\Sigma$ là loài cấu trúc tôpô, với ký hiệu của Ví dụ 3 ở trên, một ánh xạ $f$ từ A vào A$'$ được gọi là *mở* nếu quan hệ $\mathrm{X} \in \mathrm{V}$ kéo theo $f(\mathrm{X}) \in \mathrm{V}'$ (nói cách khác, nếu ảnh qua $f$ của mọi tập mở là một tập mở). Dễ dàng kiểm tra rằng các ánh xạ mở cũng thỏa mãn các điều kiện $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$ đối với loài $\Sigma$. \* Hơn nữa, có thể chỉ ra rằng một ánh xạ liên tục không nhất thiết là mở, và một ánh xạ mở không nhất thiết là liên tục. \* Do đó, một loài cấu trúc cho trước *không suy ra* một khái niệm đồng cấu được xác định rõ.
+Đối với một loài cấu trúc $\Sigma$ đã cho, có thể cần phải định nghĩa nhiều hạng thức khác nhau $\sigma \} x,\ y,\ s,\ t \{$ thỏa mãn các điều kiện $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$. Chẳng hạn, nếu $\Sigma$ là loài các cấu trúc tôpô, với ký hiệu của Ví dụ 3 ở trên, một ánh xạ $f$ của A vào A$'$ được gọi là *mở* nếu quan hệ $\mathrm{X} \in \mathrm{V}$ kéo theo $f(\mathrm{X}) \in \mathrm{V}'$ (nói cách khác, nếu ảnh qua $f$ của mọi tập mở là một tập mở). Dễ kiểm tra rằng các ánh xạ mở cũng thỏa mãn các điều kiện $(\mathrm{MO_I})$, $(\mathrm{MO_{II}})$, và $(\mathrm{MO_{III}})$ đối với loài $\Sigma$. \* Hơn nữa, có thể chỉ ra rằng một ánh xạ liên tục không nhất thiết là mở, và một ánh xạ mở không nhất thiết là liên tục. \* Do đó, một loài cấu trúc đã cho *không kéo theo* một khái niệm cấu xạ được xác định rõ.
 
 ☡
 
-Đối với các cấu trúc thứ tự, các cấu trúc đại số và các cấu trúc tôpô, luôn hiểu rằng các đồng cấu là những đồng cấu đã được định nghĩa trong các Ví dụ trên, trừ khi có phát biểu rõ ràng ngược lại.
+Khi nói đến các cấu trúc thứ tự, các cấu trúc đại số, và các cấu trúc tôpô, luôn luôn phải hiểu rằng các cấu xạ là những cấu xạ đã được định nghĩa trong các Ví dụ trên, trừ khi có nói rõ điều ngược lại.
 
-Điều kiện $(\mathrm{MO_{III}})$ và đặc trưng hóa các song ánh (Chương II, § 3, no. 8, Hệ quả của Mệnh đề 8) suy ra tiêu chuẩn sau:
+Điều kiện $(\mathrm{MO_{III}})$ và đặc trưng hóa của các song ánh (Chương II, § 3, no. 8, Hệ quả của Mệnh đề 8) kéo theo tiêu chuẩn sau :
 
 CST8. *Cho* E, E$'$ *là hai tập hợp, mỗi tập hợp được trang bị một cấu trúc thuộc loài cấu trúc $\Sigma$. Cho $f$ là một $\sigma$-cấu xạ của* E *vào* E$'$ *và cho $g$ là một $\sigma$-cấu xạ của* E$'$ *vào* E. *Nếu $g \circ f$ là ánh xạ đồng nhất của* E *lên chính nó, và nếu $f \circ g$ là ánh xạ đồng nhất của* E$'$ *lên chính nó, thì $f$ là một đẳng cấu của* E *lên* E$'$, *và $g$ là đẳng cấu nghịch đảo.*
 
@@ -164,55 +162,53 @@ CST10. *Cho* E *là một tập hợp, cho* $(\mathrm{A}_\iota)_{\iota \in \math
 
 (b) *tồn tại một cấu trúc ban đầu* $\mathscr{I}'$ *trên* E *đối với họ* $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$.
 
-*Hơn nữa, các mệnh đề này suy ra rằng* $\mathscr{I} = \mathscr{I}'$.
+*Hơn nữa, các mệnh đề này kéo theo* $\mathscr{I} = \mathscr{I}'$.
 
-Cho F là một tập hợp được trang bị một cấu trúc loài $\Sigma$, và cho $u$ là một ánh xạ của F vào E. Nhận thấy rằng theo định nghĩa, quan hệ "$h_\lambda \circ u$ là một cấu xạ của F vào $\mathrm{B}_\lambda$" tương đương với quan hệ "với mọi $\iota \in \mathrm{J}_\lambda$, $g_{\lambda\iota} \circ h_\lambda \circ u = f_\iota \circ u$ là một cấu xạ của F vào $\mathrm{A}_\iota$". Do đó quan hệ
+Cho F là một tập hợp được trang bị một cấu trúc thuộc loài $\Sigma$, và cho $u$ là một ánh xạ từ F vào E. Hãy nhận thấy rằng theo định nghĩa, quan hệ "$h_\lambda \circ u$ là một cấu xạ từ F vào $\mathrm{B}_\lambda$" là tương đương với quan hệ "với mọi $\iota \in \mathrm{J}_\lambda$, $g_{\lambda\iota} \circ h_\lambda \circ u = f_\iota \circ u$ là một cấu xạ từ F vào $\mathrm{A}_\iota$". Do đó, quan hệ
 
-(1)     "với mọi $\lambda \in \mathrm{L}$, $h_\lambda \circ u$ là một cấu xạ của F vào $\mathrm{B}_\lambda$"
+(1)     "với mọi $\lambda \in \mathrm{L}$, $h_\lambda \circ u$ là một cấu xạ từ F vào $\mathrm{B}_\lambda$"
 
-tương đương với quan hệ
+là tương đương với quan hệ
 
-(2)     "với mọi $\iota \in \mathrm{I}$, $f_\iota \circ u$ là một cấu xạ của F vào $\mathrm{A}_\iota$".
+(2)     "với mọi $\iota \in \mathrm{I}$, $f_\iota \circ u$ là một cấu xạ từ F vào $\mathrm{A}_\iota$".
 
-Bây giờ, nói rằng $\mathscr{I}'$ là cấu trúc ban đầu đối với họ $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ có nghĩa là quan hệ (1) tương đương với quan hệ "$u$ là một cấu xạ của F vào E được trang bị $\mathscr{I}'$"; và nói rằng $\mathscr{I}$ là cấu trúc ban đầu đối với họ $(A_i,\,\mathscr{G}_i,\,f_i)_{i\in I}$ có nghĩa là quan hệ (2) tương đương với quan hệ “$u$ là một cấu xạ của F vào E được trang bị $\Gamma$”. Suy ra kết quả, xét tính chất duy nhất của cấu trúc ban đầu.
+Bây giờ, nói rằng $\mathscr{I}'$ là cấu trúc ban đầu đối với họ $(\mathrm{B}_\lambda, \mathscr{S}'_\lambda, h_\lambda)_{\lambda \in \mathrm{L}}$ có nghĩa là quan hệ (1) tương đương với quan hệ "$u$ là một cấu xạ từ F vào E được trang bị $\mathscr{I}'$"; và nói rằng $\mathscr{I}$ là cấu trúc ban đầu đối với họ $(A_i,\,\mathscr{G}_i,\,f_i)_{i\in I}$ có nghĩa là quan hệ (2) tương đương với quan hệ “$u$ là một cấu xạ từ F vào E được trang bị $\Gamma$”. Do đó suy ra kết quả, theo tính chất duy nhất của cấu trúc ban đầu.
 
 ### 4. CÁC VÍ DỤ VỀ CẤU TRÚC BAN ĐẦU
 
-I. *Ảnh ngược của một cấu trúc.* Khi I là một tập hợp gồm một phần tử, cấu trúc ban đầu đối với $(A,\,\mathscr{G},\,f)$ được gọi là *ảnh ngược dưới $f$ của cấu trúc $\mathscr{G}$* (khi nó tồn tại).
+I. *Ảnh ngược của một cấu trúc.* Khi I là một tập hợp gồm một phần tử duy nhất, cấu trúc ban đầu đối với $(A,\,\mathscr{G},\,f)$ được gọi là *ảnh ngược theo $f$ của cấu trúc $\mathscr{G}$* (khi nó tồn tại).
 
-\* Một tôpô luôn có ảnh ngược dưới bất kỳ ánh xạ $f$ nào; nhưng điều này không đúng đối với một cấu trúc thứ tự hay một cấu trúc đại số. \*
+\* Một tôpô luôn luôn có ảnh ngược theo bất kỳ ánh xạ nào $f$; nhưng điều này không đúng đối với một cấu trúc thứ tự hoặc một cấu trúc đại số. \*
 
-II. *Cấu trúc cảm sinh.* Cho A là một tập hợp được trang bị một cấu trúc $\mathscr{G}$ loài $\Sigma$, cho B là một tập con của A, và cho $j$ là đơn ánh chính tắc của B vào A. Khi đó ảnh ngược dưới $j$ của cấu trúc B (nếu nó tồn tại) được gọi là *cấu trúc cảm sinh bởi $\mathscr{G}$ trên B.*
+II. *Cấu trúc cảm sinh.* Cho A là một tập hợp được trang bị một cấu trúc $\mathscr{G}$ thuộc loài $\Sigma$, cho B là một tập con của A, và cho $j$ là đơn ánh chính tắc từ B vào A. Khi đó ảnh ngược theo $j$ của cấu trúc B (nếu nó tồn tại) được gọi là *cấu trúc do $\mathscr{G}$ cảm sinh trên B.*
 
-Một cấu trúc thứ tự cảm sinh một cấu trúc cùng loài trên mọi tập con của tập hợp mà trên đó nó được xác định; nhưng điều này không đúng đối với cấu trúc của một tập có hướng. \* Một tôpô cảm sinh một tôpô trên mọi tập con của tập hợp mà trên đó nó được xác định, nhưng một tôpô compact nói chung không cảm sinh một tôpô compact. Một cấu trúc đại số trên một tập hợp A nói chung không cảm sinh một cấu trúc cùng loài trên một tập con tùy ý B; nếu cấu trúc đã cho trên A gồm các luật hợp thành được xác định ở mọi nơi, thì cần phải có B ổn định đối với từng luật này, nhưng điều kiện cần này không phải lúc nào cũng đủ. \*
+Một cấu trúc thứ tự cảm sinh một cấu trúc cùng loài trên mọi tập con của tập hợp mà trên đó nó được xác định; nhưng điều này không đúng đối với cấu trúc của một tập có hướng. \* Một tôpô cảm sinh một tôpô trên mọi tập con của tập hợp mà trên đó nó được xác định, nhưng một tôpô compắc nói chung không cảm sinh một tôpô compắc. Một cấu trúc đại số trên một tập hợp A nói chung không cảm sinh một cấu trúc cùng loài trên một tập con tùy ý B; nếu cấu trúc đã cho trên A gồm các luật hợp thành được xác định khắp nơi, thì điều cần thiết là B phải ổn định đối với mỗi luật trong các luật ấy, nhưng điều kiện cần này không phải lúc nào cũng đủ. \*
 
-Tiêu chuẩn tổng quát CST10 cho ta tiêu chuẩn *tính bắc cầu* sau đây đối với các cấu trúc cảm sinh :
+Tiêu chuẩn tổng quát CST10 cho ta *tiêu chuẩn bắc cầu* sau đây đối với các cấu trúc cảm sinh:
 
-CST11. *Cho B là một tập con của A, cho C là một tập con của B, và cho $\mathscr{G}$ là một cấu trúc loài $\Sigma$ trên A cảm sinh một cấu trúc $\mathscr{G}'$ cùng loài trên B. Khi đó $\mathscr{G}$ cảm sinh một cấu trúc loài $\Sigma$ trên C khi và chỉ khi $\mathscr{G}'$ cảm sinh một cấu trúc loài $\Sigma$ trên C, và các cấu trúc cảm sinh trên C bởi $\mathscr{G}$ và $\mathscr{G}'$ khi đó là giống hệt nhau.*
+CST11. *Cho B là một tập con của A, cho C là một tập con của B, và cho $\mathscr{G}$ là một cấu trúc thuộc loài $\Sigma$ trên A, cấu trúc này cảm sinh một cấu trúc $\mathscr{G}'$ cùng loài trên B. Khi đó $\mathscr{G}$ cảm sinh một cấu trúc thuộc loài $\Sigma$ trên C khi và chỉ khi $\mathscr{G}'$ cảm sinh một cấu trúc thuộc loài $\Sigma$ trên C, và khi ấy các cấu trúc do $\mathscr{G}$ và $\mathscr{G}'$ cảm sinh trên C là đồng nhất.*
 
-CST12. *Cho A, A' là hai tập hợp được trang bị các cấu trúc $\mathscr{G}$, $\mathscr{G}'$ loài $\Sigma$. Cho B là một tập con của A, và B' là một tập con của A'. Giả sử rằng $\mathscr{G}$ (resp. $\mathscr{G}'$) cảm sinh một cấu trúc loài $\Sigma$ trên B (resp. B'). Nếu $f$ là một cấu xạ của A vào A' sao cho $f(B)\subset B'$, thì ánh xạ của B vào B' trùng với $f$ trên B là một cấu xạ (theo các cấu trúc cảm sinh bởi $\mathscr{G}$ và $\mathscr{G}'$).*
+CST12. *Cho A, A' là hai tập hợp được trang bị các cấu trúc $\mathscr{G}$, $\mathscr{G}'$ thuộc loài $\Sigma$. Cho B là một tập con của A, và B' là một tập con của A'. Giả sử rằng $\mathscr{G}$ (tương ứng $\mathscr{G}'$) cảm sinh một cấu trúc thuộc loài $\Sigma$ trên B (tương ứng B'). Nếu $f$ là một cấu xạ từ A vào A' sao cho $f(B)\subset B'$, thì ánh xạ từ B vào B' trùng với $f$ trên B là một cấu xạ (đối với các cấu trúc do $\mathscr{G}$ và $\mathscr{G}'$ cảm sinh).*
 
-Cho $j$ (resp. $j'$) là đơn ánh chính tắc của B (resp. B') vào A (resp. A'). Theo định nghĩa ta có $f\circ j=j'\circ g$. Vì $f$ và $j$ là các cấu xạ,
+Cho $j$ (resp. $j'$) là đơn ánh chính tắc của B (resp. B') vào A (resp. A'). Theo định nghĩa ta có $f\circ j=j'\circ g$. Vì $f$ và $j$ là các cấu xạ, nên $f\circ j$ cũng vậy theo (MO$_{\mathrm{II}}$); nhưng khi đó, vì $j'\circ g$ là một cấu xạ, nên ánh xạ $g$ là một cấu xạ theo định nghĩa của cấu trúc ban đầu.
 
-276 cũng vậy là $f\circ j$ theo (MO$_{\mathrm{II}}$); nhưng khi đó, vì $j'\circ g$ là một cấu xạ, ánh xạ $g$ là một cấu xạ theo định nghĩa của cấu trúc ban đầu.
+III. *Cấu trúc tích.* Cho $(A_i)_{i\in I}$ là một họ các tập hợp, và trên mỗi tập hợp $A_i$ cho $\mathscr{S}_i$ là một cấu trúc thuộc loài $\Sigma$. Cho $E=\prod_{i\in I}A_i$ là *tích* của họ $(A_i)_{i\in I}$ (Chương II, § 5), và ký hiệu $\operatorname{pr}_i$ là phép chiếu của $E$ lên $A_i$. Cấu trúc ban đầu (nếu tồn tại) đối với họ $(A_i,\mathscr{S}_i,\operatorname{pr}_i)_{i\in I}$ được gọi là *tích* của các cấu trúc $\mathscr{S}_i$.
 
-III. *Cấu trúc tích.* Cho $(A_i)_{i\in I}$ là một họ các tập hợp, và trên mỗi tập hợp $A_i$ hãy cho $\mathscr{S}_i$ là một cấu trúc của loài $\Sigma$. Cho $E=\prod_{i\in I}A_i$ là *tích* của họ $(A_i)_{i\in I}$ (chương II, § 5), và ký hiệu $\operatorname{pr}_i$ là phép chiếu của $E$ lên $A_i$. Cấu trúc ban đầu (nếu tồn tại) đối với họ $(A_i,\mathscr{S}_i,\operatorname{pr}_i)_{i\in I}$ được gọi là *tích* của các cấu trúc $\mathscr{S}_i$.
+\* Một họ các cấu trúc thứ tự luôn luôn thừa nhận một cấu trúc tích, nhưng điều tương tự không phải lúc nào cũng đúng đối với một họ các cấu trúc thứ tự toàn phần. Một họ các cấu trúc nhóm luôn luôn thừa nhận một cấu trúc tích, nhưng điều tương tự không nhất thiết đúng đối với một họ các cấu trúc vành chia. Một họ các tôpô luôn luôn thừa nhận một cấu trúc tích, nhưng điều này không phải lúc nào cũng đúng đối với một họ các cấu trúc không gian compact địa phương; trong trường hợp này, có một cấu trúc tích cùng loài nếu họ là *hữu hạn*, nhưng có thể không có nếu họ là *vô hạn* (xem *Topologie générale*, Chương I, § 9, no. 7, Mệnh đề 14). \*
 
-\* Một họ các cấu trúc thứ tự luôn thừa nhận một cấu trúc tích, nhưng điều đó không phải lúc nào cũng đúng với một họ các cấu trúc thứ tự toàn phần. Một họ các cấu trúc nhóm luôn thừa nhận một cấu trúc tích, nhưng điều đó chưa chắc đúng với một họ các cấu trúc vành chia. Một họ các tôpô luôn thừa nhận một cấu trúc tích, nhưng điều này không phải lúc nào cũng đúng với một họ các cấu trúc của các không gian compact địa phương; trong trường hợp này, có một cấu trúc tích cùng loài nếu họ là *hữu hạn*, nhưng không nhất thiết có nếu họ là *vô hạn* (xem *General Topology*, Chapter I, § 9, no. 7, Prop. 14). \*
+Tiêu chuẩn CST10 dẫn đến *tiêu chuẩn kết hợp* sau đây đối với các cấu trúc tích :
 
-Tiêu chuẩn CST10 dẫn tới tiêu chuẩn *tính kết hợp* sau đây cho các cấu trúc tích :
+CST13. *Cho $(A_i)_{i\in I}$ là một họ các tập hợp, và với mỗi chỉ số $i\in I$ cho $\mathscr{S}_i$ là một cấu trúc thuộc loài $\Sigma$ trên $A_i$. Cho $(J_\lambda)_{\lambda\in L}$ là một phân hoạch của $I$. Giả sử rằng trên mỗi tích bộ phận $B_\lambda=\prod_{i\in J_\lambda}A_i$, họ $(\mathscr{S}_i)_{i\in J_\lambda}$ thừa nhận một cấu trúc tích $\mathscr{S}'_\lambda$. Khi đó họ $(\mathscr{S}_i)_{i\in I}$ thừa nhận một cấu trúc tích $\mathscr{S}$ khi và chỉ khi họ $(\mathscr{S}'_\lambda)_{\lambda\in L}$ thừa nhận một cấu trúc tích $\mathscr{S}'$, và ánh xạ chính tắc từ $E=\prod_{i\in I}A_i$, được trang bị $\mathscr{S}$, lên $F=\prod_{\lambda\in L}B_\lambda$, được trang bị $\mathscr{S}'$ (Chương II, § 5, no. 5), khi đó là một đẳng cấu.*
 
-CST13. *Cho $(A_i)_{i\in I}$ là một họ các tập hợp, và với mỗi chỉ số $i\in I$ hãy cho $\mathscr{S}_i$ là một cấu trúc của loài $\Sigma$ trên $A_i$. Cho $(J_\lambda)_{\lambda\in L}$ là một phân hoạch của $I$. Giả sử rằng trên mỗi tích bộ phận $B_\lambda=\prod_{i\in J_\lambda}A_i$, họ $(\mathscr{S}_i)_{i\in J_\lambda}$ thừa nhận một cấu trúc tích $\mathscr{S}'_\lambda$. Khi đó họ $(\mathscr{S}_i)_{i\in I}$ thừa nhận một cấu trúc tích $\mathscr{S}$ khi và chỉ khi họ $(\mathscr{S}'_\lambda)_{\lambda\in L}$ thừa nhận một cấu trúc tích $\mathscr{S}'$, và khi đó ánh xạ chính tắc của $E=\prod_{i\in I}A_i$, được trang bị $\mathscr{S}$, lên $F=\prod_{\lambda\in L}B_\lambda$, được trang bị $\mathscr{S}'$ (chương II, § 5, no. 5), là một đẳng cấu.*
+Một ứng dụng khác của CST10 cho tiêu chuẩn sau đây liên quan đến các cấu trúc cảm sinh bởi một cấu trúc tích :
 
-Một áp dụng khác của CST10 cho tiêu chuẩn sau đây về các cấu trúc được cảm sinh bởi một cấu trúc tích :
+CST14. *Cho $(A_i)_{i\in I}$ là một họ các tập hợp, và với mỗi $i\in I$ cho $\mathscr{S}_i$ là một cấu trúc thuộc loài $\Sigma$ trên $A_i$. Với mỗi $i\in I$, cho $B_i$ là một tập con của $A_i$. Giả sử rằng mỗi $\mathscr{S}_i$ cảm sinh một cấu trúc $\mathscr{S}'_i$ trên $B_i$, và rằng trên tích $E=\prod_{i\in I}A_i$ tồn tại một cấu trúc $\mathscr{S}_0$ là tích của họ $(\mathscr{S}_i)$. Khi đó các mệnh đề sau là tương đương :*
 
-CST14. *Cho $(A_i)_{i\in I}$ là một họ các tập hợp, và với mỗi $i\in I$ hãy cho $\mathscr{S}_i$ là một cấu trúc của loài $\Sigma$ trên $A_i$. Với mỗi $i\in I$, cho $B_i$ là một tập con của $A_i$. Giả sử rằng mỗi $\mathscr{S}_i$ cảm sinh một cấu trúc $\mathscr{S}'_i$ trên $B_i$, và rằng trên tích $E=\prod_{i\in I}A_i$ tồn tại một cấu trúc $\mathscr{S}_0$ là tích của họ $(\mathscr{S}_i)$. Khi đó các mệnh đề sau là tương đương :*
-
-(a) trên tập hợp $B=\prod_{i\in I}B_i\subset E$ tồn tại một cấu trúc $\mathscr{S}$ được cảm sinh bởi $\mathscr{S}_0$;
+(a) trên tập hợp $B=\prod_{i\in I}B_i\subset E$ tồn tại một cấu trúc $\mathscr{S}$ cảm sinh bởi $\mathscr{S}_0$;
 
 (b) trên tập hợp $B$ tồn tại một cấu trúc $\mathscr{S}'$ là tích của họ các cấu trúc $(\mathscr{S}'_i)$.
 
-*Hơn nữa, các mệnh đề này suy ra rằng $\mathscr{S}=\mathscr{S}'$.*
+*Hơn nữa, các mệnh đề này kéo theo $\mathscr{S}=\mathscr{S}'$.*
 
 Cho $j_\iota$ là đơn ánh chính tắc của $\mathrm{B}_\iota$ vào $\mathrm{A}_\iota$, cho $j$ là đơn ánh chính tắc của B vào E, cho $p_\iota$ là phép chiếu của E lên $\mathrm{A}_\iota$, và cho $p'_\iota$ là phép chiếu của B lên $\mathrm{B}_\iota$. Khi đó ta có $p_\iota \circ j = j_\iota \circ p'_\iota$ với mọi $\iota \in \mathrm{I}$. Theo CST10, $\mathscr{S}$ là cấu trúc ban đầu đối với họ $(\mathrm{A}_\iota, \mathscr{S}_\iota, p_\iota \circ j)_{\iota \in \mathrm{I}}$, và $\mathscr{S}'$ là cấu trúc ban đầu đối với họ $(\mathrm{A}_\iota, \mathscr{S}_\iota, j_\iota \circ p'_\iota)_{\iota \in \mathrm{I}}$. Do đó có kết quả.
 

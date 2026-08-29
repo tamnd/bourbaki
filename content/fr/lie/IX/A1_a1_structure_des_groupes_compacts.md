@@ -26,7 +26,7 @@ subsections:
       pdf_page: 104
 statements: 9
 exercises: 1
-content_sha256: aa3e9936f4a29f975fac2f6af0cfdbda6bd031d26c13293a2a07ce465dad4cdd
+content_sha256: 2d4f18b1034b7cb30fea38ba10ca04df6f31857a9bbc09790218ef318d968749
 ---
 
 ## APPENDICE 1
@@ -129,7 +129,7 @@ Prouvons b). Pour tout $\alpha$ dans $I$, le morphisme $s_\alpha : C(G_\alpha)_0
 
 Tout groupe compact connexe résoluble est commutatif.
 
-En effet le groupe dérivé est alors résoluble et égal à son groupe dérivé (prop. 2, $a$)), donc réduit à l'élément neutre.
+En effet le groupe dérivé est alors résoluble et égal à son groupe dérivé (prop. 2, a)), donc réduit à l'élément neutre.
 
 ## EXERCICES {#lie-ix-a1-exercises}
 

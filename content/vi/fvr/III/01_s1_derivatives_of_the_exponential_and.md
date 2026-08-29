@@ -48,7 +48,7 @@ subsections:
       pdf_page: 117
 statements: 9
 exercises: 39
-content_sha256: dc1972c97914068fdbe108f7900838a89d69e8a7fe966152baf4b197eaa4d30f
+content_sha256: 2747be1a861a52b0a21d414d476a21cd0f1d3132c2202c75ac416d7ab555d463
 translated_from: content/en/fvr/III/01_s1_derivatives_of_the_exponential_and.md
 source_content_sha256: 2478d73e7dea6ae86c44de479cf637d4b4394218fc6dbee2396f8f6140182119
 translation_model: gpt-5.4

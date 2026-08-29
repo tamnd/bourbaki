@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: cc7056ffaa29d8e51804fb410bedb587ac3bba555a33f07baa867b4dd6731633
+content_sha256: cca3f6ad231396bad3078b264e1af0068a5b8347f59a0808f1f56422086955e9
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
 source_content_sha256: 1ae2452e09c6aae656d15e99ae783f3b775e219c73ee5639bef38a58f20ea3cb
 translation_model: gpt-5.4-mini
@@ -384,7 +384,7 @@ $$
 
 suy ra ngay rằng $Db_n \subset b_{n-1}$ với $n \geq 1$. Vì dãy $(b_n)_{n \geq 0}$ là một hệ cơ bản các lân cận của 0 trong $\mathbf{A}[[X]]$ (IV, p. 26 nhận xét), D liên tục và (i) được chứng minh.
 
-Cho $A$ là một đạo hàm của $A[X]$ vào $A[[X]]$. Lập luận như trên, ta có thể ցույց ra rằng $A(h)$ thuộc $b, -_1$, với mọi đa thức thuần nhất $h$ bậc $n \geq 1$. Bây giờ cho $u \in A[[X]]$ và cho $u_n$ là thành phần thuần nhất bậc $n$ của $u$. Vì $A(u_n) \in b, -_1$ với $n \geq 1$, họ $(A(u)), \ldots$, là khả tổng trong $A[[X]]$ và ta có thể định nghĩa một đạo hàm $D$ của $A[[X]]$ vào chính nó bởi
+Cho $A$ là một đạo hàm của $A[X]$ vào $A[[X]]$. Lập luận như trên, ta có thể chỉ ra rằng $A(h)$ thuộc $b, -_1$, với mọi đa thức thuần nhất $h$ bậc $n \geq 1$. Bây giờ cho $u \in A[[X]]$ và cho $u_n$ là thành phần thuần nhất bậc $n$ của $u$. Vì $A(u_n) \in b, -_1$ với $n \geq 1$, họ $(A(u)), \ldots$, là khả tổng trong $A[[X]]$ và ta có thể định nghĩa một đạo hàm $D$ của $A[[X]]$ vào chính nó bởi
 
 $$
 D(u) = \sum_{n \geq 0} \Delta(u_n)

@@ -42,9 +42,9 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: 7e7c7f16e3de19c195be2193e64db22e66f3783d56c3b6fddf9213d2594a8a54
+content_sha256: eaa169ea47ec336b4218c8df22f943c48eec43bba64abcfb8156446e2522b5b5
 translated_from: content/en/alg/IV/06_s6_symmetric_functions.md
-source_content_sha256: 68bde2000afb4bbd942818b874edcd61e84848efa81c2169b8fe6e6f37bec379
+source_content_sha256: 66d5b546694854d26bf604a12708aa73db5a74ae8a57a81ea44881ad8cc99f4c
 translation_model: gpt-5.4, gpt-5-6, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-fa2660c6
 glossary_version: 34
@@ -56,7 +56,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Đa thức đối xứng
 
-Cho $n$ là một số nguyên dương. Với mọi phép hoán vị $\sigma \in \mathfrak{S}_n$, gọi $\varphi_\sigma$ là tự đẳng cấu của A-đại số $A[X_1, \ldots, X_n]$ biến $X_i$ thành $X_{\sigma(i)}$ với $1 \leq i \leq n$. Hiển nhiên rằng $\sigma \mapsto \varphi_\sigma$ là một đồng cấu từ $\mathfrak{S}_n$ vào nhóm các tự đẳng cấu của $A[X_1, \ldots, X_n]$. Ta sẽ đặt $\sigma f = \varphi_\sigma(f)$ với $\sigma \in \mathfrak{S}_n$ và $f \in A[X_1, \ldots, X_n]$. Đa thức f được gọi là đối xứng nếu $\sigma f = f$ với mọi $\sigma \in \mathfrak{S}_n$ ; các đa thức đối xứng tạo thành một đại số con phân bậc có đơn vị của $A[X_1, \ldots, X_n]$ ; trong phần còn lại của mục này, ta sẽ ký hiệu nó bởi $A[X_1, \ldots, X_n]^{\mathrm{sym}}$.
+Cho $n$ là một số nguyên dương. Với mọi phép hoán vị $\sigma \in \mathfrak{S}_n$, gọi $\varphi_\sigma$ là tự đẳng cấu của đại số trên A $A[X_1, \ldots, X_n]$ biến $X_i$ thành $X_{\sigma(i)}$ với $1 \leq i \leq n$. Rõ ràng $\sigma \mapsto \varphi_\sigma$ là một đồng cấu từ $\mathfrak{S}_n$ vào nhóm các tự đẳng cấu của $A[X_1, \ldots, X_n]$. Ta sẽ đặt $\sigma f = \varphi_\sigma(f)$ với $\sigma \in \mathfrak{S}_n$ và $f \in A[X_1, \ldots, X_n]$. Đa thức f được gọi là đối xứng nếu $\sigma f = f$ với mọi $\sigma \in \mathfrak{S}_n$ ; các đa thức đối xứng tạo thành một đại số con phân bậc có đơn vị của $A[X_1, \ldots, X_n]$ ; trong phần còn lại của mục này, ta sẽ ký hiệu nó bởi $A[X_1, \ldots, X_n]^{\mathrm{sym}}$.
 Với mọi số nguyên dương k, ta ký hiệu bởi $\mathfrak{P}_k$ tập hợp các tập con có k phần tử của tập $\{1, 2, \ldots, n\}$ và đặt
 
 (1)
@@ -76,7 +76,7 @@ s_n &= X_1 \ldots X_n
 \end{aligned}
 $$
 
-và $s_k = 0$ với $k > n$. Hiển nhiên $s_k$ là một đa thức đối xứng thuần nhất bậc k ; ta sẽ gọi nó là đa thức đối xứng cơ bản bậc k.
+và $s_k = 0$ với $k > n$. Rõ ràng $s_k$ là một đa thức đối xứng thuần nhất bậc k ; ta sẽ gọi nó là đa thức đối xứng sơ cấp bậc k.
 Trong vành $A[X_1, \ldots, X_n, U, V]$ ta có quan hệ
 
 (2)
@@ -98,15 +98,15 @@ $$
 
 #### Định lý 1 {#alg-iv-s6-thm-1 .statement}
 
-— Đặt $E = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$ và $S = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]^{\text{sym}}$.
+— Ta đặt $E = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$ và $S = A[\mathbf{X}_1, \ldots, \mathbf{X}_n]^{\text{sym}}$.
 
-a) A-đại số $S$ của các đa thức đối xứng được sinh bởi $s_1, \ldots, s_n$.
+a) Đại số trên $A$ $S$ của các đa thức đối xứng được sinh bởi $s_1, \ldots, s_n$.
 
 b) Các phần tử $s_1, \ldots, s_n$ của $E$ độc lập đại số trên $A$ (IV, p. 4).
 
-c) Họ các đơn thức $X^v = X_1^{v(1)} \ldots X_n^{v(n)}$ sao cho $0 \leq v(i) < i$ với $1 \leq i \leq n$ là một cơ sở của S-môđun $E$. Đặc biệt, $E$ là một S-môđun tự do hạng $n!$.
+c) Họ các đơn thức $X^v = X_1^{v(1)} \ldots X_n^{v(n)}$ sao cho $0 \leq v(i) < i$ với $1 \leq i \leq n$ là một cơ sở của $E$-môđun $S$. Đặc biệt, $E$ là một $S$-môđun tự do hạng $n!$.
 
-Ta sẽ chứng minh định lý bằng quy nạp theo $n$, trường hợp $n = 0$ là tầm thường. Đặt $B = A[X,]$ và ký hiệu bởi $s_k'$ đa thức đối xứng cơ bản bậc $k$ theo các biến $X_1, \ldots, X_{-1}$; do đó ta có $B[X_1, \ldots, X_{-1}] = A[X_1, \ldots, X_n]$. Nếu ta thay $n$ bởi $n-1$ và $A$ bởi $B$ trong mệnh đề của Định lý 1, thì ta có thể phát biểu giả thiết quy nạp như sau:
+Ta sẽ chứng minh định lý bằng quy nạp theo $n$, trường hợp $n = 0$ là tầm thường. Ta viết $B = A[X,]$ và ký hiệu bởi $s_k'$ đa thức đối xứng sơ cấp bậc $k$ theo $X_1, \ldots, X_{-1}$; do đó ta có $B[X_1, \ldots, X_{-1}] = A[X_1, \ldots, X_n]$. Nếu ta thay $n$ bằng $n-1$ và $A$ bằng $B$ trong phát biểu của Định lý 1, thì ta có thể phát biểu giả thiết quy nạp như sau:
 
 (A) Đại số trên $B$ $S'$ gồm các đa thức $f \in A[\mathbf{X}_1, \ldots, \mathbf{X}_n]$ bất biến dưới mọi hoán vị của $X,, \ldots, X_{-1}$ được sinh bởi $s_1', \ldots, s_{n-1}'$.
 
@@ -159,14 +159,14 @@ $$
 (-1)^{n+1}s_n = X_n^n + \sum_{k=1}^{n-1} (-1)^{n-k} s_{n-k} X_n^k ;
 $$
 
-nói cách khác, $(-1)^{n+1}s_n$ là một đa thức đơn khởi theo $X$, bậc $n$ và có các hệ số trong C. Do đó theo IV, p. 11 ta có tính chất sau:
-(E) Đồng cấu đại số C $\varphi$ từ $C[T]$ vào $C[X_n] = S'$ biến T thành $s_n$ là đơn ánh, và $S'$ là một môđun tự do trên ảnh của $\varphi$, với cơ sở $(1, X_n, ..., X_n^{n-1})$.
+nói cách khác, $(-1)^{n+1}s_n$ là một đa thức đơn khởi theo $X$, bậc $n$ và có các hệ số trong $C$. Theo IV, p. 11, do đó ta có tính chất sau:
+(E) Đồng cấu đại số $C$ $\varphi$ từ $C[T]$ vào $C[X_n] = S'$ ánh xạ T thành $s_n$ là đơn ánh, và $S'$ là một môđun tự do trên ảnh của $\varphi$, với cơ sở $(1, X_n, ..., X_n^{n-1})$.
 
-Các phần tử $s_1, ..., s_{n-1}$ của C độc lập đại số trên A, theo (D); do đó tính đơn ánh của $\varphi$ có nghĩa là $s_1, ..., s_{n-1}, s_n$ độc lập đại số trên A, do đó b).
+Các phần tử $s_1, ..., s_{n-1}$ của $C$ là độc lập đại số trên A, theo (D); do đó tính đơn ánh của $\varphi$ có nghĩa là $s_1, ..., s_{n-1}, s_n$ là độc lập đại số trên A, do đó suy ra b).
 
-Để chứng minh c), ảnh của $\varphi$ bằng $C[s_n]_E = S$, do đó theo (E), $S'$ là một môđun tự do trên S với cơ sở $(1, X_1, ..., X_n^{n-1})$. Khi đó mệnh đề c) suy ra từ giả thiết quy nạp (C) và Mệnh đề 25 của II, p. 222. Điều này hoàn tất chứng minh.
+Để chứng minh c), ảnh của $\varphi$ bằng $C[s_n]_E = S$, nên theo (E), $S'$ là một môđun tự do trên S với cơ sở $(1, X_1, ..., X_n^{n-1})$. Bây giờ mệnh đề c) suy ra từ giả thiết quy nạp (C) và Mệnh đề 25 của II, p. 222. Điều này hoàn tất chứng minh.
 
-Cho $f$ là một đa thức đối xứng theo $X_1, ..., X_n$, thuần nhất bậc $m$. Theo Định lý 1 (IV, p. 62) tồn tại một đa thức $Q \in A[Y_1, ..., Y_n]$ sao cho $f = Q(s_1, ..., s_n)$. Chứng minh trên cung cấp một phương pháp tính tường minh $Q$, bằng một phép quy nạp kép theo $n$ và $m$. Thật vậy, như ta đã thấy, tồn tại một đa thức $P \in A[Y_1, ..., Y_{n-1}]$ và một đa thức h đối xứng theo $X_1, ..., X_n$ thuần nhất bậc $m-n$, sao cho
+Cho $f$ là một đa thức đối xứng theo $X_1, ..., X_n$, thuần nhất bậc $m$. Theo Định lý 1 (IV, p. 62) tồn tại một đa thức $Q \in A[Y_1, ..., Y_n]$ sao cho $f = Q(s_1, ..., s_n)$. Chứng minh trên cung cấp một phương pháp tính tường minh $Q$, bằng quy nạp kép theo $n$ và $m$. Thật vậy, như ta đã thấy, tồn tại một đa thức $P \in A[Y_1, ..., Y_{n-1}]$ và một đa thức h đối xứng theo $X_1, ..., X_n$ thuần nhất bậc $m-n$, sao cho
 
 $$
 f = P(s_1, ..., s_{n-1}) + s_n h .
@@ -178,17 +178,17 @@ $$
 u'(X_1, ..., X_{n-1}) = u(X_1, ..., X_{n-1}, 0)
 $$
 
-Khi đó $s'_1, ..., s'_{n-1}$ là các đa thức đối xứng sơ cấp theo $X_1, ..., X_{n-1}$ và công thức (8) kéo theo
+Khi đó $s'_1, ..., s'_{n-1}$ là các đa thức đối xứng sơ cấp theo $X_1, ..., X_{n-1}$ và công thức (8) suy ra
 
 $$
 f' = P(s'_1, ..., s'_{n-1})
 $$
 
-Như vậy việc xác định $P$ được quy về việc tính các đa thức đối xứng theo $n - 1$ bất định, và $h$ được suy ra từ (8).
+Như vậy việc xác định $P$ được quy về một phép tính các đa thức đối xứng theo $n - 1$ ẩn, và $h$ thu được từ (8).
 
 Ta minh họa phương pháp bằng hai ví dụ.
 
-**Ví dụ. — 1)** Lấy $n = 3$ và
+**Ví dụ. — 1)** Cho $n = 3$ và
 
 $$
 f = X_1^2(X_2 + X_3) + X_2^2(X_3 + X_1) + X_3^2(X_1 + X_2).
@@ -200,7 +200,7 @@ $$
 f' = X_1^2X_2 + X_1X_2^2 = X_1X_2(X_1 + X_2) = s'_1s'_2.
 $$
 
-Đặt $g = f - s_1s_2$; ta có
+Hãy viết $g = f - s_1s_2$; ta có
 
 $$
 g = f - (X_1 + X_2 + X_3)(X_1X_2 + X_1X_3 + X_2X_3) = -3X_1X_2X_3,
@@ -212,8 +212,8 @@ $$
 f = s_1s_2 - 3s_3.
 $$
 
-2) Lại lấy $n = 3$ và đặt $p = X_1^3 + X_2^3 + X_3^3$.
-Ta có $p(X_1, 0, 0) = X_1^3 = s_1(X_1, 0, 0)^3$. Đặt $q = p - s_1^3$, ta được
+2) Lại cho $n = 3$ và đặt $p = X_1^3 + X_2^3 + X_3^3$.
+Ta có $p(X_1, 0, 0) = X_1^3 = s_1(X_1, 0, 0)^3$. Viết $q = p - s_1^3$, ta được
 
 $$
 q = -3f - 6X_1X_2X_3 = -3s_1s_2 + 3s_3
@@ -593,7 +593,7 @@ Vì phần tử đơn vị của $E_f$ tạo thành một phần của một cơ
 — *Cho $f \in A[X]$ là một đa thức đơn khởi bậc n, và cho P là một đa thức đối xứng theo $X_1, ..., X_n$ với các hệ số trong A. Khi đó tồn tại chính xác một phần tử a của A có tính chất sau:
 (FS) Với mọi đồng cấu vành $\rho : A \to B$ và mọi phân tích $^0f(X) = \prod_{i=1}^n (X - \xi_i)$ trong B[X] ta có $\rho(a) = P(\xi_1, ..., \xi_n)$.*
 
-Viết $f = X^n + \sum_{k=1}^n a_k X^{n-k}$, khi đó theo Định lý 1, IV, p. 62 tồn tại một đa thức $\Pi$ theo n ẩn với các hệ số trong A, sao cho $P = \Pi(s_1, ..., s_n)$. Đặt $a = \Pi(-a_1, a,, ..., (-1)^n a_n)$. Dưới giả thiết (FS) ta có
+Viết $f = X^n + \sum_{k=1}^n a_k X^{n-k}$, khi đó theo Định lý 1, IV, p. 62 tồn tại một đa thức $\Pi$ theo n ẩn với các hệ số trong A sao cho $P = \Pi(s_1, ..., s_n)$. Đặt $a = \Pi(-a_1, a,, ..., (-1)^n a_n)$. Dưới giả thiết (FS) ta có
 $$
 s_k(\xi_1, ..., \xi_n) = (-1)^k \rho(a_k)
 $$
@@ -618,13 +618,13 @@ $$
 Khi đó $P^*(f)$ chính là kết thức $\operatorname{res}(f, g)$, theo Hệ quả 1 của IV, p. 80.
 3) Đặt $A(X_1, ..., X_n) = \prod_{i < j} (X_i - X_j)^2$, khi đó $\Delta^*(f)$ chính là biệt thức của đa thức đơn khởi $f$ (IV, p. 82, công thức (46)). \*
 
-4) Đặt $P(X_1, \ldots, X_n) = X_1^k + \ldots + X_n^k$; hơn nữa, định nghĩa đại số $E = A[X]/(f)$ và viết $x$ là ảnh của $X$ trong $E$. Ta nhắc lại rằng A-môđun $E$ là tự do, với cơ sở $(1, x, \ldots, x^{n-1})$ (IV, p. 11, Hệ quả). Ta sẽ chứng minh
+4) Đặt $P(X_1, \ldots, X_n) = X_1^k + \ldots + X_n^k$; hơn nữa, định nghĩa đại số $E = A[X]/(f)$ và viết $x$ cho ảnh của $X$ trong $E$. Ta nhắc lại rằng A-môđun $E$ là tự do, với cơ sở $(1, x, \ldots, x^{n-1})$ (IV, p. 11, Hệ quả). Ta sẽ chứng minh
 
 $$
 \text{Tr}_{E/A}(x^k) = P^*(f)
 $$
 
-Đặt $\pi_k = \text{Tr}_{E/A}(x^k)$ với mọi số nguyên $k \geq 1$. Ghi nhớ các hệ thức Newton (IV, p. 70), ta chỉ cần thiết lập các quan hệ
+Đặt $\pi_k = \text{Tr}_{E/A}(x^k)$ với mọi số nguyên $k \geq 1$. Ghi nhớ các quan hệ Newton (IV, p. 70), ta chỉ cần thiết lập các quan hệ
 
 $$
 \begin{align*}
@@ -633,7 +633,7 @@ $$
 \end{align*}
 $$
 
-(mà chúng tôi cũng sẽ gọi là « các hệ thức Newton »). Quan hệ (27) là hiển nhiên, vì vế trái là vết của
+(mà ta cũng sẽ gọi là « các quan hệ Newton »). Quan hệ (27) là hiển nhiên, vì vế trái là vết của
 
 $$
 x^{k-n}(x^n + a_1 x^{n-1} + \cdots + a_{n-1} x + a_n) = 0 .
@@ -666,11 +666,11 @@ $$
 \text{Tr}_{E/A}(y) = \pi_k + a_1 \pi_{k-1} + \cdots + a_{k-1} \pi_1 + n a_k ,
 $$
 
-do đó công thức (26) suy ra.
+do đó công thức (26) được suy ra.
 
 ### 6. Kết thức
 
-Trong số này ta giả sử đã cho hai số nguyên dương $p, q$ và hai đa thức $f, g$ trong $A[X]$ có dạng
+Trong Số này ta giả thiết đã cho hai số nguyên dương $p, q$ và hai đa thức $f, g$ trong $A[X]$ có dạng
 
 $$
 \begin{align*}
@@ -679,7 +679,7 @@ g &= u_q X^q + u_{q-1} X^{q-1} + \cdots + u_0
 \end{align*}
 $$
 
-sao cho $\deg f \leq p, \deg g \leq q$. Với mọi số nguyên $n \geq 0$ ta ký hiệu bởi $S$, môđun con của $A[X]$ gồm tất cả các đa thức bậc $< n$; nó có họ $(X')_{0 \leq i < n}$ làm cơ sở, và do đó có hạng $n$.
+sao cho $\deg f \leq p, \deg g \leq q$. Với mọi số nguyên $n \geq 0$ ta ký hiệu bởi $S$, môđun con trên $A$ của $A[X]$ gồm tất cả các đa thức bậc $< n$; nó có họ $(X')_{0 \leq i < n}$ làm cơ sở, và do đó có hạng $n$.
 
 Ta cho $S, \times S_p$ cơ sở
 $$
@@ -924,13 +924,13 @@ $$
 (ac' - ca')^2 + (bc' - cb')(ba' - ab')
 $$
 
-Lập luận như trong Mệnh đề 9 (IV, p. 79), ta thấy rằng chỉ cần chứng minh công thức khi $a$ khả nghịch. Khi đó tồn tại một phân tích dạng
+Lập luận như đối với Mệnh đề 9 (IV, p. 79), ta thấy rằng chỉ cần chứng minh công thức khi $a$ khả nghịch. Khi đó tồn tại một phân tích có dạng
 
 $$
 aX^2 + bX + c = a(X - x)(X - y)
 $$
 
-trong $B[X]$, trong đó $B$ là một vành thích hợp chứa $A$ như vành con. Theo Hệ quả 1 ở trên, kết thức cần tìm bằng
+trong $B[X]$, trong đó $B$ là một vành thích hợp chứa $A$ như một vành con. Theo Hệ quả 1 trên đây, resultant cần tìm bằng
 
 $$
 R = a^2(a'x^2 + b'x + c')(a'y^2 + b'y + c') .
@@ -944,16 +944,16 @@ $$
 
 theo (43), do đó $(ax)^2 + (ay)^2 = b^2 - 2ac$.
 
-Theo (44), ta có
+Theo (44) ta có
 
 $$
-R = {a'}^2(axy)^2 + {ab'}^2(axy) + a^2{c'}^2 + a'b'(axy)(ax + ay) +
+R = {a'}^2(axy)^2 + a{b'}^2(axy) + a^2{c'}^2 + a'b'(axy)(ax + ay) +
 $$
 $$
 + a'c'((ax)^2 + (ay)^2) + ab'c'(ax + ay)
 $$
 $$
-= {a'}^2c^2 + {ab'}^2c + a^2{c'}^2 - a'b'cb + a'c'(b^2 - 2ac) - ab'c'b
+= {a'}^2c^2 + a{b'}^2c + a^2{c'}^2 - a'b'cb + a'c'(b^2 - 2ac) - ab'c'b
 $$
 $$
 = (ac' - ca')^2 + (ab' - a'b)(b'c - c'b) ,
@@ -965,15 +965,15 @@ từ đó suy ra kết quả mong muốn.
 
 #### Định nghĩa 2 {#alg-iv-s6-def-2 .statement}
 
-*Cho $f$ là một đa thức đơn khởi của $A[X]$ bậc $m$, và ký hiệu bởi $E$ đại số $A$-đại số $A[X]/(f)$ và bởi $x$ ảnh chính tắc của $X$ trong $E$. Ta định nghĩa biệt thức của $f$, ký hiệu $\operatorname{dis}(f)$, là biệt thức $D_{E/A}(1, x, \ldots, x^{m-1})$ của cơ sở $(1, x, \ldots, x^{m-1})$ của $A$-đại số $E$.*
+*Cho $f$ là một đa thức đơn khởi của $A[X]$ bậc $m$, và ký hiệu bởi $E$ đại số $A[X]/(f)$ và bởi $x$ ảnh chính tắc của $X$ trong $E$. Ta định nghĩa biệt thức của $f$, ký hiệu $\operatorname{dis}(f)$, là biệt thức $D_{E/A}(1, x, \ldots, x^{m-1})$ của cơ sở $(1, x, \ldots, x^{m-1})$ của đại số $A$ $E$.*
 
-Với mọi số nguyên dương $k$, ta viết $\rho_k = \operatorname{Tr}_{E/A}(x^k)$. Theo III, p. 549, Định nghĩa 2 tương đương với công thức
+Với mọi số nguyên dương $k$ ta viết $\rho_k = \operatorname{Tr}_{E/A}(x^k)$. Theo III, p. 549, Định nghĩa 2 tương đương với công thức
 
 $$
 \operatorname{dis}(f) = \det(p_{i+j})_{0 \leq i,j < m}
 $$
 
-*Ví dụ. — 1) Nếu $f$ là một đa thức đơn khởi bậc 0 hoặc 1, thì ta có $\operatorname{dis}(f) = 1$, theo (45).
+*Ví dụ. — 1) Nếu $f$ là một đa thức đơn khởi bậc 0 hoặc 1, ta có $\operatorname{dis}(f) = 1$, theo (45).
 2) Cho $f(X) = X^2 + \alpha X + \beta$ là một đa thức đơn khởi bậc 2. Các hệ thức Newton có thể viết dưới dạng (IV, p. 75)
 
 $$
@@ -988,15 +988,15 @@ $$
 \operatorname{dis}(f) = \det \begin{pmatrix} 2 & -\alpha \\ -a & \alpha^2 - 2p \end{pmatrix} = \alpha^2 - 4\beta
 $$
 
-Cho B là một vành giao hoán, $\rho$ một đồng cấu từ A vào B và $\xi_1, \ldots, \xi_m$ là các phần tử của B sao cho
+Cho B là một vành giao hoán, $\rho$ một đồng cấu từ A đến B và $\xi_1, \ldots, \xi_m$ là các phần tử của B sao cho
 $$
 \rho f(X) = (X - \xi_1) \cdots (X - \xi_m).
 $$
-Ta viết M cho ma trận $(\rho(p_{i + j}))_{0 \leq i, j < m}$ và D cho ma trận Van der Monde $(\xi_i^{j+1})_{0 \leq i, j < m}$. Theo Ví dụ 4 của IV, p. 75 ta có
+Ta ký hiệu bởi M ma trận $(\rho(p_{i + j}))_{0 \leq i, j < m}$ và bởi D ma trận Van der Monde $(\xi_i^{j+1})_{0 \leq i, j < m}$. Theo Ví dụ 4 của IV, p. 75 ta có
 $$
 \rho(p_k) = \xi_1^k + \cdots + \xi_m^k,
 $$
-do đó $M = 'D . D ;$; theo III, p. 532 ta có $D = \prod_{i > j} (\xi_i - \xi_j)$ và $\det M = (\det D)^2$, tức là
+do đó $M = 'D . D ;$ theo III, p. 532 ta có $D = \prod_{i > j} (\xi_i - \xi_j)$ và $\det M = (\det D)^2$, tức là
 $$
 \rho(\operatorname{dis}(f)) = \prod_{i < j} (\xi_i - \xi_j)^2
 $$
@@ -1008,7 +1008,7 @@ với $1 \leq i \leq m$, do đó
 $$
 \rho(\operatorname{dis}(f)) = (-1)^{m(m-1)/2} \prod_{i \neq j} (\xi_i - \xi_j) = (-1)^{m(m-1)/2} \prod_{i=1}^m D(\rho f)(\xi_i).
 $$
-Theo Hệ quả 1 của IV, p. 80 áp dụng cho phân tích phổ quát của $f$, cuối cùng ta thu được
+Áp dụng Hệ quả 1 của IV, p. 80 cho phân tích phổ quát của $f$, cuối cùng ta được
 $$
 \operatorname{res}(f, Df) = \operatorname{res}(Df, f) = (-1)^{m(m-1)/2} \operatorname{dis}(f).
 $$

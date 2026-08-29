@@ -33,7 +33,7 @@ subsections:
       pdf_page: 200
 statements: 30
 exercises: 24
-content_sha256: 67dbd83e73cda3e6a58c282b3008f8e6298b14e5dbe77c02f0bf51477b52e134
+content_sha256: 17a4c805c9e512178f84c2fce5201824071ecd3a40b6521a687a3d4b68dc5e62
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 source_content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
 translation_model: gpt-5.4
@@ -239,7 +239,7 @@ Tương tự, *không gian $\mathcal{C}_0^\infty(U)$ của tất cả các hàm 
 
 Trước hết giả sử tồn tại một tập bị chặn $\overline{B}$ trong $\mathfrak{T}$. Bao đóng $\overline{B}$ của B đối với tôpô ban đầu của E là bị chặn; hơn nữa, $\overline{B}$ là compact vì E là một không gian Montel. Tôpô trên $\overline{B}$ cảm sinh bởi $\sigma(E, E')$ là Hausdorff và thô hơn tôpô cảm sinh bởi tôpô ban đầu; vì vậy chúng trùng nhau (GT, I, § 9, No. 4). Điều này chứng minh mệnh đề trong trường hợp này.
 
-Tiếp theo giả sử rằng $\mathfrak{T}$ có một cơ sở đếm được. Chỉ cần (GT, I, § 6, No. 8, mệnh đề 11) xét trường hợp của một dãy $(x_n)_{n \geq 1}$ tiến tới $x_0$ đối với $\sigma(E, E')$. Gọi B là tập hợp всех $x_n$ với $n \geq 0$. Tập hợp này bị chặn đối với $\sigma(E, E')$, nên cũng bị chặn đối với tôpô ban đầu (III, p. 27, hệ quả 3). Như vậy ta đã quy về trường hợp thứ nhất của chứng minh.
+Tiếp theo giả sử rằng $\mathfrak{T}$ có một cơ sở đếm được. Chỉ cần (GT, I, § 6, No. 8, mệnh đề 11) xét trường hợp của một dãy $(x_n)_{n \geq 1}$ tiến tới $x_0$ đối với $\sigma(E, E')$. Gọi B là tập hợp tất cả $x_n$ với $n \geq 0$. Tập hợp này bị chặn đối với $\sigma(E, E')$, nên cũng bị chặn đối với tôpô ban đầu (III, p. 27, hệ quả 3). Như vậy ta đã quy về trường hợp thứ nhất của chứng minh.
 
 *Mọi không gian Montel đều phản xạ*: điều này suy ra từ đn. 4 và từ đl. 2 của IV, p. 16. Hơn nữa:
 

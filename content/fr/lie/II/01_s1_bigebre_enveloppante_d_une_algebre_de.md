@@ -36,7 +36,7 @@ subsections:
       pdf_page: 13
 statements: 24
 exercises: 12
-content_sha256: 22da2cbed45b4318678470dd7c4d3b005e983ff04abf7ebf7469adeb16a4c033
+content_sha256: bccd4bdfd8b01bed925e5d84477f0aa0e49575b033c467488b41acc4722dc3bd
 ---
 
 ## § 1. Bigèbre enveloppante d’une algèbre de Lie
@@ -226,9 +226,8 @@ E_m . E_n \subset E_{m+n} \quad \text{pour } m \geq 0, n \geq 0
 $$
 (6)
 $$
-c(E_n) \subset \sum_{i+j=n} \operatorname{Im}(E_i \otimes E_j) \quad \text{pour } n \geq 0.
+c(E_n) \subset \sum_{i+j=n} \operatorname{Im}(E_i \otimes E_j) \quad \text{pour } n \geq 0.\footnote{1}
 $$
-\footnote{1}
 
 On appelle bigèbre filtrée une bigèbre munie d’une filtration compatible avec sa structure de bigèbre.
 
@@ -241,9 +240,8 @@ Soient E une bigèbre graduée (A, III, p. 148, déf. 3), $(E^n)_{n \geq 0}$ sa 
 Soient E une bigèbre filtrée, $(E_n)_{n \geq 0}$ sa filtration. Pour tout entier $n \geq 0$, soit $E_n^+ = E_n \cap E^+$. Alors $E_0^+ = \{0\}$ et
 (7)
 $$
-c^+(E_n^+) \subset \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) \quad \text{pour } n \geq 0.
+c^+(E_n^+) \subset \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) \quad \text{pour } n \geq 0.\footnote{1}
 $$
-\footnote{1}
 
 Comme $E_0 = K . 1$, on a $E_0^+ = 0$. Si $x \in E_n$, on a $\pi(x) = x - \varepsilon(x) . 1$ (formule (1)), d’où $\pi(x) \in E_n^+$ et $\pi(E_n) \subset E_n^+$. Il en résulte que $\pi \otimes \pi$ applique $\operatorname{Im}(E_i \otimes E_j)$ dans $\operatorname{Im}(E_i^+ \otimes E_j^+)$ pour $i \geq 0, j \geq 0$. Comme $c^+ = (\pi \otimes \pi) \circ c$ dans $E^+$ (n° 1, prop. 2), on a d’après (6)
 

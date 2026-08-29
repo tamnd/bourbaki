@@ -42,7 +42,7 @@ subsections:
       pdf_page: 90
 statements: 43
 exercises: 12
-content_sha256: 68bde2000afb4bbd942818b874edcd61e84848efa81c2169b8fe6e6f37bec379
+content_sha256: 66d5b546694854d26bf604a12708aa73db5a74ae8a57a81ea44881ad8cc99f4c
 ---
 
 ## § 6. SYMMETRIC FUNCTIONS
@@ -940,13 +940,13 @@ by (43), whence $(ax)^2 + (ay)^2 = b^2 - 2ac$.
 By (44) we have
 
 $$
-R = {a'}^2(axy)^2 + {ab'}^2(axy) + a^2{c'}^2 + a'b'(axy)(ax + ay) +
+R = {a'}^2(axy)^2 + a{b'}^2(axy) + a^2{c'}^2 + a'b'(axy)(ax + ay) +
 $$
 $$
 + a'c'((ax)^2 + (ay)^2) + ab'c'(ax + ay)
 $$
 $$
-= {a'}^2c^2 + {ab'}^2c + a^2{c'}^2 - a'b'cb + a'c'(b^2 - 2ac) - ab'c'b
+= {a'}^2c^2 + a{b'}^2c + a^2{c'}^2 - a'b'cb + a'c'(b^2 - 2ac) - ab'c'b
 $$
 $$
 = (ac' - ca')^2 + (ab' - a'b)(b'c - c'b) ,

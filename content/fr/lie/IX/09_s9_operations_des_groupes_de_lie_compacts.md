@@ -29,7 +29,7 @@ subsections:
       pdf_page: 98
 statements: 19
 exercises: 3
-content_sha256: 3fbae36629bd82c4946a1bba6162c4fb605b6eab46e2926beecbb3309c967156
+content_sha256: fe04b5677c8e1c2cf2af8ab704fe1734fdbd6c788fa894e924c704bd50c9a9d0
 ---
 
 ## § 9. OPÉRATIONS DES GROUPES DE LIE COMPACTS SUR LES VARIÉTÉS
@@ -292,7 +292,7 @@ Par ailleurs, pour que $u$ soit de type $t$, il faut et il suffit que $G_u$ soit
 
 Pour démontrer c), observons que l'hypothèse de connexité de $X/G$ entraîne que $X$ est pure de dimension finie : en effet, pour tout $k \geq 0$, notons $X_k$ l'ensemble des points $x \in X$ tels que $\dim_x X = k$; alors $X_k$ est ouvert et fermé dans $X$, et stable par $G$, de sorte que $X$ est égal à l'un des $X_k$.
 
-Démontrons maintenant c) par récurrence sur la dimension de $X$, l'assertion étant évidente pour $\dim X = 0$. Soit $\tau$ un élément maximal parmi les types d'orbite des points de $X$ (un tel élément existe d'après le lemme 6, $c$) ). Nous allons prouver l'assertion suivante :
+Démontrons maintenant c) par récurrence sur la dimension de $X$, l'assertion étant évidente pour $\dim X = 0$. Soit $\tau$ un élément maximal parmi les types d'orbite des points de $X$ (un tel élément existe d'après le lemme 6, c)). Nous allons prouver l'assertion suivante :
 
 c') Pour toute partie $A$ de $X_{(\tau)}$, ouverte et fermée dans $X_{(\tau)}$ et stable par $G$, l'adhérence $\overline{A}$ de $A$ dans $X$ est ouverte.
 

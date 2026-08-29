@@ -29,10 +29,10 @@ subsections:
       pdf_page: 24
 statements: 7
 exercises: 7
-content_sha256: 6fd48ebb7f8b38cf7171a07caff2a5ef71e9d335863bf0351db2b6aa189e9054
+content_sha256: c041023c007fe26f0dd97c43c8af6366445d85dbf044e91fd0203b7ae801c782
 translated_from: content/en/ac/I/01_s1_diagrams_and_exact_sequences.md
-source_content_sha256: 6790203cdd252786a633208363d3c57f4b6c7b2af0a1176438dd8ea954363ad2
-translation_model: gpt-5.4-mini
+source_content_sha256: 91c566a7cecdb143718ac07860e5d6fd98267d4b75ac12334a6fbc45e5ba6b22
+translation_model: gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-3b304503
 glossary_version: 34
 glossary_terms_sha256: d629aabd137e081a5a3bc47e97faa043696a878045415ef1b25323e63e3fbc55
@@ -43,9 +43,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. BIỂU ĐỒ
 
-Chẳng hạn, cho $A, B, C, D, E$ là năm tập hợp và cho $f$ là một ánh xạ từ $A$ đến $B$, $g$ một ánh xạ từ $B$ đến $C$, $h$ một ánh xạ từ $D$ đến $E$, $u$ một ánh xạ từ $B$ đến $D$ và $v$ một ánh xạ từ $C$ đến $E$. Để tóm tắt một tình huống như vậy, ta thường dùng các biểu đồ; chẳng hạn, tình huống trên được tóm tắt bằng biểu đồ sau
+Chẳng hạn, cho $A, B, C, D, E$ là năm tập hợp và cho $f$ là một ánh xạ từ $A$ đến $B$, $g$ là một ánh xạ từ $B$ đến $C$, $h$ là một ánh xạ từ $D$ đến $E$, $u$ là một ánh xạ từ $B$ đến $D$ và $v$ là một ánh xạ từ $C$ đến $E$. Để tóm tắt một tình huống như vậy, ta thường dùng các biểu đồ; chẳng hạn, tình huống trên được tóm tắt bằng biểu đồ sau đây
 
-(*) Ngoại trừ § 4, các kết quả của chương này chỉ phụ thuộc vào các Quyển I đến VI.
+(*) Trừ § 4, các kết quả của chương này chỉ phụ thuộc vào các Quyển I đến VI.
 
 biểu đồ (Lý thuyết tập hợp, Chương II, § 3, no. 4)
 
@@ -62,15 +62,15 @@ $$
 
 (1)
 
-Trong một biểu đồ như vậy, nhóm ký hiệu $A \xrightarrow{f} B$ biểu thị một cách sơ lược sự kiện rằng $f$ là một ánh xạ từ $A$ đến $B$. Khi không có sự mơ hồ nào về $f$, ta bỏ chữ $f$ và chỉ viết $A \to B$.
+Trong một biểu đồ như vậy, nhóm ký hiệu $A \xrightarrow{f} B$ biểu thị một cách sơ đồ việc $f$ là một ánh xạ từ $A$ đến $B$. Khi không có sự nhập nhằng nào về $f$, ta bỏ chữ $f$ đi và chỉ viết $A \to B$.
 
-Khi $A, B, C, D, E$ là các nhóm (tương ứng các nhóm giao hoán) và $f, g, h, u, v$ là các đồng cấu nhóm, biểu đồ (1) được gọi, viết tắt, là một biểu đồ các nhóm (tương ứng các nhóm giao hoán).
+Khi $A, B, C, D, E$ là các nhóm (tương ứng, các nhóm giao hoán) và $f, g, h, u, v$ là các đồng cấu nhóm, thì biểu đồ (1) được gọi tắt là một biểu đồ các nhóm (tương ứng, các nhóm giao hoán).
 
-Về nguyên tắc, một biểu đồ không phải là một đối tượng toán học, mà chỉ là một hình vẽ được thiết kế để làm dễ việc đọc một lập luận. Trong thực hành, các biểu đồ thường được dùng như những ký hiệu viết tắt để tránh phải nêu tên tất cả các tập hợp và các ánh xạ đang xét; do đó ta nói "Xét biểu đồ (1)" thay vì nói "Cho A, B, C, D, E là năm tập hợp ... và $v$ là một ánh xạ từ C đến E"; xem chẳng hạn phát biểu của Mệnh đề 2 ở no. 4.
+Về nguyên lý, một biểu đồ không phải là một đối tượng toán học, mà chỉ là một hình vẽ được tạo ra để làm cho việc đọc một lập luận được dễ dàng hơn. Trong thực hành, các biểu đồ thường được dùng như các ký hiệu viết tắt để tránh phải gọi tên tất cả các tập hợp và các ánh xạ đang được xét; vì vậy ta nói "Xét biểu đồ (1)" thay vì nói "Cho A, B, C, D, E là năm tập hợp ... và $v$ là một ánh xạ từ C đến E"; xem chẳng hạn mệnh đề của Mệnh đề 2 trong no. 4.
 
 ### 2. BIỂU ĐỒ GIAO HOÁN
 
-Xét, chẳng hạn, biểu đồ sau:
+Chẳng hạn, xét biểu đồ sau đây:
 
 $$
 \begin{array}{ccccccc}
@@ -82,25 +82,25 @@ $$
 
 (2)
 
-Với mỗi đường đi gồm một số đoạn nào đó của biểu đồ và đi theo chiều chỉ bởi các mũi tên, ta được một ánh xạ từ tập hợp được biểu diễn bởi đầu của đoạn thứ nhất tới tập hợp được biểu diễn bởi cuối của đoạn cuối cùng, cụ thể là hợp thành của các ánh xạ được biểu diễn bởi các đoạn khác nhau đã đi qua. Với mỗi đỉnh của biểu đồ, chẳng hạn $B$, theo quy ước có một đường đi thu gọn lại thành $B$, tương ứng với ánh xạ đồng nhất 1,
+Với mỗi đường đi hợp bởi một số nhất định các đoạn của biểu đồ được đi theo chiều chỉ bởi các mũi tên, tương ứng một ánh xạ từ tập hợp được biểu thị bởi điểm đầu của đoạn thứ nhất đến tập hợp được biểu thị bởi điểm cuối của đoạn cuối cùng, tức là hợp thành của các ánh xạ được biểu thị bởi các đoạn khác nhau đã đi qua. Với mỗi đỉnh của biểu đồ, chẳng hạn B, theo quy ước có một đường đi rút gọn thành B, tương ứng với nó là ánh xạ đồng nhất 1,
 
-Trong (2), chẳng hạn có ba đường đi bắt đầu tại $A$ và kết thúc tại $C'$; các ánh xạ tương ứng là $c \circ g \circ f, g' \circ b \circ f$ và $g' \circ f' \circ a$. Một biểu đồ được gọi là giao hoán nếu, với mọi cặp đường đi trong biểu đồ có cùng điểm đầu và điểm cuối, hai ánh xạ tương ứng bằng nhau; đặc biệt nếu điểm đầu và điểm cuối của một đường đi trùng nhau thì ánh xạ tương ứng phải là ánh xạ đồng nhất.
+Trong (2) chẳng hạn có ba đường đi bắt đầu ở $A$ và kết thúc ở $C'$; các ánh xạ tương ứng là $c \circ g \circ f, g' \circ b \circ f$ và $g' \circ f' \circ a$. Một biểu đồ được gọi là giao hoán nếu, với mọi cặp đường đi trong biểu đồ có cùng điểm đầu và điểm cuối, hai ánh xạ tương ứng là bằng nhau; đặc biệt nếu điểm đầu và điểm cuối của một đường đi trùng nhau thì ánh xạ tương ứng phải là đồng nhất.
 
-Để biểu đồ (2) giao hoán thì cần và đủ rằng các hệ thức
+Để biểu đồ (2) là giao hoán thì cần và đủ là các hệ thức
 $$
 f' \circ a = b \circ f, \quad g' \circ b = c \circ g, \quad h' \circ f = d \circ h;
 $$
-đúng; nói cách khác, cần và đủ rằng ba biểu đồ hình vuông chứa trong (2) là giao hoán. Thật vậy, các hệ thức (3) suy ra $c \circ g \circ f = g' \circ b \circ f$ vì $c \circ g = g' \circ b$, và $g' \circ b \circ f = g' \circ f' \circ a$ vì $b \circ f = f' \circ a$; do đó ba đường đi bắt đầu tại $A$ và kết thúc tại $C'$ cho cùng một ánh xạ. Có thể kiểm tra tương tự rằng bốn đường đi bắt đầu tại $A$ và kết thúc tại $D'$ (tương ứng ba đường đi bắt đầu tại $B$ và kết thúc tại $D'$) cho cùng một ánh xạ. Các hệ thức (3) có nghĩa là hai đường đi bắt đầu tại $A$ (tương ứng $B, C$) và kết thúc tại $B'$ (tương ứng $C', D'$) cho cùng một ánh xạ. Không có cặp đỉnh nào khác của (2) có thể nối với nhau bởi nhiều hơn một đường đi và do đó biểu đồ (2) là giao hoán.
+đúng; nói cách khác, cần và đủ là ba biểu đồ hình vuông được chứa trong (2) là giao hoán. Thật vậy, các hệ thức (3) kéo theo $c \circ g \circ f = g' \circ b \circ f$ vì $c \circ g = g' \circ b$, và $g' \circ b \circ f = g' \circ f' \circ a$ vì $b \circ f = f' \circ a$; do đó ba đường đi bắt đầu ở $A$ và kết thúc ở $C'$ cho cùng một ánh xạ. Tương tự, có thể kiểm tra rằng bốn đường đi bắt đầu ở $A$ và kết thúc ở $D'$ (tương ứng, ba đường đi bắt đầu ở $B$ và kết thúc ở $D'$) cho cùng một ánh xạ. Các hệ thức (3) có nghĩa là hai đường đi bắt đầu ở $A$ (tương ứng, B, C) và kết thúc ở $B'$ (tương ứng, C', D') cho cùng một ánh xạ. Không một cặp đỉnh nào khác của (2) có thể được nối với nhau bởi nhiều hơn một đường đi và vì vậy biểu đồ (2) là giao hoán.
 
-Trong phần sau, chúng tôi sẽ để cho bạn đọc tự kiểm tra các kết quả tương tự đối với những kiểu biểu đồ khác.
+Trong phần sau, chúng tôi để người đọc tự kiểm tra các kết quả tương tự đối với những kiểu biểu đồ khác.
 
 ### 3. DÃY KHỚP
 
-Nhắc lại định nghĩa sau (Đại số, Chương II, § 1, no. 4):
+Nhắc lại định nghĩa sau đây (Đại số, Chương II, § 1, no. 4):
 
 #### Định nghĩa 1 {#ac-i-s1-def-1 .statement}
 
-Cho $A$ là một vành, $F, G, H$ là ba môđun phải (tương ứng trái) trên $A$, $f$ là một đồng cấu từ $F$ đến $G$ và $g$ là một đồng cấu từ $G$ đến $H$. Cặp có thứ tự $(f, g)$ được gọi là một dãy khớp nếu $\overline{g}^{-1}(0) = f(F)$, tức là nếu hạt nhân của $g$ bằng ảnh của $f$.
+Cho $A$ là một vành, $F, G, H$ là ba $A$-môđun phải (tương ứng, trái), $f$ là một đồng cấu từ $F$ đến $G$ và $g$ là một đồng cấu từ $G$ đến $H$. Cặp có thứ tự $(f, g)$ được gọi là một dãy khớp nếu $\overline{g}^{-1}(0) = f(F)$, nghĩa là nếu hạt nhân của $g$ bằng ảnh của $f$.
 
 Biểu đồ
 $$
@@ -112,21 +112,23 @@ F & \xrightarrow{f} & G \\
 $$
 cũng được gọi là một dãy khớp.
 
-Consider tương tự một biểu đồ gồm bốn môđun và ba đồng cấu:
+Xét tương tự một biểu đồ gồm bốn môđun và ba đồng cấu:
 $$
 E \xrightarrow{f} F \xrightarrow{g} G \xrightarrow{h} H.
 $$
-Biểu đồ này được gọi là khớp tại $F$ nếu biểu đồ $E \xrightarrow{f} F \xrightarrow{g} G$ là một dãy khớp; nó được gọi là khớp tại $G$ nếu $F \xrightarrow{g} G \xrightarrow{h} H$ là một dãy khớp. Nếu (5) khớp tại $F$ và $G$, thì nó được gọi là khớp, hay cũng là một dãy khớp. Các dãy khớp với bất kỳ số hạng nào cũng được định nghĩa tương tự.
+Biểu đồ này được gọi là khớp tại $F$ nếu biểu đồ $E \xrightarrow{f} F \xrightarrow{g} G$ là một dãy khớp; nó được gọi là khớp tại $G$ nếu $F \xrightarrow{g} G \xrightarrow{h} H$ là một dãy khớp. Nếu (5) khớp tại $F$ và $G$, nó được gọi là khớp, hoặc cũng là một dãy khớp. Các dãy khớp có số hạng tùy ý được định nghĩa tương tự.
 
-Nhắc lại các kết quả sau (loc. cit.), trong đó $E, F, G$ biểu thị các A-môđun phải (tương ứng trái), các mũi tên biểu thị các đồng cấu và $0$ biểu thị một môđun thu về phần tử đơn vị của nó:
+Nhắc lại các kết quả sau (loc. cit.), trong đó $E, F, G$ chỉ các môđun phải (tương ứng, trái)
 
-(a) Nói rằng $0 \to E \xrightarrow{f} F$ là một dãy khớp thì tương đương với nói rằng $f$ là đơn ánh.
+A, các mũi tên biểu thị các đồng cấu và $0$ chỉ một môđun thu về phần tử đơn vị của nó:
 
-(b) Nói rằng $E \xrightarrow{f} F \to 0$ là một dãy khớp thì tương đương với nói rằng $f$ là toàn ánh.
+(a) Nói rằng $0 \to E \xrightarrow{f} F$ là một dãy khớp tương đương với nói rằng $f$ là đơn ánh.
 
-(c) Nói rằng $0 \to E \xrightarrow{f} F \to 0$ là một dãy khớp thì tương đương với nói rằng $f$ là song ánh, tức là $f$ là một đẳng cấu từ $E$ lên $F$.
+(b) Nói rằng $E \xrightarrow{f} F \to 0$ là một dãy khớp tương đương với nói rằng $f$ là toàn ánh.
 
-(d) Nếu $F$ là một môđun con của $E$ và $i$ ký hiệu đơn ánh chính tắc của $F$ vào $E$ và $p$ là toàn cấu chính tắc của $E$ lên $E/F$, thì biểu đồ
+(c) Nói rằng $0 \to E \xrightarrow{f} F \to 0$ là một dãy khớp tương đương với nói rằng $f$ là song ánh, nghĩa là $f$ là một đẳng cấu từ $E$ lên $F$.
+
+(d) Nếu $F$ là một môđun con của $E$ và $i$ chỉ đơn ánh chính tắc của $F$ vào $E$ còn $p$ là toàn cấu chính tắc của $E$ lên $E/F$, thì biểu đồ
 $$
 \begin{array}{ccccccc}
 0 & \longrightarrow & F & \xrightarrow{i} & E & \xrightarrow{p} & E/F \longrightarrow 0
@@ -140,7 +142,7 @@ $$
 0 & \longrightarrow & f^{-1}(0) & \xrightarrow{i} & E & \xrightarrow{f} & F & \xrightarrow{p} & F/f(E) \longrightarrow 0
 \end{array}
 $$
-(trong đó $i$ là đơn ánh chính tắc của $f^{-1}(0)$ vào $E$ và $p$ là phép chiếu chính tắc của $F/f(E)$) là một dãy khớp.
+(trong đó $i$ là đơn ánh chính tắc của $(0)$ vào $E$ và $p$ là phép chiếu chính tắc của $F/f(E)$) là một dãy khớp.
 
 (f) Để biểu đồ
 $$
@@ -156,11 +158,11 @@ E & \xrightarrow{a} & S & \longrightarrow & 0 \\
 0 & \longrightarrow & T & \xrightarrow{d} & G
 \end{array}
 $$
-khớp.
+là khớp.
 
-Sau cùng, nhắc rằng nếu $f: E \to F$ là một đồng cấu A-môđun, ta đặt $\operatorname{Ker}(f) = f^{-1}(0)$, $\operatorname{Im}(f) = f(E)$, $\operatorname{Coim}(f) = E/f^{-1}(0)$ và $\operatorname{Coker}(f) = F/f(E)$. Với ký hiệu này, trong (9), có thể lấy $S = \operatorname{Im}(f) = \operatorname{Ker}(g)$ và $T = \operatorname{Im}(g)$ (đẳng cấu chính tắc với $\operatorname{Coker}(f)$).
+Sau cùng nhắc lại rằng nếu $f: E \to F$ là một đồng cấu A-môđun, ta đặt $\operatorname{Ker}(f) = f^{-1}(0)$, $\operatorname{Im}(f) = f(E)$, $\operatorname{Coim}(f) = E/f^{-1}(0)$ và $\operatorname{Coker}(f) = F/f(E)$. Với ký hiệu này, trong (9) có thể lấy $S = \operatorname{Im}(f) = \operatorname{Ker}(g)$ và $T = \operatorname{Im}(g)$ (đẳng cấu chính tắc với $\operatorname{Coker}(f)$).
 
-### 4. BIỂU ĐỒ RẮN
+### 4. BIỂU ĐỒ CON RẮN
 
 #### Mệnh đề 1 {#ac-i-s1-prop-1 .statement}
 
@@ -173,17 +175,17 @@ A' & \xrightarrow{u'} & B' & \xrightarrow{v'} & C'
 \end{array}
 $$
 
-Giả sử hai hàng của (10) là khớp. Khi đó:
+Giả sử rằng hai hàng của (10) là khớp. Khi đó:
 
-(i) Nếu $c$ là đơn ánh, ta có
+(i) Nếu c là đơn ánh, ta có
 
 (11) $\operatorname{Im}(b) \cap \operatorname{Im}(u') = \operatorname{Im}(u' \circ a) = \operatorname{Im}(b \circ u).$
 
-(ii) Nếu $a$ là toàn ánh, ta có
+(ii) Nếu a là toàn ánh, ta có
 
 (12) $\operatorname{Ker}(b) + \operatorname{Im}(u) = \operatorname{Ker}(v' \circ b) = \operatorname{Ker}(c \circ v).$
 
-Ta chứng minh (i). Rõ ràng
+Hãy chứng minh (i). Rõ ràng
 
 $$
 \operatorname{Im}(u' \circ a) = \operatorname{Im}(b \circ u) \subset \operatorname{Im}(b) \cap \operatorname{Im}(u').
@@ -293,41 +295,39 @@ Sau cùng, suy ra rằng $p(t'') = p(t') + p(a(z)) = p(t')$. Khi đó có thể 
 
 Nếu bây giờ $x_1, x_2$ là các phần tử của $\mathrm{Ker}(c)$ và $x = x_1 + x_2$, ta lấy các phần tử $y_1, y_2$ của $B$ sao cho $v(y_1) = k(x_1)$ và $v(y_2) = k(x_2)$ và chọn cho $y \in B$ phần tử $y_1 + y_2$; khi đó ngay lập tức $d(x) = d(x_1) + d(x_2)$ và do đó $d$ là một *đồng cấu*.
 
-==========
+Giả sử rằng $x = v_1(x')$ đối với một $x' \in \mathrm{Ker}(b)$ nào đó; khi đó lấy $y \in B$ là phần tử $j(x')$. Vì $b(j(x')) = 0$, suy ra $d(x) = 0$, nên $d \circ v_1 = 0$. Ngược lại, giả sử rằng $d(x) = 0$. Khi đó, theo ký hiệu ở trên, ta có $t' = a(s)$, với $s \in A$. Trong trường hợp này ta có $b(y) = u'(t') = u'(a(s)) = b(u(s))$, hay $b(y - u(s)) = 0$. Do đó phần tử $y - u(s)$ có dạng $j(n)$, với $n \in \mathrm{Ker}(b)$, và ta có $k(x) = v(y) = v(u(s) + j(n)) = v(j(n)) = k(v_1(n))$; vì $k$ là đơn ánh, nên $x = v_1(n)$, điều đó chứng minh rằng dãy (*) là khớp tại $\mathrm{Ker}(c)$.
 
-Giả sử rằng $x = v_1(x')$ với một $x' \in \mathrm{Ker}(b)$; khi đó lấy $y \in B$ là phần tử $j(x')$. Vì $b(j(x')) = 0$, suy ra $d(x) = 0$, do đó $d \circ v_1 = 0$. Ngược lại, giả sử rằng $d(x) = 0$. Trong ký hiệu trên ta có $t' = a(s)$, với $s \in A$. Trong trường hợp này ta có $b(y) = u'(t') = u'(a(s)) = b(u(s))$, hay $b(y - u(s)) = 0$. Do đó phần tử $y - u(s)$ có dạng $j(n)$, với $n \in \mathrm{Ker}(b)$, và ta có $k(x) = v(y) = v(u(s) + j(n)) = v(j(n)) = k(v_1(n))$; vì $k$ là đơn ánh, $x = v_1(n)$, điều này chứng tỏ rằng dãy (*) khớp tại $\mathrm{Ker}(c)$.
-
-Cuối cùng, ta có (luôn luôn trong cùng ký hiệu)
+Sau cùng, ta có (vẫn theo cùng ký hiệu ấy)
 $$
 u_2(d(x)) = u_2(p(t')) = q(u'(t')) = q(b(y)) = 0
 $$
-và do đó $u_2 \circ d = 0$. Ngược lại, giả sử rằng một phần tử $w = p(t')$ của $\mathrm{Coker}(a)$ thỏa mãn $u_2(w) = u_2(p(t')) = 0$ (trong đó $t' \in A$). Khi đó $q(u'(t')) = 0$ và do đó $u'(t') = b(y)$ với một $y \in B$; vì $v'(u'(t')) = 0$, ta có $v'(b(y)) = 0$, suy ra $c(v(y)) = 0$, nói cách khác $v(y) = k(x)$ với một $x \in \mathrm{Ker}(c)$, và theo định nghĩa $w = d(x)$, điều này cho thấy rằng dãy (*) khớp tại
+và do đó $u_2 \circ d = 0$. Ngược lại, giả sử rằng một phần tử $w = p(t')$ của $\mathrm{Coker}(a)$ thỏa mãn $u_2(w) = u_2(p(t')) = 0$ (trong đó $t' \in A$). Khi đó $q(u'(t')) = 0$ và do đó $u'(t') = b(y)$ đối với một $y \in B$ nào đó; vì $v'(u'(t')) = 0$, ta có $v'(b(y)) = 0$, nên $c(v(y)) = 0$, nói cách khác $v(y) = k(x)$ đối với một $x \in \mathrm{Ker}(c)$ nào đó, và theo định nghĩa $w = d(x)$, điều đó cho thấy rằng dãy (*) là khớp tại
 
-Coker(a). Đã thấy trong (i) rằng nó khớp tại Ker(b) và trong (ii) rằng nó khớp tại Coker(b), điều đó hoàn tất chứng minh của (iii).
+Coker(a). Ở (i) đã thấy rằng nó khớp tại Ker(b) và ở (ii) nó khớp tại Coker(b), điều đó hoàn tất chứng minh của (iii).
 
 #### Nhận xét {#ac-i-s1-n4-rem-1 .statement}
 
-Nếu các nhóm của biểu đồ (10) đều là, chẳng hạn, các môđun phải trên một vành $\mathbf{A}$ và các đồng cấu là các đồng cấu A-môđun, thì dễ dàng kiểm tra rằng đồng cấu d được định nghĩa trong Mệnh đề 2, (iii) cũng là một đồng cấu A-môđun: nếu $x \in \mathrm{Ker}(c)$ và $a \in \Lambda$, và $y \in B$ sao cho $v(y) = k(x)$, thì chỉ cần lưu ý rằng $v(ya) = k(xa)$.
+Nếu các nhóm của biểu đồ (10) đều là (chẳng hạn, phải) môđun trên một vành $\mathbf{A}$ và các đồng cấu là các đồng cấu A-môđun, thì dễ dàng kiểm tra được rằng đồng cấu d được định nghĩa trong Mệnh đề 2, (iii) cũng là một đồng cấu A-môđun: nếu $x \in \mathrm{Ker}(c)$ và $a \in \Lambda$, và $y \in B$ sao cho $v(y) = k(x)$, thì chỉ cần chú ý rằng $v(ya) = k(xa)$.
 
 #### Hệ quả 1 {#ac-i-s1-prop-2-cor-1 .statement}
 
-Giả sử rằng biểu đồ (10) giao hoán và hai hàng đều khớp. Khi đó:
+Giả sử rằng biểu đồ (10) là giao hoán và hai hàng là khớp. Khi đó:
 
-(i) Nếu $u'$, a và c đơn ánh, thì b đơn ánh.
-(ii) Nếu v, a và c toàn ánh, thì b toàn ánh.
+(i) Nếu $u'$, a và c là đơn ánh, thì b là đơn ánh.
+(ii) Nếu v, a và c là toàn ánh, thì b là toàn ánh.
 
-Mệnh đề (i) là hệ quả của mệnh đề (i) của Mệnh đề 2: vì $\mathrm{Ker}(a) = 0$ và $\mathrm{Ker}(c) = 0$, do đó $\mathrm{Ker}(b) = 0$.
+Mệnh đề (i) là một hệ quả của mệnh đề (i) của Mệnh đề 2: vì $\mathrm{Ker}(a) = 0$ và $\mathrm{Ker}(c) = 0$, nên $\mathrm{Ker}(b) = 0$.
 
-Mệnh đề (ii) là hệ quả của mệnh đề (ii) của Mệnh đề 2: vì $\mathrm{Coker}(a) = 0$ và $\mathrm{Coker}(c) = 0$, do đó $\mathrm{Coker}(b) = 0$.
+Mệnh đề (ii) là một hệ quả của mệnh đề (ii) của Mệnh đề 2: vì $\mathrm{Coker}(a) = 0$ và $\mathrm{Coker}(c) = 0$, nên $\mathrm{Coker}(b) = 0$.
 
 #### Hệ quả 2 {#ac-i-s1-prop-2-cor-2 .statement}
 
-Giả sử rằng biểu đồ (10) giao hoán và hai hàng đều khớp. Trong các điều kiện này:
+Giả sử rằng biểu đồ (10) là giao hoán và hai hàng là khớp. Trong các điều kiện đó:
 
-(i) Nếu b đơn ánh và nếu a và v toàn ánh, thì c đơn ánh.
-(ii) Nếu b toàn ánh và nếu c và $u'$ đơn ánh, thì a toàn ánh.
+(i) Nếu b là đơn ánh và nếu a và v là toàn ánh, thì c là đơn ánh.
+(ii) Nếu b là toàn ánh và nếu c và $u'$ là đơn ánh, thì a là toàn ánh.
 
-Để chứng minh (i) xét biểu đồ
+Để chứng minh (i), xét biểu đồ
 
 $$
 \begin{array}{ccccc}
@@ -337,15 +337,15 @@ u'(A') & \xrightarrow{w'} & B' & \xrightarrow{v'} & C'
 \end{array}
 $$
 
-trong đó $a'$ là ánh xạ có cùng đồ thị như hạn chế của b trên $u(A)$ và w và $w'$ là các đơn ánh chính tắc; rõ ràng biểu đồ này giao hoán và các hàng của nó khớp. Hơn nữa $w'$ là đơn ánh và theo giả thiết v là toàn ánh; khi đó theo Mệnh đề 2, (iii) ta có một dãy khớp
+trong đó $a'$ là ánh xạ có cùng đồ thị với hạn chế của b lên $u(A)$ và w và $w'$ là các đơn ánh chính tắc; rõ ràng biểu đồ này là giao hoán và các hàng của nó khớp. Hơn nữa $w'$ là đơn ánh và theo giả thiết v là toàn ánh; khi đó theo Mệnh đề 2, (iii), ta có một dãy khớp
 
 $$
 0 = \mathrm{Ker}(b) \longrightarrow \mathrm{Ker}(c) \xrightarrow{d} \mathrm{Coker}(a') = 0
 $$
 
-vì b đơn ánh và $a'$ toàn ánh; suy ra $\mathrm{Ker}(c) = 0$.
+vì b là đơn ánh và $a'$ là toàn ánh; do đó $\mathrm{Ker}(c) = 0$.
 
-Để chứng minh (ii) xét biểu đồ
+Để chứng minh (ii), xét biểu đồ
 
 $$
 \begin{array}{ccccc}
@@ -355,16 +355,14 @@ A' & \xrightarrow{w'} & B' & \xrightarrow{\sigma'} & v'(B')
 \end{array}
 $$
 
-trong đó lần này $c'$ là ánh xạ có cùng đồ thị như hạn chế của c trên v(B) và w và $w'$ lần lượt có cùng đồ thị như v và v'; biểu đồ này giao hoán và các hàng của nó khớp. Hơn nữa w là toàn ánh và theo giả thiết $u'$ là đơn ánh; khi đó theo Mệnh đề 2, (iii) ta có một dãy khớp
+trong đó lần này $c'$ là ánh xạ có cùng đồ thị với hạn chế của c lên v(B) và w và w' lần lượt có cùng đồ thị với v và v'; biểu đồ này là giao hoán và các hàng của nó khớp. Hơn nữa w là toàn ánh và theo giả thiết $u'$ là đơn ánh; khi đó theo Mệnh đề 2, (iii), ta có một dãy khớp
 
 $$
 0 = \operatorname{Ker}(c') \xrightarrow{d} \operatorname{Coker}(a) \longrightarrow \operatorname{Coker}(b) = 0
 $$
 
-vì b toàn ánh và c' đơn ánh; suy ra Coker (a) = 0.
+vì b là toàn ánh và c' là đơn ánh; do đó Coker (a) = 0.
 
 ### Bài tập {#ac-i-s1-exercises}
 
-Xem [các bài tập cho § 1](exercises/s1/).
-
-==========
+Xem [bài tập của § 1](exercises/s1/).

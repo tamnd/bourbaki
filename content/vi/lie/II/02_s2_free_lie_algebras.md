@@ -7,59 +7,60 @@ section: 2
 section_title: Free Lie algebras
 lang: vi
 source: lie-i-iii
+book_pages: 122-136, 181-186
 pdf_pages: 0140-0154, 0199-0204
 extraction: ocr
 subsections:
     - "no": 1
       title: REVISION OF FREE ALGEBRAS
-      page: 0
+      page: 122
       pdf_page: 140
     - "no": 2
       title: CONSTRUCTION OF THE FREE LIE ALGEBRA
-      page: 0
+      page: 122
       pdf_page: 140
     - "no": 3
       title: PRESENTATIONS OF A LIE ALGEBRA
-      page: 0
+      page: 124
       pdf_page: 142
     - "no": 4
       title: LIE POLYNOMIALS AND SUBSTITUTIONS
-      page: 0
+      page: 124
       pdf_page: 142
     - "no": 5
       title: FUNCTORIAL PROPERTIES
-      page: 0
+      page: 125
       pdf_page: 143
     - "no": 6
       title: GRADUATIONS
-      page: 0
+      page: 126
       pdf_page: 144
     - "no": 7
       title: LOWER CENTRAL SERIES
-      page: 0
+      page: 128
       pdf_page: 146
     - "no": 8
       title: DERIVATIONS OF FREE LIE ALGEBRAS
-      page: 0
+      page: 129
       pdf_page: 147
     - "no": 9
       title: ELIMINATION THEOREM
-      page: 0
+      page: 130
       pdf_page: 148
     - "no": 10
       title: HALL SETS IN A FREE MAGMA
-      page: 0
+      page: 132
       pdf_page: 150
     - "no": 11
       title: HALL BASES OF A FREE LIE ALGEBRA
-      page: 0
+      page: 134
       pdf_page: 152
 statements: 32
 exercises: 10
-content_sha256: a31d434aa4d23e5537e3a3d9c8f7431b1b1a37a5be81e86edd7698e60d345d84
+content_sha256: 2639db05889381a9d3278ef88dfdf190b903235e6d2b356e902373c6677a92c7
 translated_from: content/en/lie/II/02_s2_free_lie_algebras.md
-source_content_sha256: c45ddbecbce1fdde54f20fa9b4671c2410f21271291967870bb4c5380ec1d17b
-translation_model: gpt-5-6-mini, gpt-5-6
+source_content_sha256: 6e450e7885a69b88d5a981a2a0a11ee034c761b9d126211b974e36d6700c2625
+translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-vi-9fabf02a
 glossary_version: 34
 glossary_terms_sha256: 31d067bae360ee1deec29930d787a2c5c1c47f54ec88186a6745151f3889ea6d
@@ -105,7 +106,7 @@ Mệnh đề sau đây giải thích tên gọi *tự do* của đại số Lie 
 
 (a) *Sự tồn tại của F*: cho h là đồng cấu từ Lib(X) vào $g$ mở rộng f (no. 1). Với mọi $a$ trong Lib(X), $h(Q(a)) = h(a.a) = [h(a), h(a)] = 0$; tương tự, đồng nhất thức Jacobi thỏa mãn bởi $g$ kéo theo rằng $h(J(a, b, c)) = 0$ với $a, b, c$ trong Lib(X). Suy ra rằng $h(a) = 0$, do đó tồn tại một đồng cấu F từ $L(X)$ vào $g$ sao cho $h = F \circ \psi$. Bằng cách hạn chế trên X, ta thu được $f = F \circ \phi$.
 
-(b) *Tính duy nhất của F*: cho $F': L(X) \to g$ là một đồng cấu sao cho $f = F' \circ \phi$. Các đồng cấu $F \circ \psi$ và $F' \circ \psi$ từ Lib(X) vào $g$ trùng nhau trên X và do đó bằng nhau; vì $\psi$ là toàn ánh, $F = F'$.
+(b) *Tính duy nhất của F*: giả sử $F': L(X) \to g$ là một đồng cấu sao cho $f = F' \circ \phi$. Các đồng cấu $F \circ \psi$ và $F' \circ \psi$ từ Lib(X) vào $g$ trùng nhau trên X và do đó bằng nhau; vì $\psi$ là toàn ánh, $F = F'$.
 
 #### Hệ quả 1 {#lie-ii-s2-prop-1-cor-1 .statement}
 
@@ -117,37 +118,37 @@ $$
 \lambda_1 \cdot \phi(x_1) + \cdots + \lambda_n \cdot \phi(x_n) = 0.
 $$
 
-Cho $g$ là đại số Lie giao hoán có K làm môđun nền. Với $i = 1, 2, \ldots, n$, tồn tại một đồng cấu $F_i$ từ $L(X)$ vào $g$ sao cho $F_i(\phi(x_i)) = 1$ và $F_i(\phi(x)) = 0$ với $x \neq x_i$ (Mệnh đề 1); áp dụng $F_i$ vào quan hệ (3), ta thu được $\lambda_i = 0$.
+Cho $g$ là đại số Lie giao hoán có K làm môđun nền. Với $i = 1, 2, \ldots, n$, tồn tại một đồng cấu $F_i$ từ $L(X)$ vào $g$ sao cho $F_i(\phi(x_i)) = 1$ và $F_i(\phi(x)) = 0$ nếu $x \neq x_i$ (Mệnh đề 1); áp dụng $F_i$ vào quan hệ (3), ta được $\lambda_i = 0$.
 
 #### Hệ quả 2 {#lie-ii-s2-prop-1-cor-2 .statement}
 
-*Cho $a$ là một đại số Lie. Mọi mở rộng của $L(X)$ bởi $a$ đều là không thiết yếu.*
+*Cho $a$ là một đại số Lie. Mọi mở rộng của $L(X)$ bởi $a$ đều không cốt yếu.*
 
-Cho $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ là một mở rộng như vậy (Chương I, § 1, no. 7). Vì $\mu$ là toàn ánh, tồn tại một ánh xạ f từ X vào $g$ sao cho $\phi = \mu \circ f$. Cho F là đồng cấu từ $L(X)$ vào $g$ sao cho $f = F \circ \phi$ (Mệnh đề 1). Khi đó $(\mu \circ F) \circ \phi = \mu \circ f = \phi$ và Mệnh đề 1 cho thấy rằng $\mu \circ F$ là tự đẳng cấu đồng nhất của $L(X)$. Do đó mở rộng đã cho là không thiết yếu (Chương I, § 1, no. 7, Mệnh đề 6 và Định nghĩa 6).
+Cho $a \xrightarrow{\lambda} g \xrightarrow{\mu} L(X)$ là một mở rộng như vậy (Chương I, § 1, no. 7). Vì $\mu$ là toàn ánh, tồn tại một ánh xạ f từ X vào $g$ sao cho $\phi = \mu \circ f$. Gọi F là đồng cấu từ $L(X)$ vào $g$ sao cho $f = F \circ \phi$ (Mệnh đề 1). Khi đó $(\mu \circ F) \circ \phi = \mu \circ f = \phi$ và Mệnh đề 1 cho thấy rằng $\mu \circ F$ là tự đẳng cấu đồng nhất của $L(X)$. Do đó mở rộng đã cho là không cốt yếu (Chương I, § 1, no. 7, Mệnh đề 6 và Định nghĩa 6).
 
-Vì vành K là khác không, Hệ quả 1 của Mệnh đề 1 cho thấy rằng $\phi$ là đơn ánh. *Do đó tập hợp X có thể được đồng nhất bằng $\phi$ với ảnh của nó trong $L(X)$*; với quy ước này, X sinh $L(X)$ và mọi ánh xạ từ X vào một đại số Lie $g$ *có thể được mở rộng* thành một đồng cấu đại số Lie từ $L(X)$ vào $g$.
+Vì vành K khác không, Hệ quả 1 của Mệnh đề 1 cho thấy rằng $\phi$ là đơn ánh. *Do đó tập hợp X có thể được đồng nhất nhờ $\phi$ với ảnh của nó trong $L(X)$*; với quy ước này, X sinh $L(X)$ và mọi ánh xạ từ X vào một đại số Lie $g$ *có thể được mở rộng* thành một đồng cấu đại số Lie từ $L(X)$ vào $g$.
 
 #### Nhận xét {#lie-ii-s2-n2-rem-1 .statement}
 
-Khi X là rỗng, $M(X)$ là rỗng và do đó $L(X) = \{0\}$. Nếu X gồm một phần tử duy nhất $x$, môđun con $K.x$ của $L(X)$ là một đại số con Lie của
+Khi X rỗng, $M(X)$ rỗng và do đó $L(X) = \{0\}$. Nếu X gồm một phần tử duy nhất $x$, môđun con $K.x$ của $L(X)$ là một đại số con Lie của
 
-L(X); vì X sinh $L(X)$, Hệ quả 1 của Mệnh đề 1 cho thấy rằng L(X) là một môđun tự do với cơ sở {x}.
+L(X); vì X sinh L(X), Hệ quả 1 của Mệnh đề 1 cho thấy rằng L(X) là một môđun tự do với cơ sở {x}.
 
-### 3. CÁC BIỂU DIỄN CỦA MỘT ĐẠI SỐ LIE
+### 3. CÁC TRÌNH BÀY CỦA MỘT ĐẠI SỐ LIE
 
-Cho g là một đại số Lie và $a = (a_i)_{i \in I}$ là một họ các phần tử của g. Cho $f_a$ là đồng cấu từ $L(I)$ vào g ánh xạ mỗi $i \in I$ thành $a_i$. Ảnh của $f_a$ là đại số con của g sinh bởi a; các phần tử của hạt nhân của $f_a$ được gọi là các quan hệ của họ a. Họ a được gọi là sinh (tương ứng tự do, cơ bản) nếu $f_a$ là toàn ánh (tương ứng đơn ánh, song ánh).
+Cho g là một đại số Lie và $a = (a_i)_{i \in I}$ là một họ các phần tử của g. Gọi $f_a$ là đồng cấu từ L(I) vào g biến mỗi $i \in I$ thành $a_i$. Ảnh của $f_a$ là đại số con của g được sinh bởi $a$; các phần tử của hạt nhân của $f_a$ được gọi là *các quan hệ* của họ $a$. Họ $a$ được gọi là sinh (tương ứng, tự do, cơ sở) nếu $f_a$ là toàn ánh (tương ứng, đơn ánh, song ánh).
 
-Cho g là một đại số Lie. Một *trình bày* của g là một cặp có thứ tự $(a, r)$ gồm một họ sinh $a = (a_i)_{i \in I}$ và một họ $r = (r_j)_{j \in J}$ các quan hệ của $a$ sinh iđêan của $L(I)$ là hạt nhân của $f_a$. Ta cũng nói rằng g được trình bày bởi họ $a$ liên quan bởi các quan hệ $r_j$ ($j \in J$).
+Cho g là một đại số Lie. Một *presentation* của g là một cặp có thứ tự $(a, r)$ gồm một họ sinh $a = (a_i)_{i \in I}$ và một họ $r = (r_j)_{j \in J}$ các hệ thức của $a$ sinh iđêan của L(I) là hạt nhân của $f_a$. Ta cũng nói rằng g được cho bởi họ $a$ liên hệ bởi các hệ thức $r_j$ ($j \in J$).
 
-Cho I là một tập hợp và $r = (r_j)_{j \in J}$ là một họ các phần tử của đại số Lie tự do $L(I)$; gọi $a_r$ là iđêan của $L(I)$ sinh bởi $r$. Đại số thương $L(I, r) = L(I)/a_r$ được gọi là đại số Lie được xác định bởi I và họ các quan hệ $(r_j)_{j \in J}$; ta cũng nói rằng $L(I, r)$ được xác định bởi trình bày (I, r), hoặc cũng bởi $(I; (r_j = 0)_{j \in J})$. Khi họ $r$ rỗng, $L(I, r) = L(I)$.
+Cho I là một tập hợp và $r = (r_j)_{j \in J}$ là một họ các phần tử của đại số Lie tự do L(I); gọi $a_r$ là iđêan của L(I) sinh bởi $r$. Đại số thương $L(I, r) = L(I)/a_r$ được gọi là đại số Lie được xác định bởi I và họ các hệ thức $(r_j)_{j \in J}$; ta cũng nói rằng $L(I, r)$ được xác định bởi presentation (I, r), hoặc cũng bởi $(I; (r_j = 0)_{j \in J})$. Khi họ $r$ rỗng, $L(I, r) = L(I)$.
 
-Cho I và $r$ như trên; gọi $\xi_i$ là ảnh của i trong $L(I, r)$. Họ sinh $\xi = (\xi_i)_{i \in I}$ và họ các quan hệ $r$ lập thành một trình bày của $L(I, r)$. Ngược lại, nếu g là một đại số Lie và $(a, r)$, trong đó $a = (a_i)_{i \in I}$, là một trình bày của g, thì tồn tại duy nhất một đẳng cấu $u : L(I, r) \to g$ sao cho $u(\xi_i) = a_i$ với mọi $i \in I$.
+Cho I và $r$ như trên; gọi $\xi_i$ là ảnh chính tắc của i trong $L(I, r)$. Họ sinh $\xi = (\xi_i)_{i \in I}$ và họ các hệ thức $r$ lập thành một presentation của $L(I, r)$. Ngược lại, nếu g là một đại số Lie và $(a, r)$, trong đó $a = (a_i)_{i \in I}$, là một presentation của g, thì tồn tại một đẳng cấu duy nhất $u : L(I, r) \to g$ sao cho $u(\xi_i) = a_i$ với mọi $i \in I$.
 
 ### 4. ĐA THỨC LIE VÀ PHÉP THẾ
 
-Cho I là một tập hợp. Gọi $T_i$ là ảnh chính tắc của phần tử i của I trong $L(I)$ (đôi khi cũng được ký hiệu bởi $L((T_i)_{i \in I})$); các phần tử của $L(I)$ được gọi là *đa thức Lie* theo các bất định $(T_i)_{i \in I}$.
+Cho I là một tập hợp. Gọi $T_i$ là ảnh chính tắc của phần tử i của I trong L(I) (đôi khi cũng được ký hiệu bởi $L((T_i)_{i \in I})$); các phần tử của L(I) được gọi là *đa thức Lie* theo các ẩn $(T_i)_{i \in I}$.
 
-Cho g là một đại số Lie. Nếu $t = (t_i)_{i \in I}$ là một họ các phần tử của g, gọi $f_t$ là đồng cấu từ $L(I)$ vào g sao cho $f_t(T_i) = t_i$ với $i \in I$ (no. 2, Mệnh đề 1). Ảnh qua $f_t$ của phần tử P của $L(I)$ được ký hiệu bởi $P((t_i)_{i \in I})$. Đặc biệt, $P((T_i)_{i \in I}) = P$; phần tử $P((t_i)_{i \in I})$ nói trên đôi khi được gọi là phần tử của g thu được bằng cách thế các $t_i$ cho các $T_i$ trong đa thức Lie $P((T_i)_{i \in I})$.
+Cho g là một đại số Lie. Nếu $t = (t_i)_{i \in I}$ là một họ các phần tử của g, gọi $f_t$ là đồng cấu từ L(I) vào g sao cho $f_t(T_i) = t_i$ với $i \in I$ (no. 2, Mệnh đề 1). Ảnh của phần tử P của L(I) qua $f_t$ được ký hiệu bởi $P((t_i)_{i \in I})$. Đặc biệt, $P((T_i)_{i \in I}) = P$; phần tử trên $P((t_i)_{i \in I})$ đôi khi được gọi là phần tử của g thu được bằng cách thế các $t_i$ vào chỗ các $T_i$ trong đa thức Lie $P((T_i)_{i \in I})$.
 
 Cho $\sigma : g \to g'$ là một đồng cấu đại số Lie. Với mọi họ $t = (t_i)_{i \in I}$ các phần tử của g và mọi $P \in L(I)$,
 
@@ -157,13 +158,13 @@ $$
 
 vì $\sigma \circ f_t$ biến $T_i$ thành $\sigma(t_i)$ với $i \in I$.
 
-Cho $(Q_j)_{j \in J}$ là một họ các phần tử của $L(I)$ và cho $P \in L(J)$. Bằng cách thế các $Q_j$ cho các $T_j$ trong P, ta thu được một đa thức Lie R = P((Q_j)_{j \in J}) \in L(I). Khi đó
+Cho $(Q_j)_{j \in J}$ là một họ các phần tử của L(I) và cho $P \in L(J)$. Bằng cách thế các Q_j vào chỗ các T_j trong P, ta thu được một đa thức Lie R = P((Q_j)_{j \in J}) \in L(I). Khi đó
 
 (5)
 $$
 R((t_i)_{i \in I}) = P((Q_j((t_i)_{i \in I}))_{j \in J})
 $$
-với mọi họ $t = (t_i)_{i \in I}$ các phần tử của một đại số Lie g, như thấy được bằng cách tác động đồng cấu $f_t$ lên đẳng thức $R = P((Q_j)_{j \in J})$ và sử dụng (4).
+với mọi họ $t = (t_i)_{i \in I}$ các phần tử của một đại số Lie g, như thấy được khi tác động đồng cấu $f_t$ lên đẳng thức $R = P((Q_j)_{j \in J})$ và dùng (4).
 
 Cho g là một đại số Lie, I là một tập hợp hữu hạn và $P \in L(I)$. Giả sử rằng g là một K-môđun tự do. Ánh xạ
 $$
@@ -524,15 +525,15 @@ Bây giờ ta chứng minh rằng mọi phần tử có dạng $u = w_p^i w$ v�
 
 Ngược lại, cho $u \in P_{p+1}$. Ta phân biệt hai trường hợp:
 
-(α) Không tồn tại phần tử $v$ của $M(X)$ sao cho $u = w_p v$. Theo định nghĩa của $P_{p+1}$, $u > w_p$. Hơn nữa, nếu $u \notin X$, thì $\alpha(u) \neq w_p$ theo giả thiết đã cho và $\alpha(u) < w_{p+1}$ vì $u \in P_{p+1}$; do đó $\alpha(u) < w_p$. Vậy $u \in P_p$ và $u \neq w_p$.
+(α) Không tồn tại phần tử $v$ nào của $M(X)$ sao cho $u = w_p v$. Theo định nghĩa của $P_{p+1}$, $u > w_p$. Hơn nữa, nếu $u \notin X$, thì $\alpha(u) \neq w_p$ theo giả thiết đã cho và $\alpha(u) < w_{p+1}$ vì $u \in P_{p+1}$; do đó $\alpha(u) < w_p$. Vậy $u \in P_p$ và $u \neq w_p$.
 
-(β) Tồn tại $v$ trong $M(X)$ sao cho $u = w_p v$. Theo Định nghĩa 2, tất yếu, hoặc là $w_p \in X, v \in X$ và $w_p < v$, hoặc là $v \notin X$ và $\alpha(v) \leq w_p < v$. Trong cả hai trường hợp, $v \in P_{p+1}$.
+(β) Tồn tại $v$ trong $M(X)$ sao cho $u = w_p v$. Theo Định nghĩa 2, tất yếu либо $w_p \in X, v \in X$ và $w_p < v$, hoặc $v \notin X$ và $\alpha(v) \leq w_p < v$. Trong cả hai trường hợp, $v \in P_{p+1}$.
 
-Khi đó tồn tại một số nguyên $i \geq 0$ và một phần tử $w$ của $M(X)$ sao cho $u = w_p^i w$, và hoặc là $w \in X$ hoặc là $w \notin X$ và $\alpha(w) \neq w_p$. Nếu $i = 0$, ta có trường hợp (α) ở trên, do đó $w \in P_p$ và $w \neq w_p$. Nếu $i > 0$, chứng minh của (β) ở trên thiết lập, bằng quy nạp theo $i$, các hệ thức $w \in P_{p+1}$ và $w \neq w_p$. Giả sử $w \notin X$; từ $w \in P_{p+1}$ suy ra $\alpha(w) \leq w_p$ và vì $\alpha(w) \neq w_p$, ta kết luận rằng $w \in P_p$. Điều này hoàn thành chứng minh của (d).
+Khi đó tồn tại một số nguyên $i \geq 0$ và một phần tử $w$ của $M(X)$ sao cho $u = w_p^i w$, và hoặc $w \in X$ hoặc $w \notin X$ và $\alpha(w) \neq w_p$. Nếu $i = 0$, ta có trường hợp (α) ở trên, do đó $w \in P_p$ và $w \neq w_p$. Nếu $i > 0$, chứng minh của (β) ở trên thiết lập, bằng quy nạp theo $i$, các hệ thức $w \in P_{p+1}$ và $w \neq w_p$. Giả sử $w \notin X$; từ $w \in P_{p+1}$ suy ra $\alpha(w) \leq w_p$ và vì $\alpha(w) \neq w_p$, ta kết luận rằng $w \in P_p$. Điều này hoàn tất chứng minh của (d).
 
 #### Ví dụ {#lie-ii-s2-n10-exa-1 .statement}
 
-Giả sử rằng $X$ có hai phần tử $x, y$; hãy cho $X$ có thứ tự sao cho $x < y$. Phép dựng được cho trong chứng minh của Mệnh đề 11 cho một tập hợp $H$ có 14 phần tử có độ dài $\leq 5$ được cho trong bảng sau:
+Giả sử rằng $X$ có hai phần tử $x, y$; sắp thứ tự trên $X$ sao cho $x < y$. Phép dựng được cho trong chứng minh của Mệnh đề 11 cho một tập hợp $H$ gồm 14 phần tử có độ dài $\leq 5$ được cho trong bảng sau:
 
 $$
 \begin{array}{cccc}
@@ -545,15 +546,15 @@ H_5 & w_9 = (x(x(x(xy)))) & w_{10} = (y(x(x(xy)))) & w_{11} = (y(y(x(xy))))) \\
 \end{array}
 $$
 
-(Các phần tử của $H$ đã được đánh số theo thứ tự toàn phần được chọn trên mỗi $H_n$.)
+(Các phần tử của $H$ đã được đánh số theo thứ tự toàn phần đã chọn trên mỗi $H_n$.)
 
 ### 11. CÁC CƠ SỞ HALL CỦA MỘT ĐẠI SỐ LIE TỰ DO
 
-Ta giữ lại ký hiệu của số trước.
+Ta giữ ký hiệu của số trước.
 
 #### Định lý 1 {#lie-ii-s2-thm-1 .statement}
 
-Cho $H$ là một tập hợp Hall đối với $X$ và $\Psi$ là ánh xạ chính tắc của $M(X)$ vào đại số Lie tự do $L(X)$. Hạn chế của $\Psi$ trên $H$ là một cơ sở của môđun $L(X)$.
+Cho $H$ là một tập Hall đối với $X$ và $\Psi$ ánh xạ chính tắc từ $M(X)$ vào đại số Lie tự do $L(X)$. Hạn chế của $\Psi$ lên $H$ là một cơ sở của môđun $L(X)$.
 
 Với mọi phần tử $w$ của $H$ ta viết $\bar{w} = \Psi(w)$.
 
@@ -589,18 +590,18 @@ Với mọi phần tử $a$ của $L(X)$ tồn tại một tập con hữu hạn
 
 #### Hệ quả {#lie-ii-s2-n11-cor-1 .statement}
 
-*Môđun* $L(X)$ *là tự do và mỗi môđun con* $L^\alpha(X)$ *với* $\alpha \in \mathbf{N}^{(X)}$ *và* $L^n(X)$ *với* $n \in \mathbf{N}$ *cũng vậy*. *Các môđun* $L^\alpha(X)$ *có hạng hữu hạn và các môđun* $L^n(X)$ *cũng có hạng hữu hạn nếu* $X$ *là hữu hạn*.
+*Môđun* $L(X)$ *là tự do và mỗi môđun con* $L^\alpha(X)$ *với* $\alpha \in \mathbf{N}^{(X)}$ *và* $L^n(X)$ *với* $n \in \mathbf{N}$ *cũng vậy*. *Các môđun* $L^\alpha(X)$ *đều có hạng hữu hạn và các môđun* $L^n(X)$ *cũng có hạng hữu hạn nếu* $X$ *là hữu hạn*.
 
-Tồn tại một tập Hall $H$ đối với $X$ (Mệnh đề 11). Với mọi $w \in H$, phần tử $\Psi'(w)$ của $L(X)$ thuộc một trong các môđun $L^\alpha(X)$ (với $\alpha \in \mathbf{N}^{(X)}$) và môđun $L(X)$ là tổng trực tiếp của các môđun con $L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(X)}$, tập hợp các phần tử của $M(X)$ mà ảnh chính tắc của chúng trong $\mathbf{N}^{(X)}$ bằng $\alpha$ là hữu hạn; điều này cho thấy mỗi môđun $L^\alpha(X)$ là tự do và có hạng hữu hạn, và $L(X)$ là tự do. Bây giờ $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$ và do đó $L^n(X)$ là tự do; khi $X$ là hữu hạn, tập hợp các $\alpha \in \mathbf{N}^{(X)}$ sao cho $|\alpha|=n$ là hữu hạn và do đó khi ấy $L^n(X)$ có hạng hữu hạn.
+Tồn tại một Hall set đối với $X$ (Mệnh đề 11). Với mọi $w \in H$, phần tử $\Psi'(w)$ của $L(X)$ thuộc một trong các môđun $L^\alpha(X)$ (với $\alpha \in \mathbf{N}^{(X)}$) và môđun $L(X)$ là tổng trực tiếp của các môđun con $L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(X)}$, tập hợp các phần tử của $M(X)$ mà ảnh chính tắc trong $\mathbf{N}^{(X)}$ bằng $\alpha$ là hữu hạn; điều này cho thấy mỗi môđun $L^\alpha(X)$ đều là tự do và có hạng hữu hạn, và $L(X)$ là tự do. Bây giờ $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$ và do đó $L^n(X)$ là tự do; khi $X$ là hữu hạn, tập hợp các $\alpha \in \mathbf{N}^{(X)}$ sao cho $|\alpha|=n$ là hữu hạn và do đó khi ấy $L^n(X)$ có hạng hữu hạn.
 
 #### Định nghĩa 3 {#lie-ii-s2-def-3 .statement}
 
-*Một cơ sở Hall của một đại số Lie tự do* $L(X)$ *là bất kỳ cơ sở nào của* $L(X)$ *là ảnh chính tắc của một tập Hall đối với* $X$.
+*Một cơ sở Hall của một đại số Lie tự do* $L(X)$ *là mọi cơ sở của* $L(X)$ *mà là ảnh chính tắc của một Hall set đối với* $X$.
 
 #### Nhận xét {#lie-ii-s2-n11-rem-1 .statement}
 
-Giả sử $X$ gồm hai phần tử phân biệt $x$ và $y$ và gọi $L^{(\cdot,1)}$ là môđun con của $L(X)$ là tổng của các $L^\alpha(X)$ trong đó $\alpha \in \mathbf{N}^X$ và $\alpha(y)=1$. Suy ra ngay lập tức từ Định lý 1 và Mệnh đề 12 của no. 10 rằng các phần tử $(\mathrm{ad}\,x)^n.y$ trong đó $n$ là một số nguyên $\geqslant 0$ tạo thành một *cơ sở* của môđun con $L^{(\cdot,1)}$. Suy ra rằng *hạn chế của ánh xạ ad* $x$ *trên* $L^{(\cdot,1)}$ *là đơn ánh*.
+Giả sử rằng $X$ gồm hai phần tử phân biệt $x$ và $y$ và ký hiệu $L^{(\cdot,1)}$ là môđun con của $L(X)$ bằng tổng của các $L^\alpha(X)$ với $\alpha \in \mathbf{N}^X$ và $\alpha(y)=1$. Suy ra ngay lập tức từ Định lý 1 và Mệnh đề 12 của no. 10 rằng các phần tử $(\mathrm{ad}\,x)^n.y$ với $n$ là một số nguyên $\geqslant 0$ lập thành một *cơ sở* của môđun con $L^{(\cdot,1)}$. Suy ra rằng *hạn chế trên* $L^{(\cdot,1)}$ *của ánh xạ ad* $x$ *là đơn ánh*.
 
 ### Bài tập {#lie-ii-s2-exercises}
 
-Xem [các bài tập của § 2](exercises/s2/).
+Xem [các bài tập cho § 2](exercises/s2/).

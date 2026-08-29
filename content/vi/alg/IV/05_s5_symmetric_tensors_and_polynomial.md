@@ -58,9 +58,9 @@ subsections:
       pdf_page: 68
 statements: 36
 exercises: 16
-content_sha256: 6cf7663385d102c5031494dce3fafe714f5d56a9d186f567e98e99694e02ae21
+content_sha256: 273cbbbac0f6c1b6ed8269fa1faaa142c8df29d1035eed05417b5e3cb464ac91
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
-source_content_sha256: 33f7cba6ad37ef4f3eac426b0665f77c4884db538804d6454ec344d187c55550
+source_content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
 translation_run: translate-vi-dfe81d24
 glossary_version: 34
@@ -388,23 +388,23 @@ Cho $H$ là một nhóm hữu hạn và $U$ là một $A[H]$-môđun trái. Gi�
 
 (ii) Với mỗi $\omega \in \Omega$, lấy $v$, là một điểm của $\omega$; đặt $\omega' = w - \{v_\omega\}$ và $B' = \bigcup_{\omega \in \Omega} w'$, khi đó $B'$ là một cơ sở của một không gian con bổ sung cho $U^H$ trong $U$.
 
-Hợp của tập hợp всех $u_w$ (với $\omega \in \Omega$) và của $B'$ là một cơ sở của $U$. Nếu $U' = \sum_{\omega \in \Omega} Au$, và $U'' = \sum_{b \in B'} Ab$, do đó ta có $U = U' \oplus U''$. Mặt khác, ta có $u_w \in U^H$ với mọi $w \in \Omega$, vì thế $U' \subset U^H$. Cuối cùng, lấy $(\alpha_b)_{b \in B}$ là một họ các phần tử của $A$ có giá hữu hạn và đặt $x = \sum_{b \in B} \alpha_b b$. Nếu $x \in U^H$, thì $\alpha_{hb} = \alpha_b^H$ với mọi $b \in B$ và mọi $h \in H$, do đó $x \in U'$, và suy ra $U' = u^H$.
+Hợp của tập hợp tất cả các $u_w$ (với $\omega \in \Omega$) và của $B'$ là một cơ sở của $U$. Nếu $U' = \sum_{\omega \in \Omega} Au$, và $U'' = \sum_{b \in B'} Ab$, do đó ta có $U = U' \oplus U''$. Mặt khác, ta có $u_w \in U^H$ với mọi $w \in \Omega$, nên $U' \subset U^H$. Cuối cùng, cho $(\alpha_b)_{b \in B}$ là một họ các phần tử của $A$ có giá hữu hạn và đặt $x = \sum_{b \in B} \alpha_b b$. Nếu $x \in U^H$, thì $\alpha_{hb} = \alpha_b^H$ với mọi $b \in B$ và mọi $h \in H$, nên $x \in U'$, và suy ra $U' = u^H$.
 
 #### Mệnh đề 5 {#alg-iv-s5-prop-5 .statement}
 
-— Cho $M$ là một A-môđun tự do, $k$ là một số nguyên $\geq 0$, $P$ là môđun con-$A$ của $\mathbf{TS}^k(M)$ sinh bởi $\gamma_k(M)$. Giả sử $A$ là một miền nguyên vô hạn. Khi đó với mỗi $z \in \mathbf{TS}^k(M)$ tồn tại $a \in A - \{0\}$ sao cho $az \in P$.
+— Cho $M$ là một A-môđun tự do, $k$ một số nguyên $\geq 0$, $P$ A-môđun con của $\mathbf{TS}^k(M)$ được sinh bởi $\gamma_k(M)$. Giả sử $A$ là một miền nguyên vô hạn. Khi đó với mỗi $z \in \mathbf{TS}^k(M)$ tồn tại $a \in A - \{0\}$ sao cho $az \in P$.
 
-Gọi $K$ là trường phân thức của $A$. Ta đồng nhất $\mathbf{TS}^k(M)$ với một môđun con-A của không gian vectơ K $V = \mathbf{TS}^k(M) \otimes_A K$ (Mệnh đề 4, và II, p. 314). Ta phải chứng minh rằng không gian vectơ K này được sinh bởi $\gamma_k(M)$, nghĩa là, mọi dạng tuyến tính K $f$ trên V thỏa mãn $f(\gamma_k(M)) = 0$ đều bằng không. Lấy $(e_i)_{i \in I}$ là một cơ sở của M, và định nghĩa các $e_\nu$ như trong Mệnh đề 4. Với mọi $(\alpha_i) \in A^{(I)}$ ta có, khi lưu ý đến (6),
+Gọi $K$ là trường phân thức của $A$. Ta đồng nhất $\mathbf{TS}^k(M)$ với một A-môđun con của không gian vectơ K $V = \mathbf{TS}^k(M) \otimes_A K$ (Mệnh đề 4, và II, p. 314). Ta phải chỉ ra rằng không gian vectơ K này được sinh bởi $\gamma_k(M)$, tức là, mọi dạng tuyến tính K $f$ trên V thỏa mãn $f(\gamma_k(M)) = 0$ đều bằng không. Cho $(e_i)_{i \in I}$ là một cơ sở của M, và định nghĩa các $e_\nu$ như trong Mệnh đề 4. Với mọi $(\alpha_i) \in A^{(I)}$ ta có, khi lưu ý đến (6),
 
 $$
 0 = f \left( \gamma_k \left( \sum_{i \in I} \alpha_i e_I \right) \right) = \sum_{\nu \in N^{(I)}, |\nu| = k} \alpha^\nu f(e_\nu).
 $$
 
-Theo Hệ quả 2 của IV, p. 18, suy ra $f(e_v) = 0$ với mọi $v \in N^{(I)}$, do đó $f = 0$.
+Theo Hệ quả 2 của IV, p. 18 suy ra $f(e_v) = 0$ với mọi $v \in N^{(I)}$, do đó $f = 0$.
 
 ### 6. Hàm tử TS
 
-Cho M, N là các A-môđun và u là một đồng cấu từ M vào N; hiển nhiên là $T(u)(TS(M)) \subset TS(N)$. Ánh xạ từ TS(M) vào TS(N) suy ra từ T(u) được ký hiệu là TS(u). Dễ dàng kiểm tra rằng đó là một đồng cấu có đơn vị của các đại số phân bậc và ta có TS(u) $(\gamma_p(x)) = \gamma_p(u(x))$ với mọi $x \in M$ và mọi số nguyên $p \geq 0$. Nếu $v : N \to P$ là một đồng cấu của các A-môđun, ta có
+Cho M, N là các A-môđun và u một đồng cấu từ M vào N; hiển nhiên là $T(u)(TS(M)) \subset TS(N)$. Ánh xạ từ TS(M) vào TS(N) thu được từ T(u) được ký hiệu là TS(u). Dễ dàng kiểm tra rằng đó là một đồng cấu có đơn vị của các đại số phân bậc và ta có TS(u) $(\gamma_p(x)) = \gamma_p(u(x))$ với mọi $x \in M$ và mỗi số nguyên $p \geq 0$. Nếu $v : N \to P$ là một đồng cấu các A-môđun, ta có
 
 $$
 TS(v \circ u) = TS(v) \circ TS(u).
@@ -422,9 +422,9 @@ $$
 
 là giao hoán, trong đó các mũi tên ngang biểu thị các đơn ánh chính tắc.
 
-Nếu M là một nhân tử trực tiếp của N và i : M \to N là đơn ánh chính tắc, thì TS(i) là một đơn cấu của TS(M) lên một nhân tử trực tiếp R của TS(N), nhờ đó thông thường ta đồng nhất TS(M) với R. Điều đó được chứng minh như đối với đại số tenxơ (III, p. 487).
+Nếu M là một nhân tử trực tiếp của N và i : M \to N là đơn ánh chính tắc, thì TS(i) là một đơn cấu của TS(M) lên một nhân tử trực tiếp R của TS(N), nhờ đó ta thường đồng nhất TS(M) và R. Điều đó được chứng minh như đối với đại số tenxơ (III, p. 487).
 
-Giả sử rằng M là tổng trực tiếp của một họ $(M_\lambda)_{\lambda \in L}$ các môđun con. Các đơn ánh chính tắc $TS(M_\lambda) \to TS(M)$ xác định một đồng cấu có đơn vị h của các đại số phân bậc, gọi là chính tắc:
+Giả sử M là tổng trực tiếp của một họ $(M_\lambda)_{\lambda \in L}$ các môđun con. Các đơn ánh chính tắc $TS(M_\lambda) \to TS(M)$ xác định một đồng cấu có đơn vị của các đại số phân bậc, được gọi là chính tắc:
 
 $$
 \bigotimes_{\lambda \in L} TS(M_\lambda) \to TS(M)
@@ -796,15 +796,15 @@ và điều này chứng minh công thức (16) và tính duy nhất của h.
 
 — *Cho M là một A-môđun tự do, N là một A-môđun, q là một số nguyên dương và u là đồng cấu chính tắc từ Hom ($\mathbf{TS}^q(M)$, N) vào $\mathbf{Pol}^Y(M, N)$.
 
-(i) *Nếu A là một miền nguyên vô hạn và N không xoắn, thì u là một đẳng cấu.*
+(i) *Nếu A là một miền nguyên vô hạn và N không có xoắn, thì u là một đẳng cấu.*
 
 (ii) *Nếu ánh xạ $y \mapsto q!y$ trong N là đơn ánh, thì u là một đẳng cấu.*
 
-Trong hai trường hợp của mệnh đề, ta phải chứng minh rằng u là đơn ánh, nghĩa là mọi ánh xạ tuyến tính f từ $\mathbf{TS}^q(M)$ vào N mà bằng không trên $\gamma_q(M)$ đều triệt tiêu.
+Trong hai trường hợp của mệnh đề này, ta phải chứng minh rằng u là đơn ánh, nghĩa là mọi ánh xạ tuyến tính f từ $\mathbf{TS}^q(M)$ vào N mà bằng không trên $\gamma_q(M)$ đều triệt tiêu.
 
-Giả sử A là một miền nguyên vô hạn và N không xoắn. Với mọi $z \in \mathbf{TS}^q(M)$ tồn tại $a \in A - \{0\}$ sao cho $az$ là một tổ hợp A-tuyến tính của các phần tử của y, (M) (*IV*, p. 47, Mệnh đề 5). Do đó $af(z) = f(az) = 0$, và vì vậy $f(z) = 0$.
+Giả sử A là một miền nguyên vô hạn và N không có xoắn. Với mọi $z \in \mathbf{TS}^q(M)$ tồn tại $a \in A - \{0\}$ sao cho $az$ là một tổ hợp A-tuyến tính của các phần tử của y, (M) (*IV*, p. 47, Mệnh đề 5). Do đó $af(z) = f(az) = 0$, và vì thế $f(z) = 0$.
 
-Tiếp theo, giả sử ánh xạ $y \mapsto q!y$ trong N là đơn ánh; khi đó theo *IV*, p. 45, Mệnh đề 3, (v), f triệt tiêu trên s . T^q(M). Vì thế nếu $z \in \mathbf{TS}^q(M)$, ta có $q!f(z) = f(sz) = 0$, và do đó $f(z) = 0$.
+Tiếp theo giả sử ánh xạ $y \mapsto q!y$ trong N là đơn ánh; khi đó theo *IV*, p. 45, Mệnh đề 3, (v), f triệt tiêu trên s . T^q(M). Vậy nếu $z \in \mathbf{TS}^q(M)$, ta có $q!f(z) = f(sz) = 0$, và vì thế $f(z) = 0$.
 
 #### Hệ quả {#alg-iv-s5-n9-cor-1 .statement}
 
@@ -814,19 +814,19 @@ Tiếp theo, giả sử ánh xạ $y \mapsto q!y$ trong N là đơn ánh; khi đ
 
 #### Định nghĩa 4 {#alg-iv-s5-def-4 .statement}
 
-— *Cho M và N là các A-môđun và giả sử M là tự do. Gọi Map(M, N) là A-môđun của mọi ánh xạ từ M vào N. Môđun con $\sum_{q > 0} \mathbf{Pol}_A^q(M, N)$ của Map(M, N) được ký hiệu là $\mathbf{Pol}_A(M, N)$ hoặc đơn giản là $\mathbf{Pol}(M, N)$; các phần tử của nó được gọi là các ánh xạ đa thức từ M vào N.*
+— *Cho M và N là các A-môđun và giả sử rằng M là tự do. Ký hiệu Map(M, N) là A-môđun của mọi ánh xạ từ M vào N. Môđun con $\sum_{q > 0} \mathbf{Pol}_A^q(M, N)$ của Map(M, N) được ký hiệu là $\mathbf{Pol}_A(M, N)$ hoặc đơn giản là $\mathbf{Pol}(M, N)$; các phần tử của nó được gọi là các ánh xạ đa thức từ M vào N.*
 
-Cho $(e_i)_{i \in I}$ là một cơ sở của M và giả sử rằng l là hữu hạn; theo Mệnh đề 13 (IV, p. 54), một ánh xạ $f$ từ M vào N là đa thức khi và chỉ khi tồn tại một đa thức F theo các ẩn $X_i$ với hệ số trong N sao cho
+Cho $(e_i)_{i \in I}$ là một cơ sở của M và giả sử rằng $l$ là hữu hạn; theo Mệnh đề 13 (IV, p. 54), một ánh xạ $f$ từ M vào N là đa thức khi và chỉ khi tồn tại một đa thức F theo các ẩn số $X_i$ với hệ số trong N sao cho
 
 $$
 f \left( \sum_{i \in I} x_i e_i \right) = F(x)
 $$
 
-với mọi họ $x = (x_i)_{i \in I}$ trong $A^{(I)}$. Tính chất này không phụ thuộc vào cơ sở đã chọn của M và nó biện minh cho thuật ngữ « ánh xạ đa thức ».
+với mọi họ $x = (x_i)_{i \in I}$ trong $A^{(I)}$. Tính chất này không phụ thuộc vào cơ sở được chọn của M và nó biện minh cho thuật ngữ « ánh xạ đa thức ».
 
 #### Mệnh đề 17 {#alg-iv-s5-prop-17 .statement}
 
-— *Cho M là một A-môđun tự do và B là một A-đại số kết hợp, giao hoán và có đơn vị. Khi đó $\mathrm{Pol}_A(M, B)$ là một B-đại số con của đại số $\mathrm{Map}(M, B)$.
+— *Cho M là một A-môđun tự do và B là một A-đại số kết hợp, giao hoán và có đơn vị. Khi đó $\mathrm{Pol}_A(M, B)$ là một đại số con trên B của đại số $\mathrm{Map}(M, B)$.
 
 Điều này suy ra từ Định nghĩa 4 và Mệnh đề 13, (iv) (IV, p. 54).
 
@@ -834,7 +834,7 @@ với mọi họ $x = (x_i)_{i \in I}$ trong $A^{(I)}$. Tính chất này không
 
 — *Cho M, N, P là các A-môđun, và giả sử rằng M và N là tự do. Nếu $f \in \mathrm{Pol}(M, N)$, $g \in \mathrm{Pol}(N, P)$, thì $g \circ f \in \mathrm{Pol}(M, P)$.
 
-Ta có thể rút gọn ngay về trường hợp tồn tại một số nguyên q sao cho $g \in \mathrm{Pol}^q(N, P)$; khi đó tồn tại một ánh xạ q-tuyến tính $h$ từ $N^q$ vào P sao cho $g(y) = h(y, y, \ldots, y)$ với mọi $y \in N$. Viết $f$ như một tổng các ánh xạ đa thức thuần nhất, do đó ta được quy về việc chứng minh rằng ánh xạ
+Ta có thể rút gọn ngay về trường hợp tồn tại một số nguyên q sao cho $g \in \mathrm{Pol}^q(N, P)$; khi đó tồn tại một ánh xạ q-tuyến tính $h$ từ $N^q$ vào P sao cho $g(y) = h(y, y, \ldots, y)$ với mọi $y \in N$. Viết $f$ thành một tổng các ánh xạ đa thức thuần nhất, như vậy ta được rút gọn về việc chứng minh rằng ánh xạ
 
 $$
 x \mapsto h(f_1(x), f_2(x), \ldots, f_q(x))
@@ -856,7 +856,7 @@ $$
 f = m_0 + m_1 X + \cdots + m_n X^n \in N[X].
 $$
 
-*Giả sử tồn tại $\alpha_0, \alpha_1, \ldots, \alpha_r \in A$ sao cho $f(\alpha_0) = \cdots = f(\alpha_r) = 0$, và sao cho với $i \neq j$ phép vị tự có tỷ số $\alpha_i - \alpha_j$ trong N là đơn ánh, thì $f = 0$.*
+*Giả sử rằng tồn tại $\alpha_0, \alpha_1, \ldots, \alpha_r \in A$ sao cho $f(\alpha_0) = \cdots = f(\alpha_r) = 0$, và sao cho với $i \neq j$ phép vị tự có tỷ số $\alpha_i - \alpha_j$ trong N là đơn ánh, thì $f = 0$.*
 
 (Bổ đề này tổng quát hóa Hệ quả ở IV, p. 16.)
 

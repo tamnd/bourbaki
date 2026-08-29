@@ -6657,6 +6657,299 @@
           ]
         }
       ]
+    },
+    {
+      "id": "alg-iv-vii-fr",
+      "chapters": [
+        {
+          "chapter": "IV",
+          "title": "Polynômes et fractions rationnelles",
+          "total": 57,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-iv-s1",
+              "dir": "s1",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 3,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-iv-s2",
+              "dir": "s2",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "supplementary": 2
+            },
+            {
+              "section": 3,
+              "label": "alg-iv-s3",
+              "dir": "s3",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "alg-iv-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "supplementary": 1
+            },
+            {
+              "section": 5,
+              "label": "alg-iv-s5",
+              "dir": "s5",
+              "count": 16,
+              "first": 1,
+              "last": 16
+            },
+            {
+              "section": 6,
+              "label": "alg-iv-s6",
+              "dir": "s6",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 1,
+              "supplementary": 2
+            }
+          ]
+        },
+        {
+          "chapter": "V",
+          "title": "Corps commutatifs",
+          "total": 158,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-v-s1",
+              "dir": "s1",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-v-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "alg-v-s3",
+              "dir": "s3",
+              "count": 15,
+              "first": 1,
+              "last": 15,
+              "supplementary": 6
+            },
+            {
+              "section": 4,
+              "label": "alg-v-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "supplementary": 1
+            },
+            {
+              "section": 5,
+              "label": "alg-v-s5",
+              "dir": "s5",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 6,
+              "label": "alg-v-s6",
+              "dir": "s6",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 7,
+              "label": "alg-v-s7",
+              "dir": "s7",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 8,
+              "label": "alg-v-s8",
+              "dir": "s8",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 9,
+              "label": "alg-v-s9",
+              "dir": "s9",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "supplementary": 1
+            },
+            {
+              "section": 10,
+              "label": "alg-v-s10",
+              "dir": "s10",
+              "count": 23,
+              "first": 1,
+              "last": 23,
+              "supplementary": 2
+            },
+            {
+              "section": 11,
+              "label": "alg-v-s11",
+              "dir": "s11",
+              "count": 23,
+              "first": 1,
+              "last": 23,
+              "supplementary": 6
+            },
+            {
+              "section": 12,
+              "label": "alg-v-s12",
+              "dir": "s12",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "supplementary": 2
+            },
+            {
+              "section": 13,
+              "label": "alg-v-s13",
+              "dir": "s13",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 14,
+              "label": "alg-v-s14",
+              "dir": "s14",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "supplementary": 2
+            },
+            {
+              "section": 15,
+              "label": "alg-v-s15",
+              "dir": "s15",
+              "count": 12,
+              "first": 1,
+              "last": 12
+            },
+            {
+              "section": 16,
+              "label": "alg-v-s16",
+              "dir": "s16",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 17,
+              "label": "alg-v-s17",
+              "dir": "s17",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            }
+          ]
+        },
+        {
+          "chapter": "VI",
+          "title": "Groupes et corps ordonnés",
+          "total": 25,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-vi-s1",
+              "dir": "s1",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-vi-s2",
+              "dir": "s2",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            }
+          ]
+        },
+        {
+          "chapter": "VII",
+          "title": "Modules sur les anneaux principaux",
+          "total": 47,
+          "sections": [
+            {
+              "section": 1,
+              "label": "alg-vii-s1",
+              "dir": "s1",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "alg-vii-s2",
+              "dir": "s2",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "starred": 4,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "alg-vii-s3",
+              "dir": "s3",
+              "count": 11,
+              "first": 1,
+              "last": 11
+            },
+            {
+              "section": 4,
+              "label": "alg-vii-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 5,
+              "label": "alg-vii-s5",
+              "dir": "s5",
+              "count": 4,
+              "first": 1,
+              "last": 4
+            }
+          ]
+        }
+      ]
     }
   ]
 }

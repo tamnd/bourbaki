@@ -56,7 +56,7 @@ subsections:
       pdf_page: 31
 statements: 42
 exercises: 23
-content_sha256: 82e42d161d4f4680d84e47cb45de3f85ffdf038e5b86ba05f0f14303cf30c4ff
+content_sha256: 3e96de994d31b25bce10d187ed9a08cdcbf2c75e49005efa44aee7101205e503
 translated_from: content/en/int/VII/01_s1_construction_of_a_haar_measure.md
 source_content_sha256: f223846d7e283fe3e359c0fdab7593b17359f020a6953967222d4e06deabaf12
 translation_model: gpt-5.4-mini
@@ -690,7 +690,7 @@ Cho $\mathbf{Z}_p$ là bao đóng của $\mathbf{Z}$ trong $\mathbf{Q}_p$; đây
 
 Từ đây suy ra rằng quả cầu đóng có tâm 0 và bán kính $p^{-n}$, trùng với quả cầu mở có tâm 0 và bán kính $p^{-n+1}$, là $p^n \mathbf{Z}_p$. Không gian tôpô $\mathbf{Q}_p$ do đó không chiều, suy ra hoàn toàn rời rạc (GT, IX, §6, No. 4).
 
-Chúng ta hãy ցույց ra rằng các số nguyên $0, 1, \ldots, p^n - 1$ tạo thành một hệ đại diện của $\mathbf{Z}_p$ theo modulo $p^n \mathbf{Z}_p$. Trước hết, $|k - k'|_p > p^{-n}$ đối với hai số nguyên như thế $k$ và $k'$, do đó các lớp modulo $p^n \mathbf{Z}_p$ của các số nguyên này là phân biệt. Mặt khác, cho $x \in \mathbf{Z}_p$; tồn tại một $k \in \mathbf{Z}$ sao cho $|x - k|_p \leq p^{-n}$; cộng thêm vào $k$ một bội thích hợp của $p^n$, ta có thể giả sử rằng $k \in [0, p^n - 1]$, và $x$ đồng dư với $k$ modulo $p^n \mathbf{Z}_p$. Suy ra khẳng định của chúng ta. Điều đó cho thấy $\mathbf{Z}_p / p^n \mathbf{Z}_p$ đẳng cấu chính tắc với $\mathbf{Z}/p^n \mathbf{Z}$. Hơn nữa, ta thấy rằng $\mathbf{Z}_p$ là tiền compact, nên *compact* vì nó đầy đủ. Vì $\mathbf{Z}_p$ là một nhóm con mở của $\mathbf{Q}_p$, nên $\mathbf{Q}_p$ là *địa phương compact*. Tôpô của $\mathbf{Q}_p$ có một cơ sở đếm được (GT, IX, §2, No. 9, Hệ quả của Mệnh đề 16). Nhóm cộng $\mathbf{Q}_p$ có thể được đồng nhất với giới hạn ngược của các nhóm rời rạc $\mathbf{Q}_p / p^n \mathbf{Z}_p$.
+Chúng ta hãy chỉ ra rằng các số nguyên $0, 1, \ldots, p^n - 1$ tạo thành một hệ đại diện của $\mathbf{Z}_p$ theo modulo $p^n \mathbf{Z}_p$. Trước hết, $|k - k'|_p > p^{-n}$ đối với hai số nguyên như thế $k$ và $k'$, do đó các lớp modulo $p^n \mathbf{Z}_p$ của các số nguyên này là phân biệt. Mặt khác, cho $x \in \mathbf{Z}_p$; tồn tại một $k \in \mathbf{Z}$ sao cho $|x - k|_p \leq p^{-n}$; cộng thêm vào $k$ một bội thích hợp của $p^n$, ta có thể giả sử rằng $k \in [0, p^n - 1]$, và $x$ đồng dư với $k$ modulo $p^n \mathbf{Z}_p$. Suy ra khẳng định của chúng ta. Điều đó cho thấy $\mathbf{Z}_p / p^n \mathbf{Z}_p$ đẳng cấu chính tắc với $\mathbf{Z}/p^n \mathbf{Z}$. Hơn nữa, ta thấy rằng $\mathbf{Z}_p$ là tiền compact, nên *compact* vì nó đầy đủ. Vì $\mathbf{Z}_p$ là một nhóm con mở của $\mathbf{Q}_p$, nên $\mathbf{Q}_p$ là *địa phương compact*. Tôpô của $\mathbf{Q}_p$ có một cơ sở đếm được (GT, IX, §2, No. 9, Hệ quả của Mệnh đề 16). Nhóm cộng $\mathbf{Q}_p$ có thể được đồng nhất với giới hạn ngược của các nhóm rời rạc $\mathbf{Q}_p / p^n \mathbf{Z}_p$.
 
 Tồn tại một và chỉ một độ đo Haar $\alpha$ trên nhóm cộng $\mathbf{Q}_p$ sao cho $\alpha(\mathbf{Z}_p) = 1$; nó được gọi là *độ đo Haar chuẩn hóa* trên $\mathbf{Q}_p$. Vì $\mathbf{Z}_p$ là hợp của $p^n$ lớp kề rời nhau của $p^n \mathbf{Z}_p$ ($n$ là một số nguyên $\geq 0$), ta có $\alpha(p^n \mathbf{Z}_p) = p^{-n}$; tương tự $\alpha(p^{-n} \mathbf{Z}_p) = p^n$, do đó, cuối cùng, $\alpha(p^n \mathbf{Z}_p) = p^{-n}$ với mọi $n \in \mathbf{Z}$. Theo Mệnh đề 8 b), $\alpha$ là độ đo dương duy nhất trên $\mathbf{Q}_p$ sao cho mọi lớp kề của $p^n \mathbf{Z}_p$ ($n$ là một số nguyên $\geq 0$) đều có độ đo $p^{-n}$.
 

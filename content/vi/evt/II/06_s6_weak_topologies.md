@@ -45,7 +45,7 @@ subsections:
       pdf_page: 89
 statements: 41
 exercises: 20
-content_sha256: eb421c7dca0e7ab9b509601f61c2bb623b54e6dcf5febdcff5b2059164becb6f
+content_sha256: 108891d37946b054beb2dc995d035dae643d73ba7c0a89d5271cd58e2a07ac5c
 translated_from: content/en/evt/II/06_s6_weak_topologies.md
 source_content_sha256: 768c754e1011a182215e3ae9df8c627a7d0dc5c3af59c06cf42dd04db3e39059
 translation_model: gpt-5.4
@@ -274,7 +274,7 @@ là liên tục đối với $\sigma(F, G)$: từ định nghĩa của các tôp
 
 — Giả sử rằng đối ngẫu giữa F và G là phân biệt trên G và rằng đối ngẫu giữa $F_1$ và $G_1$ là phân biệt trên $G_1$. Nếu ta đồng nhất G và $G_1$ tương ứng với các không gian con của $F^*$ và $F_1^*$, thì các điều kiện a) và b) tương đương với $^t u(G_1) \subset G$; v là hạn chế của chuyển vị $^t u$ của u (A, II, § 2.5) lên $G_1$.
 
-Khi đó, ta nói đơn giản (khi không có khả năng nhầm lẫn) rằng v là *chuyển vị* của u (đối với đối ngẫu một mặt giữa F và G và mặt khác giữa $F_1$ và $G_1$) và ta კვლავ dùng $^t u$ để ký hiệu nó.
+Khi đó, ta nói đơn giản (khi không có khả năng nhầm lẫn) rằng v là *chuyển vị* của u (đối với đối ngẫu một mặt giữa F và G và mặt khác giữa $F_1$ và $G_1$) và ta lại dùng $^t u$ để ký hiệu nó.
 
 #### Hệ quả {#evt-ii-s6-n4-cor-1 .statement}
 

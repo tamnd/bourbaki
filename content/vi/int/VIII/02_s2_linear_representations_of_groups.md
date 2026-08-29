@@ -41,7 +41,7 @@ subsections:
       pdf_page: 116
 statements: 22
 exercises: 10
-content_sha256: b5a447ceeeae250cec6fe20bf2b118b24f29dad9c92071ded7f47868587ea3fb
+content_sha256: 063958aca31b0f959091f54c144361e6c49074b548cea857ec38976e8fd5137e
 translated_from: content/en/int/VIII/02_s2_linear_representations_of_groups.md
 source_content_sha256: b0678881b7cd3a56d5f8b131d0c35b22044fde9c44f2a5b66f9c2d07b90f0958
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
@@ -300,7 +300,7 @@ $$
 
 Để có thể áp dụng các kết quả này về sau, ta lưu ý rằng nếu $X$ là một không gian địa phương compact thì $\mathcal{C}(X)$, được trang bị tôpô hội tụ compact, là đầy đủ (GT, X, §1, No. 6, Cor. 3 of Th. 2). Mặt khác, $\mathcal{K}(X)$ là thùng, do đó đối ngẫu của nó $\mathcal{M}(X)$, được trang bị tôpô hội tụ compact trong $\mathcal{K}(X)$, là tựa đầy đủ (TVS, III, §4, No. 2, Cor. 4 of Th. 1). Dĩ nhiên, $\mathcal{K}(X)$ là đầy đủ đối với tôpô suy ra từ chuẩn của nó, do đó *đối ngẫu* của nó $\mathcal{M}^1(X)$ là tựa đầy đủ đối với tôpô hội tụ compact trong $\mathcal{K}(X)$ (*loc. cit.*).
 
-Bây giờ giả sử $U$ là một biểu diễn tuyến tính liên tục của nhóm địa phương compact $G$ trên một *không gian Banach* $E$. Đặt $g(s) = \|U(s)\|$ với mọi $s \in G$. Khi đó, nếu $\mu$ là một độ đo trên $G$ sao cho $g$ là $\mu$-khả tích, thì ta có $\int_G U(s)\, d\mu(s) \in \mathcal{L}(E; E)$ và $\|\int_G U(s)\, d\mu(s)\| \leq \int g(s)\, d|\mu|(s)$ (Ch. VI, §1, No. 7, *Nhận xét* 1). Ta კვლავ viết $U(\mu) = \int_G U(s)\, d\mu(s)$.
+Bây giờ giả sử $U$ là một biểu diễn tuyến tính liên tục của nhóm địa phương compact $G$ trên một *không gian Banach* $E$. Đặt $g(s) = \|U(s)\|$ với mọi $s \in G$. Khi đó, nếu $\mu$ là một độ đo trên $G$ sao cho $g$ là $\mu$-khả tích, thì ta có $\int_G U(s)\, d\mu(s) \in \mathcal{L}(E; E)$ và $\|\int_G U(s)\, d\mu(s)\| \leq \int g(s)\, d|\mu|(s)$ (Ch. VI, §1, No. 7, *Nhận xét* 1). Ta lại viết $U(\mu) = \int_G U(s)\, d\mu(s)$.
 
 ### 7. Các quan hệ giữa các nội tự đồng cấu $U(\mu)$ và các nội tự đồng cấu $U(s)$
 

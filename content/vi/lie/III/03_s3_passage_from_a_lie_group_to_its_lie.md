@@ -7,100 +7,101 @@ section: 3
 section_title: Passage from a Lie group to its Lie algebra
 lang: vi
 source: lie-i-iii
+book_pages: 238-279, 372-376
 pdf_pages: 0256-0297, 0390-0394
 extraction: ocr
 subsections:
     - "no": 1
       title: CONVOLUTION OF POINT DISTRIBUTIONS ON A LIE GROUP
-      page: 0
+      page: 238
       pdf_page: 256
     - "no": 2
       title: FUNCTIORAL PROPERTIES
-      page: 0
+      page: 241
       pdf_page: 259
     - "no": 3
       title: CASE OF A GROUP OPERATING ON A MANIFOLD
-      page: 0
+      page: 244
       pdf_page: 262
     - "no": 4
       title: CONVOLUTION OF POINT DISTRIBUTIONS AND FUNCTIONS
-      page: 0
+      page: 245
       pdf_page: 263
     - "no": 5
       title: FIELDS OF POINT DISTRIBUTIONS DEFINED BY THE ACTION OF A GROUP ON A MANIFOLD
-      page: 0
+      page: 248
       pdf_page: 266
     - "no": 6
       title: INVARIANT FIELDS OF POINT DISTRIBUTIONS ON A LIE GROUP
-      page: 0
+      page: 249
       pdf_page: 267
     - "no": 7
       title: LIE ALGEBRA OF A LIE GROUP
-      page: 0
+      page: 251
       pdf_page: 269
     - "no": 8
       title: FUNCTIORIAL PROPERTIES OF THE LIE ALGEBRA
-      page: 0
+      page: 254
       pdf_page: 272
     - "no": 9
       title: LIE ALGEBRA OF THE GROUP OF INVERTIBLE ELEMENTS OF AN ALGEBRA
-      page: 0
+      page: 257
       pdf_page: 275
     - "no": 10
       title: LIE ALGEBRAS OF CERTAIN LINEAR GROUPS
-      page: 0
+      page: 258
       pdf_page: 276
     - "no": 11
       title: LINEAR REPRESENTATIONS
-      page: 0
+      page: 259
       pdf_page: 277
     - "no": 12
       title: ADJOINT REPRESENTATION
-      page: 0
+      page: 264
       pdf_page: 282
     - "no": 13
       title: TENSORS AND INVARIANT FORMS
-      page: 0
+      page: 268
       pdf_page: 286
     - "no": 14
       title: MAURER–CARTAN FORMULAE
-      page: 0
+      page: 269
       pdf_page: 287
     - "no": 15
       title: CONSTRUCTION OF INVARIANT DIFFERENTIAL FORMS
-      page: 0
+      page: 271
       pdf_page: 289
     - "no": 16
       title: HAAR MEASURE ON A LIE GROUP
-      page: 0
+      page: 271
       pdf_page: 289
     - "no": 17
       title: LEFT DIFFERENTIAL
-      page: 0
+      page: 274
       pdf_page: 292
     - "no": 18
       title: LIE ALGEBRA OF A LIE GROUP GERM
-      page: 0
+      page: 276
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: a20e1035403f3f23ca4542a287533546aa8290d4e3f6065679e00b465e6bd5d4
+content_sha256: ae9f9fc5039d41fb42d30ad7a290ef7a406938d0c0dbdf95ad3527e6dc2cbeac
 translated_from: content/en/lie/III/03_s3_passage_from_a_lie_group_to_its_lie.md
-source_content_sha256: 116ee476020d95a20632b0a93e7c92ab47b1013c10697310c58d2ebb5dec4db5
-translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini, gpt-5-mini
+source_content_sha256: 5762aa9c03ccb6cefa82b2dc514fd62774faa93aeda563194756642698c12f55
+translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6, gpt-5-mini, gpt-5.4-mini
 translation_run: translate-vi-36d03b2e
 glossary_version: 34
 glossary_terms_sha256: e4941a69ba07ea62b910cb6b3b296023187819bc958439ee07c893dec6015980
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## § 3. TỪ MỘT NHÓM LIE ĐẾN ĐẠI SỐ LIE CỦA NÓ
+## § 3. CHUYỂN TỪ MỘT NHÓM LIE SANG ĐẠI SỐ LIE CỦA NÓ
 
-### 1. PHÉP TÍCH CHẬP CỦA CÁC PHÂN BỐ ĐIỂM TRÊN MỘT NHÓM LIE
+### 1. TÍCH CHẬP CỦA CÁC PHÂN PHỐI ĐIỂM TRÊN MỘT NHÓM LIE
 
 #### Định nghĩa 1 {#lie-iii-s3-def-1 .statement}
 
-*Cho $G$ là một nhóm Lie, $g$ và $g'$ là hai điểm của $G$ và cho $t \in T_g^{(\infty)}(G)$ $t' \in T_{g'}^{(\infty)}(G)$ là hai phân bố điểm tại $g$ và $g'$ trên $G$ (*Differentiable and Analytic Manifolds*, R, 13.2.1). Tích chập của $t$ và $t'$, ký hiệu bởi $t * t'$, là ảnh của $t \otimes t'$ qua ánh xạ $(h, h') \mapsto hh'$ của $G \times G$ vào $G$ (*Differentiable and Analytic Manifolds*, R, 13.2.3).*
+*Cho $G$ là một nhóm Lie, $g$ và $g'$ là hai điểm của $G$ và cho $t \in T_g^{(\infty)}(G)$ $t' \in T_{g'}^{(\infty)}(G)$ là hai phân phối điểm tại $g$ và $g'$ trên $G$ (*Differentiable and Analytic Manifolds*, R, 13.2.1). Tích chập của $t$ và $t'$, ký hiệu là $t * t'$, là ảnh của $t \otimes t'$ qua ánh xạ $(h, h') \mapsto hh'$ từ $G \times G$ vào $G$ (*Differentiable and Analytic Manifolds*, R, 13.2.3).*
 
 #### Mệnh đề 1 {#lie-iii-s3-prop-1 .statement}
 
@@ -110,24 +111,24 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 (iii) $\varepsilon_g * \varepsilon_{g'} = \varepsilon_{gg'}$.
 
-(iv) *Cho $t \in T_g^{(s)}(G)$, $t' \in T_{g'}^{(s')}(G)$ và cho $f$ là một hàm thuộc lớp $C^{s+s'}$ trong một lân cận mở của $gg'$ với các giá trị trong một không gian đa chuẩn Hausdorff. Khi đó*
+(iv) *Cho $t \in T_g^{(s)}(G)$, $t' \in T_{g'}^{(s')}(G)$ và cho $f$ là một hàm lớp $C^{s+s'}$ trong một lân cận mở của $gg'$ với giá trị trong một không gian đa chuẩn Hausdorff. Khi đó*
 
 $$
 \langle t * t', f \rangle = \langle t', h' \mapsto \langle t, h \mapsto f(hh') \rangle \rangle \\
 = \langle t, h \mapsto \langle t', h' \mapsto f(hh') \rangle \rangle.
 $$
 
-Điều này suy ra từ Differentiable and Analytic Manifolds, R, 13.4.1, 13.2.3 và 13.4.4.
+Điều này suy ra từ *Differentiable and Analytic Manifolds*, R, 13.4.1, 13.2.3 và 13.4.4.
 
-Giả sử rằng K = \mathbf{R} hoặc \mathbf{C} và rằng G là hữu hạn chiều. Khi đó G là compact địa phương. Nếu t, t' là các độ đo điểm, định nghĩa của t \* t' trùng với định nghĩa trong Integration, Chương VIII, § 1. Sau này ta sẽ thấy rằng tích chập của các độ đo và tích chập của các phân bố điểm là hai trường hợp đặc biệt của tích chập của các phân bố không nhất thiết là phân bố điểm.
+Giả sử K = \mathbf{R} hoặc \mathbf{C} và G là hữu hạn chiều. Khi đó G là compact địa phương. Nếu t, t' là các độ đo điểm, định nghĩa của t \* t' phù hợp với định nghĩa trong Integration, Chương VIII, § 1. Ta sẽ thấy sau rằng tích chập của các độ đo và tích chập của các phân phối điểm là hai trường hợp riêng của tích chập của các phân phối không nhất thiết là các phân phối điểm.
 
-Cho \mathcal{T}^{(\infty)}(G) là tổng trực tiếp của các T_g^{(\infty)}(G) với g \in G (xem Differentiable and Analytic Manifolds, R, 13.6.1). Ta định nghĩa tích chập trong \mathcal{T}^{(\infty)}(G) là ánh xạ song tuyến tính từ \mathcal{T}^{(\infty)}(G) \times \mathcal{T}^{(\infty)}(G) vào \mathcal{T}^{(\infty)}(G) mở rộng tích chập của Định nghĩa 1. Ta cũng ký hiệu nó bởi *. Như vậy \mathcal{T}^{(\infty)}(G) có một cấu trúc đại số được lọc bởi các \mathcal{T}^{(s)}(G). Đại số con \mathcal{T}^{(0)}(G) = \bigoplus_{g \in G} T_g^{(0)}(G) được đồng nhất với đại số K^{(G)} của nhóm G trên K.
+Cho \mathcal{T}^{(\infty)}(G) là tổng trực tiếp của các T_g^{(\infty)}(G) với g \in G (xem *Differentiable and Analytic Manifolds*, R, 13.6.1). Ta định nghĩa tích chập trong \mathcal{T}^{(\infty)}(G) là ánh xạ song tuyến tính từ \mathcal{T}^{(\infty)}(G) \times \mathcal{T}^{(\infty)}(G) vào \mathcal{T}^{(\infty)}(G) kéo dài tích chập của Định nghĩa 1. Ta cũng ký hiệu nó bởi *. Do đó \mathcal{T}^{(\infty)}(G) có một cấu trúc đại số được lọc bởi các \mathcal{T}^{(s)}(G). Đại số con \mathcal{T}^{(0)}(G) = \bigoplus_{g \in G} T_g^{(0)}(G) được đồng nhất với đại số nhóm K^{(G)} của G trên K.
 
 #### Mệnh đề 2 {#lie-iii-s3-prop-2 .statement}
 
-Đại số \mathcal{T}^{(\infty)}(G) là kết hợp. Nó là giao hoán khi và chỉ khi G là giao hoán.
+Đại số \mathcal{T}^{(\infty)}(G) là kết hợp. Nó giao hoán khi và chỉ khi G giao hoán.
 
-Cho t \in \mathcal{T}^{(\infty)}(G), t' \in \mathcal{T}^{(\infty)}(G), t'' \in \mathcal{T}^{(\infty)}(G). Khi đó t \* (t' \* t'') là ảnh của t \otimes t' \otimes t'' qua ánh xạ (g, g', g'') \mapsto g(g'g'') của G \times G \times G vào G và (t \* t') \* t'' là ảnh của t \otimes t' \otimes t'' qua ánh xạ (g, g', g'') \mapsto (gg')g'' của G \times G \times G vào G. Do đó (t \* t') \* t'' = t \* (t' \* t''). Tương tự, ta thấy rằng, nếu G là giao hoán, thì t \* t' = t' \* t. Nếu tích chập là giao hoán, G là giao hoán theo Mệnh đề 1 (iii).
+Cho t \in \mathcal{T}^{(\infty)}(G), t' \in \mathcal{T}^{(\infty)}(G), t'' \in \mathcal{T}^{(\infty)}(G). Khi đó t \* (t' \* t'') là ảnh của t \otimes t' \otimes t'' qua ánh xạ (g, g', g'') \mapsto g(g'g'') từ G \times G \times G vào G và (t \* t') \* t'' là ảnh của t \otimes t' \otimes t'' qua ánh xạ (g, g', g'') \mapsto (gg')g'' từ G \times G \times G vào G. Do đó (t \* t') \* t'' = t \* (t' \* t''). Tương tự, nếu G giao hoán, thì t \* t' = t' \* t. Nếu tích chập là giao hoán, thì G giao hoán theo Mệnh đề 1 (iii).
 
 #### Mệnh đề 3 {#lie-iii-s3-prop-3 .statement}
 
@@ -141,7 +142,7 @@ G & \xrightarrow{\phi} & G \times G & \xrightarrow{\psi} & G \\
 \end{array}
 $$
 
-trong đó $\phi$ là ánh xạ $h \mapsto (g, h)$ và $\psi$ là ánh xạ $(h', h) \mapsto h'h$. Khi đó $\gamma(g) = \psi \circ \phi$ và do đó $\gamma(g)_* t = \psi_*(\phi_*(t))$. Nhưng $\phi_*(t) = \varepsilon_g \otimes t$ và do đó $\psi_*(\phi_*(t)) = \varepsilon_g * t$. Lập luận tương tự đối với $\delta(g)_* t$. Cuối cùng,
+trong đó $\phi$ là ánh xạ $h \mapsto (g, h)$ và $\psi$ là ánh xạ $(h', h) \mapsto h'h$. Khi đó $\gamma(g) = \psi \circ \phi$ và do đó $\gamma(g)_* t = \psi_*(\phi_*(t))$. Nhưng $\phi_*(t) = \varepsilon_g \otimes t$ và do đó $\psi_*(\phi_*(t)) = \varepsilon_g * t$. Lập luận cũng tương tự đối với $\delta(g)_* t$. Sau cùng,
 
 $$
 \operatorname{Int} g = \gamma(g) \circ \delta(g)
@@ -149,11 +150,11 @@ $$
 
 và do đó $(\operatorname{Int} g)_* = \gamma(g)_* \circ \delta(g)_*$.
 
-Vì vậy ta thấy rằng, với $t \in T(G)$, $\varepsilon_g * t$ và $t * \varepsilon_g$ bằng với $gt$ và $tg$ được tính trong nhóm T(G) (§ 2, no. 2). Nhưng cần lưu ý rằng, với $t, t'$ trong T(G), tích $tt'$ theo nghĩa của § 2 nói chung khác với $t * t'$.
+Vì vậy ta thấy rằng, với $t \in T(G)$, $\varepsilon_g * t$ và $t * \varepsilon_g$ bằng với $gt$ và $tg$ tính trong nhóm T(G) (§ 2, no. 2). Nhưng cần lưu ý rằng, với $t, t'$ trong T(G), tích $tt'$ theo nghĩa của § 2 nói chung khác với $t * t'$.
 
 #### Định nghĩa 2 {#lie-iii-s3-def-2 .statement}
 
-Cho G là một nhóm Lie. Đại số con của $\mathcal{T}^{(\infty)}(G)$ gồm các phân bố có giá được chứa trong e được ký hiệu bởi $U(G)$.
+Cho G là một nhóm Lie. Đại số con của $\mathcal{T}^{(\infty)}(G)$ gồm các phân phối có giá được chứa trong e được ký hiệu bởi $U(G)$.
 
 Đại số này được lọc bởi các không gian con
 $$
@@ -195,7 +196,7 @@ $$
 & & \xrightarrow{\mathrm{TS}(T(m))} \mathrm{TS}(L)
 \end{array}
 $$
-trong đó $q$ là ánh xạ dẫn xuất từ đẳng cấu chính tắc của $\mathrm{TS}(L) \times \mathrm{TS}(L)$ lên $\mathrm{TS}(L \times L)$. Theo *Differentiable and Analytic Manifolds*, R, 13.4.6 và 13.3.5, hai hình vuông của biểu đồ là giao hoán. Do đó theo (1), biểu đồ
+trong đó $q$ là ánh xạ dẫn xuất từ đẳng cấu chính tắc của $\mathrm{TS}(L) \times \mathrm{TS}(L)$ lên $\mathrm{TS}(L \times L)$. Theo *Differentiable and Analytic Manifolds*, R, 13.4.6 và 13.3.5, hai hình vuông của biểu đồ là giao hoán. Do đó theo (1) biểu đồ
 $$
 \begin{array}{ccc}
 \mathrm{gr}\,\mathrm{U}(G) \times \mathrm{gr}\,\mathrm{U}(G) & \xrightarrow{\mathrm{gr}(c)} & \mathrm{gr}\,\mathrm{U}(G) \\
@@ -209,7 +210,7 @@ là giao hoán. Bây giờ $T(m): L \times L \to L$ ánh xạ $(x, y)$ thành $x
 
 #### Mệnh đề 6 {#lie-iii-s3-prop-6 .statement}
 
-Cho $G, H$ là các nhóm Lie và $\phi$ là một cấu xạ của $G$ vào $H$. Với $t, t'$ trong $\mathcal{T}^{(\infty)}(G)$, $\phi_*(t * t') = \phi_*(t) * \phi_*(t')$.
+Cho $G, H$ là các nhóm Lie và $\phi$ là một cấu xạ từ $G$ vào $H$. Với $t, t'$ thuộc $\mathcal{T}^{(\infty)}(G)$, ta có $\phi_*(t * t') = \phi_*(t) * \phi_*(t')$.
 
 Xét biểu đồ
 $$
@@ -227,20 +228,20 @@ $$
 \end{align*}
 $$
 
-Các nhóm Lie $G$ và $G^\vee$ có cùng đa tạp nền và do đó các không gian vectơ $\mathcal{T}^{(\infty)}(G)$ và $\mathcal{T}^{(\infty)}(G^\vee)$ là như nhau. Gọi $\theta$ là ánh xạ $g \mapsto g^{-1}$, là một đẳng cấu của nhóm Lie $G$ lên nhóm Lie $G^\vee$. Khi đó $\theta^*$ là một tự đẳng cấu của không gian vectơ $\mathcal{T}^{(\infty)}(G)$, mà tự đẳng cấu này ta ký hiệu bởi $t \mapsto t^\vee$. Khi đó $(\varepsilon_g)^\vee = \varepsilon_{g^{-1}}$. Nếu $t \in T_e(G)$, thì
+Các nhóm Lie $G$ và $G^\vee$ có cùng đa tạp cơ sở và do đó các không gian vectơ $\mathcal{T}^{(\infty)}(G)$ và $\mathcal{T}^{(\infty)}(G^\vee)$ là như nhau. Gọi $\theta$ là ánh xạ $g \mapsto g^{-1}$, là một đẳng cấu của nhóm Lie $G$ lên nhóm Lie $G^\vee$. Khi đó $\theta^*$ là một tự đẳng cấu của không gian vectơ $\mathcal{T}^{(\infty)}(G)$; ta ký hiệu tự đẳng cấu này bởi $t \mapsto t^\vee$. Khi đó $(\varepsilon_g)^\vee = \varepsilon_{g^{-1}}$. Nếu $t \in T_e(G)$, thì
 $$
 t^\vee = -t \quad (§ 2, \text{Mệnh đề 2}).
 $$
 
 #### Ví dụ {#lie-iii-s3-n2-exa-1 .statement}
 
-Giả sử rằng $G$ là nhóm Lie được xác định bởi một không gian chuẩn hóa đầy đủ $E$. Khi đó $\mathrm{U}(G)$ được đồng nhất với $\mathrm{TS}(E)$ và hạn chế $\theta_*$ vào $\mathrm{U}(G)$ được đồng nhất với $\mathrm{TS}(T_e(\theta))$ (*Differentiable and Analytic Manifolds*, R, 13.2.4). Do đó, nếu $t \in \mathrm{TS}^s(E)$, $t^\vee = (-1)^s t$.
+Giả sử rằng $G$ là nhóm Lie được xác định bởi một không gian đầy đủ khả chuẩn $E$. Khi đó $\mathrm{U}(G)$ được đồng nhất với $\mathrm{TS}(E)$ và hạn chế của $\theta_*$ lên $\mathrm{U}(G)$ được đồng nhất với $\mathrm{TS}(T_e(\theta))$ (*Differentiable and Analytic Manifolds*, R, 13.2.4). Vì vậy, nếu $t \in \mathrm{TS}^s(E)$, thì $t^\vee = (-1)^s t$.
 
 #### Mệnh đề 7 {#lie-iii-s3-prop-7 .statement}
 
 Cho G là một nhóm Lie. Cho t, t' thuộc $\mathcal{T}^{(\infty)}(G)$.
 
-(i) Tích $t * t'$ được tính đối với $G^\vee$ bằng tích $t' * t$ được tính đối với G.
+(i) Tích $t * t'$ được tính đối với $G^\vee$ bằng với tích $t' * t$ được tính đối với G.
 
 (ii) $(t * t')^\vee = {t'}^\vee * t^\vee$.
 
@@ -254,13 +255,13 @@ $$
 \end{array}
 $$
 
-trong đó $s(g, g') = (g', g)$, $m(g, g') = gg'$, $n(g, g') = g'g$ với mọi $g, g'$ trong G. Biểu đồ này là giao hoán. Do đó $n_*(t \otimes t') = m_*(s_*(t \otimes t')) = m_*(t' \otimes t)$. Đẳng thức này chính xác là (i). Mệnh đề (ii) suy ra từ (i) và Mệnh đề 6.
+trong đó $s(g, g') = (g', g)$, $m(g, g') = gg'$, $n(g, g') = g'g$ với mọi $g, g'$ thuộc G. Biểu đồ này là giao hoán. Do đó $n_*(t \otimes t') = m_*(s_*(t \otimes t')) = m_*(t' \otimes t)$. Đẳng thức này chính xác là (i). Mệnh đề (ii) suy ra từ (i) và Mệnh đề 6.
 
 #### Mệnh đề 8 {#lie-iii-s3-prop-8 .statement}
 
-Cho G, H là các nhóm Lie và $\phi$ là một cấu xạ của G vào H. Nếu $t \in \mathcal{T}^{(\infty)}(G)$, thì $\phi_*(t^\vee) = (\phi_*(t))^\vee$.
+Cho G, H là các nhóm Lie và $\phi$ là một cấu xạ từ G vào H. Nếu $t \in \mathcal{T}^{(\infty)}(G)$, thì $\phi_*(t^\vee) = (\phi_*(t))^\vee$.
 
-Cho $\theta$ (tương ứng $\theta'$) là ánh xạ $g \mapsto g^{-1}$ của G vào G (tương ứng của H vào H). Khi đó $\phi \circ \theta = \theta' \circ \phi$, do đó $\phi_*(\theta_*(t)) = \theta'_*(\phi_*(t))$.
+Cho $\theta$ (tương ứng $\theta'$) là ánh xạ $g \mapsto g^{-1}$ từ G vào G (tương ứng từ H vào H). Khi đó $\phi \circ \theta = \theta' \circ \phi$, do đó $\phi_*(\theta_*(t)) = \theta'_*(\phi_*(t))$.
 
 #### Mệnh đề 9 {#lie-iii-s3-prop-9 .statement}
 
@@ -270,7 +271,7 @@ $$
 (t_1 \otimes \cdots \otimes t_n)^\vee = t_1^\vee \otimes \cdots \otimes t_n^\vee.
 $$
 
-Chỉ cần xét trường hợp $n = 2$. Cho $t_1, t_1'$ thuộc $\mathcal{T}^{(\infty)}(G_1)$, $t_2, t_2'$ thuộc $\mathcal{T}^{(\infty)}(G_2)$. Ta cần chứng minh rằng $(t_1 \otimes t_2) * (t_1' \otimes t_2') = (t_1 * t_1') \otimes (t_2 * t_2')$ và rằng $(t_1 \otimes t_2)^\vee = t_1^\vee \otimes t_2^\vee$. Xét biểu đồ
+Chỉ cần xét trường hợp $n = 2$. Cho $t_1, t_1'$ thuộc $\mathcal{T}^{(\infty)}(G_1)$, $t_2, t_2'$ thuộc $\mathcal{T}^{(\infty)}(G_2)$. Cần chứng minh rằng $(t_1 \otimes t_2) * (t_1' \otimes t_2') = (t_1 * t_1') \otimes (t_2 * t_2')$ và rằng $(t_1 \otimes t_2)^\vee = t_1^\vee \otimes t_2^\vee$. Xét biểu đồ
 
 $$
 \begin{array}{ccc}
@@ -286,7 +287,7 @@ $$
 n((x_1, x_2), (x_1', x_2')) = ((x_1, x_1'), (x_2, x_2')),
 $$
 
-$p_1(x_1, x_1') = x_1 x_1'$, $p_2(x_2, x_2') = x_2 x_2'$. Biểu đồ này giao hoán. Do đó
+$p_1(x_1, x_1') = x_1 x_1'$, $p_2(x_2, x_2') = x_2 x_2'$. Biểu đồ này là giao hoán. Do đó
 
 $$
 m_*((t_1 \otimes t_2) \otimes (t_1' \otimes t_2')) = (p_1 \otimes p_2)_*(n_*((t_1 \otimes t_2) \otimes (t_1' \otimes t_2'))),
@@ -306,29 +307,29 @@ Tương tự, ta thấy rằng $(t_1 \otimes t_2)^\vee = t_1^\vee \otimes t_2^\v
 
 #### Mệnh đề 10 {#lie-iii-s3-prop-10 .statement}
 
-Cho H là một nhóm con Lie của G và $i : H \to G$ là đơn ánh chính tắc. Khi đó $i_*$ là một đồng cấu đơn ánh của đại số $\mathcal{T}^{(\infty)}(H)$ vào đại số $\mathcal{T}^{(\infty)}(H)$ và $i_*(t^\vee) = (i_*(t))^\vee$ với mọi $t \in \mathcal{T}^{(\infty)}(H)$.
+Cho H là một nhóm con Lie của G và $i : H \to G$ là đơn ánh chính tắc. Khi đó $i_*$ là một đồng cấu đơn cấu của đại số $\mathcal{T}^{(\infty)}(H)$ vào đại số $\mathcal{T}^{(\infty)}(H)$ và $i_*(t^\vee) = (i_*(t))^\vee$ với mọi $t \in \mathcal{T}^{(\infty)}(H)$.
 
 Điều này suy ra từ các Mệnh đề 6 và 8 và Differentiable and Analytic Manifolds, R, 13.2.3.
 
-$\mathcal{T}^{(\infty)}(H)$ được đồng nhất với một đại số con của $\mathcal{T}^{(\infty)}(G)$ nhờ đẳng cấu của Mệnh đề 10.
+$\mathcal{T}^{(\infty)}(H)$ được đồng nhất với một đại số con của $\mathcal{T}^{(\infty)}(G)$ bằng đẳng cấu của Mệnh đề 10.
 
 #### Nhận xét {#lie-iii-s3-n2-rem-1 .statement}
 
-Mệnh đề 10 vẫn đúng nếu H là một nhóm quasi-con Lie.
+Mệnh đề 10 vẫn đúng nếu H là một giả-nhóm con Lie.
 
-Ta nhắc lại (Differentiable and Analytic Manifolds, R, 13.5.1) rằng, nếu V là một đa tạp giải tích trên K, $\mathcal{T}^{(\infty)}(V)$ có một cách chính tắc một cấu trúc đối đại số trên K với một đồng đơn vị; đồng đơn vị là ánh xạ tuyến tính của $\mathcal{T}^{(\infty)}(G)$ vào K gán cho mỗi phần tử của $T_x^{(\infty)}(V)$ số hạng hằng của nó.
+Nhắc lại (Differentiable and Analytic Manifolds, R, 13.5.1) rằng, nếu V là một đa tạp giải tích trên K, $\mathcal{T}^{(\infty)}(V)$ có một cách chính tắc một cấu trúc cođại số trên K với một đồng đơn vị; đồng đơn vị là ánh xạ tuyến tính từ $\mathcal{T}^{(\infty)}(G)$ vào K gán cho mỗi phần tử của $T_x^{(\infty)}(V)$ số hạng hằng của nó.
 
 #### Mệnh đề 11 {#lie-iii-s3-prop-11 .statement}
 
 Cho G là một nhóm Lie.
-(i) Đối đại số $\mathcal{T}^{(\infty)}(G)$, với tích chập, là một đại đối đại số (Algebra, Chapter III, § 11, no. 4).
+(i) Cođại số $\mathcal{T}^{(\infty)}(G)$, với phép chập, là một song đại số (Algebra, Chapter III, § 11, no. 4).
 (ii) Cho c là đồng tích trên $\mathcal{T}^{(\infty)}(G)$. Cho $t \in \mathcal{T}^{(\infty)}(G)$ và viết
 $$
 c(t) = \sum_{i=1}^n t_i \otimes t_i'.
 $$
 Khi đó $c(t^\vee) = \sum_{i=1}^n t_i^\vee \otimes t_{i'}^\vee$.
 
-Ta chứng minh (i). Trong định nghĩa về đại đối đại số được dẫn chiếu, điều kiện (1) suy ra từ các Mệnh đề 2 và 3 và điều kiện (2) suy ra từ Differentiable and Analytic Manifolds, R, 13.5.1. Cho d là ánh xạ $g \mapsto (g, g)$ của G vào $G \times G$. Khi đó $c = d_*$ và do đó c là một cấu xạ đại số (các Mệnh đề 6 và 9), đó là điều kiện (3). Cho $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$ không có số hạng hằng và $\lambda, \lambda'$ là các phần tử của K; khi đó $\varepsilon_g \otimes t', t \otimes \varepsilon_{g'}, t \otimes t'$ không có số hạng hằng (Differentiable and Analytic Manifolds, R, 13.4.1) và do đó số hạng hằng của $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ là $\lambda \lambda'$; do đó điều kiện (4) được thỏa mãn.
+Ta chứng minh (i). Trong định nghĩa của song đại số được dẫn chiếu tới, điều kiện (1) suy ra từ các Mệnh đề 2 và 3 và điều kiện (2) suy ra từ Differentiable and Analytic Manifolds, R, 13.5.1. Cho d là ánh xạ $g \mapsto (g, g)$ từ G vào $G \times G$. Khi đó $c = d_*$ và vì thế c là một cấu xạ đại số (các Mệnh đề 6 và 9), tức là điều kiện (3). Cho $t \in T_g^{(\infty)}(G)$, $t' \in T_{g'}^{(\infty)}(G)$ không có số hạng hằng và $\lambda, \lambda'$ là các phần tử của K; khi đó $\varepsilon_g \otimes t', t \otimes \varepsilon_{g'}, t \otimes t'$ đều không có số hạng hằng (Differentiable and Analytic Manifolds, R, 13.4.1) và vì thế số hạng hằng của $(\lambda \varepsilon_g + t) * (\lambda' \varepsilon_{g'} + t')$ là $\lambda \lambda'$; do đó điều kiện (4) được thỏa mãn.
 
 Ta chứng minh (ii). Theo các Mệnh đề 8 và 9,
 $$
@@ -337,7 +338,7 @@ $$
 
 #### Mệnh đề 12 {#lie-iii-s3-prop-12 .statement}
 
-Cho G, H là hai nhóm Lie và $\phi$ là một cấu xạ của G vào H. Khi đó $\phi_*$ là một cấu xạ đại đối đại số của $\mathcal{T}^{(\infty)}(G)$ vào $\mathcal{T}^{(\infty)}(H)$.
+Cho G, H là hai nhóm Lie và $\phi$ là một cấu xạ từ G vào H. Khi đó $\phi_*$ là một cấu xạ song đại số từ $\mathcal{T}^{(\infty)}(G)$ vào $\mathcal{T}^{(\infty)}(H)$.
 
 Điều này suy ra từ Mệnh đề 6 và Differentiable and Analytic Manifolds, R, 13.5.1.
 
@@ -393,19 +394,19 @@ Cho f là một luật tác động phải thuộc lớp C^r của G lên X. N�
 
 #### Mệnh đề 16 {#lie-iii-s3-prop-16 .statement}
 
-Cho G, G' là các nhóm Lie, X là một đa tạp lớp C^r và giả sử G (tương ứng G') tác động lên X bên trái (tương ứng bên phải), với $(gx)g' = g(xg')$ với mọi $x \in X, g \in G, g' \in G'$. Cho $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(G')$, $t'' \in T^{(s'')}(X)$, với $s + s' + s'' \leq r$. Khi đó
+Cho G, G' là các nhóm Lie, X là một đa tạp lớp C^r và giả sử rằng G (tương ứng G') tác động trên X ở bên trái (tương ứng bên phải), với $(gx)g' = g(xg')$ với mọi $x \in X, g \in G, g' \in G'$. Cho $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(G')$, $t'' \in T^{(s'')}(X)$, với $s + s' + s'' \leq r$. Khi đó
 $$
 (t * t'') * t' = t * (t'' * t').
 $$
 $(t * t'') * t'$ (tương ứng $t * (t'' * t')$) là ảnh của $t \otimes t'' \otimes t'$ qua ánh xạ $(g, x, g') \mapsto (gx)g'$ (tương ứng $g(xg')$) từ $G \times X \times G'$ vào X.
 
-### 4. TÍCH CHẬP CỦA PHÂN BỐ ĐIỂM VÀ HÀM SỐ
+### 4. PHÉP CHẬP CỦA PHÂN BỐ ĐIỂM VÀ HÀM
 
-Cho G là một nhóm Lie, X là một đa tạp lớp C^r và $(g, x) \mapsto gx$ là một luật của phép toán trái lớp C^r của G trên X. Với mọi $x \in X$, ký hiệu $\varrho(x)$ là ánh xạ quỹ đạo của x.
+Cho G là một nhóm Lie, X là một đa tạp lớp C^r và $(g, x) \mapsto gx$ là một luật tác động trái lớp C^r của G trên X. Với mọi $x \in X$, ký hiệu $\varrho(x)$ là ánh xạ quỹ đạo của x.
 
-#### Definition 3 {#lie-iii-s3-def-3 .statement}
+#### Định nghĩa 3 {#lie-iii-s3-def-3 .statement}
 
-Cho $t \in \mathcal{T}^{(s)}(G)$ với $s \leq r$. Cho $f : X \to F$ là một hàm lớp C^r nhận giá trị trong một không gian đa chuẩn Hausdorff (chẳng hạn $F = \mathbf{K}$). Tích chập của t và f, ký hiệu là $t * f$, là hàm trên X nhận giá trị trong F được xác định bởi
+Cho $t \in \mathcal{T}^{(s)}(G)$ với $s \leq r$. Cho $f : X \to F$ là một hàm lớp C^r nhận giá trị trong một không gian đa chuẩn Hausdorff (chẳng hạn $F = \mathbf{K}$). Phép chập của t và f, ký hiệu bởi $t * f$, là hàm trên X nhận giá trị trong F được định nghĩa bởi
 $$
 (t * f)(x) = \langle t^\vee * \varepsilon_x, f \rangle.
 $$
@@ -413,28 +414,28 @@ Khi đó
 $$
 \begin{align*}
 (t * f)(x) &= \langle \varrho(x)_*(t^\vee), f \rangle \quad \text{(no. 3, Mệnh đề 14 (ii))} \\
-&= \langle t^\vee, f \circ \varrho(x) \rangle \quad \text{(Diff. \& Anal. Man., R, 13.2.3)} \\
-&= \langle t, (f \circ \varrho(x))^\vee \rangle \quad \text{(Diff. \& Anal. Man., R, 13.2.3)}.
+&= \langle t^\vee, f \circ \varrho(x) \rangle \quad \text{(Đa tạp khả vi \& giải tích, R, 13.2.3)} \\
+&= \langle t, (f \circ \varrho(x))^\vee \rangle \quad \text{(Đa tạp khả vi \& giải tích, R, 13.2.3)}.
 \end{align*}
 $$
 Chú ý rằng Định nghĩa 3 cũng có thể được viết dưới dạng đối xứng hơn
 $$
 \langle \varepsilon_x, t * f \rangle = \langle t^\vee * \varepsilon_x, f \rangle.
 $$
-Hàm $(g, x) \mapsto f(gx) = (f \circ \varrho(x))(g)$ trên $G \times X$ thuộc lớp C^r. Theo Differentiable and Analytic Manifolds, R, 13.4.4, hàm $x \mapsto \langle t^\vee, f \circ \varrho(x) \rangle$ do đó thuộc lớp $C^{r-s}$ nếu $s < \infty$. Nói cách khác, nếu $s < \infty$, $t * f$ thuộc lớp $C^{r-s}$.
+Hàm $(g, x) \mapsto f(gx) = (f \circ \varrho(x))(g)$ trên $G \times X$ là lớp C^r. Theo Đa tạp khả vi và giải tích, R, 13.4.4, do đó hàm $x \mapsto \langle t^\vee, f \circ \varrho(x) \rangle$ là lớp $C^{r-s}$ nếu $s < \infty$. Nói cách khác, nếu $s < \infty$ thì $t * f$ là lớp $C^{r-s}$.
 
 Rõ ràng $t * f$ phụ thuộc tuyến tính vào $t$ và $f$.
 
-Công thức (4) suy ra, đặc biệt, với $g \in G$,
+Công thức (4) đặc biệt suy ra, với $g \in G$,
 $$
 (\varepsilon_g * f)(x) = f(g^{-1}x)
 $$
-tức là
+nghĩa là
 $$
 \varepsilon_g * f = \gamma(g)f.
 $$
 
-Giả sử $K = \mathbf{R}$ hoặc $\mathbf{C}$, G và X đều hữu hạn chiều và X có một độ đo dương bất biến dưới G. Định nghĩa của $\varepsilon_g * f$ trùng với định nghĩa trong Integration, Chương VIII, § 4, no. 1 (xem công thức (2), loc. cit.).
+Giả sử rằng $K = \mathbf{R}$ hoặc $\mathbf{C}$, rằng $G$ và $X$ là hữu hạn chiều và rằng $X$ có một độ đo dương bất biến dưới G. Định nghĩa của $\varepsilon_g * f$ phù hợp với định nghĩa ở Tích phân, Chương VIII, § 4, no. 1 (xem công thức (2), loc. cit.).
 
 #### Mệnh đề 17 {#lie-iii-s3-prop-17 .statement}
 
@@ -445,8 +446,8 @@ $$
 $$
 \begin{align*}
 \langle t', t * f \rangle &= \langle t', x \mapsto \langle t, g \mapsto f(g^{-1}x) \rangle \rangle \quad \text{theo (4)} \\
-&= \langle t \otimes t', (g, x) \mapsto f(g^{-1}x) \rangle \quad (\text{Diff. \& Anal. Man., R, 13.4.4}) \\
-&= \langle t^\vee \otimes t', (g, x) \mapsto f(gx) \rangle \quad (\text{Diff. \& Anal. Man., R, 13.2.3}) \\
+&= \langle t \otimes t', (g, x) \mapsto f(g^{-1}x) \rangle \quad (\text{Đa tạp khả vi \& giải tích, R, 13.4.4}) \\
+&= \langle t^\vee \otimes t', (g, x) \mapsto f(gx) \rangle \quad (\text{Đa tạp khả vi \& giải tích, R, 13.2.3}) \\
 &= \langle t^\vee * t', f \rangle.
 \end{align*}
 $$
@@ -467,11 +468,11 @@ $$
 \end{align*}
 $$
 
-Nếu $r \geq \infty$, ta thấy rằng tập hợp các hàm thuộc lớp $C^\infty$ trên $X$ với các giá trị trong $F$ là một môđun trái trên đại số $\mathcal{T}^{(\infty)}(G)$.
+Nếu $r \geq \infty$, ta thấy rằng tập hợp các hàm lớp $C^\infty$ trên $X$ nhận giá trị trong $F$ là một môđun trái trên đại số $\mathcal{T}^{(\infty)}(G)$.
 
 #### Mệnh đề 19 {#lie-iii-s3-prop-19 .statement}
 
-Cho $t \in \mathcal{T}^{(s)}(G)$, với $s \leq r$. Cho $f$ (tương ứng $f'$) là một hàm thuộc lớp $C^r$ trên $X$ với các giá trị trong một không gian đa chuẩn Hausdorff $F$ (tương ứng $F'$). Cho $(u, u') \mapsto uu'$ là một ánh xạ song tuyến tính liên tục của $F \times F'$ vào một không gian đa chuẩn Hausdorff $F''$, sao cho $ff'$ là một hàm thuộc lớp $C^r$ trên $X$ với các giá trị trong $F''$. Cho
+Cho $t \in \mathcal{T}^{(s)}(G)$, với $s \leq r$. Cho $f$ (tương ứng $f'$) là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff $F$ (tương ứng $F'$). Cho $(u, u') \mapsto uu'$$ là một ánh xạ song tuyến tính liên tục từ $F \times F'$ vào một không gian đa chuẩn Hausdorff $F''$, sao cho $ff'$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong $F''$. Cho
 $$
 \sum_{i=1}^n t_i \otimes t'_i \text{ là ảnh của } t \text{ trong } \mathcal{T}^{(s)}(G) \otimes \mathcal{T}^{(s)}(G) \text{ dưới đồng tích. Khi đó}
 $$
@@ -479,7 +480,7 @@ $$
 t * (ff') = \sum_{i=1}^n (t_i * f)(t'_i * f').
 $$
 
-Cho $x \in X$ và cho $\rho(x)$ ký hiệu ánh xạ quỹ đạo của $x$. Khi đó
+Cho $x \in X$ và gọi $\rho(x)$ là ánh xạ quỹ đạo của $x$. Khi đó
 $$
 \langle \varepsilon_x, t * (ff') \rangle = \langle t^\vee, (ff') \circ \rho(x) \rangle \quad \text{theo (4)} \\
 = \langle t^\vee, (f \circ \rho(x))(f' \circ \rho(x)) \rangle \\
@@ -489,18 +490,18 @@ $$
 
 #### Nhận xét 1 {#lie-iii-s3-n4-rem-1 .statement}
 
-Cho G là một nhóm Lie, X là một đa tạp thuộc lớp $C^r$ và $(x, g) \mapsto xg$ là một luật phép toán phải thuộc lớp $C^r$ của G trên X. Nếu $t \in \mathcal{T}^{(s)}(G)$ với $s \leq r$ và $f : X \to F$ là một hàm thuộc lớp $C^r$ trên X, ta ký hiệu bởi $f * t$ hàm trên X được xác định bởi
+Cho G là một nhóm Lie, X là một đa tạp lớp $C^r$ và $(x, g) \mapsto xg$ là một luật tác động phải lớp $C^r$ của G trên X. Nếu $t \in \mathcal{T}^{(s)}(G)$ với $s \leq r$ và $f : X \to F$ là một hàm lớp $C^r$ trên X, ta ký hiệu bởi $f \* t$ hàm trên X được xác định bởi
 $$
 \langle \varepsilon_x, f * t \rangle = \langle \varepsilon_x * t^\vee, f \rangle \\
 = \langle \rho(x) * (t^\vee), f \rangle \\
 = \langle t^\vee, f \circ \rho(x) \rangle \\
 = \langle t, (f \circ \rho(x))^\vee \rangle.
 $$
-Đặc biệt
+Đặc biệt,
 $$
 (f * \varepsilon_g)(x) = f(xg^{-1})
 $$
-nghĩa là
+tức là
 $$
 f * \varepsilon_g = \delta(g)^{-1} f.
 $$
@@ -517,7 +518,7 @@ $$
 
 #### Mệnh đề 20 {#lie-iii-s3-prop-20 .statement}
 
-*Cho G, G' là các nhóm Lie, X là một đa tạp thuộc lớp $C^r$ và $(g, x) \mapsto gx$ (tương ứng $(x, g') \mapsto xg'$) là một luật phép toán trái (tương ứng phải) thuộc lớp $C^r$ của G (tương ứng G') trên X. Giả sử rằng $(gx)g' = g(xg')$ với mọi $x \in X, g \in G, g' \in G'$. Cho $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(G')$ và $f : X \to F$ là một hàm thuộc lớp $C^r$ sao cho $s + s' \leq r$. Khi đó*
+*Cho G, G' là các nhóm Lie, X là một đa tạp lớp $C^r$ và $(g, x) \mapsto gx$ (tương ứng $(x, g') \mapsto xg'$) là một luật tác động trái (tương ứng phải) lớp $C^r$ của G (tương ứng G') trên X. Giả sử rằng $(gx)g' = g(xg')$ với mọi $x \in X, g \in G, g' \in G'$. Cho $t \in \mathcal{T}^{(s)}(G)$, $t' \in \mathcal{T}^{(s')}(G')$ và $f : X \to F$ là một hàm lớp $C^r$ sao cho $s + s' \leq r$. Khi đó*
 $$
 (t * f) * t' = t * (f * t').
 $$
@@ -529,7 +530,7 @@ $$
 = \langle \varepsilon_x, t * (f * t') \rangle \quad \text{theo (5).}
 $$
 
-Đặc biệt, xét G như tác động lên chính nó bởi các phép tịnh tiến trái và phải. Nếu $f : G \to F$ là một hàm thuộc lớp $C^r$ trên G và $t \in \mathcal{T}^{(s)}(G)$ (với $s \leq r$), $t * f$ và $f * t$ là, nếu $s < \infty$, các hàm thuộc lớp $C^{r-s}$ trên G. Hơn nữa, cho $t' \in \mathcal{T}^{(s')}(G)$, với $s + s' \leq r$. Khi đó
+Đặc biệt, xét G như tác động lên chính nó bởi các phép tịnh tiến trái và phải. Nếu $f : G \to F$ là một hàm thuộc lớp $C^r$ trên G và $t \in \mathcal{T}^{(s)}(G)$ (với $s \leq r$), $t \* f$ và $f \* t$ là, nếu $s < \infty$, các hàm thuộc lớp $C^{r-s}$ trên G. Hơn nữa, cho $t' \in \mathcal{T}^{(s')}(G)$, với $s + s' \leq r$. Khi đó
 $$
 (t * f) * t' = t * (f * t').
 $$
@@ -540,11 +541,11 @@ $$
 
 #### Nhận xét 2 {#lie-iii-s3-n4-rem-2 .statement}
 
-Cho $(g, x) \mapsto gx$ là một luật tác động trái của lớp $C^r$ của G trên X. Cho $t \in U_s(G)$ với $s \leq r$, $\Omega$ là một tập con mở của X và $f : \Omega \to F$ là một hàm thuộc lớp $C^r$. $t * f$ cũng có thể được xác định bởi công thức (4) hoặc (5); đó là một hàm xác định trên $\Omega$ với các giá trị trong F, thuộc lớp $C^{r-s}$ nếu $s < \infty$. Các kết quả của số này mở rộng theo một cách hiển nhiên cho tình huống này.
+Cho $(g, x) \mapsto gx$ là một luật tác động trái của lớp $C^r$ của G trên X. Cho $t \in U_s(G)$ với $s \leq r$, $\Omega$ là một tập con mở của X và $f : \Omega \to F$ là một hàm thuộc lớp $C^r$. $t \* f$ cũng có thể được xác định bởi công thức (4) hoặc (5); đó là một hàm xác định trên $\Omega$ với các giá trị trong F, thuộc lớp $C^{r-s}$ nếu $s < \infty$. Các kết quả của số này mở rộng theo một cách hiển nhiên cho tình huống này.
 
 ### 5. CÁC TRƯỜNG PHÂN BỐ ĐIỂM ĐƯỢC XÁC ĐỊNH BỞI TÁC ĐỘNG CỦA MỘT NHÓM TRÊN MỘT ĐA TẠP
 
-Cho $(g, x) \mapsto \lambda(g, x) = gx$ là một luật tác động trái cấp $C^r$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $t * \varepsilon_x \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto t * \varepsilon_x$ được gọi là trường các phân bố điểm xác định bởi t và tác động của G trên X và đôi khi được ký hiệu bởi $D_t^\lambda$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X và F là một không gian đa chuẩn Hausdorff. Nếu $f : \Omega \to F$ có lớp $C^r$ và $s \leq r$, hàm $t^\vee * f$ trên $\Omega$ cũng được ký hiệu là $D_t f$. Khi đó
+Cho $(g, x) \mapsto \lambda(g, x) = gx$ là một luật tác động trái cấp $C^r$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $t \* \varepsilon_x \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto t \* \varepsilon_x$ được gọi là trường các phân bố điểm xác định bởi t và tác động của G trên X và đôi khi được ký hiệu bởi $D_t^\lambda$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X và F là một không gian đa chuẩn Hausdorff. Nếu $f : \Omega \to F$ có lớp $C^r$ và $s \leq r$, hàm $t^\vee \* f$ trên $\Omega$ cũng được ký hiệu là $D_t f$. Khi đó
 $$
 (D_t f)(x) = \langle t * \varepsilon_x, f \rangle.
 $$
@@ -557,7 +558,7 @@ và do đó, sử dụng sự lạm dụng ký hiệu đã chỉ ra ở trên,
 $$
 D_{t*t'} = D_{t'} \circ D_t.
 $$
-Giả sử rằng G và X là hữu hạn chiều. Ánh xạ $(t, x) \mapsto t \otimes \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(G \times X)$ (xem Differentiable and Analytic Manifolds, R, 13.2.5) có lớp $C^{r-s}$. Do đó (Differentiable and Analytic Manifolds, R, 13.2.5) ánh xạ $(t, x) \mapsto t * \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(X)$ có lớp $C^{r-s}$. Đặc biệt, $D_t$ là một toán tử vi phân cấp $\leq s$ và lớp $C^{r-s}$ theo nghĩa của Differentiable and Analytic Manifolds, R, 14.1.6. Theo công thức (16), hàm $D_t f$ khi đó là ảnh của $f$ qua toán tử vi phân này (Differentiable and Analytic Manifolds, R, 14.1.4).
+Giả sử rằng G và X là hữu hạn chiều. Ánh xạ $(t, x) \mapsto t \otimes \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(G \times X)$ (xem Differentiable and Analytic Manifolds, R, 13.2.5) có lớp $C^{r-s}$. Do đó (Differentiable and Analytic Manifolds, R, 13.2.5) ánh xạ $(t, x) \mapsto t \* \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(X)$ có lớp $C^{r-s}$. Đặc biệt, $D_t$ là một toán tử vi phân cấp $\leq s$ và lớp $C^{r-s}$ theo nghĩa của Differentiable and Analytic Manifolds, R, 14.1.6. Theo công thức (16), hàm $D_t f$ khi đó là ảnh của $f$ qua toán tử vi phân này (Differentiable and Analytic Manifolds, R, 14.1.4).
 
 Bây giờ ta không còn giả thiết rằng G và X là hữu hạn chiều nữa. Cho $\psi$ là một tự đẳng cấu của đa tạp X và $\Delta$ là một trường các phân bố điểm trên X. Phù hợp với các định nghĩa tổng quát, biến đổi của $\Delta$ dưới $\psi$ là trường các phân bố điểm trên X có giá trị tại $\psi(x)$ là $\psi_*(\Delta(x))$; ta ký hiệu ánh xạ này bởi $\psi(\Delta)$. Nếu $g \in G$ và $\tau(g)$ ký hiệu tự đẳng cấu $x \mapsto gx$ của X, thì biến đổi của $\Delta$ dưới $\tau(g)$ cũng được gọi là biến đổi của $\Delta$ dưới g.
 
@@ -577,7 +578,7 @@ $$
 
 #### Mệnh đề 22 {#lie-iii-s3-prop-22 .statement}
 
-*Nếu $g \in G$, biến đổi của $D_t$ theo g là $D_{\varepsilon_g * t * \varepsilon_g^{-1}}$.*
+*Nếu $g \in G$, biến đổi của $D_t$ dưới g là $D_{\varepsilon_g \* t \* \varepsilon_g^{-1}}$.*
 
 Giá trị của biến đổi này tại $gx$ là
 
@@ -590,12 +591,12 @@ $$
 \end{align*}
 $$
 
-Cho $(x, g) \mapsto \mu(x, g) = xg$ là một luật phép toán phải thuộc lớp $C'$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $\varepsilon_x * t \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto \varepsilon_x * t$ được gọi là trường các phân phối xác định bởi t và tác động của G trên X và đôi khi được ký hiệu bởi $D_t^u$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X. Nếu $f : \Omega \to F$ thuộc lớp $C'$, hàm $f * t^\vee$ được ký hiệu bởi $D_t f$. Khi đó
+Cho $(x, g) \mapsto \mu(x, g) = xg$ là một luật phép toán phải lớp $C'$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $\varepsilon_x \* t \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto \varepsilon_x \* t$ được gọi là trường các phân phối được xác định bởi t và tác động của G trên X, và đôi khi được ký hiệu bởi $D_t^u$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X. Nếu $f : \Omega \to F$ là lớp $C'$, hàm $f \* t^\vee$ được ký hiệu bởi $D_t f$. Khi đó
 
 $$(19)$$
 $$(D_t f)(x) = \langle \varepsilon_x * t, f \rangle$$
 
-và, theo ký hiệu hiển nhiên,
+và, với ký hiệu hiển nhiên,
 
 $$(20)$$
 $$D_{t * t'} f = D_t(D_{t'} f)$$
@@ -603,20 +604,20 @@ $$D_{t * t'} f = D_t(D_{t'} f)$$
 $$(21)$$
 $$D_{t * t'} = D_t \circ D_{t'}.$$
 
-Mệnh đề 21 vẫn đúng. Cho $g \in G$. Biến đổi của $D_t$ theo g (nghĩa là theo tự đẳng cấu $x \mapsto xg$ của X) là $D_{\varepsilon_g^{-1} * t * \varepsilon_g}$.
+Mệnh đề 21 vẫn còn đúng. Cho $g \in G$. Biến đổi của $D_t$ dưới g (nghĩa là dưới tự đẳng cấu $x \mapsto xg$ của X) là $D_{\varepsilon_g^{-1} \* t \* \varepsilon_g}$.
 
-### 6. CÁC TRƯỜNG BẤT BIẾN CỦA CÁC PHÂN PHỐI ĐIỂM TRÊN MỘT NHÓM LIE
+### 6. TRƯỜNG BẤT BIẾN CỦA CÁC PHÂN PHỐI ĐIỂM TRÊN MỘT NHÓM LIE
 
 #### Định nghĩa 4 {#lie-iii-s3-def-4 .statement}
 
-*Một nhóm Lie G. Một trường các phân phối trên G được gọi là bất biến trái (tương ứng phải) nếu nó bất biến qua các phép tịnh tiến trái (tương ứng phải) của G.*
+*Cho G là một nhóm Lie. Một trường phân phối trên G được gọi là bất biến trái (resp. phải) nếu nó bất biến đối với các phép tịnh tiến trái (resp. phải) của G.*
 
-Nói cách khác, một trường các phân phối $g \mapsto \Delta_g$ trên $G$ là bất biến trái nếu
+Nói cách khác, một trường phân phối $g \mapsto \Delta_g$ trên $G$ là bất biến trái nếu
 $$
 \Delta_{gg'} = \gamma(g) * \beta_{g'}
 $$
 với $g, g'$ trong $G$,
-hoặc cũng vậy nếu
+hay cũng vậy nếu
 $$
 \Delta_{gg'} = \varepsilon_g * \Delta_{g'}
 $$
@@ -626,7 +627,7 @@ $$
 \Delta_{gg'} = \delta({g'}^{-1}) * \Delta_g
 $$
 với $g, g'$ trong $G$,
-hoặc cũng vậy nếu:
+hay cũng vậy nếu:
 $$
 \Delta_{gg'} = \Delta_g * \varepsilon_g,
 $$
@@ -634,9 +635,9 @@ với $g, g'$ trong $G$.
 
 #### Định nghĩa 5 {#lie-iii-s3-def-5 .statement}
 
-*Cho $G$ là một nhóm Lie và $t \in U(G)$. Gọi $L_t$ là trường các phân phối $g \mapsto \varepsilon_g * t$ trên $G$ và $R_t$ là trường các phân phối $g \mapsto t * \varepsilon_g$ trên $G$.*
+*Cho $G$ là một nhóm Lie và $t \in U(G)$. Cho $L_t$ ký hiệu trường phân phối $g \mapsto \varepsilon_g \* t$ trên $G$ và $R_t$ trường phân phối $g \mapsto t \* \varepsilon_g$ trên $G$.*
 
-Nói cách khác, $L_t$ (tương ứng $R_t$) là trường các phân phối được xác định bởi $t$ và $G$ tác động lên $G$ ở bên phải (tương ứng bên trái) nhờ ánh xạ $(g, g') \mapsto gg'$. Cho $\Omega$ là một tập con mở của $G$ và $F$ là một không gian đa chuẩn Hausdorff; nếu $f \in C^\omega(\Omega, F)$, thì $L_t f = f * t^\vee \in C^\omega(\Omega, F)$ và
+Nói cách khác, $L_t$ (tương ứng $R_t$) là trường các phân phối được xác định bởi $t$ và $G$ tác động lên $G$ ở bên phải (tương ứng bên trái) nhờ ánh xạ $(g, g') \mapsto gg'$. Cho $\Omega$ là một tập con mở của $G$ và $F$ là một không gian đa chuẩn Hausdorff; nếu $f \in C^\omega(\Omega, F)$, thì $L_t f = f \* t^\vee \in C^\omega(\Omega, F)$ và
 $$
 R_t f = t^\vee * f \in C^\omega(\Omega, F)
 $$
@@ -647,9 +648,9 @@ $$
 (i) *Ánh xạ $t \mapsto L_t$ (tương ứng $t \mapsto R_t$) là một đẳng cấu của không gian vectơ $U(G)$ lên trường vectơ các phân phối bất biến trái (tương ứng phải) trên $G$.*
 (ii) *Đối với $t, t'$ trong $U(G)$, $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$, $L_t \circ R_{t'} = R_{t'} \circ L_t$ (với sự lạm dụng ký hiệu ở no. 5).*
 (iii) *Nếu $\theta$ là ánh xạ $g \mapsto g^{-1}$ của $G$ lên $G$, thì $\theta(L_t) = R_{t^\vee}$.*
-(iv) *Nếu $t \in U(G)$ và $g \in G$, thì $(L_t)_g = (R_{\varepsilon_g * t * \varepsilon_g^{-1}})_g$.*
+(iv) *Nếu $t \in U(G)$ và $g \in G$, thì $(L_t)_g = (R_{\varepsilon_g \* t \* \varepsilon_g^{-1}})_g$.*
 
-Trong $G$ mọi phép tịnh tiến phải giao hoán với mọi phép tịnh tiến trái. Theo Mệnh đề 21 của no. 5, $L_t$ do đó là bất biến trái. Vì $(L_t)_e = t$, ánh xạ $t \mapsto L_t$ là đơn ánh. Cho $\Delta$ là một trường các phân bố bất biến trái trên $G$; đặt $t = \Delta_e$; khi đó $\Delta$ và $L_t$ có cùng giá trị tại $e$ và đều bất biến trái, do đó $\Delta = L_t$. Điều này chứng minh (i) đối với $L_t$ và lập luận tương tự đối với $R_t$. Các công thức $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$ suy ra từ (21) và (18). Cho $t \in U_s(G)$, $t' \in U_{s'}(G)$, $f \in C^r(\Omega, F)$, trong đó $\Omega$ là mở trong $G$ và $s + s' \leq r$; khi đó
+Trong $G$ mọi phép tịnh tiến phải đều giao hoán với mọi phép tịnh tiến trái. Bởi Mệnh đề 21 của no. 5, do đó $L_t$ là trái bất biến. Vì $(L_t)_e = t$, ánh xạ $t \mapsto L_t$ là đơn ánh. Cho $\Delta$ là một trường các phân bố trái bất biến trên $G$; đặt $t = \Delta_e$; khi đó $\Delta$ và $L_t$ có cùng giá trị tại $e$ và đều trái bất biến, suy ra $\Delta = L_t$. Điều này chứng minh (i) đối với $L_t$ và lập luận là tương tự đối với $R_t$. Các công thức $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$ suy ra từ (21) và (18). Cho $t \in U_s(G)$, $t' \in U_{s'}(G)$, $f \in C^r(\Omega, F)$, trong đó $\Omega$ là mở trong $G$ và $s + s' \leq r$; khi đó
 $$
 \begin{align*}
 L_t R_{t'} f &= L_t ({t'}^\vee * f) = ({t'}^\vee * f) * t \\
@@ -657,14 +658,14 @@ L_t R_{t'} f &= L_t ({t'}^\vee * f) = ({t'}^\vee * f) * t \\
 &= R_{t'} L_t f
 \end{align*}
 $$
-và do đó $L_t \circ R_{t'} = R_{t'} \circ L_t$. Vì $\theta$ là một đẳng cấu của $G$ lên $G^\vee$, $\theta(L_t)$ là một trường các phân bố bất biến phải trên $G$; giá trị của nó tại $e$ là $\theta(t) = t^\vee$; do đó $\theta(L_t) = R_{t^\vee}$. Cuối cùng,
+và do đó $L_t \circ R_{t'} = R_{t'} \circ L_t$. Vì $\theta$ là một đẳng cấu từ $G$ lên $G^\vee$, $\theta(L_t)$ là một trường các phân bố phải bất biến trên $G$; giá trị của nó tại $e$ là $\theta(t) = t^\vee$; do đó $\theta(L_t) = R_{t^\vee}$. Cuối cùng,
 $$
 (L_t)_g = \varepsilon_g * t = (\varepsilon_g * t * \varepsilon_g^{-1}) * \varepsilon_g = (R_{\varepsilon_g * t * \varepsilon_g^{-1}})_g.
 $$
 
 #### Nhận xét 1 {#lie-iii-s3-n6-rem-1 .statement}
 
-Chính tác động của G lên chính nó bởi phép tịnh tiến phải xác định các trường các phân bố bất biến trái.
+Chính tác động của G lên chính nó bởi phép tịnh tiến phải xác định các trường phân bố trái bất biến.
 
 #### Nhận xét 2 {#lie-iii-s3-n6-rem-2 .statement}
 
@@ -672,15 +673,15 @@ Giả sử rằng G là hữu hạn chiều. Ánh xạ
 
 $$(t, g) \mapsto (\mathbf{R}_t)_g = t * \varepsilon_g$$
 
-từ $U_s(G) \times G$ vào $T^{(s)}(G)$ là một đẳng cấu của các bó vectơ giải tích; vì ánh xạ này là song ánh, tuyến tính trên mỗi thớ và giải tích (no. 5); mặt khác, cho $\phi : T^{(s)}(G) \to U_s(G) \times G$ là song ánh ngược; nếu $t \in T^{(s)}_g(G)$, thì $\phi(t) = (t * \varepsilon_{g^{-1}}, g)$ và do đó $\phi$ là giải tích. Đẳng cấu $\phi$ được gọi là phép tầm thường hóa phải của $T^{(s)}(G)$. Tương tự, xét ánh xạ $(t, g) \mapsto (\mathbf{L}_t)_g = \varepsilon_g * t$ từ $U_g(G) \times G$ vào $T^{(s)}(G)$; đẳng cấu nghịch đảo được gọi là phép tầm thường hóa trái của $T^{(s)}(G)$. Bằng hạn chế ta thu được các phép tầm thường hóa phải và trái của $T(G)$ (§ 2, no. 2).
+từ $U_s(G) \times G$ vào $T^{(s)}(G)$ là một đẳng cấu của các bó vectơ giải tích; vì ánh xạ này là song ánh, tuyến tính trên mỗi thớ và giải tích (no. 5); mặt khác, cho $\phi : T^{(s)}(G) \to U_s(G) \times G$ là song ánh ngược; nếu $t \in T^{(s)}_g(G)$, thì $\phi(t) = (t \* \varepsilon_{g^{-1}}, g)$ và do đó $\phi$ là giải tích. Đẳng cấu $\phi$ được gọi là sự tầm thường hóa phải của $T^{(s)}(G)$. Tương tự, xét ánh xạ $(t, g) \mapsto (\mathbf{L}_t)_g = \varepsilon_g \* t$ từ $U_g(G) \times G$ vào $T^{(s)}(G)$; đẳng cấu nghịch đảo được gọi là sự tầm thường hóa trái của $T^{(s)}(G)$. Bằng cách hạn chế ta thu được lại các sự tầm thường hóa phải và trái của $T(G)$ (§ 2, no. 2).
 
 ### 7. ĐẠI SỐ LIE CỦA MỘT NHÓM LIE
 
-Cho G là một nhóm Lie. Trong $U(G)$, cũng như trong mọi đại số kết hợp, ta viết $[t, t'] = t * t' - t' * t$. Vì $T_e(G)$ là tập hợp các phần tử nguyên thủy của $U(G)$, $[T_e(G), T_e(G)] \subset T_e(G)$ (Chương II, § 1, no. 2, Mệnh đề 4). Hạn chế của móc Lie trên $T_e(G)$ do đó xác định trên $T_e(G)$ một cấu trúc đại số Lie.
+Cho G là một nhóm Lie. Trong $U(G)$, như trong mọi đại số kết hợp, ta viết $[t, t'] = t \* t' - t' \* t$. Vì $T_e(G)$ là tập hợp các phần tử nguyên thủy của $U(G)$, $[T_e(G), T_e(G)] \subset T_e(G)$ (Chương II, § 1, no. 2, Mệnh đề 4). Do đó hạn chế của dấu ngoặc lên $T_e(G)$ xác định trên $T_e(G)$ một cấu trúc đại số Lie.
 
 #### Bổ đề 1 {#lie-iii-s3-lem-1 .statement}
 
-Cho X và $X'$ là các không gian khả chuẩn đầy đủ, $X_0$ là một lân cận mở của 0 trong X và f là một ánh xạ giải tích của $X_0$ vào $X'$ sao cho $f(0) = 0$. Cho $f = f_1 + f_2 + f_3 + \cdots$ là khai triển của f dưới dạng một chuỗi nguyên quanh 0, trong đó $f_i$ là một đa thức liên tục thuần nhất bậc i trên X nhận giá trị trong $X'$. Cho t là một phần tử của TS$^2(X)$, được xét như một phân bố điểm trên X có giá đỡ được chứa trong \{0\}. Cho $t' = f_*(t) \in TS(X')$. Thành phần thuần nhất bậc 1 của $t'$ là $\langle f_2, t \rangle$.
+Cho X và $X'$ là các không gian khả chuẩn đầy đủ, $X_0$ là một lân cận mở của 0 trong X và f là một ánh xạ giải tích từ $X_0$ vào $X'$ sao cho $f(0) = 0$. Cho $f = f_1 + f_2 + f_3 + \cdots$ là khai triển của f thành một chuỗi nguyên quanh 0, trong đó $f_i$ là một đa thức liên tục thuần nhất bậc i trên X với giá trị trong $X'$. Cho t là một phần tử của TS$^2(X)$, được xét như một phân phối điểm trên X có giá được chứa trong \{0\}. Cho $t' = f_*(t) \in TS(X')$. Thành phần thuần nhất bậc 1 của $t'$ là $\langle f_2, t \rangle$.
 
 Cho $t'_1$ là thành phần này. Khi đó, với mọi ánh xạ tuyến tính liên tục u từ $X'$ vào một không gian đa chuẩn,
 
@@ -697,35 +698,35 @@ $$
 = u(\langle t, f_2 \rangle) \quad (\text{Diff. \& Anal. Man., R, 13.2.2}),
 $$
 
-suy ra bổ đề.
+do đó suy ra bổ đề.
 
 #### Mệnh đề 24 {#lie-iii-s3-prop-24 .statement}
 
-Cho G là một nhóm Lie và $(U, \phi, E)$ là một biểu đồ trên G sao cho $\phi(e) = 0$. Cho V là một lân cận mở của e sao cho $V^2 \subset U$. Cho m là ánh xạ giải tích $(a, b) \mapsto \phi(\phi^{-1}(a)\phi^{-1}(b))$ từ $\phi(V) \times \phi(V)$ vào E. Cho
+Cho G là một nhóm Lie và $(U, \phi, E)$ là một bản đồ địa phương trên G sao cho $\phi(e) = 0$. Cho V là một lân cận mở của e sao cho $V^2 \subset U$. Cho m là ánh xạ giải tích $(a, b) \mapsto \phi(\phi^{-1}(a)\phi^{-1}(b))$ từ $\phi(V) \times \phi(V)$ vào E. Cho
 
 $$
 m = \sum_{i, j \geq 0} m_{i, j}
 $$
 
-là khai triển của m dưới dạng một chuỗi nguyên quanh (0, 0), trong đó $m_{i,j}$ là một đa thức liên tục song thuần nhất bậc $(i, j)$ trên $E \times E$ với giá trị trong E.
+là khai triển của m thành một chuỗi nguyên quanh (0, 0), trong đó $m_{i,j}$ là một đa thức liên tục song thuần nhất hai bậc $(i, j)$ trên $E \times E$ với giá trị trong $E$.
 
-(i) $m_{i,0} = m_{0,j} = 0$ đối với mọi $i \neq 1$ và $j \neq 1$.
+(i) $m_{i,0} = m_{0,j} = 0$ với mọi $i \neq 1$ và $j \neq 1$.
 (ii) $m_{1,0}(a, b) = a$ và $m_{0,1}(a, b) = b$ với mọi $a \in E, b \in E$.
-(iii) *Cho $\psi : T_e(G) \to E$ là vi phân của $\phi$ tại e. Với mọi $u, v$ trong $T_e(G)$,*
+(iii) *Cho $\psi : T_e(G) \to E$ là vi phân của $\phi$ tại e. Với mọi $u, v$ trong $T_e(G)$,
 
 $$
 \psi([u, v]) = m_{1,1}(\psi(u), \psi(v)) - m_{1,1}(\psi(v), \psi(u)).
 $$
 
-$m(a, 0) = a,\ m(0, b) = b$ với mọi $a, b$ trong $\phi(V)$, điều đó chứng minh (i) và (ii).
-Cho $u, v$ trong $T_e(G)$. Đồng nhất $T_0(E)$ với $E$ và do đó $\psi$ với $T_e(\phi)$:
-Ảnh của $u$ và $v$ qua $T_e(\phi)$ là $\psi(u)$ và $\psi(v)$. Phân bố điểm tích tenxơ của các ảnh này là tích đối xứng của $(\psi(u), 0)$ và $(0, \psi(v))$ trong $TS(E \times E) = TS(E) \times TS(E)$, nghĩa là
+Ta có $m(a, 0) = a,\ m(0, b) = b$ với mọi $a, b$ trong $\phi(V)$, điều này chứng minh (i) và (ii).
+Cho $u, v$ thuộc $T_e(G)$. Đồng nhất $T_0(E)$ với $E$ và do đó đồng nhất $\psi$ với $T_e(\phi)$:
+Ảnh của $u$ và $v$ qua $T_e(\phi)$ là $\psi(u)$ và $\psi(v)$. Phân phối điểm tích tenxơ của các ảnh này là tích đối xứng của $(\psi(u), 0)$ và $(0, \psi(v))$ trong $TS(E \times E) = TS(E) \times TS(E)$, tức là
 
 $$
 (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u), 0).
 $$
 
-Do đó $\phi * (u * v)$ là ảnh của phần tử trên qua ánh xạ $m$ từ $\phi(V) \times \phi(V)$ vào $E$. Thành phần bậc 1 của nó trong $TS(E)$ là, theo Bổ đề 1,
+Do đó $\phi \* (u \* v)$ là ảnh của phần tử trên qua ánh xạ $m$ từ $\phi(V) \times \phi(V)$ vào $E$. Thành phần bậc 1 của nó trong $TS(E)$ là, theo Bổ đề 1,
 
 $$
 x = \langle m_{1,1}, (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u), 0) \rangle.
@@ -744,7 +745,7 @@ x = \langle n, (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u)
 = m_{1,1}(\psi(u), \psi(v)) + m_{1,1}(0, 0) = m_{1,1}(\psi(u), \psi(v)).
 $$
 
-Tương tự, $\phi * (v * u)$ nhận $m_{1,1}(\phi(v), \phi(u))$ làm thành phần bậc 1 trong $TS(E)$. Vì $\phi([u, v])$ có bậc 1, điều này chứng minh (iii).
+Tương tự, $\phi \* (v \* u)$ nhận $m_{1,1}(\phi(v), \phi(u))$ làm thành phần bậc 1 trong $TS(E)$. Vì $\phi([u, v])$ có bậc 1, điều này chứng minh (iii).
 
 #### Hệ quả {#lie-iii-s3-n7-cor-1 .statement}
 
@@ -766,7 +767,7 @@ Khi K có đặc số 0, từ nay ta sẽ đồng nhất $U(G)$ với đại s�
 
 *Giả sử K có đặc số $p > 0$. Với mọi $a \in L(G)$, $a^p \in L(G)$ và $\operatorname{ad}(a^p) = (\operatorname{ad} a)^p$ (lũy thừa $a^p$ được tính trong $U(G)$).*
 
-Nếu $a \in L(G)$, $a$ là nguyên thủy trong $U(G)$, do đó $a^p$ là nguyên thủy trong $U(G)$ (Chương II, § 1, no. 2, *Nhận xét 1*) và do đó $a^p \in L(G)$. Gọi $\sigma_a$ (tương ứng $\tau_a$) là ánh xạ tuyến tính $x \mapsto a * x$ (tương ứng $x \mapsto x * a$) của $U(G)$ vào $U(G)$. Với mọi $x \in U(G)$, $(\operatorname{ad} a)(x) = (\sigma_a - \tau_a)(x)$ và do đó $(\operatorname{ad} a)^p = (\sigma_a - \tau_a)^p$. Nhưng $\sigma_a$ và $\tau_a$ giao hoán và do đó $(\sigma_a - \tau_a)^p = (\sigma_a)^p - (\tau_a)^p = \tau_a^p - \sigma_a^p$, do đó là mệnh đề thứ hai.
+Nếu $a \in L(G)$, $a$ là nguyên thủy trong $U(G)$, do đó $a^p$ là nguyên thủy trong $U(G)$ (Chương II, § 1, no. 2, *Nhận xét 1*) và do đó $a^p \in L(G)$. Gọi $\sigma_a$ (tương ứng $\tau_a$) là ánh xạ tuyến tính $x \mapsto a \* x$ (tương ứng $x \mapsto x \* a$) của $U(G)$ vào $U(G)$. Với mọi $x \in U(G)$, $(\operatorname{ad} a)(x) = (\sigma_a - \tau_a)(x)$ và do đó $(\operatorname{ad} a)^p = (\sigma_a - \tau_a)^p$. Nhưng $\sigma_a$ và $\tau_a$ giao hoán và do đó $(\sigma_a - \tau_a)^p = (\sigma_a)^p - (\tau_a)^p = \tau_a^p - \sigma_a^p$, do đó là mệnh đề thứ hai.
 
 #### Định nghĩa 7 {#lie-iii-s3-def-7 .statement}
 
@@ -823,67 +824,67 @@ Cho $G$ và $H$ là các nhóm Lie và $\phi$ là một cấu xạ từ $G$ vào
 
 Nếu $G$ là một nhóm con giả Lie của $H$, thì $L(G)$ cũng được đồng nhất với một nhóm con Lie đóng của $L(H)$.
 
-Để $\phi$ là một phép xạ xuống, điều kiện cần và đủ là $L(\phi)$ toàn ánh và hạt nhân của nó có một phần bù tôpô. Trong trường hợp đó, hạt nhân $N$ của $\phi$ là một nhóm con Lie của $G$ và $L(N) = \operatorname{Ker} L(\phi)$. Đặc biệt, nếu $H$ là nhóm Lie thương của $G$ theo một nhóm con Lie chuẩn tắc $P$, thì $L(P)$ là một iđêan của $L(G)$ và, nếu $\phi$ là toàn cấu chính tắc của $G$ lên $H$, thì $L(G/P)$ được đồng nhất với $L(G)/L(P)$ nhờ cấu xạ suy ra từ $L(\phi)$ khi chuyển qua thương.
+Để $\phi$ là một phép chìm, điều kiện cần và đủ là $L(\phi)$ toàn ánh và hạt nhân của nó thừa nhận một phần bù tôpô. Khi đó, hạt nhân $N$ của $\phi$ là một nhóm Lie con của $G$ và $L(N) = \operatorname{Ker} L(\phi)$. Đặc biệt, nếu $H$ là nhóm Lie thương của $G$ theo một nhóm Lie con chuẩn tắc $P$, thì $L(P)$ là một iđêan của $L(G)$ và, nếu $\phi$ là toàn cấu chính tắc của $G$ lên $H$, thì $L(G/P)$ được đồng nhất với $L(G)/L(P)$ nhờ cấu xạ dẫn xuất từ $L(\phi)$ khi chuyển qua thương.
 
-Cho $I$ là một tập hữu hạn, $(G_i)_{i \in I}$ là một họ các nhóm Lie, $G$ là tích của chúng và $p_i$ là cấu xạ chính tắc của $G$ lên $G_i$. Khi đó $(L(p_i))_{i \in I}$ là một cấu xạ của đại số Lie $L(G)$ vào đại số Lie $\prod_{i \in I} L(G_i)$ và là một đẳng cấu của các không gian chuẩn hóa. Vì thế $L(G)$ được đồng nhất với $\prod_{i \in I} L(G_i)$ nhờ $(L(p_i))_{i \in I}$.
+Cho $I$ là một tập hợp hữu hạn, $(G_i)_{i \in I}$ một họ các nhóm Lie, $G$ tích của chúng và $p_i$ là cấu xạ chính tắc của $G$ lên $G_i$. Khi đó $(L(p_i))_{i \in I}$ là một cấu xạ từ đại số Lie $L(G)$ vào đại số Lie $\prod_{i \in I} L(G_i)$ và là một đẳng cấu của các không gian khả chuẩn. Do đó $L(G)$ được đồng nhất với $\prod_{i \in I} L(G_i)$ nhờ $(L(p_i))_{i \in I}$.
 
 #### Mệnh đề 28 {#lie-iii-s3-prop-28 .statement}
 
-Cho $G$ và $H$ là các nhóm Lie và $\phi$ là một cấu xạ của $G$ vào $H$. Giả sử $K$ có đặc số $0$ và $H$ là hữu hạn chiều.
+Cho G và H là các nhóm Lie và φ là một cấu xạ từ G vào H. Giả sử rằng K có đặc số 0 và H là hữu hạn chiều.
 
-(i) Hạt nhân $N$ của $\phi$ là một nhóm con Lie của $G$ và $L(N) = Ker L(\phi)$.
+(i) Hạt nhân N của φ là một nhóm Lie con của G và L(N) = Ker L(φ).
 
-(ii) Cấu xạ $\psi$ của $G/N$ vào $H$ suy ra từ $\phi$ khi chuyển qua thương là một phép nhúng.
+(ii) Cấu xạ ψ từ G/N vào H dẫn xuất từ φ khi chuyển qua thương là một phép nhúng.
 
-(iii) Nếu $\phi(G)$ đóng trong $H$ và tôpô của $G$ có một cơ sở đếm được, thì $\phi(G)$ là một nhóm con Lie của $H$, $\psi$ là một đẳng cấu của nhóm Lie $G/N$ lên nhóm Lie $\phi(G)$ và $L(\phi(G)) = Im L(\phi)$.
+(iii) Nếu φ(G) đóng trong H và tôpô của G có một cơ sở đếm được, thì φ(G) là một nhóm Lie con của H, ψ là một đẳng cấu của nhóm Lie G/N lên nhóm Lie φ(G) và L(φ(G)) = Im L(φ).
 
-Cho $G$ tác động lên $H$ bên trái bởi ánh xạ $(g, h) \mapsto \phi(g)h$. Chỉ cần áp dụng Mệnh đề 14 của § 1, no. 7, cho quỹ đạo của $e$.
+Cho G tác động lên H bên trái bởi ánh xạ $(g, h) \mapsto \phi(g)h$. Chỉ cần áp dụng Mệnh đề 14 của § 1, no. 7, cho quỹ đạo của e.
 
 #### Mệnh đề 29 {#lie-iii-s3-prop-29 .statement}
 
-Cho $G$ và $H$ là các nhóm Lie và $\phi$ là một cấu xạ của $G$ vào $H$. Giả sử $K$ có đặc số $0$ và $H$ là hữu hạn chiều. Nếu $H'$ là một nhóm con Lie của $H$, thì $G' = \phi^{-1}(H')$ là một nhóm con Lie của $G$ và $L(G') = L(\phi)^{-1}(L(H'))$.
+Cho G và H là các nhóm Lie và φ là một cấu xạ từ G vào H. Giả sử rằng K có đặc số 0 và H là hữu hạn chiều. Nếu H' là một nhóm Lie con của H, thì G' = φ⁻¹(H') là một nhóm Lie con của G và L(G') = L(φ)⁻¹(L(H')).
 
-Cho $\pi$ là ánh xạ chính tắc của $H$ vào không gian thuần nhất $X = H/H'$. Cho $G$ tác động lên $X$ bên trái bởi ánh xạ $(g, x) \mapsto \phi(g)x$. Nhóm ổn định của $\pi(e)$ là $G'$, do đó là một nhóm con Lie của $G$ (§ 1, no. 7, Mệnh đề 14). Ánh xạ quỹ đạo của $\pi(e)$ là $\pi \circ \phi$. Theo Mệnh đề 14 của § 1, $L(G')$ là hạt nhân của $L(\pi \circ \phi) = T_e(\pi) \circ L(\phi)$. Hạt nhân của $T_e(\pi)$ là $L(H')$ (§ 1, no. 6, Mệnh đề 11 (i)) và do đó $Ker L(\pi \circ \phi) = L(\phi)^{-1}(L(H'))$.
+Cho π là ánh xạ chính tắc từ H vào không gian thuần nhất X = H/H'. Cho G tác động lên X bên trái bởi ánh xạ $(g, x) \mapsto \phi(g)x$. Nhóm ổn định của π(e) là G', do đó G' là một nhóm Lie con của G (§ 1, no. 7, Mệnh đề 14). Ánh xạ quỹ đạo của π(e) là π ∘ φ. Theo Mệnh đề 14 của § 1, L(G') là hạt nhân của L(π ∘ φ) = T_e(π) ∘ L(φ). Hạt nhân của T_e(π) là L(H') (§ 1, no. 6, Mệnh đề 11 (i)) và vì thế Ker L(π ∘ φ) = L(φ)⁻¹(L(H')).
 
 #### Hệ quả 1 {#lie-iii-s3-prop-29-cor-1 .statement}
 
-Cho $G$, $H$ là các nhóm Lie và $\phi_1$ và $\phi_2$ là các cấu xạ của $G$ vào $H$. Giả sử $K$ có đặc số $0$ và $H$ là hữu hạn chiều. Tập hợp các $g \in G$ sao cho $\phi_1(g) = \phi_2(g)$ là một nhóm con Lie $G'$ của $G$ và $L(G')$ là tập hợp các $x \in L(G)$ sao cho $L(\phi_1)x = L(\phi_2)x$.
+Cho G, H là các nhóm Lie và φ₁ và φ₂ là các cấu xạ từ G vào H. Giả sử rằng K có đặc số 0 và H là hữu hạn chiều. Tập hợp các $g \in G$ sao cho φ₁(g) = φ₂(g) là một nhóm Lie con G' của G và L(G') là tập hợp các $x \in L(G)$ sao cho L(φ₁)x = L(φ₂)x.
 
-Ta viết $\phi(g) = (\phi_1(g), \phi_2(g))$ với mọi $g \in G$, sao cho $\phi$ là một cấu xạ của $G$ vào $H \times H$. Cho $\Delta$ là nhóm con đường chéo của $H \times H$. Khi đó $G' = \phi^{-1}(\Delta)$ và $L(\phi)x = (L(\phi_1)x, L(\phi_2)x)$ với mọi $x \in L(G)$. Lúc này chỉ cần áp dụng Mệnh đề 29.
+Ta viết φ(g) = (φ₁(g), φ₂(g)) với mọi $g \in G$, để φ là một cấu xạ từ G vào H × H. Cho Δ là nhóm con đường chéo của H × H. Khi đó G' = φ⁻¹(Δ) và L(φ)x = (L(φ₁)x, L(φ₂)x) với mọi $x \in L(G)$. Bây giờ chỉ cần áp dụng Mệnh đề 29.
 
 #### Hệ quả 2 {#lie-iii-s3-prop-29-cor-2 .statement}
 
-Cho $G$ là một nhóm Lie hữu hạn chiều và $G_1$ và $G_2$ là hai nhóm con Lie của $G$. Giả sử $K$ có đặc số $0$. Khi đó $G_1 \cap G_2$ là một nhóm con Lie của $G$ với đại số Lie $L(G_1) \cap L(G_2)$.
+Cho G là một nhóm Lie hữu hạn chiều và G₁ và G₂ là hai nhóm Lie con của G. Giả sử rằng K có đặc số 0. Khi đó G₁ ∩ G₂ là một nhóm Lie con của G với đại số Lie là L(G₁) ∩ L(G₂).
 
-Ta áp dụng Mệnh đề 29 cho đơn ánh chính tắc của $G_1$ vào $G$ và nhóm con $G_2$.
+Ta áp dụng Mệnh đề 29 cho đơn ánh chính tắc của G₁ vào G và nhóm con G₂.
 
 #### Hệ quả 3 {#lie-iii-s3-prop-29-cor-3 .statement}
 
-Cho $G$, $G'$, $H$ là các nhóm Lie và $\phi : G \to H$ và $\phi' : G' \to H$ là các cấu xạ nhóm Lie. Giả sử $K$ có đặc số $0$ và $H$ là hữu hạn chiều. Cho $F$ là tập hợp các $(g, g') \in G \times G'$ sao cho $\phi(g) = \phi'(g')$. Khi đó $F$ là một nhóm con Lie của $G \times G'$ và $L(F)$ là tập hợp các $(x, x') \in L(G) \times L(G')$ sao cho $L(\phi)x = L(\phi')x'$.
+Cho G, G', H là các nhóm Lie và φ : G → H và φ' : G' → H là các cấu xạ nhóm Lie. Giả sử rằng K có đặc số 0 và H là hữu hạn chiều. Cho F là tập hợp các $(g, g') \in G \times G'$ sao cho φ(g) = φ'(g'). Khi đó F là một nhóm Lie con của G × G' và L(F) là tập hợp các $(x, x') \in L(G) \times L(G')$ sao cho L(φ)x = L(φ')x'.
 
-Ta áp dụng Hệ quả 1 cho các cấu xạ $(g, g') \mapsto \phi(g)$ và $(g, g') \mapsto \phi'(g')$ của $G \times G'$ vào $H$.
+Ta áp dụng Hệ quả 1 cho các cấu xạ $(g, g') \mapsto φ(g)$ và $(g, g') \mapsto φ'(g')$ từ G × G' vào H.
 
 #### Mệnh đề 30 {#lie-iii-s3-prop-30 .statement}
 
-Cho $G$ là một nhóm Lie hữu hạn chiều với một cơ sở đếm được và
+Cho G là một nhóm Lie hữu hạn chiều có một cơ sở đếm được và
 
-$H$ và $H'$ là các nhóm con Lie của $G$. Giả sử $K$ có đặc số $0$ và $HH'$ là đóng địa phương trong $G$.
+H và H' là các nhóm Lie con của G. Giả sử rằng K có đặc số 0 và HH' là địa phương đóng trong G.
 
-(i) $HH'$ là một đa tạp con của $G$ và $T_e(HH') = L(H) + L(H')$.
+(i) HH' là một đa tạp con của G và $T_e(HH') = L(H) + L(H')$.
 
-(ii) Giả sử mọi phần tử của $H$ giao hoán với mọi phần tử của $H'$. Khi đó $HH'$ là một nhóm con Lie của $G$. Cho $\phi$ là ánh xạ $(h, h') \mapsto hh'$ của $H \times H'$ lên $HH'$. Hạt nhân của $\phi$ là tập hợp các $(m, m^{-1})$ với $m \in H \cap H'$ và cấu xạ của $(H \times H')/\mathrm{Ker}\ \phi$ lên $HH'$ suy ra từ $\phi$ khi chuyển qua thương là một đẳng cấu nhóm Lie.
+(ii) Giả sử rằng mọi phần tử của H đều giao hoán với mọi phần tử của H'. Khi đó HH' là một nhóm Lie con của G. Cho $\phi$ là ánh xạ $(h, h') \mapsto hh'$ từ $H \times H'$ lên HH'. Hạt nhân của $\phi$ là tập hợp các $(m, m^{-1})$ trong đó $m \in H \cap H'$ và cấu xạ từ $(H \times H')/\mathrm{Ker}\ \phi$ lên HH' dẫn xuất từ $\phi$ bằng cách chuyển qua thương là một đẳng cấu nhóm Lie.
 
-Cho $H \times H'$ tác động lên $G$ bên phải bởi ánh xạ $((h, h'), g) \mapsto hg{h'}^{-1}$. Ánh xạ quỹ đạo $\rho$ của $e$ là $(h, h') \mapsto h{h'}^{-1}$. Theo Mệnh đề 14 (iii) của § 1, no. 7, $HH'$ là một đa tạp con của $G$ và $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Khi đó
+Cho $H \times H'$ tác động lên G bên phải bởi ánh xạ $((h, h'), g) \mapsto hg{h'}^{-1}$. Ánh xạ quỹ đạo $\rho$ của e là $(h, h') \mapsto h{h'}^{-1}$. Theo Mệnh đề 14 (iii) của § 1, no. 7, HH' là một đa tạp con của G và $T_e(HH') = \mathrm{Im}\ T_e(\rho)$. Bây giờ
 
 $$
 T_e(\rho)(L(H) \times \{0\}) = L(H) \quad \text{và} \quad T_e(\rho)(\{0\} \times L(H')) = L(H')
 $$
 
-và do đó $T_e(HH') = L(H) + L(H')$. Giả sử mọi phần tử của $H$ giao hoán với mọi phần tử của $H'$. Khi đó $HH'$ là một nhóm con của $G$. Theo (i), nó là một nhóm con Lie của $G$. Phần còn lại của mệnh đề suy ra từ Mệnh đề 28.
+và do đó $T_e(HH') = L(H) + L(H')$. Giả sử rằng mọi phần tử của H đều giao hoán với mọi phần tử của H'. Khi đó HH' là một nhóm con của G. Theo (i), nó là một nhóm Lie con của G. Phần còn lại của mệnh đề suy ra từ Mệnh đề 28.
 
 #### Mệnh đề 31 {#lie-iii-s3-prop-31 .statement}
 
-Cho $G$ là một nhóm Lie hữu hạn chiều với cơ sở đếm được, $H$ là một nhóm con Lie chuẩn tắc của $G$ và $A$ là một nhóm con Lie của $G$. Giả sử $K$ có đặc số $0$ và $AH$ đóng. Cho $\phi$ là cấu xạ chính tắc của $G$ lên $G/H$. Khi đó các ánh xạ chính tắc
+Cho G là một nhóm Lie hữu hạn chiều có một cơ sở đếm được, H là một nhóm Lie con chuẩn tắc của G và A là một nhóm Lie con của G. Giả sử rằng K có đặc số 0 và AH là đóng. Cho $\phi$ là cấu xạ chính tắc của G lên G/H. Khi đó các ánh xạ chính tắc
 
 $$
 A/(H \cap A) \to \phi(A), \qquad AH/H \to \phi(A)
@@ -891,11 +892,11 @@ $$
 
 là các đẳng cấu nhóm Lie.
 
-Theo Mệnh đề 30, $AH$ là một nhóm con Lie của $G$. Theo Hệ quả 2 của Mệnh đề 29, $H \cap A$ là một nhóm con Lie của $G$. Do đó có thể nói về các nhóm $AH/H$ và $A/(H \cap A)$. Mặt khác, $\phi(A)$, là ảnh chính tắc của $AH$ trong $G/H$, là đóng và do đó là một nhóm con Lie của $G/H$ (Mệnh đề 28 (iii)). Áp dụng Mệnh đề 28 cho các cấu xạ hợp thành $A \to G \to G/H$ và $AH \to G \to G/H$, cho thấy rằng các ánh xạ chính tắc của mệnh đề là các đẳng cấu nhóm Lie.
+Theo Mệnh đề 30, AH là một nhóm con Lie của G. Theo Hệ quả 2 của Mệnh đề 29, $H \cap A$ là một nhóm con Lie của G. Do đó có nghĩa khi nói đến các nhóm $AH/H$ và $A/(H \cap A)$. Mặt khác, $\phi(A)$, là ảnh chính tắc của AH trong G/H, là đóng và vì thế là một nhóm con Lie của G/H (Mệnh đề 28 (iii)). Mệnh đề 28, áp dụng cho các cấu xạ hợp thành $A \to G \to G/H$ và $AH \to G \to G/H$, chứng minh rằng các ánh xạ chính tắc của mệnh đề là các đẳng cấu nhóm Lie.
 
 #### Mệnh đề 32 {#lie-iii-s3-prop-32 .statement}
 
-Cho G và H là các nhóm Lie, k là một trường con đóng không rời rạc của K và $\phi$ là một cấu xạ của G vào H đối với các cấu trúc nhóm Lie trên k. Giả sử rằng K có đặc số 0. Nếu $L(\phi)$ là K-tuyến tính, thì $\phi$ là một cấu xạ đối với các cấu trúc nhóm Lie trên K.
+Cho G và H là các nhóm Lie, k là một trường con đóng không rời rạc của K và $\phi$ là một cấu xạ từ G vào H đối với các cấu trúc nhóm Lie trên k. Giả sử K có đặc số 0. Nếu $L(\phi)$ là K-tuyến tính, thì $\phi$ là một cấu xạ đối với các cấu trúc nhóm Lie trên K.
 
 Với mọi $g \in G$,
 
@@ -903,17 +904,17 @@ $$
 T_g(\phi) = T_e(\gamma(\phi(g))) \circ L(\phi) \circ T_g(\gamma(g)^{-1})
 $$
 
-và do đó $T_g(\phi)$ là K-tuyến tính. Mệnh đề suy ra từ Đa tạp khả vi và giải tích, R, 5.14.6.
+và do đó $T_g(\phi)$ là K-tuyến tính. Khi ấy mệnh đề suy ra từ Đa tạp khả vi và giải tích, R, 5.14.6.
 
 ### 9. ĐẠI SỐ LIE CỦA NHÓM CÁC PHẦN TỬ KHẢ NGHỊCH CỦA MỘT ĐẠI SỐ
 
-Cho $A$ là một đại số kết hợp đầy đủ chuẩn được với phần tử đơn vị $e$. Cho $A^*$ là nhóm các phần tử khả nghịch của $A$. Ta đã thấy (§ 1, no. 1) rằng $A^*$ là một đa tạp con mở của $A$ và là một nhóm Lie. Cho $G$ là một nhóm Lie và $f$ là một cấu xạ của nhóm Lie $G$ vào nhóm Lie $A^*$. Có thể xem $f$ như một ánh xạ giải tích của $G$ vào không gian đầy đủ chuẩn được $A$. Do đó, nếu $t \in \mathcal{T}^{(\infty)}(G)$, ta có thể lập $\langle t, f \rangle$, là một phần tử của $A$.
+Cho $A$ là một đại số kết hợp khả chuẩn đầy đủ có phần tử đơn vị $e$. Gọi $A^*$ là nhóm các phần tử khả nghịch của $A$. Ta đã thấy (§ 1, no. 1) rằng $A^*$ là một dưới đa tạp mở của $A$ và là một nhóm Lie. Cho $G$ là một nhóm Lie và $f$ là một cấu xạ từ nhóm Lie $G$ vào nhóm Lie $A^*$. Có thể xem $f$ như một ánh xạ giải tích từ $G$ vào không gian khả chuẩn đầy đủ $A$. Vì vậy, nếu $t \in \mathcal{T}^{(\infty)}(G)$, ta có thể lập $\langle t, f \rangle$, là một phần tử của $A$.
 
 #### Mệnh đề 33 {#lie-iii-s3-prop-33 .statement}
 
-*Ánh xạ $t \mapsto \langle t, f \rangle$ là một cấu xạ của đại số $\mathcal{T}^{(\infty)}(G)$ vào đại số $A$.*
+*Ánh xạ $t \mapsto \langle t, f \rangle$ là một cấu xạ từ đại số $\mathcal{T}^{(\infty)}(G)$ vào đại số $A$.*
 
-Chỉ cần kiểm tra rằng, nếu $t$ và $t'$ là các phân phối điểm trên $G$, thì $\langle t * t', f \rangle = \langle t, f \rangle \langle t', f \rangle$. Nhưng
+Chỉ cần kiểm tra rằng, nếu $t$ và $t'$ là các phân bố điểm trên $G$, thì $\langle t \* t', f \rangle = \langle t, f \rangle \langle t', f \rangle$. Nhưng
 $$
 \begin{align*}
 \langle t * t', f \rangle &= \langle t \otimes t', (g, g') \mapsto f(gg') \rangle \\
@@ -925,11 +926,11 @@ $$
 
 Cấu xạ của Mệnh đề 33 được gọi là *liên kết* với $f$.
 
-Lấy $G$ là chính nhóm $A^*$ và lấy $f$ là ánh xạ đồng nhất $i$ của $A^*$. Ta thu được một cấu xạ, được gọi là *chính tắc*, của đại số $\mathcal{T}^{(\infty)}(A^*)$ vào đại số $A$. Không gian tiếp xúc $T_e(A^*)$ được đồng nhất một cách chính tắc với $A$; và nếu $t \in T_e(A^*)$, thì định nghĩa của phép đồng nhất này được chọn sao cho $\langle t, i \rangle = t$. Khi đó Mệnh đề 33 suy ra hệ quả sau:
+Lấy $G$ là chính nhóm $A^*$ và $f$ là ánh xạ đồng nhất $i$ của $A^*$. Ta thu được một cấu xạ, gọi là *chính tắc*, từ đại số $\mathcal{T}^{(\infty)}(A^*)$ vào đại số $A$. Không gian tiếp xúc $T_e(A^*)$ được đồng nhất một cách chính tắc với $A$; và nếu $t \in T_e(A^*)$, thì định nghĩa của sự đồng nhất này sao cho $\langle t, i \rangle = t$. Khi đó Mệnh đề 33 kéo theo hệ quả sau:
 
 #### Hệ quả {#lie-iii-s3-n9-cor-1 .statement}
 
-*Ánh xạ chính tắc $\zeta$ của $L(A^*)$ vào $A$ là một đẳng cấu của đại số Lie, từ $L(A^*)$ lên đại số Lie $A$. Nói cách khác,
+*Ánh xạ chính tắc $\zeta$ từ $L(A^*)$ vào $A$ là một đẳng cấu của đại số Lie, từ $L(A^*)$ lên đại số Lie $A$. Nói cách khác,
 $$
 \zeta([a, b]) = \zeta(a)\zeta(b) - \zeta(b)\zeta(a)
 $$
@@ -973,15 +974,15 @@ Cho $E_1, \ldots, E_n$ là các không gian đầy đủ khả chuẩn và E là
 
 #### Mệnh đề 36 {#lie-iii-s3-prop-36 .statement}
 
-*Cho I là một tập con của $\{1, 2, \ldots, n\}$ và G là nhóm con của $\mathbf{GL}(E)$ gồm các $g = (g_{ij})_{1 \leq i, j \leq n} \in \mathbf{GL}(E)$ sao cho $g_{ij} = 0$ với $i < j$ và $g_{ii} = 1$ với $i \in I$. Khi đó G là một phân nhóm Lie của $\mathbf{GL}(E)$ và $\mathbf{L}(G)$ là tập hợp các $x = (x_{ij})_{1 \leq i, j \leq n} \in \mathcal{L}(E)$ sao cho $x_{ij} = 0$ với $i < j$ và $x_{ii} = 0$ với $i \in I$.
+*Cho I là một tập con của $\{1, 2, \ldots, n\}$ và G là nhóm con của $\mathbf{GL}(E)$ gồm các $g = (g_{ij})_{1 \leq i, j \leq n} \in \mathbf{GL}(E)$ sao cho $g_{ij} = 0$ với $i < j$ và $g_{ii} = 1$ với $i \in I$. Khi đó G là một nhóm con Lie của $\mathbf{GL}(E)$ và $\mathbf{L}(G)$ là tập hợp các $x = (x_{ij})_{1 \leq i, j \leq n} \in \mathcal{L}(E)$ sao cho $x_{ij} = 0$ với $i < j$ và $x_{ii} = 0$ với $i \in I$.
 
-Cho S là tập hợp các $(x_{ij}) \in \mathcal{L}(E)$ sao cho $x_{ij} = 0$ với $i < j$ và $x_{ii} = 0$ với $i \in I$. Khi đó G là giao của $\mathbf{GL}(E)$ và không gian affine $1 + S$ của $\mathcal{L}(E)$. Suy ra G là một đa tạp con của $\mathbf{GL}(E)$ và không gian tiếp xúc của G tại 1 được đồng nhất với S.*
+Cho S là tập hợp các $(x_{ij}) \in \mathcal{L}(E)$ sao cho $x_{ij} = 0$ với $i < j$ và $x_{ii} = 0$ với $i \in I$. Khi đó G là giao của $\mathbf{GL}(E)$ và không gian con afin $1 + S$ của $\mathcal{L}(E)$. Do đó G là một đa tạp con của $\mathbf{GL}(E)$ và không gian tiếp xúc của G tại 1 được đồng nhất với S.*
 
-Đặc biệt, trong $\mathbf{GL}(n, K)$, nhóm tam giác dưới đầy đủ và nhóm tam giác dưới ngặt, được định nghĩa như trong Integration, Chương VII, § 3, no. 3, là các phân nhóm Lie với các đại số Lie $t(n, K)$ và $n(n, K)$ (Chương I, § 1, no. 2).
+Đặc biệt, trong $\mathbf{GL}(n, K)$, nhóm con tam giác dưới toàn phần và nhóm con tam giác dưới ngặt, được định nghĩa như trong Tích phân, Chương VII, § 3, no. 3, là các nhóm con Lie có các đại số Lie là $t(n, K)$ và $n(n, K)$ (Chương I, § 1, no. 2).
 
 #### Mệnh đề 37 {#lie-iii-s3-prop-37 .statement}
 
-*Cho A là một đại số kết hợp có đơn vị khả chuẩn đầy đủ và $x \mapsto x^t$ là một ánh xạ tuyến tính liên tục từ A vào A sao cho $(x^t)^t = x$ và $(xy)^t = y^t x^t$ với mọi $x, y$ trong A. Giả sử K có đặc số $\neq 2$. Cho G là nhóm con của $A^*$ gồm các $x \in A$ sao cho $xx^t = x^t x = 1$. Khi đó G là một phân nhóm Lie của $A^*$ và $\mathbf{L}(G)$ là tập hợp các $y \in A$ sao cho $y^t = -y$.*
+*Cho A là một đại số kết hợp có đơn vị khả chuẩn đầy đủ và $x \mapsto x^t$ là một ánh xạ tuyến tính liên tục từ A vào A sao cho $(x^t)^t = x$ và $(xy)^t = y^t x^t$ với mọi $x, y$ trong A. Giả sử rằng K có đặc số $\neq 2$. Cho G là nhóm con của $A^*$ gồm các $x \in A$ sao cho $xx^t = x^t x = 1$. Khi đó G là một nhóm con Lie của $A^*$ và $\mathbf{L}(G)$ là tập hợp các $y \in A$ sao cho $y^t = -y$.*
 
 Cho S (resp. S') là tập hợp các $y \in A$ sao cho $y = y^t$ (resp. $y = -y^t$). Khi đó S, S' là các không gian con vectơ đóng của A. Công thức
 
@@ -989,56 +990,57 @@ $$
 y = \frac{1}{2}(y + y^t) + \frac{1}{2}(y - y^t)
 $$
 
-chứng tỏ rằng A là tổng trực tiếp tôpô của S và S'. Cho f là ánh xạ từ A vào S được xác định bởi $f(x) = xx^t$. Ánh xạ này là giải tích. Với mọi $y \in A$, $f(1 + y) = 1 + y + y^t + yy^t$; chọn một chuẩn trên A tương thích với cấu trúc đại số của nó; khi đó
+chứng minh rằng A là tổng trực tiếp tôpô của S và S'. Cho f là ánh xạ từ A vào S được định nghĩa bởi $f(x) = xx^t$. Ánh xạ này là giải tích. Với mọi $y \in A$, $f(1 + y) = 1 + y + y^t + yy^t$; chọn một chuẩn trên A tương thích với cấu trúc đại số của nó; khi đó
 
 $$
-f(1 + y) \in 1 + y + y^t + o(\|y\|) \quad \text{khi } y \text{ tiến tới } 0.
+f(1 + y) \in 1 + y + y^t + o(\|y\|) \quad \text{với } y \text{ tiến tới } 0.
 $$
 
-Do đó, $T_1(f)(y) = y + y^t$, nên f là một ánh xạ ngập tại 1. Vì vậy, tồn tại một lân cận mở U của 1 trong A sao cho $U \cap G$ là một đa tạp con của U. Suy ra (§ 1, no. 3, Mệnh đề 6) G là một phân nhóm Lie của $A^*$. Hơn nữa, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
+Vậy $T_1(f)(y) = y + y^t$, do đó f là một phép ngập tại 1. Vì thế, tồn tại một lân cận mở U của 1 trong A sao cho $U \cap G$ là một đa tạp con của U. Suy ra (§ 1, no. 3, Mệnh đề 6) G là một nhóm con Lie của A*. Hơn nữa, $L(G) = T_e(G) = \operatorname{Ker} T_1(f)$.
 
 #### Hệ quả 1 {#lie-iii-s3-prop-37-cor-1 .statement}
 
-*Giả sử K có đặc số $\neq 2$. Cho E là một không gian vectơ hữu hạn chiều trên K và $\phi$ là một dạng song tuyến tính đối xứng (resp. phản xứng) không suy biến trên E. Với mọi $u \in \mathcal{L}(E)$, cho $u^*$ là đối ngẫu của u tương ứng với $\phi$. Cho G là nhóm trực giao (resp. xuyến vị) của $\phi$. Khi đó G là một phân nhóm Lie của $\mathbf{GL}(E)$ và $L(G)$ là tập hợp các $x \in \mathcal{L}(E)$ sao cho $x^* = -x$.*
+*Giả sử rằng K có đặc số $\neq 2$. Cho E là một không gian vectơ hữu hạn chiều trên K và $\phi$ là một dạng song tuyến tính đối xứng không suy biến (resp. phản xứng) trên E. Với mọi $u \in \mathcal{L}(E)$, cho $u^*$ là liên hợp của u đối với $\phi$. Cho G là nhóm trực giao (resp. nhóm symplectic) của $\phi$. Khi đó G là một nhóm con Lie của $\mathbf{GL}(E)$ và $L(G)$ là tập hợp các $x \in \mathcal{L}(E)$ sao cho $x^* = -x$.*
 
 Áp dụng Mệnh đề 37 với $A = \mathcal{L}(E)$ và $x^t = x^*$.*
+
 #### Nhận xét {#lie-iii-s3-n10-rem-1 .statement}
 
-Cho B là một cơ sở của E và J là ma trận của $\phi$ đối với B. Khi đó L(G) là tập hợp các phần tử của $\mathcal{L}(E)$ có ma trận X đối với B thỏa mãn phương trình
+Cho B là một cơ sở của E và J là ma trận của $\phi$ đối với B. Khi đó $L(G)$ là tập hợp các phần tử của $\mathcal{L}(E)$ mà ma trận X của chúng đối với B thỏa mãn phương trình
 
 $$
 {}^tX = -JXJ^{-1}.
 $$
 
-Điều này suy ra từ *Algebra*, Chapter IX, § 1, công thức (50).
+Điều này suy ra từ *Algebra*, Chương IX, § 1, công thức (50).
 
 #### Hệ quả 2 {#lie-iii-s3-prop-37-cor-2 .statement}
 
-*Cho E là một không gian Hilbert phức (tương ứng thực) và U là nhóm đơn nhất của E. Khi đó U là một nhóm con thực của $\mathbf{GL}(E)$ và $L(U)$ là tập hợp các $x \in \mathcal{L}(E)$ sao cho $x^* = -x$.
+*Cho E là một không gian Hilbert phức (ứng với thực) và U là nhóm unita của E. Khi đó U là một nhóm con thực của $\mathbf{GL}(E)$ và $L(U)$ là tập hợp các $x \in \mathcal{L}(E)$ sao cho $x^* = -x$.
 
-Áp dụng Mệnh đề 37 với $A = \mathcal{L}(E)$, xét như một đại số trên $\mathbf{R}$, và $x^t = x^*$. \*
+Áp dụng Mệnh đề 37 với $A = \mathcal{L}(E)$ được xét như một đại số trên $\mathbf{R}$ và $x^t = x^*$.*
 
 #### Hệ quả 3 {#lie-iii-s3-prop-37-cor-3 .statement}
 
-*Cho E là một không gian vectơ phức hữu hạn chiều, $\phi$ là một dạng sesquilinear Hermit không suy biến trên E và U là nhóm đơn nhất của $\phi$. Khi đó U là một nhóm con Lie thực của $\mathbf{GL}(E)$ và $L(U)$ là tập hợp các $x \in \mathcal{L}(E)$ sao cho $ix$ là Hermit.*
+*Cho E là một không gian vectơ phức hữu hạn chiều, $\phi$ là một dạng sesquilinear Hermit không suy biến trên E và U là nhóm unita của $\phi$. Khi đó U là một nhóm Lie thực con của $\mathbf{GL}(E)$ và $L(U)$ là tập hợp các $x \in \mathcal{L}(E)$ sao cho $ix$ là Hermit.*
 
-Khi $E \neq \{0\}$, U *không* là một nhóm con Lie của nhóm Lie phức $\mathbf{GL}(E)$, vì $L(U)$ không phải là một không gian con vectơ phức của $\mathcal{L}(E)$.
+Khi $E \neq \{0\}$, U *không* là một nhóm Lie con của nhóm Lie phức $\mathbf{GL}(E)$, vì $L(U)$ không phải là một không gian con vectơ phức của $\mathcal{L}(E)$.
 
 ### 11. BIỂU DIỄN TUYẾN TÍNH
 
-Cho G là một nhóm Lie, E là một không gian khả chuẩn đầy đủ và $\pi$ là một biểu diễn tuyến tính giải tích của G trên E (§ 1, no. 2). Cấu xạ liên kết $t \mapsto \langle t, \pi \rangle$ của $\mathcal{T}^{(\infty)}(G)$ vào $\mathcal{L}(E)$ là một cấu xạ đại số (no. 9, Mệnh đề 33) và sự hạn chế của nó trên $L(G)$ là $L(\pi)$. Vậy $L(\pi)$ là một biểu diễn của $L(G)$ trên E (Chương I, § 3, Định nghĩa 1).
+Cho G là một nhóm Lie, E là một không gian đầy đủ khả chuẩn và $\pi$ là một biểu diễn tuyến tính giải tích của G trên E (§ 1, no. 2). Cấu xạ liên kết $t \mapsto \langle t, \pi \rangle$ từ $\mathcal{T}^{(\infty)}(G)$ vào $\mathcal{L}(E)$ là một cấu xạ đại số (no. 9, Mệnh đề 33) và hạn chế của nó lên $L(G)$ là $L(\pi)$. Do đó $L(\pi)$ là một biểu diễn của $L(G)$ trên $E$ (Chương I, § 3, Định nghĩa 1).
 
 #### Mệnh đề 38 {#lie-iii-s3-prop-38 .statement}
 
-Xét G tác động lên E ở bên trái bởi ánh xạ $(g, x) \mapsto \pi(g)x$. Cho b \in E và \varphi(b) là ánh xạ quỹ đạo của nó. Cho T_b(E) được đồng nhất chính tắc với E. Với mọi $t \in L(G)$,
+Xét G như tác động trên E ở bên trái bởi ánh xạ $(g, x) \mapsto \pi(g)x$. Cho $b \in E$ và $\varphi(b)$ là ánh xạ quỹ đạo của nó. Đồng nhất $T_b(E)$ với $E$ một cách chính tắc. Với mọi $t \in L(G)$,
 
 $$
 (L(\pi)t)(b) = \langle t, \varphi(b) \rangle = \varphi(b)*t = t * \varepsilon_b.
 $$
 
-Đặc biệt, trường vectơ được xác định bởi t trên E là trường $b \mapsto (L(\pi)t)(b)$.
+Đặc biệt, trường vectơ do $t$ xác định trên $E$ là trường $b \mapsto (L(\pi)t)(b)$.
 
-$L(\pi)t = \langle t, \pi \rangle$ (no. 9, Mệnh đề 34). Vì ánh xạ $A \mapsto Ab$ của $\mathcal{L}(E)$ vào E là liên tục và tuyến tính, suy ra rằng
+$L(\pi)t = \langle t, \pi \rangle$ (no. 9, Mệnh đề 34). Vì ánh xạ $A \mapsto Ab$ từ $\mathcal{L}(E)$ vào $E$ là liên tục và tuyến tính, suy ra rằng
 
 $$
 \begin{align*}
@@ -1049,7 +1051,7 @@ $$
 \end{align*}
 $$
 
-Cuối cùng, $\varphi(b)*t = t * \varepsilon_b$ (no. 3, Mệnh đề 14 (ii)).
+Cuối cùng, $\varphi(b)*t = t \* \varepsilon_b$ (no. 3, Mệnh đề 14 (ii)).
 
 #### Mệnh đề 39 {#lie-iii-s3-prop-39 .statement}
 
@@ -1203,16 +1205,16 @@ Cho $A$ là một đại số hữu hạn chiều. Giả sử $K$ có đặc s�
 
 #### Mệnh đề 42 {#lie-iii-s3-prop-42 .statement}
 
-Cho $G$ là một nhóm Lie, $X$ là một đa tạp giải tích, $(g, x) \mapsto gx$ (resp. $xg$) là một luật của phép toán trái (resp. phải) giải tích của $G$ trên $X$ và $x_0$ là một điểm của $X$ bất biến dưới $G$. Với mọi $g \in G$, ký hiệu $\tau(g)$ là tự đẳng cấu $x \mapsto gx$ (resp. $xg$) của $X$ và ký hiệu $\pi(g)$ là tự đẳng cấu của $T_{x_0}(X)$ tiếp xúc tại $x_0$ với $\tau(g)$.
+Cho $G$ là một nhóm Lie, $X$ là một đa tạp giải tích, $(g, x) \mapsto gx$ (resp. $xg$) là một luật phép toán giải tích trái (resp. phải) của $G$ trên $X$ và $x_0$ là một điểm của $X$ bất biến dưới $G$. Với mọi $g \in G$, ký hiệu $\tau(g)$ là tự đẳng cấu $x \mapsto gx$ (resp. $xg$) của $X$ và $\pi(g)$ là tự đẳng cấu của $T_{x_0}(X)$ tiếp xúc tại $x_0$ với $\tau(g)$.
 (i) $\pi$ là một biểu diễn giải tích của $G$ (resp. $G^\vee$) trên $T_{x_0}(X)$.
-(ii) Với mọi $a \in L(G)$ và mọi $\xi_0 \in T_{x_0}(X)$, $L(\pi)a.\xi_0$ có thể được tính như sau: gọi $D_a$ là trường vectơ do $a$ xác định trên $X$ và $\xi$ là một trường vectơ lớp $C^1$ trong một lân cận mở của $x_0$ sao cho $\xi(x_0) = \xi_0$; khi đó
+(ii) Với mọi $a \in L(G)$ và mọi $\xi_0 \in T_{x_0}(X)$, có thể tính $L(\pi)a.\xi_0$ như sau: gọi $D_a$ là trường vectơ do $a$ xác định trên $X$ và $\xi$ là một trường vectơ lớp $C^1$ trong một lân cận mở của $x_0$ sao cho $\xi(x_0) = \xi_0$; khi đó
 $$
 L(\pi)a.\xi_0 = -[D_a, \xi](x_0).
 $$
 
-$\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$) và do đó $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). Mặt khác, vì $TX$ là một G-tập vectơ của lớp $C^\omega$ (§ 1, no. 8, Proposition 16), $\pi$ là giải tích, do đó (i).
+$\tau(gg') = \tau(g)\tau(g')$ (resp. $\tau(g')\tau(g)$) và do đó $\pi(gg') = \pi(g)\pi(g')$ (resp. $\pi(g')\pi(g)$). Mặt khác, vì $TX$ là một G-bó vectơ lớp $C^\omega$ (§ 1, no. 8, Proposition 16), nên $\pi$ là giải tích, do đó có (i).
 
-Để chứng minh (ii), giả sử G tác động bên trái. Tồn tại một lân cận mở I của 0 trong K và một ánh xạ giải tích $\gamma$ từ I vào G sao cho $\gamma(0) = e, T_0(\gamma)1 = a$. Khi đó $D_a$ là trường vectơ trên X được xác định bởi ánh xạ $\phi : (\lambda, x) \mapsto \gamma(\lambda)x$ của $I \times X$ vào X (§ 2, no. 2). Nếu $\phi_\lambda$ ký hiệu song ánh $x \mapsto \gamma(\lambda)x$ của X vào X, thì
+Để chứng minh (ii), giả sử rằng G tác động bên trái. Tồn tại một lân cận mở I của 0 trong K và một ánh xạ giải tích $\gamma$ từ I vào G sao cho $\gamma(0) = e, T_0(\gamma)1 = a$. Khi đó $D_a$ là trường vectơ trên X được xác định bởi ánh xạ $\phi : (\lambda, x) \mapsto \gamma(\lambda)x$ từ $I \times X$ vào X (§ 2, no. 2). Nếu $\phi_\lambda$ ký hiệu song ánh $x \mapsto \gamma(\lambda)x$ của X lên X, thì
 
 $$
 [D_a, \xi](x_0) = \left( \frac{d}{d\lambda} (T_{\phi_\lambda(x_0)}(\phi_\lambda^{-1})\xi(\phi_\lambda(x_0))) \right)_{\lambda=0} \quad (\text{Diff. \& Anal. Man., R,}
@@ -1224,7 +1226,7 @@ $$
 = \left( \frac{d}{d\lambda} (\pi(\gamma(\lambda))^{-1}\xi_0) \right)_{\lambda=0}.
 $$
 
-Vì các ánh xạ $\lambda \mapsto \gamma(\lambda)^{-1}$ và $\lambda \mapsto \gamma(-\lambda)$ tiếp xúc tại 0, nên điều này cũng bằng
+Vì các ánh xạ $\lambda \mapsto \gamma(\lambda)^{-1}$ và $\lambda \mapsto \gamma(-\lambda)$ tiếp xúc tại 0, nên biểu thức này cũng bằng
 $$
 - \left( \frac{d}{d\lambda} (\pi(\gamma(\lambda))\xi_0) \right)_{\lambda=0}
 $$
@@ -1235,13 +1237,13 @@ $$
 = -L(\pi)a.\xi_0.
 $$
 
-### 12. BIỂU DIỄN LIÊN HỢP
+### 12. BIỂU DIỄN KỀ
 
-Xét luật của phép toán trái giải tích
+Cho G là một nhóm Lie. Xét luật phép toán trái giải tích
 $$
 (g, g') \mapsto gg'g^{-1} = (\operatorname{Int} g)g'
 $$
-của $G$ vào $G$. Luật của phép toán này xác định, theo no. 3, một ánh xạ song tuyến tính của $\mathcal{T}^{(\infty)}(G) \times \mathcal{T}^{(\infty)}(G)$ vào $\mathcal{T}^{(\infty)}(G)$, và trong no. này ta ký hiệu nó bởi $\tau$. Theo Mệnh đề 13 của no. 3,
+từ G vào G. Luật phép toán này xác định, theo no. 3, một ánh xạ song tuyến tính của $\mathcal{T}^{(\infty)}(G) \times \mathcal{T}^{(\infty)}(G)$ vào $\mathcal{T}^{(\infty)}(G)$, mà trong số này chúng ta sẽ ký hiệu bởi $\tau$. Theo Mệnh đề 13 của no. 3,
 $$
 (t * t') \tau t'' = t \tau (t' \tau t'')
 $$
@@ -1249,7 +1251,9 @@ với mọi $t, t', t''$ trong $\mathcal{T}^{(\infty)}(G)$. Theo Mệnh đề 14
 $$
 \varepsilon_g \tau t = (\operatorname{Int} g)_*t
 $$
-với mọi $g \in G$ và $t \in \mathcal{T}^{(\infty)}(G)$. Đặc biệt, ánh xạ $t \mapsto \varepsilon_g \tau t$ của $\mathcal{T}^{(\infty)}(G)$ vào $\mathcal{T}^{(\infty)}(G)$ là một tự đẳng cấu của đại số song $\mathcal{T}^{(\infty)}(G)$. Các hạn chế của nó lên $U(G), U_s(G), L(G)$ được ký hiệu lần lượt bởi $\operatorname{Ad}_{U(G)}(g), \operatorname{Ad}_{U_s(G)}(g), \operatorname{Ad}_{L(G)}(g)$. Ta thường viết $\operatorname{Ad}(g)$ thay cho $\operatorname{Ad}_{L(G)}(g)$ khi không thể nhầm lẫn. Theo (23), $\operatorname{Ad}(g)$ là ánh xạ tiếp tuyến tại e của $\operatorname{Int}(g)$. Nó là một tự đẳng cấu của đại số Lie khả chuẩn $\mathbf{L}(G)$. Khi $K$ có đặc số 0, $\mathrm{Ad}_{\mathbf{U}(G)}(g)$ là tự đẳng cấu duy nhất của $\mathbf{U}(G)$ mở rộng $\mathrm{Ad}(g)$.
+với mọi $g \in G$ và $t \in \mathcal{T}^{(\infty)}(G)$. Đặc biệt, ánh xạ $t \mapsto \varepsilon_g \tau t$ của $\mathcal{T}^{(\infty)}(G)$ vào $\mathcal{T}^{(\infty)}(G)$ là một tự đẳng cấu của song đại số $\mathcal{T}^{(\infty)}(G)$. Các hạn chế của nó lên $U(G), U_s(G), L(G)$ được ký hiệu lần lượt bởi $\operatorname{Ad}_{U(G)}(g), \operatorname{Ad}_{U_s(G)}(g), \operatorname{Ad}_{L(G)}(g)$. Ta thường viết $\operatorname{Ad}(g)$ thay cho $\operatorname{Ad}_{L(G)}(g)$ khi không thể có sự nhầm lẫn. Theo (23), $\operatorname{Ad}(g)$ là ánh xạ tiếp xúc tại e của $\operatorname{Int}(g)$. Nó là một tự đẳng cấu của đại số Lie chuẩn hoá được
+
+$\mathbf{L}(G)$. Khi $K$ có đặc số 0, $\mathrm{Ad}_{\mathbf{U}(G)}(g)$ là tự đẳng cấu duy nhất của $\mathbf{U}(G)$ mở rộng $\mathrm{Ad}(g)$.
 
 Nếu $\phi$ là một cấu xạ của nhóm Lie $G$ vào một nhóm Lie $H$, thì
 $$
@@ -1264,12 +1268,12 @@ $$
 t \top u = \sum_{i=1}^n t_i * u * {t'_i}^\vee.
 $$
 
-Theo định nghĩa, $t \top u$ là ảnh của $t \otimes u$ dưới ánh xạ $(g, g') \mapsto gg'g^{-1}$ của $G \times G$ vào $G$. Nay ánh xạ này thu được bằng cách hợp thành các ánh xạ sau:
+Theo định nghĩa, $t \top u$ là ảnh của $t \otimes u$ dưới ánh xạ $(g, g') \mapsto gg'g^{-1}$ từ $G \times G$ vào $G$. Mà ánh xạ này thu được bằng cách hợp thành các ánh xạ sau:
 $$
 \begin{aligned}
-\alpha & : (g, g') \mapsto (g, g, g') & \text{của } G \times G \text{ vào } G \times G \times G \\
-\beta & : (g, g', g'') \mapsto (g, {g'}^{-1}, g'') & \text{của } G \times G \times G \text{ vào } G \times G \times G \\
-\gamma & : (g, g', g'') \mapsto gg''g' & \text{của } G \times G \times G \text{ vào } G.
+\alpha & : (g, g') \mapsto (g, g, g') & \text{từ } G \times G \text{ vào } G \times G \times G \\
+\beta & : (g, g', g'') \mapsto (g, {g'}^{-1}, g'') & \text{từ } G \times G \times G \text{ vào } G \times G \times G \\
+\gamma & : (g, g', g'') \mapsto gg''g' & \text{từ } G \times G \times G \text{ vào } G.
 \end{aligned}
 $$
 
@@ -1284,7 +1288,7 @@ $$
 
 #### Hệ quả 1 {#lie-iii-s3-prop-43-cor-1 .statement}
 
-*Cho $u \in \mathbf{L}(G)$ và $u' \in \mathcal{T}^{(\infty)}(G)$. Khi đó $u \top u' = u * u' - u' * u$.*
+*Cho $u \in \mathbf{L}(G)$ và $u' \in \mathcal{T}^{(\infty)}(G)$. Khi đó $u \top u' = u \* u' - u' \* u$.*
 
 Ảnh của $u$ dưới đồng tích là $u \otimes \varepsilon_e + \varepsilon_e \otimes u$, do đó
 $$
@@ -1293,7 +1297,7 @@ $$
 
 #### Hệ quả 2 {#lie-iii-s3-prop-43-cor-2 .statement}
 
-*Cho $t \in \mathcal{T}^{(\infty)}(G)$ và $g \in G$. Khi đó $\varepsilon_g \top t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. Nếu $t \in \mathbf{L}(G)$, thì $\varepsilon_g \top t = gtg^{-1}$ (trong đó tích sau cùng được tính trong nhóm $\mathbf{T}(G)$).*
+*Cho $t \in \mathcal{T}^{(\infty)}(G)$ và $g \in G$. Khi đó $\varepsilon_g \top t = \varepsilon_g \* t \* \varepsilon_{g^{-1}}$. Nếu $t \in \mathbf{L}(G)$, thì $\varepsilon_g \top t = gtg^{-1}$ (trong đó tích sau được tính trong nhóm $\mathbf{T}(G)$).*
 
 Ảnh của $\varepsilon_g$ dưới đồng tích là $\varepsilon_g \otimes \varepsilon_g$.
 
@@ -1317,7 +1321,7 @@ Vì $\mathrm{Ad}\,g = T_e(\mathrm{Int}\,g)$, Mệnh đề 42 của no. 11 chứn
 
 #### Định nghĩa 8 {#lie-iii-s3-def-8 .statement}
 
-*Biểu diễn Ad của G trên L(G) được gọi là biểu diễn đối liên của G.*
+*Biểu diễn Ad của G trên L(G) được gọi là biểu diễn liên hợp của G.*
 
 #### Mệnh đề 44 {#lie-iii-s3-prop-44 .statement}
 
@@ -1329,16 +1333,16 @@ Cho $b \in L(G)$. Theo Mệnh đề 42 (ii) của no. 11 và Hệ quả 3 của 
 $$
 (L(\mathrm{Ad}))(a).b = -[R_a - L_{a_1}L_b](e).
 $$
-Bây giờ $R_a \circ L_b = L_b \circ R_a$ (no. 6, Mệnh đề 23 (ii)), do đó $[R_a, L_b] = 0$; rồi, dùng Mệnh đề 23 (ii),
+Bây giờ $R_a \circ L_b = L_b \circ R_a$ (no. 6, Mệnh đề 23 (ii)), do đó $[R_a, L_b] = 0$; khi đó, dùng Mệnh đề 23 (ii),
 $$
 (L(\mathrm{Ad}))(a).b = [L_a, L_b](e) = L_{[a, b]}(e) = [a, b] = (\mathrm{ad}_{L(G)}a)b.
 $$
 
 #### Mệnh đề 45 {#lie-iii-s3-prop-45 .statement}
 
-*Giả sử $G$ hữu hạn chiều và $K$ có đặc số 0. Gọi $s$ là một số nguyên $\geqslant 0$. Khi đó ánh xạ $\pi : g \mapsto \mathrm{Ad}_{U_s(G)}(g)$ là một biểu diễn tuyến tính giải tích của $G$ trên $U_s(G)$ và $L(\pi)a = \mathrm{ad}_{U_s(G)}a$ với mọi $a \in L(G)$.*
+*Giả sử rằng G là hữu hạn chiều và rằng K có đặc số 0. Cho s là một số nguyên $\geqslant 0$. Khi đó ánh xạ $\pi : g \mapsto \mathrm{Ad}_{U_s(G)}(g)$ là một biểu diễn tuyến tính giải tích của G trên $U_s(G)$ và $L(\pi)a = \mathrm{ad}_{U_s(G)}a$ với mọi $a \in L(G)$.*
 
-Biểu diễn tuyến tính $\pi$ là một thương của $\bigoplus_{r=0}^s \mathrm{Tr}(\mathrm{Ad})$ và do đó là giải tích. Với $a \in L(G)$ và $x_1, x_2, \ldots, x_s$ trong $L(G)$,
+Biểu diễn tuyến tính $\pi$ là một thương của $\bigoplus_{r=0}^s \mathrm{Tr}(\mathrm{Ad})$ và vì thế là giải tích. Với $a \in L(G)$ và $x_1, x_2, \ldots, x_s$ trong $L(G)$,
 $$
 \begin{align*}
 (L(\pi)a)(x_1x_2\ldots x_s) &= \sum_{i=1}^s x_1 \ldots (L(\mathrm{Ad})a.x_i) \ldots x_s & \text{(Mệnh đề 41)} \\
@@ -1349,7 +1353,7 @@ $$
 
 #### Mệnh đề 46 {#lie-iii-s3-prop-46 .statement}
 
-*Cho $h \in G, x \in T_h(G)$ và $a \in L(G)$. Gọi $\phi$ là ánh xạ $(g, g') \mapsto gg'g^{-1}$ từ $G \times G$ vào $G$. Ảnh y của $(a, x) \in T_e(G) \times T_h(G)$ dưới $T_{(e, h)}(\phi)$ là $y = x + h((\mathrm{Ad}\,h^{-1})a - a)$.
+*Cho $h \in G, x \in T_h(G)$ và $a \in L(G)$. Cho $\phi$ là ánh xạ $(g, g') \mapsto gg'g^{-1}$ từ $G \times G$ vào $G$. Ảnh y của $(a, x) \in T_e(G) \times T_h(G)$ dưới $T_{(e, h)}(\phi)$ là $y = x + h((\mathrm{Ad}\,h^{-1})a - a)$.
 Ta có*
 $$
 \begin{align*}
@@ -1362,9 +1366,9 @@ $$
 
 #### Mệnh đề 47 {#lie-iii-s3-prop-47 .statement}
 
-Cho $G$ là một nhóm Lie, $H$ và $E$ là các nhóm con Lie của $G$ và giả sử rằng $hEh^{-1} = E$ với mọi $h \in H$. Khi đó $\mathcal{T}^{(\infty)}(H) \subset \mathcal{T}^{(\infty)}(E) \subset \mathcal{T}^{(\infty)}(E)$. Đặc biệt, $\mathrm{Ad}(H)(L(E)) \subset L(E)$ và $[L(H), L(E)] \subset L(E)$.
+Cho G là một nhóm Lie, H và E là các nhóm con Lie của G và giả sử rằng hEh$^{-1}$ = E với mọi h \in H. Khi đó $\mathcal{T}^{(\infty)}(H) \subset \mathcal{T}^{(\infty)}(E) \subset \mathcal{T}^{(\infty)}(E)$. Đặc biệt, $\mathrm{Ad}(H)(L(E)) \subset L(E)$ và $[L(H), L(E)] \subset L(E)$.
 
-Nếu $t \in \mathcal{T}^{(\infty)}(H)$ và $t' \in \mathcal{T}^{(\infty)}(E)$, thì $t \otimes t' \in \mathcal{T}^{(\infty)}(H \times E)$ và ảnh của $H \times E$ dưới ánh xạ $(g, g') \mapsto gg'g^{-1}$ được chứa trong $E$.
+Nếu $t \in \mathcal{T}^{(\infty)}(H)$ và $t' \in \mathcal{T}^{(\infty)}(E)$, thì $t \otimes t' \in \mathcal{T}^{(\infty)}(H \times E)$ và ảnh của $H \times E$ dưới ánh xạ $(g, g') \mapsto gg'g^{-1}$ được chứa trong E.
 
 #### Mệnh đề 48 {#lie-iii-s3-prop-48 .statement}
 
@@ -1402,27 +1406,47 @@ Với mọi $g \in A^*$, đặt $i(g)$ là tự đẳng cấu $y \mapsto gyg^{-1
 
 ### 13. TENXƠ VÀ CÁC DẠNG BẤT BIẾN
 
+Cho G là một nhóm Lie. Ta xét G như tác động lên chính nó bởi các phép tịnh tiến trái (tương ứng phải). Cho $\lambda$ là một hàm tử vectơ thuộc lớp $C^\omega$ đối với các đẳng cấu. Khi đó $\lambda(\mathrm{TG})$ là một G-bó vectơ giải tích trái (tương ứng phải) (§ 1, no. 8, Hệ quả của Mệnh đề 16). Ánh xạ $(g, u) \mapsto gu$ (tương ứng $ug$) từ $G \times \lambda(\mathrm{L}(G))$ lên $\lambda(\mathrm{TG})$ là một đẳng cấu $\phi$ (tương ứng $\psi$) của các G-bó vectơ (§ 7, no. 8, Hệ quả 2 của Mệnh đề 17). Mọi tiết diện G-bất biến của $\lambda(\mathrm{TG})$ đều giải tích và được xác định bởi giá trị của nó tại $e$ (§ 1, no. 8, Hệ quả 1 của Mệnh đề 17). Một tiết diện như vậy được gọi là *bất biến trái* (tương ứng *bất biến phải*). Cho $\sigma$ là một tiết diện bất biến trái của $\lambda(\mathrm{TG})$; ảnh biến đổi $\sigma'$ của $\sigma$ dưới một phép tịnh tiến phải $\delta(g)$ được xác định bởi $\sigma'(\delta(g)h) = \lambda(\mathrm{T}_h(\delta(g)))\sigma(h)$ với mọi $h \in G$; nó cũng bất biến trái; nó cũng được dẫn xuất từ $\sigma$ bởi $\gamma(g) \circ \delta(g) = \mathrm{Int}(g)$ và do đó
+
+$$
+\sigma'(e) = \lambda(\mathrm{Ad}\ g)\cdot \sigma(e).
+$$
+
+Tương tự, cho $\tau$ là một tiết diện bất biến phải của $\lambda(\mathrm{TG})$; ảnh biến đổi $\tau'$ của $\tau$ dưới một phép tịnh tiến trái $\gamma(g)$ cũng bất biến phải và
+
+$$
+\tau'(e) = \lambda(\mathrm{Ad}\ g)\cdot \tau(e).
+$$
+
+Bây giờ ta xét $G \times G$ như tác động lên G ở bên trái bởi
+
+$$
+((g, g'), g'') \mapsto gg''{g'}^{-1}.
+$$
+
+Khi đó G là một không gian thuần nhất Lie trái của $G \times G$ (§ 1, no. 6, *Ví dụ*). Do đó $\lambda(\mathrm{TG})$ là một $(G \times G)$-bó vectơ trái giải tích. Một tiết diện của $\lambda(\mathrm{TG})$ được gọi là *song bất biến* nếu nó bất biến dưới tác động của $G \times G$ lên $\lambda(\mathrm{TG})$, nói cách khác nếu nó bất biến dưới các phép tịnh tiến trái và phải. Cho $\lambda(\mathrm{L}(G))_0$ là tập hợp các phần tử của $\lambda(\mathrm{L}(G))$ bất biến dưới $\lambda(\mathrm{Ad}(G))$. Với mọi $u \in \lambda(\mathrm{L}(G))_0$, cho $\sigma_u$ là ánh xạ từ G vào $\lambda(\mathrm{TG})$ được xác định bởi $\sigma_u(g) = gu = ug$. Khi đó $u \mapsto \sigma_u$ là một song ánh từ $\lambda(\mathrm{L}(G))_0$ lên tập hợp các tiết diện song bất biến của $\lambda(\mathrm{TG})$ (§ 1, no. 8, Hệ quả 1 của Mệnh đề 17).
+
 #### Mệnh đề 50 {#lie-iii-s3-prop-50 .statement}
 
-*Cho G là một nhóm Lie (giả sử hữu hạn chiều nếu K có đặc số > 0). Cho E là không gian vectơ của các dạng đa tuyến tính phản xứng liên tục bậc k trên \mathrm{T}_e(G). Với mọi u \in E, cho \omega^u là dạng vi phân bậc k trên G sao cho $(\omega^u)_g$ là dạng đa tuyến tính trên \mathrm{T}_g(G) được dẫn xuất từ u bởi phép tịnh tiến $h \mapsto gh$ (resp. $h \mapsto hg$). Khi đó \omega^u là giải tích và bất biến trái (resp. phải) trên G. Ánh xạ u \mapsto \omega^u là một đẳng cấu của E lên không gian vectơ của các dạng vi phân bậc k bất biến trái (resp. phải) trên G.*
+*Cho G là một nhóm Lie (được giả sử là hữu hạn chiều nếu K có đặc số > 0). Cho E là không gian vectơ các dạng đa tuyến tính thay phiên liên tục bậc k trên $\mathrm{T}_e(G)$. Với mọi $u \in E$, cho $\omega^u$ là dạng vi phân bậc k trên G sao cho $(\omega^u)_g$ là dạng đa tuyến tính trên $\mathrm{T}_g(G)$ được dẫn xuất từ u bởi phép tịnh tiến $h \mapsto gh$ (tương ứng $h \mapsto hg$). Khi đó $\omega^u$ là giải tích và bất biến trái (tương ứng phải) trên G. Ánh xạ $u \mapsto \omega^u$ là một đẳng cấu từ E lên không gian vectơ các dạng vi phân bất biến trái (tương ứng phải) bậc k trên G.*
 
-Đây là một trường hợp riêng của điều đã nói ở trên.
+Đây là một trường hợp riêng của điều ta đã nói ở trên.
 
-Cho $F$ là một không gian khả chuẩn đầy đủ. Mệnh đề 50 vẫn đúng nếu các dạng vi phân trên $G$ nhận giá trị trong $K$ được thay bởi các dạng vi phân trên $G$ nhận giá trị trong $F$. Với mọi ánh xạ tuyến tính liên tục $u$ từ $\mathrm{T}_e(G)$ vào $F$, tồn tại một dạng vi phân $\omega^u$ bậc 1 trên $G$, với giá trị trong $F$, sao cho $(\omega^u)_g = u \circ \mathrm{T}_g(\gamma(g)^{-1})$. Đặc biệt, lấy $F = \mathrm{T}_e(G)$ và $u = \mathrm{Id}_{\mathrm{T}_e(G)}$. Khi đó ta thu được dạng vi phân $\omega$ trên $G$ sao cho $\omega_g = T_g(\gamma(g^{-1}))$; dạng vi phân này bất biến trái và giải tích; nó được gọi là *dạng vi phân chính tắc trái* của $G$. $\omega_g(t) = g^{-1}t$ với mọi $t \in T_g(G)$.
+Cho F là một không gian khả chuẩn đầy đủ. Mệnh đề 50 vẫn đúng nếu thay các dạng vi phân trên G với giá trị trong K bằng các dạng vi phân trên G với giá trị trong F. Với mọi ánh xạ tuyến tính liên tục $u$ từ $\mathrm{T}_e(G)$ vào F, tồn tại một dạng vi phân $\omega^u$ bậc 1 trên G, với giá trị trong F, sao cho $(\omega^u)_g = u \circ \mathrm{T}_g(\gamma(g)^{-1})$. Đặc biệt, lấy $F = \mathrm{T}_e(G)$ và $u = \mathrm{Id}_{\mathrm{T}_e(G)}$. Khi đó ta thu được dạng vi phân $\omega$ trên $G$ sao cho $\omega_g = T_g(\gamma(g^{-1}))$; dạng vi phân này là bất biến trái và giải tích; nó được gọi là *dạng vi phân chính tắc trái* của $G$. $\omega_g(t) = g^{-1}t$ với mọi $t \in T_g(G)$.
 
-Nếu $F$ lại là một không gian khả chuẩn đầy đủ tùy ý và $u \in \mathcal{L}(T_e(G), F)$, thì $\omega^u = u \circ \omega$. Đặc biệt (lấy $F = K$), ánh xạ $v \mapsto v \circ \omega$ là một song ánh tuyến tính từ đối ngẫu của $T_e(G)$ lên không gian vectơ các dạng vi phân bậc 1 với giá trị trong $K$ và bất biến trái dưới $G$.
+Nếu $F$ lại là một không gian khả chuẩn đầy đủ tùy ý và $u \in \mathcal{L}(T_e(G), F)$, thì $\omega^u = u \circ \omega$. Đặc biệt (lấy $F = K$), ánh xạ $v \mapsto v \circ \omega$ là một song ánh tuyến tính từ đối ngẫu của $T_e(G)$ lên không gian vectơ các dạng vi phân bậc 1 với giá trị trong $K$ bất biến trái dưới tác dụng của $G$.
 
-Tương tự, dạng vi phân $\omega'$ trên $G$ sao cho $\omega'_g = T_g(\delta(g))$ được gọi là *dạng vi phân chính tắc phải* của $G$. Có những tính chất tương tự như của $\omega$, mà chúng tôi để người đọc phát biểu. Ánh xạ $g \mapsto g^{-1}$ của $G$ lên $G$ biến $\omega$ thành $\omega'$.
+Tương tự, dạng vi phân $\omega'$ trên $G$ sao cho $\omega'_g = T_g(\delta(g))$ được gọi là *dạng vi phân chính tắc phải* của $G$. Có những tính chất tương tự như các tính chất của $\omega$, mà chúng tôi để người đọc tự phát biểu. Ánh xạ $g \mapsto g^{-1}$ từ $G$ lên $G$ biến đổi $\omega$ thành $\omega'$.
 
-### 14. CÔNG THỨC MAURER–CARTAN
+### 14. CÁC CÔNG THỨC MAURER–CARTAN
 
-Cho $X$ là một đa tạp lớp $C^r$, có số chiều hữu hạn nếu $K$ có đặc số $> 0$, và cho $L$ là một đại số Lie khả chuẩn đầy đủ. Cho $\alpha$ là một dạng vi phân bậc 1 trên $X$ với giá trị trong $L$, thuộc lớp $C^{r-1}$. Cho $x \in X$. Ánh xạ
+Cho $X$ là một đa tạp lớp $C^r$, có số chiều hữu hạn nếu $K$ có đặc số $> 0$, và cho $L$ là một đại số Lie khả chuẩn đầy đủ. Cho $\alpha$ là một dạng vi phân bậc 1 trên $X$ với giá trị trong $L$ thuộc lớp $C^{r-1}$. Cho $x \in X$. Ánh xạ
 
 $$
 (u_1, u_2) \mapsto [\alpha_x(u_1), \alpha_x(u_2)]
 $$
 
-từ $T_x(X) \times T_x(X)$ vào $L$ là một dạng song tuyến tính liên tục phản xứng trên $T_x(X)$ với giá trị trong $L$. Ta ký hiệu nó bởi $[\alpha]^2_x$, do đó $[\alpha]^2$ là một dạng vi phân bậc 2 trên $X$ với giá trị trong $L$. Xác định một lân cận mở của $x$ trong $X$ với một tập mở của một không gian Banach, ta thấy ngay rằng $[\alpha]^2$ thuộc lớp $C^{r-1}$. Nếu $X'$ là một đa tạp lớp $C^r$ và $f : X' \to X$ là một cấu xạ, thì
+từ $T_x(X) \times T_x(X)$ vào $L$ là một dạng song tuyến tính phản xứng liên tục trên $T_x(X)$ với giá trị trong $L$. Ta sẽ ký hiệu nó bởi $[\alpha]^2_x$, sao cho $[\alpha]^2$ là một dạng vi phân bậc 2 trên $X$ với giá trị trong $L$. Đồng nhất một lân cận mở của $x$ trong $X$ với một tập con mở của một không gian Banach, ta thấy ngay lập tức rằng $[\alpha]^2$ thuộc lớp $C^{r-1}$. Nếu $X'$ là một đa tạp lớp $C^r$ và $f : X' \to X$ là một cấu xạ, thì
 
 $$
 [f^*(\alpha)]^2 = f([\alpha]^2).
@@ -1434,7 +1458,7 @@ $$
 (\alpha \wedge \beta)_x(u_1, u_2) = [\alpha_x(u_1), \beta_x(u_2)] - [\alpha_x(u_2), \beta_x(u_1)]
 $$
 
-với $u_1, u_2$ trong $T_x(X)$. Suy ra ngay rằng
+với $u_1, u_2$ trong $T_x(X)$. Ngay lập tức thấy rằng
 
 $$
 [\alpha + \beta]^2 = [\alpha]^2 + [\beta]^2 + \alpha \wedge \beta
@@ -1445,31 +1469,31 @@ $$
 
 #### Mệnh đề 51 {#lie-iii-s3-prop-51 .statement}
 
-*Cho $G$ là một nhóm Lie, hữu hạn chiều nếu $K$ có đặc số $> 0$, và cho $a_1, \ldots, a_p$ là các phần tử của $L(G)$, $F$ là một không gian định chuẩn đầy đủ và $\alpha$ là một dạng vi phân bậc $p-1$ trên $G$ với giá trị trong $F$. Nếu $\alpha$ bất biến trái, thì*
+*Cho $G$ là một nhóm Lie, có số chiều hữu hạn nếu $K$ có đặc số $> 0$, và $a_1, \ldots, a_p$ là các phần tử của $L(G)$, $F$ là một không gian khả chuẩn đầy đủ và $\alpha$ là một dạng vi phân bậc $p-1$ trên $G$ với giá trị trong $F$. Nếu $\alpha$ là bất biến trái, thì*
 
 $$
 (d\alpha)_e(a_1, \ldots, a_p) = \sum_{i<j} (-1)^{i+j} \alpha_e([a_i, a_j], a_1, \ldots, a_{i-1}, a_{i+1}, \ldots, a_{j-1}, a_{j+1}, \ldots, a_p).
 $$
 
-Nếu $\alpha$ bất biến phải, thì
+Nếu $\alpha$ là bất biến phải, thì
 $$
 (d\alpha)_e(a_1, \ldots, a_p)
 = - \sum_{i < j} (-1)^{i+j} \alpha_e([a_i, a_j], a_1, \ldots, a_{i-1}, a_{i+1}, \ldots, a_{j-1}, a_{j+1}, \ldots, a_p).
 $$
-Giả sử rằng $\alpha$ bất biến trái. Theo *Differentiable and Analytic Manifolds*, R, 8.5.7, khi đó
+Giả sử rằng $\alpha$ là bất biến trái. Theo *Differentiable and Analytic Manifolds*, R, 8.5.7, khi đó
 $$
 (d\alpha)(L_{a_1}, \ldots, L_{a_p}) = \sum_i (-1)^{i-1} L_{a_i} \alpha(L_{a_1}, \ldots, L_{a_{i-1}}, L_{a_{i+1}}, \ldots, L_{a_p})
 + \sum_{i < j} (-1)^{i+j} \alpha([L_{a_i}, L_{a_j}], L_{a_1}, \ldots, L_{a_{i-1}}, L_{a_{i+1}}, \ldots, L_{a_{j-1}}, L_{a_{j+1}}, \ldots, L_{a_p}).
 $$
-Nhưng các hàm $\alpha(L_{a_1}, \ldots, L_{a_{i-1}}, L_{a_{i+1}}, \ldots, L_{a_p})$ trên G là bất biến trái và do đó là hằng. Suy ra
+Nhưng các hàm $\alpha(L_{a_1}, \ldots, L_{a_{i-1}}, L_{a_{i+1}}, \ldots, L_{a_p})$ trên G là bất biến trái và vì thế là hằng. Do đó
 $$
 L_{a_i} \alpha(L_{a_1}, \ldots, L_{a_{i-1}}, L_{a_{i+1}}, \ldots, L_{a_p}) = 0.
 $$
-Hơn nữa, $[L_{a_i}, L_{a_j}] = L_{[a_i, a_j]}$ (Mệnh đề 23), do đó có công thức thứ nhất của Mệnh đề 51. Công thức thứ hai có thể được thiết lập tương tự, lần này dùng quan hệ $[R_{a_i}, R_{a_j}] = -R_{[a_i, a_j]}$.
+Hơn nữa, $[L_{a_i}, L_{a_j}] = L_{[a_i, a_j]}$ (Mệnh đề 23), do đó có công thức thứ nhất của Mệnh đề 51. Công thức thứ hai được thiết lập tương tự, lần này dùng quan hệ $[R_{a_i}, R_{a_j}] = -R_{[a_i, a_j]}$.
 
 #### Hệ quả 1 {#lie-iii-s3-prop-51-cor-1 .statement}
 
-*Cho $G$ là một nhóm Lie, hữu hạn chiều nếu $K$ có đặc số $> 0$, và $\omega$ và $\omega'$ là các dạng vi phân chính tắc trái và phải của G. Khi đó*
+*Cho G là một nhóm Lie, có số chiều hữu hạn nếu K có đặc số > 0, và $\omega$ và $\omega'$ là các dạng vi phân chính tắc trái và phải của G. Khi đó*
 $$
 d\omega + [\omega]^2 = 0, \qquad d\omega' - [\omega']^2 = 0.
 $$
@@ -1478,11 +1502,11 @@ $$
 (d\omega)_e(a_1, a_2) = -\omega_e([a_1, a_2]) = -[a_1, a_2] = -[\omega_e(a_1), \omega_e(a_2)]
 = -[\omega]^2_e(a_1, a_2)
 $$
-do đó có công thức thứ nhất. Công thức thứ hai có thể được thiết lập tương tự.
+do đó có công thức thứ nhất. Công thức thứ hai được thiết lập tương tự.
 
 #### Hệ quả 2 {#lie-iii-s3-prop-51-cor-2 .statement}
 
-*Giả sử rằng G hữu hạn chiều. Cho $(e_1, \ldots, e_n)$ là một cơ sở của $L(G)$, $(e_1^*, \ldots, e_n^*)$ là cơ sở đối ngẫu, $(c_{ijk})$ là các hằng số cấu trúc của $L(G)$ theo cơ sở $(e_1, \ldots, e_n)$ và $\omega_i$ (tương ứng $\omega'_i$) là dạng vi phân bất biến trái (tương ứng phải) trên G với giá trị trong K sao cho $(\omega_i)_e = e_i^*$ (tương ứng $(\omega'_i)_e = e_i^*$). Khi đó*
+*Giả sử rằng G là hữu hạn chiều. Cho $(e_1, \ldots, e_n)$ là một cơ sở của $L(G)$, $(e_1^*, \ldots, e_n^*)$ là cơ sở đối ngẫu, $(c_{ijk})$ là các hằng cấu trúc của $L(G)$ đối với cơ sở $(e_1, \ldots, e_n)$ và $\omega_i$ (tương ứng $\omega'_i$) là dạng vi phân bất biến trái (tương ứng phải) trên G với giá trị trong K sao cho $(\omega_i)_e = e_i^*$ (tương ứng $(\omega'_i)_e = e_i^*$). Khi đó*
 $$
 d\omega_k + \sum_{i < j} c_{ijk} \omega_i \wedge \omega_j = 0 \quad (k = 1, 2, \ldots, n)
 $$
@@ -1496,13 +1520,13 @@ $$
 = -c_{rsk}
 = -\sum_{i < j} c_{ijk} (\omega_i \wedge \omega_j)_e(e_r, e_s).
 $$
-Lập luận tương tự cho các $\omega'_k$.
+Lập luận là tương tự đối với các $\omega'_k$.
 
 ### 15. PHÉP DỰNG CÁC DẠNG VI PHÂN BẤT BIẾN
 
 #### Bổ đề 2 {#lie-iii-s3-lem-2 .statement}
 
-Cho G là một nhóm Lie, U là một lân cận mở đối xứng của e trong G, E là một không gian định chuẩn đầy đủ và $\phi : U^2 \to E$ là một ánh xạ giải tích. Với mọi $g \in U$, cho $\omega_g$ là vi phân tại điểm g của ánh xạ $h \mapsto \phi(g^{-1}h)$. Khi đó $\omega$ là hạn chế lên U của dạng vi phân bất biến trái trên G có giá trị tại e là $d_e \phi$.
+Cho G là một nhóm Lie, U là một lân cận mở đối xứng của e trong G, E là một không gian khả chuẩn đầy đủ và $\phi : U^2 \to E$ là một ánh xạ giải tích. Với mọi $g \in U$, gọi $\omega_g$ là vi phân tại điểm g của ánh xạ $h \mapsto \phi(g^{-1}h)$. Khi đó $\omega$ là hạn chế lên U của dạng vi phân bất biến trái trên G mà giá trị tại e là $d_e \phi$.
 
 Rõ ràng $\omega_e = d_e \phi$. Với mọi $g \in U$ và mọi $t \in T_e(G)$,
 
@@ -1515,13 +1539,13 @@ và do đó $\omega_g$ được dẫn xuất từ $d_e \phi$ bởi $T_e(\gamma(g
 
 #### Mệnh đề 52 {#lie-iii-s3-prop-52 .statement}
 
-Cho n là một số nguyên > 0, G là một nhóm Lie n chiều, U là một lân cận mở đối xứng của e trong G và $\psi : U^2 \to K^n$ là một bản đồ của G sao cho $\psi(e) = 0$. Nếu $(x_1, \ldots, x_n)$ là các tọa độ của $x \in \psi(U)$ và $(y_1, \ldots, y_n)$ là các tọa độ của $y \in \psi(U)$, ta ký hiệu
+Cho n là một số nguyên > 0, G là một nhóm Lie n-chiều, U là một lân cận mở đối xứng của e trong G và $\psi : U^2 \to K^n$ là một bản đồ tọa độ của G sao cho $\psi(e) = 0$. Nếu $(x_1, \ldots, x_n)$ là các tọa độ của $x \in \psi(U)$ và $(y_1, \ldots, y_n)$ là các tọa độ của $y \in \psi(U)$, ta ký hiệu bởi
 
 $$
 m_1(x_1, \ldots, x_n, y_1, \ldots, y_n), \ldots, m_n(x_1, \ldots, x_n, y_1, \ldots, y_n)
 $$
 
-là các tọa độ của $\psi(\psi^{-1}(x)^{-1}\psi^{-1}(y))$. Khi đó, nếu viết, với $1 \leq k \leq n$,
+các tọa độ của $\psi(\psi^{-1}(x)^{-1}\psi^{-1}(y))$. Khi đó, nếu ta viết, với $1 \leq k \leq n$,
 
 $$
 \varpi_k(x_1, \ldots, x_n) = D_{n+1} m_k(x_1, \ldots, x_n, x_1, \ldots, x_n) dx_1 + \cdots \\
@@ -1530,21 +1554,21 @@ $$
 
 thì các dạng vi phân $\varpi_k$ trên $\psi(U)$ được dẫn xuất qua $\psi$ từ các dạng vi phân bất biến trái trên G và thỏa mãn $\varpi_k(0, \ldots, 0) = dx_k$.
 
-Ta áp dụng Bổ đề 2 với $E = K$, lấy $\phi(g)$ là tọa độ của $\psi(g)$ có chỉ số k. Ta thu được một dạng vi phân $\omega_k$; gọi $\varpi_k$ là biến đổi của nó dưới $\psi$. Giá trị của $\varpi_k$ tại $(x_1, \ldots, x_n)$ là vi phân tại $(x_1, \ldots, x_n)$ của hàm $y \mapsto m_k(x_1, \ldots, x_n, y_1, \ldots, y_n)$; do đó giá trị này được cho bởi công thức (32). Khi đó chỉ cần dùng kết luận của Bổ đề 2.
+Ta áp dụng Bổ đề 2 với $E = K$, lấy $\phi(g)$ là tọa độ chỉ số k của $\psi(g)$. Ta thu được một dạng vi phân $\omega_k$; gọi $\varpi_k$ là biến đổi của nó qua $\psi$. Giá trị của $\varpi_k$ tại $(x_1, \ldots, x_n)$ là vi phân tại $(x_1, \ldots, x_n)$ của hàm $y \mapsto m_k(x_1, \ldots, x_n, y_1, \ldots, y_n)$; do đó giá trị này được cho bởi công thức (32). Khi đó chỉ cần dùng kết luận của Bổ đề 2.
 
 #### Mệnh đề 53 {#lie-iii-s3-prop-53 .statement}
 
-Cho G là một nhóm Lie, A là một đại số đầy đủ chuẩn hóa được và $\phi$ là một morphism nhóm Lie của G vào $A^*$. Với mọi $g \in G$, đặt $\omega_g = \phi(g)^{-1} d_g \phi$. Khi đó $\omega$ là dạng vi phân bất biến trái trên G có giá trị tại e là d_e \phi.
+Cho G là một nhóm Lie, A là một đại số khả chuẩn đầy đủ và $\phi$ là một cấu xạ nhóm Lie từ G vào $A^*$. Với mọi $g \in G$, đặt $\omega_g = \phi(g)^{-1} d_g \phi$. Khi đó $\omega$ là dạng vi phân bất biến trái trên G có giá trị tại e là $d_e \phi$.
 
 Ta áp dụng Bổ đề 2 với $E = A$ và $U = G$. Vi phân tại g của ánh xạ $h \mapsto \phi(g^{-1}h) = \phi(g)^{-1} \phi(h)$ là $\phi(g)^{-1} d_g \phi$.
 
 ### 16. ĐỘ ĐO HAAR TRÊN MỘT NHÓM LIE
 
-Cho G là một nhóm Lie có số chiều hữu hạn n. Khi đó $\bigwedge^n(T_e(G))$ có số chiều 1. Do đó (no. 13) không gian vectơ S của các dạng vi phân bất biến trái bậc n trên G có số chiều 1. Cho $(\omega_1, \ldots, \omega_n)$ là một cơ sở của không gian các dạng vi phân bất biến trái bậc 1 trên G; khi đó $\omega_1 \wedge \omega_2 \wedge \cdots \wedge \omega_n$ là một cơ sở của S.
+Cho G là một nhóm Lie có số chiều hữu hạn n. Khi đó $\bigwedge^n(T_e(G))$ có chiều bằng 1. Do đó (no. 13) không gian vectơ S của các dạng vi phân bất biến trái bậc n trên G có chiều bằng 1. Gọi $(\omega_1, \ldots, \omega_n)$ là một cơ sở của không gian các dạng vi phân bất biến trái bậc 1 trên G; khi đó $\omega_1 \wedge \omega_2 \wedge \cdots \wedge \omega_n$ là một cơ sở của S.
 
 #### Mệnh đề 54 {#lie-iii-s3-prop-54 .statement}
 
-Cho G là một nhóm Lie có số chiều hữu hạn n, $\omega$ là một dạng vi phân bất biến trái bậc n trên G và $\phi$ là một tự đồng cấu của G. Khi đó
+Cho G là một nhóm Lie có số chiều hữu hạn n, ω là một dạng vi phân bất biến trái bậc n trên G và φ là một tự đồng cấu của G. Khi đó
 
 $$
 \phi^*(\omega) = (\det L(\phi)) \omega.
@@ -1562,7 +1586,7 @@ $$
 \phi \circ \gamma(g) = \gamma(\phi(g)) \circ \phi
 $$
 
-và do đó $\gamma(g)^*\phi^*(\omega) = \phi^*(\omega)$. Vậy $\phi^*(\omega)$ là bất biến trái, do đó mệnh đề.
+và do đó $\gamma(g)^*\phi^*(\omega) = \phi^*(\omega)$. Vậy $\phi^*(\omega)$ là bất biến trái, do đó suy ra mệnh đề.
 
 #### Hệ quả {#lie-iii-s3-n16-cor-1 .statement}
 
@@ -1576,20 +1600,20 @@ $$
 \delta(g)^*\omega = \delta(g)^*\gamma(g)^*\omega = (\mathrm{Int}\, g)^*\omega \text{ và } L(\mathrm{Int}\, g) = \mathrm{Ad}\, g.
 $$
 
-Cho G là một nhóm compact địa phương và φ là một tự đồng cấu của G. Giả sử rằng tồn tại các lân cận mở V, $V'$ của e sao cho $\phi(V) = V'$ và $\phi|V$ là một đẳng cấu địa phương của G vào G. Cho μ là một độ đo Haar trái trên G. Theo Tích phân, chương VII, § 1, Hệ quả của Mệnh đề 9, tồn tại duy nhất một số $a > 0$ sao cho $\phi(\mu|V) = a^{-1}\mu|V'$. Rõ ràng a không phụ thuộc vào lựa chọn của V, $V'$ và μ. Nó được gọi là môđun của φ và được ký hiệu bởi $\mathrm{mod}_G \phi$ hoặc đơn giản $\mathrm{mod}\, \phi$. Khi φ là một tự đẳng cấu của G, ta thu được Định nghĩa 4 của Tích phân, chương VII, § 1.
+Cho G là một nhóm compact địa phương và φ một tự đồng cấu của G. Giả sử tồn tại các lân cận mở V, $V'$ của e sao cho $\phi(V) = V'$ và $\phi|V$ là một đẳng cấu địa phương của G vào G. Gọi μ là một độ đo Haar trái trên G. Theo Integration, Chương VII, § 1, Hệ quả của Mệnh đề 9, tồn tại một số duy nhất $a > 0$ sao cho $\phi(\mu|V) = a^{-1}\mu|V'$. Rõ ràng a độc lập với lựa chọn của V, $V'$ và μ. Nó được gọi là môđun của φ và được ký hiệu bởi $\mathrm{mod}_G \phi$ hoặc đơn giản là $\mathrm{mod}\, \phi$. Khi φ là một tự đẳng cấu của G, ta thu lại Định nghĩa 4 của Integration, Chương VII, § 1.
 
 #### Mệnh đề 55 {#lie-iii-s3-prop-55 .statement}
 
-Giả sử rằng K là compact địa phương. Cho μ là một độ đo Haar trên nhóm cộng của K. Cho G là một nhóm Lie có số chiều hữu hạn n.
+Giả sử rằng K là compact địa phương. Gọi μ là một độ đo Haar trên nhóm cộng của K. Gọi G là một nhóm Lie có số chiều hữu hạn n.
 
-(i) Cho ω là một dạng vi phân bậc n khác không, bất biến trái trên G. Khi đó độ đo $\mathrm{mod}(\omega)_\mu$ (Đa tạp khả vi và giải tích, R, 10.1.6) là một độ đo Haar trái trên G. Nếu $K = \mathbf{R}$ và G có hướng do ω xác định, thì độ đo do ω xác định (Đa tạp khả vi và giải tích, R, 10.4.3) là một độ đo Haar trái trên G.
+(i) Gọi ω là một dạng vi phân bất biến trái khác không bậc n trên G. Khi đó độ đo $\mathrm{mod}(\omega)_\mu$ (Differentiable and Analytic Manifolds, R, 10.1.6) là một độ đo Haar trái trên G. Nếu $K = \mathbf{R}$ và G có định hướng do ω xác định, thì độ đo do ω xác định (Differentiable and Analytic Manifolds, R, 10.4.3) là một độ đo Haar trái trên G.
 
-(ii) Cho φ là một tự đồng cấu étale của G. Khi đó $\mathrm{mod}\, \phi = \mathrm{mod}\, \det L(\phi)$.
+(ii) Gọi φ là một tự đồng cấu étale của G. Khi đó $\mathrm{mod}\, \phi = \mathrm{mod}\, \det L(\phi)$.
 
-(i) hiển nhiên. Cho V, $V'$ là các lân cận mở của e sao cho $\phi(V) = V'$ và $\phi|V$ là một đẳng cấu địa phương của G vào G. Khi đó
+(i) là hiển nhiên. Gọi V, $V'$ là các lân cận mở của e sao cho $\phi(V) = V'$ và $\phi|V$ là một đẳng cấu địa phương của G vào G. Khi đó
 
 $$
-\phi^{-1}(\mathrm{mod}(\omega)_\mu|V') = \mathrm{mod}(\phi^*(\omega))_\mu|V) \quad \text{do phép chuyển cấu trúc}
+\phi^{-1}(\mathrm{mod}(\omega)_\mu|V') = \mathrm{mod}(\phi^*(\omega))_\mu|V) \quad \text{theo phép chuyển cấu trúc}
 $$
 $$
 = \mathrm{mod}(\det L(\phi)\omega|V)_\mu \quad \text{(Mệnh đề 54)}
@@ -1602,32 +1626,32 @@ do đó $\mathrm{mod}\, \phi = \mathrm{mod}\, \det L(\phi)$ theo định nghĩa 
 
 #### Hệ quả {#lie-iii-s3-n16-cor-2 .statement}
 
-Với mọi $g \in G$, $\Delta_G(g) = (\operatorname{mod} \det \operatorname{Ad} g)^{-1}$. Đặc biệt, để $G$ là đơn môđula, điều kiện cần và đủ là $\operatorname{mod} \det \operatorname{Ad} g = 1$ với mọi $g \in G$.
+Với mọi $g \in G$, $\Delta_G(g) = (\operatorname{mod} \det \operatorname{Ad} g)^{-1}$. Đặc biệt, để G là đơn môđula, điều kiện cần và đủ là $\operatorname{mod} \det \operatorname{Ad} g = 1$ với mọi $g \in G$.
 
 $$
-\Delta_G(g) = (\operatorname{mod} \operatorname{Int} g)^{-1} \quad \text{(Tích phân, chương VII, § 1, công thức (33))}
+\Delta_G(g) = (\operatorname{mod} \operatorname{Int} g)^{-1} \quad \text{(Integration, Chương VII, § 1, công thức (33))}
 = (\operatorname{mod} \det L(\operatorname{Int} g))^{-1} \quad \text{(Mệnh đề 55)}
 = (\operatorname{mod} \det \operatorname{Ad} g)^{-1}.
 $$
 
 #### Nhận xét {#lie-iii-s3-n16-rem-1 .statement}
 
-Giữ nguyên các giả thiết và ký hiệu của Mệnh đề 52, giả sử rằng K là compact địa phương. Cho μ là độ đo
+Giữ nguyên các giả thiết và ký hiệu của Mệnh đề 52, giả sử rằng $K$ là compact địa phương. Gọi $\mu$ là độ đo
 $$
 \operatorname{mod} \det(D_{n+i}m_k(x_1, \ldots, x_n, x_1, \ldots, x_n))_{1 \leq i, k \leq n} dx_1 \ldots dx_n
 $$
-trên $\psi(U)$. Khi đó $\psi^{-1}(\mu)$ là hạn chế lên U của một độ đo Haar trên G.
+trên $\psi(U)$. Khi đó $\psi^{-1}(\mu)$ là hạn chế lên $U$ của một độ đo Haar trên $G$.
 
 #### Mệnh đề 56 {#lie-iii-s3-prop-56 .statement}
 
-Cho G là một nhóm Lie có số chiều hữu hạn n, H là một nhóm con Lie p chiều và X là không gian thuần nhất Lie $G/H$. Giả sử rằng
+Cho $G$ là một nhóm Lie có số chiều hữu hạn $n$, $H$ là một nhóm con Lie p-chiều và $X$ là không gian thuần nhất Lie $G/H$. Giả sử rằng
 $$
 \det \operatorname{Ad}_{L(G)} h = \det \operatorname{Ad}_{L(H)} h
 $$
 với mọi $h \in H$. Khi đó:
-(i) Các dạng vi phân bậc $n - p$ trên X bất biến dưới tác dụng của G là giải tích.
-(ii) Không gian vectơ của các dạng đó có số chiều 1.
-(iii) Nếu ω là một dạng như vậy khác không và K là compact địa phương, $\operatorname{mod}(\omega)_\mu$ là một độ đo khác không trên X bất biến dưới G.
+(i) Các dạng vi phân bậc $n - p$ trên $X$ bất biến dưới G đều là giải tích.
+(ii) Không gian vectơ của các dạng ấy có chiều bằng 1.
+(iii) Nếu $\omega$ là một dạng như vậy khác không và $K$ là compact địa phương, thì $\operatorname{mod}(\omega)_\mu$ là một độ đo khác không trên $X$ bất biến dưới G.
 
 Theo § 1, no. 8, Ví dụ, $\operatorname{Alt}^{n-p}(TX, K)$ là một bó vectơ giải tích $G$. Cho $x_0$ là ảnh chính tắc của $e$ trong $X$; nhóm ổn định của nó là $H$. Sợi của $\operatorname{Alt}^{n-p}(TX, K)$ tại $x_0$ là $\bigwedge^{n-p} T_{x_0}(X)^*$ và $T_{x_0}(X)$ được đồng nhất một cách chính tắc với $L(G)/L(H)$. Nếu $h \in H$, tự đẳng cấu $\tau_h$ của $X$ do $h$ xác định là dẫn xuất khi chuyển qua thương từ tự đẳng cấu $g \mapsto hgh^{-1}$ của $G$. Do đó tự đẳng cấu $T_{x_0}(\tau_h)$ là dẫn xuất khi chuyển qua thương từ $\operatorname{Ad}_{L(G)}(h)$. Như
 $$
@@ -1657,11 +1681,11 @@ t(L_{u_1 * u_2}) &= t(L_{u_1} \circ L_{u_2}) & \text{(Mệnh đề 23)} \\
 \end{align*}
 $$
 
-và do đó mệnh đề đúng với $u_1 * u_2$. Vì vậy đủ để chứng minh mệnh đề khi $u \in T_e(G)$. Bây giờ $L_u$ được xác định bởi $G$ tác động lên $G$ ở bên phải (no. 6) và do đó $\theta_{L_u} \omega = 0$ vì $\omega$ là bất biến phải (\emph{Differentiable and Analytic Manifolds}, R, 8.4.5); vì thế, nếu $f$ là một hàm giải tích trong một lân cận mở của $e$ nhận giá trị trong $K$, thì $\theta_{L_u}(f \omega) = (\theta_{L_u} f) \omega$ (\emph{Differentiable and Analytic Manifolds}, R, 8.4.8). Dùng các đồng nhất thức đã nêu và \emph{Differentiable and Analytic Manifolds}, R, 14.4.1, chuyển vị của $L_u$ là $-L_u$, tức là $L_u^\nu$.
+và do đó mệnh đề đúng với $u_1 \* u_2$. Vì vậy đủ để chứng minh mệnh đề khi $u \in T_e(G)$. Bây giờ $L_u$ được xác định bởi $G$ tác động lên $G$ ở bên phải (no. 6) và do đó $\theta_{L_u} \omega = 0$ vì $\omega$ là bất biến phải (\emph{Differentiable and Analytic Manifolds}, R, 8.4.5); vì thế, nếu $f$ là một hàm giải tích trong một lân cận mở của $e$ nhận giá trị trong $K$, thì $\theta_{L_u}(f \omega) = (\theta_{L_u} f) \omega$ (\emph{Differentiable and Analytic Manifolds}, R, 8.4.8). Dùng các đồng nhất thức đã nêu và \emph{Differentiable and Analytic Manifolds}, R, 14.4.1, chuyển vị của $L_u$ là $-L_u$, tức là $L_u^\nu$.
 
 #### Hệ quả {#lie-iii-s3-n16-cor-3 .statement}
 
-Let $G$ be a finite-dimensional real Lie group, $\mu$ (resp. $\nu$) a left (resp. right) Haar measure on $G$, $k$ an integer $\geqslant 0$, $u \in U_k(G)$ and $f$ and $g$ real-valued functions of class $C^k$ on $G$ with compact support. Khi đó
+Cho $G$ là một nhóm Lie thực hữu hạn chiều, $\mu$ (resp. $\nu$) một độ đo Haar trái (resp. phải) trên $G$, $k$ một số nguyên $\geqslant 0$, $u \in U_k(G)$ và $f$ và $g$ là các hàm thực thuộc lớp $C^k$ trên $G$ có giá compact. Khi đó
 
 $$
 \int_G (R_u f) g \, d\mu = \int_G f (R_u^\nu g) \, d\mu
@@ -1670,33 +1694,33 @@ $$
 \int_G (L_u f) g \, d\nu = \int_G f (L_u^\nu g) \, d\nu.
 $$
 
-Điều này suy ra từ Mệnh đề 57 và \emph{Differentiable and Analytic Manifolds}, R, 14.3.8.
+Điều này suy ra từ Mệnh đề 57 và *Đa tạp khả vi và giải tích*, R, 14.3.8.
 
 ### 17. VI PHÂN TRÁI
 
 #### Định nghĩa 9 {#lie-iii-s3-def-9 .statement}
 
-Let $G$ be a Lie group, $M$ a manifold of class $C^r$ and $f$ a mapping of class $C^r$ of $M$ into $G$. Vi phân trái (tương ứng phải) của $f$ là dạng vi phân bậc 1 trên $M$ với giá trị trong $L(G)$, gán với mỗi vectơ $u \in T_m(M)$ phần tử $f(m)^{-1} \cdot (T_m f)(u)$ (tương ứng $(T_m f)(u) \cdot f(m)^{-1}$).
+Cho $G$ là một nhóm Lie, $M$ một đa tạp thuộc lớp $C^r$ và $f$ một ánh xạ thuộc lớp $C^r$ từ $M$ vào $G$. Vi phân trái (resp. phải) của $f$ là dạng vi phân bậc 1 trên $M$ với giá trị trong $L(G)$, ánh xạ này gán cho mỗi vectơ $u \in T_m(M)$ phần tử $f(m)^{-1} \cdot (T_m f)(u)$ (resp. $(T_m f)(u) \cdot f(m)^{-1}$).
 
-Trong chương này chúng ta chỉ xét vi phân trái, mà ta sẽ ký hiệu là $f^{-1}.df$, và để lại cho bạn đọc việc chuyển các kết quả sang vi phân phải.
+Trong chương này ta sẽ chỉ xét vi phân trái, mà ta sẽ ký hiệu là $f^{-1}.df$, và để cho người đọc việc chuyển các kết quả sang trường hợp vi phân phải.
 
-Nếu $f$ là ánh xạ đồng nhất của $G$, $f^{-1}.df$ là dạng vi phân trái chính tắc $\omega$ của $G$. Trở lại trường hợp tổng quát của Định nghĩa 8,
+Nếu $f$ là ánh xạ đồng nhất của $G$, thì $f^{-1}.df$ là dạng vi phân trái chính tắc $\omega$ của $G$. Trở lại trường hợp tổng quát của Định nghĩa 8,
 
 $$
 (f^{-1}.df)_m = \omega_{f(m)} \circ T_m(f)
 $$
 
-và do đó $f^{-1}.df = f^*(\omega)$. Điều này suy ra rằng $f^{-1}.df$ thuộc lớp $C^{r-1}$.
+và do đó $f^{-1}.df = f^*(\omega)$. Điều này kéo theo rằng $f^{-1}.df$ thuộc lớp $C^{r-1}$.
 
 #### Ví dụ {#lie-iii-s3-n17-exa-1 .statement}
 
-(1) Nếu $G$ là nhóm cộng của một không gian chuẩn hóa đầy đủ và $T_0(E)$ được đồng nhất chính tắc với $E$, thì $f^{-1}.df$ là vi phân $df$ được định nghĩa trong Differentiable and Analytic Manifolds, R, 8.2.2.
+(1) Nếu $G$ là nhóm cộng của một không gian khả chuẩn đầy đủ và $T_0(E)$ được đồng nhất một cách chính tắc với $E$, thì $f^{-1}.df$ là vi phân $df$ được định nghĩa trong Đa tạp khả vi và giải tích, R, 8.2.2.
 
-(2) Giả sử $G$ là nhóm nhân $A^*$ liên kết với một đại số chuẩn hóa đầy đủ $A$. Khi đó có thể xem $f$ như một ánh xạ của $M$ vào $A$ và do đó vi phân $df$ theo nghĩa của Differentiable and Analytic Manifolds, R, 8.2.2 được xác định, và tích $f^{-1}df$ theo nghĩa của Differentiable and Analytic Manifolds, R, 8.3.2 được xác định. Rõ ràng dạng sau cùng này trùng với vi phân trái của $f$.
+(2) Giả sử rằng $G$ là nhóm nhân $A^*$ liên kết với một đại số khả chuẩn đầy đủ $A$. Khi đó $f$ có thể được xem như một ánh xạ từ $M$ vào $A$ và vì vậy vi phân $df$ theo nghĩa của Đa tạp khả vi và giải tích, R, 8.2.2 được xác định và tích $f^{-1}df$ theo nghĩa của Đa tạp khả vi và giải tích, R, 8.3.2 được xác định. Rõ ràng dạng sau đồng nhất với vi phân trái của $f$.
 
 #### Mệnh đề 58 {#lie-iii-s3-prop-58 .statement}
 
-Let $G$ và $H$ là hai nhóm Lie, $M$ là một đa tạp lớp $C^r$, $f$ là một ánh xạ lớp $C^r$ của $M$ vào $G$ và $h$ là một cấu xạ của $G$ vào $H$. Khi đó
+Cho $G$ và $H$ là hai nhóm Lie, $M$ là một đa tạp lớp $C^r$, $f$ là một ánh xạ lớp $C^r$ từ $M$ vào $G$ và $h$ là một cấu xạ từ $G$ vào $H$. Khi đó
 
 $$
 (h \circ f)^{-1}.d(h \circ f) = L(h) \circ (f^{-1}.df) = (h^{-1}.dh) \circ T(f).
@@ -1708,7 +1732,7 @@ $$
 (h \circ f)^{-1}.d(h \circ f)(u) = ((h \circ f)(x))^{-1}.T(h \circ f)(u).
 $$
 
-Biểu thức sau bằng, một mặt, với
+Biểu thức sau cùng này, một mặt, bằng
 
 $$
 T(h)(f(x)^{-1}.T(f)(u)) \quad (§ 2, \text{Mệnh đề 5})
@@ -1717,7 +1741,7 @@ $$
 = T_e(h)((f^{-1}.df)(u))
 $$
 
-và, mặt khác, với
+và, mặt khác, bằng
 
 $$
 h(f(x))^{-1}T(h)(T(f)u)
@@ -1728,11 +1752,11 @@ $$
 
 #### Mệnh đề 59 {#lie-iii-s3-prop-59 .statement}
 
-Cho $G$ là một nhóm Lie, $M$ là một đa tạp lớp $C^r$, $f$ và $g$ là các ánh xạ lớp $C^r$ của $M$ vào $G$ và $p$ là toàn cấu chính tắc của $TM$ lên $M$.
+Cho $G$ là một nhóm Lie, $M$ là một đa tạp lớp $C^r$, $f$ và $g$ là các ánh xạ lớp $C^r$ từ $M$ vào $G$ và $p$ là toàn cấu chính tắc từ $TM$ lên $M$.
 
 (i) $(fg)^{-1}.d(fg) = (\mathrm{Ad} \circ g \circ p)^{-1} \circ (f^{-1}.df) + g^{-1}.dg.$
 
-(ii) Viết $h(m) = f(m)^{-1}$ với mọi $m \in M$,
+(ii) Đặt $h(m) = f(m)^{-1}$ với mọi $m \in M$,
 
 $$
 h^{-1}.dh = -(\mathrm{Ad} \circ f \circ p) \circ (f^{-1}.df).
@@ -1742,17 +1766,17 @@ Mệnh đề (i) suy ra từ § 2, no. 2, Mệnh đề 7. Mệnh đề (ii) suy 
 
 #### Hệ quả 1 {#lie-iii-s3-prop-59-cor-1 .statement}
 
-Cho $s \in G$ và $sg$ là ánh xạ $x \mapsto sg(x)$ của $M$ vào $G$. Khi đó
+Cho $s \in G$ và $sg$ là ánh xạ $x \mapsto sg(x)$ từ $M$ vào $G$. Khi đó
 
 $$
 (sg)^{-1}.d(sg) = g^{-1}.dg.
 $$
 
-Điều này suy ra từ Mệnh đề 59 (i) khi lấy $f$ là ánh xạ hằng $x \mapsto s$ của $M$ vào $G$.
+Điều này suy ra từ Mệnh đề 59 (i) khi lấy $f$ là ánh xạ hằng $x \mapsto s$ từ $M$ vào $G$.
 
 #### Hệ quả 2 {#lie-iii-s3-prop-59-cor-2 .statement}
 
-*Nếu các ánh xạ $f$ và $g$ của $M$ vào $G$ có cùng vi phân trái, thì ánh xạ tiếp tuyến của $fg^{-1}$ ở mọi nơi đều bằng không. Nếu thêm $K$ có đặc số 0, thì $fg^{-1}$ là địa phương hằng.*
+*Nếu các ánh xạ $f$ và $g$ từ $M$ vào $G$ có cùng vi phân trái, thì ánh xạ tiếp xúc của $fg^{-1}$ bằng không tại mọi điểm. Hơn nữa, nếu $K$ có đặc số 0, thì $fg^{-1}$ địa phương hằng.*
 
 Theo Mệnh đề 59,
 
@@ -1760,7 +1784,7 @@ $$
 (fg^{-1})^{-1} \cdot d(fg^{-1}) = (\mathrm{Ad} \circ g \circ p) \circ (f^{-1}.df) - (\mathrm{Ad} \circ g \circ p) \circ (g^{-1}.dg).
 $$
 
-Nếu $f^{-1}.df = g^{-1}.dg$, thì $(fg^{-1})^{-1} \cdot d(fg^{-1}) = 0$, tức là $T_x(fg^{-1}) = 0$ với mọi $x \in M$. Điều này chứng minh mệnh đề thứ nhất. Mệnh đề thứ hai suy ra từ đó theo *Differentiable and Analytic Manifolds*, R, 5.5.3.
+Nếu $f^{-1}.df = g^{-1}.dg$, thì $(fg^{-1})^{-1} \cdot d(fg^{-1}) = 0$, nghĩa là $T_x(fg^{-1}) = 0$ với mọi $x \in M$. Điều này chứng minh mệnh đề thứ nhất. Mệnh đề thứ hai suy ra từ đó theo *Differentiable and Analytic Manifolds*, R, 5.5.3.
 
 #### Mệnh đề 60 {#lie-iii-s3-prop-60 .statement}
 
@@ -1777,30 +1801,30 @@ $$
 
 Trong số này, $(G, e, \theta, m)$ ký hiệu một mầm nhóm Lie. Phần lớn các kết quả của § vẫn đúng với cùng một chứng minh. Ta sẽ xem lại những kết quả mà ta thấy hữu ích.
 
-18.1. Cho $\Omega$ là miền xác định của $m$. Cho $(g, g') \in \Omega,\ t \in T_e^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. Như ở no. 1, tích chập của $t$ và $t'$, ký hiệu là $t * t'$, là ảnh của $t \otimes t'$ dưới $m$. Ta viết $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. Với $t, t'$ trong $U(G)$, $t * t'$ được xác định và thuộc $U(G)$. Với tích chập, $U(G)$ là một đại số kết hợp có phần tử đơn vị $\varepsilon_e$, được lọc bởi các $U_s(G)$. Đẳng cấu chính tắc $i_{G,e}$ của gr $U(G)$ lên $TS(T_e(G))$ là một đẳng cấu đại số.
+18.1. Cho $\Omega$ là miền xác định của $m$. Cho $(g, g') \in \Omega,\ t \in T_e^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. Như ở no. 1, tích chập của $t$ và $t'$, ký hiệu là $t \* t'$, là ảnh của $t \otimes t'$ dưới $m$. Ta viết $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. Với $t, t'$ trong $U(G)$, $t \* t'$ được xác định và thuộc $U(G)$. Với tích chập, $U(G)$ là một đại số kết hợp có phần tử đơn vị $\varepsilon_e$, được lọc bởi các $U_s(G)$. Đẳng cấu chính tắc $i_{G,e}$ của gr $U(G)$ lên $TS(T_e(G))$ là một đẳng cấu đại số.
 
-18.2. Cho $G, H$ là các mầm nhóm Lie và $\phi : G \to H$ là một cấu xạ. Nếu $t \in U(G)$, ảnh $U(\phi)(t)$ của $t$ dưới $\phi_*$ là một phần tử của $U(H)$ và $U(\phi)$ là một cấu xạ của đại số $U(G)$ vào đại số $U(H)$. Ánh xạ $\theta : x \mapsto x^{-1}$ của $G$ vào $G$ xác định một ánh xạ $t \mapsto t^\vee$ của $U(G)$ vào $U(G)$. Với $t, t'$ trong $U(G)$, tích $t * t'$ được xét tương ứng với $G^\vee$ bằng tích $t' * t$ được xét tương ứng với $G$ và $(t * t')^\vee = {t'}^\vee * t^\vee$. Khi đó $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. Nếu $G_1, \ldots, G_n$ là các mầm nhóm Lie và $G = G_1 \times \cdots \times G_n$, thì đẳng cấu chính tắc của $U(G_1) \otimes \cdots \otimes U(G_n)$ lên $U(G)$ là một đẳng cấu đại số;
+18.2. Cho $G, H$ là các mầm nhóm Lie và $\phi : G \to H$ là một cấu xạ. Nếu $t \in U(G)$, ảnh $U(\phi)(t)$ của $t$ dưới $\phi_*$ là một phần tử của $U(H)$ và $U(\phi)$ là một cấu xạ của đại số $U(G)$ vào đại số $U(H)$. Ánh xạ $\theta : x \mapsto x^{-1}$ của $G$ vào $G$ xác định một ánh xạ $t \mapsto t^\vee$ của $U(G)$ vào $U(G)$. Với $t, t'$ trong $U(G)$, tích $t \* t'$ tính đối với $G^\vee$ bằng tích $t' \* t$ tính đối với $G$ và $(t \* t')^\vee = {t'}^\vee \* t^\vee$. Khi đó $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. Nếu $G_1, \ldots, G_n$ là các mầm nhóm Lie và $G = G_1 \times \cdots \times G_n$, thì đẳng cấu chính tắc của $U(G_1) \otimes \cdots \otimes U(G_n)$ lên $U(G)$ là một đẳng cấu đại số;
 
 với $t_1, \ldots, t_n$ trong $U(G)$, $(t_1 \otimes \cdots \otimes t_n)^{\vee} = t_1^{\vee} \otimes \cdots \otimes t_n^{\vee}$. Cho $H$ là một mầm nhóm con Lie của $G$ và $i : H \to G$ là đơn ánh chính tắc. Khi đó $U(i)$ là một đồng cấu đơn cấu của đại số $U(H)$ vào $U(G)$ và
 $$
 U(i)(t^{\vee}) = (U(i)(t))^{\vee}
 $$
-với mọi $t \in U(H)$. Với tích chập và đồng tích được xác định bởi cấu trúc đa tạp trên $G$, $U(G)$ là một bigebra và $U(\phi)$ là một cấu xạ bigebra.
+với mọi $t \in U(H)$. Với tích chập và đồng tích được xác định bởi cấu trúc đa tạp trên $G$, $U(G)$ là một song đại số và $U(\phi)$ là một cấu xạ song đại số.
 
-18.3. Cho $G$ là một mầm nhóm Lie, $X$ là một đa tạp lớp $C^r$ và $\psi$ là một mảnh luật của phép toán trái lớp $C^r$ của $G$ trên $X$. Cho $\Omega$ là tập hợp xác định của $\psi$. Nếu $t \in T^{(s)}_g(G)$, $u \in T^{(s')}_x(X)$, $(g, x) \in \Omega$ và $s + s' \leq r$, hãy ký hiệu $t * u$ là ảnh của $t \otimes u$ dưới $\psi_*$. Cho $t \in T^{(s)}_g(G)$, $t' \in T^{(s')}_x(G)$, $u \in T^{(s'')}_x(X)$; nếu $s + s' + s'' \leq r$ và $gg'$, $(gg')x$, $g'x$, $g(g'x)$ đều được xác định, thì
+18.3. Cho $G$ là một mầm nhóm Lie, $X$ là một đa tạp lớp $C^r$ và $\psi$ là một mảnh luật của phép toán trái lớp $C^r$ của $G$ trên $X$. Cho $\Omega$ là tập hợp xác định của $\psi$. Nếu $t \in T^{(s)}_g(G)$, $u \in T^{(s')}_x(X)$, $(g, x) \in \Omega$ và $s + s' \leq r$, hãy ký hiệu $t \* u$ là ảnh của $t \otimes u$ dưới $\psi_*$. Cho $t \in T^{(s)}_g(G)$, $t' \in T^{(s')}_x(G)$, $u \in T^{(s'')}_x(X)$; nếu $s + s' + s'' \leq r$ và $gg'$, $(gg')x$, $g'x$, $g(g'x)$ đều được xác định, thì
 $$
 (t * t') * u = t * (t' * u).
 $$
-Cho $x_0 \in X$ và $\rho(x_0)$ là ánh xạ $g \mapsto gx_0$, được xác định trên một lân cận mở của $e$. Nếu $t \in U_r(G)$, thì $\rho(x_0)_*t = t * \varepsilon_{x_0}$. Ở đây và trong phần còn lại của số này, chúng tôi sẽ để cho bạn đọc nhiệm vụ dịch các kết quả cho các mảnh luật của phép toán phải.
+Cho $x_0 \in X$ và $\rho(x_0)$ là ánh xạ $g \mapsto gx_0$, được xác định trên một lân cận mở của $e$. Nếu $t \in U_r(G)$, thì $\rho(x_0)_*t = t \* \varepsilon_{x_0}$. Ở đây và trong phần còn lại của số này, chúng tôi sẽ để cho bạn đọc nhiệm vụ dịch các kết quả cho các mảnh luật của phép toán phải.
 
-18.4. Giữ nguyên ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Cho $f$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff. Ký hiệu $t * f$ là hàm trên $X$ được xác định bởi
+18.4. Giữ nguyên ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Cho $f$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff. Ký hiệu $t \* f$ là hàm trên $X$ được xác định bởi
 $$
 \begin{align*}
 (t * f)(x) &= \langle t, g \mapsto f(\psi(\theta(g), x)) \rangle \\
 &= \langle t^{\vee}, f \circ \rho(x) \rangle = \langle \rho(x)_*(t^{\vee}), f \rangle = \langle t^{\vee} * \varepsilon_x, f \rangle.
 \end{align*}
 $$
-Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $\langle t', t * f \rangle = \langle t^{\vee} * t', f \rangle$ và $(t * t') * f = t * (t' * f)$. Cho $t \in U_s(G)$, $f$ và $f'$ là các hàm lớp $C^r$ trên $X$ nhận giá trị trong các không gian đa chuẩn Hausdorff $F, F'$ và $(u, u') \mapsto u.u'$ là một ánh xạ song tuyến tính liên tục của $F \times F'$ vào một không gian đa chuẩn Hausdorff; cho
+Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $\langle t', t \* f \rangle = \langle t^{\vee} \* t', f \rangle$ và $(t \* t') \* f = t \* (t' \* f)$. Cho $t \in U_s(G)$, $f$ và $f'$ là các hàm lớp $C^r$ trên $X$ nhận giá trị trong các không gian đa chuẩn Hausdorff $F, F'$ và $(u, u') \mapsto u.u'$ là một ánh xạ song tuyến tính liên tục của $F \times F'$ vào một không gian đa chuẩn Hausdorff; cho
 $$
 \sum_{i=1}^n t_i \otimes t'_i
 $$
@@ -1809,9 +1833,9 @@ $$
 t * (ff') = \sum_{i=1}^n (t_i * f)(t'_i * f').
 $$
 
-18.5. Giữ ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Ánh xạ $x \mapsto t * \varepsilon_x$ được gọi là trường các phân phối điểm do $t$ xác định và phần luật của phép toán, và đôi khi được ký hiệu bởi $D_t^{\psi}$ hoặc $D_t$. Nếu $f : X \to F$ là một hàm lớp $C^r$, thì hàm $t^{\vee} * f$ trên $X$ cũng được ký hiệu bởi $D_t f$; nó thuộc lớp $C^{r-s}$ nếu $s < \infty$. Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $D_{t*t'} f = D_{t'}(D_t f)$. Nếu $G$ và $X$ là hữu hạn chiều, thì $D_t$ là một toán tử vi phân trên $X$ có bậc $\leq s$ và thuộc lớp $C^{r-s}$ (nếu $s < \infty$). Khi đó hàm $D_t f$ là phép biến đổi của $f$ dưới toán tử vi phân này.
+18.5. Giữ ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Ánh xạ $x \mapsto t \* \varepsilon_x$ được gọi là trường các phân phối điểm do $t$ xác định và phần luật của phép toán, và đôi khi được ký hiệu bởi $D_t^{\psi}$ hoặc $D_t$. Nếu $f : X \to F$ là một hàm lớp $C^r$, thì hàm $t^{\vee} \* f$ trên $X$ cũng được ký hiệu bởi $D_t f$; nó thuộc lớp $C^{r-s}$ nếu $s < \infty$. Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $D_{t*t'} f = D_{t'}(D_t f)$. Nếu $G$ và $X$ là hữu hạn chiều, thì $D_t$ là một toán tử vi phân trên $X$ có bậc $\leq s$ và thuộc lớp $C^{r-s}$ (nếu $s < \infty$). Khi đó hàm $D_t f$ là phép biến đổi của $f$ dưới toán tử vi phân này.
 
-18.6. Cho G là một mầm nhóm Lie và $t \in U(G)$. $L_t$ ký hiệu trường các phân phối điểm $g \mapsto \varepsilon_g * t$ trên G và $R_t$ ký hiệu trường các phân phối điểm $g \mapsto t * \varepsilon_g$ trên G. Nếu $f \in C^\omega(G, F)$, thì $L_t f \in C^\omega(G, F)$ và $R_t f \in C^\omega(G, F)$. Với $t, t'$ trong $U(G)$, $L_{t \circ t'} = L_t \circ L_{t'}$, $R_{t \circ t'} = R_{t'} \circ R_t$, $L_t \circ R_{t'} = R_{t'} \circ L_t$, $\theta(L_t) = R_t^V$.
+18.6. Cho G là một mầm nhóm Lie và $t \in U(G)$. $L_t$ ký hiệu trường các phân phối điểm $g \mapsto \varepsilon_g \* t$ trên G và $R_t$ ký hiệu trường các phân phối điểm $g \mapsto t \* \varepsilon_g$ trên G. Nếu $f \in C^\omega(G, F)$, thì $L_t f \in C^\omega(G, F)$ và $R_t f \in C^\omega(G, F)$. Với $t, t'$ trong $U(G)$, $L_{t \circ t'} = L_t \circ L_{t'}$, $R_{t \circ t'} = R_{t'} \circ R_t$, $L_t \circ R_{t'} = R_{t'} \circ L_t$, $\theta(L_t) = R_t^V$.
 
 18.7. Vì $T_e(G)$ là tập các phần tử nguyên thủy của $U(G)$,
 
@@ -1819,15 +1843,15 @@ $$
 [T_e(G), T_e(G)] \subset T_e(G).
 $$
 
-Không gian khả chuẩn $T_e(G)$, cùng với ngoặc, là một đại số Lie khả chuẩn, được gọi là đại số Lie khả chuẩn của G (hay đại số Lie của G) và được ký hiệu bởi $L(G)$. Cho $E(G)$ là đại số bao của $L(G)$. Đơn ánh chính tắc của $L(G)$ vào $U(G)$ định nghĩa một đồng cấu $\eta$ của đại số $E(G)$ vào đại số $U(G)$; nếu K có đặc số 0, thì $\eta$ là một đẳng cấu bigebra, nhờ đó $U(G)$ được đồng nhất với $E(G)$. Dùng ký hiệu của 18.3, với mọi $a \in L(G)$, cho $D_a$ là trường các phân phối điểm được $a$ xác định trên X. Ánh xạ $(a, x) \mapsto D_a(x)$ là một cấu xạ lớp $C^{r-1}$ của bó vectơ tầm thường $L(G) \times X$ vào bó vectơ $T(X)$. Cho $I$ là một tập con mở của K chứa 0 và $\gamma : I \to G$ là một ánh xạ lớp $C^r$ sao cho $\gamma(0) = e$. Đặt $a = T_0(\gamma) l \in L(G)$. Nếu $f : X \to F$ là một hàm lớp $C^r$, thì
+Không gian khả chuẩn $T_e(G)$, cùng với ngoặc, là một đại số Lie khả chuẩn, gọi là đại số Lie khả chuẩn của G (hoặc đại số Lie của G) và ký hiệu là $L(G)$. Gọi $E(G)$ là đại số bao của $L(G)$. Đơn ánh chính tắc của $L(G)$ vào $U(G)$ xác định một đồng cấu $\eta$ của đại số $E(G)$ vào đại số $U(G)$; nếu K có đặc số 0, thì $\eta$ là một đẳng cấu song đại số, nhờ đó $U(G)$ được đồng nhất với $E(G)$. Dùng ký hiệu của 18.3, với mọi $a \in L(G)$, gọi $D_a$ là trường các phân phối điểm do $a$ xác định trên X. Ánh xạ $(a, x) \mapsto D_a(x)$ là một cấu xạ lớp $C^{r-1}$ từ bó vectơ tầm thường $L(G) \times X$ vào bó vectơ $T(X)$. Cho I là một tập con mở của K chứa 0 và $\gamma : I \to G$ là một ánh xạ lớp $C^r$ sao cho $\gamma(0) = e$. Đặt $a = T_0(\gamma) l \in L(G)$. Nếu $f : X \to F$ là một hàm lớp $C^r$, thì
 
 $$
 (D_a f)(x) = \lim_{k \in K^*, k \to 0} k^{-1}(f(\gamma(k)x) - f(x)).
 $$
 
-Nếu $r \geq 2$, thì ánh xạ $a \mapsto D_a$ là một luật của phép toán vi phân trái lớp $C^{r-1}$ của $L(G)$ trên X.
+Nếu $r \geq 2$, thì ánh xạ $a \mapsto D_a$ là một luật tác động vô cùng bé trái lớp $C^{r-1}$ của $L(G)$ trên X.
 
-18.8. Cho G và H là các mầm nhóm Lie và $\phi$ là một cấu xạ của G vào H. Hạn chế của $U(\phi)$ lên $L(G)$, chính là $T_e(\phi)$, là một cấu xạ liên tục của $L(G)$ vào $L(H)$, và ta ký hiệu nó bởi $L(\phi)$. Nếu $\psi$ là một cấu xạ của H vào một mầm nhóm Lie, thì $L(\psi \circ \phi) = L(\psi) \circ L(\phi)$. Để $\phi$ là một phép nhập, điều kiện cần và đủ là $L(\phi)$ là một đẳng cấu của $L(G)$ lên một đại số con Lie của $L(H)$ có một phần bù tôpô. Đặc biệt, nếu G là một mầm nhóm con Lie của H và $\phi$ là đơn ánh chính tắc, thì $L(G)$ được đồng nhất với một đại số con Lie của $L(H)$ nhờ $L(\phi)$. Nếu $(G_i)_{i \in I}$ là một họ hữu hạn các mầm nhóm Lie và G là tích của chúng, thì $L(G)$ được đồng nhất một cách chính tắc với $\prod_{i \in I} L(G_i)$.
+18.8. Cho G và H là các mầm nhóm Lie và $\phi$ là một cấu xạ từ G vào H. Hạn chế của $U(\phi)$ lên $L(G)$, vốn chính là $T_e(\phi)$, là một cấu xạ liên tục từ $L(G)$ vào $L(H)$, mà ta ký hiệu là $L(\phi)$. Nếu $\psi$ là một cấu xạ từ H vào một mầm nhóm Lie, thì $L(\psi \circ \phi) = L(\psi) \circ L(\phi)$. Để $\phi$ là một phép nhúng, điều kiện cần và đủ là $L(\phi)$ là một đẳng cấu từ $L(G)$ lên một đại số con Lie của $L(H)$ có nhận một phần bù tôpô. Đặc biệt, nếu G là một mầm nhóm con Lie của H và $\phi$ là đơn ánh chính tắc, thì $L(G)$ được đồng nhất với một đại số con Lie của $L(H)$ nhờ $L(\phi)$. Nếu $(G_i)_{i \in I}$ là một họ hữu hạn các mầm nhóm Lie và G là tích của chúng, thì $L(G)$ được đồng nhất một cách chính tắc với $\prod_{i \in I} L(G_i)$.
 
 18.9. Cho G là một mầm nhóm Lie, có số chiều hữu hạn nếu K có đặc số > 0. Cho F là một không gian khả chuẩn đầy đủ. Cho $\alpha$ là một dạng vi phân bậc k trên G nhận giá trị trong F. $\alpha$ được gọi là bất biến trái trên G nếu $\alpha_g$ được dẫn xuất từ $\alpha_e$ qua ánh xạ $h \mapsto gh$ của một lân cận của e lên một lân cận của g. Nếu $\alpha$ bất biến trái, thì $\alpha$ là giải tích. Ánh xạ $\alpha \mapsto \alpha_e$ là một song ánh từ tập hợp các dạng vi phân bất biến trái bậc k trên G nhận giá trị trong F lên tập hợp các ánh xạ k-tuyến tính phản xứng liên tục của $T_e(G)$ vào F. Nếu $\alpha_e = \mathrm{Id}_{T_e(G)}$, thì $\alpha$ được gọi là *dạng vi phân chính tắc trái của G*. Các định nghĩa của các dạng vi phân bất biến phải và dạng vi phân chính tắc phải của G là tương tự. Nếu $\omega$ là dạng vi phân chính tắc trái của G, thì $d\omega + [\omega]^2 = 0$. Cho M là một đa tạp lớp $C^r$ và $f$ là một ánh xạ lớp $C^r$ của M vào G. Vi phân trái của $f$, ký hiệu $f^{-1}.df$, là dạng vi phân bậc 1 trên M nhận giá trị trong $L(G)$, gán cho mỗi vectơ $u \in T_m(M)$ phần tử $f(m)^{-1}.(T_{m,f})(u)$. Khi đó $f^{-1}.df = f^*(\omega)$ và $d\alpha + [\alpha]^2 = 0$. Nếu hai ánh xạ $f$ và $g$ của M vào G có cùng vi phân trái và K có đặc số 0, thì $fg^{-1}$ là hằng địa phương.
 

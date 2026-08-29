@@ -7,51 +7,52 @@ section: 2
 section_title: Enveloping algebra of a Lie algebra
 lang: vi
 source: lie-i-iii
+book_pages: 12-25, 83-85
 pdf_pages: 0030-0043, 0101-0103
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE ENVELOPING ALGEBRA
-      page: 0
+      page: 12
       pdf_page: 30
     - "no": 2
       title: ENVELOPING ALGEBRA OF A PRODUCT OF LIE ALGEBRAS
-      page: 0
+      page: 13
       pdf_page: 31
     - "no": 3
       title: ENVELOPING ALGEBRA OF A LIE SUBALGEBRA
-      page: 0
+      page: 14
       pdf_page: 32
     - "no": 4
       title: ENVELOPING ALGEBRA OF THE OPPOSITE LIE ALGEBRA
-      page: 0
+      page: 15
       pdf_page: 33
     - "no": 5
       title: SYMMETRIC ALGEBRA OF A MODULE
-      page: 0
+      page: 16
       pdf_page: 34
     - "no": 6
       title: FILTRATION OF THE ENVELOPING ALGEBRA
-      page: 0
+      page: 17
       pdf_page: 35
     - "no": 7
       title: THE POINCARÉ–BIRKHOFF–WITT THEOREM
-      page: 0
+      page: 18
       pdf_page: 36
     - "no": 8
       title: EXTENSION OF DERIVATIONS
-      page: 0
+      page: 23
       pdf_page: 41
     - "no": 9
       title: EXTENSION OF THE BASE RING
-      page: 0
+      page: 25
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: 553342d82c0ed860d37db32925ff3fc7f0bbb4d83f5b8d24030521dcecdcddba
+content_sha256: e9d1fd242912964f7949543e89447a8144dd5be846fb7c9faa70c09b8e7f6b24
 translated_from: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
-source_content_sha256: 7c5e0173708758daaf1de76c3fa9fffdb5ef6051a22ee9beb926543178eb668e
-translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini
+source_content_sha256: 70815c8f0c59caa459ae983d4d4afb3ca7aaff673e5632c3fd9b6438da4a9e5f
+translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6, gpt-5-mini
 translation_run: translate-vi-a4a762ec
 glossary_version: 34
 glossary_terms_sha256: 33acec4e7425ff9b17aa9ae8dafa5f452f1958ab5cb98b89a5d6bbde10d68d59
@@ -222,25 +223,25 @@ Cho V là một K-môđun. V có thể được xem theo một cách duy nhất 
 
 Nhắc lại (*Algebra*, Chương III, § 6) rằng S được gọi là đại số đối xứng của V, ta tóm tắt ngắn gọn các tính chất cần dùng trong chương này, mà các chứng minh của chúng là ngay lập tức. Cho $T^n$ là tập hợp các tenxơ thuần nhất cấp n trong T. Khi đó $I = (I \cap T^2) + (I \cap T^3) + \cdots$ và do đó S là tổng trực tiếp của các ảnh chính tắc $S^n$ của các $T^n$. Các phần tử của $S^n$ được gọi là thuần nhất bậc n. $S^0 = K.1, S^1$ được đồng nhất với V và $S^n S^p \subset S^{n+p}$. Đại số S được sinh bởi 1 và $S^1 = V$. Rõ ràng hai phần tử bất kỳ của $S^1$ đều hoán vị được và do đó S là giao hoán. Nếu V là một K-môđun tự do với cơ sở $(x_\lambda)_{\lambda \in \Lambda}$, đồng cấu chính tắc f của đại số đa thức $K[X_\lambda]_{\lambda \in \Lambda}$ lên S biến 1 thành 1 và $X_\lambda$ thành $x_\lambda$ với mọi $\lambda \in \Lambda$ là một đẳng cấu: vì theo tính chất phổ quát của S (no. 1, Mệnh đề 1) tồn tại một đồng cấu g của S vào $K[X_\lambda]_{\lambda \in \Lambda}$ biến 1 thành 1 và $x_\lambda$ thành $X_\lambda$ với mọi $\lambda \in \Lambda$ và f và g là các đồng cấu nghịch đảo của nhau.
 
-Cho ${S'}^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n (*Đại số*, Chương III, § 5, no. 1, Định nghĩa 2). Nếu K là một trường có đặc số 0, ${S'}^n$ và $I \cap T^n$ là bù nhau trong $T^n$. Thật vậy, cho $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của V. Ta trang bị cho $\Lambda$ một thứ tự toàn phần (*Lý thuyết tập hợp*, Chương III, § 2, no. 3, Định lý 1). Gọi $\Lambda_n$ là tập hợp các dãy tăng gồm n phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt
+Cho ${S'}^n \subset T^n$ là tập hợp các tenxơ đối xứng thuần nhất cấp n (*Algebra*, Chương III, § 5, no. 1, Định nghĩa 2). Nếu K là một trường có đặc số 0, thì ${S'}^n$ và $I \cap T^n$ bù nhau trong $T^n$. Thật vậy, lấy $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của V. Ta trang bị cho $\Lambda$ một thứ tự toàn phần (*Set Theory*, Chương III, § 2, no. 3, Định lý 1). Gọi $\Lambda_n$ là tập hợp các dãy tăng gồm n phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt
 
 $$
 y_M = \frac{1}{n!} \sum_{\sigma \in S_n} x_{\lambda_{\sigma(n)}} \otimes \cdots \otimes x_{\lambda_{\sigma(n)}}.
 $$
 
-Các $y_M$ với $M \in \Lambda_n$ tạo thành một hệ sinh của không gian vectơ K ${S'}^n$. Khi đó các ảnh chính tắc của chúng trong $S^n$, theo đoạn trên, tạo thành một cơ sở của $S^n$. Do đó $(y_M)_{M \in \Lambda_n}$ là một cơ sở của một không gian con bù của $I \cap T^n$ trong $T^n$ (*Đại số*, Chương II, § 1, no. 6, Mệnh đề 4), điều này thiết lập mệnh đề của chúng ta.
+Các $y_M$ với $M \in \Lambda_n$ lập thành một hệ sinh của K-không gian vectơ ${S'}^n$. Mặt khác, các ảnh chính tắc của chúng trong $S^n$ cấu thành, theo đoạn trên, một cơ sở của $S^n$. Do đó $(y_M)_{M \in \Lambda_n}$ là một cơ sở của một không gian con bù của $I \cap T^n$ trong $T^n$ (*Algebra*, Chương II, § 1, no. 6, Mệnh đề 4), điều này chứng minh mệnh đề của ta.
 
-Như vậy, khi K là một trường có đặc số 0, hạn chế vào ${S'}^n$ của ánh xạ chính tắc $T^n \to S^n$ là một đẳng cấu của không gian ${S'}^n$ lên không gian $S^n$ và do đó có một đẳng cấu nghịch đảo. Các đẳng cấu nghịch đảo thu được như vậy với mỗi n định nghĩa một đẳng cấu chính tắc của không gian S lên không gian
+Vì thế, khi K là một trường có đặc số 0, hạn chế lên ${S'}^n$ của ánh xạ chính tắc $T^n \to S^n$ là một đẳng cấu từ không gian ${S'}^n$ lên không gian $S^n$ và do đó có một đẳng cấu nghịch đảo. Các đẳng cấu nghịch đảo thu được như vậy với mỗi n xác định một đẳng cấu chính tắc từ không gian S lên không gian
 
 $$
-S' = \sum_{n \geq 0} {S'}^n \text{ của các tenxơ đối xứng}.
+S' = \sum_{n \geq 0} {S'}^n \text{ các tenxơ đối xứng}.
 $$
 
-### 6. LỌC CỦA ĐẠI SỐ BAO
+### 6. PHÂN BẬC CỦA ĐẠI SỐ BAO
 
-Cho $g$ là một đại số Lie trên $K$ và $T$ là đại số tenxơ của $K$-môđun $g$. Gọi $T^n$ là môđun con của $T$ gồm các tenxơ thuần nhất cấp $n$ và $T_n = \sum_{i \leq n} T^i$. Khi đó $T_n \subset T_{n+1}$, $T_0 = K.1$, $T_{-1} = \{0\}$ và $T_n T_p \subset T_{n+p}$.
+Cho $g$ là một đại số Lie trên $K$ và $T$ là đại số tenxơ của K-môđun $g$. Gọi $T^n$ là môđun con của $T$ gồm các tenxơ thuần nhất cấp $n$ và $T_n = \sum_{i \leq n} T^i$. Khi đó $T_n \subset T_{n+1}$, $T_0 = K.1$, $T_{-1} = \{0\}$ và $T_n T_p \subset T_{n+p}$.
 
-Gọi $U_n$ là ảnh chính tắc của $T_n$ trong đại số bao $U$ của $g$. Khi đó $U_n \subset U_{n+1}$, $U_0 = K.1$, $U_{-1} = \{0\}$ và $U_n U_p \subset U_{n+p}$; do đó $U$ có thể được mô tả như một đại số *được lọc bởi* các $U_n$ (*Đại số giao hoán*, Chương III, § 2, no. 1); các phần tử của $U_n$ sẽ được gọi là *có lọc* $\leq n$.
+Gọi $U_n$ là ảnh chính tắc của $T_n$ trong đại số bao $U$ của $g$. Khi đó $U_n \subset U_{n+1}$, $U_0 = K.1$, $U_{-1} = \{0\}$ và $U_n U_p \subset U_{n+p}$; vì thế $U$ có thể được mô tả như một đại số *được lọc bởi* các $U_n$ (*Commutative Algebra*, Chương III, § 2, no. 1); các phần tử của $U_n$ sẽ được gọi là *có bậc lọc* $\leq n$.
 
 Cho $G^n$ là $K$-môđun $U_n / U_{n-1}$ và cho $G$ là $K$-môđun là tổng trực tiếp của các $G^n$. Phép nhân trên $U$ xác định, khi lấy các thương, một ánh xạ song tuyến tính từ $G^n \times G^m$ vào $G^{n+m}$ và do đó một ánh xạ song tuyến tính từ $G \times G$ vào $G$, ánh xạ này kết hợp. Vì vậy $G$ được trang bị một cấu trúc đại số $K$ kết hợp. Khi đó $G^n G^m \subset G^{n+m}$. Các phần tử của $G^n$ được gọi là có *bậc* $n$. Đại số phân bậc thu được như vậy chính là đại số phân bậc liên kết với đại số lọc $U$ (*Đại số giao hoán*, Chương III, § 2, no. 3).
 
@@ -258,7 +259,7 @@ Vì $T^n$ là bổ sung cho $T_{n-1}$ trong $T_n$, $\phi_n$ là toàn ánh. Các
 
 Nếu $t \in T^n$ và $t' \in T^p$, thì $\phi(t)\phi(t') = \phi(tt')$ theo định nghĩa của phép nhân trên $G$. Do đó $\phi$ là một đồng cấu đại số và rõ ràng $\phi(1) = 1$. Nếu $x, y$ thuộc $g$, thì $x \otimes y - y \otimes x \in T^2$ và ảnh chính tắc của phần tử này trong $U_2$ bằng ảnh của $[x, y]$ và do đó thuộc $U_1$. Vì vậy $\phi(x \otimes y - y \otimes x) = 0$, điều này chứng minh mệnh đề.
 
-Cho $S$ là đại số đối xứng của $K$-môđun $g$ và $\tau$ là đồng cấu chính tắc của $T$ lên $S$. Mệnh đề 5 chứng minh rằng tồn tại một đồng cấu duy nhất $\omega$, được gọi là *chính tắc*, của đại số $S$ lên đại số $G$, biến 1 thành 1, sao cho $\phi = \omega \circ \tau$. Ta có $\omega(S^n) = \phi(T^n) = G^n$. Gọi $\tau_n$ là hạn chế của $\tau$ vào $T^n$, $\omega_n$ là hạn chế của $\omega$ vào $S^n$, $\psi_n$ là ánh xạ chính tắc của $T^n$ vào $U_n$ và $\theta_n$ là ánh xạ chính tắc của $U_n$ lên $G^n$. Định nghĩa của $\omega_n$ chứng minh rằng biểu đồ sau là giao hoán:
+Cho $S$ là đại số đối xứng của $K$-môđun $g$ và $\tau$ là đồng cấu chính tắc từ $T$ lên $S$. Mệnh đề 5 chứng minh rằng tồn tại một đồng cấu duy nhất $\omega$, được gọi là *chính tắc*, từ đại số $S$ lên đại số $G$, biến 1 thành 1, sao cho $\phi = \omega \circ \tau$. Ta có $\omega(S^n) = \phi(T^n) = G^n$. Gọi $\tau_n$ là hạn chế của $\tau$ lên $T^n$, $\omega_n$ là hạn chế của $\omega$ lên $S^n$, $\psi_n$ là ánh xạ chính tắc từ $T^n$ vào $U_n$ và $\theta_n$ là ánh xạ chính tắc từ $U_n$ lên $G^n$. Định nghĩa của $\omega_n$ chứng minh rằng biểu đồ sau đây là giao hoán:
 
 $$
 \begin{array}{ccccc}
@@ -270,45 +271,45 @@ $$
 
 #### Mệnh đề 6 {#lie-i-s2-prop-6 .statement}
 
-*Nếu K là Noether và g là một môđun sinh hữu hạn, vành U là Noether phải và trái.*
+*Nếu K là Noether và g là một môđun hữu hạn sinh, thì vành U là Noether phải và trái.*
 
-S là một đại số sinh hữu hạn trên K và do đó là một vành Noether (*Đại số giao hoán*, Chương III, § 2, no. 10, Hệ quả 3 của Định lý 2). Do đó G, là đẳng cấu với một vành thương của S, là Noether. Do đó U là Noether phải và trái (*Đại số giao hoán*, Chương III, § 2, no. 10, *Nhận xét 2*).
+S là một đại số sinh hữu hạn trên K và do đó là một vành Noether (*Đại số giao hoán*, Chương III, § 2, no. 10, Hệ quả 3 của Định lý 2). Vì thế G, đẳng cấu với một vành thương của S, là Noether. Vì thế U là Noether phải và trái (*Đại số giao hoán*, Chương III, § 2, no. 10, *Nhận xét 2*).
 
 #### Hệ quả {#lie-i-s2-n6-cor-1 .statement}
 
-*Giả sử K là một trường và g là hữu hạn chiều trên K. Cho I₁, ..., Iₘ là các iđêan phải (tương ứng trái) có đối chiều hữu hạn trong U. Khi đó iđêan tích I₁I₂...Iₘ có đối chiều hữu hạn.*
+*Giả sử rằng K là một trường và g là hữu hạn chiều trên K. Gọi I₁, ..., Iₘ là các iđêan phải (tương ứng là trái) có đối chiều hữu hạn trong U. Khi đó iđêan tích I₁I₂...Iₘ có đối chiều hữu hạn.*
 
-Bằng quy nạp theo m, chỉ cần xét trường hợp, chẳng hạn, của hai iđêan phải. Môđun phải U I₁ được sinh bởi một số hữu hạn phần tử u₁, ..., uₚ (Mệnh đề 6). Gọi v₁, ..., vₐ là các phần tử của U mà các lớp của chúng modulo I₂ sinh không gian vectơ U/I₂. Khi đó các ảnh chính tắc trong I₁/I₁I₂ của các uᵢvⱼ sinh không gian vectơ I₁/I₁I₂, do đó không gian này có chiều hữu hạn. Vì vậy dim_K(U/I₁I₂) = dim_K(U/I₁) + dim_K(I₁/I₁I₂) < +∞.
+Bằng quy nạp theo m, chỉ cần xét trường hợp, chẳng hạn, của hai iđêan phải. U-môđun phải I₁ được sinh bởi một số hữu hạn phần tử u₁, ..., uₚ (Mệnh đề 6). Gọi v₁, ..., vₐ là các phần tử của U sao cho các lớp của chúng theo môđun I₂ sinh không gian vectơ U/I₂. Khi đó các ảnh chính tắc trong I₁/I₁I₂ của các uᵢvⱼ sinh không gian vectơ I₁/I₁I₂, do đó không gian này là hữu hạn chiều. Vì thế dim_K(U/I₁I₂) = dim_K(U/I₁) + dim_K(I₁/I₁I₂) < +∞.
 
 #### Nhận xét {#lie-i-s2-n6-rem-1 .statement}
 
-Cho g' là một đại số Lie khác trên vành K, U' là đại số bao quanh của nó, U'_n là tập hợp các phần tử của U' có lọc $\leq n$ và U^n (tương ứng U'^n) là tập hợp các ảnh chính tắc trong U (tương ứng U') của các tenxơ đối xứng thuần nhất của g (tương ứng g') cấp n. Cho $\eta$ là một đồng cấu của g vào g' và $\tilde{\eta}$ là đồng cấu tương ứng của U vào U'. Khi đó
+Cho g' là một đại số Lie khác trên vành K, U' là đại số bao của nó, U'_n là tập các phần tử của U' có cấp lọc $\leq n$ và U^n (tương ứng là U'^n) là tập các ảnh chính tắc trong U (tương ứng là U') của các tenxơ đối xứng thuần nhất của g (tương ứng là g') bậc n. Gọi $\eta$ là một đồng cấu từ g vào g' và $\tilde{\eta}$ là đồng cấu tương ứng từ U vào U'. Khi đó
 
 $$
 \tilde{\eta}(U_n) \subset U'_n, \quad \tilde{\eta}(U^n) \subset {U'}^n.
 $$
 
-Đặc biệt, phản tự đẳng cấu chính của U giữ ổn định U_n và U^n. Ánh xạ K-tuyến tính của T^n lên chính nó biến
+Đặc biệt, phản tự đẳng cấu chính của U để ổn định U_n và U^n. Ánh xạ K-tuyến tính từ $T^n$ lên chính nó biến
 
 $$
 x_1 \otimes x_2 \otimes \cdots \otimes x_n \quad \text{thành} \quad x_n \otimes x_{n-1} \otimes \cdots \otimes x_1
 $$
 
-với mọi $x_1, ..., x_n$ trong g là một toán tử đối xứng và do đó giữ cố định các tenxơ đối xứng thuần nhất cấp n. Vì vậy phản tự đẳng cấu chính của U cảm sinh trên mỗi U^n phép vị tự có tỉ số $(-1)^n$.
+với mọi $x_1, ..., x_n$ trong g là một toán tử đối xứng và do đó để bất động các tenxơ đối xứng thuần nhất bậc n. Vì thế phản tự đẳng cấu chính của U cảm sinh trên mỗi U^n phép vị tự với tỉ số $(-1)^n$.
 
 ### 7. ĐỊNH LÝ POINCARÉ–BIRKHOFF–WITT
 
 #### Định lý 1 {#lie-i-s2-thm-1 .statement}
 
-*Cho g là một đại số Lie trên K, U là đại số bao quanh của nó, G là đại số phân bậc liên kết với đại số có lọc U và S là đại số đối xứng của K-môđun g. Nếu g là một K-môđun tự do, đồng cấu chính tắc $\omega : S \to G$ là một đẳng cấu.*
+*Cho g là một đại số Lie trên K, U là đại số bao của nó, G là đại số phân bậc liên kết với đại số lọc U và S là đại số đối xứng của $K$-môđun g. Nếu g là một K-môđun tự do, thì đồng cấu chính tắc $\omega : S \to G$ là một đẳng cấu.*
 
-Gọi $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của K-môđun g; ta cho $\Lambda$ một thứ tự toàn phần (*Lý thuyết tập hợp*, Chương III, § 2, no. 3, Định lý 1). Gọi P là đại số đa thức $K[z_\lambda]_{\lambda \in \Lambda}$ theo các bất định $z_\lambda$ tương ứng một-một với các $x_\lambda$. Với mỗi dãy $M = (\lambda_1, \lambda_2, ..., \lambda_n)$ các phần tử của $\Lambda$, gọi $z_M$ là đơn thức $z_{\lambda_1}z_{\lambda_2}...z_{\lambda_n}$ và $x_M$ là tenxơ $x_{\lambda_1} \otimes x_{\lambda_2} \otimes \cdots \otimes x_{\lambda_n}$.
+Gọi $(x_\lambda)_{\lambda \in \Lambda}$ là một cơ sở của $K$-môđun g; ta trang bị cho $\Lambda$ một thứ tự toàn phần (*Lý thuyết tập hợp*, Chương III, § 2, no. 3, Định lý 1). Gọi P là đại số đa thức $K[z_\lambda]_{\lambda \in \Lambda}$ theo các ẩn $z_\lambda$ tương ứng một-một với các $x_\lambda$. Với mọi dãy $M = (\lambda_1, \lambda_2, ..., \lambda_n)$ gồm các phần tử của $\Lambda$, gọi $z_M$ là đơn thức $z_{\lambda_1}z_{\lambda_2}...z_{\lambda_n}$ và $x_M$ là tenxơ $x_{\lambda_1} \otimes x_{\lambda_2} \otimes \cdots \otimes x_{\lambda_n}$.
 
-Các $z_M$, với M tăng, lập thành một cơ sở của K-môđun P (ta quy ước rằng $\varnothing$ là một dãy tăng và $z_\varnothing = 1$). Gọi $P_p$ là môđun con của các đa thức có bậc $\leq p$. Trước hết ta sẽ chứng minh một số bổ đề. (Để viết gọn, ta viết $\lambda \leq M$ nếu $\lambda \leq \mu$ với mọi chỉ số $\mu$ của dãy M.)
+Các $z_M$, với M tăng, tạo thành một cơ sở của K-môđun P (ta quy ước rằng $\varnothing$ là một dãy tăng và $z_\varnothing = 1$). Gọi $P_p$ là môđun con các đa thức bậc $\leq p$. Trước hết ta sẽ chứng minh một số bổ đề. (Để viết gọn, ta viết $\lambda \leq M$ nếu $\lambda \leq \mu$ với mọi chỉ số $\mu$ của dãy M.)
 
 #### Bổ đề 1 {#lie-i-s2-lem-1 .statement}
 
-*Với mọi số nguyên $p \geq 0$, tồn tại một đồng cấu duy nhất $f_p$ của K-môđun $g \otimes_K P_p$ vào K-môđun P thỏa mãn các điều kiện sau:*
+*Với mọi số nguyên $p \geq 0$, tồn tại một đồng cấu duy nhất $f_p$ từ K-môđun $g \otimes_K P_p$ vào K-môđun P thỏa mãn các điều kiện sau:*
 $$
 \begin{align*}
 (A_p) \quad & f_p(x_\lambda \otimes z_M) = z_\lambda z_M \quad \text{với } \lambda \leq M, z_M \in P_p; \\
@@ -316,9 +317,9 @@ $$
 (C_p) \quad & f_p(x_\lambda \otimes f_p(x_\mu \otimes z_N)) = f_p(x_\mu \otimes f_p(x_\lambda \otimes z_N)) + f_p([x_\lambda, x_\mu] \otimes z_N)
 \end{align*}
 $$
-*với $z_N \in P_{p-1}$. (Các số hạng xuất hiện trong (C_p) có nghĩa nhờ (B_p).)*
+*với $z_N \in P_{p-1}$. (Các hạng xuất hiện trong (C_p) là có nghĩa theo (B_p).)*
 
-Hơn nữa, hạn chế của $f_p$ vào $g \otimes P_{p-1}$ trùng với $f_{p-1}$.
+Hơn nữa, hạn chế của $f_p$ lên $g \otimes P_{p-1}$ trùng với $f_{p-1}$.
 
 Khẳng định cuối cùng suy ra từ các khẳng định khác vì hạn chế của $f_p$ trên $g \otimes_K P_{p-1}$ thỏa mãn các điều kiện (A_{p-1}), (B_{p-1}) và (C_{p-1}). Ta sẽ chứng minh sự tồn tại và tính duy nhất của $f_p$ bằng quy nạp theo $p$. Với $p = 0$, điều kiện (A_0) cho $f_0(x_\lambda \otimes 1) = z_\lambda$ và các điều kiện (B_0) và (C_0) khi đó hiển nhiên được thỏa mãn. Giả sử bây giờ rằng sự tồn tại và tính duy nhất của $f_{p-1}$ đã được chứng minh. Ta chứng minh rằng $f_{p-1}$ có một mở rộng duy nhất $f_p$ lên $g \otimes_K P_p$ thỏa mãn các điều kiện (A_p), (B_p) và (C_p).
 
@@ -381,29 +382,29 @@ Theo Bổ đề 1 tồn tại một đồng cấu $f$ của K-môđun $g \otimes
 
 Ta viết $t_{n}$ dưới dạng $\sum_{i=1}^{r} x_{M_{i}}$, trong đó các $M_{i}$ là các dãy gồm $n$ phần tử của $\Lambda$. Ánh xạ $\sigma$ mở rộng thành một đồng cấu của đại số $T$ vào đại số $\mathcal{L}_{K}(P)$ (mà ta cũng sẽ ký hiệu là $\sigma$), bằng không trên $J$. Theo Bổ đề 2, $\sigma(t) . 1$ là một đa thức mà các số hạng có bậc cao nhất là $\sum_{i=1}^{r} z_{M_{i}}$. Vì $t \in J$, nên $\sigma(t) = 0$ và do đó $\sum_{i=1}^{r} z_{M_{i}} = 0$ trong $P$. Bây giờ $P$ được đồng nhất một cách chính tắc với $S$, vì $g$ có cơ sở $(x_{\lambda})$. Vì thế ảnh chính tắc của $t_{n}$ trong $S$ là không, tức là $t_{n} \in I$.
 
-Bây giờ chứng minh Định lý 1. Cần chứng minh rằng đồng cấu chính tắc của $S$ lên $G$ là đơn ánh. Nói cách khác, nếu $t \in T^{n}$ và $\psi$ ký hiệu đồng cấu chính tắc của $T$ lên $U$, thì cần chỉ ra rằng điều kiện $\psi(t) \in U_{n-1}$ kéo theo $t \in I$. Bây giờ $\psi(t) \in U_{n-1}$ có nghĩa là tồn tại một tenxơ $t' \in T_{n-1}$ sao cho $t - t' \in J$. Tenxơ $t - t'$ nhận $t$ làm thành phần thuần nhất cấp $n$ và do đó $t \in I$ theo Bổ đề 3.
+Bây giờ ta có thể chứng minh Định lý 1. Cần chứng minh rằng đồng cấu chính tắc của $S$ lên $G$ là đơn ánh. Nói cách khác, nếu $t \in T^{n}$ và $\psi$ ký hiệu đồng cấu chính tắc của $T$ lên $U$, thì cần chỉ ra rằng điều kiện $\psi(t) \in U_{n-1}$ kéo theo $t \in I$. Mà $\psi(t) \in U_{n-1}$ có nghĩa là tồn tại một tenxơ $t' \in T_{n-1}$ sao cho $t - t' \in J$. Tenxơ $t - t'$ nhận $t$ làm thành phần thuần nhất cấp $n$ và do đó $t \in I$ theo Bổ đề 3.
 
 #### Hệ quả 1 {#lie-i-s2-lem-3-cor-1 .statement}
 
-*Giả sử rằng $g$ là một K-môđun tự do. Cho $W$ là một môđun con trên K của $T^{n}$.*
+*Giả sử rằng $g$ là một $K$-môđun tự do. Cho $W$ là một K-môđun con của $T^{n}$.*
 
-*Nếu, theo ký hiệu của biểu đồ* (3), *hạn chế của* $\tau_n$ *lên* $W$ *là một đẳng cấu từ* $W$ *lên* $S^n$, *thì hạn chế của* $\psi_n$ *lên* $W$ *là một đẳng cấu từ* $W$ *lên một phần bù của* $U_{n-1}$ *trong* $U_n$.
+*Nếu, theo ký hiệu của biểu đồ* (3), *hạn chế của* $\tau_n$ *trên* $W$ *là một đẳng cấu từ* $W$ *lên* $S^n$, *thì hạn chế của* $\psi_n$ *trên* $W$ *là một đẳng cấu từ* $W$ *lên một phần bù của* $U_{n-1}$ *trong* $U_n$.
 
-Hạn chế của $\omega_n \circ \tau_n$ lên $W$ là một song ánh từ $W$ lên $G^n$; tương tự, hạn chế $\theta_n \circ \psi_n$ lên $W$ cũng vậy. Do đó có hệ quả.
+Hạn chế trên $W$ của $\omega_n \circ \tau_n$ là một song ánh từ $W$ lên $G^n$; hạn chế $\theta_n \circ \psi_n$ trên $W$ cũng vậy. Do đó suy ra hệ quả.
 
 #### Hệ quả 2 {#lie-i-s2-lem-3-cor-2 .statement}
 
-*Nếu $g$ là một K-môđun tự do, ánh xạ chính tắc của $g$ vào đại số bao của nó là đơn ánh.*
+*Nếu $g$ là một K-môđun tự do, thì ánh xạ chính tắc từ $g$ vào đại số bao của nó là đơn ánh.*
 
-Điều này suy ra từ Hệ quả 1 bằng cách lấy $W = T^1$.
+Điều này suy ra từ Hệ quả 1 khi lấy $W = T^1$.
 
-Khi $g$ là một K-môđun tự do (đặc biệt khi K là một trường), $g$ được đồng nhất với một môđun con của $U$ dưới ánh xạ chính tắc của $g$ vào $U$. Quy ước này được chấp nhận từ Hệ quả sau đây trở đi.
+Khi $g$ là một K-môđun tự do (đặc biệt khi K là một trường), $g$ được đồng nhất với một môđun con của $U$ qua ánh xạ chính tắc từ $g$ vào $U$. Quy ước này được chấp nhận kể từ hệ quả sau đây.
 
 #### Hệ quả 3 {#lie-i-s2-lem-3-cor-3 .statement}
 
-*Nếu $g$ thừa nhận một cơ sở được sắp thứ tự toàn phần $(x_\lambda)_{\lambda \in \Lambda}$, các phần tử $x_{\lambda_1} x_{\lambda_2} \ldots x_{\lambda_n}$ của đại số bao $U$, trong đó $(\lambda_1, \ldots, \lambda_n)$ là một dãy hữu hạn tăng tùy ý của các phần tử của $\Lambda$, tạo thành một cơ sở của K-môđun $U$.*
+*Nếu $g$ có một cơ sở được sắp thứ tự toàn phần $(x_\lambda)_{\lambda \in \Lambda}$, thì các phần tử $x_{\lambda_1} x_{\lambda_2} \ldots x_{\lambda_n}$ của đại số bao $U$, trong đó $(\lambda_1, \ldots, \lambda_n)$ là một dãy hữu hạn tăng tùy ý gồm các phần tử của $\Lambda$, tạo thành một cơ sở của K-môđun $U$.*
 
-Cho $\Lambda_n$ là tập hợp các dãy tăng gồm $n$ phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt $y_M = x_{\lambda_1} \otimes x_{\lambda_2} \otimes \cdots \otimes x_{\lambda_n}$. Cho $W$ là môđun con của $T^n$ có cơ sở $(y_M)_{M \in \Lambda_n}$. Hệ quả 1 chỉ ra rằng hạn chế của $\psi_n$ lên $W$ là một đẳng cấu của $W$ lên một phần bù của $U_{n-1}$ trong $U_n$. Nhưng
+Cho $\Lambda_n$ là tập hợp các dãy tăng gồm $n$ phần tử của $\Lambda$. Với $M = (\lambda_1, \ldots, \lambda_n) \in \Lambda_n$, đặt $y_M = x_{\lambda_1} \otimes x_{\lambda_2} \otimes \cdots \otimes x_{\lambda_n}$. Cho $W$ là môđun con của $T^n$ có cơ sở là $(y_M)_{M \in \Lambda_n}$. Hệ quả 1 cho thấy rằng hạn chế của $\psi_n$ lên $W$ là một đẳng cấu từ $W$ lên một phần bù của $U_{n-1}$ trong $U_n$. Nhưng
 
 $$
 \psi_n(y_M) = x_{\lambda_1} x_{\lambda_2} \ldots x_{\lambda_n},
@@ -419,11 +420,11 @@ $$
 S^n \to {S'}^n \to U_n
 $$
 
-*là một đẳng cấu của không gian vectơ $S^n$ lên một phần bù của $U_{n-1}$ trong $U_n$.*
+*là một đẳng cấu từ không gian vectơ $S^n$ lên một phần bù của $U_{n-1}$ trong $U_n$.*
 
-Điều này suy ra từ Hệ quả 1 bằng cách lấy $W = {S'}^n$.
+Điều này suy ra từ Hệ quả 1 khi lấy $W = {S'}^n$.
 
-Từ nay về sau, giả sử rằng K là một trường có đặc số 0. Cho $\eta_n$ là ánh xạ từ $S^n$ vào $U_n$ vừa được định nghĩa. Đặt $U^n = \eta_n(S^n)$. Không gian vectơ $U$ là tổng trực tiếp của các $U^n$. Các $\eta_n$ định nghĩa một đẳng cấu $\eta$ của không gian vectơ $S = \sum_n S^n$ lên không gian vectơ $U = \sum_n U^n$, được gọi là *đẳng cấu chính tắc của S lên U*; đây *không* phải là một đẳng cấu đại số. Ta có biểu đồ giao hoán:
+Từ nay giả sử rằng K là một trường có đặc số 0. Cho $\eta_n$ là ánh xạ từ $S^n$ vào $U_n$ vừa được định nghĩa. Đặt $U^n = \eta_n(S^n)$. Không gian vectơ $U$ là tổng trực tiếp của các $U^n$. Các $\eta_n$ xác định một đẳng cấu $\eta$ từ không gian vectơ $S = \sum_n S^n$ lên không gian vectơ $U = \sum_n U^n$, gọi là *đẳng cấu chính tắc từ S lên U*; đây *không* phải là một đẳng cấu đại số. Ta có biểu đồ giao hoán:
 
 $$
 \begin{array}{ccccc}
@@ -435,21 +436,21 @@ $$
 \end{array}
 $$
 
-trong đó mỗi mũi tên biểu diễn một đẳng cấu không gian vectơ. Nếu $x_1, x_2, \ldots, x_n$ thuộc $g$, $\eta_n$ ánh xạ tích $x_1 x_2 \ldots x_n$, được tính trong $S$, vào phần tử
+trong đó mỗi mũi tên biểu diễn một đẳng cấu không gian vectơ. Nếu $x_1, x_2, \ldots, x_n$ thuộc $g$, thì $\eta_n$ biến tích $x_1 x_2 \ldots x_n$, tính trong $S$, thành phần tử
 
 $$
 \frac{1}{n!} \sum_{\sigma \in S_n} x_{\sigma(1)} x_{\sigma(2)} \cdots x_{\sigma(n)}
 $$
 
-được tính trong $U$.
+tính trong $U$.
 
 #### Hệ quả 5 {#lie-i-s2-lem-3-cor-5 .statement}
 
-*Cho $h$ là một đại số con của đại số Lie $g$ và $U'$ là đại số bao phủ của nó. Giả sử rằng các $K$-môđun $h$ và $g/h$ là tự do (ví dụ nếu $K$ là một trường). Cho $(x_\alpha)_{\alpha \in L}$ là một cơ sở của $h$ và $(y_\beta)_{\beta \in M}$ là một họ các phần tử của $g$ mà các ảnh chính tắc của chúng trong $g/h$ tạo thành một cơ sở của $g/h$.*
+*Cho $h$ là một đại số con của đại số Lie $g$ và $U'$ là đại số bao của nó. Giả sử rằng các K-môđun $h$ và $g/h$ là tự do (chẳng hạn nếu $K$ là một trường). Cho $(x_\alpha)_{\alpha \in L}$ là một cơ sở của $h$ và $(y_\beta)_{\beta \in M}$ là một họ phần tử của $g$ mà các ảnh chính tắc của chúng trong $g/h$ lập thành một cơ sở của $g/h$.
 
-(a) *Đồng cấu chính tắc của $U'$ vào $U$ là đơn ánh.*
+(a) *Đồng cấu chính tắc từ $U'$ vào $U$ là đơn ánh.*
 
-(b) *Nếu $M$ được sắp thứ tự toàn phần, các phần tử $y_{\beta_1} \ldots y_{\beta_q}$, trong đó $\beta_1 \leq \cdots \leq \beta_q$, tạo thành một cơ sở của $U$ được xem như một môđun trái hoặc phải trên $U'$.*
+(b) *Nếu $M$ được sắp thứ tự toàn phần, thì các phần tử $y_{\beta_1} \ldots y_{\beta_q}$, với $\beta_1 \leq \cdots \leq \beta_q$, lập thành một cơ sở của $U$ khi xem nó như một môđun trái hoặc phải trên $U'$.*
 
 Ta cho $L \cup M$ một thứ tự toàn phần sao cho mọi phần tử của $L$ đều nhỏ hơn mọi phần tử của $M$. Các phần tử $x_{\alpha_1} x_{\alpha_2} \ldots x_{\alpha_p}$ được tính trong $U'$ (trong đó $\alpha_1 \leq \cdots \leq \alpha_p$) tạo thành một cơ sở của $U'$ (Hệ quả 3). Các phần tử
 
@@ -552,21 +553,21 @@ $$
 = AD_U(\sigma(x_1) \ldots \sigma(x_n)).
 $$
 
-Cuối cùng, cho $x \in g$. Gọi $\Delta$ là đạo hàm nội $y \mapsto \sigma(x)y - y\sigma(x)$ của $U$ (*Đại số*, Chương IV, § 4, no. 3, *Ví dụ 2*). Khi đó, với $x' \in g$,
+Sau cùng, cho $x \in g$. Gọi $\Delta$ là đạo hàm nội $y \mapsto \sigma(x)y - y\sigma(x)$ của $U$ (*Algebra*, Chapter IV, § 4, no. 3, *Example 2*). Khi đó, với $x' \in g$,
 
 $$
 (\Delta \circ \sigma)(x') = \sigma(x)\sigma(x') - \sigma(x')\sigma(x) = \sigma([x, x']) = (\sigma \circ \mathrm{ad}\, x)(x'),
 $$
 
-do đó $\Delta \circ \sigma = \sigma \circ \mathrm{ad}\, x$. Điều này hoàn thành chứng minh.
+do đó $\Delta \circ \sigma = \sigma \circ \mathrm{ad}\, x$. Điều này hoàn tất chứng minh.
 
-Áp dụng Mệnh đề 7 vào trường hợp một đại số Lie giao hoán, ta thấy rằng mọi tự đồng cấu $u$ của một $K$-môđun đều có thể được mở rộng một cách duy nhất thành một đạo hàm của đại số đối xứng của môđun này; đạo hàm này được dẫn xuất khi chuyển qua thương từ đạo hàm của đại số tenxơ mở rộng $u$.
+Áp dụng Mệnh đề 7 cho trường hợp một đại số Lie giao hoán, ta thấy rằng mọi tự đồng cấu $u$ của một $K$-môđun đều có thể được mở rộng một cách duy nhất thành một đạo hàm của đại số đối xứng của môđun này; đạo hàm này được dẫn xuất, khi chuyển qua thương, từ đạo hàm của đại số tenxơ mở rộng $u$.
 
-Ta lại lấy một đại số Lie $g$ trên $K$ và gọi $D$ là một đạo hàm của $g$. Ta sử dụng các ký hiệu trước đó $T, S, U, G$. Gọi $D_T, D_S$ là các đạo hàm của $T, S$ mở rộng $D$ và gọi $D_U$ là đạo hàm duy nhất của $U$ sao cho $\sigma \circ D = D_U \circ \sigma$. Vì $D_U$ giữ các $U_n$ ổn định, $D_U$ xác định, khi lấy các thương, một đạo hàm $D_G$ của $G$. Vì $D_U$ và $D_S$ được dẫn xuất từ $D_T$ khi chuyển qua các thương, biểu đồ giao hoán (3) chứng minh rằng $D_G$ cũng có thể được dẫn xuất từ $D_S$ bởi đồng cấu $\omega$ được xác định trong no. 6. Nếu hơn nữa $K$ là một trường có đặc số 0, các đẳng cấu của biểu đồ (4) ánh xạ lẫn nhau các hạn chế của $D_T, D_S, D_U, D_G$ lên ${S'}^n, S^n, U^n, G^n$. Do đó đẳng cấu chính tắc của $S$ lên $U$ ánh xạ $D_S$ thành $D_U$.
+Ta lại lấy một đại số Lie $g$ trên $K$ và gọi $D$ là một đạo hàm của $g$. Ta dùng các ký hiệu đã có trước đó $T, S, U, G$. Gọi $D_T, D_S$ là các đạo hàm của $T, S$ mở rộng $D$ và gọi $D_U$ là đạo hàm duy nhất của $U$ sao cho $\sigma \circ D = D_U \circ \sigma$. Vì $D_U$ giữ ổn định các $U_n$, nên $D_U$ xác định, khi lấy thương, một đạo hàm $D_G$ của $G$. Vì $D_U$ và $D_S$ được dẫn xuất từ $D_T$ khi chuyển qua thương, biểu đồ giao hoán (3) chứng tỏ rằng $D_G$ cũng có thể được dẫn xuất từ $D_S$ bởi đồng cấu $\omega$ được định nghĩa trong no. 6. Hơn nữa, nếu $K$ là một trường có đặc số 0, các đẳng cấu của biểu đồ (4) biến các hạn chế của $D_T, D_S, D_U, D_G$ trên ${S'}^n, S^n, U^n, G^n$ thành nhau. Vậy nên đẳng cấu chính tắc của $S$ lên $U$ biến $D_S$ thành $D_U$.
 
 ### 9. MỞ RỘNG VÀNH CƠ SỞ
 
-Cho $g$ là một đại số Lie trên $K$, $T$ là đại số tenxơ của nó, $J$ là iđêan hai phía của $T$ sinh bởi các $x \otimes y - y \otimes x - [x, y]$ ($x, y$ trong $g$) và $U = T/J$. Cho $K_1$ là một vành giao hoán có phần tử đơn vị và $\sigma$ là một đồng cấu từ $K$ vào $K_1$ ánh xạ 1 thành 1. Khi đó đại số tenxơ của $g_{(K_1)}$ được đồng nhất một cách chính tắc với $T_{(K_1)}$. Gọi $J'$ là iđêan hai phía của $T_{(K_1)}$ sinh bởi
+Cho $g$ là một đại số Lie trên $K$, $T$ là đại số tenxơ của nó, $J$ là iđêan hai phía của $T$ sinh bởi các $x \otimes y - y \otimes x - [x, y]$ ($x, y$ trong $g$) và $U = T/J$. Cho $K_1$ là một vành giao hoán có phần tử đơn vị và $\sigma$ là một đồng cấu của $K$ vào $K_1$ biến 1 thành 1. Khi đó đại số tenxơ của $g_{(K_1)}$ được đồng nhất một cách chính tắc với $T_{(K_1)}$. Gọi $J'$ là iđêan hai phía của $T_{(K_1)}$ sinh bởi các
 
 $$
 x' \otimes y' - y' \otimes x' - [x', y']

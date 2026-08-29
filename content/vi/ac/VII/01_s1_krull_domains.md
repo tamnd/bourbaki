@@ -53,7 +53,7 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: 15d474fa06f212f43f6f2aa7c365653f67aee6f75086607109bc6d207670da1f
+content_sha256: 1e14e67718807d0948922e5233e9366c7029cc0b6fd6e335cb7d997840112ba6
 translated_from: content/en/ac/VII/01_s1_krull_domains.md
 source_content_sha256: 9bef6d28f362c12836cf4563473a98aa78f886c75e3bc526c03329214a3be918
 translation_model: gpt-5-6-mini, gpt-5.4
@@ -218,7 +218,7 @@ Hiển nhiên chỉ cần kiểm tra điều kiện (AK$_{III}$) đối với c�
 Ví dụ
 (1) Mọi vành định giá rời rạc đều là một miền Krull.
 (2) Nói chung hơn, mọi miền iđêan chính $A$ đều là một miền Krull. Thật vậy, cho $(p_i)_{i \in I}$ là một hệ đại diện các phần tử cực biên của $A$ và $v_i$ là định giá trên trường phân thức của $A$ được xác định bởi $p_i$ (Chương VI, § 3, no. 3, Ví dụ 4). Ta thấy ngay lập tức rằng họ $(v_i)_{i \in I}$ thỏa mãn các tính chất (AK$_I$), (AK$_II$) và (AK$_{III}$).
-(3) Cho $F$ là một trường và $(R_i)_{1 \leq i \leq n}$ là một họ hữu hạn các vành con của $F$ mà đều là các miền Krull. Khi đó giao của chúng $S = \bigcap_{j=1}^n R_j$, là một miền Krull. Với $1 \leq j \leq n$, cho $(v_{j,t})_{t \in I_j}$ là một họ các định giá trên trường phân thức của $R_j$, thỏa mãn (AK$_I$), (AK$_{II}$), (AK$_{III}$) (ở đó $A$ được thay bằng $R_j$). Ký hiệu $w_{j,t}$ là hạn chế của $v_{j,t}$ lên trường phân thức của $S$. Khi đó họ $(v_{j,t})_{1 \leq j \leq n, t \in I_j}$ hiển nhiên thỏa mãn (AK$_{II}$) (ở đó $A$ được thay bằng $S$) và cả (AK$_{III}$) vì tập hợp các chỉ số$j$ là hữu hạn. Các định giá $w_{j,t}$ либо là rời rạc, либо là không chính quy. Chỉ giữ lại những định giá nào là rời rạc, ta thu được một họ hiển nhiên thỏa mãn (AK$_I$), (AK$_{II}$) và (AK$_{,,}$) (ở đó $A$ được thay bằng $S$). Do đó chắc chắn $S$ là một miền Krull.
+(3) Cho $F$ là một trường và $(R_i)_{1 \leq i \leq n}$ là một họ hữu hạn các vành con của $F$ mà đều là các miền Krull. Khi đó giao của chúng $S = \bigcap_{j=1}^n R_j$, là một miền Krull. Với $1 \leq j \leq n$, cho $(v_{j,t})_{t \in I_j}$ là một họ các định giá trên trường phân thức của $R_j$, thỏa mãn (AK$_I$), (AK$_{II}$), (AK$_{III}$) (ở đó $A$ được thay bằng $R_j$). Ký hiệu $w_{j,t}$ là hạn chế của $v_{j,t}$ lên trường phân thức của $S$. Khi đó họ $(v_{j,t})_{1 \leq j \leq n, t \in I_j}$ hiển nhiên thỏa mãn (AK$_{II}$) (ở đó $A$ được thay bằng $S$) và cả (AK$_{III}$) vì tập hợp các chỉ số$j$ là hữu hạn. Các định giá $w_{j,t}$ hoặc là rời rạc, hoặc là không chính quy. Chỉ giữ lại những định giá nào là rời rạc, ta thu được một họ hiển nhiên thỏa mãn (AK$_I$), (AK$_{II}$) và (AK$_{,,}$) (ở đó $A$ được thay bằng $S$). Do đó chắc chắn $S$ là một miền Krull.
 (4) Đặc biệt, nếu $A$ là một miền Krull và $K'$ là một trường con của trường phân thức $K$ của $A$, thì $K' \cap A$ là một miền Krull.
 
 #### Định lý 2 {#ac-vii-s1-thm-2 .statement}

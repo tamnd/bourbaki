@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: b67b9b7df6df2f68f7603eed446a754a8a5c9551c716516623f43abd4c982d87
+content_sha256: 665e46cdc2d4eb8573199d7c530a0e7b5824a4fa8e0898bb8b63973d86893637
 translated_from: content/en/alg/V/11_s11_abelian_extensions.md
 source_content_sha256: 59b836b035495edfdf1402c42c8c9377eff55f5660611ac36d05aba9452ca433
 translation_model: gpt-5.4-mini
@@ -504,7 +504,7 @@ Theo V, p. 65, Hệ quả 1, tồn tại $0 \in L^*$ sao cho $f(\sigma) = \sigma
 
 *Nếu L là một mở rộng Galois của K, thì đồng cấu $k_L$ là đơn ánh và ảnh của nó là nhóm $\mathrm{Hom}_c(\mathrm{Gal}(L/K), \mu_n(K))$ gồm các đồng cấu liên tục từ nhóm tôpô $\mathrm{Gal}(L/K)$ vào nhóm rời rạc $\mu_n(K)$. \*
 
-Điều này suy ra ngay từ những gì đã nói, dùng तथ्य rằng L là một hợp tăng có hướng của các mở rộng Galois $L_i$ có bậc hữu hạn và rằng đồng cấu từ $\mathrm{Gal}(L/K)$ vào $\mu_n(K)$ là liên tục khi và chỉ khi nó có thể được phân tích qua một trong các thương $\mathrm{Gal}(L_i/K)$ của $\mathrm{Gal}(L/K)$.
+Điều này suy ra ngay từ những gì đã nói, dùng sự kiện rằng L là một hợp tăng có hướng của các mở rộng Galois $L_i$ có bậc hữu hạn và rằng đồng cấu từ $\mathrm{Gal}(L/K)$ vào $\mu_n(K)$ là liên tục khi và chỉ khi nó có thể được phân tích qua một trong các thương $\mathrm{Gal}(L_i/K)$ của $\mathrm{Gal}(L/K)$.
 
 #### Định lý 4 {#alg-v-s11-thm-4 .statement}
 

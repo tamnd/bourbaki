@@ -21,10 +21,10 @@ subsections:
       pdf_page: 73
 statements: 9
 exercises: 11
-content_sha256: 870dc5a3798adb1453d440d2364ee590175ade40b80ceed2f603ca9546e8c942
+content_sha256: 215b651c9a362449ec6ad4bfca17a0b19bd8da93cd011eb9e0b989fd6603a709
 translated_from: content/en/ac/II/01_s1_prime_ideals.md
-source_content_sha256: 1b5bfd8804f03cc3ee0ccdadad5a967b6ee8842cca8b6471ecb23b5ec4046120
-translation_model: gpt-5-6-mini
+source_content_sha256: eaf2b502618aa5ba762ff7b78f5dd83041b3b831304194dfec9cee96f2fab555
+translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-70377c07
 glossary_version: 34
 glossary_terms_sha256: dc1afa28aec385d914c28eca6243ff65e26827f9b4aad7478dc28310411c1145
@@ -69,17 +69,17 @@ Một iđêan như vậy $p$ phải chứa $m$ theo Mệnh đề 1 được áp 
 
 *Cho $\mathbf{A}$ là một vành, $a$ là một tập hợp khác rỗng của $\mathbf{A}$ đóng đối với phép cộng và phép nhân và $(p_i)_{i \in I}$ là một họ hữu hạn khác rỗng các iđêan của $\mathbf{A}$. Giả sử rằng $a$ được chứa trong hợp của các $p_i$ và nhiều nhất hai trong các $p_i$ không nguyên tố. Khi đó $a$ được chứa trong một trong các $p_i$.*
 
-Ta lập luận bằng quy nạp theo $n = \mathrm{Card}(I)$; mệnh đề là tầm thường nếu $n = 1$. Giả sử $n \geq 2$; nếu tồn tại một chỉ số $j$ sao cho $a \cap p_j \subset \bigcup_{i \neq j} p_i$, tập hợp $a$, là hợp của các $a \cap p_i$ với $i \in I$, được chứa trong $\bigcup_{i \neq j} p_i$ và do đó được chứa trong một trong các $p_i$ theo giả thiết quy nạp. Giả sử khi đó không tồn tại chỉ số như vậy; với mọi $j \in I$, lấy $y_j$ là một phần tử của $a \cap p_j$ không thuộc bất kỳ $p_i$ nào với $i \neq j$. Lấy $k$ là một phần tử của $I$ được chọn sao cho $p_k$ là nguyên tố nếu $n > 2$ và được chọn tùy ý nếu $n = 2$; đặt $z = y_k + \prod_{i \neq k} y_i$. Khi đó $z \in a$, vì $a$ đóng đối với phép cộng và phép nhân; nếu $j \neq k$, $\prod_{i \neq k} y_i$ thuộc $p_j$, nhưng $y_k \notin p_j$, do đó $z \notin p_j$. Mặt khác, $\prod_{i \neq k} y_i$ không thuộc $p_k$, vì không có thừa số nào $y_i \ (i \neq k)$ thuộc nó và $p_k$ là nguyên tố nếu $n - 1 > 1$; vì $y_k \in p_k$, $z$ không thuộc $p_k$ và mệnh đề được chứng minh.
+Ta lập luận bằng quy nạp theo $n = \mathrm{Card}(I)$; mệnh đề là tầm thường nếu $n = 1$. Giả sử $n \geq 2$; nếu tồn tại một chỉ số $j$ sao cho $a \cap p_j \subset \bigcup_{i \neq j} p_i$, thì tập hợp $a$, là hợp của các $a \cap p_i$ với $i \in I$, được chứa trong $\bigcup_{i \neq j} p_i$ và do đó trong một trong các $p_i$ theo giả thiết quy nạp. Vậy giả sử rằng không tồn tại chỉ số như thế; với mọi $j \in I$, gọi $y_j$ là một phần tử của $a \cap p_j$ không thuộc bất kỳ $p_i$ nào với $i \neq j$. Gọi $k$ là một phần tử của $I$ được chọn sao cho $p_k$ là nguyên tố nếu $n > 2$ và được chọn tùy ý nếu $n = 2$; đặt $z = y_k + \prod_{i \neq k} y_i$. Khi đó $z \in a$, vì $a$ đóng đối với phép cộng và phép nhân; nếu $j \neq k$ thì $\prod_{i \neq k} y_i$ thuộc $p_j$, nhưng $y_k \notin p_j$, do đó $z \notin p_j$. Mặt khác, $\prod_{i \neq k} y_i$ không thuộc $p_k$, vì không thừa số nào trong các $y_i \ (i \neq k)$ thuộc nó và $p_k$ là nguyên tố nếu $n - 1 > 1$; vì $y_k \in p_k$, nên $z$ không thuộc $p_k$ và mệnh đề được chứng minh.
 
-### 2. CÁC IĐÊAN NGUYÊN TỐ CÙNG NHAU
+### 2. IĐÊAN NGUYÊN TỐ CÙNG NHAU
 
-Cho $A$ là một vành; hai iđêan $a, b$ của $A$ được gọi là *nguyên tố cùng nhau* nếu $a + b = A$. Để điều này đúng, điều kiện cần và đủ là $a + b$ không được chứa trong bất kỳ iđêan nguyên tố nào (*Algebra*, chương I, § 8, no. 7, định lý 2), nói cách khác, không có iđêan nguyên tố nào chứa cả $a$ và $b$. Hai iđêan cực đại phân biệt là nguyên tố cùng nhau.
+Cho $A$ là một vành; hai iđêan $a, b$ của $A$ được gọi là *nguyên tố cùng nhau* nếu $a + b = A$. Để điều này đúng, điều kiện cần và đủ là $a + b$ không được chứa trong iđêan nguyên tố nào (*Đại số*, Chương I, § 8, no. 7, Định lý 2), nói cách khác, không có iđêan nguyên tố nào chứa đồng thời cả $a$ lẫn $b$. Hai iđêan cực đại phân biệt thì nguyên tố cùng nhau.
 
-Nếu $A$ là một *miền iđêan chính* (*Algebra*, chương VII, § 1), để hai phần tử $a, b$ của $A$ nguyên tố cùng nhau, điều kiện cần và đủ, theo đồng nhất thức Bezout (*loc. cit.*, no. 2, định lý 1), là các iđêan $Aa$ và $Ab$ nguyên tố cùng nhau.
+Nếu $A$ là một *miền iđêan chính* (*Đại số*, Chương VII, § 1), thì để hai phần tử $a, b$ của $A$ là nguyên tố cùng nhau, điều kiện cần và đủ, theo đồng nhất thức Bezout (*loc. cit.*, no. 2, Định lý 1), là các iđêan $Aa$ và $Ab$ nguyên tố cùng nhau.
 
 #### Mệnh đề 3 {#ac-ii-s1-prop-3 .statement}
 
-*Cho $a$ và $b$ là hai iđêan nguyên tố cùng nhau của một vành $A$. Cho $a'$ và $b'$ là hai iđêan của $A$ sao cho mọi phần tử của $a$ (resp. $b$) có một lũy thừa thuộc $a'$ (resp. $b'$). Khi đó $a'$ và $b'$ là nguyên tố cùng nhau.*
+*Cho $a$ và $b$ là hai iđêan nguyên tố cùng nhau của một vành $A$. Cho $a'$ và $b'$ là hai iđêan của $A$ sao cho mọi phần tử của $a$ (resp. $b$) có một lũy thừa thuộc $a'$ (resp. $b'$). Khi đó $a'$ và $b'$ nguyên tố cùng nhau.*
 
 Theo giả thiết đã cho, mọi iđêan nguyên tố chứa $a'$ đều chứa $a$ và mọi iđêan nguyên tố chứa $b'$ đều chứa $b$. Nếu một iđêan nguyên tố chứa $a'$ và $b'$, thì nó chứa $a$ và $b$, điều này là vô lý, vì $a$ và $b$ nguyên tố cùng nhau; do đó $a'$ và $b'$ nguyên tố cùng nhau.
 
@@ -91,53 +91,55 @@ Cho $p$ là một iđêan nguyên tố của $A$. Nếu $p$ chứa $a$ và $b_1 
 
 #### Mệnh đề 5 {#ac-ii-s1-prop-5 .statement}
 
-*Cho $(a_i)_{i \in I}$ là một họ hữu hạn khác rỗng các iđêan của một vành $A$. Các tính chất sau đây là tương đương =
+*Cho $(a_i)_{i \in I}$ là một họ hữu hạn khác rỗng các iđêan của một vành $A$. Các tính chất sau là tương đương =
 (a) Với $i \neq j$, $a_i$ và $a_j$ nguyên tố cùng nhau.
 (b) *Đồng cấu chính tắc* $\phi : A \to \prod_{i \neq I} (A/a_i)$ (*Đại số*, Chương 11, § 1, no. 7) là toàn ánh.
-*Nếu các tính chất này được thỏa mãn, giao $a$ của các $a_i$ bằng tích của chúng và đồng cấu chính tắc* $\phi : A/a \to \prod_{i \in I} (A/a_i)$ (*Đại số*, Chương II, § 1, no. 7) là song ánh.*
+*Nếu các tính chất này được thỏa mãn, thì giao $a$ của các $a_i$ bằng với tích của chúng và đồng cấu chính tắc* $\phi : A/a \to \prod_{i \in I} (A/a_i)$ (*Đại số*, Chương II, § 1, no. 7) là song ánh.*
 
-Ta lập luận bằng quy nạp theo $n$, số các phần tử của $I$, trường hợp $n = 1$ là tầm thường. Trước hết xét trường hợp $n = 2$. Khi đó tính tương đương của (a) và (b) suy ra từ tính chính xác của dãy
+Ta lập luận bằng quy nạp theo $n$ là số phần tử của $I$, trường hợp $n = 1$ là tầm thường. Trước hết xét trường hợp $n = 2$. Khi đó tính tương đương của (a) và (b) suy ra từ tính chính xác của dãy
 
 $$
 0 \longrightarrow A/(a_1 \cap a_2) \xrightarrow{\psi} (A/a_1) \oplus (A/a_2) \longrightarrow A/(a_1 + a_2) \longrightarrow 0
 $$
 
-(Đại số, Chương II, § 1, no. 7, công thức (30)). Hơn nữa, tồn tại $e_1 \in a$, và $e_2 \in a_2$ sao cho $1 = e_1 + e_2$; khi đó, với mọi $x \in a = a_1 \cap a_2$, $x = xe_1 + xe_2$; nhưng theo định nghĩa $xe_1 \in a_1 a_2$ và $xe_2 \in a_1 a_2$, do đó $x \in a_1 a_2$; do đó $a \subset a_1 a_2$ và bao hàm ngược lại là hiển nhiên.
+(*Đại số*, Chương II, § 1, no. 7, công thức (30)). Hơn nữa, tồn tại $e_1 \in a$, và $e_2 \in a_2$ sao cho $1 = e_1 + e_2$; khi đó, với mọi $x \in a = a_1 \cap a_2$, ta có $x = xe_1 + xe_2$; nhưng theo định nghĩa $xe_1 \in a_1 a_2$ và $xe_2 \in a_1 a_2$, do đó $x \in a_1 a_2$; do đó $a \subset a_1 a_2$ và bao hàm ngược lại là hiển nhiên.
 
-Trong trường hợp tổng quát, giả sử điều kiện (a) được thỏa mãn và lấy $k$ là một phần tử của $I$ và $b_k = \bigcap_{i \neq k} a_i$; giả thiết quy nạp suy ra $b_k = \prod_{i \in I} a_i$, và theo Mệnh đề 4, $a$, và $b$, nguyên tố cùng nhau; khi đó
+Trong trường hợp tổng quát, giả sử điều kiện (a) được thỏa mãn và cho $k$ là một phần tử của $I$ và $b_k = \bigcap_{i \neq k} a_i$; giả thiết quy nạp suy ra rằng $b_k = \prod_{i \in I} a_i$, và từ Mệnh đề 4 suy ra $a$, và $b$, nguyên tố cùng nhau; khi đó
 
 $$
 a = \bigcap_{i \in I} a_i = a, \quad \cap b_k = a_k b_k = \prod_{i \in I} a_i,
 $$
 
-theo phần đầu của lập luận và cũng vì lý do đó, đồng cấu chính tắc $A/a \twoheadrightarrow (A/a_k) \times (A/b_k)$ là song ánh; theo giả thiết quy nạp, đồng cấu chính tắc $A/b_k \to \prod_{i \neq k} (A/a_i)$ là song ánh và do đó đồng cấu hợp
+theo phần thứ nhất của lập luận và vì cùng lý do đó đồng cấu chính tắc $A/a \twoheadrightarrow (A/a_k) \times (A/b_k)$ là song ánh; theo giả thiết quy nạp, đồng cấu chính tắc $A/b_k \to \prod_{i \neq k} (A/a_i)$ là song ánh và do đó hợp thành
 
 $$
 A/a \to (A/a_k) \times (A/b_k) \to (A/a_k) \times \prod_{i \neq k} (A/a_i) = \prod_{i \in I} (A/a_i)
 $$
 
-which is precisely $\psi$; nghĩa là, (b) được thỏa mãn. Ngược lại, giả sử rằng (b) được thỏa mãn. Ta chứng minh rằng các $a_i$ tất yếu nguyên tố cùng nhau từng đôi một. Trong trường hợp ngược lại, tồn tại một iđêan $c \neq A$ chứa $a_i$ và $a_j$, với $i \neq j$. Ta đặt $a_h' = a_h$ với $h$ không bằng $i$ hoặc $j$ và $a_i' = a_j' = c$; đồng cấu chính tắc $\phi': A \to \prod_{i \in I} (A/a_i')$ có thể được viết thành ánh xạ hợp thành
+cũng là song ánh.
+
+chính xác là $\psi$; tức là, (b) được thỏa mãn. Ngược lại, giả sử rằng (b) được thỏa mãn. Ta chứng minh rằng các $a_i$ tất yếu nguyên tố cùng nhau từng đôi một. Trong trường hợp ngược lại, sẽ tồn tại một iđêan $c \neq A$ chứa $a_i$ và $a_j$, với $i \neq j$. Đặt $a_h' = a_h$ với $h$ khác $i$ và $j$ và $a_i' = a_j' = c$; đồng cấu chính tắc $\phi': A \to \prod_{i \in I} (A/a_i')$ có thể viết thành hợp thành của các ánh xạ
 
 $$
 A \xrightarrow{\phi} \prod_{i \in I} (A/a_i) \xrightarrow{f} \prod_{i \in I} (A/a_i')
 $$
 
-trong đó $f$ là tích của các đồng cấu chính tắc $A/a_i \to A/a_i'$; rõ ràng $\phi'$ không toàn ánh, phép chiếu của $+(A)$ lên $(A/a_i') \times (A/a_i')$ là đường chéo của tích $(A/c) \times (A/c)$, khác với tích này vì $c \neq A$. Vì $f$ là toàn ánh, điều này chỉ ra rằng $\phi$ không toàn ánh.
+trong đó $f$ là tích của các đồng cấu chính tắc $A/a_i \to A/a_i'$; rõ ràng $\phi'$ không toàn ánh, vì phép chiếu của $+(A)$ lên $(A/a_i') \times (A/a_i')$ là đường chéo của tích $(A/c) \times (A/c)$, khác với tích này vì $c \neq A$. Vì $f$ là toàn ánh, điều đó cho thấy $\phi$ không toàn ánh.
 
 #### Mệnh đề 6 {#ac-ii-s1-prop-6 .statement}
 
-*Cho $(a_i)_{i \in I}$ là một họ hữu hạn không rỗng các iđêan của một vành $A$ nguyên tố cùng nhau từng đôi một; cho $a$ là giao của các $a_i$. Với mọi $A$-môđun $M$, ánh xạ chính tắc $M \to \prod_{i \in I} (M/a_i M)$ là toàn ánh và hạt nhân của nó là $aM$.*
+*Cho $(a_i)_{i \in I}$ là một họ hữu hạn khác rỗng các iđêan của một vành $A$ nguyên tố cùng nhau từng đôi một; gọi $a$ là giao của các $a_i$. Với mọi $A$-môđun $M$, ánh xạ chính tắc $M \to \prod_{i \in I} (M/a_i M)$ là toàn ánh và hạt nhân của nó là $aM$.*
 
-Rõ ràng ánh xạ chính tắc của $M$ vào $\prod_{i \in I} (M/a_i M)$ bằng không trên $aM$; khi đó, bằng cách lấy các thương, nó xác định một đồng cấu $A : M/aM \to \prod_{i \in I} (M/a_i M)$. Mặt khác, theo Mệnh đề 5, đồng cấu chính tắc
+Rõ ràng ánh xạ chính tắc từ $M$ vào $\prod_{i \in I} (M/a_i M)$ bằng không trên $aM$; do đó, bằng cách lấy thương, nó xác định một đồng cấu $A : M/aM \to \prod_{i \in I} (M/a_i M)$. Mặt khác, theo Mệnh đề 5, đồng cấu chính tắc
 $$
 \psi : A/a \to \prod_{i \in I} (A/a_i)
 $$
-là song ánh. Khi đó $1_M \otimes \psi : M \otimes (A/a) \to M \otimes \prod_{i \in I} (A/a_i)$ cũng là song ánh. Bây giờ $M \otimes (A/a)$ được đồng nhất với $M/aM$ và $M \otimes \prod_{i \in I} (A/a_i)$ với $\prod_{i \in I} M \otimes (A/a_i)$, mà chính nó được đồng nhất với $\prod_{i \in I} (M/a_i M)$. Người ta kiểm tra ngay lập tức rằng các phép đồng nhất ở trên biến $1_M \otimes \psi$ thành $\lambda$, do đó có mệnh đề.
+là song ánh. Khi đó $1_M \otimes \psi : M \otimes (A/a) \to M \otimes \prod_{i \in I} (A/a_i)$ cũng song ánh. Bây giờ $M \otimes (A/a)$ được đồng nhất với $M/aM$ và $M \otimes \prod_{i \in I} (A/a_i)$ với $\prod_{i \in I} M \otimes (A/a_i)$, mà bản thân nó được đồng nhất với $\prod_{i \in I} (M/a_i M)$. Ngay lập tức kiểm tra được rằng các sự đồng nhất ở trên biến $1_M \otimes \psi$ thành $\lambda$, do đó suy ra mệnh đề.
 
 #### Ví dụ {#ac-ii-s1-n2-exa-1 .statement}
 
-Cho $K$ là một trường, $a, (1 \leq i \leq m)$ là các phần tử phân biệt của $K$ và, với mỗi $i$, cho $g_i$ là một đa thức trong $K[X]$; iđêan chính $(X - a_i) = m_i$ là cực đại trong $K[X]$, do đó, với mọi hệ $(n_i)_{1 \leq i \leq m}$ gồm $m$ số nguyên $\geq 1$, các iđêan $m_i^{n_i}$ nguyên tố cùng nhau từng đôi một. Khi đó từ Mệnh đề 5 suy ra rằng tồn tại một đa thức $f \in K[X]$ sao cho $f(X) \equiv g_i(X) \pmod{(X - a_i)^{n_i}}$ với $1 \leq i \leq m$, hiệu của hai đa thức như vậy chia hết cho $\omega(X) = \prod_{i=1}^m (X - a_i)^{n_i}$. Nếu tất cả các $n_i$ được lấy bằng 1, ta thấy bài toán được giải tường minh bởi công thức nội suy của Lagrange (*Algebra*, Chương IV, § 2, no. 4).
+Cho $K$ là một trường, $a, (1 \leq i \leq m)$ là các phần tử phân biệt của $K$ và, với mỗi $i$, gọi $g_i$ là một đa thức trong $K[X]$; iđêan chính $(X - a_i) = m_i$ là cực đại trong $K[X]$, do đó, với mọi hệ $(n_i)_{1 \leq i \leq m}$ gồm $m$ số nguyên $\geq 1$, các iđêan $m_i^{n_i}$ nguyên tố cùng nhau từng đôi một. Khi đó theo Mệnh đề 5, tồn tại một đa thức $f \in K[X]$ sao cho $f(X) \equiv g_i(X) \pmod{(X - a_i)^{n_i}}$ với $1 \leq i \leq m$, hiệu của hai đa thức như vậy chia hết cho $\omega(X) = \prod_{i=1}^m (X - a_i)^{n_i}$. Nếu lấy tất cả các $n_i$ bằng 1, ta thấy bài toán được giải một cách tường minh bằng công thức nội suy của Lagrange (*Đại số*, Chương IV, § 2, no. 4).
 
 ### Bài tập {#ac-ii-s1-exercises}
 
-Xem các [bài tập cho § 1](exercises/s1/).
+Xem [bài tập của § 1](exercises/s1/).

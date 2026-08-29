@@ -29,7 +29,7 @@ subsections:
       pdf_page: 180
 statements: 13
 exercises: 3
-content_sha256: fa0bbcf884263947828b08562c18f205aebe6e8505c2af6ac678fac51c6381ce
+content_sha256: 9408eb6842963c5bcd44bca8bcb6dc4bce6e759ea5d5cfb2c299eeab518aa845
 translated_from: content/en/ac/III/01_s1_finitely_generated_graded_algebras.md
 source_content_sha256: f5a839fc9eb2de4a6348015dd8cd693291996b095c75da79331ecfb76c8dfc47
 translation_model: gpt-5.4-mini

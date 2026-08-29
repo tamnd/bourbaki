@@ -61,7 +61,7 @@ subsections:
       pdf_page: 594
 statements: 41
 exercises: 5
-content_sha256: 31b18490fb4eb9aeb1cd6c7352aa110bb7714bd6ae7dc50142863c7b70286958
+content_sha256: 28eb234b5dcb6037bd038c20f91866c0a7bacdb8b09fd5d2b244a7ba0e4d9f24
 translated_from: content/en/alg/III/10_s10_derivations.md
 source_content_sha256: 321a0214d9f86881e7cc2493bc5c6c5f347dd080ee2ae7987600113edd176f01
 translation_model: gpt-5.4-mini
@@ -1096,7 +1096,7 @@ Không nên nghĩ rằng, ngay cả khi $u: A \to B$ là một đồng cấu đ�
 
 Cho $A$ là một đại số nguyên trên K, $B$ là trường phân thức của nó và $u: A \to B$ là đơn ánh chính tắc. Khi đó $\Omega_0(u): \Omega_K(A) \otimes_A B \to \Omega_K(B)$ là một đẳng cấu.
 
-Dựa vào तथ्य là trong biểu đồ (42) các mũi tên dọc là song ánh, chỉ còn phải chứng minh rằng, với mọi không gian vectơ $E$ trên $B$, ánh xạ $C(u): D_K(B, E) \to D_K(A, E)$ là song ánh. Nhưng điều này suy ra từ तथ्य là mọi K-đạo hàm của $A$ vào $E$ đều có thể được mở rộng duy nhất thành một K-đạo hàm của $B$ vào $E$ (no. 5, Mệnh đề 5).
+Dựa vào sự kiện là trong biểu đồ (42) các mũi tên dọc là song ánh, chỉ còn phải chứng minh rằng, với mọi không gian vectơ $E$ trên $B$, ánh xạ $C(u): D_K(B, E) \to D_K(A, E)$ là song ánh. Nhưng điều này suy ra từ sự kiện là mọi K-đạo hàm của $A$ vào $E$ đều có thể được mở rộng duy nhất thành một K-đạo hàm của $B$ vào $E$ (no. 5, Mệnh đề 5).
 
 ### Bài tập {#alg-iii-s10-exercises}
 

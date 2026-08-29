@@ -52,7 +52,7 @@ subsections:
       pdf_page: 245
 statements: 45
 exercises: 31
-content_sha256: da602aae60f7dd3f1121db9340150ba5e0f2494f10fd01ea44c8647a4c4b2ca9
+content_sha256: 3a9b626cf8dfceae72121c337568c449ab99d3146b02c1473fdee26cd4bdb8e4
 translated_from: content/en/top/III/02_s2_subgroups_quotient_groups_homomorphisms.md
 source_content_sha256: 09d7ecdaae15234f6b98dd6b72f9c1f771f5a6bc26fa08e838278d792205c2fa
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
@@ -488,7 +488,7 @@ Vì $h(x, y) = f(x)g(y)$, mệnh đề thứ hai là hiển nhiên; hơn nữa t
 
 Nhóm S được xác định trong Mệnh đề 27 được gọi là *tích nửa trực tiếp ngoài* của N và L (đối với $\sigma$); nói chung chúng ta sẽ đồng nhất N (tương ứng L) với nhóm con chuẩn tắc $j_1(N)$ [tương ứng nhóm con $j_2(L)$] của S. Nếu $\sigma_y$ là phần tử đơn vị của $\Gamma$ với mọi $y \in L$, ta thu lại khái niệm thông thường về *tích* của hai nhóm.
 
-Bây giờ cho G là một nhóm, và cho L và N là hai nhóm con của G sao cho $LN = NL$ và sao cho N là *chuẩn tắc* trong NL, nên với mỗi $y \in L$, $\sigma_y : x \to yxy^{-1}$ là một tự đẳng cấu của N, và $y \to \sigma_y$ là một đồng cấu từ L vào nhóm tự đẳng cấu $\Gamma$ của N. Khi đó suy ra từ Mệnh đề 27 rằng nếu S là tích nửa trực tiếp ngoài của N và L (ứng với $\sigma$), thì $h : (x, y) \to xy$ là một *đồng cấu* từ S vào G. h là song ánh khi và chỉ khi ta có $N \cap L = \{e\}$ và $NL = G$ (Hệ quả của Mệnh đề 27); khi đó G được gọi là *tích nửa trực tiếp* của nhóm con chuẩn tắc N của nó và nhóm con L của nó, và ta thường đồng nhất G với S посредством h.
+Bây giờ cho G là một nhóm, và cho L và N là hai nhóm con của G sao cho $LN = NL$ và sao cho N là *chuẩn tắc* trong NL, nên với mỗi $y \in L$, $\sigma_y : x \to yxy^{-1}$ là một tự đẳng cấu của N, và $y \to \sigma_y$ là một đồng cấu từ L vào nhóm tự đẳng cấu $\Gamma$ của N. Khi đó suy ra từ Mệnh đề 27 rằng nếu S là tích nửa trực tiếp ngoài của N và L (ứng với $\sigma$), thì $h : (x, y) \to xy$ là một *đồng cấu* từ S vào G. h là song ánh khi và chỉ khi ta có $N \cap L = \{e\}$ và $NL = G$ (Hệ quả của Mệnh đề 27); khi đó G được gọi là *tích nửa trực tiếp* của nhóm con chuẩn tắc N của nó và nhóm con L của nó, và ta thường đồng nhất G với S qua h.
 
 #### Mệnh đề 28 {#top-iii-s2-prop-28 .statement}
 
