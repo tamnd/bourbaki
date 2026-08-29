@@ -12,61 +12,61 @@ pdf_pages: 0004-0006
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: dfb15cdbd040cea1e0099c33647e510e85908e3c01b2d62b086d77185c0809c8
+content_sha256: af8602541ddc7622ec8f086bac541c30b0bedee3970cee44d97bc7a3c1e3fc65
 translated_from: content/en/int/00_to_the_reader_vii_ix.md
 source_content_sha256: 0b7b4874543c4b1c022753df5b3549321332349ffebf20695d43d3017ad5a5da
-translation_model: gpt-5.4
+translation_model: gpt-5-mini
 translation_run: translate-vi-8a01ac4d
 glossary_version: 34
 glossary_terms_sha256: 1311e98de6b1255f8d645b350b899336750b804e29513ae49f4a6c49af3fab13
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## GỬI BẠN ĐỌC
+# DÀNH CHO ĐỘC GIẢ
 
-1. The Elements of Mathematics series takes up mathematics at their beginning, and gives complete proofs. In principle, it requires no particular knowledge of mathematics on the reader’s part, but only a certain familiarity with mathematical reasoning and a certain capacity for abstract thought. Nevertheless, it is directed especially to those who have a good knowledge of at least the content of the first year or two of a university mathematics course.
+1. Chuỗi sách Các Nguyên lý Toán học bắt đầu từ những nền tảng của toán học và đưa ra các chứng minh đầy đủ. Về nguyên tắc, nó không đòi hỏi ở độc giả một kiến thức toán học đặc biệt nào, mà chỉ cần một sự quen thuộc nhất định với lập luận toán học và một khả năng nhất định về tư duy trừu tượng. Tuy nhiên, nó đặc biệt hướng tới những người có kiến thức tốt ít nhất về nội dung của một hoặc hai năm đầu của một khóa học toán học đại học.
 
-2. The method of exposition we have chosen is axiomatic, and normally proceeds from the general to the particular. The demands of proof impose a rigorously fixed order on the subject matter. It follows that the utility of certain considerations will not be immediately apparent to the reader unless he already has a fairly extensive knowledge of mathematics.
+2. Phương pháp trình bày mà chúng tôi lựa chọn là tiên đề hóa, và thông thường đi từ tổng quát đến cụ thể. Những yêu cầu của chứng minh áp đặt một cấp có thứ tự nghiêm ngặt lên nội dung. Do đó, ích lợi của một số xem xét sẽ không ngay lập tức rõ ràng đối với độc giả, trừ khi người đó đã có một kiến thức toán học khá rộng.
 
-3. The series is divided into Books, and each Book into chapters. The Books already published, either in whole or in part, in the French edition, are listed below. When an English translation is available, the corresponding English title is mentioned between parentheses. Throughout the volume a reference indicates the English edition, when available, and the French edition otherwise.
+3. Chuỗi sách được chia thành các Quyển, và mỗi Quyển thành các chương. Các Quyển đã xuất bản, toàn bộ hoặc một phần, trong bản tiếng Pháp, được liệt kê dưới đây. Khi có bản dịch tiếng Anh, tên tiếng Anh tương ứng được nêu trong ngoặc đơn. Trong toàn bộ tập sách, một tham chiếu chỉ bản tiếng Anh khi có, và bản tiếng Pháp trong trường hợp ngược lại.
 
 Théorie des Ensembles (Lý thuyết tập hợp) ký hiệu bởi E (S)
 Algèbre (Đại số) — A (A)
-Topologie Générale (Tôpô Tổng quát) — TG (GT)
-Fonctions d’une Variable Réelle (Các hàm của một biến thực) — FVR (FRV)
-Espaces Vectoriels Topologiques (Các không gian vectơ tôpô) — EVT (TVS)
+Topologie Générale (Tôpô tổng quát) — TG (GT)
+Fonctions d’une Variable Réelle (Hàm của một biến thực) — FVR (FRV)
+Espaces Vectoriels Topologiques (Không gian vectơ tôpô) — EVT (TVS)
 Intégration (Tích phân) — INT (INT)
 Algèbre Commutative (Đại số giao hoán) — AC (CA)
 Variétés Différentielles et Analytiques — VAR
-Groupes et Algèbres de Lie (Các nhóm Lie và các đại số Lie) — LIE (LIE)
+Groupes et Algèbres de Lie (Nhóm và đại số Lie) — LIE (LIE)
 Théories Spectrales — TS
 
-Trong sáu Quyển đầu tiên (theo thứ tự ở trên), mọi mệnh đề trong văn bản chỉ giả thiết đã biết những kết quả đã được trình bày trước đó trong cùng chương, hoặc trong các chương trước đó được sắp theo thứ tự sau: S; A, Chương I đến III; GT, Chương I đến III; A, từ Chương IV trở đi; GT, từ Chương IV trở đi; FRV; TVS; INT.
+Trong sáu Quyển đầu tiên (theo thứ tự trên), mọi mệnh đề trong văn bản chỉ giả sử đã biết những kết quả đã được thảo luận trong cùng chương, hoặc trong các chương trước theo thứ tự sau: S; A, các Chương I đến III; GT, các Chương I đến III; A, từ Chương IV trở đi; GT, từ Chương IV trở đi; FRV; TVS; INT.
 
-Từ Quyển thứ bảy trở đi, bạn đọc thường sẽ thấy một chỉ dẫn chính xác về quan hệ lôgic của nó với các Quyển khác (sáu Quyển đầu tiên luôn luôn được giả thiết là đã biết).
+Từ Quyển thứ bảy trở đi, độc giả thường sẽ tìm thấy một chỉ dẫn chính xác về quan hệ lôgic của nó với các Quyển khác (sáu Quyển đầu tiên luôn được giả sử là đã biết).
 
-4. However we have sometimes inserted examples in the text that refer to facts the reader may already know but which have not yet been discussed in the series. Such examples are placed between two asterisks: *...*. Most readers will undoubtedly find that these examples help them to understand the text. In other cases, the passages between *...* refer to results that are discussed elsewhere in the series. We hope that the reader will be able to verify the absence of any vicious circle.
+4. Tuy nhiên, đôi khi chúng tôi đã đưa vào văn bản những ví dụ liên quan đến các sự kiện mà độc giả có thể đã biết nhưng chưa được thảo luận trong chuỗi sách. Những ví dụ như vậy được đặt giữa hai dấu sao: *...*. Phần lớn độc giả chắc chắn sẽ thấy rằng các ví dụ này giúp họ hiểu văn bản. Trong các trường hợp khác, những đoạn giữa *...* liên quan đến các kết quả được thảo luận ở nơi khác trong chuỗi sách. Chúng tôi hy vọng rằng độc giả có thể kiểm tra sự vắng mặt của mọi vòng tròn luẩn quẩn.
 
-5. The logical framework of each chapter consists of the definitions, the axioms, and the theorems of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as "propositions", "lemmas", "corollaries", "remarks", etc. Those which may be omitted on a first reading are printed in small type. A commentary on a particularly important theorem occasionally appears under the name of "scholium".
+5. Khuôn khổ lôgic của mỗi chương gồm các định nghĩa, các tiên đề và các định lý của chương đó. Đây là những phần chủ yếu cần được ghi nhớ để sử dụng sau này. Những kết quả ít quan trọng hơn và những kết quả có thể dễ dàng suy ra từ các định lý được gọi là "mệnh đề", "bổ đề", "hệ quả", "nhận xét", v.v. Những phần có thể bỏ qua trong lần đọc đầu tiên được in bằng kiểu chữ nhỏ. Một lời chú giải về một định lý đặc biệt quan trọng đôi khi xuất hiện dưới tên "chú giải".
 
-Để tránh những sự lặp lại tẻ nhạt, đôi khi thuận tiện khi đưa vào các ký hiệu hoặc các chữ viết tắt chỉ có hiệu lực trong một chương nhất định hoặc một tiết diện nhất định của một chương (chẳng hạn, trong một chương chỉ xét các vành giao hoán, từ "vành" sẽ luôn luôn có nghĩa là "vành giao hoán"). Những quy ước như vậy luôn luôn được nói rõ một cách tường minh, nói chung ở đầu chương nơi chúng xuất hiện.
+Để tránh những lặp lại nhàm chán, đôi khi thuận tiện đưa vào các ký hiệu hoặc các viết tắt chỉ có hiệu lực trong một chương nhất định hoặc một tiết diện nhất định của một chương (chẳng hạn, trong một chương chỉ xét các vành giao hoán, từ "vành" luôn có nghĩa là "vành giao hoán"). Những quy ước như vậy luôn được nêu tường minh, nói chung ở đầu chương mà chúng xuất hiện.
 
-6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ("dangerous bend").
+6. Một số đoạn trong văn bản được thiết kế để báo trước cho độc giả những sai lầm nghiêm trọng. Những đoạn này được đánh dấu ở lề bằng ký hiệu ("khúc quanh nguy hiểm").
 
-7. The Exercises are designed both to enable the reader to satisfy himself that he has digested the text and to bring to his attention results that have no place in the text but are nevertheless of interest. The most difficult exercises bear the sign ¶.
+7. Các Bài tập được thiết kế vừa để giúp độc giả tự kiểm tra rằng mình đã lĩnh hội văn bản, vừa để đưa ra sự chú ý của họ những kết quả không có chỗ trong văn bản nhưng vẫn đáng quan tâm. Những bài tập khó nhất mang dấu hiệu ¶.
 
-8. In general, we have adhered to the commonly accepted terminology, except where there appeared to be good reasons for deviating from it.
+8. Nói chung, chúng tôi đã tuân theo thuật ngữ được chấp nhận rộng rãi, trừ khi có những lý do tốt để đi lệch khỏi nó.
 
-9. We have made a particular effort always to use rigorously correct language, without sacrificing simplicity. As far as possible we have drawn attention in the text to abuses of language, without which any mathematical text runs the risk of pedantry, not to say unreadability.
+9. Chúng tôi đã đặc biệt cố gắng luôn sử dụng ngôn ngữ đúng đắn một cách nghiêm ngặt, mà không hy sinh tính đơn giản. Trong phạm vi có thể, chúng tôi đã chỉ ra trong văn bản những sự lạm dụng ngôn ngữ, vì thiếu chúng mà bất kỳ văn bản toán học nào cũng có nguy cơ trở nên kiểu cách, nếu không muốn nói là không thể đọc được.
 
-10. Since in principle the text consists of the dogmatic exposition of a theory, it contains in general no references to the literature. Bibliographical references are gathered together in Historical Notes. The bibliography which follows each historical note contains in general only those books and original memoirs that have been of the greatest importance in the evolution of the theory under discussion. It makes no pretense of any sort to completeness.
+10. Vì về nguyên tắc văn bản gồm sự trình bày giáo điều của một lý thuyết, nên nói chung nó không chứa các tham chiếu đến tài liệu. Các tham chiếu thư mục được tập hợp trong các Ghi chú lịch sử. Thư mục theo sau mỗi ghi chú lịch sử nói chung chỉ chứa những sách và hồi ký nguyên bản có tầm quan trọng lớn nhất trong sự phát triển của lý thuyết đang được bàn đến. Nó không tuyên bố đầy đủ dưới bất kỳ hình thức nào.
 
-Về các bài tập, nói chung chúng tôi không thấy cần thiết phải chỉ ra nguồn gốc của chúng, vì chúng được rút ra từ nhiều nguồn khác nhau (các bài báo gốc, các giáo trình, các tuyển tập bài tập).
+Đối với các bài tập, nói chung chúng tôi không thấy đáng để chỉ ra nguồn gốc của chúng, vì chúng được lấy từ nhiều nguồn khác nhau (các bài báo nguyên bản, sách giáo khoa, các tuyển tập bài tập).
 
-11. References to a part of this series are given as follows:
-a) If reference is made to theorems, axioms, or definitions presented in the same section (\S), they are cited by their number.
-b) If they occur in another section of the same chapter, this section is also cited in the reference.
-c) If they occur in another chapter in the same Book, the chapter and section are cited.
-d) If they occur in another Book, the Book is cited first, by the abbreviation of its title.
+11. Các tham chiếu đến một phần của chuỗi sách này được cho như sau:
+a) Nếu tham chiếu đến các định lý, tiên đề hoặc định nghĩa được trình bày trong cùng tiết diện (\S), chúng được dẫn theo số của chúng.
+b) Nếu chúng xuất hiện trong một tiết diện khác của cùng chương, tiết diện này cũng được dẫn trong tham chiếu.
+c) Nếu chúng xuất hiện trong một chương khác của cùng Quyển, chương và tiết diện được dẫn.
+d) Nếu chúng xuất hiện trong một Quyển khác, Quyển được dẫn trước, bằng chữ viết tắt của tên Quyển đó.
 
-Các Bản tóm tắt Kết quả được dẫn bằng chữ R; như vậy S, R biểu thị "Bản tóm tắt các Kết quả của Lý thuyết tập hợp".
+Các Bảng tóm tắt kết quả được dẫn bằng chữ R; do đó S, R có nghĩa là "Bảng tóm tắt kết quả của Lý thuyết tập hợp".
