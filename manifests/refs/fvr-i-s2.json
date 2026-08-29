@@ -1,0 +1,15 @@
+{"edges": [
+{"from":"","from_label":"fvr-i-s2-prop-1","to_label":"fvr-i-s3","kind":"cites","raw":"I, p. 20","form":"page","resolved_by":"section","file":"content/en/fvr/I/02_s2_the_mean_value_theorem.md","line":45},
+{"from":"","from_label":"fvr-i-s2-prop-2","to_label":"top-iv-s2","kind":"cites","raw":"*Gen. Top.*, IV, p. 336","form":"page","resolved_by":"section","file":"content/en/fvr/I/02_s2_the_mean_value_theorem.md","line":73},
+{"from":"","from_label":"fvr-i-s2-n2-rem-1","to_label":"fvr-i-s2-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/fvr/I/02_s2_the_mean_value_theorem.md","line":115},
+{"from":"","from_label":"fvr-i-s2-n2-rem-2","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 36","form":"page","resolved_by":"section","file":"content/en/fvr/I/02_s2_the_mean_value_theorem.md","line":119},
+{"from":"","from_label":"fvr-i-s2-n2-rem-3","to_label":"fvr-i-s2-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/fvr/I/02_s2_the_mean_value_theorem.md","line":125},
+{"from":"","from_label":"fvr-i-s2-n2-rem-5","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 38","form":"page","resolved_by":"section","file":"content/en/fvr/I/02_s2_the_mean_value_theorem.md","line":169},
+{"from":"","from_label":"fvr-i-s2-prop-3","to_label":"fvr-i-s2-thm-2","kind":"cites","raw":"Theorem 2","form":"local","resolved_by":"in-section","file":"content/en/fvr/I/02_s2_the_mean_value_theorem.md","line":291},
+{"from":"","from_label":"fvr-i-s2-ex-2","to_label":"top-iii-s6","kind":"cites","raw":"*Gen. Top.*, III, p. 322","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s2/02.md","line":16},
+{"from":"","from_label":"fvr-i-s2-ex-3","to_label":"top-iv-s2","kind":"cites","raw":"*Gen. Top.*, IV, p. 338","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s2/03.md","line":14},
+{"from":"","from_label":"fvr-i-s2-ex-7","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 36","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s2/07.md","line":14},
+{"from":"","from_label":"fvr-i-s2-ex-7","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 18","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s2/07.md","line":14},
+{"from":"","from_label":"fvr-i-s2-ex-12","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 36","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s2/12.md","line":18},
+{"from":"","from_label":"fvr-i-s2-ex-14","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 15","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s2/14.md","line":18}
+]}

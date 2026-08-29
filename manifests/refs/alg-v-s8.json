@@ -1,0 +1,16 @@
+{"edges": [
+{"from":"","from_label":"alg-v-s8","to_label":"alg-iii-s9","kind":"cites","raw":"III, p. 543","form":"page","resolved_by":"section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":38},
+{"from":"","from_label":"alg-v-s8","to_label":"alg-iii-s9","kind":"cites","raw":"III, p. 549","form":"page","resolved_by":"section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":38},
+{"from":"","from_label":"alg-v-s8","to_label":"alg-iii-s9","kind":"cites","raw":"III, p. 544","form":"page","resolved_by":"section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":45},
+{"from":"","from_label":"alg-v-s8","to_label":"alg-v-s6","kind":"cites","raw":"V, p. 29","form":"page","resolved_by":"section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":56},
+{"from":"","from_label":"alg-v-s8","to_label":"alg-v-s6-prop-2","kind":"cites","raw":"V, p. 30, Prop. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":63},
+{"from":"","from_label":"alg-v-s8-prop-1","to_label":"alg-v-s6-thm-1","kind":"cites","raw":"V, p. 27, Th. 1","form":"page","resolved_by":"page-map","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":111},
+{"from":"","from_label":"alg-v-s8-lem-2","to_label":"alg-v-s6-thm-4","kind":"cites","raw":"V, p. 34, Th. 4","form":"page","resolved_by":"page-map","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":135},
+{"from":"","from_label":"alg-v-s8-n2-cor-1","to_label":"alg-v-s8-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":141},
+{"from":"","from_label":"alg-v-s8-n2-cor-1","to_label":"alg-v-s8-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":141},
+{"from":"","from_label":"alg-v-s8","to_label":"alg-iii-s9","kind":"cites","raw":"III, p. 548","form":"page","resolved_by":"section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":145},
+{"from":"","from_label":"alg-v-s8-prop-3","to_label":"alg-v-s8-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":171},
+{"from":"","from_label":"alg-v-s8-prop-3","to_label":"alg-v-s8-n3-cor-1","kind":"cites","raw":"Cor. of Prop. 2","form":"attached","resolved_by":"parent-label","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":171},
+{"from":"","from_label":"alg-v-s8-lem-3","to_label":"alg-v-s8-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":211},
+{"from":"","from_label":"alg-v-s8-prop-4","to_label":"alg-v-s8-prop-4","kind":"cites","raw":"Prop. 4","form":"local","resolved_by":"in-section","file":"content/en/alg/V/08_s8_norms_and_traces.md","line":233}
+]}

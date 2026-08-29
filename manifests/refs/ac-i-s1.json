@@ -1,0 +1,15 @@
+{"edges": [
+{"from":"","from_label":"ac-i-s1","to_label":"ens-ii-s3","kind":"cites","raw":"Set Theory, Chapter II, § 3, no. 4","form":"section","resolved_by":"section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":43},
+{"from":"","from_label":"ac-i-s1","to_label":"ac-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":62},
+{"from":"","from_label":"ac-i-s1","to_label":"alg-ii-s1","kind":"cites","raw":"Algebra, Chapter II, § 1, no. 4","form":"section","resolved_by":"section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":92},
+{"from":"","from_label":"ac-i-s1-lem-1","to_label":"ac-i-s1-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":233},
+{"from":"","from_label":"ac-i-s1-lem-1","to_label":"ac-i-s1-lem-1","kind":"cites","raw":"Lemma 1","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":247},
+{"from":"","from_label":"ac-i-s1-prop-2","to_label":"ac-i-s1-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":273},
+{"from":"","from_label":"ac-i-s1-prop-2","to_label":"ac-i-s1-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":275},
+{"from":"","from_label":"ac-i-s1-n4-rem-1","to_label":"ac-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":303},
+{"from":"","from_label":"ac-i-s1-prop-2-cor-1","to_label":"ac-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":312},
+{"from":"","from_label":"ac-i-s1-prop-2-cor-1","to_label":"ac-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":314},
+{"from":"","from_label":"ac-i-s1-prop-2-cor-2","to_label":"ac-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":333},
+{"from":"","from_label":"ac-i-s1-prop-2-cor-2","to_label":"ac-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/01_s1_diagrams_and_exact_sequences.md","line":351},
+{"from":"","from_label":"ac-i-s1-ex-7","to_label":"ac-i-s1-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/ac/I/exercises/s1/07.md","line":26}
+]}

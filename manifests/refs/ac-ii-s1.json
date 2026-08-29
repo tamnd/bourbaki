@@ -1,0 +1,19 @@
+{"edges": [
+{"from":"","from_label":"ac-ii-s1-def-1","to_label":"alg-i-s8-thm-2","kind":"cites","raw":"Algebra, Chapter I, § 8, no. 7, Theorem 2","form":"section","resolved_by":"section-no","file":"content/en/ac/II/01_s1_prime_ideals.md","line":41},
+{"from":"","from_label":"ac-ii-s1-n1-cor-1","to_label":"ac-ii-s1-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":59},
+{"from":"","from_label":"ac-ii-s1","to_label":"alg-i-s8-thm-2","kind":"cites","raw":"*Algebra*, Chapter I, § 8, no. 7, Theorem 2","form":"section","resolved_by":"section-no","file":"content/en/ac/II/01_s1_prime_ideals.md","line":69},
+{"from":"","from_label":"ac-ii-s1","to_label":"alg-vii-s1","kind":"cites","raw":"*Algebra*, Chapter VII, § 1","form":"section","resolved_by":"section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":71},
+{"from":"","from_label":"ac-ii-s1-prop-4","to_label":"ac-ii-s1-prop-1","kind":"cites","raw":"no. 1, Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":83},
+{"from":"","from_label":"ac-ii-s1-prop-5","to_label":"ac-ii-s1","kind":"cites","raw":"§ 1, no. 7","form":"section","resolved_by":"section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":89},
+{"from":"","from_label":"ac-ii-s1-prop-5","to_label":"alg-ii-s1","kind":"cites","raw":"*Algebra*, Chapter II, § 1, no. 7","form":"section","resolved_by":"section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":90},
+{"from":"","from_label":"ac-ii-s1-prop-5","to_label":"alg-ii-s1","kind":"cites","raw":"Algebra, Chapter II, § 1, no. 7","form":"section","resolved_by":"section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":98},
+{"from":"","from_label":"ac-ii-s1-prop-5","to_label":"ac-ii-s1-prop-4","kind":"cites","raw":"Proposition 4","form":"local","resolved_by":"in-section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":100},
+{"from":"","from_label":"ac-ii-s1-prop-6","to_label":"ac-ii-s1-prop-5","kind":"cites","raw":"Proposition 5","form":"local","resolved_by":"in-section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":124},
+{"from":"","from_label":"ac-ii-s1-n2-exa-1","to_label":"ac-ii-s1-prop-5","kind":"cites","raw":"Proposition 5","form":"local","resolved_by":"in-section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":132},
+{"from":"","from_label":"ac-ii-s1-n2-exa-1","to_label":"alg-iv-s2","kind":"cites","raw":"*Algebra*, Chapter IV, § 2, no. 4","form":"section","resolved_by":"section","file":"content/en/ac/II/01_s1_prime_ideals.md","line":132},
+{"from":"","from_label":"ac-ii-s1-ex-2","to":"00A0","to_label":"alg-viii-s8-ex-6","kind":"cites","raw":"Algebra, Chapter VIII, §8, Exercise 6","form":"section","resolved_by":"exercise","file":"content/en/ac/II/exercises/s1/02.md","line":14},
+{"from":"","from_label":"ac-ii-s1-ex-7","to":"002W","to_label":"alg-viii-s2-ex-12","kind":"cites","raw":"Algebra, Chapter VIII, § 2, Exercise 12","form":"section","resolved_by":"exercise","file":"content/en/ac/II/exercises/s1/07.md","line":16},
+{"from":"","from_label":"ac-ii-s1-ex-7","to_label":"ac-ii-s1-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/ac/II/exercises/s1/07.md","line":18},
+{"from":"","from_label":"ac-ii-s1-ex-9","to_label":"ac-ii-s1-prop-5","kind":"cites","raw":"Proposition 5","form":"local","resolved_by":"in-section","file":"content/en/ac/II/exercises/s1/09.md","line":14},
+{"from":"","from_label":"ac-ii-s1-ex-9","to":"000X","to_label":"alg-viii-s1-ex-1","kind":"cites","raw":"Algebra, Chapter VIII, § 1, Exercise 1","form":"section","resolved_by":"exercise","file":"content/en/ac/II/exercises/s1/09.md","line":14}
+]}

@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"lie-vi-s0","to_label":"alg-vi-s1","kind":"cites","raw":"Chap. VI, § 1, no. 5","form":"section","resolved_by":"section","file":"content/en/lie/VI/historical_note.md","line":40},
+{"from":"","from_label":"lie-vi-s0","to_label":"alg-vi-s1","kind":"cites","raw":"Chap. VI, § 1, no. 9","form":"section","resolved_by":"section","file":"content/en/lie/VI/historical_note.md","line":48},
+{"from":"","from_label":"lie-vi-s0","to_label":"alg-vi-s1","kind":"cites","raw":"Chap. VI, § 1","form":"section","resolved_by":"section","file":"content/en/lie/VI/historical_note.md","line":50},
+{"from":"","from_label":"lie-vi-s0","to_label":"alg-vi-s1","kind":"cites","raw":"Chap. VI, § 1, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/VI/historical_note.md","line":51}
+]}

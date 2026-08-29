@@ -1,0 +1,12 @@
+{"edges": [
+{"from":"","from_label":"fvr-i-s3-thm-1","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 15","form":"page","resolved_by":"section","file":"content/en/fvr/I/03_s3_derivatives_of_higher_order.md","line":109},
+{"from":"","from_label":"fvr-i-s3-prop-3","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 15","form":"page","resolved_by":"section","file":"content/en/fvr/I/03_s3_derivatives_of_higher_order.md","line":128},
+{"from":"","from_label":"fvr-i-s3-n2-cor-1","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 14","form":"page","resolved_by":"section","file":"content/en/fvr/I/03_s3_derivatives_of_higher_order.md","line":142},
+{"from":"","from_label":"fvr-i-s3-n2-rem-2","to_label":"fvr-v-s2","kind":"cites","raw":"V, p. 222","form":"page","resolved_by":"section","file":"content/en/fvr/I/03_s3_derivatives_of_higher_order.md","line":183},
+{"from":"","from_label":"fvr-i-s3-ex-1","to_label":"fvr-i-s3","kind":"cites","raw":"I, p. 20","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s3/01.md","line":14},
+{"from":"","from_label":"fvr-i-s3-ex-2","to_label":"fvr-i-s4","kind":"cites","raw":"I, p. 28","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s3/02.md","line":14},
+{"from":"","from_label":"fvr-i-s3-ex-6","to_label":"fvr-i-s3","kind":"cites","raw":"I, p. 22","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s3/06.md","line":41},
+{"from":"","from_label":"fvr-i-s3-ex-11","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 38","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s3/11.md","line":53},
+{"from":"","from_label":"fvr-i-s3-ex-14","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 18","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s3/14.md","line":20},
+{"from":"","from_label":"fvr-i-s3-ex-15","to_label":"fvr-i-s3","kind":"cites","raw":"I, p. 40","form":"page","resolved_by":"section","file":"content/en/fvr/I/exercises/s3/15.md","line":22}
+]}

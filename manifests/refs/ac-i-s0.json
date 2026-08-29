@@ -1,0 +1,4 @@
+{"edges": [
+{"from":"","from_label":"ac-i-s0","to_label":"alg-viii-s6","kind":"cites","raw":"Algebra, Chapter VIII, § 6, no. 1","form":"section","resolved_by":"section","file":"content/en/ac/I/00_frontmatter.md","line":24},
+{"from":"","from_label":"ac-i-s0","to_label":"alg-ii-s1","kind":"cites","raw":"Algebra, Chapter II, §1, no. 1","form":"section","resolved_by":"section","file":"content/en/ac/I/00_frontmatter.md","line":26}
+]}

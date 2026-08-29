@@ -1,0 +1,5 @@
+{"edges": [
+{"from":"","from_label":"int-vii-a2","to_label":"int-iv-s5-prop-7","kind":"cites","raw":"IV, §5, No. 5, Prop. 7","form":"section","resolved_by":"section-no","file":"content/en/int/VII/A2_a2_.md","line":25},
+{"from":"","from_label":"int-vii-a2","to_label":"int-v-s3-thm-1","kind":"cites","raw":"V, §3, No. 4, Th. 1","form":"section","resolved_by":"section-no","file":"content/en/int/VII/A2_a2_.md","line":25},
+{"from":"","from_label":"int-vii-a2","to_label":"int-v-s6-prop-10-cor-1","kind":"cites","raw":"V, §6, No. 6, Cor. 1","form":"section","resolved_by":"section-no","file":"content/en/int/VII/A2_a2_.md","line":31}
+]}

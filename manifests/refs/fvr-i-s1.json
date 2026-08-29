@@ -1,0 +1,13 @@
+{"edges": [
+{"from":"","from_label":"fvr-i-s1","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 10","form":"page","resolved_by":"section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":53},
+{"from":"","from_label":"fvr-i-s1-n1-exa-1","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 35","form":"page","resolved_by":"section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":90},
+{"from":"","from_label":"fvr-i-s1-n1-rem-2","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 36","form":"page","resolved_by":"section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":98},
+{"from":"","from_label":"fvr-i-s1","to_label":"alg-ii-s3","kind":"cites","raw":"Alg., II, p. 265","form":"page","resolved_by":"section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":182},
+{"from":"","from_label":"fvr-i-s1-n3-exa-1","to_label":"fvr-i-s1","kind":"cites","raw":"I, p. 5","form":"page","resolved_by":"section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":204},
+{"from":"","from_label":"fvr-i-s1-prop-4","to_label":"alg-i-s2","kind":"cites","raw":"*Alg.*, I, p. 15","form":"page","resolved_by":"section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":264},
+{"from":"","from_label":"fvr-i-s1-n6-cor-1","to_label":"top-iv-s2","kind":"cites","raw":"*Gen. Top.*, IV, p. 338","form":"page","resolved_by":"section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":306},
+{"from":"","from_label":"fvr-i-s1-n6-rem-2","to_label":"fvr-i-s1-prop-5","kind":"cites","raw":"Prop. 5","form":"local","resolved_by":"in-section","file":"content/en/fvr/I/01_s1_first_derivative.md","line":314},
+{"from":"","from_label":"fvr-i-s1-ex-3","kind":"cites","raw":"X, p. 277","form":"page","resolved_by":"out-of-corpus","chapter":"X","file":"content/en/fvr/I/exercises/s1/03.md","line":14},
+{"from":"","from_label":"fvr-i-s1-ex-3","kind":"cites","raw":"IX, p. 192","form":"page","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/fvr/I/exercises/s1/03.md","line":14},
+{"from":"","from_label":"fvr-i-s1-ex-3","kind":"cites","raw":"IX, p. 192","form":"page","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/fvr/I/exercises/s1/03.md","line":14}
+]}

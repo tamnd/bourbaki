@@ -1,0 +1,8 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s12","kind":"cites","raw":"II, p. 265","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/12_s12_real_numbers.md","line":31},
+{"from":"","from_label":"hist-1-s12","kind":"cites","raw":"III, p. 139","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/12_s12_real_numbers.md","line":68},
+{"from":"","from_label":"hist-1-s12","kind":"cites","raw":"III, p. 1","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/12_s12_real_numbers.md","line":74},
+{"from":"","from_label":"hist-1-s12","kind":"cites","raw":"III, p. 31","form":"page","resolved_by":"out-of-corpus","chapter":"III","file":"content/en/hist/1/12_s12_real_numbers.md","line":74},
+{"from":"","from_label":"hist-1-s12","kind":"cites","raw":"I, p. 219","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/12_s12_real_numbers.md","line":76},
+{"from":"","from_label":"hist-1-s12","kind":"cites","raw":"II, p. 257","form":"page","resolved_by":"out-of-corpus","chapter":"II","file":"content/en/hist/1/12_s12_real_numbers.md","line":76}
+]}

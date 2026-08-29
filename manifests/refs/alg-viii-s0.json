@@ -1,7 +1,7 @@
 {"edges": [
-{"from":"","from_label":"alg-viii-s0","kind":"cites","raw":"II, §5, No. 1, p. 277","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"II","file":"content/en/alg/VIII/00_frontmatter.md","line":28},
-{"from":"","from_label":"alg-viii-s0","kind":"cites","raw":"III, §1, No. 5, p. 433","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"III","file":"content/en/alg/VIII/00_frontmatter.md","line":28},
-{"from":"","from_label":"alg-viii-s0","kind":"cites","raw":"III, §2, No. 6, p. 446","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"III","file":"content/en/alg/VIII/00_frontmatter.md","line":30},
+{"from":"","from_label":"alg-viii-s0","to_label":"alg-ii-s5","kind":"cites","raw":"II, §5, No. 1, p. 277","form":"page","resolved_by":"section","file":"content/en/alg/VIII/00_frontmatter.md","line":28},
+{"from":"","from_label":"alg-viii-s0","to_label":"alg-iii-s1","kind":"cites","raw":"III, §1, No. 5, p. 433","form":"page","resolved_by":"section","file":"content/en/alg/VIII/00_frontmatter.md","line":28},
+{"from":"","from_label":"alg-viii-s0","to_label":"alg-iii-s2","kind":"cites","raw":"III, §2, No. 6, p. 446","form":"page","resolved_by":"section","file":"content/en/alg/VIII/00_frontmatter.md","line":30},
 {"from":"","from_label":"alg-viii-s0","to":"00CO","to_label":"alg-viii-s10-ex-8","kind":"cites","raw":"VIII, p. 180, Exercise 8","form":"page","resolved_by":"exercise","file":"content/en/alg/VIII/historical_note.md","line":36},
 {"from":"","from_label":"alg-viii-s0","to":"00RY","to_label":"alg-viii-s2-thm-2","kind":"cites","raw":"VIII, p. 37, Theorem 2","form":"page","resolved_by":"page-map","file":"content/en/alg/VIII/historical_note.md","line":42}
 ]}

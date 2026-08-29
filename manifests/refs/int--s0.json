@@ -1,0 +1,5 @@
+{"edges": [
+{"from":"","from_label":"int--s0","to_label":"alg-v-s2","kind":"cites","raw":"V, §2","form":"section","resolved_by":"section","file":"content/en/int/00_introduction.md","line":24},
+{"from":"","from_label":"int--s0","kind":"cites","raw":"X, §1, No. 6, Cor. 1","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"X","file":"content/en/int/00_introduction.md","line":56},
+{"from":"","from_label":"int--s0","to_label":"alg-iii-s2","kind":"cites","raw":"III, §2","form":"section","resolved_by":"section","file":"content/en/int/00_introduction.md","line":64}
+]}

@@ -1,0 +1,9 @@
+{"edges": [
+{"from":"","from_label":"lie-iv-a0-prop-1-cor-1","to_label":"lie-iv-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/lie/IV/A_a_graphs.md","line":83},
+{"from":"","from_label":"lie-iv-a0-prop-1-cor-1","to_label":"lie-iv-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/lie/IV/A_a_graphs.md","line":83},
+{"from":"","from_label":"lie-iv-a0-prop-1-cor-1","to_label":"lie-iv-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/lie/IV/A_a_graphs.md","line":85},
+{"from":"","from_label":"lie-iv-a0-prop-1-cor-2","to_label":"lie-iv-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/lie/IV/A_a_graphs.md","line":91},
+{"from":"","from_label":"lie-iv-a0-prop-1-cor-2","to_label":"lie-iv-a0-prop-1","kind":"cites","raw":"Prop. 1","form":"local","resolved_by":"in-section","file":"content/en/lie/IV/A_a_graphs.md","line":91},
+{"from":"","from_label":"lie-iv-a0-prop-3","to_label":"lie-iv-a0-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/lie/IV/A_a_graphs.md","line":129},
+{"from":"","from_label":"lie-iv-a0-prop-3","to_label":"lie-iv-a0-prop-1-cor-1","kind":"cites","raw":"Cor. 1 of Prop. 1","form":"attached","resolved_by":"parent-label","file":"content/en/lie/IV/A_a_graphs.md","line":137}
+]}

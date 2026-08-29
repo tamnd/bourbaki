@@ -1,0 +1,19 @@
+{"edges": [
+{"from":"","from_label":"alg-v-s2-def-1","to_label":"alg-i-s9","kind":"cites","raw":"I, p. 115","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":47},
+{"from":"","from_label":"alg-v-s2-def-1","to_label":"alg-iii-s1","kind":"cites","raw":"III, p. 433","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":48},
+{"from":"","from_label":"alg-v-s2","to_label":"alg-ii-s7","kind":"cites","raw":"II, p. 293","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":57},
+{"from":"","from_label":"alg-v-s2-thm-1","to_label":"alg-ii-s1-prop-25","kind":"cites","raw":"II, p. 222, Prop. 25","form":"page","resolved_by":"page-map","file":"content/en/alg/V/02_s2_extensions.md","line":69},
+{"from":"","from_label":"alg-v-s2-thm-1-cor-1","to_label":"alg-v-s2-ex-1","kind":"cites","raw":"V, p. 146, Exercise 1","form":"page","resolved_by":"exercise","file":"content/en/alg/V/02_s2_extensions.md","line":75},
+{"from":"","from_label":"alg-v-s2-prop-1","to_label":"alg-ii-s7","kind":"cites","raw":"II, p. 298","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":87},
+{"from":"","from_label":"alg-v-s2-prop-1","to_label":"alg-i-s2","kind":"cites","raw":"I, p. 16","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":87},
+{"from":"","from_label":"alg-v-s2","to_label":"alg-v-s3-thm-2-cor-1","kind":"cites","raw":"V, p. 18, Cor. 1","form":"page","resolved_by":"page-map+no","file":"content/en/alg/V/02_s2_extensions.md","line":97},
+{"from":"","from_label":"alg-v-s2-def-2","to_label":"alg-v-s2-n3-cor-1","kind":"cites","raw":"Cor. of Prop. 3","form":"attached","resolved_by":"parent-label","file":"content/en/alg/V/02_s2_extensions.md","line":127},
+{"from":"","from_label":"alg-v-s2-prop-4","to_label":"alg-i-s9","kind":"cites","raw":"I, p. 116","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":149},
+{"from":"","from_label":"alg-v-s2","to_label":"alg-ii-s3","kind":"cites","raw":"II, p. 256","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":185},
+{"from":"","from_label":"alg-v-s2","to_label":"alg-ii-s3","kind":"cites","raw":"II, p. 256","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":187},
+{"from":"","from_label":"alg-v-s2","to_label":"alg-iii-s4","kind":"cites","raw":"III, p. 469","form":"page","resolved_by":"section","file":"content/en/alg/V/02_s2_extensions.md","line":187},
+{"from":"","from_label":"alg-v-s2-prop-5","to_label":"alg-v-s2-n2-cor-1","kind":"cites","raw":"Cor. to Prop. 1 (V, p. 10)","form":"attached","resolved_by":"parent-label","file":"content/en/alg/V/02_s2_extensions.md","line":199},
+{"from":"","from_label":"alg-v-s2-prop-8","to_label":"alg-v-s2-prop-7","kind":"cites","raw":"Prop. 7","form":"local","resolved_by":"in-section","file":"content/en/alg/V/02_s2_extensions.md","line":232},
+{"from":"","from_label":"alg-v-s2-prop-8","to_label":"alg-v-s2-prop-6","kind":"cites","raw":"Prop. 6","form":"local","resolved_by":"in-section","file":"content/en/alg/V/02_s2_extensions.md","line":232},
+{"from":"","from_label":"alg-v-s2-ex-2","to_label":"alg-v-s4","kind":"cites","raw":"V, p. 21","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s2/02.md","line":15}
+]}

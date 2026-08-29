@@ -1,0 +1,13 @@
+{"edges": [
+{"from":"","from_label":"alg-i-s10","to_label":"ens-iii-s7","kind":"cites","raw":"*Set Theory*, III, § 7, no. 1","form":"section","resolved_by":"section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":38},
+{"from":"","from_label":"alg-i-s10","to_label":"ens-iii-s7","kind":"cites","raw":"*Set Theory*, III, § 7, no. 5","form":"section","resolved_by":"section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":38},
+{"from":"","from_label":"alg-i-s10-def-1","to_label":"alg-iii-s7","kind":"cites","raw":"III, § 7, no. 2","form":"section","resolved_by":"section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":62},
+{"from":"","from_label":"alg-i-s10-prop-2","to":"03RR","to_label":"ens-iii-s7-prop-6","kind":"cites","raw":"*Set Theory*, III, § 7, no. 6, Proposition 6","form":"section","resolved_by":"section-no","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":152},
+{"from":"","from_label":"alg-i-s10-prop-2","to_label":"alg-i-s10-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":163},
+{"from":"","from_label":"alg-i-s10-prop-2","to_label":"alg-i-s2","kind":"cites","raw":"§ 2, no. 3","form":"section","resolved_by":"section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":163},
+{"from":"","from_label":"alg-i-s10-prop-2","to_label":"alg-i-s10-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":163},
+{"from":"","from_label":"alg-i-s10-prop-2","to_label":"alg-i-s10-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":165},
+{"from":"","from_label":"alg-i-s10-prop-2","to_label":"alg-i-s10-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":176},
+{"from":"","from_label":"alg-i-s10-prop-3","to_label":"ens-iii-s7","kind":"cites","raw":"*Set Theory*, III, § 7, no. 6","form":"section","resolved_by":"section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":190},
+{"from":"","from_label":"alg-i-s10","to_label":"alg-i-s10-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/alg/I/10_s10_inverse_and_direct_limits.md","line":200}
+]}

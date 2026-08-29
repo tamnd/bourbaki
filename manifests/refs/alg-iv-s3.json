@@ -1,0 +1,11 @@
+{"edges": [
+{"from":"","from_label":"alg-iv-s3-def-1","to_label":"alg-i-s9","kind":"cites","raw":"I, p. 116","form":"page","resolved_by":"section","file":"content/en/alg/IV/03_s3_rational_fractions.md","line":42},
+{"from":"","from_label":"alg-iv-s3-n3-cor-1","to_label":"alg-iv-s3-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/IV/03_s3_rational_fractions.md","line":122},
+{"from":"","from_label":"alg-iv-s3-prop-3","to_label":"alg-iv-s2-thm-2","kind":"cites","raw":"IV, p. 18, Th. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/IV/03_s3_rational_fractions.md","line":136},
+{"from":"","from_label":"alg-iv-s3-prop-3","kind":"cites","raw":"Comm. Alg., VII, § 3, No. 2","form":"section","resolved_by":"out-of-corpus","book":"AC","chapter":"VII","file":"content/en/alg/IV/03_s3_rational_fractions.md","line":138},
+{"from":"","from_label":"alg-iv-s3","to_label":"alg-iii-s10-prop-5","kind":"cites","raw":"III, p. 558, Prop. 5","form":"page","resolved_by":"page-map","file":"content/en/alg/IV/03_s3_rational_fractions.md","line":144},
+{"from":"","from_label":"alg-iv-s3","to_label":"alg-iii-s10","kind":"cites","raw":"III, p. 570","form":"page","resolved_by":"section","file":"content/en/alg/IV/03_s3_rational_fractions.md","line":152},
+{"from":"","from_label":"alg-iv-s3-ex-4","to_label":"alg-iv-s2-prop-6","kind":"cites","raw":"IV, p. 16, Prop. 6","form":"page","resolved_by":"page-map","file":"content/en/alg/IV/exercises/s3/04.md","line":14},
+{"from":"","from_label":"alg-iv-s3-ex-6","to_label":"alg-iv-s3-ex-3","kind":"cites","raw":"Exercise 3","form":"local","resolved_by":"exercise","file":"content/en/alg/IV/exercises/s3/06.md","line":14},
+{"from":"","from_label":"alg-iv-s3-ex-6","to_label":"alg-iv-s3-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/alg/IV/exercises/s3/06.md","line":14}
+]}

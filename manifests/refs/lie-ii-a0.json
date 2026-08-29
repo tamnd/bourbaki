@@ -1,0 +1,4 @@
+{"edges": [
+{"from":"","from_label":"lie-ii-a0-ex-1","to_label":"alg-v-s11","kind":"cites","raw":"Algebra, Chapter V, § 11, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/II/exercises/a0/01.md","line":15},
+{"from":"","from_label":"lie-ii-a0-ex-2","to_label":"alg-iii-s2","kind":"cites","raw":"Algebra, Chapter III, § 2, no. 10","form":"section","resolved_by":"section","file":"content/en/lie/II/exercises/a0/02.md","line":15}
+]}

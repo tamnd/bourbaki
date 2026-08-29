@@ -1,0 +1,7 @@
+{"edges": [
+{"from":"","from_label":"top-v-s2-prop-1","to_label":"top-v-s2-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/top/V/02_s2_measurement_of_magnitudes.md","line":114},
+{"from":"","from_label":"top-v-s2-prop-2","to_label":"top-v-s2-prop-1","kind":"cites","raw":"Proposition 1","form":"local","resolved_by":"in-section","file":"content/en/top/V/02_s2_measurement_of_magnitudes.md","line":150},
+{"from":"","from_label":"top-v-s2-prop-2","to_label":"top-iv-s2-prop-1","kind":"cites","raw":"Chapter IV, § 2, no. 4, Proposition 1","form":"section","resolved_by":"section-no","file":"content/en/top/V/02_s2_measurement_of_magnitudes.md","line":150},
+{"from":"","from_label":"top-v-s2-prop-2","to_label":"top-v-s2-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/top/V/02_s2_measurement_of_magnitudes.md","line":150},
+{"from":"","from_label":"top-v-s2-ex-2","to_label":"top-v-s2-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/top/V/exercises/s2/02.md","line":13}
+]}

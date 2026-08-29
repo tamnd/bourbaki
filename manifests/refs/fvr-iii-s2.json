@@ -1,0 +1,18 @@
+{"edges": [
+{"from":"","from_label":"fvr-iii-s2","to_label":"top-iv-s7","kind":"cites","raw":"*Gen. Top.*, IV, p. 365","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":55},
+{"from":"","from_label":"fvr-iii-s2","to_label":"top-iv-s8","kind":"cites","raw":"*Gen. Top.*, IV, p. 375","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":73},
+{"from":"","from_label":"fvr-iii-s2-n1-rem-1","to_label":"fvr-v-s3","kind":"cites","raw":"V, p. 231","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":89},
+{"from":"","from_label":"fvr-iii-s2","to_label":"alg-i-s8","kind":"cites","raw":"Alg., I, p. 99","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":218},
+{"from":"","from_label":"fvr-iii-s2","to_label":"top-iv-s7","kind":"cites","raw":"Gen. Top., IV, p. 364","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":318},
+{"from":"","from_label":"fvr-iii-s2","to_label":"fvr-iii-s2","kind":"cites","raw":"III, p. 106","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":354},
+{"from":"","from_label":"fvr-iii-s2","to_label":"top-iv-s7","kind":"cites","raw":"Gen. Top., IV, p. 365","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":354},
+{"from":"","from_label":"fvr-iii-s2","to_label":"fvr-iii-s2","kind":"cites","raw":"III, p. 126","form":"page","resolved_by":"section","file":"content/en/fvr/III/02_s2_expansions_of_the_exponential_and.md","line":447},
+{"from":"","from_label":"fvr-iii-s2-ex-1","to_label":"fvr-i-s3","kind":"cites","raw":"I, p. 41","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/01.md","line":22},
+{"from":"","from_label":"fvr-iii-s2-ex-3","to_label":"fvr-iii-s2","kind":"cites","raw":"III, p. 108","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/03.md","line":14},
+{"from":"","from_label":"fvr-iii-s2-ex-6","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 83","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/06.md","line":14},
+{"from":"","from_label":"fvr-iii-s2-ex-7","to_label":"top-iii-s6","kind":"cites","raw":"*Gen. Top.*, III, p. 322","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/07.md","line":14},
+{"from":"","from_label":"fvr-iii-s2-ex-7","to_label":"top-iii-s6","kind":"cites","raw":"*Gen. Top.*, III, p. 323","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/07.md","line":26},
+{"from":"","from_label":"fvr-iii-s2-ex-9","to_label":"top-iii-s6","kind":"cites","raw":"Gen. Top., III, p. 323","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/09.md","line":25},
+{"from":"","from_label":"fvr-iii-s2-ex-9","to_label":"fvr-iii-s2","kind":"cites","raw":"III, p. 126","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/09.md","line":58},
+{"from":"","from_label":"fvr-iii-s2-ex-9","to_label":"top-iii-s6","kind":"cites","raw":"*Gen. Top.*, III, p. 323","form":"page","resolved_by":"section","file":"content/en/fvr/III/exercises/s2/09.md","line":60}
+]}

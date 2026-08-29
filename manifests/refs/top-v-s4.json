@@ -1,0 +1,14 @@
+{"edges": [
+{"from":"","from_label":"top-v-s4-thm-1","to_label":"top-iv-s4-prop-1","kind":"cites","raw":"Chapter IV, § 4, no. 1, Proposition 1","form":"section","resolved_by":"section-no","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":38},
+{"from":"","from_label":"top-v-s4-thm-1","to_label":"top-v-s3-thm-2","kind":"cites","raw":"Theorem 2 of § 3","form":"section","resolved_by":"section-no","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":38},
+{"from":"","from_label":"top-v-s4-thm-1","to_label":"top-v-s1-n3-cor-1","kind":"cites","raw":"Corollary to Proposition 5 of § 1, no. 3","form":"attached","resolved_by":"parent-label","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":40},
+{"from":"","from_label":"top-v-s4-thm-1","to_label":"top-v-s1-prop-5","kind":"cites","raw":"Proposition 5 of § 1, no. 3","form":"section","resolved_by":"section-no","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":78},
+{"from":"","from_label":"top-v-s4-thm-1","to_label":"top-iv-s3","kind":"cites","raw":"Chapter IV, § 3, no. 3","form":"section","resolved_by":"section","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":89},
+{"from":"","from_label":"top-v-s4-thm-1","to_label":"top-v-s1-prop-5","kind":"cites","raw":"§ 1, no. 3, Proposition 5","form":"section","resolved_by":"section-no","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":109},
+{"from":"","from_label":"top-v-s4-thm-1","to_label":"top-v-s4-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":117},
+{"from":"","from_label":"top-v-s4","to_label":"top-iv-s2-thm-5","kind":"cites","raw":"Theorem 5 of Chapter IV, § 2, no. 6","form":"section","resolved_by":"section-no","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":121},
+{"from":"","from_label":"top-v-s4","to_label":"top-i-s8-prop-2","kind":"cites","raw":"Chapter I, § 8, no. 1, Proposition 2","form":"section","resolved_by":"section-no","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":149},
+{"from":"","from_label":"top-v-s4","to_label":"top-i-s8-prop-2-cor-1","kind":"cites","raw":"Corollary 1","form":"attached","resolved_by":"parent-label","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":149},
+{"from":"","from_label":"top-v-s4","to_label":"top-iv-s7","kind":"cites","raw":"Chapter IV, § 7, no. 4","form":"section","resolved_by":"section","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":157},
+{"from":"","from_label":"top-v-s4","to_label":"top-iv-s7","kind":"cites","raw":"Chapter IV, § 7, no. 6","form":"section","resolved_by":"section","file":"content/en/top/V/04_s4_exponentials_and_logarithms.md","line":163}
+]}

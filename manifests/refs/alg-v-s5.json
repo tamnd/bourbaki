@@ -1,0 +1,13 @@
+{"edges": [
+{"from":"","from_label":"alg-v-s5-prop-2","to_label":"alg-v-s2-prop-3","kind":"cites","raw":"V, p. 11, Prop. 3","form":"page","resolved_by":"page-map","file":"content/en/alg/V/05_s5_p_radical_extensions.md","line":62},
+{"from":"","from_label":"alg-v-s5-n2-cor-1","to_label":"alg-v-s5-prop-2","kind":"cites","raw":"Proposition 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/05_s5_p_radical_extensions.md","line":70},
+{"from":"","from_label":"alg-v-s5-n2-cor-1","to_label":"alg-v-s5-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/05_s5_p_radical_extensions.md","line":72},
+{"from":"","from_label":"alg-v-s5-n2-cor-1","to_label":"alg-v-s5-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/05_s5_p_radical_extensions.md","line":72},
+{"from":"","from_label":"alg-v-s5-prop-3","to_label":"alg-v-s5-prop-2","kind":"cites","raw":"Prop. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/V/05_s5_p_radical_extensions.md","line":85},
+{"from":"","from_label":"alg-v-s5-n2-cor-2","to_label":"alg-v-s5-prop-3","kind":"cites","raw":"Prop. 3","form":"local","resolved_by":"in-section","file":"content/en/alg/V/05_s5_p_radical_extensions.md","line":93},
+{"from":"","from_label":"alg-v-s5-prop-4","to_label":"alg-v-s3-thm-2","kind":"cites","raw":"V, p. 18, Th. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/05_s5_p_radical_extensions.md","line":103},
+{"from":"","from_label":"alg-v-s5-ex-1","to_label":"alg-v-s3","kind":"cites","raw":"V, p. 149","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s5/01.md","line":14},
+{"from":"","from_label":"alg-v-s5-ex-1","to_label":"alg-v-s3","kind":"cites","raw":"V, p. 149","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s5/01.md","line":15},
+{"from":"","from_label":"alg-v-s5-ex-1","to_label":"alg-v-s3","kind":"cites","raw":"V, p. 149","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s5/01.md","line":17},
+{"from":"","from_label":"alg-v-s5-ex-3","to_label":"alg-v-s7","kind":"cites","raw":"V, § 7","form":"section","resolved_by":"section","file":"content/en/alg/V/exercises/s5/03.md","line":18}
+]}

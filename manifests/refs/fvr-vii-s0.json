@@ -1,0 +1,6 @@
+{"edges": [
+{"from":"","from_label":"fvr-vii-s0","kind":"cites","raw":"XIV, p. 1","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"XIV","file":"content/en/fvr/VII/historical_note.md","line":23},
+{"from":"","from_label":"fvr-vii-s0","kind":"cites","raw":"XVII, p. 342","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"XVII","file":"content/en/fvr/VII/historical_note.md","line":45},
+{"from":"","from_label":"fvr-vii-s0","kind":"cites","raw":"XVII, p. 355","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"XVII","file":"content/en/fvr/VII/historical_note.md","line":45},
+{"from":"","from_label":"fvr-vii-s0","kind":"cites","raw":"XIX, p. 483","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"XIX","file":"content/en/fvr/VII/historical_note.md","line":45}
+]}

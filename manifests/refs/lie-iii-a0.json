@@ -1,0 +1,7 @@
+{"edges": [
+{"from":"","from_label":"lie-iii-a0","to_label":"alg-iii-s5","kind":"cites","raw":"Algebra, Chapter III, § 5, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/III/A_a_operations_on_linear_representations.md","line":31},
+{"from":"","from_label":"lie-iii-a0","to_label":"alg-iii-s6","kind":"cites","raw":"§ 6, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/III/A_a_operations_on_linear_representations.md","line":31},
+{"from":"","from_label":"lie-iii-a0","to_label":"alg-iii-s7","kind":"cites","raw":"§ 7, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/III/A_a_operations_on_linear_representations.md","line":31},
+{"from":"","from_label":"lie-iii-a0","to_label":"lie-i-s3","kind":"cites","raw":"Chapter I, § 3, no. 2","form":"section","resolved_by":"section","file":"content/en/lie/III/A_a_operations_on_linear_representations.md","line":39},
+{"from":"","from_label":"lie-iii-a0","to_label":"alg-iii-s10-n9-exa-1","kind":"cites","raw":"Algebra, Chapter III, § 10, no. 9, Example 1","form":"section","resolved_by":"section-no","file":"content/en/lie/III/A_a_operations_on_linear_representations.md","line":39}
+]}

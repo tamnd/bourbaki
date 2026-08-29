@@ -1,0 +1,11 @@
+{"edges": [
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 51","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":28},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 415","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":28},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, §44","form":"section","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":124},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 7","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":208},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 329","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":265},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 418","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":265},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 425","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":275},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 261","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":277},
+{"from":"","from_label":"hist-1-s25","kind":"cites","raw":"I, p. 270","form":"page","resolved_by":"out-of-corpus","chapter":"I","file":"content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md","line":315}
+]}

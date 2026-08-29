@@ -1,0 +1,16 @@
+{"edges": [
+{"from":"","from_label":"fvr-ii-s2","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 51","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":35},
+{"from":"","from_label":"fvr-ii-s2-n1-exa-1","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 59","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":67},
+{"from":"","from_label":"fvr-ii-s2-n1-exa-1","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 59","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":67},
+{"from":"","from_label":"fvr-ii-s2-n1-exa-1","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 59","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":67},
+{"from":"","from_label":"fvr-ii-s2-n1-exa-1","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 60","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":73},
+{"from":"","from_label":"fvr-ii-s2-prop-1","to_label":"ens-iii-s1","kind":"cites","raw":"*Set Theory*, III, p. 144","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":99},
+{"from":"","from_label":"fvr-ii-s2-prop-1","to_label":"top-i-s7","kind":"cites","raw":"Gen. Top.*, I, p. 70","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":99},
+{"from":"","from_label":"fvr-ii-s2-prop-1","to_label":"top-iv-s5","kind":"cites","raw":"*Gen. Top.*, IV, p. 348","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":99},
+{"from":"","from_label":"fvr-ii-s2-prop-2","to_label":"top-iv-s5","kind":"cites","raw":"*Gen. Top.*, IV, p. 349","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":129},
+{"from":"","from_label":"fvr-ii-s2-prop-2","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 61","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":133},
+{"from":"","from_label":"fvr-ii-s2-prop-2","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 61","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":141},
+{"from":"","from_label":"fvr-ii-s2-prop-4","to_label":"fvr-ii-s1","kind":"cites","raw":"II, p. 61","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":159},
+{"from":"","from_label":"fvr-ii-s2-prop-4","to_label":"fvr-ii-s2","kind":"cites","raw":"II, p. 65","form":"page","resolved_by":"section","file":"content/en/fvr/II/02_s2_integrals_over_non_compact_intervals.md","line":165},
+{"from":"","from_label":"fvr-ii-s2-ex-4","to_label":"fvr-i-s2","kind":"cites","raw":"I, p. 38","form":"page","resolved_by":"section","file":"content/en/fvr/II/exercises/s2/04.md","line":14}
+]}
