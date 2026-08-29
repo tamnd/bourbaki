@@ -441,7 +441,7 @@ T^p_q(M) = (\bigotimes^p M) \otimes (\bigotimes^q M^*).
 $$
 The giving of a total order on $I$ and on $J$ defines a canonical isomorphism of $T^I_J(M)$ onto $T^p_q(M)$.
 
-7.9.4. If $I$ (resp. $J$) is the union of two disjoint subsets $I'$ and $I''$ (resp. $J'$ and $J''), $T^I_J(M)$ is canonically identified with the tensor product $T^{I'}_{J'}(M) \otimes T^{I''}_{J''}(M)$. In particular, if $s'$ (resp. $s''$) is a section of $T^{I'}_{J'}(M)$ (resp. of $T^{I''}_{J''}(M)$), the tensor product $s' \otimes s''$ is identified with a section of $T^I_J(M)$.
+7.9.4. If $I$ (resp. $J$) is the union of two disjoint subsets $I'$ and $I''$ (resp. $J'$ and $J''$), $T^I_J(M)$ is canonically identified with the tensor product $T^{I'}_{J'}(M) \otimes T^{I''}_{J''}(M)$. In particular, if $s'$ (resp. $s''$) is a section of $T^{I'}_{J'}(M)$ (resp. of $T^{I''}_{J''}(M)$), the tensor product $s' \otimes s''$ is identified with a section of $T^I_J(M)$.
 
 7.9.5. The dual of $T^I_J(M)$ is identified with $T^J_I(M)$.
 
