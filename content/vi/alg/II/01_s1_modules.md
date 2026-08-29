@@ -8,70 +8,71 @@ section_title: Modules
 lang: vi
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 191-227, 380-386
 pdf_pages: 0215-0251, 0404-0410
 extraction: ocr
 subsections:
     - "no": 1
       title: MODULES; VECTOR SPACES; LINEAR COMBINATIONS
-      page: 0
+      page: 191
       pdf_page: 215
     - "no": 2
       title: LINEAR MAPPINGS
-      page: 0
+      page: 194
       pdf_page: 218
     - "no": 3
       title: SUBMODULES; QUOTIENT MODULES
-      page: 0
+      page: 196
       pdf_page: 220
     - "no": 4
       title: EXACT SEQUENCES
-      page: 0
+      page: 197
       pdf_page: 221
     - "no": 5
       title: PRODUCTS OF MODULES
-      page: 0
+      page: 200
       pdf_page: 224
     - "no": 6
       title: DIRECT SUM OF MODULES
-      page: 0
+      page: 202
       pdf_page: 226
     - "no": 7
       title: INTERSECTION AND SUM OF SUBMODULES
-      page: 0
+      page: 205
       pdf_page: 229
     - "no": 8
       title: DIRECT SUMS OF SUBMODULES
-      page: 0
+      page: 208
       pdf_page: 232
     - "no": 9
       title: SUPPLEMENTARY SUBMODULES
-      page: 0
+      page: 210
       pdf_page: 234
     - "no": 10
       title: MODULES OF FINITE LENGTH
-      page: 0
+      page: 212
       pdf_page: 236
     - "no": 11
       title: FREE FAMILIES. BASES
-      page: 0
+      page: 214
       pdf_page: 238
     - "no": 12
       title: ANNIHILATORS. FAITHFUL MODULES. MONOGENOUS MODULES
-      page: 0
+      page: 219
       pdf_page: 243
     - "no": 13
       title: CHANGE OF RING OF SCALARS
-      page: 0
+      page: 221
       pdf_page: 245
     - "no": 14
       title: MULTIMODULES
-      page: 0
+      page: 224
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: e90f530bb09eb589713697b6b974525e9753068b2d68efc0d9c9c064e6f28333
+content_sha256: bfa7f0c1294580da1161e3d8006e73ce80b2083e96ad5f0fe0201d96ac11b7cc
 translated_from: content/en/alg/II/01_s1_modules.md
-source_content_sha256: 7868f57470757bd20ec548b430b2c741a18abc91d659aac3e99d9e108a600ff6
+source_content_sha256: 7397d09a718f6180624ef63d3ea605fc93db2eb8eb18c2019f1e6cb60606e9b8
 translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-f605a7aa
 glossary_version: 34
@@ -364,9 +365,9 @@ $$
 0 \longrightarrow E \overset{f}{\longrightarrow} F \overset{g}{\longrightarrow} G \longrightarrow 0
 $$
 
-có nghĩa là $f$ là đơn ánh, $g$ toàn ánh và song ánh chính tắc liên kết với $g$ là một *đẳng cấu* của $F/f(E)$ lên $G$. Người ta cũng nói rằng bộ ba $(F, f, g)$ là một *mở rộng của môđun G bởi môđun E* (I, § 6, no. 7).
+có nghĩa là $f$ là đơn ánh, $g$ toàn ánh và song ánh chính tắc liên kết với $g$ là một *đẳng cấu* từ $F/f(E)$ lên $G$. Người ta cũng nói rằng bộ ba $(F, f, g)$ là một *mở rộng của môđun G bởi môđun E* (I, § 6, no. 7).
 
-(3) Nếu có một dãy khớp với 4 hạng
+(3) Nếu có một dãy khớp gồm 4 hạng
 
 $$
 E \overset{f}{\longrightarrow} F \overset{g}{\longrightarrow} G \overset{h}{\longrightarrow} H
@@ -398,17 +399,17 @@ $$
 
 là *khớp* và $f = b \circ a$ và $g = d \circ c$.
 
-Nếu (15) là một dãy khớp, thì lấy $S = f(E) = g^{-1}(0)$ và $T = g(F)$, với $b$ và $d$ là các đơn ánh chính tắc và $a$ (resp. $c$) là đồng cấu có cùng đồ thị như $f$ (resp. $g$). Ngược lại, nếu S, T, a, b, c, d thỏa mãn các điều kiện trên, thì $f(E) = b(a(E)) = b(S)$ và $g^{-1}(0) = c(d(0)) = c(0)$, do đó tính khớp của (16) cho thấy rằng $f(E) = g^{-1}(0)$.
+Nếu (15) là một dãy khớp, thì lấy $S = f(E) = g^{-1}(0)$ và $T = g(F)$, trong đó $b$ và $d$ là các đơn ánh chính tắc còn $a$ (tương ứng $c$) là đồng cấu có cùng đồ thị với $f$ (tương ứng $g$). Ngược lại, nếu S, T, a, b, c, d thỏa mãn các điều kiện trên, thì $f(E) = b(a(E)) = b(S)$ và $g^{-1}(0) = c(d(0)) = c(0)$, do đó tính khớp của (16) cho thấy rằng $f(E) = g^{-1}(0)$.
 
-Việc dùng các chữ cái tường minh để ký hiệu các đồng cấu trong một dãy khớp thường được bỏ qua khi điều đó không cần thiết cho các lập luận.
+Việc dùng các chữ cái tường minh để chỉ các đồng cấu trong một dãy khớp thường được bỏ qua khi điều đó không cần thiết cho các lập luận.
 
 #### Nhận xét {#alg-ii-s1-n4-rem-3 .statement}
 
-(5) Định nghĩa của một dãy khớp mở rộng ngay lập tức cho các nhóm không nhất thiết giao hoán; trong trường hợp này dĩ nhiên dùng ký hiệu nhân, với 0 được thay bằng 1 trong các công thức (nếu không gây nhầm lẫn). Các phần (a), (b), (c) của Mệnh đề 3 vẫn còn đúng và cả (d) nữa khi F là một nhóm con chuẩn tắc của E. Nhận xét 2 và Mệnh đề 3(e) đúng với điều kiện là $f(E)$ là một nhóm con chuẩn tắc của F; Nhận xét 3 và 4 vẫn đúng mà không cần sửa đổi.
+(5) Định nghĩa về dãy khớp mở rộng ngay lập tức cho các nhóm không nhất thiết giao hoán; trong trường hợp này dĩ nhiên dùng ký hiệu nhân với 0 được thay bởi 1 trong các công thức (nếu không gây nhầm lẫn). Các phần (a), (b), (c) của Mệnh đề 3 vẫn còn đúng, và cả (d) nữa khi F là một nhóm con chuẩn tắc của E. Nhận xét 2 và Mệnh đề 3(e) đúng với điều kiện $f(E)$ là một nhóm con chuẩn tắc của F; các Nhận xét 3 và 4 đúng không cần sửa đổi.
 
 ### 5. TÍCH CỦA CÁC MÔĐUN
 
-Cho $(E_i)_{i \in I}$ là một họ các môđun trên cùng một vành A. Kiểm tra ngay lập tức được rằng tích của các cấu trúc môđun trên các $E_i$ ($I, § 4,$ no. 8) là một cấu trúc A-môđun trên tập hợp tích $E = \prod_{i \in I} E_i$. Với cấu trúc này, tập hợp E được gọi là môđun tích của các môđun $E_i$; nếu $x = (x_i), y = (y_i)$ là hai phần tử của E, thì
+Cho $(E_i)_{i \in I}$ là một họ các môđun trên cùng một vành A. Người ta kiểm tra ngay lập tức rằng tích của các cấu trúc môđun trên các $E_i$ ($I, § 4,$ no. 8) là một cấu trúc A-môđun trên tập hợp tích $E = \prod_{i \in I} E_i$. Với cấu trúc này, tập hợp E được gọi là môđun tích của các môđun $E_i$; nếu $x = (x_i), y = (y_i)$ là hai phần tử của E, thì
 
 $$
 \begin{cases}
@@ -418,9 +419,9 @@ x + y = (x_i + y_i) \\
 $$
 với mọi $\lambda \in A$.
 
-Các công thức (17) biểu thị rằng các phép chiếu $pr_i : E \to E_i$ là các ánh xạ tuyến tính; các ánh xạ này hiển nhiên là toàn ánh.
+Các công thức (17) biểu thị sự kiện rằng các phép chiếu $pr_i : E \to E_i$ là các ánh xạ tuyến tính; các ánh xạ này hiển nhiên là toàn ánh.
 
-Nhớ rằng nếu tập hợp chỉ số I là rỗng, thì tập hợp tích $\prod_{i \in I} E_i$ khi đó chỉ gồm một phần tử; cấu trúc môđun tích trên tập hợp này khi đó là cấu trúc trong đó phần tử duy nhất này là 0.
+Nhắc lại rằng nếu tập hợp chỉ số I là rỗng, thì tập hợp tích $\prod_{i \in I} E_i$ khi đó chỉ gồm một phần tử; cấu trúc môđun tích trên tập hợp này khi đó là cấu trúc mà trong đó phần tử duy nhất này là 0.
 
 #### Mệnh đề 4 {#alg-ii-s1-prop-4 .statement}
 
@@ -436,7 +437,7 @@ là một đẳng cấu.
 
 #### Mệnh đề 5 {#alg-ii-s1-prop-5 .statement}
 
-(i) *Cho* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *là hai họ A-môđun có cùng tập hợp chỉ số* I; *với mọi họ các ánh xạ tuyến tính* $f_i : E_i \to F_i$ ($i \in I$), *ánh xạ* $f : (x_i) \to (f_i(x_i))$ *từ* $\prod_i E_i$ *vào* $\prod_i F_i$ *(đôi khi được ký hiệu bởi* $\prod_i f_i$) *là tuyến tính*.
+(i) *Cho* $(E_i)_{i \in I}, (F_i)_{i \in I}$ *là hai họ A-môđun có cùng tập hợp chỉ số* I; *với mọi họ các ánh xạ tuyến tính* $f_i : E_i \to F_i$ ($i \in I$), *ánh xạ* $f : (x_i) \to (f_i(x_i))$ *từ* $\prod_i E_i$ *vào* $\prod_i F_i$ *(đôi khi được ký hiệu là* $\prod_i f_i$) *là tuyến tính*.
 
 (ii) *Cho* $(G_i)_{i \in I}$ *là một họ thứ ba các A-môđun với* I *làm tập chỉ số và, với mọi* $i \in I,$ cho $g_i : F_i \to G_i$ là một ánh xạ tuyến tính; đặt $g = \prod_i g_i$. Để mỗi dãy* $E_i \xrightarrow{f_i} F_i \xrightarrow{g_i} G_i$ *đều khớp, điều kiện cần và đủ là dãy*
 
@@ -476,15 +477,15 @@ Một ví dụ quan trọng của tích các môđun là trường hợp mọi m
 
 ### 6. TỔNG TRỰC TIẾP CỦA CÁC MÔĐUN
 
-Cho $(E_i)_{i \in I}$ là một họ các A-môđun và $F = \prod_{i \in I} E_i$ là tích của chúng. Tập hợp $E$ gồm các $x \in F$ sao cho $\mathrm{pr}_i x = 0$ trừ ra với một số hữu hạn chỉ số hiển nhiên là một môđun con của $F$, được gọi là tổng trực tiếp ngoài (hoặc đơn giản là tổng trực tiếp) của họ môđun $(E_i)$ và được ký hiệu bởi $\bigoplus_{i \in I} E_i$ (I, § 4, no. 9). Khi I là hữu hạn, thì $\bigoplus_{i \in I} E_i = \prod_{i \in I} E_i$; nếu $I = \{p, q\}$ (khoảng của $\mathbf{Z}$), ta cũng viết
+Cho $(E_i)_{i \in I}$ là một họ các A-môđun và $F = \prod_{i \in I} E_i$ là tích của chúng. Tập hợp $E$ các $x \in F$ sao cho $\mathrm{pr}_i x = 0$ trừ ra với một số hữu hạn chỉ số hiển nhiên là một môđun con của $F$, gọi là tổng trực tiếp ngoài (hay đơn giản là tổng trực tiếp) của họ môđun $(E_i)$ và được ký hiệu bởi $\bigoplus_{i \in I} E_i$ (I, § 4, no. 9). Khi I là hữu hạn thì $\bigoplus_{i \in I} E_i = \prod_{i \in I} E_i$; nếu $I = \{p, q\}$ (khoảng của $\mathbf{Z}$), ta cũng viết
 
 $$
 \bigoplus_{i \in I} E_i = E_p \oplus E_{p+1} \oplus \cdots \oplus E_q.
 $$
 
-Với mọi $\kappa \in I$, cho $j_\kappa$ là ánh xạ $E_\kappa \to F$ gán cho mỗi $x_\kappa \in E_\kappa$ phần tử của $F$ sao cho $\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$ với $i \neq \kappa$ và $\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$; ngay lập tức thấy rằng $j_\kappa$ là một ánh xạ tuyến tính đơn ánh từ $E_\kappa$ vào tổng trực tiếp $E$ của các $E_i$, mà ta sẽ gọi là đơn ánh chính tắc; môđun con $j_\kappa(E_\kappa)$ của $E$, đẳng cấu với $E_\kappa$, được gọi là môđun con thành phần của $E$ có chỉ số $\kappa$. Người ta thường đồng nhất nó với $E_\kappa$ посредством $j_\kappa$.
+Với mọi $\kappa \in I$, cho $j_\kappa$ là ánh xạ $E_\kappa \to F$ gán cho mỗi $x_\kappa \in E_\kappa$ phần tử của $F$ sao cho $\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$ với $i \neq \kappa$ và $\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$; ngay lập tức thấy rằng $j_\kappa$ là một ánh xạ tuyến tính đơn ánh của $E_\kappa$ vào tổng trực tiếp $E$ của các $E_i$, mà ta sẽ gọi là đơn ánh chính tắc; môđun con $j_\kappa(E_\kappa)$ của $E$, đẳng cấu với $E_\kappa$, được gọi là môđun con thành phần của $E$ có chỉ số $\kappa$. Nó thường được đồng nhất với $E_\kappa$ посредством $j_\kappa$.
 
-Do đó, với mọi $x \in E = \bigoplus_{i \in I} E_i$, ta có
+Với mọi $x \in E = \bigoplus_{i \in I} E_i$, do đó ta có
 
 $$
 x = \sum_{i \in I} j_i(\mathrm{pr}_i x).
@@ -502,17 +503,17 @@ $$
 
 (21)
 
-Nhờ (20), nếu $g$ tồn tại, thì tất yếu, với mọi $x \in \bigoplus_{i \in I} E_i$,
+Theo (20), nếu $g$ tồn tại thì tất yếu, với mọi $x \in \bigoplus_{i \in I} E_i$,
 
 $$
 g(x) = \sum_i g(j_i(\mathrm{pr}_i(x))) = \sum_i f_i(\mathrm{pr}_i(x)),
 $$
 
-do đó có tính duy nhất của $g$. Ngược lại, đặt $g(x) = \sum_i f_i(\mathrm{pr}_i(x))$ với mọi $x \in \bigoplus_{i \in I} E_i$, ta kiểm tra ngay lập tức được rằng một ánh xạ tuyến tính đã được định nghĩa thỏa mãn các điều kiện của mệnh đề.
+do đó có tính duy nhất của $g$. Ngược lại, đặt $g(x) = \sum_i f_i(\mathrm{pr}_i(x))$ với mọi $x \in \bigoplus_{i \in I} E_i$, ta kiểm tra ngay lập tức rằng như vậy đã định nghĩa được một ánh xạ tuyến tính thỏa mãn các điều kiện của mệnh đề.
 
 Khi không thể có sự nhầm lẫn, ta viết $g = \sum_{i \in I} f_i$ (điều này trái với các quy ước của I, § 2, no. 1, khi họ $(f_i)$ không có giá hữu hạn).
 
-Đặc biệt, nếu J là một tập con bất kỳ của I, các đơn ánh chính tắc $j_i$ với $i \in J$ xác định một ánh xạ tuyến tính chính tắc $j_J : \bigoplus_{i \in J} E_i \to \bigoplus_{i \in I} E_i$, ánh xạ này gán cho mỗi $(x_i)_{i \in I}$ phần tử $(x'_i)_{i \in I}$ sao cho $x'_i = x_i$ với $i \in J$, $x'_i = 0$ với $i \notin J$; ánh xạ này hiển nhiên là đơn ánh. Hơn nữa, nếu $(J_\lambda)_{\lambda \in L}$ là một phân hoạch của I, ánh xạ $i : \bigoplus_{\lambda \in L} \left( \bigoplus_{i \in J_\lambda} E_i \right) \to \bigoplus_{i \in I} E_i$ tương ứng với họ $(j_{J_\lambda})$ theo Mệnh đề 6 là một *đẳng cấu* được gọi là chính tắc ("tính kết hợp" của các tổng trực tiếp).
+Đặc biệt, nếu J là một tập con bất kỳ của I, các đơn ánh chính tắc $j_i$ với $i \in J$ xác định một ánh xạ tuyến tính chính tắc $j_J : \bigoplus_{i \in J} E_i \to \bigoplus_{i \in I} E_i$, ánh xạ này gán cho mỗi $(x_i)_{i \in I}$ phần tử $(x'_i)_{i \in I}$ sao cho $x'_i = x_i$ với $i \in J$, $x'_i = 0$ với $i \notin J$; ánh xạ này hiển nhiên là đơn ánh. Hơn nữa, nếu $(J_\lambda)_{\lambda \in L}$ là một phân hoạch của I, ánh xạ $i : \bigoplus_{\lambda \in L} \left( \bigoplus_{i \in J_\lambda} E_i \right) \to \bigoplus_{i \in I} E_i$ tương ứng với họ $(j_{J_\lambda})$ theo Mệnh đề 6 là một *đẳng cấu* gọi là chính tắc ("tính kết hợp" của các tổng trực tiếp).
 
 #### Hệ quả 1 {#alg-ii-s1-prop-6-cor-1 .statement}
 
@@ -597,7 +598,7 @@ Lưu ý rằng $E$ là một nhóm con *chuẩn tắc* của tích $F = \prod_{i
 
 ### 7. GIAO VÀ TỔNG CÁC MÔĐUN CON
 
-Với mọi họ $(M_i)_{i \in I}$ các môđun con của một $A$-môđun $E$, giao $\bigcap_{i \in I} E_i$ là một môđun con của $E$. Nếu, với mỗi $i \in I$, $\phi_i$ ký hiệu đồng cấu chính tắc $E \to E/M_i$, thì $\bigcap_{i \in I} M_i$ là *hạt nhân* của đồng cấu $\phi : x \mapsto (\phi_i(x))$ từ $E$ vào $\prod_{i \in I} (E/M_i)$; nói cách khác, có một *dãy khớp*
+Đối với mọi họ $(M_i)_{i \in I}$ các môđun con của một $A$-môđun $E$, giao $\bigcap_{i \in I} E_i$ là một môđun con của $E$. Nếu, với mỗi $i \in I$, $\phi_i$ ký hiệu đồng cấu chính tắc $E \to E/M_i$, thì $\bigcap_{i \in I} M_i$ là *hạt nhân* của đồng cấu $\phi : x \mapsto (\phi_i(x))$ từ $E$ vào $\prod_{i \in I} (E/M_i)$, nói cách khác, có một *dãy khớp*
 
 $$
 0 \longrightarrow \bigcap_{i \in I} M_i \longrightarrow E \xrightarrow{\phi} \prod_{i \in I} (E/M_i).
@@ -607,13 +608,13 @@ $$
 $$
 E / \left( \bigcap_{i \in I} M_i \right) \to \prod_{i \in I} (E / M_i)
 $$
-thu được bằng cách chuyển qua thương được gọi là chính tắc.
+thu được bằng cách chuyển qua thương, được gọi là chính tắc.
 
 Đặc biệt:
 
 #### Mệnh đề 8 {#alg-ii-s1-prop-8 .statement}
 
-*Nếu một họ* $(M_i)_{i \in I}$ *các môđun con của* $E$ *có giao thu về* $0$ *thì* $E$ *đẳng cấu chính tắc với một môđun con của* $\prod_{i \in I} (E / M_i)$.
+*Nếu một họ* $(M_i)_{i \in I}$ *các môđun con của* $E$ *có giao rút về* $0$ *thì* $E$ *đẳng cấu chính tắc với một môđun con của* $\prod_{i \in I} (E / M_i)$.
 
 Cho một tập con $X$ của một $A$-môđun $E$, giao $F$ của các môđun con của $E$ chứa $X$ được gọi là môđun con *sinh* bởi $X$ và $X$ được gọi là một *tập sinh* (hoặc *hệ sinh*) của $F$ (I, § 4, no. 3); đối với một họ $(a_i)_{i \in I}$ các phần tử của $E$, môđun con sinh bởi tập hợp các $a_i$ được gọi là môđun con sinh bởi họ $(a_i)$.
 
@@ -623,17 +624,17 @@ Một $A$-môđun được gọi là *sinh hữu hạn* nếu nó có một tậ
 
 *Môđun con sinh bởi một họ* $(a_i)_{i \in I}$ *các phần tử của một* $A$*-môđun* $E$ *là tập hợp các tổ hợp tuyến tính của họ* $(a_i)$.
 
-Mọi môđun con của $E$ chứa tất cả các $a_i$ cũng chứa các tổ hợp tuyến tính của các $a_i$. Ngược lại, các công thức (1) và (2) của no. 1 chứng minh rằng tập hợp các tổ hợp tuyến tính của các $a_i$ là một môđun con của $E$ hiển nhiên chứa tất cả các $a_i$ và do đó là môđun con nhỏ nhất chứa chúng.
+Mọi môđun con của $E$ chứa tất cả các $a_i$ cũng chứa các tổ hợp tuyến tính của các $a_i$. Ngược lại, các công thức (1) và (2) của no. 1 chứng minh rằng tập hợp các tổ hợp tuyến tính của các $a_i$ là một môđun con của $E$ mà hiển nhiên chứa tất cả các $a_i$ và do đó là môđun con nhỏ nhất chứa chúng.
 
 #### Hệ quả 1 {#alg-ii-s1-prop-9-cor-1 .statement}
 
-*Cho* $u : E \to F$ *là một ánh xạ tuyến tính, S là một tập con của* $E$ *và* $M$ *là môđun con của* $E$ *sinh bởi* $S$. *Khi đó* $u(M)$ *là môđun con của* $F$ *sinh bởi* $u(S)$.
+*Cho* $u : E \to F$ *là một ánh xạ tuyến tính, S là một tập con của* $E$ *và* $M$ *là môđun con của* $E$ *được sinh bởi* $S$. *Khi đó* $u(M)$ *là môđun con của* $F$ *được sinh bởi* $u(S)$.
 
-Đặc biệt, ảnh bởi $u$ của mọi môđun con sinh hữu hạn của $E$ là một môđun con sinh hữu hạn của $F$.
+Đặc biệt, ảnh qua $u$ của mọi môđun con sinh hữu hạn của $E$ là một môđun con sinh hữu hạn của $F$.
 
 #### Nhận xét {#alg-ii-s1-n7-rem-1 .statement}
 
-Nếu $u(x) = 0$ với mọi $x \in S$, thì cũng có $u(x) = 0$ với mọi $x \in M$. Đôi khi chúng tôi sẽ gọi kết quả này là *"nguyên lý mở rộng các đồng nhất thức tuyến tính"* hoặc *"nguyên lý mở rộng theo tính tuyến tính"*.
+Nếu $u(x) = 0$ với mọi $x \in S$, thì cũng có $u(x) = 0$ với mọi $x \in M$. Đôi khi chúng tôi sẽ gọi kết quả này là *"nguyên lý mở rộng các đẳng thức tuyến tính"* hoặc *"nguyên lý mở rộng bởi tính tuyến tính"*.
 
 Đặc biệt, để kiểm tra rằng một ánh xạ tuyến tính $u : E \to F$ có dạng $v \circ \phi$, trong đó $v : E / M \to F$ là tuyến tính và $\phi : E \to E / M$ là phép chiếu chính tắc, chỉ cần kiểm tra rằng $u(S) = 0$.
 
@@ -655,17 +656,17 @@ $$
 
 *Nếu* $(M_\lambda)_{\lambda \in L}$ *là một họ phải có hướng các môđun con của một A-môđun E, thì tổng* $\sum_{\lambda \in L} M_\lambda$ *trùng với hợp* $\bigcup_{\lambda \in L} M_\lambda$.
 
-$\bigcup_{\lambda \in L} M_\lambda \subset \sum_{\lambda \in L} M_\lambda$ *luôn luôn đúng mà không cần giả thiết; mặt khác, với mọi họ con hữu hạn* $(M_\lambda)_{\lambda \in J}$ *của* $(M_\lambda)_{\lambda \in L}$, *theo giả thiết tồn tại một* $\mu \in L$ *sao cho* $M_\lambda \subset M_\mu$ *với mọi* $\lambda \in J$, *do đó* $\sum_{\lambda \in L} M_\lambda \subset M_\mu$ *và vì vậy từ Hệ quả 2 suy ra rằng* $\sum_{\lambda \in L} M_\lambda \subset \bigcup_{\lambda \in L} M_\lambda$.
+$\bigcup_{\lambda \in L} M_\lambda \subset \sum_{\lambda \in L} M_\lambda$ *luôn luôn đúng không cần giả thiết; mặt khác, với mọi họ con hữu hạn* $(M_\lambda)_{\lambda \in J}$ *của* $(M_\lambda)_{\lambda \in L}$, *theo giả thiết tồn tại một* $\mu \in L$ *sao cho* $M_\lambda \subset M_\mu$ *với mọi* $\lambda \in J$, *do đó* $\sum_{\lambda \in L} M_\lambda \subset M_\mu$ *và vì thế từ Hệ quả 2 suy ra* $\sum_{\lambda \in L} M_\lambda \subset \bigcup_{\lambda \in L} M_\lambda$.
 
 #### Hệ quả 4 {#alg-ii-s1-prop-9-cor-4 .statement}
 
-*Cho* $0 \to E \xrightarrow{f} F \xrightarrow{g} G \to 0$ *là một dãy khớp các A-môđun, S một hệ sinh của* E, *T một hệ sinh của* G. *Nếu T' là một tập con của F sao cho* $g(T') = T$, *thì* $T' \cup f(S)$ *là một hệ sinh của* F.
+*Cho* $0 \to E \xrightarrow{f} F \xrightarrow{g} G \to 0$ *là một dãy khớp các A-môđun, S là một hệ sinh của* E, *T là một hệ sinh của* G. *Nếu T' là một tập con của F sao cho* $g(T') = T$, *thì T' \cup f(S) là một hệ sinh của* F.
 
 Môđun con F' của F sinh bởi T' \cup f(S) chứa $f(E)$ và, vì $g(F')$ chứa T, nên $g(F') = G$; do đó $F' = F$.
 
 #### Hệ quả 5 {#alg-ii-s1-prop-9-cor-5 .statement}
 
-*Trong một dãy khớp* $0 \to E \to F \to G \to 0$ *các A-môđun, nếu E và G sinh hữu hạn, thì F cũng sinh hữu hạn.*
+*Trong một dãy khớp* $0 \to E \to F \to G \to 0$ *các A-môđun, nếu E và G sinh hữu hạn thì F cũng sinh hữu hạn.*
 
 #### Mệnh đề 10 {#alg-ii-s1-prop-10 .statement}
 
@@ -683,7 +684,7 @@ $
 p : E/M \to E/(M + N) \quad \text{và} \quad q : E/N \to E/(M + N)
 $
 
-*các toàn ánh chính tắc và trong đó các đồng cấu u và v được định nghĩa như sau:*
+*các toàn ánh chính tắc, và trong đó các đồng cấu u và v được xác định như sau:*
 
 nếu $f : M \cap N \to M \to M \oplus N$ và $g : M \cap N \to N \to M \oplus N$ là các đơn ánh chính tắc, thì $u = f + g$, và nếu $r : E/(M \cap N) \to E/M \to (E/M) \oplus (E/N)$ và
 $$
@@ -748,11 +749,13 @@ $$
 
 *Với mọi phép chiếu e của E, E là tổng trực tiếp của ảnh* $M = e(E)$ *và hạt nhân* $N = e^{-1}(0)$ *của e; với mọi* $x = x_1 + x_2 \in E$ *với* $x_1 \in M$ *và* $x_2 \in N$, $x_1 = e(x)$; *1 − e là một phép chiếu của E có ảnh là N và hạt nhân là M*.
 
-$(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *trong* $\operatorname{End}(E)$ *và do đó* $1 - e$ *là một phép chiếu; hơn nữa, vì* $e(1 - e) = (1 - e)e = e - e^2 = 0$, *nên E là tổng trực tiếp của các ảnh* $M$ *và* $N$ *của e và* $1 - e$ *theo Mệnh đề 12. Cuối cùng, với mọi* $x \in E$, *quan hệ* $x \in M$ *tương đương với* $x = e(x)$; *thật vậy,* $x = e(x)$ *theo định nghĩa kéo theo* $x \in M$ *và ngược lại, nếu* $x = e(x')$ *với* $x' \in E$, *thì* $e(x) = e^2(x') = e(x') = x;$ do đó điều này cho thấy M là hạt nhân của $1 - e$ và, khi đổi vai trò của $e$ và $1 - e$, cũng thấy tương tự rằng N là hạt nhân của $e$.
+$(1 - e)^2 = 1 - 2e + e^2 = 1 - e$ *trong* $\operatorname{End}(E)$ *và do đó* $1 - e$ *là một phép chiếu; hơn nữa vì* $e(1 - e) = (1 - e)e = e - e^2 = 0$, *E là tổng trực tiếp của các ảnh* $M$ *và* $N$ *của e và* $1 - e$ *theo Mệnh đề 12. Sau cùng, với mọi* $x \in E$, *quan hệ* $x \in M$ *tương đương với* $x = e(x)$; *vì* $x = e(x)$ *theo định nghĩa kéo theo* $x \in M$ *và, ngược lại, nếu* $x = e(x')$ *với* $x' \in E$, *thì* $e(x) = e^2(x') = e(x') = x;$
+
+điều này do đó cho thấy rằng M là hạt nhân của $1 - e$ và, khi đổi vai trò của $e$ và $1 - e$, ta cũng thấy tương tự rằng N là hạt nhân của $e$.
 
 #### Nhận xét {#alg-ii-s1-n8-rem-2 .statement}
 
-(2) Cho E, F là hai A-môđun sao cho E là tổng trực tiếp của một họ hữu hạn $(M_i)_{1 \leq i \leq m}$ các môđun con và F là tổng trực tiếp của một họ hữu hạn $(N_j)_{1 \leq j \leq n}$ các môđun con. Khi đó, đã biết (no. 6, Hệ quả 1 của Mệnh đề 6) rằng $\mathrm{Hom}_A(E, F)$ được đồng nhất một cách chính tắc với tích $\prod_{i,j} \mathrm{Hom}_A(M_i, N_j)$; nói chính xác hơn, với một họ $(u_{ji})$, trong đó $u_{ji} \in \mathrm{Hom}_A(M_i, N_j)$, tương ứng một ánh xạ tuyến tính $u : E \to F$ được định nghĩa như sau. Chỉ cần định nghĩa hạn chế của $u$ trên từng $M_i$ và với mỗi $x_i \in M_i$,
+(2) Cho E, F là hai A-môđun sao cho E là tổng trực tiếp của một họ hữu hạn $(M_i)_{1 \leq i \leq m}$ các môđun con và F là tổng trực tiếp của một họ hữu hạn $(N_j)_{1 \leq j \leq n}$ các môđun con. Khi đó đã biết (no. 6, Hệ quả 1 của Mệnh đề 6) rằng $\mathrm{Hom}_A(E, F)$ được đồng nhất một cách chính tắc với tích $\prod_{i,j} \mathrm{Hom}_A(M_i, N_j)$; nói chính xác, với một họ $(u_{ji})$, trong đó $u_{ji} \in \mathrm{Hom}_A(M_i, N_j)$, tương ứng một ánh xạ tuyến tính $u : E \to F$ được định nghĩa như sau. Chỉ cần định nghĩa hạn chế của $u$ trên mỗi $M_i$ và với mỗi $x_i \in M_i$,
 $$
 u(x_i) = \sum_{j=1}^n u_{ji}(x_i).
 $$
@@ -760,11 +763,11 @@ Bây giờ cho G là một A-môđun thứ ba, là tổng trực tiếp của m�
 $$
 v(u(x_i)) = \sum_{j=1}^n v(u_{ji}(x_i)) = \sum_{k=1}^p \sum_{j=1}^n v_{kj}(u_{ji}(x_i)).
 $$
-Vì thế thấy rằng nếu ta viết
+Do đó ta thấy rằng nếu viết
 $$
 w_{ki} = \sum_{j=1}^n v_{kj} \circ u_{ji} \in \mathrm{Hom}_A(M_i, P_k)
 $$
-thì họ $(w_{ki})$ tương ứng một cách chính tắc với ánh xạ tuyến tính hợp thành $w = v \circ u$ từ E đến G (x. § 10, no. 5).
+thì họ $(w_{ki})$ tương ứng một cách chính tắc với ánh xạ tuyến tính hợp thành $w = v \circ u$ từ E tới G (x. § 10, no. 5).
 
 ### 9. MÔĐUN CON BỔ SUNG
 
@@ -1081,7 +1084,7 @@ $$
 b_i = \lambda_{1i} a_1 + \cdots + \lambda_{ii} a_i \quad (1 \leq i \leq n)
 $$
 
-trong đó $\lambda_{ii}$ là *khả nghịch* trong A; khi đó $(b_i)_{1 \leq i \leq n}$ là một *cơ sở* của E. Chỉ cần lập luận bằng quy nạp theo $n$, mệnh đề là hiển nhiên đối với $n = 1$. Nếu E' là môđun con của E sinh bởi họ $(a_i)_{1 \leq i \leq n-1}$, thì từ giả thiết quy nạp suy ra rằng $(b_i)_{1 \leq i \leq n-1}$ là một cơ sở của E'; mặt khác, từ (46) suy ra rằng nếu $\mu b_n \in E'$ với $\mu \in A$, thì cũng có $\mu \lambda_{nn} a_n \in E'$, do đó $\mu = 0$ vì $\lambda_{nn}$ khả nghịch. Vậy họ $(b_i)_{1 \leq i \leq n}$ là tự do và, vì
+trong đó $\lambda_{ii}$ là *khả nghịch* trong A; khi đó $(b_i)_{1 \leq i \leq n}$ là một *cơ sở* của E. Chỉ cần lập luận bằng quy nạp theo $n$, mệnh đề là hiển nhiên đối với $n = 1$. Nếu E' là môđun con của E được sinh bởi họ $(a_i)_{1 \leq i \leq n-1}$, thì theo giả thiết quy nạp suy ra rằng $(b_i)_{1 \leq i \leq n-1}$ là một cơ sở của E'; mặt khác, theo (46), nếu $\mu b_n \in E'$ với $\mu \in A$, thì cũng có $\mu \lambda_{nn} a_n \in E'$, do đó $\mu = 0$ vì $\lambda_{nn}$ khả nghịch. Vậy họ $(b_i)_{1 \leq i \leq n}$ là tự do và, vì
 $$
 a_n = -\lambda_{nn}^{-1}\lambda_{1n}a_1 - \cdots - \lambda_{nn}^{-1}\lambda_{n-1,n}a_{n-1} + \lambda_{nn}^{-1}b_n
 $$
@@ -1093,17 +1096,17 @@ nên thấy rằng $(b_i)_{1 \leq i \leq n}$ là một hệ sinh của E, điề
 
 *Linh hóa tử của một tập con S của một A-môđun E là tập hợp các phần tử $\alpha \in A$ sao cho $\alpha x = 0$ với mọi $x \in S$.*
 
-Linh hóa tử của S thường được ký hiệu là Ann(S); đối với một tập con S chỉ gồm một phần tử x, ta viết Ann(x) thay cho Ann(\{x\}) và gọi Ann(x) là *linh hóa tử của x*.
+Linh hóa tử của S thường được ký hiệu bởi Ann(S); đối với một tập con S chỉ gồm một phần tử x, ta viết Ann(x) thay cho Ann(\{x\}) và gọi Ann(x) là *linh hóa tử của x*.
 
-Quan hệ $\alpha x = 0$ cũng có thể được diễn đạt bằng cách nói rằng *x bị triệt tiêu bởi $\alpha$*.
+Quan hệ $\alpha x = 0$ cũng có thể được biểu thị bằng cách nói rằng *x bị triệt tiêu bởi $\alpha$*.
 
-Ngay lập tức thấy rằng linh hóa tử của một tập con tùy ý S của E là một *iđêan trái* của A; để nó bằng A thì điều kiện cần và đủ (theo (M_IV)) là $S = \{0\}$. Nếu hai tập con S, T của E sao cho $S \subset T$, thì linh hóa tử của T được chứa trong linh hóa tử của S. Nếu $(S_i)_{i \in I}$ là một họ tùy ý các tập con của E, thì linh hóa tử của hợp $\bigcup_i S_i$ là giao của các linh hóa tử của các $S_i$. Đặc biệt, linh hóa tử của một tập con S của E là giao của các linh hóa tử của các phần tử của S. Nói rằng một phần tử của E là *tự do* tương đương với nói rằng linh hóa tử của nó là $\{0\}$. Với mọi $x \in E$ và mọi $\alpha \in A$, linh hóa tử của $\alpha x$ là tập hợp các $\beta \in A$ sao cho $\beta \alpha \in \mathrm{Ann}(x)$.
+Ngay lập tức thấy rằng linh hóa tử của một tập con tùy ý S của E là một *iđêan trái* của A; để nó bằng A thì điều kiện cần và đủ (theo (M_IV)) là $S = \{0\}$. Nếu hai tập con S, T của E sao cho $S \subset T$, thì linh hóa tử của T được chứa trong linh hóa tử của S. Nếu $(S_i)_{i \in I}$ là một họ tùy ý các tập con của E, thì linh hóa tử của hợp $\bigcup_i S_i$ là giao của các linh hóa tử của các $S_i$. Đặc biệt, linh hóa tử của một tập con S của E là giao của các linh hóa tử của các phần tử của S. Nói rằng một phần tử của E là *tự do* tương đương với việc nói rằng linh hóa tử của nó là $\{0\}$. Với mọi $x \in E$ và mọi $\alpha \in A$, linh hóa tử của $\alpha x$ là tập hợp các $\beta \in A$ sao cho $\beta \alpha \in \mathrm{Ann}(x)$.
 
-Linh hóa tử của một *môđun con* M của E là một *iđêan hai phía* của A; thật vậy, nếu $\alpha x = 0$ với mọi $x \in M$, thì cũng có $\alpha (\beta x) = 0$ với mọi $x \in M$ và mọi $\beta \in A$, do đó $\alpha \beta$ thuộc linh hóa tử của M với mọi $\beta \in A$. Đặc biệt, linh hóa tử của E là một iđêan hai phía của A.
+Linh hóa tử của một *môđun con* M của E là một *iđêan hai phía* của A; thật vậy, nếu $\alpha x = 0$ với mọi $x \in M$, thì cũng có $\alpha (\beta x) = 0$ với mọi $x \in M$ và mọi $\beta \in A$, nên $\alpha \beta$ thuộc linh hóa tử của M với mọi $\beta \in A$. Đặc biệt, linh hóa tử của E là một iđêan hai phía của A.
 
-Với mọi $\alpha \in A$, gọi $h_\alpha$ là phép vị tự $x \mapsto \alpha x$; ta biết rằng ánh xạ $\alpha \mapsto h_\alpha$ từ A vào vành tự đồng cấu $\mathcal{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ của nhóm giao hoán (không có toán tử) E là một *đồng cấu vành* (§ 2, no. 5). Ảnh ngược của 0 qua đồng cấu này là *linh hóa tử* $a$ của E; do đó ảnh của A qua đồng cấu $\alpha \mapsto h_\alpha$ đẳng cấu với vành thương $A/a$. Môđun E được gọi là *trung thành* nếu linh hóa tử $a$ của nó thu về 0.
+Với mọi $\alpha \in A$, gọi $h_\alpha$ là phép vị tự $x \mapsto \alpha x$; ta biết rằng ánh xạ $\alpha \mapsto h_\alpha$ từ A vào vành tự đồng cấu $\mathcal{E} = \mathrm{Hom}_\mathbf{Z}(E, E)$ của nhóm giao hoán (không có toán tử) E là một *đồng cấu vành* (§ 2, no. 5). Ảnh ngược của 0 qua đồng cấu này là *linh hóa tử* $a$ của E; do đó ảnh của A qua đồng cấu $\alpha \mapsto h_\alpha$ đẳng cấu với vành thương $A/a$. Môđun E được gọi là *trung thành* nếu linh hóa tử $a$ của nó rút về 0.
 
-Cho E là một A-môđun bất kỳ, $a$ là một iđêan hai phía của A được chứa trong Ann(E) và gọi $\dot{\alpha}$ là một phần tử của vành thương $A/a$; với mọi $x \in E$, phần tử $\alpha x$ là như nhau đối với mọi $\alpha \in A$ thuộc lớp $\dot{\alpha}$ mod. $a$; nếu phần tử này được ký hiệu là $\dot{\alpha} x$, thì ngay lập tức thấy rằng ánh xạ (α, x) ↦ αx xác định (cùng với phép cộng trên E) một cấu trúc môđun trên E. Khi α = Ann(E), A-môđun (A/α)-môđun E được xác định như vậy là *trung thành*; ta sẽ nói rằng đó là môđun trung thành *liên kết* với A-môđun E. Chú ý rằng mọi môđun con của một A-môđun E cũng là một môđun con của môđun trung thành liên kết và ngược lại.
+Cho E là một A-môđun bất kỳ, $a$ là một iđêan hai phía của A được chứa trong Ann(E) và gọi $\dot{\alpha}$ là một phần tử của vành thương $A/a$; với mọi $x \in E$, phần tử $\alpha x$ là như nhau với mọi $\alpha \in A$ thuộc lớp $\dot{\alpha}$ mod. $a$; nếu phần tử này được ký hiệu bởi $\dot{\alpha} x$, thì ngay lập tức thấy rằng ánh xạ (α, x) ↦ αx xác định (cùng với phép cộng trên E) một cấu trúc môđun (A/α) trên E. Khi α = Ann(E), môđun (A/α) E được xác định như vậy là *trung thành*; ta sẽ nói rằng đó là môđun trung thành *liên kết* với A-môđun E. Hãy nhận xét rằng mọi môđun con của một A-môđun E cũng là môđun con của môđun trung thành liên kết và ngược lại.
 
 #### Định nghĩa 12 {#alg-ii-s1-def-12 .statement}
 
@@ -1115,13 +1118,13 @@ Mệnh đề 9 của no. 7 cho thấy rằng, nếu E là một A-môđun đơn 
 
 (1) Mọi nhóm đơn sinh, vì là giao hoán (I, § 4, no. 10, Mệnh đề 18), đều là một $\mathbf{Z}$-môđun đơn sinh.
 (2) Nếu A là một vành giao hoán, thì các môđun con đơn sinh của A-môđun A chính là các *iđêan chính* (I, § 8, no. 6) của vành A.
-(3) Mọi A-môđun *đơn* E đều đơn sinh, vì môđun con của E sinh bởi một phần tử ≠ 0 của E tất yếu bằng E.
+(3) Mọi A-môđun *đơn* E đều đơn sinh, vì môđun con của E được sinh bởi một phần tử ≠ 0 của E tất yếu bằng E.
 
 #### Mệnh đề 22 {#alg-ii-s1-prop-22 .statement}
 
 *Cho A là một vành. Mọi môđun thương của $A_s$ đều đơn sinh. Ngược lại, cho E là một A-môđun đơn sinh, c là một phần tử sinh của E và a là linh hóa tử của nó; ánh xạ tuyến tính $\xi \mapsto \xi c$ xác định, khi chuyển qua thương, một đẳng cấu từ $A_s/a$ lên E.*
 
-Vì $A_s$ tự nó là đơn sinh, được sinh bởi 1, nên mệnh đề thứ nhất suy ra từ no. 7, Hệ quả 1 của Mệnh đề 9. Mệnh đề thứ hai là hiển nhiên, vì $\xi \mapsto \xi c$ theo giả thiết là toàn ánh và có hạt nhân là a.
+Vì $A_s$ tự nó là đơn sinh, được sinh bởi 1, mệnh đề thứ nhất suy ra từ no. 7, Hệ quả 1 của Mệnh đề 9. Mệnh đề thứ hai là hiển nhiên, vì $\xi \mapsto \xi c$ theo giả thiết là toàn ánh và có hạt nhân là a.
 
 Chú ý rằng, nếu A không giao hoán, các linh hóa tử của hai phần tử sinh phân biệt c, c' của một A-môđun đơn sinh E nói chung là *phân biệt* và cũng phân biệt với linh hóa tử của môđun E. Mặt khác, nếu A là *giao hoán*, linh hóa tử của một phần tử sinh c của E được chứa trong linh hóa tử của mọi phần tử của E và do đó là linh hóa tử của toàn bộ E.
 
@@ -1131,7 +1134,7 @@ Chú ý rằng, nếu A không giao hoán, các linh hóa tử của hai phần 
 
 Mệnh đề thứ hai là ngay lập tức và mệnh đề thứ nhất suy ra từ Mệnh đề 22 và I, § 4, no. 6, Định lý 4.
 
-Mặt khác chú ý rằng một môđun con của một môđun đơn sinh không nhất thiết là đơn sinh. Chẳng hạn, nếu A là một vành giao hoán trong đó tồn tại các iđêan không chính (VII, § 1, no. 1), thì các iđêan này là những môđun con không đơn sinh của A-môđun đơn sinh A.
+Mặt khác cũng chú ý rằng một môđun con của một môđun đơn sinh không nhất thiết là đơn sinh. Chẳng hạn, nếu A là một vành giao hoán trong đó tồn tại các iđêan không chính (VII, § 1, no. 1), thì các iđêan ấy là những môđun con không đơn sinh của A-môđun đơn sinh A.
 
 Từ các định nghĩa suy ra rằng một môđun con của một A-môđun E được sinh bởi một họ $(a_i)$ các phần tử của E là *tổng* của các môđun con đơn sinh
 
@@ -1139,36 +1142,36 @@ Aa_i của E; để (a_i) là một cơ sở của E, điều kiện cần và �
 
 #### Mệnh đề 23 {#alg-ii-s1-prop-23 .statement}
 
-Cho E là một A-môđun, tổng trực tiếp của một họ vô hạn (M_i)_{i \in I} các môđun con khác không. Với mọi hệ sinh S của E, Card(S) \geq Card(I).
+Cho E là một A-môđun, là tổng trực tiếp của một họ vô hạn (M_i)_{i \in I} các môđun con khác không. Với mọi hệ sinh S của E, Card(S) \geq Card(I).
 
-Với mọi x \in S, gọi C_x là tập hợp hữu hạn các chỉ số i \in I sao cho thành phần của x trong M_i là \neq 0 và đặt C = \bigcup_{x \in S} C_x. Theo định nghĩa, mọi x \in S đều thuộc môđun con của E là tổng trực tiếp của các M_i ứng với i \in C, và do giả thiết rằng S sinh ra E nên suy ra C = I; vì I theo giả thiết là vô hạn, nên S cũng vô hạn (Lý thuyết tập hợp, III, § 5, no. 1, Hệ quả 1 của Mệnh đề 1); do đó Card(I) = Card(C) \leq Card(S) (Lý thuyết tập hợp, III, § 6, no. 3, Hệ quả 3 của Định lý 2).
+Với mọi x \in S, gọi C_x là tập hữu hạn các chỉ số i \in I sao cho thành phần của x trong M_i là \neq 0 và đặt C = \bigcup_{x \in S} C_x. Theo định nghĩa, mọi x \in S đều thuộc môđun con của E là tổng trực tiếp của các M_i với i \in C, và giả thiết rằng S sinh ra E do đó kéo theo C = I; vì I theo giả thiết là vô hạn, nên S cũng vô hạn (Set Theory, III, § 5, no. 1, Hệ quả 1 của Mệnh đề 1); do đó Card(I) = Card(C) \leq Card(S) (Set Theory, III, § 6, no. 3, Hệ quả 3 của Định lý 2).
 
 #### Hệ quả 1 {#alg-ii-s1-prop-23-cor-1 .statement}
 
 Trong các giả thiết của Mệnh đề 23, giả sử rằng mỗi M_i là đơn sinh và E là tổng trực tiếp của một họ thứ hai (N_\lambda)_{\lambda \in L} các môđun con đơn sinh khác không. Khi đó Card(L) = Card(I).
 
-Nếu b_\lambda là một phần tử sinh của N_\lambda, tập hợp các b_\lambda là một hệ sinh của E, nên Card(L) \geq Card(I). Đặc biệt L là vô hạn và, hoán đổi vai trò của (M_i) và (N_\lambda), cũng tương tự như vậy Card(I) \geq Card(L), do đó có hệ quả.
+Nếu b_\lambda là một phần tử sinh của N_\lambda, tập các b_\lambda là một hệ sinh của E, nên Card(L) \geq Card(I). Đặc biệt L là vô hạn và, khi đổi vai trò của (M_i) và (N_\lambda), tương tự ta có Card(I) \geq Card(L), do đó có hệ quả.
 
 #### Hệ quả 2 {#alg-ii-s1-prop-23-cor-2 .statement}
 
-Nếu một môđun E thừa nhận một cơ sở vô hạn B, mọi hệ sinh của E đều có lực lượng \geq Card(B) và mọi cơ sở của E đều đẳng lực với B.
+Nếu một môđun E thừa nhận một cơ sở vô hạn B, thì mọi hệ sinh của E đều có lực lượng \geq Card(B) và mọi cơ sở của E đều cùng lực lượng với B.
 
 ### 13. THAY ĐỔI VÀNH VÔ HƯỚNG
 
-Cho A, B là hai vành và \rho là một đồng cấu của vành B vào vành A. Với mọi A-môđun E, luật ngoài (\beta, x) \mapsto \rho(\beta)x xác định (cùng với phép cộng) một cấu trúc B-môđun được gọi là liên kết với \rho và cấu trúc A-môđun trên E; B-môđun này được ký hiệu là \rho_*(E) hoặc E_{[B]} (và thậm chí đơn giản là E nếu không thể có nhầm lẫn). Đặc biệt, nếu B là một vành con của A và \rho : B \to A là đơn ánh chính tắc, E_{[B]} được gọi là B-môđun thu được bằng cách hạn chế vành vô hướng A xuống B; do một sự lạm dụng ngôn ngữ, cách nói này cũng được dùng khi đồng cấu \rho là tùy ý.
+Cho A, B là hai vành và \rho là một đồng cấu của vành B vào vành A. Với mọi A-môđun E, phép toán ngoài (\beta, x) \mapsto \rho(\beta)x xác định (cùng với phép cộng) một cấu trúc B-môđun được gọi là liên kết với \rho và cấu trúc A-môđun trên E; B-môđun này được ký hiệu là \rho_*(E) hoặc E_{[B]} (và thậm chí đơn giản là E nếu không thể có nhầm lẫn). Đặc biệt, nếu B là một vành con của A và \rho : B \to A là đơn ánh chính tắc, E_{[B]} được gọi là B-môđun thu được bằng cách hạn chế vành vô hướng A xuống B; do một sự lạm dụng ngôn ngữ, cách nói này cũng được dùng khi đồng cấu \rho là tùy ý.
 
-Nếu F là một môđun con của A-môđun E, \rho_*(F) là một môđun con của \rho_*(E) và \rho_*(E/F) bằng \rho_*(E)/\rho_*(F).
+Nếu F là một môđun con của A-môđun E, thì \rho_*(F) là một môđun con của \rho_*(E) và \rho_*(E/F) bằng \rho_*(E)/\rho_*(F).
 
-Cho E, F là hai A-môđun; mọi ánh xạ A-tuyến tính u : E \to F cũng là một ánh xạ B-tuyến tính E_{[B]} \to F_{[B]} được ký hiệu bởi \rho_*(u); nói cách khác, có một đơn ánh chính tắc của các \mathbf{Z}-môđun
+Cho E, F là hai A-môđun; mọi ánh xạ A-tuyến tính u : E \to F cũng là một ánh xạ B-tuyến tính E_{[B]} \to F_{[B]} được ký hiệu bởi \rho_*(u); nói cách khác, có một đơn ánh chính tắc các \mathbf{Z}-môđun
 
 (47)
 $$
 \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_B(E_{[B]}, F_{[B]}).
 $$
 
-Ánh xạ này không nhất thiết là song ánh; nói cách khác, một ánh xạ B-tuyến tính E_{[B]} \to F_{[B]} không nhất thiết là A-tuyến tính. Chẳng hạn, một môđun con-B của E_{[B]} không nhất thiết là một môđun con-A của E: nếu A là một trường và B là một trường con của $A$, không gian con vectơ $B_s$ của không gian vectơ trên $B$ $(A_s)_{[B]}$ không phải là một không gian con vectơ trên $A$ nếu $B \neq A$.
+Ánh xạ này không nhất thiết là song ánh; nói cách khác, một ánh xạ B-tuyến tính E_{[B]} \to F_{[B]} không nhất thiết là A-tuyến tính. Chẳng hạn, một môđun con-B của E_{[B]} không nhất thiết là một môđun con-A của E: nếu A là một trường và B là một trường con của $A$, thì không gian con vectơ $B_s$ của $B$-không gian vectơ $(A_s)_{[B]}$ không phải là một không gian con vectơ-$A$ nếu $B \neq A$.
 
-Ngay lập tức thấy rằng, với mọi họ $(E_i)_{i \in I}$ các $A$-môđun, $B$-môđun $\rho_*\left(\prod_{i \in I} E_i\right)$ (tương ứng $\rho_*\left(\bigoplus_{i \in I} E_i\right)$) bằng $\prod_{i \in I} \rho_*(E_i)$ (tương ứng $\bigoplus_{i \in I} \rho_*(E_i)$).
+Ngay lập tức thấy rằng, với mọi họ $(E_i)_{i \in I}$ các $A$-môđun, $B$-môđun $\rho_*\left(\prod_{i \in I} E_i\right)$ (tương ứng, $\rho_*\left(\bigoplus_{i \in I} E_i\right)$) bằng $\prod_{i \in I} \rho_*(E_i)$ (tương ứng, $\bigoplus_{i \in I} \rho_*(E_i)$).
 
 Mọi hệ sinh của $\rho_*(E)$ đều là một hệ sinh của $E$ nhưng đảo lại thì không nhất thiết đúng.
 
@@ -1176,15 +1179,15 @@ Mọi hệ sinh của $\rho_*(E)$ đều là một hệ sinh của $E$ nhưng đ
 
 *Cho $A, B$ là hai vành và $\rho : B \to A$ là một đồng cấu vành.*
 
-(i) *Nếu $\rho$ là toàn ánh, ánh xạ chính tắc (47) là song ánh. Với mọi $A$-môđun $E$, mọi môđun con-$B$ của $\rho_*(E)$ là một môđun con-$A$ của $E$; mọi hệ sinh của $E$ là một hệ sinh của $\rho_*(E)$.*
+(i) *Nếu $\rho$ là toàn ánh, ánh xạ chính tắc (47) là song ánh. Với mọi $A$-môđun $E$, mọi môđun con-$B$ của $\rho_*(E)$ đều là một môđun con-$A$ của $E$; mọi hệ sinh của $E$ đều là một hệ sinh của $\rho_*(E)$.*
 
-(ii) *Nếu $\rho$ là đơn ánh, mọi họ tự do trong A-môđun $E$ là một họ tự do trong B-môđun $\rho_*(E)$.*
+(ii) *Nếu $\rho$ là đơn ánh, mọi họ tự do trong $A$-môđun $E$ đều là một họ tự do trong $B$-môđun $\rho_*(E)$.*
 
 Mệnh đề này suy ra ngay lập tức từ các định nghĩa.
 
-Chú ý rằng ngay cả khi $\rho$ là đơn ánh, một họ tự do trong $\rho_*(E)$ không nhất thiết là tự do trong $E$.
+Chú ý rằng ngay cả khi $\rho$ là đơn ánh, một họ tự do trong $\rho_*(E)$ cũng không nhất thiết tự do trong $E$.
 
-*Chẳng hạn, 1 và $\sqrt{2}$ không tạo thành một hệ tự do trong $\mathbf{R}$ khi xét như một không gian vectơ trên $\mathbf{R}$, mặc dù chúng tạo thành một hệ tự do trong $\mathbf{R}$ khi xét như một không gian vectơ trên $\mathbf{Q}$ (xem Nhận xét 1).*
+*Chẳng hạn, 1 và $\sqrt{2}$ không tạo thành một hệ tự do trong $\mathbf{R}$ khi coi là một $\mathbf{R}$-không gian vectơ, mặc dù chúng tạo thành một hệ tự do trong $\mathbf{R}$ khi coi là một $\mathbf{Q}$-không gian vectơ (x. Nhận xét 1).*
 
 #### Mệnh đề 25 {#alg-ii-s1-prop-25 .statement}
 
@@ -1200,9 +1203,9 @@ Cho $C$ là một vành thứ ba, $\rho' : C \to B$ là một đồng cấu vàn
 
 #### Nhận xét {#alg-ii-s1-n13-rem-1 .statement}
 
-(1) Cho $K$ là một trường và $A$ là một vành con của $K$ có tính chất sau: với mọi họ hữu hạn $(\xi_i)_{1 \leq i \leq n}$ các phần tử của $K$, tồn tại một $\gamma \in A$ khác không sao cho $\gamma \xi_i \in A$ với $1 \leq i \leq n$ (một giả thiết luôn được thỏa mãn khi $A$ là *giao hoán* và $K$ là trường phân thức của $A$). Cho $E$ là một không gian vectơ trên $K$ và $E_{[A]}$ là A-môđun thu được bằng cách hạn chế vành các vô hướng xuống $A$. Khi đó, nếu một họ $(x_\lambda)_{\lambda \in L}$ là *tự do trong* $E_{[A]}$ thì nó cũng *tự do trong* $E$. Có thể chỉ cần xét trường hợp $L = \{1, n\}$; nếu có một quan hệ $\sum_{i=1}^n \xi_i x_i = 0$ với $\xi_i \in K$, các $\xi_i$ không đồng thời bằng không, thì suy ra rằng với mọi $\beta \in A$, $\sum_{i=1}^n (\beta \xi_i) x_i = 0$. Theo giả thiết ta có thể giả sử $\beta \neq 0$ trong $A$ sao cho $\beta \xi_i = \alpha_i$ thuộc $A$ với mọi $i$; nhưng quan hệ $\sum_{i=1}^n \alpha_i x_i = 0$ trái với giả thiết, vì các $\alpha_i$ không đồng thời bằng không.
+(1) Cho $K$ là một trường và $A$ là một vành con của $K$ có tính chất sau: với mọi họ hữu hạn $(\xi_i)_{1 \leq i \leq n}$ các phần tử của $K$, tồn tại một $\gamma \in A$ khác không sao cho $\gamma \xi_i \in A$ với $1 \leq i \leq n$ (một giả thiết luôn được thỏa mãn khi $A$ là *giao hoán* và $K$ là trường các phân thức của $A$). Cho $E$ là một không gian vectơ trên $K$ và $E_{[A]}$ là $A$-môđun thu được bằng cách hạn chế vành các vô hướng xuống $A$. Khi đó, nếu một họ $(x_\lambda)_{\lambda \in L}$ là *tự do trong* $E_{[A]}$ thì nó cũng *tự do trong* $E$. Có thể chỉ cần xét trường hợp $L = \{1, n\}$; nếu có một quan hệ $\sum_{i=1}^n \xi_i x_i = 0$ với $\xi_i \in K$, các $\xi_i$ không đồng thời bằng không, thì suy ra rằng với mọi $\beta \in A$, $\sum_{i=1}^n (\beta \xi_i) x_i = 0$. Theo giả thiết, ta có thể giả sử $\beta \neq 0$ trong $A$ sao cho $\beta \xi_i = \alpha_i$ thuộc $A$ với mọi $i$; nhưng quan hệ $\sum_{i=1}^n \alpha_i x_i = 0$ trái với giả thiết, vì các $\alpha_i$ không đồng thời bằng không.
 
-(2) Nếu đồng cấu vành $\rho : B \to A$ là toàn ánh và $b$ là hạt nhân của nó (do đó $A$ được đồng nhất một cách chính tắc với $B/b$), thì, với mọi A-môđun $E$, $b$ được chứa trong linh hóa tử của $\rho_*(E)$ và $E$ là A-môđun dẫn xuất từ $\rho_*(E)$ bởi quá trình được định nghĩa ở no. 12.
+(2) Nếu đồng cấu vành $\rho : B \to A$ là toàn ánh và $b$ là hạt nhân của nó (do đó $A$ được đồng nhất một cách chính tắc với $B/b$), thì, với mọi $A$-môđun $E$, $b$ được chứa trong linh hóa tử của $\rho_*(E)$ và $E$ là $A$-môđun dẫn xuất từ $\rho_*(E)$ bởi quá trình được định nghĩa ở no. 12.
 
 Cho $A, B$ là hai vành và $\rho : B \to A$ là một đồng cấu. Cho $E$ là một $A$-môđun và $F$ là một $B$-môđun; một ánh xạ *B-tuyến tính* $u : F \to \rho_*(E)$ (cũng gọi là một *ánh xạ B-tuyến tính của* $F$ *vào* $E$ nếu không thể gây nhầm lẫn) cũng được gọi là một *ánh xạ nửa tuyến tính* (đối với $\rho$) của $B$-môđun $F$ vào $A$-môđun $E$; cũng nói rằng cặp có thứ tự $(u, \rho)$ là một *dimorphism* của $F$ vào $E$; do đó điều này có nghĩa là, với $x \in F, y \in F$ và $\beta \in B$,
 
