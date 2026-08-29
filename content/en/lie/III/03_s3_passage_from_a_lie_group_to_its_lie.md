@@ -7,80 +7,81 @@ section: 3
 section_title: Passage from a Lie group to its Lie algebra
 lang: en
 source: lie-i-iii
+book_pages: 238-279, 372-376
 pdf_pages: 0256-0297, 0390-0394
 extraction: ocr
 subsections:
     - "no": 1
       title: CONVOLUTION OF POINT DISTRIBUTIONS ON A LIE GROUP
-      page: 0
+      page: 238
       pdf_page: 256
     - "no": 2
       title: FUNCTIORAL PROPERTIES
-      page: 0
+      page: 241
       pdf_page: 259
     - "no": 3
       title: CASE OF A GROUP OPERATING ON A MANIFOLD
-      page: 0
+      page: 244
       pdf_page: 262
     - "no": 4
       title: CONVOLUTION OF POINT DISTRIBUTIONS AND FUNCTIONS
-      page: 0
+      page: 245
       pdf_page: 263
     - "no": 5
       title: FIELDS OF POINT DISTRIBUTIONS DEFINED BY THE ACTION OF A GROUP ON A MANIFOLD
-      page: 0
+      page: 248
       pdf_page: 266
     - "no": 6
       title: INVARIANT FIELDS OF POINT DISTRIBUTIONS ON A LIE GROUP
-      page: 0
+      page: 249
       pdf_page: 267
     - "no": 7
       title: LIE ALGEBRA OF A LIE GROUP
-      page: 0
+      page: 251
       pdf_page: 269
     - "no": 8
       title: FUNCTIORIAL PROPERTIES OF THE LIE ALGEBRA
-      page: 0
+      page: 254
       pdf_page: 272
     - "no": 9
       title: LIE ALGEBRA OF THE GROUP OF INVERTIBLE ELEMENTS OF AN ALGEBRA
-      page: 0
+      page: 257
       pdf_page: 275
     - "no": 10
       title: LIE ALGEBRAS OF CERTAIN LINEAR GROUPS
-      page: 0
+      page: 258
       pdf_page: 276
     - "no": 11
       title: LINEAR REPRESENTATIONS
-      page: 0
+      page: 259
       pdf_page: 277
     - "no": 12
       title: ADJOINT REPRESENTATION
-      page: 0
+      page: 264
       pdf_page: 282
     - "no": 13
       title: TENSORS AND INVARIANT FORMS
-      page: 0
+      page: 268
       pdf_page: 286
     - "no": 14
       title: MAURER–CARTAN FORMULAE
-      page: 0
+      page: 269
       pdf_page: 287
     - "no": 15
       title: CONSTRUCTION OF INVARIANT DIFFERENTIAL FORMS
-      page: 0
+      page: 271
       pdf_page: 289
     - "no": 16
       title: HAAR MEASURE ON A LIE GROUP
-      page: 0
+      page: 271
       pdf_page: 289
     - "no": 17
       title: LEFT DIFFERENTIAL
-      page: 0
+      page: 274
       pdf_page: 292
     - "no": 18
       title: LIE ALGEBRA OF A LIE GROUP GERM
-      page: 0
+      page: 276
       pdf_page: 294
 statements: 111
 exercises: 9

@@ -7,32 +7,33 @@ section: 1
 section_title: Definition of real numbers
 lang: en
 source: top-i-iv
+book_pages: 329-334, 378-381
 pdf_pages: 0335-0340, 0384-0387
 extraction: ocr
 subsections:
     - "no": 1
       title: THE ORDERED GROUP OF RATIONAL NUMBERS
-      page: 0
+      page: 329
       pdf_page: 335
     - "no": 2
       title: THE RATIONAL LINE
-      page: 0
+      page: 330
       pdf_page: 336
     - "no": 3
       title: THE REAL LINE AND REAL NUMBERS
-      page: 0
+      page: 331
       pdf_page: 337
     - "no": 4
       title: PROPERTIES OF INTERVALS IN $\mathbf{R}$
-      page: 0
+      page: 332
       pdf_page: 338
     - "no": 5
       title: LENGTH OF AN INTERVAL
-      page: 0
+      page: 333
       pdf_page: 339
     - "no": 6
       title: ADDITIVE UNIFORMITY OF $\mathbf{R}$
-      page: 0
+      page: 334
       pdf_page: 340
 statements: 10
 exercises: 4

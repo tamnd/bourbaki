@@ -8,24 +8,25 @@ section_title: Fields
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 114-118, 174-179
 pdf_pages: 0138-0142, 0198-0203
 extraction: ocr
 subsections:
     - "no": 1
       title: FIELDS
-      page: 0
+      page: 114
       pdf_page: 138
     - "no": 2
       title: INTEGRAL DOMAINS
-      page: 0
+      page: 116
       pdf_page: 140
     - "no": 3
       title: PRIME IDEALS
-      page: 0
+      page: 116
       pdf_page: 140
     - "no": 4
       title: THE FIELD OF RATIONAL NUMBERS
-      page: 0
+      page: 117
       pdf_page: 141
 statements: 17
 exercises: 21

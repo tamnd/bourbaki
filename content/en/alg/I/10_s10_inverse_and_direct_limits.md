@@ -8,24 +8,25 @@ section_title: Inverse and direct limits
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 118-123, 179
 pdf_pages: 0142-0147, 0203-0203
 extraction: ocr
 subsections:
     - "no": 1
       title: INVERSE SYSTEMS OF MAGMAS
-      page: 0
+      page: 118
       pdf_page: 142
     - "no": 2
       title: INVERSE LIMITS OF ACTIONS
-      page: 0
+      page: 119
       pdf_page: 143
     - "no": 3
       title: DIRECT SYSTEMS OF MAGMAS
-      page: 0
+      page: 120
       pdf_page: 144
     - "no": 4
       title: DIRECT LIMIT OF ACTIONS
-      page: 0
+      page: 123
       pdf_page: 147
 statements: 5
 exercises: 2

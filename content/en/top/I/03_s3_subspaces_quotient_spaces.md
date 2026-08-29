@@ -7,32 +7,33 @@ section: 3
 section_title: Subspaces, quotient spaces
 lang: en
 source: top-i-iv
+book_pages: 35-43, 122-125
 pdf_pages: 0041-0049, 0128-0131
 extraction: ocr
 subsections:
     - "no": 1
       title: SUBSPACES OF A TOPOLOGICAL SPACE
-      page: 0
+      page: 35
       pdf_page: 41
     - "no": 2
       title: CONTINUITY WITH RESPECT TO A SUBSPACE
-      page: 0
+      page: 37
       pdf_page: 43
     - "no": 3
       title: LOCALLY CLOSED SUBSPACES
-      page: 0
+      page: 38
       pdf_page: 44
     - "no": 4
       title: QUOTIENT SPACES
-      page: 0
+      page: 39
       pdf_page: 45
     - "no": 5
       title: CANONICAL DECOMPOSITION OF A CONTINUOUS MAPPING
-      page: 0
+      page: 40
       pdf_page: 46
     - "no": 6
       title: QUOTIENT SPACE OF A SUBSPACE
-      page: 0
+      page: 42
       pdf_page: 48
 statements: 24
 exercises: 16

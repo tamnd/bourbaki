@@ -7,20 +7,21 @@ section: 1
 section_title: THE GAMMA FUNCTION IN THE REAL DOMAIN
 lang: en
 source: fvr-i-vii
+book_pages: 305-314, 325-327
 pdf_pages: 0320-0329, 0340-0342
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE GAMMA FUNCTION
-      page: 0
+      page: 305
       pdf_page: 320
     - "no": 2
       title: PROPERTIES OF THE GAMMA FUNCTION
-      page: 0
+      page: 307
       pdf_page: 322
     - "no": 3
       title: THE EULER INTEGRALS
-      page: 0
+      page: 310
       pdf_page: 325
 statements: 8
 exercises: 6

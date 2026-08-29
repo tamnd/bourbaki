@@ -7,32 +7,33 @@ section: 7
 section_title: Lie groups over an ultrametric field
 lang: en
 source: lie-i-iii
+book_pages: 326-337, 391-395
 pdf_pages: 0344-0355, 0409-0413
 extraction: ocr
 subsections:
     - "no": 1
       title: PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
-      page: 0
+      page: 327
       pdf_page: 345
     - "no": 2
       title: EXPONENTIAL MAPPINGS
-      page: 0
+      page: 328
       pdf_page: 346
     - "no": 3
       title: STANDARD GROUPS†
-      page: 0
+      page: 328
       pdf_page: 346
     - "no": 4
       title: FILTRATION OF STANDARD GROUPS
-      page: 0
+      page: 330
       pdf_page: 348
     - "no": 5
       title: POWERS IN STANDARD GROUPS
-      page: 0
+      page: 331
       pdf_page: 349
     - "no": 6
       title: LOGARITHMIC MAPPING
-      page: 0
+      page: 333
       pdf_page: 351
 statements: 26
 exercises: 10

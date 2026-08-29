@@ -7,36 +7,37 @@ section: 2
 section_title: Uniformly continuous functions
 lang: en
 source: top-i-iv
+book_pages: 174-181, 207-208
 pdf_pages: 0180-0187, 0213-0214
 extraction: ocr
 subsections:
     - "no": 1
       title: UNIFORMLY CONTINUOUS FUNCTIONS
-      page: 0
+      page: 174
       pdf_page: 180
     - "no": 2
       title: COMPARISON OF UNIFORMITIES
-      page: 0
+      page: 175
       pdf_page: 181
     - "no": 3
       title: INITIAL UNIFORMITIES
-      page: 0
+      page: 176
       pdf_page: 182
     - "no": 4
       title: INVERSE IMAGE OF A UNIFORMITY; UNIFORM SUBSPACES
-      page: 0
+      page: 177
       pdf_page: 183
     - "no": 5
       title: LEAST UPPER BOUND OF A SET OF UNIFORMITIES
-      page: 0
+      page: 178
       pdf_page: 184
     - "no": 6
       title: PRODUCT OF UNIFORM SPACES
-      page: 0
+      page: 179
       pdf_page: 185
     - "no": 7
       title: INVERSE LIMITS OF UNIFORM SPACES
-      page: 0
+      page: 180
       pdf_page: 186
 statements: 25
 exercises: 6

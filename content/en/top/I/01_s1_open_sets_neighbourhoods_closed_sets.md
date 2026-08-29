@@ -7,32 +7,33 @@ section: 1
 section_title: Open sets, neighbourhoods, closed sets
 lang: en
 source: top-i-iv
+book_pages: 17-25, 117-119
 pdf_pages: 0023-0031, 0123-0125
 extraction: ocr
 subsections:
     - "no": 1
       title: OPEN SETS
-      page: 0
+      page: 17
       pdf_page: 23
     - "no": 2
       title: NEIGHBOURHOODS
-      page: 0
+      page: 18
       pdf_page: 24
     - "no": 3
       title: FUNDAMENTAL SYSTEMS OF NEIGHBOURHOODS; BASES OF A TOPOLOGY
-      page: 0
+      page: 21
       pdf_page: 27
     - "no": 4
       title: CLOSED SETS
-      page: 0
+      page: 21
       pdf_page: 27
     - "no": 5
       title: LOCALLY FINITE FAMILIES
-      page: 0
+      page: 22
       pdf_page: 28
     - "no": 6
       title: INTERIOR, CLOSURE, FRONTIER OF A SET; DENSE SETS
-      page: 0
+      page: 23
       pdf_page: 29
 statements: 23
 exercises: 9

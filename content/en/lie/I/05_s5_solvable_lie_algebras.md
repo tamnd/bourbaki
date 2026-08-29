@@ -7,32 +7,33 @@ section: 5
 section_title: Solvable Lie algebras
 lang: en
 source: lie-i-iii
+book_pages: 43-50, 99-101
 pdf_pages: 0061-0068, 0117-0119
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF SOLVABLE LIE ALGEBRAS
-      page: 0
+      page: 43
       pdf_page: 61
     - "no": 2
       title: RADICAL OF A LIE ALGEBRA
-      page: 0
+      page: 44
       pdf_page: 62
     - "no": 3
       title: NILPOTENT RADICAL OF A LIE ALGEBRA
-      page: 0
+      page: 44
       pdf_page: 62
     - "no": 4
       title: A CRITERION FOR SOLVABILITY
-      page: 0
+      page: 47
       pdf_page: 65
     - "no": 5
       title: FURTHER PROPERTIES OF THE RADICAL
-      page: 0
+      page: 48
       pdf_page: 66
     - "no": 6
       title: EXTENSION OF THE BASE FIELD
-      page: 0
+      page: 49
       pdf_page: 67
 statements: 27
 exercises: 17

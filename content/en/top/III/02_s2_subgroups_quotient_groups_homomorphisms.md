@@ -7,48 +7,49 @@ section: 2
 section_title: Subgroups, quotient groups, homomorphisms homogeneous spaces, product groups
 lang: en
 source: top-i-iv
+book_pages: 225-242, 298-305
 pdf_pages: 0231-0248, 0304-0311
 extraction: ocr
 subsections:
     - "no": 1
       title: SUBGROUPS OF A TOPOLOGICAL GROUP
-      page: 0
+      page: 225
       pdf_page: 231
     - "no": 2
       title: COMPONENTS OF A TOPOLOGICAL GROUP
-      page: 0
+      page: 227
       pdf_page: 233
     - "no": 3
       title: DENSE SUBGROUPS
-      page: 0
+      page: 228
       pdf_page: 234
     - "no": 4
       title: SPACES WITH OPERATORS
-      page: 0
+      page: 228
       pdf_page: 234
     - "no": 5
       title: HOMOGENEOUS SPACES
-      page: 0
+      page: 231
       pdf_page: 237
     - "no": 6
       title: QUOTIENT GROUPS
-      page: 0
+      page: 232
       pdf_page: 238
     - "no": 7
       title: SUBGROUPS AND QUOTIENT GROUPS OF A QUOTIENT GROUP
-      page: 0
+      page: 233
       pdf_page: 239
     - "no": 8
       title: CONTINUOUS HOMOMORPHISMS AND STRICT MORPHISMS
-      page: 0
+      page: 235
       pdf_page: 241
     - "no": 9
       title: PRODUCTS OF TOPOLOGICAL GROUPS
-      page: 0
+      page: 237
       pdf_page: 243
     - "no": 10
       title: SEMI-DIRECT PRODUCTS
-      page: 0
+      page: 239
       pdf_page: 245
 statements: 45
 exercises: 31

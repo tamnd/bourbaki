@@ -7,28 +7,29 @@ section: 3
 section_title: Uniform structures on groups
 lang: en
 source: top-i-iv
+book_pages: 242-250, 306-307
 pdf_pages: 0248-0256, 0312-0313
 extraction: ocr
 subsections:
     - "no": 1
       title: THE RIGHT AND LEFT UNIFORMITIES ON A TOPOLOGICAL GROUP
-      page: 0
+      page: 242
       pdf_page: 248
     - "no": 2
       title: UNIFORMITIES ON SUBGROUPS, QUOTIENT GROUPS AND PRODUCT GROUPS
-      page: 0
+      page: 244
       pdf_page: 250
     - "no": 3
       title: COMPLETE GROUPS
-      page: 0
+      page: 245
       pdf_page: 251
     - "no": 4
       title: COMPLETION OF A TOPOLOGICAL GROUP
-      page: 0
+      page: 246
       pdf_page: 252
     - "no": 5
       title: UNIFORMITY AND COMPLETION OF A COMMUTATIVE TOPOLOGICAL GROUP
-      page: 0
+      page: 248
       pdf_page: 254
 statements: 18
 exercises: 12

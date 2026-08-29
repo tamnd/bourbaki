@@ -8,52 +8,53 @@ section_title: Determinants
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 522-541, 637-644
 pdf_pages: 0546-0565, 0661-0668
 extraction: ocr
 subsections:
     - "no": 1
       title: DETERMINANTS OF AN ENDOMORPHISM
-      page: 0
+      page: 522
       pdf_page: 546
     - "no": 2
       title: CHARACTERIZATION OF AUTOMORPHISMS OF A FINITE-DIMENSIONAL FREE MODULE
-      page: 0
+      page: 523
       pdf_page: 547
     - "no": 3
       title: DETERMINANT OF A SQUARE MATRIX
-      page: 0
+      page: 524
       pdf_page: 548
     - "no": 4
       title: CALCULATION OF A DETERMINANT
-      page: 0
+      page: 526
       pdf_page: 550
     - "no": 5
       title: MINORS OF A MATRIX
-      page: 0
+      page: 528
       pdf_page: 552
     - "no": 6
       title: EXPANSIONS OF A DETERMINANT
-      page: 0
+      page: 530
       pdf_page: 554
     - "no": 7
       title: APPLICATION TO LINEAR EQUATIONS
-      page: 0
+      page: 534
       pdf_page: 558
     - "no": 8
       title: CASE OF A COMMUTATIVE FIELD
-      page: 0
+      page: 536
       pdf_page: 560
     - "no": 9
       title: THE UNIMODULAR GROUP $\mathbf{SL}(n, A)$
-      page: 0
+      page: 537
       pdf_page: 561
     - "no": 10
       title: THE $\mathbf{A}[X]$-MODULE ASSOCIATED WITH AN $\mathbf{A}$-MODULE ENDOMORPHISM
-      page: 0
+      page: 538
       pdf_page: 562
     - "no": 11
       title: CHARACTERISTIC POLYNOMIAL OF AN ENDOMORPHISM
-      page: 0
+      page: 540
       pdf_page: 564
 statements: 36
 exercises: 26

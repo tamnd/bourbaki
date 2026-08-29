@@ -8,40 +8,41 @@ section_title: Identity element; cancellable elements; invertible elements
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 12-24, 126-129
 pdf_pages: 0036-0048, 0150-0153
 extraction: ocr
 subsections:
     - "no": 1
       title: IDENTITY ELEMENT
-      page: 0
+      page: 12
       pdf_page: 36
     - "no": 2
       title: CANCELABLE ELEMENTS
-      page: 0
+      page: 14
       pdf_page: 38
     - "no": 3
       title: INVERTIBLE ELEMENTS
-      page: 0
+      page: 15
       pdf_page: 39
     - "no": 4
       title: MONOID OF FRACTIONS OF A COMMUTATIVE MONOID
-      page: 0
+      page: 17
       pdf_page: 41
     - "no": 5
       title: 'APPLICATIONS: I. RATIONAL INTEGERS'
-      page: 0
+      page: 20
       pdf_page: 44
     - "no": 6
       title: 'APPLICATIONS: II. MULTIPLICATION OF RATIONAL INTEGERS'
-      page: 0
+      page: 22
       pdf_page: 46
     - "no": 7
       title: 'APPLICATIONS: III. GENERALIZED POWERS'
-      page: 0
+      page: 23
       pdf_page: 47
     - "no": 8
       title: NOTATION
-      page: 0
+      page: 23
       pdf_page: 47
 statements: 25
 exercises: 17

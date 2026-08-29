@@ -8,52 +8,53 @@ section_title: Examples of algebras
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 438-457, 618-626
 pdf_pages: 0462-0481, 0642-0650
 extraction: ocr
 subsections:
     - "no": 1
       title: ENDOMORPHISM ALGEBRAS
-      page: 0
+      page: 438
       pdf_page: 462
     - "no": 2
       title: MATRIX ELEMENTS
-      page: 0
+      page: 438
       pdf_page: 462
     - "no": 3
       title: QUADRATIC ALGEBRAS
-      page: 0
+      page: 439
       pdf_page: 463
     - "no": 4
       title: CAYLEY ALGEBRAS
-      page: 0
+      page: 441
       pdf_page: 465
     - "no": 5
       title: CONSTRUCTION OF CAYLEY ALGEBRAS. QUATERNIONS
-      page: 0
+      page: 443
       pdf_page: 467
     - "no": 6
       title: ALGEBRA OF A MAGMA, A MONOID, A GROUP
-      page: 0
+      page: 446
       pdf_page: 470
     - "no": 7
       title: FREE ALGEBRAS
-      page: 0
+      page: 448
       pdf_page: 472
     - "no": 8
       title: DEFINITION OF AN ALGEBRA BY GENERATORS AND RELATIONS
-      page: 0
+      page: 450
       pdf_page: 474
     - "no": 9
       title: POLYNOMIAL ALGEBRAS
-      page: 0
+      page: 452
       pdf_page: 476
     - "no": 10
       title: TOTAL ALGEBRA OF A MONOID
-      page: 0
+      page: 454
       pdf_page: 478
     - "no": 11
       title: FORMAL POWER SERIES OVER A COMMUTATIVE RING
-      page: 0
+      page: 455
       pdf_page: 479
 statements: 17
 exercises: 3

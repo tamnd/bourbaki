@@ -8,56 +8,57 @@ section_title: Affine spaces and projective spaces
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 325-337, 410-417
 pdf_pages: 0349-0361, 0434-0441
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF AFFINE SPACES
-      page: 0
+      page: 325
       pdf_page: 349
     - "no": 2
       title: BARYCENTRIC CALCULUS
-      page: 0
+      page: 326
       pdf_page: 350
     - "no": 3
       title: AFFINE LINEAR VARIETIES
-      page: 0
+      page: 327
       pdf_page: 351
     - "no": 4
       title: AFFINE LINEAR MAPPINGS
-      page: 0
+      page: 329
       pdf_page: 353
     - "no": 5
       title: DEFINITION OF PROJECTIVE SPACES
-      page: 0
+      page: 331
       pdf_page: 355
     - "no": 6
       title: HOMOGENEOUS COORDINATES
-      page: 0
+      page: 331
       pdf_page: 355
     - "no": 7
       title: PROJECTIVE LINEAR VARIETIES
-      page: 0
+      page: 332
       pdf_page: 356
     - "no": 8
       title: PROJECTIVE COMPLETION OF AN AFFINE SPACE
-      page: 0
+      page: 333
       pdf_page: 357
     - "no": 9
       title: EXTENSION OF RATIONAL FUNCTIONS
-      page: 0
+      page: 334
       pdf_page: 358
     - "no": 10
       title: PROJECTIVE LINEAR MAPPINGS
-      page: 0
+      page: 335
       pdf_page: 359
     - "no": 11
       title: PROJECTIVE SPACE STRUCTURE
-      page: 0
+      page: 337
       pdf_page: 361
 statements: 12
 exercises: 6
-content_sha256: 9d45def4ac6d83163891366210d3e2ec6cebc99f38e72e69aa48f812a592924a
+content_sha256: 6d5414948dceab419cbfb016f0d02a94213bdb1f5a7f8c8b4975a8a4bd8908c9
 ---
 
 ## § 9. AFFINE SPACES AND PROJECTIVE SPACES
@@ -273,7 +274,7 @@ As the field $K$ has canonically a left vector space structure (of dimension 1) 
 
 #### Definition 4 {#alg-ii-s9-def-4 .statement}
 
-*Given a left (resp. right) vector space* $V$ *over a field* $K$, *the left (resp. right) projective space derived from* $V$, *denoted by* $\mathbf{P}(V)$, *is the quotient of the complement* $V - \{0\}$ *of* $\{0\}$ *in* $V$ *by the equivalence relation* $\Delta(V)$ *"there exists* $\lambda \neq 0$ *in* $K$ *such that* $y = \lambda x$ *(resp.* $y = x \lambda$ )  *between* $x$ *and* $y$ *in* $V - \{0\}$.
+*Given a left (resp. right) vector space* $V$ *over a field* $K$, *the left (resp. right) projective space derived from* $V$, *denoted by* $\mathbf{P}(V)$, *is the quotient of the complement* $V - \{0\}$ *of* $\{0\}$ *in* $V$ *by the equivalence relation* $\Delta(V)$ *"there exists* $\lambda \neq 0$ *in* $K$ *such that* $y = \lambda x$ *(resp.* $y = x \lambda$ ) *between* $x$ *and* $y$ *in* $V - \{0\}$.
 
 When $V = K_s^{n+1}$, we also write $\mathbf{P}_n(K)$ instead of $\mathbf{P}(K_s^{n+1})$ and $\Delta_n(K)$ instead of $\Delta(V)$.
 

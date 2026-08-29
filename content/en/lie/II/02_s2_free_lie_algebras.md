@@ -7,56 +7,57 @@ section: 2
 section_title: Free Lie algebras
 lang: en
 source: lie-i-iii
+book_pages: 122-136, 181-186
 pdf_pages: 0140-0154, 0199-0204
 extraction: ocr
 subsections:
     - "no": 1
       title: REVISION OF FREE ALGEBRAS
-      page: 0
+      page: 122
       pdf_page: 140
     - "no": 2
       title: CONSTRUCTION OF THE FREE LIE ALGEBRA
-      page: 0
+      page: 122
       pdf_page: 140
     - "no": 3
       title: PRESENTATIONS OF A LIE ALGEBRA
-      page: 0
+      page: 124
       pdf_page: 142
     - "no": 4
       title: LIE POLYNOMIALS AND SUBSTITUTIONS
-      page: 0
+      page: 124
       pdf_page: 142
     - "no": 5
       title: FUNCTORIAL PROPERTIES
-      page: 0
+      page: 125
       pdf_page: 143
     - "no": 6
       title: GRADUATIONS
-      page: 0
+      page: 126
       pdf_page: 144
     - "no": 7
       title: LOWER CENTRAL SERIES
-      page: 0
+      page: 128
       pdf_page: 146
     - "no": 8
       title: DERIVATIONS OF FREE LIE ALGEBRAS
-      page: 0
+      page: 129
       pdf_page: 147
     - "no": 9
       title: ELIMINATION THEOREM
-      page: 0
+      page: 130
       pdf_page: 148
     - "no": 10
       title: HALL SETS IN A FREE MAGMA
-      page: 0
+      page: 132
       pdf_page: 150
     - "no": 11
       title: HALL BASES OF A FREE LIE ALGEBRA
-      page: 0
+      page: 134
       pdf_page: 152
 statements: 32
 exercises: 10
-content_sha256: c45ddbecbce1fdde54f20fa9b4671c2410f21271291967870bb4c5380ec1d17b
+content_sha256: 6e450e7885a69b88d5a981a2a0a11ee034c761b9d126211b974e36d6700c2625
 ---
 
 ## § 2. FREE LIE ALGEBRAS

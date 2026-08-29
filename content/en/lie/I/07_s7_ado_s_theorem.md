@@ -7,20 +7,21 @@ section: 7
 section_title: Ado’s Theorem
 lang: en
 source: lie-i-iii
+book_pages: 68-72, 109-110
 pdf_pages: 0086-0090, 0127-0128
 extraction: ocr
 subsections:
     - "no": 1
       title: COEFFICIENTS OF A REPRESENTATION
-      page: 0
+      page: 69
       pdf_page: 87
     - "no": 2
       title: THE EXTENSION THEOREM
-      page: 0
+      page: 69
       pdf_page: 87
     - "no": 3
       title: ADO'S THEOREM
-      page: 0
+      page: 71
       pdf_page: 89
 statements: 6
 exercises: 5

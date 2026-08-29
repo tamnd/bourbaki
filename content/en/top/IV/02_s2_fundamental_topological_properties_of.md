@@ -7,32 +7,33 @@ section: 2
 section_title: Fundamental topological properties of the real line
 lang: en
 source: top-i-iv
+book_pages: 334-339
 pdf_pages: 0340-0345, 0387-0393
 extraction: ocr
 subsections:
     - "no": 1
       title: ARCHIMEDES' AXIOM
-      page: 0
+      page: 334
       pdf_page: 340
     - "no": 2
       title: COMPACT SUBSETS OF $\mathbf{R}$
-      page: 0
+      page: 335
       pdf_page: 341
     - "no": 3
       title: LEAST UPPER BOUND OF A SUBSET OF $\mathbf{R}$
-      page: 0
+      page: 335
       pdf_page: 341
     - "no": 4
       title: CHARACTERIZATION OF INTERVALS
-      page: 0
+      page: 336
       pdf_page: 342
     - "no": 5
       title: CONNECTED SUBSETS OF $\mathbf{R}$
-      page: 0
+      page: 336
       pdf_page: 342
     - "no": 6
       title: HOMEOMORPHISMS OF AN INTERVAL ONTO AN INTERVAL
-      page: 0
+      page: 338
       pdf_page: 344
 statements: 15
 exercises: 16

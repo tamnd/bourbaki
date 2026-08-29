@@ -7,32 +7,33 @@ section: 7
 section_title: Limits
 lang: en
 source: top-i-iv
+book_pages: 68-74, 132-133
 pdf_pages: 0074-0080, 0138-0139
 extraction: ocr
 subsections:
     - "no": 1
       title: LIMIT OF A FILTER
-      page: 0
+      page: 68
       pdf_page: 74
     - "no": 2
       title: CLUSTER POINT OF A FILTER BASE
-      page: 0
+      page: 69
       pdf_page: 75
     - "no": 3
       title: LIMIT POINT AND CLUSTER POINT OF A FUNCTION
-      page: 0
+      page: 70
       pdf_page: 76
     - "no": 4
       title: LIMITS AND CONTINUITY
-      page: 0
+      page: 72
       pdf_page: 78
     - "no": 5
       title: LIMITS RELATIVE TO A SUBSPACE
-      page: 0
+      page: 73
       pdf_page: 79
     - "no": 6
       title: LIMITS IN PRODUCT SPACES AND QUOTIENT SPACES
-      page: 0
+      page: 74
       pdf_page: 80
 statements: 23
 exercises: 7

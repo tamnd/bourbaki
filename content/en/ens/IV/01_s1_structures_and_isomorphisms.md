@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 11
 exercises: 1
-content_sha256: bc1d66409698eb85af0a8703ebbb4f2e02ccf95db168e9c8733b781c5739452a
+content_sha256: cb0ba0aa51c27cd635da1ba9e5c5d3b4143cd0a7ff9702c62051fac7eeb01b20
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -288,7 +288,6 @@ It is clear that the terms $x_1,\ldots,x_n$ are intrinsic for $s$. In many cases
 \* (1) The species of topological group structures has a single principal base set $A$, no auxiliary base set, and the corresponding generic structure is a pair $(s_1,s_2)$ ($s_1$ being the graph of the law of composition on $A$, and $s_2$ the set of open sets in the topology of $A$; cf. General Topology, Chapter III, § 1). Each of the terms $s_1,s_2$ is a procedure of deduction and provides respectively the group structure and the topology underlying the topological group structure $(s_1,s_2)$.
 
 Likewise, from a vector space structure can be deduced an underlying commutative group structure. From a ring structure can be deduced an underlying commutative group structure and a (multiplicative) semigroup
-267
 
 IV
 STRUCTURES
@@ -318,8 +317,6 @@ When $P$ is a “q-tuple” $(P_1,\ldots,P_q)$, it is also said that the terms $
 Let $\Sigma$ and $\Theta$ be two species of structures, in the same theory $\mathscr{T}$, having the same principal base sets $x_1,\ldots,x_n$. Let $s,t$ be the generic structures of the species $\Sigma,\Theta$ respectively. Suppose that the following conditions are satisfied:
 
 (1) We have a procedure of deduction $P\{x_1,\ldots,x_n,s\}$ of a structure of species $\Theta$ on $x_1,\ldots,x_n$ from a structure of species $\Sigma$ on $x_1,\ldots,x_n$.
-
-268
 
 (2) We have a procedure of deduction $Q\{x_1,\ldots,x_n,t\}$ of a structure of species $\Sigma$ on $x_1,\ldots,x_n$ from a structure of species $\Theta$ on $x_1,\ldots,x_n$.
 
@@ -366,9 +363,7 @@ $$
 
 (“multiplication of an element of $A$ by an integer”).
 
-Consider the species $\Theta$ of $\mathbf{Z}$-module structures, which has a single principal base set $A$, with $\mathbf{Z}$ as auxiliary set, and whose generic struc-
-
-269 ture contains two letters G, L, with the typical characterization
+Consider the species $\Theta$ of $\mathbf{Z}$-module structures, which has a single principal base set $A$, with $\mathbf{Z}$ as auxiliary set, and whose generic structure contains two letters G, L, with the typical characterization
 
 $G \in \mathfrak{P}((A \times A) \times A)$ and $L \in \mathfrak{P}((\mathbf{Z} \times A) \times A)$
 
@@ -415,8 +410,6 @@ $$A \in Q,$$
 $$(\forall M)((M \subset Q) \Rightarrow ((\bigcup_{X \in M} X) \in Q)),$$
 
 $$(\forall X)(\forall Y)((X \in Q \text{ and } Y \in Q) \Rightarrow ((X \cap Y) \in Q)).$$
-
-270
 
 Thus the terms $P\{A,V\}$ and $Q\{A,W\}$ satisfy conditions (1) and (2) above, and it is easily seen that they also satisfy condition (3). The species of structures $\Sigma$ and $\Theta$ are therefore equivalent, and we therefore consider every structure of species $\Theta$ as a topology, namely that which corresponds to it under the procedure of deduction $Q\{A,W\}$. \*
 

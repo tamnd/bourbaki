@@ -8,28 +8,29 @@ section_title: Extension of the ring of scalars
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 277-284, 398-399
 pdf_pages: 0301-0308, 0422-0423
 extraction: ocr
 subsections:
     - "no": 1
       title: EXTENSION OF THE RING OF SCALARS OF A MODULE
-      page: 0
+      page: 277
       pdf_page: 301
     - "no": 2
       title: RELATIONS BETWEEN RESTRICTION AND EXTENSION OF THE RING OF SCALARS
-      page: 0
+      page: 280
       pdf_page: 304
     - "no": 3
       title: EXTENSION OF THE RING OF OPERATORS OF A HOMOMORPHISM MODULE
-      page: 0
+      page: 282
       pdf_page: 306
     - "no": 4
       title: DUAL OF A MODULE OBTAINED BY EXTENSION OF SCALARS
-      page: 0
+      page: 283
       pdf_page: 307
     - "no": 5
       title: A CRITERION FOR FINITENESS
-      page: 0
+      page: 284
       pdf_page: 308
 statements: 13
 exercises: 7

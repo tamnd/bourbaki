@@ -7,24 +7,25 @@ section: 2
 section_title: THE MEAN VALUE THEOREM
 lang: en
 source: fvr-i-vii
+book_pages: 12-19, 37-39
 pdf_pages: 0027-0034, 0052-0054
 extraction: ocr
 subsections:
     - "no": 1
       title: ROLLE'S THEOREM
-      page: 0
+      page: 12
       pdf_page: 27
     - "no": 2
       title: THE MEAN VALUE THEOREM FOR REAL-VALUED FUNCTIONS
-      page: 0
+      page: 13
       pdf_page: 28
     - "no": 3
       title: THE MEAN VALUE THEOREM FOR VECTOR FUNCTIONS
-      page: 0
+      page: 15
       pdf_page: 30
     - "no": 4
       title: CONTINUITY OF DERIVATIVES
-      page: 0
+      page: 18
       pdf_page: 33
 statements: 21
 exercises: 14

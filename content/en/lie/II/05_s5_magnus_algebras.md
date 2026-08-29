@@ -7,28 +7,29 @@ section: 5
 section_title: Magnus algebras
 lang: en
 source: lie-i-iii
+book_pages: 149-155, 193-201
 pdf_pages: 0167-0173, 0211-0219
 extraction: ocr
 subsections:
     - "no": 1
       title: MAGNUS ALGEBRAS
-      page: 0
+      page: 149
       pdf_page: 167
     - "no": 2
       title: MAGNUS GROUP
-      page: 0
+      page: 150
       pdf_page: 168
     - "no": 3
       title: MAGNUS GROUP AND FREE GROUP
-      page: 0
+      page: 151
       pdf_page: 169
     - "no": 4
       title: LOWER CENTRAL SERIES OF A FREE GROUP
-      page: 0
+      page: 152
       pdf_page: 170
     - "no": 5
       title: '*p*-Filtration of Free Groups'
-      page: 0
+      page: 154
       pdf_page: 172
 statements: 14
 exercises: 12

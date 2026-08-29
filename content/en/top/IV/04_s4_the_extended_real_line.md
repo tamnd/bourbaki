@@ -7,20 +7,21 @@ section: 4
 section_title: The extended real line
 lang: en
 source: top-i-iv
+book_pages: 342-347, 388-389
 pdf_pages: 0348-0353, 0394-0395
 extraction: ocr
 subsections:
     - "no": 1
       title: HOMEOMORPHISMS OF OPEN INTERVALS OF $\mathbf{R}$
-      page: 0
+      page: 342
       pdf_page: 348
     - "no": 2
       title: THE EXTENDED LINE
-      page: 0
+      page: 343
       pdf_page: 349
     - "no": 3
       title: ADDITION AND MULTIPLICATION IN $\overline{\mathbf{R}}$
-      page: 0
+      page: 345
       pdf_page: 351
 statements: 11
 exercises: 7

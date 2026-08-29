@@ -7,48 +7,49 @@ section: 6
 section_title: Real and complex Lie groups
 lang: en
 source: lie-i-iii
+book_pages: 304-326, 383-391
 pdf_pages: 0322-0344, 0401-0409
 extraction: ocr
 subsections:
     - "no": 1
       title: PASSAGE FROM LIE ALGEBRA MORPHISMS TO LIE GROUP MORPHISMS
-      page: 0
+      page: 304
       pdf_page: 322
     - "no": 2
       title: INTEGRAL SUBGROUPS
-      page: 0
+      page: 306
       pdf_page: 324
     - "no": 3
       title: PASSAGE FROM LIE ALGEBRAS TO LIE GROUPS
-      page: 0
+      page: 310
       pdf_page: 328
     - "no": 4
       title: EXPONENTIAL MAPPING
-      page: 0
+      page: 311
       pdf_page: 329
     - "no": 5
       title: APPLICATION TO LINEAR REPRESENTATIONS
-      page: 0
+      page: 315
       pdf_page: 333
     - "no": 6
       title: NORMAL INTEGRAL SUBGROUPS
-      page: 0
+      page: 316
       pdf_page: 334
     - "no": 7
       title: PRIMITIVES OF DIFFERENTIAL FORMS WITH VALUES IN A LIE ALGEBRA
-      page: 0
+      page: 318
       pdf_page: 336
     - "no": 8
       title: PASSAGE FROM LAWS OF INFINITESIMAL OPERATION TO LAWS OF OPERATION
-      page: 0
+      page: 318
       pdf_page: 336
     - "no": 9
       title: EXPONENTIAL MAPPING IN THE LINEAR GROUP
-      page: 0
+      page: 320
       pdf_page: 338
     - "no": 10
       title: COMPLEXIFICATION OF A FINITE-DIMENSIONAL REAL LIE GROUP
-      page: 0
+      page: 322
       pdf_page: 340
 statements: 71
 exercises: 30

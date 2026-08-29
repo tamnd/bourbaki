@@ -8,44 +8,45 @@ section_title: Tensor products
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 243-266, 395-396
 pdf_pages: 0267-0290, 0419-0420
 extraction: ocr
 subsections:
     - "no": 1
       title: TENSOR PRODUCT OF TWO MODULES
-      page: 0
+      page: 243
       pdf_page: 267
     - "no": 2
       title: TENSOR PRODUCT OF TWO LINEAR MAPPINGS
-      page: 0
+      page: 245
       pdf_page: 269
     - "no": 3
       title: CHANGE OF RING
-      page: 0
+      page: 246
       pdf_page: 270
     - "no": 4
       title: OPERATORS ON A TENSOR PRODUCT; TENSOR PRODUCTS AS MULTIMODULES
-      page: 0
+      page: 247
       pdf_page: 271
     - "no": 5
       title: TENSOR PRODUCT OF TWO MODULES OVER A COMMUTATIVE RING
-      page: 0
+      page: 249
       pdf_page: 273
     - "no": 6
       title: PROPERTIES OF $E \otimes_A F$ RELATIVE TO EXACT SEQUENCES
-      page: 0
+      page: 251
       pdf_page: 275
     - "no": 7
       title: TENSOR PRODUCTS OF PRODUCTS AND DIRECT SUMS
-      page: 0
+      page: 254
       pdf_page: 278
     - "no": 8
       title: ASSOCIATIVITY OF THE TENSOR PRODUCT
-      page: 0
+      page: 258
       pdf_page: 282
     - "no": 9
       title: TENSOR PRODUCT OF FAMILIES OF MULTIMODULES
-      page: 0
+      page: 259
       pdf_page: 283
 statements: 30
 exercises: 4

@@ -8,6 +8,7 @@ section_title: INTRODUCTION
 kind: introduction
 lang: en
 source: fvr-i-vii
+book_pages: 1-2
 pdf_pages: 0016-0017
 extraction: ocr
 statements: 0

@@ -7,20 +7,21 @@ section: 2
 section_title: Group of tangent vectors to a Lie group
 lang: en
 source: lie-i-iii
+book_pages: 233-238
 pdf_pages: 0251-0256
 extraction: ocr
 subsections:
     - "no": 1
       title: TANGENT LAWS OF COMPOSITION
-      page: 0
+      page: 233
       pdf_page: 251
     - "no": 2
       title: GROUP OF TANGENT VECTORS TO A LIE GROUP
-      page: 0
+      page: 235
       pdf_page: 253
     - "no": 3
       title: CASE OF GROUP GERMS
-      page: 0
+      page: 237
       pdf_page: 255
 statements: 10
 exercises: 0

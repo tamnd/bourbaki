@@ -8,44 +8,45 @@ section_title: Exterior algebras
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 507-522, 633-637
 pdf_pages: 0531-0546, 0657-0661
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE EXTERIOR ALGEBRA OF A MODULE
-      page: 0
+      page: 507
       pdf_page: 531
     - "no": 2
       title: Functorial properties of the exterior algebra
-      page: 0
+      page: 508
       pdf_page: 532
     - "no": 3
       title: ANTICOMMUTATIVITY OF THE EXTERIOR ALGEBRA
-      page: 0
+      page: 510
       pdf_page: 534
     - "no": 4
       title: '*n*-th EXTERIOR POWER OF A MODULE AND ALTERNATING MULTILINEAR MAPPINGS'
-      page: 0
+      page: 511
       pdf_page: 535
     - "no": 5
       title: EXTENSION OF THE RING OF SCALARS
-      page: 0
+      page: 513
       pdf_page: 537
     - "no": 6
       title: DIRECT LIMITS OF EXTERIOR ALGEBRAS
-      page: 0
+      page: 514
       pdf_page: 538
     - "no": 7
       title: EXTERIOR ALGEBRA OF A DIRECT SUM. EXTERIOR ALGEBRA OF A GRADED MODULE
-      page: 0
+      page: 515
       pdf_page: 539
     - "no": 8
       title: EXTERIOR ALGEBRA OF A FREE MODULE
-      page: 0
+      page: 517
       pdf_page: 541
     - "no": 9
       title: CRITERIA FOR LINEAR INDEPENDENCE
-      page: 0
+      page: 519
       pdf_page: 543
 statements: 31
 exercises: 15

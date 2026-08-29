@@ -7,48 +7,49 @@ section: 2
 section_title: Enveloping algebra of a Lie algebra
 lang: en
 source: lie-i-iii
+book_pages: 12-25, 83-85
 pdf_pages: 0030-0043, 0101-0103
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE ENVELOPING ALGEBRA
-      page: 0
+      page: 12
       pdf_page: 30
     - "no": 2
       title: ENVELOPING ALGEBRA OF A PRODUCT OF LIE ALGEBRAS
-      page: 0
+      page: 13
       pdf_page: 31
     - "no": 3
       title: ENVELOPING ALGEBRA OF A LIE SUBALGEBRA
-      page: 0
+      page: 14
       pdf_page: 32
     - "no": 4
       title: ENVELOPING ALGEBRA OF THE OPPOSITE LIE ALGEBRA
-      page: 0
+      page: 15
       pdf_page: 33
     - "no": 5
       title: SYMMETRIC ALGEBRA OF A MODULE
-      page: 0
+      page: 16
       pdf_page: 34
     - "no": 6
       title: FILTRATION OF THE ENVELOPING ALGEBRA
-      page: 0
+      page: 17
       pdf_page: 35
     - "no": 7
       title: THE POINCARÉ–BIRKHOFF–WITT THEOREM
-      page: 0
+      page: 18
       pdf_page: 36
     - "no": 8
       title: EXTENSION OF DERIVATIONS
-      page: 0
+      page: 23
       pdf_page: 41
     - "no": 9
       title: EXTENSION OF THE BASE RING
-      page: 0
+      page: 25
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: 7c5e0173708758daaf1de76c3fa9fffdb5ef6051a22ee9beb926543178eb668e
+content_sha256: 70815c8f0c59caa459ae983d4d4afb3ca7aaff673e5632c3fd9b6438da4a9e5f
 ---
 
 ## § 2. ENVELOPING ALGEBRA OF A LIE ALGEBRA

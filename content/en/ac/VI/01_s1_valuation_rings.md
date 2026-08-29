@@ -29,7 +29,7 @@ subsections:
       pdf_page: 397
 statements: 15
 exercises: 7
-content_sha256: ffbd3bf848152eb48edda8531310619d88fb3f197008f7a39636618c6a66b3db
+content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
 ---
 
 ## 1. VALUATION RINGS

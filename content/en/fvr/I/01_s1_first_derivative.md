@@ -7,36 +7,37 @@ section: 1
 section_title: FIRST DERIVATIVE
 lang: en
 source: fvr-i-vii
+book_pages: 3-12, 35-37
 pdf_pages: 0018-0027, 0050-0052
 extraction: ocr
 subsections:
     - "no": 1
       title: DERIVATIVE OF A VECTOR FUNCTION
-      page: 0
+      page: 3
       pdf_page: 18
     - "no": 2
       title: LINEARITY OF DIFFERENTIATION
-      page: 0
+      page: 5
       pdf_page: 20
     - "no": 3
       title: DERIVATIVE OF A PRODUCT
-      page: 0
+      page: 6
       pdf_page: 21
     - "no": 4
       title: DERIVATIVE OF THE INVERSE OF A FUNCTION
-      page: 0
+      page: 8
       pdf_page: 23
     - "no": 5
       title: DERIVATIVE OF A COMPOSITE FUNCTION
-      page: 0
+      page: 9
       pdf_page: 24
     - "no": 6
       title: DERIVATIVE OF AN INVERSE FUNCTION
-      page: 0
+      page: 9
       pdf_page: 24
     - "no": 7
       title: DERIVATIVES OF REAL-VALUED FUNCTIONS
-      page: 0
+      page: 10
       pdf_page: 25
 statements: 31
 exercises: 9

@@ -8,48 +8,49 @@ section_title: Vector spaces
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 292-316, 400-409
 pdf_pages: 0316-0340, 0424-0433
 extraction: ocr
 subsections:
     - "no": 1
       title: BASES OF A VECTOR SPACE
-      page: 0
+      page: 292
       pdf_page: 316
     - "no": 2
       title: DIMENSION OF VECTOR SPACES
-      page: 0
+      page: 293
       pdf_page: 317
     - "no": 3
       title: DIMENSION AND CODIMENSION OF A SUBSPACE OF A VECTOR SPACE
-      page: 0
+      page: 295
       pdf_page: 319
     - "no": 4
       title: RANK OF A LINEAR MAPPING
-      page: 0
+      page: 298
       pdf_page: 322
     - "no": 5
       title: DUAL OF A VECTOR SPACE
-      page: 0
+      page: 299
       pdf_page: 323
     - "no": 6
       title: LINEAR EQUATIONS IN VECTOR SPACES
-      page: 0
+      page: 304
       pdf_page: 328
     - "no": 7
       title: TENSOR PRODUCTS OF VECTOR SPACES
-      page: 0
+      page: 306
       pdf_page: 330
     - "no": 8
       title: RANK OF AN ELEMENT OF A TENSOR PRODUCT
-      page: 0
+      page: 309
       pdf_page: 333
     - "no": 9
       title: EXTENSION OF SCALARS FOR A VECTOR SPACE
-      page: 0
+      page: 310
       pdf_page: 334
     - "no": 10
       title: MODULES OVER INTEGRAL DOMAINS
-      page: 0
+      page: 312
       pdf_page: 336
 statements: 87
 exercises: 39

@@ -7,20 +7,21 @@ section: 10
 section_title: The automorphism group of a Lie group
 lang: en
 source: lie-i-iii
+book_pages: 359-368, 409-463
 pdf_pages: 0377-0386, 0427-0481
 extraction: ocr
 subsections:
     - "no": 1
       title: INFINITESIMAL AUTOMORPHISMS
-      page: 0
+      page: 359
       pdf_page: 377
     - "no": 2
       title: THE AUTOMORPHISM GROUP OF A LIE GROUP (REAL OR COMPLEX CASE)
-      page: 0
+      page: 362
       pdf_page: 380
     - "no": 3
       title: THE AUTOMORPHISM GROUP OF A LIE GROUP (ULTRAMETRIC CASE)
-      page: 0
+      page: 367
       pdf_page: 385
 statements: 13
 exercises: 3

@@ -7,48 +7,49 @@ section: 6
 section_title: Semi-simple Lie algebras
 lang: en
 source: lie-i-iii
+book_pages: 50-68, 102-109
 pdf_pages: 0068-0086, 0120-0127
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF SEMI-SIMPLE LIE ALGEBRAS
-      page: 0
+      page: 50
       pdf_page: 68
     - "no": 2
       title: SEMI-SIMPLICITY OF REPRESENTATIONS
-      page: 0
+      page: 51
       pdf_page: 69
     - "no": 3
       title: SEMI-SIMPLE ELEMENTS AND NILPOTENT ELEMENTS IN SEMI-SIMPLE LIE ALGEBRAS
-      page: 0
+      page: 54
       pdf_page: 72
     - "no": 4
       title: REDUCTIVE LIE ALGEBRAS
-      page: 0
+      page: 56
       pdf_page: 74
     - "no": 5
       title: 'APPLICATION: A CRITERION FOR SEMI-SIMPLICITY OF REPRESENTATIONS'
-      page: 0
+      page: 58
       pdf_page: 76
     - "no": 6
       title: SUBALGEBRAS REDUCTIVE IN A LIE ALGEBRA
-      page: 0
+      page: 59
       pdf_page: 77
     - "no": 7
       title: EXAMPLES OF SEMI-SIMPLE LIE ALGEBRAS
-      page: 0
+      page: 60
       pdf_page: 78
     - "no": 8
       title: THE LEVI-MALCEV THEOREM
-      page: 0
+      page: 62
       pdf_page: 80
     - "no": 9
       title: THE INVARIANTS THEOREM
-      page: 0
+      page: 66
       pdf_page: 84
     - "no": 10
       title: CHANGE OF BASE FIELD
-      page: 0
+      page: 68
       pdf_page: 86
 statements: 50
 exercises: 27

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 311
 statements: 31
 exercises: 10
-content_sha256: 0242e85ddd5aef10eee50cb9154a8440bef872dc1313f8c42d3c58a661af6a30
+content_sha256: 3f6d494ba74f75788e329059160e46cefbfc7505d1880e3f812a679f7de36f35
 ---
 
 ## 3. SPECIAL FUNCTION SPACES

@@ -7,36 +7,37 @@ section: 1
 section_title: GENERALIZED TAYLOR EXPANSIONS
 lang: en
 source: fvr-i-vii
+book_pages: 269-283, 291-292
 pdf_pages: 0284-0298, 0306-0307
 extraction: ocr
 subsections:
     - "no": 1
       title: COMPOSITION OPERATORS ON AN ALGEBRA OF POLYNOMIALS
-      page: 0
+      page: 269
       pdf_page: 284
     - "no": 2
       title: APPELL POLYNOMIALS ATTACHED TO A COMPOSITION OPERATOR
-      page: 0
+      page: 272
       pdf_page: 287
     - "no": 3
       title: GENERATING SERIES FOR THE APPELL POLYNOMIALS
-      page: 0
+      page: 274
       pdf_page: 289
     - "no": 4
       title: BERNOULLI POLYNOMIALS
-      page: 0
+      page: 275
       pdf_page: 290
     - "no": 5
       title: COMPOSITION OPERATORS ON FUNCTIONS OF A REAL VARIABLE
-      page: 0
+      page: 277
       pdf_page: 292
     - "no": 6
       title: INDICATRIX OF A COMPOSITION OPERATOR
-      page: 0
+      page: 278
       pdf_page: 293
     - "no": 7
       title: THE EULER-MACLAURIN SUMMATION FORMULA
-      page: 0
+      page: 282
       pdf_page: 297
 statements: 20
 exercises: 3

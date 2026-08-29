@@ -8,36 +8,37 @@ section_title: Symmetric algebras
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 497-506, 632-633
 pdf_pages: 0521-0530, 0656-0657
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF THE SYMMETRIC ALGEBRA OF A MODULE
-      page: 0
+      page: 497
       pdf_page: 521
     - "no": 2
       title: FUNCTORIAL PROPERTIES OF THE SYMMETRIC ALGEBRA
-      page: 0
+      page: 498
       pdf_page: 522
     - "no": 3
       title: n-th symmetric power of a module and symmetric multilinear mappings
-      page: 0
+      page: 500
       pdf_page: 524
     - "no": 4
       title: EXTENSION OF THE RING OF SCALARS
-      page: 0
+      page: 502
       pdf_page: 526
     - "no": 5
       title: DIRECT LIMIT OF SYMMETRIC ALGEBRAS
-      page: 0
+      page: 503
       pdf_page: 527
     - "no": 6
       title: SYMMETRIC ALGEBRA OF A DIRECT SUM. SYMMETRIC ALGEBRA OF A FREE MODULE. SYMMETRIC ALGEBRA OF A GRADED MODULE
-      page: 0
+      page: 503
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: 84bef3ff3daeb266621d68ad4e83075e4cf4fb30c3042733551a762aafb41629
+content_sha256: 7f4b0decff4799e889dd38358965a5bc9fb77813b04c8c87de2e5c514aa78d3c
 ---
 
 ## § 6. SYMMETRIC ALGEBRAS
@@ -65,7 +66,9 @@ $$ f(x)f(y) = f(y)f(x) \text{ for all } x, y \text{ in } M. $$
 
 In other words, $(S(M), \phi')$ is a solution of the *universal mapping problem* (*Set Theory*, IV, § 3, no. 1), where $\Sigma$ is the species of A-algebra structure, the $\alpha$-mappings being the linear mappings of the A-module M to an A-algebra satisfying (1).
 
-The uniqueness of g follows from the fact that $\phi'(M) = M$ generates S(M). To prove the existence of g, note that by virtue of § 5, No. 1, Proposition 1 there exists an A-algebra homomorphism $g_1 : T(M) \to E$ such that $f = g_1 \circ \phi;$ all that needs to be proved is that $g_1$ is zero on the ideal $\mathfrak{J}'$, for then, if $p : T(M) \to S(M) = T(M)/\mathfrak{J}'$ is the canonical homomorphism, we can write $g_1 = g \circ p$, where $g : S(M) \to E$ is an algebra homomorphism, and the conclusion will follow from the fact that $p \circ \phi = \phi'$. Now the kernel of $g_1$ is a two-sided ideal which, by virtue of (1) and the relation $g_1 \circ \phi = f$, contains the elements $x \otimes y - y \otimes x$ for $x, y$ in $M$. This completes the proof.
+The uniqueness of g follows from the fact that $\phi'(M) = M$ generates S(M). To prove the existence of g, note that by virtue of § 5, No. 1, Proposition 1 there exists an A-algebra homomorphism $g_1 : T(M) \to E$ such that $f = g_1 \circ \phi;$
+
+all that needs to be proved is that $g_1$ is zero on the ideal $\mathfrak{J}'$, for then, if $p : T(M) \to S(M) = T(M)/\mathfrak{J}'$ is the canonical homomorphism, we can write $g_1 = g \circ p$, where $g : S(M) \to E$ is an algebra homomorphism, and the conclusion will follow from the fact that $p \circ \phi = \phi'$. Now the kernel of $g_1$ is a two-sided ideal which, by virtue of (1) and the relation $g_1 \circ \phi = f$, contains the elements $x \otimes y - y \otimes x$ for $x, y$ in $M$. This completes the proof.
 
 #### Remark {#alg-iii-s6-n1-rem-1 .statement}
 

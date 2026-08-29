@@ -8,40 +8,41 @@ section_title: Modules of linear mappings. Duality
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 227-243, 386-395
 pdf_pages: 0251-0267, 0410-0419
 extraction: ocr
 subsections:
     - "no": 1
       title: PROPERTIES OF $\mathrm{Hom}_A(E, F)$ RELATIVE TO EXACT SEQUENCES
-      page: 0
+      page: 227
       pdf_page: 251
     - "no": 2
       title: PROJECTIVE MODULES
-      page: 0
+      page: 231
       pdf_page: 255
     - "no": 3
       title: LINEAR FORMS; DUAL OF A MODULE
-      page: 0
+      page: 232
       pdf_page: 256
     - "no": 4
       title: ORTHOGONALITY
-      page: 0
+      page: 234
       pdf_page: 258
     - "no": 5
       title: TRANSPOSE OF A LINEAR MAPPING
-      page: 0
+      page: 234
       pdf_page: 258
     - "no": 6
       title: DUAL OF A QUOTIENT MODULE. DUAL OF A DIRECT SUM. DUAL BASES
-      page: 0
+      page: 236
       pdf_page: 260
     - "no": 7
       title: BIDUAL
-      page: 0
+      page: 239
       pdf_page: 263
     - "no": 8
       title: LINEAR EQUATIONS
-      page: 0
+      page: 240
       pdf_page: 264
 statements: 42
 exercises: 3

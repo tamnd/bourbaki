@@ -7,32 +7,33 @@ section: 1
 section_title: PRIMITIVES AND INTEGRALS
 lang: en
 source: fvr-i-vii
+book_pages: 51-62, 79-84
 pdf_pages: 0066-0077, 0094-0099
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF PRIMITIVES
-      page: 0
+      page: 51
       pdf_page: 66
     - "no": 2
       title: EXISTENCE OF PRIMITIVES
-      page: 0
+      page: 52
       pdf_page: 67
     - "no": 3
       title: REGULATED FUNCTIONS
-      page: 0
+      page: 53
       pdf_page: 68
     - "no": 4
       title: INTEGRALS
-      page: 0
+      page: 56
       pdf_page: 71
     - "no": 5
       title: PROPERTIES OF INTEGRALS
-      page: 0
+      page: 59
       pdf_page: 74
     - "no": 6
       title: INTEGRAL FORMULA FOR THE REMAINDER IN TAYLOR'S FORMULA; PRIMITIVES OF HIGHER ORDER
-      page: 0
+      page: 62
       pdf_page: 77
 statements: 28
 exercises: 10

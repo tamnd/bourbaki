@@ -7,32 +7,33 @@ section: 4
 section_title: Groups operating properly on a topological space; compact ness in topological groups and spaces with operators
 lang: en
 source: top-i-iv
+book_pages: 250-261, 308-314
 pdf_pages: 0256-0267, 0314-0320
 extraction: ocr
 subsections:
     - "no": 1
       title: GROUPS OPERATING PROPERLY ON A TOPOLOGICAL SPACE
-      page: 0
+      page: 250
       pdf_page: 256
     - "no": 2
       title: PROPERTIES OF GROUPS ACTING PROPERLY
-      page: 0
+      page: 253
       pdf_page: 259
     - "no": 3
       title: GROUPS OPERATING FREELY ON A TOPOLOGICAL SPACE
-      page: 0
+      page: 254
       pdf_page: 260
     - "no": 4
       title: LOCALLY COMPACT GROUPS OPERATING PROPERLY
-      page: 0
+      page: 255
       pdf_page: 261
     - "no": 5
       title: GROUPS OPERATING CONTINUOUSLY ON A LOCALLY COMPACT SPACE
-      page: 0
+      page: 257
       pdf_page: 263
     - "no": 6
       title: LOCALLY COMPACT HOMOGENEOUS SPACES
-      page: 0
+      page: 259
       pdf_page: 265
 statements: 33
 exercises: 23

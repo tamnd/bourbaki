@@ -7,16 +7,17 @@ section: 8
 section_title: Lie groups over R or Qp
 lang: en
 source: lie-i-iii
+book_pages: 337-342, 395-397
 pdf_pages: 0355-0360, 0413-0415
 extraction: ocr
 subsections:
     - "no": 1
       title: CONTINUOUS MORPHISMS
-      page: 0
+      page: 337
       pdf_page: 355
     - "no": 2
       title: CLOSED SUBGROUPS
-      page: 0
+      page: 340
       pdf_page: 358
 statements: 9
 exercises: 7

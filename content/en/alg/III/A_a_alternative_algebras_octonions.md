@@ -9,24 +9,25 @@ appendix: true
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 611-617, 654
 pdf_pages: 0635-0641, 0678-0678
 extraction: ocr
 subsections:
     - "no": 1
       title: ALTERNATIVE ALGEBRAS
-      page: 0
+      page: 611
       pdf_page: 635
     - "no": 2
       title: ALTERNATIVE CAYLEY ALGEBRAS
-      page: 0
+      page: 613
       pdf_page: 637
     - "no": 3
       title: OCTONIONS
-      page: 0
+      page: 615
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: 281581bb5201e4e85a70581608d54b3807414edb6034cc7863fc7fe4de4c8db0
+content_sha256: 0651f3bed82b7df7a8e6ef9f2573f410b9f48cf8e11708f9e289377e24833536
 ---
 
 ## APPENDIX
@@ -158,7 +159,9 @@ Using the fact that $\overline{y}y$ and $\overline{x} + x$ are in Ae, examining 
 $$
 (y\overline{x} + yx)\overline{x}' = y(\overline{x}'\overline{x}) + (y\overline{x}')x.
 $$
-Now the left hand side is equal to $(yT(x))\overline{x}' = y(\overline{x}'T(x)) = y(\overline{x}'x + \overline{x}'\overline{x});$ comparing with the right hand side, we obtain $(y \bar{x}') x = y (\bar{x}' x)$, which proves the associativity of E, since $x, y$ and $\bar{x}'$ are arbitrary elements of E.
+Now the left hand side is equal to $(yT(x))\overline{x}' = y(\overline{x}'T(x)) = y(\overline{x}'x + \overline{x}'\overline{x});$
+
+comparing with the right hand side, we obtain $(y \bar{x}') x = y (\bar{x}' x)$, which proves the associativity of E, since $x, y$ and $\bar{x}'$ are arbitrary elements of E.
 
 ### 3. OCTONIONS
 

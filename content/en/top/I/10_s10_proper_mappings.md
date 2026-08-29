@@ -7,24 +7,25 @@ section: 10
 section_title: Proper mappings
 lang: en
 source: top-i-iv
+book_pages: 97-107, 150-155
 pdf_pages: 0103-0113, 0156-0161
 extraction: ocr
 subsections:
     - "no": 1
       title: PROPER MAPPINGS
-      page: 0
+      page: 97
       pdf_page: 103
     - "no": 2
       title: CHARACTERIZATION OF PROPER MAPPINGS BY COMPACTNESS PROPERTIES
-      page: 0
+      page: 101
       pdf_page: 107
     - "no": 3
       title: PROPER MAPPINGS INTO LOCALLY COMPACT SPACES
-      page: 0
+      page: 104
       pdf_page: 110
     - "no": 4
       title: QUOTIENT SPACES OF COMPACT SPACES AND LOCALLY COMPACT SPACES
-      page: 0
+      page: 105
       pdf_page: 111
 statements: 30
 exercises: 20

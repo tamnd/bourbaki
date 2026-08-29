@@ -8,56 +8,57 @@ section_title: Rings
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 96-114, 171-174
 pdf_pages: 0120-0138, 0195-0198
 extraction: ocr
 subsections:
     - "no": 1
       title: RINGS
-      page: 0
+      page: 96
       pdf_page: 120
     - "no": 2
       title: CONSEQUENCES OF DISTRIBUTIVITY
-      page: 0
+      page: 98
       pdf_page: 122
     - "no": 3
       title: EXAMPLES OF RINGS
-      page: 0
+      page: 101
       pdf_page: 125
     - "no": 4
       title: RING HOMOMORPHISMS
-      page: 0
+      page: 102
       pdf_page: 126
     - "no": 5
       title: SUBRINGS
-      page: 0
+      page: 103
       pdf_page: 127
     - "no": 6
       title: IDEALS
-      page: 0
+      page: 103
       pdf_page: 127
     - "no": 7
       title: QUOTIENT RINGS
-      page: 0
+      page: 105
       pdf_page: 129
     - "no": 8
       title: SUBRINGS AND IDEALS IN A QUOTIENT RING
-      page: 0
+      page: 106
       pdf_page: 130
     - "no": 9
       title: MULTIPLICATION OF IDEALS
-      page: 0
+      page: 107
       pdf_page: 131
     - "no": 10
       title: PRODUCT OF RINGS
-      page: 0
+      page: 108
       pdf_page: 132
     - "no": 11
       title: DIRECT DECOMPOSITION OF A RING
-      page: 0
+      page: 110
       pdf_page: 134
     - "no": 12
       title: RINGS OF FRACTIONS
-      page: 0
+      page: 112
       pdf_page: 136
 statements: 31
 exercises: 16

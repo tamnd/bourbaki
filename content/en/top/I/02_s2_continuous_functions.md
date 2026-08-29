@@ -7,28 +7,29 @@ section: 2
 section_title: Continuous functions
 lang: en
 source: top-i-iv
+book_pages: 25-35, 119-122
 pdf_pages: 0031-0041, 0125-0128
 extraction: ocr
 subsections:
     - "no": 1
       title: CONTINUOUS FUNCTIONS
-      page: 0
+      page: 25
       pdf_page: 31
     - "no": 2
       title: COMPARISON OF TOPOLOGIES
-      page: 0
+      page: 28
       pdf_page: 34
     - "no": 3
       title: INITIAL TOPOLOGIES
-      page: 0
+      page: 30
       pdf_page: 36
     - "no": 4
       title: FINAL TOPOLOGIES
-      page: 0
+      page: 32
       pdf_page: 38
     - "no": 5
       title: PASTING TOGETHER OF TOPOLOGICAL SPACES
-      page: 0
+      page: 34
       pdf_page: 40
 statements: 26
 exercises: 10

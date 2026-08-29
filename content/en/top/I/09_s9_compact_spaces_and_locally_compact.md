@@ -7,48 +7,49 @@ section: 9
 section_title: Compact spaces and locally compact spaces
 lang: en
 source: top-i-iv
+book_pages: 83-97, 141-150
 pdf_pages: 0089-0103, 0147-0156
 extraction: ocr
 subsections:
     - "no": 1
       title: QUASI-COMPACT SPACES AND COMPACT SPACES
-      page: 0
+      page: 83
       pdf_page: 89
     - "no": 2
       title: REGULARITY OF A COMPACT SPACE
-      page: 0
+      page: 85
       pdf_page: 91
     - "no": 3
       title: QUASI-COMPACTS SETS; COMPACT SETS; RELATIVELY COMPACT SETS
-      page: 0
+      page: 85
       pdf_page: 91
     - "no": 4
       title: IMAGE OF A COMPACT SPACE UNDER A CONTINUOUS MAPPING
-      page: 0
+      page: 87
       pdf_page: 93
     - "no": 5
       title: PRODUCT OF COMPACT SPACES
-      page: 0
+      page: 88
       pdf_page: 94
     - "no": 6
       title: INVERSE LIMITS OF COMPACT SPACES
-      page: 0
+      page: 89
       pdf_page: 95
     - "no": 7
       title: LOCALLY COMPACT SPACES
-      page: 0
+      page: 90
       pdf_page: 96
     - "no": 8
       title: EMBEDDING OF A LOCALLY COMPACT SPACE IN A COMPACT SPACE
-      page: 0
+      page: 92
       pdf_page: 98
     - "no": 9
       title: LOCALLY COMPACT $\sigma$-COMPACT SPACES
-      page: 0
+      page: 93
       pdf_page: 99
     - "no": 10
       title: PARACOMPACT SPACES
-      page: 0
+      page: 94
       pdf_page: 100
 statements: 50
 exercises: 4

@@ -7,20 +7,21 @@ section: 3
 section_title: The field of real numbers
 lang: en
 source: top-i-iv
+book_pages: 339-342, 387-388
 pdf_pages: 0345-0348, 0393-0394
 extraction: ocr
 subsections:
     - "no": 1
       title: MULTIPLICATION IN $\mathbf{R}$
-      page: 0
+      page: 339
       pdf_page: 345
     - "no": 2
       title: THE MULTIPLICATIVE GROUP $\mathbf{R}^*$
-      page: 0
+      page: 340
       pdf_page: 346
     - "no": 3
       title: '*n*TH ROOTS'
-      page: 0
+      page: 341
       pdf_page: 347
 statements: 2
 exercises: 3

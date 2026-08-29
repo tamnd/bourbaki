@@ -7,28 +7,29 @@ section: 2
 section_title: ASYMPTOTIC EXPANSIONS
 lang: en
 source: fvr-i-vii
+book_pages: 220-227
 pdf_pages: 0235-0242
 extraction: ocr
 subsections:
     - "no": 1
       title: SCALES OF COMPARISON
-      page: 0
+      page: 220
       pdf_page: 235
     - "no": 2
       title: PRINCIPAL PARTS AND ASYMPTOTIC EXPANSIONS
-      page: 0
+      page: 221
       pdf_page: 236
     - "no": 3
       title: SUMS AND PRODUCTS OF ASYMPTOTIC EXPANSIONS
-      page: 0
+      page: 223
       pdf_page: 238
     - "no": 4
       title: COMPOSITION OF ASYMPTOTIC EXPANSIONS
-      page: 0
+      page: 224
       pdf_page: 239
     - "no": 5
       title: ASYMPTOTIC EXPANSIONS WITH VARIABLE COEFFICIENTS
-      page: 0
+      page: 226
       pdf_page: 241
 statements: 12
 exercises: 0

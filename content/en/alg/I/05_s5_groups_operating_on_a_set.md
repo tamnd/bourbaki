@@ -8,36 +8,37 @@ section_title: Groups operating on a set
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 52-65, 140-147
 pdf_pages: 0076-0089, 0164-0171
 extraction: ocr
 subsections:
     - "no": 1
       title: MONOID OPERATING ON A SET
-      page: 0
+      page: 52
       pdf_page: 76
     - "no": 2
       title: STABILIZER, FIXER
-      page: 0
+      page: 54
       pdf_page: 78
     - "no": 3
       title: INNER AUTOMORPHISMS
-      page: 0
+      page: 55
       pdf_page: 79
     - "no": 4
       title: ORBITS
-      page: 0
+      page: 56
       pdf_page: 80
     - "no": 5
       title: HOMOGENEOUS SETS
-      page: 0
+      page: 58
       pdf_page: 82
     - "no": 6
       title: HOMOGENEOUS PRINCIPAL SETS
-      page: 0
+      page: 60
       pdf_page: 84
     - "no": 7
       title: PERMUTATION GROUPS OF A FINITE SET
-      page: 0
+      page: 61
       pdf_page: 85
 statements: 32
 exercises: 29

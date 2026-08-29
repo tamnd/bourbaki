@@ -7,24 +7,25 @@ section: 4
 section_title: Relations between uniform spaces and compact spaces
 lang: en
 source: top-i-iv
+book_pages: 198-205, 209-215
 pdf_pages: 0204-0211, 0215-0221
 extraction: ocr
 subsections:
     - "no": 1
       title: UNIFORMITY OF COMPACT SPACES
-      page: 0
+      page: 198
       pdf_page: 204
     - "no": 2
       title: COMPACTNESS OF UNIFORM SPACES
-      page: 0
+      page: 201
       pdf_page: 207
     - "no": 3
       title: COMPACT SETS IN A UNIFORM SPACE
-      page: 0
+      page: 203
       pdf_page: 209
     - "no": 4
       title: CONNECTED SETS IN A COMPACT SPACE
-      page: 0
+      page: 204
       pdf_page: 210
 statements: 24
 exercises: 23

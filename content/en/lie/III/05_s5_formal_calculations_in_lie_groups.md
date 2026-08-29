@@ -7,24 +7,25 @@ section: 5
 section_title: Formal calculations in Lie groups
 lang: en
 source: lie-i-iii
+book_pages: 297-304, 382-383
 pdf_pages: 0315-0322, 0400-0401
 extraction: ocr
 subsections:
     - "no": 1
       title: THE COEFFICIENTS $c_{\alpha \beta \gamma}$
-      page: 0
+      page: 297
       pdf_page: 315
     - "no": 2
       title: BRACKET IN THE LIE ALGEBRA
-      page: 0
+      page: 298
       pdf_page: 316
     - "no": 3
       title: POWERS
-      page: 0
+      page: 300
       pdf_page: 318
     - "no": 4
       title: EXPONENTIAL
-      page: 0
+      page: 303
       pdf_page: 321
 statements: 5
 exercises: 2

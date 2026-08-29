@@ -7,36 +7,37 @@ section: 1
 section_title: EXISTENCE THEOREMS
 lang: en
 source: fvr-i-vii
+book_pages: 163-177, 199-204
 pdf_pages: 0178-0192, 0214-0219
 extraction: ocr
 subsections:
     - "no": 1
       title: THE CONCEPT OF A DIFFERENTIAL EQUATION
-      page: 0
+      page: 163
       pdf_page: 178
     - "no": 2
       title: DIFFERENTIAL EQUATIONS ADMITTING SOLUTIONS THAT ARE PRIMITIVES OF REGULATED FUNCTIONS
-      page: 0
+      page: 164
       pdf_page: 179
     - "no": 3
       title: EXISTENCE OF APPROXIMATE SOLUTIONS
-      page: 0
+      page: 166
       pdf_page: 181
     - "no": 4
       title: COMPARISON OF APPROXIMATE SOLUTIONS
-      page: 0
+      page: 168
       pdf_page: 183
     - "no": 5
       title: EXISTENCE AND UNIQUENESS OF SOLUTIONS OF LIPSCHITZ AND LOCALLY LIPSCHITZ EQUATIONS
-      page: 0
+      page: 171
       pdf_page: 186
     - "no": 6
       title: CONTINUITY OF INTEGRALS AS FUNCTIONS OF A PARAMETER
-      page: 0
+      page: 174
       pdf_page: 189
     - "no": 7
       title: DEPENDENCE ON INITIAL CONDITIONS
-      page: 0
+      page: 176
       pdf_page: 191
 statements: 29
 exercises: 18

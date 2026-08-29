@@ -7,40 +7,41 @@ section: 9
 section_title: Commutators, centralizers and normalizers in a Lie group
 lang: en
 source: lie-i-iii
+book_pages: 342-359, 397-409
 pdf_pages: 0360-0377, 0415-0427
 extraction: ocr
 subsections:
     - "no": 1
       title: COMMUTATORS IN A TOPOLOGICAL GROUP
-      page: 0
+      page: 342
       pdf_page: 360
     - "no": 2
       title: COMMUTATORS IN A LIE GROUP
-      page: 0
+      page: 343
       pdf_page: 361
     - "no": 3
       title: CENTRALIZERS
-      page: 0
+      page: 346
       pdf_page: 364
     - "no": 4
       title: NORMALIZERS
-      page: 0
+      page: 347
       pdf_page: 365
     - "no": 5
       title: NILPOTENT LIE GROUPS
-      page: 0
+      page: 347
       pdf_page: 365
     - "no": 6
       title: SOLVABLE LIE GROUPS
-      page: 0
+      page: 352
       pdf_page: 370
     - "no": 7
       title: RADICAL OF A LIE GROUP
-      page: 0
+      page: 354
       pdf_page: 372
     - "no": 8
       title: SEMI-SIMPLE LIE GROUPS
-      page: 0
+      page: 355
       pdf_page: 373
 statements: 54
 exercises: 29

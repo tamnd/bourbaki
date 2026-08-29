@@ -8,6 +8,7 @@ section_title: Historical Note
 kind: historical
 lang: en
 source: fvr-i-vii
+book_pages: 329-338
 pdf_pages: 0344-0353
 extraction: ocr
 statements: 0

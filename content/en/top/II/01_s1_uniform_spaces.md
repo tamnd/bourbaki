@@ -7,16 +7,17 @@ section: 1
 section_title: Uniform spaces
 lang: en
 source: top-i-iv
+book_pages: 169-174, 206-207
 pdf_pages: 0175-0180, 0212-0213
 extraction: ocr
 subsections:
     - "no": 1
       title: DEFINITION OF A UNIFORM STRUCTURE
-      page: 0
+      page: 169
       pdf_page: 175
     - "no": 2
       title: TOPOLOGY OF A UNIFORM SPACE
-      page: 0
+      page: 171
       pdf_page: 177
 statements: 13
 exercises: 5

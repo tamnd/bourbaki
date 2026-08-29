@@ -7,40 +7,41 @@ section: 6
 section_title: Topological groups with operators; topological rings division rings and fields
 lang: en
 source: top-i-iv
+book_pages: 271-283, 315-324
 pdf_pages: 0277-0289, 0321-0330
 extraction: ocr
 subsections:
     - "no": 1
       title: TOPOLOGICAL GROUPS WITH OPERATORS
-      page: 0
+      page: 271
       pdf_page: 277
     - "no": 2
       title: TOPOLOGICAL DIRECT SUM OF STABLE SUBGROUPS
-      page: 0
+      page: 272
       pdf_page: 278
     - "no": 3
       title: TOPOLOGICAL RINGS
-      page: 0
+      page: 274
       pdf_page: 280
     - "no": 4
       title: SUBRINGS; IDEALS; QUOTIENT RINGS; PRODUCTS OF RINGS
-      page: 0
+      page: 276
       pdf_page: 282
     - "no": 5
       title: COMPLETION OF A TOPOLOGICAL RING
-      page: 0
+      page: 276
       pdf_page: 282
     - "no": 6
       title: TOPOLOGICAL MODULES
-      page: 0
+      page: 278
       pdf_page: 284
     - "no": 7
       title: TOPOLOGICAL DIVISION RINGS AND FIELDS
-      page: 0
+      page: 281
       pdf_page: 287
     - "no": 8
       title: UNIFORMITIES ON A TOPOLOGICAL DIVISION RING
-      page: 0
+      page: 282
       pdf_page: 288
 statements: 23
 exercises: 26

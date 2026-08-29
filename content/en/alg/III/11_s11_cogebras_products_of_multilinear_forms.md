@@ -8,60 +8,61 @@ section_title: Cogebras, products of multilinear forms, inner products and duali
 lang: en
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 574-611, 647-654
 pdf_pages: 0598-0635, 0671-0678
 extraction: ocr
 subsections:
     - "no": 1
       title: COGEBRAS
-      page: 0
+      page: 574
       pdf_page: 598
     - "no": 2
       title: COASSOCIATIVITY, COCOMMUTATIVITY, COUNIT
-      page: 0
+      page: 578
       pdf_page: 602
     - "no": 3
       title: PROPERTIES OF GRADED COGEBRAS OF TYPE N
-      page: 0
+      page: 584
       pdf_page: 608
     - "no": 4
       title: BIGEBRAS AND SKEW-BIGEBRAS
-      page: 0
+      page: 585
       pdf_page: 609
     - "no": 5
       title: THE GRADED DUALS $T(M)^{*gr}$, $S(M)^{*gr}$ AND $\bigwedge(M)^{*gr}$
-      page: 0
+      page: 587
       pdf_page: 611
     - "no": 6
       title: 'INNER PRODUCTS: CASE OF ALGEBRAS'
-      page: 0
+      page: 594
       pdf_page: 618
     - "no": 7
       title: 'INNER PRODUCTS: CASE OF COGEbras'
-      page: 0
+      page: 597
       pdf_page: 621
     - "no": 8
       title: 'INNER PRODUCTS: CASE OF BIGEBRAS'
-      page: 0
+      page: 600
       pdf_page: 624
     - "no": 9
       title: INNER PRODUCTS BETWEEN $T(M)$ AND $T(M^*)$, $S(M)$ AND $S(M^*)$, $\Lambda(M)$ AND $\Lambda(M^*)$
-      page: 0
+      page: 603
       pdf_page: 627
     - "no": 10
       title: EXPLICIT FORM OF INNER PRODUCTS IN THE CASE OF A FINITELY GENERATED FREE MODULE
-      page: 0
+      page: 605
       pdf_page: 629
     - "no": 11
       title: ISOMORPHISMS BETWEEN $\wedge^p(M)$ AND $\wedge^{n-p}(M^*)$ FOR AN $n$-DIMENSIONAL FREE MODULE M
-      page: 0
+      page: 607
       pdf_page: 631
     - "no": 12
       title: APPLICATION TO THE SUBSPACE ASSOCIATED WITH A p-VECTOR
-      page: 0
+      page: 608
       pdf_page: 632
     - "no": 13
       title: PURE $p$-VECTORS. GRASSMANNIANS
-      page: 0
+      page: 609
       pdf_page: 633
 statements: 40
 exercises: 25

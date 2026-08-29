@@ -7,24 +7,25 @@ section: 2
 section_title: EXPANSIONS OF THE EXPONENTIAL AND CIRCULAR FUNCTIONS AND OF THE FUNCTIONS ASSOCIATED WITH THEM
 lang: en
 source: fvr-i-vii
+book_pages: 105-113, 125-128
 pdf_pages: 0120-0128, 0140-0143
 extraction: ocr
 subsections:
     - "no": 1
       title: EXPANSION OF THE REAL EXPONENTIAL
-      page: 0
+      page: 105
       pdf_page: 120
     - "no": 2
       title: EXPANSIONS OF THE COMPLEX EXPONENTIAL, OF $\cos x$ AND $\sin x$
-      page: 0
+      page: 106
       pdf_page: 121
     - "no": 3
       title: THE BINOMIAL EXPANSION
-      page: 0
+      page: 107
       pdf_page: 122
     - "no": 4
       title: EXPANSIONS OF log(1 + x), OF Arc tan x AND OF Arc sin x
-      page: 0
+      page: 111
       pdf_page: 126
 statements: 1
 exercises: 9
