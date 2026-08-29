@@ -34,7 +34,7 @@ subsections:
       pdf_page: 127
 statements: 19
 exercises: 4
-content_sha256: 577f8f2cd0d7531154d44ed4dfc254c2023dc0e83a12625db63a8875dd8f9066
+content_sha256: f5ab5e04d3eb0e0fa7469ebb3e3437d16a597eaa2e4cb424a810b0ba52fe9011
 ---
 
 ## § 2. EXTENSIONS

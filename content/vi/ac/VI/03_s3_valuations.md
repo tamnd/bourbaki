@@ -37,7 +37,7 @@ subsections:
       pdf_page: 410
 statements: 15
 exercises: 8
-content_sha256: eb5da8f4b61c86d9dc9faf9ebeabc00875ed85b29b35161abbb9226c9fbc0801
+content_sha256: 2b82aef8c8710f1de9e584042f511a43db377c9721ef482484075cd1d44e2762
 translated_from: content/en/ac/VI/03_s3_valuations.md
 source_content_sha256: 7c8006eb587e0c29f6ccf241727bf3ea54908994e1ee0854ab2d41fc36b2d06d
 translation_model: gpt-5.4-mini
@@ -194,7 +194,7 @@ Ví dụ (5) Ánh xạ P(X, Y) ↦ P(T, e^T) từ C[X, Y] vào C((T)) là đơn 
 
 Mệnh đề 4 của no. 2 cho phép ta xây dựng một định giá mà nhóm giá trị và trường thặng dư của nó được cho trước:
 
-Ví dụ (6) Cho $\Gamma$ là một nhóm được sắp thứ tự toàn phần và $k$ là một trường. Cho $\Gamma_+$ là monoid các phần tử dương của $\Gamma$ và $C$ là đại số của $\Gamma_+$ trên $k$. Theo định nghĩa, $C$ có một cơ sở $(x_\alpha)_{\alpha \in \Gamma_-}$ trên $k$ mà bảng phép nhân là $x_\alpha x_\beta = x_{\alpha + \beta}$. Nếu $x = \sum a_\alpha x_\alpha$ là một phần tử khác không của $C$, ta viết $v(x) = \inf_{a_\alpha \neq 0} (a)$ và $v(0) = +\infty$; dễ dàng kiểm tra rằng ánh xạ $v$ từ $C$ vào $\Gamma_\infty$ thỏa mãn các điều kiện (VL_I) và (VL_{II}) của no. 1 và rằng $C$ là một miền nguyên. Cho $K$ là trường phân thức của $C$ và $w$ là định giá trên $K$ kéo dài $v$ (Mệnh đề 4, no. 2). Vì mỗi phần tử của $\Gamma$ là hiệu của hai phần tử dương, nên $w$ nhận $\Gamma$ làm nhóm thứ tự. Cho $A$ là vành của $w$ và $m$ là iđêan cực đại của nó; ta sẽ ցույց rằng $A$ là tổng trực tiếp của $m$ và $k$ (đồng nhất với $k \cdot 1$), điều này sẽ chứng minh rằng trường thặng dư của $w$ đẳng cấu với $k$. Rõ ràng $m \cap k = (0)$. Mặt khác, ký hiệu $p$ là iđêan của $C$ sinh bởi các $x_a$ với $a > 0$, thì mọi phần tử $x$ có giá trị 0 trong $K$ đều có thể viết dưới dạng $(a + y)/(b + z)$, trong đó $a \in k^*, b \in k^*, y \in p$ và $z \in p$; khi đó
+Ví dụ (6) Cho $\Gamma$ là một nhóm được sắp thứ tự toàn phần và $k$ là một trường. Cho $\Gamma_+$ là monoid các phần tử dương của $\Gamma$ và $C$ là đại số của $\Gamma_+$ trên $k$. Theo định nghĩa, $C$ có một cơ sở $(x_\alpha)_{\alpha \in \Gamma_-}$ trên $k$ mà bảng phép nhân là $x_\alpha x_\beta = x_{\alpha + \beta}$. Nếu $x = \sum a_\alpha x_\alpha$ là một phần tử khác không của $C$, ta viết $v(x) = \inf_{a_\alpha \neq 0} (a)$ và $v(0) = +\infty$; dễ dàng kiểm tra rằng ánh xạ $v$ từ $C$ vào $\Gamma_\infty$ thỏa mãn các điều kiện (VL_I) và (VL_{II}) của no. 1 và rằng $C$ là một miền nguyên. Cho $K$ là trường phân thức của $C$ và $w$ là định giá trên $K$ kéo dài $v$ (Mệnh đề 4, no. 2). Vì mỗi phần tử của $\Gamma$ là hiệu của hai phần tử dương, nên $w$ nhận $\Gamma$ làm nhóm thứ tự. Cho $A$ là vành của $w$ và $m$ là iđêan cực đại của nó; ta sẽ chứng tỏ rằng $A$ là tổng trực tiếp của $m$ và $k$ (đồng nhất với $k \cdot 1$), điều này sẽ chứng minh rằng trường thặng dư của $w$ đẳng cấu với $k$. Rõ ràng $m \cap k = (0)$. Mặt khác, ký hiệu $p$ là iđêan của $C$ sinh bởi các $x_a$ với $a > 0$, thì mọi phần tử $x$ có giá trị 0 trong $K$ đều có thể viết dưới dạng $(a + y)/(b + z)$, trong đó $a \in k^*, b \in k^*, y \in p$ và $z \in p$; khi đó
 
 $$
 x = ab^{-1} + (by - az)b^{-1}(b + z)^{-1}

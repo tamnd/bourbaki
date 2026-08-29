@@ -33,7 +33,7 @@ subsections:
       pdf_page: 74
 statements: 27
 exercises: 12
-content_sha256: 0807723a1c16ddd3468a5fe62226f8505a320156e30fadfaa666328e48b2faf7
+content_sha256: aa47dae57ddf2dbdb791a5365ab425297e9ab5a4c3aa0827ad3b03bffe214d24
 ---
 
 ## § 6. DIMENSION DES ANNEAUX GRADUÉS
@@ -71,8 +71,8 @@ Dans ce numéro, nous noterons dimgr(H) la borne supérieure des longueurs des c
 
 #### Proposition 2 {#ac-viii-s6-prop-2 .statement}
 
-a) On a $\dim_{\mathrm{gr}}(H) \leq \dim(S^{-1}H) \leq \dim(H)$.
-b) Pour tout idéal premier gradué $p$ de $H$, on a $\operatorname{ht}_{\mathrm{gr}}(p) \leq \operatorname{ht}(S^{-1}p) = \operatorname{ht}(p)$.
+a) On a $\dimgr(H) \leq \dim(S^{-1}H) \leq \dim(H)$.
+b) Pour tout idéal premier gradué $p$ de $H$, on a $\htgr(p) \leq \ht(S^{-1}p) = \ht(p)$.
 
 Pour tout idéal $a$ de $H$, notons $a^{\mathrm{gr}}$ le plus grand idéal gradué contenu dans $a$; on a $a^{\mathrm{gr}} = \sum_n (a \cap H_n)$.
 

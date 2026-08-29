@@ -12,10 +12,10 @@ pdf_pages: 0463-0487
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a50a515f6e8497a4d61c573d732192e7148fa7dc85bc6f8fe336af056f27a0fa
+content_sha256: 970da769f8124966f99fc778b2c2cd606f47177b837d9e773cb4ce27a8c5d497
 translated_from: content/en/int/VI/historical_note.md
-source_content_sha256: a61dd7fbcb476f00fb6d81a26a881a41b05dfcc0d871802f96c71dcd87d8ca48
-translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
+source_content_sha256: 2ada0a0190353d48d55d0b0828f8365aaac5df51d5b36e54e7bcfa9551ef8f06
+translation_model: gpt-5.4, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-0592bee0
 glossary_version: 34
 glossary_terms_sha256: da9d417020e28311a8d181a193d7e22626dc08a1e4c06edc30a4692b4c3a61bc
@@ -24,81 +24,57 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 # GHI CHÚ LỊCH SỬ
 
-(N.B. — Các chữ số La Mã quy chiếu đến thư mục ở cuối ghi chú này.)
+(Xin chú ý. — Các chữ số La Mã chỉ thư mục ở cuối ghi chú này.)
 
-Với sự phát triển của 'phép tính vectơ' trong suốt thế kỷ 19, việc phải lấy tích phân các hàm có giá trị vectơ đã trở thành một thực hành thông thường, nhưng chừng nào chỉ xét các hàm có giá trị trong các không gian hữu hạn chiều thì phép toán này không đặt ra vấn đề gì. Chỉ với lý thuyết phổ của Hilbert người ta mới gặp các phép toán một cách tự nhiên dẫn đến một khái niệm tổng quát hơn về tích phân: lý thuyết này thực vậy dẫn đến việc gắn với mỗi dạng Hermit liên tục $\Phi(x, y)$ trên một không gian Hilbert $\mathbf{H}$ một họ $(E(\lambda))_{\lambda \in \mathbf{R}}$ các phép chiếu trực giao có tính chất rằng, với mọi cặp $(x, y)$ các vectơ của $\mathbf{H}$, hàm $\lambda \mapsto (E(\lambda)x|y)$ là có biến thiên bị chặn và $\Phi(x, y) = \int \lambda d(E(\lambda)x|y)$; nếu gắn với $\Phi$ toán tử Hermit $A$ sao cho $\Phi(x, y) = (Ax|y)$, người ta bị cám dỗ viết công thức trước đó dưới dạng $A = \int \lambda dE(\lambda)$. Nhưng chỉ từ khoảng năm 1935 trở đi, sau khi Bochner đưa vào phép lấy tích phân ('mạnh') của một hàm có giá trị trong một không gian Banach, người ta mới bắt đầu quan tâm đến việc định nghĩa tích phân của các hàm có giá trị vectơ (hoặc tích phân đối với một độ đo vectơ) theo cách cho phép viết một cách chính đáng các công thức như công thức trước đó. Sự mở rộng này về cơ bản được hoàn thành bởi Gelfand (III), Dunford và Pettis (IV) và (V); các kết quả của họ được phát biểu cho các không gian Banach, nhưng mở rộng không khó khăn gì đến các không gian lồi địa phương tổng quát hơn.
+Cùng với sự phát triển của 'phép tính vectơ' trong thế kỷ 19, việc phải lấy tích phân các hàm nhận giá trị vectơ đã trở thành thông lệ; nhưng chừng nào chỉ còn là vấn đề các hàm nhận giá trị trong những không gian hữu hạn chiều, thì phép toán này không gây ra khó khăn nào. Chỉ đến lý thuyết phổ của Hilbert người ta mới gặp những phép toán tự nhiên dẫn tới một khái niệm tích phân tổng quát hơn: thực vậy, lý thuyết này dẫn đến việc gắn, với mọi dạng Hermit liên tục $\Phi(x, y)$ trên một không gian Hilbert $\mathbf{H}$, một họ $(E(\lambda))_{\lambda \in \mathbf{R}}$ các phép chiếu trực giao có tính chất là, với mọi cặp $(x, y)$ vectơ của $\mathbf{H}$, hàm $\lambda \mapsto (E(\lambda)x|y)$ là có biến thiên bị chặn và $\Phi(x, y) = \int \lambda d(E(\lambda)x|y)$; nếu gắn với $\Phi$ toán tử Hermit $A$ sao cho $\Phi(x, y) = (Ax|y)$, thì thật tự nhiên khi viết công thức trước dưới dạng $A = \int \lambda dE(\lambda)$. Nhưng chỉ từ khoảng năm 1935 trở đi, sau khi Bochner đưa vào phép lấy tích phân ('mạnh') của một hàm nhận giá trị trong một không gian Banach, người ta mới bắt đầu quan tâm đến việc định nghĩa tích phân của các hàm nhận giá trị vectơ (hay tích phân đối với một độ đo vectơ) sao cho có thể chính đáng viết những công thức như công thức trên. Sự mở rộng này về cơ bản được thực hiện bởi Gelfand (III), Dunford và Pettis (IV) và (V); các kết quả của họ được phát biểu cho các không gian Banach, nhưng mở rộng không khó khăn đến các không gian lồi địa phương tổng quát hơn.
 
-Ý tưởng phân rã một thể tích thành các 'lát' và rút gọn một tích phân trên thể tích thành một tích phân trên mỗi lát, tiếp theo bởi một phép lấy tích phân duy nhất, đã được sử dụng trong Giải tích kể từ đầu của Phép tính vi phân vô cùng bé (phép 'Tính các phần tử bất khả phân' của Cavalieri không là gì khác ngoài một phác thảo đầu tiên của nguyên lý này, mà thậm chí có thể truy nguyên về Archimedes (xem Ghi chú Lịch sử cho Quyển IV, Chs. I–III)). Nhưng trong các áp dụng cổ điển, các 'lát' luôn có bản chất rất đặc biệt và rất chính quy (thường nhất là các tập con mở của các mặt giải tích, phụ thuộc giải tích vào một tham số); điều này khó có thể khác được khi thiếu một lý thuyết tổng quát về tích phân. Bài toán tổng quát về sự phân rã của một độ đo đã được von Neumann đặt ra và giải quyết năm 1932, liên quan với lý thuyết ergodic (I); vào khoảng cùng thời gian đó (và độc lập), Kolmogoroff, trong khi đặt nền tảng tiên đề cho Lý thuyết Xác suất, đã được dẫn đến việc định nghĩa một cách tổng quát khái niệm 'xác suất có điều kiện' và chứng minh sự tồn tại của nó, một bài toán về cơ bản tương đương với bài toán phân rã của một độ đo (II).
+Ý tưởng phân tích một thể tích thành các 'lát cắt' và quy một tích phân trên thể tích ấy về các tích phân trên từng lát cắt, rồi sau đó là một phép lấy tích phân duy nhất, đã được dùng trong Giải tích ngay từ thuở đầu của Phép tính vi tích phân (phép 'tính bằng các phần tử bất khả phân' của Cavalieri chẳng qua chỉ là một phác thảo đầu tiên của nguyên lý này, mà thậm chí còn có thể lần ngược về Archimedes (xem Ghi chú lịch sử của Quyển IV, Chs. I–III)). Nhưng trong các ứng dụng cổ điển, các 'lát cắt' luôn luôn có bản chất rất đặc biệt và rất chính quy (thường nhất là các tập con mở của các mặt giải tích, phụ thuộc giải tích vào một tham số); hầu như không thể khác được khi chưa có một lý thuyết tích phân tổng quát. Bài toán tổng quát về sự phân rã của một độ đo đã được von Neumann đặt ra và giải quyết vào năm 1932, trong mối liên hệ với lý thuyết ergodic (I); vào khoảng cùng thời gian ấy (và một cách độc lập), Kolmogoroff, trong khi đặt những nền tảng tiên đề cho Lý thuyết Xác suất, đã được dẫn tới việc định nghĩa một cách tổng quát khái niệm 'xác suất có điều kiện' và chứng minh sự tồn tại của nó, một bài toán về cơ bản tương đương với bài toán phân rã một độ đo (II).
 
-(I) J. von NEUMANN, Zur Operatorenmethode in der klassischen Mechanik, Ann. of Math., (2), 33 (1932), pp. 587–642.
+(I) J. von NEUMANN, Về phương pháp toán tử trong cơ học cổ điển, Ann. of Math., (2), 33 (1932), pp. 587–642.
 
-(II) A. KOLMOGOROFF, Grundbegriffe der Wahrscheinlichkeitsrechnung, Berlin (Springer), 1933.
+(II) A. KOLMOGOROFF, Các khái niệm cơ bản của phép tính xác suất, Berlin (Springer), 1933.
 
-(III) I. GELFAND, Abstrakte Funktionen und lineare Operatoren, Mat. Sborn., (N.S.), 4 (1938), pp. 235–284.
+(III) I. GELFAND, Các hàm trừu tượng và các toán tử tuyến tính, Mat. Sborn., (N.S.), 4 (1938), pp. 235–284.
 
-(IV) N. DUNFORD, Uniformity in linear spaces, Trans. Amer. Math. Soc., 44 (1938), pp. 305–356.
+(IV) N. DUNFORD, Tính đều trong các không gian tuyến tính, Trans. Amer. Math. Soc., 44 (1938), pp. 305–356.
 
-(V) N. DUNFORD AND B. PETTIS, Linear operations on summable functions, Trans. Amer. Math. Soc., 47 (1940), pp. 323–392.
+(V) N. DUNFORD AND B. PETTIS, Các phép toán tuyến tính trên các hàm khả tổng, Trans. Amer. Math. Soc., 47 (1940), pp. 323–392.
 
-Chỉ mục các ký hiệu
+Bảng chỉ dẫn ký hiệu
 
-Các số tham chiếu chỉ ra, theo thứ tự, chương, tiết và tiểu mục (hoặc, trong trường hợp đặc biệt, bài tập).
+Các số tham chiếu chỉ, theo thứ tự, chương, tiết diện và tiểu mục (hoặc, trong trường hợp ngoại lệ, bài tập).
 
 Chương III :
 
 $\mathcal{C}(X;E), \mathcal{C}(X), \mathcal{C}(X,A;E), \mathcal{K}(X;E), \mathcal{K}(X), \mathcal{K}(X,A;E), \mathcal{K}(X,A), \mathcal{K}_+(X)$
-(X là một không gian compact địa phương, E là một không gian vectơ tôpô) : III, 1, 1.
-
-Supp(f) (f là một hàm có giá trị trong một không gian vectơ hoặc trong $\overline{\mathbf{R}}$) : III, 1, 1.
-
+(X là một không gian địa phương compact, E một không gian vectơ tôpô) : III, 1, 1.
+Supp(f) (f một hàm nhận giá trị trong một không gian vectơ hoặc trong $\overline{\mathbf{R}}$) : III, 1, 1.
 $\mathcal{C}^b(X;E), \mathcal{C}^0(X;E)$ : III, 1, 2.
-
-$\|f\|$ (f là một hàm có giá trị trong một không gian định chuẩn) : III, 1, 2.
-
-$\mu(f), \langle f, \mu \rangle, \int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f là một hàm trong $\mathcal{K}(X;\mathbf{C})$, $\mu$ là một độ đo (phức)) : III, 1, 3.
-
+$\|f\|$ (f một hàm nhận giá trị trong một không gian định chuẩn) : III, 1, 2.
+$\mu(f), \langle f, \mu \rangle, \int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f một hàm trong $\mathcal{K}(X;\mathbf{C})$, $\mu$ một độ đo (phức)) : III, 1, 3.
 $\mathcal{M}(X;\mathbf{C}), \mathcal{M}(X), \mathcal{M}_\sigma(X;\mathbf{C}), \mathcal{M}_\sigma(X)$ : III, 1, 3.
-
 $\varepsilon_a$ : III, 1, 3.
-
-g · $\mu$ (g là một hàm trong $\mathcal{C}(X;\mathbf{C})$) : III, 1, 4.
-
+g · $\mu$ (g một hàm trong $\mathcal{C}(X;\mathbf{C})$) : III, 1, 4.
 $\overline{\mu}, \Re \mu, \Im \mu$ : III, 1, 5.
-
 $\mathcal{M}(X;\mathbf{R}), \mathcal{M}(X), \mathcal{M}_+(X)$ : III, 1, 5.
-
-$\mu \leq \nu$ ($\mu, \nu$ là các độ đo thực) : III, 1, 5.
-
-$\mu^+, \mu^-, |\mu|$ ($\mu$ là một độ đo thực) : III, 1, 5.
-
-$|\mu|$ ($\mu$ là một độ đo phức) : III, 1, 6.
-
-$\|\mu\|$ ($\mu$ là một độ đo) : III, 1, 8.
-
+$\mu \leq \nu$ ($\mu, \nu$ các độ đo thực) : III, 1, 5.
+$\mu^+, \mu^-, |\mu|$ ($\mu$ một độ đo thực) : III, 1, 5.
+$|\mu|$ ($\mu$ một độ đo phức) : III, 1, 6.
+$\|\mu\|$ ($\mu$ một độ đo) : III, 1, 8.
 $\mathcal{M}^1(X,\mathbf{R}), \mathcal{M}^1(X)$ : III, 1, 8.
-
-$\mu|Y$ ($\mu$ là một độ đo trên X, Y là một không gian con mở của X) : III, 2, 1.
-
-Supp($\mu$) ($\mu$ là một độ đo) : III, 2, 2.
-
+$\mu|Y$ ($\mu$ một độ đo trên X, Y một không gian con mở của X) : III, 2, 1.
+Supp($\mu$) ($\mu$ một độ đo) : III, 2, 2.
 $\langle f, z' \rangle$ : III, 3, 1.
-
 $\widetilde{\mathcal{K}}(X;E)$ : III, 3, 1.
-
-$\int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f là một hàm trong $\widetilde{\mathcal{K}}(X;E)$) : III, 3, 1.
-
+$\int f d\mu, \int f \mu, \int f(x) d\mu(x), \int f(x)\mu(x)$ (f một hàm trong $\widetilde{\mathcal{K}}(X;E)$) : III, 3, 1.
 $\int d\mu(y) \int f(x,y) d\lambda(x)$ : III, 4, 1.
-
 $\iint f d\lambda d\mu, \iint f d\mu d\lambda, \iint f \lambda \mu, \iint f \mu \lambda, \iint f(x,y) d\lambda(x) d\mu(y), \iint f(x,y) d\mu(y) d\lambda(x), \iint f(x,y) \lambda(x) \mu(y), \iint f(x,y) \mu(y) \lambda(x)$ : III, 4, 1.
 
-λ ⊗ μ (λ, μ là các độ đo) : III, 4, 2.
-
+λ ⊗ μ (λ, μ các độ đo) : III, 4, 2.
 μ₁ ⊗ μ₂ ⊗ ⋯ ⊗ μₙ, $\bigotimes_{i=1}^{n} \mu_i$ : III, 4, 4.
-
 $\int f\ d\mu_1\ d\mu_2\ldots\ d\mu_n$, $\iint \ldots \int f\ d\mu_1\ d\mu_2\ldots\ d\mu_n$, $\int f(\mu_1 \otimes \mu_2 \otimes \cdots \otimes \mu_n)$,
 $\iint \ldots \int f(x_1, x_2, \ldots, x_n)\ d\mu_1(x_1)\ d\mu_2(x_2)\ldots\ d\mu_n(x_n)$,
 $\iint \ldots \int f(x_1, x_2, \ldots, x_n)\mu_1(x_1)\mu_2(x_2)\cdots\mu_n(x_n)$ : III, 4, 4.
-
 $\bigotimes_{\lambda \in L} \mu_\lambda$ : III, 4, 6.
 
 Chương IV :
@@ -112,17 +88,17 @@ f̃ : IV, 2, 4 và IV, 2, 5.
 φ((f̃ₙ)), f̃ + g̃, αf̃, g̃f̃ : IV, 2, 4.
 f̃ ≤ g̃, supₙ f̃ₙ, infₙ f̃ₙ, lim supₙ→∞ f̃ₙ, lim infₙ→∞ f̃ₙ (f, g, fₙ là các hàm số) : IV, 2, 6.
 |z| (z là một điểm của một không gian chuẩn) : IV, 3, 2.
-|f| (f là một hàm có giá trị trong một không gian chuẩn) : IV, 3, 2.
+|f| (f là một hàm nhận giá trị trong một không gian chuẩn) : IV, 3, 2.
 N_p(f, μ), N_p(f), N_p(f̃) (1 ≤ p < +∞) : IV, 3, 2.
 𝒢_F(X), 𝒢_F : IV, 3, 3.
 𝒢_F^p(X, μ), 𝒢_F^p(μ), 𝒢_F^p : IV, 3, 3.
 𝒢_F : IV, 3, 3.
 𝒢_F, 𝒟_F^p(X, μ), 𝒟_F^p(μ), 𝒟_F^p, L_F^p(X, μ), L_F^p(μ), L_F^p, 𝒟^p, L^p (1 ≤ p < +∞) : IV, 3, 4.
 ‖f̃‖_p (1 ≤ p < +∞) : IV, 3, 4.
-μ(f), ∫ f dμ, ∫ f(x) dμ(x), ∫ fμ, ∫ f(x)μ(x), μ(f̃) (f là một hàm μ-khả tích với các giá trị trong một không gian Banach) : IV, 4, 1.
-μ(A) (A là một tập μ-khả tích) : IV, 4, 5.
+μ(f), ∫ f dμ, ∫ f(x) dμ(x), ∫ fμ, ∫ f(x)μ(x), μ(f̃) (f là một hàm μ-khả tích nhận giá trị trong một không gian Banach) : IV, 4, 1.
+μ(A) (A là một tập hợp μ-khả tích) : IV, 4, 5.
 𝒬'(X; C) : IV, 4, 8.
-𝒬(Φ), 𝒬_F(Φ) (Φ là một tộc các tập hợp) : IV, 4, 9.
+𝒬(Φ), 𝒬_F(Φ) (Φ là một clan các tập hợp) : IV, 4, 9.
 μ_*(f) (f là một hàm) : IV, 4, Bài tập 5.
 
 $\mu_*(A)$ (A là một tập hợp) : IV, 4, Bài tập 7.
@@ -141,14 +117,14 @@ $\mathrm{Ch}_\mathcal{H}(X), \mathrm{Ch}(X), \check{S}_\mathcal{H}(X), \check{S}
 
 Chương V :
 
-$\mathcal{F}_+(E), \mathcal{F}_+$ (E là một tập hợp) : Các quy ước ban đầu của V.
+$\mathcal{F}_+(E), \mathcal{F}_+$ (E là một tập hợp) : V, Các quy ước sơ bộ.
 $\mu^\bullet(f), \mu^\bullet(A), \int^\bullet f d\mu, \int^\bullet f(t) d\mu(t), \int^\bullet f\mu$ : V, 1, 1.
 $\overline{\mathcal{F}}_F^p(T, \mu), \overline{\mathcal{F}}_F^p(\mu), \overline{\mathcal{F}}_F^p$ : V, 1, 3.
 $\overline{N}_p(f), \overline{\mathcal{L}}_F^p(T, \mu), \overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p$ : V, 1, 3.
 $\overline{\mathcal{L}}_F^p(T, \theta)$ ($\theta$ là một độ đo phức) : V, 1, 3.
 $\int \lambda_t d\mu(t)$ ($t \mapsto \lambda_t$ là một họ các độ đo dương) : V, 3, 1.
 $\int d\mu(t) \int f(x) d\lambda_t(x)$ : V, 3, 1.
-$\|\Lambda\|$ ($\Lambda$ là một phép khuếch tán) : V, 3, 5.
+$\|\Lambda\|$ ($\Lambda$ là một khuếch tán) : V, 3, 5.
 $\langle \eta, h \rangle$ : V, 3, 5.
 $\Lambda f, \mu \Lambda$ : V, 3, 5.
 $\Lambda H$ : V, 3, 6.
@@ -158,27 +134,27 @@ $\int_A^\bullet f d\mu$ : V, 5, 3.
 $u(\mu_1, \ldots, \mu_n)$ ($u$ là một hàm số thuần nhất dương) : V, 5, 9.
 $\pi(\mu)$ ($\pi$ là một ánh xạ $\mu$-thực sự): V, 6, 1.
 $\pi(\theta)$ ($\theta$ là một độ đo phức, $\pi$ là một ánh xạ $|\theta|$-thực sự) : V, 6, 4.
-$\pi^{-1}(\mu)$ ($\pi$ là một phép đồng phôi địa phương): V, 6, 6.
+$\pi^{-1}(\mu)$ ($\pi$ là một đồng phôi địa phương): V, 6, 6.
 $\iint^* f(t, t') d\mu(t) d\mu'(t'), \iint^\bullet f(t, t') d\mu(t) d\mu'(t'), \iint f(t, t') d\mu(t) d\mu'(t')$ : V, 8, 1
 
 Chương VI:
 
-F', F'', F'^*, F_\sigma (F là một không gian lồi địa phương Hausdorff) : VI, Nhập môn.
-\mathcal{K}(T), \mathcal{K}_R(T), \mathcal{K}_C(T), \mathcal{K}(T,A), \mathcal{K}_C(T,A) : VI, Nhập môn.
+F', F'', {F'}^*, F_\sigma (F là một không gian lồi địa phương Hausdorff) : VI, Giới thiệu.
+\mathcal{K}(T), \mathcal{K}_R(T), \mathcal{K}_C(T), \mathcal{K}(T,A), \mathcal{K}_C(T,A) : VI, Giới thiệu.
 \langle f, z' \rangle, \langle z', f \rangle : VI, 1.
-\int f d\mu, \int f(t) d\mu(t) (f là một hàm có giá trị vectơ, \mu là một độ đo dương) :
+\int f d\mu, \int f(t) d\mu(t) (f là một hàm nhận giá trị vectơ, \mu là một độ đo dương) :
 VI, 1, 1.
-gf, fg (f là một hàm có giá trị vectơ, g là một hàm vô hướng) : VI, 1, 1.
+gf, fg (f là một hàm nhận giá trị vectơ, g là một hàm vô hướng) : VI, 1, 1.
 \mathcal{C}'(T) : VI, 1, 6.
 \int f dm, \int f(t) dm(t) (f là một hàm số, m là một độ đo vectơ) :
 VI, 2, 1 và VI, 2, 2.
 g \cdot m (g là một hàm số, m là một độ đo vectơ) : VI, 2, 1.
 \mathcal{L}(m) : VI, 2, 2.
-q(m), |m| (q là một bán chuẩn, m là một độ đo vectơ) : VI, 2, 3.
-f \cdot \mu (f là một hàm có giá trị vectơ, \mu là một độ đo dương) : VI, 2, 4.
+q(m), |m| (q là một nửa chuẩn, m là một độ đo vectơ) : VI, 2, 3.
+f \cdot \mu (f là một hàm nhận giá trị vectơ, \mu là một độ đo dương) : VI, 2, 4.
 \mathcal{L}_{F_s'}^\infty, L_{F_s'}^\infty : VI, 2, 5.
-\langle f, g \rangle (f, g là các hàm có giá trị vectơ) : VI, 2, 6.
-I_{\Phi,m}, \int f dm (f là một hàm có giá trị vectơ, m là một độ đo vectơ) : VI, 2, 7.
+\langle f, g \rangle (f, g là các hàm nhận giá trị vectơ) : VI, 2, 6.
+I_{\Phi,m}, \int f dm (f là một hàm nhận giá trị vectơ, m là một độ đo vectơ) : VI, 2, 7.
 |m|, \int f dm (m là một độ đo phức) : VI, 2, 8, III, 1, 6.
 \mathcal{L}_F^p(T,m), \overline{\mathcal{L}}_F^p(T,m), L_F^p(T,m) (m là một độ đo phức) : VI, 2, 8, V, 1, 3.
 h \cdot m (m là một độ đo phức) : VI, 2, 8.
@@ -189,9 +165,9 @@ h \cdot m (m là một độ đo phức) : VI, 2, 8.
 E_\sigma, F_\sigma, E'_s, F'_s, \mathcal{B}(E,F) : VI, Phụ lục, 1.
 \Lambda_{F'}^p(T,\mu), M_p, M'_p : VI, 1, Bài tập 16.
 
-Chỉ mục thuật ngữ
+Bảng thuật ngữ
 
-Các số tham chiếu chỉ, theo thứ tự, chương, tiết và tiểu mục (hoặc, trong trường hợp đặc biệt, bài tập).
+Các số tham chiếu chỉ, theo thứ tự, chương, mục và tiểu mục (hoặc, ngoại lệ, bài tập).
 
 Giá trị tuyệt đối của một độ đo : III, 1, 6 và VI, 2, 8.
 Cặp thích nghi, $\mu^-$ : V, 4, 1.

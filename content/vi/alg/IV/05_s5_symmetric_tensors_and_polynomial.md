@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 36
 exercises: 16
-content_sha256: 6cf7663385d102c5031494dce3fafe714f5d56a9d186f567e98e99694e02ae21
+content_sha256: 9d03c2453306940c8a68b7d33b842b3095139c3b8fbc9a986546bfac1f366c51
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 source_content_sha256: 33f7cba6ad37ef4f3eac426b0665f77c4884db538804d6454ec344d187c55550
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
@@ -388,7 +388,7 @@ Cho $H$ là một nhóm hữu hạn và $U$ là một $A[H]$-môđun trái. Gi�
 
 (ii) Với mỗi $\omega \in \Omega$, lấy $v$, là một điểm của $\omega$; đặt $\omega' = w - \{v_\omega\}$ và $B' = \bigcup_{\omega \in \Omega} w'$, khi đó $B'$ là một cơ sở của một không gian con bổ sung cho $U^H$ trong $U$.
 
-Hợp của tập hợp всех $u_w$ (với $\omega \in \Omega$) và của $B'$ là một cơ sở của $U$. Nếu $U' = \sum_{\omega \in \Omega} Au$, và $U'' = \sum_{b \in B'} Ab$, do đó ta có $U = U' \oplus U''$. Mặt khác, ta có $u_w \in U^H$ với mọi $w \in \Omega$, vì thế $U' \subset U^H$. Cuối cùng, lấy $(\alpha_b)_{b \in B}$ là một họ các phần tử của $A$ có giá hữu hạn và đặt $x = \sum_{b \in B} \alpha_b b$. Nếu $x \in U^H$, thì $\alpha_{hb} = \alpha_b^H$ với mọi $b \in B$ và mọi $h \in H$, do đó $x \in U'$, và suy ra $U' = u^H$.
+Hợp của tập hợp tất cả $u_w$ (với $\omega \in \Omega$) và của $B'$ là một cơ sở của $U$. Nếu $U' = \sum_{\omega \in \Omega} Au$, và $U'' = \sum_{b \in B'} Ab$, do đó ta có $U = U' \oplus U''$. Mặt khác, ta có $u_w \in U^H$ với mọi $w \in \Omega$, vì thế $U' \subset U^H$. Cuối cùng, lấy $(\alpha_b)_{b \in B}$ là một họ các phần tử của $A$ có giá hữu hạn và đặt $x = \sum_{b \in B} \alpha_b b$. Nếu $x \in U^H$, thì $\alpha_{hb} = \alpha_b^H$ với mọi $b \in B$ và mọi $h \in H$, do đó $x \in U'$, và suy ra $U' = u^H$.
 
 #### Mệnh đề 5 {#alg-iv-s5-prop-5 .statement}
 

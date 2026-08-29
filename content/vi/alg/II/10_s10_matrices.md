@@ -65,7 +65,7 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 12
-content_sha256: d21c5c0b3aafc61a94c829fa3585d1adab2a027a72957e8b34fcb32f982c293a
+content_sha256: 80a0fffa239dd13942114b1173e3a391705d2d63e4b19547aa3a73988af079fb
 translated_from: content/en/alg/II/10_s10_matrices.md
 source_content_sha256: a47679ba1ab8c0e078a09ebdfca77031eefe61db8ddab4faffc08a0fa8c19aa5
 translation_model: gpt-5.4-mini, gpt-5-mini
@@ -449,7 +449,7 @@ $$
 
 nói cách khác, sự tương ứng một-một (24) biến các tích thành các tích khi mọi tích được nói đến đều được xác định (tích của các ma trận của ma trận được định nghĩa theo nghĩa của no. 2, *Nhận xét*); khi các ma trận con $Z_{li}$ của tích YX được tính như vậy, thì tích này được nói là được thực hiện "theo khối".
 
-Tên gọi này xuất phát từ तथ्य rằng, khi I = {1, p} và K = {1, q}, bảng biểu diễn ma trận X được hình dung là được chia thành các "khối" tạo thành một "mảng ma trận"
+Tên gọi này xuất phát từ sự kiện rằng, khi I = {1, p} và K = {1, q}, bảng biểu diễn ma trận X được hình dung là được chia thành các "khối" tạo thành một "mảng ma trận"
 
 $$
 \begin{pmatrix}

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 69
 statements: 40
 exercises: 29
-content_sha256: 8a47449c7d1053ca46bafaaa447f99547892ef36eff0d8372e8b340edbf75877
+content_sha256: 5406d1248da1a2881223a5d8c038d746c3be5a9f47a401375a0482461422333e
 ---
 
 ## § 5. GROUPES OPÉRANT SUR UN ENSEMBLE
@@ -202,7 +202,7 @@ Soit G un groupe, et considérons l’opération de G sur lui-même par automorp
 
 Les stabilisateurs de deux éléments conjugués de E sont des sous-groupes conjugués de G (I, p. 52, prop. 2).
 
-L’ensemble quotient de E par la relation de conjugaison est l’ensemble des orbites de E; on le note parfois E/G ou G\!E. (On réserve parfois la notation E/G au cas où E est un G-ensemble à droite, et la notation G\!E au cas où E est un G-ensemble à gauche).
+L’ensemble quotient de E par la relation de conjugaison est l’ensemble des orbites de E; on le note parfois E/G ou $G\backslash E$. (On réserve parfois la notation E/G au cas où E est un G-ensemble à droite, et la notation G\!E au cas où E est un G-ensemble à gauche).
 
 Soit G un groupe opérant à droite dans un ensemble E. Soit H un sous-groupe distingué de G. Le groupe G opère à droite sur E/H, la loi d’action à droite correspondante étant $(xH, g) \mapsto xHg = xgH$; pour cette opération, H opère trivialement, d’où une opération à droite de G/H sur E/H. Soit $\varphi$ l’application canonique de E/H sur E/G; les images réciproques par $\varphi$ des points de E/G sont les orbites de G (ou de G/H) dans E/H. Donc $\varphi$ définit par passage au quotient une bijection, dite canonique, de $(E/H)/G = (E/H)/(G/H)$ sur E/G.
 
@@ -218,9 +218,9 @@ $$
 \begin{array}{ccc}
 E & & \\
 | & & | \\
-G\!E & \alpha & E/H \\
+G\backslash E & \alpha & E/H \\
 | & & | \\
-G\!E/H & \gamma & G\!E/H \\
+G\backslash E/H & \gamma & G\backslash E/H \\
 | & & | \\
 & \varepsilon & \\
 & & \\
@@ -232,9 +232,9 @@ $$
 
 Soient G un groupe et H un sous-groupe de G. Considérons l’opération à droite de H sur G par translations à droite (I, p. 50, Exemple 2). L’ensemble des orbites G/H est l’ensemble des classes à gauche suivant H; remarquons que G opère à gauche sur G/H par la loi $(g, xH) \mapsto gxH$ (cf. I, p. 56). De même, l’ensemble des classes à droite suivant H est l’ensemble H\!G des orbites de l’opération à gauche de H sur G par translations à gauche. Si K est un sous-groupe de G contenant H et si $\Gamma$ est une classe à gauche (resp. à droite) suivant H, alors $\Gamma K$ (resp. $K\Gamma$) est une classe à gauche (resp. à droite) suivant K. L’application
 
-Γ ↦ ΓK (resp. Γ ↦ KΓ) est appelée l’application canonique de G/H dans G/K (resp. de H\G dans K\G). Elle est surjective.
+Γ ↦ ΓK (resp. Γ ↦ KΓ) est appelée l’application canonique de G/H dans G/K (resp. de $H\backslash G$ dans $K\backslash G$). Elle est surjective.
 
-Soient G un groupe, H et K deux sous-groupes de G. Faisons opérer H à gauche sur G par translations à gauche et K à droite par translations à droite; ces deux opérations commutent, ce qui permet de considérer l’ensemble H\G/K. Les éléments de H\G/K s’appellent les doubles classes de G suivant (ou modulo) H et K. Lorsque K = H, on dit simplement doubles classes suivant H. Pour que l’application canonique de G/H sur H\G/H soit une bijection, il faut et il suffit que H soit un sous-groupe distingué de G.
+Soient G un groupe, H et K deux sous-groupes de G. Faisons opérer H à gauche sur G par translations à gauche et K à droite par translations à droite; ces deux opérations commutent, ce qui permet de considérer l’ensemble $H\backslash G/K$. Les éléments de $H\backslash G/K$ s’appellent les doubles classes de G suivant (ou modulo) H et K. Lorsque K = H, on dit simplement doubles classes suivant H. Pour que l’application canonique de $G/H$ sur $H\backslash G/H$ soit une bijection, il faut et il suffit que H soit un sous-groupe distingué de G.
 
 ### 5. Ensembles homogènes
 

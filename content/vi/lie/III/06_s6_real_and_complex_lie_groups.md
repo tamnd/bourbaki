@@ -52,7 +52,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 3d1f66ce054d423d63e80aadc43b12e4d89e05a26998440337513166ed817c80
+content_sha256: c8862254d9a4c67cdb3b4ffa59b6206b729b934b0088657840fc195a12511aba
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 source_content_sha256: 803604a811504c87fc4ceb1081eed8c02ca8766e1a5c157c84f5f0928a9452b5
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
@@ -106,7 +106,7 @@ $Y_0$ là một nhóm tôpô liên thông vì $A(e, e, W)$ liên thông. Khi đ�
 
 *Cho $G$ và $H$ là các nhóm Lie và $h$ là một cấu xạ liên tục của $L(G)$ vào $L(H)$. Giả sử rằng $G$ đơn liên. Khi đó tồn tại duy nhất một cấu xạ nhóm Lie $\phi$ của $G$ vào $H$ sao cho $h = L(\phi)$.*
 
-Sự tồn tại của $\phi$ theo từ Bổ đề 1 và § 4, no. 1, Định lý 1 (i). Tính duy nhất của $\phi$ theo từ § 4, no. 1, Định lý 1 (ii) và तथ्य rằng $G$ liên thông.
+Sự tồn tại của $\phi$ theo từ Bổ đề 1 và § 4, no. 1, Định lý 1 (i). Tính duy nhất của $\phi$ theo từ § 4, no. 1, Định lý 1 (ii) và sự kiện rằng $G$ liên thông.
 
 #### Hệ quả {#lie-iii-s6-n1-cor-1 .statement}
 
@@ -614,7 +614,7 @@ Gọi $G_1$ là phủ phổ quát của G và $\lambda$ là ánh xạ chính t�
 
 *Cho G là một nhóm Lie, M là một đa tạp lớp $C^r$ ($r \geq 2$) và $\alpha$ là một dạng vi phân lớp $C^{r-1}$ và bậc 1 trên M với giá trị trong L(G), sao cho $d\alpha + [\alpha]^2 = 0$. Giả sử rằng M liên thông đơn. Với mọi $x \in M$ và mọi $s \in G$, tồn tại duy nhất một ánh xạ f lớp $C^{r-1}$ từ M vào G sao cho $f(x) = s$ và $f^{-1} \cdot df = \alpha$.*
 
-Tính duy nhất của f suy ra từ § 3, no. 17, Hệ quả 2 của Mệnh đề 59 và तथ्य M liên thông. Ta chứng minh sự tồn tại của f. Tồn tại một phủ mở $(U_i)_{i \in I}$ của M và, với mọi $i \in I$, một ánh xạ $g_i : U_i \to G$ lớp $C^{r-1}$ sao cho $g_i^{-1} \cdot dg = \alpha$ trên $U_i$ (§ 4, no. 6, Định lý 5). Theo § 3, no. 17, Hệ quả 2 của Mệnh đề 59, $g_i g_j^{-1}$ là hằng địa phương trên $U_i \cap U_j$. Đặt $g_i g_j^{-1} = g_{ij}$. Cho $G_d$ là nhóm G với tôpô rời rạc. Các $g_{ij} : U_i \cap U_j \to G_d$ là liên tục và $g_{ij} g_{jk} = g_{ik}$ trên $U_i \cap U_j \cap U_k$. Vì M liên thông đơn, tồn tại các ánh xạ liên tục $\lambda_i : U_i \to G_d$ sao cho $g_i g_j^{-1} = \lambda_i \lambda_j^{-1}$ trên $U_i \cap U_j$. Đặt g là ánh xạ của M vào G có hạn chế lên $U_i$ là $\lambda_i^{-1} g_i$ với mọi $i \in I$. Ánh xạ này có lớp $C^{r-1}$ và $g^{-1} dg = \alpha$. Ánh xạ f của M vào G được xác định bởi $f = s(g(x))^{-1} g$ thỏa các điều kiện $f^{-1} \cdot df = \alpha$ và $f(x) = s$.
+Tính duy nhất của f suy ra từ § 3, no. 17, Hệ quả 2 của Mệnh đề 59 và sự kiện M liên thông. Ta chứng minh sự tồn tại của f. Tồn tại một phủ mở $(U_i)_{i \in I}$ của M và, với mọi $i \in I$, một ánh xạ $g_i : U_i \to G$ lớp $C^{r-1}$ sao cho $g_i^{-1} \cdot dg = \alpha$ trên $U_i$ (§ 4, no. 6, Định lý 5). Theo § 3, no. 17, Hệ quả 2 của Mệnh đề 59, $g_i g_j^{-1}$ là hằng địa phương trên $U_i \cap U_j$. Đặt $g_i g_j^{-1} = g_{ij}$. Cho $G_d$ là nhóm G với tôpô rời rạc. Các $g_{ij} : U_i \cap U_j \to G_d$ là liên tục và $g_{ij} g_{jk} = g_{ik}$ trên $U_i \cap U_j \cap U_k$. Vì M liên thông đơn, tồn tại các ánh xạ liên tục $\lambda_i : U_i \to G_d$ sao cho $g_i g_j^{-1} = \lambda_i \lambda_j^{-1}$ trên $U_i \cap U_j$. Đặt g là ánh xạ của M vào G có hạn chế lên $U_i$ là $\lambda_i^{-1} g_i$ với mọi $i \in I$. Ánh xạ này có lớp $C^{r-1}$ và $g^{-1} dg = \alpha$. Ánh xạ f của M vào G được xác định bởi $f = s(g(x))^{-1} g$ thỏa các điều kiện $f^{-1} \cdot df = \alpha$ và $f(x) = s$.
 
 ### 8. CHUYỂN TỪ LUẬT CỦA PHÉP TOÁN VI PHÂN SANG LUẬT PHÉP TOÁN
 

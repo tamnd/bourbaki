@@ -70,7 +70,7 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: bfa7f0c1294580da1161e3d8006e73ce80b2083e96ad5f0fe0201d96ac11b7cc
+content_sha256: afa14fce80728e1de7c45b63c7703028255d831d82b048e2bf97dce171d3d67f
 translated_from: content/en/alg/II/01_s1_modules.md
 source_content_sha256: 7397d09a718f6180624ef63d3ea605fc93db2eb8eb18c2019f1e6cb60606e9b8
 translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini
@@ -483,7 +483,7 @@ $$
 \bigoplus_{i \in I} E_i = E_p \oplus E_{p+1} \oplus \cdots \oplus E_q.
 $$
 
-Với mọi $\kappa \in I$, cho $j_\kappa$ là ánh xạ $E_\kappa \to F$ gán cho mỗi $x_\kappa \in E_\kappa$ phần tử của $F$ sao cho $\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$ với $i \neq \kappa$ và $\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$; ngay lập tức thấy rằng $j_\kappa$ là một ánh xạ tuyến tính đơn ánh của $E_\kappa$ vào tổng trực tiếp $E$ của các $E_i$, mà ta sẽ gọi là đơn ánh chính tắc; môđun con $j_\kappa(E_\kappa)$ của $E$, đẳng cấu với $E_\kappa$, được gọi là môđun con thành phần của $E$ có chỉ số $\kappa$. Nó thường được đồng nhất với $E_\kappa$ посредством $j_\kappa$.
+Với mọi $\kappa \in I$, cho $j_\kappa$ là ánh xạ $E_\kappa \to F$ gán cho mỗi $x_\kappa \in E_\kappa$ phần tử của $F$ sao cho $\mathrm{pr}_i(j_\kappa(x_\kappa)) = 0$ với $i \neq \kappa$ và $\mathrm{pr}_\kappa(j_\kappa(x_\kappa)) = x_\kappa$; ngay lập tức thấy rằng $j_\kappa$ là một ánh xạ tuyến tính đơn ánh của $E_\kappa$ vào tổng trực tiếp $E$ của các $E_i$, mà ta sẽ gọi là đơn ánh chính tắc; môđun con $j_\kappa(E_\kappa)$ của $E$, đẳng cấu với $E_\kappa$, được gọi là môđun con thành phần của $E$ có chỉ số $\kappa$. Nó thường được đồng nhất với $E_\kappa$ qua $j_\kappa$.
 
 Với mọi $x \in E = \bigoplus_{i \in I} E_i$, do đó ta có
 

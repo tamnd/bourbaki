@@ -57,7 +57,7 @@ subsections:
       pdf_page: 160
 statements: 63
 exercises: 23
-content_sha256: bfdf4b08fc966ea07af8005ee38d12ee9b54b396670463079d200bfddd213318
+content_sha256: 189965e66749ee96b2cce7d7dabbe37cdbee928d2cab22deb65f7b7ecbb01cbe
 translated_from: content/en/int/IV/04_s4_integrable_functions_and_sets.md
 source_content_sha256: 04515fb1fa953c06cc0b2f25528b8c99e5a79b5ad3a2d7ec3b4743f52081eec4
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -763,7 +763,7 @@ Chú ý rằng điều kiện (PM_{IV}) tương đương với phép hội của
 (PM'_{IV}) *Với mọi $\varepsilon > 0$ và mọi $M \in \Phi$, tồn tại một tập mở $U \supset M$ sao cho, với mọi $N \in \Phi$ được chứa trong $U$, $\alpha(N) \leq \alpha(M) + \varepsilon$.*
 (PM''_{IV}) *Với mọi $\varepsilon > 0$ và mọi $M \in \Phi$, tồn tại một tập compact $K \subset M$ sao cho, với mọi $N \in \Phi$ chứa $K$, $\alpha(N) \geq \alpha(M) - \varepsilon$.*
 
-Vì hiển nhiên, (PM'_{IV}) và (PM''_{IV}) suy ra (PM_{IV}). Ngược lại, chẳng hạn hãy ցույց minh rằng (PM_{IV}) suy ra (PM'_{IV}): cho K là một tập compact và U là một tập mở sao cho $K \subset M \subset U$ và $|\alpha(P) - \alpha(M)| \leq \varepsilon$ với mọi $P \in \Phi$ thỏa mãn $K \subset P \subset U$. Khi đó, nếu $N \in \Phi$ và $N \subset U$, thì $M \cup N$ thuộc $\Phi$ và $K \subset M \cup N \subset U$, do đó $\alpha(M \cup N) \leq \alpha(M) + \varepsilon$ và *a fortiori* $\alpha(N) \leq \alpha(M) + \varepsilon$.
+Vì hiển nhiên, (PM'_{IV}) và (PM''_{IV}) suy ra (PM_{IV}). Ngược lại, chẳng hạn hãy chứng minh rằng (PM_{IV}) suy ra (PM'_{IV}): cho K là một tập compact và U là một tập mở sao cho $K \subset M \subset U$ và $|\alpha(P) - \alpha(M)| \leq \varepsilon$ với mọi $P \in \Phi$ thỏa mãn $K \subset P \subset U$. Khi đó, nếu $N \in \Phi$ và $N \subset U$, thì $M \cup N$ thuộc $\Phi$ và $K \subset M \cup N \subset U$, do đó $\alpha(M \cup N) \leq \alpha(M) + \varepsilon$ và *a fortiori* $\alpha(N) \leq \alpha(M) + \varepsilon$.
 
 Khi tập $\Phi$, thỏa mãn (PC_I) và (PC_{II}), gồm các tập *compact*, thì điều kiện (PM''_{IV}) được thỏa mãn hiển nhiên, và khi đó (PM_{IV}) tương đương với (PM'_{IV}).
 

@@ -48,7 +48,7 @@ subsections:
       pdf_page: 29
 statements: 19
 exercises: 27
-content_sha256: 3bc5d34d57a845b4f68955fd50c8b1672d5da0c84bcee930e6b873f3e14a854b
+content_sha256: 507dab0c72aa73204422fd06bb8d45d5704beaf345630caf3b9cbddf560c87fc
 translated_from: content/en/lie/I/01_s1_definition_of_lie_algebras.md
 source_content_sha256: 6f24a032c35720d8217f4a61a4f790ea698f94a79a12e0f692ee1ad01c4e55e0
 translation_model: gpt-5.4

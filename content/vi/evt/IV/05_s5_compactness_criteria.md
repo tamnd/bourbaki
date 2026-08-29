@@ -33,10 +33,10 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: 7ed8812d2f5b1d7e282558e3f425040ac7523654371e779a2bac9789b3a0bdc4
+content_sha256: 1ccd4005333c45b7cce68bdfa3ed4589efa23d23d165a7538e07c1da6a09f18b
 translated_from: content/en/evt/IV/05_s5_compactness_criteria.md
-source_content_sha256: 74acd4eb366456136b6614676effa587ce4c4fa1a461711a3f53b2c158904c50
-translation_model: gpt-5-6-mini, gpt-5-6
+source_content_sha256: 085907c281af7d744d2befbb56e8c8769664852f8594f22c451a42a9eddf61e0
+translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-659a8e67
 glossary_version: 34
 glossary_terms_sha256: 7a5d3a55190fa97aec2bdad72c890c7e12f1eeea8b1a2f26da5ea15a9aa177bb
@@ -136,95 +136,95 @@ Cuối cùng, từ (1)$_m$, ta được $|\gamma - u(a)| \geq \varepsilon$, và 
 
 Giả sử bây giờ rằng mọi dãy vô hạn các điểm của A đều có một điểm giới hạn đối với $\mathcal{T}$, do đó cũng đối với tôpô thô hơn $\sigma(E, E')$. Khi đó A là tiền compact đối với $\mathcal{T}$ (IV, p. 32, mệnh đề 1); để A tương đối compact đối với $\mathcal{T}$, điều kiện cần và đủ là nó tương đối compact đối với $\sigma(E, E')$ (*loc. cit.*). Do đó đủ để chứng minh định lý khi $\mathcal{T}$ là tôpô yếu $\sigma(E, E')$.
 
-Cho $\hat{E}$ là phần hoàn thành của E, mà ta sẽ đồng nhất như thường lệ với một không gian con của đối ngẫu đại số ${E'}^*$ của E' (III, p. 21, định lý 2). Kí hiệu $E_\sigma$, $\hat{E}_\sigma$ và $E_{\sigma'}^*$ là các không gian E, $\hat{E}$ và ${E'}^*$ được trang bị tương ứng các tôpô $\sigma(E, E')$, $\sigma(\hat{E}, E')$ và $\sigma({E'}^*, E')$.
+Kí hiệu $\hat{E}$ là hoàn thành của E, mà như thường lệ ta sẽ đồng nhất với một không gian con của đối ngẫu đại số ${E'}^*$ của E' (III, p. 21, đ.l. 2). Kí hiệu $E_\sigma$, $\hat{E}_\sigma$ và ${E_\sigma'}^*$ lần lượt là các không gian E, $\hat{E}$ và ${E'}^*$ được trang bị các tôpô $\sigma(E, E')$, $\sigma(\hat{E}, E')$ và $\sigma({E'}^*, E')$.
 
-Cho $(x'_i)_{i \in I}$ là một cơ sở của không gian vectơ E' trên trường K. Ánh xạ $f \mapsto (f(x'_i))_{i \in I}$ là một đồng phôi $\phi$ từ $E_{\sigma'}^*$ lên $K^I$; với mỗi $i \in I$, ảnh của A dưới ánh xạ $x'_i$ từ E vào K là tương đối compact : vì K mêtric hóa được và mọi dãy vô hạn các phần tử của $x'_i(A)$ đều có một điểm giới hạn. Suy ra rằng $\phi(A)$ là tương đối compact trong $K^I$, do đó bao đóng $\overline{A}$ của A trong $E_{\sigma'}^*$ là compact.
+Cho $(x'_i)_{i \in I}$ là một cơ sở của không gian vectơ E' trên trường K. Ánh xạ $f \mapsto (f(x'_i))_{i \in I}$ là một đồng phôi $\phi$ từ ${E_\sigma'}^*$ lên $K^I$; với mọi $i \in I$, ảnh của A dưới ánh xạ $x'_i$ từ E vào K là tương đối compact: thật vậy, K khả mê và mọi dãy vô hạn các phần tử của $x'_i(A)$ đều có một điểm giới hạn. Suy ra $\phi(A)$ là tương đối compact trong $K^I$, do đó bao đóng $\overline{A}$ của A trong ${E_\sigma'}^*$ là compact.
 
-*Tiếp theo ta sẽ chứng minh rằng $\overline{A}$ được chứa trong $\hat{E}$.* Cho H là một tập hợp cân bằng liên tục của E'; cho X là bao đóng của nó đối với $\sigma(E', E)$; X là compact (III, p. 17, hệ quả 2). Với mọi $x \in {E'}^*$, kí hiệu $\phi_x$ là hạn chế của $x' \mapsto \langle x, x' \rangle$ lên X; cho $\tilde{A} \subset \mathscr{C}_s(X)$ là tập hợp các hàm $\phi_x$ khi x chạy trên A. Theo giả thiết về A, mọi dãy vô hạn các phần tử của $\tilde{A}$ đều có một điểm giới hạn trong $\mathscr{C}_s(X)$; theo mệnh đề 2 (IV, p. 33), tập hợp $\tilde{A}$ do đó là tương đối compact trong $\mathscr{C}_s(X)$. *Suy ra rằng với mọi $a \in \overline{A}$, hàm $\phi_a$ trên X là liên tục.* Bao hàm $\overline{A} \subset \hat{E}$ sau đó suy ra từ định lý 2 của III, p. 21.
+*Tiếp theo ta sẽ chứng minh rằng $\overline{A}$ được chứa trong $\hat{E}$.* Cho H là một tập hợp đều liên tục của E'; gọi X là bao đóng của nó đối với $\sigma(E', E)$; X là compact (III, p. 17, h.q. 2). Với mọi $x \in {E'}^*$, gọi $\phi_x$ là hạn chế của $x' \mapsto \langle x, x' \rangle$ lên X; gọi $\tilde{A} \subset \mathscr{C}_s(X)$ là tập hợp các hàm $\phi_x$ khi x chạy trong A. Do giả thiết trên A, mọi dãy vô hạn các phần tử của $\tilde{A}$ đều có một điểm giới hạn trong $\mathscr{C}_s(X)$; theo m.đ. 2 (IV, p. 33), vì thế tập hợp $\tilde{A}$ là tương đối compact trong $\mathscr{C}_s(X)$. *Suy ra rằng với mọi $a \in \overline{A}$, hàm $\phi_a$ trên X là liên tục.* Khi đó phép bao hàm $\overline{A} \subset \hat{E}$ suy ra từ đ.l. 2 của III, p. 21.
 
-*Bây giờ ta sẽ chỉ ra rằng $\overline{A}$ được chứa trong E.* Vì A là tiền compact trong $E_\sigma$ (IV, p. 32, mệnh đề 1), nó bị chặn trong $E_\sigma$ (III, p. 3, mệnh đề 2), do đó cũng bị chặn trong E (IV, p. 1, mệnh đề 1). Cho C là bao lồi cân bằng đóng của A trong E. Khi đó C bị chặn vì A bị chặn, do đó đầy đủ vì E là giả đầy đủ. Nói cách khác, C là một tập hợp lồi và đóng của $\hat{E}$, do đó cũng của $\hat{E}_\sigma$ (IV, p. 1, mệnh đề 1). Vì $A \subset C$ và tôpô của $\hat{E}_\sigma$ được cảm sinh bởi tôpô của $E_{\sigma'}^*$, ta có $\overline{A} \subset C$, và do đó $\overline{A} \subset E$.
+*Bây giờ ta sẽ chỉ ra rằng $\overline{A}$ được chứa trong E.* Vì A là tiền compact trong $E_\sigma$ (IV, p. 32, m.đ. 1), nên nó bị chặn trong $E_\sigma$ (III, p. 3, m.đ. 2), do đó cũng bị chặn trong E (IV, p. 1, m.đ. 1). Gọi C là bao lồi cân bằng đóng của A trong E. Khi đó C bị chặn vì A bị chặn, nên đầy đủ vì E là quasi-complete. Nói cách khác, C là một tập con lồi và đóng của $\hat{E}$, do đó cũng của $\hat{E}_\sigma$ (IV, p. 1, m.đ. 1). Vì $A \subset C$ và tôpô của $\hat{E}_\sigma$ được cảm sinh bởi tôpô của ${E_\sigma'}^*$, nên ta có $\overline{A} \subset C$, và vì thế $\overline{A} \subset E$.
 
-Vì tôpô của $E_\sigma$ được cảm sinh bởi tôpô của ${E'_\sigma}^*$, tập con $\overline{A}$ của $E_\sigma$ là compact, và định lý 1 được suy ra.
+Vì tôpô của $E_\sigma$ được cảm sinh bởi tôpô của ${E'_\sigma}^*$, tập con $\overline{A}$ của $E_\sigma$ là compact, và đ.l. 1 được chứng minh.
 
-**Định lý 2 (Šmulian).** — *Cho E là một không gian Fréchet và A là một tập con của E. Cho $E_\sigma$ là không gian E được trang bị tôpô yếu. Các điều kiện sau là tương đương* :
+**Định lý 2 (Šmulian).** — *Cho E là một không gian Fréchet và A là một tập con của E. Gọi $E_\sigma$ là không gian E được trang bị tôpô yếu hơn. Các điều kiện sau là tương đương* :
 
 (i) *A là tương đối compact trong $E_\sigma$;*
 (ii) *mọi dãy vô hạn các điểm của A đều có một điểm giới hạn trong $E_\sigma$;*
 (iii) *từ mọi dãy vô hạn các điểm của A, ta có thể trích ra một dãy hội tụ trong $E_\sigma$.*
 
-Sự tương đương của (i) và (ii) suy ra từ định lý Eberlein và (iii) hiển nhiên kéo theo (ii).
+Tính tương đương của (i) và (ii) suy ra từ định lý Eberlein, và (iii) hiển nhiên suy ra (ii).
 
-Chúng ta sẽ chứng minh rằng (i) kéo theo (iii). Giả sử rằng bao đóng B của A trong $E_\sigma$ là compact và rằng $(x_n)_{n \in \mathbf{N}}$ là một dãy các điểm của A. Gọi F là không gian vectơ con đóng nhỏ nhất của E chứa các $x_n$, đây là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất. Vì F là đóng trong $E_\sigma$ và tôpô $\sigma(F, F')$ trên F được cảm sinh bởi $\sigma(E, E')$, tập hợp $B \cap F$ là compact đối với $\sigma(F, F')$. Theo các nhận xét trong IV, p. 32, sự tồn tại của một dãy trích ra từ $(x_n)_{n \in \mathbf{N}}$ hội tụ đối với $\sigma(E, E')$ (hoặc, điều này là tương đương, đối với $\sigma(F, F')$) là một hệ quả của bổ đề sau :
+Chúng tôi sẽ chứng minh rằng (i) kéo theo (iii). Giả sử bao đóng B của A trong $E_\sigma$ là compact và $(x_n)_{n \in \mathbf{N}}$ là một dãy các điểm của A. Ký hiệu F là không gian con vectơ đóng nhỏ nhất của E chứa các $x_n$, đó là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất. Vì F đóng trong $E_\sigma$ và tôpô $\sigma(F, F')$ trên F được cảm sinh bởi $\sigma(E, E')$, tập $B \cap F$ là compact đối với $\sigma(F, F')$. Theo các nhận xét ở IV, p. 32, sự tồn tại của một dãy trích từ $(x_n)_{n \in \mathbf{N}}$ hội tụ đối với $\sigma(E, E')$ (hay, điều này cũng thế, đối với $\sigma(F, F')$) là một hệ quả của bổ đề sau:
 
 #### Bổ đề 1 {#evt-iv-s5-lem-1 .statement}
 
-— *Cho F là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất. Mọi tập con C của F compact đối với tôpô $\mathcal{T}$ cảm sinh bởi $\sigma(F, F')$ đều là mêtric đối với tôpô này.*
+— *Cho F là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất. Mọi tập con C của F compact đối với tôpô $\mathcal{T}$ cảm sinh bởi $\sigma(F, F')$ đều khả mê đối với tôpô này.*
 
-Vì tôpô của sự hội tụ tiền compact trên $F'$ mịn hơn tôpô $\sigma(F', F)$, tồn tại một tập con đếm được trù mật khắp nơi trong $F'_s$ (III, p. 18, hệ quả 1). Do đó tập hợp C có thể được đồng nhất với một tập con của $K^D$, và tôpô cảm sinh trên C bởi tôpô của $K^D$, là mêtric (GT, IX, § 2, No. 8), thô hơn tôpô cảm sinh bởi $\sigma(F, F')$, đối với tôpô này C là compact. Suy ra hai tôpô này trùng nhau (GT, I, § 9, No. 4, hệ quả 3).
+Vì tôpô hội tụ tiền compact trên $F'$ mịn hơn tôpô $\sigma(F', F)$, tồn tại một tập con đếm được trù mật khắp nơi trong $F'_s$ (III, p. 18, hệ quả 1). Do đó tập C có thể được đồng nhất với một tập con của $K^D$, và tôpô cảm sinh trên C bởi tôpô của $K^D$, vốn khả mê (GT, IX, § 2, No. 8), là thô hơn tôpô cảm sinh bởi $\sigma(F, F')$, đối với tôpô này C là compact. Vậy hai tôpô ấy là đồng nhất (GT, I, § 9, No. 4, hệ quả 3).
 
-Định lý Šmulian có thể được mở rộng sang trường hợp E là giới hạn quy nạp ngặt của một dãy các không gian Fréchet (IV, p. 67, bài tập 2).
+Định lý của Šmulian có thể được mở rộng cho trường hợp E là giới hạn quy nạp ngặt của một dãy các không gian Fréchet (IV, p. 67, bài tập 2).
 
-### *4. Trường hợp các không gian các hàm liên tục bị chặn*
+### \*4. Trường hợp các không gian các hàm liên tục bị chặn*
 
-Với mọi không gian tôpô X, ký hiệu $\mathscr{C}^b(X)$ là không gian Banach của tất cả các ánh xạ liên tục và *bị chặn* từ X vào K, với chuẩn được xác định bởi
+Với mọi không gian tôpô X, ký hiệu $\mathscr{C}^b(X)$ là không gian Banach gồm mọi ánh xạ liên tục và *bị chặn* từ X vào K, với chuẩn được xác định bởi
 
 $$
 \| f \| = \sup_{x \in X} |f(x)|
 $$
 
-(GT, X, § 3, No. 2). Khi X compact, mọi hàm liên tục trên X đều bị chặn (GT, IV, § 6, No. 1), và ta viết $\mathscr{C}(X)$ cho $\mathscr{C}^b(X)$.
+(GT, X, § 3, No. 2). Khi X compact, mọi hàm liên tục trên X đều bị chặn (GT, IV, § 6, No. 1), và ta viết $\mathscr{C}(X)$ thay cho $\mathscr{C}^b(X)$.
 
-Trong tiết diện này và tiết diện sau, ta sẽ sử dụng bổ đề sau, là một trường hợp riêng của định lý Lebesgue (INT, IV, ấn bản thứ 2. § 4, No. 3, th. 2) do cách diễn giải các phần tử của $\mathscr{C}(X)'$ như các độ đo trên X.
+Trong tiết diện này và tiết diện tiếp theo, chúng tôi sẽ dùng bổ đề sau, là một trường hợp riêng của định lý Lebesgue (INT, IV, 2nd ed. § 4, No. 3, th. 2) do cách diễn giải các phần tử của $\mathscr{C}(X)'$ như những độ đo trên X.
 
 #### Bổ đề 2 {#evt-iv-s5-lem-2 .statement}
 
-Cho X là một không gian compact. Nếu một dãy $(f_n)_{n \in \mathbf{N}}$ bị chặn trong $C(X)$ và hội tụ đơn giản trên X đến một hàm liên tục f, thì $\mu(f) = \lim_{n \to \infty} \mu(f_n)$ đối với mọi $\mu$ trong $C(X)'$.
+Cho X là một không gian compact. Nếu một dãy $(f_n)_{n \in \mathbf{N}}$ bị chặn trong $C(X)$ và hội tụ đơn điểm trên X tới một hàm liên tục f, thì $\mu(f) = \lim_{n \to \infty} \mu(f_n)$ với mọi $\mu$ trong $C(X)'$.
 
 #### Mệnh đề 3 {#evt-iv-s5-prop-3 .statement}
 
-Cho X là một không gian compact, và cho A là một tập con bị chặn của $C(X)$. Để A tương đối compact đối với tôpô của sự hội tụ đơn giản, điều kiện cần và đủ là nó tương đối compact đối với $\sigma(C(X), C(X)')$.
+Cho X là một không gian compact, và A là một tập con bị chặn của $C(X)$. Để A compact tương đối đối với tôpô hội tụ đơn điểm, điều kiện cần và đủ là A compact tương đối đối với $\sigma(C(X), C(X)')$.
 
-Tôpô của sự hội tụ đơn giản là Hausdorff và thô hơn $\sigma(C(X), C(X)')$, do đó điều kiện đã nêu là đủ (GT, I, § 9, No. 4, hệ quả 3).
+Tôpô hội tụ đơn điểm là Hausdorff và thô hơn $\sigma(C(X), C(X)')$, vì thế điều kiện đã nêu là đủ (GT, I, § 9, No. 4, hệ quả 3).
 
-Bây giờ giả sử rằng A tương đối compact đối với tôpô của sự hội tụ đơn giản. Cho $(f_n)_{n \in \mathbf{N}}$ là một dãy các phần tử của A. Theo mệnh đề 2 (IV, p. 33), tồn tại một dãy $(f_{n_k})$ trích ra từ $(f_n)$ và hội tụ đơn giản đến một hàm liên tục f. Theo bổ đề 2, dãy bị chặn $(f_{n_k})$ tiến đến f đối với $\sigma(C(X), C(X)')$. Khi đó định lý Šmulian (IV, p. 36, th. 2) chỉ ra rằng A tương đối compact đối với $\sigma(C(X), C(X)')$.
+Bây giờ giả sử rằng A compact tương đối đối với tôpô hội tụ đơn điểm. Cho $(f_n)_{n \in \mathbf{N}}$ là một dãy các phần tử của A. Theo mệnh đề 2 (IV, p. 33), tồn tại một dãy $(f_{n_k})$ trích từ $(f_n)$ và hội tụ đơn điểm tới một hàm liên tục f. Theo bổ đề 2, dãy bị chặn $(f_{n_k})$ tiến tới f đối với $\sigma(C(X), C(X)')$. Khi đó định lý của Šmulian (IV, p. 36, th. 2) cho thấy rằng A compact tương đối đối với $\sigma(C(X), C(X)')$.
 
 #### Hệ quả {#evt-iv-s5-n4-cor-1 .statement}
 
 Cho S là một không gian tôpô và A là một tập con bị chặn của $C^b(S)$. Các điều kiện sau là tương đương :
-(i) A tương đối compact đối với $\sigma(C^b(S), C^b(S'))$;
+(i) A compact tương đối đối với $\sigma(C^b(S), C^b(S'))$;
 (ii) nếu $(f_n)_{n \in \mathbf{N}}$ là một dãy các phần tử của A và $(x_m)_{m \in \mathbf{N}}$ là một dãy các điểm của S sao cho các giới hạn lặp
 $$
 \gamma = \lim_{m \to \infty} \lim_{n \to \infty} f_n(x_m), \quad \delta = \lim_{n \to \infty} \lim_{m \to \infty} f_n(x_m)
 $$
 tồn tại, thì $\gamma = \delta$.
 
-Cho X là compact hóa Stone-Čech của S (GT, IX, § 1, No. 6) và $\alpha$ là ánh xạ chính tắc từ S vào X. Đặt D = $\alpha(S)$. Ánh xạ $\phi : f \mapsto f \circ \alpha$ là một đẳng cấu từ không gian định chuẩn $C(X)$ lên không gian định chuẩn $C^b(S)$; đặt $\tilde{A} = \phi^{-1}(A)$. Vì X compact và D trù mật trong X, mệnh đề 2 (IV, p. 33) chỉ ra rằng điều kiện (ii) tương đương với tính compact của $\tilde{A}$ đối với tôpô của sự hội tụ đơn giản. Sự tương đương của (i) và (ii) sau đó suy ra từ mệnh đề 3. \*
+Cho X là compact hóa Stone-Čech của S (GT, IX, § 1, No. 6) và $\alpha$ là ánh xạ chính tắc từ S vào X. Đặt D = $\alpha(S)$. Ánh xạ $\phi : f \mapsto f \circ \alpha$ là một đẳng cấu từ không gian định chuẩn $C(X)$ lên không gian định chuẩn $C^b(S)$; đặt $\tilde{A} = \phi^{-1}(A)$. Vì X compact và D trù mật trong X, mệnh đề 2 (IV, p. 33) cho thấy rằng điều kiện (ii) tương đương với tính compact của $\tilde{A}$ đối với tôpô hội tụ đơn điểm. Khi đó tính tương đương của (i) và (ii) suy ra từ mệnh đề 3. \*
 
-### *5. Bao lồi của một tập compact yếu
+### \*5. Bao lồi của một tập compact yếu
 
 #### Định lý 3 (Krein) {#evt-iv-s5-thm-3 .statement}
 
-Cho E là một không gian lồi địa phương Hausdorff và quasi-đầy đủ, và cho $\mathcal{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và E'. Cho A là một tập con của E compact đối với $\mathcal{T}$. Khi đó bao lồi cân bằng đóng C của A là compact đối với $\mathcal{T}$.
+Cho E là một không gian lồi địa phương Hausdorff và gần đầy đủ, và cho $\mathcal{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và E'. Cho A là một tập con của E compact đối với $\mathcal{T}$. Khi đó bao lồi cân bằng đóng C của A là compact đối với $\mathcal{T}$.
 
-Trước hết chúng ta sẽ thực hiện một số phép rút gọn.
-A) Tập hợp C là tiền compact đối với $\mathcal{T}$ (II, p. 25, Mệnh đề 3), và A là compact đối với $\sigma(E, E')$. Do Mệnh đề 1 (IV, p. 32), chỉ cần chứng minh rằng C là compact đối với $\sigma(E, E')$, và như vậy ta đã quy về trường hợp $\mathcal{T} = \sigma(E, E')$.
-B) Vì C là tiền compact và đóng đối với $\sigma(E, E')$, nên nó bị chặn và đóng đối với tôpô ban đầu của E (III, p. 3, Mệnh đề 2 và IV, p. 1, Mệnh đề 1); do đó nó đầy đủ vì E là giả đầy đủ. Nói cách khác, C là bao lồi cân bằng đóng của $A$ trong phần đầy đủ $\hat{E}$ của $E$. Vì tôpô $\sigma(\hat{E}, E')$ cảm sinh $\sigma(E, E')$ trên $E$, ta đã quy về *trường hợp khi $E$ đầy đủ*.
+Trước hết ta sẽ thực hiện vài phép quy giản.
+A) Tập hợp C là tiền compact đối với $\mathcal{T}$ (II, p. 25, mệnh đề 3), và A là compact đối với $\sigma(E, E')$. Theo mệnh đề 1 (IV, p. 32), chỉ cần chứng minh rằng C là compact đối với $\sigma(E, E')$, và như vậy ta đã quy về trường hợp $\mathcal{T} = \sigma(E, E')$.
+B) Vì C là tiền compact và đóng đối với $\sigma(E, E')$, nó bị chặn và đóng đối với tôpô ban đầu của E (III, p. 3, mệnh đề 2 và IV, p. 1, mệnh đề 1); do đó nó đầy đủ vì E là gần đầy đủ. Nói cách khác, C là bao lồi cân bằng đóng của $A$ trong đầy đủ hóa $\hat{E}$ của $E$. Vì tôpô $\sigma(\hat{E}, E')$ cảm sinh $\sigma(E, E')$ trên $E$, ta đã quy về *trường hợp $E$ là đầy đủ*.
 
-C) Gọi $\Gamma$ là bao lồi cân bằng của $A$. Khi đó C là bao đóng của $\Gamma$ đối với $\sigma(E, E')$. Theo định lý Eberlein (IV, p. 35, định lý 1), chỉ cần chứng minh rằng mọi dãy $(x_n)_{n \in \mathbf{N}}$ các điểm của $\Gamma$ đều có một điểm giới hạn đối với $\sigma(E, E')$ trong E. Nhưng $x_n$ thuộc bao lồi cân bằng của một tập con hữu hạn $B_n$ của $A$. Gọi $F$ là không gian con vectơ đóng của E sinh bởi tập hợp đếm được $B = \bigcup_n B_n$. Khi đó F đầy đủ, tôpô $\sigma(F, F')$ trên F được cảm sinh bởi $\sigma(E, E')$ và ta có $x_n \in F$ với mọi $n \in \mathbf{N}$. Do đó chỉ cần chứng minh rằng $(x_n)_{n \in \mathbf{N}}$ có một điểm giới hạn đối với $\sigma(F, F')$, điều này đưa đến phép rút gọn về *trường hợp khi tồn tại một tập hợp trù mật đếm được trong $E$*.
+C) Kí hiệu $\Gamma$ là bao lồi cân bằng của $A$. Khi đó $C$ là bao đóng của $\Gamma$ đối với $\sigma(E, E')$. Theo định lý Eberlein (IV, p. 35, định lý 1), chỉ cần chứng minh rằng mọi dãy $(x_n)_{n \in \mathbf{N}}$ các điểm của $\Gamma$ đều có một điểm giới hạn đối với $\sigma(E, E')$ trong $E$. Nhưng $x_n$ thuộc bao lồi cân bằng của một tập con hữu hạn $B_n$ của $A$. Gọi $F$ là không gian con vectơ đóng của $E$ được sinh bởi tập đếm được $B = \bigcup_n B_n$. Khi đó $F$ là đầy đủ, tôpô $\sigma(F, F')$ trên $F$ được cảm sinh bởi $\sigma(E, E')$ và ta có $x_n \in F$ với mọi $n \in \mathbf{N}$. Vậy chỉ cần chứng minh rằng $(x_n)_{n \in \mathbf{N}}$ có một điểm giới hạn đối với $\sigma(F, F')$, điều này cho phép quy về *trường hợp trong $E$ tồn tại một tập trù mật đếm được*.
 
-Gán cho $A$ tôpô cảm sinh bởi $\sigma(E, E')$, điều này làm cho nó trở thành một không gian compact. Ta định nghĩa một ánh xạ tuyến tính $u : E' \to \mathcal{C}(A)$ bởi
+Trang bị cho $A$ tôpô cảm sinh bởi $\sigma(E, E')$, khiến nó trở thành một không gian compact. Ta định nghĩa một ánh xạ tuyến tính $u : E' \to \mathcal{C}(A)$ bởi
 
 $$
 u(x')(a) = \langle a, x' \rangle \quad (a \in A, x' \in E') .
 $$
 
-Cho $(x'_n)_{n \in \mathbf{N}}$ là một dãy liên tục đều trong $E'$, hội tụ về 0 đối với $\sigma(E', E)$. Khi đó dãy các hàm $u(x'_n)$ bị chặn trong $\mathcal{C}(A)$ và hội tụ đơn giản về 0. Với mọi $\mu \in \mathcal{C}(A)'$, ta có $\lim_{n \to \infty} \mu(u(x'_n)) = 0$ theo bổ đề 2 (IV, p. 37). Theo tiêu chuẩn được nêu trong nhận xét ở III, p. 21, dạng tuyến tính $\mu \circ u$ trên $E'$ khi đó liên tục đối với $\sigma(E', E)$ với mọi $\mu \in \mathcal{C}(A)'$. Do đó tồn tại một ánh xạ tuyến tính $v : \mathcal{C}(A)' \to E$ thỏa mãn quan hệ
+Gọi $(x'_n)_{n \in \mathbf{N}}$ là một dãy đẳng liên tục trong $E'$, hội tụ về 0 đối với $\sigma(E', E)$. Khi đó dãy các hàm $u(x'_n)$ bị chặn trong $\mathcal{C}(A)$ và hội tụ đơn giản về 0. Với mọi $\mu \in \mathcal{C}(A)'$, ta có $\lim_{n \to \infty} \mu(u(x'_n)) = 0$ theo bổ đề 2 (IV, p. 37). Theo tiêu chuẩn được nêu trong nhận xét ở III, p. 21, dạng tuyến tính $\mu \circ u$ trên $E'$ khi đó liên tục đối với $\sigma(E', E)$ với mọi $\mu \in \mathcal{C}(A)'$. Do đó tồn tại một ánh xạ tuyến tính $v : \mathcal{C}(A)' \to E$ thỏa mãn quan hệ
 
 $$
 \langle u(x'), \mu \rangle = \langle v(\mu), x' \rangle \quad (x' \in E', \mu \in \mathcal{C}(A)') .
 $$
 
-Hiển nhiên rằng $v$ là liên tục nếu $\mathcal{C}(A)'$ được gán tôpô $\sigma(\mathcal{C}(A)', \mathcal{C}(A))$ và E tôpô $\sigma(E, E')$.
+Hiển nhiên $v$ là liên tục nếu $\mathcal{C}(A)'$ được trang bị tôpô $\sigma(\mathcal{C}(A)', \mathcal{C}(A))$ và $E$ tôpô $\sigma(E, E')$.
 
 Quả cầu đơn vị (đóng) $B$ của không gian Banach $\mathcal{C}(A)$ là compact đối với tôpô $\sigma(\mathcal{C}(A)', \mathcal{C}(A))$ (III, p. 17, hệ quả 3). Do đó, $v(B)$ là một tập con lồi, cân bằng và compact của $E$ đối với $\sigma(E, E')$. Với mọi $a \in A$, dạng tuyến tính liên tục $\varepsilon_a : f \mapsto f(a)$ trên $\mathcal{C}(A)$ thuộc $B$, và ta có $v(\varepsilon_a) = a$ theo các công thức (7) và (8). Suy ra, $A \subset v(B)$, và do đó $C \subset v(B)$. Điều này chứng minh rằng $C$ là compact đối với $\sigma(E, E')$.
 

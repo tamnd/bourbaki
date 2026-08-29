@@ -45,7 +45,7 @@ subsections:
       pdf_page: 22
 statements: 30
 exercises: 5
-content_sha256: 33b28bc8fdbd31d98697335adac9946a1d86f543851ea3c0bac5a927659ac75f
+content_sha256: 5cb25d4bdd8879a58d3b20e9dc6358f14374649d19a9278ed2d4e87cc2604ad6
 translated_from: content/en/alg/IV/01_s1_polynomials.md
 source_content_sha256: 78a1c956c17e8c6954812712d02a47970dfa87cf440c161f1bac0e40ebfcd00f
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -511,7 +511,7 @@ Nói rằng $f$ và $g$ nguyên tố cùng nhau do đó có nghĩa là tồn t�
 — Cho K là một trường giao hoán. Ta nói rằng $f \in K[X]$ là bất khả quy nếu $\deg f \geq 1$ và f không chia hết cho bất kỳ đa thức g nào sao cho $0 < \deg g < \deg f$.
     Nói như vậy cũng tương đương với việc nói rằng $\deg f \geq 1$ và các ước duy nhất của f trong $K[X]$ là các vô hướng $\neq 0$ và các tích của f với các vô hướng $\neq 0$. Vì quan hệ $(f) \subset (g)$ có nghĩa là g chia hết f, ta thấy rằng các đa thức bất khả quy của $K[X]$ cũng có thể được định nghĩa là các đa thức f sao cho iđêan $(f)$ là cực đại (I, p. 104).
 
-    Cho $f, g \in K[X]$. Nếu f là bất khả quy thì hiển nhiên либо f và g nguyên tố cùng nhau, hoặc f chia hết g. Nếu f và g là bất khả quy, thì hoặc f và g nguyên tố cùng nhau, hoặc mỗi đa thức là tích của đa thức kia với một vô hướng $\neq 0$. Đặc biệt, hai đa thức đơn nhất bất khả quy phân biệt là nguyên tố cùng nhau.
+    Cho $f, g \in K[X]$. Nếu f là bất khả quy thì hiển nhiên hoặc f và g nguyên tố cùng nhau, hoặc f chia hết g. Nếu f và g là bất khả quy, thì hoặc f và g nguyên tố cùng nhau, hoặc mỗi đa thức là tích của đa thức kia với một vô hướng $\neq 0$. Đặc biệt, hai đa thức đơn nhất bất khả quy phân biệt là nguyên tố cùng nhau.
 
 #### Mệnh đề 13 {#alg-iv-s1-prop-13 .statement}
 

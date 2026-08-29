@@ -12,7 +12,7 @@ pdf_pages: 0004-0006
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f73c759bf2680fc3dd41f14eaffc9f07996d666f81c44b7a0f5f777b040a0c27
+content_sha256: 0b7b4874543c4b1c022753df5b3549321332349ffebf20695d43d3017ad5a5da
 ---
 
 ## TO THE READER
@@ -46,7 +46,7 @@ To avoid tedious repetitions it is sometimes convenient to introduce notations o
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ("dangerous bend").
 
-7. The Exercises are designed both to enable the reader to satisfy himself that he has digested the text and to bring to his attention results that have no place in the text but are nevertheless of interest. The most difficult exercises bear the sign $\|$.
+7. The Exercises are designed both to enable the reader to satisfy himself that he has digested the text and to bring to his attention results that have no place in the text but are nevertheless of interest. The most difficult exercises bear the sign ¶.
 
 8. In general, we have adhered to the commonly accepted terminology, except where there appeared to be good reasons for deviating from it.
 

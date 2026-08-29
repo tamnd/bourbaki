@@ -50,7 +50,7 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 9
-content_sha256: e4246aabc22e9b5a012b46525a8725bdae17e04a11c274f12006eb2cc719d3fe
+content_sha256: 13faf83948b10415867babfd939c75d597ab2f89e06f87902a4aeb25f4ee7e41
 translated_from: content/en/alg/VII/04_s4_finitely_generated_modules_over_a.md
 source_content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
 translation_model: gpt-5.4, gpt-5-mini, gpt-5-6-mini
@@ -297,7 +297,7 @@ Cho $\mathfrak{a}$ là một iđêan trái của vành A; các môđun con của
 
 — Cho $A$ là một vành giao hoán, cho $\mathfrak{p}$ là một iđêan nguyên tố của $A$ (I, p. 117, Định nghĩa 3), và cho $q$ là một iđêan của $A$ được chứa trong $\mathfrak{p}$. Giả sử rằng với mọi $x \in \mathfrak{p}$ tồn tại một số nguyên $n > 0$ sao cho $x^n \in q$. Khi đó A-môđun $A/q$ là không phân tích được.
 
-Cho $b$ và $c$ là hai iđêan của $A$, sao cho $A = b + c$ và $b \cap c = q$. Khi đó $bc \subset b \cap c = q \subset \mathfrak{p}$; nếu $x \notin \mathfrak{p}$ và $x \in c$, thì $xb \subset p$, nên $b \subset \mathfrak{p}$ (I, p. 316, Mệnh đề 4); do đó либо $b \subset \mathfrak{p}$ hoặc $c \subset p$. Chẳng hạn giả sử rằng $c \subset \mathfrak{p}$, nên $b + p = A$; khi đó tồn tại $x \in b$ và $y \in \mathfrak{p}$ sao cho $1 = x + y$; lấy $n \in \mathbf{N}$ sao cho $y^n \in q$; khi đó $1 = (x + y)^n$. vậy $1 \in xA + y^nA \subset b + q \subset b$, nên $b = A$. Bổ đề 2 khi đó cho thấy rằng $A/q$ là không phân tích được.
+Cho $b$ và $c$ là hai iđêan của $A$, sao cho $A = b + c$ và $b \cap c = q$. Khi đó $bc \subset b \cap c = q \subset \mathfrak{p}$; nếu $x \notin \mathfrak{p}$ và $x \in c$, thì $xb \subset p$, nên $b \subset \mathfrak{p}$ (I, p. 316, Mệnh đề 4); do đó hoặc $b \subset \mathfrak{p}$ hoặc $c \subset p$. Chẳng hạn giả sử rằng $c \subset \mathfrak{p}$, nên $b + p = A$; khi đó tồn tại $x \in b$ và $y \in \mathfrak{p}$ sao cho $1 = x + y$; lấy $n \in \mathbf{N}$ sao cho $y^n \in q$; khi đó $1 = (x + y)^n$. vậy $1 \in xA + y^nA \subset b + q \subset b$, nên $b = A$. Bổ đề 2 khi đó cho thấy rằng $A/q$ là không phân tích được.
 
 Bây giờ giả sử rằng $A$ là một miền iđêan chính; theo VII, p. 2, Mệnh đề 2, các iđêan nguyên tố của $A$ là các iđêan $(p)$, trong đó $p$ là một phần tử bất khả quy của $A$, và iđêan $0$; theo mệnh đề trước, các môđun $A$ và $A/(p^n)$, với $p$ bất khả quy và $n > 0$, là không phân tích được. Vì mọi môđun xyclic đều là tổng trực tiếp của các môđun thuộc kiểu này (VII, p. 3, Mệnh đề 4) và vì mọi $A$-môđun sinh hữu hạn đều là tổng trực tiếp của các môđun xyclic (VII, p. 19, Định lý 2), ta suy ra:
 
@@ -333,7 +333,7 @@ Nếu một môđun xoắn hữu hạn sinh $M$ trên một miền iđêan chín
 
 #### Nhận xét 3 {#alg-vii-s4-n8-rem-3 .statement}
 
-Để tính các nhân tử bất biến của một môđun xoắn khi đã biết các ước số sơ cấp của nó, ta კვლავ dựa vào sự kiện rằng, nếu các $a_i$ là các phần tử nguyên tố cùng nhau từng đôi một của $A$, thì tích $\prod A/(a_i)$ là một môđun cyclic đẳng cấu với $A/(a_1 a_2 ... a_n)$ ($VII$, p. 3, Mệnh đề 4). Hãy minh họa phương pháp bằng cách xét ví dụ của nhóm $G(464\ 600) = M$: viết các ước số sơ cấp $p^n$ của $M$ là những lũy thừa của cùng một phần tử bất khả quy $p$ trên cùng một hàng, bắt đầu bằng những ước số có số mũ lớn nhất; kéo dài các hàng ấy thành các hàng có cùng độ dài bằng cách đặt thêm các số 1 khi cần:
+Để tính các nhân tử bất biến của một môđun xoắn khi đã biết các ước số sơ cấp của nó, ta lại dựa vào sự kiện rằng, nếu các $a_i$ là các phần tử nguyên tố cùng nhau từng đôi một của $A$, thì tích $\prod A/(a_i)$ là một môđun cyclic đẳng cấu với $A/(a_1 a_2 ... a_n)$ ($VII$, p. 3, Mệnh đề 4). Hãy minh họa phương pháp bằng cách xét ví dụ của nhóm $G(464\ 600) = M$: viết các ước số sơ cấp $p^n$ của $M$ là những lũy thừa của cùng một phần tử bất khả quy $p$ trên cùng một hàng, bắt đầu bằng những ước số có số mũ lớn nhất; kéo dài các hàng ấy thành các hàng có cùng độ dài bằng cách đặt thêm các số 1 khi cần:
 
 $$
 \begin{array}{cccccc}

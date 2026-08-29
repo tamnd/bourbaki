@@ -57,7 +57,7 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 3
-content_sha256: 44d31a3fa50e3b086076df718dd3ea9ff649f9842a072b70c5b0eb45b2d828c1
+content_sha256: 995b1183307885f1545ea2154d3df1c37078766e0167619fad68b6429e11d9c4
 translated_from: content/en/alg/III/02_s2_examples_of_algebras.md
 source_content_sha256: bd5951cd090d56ae73c754360396e4a160968b09d8b97344a2867e90be9ed798
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4

@@ -50,7 +50,7 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: 636e7419f5096aeaae07da1eedab8fcc50aecad050561d6f5aa49f9685bdb9d7
+content_sha256: ed1ab16b16ed7273d2bf9373cce60817c329006d872b8fe4e06cf99329181643
 ---
 
 ## § 7. SEPARABLE ALGEBRAIC EXTENSIONS
@@ -149,7 +149,7 @@ Suppose next that $K$ is imperfect, whence $K \neq K^p$. Let $a$ be an element o
 
 — *Let $f \in K[X]$ be a non-zero polynomial. For $f$ to be separable it is necessary and sufficient that there should exist an extension $L$ of $K$ which is a perfect field and such that $f$ has no repeated factor in $L[X]$*.
 
-Let $\Omega$ be an algebraic closure of $K$; iff is separable, $f$ has no repeated factors in $\Omega[X]$ (Prop. 3, $d$) ). Conversely, if $L$ is a perfect extension of $K$ such that $f$ has no repeated factor in $L[X]$, then $f$ is separable in $L[X]$ (Cor. 1 and Remark 2), hence in $K[X]$ (Remark 1).
+Let $\Omega$ be an algebraic closure of $K$; iff is separable, $f$ has no repeated factors in $\Omega[X]$ (Prop. 3, d)). Conversely, if $L$ is a perfect extension of $K$ such that $f$ has no repeated factor in $L[X]$, then $f$ is separable in $L[X]$ (Cor. 1 and Remark 2), hence in $K[X]$ (Remark 1).
 
 ### 3. Separable algebraic elements
 

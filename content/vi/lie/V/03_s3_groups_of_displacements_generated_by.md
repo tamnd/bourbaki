@@ -52,7 +52,7 @@ subsections:
       pdf_page: 104
 statements: 37
 exercises: 8
-content_sha256: 3ffaad69e4c51cb0c52b78fd4cc19798e08f050732b281cc2569a1c7dfe32e40
+content_sha256: 4c10590dcdd85e413cc212771352ed7928481beeb6dee79d17ddbf50704ebfc1
 translated_from: content/en/lie/V/03_s3_groups_of_displacements_generated_by.md
 source_content_sha256: 1c842248981aa3499f6d0c694b091d7fdc85d7891f8b8c4597b78898e623b377
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
@@ -301,7 +301,7 @@ Vậy:
 (i) Hạt nhân N của q có chiều 0 hoặc 1. Nếu $\dim N = 1$, thì N được sinh bởi một vectơ mà mọi tọa độ của nó đều > 0.
 (ii) Trị riêng nhỏ nhất của Q có bội số 1 và một vectơ riêng tương ứng có tất cả các tọa độ > 0 hoặc tất cả các tọa độ < 0.
 
-Vì q là một dạng toàn phương dương, hạt nhân N của q là tập hợp các vectơ đẳng hướng của q (Algebra, Chap. IX, § 7, no. 1, Hệ quả của Mệnh đề 2). Cho $a_1, \ldots, a_n$ là cơ sở chính tắc của $\mathbf{R}^n$. Nếu $\sum_i c_i a_i \in N$, Bổ đề 3 cho thấy rằng ta cũng có $\sum_i |c_i| a_i \in N$, và do đó $\sum_i q_{ji} |c_i| = 0$ với mọi j. Gọi I là tập các i sao cho $c_i \neq 0$. Nếu $j \notin I$, thì $q_{ji} |c_i| \leq 0$ với $i \in I$ và $q_{ji} |c_i| = 0$ với $i \notin I$, nên $q_{ji} = 0$ với $j \notin I$ và $i \in I$. Giả thiết b) vì thế suy ra rằng либо $I = \varnothing$ hoặc $I = \{1, \ldots, n\}$. Do đó, mọi vectơ khác không trong N đều có tất cả các tọa độ của nó $\neq 0$. Nếu $\dim N \geq 2$, giao của N với siêu phẳng có phương trình $x_i = 0$ sẽ có chiều $\geq 1$, trái với điều vừa chứng minh. Lập luận trên cũng cho thấy rằng, nếu $\dim N = 1$, thì N chứa một vectơ mà mọi tọa độ của nó đều > 0. Điều này chứng minh (i).
+Vì q là một dạng toàn phương dương, hạt nhân N của q là tập hợp các vectơ đẳng hướng của q (Algebra, Chap. IX, § 7, no. 1, Hệ quả của Mệnh đề 2). Cho $a_1, \ldots, a_n$ là cơ sở chính tắc của $\mathbf{R}^n$. Nếu $\sum_i c_i a_i \in N$, Bổ đề 3 cho thấy rằng ta cũng có $\sum_i |c_i| a_i \in N$, và do đó $\sum_i q_{ji} |c_i| = 0$ với mọi j. Gọi I là tập các i sao cho $c_i \neq 0$. Nếu $j \notin I$, thì $q_{ji} |c_i| \leq 0$ với $i \in I$ và $q_{ji} |c_i| = 0$ với $i \notin I$, nên $q_{ji} = 0$ với $j \notin I$ và $i \in I$. Giả thiết b) vì thế suy ra rằng hoặc $I = \varnothing$ hoặc $I = \{1, \ldots, n\}$. Do đó, mọi vectơ khác không trong N đều có tất cả các tọa độ của nó $\neq 0$. Nếu $\dim N \geq 2$, giao của N với siêu phẳng có phương trình $x_i = 0$ sẽ có chiều $\geq 1$, trái với điều vừa chứng minh. Lập luận trên cũng cho thấy rằng, nếu $\dim N = 1$, thì N chứa một vectơ mà mọi tọa độ của nó đều > 0. Điều này chứng minh (i).
 
 Mặt khác, ta biết rằng các trị riêng của Q là thực (Algebra, Chap. IX, § 7, no. 3, Mệnh đề 5) và dương vì q dương. Gọi $\lambda$ là trị nhỏ nhất trong số đó. Khi đó ma trận $Q' = Q - \lambda I_n$ là ma trận của một dạng dương suy biến $q'$ và các phần tử ngoài đường chéo của $Q'$ giống như của Q. Do đó, $Q'$ thỏa các điều kiện a), b) và c) của phát biểu của bổ đề. Vì hạt nhân $N'$ của $q'$ là không gian riêng của Q ứng với trị riêng $\lambda$, mệnh đề (ii) suy ra từ (i).
 

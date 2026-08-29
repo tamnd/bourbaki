@@ -52,7 +52,7 @@ subsections:
       pdf_page: 165
 statements: 32
 exercises: 9
-content_sha256: 67aced4c9913267914ad99cb03c5e0ee66b114c7e49fdf9c0db3009e54f42717
+content_sha256: 0a2079a4030086f98d0a98c613173101c4aa8daf175bfc7546106d5f0459f69b
 translated_from: content/en/top/IX/02_s2_metric_spaces_and_metrizable_spaces.md
 source_content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -445,7 +445,7 @@ Cho $X$ là một không gian compact mêtric, và cho $R$ là một quan hệ t
 
 *Cho $X$ là một không gian metric đầy đủ, cho $R$ là một quan hệ tương đương mở trên $X$ sao cho $X/R$ là Hausdorff, và cho $\varphi : X \to X/R$ là ánh xạ chính tắc. Khi đó nếu $K$ là một tập con compact bất kỳ của $X/R$, thì tồn tại một tập con compact $K'$ của $X$ sao cho $\varphi(K') = K$.*
 
-Ký hiệu $\mathcal{B}_1$ là tập hợp всех các quả cầu mở bán kính $1/2$ trong $X$. Khi $B$ chạy qua $\mathcal{B}_1$, các tập hợp $\varphi(B)$ tạo thành một phủ mở của $K$, và do đó tồn tại một số hữu hạn điểm $x_1, \ldots, x_m$ của $X$ sao cho các ảnh qua $\varphi$ của các quả cầu mở bán kính $1/2$ và tâm $x_i$ ($1 \leq i \leq m$) tạo thành một phủ mở của $K$. Đặt $H_1 = \{ x_1, \ldots, x_m \}$ và giả sử rằng ta đã xác định được một tập hợp hữu hạn $H_i$, với $1 < i \leq n$, sao cho:
+Ký hiệu $\mathcal{B}_1$ là tập hợp tất cả các quả cầu mở bán kính $1/2$ trong $X$. Khi $B$ chạy qua $\mathcal{B}_1$, các tập hợp $\varphi(B)$ tạo thành một phủ mở của $K$, và do đó tồn tại một số hữu hạn điểm $x_1, \ldots, x_m$ của $X$ sao cho các ảnh qua $\varphi$ của các quả cầu mở bán kính $1/2$ và tâm $x_i$ ($1 \leq i \leq m$) tạo thành một phủ mở của $K$. Đặt $H_1 = \{ x_1, \ldots, x_m \}$ và giả sử rằng ta đã xác định được một tập hợp hữu hạn $H_i$, với $1 < i \leq n$, sao cho:
 
 (i) $H_i \subset H_{i+1}$ và mỗi điểm của $H_{i+1}$ cách $H_i$ một khoảng cách $< 1/2^i$, với $1 \leq i \leq n - 1$;
 

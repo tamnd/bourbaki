@@ -48,7 +48,7 @@ subsections:
       pdf_page: 211
 statements: 25
 exercises: 10
-content_sha256: 2e1102e17761facd57910fb4f19781597c3734425fada1a0c5726d075fa4e783
+content_sha256: 05a18c3e09d02cdc28b0d39ed1be080f43ff70bd524250dcb6b2daa2768f093f
 translated_from: content/en/fvr/IV/02_s2_linear_differential_equations.md
 source_content_sha256: ed9860cc26b65ff84c11e78ae048f5030e2943903c24c951c87f27907207fd41
 translation_model: gpt-5.4

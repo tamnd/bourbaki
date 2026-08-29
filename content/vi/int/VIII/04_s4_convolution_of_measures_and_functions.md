@@ -41,7 +41,7 @@ subsections:
       pdf_page: 144
 statements: 38
 exercises: 28
-content_sha256: b8556ad8f17c3c1bf46ddde3c3cab10e4fc4b4c7d1f4917f6267245eb3cde42a
+content_sha256: a0bdf09a66c9bf162fe82bebe8f3c4dd551e634fa400072a0c1e9307f99b0ecd
 translated_from: content/en/int/VIII/04_s4_convolution_of_measures_and_functions.md
 source_content_sha256: 49dae28e635f264996aa83405996b598158ace98510497220a4478b7bfbd1885
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6
@@ -695,7 +695,7 @@ Do đó, với $x \in V$, ta có $B \cap xB \neq \emptyset$, do đó $x \in B \c
 
 #### Hệ quả 1 {#int-viii-s4-prop-17-cor-1 .statement}
 
-— Cho H là một nhóm con của G đo được đối với một độ đo Haar $\beta$. Khi đó H либо mở, либо địa phương $\beta$-không đáng kể.
+— Cho H là một nhóm con của G đo được đối với một độ đo Haar $\beta$. Khi đó H hoặc mở, hoặc địa phương $\beta$-không đáng kể.
 
 Thật vậy, $H = H \cdot H^{-1}$, do đó nếu H không địa phương $\beta$-không đáng kể, thì H chứa một lân cận của e (Mệnh đề 17), nên là mở (GT, III, §2, No. 1, Hệ quả của Mệnh đề 4).
 

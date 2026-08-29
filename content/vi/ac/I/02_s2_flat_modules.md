@@ -57,9 +57,9 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 32b762a764e9df8bf2665bc56e2fcabe443a835a10fcaacc4464a531ac1f42b9
+content_sha256: 818fe4abc7b145010c3443dd89df7bc92a5fec5b07511a3ae05737e07815b8b7
 translated_from: content/en/ac/I/02_s2_flat_modules.md
-source_content_sha256: 9ada776b7c0aa973a418227eaada671c4629e279b41b24c1ad82f46743b38d27
+source_content_sha256: 344a6de3b2a59e1cfb82dd1f659b36634483ae134ebd0e00853505a4e2b06f47
 translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-e41856f7
 glossary_version: 34
@@ -69,9 +69,9 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## 2. MÔĐUN PHẲNG(*)
 
-### 1. NHẮC LẠI VỀ TÍCH TENXƠ
+### 1. ÔN LẠI VỀ TÍCH TENXƠ
 
-Cho A là một vành, E là một A-môđun phải và M là một A-môđun trái. Trong Đại số, Chương II, §3, no. 1, chúng tôi đã định nghĩa tích tenxơ $E \otimes_A M$, là một $\mathbf{Z}$-môđun. Nếu E' (tương ứng M') là một A-môđun phải (tương ứng trái) và $u : E \to E'$ (tương ứng $v : M \to M'$) là một đồng cấu, chúng tôi cũng đã định nghĩa (loc. cit, no. 2) một $\mathbf{Z}$-đồng cấu
+Cho A là một vành, E là một A-môđun phải và M là một A-môđun trái. Trong Đại số, Chương II, §3, no. 1 chúng tôi đã định nghĩa tích tenxơ $E \otimes_A M$, là một $\mathbf{Z}$-môđun. Nếu E' (tương ứng M') là một A-môđun phải (tương ứng trái) và $u : E \to E'$ (tương ứng $v : M \to M'$) là một đồng cấu, chúng tôi cũng đã định nghĩa (loc. cit, no. 2) một $\mathbf{Z}$-đồng cấu
 
 $$
 u \otimes v : E \otimes_A M \to E' \otimes_A M'.
@@ -79,7 +79,7 @@ $$
 
 #### Bổ đề 1 {#ac-i-s2-lem-1 .statement}
 
-*Cho* $M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$ *là một dãy khớp các A-môđun trái và E là một A-môđun phải. Khi đó dãy*
+*Nếu* $M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$ *là một dãy khớp các A-môđun trái và E là một A-môđun phải. Khi đó dãy*
 
 $$
 E \otimes_A M' \xrightarrow{\text{1}\otimes v} E \otimes_A M \xrightarrow{u \otimes w} E \otimes_A M'' \longrightarrow 0
@@ -87,7 +87,7 @@ $$
 
 *là một dãy khớp các nhóm giao hoán.*
 
-Đây là Hệ quả của Mệnh đề 5 trong Đại số, Chương II, § 3, no. 6.
+Đây là Hệ quả của Mệnh đề 5 của Đại số, Chương II, § 3, no. 6.
 
 Suy ra rằng, với mọi đồng cấu A-môđun trái $u : M \to N$,
 
@@ -103,7 +103,7 @@ $$
 
 Theo ký hiệu của Bổ đề 1, ta biết (loc. cit.) rằng nếu v là *đơn ánh*, nghĩa là nếu dãy $0 \to M' \xrightarrow{v} M \xrightarrow{w} M'' \to 0$ là khớp, thì không nhất thiết suy ra rằng $1_E \otimes v$ là đơn ánh và do đó nói chung không thể đồng nhất $E \otimes_A M'$ với một
 
-(*) Chúng tôi thông báo với những độc giả đã quen thuộc với Đại số đồng điều rằng họ sẽ tìm thấy các đặc trưng khác của môđun phẳng trong § 4.
+(*) Chúng tôi báo cho những độc giả đã quen với Đại số đồng điều rằng họ sẽ gặp những đặc trưng khác của môđun phẳng trong § 4.
 
 nhóm con của $E \otimes_A M$. Tuy nhiên, hãy nhắc lại (Đại số, Chương II, § 3, no. 7, Hệ quả 5 của Mệnh đề 7) kết quả sau đây:
 
@@ -111,17 +111,17 @@ nhóm con của $E \otimes_A M$. Tuy nhiên, hãy nhắc lại (Đại số, Ch�
 
 *Nếu $v : M' \to M$ là đơn ánh và $v(M')$ là một nhân tử trực tiếp của $M$, thì đồng cấu $1, \otimes v$ là đơn ánh và ảnh của nó là một nhân tử trực tiếp của $E \otimes_A M$.*
 
-### 2. MÔĐUN PHẲNG ĐỐI VỚI M
+### 2. MÔĐUN M-PHẲNG
 
 #### Định nghĩa 1 {#ac-i-s2-def-1 .statement}
 
-Cho $A$ là một vành, $E$ là một A-môđun phải và $M$ là một A-môđun trái. Ta nói $E$ là phẳng đối với $M$ (hay $M$-phẳng) nếu, với mọi A-môđun trái $M'$ và mọi đơn cấu $v : M' \to M$, đồng cấu $l_E \otimes v : E \otimes_A M' \to E \otimes_A M$ là đơn ánh.
+Cho $A$ là một vành, $E$ là một A-môđun phải và $M$ là một A-môđun trái. Ta nói rằng $E$ là phẳng đối với $M$ (hay $M$-phẳng) nếu, với mọi A-môđun trái $M'$ và mọi đồng cấu đơn cấu $v : M' \to M$, đồng cấu $l_E \otimes v : E \otimes_A M' \to E \otimes_A M$ là đơn ánh.
 
-Với mọi A-môđun phải $N$, khái niệm môđun trái $N$-phẳng được định nghĩa tương tự. Nói rằng một A-môđun phải $E$ là phẳng đối với một A-môđun trái $M$ là tương đương với việc nói rằng $E$, được xét như một A$^0$-môđun trái (nhắc lại rằng $A^0$ ký hiệu vành đối của $A$), là phẳng đối với A$^0$-môđun phải $M$.
+Đối với mọi A-môđun phải $N$, khái niệm môđun trái $N$-phẳng được định nghĩa tương tự. Nói rằng một A-môđun phải $E$ là phẳng đối với một A-môđun trái $M$ tương đương với việc nói rằng $E$, xét như một A-môđun trái trên $A^0$ (nhắc lại rằng $A^0$ ký hiệu vành đối của $A$), là phẳng đối với A-môđun phải $A^0$ $M$.
 
 #### Bổ đề 3 {#ac-i-s2-lem-3 .statement}
 
-*Để một A-môđun phải $E$ là $M$-phẳng, điều kiện cần và đủ là với mọi môđun con sinh hữu hạn $M'$ của $M$, đồng cấu chính tắc*
+*Để một A-môđun chặt $E$ là $M$-phẳng, điều kiện cần và đủ là với mọi môđun con sinh hữu hạn $M'$ của $M$, đồng cấu chính tắc*
 
 $$
 l_E \otimes j : E \otimes_A M' \to E \otimes_A M
@@ -129,7 +129,7 @@ $$
 
 (*j là đơn ánh chính tắc $M' \to M$) *là đơn ánh*.
 
-Giả sử điều kiện này được thỏa mãn và N là một môđun con bất kỳ của $M$. Giả sử ảnh chính tắc trong $E \otimes_A M$ của một phần tử
+Giả sử điều kiện này được thỏa mãn và gọi $N$ là một môđun con bất kỳ của $M$. Giả sử rằng ảnh chính tắc trong $E \otimes_A M$ của một phần tử
 
 $$
 z = \sum x_i \otimes y_i \in E \otimes_A N \quad (x_i \in E, y_i \in N)
@@ -248,7 +248,7 @@ $$
 
 *là khớp.*
 
-Chúng tôi dùng ký hiệu $T(Q)$ và $T(v)$ theo cùng nghĩa như trong chứng minh của Bổ đề 4 của no. 2. Ta viết $M_1'' = w(M)$ và gọi $i : M_1'' \to M''$ là đơn ánh chính tắc và $p$ là ánh xạ từ M tới $M_1''$ có cùng đồ thị với w. Dãy $M' \xrightarrow{v} M \xrightarrow{p} M_1'' \to 0$ là khớp và suy ra từ Bổ đề 1 của no. 1 rằng dãy
+Ta dùng ký hiệu $T(Q)$ và $T(v)$ theo cùng nghĩa như trong chứng minh của Bổ đề 4 của no. 2. Ta viết $M_1'' = w(M)$ và gọi $i : M_1'' \to M''$ là đơn ánh chính tắc và $p$ là ánh xạ của M vào $M_1''$ có cùng đồ thị với w. Dãy $M' \xrightarrow{v} M \xrightarrow{p} M_1'' \to 0$ là khớp và từ Bổ đề 1 của no. 1 suy ra rằng dãy
 
 $$
 T(M') \xrightarrow{T(v)} T(M) \xrightarrow{T(p)} T(M_1'') \longrightarrow 0
@@ -270,7 +270,7 @@ Các A-môđun trái phẳng được định nghĩa tương tự. Nói rằng m
 
 Nhận xét
 
-(1) Theo Bổ đề 3 của no. 2, để một A-môđun phải E là phẳng, điều kiện cần và đủ là, với mọi iđêan trái *hữu hạn* sinh $a$ của A, ánh xạ chính tắc $E \otimes_A a \to E$ (Mệnh đề 1) có ảnh là Ea phải là đơn ánh.
+(1) Theo Bổ đề 3 của no. 2, để một A-môđun phải E là phẳng, điều kiện cần và đủ là, với mọi iđêan trái $a$ của A được sinh *hữu hạn*, ánh xạ chính tắc $E \otimes_A a \to E$ (Mệnh đề 1) có ảnh là Ea phải là đơn ánh.
 
 (2) Cho E là một A-môđun phải phẳng. Nếu $M'$ là một môđun con của một A-môđun trái M, đơn ánh chính tắc $E \otimes_A M' \to E \otimes_A M$ cho phép ta đồng nhất $E \otimes_A M'$ với một nhóm con của $E \otimes_A M$. Như vậy, cho N là một A-môđun trái, $u : M \to N$ một đồng cấu, $K = \mathrm{Ker}\, u$, và $I = \mathrm{Im}\, u$. Xét dãy khớp
 
@@ -278,7 +278,7 @@ $$
 0 \longrightarrow K \longrightarrow M \xrightarrow{u} N
 $$
 
-ta dễ thấy (Mệnh đề 1) rằng $E \otimes_A (\mathrm{Ker}\, u)$ *được đồng nhất* với $\mathrm{Ker}(1_E \otimes u)$. Mặt khác, ký hiệu $u'$ là đồng cấu toàn ánh $M \to I$ có cùng đồ thị với $u$, và $i$ là đơn ánh chính tắc $I \to N$, thì $1_E \otimes u'$ là toàn ánh (no. 1, Bổ đề 1) và $1_E \otimes i$ là đơn ánh vì E là phẳng. Vì
+ta dễ dàng thấy (Mệnh đề 1) rằng $E \otimes_A (\mathrm{Ker}\, u)$ *được đồng nhất* với $\mathrm{Ker}(1_E \otimes u)$. Mặt khác, gọi $u'$ là đồng cấu toàn ánh $M \to I$ có cùng đồ thị với $u$, và $i$ là đơn ánh chính tắc $I \to N$, thì $1_E \otimes u'$ là toàn ánh (no. 1, Bổ đề 1) và $1_E \otimes i$ là đơn ánh vì E là phẳng. Vì
 
 $$
 1_E \otimes u = (1_E \otimes i) \circ (1_E \otimes u'),
@@ -290,17 +290,17 @@ $E \otimes_A (\mathrm{Im}\, u)$ *được đồng nhất* với $\mathrm{Im}(1_E
 
 (i) Cho $(E_t)_{t \in I}$ là một họ các $A$-môđun phải. Để $E = \bigoplus_{t \in I} E_t$ là phẳng, điều kiện cần và đủ là mỗi $E_t$ đều phẳng.
 
-(ii) Cho $I$ là một tập hợp có thứ tự và $(E_\alpha, f_{\beta \alpha})$ là một hệ trực tiếp các $A$-môđun phải (Đại số, Chương II, § 6, no. 2). Nếu mỗi $E_\alpha$ đều phẳng, thì $E = \lim_{\longrightarrow} E_\alpha$ là phẳng.
+(ii) Cho $I$ là một tập hợp có thứ tự và $(E_\alpha, f_{\beta \alpha})$ là một hệ trực tiếp các $A$-môđun phải (Algebra, Chương II, § 6, no. 2). Nếu mỗi $E_\alpha$ đều phẳng, thì $E = \lim_{\longrightarrow} E_\alpha$ là phẳng.
 
-Cho $M' \to M$ là một đồng cấu đơn ánh của A-môđun trái.
+Cho $M' \to M$ là một đồng cấu đơn ánh của các $A$-môđun trái.
 
 (i) Để đồng cấu tổng trực tiếp
 $$
 \bigoplus_{t \in I} (E_t \otimes_A M') \to \bigoplus_{t \in I} (E_t \otimes_A M)
 $$
-là khớp, điều kiện cần và đủ là mỗi đồng cấu $E_t \otimes_A M' \to E_t \otimes_A M$ đều như vậy (Đại số, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 7), điều này chứng minh (i) vì $\bigoplus_{t \in I} (E_t \otimes_A M)$ được đồng nhất một cách chính tắc với $E \otimes_A M$ (Đại số, Chương II, § 3, no. 7, Mệnh đề 7).
+là khớp, điều kiện cần và đủ là mỗi đồng cấu $E_t \otimes_A M' \to E_t \otimes_A M$ đều như vậy (Algebra, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 7), điều này chứng minh (i) vì $\bigoplus_{t \in I} (E_t \otimes_A M)$ được đồng nhất một cách chính tắc với $E \otimes_A M$ (Algebra, Chương II, § 3, no. 7, Mệnh đề 7).
 
-(ii) Theo giả thiết, mỗi dãy
+(ii) Theo giả thiết mỗi dãy
 $$
 0 \to E_\alpha \otimes_A M' \to E_\alpha \otimes_A M
 $$
@@ -308,11 +308,11 @@ $$
 $$
 0 \to E \otimes_A M' \to E \otimes_A M
 $$
-cũng khớp, vì việc lấy giới hạn trực tiếp giao hoán với tích tenxơ (Đại số, Chương II, § 6, no. 3, Mệnh đề 7) và bảo toàn tính khớp (ibid., § 6, no. 2, Mệnh đề 3).
+cũng khớp, vì lấy giới hạn trực tiếp giao hoán với tích tenxơ (Algebra, Chương II, § 6, no. 3, Mệnh đề 7) và bảo toàn tính khớp (ibid., § 6, no. 2, Mệnh đề 3).
 
 ### 4. VÍ DỤ VỀ CÁC MÔĐUN PHẲNG
 
-(1) Với mọi vành $A$, hiển nhiên $A$ là một $A$-môđun phẳng (Đại số, Chương II, § 3, no. 4, Mệnh đề 4). Khi đó suy ra từ Mệnh đề 2, (i) của no. 3 rằng mọi $A$-môđun phải tự do, và tổng quát hơn mọi $A$-môđun phải xạ ảnh (Đại số, Chương 11, § 2, no. 2), đều là các $A$-môđun phẳng.
+(1) Với mọi vành $A$, $A$, rõ ràng là một $A$-môđun phẳng (Algebra, Chương II, § 3, no. 4, Mệnh đề 4). Khi đó từ Mệnh đề 2, (i) của no. 3 suy ra rằng mọi A-môđun phải tự do, và nói chung hơn mọi A-môđun phải xạ ảnh (Algebra, Chương 11, § 2, no. 2), đều là các $A$-môđun phẳng.
 
 (2) Nếu $A$ là một vành nửa đơn (Đại số, Chương VIII, § 5, no. 1, Định nghĩa 1) thì mọi $A$-môđun phải $E$ đều là nửa đơn và do đó là tổng trực tiếp của các môđun đơn; vì mỗi môđun sau này đẳng cấu với một nhân tử trực tiếp của $A$, (cùng chỗ, § 5, no. 1, Mệnh đề 6), $E$ là xạ ảnh và do đó phẳng theo (1) (xem Bài tập 16).
 
@@ -340,7 +340,7 @@ Ta chứng minh (ii). Theo (i), nếu $E$ là phẳng, $E$ là không xoắn. Ng
 
 Cho $E$ là một A-môđun phải. Ba tính chất sau là tương đương:
 
-(a) $E$ phẳng.
+(a) $E$ là phẳng.
 (b) Với mọi dãy khớp các A-môđun phải có dạng
 
 (1)
@@ -355,9 +355,9 @@ $$
 $$
 là khớp.
 
-(c) Tồn tại một dãy khớp (1), trong đó $H$ phẳng, sao cho dãy (2) là khớp với mọi A-môđun trái $F$ có dạng $A_s/a$, trong đó $a$ là một iđêan trái sinh hữu hạn của $A$.
+(c) Tồn tại một dãy khớp (1), trong đó $H$ là phẳng, sao cho dãy (2) là khớp với mọi A-môđun trái $F$ có dạng $A_s/a$, trong đó $a$ là một iđêan trái sinh hữu hạn của $A$.
 
-Trước hết ta chỉ ra rằng (a) kéo theo (b). A-môđun trái $F$ đẳng cấu với một thương của một môđun tự do (Đại số, Chương II, § 1, no. 11, Mệnh đề 20); nói cách khác, ta có một dãy khớp
+Trước hết ta chứng minh rằng (a) kéo theo (b). A-môđun trái $F$ đẳng cấu với một môđun thương của một môđun tự do (Đại số, Chương II, § 1, no. 11, Mệnh đề 20); nói cách khác, ta có một dãy khớp
 
 $$
 0 \longrightarrow R \xrightarrow{i} L \xrightarrow{p} F \longrightarrow 0
@@ -377,23 +377,23 @@ $$
 
 (3)
 
-Ngay lập tức suy ra rằng biểu đồ này giao hoán, và các hàng và cột của nó đều khớp theo Bổ đề 1 của no. 1; hơn nữa, vì $l_G \otimes p$ và $l_H \otimes p$ là toàn ánh (no. 1, Bổ đề 1), ta có $G \otimes F = \operatorname{Coker}(l_G \otimes i)$,
+Ngay lập tức suy ra rằng biểu đồ này là giao hoán, và các hàng và các cột của nó là khớp theo Bổ đề 1 của no. 1; hơn nữa, vì $l_G \otimes p$ và $l_H \otimes p$ là toàn ánh (no. 1, Bổ đề 1), ta có $G \otimes F = \operatorname{Coker}(l_G \otimes i)$,
 
 $$
 H \otimes F = \operatorname{Coker}(l_H \otimes i);
 $$
 
-$w \otimes 1_1$ là toàn ánh (no. 1, Bổ đề 1); sau cùng, vì L là tự do và do đó phẳng, $v \otimes 1_L$ là đơn ánh. Như vậy có thể áp dụng biểu đồ rắn (§ 1, no. 4, Mệnh đề 2, (iii)) để chứng minh sự tồn tại của một dãy khớp
+$w \otimes 1_1$ là toàn ánh (no. 1, Bổ đề 1); sau cùng, vì L là tự do và do đó phẳng, $v \otimes 1_L$ là đơn ánh. Vậy có thể áp dụng biểu đồ con rắn (§ 1, no. 4, Mệnh đề 2, (iii)) để chứng minh sự tồn tại của một dãy khớp
 
 (4) $$ \operatorname{Ker}(l_H \otimes i) \longrightarrow \operatorname{Ker}(l_E \otimes i) \xrightarrow{d} G \otimes F \xrightarrow{v \otimes 1_F} H \otimes F. $$
 
-Do đó, nếu E phẳng thì $l_E \otimes i$ là đơn ánh, nói cách khác $\operatorname{Ker}(l_E \otimes i) = 0$, và dãy khớp (4) cho thấy $v \otimes 1_F$ là đơn ánh, vì thế dãy (2) là khớp (có kể đến Bổ đề 1 của no. 1).
+Do đó, nếu E là phẳng thì $l_E \otimes i$ là đơn ánh, nói cách khác $\operatorname{Ker}(l_E \otimes i) = 0$, và dãy khớp (4) cho thấy rằng $v \otimes 1_F$ là đơn ánh, vì thế dãy (2) là khớp (có tính đến Bổ đề 1 của no. 1).
 
-Vì (b) hiển nhiên kéo theo (c), còn lại phải chứng minh rằng (c) kéo theo (a). Xét biểu đồ (3) trong trường hợp $\mathbf{R} = \mathbf{a}, \mathbf{L} = \mathbf{A}_s, \mathbf{F} = \mathbf{A}_s/\mathbf{a}$ và áp dụng dãy khớp (4). Theo giả thiết $v \otimes 1_F$ là đơn ánh, do đó $\operatorname{Im}(d) = 0$; hơn nữa, vì H phẳng, ta có $\operatorname{Ker}(1, @i) = 0$; khi đó tính khớp của dãy (4) suy ra $\operatorname{Ker}(l_E \otimes i) = 0$, nói cách khác, $1, \otimes i$ là đơn ánh và điều này chứng minh rằng E phẳng (no. 3, Nhận xét 1).
+Vì (b) hiển nhiên kéo theo (c), còn lại phải chứng minh rằng (c) kéo theo (a). Xét biểu đồ (3) trong trường hợp $\mathbf{R} = \mathbf{a}, \mathbf{L} = \mathbf{A}_s, \mathbf{F} = \mathbf{A}_s/\mathbf{a}$ và áp dụng dãy khớp (4). Theo giả thiết $v \otimes 1_F$ là đơn ánh, nên $\operatorname{Im}(d) = 0$; hơn nữa, vì H là phẳng, ta có $\operatorname{Ker}(1, @i) = 0$; khi đó tính khớp của dãy (4) kéo theo $\operatorname{Ker}(l_E \otimes i) = 0$, nói cách khác, $1, \otimes i$ là đơn ánh và điều này chứng minh rằng E là phẳng (no. 3, Nhận xét 1).
 
 #### Mệnh đề 5 {#ac-i-s2-prop-5 .statement}
 
-*Cho* $0 \to E' \xrightarrow{v} E \xrightarrow{w} E'' \to 0$ *là một dãy khớp các* $\mathbf{A}$*-môđun phải. Giả sử* $E''$ *phẳng. Khi đó,* *để* $E$ *phẳng, điều kiện cần và đủ là* $E'$ *phẳng.*
+*Cho* $0 \to E' \xrightarrow{v} E \xrightarrow{w} E'' \to 0$ *là một dãy khớp các* $\mathbf{A}$*-môđun phải. Giả sử* $E''$ *là phẳng. Khi đó, điều kiện cần và đủ để* $E$ *phẳng là* $E'$ *phẳng.*
 
 Cho $u : F' \to F$ là một đồng cấu đơn cấu của các $\mathbf{A}$-môđun trái. Xét biểu đồ
 
@@ -405,21 +405,21 @@ E' \otimes F & \xrightarrow{v \otimes 1_F} & E \otimes F & \xrightarrow{w \otime
 \end{array}
 $$
 
-Nó giao hoán và các hàng của nó là khớp (no. 1, Bổ đề 1). Vì $E''$ phẳng, l_{E''} \otimes u là đơn ánh; hơn nữa, Mệnh đề 4 chứng minh rằng v \otimes 1_{F'}, và v \otimes 1, là đơn ánh. Do đó, nếu E phẳng, l_E \otimes u là đơn ánh, nên cũng vậy
+Nó là giao hoán và các hàng của nó là khớp (no. 1, Bổ đề 1). Vì $E''$ là phẳng, l_{E''} \otimes u là đơn ánh; hơn nữa, Mệnh đề 4 chứng minh rằng v \otimes 1_{F'}, và v \otimes 1, là đơn ánh. Do đó, nếu E là phẳng thì l_E \otimes u là đơn ánh, nên cũng có
 
 $$(l_E \otimes u) \circ (v \otimes 1_{F'}) = (v \otimes 1_F) \circ (l_{E'} \otimes u);$$
 
-suy ra l_{E'} \otimes u là đơn ánh và do đó E' phẳng. Ngược lại, nếu E' phẳng thì l_{E'} \otimes u là đơn ánh; khi đó từ § 1, no. 4, Hệ quả 1 của Mệnh đề 2 suy ra l_E \otimes u là đơn ánh và vì vậy E phẳng.
+suy ra l_{E'} \otimes u là đơn ánh và vì thế E' là phẳng. Ngược lại, nếu E' là phẳng thì l_{E'} \otimes u là đơn ánh; khi đó, từ § 1, no. 4, Hệ quả 1 của Mệnh đề 2 suy ra l_E \otimes u là đơn ánh và do đó E là phẳng.
 
 Nhận xét
-(1) Có thể xảy ra trường hợp E và E' phẳng mà E'' thì không, như ví dụ các $\mathbf{Z}$-môđun E = \mathbf{Z}, E' = n\mathbf{Z}, E'' = \mathbf{Z}/n\mathbf{Z} (n \geq 2), cho thấy.
+(1) Có thể xảy ra trường hợp E và E' phẳng mà E'' thì không, như ví dụ các $\mathbf{Z}$-môđun E = \mathbf{Z}, E' = n\mathbf{Z}, E'' = \mathbf{Z}/n\mathbf{Z} (n \geq 2) cho thấy.
 (2) Một môđun con của một môđun phẳng không nhất thiết là một môđun phẳng (Bài tập 3).
 
-### 6. CÁC TÍNH CHẤT CỦA GIAO
+### 6. CÁC TÍNH CHẤT GIAO
 
 #### Bổ đề 7 {#ac-i-s2-lem-7 .statement}
 
-Cho E là một A-môđun phải, F là một A-môđun trái và F', F'' là hai môđun con của F sao cho F = F' + F''. Khi đó giao của các ảnh chính tắc của E \otimes F' và E \otimes F'' trong E \otimes F bằng ảnh chính tắc của E \otimes (F' \cap F'').
+Cho E là một A-môđun phải, F là một A-môđun trái và F', F'' là hai môđun con của F sao cho F = F' + F''. Giao của các ảnh chính tắc của E \otimes F' và E \otimes F'' trong E \otimes F bằng ảnh chính tắc của E \otimes (F' \cap F'').
 
 Xét biểu đồ
 
@@ -431,7 +431,7 @@ $$
 \end{array}
 $$
 
-trong đó các mũi tên không được chỉ rõ là các đơn cấu và toàn ánh chính tắc và j là đẳng cấu chính tắc được định nghĩa trong Đại số, Chương I, § 6, no. 13, Định lý 6. Biểu đồ này giao hoán và các hàng của nó là khớp. Ta suy ra (vì F = F' + F'') một biểu đồ giao hoán
+trong đó các mũi tên không được chỉ rõ là các đơn cấu và toàn ánh chính tắc, và j là đẳng cấu chính tắc được định nghĩa trong Đại số, Chương I, § 6, no. 13, Định lý 6. Biểu đồ này là giao hoán và các hàng của nó là khớp. Ta suy ra (vì F = F' + F'') một biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
@@ -517,13 +517,13 @@ $$
 E \otimes_A (F \otimes_B G') \to E \otimes_A (F \otimes_B G)
 $$
 
-là đơn ánh. Vì $E \otimes_A (F \otimes_B G')$ và $E \otimes_A (F \otimes_B G)$ lần lượt được đồng nhất một cách chính tắc với $(E \otimes_A F) \otimes_B G'$ và $(E \otimes_A F) \otimes_B G$ (*Algebra*, Chương II, § 3, no. 8, Mệnh đề 8), nên đồng cấu chính tắc
+là đơn ánh. Vì $E \otimes_A (F \otimes_B G')$ và $E \otimes_A (F \otimes_B G)$ lần lượt được đồng nhất một cách chính tắc với $(E \otimes_A F) \otimes_B G'$ và $(E \otimes_A F) \otimes_B G$ (*Đại số*, Chương II, § 3, no. 8, Mệnh đề 8), nên đồng cấu chính tắc
 
 $$
 (E \otimes_A F) \otimes_B G' \to (E \otimes_A F) \otimes_B G
 $$
 
-là đơn ánh, điều đó chứng minh rằng $E \otimes_A F$ là một $B$-môđun phẳng.
+là đơn ánh, điều này chứng tỏ rằng $E \otimes_A F$ là một $B$-môđun phẳng.
 
 #### Hệ quả 1 {#ac-i-s2-prop-8-cor-1 .statement}
 
@@ -533,21 +533,21 @@ $F$ là một $(C, C)$-song môđun và chỉ cần áp dụng Mệnh đề 8 v�
 
 #### Hệ quả 2 {#ac-i-s2-prop-8-cor-2 .statement}
 
-*Cho $\rho$ là một đồng cấu từ một vành $A$ vào một vành $B$. Nếu $E$ là một $A$-môđun phải phẳng, thì $B$-môđun phải $\rho^*(E) = E_{(B)}$ thu được bằng cách mở rộng vành vô hướng lên $B$ (*Algebra*, Chương II, § 5, no. 1) là phẳng.*
+*Cho $\rho$ là một đồng cấu từ một vành $A$ vào một vành $B$. Nếu $E$ là một $A$-môđun phải phẳng, thì $B$-môđun phải $\rho^*(E) = E_{(B)}$ nhận được bằng cách mở rộng vành vô hướng lên $B$ (*Đại số*, Chương II, § 5, no. 1) là phẳng.*
 
-Theo định nghĩa, $E_{(B)} = E \otimes_A B$, trong đó $B$ được xét như một $(A,B)$-song môđun nhờ $\rho$. Vì $B$-môđun phải $B_d$ là phẳng, chỉ cần áp dụng Mệnh đề 8.
+Theo định nghĩa, $E_{(B)} = E \otimes_A B$, trong đó $B$ được xét như một $(A,B)$-song môđun thông qua $\rho$. Vì $B$-môđun phải $B_d$ là phẳng, chỉ cần áp dụng Mệnh đề 8.
 
 #### Hệ quả 3 {#ac-i-s2-prop-8-cor-3 .statement}
 
 *Cho $R, S$ là hai vành và $\phi : R \to S$ là một đồng cấu vành. Nếu $M$ là một $S$-môđun phải phẳng và $\phi_*(S_d)$ là một $R$-môđun phải phẳng, thì $\phi_*(M)$ là một $R$-môđun phải phẳng.*
 
-Nhắc lại rằng $\phi_*(M)$ là $R$-môđun phải được xác định bởi $x.r = x.\phi(r)$ với mọi $x \in M$ và mọi $r \in R$ (*Algebra*, Chương II, § 1, no. 13). Khi đó áp dụng Mệnh đề 8 với $A = S, B = R, E = M$ và $F = S$, trong đó $S$ có cấu trúc của một $(S, R)$-song môđun xác định bởi $\phi$; khi ấy $R$-môđun phải $M \otimes_S S$ chính xác là $\phi_*(M)$.
+Nhắc lại rằng $\phi_*(M)$ là $R$-môđun phải được xác định bởi $x.r = x.\phi(r)$ với mọi $x \in M$ và mọi $r \in R$ (*Đại số*, Chương II, § 1, no. 13). Khi đó áp dụng Mệnh đề 8 với $A = S, B = R, E = M$ và $F = S, S$ mang cấu trúc của một $(S, R)$-song môđun được xác định bởi $\phi$; khi đó $R$-môđun phải $M \otimes_S S$ chính xác là $\phi_*(M)$.
 
 #### Mệnh đề 9 {#ac-i-s2-prop-9 .statement}
 
-*Cho $(A_\alpha, f_{\beta\alpha})$ là một hệ trực tiếp các vành, $A = \lim A_\alpha$ là giới hạn trực tiếp của nó, $(E_\alpha, f_{\beta\alpha})$ là một hệ trực tiếp các $A_\alpha$-môđun phải với cùng tập hợp chỉ số và $E = \lim E_\alpha$ là giới hạn trực tiếp của nó, đó là một $A$-môđun phải (Algebra, Chapter II, § 6, no. 2). Nếu với mỗi $\alpha$ thì $E_\alpha$ là một \&-môđun phẳng, thì $E$ là một $A$-môđun phẳng.*
+*Cho $(A_\alpha, f_{\beta\alpha})$ là một hệ trực tiếp các vành, $A = \lim A_\alpha$ là giới hạn trực tiếp của nó, $(E_\alpha, f_{\beta\alpha})$ là một hệ trực tiếp các $A_\alpha$-môđun phải có cùng tập hợp chỉ số và $E = \lim E_\alpha$ là giới hạn trực tiếp của nó, là một $A$-môđun phải (Đại số, Chương II, § 6, no. 2). Nếu với mỗi $\alpha$ thì $E_\alpha$ là một \&-môđun phẳng, thì $E$ là một $A$-môđun phẳng.*
 
-Đặt $E'_\alpha = E_\alpha \otimes_{A_\alpha} A$, trong đó $A$ được xét như một $A_\alpha$-môđun trái thông qua đồng cấu chính tắc $A_\alpha \to A$; ta biết rằng A-môđun phải $E$ đẳng cấu chính tắc với $\lim E'_\alpha$ (*loc. cit.*, Hệ quả 2 của Mệnh đề 7). Từ Hệ quả 2 của Mệnh đề 8 suy ra rằng $E'_\alpha$ là một A-môđun phải phẳng với mọi $\alpha$, do đó $E$ là một A-môđun phẳng theo Mệnh đề 2 của no. 3.
+Cho $E'_\alpha = E_\alpha \otimes_{A_\alpha} A$, trong đó $A$ được xét như một $A_\alpha$-môđun trái nhờ đồng cấu chính tắc $A_\alpha \to A$; ta biết rằng $A$-môđun phải $E$ đẳng cấu một cách chính tắc với $\lim E'_\alpha$ (*loc. cit.*, Hệ quả 2 của Mệnh đề 7). Từ Hệ quả 2 của Mệnh đề 8 suy ra rằng $E'_\alpha$ là một $A$-môđun phải phẳng với mọi $\alpha$, do đó $E$ là một $A$-môđun phẳng theo Mệnh đề 2 của no. 3.
 
 ### 8. MÔĐUN HỮU HẠN TRÌNH BÀY
 
@@ -555,25 +555,25 @@ Cho $A$ là một vành. Một dãy khớp
 $$
 L_1 \to L_0 \to E \to 0
 $$
-của các $A$-môđun trái (resp. phải), trong đó $L_0$ và $L_1$ là tự do, được gọi là một *trình bày* (hoặc *trình bày có độ dài* 1) của $A$-môđun trái (resp. phải) $E$.
+của các $A$-môđun trái (tương ứng, phải), trong đó $L_0$ và $L_1$ là các môđun tự do, được gọi là một *trình bày* (hay *trình bày độ dài* 1) của một $A$-môđun trái (tương ứng, phải) $E$.
 
-Mọi A-môđun $E$ đều thừa nhận một trình bày. Thật vậy, ta biết (*Algebra*, Chương II, § 1, no. 11, Mệnh đề 20) rằng tồn tại một đồng cấu toàn ánh $u : L_0 \to E$, trong đó $L_0$ là tự do; nếu $R$ là hạt nhân của $u$, tương tự cũng tồn tại một đồng cấu toàn ánh $v : L_1 \to R$, trong đó $L_1$ là tự do. Nếu xem $v$ như một đồng cấu từ $L_1$ vào $L_0$, thì dãy $L_1 \xrightarrow{v} L_0 \xrightarrow{u} 0$ là khớp theo định nghĩa, do đó có mệnh đề của ta.
+Mọi $A$-môđun $E$ đều có một trình bày. Thật vậy, ta biết (*Đại số*, Chương II, § 1, no. 11, Mệnh đề 20) rằng tồn tại một đồng cấu toàn ánh $u : L_0 \to E$, trong đó $L_0$ là tự do; nếu $R$ là hạt nhân của $u$, thì tương tự cũng tồn tại một đồng cấu toàn ánh $v : L_1 \to R$, trong đó $L_1$ là tự do. Nếu xét $v$ như một đồng cấu từ $L_1$ đến $L_0$, thì dãy $L_1 \xrightarrow{v} L_0 \xrightarrow{u} 0$ là khớp theo định nghĩa, do đó có mệnh đề của ta.
 
-Nếu $\rho : A \to B$ là một đồng cấu vành, mọi trình bày (6) của $E$ sinh ra một trình bày của $E_{(B)} = E \otimes_A B$:
+Nếu $\rho : A \to B$ là một đồng cấu vành, mọi trình bày (6) của $E$ đều cảm sinh một trình bày của $E_{(B)} = E \otimes_A B$:
 $$
 L_1 \otimes_A B \to L_0 \otimes_A B \to E \otimes_A B \to 0
 $$
-theo Bổ đề 1 của no. 1 và thực tế rằng $L \otimes_A B$ là một B-môđun tự do nếu $L$ là tự do.
+theo Bổ đề 1 của no. 1 và sự kiện rằng $L \otimes_A B$ là một $B$-môđun tự do nếu $L$ là tự do.
 
-Một trình bày (6) của một môđun $E$ được gọi là *hữu hạn* nếu các môđun tự do $L_0$ và $L_1$ có các cơ sở hữu hạn. Rõ ràng, nếu trình bày (6) là hữu hạn thì trình bày (7) cũng vậy. $E$ được gọi là *một $A$-môđun hữu hạn trình bày* nếu nó thừa nhận một trình bày hữu hạn.
+Một trình bày (6) của một môđun $E$ được gọi là *hữu hạn* nếu các môđun tự do $L_0$ và $L_1$ có các cơ sở hữu hạn. Rõ ràng, nếu trình bày (6) là hữu hạn, thì trình bày (7) cũng vậy. $E$ được gọi là *một $A$-môđun hữu hạn trình bày* nếu nó có một trình bày hữu hạn.
 
 #### Bổ đề 8 {#ac-i-s2-lem-8 .statement}
 
-(i) *Mọi môđun thừa nhận một trình bày hữu hạn đều sinh hữu hạn.*
-(ii) *Nếu $A$ là một vành Noether trái, mọi A-môđun trái sinh hữu hạn đều thừa nhận một trình bày hữu hạn.*
-(iii) *Mọi môđun xạ ảnh hữu hạn sinh đều thừa nhận một trình bày hữu hạn.*
+(i) *Mọi môđun có một trình bày hữu hạn đều sinh hữu hạn.*
+(ii) *Nếu $A$ là một vành Noether trái, thì mọi $A$-môđun trái sinh hữu hạn đều có một trình bày hữu hạn.*
+(iii) *Mọi môđun xạ ảnh hữu hạn sinh đều có một trình bày hữu hạn.*
 
-Sau cùng, giả sử $E$ là một môđun xạ ảnh hữu hạn sinh; khi đó nó là một nhân tử trực tiếp của một môđun tự do hữu hạn sinh $L_0$ (*Algebra*, Chương II, §2, no. 2, Hệ quả của Mệnh đề 4); hạt nhân $R$ của đồng cấu toàn ánh $L_0 \to E$ khi đó đẳng cấu với một thương của $L_0$ và do đó sinh hữu hạn, và chứng minh được hoàn tất như đối với (ii).
+Sau cùng, giả sử rằng $E$ là một môđun xạ ảnh hữu hạn sinh; khi đó nó là một nhân tử trực tiếp của một môđun tự do sinh hữu hạn $L_0$ (*Đại số*, Chương II, §2, no. 2, Hệ quả của Mệnh đề 4); hạt nhân $R$ của đồng cấu toàn ánh $L_0 \to E$ khi đó đẳng cấu với một thương của $L_0$ và vì thế sinh hữu hạn, và chứng minh được hoàn tất như trong (ii).
 
 #### Bổ đề 9 {#ac-i-s2-lem-9 .statement}
 
@@ -583,9 +583,9 @@ $$
 0 \longrightarrow F \xrightarrow{j} G \xrightarrow{p} E \longrightarrow 0
 $$
 
-*trong đó $G$ sinh hữu hạn, môđun $F$ sinh hữu hạn.*
+*trong đó $G$ sinh hữu hạn, thì môđun $F$ sinh hữu hạn.*
 
-Cho $L, \xrightarrow{r} L_0 \xrightarrow{s} E \to 0$ là một trình bày hữu hạn; nếu $(e_i)$ là một cơ sở của $L_0$, thì với mỗi $i$ tồn tại một phần tử $g_i \in G$ sao cho $p(g_i) = s(e_i)$; khi đó đồng cấu $u : L_0 \to G$ xác định bởi $u(e_i) = g_i$ với mọi $i$ thỏa mãn $s = p \circ u$. Vì $s \circ r = 0$, ta có $u(r(L_1)) \subset \mathrm{Ker}\, p$, và vì $\mathrm{Ker}\, p$ đẳng cấu với $F$, suy ra có một đồng cấu $v : L, \to F$ sao cho biểu đồ
+Cho $L, \xrightarrow{r} L_0 \xrightarrow{s} E \to 0$ là một trình bày hữu hạn; nếu $(e_i)$ là một cơ sở của $L_0$, thì với mỗi $i$ tồn tại một phần tử $g_i \in G$ sao cho $p(g_i) = s(e_i)$; khi đó đồng cấu $u : L_0 \to G$ sao cho $u(e_i) = g_i$ với mọi $i$ thỏa mãn $s = p \circ u$. Vì $s \circ r = 0$, ta có $u(r(L_1)) \subset \mathrm{Ker}\, p$, và vì $\mathrm{Ker}\, p$ đẳng cấu với $F$, suy ra tồn tại một đồng cấu $v : L, \to F$ sao cho biểu đồ
 
 $$
 \begin{array}{ccccccccc}
@@ -595,41 +595,41 @@ F & \xrightarrow{i} & G & \xrightarrow{p} & E & \longrightarrow & 0
 \end{array}
 $$
 
-là giao hoán. Vì $j$ là đơn ánh và $s$ là toàn ánh, ta có thể áp dụng biểu đồ rắn ($\S$ 1, no. 4, Proposition 4), nói cách khác, có một dãy khớp
+là giao hoán. Vì $j$ là đơn ánh và $s$ là toàn ánh, ta có thể áp dụng biểu đồ con rắn ($\S$ 1, no. 4, Mệnh đề 4), nói cách khác, có một dãy khớp
 
 $$
 0 = \mathrm{Ker}\, 1, \xrightarrow{d} \mathrm{Coker}\, v \longrightarrow \mathrm{Coker}\, u \longrightarrow \mathrm{Coker}\, 1, = 0.
 $$
 
-Điều này cho thấy $\mathrm{Coker}\, v$ đẳng cấu với $G / u(L_0)$, môđun này theo giả thiết là sinh hữu hạn. Hơn nữa ta có dãy khớp
+Điều này cho thấy $\mathrm{Coker}\, v$ đẳng cấu với $G / u(L_0)$, mà theo giả thiết là sinh hữu hạn. Hơn nữa, ta có dãy khớp
 
 $$
 0 \to v(L_1) \to F \to \mathrm{Coker}\, v \to 0
 $$
 
-và vì $v(L_1)$ và $\mathrm{Coker}\, v$ là sinh hữu hạn, nên $F$ cũng vậy (*Algebra*, Chapter II, § 1, no. 7, Corollary 5 to Proposition 9).
+và vì $v(L_1)$ và $\mathrm{Coker}\, v$ là sinh hữu hạn, nên $F$ cũng vậy (*Đại số*, Chương II, § 1, no. 7, Hệ quả 5 của Mệnh đề 9).
 
 ### 9. MỞ RỘNG VÔ HƯỚNG TRONG CÁC MÔĐUN ĐỒNG CẤU
 
-Cho $A$ và $B$ là hai vành, $E$ một $A$-môđun phải, $F$ một $B$-môđun phải và $G$ một $(B, A)$-song môđun. Nhắc lại rằng ta đã định nghĩa (Algebra, Chapter II, § 4, no. 2) một đồng cấu chính tắc của các $\mathbf{Z}$-môđun
+Cho $A$ và $B$ là hai vành, $E$ một $A$-môđun phải, $F$ một $B$-môđun phải, và $G$ một $(B, A)$-song môđun. Nhắc lại rằng ta đã định nghĩa (Đại số, Chương II, § 4, no. 2) một đồng cấu chính tắc của các $\mathbf{Z}$-môđun
 
 $$
 \nu : F \otimes_B \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(E, F \otimes_B G)
 $$
 
-sao cho, với mọi $y \in F$ và $u \in \operatorname{Hom}_A(E, G)$, $\nu(y \otimes u)$ là ánh xạ $A$-tuyến tính $x \mapsto y \otimes u(x)$.
+sao cho, với mọi y $\in F$ và $u \in \operatorname{Hom}_A(E, G)$, $\nu(y \otimes u)$ là ánh xạ $A$-tuyến tính $x \mapsto y \otimes u(x)$.
 
 #### Mệnh đề 10 {#ac-i-s2-prop-10 .statement}
 
-*Cho $A, B$ là hai vành, $E$ một $A$-môđun phải, $F$ một $B$-môđun phải và $G$ một $(B, A)$-song môđun. Giả sử rằng $F$ là phẳng. Khi đó, nếu $E$ sinh hữu hạn (tương ứng, có trình bày hữu hạn), thì đồng cấu chính tắc (8) là đơn ánh (tương ứng, song ánh).*
+*Cho $A, B$ là hai vành, $E$ một $A$-môđun phải, $F$ một $B$-môđun phải, và $G$ một $(B, A)$-song môđun. Giả sử rằng $F$ là phẳng. Khi đó, nếu $E$ sinh hữu hạn (tương ứng, trình bày hữu hạn), thì đồng cấu chính tắc (8) là đơn ánh (tương ứng, song ánh).*
 
-Coi $A, B, F, G$ là cố định và với mỗi $A$-môđun phải $E$ đặt
+Xem $A, B, F, G$ là cố định và với mỗi $A$-môđun phải $E$, đặt
 
 $$
 T(E) = F \otimes_B \operatorname{Hom}_A(E, G), \quad T'(E) = \operatorname{Hom}_A(E, F \otimes_B G)
 $$
 
-và ký hiệu đồng cấu (8) bởi $\nu_E$; với mọi đồng cấu của các A-môđun phải $v : E \to E'$, đặt $T(v) = 1, \otimes \operatorname{Hom}(v, 1_G)$ và $T'(v) = \operatorname{Hom}(v, 1, \otimes 1_G)$. Cho $L, \xrightarrow{v} L_0 \xrightarrow{w} E \to 0$ là một trình bày của $E$; ta giả sử môđun tự do $L_0$ (tương ứng các môđun tự do $L_0$ và $L_1$) là *sinh hữu hạn*. Biểu đồ
+và gọi đồng cấu (8) là $\nu_E$; với mọi đồng cấu của các môđun phải trên $A$ $v : E \to E'$, đặt $T(v) = 1, \otimes \operatorname{Hom}(v, 1_G)$ và $T'(v) = \operatorname{Hom}(v, 1, \otimes 1_G)$. Cho $L, \xrightarrow{v} L_0 \xrightarrow{w} E \to 0$ là một trình bày của $E$; ta giả sử môđun tự do $L_0$ (tương ứng các môđun tự do $L_0$ và $L_1$) là *sinh hữu hạn*. Biểu đồ
 
 $$
 \begin{array}{ccccccccc}
@@ -645,17 +645,19 @@ $$
 0 \to \operatorname{Hom}_A(E, G) \to \operatorname{Hom}_A(L_0, G) \to \operatorname{Hom}_A(L_1, G)
 $$
 
-là khớp (*loc. cit.*), và vì $F$ *phẳng*, hàng thứ nhất của (9) cũng là một dãy khớp (no. 3, Mệnh đề 1). Khi đó ta biết rằng $\nu_{L_0}$ (tương ứng $\nu_{L_0}$ và $\nu_{L_1}$) là *song ánh* (tương ứng là *song ánh*) (Đại số, Chương II, § 4, no. 2, Mệnh đề 2). Nếu ta chỉ giả sử rằng $\nu_{L_0}$ là song ánh, thì từ (9) suy ra rằng
+là khớp (*loc. cit.*), và vì $F$ *phẳng*, hàng thứ nhất của (9) cũng là một dãy khớp (no. 3, Mệnh đề 1). Khi đó ta biết rằng $\nu_{L_0}$ (tương ứng $\nu_{L_0}$ và $\nu_{L_1}$) là *song ánh* (tương ứng là *song ánh*) (Đại số, Chương II, § 4, no. 2, Mệnh đề 2). Nếu ta chỉ giả sử rằng $\nu_{L_0}$ là song ánh, thì suy ra từ (9) rằng
 
 $$
 \nu_{L_0} \circ T(w) = T'(w) \circ \nu_E
 $$
 
-là đơn ánh và do đó $\nu_E$ cũng vậy. Nếu ta giả sử cả $\nu_{L_0}$ và $\nu_{L_1}$ đều song ánh, thì từ § 1, no. 4, Hệ quả 2, (ii) của Mệnh đề 2 suy ra rằng $\nu_E$ là toàn ánh, và vì ta vừa thấy rằng $\nu_E$ là đơn ánh, nên nó là song ánh.
+là đơn ánh và do đó $\nu_E$ cũng đơn ánh. Nếu ta giả sử rằng cả $\nu_{L_0}$ và $\nu_{L_1}$ đều là song ánh, thì suy ra từ § 1, no. 4, Hệ quả 2, (ii) của Mệnh đề 2 rằng $\nu_E$ là toàn ánh, và như ta vừa thấy rằng $\nu_E$ là đơn ánh, nên nó là song ánh.
 
 ### 10. MỞ RỘNG VÔ HƯỚNG: TRƯỜNG HỢP CÁC VÀNH GIAO HOÁN
 
-Bây giờ cho $A$ là một vành *giao hoán*, $B$ là một vành và $\rho : A \to B$ là một đồng cấu vành sao cho $\rho(A)$ được chứa trong *tâm* của $B$; nói cách khác, $\rho$ xác định trên $B$ một cấu trúc đại số trên A. Khi đó với mọi A-môđun E, B-môđun phải $E_{(B)} = E \otimes_A B$ được đồng nhất với $B \otimes_A E$, các cấu trúc A-môđun của $\rho_*(B_s)$ và $\rho_*(B_d)$ là đồng nhất theo giả thiết. Nhắc lại rằng với mọi cặp có thứ tự $(E, F)$ gồm các A-môđun, ta đã xác định một B-đồng cấu chính tắc
+Bây giờ cho $A$ là một vành *giao hoán*, $B$ là một vành và $\rho : A \to B$ là một đồng cấu vành sao cho $\rho(A)$ được chứa trong *tâm* của $B$; nói cách khác, $\rho$ xác định trên $B$ một
+
+cấu trúc đại số trên A. Với mọi A-môđun E, B-môđun phải $E_{(B)} = E \otimes_A B$ khi đó được đồng nhất với $B \otimes_A E$, các cấu trúc A-môđun của $\rho_*(B_s)$ và $\rho_*(B_d)$ là đồng nhất theo giả thiết. Nhắc lại rằng với mọi cặp có thứ tự (E, F) các A-môđun, ta đã xác định một B-đồng cấu chính tắc
 
 $$
 \omega : (\operatorname{Hom}_A(E, F))_{(B)} \to \operatorname{Hom}_B(E_{(B)}, F_{(B)})
@@ -665,9 +667,9 @@ sao cho với mọi $u \in \operatorname{Hom}_A(E, F)$, $\omega(u \otimes 1) = u
 
 #### Mệnh đề 11 {#ac-i-s2-prop-11 .statement}
 
-Cho A là một vành giao hoán, B là một vành, $\varphi$ là một đồng cấu từ A vào tâm của B, và E và F là hai A-môđun. Giả sử rằng B là một A-môđun phẳng và E sinh hữu hạn (tương ứng trình bày hữu hạn). Khi đó đồng cấu chính tắc (10) là đơn ánh (tương ứng song ánh).
+Cho A là một vành giao hoán, B là một vành, $\varphi$ là một đồng cấu từ A vào tâm của B, và E và F là hai A-môđun. Giả sử rằng B là một A-môđun phẳng và E là sinh hữu hạn (tương ứng trình bày hữu hạn). Khi đó đồng cấu chính tắc (10) là đơn ánh (tương ứng song ánh).
 
-Vì $\omega$ là hợp thành của đẳng cấu chính tắc
+Vì $\omega$ được hợp thành từ đẳng cấu chính tắc
 
 $$
 \operatorname{Hom}_A(E, B \otimes_A F) \to \operatorname{Hom}_B(E_{(B)}, F_{(B)})
@@ -679,9 +681,9 @@ $$
 \nu : B \otimes_A \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_A(E, B \otimes_A F)
 $$
 
-(*loc. cit.*), nên mệnh đề là hệ quả của Mệnh đề 10 của no. 9.
+(*loc. cit.*), mệnh đề là hệ quả của Mệnh đề 10 của no. 9.
 
-Bây giờ giả sử rằng A và B là giao hoán và xét ba A-môđun $E_1, E_2, E$, và một ánh xạ song tuyến tính A $f : E_1 \times E \to E_3$. Khi đó tồn tại một và chỉ một ánh xạ song tuyến tính B $f_B : E_{1(B)} \times E_{2(B)} \to E_{3(B)}$ sao cho
+Bây giờ giả sử rằng A và B là giao hoán và xét ba A-môđun $E_1, E_2, E$, và một ánh xạ A-song tuyến tính $f : E_1 \times E \to E_3$. Khi đó tồn tại một và chỉ một ánh xạ B-song tuyến tính $f_B : E_{1(B)} \times E_{2(B)} \to E_{3(B)}$ sao cho
 
 $$
 f_B(1 \otimes x_1, 1 \otimes x_2) = 1 \otimes f(x_1, x_2)
@@ -693,7 +695,7 @@ Trong mệnh đề tiếp theo ta sẽ giả sử rằng B là một A-môđun p
 
 #### Mệnh đề 12 {#ac-i-s2-prop-12 .statement}
 
-Cho A, B là các vành giao hoán, $\varphi$ là một đồng cấu từ A vào B, $E_1, E_2, E_3$ là ba A-môđun, $f : E_1 \times E \to E_3$ là một ánh xạ song tuyến tính A và
+Cho A, B là các vành giao hoán, $\varphi$ là một đồng cấu từ A vào B, $E_1, E_2, E_3$ là ba A-môđun, $f : E_1 \times E \to E_3$ là một ánh xạ A-song tuyến tính và
 
 $$
 f_B : E_{1(B)} \times E_{2(B)} \to E_{3(B)}
@@ -824,13 +826,13 @@ Do đó $E \otimes_A F' \to E \otimes_A F$ là đơn ánh.
 
 Điều kiện (RP) chính là điều kiện (R) của Mệnh đề 13 áp dụng cho môđun $F = A_s$.
 
-Nói một cách gần đúng, (RP) phát biểu rằng: mọi "quan hệ" giữa các $b_i$, với hệ số trong $E$, đều là một tổ hợp tuyến tính (với hệ số trong $E$) của các "quan hệ" giữa các $b_i$ với hệ số trong $A$.
+Nói một cách đại khái, (RP) phát biểu rằng: mọi "quan hệ" giữa các $b_i$, với hệ số trong $E$, là một tổ hợp tuyến tính (với hệ số trong $E$) của các "quan hệ" giữa các $b_i$ với hệ số trong $A$.
 
-Xét riêng một đồng cấu từ $A$ vào một vành $B$, biến $B$ thành một A-môđun phải. Ta biết (no. 3, Mệnh đề 1) rằng điều này tương đương với việc nói rằng A-môđun này là phẳng, hoặc rằng nó phẳng đối với mọi A-môđun trái $A_s^m$ ($m \geqslant 1$). Áp dụng điều kiện (R) của Mệnh đề 13 với $E = B$ và $F = A_s^m$ ta thu được điều kiện sau:
+Xét riêng một đồng cấu từ $A$ vào một vành $B$, biến $B$ thành một A-môđun phải. Ta biết (no. 3, Mệnh đề 1) rằng điều đó tương đương với việc nói rằng A-môđun này là phẳng, hoặc rằng nó là phẳng đối với mọi A-môđun trái $A_s^m$ ($m \geqslant 1$). Áp dụng điều kiện (R) của Mệnh đề 13 với $E = B$ và $F = A_s^m$ ta thu được điều kiện sau:
 
 #### Hệ quả 2 {#ac-i-s2-prop-13-cor-2 .statement}
 
-Để vành $B$ là một A-môđun phải phẳng, điều cần và đủ là nó thỏa mãn điều kiện sau:
+Để vành $B$ là một A-môđun phải phẳng, điều kiện cần và đủ là nó thỏa mãn điều kiện sau:
 (RP') *Mọi nghiệm* $(y_k)_{1 \leq k \leq n}$, gồm các phần tử của $B$, của một hệ phương trình tuyến tính thuần nhất
 
 $$

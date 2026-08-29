@@ -48,7 +48,7 @@ subsections:
       pdf_page: 43
 statements: 22
 exercises: 10
-content_sha256: 553342d82c0ed860d37db32925ff3fc7f0bbb4d83f5b8d24030521dcecdcddba
+content_sha256: 25462bdfaad635d1e4d8d3fc9bb6dab5047da6b9ef4643edf6755dc4d4f5fcdf
 translated_from: content/en/lie/I/02_s2_enveloping_algebra_of_a_lie_algebra.md
 source_content_sha256: 7c5e0173708758daaf1de76c3fa9fffdb5ef6051a22ee9beb926543178eb668e
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini

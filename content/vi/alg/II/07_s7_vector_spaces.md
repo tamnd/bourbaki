@@ -8,55 +8,56 @@ section_title: Vector spaces
 lang: vi
 source: alg-i-iii
 source_edition: 1998, Springer
+book_pages: 292-316, 400-409
 pdf_pages: 0316-0340, 0424-0433
 extraction: ocr
 subsections:
     - "no": 1
       title: BASES OF A VECTOR SPACE
-      page: 0
+      page: 292
       pdf_page: 316
     - "no": 2
       title: DIMENSION OF VECTOR SPACES
-      page: 0
+      page: 293
       pdf_page: 317
     - "no": 3
       title: DIMENSION AND CODIMENSION OF A SUBSPACE OF A VECTOR SPACE
-      page: 0
+      page: 295
       pdf_page: 319
     - "no": 4
       title: RANK OF A LINEAR MAPPING
-      page: 0
+      page: 298
       pdf_page: 322
     - "no": 5
       title: DUAL OF A VECTOR SPACE
-      page: 0
+      page: 299
       pdf_page: 323
     - "no": 6
       title: LINEAR EQUATIONS IN VECTOR SPACES
-      page: 0
+      page: 304
       pdf_page: 328
     - "no": 7
       title: TENSOR PRODUCTS OF VECTOR SPACES
-      page: 0
+      page: 306
       pdf_page: 330
     - "no": 8
       title: RANK OF AN ELEMENT OF A TENSOR PRODUCT
-      page: 0
+      page: 309
       pdf_page: 333
     - "no": 9
       title: EXTENSION OF SCALARS FOR A VECTOR SPACE
-      page: 0
+      page: 310
       pdf_page: 334
     - "no": 10
       title: MODULES OVER INTEGRAL DOMAINS
-      page: 0
+      page: 312
       pdf_page: 336
 statements: 87
 exercises: 39
-content_sha256: 27e76d1b3f4cab2a438dde6d769bec3f964e3f1065c649ad920ea669e34b5fb5
+content_sha256: 3ccf5708f2876859590ffa7a4a425b07160fb37dc59777b7ac38bd4dedd7e6ff
 translated_from: content/en/alg/II/07_s7_vector_spaces.md
-source_content_sha256: 4788796aa08009db5601bccc827085a26b1025a9c1c0eac7c83a0824728f68c2
-translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
+source_content_sha256: 09d8351ba2815b6bb601181e4c7a6e1661b7b52e57ee226d85dca90b3ac70659
+translation_model: gpt-5.4, gpt-5-6-mini
 translation_run: translate-vi-59713daf
 glossary_version: 34
 glossary_terms_sha256: b870f51848a51208e81da7ecf1a02edad7b0cf6aabcfac28b12eb5536069cf51
@@ -75,21 +76,21 @@ Cần chứng minh rằng mọi không gian vectơ đều có một cơ sở; đ
 
 #### Định lý 2 {#alg-ii-s7-thm-2 .statement}
 
-Cho một hệ sinh S của một không gian vectơ E trên một trường K và một tập con tự do L của E được chứa trong S, tồn tại một cơ sở B của E sao cho L ⊂ B ⊂ S.
+Cho một hệ sinh S của một không gian vectơ E trên một trường K và một tập con tự do L của E được chứa trong S, khi đó tồn tại một cơ sở B của E sao cho L ⊂ B ⊂ S.
 
-Định lý 1 suy ra từ mệnh đề này bằng cách lấy L = ∅.
+Định lý 1 suy ra từ mệnh đề này khi lấy L = ∅.
 
-Để chứng minh Định lý 2, ta nhận xét rằng tập hợp Λ các tập con tự do của E được chứa trong S, có thứ tự bởi quan hệ bao hàm, là một tập quy nạp (Lý thuyết tập hợp, III, § 2, no. 4), nhờ § 1, no. 11; do đó tập hợp M các tập con tự do chứa L và được chứa trong S cũng vậy. Theo Bổ đề Zorn, M có một phần tử cực đại B và chỉ cần chứng minh rằng không gian con vectơ của E sinh bởi B bằng E. Điều này suy ra ngay lập tức từ định nghĩa của B và bổ đề sau:
+Để chứng minh Định lý 2, ta chú ý rằng tập hợp Λ các tập con tự do của E được chứa trong S, có thứ tự bởi bao hàm, là một tập quy nạp (Lý thuyết tập hợp, III, § 2, no. 4), theo § 1, no. 11; tập M các tập con tự do chứa L và được chứa trong S cũng vậy. Theo Bổ đề Zorn, M có một phần tử cực đại B và chỉ cần chứng minh rằng không gian con vectơ của E sinh bởi B bằng E. Điều này suy ra ngay lập tức từ định nghĩa của B và bổ đề sau:
 
 #### Bổ đề 1 {#alg-ii-s7-lem-1 .statement}
 
-Cho (a_i)_{i \in I} là một họ tự do các phần tử của E; nếu b \in E không thuộc không gian con F sinh bởi (a_i), tập con của E gồm các a_i và b là tự do.
+Cho (a_i)_{i \in I} là một họ tự do các phần tử của E; nếu b \in E không thuộc không gian con F sinh bởi (a_i), thì tập con của E gồm các a_i và b là tự do.
 
 Giả sử có một quan hệ $\mu b + \sum_i \lambda_i a_i = 0$ với $\mu \in K$ và $\lambda_i \in K$ với mọi $i \in I$, họ $(\lambda_i)$ có giá hữu hạn; nếu $\mu \neq 0$, thì suy ra $b = -\sum_i (\mu^{-1} \lambda_i) a_i$ và do đó $b \in F$, trái với giả thiết; vậy $\mu = 0$ và quan hệ trở thành $\sum_i \lambda_i a_i = 0$, điều này kéo theo $\lambda_i = 0$ với mọi $i \in I$ theo giả thiết; do đó có bổ đề.
 
 #### Hệ quả {#alg-ii-s7-n1-cor-1 .statement}
 
-Đối với một tập con B của một không gian vectơ E, các tính chất sau là tương đương:
+Với một tập con B của một không gian vectơ E, các tính chất sau là tương đương:
 (a) B là một cơ sở của E.
 (b) B là một tập con tự do cực đại của E.
 (c) B là một hệ sinh cực tiểu của E.
@@ -97,34 +98,34 @@ Giả sử có một quan hệ $\mu b + \sum_i \lambda_i a_i = 0$ với $\mu \in
 
 #### Ví dụ {#alg-ii-s7-n1-exa-1 .statement}
 
-Cho một vành A và một trường con K của A, A là một không gian vectơ (phải hoặc trái) trên K và do đó có một cơ sở; đặc biệt, mọi trường mở rộng của một trường K đều có một cơ sở như một không gian vectơ trái (tương ứng phải) trên K.
-*Do đó trường R các số thực có một cơ sở (vô hạn) như một không gian vectơ trên trường Q các số hữu tỉ; một cơ sở như vậy của R được gọi là cơ sở Hamel.*
+Cho một vành A và một trường con K của A, thì A là một không gian vectơ (phải hoặc trái) trên K và do đó có một cơ sở; đặc biệt, mọi trường mở rộng của một trường K đều có một cơ sở như một không gian vectơ trái (tương ứng phải) trên K.
+*Do đó trường R các số thực có một cơ sở (vô hạn) như một không gian vectơ trên trường Q các số hữu tỉ; một cơ sở như vậy của R được gọi là một cơ sở Hamel.*
 
 #### Nhận xét {#alg-ii-s7-n1-rem-1 .statement}
 
-Đối với một họ $(a_i)_{i \in I}$ các phần tử của một không gian vectơ $E$ trên một trường $K$ là *tự do*, điều kiện cần và đủ là, với mọi $\kappa \in I$, $a_\kappa$ không thuộc bất kỳ không gian con nào của $E$ sinh bởi các $a_i$ có chỉ số $i \neq \kappa$. Ta biết rằng điều kiện này là cần thiết trong mọi môđun (§ 1, no. 11, *Nhận xét* 1). Nó là đủ nhờ Bổ đề 1, như thấy ngay lập tức bằng cách lập luận theo *reductio ad absurdum* và xét một họ con liên quan cực tiểu của $(a_i)$.
+Để một họ $(a_i)_{i \in I}$ các phần tử của một không gian vectơ $E$ trên một trường $K$ là *tự do*, điều kiện cần và đủ là, với mọi $\kappa \in I$, $a_\kappa$ không thuộc bất kỳ không gian con nào của $E$ sinh bởi các $a_i$ có chỉ số $i \neq \kappa$. Ta biết rằng điều kiện này là cần trong mọi môđun (§ 1, no. 11, *Nhận xét* 1). Nó là đủ theo Bổ đề 1, như thấy ngay lập tức khi lập luận bằng *phản chứng* và xét một họ con liên quan cực tiểu của $(a_i)$.
 
 ### 2. CHIỀU CỦA CÁC KHÔNG GIAN VECTƠ
 
 #### Định lý 3 {#alg-ii-s7-thm-3 .statement}
 
-*Hai cơ sở của cùng một không gian vectơ* $E$ *trên một trường* $K$ *có cùng lực lượng*.
+*Hai cơ sở của cùng một không gian vectơ* $E$ *trên một trường* $K$ *là đẳng lực*.
 
-Trước hết ta nhận xét rằng nếu $E$ có một cơ sở *vô hạn* $B$, thì suy ra từ § 1, no. 12, Hệ quả 2 của Mệnh đề 23 rằng mọi cơ sở khác của $E$ đều có cùng lực lượng với $B$. Vì vậy ta có thể chỉ xét trường hợp $E$ có một cơ sở hữu hạn gồm $n$ phần tử. Ta nhận xét rằng mọi không gian vectơ *đơn sinh* trên $K$, khác 0, là một $K$-môđun *đơn* (I, § 4, no. 4, Định nghĩa 7), vì nó được sinh bởi mỗi phần tử của nó $\neq 0$, nhờ quan hệ $\mu a = (\mu \lambda)(\lambda^{-1}a)$ với $\mu \in K$, $\lambda \in K$ và $\lambda \neq 0$. Do đó nếu $(a_i)_{1 \leq i \leq n}$ là một cơ sở của $E$, thì $E = \bigoplus_{i=1}^n Ka_i$ đến đẳng cấu và các không gian con $E_k = \bigoplus_{i=1}^\kappa Ka_i$ với $0 \leq k \leq n$ tạo thành một *chuỗi Jordan-Hölder* của $E$, $E_k/E_{k-1}$ đẳng cấu với $Ka_k$. Định lý 3 khi đó suy ra trong trường hợp này từ Định lý Jordan-Hölder (I, § 4, no. 7, Định lý 6).
+Trước hết ta chú ý rằng nếu $E$ có một cơ sở *vô hạn* $B$, thì từ § 1, no. 12, Hệ quả 2 của Mệnh đề 23 suy ra rằng mọi cơ sở khác của $E$ đều đẳng lực với $B$. Do đó ta có thể chỉ xét trường hợp E có một cơ sở hữu hạn gồm $n$ phần tử. Ta chú ý rằng mọi không gian vectơ *đơn sinh* trên $K$, không thu về 0, đều là một $K$-môđun *đơn* (I, § 4, no. 4, Định nghĩa 7), vì nó được sinh bởi từng phần tử của nó $\neq 0$, theo quan hệ $\mu a = (\mu \lambda)(\lambda^{-1}a)$ với $\mu \in K$, $\lambda \in K$ và $\lambda \neq 0$. Do đó nếu $(a_i)_{1 \leq i \leq n}$ là một cơ sở của $E$, thì $E = \bigoplus_{i=1}^n Ka_i$ sai khác bởi đẳng cấu và các không gian con $E_k = \bigoplus_{i=1}^\kappa Ka_i$ với $0 \leq k \leq n$ tạo thành một *chuỗi Jordan-Hölder* của $E$, trong đó $E_k/E_{k-1}$ đẳng cấu với $Ka_k$. Khi đó trong trường hợp này, Định lý 3 suy ra từ Định lý Jordan-Hölder (I, § 4, no. 7, Định lý 6).
 
-Có thể cho một chứng minh độc lập với Định lý Jordan-Hölder, bằng cách chứng minh bằng quy nạp theo $n$ rằng, nếu $E$ thừa nhận một cơ sở gồm $n$ phần tử, thì mọi cơ sở khác $B'$ đều có *nhiều nhất* $n$ phần tử. Mệnh đề là hiển nhiên đối với $n = 0$. Nếu $n \geq 1$, thì $B'$ khác rỗng; khi đó lấy $a \in B'$. Theo Định lý 2 (no. 1), tồn tại một tập con $C$ của $B$ sao cho $\{a\} \cup C$ là một cơ sở của $E$ và $a \notin C$, vì $\{a\} \cup B$ hiển nhiên là một hệ sinh của $E$. Vì $B$ là một cơ sở của $E$, nên $C = B$ là không thể xảy ra (no. 1, Hệ quả của Định lý 2), và do đó $C$ có nhiều nhất $n - 1$ phần tử. Gọi $V$ là không gian con sinh bởi $C$ và $V'$ là không gian con sinh bởi $B' - \{a\}$; $V$ và $V'$ đều là các phần bù của không gian con $Ka$ trong $E$ và do đó đẳng cấu (§ 1, no. 10, Mệnh đề 13). Vì $V$ thừa nhận một cơ sở có nhiều nhất $n - 1$ phần tử, nên theo giả thiết quy nạp, $B' - \{a\}$ có nhiều nhất $n - 1$ phần tử, và do đó $B'$ có nhiều nhất $n$ phần tử.
+Có thể cho một chứng minh độc lập với Định lý Jordan-Hölder, bằng cách chỉ ra bằng quy nạp theo $n$ rằng, nếu $E$ thừa nhận một cơ sở gồm $n$ phần tử, thì mọi cơ sở khác $B'$ đều có *nhiều nhất* $n$ phần tử. Mệnh đề là hiển nhiên đối với $n = 0$. Nếu $n \geq 1$, thì $B'$ là không rỗng; khi đó lấy $a \in B'$. Theo Định lý 2 (no. 1) tồn tại một tập con $C$ của $B$ sao cho $\{a\} \cup C$ là một cơ sở của $E$ và $a \notin C$, vì $\{a\} \cup B$ hiển nhiên là một hệ sinh của $E$. Vì $B$ là một cơ sở của $E$, trường hợp $C = B$ là không thể xảy ra (no. 1, Hệ quả của Định lý 2), và do đó $C$ có nhiều nhất $n - 1$ phần tử. Gọi $V$ là không gian con sinh bởi $C$ và $V'$ là không gian con sinh bởi $B' - \{a\}$; $V$ và $V'$ đều bù nhau với không gian con $Ka$ của $E$ và do đó đẳng cấu (§ 1, no. 10, Mệnh đề 13). Vì $V$ thừa nhận một cơ sở có nhiều nhất $n - 1$ phần tử, nên theo giả thiết quy nạp, $B' - \{a\}$ có nhiều nhất $n - 1$ phần tử, và do đó $B'$ có nhiều nhất $n$ phần tử.
 
 #### Định nghĩa 1 {#alg-ii-s7-def-1 .statement}
 
-***Chiều của một không gian vectơ*** $E$ *trên một trường* $K$, *ký hiệu là* $\dim_K E$ *hoặc* $[E:K]$ (*hoặc đơn giản là* $\dim E$) *là lực lượng của bất kỳ cơ sở nào của* $E$. *Nếu* $M$ *là một tập con của* $E$, *thì hạng của* $M$ *(trên* $K$*), ký hiệu là* $\operatorname{rg} M$ *hoặc* $\operatorname{rg}_K M$, *là chiều của không gian vectơ con của* $E$ *được sinh bởi* $M$.
+*Chiều của một không gian vectơ* $E$ *trên một trường* $K$, *ký hiệu là* $\dim_K E$ *hoặc* $[E:K]$ (*hoặc đơn giản là* $\dim E$) *là lực lượng của bất kỳ cơ sở nào của* $E$. *Nếu* $M$ *là một tập con của* $E$, *thì hạng của* $M$ *(trên* $K$*), ký hiệu là* $\operatorname{rg} M$ *hoặc* $\operatorname{rg}_K M$, *là chiều của không gian con vectơ của* $E$ *được sinh bởi* $M$.
 
-Nói rằng $E$ là hữu hạn chiều tương đương với việc nói rằng $E$ là một $K$-môđun có *độ dài hữu hạn* và $\dim_K E = \operatorname{long}_K E$.
+Nói rằng $E$ là hữu hạn chiều tương đương với nói rằng $E$ là một $K$-môđun có *độ dài hữu hạn* và $\dim_K E = \operatorname{long}_K E$.
 
 #### Hệ quả {#alg-ii-s7-n2-cor-1 .statement}
 
-*Với mọi tập con M của E, hạng của M nhiều nhất bằng dim E.*
+*Với mọi tập con M của E, hạng của M không vượt quá dim E.*
 
-Nếu V là không gian vectơ con của E được sinh bởi M, thì M chứa một cơ sở B' của V (no. 1, Định lý 2) và vì B' là một tập con tự do của E, nên nó được chứa trong một cơ sở B của E (no. 1, Định lý 2); khi đó Card(B') $\leq$ Card(B), do đó có hệ quả.
+Nếu V là không gian con vectơ của E được sinh bởi M, thì M chứa một cơ sở B' của V (no. 1, Định lý 2) và vì B' là một tập con tự do của E, nó được chứa trong một cơ sở B của E (no. 1, Định lý 2); khi đó Card(B') $\leq$ Card(B), do đó có hệ quả.
 
 Các Định lý 2 và 3 ngay lập tức suy ra mệnh đề sau:
 
@@ -132,7 +133,7 @@ Các Định lý 2 và 3 ngay lập tức suy ra mệnh đề sau:
 
 (i) *Để một không gian vectơ trái trên K có số chiều hữu hạn n, điều kiện cần và đủ là nó đẳng cấu với K_s^n.*
 
-(ii) *Để hai không gian vectơ K_s^m và K_s^n đẳng cấu (m và n là các số nguyên $\geq 0$), điều kiện cần và đủ là m = n.*
+(ii) *Để hai không gian vectơ K_s^m và K_s^n đẳng cấu với nhau (m và n là các số nguyên $\geq 0$), điều kiện cần và đủ là m = n.*
 
 (iii) *Trong một không gian vectơ E có số chiều hữu hạn n, mọi hệ sinh đều có ít nhất n phần tử; một hệ sinh của E có n phần tử là một cơ sở của E.*
 
@@ -146,35 +147,35 @@ $$
 \dim_K \left( \bigoplus_{t \in I} E_t \right) = \sum_{t \in I} \dim_K E_t.
 $$
 
-Nếu các E_t được đồng nhất một cách chính tắc với các không gian con của $E = \bigoplus_{t \in I} E_t$ và B_t là một cơ sở của E_t ($t \in I$), thì $B = \bigcup_{t \in I} B_t$ là một cơ sở của E ($§ 1$, no. 11, Proposition 19); do đó có quan hệ (1) vì các B_t từng đôi một rời nhau.
+Nếu các E_t được đồng nhất một cách chính tắc với các không gian con của $E = \bigoplus_{t \in I} E_t$ và B_t là một cơ sở của E_t ($t \in I$), thì $B = \bigcup_{t \in I} B_t$ là một cơ sở của E ($§ 1$, no. 11, Mệnh đề 19); do đó có quan hệ (1) vì các B_t đôi một rời nhau.
 
 #### Nhận xét {#alg-ii-s7-n2-rem-1 .statement}
 
-(1) Có thể cho các ví dụ về những môđun thừa nhận hai cơ sở hữu hạn không có cùng số phần tử ($§ 1$, Bài tập 16(c)). Tuy nhiên:
+(1) Có thể cho các ví dụ về những môđun có hai cơ sở hữu hạn không có cùng số phần tử ($§ 1$, Bài tập 16(c)). Tuy nhiên:
 
 #### Mệnh đề 3 {#alg-ii-s7-prop-3 .statement}
 
-*Một vành A được giả sử sao cho tồn tại một đồng cấu $\rho$ từ A vào một trường D; khi đó với mọi A-môđun tự do E, hai cơ sở bất kỳ của E đều có cùng lực lượng.*
+*Một vành A sao cho tồn tại một đồng cấu $\rho$ từ A vào một trường D; khi đó đối với mọi A-môđun tự do E, mọi cơ sở của E đều có cùng lực lượng.*
 
-Xét không gian vectơ $\rho^*(E) = D \otimes_A E$ trên D thu được bằng cách mở rộng vành vô hướng lên D ($§ 5$, no. 1) và gọi $\phi : x \mapsto 1 \otimes x$ là ánh xạ chính tắc từ E vào $\rho^*(E)$; nếu $(a_\lambda)$ là một cơ sở của E thì $(\phi(a_\lambda))$ là một cơ sở của $\rho^*(E)$ ($§ 5$, no. 1, Mệnh đề 4); khi đó mệnh đề suy ra từ Định lý 3.
+Xét không gian vectơ $\rho^*(E) = D \otimes_A E$ trên D thu được bằng cách mở rộng vành các vô hướng thành D ($§ 5$, no. 1) và gọi $\phi : x \mapsto 1 \otimes x$ là ánh xạ chính tắc từ E vào $\rho^*(E)$; nếu $(a_\lambda)$ là một cơ sở của E thì $(\phi(a_\lambda))$ là một cơ sở của $\rho^*(E)$ ($§ 5$, no. 1, Mệnh đề 4); khi đó mệnh đề suy ra từ Định lý 3.
 
 #### Hệ quả {#alg-ii-s7-n2-cor-2 .statement}
 
-*Nếu A là một vành giao hoán $\neq 0$ và E là một A-môđun tự do, thì hai cơ sở bất kỳ của E đều có cùng lực lượng.*
+*Nếu A là một vành giao hoán $\neq 0$ và E là một A-môđun tự do, thì mọi cơ sở của E đều có cùng lực lượng.*
 
 Trong A tồn tại ít nhất một iđêan cực đại m (I, $§ 8$, no. 6, Định lý 1) và, vì A/m là một trường, các điều kiện của Mệnh đề 3 được thỏa mãn.
 
 #### Nhận xét {#alg-ii-s7-n2-rem-2 .statement}
 
-(2) Khi một A-môđun tự do E có tính chất là hai cơ sở bất kỳ của E đều có cùng lực lượng, thì lực lượng của một cơ sở tùy ý của E trên A cũng được gọi là *chiều* hoặc *hạng* của E và được ký hiệu bởi $\dim_A E$ hoặc $\dim E$.
+(2) Khi một A-môđun tự do E sao cho mọi cơ sở của E đều có cùng lực lượng, thì lực lượng của một cơ sở tùy ý của E trên A cũng được gọi là *chiều* hoặc *hạng* của E và được ký hiệu là $\dim_A E$ hoặc $\dim E$.
 
-(3) Gọi $A$ là một vành sao cho hai cơ sở bất kỳ của một $A$-môđun tự do đều có cùng lực lượng và gọi $K$ là một trường con của $A$, để rồi $A$ có thể được xem như một *không gian vectơ trái* trên $K$ bằng cách hạn chế các vô hướng. Tương tự, mọi $A$-môđun tự do $E$ đều có thể được xem như một không gian vectơ trái trên $K$ và khi đó từ § 1, no. 13, Mệnh đề 25 suy ra rằng
+(3) Cho $A$ là một vành sao cho mọi cơ sở của một $A$-môđun tự do đều có cùng lực lượng và cho $K$ là một trường con của $A$, để rồi $A$ có thể được xem như một *không gian vectơ trái* trên $K$ bằng cách thu hẹp các vô hướng. Mọi $A$-môđun tự do $E$ cũng có thể tương tự được xem như một không gian vectơ trái trên $K$ và khi đó suy ra từ § 1, no. 13, Mệnh đề 25 rằng
 
 $$
 \dim_K E = \dim_K E \cdot \dim_K A_s.
 $$
 
-(4) Trong Chương VIII, ta sẽ thấy các ví dụ về những vành thỏa mãn kết luận của Mệnh đề 3 nhưng không thỏa mãn giả thiết.
+(4) Trong Chương VIII ta sẽ thấy các ví dụ về những vành thỏa mãn kết luận của Mệnh đề 3 nhưng không thỏa mãn giả thiết.
 
 ### 3. CHIỀU VÀ ĐỐI CHIỀU CỦA MỘT KHÔNG GIAN CON CỦA MỘT KHÔNG GIAN VECTƠ
 
@@ -186,17 +187,17 @@ $$
 \dim F + \dim(E/F) = \dim E.
 $$
 
-Vì không gian vectơ thương $E/F$ là một môđun tự do, nên ta biết (§ 1, no. 11, Mệnh đề 21) rằng $F$ là một nhân tử trực tiếp của $E$; khi đó quan hệ (3) là một trường hợp riêng của công thức (1) (no. 2).
+Vì không gian vectơ thương $E/F$ là một môđun tự do, ta biết (§ 1, no. 11, Mệnh đề 21) rằng $F$ là một nhân tử trực tiếp của $E$; quan hệ (3) khi đó là một trường hợp riêng của công thức (1) (no. 2).
 
 #### Hệ quả 1 {#alg-ii-s7-prop-4-cor-1 .statement}
 
-*Nếu $E, F, G$ là các không gian vectơ trên một trường $K$, thì mọi dãy khớp các ánh xạ tuyến tính $0 \to E \to F \to G \to 0$ đều tách được.*
+*Nếu $E, F, G$ là các không gian vectơ trên một trường $K$, thì mọi dãy khớp của các ánh xạ tuyến tính $0 \to E \to F \to G \to 0$ đều tách.*
 
-Đây là một cách khác để phát biểu Mệnh đề 4 (§ 1, no. 9).
+Đó là một cách khác để phát biểu Mệnh đề 4 (§ 1, no. 9).
 
 #### Hệ quả 2 {#alg-ii-s7-prop-4-cor-2 .statement}
 
-*Gọi $(E_i)_{0 \leq i \leq n}$ là một họ hữu hạn các không gian vectơ trên một trường $K$. Nếu tồn tại một dãy khớp các ánh xạ tuyến tính*
+*Cho $(E_i)_{0 \leq i \leq n}$ là một họ hữu hạn các không gian vectơ trên một trường $K$. Nếu tồn tại một dãy khớp của các ánh xạ tuyến tính*
 
 $$
 0 \longrightarrow E_0 \xrightarrow{u_0} E_1 \xrightarrow{u_1} E_2 \longrightarrow \cdots \longrightarrow E_{n-1} \xrightarrow{u_{n-1}} E_n \xrightarrow{u_n} 0
@@ -208,13 +209,13 @@ $$
 \sum_{2k+1 \leq n} \dim E_{2k+1} = \sum_{2k \leq n} \dim E_{2k}
 $$
 
-*đúng, hoặc, nếu mọi không gian đều hữu hạn chiều, thì*
+*đúng, hoặc, nếu tất cả các không gian đều hữu hạn chiều,*
 
 $$
 \sum_{i=1}^n (-i)^i \dim E_i = 0.
 $$
 
-Đặt $I_k = \operatorname{Im}\ u_k = \operatorname{Ker}\ u_{k+1}$ với $0 \leq k \leq n-1$; do đó $I_{k+1}$ đẳng cấu với $E_{k+1}/I_k$, nên (công thức (3)) $\dim I_k + \dim I_{k+1} = \dim E_{k+1}$ với $0 \leq k \leq n-2$ và hơn nữa $\dim I_0 = \dim E_0$ và $I_{n-1} = E_n$, do đó $\dim I_{n-1} = \dim E_n$. Thay thế $\dim E_i$ bằng biểu thức của nó như một hàm của các $\dim I_k$ trong hai vế của (5), ta thu được ở mỗi vế $\sum_{k=0}^{n-1} \dim I_k$, do đó có hệ quả.
+Đặt $I_k = \operatorname{Im}\ u_k = \operatorname{Ker}\ u_{k+1}$ với $0 \leq k \leq n-1$; do đó $I_{k+1}$ đẳng cấu với $E_{k+1}/I_k$, suy ra (công thức (3)) $\dim I_k + \dim I_{k+1} = \dim E_{k+1}$ với $0 \leq k \leq n-2$ và hơn nữa $\dim I_0 = \dim E_0$ và $I_{n-1} = E_n$, do đó $\dim I_{n-1} = \dim E_n$. Thay thế $\dim E_i$ bằng biểu thức của nó như một hàm của các $\dim I_k$ ở hai vế của (5), ta thu được ở mỗi vế $\sum_{k=0}^{n-1} \dim I_k$, do đó có hệ quả.
 
 #### Hệ quả 3 {#alg-ii-s7-prop-4-cor-3 .statement}
 
@@ -238,9 +239,9 @@ $$
 
 #### Hệ quả 4 {#alg-ii-s7-prop-4-cor-4 .statement}
 
-*Với mọi không gian con F của một không gian vectơ E, $\dim F \leq \dim E$; nếu E hữu hạn chiều, thì quan hệ $\dim F = \dim E$ tương đương với $F = E$.*
+*Với mọi không gian con F của một không gian vectơ E, $\dim F \leq \dim E$; nếu E hữu hạn chiều, quan hệ $\dim F = \dim E$ tương đương với $F = E$.*
 
-Mệnh đề thứ nhất là hiển nhiên từ (3); hơn nữa, nếu $\dim E$ là hữu hạn, thì quan hệ $\dim F = \dim E$ kéo theo $\dim(E/F) = 0$ theo (3), và một không gian vectơ có chiều bằng 0 thì thu về 0.
+Mệnh đề thứ nhất là hiển nhiên từ (3); hơn nữa, nếu $\dim E$ là hữu hạn, quan hệ $\dim F = \dim E$ kéo theo $\dim(E/F) = 0$ theo (3), và một không gian vectơ có chiều 0 thì thu về 0.
 
 #### Hệ quả 5 {#alg-ii-s7-prop-4-cor-5 .statement}
 
@@ -250,13 +251,13 @@ Mệnh đề thứ nhất là hiển nhiên từ (3); hơn nữa, nếu $\dim E$
 \dim E \leq \sum_i \dim F_i.
 $$
 
-*Nếu thêm $\dim E$ là hữu hạn, hai vế của (8) bằng nhau khi và chỉ khi E là tổng trực tiếp của họ $(F_i)$.*
+*Nếu thêm nữa $\dim E$ là hữu hạn, thì hai vế của (8) bằng nhau khi và chỉ khi E là tổng trực tiếp của họ $(F_i)$.*
 
-Bất đẳng thức (8) suy ra từ (3) và sự kiện rằng E đẳng cấu với một thương của $\bigoplus_i F_i$ (§ 1, no. 7, công thức (28)). Mệnh đề thứ hai là một trường hợp riêng của § 1, no. 10, Hệ quả 5 của Mệnh đề 16, vì sự bằng nhau của hai vế của (8) kéo theo rằng $\dim F_i = 0$ ngoại trừ một số hữu hạn chỉ số.
+Bất đẳng thức (8) suy ra từ (3) và sự kiện rằng E đẳng cấu với một thương của $\bigoplus_i F_i$ (§ 1, no. 7, công thức (28)). Mệnh đề thứ hai là một trường hợp riêng của § 1, no. 10, Hệ quả 5 của Mệnh đề 16, vì sự bằng nhau của hai vế của (8) kéo theo $\dim F_i = 0$ trừ ra đối với một số hữu hạn chỉ số.
 
 #### Định nghĩa 2 {#alg-ii-s7-def-2 .statement}
 
-*Một không gian vectơ E đã cho, đối chiều (đối với E) của một không gian con F của E, ký hiệu bởi $\operatorname{codim}_E F$, hoặc đơn giản là $\operatorname{codim} F$, là chiều của $E/F$ (bằng chiều của mọi phần bù của F trong E).*
+*Cho một không gian vectơ E, đối chiều (đối với E) của một không gian con F của E, ký hiệu bởi $\operatorname{codim}_E F$, hoặc đơn giản là $\operatorname{codim} F$, là chiều của $E/F$ (bằng chiều của bất kỳ phần bù nào của F trong E).*
 
 Khi đó quan hệ (3) có thể được viết
 
@@ -266,9 +267,9 @@ $$
 
 #### Mệnh đề 5 {#alg-ii-s7-prop-5 .statement}
 
-*Cho F, F' là hai không gian con của một không gian vectơ E, sao cho $F \subset F'$. Khi đó $\operatorname{codim}_E F' \leq \operatorname{codim}_E F \leq \dim E$. Nếu $\operatorname{codim}_E F$ là hữu hạn, quan hệ $\operatorname{codim}_E F' = \operatorname{codim}_E F$ kéo theo $F = F'$.*
+*Cho F, F' là hai không gian con của một không gian vectơ E, sao cho $F \subset F'$. Khi đó $\operatorname{codim}_E F' \leq \operatorname{codim}_E F \leq \dim E$. Nếu $\operatorname{codim}_E F$ là hữu hạn, thì quan hệ $\operatorname{codim}_E F' = \operatorname{codim}_E F$ kéo theo $F = F'$.*
 
-Bất đẳng thức $\operatorname{codim}_E F \leq \dim E$ là hiển nhiên từ (9) và nếu $\dim E$ là hữu hạn thì quan hệ $\operatorname{codim}_E F = \dim E$ kéo theo $\dim F = 0$ và do đó $F = \{0\}$. Phần còn lại của mệnh đề suy ra từ điều này, vì
+Bất đẳng thức $\operatorname{codim}_E F \leq \dim E$ là hiển nhiên từ (9), và nếu $\dim E$ là hữu hạn thì quan hệ $\operatorname{codim}_E F = \dim E$ kéo theo $\dim F = 0$ và do đó $F = \{0\}$. Phần còn lại của mệnh đề suy ra từ điều này, vì
 $$
 \operatorname{codim}_E F' = \operatorname{codim}_{E/F'}(F'/F),
 $$
@@ -281,13 +282,13 @@ $$
 \operatorname{codim}(M + N) + \operatorname{codim}(M \cap N) = \operatorname{codim} M + \operatorname{codim} N.
 $$
 (10)
-Chỉ cần áp dụng Hệ quả 2 của Mệnh đề 4 vào dãy khớp
+Chỉ cần áp dụng Hệ quả 2 của Mệnh đề 4 cho dãy khớp
 $$
 0 \to E/(M \cap N) \to (E/M) \oplus (E/N) \to E/(M + N) \to 0
 $$
-(§ 1, no. 7, Mệnh đề 10) và sử dụng no. 2, Mệnh đề 2.
+(§ 1, no. 7, Mệnh đề 10) và dùng no. 2, Mệnh đề 2.
 
-Chú ý rằng nếu E là hữu hạn chiều, (10) là một hệ quả của (7) và (9).
+Chú ý rằng nếu E hữu hạn chiều, thì (10) là một hệ quả của (7) và (9).
 
 #### Mệnh đề 7 {#alg-ii-s7-prop-7 .statement}
 
@@ -295,33 +296,33 @@ Chú ý rằng nếu E là hữu hạn chiều, (10) là một hệ quả của 
 $$
 \operatorname{codim}\left(\bigcap_i F_i\right) \leq \sum_i \operatorname{codim} F_i.
 $$
-Nếu $F = \bigcap_i F_i$, $E/F$ đẳng cấu với một không gian con của tổng trực tiếp của các $E/F_i$ (§ 1, no. 7, công thức (27)).
+Nếu $F = \bigcap_i F_i$, thì $E/F$ đẳng cấu với một không gian con của tổng trực tiếp của các $E/F_i$ (§ 1, no. 7, công thức (27)).
 
-Các không gian con vectơ có chiều 1 (tương ứng, chiều 2) của một không gian vectơ E thường được gọi là *các đường thẳng đi qua 0* (tương ứng, *các mặt phẳng đi qua 0*) (hoặc đơn giản là *các đường thẳng* (tương ứng, *các mặt phẳng*) nếu không có sự nhầm lẫn nào xảy ra (xem § 9, no. 3)), theo phép tương tự với ngôn ngữ của Hình học cổ điển; một không gian con của E được gọi là một *siêu phẳng đi qua 0* (hoặc đơn giản là một *siêu phẳng*) nếu nó có đối chiều 1. Các siêu phẳng cũng có thể được định nghĩa là các phần tử *cực đại* của tập hợp $\mathcal{S}$ các không gian con vectơ của E *phân biệt* với E, có thứ tự bởi quan hệ bao hàm. Có một sự tương ứng một-một giữa các không gian con của E chứa một không gian con H và các không gian con của $E/H$ (I, § 4, no. 7, Định lý 4); nếu E có chiều $\geq 1$, $\mathcal{S}$ không rỗng và nói rằng H là cực đại trong $\mathcal{S}$ có nghĩa là $E/H$ không chứa không gian con nào phân biệt với $\{0\}$ và $E/H$, điều này kéo theo rằng $E/H$ được sinh bởi mọi phần tử của nó $\neq 0$, nói cách khác nó có chiều 1.
+Các không gian con vectơ chiều 1 (tương ứng chiều 2) của một không gian vectơ E thường được gọi là *các đường thẳng đi qua 0* (tương ứng *các mặt phẳng đi qua 0*) (hoặc đơn giản là *các đường thẳng* (tương ứng *các mặt phẳng*) nếu không có sự lẫn lộn nào xảy ra (xem § 9, no. 3)), theo phép loại suy với ngôn ngữ của Hình học Cổ điển; một không gian con của E được gọi là một *siêu phẳng đi qua 0* (hoặc đơn giản là một *siêu phẳng*) nếu nó có đối chiều 1. Các siêu phẳng cũng có thể được định nghĩa như các phần tử *cực đại* của tập $\mathcal{S}$ các không gian con vectơ của E *phân biệt* với E, có thứ tự theo bao hàm. Có một sự tương ứng một-một giữa các không gian con của E chứa một không gian con H và các không gian con của $E/H$ (I, § 4, no. 7, Định lý 4); nếu E có chiều $\geq 1$, thì $\mathcal{S}$ là khác rỗng, và nói rằng H là cực đại trong $\mathcal{S}$ có nghĩa là $E/H$ không chứa không gian con nào phân biệt với $\{0\}$ và $E/H$, điều này kéo theo rằng $E/H$ được sinh bởi bất kỳ phần tử nào của nó $\neq 0$, nói cách khác nó có chiều 1.
 
-Trong một không gian vectơ có số chiều hữu hạn $n \geq 1$, các siêu phẳng là các không gian con *có chiều* $n - 1$ theo công thức (3).
+Trong một không gian vectơ hữu hạn chiều $n \geq 1$, các siêu phẳng là các không gian con *có chiều* $n - 1$ theo công thức (3).
 
 #### Mệnh đề 8 {#alg-ii-s7-prop-8 .statement}
 
-*Trong một không gian vectơ E trên một trường K, mọi không gian con vectơ F là giao của các siêu phẳng chứa nó.*
+*Trong một không gian vectơ E trên một trường K, mọi không gian con vectơ F đều là giao của các siêu phẳng chứa nó.*
 
-Chỉ cần chứng minh rằng với mọi $x \notin F$ tồn tại một siêu phẳng H chứa F và không chứa x. Theo giả thiết $F \cap Kx = \{0\}$ và do đó tổng M của F và $Kx$ là trực tiếp. Gọi N là phần bù của M trong E; khi đó E là tổng trực tiếp của $H = F + N$ và $Kx$ và vì vậy H là một siêu phẳng có tính chất mong muốn.
+Chỉ cần chỉ ra rằng với mọi $x \notin F$ tồn tại một siêu phẳng H chứa F và không chứa x. Theo giả thiết $F \cap Kx = \{0\}$ và do đó tổng M của F và $Kx$ là trực tiếp. Cho N là phần bù của M trong E; khi đó E là tổng trực tiếp của $H = F + N$ và $Kx$, và vì vậy H là một siêu phẳng có tính chất mong muốn.
 
 #### Nhận xét {#alg-ii-s7-n3-rem-1 .statement}
 
-Phần lớn các tính chất đã được chứng minh trong no. này cho các không gian con của một không gian vectơ không đúng đối với các môđun con của một môđun tự do mà số chiều của nó ($§ 2,$ no. 7, Nhận xét 2) được định nghĩa. *Ví dụ, một iđêan của một vành giao hoán không nhất thiết có cơ sở, vì có những miền nguyên $A$ trong đó một số iđêan không chính (VII, $§ 1,$ no. 1) và hai phần tử bất kỳ của một vành như vậy phụ thuộc tuyến tính ($§ 1,$ no. 11, Nhận xét 1).* Một môđun con của một môđun tự do $A$-môđun $E$ có thể là tự do, phân biệt với $E$ và có cùng số chiều với $E$, như được chỉ ra bởi các iđêan chính trong một miền nguyên $A$; cùng ví dụ còn chứng minh thêm rằng một môđun con tự do của một $A$-môđun tự do không nhất thiết có một phần bù.
+Phần lớn các tính chất được chứng minh trong số này đối với các không gian con của một không gian vectơ không còn đúng đối với các môđun con của một môđun tự do mà chiều của nó ($§ 2,$ no. 7, Nhận xét 2) được định nghĩa. *Ví dụ, một iđêan của một vành giao hoán không nhất thiết thừa nhận một cơ sở, vì có những miền nguyên $A$ trong đó một số iđêan không phải là chính (VII, $§ 1,$ no. 1) và mọi cặp phần tử của một vành như vậy đều phụ thuộc tuyến tính ($§ 1,$ no. 11, Nhận xét 1).* Một môđun con của một A-môđun tự do $E$ có thể là tự do, phân biệt với $E$ và có cùng chiều với $E$, như được chỉ ra bởi các iđêan chính trong một miền nguyên $A$; hơn nữa, cùng ví dụ ấy còn chứng minh rằng một môđun con tự do của một A-môđun tự do không nhất thiết thừa nhận một phần bù.
 
 ### 4. HẠNG CỦA MỘT ÁNH XẠ TUYẾN TÍNH
 
 #### Định nghĩa 3 {#alg-ii-s7-def-3 .statement}
 
-*Cho $E, F$ là hai không gian vectơ trên một trường $K$. Đối với mọi ánh xạ tuyến tính $u$ của $E$ vào $F$, chiều của không gian con $u(E)$ của $F$ được gọi là hạng của $u$ và ký hiệu là $\mathrm{rg}(u)$.
+*Cho $E, F$ là hai không gian vectơ trên một trường $K$. Với mọi ánh xạ tuyến tính $u$ từ $E$ vào $F$, chiều của không gian con $u(E)$ của $F$ được gọi là hạng của $u$ và được ký hiệu bởi $\mathrm{rg}(u)$.
 
-Nếu $N = \mathrm{Ker}(u)$, $E/N$ đẳng cấu với $u(E)$, do đó có quan hệ
+Nếu $N = \mathrm{Ker}(u)$, thì $E/N$ đẳng cấu với $u(E)$, do đó có quan hệ
 $$
 \mathrm{rg}(u) = \mathrm{codim}_E(\mathrm{Ker}(u))
 $$
-và vì vậy
+và vì thế
 $$
 \mathrm{rg}(u) + \dim(\mathrm{Ker}(u)) = \dim E.
 $$
@@ -334,36 +335,36 @@ $$
 
 *Cho $E, F$ là hai không gian vectơ trên một trường $K$ và $u : E \to F$ là một ánh xạ tuyến tính.*
 (i) $\mathrm{rg}(u) \leq \inf(\dim E, \dim F)$.
-(ii) *Giả sử rằng $E$ là hữu hạn chiều; để có $\mathrm{rg}(u) = \dim E$, điều kiện cần và đủ là $u$ đơn ánh.*
-(iii) *Giả sử rằng $F$ là hữu hạn chiều; để có $\mathrm{rg}(u) = \dim F$, điều kiện cần và đủ là $u$ toàn ánh.*
+(ii) *Giả sử rằng $E$ hữu hạn chiều; để có $\mathrm{rg}(u) = \dim E$, điều kiện cần và đủ là $u$ đơn ánh.*
+(iii) *Giả sử rằng $F$ hữu hạn chiều; để có $\mathrm{rg}(u) = \dim F$, điều kiện cần và đủ là $u$ toàn ánh.*
 
 Điều này suy ra ngay lập tức từ các quan hệ (12) và (13).
 
 #### Hệ quả {#alg-ii-s7-n4-cor-1 .statement}
 
-*Cho $E$ là một không gian vectơ có số chiều hữu hạn $n$ và $u$ là một tự đồng cấu của $E$. Các tính chất sau là tương đương:*
+*Cho* $E$ *là một không gian vectơ có chiều hữu hạn* $n$ *và* $u$ *là một tự đồng cấu của* $E$. *Các tính chất sau là tương đương:*
 (a) $u$ là song ánh;
 (b) $u$ là đơn ánh;
 (c) $u$ là toàn ánh;
-(d) $u$ là khả nghịch phải;
-(e) $u$ là khả nghịch trái;
+(d) $u$ khả nghịch phải;
+(e) $u$ khả nghịch trái;
 (f) $u$ có hạng $n$.
 
-Nếu E là một không gian vectơ vô hạn chiều, tồn tại các tự đồng cấu đơn ánh (tương ứng toàn ánh) của E không song ánh (Bài tập 9).
+Nếu E là một không gian vectơ vô hạn chiều, thì có những tự đồng cấu đơn ánh (tương ứng, toàn ánh) của E mà không song ánh (Bài tập 9).
 
-Cho K, K' là hai trường, $\sigma : K \to K'$ là một *đẳng cấu* của K lên K', E là một không gian vectơ K, E' là một không gian vectơ K' và $u : K \to K'$ là một ánh xạ *nửa tuyến tính* đối với $\sigma$ (§ 1, no. 13); chiều của không gian con $u(E)$ của E' cũng được gọi là *hạng* của $u$. Nó cũng là hạng của $u$ được xem như một ánh xạ tuyến tính của E vào $\sigma_*(E')$, vì mọi cơ sở của $u(E)$ cũng là một cơ sở của $\sigma_*(u(E))$.
+Cho K, K' là hai trường, $\sigma : K \to K'$ là một *đẳng cấu* của K lên K', E là một không gian vectơ trên K, E' là một không gian vectơ trên K' và $u : K \to K'$ là một ánh xạ *nửa tuyến tính* đối với $\sigma$ (§ 1, no. 13); chiều của không gian con $u(E)$ của E' cũng được gọi là *hạng* của $u$. Nó cũng là hạng của $u$ khi coi $u$ như một ánh xạ tuyến tính từ E vào $\sigma_*(E')$, vì mọi cơ sở của $u(E)$ cũng là một cơ sở của $\sigma_*(u(E))$.
 
 ### 5. ĐỐI NGẪU CỦA MỘT KHÔNG GIAN VECTƠ
 
 #### Định lý 4 {#alg-ii-s7-thm-4 .statement}
 
-*Chiều của đối ngẫu* $E^*$ *của một không gian vectơ* E *ít nhất bằng chiều của* E. *Để* $E^*$ *hữu hạn chiều, điều kiện cần và đủ là* E *hữu hạn chiều, và khi đó* $\dim E^* = \dim E$.
+*Chiều của đối ngẫu* $E^*$ *của một không gian vectơ* E *ít nhất bằng chiều của* E. *Điều kiện cần và đủ để* $E^*$ *hữu hạn chiều là* E *cũng như vậy, và khi đó* $\dim E^* = \dim E$.
 
-Nếu K là trường các vô hướng của E, E đẳng cấu với một không gian $K_s^{(I)}$ và do đó $E^*$ đẳng cấu với $K_d^I$ (§ 2, no. 6, Mệnh đề 10). Vì $K_s^{(I)}$ là một không gian con của $K_d^I$, $\dim E = \mathrm{Card}(I) \leq \dim E^*$ (no. 3, Hệ quả 4 của Mệnh đề 4); hơn nữa, nếu I hữu hạn, $K_d^I = K_d^{(I)}$ (xem Bài tập 3(d)).
+Nếu K là trường vô hướng của E, thì E đẳng cấu với một không gian $K_s^{(I)}$ và do đó $E^*$ đẳng cấu với $K_d^I$ (§ 2, no. 6, Mệnh đề 10). Vì $K_s^{(I)}$ là một không gian con của $K_d^I$, $\dim E = \mathrm{Card}(I) \leq \dim E^*$ (no. 3, Hệ quả 4 của Mệnh đề 4); hơn nữa, nếu I hữu hạn, thì $K_d^I = K_d^{(I)}$ (x. Bài tập 3(d)).
 
 #### Hệ quả {#alg-ii-s7-n5-cor-1 .statement}
 
-*Đối với một không gian vectơ* E, *các quan hệ* $E = \{0\}$ *và* $E^* = \{0\}$ *là tương đương*.
+*Với một không gian vectơ* E, *các quan hệ* $E = \{0\}$ *và* $E^* = \{0\}$ *là tương đương*.
 
 #### Định lý 5 {#alg-ii-s7-thm-5 .statement}
 
@@ -374,7 +375,7 @@ $$
 0 &\to F' \to F \to F'' \to 0
 \end{align*}
 $$
-*và hai không gian vectơ* G, H *trên* K, *các dãy tương ứng*
+*và hai không gian vectơ* G, H *trên* K, *thì các dãy tương ứng*
 $$
 \begin{align*}
 0 &\to \mathrm{Hom}(E'', G) \to \mathrm{Hom}(E, G) \to \mathrm{Hom}(E', G) \to 0 \\
@@ -383,7 +384,7 @@ $$
 $$
 *là khớp và tách*.
 
-Điều này suy ra từ sự kiện rằng mọi không gian con vectơ là một nhân tử trực tiếp (no. 3, Mệnh đề 4) và từ § 2, no. 1, các Mệnh đề 1 và 2.
+Điều này suy ra từ việc mọi không gian con vectơ đều là một nhân tử trực tiếp (no. 3, Mệnh đề 4) và từ § 2, no. 1, các Mệnh đề 1 và 2.
 
 #### Hệ quả {#alg-ii-s7-n5-cor-2 .statement}
 
@@ -395,15 +396,15 @@ $$
 $$
 0 \longrightarrow E''* \xrightarrow{t_v} E^* \xrightarrow{t_u} {E'}^* \longrightarrow 0
 $$
-*là khớp và phân rã*.
+*là khớp và tách được*.
 
-Đặc biệt suy ra rằng với mọi không gian con vectơ M của E, đồng cấu chính tắc $E^*/M' \to M^*$, trong đó $M'$ là không gian con của $E^*$ trực giao với M (§ 2, no. 4), là *song ánh*.
+Suy ra đặc biệt rằng với mọi không gian con vectơ M của E, đồng cấu chính tắc $E^*/M' \to M^*$, trong đó $M'$ là không gian con của $E^*$ trực giao với M (§ 2, no. 4), là *song ánh*.
 
 #### Định lý 6 {#alg-ii-s7-thm-6 .statement}
 
 *Với mọi không gian vectơ E trên một trường K, ánh xạ chính tắc $c_E : E \to E^{**}$ (§ 2, no. 7) là đơn ánh; để nó là song ánh, điều kiện cần và đủ là E hữu hạn chiều.*
 
-Mệnh đề thứ nhất và việc $c_E$ là song ánh khi E hữu hạn chiều là những trường hợp riêng của § 2, no. 7, Mệnh đề 14. Giả sử E vô hạn chiều, nên ta có thể giả thiết rằng $E = K_s^{(L)}$, trong đó L là một tập vô hạn và do đó $E^* = K_d^L$. Gọi $(e_\lambda)_{\lambda \in L}$ là cơ sở chính tắc của E và $(e_\lambda^*)_{\lambda \in L}$ là họ tương ứng các dạng tọa độ trong $E^*$ (§ 2, no. 6); không gian con vectơ của $E^*$ sinh bởi các $e_\lambda^*$ chính là tổng trực tiếp $F' = K_d^{(L)}$ và giả thiết L vô hạn kéo theo $F' \neq E^*$. Khi đó tồn tại một siêu phẳng $H'$ của $E^*$ chứa $F'$ (no. 3, Mệnh đề 8) và, vì $E^*/H'$ khác không, đối ngẫu của nó նույնպես cũng khác không (Hệ quả của Định lý 4), đối ngẫu này được đồng nhất với phần trực giao $H''$ của $H'$ trong $E^{**}$ (§ 2, no. 6, Hệ quả của Mệnh đề 9). Nhưng $H'' \cap c_E(E)$ được chứa trong ảnh qua $c_E$ của phần trực giao của $F'$ trong E, mà theo định nghĩa là 0; do đó $c_E(E) = E^{**}$ là điều không thể.
+Mệnh đề thứ nhất và sự kiện rằng nếu E hữu hạn chiều thì $c_E$ là song ánh là những trường hợp riêng của § 2, no. 7, Mệnh đề 14. Giả sử E vô hạn chiều, nên ta có thể giả thiết rằng $E = K_s^{(L)}$, trong đó L là một tập hợp vô hạn và do đó $E^* = K_d^L$. Gọi $(e_\lambda)_{\lambda \in L}$ là cơ sở chính tắc của E và gọi $(e_\lambda^*)_{\lambda \in L}$ là họ tương ứng các dạng tọa độ trong $E^*$ (§ 2, no. 6); không gian con vectơ của $E^*$ sinh bởi các $e_\lambda^*$ chính là tổng trực tiếp $F' = K_d^{(L)}$ và giả thiết L là vô hạn kéo theo $F' \neq E^*$. Khi đó tồn tại một siêu phẳng $H'$ của $E^*$ chứa $F'$ (no. 3, Mệnh đề 8) và, vì $E^*/H'$ khác không, đối ngẫu của nó cũng khác không (Hệ quả của Định lý 4), đối ngẫu này được đồng nhất với trực giao $H''$ của $H'$ trong $E^{**}$ (§ 2, no. 6, Hệ quả của Mệnh đề 9). Nhưng $H'' \cap c_E(E)$ được chứa trong ảnh qua $c_E$ của trực giao của $F'$ trong E, theo định nghĩa là 0; do đó $c_E(E) = E^{**}$ là điều không thể.
 
 Thông thường E sẽ được *đồng nhất* với không gian con của $E^{**}$ là ảnh của $c_E$.
 
@@ -429,21 +430,21 @@ $$
 \end{array}
 $$
 
-Hơn nữa, vì $u = j \circ p,\ ^t u = ^t p \circ ^t j$; do đó các dãy khớp (15) xác định các đẳng cấu chính tắc từ $C^*$ lên Ker($^t u$), từ $I^*$ lên Im($^t u$) và từ $N^*$ lên Coker($^t u$), vì $^t p$ là đơn ánh và $^t j$ là toàn ánh. Nói chính xác hơn, gọi $y \in \mathrm{Im}(u)$, $z \in \mathrm{Ker}(u)$, $t \in \mathrm{Coker}(u)$, $y' \subset \mathrm{Im}(^t u)$, $z' \in \mathrm{Coker}(^t u)$, $t' \in \mathrm{Ker}(^t u)$; khi $y'$, $z'$, $t'$ được đồng nhất một cách chính tắc với các dạng tuyến tính trên $\mathrm{Im}(u)$, $\mathrm{Ker}(u)$ và $\mathrm{Coker}(u)$ tương ứng, thì
+Hơn nữa, vì $u = j \circ p,\ ^t u = ^t p \circ ^t j$; do đó các dãy khớp (15) xác định các đẳng cấu chính tắc từ $C^*$ lên Ker($^t u$), từ $I^*$ lên Im($^t u$) và từ $N^*$ lên Coker($^t u$), vì $^t p$ là đơn ánh và $^t j$ là toàn ánh. Chính xác hơn, cho $y \in \mathrm{Im}(u)$, $z \in \mathrm{Ker}(u)$, $t \in \mathrm{Coker}(u)$, $y' \subset \mathrm{Im}(^t u)$, $z' \in \mathrm{Coker}(^t u)$, $t' \in \mathrm{Ker}(^t u)$; khi $y'$, $z'$, $t'$ được đồng nhất một cách chính tắc với các dạng tuyến tính trên $\mathrm{Im}(u)$, $\mathrm{Ker}(u)$ và $\mathrm{Coker}(u)$ tương ứng, thì
 
 (16) $\langle y, y' \rangle = \langle x, y' \rangle$ với mọi $x \in E$ sao cho $u(x) = y$;
 
-(17) $\langle z, z' \rangle = \langle z, x^* \rangle$ với mọi $x^* \in E^*$ mà lớp mod. $^t u(F)$ bằng $z'$;
+(17) $\langle z, z' \rangle = \langle z, x^* \rangle$ với mọi $x^* \in E^*$ mà lớp của nó mod. $^t u(F)$ bằng $z'$;
 
-(18) $\langle t, t' \rangle = \langle s, t' \rangle$ với mọi $s \in F$ mà lớp mod. $u(E)$ bằng $t$.
+(18) $\langle t, t' \rangle = \langle s, t' \rangle$ với mọi $s \in F$ mà lớp của nó mod. $u(E)$ bằng $t$.
 
-Đặc biệt, từ các kết quả này ta suy ra:
+Đặc biệt ta suy ra từ các kết quả này:
 
 #### Mệnh đề 10 {#alg-ii-s7-prop-10 .statement}
 
 *Cho E, F là hai không gian vectơ trên cùng một trường K và u : E \to F là một ánh xạ tuyến tính.*
 
-(i) *Để u là đơn ánh (tương ứng, toàn ánh), điều kiện cần và đủ là $^t u$ toàn ánh (tương ứng, đơn ánh).*
+(i) *Để u là đơn ánh (resp. toàn ánh), điều kiện cần và đủ là $^t u$ toàn ánh (resp. đơn ánh).*
 
 (ii) $\operatorname{rg}(u) \leq \operatorname{rg}(^t u)$ và $\operatorname{rg}(u) = \operatorname{rg}(^t u)$ nếu $\operatorname{rg}(u)$ hữu hạn.
 
@@ -451,25 +452,25 @@ Mệnh đề thứ hai suy ra từ trên và Định lý 4.
 
 #### Định lý 7 {#alg-ii-s7-thm-7 .statement}
 
-*Cho E là một không gian vectơ trên một trường K, F là một không gian con của E và F' là phần trực giao của F trong E*.*
+*Cho E là một không gian vectơ trên một trường K, F là một không gian con của E và F' là trực giao của F trong E*.*
 
-(i) $\dim F' \geq \operatorname{codim}_E F;$ để $\dim F'$ là hữu hạn, điều kiện cần và đủ là $\operatorname{codim}_E F$ hữu hạn, và khi đó $\dim F' = \operatorname{codim}_E F$.
+(i) $\dim F' \geq \operatorname{codim}_E F;$ để $\dim F'$ hữu hạn, điều kiện cần và đủ là $\operatorname{codim}_E F$ hữu hạn, và khi đó $\dim F' = \operatorname{codim}_E F$.
 
-(ii) *Phần trực giao của F' trong E bằng F.*
+(ii) *Trực giao của F' trong E bằng F.*
 
-(iii) *Mọi không gian con hữu hạn chiều G' của E* là phần trực giao của một không gian con nào đó của E, tất yếu bằng phần trực giao của G' trong E và có đối chiều hữu hạn.*
+(iii) *Mọi không gian con hữu hạn chiều G' của E* đều là trực giao của một không gian con nào đó của E, không gian con này tất yếu bằng trực giao của G' trong E và có đối chiều hữu hạn.*
 
-(i) Ta biết rằng F' đẳng cấu với đối ngẫu $(E/F)^*$ (§ 2, no. 6, Hệ quả của Mệnh đề 9) và do đó mệnh đề suy ra từ Định lý 4, vì $\dim(E/F) = \operatorname{codim}_E F$ theo định nghĩa.
+(i) Ta biết rằng F' đẳng cấu với đối ngẫu $(E/F)*$ (§ 2, no. 6, Hệ quả của Mệnh đề 9) và do đó mệnh đề suy ra từ Định lý 4, vì $\dim(E/F) = \operatorname{codim}_E F$ theo định nghĩa.
 
-(ii) Gọi $F_1$ là phần trực giao của F' trong E; rõ ràng $F \subset F_1$ và phần trực giao $F'_1$ của $F_1$ bằng F' (§ 2, no. 4); do đó ánh xạ tuyến tính chính tắc $(E/F_1)^* \to (E/F)^*$, chuyển vị của $E/F \to E/F_1$ là song ánh (§ 2, no. 6, Hệ quả của Mệnh đề 10); khi đó từ Mệnh đề 10 suy ra rằng ánh xạ chính tắc $E/F \to E/F_1$ là song ánh, điều này kéo theo $F_1 = F$.
+(ii) Gọi $F_1$ là trực giao của F' trong E; rõ ràng $F \subset F_1$ và trực giao $F'_1$ của $F_1$ bằng F' (§ 2, no. 4); do đó ánh xạ tuyến tính chính tắc $(E/F_1)^* \to (E/F)^*$, là chuyển vị của $E/F \to E/F_1$, là song ánh (§ 2, no. 6, Hệ quả của Mệnh đề 10); khi đó theo Mệnh đề 10 suy ra ánh xạ chính tắc $E/F \to E/F_1$ là song ánh, điều này kéo theo $F_1 = F$.
 
-(iii) Cho G' là một không gian con của E* có số chiều hữu hạn $p$ và gọi F là phần trực giao của nó trong E; khi đó $\operatorname{codim}_E F \leq \dim G'$. Thật vậy, nếu $(a_i^*)_{1 \leq i \leq p}$ là một cơ sở của G', thì F là hạt nhân của ánh xạ tuyến tính $x \mapsto (\langle x, a_i^* \rangle)$ từ E đến $K_s^p$ có hạng nhiều nhất là $p$ (no. 4, Mệnh đề 9), do đó kết luận được suy ra (no. 4). Bây giờ gọi F' là phần trực giao của F trong E*; từ (i) suy ra $\dim F' \leq \dim G'$; nhưng mặt khác hiển nhiên $G' \subset F'$, do đó $F' = G'$ (§ 2, no. 3, Hệ quả 4 của Mệnh đề 4).
+(iii) Cho G' là một không gian con của E* có chiều hữu hạn $p$ và gọi F là trực giao của nó trong E; khi đó $\operatorname{codim}_E F \leq \dim G'$. Thật vậy, nếu $(a_i^*)_{1 \leq i \leq p}$ là một cơ sở của G', thì F là hạt nhân của ánh xạ tuyến tính $x \mapsto (\langle x, a_i^* \rangle)$ từ E vào $K_s^p$ có hạng nhiều nhất bằng $p$ (no. 4, Mệnh đề 9), do đó suy ra kết luận (no. 4). Bây giờ gọi F' là trực giao của F trong E*; từ (i) suy ra $\dim F' \leq \dim G'$; nhưng mặt khác hiển nhiên $G' \subset F'$, do đó $F' = G'$ (§ 2, no. 3, Hệ quả 4 của Mệnh đề 4).
 
 #### Nhận xét {#alg-ii-s7-n5-rem-1 .statement}
 
-Một không gian con vô hạn chiều G' của E* không nhất thiết là phần trực giao của một không gian con của E, nói cách khác, nếu F là phần trực giao của G' trong E, thì phần trực giao F' của F trong E* có thể phân biệt với G' (Bài tập 20(b)).†
+Một không gian con vô hạn chiều G' của E* không nhất thiết là trực giao của một không gian con của E; nói cách khác, nếu F là trực giao của G' trong E, thì trực giao F' của F trong E* có thể phân biệt với G' (Bài tập 20(b)).†
 
-† Bằng cách trang bị cho E và E* những tôpô thích hợp và chỉ xét trong E và E* các không gian con đóng đối với các tôpô đó, có thể tái lập một đối xứng hoàn hảo giữa các tính chất của E và E* khi E vô hạn chiều (xem Không gian vectơ tôpô, II, § 6).
+† Bằng cách trang bị cho E và E* những tôpô thích hợp và chỉ xét trong E và E* các không gian con đóng đối với các tôpô ấy, có thể tái lập một sự đối xứng hoàn hảo giữa các tính chất của E và E* khi E là vô hạn chiều (x. Không gian vectơ tôpô, II, § 6).
 
 #### Hệ quả 1 {#alg-ii-s7-thm-7-cor-1 .statement}
 
@@ -479,9 +480,9 @@ $$
 \langle x, x_i^* \rangle = 0 \quad \text{với } 1 \leq i \leq p.
 $$
 
-Khi đó $\operatorname{codim}_E F$ bằng hạng của tập hợp các $x_i^*$ và mọi dạng tuyến tính trên E triệt tiêu trên F đều là một tổ hợp tuyến tính của các $x_i^*$. Vậy $\operatorname{codim}_E F \leq p$ và để $\operatorname{codim}_E F = p$, điều kiện cần và đủ là các $x_i^*$ độc lập tuyến tính.
+Khi đó $\operatorname{codim}_E F$ bằng hạng của tập hợp các $x_i^*$ và mọi dạng tuyến tính trên E triệt tiêu trên F đều là một tổ hợp tuyến tính của các $x_i^*$. Do đó $\operatorname{codim}_E F \leq p$ và để $\operatorname{codim}_E F = p$, điều kiện cần và đủ là các $x_i^*$ độc lập tuyến tính.
 
-Tập hợp $G'$ các tổ hợp tuyến tính của các $x_i^*$ là một không gian con của $E^*$ và F là phần trực giao của $G'$ trong E, do đó $\operatorname{codim}_E F = \dim G'$ theo Định lý 7; hơn nữa $\dim G' \leq p$ và hệ thức $\dim G' = p$ có nghĩa là $(x_i^*)$ là một hệ tự do (no. 2, Mệnh đề 1); do đó có hệ quả.
+Tập hợp $G'$ các tổ hợp tuyến tính của các $x_i^*$ là một không gian con của $E^*$ và F là trực giao của $G'$ trong E, do đó $\operatorname{codim}_E F = \dim G'$ theo Định lý 7; hơn nữa $\dim G' \leq p$ và hệ thức $\dim G' = p$ có nghĩa là $(x_i^*)$ là một hệ tự do (no. 2, Mệnh đề 1); do đó có hệ quả.
 
 #### Hệ quả 2 {#alg-ii-s7-thm-7-cor-2 .statement}
 
@@ -523,7 +524,7 @@ $$
 
 đặc trưng các phần tử $x \in H$, được gọi là *một phương trình của H*.
 
-Nói tổng quát hơn, nếu $(x_i^*)$ là một họ các dạng tuyến tính trên E và F ký hiệu không gian con vectơ là giao của các siêu phẳng $x_i^{*-1}(0)$, thì quan hệ "với mọi $i, \langle x, x_i^* \rangle = 0$" đặc trưng các phần tử của F; các quan hệ
+Nói chung hơn, nếu $(x_i^*)$ là một họ các dạng tuyến tính trên E và F ký hiệu không gian con vectơ là giao của các siêu phẳng $x_i^{*-1}(0)$, thì quan hệ "với mọi $i, \langle x, x_i^* \rangle = 0$" đặc trưng các phần tử của F; các quan hệ
 
 $$
 \langle x, x_i^* \rangle = 0 \quad \text{với mọi } i
@@ -531,14 +532,14 @@ $$
 
 lập thành *một hệ phương trình* của không gian con F. Định lý 7 (ii) biểu thị sự kiện rằng *mọi không gian con vectơ của E đều có thể được xác định bởi một hệ phương trình*.
 
-Hơn nữa, Định lý 7 (i) và (ii) chứng minh rằng một không gian con có đối chiều *hữu hạn* $p$ có thể được xác định bởi một hệ gồm $p$ phương trình
+Định lý 7 (i) và (ii) còn chứng tỏ rằng một không gian con F có đối chiều *hữu hạn* $p$ có thể được xác định bởi một hệ gồm $p$ phương trình
 
 (19)
 $$
 \langle x, x_i^* \rangle = 0, \quad 1 \leq i \leq p,
 $$
 
-trong đó các dạng $x_i^*$ là *độc lập tuyến tính*. Ngược lại, Hệ quả 1 của Định lý 7 cho thấy rằng một không gian con F được xác định bởi một hệ gồm $p$ phương trình (19) thì có đối chiều $\leq p$ và có đối chiều $p$ khi và chỉ khi các $x_i^*$ độc lập tuyến tính; điều này cũng tương đương với việc nói rằng F không thể được xác định bởi một hệ gồm nhiều nhất $p - 1$ trong các phương trình (19).
+trong đó các dạng $x_i^*$ là *độc lập tuyến tính*. Ngược lại, Hệ quả 1 của Định lý 7 cho thấy rằng một không gian con F được xác định bởi một hệ gồm $p$ phương trình (19) thì có đối chiều $\leq p$ và có đối chiều $p$ khi và chỉ khi các $x_i^*$ độc lập tuyến tính; điều đó cũng tương đương với việc nói rằng F không thể được xác định bởi một hệ gồm nhiều nhất $p - 1$ trong các phương trình (19).
 
 ### 6. PHƯƠNG TRÌNH TUYẾN TÍNH TRONG CÁC KHÔNG GIAN VECTƠ
 
@@ -568,17 +569,17 @@ $$
 \sum_{\lambda \in L} \xi_\lambda \langle a_\lambda, x_i^* \rangle = \eta_i \quad (i \in I)
 $$
 
-với $x = \sum_{\lambda \in L} \xi_\lambda a_\lambda$, các nghiệm của (22) tất yếu là các họ $(\xi_\lambda)$ các phần tử của K có giá hữu hạn.
+với $x = \sum_{\lambda \in L} \xi_\lambda a_\lambda$, các nghiệm của (22) tất yếu là những họ $(\xi_\lambda)$ các phần tử của K có giá hữu hạn.
 
 #### Định nghĩa 4 {#alg-ii-s7-def-4 .statement}
 
-Chiều của không gian con của $E^*$ sinh bởi họ $(x_i^*)$ được gọi là hạng của hệ (21).
+Chiều của không gian con của $E^*$ được sinh bởi họ $(x_i^*)$ được gọi là hạng của hệ (21).
 
 #### Mệnh đề 13 {#alg-ii-s7-prop-13 .statement}
 
 Để hệ (21) có hạng hữu hạn r, điều kiện cần và đủ là ánh xạ tuyến tính $u : x \mapsto (\langle x, x_i^* \rangle)$ từ E vào $K_s^I$ có hạng r.
 
-Nếu F' là không gian con của $E^*$ sinh bởi các $x_i^*$, thì hạt nhân của u là phần trực giao F của F' trong E; nếu F' có chiều r, thì F có đối chiều r và ngược lại (no. 5, Định lý 7) và $\mathrm{rg}(u) = \mathrm{codim}_E F$ (no. 4, công thức (11)).
+Nếu F' là không gian con của $E^*$ được sinh bởi các $x_i^*$, thì hạt nhân của u là phần trực giao F của F' trong E; nếu F' có chiều r thì F có đối chiều r và ngược lại (no. 5, Định lý 7), và $\mathrm{rg}(u) = \mathrm{codim}_E F$ (no. 4, công thức (11)).
 
 #### Định lý 8 {#alg-ii-s7-thm-8 .statement}
 
@@ -588,33 +589,33 @@ $$
 \langle x, x_i^* \rangle = \eta_i \quad (i \in I)
 $$
 
-là một hệ phương trình tuyến tính vô hướng trên một không gian vectơ E trên một trường K. Để hệ này có ít nhất một nghiệm, điều kiện cần là, với mọi họ $(\rho_i)$ các vô hướng có giá hữu hạn sao cho $\sum_i x_i^* \rho_i = 0,\ \sum_i \eta_i \rho_i = 0.$ *Nếu hạng của hệ (21) là hữu hạn, thì điều kiện này cũng đủ.*
+là một hệ phương trình tuyến tính vô hướng trên một không gian vectơ E trên một trường K. Để hệ này có ít nhất một nghiệm, điều kiện cần là, với mọi họ $(\rho_i)$ các vô hướng có giá hữu hạn sao cho $\sum_i x_i^* \rho_i = 0,\ \sum_i \eta_i \rho_i = 0.$ *Nếu hạng của hệ (21) là hữu hạn, thì điều kiện này cũng là đủ.*
 
-Điều kiện đó hiển nhiên là cần. Nó nói rằng, nếu $F'$ là không gian con của $E^*$ sinh bởi họ $(x_i^*)$, thì tồn tại một ánh xạ tuyến tính $f : F' \to K_d$ sao cho $f(x_i^*) = \eta_i$ với mọi $i \in I$. Nếu $F'$ có số chiều hữu hạn $r$, thì $F'$ là trực giao của một không gian con $F$ của $E$ có đối chiều $r$ (no. 5, Định lý 7) và $F'$ được đồng nhất với đối ngẫu của $E/F$ (§ 2, no. 6, Hệ quả của Mệnh đề 9); do đó $f$ là một phần tử của đối ngẫu kép $(E/F)**$. Vì $E/F$ hữu hạn chiều nên tồn tại một và chỉ một phần tử $y \in E/F$ sao cho $f(x^*) = \langle y, x^* \rangle$ với mọi $x^* \in F'$ (no. 5, Định lý 6). Khi đó các nghiệm của (21) là những $x \in E$ mà ảnh chính tắc trong $E/F$ là $y$.
+Điều kiện ấy hiển nhiên là cần thiết. Nó nói rằng, nếu $F'$ là không gian con của $E^*$ sinh bởi họ $(x_i^*)$, thì tồn tại một ánh xạ tuyến tính $f : F' \to K_d$ sao cho $f(x_i^*) = \eta_i$ với mọi $i \in I$. Nếu $F'$ có số chiều hữu hạn $r$, thì $F'$ là trực giao của một không gian con $F$ của $E$ có đối chiều $r$ (no. 5, Định lý 7) và $F'$ được đồng nhất với đối ngẫu của $E/F$ (§ 2, no. 6, Hệ quả của Mệnh đề 9); do đó $f$ là một phần tử của đối ngẫu kép $(E/F)**$. Vì $E/F$ là hữu hạn chiều nên tồn tại một và chỉ một phần tử $y \in E/F$ sao cho $f(x^*) = \langle y, x^* \rangle$ với mọi $x^* \in F'$ (no. 5, Định lý 6). Khi đó các nghiệm của (21) là các $x \in E$ mà ảnh chính tắc của chúng trong $E/F$ là $y$.
 
 #### Nhận xét {#alg-ii-s7-n6-rem-1 .statement}
 
-Khi hạng của hệ (21) là *vô hạn*, điều kiện của Định lý 8 không còn đủ nữa. Chẳng hạn, giả sử các $x_i^*$ là các *dạng tọa độ* trên không gian $E = K_s^{(I)}$, với $I$ vô hạn (§ 2, no. 6); vì các $x_i^*$ độc lập tuyến tính, điều kiện của Định lý 8 được thỏa mãn với mọi họ $(\eta_i)$ nhưng hệ (21) chỉ có nghiệm nếu họ $(\eta_i)$ có giá hữu hạn.
+Khi hạng của hệ (21) là *vô hạn*, điều kiện của Định lý 8 không còn đủ nữa. Chẳng hạn, giả sử các $x_i^*$ là các *dạng tọa độ* trên không gian $E = K_s^{(I)}$, với $I$ là vô hạn (§ 2, no. 6); vì các $x_i^*$ độc lập tuyến tính, điều kiện của Định lý 8 đúng với mọi họ $(\eta_i)$, nhưng hệ (21) chỉ có nghiệm nếu họ $(\eta_i)$ có giá hữu hạn.
 
-Một hệ (21) luôn luôn có hạng hữu hạn nếu nó chỉ có một *số hữu hạn phương trình* và khi đó hạng của nó *không vượt quá* số phương trình (no. 2, Mệnh đề 1). Tương tự, nếu $E$ có số chiều hữu hạn $n$ (đối với một hệ (22), điều này tương ứng với trường hợp chỉ có một *số hữu hạn n ẩn*), thì đối ngẫu $E^*$ của nó có chiều $n$ và do đó hạng của hệ (21) không vượt quá $n$ (no. 3, Hệ quả 4 của Mệnh đề 4). Từ đó suy ra:
+Một hệ (21) luôn có hạng hữu hạn nếu nó chỉ có một *số hữu hạn phương trình*, và khi đó hạng của nó *nhiều nhất bằng* số phương trình (no. 2, Mệnh đề 1). Tương tự, nếu $E$ có chiều hữu hạn $n$ (điều này, đối với một hệ (22), tương ứng với trường hợp chỉ có một *số hữu hạn n ẩn số*), thì đối ngẫu $E^*$ của nó có chiều $n$ và vì thế hạng của hệ (21) nhiều nhất bằng $n$ (no. 3, Hệ quả 4 của Mệnh đề 4). Từ đó suy ra:
 
 #### Hệ quả 1 {#alg-ii-s7-thm-8-cor-1 .statement}
 
-*Một hệ phương trình tuyến tính vô hướng trong một không gian vectơ, gồm một số hữu hạn phương trình mà các vế trái là những dạng độc lập tuyến tính, luôn luôn có nghiệm.*
+*Một hệ phương trình tuyến tính vô hướng trong một không gian vectơ, gồm một số hữu hạn phương trình mà các vế trái là các dạng độc lập tuyến tính, luôn có nghiệm.*
 
 #### Hệ quả 2 {#alg-ii-s7-thm-8-cor-2 .statement}
 
-*Để một hệ tuyến tính thuần nhất (22) gồm các phương trình theo n ẩn với các hệ số trong một trường $K$ có các nghiệm không tầm thường gồm các phần tử của $K$, điều kiện cần và đủ là hạng của nó < n.*
+*Để một hệ phương trình tuyến tính thuần nhất (22) với n ẩn số, có các hệ số trong một trường $K$, có các nghiệm không tầm thường gồm các phần tử của $K$, điều kiện cần và đủ là hạng của nó < n.*
 
-Điều này luôn luôn đúng nếu số phương trình là hữu hạn và < n.
+Điều này luôn xảy ra nếu số phương trình là hữu hạn và < n.
 
 #### Hệ quả 3 {#alg-ii-s7-thm-8-cor-3 .statement}
 
-*Để một hệ tuyến tính (22) với các hệ số và các vế phải trong một trường $K$, gồm n phương trình theo n ẩn, có một và chỉ một nghiệm gồm các phần tử của $K$, điều kiện cần và đủ là hệ thuần nhất liên kết không có nghiệm không tầm thường* (hay, điều tương đương, là các vế trái của hệ này là những *dạng độc lập tuyến tính*).
+*Để một hệ tuyến tính (22) có các hệ số và các vế phải trong một trường $K$, gồm n phương trình với n ẩn số, có một và chỉ một nghiệm gồm các phần tử của $K$, điều kiện cần và đủ là hệ thuần nhất liên kết không có nghiệm không tầm thường* (hay, điều này cũng tương đương như thế, là các vế trái của hệ này là các *dạng độc lập tuyến tính*).
 
 ### 7. TÍCH TENXƠ CỦA CÁC KHÔNG GIAN VECTƠ
 
-Các kết quả của §§ 3, 4 và 5 liên quan đến các môđun tự do hoặc xạ ảnh áp dụng đặc biệt cho các không gian vectơ và cho các tính chất sau đây:
+Các kết quả của §§ 3, 4 và 5 liên quan đến các môđun tự do hoặc xạ ảnh áp dụng đặc biệt cho các không gian vectơ và cho các tính chất sau:
 
 #### Mệnh đề 14 {#alg-ii-s7-prop-14 .statement}
 
@@ -624,7 +625,7 @@ Các kết quả của §§ 3, 4 và 5 liên quan đến các môđun tự do ho
 $$
 0 \to E' \to E \to E'' \to 0
 $$
-*các không gian vectơ phải trên một trường K và các ánh xạ tuyến tính và một không gian vectơ trái F trên K, thì dãy tương ứng các ánh xạ tuyến tính trên $\mathbf{Z}$*
+*gồm các không gian vectơ phải trên một trường K và các ánh xạ tuyến tính, và cho một không gian vectơ trái F trên K, thì dãy tương ứng các ánh xạ $\mathbf{Z}$-tuyến tính*
 $$
 0 \to E' \otimes_K F \to E \otimes_K F \to E'' \otimes_K F \to 0
 $$
@@ -632,7 +633,7 @@ $$
 
 Vì dãy (23) tách được, đây là một trường hợp riêng của § 3, no. 7, Hệ quả 5 của Mệnh đề 7 và § 3, no. 6, Mệnh đề 5.
 
-Do Mệnh đề 14, khi $E'$ là một không gian con vectơ của $E$, $j : E' \to E$ là đơn ánh chính tắc, thì $E' \otimes_K F$ thường được *đồng nhất* với một môđun con *trên $\mathbf{Z}$* của $E \otimes_K F$ nhờ đơn ánh $j \otimes 1_F$. Với quy ước này:
+Do Mệnh đề 14, khi $E'$ là một không gian con vectơ của $E$, $j : E' \to E$ là đơn ánh chính tắc, thì $E' \otimes_K F$ thường được *đồng nhất* với một *$\mathbf{Z}$-môđun con* của $E \otimes_K F$ nhờ đơn ánh $j \otimes 1_F$. Với quy ước này:
 
 #### Hệ quả {#alg-ii-s7-n7-cor-1 .statement}
 
@@ -641,12 +642,12 @@ $$
 \left( \bigcap_{\alpha \in A} M_\alpha \right) \otimes_K \left( \bigcap_{\beta \in B} N_\beta \right) = \bigcap_{(\alpha, \beta) \in A \times B} (M_\alpha \otimes_K N_\beta).
 $$
 
-Hiển nhiên là đủ để chứng minh trường hợp riêng
+Hiển nhiên chỉ cần chứng minh trường hợp riêng
 $$
 \left( \bigcap_{\alpha \in A} M_\alpha \right) \otimes_K F = \bigcap_{\alpha \in A} (M_\alpha \otimes_K F).
 $$
 
-Rõ ràng vế trái của (25) được chứa trong vế phải. Để chứng minh đảo lại, ta xét một cơ sở $(f_\lambda)_{\lambda \in L}$ của $F$. Khi đó mọi phần tử của $E \otimes_K F$ có thể được biểu diễn duy nhất dưới dạng $\sum_{\lambda \in L} x_\lambda \otimes f_\lambda$, trong đó $x_\lambda \in E$ (§ 3, no. 7, Hệ quả 1 của Mệnh đề 7); nếu $E'$ là một không gian con vectơ của $E$, quan hệ $\sum_{\lambda \in L} x_\lambda \otimes f_\lambda \in E' \otimes_K F$ tương đương, theo Mệnh đề 14, với $x_\lambda \in E'$ với mọi $\lambda \in L$. Do đó, nói rằng $\sum_{\lambda \in L} x_\lambda \otimes f_\lambda$ thuộc mỗi $M_\alpha \otimes_K F$ có nghĩa là với mọi $\lambda \in L$ và mọi $\alpha \in A$, ta có $x_\lambda \in M_\alpha$, tức là $x_\lambda \in \bigcap_{\alpha \in A} M_\alpha$ với mọi $\lambda \in L$, điều này chứng tỏ rằng vế phải của (25) được chứa trong vế trái.
+Rõ ràng vế trái của (25) được chứa trong vế phải. Để chứng minh đảo lại, ta xét một cơ sở $(f_\lambda)_{\lambda \in L}$ của F. Khi đó mọi phần tử của $E \otimes_K F$ có thể được biểu diễn duy nhất dưới dạng $\sum_{\lambda \in L} x_\lambda \otimes f_\lambda$, trong đó $x_\lambda \in E$ (§ 3, no. 7, Hệ quả 1 của Mệnh đề 7); nếu $E'$ là một không gian con vectơ của E, quan hệ $\sum_{\lambda \in L} x_\lambda \otimes f_\lambda \in E' \otimes_K F$ tương đương, theo Mệnh đề 14, với $x_\lambda \in E'$ với mọi $\lambda \in L$. Vì vậy, nói rằng $\sum_{\lambda \in L} x_\lambda \otimes f_\lambda$ thuộc mỗi $M_\alpha \otimes_K F$ có nghĩa là với mọi $\lambda \in L$ và mọi $\alpha \in A$, ta có $x_\lambda \in M_\alpha$, tức là $x_\lambda \in \bigcap_{\alpha \in A} M_\alpha$ với mọi $\lambda \in L$, điều đó chứng tỏ vế phải của (25) được chứa trong vế trái.
 
 #### Mệnh đề 15 {#alg-ii-s7-prop-15 .statement}
 
@@ -678,11 +679,11 @@ Với quy ước này:
 
 #### Hệ quả {#alg-ii-s7-n7-cor-2 .statement}
 
-*Cho $F$ là một không gian vectơ trái trên $K$; với mọi tập hợp $X$, không gian vectơ trái $K_d^X \otimes_K F$ được đồng nhất với không gian con của không gian $F^X$ gồm mọi ánh xạ từ $X$ vào $F$, gồm các ánh xạ $u$ sao cho $u(X)$ có hạng hữu hạn trong $F$.*
+*Cho $F$ là một không gian vectơ trái trên $K$; với mọi tập hợp $X$, không gian vectơ trái $K_d^X \otimes_K F$ được đồng nhất với không gian con của không gian $F^X$ gồm tất cả các ánh xạ từ $X$ vào $F$, gồm các ánh xạ $u$ sao cho $u(X)$ có hạng hữu hạn trong $F$.*
 
-Nếu $(f_\lambda)$ là một cơ sở của $F$, phần tử $\sum_{\lambda \in L} v_\lambda \otimes f_\lambda$ của $K_d^X \otimes_K F$ được đồng nhất qua (26) với ánh xạ $x \mapsto \sum_\lambda v_\lambda(x) f_\lambda$. Vì $v_\lambda = 0$ trừ các chỉ số $\lambda$ thuộc một tập con hữu hạn $H$ của $L$, ảnh của $X$ dưới ánh xạ trên được chứa trong không gian con hữu hạn chiều của $F$ sinh bởi các $f_\lambda$ có chỉ số $\lambda \in H$. Ngược lại, cho $u : X \to F$ là một ánh xạ sao cho $u(X)$ được chứa trong một không gian con hữu hạn chiều $G$ của $F$ và cho $(b_i)_{1 \leq i \leq n}$ là một cơ sở của $G$. Với mọi $x \in X$, ta có thể viết $u(x) = \sum_{i=1}^n v_i(x) b_i$, trong đó các $v_i(x)$ là những phần tử được xác định của $K$; do đó xác định được $n$ ánh xạ $v_i : X \to K$ và rõ ràng khi ấy $u$ được đồng nhất với phần tử $\sum_{i=1}^n v_i \otimes b_i$.
+Nếu $(f_\lambda)$ là một cơ sở của $F$, phần tử $\sum_{\lambda \in L} v_\lambda \otimes f_\lambda$ của $K_d^X \otimes_K F$ được đồng nhất qua (26) với ánh xạ $x \mapsto \sum_\lambda v_\lambda(x) f_\lambda$. Vì $v_\lambda = 0$ trừ những chỉ số $\lambda$ thuộc một tập con hữu hạn $H$ của $L$, ảnh của $X$ qua ánh xạ trên được chứa trong không gian con hữu hạn chiều của $F$ sinh bởi các $f_\lambda$ có chỉ số $\lambda \in H$. Ngược lại, cho $u : X \to F$ là một ánh xạ sao cho $u(X)$ được chứa trong một không gian con hữu hạn chiều $G$ của $F$ và cho $(b_i)_{1 \leq i \leq n}$ là một cơ sở của $G$. Với mọi $x \in X$, ta có thể viết $u(x) = \sum_{i=1}^n v_i(x) b_i$, trong đó các $v_i(x)$ là những phần tử của $K$ được xác định duy nhất; do đó xác định được $n$ ánh xạ $v_i : X \to K$ và rõ ràng khi đó $u$ được đồng nhất với phần tử $\sum_{i=1}^n v_i \otimes b_i$.
 
-Tương tự, với một không gian vectơ phải $E$ trên $K$ và một tập hợp $Y$, $E \otimes_K K_s^Y$ được đồng nhất với một không gian con của không gian $E^Y$, gồm các ánh xạ $v : Y \to E$ sao cho $v(Y)$ có hạng hữu hạn. Đặc biệt hơn, với mọi trường $K$, $K_d^X \otimes_K K_s^Y$ được đồng nhất với một không gian con của không gian $K^{X \times Y}$ gồm các ánh xạ từ $X \times Y$ vào $K$ ($K$ được xét như một song môđun $(K, K)$); một phần tử $\sum_i u_i \otimes v_i$, trong đó $u_i$ là một ánh xạ từ $X$ vào $K$ và $v_i$ là một ánh xạ từ $Y$ vào $K$, được đồng nhất với ánh xạ $(x, y) \mapsto \sum_i u_i(x) v_i(y)$ từ $X \times Y$ vào $K$.
+Tương tự, với một không gian vectơ phải $E$ trên $K$ và một tập hợp $Y$, $E \otimes_K K_s^Y$ được đồng nhất với một không gian con của không gian $E^Y$, gồm các ánh xạ $v : Y \to E$ sao cho $v(Y)$ có hạng hữu hạn. Đặc biệt hơn, với mọi trường $K$, $K_d^X \otimes_K K_s^Y$ được đồng nhất với một không gian con của không gian $K^{X \times Y}$ các ánh xạ từ $X \times Y$ vào $K$ ($K$ được xét như một song môđun $(K, K)$); một phần tử $\sum_i u_i \otimes v_i$, trong đó $u_i$ là một ánh xạ từ $X$ vào $K$ và $v_i$ là một ánh xạ từ $Y$ vào $K$, được đồng nhất với ánh xạ $(x, y) \mapsto \sum_i u_i(x) v_i(y)$ từ $X \times Y$ vào $K$.
 
 #### Mệnh đề 16 {#alg-ii-s7-prop-16 .statement}
 
@@ -702,7 +703,7 @@ $$
 
 (§ 4, no. 4, công thức (21)) *là đơn ánh; nó là song ánh nếu một trong các cặp có thứ tự $(E_1, E_2), (E_1, F_1), (E_2, F_2)$ gồm các không gian hữu hạn chiều*.
 
-Mệnh đề (i) là một trường hợp riêng của § 4, no. 2, Mệnh đề 2. Tương tự, mệnh đề thứ hai của (ii) là một trường hợp riêng của § 4, no. 4, Mệnh đề 4. Sau hết, để thấy rằng đồng cấu (28) luôn luôn là đơn ánh, hãy nhận xét rằng $\operatorname{Hom}(E_i, F_i)$ là một không gian con vectơ của $F_i^{E_i}$ ($i = 1, 2$) và rằng
+Mệnh đề (i) là một trường hợp riêng của § 4, no. 2, Mệnh đề 2. Tương tự, mệnh đề thứ hai của (ii) là một trường hợp riêng của § 4, no. 4, Mệnh đề 4. Sau cùng, để thấy rằng đồng cấu (28) luôn luôn là đơn ánh, hãy nhận xét rằng $\operatorname{Hom}(E_i, F_i)$ là một không gian con vectơ của $F_i^{E_i}$ ($i = 1, 2$) và rằng
 
 $$
 \operatorname{Hom}(E_1 \otimes E_2, F_1 \otimes F_2)
@@ -718,7 +719,7 @@ $$
 E^* \otimes_K F \to \operatorname{Hom}_K(E, F)
 $$
 
-(§ 4, no. 2, công thức (11)) *là đơn ánh; nó là song ánh khi E hoặc F là hữu hạn chiều*.
+(§ 4, no. 2, công thức (11)) *là đơn ánh; nó là song ánh khi E hoặc F hữu hạn chiều*.
 
 Đây là một trường hợp riêng của Mệnh đề 16 (i).
 
@@ -730,49 +731,49 @@ $$
 E \otimes_K F \to \operatorname{Hom}_K(E^*, F)
 $$
 
-(§ 4, no. 2, công thức (15)) *là đơn ánh; nó là song ánh khi E là hữu hạn chiều*.
+(§ 4, no. 2, công thức (15)) *là đơn ánh; nó là song ánh khi E hữu hạn chiều*.
 
 Đây là một trường hợp riêng của § 4, no. 2, Nhận xét 2.
 
 #### Nhận xét {#alg-ii-s7-n7-rem-1 .statement}
 
-(1) Cho K là một trường *giao hoán*, E, F là hai không gian vectơ trên K, (a_\lambda) là một cơ sở của E và (b_\mu) là một cơ sở của F; khi đó (a_\lambda \otimes b_\mu) là một cơ sở của không gian vectơ K E \otimes_K F (II, § 3, no. 7, Hệ quả 2 của Mệnh đề 2) và do đó
+(1) Cho K là một trường *giao hoán*, E, F là hai không gian vectơ trên K, $(a_\lambda)$ là một cơ sở của E và $(b_\mu)$ là một cơ sở của F; khi đó $(a_\lambda \otimes b_\mu)$ là một cơ sở của không gian vectơ K $E \otimes_K F$ (II, § 3, no. 7, Hệ quả 2 của Mệnh đề 2) và do đó
 $$
 \dim_K(E \otimes_K F) = \dim_K E \cdot \dim_K F.
 $$
-(2) Cho K là một trường *giao hoán*, E_1, E_2, F_1, F_2 là bốn không gian vectơ trên K và u:E_1 \to F_1, v:E_2 \to F_2 là hai ánh xạ tuyến tính; khi đó
+(2) Cho K là một trường *giao hoán*, $E_1, E_2, F_1, F_2$ là bốn không gian vectơ trên K và $u:E_1 \to F_1$, $v:E_2 \to F_2$ là hai ánh xạ tuyến tính; khi đó
 $$
 \operatorname{rg}(u \otimes v) = \operatorname{rg}(u) \cdot \operatorname{rg}(v).
 $$
-Ngay lập tức thấy rằng $(u \otimes v)(E_1 \otimes E_2)$ là ảnh chính tắc của $u(E_1) \otimes v(E_2)$ trong $F_1 \otimes F_2$ và do đó (Mệnh đề 14) đẳng cấu với $u(E_1) \otimes v(E_2)$; khi đó kết luận suy ra từ (30).
+Hiển nhiên là $(u \otimes v)(E_1 \otimes E_2)$ là ảnh chính tắc của $u(E_1) \otimes v(E_2)$ trong $F_1 \otimes F_2$ và do đó (Mệnh đề 14) đẳng cấu với $u(E_1) \otimes v(E_2)$; khi đó kết luận suy ra từ (30).
 (3) Dưới cùng các giả thiết như trong *Nhận xét* 1,
 $$
 \dim_K(\operatorname{Hom}_K(E, F)) \geq \dim_K E \cdot \dim_K F.
 $$
-Nếu E đẳng cấu với $K^{(I)}$, $\operatorname{Hom}(E, F)$ đẳng cấu với $(\operatorname{Hom}(K, F))^I$ (§ 1, no. 6, Hệ quả 1 của Mệnh đề 6) và do đó với $F^I$ (§ 1, no. 14); vì $F^{(I)}$ là một không gian con của $F^I$ và $\dim(F^{(I)}) = \operatorname{Card}(I) \cdot \dim F = \dim E \cdot \dim F$ (no. 2, Mệnh đề 2), bất đẳng thức (32) suy ra từ no. 3, Hệ quả 4 của Mệnh đề 4. Lập luận tương tự cũng cho thấy hai vế của (32) bằng nhau khi $\dim E$ là *hữu hạn* (xem § 10, nos. 3 và 4).
+Nếu E đẳng cấu với $K^{(I)}$, $\operatorname{Hom}(E, F)$ đẳng cấu với $(\operatorname{Hom}(K, F))^I$ (§ 1, no. 6, Hệ quả 1 của Mệnh đề 6) và do đó với $F^I$ (§ 1, no. 14); vì $F^{(I)}$ là một không gian con của $F^I$ và $\dim(F^{(I)}) = \operatorname{Card}(I) \cdot \dim F = \dim E \cdot \dim F$ (no. 2, Mệnh đề 2), bất đẳng thức (32) suy ra từ no. 3, Hệ quả 4 của Mệnh đề 4. Lập luận tương tự cho thấy hai vế của (32) bằng nhau khi $\dim E$ là *hữu hạn* (xem § 10, nos. 3 and 4).
 
 ### 8. HẠNG CỦA MỘT PHẦN TỬ CỦA MỘT TÍCH TENXƠ
 
-Cho E là một không gian vectơ phải và F là một không gian vectơ trái trên cùng trường K; với mỗi phần tử $u \in E \otimes_K F$ tương ứng một cách chính tắc theo (29) một đồng cấu $u_1 \in \operatorname{Hom}_K(E^*, F)$; nếu $u = \sum_i x_i \otimes y_i$ với $x_i \in E, y_i \in F$, phần tử $u_1$ là ánh xạ tuyến tính
+Cho E là một không gian vectơ phải và F là một không gian vectơ trái trên cùng trường K; với mỗi phần tử $u \in E \otimes_K F$ tương ứng một cách chính tắc theo (29) một đồng cấu $u_1 \in \operatorname{Hom}_K(E^*, F)$; nếu $u = \sum_i x_i \otimes y_i$ với $x_i \in E, y_i \in F$, thì phần tử $u_1$ là ánh xạ tuyến tính
 $$
 x^* \mapsto \sum_i \langle x^*, x_i \rangle y_i.
 $$
-Mặt khác, $E \otimes_K F$ được đồng nhất một cách chính tắc với $F \otimes_{K^0} E$, trong đó E được xét như một không gian vectơ trái và F như một không gian vectơ phải trên trường đối $K^0$; do đó tương ứng một cách chính tắc với $u$ là một đồng cấu $u_2 \in \operatorname{Hom}_K(F^*, E)$ được cho bởi
+Mặt khác, $E \otimes_K F$ được đồng nhất một cách chính tắc với $F \otimes_{K^0} E$, trong đó E được xem như một không gian vectơ trái và F như một không gian vectơ phải trên trường đối $K^0$; do đó với $u$ tương ứng một cách chính tắc một đồng cấu $u_2 \in \operatorname{Hom}_K(F^*, E)$ cho bởi
 $$
 y^* \mapsto \sum_i x_i \langle y_i, y^* \rangle;
 $$
-$u_1$ (tương ứng $u_2$), được xét như một ánh xạ từ $E^*$ vào $F^{**}$ (tương ứng từ $F^*$ vào $E^{**}$), chính là *chuyển vị* của $u_2$ (tương ứng $u_1$). Do đó các *hạng* của $u_1$ và $u_2$ *bằng* cùng một số *hữu hạn* $r$, là chiều chung của các không gian con $u_1(E^*)$ của F và $u_2(F^*)$ của E, mỗi không gian được đẳng cấu chính tắc với đối ngẫu của không gian kia (no. 5); ta sẽ nói rằng $r$ (ký hiệu là $\operatorname{rg}(u)$) là *hạng* của phần tử $u$ của $E \otimes_K F$ và rằng $u_1(E^*)$ và $u_2(F^*)$ là các không gian con (lần lượt của F và E) *liên kết* với $u$.
+$u_1$ (tương ứng $u_2$), được xem như một ánh xạ từ $E^*$ vào $F^{**}$ (tương ứng từ $F^*$ vào $E^{**}$), chính là *chuyển vị* của $u_2$ (tương ứng $u_1$). Do đó các *hạng* của $u_1$ và $u_2$ *bằng* cùng một số *hữu hạn* $r$, là chiều chung của các không gian con $u_1(E^*)$ của F và $u_2(F^*)$ của E, mỗi không gian trong hai không gian ấy đẳng cấu chính tắc với đối ngẫu của không gian kia (no. 5); ta sẽ nói rằng $r$ (ký hiệu $\operatorname{rg}(u)$) là *hạng* của phần tử $u$ của $E \otimes_K F$ và rằng $u_1(E^*)$ và $u_2(F^*)$ là các không gian con (của F và E tương ứng) *liên kết* với $u$.
 
 #### Mệnh đề 17 {#alg-ii-s7-prop-17 .statement}
 
-Cho u là một phần tử của $E \otimes_K F$ và $M \subset E$ và $N \subset F$ là các không gian con liên kết của nó. Với mọi biểu thức $u = \sum_{i=1}^s x_i \otimes y_i$ của $u$, trong đó $x_i \in E$ và $y_i \in F$ với $1 \leq i \leq s$, không gian con $M$ (tương ứng $N$) được chứa trong không gian con của $E$ (tương ứng $F$) sinh bởi các $x_i$ (tương ứng các $y_i$). Hơn nữa, các tính chất sau là tương đương:
+Cho $u$ là một phần tử của $E \otimes_K F$ và $M \subset E$ và $N \subset F$ là các không gian con liên kết với nó. Với mọi biểu thức $u = \sum_{i=1}^s x_i \otimes y_i$ của $u$, trong đó $x_i \in E$ và $y_i \in F$ với $1 \leq i \leq s$, không gian con $M$ (tương ứng $N$) được chứa trong không gian con của $E$ (tương ứng của $F$) sinh bởi các $x_i$ (tương ứng các $y_i$). Hơn nữa, các tính chất sau là tương đương:
 
 (a) Số nguyên $s$ bằng hạng của $u$.
 (b) Họ $(x_i)_{1 \leq i \leq s}$ là một cơ sở của $M$.
 (c) Họ $(y_i)_{1 \leq i \leq s}$ là một cơ sở của $N$.
-(d) Các họ $(x_i)_{1 \leq i \leq s}$ và $(y_i)_{1 \leq i \leq s}$ đều tự do.
+(d) Hai họ $(x_i)_{1 \leq i \leq s}$ và $(y_i)_{1 \leq i \leq s}$ đều tự do.
 
-Theo (33) (tương ứng (34)) mỗi phần tử của $N = u_1(E^*)$ (tương ứng $M = u_2(F^*)$) là một tổ hợp tuyến tính của các $y_i$ (tương ứng các $x_i$); do đó có mệnh đề thứ nhất. Nếu $s = r$, không gian con sinh bởi các $x_i$ (tương ứng các $y_i$), có chiều $\leq \dim M$ (tương ứng $\leq \dim N$) và chứa $M$ (tương ứng $N$), là đồng nhất với nó, và vì thế (a) kéo theo (b) và (c) và *a fortiori* (d). Ngược lại, mỗi điều kiện (b) và (c) đều kéo theo (a) theo định nghĩa của $\mathrm{rg}(u)$. Cuối cùng nếu (d) đúng, tồn tại một họ $(x_i^*)_{1 \leq i \leq s}$ gồm các phần tử của $E^*$ sao cho $\langle x_i, x_j^* \rangle = \delta_{ij}$ (no. 5, Hệ quả 1 của Định lý 7) và do đó suy ra từ (33) rằng $(y_i)$ là một cơ sở của $N$, điều này hoàn tất chứng minh.
+Theo (33) (tương ứng (34)) mỗi phần tử của $N = u_1(E^*)$ (tương ứng $M = u_2(F^*)$) là một tổ hợp tuyến tính của các $y_i$ (tương ứng các $x_i$); do đó có mệnh đề thứ nhất. Nếu $s = r$, không gian con sinh bởi các $x_i$ (tương ứng các $y_i$), có chiều $\leq \dim M$ (tương ứng $\leq \dim N$) và chứa $M$ (tương ứng $N$), được đồng nhất với chính nó và vì thế (a) kéo theo (b) và (c) và *a fortiori* (d). Ngược lại, mỗi điều kiện (b) và (c) đều kéo theo (a) theo định nghĩa của $\mathrm{rg}(u)$. Sau cùng nếu (d) đúng, tồn tại một họ $(x_i^*)_{1 \leq i \leq s}$ gồm các phần tử của $E^*$ sao cho $\langle x_i, x_j^* \rangle = \delta_{ij}$ (no. 5, Hệ quả 1 của Định lý 7) và do đó suy ra từ (33) rằng $(y_i)$ là một cơ sở của $N$, điều này hoàn tất chứng minh.
 
 #### Hệ quả 1 {#alg-ii-s7-prop-17-cor-1 .statement}
 
@@ -782,17 +783,17 @@ Theo (33) (tương ứng (34)) mỗi phần tử của $N = u_1(E^*)$ (tương �
 
 #### Hệ quả 2 {#alg-ii-s7-prop-17-cor-2 .statement}
 
-*Cho K là một trường giao hoán, E, F là hai không gian vectơ trên K và L là một trường mở rộng giao hoán của K. Cho u là một phần tử của* $E \otimes_K F$, *M và N là các không gian con liên kết của nó và u' là ảnh chính tắc của u trong* $(E \otimes_K F)_{(L)}$ *(được đồng nhất một cách chính tắc với* $E_{(L)} \otimes_L F_{(L)}$, *xem § 5, no. 1, Mệnh đề 3); khi đó* $\mathrm{rg}(u') = \mathrm{rg}(u)$ *và các không gian con liên kết với u' được đồng nhất một cách chính tắc với* $M_{(L)}$ *và* $N_{(L)}$.
+*Cho K là một trường giao hoán, E, F là hai không gian vectơ trên K và L là một trường mở rộng giao hoán của K. Cho u là một phần tử của* $E \otimes_K F$, *M và N là các không gian con liên kết với nó và u' là ảnh chính tắc của u trong* $(E \otimes_K F)_{(L)}$ *(được đồng nhất một cách chính tắc với* $E_{(L)} \otimes_L F_{(L)}$, *xem § 5, no. 1, Mệnh đề 3); khi đó* $\mathrm{rg}(u') = \mathrm{rg}(u)$ *và các không gian con liên kết với u' được đồng nhất một cách chính tắc với* $M_{(L)}$ *và* $N_{(L)}$.
 
-Nếu $u = \sum_{i=1}^r x_i \otimes y_i$, trong đó các họ $(x_i)$ và $(y_i)$ đều tự do, thì $u' = \sum_{i=1}^r (1 \otimes x_i) \otimes (1 \otimes y_i)$ và các họ $(1 \otimes x_i)$ và $(1 \otimes y_i)$ lần lượt tự do trong $E_{(L)}$ và $F_{(L)}$ (§ 5, no. 1, Mệnh đề 4).
+Nếu $u = \sum_{i=1}^r x_i \otimes y_i$, trong đó các họ $(x_i)$ và $(y_i)$ là tự do, thì $u' = \sum_{i=1}^r (1 \otimes x_i) \otimes (1 \otimes y_i)$ và các họ $(1 \otimes x_i)$ và $(1 \otimes y_i)$ lần lượt là tự do trong $E_{(L)}$ và $F_{(L)}$ (§ 5, no. 1, Mệnh đề 4).
 
-### 9. MỞ RỘNG VÔ HƯỚNG CHO MỘT KHÔNG GIAN VECTƠ
+### 9. MỞ RỘNG VÔ HƯỚNG ĐỐI VỚI MỘT KHÔNG GIAN VECTƠ
 
 Nhắc lại (I, § 9, no. 1, Định lý 2) rằng một đồng cấu từ một trường K vào một vành khác không A tất yếu là *đơn ánh*.
 
-#### Proposition 18 {#alg-ii-s7-prop-18 .statement}
+#### Mệnh đề 18 {#alg-ii-s7-prop-18 .statement}
 
-Cho $\varphi$ là một đồng cấu của một trường $K$ vào một vành $A$. Với mọi dãy khớp các không gian vectơ $K$ và các ánh xạ tuyến tính $K$
+Cho $\varphi$ là một đồng cấu từ một trường $K$ vào một vành $A$. Với mọi dãy khớp các không gian vectơ trên $K$ và các ánh xạ $K$-tuyến tính
 
 $$
 E' \xrightarrow{u} E \xrightarrow{v} E''
@@ -810,27 +811,27 @@ là khớp.
 
 #### Hệ quả {#alg-ii-s7-n9-cor-1 .statement}
 
-Với mọi ánh xạ tuyến tính $K$ $f : E' \to E$, $\operatorname{Im}(f_{(A)}) = (\operatorname{Im}(f))_{(A)}$, $\operatorname{Ker}(f_{(A)}) = (\operatorname{Ker}(f))_{(A)}$, $\operatorname{Coker}(f_{(A)}) = (\operatorname{Coker}(f))_{(A)}$, sai khác bởi các đẳng cấu chính tắc.
+Với mọi ánh xạ $K$-tuyến tính $f : E' \to E$, $\operatorname{Im}(f_{(A)}) = (\operatorname{Im}(f))_{(A)}$, $\operatorname{Ker}(f_{(A)}) = (\operatorname{Ker}(f))_{(A)}$, $\operatorname{Coker}(f_{(A)}) = (\operatorname{Coker}(f))_{(A)}$, lên đến các đẳng cấu chính tắc.
 
 #### Mệnh đề 19 {#alg-ii-s7-prop-19 .statement}
 
-Cho $\varphi$ là một đơn cấu của một trường $K$ vào một vành $A$. Với mọi không gian vectơ trái $E$ trên $K$, ánh xạ chính tắc $\phi : E \to \varphi^*(E) = A \otimes_K E$ là đơn ánh. Hơn nữa, với mọi không gian con vectơ $E'$ của $E$, $\varphi^*(E') = A \otimes_K E'$ được đồng nhất một cách chính tắc với một môđun con-$A$ nhân tử trực tiếp của $A \otimes_K E$ và, với sự đồng nhất này,
+Cho $\varphi$ là một đơn cấu từ một trường $K$ vào một vành $A$. Với mọi không gian vectơ trái $E$ trên $K$, ánh xạ chính tắc $\phi : E \to \varphi^*(E) = A \otimes_K E$ là đơn ánh. Hơn nữa, với mọi không gian con vectơ $E'$ của $E$, $\varphi^*(E') = A \otimes_K E'$ được đồng nhất một cách chính tắc với một môđun con-$A$ là nhân tử trực tiếp của $A \otimes_K E$ và, với sự đồng nhất này,
 
 $$
 (A \otimes_K E') \cap \phi(E) = \phi(E').
 $$
 
-Mệnh đề thứ nhất là một trường hợp riêng của § 5, no. 1, Proposition 4; mệnh đề thứ hai là một trường hợp riêng của no. 7, Proposition 14; sau cùng, để chứng minh (35), chỉ cần lấy trong $A$ (được xét như một $K$-môđun phải) một cơ sở $(a_\lambda)_{\lambda \in L}$ sao cho $a_{\lambda_0} = 1$ đối với một chỉ số nào đó $\lambda_0$ (no. 1, Theorem 2); các phần tử của $A \otimes_K E$ có thể được viết duy nhất dưới dạng $\sum \lambda a_\lambda \otimes x_\lambda$ với $x_\lambda \in E$ và, để một phần tử như thế thuộc $A \otimes_K E'$, điều kiện cần và đủ là $x_\lambda \in E'$ với mọi $\lambda$. Mặt khác, các phần tử của $\phi(E)$ là những phần tử mà đối với chúng $x_\lambda = 0$ với $\lambda \neq \lambda_0$; để một phần tử $\sum \lambda a_\lambda \otimes x_\lambda$ thuộc $(A \otimes_K E') \cap \phi(E)$, điều kiện cần và đủ là $x_\lambda = 0$ với $\lambda \neq \lambda_0$ và $x_{\lambda_0} \in E'$, do đó suy ra kết luận.
+Mệnh đề thứ nhất là một trường hợp riêng của § 5, no. 1, Proposition 4; mệnh đề thứ hai là một trường hợp riêng của no. 7, Proposition 14; sau cùng, để chứng minh (35), chỉ cần lấy trong $A$ (được xét như một $K$-môđun phải) một cơ sở $(a_\lambda)_{\lambda \in L}$ sao cho $a_{\lambda_0} = 1$ đối với một chỉ số nào đó $\lambda_0$ (no. 1, Theorem 2); các phần tử của $A \otimes_K E$ có thể được viết duy nhất dưới dạng $\sum \lambda a_\lambda \otimes x_\lambda$ với $x_\lambda \in E$ và, để một phần tử như vậy thuộc $A \otimes_K E'$, điều kiện cần và đủ là $x_\lambda \in E'$ với mọi $\lambda$. Mặt khác, các phần tử của $\phi(E)$ là những phần tử mà $x_\lambda = 0$ với $\lambda \neq \lambda_0$; để một phần tử $\sum \lambda a_\lambda \otimes x_\lambda$ thuộc $(A \otimes_K E') \cap \phi(E)$, điều kiện cần và đủ là $x_\lambda = 0$ với $\lambda \neq \lambda_0$ và $x_{\lambda_0} \in E'$, do đó suy ra kết luận.
 
 #### Hệ quả {#alg-ii-s7-n9-cor-2 .statement}
 
-Cho $\varphi$ là một đơn cấu của một trường $K$ vào một vành $A$. Để một ánh xạ tuyến tính $K$ $f : E \to F$ (trong đó $E$ và $F$ là hai không gian vectơ trên $K$) là đơn ánh (tương ứng, toàn ánh, không), điều kiện cần và đủ là $f_{(A)} : E_{(A)} \to F_{(A)}$ là đơn ánh (tương ứng, toàn ánh, không).
+Cho $\varphi$ là một đơn cấu từ một trường $K$ vào một vành $A$. Để một ánh xạ $K$-tuyến tính $f : E \to F$ (trong đó $E$ và $F$ là hai không gian vectơ trên $K$) là đơn ánh (resp. toàn ánh, không), điều kiện cần và đủ là $f_{(A)} : E_{(A)} \to F_{(A)}$ là đơn ánh (resp. toàn ánh, không).
 
 Điều này suy ra ngay lập tức từ Mệnh đề 19 và Hệ quả của Mệnh đề 18.
 
 #### Mệnh đề 20 {#alg-ii-s7-prop-20 .statement}
 
-Cho $\rho$ là một đồng cấu của một trường $K$ vào một vành $A$. Với mọi không gian vectơ trái $E$ trên $K$, đồng cấu chính tắc môđun phải $A$
+Cho $\rho$ là một đồng cấu từ một trường $K$ vào một vành $A$. Với mọi không gian vectơ trái $E$ trên $K$, đồng cấu môđun phải-$A$ chính tắc
 
 $$
 v : (E^*)_{(A)} \to (E_{(A)})^*
@@ -838,7 +839,7 @@ $$
 
 (§ 5, no. 4) là đơn ánh; nó là song ánh khi $E$ hữu hạn chiều.
 
-Mệnh đề thứ hai suy ra từ § 5, no. 4, Mệnh đề 8. Để chứng minh mệnh đề thứ nhất, ta nhận thấy rằng mọi phần tử của $(E^*)_{(A)}$ đều có thể viết dưới dạng $\sum_i x_i^* \otimes \alpha_i$, trong đó $\alpha_i \in A$ và $(x_i^*)_{1 \leq i \leq n}$ là một họ tự do trong $E^*$; ứng với nó trong $(E_{(A)})^*$ là dạng tuyến tính $y^*$ sao cho $y^*(1 \otimes x) = \sum_i \rho(\langle x, x_i^* \rangle) \alpha_i$ với mọi $x \in E$. Nhưng tồn tại trong $E$ một họ $(x_i)_{1 \leq i \leq n}$ sao cho $\langle x_i, x_j^* \rangle = \delta_{ij}$ (no. 5, Hệ quả 2 của Định lý 7), do đó $y^*(1 \otimes x_i) = \alpha_i$; vì thế quan hệ $y^* = 0$ kéo theo $\alpha_i = 0$ với mọi $i$, điều đó chứng minh mệnh đề của ta.
+Mệnh đề thứ hai suy ra từ § 5, no. 4, Mệnh đề 8. Để chứng minh mệnh đề thứ nhất, ta nhận thấy rằng mọi phần tử của $(E^*)_{(A)}$ đều có thể viết được dưới dạng $\sum_i x_i^* \otimes \alpha_i$, trong đó $\alpha_i \in A$ và $(x_i^*)_{1 \leq i \leq n}$ là một họ tự do trong $E^*$; trong $(E_{(A)})^*$ ứng với nó là dạng tuyến tính $y^*$ sao cho $y^*(1 \otimes x) = \sum_i \rho(\langle x, x_i^* \rangle) \alpha_i$ với mọi $x \in E$. Nhưng tồn tại trong $E$ một họ $(x_i)_{1 \leq i \leq n}$ sao cho $\langle x_i, x_j^* \rangle = \delta_{ij}$ (no. 5, Hệ quả 2 của Định lý 7), do đó $y^*(1 \otimes x_i) = \alpha_i$; vì thế quan hệ $y^* = 0$ kéo theo $\alpha_i = 0$ với mọi $i$, điều đó chứng minh mệnh đề của chúng ta.
 
 #### Mệnh đề 21 {#alg-ii-s7-prop-21 .statement}
 
@@ -848,7 +849,7 @@ Cho $K$ là một trường và $L$ là một trường mở rộng của $K$.
 
 (ii) Với mọi ánh xạ tuyến tính trên $K$ $u : E \to F$, trong đó $E$ và $F$ là các không gian vectơ trên $K$, $\operatorname{rg}(u_{(L)}) = \operatorname{rg}(u)$.
 
-Nếu $(e_i)_{i \in I}$ là một cơ sở của $E$ trên $K$, thì $(1 \otimes e_i)_{i \in I}$ là một cơ sở của $E_{(L)}$ trên $L$ (§ 5, no. 1, Mệnh đề 4), do đó có mệnh đề thứ nhất; mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và sự kiện rằng $u_{(L)}(E_{(L)})$ được đồng nhất một cách chính tắc với $(u(E))_{(L)}$ bởi Hệ quả của Mệnh đề 18.
+Nếu $(e_i)_{i \in I}$ là một cơ sở của $E$ trên $K$ thì $(1 \otimes e_i)_{i \in I}$ là một cơ sở của $E_{(L)}$ trên $L$ (§ 5, no. 1, Mệnh đề 4), do đó suy ra mệnh đề thứ nhất; mệnh đề thứ hai suy ra từ mệnh đề thứ nhất và từ việc $u_{(L)}(E_{(L)})$ được đồng nhất một cách chính tắc với $(u(E))_{(L)}$ bởi Hệ quả của Mệnh đề 18.
 
 #### Mệnh đề 22 {#alg-ii-s7-prop-22 .statement}
 
@@ -866,7 +867,7 @@ $$
 
 #### Mệnh đề 23 {#alg-ii-s7-prop-23 .statement}
 
-Trong một môđun $E$ trên một miền nguyên $A$, tập hợp $T$ của các phần tử không tự do là một môđun con của $E$.
+Trong một môđun $E$ trên một miền nguyên $A$, tập hợp $T$ các phần tử không tự do là một môđun con của $E$.
 
 Nếu $x$ và $y$ không tự do, tồn tại hai phần tử khác không $\alpha, \beta$ của $A$ sao cho $\alpha x = 0$ và $\beta y = 0$. Khi đó $\alpha \beta \neq 0$ vì $A$ là một miền nguyên và $\alpha \beta (\lambda x + \mu y) = 0$ với mọi $\lambda$ và $\mu$ trong $A$ vì $A$ giao hoán; do đó $\lambda x + \lambda y$ không tự do.
 
@@ -949,9 +950,9 @@ $$
 
 vì $\phi$ là $A$-tuyến tính.
 
-(ii) Nếu $x \neq 0$ không tự do trong $E$, thì tồn tại $\alpha \neq 0$ trong $A$ sao cho $\alpha x = 0$, do đó $\alpha \phi(x) = \phi(\alpha x) = 0$ trong $E_{(K)}$, suy ra $\phi(x) = 0$. Ngược lại, giả sử rằng, với một $x \in E$, $1 \otimes x = 0$ trong $E_{(K)}$; ta sẽ chứng minh rằng $x$ là một phần tử xoắn của $E$. Xét tập $\mathfrak{M}$ các $A$-môđun con *đơn sinh* của $K$; đó là một tập có hướng phải đối với quan hệ bao hàm, vì mọi hai phần tử $\alpha, \beta$ của $K$ đều có thể viết dưới dạng $\alpha = \zeta^{-1} \xi, \beta = \zeta^{-1} \eta$, trong đó $\xi, \eta, \zeta$ thuộc $A$ và $\zeta \neq 0$, do đó $A.\alpha \subset A.\zeta^{-1}$ và $A.\beta \subset A.\zeta^{-1}$. Hơn nữa $K$ là hợp của các môđun $M \in \mathfrak{M}$ và vì thế có thể được xem như *giới hạn trực tiếp* của hệ trực tiếp xác định bởi các môđun $M \in \mathfrak{M}$ và các đơn ánh chính tắc (§ 6, no. 2, *Nhận xét*). Do đó, cũng như vậy, sai khác bởi một đẳng cấu chính tắc, $E_{(K)} = \lim \rightarrow (M \otimes_A E)$ (§ 6, no. 3, Mệnh đề 7) và hệ thức $1 \otimes x = 0$ trong $E_{(K)}$ kéo theo rằng tồn tại một
+(ii) Nếu $x \neq 0$ không tự do trong $E$, thì tồn tại $\alpha \neq 0$ trong $A$ sao cho $\alpha x = 0$, do đó $\alpha \phi(x) = \phi(\alpha x) = 0$ trong $E_{(K)}$, suy ra $\phi(x) = 0$. Ngược lại, giả sử rằng, với một $x \in E$ nào đó, $1 \otimes x = 0$ trong $E_{(K)}$; ta chứng minh rằng $x$ là một phần tử xoắn của $E$. Ta xét tập $\mathfrak{M}$ các môđun con *đơn sinh* của $K$; đó là một tập có hướng phải đối với quan hệ bao hàm, vì mọi hai phần tử $\alpha, \beta$ của $K$ đều có thể viết dưới dạng $\alpha = \zeta^{-1} \xi, \beta = \zeta^{-1} \eta$, trong đó $\xi, \eta, \zeta$ thuộc $A$ và $\zeta \neq 0$, do đó $A.\alpha \subset A.\zeta^{-1}$ và $A.\beta \subset A.\zeta^{-1}$. Hơn nữa $K$ là hợp của các môđun $M \in \mathfrak{M}$ và vì thế có thể được xem như *giới hạn trực tiếp* của hệ trực tiếp xác định bởi các môđun $M \in \mathfrak{M}$ và các đơn ánh chính tắc (§ 6, no. 2, *Nhận xét*). Vì vậy cũng vậy, sai khác bởi một đẳng cấu chính tắc, $E_{(K)} = \lim \rightarrow (M \otimes_A E)$ (§ 6, no. 3, Proposition 7) và quan hệ $1 \otimes x = 0$ trong $E_{(K)}$ kéo theo rằng tồn tại một
 
-M ∈ 𝒫 sao cho l ∈ M và l ⊗ x = 0 trong tích tenxơ M ⊗_A E (Set Theory, III, § 7, no. 5, Bổ đề 1). Hơn nữa có thể giả sử (nếu cần thay thế M bằng một môđun con đơn sinh M' ⊃ M của K) rằng M = A.γ^{-1}, trong đó γ ∈ A và γ ≠ 0. Khi đó ánh xạ ξ ↦ γξ là một đẳng cấu của M lên A-môđun A; mặt khác, đẳng cấu chính tắc A ⊗_A E → E (§ 3, no. 4, Mệnh đề 4) ánh xạ ξ ⊗ x lên phần tử ξx của E; vì thế tồn tại một đẳng cấu M ⊗_A E → E ánh xạ tích tenxơ ξ ⊗ x lên phần tử (γξ)x của E. Giả thiết l ⊗ x = 0 trong M ⊗_A E do đó suy ra γx = 0.
+M ∈ 𝒫 sao cho l ∈ M và l ⊗ x = 0 trong tích tenxơ M ⊗_A E (Set Theory, III, § 7, no. 5, Lemma 1). Hơn nữa có thể giả sử (nếu cần thì thay M bằng một môđun con đơn sinh M' ⊃ M của K) rằng M = A.γ^{-1}, trong đó γ ∈ A và γ ≠ 0. Khi đó ánh xạ ξ ↦ γξ là một đẳng cấu từ M lên A-môđun A; mặt khác, đẳng cấu chính tắc A ⊗_A E → E (§ 3, no. 4, Proposition 4) ánh xạ ξ ⊗ x lên phần tử ξx của E; do đó tồn tại một đẳng cấu M ⊗_A E → E ánh xạ tích tenxơ ξ ⊗ x lên phần tử (γξ)x của E. Vì thế giả thiết l ⊗ x = 0 trong M ⊗_A E suy ra γx = 0.
 
 #### Nhận xét {#alg-ii-s7-n10-rem-2 .statement}
 
@@ -961,21 +962,21 @@ Cho α^{-1}φ(x), β^{-1}φ(y) là hai phần tử của E_{(K)}, với α ∈ A
 
 *Nếu E là một A-môđun không xoắn, thì ánh xạ chính tắc* φ : E → E_{(K)} *là đơn ánh*.
 
-Nhắc lại (§ 5, no. 1) rằng với mọi ánh xạ A-tuyến tính từ E vào một không gian vectơ F trên K, tồn tại duy nhất một ánh xạ K-tuyến tính $\vec{f} : E_{(K)} \to F$ sao cho $f = \vec{f} \circ \phi$; ta sẽ nói rằng $\vec{f}$ *liên kết* với $f$.
+Nhắc lại (§ 5, no. 1) rằng với mọi ánh xạ A-tuyến tính từ E vào một không gian vectơ F trên K, tồn tại duy nhất một ánh xạ K-tuyến tính $\vec{f} : E_{(K)} \to F$ sao cho $f = \vec{f} \circ \phi$; ta sẽ nói rằng $\vec{f}$ là ánh xạ *liên kết* với $f$.
 
 #### Hệ quả 2 {#alg-ii-s7-prop-26-cor-2 .statement}
 
 *Cho f là một ánh xạ A-tuyến tính từ E vào một không gian vectơ F trên K; nếu Ker(f) ⊂ T(E), thì ánh xạ K-tuyến tính* $\vec{f}$ *liên kết với f là đơn ánh*.
 
-Ta viết một phần tử của Ker($\vec{f}$) dưới dạng $\lambda^{-1}\phi(x)$, trong đó $\lambda \in A, \lambda \neq 0, x \in E$; hệ thức $\vec{f}(\lambda^{-1}\phi(x)) = 0$ tương đương với $\lambda^{-1}\vec{f}(\phi(x)) = 0$ trong F và vì thế với $f(x) = \vec{f}(\phi(x)) = 0$. Theo giả thiết, điều này kéo theo $x \in T(E)$ và do đó $\phi(x) = 0$, điều phải chứng minh.
+Ta viết một phần tử của Ker($\vec{f}$) dưới dạng $\lambda^{-1}\phi(x)$, trong đó $\lambda \in A, \lambda \neq 0, x \in E$; quan hệ $\vec{f}(\lambda^{-1}\phi(x)) = 0$ tương đương với $\lambda^{-1}\vec{f}(\phi(x)) = 0$ trong F và do đó với $f(x) = \vec{f}(\phi(x)) = 0$. Theo giả thiết, điều này kéo theo $x \in T(E)$ và do đó $\phi(x) = 0$, điều phải chứng minh.
 
 #### Hệ quả 3 {#alg-ii-s7-prop-26-cor-3 .statement}
 
-*Cho E là một A-môđun và g là một ánh xạ A-tuyến tính từ E vào một không gian vectơ F trên K sao cho g(E) sinh ra F và Ker(g) ⊂ T(E). Khi đó ánh xạ K-tuyến tính* $\bar{g}$ *liên kết với g là một đẳng cấu của* E_{(K)} *lên F*.
+*Cho E là một A-môđun và g là một ánh xạ A-tuyến tính từ E vào một không gian vectơ F trên K sao cho g(E) sinh ra F và Ker(g) ⊂ T(E). Khi đó ánh xạ K-tuyến tính* $\bar{g}$ *liên kết với g là một đẳng cấu từ* E_{(K)} *lên F*.
 
-$\bar{g}$ là đơn ánh theo Hệ quả 2, và giả thiết rằng $g(E)$ sinh ra F kéo theo $\bar{g}$ là toàn ánh.
+$\bar{g}$ là đơn ánh theo Hệ quả 2, và giả thiết rằng $g(E)$ sinh ra F kéo theo rằng $\bar{g}$ là toàn ánh.
 
-Với mọi A-môđun E, không gian vectơ E_{(K)} được gọi là *liên kết* với E. Với mọi tập con S của E, *hạng* của S trên K (hoặc, do lạm dụng ngôn ngữ, *hạng* của S) là hạng của ảnh chính tắc $\phi(S)$ của S trong E_{(K)}, nói cách khác (no. 2, Định nghĩa 1) là chiều trên K của không gian con vectơ của E_{(K)} được sinh bởi $\phi(S)$.
+Với mọi A-môđun E, không gian vectơ E_{(K)} được gọi là không gian *liên kết* với E. Với mọi tập con S của E, *hạng* của S trên K (hoặc, do lạm dụng ngôn ngữ, *hạng* của S) là hạng của ảnh chính tắc $\phi(S)$ của S trong E_{(K)}, nói cách khác (no. 2, Định nghĩa 1) là chiều trên K của không gian con vectơ của E_{(K)} sinh bởi $\phi(S)$.
 
 Khi E là một A-môđun *không xoắn*, người ta thường đồng nhất nó với ảnh chính tắc $\phi(E)$ của nó trong E_{(K)}. Với quy ước này, mọi hệ sinh của E đều chứa một *cơ sở* của E_{(K)} (no. 1, Định lý 2). Đặc biệt:
 
@@ -983,7 +984,7 @@ Khi E là một A-môđun *không xoắn*, người ta thường đồng nhất 
 
 *Mọi A-môđun hữu hạn sinh đều có hạng hữu hạn*.
 
-Chú ý rằng đảo lại của hệ quả này không nhất thiết đúng; chẳng hạn $\mathbf{Q}$ là một $\mathbf{Z}$-môđun hạng 1 nhưng không sinh hữu hạn trên $\mathbf{Z}$.
+Chú ý rằng mệnh đề đảo lại của hệ quả này không nhất thiết đúng; chẳng hạn $\mathbf{Q}$ là một $\mathbf{Z}$-môđun có hạng 1 nhưng không sinh hữu hạn trên $\mathbf{Z}$.
 
 Nhắc lại (§ 5, no. 1) rằng với mọi ánh xạ tuyến tính $f : E \to E'$ (trong đó $E$ và $E'$ là các $A$-môđun), $f_{(K)}$ ký hiệu ánh xạ $K$-tuyến tính $1_K \otimes f : E_{(K)} \to E'_{(K)}$.
 

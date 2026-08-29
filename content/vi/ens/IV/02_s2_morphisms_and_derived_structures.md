@@ -38,7 +38,7 @@ subsections:
       pdf_page: 286
 statements: 12
 exercises: 11
-content_sha256: 657ab8dc1aa6d84a5f0cbb52267812124f8cbe3b5d6f4f2ce1c78b6777e2118c
+content_sha256: 38ab0c155c939c82f50b44d670c0b5ad1ab07d60e31858e124c0b5a315ef3675
 translated_from: content/en/ens/IV/02_s2_morphisms_and_derived_structures.md
 source_content_sha256: f3deeaa7f667542d82042b94967bb4d68d106fa3b1b0bdd6f7b4555f277bea62
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5.4-mini, gpt-5-mini, gpt-5-6

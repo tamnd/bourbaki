@@ -13,7 +13,7 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 20a5ef11822db77fe98c6ea15fdbbf5c35865252e3cc6c6dcaef725649bfab71
+content_sha256: e78772464ecfc30aeccae61bae22b7761be8c78d33f18523afb840ff533ce398
 translated_from: content/en/alg/00_to_the_reader_iv_vii.md
 source_content_sha256: 233edccfa753769e1895c6bfedf7d69f97039fad58bcf21946b7391936c208f2
 translation_model: gpt-5-mini
@@ -60,7 +60,7 @@ Từ Quyển thứ bảy trở đi, người đọc thường sẽ tìm thấy m
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ☡ (« dangerous bend »).
 
-7. The Exercises are designed both to enable the reader to satisfy himself that he has digested the text and to bring to his notice results which have no place in the text but which are nonetheless of interest. The most difficult exercises bear the sign ⨯.
+7. The Exercises are designed both to enable the reader to satisfy himself that he has digested the text and to bring to his notice results which have no place in the text but which are nonetheless of interest. The most difficult exercises bear the sign ¶.
 
 8. In general, we have adhered to the commonly accepted terminology, except where there appeared to be good reasons for deviating from it.
 

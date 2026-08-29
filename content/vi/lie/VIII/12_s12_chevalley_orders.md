@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: 1dc2f1e5eec1cb09a9c7399fb05a18edbf8557f45d278e76c8c960cfffb7e4e8
+content_sha256: bad75a9913b3fdb37630a62e3a250901c3f8a4b27f14e7e5adc4f3967dbe7102
 translated_from: content/en/lie/VIII/12_s12_chevalley_orders.md
 source_content_sha256: 50f43a34a9ae42cb38e10e1f32022dc1fddb5d2b07911570fec5baa09a40ebdf
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini
@@ -909,7 +909,7 @@ $$
 
 suy ra, nếu $a_n\not= 0$ với mọi $n\in \mathbf{N}$, thì dãy các $|a_n|$ giảm nghiêm ngặt khi $n$ đủ lớn, điều này là vô lý. Suy ra $v$ có một trị riêng nguyên $\lambda$. Đặt $M'=$ Ker($u-\lambda .1$) và $M''= M/M'$. Khi đó $M'$ là giao với $M$ của một không gian con vectơ của $M\otimes_{\mathbf{Z}}\mathbf{Q}$, nên $\mathbf{Z}$-môđun $M''$ là không xoắn, kiểu hữu hạn, và do đó tự do có hạng $< d$. Lập luận bằng quy nạp theo $d$ và áp dụng giả thiết quy nạp cho tự đồng cấu của $M''$ cảm sinh bởi $u$, ta kết luận rằng mọi trị riêng của $v$ trong một mở rộng đóng đại số của $\mathbf{Q}$ đều là số nguyên.
 
-c) Ta ցույց minh rằng $v$ chéo hóa được. Cho $\lambda$ là một trị riêng của $v$ và cho $x\in M\otimes_{\mathbf{Z}}\mathbf{Q}$ sao cho $(v-\lambda )^2x= 0$. Ta có $v(vx-\lambda x) =\lambda (vx-\lambda x)$, nên
+c) Ta chứng minh rằng $v$ chéo hóa được. Cho $\lambda$ là một trị riêng của $v$ và cho $x\in M\otimes_{\mathbf{Z}}\mathbf{Q}$ sao cho $(v-\lambda )^2x= 0$. Ta có $v(vx-\lambda x) =\lambda (vx-\lambda x)$, nên
 
 $n1$!$(v-\lambda -n+ 1)(v-\lambda -n+ 2). . .(v-\lambda -1)(v-\lambda )x$
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 20
 statements: 31
 exercises: 16
-content_sha256: 9bf5da9f5a0e6717b3426434925ad79cb690c3a40d6527c17d75cd18b28d0942
+content_sha256: 3c9b00a2b749a4f7448ff5db7c549681f1663bbdaad39d6a48a3ed0fca666271
 ---
 
 ## § 1. LOIS DE COMPOSITION; ASSOCIATIVITÉ; COMMUTATIVITÉ
@@ -56,7 +56,7 @@ On dit parfois, par abus de langage, qu’une application d’une partie de E ×
 Les applications (X, Y) ↦ X ∪ Y et (X, Y) ↦ X ∩ Y sont des lois de composition sur l’ensemble des parties d’un ensemble E.
 2) Dans l’ensemble N des entiers naturels, l’addition, la multiplication, l’exponentiation sont des lois de composition (les composés de x ∈ N et de y ∈ N pour ces lois se notant respectivement x + y, xy ou x.y, et x^y) (E, III, p. 27–28).
 
-3) Soit E un ensemble ; l’application (X, Y) ↦ X ○ Y est une loi de composition sur l’ensemble des parties de E × E (E, II, p. 11, déf. 6) ; l’application (f, g) ↦ f ○ g est une loi de composition sur l’ensemble des applications de E dans E (E, II, p. 31).
+3) Soit E un ensemble ; l’application (X, Y) ↦ $X \circ Y$ est une loi de composition sur l’ensemble des parties de E × E (E, II, p. 11, déf. 6) ; l’application (f, g) ↦ $f \circ g$ est une loi de composition sur l’ensemble des applications de E dans E (E, II, p. 31).
 
 4) Soit E un ensemble ordonné réticulé (E, III, p. 13) ; si on désigne par sup(x, y) la borne supérieure de l’ensemble {x, y}, l’application (x, y) ↦ sup(x, y) est une loi de composition sur E. De même pour la borne inférieure inf(x, y). L’exemple 1 ci-dessus est un cas particulier de celui-ci, en considérant $\mathfrak{P}(E)$ comme ordonné par inclusion.
 

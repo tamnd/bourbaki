@@ -40,7 +40,7 @@ subsections:
       pdf_page: 191
 statements: 29
 exercises: 18
-content_sha256: 100b8402e888f5d81ec7248a0c2c4d4ebb106d40017e675e459181cabd7e95cf
+content_sha256: 77d23be69e8637ed890fc4d588ac3c773db29df2da215e229bd9a31e6ecba6a7
 translated_from: content/en/fvr/IV/01_s1_existence_theorems.md
 source_content_sha256: 365b7abae6386a7f8ca023e244e718651dc0eba4a2f9e803d42137613cf21d16
 translation_model: gpt-5.4
@@ -189,7 +189,7 @@ Giả sử rằng $t_0$ không phải là đầu mút phải của J, và chứn
 
 Ta sắp thứ tự tập hợp $\mathcal{M}$ theo quan hệ "u là một hạn chế của v", và chứng minh rằng $\mathcal{M}$ là quy nạp (Lý thuyết Tập hợp, III, p. 154). Cho $(u_\alpha)$ là một tập con được sắp thứ tự toàn phần của $\mathcal{M}$ và $[t_0, b_\alpha[$ là khoảng trên đó $u_\alpha$ được xác định: nếu $b_\alpha \leq b_\beta$ thì hàm $u_\beta$ do đó là một mở rộng của $u_\alpha$. Hợp của các khoảng $[t_0, b_\alpha[$ là một khoảng $[t_0, b[$ được chứa trong J, và tồn tại một và chỉ một hàm u xác định trên $[t_0, b[$ trùng với $u_\alpha$ trên $[t_0, b_\alpha[$ với mỗi $\alpha$; trong các $b_\alpha$ có một dãy tăng $(b_{\alpha_n})$ tiến tới b; vì u trùng với $u_{\alpha_n}$ trên $[t_0, b_{\alpha_n}[$, hàm u có một đạo hàm thỏa mãn (7) tại mọi điểm của phần bù của một tập con đếm được của $[t_0, b[$, và do đó là cận trên đúng của tập $(u_\alpha)$ trong $\mathcal{M}$.
 
-Theo bổ đề Zorn (Lý thuyết Tập hợp, III, p. 154, đl. 2), $\mathcal{M}$ có một phần tử cực đại $u_0$; ta sẽ chứng minh rằng nếu $[t_0, t_1[$ là khoảng trên đó $u_0$ được xác định, thì либо $t_1$ là đầu mút phải của J, либо $t_1 - t_0 \geq r/(M + \varepsilon)$. Ta lập luận phản chứng, giả sử rằng không điều kiện nào trong hai điều kiện này được thỏa mãn; trước hết ta chứng minh rằng có thể mở rộng $u_0$ bằng tính liên tục tại điểm $t_1$; thật vậy, với mọi s và t trong $[t_0, t_1[$,
+Theo bổ đề Zorn (Lý thuyết Tập hợp, III, p. 154, đl. 2), $\mathcal{M}$ có một phần tử cực đại $u_0$; ta sẽ chứng minh rằng nếu $[t_0, t_1[$ là khoảng trên đó $u_0$ được xác định, thì hoặc $t_1$ là đầu mút phải của J, hoặc $t_1 - t_0 \geq r/(M + \varepsilon)$. Ta lập luận phản chứng, giả sử rằng không điều kiện nào trong hai điều kiện này được thỏa mãn; trước hết ta chứng minh rằng có thể mở rộng $u_0$ bằng tính liên tục tại điểm $t_1$; thật vậy, với mọi s và t trong $[t_0, t_1[$,
 
 $$
 \|u_0(s) - u_0(t)\| \leq (M + \varepsilon)|s - t|

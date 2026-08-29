@@ -84,7 +84,7 @@ subsections:
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: a20e1035403f3f23ca4542a287533546aa8290d4e3f6065679e00b465e6bd5d4
+content_sha256: 5b855e461b7be902c53dc17423395fa303518f486e7b80881751a14b80b25b79
 translated_from: content/en/lie/III/03_s3_passage_from_a_lie_group_to_its_lie.md
 source_content_sha256: 116ee476020d95a20632b0a93e7c92ab47b1013c10697310c58d2ebb5dec4db5
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini, gpt-5-mini

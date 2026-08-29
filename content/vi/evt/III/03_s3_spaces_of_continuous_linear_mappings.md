@@ -45,7 +45,7 @@ subsections:
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: 44dd95ef02168158bfbcfc998c900f2e28fe912063323c40f2de7c077678d75d
+content_sha256: b51a78e230eb81e62ff57fb8beea1e50a8ddbf77ec4b3628ebd79a06e0ecbd56
 translated_from: content/en/evt/III/03_s3_spaces_of_continuous_linear_mappings.md
 source_content_sha256: 750a5a19a2ae810cd3cd4031a0b492c998c5910a610b3aba284ab9536a63d37e
 translation_model: gpt-5.4
@@ -157,7 +157,7 @@ Bây giờ chứng minh mệnh đề thứ hai : trước hết, nếu F là tr�
 
 — Cho E và F là hai không gian lồi địa phương, giả thiết F là Hausdorff, và cho $\mathfrak{S}$ là một họ các tập con bị chặn của E. Nếu hợp A của các tập hợp thuộc $\mathfrak{S}$ là toàn phần trong E, thì không gian $\mathcal{L}_\mathfrak{S}(E; F)$ là Hausdorff.
 
-Cho $u_0$ là một phần tử khác không của $\mathcal{L}(E; F)$; vì $u_0$ liên tục và A là toàn phần trong E, nên tồn tại một $x_0$ trong A sao cho $u_0(x_0) \neq 0$. Vì F là Hausdorff, nên tồn tại một lân cận V của 0 trong F sao cho $u_0(x_0) \notin V$. Cho $M \in \mathfrak{S}$ sao cho $x_0 \in M$. Khi đó tập hợp U của ყველა $u \in \mathcal{L}(E; F)$ sao cho $u(M) \subset V$ là một lân cận của 0 trong $\mathcal{L}(E; F)$, và ta có $u_0 \notin U$, do đó $\mathcal{L}(E; F)$ là Hausdorff.
+Cho $u_0$ là một phần tử khác không của $\mathcal{L}(E; F)$; vì $u_0$ liên tục và A là toàn phần trong E, nên tồn tại một $x_0$ trong A sao cho $u_0(x_0) \neq 0$. Vì F là Hausdorff, nên tồn tại một lân cận V của 0 trong F sao cho $u_0(x_0) \notin V$. Cho $M \in \mathfrak{S}$ sao cho $x_0 \in M$. Khi đó tập hợp U của tất cả $u \in \mathcal{L}(E; F)$ sao cho $u(M) \subset V$ là một lân cận của 0 trong $\mathcal{L}(E; F)$, và ta có $u_0 \notin U$, do đó $\mathcal{L}(E; F)$ là Hausdorff.
 
 Đặc biệt, các tôpô sau trên $\mathcal{L}(E; F)$ là Hausdorff mỗi khi F là Hausdorff : hội tụ đơn, hội tụ compact, hội tụ tiền compact hoặc compact lồi, và hội tụ bị chặn.
 
@@ -167,7 +167,7 @@ Cho E và F là hai không gian lồi địa phương Hausdorff, và giả sử 
 
 Ví dụ, nếu E là *định chuẩn*, tôpô hội tụ bị chặn trên $\mathcal{L}(E; F)$ đồng nhất với tôpô hội tụ bị chặn trên $\mathcal{L}(\hat{E}; F)$: thật vậy, mọi tập con bị chặn của $\hat{E}$ đều được chứa trong bao đóng của một tập con bị chặn của E. Vì quả cầu đơn vị của $\hat{E}$ là bao đóng của quả cầu đơn vị của E, nên từ công thức (3) (III, p. 14) suy ra rằng nếu F là một không gian Banach, ánh xạ $u \mapsto \bar{u}$ là một đẳng cự từ $\mathcal{L}(E; F)$ lên $\mathcal{L}(\hat{E}; F)$.
 
-Ta chú ý rằng nếu E không phải là một không gian định chuẩn, thì có thể tồn tại các tập con bị chặn của $\hat{E}$ không được chứa trong bao đóng của որևէ tập con bị chặn nào của E (ví dụ, nếu E là đối ngẫu yếu của một không gian Banach vô hạn chiều); tuy nhiên, điều này xảy ra nếu E là mêtric hóa được và thỏa mãn tiên đề đếm được thứ nhất (III, p. 39, exerc. 16).
+Ta chú ý rằng nếu E không phải là một không gian định chuẩn, thì có thể tồn tại các tập con bị chặn của $\hat{E}$ không được chứa trong bao đóng của bất kỳ tập con bị chặn nào của E (ví dụ, nếu E là đối ngẫu yếu của một không gian Banach vô hạn chiều); tuy nhiên, điều này xảy ra nếu E là mêtric hóa được và thỏa mãn tiên đề đếm được thứ nhất (III, p. 39, exerc. 16).
 
 ### 4. Các tập con đẳng liên tục của $\mathcal{L}(E; F)$
 
@@ -199,7 +199,7 @@ Vậy tập hợp này đóng trong $F^E$.
 
 #### Hệ quả 1 {#evt-iii-s3-prop-4-cor-1 .statement}
 
-— *Để một tập con đẳng liên tục H của $\mathcal{L}(E; F)$ là tương đối compắc trong $\mathcal{L}_s(E; F)$ thì điều kiện cần và đủ là với mọi $x \in E$, tập $H(x)$ gồm բոլոր các $u(x)$ khi u chạy trên H, là tương đối compắc trong F.*
+— *Để một tập con đẳng liên tục H của $\mathcal{L}(E; F)$ là tương đối compắc trong $\mathcal{L}_s(E; F)$ thì điều kiện cần và đủ là với mọi $x \in E$, tập $H(x)$ gồm tất cả các $u(x)$ khi u chạy trên H, là tương đối compắc trong F.*
 
 Thật vậy, điều kiện này là điều kiện cần và đủ để $\overline{H}$ là compắc trong $F^E$ (GT, I, § 9, No. 5, cor.).
 
