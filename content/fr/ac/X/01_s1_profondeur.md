@@ -47,9 +47,9 @@ subsections:
       title: Profondeur et normalité
       page: 19
       pdf_page: 18
-statements: 53
+statements: 60
 exercises: 18
-content_sha256: 381601f9ea0be9f0dc743302a0a9dacb97e65c0f0fc5773f9ddb7b5c9310b657
+content_sha256: 225c9460593c8de13dabe30c37d11a994b8dc41f2db1aa24ece65402eb5a3910
 ---
 
 ## § 1. PROFONDEUR
@@ -216,7 +216,9 @@ Soient $\rho : A \to B$ un homomorphisme d’anneaux, $J$ un idéal de $A$ et $N
 
 Soit $x = (x_i)_{i \in I}$ une famille génératrice de $J$; la famille $\rho(x) = (\rho(x_i))_{i \in I}$ engendre $JB$. Par construction le complexe $K^\bullet(\rho(x), N)$ est égal à $K^\bullet(x, N)$. La proposition résulte donc du th. 1.
 
-COROLLAIRE. Soient $A$ un anneau local, $a$ un idéal de $A$ distinct de $A$ et $M$ un $A$-module annulé par $a$. On a $\operatorname{prof}_A(M) = \operatorname{prof}_{A/a}(M)$.
+#### Corollaire {#ac-x-s1-n3-cor-1 .statement}
+
+Soient $A$ un anneau local, $a$ un idéal de $A$ distinct de $A$ et $M$ un $A$-module annulé par $a$. On a $\operatorname{prof}_A(M) = \operatorname{prof}_{A/a}(M)$.
 
 Soient $\rho : A \to B$ un homomorphisme d’anneaux, $x = (x_i)_{i \in I}$ une famille finie d’éléments de $A$ et $M$ un $A$-module. Pour tout entier $p$, notons $u^p : B \otimes_A C_I^p(M) \to C_I^p(B \otimes_A M)$ l’homomorphisme $B$-linéaire qui associe à $b \otimes m$ l’application alternée $(\alpha_1, \ldots, \alpha_p) \mapsto b \otimes m(\alpha_1, \ldots, \alpha_p)$. La famille $(u^p)$ définit un isomorphisme de complexes
 
@@ -272,7 +274,7 @@ $$
 
 Or $B \otimes_A H^p(x, M)$ est isomorphe à $H^p(\rho(x), B \otimes_A M)$ (lemme 1), donc est nul ; de plus $B_n$ est fidèlement plat sur $A_m$ (I, § 3, n° 5, prop. 9 et II, § 3, n° 4, prop. 14 et remarque). On a donc $A_m \otimes_A H^p(x, M) = 0$ et par suite $p < \operatorname{prof}_{A_m}(J_m; M_m)$ (lemme 1 et th. 1). La première assertion de b) résulte alors de la prop. 5 ; la seconde résulte de I, § 3, n° 5, prop. 9).
 
-#### Corollaire {#ac-x-s1-n3-cor-1 .statement}
+#### Corollaire {#ac-x-s1-n3-cor-2 .statement}
 
 Soient $A$ un anneau noethérien, $J$ un idéal de $A$, $M$ un $A$-module de type fini, $\widehat{A}$ et $\widehat{M}$ les séparés complétés de $A$ et $M$ pour la topologie $J$-adique. On a alors $\operatorname{prof}_A(J; M) = \operatorname{prof}_{\widehat{A}}(J\widehat{A}; \widehat{M})$.
 
@@ -310,7 +312,9 @@ c) Pour que $\operatorname{prof}_A(J; M)$ soit finie, il faut et il suffit que l
 
 Soit $(x_1, \ldots, x_r)$ une suite $M$-régulière d’éléments de $J$. On a $r \leqslant \operatorname{prof}_A(J; M)$ (prop. 7) ; supposons que l’inégalité soit stricte. Notons $N$ le $A$-module $M/(x_1M + \ldots + x_rM)$. On a $\operatorname{prof}_A(J; N) > 0$ (*loc. cit.*), de sorte qu’il existe un élément $x$ de $J$ tel que l’homothétie $x_N$ soit injective (n° 1, remarque 2), c’est-à-dire que la suite $(x_1, \ldots, x_r, x)$ soit $M$-régulière. Il en résulte par récurrence que pour tout entier $s$ tel que $r \leqslant s \leqslant \operatorname{prof}_A(J; M)$ la suite $(x_1, \ldots, x_r)$ peut être complétée en une suite $M$-régulière de longueur $s$, ce qui entraîne les assertions a) et b). L’assertion c) résulte de la remarque 1 du n° 1 et du cor. 1 du th. 1 du n° 3.
 
-COROLLAIRE 1. Pour toute suite $M$-régulière $(x_1, \ldots, x_r)$ d’éléments de $J$, les propriétés suivantes sont équivalentes :
+#### Corollaire 1 {#ac-x-s1-thm-2-cor-1 .statement}
+
+Pour toute suite $M$-régulière $(x_1, \ldots, x_r)$ d’éléments de $J$, les propriétés suivantes sont équivalentes :
 
 (i) on a $r = \operatorname{prof}_A(J; M)$ ;
 (ii) la suite $(x_1, \ldots, x_r)$ est maximale parmi les suites $M$-régulières formées d’éléments de $J$ ;
@@ -343,7 +347,9 @@ $$
 \mathrm{prof}_F(M) < +\infty \iff \mathrm{Supp}(M) \cap F \neq \varnothing .
 $$
 
-**Proposition 8.** *Soient A un anneau noethérien, F une partie fermée de $\mathrm{Spec}(A)$, et M un A-module de type fini. On a*
+#### Proposition 8 {#ac-x-s1-prop-8 .statement}
+
+*Soient A un anneau noethérien, F une partie fermée de $\mathrm{Spec}(A)$, et M un A-module de type fini. On a*
 
 $$
 \mathrm{prof}_F(M) = \inf_{p \in F} \mathrm{prof}_{A_p}(M_p) = \inf_{p \in \mathrm{Supp}(M) \cap F} \mathrm{prof}_{A_p}(M_p) .
@@ -360,7 +366,9 @@ $$
 
 On conclut alors par récurrence sur l’entier $\mathrm{prof}_F(M)$.
 
-*Remarque 3.* Si q est un point de $\mathrm{Supp}(M)$, on a donc $\mathrm{prof}_A(q;M) = \inf_{p \supseteq q} \mathrm{prof}_{A_p}(M_p)$. On a en particulier l’inégalité $\mathrm{prof}_A(q;M) \leqslant \mathrm{prof}_{A_q}(M_q)$ ; il y a égalité lorsque q est maximal. Dans le cas général, on peut avoir $\mathrm{prof}_A(q;M) < \mathrm{prof}_{A_q}(M_q)$ ; on peut également avoir $\mathrm{prof}_A(q;M) < \inf \mathrm{prof}_{A_m}(M_m)$ où m parcourt l’ensemble des idéaux maximaux de A contenant q. Soit par exemple p un idéal premier non maximal de A, contenant q et distinct de q ; posons $M = A/p$. On a $\mathrm{prof}_A(q;M) = 0$, $\mathrm{prof}_{A_q}(M_q) = +\infty$ et $\mathrm{prof}_{A_m}(M_m) > 0$ pour tout idéal maximal m de A.
+#### Remarque 3 {#ac-x-s1-n5-rem-3 .statement}
+
+Si q est un point de $\mathrm{Supp}(M)$, on a donc $\mathrm{prof}_A(q;M) = \inf_{p \supseteq q} \mathrm{prof}_{A_p}(M_p)$. On a en particulier l’inégalité $\mathrm{prof}_A(q;M) \leqslant \mathrm{prof}_{A_q}(M_q)$ ; il y a égalité lorsque q est maximal. Dans le cas général, on peut avoir $\mathrm{prof}_A(q;M) < \mathrm{prof}_{A_q}(M_q)$ ; on peut également avoir $\mathrm{prof}_A(q;M) < \inf \mathrm{prof}_{A_m}(M_m)$ où m parcourt l’ensemble des idéaux maximaux de A contenant q. Soit par exemple p un idéal premier non maximal de A, contenant q et distinct de q ; posons $M = A/p$. On a $\mathrm{prof}_A(q;M) = 0$, $\mathrm{prof}_{A_q}(M_q) = +\infty$ et $\mathrm{prof}_{A_m}(M_m) > 0$ pour tout idéal maximal m de A.
 
 #### Proposition 9 {#ac-x-s1-prop-9 .statement}
 
@@ -416,7 +424,9 @@ où $p$ et $i$ sont les homomorphismes canoniques. On en déduit que l’homomor
 
 Puisque $N$ et $N/yN$ sont plats sur $A$, il en est de même de $\mathrm{Im}(y_N)$ (suite exacte (2)). On déduit alors de la suite exacte (1) que $\kappa_A \otimes_A \mathrm{Ker}(y_N)$ est isomorphe au noyau de $1 \otimes p$, donc est nul ; ainsi l’homothétie $y_N$ est injective par le lemme de Nakayama.
 
-**Proposition 10.** *Soient $\rho : \Lambda \to B$ un homomorphisme local d’anneaux locaux noethériens, $N$ un B-module de type fini et $y = (y_1, \ldots, y_s)$ une suite d’éléments de $m_B$. Notons $\mathfrak{y}$ l’idéal de $B$ engendré par cette suite. Les conditions suivantes sont équivalentes :
+#### Proposition 10 {#ac-x-s1-prop-10 .statement}
+
+*Soient $\rho : \Lambda \to B$ un homomorphisme local d’anneaux locaux noethériens, $N$ un B-module de type fini et $y = (y_1, \ldots, y_s)$ une suite d’éléments de $m_B$. Notons $\mathfrak{y}$ l’idéal de $B$ engendré par cette suite. Les conditions suivantes sont équivalentes :
 
 (i) le A-module $N/\mathfrak{y}N$ est plat et la suite $y$ est N-régulière ;
 (ii) le A-module $N$ est plat et la suite $y$ est $(\kappa_A \otimes_A N)$-régulière.*
@@ -431,7 +441,9 @@ Cette condition équivaut à (ii) d’après l’hypothèse de récurrence.
 
 La dernière assertion résulte de même par récurrence sur $s$ de la dernière assertion du lemme 2.
 
-**Proposition 11.** *Soient $\rho : \Lambda \to B$ un homomorphisme local d’anneaux locaux noethériens, $M$ un A-module de type fini et $N$ un B-module de type fini ; on suppose que le A-module $N$ est plat.*
+#### Proposition 11 {#ac-x-s1-prop-11 .statement}
+
+*Soient $\rho : \Lambda \to B$ un homomorphisme local d’anneaux locaux noethériens, $M$ un A-module de type fini et $N$ un B-module de type fini ; on suppose que le A-module $N$ est plat.*
 
 a) Soient $(x_1, \ldots, x_r)$ une suite d’éléments de $m_A$ régulière pour le A-module $M$, et $(y_1, \ldots, y_s)$ une suite d’éléments de $m_B$ régulière pour le B-module $\kappa_A \otimes_A N$; alors la suite $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ d’éléments de $m_B$ est régulière pour le B-module $M \otimes_A N$.
 
@@ -522,7 +534,7 @@ Plus précisément, pour toute chaîne saturée d’idéaux premiers p ⊂ p_1 �
 
 Posons p = \text{prof}_{A_p}(M_p), et prouvons la seconde inégalité. Elle est évidente si p = +∞ ; dans le cas contraire on a \text{Ext}^p_{A_p}(κ(p), M_p) ≠ 0, d’où
 
-Ext_{A_q}^{p+r}(\kappa(q), M_q) \neq 0$ d'après le lemme 3, ce qui entraîne $prof_{A_q}(M_q) \leq p + r$. Comme $\dim(A_q/pA_q)$ est la borne supérieure des longueurs des chaînes saturées d'idéaux premiers d'extrémités $p$ et $q$, la première assertion est une conséquence de la seconde.
+$Ext_{A_q}^{p+r}(\kappa(q), M_q) \neq 0$ d'après le lemme 3, ce qui entraîne $prof_{A_q}(M_q) \leq p + r$. Comme $\dim(A_q/pA_q)$ est la borne supérieure des longueurs des chaînes saturées d'idéaux premiers d'extrémités $p$ et $q$, la première assertion est une conséquence de la seconde.
 
 #### Corollaire 1 {#ac-x-s1-prop-13-cor-1 .statement}
 
@@ -644,7 +656,9 @@ Soit $Z \subset \operatorname{Spec}(A)$ une partie fermée de codimension $> d$.
 
 Prouvons b). Désignons par $Z$ la réunion des ensembles $X' \cap X''$ où $(X', X'')$ parcourt l’ensemble (fini) des couples de composantes irréductibles de $\operatorname{Spec}(A)$ tels que $\operatorname{codim}(X' \cap X'', \operatorname{Spec}(A)) > d$. D’après a), l’ensemble $\operatorname{Spec}(A) - Z$ est connexe. Toutes les composantes irréductibles de $\operatorname{Spec}(A)$ rencontrent $\operatorname{Spec}(A) - Z$; leurs traces sur $\operatorname{Spec}(A) - Z$ sont les composantes irréductibles de $\operatorname{Spec}(A) - Z$ (II, § 4, n° 1, prop. 7). Puisque $\operatorname{Spec}(A) - Z$ est connexe, il existe une suite $X_1, \ldots, X_n$ de composantes irréductibles de $\operatorname{Spec}(A)$ telles que l’on ait $X_1 - Z = Y - Z$, $X_n - Z = Y' - Z$ et $(X_i - Z) \cap (X_{i+1} - Z) \neq \varnothing$ pour $1 \leq i \leq n-1$; autrement dit on a $X_1 = Y$, $X_n = Z$ et $\operatorname{codim}(X_i \cap X_{i+1}) \leq d$.
 
-Remarque 2. *Lorsque A est un anneau de Macaulay, on peut appliquer le corollaire avec $d = 1$ (§ 2, n° 5).*
+#### Remarque 2 {#ac-x-s1-n9-rem-2 .statement}
+
+*Lorsque A est un anneau de Macaulay, on peut appliquer le corollaire avec $d = 1$ (§ 2, n° 5).*
 
 #### Exemple (Intersection complète formée par quatre plans de coordonnées d’un espace affine de dimension 4) {#ac-x-s1-n9-exa-1 .statement}
 

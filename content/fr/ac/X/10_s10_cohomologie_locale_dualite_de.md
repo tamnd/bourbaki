@@ -22,9 +22,9 @@ subsections:
       title: Dualité de Grothendieck sur un anneau de Macaulay
       page: 147
       pdf_page: 146
-statements: 17
+statements: 20
 exercises: 11
-content_sha256: 40a61da1749c5ffe94bfadf1c1ff5de518d53eebe5bdbda1e7990108ff3db0d5
+content_sha256: e8bae18987bec37ceb60f14d75f74c46d0c21bd1844866f4cb791e7a520a550f
 ---
 
 ## § 10. COHOMOLOGIE LOCALE, DUALITÉ DE GROTHENDIECK
@@ -97,7 +97,9 @@ $$
 H_A^0(M) \to T(M) , \qquad H_A^1(M) \to (K/A) \otimes_A M .
 $$
 
-PROPOSITION 1. Soient $A$ un anneau local noethérien et $M$ un $A$-module de type fini.
+#### Proposition 1 {#ac-x-s10-prop-1 .statement}
+
+Soient $A$ un anneau local noethérien et $M$ un $A$-module de type fini.
 
 a) Le $A$-module $H_A(M)$ est artinien, et nul en degré $> \dim(M)$.
 
@@ -129,7 +131,9 @@ On a $\operatorname{prof}(M/xM) = \operatorname{prof}(M) - 1$ (§ 1, n° 4, prop
 
 On peut montrer que le module $H_A^{\dim(M)}(M)$ est non nul lorsque $M$ est non nul (exerc. 4 ; cf. n° 3, cor. du th. 2).
 
-COROLLAIRE. **Soit $M$ un $A$-module macaulayen, non nul et de type fini. Le $A$-module $H_A^i(M)$ est nul pour $i \neq \dim(M)$ et non nul pour $i = \dim(M)$.**
+#### Corollaire {#ac-x-s10-n1-cor-1 .statement}
+
+**Soit $M$ un $A$-module macaulayen, non nul et de type fini. Le $A$-module $H_A^i(M)$ est nul pour $i \neq \dim(M)$ et non nul pour $i = \dim(M)$.**
 
 #### Remarque 2 {#ac-x-s10-n1-rem-2 .statement}
 
@@ -297,7 +301,9 @@ $$
 \delta^i(M) : \mathrm{Ext}_A^{d-i}(M, \widehat{\Omega}) \longrightarrow D(H^i_A(M)) .
 $$
 
-THÉORÈME 1 (Dualité de Grothendieck). Soit $A$ un anneau de Macaulay local, de dimension $d$, et soit $\Omega$ un $A$-module dualisant.
+#### Théorème 1 (Dualité de Grothendieck) {#ac-x-s10-thm-1 .statement}
+
+Soit $A$ un anneau de Macaulay local, de dimension $d$, et soit $\Omega$ un $A$-module dualisant.
 
 a) Le $A$-module $H_A^d(\Omega)$ est un module de Matlis ; pour tout $A$-module $P$, notons $D(P)$ le dual de Matlis $\mathrm{Hom}_A(P, H_A^d(\Omega))$.
 

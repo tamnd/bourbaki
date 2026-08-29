@@ -34,9 +34,9 @@ subsections:
       title: 'Exemple : le cas de la dimension 1'
       page: 0
       pdf_page: 136
-statements: 21
+statements: 31
 exercises: 12
-content_sha256: c1b6427cdd99a4208a73daf080c250c6621ff1606750753e2f947d45a4247728
+content_sha256: e91759ba70639eaebfa25698b669acf6e3da97d31ed7579081129197fa443e8f
 ---
 
 ## § 9. MODULES DUALISANTS
@@ -99,7 +99,9 @@ $$
 
 On a $\mathrm{long}_A(\mathrm{Ext}^i_A(A/(p + xA), \Omega)) = \mathrm{long}_A(A/(p + xA))$ (*loc. cit.*); la proposition résulte alors du lemme suivant, appliqué à l’anneau $B = A/p$ et au B-module $M = \mathrm{Ext}^{d-1}_A(A/p, \Omega)$ :
 
-**Lemme 1.** *Soient B un anneau noethérien local, intègre, de dimension 1, et M un B-module sans torsion de type fini. On suppose qu’on a $\mathrm{long}_B(M/xM) = \mathrm{long}_B(B/xB)$ pour tout élément non nul x de B. Alors le B-module M est de rang 1.*
+#### Lemme 1 {#ac-x-s9-lem-1 .statement}
+
+*Soient B un anneau noethérien local, intègre, de dimension 1, et M un B-module sans torsion de type fini. On suppose qu’on a $\mathrm{long}_B(M/xM) = \mathrm{long}_B(B/xB)$ pour tout élément non nul x de B. Alors le B-module M est de rang 1.*
 
 Soit en effet $r$ le rang de M ; il existe un sous-module L de M libre de rang $r$ tel que $M/L$ soit un module de torsion (VII, § 4, n° 1, cor. de la prop. 1), donc de longueur finie (VII, § 2, n° 5, lemme 1). L’annulateur de $M/L$ n’est pas réduit à 0, et contient donc un élément non nul $x$ de $m_B$. Considérons le diagramme commutatif
 
@@ -119,17 +121,25 @@ $$
 
 d’où $\operatorname{long}(M/xM) = \operatorname{long}(L/xL)$. Comme $\operatorname{long}(M/xM) = \operatorname{long}(B/xB)$ par hypothèse et $\operatorname{long}(L/xL) = r \operatorname{long}(B/xB)$, on en déduit $r = 1$.
 
-**Corollaire 1.** *Pour toute partie multiplicative S de A, le S$^{-1}$A-module S$^{-1}\Omega$ est dualisant.*
+#### Corollaire 1 {#ac-x-s9-lem-1-cor-1 .statement}
 
-**Corollaire 2.—** *Le support de $\Omega$ est égal à Spec(A).*
+*Pour toute partie multiplicative S de A, le S$^{-1}$A-module S$^{-1}\Omega$ est dualisant.*
+
+#### Corollaire 2 {#ac-x-s9-lem-1-cor-2 .statement}
+
+*Le support de $\Omega$ est égal à Spec(A).*
 
 En effet un module dualisant sur un anneau local est non nul par définition.
 
-**Corollaire 3.** *Soit M un A-module de type fini, et soit i un entier. Le A-module $\operatorname{Ext}_A^i(M, \Omega)$ est de type fini, et son support est de codimension $\geqslant i$ dans Spec(A).*
+#### Corollaire 3 {#ac-x-s9-lem-1-cor-3 .statement}
+
+*Soit M un A-module de type fini, et soit i un entier. Le A-module $\operatorname{Ext}_A^i(M, \Omega)$ est de type fini, et son support est de codimension $\geqslant i$ dans Spec(A).*
 
 La première assertion résulte de A, X, p. 108, cor. Soit $\mathfrak{p}$ un idéal premier du support de $\operatorname{Ext}_A^i(M, \Omega)$. On a $\operatorname{Ext}_A^i(M, \Omega)_\mathfrak{p} \neq 0$, donc $\operatorname{Ext}_{A_\mathfrak{p}}^i(M_\mathfrak{p}, \Omega_\mathfrak{p}) \neq 0$ (§ 3, n° 2, prop. 2), ce qui implique $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) \geqslant i$. Comme $\Omega_\mathfrak{p}$ est un $A_\mathfrak{p}$-module dualisant (prop. 2), on a $\operatorname{di}_{A_\mathfrak{p}}(\Omega_\mathfrak{p}) = \dim(A_\mathfrak{p})$ (prop. 1), d’où le corollaire.
 
-**Proposition 3.—** *Soient A un anneau local noethérien, $\Omega$ un A-module dualisant et M un A-module de type fini.
+#### Proposition 3 {#ac-x-s9-prop-3 .statement}
+
+*Soient A un anneau local noethérien, $\Omega$ un A-module dualisant et M un A-module de type fini.
 
 a) *On a $\operatorname{Ext}_A^i(M, \Omega) = 0$ pour $i < \dim(A) - \dim_A(M)$.*
 
@@ -201,7 +211,9 @@ $$
 
 (VIII, § 3, n° 1, cor. 2, a)). Or les idéaux maximaux de \overline{A} sont les idéaux \overline{m}, où m est un idéal maximal de A contenant x ; si de plus x appartient au radical de A, tout idéal maximal de A contient x. La proposition en résulte.
 
-COROLLAIRE 1. **Soit A un anneau noethérien intègre. Tout A-module dualisant est sans torsion et de rang 1.**
+#### Corollaire 1 {#ac-x-s9-prop-4-cor-1 .statement}
+
+**Soit A un anneau noethérien intègre. Tout A-module dualisant est sans torsion et de rang 1.**
 
 Soit \Omega un A-module dualisant ; il est sans torsion d’après la prop. 4. Soit K le corps des fractions de A ; le K-espace vectoriel K \otimes_A \Omega est dualisant (n° 1, prop. 2), donc de dimension 1.
 
@@ -293,7 +305,9 @@ Par l’hypothèse de récurrence, le $B/xB$-module $\mathrm{Ext}_A^{c+1}(B/xB, 
 
 Notons $\Omega'$ le B-module $\mathrm{Ext}_A(B, \Omega)$. Soit $n$ un idéal maximal de B ; son image réciproque dans A est un idéal maximal $m$ (V, $§ 2$, n° 1, prop. 1). La $A_m$-algèbre $B_m = A_m \otimes_A B$ est finie, et c’est un $A_m$-module macaulayen ; d’après la proposition, le $B_m$-module $\Omega'_m$, qui s’identifie à $\mathrm{Ext}_{A_m}(B_m, \Omega_m)$ ($§ 3$, n° 2, prop. 2) est dualisant. Comme $B_n$ est un anneau de fractions de $B_m$, le $B_n$-module $\Omega'_n$ est dualisant, d’où le corollaire.
 
-*Remarque.* Gardons les hypothèses du cor. 1 et supposons en outre que l’homomorphisme canonique $\rho : A \to B$ soit injectif. On a alors $\dim(A_m) = \dim(B_m)$ pour tout idéal maximal $m$ de A (VIII, $§ 2$, n° 3, th. 1 a)). D’après la prop. 6 et le cor. 1, $\mathrm{Ext}_A^i(B, \Omega)$ est nul pour $i \neq 0$, et le B-module $\mathrm{Hom}_A(B, \Omega)$ est dualisant.
+#### Remarque {#ac-x-s9-n3-rem-1 .statement}
+
+Gardons les hypothèses du cor. 1 et supposons en outre que l’homomorphisme canonique $\rho : A \to B$ soit injectif. On a alors $\dim(A_m) = \dim(B_m)$ pour tout idéal maximal $m$ de A (VIII, $§ 2$, n° 3, th. 1 a)). D’après la prop. 6 et le cor. 1, $\mathrm{Ext}_A^i(B, \Omega)$ est nul pour $i \neq 0$, et le B-module $\mathrm{Hom}_A(B, \Omega)$ est dualisant.
 
 #### Corollaire 2 {#ac-x-s9-prop-6-cor-2 .statement}
 
@@ -419,7 +433,9 @@ $$
 \alpha_M : M \to H_0(D(D(M))).
 $$
 
-Théorème 1. **Soit $M$ un $A$-module de type fini. Alors $\alpha_M$ est un homologisme : on a $H_i(D(D(M))) = 0$ pour $i \neq 0$ et l’homomorphisme $\alpha_M$ est bijectif.**
+#### Théorème 1 {#ac-x-s9-thm-1 .statement}
+
+**Soit $M$ un $A$-module de type fini. Alors $\alpha_M$ est un homologisme : on a $H_i(D(D(M))) = 0$ pour $i \neq 0$ et l’homomorphisme $\alpha_M$ est bijectif.**
 
 Prenons d’abord $M = A$. L’application $e : \Omega \to D(A)$ est un homologisme (exemple 1), donc aussi l’application $D(e) : D(D(A)) \to D(\Omega)$. L’application $\tilde{e} : A \to D(\Omega)$ est un homologisme (exemple 2), et on a $D(e) \circ \alpha_A = \tilde{e}$; ainsi $\alpha_A$ est un homologisme, ce qui prouve le théorème dans ce cas. Il en résulte que $\alpha_M$ est un homologisme lorsque le $A$-module $M$ est libre de type fini.
 
@@ -499,7 +515,9 @@ Dans ce numéro, on considère un anneau $A$ intègre, noethérien, de dimension
 
 L’homomorphisme canonique $\Omega \to V$ est injectif, et le K-espace vectoriel V est de dimension 1 (n° 2, cor. 1 de la prop. 4) ; identifions $\Omega$ à un sous-A-module de V.
 
-**Proposition 8.** *Le A-module $V/\Omega$ est un module de Matlis.*
+#### Proposition 8 {#ac-x-s9-prop-8 .statement}
+
+*Le A-module $V/\Omega$ est un module de Matlis.*
 
 Considérons la suite exacte
 
@@ -591,7 +609,9 @@ Puisque $\Omega_B$ est un B-module, la relation $x \Omega \subset \Omega_B$ équ
 
 Nous allons particulariser ce qui précède au cas où B est la clôture intégrale de A ; l’hypothèse que B soit un A-module de type fini est satisfaite lorsque l’anneau A est japonais (IX, § 4, n° 1, déf. 1), ce qui est le cas lorsqu’il est local et complet (*loc. cit.*, n° 2, th. 2), ou lorsqu’il est essentiellement de type fini sur un corps (*loc. cit.*, n° 1, remarque 2 et exemple). L’anneau B est alors un anneau de Dedekind (VII, § 2, n° 2, th. 1), et les B-modules sans torsion $\Omega_B$, $B\Omega$ et $c$ sont projectifs de rang 1 (VII, § 4, n° 10, prop. 22). La relation $c = \Omega_B : B\Omega$ signifie alors que l’application linéaire $c \otimes_B B\Omega \to \Omega_B$ déduite de l’action de K sur V est un isomorphisme (II, § 5, n° 6, prop. 11). On a en particulier $\Omega_B = c(B\Omega) = c\Omega$.
 
-**Proposition 9.** *Soient B la clôture intégrale de A, et $c = A : B$. Supposons que B soit un A-module de type fini. On a l’inégalité $[B/c] \leq 2[B/A]$ dans $Z_0(A)$. Pour qu’il y ait égalité, il faut et il suffit que A soit un anneau de Gorenstein.*
+#### Proposition 9 {#ac-x-s9-prop-9 .statement}
+
+*Soient B la clôture intégrale de A, et $c = A : B$. Supposons que B soit un A-module de type fini. On a l’inégalité $[B/c] \leq 2[B/A]$ dans $Z_0(A)$. Pour qu’il y ait égalité, il faut et il suffit que A soit un anneau de Gorenstein.*
 
 On a $[B/c] = [B/A] + [A/c]$, de sorte que l’inégalité considérée équivaut à $[A/c] \leq [B/A]$.
 

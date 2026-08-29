@@ -24,7 +24,7 @@ subsections:
       pdf_page: 161
 statements: 14
 exercises: 2
-content_sha256: 664d157e2de4109dc7ebe027689b955e34b0073472e75731add3aef91d62bf9f
+content_sha256: 21d8edd7def4b194356f8ff434d28d0c855d313af5be8e5c3fd2d649da69d566
 ---
 
 ## § 10. Prolongements d’une valuation à une extension transcendante.
@@ -195,7 +195,7 @@ a) On a un élément $x$ de l’anneau de $\nu'$ tel que $\overline{x}$ soit tra
 
 b) On a un élément $y$ de $K'$ tel que les relations $n\nu'(y) \in \Gamma$ et $n \in \mathbf{Z}$ entraînent $n=0$; il s’agit de montrer que $y$ est transcendant sur $K$, et que la restriction de $\nu'$ à $K(y)$ admet $k$ pour corps résiduel, et $\Gamma + \mathbf{Z}\nu'(y)$ pour groupe des ordres.
 
-Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de a) (resp. $b$)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
+Or la prop. 1 du § 8, no 1 montre que $x$ (resp. $y$) ne peut être algébrique sur $K$. Les autres assertions de a) (resp. b)) s’en déduisent aussitôt en vertu de la prop. 2 (resp. prop. 1) du no 1.
 
 #### Corollaire 1 {#ac-vi-s10-thm-1-cor-1 .statement}
 

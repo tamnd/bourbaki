@@ -42,9 +42,9 @@ subsections:
       title: Anneaux de Gorenstein et algèbres plates
       page: 51
       pdf_page: 50
-statements: 26
+statements: 43
 exercises: 16
-content_sha256: 368543644bd264c2543c7fe61456948403e44a81447152dff4e406a7c7ea5786
+content_sha256: 76a992a6b4695562d7aecdc99dc4689ab5009b5d08e71322bf56d9a25d35af94
 ---
 
 ## § 3. PROFONDEUR ET DIMENSION HOMOLOGIQUE
@@ -168,7 +168,9 @@ de M est une résolution projective minimale si chacun des modules L_i est libre
 
 (A, X, p. 103, exemple 3). Tout A-module de type fini admet une telle résolution (A, X, p. 56, prop. 10).
 
-**Proposition 4.** *Soient A un anneau local noethérien, M un A-module de type fini et n un entier $\geq 0$. Les conditions suivantes sont équivalentes* :
+#### Proposition 4 {#ac-x-s3-prop-4 .statement}
+
+*Soient A un anneau local noethérien, M un A-module de type fini et n un entier $\geq 0$. Les conditions suivantes sont équivalentes* :
 
 (i) *on a* $\operatorname{dp}_A(M) < n$ ;
 (ii) *on a* $\operatorname{Tor}_n^A(M, \kappa_A) = 0$ ;
@@ -177,7 +179,9 @@ de M est une résolution projective minimale si chacun des modules L_i est libre
 
 Les assertions (i) $\Rightarrow$ (ii) et (i) $\Rightarrow$ (iii) sont immédiates (A, X, p. 100, th. 1). Soit L une résolution projective minimale de M ; si (ii) ou (iii) est vérifié, on a $L_n = 0$ d’après (1). Comme toute résolution projective minimale de M est isomorphe à L (A, X, p. 54, prop. 8), on en déduit (iv). L’implication (iv) $\Rightarrow$ (i) est triviale.
 
-**Corollaire 1.—** *Soient A un anneau local noethérien et n un entier $\geq 0$. Les conditions suivantes sont équivalentes* :
+#### Corollaire 1 {#ac-x-s3-prop-4-cor-1 .statement}
+
+*Soient A un anneau local noethérien et n un entier $\geq 0$. Les conditions suivantes sont équivalentes* :
 
 (i) *on a* $\operatorname{dh}(A) < n$ ;
 (ii) *on a* $\operatorname{Ext}_A^i(M, N) = 0$ *et* $\operatorname{Tor}_i^A(M, N) = 0$ *pour tout couple* $(M, N)$ *de A-modules et tout entier* $i \geq n$ ;
@@ -187,11 +191,17 @@ Les assertions (i) $\Rightarrow$ (ii) et (i) $\Rightarrow$ (iii) sont immédiate
 
 Il est clair que (i) implique (ii) et que (ii) implique (iii) et (iv). D’après la prop. 4 appliquée au A-module $\kappa_A$, chacune des conditions (iii) et (iv) implique (v). Prouvons que (v) implique (i) : si $\operatorname{dp}_A(\kappa_A) < n$, on a $\operatorname{Tor}_n^A(M, \kappa_A) = 0$ pour tout A-module M ; par suite tout A-module de type fini est de dimension projective $< n$ (prop. 4), ce qui entraîne $\operatorname{dh}(A) < n$ (A, X, p. 138, prop. 4).
 
-**Corollaire 2.—** *On a* $\operatorname{dh}(A) = \operatorname{dp}_A(\kappa_A)$.
+#### Corollaire 2 {#ac-x-s3-prop-4-cor-2 .statement}
 
-*Remarques.* 1) Soit A un anneau local. Le A-module $\operatorname{Tor}_1^A(\kappa_A, \kappa_A)$ est isomorphe à $\mathfrak{m}_A / \mathfrak{m}_A^2$ (A, X, p. 72, exemple). Par suite lorsque A est noethérien, pour que $\operatorname{Tor}_1^A(\kappa_A, \kappa_A)$ soit nul, il faut et il suffit que $\mathfrak{m}_A$ soit nul, c’est-à-dire que A soit un corps. Le cor. 1 entraîne donc qu’un anneau local noethérien de dimension homologique 0 est un corps.
+*On a* $\operatorname{dh}(A) = \operatorname{dp}_A(\kappa_A)$.
 
-2) Soient A un anneau local noethérien, M un A-module de type fini et de dimension projective finie $n$, N un A-module non nul de type fini. *Le A-module* $\operatorname{Ext}_A^n(M, N)$ *n’est pas nul* : soient en effet L une résolution projective minimale de M, et d sa différentielle. On a une suite exacte
+#### Remarque 1 {#ac-x-s3-n3-rem-1 .statement}
+
+Soit A un anneau local. Le A-module $\operatorname{Tor}_1^A(\kappa_A, \kappa_A)$ est isomorphe à $\mathfrak{m}_A / \mathfrak{m}_A^2$ (A, X, p. 72, exemple). Par suite lorsque A est noethérien, pour que $\operatorname{Tor}_1^A(\kappa_A, \kappa_A)$ soit nul, il faut et il suffit que $\mathfrak{m}_A$ soit nul, c’est-à-dire que A soit un corps. Le cor. 1 entraîne donc qu’un anneau local noethérien de dimension homologique 0 est un corps.
+
+#### Remarque 2 {#ac-x-s3-n3-rem-2 .statement}
+
+Soient A un anneau local noethérien, M un A-module de type fini et de dimension projective finie $n$, N un A-module non nul de type fini. *Le A-module* $\operatorname{Ext}_A^n(M, N)$ *n’est pas nul* : soient en effet L une résolution projective minimale de M, et d sa différentielle. On a une suite exacte
 
 $$
 \operatorname{Hom}_A(L_{n-1}, N) \xrightarrow{\operatorname{Hom}(d_n, 1)} \operatorname{Hom}_A(L_n, N) \longrightarrow \operatorname{Ext}_A^n(M, N) \to 0 .
@@ -205,7 +215,9 @@ $$
 
 qui est non nul par la prop. 4 et le lemme de Nakayama. Par conséquent, la dimension projective de M est le plus grand entier $i$ tel que $\mathrm{Ext}_A^i(M, N)$ soit non nul.
 
-3) Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et de dimension projective finie, $N$ un $A$-module de type fini dont le support est égal à $\mathrm{Spec}(A)$. D’après la remarque précédente et les prop. 2 et 3 du n° 2, la dimension projective $n$ de $M$ est le plus grand entier $i$ tel que $\mathrm{Ext}_A^i(M, N)$ soit non nul ; le support du $A$-module $\mathrm{Ext}_A^n(M, N)$ est l’ensemble des éléments $p$ de $\mathrm{Spec}(A)$ tels que $\mathrm{dp}_{A_p}(M_p) = n$.
+#### Remarque 3 {#ac-x-s3-n3-rem-3 .statement}
+
+Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et de dimension projective finie, $N$ un $A$-module de type fini dont le support est égal à $\mathrm{Spec}(A)$. D’après la remarque précédente et les prop. 2 et 3 du n° 2, la dimension projective $n$ de $M$ est le plus grand entier $i$ tel que $\mathrm{Ext}_A^i(M, N)$ soit non nul ; le support du $A$-module $\mathrm{Ext}_A^n(M, N)$ est l’ensemble des éléments $p$ de $\mathrm{Spec}(A)$ tels que $\mathrm{dp}_{A_p}(M_p) = n$.
 
 Il peut exister des $A$-modules $M$ de type fini, de dimension projective $+\infty$, satisfaisant à $\mathrm{Ext}_A^i(M, A) = 0$ pour $i$ assez grand : *c’est le cas par exemple du $A$-module $\kappa_A$ lorsque $A$ est un anneau local de Gorenstein qui n’est pas régulier*.
 
@@ -233,7 +245,9 @@ Soient $A$ un anneau noethérien et $n$ un entier $\geqslant 0$. Si $m$ et $m'$ 
 
 On a en particulier $\mathrm{dh}(A) = \sup_m \mathrm{dp}_A(A/m)$, où $m$ parcourt l’ensemble des idéaux maximaux de $A$.
 
-PROPOSITION 6. Soient $A$ un anneau noethérien, $N$ un $A$-module, $n$ un entier $\geqslant 0$. Les conditions suivantes sont équivalentes :
+#### Proposition 6 {#ac-x-s3-prop-6 .statement}
+
+Soient $A$ un anneau noethérien, $N$ un $A$-module, $n$ un entier $\geqslant 0$. Les conditions suivantes sont équivalentes :
 
 (i) on a $\operatorname{di}_A(N) < n$ ;
 (ii) pour tout idéal premier $p$ de $\Lambda$, on a $\operatorname{Ext}_A^n(\Lambda/p, N) = 0$ ;
@@ -371,7 +385,9 @@ $$
 
 (6)
 
-**Proposition 7.-** *Soient $A$ un anneau, $x$ un élément simplifiable de $A$, $M$ un $A$-module tel que l’homothétie $x_M$ soit injective, $N$ un $A$-module annulé par $x$, $n$ un entier. Les homomorphismes canoniques de $(A/xA)$-modules*
+#### Proposition 7 {#ac-x-s3-prop-7 .statement}
+
+*Soient $A$ un anneau, $x$ un élément simplifiable de $A$, $M$ un $A$-module tel que l’homothétie $x_M$ soit injective, $N$ un $A$-module annulé par $x$, $n$ un entier. Les homomorphismes canoniques de $(A/xA)$-modules*
 
 $$
 \mathrm{Ext}^n_{A/xA}(M/xM, N) \longrightarrow \mathrm{Ext}^n_A(M, N),
@@ -421,7 +437,9 @@ $$
 
 où $L$ est un $A$-module libre de type fini. On a alors $\mathrm{prof}_A(L) = \mathrm{prof}(A)$ (§ 1, n° 1, remarque 4), $\mathrm{dp}_A(N) = \mathrm{dp}_A(M) - 1$ (A, X, p. 135, cor. 2 c)), d’où $\mathrm{prof}_A(N) = \mathrm{prof}(A) - \mathrm{dp}_A(N)$ (hypothèse de récurrence), et en particulier $\mathrm{prof}_A(N) < \mathrm{prof}_A(L)$. D’après la prop. 1 du § 1, n° 1, on a alors $\mathrm{prof}_A(M) = \mathrm{prof}_A(N) - 1$, ce qui achève la démonstration.
 
-Remarque. Compte tenu du cor. 2 de la prop. 4 (n° 3), le th. 1 appliqué au $A$-module $\kappa_A$ entraîne que l’on est dans l’un ou l’autre des cas suivants :
+#### Remarque {#ac-x-s3-n5-rem-1 .statement}
+
+Compte tenu du cor. 2 de la prop. 4 (n° 3), le th. 1 appliqué au $A$-module $\kappa_A$ entraîne que l’on est dans l’un ou l’autre des cas suivants :
 
 (i) on a $\mathrm{dp}_A(\kappa_A) = \mathrm{dh}(A) = +\infty$ ;
 (ii) on a $\mathrm{dp}_A(\kappa_A) = \mathrm{dh}(A) = \mathrm{prof}(A) < +\infty$.
@@ -444,7 +462,9 @@ COROLLAIRE 2.: Conservons les hypothèses du théorème 1 et supposons de plus q
 
 En particulier, $dp_A(M)$ est alors supérieur à $\dim(A) - \dim_A(M)$, et il y a égalité si et seulement si $M$ est macaulayen.
 
-COROLLAIRE 3. Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et de dimension projective finie, $i$ un entier $\geq 0$, $N$ un $A$-module de type fini et $F$ le support du $A$-module $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^\Lambda(M, N)$). On a alors $\operatorname{prof}_F(\Lambda) \geq i$.
+#### Corollaire 3 {#ac-x-s3-thm-1-cor-3 .statement}
+
+Soient $A$ un anneau noethérien, $M$ un $A$-module de type fini et de dimension projective finie, $i$ un entier $\geq 0$, $N$ un $A$-module de type fini et $F$ le support du $A$-module $\operatorname{Ext}_A^i(M, N)$ (resp. $\operatorname{Tor}_i^\Lambda(M, N)$). On a alors $\operatorname{prof}_F(\Lambda) \geq i$.
 
 En effet, soit $p \in F$. On a $\operatorname{Ext}_A^i(M_p, N_p) \neq 0$ (resp. $\operatorname{Tor}_i^\Lambda(M_p, N_p) \neq 0$) d’après la prop. 2 du n° 2, donc $i \leq dp_{A_p}(M_p) \leq dp_A(M) < +\infty$ (n° 2, prop. 3). Le th. 1 entraîne $\operatorname{prof}(A_p) \geq i$. Par suite ($§ 1$, n° 5, prop. 8)
 
@@ -544,15 +564,25 @@ il en résulte que $A$ est un anneau de Macaulay, et que $\mathrm{di}_A(A) = \di
 
 Ainsi les anneaux noethériens $A$ tels que $\mathrm{di}_A(A)$ soit finie sont les anneaux de Gorenstein de dimension finie (prop. 3 du n° 2), et les anneaux noethériens tels que le $A$-module $A$ soit injectif sont les anneaux de Gorenstein artiniens.
 
-Exemples. 1) Pour toute partie multiplicative $S$ d’un anneau de Gorenstein $A$, l’anneau de fractions $S^{-1}A$ est un anneau de Gorenstein : en effet, soit $q$ un idéal maximal de $S^{-1}A$ ; il est de la forme $S^{-1}p$, où $p$ est un idéal premier de $A$ ne rencontrant pas $S$. Soit $m$ un idéal maximal de $A$ contenant $p$ ; alors l’anneau $B = (S^{-1}A)_q$ est isomorphe à $A_p$ (II, § 2, n° 5, prop. 11), donc à un anneau de fractions de $A_m$, et par suite satisfait à $\mathrm{di}_B(B) < +\infty$ (n° 2, cor. 1 de la prop. 3).
+#### Exemple 1 {#ac-x-s3-n7-exa-1 .statement}
 
-2) Soit $A$ un anneau de Gorenstein et soit $J$ un idéal de $A$, engendré par une suite $A$-régulière $x$. L’anneau quotient $A/J$ est un anneau de Gorenstein : en effet, pour tout idéal maximal $m$ de $A$ contenant $J$, l’image dans $A_m$ de la suite $x$ est $A_m$-régulière et engendre l’idéal $J_m$, de sorte que $A_m/J_m$ est un anneau de Gorenstein d’après le cor. de la prop. 7 (n° 4).
+Pour toute partie multiplicative $S$ d’un anneau de Gorenstein $A$, l’anneau de fractions $S^{-1}A$ est un anneau de Gorenstein : en effet, soit $q$ un idéal maximal de $S^{-1}A$ ; il est de la forme $S^{-1}p$, où $p$ est un idéal premier de $A$ ne rencontrant pas $S$. Soit $m$ un idéal maximal de $A$ contenant $p$ ; alors l’anneau $B = (S^{-1}A)_q$ est isomorphe à $A_p$ (II, § 2, n° 5, prop. 11), donc à un anneau de fractions de $A_m$, et par suite satisfait à $\mathrm{di}_B(B) < +\infty$ (n° 2, cor. 1 de la prop. 3).
 
-3) Soient $A$ un anneau local noethérien, $J$ un idéal de $A$ engendré par une suite $A$-régulière d’éléments de $m_A$. Si $A/J$ est un anneau de Gorenstein, il en est de même de $A$ (n° 4, cor. de la prop. 7).
+#### Exemple 2 {#ac-x-s3-n7-exa-2 .statement}
 
-4) Soit $A$ un anneau local noethérien régulier ; alors $A$ est un anneau de Gorenstein. En effet, soit $x$ un système de coordonnées de $A$ (VIII, § 5, n° 1, déf. 1). La suite $x$ est $A$-régulière (*loc. cit.*, n° 2, th. 1) et engendre l’idéal $m_A$ ; on peut donc appliquer l’exemple 3.
+Soit $A$ un anneau de Gorenstein et soit $J$ un idéal de $A$, engendré par une suite $A$-régulière $x$. L’anneau quotient $A/J$ est un anneau de Gorenstein : en effet, pour tout idéal maximal $m$ de $A$ contenant $J$, l’image dans $A_m$ de la suite $x$ est $A_m$-régulière et engendre l’idéal $J_m$, de sorte que $A_m/J_m$ est un anneau de Gorenstein d’après le cor. de la prop. 7 (n° 4).
 
-5) Tout anneau quotient d’un anneau principal est un anneau de Gorenstein (exemple 2). En particulier, toute algèbre monogène sur un corps est un anneau de Gorenstein.
+#### Exemple 3 {#ac-x-s3-n7-exa-3 .statement}
+
+Soient $A$ un anneau local noethérien, $J$ un idéal de $A$ engendré par une suite $A$-régulière d’éléments de $m_A$. Si $A/J$ est un anneau de Gorenstein, il en est de même de $A$ (n° 4, cor. de la prop. 7).
+
+#### Exemple 4 {#ac-x-s3-n7-exa-4 .statement}
+
+Soit $A$ un anneau local noethérien régulier ; alors $A$ est un anneau de Gorenstein. En effet, soit $x$ un système de coordonnées de $A$ (VIII, § 5, n° 1, déf. 1). La suite $x$ est $A$-régulière (*loc. cit.*, n° 2, th. 1) et engendre l’idéal $m_A$ ; on peut donc appliquer l’exemple 3.
+
+#### Exemple 5 {#ac-x-s3-n7-exa-5 .statement}
+
+Tout anneau quotient d’un anneau principal est un anneau de Gorenstein (exemple 2). En particulier, toute algèbre monogène sur un corps est un anneau de Gorenstein.
 
 #### Lemme 1 {#ac-x-s3-lem-1 .statement}
 
@@ -582,7 +612,9 @@ Raisonnons par récurrence sur $\dim(A)$. Lorsque $\dim(A) = 0$, $m_A$ est l’u
 
 Il nous reste à traiter le cas où $\mathrm{di}_A(A)$ est infinie mais où la dimension injective de $A_p$ est finie pour tout idéal premier $p$ de $A$ distinct de $m_A$. Pour un tel idéal, on a dans ce cas, d’après la prop. 10, $\mathrm{di}_{A_p}(A_p) = \dim(A_p) < \dim(A)$, donc $\mathrm{Ext}_{A_p}^i(\kappa(p), A_p) = 0$ pour $i \geqslant \dim(A)$. Puisque $\mathrm{di}_A(A)$ est infinie, la prop. 6 du n° 3 impose alors $\mathrm{Ext}_A^i(\kappa_A, A) \neq 0$ pour tout entier $i \geqslant \dim(A)$.
 
-Théorème 2 (Bass). Soit $A$ un anneau local noethérien ; posons $d = \dim(A)$. Soient $x = (x_1, \ldots, x_d)$ une suite sécante maximale d’éléments de $m_A$, et $x$ l’idéal qu’elle engendre. Les conditions suivantes sont équivalentes :
+#### Théorème 2 (Bass) {#ac-x-s3-thm-2 .statement}
+
+Soit $A$ un anneau local noethérien ; posons $d = \dim(A)$. Soient $x = (x_1, \ldots, x_d)$ une suite sécante maximale d’éléments de $m_A$, et $x$ l’idéal qu’elle engendre. Les conditions suivantes sont équivalentes :
 
 (i) $\Lambda$ est un anneau de Gorenstein ;
 (ii) on a $\operatorname{di}_\Lambda(A) = d$;
@@ -617,7 +649,9 @@ Cela résulte du th. 2 si $\Lambda$ est un anneau de Gorenstein et du lemme 2 si
 
 ### 8. Anneaux de Gorenstein et algèbres plates
 
-Proposition 12. Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens, faisant de $B$ un $A$-module plat. Les conditions suivantes sont équivalentes :
+#### Proposition 12 {#ac-x-s3-prop-12 .statement}
+
+Soit $\rho : A \to B$ un homomorphisme local d’anneaux locaux noethériens, faisant de $B$ un $A$-module plat. Les conditions suivantes sont équivalentes :
 
 (i) $B$ est un anneau de Gorenstein ;
 (ii) $A$ et $\kappa_A \otimes_A B$ sont des anneaux de Gorenstein.
@@ -636,7 +670,7 @@ et la proposition résulte alors du lemme 1 du n° 7.
 
 Passons au cas général. Si l’on remplace dans l’énoncé le mot « Gorenstein » par le mot « Macaulay », la proposition est un cas particulier de la prop. 10 du § 2, n° 7. On peut donc supposer que les anneaux $A$, $B$ et $C = \kappa_A \otimes_A B$ sont de Macaulay. Le $B$-module $C$ est macaulayen ($§ 2$, n° 1, exemple 4). Posons $r = \dim(A)$, $s = \dim(C)$. Il existe une suite $A$-régulière $(x_1, \ldots, x_r)$ d’éléments de $m_A$ et une suite $(y_1, \ldots, y_s)$ d’éléments de $m_B$ régulière pour le $B$-module $C$ ($§ 2$, n° 3, prop. 3) ; notons $x$ l’idéal de $A$ et $\mathfrak{y}$ l’idéal de $B$ qu’elles engendrent respectivement. La suite $(y_1, \ldots, y_s, \rho(x_1), \ldots, \rho(x_r))$ est $B$-régulière ($§ 1$, n° 6, prop. 11) et le $A$-module $B/\mathfrak{y}$ est plat (*loc. cit.*, prop. 10). L’homomorphisme de $A/x$ dans $B/(xB + \mathfrak{y})$ déduit de $\rho$ par passage aux quotients fait donc de $B/(xB + \mathfrak{y})$ un $(A/x)$-module plat et l’anneau $\kappa_{A/x} \otimes_{A/x} B/(xB + \mathfrak{y})$ est isomorphe à $C/\mathfrak{y}C$. La proposition résulte ainsi de la première partie de la démonstration, compte tenu de l’exemple 3 du n° 7.
 
-#### Corollaire 1 {#ac-x-s3-prop-11-cor-1 .statement}
+#### Corollaire 1 {#ac-x-s3-prop-12-cor-1 .statement}
 
 Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $A$-module plat. Les conditions suivantes sont équivalentes :
 
@@ -655,7 +689,7 @@ Soit $q$ un idéal premier de $B$; posons $p = \rho^{-1}(q)$. L’anneau $B_q$, 
 
 Si $B$ est un $A$-module fidèlement plat, l’application $^a\rho : \mathrm{Spec}(B) \longrightarrow \mathrm{Spec}(\Lambda)$ est surjective (II, § 2, n° 5, cor. 4 de la prop. 11), d’où la dernière assertion.
 
-#### Corollaire 2 {#ac-x-s3-prop-11-cor-2 .statement}
+#### Corollaire 2 {#ac-x-s3-prop-12-cor-2 .statement}
 
 Soient $A$ un anneau noethérien, $J$ un idéal de $A$, $\hat{A}$ le séparé complété de $A$ pour la topologie $J$-adique. Considérons les conditions suivantes :
 
@@ -668,7 +702,7 @@ Les conditions (ii) à (iv) sont équivalentes, et sont entraînées par (i). Lo
 
 On déduit ce corollaire du cor. 1 de la même façon que l’on a déduit de la prop. 9 du § 2, n° 7, son corollaire 4 : il suffit dans la démonstration de remplacer le mot « Macaulay » par le mot « Gorenstein ».
 
-#### Corollaire 3 {#ac-x-s3-prop-11-cor-3 .statement}
+#### Corollaire 3 {#ac-x-s3-prop-12-cor-3 .statement}
 
 Soient $A$ un anneau de Gorenstein et $(T_i)_{i \in I}$ une famille finie d’indéterminées. Les anneaux $A[(T_i)_{i \in I}]$ et $A[[T_i]_{i \in I}]$ sont des anneaux de Gorenstein.
 

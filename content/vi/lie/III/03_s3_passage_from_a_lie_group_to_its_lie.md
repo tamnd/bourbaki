@@ -725,7 +725,7 @@ $$
 (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u), 0).
 $$
 
-Do đó $\phi \* (u \* v)$ là ảnh của phần tử trên qua ánh xạ $m$ từ $\phi(V) \times \phi(V)$ vào $E$. Thành phần bậc 1 của nó trong $TS(E)$ là, theo Bổ đề 1,
+Do đó $\phi * (u * v)$ là ảnh của phần tử trên qua ánh xạ $m$ từ $\phi(V) \times \phi(V)$ vào $E$. Thành phần bậc 1 của nó trong $TS(E)$ là, theo Bổ đề 1,
 
 $$
 x = \langle m_{1,1}, (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u), 0) \rangle.
@@ -744,7 +744,7 @@ x = \langle n, (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u)
 = m_{1,1}(\psi(u), \psi(v)) + m_{1,1}(0, 0) = m_{1,1}(\psi(u), \psi(v)).
 $$
 
-Tương tự, $\phi \* (v \* u)$ nhận $m_{1,1}(\phi(v), \phi(u))$ làm thành phần bậc 1 trong $TS(E)$. Vì $\phi([u, v])$ có bậc 1, điều này chứng minh (iii).
+Tương tự, $\phi * (v * u)$ nhận $m_{1,1}(\phi(v), \phi(u))$ làm thành phần bậc 1 trong $TS(E)$. Vì $\phi([u, v])$ có bậc 1, điều này chứng minh (iii).
 
 #### Hệ quả {#lie-iii-s3-n7-cor-1 .statement}
 
@@ -766,7 +766,7 @@ Khi K có đặc số 0, từ nay ta sẽ đồng nhất $U(G)$ với đại s�
 
 *Giả sử K có đặc số $p > 0$. Với mọi $a \in L(G)$, $a^p \in L(G)$ và $\operatorname{ad}(a^p) = (\operatorname{ad} a)^p$ (lũy thừa $a^p$ được tính trong $U(G)$).*
 
-Nếu $a \in L(G)$, $a$ là nguyên thủy trong $U(G)$, do đó $a^p$ là nguyên thủy trong $U(G)$ (Chương II, § 1, no. 2, *Nhận xét 1*) và do đó $a^p \in L(G)$. Gọi $\sigma_a$ (tương ứng $\tau_a$) là ánh xạ tuyến tính $x \mapsto a \* x$ (tương ứng $x \mapsto x \* a$) của $U(G)$ vào $U(G)$. Với mọi $x \in U(G)$, $(\operatorname{ad} a)(x) = (\sigma_a - \tau_a)(x)$ và do đó $(\operatorname{ad} a)^p = (\sigma_a - \tau_a)^p$. Nhưng $\sigma_a$ và $\tau_a$ giao hoán và do đó $(\sigma_a - \tau_a)^p = (\sigma_a)^p - (\tau_a)^p = \tau_a^p - \sigma_a^p$, do đó là mệnh đề thứ hai.
+Nếu $a \in L(G)$, $a$ là nguyên thủy trong $U(G)$, do đó $a^p$ là nguyên thủy trong $U(G)$ (Chương II, § 1, no. 2, *Nhận xét 1*) và do đó $a^p \in L(G)$. Gọi $\sigma_a$ (tương ứng $\tau_a$) là ánh xạ tuyến tính $x \mapsto a * x$ (tương ứng $x \mapsto x * a$) của $U(G)$ vào $U(G)$. Với mọi $x \in U(G)$, $(\operatorname{ad} a)(x) = (\sigma_a - \tau_a)(x)$ và do đó $(\operatorname{ad} a)^p = (\sigma_a - \tau_a)^p$. Nhưng $\sigma_a$ và $\tau_a$ giao hoán và do đó $(\sigma_a - \tau_a)^p = (\sigma_a)^p - (\tau_a)^p = \tau_a^p - \sigma_a^p$, do đó là mệnh đề thứ hai.
 
 #### Định nghĩa 7 {#lie-iii-s3-def-7 .statement}
 
@@ -913,7 +913,7 @@ Cho $A$ là một đại số kết hợp đầy đủ chuẩn được với ph
 
 *Ánh xạ $t \mapsto \langle t, f \rangle$ là một cấu xạ của đại số $\mathcal{T}^{(\infty)}(G)$ vào đại số $A$.*
 
-Chỉ cần kiểm tra rằng, nếu $t$ và $t'$ là các phân phối điểm trên $G$, thì $\langle t \* t', f \rangle = \langle t, f \rangle \langle t', f \rangle$. Nhưng
+Chỉ cần kiểm tra rằng, nếu $t$ và $t'$ là các phân phối điểm trên $G$, thì $\langle t * t', f \rangle = \langle t, f \rangle \langle t', f \rangle$. Nhưng
 $$
 \begin{align*}
 \langle t * t', f \rangle &= \langle t \otimes t', (g, g') \mapsto f(gg') \rangle \\
@@ -1049,7 +1049,7 @@ $$
 \end{align*}
 $$
 
-Cuối cùng, $\varphi(b)*t = t \* \varepsilon_b$ (no. 3, Mệnh đề 14 (ii)).
+Cuối cùng, $\varphi(b)*t = t * \varepsilon_b$ (no. 3, Mệnh đề 14 (ii)).
 
 #### Mệnh đề 39 {#lie-iii-s3-prop-39 .statement}
 
@@ -1284,7 +1284,7 @@ $$
 
 #### Hệ quả 1 {#lie-iii-s3-prop-43-cor-1 .statement}
 
-*Cho $u \in \mathbf{L}(G)$ và $u' \in \mathcal{T}^{(\infty)}(G)$. Khi đó $u \top u' = u \* u' - u' \* u$.*
+*Cho $u \in \mathbf{L}(G)$ và $u' \in \mathcal{T}^{(\infty)}(G)$. Khi đó $u \top u' = u * u' - u' * u$.*
 
 Ảnh của $u$ dưới đồng tích là $u \otimes \varepsilon_e + \varepsilon_e \otimes u$, do đó
 $$
@@ -1293,7 +1293,7 @@ $$
 
 #### Hệ quả 2 {#lie-iii-s3-prop-43-cor-2 .statement}
 
-*Cho $t \in \mathcal{T}^{(\infty)}(G)$ và $g \in G$. Khi đó $\varepsilon_g \top t = \varepsilon_g \* t \* \varepsilon_{g^{-1}}$. Nếu $t \in \mathbf{L}(G)$, thì $\varepsilon_g \top t = gtg^{-1}$ (trong đó tích sau cùng được tính trong nhóm $\mathbf{T}(G)$).*
+*Cho $t \in \mathcal{T}^{(\infty)}(G)$ và $g \in G$. Khi đó $\varepsilon_g \top t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. Nếu $t \in \mathbf{L}(G)$, thì $\varepsilon_g \top t = gtg^{-1}$ (trong đó tích sau cùng được tính trong nhóm $\mathbf{T}(G)$).*
 
 Ảnh của $\varepsilon_g$ dưới đồng tích là $\varepsilon_g \otimes \varepsilon_g$.
 

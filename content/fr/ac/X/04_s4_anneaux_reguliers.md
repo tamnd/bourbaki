@@ -30,9 +30,9 @@ subsections:
       title: Anneaux réguliers et extensions plates
       page: 59
       pdf_page: 58
-statements: 25
+statements: 29
 exercises: 13
-content_sha256: 627586783da1c4cf8e8ca211c55aa5bda2405916d81ceb5d4444b3de5b2c26b9
+content_sha256: 1cb4ee83cd3848ac9878b8d74c05d2ee772f02b46e916425c5ae49647a84ed0f
 ---
 
 ## § 4. ANNEAUX RÉGULIERS
@@ -71,7 +71,9 @@ $$
 
 En effet, $M$ est de dimension projective finie (prop. 1), et l’on a $\mathrm{prof}(A) = \dim(A)$ puisque $A$ est un anneau de Macaulay ($§ 2$, n° 5, exemple 7). On applique alors le th. 1 du § 3, n° 5.
 
-Corollaire 1. On a $\mathrm{dp}_A(M) \geqslant \dim(A) - \dim(M)$; pour qu’il y ait égalité, il faut et il suffit que $M$ soit macaulayen.
+#### Corollaire 1 {#ac-x-s4-prop-3-cor-1 .statement}
+
+On a $\mathrm{dp}_A(M) \geqslant \dim(A) - \dim(M)$; pour qu’il y ait égalité, il faut et il suffit que $M$ soit macaulayen.
 
 #### Corollaire 2 {#ac-x-s4-prop-3-cor-2 .statement}
 
@@ -163,7 +165,9 @@ Pour qu’un anneau soit régulier, il faut et il suffit qu’il soit isomorphe 
 
 Les anneaux réguliers intègres de dimension $\leq 1$ sont les anneaux de Dedekind (VIII, $§ 5$, n° 1, exemple 1 et VII, $§ 2$, n° 2, théorème 1).
 
-**Corollaire 1.** *Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes* :
+#### Corollaire 1 {#ac-x-s4-prop-4-cor-1 .statement}
+
+*Soit $A$ un anneau noethérien. Les conditions suivantes sont équivalentes* :
 
 (i) *on a* $\mathrm{dh}(A) < +\infty$ ;
 (ii) *$A$ est régulier et l’on a* $\dim(A) < +\infty$.
@@ -180,11 +184,15 @@ $$
 
 Il existe des anneaux noethériens réguliers de dimension infinie (VIII, $§ 5$, exerc. 6).
 
-**Corollaire 2.** *Un anneau régulier est normal, de Gorenstein et de Macaulay.*
+#### Corollaire 2 {#ac-x-s4-prop-4-cor-2 .statement}
+
+*Un anneau régulier est normal, de Gorenstein et de Macaulay.*
 
 En effet, un anneau local régulier est intégralement clos (VIII, $§ 5$, n° 2, cor. 1 du th. 1), de Gorenstein ($§ 3$, n° 9, exemple 4) et de Macaulay ($§ 2$, n° 5, exemple 6).
 
-**Corollaire 3.—** *Soient $A$ un anneau noethérien, $J$ un idéal de $A$ et $\hat{A}$ le séparé complété de $A$ pour la topologie $J$-adique.*
+#### Corollaire 3 {#ac-x-s4-prop-4-cor-3 .statement}
+
+*Soient $A$ un anneau noethérien, $J$ un idéal de $A$ et $\hat{A}$ le séparé complété de $A$ pour la topologie $J$-adique.*
 
 a) *Pour que l’anneau $\hat{A}$ soit régulier, il faut et il suffit que, pour tout idéal maximal $m$ de $A$ contenant $J$, l’anneau $A_m$ soit régulier.*
 

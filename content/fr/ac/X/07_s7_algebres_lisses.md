@@ -51,9 +51,9 @@ subsections:
       title: Algèbres lisses
       page: 102
       pdf_page: 101
-statements: 30
+statements: 39
 exercises: 15
-content_sha256: f64a0816a024e5cc89b2252c2ac75bfa34b44616951ef7a39a61544d5451d071
+content_sha256: d68b9c7325c87d31bf9721e3dce35c4be0ff95e79d61fe0491564111f5babb1e
 ---
 
 ## § 7. ALGÈBRES LISSES
@@ -97,7 +97,9 @@ où $\bar{d}$ est l’homomorphisme déduit par passage aux quotients de la rest
 
 Notons $\rho : A \to A/J^2$ et $\pi : A/J^2 \to A/J$ les surjections canoniques. Soit $v : (A/J) \otimes_A \Omega_k(A) \longrightarrow J/J^2$ une application $k$-linéaire ; on lui associe une application $k$-linéaire $H_v : A \to A/J^2$ en posant $H_v(x) = \rho(x) - v(1 \otimes dx)$. Si $v$ est une rétraction de $\bar{d}$, $H_v$ s’annule sur J, donc induit par passage au quotient une application $k$-linéaire $h_v : A/J \to A/J^2$. D’autre part, étant donnée une application $k$-linéaire $h : A/J \to A/J^2$, notons $\psi_h : A/J \oplus J/J^2 \longrightarrow A/J^2$ l’application $(x, y) \mapsto h(x) + y$.
 
-**Proposition 2.** Munissons le $k$-module $\Lambda/J \oplus J/J^2$ de la structure de $k$-algèbre définie dans l’exemple ci-dessus. Les applications $v \mapsto h_v$ et $h \mapsto \psi_h$ induisent des bijections entre les ensembles suivants :
+#### Proposition 2 {#ac-x-s7-prop-2 .statement}
+
+Munissons le $k$-module $\Lambda/J \oplus J/J^2$ de la structure de $k$-algèbre définie dans l’exemple ci-dessus. Les applications $v \mapsto h_v$ et $h \mapsto \psi_h$ induisent des bijections entre les ensembles suivants :
 
 (i) l’ensemble des rétractions $A/J$-linéaires $v$ de $\bar{d}$ ;
 (ii) l’ensemble des homomorphismes de $k$-algèbres $h : A/J \to A/J^2$ tels que $\pi \circ h = \mathrm{Id}_{A/J}$ ;
@@ -111,7 +113,9 @@ L’application $h \mapsto \psi_h$ est une bijection de l’ensemble des homomor
 
 Soient $k$ un anneau et $A$ une $k$-algèbre linéairement topologisée (III, § 4, n° 2, déf. 1).
 
-Définition 1. On dit que $A$ est formellement lisse sur $k$, ou est une $k$-algèbre formellement lisse, si elle satisfait à la condition suivante : quels que soient la $k$-algèbre $C$ et l’idéal de carré nul $N$ de $C$, tout homomorphisme continu de $A$ dans la $k$-algèbre $C/N$, munie de la topologie discrète, se relève en un homomorphisme continu de $A$ dans la $k$-algèbre $C$, munie de la topologie discrète.
+#### Définition 1 {#ac-x-s7-def-1 .statement}
+
+On dit que $A$ est formellement lisse sur $k$, ou est une $k$-algèbre formellement lisse, si elle satisfait à la condition suivante : quels que soient la $k$-algèbre $C$ et l’idéal de carré nul $N$ de $C$, tout homomorphisme continu de $A$ dans la $k$-algèbre $C/N$, munie de la topologie discrète, se relève en un homomorphisme continu de $A$ dans la $k$-algèbre $C$, munie de la topologie discrète.
 
 Rappelons qu’un homomorphisme de $A$ dans une $k$-algèbre munie de la topologie discrète est continu si et seulement si son noyau est ouvert.
 
@@ -376,7 +380,9 @@ D’après le lemme 1, l’homomorphisme canonique $A_1 \otimes_A \Omega(A) \to 
 
 Mais la conjonction de (ii') et (ii'') équivaut à (ii), ce qui démontre le lemme.
 
-Proposition 6. Soient $k$ un corps de caractéristique $p \neq 0$, $k'$ une extension radicielle de $k$, de degré fini et de hauteur $\leqslant 1$, et $A$ une $k$-algèbre locale régulière. Alors $A_{(k')}$ est un anneau local et les conditions suivantes sont équivalentes :
+#### Proposition 6 {#ac-x-s7-prop-6 .statement}
+
+Soient $k$ un corps de caractéristique $p \neq 0$, $k'$ une extension radicielle de $k$, de degré fini et de hauteur $\leqslant 1$, et $A$ une $k$-algèbre locale régulière. Alors $A_{(k')}$ est un anneau local et les conditions suivantes sont équivalentes :
 
 (i) l’anneau $A_{(k')}$ est régulier ;
 (ii) l’application $\kappa_A$-linéaire
@@ -393,7 +399,9 @@ Par ailleurs, $(f_i)_{i \in I}$ est une $p$-base de ${k'}^p$ sur $k^p$, et le ${
 
 ### 7. Un critère pour les algèbres locales formellement lisses
 
-Proposition 7. Soient $k_0$ un anneau, $k$ une $k_0$-algèbre, $A$ une $k$-algèbre, $m$ un idéal maximal de $A$. On suppose que $k$ et $A/m$ sont formellement lisses sur $k_0$. Pour que $A$ soit formellement lisse sur $k$ pour la topologie $m$-adique, il faut et il suffit que les deux conditions suivantes soient réalisées :
+#### Proposition 7 {#ac-x-s7-prop-7 .statement}
+
+Soient $k_0$ un anneau, $k$ une $k_0$-algèbre, $A$ une $k$-algèbre, $m$ un idéal maximal de $A$. On suppose que $k$ et $A/m$ sont formellement lisses sur $k_0$. Pour que $A$ soit formellement lisse sur $k$ pour la topologie $m$-adique, il faut et il suffit que les deux conditions suivantes soient réalisées :
 
 (i) l’homomorphisme canonique $S_{A/m}(m/m^2) \to \mathrm{gr}_m(A)$ est bijectif ;
 (ii) l’application $A/m$-linéaire
@@ -435,7 +443,9 @@ $$
 
 Lorsque $A$ est noethérien, la condition (i) signifie que l’anneau local $A_{\mathfrak{m}}$ est régulier (VIII, § 5, n° 2, th. 1).
 
-**Proposition 8.** *Soient $k$ un corps et $A$ une $k$-algèbre locale noethérienne. Les conditions suivantes sont équivalentes* :
+#### Proposition 8 {#ac-x-s7-prop-8 .statement}
+
+*Soient $k$ un corps et $A$ une $k$-algèbre locale noethérienne. Les conditions suivantes sont équivalentes* :
 
 (i) *A est formellement lisse sur $k$ pour la topologie $\mathfrak{m}_A$-adique* ;
 (ii) *A est régulière et l’application $\kappa_A$-linéaire*
@@ -457,7 +467,9 @@ Soient k un corps et A une k-algèbre telle que l’anneau $A_{(k')}$ soit régu
 
 ### 8. Existence de rétractions pour les applications linéaires
 
-Proposition 9. Soient A un anneau, M un A-module de type fini, N un A-module projectif et $u : M \to N$ une application A-linéaire.
+#### Proposition 9 {#ac-x-s7-prop-9 .statement}
+
+Soient A un anneau, M un A-module de type fini, N un A-module projectif et $u : M \to N$ une application A-linéaire.
 
 a) Soit $\mathfrak{p}$ un idéal premier de A. Les conditions suivantes sont équivalentes :
 
@@ -602,7 +614,7 @@ a) $B$ est une algèbre essentiellement de type fini sur une extension séparabl
 b) $B$ est une $k_0$ algèbre locale noethérienne complète dont le corps résiduel $\kappa_B$ est une extension séparable de $k_0$ (on prend dans ce cas pour $k$ une algèbre de séries formelles sur $\kappa_B$ dont $B$ est un quotient (n° 3 et IX, § 3, n° 3)).
 Dans chacun de ces cas, il résulte du cor. 2, compte tenu de la prop. 8 du n° 7 et de la prop. 6, b) du § 6, n° 4, que la $k_0$-algèbre $B$ est formellement lisse si et seulement si elle est absolument régulière.
 
-**Corollaire 3 (Zariski).** *Soient $k$ un corps, $A$ une $k$-algèbre locale régulière, et $J$ un idéal de $A$ distinct de $A$. On suppose que la $k$-algèbre $A$ est essentiellement de type fini ou complète. Pour que l’anneau local $A/J$ soit régulier, il faut et il suffit qu’il existe un entier $m \geqslant 0$, des éléments $f_1, \ldots, f_m$ de $J$ engendrant $J$ et des dérivations $D_1, \ldots, D_m$ de $A$ telles que $\det(D_j(f_i)) \notin \mathfrak{m}_A$. Les éléments $(f_1, \ldots, f_m)$ font alors partie d’un système de coordonnées de $A$ et l’idéal $J$ est premier.*
+**Corollaire 3 (Zariski).** — *Soient $k$ un corps, $A$ une $k$-algèbre locale régulière, et $J$ un idéal de $A$ distinct de $A$. On suppose que la $k$-algèbre $A$ est essentiellement de type fini ou complète. Pour que l’anneau local $A/J$ soit régulier, il faut et il suffit qu’il existe un entier $m \geqslant 0$, des éléments $f_1, \ldots, f_m$ de $J$ engendrant $J$ et des dérivations $D_1, \ldots, D_m$ de $A$ telles que $\det(D_j(f_i)) \notin \mathfrak{m}_A$. Les éléments $(f_1, \ldots, f_m)$ font alors partie d’un système de coordonnées de $A$ et l’idéal $J$ est premier.*
 
 Soit $k_0$ le sous-corps premier de $k$. La $k_0$-algèbre $A$ est absolument régulière ($§ 6$, n° 4, exemple 1), donc formellement lisse (remarque 1 ci-dessus). Pour les mêmes raisons, dire que $A/J$ est régulier équivaut à dire que c’est une $k_0$-algèbre formellement lisse. La première assertion résulte donc du th. 3, qui implique aussi que la suite $(f_1, \ldots, f_m)$ est complètement sécante pour $A$. On applique alors la prop. 2 de VIII, $§ 5$, n° 3.
 
@@ -678,7 +690,9 @@ déduite de la multiplication de la $\kappa(p)\text{-algèbre} \ \kappa(p) \otim
 
 Soit $A$ un anneau noethérien. On dit qu’une $A$-algèbre $B$ est lisse si elle est essentiellement de type fini et si elle satisfait aux conditions équivalentes du théorème 4.
 
-Proposition 10. Soit $A$ un anneau noethérien.
+#### Proposition 10 {#ac-x-s7-prop-10 .statement}
+
+Soit $A$ un anneau noethérien.
 
 a) Soient $A'$ une $A$-algèbre noethérienne et $B$ une $A$-algèbre lisse. Alors la $A'$-algèbre $A' \otimes_A B$ est lisse.
 
@@ -688,9 +702,13 @@ c) Soient $B$ et $C$ deux $A$-algèbres lisses. Alors la $A$-algèbre $B \otimes
 
 Cela résulte de la prop. 4 du n° 2 et des énoncés analogues pour les algèbres essentiellement de type fini (§ 6, n° 1).
 
-Exemples. 1) Les algèbres lisses sur un corps $k$ sont les $k$-algèbres essentiellement de type fini et absolument régulières.
+#### Exemple 1 {#ac-x-s7-n10-exa-1 .statement}
 
-2) Soient $A$ un anneau noethérien, $T = (T_i)_{i \in I}$ une famille finie d’indéterminées. La $A$-algèbre $A[T]$ est lisse. Plus généralement, soient $F_1, \ldots, F_m$ des éléments de $A[T]$, et soit $B$ la $A$-algèbre $A[T]/(F_1, \ldots, F_m)$. Si en tout idéal maximal $n$ de $B$ la classe (mod. $n$) de la matrice $\left( \frac{\partial F_j}{\partial T_i} \right)$ est de rang $m$, la $A$-algèbre $B$ est lisse (th. 3 du n° 9).
+Les algèbres lisses sur un corps $k$ sont les $k$-algèbres essentiellement de type fini et absolument régulières.
+
+#### Exemple 2 {#ac-x-s7-n10-exa-2 .statement}
+
+Soient $A$ un anneau noethérien, $T = (T_i)_{i \in I}$ une famille finie d’indéterminées. La $A$-algèbre $A[T]$ est lisse. Plus généralement, soient $F_1, \ldots, F_m$ des éléments de $A[T]$, et soit $B$ la $A$-algèbre $A[T]/(F_1, \ldots, F_m)$. Si en tout idéal maximal $n$ de $B$ la classe (mod. $n$) de la matrice $\left( \frac{\partial F_j}{\partial T_i} \right)$ est de rang $m$, la $A$-algèbre $B$ est lisse (th. 3 du n° 9).
 
 ## EXERCICES {#ac-x-s7-exercises}
 

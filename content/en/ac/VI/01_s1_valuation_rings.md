@@ -55,7 +55,7 @@ Let $A$ and $B$ be two local rings such that $B$ dominates $A$. The canonical in
 
 Examples
 (1) Let $A$ be a Noetherian local ring and $\hat{A}$ its completion; the local ring $\hat{A}$ then dominates $A$ (Chapter 111, § 3, no. 5, Proposition 9).
-(2) Let $B$ be an integral domain, $A$ a subring of $B$, $p'$ a prime ideal of $B$ and $p = A \cap p'$. Then $pA_p \subset p'B_{p'}$, so that $B_$ dominates $A_$.
+(2) Let $B$ be an integral domain, $A$ a subring of $B$, $p'$ a prime ideal of $B$ and $p = A \cap p'$. Then $pA_p \subset p'B_{p'}$, so that $B_{p'}$ dominates $A_p$.
 
 ### 2. VALUATION RINGS
 
@@ -180,7 +180,7 @@ $$
 
 $B_{BF}$ is a valuation ring (cf. Chapter VII, § 3, no. 5). \*
 
-The ring of formal power series $K[[T]]$ in one indeterminate over a field $K$ is a Noetherian local integral domain whose maximal ideal is principal; it is therefore a valuation ring. On the other hand the ring $K[[T_1, T_2]]$ of formal power series in two indeterminates, which is a Noetherian local integral domain is not a valuation ring, for neither of the elements $T_1, T_$ is a multiple of the other.
+The ring of formal power series $K[[T]]$ in one indeterminate over a field $K$ is a Noetherian local integral domain whose maximal ideal is principal; it is therefore a valuation ring. On the other hand the ring $K[[T_1, T_2]]$ of formal power series in two indeterminates, which is a Noetherian local integral domain is not a valuation ring, for neither of the elements $T_1, T_2$ is a multiple of the other.
 
 #### Proposition 3 {#ac-vi-s1-prop-3 .statement}
 

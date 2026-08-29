@@ -39,9 +39,9 @@ subsections:
       title: Modules macaulayens et algèbres plates
       page: 0
       pdf_page: 33
-statements: 42
+statements: 46
 exercises: 11
-content_sha256: 45befdd5bcd0e751997053ae6e5718b0a75bd67fbf772fba847c945e42dd1b49
+content_sha256: 650bbfdcc8ed4e299912939fbb5d1419edd5bfe730a6cdaaf497218c5852c4b7
 ---
 
 ## § 2. MODULES ET ANNEAUX MACAULAYENS
@@ -545,7 +545,9 @@ Il est clair que (v) implique (iv) et que (iv) implique (i).
 
 (ii) $\Rightarrow$ (v) : Le $\widehat{A}$-module $\widehat{M}$ est isomorphe à $M \otimes_A \widehat{A}$ (III, § 3, n° 4, th. 3) ; s’il est macaulayen, il résulte de la prop. 9, (i) $\Rightarrow$ (ii) que $\kappa(p) \otimes_A \widehat{A}$ est un anneau de Macaulay pour tout $p \in \mathrm{Supp}(M)$, et que le $A$-module $M$ est macaulayen.
 
-**Proposition 10.-** *Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $\Lambda$-module plat. Les conditions suivantes sont équivalentes :*
+#### Proposition 10 {#ac-x-s2-prop-10 .statement}
+
+*Soit $\rho : A \to B$ un homomorphisme d’anneaux noethériens faisant de $B$ un $\Lambda$-module plat. Les conditions suivantes sont équivalentes :*
 
 (i) $B$ est un anneau de Macaulay ;
 (ii) pour tout idéal premier $q$ de $B$, les anneaux $A_{\rho^{-1}(q)}$ et $\kappa(\rho^{-1}(q)) \otimes_A B$ sont de Macaulay ;
@@ -555,13 +557,19 @@ Il est clair que (v) implique (iv) et que (iv) implique (i).
 
 C’est le cas particulier $M = A$, $N = B$ de la prop. 9.
 
-**Corollaire 1.—** *Toute algèbre finie et plate sur un anneau de Macaulay est un anneau de Macaulay.*
+#### Corollaire 1 {#ac-x-s2-prop-10-cor-1 .statement}
 
-**Corollaire 2.** *Soient $A$ un anneau de Macaulay et $n$ un entier positif ; alors $A[X_1, \ldots, X_n]$ et $A[[X_1, \ldots, X_n]]$ sont des anneaux de Macaulay.*
+*Toute algèbre finie et plate sur un anneau de Macaulay est un anneau de Macaulay.*
+
+#### Corollaire 2 {#ac-x-s2-prop-10-cor-2 .statement}
+
+*Soient $A$ un anneau de Macaulay et $n$ un entier positif ; alors $A[X_1, \ldots, X_n]$ et $A[[X_1, \ldots, X_n]]$ sont des anneaux de Macaulay.*
 
 Il suffit de traiter le cas $n = 1$. L’anneau $A[T]$ est noethérien (A, VIII, § 1, n° 4, cor. 1), et, pour tout corps $k$, l’anneau $k[T]$ est un anneau de Macaulay (n° 5, exemple 2) ; par conséquent, l’anneau $A[T]$ est de Macaulay (prop. 10) et l’anneau $A[[T]]$ est de Macaulay (cor. 4 de la prop. 9).
 
-**Corollaire 3.—** *Toute algèbre de type fini sur un anneau noethérien de Macaulay est caténaire.*
+#### Corollaire 3 {#ac-x-s2-prop-10-cor-3 .statement}
+
+*Toute algèbre de type fini sur un anneau noethérien de Macaulay est caténaire.*
 
 En effet, une telle algèbre est un quotient d’un anneau de polynômes sur un anneau de Macaulay, donc un quotient d’un anneau de Macaulay (cor. 2), et par suite est caténaire (n° 2).
 

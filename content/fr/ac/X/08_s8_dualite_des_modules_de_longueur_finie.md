@@ -38,9 +38,9 @@ subsections:
       title: Dualité des modules d’extensions et des produits de torsion
       page: 0
       pdf_page: 119
-statements: 23
+statements: 31
 exercises: 10
-content_sha256: 582d0dd11bfb6a22854911e1ca944d48bf7da42e120f17aa0cfb037e301d5459
+content_sha256: 77f9377a8e567979844890a8c62bb0a878d9c20aeb59902a661be4f0e8769c2f
 ---
 
 ## § 8. DUALITÉ DES MODULES DE LONGUEUR FINIE
@@ -129,17 +129,17 @@ $$
 
 comme $\mathrm{Hom}_A(A/\alpha^m, E)$ s’identifie à $E_m$ pour tout $m$ et que l’injection canonique de $\mathrm{Hom}_A(\alpha^n/\alpha^{n+1}, E_1)$ dans $\mathrm{Hom}_A(\alpha^n/\alpha^{n+1}, E)$ est bijective, on en déduit que l’homomorphisme canonique $\beta_E$ est bijectif, d’où (ii).
 
-Supposons (ii) satisfaite. Soit $e : M \to I$ une enveloppe injective de $M$. Puisque $I$ est injectif, il existe une application $A$-linéaire $\varphi : E \to I$ prolongeant $e$. Mais $\varphi$ applique $E_n$ dans $I_n$ pour tout $n$, donc induit des homomorphismes gr\textsuperscript{a}(\varphi) : \operatorname{gr}\textsuperscript{a}(E) \to \operatorname{gr}\textsuperscript{a}(I) \text{ et } \varphi_1 : E_1 \to I_1 \text{ rendant commutatif le diagramme}
+Supposons (ii) satisfaite. Soit $e : M \to I$ une enveloppe injective de $M$. Puisque $I$ est injectif, il existe une application $A$-linéaire $\varphi : E \to I$ prolongeant $e$. Mais $\varphi$ applique $E_n$ dans $I_n$ pour tout $n$, donc induit des homomorphismes gr^{a}(\varphi) : \operatorname{gr}^{a}(E) \to \operatorname{gr}^{a}(I) \text{ et } \varphi_1 : E_1 \to I_1 \text{ rendant commutatif le diagramme}
 
 $$
 \begin{array}{ccc}
-\operatorname{gr}\textsuperscript{a}(E) & \xrightarrow{\beta_E} & \operatorname{Homgr}_{A/\alpha}(\operatorname{gr}(A), E_1) \\
-\downarrow \operatorname{gr}\textsuperscript{a}(\varphi) & & \downarrow \operatorname{Homgr}(1, \varphi_1) \\
-\operatorname{gr}\textsuperscript{a}(I) & \xrightarrow{\beta_I} & \operatorname{Homgr}_{A/\alpha}(\operatorname{gr}(A), I_1)
+\operatorname{gr}^{a}(E) & \xrightarrow{\beta_E} & \operatorname{Homgr}_{A/\alpha}(\operatorname{gr}(A), E_1) \\
+\downarrow \operatorname{gr}^{a}(\varphi) & & \downarrow \operatorname{Homgr}(1, \varphi_1) \\
+\operatorname{gr}^{a}(I) & \xrightarrow{\beta_I} & \operatorname{Homgr}_{A/\alpha}(\operatorname{gr}(A), I_1)
 \end{array}
 $$
 
-Puisque $E_1$ et $I_1$ sont des enveloppes injectives du $A/\alpha$-module $M$, l’homomorphisme $\varphi_1$ est bijectif ; puisque $\beta_E$ et $\beta_I$ sont bijectifs, il en résulte que $\operatorname{gr}\textsuperscript{a}(\varphi)$ est bijectif. Cela implique, par récurrence sur $n$, que $\varphi$ induit une bijection de $E_n$ sur $I_n$ pour tout $n \geq 1$ ; donc $\varphi$ est bijectif, ce qui entraîne (i).
+Puisque $E_1$ et $I_1$ sont des enveloppes injectives du $A/\alpha$-module $M$, l’homomorphisme $\varphi_1$ est bijectif ; puisque $\beta_E$ et $\beta_I$ sont bijectifs, il en résulte que $\operatorname{gr}^{a}(\varphi)$ est bijectif. Cela implique, par récurrence sur $n$, que $\varphi$ induit une bijection de $E_n$ sur $I_n$ pour tout $n \geq 1$ ; donc $\varphi$ est bijectif, ce qui entraîne (i).
 
 #### Lemme 2 {#ac-x-s8-lem-2 .statement}
 
@@ -238,7 +238,9 @@ Cela étant, soit $M_0 \supset M_1 \supset \ldots \supset M_n \supset \ldots$ un
 
 Soit $M$ un A-module. Rappelons (A, VIII, § 4, n° 6) que le socle de $M$ est la somme des sous-modules simples de $M$, c’est-à-dire l’ensemble des éléments de $M$ annulés par $m_A$; c’est un $\kappa_A$-espace vectoriel, canoniquement isomorphe à $\mathrm{Hom}_A(\kappa_A, M)$.
 
-**Lemme 4.** *Soient I un A-module de Matlis et M un $\Lambda$-module. Les conditions suivantes sont équivalentes :*
+#### Lemme 4 {#ac-x-s8-lem-4 .statement}
+
+*Soient I un A-module de Matlis et M un $\Lambda$-module. Les conditions suivantes sont équivalentes :*
 
 (i) $M$ est artinien ;
 (ii) tout élément de $M$ est annulé par une puissance de $m_A$, et le socle de $M$ est de dimension finie sur $\kappa_\Lambda$ ;
@@ -252,7 +254,9 @@ Soit $M$ un A-module. Rappelons (A, VIII, § 4, n° 6) que le socle de $M$ est l
 
 (ii) $\Rightarrow$ (iii) : supposons la condition (ii) vérifiée; soit $e : M \to J$ une enveloppe injective de $M$. On a $\mathrm{Ass}(M) \subset \{m_A\}$, donc $\mathrm{Ass}(J) \subset \{m_A\}$ (n° 1, remarque 2), et $J$ est isomorphe à $I^{(c)}$ pour un cardinal $c$ (n° 1, th. 1). Soit $x$ un élément non nul de $J$ annulé par $m_A$; comme le A-module $Ax$ est simple et que son intersection avec $e(M)$ n’est pas réduite à 0, $x$ appartient à $e(M)$. Ainsi $e$ induit un isomorphisme du socle de $M$ sur celui de $J$; par suite le socle de $M$ est de dimension $c$, ce qui prouve (iii) ainsi que la dernière assertion.
 
-**Lemme 5.—** *Tout $\widehat{\Lambda}$-module artinien est artinien en tant que $\Lambda$-module.*
+#### Lemme 5 {#ac-x-s8-lem-5 .statement}
+
+*Tout $\widehat{\Lambda}$-module artinien est artinien en tant que $\Lambda$-module.*
 
 Soit $M$ un $\widehat{\Lambda}$-module artinien; tout élément de $M$ est annulé par une puissance de $m_{\widehat{\Lambda}}$, donc par une puissance de $m_A$. D’après le lemme 2 du n° 2, les sous-A-modules de $M$ sont ses sous-$\widehat{\Lambda}$-modules, donc $M$ est artinien en tant que A-module.
 
@@ -398,9 +402,13 @@ $$
 $$
 est un isomorphisme.
 
-*Exemples.* 1) Soit $J$ un $A$-module de Matlis. Posons $T(M) = \operatorname{Hom}_A(M, J)$ pour tout $A$-module $M$ de longueur finie et $T(f) = \operatorname{Hom}_A(f, 1_J)$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie. Alors les conditions FD 1) à FD 5) sont satisfaites. Nous allons voir ci-dessous (th. 3) que toute construction satisfaisant les conditions FD 1) à FD 5) est obtenue de cette façon.
+#### Exemple 1 {#ac-x-s8-n5-exa-1 .statement}
 
-2) Soient $C$ un complexe injectif de $A$-modules et $d$ un entier tels que $H^i(\operatorname{Homgr}_A(\kappa_A, C))$ soit nul pour $i \neq d$ et soit de longueur 1 pour $i = d$. Pour tout $A$-module $M$ de longueur finie, on a $H^i(\operatorname{Homgr}_A(M, C)) = 0$ pour $i \neq d$ : raisonnons en effet par récurrence sur la longueur de $M$, supposée $> 0$ ; il existe une suite exacte de $A$-modules $0 \to \kappa_A \to M \to N \to 0$, qui donne naissance à une suite exacte de complexes
+Soit $J$ un $A$-module de Matlis. Posons $T(M) = \operatorname{Hom}_A(M, J)$ pour tout $A$-module $M$ de longueur finie et $T(f) = \operatorname{Hom}_A(f, 1_J)$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie. Alors les conditions FD 1) à FD 5) sont satisfaites. Nous allons voir ci-dessous (th. 3) que toute construction satisfaisant les conditions FD 1) à FD 5) est obtenue de cette façon.
+
+#### Exemple 2 {#ac-x-s8-n5-exa-2 .statement}
+
+Soient $C$ un complexe injectif de $A$-modules et $d$ un entier tels que $H^i(\operatorname{Homgr}_A(\kappa_A, C))$ soit nul pour $i \neq d$ et soit de longueur 1 pour $i = d$. Pour tout $A$-module $M$ de longueur finie, on a $H^i(\operatorname{Homgr}_A(M, C)) = 0$ pour $i \neq d$ : raisonnons en effet par récurrence sur la longueur de $M$, supposée $> 0$ ; il existe une suite exacte de $A$-modules $0 \to \kappa_A \to M \to N \to 0$, qui donne naissance à une suite exacte de complexes
 $$
 0 \to \operatorname{Homgr}_A(N, C) \longrightarrow \operatorname{Homgr}_A(M, C) \longrightarrow \operatorname{Homgr}_A(\kappa_A, C) \longrightarrow 0
 $$
@@ -408,9 +416,13 @@ et la conclusion résulte de l’hypothèse de récurrence appliquée à $N$.
 
 Posons $T(M) = H^d(\operatorname{Homgr}_A(M, C))$ pour tout $A$-module $M$ de longueur finie, et $T(f) = H^d(\operatorname{Homgr}_A(f, 1_C))$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie ; les conditions FD 1) à FD 5) sont satisfaites.
 
-3) Soient $\Omega$ un $A$-module et $d$ un entier $\geqslant 0$ tels que $\operatorname{Ext}_A^i(\kappa_A, \Omega)$ soit nul pour $i \neq d$ et soit de longueur 1 pour $i = d$. Posons $T(M) = \operatorname{Ext}_A^d(M, \Omega)$ pour tout $A$-module de longueur finie $M$ et $T(f) = \operatorname{Ext}_A^d(f, 1_\Omega)$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie. On a alors $\operatorname{Ext}_A^i(M, \Omega) = 0$ pour tout $A$-module de longueur finie $M$ et tout $i \neq d$, et les conditions FD 1) à FD 5) sont satisfaites : il suffit en effet d’appliquer l’exemple précédent au cas où $C$ est la résolution injective canonique de $\Omega$.
+#### Exemple 3 {#ac-x-s8-n5-exa-3 .statement}
 
-4) Si $A$ est un anneau de Gorenstein, par exemple un anneau régulier, on peut appliquer l’exemple 3 en prenant $\Omega = A$ et $d = \dim(A)$ (§ 3, n° 7, prop. 11).
+Soient $\Omega$ un $A$-module et $d$ un entier $\geqslant 0$ tels que $\operatorname{Ext}_A^i(\kappa_A, \Omega)$ soit nul pour $i \neq d$ et soit de longueur 1 pour $i = d$. Posons $T(M) = \operatorname{Ext}_A^d(M, \Omega)$ pour tout $A$-module de longueur finie $M$ et $T(f) = \operatorname{Ext}_A^d(f, 1_\Omega)$ pour toute application $A$-linéaire $f$ entre $A$-modules de longueur finie. On a alors $\operatorname{Ext}_A^i(M, \Omega) = 0$ pour tout $A$-module de longueur finie $M$ et tout $i \neq d$, et les conditions FD 1) à FD 5) sont satisfaites : il suffit en effet d’appliquer l’exemple précédent au cas où $C$ est la résolution injective canonique de $\Omega$.
+
+#### Exemple 4 {#ac-x-s8-n5-exa-4 .statement}
+
+Si $A$ est un anneau de Gorenstein, par exemple un anneau régulier, on peut appliquer l’exemple 3 en prenant $\Omega = A$ et $d = \dim(A)$ (§ 3, n° 7, prop. 11).
 
 Pour tout entier $n \geqslant 0$, posons $I_n = T(A/\mathfrak{m}_A^n)$. Pour $m \geqslant n$, notons $p_{mn} : A/\mathfrak{m}_A^m \longrightarrow A/\mathfrak{m}_A^n$ la surjection canonique et $i_{mn} : T(A/\mathfrak{m}_A^n) \longrightarrow T(A/\mathfrak{m}_A^m)$ l’application $A$-linéaire $T(p_{mn})$. Elle est injective par FD 4) et l’on a $i_{mn} \circ i_{np} = i_{mp}$ pour $m \geqslant n \geqslant p$ par FD 3). Soit $I = \varprojlim T(A/\mathfrak{m}_A^n)$ le $A$-module limite inductive du système $((I_n), (i_{mn}))$. Pour $n \geqslant 0$, l’application canonique $I_n \to I$ est injective ; nous identifierons $I_n$ à son image dans $I$, de sorte que $I$ est la réunion croissante des $I_n$.
 
@@ -476,9 +488,13 @@ $$
 $$
 de noyau $I_n$. D’après c), $\gamma$ est la composée des flèches $\theta_{I_{n+1}} : I_{n+1} \to \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I)$ et $\mathrm{Hom}(u, 1) : \mathrm{Hom}_A(A/\mathfrak{m}_A^{n+1}, I) \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$; comme $\theta_{I_{n+1}}$ est l’application linéaire associée à la multiplication $A/\mathfrak{m}_A^{n+1} \times I_{n+1} \to I$, l’isomorphisme $I_{n+1}/I_n \to \mathrm{Hom}_A(\mathfrak{m}_A^n/\mathfrak{m}_A^{n+1}, I)$ déduit de $\gamma$ coïncide avec $\beta$, ce qui achève la démonstration.
 
-Exemples. 5) Reprenons les hypothèses et notations de l’exemple 1. Alors $T(A/\mathfrak{m}_A^n) = \mathrm{Hom}_A(A/\mathfrak{m}_A^n, J)$ s’identifie au sous-module $J_n$ de $J$ formé des éléments annulés par $\mathfrak{m}_A^n$; par passage à la limite inductive on obtient un isomorphisme canonique de $I$ sur $J$.
+#### Exemple 5 {#ac-x-s8-n5-exa-5 .statement}
 
-6) Reprenons les hypothèses et notations de l’exemple 3. On obtient que $I = \varinjlim \mathrm{Ext}_A^d(A/\mathfrak{m}_A^n, \Omega)$ est un $A$-module de Matlis. Pour tout $A$-module de longueur finie $M$, on dispose d’un $A$-isomorphisme canonique
+Reprenons les hypothèses et notations de l’exemple 1. Alors $T(A/\mathfrak{m}_A^n) = \mathrm{Hom}_A(A/\mathfrak{m}_A^n, J)$ s’identifie au sous-module $J_n$ de $J$ formé des éléments annulés par $\mathfrak{m}_A^n$; par passage à la limite inductive on obtient un isomorphisme canonique de $I$ sur $J$.
+
+#### Exemple 6 {#ac-x-s8-n5-exa-6 .statement}
+
+Reprenons les hypothèses et notations de l’exemple 3. On obtient que $I = \varinjlim \mathrm{Ext}_A^d(A/\mathfrak{m}_A^n, \Omega)$ est un $A$-module de Matlis. Pour tout $A$-module de longueur finie $M$, on dispose d’un $A$-isomorphisme canonique
 $$
 0_M : \mathrm{Ext}_A^d(M, \Omega) \longrightarrow \mathrm{Hom}_A(M, I);
 $$

@@ -34,9 +34,9 @@ subsections:
       title: Valuations discrètes
       page: 0
       pdf_page: 104
-statements: 21
+statements: 22
 exercises: 8
-content_sha256: cb962a9e1de7dbc0919ab4b3a3677fc2dce3757ec3b25d14f45c1f9ee9bd6230
+content_sha256: 1d479fc23e74662779c5b39bf921e57bdb3ede2dc093c8d1164168c4a6bbd7c7
 ---
 
 ## § 3. Valuations.
@@ -219,7 +219,9 @@ Soit $b$ un sous-A-module de K. L’ensemble des $\varphi(x)$ pour $x \in b - (0
 
 La formule (2) est facile, car, pour tout $m \in N$, il existe $x \in K$ tel que $\varphi(x) = m$. On a évidemment $b \subset a(M(b))$; inversement, soit $x \in a(M(b))$ et supposons $x \neq 0$; on a $\varphi(x) \in M(b)$, donc il existe $y \in b$ tel que $\varphi(x) = \varphi(y)$; d’où $x = uy$ avec $\varphi(u) = 0$, ce qui prouve qu’on a $x \in Ay \subset b$, et termine la démonstration.
 
-Corollaire. Soit $G_+$ l’ensemble des éléments positifs de G. L’application $M \to a(M)$ est une bijection de l’ensemble des sous-ensembles majeurs de $G_+$ sur l’ensemble des idéaux de A.
+#### Corollaire {#ac-vi-s3-n5-cor-1 .statement}
+
+Soit $G_+$ l’ensemble des éléments positifs de G. L’application $M \to a(M)$ est une bijection de l’ensemble des sous-ensembles majeurs de $G_+$ sur l’ensemble des idéaux de A.
 
 En effet, comme $A = a(G_+)$, $a(M) \subset A$ équivaut à $M \subset G_+$.
 

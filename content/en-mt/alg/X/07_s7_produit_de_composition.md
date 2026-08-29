@@ -985,7 +985,7 @@ Then by prop. 7 and prop. 3 of X, p. 118 :
 
 #### Corollary 2 {#alg-x-s7-prop-7-cor-2 .statement}
 
-If $\theta \in \mathrm{Ext}_A^n(M, N)$ is the class associated with the exact sequence $(\mathscr{S})$, we have $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)}$.
+If $\theta \in \mathrm{Ext}_A^n(M, N)$ is the class associated with the exact sequence $(\mathscr{S})$, we have $\hat{\partial}_m(P, \mathscr{S})(\alpha) = \theta \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 #### Corollary 3 {#alg-x-s7-prop-7-cor-3 .statement}
 
@@ -1012,7 +1012,7 @@ and we have:
 
 #### Corollary 4 {#alg-x-s7-prop-7-cor-4 .statement}
 
-If $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ is the class associated with the exact sequence $(\mathcal{S}_1)$, we have $\partial^m(\mathcal{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)}$.
+If $\theta_1 \in \mathrm{Ext}_A^n(P, Q)$ is the class associated with the exact sequence $(\mathcal{S}_1)$, we have $\partial^m(\mathcal{S}_1, M)(\alpha) = \theta_1 \circ \alpha$ for all $\alpha \in \mathrm{Tor}_m^A(P, M)$.
 
 ### 9. Computation of Composition Products by Resolution Shifts
 

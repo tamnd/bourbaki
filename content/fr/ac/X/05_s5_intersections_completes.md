@@ -34,16 +34,18 @@ subsections:
       title: Idéaux complètement sécants et extension des scalaires
       page: 70
       pdf_page: 69
-statements: 17
+statements: 20
 exercises: 11
-content_sha256: 88c868cf777a1fb3d37328fd5ea267c57fb35ffc01909e91577ffeb6df4cfb40
+content_sha256: 7f166664ba4b53091fb77b61b721e931106fe349a61852ba86d738f377ccd41d
 ---
 
 ## § 5. INTERSECTIONS COMPLÈTES
 
 ### 1. Idéal engendré par une suite complètement sécante
 
-Définition 1. Soient $A$ un anneau, $J$ un idéal de $A$. On dit que l’idéal $J$ est complètement sécant au point $p$ de $V(J)$ si l’idéal $J_p$ de $A_p$ est engendré par une suite complètement sécante pour $A_p$. On dit que $J$ est complètement sécant s’il l’est en tous les points de $V(J)$.
+#### Définition 1 {#ac-x-s5-def-1 .statement}
+
+Soient $A$ un anneau, $J$ un idéal de $A$. On dit que l’idéal $J$ est complètement sécant au point $p$ de $V(J)$ si l’idéal $J_p$ de $A_p$ est engendré par une suite complètement sécante pour $A_p$. On dit que $J$ est complètement sécant s’il l’est en tous les points de $V(J)$.
 
 Si l’idéal $J$ de $A$ est complètement sécant, il en est de même de l’idéal $S^{-1}J$ de $S^{-1}A$ pour toute partie multiplicative $S$ de $A$.
 
@@ -126,7 +128,9 @@ Soient A un anneau noethérien et J un idéal de A. Les conditions suivantes son
 
 (iv) ⇒ (i) : supposons la condition (iv) satisfaite ; soit p un idéal premier de A contenant J. Alors le A_p/J_p-module J_p/J_p^2 est libre. Soit x = (x_1, ..., x_r) une suite d’éléments de J_p relevant une base de J_p/J_p^2. La suite x engendre J_p (lemme de Nakayama), et satisfait par construction à la condition (iv) de la prop. 1. Par suite l’idéal J_p de A_p est complètement sécant, et J est complètement sécant en p.
 
-Remarque 1. Supposons l’idéal J complètement sécant ; soit (x_1, ..., x_r) une suite d’éléments de J, telle que pour tout idéal maximal m ∈ V(J) les images canoniques des x_i dans J/mJ forment une base de ce A/m-espace vectoriel. Alors le A/J-module J/J^2 est libre et les images canoniques dans J/J^2 des x_i en forment une base : il suffit en effet de vérifier que les images des x_i forment une base du A_m/J_m-module J_m/J_m^2 pour tout m ∈ V(J) (II, § 3, n° 3, th. 1), ce qui résulte de loc. cit., n° 2, prop. 5 et cor. 2, puisque le A_m/J_m-module J_m/J_m^2 est projectif (th. 1).
+#### Remarque 1 {#ac-x-s5-n2-rem-1 .statement}
+
+Supposons l’idéal J complètement sécant ; soit (x_1, ..., x_r) une suite d’éléments de J, telle que pour tout idéal maximal m ∈ V(J) les images canoniques des x_i dans J/mJ forment une base de ce A/m-espace vectoriel. Alors le A/J-module J/J^2 est libre et les images canoniques dans J/J^2 des x_i en forment une base : il suffit en effet de vérifier que les images des x_i forment une base du A_m/J_m-module J_m/J_m^2 pour tout m ∈ V(J) (II, § 3, n° 3, th. 1), ce qui résulte de loc. cit., n° 2, prop. 5 et cor. 2, puisque le A_m/J_m-module J_m/J_m^2 est projectif (th. 1).
 
 #### Corollaire 1 {#ac-x-s5-thm-1-cor-1 .statement}
 
@@ -258,7 +262,9 @@ Soient ρ : A → B un homomorphisme local d’anneaux locaux noethériens, N un
 
 (iv) ⇒ (i) : notons t l’idéal de A[T] engendré par T. Le (A[T]/t)-module N/tN est plat par hypothèse et N est idéalement séparé pour t (III, § 5, n° 4, prop. 2). Pour démontrer que N est plat sur A[T], il suffit de prouver, vu le th. 1 de loc. cit., n° 2, que le A-module Tor_1^{A[T]}(A[T]/t, N) est nul. Mais puisque la suite T est A[T]-régulière, ce module est isomorphe à H_1(T, N) (A, X, p. 159, remarque 3), qui est nul puisque la suite T est N-régulière (loc. cit., p. 157, prop. 5).
 
-Corollaire. Soient k un corps, Λ une k-algèbre locale noethérienne, x = (x_1, ..., x_r) une suite d’éléments de m_A et M un Λ-module de type fini. Soient Ā et Ĝ les complétés de A et M pour leur topologie (x_1Ā + ... + x_rĀ)-adique ; notons u : k[T_1, ..., T_r] → Ā l’unique homomorphisme de k-algèbres tel que u(T_i) = x_i pour i = 1, ..., r, et ū : k[[T_1, ..., T_r]] → Ā l’unique homomorphisme continu qui le prolonge. Les conditions suivantes sont équivalentes :
+#### Corollaire {#ac-x-s5-n5-cor-1 .statement}
+
+Soient k un corps, Λ une k-algèbre locale noethérienne, x = (x_1, ..., x_r) une suite d’éléments de m_A et M un Λ-module de type fini. Soient Ā et Ĝ les complétés de A et M pour leur topologie (x_1Ā + ... + x_rĀ)-adique ; notons u : k[T_1, ..., T_r] → Ā l’unique homomorphisme de k-algèbres tel que u(T_i) = x_i pour i = 1, ..., r, et ū : k[[T_1, ..., T_r]] → Ā l’unique homomorphisme continu qui le prolonge. Les conditions suivantes sont équivalentes :
 
 (i) la suite $x$ est $M$-régulière ;
 (ii) l’homomorphisme $u$ fait de $M$ un $k[T_1, \ldots, T_r]$-module plat ;

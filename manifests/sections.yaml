@@ -4094,7 +4094,7 @@ books:
               statements: 46
               exercises: 12
               extraction: ocr
-              content_sha256: 17380362b68d847e817a4493bcca94c0aa933579e99309a2467e71e7208cfc17
+              content_sha256: 59ba782df2b2b7f4bba637ba9f3e5d827f36e369b586e284d638a57804dd3805
             - kind: section
               section: 3
               title: Algèbres de type fini sur un corps
@@ -4106,7 +4106,7 @@ books:
               statements: 19
               exercises: 10
               extraction: ocr
-              content_sha256: 7243b350a512ad81e0e18e05d2938c8610587ad033e9409e2afcd39e3eb1446e
+              content_sha256: 9a4e3ff6577619f6a4dd44dfc9056888feff25497afcc1eee690a5e4a49ecdfe
         - chapter: VI
           title: Valuations
           sections:
@@ -4143,7 +4143,7 @@ books:
               statements: 9
               exercises: 6
               extraction: ocr
-              content_sha256: 093bd853b511c12e7af2a3e2119f71c523fd8cbda1cfefe8397878778098a7bf
+              content_sha256: 0e3cd49ce9b1c7f45994bc7e960e7402591e6b5e1c55dd2dff578eda3ad5b1c1
             - kind: section
               section: 3
               title: Valuations
@@ -4152,10 +4152,10 @@ books:
               first_pdf_page: 97
               last_pdf_page: 171
               subsections: 6
-              statements: 21
+              statements: 22
               exercises: 8
               extraction: ocr
-              content_sha256: bde80fed0e1077b48ee38146787f10ed845b2d8c120268195cb816f1c4a460a7
+              content_sha256: 1d479fc23e74662779c5b39bf921e57bdb3ede2dc093c8d1164168c4a6bbd7c7
             - kind: section
               section: 4
               title: Hauteur d’une valuation
@@ -4167,7 +4167,7 @@ books:
               statements: 21
               exercises: 5
               extraction: ocr
-              content_sha256: f4e200fce05b68baa9e9dad9c6a147094e3de4017cb3ee6b930e1981dc0d9157
+              content_sha256: 0209a2c1e17c27a25e4b2e6adac03cd81c288c48ee3e43def8754a65dcc61265
             - kind: section
               section: 5
               title: Topologie définie par une valuation
@@ -4191,7 +4191,7 @@ books:
               statements: 13
               exercises: 2
               extraction: ocr
-              content_sha256: 35554ce234a74fedcfcbc63f30d7c781ed0bae0cd26de430a50d4b554e69cbff
+              content_sha256: e84992f155d3dd4337b5374eebb7ccef55c0220ecb85e9133f163139a80f5cff
             - kind: section
               section: 7
               title: Théorème d’approximation
@@ -4200,10 +4200,10 @@ books:
               first_pdf_page: 128
               last_pdf_page: 183
               subsections: 3
-              statements: 15
+              statements: 16
               exercises: 3
               extraction: ocr
-              content_sha256: f3d13465449ddddad91e0bf9f1a23457d7e0f8d918f8d7bb747c59c0f69658be
+              content_sha256: cb90577db0ff77f03331b1d5585e9d0206d7ffc4505843b13154172f4befc9f4
             - kind: section
               section: 8
               title: Prolongements d’une valuation à une extension algébrique
@@ -4215,7 +4215,7 @@ books:
               statements: 42
               exercises: 22
               extraction: ocr
-              content_sha256: 39d2e8a38c299bc8a020e873511132d2e893a6effbb30473532cca65a2808c58
+              content_sha256: 2bebe6600828f81de20f560173885512ca5f89218ee8866a421e03059969a264
             - kind: section
               section: 9
               title: 'Application : corps localement compacts'
@@ -4239,7 +4239,7 @@ books:
               statements: 14
               exercises: 2
               extraction: ocr
-              content_sha256: d217186b3da9590252a5ad143d5faf17a27de8a195c0c8c6369c6d313172c28b
+              content_sha256: 21d8edd7def4b194356f8ff434d28d0c855d313af5be8e5c3fd2d649da69d566
         - chapter: VII
           title: Diviseurs
           sections:
@@ -4276,7 +4276,7 @@ books:
               statements: 15
               exercises: 22
               extraction: ocr
-              content_sha256: 8fb8c8de9b3d2d1e6c2a7b24be9011f24eccdd56eccc6e5ccaa454491660bc24
+              content_sha256: a8860cd79257be111d6393b6e3751e163399b0d8febeedb4e24741bfdab641f2
             - kind: section
               section: 3
               title: Anneaux factoriels
@@ -4288,7 +4288,7 @@ books:
               statements: 22
               exercises: 27
               extraction: ocr
-              content_sha256: f9115337946d836e538150f038e0bd85e2d6d0692d78578054c8a64fbf3b5962
+              content_sha256: b1e9ab611ce58d86671164118c9b605a4b85fff95031242f5a068f5b2585953c
             - kind: section
               section: 4
               title: Modules sur les anneaux noethériens intégralement clos
@@ -4300,7 +4300,7 @@ books:
               statements: 79
               exercises: 26
               extraction: ocr
-              content_sha256: 2da0f6fe114297e3ac39578a8dccc8fe5a6dfff73a23862c4e5086edc56519c9
+              content_sha256: 9c845f08d747a5ee0f4e1efceea7114db7a10061ee182b2649eabee2e93ab7d6
             - kind: historical
               title: Historical Note
               path: content/fr/ac/VII/historical_note.md
@@ -10278,10 +10278,10 @@ books:
               last_pdf_page: 332
               book_pages: TG IV.32-TG IV.39, TG IV.59-TG IV.61
               subsections: 6
-              statements: 25
+              statements: 26
               exercises: 22
               extraction: ocr
-              content_sha256: c5cf4e84b532067825b7cfdd7f1d44c588b392d7de45c68930efc3767c2807f1
+              content_sha256: bd260491dd1441dcc19d98698ff22398e4eb75bdf06991ab6d267d3178fc6a6b
             - kind: section
               section: 8
               title: Développements usuels des nombres réels
@@ -10340,10 +10340,10 @@ books:
               last_pdf_page: 179
               book_pages: A X.168-A X.173
               subsections: 10
-              statements: 54
+              statements: 55
               exercises: 17
               extraction: ocr
-              content_sha256: bd3c41963bcd4825d6836308d2ec8fec47621486e6b81283e3fadd4d739f6f4a
+              content_sha256: bc19da43004b19055ec3f2c2c05899eaf5dce7177cab8b30104e033843178968
             - kind: section
               section: 2
               title: Complexes de A-modules
@@ -10379,10 +10379,10 @@ books:
               last_pdf_page: 192
               book_pages: A X.61-A X.81, A X.184-A X.186
               subsections: 9
-              statements: 39
+              statements: 41
               exercises: 9
               extraction: ocr
-              content_sha256: 0dd07ce8e9ce8109b1e39864b92a50b62e2990891ab5bf56dbf260ccfcff8d83
+              content_sha256: c87130263c1fe5d434cb536f82ba52bf0f60574aa0ecfea673d0882688a5ac07
             - kind: section
               section: 5
               title: Modules d’extensions
@@ -10651,10 +10651,10 @@ books:
               first_pdf_page: 173
               last_pdf_page: 258
               subsections: 12
-              statements: 76
+              statements: 77
               exercises: 30
               extraction: ocr
-              content_sha256: e0490ea743776a194803b2ddeaff4d8770f05d7bc1a191c652da232c512b3310
+              content_sha256: 75f971651d88da0710e759eaf3b5edbfa9128b3f30e470b8ae93bb0134ca293f
             - kind: section
               section: 6
               title: Inégalités de convexité
@@ -11520,7 +11520,7 @@ books:
               statements: 28
               exercises: 11
               extraction: ocr
-              content_sha256: a24d978da4af3d8ad9b83d93064b0453b1784b2438c3b5e6aedb1c71a8f69ecf
+              content_sha256: b15eacb0b1d5e9a3170499b0adb1ed280f40ad739a07cd494d3704c174dd51e3
             - kind: appendix
               section: 1
               title: Applications polynomiales et topologie de Zariski
@@ -11557,10 +11557,10 @@ books:
               last_pdf_page: 153
               book_pages: AC X.3-AC X.22
               subsections: 9
-              statements: 53
+              statements: 60
               exercises: 18
               extraction: ocr
-              content_sha256: 381601f9ea0be9f0dc743302a0a9dacb97e65c0f0fc5773f9ddb7b5c9310b657
+              content_sha256: 225c9460593c8de13dabe30c37d11a994b8dc41f2db1aa24ece65402eb5a3910
             - kind: section
               section: 2
               title: Modules et anneaux macaulayens
@@ -11570,10 +11570,10 @@ books:
               last_pdf_page: 156
               book_pages: AC X.154-AC X.157
               subsections: 7
-              statements: 42
+              statements: 46
               exercises: 11
               extraction: ocr
-              content_sha256: 45befdd5bcd0e751997053ae6e5718b0a75bd67fbf772fba847c945e42dd1b49
+              content_sha256: 650bbfdcc8ed4e299912939fbb5d1419edd5bfe730a6cdaaf497218c5852c4b7
             - kind: section
               section: 3
               title: Profondeur et dimension homologique
@@ -11582,10 +11582,10 @@ books:
               first_pdf_page: 36
               last_pdf_page: 161
               subsections: 8
-              statements: 26
+              statements: 43
               exercises: 16
               extraction: ocr
-              content_sha256: 368543644bd264c2543c7fe61456948403e44a81447152dff4e406a7c7ea5786
+              content_sha256: 76a992a6b4695562d7aecdc99dc4689ab5009b5d08e71322bf56d9a25d35af94
             - kind: section
               section: 4
               title: Anneaux réguliers
@@ -11594,10 +11594,10 @@ books:
               first_pdf_page: 52
               last_pdf_page: 164
               subsections: 5
-              statements: 25
+              statements: 29
               exercises: 13
               extraction: ocr
-              content_sha256: 627586783da1c4cf8e8ca211c55aa5bda2405916d81ceb5d4444b3de5b2c26b9
+              content_sha256: 1cb4ee83cd3848ac9878b8d74c05d2ee772f02b46e916425c5ae49647a84ed0f
             - kind: section
               section: 5
               title: Intersections complètes
@@ -11606,10 +11606,10 @@ books:
               first_pdf_page: 61
               last_pdf_page: 167
               subsections: 6
-              statements: 17
+              statements: 20
               exercises: 11
               extraction: ocr
-              content_sha256: 88c868cf777a1fb3d37328fd5ea267c57fb35ffc01909e91577ffeb6df4cfb40
+              content_sha256: 7f166664ba4b53091fb77b61b721e931106fe349a61852ba86d738f377ccd41d
             - kind: section
               section: 6
               title: Extension des scalaires dans les algèbres régulières
@@ -11618,10 +11618,10 @@ books:
               first_pdf_page: 70
               last_pdf_page: 169
               subsections: 5
-              statements: 31
+              statements: 33
               exercises: 7
               extraction: ocr
-              content_sha256: 0efe6b59d303ee94ae3a6812482dddc5208450e8aae3110aa7e70e4b9c8ef47b
+              content_sha256: 5ce020b594660b670473a0d1b1f4d34b94ffccaae815319291452fefe8423aae
             - kind: section
               section: 7
               title: Algèbres lisses
@@ -11631,10 +11631,10 @@ books:
               last_pdf_page: 172
               book_pages: AC X.170-AC X.173
               subsections: 10
-              statements: 30
+              statements: 39
               exercises: 15
               extraction: ocr
-              content_sha256: f64a0816a024e5cc89b2252c2ac75bfa34b44616951ef7a39a61544d5451d071
+              content_sha256: d68b9c7325c87d31bf9721e3dce35c4be0ff95e79d61fe0491564111f5babb1e
             - kind: section
               section: 8
               title: Dualité des modules de longueur finie
@@ -11643,10 +11643,10 @@ books:
               first_pdf_page: 104
               last_pdf_page: 174
               subsections: 7
-              statements: 23
+              statements: 31
               exercises: 10
               extraction: ocr
-              content_sha256: 582d0dd11bfb6a22854911e1ca944d48bf7da42e120f17aa0cfb037e301d5459
+              content_sha256: 77f9377a8e567979844890a8c62bb0a878d9c20aeb59902a661be4f0e8769c2f
             - kind: section
               section: 9
               title: Modules dualisants
@@ -11655,10 +11655,10 @@ books:
               first_pdf_page: 124
               last_pdf_page: 177
               subsections: 6
-              statements: 21
+              statements: 31
               exercises: 12
               extraction: ocr
-              content_sha256: c1b6427cdd99a4208a73daf080c250c6621ff1606750753e2f947d45a4247728
+              content_sha256: e91759ba70639eaebfa25698b669acf6e3da97d31ed7579081129197fa443e8f
             - kind: section
               section: 10
               title: Cohomologie locale, dualité de Grothendieck
@@ -11667,7 +11667,7 @@ books:
               first_pdf_page: 141
               last_pdf_page: 180
               subsections: 3
-              statements: 17
+              statements: 20
               exercises: 11
               extraction: ocr
-              content_sha256: 40a61da1749c5ffe94bfadf1c1ff5de518d53eebe5bdbda1e7990108ff3db0d5
+              content_sha256: e8bae18987bec37ceb60f14d75f74c46d0c21bd1844866f4cb791e7a520a550f

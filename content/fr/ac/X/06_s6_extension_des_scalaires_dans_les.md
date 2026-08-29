@@ -30,9 +30,9 @@ subsections:
       title: Caractérisations des algèbres absolument régulières
       page: 78
       pdf_page: 77
-statements: 31
+statements: 33
 exercises: 7
-content_sha256: 0efe6b59d303ee94ae3a6812482dddc5208450e8aae3110aa7e70e4b9c8ef47b
+content_sha256: 5ce020b594660b670473a0d1b1f4d34b94ffccaae815319291452fefe8423aae
 ---
 
 ## § 6. EXTENSION DES SCALAires DANS LES ALGÈBRES RÉGULIÈRES
@@ -237,7 +237,9 @@ b) Si l’extension $K$ de $k$ est séparable, la $k$-algèbre $A_{(K)}$ est abs
 
 L’assertion a) résulte de la proposition 7 ; l’assertion b) résulte du cor. 1 et de l’exemple 2.
 
-COROLLAIRE 3. Soient $k$ un corps, $A$ une $k$-algèbre et $K$ une extension de $k$. Supposons que la $k$-algèbre $A$ soit essentiellement de type fini ou que l’extension $K$ de $k$ soit de type fini. Pour que la $k$-algèbre $A$ soit absolument régulière (resp. absolument normale), il faut et il suffit qu’il en soit ainsi de la $K$-algèbre $A_{(K)}$.
+#### Corollaire 3 {#ac-x-s6-prop-7-cor-3 .statement}
+
+Soient $k$ un corps, $A$ une $k$-algèbre et $K$ une extension de $k$. Supposons que la $k$-algèbre $A$ soit essentiellement de type fini ou que l’extension $K$ de $k$ soit de type fini. Pour que la $k$-algèbre $A$ soit absolument régulière (resp. absolument normale), il faut et il suffit qu’il en soit ainsi de la $K$-algèbre $A_{(K)}$.
 
 Supposons $A$ absolument régulière (resp. absolument normale) et soit $K'$ une extension radicielle de $K$ de degré fini. L’anneau $K' \otimes_K \Lambda_{(K)}$, isomorphe à $K' \otimes_k A$, est régulier (resp. normal) d’après le cor. 2.
 
@@ -285,7 +287,9 @@ n = \sup \deg.\mathrm{tr}_k(\kappa(\mathfrak{p}))
 $$
 où \mathfrak{p} parcourt la famille (finie) des idéaux premiers minimaux de A. Si A est intègre, n est donc le degré de transcendance du corps des fractions de A.
 
-Théorème 1. *Soient k un corps et A une k-algèbre locale essentiellement de type fini. Posons n = \dim(A) + \deg.\mathrm{tr}_k(\kappa_A).*
+#### Théorème 1 {#ac-x-s6-thm-1 .statement}
+
+*Soient k un corps et A une k-algèbre locale essentiellement de type fini. Posons n = \dim(A) + \deg.\mathrm{tr}_k(\kappa_A).*
 
 a) *On a [\kappa_A \otimes_A \Omega_k(A) : \kappa_A] \geq n.*
 
