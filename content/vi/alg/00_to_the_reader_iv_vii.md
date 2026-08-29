@@ -13,17 +13,17 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: e78772464ecfc30aeccae61bae22b7761be8c78d33f18523afb840ff533ce398
+content_sha256: 7ccd57b62139bef3ded70ef25cf0ea0291627455cbdc306c0806ec9817156831
 translated_from: content/en/alg/00_to_the_reader_iv_vii.md
-source_content_sha256: 233edccfa753769e1895c6bfedf7d69f97039fad58bcf21946b7391936c208f2
-translation_model: gpt-5-mini
+source_content_sha256: 7ae32c7a2f91836886d1e4186ba9e82a6fbb969333fe911258076c12664c41c8
+translation_model: gpt-5.4
 translation_run: translate-vi-1ca0cf82
 glossary_version: 34
 glossary_terms_sha256: 82e1fe5ae2443e8ee1c39dbf10cf1211defb9997d9a23c22bfac40a1cc4bbfdc
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## ĐỐI VỚI NGƯỜI ĐỌC
+## GỬI BẠN ĐỌC
 
 1. The Elements of Mathematics Series takes up mathematics at the beginning, and gives complete proofs. In principle, it requires no particular knowledge of mathematics on the readers' part, but only a certain familiarity with mathematical reasoning and a certain capacity for abstract thought. Nevertheless, it is directed especially to those who have a good knowledge of at least the content of the first year or two of a university mathematics course.
 
@@ -31,32 +31,32 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 3. The series is divided into Books and each Book into chapters. The Books already published, either in whole or in part, in the French edition, are listed below. When an English translation is available, the corresponding English title is mentioned between parentheses. Throughout the volume a reference indicates the English edition, when available, and the French edition otherwise.
 
-Lý thuyết tập hợp (Theory of Sets)    ký hiệu bởi E    (Set Theory)
-Đại số (Algebra'''')
-Tôpô tổng quát (General Topology)    —    TG    (Gen. Top.)
-Các hàm của một biến thực    —    FVR
-Các không gian vectơ tôpô (Topological Vector Spaces)    —    EVT (Top. Vect. Sp.)
-Tích phân    —    INT
-Đại số giao hoán (Commutative Algebra''')    —    AC    (Comm. Alg.)
-Các đa tạp vi phân và giải tích    —    VAR
-Các nhóm và đại số Lie (Lie Groups and Lie Algebras(3))    —    LIE    (Lie)
-Các lý thuyết phổ    —    TS
+Théorie des Ensembles (Lý thuyết tập hợp)    được ký hiệu bằng E    (Lý thuyết tập hợp)
+Algebrec (Đại số'''')
+Topologie Générale (Tôpô đại cương)    —    TG    (Tôp. đc.)
+Fonctions d'une Variable Réelle    —    FVR
+Espaces Vectoriels Topologiques (Các không gian vectơ tôpô)    —    EVT (K.g. vect. tôpô)
+Integration    —    INT
+Algebrec Commutative (Đại số giao hoán''')    —    AC    (Đ. s. gh.)
+Varittes Differentielles et Analytiques    —    VAR
+Groupes et Algèbres de Lie (Các nhóm Lie và các đại số Lie(3))    —    LIE    (Lie)
+Theories Spectrales    —    TS
 
-(1) Cho đến nay, chỉ các chương I đến VII đã được dịch.
-(2) Cho đến nay, chỉ các chương I đến VII đã được dịch.
-(3) Cho đến nay, chỉ các chương I đến III đã được dịch.
+(1) Cho đến nay, chỉ có các chương I đến VII đã được dịch.
+(2) Cho đến nay, chỉ có các chương I đến VII đã được dịch.
+(3) Cho đến nay, chỉ có các chương I đến III đã được dịch.
 
 ĐẠI SỐ
 
-Trong sáu Quyển đầu tiên (theo thứ tự ở trên), mọi mệnh đề trong văn bản chỉ giả sử đã biết những kết quả đã được thảo luận trong cùng một chương, hoặc trong các chương trước được sắp xếp như sau : E ; A, các chương I đến III ; TG, các chương I đến III ; A, từ chương IV trở đi ; TG, từ chương IV trở đi ; FVR ; EVT ; INT.
+Trong sáu cuốn sách đầu tiên (theo thứ tự trên), mọi mệnh đề trong văn bản chỉ giả thiết đã biết những kết quả đã được trình bày trước đó trong cùng chương, hoặc trong các chương trước theo thứ tự sau đây : E ; A, các chương I đến III ; TG, các chương I đến III ; A, từ chương IV trở đi ; TG, từ chương IV trở đi ; FVR ; EVT ; INT.
 
-Từ Quyển thứ bảy trở đi, người đọc thường sẽ tìm thấy một chỉ dẫn chính xác về quan hệ lôgic của nó với các Quyển khác (sáu Quyển đầu tiên luôn được giả sử là đã biết).
+Từ Cuốn thứ bảy trở đi, bạn đọc nói chung sẽ tìm thấy một chỉ dẫn chính xác về quan hệ lôgic của nó với các Cuốn khác (luôn luôn giả thiết rằng sáu Cuốn đầu đã được biết).
 
 4. However we have sometimes inserted examples in the text which refer to facts the reader may already know but which have not yet been discussed in the series. Such examples are placed between two asterisks : *...*. Most readers will undoubtedly find that these examples will help them to understand the text. In other cases, the passages between *...* refer to results which are discussed elsewhere in the Series. We hope the reader will be able to verify the absence of any vicious circle.
 
 5. The logical framework of each chapter consists of the definitions, the axioms, and the theorems of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as « propositions », « lemmas », « corollaries », « remarks », etc. Those which may be omitted at a first reading are printed in small type. A commentary on a particularly important theorem appears occasionally under the name of « scholium ».
 
-Để tránh những sự lặp lại tẻ nhạt, đôi khi thuận tiện khi đưa vào các ký hiệu hoặc các chữ viết tắt chỉ có hiệu lực trong một chương nhất định hoặc một tiết diện nhất định của một chương (chẳng hạn, trong một chương chỉ xét các vành giao hoán, từ « vành » sẽ luôn có nghĩa là « vành giao hoán »). Những quy ước như vậy luôn được nêu rõ một cách tường minh, nói chung là ở đầu chương nơi chúng xuất hiện.
+Để tránh những sự lặp lại rườm rà, đôi khi thuận tiện khi đưa vào những ký hiệu hoặc chữ viết tắt chỉ có hiệu lực trong một chương nào đó hoặc một tiết diện nào đó của một chương (chẳng hạn, trong một chương chỉ xét các vành giao hoán, từ « vành » sẽ luôn luôn có nghĩa là « vành giao hoán »). Những quy ước như vậy luôn luôn được nói ra tường minh, nói chung ở đầu chương nơi chúng xuất hiện.
 
 6. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ☡ (« dangerous bend »).
 
@@ -68,11 +68,11 @@ Từ Quyển thứ bảy trở đi, người đọc thường sẽ tìm thấy m
 
 10. Since in principle the text consists of the dogmatic exposition of a theory, it contains in general no references to the literature. Bibliographical references are gathered together in Historical Notes. The bibliography which follows each historical note contains in general only those books and original memoirs which have been of the greatest importance in the evolution of the theory under discussion. It makes no sort of pretence to completeness.
 
-Đối với các bài tập, nói chung chúng tôi không thấy cần thiết phải chỉ ra nguồn gốc của chúng, vì chúng được lấy từ nhiều nguồn khác nhau (các bài báo gốc, các sách giáo khoa, các tập hợp bài tập).
+Về các bài tập, chúng tôi nói chung không thấy đáng để chỉ ra xuất xứ của chúng, vì chúng đã được lấy từ nhiều nguồn khác nhau (các bài báo gốc, các sách giáo khoa, các tuyển tập bài tập).
 
 11. In the present Book, references to theorems, axioms, definitions, ... are given by quoting successively :
 
-— Quyển (sử dụng chữ viết tắt được liệt kê trong Tiết 3), chương và trang, nơi có thể tìm thấy chúng ;
-— chỉ chương và trang khi tham chiếu đến Quyển hiện tại.
+— cuốn sách (dùng chữ viết tắt được liệt kê trong Tiết diện 3), chương và trang, nơi có thể tìm thấy chúng ;
+— chỉ chương và trang khi dẫn đến Cuốn hiện tại.
 
-Các Bản tóm tắt các kết quả được trích dẫn bằng chữ cái R ; do đó Lý thuyết tập hợp, R có nghĩa là « Bản tóm tắt các kết quả của Lý thuyết tập hợp ».
+Các Bản Tóm tắt Kết quả được trích dẫn bằng chữ R ; do đó Set Theory, R có nghĩa là « Bản Tóm tắt Kết quả của Lý thuyết tập hợp ».

@@ -4089,7 +4089,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 5b9257f2907fbf6e2ac8429d46b26ca0d2d28666985057e8ccb825b9cacd4ba1
+              content_sha256: cd04ec4dcf226a6f8761a19af2c47284265ff59581d75e91925edf6075ac7933
     - id: ac-v-vii-fr
       chapters:
         - chapter: V
@@ -4837,7 +4837,7 @@ books:
               statements: 36
               exercises: 16
               extraction: ocr
-              content_sha256: 83534445e691d14b5753f5bfd111306ba27c900e5d83897f668bd19160260379
+              content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
             - kind: section
               section: 6
               title: Symmetric functions
@@ -5005,7 +5005,7 @@ books:
               statements: 45
               exercises: 23
               extraction: ocr
-              content_sha256: 3e52ada21bc69c752e8bc25a53930a530b253eaf35ace86f46412400ca524d47
+              content_sha256: 43c5af3342ac0bbbafe453022e04b05ece3c6ec94573a34e2d29b581bf13d362
             - kind: section
               section: 12
               title: Finite fields
@@ -6441,7 +6441,7 @@ books:
               statements: 34
               exercises: 12
               extraction: ocr
-              content_sha256: 434bbd2c48cf99f56edad71cfa9e741a2b8eee5b2559d2f6994fa322cf57cff4
+              content_sha256: 8a3e20284919ae10cbe7a7b0edf8a7928dc3eb483565302464487f21ad0e6563
             - kind: section
               section: 5
               title: Anneaux locaux réguliers
@@ -6467,7 +6467,7 @@ books:
               statements: 27
               exercises: 12
               extraction: ocr
-              content_sha256: aa47dae57ddf2dbdb791a5365ab425297e9ab5a4c3aa0827ad3b03bffe214d24
+              content_sha256: 4861402c25afa72739019dce22d6030166385d3d6de51de04a122911e27be198
             - kind: section
               section: 7
               title: Multiplicités
@@ -7124,7 +7124,7 @@ books:
               statements: 33
               exercises: 11
               extraction: ocr
-              content_sha256: d0b3b077c1955f69849dda6a726d1bd24d1564acc1742282499e9a40fa3374d9
+              content_sha256: 31be9da97c8052633252671d3863584cd62d0e193e2f78b07f66cb5ff204ffd3
             - kind: section
               section: 3
               title: Formes compactes des algèbres de Lie semi-simples complexes
@@ -7137,7 +7137,7 @@ books:
               statements: 16
               exercises: 9
               extraction: ocr
-              content_sha256: cb86081049ae95a2b93a4811c79a54442596b1cb412021fbc2d5c405096f7bbe
+              content_sha256: 059c049ee9636997f6a4dacee25da1b47d77e9c38b0f13cef58c9b07159f308b
             - kind: section
               section: 4
               title: Système de racines associé à un groupe compact
@@ -7150,7 +7150,7 @@ books:
               statements: 56
               exercises: 22
               extraction: ocr
-              content_sha256: 99f198eaf67af4d1e294d308aab9fa2bc4dec72825d76ec1558d3610bac189f2
+              content_sha256: c90a2a84199892fd556bed350e9419d303ab5ee816e98fb3406d94a18ae649e7
             - kind: section
               section: 5
               title: Classes de conjugaison
@@ -7163,7 +7163,7 @@ books:
               statements: 26
               exercises: 5
               extraction: ocr
-              content_sha256: edab1d825f495f1f616df6689ad091a5f2956639ec6c53480871bb18cf92868b
+              content_sha256: d3eb18a508f1218792b7988d21e624fa9cdebecb239a4f8cc0bc9438ada1011c
             - kind: section
               section: 6
               title: Intégration dans les groupes de Lie compacts
@@ -7176,7 +7176,7 @@ books:
               statements: 22
               exercises: 13
               extraction: ocr
-              content_sha256: 3479027e1e4eab6ad694050f6ee8c5ccb07a17750b74d13da1211dd3cd34a65e
+              content_sha256: 3ef3ff31a3b4ef0d382045164ef8504751835e3acd8e474862e866a76dedad0c
             - kind: section
               section: 7
               title: Représentations irréductibles des groupes de Lie compacts connexes
@@ -7189,7 +7189,7 @@ books:
               statements: 27
               exercises: 8
               extraction: ocr
-              content_sha256: 41fc7f641f75b0c8f5beb2a9241c335ecf284c9b079e4ea21f934f59374acbf1
+              content_sha256: 94bec922e39b175a95c2e9bac03d80b3eef4ba42c5399288591e184c2d1b2a9f
             - kind: section
               section: 8
               title: Transformation de Fourier
@@ -7202,7 +7202,7 @@ books:
               statements: 9
               exercises: 6
               extraction: ocr
-              content_sha256: 3deba355888cbf220a3b25e2813a2d99156cf002ecdd714655a463a112bc83c6
+              content_sha256: 8046cb60e7a87d74278ab051865b2a402cb1931b6d0f6531c7ed71f0def210cd
             - kind: section
               section: 9
               title: Opérations des groupes de Lie compacts sur les variétés
@@ -7215,7 +7215,7 @@ books:
               statements: 19
               exercises: 3
               extraction: ocr
-              content_sha256: 0e06a92c35d32fba219d769e02325c84a2bfc7ce3236882f5946e68fe4f06580
+              content_sha256: fe04b5677c8e1c2cf2af8ab704fe1734fdbd6c788fa894e924c704bd50c9a9d0
             - kind: appendix
               section: 1
               title: STRUCTURE DES GROUPES COMPACTS
@@ -7228,7 +7228,7 @@ books:
               statements: 9
               exercises: 1
               extraction: ocr
-              content_sha256: e21a8158044168a83c575c5c668176995560eb366203923aa8656af2870522f2
+              content_sha256: 2d4f18b1034b7cb30fea38ba10ca04df6f31857a9bbc09790218ef318d968749
             - kind: appendix
               section: 2
               title: REPRÉSENTATIONS DE TYPE RÉEL, COMPLEXE OU QUATERNIONIEN

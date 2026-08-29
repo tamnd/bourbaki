@@ -29,10 +29,10 @@ subsections:
       pdf_page: 362
 statements: 36
 exercises: 22
-content_sha256: 3a77ec7b3ad38e6768f831948d716e5c73a13fa426468bc9ddfaea0313e3e361
+content_sha256: 755e2932b4f6bd0615cef0a7ad081536ff92d337f4405f4904a2225cebc67db1
 translated_from: content/en/ac/V/02_s2_the_lift_of_prime_ideals.md
-source_content_sha256: b2683bd9b0a8b23c19acb6cea7ee306f1f0caa4394f0ddc30d025f3b4e49a5d3
-translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
+source_content_sha256: 0735cbdcddf5abb906e8dd4e39035bbe753450d10e43d8bd20b9833595a17cd5
+translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-4c7244ec
 glossary_version: 34
 glossary_terms_sha256: 98d683363c712b7cdfc8148e606b0ee3d1ed71824dd7859764bba992f66768fe
@@ -67,7 +67,7 @@ $$
 
 Cho $p$ là một iđêan nguyên tố của $\mathbf{A}$ sao cho $p \cap S = \varnothing$. Khi đó $a' \mapsto S^{-1}a'$ là một ánh xạ toàn ánh từ tập hợp $\mathcal{F}$ các iđêan của $\mathbf{A}'$ nằm trên $p$ lên tập hợp $\mathcal{F}_1$ các iđêan của $S^{-1}\mathbf{A}'$ nằm trên $S^{-1}p$ và ánh xạ $a'_1 \mapsto i'(a'_1)$ là một song ánh từ $\mathcal{F}_1$ lên tập hợp các iđêan thuộc $\mathcal{F}$ và bão hòa đối với $h(S)$; đặc biệt, $p' \mapsto S^{-1}p'$ là một song ánh từ tập hợp các iđêan nguyên tố của $\mathbf{A}'$ nằm trên $p$ lên tập hợp các iđêan nguyên tố của $S^{-1}\mathbf{A}'$ nằm trên $S^{-1}p$.
 
-Ta biết rằng $S^{-1}p$ là một iđêan nguyên tố của $S^{-1}\mathbf{A}$ và $i_1(S^{-1}p) = p$ (Chương 11, § 2, no. 5, Mệnh đề 11); nếu tồn tại một iđêan $b'$ của $S^{-1}\mathbf{A}'$ nằm trên $S^{-1}p$, thì $h(i_1(b')) = i(h_1(b')) = p$; vì $S^{-1}i'(b') = b'$ (loc. cit.), điều này đã chỉ ra rằng ảnh của $\mathcal{F}$ qua ánh xạ $a' \mapsto S^{-1}a'$ chứa $\mathcal{F}_1$. Mặt khác, nếu $a' \in \mathcal{F}$, $a \in A$ và $s \in S$, ta có các tương đương sau
+Ta biết rằng $S^{-1}p$ là một iđêan nguyên tố của $S^{-1}\mathbf{A}$ và $i_1(S^{-1}p) = p$ (Chương 11, § 2, no. 5, Mệnh đề 11); nếu tồn tại một iđêan $b'$ của $S^{-1}\mathbf{A}'$ nằm trên $S^{-1}p$, thì $h(i_1(b')) = i(h_1(b')) = p$; vì $S^{-1}i'(b') = b'$ (nơi đã dẫn), điều này đã cho thấy rằng ảnh của $\mathcal{F}$ qua ánh xạ $a' \mapsto S^{-1}a'$ chứa $\mathcal{F}_1$. Mặt khác, nếu $a' \in \mathcal{F}$, $a \in A$ và $s \in S$, ta có các tương đương sau
 
 $$
 h_1(a/s) \in S^{-1}a' \iff h(a)/h(s) \in S^{-1}a'
@@ -80,15 +80,15 @@ Do đó $h_1^{-1}(S^{-1}a') = S^{-1}\mathfrak{p}$, điều này hoàn tất ch�
 
 #### Mệnh đề 1 {#ac-v-s2-prop-1 .statement}
 
-*Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$, $\mathfrak{p}'$ là một iđêan nguyên tố của $A'$ và $\mathfrak{p} = h^{-1}(\mathfrak{p}')$. Để $\mathfrak{p}$ là cực đại, điều kiện cần và đủ là $\mathfrak{p}'$ cũng là cực đại.*
+*Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$, $\mathfrak{p}'$ là một iđêan nguyên tố của $A'$ và $\mathfrak{p} = h^{-1}(\mathfrak{p}')$. Để $\mathfrak{p}$ là cực đại, điều kiện cần và đủ là $\mathfrak{p}'$ cũng vậy.*
 
-Ta viết $B = A/\mathfrak{p}$, $B' = A'/\mathfrak{p}'$ và gọi $h_1 : B \to B'$ là đồng cấu dẫn xuất từ $h$ bằng cách lấy thương; $B$ và $B'$ là các miền nguyên và $B'$ là nguyên trên $B$ ($§ 1$, no. 1, Mệnh đề 2). Nói rằng $\mathfrak{p}$ (tương ứng $\mathfrak{p}'$) là cực đại có nghĩa là $B$ (tương ứng $B'$) là một trường. Mệnh đề này suy ra từ bổ đề sau:
+Đặt $B = A/\mathfrak{p}$, $B' = A'/\mathfrak{p}'$ và gọi $h_1 : B \to B'$ là đồng cấu dẫn xuất từ $h$ bằng cách lấy thương; $B$ và $B'$ là các miền nguyên và $B'$ là nguyên trên $B$ ($§ 1$, no. 1, Mệnh đề 2). Nói rằng $\mathfrak{p}$ (tương ứng $\mathfrak{p}'$) là cực đại có nghĩa là $B$ (tương ứng $B'$) là một trường. Khi đó mệnh đề suy ra từ bổ đề sau:
 
 #### Bổ đề 2 {#ac-v-s2-lem-2 .statement}
 
 *Cho $B$ là một miền nguyên và $A$ là một vành con của $B$ sao cho $B$ là nguyên trên $A$. Để $B$ là một trường, điều kiện cần và đủ là $A$ là một trường.*
 
-Nếu $A$ là một trường, thì, với mọi $y \neq 0$ trong $B$, theo giả thiết $A[y]$ là một A-môđun sinh hữu hạn ($§ 1$, Định lý 1); vì $A[y]$ là một miền nguyên, nó là một trường (*Algebra*, Chương V, § 2, no. 1, Mệnh đề 1) và *a fortiori* $y$ khả nghịch trong $B$ và do đó $B$ là một trường. Ngược lại, giả sử rằng $B$ là một trường và lấy $z \neq 0$ trong $A$; vì $z^{-1} \in B$, $z^{-1}$ nguyên trên $A$, nói cách khác có một phương trình phụ thuộc nguyên
+Nếu $A$ là một trường, thì, với mọi $y \neq 0$ trong $B$, theo giả thiết $A[y]$ là một $A$-môđun sinh hữu hạn ($§ 1$, Định lý 1); vì $A[y]$ là một miền nguyên, nó là một trường (*Đại số*, Chương V, § 2, no. 1, Mệnh đề 1) và a fortiori $y$ khả nghịch trong $B$ và do đó $B$ là một trường. Ngược lại, giả sử rằng $B$ là một trường và lấy $z \neq 0$ trong $A$; vì $z^{-1} \in B$, $z^{-1}$ là nguyên trên $A$, nói cách khác có một phương trình phụ thuộc nguyên
 
 $$
 z^{-n} + a_1 z^{-(n-1)} + \ldots + a_n = 0
@@ -100,19 +100,19 @@ $$
 -z^{-1} = a_1 + a_2 z + \ldots + a_n z^{n-1} \in A,
 $$
 
-do đó chắc chắn $A$ là một trường.
+do đó hiển nhiên $A$ là một trường.
 
 #### Hệ quả 1 {#ac-v-s2-lem-2-cor-1 .statement}
 
-*Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ nguyên trên $A$, $\mathfrak{p}$ là một iđêan nguyên tố của $A$ và $\mathfrak{p}'$ và $a'$ là hai iđêan của $A'$ nằm trên $\mathfrak{p}$ sao cho $\mathfrak{p}' \subset a'$. Nếu $\mathfrak{p}'$ là nguyên tố, thì $a' = \mathfrak{p}'$.*
+*Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$, $\mathfrak{p}$ là một iđêan nguyên tố của $A$ và $\mathfrak{p}'$ và $a'$ là hai iđêan của $A'$ nằm trên $\mathfrak{p}$ sao cho $\mathfrak{p}' \subset a'$. Nếu $\mathfrak{p}'$ là nguyên tố, thì $a' = \mathfrak{p}'$.*
 
-Đặt $S = A - \mathfrak{p}$; khi đó $S^{-1}A'$ nguyên trên $S^{-1}A$ ($§ 1$, no. 5, Mệnh đề
+Ta viết $S = A - \mathfrak{p}$; khi đó $S^{-1}A'$ là nguyên trên $S^{-1}A$ ($§ 1$, no. 5, Mệnh đề
 
-16), $S^{-1}p$ là một iđêan cực đại của $S^{-1}A$ (Chương 11, § 2, no. 5, Mệnh đề 11), $S^{-1}a'$ và $S^{-1}p'$ là các iđêan của $S^{-1}A'$ nằm trên $S^{-1}p$ (Bổ đề 1) và $S^{-1}a' \supseteq S^{-1}p'$. Vì $S^{-1}p'$ là nguyên tố, nó là cực đại theo Mệnh đề 1 và do đó $S^{-1}p' = S^{-1}a'$; vì vậy $a'$ được chứa trong bão hòa của $p'$ đối với $h(S)$, bão hòa này bằng $p'$ (Chương II, § 2, no. 5, Mệnh đề 11).
+16), $S^{-1}p$ là một iđêan cực đại của $S^{-1}A$ (Chương 11, § 2, no. 5, Mệnh đề 11), $S^{-1}a'$ và $S^{-1}p'$ là các iđêan của $S^{-1}A'$ nằm trên $S^{-1}p$ (Bổ đề 1) và $S^{-1}a' \supseteq S^{-1}p'$. Vì $S^{-1}p'$ là nguyên tố, nó là cực đại theo Mệnh đề 1 và do đó $S^{-1}p' = S^{-1}a'$; vì vậy $a'$ được chứa trong bão hòa của $p'$ đối với $h(S)$, mà bão hòa này bằng $p'$ (Chương II, § 2, no. 5, Mệnh đề 11).
 
 #### Hệ quả 2 {#ac-v-s2-lem-2-cor-2 .statement}
 
-Cho $A'$ là một miền nguyên, $A$ là một vành con của $A'$ sao cho $A'$ nguyên trên $A$ và $f$ là một đồng cấu từ $A'$ vào một vành $B$. Nếu hạn chế của f lên $A$ là đơn ánh thì f là đơn ánh.
+Cho $A'$ là một miền nguyên, $A$ là một vành con của $A'$ sao cho $A'$ là nguyên trên $A$ và $f$ là một đồng cấu từ $A'$ vào một vành $B$. Nếu hạn chế của $f$ lên $A$ là đơn ánh thì $f$ là đơn ánh.
 
 Nếu $a'$ là hạt nhân của, giả thiết có nghĩa là $a' \cap A = (0)$; vì $A'$ là một miền nguyên, có thể áp dụng Hệ quả 1 bằng cách lấy $p$ và $p'$ lần lượt là iđêan (0) của $A$ và iđêan (0) của $A'$, do đó $a' = (0)$.
 
@@ -125,15 +125,15 @@ Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ nguyên trên $A$ 
 
 Để một iđêan nguyên tố của $A'$ chứa $mA'$, điều kiện cần và đủ là ảnh ngược của nó qua $h$ chứa $m$ và do đó nó nằm trên $m$, vì $m$ là cực đại trong $A$; do đó các $m'_j$ là những iđêan nguyên tố duy nhất của $A'$ chứa $mA'$ (Mệnh đề 1) và vì vậy $c' = \bigcap_j m'_j$ là căn của $mA'$ (Chương II, § 2, no. 6, Hệ quả 1 của Mệnh đề 13). Theo định nghĩa của $q'_j$, lớp mod. $q'_j$ của một phần tử thuộc $A' - m'_j$ không phải là một ước của 0 trong $A'/q'_j$; mặt khác, vì các $m'_j$ là những iđêan cực đại phân biệt, với mỗi chỉ số $j$ tồn tại một phần tử $a'_j$ thuộc $\bigcap_j m'_j$ và không thuộc $m'_j$ (Chương II, § 1, no. 1, Mệnh đề 4): khi đó, với mọi $x \notin m'_j, a'_j x \in r'$, do đó lớp mod. $q'_j$ của $a'_j x$ là lũy linh và, vì lớp của $a'_j$ không phải là một ước của 0, ta kết luận rằng lớp của $x$ là lũy linh; nói cách khác, $m'_j$ là căn của $q'_j$, điều này chứng minh (i). Suy ra các $q'_j$ nguyên tố cùng nhau từng đôi một (Chương II, § 1, no. 1, Mệnh đề 3); do đó (iii) sẽ là một hệ quả của (ii), có tính đến Chương II, § 1, no. 2, Mệnh đề 5. Để thiết lập (ii), ta chú ý rằng trong vành $A'/mA'$ các $m'_j/mA'$ là những iđêan cực đại duy nhất và $q'_j/mA'$ là sự bão hòa của (0) đối với $m'_j/mA'$ (Chương 11, § 2, no. 4); do đó ta có thể giới hạn sự chú ý vào trường hợp $mA' = (0)$; mệnh đề (ii) khi đó suy ra từ Chương II, § 3, no. 3, Hệ quả 2 của Định lý 1.
 
-Nhận xét (1) Nếu $A'$ là Noether, thì suy ra từ (i) và (ii) rằng $(q'_j)_{1 \leq j \leq n}$ là phân tích nguyên sơ duy nhất của $mA'$ (Chương IV, § 2, no. 3).
+Nhận xét (1) Nếu $A'$ là Noether, suy ra từ (i) và (ii) rằng $(q'_j)_{1 \leq j \leq n}$ là phân tích nguyên sơ duy nhất của $mA'$ (Chương IV, § 2, no. 3).
 
 #### Định lý 1 {#ac-v-s2-thm-1 .statement}
 
 Cho $h : A \to A'$ là một đồng cấu vành đơn ánh sao cho $A$ là nguyên trên $A$ và $p$ là một iđêan nguyên tố của $A$. Tồn tại một iđêan nguyên tố $p'$ của $A'$ nằm trên $p$.
 
-Trước hết giả sử rằng $A$ là một vành địa phương và $p$ là iđêan cực đại của $A$; khi đó, với mọi iđêan cực đại $m'$ của $A'$, $h^{-1}(m')$ là một iđêan cực đại của $A$ (Mệnh đề 1) và do đó bằng $p$, điều này chứng minh định lý trong trường hợp này (vì $A'$ chứa $A$ theo giả thiết và do đó không thu gọn về 0). Trong trường hợp tổng quát, đặt $S = A - p$; khi đó $S^{-1}A$ là một vành địa phương có iđêan cực đại là $S^{-1}p$ (Chương 11, § 2, no. 5, Mệnh đề 11), $S^{-1}h : S^{-1}A \to S^{-1}A$, là đơn ánh (Chương II, § 2, no. 4, Định lý 1) và $S^{-1}A'$ là nguyên trên $S^{-1}A$ ($§ 1$, no. 5, Mệnh đề 16); khi đó tồn tại một iđêan nguyên tố $q'$ của $S^{-1}A'$ nằm trên $S^{-1}p$ và ta biết rằng $q' = S^{-1}p'$, trong đó $p'$ là một iđêan nguyên tố của $A'$ nằm trên $p$ (Bổ đề 1).
+Trước hết giả sử rằng $A$ là một vành địa phương và $p$ là iđêan cực đại của $A$; khi đó, với mọi iđêan cực đại $m'$ của $A'$, $h^{-1}(m')$ là một iđêan cực đại của $A$ (Mệnh đề 1) và do đó bằng $p$, điều này chứng minh định lý trong trường hợp này (vì $A'$ chứa $A$ theo giả thiết và do đó không bị rút gọn về 0). Trong trường hợp tổng quát, viết $S = A - p$; khi đó $S^{-1}A$ là một vành địa phương mà iđêan cực đại là $S^{-1}p$ (Chương 11, § 2, no. 5, Mệnh đề 11), $S^{-1}h : S^{-1}A \to S^{-1}A$, là đơn ánh (Chương II, § 2, no. 4, Định lý 1) và $S^{-1}A'$ là nguyên trên $S^{-1}A$ ($§ 1$, no. 5, Mệnh đề 16); khi đó tồn tại một iđêan nguyên tố $q'$ của $S^{-1}A'$ nằm trên $S^{-1}p$ và ta biết rằng $q' = S^{-1}p'$, trong đó $p'$ là một iđêan nguyên tố của $A'$ nằm trên $p$ (Bổ đề 1).
 
-Nếu $h : A \to A'$ không đơn ánh, Định lý 1 không còn nhất thiết đúng nữa, như ví dụ về đồng cấu $Z \to \mathbf{Z}/n\mathbf{Z} \ (n > 1)$ cho thấy. Tuy nhiên Định lý 1 có thể được áp dụng cho đơn ánh chính tắc $h(A) \to A'$; nói cách khác, mệnh đề của Định lý 1 đúng đối với các iđêan nguyên tố $p$ chứa $\mathrm{Ker}(h)$.
+Nếu $h : A \to A'$ không đơn ánh, Định lý 1 không còn nhất thiết đúng nữa, như ví dụ về đồng cấu $Z \to \mathbf{Z}/n\mathbf{Z} \ (n > 1)$ cho thấy. Tuy nhiên Định lý 1 có thể được áp dụng cho đơn ánh chính tắc $h(A) \to A'$; nói cách khác, mệnh đề của Định lý 1 là đúng đối với các iđêan nguyên tố $p$ chứa $\mathrm{Ker}(h)$.
 
 #### Hệ quả 1 {#ac-v-s2-thm-1-cor-1 .statement}
 
@@ -145,53 +145,53 @@ $pA' \subset p'$ và $\bar{h}(p') = p$.
 
 Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$, $a$ và $p$ là hai iđêan của $A$ sao cho $a \subset p$ và $a'$ là một iđêan của $A'$ nằm trên $a$. Giả sử rằng $p$ là nguyên tố. Khi đó tồn tại một iđêan nguyên tố $p'$ của $A'$ nằm trên $p$ và chứa $a'$.
 
-Nếu $h_1 : A/a \to A'/a'$ là đồng cấu dẫn xuất từ $h$ bằng cách lấy các thương, $h_1$ là đơn ánh theo giả thiết và $A'/a'$ là nguyên trên $A/a$ ($§ 1$, no. 1, Mệnh đề 2); khi đó tồn tại một iđêan nguyên tố $p'/a'$ của $A'/a'$ (p' nguyên tố trong $A$) nằm trên $p/a$ (Định lý 1) và $p'$ là iđêan cần tìm.
+Nếu $h_1 : A/a \to A'/a'$ là đồng cấu dẫn xuất từ $h$ bằng cách lấy thương, thì $h_1$ là đơn ánh theo giả thiết và $A'/a'$ là nguyên trên $A/a$ ($§ 1$, no. 1, Mệnh đề 2); khi đó tồn tại một iđêan nguyên tố $p'/a'$ của $A'/a'$ ($p'$ nguyên tố trong $A$) nằm trên $p/a$ (Định lý 1) và $p'$ là iđêan cần tìm.
 
 #### Hệ quả 3 {#ac-v-s2-thm-1-cor-3 .statement}
 
 Cho $A$ là một vành và $A'$ là một vành chứa $A$ và nguyên trên $A$. Nếu $\mathcal{R}'$ là căn Jacobson của $A'$, thì $\mathcal{R}' \cap A$ là căn Jacobson của $A$.
 
-Cho $32$ là căn Jacobson của $A$. Với mọi iđêan cực đại $m'$ của $A'$, $m' \cap A$ là một iđêan cực đại của $A$ (Mệnh đề 1), do đó $\mathcal{R} \subset m' \cap A$ và vì thế $\mathcal{R} \subset \mathcal{R}' \cap A$ (Đại số, Chương VIII, § 5, no. 3, Định nghĩa 3). Ngược lại, cho $x \in 32' \cap A$; với mọi iđêan cực đại $m$ của $A$, tồn tại một iđêan nguyên tố của $A'$ nằm trên $m$ (Định lý 1) và iđêan $m'$ này tất yếu là cực đại (Mệnh đề 1), do đó $x \in m' \cap A = m$ và vì thế $x \in 32$.
+Cho $32$ là căn Jacobson của $A$. Với mọi iđêan cực đại $m'$ của $A'$, $m' \cap A$ là một iđêan cực đại của $A$ (Mệnh đề 1), do đó $\mathcal{R} \subset m' \cap A$ và vì thế $\mathcal{R} \subset \mathcal{R}' \cap A$ (Đại số, Chương VIII, § 5, no. 3, Định nghĩa 3). Ngược lại, lấy $x \in 32' \cap A$; với mọi iđêan cực đại $m$ của $A$, tồn tại một iđêan nguyên tố của $A'$ nằm trên $m$ (Định lý 1) và iđêan này $m'$ tất yếu là cực đại (Mệnh đề 1), do đó $x \in m' \cap A = m$ và vì thế $x \in 32$.
 
 #### Hệ quả 4 {#ac-v-s2-thm-1-cor-4 .statement}
 
-Cho $A$ là một vành, $A'$ là một vành chứa $A$ và nguyên trên $A$ và $f$ là một đồng cấu từ $A$ vào một trường đóng đại số $L$. Khi đó $f$ có thể được mở rộng thành một đồng cấu từ $A'$ vào $L$.
+Cho $A$ là một vành, $A'$ là một vành chứa $A$ và nguyên trên $A$, và $f$ là một đồng cấu từ $A$ vào một trường đóng đại số $L$. Khi đó có thể mở rộng $f$ thành một đồng cấu từ $A'$ vào $L$.
 
-Cho $\mathfrak{p}$ là hạt nhân của $f$, là một iđêan nguyên tố vì $f(A) \subset L$ là một miền nguyên; cho $\mathfrak{p}'$ là một iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$ (Định lý 1). Khi đó $A/\mathfrak{p}$ được đồng nhất một cách chính tắc với một vành con của $A'/\mathfrak{p}'$ và $A'/\mathfrak{p}'$ là nguyên trên $A/\mathfrak{p}$ ($§ 1$, no. 1, Mệnh đề 2). Đồng cấu $f$ xác định, bằng cách lấy thương, một đẳng cấu của $A/\mathfrak{p}$ lên vành con $f(A)$ của $L$, đẳng cấu này có thể được mở rộng thành một đẳng cấu $g$ của trường các phân thức $K$ của $A/\mathfrak{p}$ lên một trường con của $L$. Vì trường các phân thức $K'$ của $A'/\mathfrak{p}'$ là đại số trên $K$, $g$ có thể được mở rộng thành một đẳng cấu $g'$ của $K'$ lên một trường con của $L$ (Đại số, Chương V, $§ 4$, no. 2, Hệ quả của Định lý 1); nếu $\pi': A' \to A'/\mathfrak{p}'$ là đồng cấu chính tắc, $g' \circ \pi'$ là một đồng cấu từ $A'$ vào $L$ mở rộng $f$.
+Cho $\mathfrak{p}$ là hạt nhân của $f$, đây là một iđêan nguyên tố vì $f(A) \subset L$ là một miền nguyên; gọi $\mathfrak{p}'$ là một iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$ (Định lý 1). Khi đó $A/\mathfrak{p}$ được đồng nhất một cách chính tắc với một vành con của $A'/\mathfrak{p}'$ và $A'/\mathfrak{p}'$ là nguyên trên $A/\mathfrak{p}$ ($§ 1$, no. 1, Mệnh đề 2). Đồng cấu $f$ xác định, bằng cách lấy thương, một đẳng cấu từ $A/\mathfrak{p}$ lên vành con $f(A)$ của $L$, đẳng cấu này có thể được mở rộng thành một đẳng cấu $g$ từ trường phân thức $K$ của $A/\mathfrak{p}$ lên một trường con của $L$. Vì trường phân thức $K'$ của $A'/\mathfrak{p}'$ là đại số trên $K$, nên $g$ có thể được mở rộng thành một đẳng cấu $g'$ từ $K'$ lên một trường con của $L$ (Đại số, Chương V, $§ 4$, no. 2, Hệ quả của Định lý 1); nếu $\pi': A' \to A'/\mathfrak{p}'$ là đồng cấu chính tắc, thì $g' \circ \pi'$ là một đồng cấu từ $A'$ vào $L$ mở rộng $f$.
 
-Nhận xét (2). Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$; khi đó ánh xạ liên tục liên kết $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ là đóng. Với mọi iđêan $a'$ của $A'$, $A'/a'$ là nguyên trên $A'$, do đó cũng trên $A$ ($§ 1$, no. 1, Mệnh đề 6) và $\mathrm{Spec}(A'/a')$ được đồng nhất với một không gian con đóng $V(a')$ của $\mathrm{Spec}(A')$; để chỉ ra rằng $^a h$ là đóng, ta thấy khi đó (thay thế $A'$ bởi $A'/a'$) rằng chỉ cần chứng minh rằng ảnh của $\mathrm{Spec}(A)'$ qua $^a h$ là một tập con đóng của $\mathrm{Spec}(A)$; nay theo Định lý 1, ảnh này chính là tập hợp các iđêan nguyên tố của $A$ chứa iđêan $\mathrm{Ker}(h)$ và tập hợp này là đóng theo định nghĩa của tôpô trên $\mathrm{Spec}(A)$.
+Nhận xét (2). Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$; khi đó ánh xạ liên tục liên kết $^a h : \mathrm{Spec}(A') \to \mathrm{Spec}(A)$ là đóng. Với mọi iđêan $a'$ của $A'$, $A'/a'$ là nguyên trên $A'$, nên cũng nguyên trên $A$ ($§ 1$, no. 1, Mệnh đề 6) và $\mathrm{Spec}(A'/a')$ được đồng nhất với một không gian con đóng $V(a')$ của $\mathrm{Spec}(A')$; để chứng minh rằng $^a h$ là đóng, khi đó ta thấy (thay thế $A'$ bởi $A'/a'$) rằng chỉ cần chứng minh ảnh của $\mathrm{Spec}(A)'$ dưới $^a h$ là một tập con đóng của $\mathrm{Spec}(A)$; mà theo Định lý 1, ảnh này chính là tập hợp các iđêan nguyên tố của $A$ chứa iđêan $\mathrm{Ker}(h)$ và tập hợp này là đóng theo định nghĩa của tôpô trên $\mathrm{Spec}(A)$.
 
 #### Mệnh đề 2 {#ac-v-s2-prop-2 .statement}
 
-Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là nguyên trên $A$, $\mathfrak{p}$ là một iđêan nguyên tố của $A$, $S = A - \mathfrak{p}$, $(p'_i)_{i \in I}$ là họ tất cả các iđêan nguyên tố $\mathfrak{p}$ của $A'$ nằm trên $\mathfrak{p}$ và $S' = \bigcap_{i \in I} (A' - p_i)$; khi đó $S^{-1}A' = {S'}^{-1}A'$.
+Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ nguyên trên $A$, $\mathfrak{p}$ là một iđêan nguyên tố của $A$, $S = A - \mathfrak{p}$, $(p'_i)_{i \in I}$ là họ tất cả các iđêan nguyên tố $\mathfrak{p}$ của $A'$ nằm trên $\mathfrak{p}$ và $S' = \bigcap_{i \in I} (A' - p_i)$; khi đó $S^{-1}A' = {S'}^{-1}A'$.
 
-Thật vậy, theo định nghĩa $h(S) \subset S'$ và, vì
+Thật vậy, theo định nghĩa thì $h(S) \subset S'$ và, vì
 
 $$
 h(S)^{-1}A' = S^{-1}A',
 $$
 
-chỉ cần chứng minh, theo Chương II, $§ 2$, no. 3, Mệnh đề 8, rằng nếu một iđêan nguyên tố $q'$ của $A'$ không giao với $h(S)$, thì nó cũng không giao với $S'$). Bây giờ, giả sử rằng $q' \cap h(S) = \varnothing$ và đặt $q = h^{-1}(q')$; khi đó $q \cap S = \varnothing$, nói cách khác $q \subset \mathfrak{p}$. Vì $q'$ nằm trên $q$ theo định nghĩa, từ Hệ quả 2 của Mệnh đề 1 suy ra rằng tồn tại một chỉ số $c$ sao cho $q' \subset p'_c$ và do đó $q' \cap S' = \varnothing$, điều này hoàn tất chứng minh.
+nên chỉ cần chứng minh, nhờ Chương II, $§ 2$, no. 3, Mệnh đề 8, rằng nếu một iđêan nguyên tố $q'$ của $A'$ không giao với $h(S)$ thì nó cũng không giao với $S'$. Bây giờ, giả sử $q' \cap h(S) = \varnothing$ và đặt $q = h^{-1}(q')$; khi đó $q \cap S = \varnothing$, nói cách khác $q \subset \mathfrak{p}$. Vì theo định nghĩa $q'$ nằm trên $q$, suy ra từ Hệ quả 2 của Mệnh đề 1 rằng tồn tại một chỉ số $c$ sao cho $q' \subset p'_c$ và do đó $q' \cap S' = \varnothing$, điều này hoàn tất chứng minh.
 
 #### Mệnh đề 3 {#ac-v-s2-prop-3 .statement}
 
-Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là một môđun $A$ sinh hữu hạn; khi đó, với mọi iđêan nguyên tố $\mathfrak{p}$ của $A$, tập hợp các iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$ là hữu hạn.
+Cho $h : A \to A'$ là một đồng cấu vành sao cho $A'$ là một $A$-môđun sinh hữu hạn; khi đó, với mọi iđêan nguyên tố $\mathfrak{p}$ của $A$, tập các iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$ là hữu hạn.
 
-Đặt $S = A - p$; theo Bổ đề 1 ta có thể thay thế $A$ bởi $S^{-1}A$, $A'$ bởi $S^{-1}A'$ (là một môđun $S^{-1}A$ sinh hữu hạn) và $p$ bởi $S^{-1}p$; nói cách khác, ta có thể giả sử rằng $A$ là một vành địa phương và $p$ là iđêan cực đại của nó. Khi đó (theo nhận xét ở đầu số này) $A$ có thể được thay thế bởi $A/p$, $A'$ bởi $A'/pA'$ và $p$ bởi $(0)$, vì $A'/pA' = (A/p) \otimes_A A'$ là một môđun $(A/p)$ sinh hữu hạn. Như vậy cuối cùng ta đã quy bài toán về việc chứng minh mệnh đề khi $A$ là một trường và $p = (0)$; khi đó $A'$ là một $A$-đại số có hạng hữu hạn và do đó là Artin, và ta biết rằng trong một đại số như vậy chỉ có một số hữu hạn iđêan nguyên tố (Chương IV, § 2, no. 5, Mệnh đề 9).
+Đặt $S = A - p$; theo Bổ đề 1, ta có thể thay thế $A$ bởi $S^{-1}A$, $A'$ bởi $S^{-1}A'$ (là một $S^{-1}A$-môđun sinh hữu hạn) và $p$ bởi $S^{-1}p$; nói cách khác, ta có thể giả sử rằng $A$ là một vành địa phương và $p$ là iđêan cực đại của nó. Khi đó (theo nhận xét đã nêu ở đầu số này) có thể thay thế $A$ bởi $A/p$, $A'$ bởi $A'/pA'$ và $p$ bởi $(0)$, vì $A'/pA' = (A/p) \otimes_A A'$ là một $(A/p)$-môđun sinh hữu hạn. Vậy cuối cùng ta đã quy bài toán về việc chứng minh mệnh đề trong trường hợp $A$ là một trường và $p = (0)$; khi đó $A'$ là một $A$-đại số hạng hữu hạn và do đó là Artin, và ta biết rằng trong một đại số như vậy chỉ có hữu hạn iđêan nguyên tố (Chương IV, § 2, no. 5, Mệnh đề 9).
 
 ### 2. NHÓM PHÂN TÍCH VÀ NHÓM QUÁN TÍNH
 
 #### Định nghĩa 2 {#ac-v-s2-def-2 .statement}
 
-Cho $A'$ là một vành và $G$ là một nhóm tác động trên $A'$ ($§ 1$, no. 9). Với một iđêan nguyên tố $p' \subset A'$, nhóm con gồm các phần tử $\sigma \in G$ sao cho $\sigma.p' = p'$ được gọi là nhóm phân tích của $p'$ (đối với $G$) và được ký hiệu bởi $G^z(p')$. Vành các phần tử của $A'$ bất biến dưới $G^z(p')$ được gọi là vành phân tích của $p'$ (đối với $G$) và được ký hiệu bởi $A^z(p')$ (*).
+Cho $A'$ là một vành và $G$ là một nhóm tác động lên $A'$ ($§ 1$, no. 9). Với một iđêan nguyên tố $p' \subset A'$, nhóm con gồm các phần tử $\sigma \in G$ sao cho $\sigma.p' = p'$ được gọi là nhóm phân tích của $p'$ (đối với $G$) và được ký hiệu là $G^z(p')$. Vành các phần tử của $A'$ bất biến dưới $G^z(p')$ được gọi là vành phân tích của $p'$ (đối với $G$) và được ký hiệu là $A^z(p')$ (*).
 
 Ta thường viết $G^z$ và $A^z$ thay cho $G^z(p')$ và $A^z(p')$ tương ứng, khi không có sự nhập nhằng.
 
-Với mọi $\sigma \in G^z(p')$ ta cũng ký hiệu bởi $z \mapsto \sigma.z$ tự đồng cấu của vành $A'/p'$ dẫn xuất từ tự đồng cấu $x \mapsto \sigma.x$ của $A'$ bằng cách lấy thương; rõ ràng nhóm $G^z(p')$ tác động theo cách đó trên vành $A'/p'$.
+Với mọi $\sigma \in G^z(p')$, ta cũng ký hiệu bởi $z \mapsto \sigma.z$ tự đồng cấu của vành $A'/p'$ suy ra từ tự đồng cấu $x \mapsto \sigma.x$ của $A'$ bằng cách lấy thương; rõ ràng nhóm $G^z(p')$ tác động theo cách đó lên vành $A'/p'$.
 
 #### Định nghĩa 3 {#ac-v-s2-def-3 .statement}
 
-Với ký hiệu của Định nghĩa 2, nhóm con của $G^z(p')$ gồm các $\sigma$ sao cho tự đồng cấu $z \mapsto \sigma.z$ của $A'/p'$ là đồng nhất được gọi là nhóm quán tính của $p'$ (đối với $G$) và được ký hiệu bởi $G^T(p')$ (hoặc $G^T$). Vành các phần tử của $A'$ bất biến dưới $G^T(p')$ được gọi là vành quán tính của $p'$ (đối với $G$) và được ký hiệu bởi $A^T(p')$ (hoặc $A^T$) (†).
+Với ký hiệu của Định nghĩa 2, nhóm con của $G^z(p')$ gồm những $\sigma$ sao cho tự đồng cấu $z \mapsto \sigma.z$ của $A'/p'$ là đồng nhất được gọi là nhóm quán tính của $p'$ (đối với $G$) và được ký hiệu là $G^T(p')$ (hoặc $G^T$). Vành các phần tử của $A'$ bất biến dưới $G^T(p')$ được gọi là vành quán tính của $p'$ (đối với $G$) và được ký hiệu là $A^T(p')$ (hoặc $A^T$) (†).
 
 Nếu $A$ là vành con của $A'$ gồm các phần tử bất biến của $G$, thì rõ ràng
 
@@ -199,16 +199,16 @@ $$
 A \subset A^z(p') \subset A^T(p') \subset A'.
 $$
 
-Từ các Định nghĩa 2 và 3 suy ra rằng, với mọi $p \in G$,
+Suy ra từ các Định nghĩa 2 và 3 rằng, với mọi $p \in G$,
 
 $$
 G^z(\rho.p') = \rho G^z(p') \rho^{-1}, \quad G^T(\rho.p') = \rho G^T(p') \rho^{-1}.
 $$
 
-Nếu, với mọi $\sigma \in G^z(p')$, $\bar{\sigma}$ là tự đẳng cấu $z \mapsto \sigma.z$ của $A'/p'$, thì $\sigma \mapsto \bar{\sigma}$ là một đồng cấu (gọi là chính tắc) từ $G^z$ vào nhóm $\Gamma_0$ các tự đẳng cấu của
+Nếu, với mọi $\sigma \in G^z(p')$, $\bar{\sigma}$ là tự đẳng cấu $z \mapsto \sigma.z$ của $A'/p'$, thì $\sigma \mapsto \bar{\sigma}$ là một đồng cấu (gọi là chính tắc) từ $G^z$ đến nhóm $\Gamma_0$ các tự đẳng cấu của
 
-(*) Chữ $Z$ là chữ cái đầu của từ tiếng Đức "Zerlegung" có nghĩa là "phân tích."
-(†) Chữ T là chữ cái đầu của từ tiếng Đức "Tragheit" có nghĩa là "quán tính."
+(*) Chữ cái $Z$ là chữ cái đầu của từ tiếng Đức "Zerlegung" có nghĩa là "phân tích."
+(†) Chữ cái T là chữ cái đầu của từ tiếng Đức "Tragheit" có nghĩa là "quán tính."
 
 A'/p' làm bất biến các phần tử của $A^{\mathbf{Z}}/(p' \cap A^{\mathbf{Z}})$ (được đồng nhất một cách chính tắc với một vành con của $A'/p'$) và theo định nghĩa $\mathcal{G}^{\Gamma}(p')$ là hạt nhân của đồng cấu chính tắc này; do đó $\mathcal{G}^{\Gamma}$ là một nhóm con chuẩn của $\mathcal{G}^{\mathbf{Z}}$. Nếu $k'$ là trường phân thức của $A'/p'$, mọi tự đẳng cấu của $A'/p'$ có thể được mở rộng duy nhất thành một tự đẳng cấu của $k'$, sao cho $\sigma \mapsto \bar{\sigma}$ có thể được xem như một đồng cấu từ $\mathcal{G}^{\mathbf{Z}}(p')$ vào nhóm các tự đẳng cấu của $k'$. Cuối cùng chú ý rằng, vì $\mathcal{G}^{\Gamma}$ là chuẩn trong $\mathcal{G}^{\mathbf{Z}}$, $A^{\Gamma}$ là ổn định dưới tác động của $\mathcal{G}^{\mathbf{Z}}$.
 
@@ -244,7 +244,7 @@ $$
 u(\pi'(x)) = \pi'(\tau.x);
 $$
 
-nhưng $u(\pi'(x)) \neq 0$ và, với $\sigma \in \mathcal{G} - \mathcal{G}^z$, $\sigma.x \in p'$ và do đó $\pi'(\sigma.x) = 0$; ta kết luận rằng tất yếu $\tau \in \mathcal{G}^z$. Nhưng vì $u$ và $\tilde{\tau}$ có cùng giá trị trên phần tử nguyên thủy $\pi'(y) = \pi'(x)$ của $k'_s$, chúng trùng nhau trên $k'_s$ và, vì $k'$ là một mở rộng căn của $k'_s$, chúng trùng nhau trên $k'$.
+nhưng $u(\pi'(x)) \neq 0$ và, với $\sigma \in \mathcal{G} - \mathcal{G}^z$, $\sigma.x \in p'$ và do đó $\pi'(\sigma.x) = 0$; ta kết luận rằng tất yếu $\tau \in \mathcal{G}^z$. Nhưng vì $u$ và $\tilde{\tau}$ có cùng giá trị đối với phần tử nguyên thủy $\pi'(y) = \pi'(x)$ của $k'_s$, chúng trùng nhau trên $k'_s$ và, vì $k'$ là một mở rộng xuyên căn của $k'_s$, chúng trùng nhau trên $k'$.
 
 #### Hệ quả {#ac-v-s2-n2-cor-1 .statement}
 
@@ -256,63 +256,63 @@ $$
 
 *đối với mọi* $x \in A'$.
 
-Gọi $p'_i$ là hạt nhân của $f_i$ ($i = 1, 2$), đó là một iđêan nguyên tố của $A'$; theo giả thiết $p'_1 \cap A = p'_2 \cap A$ và giao này là một iđêan nguyên tố $p$ của $A$; do đó tồn tại $\tau \in \mathcal{G}$ sao cho $\tau.p'_2 = p'_1$ (Định lý 2 (i)); thay thế $f_1$ bằng đồng cấu $x \mapsto f_1(\tau.x)$ thì khi đó ta có thể giả sử $p'_2 = p'_1$ (một iđêan mà ta sẽ ký hiệu là $p'$). Khi lấy thương, từ $f_1$ và $f_2$ ta suy ra hai đồng cấu đơn ánh $f'_1, f'_2$ từ $A'/p'$ vào $L$, do đó mở rộng thành hai đồng cấu đơn ánh $f''_1, f''_2$ từ trường phân thức $k'$ của $A'/p'$ vào $L$. Vì $k'$ là một mở rộng quasi-Galois của $k$, nên $k''_1 = f''_1(k')$ và $k''_2 = f''_2(k')$ cũng vậy (đồng nhất $k$ với một trường con của $L$) và, vì có một đẳng cấu k của $k''_1$ lên $k''_2, k''_1 = k''_2$ (*Đại số*, Chương V, § 6, Mệnh đề 6). Do đó $f''_1 \circ {f''_2}^{-1}$ là một tự đẳng cấu k của $k'$; vậy theo Định lý 2 (ii) nó có dạng 6, trong đó $\sigma \in \mathcal{G}^z(p')$. Đặc biệt, với mọi $x \in A'$, các phần tử $f_2(x)$ và $f_1(\sigma.x)$ bằng nhau.
+Cho $p'_i$ là hạt nhân của $f_i$ ($i = 1, 2$), đó là một iđêan nguyên tố của $A'$; theo giả thiết $p'_1 \cap A = p'_2 \cap A$ và giao này là một iđêan nguyên tố $p$ của $A$; do đó tồn tại $\tau \in \mathcal{G}$ sao cho $\tau.p'_2 = p'_1$ (Định lý 2 (i)); bằng cách thay thế $f_1$ bởi đồng cấu $x \mapsto f_1(\tau.x)$ khi đó ta có thể giả sử rằng $p'_2 = p'_1$ (một iđêan mà ta sẽ ký hiệu là $p'$). Khi lấy thương, từ $f_1$ và $f_2$ ta suy ra được hai đồng cấu đơn ánh $f'_1, f'_2$ từ $A'/p'$ vào $L$, vì thế mở rộng thành hai đồng cấu đơn ánh $f''_1, f''_2$ từ trường phân thức $k'$ của $A'/p'$ vào $L$. Vì $k'$ là một mở rộng quasi-Galois của $k$, nên $k''_1 = f''_1(k')$ và $k''_2 = f''_2(k')$ cũng vậy ($k$ được đồng nhất với một trường con của $L$) và, vì có một k-đẳng cấu từ $k''_1$ lên $k''_2$, nên $k''_1 = k''_2$ (*Algebra*, Chương V, § 6, Mệnh đề 6). Do đó $f''_1 \circ {f''_2}^{-1}$ là một k-tự đẳng cấu của $k'$; bởi Định lý 2 (ii) vì thế nó có dạng 6, trong đó $\sigma \in \mathcal{G}^z(p')$. Đặc biệt, với mọi $x \in A'$ các phần tử $f_2(x)$ và $f_1(\sigma.x)$ là bằng nhau.
 
 **Nhận xét**
 
-(1) Chú ý rằng dưới các giả thiết của Định lý 2, $k'$ có thể *vô hạn* trên $k$ nếu $k'$ không tách được trên $k$ (Bài tập 9).
+(1) Chú ý rằng dưới các giả thiết của Định lý 2, $k'$ có thể là *vô hạn* trên $k$ nếu $k'$ không tách được trên $k$ (Bài tập 9).
 
-(2) Rõ ràng $k$ là một mở rộng *Galois* của $k$ nếu trường $k$ là *hoàn hảo*. Khi đó nó là hữu hạn trên $k$.
+(2) Rõ ràng $k$ là một mở rộng *Galois* của $k$ nếu trường $k$ là *hoàn hảo*. Khi đó nó hữu hạn trên $k$.
 
 #### Mệnh đề 4 {#ac-v-s2-prop-4 .statement}
 
-*Cho $A'$ là một vành, $\mathcal{G}$ là một nhóm hữu hạn tác động trên $A'$, $\mathcal{H}$ là một nhóm con của $\mathcal{G}$, $A$ và $B$ lần lượt là các vành bất biến của $\mathcal{G}$ và $\mathcal{H}$ và $p'$ là một iđêan nguyên tố của $A$; ta viết $p = A \cap p'$ và $p(B) = B \cap p'$.
+*Cho $A'$ là một vành, $\mathcal{G}$ là một nhóm hữu hạn tác động trên $A'$, $\mathcal{H}$ là một nhóm con của $\mathcal{G}$, $A$ và $B$ lần lượt là các vành bất biến của $\mathcal{G}$ và $\mathcal{H}$, và $p'$ là một iđêan nguyên tố của $A$; viết $p = A \cap p'$ và $p(B) = B \cap p'$.
 
 (i) Để $\mathcal{H}$ được chứa trong nhóm phân tích $\mathcal{G}^z(p')$, điều kiện cần và đủ là $p'$ là iđêan nguyên tố duy nhất của $A$ nằm trên $p(B)$.
 
-(ii) *Nếu $\mathcal{H}$ chứa $\mathcal{G}^z(p')$, các điều kiện sau được thỏa mãn*:
+(ii) *Nếu $\mathcal{H}$ chứa $\mathcal{G}^z(p')$, thì các điều kiện sau được thỏa mãn*:
 (a) *Các vành $A/p$ và $B/p(B)$ có cùng trường phân thức*.
 (b) *Iđêan cực đại của vành địa phương $B_{p(B)}$ bằng $pB_{p(B)}$*.
 
-(iii) *Giả sử thêm rằng $A'$ là một miền nguyên và rằng $\bigcap_{n \geq 0} p^nA'_p = 0$; khi đó các điều kiện (a) và (b) của (ii) kéo theo rằng $\mathcal{G}^z(p')$ giữ bất biến các phần tử của $B$.*
+(iii) *Giả sử thêm rằng $A'$ là một miền nguyên và $\bigcap_{n \geq 0} p^nA'_p = 0$; khi đó các điều kiện (a) và (b) của (ii) kéo theo rằng $\mathcal{G}^z(p')$ bất biến các phần tử của $B$*.
 
-(i) Theo Định lý 2 (i), các iđêan nguyên tố của $A$ nằm trên $p(B)$ là các iđêan có dạng $\sigma.p'$, với $\sigma \in \mathcal{H}$; do đó ngay lập tức có (i).
+(i) Từ Định lý 2 (i) suy ra rằng các iđêan nguyên tố của $A$ nằm trên $p(B)$ là các iđêan có dạng $\sigma.p'$, trong đó $\sigma \in \mathcal{H}$; do đó ngay lập tức được (i).
 
-(ii) Ta viết $S = A - p$; ta biết rằng các vành bất biến của $\mathcal{G}$ và $\mathcal{H}$ trong $S^{-1}A'$ lần lượt là $S^{-1}A$ và $S^{-1}B$ (§ 1, no. 9, Mệnh đề 23) và $\mathcal{G}^{\mathbf{Z}}(S^{-1}p) = \mathcal{G}^{\mathbf{Z}}(p')$ (Bổ đề 3); cuối cùng $S^{-1}p(B) = S^{-1}p' \cap S^{-1}B$ (Chương II, § 2, no. 4), vành địa phương của iđêan nguyên tố $S^{-1}p(B)$ của vành $S^{-1}B$ là đẳng cấu chính tắc với $B_{p(B)}$ và trường thặng dư của nó đẳng cấu với trường phân thức của $B/p(B)$ (Chương II, § 2, no. 5, Mệnh đề 11). Do đó ta có thể chứng minh (ii) bằng cách hạn chế sự chú ý vào trường hợp $p$ là cực đại. Để thiết lập (a), sẽ đủ để chứng minh rằng
+(ii) Ta viết $S = A - p$; ta biết rằng các vành bất biến của $\mathcal{G}$ và $\mathcal{H}$ trong $S^{-1}A'$ lần lượt là $S^{-1}A$ và $S^{-1}B$ (§ 1, no. 9, Mệnh đề 23) và $\mathcal{G}^{\mathbf{Z}}(S^{-1}p) = \mathcal{G}^{\mathbf{Z}}(p')$ (Bổ đề 3); sau cùng $S^{-1}p(B) = S^{-1}p' \cap S^{-1}B$ (Chương II, § 2, no. 4), vành địa phương của iđêan nguyên tố $S^{-1}p(B)$ của vành $S^{-1}B$ đẳng cấu chính tắc với $B_{p(B)}$ và trường thặng dư của nó đẳng cấu với trường phân thức của $B/p(B)$ (Chương II, § 2, no. 5, Mệnh đề 11). Do đó ta có thể chứng minh (ii) bằng cách chỉ xét trường hợp $p$ là cực đại. Để thiết lập (a), sẽ đủ để chứng minh rằng
 
 $$
 B = A + p(B)
 $$
 
-vì điều này sẽ cho thấy rằng các trường $A/p$ và $B/p(B)$ là *đẳng cấu chính tắc*. Theo Định lý 2 chỉ có một số hữu hạn iđêan nguyên tố của $A'$ nằm trên $p$ và theo Định lý 1 của no. 1 có ít nhất một iđêan nguyên tố của $A'$ nằm trên mọi iđêan nguyên tố của $B$; điều đó suy ra rằng chỉ có một số *hữu hạn* iđêan nguyên tố của $B$ nằm trên $p$; ký hiệu $n_j$ ($1 \leq j \leq r$) là những iđêan trong các iđêan ấy mà $\neq p(B)$. Cho $x$ là một phần tử của $B$; vì các iđêan $p(B)$ và $n_j$ đều cực đại (no. 1, Mệnh đề 1), tồn tại $y \in B$ sao cho $y \equiv x$ (mod. $p(B)$) và $y \in n_j$ với $1 \leq j \leq r$ (Chương 11, § 1, no. 2, Mệnh đề 5). Cho $y_1 = y, y_2, \ldots, y_q$ là các phần tử phân biệt của quỹ đạo của $y$ dưới tác dụng của $\mathcal{G}$; rõ ràng
+vì điều này sẽ cho thấy rằng các trường $A/p$ và $B/p(B)$ là *đẳng cấu chính tắc*. Theo Định lý 2 chỉ có một số hữu hạn iđêan nguyên tố của $A'$ nằm trên $p$ và theo Định lý 1 của no. 1 thì có ít nhất một iđêan nguyên tố của $A'$ nằm trên mỗi iđêan nguyên tố của $B$; điều đó suy ra rằng chỉ có một số *hữu hạn* iđêan nguyên tố của $B$ nằm trên $p$; gọi $n_j$ ($1 \leq j \leq r$) là những iđêan trong số đó mà $\neq p(B)$. Cho $x$ là một phần tử của $B$; vì các iđêan $p(B)$ và $n_j$ đều cực đại (no. 1, Mệnh đề 1), nên tồn tại $y \in B$ sao cho $y \equiv x$ (mod. $p(B)$) và $y \in n_j$ với $1 \leq j \leq r$ (Chương 11, § 1, no. 2, Mệnh đề 5). Cho $y_1 = y, y_2, \ldots, y_q$ là các phần tử phân biệt của quỹ đạo của $y$ dưới tác động của $\mathcal{G}$; rõ ràng
 
 $$
 z = y_1 + y_2 + \cdots + y_q \in A,
 $$
 
-và để thiết lập (3) chỉ cần chứng minh rằng $y_i \in p'$ với $i \geq 2$, vì khi đó ta sẽ suy ra rằng $z - y \in p' \cap B = p(B)$, do đó $x \in A + p(B)$ vì $x \equiv y$ (mod. $p(B)$). Khi ấy cho $i \geq 2$ và $\sigma \in \mathcal{G}$ sao cho $\sigma.y = y_i$; ta chứng minh rằng $\sigma^{-1}.p'$ không nằm trên $p(B)$. Thật vậy, nếu không thì sẽ tồn tại $\tau \in \mathcal{H}$ sao cho $\sigma^{-1}.p' = \tau.p'$ (Định lý 2 (i)), do đó $(\tau^{-1}\sigma^{-1}).p' = p'$, nói cách khác $\tau^{-1}\sigma^{-1} \in \mathcal{G}^{\mathbf{Z}} \subset \mathcal{H}$ theo giả thiết, do đó $\sigma \in \mathcal{H}$; nhưng vì $y \in B$ và $\sigma.y \neq y$, điều này là vô lý. Ta kết luận rằng $\sigma^{-1}.p'$ nằm trên một trong các iđêan $n_j$ và, vì $y \in n_j$ theo phép dựng, chắc chắn $y \in \sigma^{-1}.p'$ hoặc $y_i = \sigma.y \in p'$.
+và để thiết lập (3), chỉ cần chỉ ra rằng $y_i \in p'$ với $i \geq 2$, vì khi đó ta sẽ suy ra rằng $z - y \in p' \cap B = p(B)$, do đó $x \in A + p(B)$ vì $x \equiv y$ (mod. $p(B)$). Xét $i \geq 2$ và $\sigma \in \mathcal{G}$ sao cho $\sigma.y = y_i$; ta chỉ ra rằng $\sigma^{-1}.p'$ không nằm trên $p(B)$. Thật vậy, nếu ngược lại thì sẽ tồn tại $\tau \in \mathcal{H}$ sao cho $\sigma^{-1}.p' = \tau.p'$ (Định lý 2 (i)), do đó $(\tau^{-1}\sigma^{-1}).p' = p'$, nói cách khác $\tau^{-1}\sigma^{-1} \in \mathcal{G}^{\mathbf{Z}} \subset \mathcal{H}$ theo giả thiết, do đó $\sigma \in \mathcal{H}$; nhưng vì $y \in B$ và $\sigma.y \neq y$, điều này là vô lý. Ta kết luận rằng $\sigma^{-1}.p'$ nằm trên một trong các iđêan $n_j$ và, vì $y \in n_j$ theo phép dựng, chắc chắn $y \in \sigma^{-1}.p'$ hay $y_i = \sigma.y \in p'$.
 
-Để chứng minh (b), chỉ cần thiết lập rằng $p(B)$ được chứa trong *bão hòa* $q$ của iđêan $pB$ đối với $p(B)$ (Chương II, § 2, no. 4, Mệnh đề 10); vì $p(B)$ không được chứa trong iđêan nào trong các iđêan $n_j$ ($1 \leq j \leq r$), thậm chí chỉ cần chứng minh rằng
+Để chứng minh (b), chỉ cần thiết lập rằng $p(B)$ được chứa trong *bão hòa* $q$ của iđêan $pB$ đối với $p(B)$ (Chương II, § 2, no. 4, Mệnh đề 10); vì $p(B)$ không được chứa trong iđêan nào trong các $n_j$ ($1 \leq j \leq r$), thậm chí chỉ cần chứng minh rằng
 
 $$
 p(B) \subset q \cup n_1 \cup \cdots \cup n_r
 $$
 
-bởi Chương II, § 1, no. 1, Mệnh đề 2. Để làm điều này, ta xét một phần tử $u \in p(B)$ thuộc không một $n_j$ nào ($1 \leq j \leq r$) (Chương 11, § 1, no. 1, Mệnh đề 2); đặt $u_1 = u, u_2, \ldots, u_m$ là các phần tử phân biệt của quỹ đạo của $u$ dưới tác dụng của $\mathcal{G}$; ta viết $w = u_1u_2 \ldots u_m, v = u_2 \ldots u_m$; rõ ràng $w \in A$; mặt khác, nếu $\tau \in \mathcal{H}$, $\tau.u = u$ và do đó tất yếu $\tau.u_i \neq u$ với $i \geq 2$, điều này chỉ ra rằng $\tau.v = v$ và do đó $v \in B$. Có thể chứng minh như trong chứng minh của (a) rằng, nếu $\sigma \in \mathcal{G}$ là sao cho $\sigma.u = u_i$ với $i \geq 2$, thì $\sigma^{-1}.p'$ nằm phía trên một trong các $n_j$ và, vì $u \notin n_j$, cũng có $u \notin \sigma^{-1}.p'$, nói cách khác $u_i \notin p'$. Ta kết luận rằng $v \notin p'$ và do đó $v \notin p(B)$. Mặt khác rõ ràng $w \in p' \cap A = p$ và quan hệ $w = uv$ cho thấy rằng $u$ thuộc vào bão hòa của $pB$ đối với $p(B)$ và do đó thiết lập (4).
+theo Chương II, § 1, no. 1, Mệnh đề 2. Để làm điều này, ta xét một phần tử $u \in p(B)$ không thuộc bất kỳ $n_j$ nào ($1 \leq j \leq r$) (Chương 11, § 1, no. 1, Mệnh đề 2); gọi $u_1 = u, u_2, \ldots, u_m$ là các phần tử phân biệt của quỹ đạo của $u$ dưới tác dụng của $\mathcal{G}$; ta viết $w = u_1u_2 \ldots u_m, v = u_2 \ldots u_m$; rõ ràng $w \in A$; mặt khác, nếu $\tau \in \mathcal{H}$, thì $\tau.u = u$ và do đó tất yếu $\tau.u_i \neq u$ với $i \geq 2$, điều này cho thấy $\tau.v = v$ và vì thế $v \in B$. Có thể chứng minh như trong chứng minh của (a) rằng, nếu $\sigma \in \mathcal{G}$ sao cho $\sigma.u = u_i$ với $i \geq 2$, thì $\sigma^{-1}.p'$ nằm trên một trong các $n_j$ và, do $u \notin n_j$, nên cũng có $u \notin \sigma^{-1}.p'$, nói cách khác $u_i \notin p'$. Ta kết luận rằng $v \notin p'$ và do đó $v \notin p(B)$. Mặt khác rõ ràng $w \in p' \cap A = p$ và quan hệ $w = uv$ cho thấy rằng $u$ nằm trong bão hòa của $pB$ đối với $p(B)$ và do đó thiết lập được (4).
 
-(iii) Giả sử rằng $A'$ là một miền nguyên, rằng $\bigcap_{n \geq 0} p^n A'_p = 0$ và rằng các điều kiện (a) và (b) của (ii) được thỏa mãn. Với cùng ký hiệu như trong (ii), rõ ràng $S^{-1}A'$ là một miền nguyên và $S^{-1}A'_p = A'_p$; do đó có thể thay thế $A'$ và $p'$ bởi $S^{-1}A'$ và $S^{-1}p'$, nói cách khác, cũng giả sử rằng iđêan $p$ là cực đại. Các giả thiết (a) và (b) khi đó suy ra rằng
+(iii) Giả sử rằng $A'$ là một miền nguyên, rằng $\bigcap_{n \geq 0} p^n A'_p = 0$ và các điều kiện (a) và (b) của (ii) được thỏa mãn. Với cùng ký hiệu như trong (ii), rõ ràng $S^{-1}A'$ là một miền nguyên và $S^{-1}A'_p = A'_p$; do đó có thể thay thế $A'$ và $p'$ bởi $S^{-1}A'$ và $S^{-1}p'$, nói cách khác, giả sử thêm rằng iđêan $p$ là cực đại. Khi đó các giả thiết (a) và (b) kéo theo rằng
 
 $$
 \mathbf{B}_{p(B)} = A + p \mathbf{B}_{p(B)}
 $$
 
-Bằng quy nạp theo $n$ ta suy ra rằng $\mathbf{B}_{p(B)} = A + p^n \mathbf{B}_{p(B)}$ với mọi $n > 0$. Khi đó, đặt $\sigma$ là một phần tử của $\mathcal{G}^\mathbf{Z}$ và $x$ là một phần tử của $B$. Với mọi $n > 0$, tồn tại $a_n \in A$ sao cho $x - a_n \in p^n \mathbf{B}_{p(B)} \subset p^n A'_p$; vì $\sigma.a_n = a$, và $\sigma.p' = p'$, ta suy ra rằng $\sigma.x - x \in p^n A'_p$. Vì quan hệ này đúng với mọi $n$, ta kết luận từ giả thiết rằng $\sigma.x = x$.
+Bằng quy nạp theo $n$ ta suy ra rằng $\mathbf{B}_{p(B)} = A + p^n \mathbf{B}_{p(B)}$ với mọi $n > 0$. Khi đó lấy $\sigma$ là một phần tử của $\mathcal{G}^\mathbf{Z}$ và $x$ là một phần tử của $B$. Với mọi $n > 0$, tồn tại $a_n \in A$ sao cho $x - a_n \in p^n \mathbf{B}_{p(B)} \subset p^n A'_p$; vì $\sigma.a_n = a$, và $\sigma.p' = p'$, ta suy ra rằng $\sigma.x - x \in p^n A'_p$. Vì quan hệ này đúng với mọi $n$, ta kết luận từ giả thiết rằng $\sigma.x = x$.
 
 h a r k s
 
-(3) Nếu $A'$ là một miền nguyên và Noether, điều kiện $\bigcap_{n \geq 1} p^n A'_p = 0$ luôn đúng (Chương III, § 3, no. 2, Hệ quả của Mệnh đề 5). Có thể chứng minh rằng điều kiện này cũng được thỏa mãn nếu giả sử $A'$ là một miền nguyên và $A$ là Noether.
+(3) Nếu $A'$ là một miền nguyên và Noether, thì điều kiện $\bigcap_{n \geq 1} p^n A'_p = 0$ luôn luôn được thỏa mãn (Chương III, § 3, no. 2, Hệ quả của Mệnh đề 5). Có thể chứng minh rằng điều kiện này cũng được thỏa mãn nếu giả sử $A'$ là một miền nguyên và $A$ là Noether.
 
-(4) Nếu $p$ không là một iđêan cực đại của $A$ thì quan hệ (3) không nhất thiết đúng dưới các giả thiết của (ii) và do đó $A/p$ và $B/p(B)$ không nhất thiết đẳng cấu ngay cả khi ta lấy $\mathcal{H} = \mathcal{G}^\mathbf{Z}$, do đó $B = A''$ (Bài tập 10).
+(4) Nếu $p$ không phải là một iđêan cực đại của $A$ thì quan hệ (3) không nhất thiết đúng dưới các giả thiết của (ii) và do đó $A/p$ và $B/p(B)$ không nhất thiết đẳng cấu, ngay cả nếu ta lấy $\mathcal{H} = \mathcal{G}^\mathbf{Z}$, do đó $B = A''$ (Bài tập 10).
 
 #### Hệ quả 1 {#ac-v-s2-prop-4-cor-1 .statement}
 
@@ -320,9 +320,9 @@ Dưới các giả thiết của Định lý 2, các vành $A/p$ và $A^\mathbf{
 
 #### Hệ quả 2 {#ac-v-s2-prop-4-cor-2 .statement}
 
-Cho $A'$ là một miền nguyên, $\mathcal{G}$ là một nhóm hữu hạn tác động trên $A'$, $A'$ là vành các bất biến của $\mathcal{G}$ và $p'$ là một iđêan nguyên tố của $A'$; gọi $K, K^\mathbf{Z}$ và $K$ lần lượt là các trường phân thức của $A, A^\mathbf{Z}$ và $A'$. Khi đó $K'$ là một mở rộng Galois của $K$ và các trường con $L$ của $K$ chứa $K$ và sao cho $p'$ là iđêan nguyên tố duy nhất của $A'$ nằm trên iđêan $p' \cap L$ của $A' \cap L$ chính là những trường chứa $K^\mathbf{Z}$.
+Cho $A'$ là một miền nguyên, $\mathcal{G}$ là một nhóm hữu hạn tác động lên $A'$, $A'$ là vành bất biến của $\mathcal{G}$ và $p'$ là một iđêan nguyên tố của $A'$; gọi $K, K^\mathbf{Z}$ và $K$ là các trường phân thức của $A, A^\mathbf{Z}$ và $A'$ tương ứng. Khi đó $K'$ là một mở rộng Galois của $K$ và các trường con $L$ của $K$ chứa $K$ và sao cho $p'$ là iđêan nguyên tố duy nhất của $A'$ nằm trên iđêan $p' \cap L$ của $A' \cap L$ chính là những trường chứa $K^\mathbf{Z}$.
 
-$\mathcal{G}$ tác động trên $K'$ và $K$ là trường các bất biến của $\mathcal{G}$ trong $K'$ (§ 1, no. 9, Mệnh đề 23 áp dụng cho $S = A - \{0\}$) và tương tự $K^\mathbf{Z}$ là trường các bất biến của $\mathcal{G}^\mathbf{Z}$; theo định nghĩa $K'$ do đó là một mở rộng Galois của $K$. Nếu là nhóm con của $\mathcal{G}$ gồm các $\sigma \in \mathcal{G}$ giữ bất biến các phần tử của L, thì nói rằng L chứa $K^{\mathbf{Z}}$ có nghĩa là $\mathcal{H}$ được chứa trong $\mathcal{G}^{\mathbf{Z}}$ (Đại số, Chương V, § 10, no. 5, Định lý 3) và, vì L là trường các bất biến của $\mathcal{H}$ trong $K'$, $A' \cap L$ là vành các bất biến của $\mathcal{H}$ trong $A'$; mệnh đề thứ hai sau đó suy ra từ Mệnh đề 4 (i).
+$\mathcal{G}$ tác động trên $K'$ và $K$ là trường bất biến của $\mathcal{G}$ trong $K'$ (§ 1, no. 9, Mệnh đề 23 áp dụng cho $S = A - \{0\}$) và tương tự $K^\mathbf{Z}$ là trường bất biến của $\mathcal{G}^\mathbf{Z}$; do định nghĩa, $K'$ vì thế là một mở rộng Galois của $K$. Nếu nhóm con của $\mathcal{G}$ gồm những $\sigma \in \mathcal{G}$ để bất biến các phần tử của L, thì việc nói rằng L chứa $K^{\mathbf{Z}}$ có nghĩa là $\mathcal{H}$ được chứa trong $\mathcal{G}^{\mathbf{Z}}$ (Đại số, Chương V, § 10, no. 5, Định lý 3) và, vì L là trường bất biến của $\mathcal{H}$ trong $K'$, $A' \cap L$ là vành bất biến của $\mathcal{H}$ trong $A'$; khi đó mệnh đề thứ hai suy ra từ Mệnh đề 4 (i).
 
 #### Định nghĩa 4 {#ac-v-s2-def-4 .statement}
 
@@ -346,37 +346,37 @@ Với mọi $x \in A'$, đa thức $P(X) = \prod_{\sigma \in \mathcal{G}^T} (X -
 
 Ta biết rằng $k'_s$ là một mở rộng Galois của k (Đại số, Chương V, § 10, no. 9, Mệnh đề 14) và từ Định lý 2 suy ra rằng nhóm Galois của nó đẳng cấu với $\mathcal{G}' = \mathcal{G}^z / \mathcal{G}^T$. Vì $k^T$ là một mở rộng căn của $k'_s$, $k^T$ là một mở rộng giả Galois của k và nhân tử tách được của bậc của $k^T$ trên k là $q = (\mathcal{G}^z : \mathcal{G}^T )$. Còn phải thấy rằng $k^T$ là một mở rộng tách được của k. Ta đã thấy ở trên rằng $\mathcal{G}'$ được đồng nhất với một nhóm tự đẳng cấu của $A^T$ và rằng $A^z$ là vành các bất biến của $\mathcal{G}'$. Nếu $x \in A^T$, thì đa thức $Q(X) = \prod_{\sigma' \in \mathcal{G}'} (X - \sigma'(x))$ do đó có các hệ số trong $A^z$; đa thức trên $A^z / (p' \cap A^z)$ mà các hệ số là các ảnh của các hệ số của Q dưới $\pi'$ có bậc $q$ và có một nghiệm $\pi'(x) \in A^T / (p' \cap A^T )$. Vì $A^z / (p' \cap A^z) = k$ theo Mệnh đề 4 (ii), ta thấy rằng mọi phần tử của $k^T$ đều có bậc $\leq q$ trên k.
 
-Do đó, gọi $k_1$ là trường bất biến của nhóm các k-tự đẳng cấu của mở rộng giả Galois $k^T$ của $k$; khi đó $[k^T : k_1] = q$ (Đại số, Chương V, § 10, no. 9, Mệnh đề 14). Gọi $u$ là một phần tử nguyên thủy của $k^T$ trên $k_1$; vì nó có bậc $q$ trên $k_1$, và có bậc $\leq q$ trên k, nên nó có bậc $q$ trên k và đa thức tối tiểu của nó trên k có các hệ số trong $k$; điều này cho thấy $u$ tách được trên k. Mặt khác, với mọi $v \in k_1$, tồn tại một lũy thừa $p'$ của số mũ đặc số p sao cho $v^{p'} \in k$. Ta kết luận rằng $k(u - v)$, trường chứa
+Như vậy, gọi k, là trường bất biến của nhóm các k-tự đẳng cấu của mở rộng tựa Galois $k^T$ của $k$; khi đó $[k^T : k_1] = q$ (Đại số, Chương V, § 10, no. 9, Mệnh đề 14). Gọi $u$ là một phần tử nguyên thủy của $k^T$ trên $k_1$; vì nó có bậc $q$ trên $k_1$, và có bậc $\leq q$ trên k, nên nó có bậc $q$ trên k và đa thức tối tiểu của nó trên k, có các hệ số trong $k$; điều này cho thấy rằng $u$ tách được trên k. Mặt khác, với mọi $v \in k_1$, tồn tại một lũy thừa $p'$ của số mũ đặc số p sao cho $v^{p'} \in k$. Ta kết luận rằng $k(u - v)$, chứa
 $$
 (u - v)^{p'} = u^{p'} - v^{p'},
 $$
-chứa $u^{p'}$ và do đó chứa $k(u^{p'})$. Nhưng vì $u$ tách được trên $k$, nên $k(u) = k(u^{p'})$ (Đại số, Chương V, § 8, no. 3, Mệnh đề 4), do đó $k(u) \subset k(u - v)$. Vì $u$ có bậc $q$ trên k và $u - v$ có bậc $\leq q$, suy ra $k(u) = k(u - v)$, do đó $v \in k(u)$. Điều này cho thấy $v$ tách được trên k, vì thế $k_1 = k$ và $k^T$ tách được trên $k$.
+chứa $u^{p'}$ và do đó chứa $k(u^{p'})$. Nhưng vì $u$ tách được trên $k$, nên $k(u) = k(u^{p'})$ (Đại số, Chương V, § 8, no. 3, Mệnh đề 4), do đó $k(u) \subset k(u - v)$. Vì $u$ có bậc $q$ trên k và $u - v$ có bậc $\leq q$, suy ra $k(u) = k(u - v)$, do đó $v \in k(u)$. Điều này cho thấy rằng $v$ tách được trên k, vì thế $k_1 = k$ và $k^T$ tách được trên $k$.
 
 #### Hệ quả {#ac-v-s2-n2-cor-2 .statement}
 
 *Nếu cấp của nhóm quán tính $\mathcal{G}^T(p')$ nguyên tố cùng nhau với số mũ đặc số p của k, thì trường $k'$ là một mở rộng Galois của k.*
 
-Với ký hiệu của chứng minh Mệnh đề 5, đa thức $\pi'(P)$ có các hệ số trong $k^T = k'_s$ và mọi nghiệm của nó đều bằng $\pi'(x)$; ngay lập tức suy ra rằng $\pi'(P)$ là một lũy thừa của đa thức tối tiểu của $\pi'(x)$ trên $k'_s$; nhưng đa thức sau có bậc bằng một lũy thừa của p và do đó, vì bậc của $\pi'(P)$ bằng cấp của $\mathcal{G}^T$, giả thiết kéo theo $\pi'(x) \in k'_s$, nói cách khác $k'_s = k'$.
+Với ký hiệu của chứng minh Mệnh đề 5, đa thức $\pi'(P)$ có các hệ số trong $k^T = k'_s$ và mọi nghiệm của nó đều bằng $\pi'(x)$; ta ngay lập tức suy ra rằng $\pi'(P)$ là một lũy thừa của một đa thức tối tiểu của $\pi'(x)$ trên $k'_s$; nhưng đa thức sau có bậc bằng một lũy thừa của p và vì thế, do bậc của $\pi'(P)$ bằng cấp của $\mathcal{G}^T$, giả thiết kéo theo $\pi'(x) \in k'_s$, nói cách khác $k'_s = k'$.
 
-### 3. PHÂN TÍCH VÀ QUÁN TÍNH ĐỐI VỚI CÁC MIỀN NGUYÊN ĐÓNG
+### 3. PHÂN TÍCH VÀ QUÁN TÍNH ĐỐI VỚI CÁC MIỀN ĐÓNG NGUYÊN
 
 #### Bổ đề 4 {#ac-v-s2-lem-4 .statement}
 
-*Cho A là một miền nguyên đóng, K là trường phân thức của nó, p là số mũ đặc số của K, K' là một mở rộng căn thức của K và A' là một vành con của K' chứa A và nguyên trên A. Với mọi iđêan nguyên tố p của A, tồn tại một iđêan nguyên tố duy nhất* p' *của $A'$ nằm trên $p$, và $p'$ là tập hợp các $x \in A'$ sao cho tồn tại một số nguyên $m \geq 0$ với $x^{p^m} \in p$.*
+*Cho A là một miền đóng nguyên, K là trường phân thức của nó, p là số mũ đặc số của K, K' là một mở rộng radicial của K và A' là một vành con của K' chứa A và nguyên trên A. Với mọi iđêan nguyên tố p của A, tồn tại một iđêan nguyên duy nhất* p' của $A'$ nằm trên $p$ và $p'$ là tập hợp các $x \in A'$ sao cho tồn tại một số nguyên $m \geq 0$ mà $x^{p^m} \in p$.
 
 Sự tồn tại của $p'$ suy ra từ no. 1, Định lý 1. Nếu $x \in p'$, thì tồn tại $m \geq 0$ sao cho $x^{p^m} \in K$, do đó $x^{p^m} \in A$ vì $A$ là nguyên đóng, suy ra $x^{p^m} \in p' \cap A = p$. Ngược lại, nếu $x \in A'$ sao cho $x^{p^m} \in p \subset p'$, thì $x \in p$ vì $p'$ là nguyên tố.
 
-Nhận xét (1). Suy ra từ § 1, no. 3, Hệ quả của Mệnh đề 11 rằng bao đóng nguyên của $A$ trong $K'$ là tập hợp các $x \in K'$ sao cho tồn tại $m \geq 0$ với $x^{p^m} \in A$ (Đại số, Chương V, § 8, no. 1, Mệnh đề 1).
+Nhận xét (1). Suy ra từ § 1, no. 3, Hệ quả của Mệnh đề 11 rằng bao đóng nguyên của $A$ trong $K'$ là tập hợp các $x \in K'$ sao cho tồn tại $m \geq 0$ mà với nó $x^{p^m} \in A$ (Đại số, Chương V, § 8, no. 1, Mệnh đề 1).
 
 #### Mệnh đề 6 {#ac-v-s2-prop-6 .statement}
 
-Cho $A$ là một miền nguyên đóng, $K$ trường phân thức của nó, $K'$ một mở rộng quasi-Galois của $K$ và $A'$ là bao đóng nguyên của $A$ trong $K'$. Khi đó:
+Cho $A$ là một miền nguyên đóng, $K$ là trường phân thức của nó, $K'$ là một mở rộng quasi-Galois của $K$ và $A'$ là bao đóng nguyên của $A$ trong $K'$. Khi đó:
 
-(i) Với mọi iđêan nguyên tố $p$ của $A$, nhóm $\mathcal{G}$ các $K$-tự đẳng cấu của $K'$ tác động bắc cầu trên tập hợp các iđêan nguyên tố của $A'$ nằm trên $p$.
+(i) Với mọi iđêan nguyên tố $p$ của $A$, nhóm $\mathcal{G}$ các $K$-tự đồng cấu của $K'$ tác động bắc cầu trên tập hợp các iđêan nguyên tố của $A'$ nằm trên $p$.
 
-(ii) Với mọi iđêan nguyên tố $p'$ của $A'$, trường phân thức $k'$ của $A'/p'$ là một mở rộng quasi-Galois của trường phân thức $k$ của $A/(A \cap p')$ và đồng cấu chính tắc $\sigma \mapsto \tilde{\sigma}$ từ $\mathcal{G}^Z(p')$ vào nhóm $\Gamma$ các $k$-tự đẳng cấu của $k'$ xác định, sau khi lấy thương, một song ánh từ $\mathcal{G}^Z(p')/\mathcal{G}^T(p')$ lên $\Gamma$.
+(ii) Với mọi iđêan nguyên tố $p'$ của $A'$, trường phân thức $k'$ của $A'/p'$ là một mở rộng quasi-Galois của trường phân thức $k$ của $A/(A \cap p')$ và đồng cấu chính tắc $\sigma \mapsto \tilde{\sigma}$ từ $\mathcal{G}^Z(p')$ vào nhóm $\Gamma$ các $k$-tự đồng cấu của $k'$ xác định, bằng cách lấy thương, một song ánh từ $\mathcal{G}^Z(p')/\mathcal{G}^T(p')$ lên $\Gamma$.
 
-(A) Trước hết giả sử rằng $K'$ là một mở rộng Galois ajinite của $K$. Khi đó $A = A' \cap K$ vì $A$ là nguyên đóng, và do đó $A$ là vành các bất biến của $\mathcal{G}$ trong $A'$. Vì $\mathcal{G}$ là hữu hạn, mệnh đề được suy ra trong trường hợp này từ no. 2, Định lý 2.
+(A) Trước hết giả sử rằng $K'$ là một mở rộng Galois ajinite của $K$. Khi đó $A = A \cap K$ vì $A$ là nguyên đóng và do đó $A$ là vành các bất biến của $\mathcal{G}$ trong $A'$. Vì $\mathcal{G}$ là hữu hạn, mệnh đề suy ra trong trường hợp này từ no. 2, Định lý 2.
 
 (B) Bây giờ giả sử thứ hai rằng $K'$ là một mở rộng Galois bất kỳ của $K$. Khi đó $K'$ là hợp của một họ có hướng phải $(K_\alpha)_{\alpha \in I}$ các mở rộng Galois hữu hạn của $K$. Để chứng minh (i), xét hai iđêan nguyên tố $p', q'$ của $A'$ nằm trên $p$. Với mọi $\alpha \in I$, $p' \cap K_\alpha$ và $q' \cap K_\alpha$ là hai iđêan nguyên tố của $A \cap K_\alpha$, nằm trên $p$. Vì $A' \cap K_\alpha$ là bao đóng nguyên của $A$ trong $K_\alpha$, và các hạn chế lên $K_\alpha$ của các phần tử của $\mathcal{G}$ tạo thành nhóm các tự đẳng cấu của $K$ trên $K$, nên từ trường hợp (A) suy ra rằng tồn tại $\sigma \in \mathcal{G}$ sao cho $(\sigma.(p' \cap K_\alpha)) = q' \cap K_\alpha$. Gọi $\mathcal{E}_\alpha$ là tập hợp các $\sigma \in \mathcal{G}$ có tính chất trên. Lấy $\sigma \in \mathcal{G} - 8$; khi đó, với mọi $\tau \in \mathcal{G}$ để bất biến các phần tử của $K_\alpha$, (QT) $(\sigma.(p' \cap K_\alpha)) = \varrho.(p' \cap K_\alpha) \neq q' \cap K_\alpha$, và do đó $\sigma \tau \in \mathcal{G} - b$. Suy ra $\mathcal{E}_\alpha$ là đóng trong nhóm Galois tôpô $\mathcal{G}$ (Đại số, Chương V, Phụ lục 11, no. 1) và rõ ràng họ $(\mathcal{E}_\alpha)_{\alpha \in I}$ là có hướng trái. Vì $\mathcal{G}$ là compáct (loc. cit., no. 2, Proposition 3) và các $\mathcal{E}_\alpha$ là không rỗng, nên giao $\mathcal{E}$ của họ $(8,)$ là không rỗng và $\sigma.p' = q'$ với mọi $\sigma \in \mathcal{E}$, do đó có (i).
 
@@ -386,30 +386,30 @@ Cho $A$ là một miền nguyên đóng, $K$ trường phân thức của nó, $
 
 *Nhận xét*
 
-(2) Giả sử rằng $K$ là một mở rộng *Galois* của $K$ và giữ các ký hiệu của chứng minh Mệnh đề 6; với mọi $a$, gọi $\mathcal{G}_a^\mathbf{Z}$ (tương ứng $\mathcal{G}_a^\mathbf{T}$) là nhóm con của $\mathcal{G}$ gồm các $\sigma$ mà hạn chế của nó trên $A' \cap K$ thuộc $\mathcal{G}^\mathbf{Z}(p' \cap K_\alpha)$ (tương ứng $\mathcal{G}^\mathbf{T}(p' \cap K_\alpha)$). Chứng minh của Mệnh đề 6 cho thấy rằng các nhóm con này *đóng* trong $\mathcal{G}$ và rằng
+(2) Giả sử rằng $K$ là một mở rộng *Galois* của $K$ và giữ các ký hiệu của chứng minh Mệnh đề 6; với mọi $a$, đặt $\mathcal{G}_a^\mathbf{Z}$ (tương ứng $\mathcal{G}_a^\mathbf{T}$) là nhóm con của $\mathcal{G}$ gồm các $\sigma$ mà hạn chế của chúng lên $A' \cap K$, thuộc $\mathcal{G}^\mathbf{Z}(p' \cap K_\alpha)$ (tương ứng $\mathcal{G}^\mathbf{T}(p' \cap K_\alpha)$). Chứng minh của Mệnh đề 6 cho thấy rằng các nhóm con này là *đóng* trong $\mathcal{G}$ và rằng
 $$
-\mathcal{G}^\mathbf{Z}(p') = \bigcap_a \mathcal{G}_a^\mathbf{Z} \quad \text{and} \quad \mathcal{G}^\mathbf{T}(p') = \bigcap_a \mathcal{G}_a^\mathbf{T}.
+\mathcal{G}^\mathbf{Z}(p') = \bigcap_a \mathcal{G}_a^\mathbf{Z} \quad \text{và} \quad \mathcal{G}^\mathbf{T}(p') = \bigcap_a \mathcal{G}_a^\mathbf{T}.
 $$
-Hơn nữa, tập hợp các hạn chế trên $A' \cap K$, của các phần tử của $\mathcal{G}$ (tương ứng của $\mathcal{G}_a^\mathbf{T}$) chính là toàn bộ nhóm $\mathcal{G}^\mathbf{Z}(p' \cap K_\alpha)$ (tương ứng $\mathcal{G}^\mathbf{T}(p' \cap K_\alpha)$), mọi tự đẳng cấu $K$ của $K$ đều mở rộng được thành một phần tử của $\mathcal{G}$.
+Hơn nữa, tập hợp các hạn chế lên $A' \cap K$, của các phần tử của $\mathcal{G}$ (tương ứng của $\mathcal{G}_a^\mathbf{T}$) là toàn bộ nhóm $\mathcal{G}^\mathbf{Z}(p' \cap K_\alpha)$ (tương ứng $\mathcal{G}^\mathbf{T}(p' \cap K_\alpha)$), mọi tự đẳng cấu của $K$ trên $K$, đều mở rộng được thành một phần tử của $\mathcal{G}$.
 
-Với cùng các giả thiết ấy, vành $A^\mathbf{Z}(p')$ (tương ứng $A^\mathbf{T}(p')$) là *hợp* của họ có hướng các $A^\mathbf{Z}(p' \cap K_\alpha)$ (tương ứng $A^\mathbf{T}(p' \cap K_\alpha)$); thật vậy, mọi $x \in A^\mathbf{Z}(p')$ (tương ứng mọi $x \in A^\mathbf{T}(p')$) đều thuộc một trong các $K$, và theo điều trên tồn tại một $\beta$ sao cho $K_\alpha \subset K_\beta$ và các hạn chế trên $A' \cap K$, của các phần tử của $\mathcal{G}^\mathbf{Z}(p')$ (tương ứng $\mathcal{G}^\mathbf{T}(p')$) là như nhau với các hạn chế trên $A' \cap K$, của các phần tử của $\mathcal{G}^\mathbf{Z}(p' \cap K_\beta)$ (tương ứng $\mathcal{G}^\mathbf{T}(p' \cap K_\beta)$), các nhóm $\mathcal{G}^\mathbf{Z}(p' \cap K_\alpha)$ và $\mathcal{G}^\mathbf{T}(p' \cap K_\beta)$ là hữu hạn; do đó $x$ thuộc $A^\mathbf{Z}(p' \cap K_\beta)$ (tương ứng $A^\mathbf{T}(p' \cap K_\beta)$).
+Với cùng các giả thiết ấy, vành $A^\mathbf{Z}(p')$ (tương ứng $A^\mathbf{T}(p')$) là *hợp* của họ có hướng các $A^\mathbf{Z}(p' \cap K_\alpha)$ (tương ứng $A^\mathbf{T}(p' \cap K_\alpha)$); thật vậy, mọi $x \in A^\mathbf{Z}(p')$ (tương ứng mọi $x \in A^\mathbf{T}(p')$) đều thuộc một trong các $K$, và theo trên tồn tại một $\beta$ sao cho $K_\alpha \subset K_\beta$ và các hạn chế lên $A' \cap K$, của các phần tử của $\mathcal{G}^\mathbf{Z}(p')$ (tương ứng $\mathcal{G}^\mathbf{T}(p')$) cũng chính là các hạn chế lên $A' \cap K$, của các phần tử của $\mathcal{G}^\mathbf{Z}(p' \cap K_\beta)$ (tương ứng $\mathcal{G}^\mathbf{T}(p' \cap K_\beta)$), các nhóm $\mathcal{G}^\mathbf{Z}(p' \cap K_\alpha)$ và $\mathcal{G}^\mathbf{T}(p' \cap K_\beta)$ là hữu hạn; do đó $x$ thuộc $A^\mathbf{Z}(p' \cap K_\beta)$ (tương ứng $A^\mathbf{T}(p' \cap K_\beta)$).
 
 #### Hệ quả 1 {#ac-v-s2-prop-6-cor-1 .statement}
 
-*Dưới các giả thiết của Mệnh đề 6, gọi f là một đồng cấu từ A vào một trường L và g_1, g_2 là hai đồng cấu từ A' vào L mở rộng f. Khi đó tồn tại một tự đẳng cấu $K$ $\sigma \in K'$ sao cho $g_1 = g_2 \circ \sigma$.*
+*Dưới các giả thiết của Mệnh đề 6, cho f là một đồng cấu từ A vào một trường L và $g_1, g_2$ là hai đồng cấu từ A' vào L mở rộng f. Khi đó tồn tại một tự đẳng cấu của $K$ trên $K'$, $\sigma \in K'$, sao cho $g_1 = g_2 \circ \sigma$.*
 
-Chứng minh xuất phát từ Mệnh đề 6 cũng giống như chứng minh của Hệ quả của Định lý 2 xuất phát từ định lý sau.
+Chứng minh suy ra từ Mệnh đề 6 giống như chứng minh của Hệ quả của Định lý 2 suy ra từ định lý sau.
 
 #### Hệ quả 2 {#ac-v-s2-prop-6-cor-2 .statement}
 
-*Cho A là một miền nguyên đóng nguyên, K là trường phân thức của nó, K' là một mở rộng đại số hữu hạn của K và A' là một vành con của K' chứa A và nguyên trên A.*
+*Cho A là một miền nguyên đóng, K là trường các phân thức của nó, K' là một mở rộng đại số hữu hạn của K và A' là một vành con của K' chứa A và nguyên trên A.*
 
 (i) Với mọi iđêan nguyên tố $\mathfrak{p}$ của $A$, tập hợp các iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$ là hữu hạn.
-(ii) Nếu $\mathfrak{p}'$ là một iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$, thì mọi phần tử của $A'/\mathfrak{p}'$ đều có bậc $\leq [\mathbf{K}':\mathbf{K}]$ trên trường phân thức của $A/\mathfrak{p}$.
+(ii) Nếu $\mathfrak{p}'$ là một iđêan nguyên tố của $A'$ nằm trên $\mathfrak{p}$, thì mọi phần tử của $A'/\mathfrak{p}'$ đều có bậc $\leq [\mathbf{K}':\mathbf{K}]$ trên trường các phân thức của $A/\mathfrak{p}$.
 
-(i) Cho $K''$ là mở rộng giả Galois của $K$ được sinh bởi $K'$ trong một bao đóng đại số của $K'$ và $A''$ là bao đóng nguyên của $A$ trong $K''$. Trường $K''$ là một mở rộng hữu hạn của $K$ (Đại số, Chương V, § 6, no. 3, Hệ quả 1 của Mệnh đề 9) và do đó nhóm các $K$-tự đẳng cấu của nó là hữu hạn; suy ra tập hợp các iđêan nguyên tố của $A''$ nằm trên $\mathfrak{p}$ là hữu hạn (Mệnh đề 6 (i)). Mặt khác, vì $A''$ là nguyên trên $A$, ánh xạ $\mathfrak{p}'' \mapsto \mathfrak{p}'' \cap A'$ từ tập hợp các iđêan nguyên tố của $A''$ nằm trên $\mathfrak{p}$ đến tập hợp các iđêan nguyên tố của $A'$ nằm trên $x$ là toàn ánh (no. 1, Định lý 1).
+(i) Gọi $K''$ là mở rộng quasi-Galois của $K$ sinh bởi $K'$ trong một bao đóng đại số của $K'$ và $A''$ là bao đóng nguyên của $A$ trong $K''$. Trường $K''$ là một mở rộng hữu hạn của $K$ (Đại số, Chương V, § 6, no. 3, Hệ quả 1 của Mệnh đề 9) và do đó nhóm các $K$-tự đẳng cấu của nó là hữu hạn; suy ra tập hợp các iđêan nguyên tố của $A''$ nằm trên $\mathfrak{p}$ là hữu hạn (Mệnh đề 6 (i)). Mặt khác, vì $A''$ là nguyên trên $A$, ánh xạ $\mathfrak{p}'' \mapsto \mathfrak{p}'' \cap A'$ từ tập hợp các iđêan nguyên tố của $A''$ nằm trên $\mathfrak{p}$ tới tập hợp các iđêan nguyên tố của $A'$ nằm trên $x$ là toàn ánh (no. 1, Định lý 1).
 
-(ii) Các hệ số của đa thức tối tiểu (trên $K$) của mọi phần tử $x' \in A'$ đều thuộc $A$ ($§ 1$, no. 3, Hệ quả của Mệnh đề 10); áp dụng đồng cấu chính tắc $\pi': A' \to A'/\mathfrak{p}'$ cho các hệ số của đa thức này, ta thu được đối với lớp modulo $\mathfrak{p}'$ của $x$ một phương trình phụ thuộc nguyên với các hệ số trong $A/\mathfrak{p}$ và bậc $\leq [\mathbf{K}':\mathbf{K}]$; do đó suy ra kết luận.
+(ii) Các hệ số của đa thức tối tiểu (trên $K$) của mọi phần tử $x' \in A'$ đều thuộc $A$ ($§ 1$, no. 3, Hệ quả của Mệnh đề 10); áp dụng đồng cấu chính tắc $\pi': A' \to A'/\mathfrak{p}'$ cho các hệ số của đa thức này, ta thu được đối với lớp modulo $\mathfrak{p}'$ của $x$ một phương trình phụ thuộc nguyên với các hệ số trong $A/\mathfrak{p}$ và bậc $\leq [\mathbf{K}':\mathbf{K}]$; do đó có kết luận.
 
 #### Hệ quả 3 {#ac-v-s2-prop-6-cor-3 .statement}
 
@@ -419,7 +419,7 @@ Với mọi iđêan cực đại $m'$ của $A'$, $m' \cap A$ là một iđêan 
 
 #### Hệ quả 4 {#ac-v-s2-prop-6-cor-4 .statement}
 
-Cho $A$ là một miền nguyên đóng nguyên, $K$ trường phân thức của nó, $K$ một mở rộng Galois của $K$, $A'$ là bao đóng nguyên của $A$ trong $K'$, $\mathfrak{p}'$ một iđêan nguyên tố của $A$, $\mathfrak{p} = A \cap \mathfrak{p}'$ và $k$ và $k'$ lần lượt là các trường phân thức của $A/\mathfrak{p}$ và $A'/\mathfrak{p}'$. Khi đó:
+Cho $A$ là một miền nguyên đóng, $K$ trường phân thức của nó, $K$ một mở rộng Galois của $K$, $A'$ là bao đóng nguyên của $A$ trong $K'$, $\mathfrak{p}'$ là một iđêan nguyên tố của $A$, $\mathfrak{p} = A \cap \mathfrak{p}'$ và $k$ và $k'$ lần lượt là các trường phân thức của $A/\mathfrak{p}$ và $A'/\mathfrak{p}'$. Khi đó:
 
 (i) Trường phân thức của $A^{\mathbf{Z}}/(\mathfrak{p}' \cap A^{\mathbf{Z}})$ bằng $k$ và iđêan cực đại của vành địa phương của $A^{\mathbf{Z}}$ đối với $\mathfrak{p}' \cap A^{\mathbf{Z}}$ được sinh bởi $\mathfrak{p}$.
 
@@ -460,13 +460,13 @@ $$
 
 #### Mệnh đề 7 {#ac-v-s2-prop-7 .statement}
 
-*Cho $A$ là một miền nguyên đóng, $K$ là trường các phân thức của nó, $K'$ là một mở rộng Galois của $K$, $\mathcal{G}$ là nhóm Galois của nó, $A'$ là đóng nguyên của $A$ trong $K'$, $p'$ là một iđêan nguyên tố của $A'$ và $p = A \cap p'$. Cuối cùng, cho $L$ là một trường con của $K'$ chứa $K$ và đặt $p(L) = p' \cap L$.
+*Cho $A$ là một miền nguyên đóng, $K$ trường phân thức của nó, $K'$ một mở rộng Galois của $K$, $\mathcal{G}$ nhóm Galois của nó, $A'$ bao đóng nguyên của $A$ trong $K'$, $p'$ một iđêan nguyên tố của $A'$ và $p = A \cap p'$. Sau hết, cho $L$ là một trường con của $K'$ chứa $K$ và đặt $p(L) = p' \cap L$.
 
-(i) *Trường phân tích* (tương ứng *trường quán tính*) *của $p'$ đối với $L$ là $L(K^{\mathbf{Z}})$ (tương ứng $L(K^T)$); *nếu hơn nữa $L$ là một mở rộng Galois của $K$, thì trường phân tích của $p(L)$ đối với $K$ là $L \cap K^{\mathbf{Z}}$.
+(i) *Trường phân tích* (resp. *trường quán tính*) *của $p'$ đối với $L$ là $L(K^{\mathbf{Z}})$ (resp. $L(K^T)$); *nếu thêm nữa $L$ là một mở rộng Galois của $K$, trường phân tích của $p(L)$ đối với $K$ là $L \cap K^{\mathbf{Z}}$.
 
-(ii) *Nếu $L$ được chứa trong $K^{\mathbf{Z}}$, thì $A/p$ và $(A' \cap L)/p(L)$ có cùng trường các phân thức và trong vành địa phương $A' \cap L$ tương ứng với iđêan nguyên tố $p(L)$, iđêan cực đại được sinh bởi $p$. Ngược lại, nếu hai điều kiện này được thỏa mãn và hơn nữa $\bigcap_{n > 0} p^n A'_p = 0$, thì $L$ được chứa trong $K^{\mathbf{Z}}$.
+(ii) *Nếu $L$ được chứa trong $K^{\mathbf{Z}}$, $A/p$ và $(A' \cap L)/p(L)$ có cùng trường phân thức và trong vành địa phương $A' \cap L$ tương ứng với iđêan nguyên tố $p(L)$, iđêan cực đại được sinh bởi $p$. Ngược lại, nếu hai điều kiện này được thỏa mãn và thêm nữa $\bigcap_{n > 0} p^n A'_p = 0$, thì $L$ được chứa trong $K^{\mathbf{Z}}$.
 
-(i) Nếu $\mathcal{H}$ là nhóm con của $\mathcal{G}$ bất biến mọi phần tử của $L$, thì rõ ràng nhóm phân tích (tương ứng nhóm quán tính) của $p'$ đối với $L$ là $G^{\mathbf{Z}} \cap \mathcal{H}$ (tương ứng $G^T \cap \mathcal{H}$) và mệnh đề thứ nhất suy ra từ lý thuyết Galois nếu $K'$ là một mở rộng Galois *hữu hạn* của $K$ (*Đại số*, Chương V, § 10, no. 6, Hệ quả 1 của Định lý 3); trong trường hợp tổng quát nó suy ra từ việc $A^{\mathbf{Z}}$ (tương ứng $A^T$) là hợp của các $A^{\mathbf{Z}}(p' \cap K_\alpha)$ (tương ứng $A^T(p' \cap K_\beta)$) theo ký hiệu của *Nhận xét 2*: mọi phần tử $x \in K'$ thuộc một $K$ nào đó, và nếu nó bất biến dưới $G^{\mathbf{Z}}(p') \cap \mathcal{H}$ (tương ứng $G^T(p') \cap \mathcal{H}$) thì nó cũng bất biến dưới $G^{\mathbf{Z}}(p' \cap K_{\beta'}) \cap \mathcal{H}$ (tương ứng $G^T(p' \cap K_{\beta'}) \cap \mathcal{H}$) với một $\beta'$ thích hợp; do đó, theo phần đầu của lập luận, nó thuộc*
+(i) Nếu $\mathcal{H}$ là nhóm con của $\mathcal{G}$ giữ bất biến các phần tử của $L$, rõ ràng nhóm phân tích (resp. nhóm quán tính) của $p'$ đối với $L$ là $G^{\mathbf{Z}} \cap \mathcal{H}$ (resp. $G^T \cap \mathcal{H}$) và mệnh đề thứ nhất suy ra từ lý thuyết Galois nếu $K'$ là một mở rộng Galois *hữu hạn* của $K$ (*Algebra*, Chương V, § 10, no. 6, Hệ quả 1 của Định lý 3); trong trường hợp tổng quát nó suy ra từ sự kiện rằng $A^{\mathbf{Z}}$ (resp. $A^T$) là hợp của các $A^{\mathbf{Z}}(p' \cap K_\alpha)$ (resp. $A^T(p' \cap K_\beta)$) theo ký hiệu của *Nhận xét 2*: mọi phần tử $x \in K'$ đều thuộc một $K$, và nếu nó bất biến dưới $G^{\mathbf{Z}}(p') \cap \mathcal{H}$ (resp. $G^T(p') \cap \mathcal{H}$) thì nó cũng bất biến dưới $G^{\mathbf{Z}}(p' \cap K_{\beta'}) \cap \mathcal{H}$ (resp. $G^T(p' \cap K_{\beta'}) \cap \mathcal{H}$) với một $\beta'$ thích hợp; do đó, theo phần đầu của lập luận, nó thuộc
 
 $$
 L(K^{\mathbf{Z}}(p' \cap K_{\alpha})) \subset L(K^{\mathbf{Z}}) \quad (\text{resp. } L(K^T(p' \cap K_{\beta})) \subset L(K^T)).

@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: 3e52ada21bc69c752e8bc25a53930a530b253eaf35ace86f46412400ca524d47
+content_sha256: 43c5af3342ac0bbbafe453022e04b05ece3c6ec94573a34e2d29b581bf13d362
 ---
 
 ## § 11. ABELIAN EXTENSIONS
@@ -608,9 +608,9 @@ for the homomorphisms obtained from the above Z-bilinear mapping (V, p. 87).
 
 #### Proposition 10 {#alg-v-s11-prop-10 .statement}
 
-*For every Galois extension $L$ of finite degree of $K$, the homomorphism $a_$ is bijective.*
+*For every Galois extension $L$ of finite degree of $K$, the homomorphism $a_L$ is bijective.*
 
-Let $x \in L$ be such that $\mathcal{P}(x) \in K$ and the residue class of $\mathcal{P}(x) \mod \mathcal{P}(K)$ lies in the kernel of $a_$. For every $\sigma \in \mathrm{Gal}(L/K)$ we have by definition $\sigma(x) = x$; hence $x \in K$ and $\mathcal{P}(x) \in \mathcal{P}(K)$. This proves the injectivity of $a_$. Now let $f : \mathrm{Gal}(L/K) \to \mathbf{F}_p$ be a homomorphism; for all $\sigma, \tau \in \mathrm{Gal}(L/K)$ we have
+Let $x \in L$ be such that $\mathcal{P}(x) \in K$ and the residue class of $\mathcal{P}(x) \mod \mathcal{P}(K)$ lies in the kernel of $a_L$. For every $\sigma \in \mathrm{Gal}(L/K)$ we have by definition $\sigma(x) = x$; hence $x \in K$ and $\mathcal{P}(x) \in \mathcal{P}(K)$. This proves the injectivity of $a_L$. Now let $f : \mathrm{Gal}(L/K) \to \mathbf{F}_p$ be a homomorphism; for all $\sigma, \tau \in \mathrm{Gal}(L/K)$ we have
 
 $$
 f(\sigma \tau) = f(\sigma) + \sigma(f(\tau)), \quad f(\sigma) \in \mathbf{F}_p.
@@ -620,7 +620,7 @@ By V, p. 65, Cor. 2 there exists $x \in L$ such that $f(u) = \sigma(x) - x$ for 
 
 #### Corollary {#alg-v-s11-n9-cor-1 .statement}
 
-*If $L$ is a Galois extension of $K$, the homomorphism $a_$ is injective and its image is the group $\mathrm{Hom}_c(\mathrm{Gal}(L/K), \mathbf{F}_p)$ of continuous homomorphisms of the topological group $\mathrm{Gal}(L/K)$ into the discrete group $\mathbf{F}_p$.*
+*If $L$ is a Galois extension of $K$, the homomorphism $a_L$ is injective and its image is the group $\mathrm{Hom}_c(\mathrm{Gal}(L/K), \mathbf{F}_p)$ of continuous homomorphisms of the topological group $\mathrm{Gal}(L/K)$ into the discrete group $\mathbf{F}_p$.*
 
 This is proved in the same way as the Cor. of Prop. 9, V, p. 89.
 

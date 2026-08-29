@@ -58,7 +58,7 @@ subsections:
       pdf_page: 68
 statements: 36
 exercises: 16
-content_sha256: 83534445e691d14b5753f5bfd111306ba27c900e5d83897f668bd19160260379
+content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 ---
 
 ## § 5. SYMMETRIC TENSORS AND POLYNOMIAL MAPPINGS
@@ -429,7 +429,7 @@ $$
 h \left( \sum_{p_1 + \cdots + p_n = p} \gamma_{p_1}(x_1) \otimes \cdots \otimes \gamma_{p_n}(x_n) \right) = \gamma_p(x_1 + \cdots + x_n).
 $$
 
-Let $N$ be an $A$-module which is a direct sum of a family $(N_\lambda)_\lambda$, of submodules. For every $\lambda \in L$ let $u_\lambda$ be a homomorphism of $M_\lambda$ into $N_$. Let $u$ be the homomorphism of $M$ into $N$ defined by the $u_$. Then the diagram
+Let $N$ be an $A$-module which is a direct sum of a family $(N_\lambda)_\lambda$, of submodules. For every $\lambda \in L$ let $u_\lambda$ be a homomorphism of $M_\lambda$ into $N_\lambda$. Let $u$ be the homomorphism of $M$ into $N$ defined by the $u_\lambda$. Then the diagram
 
 $$
 \begin{array}{ccc}
