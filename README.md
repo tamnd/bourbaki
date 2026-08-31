@@ -201,25 +201,27 @@ The source is the English, and the English is two directories. `content/en` is t
 The French is counted and not compared against the English. A file name carries a slug of its own title, so `02_s2_relevement_des_ideaux_premiers.md` and `02_s2_the_lift_of_prime_ideals.md` are one section under two names. Matching the two trees by path once reported 289 French sections with no English when the real answer was 41.
 
 <!-- BEGIN TRANSLATION -->
-| Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done |
-| --- | --- | --- | --- | --- | --- |
-| Theory of Sets | 30 | 211 | 30 | 211 | 100% |
-| Algebra | 129 | 1028 | 122 | 1028 | 99% |
-| General Topology | 78 | 578 | 78 | 577 | 100% |
-| Functions of a Real Variable | 34 | 203 | 34 | 203 | 100% |
-| Topological Vector Spaces | 34 | 409 | 34 | 409 | 100% |
-| Integration | 59 | 478 | 59 | 478 | 100% |
-| Commutative Algebra | 69 | 673 | 69 | 515 | 79% |
-| Variétés différentielles et analytiques | 10 | 0 | 0 | 0 | 0% |
-| Lie Groups and Lie Algebras | 85 | 785 | 84 | 134 | 25% |
-| Théories spectrales | 36 | 371 | 1 | 0 | 0% |
-| Topologie algébrique | 28 | 164 | 14 | 0 | 7% |
-| Elements of the History of Mathematics | 27 | 0 | 14 | 0 | 52% |
-| **All** | **619** | **4900** | **539** | **3555** | **74%** |
+| Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
+| --- | --- | --- | --- | --- | --- | --- |
+| Theory of Sets | 30 | 211 | 30 | 211 | 100% | 0 |
+| Algebra | 129 | 1028 | 122 | 1028 | 99% | 22 |
+| General Topology | 78 | 578 | 78 | 577 | 100% | 0 |
+| Functions of a Real Variable | 34 | 203 | 34 | 203 | 100% | 0 |
+| Topological Vector Spaces | 34 | 409 | 34 | 409 | 100% | 0 |
+| Integration | 59 | 478 | 59 | 478 | 100% | 0 |
+| Commutative Algebra | 69 | 673 | 69 | 518 | 79% | 267 |
+| Variétés différentielles et analytiques | 10 | 0 | 0 | 0 | 0% | 10, all of it |
+| Lie Groups and Lie Algebras | 85 | 785 | 84 | 134 | 25% | 1 |
+| Théories spectrales | 36 | 371 | 2 | 0 | 0% | 407, all of it |
+| Topologie algébrique | 28 | 164 | 15 | 0 | 8% | 192, all of it |
+| Elements of the History of Mathematics | 27 | 0 | 14 | 0 | 52% | 1 |
+| **All** | **619** | **4900** | **541** | **3558** | **74%** | **900** |
 
 The source column is the English, which is 619 sections and 4900 exercises: 4619 files in `content/en` where Springer printed an English translation and 900 in `content/en-mt` where this project read the French instead. The French originals are 475 sections and 4504 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 539 of the 619 sections and 3555 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 541 of the 619 sections and 3558 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 145 of the 4099 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it
