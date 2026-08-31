@@ -273,7 +273,7 @@ Cho ρ : A → B là một đồng cấu địa phương của các vành địa
 
 #### Hệ quả {#ac-x-s5-n5-cor-1 .statement}
 
-Cho k là một trường, Λ là một đại số địa phương Noether trên k, x = (x_1, ..., x_r) là một dãy phần tử của m_A, và M là một Λ-môđun sinh hữu hạn. Gọi Ā và Ĝ là các đầy đủ hóa của A và M đối với tôpô $(x_1Ā + ... + x_rĀ)$-adic của chúng; gọi u : k[T_1, ..., T_r] → Ā là đồng cấu duy nhất của các đại số trên k sao cho u(T_i) = x_i với i = 1, ..., r, và gọi ū : k[[T_1, ..., T_r]] → Ā là đồng cấu liên tục duy nhất mở rộng nó. Các điều kiện sau là tương đương:
+Cho k là một trường, Λ là một đại số địa phương Noether trên k, x = (x_1, ..., x_r) là một dãy phần tử của m_A, và M là một Λ-môđun sinh hữu hạn. Gọi Ā và Ĝ là các đầy đủ hóa của A và M đối với tôpô $(x_1\bar{A} + ... + x_r\bar{A})$-adic của chúng; gọi u : k[T_1, ..., T_r] → Ā là đồng cấu duy nhất của các đại số trên k sao cho u(T_i) = x_i với i = 1, ..., r, và gọi ū : k[[T_1, ..., T_r]] → Ā là đồng cấu liên tục duy nhất mở rộng nó. Các điều kiện sau là tương đương:
 
 (i) dãy $x$ là $M$-chính quy;
 (ii) đồng cấu $u$ làm cho $M$ thành một $k[T_1, \ldots, T_r]$-môđun phẳng;
