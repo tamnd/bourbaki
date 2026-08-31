@@ -189,7 +189,7 @@ Vì khuyên con này là ảnh của khuyên $G_1$ qua cấu xạ khuyên $\pi \
 
 Cấu xạ khuyên $\alpha$ là một cấu xạ groupoid từ G vào Coh($\varphi , \psi$ ), và ánh xạ $h$ là một đồng luân nối $\alpha \circ \varphi$ với $\alpha \circ \psi$.
 
-Bộ ba (Coh($\varphi , \psi$ )$, $\alpha$ , $h$) có tính chất phổ quát sau: nếu $G'$ là một groupoid, $\alpha '$ là một cấu xạ của các groupoid từ G vào $G'$ và $h':$ Som(H) $\rightarrow$ Fl(G$'$) là một đồng luân nối $\alpha '\circ \varphi$ với $\alpha '\circ \psi$, thì tồn tại một cấu xạ duy nhất của các groupoid $\eta :$ Coh($\varphi , \psi$ )$\rightarrow G'$ sao cho
+Bộ ba (Coh($\varphi , \psi$ )$, \alpha , h$) có tính chất phổ quát sau: nếu $G'$ là một groupoid, $\alpha '$ là một cấu xạ của các groupoid từ G vào $G'$ và $h':$ Som(H) $\rightarrow$ Fl(G$'$) là một đồng luân nối $\alpha '\circ \varphi$ với $\alpha '\circ \psi$, thì tồn tại một cấu xạ duy nhất của các groupoid $\eta :$ Coh($\varphi , \psi$ )$\rightarrow G'$ sao cho
 
 (3) $\alpha '=\eta \circ \alpha$ và $h'=$ Fl($\eta$ )$\circ h$.
 

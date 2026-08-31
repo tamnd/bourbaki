@@ -282,7 +282,7 @@ Bằng quy nạp theo n và k ta có thể định nghĩa một hệ cơ sở (V
 $\overset{2}{V}_{k+1, n} \subset V_{kn}$,
 
 (3)
-$(f_{n, n+1} × f_{n, n+1})(V_{k, n+1}) \subset V_{kn}$.
+$(f_{n, n+1} \times f_{n, n+1})(V_{k, n+1}) \subset V_{kn}$.
 
 Thực vậy, cho (U_{kn})_{k∈\mathbf{N}} là một hệ cơ sở các lân cận của X_{α_n}. Nếu ta giả sử rằng các V_{kn} đã được định nghĩa cho một n cho trước và với mọi k ∈ \mathbf{N}, thì vì f_{n, n+1} liên tục đều ta có thể định nghĩa lân cận V_{k, n+1} bằng quy nạp theo k sao cho (3) được thỏa mãn và
 

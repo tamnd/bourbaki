@@ -467,7 +467,7 @@ Còn phải chứng minh rằng W là một lân cận của A trong B. Với m�
 
 #### Định lý 3 {#ta-i-s2-thm-3 .statement tag=01NO}
 
-Cho E và B là các không gian tôpô và cho $p: E\rightarrow B$ là một ánh xạ étale và tách. Giả sử E liên thông và B liên thông địa phương. Cho $\mathscr{W}$ là một cơ sở của tôpô của B. Khi đó, với mọi điểm $a$ của B, ta có Card(E$_a$)$\leqslant$ sup(Card($\mathscr{W}$), Card($\mathbf{N}$))$.
+Cho E và B là các không gian tôpô và cho $p: E\rightarrow B$ là một ánh xạ étale và tách. Giả sử E liên thông và B liên thông địa phương. Cho $\mathscr{W}$ là một cơ sở của tôpô của B. Khi đó, với mọi điểm $a$ của B, ta có Card(E$_a$)$\leqslant$ sup(Card($\mathscr{W}$), Card($\mathbf{N}$)).
 
 Vì không gian B liên thông địa phương, tôpô của nó có một cơ sở $\mathscr{W}'$ gồm các tập mở liên thông, chẳng hạn các thành phần liên thông của các tập mở của $\mathscr{W}$ (TG, I, p. 85, Mệnh đề 11). Theo Bổ đề 4 dưới đây, tồn tại một cơ sở $\mathscr{V}$ của tôpô của B gồm các tập mở liên thông và sao cho Card($\mathscr{V}$)$\leqslant$ Card($\mathscr{W}$)$^2$.
 

@@ -213,7 +213,7 @@ d) Hãy cho một ví dụ về hai môđun con $F, G$ của $E$, có chiều b�
 
 ¶ 3) Cho E là một không gian vectơ có chiều chẵn n = 2m trên một trường giao hoán A; cho $\Phi$ và $\Psi$ là hai dạng song tuyến tính phản xứng trên E; giả sử rằng $\Psi$ không suy biến. Cho u và v là các ánh xạ tuyến tính từ E vào E* liên kết bên phải tương ứng với $\Phi$ và $\Psi$; v là một đẳng cấu từ E lên E*; đặt $\omega = v^{-1} \circ u$, khi đó $\omega$ là một tự đồng cấu của E.
 
-a) Đặt M_0 = E, và, xác định đệ quy, M_{k+1} = ω(M_k) với k > 0. Hãy chỉ ra rằng nếu M'_k là không gian con trực giao với M_k đối với $\Phi$, thì M_{k+1}$ là không gian con trực giao với M'_k đối với $\Psi$.
+a) Đặt $M_0 = E$, và, xác định đệ quy, $M_{k+1} = \omega(M_k)$ với $k > 0$. Hãy chỉ ra rằng nếu $M'_k$ là không gian con trực giao với $M_k$ đối với $\Phi$, thì $M_{k+1}$ là không gian con trực giao với $M'_k$ đối với $\Psi$.
 
 b) Gọi n_0 là chiều của M'_0; đặt m_0 = 0, và với k ≥ 1, ký hiệu bởi m_k chiều của M_k ∩ M'_0. Hãy chỉ ra rằng với k ≥ 1 chiều của M_k là n − n_0 − (m_1 + ... + m_{k−1}) và chiều của M'_k là n_0 + (m_1 + ... + m_k).
 

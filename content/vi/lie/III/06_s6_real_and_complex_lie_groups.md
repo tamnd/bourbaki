@@ -856,17 +856,17 @@ và do đó $\phi \circ \pi = \phi^* \circ \sigma$. Vậy nên $\phi^*(\sigma(F)
 $$
 \sigma(F) \subset \mathrm{Ker}\, \phi^*.
 $$
-Gọi P là giao của các $\mathrm{Ker}\, \phi^*$ khi $\phi$ biến thiên. Đây là một nhóm con Lie chuẩn tắc của S' (no. 2, Hệ quả 3 của Mệnh đề 1). Đặt $\tilde{G} = S'/P$ và λ: S' → Ġ là cấu xạ chính tắc. Khi đó σ(F) ⊂ P và do đó tồn tại một và chỉ một cấu xạ R-giải tích γ từ G vào Ġ sao cho γ ∘ π = λ ∘ σ. Nếu ψ: Ġ → H ký hiệu cấu xạ dẫn xuất từ φ* khi chuyển qua thương, thì
+Gọi P là giao của các $\mathrm{Ker}\, \phi^*$ khi $\phi$ biến thiên. Đây là một nhóm con Lie chuẩn tắc của S' (no. 2, Hệ quả 3 của Mệnh đề 1). Đặt $\tilde{G} = S'/P$ và λ: S' → \tilde{G} là cấu xạ chính tắc. Khi đó σ(F) ⊂ P và do đó tồn tại một và chỉ một cấu xạ R-giải tích γ từ G vào \tilde{G} sao cho γ ∘ π = λ ∘ σ. Nếu ψ: \tilde{G} → H ký hiệu cấu xạ dẫn xuất từ φ* khi chuyển qua thương, thì
 
 $$(φ ∘ γ) ∘ π = ψ ∘ (λ ∘ σ) = φ^* ∘ σ = φ ∘ π$$
 
-do đó ψ ∘ γ = φ. Rõ ràng L(ψ), và vì thế ψ, được xác định duy nhất bởi đẳng thức ψ ∘ γ = φ. Như vậy ta đã chứng minh rằng cặp có thứ tự (Ḡ, γ) có các tính chất (i) và (iii).
+do đó ψ ∘ γ = φ. Rõ ràng L(ψ), và vì thế ψ, được xác định duy nhất bởi đẳng thức ψ ∘ γ = φ. Như vậy ta đã chứng minh rằng cặp có thứ tự (\tilde{G}, γ) có các tính chất (i) và (iii).
 
-(b) Bây giờ ta chuyển sang trường hợp tổng quát. Gọi F là thành phần liên thông của đơn vị của G, M = G/F và i: F → G và p: G → M là các cấu xạ chính tắc. Ta áp dụng phần (a) của chứng minh cho F. Ta thu được một cặp có thứ tự (Ḟ, δ). Với mọi g ∈ G, Int g|F = ω'(g) là một tự đẳng cấu của F. Theo tính chất phổ quát của Ḟ, tồn tại một và chỉ một tự đẳng cấu ω(g) của nhóm Lie phức Ḟ sao cho δ ∘ ω'(g) = ω(g) ∘ δ. Rõ ràng ω là một cấu xạ từ G vào Aut(Ḣ). Nếu g ∈ G và f ∈ F, thì
+(b) Bây giờ ta chuyển sang trường hợp tổng quát. Gọi F là thành phần liên thông của đơn vị của G, M = G/F và i: F → G và p: G → M là các cấu xạ chính tắc. Ta áp dụng phần (a) của chứng minh cho F. Ta thu được một cặp có thứ tự (\tilde{F}, δ). Với mọi g ∈ G, Int g|F = ω'(g) là một tự đẳng cấu của F. Theo tính chất phổ quát của \tilde{F}, tồn tại một và chỉ một tự đẳng cấu ω(g) của nhóm Lie phức \tilde{F} sao cho δ ∘ ω'(g) = ω(g) ∘ δ. Rõ ràng ω là một cấu xạ từ G vào Aut(\tilde{H}). Nếu g ∈ G và f ∈ F, thì
 
 $$δ(gf g^{-1}) = (\delta ∘ ω'(g))(f) = (\omega(g) ∘ \delta)(f) = \omega(g)(\delta(f)).$$
 
-Nếu f ∈ F, thì δ ∘ (Int_F f) = (Int_Ḟ δ(f)) ∘ δ và Int_Ḟ δ(f) là một tự đẳng cấu của nhóm Lie phức Ḟ; do đó Int_Ḟ δ(f) = ω(f).
+Nếu f ∈ F, thì δ ∘ (Int_F f) = (Int_\tilde{F} δ(f)) ∘ δ và Int_\tilde{F} δ(f) là một tự đẳng cấu của nhóm Lie phức \tilde{F}; do đó Int_\tilde{F} δ(f) = ω(f).
 
 Vì thế có thể áp dụng Bổ đề 7, cho ta một biểu đồ
 
@@ -874,17 +874,17 @@ $$
 \begin{array}{ccccc}
 F & \xrightarrow{i} & G & \xrightarrow{p} & M \\
 \downarrow{\delta} & & \downarrow{\gamma} & & \downarrow{\mathrm{Id}} \\
-Ḟ & \xrightarrow{\tilde{i}} & Ġ & \xrightarrow{\tilde{p}} & M.
+\tilde{F} & \xrightarrow{\tilde{i}} & \tilde{G} & \xrightarrow{\tilde{p}} & M.
 \end{array}
 $$
 
-Đồng nhất Ḟ với một nhóm con chuẩn tắc của Ġ nhờ ī. Nhóm Ġ được sinh bởi Ḟ và γ(G); do đó các tự đẳng cấu của Ḟ được xác định bởi các phần tử của Ġ là các tự đẳng cấu của cấu trúc nhóm Lie phức. Theo § 1, no. 9, Mệnh đề 18, tồn tại một và chỉ một cấu trúc nhóm Lie phức trên Ġ sao cho Ḟ là một nhóm con Lie mở của Ġ. Kể từ đây Ġ sẽ được trang bị cấu trúc này. Vì δ là R-giải tích, γ là R-giải tích.
+Đồng nhất \tilde{F} với một nhóm con chuẩn tắc của \tilde{G} nhờ ī. Nhóm \tilde{G} được sinh bởi \tilde{F} và γ(G); do đó các tự đẳng cấu của \tilde{F} được xác định bởi các phần tử của \tilde{G} là các tự đẳng cấu của cấu trúc nhóm Lie phức. Theo § 1, no. 9, Mệnh đề 18, tồn tại một và chỉ một cấu trúc nhóm Lie phức trên \tilde{G} sao cho \tilde{F} là một nhóm con Lie mở của \tilde{G}. Kể từ đây \tilde{G} sẽ được trang bị cấu trúc này. Vì δ là R-giải tích, γ là R-giải tích.
 
-Cặp có thứ tự (Ḡ, γ) có tính chất (iii) của mệnh đề. Ta sẽ chỉ ra rằng nó có tính chất (i). Gọi H là một nhóm Lie phức và ψ là một cấu xạ R-giải tích từ G vào H. Tồn tại một cấu xạ C-giải tích η từ Ḟ vào H sao cho η ∘ δ = φ|F. Gọi g ∈ G. Các ánh xạ
+Cặp có thứ tự (\tilde{G}, γ) có tính chất (iii) của mệnh đề. Ta sẽ chỉ ra rằng nó có tính chất (i). Gọi H là một nhóm Lie phức và ψ là một cấu xạ R-giải tích từ G vào H. Tồn tại một cấu xạ C-giải tích η từ \tilde{F} vào H sao cho η ∘ δ = φ|F. Gọi g ∈ G. Các ánh xạ
 
 $$f \mapsto \eta(\omega(g)f), \quad f \mapsto \phi(g)\eta(f)\phi(g)^{-1}$$
 
-từ Ḟ vào H là các cấu xạ C-giải tích; chúng trùng nhau trên δ(F), vì, nếu f' ∈ F, thì
+từ \tilde{F} vào H là các cấu xạ C-giải tích; chúng trùng nhau trên δ(F), vì, nếu f' ∈ F, thì
 
 $$\phi(g)\eta(\delta(f'))\phi(g)^{-1} = \phi(g)\phi(f')\phi(g)^{-1} = \phi(gf'g^{-1})$$
 $$= \eta(\delta(gf'g^{-1})) = \eta(\omega(g)\delta(f'));$$

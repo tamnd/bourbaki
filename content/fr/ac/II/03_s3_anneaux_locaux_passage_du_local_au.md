@@ -75,7 +75,7 @@ Soit $b$ un idéal d’un anneau $A$ qui n’est contenu que dans un seul idéal
 
 #### Exemple 4 {#ac-ii-s3-n1-exa-4 .statement}
 
-Soient $X$ un espace topologique, $x_0$ un point de $X$, $A$ l’anneau des germes au point $x_0$ des fonctions numériques continues dans un voisinage de $x_0$ ($Top. gén.$, chap. I, 3e éd., § 6, no 10). Il est clair que, pour que le germe en $x_0$ d’une fonction continue $f$ soit inversible dans $A$, il faut et il suffit que $f(x_0) \neq 0$, car cette condition entraîne que $f(x) \neq 0$ dans un voisinage de $x_0$. L’anneau $A$ est donc un anneau local dont l’idéal maximal $m$ est l’ensemble des germes des fonctions *nulles en* $x_0$; par passage au quotient, l’application $g \to g(x_0)$ de $A$ dans $\mathbf{R}$ donne un *isomorphisme* du corps résiduel $A/m$ sur $\mathbf{R}$.
+Soient $X$ un espace topologique, $x_0$ un point de $X$, $A$ l’anneau des germes au point $x_0$ des fonctions numériques continues dans un voisinage de $x_0$ (*Top. gén.*, chap. I, 3e éd., § 6, no 10). Il est clair que, pour que le germe en $x_0$ d’une fonction continue $f$ soit inversible dans $A$, il faut et il suffit que $f(x_0) \neq 0$, car cette condition entraîne que $f(x) \neq 0$ dans un voisinage de $x_0$. L’anneau $A$ est donc un anneau local dont l’idéal maximal $m$ est l’ensemble des germes des fonctions *nulles en* $x_0$; par passage au quotient, l’application $g \to g(x_0)$ de $A$ dans $\mathbf{R}$ donne un *isomorphisme* du corps résiduel $A/m$ sur $\mathbf{R}$.
 
 #### Proposition 2 {#ac-ii-s3-prop-2 .statement}
 

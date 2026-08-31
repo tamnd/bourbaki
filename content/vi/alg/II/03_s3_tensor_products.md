@@ -559,7 +559,7 @@ Cơ sở $(b_\mu)$ xác định một đẳng cấu của $F$ lên $\bigoplus_{\
 
 Nếu E là một đa môđun $((B'_i); A, (C'_j))$, thì đẳng cấu chính tắc E ⊗_A F → E^{(M)} là một đẳng cấu đa môđun $((B'_i); (C'_j))$.
 
-Đặc biệt, nếu E cũng có một cơ sở (a_λ)_{λ ∈ L}, thì mọi z ∈ E ⊗_A F đều có thể được viết dưới dạng $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$ theo một và chỉ một cách, trong đó các ξ_{λμ} thuộc A (và tạo thành một họ có giá hữu hạn); ánh xạ $z ↦ (\xi_{λμ})_{(λ, μ) ∈ L × M}$ là một đẳng cấu của E ⊗_A F lên A^{(L × M)} đối với các cấu trúc $\mathbf{Z}$-môđun (và thậm chí cả các cấu trúc môđun trên tâm của A). Cụ thể hơn:
+Đặc biệt, nếu E cũng có một cơ sở (a_λ)_{λ ∈ L}, thì mọi z ∈ E ⊗_A F đều có thể được viết dưới dạng $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$ theo một và chỉ một cách, trong đó các ξ_{λμ} thuộc A (và tạo thành một họ có giá hữu hạn); ánh xạ $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ là một đẳng cấu của E ⊗_A F lên A^{(L × M)} đối với các cấu trúc $\mathbf{Z}$-môđun (và thậm chí cả các cấu trúc môđun trên tâm của A). Cụ thể hơn:
 
 #### Hệ quả 2 {#alg-ii-s3-prop-7-cor-2 .statement}
 

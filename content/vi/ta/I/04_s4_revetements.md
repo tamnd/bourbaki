@@ -537,8 +537,6 @@ Bây giờ xét trường hợp các bó hằng địa phương trên một khô
 
 #### Mệnh đề 11 {#ta-i-s4-prop-11 .statement tag=01PX}
 
-i_U(f) =$ (pr$_i\circ f$)$_{i\in I}$.
-
 Nếu tập hợp I là hữu hạn, hoặc nếu không gian B liên thông địa phương, thì cấu xạ chính tắc $\psi : F\rightarrow \prod F_i$ là một đẳng cấu.
 
 Cho U là một tập mở của B. Rõ ràng ánh xạ $\psi_U$ là đơn ánh. Hãy chứng minh rằng nó là toàn ánh. Cần chứng minh rằng với mọi họ $(f_i)_{i\in I}$ trong đó $f_i$ là một ánh xạ hằng địa phương từ U vào $F_i$, và mọi điểm $a$ của U, tồn tại một lân cận V của $a$ trong U sao cho với mọi $i\in I$, ánh xạ $f_i|V$ là hằng. Khi tập hợp I là hữu hạn, sự tồn tại của một lân cận như vậy là rõ ràng. Khi không gian B liên thông địa phương, chỉ cần lấy V là một lân cận liên thông của $a$ trong U. Điều này chứng minh mệnh đề.
@@ -599,7 +597,7 @@ $g:\overset{-1}{p}(A)\rightarrow (^-{p'}^1)(A)$ là một cấu xạ A ( resp. m
 
 đẳng cấu U) $f:\overset{-1}{p}(U)\rightarrow (\overset{-1}{p}')(U)$ sao cho $f_A=g$.
 
-Ta giữ nguyên ký hiệu của hệ quả 1. Theo chính hệ quả đó, một cấu xạ A $g: E_A\rightarrow E'_A$ được đồng nhất với một tiết diện $s_0$ trên A của không gian étalé $E_{\mathscr{M}}$ liên kết với $\mathscr{M}$. Theo giả thiết đặt trên cặp $(B,A)$ và bổ đề 3 của I, p. 39, tồn tại một lân cận mở U của A trong B và một tiết diện liên tục $s$ của $E_{\mathscr{M}}$ trên U mở rộng $s_0$. Tiết diện $s`
+Ta giữ nguyên ký hiệu của hệ quả 1. Theo chính hệ quả đó, một cấu xạ A $g: E_A\rightarrow E'_A$ được đồng nhất với một tiết diện $s_0$ trên A của không gian étalé $E_{\mathscr{M}}$ liên kết với $\mathscr{M}$. Theo giả thiết đặt trên cặp $(B,A)$ và bổ đề 3 của I, p. 39, tồn tại một lân cận mở U của A trong B và một tiết diện liên tục $s$ của $E_{\mathscr{M}}$ trên U mở rộng $s_0$. Tiết diện $s$ này được đồng nhất với một U-cấu xạ $f: E_U\rightarrow E'_U$ mở rộng $f$.
 
 Trường hợp $g$ là một A-đẳng cấu được xử lý tương tự bằng cách xét, thay cho bó $\mathscr{M}$, bó $\mathscr{I}$.
 

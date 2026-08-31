@@ -261,11 +261,15 @@ Trong số này A sẽ kí hiệu một vành _địa phương_, $m$ iđêan c�
 
 Với mọi chuỗi lũy thừa hình thức
 
-f= i=0 ∑ ∞  a i  X i ∈B,
+$$
+f = \sum_{i=0}^{\infty} a_i X^i \in B,
+$$
 
 ta viết
 
-f ~  = i=0 ∑ ∞  a ˉ i  X i ∈k[[X]],
+$$
+\tilde{f} = \sum_{i=0}^{\infty} \bar{a}_i X^i \in k[[X]],
+$$
 
 trong đó $\bar{a}_i$ kí hiệu ảnh chính tắc của $a_i$ trong $k$. Chuỗi $\tilde{f}$ sẽ được gọi là _chuỗi rút gọn_ của f; nếu $\tilde{f} \neq 0$, cấp của $\tilde{f}$ (nghĩa là số nguyên nhỏ nhất $s$ sao cho $a_s \notin m$) sẽ được gọi là _cấp rút gọn_ của f.
 

@@ -527,13 +527,13 @@ $$
 
 ### 6. Integration with respect to a finite product of measures
 
-The preceding results may be extended without difficulty to a product of a finite number of measures. For example, let $T_1, T_2, T_3$ be three locally compact spaces, $\mu_i$ a positive measure on $T_i$ ($i = 1, 2, 3$), and let ν = μ₁ ⊗ μ₂ ⊗ μ₃ be the product measure on T = T₁ × T₂ × T₃. Let f be a ν-integrable function with values in $\overline{\mathbf{R}}$ or in a Banach space; a first application of the Lebesgue–Fubini theorem shows that, except at points $(t₁, t₂) ∈ T₁ × T₂$ forming a negligible set (for $μ₁ ⊗ μ₂$), the function $t₃ ↦ f(t₁, t₂, t₃)$ is $μ₃$-integrable, the function
+The preceding results may be extended without difficulty to a product of a finite number of measures. For example, let $T_1, T_2, T_3$ be three locally compact spaces, $\mu_i$ a positive measure on $T_i$ ($i = 1, 2, 3$), and let ν = μ₁ ⊗ μ₂ ⊗ μ₃ be the product measure on T = T₁ × T₂ × T₃. Let f be a ν-integrable function with values in $\overline{\mathbf{R}}$ or in a Banach space; a first application of the Lebesgue–Fubini theorem shows that, except at points $(t_1, t_2) \in T_1 \times T_2$ forming a negligible set (for $μ₁ ⊗ μ₂$), the function $t₃ ↦ f(t₁, t₂, t₃)$ is $μ₃$-integrable, the function
 
 $$
 (t₁, t₂) ↦ \int f(t₁, t₂, t₃) \, dμ₃(t₃),
 $$
 
-defined almost everywhere in $T₁ × T₂$, is $(μ₁ ⊗ μ₂)$-integrable, and
+defined almost everywhere in $T_1 \times T_2$, is $(μ₁ ⊗ μ₂)$-integrable, and
 
 $$
 \iiint f(t₁, t₂, t₃) \, dν(t₁, t₂, t₃) = \iint dμ₁(t₁) \, dμ₂(t₂) \int f(t₁, t₂, t₃) \, dμ₃(t₃).

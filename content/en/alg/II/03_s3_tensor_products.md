@@ -552,7 +552,7 @@ The basis $(b_\mu)$ defines an isomorphism of $F$ onto $\bigoplus_{\mu \in M} Ab
 
 If E is a ((B'_i); A, (C'_j))-multimodule, the canonical isomorphism E ⊗_A F → E^{(M)} is a ((B'_i); (C'_j))-multimodule isomorphism.
 
-In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z ↦ (\xi_{λμ})_{(λ, μ) ∈ L × M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
+In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
 
 #### Corollary 2 {#alg-ii-s3-prop-7-cor-2 .statement}
 
