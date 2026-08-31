@@ -216,7 +216,7 @@ est une suite exacte, ce qui entraîne que $\alpha$ est un isomorphisme.
 
 #### Définition 2 {#lie-ii-s1-def-2 .statement}
 
-Soit E une bigèbre de coproduit c. On appelle filtration compatible avec la structure de bigèbre de E une suite croissante $(E_n)_{n \geq 0}$ de sous-modules de E telle que
+Soit E une bigèbre de coproduit c. On appelle filtration compatible avec la structure de bigèbre de E une suite croissante $(E_n)_{n \geq 0}$ de sous-modules de E telle que\footnote{Si A et B sont deux sous-modules de E, on désigne par $\operatorname{Im}(A \otimes B)$ l’image de l’application canonique $A \otimes B \to E \otimes E$.}
 
 $$
 E_0 = K . 1, \quad E = \bigcup_{n \geq 0} E_n
@@ -226,7 +226,7 @@ E_m . E_n \subset E_{m+n} \quad \text{pour } m \geq 0, n \geq 0
 $$
 (6)
 $$
-c(E_n) \subset \sum_{i+j=n} \operatorname{Im}(E_i \otimes E_j) \quad \text{pour } n \geq 0.\footnote{1}
+c(E_n) \subset \sum_{i+j=n} \operatorname{Im}(E_i \otimes E_j) \quad \text{pour } n \geq 0.
 $$
 
 On appelle bigèbre filtrée une bigèbre munie d’une filtration compatible avec sa structure de bigèbre.
@@ -240,7 +240,7 @@ Soient E une bigèbre graduée (A, III, p. 148, déf. 3), $(E^n)_{n \geq 0}$ sa 
 Soient E une bigèbre filtrée, $(E_n)_{n \geq 0}$ sa filtration. Pour tout entier $n \geq 0$, soit $E_n^+ = E_n \cap E^+$. Alors $E_0^+ = \{0\}$ et
 (7)
 $$
-c^+(E_n^+) \subset \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) \quad \text{pour } n \geq 0.\footnote{1}
+c^+(E_n^+) \subset \sum_{i=1}^{n-1} \operatorname{Im}(E_i^+ \otimes E_{n-i}^+) \quad \text{pour } n \geq 0.
 $$
 
 Comme $E_0 = K . 1$, on a $E_0^+ = 0$. Si $x \in E_n$, on a $\pi(x) = x - \varepsilon(x) . 1$ (formule (1)), d’où $\pi(x) \in E_n^+$ et $\pi(E_n) \subset E_n^+$. Il en résulte que $\pi \otimes \pi$ applique $\operatorname{Im}(E_i \otimes E_j)$ dans $\operatorname{Im}(E_i^+ \otimes E_j^+)$ pour $i \geq 0, j \geq 0$. Comme $c^+ = (\pi \otimes \pi) \circ c$ dans $E^+$ (n° 1, prop. 2), on a d’après (6)
