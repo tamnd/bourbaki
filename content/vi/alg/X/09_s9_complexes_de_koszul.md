@@ -868,7 +868,7 @@ trong đó $e$ là đẳng cấu chính tắc của mở rộng vô hướng (II
 
 ### 9. Chứng minh Định lý 1: phần thứ hai
 
-Ta আবার xét dãy khớp
+Ta lại xét dãy khớp
 
 (16)
 $$

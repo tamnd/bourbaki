@@ -153,7 +153,7 @@ a) Cho $(L, u, v)$ là một mở rộng hợp thành của E và F; khi đó h�
 
 b) Cho p là một iđêan nguyên tố của $E \otimes_K F$; khi đó tồn tại một mở rộng hợp thành $(L, u, v)$ của E và F sao cho p là hạt nhân của $u * v$, và mọi hai mở rộng hợp thành như thế đều đẳng cấu.
 
-Mệnh đề a) suy ra từ तथ्य rằng hạt nhân của một đồng cấu từ một vành vào một trường là một iđêan nguyên tố (I, p. 116-117).
+Mệnh đề a) suy ra từ việc rằng hạt nhân của một đồng cấu từ một vành vào một trường là một iđêan nguyên tố (I, p. 116-117).
 
 Cho p là một iđêan nguyên tố của $E \otimes_K F$, A là vành thương $(E \otimes_K F)/p$ và L là trường phân thức của A. Với $x \in E$ (tương ứng $y \in F$) ta ký hiệu bởi $u(x)$ (tương ứng $v(y)$) lớp thặng dư mod p của $x \otimes 1$ (tương ứng $1 \otimes y$). Khi đó $u$ (tương ứng $v$) là một đồng cấu K của E (tương ứng F) vào L và $u(E) \cup v(F)$ sinh A như một vành, do đó sinh L như một trường. Vậy $(L, u, v)$ là một mở rộng hợp thành của E và F; ta thấy ngay rằng $u * v$ là đồng cấu chính tắc của $E \otimes_K F$ vào L, nên hạt nhân của nó bằng p.
 
