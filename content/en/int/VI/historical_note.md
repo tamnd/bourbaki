@@ -83,14 +83,14 @@ f̃ ≤ g̃, supₙ f̃ₙ, infₙ f̃ₙ, lim supₙ→∞ f̃ₙ, lim infₙ�
 |z| (z a point of a normed space) : IV, 3, 2.
 |f| (f a function with values in a normed space) : IV, 3, 2.
 N_p(f, μ), N_p(f), N_p(f̃) (1 ≤ p < +∞) : IV, 3, 2.
-𝒢_F(X), 𝒢_F : IV, 3, 3.
-𝒢_F^p(X, μ), 𝒢_F^p(μ), 𝒢_F^p : IV, 3, 3.
-𝒢_F : IV, 3, 3.
-𝒢_F, 𝒟_F^p(X, μ), 𝒟_F^p(μ), 𝒟_F^p, L_F^p(X, μ), L_F^p(μ), L_F^p, 𝒟^p, L^p (1 ≤ p < +∞) : IV, 3, 4.
+$\mathcal{G}_F(X), \mathcal{G}_F$ : IV, 3, 3.
+$\mathcal{G}_F^p(X, \mu), \mathcal{G}_F^p(\mu), \mathcal{G}_F^p$ : IV, 3, 3.
+$\mathcal{G}_F$ : IV, 3, 3.
+$\mathcal{G}_F, \mathcal{D}_F^p(X, \mu), \mathcal{D}_F^p(\mu), \mathcal{D}_F^p, L_F^p(X, \mu), L_F^p(\mu), L_F^p, \mathcal{D}^p, L^p (1 \leq p < +\infty)$ : IV, 3, 4.
 ‖f̃‖_p (1 ≤ p < +∞) : IV, 3, 4.
 μ(f), ∫ f dμ, ∫ f(x) dμ(x), ∫ fμ, ∫ f(x)μ(x), μ(f̃) (f a μ-integrable function with values in a Banach space) : IV, 4, 1.
 μ(A) (A a μ-integrable set) : IV, 4, 5.
-𝒬'(X; C) : IV, 4, 8.
+$\mathcal{Q}'(X; C)$ : IV, 4, 8.
 𝒬(Φ), 𝒬_F(Φ) (Φ a clan of sets) : IV, 4, 9.
 μ_*(f) (f a function) : IV, 4, Exer. 5.
 
@@ -142,10 +142,10 @@ gf, fg (f a vector-valued function, g a scalar function) : VI, 1, 1.
 \int f dm, \int f(t) dm(t) (f a numerical function, m a vectorial measure) :
 VI, 2, 1 and VI, 2, 2.
 g \cdot m (g a numerical function, m a vectorial measure) : VI, 2, 1.
-\mathcal{L}(m) : VI, 2, 2.
+$\mathcal{L}(m)$ : VI, 2, 2.
 q(m), |m| (q a semi-norm, m a vectorial measure) : VI, 2, 3.
 f \cdot \mu (f a vector-valued function, \mu a positive measure) : VI, 2, 4.
-\mathcal{L}_{F_s'}^\infty, L_{F_s'}^\infty : VI, 2, 5.
+$\mathcal{L}_{F_s'}^\infty, L_{F_s'}^\infty$ : VI, 2, 5.
 \langle f, g \rangle (f, g vector-valued functions) : VI, 2, 6.
 I_{\Phi,m}, \int f dm (f a vector-valued function, m a vectorial measure) : VI, 2, 7.
 |m|, \int f dm (m a complex measure) : VI, 2, 8, III, 1, 6.

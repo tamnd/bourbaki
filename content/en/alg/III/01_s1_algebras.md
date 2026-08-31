@@ -314,11 +314,15 @@ Let (E'_i, f'_{ji}) be another direct system of A_i-algebras and for all i let u
 
 Suppose now that all the rings A_i are equal to the same ring A and the \phi_{ji} to Id_A, so that E = \lim \to E_i is an A-algebra. Let F be an A-algebra and for all i let u_i : E_i \to F an A-algebra homomorphism such that (u_i) is a direct system of mappings; then u = \lim \to u_i is a homomorphism of the algebra E into the algebra F. Conversely, for every A-algebra homomorphism v : E \to F, the family of v_i = v \circ f_i is a direct system of A-algebra homomorphisms such that v = \lim \to v_i. As moreover, writing \vec{f}_{ij} = \mathrm{Hom}(f_{ij}, 1_F), (\mathrm{Hom}_{A\text{-alg.}}(E_i, F), \vec{f}_{ij}) is clearly an inverse system of sets, it is seen that the above remarks can also be expressed by saying that the canonical mapping v \mapsto (v \circ f_i) is a bijection
 
+$$
 d_F : \mathrm{Hom}_{A\text{-alg.}}(\lim \to E_i, F) \to \lim \leftarrow \mathrm{Hom}_{A\text{-alg.}}(E_i, F).
+$$
 
 Further, for every A-algebra homomorphism w : F \to F', the
 
+$$
 \bar{w}_i = \mathrm{Hom}(1_{E_i}, w) : \mathrm{Hom}_{A\text{-alg.}}(E_i, F) \to \mathrm{Hom}_{A\text{-alg.}}(E_i, F')
+$$
 
 form an inverse system of mappings and the diagram
 
@@ -345,14 +349,14 @@ The $\gamma_{ij}^k$ are called the *constants of structure* of the algebra E wit
 Relations (7) can be imagined written down by setting out the right hand sides of these relations in a square table
 
 $$
-\begin{array}{c|c|c}
+\begin{array}{c|ccc}
  & \cdots & a_j & \cdots \\
 \hline
  & & & \\
 \vdots & & & \\
 \hline
-a_j & & \sum_k \gamma_{ij}^k a_k & \\
-\vdots & & & \\
+a_i & & \sum_k \gamma_{ij}^k a_k & \\
+\vdots & & &
 \end{array}
 $$
 

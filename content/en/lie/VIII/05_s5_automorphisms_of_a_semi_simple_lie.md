@@ -254,7 +254,7 @@ Let $e_1=(\mathfrak g,\mathfrak h_1,B_1,(X^1_\alpha)_{\alpha\in B_1})$, $e_2=(\m
 
 Indeed, every element of $\operatorname{Aut}(\mathfrak g)$ transforms $(\mathfrak g,\mathfrak h,B,(X_\alpha)_{\alpha\in B})$ into a framing of $\mathfrak g$. By Prop. 5, every coset of $\operatorname{Aut}(\mathfrak g)$ modulo $\operatorname{Aut}_0(\mathfrak g)$ meets $G$ in exactly one point.
 
-\hfill Q.E.D.
+Q.E.D.
 
 It follows from Cor. 1 that the group Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ can be identified with Aut(R$,B$), and is isomorphic to the group of automorphisms of the Dynkin graph of R.
 

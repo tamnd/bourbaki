@@ -224,9 +224,9 @@ $c_w, s_w, t_w, c, s, t : 10, 2.$
 $H^+ : 10, 3.$
 
 (D_1, D_2) (D_1, D_2 droites ou demi-droites) : 10, 3.
-\mathfrak{A}, \mathfrak{A}_0, h, h' : 10, 3.
+$\mathfrak{A}, \mathfrak{A}_0, h, h'$ : 10, 3.
 |x|, \langle x, y \rangle (x, y vecteurs) : 10, 3.
-\cos \theta, \sin \theta, \operatorname{tg} \theta, \operatorname{cotg} \theta : 10, 3.
+$\cos \theta, \sin \theta, \operatorname{tg} \theta, \operatorname{cotg} \theta$ : 10, 3.
 \{ D_1, D_2 \}, \{ D_1, D_2 \} (D_1, D_2 demi-droites dans un plan orienté) : 10, 4.
 
 Les chiffres de référence indiquent successivement le paragraphe et le numéro (ou exceptionnellement, l’exercice).

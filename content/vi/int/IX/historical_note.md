@@ -200,7 +200,7 @@ Chương VII:
 $\gamma_X(s) ,\ \gamma(s)$: VII, 1, 1.
 $\gamma(s)f ,\ \gamma(s)\mu$ ($f$ là một hàm, $\mu$ là một độ đo): VII, 1, 1.
 $d\mu(s^{-1}x)$: VII, 1, 1.
-$\delta_X(s) ,\ \delta(s) ,\ \delta(s)f ,\ \delta(s)\mu ,\ d\mu(xs)$: VII, 1, 1.
+$\delta_X(s) ,\ \delta(s) ,\ \delta(s)f ,\ \delta(s)\mu,\ d\mu(xs)$: VII, 1, 1.
 $\check{f} ,\ \check{\mu} ,\ d\mu(x^{-1})$ ($f$ là một hàm, $\mu$ là một độ đo): VII, 1, 1.
 $\Delta_G ,\ \Delta$: VII, 1, 3.
 $\mathrm{mod}_G \varphi ,\ \mathrm{mod}\varphi$ ($\varphi$ là một tự đẳng cấu): VII, 1, 4.
@@ -228,32 +228,32 @@ Chương IX:
 
 \mathcal{F}_+(T), \mathcal{F}_+, f_A, f^0: các quy ước sơ bộ.
 \pi(p), p_A \text{ or } p|A: IX, 1, 1.
-\mathcal{P}(T; \mathbf{C}), \mathcal{P}(T; \mathbf{R}), \mathcal{P}(T), \mathcal{P}_+(T): IX, 1, 2.
+$\mathcal{P}(T; \mathbf{C}), \mathcal{P}(T; \mathbf{R}), \mathcal{P}(T), \mathcal{P}_+(T)$ : IX, 1, 2.
 w^\bullet(f), \int^\bullet f dw, \int^\bullet f(t) dw(t): IX, 1, 2.
-w^\bullet, w_K^\bullet: IX, 1, 2.
-w^+, w^-, |w|: IX, 1, 2.
+$w^\bullet, w_K^\bullet$ : IX, 1, 2.
+$w^+, w^-, |w|$ : IX, 1, 2.
 \mu(f), \mu(A): IX, 1, 5.
 \operatorname{Supp}(\mu): IX, 1, 6.
-\sum_{i \in I} \mu_i: IX, 1, 7.
+$\sum_{i \in I} \mu_i$ : IX, 1, 7.
 \mu^*(f), \mu^*(A), \int^* f d\mu, \int^* f(t) d\mu(t): IX, 1, 9.
-\mu^*: IX, 1, 9.
+$\mu^*$ : IX, 1, 9.
 \overline{\mathcal{L}}^p(T, \mu), \overline{\mathcal{L}}_F^p(T, \mu), \mathcal{L}^p(T, \mu), \mathcal{L}_F^p(T, \mu) \text{ (cho } 1 \leq p \leq +\infty): IX, 1, 10.
-\overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p, \overline{\mathcal{L}}^p, \overline{\mathcal{L}}^p(\mu), \mathcal{L}^p(\mu), \mathcal{L}^p: IX, 1, 10.
-\overline{N}_p(f), N_p(f), \overline{\mathcal{N}}_F, \mathcal{N}_F: IX, 1, 10.
-L_F^p(\mu), L_F^p: IX, 1, 10.
-\int f d\mu, \mu(f), \int f(t) d\mu(t): IX, 1, 10.
-\mu_X^\bullet, \mu_X, \mu|X: IX, 2, 1.
-f \cdot \mu: IX, 2, 2.
+$\overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p, \overline{\mathcal{L}}^p, \overline{\mathcal{L}}^p(\mu), \mathcal{L}^p(\mu), \mathcal{L}^p$ : IX, 1, 10.
+$\overline{N}_p(f), N_p(f), \overline{\mathcal{N}}_F, \mathcal{N}_F$ : IX, 1, 10.
+$L_F^p(\mu), L_F^p$ : IX, 1, 10.
+$\int f d\mu, \mu(f), \int f(t) d\mu(t)$ : IX, 1, 10.
+$\mu_X^\bullet, \mu_X, \mu|X$ : IX, 2, 1.
+$f \cdot \mu$ : IX, 2, 2.
 \pi(\mu): IX, 2, 3.
-\lambda \otimes \mu: IX, 2, 5.
+$\lambda \otimes \mu$ : IX, 2, 5.
 \mathcal{K}(T), \mathcal{B}(T): các quy ước của §3.
 \mathcal{C}^b(T; F), \mathcal{C}^b(T), \mathcal{C}^b, \mathcal{C}_+^b(T), \mathcal{C}_+^b: các quy ước của §5.
 \mathcal{M}^b(T; \mathbf{C}), \mathcal{M}^b(T), \mathcal{M}^b, \mathcal{M}_+^b(T), \mathcal{M}_+^b: các quy ước của §5.
-\mathcal{L}\mu: IX, 5, 7.
-\mathcal{F}(E): IX, 6, 1.
+$\mathcal{L}\mu$ : IX, 5, 7.
+$\mathcal{F}(E)$ : IX, 6, 1.
 p_V, p_{VW}: IX, 6, 1.
-\mathcal{Q}(E): IX, 6, 1.
-\tilde{\lambda}: IX, 6, 1.
+$\mathcal{Q}(E)$ : IX, 6, 1.
+$\tilde{\lambda}$ : IX, 6, 1.
 u(\mu) ($\mu$ là một tiền độ đo): IX, 6, 2.
 \mathcal{F}\mu ($\mu$ là một tiền độ đo hoặc một độ đo): IX, 6, 3.
 \Gamma_Q, \gamma_a: IX, 6, 5.

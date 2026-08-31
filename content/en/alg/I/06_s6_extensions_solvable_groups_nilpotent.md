@@ -75,7 +75,9 @@ F & \xrightarrow{i'} & E' \\
 \end{array}
 $$
 
+$$
 u \uparrow \quad \text{and} \quad p' \uparrow
+$$
 
 #### Proposition 1 {#alg-i-s6-prop-1 .statement}
 

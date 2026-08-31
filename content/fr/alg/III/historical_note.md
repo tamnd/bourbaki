@@ -126,7 +126,7 @@ $x_p \top x_{p+1} \top \cdots \top x_q$: I, p. 5.
 $\prod x$, $\perp x$, $x^n$, $nx$ ($n \in \mathbf{N}$): I, p. 5.
 $\prod_{0 \leq i < j \leq n} x_{ij}$, $\prod_{i < j} x_{ij}$: I, p. 10.
 $\sum_{i = p}^q \sum_{j = r}^s x_{ij}$, $\sum_{j = r}^s \sum_{i = p}^q x_{ij}$: I, p. 10.
-$\prod_{0 \leq i_1 < i_2 < \cdots < i_p \leq n} x_{i_1 i_2 \cdots i_p}$, $\prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \cdots i_p}$: I, p. 10.
+$\prod_{0 \leq i_1 < i_2 < \cdots< i_p \leq n} x_{i_1 i_2 \cdots i_p}$, $\prod_{i_1 < i_2 < \cdots< i_p} x_{i_1 i_2 \cdots i_p}$: I, p. 10.
 $\prod_{i \in I} x_i$ ($(x_i)_{i \in I}$ famille à support fini): I, p. 14.
 0, 1: I, p. 14.
 $\gamma_a$, $\delta_a$, $\gamma(a)$, $\delta(a)$: I, p. 14.
@@ -165,9 +165,9 @@ $F \times_{\tau} G$, $\mathcal{E}_{\tau}$ ($\tau$ homomorphisme de $G$ dans $\op
 $gf$ ($f \in F$, $g \in G$): I, p. 64.
 $(f, g) \cdot_{\tau} (f', g')$ ($f$, $f'$ dans $F$, $g$, $g'$ dans $G$): I, p. 64.
 (x, y), (A, B) (x, y éléments, A, B parties d’un groupe G): I, p. 65–66.
-D(G): I, p. 67.
-C^n(G): I, p. 68.
-D^n(G): I, p. 71.
+$D(G)$ : I, p. 67.
+$C^n(G)$ : I, p. 68.
+$D^n(G)$ : I, p. 71.
 E^G (G groupe opérant sur E): I, p. 73.
 M_n(X), M(X) (X ensemble): I, p. 77.
 l(w) (w élément de M(X)): I, p. 77.
@@ -196,8 +196,8 @@ $\operatorname{in}(G)$: I, p. 125, exerc. 13.
 $\mathbf{D}_n$: I, p. 135, exerc. 4.
 $\Omega$: I, p. 135, exerc. 4.
 $A \approx B$: I, p. 142, exerc. 39.
-e(G): I, p. 151, exerc. 39.
-d_n(X): I, p. 151, exerc. 39.
+$e(G)$ : I, p. 151, exerc. 39.
+$d_n(X)$ : I, p. 151, exerc. 39.
 A_s, A_d (A anneau): II, p. 3.
 $\operatorname{Hom}_A(E, F)$, $\operatorname{Hom}(E, F)$ ($E$, $F$ $A$-modules): II, p. 5.
 $\operatorname{End}_A(E)$, $\operatorname{End}(E)$, $\operatorname{Aut}(E)$, $\mathbf{GL}(E)$ ($E$ $A$-module): II, p. 5.
@@ -419,12 +419,12 @@ $u \perp x$, i(x) : III, p. 156.
 $x \perp u$, i'(x) : III, p. 157.
 $x \perp u$, i(u) : III, p. 159.
 $u \perp x$, i'(u) : III, p. 160.
-G_p(E), G_{n,p}(K) : III, p. 172.
-a(x, y, z) : III, p. 172.
+$G_p(E), G_{n,p}(K)$ : III, p. 172.
+$a(x, y, z)$ : III, p. 172.
 ME : III, p. 181, exerc. 13.
 $E \ast F$: III, p. 185, exerc. 6.
-R(a) : III, p. 188, exerc. 4.
-K[X; σ, d] : III, p. 197, exerc. 3.
+$R(a)$ : III, p. 188, exerc. 4.
+$K[X; \sigma, d]$ : III, p. 197, exerc. 3.
 X̃ : III, p. 199, exerc. 9.
 
 Abélien (groupe —): I, p. 30.

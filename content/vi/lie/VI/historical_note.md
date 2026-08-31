@@ -137,22 +137,22 @@ Tất cả các hệ Tits gặp trong các trường hợp này đều có một
 Các số tham chiếu chỉ chương, đoạn và số, tương ứng.
 
 A_l (hệ nghiệm kiểu): VI. 4. 1; VI. 4. 7 và Bảng I.
-\tilde{A}_l: VI. 4. 3.
-A[P]: VI. 3. 1.
+$\tilde{A}_l$ : VI. 4. 3.
+$A[P]$ : VI. 3. 1.
 Λ(R): VI. 1. 1.
 \tilde{\alpha} (nghiệm cao nhất): VI. 1. 8; VI. 4. 3.
-\alpha_0 = -\tilde{\alpha}: VI. 4. 3.
+$\alpha_0 = -\tilde{\alpha}$ : VI. 4. 3.
 (\alpha_1, \ldots, \alpha_l): VI. 1. 5.
-B: IV. 2. 1.
+$B$ : IV. 2. 1.
 B(C) (cơ sở được xác định bởi buồng C): VI. 1. 5.
 B_l (hệ nghiệm kiểu): VI. 4. 1; VI. 4. 5 và Bảng II.
-\tilde{B}_l: VI. 4. 3.
+$\tilde{B}_l$ : VI. 4. 3.
 B_M (dạng song tuyến tính liên kết với ma trận Coxeter M): V. 4. 1.
 C (buồng): V. 1. 3; VI. 1. 5.
 c (phép biến đổi Coxeter): V. 6. 1; VI. 1. 11.
 C_l (hệ nghiệm kiểu): VI. 4. 1; VI. 4. 6 và Bảng III.
-\tilde{C}_l: VI. 4. 3.
-\gamma_i, \Gamma_C: VI. 2. 3.
+$\tilde{C}_l$ : VI. 4. 3.
+$\gamma_i, \Gamma_C$ : VI. 2. 3.
 \gamma(R): VI. 1. 12.
 d = \prod_{\alpha > 0} (e^{\alpha/2} - e^{-\alpha/2}): VI. 3. 3.
 D_l (hệ nghiệm kiểu): VI. 4. 1; VI. 4. 8 và Bảng IV.
@@ -165,34 +165,34 @@ F_4 (hệ nghiệm kiểu): VI. 4. 1; VI. 4. 9 và Bảng VIII.
 \tilde{F}_4: VI. 4. 3.
 G: VI. 2. 3.
 G_2 (hệ nghiệm kiểu): VI. 4. 1; VI. 4. 13 và Bảng IX.
-\tilde{G}_2: VI. 4. 3.
-\mathfrak{H}: V. 3. 1.
+$\tilde{G}_2$ : VI. 4. 3.
+$\mathfrak{H}$ : V. 3. 1.
 
 h (số Coxeter): V, 6, 1; VI, 1, 11.
 H_3, H_4 (hệ Coxeter kiểu): VI, 4, 1.
 I_2(p) (hệ Coxeter kiểu): VI, 4, 1.
-J(c^p) = \sum_{w \in W} \det(w) e^{w(p)}: VI, 3, 3.
+$J(c^p) = \sum_{w \in W} \det(w) e^{w(p)}$ : VI, 3, 3.
 L_0, L_1, L_2, L_3 (các lưới trong \mathbf{R}^n): VI, 4, 4.
 l(w), l_S(w) (độ dài của một phần tử w): IV, 1, 1.
-m(s, s'): IV, 1, 9.
-N: IV, 2, 1.
-P(R): VI, 1, 9.
-Q(R): VI, 1, 9.
+$m(s, s')$ : IV, 1, 9.
+$N$ : IV, 2, 1.
+$P(R)$ : VI, 1, 9.
+$Q(R)$ : VI, 1, 9.
 R (hệ nghiệm): VI, 1, 1.
-R': VI, 1, 1.
-\rho = \frac{1}{2} \sum_{\alpha > 0} \alpha: VI, 1, 10; VI, 3, 3.
-S: IV, 1, 1.
+$R'$ : VI, 1, 1.
+$\rho= \frac{1}{2} \sum_{\alpha> 0} \alpha$ : VI, 1, 10; VI, 3, 3.
+$S$ : IV, 1, 1.
 S(c^p) = \sum_{q \in W.p} e^q: VI, 3, 4.
-S_w: IV, 1, 8.
-T = B \cap N: IV, 2, 1.
-V: VI, 1, 1; VI, 4, 4.
-W = N/T: IV, 2, 1.
-W: V, 3, 1.
-w_0: VI, 1, 6.
+$S_w$ : IV, 1, 8.
+$T = B \cap N$ : IV, 2, 1.
+$V$ : VI, 1, 1; VI, 4, 4.
+$W = N/T$ : IV, 2, 1.
+$W$ : V, 3, 1.
+$w_0$ : VI, 1, 6.
 W(R): VI, 1, 1.
 W^+(R): VI, 4, Bài tập.
-W_X: IV, 1, 8.
-\Phi_R: VI, 1, 12.
+$W_X$ : IV, 1, 8.
+$\Phi_R$ : VI, 1, 12.
 (\omega_1, \ldots, \omega_l): VI, 1, 10.
 
 Các số tham chiếu chỉ chương, đoạn và số (hoặc, trong trường hợp ngoại lệ, bài tập), tương ứng.

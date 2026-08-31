@@ -291,9 +291,7 @@ Loosely speaking, Proposition 7 may be expressed by saying that *tensor products
 
 #### Corollary 1 {#alg-ii-s6-prop-7-cor-1 .statement}
 
-*Let* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *be another direct system of right* (resp. *left*) *$A_\alpha$*-*modules; for all* $\alpha \in I$, *let* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *be an*
-
-A_\alpha\text{-linear mapping such that } (u_\alpha) \text{ (resp. } (v_\alpha)) \text{ is a direct system. Then } (u_\alpha \oplus v_\alpha) \text{ is a direct system of } \mathbf{Z}\text{-linear mappings and the diagram}
+*Let* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *be another direct system of right* (resp. *left*) *$A_\alpha$*-*modules; for all* $\alpha \in I$, *let* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *be an* $A_\alpha$-linear mapping such that $(u_\alpha)$ (resp. $(v_\alpha)$) is a direct system. Then $(u_\alpha \oplus v_\alpha)$ is a direct system of $\mathbf{Z}$-linear mappings and the diagram
 
 $$
 \begin{array}{ccc}

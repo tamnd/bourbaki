@@ -355,14 +355,14 @@ Các $\gamma_{ij}^k$ được gọi là *các hằng số cấu trúc* của đ�
 Các hệ thức (7) có thể hình dung được viết ra bằng cách xếp các vế phải của các hệ thức này trong một bảng vuông
 
 $$
-\begin{array}{c|c|c}
+\begin{array}{c|ccc}
  & \cdots & a_j & \cdots \\
 \hline
  & & & \\
 \vdots & & & \\
 \hline
-a_j & & \sum_k \gamma_{ij}^k a_k & \\
-\vdots & & & \\
+a_i & & \sum_k \gamma_{ij}^k a_k & \\
+\vdots & & &
 \end{array}
 $$
 

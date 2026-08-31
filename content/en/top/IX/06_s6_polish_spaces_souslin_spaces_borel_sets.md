@@ -354,7 +354,9 @@ Let $\mathfrak{T}$ be the set of all subsets $A$ of $X$ such that both $A$ and $
 
 By Proposition 13 of no. 5 there exist a sieve C and a continuous bijection f of L(C) onto A. With the notation of Lemma 5 of no. 6, for each integer n and each c ∈ C_n, let g_n(c) denote the subspace f(q_n(c)) of X; it is a Lusin subspace and therefore a Souslin subspace of X. As c runs through C_n, the sets g_n(c) are pairwise disjoint, because f is bijective; hence, by Theorem 2 of no. 6, there is a family c → g'_n(c) (c ∈ C_n) of Borel sets in X, pairwise disjoint and such that g'_n(c) ⊃ g_n(c) for all c ∈ C_n. Replacing g'_n(c) by its intersection with the closure g_n(c) of g_n(c) in X if necessary, we may suppose that g'_n(c) ⊂ g_n(c). Let c_{n-1}, c_{n-2}, ..., c_0 denote the images of c in C_{n-1}, C_{n-2}, ..., C_0, under the surjections
 
+$$
 p_{n-1,n} = p_{n-1},\ p_{n-2,n} = p_{n-2} \circ p_{n-1},\ ...,\ p_{0n} = p_0 \circ p_1 \circ ... \circ p_{n-1}
+$$
 
 respectively; and let h_n(c) denote the intersection of the sets
 

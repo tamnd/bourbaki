@@ -859,7 +859,11 @@ z = \sum_k (X^k \otimes x_k - 1 \otimes u^k(x_k)) = \sum_k (X^k - \bar{u}^k)(1 \
 $$
 But as the $A[X]$-endomorphisms $X$ and $\bar{u}$ of $M[X]$ are permutable, then
 
-X^k - \bar{u}^k = (X - \bar{u}) \circ \left( \sum_{j=0}^{k-1} X^j \bar{u}^{k-j-1} \right) which proves that there exists a $y \in M[X]$ such that $z = \psi(y)$.
+$$
+X^k - \bar{u}^k = (X - \bar{u}) \circ \left( \sum_{j=0}^{k-1} X^j \bar{u}^{k-j-1} \right)
+$$
+
+which proves that there exists a $y \in M[X]$ such that $z = \psi(y)$.
 
 Now let $M'$ be another $A$-module and $u'$ an endomorphism of $M'$; let $M'_{u'}$, $\phi'$, $\bar{u}'$, $\psi'$ be the module and mapping obtained from $M'$ and $u'$ as $M_u$, $\phi$, $\bar{u}$, $\psi$ are obtained from $M$ and $u$. Then:
 
