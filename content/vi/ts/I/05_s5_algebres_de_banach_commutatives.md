@@ -115,7 +115,7 @@ Theo phép dựng, Υ(F) là một iđêan của A sao cho V(Υ(F)) chứa F, v�
 
 Tập hợp J là một iđêan của A và V(J) chứa F. Ta hãy chứng minh rằng V(J) = F. Lấy $\chi \in \mathsf{X}(A)$ không thuộc F. Gọi U là một lân cận compact của $\chi$ không gặp F (TG, I, p. 65, hệ quả của mệnh đề 9). Theo mệnh đề (ii) của mệnh đề 1 của I, p. 88, tồn tại $x\in A$ sao cho $\mathscr{G}(x)$ bằng 1 tại $\chi$ và bằng 0 bên ngoài U. Khi đó $x\in J$ và do đó $\chi \notin V(J)$. Điều này cho thấy $V(J)\subset F$ và do đó V(J) = F.
 
-Cuối cùng, cho I là một iđêan của A sao cho V(I) = F. Ta hãy chứng minh rằng $J\subset I$. Cho $x\in J$ và C là giá của $\mathscr{G}(x)$; tập con C là một tập con compact của $\mathsf{X}(A) rời nhau với F. Theo Mệnh đề 3, tồn tại một phần tử $u\in I$ sao cho $\mathscr{G}(u) = 1$ trên C. Khi đó ta có $\mathscr{G}(x) =\mathscr{G}(ux)$, và do đó $x=ux$ vì A không có căn (Mệnh đề 8 của I, p. 38). Do đó, ta có $x\in I$, điều này chứng tỏ rằng $J\subset I$.
+Cuối cùng, cho I là một iđêan của A sao cho V(I) = F. Ta hãy chứng minh rằng $J\subset I$. Cho $x\in J$ và C là giá của $\mathscr{G}(x)$; tập con C là một tập con compact của $\mathsf{X}(A)$ rời nhau với F. Theo Mệnh đề 3, tồn tại một phần tử $u\in I$ sao cho $\mathscr{G}(u) = 1$ trên C. Khi đó ta có $\mathscr{G}(x) =\mathscr{G}(ux)$, và do đó $x=ux$ vì A không có căn (Mệnh đề 8 của I, p. 38). Do đó, ta có $x\in I$, điều này chứng tỏ rằng $J\subset I$.
 
 #### Hệ quả 1 {#ts-i-s5-prop-4-cor-1 .statement tag=02C4}
 

@@ -243,13 +243,13 @@ Nếu X liên thông, các phần tử lũy đẳng duy nhất của $\mathscr{C
 
 #### Bổ đề 1 {#ts-i-s8-lem-1 .statement tag=02HB}
 
-Cho X là một tập compact của mặt phẳng và O là một thành phần liên thông bị chặn của $\mathbf{C}-$ X. Biên của O được chứa trong X.
+Cho X là một tập compact của mặt phẳng và O là một thành phần liên thông bị chặn của $\mathbf{C}-X$. Biên của O được chứa trong X.
 
-Bao đóng của tập hợp O trong $\mathbf{C}-$ X bằng $\overline{O}\cap (\mathbf{C}-$ X) trong đó $\overline{O}$ là bao đóng của nó trong $\mathbf{C}$. Vì O là một thành phần liên thông của $\mathbf{C}-$ X, do đó ta có $\overline{O}\cap (\mathbf{C}-$ X) = O$, điều này chứng minh rằng $\overline{O}-O\subset X$.
+Bao đóng của tập hợp O trong $\mathbf{C}-X$ bằng $\overline{O}\cap (\mathbf{C}-X)$ trong đó $\overline{O}$ là bao đóng của nó trong $\mathbf{C}$. Vì O là một thành phần liên thông của $\mathbf{C}-X$, do đó ta có $\overline{O}\cap (\mathbf{C}-X) = O$, điều này chứng minh rằng $\overline{O}-O\subset X$.
 
-Cho X là một tập compact của $\mathbf{C}$. Gọi $O_{\infty}$ là thành phần liên thông không bị chặn của $\mathbf{C}-$X$, và $(O_i)_{i\in I}$ là họ các thành phần liên thông bị chặn của $\mathbf{C}-$ X, các tập con $O_i$ từng đôi một phân biệt.
+Cho X là một tập compact của $\mathbf{C}$. Gọi $O_{\infty}$ là thành phần liên thông không bị chặn của $\mathbf{C}-X$, và $(O_i)_{i\in I}$ là họ các thành phần liên thông bị chặn của $\mathbf{C}-X$, các tập con $O_i$ từng đôi một phân biệt.
 
-Cho E là một tập con của $\mathbf{C}-$ X. Ta ký hiệu $R_E(X)$ là bao đóng trong $\mathscr{C}(X)$ của tập hợp các hàm $f|X$, trong đó $f$ là một hàm hữu tỉ trên $\mathbf{C}$ mà mọi cực của nó đều thuộc E. Đại số $R_E(X)$ là một đại số con Banach có đơn vị của $\mathscr{C}(X)$, tách các điểm của X. Cho $z$ là hàm đồng nhất trên X. Đại số con đóng đầy đủ của $R_E(X)$ sinh bởi $z$ bằng $R_E(X)$ (Bổ đề 2 của I, p. 6). Các phần tử của $R_E(X)$ là toàn hình trong phần trong của X.
+Cho E là một tập con của $\mathbf{C}-X$. Ta ký hiệu $R_E(X)$ là bao đóng trong $\mathscr{C}(X)$ của tập hợp các hàm $f|X$, trong đó $f$ là một hàm hữu tỉ trên $\mathbf{C}$ mà mọi cực của nó đều thuộc E. Đại số $R_E(X)$ là một đại số con Banach có đơn vị của $\mathscr{C}(X)$, tách các điểm của X. Cho $z$ là hàm đồng nhất trên X. Đại số con đóng đầy đủ của $R_E(X)$ sinh bởi $z$ bằng $R_E(X)$ (Bổ đề 2 của I, p. 6). Các phần tử của $R_E(X)$ là toàn hình trong phần trong của X.
 
 Đặc biệt, ta có $R_{\emptyset}(X) = P(X)$. Ta viết $R(X) = R_{\mathbf{C}-X}(X)$. Cho I(E) là tập hợp các phần tử $i\in I$ sao cho $E\cap O_i=\emptyset$, và
 
@@ -271,7 +271,7 @@ c) Mọi đặc trưng của $R_E(X_E)$ đều có dạng $f\mapsto f(w)$, trong
 
 d) Ánh xạ $\chi \mapsto \chi (z)$ là một phép đồng phôi của $\mathsf{X}(R_E(X))$ lên $X_E$;
 
-e) Nếu $E'$ là một tập con của $\mathbf{C}-$ X, thì $R_E(X) = R_{E'}(X)$ khi và chỉ khi $X_E= X_{E'}$, điều này cũng tương đương với $I(E) = I(E')$.
+e) Nếu $E'$ là một tập con của $\mathbf{C}-X$, thì $R_E(X) = R_{E'}(X)$ khi và chỉ khi $X_E= X_{E'}$, điều này cũng tương đương với $I(E) = I(E')$.
 
 Ánh xạ hạn chế $h$ của $R_E(X_E)$ vào $R_E(X)$ là một cấu xạ của các đại số Banach sao cho $\|h(f)\|\leqslant \|f\|$ với mọi hàm $f\in R_E(X_E)$. Cho $f\in R_E(X_E)$. Cho $i\in I(E)$. Vì $f$ là hàm chỉnh hình trong một lân cận của tập mở bị chặn $O_i$, nguyên lý cực đại (VAR, I, p. 29) suy ra tồn tại một phần tử $z_0$ trên biên của $O_i$ sao cho $|f(z_0)|=$ sup$_{z\in O_i}|f(z)|$. Vì biên của $O_i$ được chứa trong X (bổ đề 1), suy ra sup$_{z\in O_i}|f(z)|\leqslant \|h(f)\|$. Vì bất đẳng thức này đúng với mọi $i\in I(E)$, suy ra $\|f\|\leqslant \|h(f)\|$. Do đó cấu xạ $h$ là đẳng cự, và đặc biệt là đơn ánh. Bây giờ chứng minh rằng nó toàn ánh. Cho $g\in R_E(X)$. Tồn tại một dãy $(f_n)$ các hàm hữu tỉ có các cực thuộc E, hội tụ đều đến $g$ trên X. Các $f_n|X_E$ là các phần tử của $R_E(X_E)$. Vì $h$ là đẳng cự, dãy $(f_n|X_E)$ hội tụ trong $\mathscr{C}(X_E)$. Nếu $f$ là giới hạn của nó, thì $f\in R_E(X_E)$ và $g=f|X =h(f)$. Do đó a).
 
@@ -285,13 +285,13 @@ Mệnh đề d) cho thấy $X_E= X_{E'}$ nếu $R_E(X) = R_{E'}(X)$. Ngược l�
 
 Các điều kiện sau là tương đương:
 
-(i) Tập hợp E gặp mọi thành phần liên thông bị chặn của $\mathbf{C}-$ X ;
+(i) Tập hợp E gặp mọi thành phần liên thông bị chặn của $\mathbf{C}-X$ ;
 
 (ii) Ánh xạ $\chi \mapsto \chi (z)$ là một đồng phôi từ $\mathsf{X}(R_E(X))$ lên X ;
 
 (iii) Ta có $R_E(X) = R(X)$.
 
-Đặt $E'=\mathbf{C}-$ X. Các điều kiện (i), (ii) và (iii) lần lượt tương đương với $I(E) = I(E')$, với $X_E= X_{E'}$ (theo mệnh đề 5, d)) và với $R_E(X) = R_{E'}(X)$. Do đó chúng tương đương với nhau theo mệnh đề 5, e).
+Đặt $E'=\mathbf{C}-X$. Các điều kiện (i), (ii) và (iii) lần lượt tương đương với $I(E) = I(E')$, với $X_E= X_{E'}$ (theo mệnh đề 5, d)) và với $R_E(X) = R_{E'}(X)$. Do đó chúng tương đương với nhau theo mệnh đề 5, e).
 
 Hệ quả sau đây làm cho định lý Runge chính xác hơn (định lý 3 của I, p. 69).
 
