@@ -147,7 +147,7 @@ Công thức (16) suy ra từ II, § 4, no. 4, công thức (26) và công thứ
 
 #### Định nghĩa 2 {#alg-iii-s9-def-2 .statement}
 
-Cho $A$ là một $K$-đại số là một $K$-môđun tự do hữu hạn chiều. Với mỗi phần tử $a \in A$, vết (tương ứng chuẩn,\footnote{† Khái niệm này không nên lẫn với khái niệm chuẩn trong một đại số trên một trường có giá trị (\emph{Tôpô đại cương}), IX, § 3, no. 7.) tương ứng đa thức đặc trưng) của $a$ đối với $A$ và $K$ là vết (tương ứng định thức, tương ứng đa thức đặc trưng) của tự đồng cấu $x \mapsto ax$ của $K$-môđun $A$.
+Cho $A$ là một $K$-đại số là một $K$-môđun tự do hữu hạn chiều. Với mỗi phần tử $a \in A$, vết (tương ứng chuẩn,\footnote{† Khái niệm này không nên lẫn với khái niệm chuẩn trong một đại số trên một trường có giá trị (\emph{Tôpô đại cương}), IX, § 3, no. 7.} tương ứng đa thức đặc trưng) của $a$ đối với $A$ và $K$ là vết (tương ứng định thức, tương ứng đa thức đặc trưng) của tự đồng cấu $x \mapsto ax$ của $K$-môđun $A$.
 
 Vết, chuẩn và đa thức đặc trưng của $a \in A$ đối với $A$ và $K$ được ký hiệu lần lượt là $\mathrm{Tr}_{A/K}(a)$, $N_{A/K}(a)$ và $\mathrm{Pc}_{A/K}(a; X)$; ta lược bỏ $K$ và ngay cả $A$ khỏi ký hiệu này khi không sợ nhầm lẫn. Chú ý rằng vết (tương ứng chuẩn, đa thức đặc trưng) của $a \in A$ chỉ là vết (tương ứng chuẩn, đa thức đặc trưng) của $a$ đối với $A$-môđun $A_s$.
 

@@ -716,7 +716,7 @@ Cho $s \in G$ sao cho $sMs^{-1} = M$. Nhóm con $sPs^{-1}$ của M là một nh�
 
 Cho $N$ là một nhóm con chuẩn tắc của $G$. Ảnh trong $G/N$ của một nhóm con Sylow $p$ của $G$ là một nhóm con Sylow $p$ của $G/N$, và mọi nhóm con Sylow $p$ của $G/N$ đều thu được theo cách này.
 
-Cho $G' = G/N$ và $P'$ là ảnh trong $G'$ của một nhóm con Sylow $p$ $P$ của $G$. Nhóm $G$ tác động bắc cầu trên $G'/P'$ và do đó $G'/P'$ là đẳng lực với $G/S$, trong đó $S$ là một nhóm con của $G$ chứa $P$. Vì vậy $(G':P')$ chia hết $(G:P)$, do đó không phải là một bội của $p$ và $p$-nhóm $P'$ là một nhóm con Sylow $p$ của $G'$. Cho $Q'$ là một nhóm con Sylow $p$ khác của $G'$; khi đó $Q' = g'P'{g'}^{-1}$ với некотор nào đó $g' \in G'$; nếu $g \in G$ là một đại diện của $g'$, thì nhóm $Q'$ là ảnh của $Q = gPg^{-1}$.
+Cho $G' = G/N$ và $P'$ là ảnh trong $G'$ của một nhóm con Sylow $p$ $P$ của $G$. Nhóm $G$ tác động bắc cầu trên $G'/P'$ và do đó $G'/P'$ là đẳng lực với $G/S$, trong đó $S$ là một nhóm con của $G$ chứa $P$. Vì vậy $(G':P')$ chia hết $(G:P)$, do đó không phải là một bội của $p$ và $p$-nhóm $P'$ là một nhóm con Sylow $p$ của $G'$. Cho $Q'$ là một nhóm con Sylow $p$ khác của $G'$; khi đó $Q' = g'P'{g'}^{-1}$ với một $g' \in G'$ nào đó; nếu $g \in G$ là một đại diện của $g'$, thì nhóm $Q'$ là ảnh của $Q = gPg^{-1}$.
 
 ### 7. NHÓM LŨY LINH HỮU HẠN
 
