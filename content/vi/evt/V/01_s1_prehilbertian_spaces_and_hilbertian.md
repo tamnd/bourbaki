@@ -369,7 +369,7 @@ Sự tồn tại của phép mở rộng của $(x, y) \mapsto \langle x|y \rang
 
 Không gian Hilbert này được gọi là *phần bù đầy đủ* của không gian tiền Hilbert Hausdorff E.
 
-\* *Ví dụ 6*. — Cho U là một tập mở của $\mathbf{R}^n$ ($n \geqslant 1$). Cho $\mathscr{C}_0^1(\mathrm{U})$ là không gian vectơ của جميع các hàm lớp $\mathrm{C}^1$ có giá compact trong U. Ta định nghĩa một cấu trúc không gian tiền Hilbert Hausdorff trên $\mathscr{C}_0^1(\mathrm{U})$ mà tích vô hướng được cho bởi
+\* *Ví dụ 6*. — Cho U là một tập mở của $\mathbf{R}^n$ ($n \geqslant 1$). Cho $\mathscr{C}_0^1(\mathrm{U})$ là không gian vectơ của tất cả các hàm lớp $\mathrm{C}^1$ có giá compact trong U. Ta định nghĩa một cấu trúc không gian tiền Hilbert Hausdorff trên $\mathscr{C}_0^1(\mathrm{U})$ mà tích vô hướng được cho bởi
 
 $$
 \langle f|g \rangle = \sum_{i=1}^{n} \int_{\mathrm{U}} \overline{\mathrm{D}_i f(x)} . \mathrm{D}_i g(x) \, dx .
@@ -525,7 +525,7 @@ Ngược lại, giả sử tồn tại một điểm $x_0$ trong E và một s�
 $$
 d(x, H) \leq \|x - x_0\| + C \quad \text{với mọi } H \in \Phi,
 $$
-do đó số $d = \sup_{H \in \Phi} d(x, H)$ là hữu hạn. Gọi B là tập hợp всех $z \in E$ sao cho $\|x - z\| \leq d$. Vì B lồi và đóng trong E, các tập hợp $H \cap B$, với H chạy qua $\Phi$, là lồi, Hausdorff và đầy đủ. Cho $\varepsilon > 0$; tồn tại một tập hợp $H \in \Phi$ sao cho $d(x, H) \geq d - \varepsilon$, và nếu $\varepsilon < d/2$, đường kính của $H \cap B$ bị chặn bởi $\sqrt{12 \varepsilon (d - \varepsilon)}$ theo mệnh đề 5 (V, p. 9). Nói cách khác, với mọi $H_0 \in \Phi$, các tập hợp đóng $H \cap B$, với $H \in \Phi$ và $H \subset H_0$, tạo thành một cơ sở của bộ lọc Cauchy trên không gian Hausdorff và đầy đủ $H_0$. Do đó giao của các tập hợp $H \cap B$ (với $H \in \Phi$) thu về một điểm y. Ta được $y \in M$ và $\|x - y\| = d = d(x, M)$. Vì M đóng trong $H_0$, nó là một tập hợp Hausdorff, lồi và đầy đủ trong E, và do đó $y = p_M(x)$. Với mọi $H \in \Phi$, ta có $p_H(x) \in H \cap B$, từ đó suy ra $p_M(x) = \lim_{H \in \Phi} p_H(x)$.
+do đó số $d = \sup_{H \in \Phi} d(x, H)$ là hữu hạn. Gọi B là tập hợp tất cả $z \in E$ sao cho $\|x - z\| \leq d$. Vì B lồi và đóng trong E, các tập hợp $H \cap B$, với H chạy qua $\Phi$, là lồi, Hausdorff và đầy đủ. Cho $\varepsilon > 0$; tồn tại một tập hợp $H \in \Phi$ sao cho $d(x, H) \geq d - \varepsilon$, và nếu $\varepsilon < d/2$, đường kính của $H \cap B$ bị chặn bởi $\sqrt{12 \varepsilon (d - \varepsilon)}$ theo mệnh đề 5 (V, p. 9). Nói cách khác, với mọi $H_0 \in \Phi$, các tập hợp đóng $H \cap B$, với $H \in \Phi$ và $H \subset H_0$, tạo thành một cơ sở của bộ lọc Cauchy trên không gian Hausdorff và đầy đủ $H_0$. Do đó giao của các tập hợp $H \cap B$ (với $H \in \Phi$) thu về một điểm y. Ta được $y \in M$ và $\|x - y\| = d = d(x, M)$. Vì M đóng trong $H_0$, nó là một tập hợp Hausdorff, lồi và đầy đủ trong E, và do đó $y = p_M(x)$. Với mọi $H \in \Phi$, ta có $p_H(x) \in H \cap B$, từ đó suy ra $p_M(x) = \lim_{H \in \Phi} p_H(x)$.
 
 #### Mệnh đề 7 {#evt-v-s1-prop-7 .statement}
 
@@ -548,7 +548,7 @@ $$
 $$
 (« định lý Pythagore »).
 
-Cho A là một tập con của E. Ta nói rằng một vectơ x trong E trực giao với A nếu nó trực giao với mọi vectơ của A. Tập hợp всех vectơ trực giao với A là một không gian con vectơ đóng của A, ký hiệu là $A^\circ$ và được gọi (do lạm dụng ngôn ngữ) là trực giao của A.
+Cho A là một tập con của E. Ta nói rằng một vectơ x trong E trực giao với A nếu nó trực giao với mọi vectơ của A. Tập hợp tất cả vectơ trực giao với A là một không gian con vectơ đóng của A, ký hiệu là $A^\circ$ và được gọi (do lạm dụng ngôn ngữ) là trực giao của A.
 
 Cho A và B là hai tập con của E. Ta nói rằng A và B trực giao nếu mọi vectơ của A trực giao với mọi vectơ của B. Điều này tương đương với việc nói rằng $A \subset B^\circ$, hoặc $B \subset A^\circ$. Nếu E là Hausdorff và nếu A và B trực giao thì $A \cap B$ là rỗng hoặc thu về 0 vì 0 là vectơ duy nhất của E trực giao với chính nó.
 

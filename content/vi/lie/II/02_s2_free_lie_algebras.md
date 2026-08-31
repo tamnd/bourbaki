@@ -527,7 +527,7 @@ Ngược lại, cho $u \in P_{p+1}$. Ta phân biệt hai trường hợp:
 
 (α) Không tồn tại phần tử $v$ nào của $M(X)$ sao cho $u = w_p v$. Theo định nghĩa của $P_{p+1}$, $u > w_p$. Hơn nữa, nếu $u \notin X$, thì $\alpha(u) \neq w_p$ theo giả thiết đã cho và $\alpha(u) < w_{p+1}$ vì $u \in P_{p+1}$; do đó $\alpha(u) < w_p$. Vậy $u \in P_p$ và $u \neq w_p$.
 
-(β) Tồn tại $v$ trong $M(X)$ sao cho $u = w_p v$. Theo Định nghĩa 2, tất yếu либо $w_p \in X, v \in X$ và $w_p < v$, hoặc $v \notin X$ và $\alpha(v) \leq w_p < v$. Trong cả hai trường hợp, $v \in P_{p+1}$.
+(β) Tồn tại $v$ trong $M(X)$ sao cho $u = w_p v$. Theo Định nghĩa 2, tất yếu hoặc $w_p \in X, v \in X$ và $w_p < v$, hoặc $v \notin X$ và $\alpha(v) \leq w_p < v$. Trong cả hai trường hợp, $v \in P_{p+1}$.
 
 Khi đó tồn tại một số nguyên $i \geq 0$ và một phần tử $w$ của $M(X)$ sao cho $u = w_p^i w$, và hoặc $w \in X$ hoặc $w \notin X$ và $\alpha(w) \neq w_p$. Nếu $i = 0$, ta có trường hợp (α) ở trên, do đó $w \in P_p$ và $w \neq w_p$. Nếu $i > 0$, chứng minh của (β) ở trên thiết lập, bằng quy nạp theo $i$, các hệ thức $w \in P_{p+1}$ và $w \neq w_p$. Giả sử $w \notin X$; từ $w \in P_{p+1}$ suy ra $\alpha(w) \leq w_p$ và vì $\alpha(w) \neq w_p$, ta kết luận rằng $w \in P_p$. Điều này hoàn tất chứng minh của (d).
 

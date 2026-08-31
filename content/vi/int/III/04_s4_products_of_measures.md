@@ -511,7 +511,7 @@ $$
 \mu_K(f_J \circ \mathrm{pr}_{J, K}) = \mu_J(f_J) \cdot \prod_{\lambda \in K - J} \mu_\lambda(1).
 $$
 
-Để $(\mu_J)$ là một hệ ngược các độ đo, do đó điều kiện cần và đủ là либо $\mu_\lambda = 0$ với mọi $\lambda \in L$ hoặc $\mu_\lambda(1) = 1$ với mọi $\lambda \in L$.
+Để $(\mu_J)$ là một hệ ngược các độ đo, do đó điều kiện cần và đủ là hoặc $\mu_\lambda = 0$ với mọi $\lambda \in L$ hoặc $\mu_\lambda(1) = 1$ với mọi $\lambda \in L$.
 
 ### 6. Tích vô hạn của các độ đo
 

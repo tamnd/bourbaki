@@ -509,7 +509,7 @@ Trong No. này, giả thiết rằng $K =\mathbf{C}$.
 
 Cho $X_1$ và $X_2$ là các tập con compact của $\mathbf{C}$. Nếu $X_2$ được chứa trong $X_1$ và nếu biên của $X_1$ trong $\mathbf{C}$ được chứa trong $X_2$, thì $X_1$ là hợp của $X_2$ và một số thành phần liên thông bị chặn của phần bù của $X_2$ trong $\mathbf{C}$.
 
-Cho U là một thành phần liên thông của $\mathbf{C}-X_2$. Mọi điểm biên của $X_1\cap U$ trong tập mở U cũng là một điểm biên của $X_1$ trong $\mathbf{C}$, do đó thuộc $X_2$ theo giả thiết; vì $U\cap X_2=\emptyset$, ta thấy rằng $X_1\cap U$ không có điểm biên nào trong không gian U. Vì U liên thông, giao $X_1\cap U$ либо rỗng hoặc bằng U (TG, I, p. 82, cor.), và bổ đề được suy ra.
+Cho U là một thành phần liên thông của $\mathbf{C}-X_2$. Mọi điểm biên của $X_1\cap U$ trong tập mở U cũng là một điểm biên của $X_1$ trong $\mathbf{C}$, do đó thuộc $X_2$ theo giả thiết; vì $U\cap X_2=\emptyset$, ta thấy rằng $X_1\cap U$ không có điểm biên nào trong không gian U. Vì U liên thông, giao $X_1\cap U$ hoặc rỗng hoặc bằng U (TG, I, p. 82, cor.), và bổ đề được suy ra.
 
 #### Mệnh đề 6 {#ts-i-s2-prop-6 .statement tag=026M}
 

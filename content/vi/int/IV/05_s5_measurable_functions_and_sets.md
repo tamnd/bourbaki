@@ -101,7 +101,7 @@ Với mỗi số nguyên $n \geq 1$ tồn tại một tập compact $K_n \subset
 
 *Một tập con* $A$ *của* $X$ *được gọi là đo được nếu hàm đặc số* $\varphi_A$ *của nó là đo được*.
 
-Xét theo Định nghĩa 1, nói rằng một tập đo được $A$ là một tập sao cho, với mọi tập compact $K$, tồn tại một tập không đáng kể $N \subset K$ và một phân hoạch $(K_n)$ của $K - N$ tạo thành bởi một dãy các tập compact mà mỗi tập đều được chứa либо trong $K \cap A$ hoặc trong $K \cap \complement A$.
+Xét theo Định nghĩa 1, nói rằng một tập đo được $A$ là một tập sao cho, với mọi tập compact $K$, tồn tại một tập không đáng kể $N \subset K$ và một phân hoạch $(K_n)$ của $K - N$ tạo thành bởi một dãy các tập compact mà mỗi tập đều được chứa hoặc trong $K \cap A$ hoặc trong $K \cap \complement A$.
 
 Định nghĩa này cho ngay tiêu chuẩn sau:
 

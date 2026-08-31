@@ -571,7 +571,7 @@ $$
 (C,d)=\bigoplus_{n\in\mathbf{Z}}(E_{(n)}\oplus F_{(n)})
 $$
 
-; mỗi $E_{(n)}$ либо bằng không hoặc có độ dài $0$, mỗi $F_{(n)}$ либо bằng không hoặc có độ dài $1$ và có đồng điều không, do đó có (iv).
+; mỗi $E_{(n)}$ hoặc bằng không hoặc có độ dài $0$, mỗi $F_{(n)}$ hoặc bằng không hoặc có độ dài $1$ và có đồng điều không, do đó có (iv).
 
 $(iv) \Rightarrow (i)$: chỉ cần nhận thấy rằng (i) được thỏa mãn khi $C$ có độ dài không, hoặc có đồng điều không và độ dài $1$.
 

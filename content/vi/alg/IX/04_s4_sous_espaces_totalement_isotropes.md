@@ -38,7 +38,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 4. Các không gian con hoàn toàn đẳng hướng. Định lý Witt
 
-Trong đoạn này giả thiết rằng, trừ khi nói rõ ngược lại, A là một trường. Bởi Φ ta ký hiệu либо một dạng ε-Hermit trên E (đối với phản tự đẳng cấu đối hợp $λ \to \overline{λ}$ của A), либо dạng song tuyến tính đối xứng liên kết với một dạng toàn phương Q trên E (trong trường hợp sau giả thiết A giao hoán).
+Trong đoạn này giả thiết rằng, trừ khi nói rõ ngược lại, A là một trường. Bởi Φ ta ký hiệu hoặc một dạng ε-Hermit trên E (đối với phản tự đẳng cấu đối hợp $λ \to \overline{λ}$ của A), hoặc dạng song tuyến tính đối xứng liên kết với một dạng toàn phương Q trên E (trong trường hợp sau giả thiết A giao hoán).
 
 ### 1. Các không gian con đẳng hướng.
 

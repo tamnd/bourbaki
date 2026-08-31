@@ -128,7 +128,7 @@ $$
 (1-T)^{-d}.Q \leq (1-T)^{-d'}.R,
 $$
 
-thì либо $d < d'$, hoặc $d = d'$ và $Q(1) \leq R(1)$.
+thì hoặc $d < d'$, hoặc $d = d'$ và $Q(1) \leq R(1)$.
 
 a) Ta có thể viết $F = (1-T)^{-r} T^n P(T)$ với $r, n \in \mathbf{Z}$ và $P(T) \in \mathbf{Z}[T]$. Bằng phép chia Euclid, ta có thể viết $P(T) = (1-T)^p R(T)$ với $R(T) \in \mathbf{Z}[T]$ và $R(1) \neq 0$. Do đó $F = (1-T)^{-(r-p)} Q(T)$, trong đó $Q(T) = T^n R(T) \in \mathbf{Z}[T, T^{-1}]$ và $Q(1) \neq 0$. Điều này chứng minh sự tồn tại của $d$ và $Q$. Hơn nữa, nếu $(1-T)^r Q(T) = (1-T)^s R(T)$ với $r > s$ và $Q, R$ trong $\mathbf{Z}[T, T^{-1}]$, thì ta có $R(T) = (1-T)^{r-s} Q(T)$, do đó $R(1) = 0$; điều này chứng minh tính duy nhất. Giả sử rằng $F$ là $\geq 0$; nếu ta có $d < 0$, thì ta sẽ có $F(1) = 0$, điều này là không thể vì $F$ khác không và mọi hệ số của nó đều dương; vậy ta có $d \geq 0$. Nếu $d = 0$, thì $Q = F \geq 0$, do đó $Q(1)$ là dương. Nếu $d \geq 1$, thì $Q(1)$ là dương theo công thức (3). Điều này chứng minh a).
 

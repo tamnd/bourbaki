@@ -322,7 +322,7 @@ $$
 (1) $$ (1 - T)^{-d} R(T) R_M(T) \leq (1 - T)^{-d''-1} R_{M''}(T) \leq $$
 $$ \leq (1 - T)^{-d} R(T) R_M(T) + (1 - T)^{-1} T^\delta P(T) . $$
 
-Theo Bổ đề 2 của § 4, No. 1, bất đẳng thức thứ nhất (1) kéo theo либо $d'' \geq d$, hoặc $d'' = d - 1$ và $R(1) R_M(1) \leq R_{M''}(1)$, nghĩa là $\delta e_q(M) \leq e_q(M'')$. Điều này chứng minh a), vì $d'' \leq d$.
+Theo Bổ đề 2 của § 4, No. 1, bất đẳng thức thứ nhất (1) kéo theo hoặc $d'' \geq d$, hoặc $d'' = d - 1$ và $R(1) R_M(1) \leq R_{M''}(1)$, nghĩa là $\delta e_q(M) \leq e_q(M'')$. Điều này chứng minh a), vì $d'' \leq d$.
 
 Dưới giả thiết của b), ta có $P(T) \in \mathbf{Z}[T]$ và $P(1) = \operatorname{long}_A(\operatorname{Ker} \varphi)$. Bất đẳng thức thứ hai (1) được viết là
 
