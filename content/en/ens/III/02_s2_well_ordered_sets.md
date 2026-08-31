@@ -296,7 +296,7 @@ By virtue of Theorem 3 it is enough to prove that there exists no isomorphism $g
 Let $(E_\iota)_{\iota\in I}$ be a family of ordered sets, indexed by a *well-ordered* set I. Consider the product set $E=\displaystyle\prod_{\iota\in I}E_\iota$, and the relation
 
 $$
-“x\in E\text{ and }y\in E,\text{ and for the least index }\iota\in I\text{ such that }\operatorname{pr}_{\iota}x\ne\operatorname{pr}_{\iota}y,\text{ we have }\operatorname{pr}_{\iota}x<\operatorname{pr}_{\iota}y”,
+\text{``}x\in E\text{ and }y\in E,\text{ and for the least index }\iota\in I\text{ such that }\operatorname{pr}_{\iota}x\ne\operatorname{pr}_{\iota}y,\text{ we have }\operatorname{pr}_{\iota}x<\operatorname{pr}_{\iota}y\text{''},
 $$
 
 which we shall denote by $R\{x,y\}$. It is evident that $R\{x,x\}$ is equivalent to $x\in E$, that $R\{x,y\}$ implies $R\{x,x\}$ and $R\{y,y\}$, and that $(R\{x,y\}\text{ and }R\{y,x\})$ implies $x=y$. Also it is easily verified that $(R\{x,y\}\text{ and }R\{y,z\})$ implies $R\{x,z\}$ (consider the least index $\iota\in I$ for which at least two of the three elements $\operatorname{pr}_{\iota}x$, $\operatorname{pr}_{\iota}y$, $\operatorname{pr}_{\iota}z$ are unequal); hence $R\{x,y\}$ is an *order relation on the product set E*. This relation and the ordering it defines are called the *lexicographic order relation* and the *lexicographic ordering* on $E$ (induced by the given orderings on $I$ and on the $E_\iota$); the set E with this ordering is called the *lexicographic product* of the family of ordered sets $(E_\iota)_{\iota\in I}$. If each $E_\iota$ is *totally ordered* the lexicographic product is also *totally ordered*.
