@@ -114,7 +114,7 @@ $$
 
 Hai phản xạ $\sigma_s$ và $\sigma_{s'}$ giữ cho $E_{s,s'}$ ổn định. Ta sẽ xác định cấp của hạn chế của $\sigma_s \sigma_{s'}$ lên $E_{s,s'}$. Ta phân biệt hai trường hợp:
 
-a) \ m = +\infty.
+a) $m = +\infty$.
 
 Cho $u = e_s + e_{s'}$. Ta có $B_M(u, e_s) = B_M(u, e_{s'}) = 0$, do đó $u$ là bất biến dưới $\sigma_s$ và $\sigma_{s'}$. Hơn nữa,
 $$
@@ -323,8 +323,10 @@ Ta xét hai trường hợp:
 a) $m = +\infty$.
 Cho $(\varepsilon, \varepsilon')$ là cơ sở đối ngẫu của $(e_s, e_{s'})$. Khi đó
 
+$$
 s.\varepsilon = -\varepsilon + 2\varepsilon', \quad s'.\varepsilon = \varepsilon,
 s.\varepsilon' = \varepsilon', \quad s'.\varepsilon' = 2\varepsilon - \varepsilon'.
+$$
 
 Cho D là đường thẳng affine của $E^*$ chứa $\varepsilon$ và $\varepsilon'$; các công thức trên cho thấy rằng D ổn định dưới $s$ và $s'$ và rằng hạn chế của $s$ (resp. $s'$) lên D là phép đối xứng qua điểm $\varepsilon'$ (resp. $\varepsilon$). Cho
 

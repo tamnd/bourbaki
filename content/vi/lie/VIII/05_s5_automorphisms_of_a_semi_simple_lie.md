@@ -261,7 +261,7 @@ Cho $e_1=(\mathfrak g,\mathfrak h_1,B_1,(X^1_\alpha)_{\alpha\in B_1})$, $e_2=(\m
 
 Thật vậy, mọi phần tử của $\operatorname{Aut}(\mathfrak g)$ biến $(\mathfrak g,\mathfrak h,B,(X_\alpha)_{\alpha\in B})$ thành một sự định khung của $\mathfrak g$. Theo Mệnh đề 5, mỗi lớp kề của $\operatorname{Aut}(\mathfrak g)$ theo môđun $\operatorname{Aut}_0(\mathfrak g)$ cắt $G$ đúng tại một điểm.
 
-\hfill Q.E.D.
+Q.E.D.
 
 Từ Hệ quả 1 suy ra rằng nhóm Aut($\mathfrak{g}$)$/$Aut$_0(\mathfrak{g})$ có thể được đồng nhất với Aut(R$,B$), và đẳng cấu với nhóm các tự đẳng cấu của đồ thị Dynkin của R.
 

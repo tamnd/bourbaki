@@ -82,7 +82,9 @@ F & \xrightarrow{i'} & E' \\
 \end{array}
 $$
 
+$$
 u \uparrow \quad \text{và} \quad p' \uparrow
+$$
 
 #### Mệnh đề 1 {#alg-i-s6-prop-1 .statement}
 

@@ -320,11 +320,15 @@ Cho $(E'_i, f'_{ji})$ là một hệ trực tiếp khác của các $A_i$-đại
 
 Giả sử bây giờ rằng tất cả các vành A_i đều bằng cùng một vành A và các $\phi_{ji}$ bằng Id_A, sao cho E = \lim \to E_i là một A-đại số. Cho F là một A-đại số và với mọi i cho u_i : E_i \to F là một đồng cấu đại số trên A sao cho (u_i) là một hệ trực tiếp các ánh xạ; khi đó u = \lim \to u_i là một đồng cấu của đại số E vào đại số F. Ngược lại, với mọi đồng cấu đại số trên A v : E \to F, họ các v_i = v \circ f_i là một hệ trực tiếp các đồng cấu đại số trên A sao cho v = \lim \to v_i. Hơn nữa, viết $\vec{f}_{ij} = \mathrm{Hom}(f_{ij}, 1_F)$, $(\mathrm{Hom}_{A\text{-đại số.}}(E_i, F), \vec{f}_{ij})$ rõ ràng là một hệ ngược các tập hợp, nên thấy rằng các nhận xét trên cũng có thể được diễn đạt bằng cách nói rằng ánh xạ chính tắc v \mapsto (v \circ f_i) là một song ánh
 
+$$
 d_F : \mathrm{Hom}_{A\text{-đại số.}}(\lim \to E_i, F) \to \lim \leftarrow \mathrm{Hom}_{A\text{-đại số.}}(E_i, F).
+$$
 
 Hơn nữa, với mọi đồng cấu đại số trên A w : F \to F', các
 
+$$
 \bar{w}_i = \mathrm{Hom}(1_{E_i}, w) : \mathrm{Hom}_{A\text{-đại số.}}(E_i, F) \to \mathrm{Hom}_{A\text{-đại số.}}(E_i, F')
+$$
 
 tạo thành một hệ ngược các ánh xạ và biểu đồ
 
