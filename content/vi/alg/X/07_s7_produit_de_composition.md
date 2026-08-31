@@ -767,7 +767,7 @@ $$
 
 #### Hệ quả 3 {#alg-x-s7-prop-5-cor-3 .statement}
 
-Nếu $\theta\in\operatorname{Ext}_A^n(M,N)$$ là lớp của dãy khớp $(\mathcal{S})$, ta có
+Nếu $\theta\in\operatorname{Ext}_A^n(M,N)$ là lớp của dãy khớp $(\mathcal{S})$, ta có
 
 $$
 \delta^m(P,\mathcal{S})(\alpha)=\theta\circ\alpha,\qquad

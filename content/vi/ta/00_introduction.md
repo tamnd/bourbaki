@@ -12,108 +12,108 @@ pdf_pages: 0012-0015
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: f678739eb9fa99bd419a79e09caa85c5a6e92fe6b2354193aeefc5ac908ccd15
+content_sha256: 34cb08c1b22cefcb49492114bffce177720179b34ed4c2526a0c74d40c632813
 translated_from: content/en-mt/ta/00_introduction.md
 source_lang: en-mt
 translation_method: machine
 source_content_sha256: 31e78ed45d903524fc86eeb328fdbc7d9c35f20770c3034329ffe419c950e653
-translation_model: gpt-5-6-mini, gpt-5-6
+translation_model: gpt-5.4
 translation_run: translate-vi-9559bd29
 glossary_version: 34
 glossary_terms_sha256: 21fe30116ab7f78fb8b398e674e698ef9e87d047ecf56270e8d457b5ecfdc3f1
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-## NHẬP ĐỀ
+## LỜI GIỚI THIỆU
 
-Tôpô đại số nhằm nghiên cứu các không gian tôpô bằng cách liên kết với chúng một cách hàm tử các cấu trúc đại số khác nhau (môđun, nhómoid, v.v.) mà các tính chất của chúng phản ánh các tính chất của những không gian được xét.
+Tôpô đại số nhằm nghiên cứu các không gian tôpô bằng cách gắn cho chúng một cách hàm tử nhiều cấu trúc đại số khác nhau (môđun, groupoid, v.v.) mà các tính chất của chúng phản ánh các tính chất của những không gian được xét.
 
-Các chương I đến IV của Quyển này đề cập đến lý thuyết phủ và nhóm Poincaré; chúng dẫn đến một phát biểu tổng quát của định lý van Kampen. Các chương tiếp theo sẽ đề cập đến đồng điều và đối đồng điều, các nhóm đồng luân cao hơn và các không gian tế bào.
+Các chương I đến IV của Quyển này liên quan đến lý thuyết các phủ và nhóm Poincaré; chúng dẫn đến một phát biểu tổng quát của định lý van Kampen. Các chương tiếp theo sẽ bàn về đồng điều và đối đồng điều, các nhóm đồng luân bậc cao và các không gian tế bào.
 
-Khái niệm phủ là chủ đề của Chương I. Mặc dù khái niệm này liên quan đến một số ánh xạ liên tục $p: E\rightarrow B$, trong đó E và B là các không gian tôpô, thuật ngữ được chấp nhận xem không gian E là phủ, không gian B là cơ sở của nó, và ánh xạ $p$ thường được để ẩn. Do đó, ta được dẫn đến việc nghiên cứu nói chung cấu trúc của B-không gian (§1). Các B-không gian étalé được định nghĩa trong §2, nhưng thường hữu ích khi nghiên cứu chúng theo quan điểm tương đương của các bó trên B (§3). Khái niệm không gian sợi địa phương tầm thường được đưa vào trong §4; đó là các B-không gian đẳng cấu địa phương với một tích $B\times F$, trong đó sợi F là một không gian tôpô. Các phủ là những phủ mà sợi là một không gian tôpô rời rạc. Trong §5, ta định nghĩa khái niệm phủ Galois và chứng minh rằng nếu cơ sở B khác rỗng, liên thông và liên thông địa phương, thì mọi phủ đều có thể được liên kết với một phủ Galois. Các không gian đơn liên được định nghĩa trong §6: đó là những không gian mà mọi phủ đều tầm thường hóa được; một khoảng của $\mathbf{R}$, một tập lồi của không gian số $\mathbf{R}^n$, mặt cầu $\mathbf{S}_n$ có chiều $n\geqslant 2$ là các không gian đơn liên, nhưng đường tròn $\mathbf{S}_1$ thì không.
+Khái niệm phủ là đối tượng của Chương I. Mặc dù khái niệm này liên quan đến một số ánh xạ liên tục $p: E\rightarrow B$, trong đó E và B là các không gian tôpô, thuật ngữ được chấp nhận coi không gian E là phủ, còn không gian B là cơ sở của nó, và ánh xạ $p$ thường được để ẩn. Do đó chúng ta được dẫn tới việc nghiên cứu nói chung cấu trúc của B-không gian (§1). Các B-không gian étalé được định nghĩa trong §2, nhưng thường có ích khi nghiên cứu chúng theo quan điểm tương đương là các bó trên B (§3). Khái niệm không gian sợi địa phương tầm thường được đưa vào ở §4; đó là các B-không gian địa phương đẳng cấu với một tích $B\times F$, trong đó sợi F là một không gian tôpô. Các phủ là những trường hợp mà sợi là một không gian tôpô rời rạc. Trong §5, chúng tôi định nghĩa khái niệm phủ Galois và chứng minh rằng nếu cơ sở B là khác rỗng, liên thông và liên thông địa phương, thì mọi phủ đều có thể được liên kết với một phủ Galois. Các không gian đơn liên được định nghĩa ở §6: đó là những không gian mà mọi phủ đều tầm thường hóa được; một khoảng của $\mathbf{R}$, một tập con lồi của
 
-xi
+xi không gian số $\mathbf{R}^n$, mặt cầu $\mathbf{S}_n$ chiều $n\geqslant 2$ là các không gian đơn liên, nhưng đường tròn $\mathbf{S}_1$ thì không.
 
-Khái niệm đại số về nhómoid được định nghĩa trong Chương II; nó tổng quát khái niệm nhóm và đã được H. Brandt đưa vào trong nghiên cứu của ông về các iđêan phân thức khả nghịch của các đại số quaternion. Các khái niệm về quiver, đồ thị và phạm trù được định nghĩa trong các §§1, 2 và 3 của Chương II; một nhómoid là một phạm trù mà mọi mũi tên của nó đều khả nghịch. Các kết quả của §§4 và 5 sẽ cho phép suy ra từ định lý van Kampen, được phát biểu dưới dạng các nhómoid, các trình bày tường minh của các nhóm Poincaré trong những tình huống khác nhau.
+Khái niệm đại số về groupoid được định nghĩa trong Chương II; nó tổng quát hóa khái niệm nhóm và đã được H. Brandt đưa vào trong nghiên cứu của ông về các iđêan phân thức khả nghịch của các đại số quaternion. Các khái niệm mũi tên, đồ thị và phạm trù được định nghĩa trong các §§1, 2 và 3 của Chương II; một groupoid là một phạm trù mà mọi mũi tên đều khả nghịch. Các kết quả của §§4 và 5 sẽ cho phép suy ra từ định lý van Kampen, được phát biểu theo ngôn ngữ groupoid, những biểu diễn tường minh của các nhóm Poincaré trong nhiều tình huống khác nhau.
 
-Việc phân loại các phủ của một không gian tôpô B cho trước được thực hiện bằng cách đưa vào, trong Chương III, §3, nhómoid Poincaré $\varpi (B)$ của nó, được định nghĩa theo các lớp tương đương của các đường đi trong B modulo quan hệ đồng luân ngặt. Khi $b$ là một điểm của B, nhóm Poincaré $\pi_1(B, b)$ xuất hiện như nhóm đẳng hướng tại $b$ của nhómoid $\varpi (B)$. Khái niệm đồng luân được đưa vào trong §1; ở đó người ta đặc biệt nghiên cứu tính chất mở rộng đồng luân quan trọng. §2 dành cho khái niệm đường đi trong một không gian tôpô và các khái niệm không gian liên thông cung và không gian liên thông cung địa phương. Ở đó cũng thiết lập một định lý nâng đường đi.
+Sự phân loại các phủ của một không gian tôpô B cho trước được thực hiện bằng cách đưa vào, trong Chương III, §3, groupoid Poincaré $\varpi (B)$ của nó, được định nghĩa theo các lớp tương đương của các đường trong B modulo quan hệ đồng luân ngặt. Khi $b$ là một điểm của B, nhóm Poincaré $\pi_1(B, b)$ xuất hiện như nhóm đẳng hướng tại $b$ của groupoid $\varpi (B)$. Khái niệm đồng luân được đưa vào ở §1; ở đó người ta đặc biệt nghiên cứu tính chất mở rộng đồng luân quan trọng. §2 được dành cho khái niệm đường trong một không gian tôpô và cho các khái niệm không gian liên thông theo cung và không gian liên thông địa phương theo cung. Ở đó cũng thiết lập một định lý nâng đường.
 
-Mối liên hệ giữa đồng luân và các phủ được nghiên cứu trong các §§4 và 5. Nếu E là một phủ của một không gian tôpô B và $b\in B$, sợi $E_b$ được trang bị một phép toán tự nhiên của nhóm $\pi_1(B, b)$; phép dựng này dẫn đến một hàm tử từ phạm trù các phủ của B vào phạm trù các tập hợp được trang bị một tác động của $\pi_1(B, b)$. Khi B là một không gian tôpô liên thông và liên thông cung địa phương, hàm tử này trung thành đầy đủ; ảnh của nó gồm các phép toán của nhóm $\pi_1(B, b)$ trên một tập hợp rời rạc, liên tục đối với một tôpô nhất định, gọi là "chấp nhận được", trên nhóm $\pi_1(B, b)$.
+Mối liên hệ giữa đồng luân và các phủ được nghiên cứu trong §§4 và 5. Nếu E là một phủ của một không gian tôpô B và nếu $b\in B$, thì sợi $E_b$ được trang bị một phép toán tự nhiên của nhóm $\pi_1(B, b)$; phép dựng này sinh ra một hàm tử từ phạm trù các phủ của B vào phạm trù các tập hợp được trang bị một tác động của $\pi_1(B, b)$. Khi B là một không gian tôpô liên thông và liên thông địa phương theo cung, hàm tử này là trung thành đầy đủ; ảnh của nó gồm các tác động của nhóm $\pi_1(B, b)$ trên một tập hợp rời rạc mà liên tục đối với một tôpô nào đó, gọi là "chấp nhận được", trên nhóm $\pi_1(B, b)$.
 
-Chương IV dành cho các không gian có thể giải phủ; đó là các không gian tôpô liên thông cung địa phương mà tôpô chấp nhận được của các nhóm Poincaré là tôpô rời rạc. Đối với các không gian này, sự tương ứng giữa các phủ và các phép toán của nhóm Poincaré là hoàn hảo: hàm tử được mô tả ở trên cho một tương đương các phạm trù giữa phạm trù các phủ của B và phạm trù các tập hợp được trang bị một phép toán của nhóm $\pi_1(B, b)$.
+Chương IV dành cho các không gian tháo được; đó là các không gian tôpô liên thông địa phương theo cung mà tôpô chấp nhận được của các nhóm Poincaré là tôpô rời rạc. Đối với các không gian này, sự tương ứng giữa các phủ và các tác động của nhóm Poincaré do đó là hoàn hảo: hàm tử được mô tả ở trên cung cấp một tương đương phạm trù giữa phạm trù các phủ của B và phạm trù các tập hợp được trang bị một tác động của nhóm $\pi_1(B, b)$.
 
 xii
 
-Một không gian tôpô B được gọi là liên thông cung đơn giản nếu nó liên thông cung và nhóm $\pi_1(B, b)$ là tầm thường với mọi điểm $b$ của B. Ta chứng minh rằng một không gian có thể giải phủ khác rỗng có một phủ phổ quát liên thông cung đơn giản và Galois. Ta cũng chứng minh rằng nhóm Poincaré của một không gian tôpô compact và có thể giải phủ là hữu hạn trình bày (§2); không có giả thiết rằng không gian là có thể giải phủ, nhóm Poincaré này có thể có lực lượng của continuum (định lý Shelah). Trong §3, ta chứng minh rằng nhóm Poincaré tại phần tử đơn vị của một nhóm tôpô liên thông là Abel và (trong trường hợp có thể giải phủ) phủ phổ quát của nó có một cấu trúc tự nhiên của nhóm tôpô.
+Một không gian tôpô B được gọi là liên thông đơn theo cung nếu nó liên thông theo cung và nếu nhóm $\pi_1(B, b)$ là tầm thường với mọi điểm $b$ của B. Chúng tôi chứng minh rằng một không gian tháo được khác rỗng có một phủ phổ quát vừa liên thông đơn theo cung vừa Galois. Chúng tôi cũng chứng minh rằng nhóm Poincaré của một không gian tôpô compắc và tháo được là cho bởi hữu hạn phần tử sinh và hữu hạn quan hệ xác định (§2); không có giả thiết rằng không gian là tháo được, nhóm Poincaré này có thể có lũy thừa của continuum (định lý của Shelah). Chúng tôi chứng minh trong §3 rằng nhóm Poincaré tại phần tử đơn vị của một nhóm tôpô liên thông là Abel và (trong trường hợp tháo được) phủ phổ quát của nó có một cấu trúc tự nhiên của nhóm tôpô.
 
-Khi $f: Y\rightarrow$ X là một ánh xạ liên tục và E là một Y-không gian, trong §4, ta mô tả, theo các dữ liệu giáng, các X-không gian có thể có mà từ đó E thu được bằng phép đổi cơ sở. Như vậy, ta chuyển sang bối cảnh của Tôpô đại cương một thủ tục được A. Grothendieck sử dụng một cách có hệ thống trong Hình học đại số. Ta cũng đưa ra các điều kiện bảo đảm rằng một phủ của Y xuất phát từ một phủ của X. Dưới một số giả thiết nhất định trên $f$, điều này cho phép chứng minh dạng tổng quát của định lý van Kampen: nhómoid Poincaré của X đẳng cấu với một nhómoid nhất định (đồng cấu tử, chương II, §5) được dựng nhờ nhómoid Poincaré của Y và nhómoid Poincaré của bình phương sợi $Y\times_XY$.
+Khi $f: Y\rightarrow$ X là một ánh xạ liên tục và E là một Y-không gian, trong §4 chúng tôi mô tả, theo ngôn ngữ dữ liệu giáng, các X-không gian khả dĩ mà từ đó E thu được bằng phép đổi cơ sở. Như vậy chúng tôi chuyển sang khung cảnh của Tôpô đại cương một thủ tục được A. Grothendieck dùng một cách hệ thống trong Hình học đại số. Chúng tôi cũng cho các điều kiện bảo đảm rằng một phủ của Y phát sinh từ một phủ của X. Dưới một số giả thiết nào đó trên $f$, điều này cho phép chứng minh dạng tổng quát của định lý van Kampen: groupoid Poincaré của X đẳng cấu với một groupoid nào đó (đối đồng hóa, chương II, §5) được dựng với sự trợ giúp của groupoid Poincaré của Y và groupoid của hình vuông sợi $Y\times_XY$.
 
-Tuy nhiên, đối với các ứng dụng, cần phải suy ra từ đây một biểu diễn của nhóm Poincaré của X tại một điểm. Trong §5, do đó chúng tôi áp dụng các tính toán tổng quát của chương II để thu được các biểu diễn như vậy trong nhiều ví dụ. Đặc biệt, ở đó chúng tôi tính nhóm Poincaré của X khi đã cho một phủ của X bởi một họ các tập con mở được nối với nhau bằng các đường đi. Như R. Brown đã đặc biệt chỉ ra, quan điểm groupoid cho phép không đưa ra giả thiết nào về tính liên thông từng đôi một của các giao của các tập con này. Dưới một số điều kiện về tính không vòng, chúng tôi cũng xét trường hợp các phủ hữu hạn địa phương của X bởi các tập con đóng. Chúng tôi cũng tính ở đó nhóm Poincaré của thương của một không gian không vòng bởi tác động thực sự và tự do của một nhóm rời rạc. Cuối cùng, chúng tôi làm tường minh định lý ban đầu của van Kampen, dưới các giả thiết hơi khác.
+Tuy nhiên, đối với các ứng dụng, cần phải suy ra từ đó một sự trình bày của nhóm Poincaré của X tại một điểm. Vì thế, trong §5, chúng tôi áp dụng các phép tính tổng quát của chương II để thu được những sự trình bày như vậy trong nhiều ví dụ. Đặc biệt, ở đó chúng tôi tính nhóm Poincaré của X khi đã cho một phủ của X bởi một họ các tập mở liên thông bằng đường. Như đặc biệt R. Brown đã chỉ ra, quan điểm groupoid làm cho có thể không đặt giả thiết nào về tính liên thông từng đôi một của các giao của những tập con này. Dưới những điều kiện nhất định về tính không vòng hóa được, chúng tôi cũng xét trường hợp các phủ hữu hạn địa phương của X bởi các tập đóng. Ở đó chúng tôi cũng tính nhóm Poincaré của thương của một không gian không vòng hóa được bởi tác động thực sự và tự do của một nhóm rời rạc. Sau hết, chúng tôi làm tường minh định lý gốc của van Kampen, dưới những giả thiết hơi khác.
 
-Cuối cùng, trong §6 chúng tôi nghiên cứu khái niệm không gian phân loại đối với một nhóm tôpô G: khi có một không gian như vậy $B_G$, việc nghiên cứu các lớp
+Sau hết, trong §6 chúng tôi nghiên cứu khái niệm không gian phân loại đối với một nhóm tôpô G: khi có một không gian như vậy $B_G$, việc nghiên cứu các lớp
 
-xiii đẳng cấu của các không gian sợi chính với nhóm G và cơ sở paracompact B được chuyển thành một bài toán nghiên cứu các lớp đồng luân của các ánh xạ từ B vào $B_G$. Khi G là rời rạc, chúng tôi xây dựng một không gian phân loại là một không gian metric.
+xiii đẳng cấu của các không gian xơ chính với nhóm G và cơ sở paracompact B được chuyển thành một bài toán nghiên cứu các lớp đồng luân của các ánh xạ từ B vào $B_G$. Khi G là rời rạc, chúng tôi xây dựng một không gian phân loại là một không gian mêtric hóa được.
 
-Các kết quả của các chương I đến IV phụ thuộc vào bốn Quyển đầu tiên (E, A, TG, FVR); một số ví dụ và nhận xét cũng sử dụng các kết quả của EVT, VAR, LIE III và LIE IV.
+Các kết quả của các chương I đến IV phụ thuộc vào bốn Sách đầu tiên (E, A, TG, FVR); một số ví dụ và nhận xét cũng dùng các kết quả của EVT, VAR, LIE III và LIE IV.
 
-Ban đầu dự định rằng Quyển này sẽ tạo thành chương XI của Quyển về Tôpô đại cương. Vì vậy, trong các Quyển trước, các tham chiếu đến TG, XI, phải được sửa đổi như sau:
+Ban đầu dự định rằng Sách này sẽ tạo thành chương XI của Sách về Tôpô đại cương. Vì vậy, trong các Sách trước, các tham chiếu đến TG, XI, phải được sửa như sau:
 
-LIE, III, §1, No. 9, p. 114, chú ý 1. Đọc "Cf. TA, IV, p. 379, Prop. 6."
+LIE, III, §1, No. 9, p. 114, note 1. Đọc "Xem TA, IV, p. 379, Mệnh đề 6."
 
-LIE, III, §6, p. 192, chú ý 1. Đọc "Hãy nhắc lại (TA, I, p. 124, Def. 3) rằng một không gian
+LIE, III, §6, p. 192, note 1. Đọc "Nhắc lại rằng (TA, I, p. 124, Định nghĩa 3) một không gian
 
-được gọi là đơn liên nếu mỗi phủ của nó là khả phân;
+được gọi là đơn liên nếu mỗi phủ của nó đều tầm thường hóa được;
 
-một không gian đơn liên là liên thông. Cũng hãy nhắc lại (TA, I, p. 100,
+một không gian đơn liên thì liên thông. Cũng nhắc lại rằng (TA, I, p. 100,
 
-Cor. 3) rằng nếu $G_1,G_2$, là các nhóm tôpô liên thông, nếu $\varphi$ là một
+Hệ quả 3) nếu $G_1,G_2$, là các nhóm tôpô liên thông, nếu $\varphi$ là một
 
 đồng cấu liên tục mở từ $G_1$ lên $G_2$ với hạt nhân rời rạc, và nếu $G_2$ là
 
 đơn liên, thì $\varphi$ là một đồng phôi."
 
-LIE, III, §6, No. 7, p. 206, dòng 11. Thay vì "by TG, XI", đọc "by
+LIE, III, §6, No. 7, p. 206, line 11. Thay cho "by TG, XI", đọc "by
 
-TA, IV, p. 379, Prop. 6".
+TA, IV, p. 379, Mệnh đề 6".
 
-LIE, VII, p. 66, phụ lục II, bài tập 1. Thay vì "TG, XI", đọc "TA, I,
+LIE, VII, p. 66, appendix II, exercise 1. Thay cho "TG, XI", đọc "TA, I,
 
-p. 69, Def. 2".
+p. 69, Định nghĩa 2".
 
-LIE, IX, §2, No. 4, p. 12, dòng $-9$. Thay vì "TG, XI, to appear", đọc "TA,
+LIE, IX, §2, No. 4, p. 12, line $-9$. Thay cho "TG, XI, to appear", đọc "TA,
 
 VII, to appear".
 
-LIE, IX, §3, No. 6, p. 22. Thay vì "TG, XI, to appear", đọc "TA, I, p. 127,
+LIE, IX, §3, No. 6, p. 22. Thay cho "TG, XI, to appear", đọc "TA, I, p. 127,
 
 Ví dụ 3".
 
-LIE, IX, §4, No. 2, p. 27, dòng 11. Thay vì "TG, XI, to appear", đọc "TA,
+LIE, IX, §4, No. 2, p. 27, line 11. Thay cho "TG, XI, to appear", đọc "TA,
 
 VII, to appear".
 
-LIE, IX, §4, No. 6, p. 34, dòng $-6$. Thay vì "TG, XI, to appear", đọc "TA,
+LIE, IX, §4, No. 6, p. 34, line $-6$. Thay cho "TG, XI, to appear", đọc "TA,
 
 VII, to appear".
 
-LIE, IX, §4, No. 9, p. 39, dòng 13. Thay vì "TG, XI, to appear", đọc "by
+LIE, IX, §4, No. 9, p. 39, line 13. Thay cho "TG, XI, to appear", đọc "by
 
-TA, IV, p. 379, Prop. 6".
+TA, IV, p. 379, Mệnh đề 6".
 
-LIE, IX, §5, No. 4, p. 51, dòng $-13$. Thay vì "TG, XI, to appear", đọc "by
+LIE, IX, §5, No. 4, p. 51, line $-13$. Thay cho "TG, XI, to appear", đọc "by
 
 TA, IV, p. 358, Ví dụ".
 
-LIE, IX, §5, No. 4, p. 51, dòng $-4$. Thay vì "cf. TG, XI, to appear", đọc "TA,
+LIE, IX, §5, No. 4, p. 51, line $-4$. Thay cho "cf. TG, XI, to appear", đọc "TA,
 
-I, p. 106, Ví dụ 4 và p. 111, Prop. 10".
+I, p. 106, Ví dụ 4 and p. 111, Mệnh đề 10".
 
-LIE, IX, §9, No. 1, p. 89, dòng 9. Thay vì "by TG, XI", đọc "by TA,
+LIE, IX, §9, No. 1, p. 89, line 9. Thay cho "by TG, XI", đọc "by TA,
 
-I, p. 37, Th. 2".
+I, p. 37, Định lý 2".
 
-LIE, IX, p. 112, bài tập 8. Thay vì "TG, XI", đọc "TA, VII".
+LIE, IX, p. 112, exercise 8. Thay cho "TG, XI", đọc "TA, VII".
 
-LIE, IX, p. 118, bài tập 2. Thay vì "TG, XI", đọc "TA, III, p. 229, Def. 1".
+LIE, IX, p. 118, exercise 2. Thay cho "TG, XI", đọc "TA, III, p. 229, Định nghĩa 1".
 
 xiv

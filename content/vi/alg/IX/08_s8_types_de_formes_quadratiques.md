@@ -120,9 +120,9 @@ Như vậy ta thu được một luật hợp thành ngoài giữa nhóm $A^*$ c
 $$
 a.(T + T') = a.T + a.T', \quad ab.T = a.(b.T)
 $$
-$
+$$
 (a, b \text{ trong } A^*, \quad T, T' \text{ trong } \mathfrak{W}).
-$
+$$
 
 Mặt khác, nếu $a, b$ và $a + b$ thuộc $A^*$, nói chung ta không có $(a + b).T = a.T + b.T$ ($T \in \mathfrak{W}$).
 

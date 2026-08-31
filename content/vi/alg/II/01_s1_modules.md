@@ -680,9 +680,9 @@ $$
 $$
 
 *trong đó* $i : M \to M + N$, $j : N \to M + N$ *là các đơn ánh chính tắc,*
-$
+$$
 p : E/M \to E/(M + N) \quad \text{và} \quad q : E/N \to E/(M + N)
-$
+$$
 
 *các toàn ánh chính tắc, và trong đó các đồng cấu u và v được xác định như sau:*
 

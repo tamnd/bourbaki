@@ -62,10 +62,10 @@ Tiên đề (OVS_I) kéo theo rằng các quan hệ $x \leq y$ và $x + z \leq y
 
 *Một không gian vectơ có thứ tự được gọi là một không gian Riesz (hay không gian vectơ có thứ tự dàn)*$^1$ *nếu cấu trúc thứ tự của nó là một thứ tự dàn* (nghĩa là, nếu mọi cặp phần tử $x, y$ của E đều có một cận trên đúng $\sup(x, y)$ và một cận dưới lớn nhất $\inf(x, y)$ ).$^2$
 
-\footnotetext{
-$^1$ Cũng được gọi là một "dàn vectơ".
-$^2$ Borne supérieure (supremum) cũng được dịch là "least upper bound" (S, R, §6, 7). Tương tự, borne inférieure (infimum) cũng được dịch là "greatest lower bound".
-}
+
+(1) Cũng được gọi là một "dàn vectơ".
+
+(2) Borne supérieure (supremum) cũng được dịch là "least upper bound" (S, R, §6, 7). Tương tự, borne inférieure (infimum) cũng được dịch là "greatest lower bound".
 
 #### Ví dụ {#int-ii-s1-n1-exa-1 .statement}
 

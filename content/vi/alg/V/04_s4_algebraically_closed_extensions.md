@@ -107,7 +107,7 @@ Ta có thể giả sử các đa thức $f_i$ là đơn thức (Nhận xét 1). 
 
 *a) đại số $A_i$ được sinh bởi $(\xi_{i,1}, \ldots, \xi_{i,d_i})$;*
 
-\footnotetext{1 Chẳng hạn lấy $K = \mathbf{Q}$ và $f = X^3 - 2$.}
+(1) Chẳng hạn lấy $K = \mathbf{Q}$ và $f = X^3 - 2$.
 
 b) ta có $f_i(X) = \prod_{k=1}^{d_i} (X - \xi_{i,k})$ trong $A_i[X]$.
 

@@ -120,9 +120,9 @@ We thus obtain an external composition law between the group $A^*$ of the non-ze
 $$
 a.(T + T') = a.T + a.T', \quad ab.T = a.(b.T)
 $$
-$
+$$
 (a, b \text{ in } A^*, \quad T, T' \text{ in } \mathfrak{W}).
-$
+$$
 
 On the other hand, if $a, b$ and $a + b$ are in $A^*$, one does not in general have $(a + b).T = a.T + b.T$ ($T \in \mathfrak{W}$).
 

@@ -45,7 +45,7 @@ We denote by $\mathcal{I}_+(X)$ (or simply $\mathcal{I}_+$) the set of numerical
 
 For every $x \in X$ such that $f(x) > 0$, and for every real number $a$ such that $0 < a < f(x)$, there exists by hypothesis a compact neighborhood V of $x$ such that $f(y) \geq a$ on V; on the other hand, there exists a function $g \in \mathcal{K}_+$, with support contained in V, equal to $a$ at the point $x$ and $\leq a$
 
-\footnotetext{1 'I' as in 'inferior'; the letter $\mathcal{L}$ (as in 'lower') is preempted for other function spaces, to be discussed in §3.}
+(1) 'I' as in 'inferior'; the letter $\mathcal{L}$ (as in 'lower') is preempted for other function spaces, to be discussed in §3.
 
 on V (GT, IX, §1, No. 5, Th. 2); therefore $0 \leq g \leq f$ and $g(x) \geq a$, which proves the lemma.
 

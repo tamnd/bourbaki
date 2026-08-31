@@ -777,7 +777,7 @@ $$
 
 trong đó N ký hiệu chuẩn trong $M_n(K)$ *được xem như một* $\mathbf{R}\text{-đại số}$, và trong đó $\lambda = 1 - \frac{\delta - 2}{\delta n}$. Chỉ cần kiểm chứng (15) đối với $X$ chạy qua một hệ
 
-\footnotetext{1Xem TVS, V, §2, No. 4, Hệ quả 1 của Định lý 2.}
+(1) Xem TVS, V, §2, No. 4, Hệ quả 1 của Định lý 2.
 
 sinh của $\mathbf{GL}(n, K)$, do đó (A, II, §10, No. 13, Hệ quả 2 của Mệnh đề 14) đối với $X$ thuộc các loại sau:
 

@@ -81,7 +81,7 @@ $^5$ Khái niệm này đã được đưa vào dưới tên gọi "phân bố c
 
 $^6$ Điều này được dịch bởi công thức $$ \int_{C(T)} f(x(t_1), \ldots, x(t_n)) dw(x) = (2\pi)^{-n/2} $$ $$ \prod_{t=1}^n (t_i - t_{i-1})^{-1/2} \int \ldots \int f(x_1, \ldots, x_n) \exp \left( -\frac{1}{2} \sum_{t=1}^n \frac{(x_i - x_{i-1})^2}{t_i - t_{i-1}} \right) dx_1 \ldots dx_n $$ trong đó $f$ là một hàm liên tục bị chặn tùy ý trên $\mathbf{R}^n$ và trong đó ta có $$ 0 = t^0 < t_1 < \ldots < t_n \ldots \leq 1 $$
 
-ý nghĩa cho nhận xét của Perrin về các hàm không có đạo hàm: tập hợp các hàm thỏa mãn một điều kiện Lipschitz cấp $\frac{1}{2}$$,$ là không đáng kể đối với $w$ (trái lại, với mọi $a$ sao cho $0 < a < \frac{1}{2}$, hầu như mọi hàm đều thỏa mãn một điều kiện Lipschitz cấp $a$).
+ý nghĩa cho nhận xét của Perrin về các hàm không có đạo hàm: tập hợp các hàm thỏa mãn một điều kiện Lipschitz cấp $\frac{1}{2}$, là không đáng kể đối với $w$ (trái lại, với mọi $a$ sao cho $0 < a < \frac{1}{2}$, hầu như mọi hàm đều thỏa mãn một điều kiện Lipschitz cấp $a$).
 
 Ngày nay ta biết nhiều phép dựng cho độ đo Wiener. Chẳng hạn, Paley và Wiener dùng các chuỗi Fourier ngẫu nhiên ([243], chap. IX): với mỗi dãy thực $a = (a_n)_{n \geq 1}$ và mỗi số nguyên $m \geq 0$, ta định nghĩa hàm $f_{m,a}$ trên $]0,1]$ bởi
 

@@ -370,7 +370,7 @@ $^{71}$ Điều này thường được phát biểu bằng cách nói rằng n�
 
 $^{72}$ Để biết thêm chi tiết, xem [130 a] hoặc ([181], pp. 181-258).
 
-$^{73}$ Mô tả chi tiết của $g(A), h(D)$ và $P(x, y, z)$$ rất dài và tỉ mỉ, và việc viết ra $P(x, y, z)$ sẽ đòi hỏi một số ký hiệu lớn đến mức trên thực tế là không thể được, nhưng không nhà toán học nào cho rằng điều đó làm giảm đi dưới bất kỳ phương diện nào giá trị của các phép dựng này.
+$^{73}$ Mô tả chi tiết của $g(A), h(D)$ và $P(x, y, z)$ rất dài và tỉ mỉ, và việc viết ra $P(x, y, z)$ sẽ đòi hỏi một số ký hiệu lớn đến mức trên thực tế là không thể được, nhưng không nhà toán học nào cho rằng điều đó làm giảm đi dưới bất kỳ phương diện nào giá trị của các phép dựng này.
 
 2° nếu số nguyên tường minh $\mu$ không có dạng $h(D)$, hoặc nếu $\mu = h(D)$ và nếu $D$ không phải là một chứng minh của $A(\lambda)$, thì (phủ định của $P(\lambda, g(A(x)), \mu)$) là một định lý của $\mathcal{T}$.
 

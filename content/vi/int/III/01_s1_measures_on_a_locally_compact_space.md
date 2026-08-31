@@ -74,7 +74,7 @@ Cho X là một không gian compact địa phương, E là một không gian vec
 
 Với mọi tập con compact K của X, không gian $\mathcal{K}(X,K;E)$ có thể được đồng nhất với một không gian con của không gian các hàm liên tục $\mathcal{C}(K;E)$ (cụ thể là không gian con các ánh xạ liên tục từ K vào E triệt tiêu trên biên$^1$ của K). Khi $\mathcal{C}(K;E)$ được trang bị tôpô hội tụ đều trên K, thì $\mathcal{K}(X,K;E)$ là một không gian con đóng của $\mathcal{C}(K;E)$. Đặc biệt, nếu E là một không gian Fréchet (tương ứng, một không gian Banach), thì $\mathcal{K}(X,K;E)$ cũng vậy, vì nếu tôpô của E được xác định bởi các nửa chuẩn $p_n$ (tương ứng, chuẩn $x \mapsto \|x\|$) thì tôpô của $\mathcal{K}(X,K;E)$ được xác định
 
-\footnotetext{1}{Nguyên bản là frontière, cũng được dịch là 'frontier' (GT, I, §1, No. 6, Def. 11).}
+(1) Nguyên bản là frontière, cũng được dịch là 'frontier' (GT, I, §1, No. 6, Def. 11).
 
 bởi các nửa chuẩn $f \mapsto \sup_{x \in K} p_n(f(x))$ (tương ứng, chuẩn $f \mapsto \sup_{x \in K} \|f(x)\|$, ký hiệu là $\|f\|$).
 

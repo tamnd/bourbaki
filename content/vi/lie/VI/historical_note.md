@@ -54,8 +54,8 @@ của một "phần tử tổng quát" $x \in \mathfrak{h}$, ông ban đầu ngh
 
 Công trình của H. Weyl, mà chúng ta vừa nhắc đến, đã mở đầu cho cách giải thích hình học của nhóm $G'$ (từ đó được gọi là "nhóm Weyl" của $g$); ông đã có ý tưởng xem các $S_{\alpha}$ như các phép phản xạ trong không gian vectơ của các dạng tuyến tính trên $\mathfrak{h}$, giống như Killing và Cartan đã làm đối với phép biến đổi $C$. Cũng chính trong hồi ký (XIII) của H. Weyl mà miền cơ bản của "nhóm Weyl affine" xuất hiện (nhưng không chỉ ra rõ ràng mối liên hệ với "nhóm Weyl" $G'$); Weyl sử dụng nó để chứng minh rằng nhóm cơ bản của một nhóm nén nửa đơn là hữu hạn, một điểm cốt yếu trong chứng minh của ông về tính khả quy hoàn toàn của các biểu diễn tuyến tính của một đại số Lie nửa đơn phức. Một thời gian ngắn sau đó, E. Cartan hoàn thiện sự tổng hợp các quan điểm toàn cục của H. Weyl, của lý thuyết riêng của ông về các đại số Lie nửa đơn thực hoặc phức, và của lý thuyết về các không gian đối xứng Riemann mà khi đó ông đang xây dựng. Trong hồi ký (IX d)), ông hoàn thiện việc xác định các đa diện cơ bản của nhóm Weyl và của nhóm Weyl affine, và đưa vào các hệ trọng số và trọng số căn (Chương VI, § 1, no. 9); trong (IX e)) ông mở rộng thảo luận này đến các không gian đối xứng, và đặc biệt gặp các ví dụ đầu tiên về các hệ nghiệm không rút gọn (Chương VI, § 4, no. 1). Cuối cùng, bài báo (IX f)) đưa ra chứng minh đầu tiên
 
-\footnotetext{8 Các ký hiệu $\omega_{\alpha}$ và $S_{\alpha}$ tương ứng lần lượt với các ký hiệu $\alpha$ và $s_{\alpha}$ của Chương VI, § 1.}
-\footnotetext{9 Các ký hiệu $G$ và $G'$ tương ứng lần lượt với các ký hiệu $A(R)$ và $W(R)$ của Chương VI, § 1, no. 1.}
+(8) Các ký hiệu $\omega_{\alpha}$ và $S_{\alpha}$ tương ứng lần lượt với các ký hiệu $\alpha$ và $s_{\alpha}$ của Chương VI, § 1.
+(9) Các ký hiệu $G$ và $G'$ tương ứng lần lượt với các ký hiệu $A(R)$ và $W(R)$ của Chương VI, § 1, no. 1.
 
 rằng mọi nhóm hữu hạn bất khả quy sinh bởi các phép phản xạ trong $\mathbf{R}^n$ đều có một miền cơ bản mà phép chiếu của nó lên $S_{n-1}$ là một đơn hình cầu; cũng chính trong công trình này ông chứng minh tính duy nhất của nghiệm cao nhất (đối với một thứ tự từ điển tùy ý trên hệ nghiệm) bằng các xem xét hình học.
 
@@ -65,7 +65,7 @@ Mối liên hệ đầu tiên giữa hai dòng nghiên cứu mà chúng ta đã 
 
 Bắt đầu từ công trình của Witt, lý thuyết các nhóm Lie nửa đơn và lý thuyết các nhóm rời rạc được sinh bởi các phép phản xạ tiếp tục tương tác cực kỳ hiệu quả với nhau. Năm 1941, Stifel (XVIII) nhận xét rằng các nhóm Weyl chính là các nhóm hữu hạn được sinh bởi các phép phản xạ giữ bất biến một dàn. Chevalley (XIX a)) và Harish-Chandra (XX a)) đưa ra, trong các năm 1948-51, các chứng minh *a priori* về sự tương ứng song ánh giữa các nhóm "tinh thể học" và các đại số Lie nửa đơn phức: cho đến khi đó, người ta chỉ có thể kiểm tra sự tương ứng này riêng biệt cho từng kiểu của đại số Lie đơn.
 
-\footnotetext{10Các nhóm này, được nghiên cứu sâu trong trường hợp chiều 2, cho đến nay mới chỉ được xét đến một cách tình cờ trong các chiều $\geq 3$.}
+(10) Các nhóm này, được nghiên cứu sâu trong trường hợp chiều 2, cho đến nay mới chỉ được xét đến một cách tình cờ trong các chiều $\geq 3$.
 
 Mặt khác, vào khoảng năm 1950, người ta nhận thấy rằng các đa thức bất biến dưới nhóm Weyl đóng một vai trò quan trọng trong hai lĩnh vực, lý thuyết các biểu diễn tuyến tính vô hạn chiều (XX a)) và tôpô của các nhóm Lie. Coxeter (XIV f)) một lần nữa tiếp tục nghiên cứu phép biến đổi C thu được bằng cách lấy tích của các phép phản xạ cơ bản của một nhóm hữu hạn W được sinh bởi các phép phản xạ. Ông nhận thấy (bằng cách khảo sát riêng từng kiểu) rằng đại số các đa thức bất biến dưới W được sinh bởi các phần tử độc lập đại số mà các bậc của chúng liên quan theo một cách đơn giản với các giá trị riêng của C. Các chứng minh *a priori* của các kết quả này được đưa ra bởi Chevalley (XIX b)) trong lĩnh vực thứ nhất, và bởi Coleman (XXIII) và Steinberg (XXIV) trong lĩnh vực thứ hai.
 
@@ -79,7 +79,7 @@ Vào khoảng cùng thời gian ấy, Chevalley (XIX d)) lại tiếp tục nghi
 
 Tất cả các hệ Tits gặp trong các trường hợp này đều có một nhóm Weyl hữu hạn. Một loại ví dụ khác được Iwahori và Matsumoto (XXVI) phát hiện; họ đã chỉ ra rằng nếu, trong phép dựng của Chevalley ở (XIX c)), $k$ là một trường $p$-adic, thì nhóm thu được có một hệ Tits mà nhóm Weyl của nó là nhóm Weyl *afin* của đại số Lie phức nửa đơn mà ta đã bắt đầu từ đó. Kết quả này đã được Bruhat và Tits (XXVIII) mở rộng cho mọi nhóm đại số nửa đơn trên một trường địa phương.
 
-\footnotetext{12Sự tồn tại của nhiều đại số Lie đơn “bệnh lý” trên một trường có đặc số $p > 0$ có lẽ đã khiến một số người nghi ngờ tính phổ quát của phân loại Killing-Cartan.}
+(12) Sự tồn tại của nhiều đại số Lie đơn “bệnh lý” trên một trường có đặc số $p > 0$ có lẽ đã khiến một số người nghi ngờ tính phổ quát của phân loại Killing-Cartan.
 
 (I) J. HESSEL, Krysalloometrie hay Krystallonomie và Krystallographie (1830, tái bản trong Ostwald’s Klassiker, số 88 và 89, Leipzig (Teubner), 1897)
 

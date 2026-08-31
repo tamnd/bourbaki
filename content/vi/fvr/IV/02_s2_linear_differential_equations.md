@@ -108,7 +108,7 @@ b) *Ánh xạ* $t \mapsto b(t)$ *từ* $J$ *vào* $E$ *là được điều ch�
 
 Khi $E$ có chiều $n$, $\mathcal{L}(E)$ đẳng cấu với $\mathbf{R}^{n^2}$ (như một không gian vectơ tôpô) và điều kiện *a*) có nghĩa là mỗi phần tử $a_{ij}(t)$ của ma trận $A(t)$ là một hàm *điều hòa* trên $J$.
 
-\footnotetext{1 Nhắc lại rằng nếu $E$ có số chiều hữu hạn thì mọi ánh xạ afin tuyến tính từ $E$ vào chính nó đều liên tục (*Gen. Top.*, VI, p. 33 and 37).}
+(1) Nhắc lại rằng nếu $E$ có số chiều hữu hạn thì mọi ánh xạ afin tuyến tính từ $E$ vào chính nó đều liên tục (*Gen. Top.*, VI, p. 33 and 37).
 
 Vì $\|A(t')\mathbf{x} - A(t)\mathbf{x}\| \leq \|A(t') - A(t)\|\|\mathbf{x}\|$, ánh xạ
 $$

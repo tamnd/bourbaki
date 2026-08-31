@@ -117,53 +117,53 @@ En même temps se fait un examen critique, destiné à éliminer, sur chaque poi
 (XXX) H. Poincaré, Les méthodes nouvelles de la mécanique céleste, t. III, Paris (Gauthier-Villars), 1899, chap. xxii.
 (XXXI) O. Toeplitz, Ueber die Auflösung unendlichvieler linearer Gleichungen mit unendlichvielen Unbekannten, Rend. Circ. Mat. Pal., t. XXVIII (1909), p. 88-96.
 
-x + y, x.y, xy, x \top y, x \perp y: I, p. 1.
-X \top Y, X + Y, XY (X, Y parties): I, p. 2.
-X \top a, a \top X (X partie, a élément): I, p. 2.
-\prod_{\alpha \in A} x_\alpha, \prod_{\alpha} x_\alpha, \prod x_\alpha, \prod_{\alpha \in A} x_\alpha, \prod_{\alpha} x_\alpha, \sum_{\alpha \in A} x_\alpha, \sum x_\alpha, \sum_{\alpha \in A} x_\alpha, \sum x_\alpha, \prod_{\alpha \in A} x_\alpha, \prod x_\alpha: I, p. 3–4.
-\prod_{p \leq i \leq q} x_i, \prod_{i = p}^q x_i: I, p. 5.
-x_p \top x_{p+1} \top \cdots \top x_q: I, p. 5.
-\prod x, \perp x, x^n, nx (n \in \mathbf{N}): I, p. 5.
-\prod_{0 \leq i < j \leq n} x_{ij}, \prod_{i < j} x_{ij}: I, p. 10.
-\sum_{i = p}^q \sum_{j = r}^s x_{ij}, \sum_{j = r}^s \sum_{i = p}^q x_{ij}: I, p. 10.
-\prod_{0 \leq i_1 < i_2 < \cdots < i_p \leq n} x_{i_1 i_2 \cdots i_p}, \prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \cdots i_p}: I, p. 10.
-\prod_{i \in I} x_i ((x_i)_{i \in I} famille à support fini): I, p. 14.
+$x + y$, $x.y$, $xy$, $x \top y$, $x \perp y$: I, p. 1.
+$X \top Y$, $X + Y$, $XY$ ($X$, $Y$ parties): I, p. 2.
+$X \top a$, $a \top X$ ($X$ partie, $a$ élément): I, p. 2.
+$\prod_{\alpha \in A} x_\alpha$, $\prod_{\alpha} x_\alpha$, $\prod x_\alpha$, $\prod_{\alpha \in A} x_\alpha$, $\prod_{\alpha} x_\alpha$, $\sum_{\alpha \in A} x_\alpha$, $\sum x_\alpha$, $\sum_{\alpha \in A} x_\alpha$, $\sum x_\alpha$, $\prod_{\alpha \in A} x_\alpha$, $\prod x_\alpha$: I, p. 3–4.
+$\prod_{p \leq i \leq q} x_i$, $\prod_{i = p}^q x_i$: I, p. 5.
+$x_p \top x_{p+1} \top \cdots \top x_q$: I, p. 5.
+$\prod x$, $\perp x$, $x^n$, $nx$ ($n \in \mathbf{N}$): I, p. 5.
+$\prod_{0 \leq i < j \leq n} x_{ij}$, $\prod_{i < j} x_{ij}$: I, p. 10.
+$\sum_{i = p}^q \sum_{j = r}^s x_{ij}$, $\sum_{j = r}^s \sum_{i = p}^q x_{ij}$: I, p. 10.
+$\prod_{0 \leq i_1 < i_2 < \cdots < i_p \leq n} x_{i_1 i_2 \cdots i_p}$, $\prod_{i_1 < i_2 < \cdots < i_p} x_{i_1 i_2 \cdots i_p}$: I, p. 10.
+$\prod_{i \in I} x_i$ ($(x_i)_{i \in I}$ famille à support fini): I, p. 14.
 0, 1: I, p. 14.
-\gamma_a, \delta_a, \gamma(a), \delta(a): I, p. 14.
+$\gamma_a$, $\delta_a$, $\gamma(a)$, $\delta(a)$: I, p. 14.
 E_S (S partie d’un monoïde commutatif E): I, p. 17.
-\mathbf{Z}, + (addition dans \mathbf{Z}): I, p. 20.
-\leq (relation d’ordre dans \mathbf{Z}): I, p. 21.
-\mathbf{N}*: I, p. 21.
-\prod^n (pour n \in \mathbf{Z}): I, p. 22.
+$\mathbf{Z}$, $+$ (addition dans $\mathbf{Z}$): I, p. 20.
+$\leq$ (relation d’ordre dans $\mathbf{Z}$): I, p. 21.
+$\mathbf{N}^*$: I, p. 21.
+$\prod^n$ (pour $n \in \mathbf{Z}$): I, p. 22.
 -x, x - y, x + y - z, x - y - z, x - y + z - t: I, p. 23.
-nx (n \in \mathbf{Z}): I, p. 23.
-x^n (n \in \mathbf{Z}): I, p. 23.
-\frac{1}{x}, \frac{x}{y}, x/y: I, p. 23.
-\alpha.x, x.\alpha, x^\alpha (\alpha opérateur): I, p. 24.
-\alpha \perp x, \alpha \perp X, \Omega \perp X (\alpha opérateur, \Omega ensemble d’opérateurs): I, p. 24.
-\mathfrak{S}_F: I, p. 29.
+$nx$ ($n \in \mathbf{Z}$): I, p. 23.
+$x^n$ ($n \in \mathbf{Z}$): I, p. 23.
+$\frac{1}{x}$, $\frac{x}{y}$, $x/y$: I, p. 23.
+$\alpha.x$, $x.\alpha$, $x^\alpha$ ($\alpha$ opérateur): I, p. 24.
+$\alpha \perp x$, $\alpha \perp X$, $\Omega \perp X$ ($\alpha$ opérateur, $\Omega$ ensemble d’opérateurs): I, p. 24.
+$\mathfrak{S}_F$: I, p. 29.
 (G:H), G/H (H sous-groupe de G): I, p. 34.
-x \equiv y (\text{mod. } H), x \equiv y (\text{H sous-groupe distingué}): I, p. 35.
+$x \equiv y (\text{mod. } H)$, $x \equiv y (H)$ ($H$ sous-groupe distingué): I, p. 35.
 Ker f, Im f (f homomorphisme de groupes): I, p. 36.
-\prod_{i \in I} G_i (G_i groupes): I, p. 43.
-G_1 \times_H G_2: I, p. 44.
-\prod_{i \in I} G_i: I, p. 45.
-x \equiv y (\text{mod. } a), x \equiv y (a) (a, x, y entiers rationnels): I, p. 46.
+$\prod_{i \in I} G_i$ ($G_i$ groupes): I, p. 43.
+$G_1 \times_H G_2$: I, p. 44.
+$\prod_{i \in I} G_i$: I, p. 45.
+$x \equiv y (\text{mod. } a)$, $x \equiv y (a)$ ($a$, $x$, $y$ entiers rationnels): I, p. 46.
 v_p(a) (p nombre premier, a entier rationnel): I, p. 49.
-Aut(G), Int(G), Int(x) (G groupe, x \in G): I, p. 53.
-N_G(A), N(A) (G groupe, A \subset G): I, p. 54.
-C_G(A), C(A) (G groupe, A \subset G): I, p. 54.
-E/G, G\backslash E (G groupe opérant dans E): I, p. 55.
-G\backslash E/H (G, H groupes opérant dans E par des actions qui commutent): I, p. 55.
-\mathfrak{S}_n: I, p. 59.
-\tau_{x, y} (transposition de support \{x, y\}): I, p. 60.
-\varepsilon(\sigma), \varepsilon_\sigma (\sigma permutation): I, p. 62.
-\mathfrak{A}_E, \mathfrak{A}_n: I, p. 62.
+$\operatorname{Aut}(G)$, $\operatorname{Int}(G)$, $\operatorname{Int}(x)$ ($G$ groupe, $x \in G$): I, p. 53.
+$N_G(A)$, $N(A)$ ($G$ groupe, $A \subset G$): I, p. 54.
+$C_G(A)$, $C(A)$ ($G$ groupe, $A \subset G$): I, p. 54.
+$E/G$, $G \backslash E$ ($G$ groupe opérant dans $E$): I, p. 55.
+$G \backslash E/H$ ($G$, $H$ groupes opérant dans $E$ par des actions qui commutent): I, p. 55.
+$\mathfrak{S}_n$: I, p. 59.
+$\tau_{x, y}$ (transposition de support $\{x, y\}$): I, p. 60.
+$\varepsilon(\sigma)$, $\varepsilon_\sigma$ ($\sigma$ permutation): I, p. 62.
+$\mathfrak{A}_E$, $\mathfrak{A}_n$: I, p. 62.
 
-F \xrightarrow{i} E \xrightarrow{p} G (E, F, G groupes): I, p. 62.
-F \times_{\tau} G, \mathcal{E}_{\tau} (\tau homomorphisme de G dans Aut(F)): I, p. 64.
-gf (f \in F, g \in G): I, p. 64.
-(f, g) \cdot_{\tau} (f', g') (f, f' dans F, g, g' dans G): I, p. 64.
+$F \xrightarrow{i} E \xrightarrow{p} G$ ($E$, $F$, $G$ groupes): I, p. 62.
+$F \times_{\tau} G$, $\mathcal{E}_{\tau}$ ($\tau$ homomorphisme de $G$ dans $\operatorname{Aut}(F)$): I, p. 64.
+$gf$ ($f \in F$, $g \in G$): I, p. 64.
+$(f, g) \cdot_{\tau} (f', g')$ ($f$, $f'$ dans $F$, $g$, $g'$ dans $G$): I, p. 64.
 (x, y), (A, B) (x, y éléments, A, B parties d’un groupe G): I, p. 65–66.
 D(G): I, p. 67.
 C^n(G): I, p. 68.
@@ -175,40 +175,40 @@ ww', w.w' (w, w' éléments de M(X)): I, p. 77.
 l(w) (w mot sur X): I, p. 79.
 ww', w.w' (w, w' mots sur X): I, p. 79.
 Mo(X) (X ensemble): I, p. 79.
-l(\sigma) (\sigma décomposition): I, p. 81.
-\* G_i, G_1 \* G_2 (G_1, G_2, G_i groupes): I, p. 84.
-\langle \tau_1, \ldots, \tau_n; r_1, \ldots, r_m \rangle (\tau_j générateurs, r_i relateurs): I, p. 86.
-\langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle (\tau_j générateurs, u_i, v_i éléments d’un groupe libre): I, p. 86.
-\mathbf{Z}^{(X)}, \mathbf{N}^{(X)} (X ensemble): I, p. 87–88.
+$l(\sigma)$ ($\sigma$ décomposition): I, p. 81.
+$\ast G_i$, $G_1 \ast G_2$ ($G_1$, $G_2$, $G_i$ groupes): I, p. 84.
+$\langle \tau_1, \ldots, \tau_n; r_1, \ldots, r_m \rangle$ ($\tau_j$ générateurs, $r_i$ relateurs): I, p. 86.
+$\langle \tau_1, \ldots, \tau_n; u_1 = v_1, \ldots, u_m = v_m \rangle$ ($\tau_j$ générateurs, $u_i$, $v_i$ éléments d’un groupe libre): I, p. 86.
+$\mathbf{Z}^{(X)}$, $\mathbf{N}^{(X)}$ ($X$ ensemble): I, p. 87–88.
 0, 1 (éléments d’un anneau): I, p. 92.
 A^0 (A anneau): I, p. 96.
 (a) (a élément de A): I, p. 99.
-\sum_{\lambda} a_{\lambda} (a_{\lambda} idéaux): I, p. 100.
-x \equiv y \pmod{a}, x \equiv y (a) (a idéal): I, p. 100.
+$\sum_{\lambda} a_{\lambda}$ ($a_{\lambda}$ idéaux): I, p. 100.
+$x \equiv y \pmod{a}$, $x \equiv y (a)$ ($a$ idéal): I, p. 100.
 A/a (a idéal bilatère): I, p. 100.
 ab (a, b idéaux bilatères): I, p. 102.
 A[S^{-1}] (S partie d’un anneau A): I, p. 108.
-\mathbf{F}_p (p nombre premier): I, p. 109.
-\mathbf{Q}: I, p. 111.
-\mathbf{Q}_+: I, p. 111.
-|x|, \operatorname{sgn} x (x nombre rationnel): I, p. 112.
-\operatorname{in}(G): I, p. 125, exerc. 13.
-\mathbf{D}_n: I, p. 135, exerc. 4.
-\Omega: I, p. 135, exerc. 4.
-A \approx B: I, p. 142, exerc. 39.
+$\mathbf{F}_p$ ($p$ nombre premier): I, p. 109.
+$\mathbf{Q}$: I, p. 111.
+$\mathbf{Q}_+$: I, p. 111.
+$|x|$, $\operatorname{sgn} x$ ($x$ nombre rationnel): I, p. 112.
+$\operatorname{in}(G)$: I, p. 125, exerc. 13.
+$\mathbf{D}_n$: I, p. 135, exerc. 4.
+$\Omega$: I, p. 135, exerc. 4.
+$A \approx B$: I, p. 142, exerc. 39.
 e(G): I, p. 151, exerc. 39.
 d_n(X): I, p. 151, exerc. 39.
 A_s, A_d (A anneau): II, p. 3.
-\operatorname{Hom}_A(E, F), \operatorname{Hom}(E, F), (E, F A-modules): II, p. 5.
-\operatorname{End}_A(E), \operatorname{End}(E), \operatorname{Aut}(E), \mathbf{GL}(E) (E A-module): II, p. 5.
-\operatorname{Hom}_A(u, v), \operatorname{Hom}(u, v) (u, v applications linéaires): II, p. 6.
+$\operatorname{Hom}_A(E, F)$, $\operatorname{Hom}(E, F)$ ($E$, $F$ $A$-modules): II, p. 5.
+$\operatorname{End}_A(E)$, $\operatorname{End}(E)$, $\operatorname{Aut}(E)$, $\mathbf{GL}(E)$ ($E$ $A$-module): II, p. 5.
+$\operatorname{Hom}_A(u, v)$, $\operatorname{Hom}(u, v)$ ($u$, $v$ applications linéaires): II, p. 6.
 1_E (E module): II, p. 6.
 0 (module nul): II, p. 6.
 Ker u, Im u, Coïm u, Coker u (u application linéaire): II, p. 7.
-\prod_{i} f_i (f_i : E_i \to F_i applications linéaires): II, p. 10.
-\bigoplus_{i \in I} E_i, E_p \oplus E_{p+1} \oplus \cdots \oplus E_q ((E_i)_{i \in I} famille de A-modules): II, p. 12.
-\sum_{i \in I} f_i (f_i : E_i \to F applications linéaires): II, p. 12.
-\bigoplus_{i \in I} f_i, f_p \oplus f_{p+1} \oplus \cdots \oplus f_q (f_i : E_i \to F_i applications linéaires): II, p. 13.
+$\prod_{i} f_i$ ($f_i : E_i \to F_i$ applications linéaires): II, p. 10.
+$\bigoplus_{i \in I} E_i$, $E_p \oplus E_{p+1} \oplus \cdots \oplus E_q$ ($(E_i)_{i \in I}$ famille de $A$-modules): II, p. 12.
+$\sum_{i \in I} f_i$ ($f_i : E_i \to F$ applications linéaires): II, p. 12.
+$\bigoplus_{i \in I} f_i$, $f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ ($f_i : E_i \to F_i$ applications linéaires): II, p. 13.
 
 E^{(1)} (E module): II, p. 15.
 $\sum_{t \in I} M_t$ (($M_t$)_{t \in I} famille de sous-modules): II, p. 16.
@@ -223,7 +223,7 @@ $\langle x, x^* \rangle$ (x élément d’un module à gauche E, $x^*$ élément
 $\langle x^*, x \rangle$ (x élément d’un module à droite E, $x^*$ élément de son dual E*): II, p. 41.
 $^t u$ (u application linéaire ou semi-linéaire): II, p. 42–43.
 $\ddot{u}$ (u isomorphisme): II, p. 43.
-E \otimes_A F, E \otimes_A F (E A-module à droite, F A-module à gauche): II, p. 51.
+$E \otimes_A F$, $E \otimes F$ ($E$ $A$-module à droite, $F$ $A$-module à gauche): II, p. 51.
 $x \otimes y$ (x \in E (A-module à droite), y \in F (A-module à gauche)): II, p. 51.
 $u \otimes v$ (u, v applications linéaires): II, p. 52.
 $u \otimes v$ (u, v applications semi-linéaires): II, p. 54.
@@ -249,10 +249,10 @@ dim_K E, dim E (E espace affine sur un corps K): II, p. 127.
 a + t, t + a (a point, t translation d’un espace affine): II, p. 127.
 b - a (a, b points d’un espace affine): II, p. 127.
 $\sum_{i \in I} \lambda_i x_i$ (($x_i$)_{i \in I} famille de points d’un espace affine, ($\lambda_i$)_{i \in I} famille de scalaires, de support fini, telle que $\sum \lambda_i = 1$ ou $\sum \lambda_i = 0$): II, p. 128.
-P(V), \Delta(V) (V espace vectoriel): II, p. 132.
-P_n(K), \Delta_n(K) (K corps): II, p. 132.
+$P(V)$, $\Delta(V)$ ($V$ espace vectoriel): II, p. 132.
+$P_n(K)$, $\Delta_n(K)$ ($K$ corps): II, p. 132.
 dim_K P(V), dim P(V) (V K-espace vectoriel): II, p. 133.
-\bar{K}, \infty (K corps): II, p. 136.
+$\bar{K}$, $\infty$ ($K$ corps): II, p. 136.
 PGL(V), PGL_n(K), PGL(n, K) (K corps, V espace vectoriel): II, p. 137.
 ^t M (M matrice): II, p. 140.
 
@@ -422,7 +422,7 @@ $u \perp x$, i'(u) : III, p. 160.
 G_p(E), G_{n,p}(K) : III, p. 172.
 a(x, y, z) : III, p. 172.
 ME : III, p. 181, exerc. 13.
-E \* F : III, p. 185, exerc. 6.
+$E \ast F$: III, p. 185, exerc. 6.
 R(a) : III, p. 188, exerc. 4.
 K[X; σ, d] : III, p. 197, exerc. 3.
 X̃ : III, p. 199, exerc. 9.
@@ -1280,7 +1280,7 @@ M-morphisme (M monoïde d’opérateurs): I, p. 50.
 Ω-morphisme (Ω ensemble d’opérateurs): I, p. 24.
 Mot: I, p. 78.
 G-moyenne: I, p. 136, exerc. 8.
-Multiadditive, \mathbf{Z}-multilinéaire (application —): II, p. 65.
+Multiadditive, $\mathbf{Z}$-multilinéaire (application —): II, p. 65.
 
 Multidegré dans l’algèbre libre d’un module: III, p. 181, exerc. 13.
 Multiindice: I, p. 87.

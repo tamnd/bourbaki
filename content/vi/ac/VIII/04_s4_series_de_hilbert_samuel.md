@@ -194,7 +194,7 @@ Số nguyên $c_M$ là dương theo bổ đề 2. Có thể có $M \neq 0$ và $
 
 #### Nhận xét 2 {#ac-viii-s4-n2-rem-2 .statement}
 
-Cho $0 \to M' \to M \to M'' \to 0$ là một dãy khớp các H-môđun phân bậc và các đồng cấu bậc 0 sao cho M là kiểu hữu hạn trên H và $M_n$ có độ dài hữu hạn trên $H_0$ với mỗi $n$. Khi đó, với mỗi $n \in \mathbf{Z}$$, ta có
+Cho $0 \to M' \to M \to M'' \to 0$ là một dãy khớp các H-môđun phân bậc và các đồng cấu bậc 0 sao cho M là kiểu hữu hạn trên H và $M_n$ có độ dài hữu hạn trên $H_0$ với mỗi $n$. Khi đó, với mỗi $n \in \mathbf{Z}$, ta có
 $$
 \mathrm{long}_{H_0}(M_n) = \mathrm{long}_{H_0}(M'_n) + \mathrm{long}_{H_0}(M''_n),
 $$

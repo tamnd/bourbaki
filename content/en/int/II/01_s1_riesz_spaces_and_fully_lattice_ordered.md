@@ -55,10 +55,10 @@ Axiom (OVS_I) implies that the relations $x \leq y$ and $x + z \leq y + z$ are e
 
 *An ordered vector space is said to be a Riesz space (or lattice-ordered vector space)*$^1$ *if its order structure is a lattice-ordering* (that is, if every pair of elements $x, y$ of E has a supremum $\sup(x, y)$ and an infimum $\inf(x, y)$ ).$^2$
 
-\footnotetext{
-$^1$ Also called a "vector lattice".
-$^2$ Borne supérieure (supremum) is also translated as "least upper bound" (S, R, §6, 7). Similarly borne inférieure (infimum) is also translated as "greatest lower bound".
-}
+
+(1) Also called a "vector lattice".
+
+(2) Borne supérieure (supremum) is also translated as "least upper bound" (S, R, §6, 7). Similarly borne inférieure (infimum) is also translated as "greatest lower bound".
 
 #### Example {#int-ii-s1-n1-exa-1 .statement}
 

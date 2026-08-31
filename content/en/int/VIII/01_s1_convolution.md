@@ -94,7 +94,7 @@ $$
 
 2) Let $M$ be a monoid equipped with the discrete topology; assume that for each $m \in M$, there are only finitely many pairs $(m', m'') \in M \times M$ such that $m'm'' = m$; this amounts to saying that the law of composition in $M$ is a proper mapping of $M \times M$ into $M$; the measures on $M$ then form an algebra for convolution, an algebra that is none other than the *total*
 
-\footnotetext{1 Monoïde, in the sense of Exer. 17 of Ch. VII, §1.}
+(1) Monoïde, in the sense of Exer. 17 of Ch. VII, §1.
 
 algebra of the monoid $M$ (A, III, §2, No. 10); we note the following two special cases:
 

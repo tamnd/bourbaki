@@ -235,9 +235,9 @@ $$
 G = \{x \in g \mid \|x\| < \alpha\},
 $$
 
-$
+$$
 \Theta = \{(x, y) \in G \times G \mid h(x, y) \in G\}
-$
+$$
 and $m : \Theta \to G$ be the restriction of $h$ to $\Theta$. Then:
 (1) $\Theta$ is open in $G \times G$ and $m$ is analytic.
 (2) $x \in G$ implies $(0, x) \in \Theta$, $(x, 0) \in \Theta$ and $m(0, x) = m(x, 0) = x$.

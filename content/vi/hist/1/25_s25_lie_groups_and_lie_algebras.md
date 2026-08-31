@@ -36,7 +36,7 @@ Năm 1869, Felix Klein trẻ tuổi (1849-1925), học trò của Plücker, kế
 
 b) Các phép biến đổi vô cùng bé.
 
-Quan niệm về một phép biến đổi "vô cùng bé" bắt nguồn từ thuở đầu của phép tính vô cùng bé; известно? Need translate all French? Actually English. Continue properly.
+Quan niệm về một phép biến đổi "vô cùng bé" bắt nguồn từ thuở đầu của phép tính vô cùng bé; ta đã biết? Need translate all French? Actually English. Continue properly.
 Người ta biết rằng Descartes phát hiện tâm quay tức thời bằng cách giả thiết rằng "trong vô cùng bé" mọi chuyển động phẳng đều có thể được đồng nhất với một phép quay; sự xây dựng Cơ học giải tích, vào thế kỷ XVIII, hoàn toàn dựa trên các ý tưởng tương tự. Năm 1851, Sylvester, khi tìm cách tạo ra các bất biến của nhóm tuyến tính
 
 $GL(3, \mathbf{C})$ hoặc của một số nhóm con của nó, cho các tham số $z_j$ xuất hiện trong các ma trận ấy những gia số "vô cùng bé" dạng $\alpha_j dt$, và biểu thị rằng một hàm $f((z_j))$ là bất biến bằng cách viết phương trình $f((z_j + \alpha_j dt)) = f((z_j))$; điều này dẫn ông đến một phương trình tuyến tính đối với $f$ có đạo hàm riêng $Xf = 0$, trong đó
@@ -99,7 +99,7 @@ $$
 
 và các ngoặc$^2$ $[X, Y] = XY - YX$ của các toán tử vi phân kiểu (25.1); ông diễn giải ngoặc Poisson (25.3) như tác dụng lên $f$ của một phép biến đổi
 
-$^1$ Ở đây là trường hợp các phép biến đổi tiếp xúc "thuần nhất". Trước đó, việc xét các phương trình kiểu (25.2), nhưng trong đó $z$ xuất hiện trong $F$, đã dẫn Lie đến việc xét các phép biến đổi tiếp xúc với $2n + 1$ biến $z, x_1, \ldots, x_n, p_1, \ldots, p_n$, trong đó vấn đề là tìm $2n + 2$ hàm $Z, P_i, X_i (1 \leq i \leq n)$ và $\rho$ (hàm sau cùng này $\neq 0$ tại mọi điểm) sao cho $dZ - \sum_i P_i dX_i = \rho(dz - \sum_i p_i dx_i)$. Trường hợp này thoạt nhìn có vẻ tổng quát hơn nhưng वास्तव ra dễ dàng quy về trường hợp "thuần nhất" ([203], v. 2, pp. 135-146).
+$^1$ Ở đây là trường hợp các phép biến đổi tiếp xúc "thuần nhất". Trước đó, việc xét các phương trình kiểu (25.2), nhưng trong đó $z$ xuất hiện trong $F$, đã dẫn Lie đến việc xét các phép biến đổi tiếp xúc với $2n + 1$ biến $z, x_1, \ldots, x_n, p_1, \ldots, p_n$, trong đó vấn đề là tìm $2n + 2$ hàm $Z, P_i, X_i (1 \leq i \leq n)$ và $\rho$ (hàm sau cùng này $\neq 0$ tại mọi điểm) sao cho $dZ - \sum_i P_i dX_i = \rho(dz - \sum_i p_i dx_i)$. Trường hợp này thoạt nhìn có vẻ tổng quát hơn nhưng thực ra dễ dàng quy về trường hợp "thuần nhất" ([203], v. 2, pp. 135-146).
 
 $^2$ Các ngoặc này đã xuất hiện trong lý thuyết Jacobi-Clebsch về các "hệ đầy đủ" các phương trình vi phân riêng phần cấp một $X_j f = 0 (1 \leq j \leq r)$, một khái niệm tương đương với khái niệm "hệ hoàn toàn khả tích" của Frobenius: định lý cơ bản (tương đương với "định lý Frobenius") dùng để đặc trưng các hệ này là các ngoặc $[X_i, X_j]$ phải là các tổ hợp tuyến tính (với các hệ số biến) của các $X_k$.
 

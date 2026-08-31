@@ -1060,7 +1060,7 @@ Ta sẽ thấy ở § 9 rằng phức de Rham của $A$ trên $k$ là acyclic tr
 
 #### Ví dụ 2 {#alg-x-s2-n10-exa-2 .statement}
 
-Giả sử $k = \mathbf{C}$$ và $A = \mathbf{C} [X_1, ..., X_n]/(P_1, ..., P_r)$, trong đó các $P_i$ là các đa thức theo $X_1, ..., X_n$, sao cho tập hợp các điểm của $\mathbf{C}^n$ tại đó mọi $P_i$ đều triệt tiêu là một tập con đại số giải tích $V$ của $\mathbf{C}^n$. Có thể chỉ ra rằng đối đồng điều de Rham của $A$ trên $\mathbf{C}$ đẳng cấu với *đối đồng điều kỳ dị* $H(V, \mathbf{C})$.
+Giả sử $k = \mathbf{C}$ và $A = \mathbf{C} [X_1, ..., X_n]/(P_1, ..., P_r)$, trong đó các $P_i$ là các đa thức theo $X_1, ..., X_n$, sao cho tập hợp các điểm của $\mathbf{C}^n$ tại đó mọi $P_i$ đều triệt tiêu là một tập con đại số giải tích $V$ của $\mathbf{C}^n$. Có thể chỉ ra rằng đối đồng điều de Rham của $A$ trên $\mathbf{C}$ đẳng cấu với *đối đồng điều kỳ dị* $H(V, \mathbf{C})$.
 
 Bây giờ cho $M$ là một $A$-môđun và $\nabla^0$ là một ánh xạ tuyến tính $k$ từ $M$ vào $M \otimes_A \Omega^1_{A/k}$ sao cho
 

@@ -423,7 +423,7 @@ c) *Under the hypotheses of b), suppose in addition that the closure of $S \cap 
 
 We shall denote by E the algebra of continuous complex functions tending to 0 at infinity on $M$, and by $\mathfrak{A}$ the linear subspace of E generated
 
-\footnotetext{(1) Recall that a submonoid of a monoid A contains by definition the neutral element of A (A, I, §2, No. 1).}
+(1) Recall that a submonoid of a monoid A contains by definition the neutral element of A (A, I, §2, No. 1).
 
 by $S \cap X_0$; then $\mathfrak{A}$ is a subalgebra of $E$ stable under the mapping $f \mapsto \overline{f}$; since $S$ is a full submonoid of $X$, Cor. 2 of Prop. 7 of GT, X, §4, No. 4 implies that $\mathfrak{A}$ is dense in $E$.
 

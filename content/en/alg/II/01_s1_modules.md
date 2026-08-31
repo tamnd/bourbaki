@@ -673,9 +673,9 @@ $$
 $$
 
 *where* $i : M \to M + N$, $j : N \to M + N$ *are the canonical injections,*
-$
+$$
 p : E/M \to E/(M + N) \quad \text{and} \quad q : E/N \to E/(M + N)
-$
+$$
 
 *the canonical surjections and where the homomorphisms u and v are defined as follow:*
 

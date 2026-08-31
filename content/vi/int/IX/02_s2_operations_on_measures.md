@@ -500,7 +500,7 @@ $$
 \int_X f(x)\, d\nu(x) = \int_T d\mu(t) \int_X f(x)\, d\lambda_t(x);
 $$
 
-\footnotetext{(1) Một ánh xạ của một không gian tôpô $X$ vào một không gian tôpô $Y$ được gọi là *đo được phổ quát* nếu nó là $\mu$-đo được đối với mọi độ đo $\mu$ trên $X$ (xem Ch. V, $§ 3$, No. 4).}
+(1) Một ánh xạ của một không gian tôpô $X$ vào một không gian tôpô $Y$ được gọi là *đo được phổ quát* nếu nó là $\mu$-đo được đối với mọi độ đo $\mu$ trên $X$ (xem Ch. V, $§ 3$, No. 4).
 
 c) tập hợp các $t \in T$ sao cho $\lambda_t(1) \neq 1$ là địa phương $\mu$-không đáng kể.
 Ngoài ra, nếu $t \mapsto \lambda'_t$ là một ánh xạ của $T$ vào $\mathcal{M}_+(X)$ thỏa mãn các điều kiện a) và b), thì tập hợp các $t \in T$ sao cho $\lambda_t \neq \lambda'_t$ là địa phương $\mu$-không đáng kể.

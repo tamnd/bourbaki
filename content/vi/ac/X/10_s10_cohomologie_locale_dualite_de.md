@@ -230,9 +230,9 @@ $$
 #### Nhận xét 2 {#ac-x-s10-n2-rem-2 .statement}
 
 Cho
-$
+$$
 (\mathcal{E}) \quad 0 \to M \to N \to P \to 0
-$
+$$
 là một dãy khớp của các a-môđun. Dùng A, X, p. 104, mệnh đề 3 và p. 106, mệnh đề 4, ta chứng minh được rằng các biểu đồ sau là giao hoán:
 
 $$

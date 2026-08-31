@@ -486,7 +486,7 @@ $$
 C(s_2).C(s_1).C(s_2) = C(s_2 s_1 s_2),
 $$
 
-\footnotetext{6}{Nếu $H$ là một nhóm con của một nhóm $G$, chuẩn hoá tử của $H$ trong $G$ là nhóm con $\mathfrak{N}(H)$ gồm các phần tử $g$ của $G$ sao cho $gHg^{-1} = H$. Một nhóm con $H'$ được gọi là chuẩn hoá $H$ nếu $H' \subset \mathfrak{N}(H)$, trong trường hợp đó $HH' = H'H$ là một nhóm con của $G$ trong đó $H$ là chuẩn tắc.}
+(6) Nếu $H$ là một nhóm con của một nhóm $G$, chuẩn hoá tử của $H$ trong $G$ là nhóm con $\mathfrak{N}(H)$ gồm các phần tử $g$ của $G$ sao cho $gHg^{-1} = H$. Một nhóm con $H'$ được gọi là chuẩn hoá $H$ nếu $H' \subset \mathfrak{N}(H)$, trong trường hợp đó $HH' = H'H$ là một nhóm con của $G$ trong đó $H$ là chuẩn tắc.
 
 và do đó $h \in H \cap C(s_2 s_1 s_2)$. Vì $H \cap C(s_2 s_1 s_2)$ là không rỗng, $s_2 s_1 s_2 \in W_X$. Vì $(s_2, s_1, s_2)$ là một phân tích rút gọn, suy ra $s_2 \in X$, trái với giả thiết của ta.
 

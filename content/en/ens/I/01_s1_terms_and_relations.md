@@ -86,9 +86,7 @@ $$1\in 2$$
 
 “Every finite division ring is a field”
 
-“The zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line
-
-$$R(s)=1/2$$.”
+“The zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line $R(s)=1/2$.”
 
 In general, the symbol used to represent an assembly contains all the letters which appear in the assembly. Nevertheless, this principle can sometimes be infringed without risk of confusion. *For example, “the completion of X” represents an assembly which contains the letter X, but which also contains the letter which represents the set of entourages of the uniform structure of X. On the other hand,
 
