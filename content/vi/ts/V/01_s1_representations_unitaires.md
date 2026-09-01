@@ -499,7 +499,9 @@ c) Mọi cấu xạ G khác không $v$ của $\varrho$ vào $\pi$ đều là to�
 
 Ta chứng minh mệnh đề a), mệnh đề này kéo theo mệnh đề b) (Bổ đề 8 của I, p. 107). Vì cấu xạ $u$ là khác không, nó là đơn ánh (Bổ đề 2 của V, p. 378). Công thức $q(x, y) =\langle u(x)|u(y)\rangle$ với $x$ và $y$ trong F khi đó xác định một dạng song tuyến tính sesqui liên tục trên F. Vì $u$ là một cấu xạ G, ta có $q(\pi (g)x, \pi (g)y) =q(x, y)$ với mọi $g$ trong G và $(x, y)\in F\times F$, do đó $q$ là G-bất biến. Theo Hệ quả 3, tồn tại $\alpha \in \mathbf{R}^*_+$ sao cho
 
-q(x,y)=⟨u(x)∣u(y)⟩=α⟨x∣y⟩
+$$
+q(x, y) =\langle u(x)|u(y)\rangle =\alpha \langle x|y\rangle
+$$
 
 với mọi $(x, y)\in F\times F$, và do đó $\alpha^{-1/2}u$ là đẳng cự.
 
