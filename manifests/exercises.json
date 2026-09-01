@@ -6950,6 +6950,407 @@
           ]
         }
       ]
+    },
+    {
+      "id": "fvr-i-vii-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "DÉRIVÉES",
+          "total": 66,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-i-s1",
+              "dir": "s1",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 2,
+              "label": "fvr-i-s2",
+              "dir": "s2",
+              "count": 14,
+              "first": 1,
+              "last": 14
+            },
+            {
+              "section": 3,
+              "label": "fvr-i-s3",
+              "dir": "s3",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 2,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "fvr-i-s4",
+              "dir": "s4",
+              "count": 25,
+              "first": 1,
+              "last": 25,
+              "starred": 5,
+              "supplementary": 1
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "PRIMITIVES ET INTÉGRALES",
+          "total": 42,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-ii-s1",
+              "dir": "s1",
+              "count": 23,
+              "first": 1,
+              "last": 23,
+              "starred": 2,
+              "supplementary": 2
+            },
+            {
+              "section": 2,
+              "label": "fvr-ii-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            },
+            {
+              "section": 3,
+              "label": "fvr-ii-s3",
+              "dir": "s3",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 2,
+              "supplementary": 1
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "ÉQUATIONS DIFFÉRENTIELLES",
+          "total": 28,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-iv-s1",
+              "dir": "s1",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 4
+            },
+            {
+              "section": 2,
+              "label": "fvr-iv-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1,
+              "supplementary": 1
+            }
+          ]
+        },
+        {
+          "chapter": "VI",
+          "title": "DÉVELOPPEMENTS TAYLORIENS GÉNÉRALISÉS. FORMULE SOMMATOIRE D’EULER–MACLAURIN",
+          "total": 19,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-vi-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 2,
+              "label": "fvr-vi-s2",
+              "dir": "s2",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "fvr-vi-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top-v-x-fr",
+      "chapters": [
+        {
+          "chapter": "V",
+          "title": "GROUPES À UN PARAMÈTRE",
+          "total": 16,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-v-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 2,
+              "label": "top-v-s2",
+              "dir": "s2",
+              "count": 2,
+              "first": 1,
+              "last": 2
+            },
+            {
+              "section": 3,
+              "label": "top-v-s3",
+              "dir": "s3",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 1,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "top-v-s4",
+              "dir": "s4",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        },
+        {
+          "chapter": "VII",
+          "title": "LES GROUPES ADDITIFS $\\mathbf{R}^n$",
+          "total": 27,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-vii-s1",
+              "dir": "s1",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 5,
+              "supplementary": 1
+            },
+            {
+              "section": 2,
+              "label": "top-vii-s2",
+              "dir": "s2",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 2
+            },
+            {
+              "section": 3,
+              "label": "top-vii-s3",
+              "dir": "s3",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 2
+            }
+          ]
+        },
+        {
+          "chapter": "VIII",
+          "title": "NOMBRES COMPLEXES",
+          "total": 23,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-viii-s1",
+              "dir": "s1",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "top-viii-s2",
+              "dir": "s2",
+              "count": 4,
+              "first": 1,
+              "last": 4,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "top-viii-s3",
+              "dir": "s3",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "top-viii-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-vii-viii-fr",
+      "chapters": [
+        {
+          "chapter": "VII",
+          "title": "Mesure de Haar",
+          "total": 42,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-vii-s1",
+              "dir": "s1",
+              "count": 30,
+              "first": 1,
+              "last": 30,
+              "starred": 12
+            },
+            {
+              "section": 2,
+              "label": "int-vii-s2",
+              "dir": "s2",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 3,
+              "label": "int-vii-s3",
+              "dir": "s3",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "VIII",
+          "title": "Convolution et représentations",
+          "total": 34,
+          "sections": [
+            {
+              "section": 3,
+              "label": "int-viii-s3",
+              "dir": "s3",
+              "count": 28,
+              "first": 1,
+              "last": 28,
+              "starred": 10
+            },
+            {
+              "section": 5,
+              "label": "int-viii-s5",
+              "dir": "s5",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int-ix-fr",
+      "chapters": [
+        {
+          "chapter": "IX",
+          "title": "MESURES SUR LES ESPACES TOPOLOGIQUES SÉPARÉS",
+          "total": 56,
+          "sections": [
+            {
+              "section": 1,
+              "label": "int-ix-s1",
+              "dir": "s1",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            },
+            {
+              "section": 2,
+              "label": "int-ix-s2",
+              "dir": "s2",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            },
+            {
+              "section": 3,
+              "label": "int-ix-s3",
+              "dir": "s3",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "int-ix-s4",
+              "dir": "s4",
+              "count": 2,
+              "first": 1,
+              "last": 2,
+              "starred": 1
+            },
+            {
+              "section": 5,
+              "label": "int-ix-s5",
+              "dir": "s5",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 6
+            },
+            {
+              "section": 6,
+              "label": "int-ix-s6",
+              "dir": "s6",
+              "count": 1,
+              "first": 1,
+              "last": 1,
+              "starred": 1
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "int-ix-a0",
+              "dir": "a0",
+              "count": 9,
+              "first": 1,
+              "last": 9
+            }
+          ]
+        }
+      ]
     }
   ]
 }
