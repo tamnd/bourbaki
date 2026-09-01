@@ -204,7 +204,7 @@ The French is counted and not compared against the English. A file name carries 
 | Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
 | --- | --- | --- | --- | --- | --- | --- |
 | Theory of Sets | 30 | 211 | 30 | 211 | 100% | 0 |
-| Algebra | 129 | 1075 | 129 | 1028 | 96% | 69 |
+| Algebra | 129 | 1105 | 129 | 1028 | 94% | 99 |
 | General Topology | 80 | 578 | 78 | 578 | 100% | 2 |
 | Functions of a Real Variable | 34 | 203 | 34 | 203 | 100% | 0 |
 | Topological Vector Spaces | 34 | 409 | 34 | 409 | 100% | 0 |
@@ -215,11 +215,11 @@ The French is counted and not compared against the English. A file name carries 
 | Théories spectrales | 36 | 371 | 36 | 371 | 100% | 407, all of it |
 | Topologie algébrique | 28 | 164 | 28 | 164 | 100% | 192, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **621** | **5115** | **619** | **4900** | **96%** | **1117** |
+| **All** | **621** | **5145** | **619** | **4900** | **96%** | **1147** |
 
-The source column is the English, which is 621 sections and 5115 exercises: 4619 files in `content/en` where Springer printed an English translation and 1117 in `content/en-mt` where this project read the French instead. The French originals are 570 sections and 5169 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 621 sections and 5145 exercises: 4619 files in `content/en` where Springer printed an English translation and 1147 in `content/en-mt` where this project read the French instead. The French originals are 570 sections and 5169 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 619 of the 621 sections and 4900 of the 5115 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 619 of the 621 sections and 4900 of the 5145 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
 The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 900 of the 5519 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
