@@ -134,7 +134,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 50 |
 | Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 65 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 127 |
-| Theory of Sets | IV | 3 of 3 | 23 | 15 | 38 | 155 |
+| Theory of Sets | IV | 3 of 3 | 29 | 15 | 43 | 155 |
 | Topological Vector Spaces | I | 3 of 3 | 64 | 35 | 0 | 58 |
 | Topological Vector Spaces | II | 8 of 8 | 203 | 162 | 0 | 195 |
 | Topological Vector Spaces | III | 6 of 6 | 123 | 75 | 0 | 101 |
@@ -187,7 +187,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-388 of 487 sections are in the corpus, 80 per cent. 8616 statements and 4123 exercises, 2637 of them carrying a permanent tag.
+388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4123 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -217,7 +217,7 @@ The French is counted and not compared against the English. A file name carries 
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
 | **All** | **619** | **4900** | **619** | **4900** | **100%** | **900** |
 
-The source column is the English, which is 619 sections and 4900 exercises: 4619 files in `content/en` where Springer printed an English translation and 900 in `content/en-mt` where this project read the French instead. The French originals are 475 sections and 4504 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 619 sections and 4900 exercises: 4619 files in `content/en` where Springer printed an English translation and 900 in `content/en-mt` where this project read the French instead. The French originals are 526 sections and 4801 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
 Vietnamese has 619 of the 619 sections and 4900 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
