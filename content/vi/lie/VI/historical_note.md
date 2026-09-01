@@ -933,7 +933,7 @@ Các nghiệm dương:
 
 $\pm \varepsilon_i + \varepsilon_j \ (i < j), \quad \frac{1}{2} (\varepsilon_8 + \sum_{i=1}^7 (-1)^{\nu(i)} \varepsilon_i )$ với $\sum_{i=1}^7 \nu(i)$ chẵn.
 
-Các nghiệm dương chứa $\alpha_8$ và có ít nhất một hệ số $\geq 2$(ta ký hiệu nghiệm $a \alpha_1 + b \alpha_2 + c \alpha_3 + d \alpha_4 + e \alpha_5 + f \alpha_6 + g \alpha_7 + h \alpha_8$ bằng $a \begin{array}{c} c \\ b \end{array} d e f g h$)^{15}:
+Các nghiệm dương chứa $\alpha_8$ và có ít nhất một hệ số $\geq 2$ (ta ký hiệu nghiệm $a \alpha_1 + b \alpha_2 + c \alpha_3 + d \alpha_4 + e \alpha_5 + f \alpha_6 + g \alpha_7 + h \alpha_8$ bằng $a \begin{array}{c} c \\ b \end{array} d e f g h$)^{15}:
 
 $$
 \begin{array}{ccccccccc}
