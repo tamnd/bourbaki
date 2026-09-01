@@ -12357,7 +12357,7 @@ books:
               statements: 22
               exercises: 23
               extraction: ocr
-              content_sha256: 5a27641b592dcf22dbdae6a37b4e3830b667c63fcc0afddc3d65bffc2a43fdb8
+              content_sha256: fd720523e50ee5a1091ffa3e4fb269fc049206edb0ebbb8ca6efe694e5030141
             - kind: section
               section: 2
               title: Intégrales dans les intervalles non compacts
@@ -12384,6 +12384,54 @@ books:
               exercises: 10
               extraction: ocr
               content_sha256: 78e9b0c6439bb8e707e8de339dc250f725de8e22ef83030101571459ec119b77
+        - chapter: III
+          title: FONCTIONS ÉLÉMENTAIRES
+          sections:
+            - kind: front
+              title: FONCTIONS ÉLÉMENTAIRES
+              path: content/fr/fvr/III/00_frontmatter.md
+              first_pdf_page: 91
+              last_pdf_page: 91
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 094ad259943a9b35dc28145497e3afd336ea955164f0101818e8a9bd6284fd9b
+            - kind: section
+              section: 1
+              title: Dérivées des fonctions exponentielles et circulaires
+              path: content/fr/fvr/III/01_s1_derivees_des_fonctions_exponentielles.md
+              label: fvr-iii-s1
+              first_pdf_page: 91
+              last_pdf_page: 122
+              subsections: 9
+              statements: 8
+              exercises: 39
+              extraction: ocr
+              content_sha256: cde00cf088adb1d7eca07f0a2802d72337590cbaacfcf3b7045c3411500b70b7
+            - kind: section
+              section: 2
+              title: Développements des fonctions exponentielles et circulaires, et des fonctions qui s'y rattachent
+              path: content/fr/fvr/III/02_s2_developpements_des_fonctions.md
+              label: fvr-iii-s2
+              first_pdf_page: 105
+              last_pdf_page: 124
+              book_pages: FVR III.32-FVR III.34
+              subsections: 4
+              statements: 1
+              exercises: 9
+              extraction: ocr
+              content_sha256: 7ddef37b1d448391fc3d218cadc826d8f323a7fb34787ecb88c19dc27938bbea
+            - kind: historical
+              title: Historical Note
+              path: content/fr/fvr/III/historical_note.md
+              first_pdf_page: 125
+              last_pdf_page: 159
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: b1b6c6994e646256143ceea61fce25204a97301f0ab48418a7337253d8bcfbdd
         - chapter: IV
           title: ÉQUATIONS DIFFÉRENTIELLES
           sections:
@@ -12426,12 +12474,88 @@ books:
               title: Historical Note
               path: content/fr/fvr/IV/historical_note.md
               first_pdf_page: 203
-              last_pdf_page: 260
-              subsections: 26
+              last_pdf_page: 205
+              subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 8fcce1ce92bbe8e0753b83049d15ffdcc9c37259553105089840327fe07c12df
+              content_sha256: 6b30f8f74d684f5fbcb887757d2566439906d9cd1a7d4ec7d46d8a6a1d6f23a8
+        - chapter: V
+          title: ÉTUDE LOCALE DES FONCTIONS
+          sections:
+            - kind: front
+              title: ÉTUDE LOCALE DES FONCTIONS
+              path: content/fr/fvr/V/00_frontmatter.md
+              first_pdf_page: 206
+              last_pdf_page: 206
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 873b1af09d5f53cd2461a1a83f63aba365c2451be7832f26ca1861458f6c930b
+            - kind: section
+              section: 1
+              title: Comparaison des fonctions dans un ensemble filtré
+              path: content/fr/fvr/V/01_s1_comparaison_des_fonctions_dans_un.md
+              label: fvr-v-s1
+              first_pdf_page: 206
+              last_pdf_page: 253
+              subsections: 5
+              statements: 47
+              exercises: 3
+              extraction: ocr
+              content_sha256: 4b278b611edbc903d308f669178aefc79766c85334861544840988b827a56395
+            - kind: section
+              section: 2
+              title: Développements asymptotiques
+              path: content/fr/fvr/V/02_s2_developpements_asymptotiques.md
+              label: fvr-v-s2
+              first_pdf_page: 215
+              last_pdf_page: 222
+              book_pages: FVR V.10-FVR V.17
+              subsections: 5
+              statements: 12
+              exercises: 0
+              extraction: ocr
+              content_sha256: fba972f80fcf1c93e39dd0acb77f39fca772999181c97e100ff1e3e9ea05c782
+            - kind: section
+              section: 3
+              title: Développements asymptotiques des fonctions d'une variable réelle
+              path: content/fr/fvr/V/03_s3_developpements_asymptotiques_des.md
+              label: fvr-v-s3
+              first_pdf_page: 223
+              last_pdf_page: 254
+              book_pages: FVR V.18-FVR V.26
+              subsections: 6
+              statements: 22
+              exercises: 7
+              extraction: ocr
+              content_sha256: 20d29f65ab35a35f5a172f906fd69619f5e0f561f0080c86b52406bf3574f7b9
+            - kind: section
+              section: 4
+              title: Application aux séries à termes positifs
+              path: content/fr/fvr/V/04_s4_application_aux_series_a_termes_positifs.md
+              label: fvr-v-s4
+              first_pdf_page: 232
+              last_pdf_page: 256
+              book_pages: FVR V.27-FVR V.35, FVR V.50-FVR V.51
+              subsections: 4
+              statements: 9
+              exercises: 11
+              extraction: ocr
+              content_sha256: f31eec3f4ce12257376ba4df2f6ca957d7555f0b68f1004931fe0002156487b5
+            - kind: appendix
+              title: Corps de Hardy. Fonctions (H)
+              path: content/fr/fvr/V/A_a_corps_de_hardy_fonctions_h.md
+              label: fvr-v-a0
+              first_pdf_page: 241
+              last_pdf_page: 260
+              book_pages: FVR V.51-FVR V.55
+              subsections: 6
+              statements: 21
+              exercises: 1
+              extraction: ocr
+              content_sha256: 8119442795d3361e275b51c13bcd3eeebe54a25fda7fe5a05143ee7ff54ce8e5
         - chapter: VI
           title: DÉVELOPPEMENTS TAYLORIENS GÉNÉRALISÉS. FORMULE SOMMATOIRE D’EULER–MACLAURIN
           sections:
@@ -12493,6 +12617,55 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: e7497f645f773fe7ffabe4b83371defb7f68109e39b33facc5e37fa558f53f06
+        - chapter: VII
+          title: LA FONCTION GAMMA
+          sections:
+            - kind: front
+              title: LA FONCTION GAMMA
+              path: content/fr/fvr/VII/00_frontmatter.md
+              first_pdf_page: 292
+              last_pdf_page: 292
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: dfe2cb28fa3c1db4cc700bb3559beb7fc616e0d272e394cf25029939064ddc55
+            - kind: section
+              section: 1
+              title: La fonction gamma dans le domaine réel
+              path: content/fr/fvr/VII/01_s1_la_fonction_gamma_dans_le_domaine_reel.md
+              label: fvr-vii-s1
+              first_pdf_page: 292
+              last_pdf_page: 311
+              subsections: 3
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: 9446e53caabad4339b556318759f3afe3a1e9b177c0eaddd0ed9e70ee4b0f494
+            - kind: section
+              section: 2
+              title: La fonction gamma dans le domaine complexe
+              path: content/fr/fvr/VII/02_s2_la_fonction_gamma_dans_le_domaine.md
+              label: fvr-vii-s2
+              first_pdf_page: 301
+              last_pdf_page: 313
+              book_pages: FVR VII.21-FVR VII.22
+              subsections: 3
+              statements: 7
+              exercises: 6
+              extraction: ocr
+              content_sha256: cd4a974777c72198bdedb8ec97eb2bed5ff208ea9b408fe4cca6e704ca4f5a7e
+            - kind: historical
+              title: Historical Note
+              path: content/fr/fvr/VII/historical_note.md
+              first_pdf_page: 314
+              last_pdf_page: 329
+              book_pages: A V.113-FVR VII.38
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a47d34244ba744bcccf40a574d91dd116d6ea0c78743ccf0c06d4ab99b65d4c4
     - id: top-v-x-fr
       reader_note:
         kind: reader
@@ -12579,7 +12752,68 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 76a5c45ec41c65956eaed96b92cac37db913033714ed589cbad2ebe9e86a3966
+              content_sha256: 31945fd660f6106c71de40fb363e5bbd22215727aad090b9c98e5341efe049d0
+        - chapter: VI
+          title: ESPACES NUMÉRIQUES ET ESPACES PROJECTIFS
+          sections:
+            - kind: front
+              title: ESPACES NUMÉRIQUES ET ESPACES PROJECTIFS
+              path: content/fr/top/VI/00_frontmatter.md
+              first_pdf_page: 29
+              last_pdf_page: 29
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 89bbfd2426e0de9edcca4de97db019085aa3204ebb7e3987fb0c0ed907bdab83
+            - kind: section
+              section: 1
+              title: L’espace numérique $\mathbf{R}^n$
+              path: content/fr/top/VI/01_s1_l_espace_numerique_mathbf_r_n.md
+              label: top-vi-s1
+              first_pdf_page: 29
+              last_pdf_page: 51
+              subsections: 6
+              statements: 10
+              exercises: 13
+              extraction: ocr
+              content_sha256: 6c8b00eea805e2e9590c224ec25f0716f7940b73fa91717b3d62f1569d54110c
+            - kind: section
+              section: 2
+              title: Distance euclidienne ; boules et sphères
+              path: content/fr/top/VI/02_s2_distance_euclidienne_boules_et_spheres.md
+              label: top-vi-s2
+              first_pdf_page: 35
+              last_pdf_page: 53
+              book_pages: TG VI.7-TG VI.12, TG VI.23-TG VI.25
+              subsections: 4
+              statements: 13
+              exercises: 14
+              extraction: ocr
+              content_sha256: db8a8865bb370fb5e1645da74a904c1b248b9e519bd897b67795396c32cd0b43
+            - kind: section
+              section: 3
+              title: Espaces projectifs réels
+              path: content/fr/top/VI/03_s3_espaces_projectifs_reels.md
+              label: top-vi-s3
+              first_pdf_page: 40
+              last_pdf_page: 55
+              book_pages: TG VI.25-TG VI.27
+              subsections: 6
+              statements: 12
+              exercises: 11
+              extraction: ocr
+              content_sha256: b1503459557945e980e161dffa3a02902fe2ed024069911159c065b37425bac6
+            - kind: historical
+              title: Historical Note
+              path: content/fr/top/VI/historical_note.md
+              first_pdf_page: 56
+              last_pdf_page: 58
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 1501e139f326e1e9597705c7decdaec6ef1351a11541a0bf7e91315eaac7b1c6
         - chapter: VII
           title: LES GROUPES ADDITIFS $\mathbf{R}^n$
           sections:
@@ -12713,6 +12947,205 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 11c262f7cff257f5c455365d74d34345a89fbcda546ac8d7c546b790b68d9181
+        - chapter: IX
+          title: UTILISATION DES NOMBRES RÉELS EN TOPOLOGIE GÉNÉRALE
+          sections:
+            - kind: front
+              title: UTILISATION DES NOMBRES RÉELS EN TOPOLOGIE GÉNÉRALE
+              path: content/fr/top/IX/00_frontmatter.md
+              first_pdf_page: 121
+              last_pdf_page: 121
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 95ef2db44afdfe82df0e18b16cb86c5c38e11a25ddf2a810b01bfc3e6c90ceae
+            - kind: section
+              section: 1
+              title: Génération d’une structure uniforme par une famille d’écarts. Espaces uniformisables
+              path: content/fr/top/IX/01_s1_generation_d_une_structure_uniforme_par.md
+              label: top-ix-s1
+              first_pdf_page: 121
+              last_pdf_page: 210
+              subsections: 7
+              statements: 23
+              exercises: 25
+              extraction: ocr
+              content_sha256: f6009ff0829091eb19e70901ac0bb44e3f4eb78c43d635eb6ff0455146af6609
+            - kind: section
+              section: 2
+              title: Espaces métriques ; espaces métrisables
+              path: content/fr/top/IX/02_s2_espaces_metriques_espaces_metrisables.md
+              label: top-ix-s2
+              first_pdf_page: 131
+              last_pdf_page: 218
+              book_pages: TG IX.11-TG IX.23, TG IX.90-TG IX.98
+              subsections: 10
+              statements: 33
+              exercises: 10
+              extraction: ocr
+              content_sha256: 658f14178c1b033de38316d093be8112fa307402df703f83c48823dca01267d0
+            - kind: section
+              section: 3
+              title: Groupes métrisables ; corps valués ; espaces et algèbres normés
+              path: content/fr/top/IX/03_s3_groupes_metrisables_corps_values.md
+              label: top-ix-s3
+              first_pdf_page: 143
+              last_pdf_page: 221
+              book_pages: TG IX.23-TG IX.41, TG IX.99-TG IX.101
+              subsections: 7
+              statements: 49
+              exercises: 13
+              extraction: ocr
+              content_sha256: 0c2545a1d4e317e78a476a40c85d16bd6b75ce5f22c7788ca310ca01fca0b6dd
+            - kind: section
+              section: 4
+              title: Espaces normaux
+              path: content/fr/top/IX/04_s4_espaces_normaux.md
+              label: top-ix-s4
+              first_pdf_page: 161
+              last_pdf_page: 231
+              book_pages: TG IX.41-TG IX.52, TG IX.101-TG IX.111
+              subsections: 5
+              statements: 24
+              exercises: 36
+              extraction: ocr
+              content_sha256: f8e0c8227c5eb3c40adb2896ffcf62cfcd89ff4d8b59603b2b7020690b356ea4
+            - kind: section
+              section: 5
+              title: Espaces de Baire
+              path: content/fr/top/IX/05_s5_espaces_de_baire.md
+              label: top-ix-s5
+              first_pdf_page: 172
+              last_pdf_page: 237
+              book_pages: TG IX.52-TG IX.56, TG IX.111-TG IX.117
+              subsections: 4
+              statements: 16
+              exercises: 7
+              extraction: ocr
+              content_sha256: e7f058030e9aa60229969b035e57617e41f974b7ae322db51d27e3faca3689ba
+            - kind: section
+              section: 6
+              title: Espaces polonais ; espaces sousliniens ; ensembles boréliens
+              path: content/fr/top/IX/06_s6_espaces_polonais_espaces_sousliniens.md
+              label: top-ix-s6
+              first_pdf_page: 177
+              last_pdf_page: 245
+              book_pages: TG IX.117-TG IX.125
+              subsections: 10
+              statements: 61
+              exercises: 22
+              extraction: ocr
+              content_sha256: 40c1604d7c2b11988ff1aec3e8859fb7bb9f1bdf6357bf484c3494bbfd9d4487
+            - kind: appendix
+              section: 1
+              title: Espaces de Lindelöf
+              path: content/fr/top/IX/A1_a1_espaces_de_lindelof.md
+              label: top-ix-a1
+              first_pdf_page: 195
+              last_pdf_page: 197
+              subsections: 0
+              statements: 8
+              exercises: 0
+              extraction: ocr
+              content_sha256: 82bfed792246d4a3deff3f24ca86e0dd2545d6e631cac69468985fcbd6107a27
+            - kind: appendix
+              section: 2
+              title: Produits infinis dans les algèbres normées
+              path: content/fr/top/IX/A2_a2_produits_infinis_dans_les_algebres.md
+              label: top-ix-a2
+              first_pdf_page: 198
+              last_pdf_page: 246
+              book_pages: TG IX.125-TG IX.126
+              subsections: 3
+              statements: 16
+              exercises: 8
+              extraction: ocr
+              content_sha256: 08e13ee94a1406e81b201e3c665c3629632ff1cabff45c15f5a1c0046f18485c
+            - kind: historical
+              title: Historical Note
+              path: content/fr/top/IX/historical_note.md
+              first_pdf_page: 247
+              last_pdf_page: 249
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: d4d2dbc7e38e1d30ff55748c121c9f9178c0cee6e6124c742fb8d5cb0553f7a3
+        - chapter: X
+          title: ESPACES FONCTIONNELS
+          sections:
+            - kind: front
+              title: ESPACES FONCTIONNELS
+              path: content/fr/top/X/00_frontmatter.md
+              first_pdf_page: 250
+              last_pdf_page: 250
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 08793bbec03c7122a914b5ee1131ec56382182a48d67e10523b30b3f26904352
+            - kind: section
+              section: 1
+              title: La structure uniforme de la S-convergence
+              path: content/fr/top/X/01_s1_la_structure_uniforme_de_la_s.md
+              label: top-x-s1
+              first_pdf_page: 250
+              last_pdf_page: 292
+              subsections: 6
+              statements: 36
+              exercises: 12
+              extraction: ocr
+              content_sha256: 401857c8b74031e4527e1497431b3e91bb1924d8c4e983fb5eee3c05fd3867c8
+            - kind: section
+              section: 2
+              title: Ensembles équicontinus
+              path: content/fr/top/X/02_s2_ensembles_equicontinus.md
+              label: top-x-s2
+              first_pdf_page: 259
+              last_pdf_page: 296
+              book_pages: TG X.10-TG X.19, TG X.43-TG X.47
+              subsections: 5
+              statements: 23
+              exercises: 21
+              extraction: ocr
+              content_sha256: fa7642815c5cf2fdae478943771af908c710a55da0864faeb5a48b1aaf54bda2
+            - kind: section
+              section: 3
+              title: Espaces fonctionnels spéciaux
+              path: content/fr/top/X/03_s3_espaces_fonctionnels_speciaux.md
+              label: top-x-s3
+              first_pdf_page: 268
+              last_pdf_page: 303
+              book_pages: TG X.47-TG X.54
+              subsections: 5
+              statements: 31
+              exercises: 16
+              extraction: ocr
+              content_sha256: f40b7900a3993ebb8d5376787a3b8a3c62cd01cc1494c9254ba4e11c97479b67
+            - kind: section
+              section: 4
+              title: Approximation des fonctions continues numériques
+              path: content/fr/top/X/04_s4_approximation_des_fonctions_continues.md
+              label: top-x-s4
+              first_pdf_page: 282
+              last_pdf_page: 310
+              book_pages: TG X.54-TG X.61
+              subsections: 4
+              statements: 18
+              exercises: 22
+              extraction: ocr
+              content_sha256: e2361ec9ebef01f71cc30be5e5c017b8eda732082bbb548b479fdc56ca49f1a2
+            - kind: historical
+              title: Historical Note
+              path: content/fr/top/X/historical_note.md
+              first_pdf_page: 311
+              last_pdf_page: 329
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 6860fb1da8f2b0cb5a3cb60cf8f0af3820fa0ed60cb35ffaa7952c1eca4d4ac4
     - id: int-vii-viii-fr
       chapters:
         - chapter: VII

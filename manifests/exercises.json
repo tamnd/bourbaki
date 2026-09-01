@@ -7033,6 +7033,31 @@
           ]
         },
         {
+          "chapter": "III",
+          "title": "FONCTIONS ÉLÉMENTAIRES",
+          "total": 48,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-iii-s1",
+              "dir": "s1",
+              "count": 39,
+              "first": 1,
+              "last": 39,
+              "supplementary": 5
+            },
+            {
+              "section": 2,
+              "label": "fvr-iii-s2",
+              "dir": "s2",
+              "count": 9,
+              "first": 1,
+              "last": 9,
+              "starred": 4
+            }
+          ]
+        },
+        {
           "chapter": "IV",
           "title": "ÉQUATIONS DIFFÉRENTIELLES",
           "total": 28,
@@ -7055,6 +7080,49 @@
               "last": 10,
               "starred": 1,
               "supplementary": 1
+            }
+          ]
+        },
+        {
+          "chapter": "V",
+          "title": "ÉTUDE LOCALE DES FONCTIONS",
+          "total": 22,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-v-s1",
+              "dir": "s1",
+              "count": 3,
+              "first": 1,
+              "last": 3,
+              "starred": 1
+            },
+            {
+              "section": 3,
+              "label": "fvr-v-s3",
+              "dir": "s3",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 2
+            },
+            {
+              "section": 4,
+              "label": "fvr-v-s4",
+              "dir": "s4",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 2
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "fvr-v-a0",
+              "dir": "a0",
+              "count": 1,
+              "first": 1,
+              "last": 1
             }
           ]
         },
@@ -7087,6 +7155,31 @@
               "count": 3,
               "first": 1,
               "last": 3
+            }
+          ]
+        },
+        {
+          "chapter": "VII",
+          "title": "LA FONCTION GAMMA",
+          "total": 12,
+          "sections": [
+            {
+              "section": 1,
+              "label": "fvr-vii-s1",
+              "dir": "s1",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "fvr-vii-s2",
+              "dir": "s2",
+              "count": 6,
+              "first": 1,
+              "last": 6,
+              "starred": 1
             }
           ]
         }
@@ -7133,6 +7226,39 @@
               "count": 3,
               "first": 1,
               "last": 3
+            }
+          ]
+        },
+        {
+          "chapter": "VI",
+          "title": "ESPACES NUMÉRIQUES ET ESPACES PROJECTIFS",
+          "total": 38,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-vi-s1",
+              "dir": "s1",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "top-vi-s2",
+              "dir": "s2",
+              "count": 14,
+              "first": 1,
+              "last": 14,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "top-vi-s3",
+              "dir": "s3",
+              "count": 11,
+              "first": 1,
+              "last": 11
             }
           ]
         },
@@ -7211,6 +7337,122 @@
               "first": 1,
               "last": 8,
               "starred": 3
+            }
+          ]
+        },
+        {
+          "chapter": "IX",
+          "title": "UTILISATION DES NOMBRES RÉELS EN TOPOLOGIE GÉNÉRALE",
+          "total": 121,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-ix-s1",
+              "dir": "s1",
+              "count": 25,
+              "first": 1,
+              "last": 25,
+              "starred": 7
+            },
+            {
+              "section": 2,
+              "label": "top-ix-s2",
+              "dir": "s2",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 4
+            },
+            {
+              "section": 3,
+              "label": "top-ix-s3",
+              "dir": "s3",
+              "count": 13,
+              "first": 1,
+              "last": 13,
+              "starred": 3
+            },
+            {
+              "section": 4,
+              "label": "top-ix-s4",
+              "dir": "s4",
+              "count": 36,
+              "first": 1,
+              "last": 36,
+              "starred": 16
+            },
+            {
+              "section": 5,
+              "label": "top-ix-s5",
+              "dir": "s5",
+              "count": 7,
+              "first": 1,
+              "last": 7,
+              "starred": 1
+            },
+            {
+              "section": 6,
+              "label": "top-ix-s6",
+              "dir": "s6",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 7,
+              "supplementary": 2
+            },
+            {
+              "section": 2,
+              "appendix": true,
+              "label": "top-ix-a2",
+              "dir": "a2",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 3
+            }
+          ]
+        },
+        {
+          "chapter": "X",
+          "title": "ESPACES FONCTIONNELS",
+          "total": 71,
+          "sections": [
+            {
+              "section": 1,
+              "label": "top-x-s1",
+              "dir": "s1",
+              "count": 12,
+              "first": 1,
+              "last": 12,
+              "starred": 2
+            },
+            {
+              "section": 2,
+              "label": "top-x-s2",
+              "dir": "s2",
+              "count": 21,
+              "first": 1,
+              "last": 21,
+              "starred": 4
+            },
+            {
+              "section": 3,
+              "label": "top-x-s3",
+              "dir": "s3",
+              "count": 16,
+              "first": 1,
+              "last": 16,
+              "starred": 5
+            },
+            {
+              "section": 4,
+              "label": "top-x-s4",
+              "dir": "s4",
+              "count": 22,
+              "first": 1,
+              "last": 22,
+              "starred": 9,
+              "supplementary": 1
             }
           ]
         }
