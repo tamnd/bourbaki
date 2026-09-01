@@ -214,7 +214,7 @@ chapters:
               page: 1
               pdf_page: 91
             - "no": 2
-              title: Dérivée de log_e x
+              title: Dérivée de $\log_a x$
               page: 3
               pdf_page: 93
             - "no": 3

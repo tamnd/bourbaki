@@ -12,7 +12,7 @@ pdf_pages: 0026-0028
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 76a5c45ec41c65956eaed96b92cac37db913033714ed589cbad2ebe9e86a3966
+content_sha256: 31945fd660f6106c71de40fb363e5bbd22215727aad090b9c98e5341efe049d0
 ---
 
 # NOTE HISTORIQUE

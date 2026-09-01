@@ -36,7 +36,7 @@ subsections:
       pdf_page: 64
 statements: 22
 exercises: 23
-content_sha256: 5a27641b592dcf22dbdae6a37b4e3830b667c63fcc0afddc3d65bffc2a43fdb8
+content_sha256: fd720523e50ee5a1091ffa3e4fb269fc049206edb0ebbb8ca6efe694e5030141
 ---
 
 ## § 1. PRIMITIVES ET INTÉGRALES
@@ -67,15 +67,15 @@ On dit que les primitives d’une fonction f (lorsqu’elles existent) sont déf
 
 ### 2. Existence des primitives
 
-Soit f une fonction définie dans un intervalle quelconque I ⊂ ℝ ; pour qu’une fonction g définie dans I soit une primitive de f, il faut et il suffit que la restriction de g à tout intervalle compact J ⊂ I soit une primitive de la restriction de f à J.
+Soit $\mathbf{f}$ une fonction définie dans un intervalle quelconque $\mathrm{I} \subset \mathbf{R}$; pour qu'une fonction $\mathbf{g}$ définie dans $\mathrm{I}$ soit une primitive de $\mathbf{f}$, il faut et il suffit que la restriction de $\mathbf{g}$ à tout intervalle compact $\mathrm{J} \subset \mathrm{I}$ soit une primitive de la restriction de $\mathbf{f}$ à $\mathrm{J}$.
 
 #### Théorème 1 {#fvr-ii-s1-thm-1 .statement}
 
-Soient A un ensemble filtré par un filtre $\mathfrak{a}$, (f_α)_{α ∈ A} une famille de fonctions vectorielles à valeurs dans un espace normé complet E sur ℝ, définies dans un intervalle I ⊂ ℝ ; pour tout α ∈ A, soit g_α une primitive de f_α. On suppose que :
-1° suivant le filtre $\mathfrak{a}$, les fonctions f_α convergent uniformément dans tout partie compacte de I vers une fonction f ;
-2° il existe un point a ∈ I tel que, suivant le filtre $\mathfrak{a}$, la famille (g_α(a)) a une limite dans E.
+*Soient* A *un ensemble filtré par un filtre* $\mathfrak{F}$, $(\mathbf{f}_\alpha)_{\alpha \in \mathrm{A}}$ *une famille de fonctions vectorielles à valeurs dans un espace normé complet* E *sur* $\mathbf{R}$, *définies dans un intervalle* $\mathrm{I} \subset \mathbf{R}$; *pour tout* $\alpha \in \mathrm{A}$, *soit* $\mathbf{g}_\alpha$ *une primitive de* $\mathbf{f}_\alpha$. *On suppose que*:
+$1^o$ *suivant le filtre* $\mathfrak{F}$, *les fonctions* $\mathbf{f}_\alpha$ *convergent uniformément dans tout partie compacte de* I *vers une fonction* $\mathbf{f}$;
+$2^o$ *il existe un point* $a \in \mathrm{I}$ *tel que, suivant le filtre* $\mathfrak{F}$, *la famille* $(\mathbf{g}_\alpha(a))$ *a une limite dans* E.
 
-Dans ces conditions, les fonctions g_α convergent uniformément (suivant $\mathfrak{a}$) dans toute partie compacte de I, vers une primitive g de f.
+*Dans ces conditions, les fonctions* $\mathbf{g}_\alpha$ *convergent uniformément (suivant* $\mathfrak{F}$*) dans toute partie compacte de* I, *vers une primitive* $\mathbf{g}$ *de* $\mathbf{f}$.
 
 D’après la remarque du début de ce n°, nous pouvons nous borner au cas où I est un intervalle compact.
 
@@ -183,7 +183,7 @@ Toute fonction vectorielle continue dans un intervalle $I \subset \mathbf{R}$, p
 
 Remarques — 2.) Pour démontrer qu’une fonction continue admet une primitive, on peut utiliser le fait que tout polynôme (à coefficients dans $E$) d’une variable réelle admet une primitive; comme d’après le th. de Weierstrass (TG, X, p. 37, prop. 3) toute fonction continue est limite uniforme de polynômes dans tout intervalle compact, le th. 1 de II, p. 2 montre que toute fonction continue admet une primitive.
 
-3) Le principe de la remarque précédente s’étend sans modification importante aux fonctions vectorielles d’une variable complexe, à valeurs dans un espace normé complet sur $\mathbf{C}$. Si $U$ est un ensemble ouvert dans $\mathbf{C}$, homéomorphe à $\mathbf{C}$, une primitive d’une telle fonction vectorielle $f$ définie dans $U$ est par définition une fonction continue dans $U$, ayant une dérivée égale à $f$ en tout point de $U$. Avec cette définition, le th. 1 de II, p. 2 s’étend sans modification (on démontre en effet, en tenant compte de ce que $U$ est connexe, que $(g_a)$ est uniformément convergente suivant $\mathfrak{g}$ dans un voisinage de tout point de $U$, d’où résulte que $(g_a)$ est uniformément convergente suivant $\mathfrak{g}$ dans toute partie compacte de $U$; la fin de la démonstration se fait en utilisant la prop. 4 de I, p. 26). Par suite, toute fonction qui est limite uniforme de polynômes dans toute partie compacte de U, admet une primitive dans U ; ces fonctions ne sont autres que les fonctions dites holomorphes dans U, que nous étudierons plus en détail dans un Livre ultérieur.
+3) Le principe de la remarque précédente s’étend sans modification importante aux fonctions vectorielles d’une variable complexe, à valeurs dans un espace normé complet sur $\mathbf{C}$. Si $U$ est un ensemble ouvert dans $\mathbf{C}$, homéomorphe à $\mathbf{C}$, une primitive d’une telle fonction vectorielle $f$ définie dans $U$ est par définition une fonction continue dans $U$, ayant une dérivée égale à $f$ en tout point de $U$. Avec cette définition, le th. 1 de II, p. 2 s’étend sans modification (on démontre en effet, en tenant compte de ce que $U$ est connexe, que $(g_a)$ est uniformément convergente suivant $\mathfrak{F}$ dans un voisinage de tout point de $U$, d’où résulte que $(g_a)$ est uniformément convergente suivant $\mathfrak{F}$ dans toute partie compacte de $U$; la fin de la démonstration se fait en utilisant la prop. 4 de I, p. 26). Par suite, toute fonction qui est limite uniforme de polynômes dans toute partie compacte de U, admet une primitive dans U ; ces fonctions ne sont autres que les fonctions dites holomorphes dans U, que nous étudierons plus en détail dans un Livre ultérieur.
 
 #### Proposition 4 {#fvr-ii-s1-prop-4 .statement}
 

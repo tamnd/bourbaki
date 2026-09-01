@@ -654,7 +654,7 @@ chapters:
             page: 41
             pdf_page: 290
         - section: 2
-          title: Ensembles équicontinuus
+          title: Ensembles équicontinus
           page: 10
           pdf_page: 259
           subsections:
@@ -671,7 +671,7 @@ chapters:
               page: 15
               pdf_page: 264
             - "no": 4
-              title: Convergence simple et convergence compacte sur les ensembles équicontinuus
+              title: Convergence simple et convergence compacte sur les ensembles équicontinus
               page: 16
               pdf_page: 265
             - "no": 5
