@@ -446,11 +446,11 @@ E_1^* \otimes F_1^* & \xrightarrow{\mu} & (E_1 \otimes F_1)^*
 $$
 là *giao hoán*.
 
-### Hệ quả 1 {#alg-ii-s4-prop-4-cor-1 .statement}
+#### Hệ quả 1 {#alg-ii-s4-prop-4-cor-1 .statement}
 
 *Nếu một trong các môđun E, F là xạ ảnh và sinh hữu hạn, thì đồng cấu chính tắc (23) là song ánh.*
 
-### Hệ quả 2 {#alg-ii-s4-prop-4-cor-2 .statement}
+#### Hệ quả 2 {#alg-ii-s4-prop-4-cor-2 .statement}
 
 *Cho E₁, E₂ là hai C-môđun xạ ảnh sinh hữu hạn, u₁ là một tự đồng cấu của E₁ và u₂ là một tự đồng cấu của E₂; khi đó*
 
@@ -466,7 +466,7 @@ $$
 
 $x₁^* \otimes x₂^*$ được đồng nhất một cách chính tắc dưới $μ$ với một phần tử của $(E₁ \otimes E₂)^*$. Vì $\langle y₁ \otimes y₂, x₁^* \otimes x₂^* \rangle = \langle y₁, x₁^* \rangle \langle y₂, x₂^* \rangle$, nên công thức (26) suy ra trong trường hợp này từ (17).
 
-### Nhận xét {#alg-ii-s4-n4-rem-1 .statement}
+#### Nhận xét {#alg-ii-s4-n4-rem-1 .statement}
 
 Nếu E, F, G là bất kỳ ba C-môđun nào, thì ngay lập tức kiểm tra được rằng biểu đồ
 

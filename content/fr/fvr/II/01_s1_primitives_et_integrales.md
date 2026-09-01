@@ -71,11 +71,11 @@ Soit f une fonction définie dans un intervalle quelconque I ⊂ ℝ ; pour qu�
 
 #### Théorème 1 {#fvr-ii-s1-thm-1 .statement}
 
-Soient A un ensemble filtré par un filtre 𝔞, (f_α)_{α ∈ A} une famille de fonctions vectorielles à valeurs dans un espace normé complet E sur ℝ, définies dans un intervalle I ⊂ ℝ ; pour tout α ∈ A, soit g_α une primitive de f_α. On suppose que :
-1° suivant le filtre 𝔞, les fonctions f_α convergent uniformément dans tout partie compacte de I vers une fonction f ;
-2° il existe un point a ∈ I tel que, suivant le filtre 𝔞, la famille (g_α(a)) a une limite dans E.
+Soient A un ensemble filtré par un filtre $\mathfrak{a}$, (f_α)_{α ∈ A} une famille de fonctions vectorielles à valeurs dans un espace normé complet E sur ℝ, définies dans un intervalle I ⊂ ℝ ; pour tout α ∈ A, soit g_α une primitive de f_α. On suppose que :
+1° suivant le filtre $\mathfrak{a}$, les fonctions f_α convergent uniformément dans tout partie compacte de I vers une fonction f ;
+2° il existe un point a ∈ I tel que, suivant le filtre $\mathfrak{a}$, la famille (g_α(a)) a une limite dans E.
 
-Dans ces conditions, les fonctions g_α convergent uniformément (suivant 𝔞) dans toute partie compacte de I, vers une primitive g de f.
+Dans ces conditions, les fonctions g_α convergent uniformément (suivant $\mathfrak{a}$) dans toute partie compacte de I, vers une primitive g de f.
 
 D’après la remarque du début de ce n°, nous pouvons nous borner au cas où I est un intervalle compact.
 
