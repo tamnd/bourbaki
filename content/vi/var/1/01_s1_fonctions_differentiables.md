@@ -120,7 +120,7 @@ $$
 
 khi $(y, z)$ tiến tới $(x_0, x_0)$ trong $E \times E$. Để được điều này, chỉ cần điều kiện ấy được thỏa mãn đối với một chuẩn xác định tôpô của E. Giả sử thêm rằng E và F là các không gian định chuẩn; khi đó, với mọi số $c > \| Df(x_0) \|$, tồn tại một lân cận V của $x_0$ sao cho $\| f(y) - f(z) \| \leq c. \| y - z \|$ với $y, z$ thuộc V; điều này suy ra rằng $f$ liên tục đều trong V.
 
-1.2.3. Việc một hàm $f$ khả vi hay khả vi chặt tại $x_0$ chỉ phụ thuộc vào mầm của $f$ tại $x_0$. Các mầm của những hàm khả vi tại $x_0$ tạo thành một không gian con vectơ $\mathcal{V}$ của không gian всех các mầm, và ánh xạ $f \mapsto Df(x_0)$ từ $\mathcal{V}$ vào $\mathcal{L}(E; F)$ là tuyến tính. Các mầm của những hàm khả vi chặt tại $x_0$ tạo thành một không gian con vectơ của $\mathcal{V}$.
+1.2.3. Việc một hàm $f$ khả vi hay khả vi chặt tại $x_0$ chỉ phụ thuộc vào mầm của $f$ tại $x_0$. Các mầm của những hàm khả vi tại $x_0$ tạo thành một không gian con vectơ $\mathcal{V}$ của không gian tất cả các mầm, và ánh xạ $f \mapsto Df(x_0)$ từ $\mathcal{V}$ vào $\mathcal{L}(E; F)$ là tuyến tính. Các mầm của những hàm khả vi chặt tại $x_0$ tạo thành một không gian con vectơ của $\mathcal{V}$.
 
 1.2.4. Một hàm khả vi tại $x_0$ thì liên tục tại $x_0$.
 

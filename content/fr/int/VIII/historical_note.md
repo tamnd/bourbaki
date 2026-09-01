@@ -12,7 +12,7 @@ pdf_pages: 0207-0224
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 0d81e65aaa8d165a13d8aa1138b9ae86d0b71f357a8f98b13c043d53a07ec7ca
+content_sha256: a85f9420e816029a74863dc2627aa5bc23f192e8c0355962ae7d906a6b1c5be9
 ---
 
 # NOTE HISTORIQUE
@@ -302,7 +302,7 @@ un espace : μ à support compact, ν quelconque.
 
 (c) \* est défini par la multiplication dans un groupe G :
 l’une des deux mesures à support compact.
-μ, ν dans ℳ₀(G) (alors μ \* ν ∈ ℳ₀(G), et ‖μ \* ν‖₀ ≤ ‖μ‖₀‖ν‖₀).
+μ, ν dans $\mathscr{M}_0(G)$ (alors μ \* ν ∈ $\mathscr{M}_0(G)$, et ‖μ \* ν‖₀ ≤ ‖μ‖₀‖ν‖₀).
 
 II. — Cas où le produit de convolution μ \* f d’une mesure et d’une
 fonction existe :
@@ -318,10 +318,10 @@ G opère proprement dans X, f ∈ 𝒦(X) (μ \* f est continue).
 
 (b) les χ(s, .) sont bornées ; soit ρ(s) = sup χ(s⁻¹, x) :
 x∈X
-μ ∈ ℳ₀(G), f ∈ L∞(X, β) (alors μ \* f ∈ L∞(X, β) ; si f ∈ 𝒞⁰(X),
+μ ∈ $\mathscr{M}_0(G)$, f ∈ L∞(X, β) (alors μ \* f ∈ L∞(X, β) ; si f ∈ 𝒞⁰(X),
 μ \* f ∈ 𝒞⁰(X) ; si f ∈ 𝒦(X), μ \* f ∈ 𝒦(X)).
 
-μ ∈ ℳ₀$^{1/p}$(G), f ∈ $L^p$(X, β) où 1/p + 1/q = 1 (alors μ \* f ∈ $L^p$(X, β)
+μ ∈ $\mathscr{M}_0^{1/p}(G)$, f ∈ $L^p$(X, β) où 1/p + 1/q = 1 (alors μ \* f ∈ $L^p$(X, β)
 et ‖μ \* f‖ₚ ≤ ‖μ‖_{1/p}‖f‖ₚ).
 
 III. — Cas où le produit de convolution f \* g de deux fonctions

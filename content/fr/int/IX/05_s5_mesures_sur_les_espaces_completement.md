@@ -40,7 +40,7 @@ subsections:
       pdf_page: 64
 statements: 31
 exercises: 13
-content_sha256: 1dd0201958d0fab1a782e7b4e1fc356138a6fe2ed6e89b5f6878d8459cba6d4f
+content_sha256: cc535c74aa03a7959cab4923540c06c37747265f7de4277ff27d650b5e6118c7
 ---
 
 ## § 5. Mesures sur les espaces complètement réguliers
@@ -83,10 +83,7 @@ La première des formules (1) est évidente, car $I_f$ est un ensemble filtrant 
 
 Passons à *b*). Il suffit évidemment de montrer que l’on a $|\theta|^\bullet(f) \leqslant \sup_g |\theta(g)|$.
 
-Soient deux nombres réels $a$ et $b$ tels que $a < b < |\theta|^\bullet(f)$. D’après (1), il existe une fonction $h \in \mathcal{C}_+^b(T)$ telle que $h \leqslant f$ et $|\theta|^\bullet(h) > b$; désignons par $M$ la borne supérieure de $h$. D’après la définition de $|\theta|^\bullet$ (§ 1, n° 2, déf. 4), il existe une partie compacte $K$ de $T$ telle que $|\theta|_K^\bullet(h_K) > b$. Il existe alors une fonction continue complexe $j$ sur $K$ telle que $|j| \leqslant h_K$ et que $|\theta_K(j)| > b$ (chap. III, 2\textsuperscript{e} édit., § 1, n° 6). Choisissons un ensemble ouvert $U$ contenant $K$ et tel que
-
-$$
-|\theta|^*(U - K) \leq \frac{b - a}{M} (§ 1, n° 9, prop. 13 et 14); prolongeons j en une fonction complexe k continue sur T, nulle hors de U (lemme 1); pour tout $ t \in T $, posons
+Soient deux nombres réels $a$ et $b$ tels que $a < b < |\theta|^\bullet(f)$. D’après (1), il existe une fonction $h \in \mathcal{C}_+^b(T)$ telle que $h \leqslant f$ et $|\theta|^\bullet(h) > b$; désignons par $M$ la borne supérieure de $h$. D’après la définition de $|\theta|^\bullet$ (§ 1, n° 2, déf. 4), il existe une partie compacte $K$ de $T$ telle que $|\theta|_K^\bullet(h_K) > b$. Il existe alors une fonction continue complexe $j$ sur $K$ telle que $|j| \leqslant h_K$ et que $|\theta_K(j)| > b$ (chap. III, 2\textsuperscript{e} édit., § 1, n° 6). Choisissons un ensemble ouvert $U$ contenant $K$ et tel que $|\theta|^\bullet(U - K) \leq \frac{b - a}{M}$ (§ 1, n° 9, prop. 13 et 14); prolongeons j en une fonction complexe k continue sur T, nulle hors de U (lemme 1); pour tout $t \in T$, posons
 
 (3)
 $$
@@ -96,27 +93,27 @@ k(t) & \text{si } |k(t)| \leq h(t) \\
 \end{cases}
 $$
 
-On a évidemment $ |g| \leq h \leq f $, et $ g = j $ dans K, donc $ ||\theta_K(j)|| - |\theta(g)|| = ||\theta(j^0)| - |\theta(g)|| \leq |\theta|^*(|j^0 - g|) \leq M. |\theta|^*(U - K) \leq b - a $, et par conséquent $ |\theta(g)| > a $. Montrons d'autre part que g est une fonction continue: comme a est assujetti seulement à la condition $ a < |\theta|^*(f) $, cela entraînera que le second membre de (2) majore le premier, d'où la proposition. Or soit F (resp. F') l'ensemble des $ t \in T $ tels que $ |k(t)| \leq h(t) $ (resp. $ |k(t)| \geq h(t) $). Ces ensembles étant fermés, et leur réunion étant T, il nous suffit de montrer que $ g_F $ et $ g_{F'} $ sont continues: or cette propriété est évidente pour $ g_F = k_F $, et elle l'est pour $ g_{F'} $ aux points où $ k(t) \neq 0 $; d'autre part, si $ t \in F' $ est tel que $ k(t) = 0 $, on a aussi $ h(t) = 0 $, et l'inégalité $ |g| \leq h $ entraîne que g est continue au point t.
+On a évidemment $|g| \leq h \leq f$, et $g = j$ dans K, donc $||\theta_K(j)|| - |\theta(g)|| = ||\theta(j^0)| - |\theta(g)|| \leq |\theta|^\bullet(|j^0 - g|) \leq M. |\theta|^\bullet(U - K) \leq b - a$, et par conséquent $|\theta(g)| > a$. Montrons d'autre part que g est une fonction continue: comme a est assujetti seulement à la condition $a < |\theta|^\bullet(f)$, cela entraînera que le second membre de (2) majore le premier, d'où la proposition. Or soit F (resp. F') l'ensemble des $t \in T$ tels que $|k(t)| \leq h(t)$ (resp. $|k(t)| \geq h(t)$). Ces ensembles étant fermés, et leur réunion étant T, il nous suffit de montrer que $g_F$ et $g_{F'}$ sont continues: or cette propriété est évidente pour $g_F = k_F$, et elle l'est pour $g_{F'}$ aux points où $k(t) \neq 0$; d'autre part, si $t \in F'$ est tel que $k(t) = 0$, on a aussi $h(t) = 0$, et l'inégalité $|g| \leq h$ entraîne que g est continue au point t.
 
 #### Remarque 1 {#int-ix-s5-n1-rem-1 .statement}
 
-Soit f une fonction semi-continue inférieurement positive, et soit $ J_f $ l'ensemble des fonctions continues bornées positives *nulles hors d'un ouvert* $ \mu $-intégrable et majorées par f. On peut montrer que f est l'enveloppe supérieure de $ J_f $ et que $ \mu^*(f) = \sup_{g \in J_f} \mu(g) $.
+Soit f une fonction semi-continue inférieurement positive, et soit $J_f$ l'ensemble des fonctions continues bornées positives *nulles hors d'un ouvert* $\mu$-intégrable et majorées par f. On peut montrer que f est l'enveloppe supérieure de $J_f$ et que $\mu^\bullet(f) = \sup_{g \in J_f} \mu(g)$.
 
 #### Remarque 2 {#int-ix-s5-n1-rem-2 .statement}
 
-Si la mesure $ \mu $ est bornée, la formule $ \mu^*(f) = \inf_{g \in S_f} \mu(g) $ est évidemment valable pour toute fonction f, semi-continue supérieurement, positive et bornée.
+Si la mesure $\mu$ est bornée, la formule $\mu^\bullet(f) = \inf_{g \in S_f} \mu(g)$ est évidemment valable pour toute fonction f, semi-continue supérieurement, positive et bornée.
 
 #### Proposition 2 {#int-ix-s5-prop-2 .statement}
 
-Soient $ \eta $ et $ \eta' $ deux mesures complexes sur un espace complètement régulier T, telles que l'on ait $ \eta(f) = \eta'(f) $ pour toute fonction $ f \in C^b(T) $, intégrable pour $ |\eta| $ et $ |\eta'| $. On a alors $ \eta = \eta' $.
+Soient $\eta$ et $\eta'$ deux mesures complexes sur un espace complètement régulier T, telles que l'on ait $\eta(f) = \eta'(f)$ pour toute fonction $f \in C^b(T)$, intégrable pour $|\eta|$ et $|\eta'|$. On a alors $\eta = \eta'$.
 
-Reprenons la démonstration de la seconde partie de la proposition 1, en posant $ \theta = \eta - \eta' $. Nous pouvons imposer à l'ouvert U d'être intégrable pour $ |\eta| $ et $ |\eta'| $. La fonction g est alors intégrable pour ces deux mesures, et la relation $ \theta(g) = 0 $ entraîne $ a < 0 $; on a donc $ |\theta|^*(f) = 0 $ pour toute fonction f semi-continue inférieurement positive, d'où finalement $ |\theta| = 0 $, en prenant $ f = +\infty $.
+Reprenons la démonstration de la seconde partie de la proposition 1, en posant $\theta = \eta - \eta'$. Nous pouvons imposer à l'ouvert U d'être intégrable pour $|\eta|$ et $|\eta'|$. La fonction g est alors intégrable pour ces deux mesures, et la relation $\theta(g) = 0$ entraîne $a < 0$; on a donc $|\theta|^\bullet(f) = 0$ pour toute fonction f semi-continue inférieurement positive, d'où finalement $|\theta| = 0$, en prenant $f = +\infty$.
 
 #### Proposition 3 {#int-ix-s5-prop-3 .statement}
 
-Soit $ \mu $ une mesure positive sur un espace complètement régulier T, et soit $ p \in [1, +\infty[ $. L'espace $ \mathcal{H} $ des fonctions $ f \in C^b(T) $, dont le support est contenu dans un ouvert $ \mu $-intégrable, est dense dans $ L^p(\mu) $.
+Soit $\mu$ une mesure positive sur un espace complètement régulier T, et soit $p \in [1, +\infty[$. L'espace $\mathcal{H}$ des fonctions $f \in C^b(T)$, dont le support est contenu dans un ouvert $\mu$-intégrable, est dense dans $L^p(\mu)$.
 
-D'après la prop. 15 du § 1, n° 10, il nous suffit de montrer que si K est compact dans T, et si g est le prolongement par 0 à T d'une fonction de $ C^+(K) $, comprise entre 0 et 1, il existe une fonction $ f \in C^b_+(T) $, à support contenu dans un ouvert $ \mu $-intégrable, et telle que $ \|f - g\|_p $ soit arbitrairement petit. Or soient $ \varepsilon $ un nombre $ > 0 $, U un voisinage ouvert de K tel que $ \mu^*(U - K) < \varepsilon $, V un voisinage ouvert de K tel que $ \overline{V} \subset U $, f une fonction à valeurs dans $ [0, 1] $, continue, égale à g sur K et à 0 hors de V (lemme 1). La fonction $|f - g|^p$ est alors majorée par $\varphi_{U-K}$; on a donc $\|f - g\|_p \leq \varepsilon^{1/p}$, ce qui établit la proposition.
+D'après la prop. 15 du § 1, n° 10, il nous suffit de montrer que si K est compact dans T, et si g est le prolongement par 0 à T d'une fonction de $C^+(K)$, comprise entre 0 et 1, il existe une fonction $f \in C^b_+(T)$, à support contenu dans un ouvert $\mu$-intégrable, et telle que $\|f - g\|_p$ soit arbitrairement petit. Or soient $\varepsilon$ un nombre $> 0$, U un voisinage ouvert de K tel que $\mu^\bullet(U - K) < \varepsilon$, V un voisinage ouvert de K tel que $\overline{V} \subset U$, f une fonction à valeurs dans $[0, 1]$, continue, égale à g sur K et à 0 hors de V (lemme 1). La fonction $|f - g|^p$ est alors majorée par $\varphi_{U-K}$; on a donc $\|f - g\|_p \leq \varepsilon^{1/p}$, ce qui établit la proposition.
 
 Remarque 3). — On a un énoncé analogue pour les fonctions à valeurs dans un espace de Banach F : le sous-espace $\mathcal{H} \otimes F$ de $C^b(T; F)$ est dense dans $\mathcal{L}_F^p(\mu)$.
 
@@ -423,7 +420,7 @@ c) La topologie de la convergence simple et la topologie de la convergence compa
 
 Les assertions a) et b) sont des conséquences immédiates du th. 3 ; l’assertion c) résulte de b) et de la prop. 14, car la topologie de la convergence compacte est plus fine que celle de la convergence simple.
 
-On prendra garde que $L$ n’est pas fermé dans l’ensemble de toutes les fonctions complexes bornées sur $S$, muni de la topologie de la convergence simple. Prenons par exemple les notations de l’Exemple 2 ci-dessous ($M = \mathbf{R}_+$, $S$ identifié à $\mathbf{R}_+)$. Les transformées de Laplace des mesures $\varepsilon_n$ ($n \in \mathbf{N}$) sont les fonctions $t \mapsto e^{-nt}$ sur $\mathbf{R}_+$; lorsque $n$ tend vers $+\infty$, ces fonctions convergent simplement vers la fonction égale à 1 pour $t = 0$, à 0 pour $t \neq 0$, qui n’appartient pas à $L$.
+On prendra garde que $L$ n’est pas fermé dans l’ensemble de toutes les fonctions complexes bornées sur $S$, muni de la topologie de la convergence simple. Prenons par exemple les notations de l’Exemple 2 ci-dessous ($M = \mathbf{R}_+$, $S$ identifié à $\mathbf{R}_+$). Les transformées de Laplace des mesures $\varepsilon_n$ ($n \in \mathbf{N}$) sont les fonctions $t \mapsto e^{-nt}$ sur $\mathbf{R}_+$; lorsque $n$ tend vers $+\infty$, ces fonctions convergent simplement vers la fonction égale à 1 pour $t = 0$, à 0 pour $t \neq 0$, qui n’appartient pas à $L$.
 
 *Exemple 1).* — Prenons pour $M$ l’ensemble $\mathbf{N}$ des entiers positifs, muni de la loi d’addition et de la topologie discrète. Soit $D$ le disque unité de $\mathbf{C}$ (ensemble des nombres complexes de module $\leq 1$) muni de la topologie induite par $\mathbf{C}$ et de la loi induite par la multiplication. Pour tout $z \in D$, notons $f(z)$ le caractère $n \mapsto z^n$ de $\mathbf{N}$. Pour tout caractère $\chi$ de $\mathbf{N}$, notons $g(\chi)$ le nombre complexe $\chi(1) \in D$. On vérifie aussitôt que $f$ et $g$ sont des homéomorphismes réciproques entre $D$ et $X$, et cela nous permettra, dans la suite, d’*identifier* $X$ et $D$. L’ensemble des caractères tendant vers 0 à l’infini s’identifie alors à l’ensemble $D_0$ des nombres complexes de valeur absolue < 1. Enfin, l’intervalle ]$0, 1$] de $\mathbf{R}$ est un sous monoïde plein de $D$ et 1 est adhérent à ]$0, 1$] $\cap D_0 = ]0, 1[$.
 

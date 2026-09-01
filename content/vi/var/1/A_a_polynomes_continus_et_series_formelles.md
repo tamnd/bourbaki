@@ -66,7 +66,7 @@ với $y$ mô tả tập hợp các nửa chuẩn liên tục trên F. Nếu F l
 
 Đặc biệt, một phần tử của $P_k(E; F)$ được gọi là một đa thức thuần nhất liên tục có tổng bậc $k$ trên E nhận giá trị trong F. Không gian $P_k(E; F)$ là tổng trực tiếp tôpô của các không gian $P_\alpha(E_1, \ldots, E_n; F)$ với $|\alpha| = k$. Không gian $P_0(E; F)$ là không gian các ánh xạ hằng từ E vào F và được đồng nhất với F.
 
-A.3. Ta ký hiệu bởi $P(E; F)$ hoặc $P(E_1, \ldots, E_n; F)$ không gian con vectơ của không gian vectơ всех các ánh xạ từ E vào F được sinh bởi các không gian con $P_k(E; F)$.
+A.3. Ta ký hiệu bởi $P(E; F)$ hoặc $P(E_1, \ldots, E_n; F)$ không gian con vectơ của không gian vectơ tất cả các ánh xạ từ E vào F được sinh bởi các không gian con $P_k(E; F)$.
 
 Nó là tổng trực tiếp của các không gian con $P_\alpha(E_1, \ldots, E_n; F)$ với $\alpha \in \mathbf{N}^n$, và cũng là tổng trực tiếp của các không gian con $P_k(E; F)$ với $k \in \mathbf{N}$. Một phần tử của $P(E; F)$ được gọi là một *đa thức liên tục* trên $E$ với giá trị trong $F$.
 

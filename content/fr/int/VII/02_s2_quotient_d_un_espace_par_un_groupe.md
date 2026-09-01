@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 51
 exercises: 6
-content_sha256: 031e7ed8da3339d597484054f7aa7825883c0f8a458f430e436ee3bde96994bf
+content_sha256: f1d42fcfe3958584a79c535d570f38d19506e76ae972f4bb921ba2556b039435
 ---
 
 ## § 2. Quotient d’un espace par un groupe ; espaces homogènes.
@@ -476,7 +476,7 @@ en posant $M = \sup |f|$; donc $h . ((\mathbf{k}f) \circ \pi)$ est $\lambda^*$-i
 
 Supposons d’abord $X/H$ paracompact et soit $h$ une fonction sur $X$ satisfaisant aux conditions de la prop. 8. Si $k$ est une fonction numérique essentiellement $\lambda$-intégrable, $h . (k \circ \pi)$ est essentiellement $\lambda^*$-intégrable, et évidemment $(h . (k \circ \pi))^b = k$.
 
-Dans le cas général, soit $u \in L^1(X/H, \lambda)$. Il existe une fonction $f \in \mathcal{L}^1(X/H, \lambda)$, de classe $u$ et nulle en dehors d’une réunion dénombrable d’ensembles compacts $K_n$. Définissons par récurrence une suite d’ensembles ouverts relativement compacts $U_n$ de $X/H$, tels que $U_{n+1} \supset K_n \cup \overline{U}_n$, et soit $V$ la réunion des $U_n$. Alors $V$ est une partie ouverte de $X/H$, réunion dénombrable de parties compactes $\overline{U}_n$, donc paracompacte ($Top. gén.$, chap. I, 3e éd., § 9, no 10, th. 5). Posons $Y = \pi^{-1}(V)$ et soit $\lambda_V$ (resp. $\lambda_Y^\#$) la mesure induite par $\lambda$ (resp. $\lambda^\#$) sur $V$ (resp. $Y$). Il est clair que $Y/H$ s’identifie à $V$ ($Top. gén.$, chap. I, 3e éd., § 3, prop. 10) et que $\lambda_Y^\#$ s’identifie à $(\lambda_V)^\#$. De plus, $f$ est nulle en dehors de $V$ et appartient à $\mathcal{L}^1(V, \lambda_V)$. Il existe donc $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ telle que $g^b = f$ presque partout sur $V$. En prolongeant $g$ par 0 sur $X - Y$, on obtient une fonction $g_1 \in \mathcal{L}^1(X, \lambda^\#)$ et il est clair que la classe de $g_1^b$ dans $L^1(X/H, \lambda)$ n’est autre que $u$.
+Dans le cas général, soit $u \in L^1(X/H, \lambda)$. Il existe une fonction $f \in \mathcal{L}^1(X/H, \lambda)$, de classe $u$ et nulle en dehors d’une réunion dénombrable d’ensembles compacts $K_n$. Définissons par récurrence une suite d’ensembles ouverts relativement compacts $U_n$ de $X/H$, tels que $U_{n+1} \supset K_n \cup \overline{U}_n$, et soit $V$ la réunion des $U_n$. Alors $V$ est une partie ouverte de $X/H$, réunion dénombrable de parties compactes $\overline{U}_n$, donc paracompacte (*Top. gén.*, chap. I, 3e éd., § 9, no 10, th. 5). Posons $Y = \pi^{-1}(V)$ et soit $\lambda_V$ (resp. $\lambda_Y^\#$) la mesure induite par $\lambda$ (resp. $\lambda^\#$) sur $V$ (resp. $Y$). Il est clair que $Y/H$ s’identifie à $V$ (*Top. gén.*, chap. I, 3e éd., § 3, prop. 10) et que $\lambda_Y^\#$ s’identifie à $(\lambda_V)^\#$. De plus, $f$ est nulle en dehors de $V$ et appartient à $\mathcal{L}^1(V, \lambda_V)$. Il existe donc $g \in \mathcal{L}^1(Y, \lambda_Y^\#)$ telle que $g^b = f$ presque partout sur $V$. En prolongeant $g$ par 0 sur $X - Y$, on obtient une fonction $g_1 \in \mathcal{L}^1(X, \lambda^\#)$ et il est clair que la classe de $g_1^b$ dans $L^1(X/H, \lambda)$ n’est autre que $u$.
 
 #### Remarque 3 {#int-vii-s2-n4-rem-3 .statement}
 
@@ -565,13 +565,13 @@ a) Deux mesures quasi-invariantes non nulles sur $G/H$ sont équivalentes ; les 
 
 b) Soient $\lambda, \lambda'$ deux mesures quasi-invariantes non nulles sur $G/H$. Si, pour tout $s \in G$, les densités de $\gamma_{G/H}(s)\lambda$ par rapport à $\lambda$ et de $\gamma_{G/H}(s)\lambda'$ par rapport à $\lambda'$ sont égales localement presque partout pour $\lambda$ (ou $\lambda'$), $\lambda$ et $\lambda'$ sont proportionnelles.
 
-a) résulte aussitôt du lemme 4. Soient $\lambda$ et $\lambda'$ deux mesures quasi-invariantes non nulles vérifiant la condition de b). Alors, pour tout $s \in G$, les densités de $\gamma_G(s)\lambda^\#$ par rapport à $\lambda^\#$ et de γ_G(s)λ'#$ par rapport à λ'#$ sont égales localement μ-presque partout, donc (lemme 3) λ#$ et λ'#$ sont proportionnelles, donc λ et λ' sont proportionnelles.
+a) résulte aussitôt du lemme 4. Soient $\lambda$ et $\lambda'$ deux mesures quasi-invariantes non nulles vérifiant la condition de b). Alors, pour tout $s \in G$, les densités de $\gamma_G(s)\lambda^\#$ par rapport à $\lambda^\#$ et de $\gamma_G(s)\lambda'^\#$ par rapport à $\lambda'^\#$ sont égales localement μ-presque partout, donc (lemme 3) $\lambda^\#$ et $\lambda'^\#$ sont proportionnelles, donc λ et λ' sont proportionnelles.
 
-D'autre part, le lemme 4 ramène la recherche des mesures quasi-invariantes non nulles sur G/H à celle des mesures sur G équivalentes à la mesure de Haar et de la forme λ#$. On a à ce sujet le lemme suivant :
+D'autre part, le lemme 4 ramène la recherche des mesures quasi-invariantes non nulles sur G/H à celle des mesures sur G équivalentes à la mesure de Haar et de la forme $\lambda^\#$. On a à ce sujet le lemme suivant :
 
 #### Lemme 5 {#int-vii-s2-lem-5 .statement}
 
-Soient μ une mesure de Haar à gauche sur G, et ρ une fonction localement μ-intégrable. Pour que ρ.μ soit de la forme λ#$, il faut et il suffit que, pour tout ξ ∈ H, on ait
+Soient μ une mesure de Haar à gauche sur G, et ρ une fonction localement μ-intégrable. Pour que ρ.μ soit de la forme $\lambda^\#$, il faut et il suffit que, pour tout ξ ∈ H, on ait
 
 $$
 \rho(x\xi) = \frac{\Delta_H(\xi)}{\Delta_G(\xi)} \rho(x)
@@ -579,7 +579,7 @@ $$
 
 localement μ-presque partout sur G.
 
-Dire que ρ.μ est de la forme λ#$ revient à dire que, pour tout ξ ∈ H, on a δ(ξ)(ρ.μ) = Δ_H(ξ)ρ.μ (prop. 4). Or
+Dire que ρ.μ est de la forme $\lambda^\#$ revient à dire que, pour tout ξ ∈ H, on a δ(ξ)(ρ.μ) = Δ_H(ξ)ρ.μ (prop. 4). Or
 
 $$
 δ(ξ)(ρ.μ) = (δ(ξ)ρ) . (δ(ξ)μ) = Δ_G(ξ)(δ(ξ)ρ) . μ,

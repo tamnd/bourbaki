@@ -28,7 +28,7 @@ subsections:
       pdf_page: 62
 statements: 19
 exercises: 10
-content_sha256: 9a4e3ff6577619f6a4dd44dfc9056888feff25497afcc1eee690a5e4a49ecdfe
+content_sha256: 04bf3ba5a542c08ad6661e45e2bba480ce3ea9e8352d60f000d6910c22f74c21
 ---
 
 ## § 3. Algèbres de type fini sur un corps.
@@ -216,7 +216,7 @@ Soit $A$ un anneau de Jacobson et soit $a$ un idéal de $A$. Alors $A/a$ est un 
 
 Pour qu’un anneau $A$ soit un anneau de Jacobson, il faut et il suffit que, pour tout idéal $a$ de $A$, le radical de $A/a$ soit égal à son nilradical (chap. II, § 2, no 6).
 
-Le radical (resp. nilradical) de $A/a$ est l’intersection des idéaux maximaux (resp. premiers) de $A/a$ ($Alg.$, chap. VIII, § 6, no 3, déf. 3 et $Alg. comm.$, chap. II, § 2, no 6, prop. 13). La condition énoncée signifie donc que pour tout idéal $a$ de $A$, l’intersection des idéaux premiers contenant $a$ est égale à l’intersection des idéaux maximaux contenant $a$. Cette condition est évidemment vérifiée pour tout idéal $a$ de $A$ si $A$ est un anneau de Jacobson; réciproquement, si elle est vérifiée pour tout idéal premier de $A$, $A$ est un anneau de Jacobson par définition.
+Le radical (resp. nilradical) de $A/a$ est l’intersection des idéaux maximaux (resp. premiers) de $A/a$ ($Alg.$, chap. VIII, § 6, no 3, déf. 3 et *Alg. comm.*, chap. II, § 2, no 6, prop. 13). La condition énoncée signifie donc que pour tout idéal $a$ de $A$, l’intersection des idéaux premiers contenant $a$ est égale à l’intersection des idéaux maximaux contenant $a$. Cette condition est évidemment vérifiée pour tout idéal $a$ de $A$ si $A$ est un anneau de Jacobson; réciproquement, si elle est vérifiée pour tout idéal premier de $A$, $A$ est un anneau de Jacobson par définition.
 
 #### Corollaire {#ac-v-s3-n4-cor-1 .statement}
 

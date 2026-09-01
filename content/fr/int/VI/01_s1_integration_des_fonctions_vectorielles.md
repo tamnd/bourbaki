@@ -40,7 +40,7 @@ subsections:
       pdf_page: 25
 statements: 35
 exercises: 27
-content_sha256: 17cf0ae507efd8b0c82660237a41bd845fa95e0499b25b224e7c703269e142ee
+content_sha256: e875835b71086305b795af62de8d4f95273600fe319d2453d7260646e5d6f838
 ---
 
 ## § 1. Intégration des fonctions vectorielles
@@ -326,7 +326,7 @@ Passons au cas général. Si $z'$ est une forme linéaire continue sur $F$, sa r
 
 ### 6. Applications : I. Extension d’une fonction continue à un espace de mesures.
 
-Soient T un espace localement compact, F un espace localement convexe séparé et quasi-complet, $f$ une application continue de T dans F ; si $\mu$ est une mesure positive sur T, à support compact S, $f(S)$ est compact ; l’enveloppe fermée convexe de $f(S)$ est alors compacte ($Esp. vect. top.$, chap. III, § 2, no 5), donc $f$ est scalairement $\mu$-intégrable et on a $\int f d\mu \in F$ (no 2, cor.de la prop. 5). Si maintenant $\lambda$ est une mesure réelle quelconque à support compact, $\lambda^+$ et $\lambda^-$ sont des mesures positives à support compact ; si on pose $\int f d\lambda = \int f d\lambda^+ - \int f d\lambda^-$, on vérifie aussitôt (en utilisant la relation $(\lambda + \mu)^+ + \lambda^- + \mu^- = \lambda^+ + \mu^+ + (\lambda + \mu)^-$) que $\lambda \to \int f d\lambda$ est une application linéaire de l’espace $C'(T)$ des mesures à support compact sur T, dans l’espace localement convexe F.
+Soient T un espace localement compact, F un espace localement convexe séparé et quasi-complet, $f$ une application continue de T dans F ; si $\mu$ est une mesure positive sur T, à support compact S, $f(S)$ est compact ; l’enveloppe fermée convexe de $f(S)$ est alors compacte (*Esp. vect. top.*, chap. III, § 2, no 5), donc $f$ est scalairement $\mu$-intégrable et on a $\int f d\mu \in F$ (no 2, cor.de la prop. 5). Si maintenant $\lambda$ est une mesure réelle quelconque à support compact, $\lambda^+$ et $\lambda^-$ sont des mesures positives à support compact ; si on pose $\int f d\lambda = \int f d\lambda^+ - \int f d\lambda^-$, on vérifie aussitôt (en utilisant la relation $(\lambda + \mu)^+ + \lambda^- + \mu^- = \lambda^+ + \mu^+ + (\lambda + \mu)^-$) que $\lambda \to \int f d\lambda$ est une application linéaire de l’espace $C'(T)$ des mesures à support compact sur T, dans l’espace localement convexe F.
 
 Notons maintenant que l’espace $C'(T)$ peut être identifié au dual de l’espace $C(T)$ des fonctions continues numériques sur T (d’où sa notation), lorsqu’on munit $C(T)$ de la topologie de la convergence compacte (ce que nous supposerons toujours dans ce no et le suivant) : en effet on sait d’une part (chap. III, § 3, no 4, prop. 11) que les mesures sur T qui peuvent être prolongées en des formes linéaires continues dans $C(T)$ sont les mesures à support compact, et inversement, la restriction à $K(T)$ d’une forme linéaire continue sur $C(T)$ est une mesure (la topologie de $K(T)$ étant plus fine que celle induite par la topologie de $C(T)$).
 

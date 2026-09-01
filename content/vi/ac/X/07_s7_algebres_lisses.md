@@ -88,7 +88,7 @@ $$
 \end{align*}
 $$
 
-đẳng thức cuối cùng thu được từ तथ्य rằng $N$ có bình phương bằng không. Mệnh đề được suy ra từ đó.
+đẳng thức cuối cùng thu được từ sự kiện rằng $N$ có bình phương bằng không. Mệnh đề được suy ra từ đó.
 
 #### Ví dụ {#ac-x-s7-n1-exa-1 .statement}
 
@@ -224,7 +224,7 @@ $$
 
 Với mọi $x \in K$, ta có $g(x^p) = \lambda(\varphi(x))$. Vì $\lambda(\alpha z) = \alpha^p \lambda(z)$ với $\alpha \in k$ và $z \in C/N$, ánh xạ $g$ là $k^p$-tuyến tính. Vì mở rộng $K$ của $k$ là tách được, $k(K^p)$ được đồng nhất với $k \otimes_{k^p} K^p$ (A, V, p. 119, nhận xét); do đó tồn tại một đồng cấu duy nhất các $k$-đại số $h : k(K^p) \to C$ trùng với $g$ trên $K^p$.
 
-Cho $(a_i)_{i \in I}$ là một $p$-cơ sở của $K$ trên $k(K^p)$ (A, V, p. 98, định lý 2); với mọi $i \in I$, chọn một phần tử $b_i$ của $C$ sao cho $\pi(b_i) = \varphi(a_i)$. Ta có $h(a_i^p) = g(a_i^p) = \lambda(\varphi(a_i)) = \lambda(\pi(b_i)) = b_i^p$ với mọi $i \in I$. Theo A, V, p. 94, nhận xét, tồn tại một đồng cấu các $k$-đại số $\tilde{\varphi} : K \to C$, mở rộng $h$ và sao cho $\tilde{\varphi}(a_i) = b_i$ với mọi $i$. Ta có $\pi(\tilde{\varphi}(a_i)) = \pi(b_i) = \varphi(a_i)$ với mọi $i$ và $\pi(\tilde{\varphi}(x^p)) = \pi(h(x^p)) = \pi(g(x^p)) = \pi(\lambda(\varphi(x))) = \varphi(x^p)$ với mọi $x \in K$. Do đó $\pi \circ \tilde{\varphi} = \varphi$, điều này завершает chứng minh.
+Cho $(a_i)_{i \in I}$ là một $p$-cơ sở của $K$ trên $k(K^p)$ (A, V, p. 98, định lý 2); với mọi $i \in I$, chọn một phần tử $b_i$ của $C$ sao cho $\pi(b_i) = \varphi(a_i)$. Ta có $h(a_i^p) = g(a_i^p) = \lambda(\varphi(a_i)) = \lambda(\pi(b_i)) = b_i^p$ với mọi $i \in I$. Theo A, V, p. 94, nhận xét, tồn tại một đồng cấu các $k$-đại số $\tilde{\varphi} : K \to C$, mở rộng $h$ và sao cho $\tilde{\varphi}(a_i) = b_i$ với mọi $i$. Ta có $\pi(\tilde{\varphi}(a_i)) = \pi(b_i) = \varphi(a_i)$ với mọi $i$ và $\pi(\tilde{\varphi}(x^p)) = \pi(h(x^p)) = \pi(g(x^p)) = \pi(\lambda(\varphi(x))) = \varphi(x^p)$ với mọi $x \in K$. Do đó $\pi \circ \tilde{\varphi} = \varphi$, điều này kết thúc chứng minh.
 
 #### Hệ quả {#ac-x-s7-n3-cor-1 .statement}
 

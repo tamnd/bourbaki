@@ -248,7 +248,7 @@ $$
 
 Cho $A$ là một vành *giao hoán*, $B$ là một vành, $\rho : A \to B$ là một đồng cấu vành và $E, F$ là hai $A$-môđun; vì $B$ là một song môđun $(A, A)$ (thông qua $\rho$) và $F$ có thể được xét như một song môđun $(A, A)$, nên trên $\mathbf{Z}$-môđun $B \otimes_A F$ có *hai* cấu trúc $A$-môđun, trong đó lần lượt $a(b \otimes y) = (\rho(a)b) \otimes y$ và $a(b \otimes y) = b \otimes (ay)$ với $a \in A,\ b \in B,\ y \in F$. Ta sẽ ký hiệu hai $A$-môđun được xác định như vậy bởi $G'$ và $G''$; hơn nữa $G'$ chính là A-môđun $\rho_*(\rho^*(F))$.
 
-Vì thế, trong định nghĩa của đồng cấu chính tắc ở § 4, no. 2, công thức (7), ta thay $B$ bởi $A$, $B$-môđun $F$ bởi vành $B$ được xét như một $A$-môđun посредством $\rho$ và $G$ bởi $F$ được xét như một $(A, A)$-song môđun; vì $A$ là giao hoán, ta có thể viết *đồng cấu* $\mathbf{Z}$-*chính tắc* thu được là
+Vì thế, trong định nghĩa của đồng cấu chính tắc ở § 4, no. 2, công thức (7), ta thay $B$ bởi $A$, $B$-môđun $F$ bởi vành $B$ được xét như một $A$-môđun qua $\rho$ và $G$ bởi $F$ được xét như một $(A, A)$-song môđun; vì $A$ là giao hoán, ta có thể viết *đồng cấu* $\mathbf{Z}$-*chính tắc* thu được là
 
 $$
 (15) \quad B \otimes_A \operatorname{Hom}_A(E, F) \to \operatorname{Hom}_A(E, G'').

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 113
 statements: 23
 exercises: 9
-content_sha256: dc99b479928c32a69fd6e1c262b395e354abb4f587cbc9331f9e9057ecc7f522
+content_sha256: 34cf95afc6ffb4bca7dd4bf6f166fe8583fa00af76b1fea6c733ddc70ebb734a
 ---
 
 ## § 5. Invariants dans l’algèbre symétrique
@@ -131,7 +131,7 @@ $$
 
 Soient $K$ un anneau commutatif ayant un élément unité, $V$ un $K$-module, $G$ un groupe opérant dans $V$. On sait que tout automorphisme de $V$ se prolonge de façon unique en un automorphisme de l’algèbre symétrique $S = S(V)$, et $G$ opère donc dans cette algèbre. Si $x \in S$ et $g \in G$, nous noterons $g_S . x$ le transformé de $x$ par $g$. Soit $R$ la sous-algèbre $S^G$ de $S$ formée des éléments invariants par $G$.
 
-Supposons $G$ fini, $V$ de type fini, et $K$ nœthérien. Alors $S$ est un $R$-module de type fini, et $R$ est une $K$-algèbre de type fini ($Alg. comm.$, chap. V, § 1, no 9, th. 2). Supposons $S$ intègre et soit $N$ son corps des fractions. Le corps des fractions $L$ de $R$ est l’ensemble des éléments de $N$ invariants par $G$ (*loc. cit.*, cor. de la prop. 23), donc $N$ est une extension galoisienne de $L$. Tout élément de $N$ s’écrit $z/t$ avec $z \in S$ et $t \in R$ (*loc. cit.*, prop. 23). D’après $Alg.$, chap. II, 3e éd., § 7, no 10, cor. 3 de la prop. 26, le rang du $R$-module $S$ est $[N : L]$. Supposons que $G$ opère fidèlement dans $V$. Le groupe de Galois de $N$ sur $L$ s’identifie alors à $G$, donc $[N : L] = \mathrm{Card}\,(G)$; ainsi :
+Supposons $G$ fini, $V$ de type fini, et $K$ nœthérien. Alors $S$ est un $R$-module de type fini, et $R$ est une $K$-algèbre de type fini (*Alg. comm.*, chap. V, § 1, no 9, th. 2). Supposons $S$ intègre et soit $N$ son corps des fractions. Le corps des fractions $L$ de $R$ est l’ensemble des éléments de $N$ invariants par $G$ (*loc. cit.*, cor. de la prop. 23), donc $N$ est une extension galoisienne de $L$. Tout élément de $N$ s’écrit $z/t$ avec $z \in S$ et $t \in R$ (*loc. cit.*, prop. 23). D’après $Alg.$, chap. II, 3e éd., § 7, no 10, cor. 3 de la prop. 26, le rang du $R$-module $S$ est $[N : L]$. Supposons que $G$ opère fidèlement dans $V$. Le groupe de Galois de $N$ sur $L$ s’identifie alors à $G$, donc $[N : L] = \mathrm{Card}\,(G)$; ainsi :
 
 $$
 \mathrm{rg}_R(S) = [N : L] = \mathrm{Card}\,(G).

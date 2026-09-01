@@ -284,7 +284,7 @@ Nói rằng, với mọi $m \in \Omega$, $u_m$ là đơn ánh (tương ứng, to
 
 #### Hệ quả 1 {#ac-ii-s3-thm-1-cor-1 .statement}
 
-*Cho* $M$ *là một $A$-môđun, N một môđun con của* $M$ *và* $x$ *một phần tử của* $M$. *Để có* $x \in N$, *điều kiện cần và đủ là, với mọi* $m \in R$, *ảnh chính tắc của* $x$ *trong* $M$, *thuộc* $N$।
+*Cho* $M$ *là một $A$-môđun, N một môđun con của* $M$ *và* $x$ *một phần tử của* $M$. *Để có* $x \in N$, *điều kiện cần và đủ là, với mọi* $m \in R$, *ảnh chính tắc của* $x$ *trong* $M$, *thuộc* $N$.
 
 Gọi $\bar{x}$ là lớp của $x$ trong $M/N$; nói rằng $x \in N$ có nghĩa là ánh xạ A-tuyến tính $u : a \mapsto a\bar{x}$ từ $A$ tới $M/N$ là không. Khi đó, $(M/N)_m$ được đồng nhất với $M_m/N_m$ (§ 2, no. 4, Định lý 1) và $u_m : A_m \to M_m/N_m$ với ánh xạ $A \mapsto \lambda \bar{x}_m$, trong đó $\bar{x}_m$ là lớp mod. $N$, của ảnh chính tắc của $x$ trong $M$. Vì quan hệ $u = 0$ là tương đương với $u_m = 0$ với mọi $m$ theo Định lý 1, điều này chứng minh hệ quả.
 

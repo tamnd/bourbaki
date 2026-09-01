@@ -167,7 +167,7 @@ Ngược lại, giả sử $K = C$. Cho $E_i^0$ và $F^0$ là các không gian t
 
 ### 3.2. Hàm giải tích
 
-3.2.1. Cho $U$ là một tập hợp mở của $E$ và $f$ là một ánh xạ từ $U$ vào $F$. Ta nói rằng $f$ *thuộc lớp* $C^{\omega}$, hay *K-giải tích* (hoặc đơn giản là *giải tích*) trong $U$ nếu, với mọi điểm $a$ của $U$, tồn tại một chuỗi hội tụ $f_{\alpha} \in \mathcal{H}(E; F)$ sao cho $f(a + x) = f_{\alpha}(x)$ với mọi $x$ trong $E$ đủ gần không. Nếu $K = \mathbf{R}$ (resp. $\mathbf{C}$), người ta cũng nói rằng $f$ là *giải tích thực* (resp. *giải tích phức* hoặc *chỉnh hình*). Các ánh xạ giải tích từ $U$ vào $F$ lập thành một không gian con vectơ, ký hiệu bởi $\mathcal{C}^{\omega}(U; F)$, của không gian всех các ánh xạ từ $U$ vào $F$.
+3.2.1. Cho $U$ là một tập hợp mở của $E$ và $f$ là một ánh xạ từ $U$ vào $F$. Ta nói rằng $f$ *thuộc lớp* $C^{\omega}$, hay *K-giải tích* (hoặc đơn giản là *giải tích*) trong $U$ nếu, với mọi điểm $a$ của $U$, tồn tại một chuỗi hội tụ $f_{\alpha} \in \mathcal{H}(E; F)$ sao cho $f(a + x) = f_{\alpha}(x)$ với mọi $x$ trong $E$ đủ gần không. Nếu $K = \mathbf{R}$ (resp. $\mathbf{C}$), người ta cũng nói rằng $f$ là *giải tích thực* (resp. *giải tích phức* hoặc *chỉnh hình*). Các ánh xạ giải tích từ $U$ vào $F$ lập thành một không gian con vectơ, ký hiệu bởi $\mathcal{C}^{\omega}(U; F)$, của không gian tất cả các ánh xạ từ $U$ vào $F$.
 
 Với $a \in U$, chuỗi hình thức $f_{\alpha}$ là duy nhất: nó được gọi là *khai triển chuỗi lũy thừa* của $f$ tại điểm $a$. Nếu $f_{\alpha} = \sum_{\alpha} (f_{\alpha})_{\alpha}$ (với $(f_{\alpha})_{\alpha} \in P_{\alpha}(E_1, \ldots, E_n; F)$), ta đặt:
 
@@ -294,7 +294,7 @@ $$
 
 Giả sử hơn nữa rằng $\lambda = 0$. Cấp của $f$ tại điểm $x = 0$ được định nghĩa là cận dưới lớn nhất (hữu hạn hoặc vô hạn) của tập hợp các số nguyên $n$ sao cho $a_n(f) \neq 0$. Nếu tồn tại một lân cận V của 0 sao cho $f$ bị chặn trong $V - \{0\}$, thì $f$ có cấp 0 tại điểm $x = 0$ và kéo dài được bằng liên tục thành một hàm chỉnh hình trên tập mở $|z| < \mu$. Cho $p$ là một số nguyên $> 0$; nếu $f$ có cấp $-p$ tại điểm $x = 0$, thì người ta nói rằng 0 là một cực bậc $p$ của $f$.
 
-3.3.10. Giả sử rằng $E = \mathbf{C}$$ và rằng F được trang bị chuẩn. Gọi $f$ là một ánh xạ chỉnh hình từ đĩa đơn vị mở U của E vào F, sao cho $f(0) = 0$ và đặt $M = \sup_{z \in U} \|f(z)\|$. Khi đó $\|f(z)\| \leq M \cdot |z|$ với mọi $z \in U$ ("bổ đề Schwarz").
+3.3.10. Giả sử rằng $E = \mathbf{C}$ và rằng F được trang bị chuẩn. Gọi $f$ là một ánh xạ chỉnh hình từ đĩa đơn vị mở U của E vào F, sao cho $f(0) = 0$ và đặt $M = \sup_{z \in U} \|f(z)\|$. Khi đó $\|f(z)\| \leq M \cdot |z|$ với mọi $z \in U$ ("bổ đề Schwarz").
 
 ### 3.4. Hàm giải tích thực
 

@@ -202,7 +202,7 @@ Chỉ cần chú ý rằng $A/a$ là một vành Jacobson.
 
 *Cho $A$ là một miền iđêan chính và $(\mathbf{p}_\lambda)_{\lambda \in L}$ là một hệ đại diện các phần tử cực biên của $A$ (*Đại số*, Chương VII, § 1, no. 3, Định nghĩa 2). Để $A$ là một vành Jacobson, điều kiện cần và đủ là $L$ vô hạn.*
 
-Các iđêan cực đại của $A$ là các $A\mathbf{p}_\lambda$ (*loc. cit.*, no. 2, Mệnh đề 2). Nếu $L$ hữu hạn, giao của chúng là iđêan $Ax$, trong đó $x = \prod_{\lambda \in L} \mathbf{p}_\lambda$ (*ibid.*) và do đó khác $(0)$; mặt khác, nếu $L$ vô hạn, giao của các $A\mathbf{p}_\lambda$ là $(0)$$, mỗi phần tử $\neq 0$ của $A$ chỉ chia hết cho một số hữu hạn phần tử cực biên (*loc. cit.*, no. 3, Định lý 2). Khi đó mệnh đề suy ra từ sự kiện rằng $(0)$ là iđêan nguyên tố duy nhất không cực đại trong $A$ (*Đại số*, Chương VI, § 1, no. 13, Mệnh đề 14 (DIV)).
+Các iđêan cực đại của $A$ là các $A\mathbf{p}_\lambda$ (*loc. cit.*, no. 2, Mệnh đề 2). Nếu $L$ hữu hạn, giao của chúng là iđêan $Ax$, trong đó $x = \prod_{\lambda \in L} \mathbf{p}_\lambda$ (*ibid.*) và do đó khác $(0)$; mặt khác, nếu $L$ vô hạn, giao của các $A\mathbf{p}_\lambda$ là $(0)$, mỗi phần tử $\neq 0$ của $A$ chỉ chia hết cho một số hữu hạn phần tử cực biên (*loc. cit.*, no. 3, Định lý 2). Khi đó mệnh đề suy ra từ sự kiện rằng $(0)$ là iđêan nguyên tố duy nhất không cực đại trong $A$ (*Đại số*, Chương VI, § 1, no. 13, Mệnh đề 14 (DIV)).
 
 #### Mệnh đề 5 {#ac-v-s3-prop-5 .statement}
 

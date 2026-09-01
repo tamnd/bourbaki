@@ -319,7 +319,7 @@ Ta cũng có thể dùng các kết quả của Chương III, § 2 để chứng
 
 #### Hệ quả {#ac-vii-s3-n8-cor-1 .statement}
 
-*Với các giả thiết và ký hiệu của Mệnh đề 5, giả sử rằng $s \geq 1$, ताकि $f \in Bm + BX$. Khi đó đồng cấu A-môđun $h$ từ $B' = A[[T]]$ vào $B = A[[X]]$ sao cho $h(T) = f$ (Chương III, § 2, no. 9, Mệnh đề 11 (a)) xác định trên B một cấu trúc $B'$-môđun tự do nhận $\{1, X, \ldots, X^{s-1}\}$ làm cơ sở. Đặc biệt $h$ là đơn ánh.*
+*Với các giả thiết và ký hiệu của Mệnh đề 5, giả sử rằng $s \geq 1$, sao cho $f \in Bm + BX$. Khi đó đồng cấu A-môđun $h$ từ $B' = A[[T]]$ vào $B = A[[X]]$ sao cho $h(T) = f$ (Chương III, § 2, no. 9, Mệnh đề 11 (a)) xác định trên B một cấu trúc $B'$-môđun tự do nhận $\{1, X, \ldots, X^{s-1}\}$ làm cơ sở. Đặc biệt $h$ là đơn ánh.*
 
 Cho $B'$-môđun B được trang bị lọc (T)-adic, gồm các $f^n B$ với $n \geq 0$ (Chương 111, § 2, no. 1). Khi đó $B/fB$ là một môđun tự do trên vành $A = B'/TB'$ và các ảnh của $X^i$ ($0 \leq i \leq s-1$) trong A-môđun này tạo thành một cơ sở của nó (Mệnh đề 5); hơn nữa vì $f$ không là một ước của không trong B (Mệnh đề 5), $Bf^n/Bf^{n+1}$ cũng là một $(B'/TB')$-môđun tự do hạng s, nên điều kiện (GR) của Chương 111, § 2, no. 8 được thỏa mãn (thay thế A bởi B' và M bởi B). Mặt khác, vì B' là Hausdorff và đầy đủ đối với lọc (T)-adic và gr(B) là một gr(B')-môđun sinh hữu hạn theo điều trên, trước hết suy ra (Chương III, § 2, no. 9, Hệ quả 1 của Mệnh đề 12) rằng B là một B' môđun sinh hữu hạn. Mệnh đề thứ nhất của hệ quả khi đó suy ra từ Chương III, § 2, no. 9, Mệnh đề 13. Mệnh đề thứ hai suy ra ngay lập tức từ đó.
 

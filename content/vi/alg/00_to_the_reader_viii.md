@@ -65,7 +65,7 @@ Théories spectrales — TS
 
 Topologie Algébrique — TA
 
-Trong sáu Quyển đầu tiên (theo thứ tự đã nêu ở trên), mọi mệnh đề trong phần văn bản chỉ giả thiết đã biết các định nghĩa và kết quả đã được bàn đến trong cùng các chương ấy hoặc trong các chương trước theo thứ tự sau đây: Lý thuyết tập hợp; Alg., Chương I đến III; Top. đại cương, Chương I đến III; Alg./A, начиная từ Chương IV; Top. đại cương, начиная từ Chương IV; FRV; Top. Vect. Sp.; Int. Kể từ Quyển thứ bảy trở đi, nếu cần, người đọc sẽ tìm thấy ở đầu mỗi Quyển hoặc mỗi chương một chỉ dẫn chính xác về các Quyển hoặc các chương khác được dùng đến (sáu Quyển đầu tiên luôn luôn được giả thiết là đã biết).
+Trong sáu Quyển đầu tiên (theo thứ tự đã nêu ở trên), mọi mệnh đề trong phần văn bản chỉ giả thiết đã biết các định nghĩa và kết quả đã được bàn đến trong cùng các chương ấy hoặc trong các chương trước theo thứ tự sau đây: Lý thuyết tập hợp; Alg., Chương I đến III; Top. đại cương, Chương I đến III; Alg./A, bắt đầu từ Chương IV; Top. đại cương, bắt đầu từ Chương IV; FRV; Top. Vect. Sp.; Int. Kể từ Quyển thứ bảy trở đi, nếu cần, người đọc sẽ tìm thấy ở đầu mỗi Quyển hoặc mỗi chương một chỉ dẫn chính xác về các Quyển hoặc các chương khác được dùng đến (sáu Quyển đầu tiên luôn luôn được giả thiết là đã biết).
 
 4. Tuy nhiên, một số đoạn nào đó không tuân theo các quy tắc đã nêu trên. Chúng được đặt giữa hai dấu hoa thị: $*$. . . . Trong một số trường hợp, điều đó chỉ nhằm
 

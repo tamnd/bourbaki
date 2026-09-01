@@ -11,7 +11,7 @@ pdf_pages: 0039-0047
 extraction: ocr
 statements: 12
 exercises: 0
-content_sha256: a03e917bbb712788678cb44f2f8c4eeb837bff91ffaff8fe794b3c2a69ffeff6
+content_sha256: 8ddfa6db9a8b8ea94b884733ec52d738552ac565f914d0880df1029e74d1e9da
 ---
 
 ## § 2. DISCRIMINANT D’UNE FORME SESQUILINÉAIRE
@@ -26,7 +26,7 @@ b) Soient $A$ un anneau artinien à gauche et à droite satisfaisant à la condi
 
 c) On garde les hypothèses de b), et on suppose en outre que $A$ satisfait à la condition $(N_s)$ et que $d_\Phi$ est injective. Montrer alors qu’il existe une base $(e_n)$ dans $E$ et une base $(f_n)$ dans $F$ telles que $\Phi(e_i, f_j) = \delta_{ij}$. (Utiliser b) en déterminant par récurrence alternativement $e_n$ et $f_n$).
 
-*12) Soient $E$ un espace hilbertien réel de type dénombrable, $\Phi(x, y)$ le produit scalaire dans $E$. Montrer qu’il n’existe pas de système de deux bases algébriques $(e_\lambda), (f_\mu)$ de l’espace vectoriel $E$ sur $\mathbf{R}$ telles que l’on ait $\Phi(e_\lambda, f_\mu) = \delta_{\lambda \mu}$ pour tout couple d’indices. (Remarquer d’abord que l’ensemble d’indices de ces bases aurait la puissance du continu ($Esp. vect. top.$, chap. II, § 3, exerc. 15)); considérer ensuite une base orthonormale (dénombrable) $(a_n)$ de $E$ et remarquer que le sous-espace engendré par les $a_n$ est contenu dans le sous-espace engendré par une sous-famille dénombrable de $(e_\lambda)$.*
+*12) Soient $E$ un espace hilbertien réel de type dénombrable, $\Phi(x, y)$ le produit scalaire dans $E$. Montrer qu’il n’existe pas de système de deux bases algébriques $(e_\lambda), (f_\mu)$ de l’espace vectoriel $E$ sur $\mathbf{R}$ telles que l’on ait $\Phi(e_\lambda, f_\mu) = \delta_{\lambda \mu}$ pour tout couple d’indices. (Remarquer d’abord que l’ensemble d’indices de ces bases aurait la puissance du continu (*Esp. vect. top.*, chap. II, § 3, exerc. 15)); considérer ensuite une base orthonormale (dénombrable) $(a_n)$ de $E$ et remarquer que le sous-espace engendré par les $a_n$ est contenu dans le sous-espace engendré par une sous-famille dénombrable de $(e_\lambda)$.*
 
 #### Définition 1 {#alg-ix-s2-def-1 .statement}
 
