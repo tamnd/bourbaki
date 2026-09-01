@@ -53,11 +53,12 @@ thỏa mãn các điều kiện trước trong tập hợp P của các vectơ $
 
 *Nhận xét.* — Cho S là một nón lồi nhọn được chứa trong P (nghĩa là, một tập hợp sao cho $S + S \subset S$ và $\lambda S \subset S$ với $\lambda \geqslant 0$; xem TVS, II, §2, No. 4); cho $M$ là một hàm số (hữu hạn hay không) nhận giá trị $\geqslant 0$, được định nghĩa trên S và thỏa mãn trong S các điều kiện trên $1^\circ, 2^\circ$ và $3^\circ$. Khi đó $M$ có thể được mở rộng ra toàn bộ tập hợp P, sao cho hàm mở rộng (mà ta lại ký hiệu là $M$) thỏa mãn cùng những điều kiện ấy: chỉ cần, với mọi hàm $f \in P$, đặt $M(f) = +\infty$ nếu không tồn tại hàm nào $g \in S$ sao cho $f \leqslant g$, và $M(f) = \inf_{g \in S, f \leqslant g} M(g)$ trong trường hợp ngược lại. Thủ tục này sẽ được áp dụng trong Ch. IV, §1 để định nghĩa *tích phân trên* của một hàm dương.
 
-\footnotetext{
-$^1$ Fonction numérique finie—một hàm nhận giá trị trong $\mathbf{R}$—cũng có thể được dịch là "hàm thực" (xem GT, IV, §5, No. 1).
-$^2$ Fonction numérique—"hàm số"—chỉ một hàm nhận giá trị trong $\overline{\mathbf{R}}$ (TG, IV, §5, No. 1). Cụm từ "hữu hạn hay không" đôi khi cũng được thêm vào để nhắc rằng hàm có thể nhận các giá trị vô hạn.
-$^3$ Nhắc lại rằng trong $\overline{\mathbf{R}}$, các tích như $0 \cdot (+\infty)$ không được xác định (GT, IV, §4, No. 3).
-}
+
+(1) Fonction numérique finie—một hàm nhận giá trị trong $\mathbf{R}$—cũng có thể được dịch là "hàm thực" (xem GT, IV, §5, No. 1).
+
+(2) Fonction numérique—"hàm số"—chỉ một hàm nhận giá trị trong $\overline{\mathbf{R}}$ (TG, IV, §5, No. 1). Cụm từ "hữu hạn hay không" đôi khi cũng được thêm vào để nhắc rằng hàm có thể nhận các giá trị vô hạn.
+
+(3) Nhắc lại rằng trong $\overline{\mathbf{R}}$, các tích như $0 \cdot (+\infty)$ không được xác định (GT, IV, §4, No. 3).
 
 MỆNH ĐỀ 1. — Cho $\varphi(t_1, t_2, \ldots, t_n)$ là một hàm số hữu hạn, được xác định và liên tục với $t_i \geq 0$ ($1 \leq i \leq n$), sao cho:
 $1^\circ$ các hệ thức $t_i > 0$ ($1 \leq i \leq n$) kéo theo $\varphi(t_1, t_2, \ldots, t_n) > 0$;

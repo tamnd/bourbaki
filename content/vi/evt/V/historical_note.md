@@ -46,9 +46,9 @@ k_1 y'(a) - h_1 y(a) &= 0 \\
 k_2 y'(b) + h_2 y(b) &= 0
 \end{aligned}
 $$
-$
+$$
 (h_1 k_1 \neq 0,\ h_2 k_2 \neq 0,\ a < b)
-$
+$$
 
 và đã chứng minh các kết quả cơ bản sau đây :
 1) bài toán có nghiệm khác không chỉ khi $\lambda$ nhận một trong các giá trị của một dãy $(\lambda_n)$ các số $> 0$, tiến tới $+ \infty$;

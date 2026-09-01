@@ -865,7 +865,11 @@ z = \sum_k (X^k \otimes x_k - 1 \otimes u^k(x_k)) = \sum_k (X^k - \bar{u}^k)(1 \
 $$
 Nhưng vì các tự đồng cấu $A[X]$ $X$ và $\bar{u}$ của $M[X]$ có thể hoán vị cho nhau, nên
 
-X^k - \bar{u}^k = (X - \bar{u}) \circ \left( \sum_{j=0}^{k-1} X^j \bar{u}^{k-j-1} \right) chứng minh rằng tồn tại một $y \in M[X]$ sao cho $z = \psi(y)$.
+$$
+X^k - \bar{u}^k = (X - \bar{u}) \circ \left( \sum_{j=0}^{k-1} X^j \bar{u}^{k-j-1} \right)
+$$
+
+chứng minh rằng tồn tại một $y \in M[X]$ sao cho $z = \psi(y)$.
 
 Bây giờ cho $M'$ là một A-môđun khác và $u'$ là một tự đồng cấu của $M'$; cho $M'_{u'}$, $\phi'$, $\bar{u}'$, $\psi'$ là môđun và ánh xạ thu được từ $M'$ và $u'$ như $M_u$, $\phi$, $\bar{u}$, $\psi$ thu được từ $M$ và $u$. Khi đó:
 

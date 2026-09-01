@@ -235,7 +235,7 @@ $$
 
 Ánh xạ $w \mapsto U_w$ là một đồng cấu từ W vào nhóm các phép hoán vị của R.
 
-\footnotetext{2 Nhắc lại rằng hai phần tử (tương ứng, hai tập con) của một nhóm W được gọi là liên hợp nếu tồn tại một tự đẳng cấu trong của W biến phần tử này thành phần tử kia.}
+(2) Nhắc lại rằng hai phần tử (tương ứng, hai tập con) của một nhóm W được gọi là liên hợp nếu tồn tại một tự đẳng cấu trong của W biến phần tử này thành phần tử kia.
 
 Với $s \in S$, định nghĩa một ánh xạ $U_s$ từ $R$ vào chính nó bởi
 $$

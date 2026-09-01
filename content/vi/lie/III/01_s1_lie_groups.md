@@ -531,17 +531,17 @@ Cho x ∈ X. Quỹ đạo của x, bằng X, là đóng và do đó ta có thể
 
 Cho G là một nhóm Lie, X là một đa tạp thuộc lớp C^r và (g, x) ↦ gx là một luật tác động trái thuộc lớp C^r của G trên X. Cho E là một bó vectơ thuộc lớp C^r, có không gian cơ sở X và π : E → X là phép chiếu của E lên X. Với mọi x ∈ X, gọi E_x là thớ của E tại x. Cho (g, u) ↦ gu là một luật tác động trái của G trên E sao cho π tương thích với các phép toán của G trên X và trên E. Với mọi g ∈ G và mọi x ∈ X, hạn chế của ánh xạ u ↦ gu lên E_x là một song ánh ψ_{g, x} của E_x lên E_{gx}. Ta giả sử rằng, với mọi g ∈ G và mọi x ∈ X, ψ_{g, x} liên tục và tuyến tính và do đó là một đẳng cấu của không gian định chuẩn được E_x lên không gian định chuẩn được E_{gx}.
 
-Cho φ là tự đẳng cấu $(g, x) ↦ (g, gx)$ của đa tạp $G × X$. Cho p là phép chiếu chính tắc của $G × X$ lên $X$ và E' là ảnh ngược của E qua p. Cho ψ : E' → E' là ánh xạ là tổng của các ψ_{g, x} : E'_{(g, x)} → E'_{(g, gx)}.
+Cho φ là tự đẳng cấu $(g, x) ↦ (g, gx)$ của đa tạp $G \times X$. Cho p là phép chiếu chính tắc của $G \times X$ lên $X$ và E' là ảnh ngược của E qua p. Cho ψ : E' → E' là ánh xạ là tổng của các ψ_{g, x} : E'_{(g, x)} → E'_{(g, gx)}.
 
 #### Định nghĩa 4 {#lie-iii-s1-def-4 .statement}
 
 Nếu ψ là một φ-cấu xạ của các bó vectơ lớp C^r, thì E được gọi là một bó G-vectơ lớp C^r.
 
-Nói cách khác, E là một bó G-vectơ lớp C^r nếu với mọi $(g_0, x_0) ∈ G × X$ điều kiện sau đây được thỏa mãn: tồn tại một lân cận mở U của $(g_0, x_0)$ trong $G × X$ sao cho, nếu $E' | U$ (tương ứng $E' | φ(U)$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng N) bằng một biểu đồ vectơ, thì ánh xạ $(g, x) ↦ ψ_{g, x}$ của U vào $L(M, N)$ là lớp C^r.
+Nói cách khác, E là một bó G-vectơ lớp C^r nếu với mọi $(g_0, x_0) \in G \times X$ điều kiện sau đây được thỏa mãn: tồn tại một lân cận mở U của $(g_0, x_0)$ trong $G \times X$ sao cho, nếu $E' | U$ (tương ứng $E' | φ(U)$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng N) bằng một biểu đồ vectơ, thì ánh xạ $(g, x) ↦ ψ_{g, x}$ của U vào $L(M, N)$ là lớp C^r.
 
 Ánh xạ ψ hiển nhiên là song ánh và suy ra từ tiêu chuẩn địa phương ở trên rằng ψ^{-1} là một $φ^{-1}$-cấu xạ của các bó vectơ, do đó ψ là một $φ$-đẳng cấu của các bó vectơ.
 
-Một bó G-vectơ tầm thường có cơ sở X là một bó vectơ $X × F$ (trong đó F là một không gian chuẩn hóa đầy đủ) với luật phép toán $(g, (x, f)) ↦ (gx, f)$ của G trên $X × F$.
+Một bó G-vectơ tầm thường có cơ sở X là một bó vectơ $X \times F$ (trong đó F là một không gian chuẩn hóa đầy đủ) với luật phép toán $(g, (x, f)) ↦ (gx, f)$ của G trên $X \times F$.
 
 Ta lại giả sử các giả thiết và ký hiệu đứng trước Định nghĩa 4 và lấy thêm τ là một hàm tử vectơ lớp C^r đối với các đẳng cấu (*Differentiable and Analytic Manifolds*, R, 7.6.6). Khi đó τE là một bó vectơ có không gian cơ sở X. Với mọi $x ∈ X$, thớ của nó $(τE)_x$ bằng $τ(E_x)$. Với mọi không gian chuẩn hóa $N_1, N_2$, ký hiệu $Isom(N_1, N_2)$ là tập hợp các đẳng cấu của $N_1$ lên $N_2$. Nếu $g ∈ G$, thì
 
@@ -561,7 +561,7 @@ Cho $g_0, x_0, U, M, N$ như trong đoạn sau Định nghĩa 4. Khi đó ánh x
 
 *Cho G là một nhóm Lie, X là một đa tạp lớp C^r ($r ≥ 2$) và $(g, x) ↦ gx$ là một luật tác động trái lớp C^r của G trên X, do đó, bằng cách chuyển cấu trúc, tồn tại một luật tác động trái của G trên TX. Với luật này, TX là một bó G-vectơ lớp $C^{r-1}$.*
 
-Cho pr_1 (tương ứng pr_2) là phép chiếu chính tắc của $G × X$ lên G (tương ứng X) và cho E_1 (tương ứng E_2) là ảnh ngược của TG (tương ứng TX) đối với pr_1 (tương ứng pr_2). Khi đó bó vectơ $T(G × X)$ là tổng trực tiếp của E_1 và E_2. Cho $i: E_2 → T(G × X)$ và $q: T(G × X) → E_2$ là các cấu xạ bó vectơ chính tắc được xác định bởi phân tích này thành một tổng trực tiếp. Cho φ là ánh xạ $(g, x) ↦ (g, gx)$ của $G × X$ vào $G × X$. Khi đó ánh xạ được ký hiệu là ψ trong Định nghĩa 4 (trong đó đặt $E = TX$) chính là $q ∘ T(φ) ∘ i$. Nhưng $T(φ)$ là một φ-cấu xạ của các bó vectơ lớp $C^{r-1}$ (*Differentiable and Analytic Manifolds*, R, 8.1.2).
+Cho pr_1 (tương ứng pr_2) là phép chiếu chính tắc của $G \times X$ lên G (tương ứng X) và cho E_1 (tương ứng E_2) là ảnh ngược của TG (tương ứng TX) đối với pr_1 (tương ứng pr_2). Khi đó bó vectơ $T(G \times X)$ là tổng trực tiếp của E_1 và E_2. Cho $i: E_2 \to T(G \times X)$ và $q: T(G \times X) \to E_2$ là các cấu xạ bó vectơ chính tắc được xác định bởi phân tích này thành một tổng trực tiếp. Cho φ là ánh xạ $(g, x) ↦ (g, gx)$ của $G \times X$ vào $G \times X$. Khi đó ánh xạ được ký hiệu là ψ trong Định nghĩa 4 (trong đó đặt $E = TX$) chính là $q ∘ T(φ) ∘ i$. Nhưng $T(φ)$ là một φ-cấu xạ của các bó vectơ lớp $C^{r-1}$ (*Differentiable and Analytic Manifolds*, R, 8.1.2).
 
 #### Hệ quả {#lie-iii-s1-n8-cor-1 .statement}
 

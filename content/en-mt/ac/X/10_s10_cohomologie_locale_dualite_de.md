@@ -228,9 +228,9 @@ $$
 #### Remark 2 {#ac-x-s10-n2-rem-2 .statement}
 
 Let
-$
+$$
 (\mathcal{E}) \quad 0 \to M \to N \to P \to 0
-$
+$$
 be an exact sequence of a-modules. Using A, X, p. 104, prop. 3 and p. 106, prop. 4, one proves that the following diagrams are commutative:
 
 $$

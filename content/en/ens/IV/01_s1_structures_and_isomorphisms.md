@@ -40,9 +40,9 @@ subsections:
       title: EQUIVALENT SPECIES OF STRUCTURES
       page: 268
       pdf_page: 273
-statements: 11
+statements: 17
 exercises: 1
-content_sha256: cb0ba0aa51c27cd635da1ba9e5c5d3b4143cd0a7ff9702c62051fac7eeb01b20
+content_sha256: eea0b4fb7953196bcb3192568217195c64bcdffb2379b68f2e974978b30fd0c2
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -283,9 +283,11 @@ and let $F'_j=U_j\{E'_1,\ldots,E'_n,\mathscr{G}'\}$ $(1\leq j\leq r)$. Then $(h_
 
 It is clear that the terms $x_1,\ldots,x_n$ are intrinsic for $s$. In many cases, the terms $U_1,\ldots,U_r$ are certain of the letters $x_1,\ldots,x_n$; the structure of species $\Theta$ deduced from $s$ by the procedure $P$ is then said to be a structure underlying $s$.
 
-**Examples**
+*Examples*
 
-\* (1) The species of topological group structures has a single principal base set $A$, no auxiliary base set, and the corresponding generic structure is a pair $(s_1,s_2)$ ($s_1$ being the graph of the law of composition on $A$, and $s_2$ the set of open sets in the topology of $A$; cf. General Topology, Chapter III, § 1). Each of the terms $s_1,s_2$ is a procedure of deduction and provides respectively the group structure and the topology underlying the topological group structure $(s_1,s_2)$.
+#### Example 1 {#ens-iv-s1-n6-exa-1 .statement tag=03VE}
+
+The species of topological group structures has a single principal base set $A$, no auxiliary base set, and the corresponding generic structure is a pair $(s_1,s_2)$ ($s_1$ being the graph of the law of composition on $A$, and $s_2$ the set of open sets in the topology of $A$; cf. General Topology, Chapter III, § 1). Each of the terms $s_1,s_2$ is a procedure of deduction and provides respectively the group structure and the topology underlying the topological group structure $(s_1,s_2)$.
 
 Likewise, from a vector space structure can be deduced an underlying commutative group structure. From a ring structure can be deduced an underlying commutative group structure and a (multiplicative) semigroup
 
@@ -294,7 +296,9 @@ STRUCTURES
 
 structure. From the structure of a differentiable manifold can be deduced an underlying topology, etc.
 
-(2) The species of vector space structures over $\mathbf{C}$ (resp. $\mathbf{R}$) has a principal base set $E$, an auxiliary base set equal to $\mathbf{C}$ (resp. $\mathbf{R}$), and typical characterization
+#### Example 2 {#ens-iv-s1-n6-exa-2 .statement tag=03VF}
+
+The species of vector space structures over $\mathbf{C}$ (resp. $\mathbf{R}$) has a principal base set $E$, an auxiliary base set equal to $\mathbf{C}$ (resp. $\mathbf{R}$), and typical characterization
 
 $$
 s_1\in\mathfrak{P}((E\times E)\times E)\qquad\text{and}\qquad s_2\in\mathfrak{P}((\mathbf{C}\times E)\times E)
@@ -304,9 +308,13 @@ $$
 
 The pair $(s_1,s_2\cap((\mathbf{R}\times E)\times E))$ is a procedure of deduction of a vector space structure over $\mathbf{R}$ from a vector space structure over $\mathbf{C}$ (“restriction of the field of scalars to $\mathbf{R}$”). \*
 
-(3) Suppose that $\Theta$ has the same (principal and auxiliary) base sets as $\Sigma$, and the same typical characterization. If, moreover, the axiom of $\Sigma$ implies (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be poorer than $\Sigma$, and $\Sigma$ is richer than $\Theta$. Every structure of species $\Sigma$, in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, is then also a structure of species $\Theta$. For example, the species of structures of totally ordered sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s\cup s^{-1}=A\times A$) is richer than the species of order structures. \*The species of commutative group structures is richer than the species of group structures. The species of compact topological space structures is richer than the species of topological structures, etc. \*
+#### Example 3 {#ens-iv-s1-n6-exa-3 .statement tag=03VG}
 
-\* (4) When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its centre. When $\Sigma$ is the species of vector space structures over a field $K$, and when $\Theta$ is the species of algebraic structures over $K$, there are defined procedures of deduction which associate with every vector space over $K$ its tensor algebra or its exterior algebra. We shall meet many other examples later in this series. \*
+Suppose that $\Theta$ has the same (principal and auxiliary) base sets as $\Sigma$, and the same typical characterization. If, moreover, the axiom of $\Sigma$ implies (in $\mathscr{T}$) the axiom of $\Theta$, it is clear that the term $s$ is a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$. $\Theta$ is then said to be poorer than $\Sigma$, and $\Sigma$ is richer than $\Theta$. Every structure of species $\Sigma$, in a theory $\mathscr{T}'$ which is stronger than $\mathscr{T}$, is then also a structure of species $\Theta$. For example, the species of structures of totally ordered sets (obtained by taking as axiom the conjunction of the axiom of order structures (no. 4, Example 1) and the relation $s\cup s^{-1}=A\times A$) is richer than the species of order structures. \*The species of commutative group structures is richer than the species of group structures. The species of compact topological space structures is richer than the species of topological structures, etc. \*
+
+#### Example 4 {#ens-iv-s1-n6-exa-4 .statement}
+
+When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its centre. When $\Sigma$ is the species of vector space structures over a field $K$, and when $\Theta$ is the species of algebraic structures over $K$, there are defined procedures of deduction which associate with every vector space over $K$ its tensor algebra or its exterior algebra. We shall meet many other examples later in this series. \*
 
 #### Remark {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 
@@ -332,9 +340,11 @@ CST7. *Let $\mathscr{Y},\mathscr{Y}'$ be two structures of species $\Sigma$ on t
 
 In practice, we make no distinction between the theories $\mathscr{T}_{\Sigma}$ and $\mathscr{T}_{\Theta}$ of two equivalent species of structures.
 
-## Examples
+*Examples*
 
-\* (1) Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set $A$, and its generic structure consists of a single letter $F$; the typical characterization of $\Sigma$ is $F\in\mathscr{P}((A\times A)\times A)$, and we denote the axiom of $\Sigma$ by $R\{A,F\}$. This axiom implies in particular that $F$ is the graph of a function (the “law of composition” of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_{\Sigma}$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A,F\}$ which is a functional graph in $\mathscr{P}((\mathbf{Z}\times A)\times A)$ and satisfies the following relation $B\{M,A,F\}$:
+#### Example 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
+
+Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set $A$, and its generic structure consists of a single letter $F$; the typical characterization of $\Sigma$ is $F\in\mathscr{P}((A\times A)\times A)$, and we denote the axiom of $\Sigma$ by $R\{A,F\}$. This axiom implies in particular that $F$ is the graph of a function (the “law of composition” of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_{\Sigma}$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A,F\}$ which is a functional graph in $\mathscr{P}((\mathbf{Z}\times A)\times A)$ and satisfies the following relation $B\{M,A,F\}$:
 
 $$
 (\forall x)(\forall y)(\forall n)((x\in A\ \text{and}\ y\in A\ \text{and}\ n\in\mathbf{Z})
@@ -373,7 +383,9 @@ and the axiom
 
 It is immediately verified that the terms F, M constitute a procedure of deduction of a structure of species $\Theta$ from a structure of species $\Sigma$, and that the term G is a procedure of deduction of a structure of species $\Sigma$ from a structure of species $\Theta$. Furthermore, the condition (3) above is trivially satisfied. We may therefore say that the species of commutative group structures and the species of $\mathbf{Z}$-module structures are equivalent.
 
-(2) Let $\Sigma$ be the species of topological structures (no. 4, Example 3), let $A$ be the (principal) base set, and let $V$ be the generic structure of $\Sigma$. Consider the relation
+#### Example 2 {#ens-iv-s1-n7-exa-2 .statement tag=03VJ}
+
+Let $\Sigma$ be the species of topological structures (no. 4, Example 3), let $A$ be the (principal) base set, and let $V$ be the generic structure of $\Sigma$. Consider the relation
 
 $$x \in A \text{ and } X \subset A \text{ and } (\forall U)((U \in V \text{ and } x \in U) \Rightarrow (X \cap U \neq \varnothing)).$$
 

@@ -273,7 +273,7 @@ Let ρ : A → B be a local homomorphism of noetherian local rings, N a finitely
 
 #### Corollary {#ac-x-s5-n5-cor-1 .statement}
 
-Let k be a field, Λ a noetherian local k-algebra, x = (x_1, ..., x_r) a sequence of elements of m_A, and M a finitely generated Λ-module. Let Ā and Ĝ be the completions of A and M for their $(x_1Ā + ... + x_rĀ)$-adic topology; let us denote by u : k[T_1, ..., T_r] → Ā the unique homomorphism of k-algebras such that u(T_i) = x_i for i = 1, ..., r, and by ū : k[[T_1, ..., T_r]] → Ā the unique continuous homomorphism extending it. The following conditions are equivalent:
+Let k be a field, Λ a noetherian local k-algebra, x = (x_1, ..., x_r) a sequence of elements of m_A, and M a finitely generated Λ-module. Let Ā and Ĝ be the completions of A and M for their $(x_1\bar{A} + ... + x_r\bar{A})$-adic topology; let us denote by u : k[T_1, ..., T_r] → Ā the unique homomorphism of k-algebras such that u(T_i) = x_i for i = 1, ..., r, and by ū : k[[T_1, ..., T_r]] → Ā the unique continuous homomorphism extending it. The following conditions are equivalent:
 
 (i) the sequence $x$ is $M$-regular;
 (ii) the homomorphism $u$ makes $M$ into a flat $k[T_1, \ldots, T_r]$-module;

@@ -362,19 +362,19 @@ $\hat{E}$ (E một đại số): III, § 1, no. 2.
 $\eta_c, \eta_E, \eta$ (E một đại số, c một phần tử khả nghịch): III, § 1, no. 3.
 
 T(u), N(u): III, § 2, no. 3.
-\bar{u}: III, § 2, no. 4.
-H: III, § 2, no. 5.
+$\bar{u}$ : III, § 2, no. 4.
+$H$ : III, § 2, no. 5.
 Lib_A(I), Libas_A(I), Libasc_A(I): III, § 2, no. 7.
-U((x_i)_{i \in I}): III, § 2, no. 8.
-A[(x_i)_{i \in I}], A[x_i]_{i \in I}: III, § 2, no. 9.
-A[(X_i)_{i \in I}]: III, § 2, no. 9.
-A[X_1, \ldots, X_n]: III, § 2, no. 9.
-A[X], A[X, Y], A[X, Y, Z]: III, § 2, no. 9.
+$U((x_i)_{i \in I})$ : III, § 2, no. 8.
+$A[(x_i)_{i \in I}], A[x_i]_{i \in I}$ : III, § 2, no. 9.
+$A[(X_i)_{i \in I}]$ : III, § 2, no. 9.
+$A[X_1, \ldots, X_n]$ : III, § 2, no. 9.
+$A[X], A[X, Y], A[X, Y, Z]$ : III, § 2, no. 9.
 X^\nu (\nu \text{ một chỉ số đa}): III, § 2, no. 9.
 
 \sum_s \xi_s e_s, \sum_s \xi_s . s (s \text{ các phần tử của một nửa nhóm}): III, § 2, no. 10.
-A[[X_i]]_{i \in I}: III, § 2, no. 11.
-\sum_\nu \alpha_\nu X^\nu: III, § 2, no. 11.
+$A[[X_i]]_{i \in I}$ : III, § 2, no. 11.
+$\sum_\nu \alpha_\nu X^\nu$ : III, § 2, no. 11.
 \omega(u), \omega_K(u) (u \text{ một chuỗi lũy thừa hình thức}): III, § 2, no. 11.
 
 \bigotimes_{i \in I} E_i, E_1 \otimes_A E_2 \otimes \cdots \otimes_A E_n, E_1 \otimes E_2 \otimes \cdots \otimes E_n (E_i \text{ các A-đại số}): III, § 4, no. 1.
@@ -391,16 +391,16 @@ g \bigotimes_{i \in I} E_i, E^g \otimes_A F, gG^{\otimes n}, g \bigotimes_{i \in
 \bigotimes^n M, T^n(M), \mathrm{Tens}^n(M), T^n_A(M), T(M), \mathrm{Tens}(M), T_A(M) (M một A-môđun): III, § 5, no. 1.
 T(u), T^n(u) (u \text{ một ánh xạ tuyến tính}): III, § 5, no. 2.
 T_J^1(M), T_q^p(M) (M một môđun): III, § 5, no. 6.
-\alpha_q^f(z), e_f^g: III, § 5, no. 6.
-\alpha_{v_p}^{\lambda \cdots \mu}: III, § 5, no. 6.
+$\alpha_q^f(z), e_f^g$ : III, § 5, no. 6.
+$\alpha_{v_p}^{\lambda \cdots \mu}$ : III, § 5, no. 6.
 c_j^i: III, § 5, no. 6
 S(M), S_A(M), \mathrm{Sym}(M): III, § 6, no. 1.
 \mathfrak{g}', \mathfrak{g}'_M, \mathfrak{g}'_n: III, § 6, no. 1.
 S^n(M), S^n(u), S(u) (M một môđun, u một ánh xạ tuyến tính): III, § 6, nos. 1 và 2.
-s.z: III, § 6, no. 3.
+$s.z$ : III, § 6, no. 3.
 e^\alpha (\alpha \text{ một chỉ số đa}): III, § 6, no. 6.
 \wedge(M), \wedge_A(M), \mathrm{Alt}(M): III, § 7, no. 1.
-\mathfrak{g}'', \mathfrak{g}''_M, \mathfrak{g}''_n: III, § 7, no. 1.
+$\mathfrak{g}'', \mathfrak{g}''_M, \mathfrak{g}''_n$ : III, § 7, no. 1.
 
 $\wedge^n(M)$: III, § 7, no. 1.
 $u \wedge v, x_1 \wedge x_2 \wedge \cdots \wedge x_n$: III, § 7, no. 1.
@@ -448,11 +448,11 @@ $u.v, u._mv$ ($u, v$ là các ánh xạ đa tuyến tính đối xứng): III, �
 $u \wedge v$ ($u, v$ là các ánh xạ đa tuyến tính phản xứng): III, § 11, no. 2.
 $\theta_T, \theta_S, \theta_\Lambda$: III, § 11, no. 5.
 
-u \perp x, i(x): III, § 11, no. 6.
-x \perp u, i'(x): III, § 11, no. 6.
-x \perp u, i(u): III, § 11, no. 7.
-u \perp x, i'(u): III, § 11, no. 7.
-G_p(E), G_{n,p}(K): III, § 11, no. 13.
+$u \perp x, i(x)$ : III, § 11, no. 6.
+$x \perp u, i'(x)$ : III, § 11, no. 6.
+$x \perp u, i(u)$ : III, § 11, no. 7.
+$u \perp x, i'(u)$ : III, § 11, no. 7.
+$G_p(E), G_{n,p}(K)$ : III, § 11, no. 13.
 a(x, y, z): III, Phụ lục, no. 1.
 ME: III, § 2, Bài tập 13.
 E \* F: III, § 5, Bài tập 6.

@@ -105,7 +105,7 @@ $$
 
 ### 3. Phép thế
 
-Cho K là một trường giao hoán, E một K-đại số kết hợp có đơn vị, $x = (x_i)_{i \in I}$ một họ các phần tử từng đôi một hoán vị được của E. Đặt $B = K[(X_i)_{i \in I}]$ và $S_x$ là tập hợp всех các $v \in B$ khác không sao cho $v(x)$ khả nghịch trong E. Cho $u \in B,\ v \in S_x$ và $f = \frac{u}{v} \in K((X_i)_{i \in I})$. Phần tử $u(x)\ v(x)^{-1} = v(x)^{-1}u(x)$ được xác định trong E; hơn nữa, nếu $u_1,\ v_1$ là hai đa thức sao cho $f = \frac{u_1}{v_1}$ và $v_1 \in S_x$, thì $uv_1 = vu_1$, do đó $u(x)v_1(x) = v(x)u_1(x)$ và vì thế
+Cho K là một trường giao hoán, E một K-đại số kết hợp có đơn vị, $x = (x_i)_{i \in I}$ một họ các phần tử từng đôi một hoán vị được của E. Đặt $B = K[(X_i)_{i \in I}]$ và $S_x$ là tập hợp tất cả các $v \in B$ khác không sao cho $v(x)$ khả nghịch trong E. Cho $u \in B,\ v \in S_x$ và $f = \frac{u}{v} \in K((X_i)_{i \in I})$. Phần tử $u(x)\ v(x)^{-1} = v(x)^{-1}u(x)$ được xác định trong E; hơn nữa, nếu $u_1,\ v_1$ là hai đa thức sao cho $f = \frac{u_1}{v_1}$ và $v_1 \in S_x$, thì $uv_1 = vu_1$, do đó $u(x)v_1(x) = v(x)u_1(x)$ và vì thế
 $$
 u(x)\ v(x)^{-1} = u_1(x)\ v_1(x)^{-1}.
 $$

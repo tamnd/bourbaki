@@ -73,13 +73,12 @@ $$
 
 The preceding measure $\Gamma$ plays the role of a Gaussian measure in infinite dimensions. It seems indeed that Lévy had confusedly hoped to define in an intrinsic manner a Gaussian measure on every infinite-dimensional Hilbert space. In fact, as shown by Lévy and Wiener, the measure $\Gamma$ is invariant in a certain sense$^{(4)}$ under the automorphisms of $l^2$; unfortunately, the set $l^2$ of square-summable sequences $(x_1, x_2, \ldots, x_n, \ldots)$ has measure zero for $\Gamma$. It is now known that one must be content to have a Gaussian *promesure* on an infinite-dimensional Hilbert space.$^{(5)}$
 
-We owe to Wiener the essential progress: if one does not have a reasonable Gaussian measure on an infinite-dimensional Hilbert space, one can
+We owe to Wiener the essential progress: if one does not have a reasonable Gaussian measure on an infinite-dimensional Hilbert space, one can construct by the operation of primitive a measure $w$ on a space of continuous functions starting from a Gaussian promeasure (cf. §6, No. 7, Th. 1 for the details). We shall explain succinctly Wiener’s original construction of $w$ (X); it is directly influenced by the relation $\Gamma = \lim_{m \to \infty} \sigma_{m, \sqrt{m}}$ of Gâteaux and Lévy. For every integer $m \geqslant 1$, denote by $H_m$ the set of functions on $T = ]0, 1]$ that are constant on each of the intervals $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$ (for $k = 1, 2, \ldots, m$), and by $\pi_m$ the measure of mass 1, invariant under rotation, on the Euclidean sphere of radius 1 in $\mathbf{R}^m$. Let $f_m$ be the isomorphism of $H_m$ onto $\mathbf{R}^m$ that associates, to each function taking the value $a_k$ on the interval $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$, the vector $(a_1, a_2 - a_1, \ldots, a_m - a_{m-1})$ (whence the term ‘differential space’ dear to Wiener); denote by $w_m$ the measure on $H_m$ that is the image of $\pi_m$ under $f_m^{-1}$. Wiener defined the desired measure $w$ as the limit of the measures $w_m$. To be precise, let us denote by $H$ the set of regulated functions on $T$, with the topology of uniform convergence (we have $H_m \subset H$ for every integer $m \geqslant 1$); for every bounded uniformly continuous function $F$ on $H$, the limit $A\{F\} = \lim_{m \to \infty} \int_{H_m} F(x) \, dw_m(x)$ exists; next, Wiener obtained certain upper bounds by a subtle analysis of the fluctuations of the game of heads-or-tails, and taking up again the compactness arguments highlighted by Daniell, he showed that one is under the conditions for applying Daniell’s extension theorem. One concludes the existence of a measure $w$ carried by $\mathcal{C}(T)$ and such that $A\{F\} = \int_{\mathcal{C}(T)} F(x) \, dw(x)$. Wiener was then able to show that the measure $w$ corresponds to Einstein’s hypotheses,(6) and his estimates allowed him to give a precise meaning to Perrin’s remark on functions without derivatives: the set of functions satisfying a Lipschitz condition of order $\frac{1}{2}$ is negligible for $w$ (however, for every $a$ with $0 < a < \frac{1}{2}$, almost every function satisfies a Lipschitz condition of order $a$).
 
-\footnotetext{
+
 (4) More precisely, one has the following result. Let $U$ be an automorphism of the Hilbert space $l^2$, and $(u_{mn})$ the matrix of $U$. Let E be the vector space of all real sequences $(x_n)_{n \geqslant 1}$ and F the subspace of E formed by the sequences $(x_n)_{n \geqslant 1}$ for which the series $\sum_{n \geqslant 1} u_{mn} x_n$ converges for every $m \geqslant 1$. The formula $(\widetilde{U}x)_m = \sum_{n \geqslant 1} u_{mn} x_n$ defines a linear mapping $\widetilde{U}$ of F into E, the measure $\Gamma$ is concentrated on F, and $\widetilde{U}(\Gamma) = \Gamma$.
 
 (5) This concept was introduced under the name “weak canonical distribution” by I. E. Segal (*Trans. Amer. Math. Soc.* **88** (1958), 12–42). One owes to this author a detailed study of Gaussian promeasures, and their application to certain problems in the quantum theory of fields.
-} construct by the operation of primitive a measure $w$ on a space of continuous functions starting from a Gaussian promeasure (cf. §6, No. 7, Th. 1 for the details). We shall explain succinctly Wiener’s original construction of $w$ (X); it is directly influenced by the relation $\Gamma = \lim_{m \to \infty} \sigma_{m, \sqrt{m}}$ of Gâteaux and Lévy. For every integer $m \geqslant 1$, denote by $H_m$ the set of functions on $T = ]0, 1]$ that are constant on each of the intervals $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$ (for $k = 1, 2, \ldots, m$), and by $\pi_m$ the measure of mass 1, invariant under rotation, on the Euclidean sphere of radius 1 in $\mathbf{R}^m$. Let $f_m$ be the isomorphism of $H_m$ onto $\mathbf{R}^m$ that associates, to each function taking the value $a_k$ on the interval $\left[ \frac{k-1}{m}, \frac{k}{m} \right]$, the vector $(a_1, a_2 - a_1, \ldots, a_m - a_{m-1})$ (whence the term ‘differential space’ dear to Wiener); denote by $w_m$ the measure on $H_m$ that is the image of $\pi_m$ under $f_m^{-1}$. Wiener defined the desired measure $w$ as the limit of the measures $w_m$. To be precise, let us denote by $H$ the set of regulated functions on $T$, with the topology of uniform convergence (we have $H_m \subset H$ for every integer $m \geqslant 1$); for every bounded uniformly continuous function $F$ on $H$, the limit $A\{F\} = \lim_{m \to \infty} \int_{H_m} F(x) \, dw_m(x)$ exists; next, Wiener obtained certain upper bounds by a subtle analysis of the fluctuations of the game of heads-or-tails, and taking up again the compactness arguments highlighted by Daniell, he showed that one is under the conditions for applying Daniell’s extension theorem. One concludes the existence of a measure $w$ carried by $\mathcal{C}(T)$ and such that $A\{F\} = \int_{\mathcal{C}(T)} F(x) \, dw(x)$. Wiener was then able to show that the measure $w$ corresponds to Einstein’s hypotheses,(6) and his estimates allowed him to give a precise meaning to Perrin’s remark on functions without derivatives: the set of functions satisfying a Lipschitz condition of order $\frac{1}{2}$ is negligible for $w$ (however, for every $a$ with $0 < a < \frac{1}{2}$, almost every function satisfies a Lipschitz condition of order $a$).
 
 Today, numerous constructions of the Wiener measure are known. Thus, Paley and Wiener use random Fourier series (XI, Ch. IX): for every real
 
@@ -106,13 +105,14 @@ This is a theory that has developed mainly in response to the needs of Probabili
 
 Steinhaus (V) appears to have been the first to have felt the need for considering (for the game of heads-or-tails) not only the inverse system $(P_n)_{n \geq 1}$ but its limit as well. A little earlier, in 1919, Daniell (VI, $b$) had proved in general the existence of such inverse limits,$^{(7)}$ but this result seems to have remained unknown in Europe. It was rediscovered in 1933 by Kolmogoroff in the work (XII) where the author formulates the axiomatic conception of Probability Theory. The proofs of Daniell and Kolmogoroff make use of a compactness argument, which is substantially the same as the one we have employed in Th. 2 of §4, No. 3 and which rests on Dini's theorem.
 
-The Daniell–Kolmogoroff theorem left nothing to be desired for the case of random sequences $(X_n)_{n \geq 1}$, but the study of random functions undertaken from 1935 on by Kolmogoroff, Feller and Doob harbors difficulties of quite another order. Consider for example an interval $T$ of $\mathbf{R}$, representing the set of instants of observation of a 'stochastic process'; the set of possible trajectories is the product space $\mathbf{R}^T$, regarded as the inverse limit of the partial products $\mathbf{R}^H$, where $H$ runs over the set of finite subsets of $T$; one generally assumes given an inverse system of measures $(\mu_H)$ (cf. §4, No. 2). Kolmogoroff's theorem does indeed yield a measure on $\mathbf{R}^T$, but it is defined on a tribe notably smaller than the Borel tribe.$^{(8)}$ A variant of Kolmogoroff's construction, which yields a measure on a topological space, is due to Kakutani (*Proc. Imp. Acad. Tokyo* 19 (1943), 184–188), and has been rediscovered several times since: one regards $\mu_H$ as a measure on $\overline{\mathbf{R}}^H$ carried by $\mathbf{R}^H$;$^{(9)}$ the compact space $E = \overline{\mathbf{R}}^T$ is the inverse limit of the finite products $\overline{\mathbf{R}}^H$ and one can define a measure $\mu$ on $E$ as the inverse limit of the $\mu_H$ (cf. Ch. III, §4, No. 5). However, this procedure has a serious inconvenience; the elements of $\overline{\mathbf{R}}^T$ possess no regularity property that permits advancing the probabilistic study of the process—or even simply
+The Daniell–Kolmogoroff theorem left nothing to be desired for the case of random sequences $(X_n)_{n \geq 1}$, but the study of random functions undertaken from 1935 on by Kolmogoroff, Feller and Doob harbors difficulties of quite another order. Consider for example an interval $T$ of $\mathbf{R}$, representing the set of instants of observation of a 'stochastic process'; the set of possible trajectories is the product space $\mathbf{R}^T$, regarded as the inverse limit of the partial products $\mathbf{R}^H$, where $H$ runs over the set of finite subsets of $T$; one generally assumes given an inverse system of measures $(\mu_H)$ (cf. §4, No. 2). Kolmogoroff's theorem does indeed yield a measure on $\mathbf{R}^T$, but it is defined on a tribe notably smaller than the Borel tribe.$^{(8)}$ A variant of Kolmogoroff's construction, which yields a measure on a topological space, is due to Kakutani (*Proc. Imp. Acad. Tokyo* 19 (1943), 184–188), and has been rediscovered several times since: one regards $\mu_H$ as a measure on $\overline{\mathbf{R}}^H$ carried by $\mathbf{R}^H$;$^{(9)}$ the compact space $E = \overline{\mathbf{R}}^T$ is the inverse limit of the finite products $\overline{\mathbf{R}}^H$ and one can define a measure $\mu$ on $E$ as the inverse limit of the $\mu_H$ (cf. Ch. III, §4, No. 5). However, this procedure has a serious inconvenience; the elements of $\overline{\mathbf{R}}^T$ possess no regularity property that permits advancing the probabilistic study of the process—or even simply eliminating the parasitic values $\pm \infty$ introduced by the compactification $\overline{\mathbf{R}}$ of $\mathbf{R}$. This can be remedied by inducing the measure $\mu$ of $\overline{\mathbf{R}}^T$ on a particular subspace (for example $\mathcal{C}(T)$ in the case of Brownian motion); the fundamental difficulty arises from the fact that a function space, even one of the usual type, is not necessarily $\mu$-measurable in $\overline{\mathbf{R}}^T$, and even the choice of function space may be questionable.$^{(10)}$
 
-\footnotetext{
+
 (7) Daniell treated the case of measures on a product $\prod_{n \geq 1} I_n$ of compact intervals of $\mathbf{R}$, but his method extends immediately to the case of an arbitrary product of compact spaces; this is essentially the method we have used in Ch. III, §4, No. 5.
+
 (8) Kolmogoroff's measure is only defined for the Borel sets in $\mathbf{R}^T$ of the form $A \times \mathbf{R}^{T-D}$, where $D$ is a countable subset of $T$, and $A$ is a Borel subset of $\mathbf{R}^D$; because of this, Kolmogoroff's theorem for an arbitrary product $\mathbf{R}^T$ is an immediate consequence of the case of countable products.
+
 (9) One could replace $\overline{\mathbf{R}}$ by any compact space containing $\mathbf{R}$ as a dense subspace.
-} eliminating the parasitic values $\pm \infty$ introduced by the compactification $\overline{\mathbf{R}}$ of $\mathbf{R}$. This can be remedied by inducing the measure $\mu$ of $\overline{\mathbf{R}}^T$ on a particular subspace (for example $\mathcal{C}(T)$ in the case of Brownian motion); the fundamental difficulty arises from the fact that a function space, even one of the usual type, is not necessarily $\mu$-measurable in $\overline{\mathbf{R}}^T$, and even the choice of function space may be questionable.$^{(10)}$
 
 A decisive step was taken in 1956 by Prokhorov in a work (XIII) that has had a determining influence on the theory of stochastic processes. By putting into a suitable axiomatic form the methods used by Wiener in the article analyzed above, he established a general existence theorem for inverse limits of measures on function spaces that is a special case of Th. 1 of §4, No. 2 corresponding to Polish spaces.
 
@@ -195,7 +195,7 @@ Chapter VII:
 $\gamma_X(s) ,\ \gamma(s)$: VII, 1, 1.
 $\gamma(s)f ,\ \gamma(s)\mu$ ($f$ a function, $\mu$ a measure): VII, 1, 1.
 $d\mu(s^{-1}x)$: VII, 1, 1.
-$\delta_X(s) ,\ \delta(s) ,\ \delta(s)f ,\ \delta(s)\mu ,\ d\mu(xs)$: VII, 1, 1.
+$\delta_X(s) ,\ \delta(s) ,\ \delta(s)f ,\ \delta(s)\mu,\ d\mu(xs)$: VII, 1, 1.
 $\check{f} ,\ \check{\mu} ,\ d\mu(x^{-1})$ ($f$ a function, $\mu$ a measure): VII, 1, 1.
 $\Delta_G ,\ \Delta$: VII, 1, 3.
 $\mathrm{mod}_G \varphi ,\ \mathrm{mod}\varphi$ ($\varphi$ an automorphism): VII, 1, 4.
@@ -223,36 +223,36 @@ Chapter IX:
 
 \mathcal{F}_+(T), \mathcal{F}_+, f_A, f^0: preliminary conventions.
 \pi(p), p_A \text{ or } p|A: IX, 1, 1.
-\mathcal{P}(T; \mathbf{C}), \mathcal{P}(T; \mathbf{R}), \mathcal{P}(T), \mathcal{P}_+(T): IX, 1, 2.
+$\mathcal{P}(T; \mathbf{C}), \mathcal{P}(T; \mathbf{R}), \mathcal{P}(T), \mathcal{P}_+(T)$ : IX, 1, 2.
 w^\bullet(f), \int^\bullet f dw, \int^\bullet f(t) dw(t): IX, 1, 2.
-w^\bullet, w_K^\bullet: IX, 1, 2.
-w^+, w^-, |w|: IX, 1, 2.
+$w^\bullet, w_K^\bullet$ : IX, 1, 2.
+$w^+, w^-, |w|$ : IX, 1, 2.
 \mu(f), \mu(A): IX, 1, 5.
 \operatorname{Supp}(\mu): IX, 1, 6.
-\sum_{i \in I} \mu_i: IX, 1, 7.
+$\sum_{i \in I} \mu_i$ : IX, 1, 7.
 \mu^*(f), \mu^*(A), \int^* f d\mu, \int^* f(t) d\mu(t): IX, 1, 9.
-\mu^*: IX, 1, 9.
+$\mu^*$ : IX, 1, 9.
 \overline{\mathcal{L}}^p(T, \mu), \overline{\mathcal{L}}_F^p(T, \mu), \mathcal{L}^p(T, \mu), \mathcal{L}_F^p(T, \mu) \text{ (for } 1 \leq p \leq +\infty): IX, 1, 10.
-\overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p, \overline{\mathcal{L}}^p, \overline{\mathcal{L}}^p(\mu), \mathcal{L}^p(\mu), \mathcal{L}^p: IX, 1, 10.
-\overline{N}_p(f), N_p(f), \overline{\mathcal{N}}_F, \mathcal{N}_F: IX, 1, 10.
-L_F^p(\mu), L_F^p: IX, 1, 10.
-\int f d\mu, \mu(f), \int f(t) d\mu(t): IX, 1, 10.
-\mu_X^\bullet, \mu_X, \mu|X: IX, 2, 1.
-f \cdot \mu: IX, 2, 2.
+$\overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p, \overline{\mathcal{L}}^p, \overline{\mathcal{L}}^p(\mu), \mathcal{L}^p(\mu), \mathcal{L}^p$ : IX, 1, 10.
+$\overline{N}_p(f), N_p(f), \overline{\mathcal{N}}_F, \mathcal{N}_F$ : IX, 1, 10.
+$L_F^p(\mu), L_F^p$ : IX, 1, 10.
+$\int f d\mu, \mu(f), \int f(t) d\mu(t)$ : IX, 1, 10.
+$\mu_X^\bullet, \mu_X, \mu|X$ : IX, 2, 1.
+$f \cdot \mu$ : IX, 2, 2.
 \pi(\mu): IX, 2, 3.
-\lambda \otimes \mu: IX, 2, 5.
+$\lambda \otimes \mu$ : IX, 2, 5.
 \mathcal{K}(T), \mathcal{B}(T): conventions of §3.
 \mathcal{C}^b(T; F), \mathcal{C}^b(T), \mathcal{C}^b, \mathcal{C}_+^b(T), \mathcal{C}_+^b: conventions of §5.
 \mathcal{M}^b(T; \mathbf{C}), \mathcal{M}^b(T), \mathcal{M}^b, \mathcal{M}_+^b(T), \mathcal{M}_+^b: conventions of §5.
-\mathcal{L}\mu: IX, 5, 7.
-\mathcal{F}(E): IX, 6, 1.
+$\mathcal{L}\mu$ : IX, 5, 7.
+$\mathcal{F}(E)$ : IX, 6, 1.
 p_V, p_{VW}: IX, 6, 1.
-\mathcal{Q}(E): IX, 6, 1.
-\tilde{\lambda}: IX, 6, 1.
+$\mathcal{Q}(E)$ : IX, 6, 1.
+$\tilde{\lambda}$ : IX, 6, 1.
 u(\mu) (\mu \text{ a promeasure}): IX, 6, 2.
 \mathcal{F}\mu (\mu \text{ a promeasure or a measure}): IX, 6, 3.
-\Gamma_Q, \gamma_a: IX, 6, 5.
-\gamma_C: IX, 6, 6.
+$\Gamma_Q, \gamma_a$ : IX, 6, 5.
+$\gamma_C$ : IX, 6, 6.
 \operatorname{Tr}(Q/H): IX, Annex, 1.
 u^*: IX, Annex, 2.
 

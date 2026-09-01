@@ -489,8 +489,8 @@ $$
 
 One can use formula (33) (resp. (34)) to calculate the $\beta_n$ (resp. the $u_n(x)$) by using the following lemma on entire series:
 
-\footnotetext{1 Later we shall study series whose general terms are of the form $c_n z^n$ ($c_n \in \mathbf{C}, z \in \mathbf{C}$), which one calls *entire series*; in particular we shall see that when such a series is absolutely convergent for $z = z_0$ it is *normally convergent* for $|z| \leq |z_0|$.
-\footnotetext{2 It follows from the theory of entire series that when one of these series is absolutely convergent in a neighbourhood $V$ of 0, the other is absolutely convergent in a neighbourhood $W \subset V$ of 0.}
+(1) Later we shall study series whose general terms are of the form $c_n z^n$ ($c_n \in \mathbf{C}, z \in \mathbf{C}$), which one calls *entire series*; in particular we shall see that when such a series is absolutely convergent for $z = z_0$ it is *normally convergent* for $|z| \leq |z_0|$.
+(2) It follows from the theory of entire series that when one of these series is absolutely convergent in a neighbourhood $V$ of 0, the other is absolutely convergent in a neighbourhood $W \subset V$ of 0.
 
 emma. **If two entire series** $\sum_{n=0}^{\infty} c_n \lambda^n,\ \sum_{n=0}^{\infty} d_n \lambda^n$ **are absolutely convergent for all** $\lambda$ **in a neighbourhood of** $0$, **and if** $\sum_{n=0}^{\infty} c_n \lambda^n = \sum_{n=0}^{\infty} d_n \lambda^n$ **for these values of** $\lambda$, **then** $c_n = d_n$ **for all integers** $n \geqslant 0$.
 

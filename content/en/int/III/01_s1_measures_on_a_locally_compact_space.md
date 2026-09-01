@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
+content_sha256: bfe62c6a2655ed8665a974febcccb64ea09581f15f597b05eb60c1c1f8b230e3
 ---
 
 ## § 1. MEASURES ON A LOCALLY COMPACT SPACE
@@ -67,7 +67,7 @@ Let X be a locally compact space, E a topological vector space over $\mathbf{R}$
 
 For every compact subset K of X, the space $\mathcal{K}(X,K;E)$ may be identified with a subspace of the space of continuous functions $\mathcal{C}(K;E)$ (namely, the subspace of continuous mappings of K into E that are zero on the boundary$^1$ of K). When $\mathcal{C}(K;E)$ is equipped with the topology of uniform convergence in K, $\mathcal{K}(X,K;E)$ is a closed subspace of $\mathcal{C}(K;E)$. In particular, if E is a Fréchet space (resp. a Banach space), then so is $\mathcal{K}(X,K;E)$, because if the topology of E is defined by the semi-norms $p_n$ (resp. the norm $x \mapsto \|x\|$) then the topology of $\mathcal{K}(X,K;E)$ is defined
 
-\footnotetext{1}{The original is frontière, also translated as 'frontier' (GT, I, §1, No. 6, Def. 11).}
+(1) The original is frontière, also translated as 'frontier' (GT, I, §1, No. 6, Def. 11).
 
 by the semi-norms $f \mapsto \sup_{x \in K} p_n(f(x))$ (resp. the norm $f \mapsto \sup_{x \in K} \|f(x)\|$, denoted $\|f\|$).
 

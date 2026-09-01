@@ -101,7 +101,7 @@ $$
 
 2) Cho $M$ là một monoïde được trang bị tôpô rời rạc; giả sử rằng với mỗi $m \in M$, chỉ có hữu hạn cặp $(m', m'') \in M \times M$ sao cho $m'm'' = m$; điều này có nghĩa là luật hợp thành trong $M$ là một ánh xạ thực sự từ $M \times M$ vào $M$; khi đó các độ đo trên $M$ lập thành một đại số đối với phép chập, một đại số không là gì khác ngoài đại số *toàn bộ*
 
-\footnotetext{1 Monoïde, theo nghĩa của Bài tập 17 của Ch. VII, §1.}
+(1) Monoïde, theo nghĩa của Bài tập 17 của Ch. VII, §1.
 
 của monoïde $M$ (A, III, §2, No. 10); chúng tôi chú ý hai trường hợp đặc biệt sau:
 

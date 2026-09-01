@@ -257,13 +257,13 @@ Cho $L'$ là một nhóm con đóng của G chứa L. Khi đó $L'$ là tích n�
 
 *Cho G là một nhóm compact địa phương và H là một nhóm con chuẩn đóng của G sao cho K = G/H là compact. Khi đó mọi biểu diễn liên tục u của H trong $\mathbf{R}$, sao cho $u(s\xi s^{-1}) = u(\xi)$ với mọi $\xi \in H$ và $s \in G$, có thể được mở rộng thành một biểu diễn liên tục của G trong $\mathbf{R}$.*
 
-Đặt $L = G \times \mathbf{R}$ và gọi M là tập hợp các $(\xi, -u(\xi))$, trong đó $\xi$ chạy trên H. Hiển nhiên M là một nhóm con chuẩn đóng của L. Đặt $L' = L/M$ và gọi $\pi$ là ánh xạ chính tắc của L lên $L'$. Nhóm con của L sinh bởi M và R là H × R, do đó là đóng; vì vậy π(R) là một nhóm con đóng N của L'. Hạn chế ρ của π lên R là một biểu diễn song ánh liên tục của R lên N. Bổ đề 2 của Phụ lục 1 chứng minh rằng ρ là song liên tục. Ngoài ra, $L'/N$ đẳng cấu với $L/(H × R) = G/H$, nên là compact. Theo Mệnh đề 3, và xét đến sự kiện rằng N nằm trong tâm của L', L' là tích của N với một nhóm con khác. Do đó tồn tại một biểu diễn liên tục của L' lên N thu hẹp trên N thành ánh xạ đồng nhất. Vì vậy tồn tại một biểu diễn liên tục v của L vào R là tầm thường trên M và thu hẹp trên R thành ánh xạ đồng nhất. Với ξ ∈ H, ta có $v((\xi, 0)) = v((\xi, −u(\xi))(e, u(\xi))) = u(\xi)$, điều này hoàn tất chứng minh.
+Đặt $L = G \times \mathbf{R}$ và gọi M là tập hợp các $(\xi, -u(\xi))$, trong đó $\xi$ chạy trên H. Hiển nhiên M là một nhóm con chuẩn đóng của L. Đặt $L' = L/M$ và gọi $\pi$ là ánh xạ chính tắc của L lên $L'$. Nhóm con của L sinh bởi M và R là H × R, do đó là đóng; vì vậy π(R) là một nhóm con đóng N của L'. Hạn chế ρ của π lên R là một biểu diễn song ánh liên tục của R lên N. Bổ đề 2 của Phụ lục 1 chứng minh rằng ρ là song liên tục. Ngoài ra, $L'/N$ đẳng cấu với $L/(H \times R) = G/H$, nên là compact. Theo Mệnh đề 3, và xét đến sự kiện rằng N nằm trong tâm của L', L' là tích của N với một nhóm con khác. Do đó tồn tại một biểu diễn liên tục của L' lên N thu hẹp trên N thành ánh xạ đồng nhất. Vì vậy tồn tại một biểu diễn liên tục v của L vào R là tầm thường trên M và thu hẹp trên R thành ánh xạ đồng nhất. Với ξ ∈ H, ta có $v((\xi, 0)) = v((\xi, −u(\xi))(e, u(\xi))) = u(\xi)$, điều này hoàn tất chứng minh.
 
 #### Bổ đề 3 {#int-vii-s3-lem-3 .statement}
 
 Cho G là một nhóm tôpô được sinh bởi một lân cận compact của e. Cho H là một nhóm con đóng của G sao cho không gian thuần nhất G/H là compact. Khi đó H được sinh bởi một lân cận compact của e trong H.
 
-Cho C là một tập compact sao cho G = CH. Nếu cần, phóng đại C, ta có thể giả sử rằng C sinh ra G và rằng G = ĈH. Khi đó C^2 là compact và được phủ bởi các Ĉs (s ∈ H), là các tập mở. Vì vậy tồn tại $s_1, ..., s_n$ trong H sao cho $C^2 \subset Ĉs_1 \cup ... \cup Ĉs_n$. Gọi Γ là nhóm con của H sinh bởi các $s_i$. Khi đó $C^2 \subset CΓ$. Bằng quy nạp, suy ra rằng $C^n \subset CΓ$ với mọi n, do đó $G = CΓ$. Mọi phần tử của H có thể được viết dưới dạng ab với a ∈ C, b ∈ Γ, do đó a ∈ H, do đó $a \in C \cap H$. Vì vậy H được sinh bởi $C \cap H$ và các $s_i$, tức là bởi một tập compact.
+Cho C là một tập compact sao cho G = CH. Nếu cần, phóng đại C, ta có thể giả sử rằng C sinh ra G và rằng G = ĈH. Khi đó C^2 là compact và được phủ bởi các Ĉs (s ∈ H), là các tập mở. Vì vậy tồn tại $s_1, ..., s_n$ trong H sao cho $C^2 \subset \hat{C}s_1 \cup ... \cup \hat{C}s_n$. Gọi Γ là nhóm con của H sinh bởi các $s_i$. Khi đó $C^2 \subset CΓ$. Bằng quy nạp, suy ra rằng $C^n \subset CΓ$ với mọi n, do đó $G = CΓ$. Mọi phần tử của H có thể được viết dưới dạng ab với a ∈ C, b ∈ Γ, do đó a ∈ H, do đó $a \in C \cap H$. Vì vậy H được sinh bởi $C \cap H$ và các $s_i$, tức là bởi một tập compact.
 
 #### Bổ đề 4 {#int-vii-s3-lem-4 .statement}
 
@@ -777,7 +777,7 @@ $$
 
 trong đó N ký hiệu chuẩn trong $M_n(K)$ *được xem như một* $\mathbf{R}\text{-đại số}$, và trong đó $\lambda = 1 - \frac{\delta - 2}{\delta n}$. Chỉ cần kiểm chứng (15) đối với $X$ chạy qua một hệ
 
-\footnotetext{1Xem TVS, V, §2, No. 4, Hệ quả 1 của Định lý 2.}
+(1) Xem TVS, V, §2, No. 4, Hệ quả 1 của Định lý 2.
 
 sinh của $\mathbf{GL}(n, K)$, do đó (A, II, §10, No. 13, Hệ quả 2 của Mệnh đề 14) đối với $X$ thuộc các loại sau:
 

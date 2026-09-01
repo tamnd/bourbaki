@@ -233,9 +233,9 @@ $c_w, s_w, t_w, c, s, t : 10, 2.$
 $H^+ : 10, 3.$
 
 (D_1, D_2) (D_1, D_2 right lines or half-lines) : 10, 3.
-\mathfrak{A}, \mathfrak{A}_0, h, h' : 10, 3.
+$\mathfrak{A}, \mathfrak{A}_0, h, h'$ : 10, 3.
 |x|, \langle x, y \rangle (x, y vectors) : 10, 3.
-\cos \theta, \sin \theta, \operatorname{tg} \theta, \operatorname{cotg} \theta : 10, 3.
+$\cos \theta, \sin \theta, \operatorname{tg} \theta, \operatorname{cotg} \theta$ : 10, 3.
 \{ D_1, D_2 \}, \{ D_1, D_2 \} (D_1, D_2 half-lines in an oriented plane) : 10, 4.
 
 The reference numbers indicate successively the paragraph and the number (or exceptionally, the exercise).

@@ -265,10 +265,10 @@ Cho B là một cơ sở của E chứa e và u là một phần tử của B ph
 Trong phần sau, ta sẽ viết $\bar{u} = s(u)$, sao cho
 
 $$
-\begin{cases}
+\left\{\begin{array}{lll}
 u + \bar{u} = T(u), & u\bar{u} = \bar{u}u = N(u), & \bar{u} = u \\
 u + v = \bar{u} + \bar{v}, & \alpha u = \alpha \bar{u}, & uv = \bar{v}.\bar{u}
-\end{cases}
+\end{array}\right.
 $$
 
 với $u, v$ trong E, $\alpha \in A$; hơn nữa
@@ -408,11 +408,11 @@ $$
 
 (2) Lấy E là một *đại số bậc hai kiểu* $(\alpha, \beta)$, sao cho môđun nền của E là $\mathbf{A}^2$, với bảng phép nhân (2) (no. 3) đối với cơ sở chính tắc. Lấy s là phép liên hợp của E (no. 3, Mệnh đề 2). Khi đó, với mọi$\gamma \in \mathbf{A}$, mở rộng Cayley F của$(\mathbf{E}, s)$xác định bởi$\gamma$được gọi là *đại số quaternion kiểu*$(\alpha, \beta, \gamma)$, là *kết hợp* theo no. 3, Mệnh đề 1 và Mệnh đề 5 ở trên; môđun nền của nó là$\mathbf{A}^4$và, nếu$(e, i, j, k)$ký hiệu cơ sở chính tắc của$\mathbf{A}^4$, thì bảng phép nhân tương ứng được cho bởi
 $$
-\begin{cases}
+\left\{\begin{array}{lll}
 i^2 = \alpha e + \beta i, & ij = k, & ik = \alpha j + \beta k, \\
 ji = \beta j - k, & j^2 = \gamma e, & jk = \beta \gamma e - \gamma i, \\
 ki = -\alpha j, & kj = \gamma i, & k^2 = -\alpha \gamma e.
-\end{cases}
+\end{array}\right.
 $$
 (30)
 

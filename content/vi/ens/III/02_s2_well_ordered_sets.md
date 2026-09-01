@@ -303,7 +303,7 @@ Do Định lý 3, chỉ cần chứng minh rằng không tồn tại đẳng c�
 Cho $(E_\iota)_{\iota\in I}$ là một họ các tập hợp có thứ tự, được đánh chỉ số bởi một tập hợp I *được sắp tốt*. Xét tập hợp tích $E=\displaystyle\prod_{\iota\in I}E_\iota$, và quan hệ
 
 $$
-“x\in E\text{ và }y\in E,\text{ và đối với chỉ số nhỏ nhất }\iota\in I\text{ sao cho }\operatorname{pr}_{\iota}x\ne\operatorname{pr}_{\iota}y,\text{ ta có }\operatorname{pr}_{\iota}x<\operatorname{pr}_{\iota}y”,
+\text{``}x\in E\text{ và }y\in E,\text{ và đối với chỉ số nhỏ nhất }\iota\in I\text{ sao cho }\operatorname{pr}_{\iota}x\ne\operatorname{pr}_{\iota}y,\text{ ta có }\operatorname{pr}_{\iota}x<\operatorname{pr}_{\iota}y\text{''},
 $$
 
 mà ta sẽ ký hiệu bởi $R\{x,y\}$. Hiển nhiên là $R\{x,x\}$ tương đương với $x\in E$, rằng $R\{x,y\}$ suy ra $R\{x,x\}$ và $R\{y,y\}$, và rằng $(R\{x,y\}\text{ và }R\{y,x\})$ suy ra $x=y$. Cũng dễ kiểm tra rằng $(R\{x,y\}\text{ và }R\{y,z\})$ suy ra $R\{x,z\}$ (xét chỉ số nhỏ nhất $\iota\in I$ sao cho ít nhất hai trong ba phần tử $\operatorname{pr}_{\iota}x$, $\operatorname{pr}_{\iota}y$, $\operatorname{pr}_{\iota}z$ là khác nhau); do đó $R\{x,y\}$ là một *quan hệ thứ tự trên tập hợp tích E*. Quan hệ này và thứ tự mà nó xác định được gọi lần lượt là *quan hệ thứ tự từ điển* và *thứ tự từ điển* trên $E$ (được cảm sinh bởi các thứ tự đã cho trên $I$ và trên các $E_\iota$); tập hợp E được trang bị thứ tự này được gọi là *tích từ điển* của họ các tập hợp có thứ tự $(E_\iota)_{\iota\in I}$. Nếu mỗi $E_\iota$ đều *được sắp thứ tự toàn phần* thì tích từ điển cũng *được sắp thứ tự toàn phần*.

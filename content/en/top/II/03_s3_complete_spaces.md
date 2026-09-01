@@ -49,7 +49,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: d782c4a27c7dfb328d8d4bcb0a0fc179bed02b77ea87afcfdc15ece558d53cbb
+content_sha256: 232491995dad2d38e271fdef9aa25a33a8ab6f368bd8135e733114819a6670d7
 ---
 
 ## 3. COMPLETE SPACES
@@ -276,7 +276,7 @@ By induction on n and k we can define a fundamental system (V_{kn})_{k∈\mathbf
 $\overset{2}{V}_{k+1, n} \subset V_{kn}$,
 
 (3)
-$(f_{n, n+1} × f_{n, n+1})(V_{k, n+1}) \subset V_{kn}$.
+$(f_{n, n+1} \times f_{n, n+1})(V_{k, n+1}) \subset V_{kn}$.
 
 In effect, let (U_{kn})_{k∈\mathbf{N}} be a fundamental system of entourages of X_{α_n}. If we suppose that the V_{kn} have been defined for a given n and for all k ∈ \mathbf{N}, then since f_{n, n+1} is uniformly continuous we can define the entourage V_{k, n+1} by induction on k so that (3) is satisfied and
 

@@ -93,9 +93,7 @@ $$1\in 2$$
 
 “Mọi vành chia hữu hạn đều là một trường”
 
-“Các không điểm của $\zeta(s)$ khác với $-2$, $-4$, $-6$, ... nằm trên đường thẳng
-
-$$R(s)=1/2$$.”
+“Các không điểm của $\zeta(s)$ khác với $-2$, $-4$, $-6$, ... nằm trên đường thẳng $R(s)=1/2$.”
 
 Nói chung, ký hiệu được dùng để biểu diễn một dãy ký hiệu chứa tất cả các chữ cái xuất hiện trong dãy ký hiệu đó. Tuy nhiên, nguyên lý này đôi khi có thể bị vi phạm mà không có nguy cơ gây nhầm lẫn. *Chẳng hạn, “phép hoàn thiện của X” biểu diễn một dãy ký hiệu chứa chữ cái X, nhưng cũng chứa chữ cái biểu diễn tập hợp các lân cận của cấu trúc đều của X. Mặt khác,
 

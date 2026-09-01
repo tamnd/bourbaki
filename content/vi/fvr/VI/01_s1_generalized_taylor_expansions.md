@@ -495,8 +495,8 @@ $$
 
 Có thể dùng công thức (33) (tương ứng (34)) để tính các $\beta_n$ (tương ứng các $u_n(x)$) bằng cách dùng bổ đề sau về các chuỗi nguyên:
 
-\footnotetext{1 Sau này ta sẽ nghiên cứu các chuỗi mà số hạng tổng quát có dạng $c_n z^n$ ($c_n \in \mathbf{C}, z \in \mathbf{C}$), mà người ta gọi là *chuỗi nguyên*; đặc biệt ta sẽ thấy rằng khi một chuỗi như vậy hội tụ tuyệt đối với $z = z_0$ thì nó *hội tụ chuẩn tắc* với $|z| \leq |z_0|$.
-\footnotetext{2 Từ lý thuyết các chuỗi nguyên suy ra rằng khi một trong các chuỗi này hội tụ tuyệt đối trong một lân cận $V$ của 0, thì chuỗi kia hội tụ tuyệt đối trong một lân cận $W \subset V$ của 0.}
+(1) Sau này ta sẽ nghiên cứu các chuỗi mà số hạng tổng quát có dạng $c_n z^n$ ($c_n \in \mathbf{C}, z \in \mathbf{C}$), mà người ta gọi là *chuỗi nguyên*; đặc biệt ta sẽ thấy rằng khi một chuỗi như vậy hội tụ tuyệt đối với $z = z_0$ thì nó *hội tụ chuẩn tắc* với $|z| \leq |z_0|$.
+(2) Từ lý thuyết các chuỗi nguyên suy ra rằng khi một trong các chuỗi này hội tụ tuyệt đối trong một lân cận $V$ của 0, thì chuỗi kia hội tụ tuyệt đối trong một lân cận $W \subset V$ của 0.
 
 ổ đề. **Nếu hai chuỗi nguyên** $\sum_{n=0}^{\infty} c_n \lambda^n,\ \sum_{n=0}^{\infty} d_n \lambda^n$ **hội tụ tuyệt đối với mọi** $\lambda$ **trong một lân cận của** $0$, **và nếu** $\sum_{n=0}^{\infty} c_n \lambda^n = \sum_{n=0}^{\infty} d_n \lambda^n$ **với các giá trị này của** $\lambda$, **thì** $c_n = d_n$ **với mọi số nguyên** $n \geqslant 0$.
 

@@ -297,9 +297,7 @@ Nói một cách đại lược, Mệnh đề 7 có thể được phát biểu 
 
 #### Hệ quả 1 {#alg-ii-s6-prop-7-cor-1 .statement}
 
-*Cho* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *là một hệ trực tiếp khác của các môđun phải* (resp. *trái*) *$A_\alpha$; với mọi* $\alpha \in I$, *cho* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *là một*
-
-A_\alpha\text{-ánh xạ tuyến tính sao cho } (u_\alpha) \text{ (resp. } (v_\alpha)) \text{ là một hệ trực tiếp. Khi đó } (u_\alpha \oplus v_\alpha) \text{ là một hệ trực tiếp các } \mathbf{Z}\text{-ánh xạ tuyến tính và biểu đồ}
+*Cho* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *là một hệ trực tiếp khác của các môđun phải* (resp. *trái*) *$A_\alpha$; với mọi* $\alpha \in I$, *cho* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *là một* $A_\alpha$-ánh xạ tuyến tính sao cho $(u_\alpha)$ (resp. $(v_\alpha)$) là một hệ trực tiếp. Khi đó $(u_\alpha \oplus v_\alpha)$ là một hệ trực tiếp các $\mathbf{Z}$-ánh xạ tuyến tính và biểu đồ
 
 $$
 \begin{array}{ccc}

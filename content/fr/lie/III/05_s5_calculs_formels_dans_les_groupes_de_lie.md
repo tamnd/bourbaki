@@ -255,9 +255,9 @@ $$
 
 *où la série formelle de droite a un sens grâce à* (i).
 
-$
+$$
 \left( \text{On pose } \binom{t}{i} = \frac{t(t-1)\ldots(t-i+1)}{i!} \text{ pour tout } t \in \mathbf{K}. \right)
-$
+$$
 
 L’assertion (i) est évidente sur la définition des $\psi_j$.
 Prouvons (ii) pour $t$ entier $\geqslant 0$. D’après (14), on a

@@ -20,11 +20,11 @@ All twelve Books of the *Éléments*, in the English translation where one was p
 | Topological Vector Spaces | I to V | I to V | 2 | 740 |
 | Integration | I to IX | I to IX | 7 | 1732 |
 | Commutative Algebra | I to VII | I to X | 5 | 1733 |
-| Variétés différentielles et analytiques | none held | fascicule de résultats | 1 | 190 |
-| Lie Groups and Lie Algebras | I to IX | I to IX | 8 | 2182 |
+| Variétés différentielles et analytiques | none held | 1 | 1 | 190 |
+| Lie Groups and Lie Algebras | I to IX | I to VII, IX | 8 | 2182 |
 | Théories spectrales | none held | I to V | 2 | 925 |
 | Topologie algébrique | none held | I to IV | 1 | 512 |
-| Elements of the History of Mathematics | whole | whole | 2 | 673 |
+| Elements of the History of Mathematics | 1 | 1 | 2 | 673 |
 <!-- END LIBRARY -->
 
 The French is not a fallback for the English. Three Books were never translated, Algèbre chapters IX and X and Algèbre commutative chapters VIII, IX and X exist in French only, and where both printings are held the French is the original a disputed English sentence gets checked against. So both are in scope and both carry the same tags.
@@ -111,7 +111,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 <!-- BEGIN COVERAGE -->
 | Book | Chapter | Sections | Statements | Exercises | Tagged | Pages |
 | --- | --- | --- | --- | --- | --- | --- |
-| Commutative Algebra | I | 4 of 4 | 65 | 42 | 0 | 116 |
+| Commutative Algebra | I | 4 of 4 | 65 | 42 | 0 | 106 |
 | Commutative Algebra | II | 5 of 5 | 183 | 84 | 0 | 218 |
 | Commutative Algebra | III | 5 of 5 | 143 | 39 | 0 | 230 |
 | Commutative Algebra | IV | 3 of 3 | 69 | 50 | 0 | 98 |
@@ -120,6 +120,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Commutative Algebra | VII | 4 of 4 | 130 | 85 | 0 | 302 |
 | Commutative Algebra | VIII | 0 of 7 | 0 | 0 | 0 | 108 |
 | Commutative Algebra | IX | 0 of 5 | 0 | 0 | 0 | 85 |
+| Commutative Algebra | X | 0 of 10 | 0 | 0 | 0 | 179 |
 | Algebra | I | 10 of 10 | 293 | 148 | 0 | 357 |
 | Algebra | II | 12 of 12 | 384 | 118 | 0 | 446 |
 | Algebra | III | 12 of 12 | 273 | 97 | 0 | 542 |
@@ -129,7 +130,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Algebra | VII | 5 of 5 | 146 | 64 | 0 | 162 |
 | Algebra | VIII | 25 of 25 | 709 | 317 | 1024 | 964 |
 | Algebra | IX | 0 of 10 | 0 | 0 | 0 | 207 |
-| Algebra | X | 0 of 7 | 0 | 0 | 0 | 215 |
+| Algebra | X | 0 of 9 | 0 | 0 | 0 | 216 |
 | Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 50 |
 | Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 65 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 127 |
@@ -146,11 +147,11 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Functions of a Real Variable | V | 5 of 5 | 107 | 28 | 0 | 113 |
 | Functions of a Real Variable | VI | 3 of 3 | 25 | 7 | 0 | 67 |
 | Functions of a Real Variable | VII | 2 of 2 | 14 | 12 | 0 | 73 |
-| Elements of the History of Mathematics | 1 | 0 of 26 | 0 | 0 | 0 | 665 |
-| Integration | I | 0 of 1 | 0 | 0 | 0 | 25 |
-| Integration | II | 2 of 2 | 29 | 21 | 0 | 35 |
-| Integration | III | 4 of 4 | 106 | 35 | 0 | 134 |
-| Integration | IV | 7 of 7 | 285 | 94 | 0 | 335 |
+| Elements of the History of Mathematics | 1 | 26 of 26 | 0 | 0 | 0 | 665 |
+| Integration | I | 0 of 1 | 0 | 0 | 0 | 17 |
+| Integration | II | 2 of 2 | 29 | 21 | 0 | 44 |
+| Integration | III | 4 of 4 | 106 | 35 | 0 | 128 |
+| Integration | IV | 7 of 7 | 285 | 94 | 0 | 332 |
 | Integration | V | 8 of 8 | 206 | 108 | 0 | 290 |
 | Integration | VI | 4 of 4 | 98 | 57 | 0 | 173 |
 | Integration | VII | 5 of 5 | 120 | 48 | 0 | 207 |
@@ -186,10 +187,42 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-362 of 475 sections are in the corpus, 76 per cent. 8616 statements and 4123 exercises, 2637 of them carrying a permanent tag.
-
-The table is one row per chapter of the volumes that have a table of contents. 4 further volumes and 960 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
+388 of 487 sections are in the corpus, 80 per cent. 8616 statements and 4123 exercises, 2637 of them carrying a permanent tag.
 <!-- END COVERAGE -->
+
+## What is translated
+
+The table above is what has been read out of the printed books. This one is what has been carried into another language, which is the other half of the work and is where most of the machine time goes.
+
+A section or an exercise is counted as translated when a file for it exists in that language, nothing more. It is not a claim about quality. The translation rules in the audit are what says whether a file that exists is any good, and `reports/audit.md` is where their findings are. Plenty of what is counted here was written by a cut down model in a hurry and is queued to be read again by a better one.
+
+The source is the English, and the English is two directories. `content/en` is the Springer translation where one was printed. `content/en-mt` is this project's reading of the French, for the chapters no English was ever printed for, which is most of Algebra IX and X, Commutative Algebra VIII to X and Integration V to IX. They are kept apart so a reader can tell which is which, but a Vietnamese file is made from whichever of the two exists, so for this table they are one source.
+
+The French is counted and not compared against the English. A file name carries a slug of its own title, so `02_s2_relevement_des_ideaux_premiers.md` and `02_s2_the_lift_of_prime_ideals.md` are one section under two names. Matching the two trees by path once reported 289 French sections with no English when the real answer was 41.
+
+<!-- BEGIN TRANSLATION -->
+| Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
+| --- | --- | --- | --- | --- | --- | --- |
+| Theory of Sets | 30 | 211 | 30 | 211 | 100% | 0 |
+| Algebra | 129 | 1028 | 129 | 1028 | 100% | 22 |
+| General Topology | 78 | 578 | 78 | 578 | 100% | 0 |
+| Functions of a Real Variable | 34 | 203 | 34 | 203 | 100% | 0 |
+| Topological Vector Spaces | 34 | 409 | 34 | 409 | 100% | 0 |
+| Integration | 59 | 478 | 59 | 478 | 100% | 0 |
+| Commutative Algebra | 69 | 673 | 69 | 673 | 100% | 267 |
+| Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
+| Lie Groups and Lie Algebras | 85 | 785 | 85 | 785 | 100% | 1 |
+| Théories spectrales | 36 | 371 | 36 | 371 | 100% | 407, all of it |
+| Topologie algébrique | 28 | 164 | 28 | 164 | 100% | 192, all of it |
+| Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
+| **All** | **619** | **4900** | **619** | **4900** | **100%** | **900** |
+
+The source column is the English, which is 619 sections and 4900 exercises: 4619 files in `content/en` where Springer printed an English translation and 900 in `content/en-mt` where this project read the French instead. The French originals are 475 sections and 4504 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+
+Vietnamese has 619 of the 619 sections and 4900 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 900 of the 5519 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+<!-- END TRANSLATION -->
 
 ## Building it
 
@@ -242,7 +275,7 @@ OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 
 `reports/` is generated and checked by CI, so it is the state of the corpus rather than a snapshot somebody remembered to update. `audit.md` lists every finding by file and line. `extraction-quality.md` says how much of each volume has been read and how much of that passes the rules. `refs-unresolved.md` and `out-of-corpus.md` are the references that resolve to nothing and the ones that point outside the corpus.
 
 <!-- BEGIN RULES -->
-The audit is 72 rules in nine groups: 12 structure, 9 tags, 13 mathematics, 6 figures, 3 references, 15 translation, 6 solutions, 1 publication and 7 hygiene. 58 of them are hard, which means a finding fails the build, and 14 are soft.
+The audit is 73 rules in nine groups: 12 structure, 9 tags, 13 mathematics, 6 figures, 3 references, 16 translation, 6 solutions, 1 publication and 7 hygiene. 59 of them are hard, which means a finding fails the build, and 14 are soft.
 <!-- END RULES -->
 
 `what-it-cost.md` and `reproduction.md` are the two written by hand. The first says what the transport cost, which checks caught what, and what is still wrong, including the numbers that do not flatter the project. The second is the record of cloning both repositories fresh and running the pipeline from the PDFs to see whether it produces what is committed: 2775 of 2868 pages of the six deterministic volumes came back byte for byte, and everything derived from the pages came back identical.

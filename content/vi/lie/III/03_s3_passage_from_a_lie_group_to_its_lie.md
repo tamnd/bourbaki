@@ -472,7 +472,7 @@ Nếu $r \geq \infty$, ta thấy rằng tập hợp các hàm lớp $C^\infty$ t
 
 #### Mệnh đề 19 {#lie-iii-s3-prop-19 .statement}
 
-Cho $t \in \mathcal{T}^{(s)}(G)$, với $s \leq r$. Cho $f$ (tương ứng $f'$) là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff $F$ (tương ứng $F'$). Cho $(u, u') \mapsto uu'$$ là một ánh xạ song tuyến tính liên tục từ $F \times F'$ vào một không gian đa chuẩn Hausdorff $F''$, sao cho $ff'$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong $F''$. Cho
+Cho $t \in \mathcal{T}^{(s)}(G)$, với $s \leq r$. Cho $f$ (tương ứng $f'$) là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff $F$ (tương ứng $F'$). Cho $(u, u') \mapsto uu'$ là một ánh xạ song tuyến tính liên tục từ $F \times F'$ vào một không gian đa chuẩn Hausdorff $F''$, sao cho $ff'$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong $F''$. Cho
 $$
 \sum_{i=1}^n t_i \otimes t'_i \text{ là ảnh của } t \text{ trong } \mathcal{T}^{(s)}(G) \otimes \mathcal{T}^{(s)}(G) \text{ dưới đồng tích. Khi đó}
 $$
@@ -490,7 +490,7 @@ $$
 
 #### Nhận xét 1 {#lie-iii-s3-n4-rem-1 .statement}
 
-Cho G là một nhóm Lie, X là một đa tạp lớp $C^r$ và $(x, g) \mapsto xg$ là một luật tác động phải lớp $C^r$ của G trên X. Nếu $t \in \mathcal{T}^{(s)}(G)$ với $s \leq r$ và $f : X \to F$ là một hàm lớp $C^r$ trên X, ta ký hiệu bởi $f \* t$ hàm trên X được xác định bởi
+Cho G là một nhóm Lie, X là một đa tạp lớp $C^r$ và $(x, g) \mapsto xg$ là một luật tác động phải lớp $C^r$ của G trên X. Nếu $t \in \mathcal{T}^{(s)}(G)$ với $s \leq r$ và $f : X \to F$ là một hàm lớp $C^r$ trên X, ta ký hiệu bởi $f * t$ hàm trên X được xác định bởi
 $$
 \langle \varepsilon_x, f * t \rangle = \langle \varepsilon_x * t^\vee, f \rangle \\
 = \langle \rho(x) * (t^\vee), f \rangle \\
@@ -530,7 +530,7 @@ $$
 = \langle \varepsilon_x, t * (f * t') \rangle \quad \text{theo (5).}
 $$
 
-Đặc biệt, xét G như tác động lên chính nó bởi các phép tịnh tiến trái và phải. Nếu $f : G \to F$ là một hàm thuộc lớp $C^r$ trên G và $t \in \mathcal{T}^{(s)}(G)$ (với $s \leq r$), $t \* f$ và $f \* t$ là, nếu $s < \infty$, các hàm thuộc lớp $C^{r-s}$ trên G. Hơn nữa, cho $t' \in \mathcal{T}^{(s')}(G)$, với $s + s' \leq r$. Khi đó
+Đặc biệt, xét G như tác động lên chính nó bởi các phép tịnh tiến trái và phải. Nếu $f : G \to F$ là một hàm thuộc lớp $C^r$ trên G và $t \in \mathcal{T}^{(s)}(G)$ (với $s \leq r$), $t * f$ và $f * t$ là, nếu $s < \infty$, các hàm thuộc lớp $C^{r-s}$ trên G. Hơn nữa, cho $t' \in \mathcal{T}^{(s')}(G)$, với $s + s' \leq r$. Khi đó
 $$
 (t * f) * t' = t * (f * t').
 $$
@@ -541,11 +541,11 @@ $$
 
 #### Nhận xét 2 {#lie-iii-s3-n4-rem-2 .statement}
 
-Cho $(g, x) \mapsto gx$ là một luật tác động trái của lớp $C^r$ của G trên X. Cho $t \in U_s(G)$ với $s \leq r$, $\Omega$ là một tập con mở của X và $f : \Omega \to F$ là một hàm thuộc lớp $C^r$. $t \* f$ cũng có thể được xác định bởi công thức (4) hoặc (5); đó là một hàm xác định trên $\Omega$ với các giá trị trong F, thuộc lớp $C^{r-s}$ nếu $s < \infty$. Các kết quả của số này mở rộng theo một cách hiển nhiên cho tình huống này.
+Cho $(g, x) \mapsto gx$ là một luật tác động trái của lớp $C^r$ của G trên X. Cho $t \in U_s(G)$ với $s \leq r$, $\Omega$ là một tập con mở của X và $f : \Omega \to F$ là một hàm thuộc lớp $C^r$. $t * f$ cũng có thể được xác định bởi công thức (4) hoặc (5); đó là một hàm xác định trên $\Omega$ với các giá trị trong F, thuộc lớp $C^{r-s}$ nếu $s < \infty$. Các kết quả của số này mở rộng theo một cách hiển nhiên cho tình huống này.
 
 ### 5. CÁC TRƯỜNG PHÂN BỐ ĐIỂM ĐƯỢC XÁC ĐỊNH BỞI TÁC ĐỘNG CỦA MỘT NHÓM TRÊN MỘT ĐA TẠP
 
-Cho $(g, x) \mapsto \lambda(g, x) = gx$ là một luật tác động trái cấp $C^r$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $t \* \varepsilon_x \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto t \* \varepsilon_x$ được gọi là trường các phân bố điểm xác định bởi t và tác động của G trên X và đôi khi được ký hiệu bởi $D_t^\lambda$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X và F là một không gian đa chuẩn Hausdorff. Nếu $f : \Omega \to F$ có lớp $C^r$ và $s \leq r$, hàm $t^\vee \* f$ trên $\Omega$ cũng được ký hiệu là $D_t f$. Khi đó
+Cho $(g, x) \mapsto \lambda(g, x) = gx$ là một luật tác động trái cấp $C^r$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $t * \varepsilon_x \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto t * \varepsilon_x$ được gọi là trường các phân bố điểm xác định bởi t và tác động của G trên X và đôi khi được ký hiệu bởi $D_t^\lambda$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X và F là một không gian đa chuẩn Hausdorff. Nếu $f : \Omega \to F$ có lớp $C^r$ và $s \leq r$, hàm $t^\vee * f$ trên $\Omega$ cũng được ký hiệu là $D_t f$. Khi đó
 $$
 (D_t f)(x) = \langle t * \varepsilon_x, f \rangle.
 $$
@@ -558,7 +558,7 @@ và do đó, sử dụng sự lạm dụng ký hiệu đã chỉ ra ở trên,
 $$
 D_{t*t'} = D_{t'} \circ D_t.
 $$
-Giả sử rằng G và X là hữu hạn chiều. Ánh xạ $(t, x) \mapsto t \otimes \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(G \times X)$ (xem Differentiable and Analytic Manifolds, R, 13.2.5) có lớp $C^{r-s}$. Do đó (Differentiable and Analytic Manifolds, R, 13.2.5) ánh xạ $(t, x) \mapsto t \* \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(X)$ có lớp $C^{r-s}$. Đặc biệt, $D_t$ là một toán tử vi phân cấp $\leq s$ và lớp $C^{r-s}$ theo nghĩa của Differentiable and Analytic Manifolds, R, 14.1.6. Theo công thức (16), hàm $D_t f$ khi đó là ảnh của $f$ qua toán tử vi phân này (Differentiable and Analytic Manifolds, R, 14.1.4).
+Giả sử rằng G và X là hữu hạn chiều. Ánh xạ $(t, x) \mapsto t \otimes \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(G \times X)$ (xem Differentiable and Analytic Manifolds, R, 13.2.5) có lớp $C^{r-s}$. Do đó (Differentiable and Analytic Manifolds, R, 13.2.5) ánh xạ $(t, x) \mapsto t * \varepsilon_x$ từ $T^{(s)}(G) \times X$ vào bó vectơ $T^{(s)}(X)$ có lớp $C^{r-s}$. Đặc biệt, $D_t$ là một toán tử vi phân cấp $\leq s$ và lớp $C^{r-s}$ theo nghĩa của Differentiable and Analytic Manifolds, R, 14.1.6. Theo công thức (16), hàm $D_t f$ khi đó là ảnh của $f$ qua toán tử vi phân này (Differentiable and Analytic Manifolds, R, 14.1.4).
 
 Bây giờ ta không còn giả thiết rằng G và X là hữu hạn chiều nữa. Cho $\psi$ là một tự đẳng cấu của đa tạp X và $\Delta$ là một trường các phân bố điểm trên X. Phù hợp với các định nghĩa tổng quát, biến đổi của $\Delta$ dưới $\psi$ là trường các phân bố điểm trên X có giá trị tại $\psi(x)$ là $\psi_*(\Delta(x))$; ta ký hiệu ánh xạ này bởi $\psi(\Delta)$. Nếu $g \in G$ và $\tau(g)$ ký hiệu tự đẳng cấu $x \mapsto gx$ của X, thì biến đổi của $\Delta$ dưới $\tau(g)$ cũng được gọi là biến đổi của $\Delta$ dưới g.
 
@@ -578,7 +578,7 @@ $$
 
 #### Mệnh đề 22 {#lie-iii-s3-prop-22 .statement}
 
-*Nếu $g \in G$, biến đổi của $D_t$ dưới g là $D_{\varepsilon_g \* t \* \varepsilon_g^{-1}}$.*
+*Nếu $g \in G$, biến đổi của $D_t$ dưới g là $D_{\varepsilon_g * t * \varepsilon_g^{-1}}$.*
 
 Giá trị của biến đổi này tại $gx$ là
 
@@ -591,7 +591,7 @@ $$
 \end{align*}
 $$
 
-Cho $(x, g) \mapsto \mu(x, g) = xg$ là một luật phép toán phải lớp $C'$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $\varepsilon_x \* t \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto \varepsilon_x \* t$ được gọi là trường các phân phối được xác định bởi t và tác động của G trên X, và đôi khi được ký hiệu bởi $D_t^u$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X. Nếu $f : \Omega \to F$ là lớp $C'$, hàm $f \* t^\vee$ được ký hiệu bởi $D_t f$. Khi đó
+Cho $(x, g) \mapsto \mu(x, g) = xg$ là một luật phép toán phải lớp $C'$ của G trên X. Cho $s \leq r$ và $t \in U_s(G)$. Với mọi $x \in X$, $\varepsilon_x * t \in T^{(s)}_x(X)$. Ánh xạ $x \mapsto \varepsilon_x * t$ được gọi là trường các phân phối được xác định bởi t và tác động của G trên X, và đôi khi được ký hiệu bởi $D_t^u$ hoặc đơn giản là $D_t$. Cho $\Omega$ là một tập con mở của X. Nếu $f : \Omega \to F$ là lớp $C'$, hàm $f * t^\vee$ được ký hiệu bởi $D_t f$. Khi đó
 
 $$(19)$$
 $$(D_t f)(x) = \langle \varepsilon_x * t, f \rangle$$
@@ -604,7 +604,7 @@ $$D_{t * t'} f = D_t(D_{t'} f)$$
 $$(21)$$
 $$D_{t * t'} = D_t \circ D_{t'}.$$
 
-Mệnh đề 21 vẫn còn đúng. Cho $g \in G$. Biến đổi của $D_t$ dưới g (nghĩa là dưới tự đẳng cấu $x \mapsto xg$ của X) là $D_{\varepsilon_g^{-1} \* t \* \varepsilon_g}$.
+Mệnh đề 21 vẫn còn đúng. Cho $g \in G$. Biến đổi của $D_t$ dưới g (nghĩa là dưới tự đẳng cấu $x \mapsto xg$ của X) là $D_{\varepsilon_g^{-1} * t * \varepsilon_g}$.
 
 ### 6. TRƯỜNG BẤT BIẾN CỦA CÁC PHÂN PHỐI ĐIỂM TRÊN MỘT NHÓM LIE
 
@@ -635,9 +635,9 @@ với $g, g'$ trong $G$.
 
 #### Định nghĩa 5 {#lie-iii-s3-def-5 .statement}
 
-*Cho $G$ là một nhóm Lie và $t \in U(G)$. Cho $L_t$ ký hiệu trường phân phối $g \mapsto \varepsilon_g \* t$ trên $G$ và $R_t$ trường phân phối $g \mapsto t \* \varepsilon_g$ trên $G$.*
+*Cho $G$ là một nhóm Lie và $t \in U(G)$. Cho $L_t$ ký hiệu trường phân phối $g \mapsto \varepsilon_g * t$ trên $G$ và $R_t$ trường phân phối $g \mapsto t * \varepsilon_g$ trên $G$.*
 
-Nói cách khác, $L_t$ (tương ứng $R_t$) là trường các phân phối được xác định bởi $t$ và $G$ tác động lên $G$ ở bên phải (tương ứng bên trái) nhờ ánh xạ $(g, g') \mapsto gg'$. Cho $\Omega$ là một tập con mở của $G$ và $F$ là một không gian đa chuẩn Hausdorff; nếu $f \in C^\omega(\Omega, F)$, thì $L_t f = f \* t^\vee \in C^\omega(\Omega, F)$ và
+Nói cách khác, $L_t$ (tương ứng $R_t$) là trường các phân phối được xác định bởi $t$ và $G$ tác động lên $G$ ở bên phải (tương ứng bên trái) nhờ ánh xạ $(g, g') \mapsto gg'$. Cho $\Omega$ là một tập con mở của $G$ và $F$ là một không gian đa chuẩn Hausdorff; nếu $f \in C^\omega(\Omega, F)$, thì $L_t f = f * t^\vee \in C^\omega(\Omega, F)$ và
 $$
 R_t f = t^\vee * f \in C^\omega(\Omega, F)
 $$
@@ -648,7 +648,7 @@ $$
 (i) *Ánh xạ $t \mapsto L_t$ (tương ứng $t \mapsto R_t$) là một đẳng cấu của không gian vectơ $U(G)$ lên trường vectơ các phân phối bất biến trái (tương ứng phải) trên $G$.*
 (ii) *Đối với $t, t'$ trong $U(G)$, $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$, $L_t \circ R_{t'} = R_{t'} \circ L_t$ (với sự lạm dụng ký hiệu ở no. 5).*
 (iii) *Nếu $\theta$ là ánh xạ $g \mapsto g^{-1}$ của $G$ lên $G$, thì $\theta(L_t) = R_{t^\vee}$.*
-(iv) *Nếu $t \in U(G)$ và $g \in G$, thì $(L_t)_g = (R_{\varepsilon_g \* t \* \varepsilon_g^{-1}})_g$.*
+(iv) *Nếu $t \in U(G)$ và $g \in G$, thì $(L_t)_g = (R_{\varepsilon_g * t * \varepsilon_g^{-1}})_g$.*
 
 Trong $G$ mọi phép tịnh tiến phải đều giao hoán với mọi phép tịnh tiến trái. Bởi Mệnh đề 21 của no. 5, do đó $L_t$ là trái bất biến. Vì $(L_t)_e = t$, ánh xạ $t \mapsto L_t$ là đơn ánh. Cho $\Delta$ là một trường các phân bố trái bất biến trên $G$; đặt $t = \Delta_e$; khi đó $\Delta$ và $L_t$ có cùng giá trị tại $e$ và đều trái bất biến, suy ra $\Delta = L_t$. Điều này chứng minh (i) đối với $L_t$ và lập luận là tương tự đối với $R_t$. Các công thức $L_{t*t'} = L_t \circ L_{t'}$, $R_{t*t'} = R_{t'} \circ R_t$ suy ra từ (21) và (18). Cho $t \in U_s(G)$, $t' \in U_{s'}(G)$, $f \in C^r(\Omega, F)$, trong đó $\Omega$ là mở trong $G$ và $s + s' \leq r$; khi đó
 $$
@@ -673,11 +673,11 @@ Giả sử rằng G là hữu hạn chiều. Ánh xạ
 
 $$(t, g) \mapsto (\mathbf{R}_t)_g = t * \varepsilon_g$$
 
-từ $U_s(G) \times G$ vào $T^{(s)}(G)$ là một đẳng cấu của các bó vectơ giải tích; vì ánh xạ này là song ánh, tuyến tính trên mỗi thớ và giải tích (no. 5); mặt khác, cho $\phi : T^{(s)}(G) \to U_s(G) \times G$ là song ánh ngược; nếu $t \in T^{(s)}_g(G)$, thì $\phi(t) = (t \* \varepsilon_{g^{-1}}, g)$ và do đó $\phi$ là giải tích. Đẳng cấu $\phi$ được gọi là sự tầm thường hóa phải của $T^{(s)}(G)$. Tương tự, xét ánh xạ $(t, g) \mapsto (\mathbf{L}_t)_g = \varepsilon_g \* t$ từ $U_g(G) \times G$ vào $T^{(s)}(G)$; đẳng cấu nghịch đảo được gọi là sự tầm thường hóa trái của $T^{(s)}(G)$. Bằng cách hạn chế ta thu được lại các sự tầm thường hóa phải và trái của $T(G)$ (§ 2, no. 2).
+từ $U_s(G) \times G$ vào $T^{(s)}(G)$ là một đẳng cấu của các bó vectơ giải tích; vì ánh xạ này là song ánh, tuyến tính trên mỗi thớ và giải tích (no. 5); mặt khác, cho $\phi : T^{(s)}(G) \to U_s(G) \times G$ là song ánh ngược; nếu $t \in T^{(s)}_g(G)$, thì $\phi(t) = (t * \varepsilon_{g^{-1}}, g)$ và do đó $\phi$ là giải tích. Đẳng cấu $\phi$ được gọi là sự tầm thường hóa phải của $T^{(s)}(G)$. Tương tự, xét ánh xạ $(t, g) \mapsto (\mathbf{L}_t)_g = \varepsilon_g * t$ từ $U_g(G) \times G$ vào $T^{(s)}(G)$; đẳng cấu nghịch đảo được gọi là sự tầm thường hóa trái của $T^{(s)}(G)$. Bằng cách hạn chế ta thu được lại các sự tầm thường hóa phải và trái của $T(G)$ (§ 2, no. 2).
 
 ### 7. ĐẠI SỐ LIE CỦA MỘT NHÓM LIE
 
-Cho G là một nhóm Lie. Trong $U(G)$, như trong mọi đại số kết hợp, ta viết $[t, t'] = t \* t' - t' \* t$. Vì $T_e(G)$ là tập hợp các phần tử nguyên thủy của $U(G)$, $[T_e(G), T_e(G)] \subset T_e(G)$ (Chương II, § 1, no. 2, Mệnh đề 4). Do đó hạn chế của dấu ngoặc lên $T_e(G)$ xác định trên $T_e(G)$ một cấu trúc đại số Lie.
+Cho G là một nhóm Lie. Trong $U(G)$, như trong mọi đại số kết hợp, ta viết $[t, t'] = t * t' - t' * t$. Vì $T_e(G)$ là tập hợp các phần tử nguyên thủy của $U(G)$, $[T_e(G), T_e(G)] \subset T_e(G)$ (Chương II, § 1, no. 2, Mệnh đề 4). Do đó hạn chế của dấu ngoặc lên $T_e(G)$ xác định trên $T_e(G)$ một cấu trúc đại số Lie.
 
 #### Bổ đề 1 {#lie-iii-s3-lem-1 .statement}
 
@@ -726,7 +726,7 @@ $$
 (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u), 0).
 $$
 
-Do đó $\phi \* (u \* v)$ là ảnh của phần tử trên qua ánh xạ $m$ từ $\phi(V) \times \phi(V)$ vào $E$. Thành phần bậc 1 của nó trong $TS(E)$ là, theo Bổ đề 1,
+Do đó $\phi * (u * v)$ là ảnh của phần tử trên qua ánh xạ $m$ từ $\phi(V) \times \phi(V)$ vào $E$. Thành phần bậc 1 của nó trong $TS(E)$ là, theo Bổ đề 1,
 
 $$
 x = \langle m_{1,1}, (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u), 0) \rangle.
@@ -745,7 +745,7 @@ x = \langle n, (\psi(u), 0) \otimes (0, \psi(v)) + (0, \psi(v)) \otimes (\psi(u)
 = m_{1,1}(\psi(u), \psi(v)) + m_{1,1}(0, 0) = m_{1,1}(\psi(u), \psi(v)).
 $$
 
-Tương tự, $\phi \* (v \* u)$ nhận $m_{1,1}(\phi(v), \phi(u))$ làm thành phần bậc 1 trong $TS(E)$. Vì $\phi([u, v])$ có bậc 1, điều này chứng minh (iii).
+Tương tự, $\phi * (v * u)$ nhận $m_{1,1}(\phi(v), \phi(u))$ làm thành phần bậc 1 trong $TS(E)$. Vì $\phi([u, v])$ có bậc 1, điều này chứng minh (iii).
 
 #### Hệ quả {#lie-iii-s3-n7-cor-1 .statement}
 
@@ -767,7 +767,7 @@ Khi K có đặc số 0, từ nay ta sẽ đồng nhất $U(G)$ với đại s�
 
 *Giả sử K có đặc số $p > 0$. Với mọi $a \in L(G)$, $a^p \in L(G)$ và $\operatorname{ad}(a^p) = (\operatorname{ad} a)^p$ (lũy thừa $a^p$ được tính trong $U(G)$).*
 
-Nếu $a \in L(G)$, $a$ là nguyên thủy trong $U(G)$, do đó $a^p$ là nguyên thủy trong $U(G)$ (Chương II, § 1, no. 2, *Nhận xét 1*) và do đó $a^p \in L(G)$. Gọi $\sigma_a$ (tương ứng $\tau_a$) là ánh xạ tuyến tính $x \mapsto a \* x$ (tương ứng $x \mapsto x \* a$) của $U(G)$ vào $U(G)$. Với mọi $x \in U(G)$, $(\operatorname{ad} a)(x) = (\sigma_a - \tau_a)(x)$ và do đó $(\operatorname{ad} a)^p = (\sigma_a - \tau_a)^p$. Nhưng $\sigma_a$ và $\tau_a$ giao hoán và do đó $(\sigma_a - \tau_a)^p = (\sigma_a)^p - (\tau_a)^p = \tau_a^p - \sigma_a^p$, do đó là mệnh đề thứ hai.
+Nếu $a \in L(G)$, $a$ là nguyên thủy trong $U(G)$, do đó $a^p$ là nguyên thủy trong $U(G)$ (Chương II, § 1, no. 2, *Nhận xét 1*) và do đó $a^p \in L(G)$. Gọi $\sigma_a$ (tương ứng $\tau_a$) là ánh xạ tuyến tính $x \mapsto a * x$ (tương ứng $x \mapsto x * a$) của $U(G)$ vào $U(G)$. Với mọi $x \in U(G)$, $(\operatorname{ad} a)(x) = (\sigma_a - \tau_a)(x)$ và do đó $(\operatorname{ad} a)^p = (\sigma_a - \tau_a)^p$. Nhưng $\sigma_a$ và $\tau_a$ giao hoán và do đó $(\sigma_a - \tau_a)^p = (\sigma_a)^p - (\tau_a)^p = \tau_a^p - \sigma_a^p$, do đó là mệnh đề thứ hai.
 
 #### Định nghĩa 7 {#lie-iii-s3-def-7 .statement}
 
@@ -914,7 +914,7 @@ Cho $A$ là một đại số kết hợp khả chuẩn đầy đủ có phần 
 
 *Ánh xạ $t \mapsto \langle t, f \rangle$ là một cấu xạ từ đại số $\mathcal{T}^{(\infty)}(G)$ vào đại số $A$.*
 
-Chỉ cần kiểm tra rằng, nếu $t$ và $t'$ là các phân bố điểm trên $G$, thì $\langle t \* t', f \rangle = \langle t, f \rangle \langle t', f \rangle$. Nhưng
+Chỉ cần kiểm tra rằng, nếu $t$ và $t'$ là các phân bố điểm trên $G$, thì $\langle t * t', f \rangle = \langle t, f \rangle \langle t', f \rangle$. Nhưng
 $$
 \begin{align*}
 \langle t * t', f \rangle &= \langle t \otimes t', (g, g') \mapsto f(gg') \rangle \\
@@ -1051,7 +1051,7 @@ $$
 \end{align*}
 $$
 
-Cuối cùng, $\varphi(b)*t = t \* \varepsilon_b$ (no. 3, Mệnh đề 14 (ii)).
+Cuối cùng, $\varphi(b)*t = t * \varepsilon_b$ (no. 3, Mệnh đề 14 (ii)).
 
 #### Mệnh đề 39 {#lie-iii-s3-prop-39 .statement}
 
@@ -1288,7 +1288,7 @@ $$
 
 #### Hệ quả 1 {#lie-iii-s3-prop-43-cor-1 .statement}
 
-*Cho $u \in \mathbf{L}(G)$ và $u' \in \mathcal{T}^{(\infty)}(G)$. Khi đó $u \top u' = u \* u' - u' \* u$.*
+*Cho $u \in \mathbf{L}(G)$ và $u' \in \mathcal{T}^{(\infty)}(G)$. Khi đó $u \top u' = u * u' - u' * u$.*
 
 Ảnh của $u$ dưới đồng tích là $u \otimes \varepsilon_e + \varepsilon_e \otimes u$, do đó
 $$
@@ -1297,7 +1297,7 @@ $$
 
 #### Hệ quả 2 {#lie-iii-s3-prop-43-cor-2 .statement}
 
-*Cho $t \in \mathcal{T}^{(\infty)}(G)$ và $g \in G$. Khi đó $\varepsilon_g \top t = \varepsilon_g \* t \* \varepsilon_{g^{-1}}$. Nếu $t \in \mathbf{L}(G)$, thì $\varepsilon_g \top t = gtg^{-1}$ (trong đó tích sau được tính trong nhóm $\mathbf{T}(G)$).*
+*Cho $t \in \mathcal{T}^{(\infty)}(G)$ và $g \in G$. Khi đó $\varepsilon_g \top t = \varepsilon_g * t * \varepsilon_{g^{-1}}$. Nếu $t \in \mathbf{L}(G)$, thì $\varepsilon_g \top t = gtg^{-1}$ (trong đó tích sau được tính trong nhóm $\mathbf{T}(G)$).*
 
 Ảnh của $\varepsilon_g$ dưới đồng tích là $\varepsilon_g \otimes \varepsilon_g$.
 
@@ -1681,7 +1681,7 @@ t(L_{u_1 * u_2}) &= t(L_{u_1} \circ L_{u_2}) & \text{(Mệnh đề 23)} \\
 \end{align*}
 $$
 
-và do đó mệnh đề đúng với $u_1 \* u_2$. Vì vậy đủ để chứng minh mệnh đề khi $u \in T_e(G)$. Bây giờ $L_u$ được xác định bởi $G$ tác động lên $G$ ở bên phải (no. 6) và do đó $\theta_{L_u} \omega = 0$ vì $\omega$ là bất biến phải (\emph{Differentiable and Analytic Manifolds}, R, 8.4.5); vì thế, nếu $f$ là một hàm giải tích trong một lân cận mở của $e$ nhận giá trị trong $K$, thì $\theta_{L_u}(f \omega) = (\theta_{L_u} f) \omega$ (\emph{Differentiable and Analytic Manifolds}, R, 8.4.8). Dùng các đồng nhất thức đã nêu và \emph{Differentiable and Analytic Manifolds}, R, 14.4.1, chuyển vị của $L_u$ là $-L_u$, tức là $L_u^\nu$.
+và do đó mệnh đề đúng với $u_1 * u_2$. Vì vậy đủ để chứng minh mệnh đề khi $u \in T_e(G)$. Bây giờ $L_u$ được xác định bởi $G$ tác động lên $G$ ở bên phải (no. 6) và do đó $\theta_{L_u} \omega = 0$ vì $\omega$ là bất biến phải (\emph{Differentiable and Analytic Manifolds}, R, 8.4.5); vì thế, nếu $f$ là một hàm giải tích trong một lân cận mở của $e$ nhận giá trị trong $K$, thì $\theta_{L_u}(f \omega) = (\theta_{L_u} f) \omega$ (\emph{Differentiable and Analytic Manifolds}, R, 8.4.8). Dùng các đồng nhất thức đã nêu và \emph{Differentiable and Analytic Manifolds}, R, 14.4.1, chuyển vị của $L_u$ là $-L_u$, tức là $L_u^\nu$.
 
 #### Hệ quả {#lie-iii-s3-n16-cor-3 .statement}
 
@@ -1801,9 +1801,9 @@ $$
 
 Trong số này, $(G, e, \theta, m)$ ký hiệu một mầm nhóm Lie. Phần lớn các kết quả của § vẫn đúng với cùng một chứng minh. Ta sẽ xem lại những kết quả mà ta thấy hữu ích.
 
-18.1. Cho $\Omega$ là miền xác định của $m$. Cho $(g, g') \in \Omega,\ t \in T_e^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. Như ở no. 1, tích chập của $t$ và $t'$, ký hiệu là $t \* t'$, là ảnh của $t \otimes t'$ dưới $m$. Ta viết $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. Với $t, t'$ trong $U(G)$, $t \* t'$ được xác định và thuộc $U(G)$. Với tích chập, $U(G)$ là một đại số kết hợp có phần tử đơn vị $\varepsilon_e$, được lọc bởi các $U_s(G)$. Đẳng cấu chính tắc $i_{G,e}$ của gr $U(G)$ lên $TS(T_e(G))$ là một đẳng cấu đại số.
+18.1. Cho $\Omega$ là miền xác định của $m$. Cho $(g, g') \in \Omega,\ t \in T_e^{(\infty)}(G),\ t' \in T_{g'}^{(\infty)}(G)$. Như ở no. 1, tích chập của $t$ và $t'$, ký hiệu là $t * t'$, là ảnh của $t \otimes t'$ dưới $m$. Ta viết $U(G) = T_e^{(\infty)}(G),\ U_s(G) = T_e^{(s)}(G),\ U^+(G) = T_e^{(\infty)+}(G),\ U_s^+(G) = T_e^{(s)+}(G)$. Với $t, t'$ trong $U(G)$, $t * t'$ được xác định và thuộc $U(G)$. Với tích chập, $U(G)$ là một đại số kết hợp có phần tử đơn vị $\varepsilon_e$, được lọc bởi các $U_s(G)$. Đẳng cấu chính tắc $i_{G,e}$ của gr $U(G)$ lên $TS(T_e(G))$ là một đẳng cấu đại số.
 
-18.2. Cho $G, H$ là các mầm nhóm Lie và $\phi : G \to H$ là một cấu xạ. Nếu $t \in U(G)$, ảnh $U(\phi)(t)$ của $t$ dưới $\phi_*$ là một phần tử của $U(H)$ và $U(\phi)$ là một cấu xạ của đại số $U(G)$ vào đại số $U(H)$. Ánh xạ $\theta : x \mapsto x^{-1}$ của $G$ vào $G$ xác định một ánh xạ $t \mapsto t^\vee$ của $U(G)$ vào $U(G)$. Với $t, t'$ trong $U(G)$, tích $t \* t'$ tính đối với $G^\vee$ bằng tích $t' \* t$ tính đối với $G$ và $(t \* t')^\vee = {t'}^\vee \* t^\vee$. Khi đó $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. Nếu $G_1, \ldots, G_n$ là các mầm nhóm Lie và $G = G_1 \times \cdots \times G_n$, thì đẳng cấu chính tắc của $U(G_1) \otimes \cdots \otimes U(G_n)$ lên $U(G)$ là một đẳng cấu đại số;
+18.2. Cho $G, H$ là các mầm nhóm Lie và $\phi : G \to H$ là một cấu xạ. Nếu $t \in U(G)$, ảnh $U(\phi)(t)$ của $t$ dưới $\phi_*$ là một phần tử của $U(H)$ và $U(\phi)$ là một cấu xạ của đại số $U(G)$ vào đại số $U(H)$. Ánh xạ $\theta : x \mapsto x^{-1}$ của $G$ vào $G$ xác định một ánh xạ $t \mapsto t^\vee$ của $U(G)$ vào $U(G)$. Với $t, t'$ trong $U(G)$, tích $t * t'$ tính đối với $G^\vee$ bằng tích $t' * t$ tính đối với $G$ và $(t * t')^\vee = {t'}^\vee * t^\vee$. Khi đó $U(\phi)(t^\vee) = (U(\phi)t)^\vee$. Nếu $G_1, \ldots, G_n$ là các mầm nhóm Lie và $G = G_1 \times \cdots \times G_n$, thì đẳng cấu chính tắc của $U(G_1) \otimes \cdots \otimes U(G_n)$ lên $U(G)$ là một đẳng cấu đại số;
 
 với $t_1, \ldots, t_n$ trong $U(G)$, $(t_1 \otimes \cdots \otimes t_n)^{\vee} = t_1^{\vee} \otimes \cdots \otimes t_n^{\vee}$. Cho $H$ là một mầm nhóm con Lie của $G$ và $i : H \to G$ là đơn ánh chính tắc. Khi đó $U(i)$ là một đồng cấu đơn cấu của đại số $U(H)$ vào $U(G)$ và
 $$
@@ -1811,20 +1811,20 @@ U(i)(t^{\vee}) = (U(i)(t))^{\vee}
 $$
 với mọi $t \in U(H)$. Với tích chập và đồng tích được xác định bởi cấu trúc đa tạp trên $G$, $U(G)$ là một song đại số và $U(\phi)$ là một cấu xạ song đại số.
 
-18.3. Cho $G$ là một mầm nhóm Lie, $X$ là một đa tạp lớp $C^r$ và $\psi$ là một mảnh luật của phép toán trái lớp $C^r$ của $G$ trên $X$. Cho $\Omega$ là tập hợp xác định của $\psi$. Nếu $t \in T^{(s)}_g(G)$, $u \in T^{(s')}_x(X)$, $(g, x) \in \Omega$ và $s + s' \leq r$, hãy ký hiệu $t \* u$ là ảnh của $t \otimes u$ dưới $\psi_*$. Cho $t \in T^{(s)}_g(G)$, $t' \in T^{(s')}_x(G)$, $u \in T^{(s'')}_x(X)$; nếu $s + s' + s'' \leq r$ và $gg'$, $(gg')x$, $g'x$, $g(g'x)$ đều được xác định, thì
+18.3. Cho $G$ là một mầm nhóm Lie, $X$ là một đa tạp lớp $C^r$ và $\psi$ là một mảnh luật của phép toán trái lớp $C^r$ của $G$ trên $X$. Cho $\Omega$ là tập hợp xác định của $\psi$. Nếu $t \in T^{(s)}_g(G)$, $u \in T^{(s')}_x(X)$, $(g, x) \in \Omega$ và $s + s' \leq r$, hãy ký hiệu $t * u$ là ảnh của $t \otimes u$ dưới $\psi_*$. Cho $t \in T^{(s)}_g(G)$, $t' \in T^{(s')}_x(G)$, $u \in T^{(s'')}_x(X)$; nếu $s + s' + s'' \leq r$ và $gg'$, $(gg')x$, $g'x$, $g(g'x)$ đều được xác định, thì
 $$
 (t * t') * u = t * (t' * u).
 $$
-Cho $x_0 \in X$ và $\rho(x_0)$ là ánh xạ $g \mapsto gx_0$, được xác định trên một lân cận mở của $e$. Nếu $t \in U_r(G)$, thì $\rho(x_0)_*t = t \* \varepsilon_{x_0}$. Ở đây và trong phần còn lại của số này, chúng tôi sẽ để cho bạn đọc nhiệm vụ dịch các kết quả cho các mảnh luật của phép toán phải.
+Cho $x_0 \in X$ và $\rho(x_0)$ là ánh xạ $g \mapsto gx_0$, được xác định trên một lân cận mở của $e$. Nếu $t \in U_r(G)$, thì $\rho(x_0)_*t = t * \varepsilon_{x_0}$. Ở đây và trong phần còn lại của số này, chúng tôi sẽ để cho bạn đọc nhiệm vụ dịch các kết quả cho các mảnh luật của phép toán phải.
 
-18.4. Giữ nguyên ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Cho $f$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff. Ký hiệu $t \* f$ là hàm trên $X$ được xác định bởi
+18.4. Giữ nguyên ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Cho $f$ là một hàm lớp $C^r$ trên $X$ nhận giá trị trong một không gian đa chuẩn Hausdorff. Ký hiệu $t * f$ là hàm trên $X$ được xác định bởi
 $$
 \begin{align*}
 (t * f)(x) &= \langle t, g \mapsto f(\psi(\theta(g), x)) \rangle \\
 &= \langle t^{\vee}, f \circ \rho(x) \rangle = \langle \rho(x)_*(t^{\vee}), f \rangle = \langle t^{\vee} * \varepsilon_x, f \rangle.
 \end{align*}
 $$
-Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $\langle t', t \* f \rangle = \langle t^{\vee} \* t', f \rangle$ và $(t \* t') \* f = t \* (t' \* f)$. Cho $t \in U_s(G)$, $f$ và $f'$ là các hàm lớp $C^r$ trên $X$ nhận giá trị trong các không gian đa chuẩn Hausdorff $F, F'$ và $(u, u') \mapsto u.u'$ là một ánh xạ song tuyến tính liên tục của $F \times F'$ vào một không gian đa chuẩn Hausdorff; cho
+Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $\langle t', t * f \rangle = \langle t^{\vee} * t', f \rangle$ và $(t * t') * f = t * (t' * f)$. Cho $t \in U_s(G)$, $f$ và $f'$ là các hàm lớp $C^r$ trên $X$ nhận giá trị trong các không gian đa chuẩn Hausdorff $F, F'$ và $(u, u') \mapsto u.u'$ là một ánh xạ song tuyến tính liên tục của $F \times F'$ vào một không gian đa chuẩn Hausdorff; cho
 $$
 \sum_{i=1}^n t_i \otimes t'_i
 $$
@@ -1833,9 +1833,9 @@ $$
 t * (ff') = \sum_{i=1}^n (t_i * f)(t'_i * f').
 $$
 
-18.5. Giữ ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Ánh xạ $x \mapsto t \* \varepsilon_x$ được gọi là trường các phân phối điểm do $t$ xác định và phần luật của phép toán, và đôi khi được ký hiệu bởi $D_t^{\psi}$ hoặc $D_t$. Nếu $f : X \to F$ là một hàm lớp $C^r$, thì hàm $t^{\vee} \* f$ trên $X$ cũng được ký hiệu bởi $D_t f$; nó thuộc lớp $C^{r-s}$ nếu $s < \infty$. Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $D_{t*t'} f = D_{t'}(D_t f)$. Nếu $G$ và $X$ là hữu hạn chiều, thì $D_t$ là một toán tử vi phân trên $X$ có bậc $\leq s$ và thuộc lớp $C^{r-s}$ (nếu $s < \infty$). Khi đó hàm $D_t f$ là phép biến đổi của $f$ dưới toán tử vi phân này.
+18.5. Giữ ký hiệu của 18.3, cho $t \in U_s(G)$ với $s \leq r$. Ánh xạ $x \mapsto t * \varepsilon_x$ được gọi là trường các phân phối điểm do $t$ xác định và phần luật của phép toán, và đôi khi được ký hiệu bởi $D_t^{\psi}$ hoặc $D_t$. Nếu $f : X \to F$ là một hàm lớp $C^r$, thì hàm $t^{\vee} * f$ trên $X$ cũng được ký hiệu bởi $D_t f$; nó thuộc lớp $C^{r-s}$ nếu $s < \infty$. Nếu $t \in U_s(G)$, $t' \in U_{s'}(G)$ và $s + s' \leq r$, thì $D_{t*t'} f = D_{t'}(D_t f)$. Nếu $G$ và $X$ là hữu hạn chiều, thì $D_t$ là một toán tử vi phân trên $X$ có bậc $\leq s$ và thuộc lớp $C^{r-s}$ (nếu $s < \infty$). Khi đó hàm $D_t f$ là phép biến đổi của $f$ dưới toán tử vi phân này.
 
-18.6. Cho G là một mầm nhóm Lie và $t \in U(G)$. $L_t$ ký hiệu trường các phân phối điểm $g \mapsto \varepsilon_g \* t$ trên G và $R_t$ ký hiệu trường các phân phối điểm $g \mapsto t \* \varepsilon_g$ trên G. Nếu $f \in C^\omega(G, F)$, thì $L_t f \in C^\omega(G, F)$ và $R_t f \in C^\omega(G, F)$. Với $t, t'$ trong $U(G)$, $L_{t \circ t'} = L_t \circ L_{t'}$, $R_{t \circ t'} = R_{t'} \circ R_t$, $L_t \circ R_{t'} = R_{t'} \circ L_t$, $\theta(L_t) = R_t^V$.
+18.6. Cho G là một mầm nhóm Lie và $t \in U(G)$. $L_t$ ký hiệu trường các phân phối điểm $g \mapsto \varepsilon_g * t$ trên G và $R_t$ ký hiệu trường các phân phối điểm $g \mapsto t * \varepsilon_g$ trên G. Nếu $f \in C^\omega(G, F)$, thì $L_t f \in C^\omega(G, F)$ và $R_t f \in C^\omega(G, F)$. Với $t, t'$ trong $U(G)$, $L_{t \circ t'} = L_t \circ L_{t'}$, $R_{t \circ t'} = R_{t'} \circ R_t$, $L_t \circ R_{t'} = R_{t'} \circ L_t$, $\theta(L_t) = R_t^V$.
 
 18.7. Vì $T_e(G)$ là tập các phần tử nguyên thủy của $U(G)$,
 

@@ -241,9 +241,9 @@ $$
 G = \{x \in g \mid \|x\| < \alpha\},
 $$
 
-$
+$$
 \Theta = \{(x, y) \in G \times G \mid h(x, y) \in G\}
-$
+$$
 và $m : \Theta \to G$ là hạn chế của $h$ lên $\Theta$. Khi đó:
 (1) $\Theta$ là mở trong $G \times G$ và $m$ là giải tích.
 (2) $x \in G$ kéo theo $(0, x) \in \Theta$, $(x, 0) \in \Theta$ và $m(0, x) = m(x, 0) = x$.

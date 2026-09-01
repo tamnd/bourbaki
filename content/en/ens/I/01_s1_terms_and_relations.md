@@ -30,7 +30,7 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: 0ee801130c4937b60178227e19ee4a8160108632ae38780ac29f1c6072b194de
+content_sha256: 61e68e051b5a7487b41eb0ce12906897bb980d7a082ba6f7156b2efd9c15ed66
 ---
 
 ## 1. TERMS AND RELATIONS
@@ -86,9 +86,7 @@ $$1\in 2$$
 
 “Every finite division ring is a field”
 
-“The zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line
-
-$$R(s)=1/2$$.”
+“The zeros of $\zeta(s)$ other than $-2$, $-4$, $-6$, ... lie on the line $R(s)=1/2$.”
 
 In general, the symbol used to represent an assembly contains all the letters which appear in the assembly. Nevertheless, this principle can sometimes be infringed without risk of confusion. *For example, “the completion of X” represents an assembly which contains the letter X, but which also contains the letter which represents the set of entourages of the uniform structure of X. On the other hand,
 

@@ -90,14 +90,14 @@ f̃ ≤ g̃, supₙ f̃ₙ, infₙ f̃ₙ, lim supₙ→∞ f̃ₙ, lim infₙ�
 |z| (z là một điểm của một không gian chuẩn) : IV, 3, 2.
 |f| (f là một hàm nhận giá trị trong một không gian chuẩn) : IV, 3, 2.
 N_p(f, μ), N_p(f), N_p(f̃) (1 ≤ p < +∞) : IV, 3, 2.
-𝒢_F(X), 𝒢_F : IV, 3, 3.
-𝒢_F^p(X, μ), 𝒢_F^p(μ), 𝒢_F^p : IV, 3, 3.
-𝒢_F : IV, 3, 3.
-𝒢_F, 𝒟_F^p(X, μ), 𝒟_F^p(μ), 𝒟_F^p, L_F^p(X, μ), L_F^p(μ), L_F^p, 𝒟^p, L^p (1 ≤ p < +∞) : IV, 3, 4.
+$\mathcal{G}_F(X), \mathcal{G}_F$ : IV, 3, 3.
+$\mathcal{G}_F^p(X, \mu), \mathcal{G}_F^p(\mu), \mathcal{G}_F^p$ : IV, 3, 3.
+$\mathcal{G}_F$ : IV, 3, 3.
+$\mathcal{G}_F, \mathcal{D}_F^p(X, \mu), \mathcal{D}_F^p(\mu), \mathcal{D}_F^p, L_F^p(X, \mu), L_F^p(\mu), L_F^p, \mathcal{D}^p, L^p (1 \leq p < +\infty)$ : IV, 3, 4.
 ‖f̃‖_p (1 ≤ p < +∞) : IV, 3, 4.
 μ(f), ∫ f dμ, ∫ f(x) dμ(x), ∫ fμ, ∫ f(x)μ(x), μ(f̃) (f là một hàm μ-khả tích nhận giá trị trong một không gian Banach) : IV, 4, 1.
 μ(A) (A là một tập hợp μ-khả tích) : IV, 4, 5.
-𝒬'(X; C) : IV, 4, 8.
+$\mathcal{Q}'(X; C)$ : IV, 4, 8.
 𝒬(Φ), 𝒬_F(Φ) (Φ là một clan các tập hợp) : IV, 4, 9.
 μ_*(f) (f là một hàm) : IV, 4, Bài tập 5.
 
@@ -149,10 +149,10 @@ gf, fg (f là một hàm nhận giá trị vectơ, g là một hàm vô hướng
 \int f dm, \int f(t) dm(t) (f là một hàm số, m là một độ đo vectơ) :
 VI, 2, 1 và VI, 2, 2.
 g \cdot m (g là một hàm số, m là một độ đo vectơ) : VI, 2, 1.
-\mathcal{L}(m) : VI, 2, 2.
+$\mathcal{L}(m)$ : VI, 2, 2.
 q(m), |m| (q là một nửa chuẩn, m là một độ đo vectơ) : VI, 2, 3.
 f \cdot \mu (f là một hàm nhận giá trị vectơ, \mu là một độ đo dương) : VI, 2, 4.
-\mathcal{L}_{F_s'}^\infty, L_{F_s'}^\infty : VI, 2, 5.
+$\mathcal{L}_{F_s'}^\infty, L_{F_s'}^\infty$ : VI, 2, 5.
 \langle f, g \rangle (f, g là các hàm nhận giá trị vectơ) : VI, 2, 6.
 I_{\Phi,m}, \int f dm (f là một hàm nhận giá trị vectơ, m là một độ đo vectơ) : VI, 2, 7.
 |m|, \int f dm (m là một độ đo phức) : VI, 2, 8, III, 1, 6.

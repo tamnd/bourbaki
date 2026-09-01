@@ -111,9 +111,9 @@ Nous obtenons ainsi une loi de composition externe entre le groupe $A^*$ des él
 $$
 a.(T + T') = a.T + a.T', \quad ab.T = a.(b.T)
 $$
-$
+$$
 (a, b \text{ dans } A^*, \quad T, T' \text{ dans } \mathfrak{W}).
-$
+$$
 
 Par contre, si $a, b$ et $a + b$ sont dans $A^*$, on n’a pas en général $(a + b).T = a.T + b.T$ ($T \in \mathfrak{W}$).
 

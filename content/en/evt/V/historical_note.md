@@ -12,7 +12,7 @@ pdf_pages: 0338-0368
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1d568cdf6b7620392b098601685ec9ec289112bf1642f357259f2fe9d3aa3c33
+content_sha256: e2dd683edb5ce818b32f8416a9c44fb239ba15fcef3559fbf9f4ff07e127d88c
 ---
 
 # HISTORICAL NOTE
@@ -39,9 +39,9 @@ k_1 y'(a) - h_1 y(a) &= 0 \\
 k_2 y'(b) + h_2 y(b) &= 0
 \end{aligned}
 $$
-$
+$$
 (h_1 k_1 \neq 0,\ h_2 k_2 \neq 0,\ a < b)
-$
+$$
 
 and proved the following fundamental results :
 1) the problem has a non-zero solution only if $\lambda$ takes one of the values of a sequence $(\lambda_n)$ of numbers $> 0$, tending to $+ \infty$;

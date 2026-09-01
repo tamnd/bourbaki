@@ -219,9 +219,9 @@ $$
 #### Remarque 2 {#ac-x-s10-n2-rem-2 .statement}
 
 Soit
-$
+$$
 (\mathcal{E}) \quad 0 \to M \to N \to P \to 0
-$
+$$
 une suite exacte de A-modules. En utilisant A, X, p. 104, prop. 3 et p. 106, prop. 4, on prouve que les diagrammes suivants sont commutatifs :
 
 $$

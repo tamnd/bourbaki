@@ -434,7 +434,7 @@ c) *Dưới các giả thiết của b), giả sử thêm rằng bao đóng củ
 
 Ta sẽ ký hiệu bởi E đại số các hàm phức liên tục tiến tới 0 ở vô cùng trên $M$, và bởi $\mathfrak{A}$ không gian con tuyến tính của E được sinh bởi
 
-\footnotetext{(1) Nhắc lại rằng một monoid con của một monoid A theo định nghĩa chứa phần tử trung hòa của A (A, I, §2, No. 1).}
+(1) Nhắc lại rằng một monoid con của một monoid A theo định nghĩa chứa phần tử trung hòa của A (A, I, §2, No. 1).
 
 bởi $S \cap X_0$; khi đó $\mathfrak{A}$ là một đại số con của $E$ ổn định dưới ánh xạ $f \mapsto \overline{f}$; vì $S$ là một monoid con đầy đủ của $X$, Hệ quả 2 của Mệnh đề 7 của GT, X, §4, No. 4 suy ra rằng $\mathfrak{A}$ trù mật trong $E$.
 

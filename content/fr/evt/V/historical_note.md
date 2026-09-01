@@ -199,8 +199,8 @@ $\mathcal{B}(I; K)$, $\mathcal{B}_K(I)$, $\ell_K^\infty(I)$, $\ell_K^1(I)$, $\ma
 Chapitre II :
 E_A (A ensemble convexe symétrique dans un espace vectoriel réel E) : II, p. 28.
 $\langle x, y \rangle$ : II, p. 45.
-σ(F, G) : II, p. 45.
-M°, M°° : II, p. 47.
+$\sigma(F, G)$ : II, p. 45.
+$M^\circ, M^{\circ\circ}$ : II, p. 47.
 'u (u application linéaire) : II, p. 50.
 
 Chapitre III :
@@ -220,11 +220,11 @@ $\mathcal{C}_0(\mathbf{R})$ : III, p. 18.
 Chapitre IV :
 τ(E, F) : IV, p. 2.
 β(E, F) : IV, p. 4.
-c_E : IV, p. 14.
+$c_E$ : IV, p. 14.
 $\ell^\infty(N)$, $c_0(N)$, $\ell^1(N)$ : IV, p. 17.
 S(E) : IV, p. 26.
-H_p : IV, p. 26.
-E_\sigma : IV, p. 32.
+$H_p$ : IV, p. 26.
+$E_\sigma$ : IV, p. 32.
 $\mathcal{C}_s(X)$ : IV, p. 33.
 $\mathcal{C}^b(X)$, $\mathcal{C}(X)$ : IV, p. 36.
 $\mathcal{B}(X; \mathbf{R})$ : IV, p. 40.

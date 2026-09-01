@@ -156,7 +156,7 @@ Công thức (3) cho thấy rằng nếu $\lambda$ và $\mu$ là các độ đo 
 
 #### Ví dụ 2 {#int-iii-s4-n1-exa-2 .statement}
 
-Lấy $X = Y = \mathbf{R}$$, và $\lambda$ và $\mu$ là *độ đo Lebesgue* trên $\mathbf{R}$ (§1, No. 3); tích của chúng được gọi là *độ đo Lebesgue* trên $\mathbf{R}^2$; tích phân của một hàm $f \in \mathcal{K}(\mathbf{R}^2; \mathbf{C})$ đối với độ đo này được ký hiệu là $\iint f(x, y)\, dx\, dy$ hoặc $\iint f(x, y)\, dy\, dx$; công thức (4), đối với một hàm bằng không ở ngoài một hình chữ nhật compắc $[a, b] \times [c, d]$, cho công thức
+Lấy $X = Y = \mathbf{R}$, và $\lambda$ và $\mu$ là *độ đo Lebesgue* trên $\mathbf{R}$ (§1, No. 3); tích của chúng được gọi là *độ đo Lebesgue* trên $\mathbf{R}^2$; tích phân của một hàm $f \in \mathcal{K}(\mathbf{R}^2; \mathbf{C})$ đối với độ đo này được ký hiệu là $\iint f(x, y)\, dx\, dy$ hoặc $\iint f(x, y)\, dy\, dx$; công thức (4), đối với một hàm bằng không ở ngoài một hình chữ nhật compắc $[a, b] \times [c, d]$, cho công thức
 
 $$
 \int_c^d dy \int_a^b f(x, y)\, dx = \int_a^b dx \int_c^d f(x, y)\, dy
@@ -511,7 +511,7 @@ $$
 \mu_K(f_J \circ \mathrm{pr}_{J, K}) = \mu_J(f_J) \cdot \prod_{\lambda \in K - J} \mu_\lambda(1).
 $$
 
-Để $(\mu_J)$ là một hệ ngược các độ đo, do đó điều kiện cần và đủ là либо $\mu_\lambda = 0$ với mọi $\lambda \in L$ hoặc $\mu_\lambda(1) = 1$ với mọi $\lambda \in L$.
+Để $(\mu_J)$ là một hệ ngược các độ đo, do đó điều kiện cần và đủ là hoặc $\mu_\lambda = 0$ với mọi $\lambda \in L$ hoặc $\mu_\lambda(1) = 1$ với mọi $\lambda \in L$.
 
 ### 6. Tích vô hạn của các độ đo
 

@@ -931,7 +931,7 @@ books:
               statements: 25
               exercises: 13
               extraction: native+ocr
-              content_sha256: 80823ac5024f35186150a7d683b4b02c82a9670ba20df80f2f6ba46b412253ae
+              content_sha256: a1e9bccf04c99efe131507abc95e90d42301f0f37b3734decb437c6e11d1395f
             - kind: section
               section: 6
               title: Modules over a split semi-simple Lie algebra
@@ -2076,7 +2076,7 @@ books:
               statements: 5
               exercises: 6
               extraction: ocr
-              content_sha256: 0ee801130c4937b60178227e19ee4a8160108632ae38780ac29f1c6072b194de
+              content_sha256: 61e68e051b5a7487b41eb0ce12906897bb980d7a082ba6f7156b2efd9c15ed66
             - kind: section
               section: 2
               title: Theorems
@@ -2272,7 +2272,7 @@ books:
               statements: 28
               exercises: 20
               extraction: ocr
-              content_sha256: c4d656736e563f6ac82971fd4e1ec144ad45c95e80a8241c21c0579eaa1576cb
+              content_sha256: 4ac2fa7577e3b279c1918b0f52c4d00e31f38944f59ee1c696ac83de2fb7f10b
             - kind: section
               section: 3
               title: Equipotent sets. Cardinals
@@ -2372,10 +2372,10 @@ books:
               last_pdf_page: 294
               book_pages: 259-271, 289
               subsections: 7
-              statements: 11
+              statements: 17
               exercises: 1
               extraction: ocr
-              content_sha256: cb0ba0aa51c27cd635da1ba9e5c5d3b4143cd0a7ff9702c62051fac7eeb01b20
+              content_sha256: eea0b4fb7953196bcb3192568217195c64bcdffb2379b68f2e974978b30fd0c2
             - kind: section
               section: 2
               title: Morphisms and derived structures
@@ -2843,7 +2843,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 1d568cdf6b7620392b098601685ec9ec289112bf1642f357259f2fe9d3aa3c33
+              content_sha256: e2dd683edb5ce818b32f8416a9c44fb239ba15fcef3559fbf9f4ff07e127d88c
     - id: int-i-vi
       reader_note:
         kind: reader
@@ -2880,7 +2880,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 7903e043f4340792f2eced78a10f941d410ff38a9f8de464278d8f409206e188
+              content_sha256: 8dfb748700d8c874a76b6a8ae10c7b04bf3ec4fb555aaceacec1955706524daf
             - kind: historical
               title: Historical Note
               path: content/en/int/I/historical_note.md
@@ -2915,7 +2915,7 @@ books:
               statements: 16
               exercises: 12
               extraction: ocr
-              content_sha256: 3b9eb027da08c7a53f7df3e86e6b00d1cb2b27951fa304777c39b88f1388325d
+              content_sha256: 32113a7d90414afcb3827cb2317f4b388db9fa35a79b7d1a5cb9dfa7b2c1ccfb
             - kind: section
               section: 2
               title: Linear forms on a Riesz space
@@ -2953,7 +2953,7 @@ books:
               statements: 41
               exercises: 18
               extraction: ocr
-              content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
+              content_sha256: bfe62c6a2655ed8665a974febcccb64ea09581f15f597b05eb60c1c1f8b230e3
             - kind: section
               section: 2
               title: Support of a measure
@@ -3017,7 +3017,7 @@ books:
               statements: 34
               exercises: 8
               extraction: ocr
-              content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
+              content_sha256: fa8000aa164879c2412ecb823292e3a5f4f5f1167337ccfcb52c5077f1353f4a
             - kind: section
               section: 2
               title: Negligible functions and sets
@@ -3212,7 +3212,7 @@ books:
               statements: 31
               exercises: 21
               extraction: ocr
-              content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
+              content_sha256: ea7732202a28d5050059674952e2d77a76b99bccdd01471ea0bafeea43972ee2
             - kind: historical
               title: Historical Note
               path: content/en/int/V/historical_note.md
@@ -3294,7 +3294,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 2ada0a0190353d48d55d0b0828f8365aaac5df51d5b36e54e7bcfa9551ef8f06
+              content_sha256: 5e0a858bcf88f33679de7d17e92a9c855995da21ee05f0011e76c182df537e49
     - id: top-i-iv
       reader_note:
         kind: reader
@@ -3538,7 +3538,7 @@ books:
               statements: 48
               exercises: 7
               extraction: ocr
-              content_sha256: d782c4a27c7dfb328d8d4bcb0a0fc179bed02b77ea87afcfdc15ece558d53cbb
+              content_sha256: 232491995dad2d38e271fdef9aa25a33a8ab6f368bd8135e733114819a6670d7
             - kind: section
               section: 4
               title: Relations between uniform spaces and compact spaces
@@ -3804,7 +3804,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: fa5af6e307c63a6d9a1e252507d1582a395981a6446717689b181a7ec79a0ac1
+              content_sha256: 41d1c18f85708d5ee30500e8296485d364ed68f06a4b1861a23b39fd60835cc8
     - id: int-vii-ix
       reader_note:
         kind: reader

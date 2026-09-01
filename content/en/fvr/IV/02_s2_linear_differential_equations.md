@@ -102,7 +102,7 @@ b) *The map* $t \mapsto b(t)$ *of* $J$ *into* $E$ *is regulated*.
 
 When $E$ has dimension $n$, $\mathcal{L}(E)$ is isomorphic to $\mathbf{R}^{n^2}$ (as a topological vector space) and condition *a*) means that each of the elements $a_{ij}(t)$ of the matrix $A(t)$ is a *regulated* function on $J$.
 
-\footnotetext{1 Recall that if $E$ is of finite dimension then every affine linear map from $E$ into itself is continuous (*Gen. Top.*, VI, p. 33 and 37).}
+(1) Recall that if $E$ is of finite dimension then every affine linear map from $E$ into itself is continuous (*Gen. Top.*, VI, p. 33 and 37).
 
 Since $\|A(t')\mathbf{x} - A(t)\mathbf{x}\| \leq \|A(t') - A(t)\|\|\mathbf{x}\|$, the map
 $$

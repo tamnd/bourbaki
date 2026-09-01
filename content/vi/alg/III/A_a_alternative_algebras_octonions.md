@@ -112,7 +112,7 @@ $a(u, v, w) = 0$ mỗi khi hai trong ba phần tử $u, v, w$ bằng $x$ và ch�
 
 *Giả sử ánh xạ $a$ là phản xứng và cho $\mathbf{X}, \mathbf{Y}$ là hai đại số con kết hợp mạnh của $\mathbf{F}$. Khi đó đại số con của $\mathbf{E}$ sinh bởi $\mathbf{X} \cup \mathbf{Y}$ là kết hợp.*
 
-Cho $Z$ là tập hợp các $z \in \mathbf{E}$ sao cho $a(u, v, z) = 0$ với mọi $u \in \mathbf{X}$ và $v \in \mathbf{Y}$$, đây hiển nhiên là một môđun con trên A chứa $\mathbf{X}$ và $\mathbf{Y}$ vì $\mathbf{X}$ và $\mathbf{Y}$ là kết hợp mạnh; theo Bổ đề 2, sẽ đủ để kiểm tra rằng, với $u \in \mathbf{X}$ và $v \in \mathbf{Y}$, ta có $uZ \subset Z, vZ \subset Z, Zu \subset Z$ và $Zv \subset Z$. Bây giờ, với $u, u'$ trong $\mathbf{X}$, $v \in \mathbf{Y}$ và $z \in Z$, theo (2)
+Cho $Z$ là tập hợp các $z \in \mathbf{E}$ sao cho $a(u, v, z) = 0$ với mọi $u \in \mathbf{X}$ và $v \in \mathbf{Y}$, đây hiển nhiên là một môđun con trên A chứa $\mathbf{X}$ và $\mathbf{Y}$ vì $\mathbf{X}$ và $\mathbf{Y}$ là kết hợp mạnh; theo Bổ đề 2, sẽ đủ để kiểm tra rằng, với $u \in \mathbf{X}$ và $v \in \mathbf{Y}$, ta có $uZ \subset Z, vZ \subset Z, Zu \subset Z$ và $Zv \subset Z$. Bây giờ, với $u, u'$ trong $\mathbf{X}$, $v \in \mathbf{Y}$ và $z \in Z$, theo (2)
 $$
 a(u'u, z, v) - a(u', uz, v) + a(u', u, zv) = a(u', u, z)v + u'a(u, z, v) = 0
 $$

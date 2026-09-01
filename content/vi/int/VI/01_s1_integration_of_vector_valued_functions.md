@@ -403,7 +403,7 @@ Hơn nữa, khi $U$ thỏa mãn các điều kiện ấy, $U$ là một ánh x�
 
 Ngược lại, giả sử b) được thỏa mãn; chỉ cần chứng minh rằng với mọi tập con compắc $K$ của $T$, ánh xạ $(t, x) \mapsto U(t) \cdot x$ là liên tục trên $K \times G$. Đặt $M = U(K)$; vì $M$ là đồng liên tục, suy ra trên $M$, tôpô hội tụ từng điểm trong $G$ trùng với tôpô hội tụ từng điểm trong $D$ (GT, X, §2, No. 4, Định lý 1); do đó giả thiết b) kéo theo rằng $t \mapsto U(t)$ là một ánh xạ liên tục từ $K$ vào $\mathcal{L}(G; H)$ khi $\mathcal{L}(G; H)$ được trang bị tôpô hội tụ từng điểm. Mặt khác, $(A, x) \mapsto A \cdot x$ là một ánh xạ liên tục từ $M \times G$ vào $H$ khi $M$ được trang bị tôpô hội tụ từng điểm (GT, X, §2, No. 1, Hệ quả 4 của Mệnh đề 1). Vì ánh xạ $(t, x) \mapsto U(t) \cdot x$ có thể được phân tích thành $(t, x) \mapsto (U(t), x) \mapsto U(t) \cdot x$, ta kết luận rằng nó liên tục.
 
-Sau cùng, khẳng định cuối cùng của bổ đề suy ra từ तथ्य rằng, trên $M$, tôpô hội tụ compắc trùng với tôpô hội tụ từng điểm (GT, X, §2, No. 4, Định lý 1).
+Sau cùng, khẳng định cuối cùng của bổ đề suy ra từ việc rằng, trên $M$, tôpô hội tụ compắc trùng với tôpô hội tụ từng điểm (GT, X, §2, No. 4, Định lý 1).
 
 Vậy, giả sử rằng $U$ thỏa mãn các điều kiện của Bổ đề 3; khi đó (nếu $H$ là quasi-complete) ta định nghĩa, như trong No. 6, một ánh xạ tuyến tính $\lambda \mapsto \int U d\lambda$ từ $\mathcal{C}'(T)$ vào $F = \mathcal{L}(G; H)$. Ta đặt $U(\lambda) = \int U d\lambda$.
 

@@ -33,25 +33,25 @@ Les chiffres de référence indiquent successivement le paragraphe et le numéro
 
 F', F'', F'^*, F_\sigma (F espace localement convexe séparé) : Introduction.
 \mathcal{K}(T), \mathcal{K}_\mathbf{R}(T), \mathcal{K}_\mathbf{C}(T), \mathcal{K}(T, A), \mathcal{K}_\mathbf{C}(T, A) : Introduction.
-\langle f, z' \rangle, \langle z', f \rangle : 1.
+$\langle f, z' \rangle, \langle z', f \rangle$ : 1.
 
 \int f d\mu, \int f(t) d\mu(t) (f fonction vectorielle, \mu mesure positive) : 1, 1.
 
 gf, fg (f fonction vectorielle, g fonction scalaire) : 1, 1.
 
-\mathcal{C}'(T) : 1, 6.
+$\mathcal{C}'(T)$ : 1, 6.
 
 \int f dm, \int f(t) dm(t) (f fonction numérique, m mesure vectorielle) : 2, 1 et 2, 2.
 
 g.m (g fonction numérique, m mesure vectorielle) : 2, 1.
 
-\mathcal{L}(m) : 2, 2.
+$\mathcal{L}(m)$ : 2, 2.
 
 q(m), |m| (q semi-norme, m mesure vectorielle) : 2, 3.
 
 f.\mu (f fonction vectorielle, \mu mesure positive) : 2, 4.
 
-\mathcal{L}_{F_s}^\infty, L_{F_s}^\infty : 2, 5.
+$\mathcal{L}_{F_s}^\infty, L_{F_s}^\infty$ : 2, 5.
 
 \langle f, g \rangle (f, g fonctions vectorielles) : 2, 6.
 

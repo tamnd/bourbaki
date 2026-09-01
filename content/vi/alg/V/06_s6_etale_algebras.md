@@ -217,7 +217,7 @@ Cuối cùng, giả sử rằng $K'$ là một mở rộng bậc hữu hạn c�
 $$
 [A': K], = [A': K']_s \cdot [K': K], .
 $$
-Cho $S$ (tương ứng $T$) là tập hợp các $K$-đồng cấu của $K'$ (tương ứng $A'$) vào một bao đóng đại số $L$ của $K$; với mọi $\sigma \in S$ ta ký hiệu $T_\sigma$ là tập hợp các phần tử $f$ của $T$ sao cho $f(a \cdot 1) = \sigma(a)$ với mọi $a \in K'$. Khi đó họ $(T_\sigma)_\sigma$ là một phân hoạch của $T$ và ta có Card $S = [K': K]$; nay với mỗi $\sigma \in S$ tập hợp $T_\sigma gồm các K'$-đồng cấu của $A'$ vào mở rộng đóng đại số $(L, \sigma)$ của $K'$, do đó Card $T_\sigma = [A': K']_s$, và vì vậy ta đã chứng minh (9).
+Cho $S$ (tương ứng $T$) là tập hợp các $K$-đồng cấu của $K'$ (tương ứng $A'$) vào một bao đóng đại số $L$ của $K$; với mọi $\sigma \in S$ ta ký hiệu $T_\sigma$ là tập hợp các phần tử $f$ của $T$ sao cho $f(a \cdot 1) = \sigma(a)$ với mọi $a \in K'$. Khi đó họ $(T_\sigma)_\sigma$ là một phân hoạch của $T$ và ta có Card $S = [K': K]$; nay với mỗi $\sigma \in S$ tập hợp $T_\sigma$ gồm các $K'$-đồng cấu của $A'$ vào mở rộng đóng đại số $(L, \sigma)$ của $K'$, do đó Card $T_\sigma = [A': K']_s$, và vì vậy ta đã chứng minh (9).
 
 #### Mệnh đề 4 {#alg-v-s6-prop-4 .statement}
 

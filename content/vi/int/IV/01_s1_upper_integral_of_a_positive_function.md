@@ -52,7 +52,7 @@ Ta ký hiệu bởi $\mathcal{I}_+(X)$ (hoặc đơn giản là $\mathcal{I}_+$)
 
 Với mọi $x \in X$ sao cho $f(x) > 0$, và với mọi số thực $a$ sao cho $0 < a < f(x)$, theo giả thiết tồn tại một lân cận compắc V của $x$ sao cho $f(y) \geq a$ trên V; mặt khác, tồn tại một hàm $g \in \mathcal{K}_+$, có giá được chứa trong V, bằng $a$ tại điểm $x$ và $\leq a$
 
-\footnotetext{1 'I' như trong 'inferior'; chữ cái $\mathcal{L}$ (như trong 'lower') đã được dành cho các không gian hàm khác, sẽ được bàn trong §3.}
+(1) 'I' như trong 'inferior'; chữ cái $\mathcal{L}$ (như trong 'lower') đã được dành cho các không gian hàm khác, sẽ được bàn trong §3.
 
 trên V (GT, IX, §1, No. 5, Định lý 2); do đó $0 \leq g \leq f$ và $g(x) \geq a$, điều này chứng minh bổ đề.
 
