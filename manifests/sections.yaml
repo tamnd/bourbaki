@@ -4140,7 +4140,7 @@ books:
               statements: 19
               exercises: 10
               extraction: ocr
-              content_sha256: 9a4e3ff6577619f6a4dd44dfc9056888feff25497afcc1eee690a5e4a49ecdfe
+              content_sha256: 04bf3ba5a542c08ad6661e45e2bba480ce3ea9e8352d60f000d6910c22f74c21
         - chapter: VI
           title: Valuations
           sections:
@@ -5638,7 +5638,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: ac8030febf5ebeaf9d3f3f00a8fb9dc684af309e0cdfd42e236e2af2749abf31
+              content_sha256: 99682c12439b70ad76ec870fda6abcda42fe7b2565613a48990037b07032ea78
         - chapter: IV
           title: DIFFERENTIAL EQUATIONS
           sections:
@@ -7685,7 +7685,7 @@ books:
         statements: 0
         exercises: 0
         extraction: ocr
-        content_sha256: caa2df9a098771936e27f57638c8d5ba4f3afcd58648376c52c8bcfc17ce990c
+        content_sha256: 2522e998fc93388b521f6dfdf19ae664d5a75bb651bb96244e8ba4133bd364d3
       chapters:
         - chapter: IV
           title: Groupes de Coxeter et systèmes de Tits
@@ -7807,7 +7807,7 @@ books:
               statements: 23
               exercises: 9
               extraction: ocr
-              content_sha256: dc99b479928c32a69fd6e1c262b395e354abb4f587cbc9331f9e9057ecc7f522
+              content_sha256: 34cf95afc6ffb4bca7dd4bf6f166fe8583fa00af76b1fea6c733ddc70ebb734a
             - kind: section
               section: 6
               title: Transformation de Coxeter
@@ -7901,7 +7901,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 7b7b237ae31f1c49f2e65188590e434750b166ea882e79965372deacc7f8cb7f
+              content_sha256: 9626f48d30bbf5ac4033c626e916e4dee9a97eaa41ff146764e30635b34b9467
     - id: int-vi-fr
       chapters:
         - chapter: VI
@@ -7928,7 +7928,7 @@ books:
               statements: 35
               exercises: 27
               extraction: ocr
-              content_sha256: 17cf0ae507efd8b0c82660237a41bd845fa95e0499b25b224e7c703269e142ee
+              content_sha256: e875835b71086305b795af62de8d4f95273600fe319d2453d7260646e5d6f838
             - kind: section
               section: 2
               title: Mesures vectorielles
@@ -9037,7 +9037,7 @@ books:
               statements: 12
               exercises: 0
               extraction: ocr
-              content_sha256: a03e917bbb712788678cb44f2f8c4eeb837bff91ffaff8fe794b3c2a69ffeff6
+              content_sha256: 8ddfa6db9a8b8ea94b884733ec52d738552ac565f914d0880df1029e74d1e9da
             - kind: section
               section: 3
               title: Formes hermitiennes et formes quadratiques
@@ -9073,7 +9073,7 @@ books:
               statements: 11
               exercises: 0
               extraction: ocr
-              content_sha256: 3297869f5fb81cc931b58ea4d147d5b89ddb0dbe0ebc72abf7eab7ab5a691f46
+              content_sha256: ae7a00a7bf8f3e98348a00835b8817d1ce3109b6deec5e426bda2e8c26dcb197
             - kind: section
               section: 6
               title: Propriétés spéciales aux formes hermitiennes
@@ -9085,7 +9085,7 @@ books:
               statements: 17
               exercises: 0
               extraction: ocr
-              content_sha256: 47f1f659ab524c37f71e815f6a42017440fa35076b74ec187bcb8b0be0c99277
+              content_sha256: 783f2b68bfc70c755e7a59da78ba4ea7f91f435a5f45796c2931ea0e513f2e14
             - kind: section
               section: 7
               title: Formes hermitiennes et corps ordonnés
@@ -9121,7 +9121,7 @@ books:
               statements: 24
               exercises: 0
               extraction: ocr
-              content_sha256: e2c4e69fdd13a741a502879f76e3145e94bb7fd20f1e9d2440ff7b50608cba33
+              content_sha256: 9f9dc12c228a142f48695e851060bf48a3c778be20740d952eec9d34913e8d60
             - kind: section
               section: 10
               title: Angles
@@ -9784,7 +9784,7 @@ books:
               statements: 47
               exercises: 16
               extraction: ocr
-              content_sha256: 371747b867ef287ed5c3614c06b50b96ba9579116d40576da189e40fc42ad561
+              content_sha256: 2f69a5c9c3f3fe54b1600708df827c7cdf7eb0e4e5d37bfe42639e07835f4101
             - kind: section
               section: 4
               title: Spectres d’anneaux et supports de modules
@@ -9845,7 +9845,7 @@ books:
               statements: 68
               exercises: 31
               extraction: ocr
-              content_sha256: dfff54cb43c75cb89d327982a34ad5f57bfe1d61524bd4073f17f7ca7f31972f
+              content_sha256: f0ffd869bd6ac43fa0232fc46875f60b58979001dd4ce3d327d171b1fef46533
             - kind: section
               section: 3
               title: Topologies m-adiques sur les anneaux nœthériens
@@ -10585,7 +10585,7 @@ books:
         statements: 0
         exercises: 0
         extraction: ocr
-        content_sha256: 2da69227d4db828eb2e129142924ce3b64ad3dd6783e525c13e623b1cdd33a9d
+        content_sha256: 6930c1085c4eaa07267d4ad9bd48e9fd4efd28df46e4351fceac41afc94bd6e2
       chapters:
         - chapter: I
           title: Inégalités de convexité
@@ -10804,7 +10804,7 @@ books:
               statements: 29
               exercises: 3
               extraction: ocr
-              content_sha256: df721c772753141cef873961e889653b0e17d83473fb7f57196784c8de58fbca
+              content_sha256: e97fd0f41e7d621fb14994516f11d408708f0959271b4f7db32957daf87aea55
     - id: var-fr
       reader_note:
         kind: reader
@@ -12751,7 +12751,7 @@ books:
               statements: 51
               exercises: 6
               extraction: ocr
-              content_sha256: 031e7ed8da3339d597484054f7aa7825883c0f8a458f430e436ee3bde96994bf
+              content_sha256: f1d42fcfe3958584a79c535d570f38d19506e76ae972f4bb921ba2556b039435
             - kind: section
               section: 3
               title: Applications et exemples
@@ -12868,7 +12868,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 0d81e65aaa8d165a13d8aa1138b9ae86d0b71f357a8f98b13c043d53a07ec7ca
+              content_sha256: a85f9420e816029a74863dc2627aa5bc23f192e8c0355962ae7d906a6b1c5be9
     - id: int-ix-fr
       chapters:
         - chapter: IX
@@ -12919,7 +12919,7 @@ books:
               statements: 17
               exercises: 18
               extraction: ocr
-              content_sha256: 79962b3e97f40794f6e08612fe66145bf080ed2de4e4dcb997acfe88f292418b
+              content_sha256: 313f004cad56d35f3e0e3aa02304d974214ba83f87407d1f56440041a0ca2f65
             - kind: section
               section: 4
               title: Limites projectives de mesures
@@ -12943,7 +12943,7 @@ books:
               statements: 31
               exercises: 13
               extraction: ocr
-              content_sha256: 1dd0201958d0fab1a782e7b4e1fc356138a6fe2ed6e89b5f6878d8459cba6d4f
+              content_sha256: cc535c74aa03a7959cab4923540c06c37747265f7de4277ff27d650b5e6118c7
             - kind: section
               section: 6
               title: Promesures et mesures sur un espace localement convexe
