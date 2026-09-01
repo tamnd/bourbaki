@@ -205,21 +205,21 @@ The French is counted and not compared against the English. A file name carries 
 | --- | --- | --- | --- | --- | --- | --- |
 | Theory of Sets | 30 | 211 | 30 | 211 | 100% | 0 |
 | Algebra | 129 | 1223 | 129 | 1028 | 86% | 217 |
-| General Topology | 80 | 580 | 78 | 578 | 99% | 4 |
+| General Topology | 80 | 599 | 78 | 578 | 97% | 23 |
 | Functions of a Real Variable | 34 | 241 | 34 | 203 | 86% | 38 |
 | Topological Vector Spaces | 34 | 457 | 34 | 409 | 90% | 48 |
-| Integration | 59 | 501 | 59 | 478 | 96% | 23 |
+| Integration | 59 | 504 | 59 | 478 | 95% | 26 |
 | Commutative Algebra | 69 | 841 | 69 | 673 | 82% | 435 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
-| Lie Groups and Lie Algebras | 85 | 795 | 85 | 785 | 99% | 11 |
+| Lie Groups and Lie Algebras | 85 | 798 | 85 | 785 | 99% | 14 |
 | Théories spectrales | 36 | 371 | 36 | 371 | 100% | 407, all of it |
-| Topologie algébrique | 28 | 180 | 28 | 164 | 92% | 208, all of it |
+| Topologie algébrique | 28 | 188 | 28 | 164 | 89% | 216, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **621** | **5400** | **619** | **4900** | **92%** | **1402** |
+| **All** | **621** | **5433** | **619** | **4900** | **91%** | **1435** |
 
-The source column is the English, which is 621 sections and 5400 exercises: 4619 files in `content/en` where Springer printed an English translation and 1402 in `content/en-mt` where this project read the French instead. The French originals are 570 sections and 5169 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 621 sections and 5433 exercises: 4619 files in `content/en` where Springer printed an English translation and 1435 in `content/en-mt` where this project read the French instead. The French originals are 570 sections and 5169 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 619 of the 621 sections and 4900 of the 5400 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 619 of the 621 sections and 4900 of the 5433 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
 The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 900 of the 5519 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
