@@ -37,7 +37,7 @@ subsections:
       pdf_page: 25
 statements: 16
 exercises: 9
-content_sha256: 059c049ee9636997f6a4dacee25da1b47d77e9c38b0f13cef58c9b07159f308b
+content_sha256: d47a814f8422000b783181c3964404719c0da4619c171766e467563df3843370
 ---
 
 ## § 3. FORMES COMPACTES DES ALGÈBRES DE LIE SEMI-SIMPLES COMPLEXES
@@ -250,7 +250,7 @@ La première assertion résulte du cor. à la prop. 4 et de la prop. 5. Comme $\
 
 #### Remarque {#lie-ix-s3-n6-rem-1 .statement tag=01BF}
 
-On a vu ci-dessus que $\mathbf{SU}(2, \mathbf{C})$ est simplement connexe et que $\pi_1(\mathbf{SO}(3, \mathbf{R}))$ est d’ordre 2. Nous verrons plus loin que ces résultats se généralisent respectivement à $\mathbf{SU}(n, \mathbf{C})\ (n \geqslant 1)\ ) et$ \mathbf{SO}(n, \mathbf{R})\ (n \geqslant 3)\ ) (*cf.* aussi § 3, exerc. 4 et 5).
+On a vu ci-dessus que $\mathbf{SU}(2, \mathbf{C})$ est simplement connexe et que $\pi_1(\mathbf{SO}(3, \mathbf{R}))$ est d’ordre 2. Nous verrons plus loin que ces résultats se généralisent respectivement à $\mathbf{SU}(n, \mathbf{C})\ (n \geqslant 1)$ et $\mathbf{SO}(n, \mathbf{R})\ (n \geqslant 3)$ (*cf.* aussi § 3, exerc. 4 et 5).
 
 Rappelons (VIII, § 1, n° 1) qu’on appelle base canonique de $\mathfrak{sl}(2, \mathbf{C})$ la base $(X_+, X_-, H)$, où
 
