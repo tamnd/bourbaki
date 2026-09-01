@@ -212,16 +212,16 @@ The French is counted and not compared against the English. A file name carries 
 | Commutative Algebra | 69 | 673 | 69 | 673 | 100% | 267 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
 | Lie Groups and Lie Algebras | 85 | 785 | 85 | 760 | 97% | 1 |
-| Théories spectrales | 36 | 371 | 36 | 135 | 42% | 407, all of it |
+| Théories spectrales | 36 | 371 | 36 | 211 | 61% | 407, all of it |
 | Topologie algébrique | 28 | 164 | 28 | 149 | 92% | 192, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **619** | **4900** | **619** | **4624** | **95%** | **900** |
+| **All** | **619** | **4900** | **619** | **4700** | **96%** | **900** |
 
 The source column is the English, which is 619 sections and 4900 exercises: 4619 files in `content/en` where Springer printed an English translation and 900 in `content/en-mt` where this project read the French instead. The French originals are 475 sections and 4504 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 619 of the 619 sections and 4624 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 619 of the 619 sections and 4700 of the 4900 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
-The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 649 of the 5243 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 725 of the 5319 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it
