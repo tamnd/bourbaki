@@ -1161,7 +1161,7 @@ $h(z_1, z_2) =\sum_{n\geqslant 0}f^{(n}\overset{)}{n}($!$z_1)z_2^n$,
 
 $\sum f^(\overset{n)}{n}$!$(a)b^n$
 
-$với $n\geqslant 0$ hội tụ trong A và tổng của nó là $h(a, b) =f(a+b)$. Hơn nữa, chuỗi này hội tụ tuyệt đối theo mệnh đề a).
+với $n\geqslant 0$ hội tụ trong A và tổng của nó là $h(a, b) =f(a+b)$. Hơn nữa, chuỗi này hội tụ tuyệt đối theo mệnh đề a).
 
 ### 10. Hàm mũ và lôgarit
 
