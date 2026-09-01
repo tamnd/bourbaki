@@ -277,7 +277,7 @@ Trong mệnh đề sau, giả sử rằng $p_1=p_2= 2$.
 
 a) Cho $g'$ là một hàm $\mu$-đo được trên X sao cho $|g|\leqslant |g'|$. Ta có dom($\widetilde{m}_{g'}$)$\subset$ dom($\widetilde{m}_g$) và dom($\widetilde{m}_{g'}$) là một lõi của toán tử bộ phận $\widetilde{m}_g$;
 
-b) Cho F là một không gian con của $\mathscr{L}_K^2(X, \mu)$ mà giao của nó với $\mathscr{K}(X; K)$ là trù mật trong $\mathscr{K}(X; K)$ và որի ảnh G của nó trong $L^2_K(X, \mu)$ được chứa trong dom($\widetilde{m}_g$). Nếu $|g|^2$ địa phương $\mu$-khả tích, thì $\mathscr{K}(X; K)$ được chứa trong miền xác định của $\widetilde{m}_g$ và G là một lõi của $m_g$.
+b) Cho F là một không gian con của $\mathscr{L}_K^2(X, \mu)$ mà giao của nó với $\mathscr{K}(X; K)$ là trù mật trong $\mathscr{K}(X; K)$ và mà ảnh G của nó trong $L^2_K(X, \mu)$ được chứa trong dom($\widetilde{m}_g$). Nếu $|g|^2$ địa phương $\mu$-khả tích, thì $\mathscr{K}(X; K)$ được chứa trong miền xác định của $\widetilde{m}_g$ và G là một lõi của $m_g$.
 
 Ta hãy chứng minh a). Nếu $f\in \mathscr{L}_K^2(X, \mu)$ thuộc miền xác định của $m_{g'}$, sao cho $f g'\in \mathscr{L}_K^2(X, \mu)$, thì giả thiết suy ra rằng $f g\in \mathscr{L}_K^2(X, \mu)$, do đó có kết quả.
 

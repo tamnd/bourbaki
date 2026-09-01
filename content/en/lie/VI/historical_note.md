@@ -920,7 +920,7 @@ Positive roots:
 
 $\pm \varepsilon_i + \varepsilon_j \ (i < j), \quad \frac{1}{2} (\varepsilon_8 + \sum_{i=1}^7 (-1)^{\nu(i)} \varepsilon_i )$ with $\sum_{i=1}^7 \nu(i)$ even.
 
-Positive roots containing $\alpha_8$ and having at least one coefficient $\geq 2$(we denote the root $a \alpha_1 + b \alpha_2 + c \alpha_3 + d \alpha_4 + e \alpha_5 + f \alpha_6 + g \alpha_7 + h \alpha_8$ by $a \begin{array}{c} c \\ b \end{array} d e f g h$)^{15}:
+Positive roots containing $\alpha_8$ and having at least one coefficient $\geq 2$ (we denote the root $a \alpha_1 + b \alpha_2 + c \alpha_3 + d \alpha_4 + e \alpha_5 + f \alpha_6 + g \alpha_7 + h \alpha_8$ by $a \begin{array}{c} c \\ b \end{array} d e f g h$)^{15}:
 
 $$
 \begin{array}{ccccccccc}

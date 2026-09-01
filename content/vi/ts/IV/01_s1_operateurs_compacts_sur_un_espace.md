@@ -469,7 +469,7 @@ Cho $n\in \mathbf{N}$. Ánh xạ $\widehat{\wedge}^ni_H$ là một ánh xạ tuy
 
 Cho $(e_j)_{j\in J}$ là một cơ sở trực chuẩn của H và $(e_j)_{j\in J'}$ là một cơ sở trực chuẩn của E, với $J\subset J'$. Trang bị cho $J'$ một thứ tự toàn phần. Các phần tử $e_{j_1}\wedge  \cdots  \wedge e_{j_n}$ với $j_1<\cdots < j_n$ trong $J'$ (tương ứng, trong J) tạo thành một cơ sở trực chuẩn của $\widehat{\wedge}^nE$ (tương ứng, của $\widehat{\wedge}^nH$) theo Mệnh đề 5 của EVT, V, p. 34, mệnh đề 5. Bổ đề được suy ra.
 
-Trong phần sau, ta sẽ đồng nhất $\widehat{\wedge}^nH$ với một không gian con đóng của $\widehat{\wedge}^nE$ посредством ánh xạ $\widehat{\wedge}^ni_H$.
+Trong phần sau, ta sẽ đồng nhất $\widehat{\wedge}^nH$ với một không gian con đóng của $\widehat{\wedge}^nE$ qua ánh xạ $\widehat{\wedge}^ni_H$.
 
 #### Bổ đề 3 {#ts-iv-s1-lem-3 .statement tag=02WZ}
 

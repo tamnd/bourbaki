@@ -211,7 +211,7 @@ $\sum_{i \in I} f_i$ ($f_i : E_i \to F$ applications linéaires): II, p. 12.
 $\bigoplus_{i \in I} f_i$, $f_p \oplus f_{p+1} \oplus \cdots \oplus f_q$ ($f_i : E_i \to F_i$ applications linéaires): II, p. 13.
 
 E^{(1)} (E module): II, p. 15.
-$\sum_{t \in I} M_t$ (($M_t$)_{t \in I} famille de sous-modules): II, p. 16.
+$\sum_{t \in I} M_t$ ($(M_t)_{t \in I}$ famille de sous-modules): II, p. 16.
 long_A(M), long(M) (M A-module de longueur finie): II, p. 21.
 $\delta_{st}$ (symbole de Kronecker): II, p. 24.
 $\sum_{t \in T} \xi_t \cdot t$ (T ensemble, $\xi_t$ éléments d’un anneau): II, p. 25.
