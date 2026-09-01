@@ -49,7 +49,7 @@ subsections:
       pdf_page: 203
 statements: 48
 exercises: 7
-content_sha256: d782c4a27c7dfb328d8d4bcb0a0fc179bed02b77ea87afcfdc15ece558d53cbb
+content_sha256: 232491995dad2d38e271fdef9aa25a33a8ab6f368bd8135e733114819a6670d7
 ---
 
 ## 3. COMPLETE SPACES

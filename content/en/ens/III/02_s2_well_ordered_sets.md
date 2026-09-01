@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: c4d656736e563f6ac82971fd4e1ec144ad45c95e80a8241c21c0579eaa1576cb
+content_sha256: 4ac2fa7577e3b279c1918b0f52c4d00e31f38944f59ee1c696ac83de2fb7f10b
 ---
 
 ## 2. WELL-ORDERED SETS

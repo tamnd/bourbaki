@@ -97,7 +97,7 @@ a) Tồn tại một phân tích của E thành một tổng trực tiếp tôp�
 
 b) Giả sử V khác rỗng. Tồn tại một phần tử $v$ của đối giao hoán tử kép của $u$ trong $\mathscr{L}(E)$ mà phổ được chứa trong V và sao cho $v-u$ có hạng hữu hạn.
 
-Cho H = Sp($u$)$\cap (\mathbf{C}-\mathring{V})$. Tập hợp H được chứa trong Sp$_s(u)$$, do đó là rời rạc; vì nó đóng trong không gian compắc Sp($u$), nên nó hữu hạn. Có thể lấy F và G lần lượt là ảnh và hạt nhân của phép chiếu phổ $e_H(u)$ (Mệnh đề 2).
+Cho H = Sp($u$)$\cap (\mathbf{C}-\mathring{V})$. Tập hợp H được chứa trong Sp$_s(u)$, do đó là rời rạc; vì nó đóng trong không gian compắc Sp($u$), nên nó hữu hạn. Có thể lấy F và G lần lượt là ảnh và hạt nhân của phép chiếu phổ $e_H(u)$ (Mệnh đề 2).
 
 Giả sử V khác rỗng. Lấy $\mu\in V$ và ký hiệu $v$ là tự đồng cấu của E trùng với phép vị tự tỉ số $\mu$ trên F và với $u$ trên G. Phổ của nó được chứa trong $\{\mu\} \cup$ (Sp($u$) - H), do đó trong V, và $v-u$ có hạng hữu hạn vì F là hữu hạn chiều.
 

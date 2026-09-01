@@ -31,7 +31,7 @@
 {"from":"","from_label":"alg-iii-s1","to_label":"alg-i-s10","kind":"cites","raw":"I, § 10, no. 1","form":"section","resolved_by":"section","file":"content/en/alg/III/01_s1_algebras.md","line":283},
 {"from":"","from_label":"alg-iii-s1","to_label":"alg-ii-s6","kind":"cites","raw":"II, § 6, no. 2","form":"section","resolved_by":"section","file":"content/en/alg/III/01_s1_algebras.md","line":311},
 {"from":"","from_label":"alg-iii-s1","to_label":"alg-i-s10","kind":"cites","raw":"I, § 10, no. 3","form":"section","resolved_by":"section","file":"content/en/alg/III/01_s1_algebras.md","line":311},
-{"from":"","from_label":"alg-iii-s1","to_label":"alg-ii-s3-prop-7-cor-2","kind":"cites","raw":"II, § 3, no. 7, Corollary 2","form":"section","resolved_by":"section-no","file":"content/en/alg/III/01_s1_algebras.md","line":361},
-{"from":"","from_label":"alg-iii-s1","to_label":"alg-ii-s5-prop-4","kind":"cites","raw":"II, § 5, no. 1, Proposition 4","form":"section","resolved_by":"section-no","file":"content/en/alg/III/01_s1_algebras.md","line":394},
+{"from":"","from_label":"alg-iii-s1","to_label":"alg-ii-s3-prop-7-cor-2","kind":"cites","raw":"II, § 3, no. 7, Corollary 2","form":"section","resolved_by":"section-no","file":"content/en/alg/III/01_s1_algebras.md","line":365},
+{"from":"","from_label":"alg-iii-s1","to_label":"alg-ii-s5-prop-4","kind":"cites","raw":"II, § 5, no. 1, Proposition 4","form":"section","resolved_by":"section-no","file":"content/en/alg/III/01_s1_algebras.md","line":398},
 {"from":"","from_label":"alg-iii-s1-ex-1","to_label":"alg-ii-s3-prop-6","kind":"cites","raw":"II, § 3, no. 5, Proposition 6","form":"section","resolved_by":"section-no","file":"content/en/alg/III/exercises/s1/01.md","line":14}
 ]}

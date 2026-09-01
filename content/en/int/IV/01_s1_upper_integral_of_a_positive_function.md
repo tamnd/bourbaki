@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
+content_sha256: fa8000aa164879c2412ecb823292e3a5f4f5f1167337ccfcb52c5077f1353f4a
 ---
 
 ## § 1. UPPER INTEGRAL OF A POSITIVE FUNCTION

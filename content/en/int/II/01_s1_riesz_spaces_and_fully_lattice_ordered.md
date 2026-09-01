@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: 3b9eb027da08c7a53f7df3e86e6b00d1cb2b27951fa304777c39b88f1388325d
+content_sha256: 32113a7d90414afcb3827cb2317f4b388db9fa35a79b7d1a5cb9dfa7b2c1ccfb
 ---
 
 ## § 1. RIESZ SPACES AND FULLY LATTICE-ORDERED SPACES
@@ -54,7 +54,6 @@ Axiom (OVS_I) implies that the relations $x \leq y$ and $x + z \leq y + z$ are e
 #### Definition 1 {#int-ii-s1-def-1 .statement}
 
 *An ordered vector space is said to be a Riesz space (or lattice-ordered vector space)*$^1$ *if its order structure is a lattice-ordering* (that is, if every pair of elements $x, y$ of E has a supremum $\sup(x, y)$ and an infimum $\inf(x, y)$ ).$^2$
-
 
 (1) Also called a "vector lattice".
 

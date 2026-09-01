@@ -30,7 +30,7 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: 0ee801130c4937b60178227e19ee4a8160108632ae38780ac29f1c6072b194de
+content_sha256: 61e68e051b5a7487b41eb0ce12906897bb980d7a082ba6f7156b2efd9c15ed66
 ---
 
 ## 1. TERMS AND RELATIONS

@@ -65,7 +65,7 @@ Theo mệnh đề 2 của II, p. 219, đại số Banach $L^1(G)$ là chính quy
 
 2) Cho M là một tập con đóng của $\widehat{G}$. Tập hợp các iđêan I của $L^1(G)$ sao cho V(I) = M có phần tử lớn nhất là Υ(M) và phần tử nhỏ nhất là tập các $f\in L^1(G)$ mà đối biến đổi Fourier có giá compắc rời khỏi M (I, p. 91, mệnh đề 4).
 
-3) Cho I là một iđêan của $L^1(G)$, và cho $g:\widehat{G}\rightarrow \mathbf{C}$ là một hàm liên tục. Giả sử rằng, với mọi $\chi \in \widehat{G}$, tồn tại một hàm $f_{\chi}\in I$ sao cho $g$ bằng $\mathscr{F}_G(f_{\chi})$ trong một lân cận của $\chi$. Giả sử thêm rằng tồn tại một hàm $f_{\infty}\in I$ sao cho $g$ bằng $\mathscr{F}_G(f_{\infty})$ trong phần bù của một tập compact của $\widehat{G}$$, điều kiện sau này luôn được thỏa mãn nếu G là rời rạc. Khi đó tồn tại một hàm $f\in I$ sao cho $g=\mathscr{F}_G(f)$ (I, p. 91, hệ quả 2).
+3) Cho I là một iđêan của $L^1(G)$, và cho $g:\widehat{G}\rightarrow \mathbf{C}$ là một hàm liên tục. Giả sử rằng, với mọi $\chi \in \widehat{G}$, tồn tại một hàm $f_{\chi}\in I$ sao cho $g$ bằng $\mathscr{F}_G(f_{\chi})$ trong một lân cận của $\chi$. Giả sử thêm rằng tồn tại một hàm $f_{\infty}\in I$ sao cho $g$ bằng $\mathscr{F}_G(f_{\infty})$ trong phần bù của một tập compact của $\widehat{G}$, điều kiện sau này luôn được thỏa mãn nếu G là rời rạc. Khi đó tồn tại một hàm $f\in I$ sao cho $g=\mathscr{F}_G(f)$ (I, p. 91, hệ quả 2).
 
 #### Bổ đề 1 {#ts-ii-s3-lem-1 .statement tag=02N4}
 

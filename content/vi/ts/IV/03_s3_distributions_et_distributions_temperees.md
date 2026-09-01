@@ -111,9 +111,7 @@ $$
 \beta \beta_i
 $$
 
-$$
 $i=1i=1$
-$$
 
 #### Bổ đề 1 {#ts-iv-s3-lem-1 .statement tag=030C}
 

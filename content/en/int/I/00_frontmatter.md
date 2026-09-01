@@ -21,7 +21,7 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: 7903e043f4340792f2eced78a10f941d410ff38a9f8de464278d8f409206e188
+content_sha256: 8dfb748700d8c874a76b6a8ae10c7b04bf3ec4fb555aaceacec1955706524daf
 ---
 
 ## CHAPTER I
@@ -45,7 +45,6 @@ $$
 satisfy the preceding conditions in the set P of vectors $\mathbf{x}$ with coordinates $\geqslant 0$.
 
 *Remark.* — Let S be a pointed convex cone contained in P (that is, a set such that $S + S \subset S$ and $\lambda S \subset S$ for $\lambda \geqslant 0$; cf. TVS, II, §2, No. 4); let $M$ be a numerical function (finite or not) with values $\geqslant 0$, defined on S and satisfying in S the above conditions $1^\circ, 2^\circ$ and $3^\circ$. Then $M$ can be extended to the entire set P, in such a way that the extended function (which we denote again by $M$) satisfies the same conditions: it suffices, for every function $f \in P$, to set $M(f) = +\infty$ if there does not exist any function $g \in S$ such that $f \leqslant g$, and $M(f) = \inf_{g \in S, f \leqslant g} M(g)$ in the contrary case. This procedure will be applied in Ch. IV, §1 to define the *upper integral* of a positive function.
-
 
 (1) Fonction numérique finie—a function with values in $\mathbf{R}$—may also be translated as "real-valued function" (cf. GT, IV, §5, No. 1).
 

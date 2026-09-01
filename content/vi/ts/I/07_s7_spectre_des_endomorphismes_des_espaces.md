@@ -133,7 +133,7 @@ d) Không gian vectơ $E_{Sp(u)-H}$ là giao của họ $(E_{Sp(u)-H_i})_{i\in I
 
 Khi H = Sp($u$), phân tích thành tổng trực tiếp tôpô $\bigoplus_{i\in I}E_{H_i}$ của E được gọi là phân tích phổ của E liên kết với $u$ và với phân hoạch hữu hạn $(H_i)_{i\in I}$ của Sp($u$).
 
-Cho $f$ là một phần tử của $\mathscr{O}$(Sp($u$)). Phổ của tự đồng cấu $f(u)$ của E là ảnh của phổ của $u$ qua $f$ ($I, p. 75, Prop. 8). Cho L là một tập con vừa mở vừa đóng trong Sp($f(u)$). Tập H gồm các phần tử $\lambda \in$ Sp($u$) sao cho $f(\lambda )$ thuộc L là vừa mở vừa đóng trong Sp($u$), và ta có $e_L(f(u)) =e_H(u)$ vì $f_L\circ f=f_H$ trong $\mathscr{O}$(Sp($u$)) (loc. cit.).
+Cho $f$ là một phần tử của $\mathscr{O}$(Sp($u$)). Phổ của tự đồng cấu $f(u)$ của E là ảnh của phổ của $u$ qua $f$ (I, p. 75, Prop. 8). Cho L là một tập con vừa mở vừa đóng trong Sp($f(u)$). Tập H gồm các phần tử $\lambda \in$ Sp($u$) sao cho $f(\lambda )$ thuộc L là vừa mở vừa đóng trong Sp($u$), và ta có $e_L(f(u)) =e_H(u)$ vì $f_L\circ f=f_H$ trong $\mathscr{O}$(Sp($u$)) (loc. cit.).
 
 ### 3. Các điểm cô lập của phổ
 

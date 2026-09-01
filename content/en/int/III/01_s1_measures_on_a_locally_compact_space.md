@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
+content_sha256: bfe62c6a2655ed8665a974febcccb64ea09581f15f597b05eb60c1c1f8b230e3
 ---
 
 ## § 1. MEASURES ON A LOCALLY COMPACT SPACE

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
+content_sha256: ea7732202a28d5050059674952e2d77a76b99bccdd01471ea0bafeea43972ee2
 ---
 
 ## § 8. PRODUCTS OF MEASURES

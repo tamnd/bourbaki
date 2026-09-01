@@ -149,7 +149,7 @@ $$
 |\lambda_i|^2\leqslant |\lambda_i|^2+|\lambda_j|^2=\|u(e_i)-u(e_j)\|^2\leqslant \varepsilon^2
 $$
 
-Do đó, ta có $\lambda \in \mathscr{C}_0(I; K)$$, nghĩa là, điều kiện (i).
+Do đó, ta có $\lambda \in \mathscr{C}_0(I; K)$, nghĩa là, điều kiện (i).
 
 Sau cùng, phổ của $u$ và phổ nhạy của nó được tính như những hàm của $\lambda$ bằng cách dùng mệnh đề 1, c) và Mệnh đề 5 của III, p. 90.
 

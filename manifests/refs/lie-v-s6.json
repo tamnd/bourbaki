@@ -29,5 +29,5 @@
 {"from":"","from_label":"lie-v-s6-ex-2","to_label":"lie-v-s4-ex-2","kind":"cites","raw":"§ 4, Exerc. 2","form":"section","resolved_by":"exercise","file":"content/en/lie/V/exercises/s6/02.md","line":17},
 {"from":"","from_label":"lie-v-s6-ex-2","to_label":"lie-iv-s1","kind":"cites","raw":"Chap. IV, § 1, no. 1","form":"section","resolved_by":"section","file":"content/en/lie/V/exercises/s6/02.md","line":23},
 {"from":"","from_label":"lie-v-s6-ex-3","to_label":"lie-v-s2-ex-1","kind":"cites","raw":"§ 2, Exerc. 1","form":"section","resolved_by":"exercise","file":"content/en/lie/V/exercises/s6/03.md","line":13},
-{"from":"","from_label":"lie-v-s6-ex-3","to_label":"lie-iv-a0","kind":"cites","raw":"Chap. IV, Appendix, no. 3","form":"section","resolved_by":"section","file":"content/en/lie/V/exercises/s6/03.md","line":81}
+{"from":"","from_label":"lie-v-s6-ex-3","to_label":"lie-iv-a0","kind":"cites","raw":"Chap. IV, Appendix, no. 3","form":"section","resolved_by":"section","file":"content/en/lie/V/exercises/s6/03.md","line":85}
 ]}
