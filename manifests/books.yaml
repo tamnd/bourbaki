@@ -62,7 +62,7 @@ books:
         bpc: 1
         color: gray
       extraction: ocr
-      text_layer: ocr
+      text_layer: none
       page_width_pt: 439.37
       page_height_pt: 666.142
       grammar: head-label
