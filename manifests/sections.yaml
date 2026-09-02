@@ -13410,3 +13410,375 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 7ddf36d54aaa79b3e139a5b576f29f9f98172a65f3e65d2b9ac9671efae2745e
+    - id: ens-i-iv-fr
+      reader_note:
+        kind: reader
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        path: content/fr/ens/00_to_the_reader.md
+        first_pdf_page: 5
+        last_pdf_page: 7
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 39e61637934a99d3da3d3aecb087342390a5dbd3ed5acd41281cd59101105ffa
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/fr/ens/00_introduction.md
+        first_pdf_page: 8
+        last_pdf_page: 14
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 905b1a9114d6883f4c46172b9c3312c0250f69d511b34c2240971ac431725b1a
+      chapters:
+        - chapter: I
+          title: DESCRIPTION DE LA MATHÉMATIQUE FORMELLE
+          sections:
+            - kind: front
+              title: DESCRIPTION DE LA MATHÉMATIQUE FORMELLE
+              path: content/fr/ens/I/00_frontmatter.md
+              first_pdf_page: 15
+              last_pdf_page: 15
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 18e288c607b2582861497ddca2cc33c19d6f3a27b1272929e1567692cceaffe7
+            - kind: section
+              section: 1
+              title: Termes et relations
+              path: content/fr/ens/I/01_s1_termes_et_relations.md
+              label: ens-i-s1
+              first_pdf_page: 15
+              last_pdf_page: 48
+              subsections: 4
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: 14de471475b196e79411c41445b05c3903b39c5c82403ce3ceb0a73e9d31b79d
+            - kind: section
+              section: 2
+              title: Théorèmes
+              path: content/fr/ens/I/02_s2_theoremes.md
+              label: ens-i-s2
+              first_pdf_page: 22
+              last_pdf_page: 48
+              subsections: 4
+              statements: 1
+              exercises: 1
+              extraction: ocr
+              content_sha256: 91e884c72b2659211827e3a2490bb93ae696dee676d02353031a40d80e1462ad
+            - kind: section
+              section: 3
+              title: Théories logiques
+              path: content/fr/ens/I/03_s3_theories_logiques.md
+              label: ens-i-s3
+              first_pdf_page: 26
+              last_pdf_page: 49
+              subsections: 5
+              statements: 0
+              exercises: 5
+              extraction: ocr
+              content_sha256: a9e606302e0a28ffccc3bf015876fe5913aaa9bf423563abd3bbca7d01136a41
+            - kind: section
+              section: 4
+              title: Théories quantifiées
+              path: content/fr/ens/I/04_s4_theories_quantifiees.md
+              label: ens-i-s4
+              first_pdf_page: 32
+              last_pdf_page: 49
+              subsections: 4
+              statements: 0
+              exercises: 8
+              extraction: ocr
+              content_sha256: 879345d89491de488fd8242011036b46a7a2f4f3b183c11fbe847caf8282b0c0
+            - kind: section
+              section: 5
+              title: Théories égalitaires
+              path: content/fr/ens/I/05_s5_theories_egalitaires.md
+              label: ens-i-s5
+              first_pdf_page: 39
+              last_pdf_page: 50
+              book_pages: E I.49
+              subsections: 3
+              statements: 3
+              exercises: 7
+              extraction: ocr
+              content_sha256: f56d99d868f32a4b67ae8e64b9fe1d26da9c4ad08fc39e6dfdbf1ae94b6db6f8
+            - kind: appendix
+              title: Caractérisation des termes et des relations
+              path: content/fr/ens/I/A_a_caracterisation_des_termes_et_des.md
+              label: ens-i-a0
+              first_pdf_page: 43
+              last_pdf_page: 52
+              subsections: 4
+              statements: 7
+              exercises: 8
+              extraction: ocr
+              content_sha256: 1687bd895d5f8fe5d63bf17d4ad4a21f61a12637b2e654e620f89a03efb97913
+        - chapter: II
+          title: THÉORIE DES ENSEMBLES
+          sections:
+            - kind: front
+              title: THÉORIE DES ENSEMBLES
+              path: content/fr/ens/II/00_frontmatter.md
+              first_pdf_page: 53
+              last_pdf_page: 53
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c40111aa37447e308f2279515db6211fe504ed15463221cc309da8d36a994c8b
+            - kind: section
+              section: 1
+              title: Relations collectivisantes
+              path: content/fr/ens/II/01_s1_relations_collectivisantes.md
+              label: ens-ii-s1
+              first_pdf_page: 53
+              last_pdf_page: 101
+              subsections: 7
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: 8db79cf99e7fe9205dc6a9acc5d237684c289089d9d58e2cfcb3454ac791038f
+            - kind: section
+              section: 2
+              title: Couples
+              path: content/fr/ens/II/02_s2_couples.md
+              label: ens-ii-s2
+              first_pdf_page: 59
+              last_pdf_page: 101
+              book_pages: E II.7-E II.9
+              subsections: 2
+              statements: 5
+              exercises: 1
+              extraction: ocr
+              content_sha256: dce45c4fed9a109155a33741cf73d71851258dd23b7562a7adc8ef6a30078403
+            - kind: section
+              section: 3
+              title: Correspondances
+              path: content/fr/ens/II/03_s3_correspondances.md
+              label: ens-ii-s3
+              first_pdf_page: 61
+              last_pdf_page: 102
+              subsections: 9
+              statements: 28
+              exercises: 11
+              extraction: ocr
+              content_sha256: bd8aaf627e5764e2a01125a05bc3c33a176dce7b0527e00ae4291443449ae378
+            - kind: section
+              section: 4
+              title: Réunion et intersection d’une famille d’ensembles
+              path: content/fr/ens/II/04_s4_reunion_et_intersection_d_une_famille_d.md
+              label: ens-ii-s4
+              first_pdf_page: 74
+              last_pdf_page: 103
+              book_pages: E II.50-E II.51
+              subsections: 8
+              statements: 22
+              exercises: 8
+              extraction: ocr
+              content_sha256: 2c0ff941f524dfb20cbf59d979331790b68181ef8729cc4e27073ec105cf244f
+            - kind: section
+              section: 5
+              title: Produit d'une famille d'ensembles
+              path: content/fr/ens/II/05_s5_produit_d_une_famille_d_ensembles.md
+              label: ens-ii-s5
+              first_pdf_page: 82
+              last_pdf_page: 103
+              book_pages: E II.30-E II.39, E II.51
+              subsections: 7
+              statements: 24
+              exercises: 5
+              extraction: ocr
+              content_sha256: db0022e62383130cc1e0ad1d77b9b8d305dc0362a0685af8b0084238db199908
+            - kind: section
+              section: 6
+              title: Relations d’équivalence
+              path: content/fr/ens/II/06_s6_relations_d_equivalence.md
+              label: ens-ii-s6
+              first_pdf_page: 91
+              last_pdf_page: 104
+              book_pages: E II.51-E II.52
+              subsections: 9
+              statements: 5
+              exercises: 10
+              extraction: ocr
+              content_sha256: 987904398af6d2599bd91eb95321c9683702ab73b500683f239a59359c7532cc
+        - chapter: III
+          title: ENSEMBLES ORDONNÉS, CARDINAUX, NOMBRES ENTIERS
+          sections:
+            - kind: front
+              title: ENSEMBLES ORDONNÉS, CARDINAUX, NOMBRES ENTIERS
+              path: content/fr/ens/III/00_frontmatter.md
+              first_pdf_page: 105
+              last_pdf_page: 105
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a58cb4632dabbdf120496d1f35864d1f2dca39ef6d1d275fae28fad44081c60b
+            - kind: section
+              section: 1
+              title: Relations d’ordre. Ensembles ordonnés
+              path: content/fr/ens/III/01_s1_relations_d_ordre_ensembles_ordonnes.md
+              label: ens-iii-s1
+              first_pdf_page: 105
+              last_pdf_page: 178
+              subsections: 13
+              statements: 43
+              exercises: 24
+              extraction: ocr
+              content_sha256: 4ed72a45881260361cdb2ad91b1adfa91d5ef7af0f5b3888b55f8dfea9b35134
+            - kind: section
+              section: 2
+              title: Ensembles bien ordonnés
+              path: content/fr/ens/III/02_s2_ensembles_bien_ordonnes.md
+              label: ens-iii-s2
+              first_pdf_page: 119
+              last_pdf_page: 183
+              book_pages: E III.15-E III.23, E III.75-E III.79
+              subsections: 6
+              statements: 27
+              exercises: 20
+              extraction: ocr
+              content_sha256: 2bcb4b4feea0003a48f4107927aea90e166d60f5048e35a80eaa3a7a48884c8b
+            - kind: section
+              section: 3
+              title: Ensembles équipotents. Cardinaux
+              path: content/fr/ens/III/03_s3_ensembles_equipotents_cardinaux.md
+              label: ens-iii-s3
+              first_pdf_page: 127
+              last_pdf_page: 183
+              book_pages: E III.23-E III.30, E III.79
+              subsections: 6
+              statements: 32
+              exercises: 1
+              extraction: ocr
+              content_sha256: 940b752b58440ebe4daea0c9c83ad9df3293b5b19ed7383cf81a7f119541f724
+            - kind: section
+              section: 4
+              title: Entiers naturels. Ensembles finis
+              path: content/fr/ens/III/04_s4_entiers_naturels_ensembles_finis.md
+              label: ens-iii-s4
+              first_pdf_page: 134
+              last_pdf_page: 187
+              book_pages: E III.30-E III.35, E III.80-E III.83
+              subsections: 5
+              statements: 14
+              exercises: 11
+              extraction: ocr
+              content_sha256: cba69c356e78ad0bb33d0f0ec930a55926e64996fd34519666a29382bd1320e1
+            - kind: section
+              section: 5
+              title: Calcul sur les entiers
+              path: content/fr/ens/III/05_s5_calcul_sur_les_entiers.md
+              label: ens-iii-s5
+              first_pdf_page: 139
+              last_pdf_page: 191
+              book_pages: E III.35-E III.44, E III.83-E III.87
+              subsections: 8
+              statements: 30
+              exercises: 18
+              extraction: ocr
+              content_sha256: 12f8e428428b5f7dc54975404f7164ebcd42072404d371fe2d384b67219ccb8d
+            - kind: section
+              section: 6
+              title: Ensembles infinis
+              path: content/fr/ens/III/06_s6_ensembles_infinis.md
+              label: ens-iii-s6
+              first_pdf_page: 149
+              last_pdf_page: 198
+              book_pages: E III.45-E III.51, E III.87-E III.94
+              subsections: 5
+              statements: 24
+              exercises: 33
+              extraction: ocr
+              content_sha256: 6bc1a96bfc0fa13351892267947be8e68da6e32aa23c8a59110ccaec5dd03a5f
+            - kind: section
+              section: 7
+              title: Limites projectives et limites inductives
+              path: content/fr/ens/III/07_s7_limites_projectives_et_limites.md
+              label: ens-iii-s7
+              first_pdf_page: 155
+              last_pdf_page: 200
+              book_pages: E III.94-E III.96
+              subsections: 7
+              statements: 26
+              exercises: 10
+              extraction: ocr
+              content_sha256: 8c30384cc85751bc4198f0143b858784f0b5074aaeb93001f72b9ed872738c39
+            - kind: historical
+              title: Historical Note
+              path: content/fr/ens/III/historical_note.md
+              first_pdf_page: 201
+              last_pdf_page: 202
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 51a23d6f585f7f3ab4990f2e885c4f112ce8f9c3e1c1305f2afa4c5897cb3c74
+        - chapter: IV
+          title: STRUCTURES
+          sections:
+            - kind: front
+              title: STRUCTURES
+              path: content/fr/ens/IV/00_frontmatter.md
+              first_pdf_page: 204
+              last_pdf_page: 204
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: edd4d62c8d024da561e10175a9be4386745ff4663c0f8a12cd0ce276fd66e9d2
+            - kind: section
+              section: 1
+              title: Structures et isomorphismes
+              path: content/fr/ens/IV/01_s1_structures_et_isomorphismes.md
+              label: ens-iv-s1
+              first_pdf_page: 204
+              last_pdf_page: 231
+              subsections: 7
+              statements: 13
+              exercises: 1
+              extraction: ocr
+              content_sha256: 165d8c8d322e06d651488e5100b254d0f3c9f149a5cb53e864be26c789802b5e
+            - kind: section
+              section: 2
+              title: Morphismes et structures dérivées
+              path: content/fr/ens/IV/02_s2_morphismes_et_structures_derivees.md
+              label: ens-iv-s2
+              first_pdf_page: 214
+              last_pdf_page: 234
+              book_pages: E IV.11-E IV.22
+              subsections: 6
+              statements: 12
+              exercises: 11
+              extraction: ocr
+              content_sha256: cbee7ac8bfe2385e96af2a4e38f0596ab864675d5768a0895ec35c072202c5da
+            - kind: section
+              section: 3
+              title: Applications universelles
+              path: content/fr/ens/IV/03_s3_applications_universelles.md
+              label: ens-iv-s3
+              first_pdf_page: 225
+              last_pdf_page: 235
+              book_pages: E IV.31-E IV.32
+              subsections: 3
+              statements: 0
+              exercises: 3
+              extraction: ocr
+              content_sha256: a2897706a753f536281af7306b30f6322431c9ff55fd294d472b6fb300161861
+            - kind: historical
+              title: Historical Note
+              path: content/fr/ens/IV/historical_note.md
+              first_pdf_page: 236
+              last_pdf_page: 279
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 15d71f8e3610e28969a37fb8aad879772c6e53b91427d24b0dc857f49f998f2d

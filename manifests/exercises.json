@@ -7593,6 +7593,230 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ens-i-iv-fr",
+      "chapters": [
+        {
+          "chapter": "I",
+          "title": "DESCRIPTION DE LA MATHÉMATIQUE FORMELLE",
+          "total": 35,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ens-i-s1",
+              "dir": "s1",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 2,
+              "label": "ens-i-s2",
+              "dir": "s2",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 3,
+              "label": "ens-i-s3",
+              "dir": "s3",
+              "count": 5,
+              "first": 1,
+              "last": 5
+            },
+            {
+              "section": 4,
+              "label": "ens-i-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 5,
+              "label": "ens-i-s5",
+              "dir": "s5",
+              "count": 7,
+              "first": 1,
+              "last": 7
+            },
+            {
+              "section": 0,
+              "appendix": true,
+              "label": "ens-i-a0",
+              "dir": "a0",
+              "count": 8,
+              "first": 1,
+              "last": 8,
+              "starred": 3
+            }
+          ]
+        },
+        {
+          "chapter": "II",
+          "title": "THÉORIE DES ENSEMBLES",
+          "total": 41,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ens-ii-s1",
+              "dir": "s1",
+              "count": 6,
+              "first": 1,
+              "last": 6
+            },
+            {
+              "section": 2,
+              "label": "ens-ii-s2",
+              "dir": "s2",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 3,
+              "label": "ens-ii-s3",
+              "dir": "s3",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "supplementary": 1
+            },
+            {
+              "section": 4,
+              "label": "ens-ii-s4",
+              "dir": "s4",
+              "count": 8,
+              "first": 1,
+              "last": 8
+            },
+            {
+              "section": 5,
+              "label": "ens-ii-s5",
+              "dir": "s5",
+              "count": 5,
+              "first": 1,
+              "last": 5,
+              "supplementary": 1
+            },
+            {
+              "section": 6,
+              "label": "ens-ii-s6",
+              "dir": "s6",
+              "count": 10,
+              "first": 1,
+              "last": 10
+            }
+          ]
+        },
+        {
+          "chapter": "III",
+          "title": "ENSEMBLES ORDONNÉS, CARDINAUX, NOMBRES ENTIERS",
+          "total": 117,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ens-iii-s1",
+              "dir": "s1",
+              "count": 24,
+              "first": 1,
+              "last": 24,
+              "starred": 4,
+              "supplementary": 4
+            },
+            {
+              "section": 2,
+              "label": "ens-iii-s2",
+              "dir": "s2",
+              "count": 20,
+              "first": 1,
+              "last": 20,
+              "starred": 5,
+              "supplementary": 2
+            },
+            {
+              "section": 3,
+              "label": "ens-iii-s3",
+              "dir": "s3",
+              "count": 1,
+              "first": 1,
+              "last": 1,
+              "starred": 1
+            },
+            {
+              "section": 4,
+              "label": "ens-iii-s4",
+              "dir": "s4",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "starred": 6
+            },
+            {
+              "section": 5,
+              "label": "ens-iii-s5",
+              "dir": "s5",
+              "count": 18,
+              "first": 1,
+              "last": 18,
+              "starred": 6
+            },
+            {
+              "section": 6,
+              "label": "ens-iii-s6",
+              "dir": "s6",
+              "count": 33,
+              "first": 1,
+              "last": 33,
+              "starred": 20,
+              "supplementary": 1
+            },
+            {
+              "section": 7,
+              "label": "ens-iii-s7",
+              "dir": "s7",
+              "count": 10,
+              "first": 1,
+              "last": 10,
+              "starred": 1
+            }
+          ]
+        },
+        {
+          "chapter": "IV",
+          "title": "STRUCTURES",
+          "total": 15,
+          "sections": [
+            {
+              "section": 1,
+              "label": "ens-iv-s1",
+              "dir": "s1",
+              "count": 1,
+              "first": 1,
+              "last": 1
+            },
+            {
+              "section": 2,
+              "label": "ens-iv-s2",
+              "dir": "s2",
+              "count": 11,
+              "first": 1,
+              "last": 11,
+              "supplementary": 1
+            },
+            {
+              "section": 3,
+              "label": "ens-iv-s3",
+              "dir": "s3",
+              "count": 3,
+              "first": 1,
+              "last": 3
+            }
+          ]
+        }
+      ]
     }
   ]
 }
