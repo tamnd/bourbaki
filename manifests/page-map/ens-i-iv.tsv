@@ -9,12 +9,12 @@ pdf_page	chapter	page	confidence
 6			none
 7			none
 8			none
-9		1	interpolated
-10		2	foot
-11		3	foot
+9		1	folio
+10		2	folio
+11		3	folio
 12		4	interpolated
-13		5	foot
-14		6	foot
+13		5	folio
+14		6	folio
 15		7	folio
 16		8	folio
 17		9	folio
@@ -272,19 +272,19 @@ pdf_page	chapter	page	confidence
 269	IV	264	folio
 270	IV	265	folio
 271	IV	266	folio
-272	IV	267	foot
-273	IV	268	foot
-274	IV	269	foot
-275	IV	270	foot
-276	IV	271	foot
+272	IV	267	folio
+273	IV	268	folio
+274	IV	269	folio
+275	IV	270	folio
+276	IV	271	folio
 277	IV	272	folio
 278	IV	273	folio
 279	IV	274	folio
 280	IV	275	folio
-281	IV	276	foot
-282	IV	277	foot
+281	IV	276	folio
+282	IV	277	folio
 283	IV	278	folio
-284	IV	279	foot
+284	IV	279	folio
 285	IV	280	folio
 286	IV	281	folio
 287	IV	282	folio
@@ -370,19 +370,19 @@ pdf_page	chapter	page	confidence
 367	IV	362	folio
 368	IV	363	folio
 369	IV	364	folio
-370	IV	365	foot
+370	IV	365	folio
 371	IV	366	folio
-372	IV	367	foot
+372	IV	367	folio
 373	IV	368	folio
 374	IV	369	folio
-375	IV	370	foot
+375	IV	370	folio
 376	IV	371	folio
 377	IV	372	folio
 378	IV	373	folio
 379	IV	374	folio
 380	IV	375	folio
 381	IV	376	folio
-382	IV	377	foot
+382	IV	377	folio
 383	IV	378	folio
 384	IV	379	folio
 385	IV	380	folio
@@ -405,17 +405,17 @@ pdf_page	chapter	page	confidence
 402	IV	398	folio
 403	IV	399	folio
 404	IV	400	folio
-405	IV	401	foot
+405	IV	401	folio
 406	IV	402	folio
-407	IV	403	foot
+407	IV	403	folio
 408	IV	404	folio
-409	IV	405	foot
+409	IV	405	folio
 410	IV	406	folio
-411	IV	407	foot
+411	IV	407	folio
 412	IV	408	folio
-413	IV	409	foot
+413	IV	409	folio
 414	IV	410	folio
-415	IV	411	foot
+415	IV	411	folio
 416	IV	412	folio
-417	IV	413	foot
+417	IV	413	folio
 418	IV	414	folio
