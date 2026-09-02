@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: e111b9a774b63dd7b3a9b46a9a2aaf24633a062d68ecb637ce5db5194f970879
+content_sha256: b0c262a75703bcfe9dc0a2e6d654a66f3d7000fcac8cb07f90c2792b5c5bcdba
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
 source_content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
 translation_model: gpt-5.4

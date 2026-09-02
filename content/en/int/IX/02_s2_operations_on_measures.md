@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
+content_sha256: ce1e3fbf59d3a5bdd69e474819d42240710f681c4b84a28f348d00f6c5aec0aa
 ---
 
 ## § 2. OPERATIONS ON MEASURES

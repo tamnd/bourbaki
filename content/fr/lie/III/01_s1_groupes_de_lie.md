@@ -56,7 +56,7 @@ subsections:
       pdf_page: 116
 statements: 57
 exercises: 10
-content_sha256: 427b313e76cebec41bbf0bb56ec5600875cdf079e2a2e1c113f1d156ebff0c59
+content_sha256: daf1e810cb10a82fd11c52aa27ac0e8805be34f3f67a8d8ba89c110c532e71df
 ---
 
 ## § 1. Groupes de Lie

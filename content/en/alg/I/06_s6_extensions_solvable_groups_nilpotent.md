@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
+content_sha256: ed05eff94c08cdfcfd89c459ba64d8b7ce508b226914ad4221253b7047926c45
 ---
 
 ## § 6. EXTENSIONS, SOLVABLE GROUPS, NILPOTENT GROUPS

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 107
 statements: 36
 exercises: 30
-content_sha256: 23cb2155bf34ce03b002524186cf089c87366bbdb801c4ef808fb8241de6c55e
+content_sha256: 7afc14e7931880301085337c3d418e6e8475f76c1464f73778f354655ed90942
 translated_from: content/en-mt/ts/III/06_s6_proprietes_spectrales_des.md
 source_lang: en-mt
 translation_method: machine

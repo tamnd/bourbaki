@@ -37,7 +37,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 2
-content_sha256: cbce1cc9e05a7e4959b20a006855d4deca2a49fd5d5ef7d9d08ecc8368d1a841
+content_sha256: 811c1f2b5fe8d4b5d19ee6a14ed17a93aebf625fb5175eb1ffc3ad75a3900e48
 translated_from: content/en/evt/IV/03_s3_dual_of_a_frechet_space.md
 source_content_sha256: 4065ed0aff089e17407855388482b96630c02240233829e9c16d410797c4c210
 translation_model: gpt-5.4

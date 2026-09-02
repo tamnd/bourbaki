@@ -37,7 +37,7 @@ errata:
     - says: Chap. VII, §13, no. 1
       read: Chap. VIII, §13, no. 1
       why: Chapter VII has five sections and no section 13. The sentence says that the groups Aut$_0(\mathfrak{g})$ and Aut$_e(\mathfrak{g})$ can be distinct, and the place that shows it is no. 1 of section 13 of this chapter, on the algebras of type $A_l$, which computes Aut$_0(\mathfrak{g}) =\varphi (\mathbf{G}\mathbf{L}(l+ 1, k))$, identifies the quotient Aut$_0(\mathfrak{g})/$Aut$_e(\mathfrak{g})$ with $\mathbf{P}\mathbf{G}\mathbf{L}(l+ 1, k)/\mathbf{P}\mathbf{S}\mathbf{L}(l+ 1, k)$, and over the reals finds it isomorphic to $\mathbf{Z}/2\mathbf{Z}$ when $l+1$ is even. Chapter VII names neither group anywhere.
-content_sha256: ad88b1b3239bfb3964472405b46e2701b09f0cd7980ced7a476855f6837c5c42
+content_sha256: 8da3b3ea060be7644f4ab6a510120eb7d7c0e9f7bcc879b35bff36ee7564b0dc
 translated_from: content/en/lie/VIII/05_s5_automorphisms_of_a_semi_simple_lie.md
 source_content_sha256: 80823ac5024f35186150a7d683b4b02c82a9670ba20df80f2f6ba46b412253ae
 translation_model: gpt-5.4

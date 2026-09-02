@@ -11,7 +11,7 @@ pdf_pages: 0206-0207
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 31f04009efa24506e398f8d1a17be02090dd51b83f4dfae40034fe557828cd99
+content_sha256: f36a5d2261770cf884cf2ede4ba8201f7c67af13e8e6c8f854bce4d97262f2b3
 translated_from: content/en/hist/1/20_s20_function_spaces.md
 source_content_sha256: 15f512382572169b2ba08ef7018fc21077872e17cc4c3a1f5f42740f62a1f89b
 translation_model: gpt-5.4

@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: 87a4f21f6d6c246846dc0fb27bcdd5b91141dc16ecacbb048e6c6b784730cfee
+content_sha256: 10d475925bba6f8447e2caa7f660b8bf6a0a4cf578ab88234d2012cde55fecbe
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie

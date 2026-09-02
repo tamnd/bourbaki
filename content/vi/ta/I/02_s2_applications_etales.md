@@ -37,7 +37,7 @@ subsections:
       pdf_page: 56
 statements: 47
 exercises: 7
-content_sha256: d7316bde81bbde301ff5f8db1d151a42217e98b64ac49a1e47e28a48ec629fbd
+content_sha256: 4abf035357f6193eaf351616a36bb188cafc3e0dc365ce637da8108e166f8942
 translated_from: content/en-mt/ta/I/02_s2_applications_etales.md
 source_lang: en-mt
 translation_method: machine

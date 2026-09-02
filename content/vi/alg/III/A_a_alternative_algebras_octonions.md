@@ -27,7 +27,7 @@ subsections:
       pdf_page: 639
 statements: 11
 exercises: 3
-content_sha256: 597c6956b3012437b53b21a38d59a11c2bee3747d48268f9b9c1890e36b22570
+content_sha256: 210b7d05894880600ad93fb126e7c5627f255c269a1485c720821b91f6cf9b0f
 translated_from: content/en/alg/III/A_a_alternative_algebras_octonions.md
 source_content_sha256: 0651f3bed82b7df7a8e6ef9f2573f410b9f48cf8e11708f9e289377e24833536
 translation_model: gpt-5.4

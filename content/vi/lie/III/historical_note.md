@@ -12,7 +12,7 @@ pdf_pages: 0284-0318
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 057a3fcc8da2c914701fcf60cfa42eeeab7ac41c0cb9cea2ae1e08fcf241c267
+content_sha256: 3b0d96214d8344b27c131ea8254c091c9e35468ee02a19c29c4dc62c0002b706
 translated_from: content/en-mt/lie/III/historical_note.md
 source_lang: en-mt
 translation_method: machine

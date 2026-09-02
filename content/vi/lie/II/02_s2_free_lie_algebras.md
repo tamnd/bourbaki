@@ -57,7 +57,7 @@ subsections:
       pdf_page: 152
 statements: 32
 exercises: 10
-content_sha256: 2639db05889381a9d3278ef88dfdf190b903235e6d2b356e902373c6677a92c7
+content_sha256: c2821bda735390d8854a06cd9a9bad0242f46cc5e339621051ba495098df6622
 translated_from: content/en/lie/II/02_s2_free_lie_algebras.md
 source_content_sha256: 6e450e7885a69b88d5a981a2a0a11ee034c761b9d126211b974e36d6700c2625
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6

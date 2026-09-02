@@ -12,7 +12,7 @@ pdf_pages: 0392-0392
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5d31b3173f1de3ca41cfe97130487c58f8a71ddf3e4723fce794367a9ef43f10
+content_sha256: d16aedcbcb6222c624d0b31eaf06a208386904147d9b8c61e84c3c5dc89a7b2e
 translated_from: content/en/int/VI/00_frontmatter.md
 source_content_sha256: 8c285082422a6aa04885456e695d66f245796c6ea72c734b193cf78a7b9feb1f
 translation_model: gpt-5.4

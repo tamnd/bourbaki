@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: af4b6263538812699d538a89c1512c5b179a2691698e0256b43b8ad8bb653f21
+content_sha256: 4c19fc638354d6176d8fe26b1e04d3073c16042ef5f62ab99d6909cc2a19a668
 translated_from: content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: en-mt
 translation_method: machine

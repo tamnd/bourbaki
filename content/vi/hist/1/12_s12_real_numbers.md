@@ -11,7 +11,7 @@ pdf_pages: 0149-0158
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 3e046d7b9d0f9455f71ddb82a9bce897a964ede26ddd230eda957faf617a0f3e
+content_sha256: c6d295e02b9d54e0107b165ca9f0b5ebf9d68bb13a100188491a5917ec205d86
 translated_from: content/en/hist/1/12_s12_real_numbers.md
 source_content_sha256: ce41aaca3c43ea067e77e252e19c22092b9d9ad893d845a44a7763bc0118c4c8
 translation_model: gpt-5.4

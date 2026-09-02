@@ -25,7 +25,7 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: 9fa38064e7213ea2b4792ce8b1515e24bce9af4814b7e73c2158406e240a9cda
+content_sha256: 90d2e343799095a16e41af5f5752bab1e3a3de4be6a2a9ecb3a8c2a186bafca4
 translated_from: content/en/alg/II/06_s6_inverse_and_direct_limits_of_modules.md
 source_content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
 translation_model: gpt-5-6-mini, gpt-5.4-mini

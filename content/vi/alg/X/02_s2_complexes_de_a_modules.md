@@ -53,7 +53,7 @@ subsections:
       pdf_page: 49
 statements: 56
 exercises: 18
-content_sha256: e2aebd6606d20fdc1dbc7207888ea5e278df47782b80f42f0b99f84b7c375a72
+content_sha256: ab5958edd2bf5cadb9c2a47267962bdcf91e894f0d0cffa1cfd207ca30a09746
 translated_from: content/en-mt/alg/X/02_s2_complexes_de_a_modules.md
 source_lang: en-mt
 translation_method: machine

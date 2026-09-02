@@ -48,7 +48,7 @@ subsections:
       pdf_page: 26
 statements: 30
 exercises: 16
-content_sha256: e31898cbf27b3b1df38aac4a7710e9bdaed0b39ead888f0c73e109e4689d6b37
+content_sha256: 39c749cda0ec9f12a2927ee1cc5a41129ef12edac7fee67856058f8c91f66058
 translated_from: content/en/lie/IV/01_s1_coxeter_groups.md
 source_content_sha256: e21e9157d9b83420982a6387b3aa2e1a20f94990bb5e1be3c98102e297f3b6de
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini

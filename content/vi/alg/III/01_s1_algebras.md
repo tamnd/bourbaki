@@ -41,7 +41,7 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: 72426c09e6abcc97a1768328d91d6cf476003479c528e977b35086f32eca7a0e
+content_sha256: 3fb0974ba3829eafe6bd8ae9db6781155a154b83dacb51f190b3d4551ff45394
 translated_from: content/en/alg/III/01_s1_algebras.md
 source_content_sha256: 853e46b000e1371a2a7000c89d62a9451dbe1eeb1284e7720ff37b270335c947
 translation_model: gpt-5-6-mini

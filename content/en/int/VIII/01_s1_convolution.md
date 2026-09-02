@@ -32,7 +32,7 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
+content_sha256: 23461812a4cd3b8d4e684dfa0e018182d8a45e92e458b99cea4216962610a384
 ---
 
 ## § 1. CONVOLUTION

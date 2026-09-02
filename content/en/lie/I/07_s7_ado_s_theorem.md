@@ -25,7 +25,7 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 88c99569fd7f93541de8470999a923ed72c5b349486bddb4207865298e2f0c53
+content_sha256: f51f2e756e574437c469e38e8938bfa36ae6f11b2f0f1c2f416d2d919a856ad4
 ---
 
 ## § 7. ADO'S THEOREM

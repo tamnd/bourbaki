@@ -42,7 +42,7 @@ subsections:
       pdf_page: 339
 statements: 31
 exercises: 41
-content_sha256: 8332e69c5820dacbbf691d66ce784db4ef8929f3f1f0828933bfb960b47c1ad9
+content_sha256: 5021ee1e09a03ce605613de08ff9e9eb137ddd307c3c5213f157c36488e45a19
 translated_from: content/en/alg/VI/02_s2_ordered_fields.md
 source_content_sha256: 45506056239d65e13de7a37d24141821117f4fc774d40c3a5912d682cb6100c3
 translation_model: gpt-5.4
@@ -58,7 +58,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#alg-vi-s2-def-1 .statement}
 
-— Cho một vành giao hoán $\mathbf{A}$$, ta nói rằng một thứ tự trên $\mathbf{A}$ tương thích với cấu trúc vành của $\mathbf{A}$ nếu nó tương thích với cấu trúc nhóm cộng của $\mathbf{A}$, và nếu nó thỏa mãn tiên đề sau :
+— Cho một vành giao hoán $\mathbf{A}$, ta nói rằng một thứ tự trên $\mathbf{A}$ tương thích với cấu trúc vành của $\mathbf{A}$ nếu nó tương thích với cấu trúc nhóm cộng của $\mathbf{A}$, và nếu nó thỏa mãn tiên đề sau :
 (OR) Các quan hệ $x \geqslant 0$ và $y \geqslant 0$ suy ra $xy \geqslant 0$.
 Vành $\mathbf{A}$, cùng với một thứ tự như vậy, được gọi là một vành có thứ tự.
 
@@ -415,7 +415,7 @@ $$
 
 có thể viết thành $(ab' - ba')^2 \geq 0$.
 
-Đl. 3 cho phép ta xác định ყველა các đa thức bất khả quy trên một trường có thứ tự cực đại:
+Đl. 3 cho phép ta xác định tất cả các đa thức bất khả quy trên một trường có thứ tự cực đại:
 
 #### Mệnh đề 9 {#alg-vi-s2-prop-9 .statement}
 
@@ -433,7 +433,7 @@ Cho $K$ là một trường có thứ tự, và cho $E$ là một không gian ve
 
 Bây giờ nếu $F$ là một *không gian afin* trên $K$, và $E$ là không gian các phép tịnh tiến của $F$, thì mọi tập con của $F$ có dạng $A = a + A_0$, trong đó $\Delta_0$ là một nửa đường thẳng mở (resp. đóng) của $E$, được gọi là một *nửa đường thẳng* *mở* (resp. *đóng*) *gốc* $a \in F$. Nửa đường thẳng $\Delta_0$ được xác định hoàn toàn bởi $A$ (vì nó là nửa đường thẳng có vectơ chỉ phương $b - a$, với mọi $b \neq a$ trong $A$), và được gọi là *phương* của $A$; một vectơ chỉ phương của $A$, cũng được gọi là một *vectơ chỉ phương* của $A$.
 
-Bây giờ giả sử rằng $E$ có chiều *hữu hạn* $n$ trên $K$; khi đó известно (III, p. 518, Hệ quả 1) rằng *lũy thừa ngoài bậc $n$* $\Lambda^n E$ là một không gian vectơ chiều 1 trên $K$, và do đó là hợp của hai nửa đường thẳng đóng đối nhau gốc 0. Các nửa đường thẳng này được gọi là các định hướng của $E$; không gian $E$ cùng với một trong các nửa đường thẳng ấy $A$ được gọi là có định hướng; khi đó một $n$-vectơ $z$ được gọi là dương (resp. âm) theo định hướng này nếu nó thuộc $A$ (resp. thuộc −A); nó là âm (resp. dương) theo định hướng đối.
+Bây giờ giả sử rằng $E$ có chiều *hữu hạn* $n$ trên $K$; khi đó ta biết (III, p. 518, Hệ quả 1) rằng *lũy thừa ngoài bậc $n$* $\Lambda^n E$ là một không gian vectơ chiều 1 trên $K$, và do đó là hợp của hai nửa đường thẳng đóng đối nhau gốc 0. Các nửa đường thẳng này được gọi là các định hướng của $E$; không gian $E$ cùng với một trong các nửa đường thẳng ấy $A$ được gọi là có định hướng; khi đó một $n$-vectơ $z$ được gọi là dương (resp. âm) theo định hướng này nếu nó thuộc $A$ (resp. thuộc −A); nó là âm (resp. dương) theo định hướng đối.
 
 Một định hướng của một không gian afin $F$ trên $K$ theo định nghĩa là một định hướng của không gian các phép tịnh tiến của $F$; không gian $F$, cùng với một định hướng như vậy, được gọi là một không gian afin định hướng.
 

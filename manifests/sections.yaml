@@ -3868,7 +3868,7 @@ books:
               statements: 24
               exercises: 12
               extraction: ocr
-              content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
+              content_sha256: 115130034ff32aecbc68fd3f27ca1befb61f88d64371feb493dd57eb6931a24f
             - kind: appendix
               section: 1
               path: content/en/int/VII/A1_a1_.md
@@ -3915,7 +3915,7 @@ books:
               statements: 13
               exercises: 2
               extraction: ocr
-              content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
+              content_sha256: 23461812a4cd3b8d4e684dfa0e018182d8a45e92e458b99cea4216962610a384
             - kind: section
               section: 2
               title: Linear representations of groups
@@ -4015,7 +4015,7 @@ books:
               statements: 38
               exercises: 3
               extraction: ocr
-              content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
+              content_sha256: ce1e3fbf59d3a5bdd69e474819d42240710f681c4b84a28f348d00f6c5aec0aa
             - kind: section
               section: 3
               title: Measures and additive set functions
@@ -4054,7 +4054,7 @@ books:
               statements: 33
               exercises: 13
               extraction: ocr
-              content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
+              content_sha256: 58103c2c457c58b000a2920115ae10c4f462f32dd4b4a8e8eb6d2753005ef40f
             - kind: section
               section: 6
               title: Promeasures and measures on a locally convex space
@@ -4089,7 +4089,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: cd04ec4dcf226a6f8761a19af2c47284265ff59581d75e91925edf6075ac7933
+              content_sha256: c5bf1c6b504f9d5e019dea29b4a543e71402f9888847bc1fd95a329ca5d58bce
     - id: ac-v-vii-fr
       chapters:
         - chapter: V
@@ -4334,7 +4334,7 @@ books:
               statements: 79
               exercises: 26
               extraction: ocr
-              content_sha256: 9c845f08d747a5ee0f4e1efceea7114db7a10061ee182b2649eabee2e93ab7d6
+              content_sha256: c51b168055596dbf802688d06cdb71a1ac02169f8f27b5cbc463c90e46947c94
             - kind: historical
               title: Historical Note
               path: content/fr/ac/VII/historical_note.md
@@ -4461,7 +4461,7 @@ books:
               statements: 6
               exercises: 5
               extraction: ocr
-              content_sha256: 88c99569fd7f93541de8470999a923ed72c5b349486bddb4207865298e2f0c53
+              content_sha256: f51f2e756e574437c469e38e8938bfa36ae6f11b2f0f1c2f416d2d919a856ad4
         - chapter: II
           title: FREE LIE ALGEBRAS
           sections:
@@ -4566,7 +4566,7 @@ books:
               statements: 4
               exercises: 1
               extraction: ocr
-              content_sha256: 0c070915f018ae2f28d7ba10eba8e260e6b24a97ffbf46012a1958fa6e91eda0
+              content_sha256: 55c9d2607bd0fb8897fb364274c047736d36f7223a0d09165570ea8513afcf80
             - kind: section
               section: 8
               title: Convergence of the Hausdorff series (ultrametric case)
@@ -4683,7 +4683,7 @@ books:
               statements: 71
               exercises: 30
               extraction: ocr
-              content_sha256: a52c873bcf9c62fc8fba9209dcc1e9adccdfb18291f0cf132a2bfb157a201e58
+              content_sha256: e19e9dd5de2d96fb494baeac00a1fd1f2129ff269a2cd6a7f015d4d82fc36a58
             - kind: section
               section: 7
               title: Lie groups over an ultrametric field
@@ -4735,7 +4735,7 @@ books:
               statements: 13
               exercises: 3
               extraction: ocr
-              content_sha256: 9324e1961b118ac5c4f73e3fb335e08c0b72a588687b17147d05e2b458b10af4
+              content_sha256: 6fd8805ab9a65dff430aeba0e2e6ddcfa5942940fad2fefc7a6daea7301471db
             - kind: appendix
               title: Operations on linear representations
               path: content/en/lie/III/A_a_operations_on_linear_representations.md
@@ -4914,7 +4914,7 @@ books:
               statements: 19
               exercises: 2
               extraction: ocr
-              content_sha256: 57102dadb9478828bbaf3bf1d6ad1b4a27c3a089d5abfaeca2f02ab9a7c16523
+              content_sha256: 451dadd63f4c82676dd39e5b5893372098d707c1adaba3b7198c07ed152b021c
             - kind: section
               section: 5
               title: p-radical extensions
@@ -5218,7 +5218,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 0badcac98496c7f98609a5c39885b447949598116e8182f2d00bd1c60192a86d
+              content_sha256: 49b7727e951be393bc6b2e76002a7e68d9994cb9d699ec71c6306154e0087441
     - id: lie-iv-vi
       introduction:
         kind: introduction
@@ -5256,7 +5256,7 @@ books:
               statements: 30
               exercises: 16
               extraction: ocr
-              content_sha256: e21e9157d9b83420982a6387b3aa2e1a20f94990bb5e1be3c98102e297f3b6de
+              content_sha256: 89376c835024c51d1499c065e19831de6d1d96bfbe7a13c819884a3357e9e6d8
             - kind: section
               section: 2
               title: Tits Systems
@@ -5268,7 +5268,7 @@ books:
               statements: 30
               exercises: 29
               extraction: ocr
-              content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
+              content_sha256: f7eefd40cd8e513f530b873e5fcea6850d926bb5ce6f28d21084629db1accf12
             - kind: appendix
               title: Graphs
               path: content/en/lie/IV/A_a_graphs.md
@@ -5340,7 +5340,7 @@ books:
               statements: 25
               exercises: 20
               extraction: ocr
-              content_sha256: b37e57ba0e6700d5644218e6cb51eb2aa578040de72fb7f9df614a11c81b3ddd
+              content_sha256: 6e1478f248737bab9dfca41f060e0d9ef44955ad60a23fd4409330f32d085486
             - kind: section
               section: 5
               title: Invariants in the symmetric algebra
@@ -5446,7 +5446,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 291fe64be7b05e0ac34cfee4602454a829101e41a9e342077795e4d2fe1e3127
+              content_sha256: d4a4b33fa67599d5dc63bf803c9ca710b6970d43852cd95597a334baa54dfbe3
     - id: fvr-i-vii
       reader_note:
         kind: reader
@@ -5638,7 +5638,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 99682c12439b70ad76ec870fda6abcda42fe7b2565613a48990037b07032ea78
+              content_sha256: 84a98a275d928e4aae90eeebd4bb728e1264b1c935adcdc4fc0ff2a301e15fd3
         - chapter: IV
           title: DIFFERENTIAL EQUATIONS
           sections:
@@ -5791,7 +5791,7 @@ books:
               statements: 20
               exercises: 3
               extraction: ocr
-              content_sha256: 0001fab43420fc721b2091717a772409bf8d8ed8a052f67cffccc1674b37f714
+              content_sha256: c5d02763e0ba81f180ba651433971351bc4433064e4281ee8e880b60ece6ef27
             - kind: section
               section: 2
               title: EULERIAN EXPANSIONS OF THE TRIGONOMETRIC FUNCTIONS AND BERNOULLI NUMBERS
@@ -5905,7 +5905,7 @@ books:
               statements: 24
               exercises: 12
               extraction: ocr
-              content_sha256: bccd4bdfd8b01bed925e5d84477f0aa0e49575b033c467488b41acc4722dc3bd
+              content_sha256: b3168683aee11b245994d00e156893e6787a83248bf3572166d4c7099081ceac
             - kind: section
               section: 2
               title: Algèbres de Lie libres
@@ -6025,7 +6025,7 @@ books:
               statements: 57
               exercises: 10
               extraction: ocr
-              content_sha256: 427b313e76cebec41bbf0bb56ec5600875cdf079e2a2e1c113f1d156ebff0c59
+              content_sha256: daf1e810cb10a82fd11c52aa27ac0e8805be34f3f67a8d8ba89c110c532e71df
             - kind: section
               section: 2
               title: Groupe des vecteurs tangents à un groupe de Lie
@@ -6049,7 +6049,7 @@ books:
               statements: 111
               exercises: 9
               extraction: ocr
-              content_sha256: 87a4f21f6d6c246846dc0fb27bcdd5b91141dc16ecacbb048e6c6b784730cfee
+              content_sha256: 10d475925bba6f8447e2caa7f660b8bf6a0a4cf578ab88234d2012cde55fecbe
             - kind: section
               section: 4
               title: Passage des algèbres de Lie aux groupes de Lie
@@ -6073,7 +6073,7 @@ books:
               statements: 8
               exercises: 2
               extraction: ocr
-              content_sha256: 80d029d8486437790893b85347d042555ce8692a018258d92b693b3e80f38c6f
+              content_sha256: af8953881f5c2a2e700ef84312f54a45fd13dd141c991a4fe125da42d27974b4
             - kind: section
               section: 6
               title: Groupes de Lie réels ou complexes
@@ -6275,7 +6275,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 07b0edf2edc58e109b1da8e0fceded148a0243b9565511890e9f70420d3f358d
+              content_sha256: 13954758883dbfb15bd0e371a0c3a42ab6701de91d21d4c362152ac0b7c66166
     - id: lie-i-fr
       chapters:
         - chapter: I
@@ -6314,7 +6314,7 @@ books:
               statements: 22
               exercises: 10
               extraction: ocr
-              content_sha256: c4c76c8e191b939527d3fa46a4177ccff60ede09336418aa449b43166a4c5cb2
+              content_sha256: 3cf3af7b337eefd308acb9b2eb008a57d50aa992ab93d70756e22b40fd375586
             - kind: section
               section: 3
               title: Représentations
@@ -6402,7 +6402,7 @@ books:
               statements: 48
               exercises: 17
               extraction: ocr
-              content_sha256: 048ebcfa8185686193709827ecf5cc84d334d748620155747d3e104eb1375bec
+              content_sha256: 39579207db3a1ec2253382ca725a94cb3a2ec6751a183b5842e7d93e1c5e7a32
             - kind: section
               section: 2
               title: Dimension des algèbres
@@ -6467,7 +6467,7 @@ books:
               statements: 27
               exercises: 12
               extraction: ocr
-              content_sha256: 4861402c25afa72739019dce22d6030166385d3d6de51de04a122911e27be198
+              content_sha256: 072fbb83f3edc3ae31061e2223d2348c0f0cefd204734f3bca8b6a3ac6ab872f
             - kind: section
               section: 7
               title: Multiplicités
@@ -6556,7 +6556,7 @@ books:
               statements: 13
               exercises: 6
               extraction: ocr
-              content_sha256: 98bbdb09a04c6ecf122abe20e179ba71aba6d2aa037d166e2a4c159f9f8f8b67
+              content_sha256: e864a39e88aa1bca01230c31821898c8ee21312c13fac765353afd8926e19614
     - id: alg-i-iii
       reader_note:
         kind: reader
@@ -6671,7 +6671,7 @@ books:
               statements: 58
               exercises: 8
               extraction: ocr
-              content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
+              content_sha256: ed05eff94c08cdfcfd89c459ba64d8b7ce508b226914ad4221253b7047926c45
             - kind: section
               section: 7
               title: Free monoids, free groups
@@ -6761,7 +6761,7 @@ books:
               statements: 88
               exercises: 27
               extraction: ocr
-              content_sha256: 7397d09a718f6180624ef63d3ea605fc93db2eb8eb18c2019f1e6cb60606e9b8
+              content_sha256: b4a1e9cb83fb456ed24f6c2e8448612ff3cf0572d6dde1e9415a5620e8b12061
             - kind: section
               section: 2
               title: Modules of linear mappings. Duality
@@ -6787,7 +6787,7 @@ books:
               statements: 30
               exercises: 4
               extraction: ocr
-              content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
+              content_sha256: 196190fc6de7c191a8a8b49a5ef2ea6f1f5a5ef29b17ddd11fdf4cc54b2b03aa
             - kind: section
               section: 4
               title: Relations between tensor products and homomorphism modules
@@ -6826,7 +6826,7 @@ books:
               statements: 17
               exercises: 4
               extraction: ocr
-              content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
+              content_sha256: a23c1a21c755e7c0e92d6ebb553b20bdb18fd6742e53a1fb787597d12a930e81
             - kind: section
               section: 7
               title: Vector spaces
@@ -6930,7 +6930,7 @@ books:
               statements: 5
               exercises: 1
               extraction: ocr
-              content_sha256: 853e46b000e1371a2a7000c89d62a9451dbe1eeb1284e7720ff37b270335c947
+              content_sha256: fb83b18fcabf5fd8d2e98e2a44b70c1504ea018fac3177743c906d556d340fd6
             - kind: section
               section: 2
               title: Examples of algebras
@@ -6943,7 +6943,7 @@ books:
               statements: 17
               exercises: 3
               extraction: ocr
-              content_sha256: bd5951cd090d56ae73c754360396e4a160968b09d8b97344a2867e90be9ed798
+              content_sha256: 5a84acf9f107bad7d60ffaca486e8438e91a0e75355de3f0446a4594085e9abd
             - kind: section
               section: 3
               title: Graded algebras
@@ -7021,7 +7021,7 @@ books:
               statements: 36
               exercises: 26
               extraction: ocr
-              content_sha256: da71ef2a4eba72daedbf68293924b26a3111360474a947e52b32b6bd9d0a572c
+              content_sha256: 1e5ab9b1b4d971390aac6594c7ace13e50ab50b6000f64da271cff3a45c6bbac
             - kind: section
               section: 9
               title: Norms and traces
@@ -7034,7 +7034,7 @@ books:
               statements: 13
               exercises: 1
               extraction: ocr
-              content_sha256: 8434084d69552b8f7b8ee7ec79fb769815bf1868b7a0b4a9cde2013668383c85
+              content_sha256: 494d0487a967f8bd496c73470e7633df79505855436ae4f19e99e36f904181d6
             - kind: section
               section: 10
               title: Derivations
@@ -7083,7 +7083,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
+              content_sha256: e604a39829effcc049b3f0109affe5266b8d822c7d016a510672ff7eb261dff2
     - id: lie-ix-fr
       chapters:
         - chapter: IX
@@ -7137,7 +7137,7 @@ books:
               statements: 16
               exercises: 9
               extraction: ocr
-              content_sha256: 059c049ee9636997f6a4dacee25da1b47d77e9c38b0f13cef58c9b07159f308b
+              content_sha256: d47a814f8422000b783181c3964404719c0da4619c171766e467563df3843370
             - kind: section
               section: 4
               title: Système de racines associé à un groupe compact
@@ -7587,7 +7587,7 @@ books:
               statements: 9
               exercises: 16
               extraction: ocr
-              content_sha256: 8133b61f1df80be5ff13324ff876eecede9ed2ad44de1d0480eaab61020a8084
+              content_sha256: f511f3c32e0e26a7b9de03662a1a8cf2edb055f16a719c9b4b714120bac10075
             - kind: appendix
               title: Points fixes des groupes de transformations affines
               path: content/fr/evt/IV/A_a_points_fixes_des_groupes_de.md
@@ -7673,7 +7673,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: cc0c689a14aafd40b443957db241e72bf344008b71e0521568d6635432c88bbd
+              content_sha256: c71d091a1f5a2281cd870520a5f774ad6982d6d03d9910d427d0d5e003db1f5d
     - id: lie-iv-vi-fr
       introduction:
         kind: introduction
@@ -7901,7 +7901,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 9626f48d30bbf5ac4033c626e916e4dee9a97eaa41ff146764e30635b34b9467
+              content_sha256: ab44587683593047471f5ff83a082775b7c7dbac50538b2932618fb7fe2b124e
     - id: int-vi-fr
       chapters:
         - chapter: VI
@@ -7973,7 +7973,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 806387d2f2245b8d6371cbeda14cf88eeb5791acb08d92d951fc1a43fd873125
+              content_sha256: 6502b94ee9a415a5c246fdb1b4e2438ce94086ad30e9092ba17bf9472c11f57a
     - id: ac-i-vii
       reader_note:
         kind: reader
@@ -8905,7 +8905,7 @@ books:
               statements: 48
               exercises: 1
               extraction: ocr
-              content_sha256: 69f92cd78f330694f81aad84eec3ecfd43d27d5eacabcc416871a1736cb0f341
+              content_sha256: 128001da6f13ab14dfc9202483387096610ea5a1d408aaaa27af1ebc92f36dc5
             - kind: appendix
               title: Infinite products in normed algebras
               path: content/en/top/IX/A_a_infinite_products_in_normed_algebras.md
@@ -9073,7 +9073,7 @@ books:
               statements: 11
               exercises: 0
               extraction: ocr
-              content_sha256: ae7a00a7bf8f3e98348a00835b8817d1ce3109b6deec5e426bda2e8c26dcb197
+              content_sha256: 3297869f5fb81cc931b58ea4d147d5b89ddb0dbe0ebc72abf7eab7ab5a691f46
             - kind: section
               section: 6
               title: Propriétés spéciales aux formes hermitiennes
@@ -9085,7 +9085,7 @@ books:
               statements: 17
               exercises: 0
               extraction: ocr
-              content_sha256: 783f2b68bfc70c755e7a59da78ba4ea7f91f435a5f45796c2931ea0e513f2e14
+              content_sha256: 47f1f659ab524c37f71e815f6a42017440fa35076b74ec187bcb8b0be0c99277
             - kind: section
               section: 7
               title: Formes hermitiennes et corps ordonnés
@@ -9109,7 +9109,7 @@ books:
               statements: 10
               exercises: 0
               extraction: ocr
-              content_sha256: 41114d3659ba1c03e45fbacc1d14e1405e0ae472fba157d2ff91fc89f7b4d7b1
+              content_sha256: 36d38eb198ac77f1de6cb875fbea90b8d5a5e8dc19bb624b85eaf6f380232580
             - kind: section
               section: 9
               title: Algèbres de Clifford
@@ -9121,7 +9121,7 @@ books:
               statements: 24
               exercises: 0
               extraction: ocr
-              content_sha256: 9f9dc12c228a142f48695e851060bf48a3c778be20740d952eec9d34913e8d60
+              content_sha256: e2c4e69fdd13a741a502879f76e3145e94bb7fd20f1e9d2440ff7b50608cba33
             - kind: section
               section: 10
               title: Angles
@@ -9143,7 +9143,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: aed5e3a04f9f7b02aa43d149eece2f68864310437bde2a13c2c11995da90fb8e
+              content_sha256: c6c1023523b162de5a8af2a1d497f094c0bb1a5c5d7c4ace15cd5c10c180e6c5
     - id: alg-i-iii-fr
       reader_note:
         kind: reader
@@ -9244,7 +9244,7 @@ books:
               statements: 40
               exercises: 29
               extraction: ocr
-              content_sha256: 5406d1248da1a2881223a5d8c038d746c3be5a9f47a401375a0482461422333e
+              content_sha256: 39154bc38734ad5210bfb7d539e079049b587038f92fe7b4a9463028ea703d28
             - kind: section
               section: 6
               title: Extensions, groupes résolubles, groupes nilpotents
@@ -9522,7 +9522,7 @@ books:
               statements: 20
               exercises: 4
               extraction: ocr
-              content_sha256: 13eb8ae334e2c27bb261675f7ae2326e6c05f328bc68c6450bead53a15ffe82c
+              content_sha256: 3d6e2b598afef6281f6666d1de27e86e4cb85205f55cb991484c265c8ed5d0c4
             - kind: section
               section: 3
               title: Algèbres graduées
@@ -9661,7 +9661,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 192c431576abe84c064e68ce412945a6edc3974eca8e723473549d8017fcb70f
+              content_sha256: 9ede3a5b99fd042dad1117c7ba63f9c2400ed08a2755a8e867a4e2cf0d56c484
     - id: ac-i-iv-fr
       introduction:
         kind: introduction
@@ -10430,7 +10430,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 75eb7d613ba7bdac13b34dee2e9e3a3f956264ee86c43b745731a95aacf6cc55
+              content_sha256: 53f6c45d567e23fd0d36c2137fc3dc5cf69104d446214d339199af3571923d31
     - id: alg-x-fr
       reader_note:
         kind: reader
@@ -11796,7 +11796,7 @@ books:
               statements: 20
               exercises: 11
               extraction: ocr
-              content_sha256: e8bae18987bec37ceb60f14d75f74c46d0c21bd1844866f4cb791e7a520a550f
+              content_sha256: 98a442199970317d391ce1fd8ffe328343aca79a293a45ca21eccd3c51bccdac
     - id: alg-iv-vii-fr
       reader_note:
         kind: reader
@@ -13410,3 +13410,375 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 7ddf36d54aaa79b3e139a5b576f29f9f98172a65f3e65d2b9ac9671efae2745e
+    - id: ens-i-iv-fr
+      reader_note:
+        kind: reader
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        path: content/fr/ens/00_to_the_reader.md
+        first_pdf_page: 5
+        last_pdf_page: 7
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 39e61637934a99d3da3d3aecb087342390a5dbd3ed5acd41281cd59101105ffa
+      introduction:
+        kind: introduction
+        title: INTRODUCTION
+        path: content/fr/ens/00_introduction.md
+        first_pdf_page: 8
+        last_pdf_page: 14
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 905b1a9114d6883f4c46172b9c3312c0250f69d511b34c2240971ac431725b1a
+      chapters:
+        - chapter: I
+          title: DESCRIPTION DE LA MATHÉMATIQUE FORMELLE
+          sections:
+            - kind: front
+              title: DESCRIPTION DE LA MATHÉMATIQUE FORMELLE
+              path: content/fr/ens/I/00_frontmatter.md
+              first_pdf_page: 15
+              last_pdf_page: 15
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 18e288c607b2582861497ddca2cc33c19d6f3a27b1272929e1567692cceaffe7
+            - kind: section
+              section: 1
+              title: Termes et relations
+              path: content/fr/ens/I/01_s1_termes_et_relations.md
+              label: ens-i-s1
+              first_pdf_page: 15
+              last_pdf_page: 48
+              subsections: 4
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: 14de471475b196e79411c41445b05c3903b39c5c82403ce3ceb0a73e9d31b79d
+            - kind: section
+              section: 2
+              title: Théorèmes
+              path: content/fr/ens/I/02_s2_theoremes.md
+              label: ens-i-s2
+              first_pdf_page: 22
+              last_pdf_page: 48
+              subsections: 4
+              statements: 1
+              exercises: 1
+              extraction: ocr
+              content_sha256: 91e884c72b2659211827e3a2490bb93ae696dee676d02353031a40d80e1462ad
+            - kind: section
+              section: 3
+              title: Théories logiques
+              path: content/fr/ens/I/03_s3_theories_logiques.md
+              label: ens-i-s3
+              first_pdf_page: 26
+              last_pdf_page: 49
+              subsections: 5
+              statements: 0
+              exercises: 5
+              extraction: ocr
+              content_sha256: a9e606302e0a28ffccc3bf015876fe5913aaa9bf423563abd3bbca7d01136a41
+            - kind: section
+              section: 4
+              title: Théories quantifiées
+              path: content/fr/ens/I/04_s4_theories_quantifiees.md
+              label: ens-i-s4
+              first_pdf_page: 32
+              last_pdf_page: 49
+              subsections: 4
+              statements: 0
+              exercises: 8
+              extraction: ocr
+              content_sha256: 879345d89491de488fd8242011036b46a7a2f4f3b183c11fbe847caf8282b0c0
+            - kind: section
+              section: 5
+              title: Théories égalitaires
+              path: content/fr/ens/I/05_s5_theories_egalitaires.md
+              label: ens-i-s5
+              first_pdf_page: 39
+              last_pdf_page: 50
+              book_pages: E I.49
+              subsections: 3
+              statements: 3
+              exercises: 7
+              extraction: ocr
+              content_sha256: f56d99d868f32a4b67ae8e64b9fe1d26da9c4ad08fc39e6dfdbf1ae94b6db6f8
+            - kind: appendix
+              title: Caractérisation des termes et des relations
+              path: content/fr/ens/I/A_a_caracterisation_des_termes_et_des.md
+              label: ens-i-a0
+              first_pdf_page: 43
+              last_pdf_page: 52
+              subsections: 4
+              statements: 7
+              exercises: 8
+              extraction: ocr
+              content_sha256: 1687bd895d5f8fe5d63bf17d4ad4a21f61a12637b2e654e620f89a03efb97913
+        - chapter: II
+          title: THÉORIE DES ENSEMBLES
+          sections:
+            - kind: front
+              title: THÉORIE DES ENSEMBLES
+              path: content/fr/ens/II/00_frontmatter.md
+              first_pdf_page: 53
+              last_pdf_page: 53
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: c40111aa37447e308f2279515db6211fe504ed15463221cc309da8d36a994c8b
+            - kind: section
+              section: 1
+              title: Relations collectivisantes
+              path: content/fr/ens/II/01_s1_relations_collectivisantes.md
+              label: ens-ii-s1
+              first_pdf_page: 53
+              last_pdf_page: 101
+              subsections: 7
+              statements: 8
+              exercises: 6
+              extraction: ocr
+              content_sha256: 8db79cf99e7fe9205dc6a9acc5d237684c289089d9d58e2cfcb3454ac791038f
+            - kind: section
+              section: 2
+              title: Couples
+              path: content/fr/ens/II/02_s2_couples.md
+              label: ens-ii-s2
+              first_pdf_page: 59
+              last_pdf_page: 101
+              book_pages: E II.7-E II.9
+              subsections: 2
+              statements: 5
+              exercises: 1
+              extraction: ocr
+              content_sha256: dce45c4fed9a109155a33741cf73d71851258dd23b7562a7adc8ef6a30078403
+            - kind: section
+              section: 3
+              title: Correspondances
+              path: content/fr/ens/II/03_s3_correspondances.md
+              label: ens-ii-s3
+              first_pdf_page: 61
+              last_pdf_page: 102
+              subsections: 9
+              statements: 28
+              exercises: 11
+              extraction: ocr
+              content_sha256: bd8aaf627e5764e2a01125a05bc3c33a176dce7b0527e00ae4291443449ae378
+            - kind: section
+              section: 4
+              title: Réunion et intersection d’une famille d’ensembles
+              path: content/fr/ens/II/04_s4_reunion_et_intersection_d_une_famille_d.md
+              label: ens-ii-s4
+              first_pdf_page: 74
+              last_pdf_page: 103
+              book_pages: E II.50-E II.51
+              subsections: 8
+              statements: 22
+              exercises: 8
+              extraction: ocr
+              content_sha256: 2c0ff941f524dfb20cbf59d979331790b68181ef8729cc4e27073ec105cf244f
+            - kind: section
+              section: 5
+              title: Produit d'une famille d'ensembles
+              path: content/fr/ens/II/05_s5_produit_d_une_famille_d_ensembles.md
+              label: ens-ii-s5
+              first_pdf_page: 82
+              last_pdf_page: 103
+              book_pages: E II.30-E II.39, E II.51
+              subsections: 7
+              statements: 24
+              exercises: 5
+              extraction: ocr
+              content_sha256: db0022e62383130cc1e0ad1d77b9b8d305dc0362a0685af8b0084238db199908
+            - kind: section
+              section: 6
+              title: Relations d’équivalence
+              path: content/fr/ens/II/06_s6_relations_d_equivalence.md
+              label: ens-ii-s6
+              first_pdf_page: 91
+              last_pdf_page: 104
+              book_pages: E II.51-E II.52
+              subsections: 9
+              statements: 5
+              exercises: 10
+              extraction: ocr
+              content_sha256: 987904398af6d2599bd91eb95321c9683702ab73b500683f239a59359c7532cc
+        - chapter: III
+          title: ENSEMBLES ORDONNÉS, CARDINAUX, NOMBRES ENTIERS
+          sections:
+            - kind: front
+              title: ENSEMBLES ORDONNÉS, CARDINAUX, NOMBRES ENTIERS
+              path: content/fr/ens/III/00_frontmatter.md
+              first_pdf_page: 105
+              last_pdf_page: 105
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: a58cb4632dabbdf120496d1f35864d1f2dca39ef6d1d275fae28fad44081c60b
+            - kind: section
+              section: 1
+              title: Relations d’ordre. Ensembles ordonnés
+              path: content/fr/ens/III/01_s1_relations_d_ordre_ensembles_ordonnes.md
+              label: ens-iii-s1
+              first_pdf_page: 105
+              last_pdf_page: 178
+              subsections: 13
+              statements: 43
+              exercises: 24
+              extraction: ocr
+              content_sha256: 4ed72a45881260361cdb2ad91b1adfa91d5ef7af0f5b3888b55f8dfea9b35134
+            - kind: section
+              section: 2
+              title: Ensembles bien ordonnés
+              path: content/fr/ens/III/02_s2_ensembles_bien_ordonnes.md
+              label: ens-iii-s2
+              first_pdf_page: 119
+              last_pdf_page: 183
+              book_pages: E III.15-E III.23, E III.75-E III.79
+              subsections: 6
+              statements: 27
+              exercises: 20
+              extraction: ocr
+              content_sha256: 2bcb4b4feea0003a48f4107927aea90e166d60f5048e35a80eaa3a7a48884c8b
+            - kind: section
+              section: 3
+              title: Ensembles équipotents. Cardinaux
+              path: content/fr/ens/III/03_s3_ensembles_equipotents_cardinaux.md
+              label: ens-iii-s3
+              first_pdf_page: 127
+              last_pdf_page: 183
+              book_pages: E III.23-E III.30, E III.79
+              subsections: 6
+              statements: 32
+              exercises: 1
+              extraction: ocr
+              content_sha256: 940b752b58440ebe4daea0c9c83ad9df3293b5b19ed7383cf81a7f119541f724
+            - kind: section
+              section: 4
+              title: Entiers naturels. Ensembles finis
+              path: content/fr/ens/III/04_s4_entiers_naturels_ensembles_finis.md
+              label: ens-iii-s4
+              first_pdf_page: 134
+              last_pdf_page: 187
+              book_pages: E III.30-E III.35, E III.80-E III.83
+              subsections: 5
+              statements: 14
+              exercises: 11
+              extraction: ocr
+              content_sha256: cba69c356e78ad0bb33d0f0ec930a55926e64996fd34519666a29382bd1320e1
+            - kind: section
+              section: 5
+              title: Calcul sur les entiers
+              path: content/fr/ens/III/05_s5_calcul_sur_les_entiers.md
+              label: ens-iii-s5
+              first_pdf_page: 139
+              last_pdf_page: 191
+              book_pages: E III.35-E III.44, E III.83-E III.87
+              subsections: 8
+              statements: 30
+              exercises: 18
+              extraction: ocr
+              content_sha256: 12f8e428428b5f7dc54975404f7164ebcd42072404d371fe2d384b67219ccb8d
+            - kind: section
+              section: 6
+              title: Ensembles infinis
+              path: content/fr/ens/III/06_s6_ensembles_infinis.md
+              label: ens-iii-s6
+              first_pdf_page: 149
+              last_pdf_page: 198
+              book_pages: E III.45-E III.51, E III.87-E III.94
+              subsections: 5
+              statements: 24
+              exercises: 33
+              extraction: ocr
+              content_sha256: 6bc1a96bfc0fa13351892267947be8e68da6e32aa23c8a59110ccaec5dd03a5f
+            - kind: section
+              section: 7
+              title: Limites projectives et limites inductives
+              path: content/fr/ens/III/07_s7_limites_projectives_et_limites.md
+              label: ens-iii-s7
+              first_pdf_page: 155
+              last_pdf_page: 200
+              book_pages: E III.94-E III.96
+              subsections: 7
+              statements: 26
+              exercises: 10
+              extraction: ocr
+              content_sha256: 8c30384cc85751bc4198f0143b858784f0b5074aaeb93001f72b9ed872738c39
+            - kind: historical
+              title: Historical Note
+              path: content/fr/ens/III/historical_note.md
+              first_pdf_page: 201
+              last_pdf_page: 202
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 51a23d6f585f7f3ab4990f2e885c4f112ce8f9c3e1c1305f2afa4c5897cb3c74
+        - chapter: IV
+          title: STRUCTURES
+          sections:
+            - kind: front
+              title: STRUCTURES
+              path: content/fr/ens/IV/00_frontmatter.md
+              first_pdf_page: 204
+              last_pdf_page: 204
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: edd4d62c8d024da561e10175a9be4386745ff4663c0f8a12cd0ce276fd66e9d2
+            - kind: section
+              section: 1
+              title: Structures et isomorphismes
+              path: content/fr/ens/IV/01_s1_structures_et_isomorphismes.md
+              label: ens-iv-s1
+              first_pdf_page: 204
+              last_pdf_page: 231
+              subsections: 7
+              statements: 13
+              exercises: 1
+              extraction: ocr
+              content_sha256: 165d8c8d322e06d651488e5100b254d0f3c9f149a5cb53e864be26c789802b5e
+            - kind: section
+              section: 2
+              title: Morphismes et structures dérivées
+              path: content/fr/ens/IV/02_s2_morphismes_et_structures_derivees.md
+              label: ens-iv-s2
+              first_pdf_page: 214
+              last_pdf_page: 234
+              book_pages: E IV.11-E IV.22
+              subsections: 6
+              statements: 12
+              exercises: 11
+              extraction: ocr
+              content_sha256: cbee7ac8bfe2385e96af2a4e38f0596ab864675d5768a0895ec35c072202c5da
+            - kind: section
+              section: 3
+              title: Applications universelles
+              path: content/fr/ens/IV/03_s3_applications_universelles.md
+              label: ens-iv-s3
+              first_pdf_page: 225
+              last_pdf_page: 235
+              book_pages: E IV.31-E IV.32
+              subsections: 3
+              statements: 0
+              exercises: 3
+              extraction: ocr
+              content_sha256: a2897706a753f536281af7306b30f6322431c9ff55fd294d472b6fb300161861
+            - kind: historical
+              title: Historical Note
+              path: content/fr/ens/IV/historical_note.md
+              first_pdf_page: 236
+              last_pdf_page: 279
+              subsections: 0
+              statements: 0
+              exercises: 0
+              extraction: ocr
+              content_sha256: 15d71f8e3610e28969a37fb8aad879772c6e53b91427d24b0dc857f49f998f2d

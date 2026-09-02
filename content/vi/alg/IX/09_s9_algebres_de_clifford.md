@@ -32,7 +32,7 @@ subsections:
       pdf_page: 148
 statements: 24
 exercises: 0
-content_sha256: 73a433002b98863078522813a524cc4c276054ffb4eb457b7e1999ea5421a5fa
+content_sha256: ee2d1a682ff713a4454555f5034513e6261d1632c48f8b019209328165737a4b
 translated_from: content/en-mt/alg/IX/09_s9_algebres_de_clifford.md
 source_lang: en-mt
 translation_method: machine

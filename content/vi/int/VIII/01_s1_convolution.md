@@ -32,7 +32,7 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: af6788d4cd94da288168c40286951d9317eaafce16f18aedc3b366a6ed13170d
+content_sha256: cb6b2977fda309353086c6540cb32d0918179b3b278a864f6e28c7c002df78d0
 translated_from: content/en/int/VIII/01_s1_convolution.md
 source_content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
 translation_model: gpt-5.4

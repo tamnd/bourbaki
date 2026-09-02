@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: b01e89cd4c81a564963e75d443452c8fb760e33cac9f2bb35c91f11deadb5df6
+content_sha256: 1eeb40001454ae2978561f7815b344e207290528b5db31569553f99dc344df0b
 translated_from: content/en-mt/ac/VIII/07_s7_multiplicites.md
 source_lang: en-mt
 translation_method: machine

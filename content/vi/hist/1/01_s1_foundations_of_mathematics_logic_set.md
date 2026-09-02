@@ -11,7 +11,7 @@ pdf_pages: 0009-0052
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 579fdb500a7ac4d9f5001c757edc2e6ee5bb8412e80c625d5ef80d7e0b59015b
+content_sha256: 600cf53db1f9dd634cb93aac6d6b1984bca3fe7e5b52930be03500d28faf5a70
 translated_from: content/en/hist/1/01_s1_foundations_of_mathematics_logic_set.md
 source_content_sha256: 8eccbe30040d8e0e7b4c7b4f961d2ef1a3957f6c229f65acc6a0a74201556443
 translation_model: gpt-5.4

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 460
 statements: 5
 exercises: 1
-content_sha256: 853e46b000e1371a2a7000c89d62a9451dbe1eeb1284e7720ff37b270335c947
+content_sha256: fb83b18fcabf5fd8d2e98e2a44b70c1504ea018fac3177743c906d556d340fd6
 ---
 
 ## § 1. ALGEBRAS

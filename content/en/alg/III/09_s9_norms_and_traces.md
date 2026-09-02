@@ -34,7 +34,7 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: 8434084d69552b8f7b8ee7ec79fb769815bf1868b7a0b4a9cde2013668383c85
+content_sha256: 494d0487a967f8bd496c73470e7633df79505855436ae4f19e99e36f904181d6
 ---
 
 ## § 9. NORMS AND TRACES

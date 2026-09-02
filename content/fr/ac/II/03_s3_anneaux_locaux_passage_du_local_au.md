@@ -32,7 +32,7 @@ subsections:
       pdf_page: 114
 statements: 47
 exercises: 16
-content_sha256: 371747b867ef287ed5c3614c06b50b96ba9579116d40576da189e40fc42ad561
+content_sha256: 2f69a5c9c3f3fe54b1600708df827c7cdf7eb0e4e5d37bfe42639e07835f4101
 ---
 
 ## § 3. Anneaux locaux. Passage du local au global

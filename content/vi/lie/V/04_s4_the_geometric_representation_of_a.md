@@ -48,7 +48,7 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: 26e75cff2c41c454d4060b12232f694af428eedaa54e0bea5e2a35caeec622da
+content_sha256: 6e15c439818cd9af977c13eae672599aeae23f20451e760efab7f2389cea088f
 translated_from: content/en/lie/V/04_s4_the_geometric_representation_of_a.md
 source_content_sha256: b37e57ba0e6700d5644218e6cb51eb2aa578040de72fb7f9df614a11c81b3ddd
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini, gpt-5-6

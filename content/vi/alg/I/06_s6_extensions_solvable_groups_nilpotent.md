@@ -42,7 +42,7 @@ subsections:
       pdf_page: 104
 statements: 58
 exercises: 8
-content_sha256: b90f46026a4ff5670ff9f51961568a27ae292167f381e639c2f6a353deafa10c
+content_sha256: 17bcfed9ac0cc70796042b485bd0527cd11ff5514a396bae3125c2a495c6ccd4
 translated_from: content/en/alg/I/06_s6_extensions_solvable_groups_nilpotent.md
 source_content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
 translation_model: gpt-5.4

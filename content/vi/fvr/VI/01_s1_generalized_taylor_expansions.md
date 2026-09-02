@@ -40,7 +40,7 @@ subsections:
       pdf_page: 297
 statements: 20
 exercises: 3
-content_sha256: 8a2a439e6a11a7a14e383f452713ea08c693091c88c285cf3a39bf7c3a371e31
+content_sha256: f4cef3883761f7ae01853099d79cbf6efaa25d6f26367bb6228a4d2441f43970
 translated_from: content/en/fvr/VI/01_s1_generalized_taylor_expansions.md
 source_content_sha256: 0001fab43420fc721b2091717a772409bf8d8ed8a052f67cffccc1674b37f714
 translation_model: gpt-5.4

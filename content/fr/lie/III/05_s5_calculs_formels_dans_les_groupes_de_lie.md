@@ -28,7 +28,7 @@ subsections:
       pdf_page: 188
 statements: 8
 exercises: 2
-content_sha256: 80d029d8486437790893b85347d042555ce8692a018258d92b693b3e80f38c6f
+content_sha256: af8953881f5c2a2e700ef84312f54a45fd13dd141c991a4fe125da42d27974b4
 ---
 
 ## § 5. Calculs formels dans les groupes de Lie

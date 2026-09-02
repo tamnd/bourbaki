@@ -45,7 +45,7 @@ subsections:
       pdf_page: 152
 statements: 24
 exercises: 16
-content_sha256: 3d2cc944a138a339ad174e503c0170aa670502f2086ce5ccbd6e14e1f7f9cd51
+content_sha256: b5672a2de54678870fc3be4167da6f00b36bcf0bb6cceaa265110c946e904c66
 translated_from: content/en-mt/ts/I/07_s7_spectre_des_endomorphismes_des_espaces.md
 source_lang: en-mt
 translation_method: machine

@@ -1,0 +1,168 @@
+{
+  "book": "ens-i-iv-fr",
+  "grammar": "head-label",
+  "pagination": "per-chapter",
+  "prefix": "E",
+  "pdf_pages": 349,
+  "body_pages": 302,
+  "front_matter_pages": 47,
+  "counts": {
+    "head": 24,
+    "interpolated": 23,
+    "label": 255,
+    "none": 47
+  },
+  "printed_pct_of_body": 92.3841059602649,
+  "chapters": [
+    {
+      "chapter": "I",
+      "first_pdf_page": 2,
+      "last_pdf_page": 52,
+      "first_page": 1,
+      "last_page": 51
+    },
+    {
+      "chapter": "II",
+      "first_pdf_page": 53,
+      "last_pdf_page": 104,
+      "first_page": 1,
+      "last_page": 52
+    },
+    {
+      "chapter": "III",
+      "first_pdf_page": 105,
+      "last_pdf_page": 203,
+      "first_page": 1,
+      "last_page": 99
+    },
+    {
+      "chapter": "IV",
+      "first_pdf_page": 204,
+      "last_pdf_page": 303,
+      "first_page": 1,
+      "last_page": 101
+    }
+  ],
+  "steps": [
+    {
+      "at_pdf_page": 299,
+      "chapter": "IV",
+      "from_offset": 203,
+      "to_offset": 202,
+      "missing_pages": [
+        96
+      ]
+    }
+  ],
+  "conflicts": [],
+  "gaps": [
+    {
+      "from": 1,
+      "to": 1,
+      "pages": 1,
+      "confidence": "none"
+    },
+    {
+      "from": 2,
+      "to": 8,
+      "pages": 7,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 15,
+      "to": 15,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 48,
+      "to": 48,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 53,
+      "to": 54,
+      "pages": 2,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 101,
+      "to": 101,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 105,
+      "to": 105,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 142,
+      "to": 142,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 173,
+      "to": 173,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 201,
+      "to": 201,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 204,
+      "to": 204,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 231,
+      "to": 231,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 236,
+      "to": 236,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 280,
+      "to": 280,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 283,
+      "to": 283,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 286,
+      "to": 286,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 299,
+      "to": 299,
+      "pages": 1,
+      "confidence": "interpolated"
+    },
+    {
+      "from": 304,
+      "to": 349,
+      "pages": 46,
+      "confidence": "none"
+    }
+  ]
+}

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 13
 statements: 24
 exercises: 12
-content_sha256: bccd4bdfd8b01bed925e5d84477f0aa0e49575b033c467488b41acc4722dc3bd
+content_sha256: b3168683aee11b245994d00e156893e6787a83248bf3572166d4c7099081ceac
 ---
 
 ## § 1. Bigèbre enveloppante d’une algèbre de Lie

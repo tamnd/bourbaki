@@ -38,7 +38,7 @@ subsections:
       pdf_page: 527
 statements: 17
 exercises: 5
-content_sha256: 14053ff11cd2a19e3ef77397e3e1f1d463baf04d5a4645ed366c1ffcc8a4c6be
+content_sha256: 634206c7da9b3748506f383c0b92f206785adb68709423d53f2e0386c1b1e22a
 translated_from: content/en/alg/III/06_s6_symmetric_algebras.md
 source_content_sha256: 7f4b0decff4799e889dd38358965a5bc9fb77813b04c8c87de2e5c514aa78d3c
 translation_model: gpt-5.4

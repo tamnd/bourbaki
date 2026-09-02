@@ -62,7 +62,7 @@ subsections:
       pdf_page: 594
 statements: 41
 exercises: 5
-content_sha256: caec8df37fb2b5032ecee144d8f81b7c96d138b63883d4c58fd411f51c150999
+content_sha256: a11f0b0d3510c23fb93d9ba5e09e524c8efb457763770505dc899f818847cbd4
 translated_from: content/en/alg/III/10_s10_derivations.md
 source_content_sha256: 321a0214d9f86881e7cc2493bc5c6c5f347dd080ee2ae7987600113edd176f01
 translation_model: gpt-5.4
@@ -615,7 +615,7 @@ do đó có mệnh đề.
 
 *Điều kiện cần và đủ để đại số $A \oplus E(\delta)$ là kết hợp và có đơn vị là $A$ kết hợp và có đơn vị, và các ánh xạ $(a, x) \mapsto a.x$ và $(a, x) \mapsto x.a$ xác định trên $E$ một cấu trúc song môđun $(A, A)$; khi đó phần tử đơn vị của $A \oplus E(\delta)$ là $(1, 0)$.*
 
-Nếu một phần tử $(u, m) \in A \oplus E(\delta)$ được viết là phần tử đơn vị của đại số này, thì ngay lập tức thấy rằng $u$ phải là phần tử đơn vị của $A$; viết $(u, m).(0, x) = (0, x).(u, m) = (0, x)$, ta thu được $u.x = x.u = x$ với $x \in E$ và, viết $(u, m).(u, 0) = (u, 0).(u, m) = (u, 0)$, ta thu được $m = 0$. Việc $A$ là kết hợp khi $A \oplus E(\delta)$ kết hợp suy ra từ तथ्य rằng phép tăng cường là một đồng cấu toàn ánh. Điều kiện $(x.a').a'' = x.(a'.a'')$ khi đó tương đương với $((0, x)(a', 0))(a'', 0) = (0, x)((a', 0)(a'', 0))$ và tương tự điều kiện $a.(a'.x) = (a.a').x$ tương đương với
+Nếu một phần tử $(u, m) \in A \oplus E(\delta)$ được viết là phần tử đơn vị của đại số này, thì ngay lập tức thấy rằng $u$ phải là phần tử đơn vị của $A$; viết $(u, m).(0, x) = (0, x).(u, m) = (0, x)$, ta thu được $u.x = x.u = x$ với $x \in E$ và, viết $(u, m).(u, 0) = (u, 0).(u, m) = (u, 0)$, ta thu được $m = 0$. Việc $A$ là kết hợp khi $A \oplus E(\delta)$ kết hợp suy ra từ việc phép tăng cường là một đồng cấu toàn ánh. Điều kiện $(x.a').a'' = x.(a'.a'')$ khi đó tương đương với $((0, x)(a', 0))(a'', 0) = (0, x)((a', 0)(a'', 0))$ và tương tự điều kiện $a.(a'.x) = (a.a').x$ tương đương với
 
 $$
 (a, 0)((a', 0)(0, x)) = ((a, 0)(a', 0))(0, x);
@@ -876,7 +876,7 @@ $$
 x \cdot (u \otimes v) \cdot y = (xu) \otimes (vy) = (xu) \otimes (yv) = (x \otimes y)(u \otimes v).
 $$
 
-Do đó hạt nhân $\mathfrak{J}$ của $m$ trong trường hợp này là một *iđêan* của vành $A \otimes_K A$ và, vì $m : A \otimes_K A \to A$ là toàn ánh, $(A \otimes_K A)/\mathfrak{J}$ đẳng cấu với $A$; nếu cũng xét $E$ như một môđun $(A \otimes_K A)$ посредством $m$ (nói cách khác là môđun $(A \otimes_K A)$ $m_*(E)$), thì các đồng cấu *song môđun* $(A, A)$ $\mathfrak{J} \to E$ được đồng nhất với các đồng cấu *môđun* $(A \otimes_K A)$ $\mathfrak{J} \to E$ (§ 4, no. 3), nói cách khác có một đẳng cấu chính tắc của các $K$-môđun.
+Do đó hạt nhân $\mathfrak{J}$ của $m$ trong trường hợp này là một *iđêan* của vành $A \otimes_K A$ và, vì $m : A \otimes_K A \to A$ là toàn ánh, $(A \otimes_K A)/\mathfrak{J}$ đẳng cấu với $A$; nếu cũng xét $E$ như một môđun $(A \otimes_K A)$ thông qua $m$ (nói cách khác là môđun $(A \otimes_K A)$ $m_*(E)$), thì các đồng cấu *song môđun* $(A, A)$ $\mathfrak{J} \to E$ được đồng nhất với các đồng cấu *môđun* $(A \otimes_K A)$ $\mathfrak{J} \to E$ (§ 4, no. 3), nói cách khác có một đẳng cấu chính tắc của các $K$-môđun.
 
 $$
 \operatorname{Hom}_{(A, A)}(\mathfrak{J}, E) \to \operatorname{Hom}_{A \otimes_K A}(\mathfrak{J}, E).
@@ -1125,7 +1125,7 @@ Không được nghĩ rằng, ngay cả nếu u: A → B là một đơn cấu, 
 
 Cho A là một đại số nguyên trên K, B là trường các phân thức của nó và u: A → B là đơn ánh chính tắc. Khi đó Ω_0(u): Ω_K(A) ⊗_A B → Ω_K(B) là một đẳng cấu.
 
-Dùng तथ्य rằng trong biểu đồ (42) các mũi tên thẳng đứng là song ánh, điều này quy về việc chứng minh rằng, với mọi không gian vectơ E trên B, ánh xạ C(u): D_K(B, E) → D_K(A, E) là song ánh. Nhưng điều này suy ra từ तथ्य rằng mọi K-đạo hàm từ A vào E đều có thể được mở rộng duy nhất thành một K-đạo hàm từ B vào E (no. 5, Mệnh đề 5).
+Dùng việc trong biểu đồ (42) các mũi tên thẳng đứng là song ánh, điều này quy về việc chứng minh rằng, với mọi không gian vectơ E trên B, ánh xạ C(u): D_K(B, E) → D_K(A, E) là song ánh. Nhưng điều này suy ra từ việc mọi K-đạo hàm từ A vào E đều có thể được mở rộng duy nhất thành một K-đạo hàm từ B vào E (no. 5, Mệnh đề 5).
 
 ### Bài tập {#alg-iii-s10-exercises}
 

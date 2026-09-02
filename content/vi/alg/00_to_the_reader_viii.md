@@ -13,7 +13,7 @@ pdf_pages: 0005-0008
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: c69898b49c884d4695e0005a2b68ca2fb098feb16d27f93b50def2a16f450b53
+content_sha256: 63fcff221e5ff4705db8244e08f78c8fd3d4084ae37084fac445804a6b10154e
 translated_from: content/en/alg/00_to_the_reader_viii.md
 source_content_sha256: 45c519005c823d57f7f33b57a1c790671b15643486bc9d05ac797484615076c1
 translation_model: gpt-5.4

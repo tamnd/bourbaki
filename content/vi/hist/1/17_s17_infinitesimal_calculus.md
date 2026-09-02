@@ -11,7 +11,7 @@ pdf_pages: 0169-0200
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 69eab11640d53ba84ad30dbe8d3bf26731412c34fa295a2add80c70abeed924d
+content_sha256: 120899d5bbeaf69ad37d83ed5482eeece08637ab1e27f6c201c385d276805340
 translated_from: content/en/hist/1/17_s17_infinitesimal_calculus.md
 source_content_sha256: 31a2a855be02ee84078e97f838591b5052150c4fc6de2b5f740ca40cef0e8130
 translation_model: gpt-5.4

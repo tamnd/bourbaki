@@ -28,7 +28,7 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: 82f1a483d7c4d1d2bac531e36935d573f9ed60480ff71829be2531fdc814259d
+content_sha256: dedd63cbfbabf7d8f839cc86b9a66cdf78c9f0a23586cb2dd068257b134eba16
 translated_from: content/en-mt/var/1/03_s3_fonctions_analytiques_reelles_ou.md
 source_lang: en-mt
 translation_method: machine

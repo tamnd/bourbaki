@@ -12,7 +12,7 @@ pdf_pages: 0183-0211
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 9900b46b9e79886bc725c6bb334519383fe739b7d46ac56f8a4e51969e403124
+content_sha256: 0da2bc4e0f7bc6027e7d3ede3c13ecbfff4bc73fd9859d5a2b7de6482d99563f
 translated_from: content/fr/alg/IX/historical_note.md
 source_lang: fr
 translation_method: machine

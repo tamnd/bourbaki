@@ -53,7 +53,7 @@ subsections:
       pdf_page: 187
 statements: 66
 exercises: 22
-content_sha256: 505d3c28f058b1ba9435ac6e7d510b596f0d663b3fa668163c6cc7228496ac78
+content_sha256: 83103b6e5272cf9a0aa02a9634c131ac25efe0577d7953248f63b54ad0c7728d
 translated_from: content/en-mt/ts/IV/01_s1_operateurs_compacts_sur_un_espace.md
 source_lang: en-mt
 translation_method: machine

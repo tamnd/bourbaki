@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 13f9472664ea478f5647df341b264d76f99e63248de582b7e2ca93ec8591122c
+content_sha256: c96151de8df0a4eff7f7e66aaa7b0b286feba63037080055cc93903b120f0fac
 translated_from: content/en/int/IX/05_s5_measures_on_completely_regular_spaces.md
 source_content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
 translation_model: gpt-5.4-mini

@@ -41,7 +41,7 @@ subsections:
       pdf_page: 297
 statements: 20
 exercises: 3
-content_sha256: 0001fab43420fc721b2091717a772409bf8d8ed8a052f67cffccc1674b37f714
+content_sha256: c5d02763e0ba81f180ba651433971351bc4433064e4281ee8e880b60ece6ef27
 ---
 
 ## § 1. GENERALIZED TAYLOR EXPANSIONS

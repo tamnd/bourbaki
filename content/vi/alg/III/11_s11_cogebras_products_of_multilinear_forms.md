@@ -66,7 +66,7 @@ subsections:
       pdf_page: 633
 statements: 40
 exercises: 25
-content_sha256: cefa9fd2a2456d7bf0ec43c4a23d437befa8bf13723683dd1770cad33949a92b
+content_sha256: a9d74fea71ebf683bbd50182667cfad8747fffe20e04000bd461dfe4f3f950af
 translated_from: content/en/alg/III/11_s11_cogebras_products_of_multilinear_forms.md
 source_content_sha256: 975bbc956840cf52ff780bd6ba5b9a2f483e312a57f75aa1aff94045feaa36e6
 translation_model: gpt-5.4

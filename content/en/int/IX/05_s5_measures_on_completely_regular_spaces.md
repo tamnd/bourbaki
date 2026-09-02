@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
+content_sha256: 58103c2c457c58b000a2920115ae10c4f462f32dd4b4a8e8eb6d2753005ef40f
 ---
 
 ## § 5. MEASURES ON COMPLETELY REGULAR SPACES

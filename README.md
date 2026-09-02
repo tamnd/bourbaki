@@ -45,10 +45,10 @@ What a volume costs to read depends entirely on what its own text layer is worth
 | Text layer | Volumes | What it means |
 | --- | --- | --- |
 | native | 6 | Born digital. `pdftotext -layout` gives real text and real mathematics. |
-| ocr | 35 | A scan somebody has already run OCR over. Good enough to read a running head off, useless for mathematics. |
-| none | 3 | A scan with no text at all. Even the page map has to come out of vision OCR. |
+| ocr | 34 | A scan somebody has already run OCR over. Good enough to read a running head off, useless for mathematics. |
+| none | 4 | A scan with no text at all. Even the page map has to come out of vision OCR. |
 
-The six native volumes are *Algebra, Chapter 8* and *Lie Groups and Lie Algebras, Chapters 7-9* in English, and *Algèbre, Chapitre 8*, *Théories spectrales, Chapitres 1 et 2*, *Théories spectrales, Chapitres 3 à 5* and *Topologie algébrique, Chapitres 1 à 4* in French. They are cheap and they go first. The three with no text at all are *Algèbre, Chapitre 10* at 222 pages, *General Topology, Chapters 5-10* at 372 pages and *Commutative Algebra, Chapters 1-7* at 642 pages, and they are the most expensive volumes in the library. The other 35 are the ordinary case.
+The six native volumes are *Algebra, Chapter 8* and *Lie Groups and Lie Algebras, Chapters 7-9* in English, and *Algèbre, Chapitre 8*, *Théories spectrales, Chapitres 1 et 2*, *Théories spectrales, Chapitres 3 à 5* and *Topologie algébrique, Chapitres 1 à 4* in French. They are cheap and they go first. The four with no text at all are *Théorie des ensembles* at 349 pages, *Algèbre, Chapitre 10* at 222 pages, *General Topology, Chapters 5-10* at 372 pages and *Commutative Algebra, Chapters 1-7* at 642 pages, and they are the most expensive volumes in the library. The other 34 are the ordinary case.
 <!-- END TEXTLAYER -->
 
 Their OCR layer renders a pair of braces in *Theory of Sets* as `R! x, y I`, so nothing in it can be trusted as mathematics, but it is legible enough to build the page map from before a single page goes to vision OCR, which saves the expensive pass on every one of them.
@@ -131,10 +131,10 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Algebra | VIII | 25 of 25 | 709 | 317 | 1024 | 964 |
 | Algebra | IX | 0 of 10 | 0 | 0 | 0 | 207 |
 | Algebra | X | 0 of 9 | 0 | 0 | 0 | 216 |
-| Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 50 |
-| Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 65 |
-| Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 127 |
-| Theory of Sets | IV | 3 of 3 | 29 | 15 | 43 | 155 |
+| Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 101 |
+| Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 117 |
+| Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 226 |
+| Theory of Sets | IV | 3 of 3 | 29 | 15 | 43 | 255 |
 | Topological Vector Spaces | I | 3 of 3 | 64 | 35 | 0 | 58 |
 | Topological Vector Spaces | II | 8 of 8 | 203 | 162 | 0 | 195 |
 | Topological Vector Spaces | III | 6 of 6 | 123 | 75 | 0 | 101 |
@@ -188,8 +188,6 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
 388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4123 exercises, 2642 of them carrying a permanent tag.
-
-The table is one row per chapter of the volumes that have a table of contents. 1 further volumes and 349 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -219,7 +217,7 @@ The French is counted and not compared against the English. A file name carries 
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
 | **All** | **621** | **5527** | **619** | **4938** | **90%** | **1529** |
 
-The source column is the English, which is 621 sections and 5527 exercises: 4619 files in `content/en` where Springer printed an English translation and 1529 in `content/en-mt` where this project read the French instead. The French originals are 570 sections and 5169 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 621 sections and 5527 exercises: 4619 files in `content/en` where Springer printed an English translation and 1529 in `content/en-mt` where this project read the French instead. The French originals are 600 sections and 5377 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
 Vietnamese has 619 of the 621 sections and 4938 of the 5527 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 

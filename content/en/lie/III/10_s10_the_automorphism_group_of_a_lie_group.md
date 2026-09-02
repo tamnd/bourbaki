@@ -25,7 +25,7 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 3
-content_sha256: 9324e1961b118ac5c4f73e3fb335e08c0b72a588687b17147d05e2b458b10af4
+content_sha256: 6fd8805ab9a65dff430aeba0e2e6ddcfa5942940fad2fefc7a6daea7301471db
 ---
 
 ## § 10. THE AUTOMORPHISM GROUP OF A LIE GROUP

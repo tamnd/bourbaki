@@ -30,7 +30,7 @@ subsections:
       pdf_page: 28
 statements: 5
 exercises: 6
-content_sha256: e92fb10484f7e1c8b527f164d548f37f7d22e320c1e30ca3994bdab53fd9f1ef
+content_sha256: 83fb05f03ae0fe9178ceaa09408161d84de142a688363d3cf9314bc2bc79c323
 translated_from: content/en/ens/I/01_s1_terms_and_relations.md
 source_content_sha256: 0ee801130c4937b60178227e19ee4a8160108632ae38780ac29f1c6072b194de
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini

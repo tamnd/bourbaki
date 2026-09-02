@@ -24,7 +24,7 @@ subsections:
       pdf_page: 89
 statements: 6
 exercises: 5
-content_sha256: 9f8d57f83d7bd5f1154c5659bf43744dc834cb1e4c1a52542653e53cdef66f9d
+content_sha256: 171efc4b707890c8545675e5949c9fa0c52aa22c4aff998479bf8acf06ccda8c
 translated_from: content/en/lie/I/07_s7_ado_s_theorem.md
 source_content_sha256: 88c99569fd7f93541de8470999a923ed72c5b349486bddb4207865298e2f0c53
 translation_model: gpt-5.4, copied

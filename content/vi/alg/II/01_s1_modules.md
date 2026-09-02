@@ -70,7 +70,7 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: afa14fce80728e1de7c45b63c7703028255d831d82b048e2bf97dce171d3d67f
+content_sha256: b2127d9d7696cc4553facf48c05c3a344641d32141b928829499a77a96b6234c
 translated_from: content/en/alg/II/01_s1_modules.md
 source_content_sha256: 7397d09a718f6180624ef63d3ea605fc93db2eb8eb18c2019f1e6cb60606e9b8
 translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini

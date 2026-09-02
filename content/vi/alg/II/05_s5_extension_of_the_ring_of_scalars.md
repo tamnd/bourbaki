@@ -34,7 +34,7 @@ subsections:
       pdf_page: 308
 statements: 13
 exercises: 7
-content_sha256: affc07e603b807d5587a6c10602c9cb3a6beda320720a4c14db60fc1f11f4679
+content_sha256: 8c6ee7647ad3e179955cff2ac486dd63f8b1b2d8f83bdc685170518a21d897df
 translated_from: content/en/alg/II/05_s5_extension_of_the_ring_of_scalars.md
 source_content_sha256: febcd34cae06506edd112484e71c36d0c4e9ea06b4c8287244a60b89d1e7d7bd
 translation_model: gpt-5.4

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 235
 statements: 29
 exercises: 3
-content_sha256: df721c772753141cef873961e889653b0e17d83473fb7f57196784c8de58fbca
+content_sha256: e97fd0f41e7d621fb14994516f11d408708f0959271b4f7db32957daf87aea55
 ---
 
 ## § 7. Barycentres

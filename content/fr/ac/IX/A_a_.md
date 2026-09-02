@@ -26,7 +26,7 @@ subsections:
       pdf_page: 153
 statements: 13
 exercises: 6
-content_sha256: 98bbdb09a04c6ecf122abe20e179ba71aba6d2aa037d166e2a4c159f9f8f8b67
+content_sha256: e864a39e88aa1bca01230c31821898c8ee21312c13fac765353afd8926e19614
 ---
 
 ### APPENDICE

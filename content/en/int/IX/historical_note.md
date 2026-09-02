@@ -12,7 +12,7 @@ pdf_pages: 0302-0332
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: cd04ec4dcf226a6f8761a19af2c47284265ff59581d75e91925edf6075ac7933
+content_sha256: c5bf1c6b504f9d5e019dea29b4a543e71402f9888847bc1fd95a329ca5d58bce
 ---
 
 # HISTORICAL NOTE

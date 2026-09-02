@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: c4c76c8e191b939527d3fa46a4177ccff60ede09336418aa449b43166a4c5cb2
+content_sha256: 3cf3af7b337eefd308acb9b2eb008a57d50aa992ab93d70756e22b40fd375586
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie

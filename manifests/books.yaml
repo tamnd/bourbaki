@@ -38,6 +38,44 @@ books:
         page: 7
         first_pdf_page: 15
         last_pdf_page: 21
+    - id: ens-i-iv-fr
+      book: ens
+      lang: fr
+      title: Théorie des ensembles
+      edition: 2006, Springer
+      chapters:
+        - I
+        - II
+        - III
+        - IV
+      pdf: pdf/fr/Théorie des Ensembles.pdf
+      pdf_sha256: 4ad8840cbd6a93bb753c2d3e0ad0bb7a1e308d39e87ef541e4cd6d3e54c812e2
+      pdf_bytes: 17698744
+      pages: 349
+      nature: scanned
+      producer: 3-Heights(TM) PDF Producer 4.2.26.0 (http://www.pdf-tools.com)
+      scan:
+        format: jbig2
+        width: 1840
+        height: 2781
+        dpi: 300
+        bpc: 1
+        color: gray
+      extraction: ocr
+      text_layer: none
+      page_width_pt: 439.37
+      page_height_pt: 666.142
+      grammar: head-label
+      pagination: per-chapter
+      reader_note:
+        title: MODE D’EMPLOI DE CE TRAITÉ
+        first_pdf_page: 5
+        last_pdf_page: 7
+      introduction:
+        title: INTRODUCTION
+        page: 7
+        first_pdf_page: 8
+        last_pdf_page: 14
     - id: alg-i-iii
       book: alg
       lang: en
@@ -968,7 +1006,7 @@ books:
       title: Variétés différentielles et analytiques, fascicule de résultats
       edition: ""
       chapters:
-      - "1"
+        - "1"
       pdf: pdf/fr/Varietes differentielles et.pdf
       pdf_sha256: e2eb2e615b027972a88ea627da3f03293f16ef9690ad83903463f066d88463f0
       pdf_bytes: 7787941
@@ -1316,7 +1354,7 @@ books:
       title: Elements of the History of Mathematics
       edition: ""
       chapters:
-      - "1"
+        - "1"
       pdf: pdf/en/Elements of the History of Mathematics.pdf
       pdf_sha256: abd140c565abeeb3b2e5ae5d621b4f37458fab8f5651ee51389ffa99a0f20ff6
       pdf_bytes: 36605642
@@ -1342,7 +1380,7 @@ books:
       title: Éléments d'histoire des mathématiques
       edition: ""
       chapters:
-      - "1"
+        - "1"
       pdf: pdf/fr/Eléments d'histoire des mathématiques.pdf
       pdf_sha256: 6d65e74ebeb05d4253ade28e4ec50117f6ac31b29ebcc1d1fccfa3fc72e7c2e4
       pdf_bytes: 16623492

@@ -13,7 +13,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b3ee9f675ce24d27f2483ae10c0e329103cb416d224dceab0fe341f31d090f97
+content_sha256: de4f36adfdc07da8ac49d4fdd36ccdc18ee91c92b044e0bd91155dc821450e2a
 translated_from: content/en/alg/III/historical_note.md
 source_content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
 translation_model: gpt-5-6-mini, gpt-5-mini

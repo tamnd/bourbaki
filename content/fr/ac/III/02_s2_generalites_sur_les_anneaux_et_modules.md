@@ -64,7 +64,7 @@ subsections:
       pdf_page: 228
 statements: 68
 exercises: 31
-content_sha256: dfff54cb43c75cb89d327982a34ad5f57bfe1d61524bd4073f17f7ca7f31972f
+content_sha256: f0ffd869bd6ac43fa0232fc46875f60b58979001dd4ce3d327d171b1fef46533
 ---
 
 ## § 2. Généralités sur les anneaux et modules filtrés.

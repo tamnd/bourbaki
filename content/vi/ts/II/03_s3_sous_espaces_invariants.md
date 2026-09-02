@@ -25,7 +25,7 @@ subsections:
       pdf_page: 269
 statements: 12
 exercises: 19
-content_sha256: 6ac75da9c6a361e3f9e3ed81faf6b23148403e91ea07f961976c573b5c8d7e6b
+content_sha256: 26462797ceecbfc0aa6d41ebe86837159e27e5e6b7f8de5a0327b30a6994aecb
 translated_from: content/en-mt/ts/II/03_s3_sous_espaces_invariants.md
 source_lang: en-mt
 translation_method: machine

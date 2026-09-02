@@ -40,7 +40,7 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: a6d2b37cb4a22aabc30d10c65f1a391b2ff69a44cf5e32f3b7fbcc62711193e4
+content_sha256: 404551a9a3942003074ca30a80dfc325817ffad388db1efcf85e8f2eb7d9c4f6
 translated_from: content/en/lie/IV/02_s2_tits_systems.md
 source_content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
 translation_model: gpt-5-6, gpt-5-6-mini

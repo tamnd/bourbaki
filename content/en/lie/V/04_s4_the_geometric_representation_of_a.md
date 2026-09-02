@@ -48,7 +48,7 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: b37e57ba0e6700d5644218e6cb51eb2aa578040de72fb7f9df614a11c81b3ddd
+content_sha256: 6e1478f248737bab9dfca41f060e0d9ef44955ad60a23fd4409330f32d085486
 ---
 
 ## § 4. GEOMETRIC REPRESENTATION OF A COXETER GROUP

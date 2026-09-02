@@ -24,7 +24,7 @@ subsections:
       pdf_page: 135
 statements: 10
 exercises: 0
-content_sha256: 41114d3659ba1c03e45fbacc1d14e1405e0ae472fba157d2ff91fc89f7b4d7b1
+content_sha256: 36d38eb198ac77f1de6cb875fbea90b8d5a5e8dc19bb624b85eaf6f380232580
 ---
 
 ## § 8. Types de formes quadratiques
