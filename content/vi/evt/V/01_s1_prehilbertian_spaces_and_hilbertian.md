@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: f2c2b0b69c1f18457bd3e889449a94fb0c1d4d02ce8e7ae064cb70da88e5af5b
+content_sha256: 312664f8d7a7dbf47826ea53c362faea8c55a1f431a73181aa2cb44ced634519
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 source_content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
 translation_model: gpt-5.4

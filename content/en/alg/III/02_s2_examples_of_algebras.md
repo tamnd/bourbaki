@@ -58,7 +58,7 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 3
-content_sha256: bd5951cd090d56ae73c754360396e4a160968b09d8b97344a2867e90be9ed798
+content_sha256: 5a84acf9f107bad7d60ffaca486e8438e91a0e75355de3f0446a4594085e9abd
 ---
 
 ## § 2. EXAMPLES OF ALGEBRAS

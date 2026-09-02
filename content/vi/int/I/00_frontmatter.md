@@ -21,7 +21,7 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: e8e38b2c8caeca17303484bb14d4ccbf008eab5ca8fc3e5f2b6af8474115f31a
+content_sha256: cb40f1b9e869217d96ad7f7523ba71cc51a8c7d70a5a52ffa1a2c9f7bc76d0ff
 translated_from: content/en/int/I/00_frontmatter.md
 source_content_sha256: 7903e043f4340792f2eced78a10f941d410ff38a9f8de464278d8f409206e188
 translation_model: gpt-5.4

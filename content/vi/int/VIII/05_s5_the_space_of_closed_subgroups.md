@@ -37,7 +37,7 @@ subsections:
       pdf_page: 156
 statements: 20
 exercises: 6
-content_sha256: 7846785383445cbdcee6d55683f9285062975cc3bbf01fed5c5f825d1f5658f4
+content_sha256: a56bd8b48219e118d500a11a38d7074d9da3d675b0501444bcfe36bc74854c28
 translated_from: content/en/int/VIII/05_s5_the_space_of_closed_subgroups.md
 source_content_sha256: 29c2899779ce442617d1f3f13a1923a0fdf371d15fbe391c66e2a84e16e4ed59
 translation_model: gpt-5.4-mini

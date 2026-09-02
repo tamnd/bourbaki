@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 7eab3f40eeb8e879110649fafcf19d449ca69db21cfb68523c7270b3da28c290
+content_sha256: cf0f0e2f6785aaa6b3e0de1e2bc22e884a5c735d2a302d0d4faff0a9ee403010
 translated_from: content/en-mt/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: en-mt
 translation_method: machine

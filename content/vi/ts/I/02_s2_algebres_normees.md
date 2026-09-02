@@ -37,7 +37,7 @@ subsections:
       pdf_page: 41
 statements: 28
 exercises: 37
-content_sha256: 25491c70f0bc9884b9e5f08138792090105073898fb42df6824ea042c6ecaa53
+content_sha256: dd446200a560185538cbbd22140cbbceee210acbd1d7d4159f0aae85a0924e33
 translated_from: content/en-mt/ts/I/02_s2_algebres_normees.md
 source_lang: en-mt
 translation_method: machine

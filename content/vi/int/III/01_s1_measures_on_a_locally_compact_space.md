@@ -52,7 +52,7 @@ subsections:
       pdf_page: 66
 statements: 41
 exercises: 18
-content_sha256: 639d738128e232481d0eb40bd3149f6b21102bab475d08991b6e669cb41b0c18
+content_sha256: 5d6059f687d8ca197784189c7228d940f1312201561561d8b1f9b85870d65ae8
 translated_from: content/en/int/III/01_s1_measures_on_a_locally_compact_space.md
 source_content_sha256: 7a621ccaf41aa9696a8e26acf7ca61fbadd6582267dd5d90d4a9b8e5b4e6599f
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6

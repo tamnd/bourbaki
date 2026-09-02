@@ -24,7 +24,7 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 3
-content_sha256: 73cbdd1b2a2914637443b0dd3bcc745254c12bca076d3d20363d88062c06bf2f
+content_sha256: 989bdc385ba0ef057f8c59e3d24092ac73e934d7b04addca9b9bad4a484351ae
 translated_from: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
 source_content_sha256: 9324e1961b118ac5c4f73e3fb335e08c0b72a588687b17147d05e2b458b10af4
 translation_model: gpt-5-6-mini

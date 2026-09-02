@@ -12,7 +12,7 @@ pdf_pages: 0338-0368
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: cad20ac89c9e8afb880c90164133d35f9e257df5ef3b452a2029642dd97dfcab
+content_sha256: 6706476f7f1541d0fced714002bb6c2ae85de849338da45031cce0f59fd068e3
 translated_from: content/en/evt/V/historical_note.md
 source_content_sha256: 1d568cdf6b7620392b098601685ec9ec289112bf1642f357259f2fe9d3aa3c33
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini, gpt-5-mini

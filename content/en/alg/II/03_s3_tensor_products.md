@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
+content_sha256: 196190fc6de7c191a8a8b49a5ef2ea6f1f5a5ef29b17ddd11fdf4cc54b2b03aa
 ---
 
 ## § 3. TENSOR PRODUCTS

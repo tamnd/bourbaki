@@ -33,7 +33,7 @@ subsections:
       pdf_page: 223
 statements: 9
 exercises: 16
-content_sha256: 8133b61f1df80be5ff13324ff876eecede9ed2ad44de1d0480eaab61020a8084
+content_sha256: f511f3c32e0e26a7b9de03662a1a8cf2edb055f16a719c9b4b714120bac10075
 ---
 
 ## § 5. CRITÈRES DE COMPACITÉ

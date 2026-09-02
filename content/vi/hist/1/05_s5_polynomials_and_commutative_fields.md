@@ -11,7 +11,7 @@ pdf_pages: 0075-0089
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 677a928a235a9d861faa6ee024e5cf2091ba164ac1591fbc2dd7b8d740f3c669
+content_sha256: 6ce99743ba2afbbb0af2a911713c4176218d0e0d41285a9e74e5d3e45c172323
 translated_from: content/en/hist/1/05_s5_polynomials_and_commutative_fields.md
 source_content_sha256: 476463410dc102c8e43dd1917fec1e6fb32f2a322a7dfc33679a42e6a62cc602
 translation_model: gpt-5.4

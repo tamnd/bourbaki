@@ -33,7 +33,7 @@ subsections:
       pdf_page: 112
 statements: 39
 exercises: 14
-content_sha256: 7b0c8917ffc869d589651a566f0625cb6b7b53b617faa2b7edc821571dd8ba66
+content_sha256: 96f45460365dc6691534ca15eaaf8b3106ce1c3bd78c1252d6d065b48ec5b1da
 translated_from: content/en/ac/II/03_s3_local_rings_passage_from_the_local_to.md
 source_content_sha256: 4f386f4871c58170a49537a2a50d87c0f1514cb0377ef14915c0c8c2f53a7186
 translation_model: gpt-5.4

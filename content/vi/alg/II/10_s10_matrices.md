@@ -66,7 +66,7 @@ subsections:
       pdf_page: 384
 statements: 35
 exercises: 12
-content_sha256: 11cef335c11493a147d4fbeb5cba01ae828f42c4d3319a694c9a18c0d8a6a58f
+content_sha256: b2a835f74562463b9a308557929977108ddbeec80e8e899ef145967342056a76
 translated_from: content/en/alg/II/10_s10_matrices.md
 source_content_sha256: a47679ba1ab8c0e078a09ebdfca77031eefe61db8ddab4faffc08a0fa8c19aa5
 translation_model: gpt-5.4
@@ -1092,7 +1092,7 @@ $$
 
 #### Hệ quả 2 {#alg-ii-s10-prop-14-cor-2 .statement}
 
-*Với mọi trường $\mathbf{K}$$, nhóm các ma trận khả nghịch $\mathbf{GL}(n, \mathbf{K})$ được sinh bởi các ma trận hoán vị (no. 7, Ví dụ 2), các ma trận đường chéo $\operatorname{diag}(a, 1, \ldots, 1)$ ($a \neq 0$ trong $\mathbf{K}$) và các ma trận $B_{12}(\lambda)$ ($\lambda \in \mathbf{K}$).*
+*Với mọi trường $\mathbf{K}$, nhóm các ma trận khả nghịch $\mathbf{GL}(n, \mathbf{K})$ được sinh bởi các ma trận hoán vị (no. 7, Ví dụ 2), các ma trận đường chéo $\operatorname{diag}(a, 1, \ldots, 1)$ ($a \neq 0$ trong $\mathbf{K}$) và các ma trận $B_{12}(\lambda)$ ($\lambda \in \mathbf{K}$).*
 
 Ta đã thấy (no. 9) rằng tích bên phải (resp. bên trái) của một ma trận với ma trận của một phép đổi chỗ thích hợp sẽ đổi chỗ hai cột bất kỳ (resp. hai hàng bất kỳ). Khi đó ma trận $\operatorname{diag}(1, \ldots, 1, a)$ bằng tích của $\operatorname{diag}(a, 1, \ldots, 1)$ với các ma trận hoán vị, và mọi ma trận $B_{ij}(\lambda)$ đều bằng tích của $B_{12}(\lambda)$ với các ma trận hoán vị, do đó có hệ quả.
 

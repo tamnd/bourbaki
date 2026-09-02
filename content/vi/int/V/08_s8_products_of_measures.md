@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: 25d6569a9d5311ed3e44aa780cb96c4db7a67f2bdd3ca0800da8a1677d902db0
+content_sha256: d20fbaf8cf5b13fbb9f6c78c48edfd9b35edc827446055d6d4a72535d873a3f7
 translated_from: content/en/int/V/08_s8_products_of_measures.md
 source_content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
 translation_model: gpt-5.4, gpt-5-6-mini

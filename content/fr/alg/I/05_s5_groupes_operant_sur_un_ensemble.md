@@ -41,7 +41,7 @@ subsections:
       pdf_page: 69
 statements: 40
 exercises: 29
-content_sha256: 5406d1248da1a2881223a5d8c038d746c3be5a9f47a401375a0482461422333e
+content_sha256: 39154bc38734ad5210bfb7d539e079049b587038f92fe7b4a9463028ea703d28
 ---
 
 ## § 5. GROUPES OPÉRANT SUR UN ENSEMBLE

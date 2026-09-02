@@ -33,7 +33,7 @@ subsections:
       pdf_page: 52
 statements: 34
 exercises: 12
-content_sha256: feff6e9d36de2c845ec5371026becddb37077bf1b776ff6b4807464e2447928d
+content_sha256: 743db54e2b37b9488a060735e6da0b10ef05bbc2aa2793684daac441c43a3c21
 translated_from: content/en-mt/ac/VIII/04_s4_series_de_hilbert_samuel.md
 source_lang: en-mt
 translation_method: machine

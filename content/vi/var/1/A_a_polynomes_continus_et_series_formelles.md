@@ -12,7 +12,7 @@ pdf_pages: 0086-0087
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 136ab61cfe54a3188d09958fa2ac2079b90ad199ddbf591d862942223db7991c
+content_sha256: ac5950f295f673d6f4380138039a8dbfb0c01a67a4284f4b58fcc16ebfe80939
 translated_from: content/en-mt/var/1/A_a_polynomes_continus_et_series_formelles.md
 source_lang: en-mt
 translation_method: machine

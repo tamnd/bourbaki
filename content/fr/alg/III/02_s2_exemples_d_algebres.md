@@ -57,7 +57,7 @@ subsections:
       pdf_page: 415
 statements: 20
 exercises: 4
-content_sha256: 13eb8ae334e2c27bb261675f7ae2326e6c05f328bc68c6450bead53a15ffe82c
+content_sha256: 3d6e2b598afef6281f6666d1de27e86e4cb85205f55cb991484c265c8ed5d0c4
 ---
 
 ## § 2. EXEMPLES D’ALGÈBRES

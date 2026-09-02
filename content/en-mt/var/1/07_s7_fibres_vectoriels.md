@@ -56,7 +56,7 @@ subsections:
       pdf_page: 85
 statements: 0
 exercises: 0
-content_sha256: 3ea89201f780c796ce69c1f3f443fb7823d3576700c6b7dc188afb4fa20c7b4c
+content_sha256: 102c704d1a2fe73bb3de5d16b2f0224405fd74a214b9ac08119444dcf1946f89
 translated_from: content/fr/var/1/07_s7_fibres_vectoriels.md
 source_lang: fr
 translation_method: machine

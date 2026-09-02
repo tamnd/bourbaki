@@ -33,7 +33,7 @@ subsections:
       pdf_page: 40
 statements: 37
 exercises: 7
-content_sha256: 85498b6f13398e68adef318d9085dbf17b24324f439cb30bf039a1f170786697
+content_sha256: 0d716e15f00c53e5bd66f59621fabb55362025269f9d77af9ca3bbe9c983b305
 translated_from: content/en-mt/ac/VIII/03_s3_dimension_des_anneaux_noetheriens.md
 source_lang: en-mt
 translation_method: machine

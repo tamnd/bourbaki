@@ -50,7 +50,7 @@ subsections:
       pdf_page: 543
 statements: 31
 exercises: 15
-content_sha256: 26d14bf670d16f32dff808b31e51b2f967904a4ef246c572b1ba4823b64b87c1
+content_sha256: a85bdaefd42957f8fd00237d59037c1f0ec3ed049a7324d67dac382722b052d2
 translated_from: content/en/alg/III/07_s7_exterior_algebras.md
 source_content_sha256: c5c58d36fea84ed5e26883e391f20cf1b187d6e1a3de33d7c9e483038c5c4be1
 translation_model: gpt-5.4
@@ -446,7 +446,7 @@ $$
 
 ($§ 4$, no. 7, Mệnh đề 10 và no. 8). Theo quy ước ta viết $\Lambda^{J,\nu}(M) = \{0\}$ đối với các họ $\nu$ mà giá của chúng không được chứa trong $J$; khi đó
 
-E_{J,n}$ cũng có thể được gọi là tổng trực tiếp của tất cả các $\bigwedge^{J,\nu}(M)$, trong đó $\nu$ chạy qua tập hợp $H_n$ của mọi họ $\nu = (n_\lambda)_{\lambda \in L}$ sao cho $\sum_{\lambda \in L} n_\lambda = n$. Vì $\bigwedge^0(M_\lambda)$ được đồng nhất với $A$, nên rõ ràng cũng vậy, với hai tập con hữu hạn $J \subset J'$ của $L$ và một họ $\nu$ có giá được chứa trong $J$, ánh xạ chính tắc $\bigwedge^{J,\nu}(M) \to \bigwedge^{J',\nu}(M)$ (hạn chế của ánh xạ chính tắc $E_J \to E_{J'}$ lên $\bigwedge^{J,\nu}(M)$) là song ánh. Nếu ta viết, với mọi $\nu \in H_n$,
+E_{J,n} cũng có thể được gọi là tổng trực tiếp của tất cả các $\bigwedge^{J,\nu}(M)$, trong đó $\nu$ chạy qua tập hợp $H_n$ của mọi họ $\nu = (n_\lambda)_{\lambda \in L}$ sao cho $\sum_{\lambda \in L} n_\lambda = n$. Vì $\bigwedge^0(M_\lambda)$ được đồng nhất với $A$, nên rõ ràng cũng vậy, với hai tập con hữu hạn $J \subset J'$ của $L$ và một họ $\nu$ có giá được chứa trong $J$, ánh xạ chính tắc $\bigwedge^{J,\nu}(M) \to \bigwedge^{J',\nu}(M)$ (hạn chế của ánh xạ chính tắc $E_J \to E_{J'}$ lên $\bigwedge^{J,\nu}(M)$) là song ánh. Nếu ta viết, với mọi $\nu \in H_n$,
 
 $$
 \bigwedge^\nu(M) = \lim_{\longrightarrow} \bigwedge^{J,\nu}(M)
@@ -560,7 +560,7 @@ nên từ no. 8, Hệ quả 3 của Định lý 1 suy ra rằng $\mu x_1$ là m�
 
 #### Hệ quả {#alg-iii-s7-n9-cor-1 .statement}
 
-*Cho M và N là hai A-môđun xạ ảnh và $f : M \to N$ là một ánh xạ A-tuyến tính. Nếu f là đơn ánh, thì $\Lambda(f) : \Lambda(M) \to \Lambda(N)$$ cũng là đơn ánh.*
+*Cho M và N là hai A-môđun xạ ảnh và $f : M \to N$ là một ánh xạ A-tuyến tính. Nếu f là đơn ánh, thì $\Lambda(f) : \Lambda(M) \to \Lambda(N)$ cũng là đơn ánh.*
 
 Trước hết ta chứng minh điều này dưới giả thiết rằng M là *tự do*; gọi $(e_\lambda)_{\lambda \in L}$ là một cơ sở của M, sao cho $(e_J)_{J \in \mathfrak{B}(L)}$ (công thức (18)) là một cơ sở của $\Lambda(M)$. Giả sử rằng hạt nhân của $\Lambda(f)$ chứa một phần tử $u = \sum_J \alpha_J e_J \neq 0$. Gọi K là một phần tử cực tiểu trong các tập con hữu hạn J sao cho $\alpha_J \neq 0$ và gọi H là một tập con hữu hạn của L rời nhau với K và sao cho $K \cup H$ chứa mọi J (hữu hạn về số lượng) sao cho $\alpha_J \neq 0$; vậy với mọi $J \neq K$ sao cho $\alpha_J \neq 0$, theo định nghĩa ta có $J \cap H \neq 0$ và do đó (no. 8, công thức (20)).
 $$

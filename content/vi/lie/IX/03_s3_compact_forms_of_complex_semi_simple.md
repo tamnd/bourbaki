@@ -37,7 +37,7 @@ subsections:
       pdf_page: 309
 statements: 17
 exercises: 9
-content_sha256: d8611ee0cd49856d4bcb9156cdaa925daa3be4539797ce805c36ee512e2d3953
+content_sha256: 3c762e6f575549fda06fa1355e43b0cd8eadde5292cec133fd33c90638f96c32
 translated_from: content/en/lie/IX/03_s3_compact_forms_of_complex_semi_simple.md
 source_content_sha256: bf0ebd0cda151170c108a2f9b899a1c59ba20dd5f6195c4caf5f17e7cc05a3cd
 translation_model: gpt-5.4

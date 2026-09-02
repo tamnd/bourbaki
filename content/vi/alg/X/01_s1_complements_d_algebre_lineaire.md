@@ -53,7 +53,7 @@ subsections:
       pdf_page: 28
 statements: 55
 exercises: 17
-content_sha256: 49e7436011e7f32af9addf980a5e88602087a1f4ed9ad4492e141aa91ddd8825
+content_sha256: 6e71fcd452db9e4d5d5b12afd86496b1b964442f466d664c4b246241d056d8ce
 translated_from: content/en-mt/alg/X/01_s1_complements_d_algebre_lineaire.md
 source_lang: en-mt
 translation_method: machine

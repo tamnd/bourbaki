@@ -11,7 +11,7 @@ pdf_pages: 0208-0219
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1b6a5e692cebbae4aac6a695248f06006cc91447721b252ce6d6d2a21f875db8
+content_sha256: f08ad99ac2ca6e19c2238111470174190b64b257f3ae8e3fdeedd1cb2a1b34c2
 translated_from: content/en/hist/1/21_s21_topological_vector_spaces.md
 source_content_sha256: f152705138d1dfd8534eb38b097026bfccf4de116a2e6e5413752bb9ced38b03
 translation_model: gpt-5.4

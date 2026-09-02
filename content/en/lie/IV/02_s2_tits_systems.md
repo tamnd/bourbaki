@@ -40,7 +40,7 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
+content_sha256: f7eefd40cd8e513f530b873e5fcea6850d926bb5ce6f28d21084629db1accf12
 ---
 
 ## § 2. TITS SYSTEMS

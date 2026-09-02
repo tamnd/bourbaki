@@ -54,7 +54,7 @@ subsections:
       pdf_page: 48
 statements: 23
 exercises: 8
-content_sha256: 7abf0080f20783ae6abef948d2f719302aab2019e08d00d51829c9b7763fad94
+content_sha256: fc8275dec4003fbb4e3c9d35aae4d5c73375afefe0722e4f007d4e2c1e4cf027
 translated_from: content/en/alg/IV/04_s4_formal_power_series.md
 source_content_sha256: 1ae2452e09c6aae656d15e99ae783f3b775e219c73ee5639bef38a58f20ea3cb
 translation_model: gpt-5.4
@@ -487,7 +487,7 @@ Trong phần còn lại của Số này, với mọi tập hợp $I$, ta sẽ k�
 
 Tập hợp $A\{I\}$ là một monoit đối với luật hợp thành $(f, g) \mapsto f \circ g$, với $\{X_i\}_{i \in I}$ làm phần tử đơn vị. Do đó tập hợp các phần tử khả nghịch của $A\{I\}$ là một nhóm.
 
-Mặt khác, gọi $E$ là monoit của mọi nội đồng cấu liên tục có đơn vị của $A$-đại số $A[[I]]$ để iđêan của ყველა các chuỗi lũy thừa hình thức không có số hạng hằng bất biến. Nếu $f \in A\{I\}$ và $g \in A[[I]]$, thì phần tử $g(f)$ được xác định. Với $f$ cố định, ánh xạ $g \mapsto g(f)$ từ $A[[I]]$ vào chính nó là một phần tử $W_f$ của $E$. Nếu $f_1, f_2 \in A\{I\}$ và $g \in A[[I]]$, theo công thức (5) (IV, p. 30) ta có
+Mặt khác, gọi $E$ là monoit của mọi nội đồng cấu liên tục có đơn vị của $A$-đại số $A[[I]]$ để iđêan của tất cả các chuỗi lũy thừa hình thức không có số hạng hằng bất biến. Nếu $f \in A\{I\}$ và $g \in A[[I]]$, thì phần tử $g(f)$ được xác định. Với $f$ cố định, ánh xạ $g \mapsto g(f)$ từ $A[[I]]$ vào chính nó là một phần tử $W_f$ của $E$. Nếu $f_1, f_2 \in A\{I\}$ và $g \in A[[I]]$, theo công thức (5) (IV, p. 30) ta có
 
 $$
 W_{f_1 \circ f_2}(g) = g(f_1 \circ f_2) = g(f_1) \circ f_2 = W_{f_2}(W_{f_1}(g))
@@ -595,7 +595,7 @@ $$
 
 vẫn đúng đối với các chuỗi hình thức tổng quát theo lũy thừa. Đặc biệt, nếu $u \neq 0$, thì $w(u^{-1}) = -w(u)$. \* Nói cách khác (Comm. Alg., VI, § 3, No. 6, p. 392, Def. 3), w là một định giá rời rạc chuẩn hóa của trường $K((X))$. \*
 
-Với mỗi số nguyên $n \in \mathbf{Z}$, gọi $p_n$ là tập hợp всех $u \in K((X))$ sao cho $\omega(u) \geq n$. Khi đó (p.), , , là một dãy giảm các nhóm con của nhóm cộng $K((X))$, có giao bằng 0 ; do đó tồn tại một tôpô trên $K((X))$, bất biến đối với phép tịnh tiến, mà đối với nó $(p_n)_{n \in \mathbf{Z}}$ là một hệ cơ bản các lân cận của 0 (Gen. Top., III, p. 223). Ta dễ dàng kiểm tra rằng $K((X))$ là một trường tôpô (Gen. Top., III, p. 281) và rằng $K[[X]]$ là một không gian con vừa mở vừa đóng của $K((X))$.
+Với mỗi số nguyên $n \in \mathbf{Z}$, gọi $p_n$ là tập hợp tất cả các $u \in K((X))$ sao cho $\omega(u) \geq n$. Khi đó (p.), , , là một dãy giảm các nhóm con của nhóm cộng $K((X))$, có giao bằng 0 ; do đó tồn tại một tôpô trên $K((X))$, bất biến đối với phép tịnh tiến, mà đối với nó $(p_n)_{n \in \mathbf{Z}}$ là một hệ cơ bản các lân cận của 0 (Gen. Top., III, p. 223). Ta dễ dàng kiểm tra rằng $K((X))$ là một trường tôpô (Gen. Top., III, p. 281) và rằng $K[[X]]$ là một không gian con vừa mở vừa đóng của $K((X))$.
 
 Cho (a,, , là một họ các phần tử của $K$, và giả sử rằng tồn tại một số nguyên N sao cho $a_n = 0$ với mọi $n < N$. Khi đó họ' $(\alpha_n X^n)_{n \in \mathbf{Z}}$ là khả tổng trong $K((X))$ (Gen. Top., III, p. 263, Cor.) ; đặt $u = \sum_{n \in \mathbf{Z}} \alpha_n X^n$, khi đó $u = 0$ khi và chỉ khi $a_n = 0$ với mọi $n$; nếu không thì cấp của $u$ là số nguyên nhỏ nhất k sao cho $\alpha_k \neq 0$. Cuối cùng mọi phần tử của $K((X))$ đều có thể được viết một cách duy nhất dưới dạng $\sum_{n \in \mathbf{Z}} \alpha_n X^n$, trong đó dãy (a,) thỏa mãn $\alpha_{-n} = 0$ với mọi n đủ lớn.
 

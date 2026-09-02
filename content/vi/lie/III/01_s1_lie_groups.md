@@ -56,7 +56,7 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: 1a268c0d2884a832642706fe570daa502ad300d04db4fe7921086deb7bf3f771
+content_sha256: 5306b0140e62ce93f53fa98bb099de51acf6351268069bd9fd084df515d3073e
 translated_from: content/en/lie/III/01_s1_lie_groups.md
 source_content_sha256: 1d086b2132020ca1ae70342f05ee30e3bf32e38ffd0a0c2a6d1cdfbca1dc4cf8
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4

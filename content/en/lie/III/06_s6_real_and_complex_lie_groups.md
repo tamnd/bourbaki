@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: a52c873bcf9c62fc8fba9209dcc1e9adccdfb18291f0cf132a2bfb157a201e58
+content_sha256: e19e9dd5de2d96fb494baeac00a1fd1f2129ff269a2cd6a7f015d4d82fc36a58
 ---
 
 ## § 6. REAL AND COMPLEX LIE GROUPS

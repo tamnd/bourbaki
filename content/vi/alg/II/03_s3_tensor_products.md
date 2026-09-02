@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 2f7994ba3abc8dc06da3e00228b14105741f784f5e5fd0c6ae8018935e30acfa
+content_sha256: b72e8149f4c3c1a44d18eb412808f3941c048825b72f27f82f0d03cbc56bfbac
 translated_from: content/en/alg/II/03_s3_tensor_products.md
 source_content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
 translation_model: gpt-5.4, gpt-5-6-mini

@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: 28753027f57914afc6c278b086c5e1331f7c2b79928436fb7f57dc1a9d2f57eb
+content_sha256: d35b0ae51737c91df160521f7a9078a7596505f08526e70069bd2b424c7aa4e2
 translated_from: content/en-mt/ts/IV/03_s3_distributions_et_distributions_temperees.md
 source_lang: en-mt
 translation_method: machine

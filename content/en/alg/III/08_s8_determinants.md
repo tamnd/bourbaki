@@ -58,7 +58,7 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: da71ef2a4eba72daedbf68293924b26a3111360474a947e52b32b6bd9d0a572c
+content_sha256: 1e5ab9b1b4d971390aac6594c7ace13e50ab50b6000f64da271cff3a45c6bbac
 ---
 
 ## § 8. DETERMINANTS

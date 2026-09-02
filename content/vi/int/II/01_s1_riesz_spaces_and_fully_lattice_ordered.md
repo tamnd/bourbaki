@@ -32,7 +32,7 @@ subsections:
       pdf_page: 30
 statements: 16
 exercises: 12
-content_sha256: f28ba52e580af5f0890aaf9fd758dc4bd5a57bf994aeb100294bf753bbe8dfb6
+content_sha256: 465cbeca4ee541d56f9f6c588475b8491eaf8bb2e3dd819501bacdeb6b08b435
 translated_from: content/en/int/II/01_s1_riesz_spaces_and_fully_lattice_ordered.md
 source_content_sha256: 3b9eb027da08c7a53f7df3e86e6b00d1cb2b27951fa304777c39b88f1388325d
 translation_model: gpt-5.4

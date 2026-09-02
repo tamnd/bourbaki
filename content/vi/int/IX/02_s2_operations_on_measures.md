@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: f5201c6760988d888d46af4fc5ef7a13540966321f09ac382ac07d73867e9d56
+content_sha256: 02abd689324a5ce6efd4c482bc97777f183d92ec58a35284e29dd8a916ed5323
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
 source_content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini

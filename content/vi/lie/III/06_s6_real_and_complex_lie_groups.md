@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: d928c9690d321776e1b6481b537a42c4b4f078e61872b23ec8998faf2c1aabdb
+content_sha256: f32bc0413c0eae4c05154af6b4cd478203905b4f9ddeb515dba99e8fa7512532
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 source_content_sha256: a52c873bcf9c62fc8fba9209dcc1e9adccdfb18291f0cf132a2bfb157a201e58
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini

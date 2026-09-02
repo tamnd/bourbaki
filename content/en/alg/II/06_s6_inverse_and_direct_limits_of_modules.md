@@ -26,7 +26,7 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
+content_sha256: a23c1a21c755e7c0e92d6ebb553b20bdb18fd6742e53a1fb787597d12a930e81
 ---
 
 ## § 6. INVERSE AND DIRECT LIMITS OF MODULES

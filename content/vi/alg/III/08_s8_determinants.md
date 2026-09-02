@@ -57,7 +57,7 @@ subsections:
       pdf_page: 564
 statements: 36
 exercises: 26
-content_sha256: 1313476cc5ba9aef5eb016d26e472d627dea12421836a7e7906d0edb840d12ab
+content_sha256: dfc9904116578fb1b8f108e3aa37e38eb3b713789c01dbec29bb736f00207691
 translated_from: content/en/alg/III/08_s8_determinants.md
 source_content_sha256: da71ef2a4eba72daedbf68293924b26a3111360474a947e52b32b6bd9d0a572c
 translation_model: gpt-5-6-mini, gpt-5-mini

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 0c070915f018ae2f28d7ba10eba8e260e6b24a97ffbf46012a1958fa6e91eda0
+content_sha256: 55c9d2607bd0fb8897fb364274c047736d36f7223a0d09165570ea8513afcf80
 ---
 
 ## § 7. CONVERGENCE OF THE HAUSDORFF SERIES (REAL OR COMPLEX CASE)

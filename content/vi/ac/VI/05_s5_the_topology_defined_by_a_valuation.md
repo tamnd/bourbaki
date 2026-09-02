@@ -25,7 +25,7 @@ subsections:
       pdf_page: 420
 statements: 10
 exercises: 9
-content_sha256: f691156e038bc6a849c5ae6b032ac8d7f43ff2fadf731da549ee54b86942b851
+content_sha256: 4ec33350cc7a17f359c44600db675e2ca719f9f03c2b8bc17de0f5934e16f93b
 translated_from: content/en/ac/VI/05_s5_the_topology_defined_by_a_valuation.md
 source_content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
 translation_model: gpt-5.4

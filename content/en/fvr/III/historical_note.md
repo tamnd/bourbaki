@@ -13,7 +13,7 @@ pdf_pages: 0144-0177
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: ac8030febf5ebeaf9d3f3f00a8fb9dc684af309e0cdfd42e236e2af2749abf31
+content_sha256: 84a98a275d928e4aae90eeebd4bb728e1264b1c935adcdc4fc0ff2a301e15fd3
 ---
 
 # HISTORICAL NOTE

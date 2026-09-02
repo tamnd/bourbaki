@@ -33,7 +33,7 @@ subsections:
       pdf_page: 74
 statements: 27
 exercises: 12
-content_sha256: 4861402c25afa72739019dce22d6030166385d3d6de51de04a122911e27be198
+content_sha256: 072fbb83f3edc3ae31061e2223d2348c0f0cefd204734f3bca8b6a3ac6ab872f
 ---
 
 ## § 6. DIMENSION DES ANNEAUX GRADUÉS

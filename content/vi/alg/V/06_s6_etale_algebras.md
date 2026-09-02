@@ -42,7 +42,7 @@ subsections:
       pdf_page: 148
 statements: 22
 exercises: 2
-content_sha256: d8337b84df2ee9c22ce9d881ed6e2f4beb99fb0856ee98e94ba808e1615dc707
+content_sha256: a4852ece6b890d6311a6f39f9e5bf5e26b506b14eb84e5ddeb9fb4bbb1f3b279
 translated_from: content/en/alg/V/06_s6_etale_algebras.md
 source_content_sha256: 1c0ff6eab8a369a6cc0ba7a81f2a00f665a45cec046137d9abeebe3c7a4842b7
 translation_model: gpt-5-6-mini, gpt-5.4-mini

@@ -26,7 +26,7 @@ subsections:
       pdf_page: 136
 statements: 19
 exercises: 2
-content_sha256: 57102dadb9478828bbaf3bf1d6ad1b4a27c3a089d5abfaeca2f02ab9a7c16523
+content_sha256: 451dadd63f4c82676dd39e5b5893372098d707c1adaba3b7198c07ed152b021c
 ---
 
 ## § 4. ALGEBRAICALLY CLOSED EXTENSIONS

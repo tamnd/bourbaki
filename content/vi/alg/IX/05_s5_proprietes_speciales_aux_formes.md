@@ -24,7 +24,7 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: 2ab9b8d91132f88d23f4cadf48ec8dc242cdcf145bf28b7a19da3bcdc0217729
+content_sha256: bbf73dc3e18be88e948aa2a70bf4e4f40cad9b9970be960671cee6177009390d
 translated_from: content/en-mt/alg/IX/05_s5_proprietes_speciales_aux_formes.md
 source_lang: en-mt
 translation_method: machine

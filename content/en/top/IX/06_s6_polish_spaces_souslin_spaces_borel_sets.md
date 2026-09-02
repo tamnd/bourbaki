@@ -48,7 +48,7 @@ subsections:
       pdf_page: 214
 statements: 48
 exercises: 1
-content_sha256: 69f92cd78f330694f81aad84eec3ecfd43d27d5eacabcc416871a1736cb0f341
+content_sha256: 128001da6f13ab14dfc9202483387096610ea5a1d408aaaa27af1ebc92f36dc5
 ---
 
 ## 6. POLISH SPACES, SOUSLIN SPACES, BOREL SETS

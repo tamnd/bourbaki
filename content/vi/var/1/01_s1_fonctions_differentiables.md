@@ -40,7 +40,7 @@ subsections:
       pdf_page: 13
 statements: 0
 exercises: 0
-content_sha256: 21019f772c273f98ac6f8a2a59e98f287424f43a50fa8aeb1a09cf12d66b356c
+content_sha256: 02eb4d12d8a4f5803dee88f0165acb7529a6221766d65a4c27d0ea4f0738eeda
 translated_from: content/en-mt/var/1/01_s1_fonctions_differentiables.md
 source_lang: en-mt
 translation_method: machine

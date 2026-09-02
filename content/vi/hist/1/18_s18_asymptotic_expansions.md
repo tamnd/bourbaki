@@ -11,7 +11,7 @@ pdf_pages: 0201-0204
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 473113c03dc25838efd46a84a13984304f9f51f9eb6b60fbb0c758a965890715
+content_sha256: 22d1b9da09fafa957fdff8f0c105d6cc22dc0c61299a79988abbf95491305bb4
 translated_from: content/en/hist/1/18_s18_asymptotic_expansions.md
 source_content_sha256: 9e0ecd11eb4436e4794e19710da53ec78deea64cf184c8d01618eac0fec088a7
 translation_model: gpt-5.4

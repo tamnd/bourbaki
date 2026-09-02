@@ -49,7 +49,7 @@ subsections:
       pdf_page: 64
 statements: 29
 exercises: 19
-content_sha256: ebc42fdd5a8909a9984d2879476eb2b24a994b91cfab4a1008484a4f5f6d1ee2
+content_sha256: f352f2576ab279eed7807e006084b19b8fc7707f6a31e8022146dab85e262772
 translated_from: content/en-mt/alg/X/03_s3_resolutions.md
 source_lang: en-mt
 translation_method: machine

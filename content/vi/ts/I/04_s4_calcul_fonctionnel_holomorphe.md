@@ -69,7 +69,7 @@ subsections:
       pdf_page: 101
 statements: 55
 exercises: 18
-content_sha256: d84a6642231a5ccc5582355d3f7058a7bef5390007fd68f69e6ca095e7440c11
+content_sha256: a830aec5cd6b5c1f8c27cedded031342be71cf89e03ce3d72129c3770c2a3cb7
 translated_from: content/en-mt/ts/I/04_s4_calcul_fonctionnel_holomorphe.md
 source_lang: en-mt
 translation_method: machine

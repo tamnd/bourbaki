@@ -29,7 +29,7 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: cc8999d9258969646b8348f24960d0a2f00f3d166e01742a3faabbdb1f5a819f
+content_sha256: 6ad77c6a725ce1bbe644d7db22aaad263dcfe9e4406d31a217c42721696867e2
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
 source_content_sha256: 4daa0198f39eb8665aeb0fb853979c7c3f01d43e4213ff03ca386beeb56265ae
 translation_model: gpt-5-6-mini, gpt-5.4-mini

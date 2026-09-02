@@ -50,7 +50,7 @@ subsections:
       pdf_page: 160
 statements: 38
 exercises: 5
-content_sha256: f04602ecb3e6545b6342e54849a4a5da18bfe45c4ea5bfc69c800561f7e0e130
+content_sha256: 6a278e2e620fe1cd829dd5447e6d22f368b23effec06d01ea3a799bfb9a41ff1
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
 source_content_sha256: ed1ab16b16ed7273d2bf9373cce60817c329006d872b8fe4e06cf99329181643
 translation_model: gpt-5.4

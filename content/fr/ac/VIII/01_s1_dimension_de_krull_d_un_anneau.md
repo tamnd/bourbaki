@@ -33,7 +33,7 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: 048ebcfa8185686193709827ecf5cc84d334d748620155747d3e104eb1375bec
+content_sha256: 39579207db3a1ec2253382ca725a94cb3a2ec6751a183b5842e7d93e1c5e7a32
 ---
 
 ## § 1. DIMENSION DE KRULL D’UN ANNEAU

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 187
 statements: 4
 exercises: 1
-content_sha256: 86b5141541e5b8d10194af725cf8d91bad5b6e269f3dd677223c592bef332e4f
+content_sha256: 1f3a9f68c7cd0f159eaffd1d67d2ed4715619edf6a00ea06d754a4657ecc48c0
 translated_from: content/en/lie/II/07_s7_convergence_of_the_hausdorff_series.md
 source_content_sha256: 0c070915f018ae2f28d7ba10eba8e260e6b24a97ffbf46012a1958fa6e91eda0
 translation_model: gpt-5.4

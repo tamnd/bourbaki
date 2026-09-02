@@ -37,7 +37,7 @@ subsections:
       pdf_page: 170
 statements: 2
 exercises: 10
-content_sha256: 75d63bbdad4275f63c8c8ff585fe9aeb27b522b11ce7d1fa47c289319993d988
+content_sha256: 72c12e9e43bd8c32499f0941593d988bc19a85d4b7a736d93f3e1f92a46b4088
 translated_from: content/en-mt/ta/II/01_s1_carquois.md
 source_lang: en-mt
 translation_method: machine

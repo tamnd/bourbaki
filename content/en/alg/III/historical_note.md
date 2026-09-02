@@ -14,7 +14,7 @@ pdf_pages: 0679-0734
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 78bd01af38161bc2db08e20c490bf7e6e244d8a0155ef6b475f75af266d69127
+content_sha256: e604a39829effcc049b3f0109affe5266b8d822c7d016a510672ff7eb261dff2
 ---
 
 # HISTORICAL NOTE

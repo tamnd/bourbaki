@@ -53,7 +53,7 @@ subsections:
       pdf_page: 171
 statements: 35
 exercises: 10
-content_sha256: ed1304e6db2314c2ae8eedb4ce30088be617c24666b5ce7897387096857e1bbe
+content_sha256: 821f9d1849e2b16a7a07bfbb3cadd1ad6e6c8c85308dfbc4206eaab9a6a27149
 translated_from: content/en-mt/alg/X/09_s9_complexes_de_koszul.md
 source_lang: en-mt
 translation_method: machine

@@ -38,7 +38,7 @@ subsections:
       pdf_page: 163
 statements: 28
 exercises: 20
-content_sha256: a3637293c9789db7b3b7b6ddd910606cae9d5dd3fb27815e65bfe0ab7347e25a
+content_sha256: fba7dd484550b0288ce9f4e7a9a303768d957fc3bb436408371f8833fec4579f
 translated_from: content/en/ens/III/02_s2_well_ordered_sets.md
 source_content_sha256: c4d656736e563f6ac82971fd4e1ec144ad45c95e80a8241c21c0579eaa1576cb
 translation_model: gpt-5-6-mini, gpt-5.4

@@ -53,7 +53,7 @@ subsections:
       pdf_page: 268
 statements: 74
 exercises: 24
-content_sha256: c50c9e22cd616e1f241c630b5f2a59cb26e2f83ea28cb1bb0df5add267284c15
+content_sha256: 816c79ee21243705fcea1aa34082476235ebdbd757893fc3c60042da641ce44b
 translated_from: content/en-mt/ts/IV/04_s4_operateurs_partiels.md
 source_lang: en-mt
 translation_method: machine

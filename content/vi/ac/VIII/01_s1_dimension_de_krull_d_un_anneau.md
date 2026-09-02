@@ -33,7 +33,7 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: 3d7038bd986edd139f48684d8d078d0c2177b5d3176d344b00a3df8d59685ab8
+content_sha256: 926d6c1f4565a1c0adedc618dc20b470221051d75168c9ee02db610d6b02cecf
 translated_from: content/en-mt/ac/VIII/01_s1_dimension_de_krull_d_un_anneau.md
 source_lang: en-mt
 translation_method: machine

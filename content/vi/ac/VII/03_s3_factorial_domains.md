@@ -49,7 +49,7 @@ subsections:
       pdf_page: 529
 statements: 19
 exercises: 0
-content_sha256: 91b67e879b010a8d85791c9e64bfdce502dbcfff254ce997faff379fb27bcce0
+content_sha256: 2ebdd44893f2057bd4f5a54122a80abf135d3cf031db1074974a6ce130f827a2
 translated_from: content/en/ac/VII/03_s3_factorial_domains.md
 source_content_sha256: 24b2404392ec37a498e3b069e48cd23f3c3de2b03e46d826d86d894e0aa6aa9e
 translation_model: gpt-5.4
