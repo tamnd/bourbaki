@@ -9,11 +9,11 @@ This repo is the corpus only. The code that builds it lives in [tamnd/bourbaki-s
 ## What is in scope
 
 <!-- BEGIN LIBRARY -->
-All twelve Books of the *Éléments*, in the English translation where one was printed and in the French original everywhere else. 43 volumes, 14989 pages, of which 15 volumes and 6648 pages are English and 28 volumes and 8341 pages are French.
+All twelve Books of the *Éléments*, in the English translation where one was printed and in the French original everywhere else. 44 volumes, 15338 pages, of which 15 volumes and 6648 pages are English and 29 volumes and 8690 pages are French.
 
 | Book | English | French | Volumes | Pages |
 | --- | --- | --- | --- | --- |
-| Theory of Sets | I to IV | none held | 1 | 418 |
+| Theory of Sets | I to IV | I to IV | 2 | 767 |
 | Algebra | I to VIII | I to X | 8 | 3690 |
 | General Topology | I to X | I to X | 4 | 1511 |
 | Functions of a Real Variable | I to VII | I to VII | 2 | 683 |
@@ -45,10 +45,10 @@ What a volume costs to read depends entirely on what its own text layer is worth
 | Text layer | Volumes | What it means |
 | --- | --- | --- |
 | native | 6 | Born digital. `pdftotext -layout` gives real text and real mathematics. |
-| ocr | 34 | A scan somebody has already run OCR over. Good enough to read a running head off, useless for mathematics. |
+| ocr | 35 | A scan somebody has already run OCR over. Good enough to read a running head off, useless for mathematics. |
 | none | 3 | A scan with no text at all. Even the page map has to come out of vision OCR. |
 
-The six native volumes are *Algebra, Chapter 8* and *Lie Groups and Lie Algebras, Chapters 7-9* in English, and *Algèbre, Chapitre 8*, *Théories spectrales, Chapitres 1 et 2*, *Théories spectrales, Chapitres 3 à 5* and *Topologie algébrique, Chapitres 1 à 4* in French. They are cheap and they go first. The three with no text at all are *Algèbre, Chapitre 10* at 222 pages, *General Topology, Chapters 5-10* at 372 pages and *Commutative Algebra, Chapters 1-7* at 642 pages, and they are the most expensive volumes in the library. The other 34 are the ordinary case.
+The six native volumes are *Algebra, Chapter 8* and *Lie Groups and Lie Algebras, Chapters 7-9* in English, and *Algèbre, Chapitre 8*, *Théories spectrales, Chapitres 1 et 2*, *Théories spectrales, Chapitres 3 à 5* and *Topologie algébrique, Chapitres 1 à 4* in French. They are cheap and they go first. The three with no text at all are *Algèbre, Chapitre 10* at 222 pages, *General Topology, Chapters 5-10* at 372 pages and *Commutative Algebra, Chapters 1-7* at 642 pages, and they are the most expensive volumes in the library. The other 35 are the ordinary case.
 <!-- END TEXTLAYER -->
 
 Their OCR layer renders a pair of braces in *Theory of Sets* as `R! x, y I`, so nothing in it can be trusted as mathematics, but it is legible enough to build the page map from before a single page goes to vision OCR, which saves the expensive pass on every one of them.
@@ -188,6 +188,8 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
 388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4123 exercises, 2642 of them carrying a permanent tag.
+
+The table is one row per chapter of the volumes that have a table of contents. 1 further volumes and 349 pages are registered in `manifests/books.yaml` with no table of contents read off them yet, so none of their chapters are counted above.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -209,19 +211,19 @@ The French is counted and not compared against the English. A file name carries 
 | Functions of a Real Variable | 34 | 241 | 34 | 203 | 86% | 38 |
 | Topological Vector Spaces | 34 | 457 | 34 | 409 | 90% | 48 |
 | Integration | 59 | 504 | 59 | 478 | 95% | 26 |
-| Commutative Algebra | 69 | 842 | 69 | 704 | 85% | 436 |
+| Commutative Algebra | 69 | 842 | 69 | 708 | 85% | 436 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
 | Lie Groups and Lie Algebras | 85 | 798 | 85 | 785 | 99% | 14 |
 | Théories spectrales | 36 | 374 | 36 | 371 | 99% | 410, all of it |
 | Topologie algébrique | 28 | 196 | 28 | 164 | 86% | 224, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **621** | **5527** | **619** | **4931** | **90%** | **1529** |
+| **All** | **621** | **5527** | **619** | **4935** | **90%** | **1529** |
 
 The source column is the English, which is 621 sections and 5527 exercises: 4619 files in `content/en` where Springer printed an English translation and 1529 in `content/en-mt` where this project read the French instead. The French originals are 570 sections and 5169 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 619 of the 621 sections and 4931 of the 5527 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 619 of the 621 sections and 4935 of the 5527 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
-The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 931 of the 5550 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 935 of the 5554 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it
