@@ -89,7 +89,7 @@ $$
 
 *thì tồn tại một khoảng* $[x_1, +\infty[$ *mà trên đó* $y$ *không thay đổi dấu.*
 
-Thật vậy, đặt $z(x) = y(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$ (*x. IV*, p. 183); khi đó, theo (1), $z'(x) = b(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$. Nếu $b(x) \geqslant 0$ với $x \geqslant x_0$ thì $z$ tăng trên khoảng này, nên hoặc là $< 0$ trên toàn bộ khoảng ấy, hoặc bằng zero trên một khoảng $[x_1, +\infty[$, hoặc nữa là $> 0$ trên một khoảng $[x_1, +\infty[$; vì $y$ có cùng dấu với $z$ nên mệnh đề được chứng minh trong trường hợp này. Lập luận là tương tự nếu $b(x) \leqslant 0$ với $x \geqslant x_0$.
+Thật vậy, đặt $z(x) = y(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$ (*x. IV*, p. 183); khi đó, theo (1), $z'(x) = b(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$. Nếu $b(x) \geqslant 0$ với $x \geqslant x_0$ thì $z$ tăng trên khoảng này, nên hoặc là $< 0$ trên toàn bộ khoảng ấy, hoặc bằng không trên một khoảng $[x_1, +\infty[$, hoặc nữa là $> 0$ trên một khoảng $[x_1, +\infty[$; vì $y$ có cùng dấu với $z$ nên mệnh đề được chứng minh trong trường hợp này. Lập luận là tương tự nếu $b(x) \leqslant 0$ với $x \geqslant x_0$.
 
 #### Nhận xét {#fvr-v-a0-n2-rem-1 .statement}
 
@@ -99,7 +99,7 @@ Tính chất rất sơ cấp này không mở rộng được cho các phương 
 
 *Cho* $a(x)$ *và* $b(x)$ *là hai hàm thuộc một trường Hardy cho trước* $\mathfrak{K}$ *và* $y(x)$ *là một hàm thỏa mãn đồng nhất thức* (1) *trên một khoảng* $[x_0, +\infty[$ *mà trên đó* $a$ *và* $b$ *được xác định và liên tục*. *Nếu* $p(u)$ *là một đa thức theo* $u$ *mà các hệ số là những hàm của* $x$ *thuộc* $\mathfrak{K}$, *được xác định và khả vi trên* $[x_0, +\infty[$, *thì tồn tại một khoảng* $[x_1, +\infty[$ *mà trên đó hàm* $p(y)$ *không thay đổi dấu*.
 
-Mệnh đề là tầm thường nếu $p(u)$ có các hệ số đồng nhất bằng zero trên $[x_0, +\infty[$, hoặc nếu $p(u)$ có bậc 0 theo $u$, vì mọi hàm trong $\mathfrak{K}$ đều có dấu không đổi trên một khoảng $[x_1, +\infty[$. Giả sử $p(u)$ có bậc $n > 0$; khi đó hệ số đầu $c$ của $p(u)$ là $\neq 0$ trên một khoảng $[\alpha, +\infty[$; do đó có thể viết $p(u) = c(u^n + c_1 u^{n-1} + \cdots + c_n)$ trong đó $c, c_1, c_2, \ldots, c_n$ là những *hàm* thuộc $\mathfrak{K}$ và khả vi trên $[\alpha, +\infty[$; vậy nên chỉ cần chứng minh bổ đề trong trường hợp $c = 1$. Ta lập luận bằng quy nạp theo $n$; ta có
+Mệnh đề là tầm thường nếu $p(u)$ có các hệ số đồng nhất bằng không trên $[x_0, +\infty[$, hoặc nếu $p(u)$ có bậc 0 theo $u$, vì mọi hàm trong $\mathfrak{K}$ đều có dấu không đổi trên một khoảng $[x_1, +\infty[$. Giả sử $p(u)$ có bậc $n > 0$; khi đó hệ số đầu $c$ của $p(u)$ là $\neq 0$ trên một khoảng $[\alpha, +\infty[$; do đó có thể viết $p(u) = c(u^n + c_1 u^{n-1} + \cdots + c_n)$ trong đó $c, c_1, c_2, \ldots, c_n$ là những *hàm* thuộc $\mathfrak{K}$ và khả vi trên $[\alpha, +\infty[$; vậy nên chỉ cần chứng minh bổ đề trong trường hợp $c = 1$. Ta lập luận bằng quy nạp theo $n$; ta có
 
 $$
 \frac{d}{dx} (p(y)) = (ay + b)(ny^{n-1} + (n-1)c_1 y^{n-2} + \cdots + c_{n-1})
