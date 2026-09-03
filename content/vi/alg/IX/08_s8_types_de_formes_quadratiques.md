@@ -96,7 +96,7 @@ do đó $(T + T') + T'' = T + (T' + T'')$ vì hai phần tử của $\mathfrak{W
 
 Cho Q là một dạng toàn phương không suy biến, hữu hạn chiều trên một không gian vectơ V trên A. Ký hiệu bởi – Q dạng toàn phương trên V được xác định bởi $(-Q)(x) = -Q(x)$ ($x \in V$). Khi đó dạng $Q \tau (-Q)$ là trung hòa.
 
-Thật vậy, hạn chế của $Q \tau (-Q)$ lên đường chéo D của $V \times V$ là không. Vậy chỉ số của dạng này là $\geqslant \frac{1}{2} \dim (V \times V)$ (§ 4, no 2, déf. 2), và do đó bằng $\frac{1}{2} \dim (V \times V)$ (*ibid.*, formula (4)). Suy ra $Q \tau (-Q)$ là trung hòa (*ibid.*).
+Thật vậy, hạn chế của $Q \tau (-Q)$ lên đường chéo D của $V \times V$ là không. Vậy chỉ số của dạng này là $\geqslant \frac{1}{2} \dim (V \times V)$ (§ 4, no 2, déf. 2), và do đó bằng $\frac{1}{2} \dim (V \times V)$ (*ibid.*, công thức (4)). Suy ra $Q \tau (-Q)$ là trung hòa (*ibid.*).
 
 Điều này cho phép ta đưa ra định nghĩa sau:
 

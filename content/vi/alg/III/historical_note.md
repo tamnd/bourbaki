@@ -606,49 +606,7 @@ Phần tử trung tâm hóa: I, § 5, no. 3.
 Tập con trung tâm hóa: I, § 5, no. 3.
 Tâm: I, § 1, no. 5.
 
-Tâm của một đại số: III, § 1, no. 2.
-Tâm của một ánh xạ tuyến tính xạ ảnh: II, § 9, no. 10.
-Thay đổi tọa độ, các công thức của: II, § 10, no. 8.
-Đặc số của một trường: I, § 9, Bài tập 4.
-Đa thức đặc trưng của một ma trận: III, § 8, no. 11.
-Nhóm con đặc trưng: I, § 5, no. 3.
-Lớp, liên hợp: I, § 5, no. 4.
-Lớp, nilpotent, của một nhóm: I, § 6, no. 3.
-Lớp, giải được, của một nhóm: I, § 6, no. 4.
-Đối đại số kết hợp: III, § 11, no. 2.
-Song đại số đối giao hoán: III, § 11, no. 4.
-Đối đại số đối giao hoán: III, § 11, no. 2.
-Ánh xạ đối đường chéo: II, § 1, no. 6.
-Đối chiều của một đa tạp tuyến tính affine: II, § 9, no. 3.
-Đối chiều của một không gian con vectơ: II, § 7, no. 3.
-Các hệ số của một chuỗi lũy thừa hình thức: III, § 2, no. 11.
-Các hệ số của một tổ hợp tuyến tính: II, § 1, no. 1.
-Các hệ số của một đa thức: III, § 2, no. 9.
-Các hệ số của một hệ phương trình tuyến tính: II, § 2, no. 8.
-Phần bù đại số của một phần tử của một ma trận vuông: III, § 8, no. 6.
-Đối đại số, A-đối đại số: III, § 11, no. 1.
-Đối đại số, đối giao hoán phân bậc: III, § 11, no. 3.
-Đối đại số, đối kết hợp: III, § 11, no. 2.
-Đối đại số, đối giao hoán: III, § 11, no. 2.
-Đối đại số, có phần tử đối đơn vị: III, § 11, no. 2.
-Đối đại số, phân bậc: III, § 11, no. 1.
-Đối đại số, đối: III, § 11, no. 1.
-Đối ảnh của một ánh xạ tuyến tính: II, § 1, no. 3.
-Nhóm trùng hợp: I, § 4, no. 8.
-Đối hạt nhân của một ánh xạ tuyến tính: II, § 1, no. 3.
-Cột của một ma trận: II, § 10, no. 1.
-Tổ hợp, tuyến tính: II, § 2, no. 5.
-Các tổ hợp tuyến tính hình thức (môđun của): II, § 1, no. 11.
-Nhân tử giao hoán: III, § 10, no. 1.
-Đại số giao hoán: III, § 1, no. 1.
-Trường giao hoán: I, § 9, no. 1.
-Song đại số giao hoán phân bậc: III, § 11, no. 4.
-Nhóm giao hoán, tự do, trên X: I, § 7, no. 5.
-Nhóm giao hoán có toán tử: I, § 4, no. 2.
-Luật giao hoán: I, § 1, no. 5.
-Magma giao hoán: I, § 1, no. 5.
-Nửa nhóm giao hoán, tự do, trên X: I, § 7, no. 7.
-Vành giao hoán: I, § 8, no. 1.
+Tâm của một đại số: III, § 1, no. 2. Tâm của một ánh xạ tuyến tính xạ ảnh: II, § 9, no. 10. Thay đổi tọa độ, các công thức của: II, § 10, no. 8. Đặc số của một trường: I, § 9, Bài tập 4. Đa thức đặc trưng của một ma trận: III, § 8, no. 11. Nhóm con đặc trưng: I, § 5, no. 3. Lớp, liên hợp: I, § 5, no. 4. Lớp, lũy linh, của một nhóm: I, § 6, no. 3. Lớp, giải được, của một nhóm: I, § 6, no. 4. Đối đại số kết hợp: III, § 11, no. 2. Song đại số đối giao hoán: III, § 11, no. 4. Đối đại số đối giao hoán: III, § 11, no. 2. Ánh xạ đối đường chéo: II, § 1, no. 6. Đối chiều của một đa tạp tuyến tính affine: II, § 9, no. 3. Đối chiều của một không gian con vectơ: II, § 7, no. 3. Các hệ số của một chuỗi lũy thừa hình thức: III, § 2, no. 11. Các hệ số của một tổ hợp tuyến tính: II, § 1, no. 1. Các hệ số của một đa thức: III, § 2, no. 9. Các hệ số của một hệ phương trình tuyến tính: II, § 2, no. 8. Phần bù đại số của một phần tử của một ma trận vuông: III, § 8, no. 6. Đối đại số, A-đối đại số: III, § 11, no. 1. Đối đại số, đối giao hoán phân bậc: III, § 11, no. 3. Đối đại số, đối kết hợp: III, § 11, no. 2. Đối đại số, đối giao hoán: III, § 11, no. 2. Đối đại số, có phần tử đối đơn vị: III, § 11, no. 2. Đối đại số, phân bậc: III, § 11, no. 1. Đối đại số, đối: III, § 11, no. 1. Đối ảnh của một ánh xạ tuyến tính: II, § 1, no. 3. Nhóm trùng hợp: I, § 4, no. 8. Đối hạt nhân của một ánh xạ tuyến tính: II, § 1, no. 3. Cột của một ma trận: II, § 10, no. 1. Tổ hợp, tuyến tính: II, § 2, no. 5. Các tổ hợp tuyến tính hình thức (môđun của): II, § 1, no. 11. Nhân tử giao hoán: III, § 10, no. 1. Đại số giao hoán: III, § 1, no. 1. Trường giao hoán: I, § 9, no. 1. Song đại số giao hoán phân bậc: III, § 11, no. 4. Nhóm giao hoán, tự do, trên X: I, § 7, no. 5. Nhóm giao hoán có toán tử: I, § 4, no. 2. Luật giao hoán: I, § 1, no. 5. Magma giao hoán: I, § 1, no. 5. Nửa nhóm giao hoán, tự do, trên X: I, § 7, no. 7. Vành giao hoán: I, § 8, no. 1.
 
 Các quan hệ giao hoán trong một bảng phép nhân: III, § 1, no. 7.
 Định lý giao hoán: I, § 1, no. 5.
@@ -1294,29 +1252,7 @@ Tích tenxơ của các đại số: III, § 4, no. 1.
 Tích tenxơ của một họ vô hạn các đại số: III, § 4, no. 5.
 Tích tenxơ của các cơ sở của các đại số: III, § 4, no. 5.
 
-Tích, tenxơ, của các cogebra: III, § 11, no. 1.
-Tích, tenxơ, của hai cơ sở: II, § 3, no. 7.
-Tích, tenxơ, của hai phần tử: II, § 3, no. 1.
-Tích, tenxơ, của hai ánh xạ tuyến tính: II, § 3, no. 2.
-Tích, tenxơ, của hai ma trận trên một vành giao hoán: II, § 10, no. 10
-Tích, tenxơ, của hai môđun: II, § 3, no. 1.
-Tích, tenxơ, của hai môđun đa: II, § 3, no. 4.
-Tích, tenxơ, của hai ánh xạ nửa tuyến tính: II, § 3, no. 3.
-Đồng cấu phép chiếu: I, § 4, no. 8.
-Trường xạ ảnh: II, § 9, no. 9.
-Nhóm xạ ảnh: II, § 9, no. 10.
-Siêu phẳng, mặt phẳng xạ ảnh: II, § 9, no. 7.
-Đường thẳng xạ ảnh: II, § 9, no. 5.
-Ánh xạ xạ ảnh: II, § 9, no. 10.
-Môđun xạ ảnh: II, § 2, no. 2.
-Không gian xạ ảnh: II, § 9, nos. 5 và 11.
-Tự do xạ ảnh, liên quan xạ ảnh, họ: II, § 9, no. 7.
-Phép chiếu: II, § 1, no. 8.
-Giả môđun trái, phải: II, Phụ lục, no. 2.
-Giả-vành: I, § 8, no. 1.
-Giả-vành với bình phương không: I, § 8, no. 3.
-Vectơ $p$-thuần: III, § 11, no. 13.
-Quaternion thuần: III, § 2, Bài tập 3.
+Tích, tenxơ, của các đối đại số: III, § 11, no. 1. Tích, tenxơ, của hai cơ sở: II, § 3, no. 7. Tích, tenxơ, của hai phần tử: II, § 3, no. 1. Tích, tenxơ, của hai ánh xạ tuyến tính: II, § 3, no. 2. Tích, tenxơ, của hai ma trận trên một vành giao hoán: II, § 10, no. 10 Tích, tenxơ, của hai môđun: II, § 3, no. 1. Tích, tenxơ, của hai môđun đa: II, § 3, no. 4. Tích, tenxơ, của hai ánh xạ nửa tuyến tính: II, § 3, no. 3. Đồng cấu phép chiếu: I, § 4, no. 8. Trường xạ ảnh: II, § 9, no. 9. Nhóm xạ ảnh: II, § 9, no. 10. Siêu phẳng, mặt phẳng xạ ảnh: II, § 9, no. 7. Đường thẳng xạ ảnh: II, § 9, no. 5. Ánh xạ xạ ảnh: II, § 9, no. 10. Môđun xạ ảnh: II, § 2, no. 2. Không gian xạ ảnh: II, § 9, nos. 5 và 11. Tự do xạ ảnh, liên quan xạ ảnh, họ: II, § 9, no. 7. Phép chiếu: II, § 1, no. 8. Giả môđun trái, phải: II, Phụ lục, no. 2. Giả-vành: I, § 8, no. 1. Giả-vành với bình phương không: I, § 8, no. 3. Vectơ $p$-thuần: III, § 11, no. 13. Quaternion thuần: III, § 2, Bài tập 3.
 
 Đại số bậc hai: III, § 2, no. 3.
 Nhóm giả: I, § 3, Bài tập 6.
