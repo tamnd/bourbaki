@@ -979,7 +979,7 @@ $\int_a^b(\partial_1\varphi )(x_1, x')$ exp($-2i\pi  x_1y_1$)$d\mu_1(x_1) =$
 
 $[\varphi (x_1, x')$ exp($-2i\pi  x_1y_1$)$]^b_a$
 
-$+ 2i\pi y_1\int_a^b\varphi (x_1, x')$ exp($-2i\pi x_1y_1$)$d\mu_1(x_1)$ theo phép lấy tích phân từng phần (FVR, II, p. 10, formula (10)). Khi $a$ tiến tới $-\infty$ và $b$ tiến tới $+\infty$, số hạng thứ nhất của vế thứ hai hội tụ về 0 vì $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Số hạng thứ hai hội tụ, theo định lý Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), tới
+$+ 2i\pi y_1\int_a^b\varphi (x_1, x')$ exp($-2i\pi x_1y_1$)$d\mu_1(x_1)$ theo phép lấy tích phân từng phần (FVR, II, p. 10, công thức (10)). Khi $a$ tiến tới $-\infty$ và $b$ tiến tới $+\infty$, số hạng thứ nhất của vế thứ hai hội tụ về 0 vì $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Số hạng thứ hai hội tụ, theo định lý Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), tới
 
 $2i\pi y_1\int_{\mathbf{R}}\varphi (x_1, x')$ exp($-2i\pi x_1y_1$)$d\mu_1(x_1)$,
 

@@ -249,7 +249,7 @@ Ký hiệu bởi $B'$ quả cầu đơn vị của $F'$, được trang bị tô
 
 #### Nhận xét {#ts-iii-s1-n3-rem-1 .statement tag=02OM}
 
-Cho E và F là các không gian lồi địa phương tách được. Chuyển vị của một ánh xạ tuyến tính compắc từ E vào F không phải luôn luôn là một ánh xạ tuyến tính compắc từ $F'_b$ vào $E'_b($cf. III, p. 108, exercise 15).
+Cho E và F là các không gian lồi địa phương tách được. Chuyển vị của một ánh xạ tuyến tính compắc từ E vào F không phải luôn luôn là một ánh xạ tuyến tính compắc từ $F'_b$ vào $E'_b($cf. III, p. 108, bài tập 15).
 
 ### 4. Định lý Leray-Schauder
 
@@ -483,7 +483,7 @@ b) Ngược lại, giả sử rằng với mọi không gian Banach F, mọi án
 
 Cho F là một không gian nửa định chuẩn. Bao đóng của $\mathscr{L}^f(F; E)$ trong $\mathscr{L}(F; E)$ được chứa trong $\mathscr{L}^c(F; E)$ (Mệnh đề 1 và 2 của III, p. 4). Nó bằng $\mathscr{L}^c(F; E)$ nếu E là một không gian xấp xỉ theo Hệ quả của Mệnh đề 11. Điều này chứng minh mệnh đề a).
 
-Giả sử rằng giả thiết của b) được thỏa mãn. Cho $\varepsilon  >0$ là một số thực. Cho A là một tập con compact của E và $p$ một nửa chuẩn liên tục trên E. Cho L là một tập con compact lồi cân bằng của E sao cho A là một tập con compact của không gian định chuẩn $E_L$ (Bổ đề 4). Đơn ánh chính tắc $j: E_L\rightarrow E$ là compact và $E_L$ là một không gian Banach (TVS, III, p. 8, Cor.). Do đó theo giả thiết tồn tại một số nguyên $n\geqslant 1$, các phần tử $e_1, . . . , e_n$ của E, và các dạng tuyến tính liên tục $\ell_1, . . . , \ell_n$ trên $E_L$, sao cho ánh xạ $v$ từ $E_L$ vào E được xác định bởi $v(x) =\sum^n_{i=1}\ell_i(x)e_i$ thỏa mãn $p(x-v(x))\leqslant \frac{\varepsilon}{2}$ với $x\in A$. Ảnh của $^tj: E'\rightarrow (E_L)'$ là trù mật trong $(E_L)'$ đối với tôpô yếu (TVS, IV, p. 6, Prop. 5). Trên $(E_L)'$ tôpô hội tụ compact là tương thích với đối ngẫu giữa $(E_L)'$ và $E_L$ (TVS, IV, p. 3, Example). Vì vậy $^tj(E')$ là trù mật trong $(E_L)'$ đối với tôpô hội tụ compact (TVS, IV, p. 1, Prop. 1), và tồn tại các dạng tuyến tính liên tục $f_1, . . . , f_n$ trên E sao cho
+Giả sử rằng giả thiết của b) được thỏa mãn. Cho $\varepsilon  >0$ là một số thực. Cho A là một tập con compact của E và $p$ một nửa chuẩn liên tục trên E. Cho L là một tập con compact lồi cân bằng của E sao cho A là một tập con compact của không gian định chuẩn $E_L$ (Bổ đề 4). Đơn ánh chính tắc $j: E_L\rightarrow E$ là compact và $E_L$ là một không gian Banach (TVS, III, p. 8, Cor.). Do đó theo giả thiết tồn tại một số nguyên $n\geqslant 1$, các phần tử $e_1, . . . , e_n$ của E, và các dạng tuyến tính liên tục $\ell_1, . . . , \ell_n$ trên $E_L$, sao cho ánh xạ $v$ từ $E_L$ vào E được xác định bởi $v(x) =\sum^n_{i=1}\ell_i(x)e_i$ thỏa mãn $p(x-v(x))\leqslant \frac{\varepsilon}{2}$ với $x\in A$. Ảnh của $^tj: E'\rightarrow (E_L)'$ là trù mật trong $(E_L)'$ đối với tôpô yếu (TVS, IV, p. 6, Prop. 5). Trên $(E_L)'$ tôpô hội tụ compact là tương thích với đối ngẫu giữa $(E_L)'$ và $E_L$ (TVS, IV, p. 3, ví dụ). Vì vậy $^tj(E')$ là trù mật trong $(E_L)'$ đối với tôpô hội tụ compact (TVS, IV, p. 1, Prop. 1), và tồn tại các dạng tuyến tính liên tục $f_1, . . . , f_n$ trên E sao cho
 
 $$
 |\ell_i(x)-f_i(x)|p(e_i)\leqslant \frac{\varepsilon}{2n}
