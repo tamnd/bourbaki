@@ -126,13 +126,13 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Algebra | III | 12 of 12 | 273 | 97 | 0 | 542 |
 | Algebra | IV | 6 of 6 | 163 | 53 | 0 | 202 |
 | Algebra | V | 17 of 17 | 427 | 156 | 0 | 382 |
-| Algebra | VI | 2 of 2 | 85 | 77 | 0 | 92 |
+| Algebra | VI | 2 of 2 | 86 | 77 | 0 | 92 |
 | Algebra | VII | 5 of 5 | 149 | 80 | 0 | 162 |
 | Algebra | VIII | 25 of 25 | 709 | 317 | 1024 | 964 |
 | Algebra | IX | 0 of 10 | 0 | 0 | 0 | 207 |
 | Algebra | X | 0 of 9 | 0 | 0 | 0 | 216 |
 | Theory of Sets | I | 6 of 6 | 16 | 35 | 51 | 101 |
-| Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 117 |
+| Theory of Sets | II | 6 of 6 | 110 | 41 | 150 | 117 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 226 |
 | Theory of Sets | IV | 3 of 3 | 29 | 15 | 43 | 255 |
 | Topological Vector Spaces | I | 3 of 3 | 64 | 38 | 0 | 58 |
@@ -140,7 +140,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Topological Vector Spaces | III | 6 of 6 | 123 | 78 | 0 | 101 |
 | Topological Vector Spaces | IV | 6 of 6 | 114 | 118 | 0 | 152 |
 | Topological Vector Spaces | V | 4 of 4 | 133 | 68 | 0 | 181 |
-| Functions of a Real Variable | I | 4 of 4 | 87 | 66 | 0 | 100 |
+| Functions of a Real Variable | I | 4 of 4 | 88 | 66 | 0 | 100 |
 | Functions of a Real Variable | II | 3 of 3 | 55 | 29 | 0 | 78 |
 | Functions of a Real Variable | III | 2 of 2 | 10 | 48 | 0 | 141 |
 | Functions of a Real Variable | IV | 2 of 2 | 54 | 28 | 0 | 94 |
@@ -157,7 +157,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Integration | VII | 5 of 5 | 120 | 48 | 0 | 207 |
 | Integration | VIII | 5 of 5 | 109 | 59 | 0 | 188 |
 | Integration | IX | 7 of 7 | 188 | 56 | 0 | 259 |
-| Lie Groups and Lie Algebras | I | 7 of 7 | 166 | 125 | 0 | 250 |
+| Lie Groups and Lie Algebras | I | 7 of 7 | 167 | 125 | 0 | 250 |
 | Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 72 | 0 | 186 |
 | Lie Groups and Lie Algebras | III | 11 of 11 | 393 | 113 | 0 | 481 |
 | Lie Groups and Lie Algebras | IV | 3 of 3 | 66 | 43 | 0 | 108 |
@@ -187,7 +187,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-388 of 487 sections are in the corpus, 80 per cent. 8685 statements and 4476 exercises, 2642 of them carrying a permanent tag.
+388 of 487 sections are in the corpus, 80 per cent. 8689 statements and 4476 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated

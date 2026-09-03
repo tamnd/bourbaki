@@ -271,7 +271,7 @@ Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con của G.
 
 #### Nhận xét 4 {#lie-iii-s6-n2-rem-4 .statement}
 
-Nếu K = R, các nhóm con nguyên của G cũng có thể được đặc trưng như các nhóm con mà, với tôpô cảm sinh bởi tôpô của G, là liên thông bằng cung (§ 8, Bài tập 4). Tuy nhiên, các nhóm con có thể liên thông nhưng không nguyên (Commutative Algebra, Chapter VI, § 9, Exercise 2).
+Nếu K = R, các nhóm con nguyên của G cũng có thể được đặc trưng như các nhóm con mà, với tôpô cảm sinh bởi tôpô của G, là liên thông bằng cung (§ 8, Bài tập 4). Tuy nhiên, các nhóm con có thể liên thông nhưng không nguyên (Đại số giao hoán, Chương VI, § 9, Bài tập 2).
 
 #### Hệ quả {#lie-iii-s6-n2-cor-1 .statement}
 
