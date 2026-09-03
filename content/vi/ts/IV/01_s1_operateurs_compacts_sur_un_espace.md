@@ -1047,7 +1047,7 @@ Từ nay về sau ta sẽ đồng nhất $L^2(X)\widehat{\otimes}_2L^2(Y)$ và $
 
 Ánh xạ $N\mapsto u_N$ là một đẳng cấu đẳng cự từ $L^2(X\times Y)$ lên không gian $\mathscr{L}_2(L^2(X); L^2(Y))$ các ánh xạ
 
-of Hilbert–Schmidt deThe ánh xạ tuyến tính of L$L^2(X)_2$into$(Y)\otimes L\overset{2}{L}(Y)_2(X)$ into. $\mathscr{L}_2(L^2(X); L^2(Y))$ mà gán cho $g\otimes f$ ánh xạ Hilbert–Schmidt $h\mapsto  \langle f|h\rangle g$ mở rộng thành một đẳng cấu đẳng cự $\theta_1$ từ $L^2(Y)\widehat{\otimes}_2L^2(X)$ lên $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, định lý 1).
+của Hilbert–Schmidt từ ánh xạ tuyến tính của L$L^2(X)_2$vào$(Y)\otimes L\overset{2}{L}(Y)_2(X)$ vào. $\mathscr{L}_2(L^2(X); L^2(Y))$ mà gán cho $g\otimes f$ ánh xạ Hilbert–Schmidt $h\mapsto  \langle f|h\rangle g$ mở rộng thành một đẳng cấu đẳng cự $\theta_1$ từ $L^2(Y)\widehat{\otimes}_2L^2(X)$ lên $\mathscr{L}_2(L^2(X); L^2(Y))$ (EVT, V, p. 52, định lý 1).
 
 Hơn nữa, ký hiệu bởi $\theta_2$ đẳng cấu đẳng cự từ $L^2(X)\widehat{\otimes}_2L^2(Y)$ lên $L^2(Y)\widehat{\otimes}_2L^2(X)$ mà với mọi $f\in L^2(X)$ và mọi $g\in L^2(Y)$ gán cho $f\otimes g$ phần tử $g\otimes \overline{f}$.
 

@@ -121,7 +121,7 @@ Cho E và F là các không gian Banach. Tập hợp $\mathscr{L}^c(E; F)$ là m
 
 Điều này suy ra từ các Mệnh đề 1 và 2.
 
-Tồn tại các không gian Banach E và F sao cho $\mathscr{L}^f(E; F)$ không trù mật trong $\mathscr{L}^c(E; F) ($cf. Remark 6 of III, p. 16 and Theorem 4 of III, p. 19, b)).
+Tồn tại các không gian Banach E và F sao cho $\mathscr{L}^f(E; F)$ không trù mật trong $\mathscr{L}^c(E; F) ($cf. Nhận xét 6 của III, p. 16 và Định lý 4 của III, p. 19, b)).
 
 #### Mệnh đề 3 {#ts-iii-s1-prop-3 .statement tag=02O8}
 
