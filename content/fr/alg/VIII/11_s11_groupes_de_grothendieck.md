@@ -61,7 +61,7 @@ subsections:
       pdf_page: 204
 statements: 38
 exercises: 14
-content_sha256: cc7783372dfd63398eb34b48f535a43f648153e181fb53a1ed27fedef04dd7e3
+content_sha256: a4e0cbaff3d041f5433460a82afd06f9cc31998047f43320d39098ca7f026193
 ---
 
 ## § 11. GROUPES DE GROTHENDIECK
@@ -100,9 +100,9 @@ de modules de type $\mathscr{C}$.
 
 Soit $\mathscr{C}$ l’ensemble des classes des A-modules de longueur finie. L’application long$_A:\mathscr{C}\rightarrow \mathbf{Z}$qui associe à toute classe de A-modules de longueur finie sa longueur, est une fonction additive de modules (II, p. 22, cor. 3). Les résultats de ce numéro sont une généralisation des résultats sur les modules de longueur finie établis dans II, p. 21 à 23.
 
-Dans toute la suite de ce numéro, on considère une ensemble additif $\mathcal{C}$ de A-modules et une application additice $\varphi$ de $\mathcal{C}$ dans un groupe abélien G.
+Dans toute la suite de ce numéro, on considère une ensemble additif $\mathscr{C}$ de A-modules et une application additice $\varphi$ de $\mathscr{C}$ dans un groupe abélien G.
 
-Soient E et E' des modules de type $\mathcal{C}$; alors $E \oplus E'$ est de type $\mathcal{C}$, et il existe une suite exacte scindée (II, p. 20)
+Soient E et E' des modules de type $\mathscr{C}$; alors $E \oplus E'$ est de type $\mathscr{C}$, et il existe une suite exacte scindée (II, p. 20)
 
 $$
 0 \longrightarrow E \longrightarrow E \oplus E' \longrightarrow E' \longrightarrow 0;
@@ -119,16 +119,16 @@ En particulier, on a $\varphi(0) = 0$.
 
 #### Proposition 1 {#alg-viii-s11-prop-1 .statement tag=00CY}
 
-On suppose que $\mathcal{C}$ est héréditaire. Soient E et F des A-modules et $u : E \to F$ une application linéaire.
-a) Si E ou F est de type $\mathcal{C}$, il en est de même de l’image de u.
-b) Si E est de type $\mathcal{C}$, il en est de même du noyau de u et l’on a
+On suppose que $\mathscr{C}$ est héréditaire. Soient E et F des A-modules et $u : E \to F$ une application linéaire.
+a) Si E ou F est de type $\mathscr{C}$, il en est de même de l’image de u.
+b) Si E est de type $\mathscr{C}$, il en est de même du noyau de u et l’on a
 
 (2)
 $$
 \varphi(E) = \varphi(\operatorname{Ker}\,u) + \varphi(\operatorname{Im}\,u).
 $$
 
-c) Si F est de type $\mathcal{C}$, il en est de même du conoyau de u, et l’on a
+c) Si F est de type $\mathscr{C}$, il en est de même du conoyau de u, et l’on a
 
 (3)
 $$
@@ -146,7 +146,7 @@ $$
 
 #### Corollaire {#alg-viii-s11-n1-cor-1 .statement tag=00CZ}
 
-Soit $(E_i)_{0 \leq i \leq n}$ une suite finie de modules de type $\mathcal{C}$. S’il existe une suite exacte
+Soit $(E_i)_{0 \leq i \leq n}$ une suite finie de modules de type $\mathscr{C}$. S’il existe une suite exacte
 
 $$
 0 \longrightarrow E_0 \xrightarrow{u_0} E_1 \xrightarrow{u_1} \ldots \longrightarrow E_{n-1} \xrightarrow{u_{n-1}} E_n \longrightarrow 0,
@@ -299,8 +299,8 @@ Plus explicitement, cette relation s’écrit
 
 $$
 \begin{array}{cccccc}
-(\mathcal{G}) & 0 \longrightarrow G' \xrightarrow{p} G \xrightarrow{q} G'' \longrightarrow 0 \\
-(\mathcal{H}) & 0 \longrightarrow H' \xrightarrow{r} H \xrightarrow{s} H'' \longrightarrow 0
+(\mathscr{G}) & 0 \longrightarrow G' \xrightarrow{p} G \xrightarrow{q} G'' \longrightarrow 0 \\
+(\mathscr{H}) & 0 \longrightarrow H' \xrightarrow{r} H \xrightarrow{s} H'' \longrightarrow 0
 \end{array}
 $$
 
@@ -322,7 +322,7 @@ Les modules $L, M, P, Q$ sont de type $\mathscr{C}$ et la suite
 
 $$
 \begin{array}{cccccc}
-(\mathcal{E}) & 0 \longrightarrow L \xrightarrow{\lambda} P \xrightarrow{\mu} M \longrightarrow 0,
+(\mathscr{E}) & 0 \longrightarrow L \xrightarrow{\lambda} P \xrightarrow{\mu} M \longrightarrow 0,
 \end{array}
 $$
 
@@ -336,7 +336,7 @@ est exacte. On construit de manière analogue une suite exacte
 
 $$
 \begin{array}{cccccc}
-(\mathcal{F}) & 0 \longrightarrow L \longrightarrow Q \longrightarrow M \longrightarrow 0,
+(\mathscr{F}) & 0 \longrightarrow L \longrightarrow Q \longrightarrow M \longrightarrow 0,
 \end{array}
 $$
 
