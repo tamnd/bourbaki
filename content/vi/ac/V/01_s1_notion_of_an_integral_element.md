@@ -400,7 +400,7 @@ Rõ ràng một miền đóng nguyên hoàn toàn là đóng nguyên; ngược l
 
 *Cho $A$ là một miền nguyên đóng nguyên hoàn toàn. Khi đó mọi vành đa thức $A[X_1, \ldots, X_n]$ (tương ứng mọi vành chuỗi lũy thừa hình thức $A[[X_1, \ldots, X_n]]$) đều đóng nguyên hoàn toàn.*
 
-Bằng quy nạp theo $n$, chỉ cần chứng minh rằng $A[X]$ (tương ứng $A[[X]]$) là đóng nguyên hoàn toàn. Khi đó cho $P$ là một phần tử của trường phân thức của $A[X]$ (tương ứng $A[[X]]$) và giả sử rằng tồn tại một phần tử khác không $Q \in A[X]$ (tương ứng $Q \in A[[X]]$) sao cho $Q P^m \in A[X]$ (tương ứng $Q P'' \in A[[X]]$) với mọi số nguyên $m \geq 0$. Nếu $K$ là trường phân thức của $A$, $A[X]$ (tương ứng $A[[X]]$) là một vành con của $K[X]$ (tương ứng $K[[X]]$) và $K[X]$ (tương ứng $K[[X]]$) là một miền iđêan chính (*Algebra*, Chương VII, § 1, no. 1) và do đó đóng nguyên (no. 4, Mệnh đề 10) và Noether (*Algebra*, Chương VIII, § 2, no. 3) và vì vậy đóng nguyên hoàn toàn; khi đó ta đã thấy rằng
+Bằng quy nạp theo $n$, chỉ cần chứng minh rằng $A[X]$ (tương ứng $A[[X]]$) là đóng nguyên hoàn toàn. Khi đó cho $P$ là một phần tử của trường phân thức của $A[X]$ (tương ứng $A[[X]]$) và giả sử rằng tồn tại một phần tử khác không $Q \in A[X]$ (tương ứng $Q \in A[[X]]$) sao cho $Q P^m \in A[X]$ (tương ứng $Q P'' \in A[[X]]$) với mọi số nguyên $m \geq 0$. Nếu $K$ là trường phân thức của $A$, $A[X]$ (tương ứng $A[[X]]$) là một vành con của $K[X]$ (tương ứng $K[[X]]$) và $K[X]$ (tương ứng $K[[X]]$) là một miền iđêan chính (*Đại số*, Chương VII, § 1, no. 1) và do đó đóng nguyên (no. 4, Mệnh đề 10) và Noether (*Đại số*, Chương VIII, § 2, no. 3) và vì vậy đóng nguyên hoàn toàn; khi đó ta đã thấy rằng
 
 $P \in K[X]$ (tương ứng $P \in K[[X]]$). Cho $P = \sum_{k=0}^{\infty} a_k X^k$ ($a_k \in K$) và $Q = \sum_{k=0}^{\infty} b_k X^k$ ($b_k \in A$) và ta lập luận bằng *phản chứng* bằng cách giả sử rằng các $a_i$ không phải tất cả đều thuộc $A$; khi đó tồn tại một chỉ số nhỏ nhất $i$ sao cho $a_i \notin A$; nếu ta viết
 
@@ -554,7 +554,7 @@ $$
 (x, y) \mapsto \operatorname{Tr}_{K'/K}(xy)
 $$
 
-trên K' do đó không suy biến (*loc. cit.*, Mệnh đề 4); điều này cho thấy sự tồn tại và tính duy nhất của cơ sở $(w_i^*)_{1 \leq i \leq n}$ (*Algebra*, Chương IX, § 1, no. 6, Hệ quả của Mệnh đề 6). Như vậy, bao hàm thức thứ nhất của (2) là hiển nhiên. Cho $x$ là một phần tử của $A'$; ta viết $x = \sum_{i=1}^n \xi_i w_i^*$ với $\xi_i \in K$; với mọi $i$, $\xi_i = \mathrm{Tr}_{K'/K}(xw_i)$, do đó $\xi_i$ là nguyên trên $A$ (Hệ quả 2 của Mệnh đề 17) và, vì $A$ là đóng nguyên, $\xi_i \in A$ với $1 \leq i \leq n$; điều này cho thấy bao hàm thức thứ hai (2). Cuối cùng, ta viết $w_j^* = \sum_{i=1}^n \alpha_{ji} w_i$ với $\alpha_{ji} \in K$; khi đó $$\sum_{i=1}^n \alpha_{ji} \mathrm{Tr}_{K'/K}(w_i w_k) = \delta_{jk}$$ với mọi $j$ và $k$; các công thức của Cramer cho thấy rằng các $\alpha_{ji}$ thuộc $d^{-1}A$, do đó bao hàm thức thứ ba (2). Khẳng định cuối cùng suy ra ngay lập tức từ (2), mà trong trường hợp này cho $A' = \sum_{i=1}^n Aw_i$.
+trên K' do đó không suy biến (*loc. cit.*, Mệnh đề 4); điều này cho thấy sự tồn tại và tính duy nhất của cơ sở $(w_i^*)_{1 \leq i \leq n}$ (*Đại số*, Chương IX, § 1, no. 6, Hệ quả của Mệnh đề 6). Như vậy, bao hàm thức thứ nhất của (2) là hiển nhiên. Cho $x$ là một phần tử của $A'$; ta viết $x = \sum_{i=1}^n \xi_i w_i^*$ với $\xi_i \in K$; với mọi $i$, $\xi_i = \mathrm{Tr}_{K'/K}(xw_i)$, do đó $\xi_i$ là nguyên trên $A$ (Hệ quả 2 của Mệnh đề 17) và, vì $A$ là đóng nguyên, $\xi_i \in A$ với $1 \leq i \leq n$; điều này cho thấy bao hàm thức thứ hai (2). Cuối cùng, ta viết $w_j^* = \sum_{i=1}^n \alpha_{ji} w_i$ với $\alpha_{ji} \in K$; khi đó $$\sum_{i=1}^n \alpha_{ji} \mathrm{Tr}_{K'/K}(w_i w_k) = \delta_{jk}$$ với mọi $j$ và $k$; các công thức của Cramer cho thấy rằng các $\alpha_{ji}$ thuộc $d^{-1}A$, do đó bao hàm thức thứ ba (2). Khẳng định cuối cùng suy ra ngay lập tức từ (2), mà trong trường hợp này cho $A' = \sum_{i=1}^n Aw_i$.
 
 Trong hai hệ quả sau đây, các giả thiết và ký hiệu là của Mệnh đề 18.
 
@@ -566,7 +566,7 @@ $A'$ là một môđun con của một $A$-môđun sinh hữu hạn.
 
 #### Hệ quả 2 {#ac-v-s1-lem-3-cor-2 .statement}
 
-*Nếu $A$ là một miền iđêan chính, $A'$ là một $A$-môđun tự do hạng $n$.* Khi đó, mọi môđun con của một $A$-môđun tự do đều tự do (*Algebra*, Chương VII, § 3, Định lý 1).
+*Nếu $A$ là một miền iđêan chính, $A'$ là một $A$-môđun tự do hạng $n$.* Khi đó, mọi môđun con của một $A$-môđun tự do đều tự do (*Đại số*, Chương VII, § 3, Định lý 1).
 
 #### Hệ quả 3 {#ac-v-s1-lem-3-cor-3 .statement}
 
@@ -615,7 +615,7 @@ và theo định nghĩa L là một mở rộng tách được hữu hạn của
 
 *Cho k là một trường và R và S là hai đại số trên k đóng nguyên. Giả sử rằng vành $R \otimes_k S$ là một miền nguyên và các trường phân thức K và L của R và S tương ứng là tách được trên k. Khi đó vành $R \otimes_k S$ là một miền đóng nguyên.*
 
-Vì R và S được đồng nhất với các đại số con của $R \otimes_k S$, K và L được đồng nhất với các trường con của trường phân thức $\Omega$ của $R \otimes_k S$ là rời nhau tuyến tính trên $k$ (*Algebra*, Chương V, § 2, no. 3, Mệnh đề 5). Khi đó suy ra từ Mệnh đề 19 rằng $R \otimes_k L$ và $K \otimes_k S$ là các miền đóng nguyên; vì giao của chúng là $R \otimes_k S$ (Chương I, § 2, no. 6, Mệnh đề 7), nên $R \otimes_k S$ là một miền đóng nguyên (no. 2, Hệ quả của Mệnh đề 8).
+Vì R và S được đồng nhất với các đại số con của $R \otimes_k S$, K và L được đồng nhất với các trường con của trường phân thức $\Omega$ của $R \otimes_k S$ là rời nhau tuyến tính trên $k$ (*Đại số*, Chương V, § 2, no. 3, Mệnh đề 5). Khi đó suy ra từ Mệnh đề 19 rằng $R \otimes_k L$ và $K \otimes_k S$ là các miền đóng nguyên; vì giao của chúng là $R \otimes_k S$ (Chương I, § 2, no. 6, Mệnh đề 7), nên $R \otimes_k S$ là một miền đóng nguyên (no. 2, Hệ quả của Mệnh đề 8).
 
 \* Cho hai đa tạp afin bất khả quy V, W xác định trên $k$, tích của chúng $V \times W$ là một đa tạp afin và vành các hàm chính quy trên $V \times W$ được đồng nhất với tích tenxơ trên $k$ của vành các hàm chính quy trên V và vành các hàm chính quy trên W. Hệ quả của Mệnh đề 19 chỉ ra rằng, nếu V và W chính quy trên $k$, thì $V \times W$ chính quy trên $k$. \*
 
