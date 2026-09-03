@@ -725,9 +725,9 @@ b) The sequence $(\varphi_m)$ converges to $\varphi$ in $\mathscr{C}^{\infty}(\m
 
 #### Remark {#ts-iv-s3-n7-rem-2 .statement tag=0311}
 
-A sequence $(\varphi_m)$ in $\mathscr{C}^{\infty}(\mathbf{R}^n)$ converges if and only if, for every $\alpha \in \mathbf{N}^n$, the sequence $(\partial^{\alpha}\varphi_m)$ converges to a function $\varphi^{(\alpha)}$ in $\mathscr{C}(\mathbf{R}^n)$ endowed with the topology of compact convergence. One then has $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$ and $(\varphi_m)$ converges to $\varphi$[^0].
+A sequence $(\varphi_m)$ in $\mathscr{C}^{\infty}(\mathbf{R}^n)$ converges if and only if, for every $\alpha \in \mathbf{N}^n$, the sequence $(\partial^{\alpha}\varphi_m)$ converges to a function $\varphi^{(\alpha)}$ in $\mathscr{C}(\mathbf{R}^n)$ endowed with the topology of compact convergence. One then has $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$ and $(\varphi_m)$ converges to $\varphi^{(0)}$.
 
-In fact, the condition is necessary. Conversely, if the sequences $(\partial^{\alpha}\varphi_m)$ converge to functions $\varphi^{(\alpha)}$ for every $\alpha \in \mathbf{N}^n$, then it follows from FVR, II, p. 2, th. 1, that $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$[^0], which means that the sequence $(\varphi_m)$ converges to $\varphi$[^0] in $\mathscr{C}^{\infty}(\mathbf{R}^n)$.
+In fact, the condition is necessary. Conversely, if the sequences $(\partial^{\alpha}\varphi_m)$ converge to functions $\varphi^{(\alpha)}$ for every $\alpha \in \mathbf{N}^n$, then it follows from FVR, II, p. 2, th. 1, that $\varphi^{(\alpha)}=\partial^{\alpha}\varphi^{(0)}$, which means that the sequence $(\varphi_m)$ converges to $\varphi^{(0)}$ in $\mathscr{C}^{\infty}(\mathbf{R}^n)$.
 
 #### Proposition 11 {#ts-iv-s3-prop-11 .statement tag=0312}
 

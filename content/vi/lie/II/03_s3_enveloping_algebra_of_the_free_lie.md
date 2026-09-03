@@ -131,7 +131,7 @@ $$
 
 vậy $\pi_0$ là một đạo hàm của $L(X)$.
 
-(b) Cho $\pi_1$ là tự đồng cấu của môđun $L(X)$ trùng trên $L^n(X)$ với phép nhân bởi số nguyên $n \geq 1$. Công thức $[L^n(X), L^m(X)] \subset L^{n+m}(X)$ cho thấy rằng $\pi_1$ là một đạo hàm (*Algebra*, Chapter III, § 10, no. 3, *Example* 6). Đạo hàm $\pi_1 - \pi_0$ của $L(X)$ bằng không trên $X$ và, vì $X$ sinh ra $L(X)$, nên $\pi_0 = \pi_1$, do đó suy ra (b).
+(b) Cho $\pi_1$ là tự đồng cấu của môđun $L(X)$ trùng trên $L^n(X)$ với phép nhân bởi số nguyên $n \geq 1$. Công thức $[L^n(X), L^m(X)] \subset L^{n+m}(X)$ cho thấy rằng $\pi_1$ là một đạo hàm (*Đại số*, Chương III, § 10, no. 3, *Ví dụ* 6). Đạo hàm $\pi_1 - \pi_0$ của $L(X)$ bằng không trên $X$ và, vì $X$ sinh ra $L(X)$, nên $\pi_0 = \pi_1$, do đó suy ra (b).
 
 #### Hệ quả {#lie-ii-s3-n2-cor-1 .statement}
 
