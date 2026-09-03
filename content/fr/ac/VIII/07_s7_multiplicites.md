@@ -31,9 +31,9 @@ subsections:
       title: Éléments superficiels
       page: 0
       pdf_page: 81
-statements: 28
+statements: 33
 exercises: 25
-content_sha256: 7d27f7af9a7636d37dc907e076096955063e5e6fb20fe656bf883ebb44e84d33
+content_sha256: 6c82bd908b86540efa2fc97368925d7ff7b7c111ae5edeeabb470679dd11e5e2
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -59,8 +59,14 @@ On le note aussi $e_q^A(M)$ lorsque l’on désire mentionner l’anneau A. Lors
 #### Remarque 1 {#ac-viii-s7-n1-rem-1 .statement}
 
 Si q’ est un idéal de A contenu dans le radical de A et contenant q, on a $e_{q'}(M) \leqslant e_q(M)$ et, si la filtration q’-adique de M est q-bonne, on a $e_{q'}(M) = e_q(M)$ (§ 4, no 3, th. 2).
-2) Si M est de longueur finie, on a $e_q(M) = \operatorname{long}_A(M)$ (§ 4, no 3, remarque 3).
-3) Si $d > 0$, on a
+
+#### Remarque 2 {#ac-viii-s7-n1-rem-2 .statement}
+
+Si M est de longueur finie, on a $e_q(M) = \operatorname{long}_A(M)$ (§ 4, no 3, remarque 3).
+
+#### Remarque 3 {#ac-viii-s7-n1-rem-3 .statement}
+
+Si $d > 0$, on a
 
 $$
 \operatorname{long}_{A/q}(q^nM/q^{n+1}M) = e_q(M) \frac{n^{d-1}}{(d-1)!} + \alpha_n n^{d-2}
@@ -369,9 +375,18 @@ Soient A un anneau noethérien, q un idéal de A contenu dans le radical de A et
 #### Remarque 1 {#ac-viii-s7-n5-rem-1 .statement}
 
 Soit $\delta$ un entier $> 0$. On dit parfois qu’un élément x de A est superficiel d’ordre $\delta$ pour M relativement à q si $x \in q^\delta$, et si, pour tout $n$ assez grand, l’application $q^n M/q^{n+1} M \to q^{n+\delta} M/q^{n+\delta+1} M$ induite par la multiplication par x est injective. Avec cette terminologie, les éléments superficiels au sens de la déf. 2 sont les éléments superficiels d’ordre 1.
-2) Avec les notations de la prop. 9, x est superficiel d’ordre $\delta$ si et seulement si sa classe $\xi$ dans $\mathrm{gr}_\delta(A)$ n’appartient à aucun des $p_i$.
-3) D’après III, § 1, no 4, prop. 8, il existe un élément homogène de $\mathrm{gr}(A)$ de degré $> 0$ qui n’appartient à aucun des $p_i$. Par conséquent, il existe un entier $\delta > 0$ et un élément superficiel d’ordre $\delta$ pour M.
-4) Supposons A local de corps résiduel k, et considérons l’application surjective canonique $\lambda : q \to q \otimes_A k$. Elle est la composée des applications canoniques $q \to q/q^2$ et $\bar{\lambda} : q/q^2 \to q \otimes_A k$. D’après le lemme de Nakayama, chacun des sous-espaces vectoriels $V_i = \bar{\lambda}(p_i \cap (q/q^2))$ de $q \otimes_A k$ est distinct de $q \otimes_A k$; si $\alpha \in q \otimes_A k$ n’appartient à aucun des $V_i$, alors $\lambda^{-1}(\alpha)$ est formé d’éléments superficiels pour M (prop. 9). Si k est infini, la réunion des $V_i$ est distincte de $q \otimes_A k$ et il existe donc des éléments superficiels pour M.
+
+#### Remarque 2 {#ac-viii-s7-n5-rem-2 .statement}
+
+Avec les notations de la prop. 9, x est superficiel d’ordre $\delta$ si et seulement si sa classe $\xi$ dans $\mathrm{gr}_\delta(A)$ n’appartient à aucun des $p_i$.
+
+#### Remarque 3 {#ac-viii-s7-n5-rem-3 .statement}
+
+D’après III, § 1, no 4, prop. 8, il existe un élément homogène de $\mathrm{gr}(A)$ de degré $> 0$ qui n’appartient à aucun des $p_i$. Par conséquent, il existe un entier $\delta > 0$ et un élément superficiel d’ordre $\delta$ pour M.
+
+#### Remarque 4 {#ac-viii-s7-n5-rem-4 .statement}
+
+Supposons A local de corps résiduel k, et considérons l’application surjective canonique $\lambda : q \to q \otimes_A k$. Elle est la composée des applications canoniques $q \to q/q^2$ et $\bar{\lambda} : q/q^2 \to q \otimes_A k$. D’après le lemme de Nakayama, chacun des sous-espaces vectoriels $V_i = \bar{\lambda}(p_i \cap (q/q^2))$ de $q \otimes_A k$ est distinct de $q \otimes_A k$; si $\alpha \in q \otimes_A k$ n’appartient à aucun des $V_i$, alors $\lambda^{-1}(\alpha)$ est formé d’éléments superficiels pour M (prop. 9). Si k est infini, la réunion des $V_i$ est distincte de $q \otimes_A k$ et il existe donc des éléments superficiels pour M.
 
 #### Théorème 1 {#ac-viii-s7-thm-1 .statement}
 

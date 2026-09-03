@@ -55,9 +55,9 @@ subsections:
       title: Semi-norms and convex sets
       page: 19
       pdf_page: 56
-statements: 49
+statements: 51
 exercises: 43
-content_sha256: 742c952fc6a2e57dc8eb5e75ac174e898ff3d3d87043cbf6c8ab24a81db58512
+content_sha256: d061692d94255710b80728ad96183b04426f05c7ca01a6b75fc9fee6cfd79e73
 ---
 
 ## § 2. CONVEX SETS
@@ -75,8 +75,14 @@ As $(1 - \lambda) a + \lambda x = a + \lambda (x - a)$, this definition is equiv
 #### Example 1 {#evt-ii-s2-n1-exa-1 .statement}
 
 Every linear affine variety of $E$ (and in particular the empty set) is convex.
-2) The only non-empty convex sets in $\mathbf{R}$ are the intervals (GT, IV, § 2.4, prop. 1).
-3) Let $E$ be a vector space and $\|x\|$ a norm on $E$; the unit ball $B$, formed by the points $x$
+
+#### Example 2 {#evt-ii-s2-n1-exa-2 .statement}
+
+The only non-empty convex sets in $\mathbf{R}$ are the intervals (GT, IV, § 2.4, prop. 1).
+
+#### Example 3 {#evt-ii-s2-n1-exa-3 .statement}
+
+Let $E$ be a vector space and $\|x\|$ a norm on $E$; the unit ball $B$, formed by the points $x$
 
 such that $\|x\| \leq 1$, is convex since the relations $\|x\| \leq 1, \|y\| \leq 1$, imply for $0 \leq \lambda \leq 1$ that
 $$

@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: eea0b4fb7953196bcb3192568217195c64bcdffb2379b68f2e974978b30fd0c2
+content_sha256: dc6eca4ee1f30deffd779304c1cc6b07cc7d4bc2628cb62a2e8cac1082e1af75
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -187,7 +187,7 @@ This species of structures is called the *species of topological structures*. A 
 
 #### Example 4 {#ens-iv-s1-n4-exa-4 .statement tag=03V8}
 
-Take $\mathscr{T}$ to be the theory of the species of division ring structures, which has (among other things) a constant K as unique (principal) base set. The species of structure of a *left vector space over* K has K as auxiliary base set, a principal base set E, and as typical characterization the relation
+\* Take $\mathscr{T}$ to be the theory of the species of division ring structures, which has (among other things) a constant K as unique (principal) base set. The species of structure of a *left vector space over* K has K as auxiliary base set, a principal base set E, and as typical characterization the relation
 
 $$V \in \mathfrak{P}((E \times E) \times E) \times \mathfrak{P}((K \times E) \times E)$$
 
@@ -287,7 +287,7 @@ It is clear that the terms $x_1,\ldots,x_n$ are intrinsic for $s$. In many cases
 
 #### Example 1 {#ens-iv-s1-n6-exa-1 .statement tag=03VE}
 
-The species of topological group structures has a single principal base set $A$, no auxiliary base set, and the corresponding generic structure is a pair $(s_1,s_2)$ ($s_1$ being the graph of the law of composition on $A$, and $s_2$ the set of open sets in the topology of $A$; cf. General Topology, Chapter III, § 1). Each of the terms $s_1,s_2$ is a procedure of deduction and provides respectively the group structure and the topology underlying the topological group structure $(s_1,s_2)$.
+\* The species of topological group structures has a single principal base set $A$, no auxiliary base set, and the corresponding generic structure is a pair $(s_1,s_2)$ ($s_1$ being the graph of the law of composition on $A$, and $s_2$ the set of open sets in the topology of $A$; cf. General Topology, Chapter III, § 1). Each of the terms $s_1,s_2$ is a procedure of deduction and provides respectively the group structure and the topology underlying the topological group structure $(s_1,s_2)$.
 
 Likewise, from a vector space structure can be deduced an underlying commutative group structure. From a ring structure can be deduced an underlying commutative group structure and a (multiplicative) semigroup
 
@@ -314,7 +314,7 @@ Suppose that $\Theta$ has the same (principal and auxiliary) base sets as $\Sigm
 
 #### Example 4 {#ens-iv-s1-n6-exa-4 .statement}
 
-When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its centre. When $\Sigma$ is the species of vector space structures over a field $K$, and when $\Theta$ is the species of algebraic structures over $K$, there are defined procedures of deduction which associate with every vector space over $K$ its tensor algebra or its exterior algebra. We shall meet many other examples later in this series. \*
+\* When each of $\Sigma$ and $\Theta$ is the species of group structures (resp. ring structures), there is defined in algebra a procedure of deduction which associates with each group structure (resp. ring structure) the group structure (resp. ring structure) on its centre. When $\Sigma$ is the species of vector space structures over a field $K$, and when $\Theta$ is the species of algebraic structures over $K$, there are defined procedures of deduction which associate with every vector space over $K$ its tensor algebra or its exterior algebra. We shall meet many other examples later in this series. \*
 
 #### Remark {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 
@@ -344,7 +344,7 @@ In practice, we make no distinction between the theories $\mathscr{T}_{\Sigma}$ 
 
 #### Example 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
 
-Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set $A$, and its generic structure consists of a single letter $F$; the typical characterization of $\Sigma$ is $F\in\mathscr{P}((A\times A)\times A)$, and we denote the axiom of $\Sigma$ by $R\{A,F\}$. This axiom implies in particular that $F$ is the graph of a function (the “law of composition” of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_{\Sigma}$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A,F\}$ which is a functional graph in $\mathscr{P}((\mathbf{Z}\times A)\times A)$ and satisfies the following relation $B\{M,A,F\}$:
+\* Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set $A$, and its generic structure consists of a single letter $F$; the typical characterization of $\Sigma$ is $F\in\mathscr{P}((A\times A)\times A)$, and we denote the axiom of $\Sigma$ by $R\{A,F\}$. This axiom implies in particular that $F$ is the graph of a function (the “law of composition” of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_{\Sigma}$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A,F\}$ which is a functional graph in $\mathscr{P}((\mathbf{Z}\times A)\times A)$ and satisfies the following relation $B\{M,A,F\}$:
 
 $$
 (\forall x)(\forall y)(\forall n)((x\in A\ \text{and}\ y\in A\ \text{and}\ n\in\mathbf{Z})

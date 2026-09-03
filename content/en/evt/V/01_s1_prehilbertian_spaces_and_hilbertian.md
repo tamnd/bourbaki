@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 37
-content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
+content_sha256: d5f2a40e1ba87856c38a3feb6530a3ab5c1ad52e42d3e5f1d56903fdc8eb599c
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -293,7 +293,7 @@ The prehilbertian spaces defined in examples 1, 3, 4 of V, p. 4, are hilbertian 
 
 #### Example 2 {#evt-v-s1-n4-exa-2 .statement}
 
-Let X be a Hausdorff topological space and let $\mu$ be a positive measure on X. Let $L^2(X, \mu)$ be the space consisting of equivalence classes, for $\mu$, of all square $\mu$-integrable functions on X with values in $\mathbf{C}$. This is a complex hilbertian space, whose scalar product is given by
+\* Let X be a Hausdorff topological space and let $\mu$ be a positive measure on X. Let $L^2(X, \mu)$ be the space consisting of equivalence classes, for $\mu$, of all square $\mu$-integrable functions on X with values in $\mathbf{C}$. This is a complex hilbertian space, whose scalar product is given by
 
 $$
 \langle f|g \rangle = \int_X \overline{f(x)}\ g(x)\ d\mu(x) .
@@ -301,7 +301,7 @@ $$
 
 #### Example 3 {#evt-v-s1-n4-exa-3 .statement}
 
-Let $n \geqslant 1$ be an integer and let U be an open set in $\mathbf{R}^n$. Let $\mu$ be the measure on U induced by the Lebesgue measure on $\mathbf{R}^n$, and put $\mathcal{H}^0 = L^2(U, \mu)$. Let $\mathcal{H}^1$ denote the space of all functions $f \in \mathcal{H}^0$ with the following property; for $1 \leqslant i \leqslant n$, there exists a function $g_i \in \mathcal{H}^\circ$ such that
+\* Let $n \geqslant 1$ be an integer and let U be an open set in $\mathbf{R}^n$. Let $\mu$ be the measure on U induced by the Lebesgue measure on $\mathbf{R}^n$, and put $\mathcal{H}^0 = L^2(U, \mu)$. Let $\mathcal{H}^1$ denote the space of all functions $f \in \mathcal{H}^0$ with the following property; for $1 \leqslant i \leqslant n$, there exists a function $g_i \in \mathcal{H}^\circ$ such that
 
 $$
 \int_U g_i(x)\ h(x)\ d\mu(x) = - \int_U f(x)\ D_i h(x)\ d\mu(x)
@@ -317,7 +317,7 @@ Then $\mathcal{H}^s$ is a complex hilbertian space, called *Sobolev space* of in
 
 #### Example 4 {#evt-v-s1-n4-exa-4 .statement}
 
-Let X be a differential variety of class $C^r$ (with $r \geqslant 1$) pure of finite dimension $n$.
+\* Let X be a differential variety of class $C^r$ (with $r \geqslant 1$) pure of finite dimension $n$.
 
 In the vector fibre space $\Lambda^n T(X)$, let L be the complement of the zero section. For every real number $\lambda \neq 0$, the mapping $u \mapsto \lambda u$ from $\Lambda^n T(X)$ into itself leaves L stable.
 
@@ -336,7 +336,7 @@ Let $\mathcal{V}$ (resp. $\mathcal{N}$) be the vector space of measurable densit
 
 #### Example 5 {#evt-v-s1-n4-exa-5 .statement}
 
-Let D be the open disc with centre 0 and radius 1 in $\mathbf{C}$. *The Hardy space* $H^2(D)$ consists of all holomorphic functions $f : D \to \mathbf{C}$ for which
+\* Let D be the open disc with centre 0 and radius 1 in $\mathbf{C}$. *The Hardy space* $H^2(D)$ consists of all holomorphic functions $f : D \to \mathbf{C}$ for which
 $$
 \sup_{0 < R < 1} \int_0^1 |f(R \cdot e(\theta))|^2 d\theta < + \infty .
 $$

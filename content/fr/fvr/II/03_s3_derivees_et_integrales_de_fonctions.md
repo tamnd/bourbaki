@@ -35,9 +35,9 @@ subsections:
       title: Interversion des intégrations
       page: 27
       pdf_page: 79
-statements: 17
+statements: 18
 exercises: 10
-content_sha256: 78e9b0c6439bb8e707e8de339dc250f725de8e22ef83030101571459ec119b77
+content_sha256: c6f3cc6ac4464f645a1fcfafc70e48660d7235b77c1b612c2cec4a65f8684f4b
 ---
 
 ## § 3. DÉRIVÉES ET INTÉGRALES DE FONCTIONS DÉPENDANT D’UN PARAMÈTRE
@@ -291,7 +291,10 @@ La convergence uniforme dans V de l’intégrale $\int_I \mathbf{f}'_\alpha(t, \
 #### Remarque 1 {#fvr-ii-s3-n5-rem-1 .statement}
 
 Les conditions 1° et 2° de la prop. 7 sont remplies a fortiori lorsque $f'_\alpha(x, \alpha)$ est fonction continue de $(x, \alpha)$ dans $I \times V$.
-2) Lorsque, dans une intégrale $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, les extrémités de l’intervalle d’intégration sont des fonctions finies du paramètre, l’étude de cette intégrale en fonction de $\alpha$ peut se rattacher à celle d’une intégrale dans $[0, 1]$; en effet, par le changement de variable $t = a(\alpha)(1-u) + b(\alpha)u$, on a
+
+#### Remarque 2 {#fvr-ii-s3-n5-rem-2 .statement}
+
+Lorsque, dans une intégrale $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, les extrémités de l’intervalle d’intégration sont des fonctions finies du paramètre, l’étude de cette intégrale en fonction de $\alpha$ peut se rattacher à celle d’une intégrale dans $[0, 1]$; en effet, par le changement de variable $t = a(\alpha)(1-u) + b(\alpha)u$, on a
 $$
 \int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt = \int_0^1 f(a(\alpha)(1-u) + b(\alpha)u, \alpha)(b(\alpha) - a(\alpha)) \, du.
 $$

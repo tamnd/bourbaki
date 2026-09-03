@@ -34,9 +34,9 @@ subsections:
       title: Lois quotients
       page: 10
       pdf_page: 20
-statements: 31
+statements: 39
 exercises: 16
-content_sha256: 3c9b00a2b749a4f7448ff5db7c549681f1663bbdaad39d6a48a3ed0fca666271
+content_sha256: 98981d8a76eff4ef9c3ae9531a90332a2920fc7ebc27e9bd371149b6a89c8204
 ---
 
 ## § 1. LOIS DE COMPOSITION; ASSOCIATIVITÉ; COMMUTATIVITÉ
@@ -54,13 +54,22 @@ On dit parfois, par abus de langage, qu’une application d’une partie de E ×
 #### Exemple 1 {#alg-i-s1-n1-exa-1 .statement}
 
 Les applications (X, Y) ↦ X ∪ Y et (X, Y) ↦ X ∩ Y sont des lois de composition sur l’ensemble des parties d’un ensemble E.
-2) Dans l’ensemble N des entiers naturels, l’addition, la multiplication, l’exponentiation sont des lois de composition (les composés de x ∈ N et de y ∈ N pour ces lois se notant respectivement x + y, xy ou x.y, et x^y) (E, III, p. 27–28).
 
-3) Soit E un ensemble ; l’application (X, Y) ↦ $X \circ Y$ est une loi de composition sur l’ensemble des parties de E × E (E, II, p. 11, déf. 6) ; l’application (f, g) ↦ $f \circ g$ est une loi de composition sur l’ensemble des applications de E dans E (E, II, p. 31).
+#### Exemple 2 {#alg-i-s1-n1-exa-2 .statement}
 
-4) Soit E un ensemble ordonné réticulé (E, III, p. 13) ; si on désigne par sup(x, y) la borne supérieure de l’ensemble {x, y}, l’application (x, y) ↦ sup(x, y) est une loi de composition sur E. De même pour la borne inférieure inf(x, y). L’exemple 1 ci-dessus est un cas particulier de celui-ci, en considérant $\mathfrak{P}(E)$ comme ordonné par inclusion.
+Dans l’ensemble N des entiers naturels, l’addition, la multiplication, l’exponentiation sont des lois de composition (les composés de x ∈ N et de y ∈ N pour ces lois se notant respectivement x + y, xy ou x.y, et x^y) (E, III, p. 27–28).
 
-5) Soit $(E_i)_{i \in I}$ une famille de magmas. Notons $\tau_i$ la loi de composition sur $E_i$. L’application
+#### Exemple 3 {#alg-i-s1-n1-exa-3 .statement}
+
+Soit E un ensemble ; l’application (X, Y) ↦ $X \circ Y$ est une loi de composition sur l’ensemble des parties de E × E (E, II, p. 11, déf. 6) ; l’application (f, g) ↦ $f \circ g$ est une loi de composition sur l’ensemble des applications de E dans E (E, II, p. 31).
+
+#### Exemple 4 {#alg-i-s1-n1-exa-4 .statement}
+
+Soit E un ensemble ordonné réticulé (E, III, p. 13) ; si on désigne par sup(x, y) la borne supérieure de l’ensemble {x, y}, l’application (x, y) ↦ sup(x, y) est une loi de composition sur E. De même pour la borne inférieure inf(x, y). L’exemple 1 ci-dessus est un cas particulier de celui-ci, en considérant $\mathfrak{P}(E)$ comme ordonné par inclusion.
+
+#### Exemple 5 {#alg-i-s1-n1-exa-5 .statement}
+
+Soit $(E_i)_{i \in I}$ une famille de magmas. Notons $\tau_i$ la loi de composition sur $E_i$. L’application
 $$
 ((x_i), (y_i)) \mapsto ((x_i \tau_i y_i))
 $$
@@ -246,8 +255,14 @@ Il est immédiat, par récurrence sur n, que le composé d’une séquence de n 
 #### Exemple 1 {#alg-i-s1-n4-exa-1 .statement}
 
 Dans l’ensemble N des entiers naturels, la partie stable pour l’addition engendrée par {1} est l’ensemble des entiers $\geqslant 1$; pour la multiplication, l’ensemble {1} est stable.
-2) Etant donnée une loi $\top$ sur un ensemble E, pour qu’une partie $\{h\}$ réduite à un seul élément soit stable pour la loi $\top$, il faut et il suffit que $h \top h = h$; on dit alors que h est idempotent. Par exemple, tout élément d’un ensemble ordonné réticulé est idempotent pour chacune des lois sup et inf.
-3) Pour une loi associative $\top$ sur un ensemble E, la partie stable engendrée par un ensemble $\{a\}$ réduit à un seul élément est l’ensemble des éléments $\top^n a$, où n parcourt l’ensemble des entiers $> 0$.
+
+#### Exemple 2 {#alg-i-s1-n4-exa-2 .statement}
+
+Etant donnée une loi $\top$ sur un ensemble E, pour qu’une partie $\{h\}$ réduite à un seul élément soit stable pour la loi $\top$, il faut et il suffit que $h \top h = h$; on dit alors que h est idempotent. Par exemple, tout élément d’un ensemble ordonné réticulé est idempotent pour chacune des lois sup et inf.
+
+#### Exemple 3 {#alg-i-s1-n4-exa-3 .statement}
+
+Pour une loi associative $\top$ sur un ensemble E, la partie stable engendrée par un ensemble $\{a\}$ réduit à un seul élément est l’ensemble des éléments $\top^n a$, où n parcourt l’ensemble des entiers $> 0$.
 
 ### 5. Eléments permutables. Lois commutatives
 
@@ -264,9 +279,18 @@ Une loi commutative est égale à son opposée.
 #### Exemple 1 {#alg-i-s1-n5-exa-1 .statement}
 
 L’addition et la multiplication des entiers naturels sont des lois commutatives sur N (E, III, p. 27, corollaire).
-2) Dans un ensemble ordonné réticulé, les lois sup et inf sont commutatives; il en est ainsi, en particulier, des lois $\cup$ et $\cap$ entre parties d’un ensemble E.
-3) Soit E un ensemble, de cardinal $> 1$. La loi $(f, g) \mapsto f \circ g$ entre applications de E dans E n’est pas commutative, comme on le voit en prenant pour f et g des applications constantes distinctes, mais l’application identique est permutable avec toute application.
-4) Soit $(x, y) \mapsto x \top y$ une loi commutative sur E; la loi $(X, Y) \mapsto X \top Y$ entre parties de E est commutative.
+
+#### Exemple 2 {#alg-i-s1-n5-exa-2 .statement}
+
+Dans un ensemble ordonné réticulé, les lois sup et inf sont commutatives; il en est ainsi, en particulier, des lois $\cup$ et $\cap$ entre parties d’un ensemble E.
+
+#### Exemple 3 {#alg-i-s1-n5-exa-3 .statement}
+
+Soit E un ensemble, de cardinal $> 1$. La loi $(f, g) \mapsto f \circ g$ entre applications de E dans E n’est pas commutative, comme on le voit en prenant pour f et g des applications constantes distinctes, mais l’application identique est permutable avec toute application.
+
+#### Exemple 4 {#alg-i-s1-n5-exa-4 .statement}
+
+Soit $(x, y) \mapsto x \top y$ une loi commutative sur E; la loi $(X, Y) \mapsto X \top Y$ entre parties de E est commutative.
 
 #### Définition 9 {#alg-i-s1-def-9 .statement}
 
@@ -375,9 +399,7 @@ $$
 $$
 et de même pour les lois notées par d’autres signes.
 
-#### Exemple 2 {#alg-i-s1-n5-exa-2 .statement}
-
-Soit $n$ un entier $> 0$ et soit A l’ensemble des couples d’entiers $(i, j)$ tels que $0 \leq i \leq n, 0 \leq j \leq n$ et $i < j$; le composé d’une famille $(x_{ij})_{(i, j) \in A}$ (pour une loi associative et commutative), se notera encore $\prod_{0 \leq i < j \leq n} x_{ij}$ (ou simplement $\prod_{i < j} x_{ij}$ si aucune confusion n’en résulte); le th. 3 donne ici les formules
+2) Soit $n$ un entier $> 0$ et soit A l’ensemble des couples d’entiers $(i, j)$ tels que $0 \leq i \leq n, 0 \leq j \leq n$ et $i < j$; le composé d’une famille $(x_{ij})_{(i, j) \in A}$ (pour une loi associative et commutative), se notera encore $\prod_{0 \leq i < j \leq n} x_{ij}$ (ou simplement $\prod_{i < j} x_{ij}$ si aucune confusion n’en résulte); le th. 3 donne ici les formules
 
 (10)
 $$

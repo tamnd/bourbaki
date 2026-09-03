@@ -51,9 +51,9 @@ subsections:
       title: Espaces quotients des espaces métrisables
       page: 22
       pdf_page: 142
-statements: 33
+statements: 34
 exercises: 9
-content_sha256: 658f14178c1b033de38316d093be8112fa307402df703f83c48823dca01267d0
+content_sha256: 49d6ce965443e4c35796eb902f1f6ffe95b972a3afee2c18e6dc14c0bfe07706
 ---
 
 ## § 2. ESPACES MÉTRIQUES; ESPACES MÉTRISABLES
@@ -246,7 +246,10 @@ En effet, soit $d$ une distance compatible avec la topologie d’un espace métr
 #### Remarque 1 {#top-ix-s2-n5-rem-1 .statement}
 
 Les conditions nécessaires qui précèdent ne sont pas suffisantes (cf. IX, p. 92, exerc. 12).
-2) On peut donner des exemples d’espaces où tout point a un système fondamental dénombrable de voisinages, mais où il existe des ensembles fermés qui ne sont pas des intersections dénombrables d’ensembles ouverts (IX, p. 94, exerc. 14); de tels espaces ne sont pas métrisables).
+
+#### Remarque 2 {#top-ix-s2-n5-rem-2 .statement}
+
+On peut donner des exemples d’espaces où tout point a un système fondamental dénombrable de voisinages, mais où il existe des ensembles fermés qui ne sont pas des intersections dénombrables d’ensembles ouverts (IX, p. 94, exerc. 14); de tels espaces ne sont pas métrisables).
 
 Le cor. 2 de IX, p. 15, montre qu’un produit dénombrable d’espaces topologiques métrisables est métrisable. En outre un espace $X$ somme (I, p. 15) d’une famille quelconque $(Y_i)_{i \in I}$ d’espaces métrisables est métrisable: en effet, si pour chaque $i \in I$, $d_i$ est une distance compatible avec la topologie de $Y_i$, on peut supposer que $d_i$ est bornée et que le diamètre de $Y_i$ est $\leq 1$; on définit alors une distance $d$ compatible avec la topologie de $X$ en prenant $d(x, y) = d_i(x, y)$ si $x, y$ appartiennent à un même ensemble $Y_i$, et $d(x, y) = 1$ dans le cas contraire.
 

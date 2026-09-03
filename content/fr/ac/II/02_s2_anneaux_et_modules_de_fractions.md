@@ -46,9 +46,9 @@ subsections:
       title: Modules de fractions de modules gradués.
       page: 0
       pdf_page: 98
-statements: 58
+statements: 66
 exercises: 25
-content_sha256: 002eb9711ea80898e77fc20598af052186def930de5f918d075490e8223be466
+content_sha256: 365de78589b6c776be87c9f01881a80c664bda57a356a2baf8f8cef314a57ae9
 ---
 
 ## § 2. Anneaux et modules de fractions
@@ -64,11 +64,26 @@ Il revient au même de dire que $1 \in S$ et que le produit de deux éléments d
 #### Exemple 1 {#ac-ii-s2-n1-exa-1 .statement}
 
 Pour tout $a \in A$, l’ensemble des $a^n$, pour $n \in \mathbf{N}$, est une partie multiplicative de A.
-2) Soit $p$ un idéal de A. Pour que $A - p$ soit une partie multiplicative de A, il faut et il suffit que $p$ soit premier.
-3) L’ensemble des éléments de A non diviseurs de zéro est une partie multiplicative de A.
-4) Si S et T sont deux parties multiplicatives de A, l’ensemble ST des produits $st$, où $s \in S$ et $t \in T$, est une partie multiplicative.
-5) Soit $\mathcal{S}$ un ensemble filtrant (pour la relation $\subset$) de parties multiplicatives de A. Alors $T = \bigcup_{S \in \mathcal{S}} S$ est une partie multiplicative de A, car deux éléments quelconques de T appartiennent à une même partie $S \in \mathcal{S}$, donc leur produit appartient à T.
-6) Toute intersection de parties multiplicatives de A est une partie multiplicative.
+
+#### Exemple 2 {#ac-ii-s2-n1-exa-2 .statement}
+
+Soit $p$ un idéal de A. Pour que $A - p$ soit une partie multiplicative de A, il faut et il suffit que $p$ soit premier.
+
+#### Exemple 3 {#ac-ii-s2-n1-exa-3 .statement}
+
+L’ensemble des éléments de A non diviseurs de zéro est une partie multiplicative de A.
+
+#### Exemple 4 {#ac-ii-s2-n1-exa-4 .statement}
+
+Si S et T sont deux parties multiplicatives de A, l’ensemble ST des produits $st$, où $s \in S$ et $t \in T$, est une partie multiplicative.
+
+#### Exemple 5 {#ac-ii-s2-n1-exa-5 .statement}
+
+Soit $\mathcal{S}$ un ensemble filtrant (pour la relation $\subset$) de parties multiplicatives de A. Alors $T = \bigcup_{S \in \mathcal{S}} S$ est une partie multiplicative de A, car deux éléments quelconques de T appartiennent à une même partie $S \in \mathcal{S}$, donc leur produit appartient à T.
+
+#### Exemple 6 {#ac-ii-s2-n1-exa-6 .statement}
+
+Toute intersection de parties multiplicatives de A est une partie multiplicative.
 
 Pour toute partie S d’un anneau A, il existe des parties multiplicatives de A contenant S, par exemple A lui-même. L’intersection de toutes ces parties est la plus petite partie multiplicative de A contenant S ; on dit qu’elle est engendrée par S. Il est immédiat que c’est l’ensemble formé de tous les produits finis d’éléments de S.
 
@@ -219,7 +234,10 @@ Dans ce chapitre, nous noterons le plus souvent $i_M^S$ l’application canoniqu
 #### Remarque 1 {#ac-ii-s2-n2-rem-1 .statement}
 
 Il est clair que l’on a $M[\overline{S}^{-1}] = M[S^{-1}]$.
-2) Pour $m \in M$ et $s \in \overline{S}$, on écrit encore $m/s$ l’élément $m \otimes (1/s)$ de $M[S^{-1}]$. Tout élément de $M[S^{-1}]$ est de cette forme, car un tel élément s’écrit $\sum_i m_i \otimes (a_i/s)$ avec $m_i \in M, a_i \in A, s \in S$ (no 1, *Remarque 2*) et on a $m_i \otimes (a_i/s) = (a_i m_i) \otimes (1/s)$, donc $\sum_i m_i \otimes (a_i/s) = m \otimes (1/s)$ avec $m = \sum_i a_i m_i$. On a
+
+#### Remarque 2 {#ac-ii-s2-n2-rem-2 .statement}
+
+Pour $m \in M$ et $s \in \overline{S}$, on écrit encore $m/s$ l’élément $m \otimes (1/s)$ de $M[S^{-1}]$. Tout élément de $M[S^{-1}]$ est de cette forme, car un tel élément s’écrit $\sum_i m_i \otimes (a_i/s)$ avec $m_i \in M, a_i \in A, s \in S$ (no 1, *Remarque 2*) et on a $m_i \otimes (a_i/s) = (a_i m_i) \otimes (1/s)$, donc $\sum_i m_i \otimes (a_i/s) = m \otimes (1/s)$ avec $m = \sum_i a_i m_i$. On a
 $$
 (4)\quad (m/s) + (m'/s') = (s'm + sm')/(ss')
 $$
@@ -228,9 +246,13 @@ $$
 $$
 pour $m, m'$ dans $M, a \in A, s, s'$ dans $S$.
 
-3) Lorsque S est le complémentaire d’un idéal premier p de A, on écrit M_p au lieu de S^{-1}M.
+#### Remarque 3 {#ac-ii-s2-n2-rem-3 .statement}
 
-4) Soit M un A[S^{-1}]-module ; lorsque M est considéré canoniquement comme un A-module, i_M^s est une application bijective, car le couple formé de M et de l’application identique 1_M est aussi trivialement solution du problème d’application universelle résolu par M[S^{-1}] et i_M^s. On identifie alors M et M[S^{-1}].
+Lorsque S est le complémentaire d’un idéal premier p de A, on écrit M_p au lieu de S^{-1}M.
+
+#### Remarque 4 {#ac-ii-s2-n2-rem-4 .statement}
+
+Soit M un A[S^{-1}]-module ; lorsque M est considéré canoniquement comme un A-module, i_M^s est une application bijective, car le couple formé de M et de l’application identique 1_M est aussi trivialement solution du problème d’application universelle résolu par M[S^{-1}] et i_M^s. On identifie alors M et M[S^{-1}].
 
 #### Proposition 4 {#ac-ii-s2-prop-4 .statement}
 

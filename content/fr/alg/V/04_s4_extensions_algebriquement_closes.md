@@ -23,9 +23,9 @@ subsections:
       title: Clôture algébrique d’un corps
       page: 22
       pdf_page: 126
-statements: 17
+statements: 20
 exercises: 2
-content_sha256: 534e509dbe20f60353cda50139274b7157fc2a4cff637503dab87467c16be3b5
+content_sha256: 4498daf572af9146e6817257756e773bc4659f081e764b48ed5be49a541e313f
 ---
 
 ## § 4. EXTENSIONS ALGÉBRIQUEMENT CLOSES
@@ -126,7 +126,10 @@ Soit K un corps. On appelle clôture algébrique de K toute extension de K qui e
 #### Exemple 1 {#alg-v-s4-n3-exa-1 .statement}
 
 Le corps C des nombres complexes est une clôture algébrique du corps R des nombres réels (TG, VIII, p. 1). \*
-2) Soient K un corps et Ω une extension algébriquement close de K. Soit $\overline{K}$ la fermeture algébrique de K dans Ω. D’après V, p. 20, prop. 2, $\overline{K}$ est une clôture algébrique de K. \* En particulier, le corps des nombres algébriques (V, p. 20, exemple 2) est une clôture algébrique du corps Q des nombres rationnels. \*
+
+#### Exemple 2 {#alg-v-s4-n3-exa-2 .statement}
+
+Soient K un corps et Ω une extension algébriquement close de K. Soit $\overline{K}$ la fermeture algébrique de K dans Ω. D’après V, p. 20, prop. 2, $\overline{K}$ est une clôture algébrique de K. \* En particulier, le corps des nombres algébriques (V, p. 20, exemple 2) est une clôture algébrique du corps Q des nombres rationnels. \*
 
 #### Proposition 6 {#alg-v-s4-prop-6 .statement}
 
@@ -164,8 +167,14 @@ Il suffit d’appliquer le th. 2 aux clôtures algébriques Ω et (Ω’, u) de 
 #### Remarque 2 {#alg-v-s4-n3-rem-2 .statement}
 
 Avec les notations du corollaire précédent, il existe en général des K-automorphismes de Ω distincts de l’identité. Il n’y a donc pas en général unicité de l’isomorphisme v de Ω sur Ω’ prolongeant l’isomorphisme u de K sur K’. Pour des raisons analogues, il y a en général plus d’un isomorphisme d’une extension de décomposition E sur une extension de décomposition E’ pour la même famille (f_i)_{i\in I} de polynômes. Rappelons par contre que, pour la clôture parfaite, on a un résultat d’unicité (V, p. 5).
-3) Soient K un corps et Ω une clôture algébrique de K. On peut donner la construction suivante d’une extension de décomposition pour une famille (f_i)_{i\in I} de polynômes non constants dans K[X] : soit R_i l’ensemble des racines de f_i dans Ω, et soit R = \bigcup_{i\in I} R_i. Alors K(R) est l’unique sous-extension de Ω qui soit une extension de décomposition pour (f_i)_{i\in I} (V, p. 21, prop. 5).
-4) Soient K un corps fini et Ω une clôture algébrique de K. Alors Ω est infini (V, p. 20, prop. 3); comme toute extension de degré fini de K est un corps fini, Ω est une extension algébrique de degré infini de K.
+
+#### Remarque 3 {#alg-v-s4-n3-rem-3 .statement}
+
+Soient K un corps et Ω une clôture algébrique de K. On peut donner la construction suivante d’une extension de décomposition pour une famille (f_i)_{i\in I} de polynômes non constants dans K[X] : soit R_i l’ensemble des racines de f_i dans Ω, et soit R = \bigcup_{i\in I} R_i. Alors K(R) est l’unique sous-extension de Ω qui soit une extension de décomposition pour (f_i)_{i\in I} (V, p. 21, prop. 5).
+
+#### Remarque 4 {#alg-v-s4-n3-rem-4 .statement}
+
+Soient K un corps fini et Ω une clôture algébrique de K. Alors Ω est infini (V, p. 20, prop. 3); comme toute extension de degré fini de K est un corps fini, Ω est une extension algébrique de degré infini de K.
 
 ## EXERCICES {#alg-v-s4-exercises}
 

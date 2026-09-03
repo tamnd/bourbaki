@@ -43,9 +43,9 @@ subsections:
       title: Cônes convexes complets dans les espaces faibles
       page: 56
       pdf_page: 91
-statements: 42
+statements: 44
 exercises: 20
-content_sha256: 1527446aae67136cbc754e88d40d8bb394d4f796e17447b5a4c6901ee8837f4b
+content_sha256: d80ecc9cfb4b1bcff6c4627e9c896c430ca7f8afd6e20ee7aec820a153d92c66
 ---
 
 ## § 6. TOPOLOGIES FAIBLES
@@ -97,8 +97,14 @@ Lorsque E est un espace localement convexe séparé, la dualité entre E et son 
 #### Remarque 1 {#evt-ii-s6-n1-rem-1 .statement}
 
 Lorsque E est un espace vectoriel topologique, le dual E* de l’espace vectoriel E sera parfois appelé le dual algébrique de E pour éviter des confusions. On notera d’ailleurs que E* est le dual de l’espace vectoriel topologique obtenu en munissant E de la topologie localement convexe la plus fine (II, p. 27, Exemple 2).
-2) Le dual E' d’un espace vectoriel topologique n’est pas lui-même muni d’une topologie, à moins que cela n’ait été expressément mentionné.
-3) Si F et G $\subset F^*$ sont en dualité séparante pour la forme bilinéaire canonique, il en est de même de F et $G_1$ pour tout sous-espace $G_1$ de $F^*$ tel que $G \subset G_1$.
+
+#### Remarque 2 {#evt-ii-s6-n1-rem-2 .statement}
+
+Le dual E' d’un espace vectoriel topologique n’est pas lui-même muni d’une topologie, à moins que cela n’ait été expressément mentionné.
+
+#### Remarque 3 {#evt-ii-s6-n1-rem-3 .statement}
+
+Si F et G $\subset F^*$ sont en dualité séparante pour la forme bilinéaire canonique, il en est de même de F et $G_1$ pour tout sous-espace $G_1$ de $F^*$ tel que $G \subset G_1$.
 
 ### 2. Topologies faibles
 

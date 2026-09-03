@@ -29,7 +29,7 @@ subsections:
       pdf_page: 60
 statements: 31
 exercises: 32
-content_sha256: bc0c6917e598be8900d5fcc96d0fafb6274bac3530769cf01ac55c7968309600
+content_sha256: 6ad3c554aa21f75c5b44d1656b413c9e3aa4fcc3784dcd6abbdea8c83ca23186
 ---
 
 ## § 5. ANNEAUX LOCAUX RÉGULIERS
@@ -66,7 +66,7 @@ Soit $A$ un anneau local noethérien régulier complet de dimension $r$. L’ann
 
 #### Exemple 4 {#ac-viii-s5-n1-exa-4 .statement}
 
-Soit $k$ un corps valué complet non discret. L’anneau des séries formelles à $n$ variables qui convergent dans un voisinage de 0 dans $k^n$ est un anneau local noethérien régulier de dimension $n$ (§ 3, no 4, remarque 2).
+\* Soit $k$ un corps valué complet non discret. L’anneau des séries formelles à $n$ variables qui convergent dans un voisinage de 0 dans $k^n$ est un anneau local noethérien régulier de dimension $n$ (§ 3, no 4, remarque 2).
 
 #### Exemple 5 {#ac-viii-s5-n1-exa-5 .statement}
 
@@ -74,11 +74,11 @@ Soient $k$ un corps, $A$ une $k$-algèbre intègre de type fini et $m$ un idéal
 
 #### Exemple 6 {#ac-viii-s5-n1-exa-6 .statement}
 
-Soit $X$ une variété algébrique sur un corps parfait $k$. Alors $X$ est non singulière en un point $x$ si et seulement si l’anneau local de $X$ en $x$ est régulier.
+\* Soit $X$ une variété algébrique sur un corps parfait $k$. Alors $X$ est non singulière en un point $x$ si et seulement si l’anneau local de $X$ en $x$ est régulier.
 
 #### Exemple 7 {#ac-viii-s5-n1-exa-7 .statement}
 
-Soit $A$ un anneau local noethérien régulier. On verra plus tard que l’anneau local noethérien $A_p$ est régulier pour tout idéal premier $p$ de $A$.
+\* Soit $A$ un anneau local noethérien régulier. On verra plus tard que l’anneau local noethérien $A_p$ est régulier pour tout idéal premier $p$ de $A$.
 
 #### Proposition 1 {#ac-viii-s5-prop-1 .statement}
 

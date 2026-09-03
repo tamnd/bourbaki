@@ -31,9 +31,9 @@ subsections:
       title: Construction de suites sécantes
       page: 36
       pdf_page: 40
-statements: 37
+statements: 39
 exercises: 7
-content_sha256: 9e96d959c56485cbedf2ef098047ed722bad9561960260f61af3c6f4793e2f70
+content_sha256: 8a46e9bac74c1717f34ad8e8f4e538302331df7231ad75df3a7d3188cc5b08ba
 ---
 
 ## § 3. DIMENSION DES ANNEAUX NOETHÉRIENS
@@ -160,13 +160,19 @@ $$
 #### Remarque 1 {#ac-viii-s3-n2-rem-1 .statement}
 
 Il résulte des formules (6) et (7) que S est sécante pour M si et seulement si elle est sécante pour $A/\alpha$, où $\alpha$ est l’annulateur de M.
-2) Soient S et S’ deux parties disjointes de $m_A$. Pour que $S \cup S'$ soit sécante pour M, il faut et il suffit que S soit sécante pour M et S’ sécante pour $M' = M/SM$. Cela résulte de l’inégalité (8) et de la formule
+
+#### Remarque 2 {#ac-viii-s3-n2-rem-2 .statement}
+
+Soient S et S’ deux parties disjointes de $m_A$. Pour que $S \cup S'$ soit sécante pour M, il faut et il suffit que S soit sécante pour M et S’ sécante pour $M' = M/SM$. Cela résulte de l’inégalité (8) et de la formule
 $$
 \text{Card}(S \cup S') + \dim_A(M/(SM + S'M)) - \dim_A(M) =
 = (\text{Card}(S) + \dim_A(M/SM) - \dim_A(M)) +
 + (\text{Card}(S') + \dim_A(M'/S'M') - \dim_A(M')) .
 $$
-3) Soient $x \in m_A$ et $n \geq 1$ un entier. Il est immédiat que les modules $M/xM$ et $M/x^nM$ ont même support, donc même dimension. Par suite, x est sécant pour M si et seulement si $x^n$ est sécant pour M. De là et de la remarque 2, on déduit aussitôt le résultat suivant : soient $x_1, ..., x_r$ des éléments de $m_A$ et $n_1, ..., n_r$ des entiers $> 0$; alors la suite $(x_1, ..., x_r)$ est sécante pour M si et seulement si la suite $(x_1^{n_1}, ..., x_r^{n_r})$ est sécante pour M.
+
+#### Remarque 3 {#ac-viii-s3-n2-rem-3 .statement}
+
+Soient $x \in m_A$ et $n \geq 1$ un entier. Il est immédiat que les modules $M/xM$ et $M/x^nM$ ont même support, donc même dimension. Par suite, x est sécant pour M si et seulement si $x^n$ est sécant pour M. De là et de la remarque 2, on déduit aussitôt le résultat suivant : soient $x_1, ..., x_r$ des éléments de $m_A$ et $n_1, ..., n_r$ des entiers $> 0$; alors la suite $(x_1, ..., x_r)$ est sécante pour M si et seulement si la suite $(x_1^{n_1}, ..., x_r^{n_r})$ est sécante pour M.
 
 #### Proposition 3 {#ac-viii-s3-prop-3 .statement}
 

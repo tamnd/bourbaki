@@ -38,9 +38,9 @@ subsections:
       title: Fonctions semi-continues sur un espace uniformisable
       page: 10
       pdf_page: 130
-statements: 23
+statements: 26
 exercises: 25
-content_sha256: f6009ff0829091eb19e70901ac0bb44e3f4eb78c43d635eb6ff0455146af6609
+content_sha256: 81bdb31fac21d408e69d36d14a256ed55ef672bdffb6df7d5192894226ae729f
 ---
 
 ## § 1. GÉNÉRATION D’UNE STRUCTURE UNIFORME PAR UNE FAMILLE D’ÉCARTS. ESPACES UNIFORMISABLES
@@ -62,9 +62,18 @@ $$
 #### Exemple 1 {#top-ix-s1-n1-exa-1 .statement}
 
 Sur l’espace numérique $\mathbf{R}^n$, la distance euclidienne (VI, p. 7) est un écart.
-2) Étant donné un ensemble quelconque $X$, la fonction $f$ définie sur $X \times X$ par les conditions : $f(x, x) = 0$ pour tout $x \in X$, $f(x, y) = +\infty$ si $x \neq y$, est un écart sur $X$.
-3) Étant donnée une fonction numérique finie $g$ définie dans un ensemble quelconque $X$, la fonction $f$ définie dans $X \times X$ par $f(x, y) = |g(x) - g(y)|$ est un écart sur $X$.
-*4) Soit $X$ l’ensemble des applications continues de l’intervalle $[0, 1]$ de $\mathbf{R}$ dans $\mathbf{R}$. Si, pour tout couple d’éléments $x, y$ de $X$, on pose $f(x, y) = \int_0^1 |x(t) - y(t)| \, dt$, $f$ est un écart sur $X$.*
+
+#### Exemple 2 {#top-ix-s1-n1-exa-2 .statement}
+
+Étant donné un ensemble quelconque $X$, la fonction $f$ définie sur $X \times X$ par les conditions : $f(x, x) = 0$ pour tout $x \in X$, $f(x, y) = +\infty$ si $x \neq y$, est un écart sur $X$.
+
+#### Exemple 3 {#top-ix-s1-n1-exa-3 .statement}
+
+Étant donnée une fonction numérique finie $g$ définie dans un ensemble quelconque $X$, la fonction $f$ définie dans $X \times X$ par $f(x, y) = |g(x) - g(y)|$ est un écart sur $X$.
+
+#### Exemple 4 {#top-ix-s1-n1-exa-4 .statement}
+
+Soit $X$ l’ensemble des applications continues de l’intervalle $[0, 1]$ de $\mathbf{R}$ dans $\mathbf{R}$. Si, pour tout couple d’éléments $x, y$ de $X$, on pose $f(x, y) = \int_0^1 |x(t) - y(t)| \, dt$, $f$ est un écart sur $X$.*
 
 #### Remarque 1 {#top-ix-s1-n1-rem-1 .statement}
 

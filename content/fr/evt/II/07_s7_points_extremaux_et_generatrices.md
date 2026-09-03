@@ -23,9 +23,9 @@ subsections:
       title: Cônes convexes à semelle compacte
       page: 63
       pdf_page: 98
-statements: 21
+statements: 24
 exercises: 41
-content_sha256: 825c3897c1301031050f2a51d46d1bac1af9f15d6cd89ce5c50735334a20be3f
+content_sha256: 2641a422bf5f1599dcb4fcecb5b4ef7c23a8aeaccf778558140a456b8925c041
 ---
 
 ## § 7. POINTS EXTRÉMAUX ET GÉNÉRATRICES EXTRÉMALES
@@ -128,9 +128,18 @@ c) ⇒ a). C’est une conséquence évidente du th. de Krein-Milman.
 #### Remarque 1 {#evt-ii-s7-n1-rem-1 .statement}
 
 Même dans un espace vectoriel E de dimension finie, l’ensemble des points extrémaux d’un ensemble convexe compact n’est pas nécessairement fermé (II, p. 94, exerc. 11).
-2) Dans un espace localement convexe séparé non complet, si K est un ensemble compact dont l’enveloppe fermée convexe A ne soit pas compacte, il peut y avoir des points extrémaux de A qui n’appartiennent pas à K (II, p. 92, exerc. 2).
-3) Dans un espace de Banach E de dimension infinie, il peut se faire que la boule fermée de centre 0 et de rayon 1 ne possède aucun point extrémal (II, p. 94, exerc. 14).
-4) Si A est un ensemble convexe compact dans un espace localement convexe séparé, il peut se faire qu’un point extrémal de A n’appartienne à aucun hyperplan d’appui de A (II, p. 83, exerc. 11). La démonstration du th. 1 (II, p. 59) montre en tout cas que A est l’enveloppe fermée convexe de l’ensemble des points extrémaux de A appartenant à un hyperplan d’appui.
+
+#### Remarque 2 {#evt-ii-s7-n1-rem-2 .statement}
+
+Dans un espace localement convexe séparé non complet, si K est un ensemble compact dont l’enveloppe fermée convexe A ne soit pas compacte, il peut y avoir des points extrémaux de A qui n’appartiennent pas à K (II, p. 92, exerc. 2).
+
+#### Remarque 3 {#evt-ii-s7-n1-rem-3 .statement}
+
+Dans un espace de Banach E de dimension infinie, il peut se faire que la boule fermée de centre 0 et de rayon 1 ne possède aucun point extrémal (II, p. 94, exerc. 14).
+
+#### Remarque 4 {#evt-ii-s7-n1-rem-4 .statement}
+
+Si A est un ensemble convexe compact dans un espace localement convexe séparé, il peut se faire qu’un point extrémal de A n’appartienne à aucun hyperplan d’appui de A (II, p. 83, exerc. 11). La démonstration du th. 1 (II, p. 59) montre en tout cas que A est l’enveloppe fermée convexe de l’ensemble des points extrémaux de A appartenant à un hyperplan d’appui.
 
 ### 2. Génératrices extrémales des cônes convexes
 
@@ -220,7 +229,7 @@ Dans un espace vectoriel de dimension finie E, tout cône convexe fermé saillan
 
 #### Exemple 2 {#evt-ii-s7-n3-exa-2 .statement}
 
-Si X est un espace compact, le cône $\mathcal{M}_+(X)$ des mesures positives sur X, muni de la topologie vague, est un cône à semelle compacte (INT, III, 2e éd., § 1, no 9, cor. 3 de la prop. 15). \*
+\* Si X est un espace compact, le cône $\mathcal{M}_+(X)$ des mesures positives sur X, muni de la topologie vague, est un cône à semelle compacte (INT, III, 2e éd., § 1, no 9, cor. 3 de la prop. 15). \*
 
 ## EXERCICES {#evt-ii-s7-exercises}
 

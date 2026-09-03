@@ -43,9 +43,9 @@ subsections:
       title: UNIFORMITIES ON A TOPOLOGICAL DIVISION RING
       page: 282
       pdf_page: 288
-statements: 23
+statements: 24
 exercises: 26
-content_sha256: dcb0cb1caa65d1aeec0e6b82e7da15c59c5cd47bbe0e662c7ae93d14fa42ae2e
+content_sha256: a9bca1943e52417c112c4528a5184de8a0cf4ec20e911d77c5f0e4f0a736154a
 ---
 
 ## 6. TOPOLOGICAL GROUPS WITH OPERATORS; TOPOLOGICAL RINGS, DIVISION RINGS AND FIELDS
@@ -325,7 +325,10 @@ A division ring structure and a topology on a set $K$ are said to be *compatible
 #### Example 1 {#top-iii-s6-n7-exa-1 .statement}
 
 On any division ring $K$, the *discrete* topology is compatible with the division ring structure. A topological division ring whose topology is discrete is called a *discrete* division ring.
-\* 2) The topology of the rational line $Q$ (resp. the real line $R$) is compatible with the field structure of $R$ (resp. $R$) (see Chapter IV, § 3). \*
+
+#### Example 2 {#top-iii-s6-n7-exa-2 .statement}
+
+\* The topology of the rational line $Q$ (resp. the real line $R$) is compatible with the field structure of $R$ (resp. $R$) (see Chapter IV, § 3). \*
 
 Definition 4 shows that, if $K$ is a topological division ring, then the topology *induced* by that of $K$ on the multiplicative group $K^*$ is compatible with the group structure of $K^*$.
 

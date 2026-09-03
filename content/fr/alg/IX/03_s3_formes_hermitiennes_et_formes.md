@@ -26,9 +26,9 @@ subsections:
       title: Formes quadratiques.
       page: 0
       pdf_page: 52
-statements: 7
+statements: 9
 exercises: 0
-content_sha256: 0bb759b2ee3f2642c3cb5cbb61bbe2b238f671b8a55c5bd0897c6be64264dcf6
+content_sha256: d7b1f86699f25f6c6342441758539ed5b9788cef94369639bf68282d401e93ee
 ---
 
 ## § 3. Formes hermitiennes et formes quadratiques
@@ -58,7 +58,10 @@ En particulier, lorsque A est un corps, les éléments $\alpha$ du centre de A t
 #### Remarque 1 {#alg-ix-s3-n1-rem-1 .statement}
 
 Si $\Phi$ est une forme $\varepsilon$-hermitienne sur E, on a $\Phi(x, y) = \varepsilon \overline{\Phi(x, y)} \overline{\varepsilon}$ quels que soient $x, y$ dans E. Donc, si $\Phi$ prend des valeurs inversibles, on a $\varepsilon \overline{\varepsilon} = 1$.
-2) S’il existe un élément inversible $i$ du centre de A tel que $\overline{i} = i \varepsilon$, alors, pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que $i \Phi$ soit hermitienne.
+
+#### Remarque 2 {#alg-ix-s3-n1-rem-2 .statement}
+
+S’il existe un élément inversible $i$ du centre de A tel que $\overline{i} = i \varepsilon$, alors, pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que $i \Phi$ soit hermitienne.
 
 L’application $(y, x) \to \overline{\Phi(x, y)}$ étant sesquilinéaire pour J, pour que $\Phi$ soit $\varepsilon$-hermitienne, il faut et il suffit que l’on ait $\Phi(y, x) = \varepsilon \overline{\Phi(x, y)}$ lorsque $x$ et $y$ parcourent un système de générateurs de E. En particulier, si E admet une base finie $(e_i)_{1 \leq i \leq n}$, pour qu’une forme sesquilinéaire $\Phi$ sur E soit $\varepsilon$-hermitienne, il faut et il suffit que sa matrice $R = (\rho_{ij}) = (\Phi(e_i, e_j))$ vérifie les relations $\rho_{ji} = \varepsilon \overline{\rho_{ij}}$ quels que soient $i, j$, c’est-à-dire $'R = \varepsilon \overline{R}$ ; une matrice $R$ possédant cette propriété est dite $\varepsilon$-hermitienne. Lorsque $\varepsilon = 1$ (resp. $-1$) on dit que $R$ est hermitienne (resp. antihermitienne) relativement à l’antiautomorphisme J. Lorsque J est l’identité (donc A commutatif), une matrice hermitienne (resp. antihermitienne) $R$ est telle que $'R = R$ (resp. $'R = -R$) ; on dit alors que $R$ est une matrice symétrique (resp. antisymétrique). Pour que $\Phi$ soit une forme alternée, il faut et il suffit que sa matrice soit antisymétrique et, en outre, que les termes diagonaux de $R$ soient tous nuls ; une matrice possédant ces propriétés est dite alternée.
 
@@ -148,7 +151,10 @@ Il résulte de ceci que, pour qu’une forme sesquilinéaire $\Phi = \Phi_1 + i 
 #### Remarque 1 {#alg-ix-s3-n3-rem-1 .statement}
 
 Les formules (7) et (8) montrent que, si $x \in E$, pour que l’on ait $\Phi(x, x') = 0$ pour tout $x' \in E'$, il faut et il suffit que $\Phi_1(x, x') = 0$ (resp. $\Phi_2(x, x') = 0$) pour tout $x' \in E'$.
-2) L’adjoint d’un endomorphisme $u$ de $E$ par rapport à $\Phi$ ($§ 1$, n° 8) est le même que l’adjoint de $u$ (considéré comme endomorphisme de $E_0$) par rapport à $\Phi_1$ (resp. $\Phi_2$).
+
+#### Remarque 2 {#alg-ix-s3-n3-rem-2 .statement}
+
+L’adjoint d’un endomorphisme $u$ de $E$ par rapport à $\Phi$ ($§ 1$, n° 8) est le même que l’adjoint de $u$ (considéré comme endomorphisme de $E_0$) par rapport à $\Phi_1$ (resp. $\Phi_2$).
 
 ### 4. Formes quadratiques.
 

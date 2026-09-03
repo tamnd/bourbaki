@@ -63,9 +63,9 @@ subsections:
       title: Intervalles
       page: 14
       pdf_page: 118
-statements: 43
+statements: 50
 exercises: 24
-content_sha256: 4ed72a45881260361cdb2ad91b1adfa91d5ef7af0f5b3888b55f8dfea9b35134
+content_sha256: 17956b1a02fee70c6291e5281349e67b3533a7e336fa3ffef8ad9c4cfa05fac5
 ---
 
 ## § 1. RELATIONS D’ORDRE.. ENSEMBLES ORDONNÉS
@@ -323,9 +323,18 @@ Tout élément minimal de $E$ est un élément maximal pour l'ordre opposé, et 
 #### Exemple 1 {#ens-iii-s1-n6-exa-1 .statement tag=03SM}
 
 Soit $A$ un ensemble; dans la partie de $\mathcal{P}(A)$ (ordonnée par inclusion) formée des parties non vides de $A$, les éléments minimaux sont les parties réduites à un élément.
-2) Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$ ($F$ n'étant pas vide), ordonné par la relation « $v$ prolonge $u$ » entre $u$ et $v$, les éléments maximaux sont les applications de $E$ tout entier dans $F$.
-3) \* Dans l'ensemble des entiers naturels $> 1$, ordonné par la relation « $m$ divise $n$ » entre $m$ et $n$, les éléments minimaux sont les nombres premiers.*
-4) \* L'ensemble des nombres réels n'a pas d'élément maximal ni d'élément minimal.*
+
+#### Exemple 2 {#ens-iii-s1-n6-exa-2 .statement tag=03SN}
+
+Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$ ($F$ n'étant pas vide), ordonné par la relation « $v$ prolonge $u$ » entre $u$ et $v$, les éléments maximaux sont les applications de $E$ tout entier dans $F$.
+
+#### Exemple 3 {#ens-iii-s1-n6-exa-3 .statement tag=03SO}
+
+\* Dans l'ensemble des entiers naturels $> 1$, ordonné par la relation « $m$ divise $n$ » entre $m$ et $n$, les éléments minimaux sont les nombres premiers.*
+
+#### Exemple 4 {#ens-iii-s1-n6-exa-4 .statement tag=03SP}
+
+\* L'ensemble des nombres réels n'a pas d'élément maximal ni d'élément minimal.*
 
 ### 7. Plus grand élément; plus petit élément
 
@@ -342,7 +351,10 @@ Si $E$ admet un plus petit élément $a$, $a$ est l'unique élément minimal de 
 #### Exemple 1 {#ens-iii-s1-n7-exa-1 .statement tag=03SQ}
 
 Soit $\mathcal{G}$ une partie non vide de l'ensemble $\mathcal{P}(E)$ des parties d'un ensemble $E$. Si $\mathcal{G}$ admet un plus petit (resp. plus grand) élément $A$ pour la relation d'inclusion, $A$ n'est autre que l'intersection (resp. la réunion) des ensembles de $\mathcal{G}$. Réciproquement, si l'intersection (resp. la réunion) des ensembles de $\mathcal{G}$ appartient à $\mathcal{G}$, c'est le plus petit (resp. plus grand) élément de $\mathcal{G}$.
-2) En particulier, $\varnothing$ est le plus petit élément et $E$ le plus grand élément de $\mathcal{P}(E)$. Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$, ordonné par prolongement (III, p. 2, Exemple 3) l'application vide est le plus petit élément, et il n’y a pas de plus grand élément si F n’est pas réduit à un seul élément. Enfin, la diagonale Δ de E × E est le plus petit élément de l’ensemble des graphes des équivalences sur E (ou des préordres sur E).
+
+#### Exemple 2 {#ens-iii-s1-n7-exa-2 .statement tag=03SR}
+
+En particulier, $\varnothing$ est le plus petit élément et $E$ le plus grand élément de $\mathcal{P}(E)$. Dans l'ensemble $\Phi(E, F)$ des applications de parties de $E$ dans $F$, ordonné par prolongement (III, p. 2, Exemple 3) l'application vide est le plus petit élément, et il n’y a pas de plus grand élément si F n’est pas réduit à un seul élément. Enfin, la diagonale Δ de E × E est le plus petit élément de l’ensemble des graphes des équivalences sur E (ou des préordres sur E).
 
 #### Proposition 3 {#ens-iii-s1-prop-3 .statement tag=03JH}
 
@@ -484,7 +496,7 @@ Un ensemble ordonné qui admet un plus grand élément est filtrant à droite.
 
 #### Exemple 2 {#ens-iii-s1-n10-exa-2 .statement}
 
-Dans un espace topologique, un système fondamental de voisinages d’un point est filtrant pour la relation ⊃ (TG, I, § 1, no. 3).
+\* Dans un espace topologique, un système fondamental de voisinages d’un point est filtrant pour la relation ⊃ (TG, I, § 1, no. 3).
     3) L’ensemble des sous-modules de type fini d’un module quelconque (A, II, § 1, n° 7) est filtrant pour la relation ⊂.*
 
 #### Proposition 10 {#ens-iii-s1-prop-10 .statement tag=03QL}
@@ -526,9 +538,18 @@ Pour qu'un ordre sur E soit un ordre total, il faut et il suffit que son graphe 
 #### Exemple 1 {#ens-iii-s1-n12-exa-1 .statement tag=03SW}
 
 Toute partie d'un ensemble totalement ordonné est totalement ordonnée par l'ordre induit.
-2) Soit E un ensemble ordonné quelconque. La partie vide de E est totalement ordonnée, ainsi que toute partie réduite à un élément.
-3) \* L'ensemble $\mathbf{R}$ des nombres réels est totalement ordonné.*
-4) Si A est un ensemble ayant au moins deux éléments distincts, l'ensemble $\mathcal{P}(A)$, ordonné par inclusion, n'est pas totalement ordonné, car si $x \neq y$, les parties $\{x\}$ et $\{y\}$ ne sont pas comparables.
+
+#### Exemple 2 {#ens-iii-s1-n12-exa-2 .statement tag=03TW}
+
+Soit E un ensemble ordonné quelconque. La partie vide de E est totalement ordonnée, ainsi que toute partie réduite à un élément.
+
+#### Exemple 3 {#ens-iii-s1-n12-exa-3 .statement tag=03TX}
+
+\* L'ensemble $\mathbf{R}$ des nombres réels est totalement ordonné.*
+
+#### Exemple 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
+
+Si A est un ensemble ayant au moins deux éléments distincts, l'ensemble $\mathcal{P}(A)$, ordonné par inclusion, n'est pas totalement ordonné, car si $x \neq y$, les parties $\{x\}$ et $\{y\}$ ne sont pas comparables.
 
 Un ensemble totalement ordonné est aussi totalement ordonné pour l'ordre opposé; il est réticulé et a fortiori filtrant à droite et à gauche.
 

@@ -30,9 +30,9 @@ subsections:
       title: Compléments (*)
       page: 0
       pdf_page: 113
-statements: 23
+statements: 24
 exercises: 9
-content_sha256: 34cf95afc6ffb4bca7dd4bf6f166fe8583fa00af76b1fea6c733ddc70ebb734a
+content_sha256: bd5f798c399e8f3184a4d544fc6c8123aaf9ae9aed061884d635fbae19535788
 ---
 
 ## § 5. Invariants dans l’algèbre symétrique
@@ -485,7 +485,10 @@ Le fait que div(\mathcal{D}_{R'/R}) soit nul montre que div(d) = 0 (Alg. comm.),
 #### Remarque 1 {#lie-v-s5-n5-rem-1 .statement}
 
 Sous les hypothèses du th. 4, les degrés caractéristiques de R ont pour produit q (formule (6) et prop. 2 (iii)), donc sont étrangers à l’exposant caractéristique de K. C’est ce qu’on avait annoncé au no 3.
-2) Lorsqu’on ne suppose plus que Card (G) est inversible dans K, on a encore (ii) $\Longleftrightarrow$ (iii) (cf. lemme 5) et (ii) $\Longrightarrow$ (i) (cf. exerc. 8); l’implication (i) $\Longrightarrow$ (ii) n’est par contre plus vraie (exerc. 9).
+
+#### Remarque 2 {#lie-v-s5-n5-rem-2 .statement}
+
+Lorsqu’on ne suppose plus que Card (G) est inversible dans K, on a encore (ii) $\Longleftrightarrow$ (iii) (cf. lemme 5) et (ii) $\Longrightarrow$ (i) (cf. exerc. 8); l’implication (i) $\Longrightarrow$ (ii) n’est par contre plus vraie (exerc. 9).
 
 (*) Cela signifie que, pour tout i $\in \{1, 2, \ldots, s\}$, l’image canonique de $\alpha_i$ dans l’anneau
 

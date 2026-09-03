@@ -39,9 +39,9 @@ subsections:
       title: 'APPLICATION : THE POINCARÉ-VOLTERRA THEOREM'
       page: 114
       pdf_page: 120
-statements: 28
+statements: 29
 exercises: 25
-content_sha256: f12b0f535c856eb0eec6548992165cda0fcb6dde9247c96a02db10d1ed77685b
+content_sha256: 5ab006ece52fc10a02f50468e8151d7272eb775f4f73365d9abd2ab4b3f5796f
 ---
 
 ## 11. CONNECTEDNESS
@@ -59,7 +59,10 @@ If X is connected and if A, B are two non-empty open (resp. closed) subsets such
 #### Example 1 {#top-i-s11-n1-exa-1 .statement}
 
 We shall see in Chapter IV, § 2, no. 5 that the real line is connected, and that the rational line is not. \*
-2) A discrete space which has more than one point is not connected.
+
+#### Example 2 {#top-i-s11-n1-exa-2 .statement}
+
+A discrete space which has more than one point is not connected.
 
 #### Definition 2 {#top-i-s11-def-2 .statement}
 
@@ -67,7 +70,7 @@ We shall see in Chapter IV, § 2, no. 5 that the real line is connected, and tha
 
 For $A$ to be a connected subset of $X$ it is necessary and sufficient that, for each covering of $A$ by two open (or closed) subsets $B, C$ of $X$ such that $A \cap B$ and $A \cap C$ are non-empty, we have $A \cap B \cap C \neq \emptyset$.
 
-#### Example {#top-i-s11-n1-exa-2 .statement}
+#### Example {#top-i-s11-n1-exa-3 .statement}
 
 In any topological space, the empty set and every set consisting of a single point are connected. In a Hausdorff space $X$, every finite set consisting of more than one point is not connected, and more generally every subset of $X$ which has more than one point and which has at least one isolated point is not connected.
 

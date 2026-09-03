@@ -65,7 +65,7 @@ subsections:
       pdf_page: 212
 statements: 57
 exercises: 13
-content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
+content_sha256: c26bf20a582aa742f29736d90586757c3c9eeda4b62c48ac6556a17b97892062
 ---
 
 ## § 2. GENERAL RESULTS ON FILTERED RINGS AND MODULES
@@ -260,7 +260,7 @@ which is called *canonical*.
 
 #### Example 4 {#ac-iii-s2-n3-exa-4 .statement}
 
-Let $K$ be a commutative ring, $\mathfrak g$ a Lie algebra over $K$ and $U$ the enveloping algebra of $\mathfrak g$. An *increasing filtration* $(U_n)_{n\in\mathbf{Z}}$ is defined on $U$ by taking $U_n=\{0\}$ for $n<0$ and denoting by $U_n$, for $n\geq0$ the set of elements of $U$ which can be expressed as a sum of products of at most $n$ elements of $\mathfrak g$, then
+\* Let $K$ be a commutative ring, $\mathfrak g$ a Lie algebra over $K$ and $U$ the enveloping algebra of $\mathfrak g$. An *increasing filtration* $(U_n)_{n\in\mathbf{Z}}$ is defined on $U$ by taking $U_n=\{0\}$ for $n<0$ and denoting by $U_n$, for $n\geq0$ the set of elements of $U$ which can be expressed as a sum of products of at most $n$ elements of $\mathfrak g$, then
 
 U_0 = K and gr(U) is a commutative K-algebra (Lie Groups and Lie Algebras, Chapter I, § 2, no. 6). The canonical mapping of g to gr_1(U) = U_1/U_0 can be extended uniquely to a homomorphism h of the symmetric algebra $S(g)$ of the K-module g to the K-algebra gr(U); the homomorphism h is surjective and, if the K-module g is free, h is bijective (loc. cit., no. 7, Theorem 1).
 

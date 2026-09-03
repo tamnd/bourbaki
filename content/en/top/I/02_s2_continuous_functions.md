@@ -31,9 +31,9 @@ subsections:
       title: PASTING TOGETHER OF TOPOLOGICAL SPACES
       page: 34
       pdf_page: 40
-statements: 26
+statements: 30
 exercises: 11
-content_sha256: 16e7ac6daa7f6e8d5016ffb450612e74265560ae6512c3a4b479d5b88d5f0cf7
+content_sha256: c044a485f3338cd5bc6417619ddcd9ac1a31367237b2aa882532d457d8c926cd
 ---
 
 ## 2. CONTINUOUS FUNCTIONS
@@ -67,8 +67,14 @@ A mapping of a topological space $X$ into a topological space $X'$ is said to be
 #### Example 1 {#top-i-s2-n1-exa-1 .statement}
 
 The identity mapping of a topological space $X$ onto itself is continuous.
-2) A constant map of a topological space into a topological space is continuous.
-3) Every mapping of a discrete space into a topological space is continuous.
+
+#### Example 2 {#top-i-s2-n1-exa-2 .statement}
+
+A constant map of a topological space into a topological space is continuous.
+
+#### Example 3 {#top-i-s2-n1-exa-3 .statement}
+
+Every mapping of a discrete space into a topological space is continuous.
 
 #### Theorem 1 {#top-i-s2-thm-1 .statement}
 
@@ -92,7 +98,7 @@ and hence $x \in \overline{f^{-1}(A')} \subset \overline{f^{-1}(V')}$. By hypoth
 
 Remarks. 1) Let $\mathcal{B}$ be a base (§ 1, no. 3) of the topology of $X'$; then for $f : X \to X'$ to be continuous, it is necessary and sufficient that $\overline{f^{-1}(U')}$ is open in $X$ for every $U' \in \mathcal{B}$.
 
-#### Example {#top-i-s2-n1-exa-2 .statement}
+#### Example {#top-i-s2-n1-exa-4 .statement}
 
 Let $a$ be any rational number. The mapping $x \to a + x$ of the rational line $\mathbf{Q}$ into itself is continuous on $\mathbf{Q}$, for the inverse image under this mapping of an open interval $]b, c[$ is the open interval
 
@@ -104,7 +110,7 @@ Likewise, the mapping $x \to ax$ is continuous on $\mathbf{Q}$; this is clear if
 
 2) The direct image of an open (resp. closed) set of $X$ under a continuous mapping $f : X \to X'$ is not necessarily open (resp. closed) in $X'$ (cf. § 5).
 
-#### Example {#top-i-s2-n1-exa-3 .statement}
+#### Example {#top-i-s2-n1-exa-5 .statement}
 
 \* The mapping $f : x \to 1/(1 + x^2)$ of $\mathbf{R}$ into itself is continuous, but $f(\mathbf{R})$ is the half-open interval $]0, 1]$, which is neither open nor closed in $\mathbf{R}$. \*
 
@@ -164,8 +170,14 @@ if $x = (x_n)$ and $y = (y_n)$. Now if $\beta = \sup_{1 \leq i \leq n} \|a_i\|$,
 #### Remark 1 {#top-i-s2-n2-rem-1 .statement}
 
 In the ordered set of all topologies on a set $X$, the topology in which the only open sets are $\varnothing$ and $X$ is the coarsest and the discrete topology is the finest.
-2) The finer the topology, the more open sets, closed sets and neighbourhoods; the finer the topology, the smaller (resp. the larger) the closure (resp. the interior) of a set; the finer the topology, the fewer dense sets.
-3) If $f : X \to X'$ is a continuous mapping, it remains continuous if the topology of $X$ is replaced by a finer topology and the topology of $X'$ is replaced by a coarser topology (no. 1, Theorem 2). In other words, the finer the topology of $X$ and the coarser the topology of $X'$, the more continuous mappings there are of $X$ into $X'$.
+
+#### Remark 2 {#top-i-s2-n2-rem-2 .statement}
+
+The finer the topology, the more open sets, closed sets and neighbourhoods; the finer the topology, the smaller (resp. the larger) the closure (resp. the interior) of a set; the finer the topology, the fewer dense sets.
+
+#### Remark 3 {#top-i-s2-n2-rem-3 .statement}
+
+If $f : X \to X'$ is a continuous mapping, it remains continuous if the topology of $X$ is replaced by a finer topology and the topology of $X'$ is replaced by a coarser topology (no. 1, Theorem 2). In other words, the finer the topology of $X$ and the coarser the topology of $X'$, the more continuous mappings there are of $X$ into $X'$.
 
 ### 3. INITIAL TOPOLOGIES
 

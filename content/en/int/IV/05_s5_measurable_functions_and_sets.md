@@ -59,9 +59,9 @@ subsections:
       title: A property of vague convergence
       page: 86
       pdf_page: 193
-statements: 77
+statements: 79
 exercises: 30
-content_sha256: d2dd442a1870a24021fa0c3140fb4294fafea8355aea1aaaf03d6d89003a2756
+content_sha256: cafef13590e5fac8f8b8089f53dc63b8a0c799da5075967508e0612658483c73
 ---
 
 ## § 5. MEASURABLE FUNCTIONS AND SETS
@@ -308,8 +308,14 @@ the sets $B_{n,p}$ are measurable, and those that are nonempty form a partition 
 #### Remark 1 {#int-iv-s5-n5-rem-1 .statement}
 
 Condition a) alone is not sufficient for $f$ to be measurable (Exer. 7).
-2) If the topology of F has a countable base then condition b) of Th. 4 is automatically satisfied for every mapping of X into F. The proof shows, moreover, that it suffices to assume that the inverse images under $f$ of the closed balls with rational radii, whose centers belong to a dense countable subset of F, are measurable sets.
-3) The hypothesis a) can be replaced by the condition that the inverse image under $f$ of every open ball of F is measurable.
+
+#### Remark 2 {#int-iv-s5-n5-rem-2 .statement}
+
+If the topology of F has a countable base then condition b) of Th. 4 is automatically satisfied for every mapping of X into F. The proof shows, moreover, that it suffices to assume that the inverse images under $f$ of the closed balls with rational radii, whose centers belong to a dense countable subset of F, are measurable sets.
+
+#### Remark 3 {#int-iv-s5-n5-rem-3 .statement}
+
+The hypothesis a) can be replaced by the condition that the inverse image under $f$ of every open ball of F is measurable.
 
 The case of numerical functions (finite or not) deserves special mention:
 

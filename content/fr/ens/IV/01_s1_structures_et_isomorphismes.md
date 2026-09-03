@@ -41,7 +41,7 @@ subsections:
       pdf_page: 212
 statements: 13
 exercises: 1
-content_sha256: 165d8c8d322e06d651488e5100b254d0f3c9f149a5cb53e864be26c789802b5e
+content_sha256: 77b678bb39afcc800fea9d978ec3de7dfb020b87bf54133f0928865219092200
 ---
 
 ## § 1. STRUCTURES ET ISOMORPHISMES
@@ -329,7 +329,7 @@ Supposons que $\Theta$ ait mêmes ensembles de base (principaux et auxiliaires) 
 
 #### Exemple 4 {#ens-iv-s1-n6-exa-4 .statement}
 
-Si $\Sigma$ et $\Theta$ sont toutes deux l'espèce de structure de groupe (resp. d'anneau), on définit en Algèbre (A, I, § 1, no 5) un procédé de déduction associant à toute structure de groupe (resp. d'anneau) la structure de groupe (resp. d'anneau) sur son centre. Si $\Sigma$ est l'espèce de structure d'espace vectoriel sur un corps commutatif K, $\Theta$ l'espèce de structure d'algèbre sur K, on définit en A, III, §§ 5 et 7, des procédés de déduction associant à tout espace vectoriel sur K son algèbre tensorielle ou son algèbre extérieure. On rencontrera de nombreux autres exemples par la suite.*
+\* Si $\Sigma$ et $\Theta$ sont toutes deux l'espèce de structure de groupe (resp. d'anneau), on définit en Algèbre (A, I, § 1, no 5) un procédé de déduction associant à toute structure de groupe (resp. d'anneau) la structure de groupe (resp. d'anneau) sur son centre. Si $\Sigma$ est l'espèce de structure d'espace vectoriel sur un corps commutatif K, $\Theta$ l'espèce de structure d'algèbre sur K, on définit en A, III, §§ 5 et 7, des procédés de déduction associant à tout espace vectoriel sur K son algèbre tensorielle ou son algèbre extérieure. On rencontrera de nombreux autres exemples par la suite.*
 
 #### Remarque {#ens-iv-s1-n6-rem-1 .statement tag=03VH}
 

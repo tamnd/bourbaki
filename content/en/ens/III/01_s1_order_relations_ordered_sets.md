@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: dcf5b22649cb0eac4cf9ac3e2ac260375cc8586fc48653ab2f306ed22a25c53d
+content_sha256: a5da4e235c5eda5a4645c185a5eb39fdade9e354877a91848d203ab08d9c0218
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -317,11 +317,11 @@ In the set $\Phi(E, F)$ of mappings of subsets of E into F (F being non-empty), 
 
 #### Example 3 {#ens-iii-s1-n6-exa-3 .statement tag=03SO}
 
-In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. $_*$
+\* In the set of natural integers $> 1$, ordered by the relation "$m$ divides $n$" between $m$ and $n$, the minimal elements are the prime numbers. $_*$
 
 #### Example 4 {#ens-iii-s1-n6-exa-4 .statement tag=03SP}
 
-The set of real numbers has no maximal element and no minimal element. $_*$
+\* The set of real numbers has no maximal element and no minimal element. $_*$
 
 ### 7. GREATEST ELEMENT AND LEAST ELEMENT
 
@@ -467,7 +467,7 @@ is an upper bound of A; consequently $c' \geqslant a$ and therefore $a'_\varkapp
 
 #### Example 1 {#ens-iii-s1-n9-exa-1 .statement tag=03SS}
 
-In the ordered set $E = \mathbf{R}$ of real numbers, consider the subset $F = \mathbf{Q}$ of rational numbers and the set $A \subset F$ of rational numbers $< \sqrt{2}$; $\sup_E A$ exists but $\sup_F A$ does not.
+\* In the ordered set $E = \mathbf{R}$ of real numbers, consider the subset $F = \mathbf{Q}$ of rational numbers and the set $A \subset F$ of rational numbers $< \sqrt{2}$; $\sup_E A$ exists but $\sup_F A$ does not.
 
 #### Example 2 {#ens-iii-s1-n9-exa-2 .statement tag=03ST}
 
@@ -518,7 +518,7 @@ Every product of lattices is a lattice; this follows from the condition for the 
 
 #### Example 1 {#ens-iii-s1-n11-exa-1 .statement tag=03SV}
 
-The set of integers $\geqslant 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
+\* The set of integers $\geqslant 1$, ordered by the relation “$m$ divides $n$” between $m$ and $n$, is a lattice; the least upper bound of $\{m,n\}$ is the l.c.m. of $m$ and $n$, and the greatest lower bound is their h.c.f.
 
 #### Example 2 {#ens-iii-s1-n11-exa-2 .statement tag=03TT}
 
@@ -558,7 +558,7 @@ Let E be an arbitrary ordered set. The empty subset of E is totally ordered, and
 
 #### Example 3 {#ens-iii-s1-n12-exa-3 .statement tag=03TX}
 
-The set $\mathbf{R}$ of real numbers is totally ordered. \*
+\* The set $\mathbf{R}$ of real numbers is totally ordered. \*
 
 #### Example 4 {#ens-iii-s1-n12-exa-4 .statement tag=03TY}
 

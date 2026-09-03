@@ -19,9 +19,9 @@ subsections:
       title: Corps ordonnés
       page: 19
       pdf_page: 308
-statements: 32
+statements: 34
 exercises: 41
-content_sha256: ee612dde6081178bbeaa53c7197b09ae5e7000446bf05cbb41d6faa813c77501
+content_sha256: 034def1e6eaf6c0c8651a040d84e137d33d7854a0ecc8daa45e75c4921a77de1
 ---
 
 ## § 2. CORPS ORDONNÉS
@@ -39,14 +39,20 @@ L’anneau A, muni d’une telle structure d’ordre, est appelé un anneau ordo
 #### Exemple 1 {#alg-vi-s2-n1-exa-1 .statement}
 
 Les anneaux $\mathbf{Q}$ et $\mathbf{Z}$, ordonnés par l’ordre usuel, sont des anneaux ordonnés.
-2) Un produit d’anneaux ordonnés, muni de la structure d’ordre produit, est un anneau ordonné. En particulier, l’anneau $A^E$ des applications d’un ensemble E dans un anneau ordonné A est un anneau ordonné.
-3) Un sous-anneau d’un anneau ordonné, ordonné par l’ordre induit, est un anneau ordonné.
+
+#### Exemple 2 {#alg-vi-s2-n1-exa-2 .statement}
+
+Un produit d’anneaux ordonnés, muni de la structure d’ordre produit, est un anneau ordonné. En particulier, l’anneau $A^E$ des applications d’un ensemble E dans un anneau ordonné A est un anneau ordonné.
+
+#### Exemple 3 {#alg-vi-s2-n1-exa-3 .statement}
+
+Un sous-anneau d’un anneau ordonné, ordonné par l’ordre induit, est un anneau ordonné.
 
 Dans un anneau ordonné, les relations $x \geq y$ et $z \geq 0$ entraînent $xz \geq yz$. En effet ces inégalités sont respectivement équivalentes à $x - y \geq 0, z \geq 0$ et $(x - y) z \geq 0$.
 
 On démontre de façon analogue que les relations $x \leq 0$ et $y \geq 0$ (resp. $y \leq 0$) entraînent $xy \leq 0$ (resp. $xy \geq 0$). Ces résultats sont souvent invoqués sous le nom de règles des signes (deux éléments étant dits de même signe s’ils sont tous deux $\geq 0$ ou tous deux $\leq 0$). Ils entraînent que, si A est un anneau totalement ordonné, tout carré est positif, et, en particulier, que tout idempotent (par exemple l’élément unité) est positif.
 
-#### Exemple {#alg-vi-s2-n1-exa-2 .statement}
+#### Exemple {#alg-vi-s2-n1-exa-4 .statement}
 
 Sur $\mathbf{Z}$ il n’y a qu’une seule structure d’anneau totalement ordonné : en effet on a $1 > 0$, d’où $n > 0$, par récurrence, pour tout entier naturel $n \neq 0$. Il existe par contre sur $\mathbf{Z}$ des structures d’anneau ordonné, mais non totalement ordonné (*cf.* ci-dessous).
 
@@ -68,7 +74,7 @@ $$
 \mathrm{AP}_{IV} \qquad P \cup (-P) = A.
 $$
 
-#### Exemple {#alg-vi-s2-n1-exa-3 .statement}
+#### Exemple {#alg-vi-s2-n1-exa-5 .statement}
 
 Si, dans $\mathbf{Z}$, on prend pour $P$ l’ensemble des entiers positifs (au sens usuel) et pairs, on obtient une structure d’anneau *non* totalement ordonné.
 

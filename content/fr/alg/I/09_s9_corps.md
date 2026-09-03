@@ -27,9 +27,9 @@ subsections:
       title: Le corps des nombres rationnels
       page: 111
       pdf_page: 121
-statements: 17
+statements: 18
 exercises: 21
-content_sha256: a39d654de2d46a15dc782fe2db07454b2b4367832a6258b29d4e46169768a183
+content_sha256: c380280d9031de5a323ee8e7572d2e54428ccf0eeb4317faced9cfb54d719eca
 ---
 
 ## § 9. CORPS
@@ -146,7 +146,10 @@ Dans un anneau commutatif $A$, on appelle idéal premier un idéal $p$ vérifian
 #### Exemple 1 {#alg-i-s9-n3-exa-1 .statement}
 
 Soit $A$ un anneau commutatif. Si $m$ est un idéal maximal de $A$, $m$ est premier; en effet, l’anneau $A/m$ est un corps (I, p. 109, cor. 1).
-2) Si $A$ est un anneau intègre, l’idéal $\{0\}$ de $A$ est premier (mais non maximal en général, comme le prouve l’exemple de l’anneau $\mathbf{Z}$).
+
+#### Exemple 2 {#alg-i-s9-n3-exa-2 .statement}
+
+Si $A$ est un anneau intègre, l’idéal $\{0\}$ de $A$ est premier (mais non maximal en général, comme le prouve l’exemple de l’anneau $\mathbf{Z}$).
 
 ### 4. Le corps des nombres rationnels
 

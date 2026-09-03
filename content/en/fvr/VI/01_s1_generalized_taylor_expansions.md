@@ -39,9 +39,9 @@ subsections:
       title: THE EULER-MACLAURIN SUMMATION FORMULA
       page: 282
       pdf_page: 297
-statements: 20
+statements: 21
 exercises: 3
-content_sha256: c5d02763e0ba81f180ba651433971351bc4433064e4281ee8e880b60ece6ef27
+content_sha256: 8fabc0a9721d5d38c131fc13fd57ab80f006226839dcd518e1d9f390e0f0a773
 ---
 
 ## § 1. GENERALIZED TAYLOR EXPANSIONS
@@ -82,7 +82,10 @@ $$
 #### Example 1 {#fvr-vi-s1-n1-exa-1 .statement}
 
 For every $\lambda \in K$ the operator which to every polynomial $f(X)$ associates the polynomial $f(X + \lambda)$ is a composition operator.
-2) The derivation D on K[X] is a composition operator (*cf.* prop. 1).
+
+#### Example 2 {#fvr-vi-s1-n1-exa-2 .statement}
+
+The derivation D on K[X] is a composition operator (*cf.* prop. 1).
 
 #### Remark {#fvr-vi-s1-n1-rem-1 .statement}
 
@@ -148,7 +151,7 @@ One verifies immediately that this map is an homomorphism. It remains to see tha
 
 *The algebra $\Gamma$ of composition operators in $K[X]$ is commutative.*
 
-#### Example {#fvr-vi-s1-n1-exa-2 .statement}
+#### Example {#fvr-vi-s1-n1-exa-3 .statement}
 
 If $U$ is the operator which to each polynomial $f(X)$ associates $f(X + \lambda)$ (where $\lambda \in K$), one has $U_0(X^k) = \lambda^k$, and so $U = \sum_{k=0}^{\infty} \frac{1}{k!} (\lambda D)^k$. By analogy with the series expansion of $e^{\lambda}$ (III, p. 105) we write $e^S$ or $\exp(S)$ for the formal series $\sum_{n=0}^{\infty} \frac{1}{n!} S^n$ in the ring $K[[S]]$; so one can write $U = e^{\lambda D}$. Replacing the field $K$ by the field of rational fractions $K(Y)$ in this argument one sees similarly that the *translation operator* $T_Y$ can be written $e^{YD}$.
 

@@ -62,9 +62,9 @@ subsections:
       title: Éléments extrémaux
       page: 16
       pdf_page: 305
-statements: 52
+statements: 53
 exercises: 36
-content_sha256: af0e37d4d46945de0a0c4108c90fd198171ff9250cd1b866a07a6baf0bc972be
+content_sha256: 1ced6e5a52dfa292e0156bac750c4e3ad086c3bbfb517fd843b49d68f60e1359
 ---
 
 ## § 1. GROUPES ORDONNÉS. DIVISIBILITÉ
@@ -87,7 +87,10 @@ Si une structure d’ordre est compatible avec la structure d’un monoïde, il 
 
 Le groupe additif des entiers rationnels et celui des nombres rationnels sont des groupes ordonnés quand on les munit des structures d’ordre définies en I, p. 20 et 112.
 \* Il en est de même du groupe additif des nombres réels (TG, IV, p. 3). \*
-2) \* Le groupe additif des fonctions numériques finies définies dans un ensemble E est un groupe ordonné pour la structure d’ordre définie par la relation « quel que soit $x \in E, f(x) \leq g(x)$ » que l’on écrit « $f \leq g$ ». Cette relation exprime que le graphe de la fonction $f$ est au-dessous de celui de la fonction $g$; le lecteur pourra trouver commode de se reporter quelquefois à cette interprétation graphique. \*
+
+#### Exemple 2 {#alg-vi-s1-n1-exa-2 .statement}
+
+\* Le groupe additif des fonctions numériques finies définies dans un ensemble E est un groupe ordonné pour la structure d’ordre définie par la relation « quel que soit $x \in E, f(x) \leq g(x)$ » que l’on écrit « $f \leq g$ ». Cette relation exprime que le graphe de la fonction $f$ est au-dessous de celui de la fonction $g$; le lecteur pourra trouver commode de se reporter quelquefois à cette interprétation graphique. \*
 
 Conformément aux définitions générales (E, IV, p. 6), une application bijective $f$ d’un monoïde ordonné $M$ sur un monoïde ordonné $M'$ est appelée un isomorphisme de $M$ sur $M'$ si la structure de $M'$ est obtenue en transportant celle de $M$ au moyen de $f$. Il revient au même de dire que $f$ est une application de $M$ sur $M'$ telle que
 

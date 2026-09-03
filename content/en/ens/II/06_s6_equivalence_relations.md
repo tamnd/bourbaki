@@ -50,7 +50,7 @@ subsections:
       pdf_page: 128
 statements: 12
 exercises: 11
-content_sha256: 6bc9ceffca6d2226ba430227dbf5798495a6ee810349140ce93677c7c35070e9
+content_sha256: 34434166c91ffe07e36816eaaf32679a1e1dcc4ba8f1c3152077c5aae1d4c201
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -234,7 +234,7 @@ The relation "$x \in E$ and $y \in E$ and $x = y$" is finer than every equivalen
 
 #### Example 2 {#ens-ii-s6-n7-exa-2 .statement tag=03SG}
 
-The equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is finer than the equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 2". \*
+\* The equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is finer than the equivalence relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 2". \*
 
 Let R and S be two equivalence relations on the same set E, such that S is finer than R. Let $f$ and $g$ be the canonical mappings of E onto E/R and E onto E/S respectively; then the function $f$ is compatible with S. Let $h$ be the function induced by $f$ on passing to the quotient with respect to S; then $h$ is a mapping of E/S onto E/R. The equivalence relation associated with $h$ on E/S is called the *quotient of* R *by* S and is denoted by R/S. The relation $x \equiv y \pmod{R}$ is equivalent to $g(x) \equiv g(y) \pmod{R/S}$, and the equivalence classes with respect to R/S are the images under $g$ of the equivalence classes with respect to R. Let $h = j \circ h_2 \circ h_1$ be the canonical decomposition (no. 5) of the mapping $h$. Then $h_1$ is the canonical mapping of E/S onto (E/S)/(R/S), $j$ is the identity mapping of E/R, and $h_2$ is a one-to-one mapping of (E/S)/(R/S) onto E/R. The mapping $h_2$ and its inverse are said to be *canonical*.
 

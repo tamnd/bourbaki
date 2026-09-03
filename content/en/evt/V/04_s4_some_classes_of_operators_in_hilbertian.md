@@ -46,9 +46,9 @@ subsections:
       title: Trace of a quadratic form with respect to another
       page: 57
       pdf_page: 315
-statements: 48
+statements: 49
 exercises: 0
-content_sha256: e91bc304651ce770d0fd7f9268828dea76e99a75428b9ae2fa319330bd7c91db
+content_sha256: 862397a04809e43cf52a7e0b9307c3b072c635ff34b374a17f212b67a8280c49
 ---
 
 ## § 4. SOME CLASSES OF OPERATORS IN HILBERTIAN SPACES
@@ -452,7 +452,10 @@ $$
 \|u\| = \sup(|m(u)|, |M(u)|).
 $$
 \* For another proof of this formula when $K$ is $\mathbf{C}$, see prop. 14 of TS, I, § 6, No. 8. \*
-2) Let $M$ and $N$ be two closed vector subspaces of $E$, and $p_M$ (resp. $p_N$) the orthoprojector from $E$ onto $M$ (resp. $N$). Then $M \subset N$ if and only if $p_M \leq p_N$. For, we have $p_M^* p_M = p_M$, hence
+
+#### Remark 2 {#evt-v-s4-n5-rem-2 .statement}
+
+Let $M$ and $N$ be two closed vector subspaces of $E$, and $p_M$ (resp. $p_N$) the orthoprojector from $E$ onto $M$ (resp. $N$). Then $M \subset N$ if and only if $p_M \leq p_N$. For, we have $p_M^* p_M = p_M$, hence
 $$
 \|p_M(x)\|^2 = \langle p_M(x)|p_M(x)\rangle = \langle x|p_M^* p_M(x)\rangle = \langle x|p_M(x)\rangle
 $$
@@ -765,7 +768,7 @@ Let I and J be two sets. By the proof given above, in order that a mapping $u$ f
 
 #### Example 2 {#evt-v-s4-n7-exa-2 .statement}
 
-Let X and Y be two Hausdorff topological spaces, endowed respectively with positive measures $\mu$ and $\nu$. We can show that the Hilbert-Schmidt mappings from $\mathcal{L}^2(X)$ into $\mathcal{L}^2(Y)$ correspond bijectively to classes of square integrable functions on $Y \times X$; to the class of a function $N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu)$ corresponds the mapping $u_N$ given by
+\* Let X and Y be two Hausdorff topological spaces, endowed respectively with positive measures $\mu$ and $\nu$. We can show that the Hilbert-Schmidt mappings from $\mathcal{L}^2(X)$ into $\mathcal{L}^2(Y)$ correspond bijectively to classes of square integrable functions on $Y \times X$; to the class of a function $N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu)$ corresponds the mapping $u_N$ given by
 $$
 (u_N f)(y) = \int_X N(y, x) f(x) \, d\mu(x)
 $$

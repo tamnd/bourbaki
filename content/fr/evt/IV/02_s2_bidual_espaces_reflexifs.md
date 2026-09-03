@@ -31,9 +31,9 @@ subsections:
       title: Espaces de Montel
       page: 18
       pdf_page: 204
-statements: 31
+statements: 34
 exercises: 26
-content_sha256: a6f71770eb1f225069d87623e20c52bda11c78510530f61de6cdda8373fe2609
+content_sha256: e6722903ebc281254eb64317db1378ab5062b413f45e36d36748bd41a178c207
 ---
 
 ## § 2. BIDUAL. ESPACES RÉFLEXIFS
@@ -100,8 +100,14 @@ Soit B une partie bornée de M. Comme B est bornée dans E, et que la topologie 
 #### Remarque 1 {#evt-iv-s2-n2-rem-1 .statement}
 
 Supposons E semi-réflexif. Toute partie de E qui est convexe, bornée et fermée pour la topologie initiale est compacte pour la topologie $\sigma(E, E')$ (IV, p. 1, prop. 1). \* Par contre, la sphère unité (d’équation $\|x\| = 1$) d’un espace hilbertien E de dimension infinie est bornée et fermée pour la topologie initiale, mais elle n’est pas fermée pour la topologie affaiblie, bien que E soit semi-réflexif. \*
-2) D’après la remarque 3 de IV, p. 5, on peut reformuler comme suit le th. 1 : l’espace séparé E est semi-réflexif si et seulement s’il est quasi-complet pour sa topologie affaiblie. S’il est semi-réflexif, il est donc quasi-complet pour sa topologie initiale (IV, p. 5, Remarque 2).
-3) Sous les hypothèses du corollaire ci-dessus, l’espace E/M n’est pas nécessairement semi-réflexif (IV, p. 64, exerc. 10).
+
+#### Remarque 2 {#evt-iv-s2-n2-rem-2 .statement}
+
+D’après la remarque 3 de IV, p. 5, on peut reformuler comme suit le th. 1 : l’espace séparé E est semi-réflexif si et seulement s’il est quasi-complet pour sa topologie affaiblie. S’il est semi-réflexif, il est donc quasi-complet pour sa topologie initiale (IV, p. 5, Remarque 2).
+
+#### Remarque 3 {#evt-iv-s2-n2-rem-3 .statement}
+
+Sous les hypothèses du corollaire ci-dessus, l’espace E/M n’est pas nécessairement semi-réflexif (IV, p. 64, exerc. 10).
 
 ### 3. Espaces réflexifs
 
@@ -124,7 +130,10 @@ Si E est réflexif, $E'_b$ est réflexif (prop. 4) et par suite E est tonnelé (
 #### Remarque 1 {#evt-iv-s2-n3-rem-1 .statement}
 
 Soit E un espace hilbertien réel de dimension infinie. Notons F l’espace E muni de la topologie affaiblie. Les espaces E et F ont même dual E', et E est un espace de Banach réflexif (V, p. 16). Par suite, F est semi-réflexif. Cependant sur E, la topologie forte et la topologie affaiblie sont distinctes, donc F n’est pas réflexif. \*
-2) Soient E un espace réflexif et M un sous-espace vectoriel fermé de E. Il se peut que ni M, ni E/M, ne soient des espaces réflexifs (IV, p. 64, exerc. 10). \* Pour le cas des espaces normés, voir la prop. 7 de IV, p. 17. \*
+
+#### Remarque 2 {#evt-iv-s2-n3-rem-2 .statement}
+
+Soient E un espace réflexif et M un sous-espace vectoriel fermé de E. Il se peut que ni M, ni E/M, ne soient des espaces réflexifs (IV, p. 64, exerc. 10). \* Pour le cas des espaces normés, voir la prop. 7 de IV, p. 17. \*
 
 ### 4. Cas des espaces normés
 
@@ -191,11 +200,11 @@ pour $x \in c_0(\mathbf{N})$ et $x' \in \ell^1(\mathbf{N})$. De même, le dual d
 
 #### Exemple 2 {#evt-iv-s2-n4-exa-2 .statement}
 
-Tout espace hilbertien est un espace de Banach réflexif (V, p.16).
+\* Tout espace hilbertien est un espace de Banach réflexif (V, p.16).
 
 #### Exemple 3 {#evt-iv-s2-n4-exa-3 .statement}
 
-Soient X un espace topologique séparé et $\mu$ une mesure complexe sur X. Pour tout nombre réel $p > 1$, l’espace de Banach $L^p(X, \mu)$ est réflexif, et son dual s’identifie à $L^q(X, \mu)$ avec $p^{-1} + q^{-1} = 1$ (INT, V, 2e édit., § 5, no 8 et IX, § 1, no 10).
+\* Soient X un espace topologique séparé et $\mu$ une mesure complexe sur X. Pour tout nombre réel $p > 1$, l’espace de Banach $L^p(X, \mu)$ est réflexif, et son dual s’identifie à $L^q(X, \mu)$ avec $p^{-1} + q^{-1} = 1$ (INT, V, 2e édit., § 5, no 8 et IX, § 1, no 10).
 
 ### 5. Espaces de Montel
 
@@ -219,7 +228,7 @@ Toute limite inductive stricte E d’une suite $(E_n)$ d’espaces de Montel (II
 
 #### Exemple 4 {#evt-iv-s2-n5-exa-4 .statement}
 
-Soit U un ouvert de $\mathbf{R}^n$ et soit $\mathcal{C}^\infty(U)$ l’espace de Fréchet des fonctions indéfiniment dérivables sur U (III, p. 9). Démontrons que c’est un espace de Montel. Comme $\mathcal{C}^\infty(U)$ est un espace de Fréchet, il est tonnelé (III, p. 25, corollaire). Soit B une partie bornée de $\mathcal{C}^\infty(U)$, et soit K une partie compacte de U. Pour tout $\alpha \in \mathbf{N}^n$, soit $H_{\alpha, K}$ l’ensemble des restrictions à K des fonctions $\partial^\alpha f$, où $f$ parcourt B. Soit $\alpha \in \mathbf{N}^n$; pour tout $\beta \in \mathbf{N}^n$ tel que $|\beta| = |\alpha| + 1$, l’ensemble $H_{\beta, K}$ est borné dans $\mathcal{C}(K)$ puisque B est borné dans $\mathcal{C}^\infty(U)$; d’après VAR, R., no 2.2.3, l’ensemble $H_{\alpha, K}$ est équicontinu, donc (TG, X, p. 17) relativement compact dans $\mathcal{C}(K)$. Or la topologie de $\mathcal{C}^\infty(U)$ est la moins fine des topologies rendant continues les applications $f \mapsto \partial^\alpha f|K$ de $\mathcal{C}^\infty(U)$ dans $\mathcal{C}(K)$, donc B est relativement compacte dans $\mathcal{C}^\infty(U)$ (TG, I, p. 26, prop. 3 et p. 64, corollaire).
+\* Soit U un ouvert de $\mathbf{R}^n$ et soit $\mathcal{C}^\infty(U)$ l’espace de Fréchet des fonctions indéfiniment dérivables sur U (III, p. 9). Démontrons que c’est un espace de Montel. Comme $\mathcal{C}^\infty(U)$ est un espace de Fréchet, il est tonnelé (III, p. 25, corollaire). Soit B une partie bornée de $\mathcal{C}^\infty(U)$, et soit K une partie compacte de U. Pour tout $\alpha \in \mathbf{N}^n$, soit $H_{\alpha, K}$ l’ensemble des restrictions à K des fonctions $\partial^\alpha f$, où $f$ parcourt B. Soit $\alpha \in \mathbf{N}^n$; pour tout $\beta \in \mathbf{N}^n$ tel que $|\beta| = |\alpha| + 1$, l’ensemble $H_{\beta, K}$ est borné dans $\mathcal{C}(K)$ puisque B est borné dans $\mathcal{C}^\infty(U)$; d’après VAR, R., no 2.2.3, l’ensemble $H_{\alpha, K}$ est équicontinu, donc (TG, X, p. 17) relativement compact dans $\mathcal{C}(K)$. Or la topologie de $\mathcal{C}^\infty(U)$ est la moins fine des topologies rendant continues les applications $f \mapsto \partial^\alpha f|K$ de $\mathcal{C}^\infty(U)$ dans $\mathcal{C}(K)$, donc B est relativement compacte dans $\mathcal{C}^\infty(U)$ (TG, I, p. 26, prop. 3 et p. 64, corollaire).
 
 De même, l’espace $\mathcal{C}_0^\infty(U)$ des fonctions indéfiniment dérivables à support compact dans U (III, p. 9) est un espace de Montel. En effet, $\mathcal{C}_0^\infty(U)$ est limite inductive stricte d’une suite d’espaces de Fréchet $\mathcal{C}_{H_n}^\infty(U)$ (III, p. 9), et il suffit de voir que chacun des espaces $\mathcal{C}_{H_n}^\infty(U)$ est un espace de Montel (Exemple 3). Mais une partie bornée et fermée de $\mathcal{C}_{H_n}^\infty(U)$ est bornée et fermée dans $\mathcal{C}^\infty(U)$, donc compacte dans $\mathcal{C}^\infty(U)$, et par suite dans $\mathcal{C}_{H_n}^\infty(U)$. \*
 
