@@ -869,7 +869,7 @@ $$
 \langle e_j|v(e_i)\rangle = \langle u(e_j)|u(e_i)\rangle = 0
 $$
 
-hence $v(e_i)$ is proportional to $e_i$ and is of the form $\lambda_i e_i$, where $\lambda_i = \langle e_i | v(e_i) \rangle$; then
+hence $v(e_i)$ is proportional to $e_i$ and is có dạng $\lambda_i e_i$, where $\lambda_i = \langle e_i | v(e_i) \rangle$; then
 
 $$
 \lambda_i \geqslant 0 \quad \text{và} \quad \sum_{i \in I} \lambda_i = \operatorname{Tr}(v) < + \infty .

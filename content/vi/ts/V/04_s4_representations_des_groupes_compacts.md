@@ -427,7 +427,7 @@ dim($\pi$ )$(\chi_{\pi}*\chi_{\sigma}) =$ dim($\pi$ )$\boldsymbol{\gamma }_G(\ch
 
 #### Bổ đề 2 {#ts-v-s4-lem-2 .statement tag=03EI}
 
-Đồ thị của quan hệ tương đương “ $x\in G$ and $y\in G$ and $x$ liên hợp với $y$ ” trong G là đóng.
+Đồ thị của quan hệ tương đương “ $x\in G$ và $y\in G$ và $x$ liên hợp với $y$ ” trong G là đóng.
 
 Thật vậy, đồ thị này là ảnh của ánh xạ liên tục từ không gian compact $G\times G$ vào chính nó được xác định bởi $(x, y)\mapsto (x, yxy^{-1})$.
 
