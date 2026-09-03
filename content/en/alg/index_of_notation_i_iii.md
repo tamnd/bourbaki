@@ -14,7 +14,7 @@ pdf_pages: 0693-0700
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 94347fd66e173e65951935427b2336d1e8ce0bea412ca7d80f2c918171a0a629
+content_sha256: 8a424fca61e04ef992f3e04c2e0f2ca67276613ab84265a8697f3741ebf26a56
 ---
 
 ## INDEX OF NOTATION

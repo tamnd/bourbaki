@@ -7,7 +7,7 @@ section: 7
 section_title: Le théorème d'Ado
 lang: fr
 source: lie-i-fr
-pdf_pages: 0093-0098, 0133-0144
+pdf_pages: 0093-0098, 0133-0134
 extraction: ocr
 subsections:
     - "no": 1
@@ -23,7 +23,7 @@ subsections:
       page: 0
       pdf_page: 97
 statements: 5
-exercises: 7
+exercises: 3
 content_sha256: 9cb4ad4aa60aa4680b54877f60cc8f78bcfa9d67c3ddd0033d2ce268e2060b55
 ---
 

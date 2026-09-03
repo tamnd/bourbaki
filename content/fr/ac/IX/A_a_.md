@@ -8,8 +8,8 @@ section_title: ""
 appendix: true
 lang: fr
 source: ac-viii-ix-fr
-book_pages: AC IX.37-AC IX.42
-pdf_pages: 0149-0154, 0196-0204
+book_pages: AC IX.37-AC IX.42, AC IX.84-AC IX.85
+pdf_pages: 0149-0154, 0196-0197
 extraction: ocr
 subsections:
     - "no": 1
@@ -25,7 +25,7 @@ subsections:
       page: 41
       pdf_page: 153
 statements: 13
-exercises: 7
+exercises: 6
 content_sha256: e864a39e88aa1bca01230c31821898c8ee21312c13fac765353afd8926e19614
 ---
 

@@ -374,6 +374,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 2bcebe9c1bad51f3b65dd12b69d32284a1059ae2a6034a8612a8d13e5a224c84
+      notation_index:
+        kind: notation
+        title: NOTATION INDEX
+        path: content/en/alg/index_of_notation_viii.md
+        first_pdf_page: 498
+        last_pdf_page: 499
+        book_pages: A VIII.483-A VIII.484
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native+ocr
+        content_sha256: e633dc9b1bc180a0e0585f2bca7cd63d91b180e0238e744c10a93b3f2317f880
+      terminology_index:
+        kind: terminology
+        title: TERMINOLOGY INDEX
+        path: content/en/alg/index_of_terminology_viii.md
+        first_pdf_page: 500
+        last_pdf_page: 505
+        book_pages: A VIII.485-A VIII.490
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 332f485f89487788ab8d13addc9111577068efa9732a023aad6de5b0dbeadd8a
     - id: alg-viii-fr
       reader_note:
         kind: reader
@@ -748,6 +772,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 53bfefe49c0eefce493bab5d970cdd9165b10100bbd4fb0ed0b7f0f97f4c652d
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_viii.md
+        first_pdf_page: 472
+        last_pdf_page: 473
+        book_pages: A VIII.473-A VIII.474
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 18b5328ac3bbc088cb91885fb0486b6eda355b20e6a8d2b0ec4bd318c1ce8916
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_viii.md
+        first_pdf_page: 474
+        last_pdf_page: 480
+        book_pages: A VIII.475-A VIII.481
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 68f66f14462203968b40d1e478bb2ea6f854cd1da1a4f2428cdf0193a2c44311
     - id: lie-vii-ix
       chapters:
         - chapter: VII
@@ -1009,7 +1057,7 @@ books:
               statements: 29
               exercises: 17
               extraction: native+ocr
-              content_sha256: 9fa596e246cac621b5b9e0b269c472085fd46db9e470656f32a0223db1df02b5
+              content_sha256: 69278bbf0e9945c81205a66c4f831ee0a6453557fe5210e0d6d6b4fcf1775ef3
             - kind: section
               section: 12
               title: Chevalley orders
@@ -1192,6 +1240,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 166c8e4a3ff2601758b90e2cbc28e90c5ad2ac9dc57f18a2eb1d30f70fa6ca87
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/lie/index_of_notation_vii_ix.md
+        first_pdf_page: 433
+        last_pdf_page: 435
+        book_pages: 427-429
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 4bb21834fe832196d7c8e1f4a29b4ae77709ab1e2d995823ccf2d7f72de1395f
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/lie/index_of_terminology_vii_ix.md
+        first_pdf_page: 436
+        last_pdf_page: 439
+        book_pages: 431-434
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 8695e3c48c5c9eb3f09799a7a04b338220947ab357651e65919bb1e4dcb5d0bd
     - id: ta-i-iv-fr
       reader_note:
         kind: reader
@@ -1558,6 +1630,30 @@ books:
               exercises: 9
               extraction: native
               content_sha256: 07449d365571676c544d1619988ed7e8c13e4b70374afbf038ed0d746cfaa9f5
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ta/index_of_notation_i_iv.md
+        first_pdf_page: 497
+        last_pdf_page: 499
+        book_pages: TA IV.481-TA IV.483
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: f66bd8f19732f7dc7ff91eaac947834f6db507c417c0258a4428527705e11ad2
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ta/index_of_terminology_i_iv.md
+        first_pdf_page: 500
+        last_pdf_page: 506
+        book_pages: TA IV.484-TA IV.490
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 5d38d9b0e3da952c4fe19e3b5ad55b82d3269e44d561e5a0b3ccaa2fc1920d1d
     - id: ts-i-ii-fr
       reader_note:
         kind: reader
@@ -1753,6 +1849,30 @@ books:
               exercises: 19
               extraction: native
               content_sha256: 53b9dd4c4ef649cd2bc5283995540b3c864a2e7f5144d3f97d442f0fa2bfffc2
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ts/index_of_notation_i_ii.md
+        first_pdf_page: 335
+        last_pdf_page: 337
+        book_pages: TS II.323-TS II.325
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: f7477ddefa33b8d3777c3d4a35c697130c106781f596ec21b250fb08d05ef773
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ts/index_of_terminology_i_ii.md
+        first_pdf_page: 338
+        last_pdf_page: 342
+        book_pages: TS II.326-TS II.330
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: de6d2a931ccb0a8542238a5b45aee1e3caa2ed208e49698f32e74df49a45a10f
     - id: ts-iii-v-fr
       reader_note:
         kind: reader
@@ -1921,7 +2041,7 @@ books:
               statements: 46
               exercises: 33
               extraction: native
-              content_sha256: 3d17c966d69171e8d653683de206a3ba30cca6eb8de3f8fd0cd8b5105dcf851c
+              content_sha256: e1ee01b7a6f9e8d296dfada69017677bfc6171362b35b5f32512bb9b7a1e92c0
             - kind: section
               section: 4
               title: Opérateurs partiels
@@ -1987,7 +2107,7 @@ books:
               statements: 45
               exercises: 20
               extraction: native
-              content_sha256: f35f594201c7156dde4597f94f43df4226aa2d4af3cf832fbc825c8eb90246ae
+              content_sha256: 781d46e7c533bed2aee07734fa5c2ba8573bef6b91dbc7c428eabbe625b92282
             - kind: section
               section: 3
               title: Fonctions de type positif
@@ -2000,7 +2120,7 @@ books:
               statements: 39
               exercises: 23
               extraction: native
-              content_sha256: cae424d484ec79cb50886a7a6c8ffab98c2adb1922d5abc7d86afcc90df08f8a
+              content_sha256: cb3d590fddfb5863307a5e493303960be3adddb895408dbb886e6183a8f9fb90
             - kind: section
               section: 4
               title: Représentations des groupes compacts
@@ -2025,6 +2145,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: e7e785486ed1d63a42ea81c99924dbe4ab6c8b535bbf7ffbba15087c80657189
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ts/index_of_notation_iii_v.md
+        first_pdf_page: 562
+        last_pdf_page: 565
+        book_pages: TS V.549-TS V.552
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: a8a74ea35c13f6e48d168d2305d335e5139252a2bc1661aea3d311fcd1544227
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ts/index_of_terminology_iii_v.md
+        first_pdf_page: 566
+        last_pdf_page: 571
+        book_pages: TS V.553-TS V.558
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: e41a7232bfec58c7b77686e1f2f89deb373d5064d671a7ee1c13f171955e5d78
     - id: ens-i-iv
       reader_note:
         kind: reader
@@ -2413,6 +2557,30 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 017dc72194ab7199a70c98ebaad46bbe5a298e1d67f9319e8388d92396c95255
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/ens/index_of_notation_i_iv.md
+        first_pdf_page: 391
+        last_pdf_page: 395
+        book_pages: 387-391
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a9b1547e6927e6cf162e636806fda39b428c1353a149c7b32f1dd314162a005e
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/ens/index_of_terminology_i_iv.md
+        first_pdf_page: 396
+        last_pdf_page: 417
+        book_pages: 392-413
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 131b1e0893a72decc8a9e934621d58be63a1b556914599cb731248057659568e
     - id: evt-i-v
       reader_note:
         kind: reader
@@ -2838,12 +3006,34 @@ books:
               title: Historical Note
               path: content/en/evt/V/historical_note.md
               first_pdf_page: 338
-              last_pdf_page: 368
+              last_pdf_page: 350
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: e2dd683edb5ce818b32f8416a9c44fb239ba15fcef3559fbf9f4ff07e127d88c
+              content_sha256: 508bcc788fa6da13400f0e000d73211dc45525b58749267776999b8af1636864
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/evt/index_of_notation_i_v.md
+        first_pdf_page: 351
+        last_pdf_page: 352
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 584d5213358ee58f2339a99fe95a1e02b81966d7c77ec4d6edbfdca96d31f358
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/evt/index_of_terminology_i_v.md
+        first_pdf_page: 353
+        last_pdf_page: 358
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 2d575a20997418618b96c38bc13e104d6a4a7e91bb3f09b41553a154bde9204b
     - id: int-i-vi
       reader_note:
         kind: reader
@@ -3289,12 +3479,34 @@ books:
               title: Historical Note
               path: content/en/int/VI/historical_note.md
               first_pdf_page: 463
-              last_pdf_page: 487
+              last_pdf_page: 465
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 5e0a858bcf88f33679de7d17e92a9c855995da21ee05f0011e76c182df537e49
+              content_sha256: ddd2484b153907abc4b504e7847024232e7bbd05fcbac91aba31ada63b157656
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATIONS
+        path: content/en/int/index_of_notation_i_vi.md
+        first_pdf_page: 466
+        last_pdf_page: 469
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: e0a28675d91ec0db40219d16407368c8596bab380cca5d9bd6f1948a01a81638
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/int/index_of_terminology_i_vi.md
+        first_pdf_page: 470
+        last_pdf_page: 480
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a45db1078278655d8fd4b2d592638391be56a7b58b5a4baa69a40a3853d42faf
     - id: top-i-iv
       reader_note:
         kind: reader
@@ -3798,13 +4010,36 @@ books:
               title: Historical Note
               path: content/en/top/IV/historical_note.md
               first_pdf_page: 412
-              last_pdf_page: 443
-              book_pages: 406-437
+              last_pdf_page: 424
+              book_pages: 406-418
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 41d1c18f85708d5ee30500e8296485d364ed68f06a4b1861a23b39fd60835cc8
+              content_sha256: 754dbc3d4aabdb33aaeaeb37f2917cda6fb5f684d65629e1dad09df4ab2d9933
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/top/index_of_notation_i_iv.md
+        first_pdf_page: 425
+        last_pdf_page: 426
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: afdc09f22d573b905c8e7b7ec2b7df3cd50b116ab6b06bc92cb4b26823dea181
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/top/index_of_terminology_i_iv.md
+        first_pdf_page: 427
+        last_pdf_page: 443
+        book_pages: 421-437
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 266579583ac38258f55b9911817cd2bf29581a8dffed3b56d4a3b29e1b421390
     - id: int-vii-ix
       reader_note:
         kind: reader
@@ -4084,12 +4319,34 @@ books:
               title: Historical Note
               path: content/en/int/IX/historical_note.md
               first_pdf_page: 302
-              last_pdf_page: 332
+              last_pdf_page: 314
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: f73dd06e5e8ed0655d245fba9e03c5401157871033eba18c59f82101465ab1fb
+              content_sha256: 8bbd7aaea3af77bf68fa9e40057d6b9d5050982e2b307c294f6db6b1aebe7e78
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATIONS
+        path: content/en/int/index_of_notation_vii_ix.md
+        first_pdf_page: 315
+        last_pdf_page: 316
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 4c71ed8267e18007354739b3fd86af83174c5af30384c2730a82ecc2b7705267
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/int/index_of_terminology_vii_ix.md
+        first_pdf_page: 317
+        last_pdf_page: 323
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 730126b881790ae0ba6436df61ecf216085a06ed9719755a8f5a1e777b40123c
     - id: ac-v-vii-fr
       chapters:
         - chapter: V
@@ -4339,12 +4596,34 @@ books:
               title: Historical Note
               path: content/fr/ac/VII/historical_note.md
               first_pdf_page: 306
-              last_pdf_page: 346
+              last_pdf_page: 332
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: f5720f94919c1dd873c5b0d2de6933cd7537876ca04df4e02bb7df0744d784f6
+              content_sha256: 318ea1a79e3fd439af0ee5b32a2a944dfa3f3336ee4c0ff26907243798131693
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ac/index_of_notation_v_vii.md
+        first_pdf_page: 333
+        last_pdf_page: 333
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 62f3dd17dd7c0f5590e3f86ad0d9f9f62a41c2ca709d1019535469e8d9ecac1a
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ac/index_of_terminology_v_vii.md
+        first_pdf_page: 334
+        last_pdf_page: 338
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 802458734b89f747f5a405b640da2473d6c5c37a16ffc3412a5e9a02e2e63985
     - id: lie-i-iii
       reader_note:
         kind: reader
@@ -4729,8 +5008,8 @@ books:
               path: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
               label: lie-iii-s10
               first_pdf_page: 377
-              last_pdf_page: 481
-              book_pages: 359-368, 409-463
+              last_pdf_page: 451
+              book_pages: 359-368, 409-433
               subsections: 3
               statements: 13
               exercises: 3
@@ -4748,6 +5027,30 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: f6541d0529455ab9bd95b3dca1a7a741c160bb7b7c0752780f7f4653bc77b3be
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/lie/index_of_notation_i_iii.md
+        first_pdf_page: 453
+        last_pdf_page: 455
+        book_pages: 435-437
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 5ba72771ed6431ded6973e22ebbc9605288ca1d2ccf62c8e275bed145a1003c1
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/lie/index_of_terminology_i_iii.md
+        first_pdf_page: 457
+        last_pdf_page: 465
+        book_pages: 439-447
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 7e253b32f35f01d4a9e0d46807c7c9562cdcc9797e1fad56a3ebd016376294f6
     - id: alg-iv-vii
       reader_note:
         kind: reader
@@ -5213,12 +5516,34 @@ books:
               title: Historical Note
               path: content/en/alg/VII/historical_note.md
               first_pdf_page: 432
-              last_pdf_page: 460
+              last_pdf_page: 443
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 49b7727e951be393bc6b2e76002a7e68d9994cb9d699ec71c6306154e0087441
+              content_sha256: 6c71730c807154ca230c1596027facd8f4b8d8bae302c239894c7039af3c4a2e
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/alg/index_of_notation_iv_vii.md
+        first_pdf_page: 444
+        last_pdf_page: 445
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 3ca1e9d7e6930a337dee194860bc07b75dad4b6515fffff2d7cc81614072ccd6
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/alg/index_of_terminology_iv_vii.md
+        first_pdf_page: 446
+        last_pdf_page: 453
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: db1c1ac3d41b6c39644bcf9ee16b94eff86b1d213de1b907670ab53799c95be3
     - id: lie-iv-vi
       introduction:
         kind: introduction
@@ -5441,12 +5766,34 @@ books:
               title: Historical Note
               path: content/en/lie/VI/historical_note.md
               first_pdf_page: 262
-              last_pdf_page: 314
+              last_pdf_page: 270
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: d4a4b33fa67599d5dc63bf803c9ca710b6970d43852cd95597a334baa54dfbe3
+              content_sha256: e623ff32c0c52d1434bd8f2b6d72cf7351f86f08cf0e2118f761f5553e4aa916
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/lie/index_of_notation_iv_vi.md
+        first_pdf_page: 272
+        last_pdf_page: 273
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: e83aa93ee71000a47ca767d9ccd4f6f8e3714d8d1e66cd41ab28c3380de36b6b
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/lie/index_of_terminology_iv_vi.md
+        first_pdf_page: 274
+        last_pdf_page: 276
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 5d7391113de97688e9553dfa89e8c43dd0871a41592998ae08923f0c4f6dd399
     - id: fvr-i-vii
       reader_note:
         kind: reader
@@ -5872,13 +6219,36 @@ books:
               title: Historical Note
               path: content/en/fvr/VII/historical_note.md
               first_pdf_page: 344
-              last_pdf_page: 353
-              book_pages: 329-338
+              last_pdf_page: 346
+              book_pages: 329-331
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 56ad431474ed32bda7806e225b54c98db39aef58c544606b85017240924845c6
+              content_sha256: 7c83612bea7e1b59873862456e66760a322c976bfe451e25a58e19896cc17b96
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/fvr/index_of_notation_i_vii.md
+        first_pdf_page: 348
+        last_pdf_page: 349
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 6bd79d267c6af46856f2d2d42c7f781de6a860d9958949d12bff7bd519388bc3
+      terminology_index:
+        kind: terminology
+        title: INDEX
+        path: content/en/fvr/index_of_terminology_i_vii.md
+        first_pdf_page: 350
+        last_pdf_page: 353
+        book_pages: 335-338
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: aef2d337fc45300cc0c1b5f20dae21e5cbb742e41b48760371fc14e99ba04b61
     - id: lie-ii-iii-fr
       chapters:
         - chapter: II
@@ -6149,12 +6519,34 @@ books:
               title: Historical Note
               path: content/fr/lie/III/historical_note.md
               first_pdf_page: 284
-              last_pdf_page: 318
+              last_pdf_page: 306
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: ecc1bb94d90a11516c78ea848cb14d893324cffe01469163c2bbc23a54c61eaa
+              content_sha256: a92405686d3ba6d581f36de0703bdf4a0d2bfe6660265341d5c43865c83a01dc
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_ii_iii.md
+        first_pdf_page: 307
+        last_pdf_page: 309
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: d0f42facc38cda402c2bf41e1ed679530c57f586b48e651d4cf2ccfc32c02ff5
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_ii_iii.md
+        first_pdf_page: 310
+        last_pdf_page: 313
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: f1793c78844189908de8df4a924590f603365311909a13948321f5d1e941d84b
     - id: int-v-fr
       chapters:
         - chapter: V
@@ -6270,12 +6662,23 @@ books:
               title: Historical Note
               path: content/fr/int/V/historical_note.md
               first_pdf_page: 141
-              last_pdf_page: 159
+              last_pdf_page: 153
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 13954758883dbfb15bd0e371a0c3a42ab6701de91d21d4c362152ac0b7c66166
+              content_sha256: 34eb3c48396e1453f3d8da9dc4e3de678369874bdaee51088e6c9d60b110633e
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_v.md
+        first_pdf_page: 154
+        last_pdf_page: 155
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: eec100f12ed891981a8880cbf8f55dda29e1c4b989238114049287c31b552043
     - id: lie-i-fr
       chapters:
         - chapter: I
@@ -6369,12 +6772,34 @@ books:
               path: content/fr/lie/I/07_s7_le_theoreme_d_ado.md
               label: lie-i-s7
               first_pdf_page: 93
-              last_pdf_page: 144
+              last_pdf_page: 134
               subsections: 3
               statements: 5
-              exercises: 7
+              exercises: 3
               extraction: ocr
               content_sha256: 9cb4ad4aa60aa4680b54877f60cc8f78bcfa9d67c3ddd0033d2ce268e2060b55
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_i.md
+        first_pdf_page: 135
+        last_pdf_page: 135
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c992b6f7aecf6ed6d19092601bd5919282321662553476d093524b6d489a8c37
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_i.md
+        first_pdf_page: 136
+        last_pdf_page: 140
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c275916a1a0c835c5f9aa85af7e08a26fc1a9e98702364cd7044de12981b9932
     - id: ac-viii-ix-fr
       chapters:
         - chapter: VIII
@@ -6550,13 +6975,35 @@ books:
               path: content/fr/ac/IX/A_a_.md
               label: ac-ix-a0
               first_pdf_page: 149
-              last_pdf_page: 204
-              book_pages: AC IX.37-AC IX.42
+              last_pdf_page: 197
+              book_pages: AC IX.37-AC IX.42, AC IX.84-AC IX.85
               subsections: 3
               statements: 13
-              exercises: 7
+              exercises: 6
               extraction: ocr
               content_sha256: e864a39e88aa1bca01230c31821898c8ee21312c13fac765353afd8926e19614
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ac/index_of_notation_viii_ix.md
+        first_pdf_page: 198
+        last_pdf_page: 198
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 68eb77b851972c6e70f8e5ab73dae48a4b4a11436a9a286c9dfb68186b3a9905
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ac/index_of_terminology_viii_ix.md
+        first_pdf_page: 199
+        last_pdf_page: 200
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 4d8c196bbe09bd17b772e0c2fab5ae3fcde94cd690a4084ef7d3cb71d890718f
     - id: alg-i-iii
       reader_note:
         kind: reader
@@ -7095,7 +7542,7 @@ books:
         statements: 0
         exercises: 0
         extraction: ocr
-        content_sha256: 94347fd66e173e65951935427b2336d1e8ce0bea412ca7d80f2c918171a0a629
+        content_sha256: 8a424fca61e04ef992f3e04c2e0f2ca67276613ab84265a8697f3741ebf26a56
       terminology_index:
         kind: terminology
         title: INDEX OF TERMINOLOGY
@@ -7246,8 +7693,8 @@ books:
               path: content/fr/lie/IX/A1_a1_structure_des_groupes_compacts.md
               label: lie-ix-a1
               first_pdf_page: 102
-              last_pdf_page: 141
-              book_pages: LIE IX.99-LIE IX.102
+              last_pdf_page: 135
+              book_pages: LIE IX.99-LIE IX.102, LIE IX.132
               subsections: 3
               statements: 9
               exercises: 1
@@ -7265,6 +7712,28 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: adb80f7258da51f557ea84dd0c3de4fb1d1f67b32e6b291b0d3bf087cacd41eb
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_ix.md
+        first_pdf_page: 136
+        last_pdf_page: 136
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 23f60d844a58971db7e5198d9d4c5d30852258af73adb4ec0f7f2809359f7729
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_ix.md
+        first_pdf_page: 137
+        last_pdf_page: 138
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 6cf2f2771a726e041624df4dc16063cd272607b85495bd93cb3d7a21c1582c1e
     - id: evt-i-v-fr
       reader_note:
         kind: reader
@@ -7692,12 +8161,34 @@ books:
               title: Historical Note
               path: content/fr/evt/V/historical_note.md
               first_pdf_page: 341
-              last_pdf_page: 372
+              last_pdf_page: 353
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: c71d091a1f5a2281cd870520a5f774ad6982d6d03d9910d427d0d5e003db1f5d
+              content_sha256: 304c6001af7907f7e328b4ebdda2d73778e4a7ae9003a17bd5e72c3ff05f0440
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/evt/index_of_notation_i_v.md
+        first_pdf_page: 354
+        last_pdf_page: 355
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: ae6c3db2813889996407d6d6323f78ea6f5c1df29cb252700102294c4b7de139
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/evt/index_of_terminology_i_v.md
+        first_pdf_page: 356
+        last_pdf_page: 362
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 1e45fffba43b59038d20ef325f7c7aba4670c68a6fb60504f25aa12c94bc6bb2
     - id: lie-iv-vi-fr
       introduction:
         kind: introduction
@@ -7920,12 +8411,34 @@ books:
               title: Historical Note
               path: content/fr/lie/VI/historical_note.md
               first_pdf_page: 233
-              last_pdf_page: 284
+              last_pdf_page: 242
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 39de9ee777801234a664e042fcca8661012c6f5909d2e65de5f78ab1b9e1ec6c
+              content_sha256: 07158e7b6d6960166ec657441207283ea61602ecd97ccf833867d644df988fb3
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_iv_vi.md
+        first_pdf_page: 243
+        last_pdf_page: 244
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: be7cf42483b6e9aa04ae7ffdaa427ecd1205820573786dae7b38522fb1d9eb2c
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_iv_vi.md
+        first_pdf_page: 245
+        last_pdf_page: 247
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 3a0f5859a0c989ef3bbf06fd6e5eadf21d7ea87807afec67292ff25e4ac0386d
     - id: int-vi-fr
       chapters:
         - chapter: VI
@@ -7992,12 +8505,34 @@ books:
               title: Historical Note
               path: content/fr/int/VI/historical_note.md
               first_pdf_page: 100
-              last_pdf_page: 106
+              last_pdf_page: 102
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 6502b94ee9a415a5c246fdb1b4e2438ce94086ad30e9092ba17bf9472c11f57a
+              content_sha256: 96d52c27ef79c471f835881a6b133fbe2f312d467ee0f1b54c23d4222fd1bfd9
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_vi.md
+        first_pdf_page: 103
+        last_pdf_page: 103
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 074b5dc994281956013e3d1ba8b03eabd8115536c51bb1cb9a8ad1a113a974c4
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_vi.md
+        first_pdf_page: 104
+        last_pdf_page: 105
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 9df191569459a9c2211014d5f964fbf344fa89a2405229aab4fa7b39b2784f26
     - id: ac-i-vii
       reader_note:
         kind: reader
@@ -8565,13 +9100,37 @@ books:
               title: Historical Note
               path: content/en/ac/VII/historical_note.md
               first_pdf_page: 597
-              last_pdf_page: 642
-              book_pages: 579-625
+              last_pdf_page: 624
+              book_pages: 579-606
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 310b51f7681f87389ad268cda064f6af31cea24a76ec2275974603d2dfff3682
+              content_sha256: bbb940b4e28488bcb1ca1fa68a3aff36f5ddc35ae267d9552f42d4227a004f80
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/ac/index_of_notation_i_vii.md
+        first_pdf_page: 625
+        last_pdf_page: 627
+        book_pages: 607-609
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 641e0c3993ffaf13cacc636d859b85afb80bfe6604e9d58bf0039d6861b7d1d6
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/ac/index_of_terminology_i_vii.md
+        first_pdf_page: 628
+        last_pdf_page: 637
+        book_pages: 610-619
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a190cb6d418c8b704161546f616138cfe5f2dbb8d594917a3d98ca1aaf5aff09
     - id: top-v-x
       reader_note:
         kind: reader
@@ -9017,12 +9576,34 @@ books:
               title: Historical Note
               path: content/en/top/X/historical_note.md
               first_pdf_page: 353
-              last_pdf_page: 372
+              last_pdf_page: 354
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 40b5235f4ceac5953a07d76a4ff11499284171867bddf1d36dc51ac4536b548e
+              content_sha256: 8111f3a5ff0b76b331b7a96693b3e20af5d13a8fdc08b76f53f9ac96b1bd1120
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/top/index_of_notation_v_x.md
+        first_pdf_page: 355
+        last_pdf_page: 356
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 1fc2a2f421aec28ba0835c3c9e8c7beb629c1f14c21bec9c04799faabedd66e8
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/top/index_of_terminology_v_x.md
+        first_pdf_page: 357
+        last_pdf_page: 369
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 86a498aae18ac8a4a5da52cdbb20b74a66669f68dc3d59d8577227760a8f6921
     - id: alg-ix-fr
       chapters:
         - chapter: IX
@@ -9162,12 +9743,34 @@ books:
               title: Historical Note
               path: content/fr/alg/IX/historical_note.md
               first_pdf_page: 183
-              last_pdf_page: 211
+              last_pdf_page: 199
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: c6c1023523b162de5a8af2a1d497f094c0bb1a5c5d7c4ace15cd5c10c180e6c5
+              content_sha256: c9e644b03e5f90852094e40096ee762a46e74067499add34e41f17cfa10acba4
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_ix.md
+        first_pdf_page: 200
+        last_pdf_page: 201
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 85e17dcc7234e31bd26bb1acd485fbf4f18a775f3b0e0fffc966a34a25869e9b
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_ix.md
+        first_pdf_page: 202
+        last_pdf_page: 207
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 9ef26dde41438070b04dbd357ae2b6b4a7df27d11ba3b22932fe24c5bffb14fe
     - id: alg-i-iii-fr
       reader_note:
         kind: reader
@@ -9680,12 +10283,34 @@ books:
               title: Historical Note
               path: content/fr/alg/III/historical_note.md
               first_pdf_page: 591
-              last_pdf_page: 645
+              last_pdf_page: 603
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 27a5cd925d6b05a8b843e25076f37c1a968bcd7ee4edfe3e8e1a791f36c696d2
+              content_sha256: d72c52cd1fd322c07eb933062e7afa443125f76a019d0470caa3a5bea0f73a28
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_i_iii.md
+        first_pdf_page: 604
+        last_pdf_page: 609
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 5d4a61946ec90b05fa2802f168378a83c625a76207ad802109f5f3a4f79ee301
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_i_iii.md
+        first_pdf_page: 610
+        last_pdf_page: 635
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 42adf4923af67717087f6b51475d87677466760abdfa7e913f4f524e66ada6bd
     - id: ac-i-iv-fr
       introduction:
         kind: introduction
@@ -9949,12 +10574,34 @@ books:
               path: content/fr/ac/IV/03_s3_decomposition_primaire_dans_les_modules.md
               label: ac-iv-s3
               first_pdf_page: 332
-              last_pdf_page: 361
+              last_pdf_page: 352
               subsections: 3
               statements: 6
               exercises: 3
               extraction: ocr
               content_sha256: b716f6cf2dd0bf60045addebda4ba042705d015e4eb20af7db7214000c6f8fa1
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ac/index_of_notation_i_iv.md
+        first_pdf_page: 353
+        last_pdf_page: 353
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 13b01de6aae4a65f12a59adf49cbd0b5e3e84470f8c2fc82613b657db8cc9300
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ac/index_of_terminology_i_iv.md
+        first_pdf_page: 354
+        last_pdf_page: 357
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 48078c097dff7b653ee581da7adbe5e13dd92a636a80d68eed408afd4d9e64bb
     - id: top-i-iv-fr
       reader_note:
         kind: reader
@@ -10449,12 +11096,34 @@ books:
               title: Historical Note
               path: content/fr/top/IV/historical_note.md
               first_pdf_page: 336
-              last_pdf_page: 367
+              last_pdf_page: 346
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 53f6c45d567e23fd0d36c2137fc3dc5cf69104d446214d339199af3571923d31
+              content_sha256: 6c2059f6a4460cc5f1c767894d31d2bbf88260d2e8f101cd21ce12de3746a2cc
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/top/index_of_notation_i_iv.md
+        first_pdf_page: 347
+        last_pdf_page: 348
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 214e229b12f5decc984d155057ff636663e575385d5ffbbeb26c171344f21bdd
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/top/index_of_terminology_i_iv.md
+        first_pdf_page: 349
+        last_pdf_page: 359
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 7b1104d8d7a71a570740400d547cea5d4fea888db06c9ee9e95a290d5c20104e
     - id: alg-x-fr
       reader_note:
         kind: reader
@@ -10591,13 +11260,35 @@ books:
               path: content/fr/alg/X/09_s9_complexes_de_koszul.md
               label: alg-x-s9
               first_pdf_page: 153
-              last_pdf_page: 222
-              book_pages: A X.147-A X.168, A X.206-A X.216
+              last_pdf_page: 215
+              book_pages: A X.147-A X.168, A X.206-A X.209
               subsections: 10
               statements: 35
               exercises: 10
               extraction: ocr
               content_sha256: 234fe2945aa4e961036016372d407d506dc8b4e0d5b9dad9251bdb87e41d0c74
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_x.md
+        first_pdf_page: 216
+        last_pdf_page: 216
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 8f583d89304d407a99b4a049223d5095e7a4c7c5d88af11516bec033c6ebdbad
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_x.md
+        first_pdf_page: 217
+        last_pdf_page: 219
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 2720fad4c5c7f333155f4d7b5c6514463c49b583512668f714c9647e3fdf06c8
     - id: int-i-iv-fr
       introduction:
         kind: introduction
@@ -10823,12 +11514,34 @@ books:
               path: content/fr/int/IV/07_s7_barycentres.md
               label: int-iv-s7
               first_pdf_page: 219
-              last_pdf_page: 293
+              last_pdf_page: 275
               subsections: 6
               statements: 29
-              exercises: 7
+              exercises: 1
               extraction: ocr
               content_sha256: e97fd0f41e7d621fb14994516f11d408708f0959271b4f7db32957daf87aea55
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_i_iv.md
+        first_pdf_page: 276
+        last_pdf_page: 277
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a98319c9a19b5d5a369f557a7faf071f143d47d749676370225e5c752fee5411
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_i_iv.md
+        first_pdf_page: 278
+        last_pdf_page: 281
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: b3a1c81c6de3798e6e9395ab3e46737eca7e41a7daf493627a467fb2c7959593
     - id: var-fr
       reader_note:
         kind: reader
@@ -10951,6 +11664,28 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 4f5da2d5f93a17339b36e8b289bea09365035864aa242bc99e5291d21d3b274d
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/var/index_of_notation.md
+        first_pdf_page: 181
+        last_pdf_page: 183
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 4b620e7a64ed62c8cab7f538a574b8cfca3849930dc0490061b439b475266e3c
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/var/index_of_terminology.md
+        first_pdf_page: 184
+        last_pdf_page: 187
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: dd9c9b821401049226582e0cf291e7771d66945773cfe4068943f424476084ed
     - id: hist-fr
       reader_note:
         kind: reader
@@ -11463,7 +12198,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 519eeb1441ec990499d5edf0dcced26f5938d33699fb2d691ac64c29f7d0aa2a
+              content_sha256: 762c9dd6e1e60b1c347a64e7ac399ccd6fed4561abdfe5ea90a36bc9b0e50293
             - kind: section
               section: 16
               title: Metric Spaces
@@ -12263,12 +12998,35 @@ books:
               path: content/fr/alg/VII/05_s5_endomorphismes_des_espaces_vectoriels.md
               label: alg-vii-s5
               first_pdf_page: 361
-              last_pdf_page: 426
+              last_pdf_page: 411
+              book_pages: A VII.66-A VII.78
               subsections: 9
               statements: 66
               exercises: 14
               extraction: ocr
               content_sha256: afafa9b7b4655ef32bab0a03356e58c950c7bbe3f0518d735de9b0a047ab4b50
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_iv_vii.md
+        first_pdf_page: 412
+        last_pdf_page: 413
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 9321c075198874b91e8d7e37edee5ab1f33fb38836cc299b08a5087764412faa
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_iv_vii.md
+        first_pdf_page: 414
+        last_pdf_page: 419
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 82242e6e22a3a7652fcbdd22511eabd30d5f4238f605ebfa889299ec8d698001
     - id: fvr-i-vii-fr
       reader_note:
         kind: reader
@@ -12683,13 +13441,37 @@ books:
               title: Historical Note
               path: content/fr/fvr/VII/historical_note.md
               first_pdf_page: 314
-              last_pdf_page: 329
-              book_pages: A V.113-FVR VII.38
+              last_pdf_page: 316
+              book_pages: A V.113
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: a47d34244ba744bcccf40a574d91dd116d6ea0c78743ccf0c06d4ab99b65d4c4
+              content_sha256: cd131e498b6057c0908bf59aa12185648760ddbc0a8f6986490ad580efe8280b
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/fvr/index_of_notation_i_vii.md
+        first_pdf_page: 317
+        last_pdf_page: 317
+        book_pages: A V.113
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: bd29958b5596f2f618857322ce8535a6ad5d2b9806f08b41e8f85dc618a6f2fb
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/fvr/index_of_terminology_i_vii.md
+        first_pdf_page: 318
+        last_pdf_page: 323
+        book_pages: A V.113-FVR VII.32
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: d49cb5916f5efac94d526867591c4ecd4080734a1843f4e34be1562d3487c8ac
     - id: top-v-x-fr
       reader_note:
         kind: reader
@@ -13164,12 +13946,34 @@ books:
               title: Historical Note
               path: content/fr/top/X/historical_note.md
               first_pdf_page: 311
-              last_pdf_page: 329
+              last_pdf_page: 313
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 6860fb1da8f2b0cb5a3cb60cf8f0af3820fa0ed60cb35ffaa7952c1eca4d4ac4
+              content_sha256: 0b4c88384e42fde7b5fbc12c716cf8802244857174e7723438a0b43a51ae7688
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/top/index_of_notation_v_x.md
+        first_pdf_page: 314
+        last_pdf_page: 315
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c25cde8a79d1c58aa3200fe480608d8457e8f51337fb26675c245979c9435dfa
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/top/index_of_terminology_v_x.md
+        first_pdf_page: 316
+        last_pdf_page: 322
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 0daf7f350c4e4721ad1a3d830b27b2555c42a5dc7f5aac46d1338d2851bb71d1
     - id: int-vii-viii-fr
       chapters:
         - chapter: VII
@@ -13320,12 +14124,34 @@ books:
               title: Historical Note
               path: content/fr/int/VIII/historical_note.md
               first_pdf_page: 207
-              last_pdf_page: 224
+              last_pdf_page: 215
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: a85f9420e816029a74863dc2627aa5bc23f192e8c0355962ae7d906a6b1c5be9
+              content_sha256: 5074699ffc6d2dadc7a50cc60d81d40911be2e050a0f62490d0b4f5f21953952
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_vii_viii.md
+        first_pdf_page: 216
+        last_pdf_page: 216
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 2fe95b491c2abf900dc1a16d9b548cb49e1d579a17d10a5afeabe8728c556955
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_vii_viii.md
+        first_pdf_page: 217
+        last_pdf_page: 218
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c0dbe440519968edc3ea19267e9f2d215f842eb7f006106df01eb7eca74a4c08
     - id: int-ix-fr
       chapters:
         - chapter: IX
@@ -13428,12 +14254,34 @@ books:
               title: Historical Note
               path: content/fr/int/IX/historical_note.md
               first_pdf_page: 111
-              last_pdf_page: 131
+              last_pdf_page: 123
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 7ddf36d54aaa79b3e139a5b576f29f9f98172a65f3e65d2b9ac9671efae2745e
+              content_sha256: fc371dda22271912fef26a22242a94e9b014e2db1aaab396264c0de9ee2151de
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_ix.md
+        first_pdf_page: 124
+        last_pdf_page: 125
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 44fc78abcf4b999904dc916aab8933bb049889bdc50fe58e5437b197f92d8a02
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_ix.md
+        first_pdf_page: 126
+        last_pdf_page: 129
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 1aa7c4086d819399c41b7ec01833cda1e94611a0e2d00e65686f4d6589eea4c3
     - id: ens-i-iv-fr
       reader_note:
         kind: reader
@@ -13806,3 +14654,25 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 15d71f8e3610e28969a37fb8aad879772c6e53b91427d24b0dc857f49f998f2d
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ens/index_of_notation_i_iv.md
+        first_pdf_page: 283
+        last_pdf_page: 285
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 87e20f2e921420d9735af87cec9684197d8768ad2065dbbece8417582c35fe9a
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ens/index_of_terminology_i_iv.md
+        first_pdf_page: 286
+        last_pdf_page: 298
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: f135057eeb06d7e4963a1e8f3196a0cd4c202a0db1c31cfb737c1c46b8a23fc3

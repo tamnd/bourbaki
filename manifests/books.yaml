@@ -38,6 +38,16 @@ books:
         page: 7
         first_pdf_page: 15
         last_pdf_page: 21
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 391
+        last_pdf_page: 395
+        file: index_of_notation_i_iv.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 396
+        last_pdf_page: 417
+        file: index_of_terminology_i_iv.md
     - id: ens-i-iv-fr
       book: ens
       lang: fr
@@ -76,6 +86,16 @@ books:
         page: 7
         first_pdf_page: 8
         last_pdf_page: 14
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 283
+        last_pdf_page: 285
+        file: index_of_notation_i_iv.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 286
+        last_pdf_page: 298
+        file: index_of_terminology_i_iv.md
     - id: alg-i-iii
       book: alg
       lang: en
@@ -158,6 +178,16 @@ books:
         first_pdf_page: 6
         last_pdf_page: 8
         file: 00_to_the_reader_iv_vii.md
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 444
+        last_pdf_page: 445
+        file: index_of_notation_iv_vii.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 446
+        last_pdf_page: 453
+        file: index_of_terminology_iv_vii.md
     - id: alg-viii
       book: alg
       lang: en
@@ -187,6 +217,16 @@ books:
         first_pdf_page: 16
         last_pdf_page: 17
         file: 00_introduction_viii.md
+      notation_index:
+        title: NOTATION INDEX
+        first_pdf_page: 498
+        last_pdf_page: 499
+        file: index_of_notation_viii.md
+      terminology_index:
+        title: TERMINOLOGY INDEX
+        first_pdf_page: 500
+        last_pdf_page: 505
+        file: index_of_terminology_viii.md
     - id: alg-i-iii-fr
       book: alg
       lang: fr
@@ -225,6 +265,16 @@ books:
         first_pdf_page: 8
         last_pdf_page: 10
         file: 00_introduction_i_iii.md
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 604
+        last_pdf_page: 609
+        file: index_of_notation_i_iii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 610
+        last_pdf_page: 635
+        file: index_of_terminology_i_iii.md
     - id: alg-iv-vii-fr
       book: alg
       lang: fr
@@ -264,6 +314,16 @@ books:
         first_pdf_page: 5
         last_pdf_page: 7
         file: 00_to_the_reader_iv_vii.md
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 412
+        last_pdf_page: 413
+        file: index_of_notation_iv_vii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 414
+        last_pdf_page: 419
+        file: index_of_terminology_iv_vii.md
     - id: alg-viii-fr
       book: alg
       lang: fr
@@ -293,6 +353,16 @@ books:
         first_pdf_page: 10
         last_pdf_page: 11
         file: 00_introduction_viii.md
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 472
+        last_pdf_page: 473
+        file: index_of_notation_viii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 474
+        last_pdf_page: 480
+        file: index_of_terminology_viii.md
     - id: alg-ix-fr
       book: alg
       lang: fr
@@ -319,6 +389,16 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 200
+        last_pdf_page: 201
+        file: index_of_notation_ix.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 202
+        last_pdf_page: 207
+        file: index_of_terminology_ix.md
     - id: alg-x-fr
       book: alg
       lang: fr
@@ -350,6 +430,16 @@ books:
         first_pdf_page: 4
         last_pdf_page: 6
         file: 00_to_the_reader_x.md
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 216
+        last_pdf_page: 216
+        file: index_of_notation_x.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 217
+        last_pdf_page: 219
+        file: index_of_terminology_x.md
     - id: top-i-iv
       book: top
       lang: en
@@ -388,6 +478,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 18
         last_pdf_page: 22
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 425
+        last_pdf_page: 426
+        file: index_of_notation_i_iv.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 427
+        last_pdf_page: 443
+        file: index_of_terminology_i_iv.md
     - id: top-v-x
       book: top
       lang: en
@@ -424,6 +524,16 @@ books:
         first_pdf_page: 5
         last_pdf_page: 6
         file: 00_to_the_reader_v_x.md
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 355
+        last_pdf_page: 356
+        file: index_of_notation_v_x.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 357
+        last_pdf_page: 369
+        file: index_of_terminology_v_x.md
     - id: top-i-iv-fr
       book: top
       lang: fr
@@ -462,6 +572,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 8
         last_pdf_page: 12
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 347
+        last_pdf_page: 348
+        file: index_of_notation_i_iv.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 349
+        last_pdf_page: 359
+        file: index_of_terminology_i_iv.md
     - id: top-v-x-fr
       book: top
       lang: fr
@@ -498,6 +618,16 @@ books:
         first_pdf_page: 5
         last_pdf_page: 7
         file: 00_to_the_reader_v_x.md
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 314
+        last_pdf_page: 315
+        file: index_of_notation_v_x.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 316
+        last_pdf_page: 322
+        file: index_of_terminology_v_x.md
     - id: fvr-i-vii
       book: fvr
       lang: en
@@ -538,6 +668,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 16
         last_pdf_page: 17
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 348
+        last_pdf_page: 349
+        file: index_of_notation_i_vii.md
+      terminology_index:
+        title: INDEX
+        first_pdf_page: 350
+        last_pdf_page: 353
+        file: index_of_terminology_i_vii.md
     - id: fvr-i-vii-fr
       book: fvr
       lang: fr
@@ -579,6 +719,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 7
         last_pdf_page: 8
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 317
+        last_pdf_page: 317
+        file: index_of_notation_i_vii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 318
+        last_pdf_page: 323
+        file: index_of_terminology_i_vii.md
     - id: evt-i-v
       book: evt
       lang: en
@@ -613,6 +763,16 @@ books:
         title: TO THE READER
         first_pdf_page: 6
         last_pdf_page: 8
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 351
+        last_pdf_page: 352
+        file: index_of_notation_i_v.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 353
+        last_pdf_page: 358
+        file: index_of_terminology_i_v.md
     - id: evt-i-v-fr
       book: evt
       lang: fr
@@ -647,6 +807,16 @@ books:
         title: MODE D’EMPLOI DE CE TRAITÉ
         first_pdf_page: 4
         last_pdf_page: 6
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 354
+        last_pdf_page: 355
+        file: index_of_notation_i_v.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 356
+        last_pdf_page: 362
+        file: index_of_terminology_i_v.md
     - id: int-i-vi
       book: int
       lang: en
@@ -687,6 +857,16 @@ books:
         title: Introduction
         first_pdf_page: 9
         last_pdf_page: 15
+      notation_index:
+        title: INDEX OF NOTATIONS
+        first_pdf_page: 466
+        last_pdf_page: 469
+        file: index_of_notation_i_vi.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 470
+        last_pdf_page: 480
+        file: index_of_terminology_i_vi.md
     - id: int-vii-ix
       book: int
       lang: en
@@ -720,6 +900,16 @@ books:
         first_pdf_page: 4
         last_pdf_page: 6
         file: 00_to_the_reader_vii_ix.md
+      notation_index:
+        title: INDEX OF NOTATIONS
+        first_pdf_page: 315
+        last_pdf_page: 316
+        file: index_of_notation_vii_ix.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 317
+        last_pdf_page: 323
+        file: index_of_terminology_vii_ix.md
     - id: int-i-iv-fr
       book: int
       lang: fr
@@ -753,6 +943,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 5
         last_pdf_page: 12
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 276
+        last_pdf_page: 277
+        file: index_of_notation_i_iv.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 278
+        last_pdf_page: 281
+        file: index_of_terminology_i_iv.md
     - id: int-v-fr
       book: int
       lang: fr
@@ -779,6 +979,11 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 154
+        last_pdf_page: 155
+        file: index_of_terminology_v.md
     - id: int-vi-fr
       book: int
       lang: fr
@@ -805,6 +1010,16 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 103
+        last_pdf_page: 103
+        file: index_of_notation_vi.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 104
+        last_pdf_page: 105
+        file: index_of_terminology_vi.md
     - id: int-vii-viii-fr
       book: int
       lang: fr
@@ -832,6 +1047,16 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 216
+        last_pdf_page: 216
+        file: index_of_notation_vii_viii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 217
+        last_pdf_page: 218
+        file: index_of_terminology_vii_viii.md
     - id: int-ix-fr
       book: int
       lang: fr
@@ -858,6 +1083,16 @@ books:
       page_height_pt: 680.315
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 124
+        last_pdf_page: 125
+        file: index_of_notation_ix.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 126
+        last_pdf_page: 129
+        file: index_of_terminology_ix.md
     - id: ac-i-vii
       book: ac
       lang: en
@@ -898,6 +1133,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 17
         last_pdf_page: 20
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 625
+        last_pdf_page: 627
+        file: index_of_notation_i_vii.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 628
+        last_pdf_page: 637
+        file: index_of_terminology_i_vii.md
     - id: ac-i-iv-fr
       book: ac
       lang: fr
@@ -931,6 +1176,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 5
         last_pdf_page: 10
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 353
+        last_pdf_page: 353
+        file: index_of_notation_i_iv.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 354
+        last_pdf_page: 357
+        file: index_of_terminology_i_iv.md
     - id: ac-v-vii-fr
       book: ac
       lang: fr
@@ -959,6 +1214,16 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 333
+        last_pdf_page: 333
+        file: index_of_notation_v_vii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 334
+        last_pdf_page: 338
+        file: index_of_terminology_v_vii.md
     - id: ac-viii-ix-fr
       book: ac
       lang: fr
@@ -986,6 +1251,16 @@ books:
       page_height_pt: 666.142
       grammar: head-label
       pagination: per-chapter
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 198
+        last_pdf_page: 198
+        file: index_of_notation_viii_ix.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 199
+        last_pdf_page: 200
+        file: index_of_terminology_viii_ix.md
     - id: ac-x-fr
       book: ac
       lang: fr
@@ -1048,6 +1323,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 6
         last_pdf_page: 6
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 181
+        last_pdf_page: 183
+        file: index_of_notation.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 184
+        last_pdf_page: 187
+        file: index_of_terminology.md
     - id: lie-i-iii
       book: lie
       lang: en
@@ -1080,6 +1365,16 @@ books:
         title: TO THE READER
         first_pdf_page: 5
         last_pdf_page: 7
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 453
+        last_pdf_page: 455
+        file: index_of_notation_i_iii.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 457
+        last_pdf_page: 465
+        file: index_of_terminology_i_iii.md
     - id: lie-iv-vi
       book: lie
       lang: en
@@ -1111,6 +1406,16 @@ books:
         title: INTRODUCTION TO CHAPTERS IV, V AND VI
         first_pdf_page: 6
         last_pdf_page: 7
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 272
+        last_pdf_page: 273
+        file: index_of_notation_iv_vi.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 274
+        last_pdf_page: 276
+        file: index_of_terminology_iv_vi.md
     - id: lie-vii-ix
       book: lie
       lang: en
@@ -1132,6 +1437,16 @@ books:
       page_height_pt: 666
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX OF NOTATION
+        first_pdf_page: 433
+        last_pdf_page: 435
+        file: index_of_notation_vii_ix.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        first_pdf_page: 436
+        last_pdf_page: 439
+        file: index_of_terminology_vii_ix.md
     - id: lie-i-fr
       book: lie
       lang: fr
@@ -1158,6 +1473,16 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 135
+        last_pdf_page: 135
+        file: index_of_notation_i.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 136
+        last_pdf_page: 140
+        file: index_of_terminology_i.md
     - id: lie-ii-iii-fr
       book: lie
       lang: fr
@@ -1185,6 +1510,16 @@ books:
       page_height_pt: 666.142
       grammar: head-number
       pagination: continuous
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 307
+        last_pdf_page: 309
+        file: index_of_notation_ii_iii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 310
+        last_pdf_page: 313
+        file: index_of_terminology_ii_iii.md
     - id: lie-iv-vi-fr
       book: lie
       lang: fr
@@ -1217,6 +1552,16 @@ books:
         title: INTRODUCTION AUX CHAPITRES IV, V ET VI
         first_pdf_page: 6
         last_pdf_page: 7
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 243
+        last_pdf_page: 244
+        file: index_of_notation_iv_vi.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 245
+        last_pdf_page: 247
+        file: index_of_terminology_iv_vi.md
     - id: lie-vii-viii-fr
       book: lie
       lang: fr
@@ -1269,6 +1614,16 @@ books:
       page_height_pt: 680.315
       grammar: head-label
       pagination: per-chapter
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 136
+        last_pdf_page: 136
+        file: index_of_notation_ix.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 137
+        last_pdf_page: 138
+        file: index_of_terminology_ix.md
     - id: ts-i-ii-fr
       book: ts
       lang: fr
@@ -1299,6 +1654,16 @@ books:
         first_pdf_page: 11
         last_pdf_page: 13
         file: 00_introduction_i_ii.md
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 335
+        last_pdf_page: 337
+        file: index_of_notation_i_ii.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 338
+        last_pdf_page: 342
+        file: index_of_terminology_i_ii.md
     - id: ts-iii-v-fr
       book: ts
       lang: fr
@@ -1330,6 +1695,16 @@ books:
         first_pdf_page: 11
         last_pdf_page: 14
         file: 00_introduction_iii_v.md
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 562
+        last_pdf_page: 565
+        file: index_of_notation_iii_v.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 566
+        last_pdf_page: 571
+        file: index_of_terminology_iii_v.md
     - id: ta-i-iv-fr
       book: ta
       lang: fr
@@ -1360,6 +1735,16 @@ books:
         title: INTRODUCTION
         first_pdf_page: 12
         last_pdf_page: 15
+      notation_index:
+        title: INDEX DES NOTATIONS
+        first_pdf_page: 497
+        last_pdf_page: 499
+        file: index_of_notation_i_iv.md
+      terminology_index:
+        title: INDEX TERMINOLOGIQUE
+        first_pdf_page: 500
+        last_pdf_page: 506
+        file: index_of_terminology_i_iv.md
     - id: hist
       book: hist
       lang: en

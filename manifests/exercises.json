@@ -3765,7 +3765,7 @@
         {
           "chapter": "I",
           "title": "Algèbres de Lie",
-          "total": 127,
+          "total": 123,
           "sections": [
             {
               "section": 1,
@@ -3823,10 +3823,9 @@
               "section": 7,
               "label": "lie-i-s7",
               "dir": "s7",
-              "count": 7,
+              "count": 3,
               "first": 1,
-              "last": 7,
-              "starred": 4
+              "last": 3
             }
           ]
         }
@@ -3906,7 +3905,7 @@
         {
           "chapter": "IX",
           "title": "ANNEAUX LOCAUX NOETHÉRIENS COMPLETS",
-          "total": 123,
+          "total": 122,
           "sections": [
             {
               "section": 1,
@@ -3945,10 +3944,9 @@
               "appendix": true,
               "label": "ac-ix-a0",
               "dir": "a0",
-              "count": 7,
+              "count": 6,
               "first": 1,
-              "last": 7,
-              "starred": 1
+              "last": 6
             }
           ]
         }
@@ -6447,7 +6445,7 @@
         {
           "chapter": "IV",
           "title": "Prolongement d'une mesure. Espaces $L^p$",
-          "total": 71,
+          "total": 65,
           "sections": [
             {
               "section": 1,
@@ -6496,10 +6494,9 @@
               "section": 7,
               "label": "int-iv-s7",
               "dir": "s7",
-              "count": 7,
+              "count": 1,
               "first": 1,
-              "last": 7,
-              "starred": 6
+              "last": 1
             }
           ]
         }
