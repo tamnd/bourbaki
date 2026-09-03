@@ -635,7 +635,7 @@ $$
 
 (VIII, p. 375, các công thức (3) và (4)). Do đó, một đối đại số con của Θ(A) là một $(A$, A)-môđun con song.
 
-(i) $\Rightarrow$ (iii): Giả sử Θ là một $(A$, A)-sub-bimodule của Θ(A); cho $\mathscr{C}$ là tập các lớp của các A-môđun E có số chiều hữu hạn trên K sao cho $\Theta_E(A)$ được chứa trong Θ. Tập $\mathscr{C}$ là di truyền (VIII, p. 377, Nhận xét 2), và theo phép dựng ta có $\Theta_{\mathscr{C}}(A)\subset \Theta$. Cho $f\in \Theta$ và $E = Af$. Khi đó E có số chiều hữu hạn trên K. Do đó, mọi dạng tuyến tính trên E đều có dạng $u_a:g\mapsto g(a)$ với $a$ trong A (II, §7, No. 5, p. 302, Hệ quả 2). Bây giờ, với $a, b, x\in A$, ta có
+(i) $\Rightarrow$ (iii): Giả sử Θ là một $(A$, A)-môđun con song của Θ(A); cho $\mathscr{C}$ là tập các lớp của các A-môđun E có số chiều hữu hạn trên K sao cho $\Theta_E(A)$ được chứa trong Θ. Tập $\mathscr{C}$ là di truyền (VIII, p. 377, Nhận xét 2), và theo phép dựng ta có $\Theta_{\mathscr{C}}(A)\subset \Theta$. Cho $f\in \Theta$ và $E = Af$. Khi đó E có số chiều hữu hạn trên K. Do đó, mọi dạng tuyến tính trên E đều có dạng $u_a:g\mapsto g(a)$ với $a$ trong A (II, §7, No. 5, p. 302, Hệ quả 2). Bây giờ, với $a, b, x\in A$, ta có
 
 $$
 c_E(af, u_b)(x) =\langle u_b, xaf\rangle =f(bxa) =af b(x)
