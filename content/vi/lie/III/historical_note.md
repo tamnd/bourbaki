@@ -239,7 +239,7 @@ trong đó ma trận $(\xi_{kji})$ có hạng lớn nhất và $\det(\psi_{kj}) 
 
 Định lý thứ hai (IV, t. 1, p. 149 và 158, và t. 3, p. 590) cho các hệ thức
 
-¹ Xin nhắc lại (Ghi chú lịch sử của Alg., Chương VIII, p. 170) rằng tiếp theo một Note của H. Poincaré (XIV, t. V, p. 77–79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp hữu hạn chiều. Điều đáng chú ý trong mối liên hệ này là E. Study, trong các công trình của ông về chủ đề này, đã đưa vào một lối ký hiệu mà về thực chất tương đương với việc xét nhóm trừu tượng được xác định bởi nhóm tham số.
+¹ Xin nhắc lại (Ghi chú lịch sử của Alg., Chương VIII, p. 170) rằng tiếp theo một chú ý của H. Poincaré (XIV, t. V, p. 77–79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp hữu hạn chiều. Điều đáng chú ý trong mối liên hệ này là E. Study, trong các công trình của ông về chủ đề này, đã đưa vào một lối ký hiệu mà về thực chất tương đương với việc xét nhóm trừu tượng được xác định bởi nhóm tham số.
 
 giữa các $\xi_{kli}$ một mặt, và các $\psi_{ij}$ mặt khác: các điều kiện trên các $\xi_{kli}$ được viết dưới dạng
 
@@ -472,7 +472,7 @@ XXIII. J. von Neumann, Về lý thuyết biểu diễn các nhóm liên tục, S
 
 XXIV. P. Hall, Một đóng góp cho lý thuyết các nhóm có cấp là lũy thừa của một số nguyên tố, Proc. London Math. Soc., (3), t. IV (1932), p. 29–95.
 
-XXV. W. Magnus: a) Quan hệ giữa các nhóm và các ideal trong một vành đặc biệt, Math. Ann., t. CXI (1935), p. 259–280; b) Về các quan hệ giữa các giao hoán tử bậc cao, J. Crelle, t. CLXXVII (1937), p. 105–115.
+XXV. W. Magnus: a) Quan hệ giữa các nhóm và các iđêan trong một vành đặc biệt, Math. Ann., t. CXI (1935), p. 259–280; b) Về các quan hệ giữa các giao hoán tử bậc cao, J. Crelle, t. CLXXVII (1937), p. 105–115.
 
 XXVI. J. H. C. Whitehead: a) Về phân tích của một nhóm vô cùng bé, Proc. Camb. Phil. Soc., t. XXXII (1936), p. 229–237 (= Mathematical Works, I, p. 281–289); b) Một số phương trình trong đại số của một nhóm vô cùng bé nửa đơn, Quart. Journ. of Math., (2), t. VIII (1937), p. 220–237 (= Mathematical Works, I, p. 291–308).
 

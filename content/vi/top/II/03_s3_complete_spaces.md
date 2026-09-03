@@ -339,15 +339,11 @@ $$
 d_n(S_1, S_2) = \sup_{z \in B'_n} |S_1(z) - S_2(z)|.
 $$
 
-It is easily verified that $X_n$ is *đầy đủ* đối với metric này. Sau cùng, với $n \leq m$, ta định nghĩa một ánh xạ $f_{nm} : X_m \to X_n$ sao cho nếu $S \in X_m$ thì $f_{nm}(S)$ là *hạn chế* của $S$ đến $B'_n$. Rõ ràng là các $f_{nm}$ *liên tục đều* và $(X_n, f_{nm})$ là một hệ ngược của các không gian đều. Do đó, một phần tử của giới hạn ngược $X = \lim_{\leftarrow} X_n$ có thể được đồng nhất một cách chính tắc với một hàm phân hình $F$ trong $\mathbf{C}$, mà các cực duy nhất của nó là các điểm $a_n$, và sao cho với mỗi $n$, $F(z) - R_n(z)$ là khả chỉnh tại $a_n$. Định lý cổ điển của Mittag-Leffler khẳng định rằng $X$ không rỗng; nhờ Định lý 1, ta chỉ cần kiểm tra điều kiện (ML$_{nn}$) với mọi $n$. Đặt
-$$
+Dễ dàng kiểm tra rằng $X_n$ is *đầy đủ* đối với metric này. Sau cùng, với $n \leq m$, ta định nghĩa một ánh xạ $f_{nm} : X_m \to X_n$ sao cho nếu $S \in X_m$ thì $f_{nm}(S)$ là *hạn chế* của $S$ đến $B'_n$. Rõ ràng là các $f_{nm}$ *liên tục đều* và $(X_n, f_{nm})$ là một hệ ngược của các không gian đều. Do đó, một phần tử của giới hạn ngược $X = \lim_{\leftarrow} X_n$ có thể được đồng nhất một cách chính tắc với một hàm phân hình $F$ trong $\mathbf{C}$, mà các cực duy nhất của nó là các điểm $a_n$, và sao cho với mỗi $n$, $F(z) - R_n(z)$ là khả chỉnh tại $a_n$. Định lý cổ điển của Mittag-Leffler khẳng định rằng $X$ không rỗng; nhờ Định lý 1, ta chỉ cần kiểm tra điều kiện (ML$_{nn}$) với mọi $n$. Đặt $$
 S_n = P_n + \sum_{a_k \in B_n} R_k
-$$
-là một phần tử của $X_n$, trong đó $P_n$ liên tục trên $\overline{B}_n$ và khả chỉnh trong $B_n$; với mọi $m \geq n$, đặt $Q_{mn}$ là sự *hạn chế* của
-$$
+$$ là một phần tử của $X_n$, trong đó $P_n$ liên tục trên $\overline{B}_n$ và khả chỉnh trong $B_n$; với mọi $m \geq n$, đặt $Q_{mn}$ là sự *hạn chế* của $$
 \sum_{a_h \in B_m - B_n} R_h \text{ đến } B'_n;
-$$
-tổng sau này là một hàm khả chỉnh trong một lân cận nào đó của $\overline{B}_n$, do đó (theo định lý Taylor) với mỗi $\varepsilon > 0$ tồn tại một đa thức $P_{mn}$ sao cho $|Q_{mn}(z) - P_{mn}(z)| \leq \varepsilon$ trong $B_n$; nếu $S_m$ là sự hạn chế của $S_n + Q_{mn} - P_{mn}$ đến $B'_m$, ta có $S_m \in X_m$ và $|S_m(z) - S_n(z)| \leq \varepsilon$ trong $B'_n$. Điều này chứng minh xong. \*
+$$ tổng sau này là một hàm khả chỉnh trong một lân cận nào đó của $\overline{B}_n$, do đó (theo định lý Taylor) với mỗi $\varepsilon > 0$ tồn tại một đa thức $P_{mn}$ sao cho $|Q_{mn}(z) - P_{mn}(z)| \leq \varepsilon$ trong $B_n$; nếu $S_m$ là sự hạn chế của $S_n + Q_{mn} - P_{mn}$ đến $B'_m$, ta có $S_m \in X_m$ và $|S_m(z) - S_n(z)| \leq \varepsilon$ trong $B'_n$. Điều này chứng minh xong. \*
 
 ### 6. MỞ RỘNG CÁC HÀM LIÊN TỤC ĐỀU
 
