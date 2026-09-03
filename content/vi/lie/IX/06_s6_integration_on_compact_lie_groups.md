@@ -493,7 +493,7 @@ Mệnh đề thứ nhất suy ra từ mệnh đề được áp dụng cho bó v
 
 Cho X là một đa tạp thực hữu hạn địa phương chiều thuộc lớp $C^{\infty}$, và cho $(g, x) \rightarrow gx$ là một luật của phép toán trái thuộc lớp $C^{\infty}$ của một nhóm Lie compact liên thông G trên X. Với $g\in G$, ký hiệu $\tau_g$ là tự đẳng cấu $x \rightarrow gx$ của X. Ký hiệu $\Omega (X)$ là đại số các dạng vi phân thực thuộc lớp $C^{\infty}$ trên X (Differentiable and Analytic Manifolds, Results, 8.3.1).
 
-Với mọi phần tử $\xi$ của $\mathfrak{g}$, ký hiệu $D_{\xi}$ là trường vectơ tương ứng trên X (Chương III, §3, no. 5) và $\theta (\xi ), i(\xi )$ là các toán tử tương ứng trên $\Omega$(X), do đó ta có các công thức (Differentiable and Analytic Manifolds, Results, 8.4.5 and 8.4.7)
+Với mọi phần tử $\xi$ của $\mathfrak{g}$, ký hiệu $D_{\xi}$ là trường vectơ tương ứng trên X (Chương III, §3, no. 5) và $\theta (\xi ), i(\xi )$ là các toán tử tương ứng trên $\Omega$(X), do đó ta có các công thức (Differentiable and Analytic Manifolds, Results, 8.4.5 và 8.4.7)
 
 $$
 \theta (\xi )\omega =d(i(\xi )\omega ) +i(\xi )d\omega \tag{15}
@@ -569,7 +569,7 @@ $$
 
 đối với $\omega$ trong Alt$^p(\mathfrak{g})$ và $a_1, . . . , a_{p+1}$ trong $\mathfrak{g}$.
 
-Với $\xi \in \mathfrak{g}$, ký hiệu $L_{\xi}$ là trường vectơ trái bất biến tương ứng (được định nghĩa nhờ tác động của G lên chính nó bởi các phép tịnh tiến phải, xem Chương III, §3, no. 6). Các toán tử $\theta (L_{\xi}), i(L_{\xi})$ giao hoán với tác động của G trên $\Omega (G)$ được định nghĩa bởi phép tịnh tiến trái, và do đó cảm sinh các toán tử $\theta (\xi ), i(\xi )$ trên $\Omega (G)^G$; với các đồng nhất trước đó, chúng được biểu diễn bởi các công thức (Differentiable and Analytic Manifolds, Results, 8.3.2 and 8.4.2)
+Với $\xi \in \mathfrak{g}$, ký hiệu $L_{\xi}$ là trường vectơ trái bất biến tương ứng (được định nghĩa nhờ tác động của G lên chính nó bởi các phép tịnh tiến phải, xem Chương III, §3, no. 6). Các toán tử $\theta (L_{\xi}), i(L_{\xi})$ giao hoán với tác động của G trên $\Omega (G)$ được định nghĩa bởi phép tịnh tiến trái, và do đó cảm sinh các toán tử $\theta (\xi ), i(\xi )$ trên $\Omega (G)^G$; với các đồng nhất trước đó, chúng được biểu diễn bởi các công thức (Differentiable and Analytic Manifolds, Results, 8.3.2 và 8.4.2)
 
 $$
 (\theta (\xi )\omega )(a_1, . . . , a_p) =-\sum_i\omega (a_1, . . . , a_{i-1},[\xi , a_i], a_{i+1}, . . . , a_p)

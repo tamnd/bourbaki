@@ -769,7 +769,7 @@ Cho $e= (T,B,(U_{\alpha}))$ và $e'= (T',B',(U'_{\alpha}))$ là hai khung của 
 
 #### Hệ quả {#lie-ix-s4-n10-cor-2 .statement tag=01D7}
 
-Let $e$ be a framing of $(G,T)$ và cho E là nhóm các tự đẳng cấu của G để $e$ ổn định. Khi đó Aut(G) là tích nửa trực tiếp của E bởi Int(G), và Aut(G$,T$) là tích nửa trực tiếp của E bởi Int(G) $\cap$ Aut(G$,T$) $=$ Int$_G(N_G(T))$.
+Cho $e$ là một khung của $(G,T)$ và cho E là nhóm các tự đẳng cấu của G để $e$ ổn định. Khi đó Aut(G) là tích nửa trực tiếp của E bởi Int(G), và Aut(G$,T$) là tích nửa trực tiếp của E bởi Int(G) $\cap$ Aut(G$,T$) $=$ Int$_G(N_G(T))$.
 
 Thật vậy, mọi phần tử của Aut(G) biến đổi $e$ thành một framing của G. Theo Mệnh đề 19, mọi lớp kề của Aut(G) modulo Int(G) đều gặp E tại đúng một điểm, suy ra mệnh đề thứ nhất. Mệnh đề thứ hai được chứng minh theo cùng cách.
 

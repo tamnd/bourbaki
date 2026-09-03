@@ -168,9 +168,9 @@ Với mọi $x \in K$, ký hiệu $\Delta(x)$ là phần tử $(x_p) \in \prod_{
 
 #### Mệnh đề 3 {#ac-vii-s2-prop-3 .statement}
 
-*Vành A, (resp. A ) được đồng nhất với phép hoàn bị của A (resp. K) đối với tôpô vành mà một hệ cơ bản các lân cận của 0 gồm tất cả các ideal nguyên $\neq (0)$ của A.*
+*Vành A, (resp. A ) được đồng nhất với phép hoàn bị của A (resp. K) đối với tôpô vành mà một hệ cơ bản các lân cận của 0 gồm tất cả các iđêan nguyên $\neq (0)$ của A.*
 
-Ngay lập tức thấy rằng tôpô đang xét trên A (hoặc K) là Hausdorff. Có tính đến no. 3, mệnh đề liên quan đến A, suy ra từ Chapter 111, § 2, no. 13, Proposition 17. Do đó điều này cho thấy $\Delta(A)$ trù mật trong A,; để thấy tương tự rằng $\Delta(K)$ trù mật trong A, hãy chú ý rằng với mọi $x = (x_i) \in A$ chỉ có hữu hạn $p \in P$ sao cho $v_p(x_p) < 0$; bởi § 1, no. 5, Proposition 9, vì thế tồn tại một $s \in K$ sao cho $sx_p \in \hat{A}_p$ với mọi $p \in P$, nói cách khác $\Delta(s)x \in A$, và vì phép nhân bởi $\Delta(s)$ là một đồng cấu từ A vào chính nó, chỉ cần áp dụng sự kiện rằng $\Delta(A)$ trù mật trong A , để suy ra rằng $\Delta(K)$ trù mật trong A.
+Ngay lập tức thấy rằng tôpô đang xét trên A (hoặc K) là Hausdorff. Có tính đến no. 3, mệnh đề liên quan đến A, suy ra từ Chương 111, § 2, no. 13, mệnh đề 17. Do đó điều này cho thấy $\Delta(A)$ trù mật trong A,; để thấy tương tự rằng $\Delta(K)$ trù mật trong A, hãy chú ý rằng với mọi $x = (x_i) \in A$ chỉ có hữu hạn $p \in P$ sao cho $v_p(x_p) < 0$; bởi § 1, no. 5, mệnh đề 9, vì thế tồn tại một $s \in K$ sao cho $sx_p \in \hat{A}_p$ với mọi $p \in P$, nói cách khác $\Delta(s)x \in A$, và vì phép nhân bởi $\Delta(s)$ là một đồng cấu từ A vào chính nó, chỉ cần áp dụng sự kiện rằng $\Delta(A)$ trù mật trong A , để suy ra rằng $\Delta(K)$ trù mật trong A.
 
 Dĩ nhiên ta cũng có thể chứng minh rằng $\Delta(K)$ trù mật trong A bằng cách dùng Mệnh đề 2.
 

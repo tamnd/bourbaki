@@ -389,7 +389,7 @@ Ta thấy từ điều này rằng đồ thị Dynkin $R$ xác định ma trận
 
 *Cho $R_1$ và $R_2$ là hai hệ căn rút gọn trong các không gian vectơ $V_1$ và $V_2$. Cho $B_1 = (\alpha_i)_{i \in I_1}$ và $B_2 = (\alpha_i)_{i \in I_2}$ là các cơ sở của $R_1$ và $R_2$, được đánh chỉ số một cách chính tắc. Cho $\lambda$ là một đẳng cấu từ đồ thị Dynkin của $R_1$ đến đồ thị Dynkin của $R_2$. Khi đó, tồn tại một đẳng cấu duy nhất từ $V_1$ đến $V_2$ biến $R_1$ thành $R_2$ và $\alpha_i$ thành $\alpha_{\lambda(i)}$ với mọi $i \in I_1$.*
 
-It is clear that một tự đẳng cấu của $R$ xác định một tự đẳng cấu của biểu đồ Dynkin của $R$, và do đó một đồng cấu $\varphi$ từ nhóm $A(R)$ đến nhóm các tự đẳng cấu của biểu đồ Dynkin của $R$.
+Rõ ràng là một tự đẳng cấu của $R$ xác định một tự đẳng cấu của biểu đồ Dynkin của $R$, và do đó một đồng cấu $\varphi$ từ nhóm $A(R)$ đến nhóm các tự đẳng cấu của biểu đồ Dynkin của $R$.
 
 #### Hệ quả {#lie-vi-s4-n2-cor-1 .statement}
 
