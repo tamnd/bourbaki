@@ -31,9 +31,9 @@ subsections:
       title: Éléments superficiels
       page: 0
       pdf_page: 81
-statements: 33
+statements: 34
 exercises: 25
-content_sha256: 6c82bd908b86540efa2fc97368925d7ff7b7c111ae5edeeabb470679dd11e5e2
+content_sha256: 21e410994c182ead283f87292334f898659c5e263b6e92c40c2f793d69d5661c
 ---
 
 ## § 7. MULTIPLICITÉS
@@ -73,7 +73,10 @@ $$
 $$
 
 où $\alpha_n$ tend vers une limite lorsque $n$ augmente indéfiniment (§ 4, no 3, corollaire au th. 2).
-4) On peut ramener le calcul des multiplicités au cas où A est local puisque, d’après § 4, no 4, corollaire au th. 3, on a
+
+#### Remarque 4 {#ac-viii-s7-n1-rem-4 .statement}
+
+On peut ramener le calcul des multiplicités au cas où A est local puisque, d’après § 4, no 4, corollaire au th. 3, on a
 
 $$
 e_q(M) = \sum e_{q_m}(M_m)

@@ -47,9 +47,9 @@ subsections:
       title: CHANGE OF BASE RING
       page: 11
       pdf_page: 29
-statements: 19
+statements: 20
 exercises: 27
-content_sha256: 34c36ec4b6364065c59b2c64940de2dd7a1af068ca79123de094195be8edaedd
+content_sha256: beda2c6cae20a94271df76d22e39d80aa8afbe4c0f59aabcdf1f99f8e4a7b723
 ---
 
 ## § 1. DEFINITION OF LIE ALGEBRAS
@@ -117,7 +117,10 @@ In Example 1 choose $L$ to be the associative algebra of endomorphisms of a $K$-
 Every Lie subalgebra of $gl(E)$ is a Lie algebra over $K$. In particular:
 (1) If $E$ is given a (not necessarily associative) algebra structure, the derivations of $E$ form a Lie algebra over $K$.
 (2) If $E$ admits a finite basis, the endomorphisms of $E$ of zero trace form a Lie algebra over $K$ denoted by $sl(E)$ (or $sl(n, K)$ if $E = K^n$).
-(3) The set $M_n(K)$ of square matrices of order $n$ can be considered as a Lie algebra over K canonically isomorphic to gl(n, K). Let $(E_{ij})$ be the canonical basis of $\mathbf{M}_n(K)$ (Algebra, Chapter II, § 10, no. 3). It follows easily that:
+
+#### Example 3 {#lie-i-s1-n2-exa-3 .statement}
+
+The set $M_n(K)$ of square matrices of order $n$ can be considered as a Lie algebra over K canonically isomorphic to gl(n, K). Let $(E_{ij})$ be the canonical basis of $\mathbf{M}_n(K)$ (Algebra, Chapter II, § 10, no. 3). It follows easily that:
 
 $$
 \begin{cases}

@@ -32,9 +32,9 @@ subsections:
       title: Propriétés de caractère fini
       page: 34
       pdf_page: 138
-statements: 14
+statements: 16
 exercises: 11
-content_sha256: cba69c356e78ad0bb33d0f0ec930a55926e64996fd34519666a29382bd1320e1
+content_sha256: af0ff206d2132905a793e50dd4d15c8c49611ae69be2dbbf22a96874b8684ff7
 ---
 
 ## § 4. ENTIERS NATURELS. ENSEMBLES FINIS
@@ -204,9 +204,14 @@ On dit qu’une propriété $P_{\{X\}}$ d’une partie $X$ d’un ensemble $E$ e
 #### Exemple 1 {#ens-iii-s4-n5-exa-1 .statement tag=03T9}
 
 L’ensemble des parties totalement ordonnées d’un ensemble ordonné $E$ est de caractère fini : en effet, pour qu’une partie $X$ de $E$ soit totalement ordonnée, il faut et il suffit que toute partie à deux éléments de $X$ le soit.
-    2) \* L’ensemble des parties libres d’un module est de caractère fini (A, II, § 1, n° 11). Il en est de même de l’ensemble des parties algébriquement libres d’une extension d’un corps commutatif (A, V, § 5).
 
-3) L’ensemble des sous-modules d’un module E n’est pas de caractère fini, car une partie finie d’un sous-module de E n’est pas nécessairement un sous-module de E.*
+#### Exemple 2 {#ens-iii-s4-n5-exa-2 .statement tag=03TA}
+
+\* L’ensemble des parties libres d’un module est de caractère fini (A, II, § 1, n° 11). Il en est de même de l’ensemble des parties algébriquement libres d’une extension d’un corps commutatif (A, V, § 5).
+
+#### Exemple 3 {#ens-iii-s4-n5-exa-3 .statement tag=03TB}
+
+L’ensemble des sous-modules d’un module E n’est pas de caractère fini, car une partie finie d’un sous-module de E n’est pas nécessairement un sous-module de E.*
 
 #### Théorème 1 {#ens-iii-s4-thm-1 .statement tag=03LD}
 

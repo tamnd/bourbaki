@@ -63,9 +63,9 @@ subsections:
       title: Intervalles
       page: 14
       pdf_page: 118
-statements: 50
+statements: 54
 exercises: 24
-content_sha256: 17956b1a02fee70c6291e5281349e67b3533a7e336fa3ffef8ad9c4cfa05fac5
+content_sha256: e8636030bb5204462477ba31e04cf9cd9d4eaf09e715823362ece1af081fd7f2
 ---
 
 ## § 1. RELATIONS D’ORDRE.. ENSEMBLES ORDONNÉS
@@ -497,7 +497,10 @@ Un ensemble ordonné qui admet un plus grand élément est filtrant à droite.
 #### Exemple 2 {#ens-iii-s1-n10-exa-2 .statement}
 
 \* Dans un espace topologique, un système fondamental de voisinages d’un point est filtrant pour la relation ⊃ (TG, I, § 1, no. 3).
-    3) L’ensemble des sous-modules de type fini d’un module quelconque (A, II, § 1, n° 7) est filtrant pour la relation ⊂.*
+
+#### Exemple 3 {#ens-iii-s1-n10-exa-3 .statement}
+
+L’ensemble des sous-modules de type fini d’un module quelconque (A, II, § 1, n° 7) est filtrant pour la relation ⊂.*
 
 #### Proposition 10 {#ens-iii-s1-prop-10 .statement tag=03QL}
 
@@ -517,9 +520,18 @@ Tout produit d’ensembles réticulés est réticulé, comme il résulte de la c
 #### Exemple 1 {#ens-iii-s1-n11-exa-1 .statement tag=03SV}
 
 L’ensemble des entiers ≥ 1, ordonné par la relation « m divise n » entre m et n, est réticulé, la borne supérieure (resp. inférieure) de {m, n} n’étant autre que le ppcm (resp. pgcd) de m et n (A, VII, § 1).
-    2) L’ensemble des sous-groupes d’un groupe G, ordonné par inclusion, est réticulé (A, I, § 4, n° 3).
-    3) L’ensemble des topologies sur un ensemble A, ordonné par la relation « T est moins fine que T’ » entre T et T’, est réticulé (TG, I, § 1, n°s 3 et 4).
-    4) L’ensemble $\mathcal{F}(I; \mathbf{R})$ des fonctions numériques définies dans un intervalle I de $\mathbf{R}$ est réticulé pour la relation d’ordre $f \leq g$ (III, p. 6), pour laquelle il est isomorphe au produit $\mathbf{R}^I$ (cf. INT, II).*
+
+#### Exemple 2 {#ens-iii-s1-n11-exa-2 .statement tag=03TT}
+
+L’ensemble des sous-groupes d’un groupe G, ordonné par inclusion, est réticulé (A, I, § 4, n° 3).
+
+#### Exemple 3 {#ens-iii-s1-n11-exa-3 .statement tag=03TU}
+
+L’ensemble des topologies sur un ensemble A, ordonné par la relation « T est moins fine que T’ » entre T et T’, est réticulé (TG, I, § 1, n°s 3 et 4).
+
+#### Exemple 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
+
+L’ensemble $\mathcal{F}(I; \mathbf{R})$ des fonctions numériques définies dans un intervalle I de $\mathbf{R}$ est réticulé pour la relation d’ordre $f \leq g$ (III, p. 6), pour laquelle il est isomorphe au produit $\mathbf{R}^I$ (cf. INT, II).*
 
 #### Remarque {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 

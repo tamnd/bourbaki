@@ -27,9 +27,9 @@ subsections:
       title: CRITERIA FOR CONVEXITY
       page: 30
       pdf_page: 45
-statements: 22
+statements: 23
 exercises: 25
-content_sha256: 964811a638fd242af5f6671468a7e2d7291767bff3b84ed640dc6396f60d1db9
+content_sha256: 50b3925e65701f4836278187ffc866a6d401f56f82c18a9588527d7aa9be7d9d
 ---
 
 ## § 4. CONVEX FUNCTIONS OF A REAL VARIABLE
@@ -101,7 +101,10 @@ $$
 $$
 
 for $0 \leq \lambda \leq 1$.
-3) The function $|x|$ is convex on $\mathbf{R}$, since
+
+#### Example 3 {#fvr-i-s4-n1-exa-3 .statement}
+
+The function $|x|$ is convex on $\mathbf{R}$, since
 
 $$
 |\lambda x + (1 - \lambda)x'| \leq \lambda |x| + (1 - \lambda)|x'|

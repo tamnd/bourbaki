@@ -62,9 +62,9 @@ subsections:
       title: Éléments extrémaux
       page: 16
       pdf_page: 305
-statements: 53
+statements: 54
 exercises: 36
-content_sha256: 1ced6e5a52dfa292e0156bac750c4e3ad086c3bbfb517fd843b49d68f60e1359
+content_sha256: d459aee49edffec36fa4551da478366cdc6f77c17893a082abca75e768bd0144
 ---
 
 ## § 1. GROUPES ORDONNÉS. DIVISIBILITÉ
@@ -244,7 +244,10 @@ Soit (G_i)_{i \in I} une famille de groupes ordonnés dont l’ensemble d’indi
 #### Remarque 1 {#alg-vi-s1-n6-rem-1 .statement}
 
 Le cas le plus fréquent est celui où l’ensemble bien ordonné d’indices I est un intervalle fini {1, n} de N.
-    2) L’ensemble des éléments positifs du produit lexicographique G se compose de 0 et des éléments dont la composante non nulle de plus petit indice est positive.
+
+#### Remarque 2 {#alg-vi-s1-n6-rem-2 .statement}
+
+L’ensemble des éléments positifs du produit lexicographique G se compose de 0 et des éléments dont la composante non nulle de plus petit indice est positive.
 
 ### 7. Homomorphismes croissants de groupes ordonnés
 

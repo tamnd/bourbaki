@@ -48,9 +48,9 @@ subsections:
       title: CLASSES OF EQUIVALENT OBJECTS
       page: 121
       pdf_page: 128
-statements: 12
+statements: 13
 exercises: 11
-content_sha256: 34434166c91ffe07e36816eaaf32679a1e1dcc4ba8f1c3152077c5aae1d4c201
+content_sha256: e6575e4e849279138a1a581ab84cb1b482758b417a93c62ef93c5b5e7766db0c
 ---
 
 ## 6. EQUIVALENCE RELATIONS
@@ -73,7 +73,7 @@ Hence $R\{x, y\}$ and $R\{y, x\}$ are equivalent.
 
 $$(R\{x, y\} \text{ and } R\{y, z\}) \Rightarrow R\{x, z\}.$$
 
-#### Example {#ens-ii-s6-n1-exa-6 .statement tag=03TP}
+#### Example {#ens-ii-s6-n1-exa-7 .statement}
 
 The relation $x = y$ is symmetric and transitive. The relation $X \subset Y$ is transitive but not symmetric. The relation $X \cap Y = \emptyset$ is symmetric but not transitive.
 
@@ -110,7 +110,10 @@ Suppose $A \subset E$; then the relation
 $$(x \in E - A \text{ and } y = x) \text{ or } (x \in A \text{ and } y \in A)$$
 
 is an equivalence relation on E.
-(6) \* The relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is an equivalence relation on $\mathbf{Z}$.\*
+
+#### Example 6 {#ens-ii-s6-n1-exa-6 .statement tag=03TP}
+
+\* The relation "$x \in \mathbf{Z}$ and $y \in \mathbf{Z}$ and $x - y$ is divisible by 4" is an equivalence relation on $\mathbf{Z}$.\*
 
 #### Proposition 1 {#ens-ii-s6-prop-1 .statement tag=03QH}
 

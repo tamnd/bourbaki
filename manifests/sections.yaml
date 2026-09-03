@@ -2373,10 +2373,10 @@ books:
               last_pdf_page: 136
               book_pages: 112-122, 127-129
               subsections: 9
-              statements: 12
+              statements: 13
               exercises: 11
               extraction: ocr
-              content_sha256: 34434166c91ffe07e36816eaaf32679a1e1dcc4ba8f1c3152077c5aae1d4c201
+              content_sha256: e6575e4e849279138a1a581ab84cb1b482758b417a93c62ef93c5b5e7766db0c
         - chapter: III
           title: ORDERED SETS, CARDINALS, INTEGERS
           sections:
@@ -4659,10 +4659,10 @@ books:
               last_pdf_page: 101
               book_pages: 1-12, 73-83
               subsections: 9
-              statements: 19
+              statements: 20
               exercises: 27
               extraction: ocr
-              content_sha256: 34c36ec4b6364065c59b2c64940de2dd7a1af068ca79123de094195be8edaedd
+              content_sha256: beda2c6cae20a94271df76d22e39d80aa8afbe4c0f59aabcdf1f99f8e4a7b723
             - kind: section
               section: 2
               title: Enveloping algebra of a Lie algebra
@@ -5418,10 +5418,10 @@ books:
               first_pdf_page: 312
               last_pdf_page: 348
               subsections: 13
-              statements: 52
+              statements: 53
               exercises: 36
               extraction: ocr
-              content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
+              content_sha256: 45ea8a5517b0127a37e1be405e3a76dfd0eb57ebebc488e6233af177c1bfd38c
             - kind: section
               section: 2
               title: Ordered fields
@@ -5880,10 +5880,10 @@ books:
               last_pdf_page: 64
               book_pages: 23-33, 45-49
               subsections: 4
-              statements: 22
+              statements: 23
               exercises: 25
               extraction: ocr
-              content_sha256: 964811a638fd242af5f6671468a7e2d7291767bff3b84ed640dc6396f60d1db9
+              content_sha256: 50b3925e65701f4836278187ffc866a6d401f56f82c18a9588527d7aa9be7d9d
         - chapter: II
           title: PRIMITIVES AND INTEGRALS
           sections:
@@ -6902,10 +6902,10 @@ books:
               last_pdf_page: 112
               book_pages: AC VIII.71-AC VIII.81, AC VIII.103-AC VIII.108
               subsections: 5
-              statements: 33
+              statements: 34
               exercises: 25
               extraction: ocr
-              content_sha256: 6c82bd908b86540efa2fc97368925d7ff7b7c111ae5edeeabb470679dd11e5e2
+              content_sha256: 21e410994c182ead283f87292334f898659c5e263b6e92c40c2f793d69d5661c
         - chapter: IX
           title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
           sections:
@@ -7768,10 +7768,10 @@ books:
               first_pdf_page: 7
               last_pdf_page: 31
               subsections: 7
-              statements: 26
+              statements: 30
               exercises: 14
               extraction: ocr
-              content_sha256: 0eb670b83af5ce67de8c2fa13f552cbfd7773188b5145b333c3829c489d27fc4
+              content_sha256: b69f32004219766313b9c796db5d5ebaff634a94bf3aa93dbd4b3ba310100859
             - kind: section
               section: 2
               title: Variétés linéaires dans un espace vectoriel topologique
@@ -7884,10 +7884,10 @@ books:
               last_pdf_page: 127
               book_pages: EVT II.43-EVT II.57, EVT II.87-EVT II.92
               subsections: 8
-              statements: 44
+              statements: 45
               exercises: 20
               extraction: ocr
-              content_sha256: d80ecc9cfb4b1bcff6c4627e9c896c430ca7f8afd6e20ee7aec820a153d92c66
+              content_sha256: ca3f31362016c357e6db7c8065b2dfc7576d34cf3036aeb2c612d049d36f885f
             - kind: section
               section: 7
               title: Points extrémaux et génératrices extrémales
@@ -9920,10 +9920,10 @@ books:
               last_pdf_page: 167
               book_pages: A I.153-A I.157
               subsections: 4
-              statements: 18
+              statements: 19
               exercises: 21
               extraction: ocr
-              content_sha256: c380280d9031de5a323ee8e7572d2e54428ccf0eeb4317faced9cfb54d719eca
+              content_sha256: aa763e5c5e122e0d1bb887dc16f744bf1f662066917ba969fce719596e5f648a
             - kind: section
               section: 10
               title: Limites projectives et inductives
@@ -10133,10 +10133,10 @@ books:
               first_pdf_page: 389
               last_pdf_page: 565
               subsections: 7
-              statements: 5
+              statements: 8
               exercises: 1
               extraction: ocr
-              content_sha256: 2d5e926b08c68d5e7ca5beba37db0cfedb5584bfc190c8df4ab07597ba9427c7
+              content_sha256: 27a3504506c4303e364875c89a486914306d0be95db683b3ae14febc70e9aefa
             - kind: section
               section: 2
               title: Exemples d’algèbres
@@ -10775,10 +10775,10 @@ books:
               first_pdf_page: 92
               last_pdf_page: 133
               subsections: 7
-              statements: 28
+              statements: 29
               exercises: 29
               extraction: ocr
-              content_sha256: e9eff3ed60be295fd962cd027968f4afe1c217f0dc7647c97b8bb23ce797063a
+              content_sha256: 2d6c3fb9aa50475b7f50ea6a4a3b44fcce29e93543ce19f5f6571a3a70aea3c5
             - kind: historical
               title: Historical Note
               path: content/fr/top/I/historical_note.md
@@ -10810,10 +10810,10 @@ books:
               first_pdf_page: 140
               last_pdf_page: 174
               subsections: 2
-              statements: 13
+              statements: 14
               exercises: 5
               extraction: ocr
-              content_sha256: 7bb54d9be7420ea7071c88fd80783d6eac017db28793506c339ed40a34221d63
+              content_sha256: 6288b483aef86cdb0dac40f4076086ed2473b9ef34afd6ac94d9e5de7de025f4
             - kind: section
               section: 2
               title: Fonctions uniformément continues
@@ -12911,10 +12911,10 @@ books:
               first_pdf_page: 290
               last_pdf_page: 324
               subsections: 13
-              statements: 53
+              statements: 54
               exercises: 36
               extraction: ocr
-              content_sha256: 1ced6e5a52dfa292e0156bac750c4e3ad086c3bbfb517fd843b49d68f60e1359
+              content_sha256: d459aee49edffec36fa4551da478366cdc6f77c17893a082abca75e768bd0144
             - kind: section
               section: 2
               title: CORPS ORDONNÉS
@@ -14501,10 +14501,10 @@ books:
               first_pdf_page: 105
               last_pdf_page: 178
               subsections: 13
-              statements: 50
+              statements: 54
               exercises: 24
               extraction: ocr
-              content_sha256: 17956b1a02fee70c6291e5281349e67b3533a7e336fa3ffef8ad9c4cfa05fac5
+              content_sha256: e8636030bb5204462477ba31e04cf9cd9d4eaf09e715823362ece1af081fd7f2
             - kind: section
               section: 2
               title: Ensembles bien ordonnés
@@ -14540,10 +14540,10 @@ books:
               last_pdf_page: 187
               book_pages: E III.30-E III.35, E III.80-E III.83
               subsections: 5
-              statements: 14
+              statements: 16
               exercises: 11
               extraction: ocr
-              content_sha256: cba69c356e78ad0bb33d0f0ec930a55926e64996fd34519666a29382bd1320e1
+              content_sha256: af0ff206d2132905a793e50dd4d15c8c49611ae69be2dbbf22a96874b8684ff7
             - kind: section
               section: 5
               title: Calcul sur les entiers

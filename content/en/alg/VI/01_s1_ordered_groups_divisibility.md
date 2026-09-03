@@ -63,9 +63,9 @@ subsections:
       title: Irreducible elements
       page: 17
       pdf_page: 328
-statements: 52
+statements: 53
 exercises: 36
-content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
+content_sha256: 45ea8a5517b0127a37e1be405e3a76dfd0eb57ebebc488e6233af177c1bfd38c
 ---
 
 ## § 1. ORDERED GROUPS. DIVISIBILITY
@@ -259,7 +259,10 @@ Let (G_i)_i, be a family of ordered groups whose index set I is well ordered: re
 #### Remark 1 {#alg-vi-s1-n6-rem-1 .statement}
 
 In the commonest cases, the well ordered index set I will be a finite interval (1, n) in N.
-    2) The set of positive elements of the lexicographic product G consists of 0 and those nonzero elements whose nonzero component of least index is positive.
+
+#### Remark 2 {#alg-vi-s1-n6-rem-2 .statement}
+
+The set of positive elements of the lexicographic product G consists of 0 and those nonzero elements whose nonzero component of least index is positive.
 
 ### 7. Increasing homomorphisms of ordered groups
 
