@@ -138,14 +138,14 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Topological Vector Spaces | I | 3 of 3 | 64 | 38 | 0 | 58 |
 | Topological Vector Spaces | II | 8 of 8 | 203 | 162 | 0 | 195 |
 | Topological Vector Spaces | III | 6 of 6 | 123 | 78 | 0 | 101 |
-| Topological Vector Spaces | IV | 6 of 6 | 111 | 100 | 0 | 152 |
+| Topological Vector Spaces | IV | 6 of 6 | 111 | 118 | 0 | 152 |
 | Topological Vector Spaces | V | 4 of 4 | 132 | 68 | 0 | 181 |
 | Functions of a Real Variable | I | 4 of 4 | 81 | 66 | 0 | 100 |
 | Functions of a Real Variable | II | 3 of 3 | 54 | 29 | 0 | 78 |
 | Functions of a Real Variable | III | 2 of 2 | 10 | 48 | 0 | 141 |
 | Functions of a Real Variable | IV | 2 of 2 | 54 | 28 | 0 | 94 |
 | Functions of a Real Variable | V | 5 of 5 | 107 | 28 | 0 | 113 |
-| Functions of a Real Variable | VI | 3 of 3 | 25 | 7 | 0 | 67 |
+| Functions of a Real Variable | VI | 3 of 3 | 25 | 12 | 0 | 67 |
 | Functions of a Real Variable | VII | 2 of 2 | 14 | 12 | 0 | 73 |
 | Elements of the History of Mathematics | 1 | 26 of 26 | 0 | 0 | 0 | 665 |
 | Integration | I | 0 of 1 | 0 | 0 | 0 | 17 |
@@ -160,7 +160,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Lie Groups and Lie Algebras | I | 7 of 7 | 166 | 125 | 0 | 250 |
 | Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 72 | 0 | 186 |
 | Lie Groups and Lie Algebras | III | 11 of 11 | 393 | 113 | 0 | 481 |
-| Lie Groups and Lie Algebras | IV | 3 of 3 | 66 | 45 | 0 | 108 |
+| Lie Groups and Lie Algebras | IV | 3 of 3 | 66 | 43 | 0 | 108 |
 | Lie Groups and Lie Algebras | V | 7 of 7 | 139 | 44 | 0 | 179 |
 | Lie Groups and Lie Algebras | VI | 4 of 4 | 128 | 47 | 0 | 291 |
 | Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 127 |
@@ -187,7 +187,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4451 exercises, 2642 of them carrying a permanent tag.
+388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4472 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -203,25 +203,25 @@ The French is counted and not compared against the English. A file name carries 
 <!-- BEGIN TRANSLATION -->
 | Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
 | --- | --- | --- | --- | --- | --- | --- |
-| Theory of Sets | 30 | 215 | 30 | 211 | 98% | 4 |
-| Algebra | 129 | 1303 | 129 | 1223 | 94% | 177 |
-| General Topology | 80 | 789 | 80 | 681 | 88% | 119 |
-| Functions of a Real Variable | 34 | 251 | 34 | 241 | 96% | 33 |
-| Topological Vector Spaces | 34 | 477 | 34 | 457 | 96% | 31 |
+| Theory of Sets | 30 | 214 | 30 | 211 | 99% | 3 |
+| Algebra | 129 | 1302 | 129 | 1223 | 94% | 176 |
+| General Topology | 80 | 788 | 80 | 680 | 88% | 118 |
+| Functions of a Real Variable | 34 | 251 | 34 | 241 | 96% | 28 |
+| Topological Vector Spaces | 34 | 479 | 34 | 457 | 96% | 15 |
 | Integration | 59 | 511 | 59 | 504 | 99% | 33 |
-| Commutative Algebra | 69 | 898 | 69 | 856 | 96% | 441 |
+| Commutative Algebra | 69 | 898 | 69 | 855 | 96% | 441 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
-| Lie Groups and Lie Algebras | 85 | 800 | 85 | 798 | 100% | 5 |
+| Lie Groups and Lie Algebras | 85 | 798 | 85 | 796 | 100% | 5 |
 | Théories spectrales | 36 | 590 | 36 | 374 | 65% | 626, all of it |
 | Topologie algébrique | 28 | 203 | 28 | 196 | 97% | 231, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **621** | **6037** | **621** | **5541** | **93%** | **1711** |
+| **All** | **621** | **6034** | **621** | **5537** | **93%** | **1687** |
 
-The source column is the English, which is 621 sections and 6037 exercises: 4947 files in `content/en` where Springer printed an English translation and 1970 in `content/en-mt` where this project read the French instead. The French originals are 600 sections and 5587 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 621 sections and 6034 exercises: 4968 files in `content/en` where Springer printed an English translation and 1962 in `content/en-mt` where this project read the French instead. The French originals are 600 sections and 5593 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 621 of the 621 sections and 5541 of the 6037 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 621 of the 621 sections and 5537 of the 6034 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
-The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1349 of the 6162 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1333 of the 6158 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it

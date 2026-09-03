@@ -2718,7 +2718,7 @@ books:
               book_pages: TVS IV.14-TVS IV.21, TVS IV.52-TVS IV.57
               subsections: 5
               statements: 30
-              exercises: 24
+              exercises: 26
               extraction: ocr
               content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
             - kind: section
@@ -2731,9 +2731,9 @@ books:
               book_pages: TVS IV.21-TVS IV.26, TVS IV.57-TVS IV.61
               subsections: 6
               statements: 15
-              exercises: 2
+              exercises: 18
               extraction: ocr
-              content_sha256: 4065ed0aff089e17407855388482b96630c02240233829e9c16d410797c4c210
+              content_sha256: a21eee49fbcec695bd9b1df3c255a93a27536274d1505cdbb376e387252d49ab
             - kind: section
               section: 4
               title: Strict morphisms of Fréchet spaces
@@ -5254,7 +5254,7 @@ books:
               last_pdf_page: 56
               subsections: 9
               statements: 30
-              exercises: 16
+              exercises: 14
               extraction: ocr
               content_sha256: e21e9157d9b83420982a6387b3aa2e1a20f94990bb5e1be3c98102e297f3b6de
             - kind: section
@@ -5802,9 +5802,9 @@ books:
               book_pages: 283-288, 292-296
               subsections: 3
               statements: 5
-              exercises: 1
+              exercises: 6
               extraction: ocr
-              content_sha256: 92a86873033ab5647903ff5650d9e5c47095c7b96eae3a0bda3888423a6612e5
+              content_sha256: c5c7d446dee9ba1fe3d1c893187a3788356b0388489f1ea77fdf68ea2831727a
             - kind: section
               section: 3
               title: BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
@@ -5953,7 +5953,7 @@ books:
               statements: 14
               exercises: 12
               extraction: ocr
-              content_sha256: ce62004672f2a552baeee93c993f23b37bb4a071c1446b11586401d7598f5a2a
+              content_sha256: 6994d1fcef1279c0e7cff0c45ff4c40d2c5fa008b3fcaaed2d058d386707fb02
             - kind: section
               section: 6
               title: La série de Hausdorff
@@ -9520,7 +9520,7 @@ books:
               book_pages: A III.12-A III.30
               subsections: 11
               statements: 20
-              exercises: 4
+              exercises: 3
               extraction: ocr
               content_sha256: 13eb8ae334e2c27bb261675f7ae2326e6c05f328bc68c6450bead53a15ffe82c
             - kind: section
@@ -9709,7 +9709,7 @@ books:
               last_pdf_page: 65
               subsections: 11
               statements: 41
-              exercises: 15
+              exercises: 24
               extraction: ocr
               content_sha256: af91402a2ec2c2ed81a7bff1a5e8ce758f4c5169ec4ecce1812964a448251d8c
             - kind: section
@@ -9770,7 +9770,7 @@ books:
               last_pdf_page: 164
               subsections: 9
               statements: 58
-              exercises: 18
+              exercises: 25
               extraction: ocr
               content_sha256: 002eb9711ea80898e77fc20598af052186def930de5f918d075490e8223be466
             - kind: section
@@ -9855,7 +9855,7 @@ books:
               last_pdf_page: 299
               subsections: 5
               statements: 37
-              exercises: 9
+              exercises: 7
               extraction: ocr
               content_sha256: 8946770381542fea93e050249d046345be6a1a19154b6df2eaac30ae3e84b650
             - kind: section
@@ -10766,7 +10766,7 @@ books:
               last_pdf_page: 249
               subsections: 11
               statements: 62
-              exercises: 5
+              exercises: 3
               extraction: ocr
               content_sha256: 3fcd4a66927194632d9fb1ddf6dc957e482b924a4f4a3e17d94933d48c0000ac
             - kind: section
@@ -12982,7 +12982,7 @@ books:
               book_pages: TG IX.11-TG IX.23, TG IX.90-TG IX.98
               subsections: 10
               statements: 33
-              exercises: 10
+              exercises: 9
               extraction: ocr
               content_sha256: 658f14178c1b033de38316d093be8112fa307402df703f83c48823dca01267d0
             - kind: section
@@ -13021,7 +13021,7 @@ books:
               book_pages: TG IX.52-TG IX.56, TG IX.111-TG IX.117
               subsections: 4
               statements: 16
-              exercises: 7
+              exercises: 4
               extraction: ocr
               content_sha256: e7f058030e9aa60229969b035e57617e41f974b7ae322db51d27e3faca3689ba
             - kind: section
@@ -13708,7 +13708,7 @@ books:
               book_pages: E III.94-E III.96
               subsections: 7
               statements: 26
-              exercises: 10
+              exercises: 9
               extraction: ocr
               content_sha256: 8c30384cc85751bc4198f0143b858784f0b5074aaeb93001f72b9ed872738c39
             - kind: historical

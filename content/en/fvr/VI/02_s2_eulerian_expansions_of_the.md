@@ -24,8 +24,8 @@ subsections:
       page: 287
       pdf_page: 302
 statements: 5
-exercises: 1
-content_sha256: 92a86873033ab5647903ff5650d9e5c47095c7b96eae3a0bda3888423a6612e5
+exercises: 6
+content_sha256: c5c7d446dee9ba1fe3d1c893187a3788356b0388489f1ea77fdf68ea2831727a
 ---
 
 ## § 2. EULERIAN EXPANSIONS OF THE TRIGONOMETRIC FUNCTIONS AND BERNOULLI NUMBERS
@@ -227,107 +227,5 @@ $$
 $$
 
 ### Exercises {#fvr-vi-s2-exercises}
-
-Establish the formulae
-
-$$
-\tan z = \sum_{n=1}^{\infty} (-1)^{n-1} 2^{2n} (2^{2n} - 1) b_{2n} \frac{z^{2n-1}}{(2n)!}
-$$
-
-$$
-\frac{1}{\sin z} = \frac{1}{z} + \sum_{n=1}^{\infty} (-1)^{n-1} 2 (2^{2n-1} - 1) b_{2n} \frac{z^{2n-1}}{(2n)!}
-$$
-
-here the series on the right-hand sides converge absolutely, the first for $|z| < \frac{\pi}{2}$ and the second for $|z| < \pi$ (express $\tan z$ and $1/\sin 2z$ as linear combinations of $\cot z$ and $\cot 2z$). Deduce that the numbers $\frac{2^{2n}(2^{2n} - 1)}{2n} b_{2n}$ are integers. (Use the following lemma: in two absolutely convergent series $\sum_{n=0}^{\infty} \alpha_n \frac{z^n}{n!}$, $\sum_{n=0}^{\infty} \beta_n \frac{z^n}{n!}$ the coefficients $\alpha_n$ and $\beta_n$ are integers, then, in their product written in the form $\sum_{n=0}^{\infty} \gamma_n \frac{z^n}{n!}$, the $\gamma_n$ are integers.)
-
-Establish the formula
-
-$$
-(n-1)B_n(X) = n(X-1)B_{n-1}(X) - \sum_{k=0}^{n} \binom{n}{k} b_k B_{n-k}(X)
-$$
-
-differentiate the series $S e^{SX}/(e^S - 1)$ with respect to S). Deduce the formula
-
-$$
-(2n+1)b_{2n} = - \sum_{k=1}^{n-1} \binom{2n}{2k} b_{2k} b_{2n-2k}
-$$
-
-for the Bernoulli numbers.
-
-Show that, for every integer $p > 1$,
-
-$$
-B_n \left( \frac{x}{p} \right) + B_n \left( \frac{x+1}{p} \right) + \cdots + B_n \left( \frac{x+p-1}{p} \right) = \frac{1}{p^{n-1}} B_n(X).
-$$
-
-4) a) Prove the relation
-$$
-B_n(1 - X) = (-1)^n B_n(X)
-$$
-(use the fact that $b_{2n-1} = 0$ for $n > 1$, and the relation
-$$
-B_n(1 - X) - B_n(-X) = (-1)^n n X^{n-1}.
-$$)
-
-b) Show that
-$$
-B_n \left( \frac{1}{2} \right) = b_n \left( \frac{1}{2^n} - 1 \right)
-$$
-(use exerc. 3).
-
-c) Show that, for $n$ even, $B_n(X)$ has two roots in the interval $[0, 1]$ of $\mathbf{R}$, and that for $n$ odd $> 1$, $B_n(X)$ has a simple root at the points $0, \frac{1}{2}$ and $1$ and does not vanish at any other point of $[0, 1]$ (use $b$) and the relation $B'_n = n \tilde{B}_{n-1}$).
-
-d) Deduce from c) that, for $n$ even, the maximum of $|B_n(x)|$ on the interval $[0, 1]$ is $|b_n|$, and that for $n$ odd, if $a_n$ is the maximum of $|B_n(x)|$ on $[0, 1]$, then
-$$
-\frac{4}{n+1} |b_{n+1}| \left( 1 - \frac{1}{2^n} \right) \leq a_n \leq \frac{1}{2} n |b_{n-1}|
-$$
-(use the mean value theorem).
-
-5) If one puts $S_n(x) = \frac{1}{n+1} (B_{n-1}(x) - B_{n+1}(0))$ then, for every integer $a > 0$ one has
-$$
-S_n(a) = 1^n + 2^n + \cdots + (a-1)^n.
-$$
-
-a) Show that for every integer $n \geq 0$ and every integer $a > 0$ one has $2 S_{2n+1}(a) \equiv 0$ (mod. $a$) (consider the sum $k^{2n+1} + (a-k)^{2n+1}$).
-
-b) If $r$ and $s$ are any two integers show that
-$$
-S_n(rs) \equiv s S_n(r) + n r S_{n-1}(r) S_1(s) \pmod{r^2}.
-$$
-
-c) Let $p$ be a prime number. Show that if $n$ is divisible by $p-1$ one has $S_n(p) \equiv -1$ (mod. $p$), and if $n$ is not divisible by $p-1$ then $S_n(p) \equiv 0$ (mod. $p$) (if $p$ does not divide the integer $g$ remark that $S_n(p) \equiv g^n S_n(p)$ (mod. $p$)).
-
-6) a) The rational numbers $b_n$ having been defined by the formula (20) of VI, p. 275, one denotes by $d_n$ the denominator $> 0$ of $b_n$ written as an irreducible fraction. Show that no prime factor of $d_n$ can be $> n+1$ (use the induction formula (23) of VI, p. 276)
-
-b) Show that for every integer $p > 0$ and every integer $n > 0$
-$$
-S_n(p) = b_n p + \binom{n}{1} \frac{p}{2} b_{n-1} p + \cdots + \binom{n}{r} \frac{p'}{r+1} b_{n-r} p + \cdots + \frac{p^{n+1}}{n+1}.
-$$
-
-c) Deduce from b) by recursion on $n$ that, for every prime number $p$ the denominator of $S_n(p) - b_n p$ written as an irreducible fraction, is not divisible by $p$ (observe that $p'$ cannot divide $r+1$).
-
-Deduce from c) that the number
-
-$$
-b_n - \sum_p \frac{S_n(p)}{p}
-$$
-
-where $p$ runs through the set of prime numbers $p \leq n + 1$ and $n$ is even, is an integer. Deduce that
-
-$$
-b_{2n} + \sum_p \frac{1}{p}
-$$
-
-where $p$ runs through the set of prime numbers such that $p - 1$ divides $2n$, is an integer (Eisenstein-von Staudt theorem; use exerc. 5 c).
-
-We accept that for every integer $a > 0$ there are infinitely many prime numbers in the set of integers $1 + ma$ ($m$ running through the set of integers $\geq 1$; this is a particular case of Dirichlet’s theorem on arithmetic progressions).
-
-Let $n$ be an integer $\geq 1$, and let $s \geq 1$ be an integer such that $q = 1 + (2n + 1)!s$ is prime; show that if $p$ is a prime number such that $p - 1$ divides $2nq$ then $p - 1$ must divide $2n$ (in the opposite case one would have $p - 1 = qd$ with $d$ an integer, and $p$ would be divisible by $d + 1$).
-
-Deduce from a) that for every integer $n > 0$ there exist infinitely many integers $m > n$ such that $b_{2m} - b_{2n}$ is an integer.*
-
-Show that, for every prime number $p > 3$, $S_{2n}(p^k) - p^k b_{2n}$, written as an irreducible fraction, has a numerator divisible by $p^{2k}$ (argue as in exerc. 6).
-
-To say that a rational number $r$ is a $p$-adic integer (\emph{Gen. Top.}, III, p. 322, exerc.
 
 See the [exercises for § 2](exercises/s2/).
