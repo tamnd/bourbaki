@@ -114,13 +114,13 @@ Cho $H$ là một tập con của $\mathcal{F}(X; Y)$. Do lạm dụng ngôn ng�
 
 Cho $L$ là một tập hợp được lọc bởi một lọc $\mathfrak{S}$, và cho $\lambda \to u_\lambda$ là một ánh xạ của $L$ vào $\mathcal{F}_\mathcal{S}(X; Y)$ có giới hạn $v$ đối với $\mathfrak{S}$; khi đó ta nói rằng, *đối với lọc* $\mathfrak{S}$, *các ánh xạ* $u_\lambda$ *của* $X$ *vào* $Y$ *hội tụ đều tới* $v$ *[hoặc họ* $(u_\lambda)$ *hội tụ đều tới* $v$] *trong mỗi tập hợp của* $\mathcal{S}$. *Nếu* $L = \mathbf{N}$ *và* $\mathfrak{S}$ *là lọc Fréchet*, ta bỏ qua việc nhắc đến $\mathfrak{S}$ *trong mệnh đề này*.
 
-More particularly, suppose that there is a commutative and associative law of composition (written additively) defined on $Y$. If $(u_n)$ is any sequence of mappings of $X$ into $Y$, let $v_n$ be the mapping defined by
+Cụ thể hơn, giả sử rằng có một luật hợp thành giao hoán và kết hợp (được viết theo phép cộng) xác định trên $Y$. Nếu $(u_n)$ là bất kỳ một dãy ánh xạ nào từ $X$ vào $Y$, gọi $v_n$ là ánh xạ được xác định bởi
 
 $$
 v_n(x) = \sum_{k=0}^n u_k(x) \quad (n \in \mathbf{N});
 $$
 
-we say that *the series whose general term is* $u_n$ *is uniformly convergent in every set of* $\mathcal{G}$ *if the sequence* $(v_n)$ *is uniformly convergent in every set of* $\mathcal{G}$. Likewise we define a *uniformly summable family* $(u_\lambda)_{\lambda \in L}$ of mappings of $X$ into $Y$ by considering the mappings $x \to \sum_{\lambda \in J} n_\lambda(x)$ for all finite subsets $J$ of $L$ and the limit of these mappings in $\mathcal{F}_\mathcal{G}(X; Y)$ with respect to the directed set of finite subsets of $L$ (Chương III, § 5, no. 1).
+ta nói rằng *chuỗi có số hạng tổng quát là* $u_n$ *là hội tụ đều trong mọi tập của* $\mathcal{G}$ *nếu dãy* $(v_n)$ *là hội tụ đều trong mọi tập của* $\mathcal{G}$. Tương tự, ta định nghĩa một *họ khả tổng đều* $(u_\lambda)_{\lambda \in L}$ của các ánh xạ từ $X$ vào $Y$ bằng cách xét các ánh xạ $x \to \sum_{\lambda \in J} n_\lambda(x)$ với mọi tập con hữu hạn $J$ của $L$ và giới hạn của các ánh xạ này trong $\mathcal{F}_\mathcal{G}(X; Y)$ đối với tập có hướng gồm các tập con hữu hạn của $L$ (Chương III, § 5, no. 1).
 
 #### Nhận xét 6 {#top-x-s1-n2-rem-6 .statement}
 

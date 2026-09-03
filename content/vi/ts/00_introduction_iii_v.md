@@ -44,7 +44,7 @@ Ngoài các bài báo gốc và các hồi ký, chúng tôi đã đặc biệt t
 
 A. Borel, Représentations de groupes localement compacts, Lecture Notes in Mathematics 276, Springer, 1972.
 
-M. Reed and B. Simon, Methods of Mathematical Physics, Academic Press, Vol. 1, 1980 and Vol. 2, 1975.
+M. Reed và B. Simon, Methods of Mathematical Physics, Academic Press, Tập 1, 1980 và Tập 2, 1975.
 
 K. Schmüdgen, Unbounded Self-adjoint Operators on Hilbert Space, Graduate Texts in Mathematics 265, Springer, 2012.
 
@@ -76,29 +76,29 @@ LIE, IX, p. 69, § 7, n$^o2$. Thay vì “then according to TS”, đọc “the
 
 p. 464, prop. 6)”.
 
-LIE, IX, p. 71, § 7, n$^o3$. Thay vì “which, according to TS, is an isomorphism”,
+LIE, IX, p. 71, § 7, n$^o3$. Thay vì “cái mà, theo TS, là một đẳng cấu”,
 
-đọc “which, according to TS, V, p. 469, cor. 2, is an isomorphism.”
+đọc “cái mà, theo TS, V, p. 469, hệ quả 2, là một đẳng cấu.”
 
 LIE, IX, p. 72, § 7, n$^o4$. Thay vì “(TS)”, đọc “(TS, V, p. 459, cor. 3)”.
 
-LIE, IX, p. 74, § 7, n$^o4$. Sau “of the space of central representative functions
+LIE, IX, p. 74, § 7, n$^o4$. Sau “của không gian các hàm biểu diễn trung tâm
 
-on G”, thêm “(TS, V, p. 469, cor. 2, a))” ; sau “of the space ZL$^2(G)$”
+trên G”, thêm “(TS, V, p. 469, cor. 2, a))” ; sau “của không gian ZL$^2(G)$”
 
-of square-integrable central functions on G », thêm « (TS, V, p. 468,
+của các hàm trung tâm bình phương khả tích trên G », thêm « (TS, V, p. 468,
 
 prop. 9). »
 
 LIE, IX, p. 78, § 8, n$^o1$. Thay vì « In this number, definitions
 
-and results from TS are recalled », đọc « Definitions and results from TS are recalled, V,
+và các kết quả từ TS được nhắc lại », đọc « Các định nghĩa và kết quả từ TS được nhắc lại, V,
 
 p. 386, n$^o8$; p. 392, n$^o10$; p. 470, n$^o7$. »
 
-LIE, IX, p. 84, § 8, n$^o3$. Thay vì « Let us recall (TS) the formulae », đọc « One has
+LIE, IX, p. 84, § 8, n$^o3$. Thay vì « Hãy nhắc lại (TS) các công thức », đọc « Có
 
-(TS, V, p. 467, formulae (1) and (2)) the formulae ».
+(TS, V, p. 467, các công thức (1) và (2)) các công thức ».
 
 LIE, IX, p. 89, § 9, n$^o1$. Thay vì « TS, III, §2, n$^o7$, prop. 16 », đọc « TS, III,
 

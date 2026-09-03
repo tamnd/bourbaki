@@ -320,7 +320,7 @@ Một hàm $f$ được gọi là *hằng* nếu với mọi $x$ và $x'$ trong 
 
 ### 5. HẠN CHẾ VÀ MỞ RỘNG CỦA CÁC HÀM
 
-Hai hàm $f$ và $g$ được gọi là *trùng nhau* (hay *coincide*) trên một tập hợp E nếu E được chứa trong các miền xác định của $f$ và $g$ và nếu $f(x)=g(x)$ với mọi $x\in E$. Hai hàm có cùng đồ thị thì trùng nhau trên miền xác định của chúng. Nói rằng $f=g$ nghĩa là $f$ và $g$ có cùng miền xác định A và cùng tập đích B, và chúng trùng nhau trên A.
+Hai hàm $f$ và $g$ được gọi là *trùng nhau* (hay *trùng nhau*) trên một tập hợp E nếu E được chứa trong các miền xác định của $f$ và $g$ và nếu $f(x)=g(x)$ với mọi $x\in E$. Hai hàm có cùng đồ thị thì trùng nhau trên miền xác định của chúng. Nói rằng $f=g$ nghĩa là $f$ và $g$ có cùng miền xác định A và cùng tập đích B, và chúng trùng nhau trên A.
 
 ¶ Cho $f=(F,A,B)$ và $g=(G,C,D)$ là hai hàm. Nói rằng $F\subset G$ nghĩa là miền xác định A của $f$ được chứa trong miền xác định C của $g$ và $g$ trùng với $f$ trên A. Nếu còn có $B\subset D$, thì $g$ được gọi là một *mở rộng* của $f$ (chính xác hơn, là một mở rộng của $f$ đến C), và $g$ được gọi là *mở rộng* $f$ (đến C). Khi $g$ được gọi là một *họ phần tử* của D, $f$ được gọi là một *họ con* của $g$.
 
