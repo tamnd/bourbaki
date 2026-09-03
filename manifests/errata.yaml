@@ -513,8 +513,8 @@ contents:
             heading is on pdf 25, which is labelled A X.19.
     - book: int-i-iv-fr
       errata:
-        - says: "§ 2. Support d'une mesure .................................................. 62"
-          read: "§ 2. Support d'une mesure .................................................. 64"
+        - says: "§ 2. Support d’une mesure .................................................. 62"
+          read: "§ 2. Support d’une mesure .................................................. 64"
           why: The printed contents, pdf page 280, puts § 2 of chapter III on page 62,
             and the book is wrong about its own page. Page 62 is where no. 10 of § 1
             opens, and the contents says so on the line above this one. No. 10 runs to
@@ -522,8 +522,8 @@ contents:
             UN ESPACE LOCALEMENT COMPACT 63, and the § 2 heading is set on the page
             after it, pdf 68, which the page map puts at printed 64. The reading of the
             contents is faithful, since the page image prints 62 as well.
-        - says: "    1. Restriction d'une mesure à un ensemble ouvert. Définition d'une mesure par des données locales ............................................. 62"
-          read: "    1. Restriction d'une mesure à un ensemble ouvert. Définition d'une mesure par des données locales ............................................. 64"
+        - says: "    1. Restriction d’une mesure à un ensemble ouvert. Définition d’une mesure par des données locales ............................................. 62"
+          read: "    1. Restriction d’une mesure à un ensemble ouvert. Définition d’une mesure par des données locales ............................................. 64"
           why: The first no. of the § the line above corrects, carried along by the same
             error. Its heading is on pdf 68 directly under the § heading, and no. 2 of
             the § is on printed 66, which the contents gets right.
