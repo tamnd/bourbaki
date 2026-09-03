@@ -7,15 +7,15 @@
   "printedPages": 418,
   "sections": 30,
   "ofPrinting": 100,
-  "files": 30,
+  "files": 32,
   "exercises": 211,
-  "anchors": 631,
+  "anchors": 632,
   "formulae": 15400,
   "documents": 34,
-  "pages": 347,
+  "pages": 374,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -28,18 +28,17 @@
   "printedPages": 418,
   "sections": 30,
   "ofPrinting": 100,
-  "files": 30,
+  "files": 32,
   "exercises": 207,
-  "anchors": 591,
+  "anchors": 597,
   "formulae": 15041,
   "documents": 34,
-  "pages": 339,
+  "pages": 362,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no prose character needed the fallback face"
+   "the volume holds the text the printing has"
   ]
  },
  {
@@ -57,8 +56,8 @@
   "documents": 34,
   "pages": 349,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -71,15 +70,15 @@
   "printedPages": 349,
   "sections": 30,
   "ofPrinting": 100,
-  "files": 30,
+  "files": 32,
   "exercises": 211,
-  "anchors": 631,
+  "anchors": 632,
   "formulae": 15400,
   "documents": 34,
-  "pages": 347,
+  "pages": 374,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -92,18 +91,17 @@
   "printedPages": 349,
   "sections": 30,
   "ofPrinting": 100,
-  "files": 30,
+  "files": 32,
   "exercises": 207,
-  "anchors": 591,
+  "anchors": 597,
   "formulae": 15041,
   "documents": 34,
-  "pages": 339,
+  "pages": 362,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no prose character needed the fallback face"
+   "the volume holds the text the printing has"
   ]
  },
  {
@@ -121,8 +119,8 @@
   "documents": 34,
   "pages": 349,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -135,18 +133,16 @@
   "printedPages": 734,
   "sections": 41,
   "ofPrinting": 100,
-  "files": 41,
+  "files": 43,
   "exercises": 465,
   "anchors": 1483,
-  "formulae": 35726,
+  "formulae": 35242,
   "documents": 44,
-  "pages": 743,
+  "pages": 755,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no TeX control sequence is loose in the prose"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-i-iii",
@@ -156,15 +152,15 @@
   "printedPages": 734,
   "sections": 41,
   "ofPrinting": 100,
-  "files": 41,
+  "files": 43,
   "exercises": 474,
-  "anchors": 1607,
-  "formulae": 35558,
+  "anchors": 1611,
+  "formulae": 35031,
   "documents": 44,
-  "pages": 749,
+  "pages": 756,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -182,8 +178,8 @@
   "documents": 44,
   "pages": 775,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -194,15 +190,15 @@
   "printedPages": 460,
   "sections": 37,
   "ofPrinting": 100,
-  "files": 37,
+  "files": 39,
   "exercises": 366,
-  "anchors": 1250,
-  "formulae": 24027,
+  "anchors": 1251,
+  "formulae": 23892,
   "documents": 41,
-  "pages": 493,
+  "pages": 494,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -213,15 +209,15 @@
   "printedPages": 460,
   "sections": 35,
   "ofPrinting": 94,
-  "files": 35,
+  "files": 37,
   "exercises": 384,
-  "anchors": 1289,
-  "formulae": 26344,
+  "anchors": 1290,
+  "formulae": 26216,
   "documents": 39,
-  "pages": 504,
+  "pages": 506,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -239,8 +235,8 @@
   "documents": 41,
   "pages": 491,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -251,18 +247,16 @@
   "printedPages": 505,
   "sections": 29,
   "ofPrinting": 100,
-  "files": 29,
+  "files": 31,
   "exercises": 317,
   "anchors": 1075,
-  "formulae": 19836,
+  "formulae": 19835,
   "documents": 30,
-  "pages": 433,
+  "pages": 449,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-viii",
@@ -272,18 +266,16 @@
   "printedPages": 505,
   "sections": 29,
   "ofPrinting": 100,
-  "files": 29,
+  "files": 31,
   "exercises": 316,
   "anchors": 1075,
-  "formulae": 19672,
+  "formulae": 19671,
   "documents": 30,
-  "pages": 439,
+  "pages": 455,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-viii",
@@ -296,15 +288,13 @@
   "files": 29,
   "exercises": 317,
   "anchors": 1075,
-  "formulae": 19856,
+  "formulae": 19855,
   "documents": 30,
   "pages": 427,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-i-iii-fr",
@@ -314,18 +304,16 @@
   "printedPages": 645,
   "sections": 41,
   "ofPrinting": 100,
-  "files": 41,
+  "files": 43,
   "exercises": 465,
   "anchors": 1483,
-  "formulae": 35726,
+  "formulae": 35242,
   "documents": 44,
-  "pages": 745,
+  "pages": 757,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no TeX control sequence is loose in the prose"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-i-iii-fr",
@@ -335,15 +323,15 @@
   "printedPages": 645,
   "sections": 41,
   "ofPrinting": 100,
-  "files": 41,
+  "files": 43,
   "exercises": 474,
-  "anchors": 1607,
-  "formulae": 35558,
+  "anchors": 1611,
+  "formulae": 35031,
   "documents": 44,
-  "pages": 749,
+  "pages": 758,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -361,8 +349,8 @@
   "documents": 44,
   "pages": 775,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -373,15 +361,15 @@
   "printedPages": 426,
   "sections": 35,
   "ofPrinting": 100,
-  "files": 37,
+  "files": 39,
   "exercises": 366,
-  "anchors": 1250,
-  "formulae": 24027,
+  "anchors": 1251,
+  "formulae": 23892,
   "documents": 41,
-  "pages": 493,
+  "pages": 494,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -392,15 +380,15 @@
   "printedPages": 426,
   "sections": 35,
   "ofPrinting": 100,
-  "files": 35,
+  "files": 37,
   "exercises": 384,
-  "anchors": 1289,
-  "formulae": 26344,
+  "anchors": 1290,
+  "formulae": 26216,
   "documents": 39,
-  "pages": 504,
+  "pages": 506,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -418,8 +406,8 @@
   "documents": 41,
   "pages": 491,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -430,18 +418,16 @@
   "printedPages": 487,
   "sections": 29,
   "ofPrinting": 100,
-  "files": 29,
+  "files": 31,
   "exercises": 317,
   "anchors": 1075,
-  "formulae": 19836,
+  "formulae": 19835,
   "documents": 30,
-  "pages": 433,
+  "pages": 449,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-viii-fr",
@@ -451,18 +437,16 @@
   "printedPages": 487,
   "sections": 29,
   "ofPrinting": 100,
-  "files": 29,
+  "files": 31,
   "exercises": 316,
   "anchors": 1075,
-  "formulae": 19672,
+  "formulae": 19671,
   "documents": 30,
-  "pages": 439,
+  "pages": 455,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-viii-fr",
@@ -475,15 +459,14 @@
   "files": 29,
   "exercises": 317,
   "anchors": 1075,
-  "formulae": 19856,
+  "formulae": 19855,
   "documents": 30,
   "pages": 427,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no footnote is printed as its own source"
+   "the volume holds the text the printing has"
   ]
  },
  {
@@ -501,8 +484,8 @@
   "documents": 12,
   "pages": 192,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -520,8 +503,8 @@
   "documents": 12,
   "pages": 192,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -532,15 +515,15 @@
   "printedPages": 211,
   "sections": 12,
   "ofPrinting": 100,
-  "files": 12,
+  "files": 14,
   "exercises": 0,
   "anchors": 229,
-  "formulae": 9932,
+  "formulae": 9741,
   "documents": 12,
-  "pages": 197,
+  "pages": 200,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -558,8 +541,8 @@
   "documents": 12,
   "pages": 193,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -577,11 +560,9 @@
   "documents": 11,
   "pages": 263,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "the numbered subsections run without a gap"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-x-fr",
@@ -598,11 +579,9 @@
   "documents": 11,
   "pages": 263,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "the numbered subsections run without a gap"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "alg-x-fr",
@@ -612,15 +591,15 @@
   "printedPages": 222,
   "sections": 11,
   "ofPrinting": 100,
-  "files": 11,
+  "files": 13,
   "exercises": 138,
   "anchors": 511,
-  "formulae": 11086,
+  "formulae": 11011,
   "documents": 12,
-  "pages": 269,
+  "pages": 270,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -638,10 +617,9 @@
   "documents": 11,
   "pages": 216,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the numbered subsections run without a gap",
    "the volume holds the text the printing has"
   ]
  },
@@ -653,15 +631,15 @@
   "printedPages": 443,
   "sections": 40,
   "ofPrinting": 100,
-  "files": 40,
+  "files": 42,
   "exercises": 410,
   "anchors": 1171,
-  "formulae": 22771,
+  "formulae": 22677,
   "documents": 44,
-  "pages": 417,
+  "pages": 427,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -672,15 +650,15 @@
   "printedPages": 443,
   "sections": 40,
   "ofPrinting": 100,
-  "files": 40,
+  "files": 42,
   "exercises": 461,
-  "anchors": 1218,
-  "formulae": 19700,
+  "anchors": 1220,
+  "formulae": 19606,
   "documents": 44,
-  "pages": 432,
+  "pages": 434,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -698,8 +676,8 @@
   "documents": 44,
   "pages": 426,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -710,15 +688,15 @@
   "printedPages": 372,
   "sections": 38,
   "ofPrinting": 100,
-  "files": 38,
+  "files": 40,
   "exercises": 262,
   "anchors": 740,
-  "formulae": 19028,
+  "formulae": 18888,
   "documents": 44,
-  "pages": 347,
+  "pages": 353,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -729,15 +707,15 @@
   "printedPages": 372,
   "sections": 37,
   "ofPrinting": 97,
-  "files": 39,
+  "files": 41,
   "exercises": 292,
   "anchors": 824,
-  "formulae": 19217,
+  "formulae": 19045,
   "documents": 45,
-  "pages": 387,
+  "pages": 385,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -755,8 +733,8 @@
   "documents": 46,
   "pages": 373,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -767,15 +745,15 @@
   "printedPages": 367,
   "sections": 40,
   "ofPrinting": 100,
-  "files": 40,
+  "files": 42,
   "exercises": 410,
   "anchors": 1171,
-  "formulae": 22771,
+  "formulae": 22677,
   "documents": 44,
-  "pages": 419,
+  "pages": 429,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -786,15 +764,15 @@
   "printedPages": 367,
   "sections": 40,
   "ofPrinting": 100,
-  "files": 40,
+  "files": 42,
   "exercises": 461,
-  "anchors": 1218,
-  "formulae": 19700,
+  "anchors": 1220,
+  "formulae": 19606,
   "documents": 44,
-  "pages": 432,
+  "pages": 434,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -812,8 +790,8 @@
   "documents": 44,
   "pages": 426,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -826,16 +804,18 @@
   "printedPages": 329,
   "sections": 37,
   "ofPrinting": 94,
-  "files": 38,
+  "files": 40,
   "exercises": 262,
   "anchors": 740,
-  "formulae": 19028,
+  "formulae": 18888,
   "documents": 44,
-  "pages": 349,
+  "pages": 355,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
-  "failed": null
+  "ran": 32,
+  "passed": 31,
+  "failed": [
+   "the volume holds the text the printing has"
+  ]
  },
  {
   "id": "top-v-x-fr",
@@ -865,15 +845,15 @@
   "printedPages": 329,
   "sections": 39,
   "ofPrinting": 100,
-  "files": 39,
+  "files": 41,
   "exercises": 292,
   "anchors": 824,
-  "formulae": 19217,
+  "formulae": 19045,
   "documents": 45,
-  "pages": 387,
+  "pages": 385,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -891,8 +871,8 @@
   "documents": 46,
   "pages": 373,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -905,15 +885,15 @@
   "printedPages": 354,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 223,
-  "anchors": 618,
-  "formulae": 14879,
+  "anchors": 619,
+  "formulae": 14778,
   "documents": 41,
-  "pages": 359,
+  "pages": 366,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -924,15 +904,15 @@
   "printedPages": 354,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 237,
   "anchors": 636,
-  "formulae": 14798,
+  "formulae": 14704,
   "documents": 41,
-  "pages": 371,
+  "pages": 372,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -950,11 +930,9 @@
   "documents": 41,
   "pages": 367,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no prose character needed the fallback face"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "fvr-i-vii-fr",
@@ -964,15 +942,15 @@
   "printedPages": 329,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 223,
-  "anchors": 618,
-  "formulae": 14879,
+  "anchors": 619,
+  "formulae": 14778,
   "documents": 41,
-  "pages": 361,
+  "pages": 368,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -983,15 +961,15 @@
   "printedPages": 329,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 237,
   "anchors": 636,
-  "formulae": 14798,
+  "formulae": 14704,
   "documents": 41,
-  "pages": 371,
+  "pages": 372,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1009,11 +987,9 @@
   "documents": 41,
   "pages": 367,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no prose character needed the fallback face"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "evt-i-v",
@@ -1023,15 +999,15 @@
   "printedPages": 368,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 464,
   "anchors": 1155,
-  "formulae": 21559,
+  "formulae": 21232,
   "documents": 39,
-  "pages": 445,
+  "pages": 441,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1042,15 +1018,15 @@
   "printedPages": 368,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 466,
-  "anchors": 1182,
-  "formulae": 21148,
+  "anchors": 1187,
+  "formulae": 20885,
   "documents": 39,
-  "pages": 461,
+  "pages": 457,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1068,8 +1044,8 @@
   "documents": 39,
   "pages": 458,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1080,15 +1056,15 @@
   "printedPages": 372,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 464,
   "anchors": 1155,
-  "formulae": 21559,
+  "formulae": 21232,
   "documents": 39,
-  "pages": 445,
+  "pages": 441,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1099,15 +1075,15 @@
   "printedPages": 372,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 466,
-  "anchors": 1182,
-  "formulae": 21148,
+  "anchors": 1187,
+  "formulae": 20885,
   "documents": 39,
-  "pages": 461,
+  "pages": 457,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1125,8 +1101,8 @@
   "documents": 39,
   "pages": 458,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1137,15 +1113,15 @@
   "printedPages": 487,
   "sections": 36,
   "ofPrinting": 100,
-  "files": 36,
+  "files": 38,
   "exercises": 315,
   "anchors": 1090,
-  "formulae": 26827,
+  "formulae": 26566,
   "documents": 41,
-  "pages": 499,
+  "pages": 500,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1157,14 +1133,14 @@
   "sections": 35,
   "ofPrinting": 97,
   "files": 35,
-  "exercises": 282,
-  "anchors": 1070,
-  "formulae": 26337,
+  "exercises": 276,
+  "anchors": 1064,
+  "formulae": 25929,
   "documents": 40,
-  "pages": 510,
+  "pages": 492,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1182,8 +1158,8 @@
   "documents": 41,
   "pages": 499,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1194,15 +1170,15 @@
   "printedPages": 332,
   "sections": 23,
   "ofPrinting": 100,
-  "files": 23,
+  "files": 25,
   "exercises": 163,
   "anchors": 612,
-  "formulae": 16797,
+  "formulae": 16536,
   "documents": 26,
-  "pages": 331,
+  "pages": 329,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1216,12 +1192,12 @@
   "files": 22,
   "exercises": 139,
   "anchors": 608,
-  "formulae": 16390,
+  "formulae": 16271,
   "documents": 25,
-  "pages": 331,
+  "pages": 321,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1239,8 +1215,8 @@
   "documents": 26,
   "pages": 332,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1258,8 +1234,8 @@
   "documents": 22,
   "pages": 262,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1270,15 +1246,15 @@
   "printedPages": 293,
   "sections": 19,
   "ofPrinting": 100,
-  "files": 19,
-  "exercises": 108,
-  "anchors": 561,
-  "formulae": 14122,
+  "files": 21,
+  "exercises": 102,
+  "anchors": 555,
+  "formulae": 13802,
   "documents": 22,
-  "pages": 279,
+  "pages": 275,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1296,8 +1272,8 @@
   "documents": 22,
   "pages": 261,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -1317,8 +1293,8 @@
   "documents": 11,
   "pages": 144,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1329,15 +1305,15 @@
   "printedPages": 159,
   "sections": 10,
   "ofPrinting": 100,
-  "files": 10,
+  "files": 11,
   "exercises": 108,
   "anchors": 332,
-  "formulae": 7592,
+  "formulae": 7565,
   "documents": 11,
   "pages": 151,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1355,8 +1331,8 @@
   "documents": 11,
   "pages": 140,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -1372,12 +1348,12 @@
   "files": 6,
   "exercises": 57,
   "anchors": 162,
-  "formulae": 5034,
+  "formulae": 4773,
   "documents": 7,
-  "pages": 97,
+  "pages": 84,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1388,15 +1364,15 @@
   "printedPages": 106,
   "sections": 6,
   "ofPrinting": 100,
-  "files": 6,
+  "files": 8,
   "exercises": 66,
   "anchors": 177,
-  "formulae": 4623,
+  "formulae": 4562,
   "documents": 7,
-  "pages": 88,
+  "pages": 90,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1414,8 +1390,8 @@
   "documents": 7,
   "pages": 101,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1433,8 +1409,8 @@
   "documents": 15,
   "pages": 181,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1445,15 +1421,15 @@
   "printedPages": 224,
   "sections": 13,
   "ofPrinting": 100,
-  "files": 13,
+  "files": 15,
   "exercises": 83,
   "anchors": 345,
-  "formulae": 9431,
+  "formulae": 9364,
   "documents": 15,
-  "pages": 191,
+  "pages": 190,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1471,8 +1447,8 @@
   "documents": 15,
   "pages": 185,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1486,12 +1462,12 @@
   "files": 9,
   "exercises": 56,
   "anchors": 258,
-  "formulae": 7017,
+  "formulae": 6756,
   "documents": 10,
-  "pages": 149,
+  "pages": 138,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1502,15 +1478,15 @@
   "printedPages": 131,
   "sections": 9,
   "ofPrinting": 100,
-  "files": 9,
+  "files": 11,
   "exercises": 56,
   "anchors": 263,
-  "formulae": 6959,
+  "formulae": 6907,
   "documents": 10,
-  "pages": 143,
+  "pages": 146,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1528,8 +1504,8 @@
   "documents": 10,
   "pages": 146,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1540,15 +1516,15 @@
   "printedPages": 642,
   "sections": 44,
   "ofPrinting": 100,
-  "files": 44,
+  "files": 46,
   "exercises": 486,
   "anchors": 1416,
-  "formulae": 36892,
+  "formulae": 36712,
   "documents": 51,
-  "pages": 642,
+  "pages": 647,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1562,12 +1538,12 @@
   "files": 43,
   "exercises": 488,
   "anchors": 1550,
-  "formulae": 34968,
+  "formulae": 34796,
   "documents": 50,
-  "pages": 646,
+  "pages": 628,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1585,8 +1561,8 @@
   "documents": 51,
   "pages": 667,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1604,8 +1580,8 @@
   "documents": 26,
   "pages": 317,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1616,15 +1592,15 @@
   "printedPages": 361,
   "sections": 22,
   "ofPrinting": 100,
-  "files": 22,
+  "files": 24,
   "exercises": 268,
   "anchors": 815,
-  "formulae": 16811,
+  "formulae": 16750,
   "documents": 26,
-  "pages": 323,
+  "pages": 325,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1642,8 +1618,8 @@
   "documents": 26,
   "pages": 330,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1657,12 +1633,12 @@
   "files": 21,
   "exercises": 223,
   "anchors": 659,
-  "formulae": 18863,
+  "formulae": 18683,
   "documents": 24,
-  "pages": 328,
+  "pages": 320,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1673,15 +1649,15 @@
   "printedPages": 346,
   "sections": 21,
   "ofPrinting": 100,
-  "files": 21,
+  "files": 23,
   "exercises": 220,
   "anchors": 735,
-  "formulae": 18157,
+  "formulae": 18046,
   "documents": 24,
-  "pages": 328,
+  "pages": 325,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1699,8 +1675,8 @@
   "documents": 24,
   "pages": 339,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1718,8 +1694,8 @@
   "documents": 16,
   "pages": 239,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1737,8 +1713,8 @@
   "documents": 16,
   "pages": 239,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1749,15 +1725,15 @@
   "printedPages": 204,
   "sections": 14,
   "ofPrinting": 100,
-  "files": 14,
-  "exercises": 246,
+  "files": 16,
+  "exercises": 245,
   "anchors": 620,
-  "formulae": 12629,
+  "formulae": 12551,
   "documents": 16,
-  "pages": 242,
+  "pages": 243,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1775,8 +1751,8 @@
   "documents": 16,
   "pages": 236,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1794,8 +1770,8 @@
   "documents": 12,
   "pages": 201,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1813,8 +1789,8 @@
   "documents": 12,
   "pages": 201,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1832,8 +1808,8 @@
   "documents": 12,
   "pages": 202,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1851,8 +1827,8 @@
   "documents": 12,
   "pages": 193,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1870,8 +1846,8 @@
   "documents": 11,
   "pages": 85,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -1891,8 +1867,8 @@
   "documents": 11,
   "pages": 85,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -1905,15 +1881,15 @@
   "printedPages": 190,
   "sections": 10,
   "ofPrinting": 100,
-  "files": 10,
+  "files": 12,
   "exercises": 0,
   "anchors": 8,
   "formulae": 5281,
   "documents": 11,
-  "pages": 87,
+  "pages": 96,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -1933,8 +1909,8 @@
   "documents": 11,
   "pages": 84,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -1947,18 +1923,16 @@
   "printedPages": 481,
   "sections": 31,
   "ofPrinting": 100,
-  "files": 31,
+  "files": 33,
   "exercises": 310,
-  "anchors": 1042,
-  "formulae": 24929,
+  "anchors": 1043,
+  "formulae": 24652,
   "documents": 34,
-  "pages": 485,
+  "pages": 488,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-i-iii",
@@ -1969,14 +1943,14 @@
   "sections": 30,
   "ofPrinting": 96,
   "files": 31,
-  "exercises": 290,
-  "anchors": 1052,
-  "formulae": 23414,
+  "exercises": 286,
+  "anchors": 1048,
+  "formulae": 23187,
   "documents": 34,
-  "pages": 477,
+  "pages": 465,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -1994,11 +1968,9 @@
   "documents": 35,
   "pages": 514,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-iv-vi",
@@ -2008,15 +1980,15 @@
   "printedPages": 314,
   "sections": 19,
   "ofPrinting": 100,
-  "files": 19,
+  "files": 21,
   "exercises": 134,
   "anchors": 494,
-  "formulae": 15229,
+  "formulae": 14322,
   "documents": 22,
-  "pages": 290,
+  "pages": 271,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2027,18 +1999,16 @@
   "printedPages": 314,
   "sections": 19,
   "ofPrinting": 100,
-  "files": 19,
+  "files": 21,
   "exercises": 132,
   "anchors": 486,
-  "formulae": 16090,
+  "formulae": 15049,
   "documents": 22,
-  "pages": 300,
+  "pages": 277,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no TeX control sequence is loose in the prose"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-iv-vi",
@@ -2055,8 +2025,8 @@
   "documents": 22,
   "pages": 282,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2067,18 +2037,16 @@
   "printedPages": 439,
   "sections": 34,
   "ofPrinting": 100,
-  "files": 34,
+  "files": 36,
   "exercises": 350,
   "anchors": 1092,
   "formulae": 27054,
   "documents": 37,
-  "pages": 437,
+  "pages": 446,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-vii-ix",
@@ -2091,12 +2059,12 @@
   "files": 19,
   "exercises": 172,
   "anchors": 578,
-  "formulae": 13438,
+  "formulae": 13368,
   "documents": 21,
-  "pages": 229,
+  "pages": 226,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 30,
   "failed": [
    "the chapters the manifest names are all here",
    "the volume holds the text the printing has"
@@ -2117,11 +2085,9 @@
   "documents": 37,
   "pages": 437,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-i-fr",
@@ -2133,16 +2099,14 @@
   "ofPrinting": 100,
   "files": 8,
   "exercises": 125,
-  "anchors": 305,
+  "anchors": 306,
   "formulae": 7263,
   "documents": 9,
   "pages": 126,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-i-fr",
@@ -2152,15 +2116,15 @@
   "printedPages": 144,
   "sections": 8,
   "ofPrinting": 100,
-  "files": 8,
-  "exercises": 127,
-  "anchors": 314,
-  "formulae": 6664,
+  "files": 10,
+  "exercises": 123,
+  "anchors": 310,
+  "formulae": 6555,
   "documents": 9,
-  "pages": 127,
+  "pages": 129,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2178,11 +2142,9 @@
   "documents": 9,
   "pages": 122,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-ii-iii-fr",
@@ -2195,12 +2157,12 @@
   "files": 22,
   "exercises": 185,
   "anchors": 737,
-  "formulae": 17666,
+  "formulae": 17389,
   "documents": 24,
-  "pages": 361,
+  "pages": 352,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2231,15 +2193,15 @@
   "printedPages": 318,
   "sections": 23,
   "ofPrinting": 100,
-  "files": 23,
+  "files": 25,
   "exercises": 163,
   "anchors": 738,
-  "formulae": 16750,
+  "formulae": 16632,
   "documents": 25,
-  "pages": 353,
+  "pages": 356,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2257,8 +2219,8 @@
   "documents": 25,
   "pages": 392,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2269,16 +2231,18 @@
   "printedPages": 284,
   "sections": 19,
   "ofPrinting": 100,
-  "files": 19,
+  "files": 21,
   "exercises": 134,
   "anchors": 494,
-  "formulae": 15229,
+  "formulae": 14322,
   "documents": 22,
-  "pages": 290,
+  "pages": 271,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
-  "failed": null
+  "ran": 32,
+  "passed": 31,
+  "failed": [
+   "the volume holds the text the printing has"
+  ]
  },
  {
   "id": "lie-iv-vi-fr",
@@ -2288,18 +2252,16 @@
   "printedPages": 284,
   "sections": 19,
   "ofPrinting": 100,
-  "files": 19,
+  "files": 21,
   "exercises": 132,
   "anchors": 486,
-  "formulae": 16090,
+  "formulae": 15049,
   "documents": 22,
-  "pages": 300,
+  "pages": 277,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no TeX control sequence is loose in the prose"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "lie-iv-vi-fr",
@@ -2316,8 +2278,8 @@
   "documents": 22,
   "pages": 282,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -2337,8 +2299,8 @@
   "documents": 9,
   "pages": 74,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2356,8 +2318,8 @@
   "documents": 8,
   "pages": 74,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2375,8 +2337,8 @@
   "documents": 9,
   "pages": 74,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2394,8 +2356,8 @@
   "documents": 13,
   "pages": 159,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2406,15 +2368,15 @@
   "printedPages": 141,
   "sections": 12,
   "ofPrinting": 100,
-  "files": 12,
+  "files": 14,
   "exercises": 112,
   "anchors": 369,
-  "formulae": 8664,
+  "formulae": 8594,
   "documents": 13,
-  "pages": 161,
+  "pages": 162,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2432,8 +2394,8 @@
   "documents": 13,
   "pages": 157,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2451,8 +2413,8 @@
   "documents": 17,
   "pages": 295,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2470,8 +2432,8 @@
   "documents": 17,
   "pages": 295,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2482,15 +2444,15 @@
   "printedPages": 346,
   "sections": 15,
   "ofPrinting": 100,
-  "files": 15,
+  "files": 17,
   "exercises": 259,
   "anchors": 713,
   "formulae": 15586,
   "documents": 17,
-  "pages": 297,
+  "pages": 311,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2508,8 +2470,8 @@
   "documents": 17,
   "pages": 249,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
+  "ran": 32,
+  "passed": 31,
   "failed": [
    "the volume holds the text the printing has"
   ]
@@ -2525,15 +2487,13 @@
   "files": 21,
   "exercises": 331,
   "anchors": 1041,
-  "formulae": 26889,
+  "formulae": 26878,
   "documents": 24,
   "pages": 500,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "ts-iii-v-fr",
@@ -2546,15 +2506,13 @@
   "files": 21,
   "exercises": 331,
   "anchors": 1041,
-  "formulae": 26889,
+  "formulae": 26878,
   "documents": 24,
   "pages": 500,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "ts-iii-v-fr",
@@ -2564,18 +2522,16 @@
   "printedPages": 579,
   "sections": 21,
   "ofPrinting": 100,
-  "files": 21,
+  "files": 23,
   "exercises": 331,
   "anchors": 1041,
-  "formulae": 26768,
+  "formulae": 26757,
   "documents": 24,
-  "pages": 504,
+  "pages": 525,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "ts-iii-v-fr",
@@ -2588,15 +2544,14 @@
   "files": 21,
   "exercises": 216,
   "anchors": 926,
-  "formulae": 24634,
+  "formulae": 24623,
   "documents": 24,
   "pages": 452,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no footnote is printed as its own source"
+   "the volume holds the text the printing has"
   ]
  },
  {
@@ -2614,11 +2569,9 @@
   "documents": 32,
   "pages": 433,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "ta-i-iv-fr",
@@ -2635,11 +2588,9 @@
   "documents": 32,
   "pages": 433,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "ta-i-iv-fr",
@@ -2649,18 +2600,16 @@
   "printedPages": 512,
   "sections": 28,
   "ofPrinting": 100,
-  "files": 28,
+  "files": 30,
   "exercises": 203,
   "anchors": 948,
   "formulae": 24320,
   "documents": 32,
-  "pages": 437,
+  "pages": 456,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "ta-i-iv-fr",
@@ -2677,11 +2626,10 @@
   "documents": 32,
   "pages": 424,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no footnote is printed as its own source"
+   "the volume holds the text the printing has"
   ]
  },
  {
@@ -2697,13 +2645,11 @@
   "anchors": 26,
   "formulae": 3445,
   "documents": 27,
-  "pages": 286,
+  "pages": 285,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 27,
-  "failed": [
-   "no footnote is printed as its own source"
-  ]
+  "ran": 32,
+  "passed": 32,
+  "failed": null
  },
  {
   "id": "hist",
@@ -2720,8 +2666,8 @@
   "documents": 27,
   "pages": 295,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2739,11 +2685,10 @@
   "documents": 27,
   "pages": 291,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no footnote is printed as its own source"
+   "the volume holds the text the printing has"
   ]
  },
  {
@@ -2759,13 +2704,12 @@
   "anchors": 26,
   "formulae": 3445,
   "documents": 28,
-  "pages": 288,
+  "pages": 287,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no footnote is printed as its own source"
+   "the volume holds the text the printing has"
   ]
  },
  {
@@ -2803,8 +2747,8 @@
   "documents": 28,
   "pages": 297,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 28,
+  "ran": 32,
+  "passed": 32,
   "failed": null
  },
  {
@@ -2822,11 +2766,10 @@
   "documents": 28,
   "pages": 293,
   "coverFromPDF": true,
-  "ran": 28,
-  "passed": 26,
+  "ran": 32,
+  "passed": 31,
   "failed": [
-   "the volume holds the text the printing has",
-   "no footnote is printed as its own source"
+   "the volume holds the text the printing has"
   ]
  }
 ]
