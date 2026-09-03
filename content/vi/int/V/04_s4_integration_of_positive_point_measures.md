@@ -206,15 +206,11 @@ Nếu $f$ là một ánh xạ từ $X$ vào một không gian Banach $F$, thì c
 
 #### Định lý 2 {#int-v-s4-thm-2 .statement}
 
-*Cho* $(\pi, g)$ *là một cặp $\mu$-thích nghi, và đặt*
-$$
+*Cho* $(\pi, g)$ *là một cặp $\mu$-thích nghi, và đặt* $$
 \nu = \int g(t) \varepsilon_{\pi(t)} \, d\mu(t).
-$$
-*Cho* $f$ *là một hàm xác định trên* $X$, *nhận giá trị trong một không gian Banach* $F$ *hoặc trong* $\overline{\mathbf{R}}$. *Để* $f$ *khả tích theo nghĩa rộng đối với* $\nu$, *cần và đủ là* $t \mapsto f(\pi(t))g(t)$ *khả tích theo nghĩa rộng đối với* $\mu$, *trong trường hợp đó*
-$$
+$$ *Cho* $f$ *là một hàm xác định trên* $X$, *nhận giá trị trong một không gian Banach* $F$ *hoặc trong* $\overline{\mathbf{R}}$. *Để* $f$ *khả tích theo nghĩa rộng đối với* $\nu$, *cần và đủ là* $t \mapsto f(\pi(t))g(t)$ *khả tích theo nghĩa rộng đối với* $\mu$, *trong trường hợp đó* $$
 \int f(x) \, d\nu(x) = \int f(\pi(t))g(t) \, d\mu(t).
-$$
-*Giả sử thêm rằng* $\pi$ *liên tục và proper, và rằng* $g$ *liên tục và sao cho* $g(t) > 0$ *với mọi* $t \in T$. *Khi đó, để* $f$ *khả tích đối với* $\nu$, *cần và đủ là* t $\mapsto f(\pi(t))g(t)$ *khả tích đối với* $\mu$.
+$$ *Giả sử thêm rằng* $\pi$ *liên tục và thực sự, và rằng* $g$ *liên tục và sao cho* $g(t) > 0$ *với mọi* $t \in T$. *Khi đó, để* $f$ *khả tích đối với* $\nu$, *cần và đủ là* t $\mapsto f(\pi(t))g(t)$ *khả tích đối với* $\mu$.
 
 A) Trước hết xét trường hợp độ đo $\mu$ có giá compact $K$, trên đó $g$ bị chặn. Khi đó các độ đo $\mu$ và $\nu$ đều hữu hạn, và có thể thay 'khả tích theo nghĩa rộng' trong mệnh đề bằng 'khả tích'. Giả sử rằng $f$ là $\nu$-khả tích: khi đó hàm $f(\pi(t))g(t)$ là $\mu$-khả tích, và hệ thức (9) được thỏa mãn, theo Định lý 1 của §3, No. 3. Ngược lại, giả sử rằng $f(\pi(t))g(t)$ là $\mu$-khả tích: khi đó $f$ là $\nu$-đo được (No. 3, Mệnh đề 3 và *Nhận xét*), và
 $$

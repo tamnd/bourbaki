@@ -373,7 +373,7 @@ Bây giờ ta hãy chứng minh rằng $\lambda \mapsto \int f d\lambda$ là li�
 
 — 1) Ánh xạ $t \mapsto \varepsilon_t$ là một *đồng phôi* của T vào không gian $\mathcal{C}'(T)$; thật vậy, nếu L là một tập con compắc của $\mathcal{C}(T)$, và $t_0 \in T$, thì tồn tại (GT, X, §2, No. 5, Cor. 3 of Th. 2) một lân cận W của $t_0$ sao cho $|g(t) - g(t_0)| \leq 1$ với mọi $t \in W$ và mọi hàm $g \in L$, do đó $\varepsilon_t - \varepsilon_{t_0} \in L^\circ$ với $t \in W$, điều này chứng minh tính liên tục của $t \mapsto \varepsilon_t$ (xem Ch. IV, §4, No. 8, Prop. 15); ngoài ra, người ta còn biết rằng ánh xạ nghịch đảo đã liên tục đối với tôpô mờ (Ch. III, §1, No. 9, Prop. 13), vì thế *a fortiori* đối với tôpô hội tụ đều trên các tập con compắc của $\mathcal{C}(T)$. Nếu khi đó ta đồng nhất T với ảnh của nó trong $\mathcal{C}'(T)$ qua $t \mapsto \varepsilon_t$, thì có thể nói rằng $\lambda \mapsto \int f d\lambda$ là *mở rộng liên tục* duy nhất của f thành một ánh xạ *tuyến tính*.
 
-2) Chú ý rằng trong chứng minh tính liên tục của $\lambda \mapsto \int f d\lambda$, ta đã không dùng đến việc F là quasi-complete. Do đó kết luận của Prop. 14 vẫn còn đúng khi không có giả thiết này, miễn là ngoài ra người ta biết rằng $\int f d\mu \in F$ với mọi độ đo dương $\mu$ có giá compắc.
+2) Chú ý rằng trong chứng minh tính liên tục của $\lambda \mapsto \int f d\lambda$, ta đã không dùng đến việc F là gần đầy đủ. Do đó kết luận của Prop. 14 vẫn còn đúng khi không có giả thiết này, miễn là ngoài ra người ta biết rằng $\int f d\mu \in F$ với mọi độ đo dương $\mu$ có giá compắc.
 
 Bây giờ giả sử rằng $f(T)$ là một tập con *bị chặn* của F. Khi đó, với mọi độ đo dương *bị chặn* $\mu$ trên T, f là khả tích vô hướng đối với $\mu$ và $\int f d\mu \in F$
 
@@ -405,11 +405,11 @@ Ngược lại, giả sử b) được thỏa mãn; chỉ cần chứng minh r�
 
 Sau cùng, khẳng định cuối cùng của bổ đề suy ra từ việc rằng, trên $M$, tôpô hội tụ compắc trùng với tôpô hội tụ từng điểm (GT, X, §2, No. 4, Định lý 1).
 
-Vậy, giả sử rằng $U$ thỏa mãn các điều kiện của Bổ đề 3; khi đó (nếu $H$ là quasi-complete) ta định nghĩa, như trong No. 6, một ánh xạ tuyến tính $\lambda \mapsto \int U d\lambda$ từ $\mathcal{C}'(T)$ vào $F = \mathcal{L}(G; H)$. Ta đặt $U(\lambda) = \int U d\lambda$.
+Vậy, giả sử rằng $U$ thỏa mãn các điều kiện của Bổ đề 3; khi đó (nếu $H$ là gần đầy đủ) ta định nghĩa, như trong No. 6, một ánh xạ tuyến tính $\lambda \mapsto \int U d\lambda$ từ $\mathcal{C}'(T)$ vào $F = \mathcal{L}(G; H)$. Ta đặt $U(\lambda) = \int U d\lambda$.
 
 #### Mệnh đề 16 {#int-vi-s1-prop-16 .statement}
 
-— Cho $G, H$ là hai không gian lồi địa phương Hausdorff, với $H$ được giả sử là quasi-complete. Cho $U$ là một ánh xạ từ $T$ vào $\mathcal{L}(G; H)$ sao cho $(t, x) \mapsto U(t) \cdot x$ là một ánh xạ liên tục từ $T \times G$ vào $H$. Khi đó ánh xạ song tuyến tính $(\lambda, x) \mapsto U(\lambda) \cdot x$ từ $\mathcal{C}'(T) \times G$ vào $H$ là hypocontinuous đối với các tập con đồng liên tục của $\mathcal{C}'(T)$ và các tập con compắc của $G$ (điều này kéo theo rằng ánh xạ tuyến tính $\lambda \mapsto U(\lambda)$ từ $\mathcal{C}'(T)$ vào $F$ là liên tục).
+— Cho $G, H$ là hai không gian lồi địa phương Hausdorff, với $H$ được giả sử là gần đầy đủ. Cho $U$ là một ánh xạ từ $T$ vào $\mathcal{L}(G; H)$ sao cho $(t, x) \mapsto U(t) \cdot x$ là một ánh xạ liên tục từ $T \times G$ vào $H$. Khi đó ánh xạ song tuyến tính $(\lambda, x) \mapsto U(\lambda) \cdot x$ từ $\mathcal{C}'(T) \times G$ vào $H$ là hạ liên tục đối với các tập con đồng liên tục của $\mathcal{C}'(T)$ và các tập con compắc của $G$ (điều này kéo theo rằng ánh xạ tuyến tính $\lambda \mapsto U(\lambda)$ từ $\mathcal{C}'(T)$ vào $F$ là liên tục).
 
 Tính liên tục của $\lambda \mapsto U(t)$ như một ánh xạ từ $\mathcal{C}'(T)$ vào $F$ suy ra từ Bổ đề 3 và Nhận xét 2 tiếp sau Mệnh đề 14 của No. 6. Vì vậy, còn phải chứng minh rằng với mọi lân cận đóng, cân bằng, lồi $V$ của 0 trong $H$ và với mọi tập con đẳng liên tục $N$ của $\mathcal{C}'(T)$, tồn tại một lân cận $W$ của 0 trong $G$ sao cho các hệ thức $x \in W, \lambda \in N$ kéo theo $U(\lambda) \cdot x \in V$. Có thể giả thiết rằng $N = S^\circ$, trong đó $S$ là một lân cận của 0 trong $\mathcal{C}(T)$, do đó có thể giả thiết rằng $S$ là tập hợp các hàm $g \in \mathcal{C}(T)$ sao cho $|g(t)| \leq 1$ trên một tập con compac $K$ của $T$. Chỉ cần chỉ ra rằng
 

@@ -427,7 +427,7 @@ $$
 \nu_\alpha = g_\alpha \cdot \mu_\alpha = g_\alpha \cdot (\varphi_{K_\alpha} \cdot \mu) = (g_\alpha \varphi_{K_\alpha}) \cdot \mu = g_\alpha \cdot \mu .
 $$
 
-Set $g = \sum_{\alpha \in A} g_\alpha$; vì họ $(g_\alpha)$ là địa phương đếm được và họ $(\nu_\alpha)$ là khả tổng, Mệnh đề 6 suy ra rằng $g$ là địa phương $\mu$-khả tích, và rằng $\nu = g \cdot \mu$, điều đó chứng minh định lý.
+Tập hợp $g = \sum_{\alpha \in A} g_\alpha$; vì họ $(g_\alpha)$ là địa phương đếm được và họ $(\nu_\alpha)$ là khả tổng, Mệnh đề 6 suy ra rằng $g$ là địa phương $\mu$-khả tích, và rằng $\nu = g \cdot \mu$, điều đó chứng minh định lý.
 
 #### Hệ quả 1 {#int-v-s5-thm-2-cor-1 .statement}
 
