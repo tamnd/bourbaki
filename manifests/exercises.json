@@ -1450,7 +1450,7 @@
         {
           "chapter": "I",
           "title": "TOPOLOGICAL VECTOR SPACES OVER A VALUED DIVISION RING",
-          "total": 35,
+          "total": 38,
           "sections": [
             {
               "section": 1,
@@ -1464,9 +1464,10 @@
               "section": 2,
               "label": "evt-i-s2",
               "dir": "s2",
-              "count": 12,
+              "count": 15,
               "first": 1,
-              "last": 12
+              "last": 15,
+              "starred": 1
             },
             {
               "section": 3,
@@ -1552,15 +1553,16 @@
         {
           "chapter": "III",
           "title": "SPACES OF CONTINUOUS LINEAR MAPPINGS",
-          "total": 75,
+          "total": 78,
           "sections": [
             {
               "section": 1,
               "label": "evt-iii-s1",
               "dir": "s1",
-              "count": 16,
+              "count": 18,
               "first": 1,
-              "last": 16
+              "last": 18,
+              "starred": 1
             },
             {
               "section": 2,
@@ -1582,9 +1584,10 @@
               "section": 4,
               "label": "evt-iii-s4",
               "dir": "s4",
-              "count": 21,
+              "count": 22,
               "first": 1,
-              "last": 21,
+              "last": 22,
+              "starred": 1,
               "supplementary": 5
             },
             {
@@ -1670,16 +1673,17 @@
         {
           "chapter": "V",
           "title": "HILBERTIAN SPACES (ELEMENTARY THEORY)",
-          "total": 37,
+          "total": 68,
           "sections": [
             {
               "section": 1,
               "label": "evt-v-s1",
               "dir": "s1",
-              "count": 6,
+              "count": 37,
               "first": 1,
-              "last": 6,
-              "starred": 1
+              "last": 37,
+              "starred": 9,
+              "supplementary": 5
             },
             {
               "section": 2,
@@ -2461,7 +2465,7 @@
         {
           "chapter": "VI",
           "title": "Valuations",
-          "total": 65,
+          "total": 72,
           "sections": [
             {
               "section": 1,
@@ -2502,9 +2506,10 @@
               "section": 5,
               "label": "ac-vi-s5",
               "dir": "s5",
-              "count": 3,
+              "count": 10,
               "first": 1,
-              "last": 3
+              "last": 10,
+              "starred": 8
             },
             {
               "section": 6,
@@ -3060,16 +3065,16 @@
         {
           "chapter": "VI",
           "title": "ORDERED GROUPS AND FIELDS",
-          "total": 75,
+          "total": 77,
           "sections": [
             {
               "section": 1,
               "label": "alg-vi-s1",
               "dir": "s1",
-              "count": 34,
+              "count": 36,
               "first": 1,
-              "last": 34,
-              "starred": 5
+              "last": 36,
+              "starred": 6
             },
             {
               "section": 2,
@@ -3086,7 +3091,7 @@
         {
           "chapter": "VII",
           "title": "MODULES OVER PRINCIPAL IDEAL DOMAINS",
-          "total": 64,
+          "total": 80,
           "sections": [
             {
               "section": 1,
@@ -3119,9 +3124,10 @@
               "section": 4,
               "label": "alg-vii-s4",
               "dir": "s4",
-              "count": 9,
+              "count": 25,
               "first": 1,
-              "last": 9
+              "last": 25,
+              "starred": 7
             },
             {
               "section": 5,
@@ -3268,7 +3274,7 @@
         {
           "chapter": "I",
           "title": "DERIVATIVES",
-          "total": 51,
+          "total": 66,
           "sections": [
             {
               "section": 1,
@@ -3300,9 +3306,11 @@
               "section": 4,
               "label": "fvr-i-s4",
               "dir": "s4",
-              "count": 10,
+              "count": 25,
               "first": 1,
-              "last": 10
+              "last": 25,
+              "starred": 3,
+              "supplementary": 1
             }
           ]
         },
@@ -3828,7 +3836,7 @@
         {
           "chapter": "VIII",
           "title": "DIMENSION",
-          "total": 122,
+          "total": 123,
           "sections": [
             {
               "section": 1,
@@ -3868,9 +3876,10 @@
               "section": 5,
               "label": "ac-viii-s5",
               "dir": "s5",
-              "count": 31,
+              "count": 32,
               "first": 1,
-              "last": 31
+              "last": 32,
+              "starred": 1
             },
             {
               "section": 6,
@@ -4276,7 +4285,7 @@
         {
           "chapter": "IX",
           "title": "GROUPES DE LIE RÉELS COMPACTS",
-          "total": 87,
+          "total": 112,
           "sections": [
             {
               "section": 1,
@@ -4314,9 +4323,10 @@
               "section": 5,
               "label": "lie-ix-s5",
               "dir": "s5",
-              "count": 5,
+              "count": 12,
               "first": 1,
-              "last": 5
+              "last": 12,
+              "starred": 1
             },
             {
               "section": 6,
@@ -4346,9 +4356,10 @@
               "section": 9,
               "label": "lie-ix-s9",
               "dir": "s9",
-              "count": 3,
+              "count": 21,
               "first": 1,
-              "last": 3
+              "last": 21,
+              "starred": 5
             },
             {
               "section": 1,
@@ -4402,15 +4413,16 @@
         {
           "chapter": "II",
           "title": "Ensembles convexes et espaces localement convexes",
-          "total": 102,
+          "total": 162,
           "sections": [
             {
               "section": 2,
               "label": "evt-ii-s2",
               "dir": "s2",
-              "count": 20,
+              "count": 43,
               "first": 1,
-              "last": 20
+              "last": 43,
+              "starred": 5
             },
             {
               "section": 3,
@@ -4445,18 +4457,21 @@
               "section": 6,
               "label": "evt-ii-s6",
               "dir": "s6",
-              "count": 19,
+              "count": 20,
               "first": 1,
-              "last": 19,
+              "last": 20,
+              "starred": 1,
               "supplementary": 2
             },
             {
               "section": 7,
               "label": "evt-ii-s7",
               "dir": "s7",
-              "count": 5,
+              "count": 41,
               "first": 1,
-              "last": 5
+              "last": 41,
+              "starred": 8,
+              "supplementary": 2
             },
             {
               "section": 8,
@@ -4533,25 +4548,25 @@
         {
           "chapter": "IV",
           "title": "LA DUALITÉ DANS LES ESPACES VECTORIELS TOPOLOGIQUES",
-          "total": 101,
+          "total": 118,
           "sections": [
             {
               "section": 1,
               "label": "evt-iv-s1",
               "dir": "s1",
-              "count": 15,
+              "count": 25,
               "first": 1,
-              "last": 15,
-              "starred": 2
+              "last": 25,
+              "starred": 3
             },
             {
               "section": 2,
               "label": "evt-iv-s2",
               "dir": "s2",
-              "count": 21,
+              "count": 26,
               "first": 1,
-              "last": 21,
-              "starred": 3
+              "last": 26,
+              "starred": 5
             },
             {
               "section": 3,
@@ -4575,10 +4590,10 @@
               "section": 5,
               "label": "evt-iv-s5",
               "dir": "s5",
-              "count": 16,
+              "count": 18,
               "first": 1,
-              "last": 16,
-              "starred": 4
+              "last": 18,
+              "starred": 7
             },
             {
               "section": 0,
@@ -4722,7 +4737,7 @@
         {
           "chapter": "VI",
           "title": "Systèmes de racines",
-          "total": 41,
+          "total": 47,
           "sections": [
             {
               "section": 1,
@@ -4753,10 +4768,10 @@
               "section": 4,
               "label": "lie-vi-s4",
               "dir": "s4",
-              "count": 10,
+              "count": 16,
               "first": 1,
-              "last": 10,
-              "starred": 4
+              "last": 16,
+              "starred": 6
             }
           ]
         }
@@ -6263,7 +6278,7 @@
         {
           "chapter": "X",
           "title": "ALGÈBRE HOMOLOGIQUE",
-          "total": 132,
+          "total": 138,
           "sections": [
             {
               "section": 1,
@@ -6332,10 +6347,11 @@
               "section": 8,
               "label": "alg-x-s8",
               "dir": "s8",
-              "count": 22,
+              "count": 28,
               "first": 1,
-              "last": 22,
-              "starred": 3
+              "last": 28,
+              "starred": 4,
+              "supplementary": 1
             },
             {
               "section": 9,
@@ -6896,40 +6912,43 @@
         {
           "chapter": "VI",
           "title": "Groupes et corps ordonnés",
-          "total": 25,
+          "total": 49,
           "sections": [
             {
               "section": 1,
               "label": "alg-vi-s1",
               "dir": "s1",
-              "count": 20,
+              "count": 36,
               "first": 1,
-              "last": 20,
-              "starred": 1
+              "last": 36,
+              "starred": 7
             },
             {
               "section": 2,
               "label": "alg-vi-s2",
               "dir": "s2",
-              "count": 5,
+              "count": 13,
               "first": 1,
-              "last": 5
+              "last": 13,
+              "starred": 3,
+              "supplementary": 2
             }
           ]
         },
         {
           "chapter": "VII",
           "title": "Modules sur les anneaux principaux",
-          "total": 49,
+          "total": 92,
           "sections": [
             {
               "section": 1,
               "label": "alg-vii-s1",
               "dir": "s1",
-              "count": 10,
+              "count": 28,
               "first": 1,
-              "last": 10,
-              "starred": 1
+              "last": 28,
+              "starred": 3,
+              "supplementary": 1
             },
             {
               "section": 2,
@@ -6953,18 +6972,19 @@
               "section": 4,
               "label": "alg-vii-s4",
               "dir": "s4",
-              "count": 8,
+              "count": 25,
               "first": 1,
-              "last": 8
+              "last": 25,
+              "starred": 9
             },
             {
               "section": 5,
               "label": "alg-vii-s5",
               "dir": "s5",
-              "count": 6,
+              "count": 14,
               "first": 1,
-              "last": 6,
-              "starred": 2
+              "last": 14,
+              "starred": 1
             }
           ]
         }

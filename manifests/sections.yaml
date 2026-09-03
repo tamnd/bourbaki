@@ -2461,7 +2461,7 @@ books:
               book_pages: TVS I.11-TVS I.16, TVS I.25-TVS I.28
               subsections: 4
               statements: 26
-              exercises: 12
+              exercises: 15
               extraction: ocr
               content_sha256: 61cd6dad8d3c88edb55c2b3d99dcd153e54788854713e19386098384030e5241
             - kind: section
@@ -2615,7 +2615,7 @@ books:
               last_pdf_page: 172
               subsections: 7
               statements: 30
-              exercises: 16
+              exercises: 18
               extraction: ocr
               content_sha256: f0367575f236480d19bac46c262f379ed1995cd00476c147df4184564e42e7b4
             - kind: section
@@ -2654,7 +2654,7 @@ books:
               book_pages: TVS III.23-TVS III.28, TVS III.43-TVS III.46
               subsections: 3
               statements: 24
-              exercises: 21
+              exercises: 22
               extraction: ocr
               content_sha256: 39959f2e857883752d5da39050d17e5da11a3bdd030a94a0972c38a52975d9a6
             - kind: section
@@ -2793,7 +2793,7 @@ books:
               last_pdf_page: 328
               subsections: 7
               statements: 41
-              exercises: 6
+              exercises: 37
               extraction: ocr
               content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
             - kind: section
@@ -4211,9 +4211,9 @@ books:
               last_pdf_page: 181
               subsections: 3
               statements: 10
-              exercises: 3
+              exercises: 10
               extraction: ocr
-              content_sha256: a1965a9f802ef126f91a91d748ac2b8df02c1607e44a7ab770320d7671407481
+              content_sha256: cd24fc0a6d756da3fa5b7b1816123edd040c68c139e42397d07a773a21726834
             - kind: section
               section: 6
               title: Valeurs absolues
@@ -5116,7 +5116,7 @@ books:
               last_pdf_page: 348
               subsections: 13
               statements: 52
-              exercises: 34
+              exercises: 36
               extraction: ocr
               content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
             - kind: section
@@ -5193,7 +5193,7 @@ books:
               book_pages: A VII.15-A VII.28, A VII.62-A VII.70
               subsections: 9
               statements: 40
-              exercises: 9
+              exercises: 25
               extraction: ocr
               content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
             - kind: section
@@ -5534,7 +5534,7 @@ books:
               book_pages: 23-33, 45-49
               subsections: 4
               statements: 21
-              exercises: 10
+              exercises: 25
               extraction: ocr
               content_sha256: 7ce62adb175e316461e0076f49e0da867be5dc77b36f37f3c179a2545bb96dd9
         - chapter: II
@@ -6452,7 +6452,7 @@ books:
               book_pages: AC VIII.51-AC VIII.62, AC VIII.94-AC VIII.99
               subsections: 4
               statements: 31
-              exercises: 31
+              exercises: 32
               extraction: ocr
               content_sha256: bc0c6917e598be8900d5fcc96d0fafb6274bac3530769cf01ac55c7968309600
             - kind: section
@@ -7161,7 +7161,7 @@ books:
               book_pages: LIE IX.43-LIE IX.51, LIE IX.118-LIE IX.121
               subsections: 4
               statements: 26
-              exercises: 5
+              exercises: 12
               extraction: ocr
               content_sha256: d3eb18a508f1218792b7988d21e624fa9cdebecb239a4f8cc0bc9438ada1011c
             - kind: section
@@ -7213,7 +7213,7 @@ books:
               book_pages: LIE IX.88-LIE IX.99, LIE IX.128-LIE IX.132
               subsections: 4
               statements: 19
-              exercises: 3
+              exercises: 21
               extraction: ocr
               content_sha256: fe04b5677c8e1c2cf2af8ab704fe1734fdbd6c788fa894e924c704bd50c9a9d0
             - kind: appendix
@@ -7340,7 +7340,7 @@ books:
               book_pages: EVT II.7-EVT II.22
               subsections: 11
               statements: 50
-              exercises: 20
+              exercises: 43
               extraction: ocr
               content_sha256: 99c126ab4b18ba333a16816f882676b7b1b31e7b9cb94934384e91432ab4f93c
             - kind: section
@@ -7392,7 +7392,7 @@ books:
               book_pages: EVT II.43-EVT II.57, EVT II.87-EVT II.92
               subsections: 8
               statements: 42
-              exercises: 19
+              exercises: 20
               extraction: ocr
               content_sha256: 1527446aae67136cbc754e88d40d8bb394d4f796e17447b5a4c6901ee8837f4b
             - kind: section
@@ -7405,7 +7405,7 @@ books:
               book_pages: EVT II.57-EVT II.64, EVT II.92-EVT II.100
               subsections: 3
               statements: 21
-              exercises: 5
+              exercises: 41
               extraction: ocr
               content_sha256: 825c3897c1301031050f2a51d46d1bac1af9f15d6cd89ce5c50735334a20be3f
             - kind: section
@@ -7533,7 +7533,7 @@ books:
               last_pdf_page: 238
               subsections: 5
               statements: 37
-              exercises: 15
+              exercises: 25
               extraction: ocr
               content_sha256: af7e71d40cda7524b2867a9ad40f898a1b8b8f9af5e64471e2d252e67db805b5
             - kind: section
@@ -7546,7 +7546,7 @@ books:
               book_pages: EVT IV.14-EVT IV.20, EVT IV.52-EVT IV.57
               subsections: 5
               statements: 31
-              exercises: 21
+              exercises: 26
               extraction: ocr
               content_sha256: a6f71770eb1f225069d87623e20c52bda11c78510530f61de6cdda8373fe2609
             - kind: section
@@ -7585,7 +7585,7 @@ books:
               book_pages: EVT IV.32-EVT IV.38, EVT IV.67-EVT IV.72
               subsections: 5
               statements: 9
-              exercises: 16
+              exercises: 18
               extraction: ocr
               content_sha256: 3d82016485d8afcca49ffb9d83899b9cacb9cc4f58154a607db16b0c280c4a97
             - kind: appendix
@@ -7889,7 +7889,7 @@ books:
               last_pdf_page: 232
               subsections: 14
               statements: 19
-              exercises: 10
+              exercises: 16
               extraction: ocr
               content_sha256: 3cb9c39e5e6c71fb5afd6be6bbb5db13dd92c1d149df1d23ad55a691b7989acb
             - kind: historical
@@ -10558,7 +10558,7 @@ books:
               book_pages: A X.134-A X.146, A X.202-A X.206
               subsections: 7
               statements: 34
-              exercises: 22
+              exercises: 28
               extraction: ocr
               content_sha256: 01423d7f9d05c6000bce1884bf08ce49ac1e4be4045d9ae6bb8edef4dbad7463
             - kind: section
@@ -12153,7 +12153,7 @@ books:
               last_pdf_page: 324
               subsections: 13
               statements: 52
-              exercises: 20
+              exercises: 36
               extraction: ocr
               content_sha256: af0e37d4d46945de0a0c4108c90fd198171ff9250cd1b866a07a6baf0bc972be
             - kind: section
@@ -12166,7 +12166,7 @@ books:
               book_pages: A VI.35-A VI.44
               subsections: 2
               statements: 32
-              exercises: 5
+              exercises: 13
               extraction: ocr
               content_sha256: ee612dde6081178bbeaa53c7197b09ae5e7000446bf05cbb41d6faa813c77501
         - chapter: VII
@@ -12191,7 +12191,7 @@ books:
               last_pdf_page: 386
               subsections: 5
               statements: 15
-              exercises: 10
+              exercises: 28
               extraction: ocr
               content_sha256: 9dc599f9b4c10081b93a10c9bf65a28d23367b7369c57f86f2d79b8655b439f0
             - kind: section
@@ -12230,7 +12230,7 @@ books:
               book_pages: A VII.15-A VII.27, A VII.60-A VII.66
               subsections: 9
               statements: 41
-              exercises: 8
+              exercises: 25
               extraction: ocr
               content_sha256: 87df1f6594332ddfc8ec38a4fe31e67f6610f4eb582f81b52c94da4aaa95c4b5
             - kind: section
@@ -12242,7 +12242,7 @@ books:
               last_pdf_page: 426
               subsections: 9
               statements: 65
-              exercises: 6
+              exercises: 14
               extraction: ocr
               content_sha256: f9b4389165b3aff0d28d3f30c5e51547f8dbd83f9fed82d55c0b7cdda6e5fdd0
     - id: fvr-i-vii-fr
