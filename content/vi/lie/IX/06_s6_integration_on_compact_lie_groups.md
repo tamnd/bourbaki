@@ -49,7 +49,7 @@ Ta giữ lại các ký hiệu của §4; đặt $w(G) =$ Card(W$_G(T)$). Ký hi
 
 ### 1. TÍCH CỦA CÁC DẠNG ĐA TUYẾN TÍNH THAY PHIÊN
 
-Cho A là một vành giao hoán và M là một A-môđun. Với mỗi số nguyên $r\geq 0$, ký hiệu Alt$^r(M)$ là A-môđun của các dạng $r$-tuyến tính thay phiên trên M; nó có thể được đồng nhất với đối ngẫu của A-môđun $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 4, Prop. 7). Cho $u\in$ Alt$^s(M)$ và $v\in$ Alt$^r(M)$; nhắc lại (Algebra, Chap. III, §11, no. 2, Ví dụ 3) rằng tích thay phiên của $u$ và $v$ là phần tử $u\wedge v\in$ Alt$^{s+r}(M)$ được xác định bởi
+Cho A là một vành giao hoán và M là một A-môđun. Với mỗi số nguyên $r\geq 0$, ký hiệu Alt$^r(M)$ là A-môđun của các dạng $r$-tuyến tính thay phiên trên M; nó có thể được đồng nhất với đối ngẫu của A-môđun $\wedge \wedge^r(M) ($Đại số, Chương III, §7, no. 4, Prop. 7). Cho $u\in$ Alt$^s(M)$ và $v\in$ Alt$^r(M)$; nhắc lại (Đại số, Chương III, §11, no. 2, Ví dụ 3) rằng tích thay phiên của $u$ và $v$ là phần tử $u\wedge v\in$ Alt$^{s+r}(M)$ được xác định bởi
 
 $$
 (u\wedge v)(x_1, . . . , x_{s+r}) =\sum_{\sigma\in\mathfrak{S}_{s,r}}\varepsilon_{\sigma}u(x_{\sigma(1)}, . . . , x_{\sigma(s)})v(x_{\sigma(s+1)}, . . . , x_{\sigma(s+r)})

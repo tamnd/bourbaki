@@ -41,7 +41,7 @@ subsections:
       pdf_page: 219
 statements: 38
 exercises: 3
-content_sha256: ce1e3fbf59d3a5bdd69e474819d42240710f681c4b84a28f348d00f6c5aec0aa
+content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
 ---
 
 ## § 2. OPERATIONS ON MEASURES
@@ -493,7 +493,7 @@ $$
 \int_X f(x)\, d\nu(x) = \int_T d\mu(t) \int_X f(x)\, d\lambda_t(x);
 $$
 
-(1) A mapping of a topological space $X$ into a topological space $Y$ is said to be *universally measurable* if it is $\mu$-measurable for every measure $\mu$ on $X$ (cf. Ch. V, $§ 3$, No. 4).
+\footnotetext{(1) A mapping of a topological space $X$ into a topological space $Y$ is said to be *universally measurable* if it is $\mu$-measurable for every measure $\mu$ on $X$ (cf. Ch. V, $§ 3$, No. 4).}
 
 c) the set of $t \in T$ such that $\lambda_t(1) \neq 1$ is locally $\mu$-negligible.
 Moreover, if $t \mapsto \lambda'_t$ is a mapping of $T$ into $\mathcal{M}_+(X)$ satisfying the conditions a) and b), the set of $t \in T$ such that $\lambda_t \neq \lambda'_t$ is locally $\mu$-negligible.

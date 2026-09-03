@@ -112,17 +112,17 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Book | Chapter | Sections | Statements | Exercises | Tagged | Pages |
 | --- | --- | --- | --- | --- | --- | --- |
 | Commutative Algebra | I | 4 of 4 | 65 | 42 | 0 | 106 |
-| Commutative Algebra | II | 5 of 5 | 183 | 84 | 0 | 218 |
-| Commutative Algebra | III | 5 of 5 | 143 | 39 | 0 | 230 |
-| Commutative Algebra | IV | 3 of 3 | 69 | 50 | 0 | 98 |
-| Commutative Algebra | V | 3 of 3 | 122 | 60 | 0 | 150 |
-| Commutative Algebra | VI | 10 of 10 | 151 | 71 | 0 | 211 |
+| Commutative Algebra | II | 5 of 5 | 183 | 101 | 0 | 218 |
+| Commutative Algebra | III | 5 of 5 | 143 | 59 | 0 | 230 |
+| Commutative Algebra | IV | 3 of 3 | 69 | 57 | 0 | 98 |
+| Commutative Algebra | V | 3 of 3 | 122 | 61 | 0 | 150 |
+| Commutative Algebra | VI | 10 of 10 | 151 | 77 | 0 | 211 |
 | Commutative Algebra | VII | 4 of 4 | 130 | 85 | 0 | 302 |
 | Commutative Algebra | VIII | 0 of 7 | 0 | 0 | 0 | 108 |
 | Commutative Algebra | IX | 0 of 5 | 0 | 0 | 0 | 85 |
 | Commutative Algebra | X | 0 of 10 | 0 | 0 | 0 | 179 |
-| Algebra | I | 10 of 10 | 293 | 148 | 0 | 357 |
-| Algebra | II | 12 of 12 | 384 | 118 | 0 | 446 |
+| Algebra | I | 10 of 10 | 293 | 218 | 0 | 357 |
+| Algebra | II | 12 of 12 | 384 | 150 | 0 | 446 |
 | Algebra | III | 12 of 12 | 273 | 97 | 0 | 542 |
 | Algebra | IV | 6 of 6 | 157 | 53 | 0 | 202 |
 | Algebra | V | 17 of 17 | 425 | 156 | 0 | 382 |
@@ -158,8 +158,8 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Integration | VIII | 5 of 5 | 109 | 59 | 0 | 188 |
 | Integration | IX | 7 of 7 | 184 | 56 | 0 | 259 |
 | Lie Groups and Lie Algebras | I | 7 of 7 | 166 | 125 | 0 | 250 |
-| Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 66 | 0 | 186 |
-| Lie Groups and Lie Algebras | III | 11 of 11 | 393 | 108 | 0 | 481 |
+| Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 72 | 0 | 186 |
+| Lie Groups and Lie Algebras | III | 11 of 11 | 393 | 113 | 0 | 481 |
 | Lie Groups and Lie Algebras | IV | 3 of 3 | 66 | 45 | 0 | 108 |
 | Lie Groups and Lie Algebras | V | 7 of 7 | 139 | 44 | 0 | 179 |
 | Lie Groups and Lie Algebras | VI | 4 of 4 | 128 | 47 | 0 | 291 |
@@ -170,16 +170,16 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 78 |
 | Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 110 |
 | Topologie algébrique | IV | 0 of 6 | 0 | 0 | 0 | 158 |
-| General Topology | I | 11 of 11 | 302 | 152 | 0 | 279 |
+| General Topology | I | 11 of 11 | 302 | 153 | 0 | 279 |
 | General Topology | II | 4 of 4 | 110 | 41 | 0 | 94 |
-| General Topology | III | 7 of 7 | 164 | 113 | 0 | 198 |
-| General Topology | IV | 8 of 8 | 106 | 91 | 0 | 204 |
+| General Topology | III | 7 of 7 | 164 | 114 | 0 | 198 |
+| General Topology | IV | 8 of 8 | 106 | 102 | 0 | 204 |
 | General Topology | V | 4 of 4 | 24 | 8 | 0 | 45 |
 | General Topology | VI | 3 of 3 | 37 | 36 | 0 | 66 |
 | General Topology | VII | 3 of 3 | 38 | 24 | 0 | 61 |
 | General Topology | VIII | 4 of 4 | 25 | 22 | 0 | 71 |
-| General Topology | IX | 7 of 8 | 191 | 48 | 0 | 266 |
-| General Topology | X | 4 of 4 | 106 | 43 | 0 | 173 |
+| General Topology | IX | 7 of 8 | 191 | 109 | 0 | 266 |
+| General Topology | X | 4 of 4 | 106 | 63 | 0 | 173 |
 | Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
 | Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
 | Théories spectrales | III | 0 of 6 | 0 | 0 | 0 | 143 |
@@ -187,7 +187,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4123 exercises, 2642 of them carrying a permanent tag.
+388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4381 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -204,24 +204,24 @@ The French is counted and not compared against the English. A file name carries 
 | Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
 | --- | --- | --- | --- | --- | --- | --- |
 | Theory of Sets | 30 | 215 | 30 | 211 | 98% | 4 |
-| Algebra | 129 | 1283 | 129 | 1223 | 96% | 277 |
-| General Topology | 80 | 759 | 80 | 681 | 91% | 183 |
+| Algebra | 129 | 1285 | 129 | 1223 | 96% | 177 |
+| General Topology | 80 | 789 | 80 | 681 | 88% | 119 |
 | Functions of a Real Variable | 34 | 251 | 34 | 241 | 96% | 48 |
 | Topological Vector Spaces | 34 | 477 | 34 | 457 | 96% | 68 |
 | Integration | 59 | 511 | 59 | 504 | 99% | 33 |
-| Commutative Algebra | 69 | 879 | 69 | 856 | 98% | 473 |
+| Commutative Algebra | 69 | 898 | 69 | 856 | 96% | 441 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
-| Lie Groups and Lie Algebras | 85 | 800 | 85 | 798 | 100% | 16 |
+| Lie Groups and Lie Algebras | 85 | 800 | 85 | 798 | 100% | 5 |
 | Théories spectrales | 36 | 590 | 36 | 374 | 65% | 626, all of it |
 | Topologie algébrique | 28 | 203 | 28 | 196 | 97% | 231, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **621** | **5968** | **621** | **5541** | **94%** | **1970** |
+| **All** | **621** | **6019** | **621** | **5541** | **93%** | **1763** |
 
-The source column is the English, which is 621 sections and 5968 exercises: 4619 files in `content/en` where Springer printed an English translation and 1970 in `content/en-mt` where this project read the French instead. The French originals are 600 sections and 5377 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 621 sections and 6019 exercises: 4877 files in `content/en` where Springer printed an English translation and 1970 in `content/en-mt` where this project read the French instead. The French originals are 600 sections and 5398 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 621 of the 621 sections and 5541 of the 5968 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 621 of the 621 sections and 5541 of the 6019 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
-The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1543 of the 6162 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1385 of the 6162 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it

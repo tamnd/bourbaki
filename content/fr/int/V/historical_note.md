@@ -12,7 +12,7 @@ pdf_pages: 0141-0159
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 13954758883dbfb15bd0e371a0c3a42ab6701de91d21d4c362152ac0b7c66166
+content_sha256: 07b0edf2edc58e109b1da8e0fceded148a0243b9565511890e9f70420d3f358d
 ---
 
 # NOTE HISTORIQUE
@@ -171,23 +171,23 @@ INDEX DES NOTATIONS
 Les chiffres de référence indiquent successivement le paragraphe et le numéro (ou, exceptionnellement, l’exercice).
 
 \mathcal{F}_+(E), \mathcal{F}_+ (E ensemble): Conventions préliminaires.
-$\mu^*(f), \mu^*(A), \int^* f d\mu, \int^* f(t) d\mu(t), \int^* f\mu$ : 1, 1.
-$\bar{\mathcal{F}}_F^p(T, \mu), \bar{\mathcal{F}}_F^p(\mu), \bar{\mathcal{F}}_F^p$ : 1, 3.
-$\overline{N}_p(f), \overline{\mathcal{L}}_F^p(T, \mu), \overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p$ : 1, 3.
+\mu^*(f), \mu^*(A), \int^* f d\mu, \int^* f(t) d\mu(t), \int^* f\mu: 1, 1.
+\bar{\mathcal{F}}_F^p(T, \mu), \bar{\mathcal{F}}_F^p(\mu), \bar{\mathcal{F}}_F^p: 1, 3.
+\overline{N}_p(f), \overline{\mathcal{L}}_F^p(T, \mu), \overline{\mathcal{L}}_F^p(\mu), \overline{\mathcal{L}}_F^p: 1, 3.
 \overline{\mathcal{L}}_F^p(T, \theta) (\theta mesure complexe): 1, 3.
 \int \lambda_t d\mu(t) (t \mapsto \lambda_t famille de mesures positives): 3, 1.
-$\int d\mu(t) \int f(x) d\lambda_t(x)$ : 3, 1.
+\int d\mu(t) \int f(x) d\lambda_t(x): 3, 1.
 \|\Lambda\| (\Lambda diffusion): 3, 5.
-$\langle \eta, h \rangle$ : 3, 5.
-$\Lambda f, \mu \Lambda$ : 3, 5.
-$\Lambda \mathbf{H}$ : 3, 6.
+\langle \eta, h \rangle: 3, 5.
+\Lambda f, \mu \Lambda: 3, 5.
+\Lambda \mathbf{H}: 3, 6.
 \mathcal{L}_{loc}^1(T, \mu; F), L_{loc}^1(T, \mu; F): 5, 1.
 u . \theta (u fonction complexe, \theta mesure complexe): 5, 2.
-$\int_A^* f d\mu$ : 5, 3.
+\int_A^* f d\mu: 5, 3.
 u(\mu_1, \ldots, \mu_n) (u fonction numérique positivement homogène): 5, 9.
 \pi(\mu) (\pi application \mu-propre): 6, 1.
 \pi(\theta) (\theta mesure complexe, \pi application |\theta|-propre): 6, 4.
-$\int \int^* f(t, t') d\mu(t) d\mu'(t'), \int \int^* f(t, t') d\mu(t) d\mu'(t'), \int \int f(t, t') d\mu(t) d\mu'(t')$ : 8, 1.
+\int \int^* f(t, t') d\mu(t) d\mu'(t'), \int \int^* f(t, t') d\mu(t) d\mu'(t'), \int \int f(t, t') d\mu(t) d\mu'(t'): 8, 1.
 
 Les chiffres de référence indiquent successivement le paragraphe et le numéro (ou, exceptionnellement, l’exercice).
 

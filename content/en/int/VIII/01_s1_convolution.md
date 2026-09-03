@@ -32,7 +32,7 @@ subsections:
       pdf_page: 107
 statements: 13
 exercises: 2
-content_sha256: 23461812a4cd3b8d4e684dfa0e018182d8a45e92e458b99cea4216962610a384
+content_sha256: 05a5c461e581e8c2e10046aed639d554454123e90cb161ea1a5ac41500577113
 ---
 
 ## § 1. CONVOLUTION
@@ -94,7 +94,7 @@ $$
 
 2) Let $M$ be a monoid equipped with the discrete topology; assume that for each $m \in M$, there are only finitely many pairs $(m', m'') \in M \times M$ such that $m'm'' = m$; this amounts to saying that the law of composition in $M$ is a proper mapping of $M \times M$ into $M$; the measures on $M$ then form an algebra for convolution, an algebra that is none other than the *total*
 
-(1) Monoïde, in the sense of Exer. 17 of Ch. VII, §1.
+\footnotetext{1 Monoïde, in the sense of Exer. 17 of Ch. VII, §1.}
 
 algebra of the monoid $M$ (A, III, §2, No. 10); we note the following two special cases:
 

@@ -84,7 +84,7 @@ subsections:
       pdf_page: 161
 statements: 111
 exercises: 9
-content_sha256: 10d475925bba6f8447e2caa7f660b8bf6a0a4cf578ab88234d2012cde55fecbe
+content_sha256: 87a4f21f6d6c246846dc0fb27bcdd5b91141dc16ecacbb048e6c6b784730cfee
 ---
 
 ## § 3. Passage d’un groupe de Lie à son algèbre de Lie
@@ -1023,10 +1023,10 @@ $$
 Faisons le calcul pour $n = 2$ par exemple. On a
 
 $$
-(L(\pi)a)(x_1 x_2) = \langle a, g \mapsto \pi(g)(x_1 x_2) \rangle \quad \text{(prop. 38)} \\
+(L(\pi)a)(x_1 x_2) = \langle a, g \mapsto \pi(g)(x_1 x_2) \rangle \tag{prop. 38} \\
 = \langle a, (g \mapsto \pi_1(g)x_1)(g \mapsto \pi_2(g)x_2) \rangle \\
-= \langle a, g \mapsto \pi_1(g)x_1 \rangle . x_2 + x_1 . \langle a, g \mapsto \pi_2(g)x_2 \rangle \quad \text{(VAR, R, 5.5.6)} \\
-= ((L(\pi_1)a)x_1) . x_2 + x_1 . ((L(\pi_2)a)x_2). \quad \text{(prop. 38)}
+= \langle a, g \mapsto \pi_1(g)x_1 \rangle . x_2 + x_1 . \langle a, g \mapsto \pi_2(g)x_2 \rangle \tag{VAR, R, 5.5.6} \\
+= ((L(\pi_1)a)x_1) . x_2 + x_1 . ((L(\pi_2)a)x_2) \tag{prop. 38}.
 $$
 
 $$

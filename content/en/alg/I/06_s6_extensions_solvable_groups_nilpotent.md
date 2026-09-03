@@ -41,8 +41,8 @@ subsections:
       page: 80
       pdf_page: 104
 statements: 58
-exercises: 8
-content_sha256: ed05eff94c08cdfcfd89c459ba64d8b7ce508b226914ad4221253b7047926c45
+exercises: 41
+content_sha256: 05d57b4e159fb6f8076f49d79a8f2aa87f069986c6d14e5d1113470e55b7a64a
 ---
 
 ## § 6. EXTENSIONS, SOLVABLE GROUPS, NILPOTENT GROUPS
@@ -75,9 +75,7 @@ F & \xrightarrow{i'} & E' \\
 \end{array}
 $$
 
-$$
 u \uparrow \quad \text{and} \quad p' \uparrow
-$$
 
 #### Proposition 1 {#alg-i-s6-prop-1 .statement}
 

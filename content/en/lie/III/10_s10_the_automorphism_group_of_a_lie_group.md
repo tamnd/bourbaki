@@ -25,7 +25,7 @@ subsections:
       pdf_page: 385
 statements: 13
 exercises: 3
-content_sha256: 6fd8805ab9a65dff430aeba0e2e6ddcfa5942940fad2fefc7a6daea7301471db
+content_sha256: ab93b1b7cf25d9e6b4196e4d701bf6bf0c2d7c1e56fa93a33c58a4dea4f7b7f7
 ---
 
 ## § 10. THE AUTOMORPHISM GROUP OF A LIE GROUP
@@ -268,7 +268,7 @@ the mapping (m, g) ↦ f(m)g of M × G_0 into G is analytic
 
 For w ∈ Aut_1G, L(w) = L(w_0) and hence the morphism w ↦ L(w) of Aut_1G into Aut L(G) is analytic. We see as in (b) that the law of infinitesimal operation associated with the law of operation of Aut_1G on G is an isomorphism of L(Aut_1G) onto a.
 
-Let C be a compact subset of G_0 generating G_0. For a filter Φ to converge to $\mathrm{Id}_G$ on Aut_1G, it is necessary and sufficient that Φ|(C ∪ {x_1} ∪ ... ∪ {x_n}) and Φ^{-1}|(C ∪ {x_1} ∪ ... ∪ {x_n}) converge uniformly to
+Let C be a compact subset of G_0 generating G_0. For a filter Φ to converge to Id_G on Aut_1G, it is necessary and sufficient that Φ|(C ∪ {x_1} ∪ ... ∪ {x_n}) and Φ^{-1}|(C ∪ {x_1} ∪ ... ∪ {x_n}) converge uniformly to
 
 Id_a|(C ∪ {x_1} ∪ ... ∪ {x_n}).
 

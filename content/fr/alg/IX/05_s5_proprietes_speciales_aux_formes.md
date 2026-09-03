@@ -24,7 +24,7 @@ subsections:
       pdf_page: 82
 statements: 11
 exercises: 0
-content_sha256: 3297869f5fb81cc931b58ea4d147d5b89ddb0dbe0ebc72abf7eab7ab5a691f46
+content_sha256: ae7a00a7bf8f3e98348a00835b8817d1ce3109b6deec5e426bda2e8c26dcb197
 ---
 
 ## § 5. Propriétés spéciales aux formes bilinéaires alternées
@@ -194,7 +194,7 @@ Si $A$ est un corps commutatif et $\Phi$ une forme bilinéaire alternée non dé
 
 a) Soit $F$ un sous-module de $E$, et soit $\Phi_F$ la restriction de $\Phi$ à $F \times F$. Montrer que si $A \beta_i$ ($1 \leq i \leq s$) sont les facteurs invariants de $\Phi_F$ (où $\beta_i$ divise $\beta_{i+1}$), on a $s \leq r$ et $\beta_i$ est multiple de $\alpha_i$ pour $1 \leq i \leq s$. (Se ramener au cas où $r = s = n/2$, et utiliser les exerc. 9 b) et 9 c) du chap. VII, § 4).
 
-b) Soient $E_1$ un second $A$-module libre de dimension finie, $\Phi_1$ une forme bilinéaire alternée sur $E_1$, $A \gamma_1, \ldots, A \gamma_s$ ses facteurs invariants ($\gamma_i$ divisant $\gamma_{i+1}$). Pour que $\Phi_1$ soit l’image réciproque de $\Phi$ par une application linéaire de $E_1$ dans $E$, il faut et il suffit que $s \leq r$ et que $\gamma_i$ soit multiple de $\alpha_i$ pour $1 \leq i \leq s$. (Utiliser $a$) et la prop. 4 du chap. VII, § 4, n° 5).
+b) Soient $E_1$ un second $A$-module libre de dimension finie, $\Phi_1$ une forme bilinéaire alternée sur $E_1$, $A \gamma_1, \ldots, A \gamma_s$ ses facteurs invariants ($\gamma_i$ divisant $\gamma_{i+1}$). Pour que $\Phi_1$ soit l’image réciproque de $\Phi$ par une application linéaire de $E_1$ dans $E$, il faut et il suffit que $s \leq r$ et que $\gamma_i$ soit multiple de $\alpha_i$ pour $1 \leq i \leq s$. (Utiliser a) et la prop. 4 du chap. VII, § 4, n° 5).
 
 c) Soient $F, G$ deux sous-modules de $E$, tels que $F^0$ (resp. $G^0$) soit supplémentaire de $F$ (resp. $G$) dans $E$. Si les restrictions de $\Phi$ à $F$ et $G$ sont équivalentes, montrer qu’il en est de même des restrictions de $\Phi$ à $F^0$ et à $G^0$, et qu’il existe un automorphisme de $E$ laissant $\Phi$ invariante et transformant $F$ en $G$.
 

@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 196190fc6de7c191a8a8b49a5ef2ea6f1f5a5ef29b17ddd11fdf4cc54b2b03aa
+content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
 ---
 
 ## § 3. TENSOR PRODUCTS
@@ -370,7 +370,7 @@ By virtue of no. 2, formula (5), $\bar{v} \circ \bar{u} = (v \circ u) \otimes 1_
 
 Let $x'' \in E''$, $y \in F$; by hypothesis there exists $x \in E$ such that $v(x) = x''$. We show that, if $x_1, x_2$ are two elements of E such that $v(x_1) = v(x_2) = x''$ and $\phi : E \otimes F \to M$ is the canonical mapping, then $\phi(x_1 \otimes y) = \phi(x_2 \otimes y)$. It suffices to prove that if $v(x) = 0$ then $\phi(x \otimes y) = 0$, which follows from the fact that $x = u(x')$ with $x' \in E'$, whence $x \otimes y = u(x') \otimes y = \bar{u}(x' \otimes y) \in H$. If $(x'', y)$ is mapped to the unique value of $\phi(x \otimes y)$ for all $x \in E$ such that $v(x) = x''$, a mapping is defined of $E'' \times F$ into M; this mapping is $\mathbf{Z}$-bilinear and satisfies conditions (1) (no. 1), since $v(x \lambda) = x'' \lambda$ and $(x \lambda) \otimes y = x \otimes (\lambda y)$ for $x \in E$; hence there is a $\mathbf{Z}$-linear mapping $g$ of $E'' \otimes F$ into M such that $g(x'' \otimes y) = \phi(x \otimes y)$ for $y \in F, x \in E$ and $x'' = v(x)$. This definition further proves that $f \circ g$ coincides with the identity mapping for the elements of
 
-$E'' \otimes F$ of the form $x'' \otimes y$ and hence $f \circ g$ is the identity mapping of $E'' \otimes F$; on the other hand, for $x \in E$ and $y \in F$, $f(\phi(x \otimes y)) = v(x) \otimes y$ by definition, hence $g(f(\phi(x \otimes y))) = \phi(x \otimes y)$ and, as the elements of the form $\phi(x \otimes y)$ generate M, $g \circ f$ is the identity mapping of M.
+E'' \otimes F of the form x'' \otimes y and hence f \circ g is the identity mapping of E'' \otimes F; on the other hand, for x \in E and y \in F, f(\phi(x \otimes y)) = v(x) \otimes y by definition, hence g(f(\phi(x \otimes y))) = \phi(x \otimes y) and, as the elements of the form \phi(x \otimes y) generate M, g \circ f is the identity mapping of M.
 
 #### Corollary {#alg-ii-s3-n6-cor-1 .statement}
 
@@ -552,7 +552,7 @@ The basis $(b_\mu)$ defines an isomorphism of $F$ onto $\bigoplus_{\mu \in M} Ab
 
 If E is a ((B'_i); A, (C'_j))-multimodule, the canonical isomorphism E ⊗_A F → E^{(M)} is a ((B'_i); (C'_j))-multimodule isomorphism.
 
-In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
+In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z ↦ (\xi_{λμ})_{(λ, μ) ∈ L × M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
 
 #### Corollary 2 {#alg-ii-s3-prop-7-cor-2 .statement}
 
@@ -829,7 +829,7 @@ $$
 w(r_\omega(y_1), y_2) = w(y_1, s_\omega(y_2)).
 $$
 
-It suffices to verify this relation when $y_1$ (resp. $y_2$) is of the form $\bigotimes_{(c^{(1)})} x_\lambda$ (resp. $\bigotimes_{(c^{(2)})} x_\lambda$), since these elements generate the $\mathbf{Z}$-module $F_1$ (resp. $F_2$). But by definition, $r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda$, where $x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)})$ and $x'_\lambda = x_\lambda$ for $\lambda \neq \rho(\omega)$ in $L_1$; similarly $s_\omega\left( \bigotimes_{(c^{(2)})} x_\lambda \right) = \bigotimes_{(c^{(2)})} x''_\lambda$, where $x''_{\sigma(\omega)} = q_\omega(x'_{\sigma(\omega)})$ and $x''_\lambda = x_\lambda$ for $\lambda \neq \sigma(\omega)$ in $L_2$; using (30) and (31), relation (32) then follows from (26). Hence there exists a $\mathbf{Z}$-linear mapping $v$ of $F_1 \otimes F_2$ into $H$ such that $v(y_1 \otimes y_2) = w(y_1, y_2)$ and it then follows from (30) and (31) that $v \circ h = u$.
+It suffices to verify this relation when $y_1$ (resp. $y_2$) is of the form $\bigotimes_{(c^{(1)})} x_\lambda$ (resp. $\bigotimes_{(c^{(2)})} x_\lambda$), since these elements generate the $\mathbf{Z}$-module $F_1$ (resp. $F_2$). But by definition, $r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda$, where $x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)})$ and $x'_\lambda = x_\lambda$ for λ ≠ ρ(ω) in L₁; similarly s_ω\left(\bigotimes_{(c^{(2)})} x_\lambda\right) = \bigotimes_{(c^{(2)})} x''_\lambda, where x''_{σ(ω)} = q_ω(x'_{σ(ω)}) and x''_\lambda = x_\lambda for λ ≠ σ(ω) in L₂; using (30) and (31), relation (32) then follows from (26). Hence there exists a $\mathbf{Z}$-linear mapping v of F₁ ⊗ F₂ into H such that $v(y_1 \otimes y_2) = w(y_1, y_2)$ and it then follows from (30) and (31) that $v \circ h = u$.
 
 The most important special case of the general tensor product defined above is the following: we start with a family $(A_i)_{1 \leq i \leq n-1}$ of rings and a family $(E_i)_{1 \leq i \leq n}$, where $E_1$ is a right $A_1$-module, $E_n$ is a left $A_{n-1}$ module and for $2 \leq i \leq n-1$, $E_i$ is an $(A_{i-1}, A_i)$-bimodule. Then the above definition is applied as follows: L is the set $[1, n]$, $G_i = E_i$, Ω is the set the sum of the $A_i$ ($1 \leq i \leq n-1$). For $ω ∈ A_i$ ($1 \leq i \leq n-1$), take $ρ(ω) = i$, $σ(ω) = i + 1$, $p_ω$ is the endomorphism $x ↦ xω$ of the $Z$-module $E_i$ and $q_ω$ the endomorphism $y ↦ ωy$ of the $Z$-module $E_{i+1}$; the corresponding tensor product is denoted by
 

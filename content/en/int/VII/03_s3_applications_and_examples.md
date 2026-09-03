@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 115130034ff32aecbc68fd3f27ca1befb61f88d64371feb493dd57eb6931a24f
+content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 ---
 
 ## § 3. APPLICATIONS AND EXAMPLES
@@ -770,7 +770,7 @@ $$
 
 where N denotes the norm in $M_n(K)$ *regarded as an* $\mathbf{R}\text{-algebra}$, and where $\lambda = 1 - \frac{\delta - 2}{\delta n}$. It suffices to verify (15) for $X$ running over a system of
 
-(1) Cf. TVS, V, §2, No. 4, Cor. 1 of Th. 2.
+\footnotetext{1Cf. TVS, V, §2, No. 4, Cor. 1 of Th. 2.}
 
 generators of $\mathbf{GL}(n, K)$, hence (A, II, §10, No. 13, Cor. 2 of Prop. 14) for $X$ of the following types:
 

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 223
 statements: 9
 exercises: 16
-content_sha256: f511f3c32e0e26a7b9de03662a1a8cf2edb055f16a719c9b4b714120bac10075
+content_sha256: 3d82016485d8afcca49ffb9d83899b9cacb9cc4f58154a607db16b0c280c4a97
 ---
 
 ## § 5. CRITÈRES DE COMPACITÉ
@@ -98,17 +98,11 @@ Soient $f_n, x_m, \gamma$ et $\delta$ comme dans (iv). Soit $f$ une valeur d’a
 
 Nous allons construire par récurrence une suite $(x_n)_{n \in \mathbf{N}}$ de points de D et une suite $(f_n)_{n \in \mathbf{N}}$ d’éléments de A, satisfaisant aux relations suivantes :
 
-$$
 (1)_m \quad |u(x_m) - u(a)| \geq \varepsilon \quad \text{pour } m \geq 1;
-$$
 
-$$
 (2)_m \quad |u(x_i) - f_m(x_i)| \leq \frac{1}{m+1} \quad \text{pour } 0 \leq i \leq m-1;
-$$
 
-$$
 (3)_{m,i} \quad |f_m(x_i) - f_m(a)| \leq \frac{1}{i+1} \quad \text{pour } 0 \leq m \leq i.
-$$
 
 On prend $x_0 = a$ avec $f_0$ arbitraire dans A (l’ensemble A n’est pas vide, sinon il serait relativement compact dans $\mathcal{C}_s(X)$). Soient $n \geq 1$ et $x_0, x_1, \ldots, x_{n-1}$, $f_0, f_1, \ldots, f_{n-1}$ satisfaisant aux relations (1)_m, (2)_m pour $1 \leq m < n$ et (3)_{m,i} pour $0 \leq m \leq i < n$. Comme $u$ appartient à $\overline{A}$, il existe $f_n \in A$ satisfaisant à (2)_n. Soit $V_n$ l’ensemble des $x \in X$ tels que l’on ait $|f_m(x) - f_m(a)| \leq \frac{1}{n+1}$ pour $0 \leq m \leq n$. C’est un voisinage de $a$ car $f_n$ est continue ; choisissons un point $x_n$ de $D \cap V_n$ tel que $|u(x_n) - u(a)| \geq \varepsilon$, donc (1)_n et (3)_{m,n} sont satisfaites. La construction peut donc se poursuivre.
 
@@ -166,7 +160,7 @@ Comme sur $F'$ la topologie de la convergence précompacte est plus fine que la 
 
 Le th. de Šmulian peut s’étendre au cas où $E$ est limite inductive stricte d’une suite d’espaces de Fréchet (IV, p. 67, exerc. 2).
 
-### *4. Cas des espaces de fonctions continues bornées
+### \*4. Cas des espaces de fonctions continues bornées
 
 Pour tout espace topologique $X$, nous noterons $\mathscr{C}^b(X)$ l’espace de Banach des applications continues et *bornées* de $X$ dans $K$, avec la norme définie par
 
@@ -205,7 +199,7 @@ existent, on a $\gamma = \delta$.
 
 Soient X le compactifié de Stone-Čech de S (TG, IX, p. 10) et $\alpha$ l’application canonique de S dans X. Posons D = $\alpha(S)$. L’application $\varphi : f \mapsto f \circ \alpha$ est un isomorphisme de l’espace normé $\mathcal{C}(X)$ sur l’espace normé $\mathcal{C}^b(S)$; posons $\tilde{A} = \varphi^{-1}(A)$. Comme X est compact et D dense dans X, la prop. 2 (IV, p. 33) montre que la condition (ii) équivaut à la compacité de $\tilde{A}$ pour la topologie de la convergence simple. L’équivalence de (i) et (ii) résulte donc de la prop. 3. \*
 
-### *5. Enveloppe convexe d’un ensemble faiblement compact
+### \*5. Enveloppe convexe d’un ensemble faiblement compact
 
 #### Théorème 3 (Krein) {#evt-iv-s5-thm-3 .statement}
 

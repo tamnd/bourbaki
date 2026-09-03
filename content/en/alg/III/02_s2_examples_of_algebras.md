@@ -58,7 +58,7 @@ subsections:
       pdf_page: 479
 statements: 17
 exercises: 3
-content_sha256: 5a84acf9f107bad7d60ffaca486e8438e91a0e75355de3f0446a4594085e9abd
+content_sha256: bd5951cd090d56ae73c754360396e4a160968b09d8b97344a2867e90be9ed798
 ---
 
 ## § 2. EXAMPLES OF ALGEBRAS
@@ -259,10 +259,10 @@ Let B be a basis of E containing e and u an element of B distinct from e; then $
 In what follows, we shall write $\bar{u} = s(u)$, so that
 
 $$
-\left\{\begin{array}{lll}
+\begin{cases}
 u + \bar{u} = T(u), & u\bar{u} = \bar{u}u = N(u), & \bar{u} = u \\
 u + v = \bar{u} + \bar{v}, & \alpha u = \alpha \bar{u}, & uv = \bar{v}.\bar{u}
-\end{array}\right.
+\end{cases}
 $$
 
 for $u, v$ in E, $\alpha \in A$; moreover
@@ -402,11 +402,11 @@ The Cayley algebra $(\mathbf{F}, t)$ is called the *Cayley extension of* $(\math
 
 (2) Take E to be a *quadratic algebra of type* $(\alpha, \beta)$, so that the underlying module of E is $\mathbf{A}^2$, with multiplication table (2) (no. 3) for the canonical basis. Take s to be conjugation of E (no. 3, Proposition 2). Then, for all $\gamma \in \mathbf{A}$, the Cayley extension F of $(\mathbf{E}, s)$ defined by $\gamma$ is called the *quaternion algebra of type* $(\alpha, \beta, \gamma)$, which is *associative* by no. 3, Proposition 1 and Proposition 5 above; its underlying module is $\mathbf{A}^4$ and, if $(e, i, j, k)$ denotes the canonical basis of $\mathbf{A}^4$, the corresponding multiplication table is given by
 $$
-\left\{\begin{array}{lll}
+\begin{cases}
 i^2 = \alpha e + \beta i, & ij = k, & ik = \alpha j + \beta k, \\
 ji = \beta j - k, & j^2 = \gamma e, & jk = \beta \gamma e - \gamma i, \\
 ki = -\alpha j, & kj = \gamma i, & k^2 = -\alpha \gamma e.
-\end{array}\right.
+\end{cases}
 $$
 (30)
 

@@ -57,7 +57,7 @@ subsections:
       pdf_page: 415
 statements: 20
 exercises: 4
-content_sha256: 3d6e2b598afef6281f6666d1de27e86e4cb85205f55cb991484c265c8ed5d0c4
+content_sha256: 13eb8ae334e2c27bb261675f7ae2326e6c05f328bc68c6450bead53a15ffe82c
 ---
 
 ## § 2. EXEMPLES D’ALGÈBRES
@@ -219,10 +219,10 @@ T(u) − T'(u) = 0, d’où s(u) = s'(u). Comme s et s' coïncident dans B, ils 
 Dans ce qui suit, nous poserons $\bar{u} = s(u)$, de sorte que l’on a
 
 $$
-\left\{\begin{array}{lll}
+\begin{cases}
 u + \bar{u} = T(u), & u\bar{u} = \bar{u}u = N(u), & u = u, \\
 u + v = \bar{u} + \bar{v}, & \alpha u = \alpha \bar{u}, & \bar{u}\bar{v} = \bar{v}.\bar{u}
-\end{array}\right.
+\end{cases}
 $$
 
 pour $u, v$ dans E, $\alpha \in A$; en outre
@@ -340,11 +340,11 @@ L’algèbre cayleyenne $(F, t)$ est appelée l’*extension cayleyenne de* $(E,
 2) Prenons pour E une algèbre quadratique de type $(\alpha, \beta)$, de sorte que le module sous-jacent à E est $\mathbf{A}^2$, avec la table de multiplication (2) (III, p. 12) pour la base canonique. Prenons pour s la conjugaison dans E (III, p. 13, prop. 2). Alors, pour tout $\gamma \in \mathbf{A}$, l’extension cayleyenne F de $(E, s)$ définie par $\gamma$ est appelée l’algèbre de quaternions de type $(\alpha, \beta, \gamma)$, qui est associative en vertu de III, p. 13, prop. 1 et III, p. 17, prop. 5; son module sous-jacent est $\mathbf{A}^4$, et si l’on note $(e, i, j, k)$ la base canonique de $\mathbf{A}^4$, la table de multiplication correspondante est donnée par
 
 $$
-\left\{\begin{array}{lll}
+\begin{cases}
 i^2 = \alpha e + \beta i, & ij = k, & ik = \alpha j + \beta k \\
 ji = \beta j - k, & j^2 = \gamma e, & jk = \beta \gamma e - \gamma i \\
 ki = -\alpha j, & kj = \gamma i, & k^2 = -\alpha \gamma e
-\end{array}\right.
+\end{cases}
 $$
 
 De plus, pour $u = \rho e + \xi i + \eta j + \zeta k$ (avec $\rho, \xi, \eta, \zeta$ dans $\mathbf{A}$), on a (en écrivant $\bar{u}$ au lieu de $t(u)$ et identifiant $\mathbf{A}$ à $Ae$):
@@ -372,11 +372,11 @@ Une A-algèbre isomorphe à une algèbre de quaternions est encore dite algèbre
 Lorsque $\beta = 0$, les formules (30) et (31) se simplifient en
 
 $$
-\left\{\begin{array}{lll}
+\begin{cases}
 i^2 = \alpha e, & ij = k, & ik = \alpha j \\
 ji = -k, & j^2 = \gamma e, & jk = -\gamma i \\
 ki = -\alpha j; & kj = \gamma i; & k^2 = -\alpha \gamma e
-\end{array}\right.
+\end{cases}
 $$
 
 et
