@@ -157,7 +157,7 @@ Ngược lại, nếu $\overline{\theta}':$ Coeg($\varphi , \psi$ )$\rightarrow 
 
 Groupoid Coeg($\varphi , \psi$ ) được sinh bởi ảnh của cấu xạ $\gamma$.
 
-Gọi C là subgroupoid của Coeg($\varphi , \psi$ ) được sinh bởi ảnh của G; gọi $i$ là cấu xạ chính tắc từ C vào Coeg($\varphi , \psi$ ) và $\theta : G\rightarrow C$ là cấu xạ sao cho $i\circ \theta =\gamma$. Theo proposition 2, tồn tại một cấu xạ groupoid duy nhất $\overline{\theta}:$ Coeg($\varphi , \psi$ )$\rightarrow C$ sao cho $\overline{\theta}\circ \gamma =\theta$. Khi đó $\gamma =i\circ \overline{\theta}\circ \gamma$, do đó $i\circ \overline{\theta}$ là cấu xạ đồng nhất của Coeg($\varphi , \psi$ ) (loc. cit.). Đặc biệt, các ánh xạ Som($i$) và Fl($i$) là toàn ánh, vì vậy C = Coeg($\varphi , \psi$ ).
+Gọi C là subgroupoid của Coeg($\varphi , \psi$ ) được sinh bởi ảnh của G; gọi $i$ là cấu xạ chính tắc từ C vào Coeg($\varphi , \psi$ ) và $\theta : G\rightarrow C$ là cấu xạ sao cho $i\circ \theta =\gamma$. Theo mệnh đề 2, tồn tại một cấu xạ groupoid duy nhất $\overline{\theta}:$ Coeg($\varphi , \psi$ )$\rightarrow C$ sao cho $\overline{\theta}\circ \gamma =\theta$. Khi đó $\gamma =i\circ \overline{\theta}\circ \gamma$, do đó $i\circ \overline{\theta}$ là cấu xạ đồng nhất của Coeg($\varphi , \psi$ ) (loc. cit.). Đặc biệt, các ánh xạ Som($i$) và Fl($i$) là toàn ánh, vì vậy C = Coeg($\varphi , \psi$ ).
 
 #### Nhận xét 1 {#ta-ii-s5-n2-rem-1 .statement tag=01UP}
 
@@ -169,7 +169,7 @@ Tập hợp các đỉnh của Coeg($\varphi , \psi$ ) là tập hợp các thà
 
 #### Nhận xét 2 {#ta-ii-s5-n2-rem-2 .statement tag=01UQ}
 
-Ánh xạ Orb($\gamma$ ), suy ra từ $\gamma$ bằng cách chuyển qua các quỹ đạo, xác định bằng chuyển sang thương một song ánh từ tập hợp các thành phần liên thông của khung của cặp $(\varphi , \psi )$ lên tập hợp các quỹ đạo của đối đồng bằng hóa tử. Điều này suy ra từ II, p. 185, prop. 4 và từ sự kiện rằng ánh xạ suy ra từ $\beta$ bằng cách chuyển qua các quỹ đạo là song ánh ( II, p. 170, remark 1).
+Ánh xạ Orb($\gamma$ ), suy ra từ $\gamma$ bằng cách chuyển qua các quỹ đạo, xác định bằng chuyển sang thương một song ánh từ tập hợp các thành phần liên thông của khung của cặp $(\varphi , \psi )$ lên tập hợp các quỹ đạo của đối đồng bằng hóa tử. Điều này suy ra từ II, p. 185, mệnh đề 4 và từ sự kiện rằng ánh xạ suy ra từ $\beta$ bằng cách chuyển qua các quỹ đạo là song ánh ( II, p. 170, nhận xét 1).
 
 Do đó, ánh xạ của Som(G) vào Orb(Coeg($\varphi , \psi$ )) suy ra từ $\gamma$ đồng nhất tập hợp các quỹ đạo của Coeg($\varphi , \psi$ ) với tập thương của Som(G) theo quan hệ tương đương sinh bởi các cặp $(\varphi (x), \psi (x))$ với $x\in$ Som(H) và các cặp $(o(f), t(f))$ với $f\in$ Fl(G).
 

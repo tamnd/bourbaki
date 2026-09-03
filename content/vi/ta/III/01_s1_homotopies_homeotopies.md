@@ -481,7 +481,7 @@ sao cho $\sigma (x,1) =x$ với mọi $x\in X$ và $\sigma (x,1-\varphi (x))\in 
 
 Ta sẽ ký hiệu bởi $i$ đơn ánh chính tắc của A vào X, $\alpha_i: A\times \mathbf{I}\rightarrow$ Cyl($i$) và $\beta_i: X\rightarrow$ Cyl($i$) là các ánh xạ chính tắc, và bởi $j$ ánh xạ từ Cyl($i$) vào $X\times \mathbf{I}$ sao cho $j(\alpha_i(x, s)) = (x, s)$ với $(x, s)\in A\times \mathbf{I}$ và $j(\beta_i(x)) = (x,1)$ với $x\in X$.
 
-Giả sử rằng cặp $(X,A)$ có tính chất mở rộng đồng luân và cho $r: X\times \mathbf{I}\rightarrow$ Cyl($i$) là một phép co rút liên tục của ánh xạ $j($III, p. 241, Proposition 7). Ta ký hiệu bởi $\sigma$ ánh xạ liên tục pr$_1\circ j\circ r$ từ $X\times \mathbf{I}$ vào X. Với mọi $(x, t)\in X\times \mathbf{I}$, ta có $|$pr$_2(j(r(x, t)))-t|\leqslant 1$. Vì $\mathbf{I}$ là compact, phép chiếu thứ nhất pr$_1: X\times \mathbf{I}\rightarrow X$ là một ánh xạ thực sự; nó cũng là mở. Theo Bổ đề 3, ánh xạ $\varphi : X\rightarrow \mathbf{I}$ cho bởi
+Giả sử rằng cặp $(X,A)$ có tính chất mở rộng đồng luân và cho $r: X\times \mathbf{I}\rightarrow$ Cyl($i$) là một phép co rút liên tục của ánh xạ $j($III, p. 241, mệnh đề 7). Ta ký hiệu bởi $\sigma$ ánh xạ liên tục pr$_1\circ j\circ r$ từ $X\times \mathbf{I}$ vào X. Với mọi $(x, t)\in X\times \mathbf{I}$, ta có $|$pr$_2(j(r(x, t)))-t|\leqslant 1$. Vì $\mathbf{I}$ là compact, phép chiếu thứ nhất pr$_1: X\times \mathbf{I}\rightarrow X$ là một ánh xạ thực sự; nó cũng là mở. Theo Bổ đề 3, ánh xạ $\varphi : X\rightarrow \mathbf{I}$ cho bởi
 
 $x\mapsto$ sup$_{t\in\mathbf{I}}(|$pr$_2(j(r(x, t)))-t|)$
 
