@@ -94,11 +94,11 @@ $$
 \gamma \iota (f)\gamma^{-1}=\iota (\tau (\pi (\gamma ))\cdot f) \tag{1}
 $$
 
-với $\gamma \in \Gamma$ và $f\in F$. Nếu $\mathscr{E}= (\Gamma , \iota , \pi )$ và $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ là các mở rộng $\tau$, thì một cấu xạ của các mở rộng $\tau$ từ $\mathscr{E}$ đến $\mathscr{E}'$ là một cấu xạ của các mở rộng từ $\mathscr{E}$ đến $\mathscr{E}'$ (I, §6, No. 1, p. 65), nghĩa là, một đồng cấu nhóm $u: \Gamma \rightarrow \Gamma '$ sao cho $\pi '\circ u=\pi$ và $\iota '=u\circ \iota$. Chú ý rằng các mở rộng $\tau$ tạo thành một loài cấu trúc mà mọi cấu xạ đều là một đẳng cấu (Set Theory, IV, §1, No. 5, p. 264 và I, §6, No. 1, p. 66, Proposition 1). Ký hiệu Iso$_{\tau}(\mathscr{E},\mathscr{F})$ là quan hệ
+với $\gamma \in \Gamma$ và $f\in F$. Nếu $\mathscr{E}= (\Gamma , \iota , \pi )$ và $\mathscr{E}'= (\Gamma ', \iota ', \pi ')$ là các mở rộng $\tau$, thì một cấu xạ của các mở rộng $\tau$ từ $\mathscr{E}$ đến $\mathscr{E}'$ là một cấu xạ của các mở rộng từ $\mathscr{E}$ đến $\mathscr{E}'$ (I, §6, No. 1, p. 65), nghĩa là, một đồng cấu nhóm $u: \Gamma \rightarrow \Gamma '$ sao cho $\pi '\circ u=\pi$ và $\iota '=u\circ \iota$. Chú ý rằng các mở rộng $\tau$ tạo thành một loài cấu trúc mà mọi cấu xạ đều là một đẳng cấu (Lý thuyết tập hợp, IV, §1, No. 5, p. 264 và I, §6, No. 1, p. 66, Mệnh đề 1). Ký hiệu Iso$_{\tau}(\mathscr{E},\mathscr{F})$ là quan hệ
 
 “$\mathscr{E}$ và $\mathscr{F}$ là các mở rộng $\tau$ đẳng cấu.”
 
-Đây là một quan hệ tương đương; lớp của mở rộng $\mathscr{E}$ là lớp của các đối tượng tương đương với $\mathscr{E}$ đối với Iso$_{\tau}($Set Theory, II, §6, No. 6, p. 122).
+Đây là một quan hệ tương đương; lớp của mở rộng $\mathscr{E}$ là lớp của các đối tượng tương đương với $\mathscr{E}$ đối với Iso$_{\tau}($Lý thuyết tập hợp, II, §6, No. 6, p. 122).
 
 #### Bổ đề 1 {#alg-viii-s16-lem-1 .statement tag=00I9}
 
@@ -312,7 +312,7 @@ $$
 
 ${F'}^{\iota'}$ // ${\Gamma'}^{\pi'}$ // G .
 
-Mệnh đề 2 biểu thị rằng $v_*(\mathscr{E})$ là một nghiệm của bài toán ánh xạ phổ quát tương ứng (Set Theory, IV, §3, No. 1, p. 284).
+Mệnh đề 2 biểu thị rằng $v_*(\mathscr{E})$ là một nghiệm của bài toán ánh xạ phổ quát tương ứng (Lý thuyết tập hợp, IV, §3, No. 1, p. 284).
 
 #### Hệ quả 1 {#alg-viii-s16-lem-3-cor-1 .statement tag=00IJ}
 
@@ -948,7 +948,7 @@ $$
 
 Cho K là một trường giao hoán. Nếu E là một đại số trên K, thì ta ký hiệu nhóm tự đẳng cấu của nó bởi Aut$_K(E)$. Nếu E là một mở rộng Galois của trường K, thì nhóm Aut$_K(E)$ chính là nhóm Galois Gal(E$/K$) (V, §10, No. 2, p. 58).
 
-Cho G là một nhóm. $A (K,G)$-algebra là một đại số trên K được trang bị một đồng cấu nhóm $\lambda : G\rightarrow$ Aut$_K(E)$. Khi đó đồng cấu $\lambda$ trang bị cho E cấu trúc của một nhóm với các toán tử trong G cũng như cấu trúc của một K[G]-môđun trái với phép toán ngoài được cho bởi
+Cho G là một nhóm. $A (K,G)$-đại số là một đại số trên K được trang bị một đồng cấu nhóm $\lambda : G\rightarrow$ Aut$_K(E)$. Khi đó đồng cấu $\lambda$ trang bị cho E cấu trúc của một nhóm với các toán tử trong G cũng như cấu trúc của một K[G]-môđun trái với phép toán ngoài được cho bởi
 
 $$
 ((\sum_{g\in G}\mu_gg)x=\sum_{g\in G}\mu_g\lambda (g).x \tag{14}
@@ -1020,7 +1020,7 @@ b) Ánh xạ $\pi :x\mapsto (\pi_{\sigma}(x))_{\sigma\in\mathscr{O}}$ là một 
 
 c) Ký hiệu $L^G($resp. $L^G_{\sigma})$ là đại số con của L (resp. $L_{\sigma}$) gồm các phần tử bất biến dưới tác động của G. Khi đó $\pi$ cảm sinh một đẳng cấu từ $L^G$ đến $\prod_{\sigma\in\mathscr{O}}L^G_{\sigma}$.
 
-Vì đại số L là rút gọn và có bậc hữu hạn, giao của các ideal cực đại của L thu được 0 (VIII, p. 173, Hệ quả 2). Hơn nữa, nếu $\mathfrak{m}$ và $\mathfrak{m}'$ là hai ideal cực đại phân biệt của L, thì ta có $\mathfrak{m}+\mathfrak{m}'= L$. Theo Mệnh đề 10 của I, §8, No. 11, p. 110, ánh xạ chính tắc từ L đến $\prod_{\mathfrak{m}\in\mathscr{S}}L/\mathfrak{m}$ là một đẳng cấu, cũng như ánh xạ chính tắc từ $L/\mathfrak{a}_{\sigma}$ đến $\prod_{\mathfrak{m}\in\sigma}L/\mathfrak{m}$ với mọi $\sigma \in \mathscr{O}$. Mệnh đề a) suy ra. Vì $\mathscr{O}$ là một phân hoạch của $\mathscr{S}$, mệnh đề b) suy ra; mệnh đề c) là một hệ quả ngay lập tức của b).
+Vì đại số L là rút gọn và có bậc hữu hạn, giao của các iđêan cực đại của L thu được 0 (VIII, p. 173, Hệ quả 2). Hơn nữa, nếu $\mathfrak{m}$ và $\mathfrak{m}'$ là hai iđêan cực đại phân biệt của L, thì ta có $\mathfrak{m}+\mathfrak{m}'= L$. Theo Mệnh đề 10 của I, §8, No. 11, p. 110, ánh xạ chính tắc từ L đến $\prod_{\mathfrak{m}\in\mathscr{S}}L/\mathfrak{m}$ là một đẳng cấu, cũng như ánh xạ chính tắc từ $L/\mathfrak{a}_{\sigma}$ đến $\prod_{\mathfrak{m}\in\sigma}L/\mathfrak{m}$ với mọi $\sigma \in \mathscr{O}$. Mệnh đề a) suy ra. Vì $\mathscr{O}$ là một phân hoạch của $\mathscr{S}$, mệnh đề b) suy ra; mệnh đề c) là một hệ quả ngay lập tức của b).
 
 Bây giờ hãy cố định một quỹ đạo $\sigma \in \mathscr{O}$ và một phần tử $\mathfrak{m}$ của $\sigma$. Đặt $F_{\mathfrak{m}}$ = Coind$^G_{G_{\mathfrak{m}}}(L/\mathfrak{m})$, và ký hiệu $\lambda_{F_{\mathfrak{m}}}$ là tác động của G trên $F_{\mathfrak{m}}$. Với mọi $x\in L$, ký hiệu $\overline{x}$ là ánh xạ từ G đến $L/\mathfrak{m}$, gửi $g$ tới $\pi_{\mathfrak{m}}(gx)$. Theo công thức (15) của VIII, p. 305 và định nghĩa của tác động của $G_{\mathfrak{m}}$ trên $L/\mathfrak{m}$, hiển nhiên là $\overline{x}$ thuộc $F_{\mathfrak{m}}$, và ánh xạ $u:x\mapsto \overline{x}$ từ L đến $F_{\mathfrak{m}}$ thỏa $\lambda_{F_{\mathfrak{m}}}(g)\circ u=u\circ \lambda (g)$ với $g\in G$. Nói cách khác, $u$ là một cấu xạ của các $(K$, G)-đại số.
 
@@ -1428,7 +1428,7 @@ là các đồng cấu chính tắc. Theo tính chất phổ quát của $\mathb
 
 #### Định nghĩa 2 {#alg-viii-s16-def-2 .statement tag=00JL}
 
-Cho $\mathscr{S}$ là tập hợp các ideal cực đại của L. Ta định nghĩa
+Cho $\mathscr{S}$ là tập hợp các iđêan cực đại của L. Ta định nghĩa
 
 Br(L$/K$) $=\bigcap_{\mathfrak{m}\in\mathscr{S}}$ Ker($r_{(L/\mathfrak{m})/K}$), trong đó $r_{(L/\mathfrak{m})/K}:$ Br(K) $\rightarrow$ Br(L$/\mathfrak{m}$) là đồng cấu mở rộng vô hướng (VIII, p. 281).
 

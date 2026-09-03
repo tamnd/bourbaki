@@ -296,9 +296,9 @@ b) $(A,A)$-môđun song môđun $\Theta_S(A)$ là đơn.
 
 Ánh xạ $\gamma_S: S\otimes_KS^*\rightarrow \Theta_S(A)$ được đặc trưng bởi công thức $\gamma_S(x\otimes x^*) =c_S(x, x^*)$ là $(A$, A)-tuyến tính và toàn ánh và thỏa mãn $\gamma_S(xd\otimes x^*)$ $=\gamma_S(x\otimes dx^*)$ với $x\in S,x^*\in S^*$, và $d\in D$. Do đó nó xác định một ánh xạ $(A$, A)-tuyến tính toàn ánh $\lambda_S: S\otimes_DS^*\rightarrow \Theta_S(A)$ được đặc trưng bởi công thức (6).
 
-Ta hãy chứng minh rằng $S\otimes_DS^*$ là một song môđun đơn $(A$, A)-bimodule. Theo Hệ quả 2 của VIII, p. 63, mọi $(A$, A)-sub-bimodule của $S\otimes_DS^*$ đều có dạng $S\otimes_DH$, trong đó H là một $(D$, A)-sub-bimodule của $S^*$. Vì $S^*$ là một A-môđun phải đơn (VIII, p. 380, Định lý 1, c)), ta có H = 0 hoặc $H = S^*$; suy ra mệnh đề.
+Ta hãy chứng minh rằng $S\otimes_DS^*$ là một song môđun đơn $(A$, A)-song môđun. Theo Hệ quả 2 của VIII, p. 63, mọi $(A$, A)-môđun con song của $S\otimes_DS^*$ đều có dạng $S\otimes_DH$, trong đó H là một $(D$, A)-môđun con song của $S^*$. Vì $S^*$ là một A-môđun phải đơn (VIII, p. 380, Định lý 1, c)), ta có H = 0 hoặc $H = S^*$; suy ra mệnh đề.
 
-Đồng cấu $\lambda_S$ là $(A$, A)-linear và khác không; vì $S\otimes_DS^*$ là một song môđun đơn, $\lambda_S$ là đơn ánh (VIII, p. 47, Mệnh đề 2, a)).
+Đồng cấu $\lambda_S$ là $(A$, A)-tuyến tính và khác không; vì $S\otimes_DS^*$ là một song môđun đơn, $\lambda_S$ là đơn ánh (VIII, p. 47, Mệnh đề 2, a)).
 
 #### Nhận xét {#alg-viii-s20-n5-rem-1 .statement tag=00MR}
 
@@ -615,7 +615,7 @@ Nếu C đồng kết hợp, thì $C_1$ cũng đồng kết hợp. Nếu C đồ
 
 Cho Θ là một không gian con tuyến tính của Θ(A). Các tính chất sau là tương đương:
 
-(i) Θ là một $(A,A)$-sub-bimodule của Θ(A).
+(i) Θ là một $(A,A)$-môđun con song của Θ(A).
 
 (ii) Θ là một đối đại số con của Θ(A).
 
@@ -633,7 +633,7 @@ $$
 bf=\sum_{i=1}^nf''_i(b)f'_i,f a=\sum_{i=1}^nf'_i(a)f''_i
 $$
 
-(VIII, p. 375, các công thức (3) và (4)). Do đó, một đối đại số con của Θ(A) là một $(A$, A)-sub-bimodule.
+(VIII, p. 375, các công thức (3) và (4)). Do đó, một đối đại số con của Θ(A) là một $(A$, A)-môđun con song.
 
 (i) $\Rightarrow$ (iii): Giả sử Θ là một $(A$, A)-sub-bimodule của Θ(A); cho $\mathscr{C}$ là tập các lớp của các A-môđun E có số chiều hữu hạn trên K sao cho $\Theta_E(A)$ được chứa trong Θ. Tập $\mathscr{C}$ là di truyền (VIII, p. 377, Nhận xét 2), và theo phép dựng ta có $\Theta_{\mathscr{C}}(A)\subset \Theta$. Cho $f\in \Theta$ và $E = Af$. Khi đó E có số chiều hữu hạn trên K. Do đó, mọi dạng tuyến tính trên E đều có dạng $u_a:g\mapsto g(a)$ với $a$ trong A (II, §7, No. 5, p. 302, Hệ quả 2). Bây giờ, với $a, b, x\in A$, ta có
 
