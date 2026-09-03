@@ -126,8 +126,8 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Algebra | III | 12 of 12 | 273 | 97 | 0 | 542 |
 | Algebra | IV | 6 of 6 | 157 | 53 | 0 | 202 |
 | Algebra | V | 17 of 17 | 425 | 156 | 0 | 382 |
-| Algebra | VI | 2 of 2 | 83 | 75 | 0 | 92 |
-| Algebra | VII | 5 of 5 | 146 | 64 | 0 | 162 |
+| Algebra | VI | 2 of 2 | 83 | 77 | 0 | 92 |
+| Algebra | VII | 5 of 5 | 146 | 80 | 0 | 162 |
 | Algebra | VIII | 25 of 25 | 709 | 317 | 1024 | 964 |
 | Algebra | IX | 0 of 10 | 0 | 0 | 0 | 207 |
 | Algebra | X | 0 of 9 | 0 | 0 | 0 | 216 |
@@ -135,12 +135,12 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Theory of Sets | II | 6 of 6 | 109 | 41 | 150 | 117 |
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 226 |
 | Theory of Sets | IV | 3 of 3 | 29 | 15 | 43 | 255 |
-| Topological Vector Spaces | I | 3 of 3 | 64 | 35 | 0 | 58 |
+| Topological Vector Spaces | I | 3 of 3 | 64 | 38 | 0 | 58 |
 | Topological Vector Spaces | II | 8 of 8 | 203 | 162 | 0 | 195 |
-| Topological Vector Spaces | III | 6 of 6 | 123 | 75 | 0 | 101 |
+| Topological Vector Spaces | III | 6 of 6 | 123 | 78 | 0 | 101 |
 | Topological Vector Spaces | IV | 6 of 6 | 111 | 100 | 0 | 152 |
-| Topological Vector Spaces | V | 4 of 4 | 132 | 37 | 0 | 181 |
-| Functions of a Real Variable | I | 4 of 4 | 81 | 51 | 0 | 100 |
+| Topological Vector Spaces | V | 4 of 4 | 132 | 68 | 0 | 181 |
+| Functions of a Real Variable | I | 4 of 4 | 81 | 66 | 0 | 100 |
 | Functions of a Real Variable | II | 3 of 3 | 54 | 29 | 0 | 78 |
 | Functions of a Real Variable | III | 2 of 2 | 10 | 48 | 0 | 141 |
 | Functions of a Real Variable | IV | 2 of 2 | 54 | 28 | 0 | 94 |
@@ -187,7 +187,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4381 exercises, 2642 of them carrying a permanent tag.
+388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4451 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated
@@ -204,10 +204,10 @@ The French is counted and not compared against the English. A file name carries 
 | Book | Sections | Exercises | Vietnamese sections | Vietnamese exercises | Done | From machine English |
 | --- | --- | --- | --- | --- | --- | --- |
 | Theory of Sets | 30 | 215 | 30 | 211 | 98% | 4 |
-| Algebra | 129 | 1285 | 129 | 1223 | 96% | 177 |
+| Algebra | 129 | 1303 | 129 | 1223 | 94% | 177 |
 | General Topology | 80 | 789 | 80 | 681 | 88% | 119 |
-| Functions of a Real Variable | 34 | 251 | 34 | 241 | 96% | 48 |
-| Topological Vector Spaces | 34 | 477 | 34 | 457 | 96% | 68 |
+| Functions of a Real Variable | 34 | 251 | 34 | 241 | 96% | 33 |
+| Topological Vector Spaces | 34 | 477 | 34 | 457 | 96% | 31 |
 | Integration | 59 | 511 | 59 | 504 | 99% | 33 |
 | Commutative Algebra | 69 | 898 | 69 | 856 | 96% | 441 |
 | Variétés différentielles et analytiques | 10 | 0 | 10 | 0 | 100% | 10, all of it |
@@ -215,13 +215,13 @@ The French is counted and not compared against the English. A file name carries 
 | Théories spectrales | 36 | 590 | 36 | 374 | 65% | 626, all of it |
 | Topologie algébrique | 28 | 203 | 28 | 196 | 97% | 231, all of it |
 | Elements of the History of Mathematics | 27 | 0 | 27 | 0 | 100% | 1 |
-| **All** | **621** | **6019** | **621** | **5541** | **93%** | **1763** |
+| **All** | **621** | **6037** | **621** | **5541** | **93%** | **1711** |
 
-The source column is the English, which is 621 sections and 6019 exercises: 4877 files in `content/en` where Springer printed an English translation and 1970 in `content/en-mt` where this project read the French instead. The French originals are 600 sections and 5398 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
+The source column is the English, which is 621 sections and 6037 exercises: 4947 files in `content/en` where Springer printed an English translation and 1970 in `content/en-mt` where this project read the French instead. The French originals are 600 sections and 5587 exercises in `content/fr`, and they are counted here rather than compared, because a file name carries a slug of its own title and matching the two trees by path calls every honestly translated title a missing section.
 
-Vietnamese has 621 of the 621 sections and 5541 of the 6019 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
+Vietnamese has 621 of the 621 sections and 5541 of the 6037 exercises. Sections here means every file that is not an exercise, so the introductions, the notes to the reader and the historical notes are counted with the §§.
 
-The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1385 of the 6162 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
+The last column is the part of a Book that was never printed in English, so the only English of it is this project's own reading of the French. A translation made from one of those is a translation of a translation, and that is 1349 of the 6162 files in Vietnamese. Where the column says all of it the whole Book is in that position, and a hundred per cent in the Done column for such a Book is not the same claim as a hundred per cent for one Springer translated.
 <!-- END TRANSLATION -->
 
 ## Building it

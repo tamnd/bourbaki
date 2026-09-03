@@ -215,9 +215,9 @@ Giả thiết đặt ra về các $k_i$ là thừa, nhưng không quan trọng �
 
 Cho K là một trường giao hoán, S là một đại số trên K phân bậc của các đa thức, và R là một đại số con phân bậc của S, kiểu hữu hạn, sao cho R-môđun S có một cơ sở $(z_\lambda)_{\lambda \in \Lambda}$ gồm các phần tử thuần nhất. Trong tập hợp các hệ sinh của iđêan $R_+$ của R gồm các phần tử thuần nhất, chọn một phần tử cực tiểu $(\alpha_1, \ldots, \alpha_s)$. Giả sử rằng, với mọi i, bậc $k_i$ của $\alpha_i$ nguyên tố cùng nhau với số mũ đặc số p của K. Khi đó các $\alpha_i$ sinh đại số trên K R và độc lập đại số trên K.
 
-Theo Algebra, Chap. II, § 11, no. 4, Prop. 7, giả thiết đặt trên các $\alpha_i$ là tương đương với việc nói rằng chúng thuần nhất và các ảnh của chúng trong không gian vectơ trên K $R_+/ (R_+)^2$ lập thành một cơ sở của không gian này. Điều kiện này là bất biến dưới phép mở rộng trường cơ sở; do đó ta có thể rút gọn về trường hợp trường sau là hoàn hảo.
+Theo Đại số, Chap. II, § 11, no. 4, Prop. 7, giả thiết đặt trên các $\alpha_i$ là tương đương với việc nói rằng chúng thuần nhất và các ảnh của chúng trong không gian vectơ trên K $R_+/ (R_+)^2$ lập thành một cơ sở của không gian này. Điều kiện này là bất biến dưới phép mở rộng trường cơ sở; do đó ta có thể rút gọn về trường hợp trường sau là hoàn hảo.
 
-Họ $(\alpha_1, \ldots, \alpha_s)$ sinh đại số R theo Commutative Algebra, Chap. III, § 1, no. 2, Prop. 1. Ta sẽ chứng minh bằng phản chứng và giả sử rằng họ này không độc lập đại số trên K.
+Họ $(\alpha_1, \ldots, \alpha_s)$ sinh đại số R theo Đại số giao hoán, Chap. III, § 1, no. 2, Prop. 1. Ta sẽ chứng minh bằng phản chứng và giả sử rằng họ này không độc lập đại số trên K.
 
 1) Trước hết ta chỉ ra rằng tồn tại các họ
 
@@ -242,7 +242,7 @@ $$
 \beta_i = k_i \frac{\partial H}{\partial X_i}(\alpha_1, \ldots, \alpha_s).
 $$
 
-Vì K là hoàn hảo, các đa thức $\partial H / \partial X_i \in K[X_1, \ldots, X_s]$ không đồng thời bằng không (Algebra, Chap. V, § 1, no. 3, Prop. 4); theo giả thiết đặt trên các $k_i$, các $\beta_i$ cũng vậy.
+Vì K là hoàn hảo, các đa thức $\partial H / \partial X_i \in K[X_1, \ldots, X_s]$ không đồng thời bằng không (Đại số, Chap. V, § 1, no. 3, Prop. 4); theo giả thiết đặt trên các $k_i$, các $\beta_i$ cũng vậy.
 
 Mặt khác, S có thể được đồng nhất với một đại số phân bậc các đa thức $K[x_1, \ldots, x_r]$ với những ẩn thích hợp $x_1, \ldots, x_r$ có các bậc thích hợp $m_i > 0$. Gọi $D_k$ là đạo hàm riêng theo $x_k$ trên S. Đặt d_{ik} = k_i^{-1} D_k(\alpha_i). Khi đó đẳng thức (10) đúng vì vế trái của nó là $D_k(H(\alpha_1, \ldots, \alpha_s))$. Mặt khác, nếu ta đặt $y_1 = m_1 x_1, \ldots, y_r = m_r x_r$, thì đẳng thức (9) suy ra từ đẳng thức (5) của no. 1.
 
@@ -456,12 +456,9 @@ Cho K là một trường giao hoán, S là một đại số đa thức phân b
 a) R là một đại số đa thức phân bậc trên K;
 b) nếu $(\alpha_1, \ldots, \alpha_s)$ là một hệ sinh của K-đại số R gồm các phần tử thuần nhất độc lập đại số, thì hệ này là một dãy S-chính quy.
 
-4 Trong số này, chúng tôi sử dụng các kết quả từ những chương đang được chuẩn bị trong cuốn Đại số giao hoán. Chúng tôi chỉ ra chúng bằng ký hiệu "Commutative Algebra".
-5 Điều này có nghĩa là, với mọi $i \in \{1, 2, \ldots, s\}$, ảnh chính tắc của $\alpha_i$ trong vành
-$$
+4 Trong số này, chúng tôi sử dụng các kết quả từ những chương đang được chuẩn bị trong cuốn Đại số giao hoán. Chúng tôi chỉ ra chúng bằng ký hiệu "Đại số giao hoán". 5 Điều này có nghĩa là, với mọi $i \in \{1, 2, \ldots, s\}$, ảnh chính tắc của $\alpha_i$ trong vành $$
 S/(S\alpha_1 + \cdots + S\alpha_{i-1})
-$$
-không phải là một ước của không trong vành này.
+$$ không phải là một ước của không trong vành này.
 
 Khi S là một R-môđun hữu hạn sinh, b) là một hệ quả của a).
 
