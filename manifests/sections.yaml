@@ -8100,7 +8100,7 @@ books:
               book_pages: 55-79, 123-136
               subsections: 9
               statements: 52
-              exercises: 23
+              exercises: 27
               extraction: ocr
               content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
             - kind: section
@@ -9855,7 +9855,7 @@ books:
               last_pdf_page: 299
               subsections: 5
               statements: 37
-              exercises: 7
+              exercises: 27
               extraction: ocr
               content_sha256: 8946770381542fea93e050249d046345be6a1a19154b6df2eaac30ae3e84b650
             - kind: section
@@ -12166,7 +12166,7 @@ books:
               book_pages: A VI.35-A VI.44
               subsections: 2
               statements: 32
-              exercises: 13
+              exercises: 41
               extraction: ocr
               content_sha256: ee612dde6081178bbeaa53c7197b09ae5e7000446bf05cbb41d6faa813c77501
         - chapter: VII

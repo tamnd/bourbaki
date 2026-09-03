@@ -4866,7 +4866,7 @@
         {
           "chapter": "II",
           "title": "LOCALIZATION",
-          "total": 101,
+          "total": 105,
           "sections": [
             {
               "section": 1,
@@ -4881,10 +4881,10 @@
               "section": 2,
               "label": "ac-ii-s2",
               "dir": "s2",
-              "count": 23,
+              "count": 27,
               "first": 1,
-              "last": 23,
-              "starred": 3
+              "last": 27,
+              "starred": 6
             },
             {
               "section": 3,
@@ -5876,7 +5876,7 @@
         {
           "chapter": "III",
           "title": "Graduations, filtrations et topologies",
-          "total": 55,
+          "total": 75,
           "sections": [
             {
               "section": 1,
@@ -5899,10 +5899,10 @@
               "section": 3,
               "label": "ac-iii-s3",
               "dir": "s3",
-              "count": 7,
+              "count": 27,
               "first": 1,
-              "last": 7,
-              "starred": 2,
+              "last": 27,
+              "starred": 13,
               "supplementary": 1
             },
             {
@@ -6916,7 +6916,7 @@
         {
           "chapter": "VI",
           "title": "Groupes et corps ordonnés",
-          "total": 49,
+          "total": 77,
           "sections": [
             {
               "section": 1,
@@ -6931,11 +6931,11 @@
               "section": 2,
               "label": "alg-vi-s2",
               "dir": "s2",
-              "count": 13,
+              "count": 41,
               "first": 1,
-              "last": 13,
-              "starred": 3,
-              "supplementary": 2
+              "last": 41,
+              "starred": 9,
+              "supplementary": 7
             }
           ]
         },
