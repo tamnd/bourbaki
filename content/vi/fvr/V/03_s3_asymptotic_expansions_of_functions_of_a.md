@@ -136,11 +136,9 @@ Xét tích phân $\int_{0}^{+\infty} t^{\lambda-1} e^{-t} \, dt$. Vì $e^{-t} \s
 
 1. *Nếu tích phân $\int_{a}^{+\infty} g(t) \, dt$ hội tụ thì quan hệ $\mathbf{f} \ll g$ (tương ứng $\mathbf{f} \sim c g$, trong đó $c$ là hằng số) kéo theo rằng $\int_{x}^{+\infty} \mathbf{f}(t) \, dt \ll \int_{x}^{+\infty} g(t) \, dt$ (tương ứng $\int_{x}^{+\infty} \mathbf{f}(t) \, dt \sim c \int_{x}^{+\infty} g(t) \, dt$).
 
-2. *If the integral $\int_{a}^{+\infty} g(t) \, dt$ is infinite then the relation $\mathbf{f} \ll g$ (resp. $\mathbf{f} \sim c g$) implies that*
-$$
+2. *Nếu tích phân $\int_{a}^{+\infty} g(t) \, dt$ là vô hạn thì quan hệ $\mathbf{f} \ll g$ (resp. $\mathbf{f} \sim c g$) kéo theo rằng* $$
 \int_{\alpha}^{\gamma} \mathbf{f}(t) \, dt \ll \int_{\beta}^{\gamma} g(t) \, dt \quad \text{(resp. } \int_{\alpha}^{\gamma} \mathbf{f}(t) \, dt \sim c \int_{\beta}^{\gamma} g(t) \, dt),
-$$
-*for any $\alpha$ and $\beta$ in $[a, +\infty[$*.
+$$ *với mọi $\alpha$ và $\beta$ trong $[a, +\infty[$*.
 
 Chỉ cần chứng minh mệnh đề cho quan hệ $\mathbf{f} \ll g$ vì, nếu $c \neq 0$, quan hệ $\mathbf{f} \sim c g$ tương đương với $\mathbf{f} - c g \ll g$.
 

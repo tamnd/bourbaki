@@ -132,7 +132,7 @@ Một A-môđun M được gọi là *nửa đơn* nếu mọi môđun con của
 
 — *Cho A là một miền iđêan chính không phải là một trường, và cho M là một A-môđun. Khi đó M là nửa đơn khi và chỉ khi M là một môđun xoắn và $M_\pi = M(\pi)$ với mọi phần tử bất khả quy π của A*.
 
-First suppose that M is nửa đơn; let x ∈ M and let π be a phần tử bất khả quy of $\mathcal{A}$. If N is a complement of $Annx$ in M, then we can write $x = \alpha \pi x + y$, with $\alpha \in \mathcal{A}$ and $y \in N$; but that implies $y = (1 - \alpha n)x$, so $$
+Trước hết giả sử rằng M là nửa đơn; let x ∈ M và let π là một phần tử bất khả quy của $\mathcal{A}$. Nếu N là một phần bù của $Annx$ trong M, thì ta có thể viết $x = \alpha \pi x + y$, với $\alpha \in \mathcal{A}$ và $y \in N$; nhưng điều đó suy ra $y = (1 - \alpha n)x$, do đó $$
 \pi(1 - \alpha \pi)x \in A\pi x \cap N = 0 .
 $$ Trước hết suy ra rằng M là một môđun xoắn; nếu hơn nữa $x \in M_π$, thì $\pi(1 - \alpha \pi)x = 0$, do đó $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ bằng không và $M_π = M(\pi)$.
 

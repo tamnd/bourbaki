@@ -799,11 +799,9 @@ $$
 $$
 Nhờ tính tuyến tính và tính liên tục, chỉ cần kiểm tra công thức này khi $u = y_1 x_1^*$ và $v = x_2 y_2^*$ (với $x_1, x_2$ trong E, $y_1, y_2$ trong F); nhưng khi đó $uv$ là ánh xạ $y \mapsto y_1 \langle x_1 | x_2 \rangle \langle y_2 | y \rangle$ và $vu$ là ánh xạ $x \mapsto x_2 \langle y_2 | y_1 \rangle \langle x_1 | x \rangle$, và (41) suy ra từ công thức (22) của V, p. 48.
 
-Do đó, nếu $u_1, u_2$ are two elements of $\mathcal{L}^2(E; F)$, ta có, trong không gian Hilbert $\mathcal{L}^2(F; E)$,
-$$
+Do đó, nếu $u_1, u_2$ là hai phần tử của $\mathcal{L}^2(E; F)$, ta có, trong không gian Hilbert $\mathcal{L}^2(F; E)$, $$
 \langle u_1^* | u_2^* \rangle = \operatorname{Tr}(u_1 u_2^*) = \operatorname{Tr}(u_2^* u_1) = \langle u_2 | u_1 \rangle = \overline{\langle u_1 | u_2 \rangle} ;
-$$
-nói cách khác, $u \mapsto u^*$ là một đẳng cấu từ không gian Hilbert $\mathcal{L}^2(E; F)$ lên không gian liên hợp (V, p. 6) của không gian Hilbert $\mathcal{L}^2(F; E)$. Nếu ta đồng nhất không gian liên hợp này với không gian đối ngẫu của $\mathcal{L}^2(F; E)$ (V, p. 15), ta thấy rằng $\mathcal{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathcal{L}^2(F; E)$, với dạng song tuyến tính chính tắc $(v, u) \mapsto \langle v, u \rangle$ được đồng nhất với $(v, u) \mapsto \operatorname{Tr}(vu)$.
+$$ nói cách khác, $u \mapsto u^*$ là một đẳng cấu từ không gian Hilbert $\mathcal{L}^2(E; F)$ lên không gian liên hợp (V, p. 6) của không gian Hilbert $\mathcal{L}^2(F; E)$. Nếu ta đồng nhất không gian liên hợp này với không gian đối ngẫu của $\mathcal{L}^2(F; E)$ (V, p. 15), ta thấy rằng $\mathcal{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathcal{L}^2(F; E)$, với dạng song tuyến tính chính tắc $(v, u) \mapsto \langle v, u \rangle$ được đồng nhất với $(v, u) \mapsto \operatorname{Tr}(vu)$.
 
 #### Nhận xét 2 {#evt-v-s4-n7-rem-2 .statement}
 
@@ -869,7 +867,7 @@ $$
 \langle e_j|v(e_i)\rangle = \langle u(e_j)|u(e_i)\rangle = 0
 $$
 
-hence $v(e_i)$ is proportional to $e_i$ and is có dạng $\lambda_i e_i$, where $\lambda_i = \langle e_i | v(e_i) \rangle$; then
+do đó $v(e_i)$ tỉ lệ với $e_i$ và có dạng $\lambda_i e_i$, trong đó $\lambda_i = \langle e_i | v(e_i) \rangle$; khi đó
 
 $$
 \lambda_i \geqslant 0 \quad \text{và} \quad \sum_{i \in I} \lambda_i = \operatorname{Tr}(v) < + \infty .

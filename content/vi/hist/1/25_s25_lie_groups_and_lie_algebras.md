@@ -217,8 +217,7 @@ Các biến $x_i$ và các tham số $a_j$ trong các phương trình (25.4) v�
 
 Lý thuyết tổng quát được phát triển trong [203] kết thúc (mà điều đó không được các tác giả phát biểu theo một cách thật hệ thống) bằng việc rèn nên một "từ điển" cho phép dịch từ các tính chất của các nhóm "liên tục hữu hạn" sang những
 
-8 Khái niệm tương tự đối với các nhóm hoán vị đã được Jordan đưa vào và nghiên cứu trong "Traité" của ông.
-9 Hãy nhớ lại rằng (p. 119), theo sau một Note của H. Poincaré ([251], v. V, pp. 77-79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp số chiều hữu hạn. Điều đáng chú ý trong mối liên hệ này là E. Study, trong công trình của ông về chủ đề này, đã đưa vào một ký hiệu mà về thực chất quy về việc xét nhóm trừu tượng được xác định bởi nhóm các tham số.
+8 Khái niệm tương tự đối với các nhóm hoán vị đã được Jordan đưa vào và nghiên cứu trong "Traité" của ông. 9 Hãy nhớ lại rằng (p. 119), theo sau một chú ý của H. Poincaré ([251], v. V, pp. 77-79), nhiều tác giả đã nghiên cứu nhóm các phần tử khả nghịch của một đại số kết hợp số chiều hữu hạn. Điều đáng chú ý trong mối liên hệ này là E. Study, trong công trình của ông về chủ đề này, đã đưa vào một ký hiệu mà về thực chất quy về việc xét nhóm trừu tượng được xác định bởi nhóm các tham số.
 
 của tập hợp các phép biến đổi vô cùng bé của chúng. Nó dựa trên "ba định lý của Lie", mỗi định lý trong đó gồm một mệnh đề và mệnh đề đảo lại của nó.
 

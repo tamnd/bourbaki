@@ -75,7 +75,7 @@ Thật vậy, khi đó C cũng là bao lồi đóng của K trong ${E'}^*$ đư�
 
 #### Nhận xét {#int-iv-s7-n1-rem-1 .statement}
 
-Hệ quả của Mệnh đề 1 áp dụng được đặc biệt khi K lồi hoặc khi E là quasi-complete.
+Hệ quả của Mệnh đề 1 áp dụng được đặc biệt khi K lồi hoặc khi E là gần đầy đủ.
 
 #### Mệnh đề 2 {#int-iv-s7-prop-2 .statement}
 

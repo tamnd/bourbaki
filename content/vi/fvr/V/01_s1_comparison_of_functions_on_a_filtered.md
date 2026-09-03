@@ -260,11 +260,9 @@ Chú ý rằng quan hệ $f \sim g$ hoàn toàn không suy ra rằng hiệu $f -
 
 Thật vậy, ta có $f_1 f_2 - g_1 g_2 = f_1 (f_2 - g_2) + (f_1 - g_1) g_2$; vì $f_1 \preceq g_1$, $f_1 - g_1 \ll g_1$ và $f_2 - g_2 \ll g_2$, ta có $f_1 f_2 - g_1 g_2 \ll g_1 g_2$ (V, p. 215, prop. 5 and 6).
 
-Trái lại, ta đã cho một ví dụ ở V, p. 214 trong đó có $f_1 = g_1$, $f_2 \sim g_2$ mà quan hệ $f_1 + f_2 \asymp g_1 + g_2$ không đúng (nên đương nhiên cũng không có
-$$
+Trái lại, ta đã cho một ví dụ ở V, p. 214 trong đó có $f_1 = g_1$, $f_2 \sim g_2$ mà quan hệ $f_1 + f_2 \asymp g_1 + g_2$ không đúng (nên đương nhiên cũng không có $$
 f_1 + f_2 \sim g_1 + g_2).
-$$
-2 Xem, chẳng hạn, A. E. INGHAM, *The distribution of prime numbers* (Cambridge Tracts, n 30), Cambridge University Press, 1932.
+$$ 2 Xem, chẳng hạn, A. E. INGHAM, *The distribution of prime numbers* (Cambridge Tracts, n 30), Cambridge University Press, 1932.
 
 Các quan hệ so sánh $f \ll g, f \sim g$ được gọi là các quan hệ mạnh. Hai hàm $f, g$ từ $\mathcal{H}(\mathfrak{F}, V)$ được gọi là tương đẳng được so sánh (hoặc tương đẳng mạnh nếu muốn tránh mọi nhầm lẫn có thể xảy ra) nếu chúng thỏa mãn một trong ba quan hệ: $f \ll g, f \gg g$, hoặc "tồn tại một $\lambda \neq 0$ sao cho $f \sim g\lambda$".
 

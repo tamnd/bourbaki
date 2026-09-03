@@ -94,7 +94,7 @@ Không gian $\mathcal{K}(X; E)$ là hợp của họ tăng có hướng các kh�
 
 (ii) Tiêu chuẩn về tính liên tục trong một giới hạn trực tiếp (TVS, II, §4, No. 4, Prop. 5) cho thấy ngay rằng ánh xạ $f \mapsto (\mathrm{pr}_i \circ f)$ là liên tục và điều tương tự cũng đúng với ánh xạ nghịch đảo (đối với ánh xạ sau, chỉ cần chú ý rằng nếu, với mọi hàm $f_i \in \mathcal{K}(X; E_i)$, ta ký hiệu bởi $f'_i$ ánh xạ
 
-² *Limite inductive*, được dịch là "giới hạn trực tiếp" trong S, A và GT.
+² *Limite quy nạp*, được dịch là "giới hạn trực tiếp" trong S, A và GT.
 
 từ X vào E sao cho $\mathrm{pr}_i \circ f'_i = f_i$ và $\mathrm{pr}_j \circ f'_i = 0$ với $j \neq i$, thì mỗi ánh xạ $f_i \mapsto f'_i$ đều liên tục).
 
@@ -298,7 +298,7 @@ $$
 \int_{-\infty}^{+\infty} f(x + a)\, dx = \int_{-\infty}^{+\infty} f(t)\, dt
 $$
 
-theo công thức đổi biến (FRV, II, §2, No. 1, formula (1)). Để biết một phép tổng quát hóa, xem Ch. VII, §1, No. 2, Định lý 1.
+theo công thức đổi biến (FRV, II, §2, No. 1, công thức (1)). Để biết một phép tổng quát hóa, xem Ch. VII, §1, No. 2, Định lý 1.
 
 ### 4. Tích của một độ đo với một hàm liên tục
 
