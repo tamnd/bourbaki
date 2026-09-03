@@ -431,22 +431,11 @@ Vậy hoặc d_x(M) < r và c_G = 0, hoặc d_x(M) = r và c_G = e_x(M). Hơn n�
 
 #### Mệnh đề 5 {#ac-viii-s4-prop-5 .statement}
 
-Cho 0 \to M' \to M \to M'' \to 0 là một dãy khớp của các môđun hữu hạn sinh trên một vành Noether A, và q là một iđêan của A.
-a) Để M/qM có độ dài hữu hạn, điều kiện cần và đủ là M'/qM' và M''/qM'' cũng có tính chất đó.
-b) Giả sử M/qM có độ dài hữu hạn. Khi đó ta ở trong một trong ba trường hợp sau:
-1) d_q(M) = d_q(M') > d_q(M'') \text{ and } e_q(M) = e_q(M'),
-2) d_q(M) = d_q(M'') > d_q(M') \text{ and } e_q(M) = e_q(M''),
-3) d_q(M) = d_q(M') = d_q(M'') \text{ and } e_q(M) = e_q(M') + e_q(M'').
-a) Ta có Supp(M) = Supp(M') \cup Supp(M'') và mệnh đề suy ra từ Nhận xét 2.
-b) Trang bị cho M một filtration q-tốt F (chẳng hạn filtration q-adic), cho M'' filtration thương F'', và cho M' filtration cảm sinh F'. Các filtrations F' và F'' là q-tốt (III, § 3, No. 1, Mệnh đề 1). Khi đó với mỗi n ta có một dãy khớp các A-môđun
-$$
+Cho 0 \to M' \to M \to M'' \to 0 là một dãy khớp của các môđun hữu hạn sinh trên một vành Noether A, và q là một iđêan của A. a) Để M/qM có độ dài hữu hạn, điều kiện cần và đủ là M'/qM' và M''/qM'' cũng có tính chất đó. b) Giả sử M/qM có độ dài hữu hạn. Khi đó ta ở trong một trong ba trường hợp sau: 1) d_q(M) = d_q(M') > d_q(M'') \text{ và } e_q(M) = e_q(M'), 2) d_q(M) = d_q(M'') > d_q(M') \text{ và } e_q(M) = e_q(M''), 3) d_q(M) = d_q(M') = d_q(M'') \text{ và } e_q(M) = e_q(M') + e_q(M''). a) Ta có Supp(M) = Supp(M') \cup Supp(M'') và mệnh đề suy ra từ Nhận xét 2. b) Trang bị cho M một filtration q-tốt F (chẳng hạn filtration q-adic), cho M'' filtration thương F'', và cho M' filtration cảm sinh F'. Các filtrations F' và F'' là q-tốt (III, § 3, No. 1, Mệnh đề 1). Khi đó với mỗi n ta có một dãy khớp các A-môđun $$
 0 \to F'_n/F'_{n+1} \to F_n/F_{n+1} \to F''_n/F''_{n+1} \to 0
-$$
-(III, § 2, No. 4, Mệnh đề 2), do đó ta có H_{M,F} = H_{M',F'} + H_{M'',F''}, hay cũng thế
-$$
+$$ (III, § 2, No. 4, Mệnh đề 2), do đó ta có H_{M,F} = H_{M',F'} + H_{M'',F''}, hay cũng thế $$
 (1 - T)^{-d_q(M)}R = (1 - T)^{-d_q(M')}R' + (1 - T)^{-d_q(M'')}R''
-$$
-với R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1) = e_q(M''). Mệnh đề b) suy ra từ đó ngay lập tức.
+$$ với R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1) = e_q(M''). Mệnh đề b) suy ra từ đó ngay lập tức.
 
 ### 4. Bậc của hàm Hilbert-Samuel
 
