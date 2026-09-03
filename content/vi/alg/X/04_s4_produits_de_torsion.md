@@ -49,7 +49,7 @@ subsections:
       pdf_page: 86
 statements: 39
 exercises: 9
-content_sha256: 289e038ff5c0105b1eca66c91897f10ed6b2b2ab059286647381a2251c8ff78c
+content_sha256: c92df4bdac3129af165b2bc4212adb44c67b764ca99b4ebf0db93297ed79b3db
 translated_from: content/en-mt/alg/X/04_s4_produits_de_torsion.md
 source_lang: en-mt
 translation_method: machine
@@ -647,7 +647,7 @@ $$
 \operatorname{Tor}^{A^\circ}(g, f) \circ \sigma_{M,N} = \sigma_{M', N'} \circ \operatorname{Tor}^A(f, g).
 $$
 
-#### Định nghĩa 2 {#alg-x-s4-def-2 .statement}
+### 5. Các đồng cấu liên kết và các dãy khớp
 
 Cho $M$ là một $A$-môđun phải. Ta nhắc lại rằng với mọi $A$-môđun trái $N$, một đẳng cấu
 
@@ -676,6 +676,8 @@ $$
 $$
 
 đồng cấu liên kết tương ứng (X, p. 29).
+
+#### Định nghĩa 2 {#alg-x-s4-def-2 .statement}
 
 Đồng cấu liên kết của các tích xoắn, tương ứng với môđun $M$ và dãy khớp $\mathcal{E}$, là đồng cấu hợp thành
 
