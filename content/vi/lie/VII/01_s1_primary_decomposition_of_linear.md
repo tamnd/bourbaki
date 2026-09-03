@@ -173,7 +173,7 @@ Cho $x, y\in$ End(V).
 
 $V^a(x)$ đều ổn định dưới $y$, thì tồn tại một số nguyên $n$ sao cho (ad $x$)$^ny= 0$.
 
-Phần (i) suy ra từ Algebra, Chương VII, §5, no. 2, Mệnh đề 3.
+Phần (i) suy ra từ Đại số, Chương VII, §5, no. 2, Mệnh đề 3.
 
 Đặt E = End(V). Gọi B là ánh xạ song tuyến tính $(u, v) \rightarrow u(v)$ từ $E\times V$ đến V. Theo định nghĩa của ad $x$,
 

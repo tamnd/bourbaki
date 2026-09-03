@@ -207,11 +207,11 @@ Giả sử rằng X là một dây chuyền với các đỉnh 1, 2, ..., l và 
 
 (i) Nếu một trong các cạnh {2, 3}, {3, 4}, ..., {l - 2, l - 1} có cấp $\geq 4$, cạnh này có cấp 4 và đồ thị là như sau:
 
-![Graph with 4 nodes connected in a chain](../images/chain_4.png)
+![Graph with 4 nodes liên thông in a chain](../images/chain_4.png)
 
 (ii) Nếu cạnh {1, 2} có cấp 5, đồ thị là một trong các đồ thị sau:
 
-![Graphs with 5 nodes connected in chains](../images/chains_5.png)
+![Graphs with 5 nodes liên thông in chains](../images/chains_5.png)
 
 Ta có thể giả sử rằng $l > 2$ (Bổ đề 4). Giả sử rằng $\{i, i + 1\}$ có cấp $\geq 4$, với $1 \leq i \leq l - 1$. Đặt
 
