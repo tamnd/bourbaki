@@ -174,12 +174,12 @@ Because the two printings sit side by side, the places they disagree get noticed
 | General Topology | II | 4 of 4 | 113 | 41 | 0 | 94 |
 | General Topology | III | 7 of 7 | 165 | 114 | 0 | 198 |
 | General Topology | IV | 8 of 8 | 106 | 102 | 0 | 204 |
-| General Topology | V | 4 of 4 | 24 | 8 | 0 | 45 |
-| General Topology | VI | 3 of 3 | 37 | 36 | 0 | 66 |
-| General Topology | VII | 3 of 3 | 38 | 24 | 0 | 61 |
-| General Topology | VIII | 4 of 4 | 26 | 22 | 0 | 71 |
-| General Topology | IX | 7 of 8 | 197 | 109 | 0 | 266 |
-| General Topology | X | 4 of 4 | 106 | 63 | 0 | 173 |
+| General Topology | V | 4 of 4 | 24 | 8 | 0 | 21 |
+| General Topology | VI | 3 of 3 | 37 | 36 | 0 | 30 |
+| General Topology | VII | 3 of 3 | 38 | 24 | 0 | 28 |
+| General Topology | VIII | 4 of 4 | 26 | 22 | 0 | 34 |
+| General Topology | IX | 7 of 8 | 197 | 109 | 0 | 129 |
+| General Topology | X | 4 of 4 | 106 | 63 | 0 | 80 |
 | Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
 | Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
 | Théories spectrales | III | 0 of 6 | 0 | 0 | 0 | 143 |
@@ -275,7 +275,7 @@ OCR runs against a small fleet of hosts over SSH. Round trips are slow, roughly 
 `reports/` is generated and checked by CI, so it is the state of the corpus rather than a snapshot somebody remembered to update. `audit.md` lists every finding by file and line. `extraction-quality.md` says how much of each volume has been read and how much of that passes the rules. `refs-unresolved.md` and `out-of-corpus.md` are the references that resolve to nothing and the ones that point outside the corpus.
 
 <!-- BEGIN RULES -->
-The audit is 73 rules in nine groups: 12 structure, 9 tags, 13 mathematics, 6 figures, 3 references, 16 translation, 6 solutions, 1 publication and 7 hygiene. 59 of them are hard, which means a finding fails the build, and 14 are soft.
+The audit is 74 rules in nine groups: 12 structure, 9 tags, 13 mathematics, 6 figures, 3 references, 17 translation, 6 solutions, 1 publication and 7 hygiene. 60 of them are hard, which means a finding fails the build, and 14 are soft.
 <!-- END RULES -->
 
 `what-it-cost.md` and `reproduction.md` are the two written by hand. The first says what the transport cost, which checks caught what, and what is still wrong, including the numbers that do not flatter the project. The second is the record of cloning both repositories fresh and running the pipeline from the PDFs to see whether it produces what is committed: 2775 of 2868 pages of the six deterministic volumes came back byte for byte, and everything derived from the pages came back identical.
