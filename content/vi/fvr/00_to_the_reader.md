@@ -77,7 +77,4 @@ Những đoạn này được đánh dấu ở lề bằng ký hiệu (“khúc 
 
 Đối với các bài tập, nói chung chúng tôi không cho rằng đáng để chỉ ra nguồn gốc của chúng, vì chúng được lấy từ nhiều nguồn khác nhau (các bài báo nguyên gốc, sách giáo khoa, các tuyển tập bài tập).
 
-11. Trong Quyển hiện tại, các tham chiếu đến các định lý, tiên đề, định nghĩa, . . . được đưa ra bằng cách lần lượt trích dẫn:
-– Quyển (dùng chữ viết tắt được liệt kê trong Tiết 3), chương và trang, nơi có thể tìm thấy chúng;
-– chỉ chương và trang khi tham chiếu đến Quyển hiện tại.
-    Các Bản tóm tắt các kết quả được trích dẫn bằng chữ R; do đó Set Theory, R có nghĩa là "Bản tóm tắt các kết quả của lý thuyết tập hợp".
+11. Trong Quyển hiện tại, các tham chiếu đến các định lý, tiên đề, định nghĩa, . . . được đưa ra bằng cách lần lượt trích dẫn: – Quyển (dùng chữ viết tắt được liệt kê trong Tiết 3), chương và trang, nơi có thể tìm thấy chúng; – chỉ chương và trang khi tham chiếu đến Quyển hiện tại. Các Bản tóm tắt các kết quả được trích dẫn bằng chữ R; do đó Lý thuyết tập hợp, R có nghĩa là "Bản tóm tắt các kết quả của lý thuyết tập hợp".

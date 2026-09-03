@@ -6787,7 +6787,7 @@ books:
               statements: 30
               exercises: 4
               extraction: ocr
-              content_sha256: 9312b55dec911ef73de61e5ce936c8b6caf1865f738be98965c258dcaa73a0c7
+              content_sha256: ffa23e32a5b250afa6702426ba06760cf9ccc1d88226680fcc821ece3bb2d997
             - kind: section
               section: 4
               title: Relations between tensor products and homomorphism modules
