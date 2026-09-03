@@ -211,7 +211,7 @@ $$
 
 3.2.8. Cho $F_1, \ldots, F_m$ là các không gian đa định chuẩn tách được và $u$ là một ánh xạ đa tuyến tính liên tục từ $F_1 \times \cdots \times F_m$ vào $F$. Cho $U$ là một tập hợp mở của $E$ và $f_i \in \mathcal{C}^\omega(U; F_i)$. Hàm $u(f_1, \ldots, f_m)$ là giải tích, và khai triển của nó thành chuỗi lũy thừa tại một điểm $a \in U$ là chuỗi $u((f_1)_a, \ldots, (f_m)_a)$ (3.1.8).
 
-3.2.9. Giả sử $F$ quasi-complete. Cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$; hàm $x \mapsto f(x)$ (3.1.7) là giải tích trong tập hợp mở $C(f)$, miền hội tụ ngặt của $f$. Nếu $n = 1$ và nếu $\|a\| < \rho(f)$, thì bán kính hội tụ ngặt của khai triển của $f$ thành chuỗi lũy thừa tại $a$ ít nhất bằng $\rho(f) - \|a\|$. Nếu $\rho(f) = + \infty$, thì người ta nói rằng $f$ là một hàm nguyên.
+3.2.9. Giả sử $F$ gần đầy đủ. Cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$; hàm $x \mapsto f(x)$ (3.1.7) là giải tích trong tập hợp mở $C(f)$, miền hội tụ ngặt của $f$. Nếu $n = 1$ và nếu $\|a\| < \rho(f)$, thì bán kính hội tụ ngặt của khai triển của $f$ thành chuỗi lũy thừa tại $a$ ít nhất bằng $\rho(f) - \|a\|$. Nếu $\rho(f) = + \infty$, thì người ta nói rằng $f$ là một hàm nguyên.
 
 3.2.10. Giữ lại các giả thiết của 3.2.9. Nếu $K = \mathbf{C}$, các kết quả của 3.2.9 vẫn còn đúng nếu thay $C(f)$ bởi $\tilde{C}(f)$ và $\rho(f)$ bởi $\tilde{\rho}(f)$ (với $n = 1$). Nếu $K = \mathbf{R}$, hàm $x \mapsto f(x)$ là giải tích trong $\tilde{C}(f)$.
 

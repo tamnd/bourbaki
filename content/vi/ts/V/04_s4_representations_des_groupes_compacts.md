@@ -71,7 +71,7 @@ Với mọi biểu diễn unita bất khả quy $\pi \in \widehat{G}$, ký hiệ
 
 ### 1. Tính nửa đơn của các biểu diễn hữu hạn chiều
 
-Ta nhắc lại (INT, VII, p. 71, § 3, n$^o1$, lemma 1) rằng với mọi biểu diễn liên tục $\varrho$ của G trong một không gian Hilbert E, tồn tại một dạng Hermit dương không suy biến $q$ trên E sao cho cấu trúc không gian vectơ tôpô của E được xác định bởi $q$ là đồng nhất với cấu trúc ban đầu của E, và sao cho $\varrho$ là một biểu diễn unita của G trong không gian Hilbert E được trang bị tích vô hướng $q$.
+Ta nhắc lại (INT, VII, p. 71, § 3, n$^o1$, bổ đề 1) rằng với mọi biểu diễn liên tục $\varrho$ của G trong một không gian Hilbert E, tồn tại một dạng Hermit dương không suy biến $q$ trên E sao cho cấu trúc không gian vectơ tôpô của E được xác định bởi $q$ là đồng nhất với cấu trúc ban đầu của E, và sao cho $\varrho$ là một biểu diễn unita của G trong không gian Hilbert E được trang bị tích vô hướng $q$.
 
 #### Mệnh đề 1 {#ts-v-s4-prop-1 .statement tag=03DN}
 

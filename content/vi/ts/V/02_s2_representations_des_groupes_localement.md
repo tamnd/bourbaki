@@ -85,7 +85,7 @@ Cho $\varrho$ là một biểu diễn liên tục của G trong một không gia
 
 #### Nhận xét {#ts-v-s2-n1-rem-1 .statement tag=03A6}
 
-Biểu diễn đối ngẫu contragredient không nhất thiết liên tục khi $E'$ được trang bị tôpô mạnh (cf. INT, VIII, p. 191, § 2, exercise 3, d)). Ta có thể chứng minh rằng nó là như vậy nếu không gian E là nửa phản xạ (loc. cit., c)).
+Biểu diễn đối ngẫu contragredient không nhất thiết liên tục khi $E'$ được trang bị tôpô mạnh (cf. INT, VIII, p. 191, § 2, bài tập 3, d)). Ta có thể chứng minh rằng nó là như vậy nếu không gian E là nửa phản xạ (loc. cit., c)).
 
 ### 2. Mở rộng các biểu diễn đến các không gian độ đo
 
@@ -823,7 +823,7 @@ Hàm $f_{x,y}$ là liên tục, do đó $\mu$-đo được. Ta có $f_{x,y}\in \
 
 Cho $\pi$ là một biểu diễn đơn vị bất khả quy của G trong một không gian Hilbert E là khả tích bình phương modulo tâm. Cho $\chi$ là hạn chế vào Z của đặc trưng trung tâm của $\pi$.
 
-Tồn tại một số thực $c >0$ và một cấu xạ đẳng cự duy nhất $(G\times G)$-morphism $w$ của biểu diễn đơn vị $\overline{\pi}\boxtimes \pi$ vào $L^2_{\chi}(G)$ sao cho, với mọi $(x, y)\in \overline{E}\times E$, phần tử $w(x\otimes y)$ là lớp trong $L^2_{\chi}(G)$ của hàm $c^{1/2}f_{x,y}$.
+Tồn tại một số thực $c >0$ và một cấu xạ đẳng cự duy nhất $(G\times G)$-cấu xạ $w$ của biểu diễn đơn vị $\overline{\pi}\boxtimes \pi$ vào $L^2_{\chi}(G)$ sao cho, với mọi $(x, y)\in \overline{E}\times E$, phần tử $w(x\otimes y)$ là lớp trong $L^2_{\chi}(G)$ của hàm $c^{1/2}f_{x,y}$.
 
 Với mọi $(x, y)\in E\times E$, ta có $f_{x,y}\in \mathscr{L}_{\chi}^2(G)$ (bổ đề 9). Gọi $v$ là ánh xạ tuyến tính duy nhất từ $\overline{E}\otimes E$ vào $L^2_{\chi}(G)$ sao cho $v(x\otimes y)$ là lớp của $f_{x,y}$ với mọi $(x, y)\in E\times E$.
 

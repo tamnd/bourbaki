@@ -124,10 +124,10 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Algebra | I | 10 of 10 | 293 | 218 | 0 | 357 |
 | Algebra | II | 12 of 12 | 384 | 150 | 0 | 446 |
 | Algebra | III | 12 of 12 | 273 | 97 | 0 | 542 |
-| Algebra | IV | 6 of 6 | 157 | 53 | 0 | 202 |
-| Algebra | V | 17 of 17 | 425 | 156 | 0 | 382 |
-| Algebra | VI | 2 of 2 | 83 | 77 | 0 | 92 |
-| Algebra | VII | 5 of 5 | 146 | 80 | 0 | 162 |
+| Algebra | IV | 6 of 6 | 163 | 53 | 0 | 202 |
+| Algebra | V | 17 of 17 | 427 | 156 | 0 | 382 |
+| Algebra | VI | 2 of 2 | 85 | 77 | 0 | 92 |
+| Algebra | VII | 5 of 5 | 149 | 80 | 0 | 162 |
 | Algebra | VIII | 25 of 25 | 709 | 317 | 1024 | 964 |
 | Algebra | IX | 0 of 10 | 0 | 0 | 0 | 207 |
 | Algebra | X | 0 of 9 | 0 | 0 | 0 | 216 |
@@ -136,33 +136,33 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Theory of Sets | III | 7 of 7 | 222 | 120 | 342 | 226 |
 | Theory of Sets | IV | 3 of 3 | 29 | 15 | 43 | 255 |
 | Topological Vector Spaces | I | 3 of 3 | 64 | 38 | 0 | 58 |
-| Topological Vector Spaces | II | 8 of 8 | 203 | 162 | 0 | 195 |
+| Topological Vector Spaces | II | 8 of 8 | 205 | 162 | 0 | 195 |
 | Topological Vector Spaces | III | 6 of 6 | 123 | 78 | 0 | 101 |
-| Topological Vector Spaces | IV | 6 of 6 | 111 | 118 | 0 | 152 |
-| Topological Vector Spaces | V | 4 of 4 | 132 | 68 | 0 | 181 |
-| Functions of a Real Variable | I | 4 of 4 | 81 | 66 | 0 | 100 |
-| Functions of a Real Variable | II | 3 of 3 | 54 | 29 | 0 | 78 |
+| Topological Vector Spaces | IV | 6 of 6 | 114 | 118 | 0 | 152 |
+| Topological Vector Spaces | V | 4 of 4 | 133 | 68 | 0 | 181 |
+| Functions of a Real Variable | I | 4 of 4 | 87 | 66 | 0 | 100 |
+| Functions of a Real Variable | II | 3 of 3 | 55 | 29 | 0 | 78 |
 | Functions of a Real Variable | III | 2 of 2 | 10 | 48 | 0 | 141 |
 | Functions of a Real Variable | IV | 2 of 2 | 54 | 28 | 0 | 94 |
-| Functions of a Real Variable | V | 5 of 5 | 107 | 28 | 0 | 113 |
-| Functions of a Real Variable | VI | 3 of 3 | 25 | 12 | 0 | 67 |
+| Functions of a Real Variable | V | 5 of 5 | 108 | 28 | 0 | 113 |
+| Functions of a Real Variable | VI | 3 of 3 | 26 | 12 | 0 | 67 |
 | Functions of a Real Variable | VII | 2 of 2 | 14 | 12 | 0 | 73 |
 | Elements of the History of Mathematics | 1 | 26 of 26 | 0 | 0 | 0 | 665 |
 | Integration | I | 0 of 1 | 0 | 0 | 0 | 17 |
 | Integration | II | 2 of 2 | 29 | 21 | 0 | 44 |
 | Integration | III | 4 of 4 | 106 | 35 | 0 | 128 |
-| Integration | IV | 7 of 7 | 285 | 94 | 0 | 332 |
+| Integration | IV | 7 of 7 | 288 | 94 | 0 | 332 |
 | Integration | V | 8 of 8 | 206 | 108 | 0 | 290 |
 | Integration | VI | 4 of 4 | 98 | 57 | 0 | 173 |
 | Integration | VII | 5 of 5 | 120 | 48 | 0 | 207 |
 | Integration | VIII | 5 of 5 | 109 | 59 | 0 | 188 |
-| Integration | IX | 7 of 7 | 184 | 56 | 0 | 259 |
+| Integration | IX | 7 of 7 | 188 | 56 | 0 | 259 |
 | Lie Groups and Lie Algebras | I | 7 of 7 | 166 | 125 | 0 | 250 |
 | Lie Groups and Lie Algebras | II | 9 of 9 | 121 | 72 | 0 | 186 |
 | Lie Groups and Lie Algebras | III | 11 of 11 | 393 | 113 | 0 | 481 |
 | Lie Groups and Lie Algebras | IV | 3 of 3 | 66 | 43 | 0 | 108 |
 | Lie Groups and Lie Algebras | V | 7 of 7 | 139 | 44 | 0 | 179 |
-| Lie Groups and Lie Algebras | VI | 4 of 4 | 128 | 47 | 0 | 291 |
+| Lie Groups and Lie Algebras | VI | 4 of 4 | 130 | 47 | 0 | 291 |
 | Lie Groups and Lie Algebras | VII | 7 of 7 | 139 | 66 | 205 | 127 |
 | Lie Groups and Lie Algebras | VIII | 13 of 13 | 299 | 172 | 471 | 211 |
 | Lie Groups and Lie Algebras | IX | 11 of 11 | 244 | 112 | 356 | 284 |
@@ -170,15 +170,15 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Topologie algébrique | II | 0 of 5 | 0 | 0 | 0 | 78 |
 | Topologie algébrique | III | 0 of 5 | 0 | 0 | 0 | 110 |
 | Topologie algébrique | IV | 0 of 6 | 0 | 0 | 0 | 158 |
-| General Topology | I | 11 of 11 | 302 | 153 | 0 | 279 |
-| General Topology | II | 4 of 4 | 110 | 41 | 0 | 94 |
-| General Topology | III | 7 of 7 | 164 | 114 | 0 | 198 |
+| General Topology | I | 11 of 11 | 317 | 153 | 0 | 279 |
+| General Topology | II | 4 of 4 | 113 | 41 | 0 | 94 |
+| General Topology | III | 7 of 7 | 165 | 114 | 0 | 198 |
 | General Topology | IV | 8 of 8 | 106 | 102 | 0 | 204 |
 | General Topology | V | 4 of 4 | 24 | 8 | 0 | 45 |
 | General Topology | VI | 3 of 3 | 37 | 36 | 0 | 66 |
 | General Topology | VII | 3 of 3 | 38 | 24 | 0 | 61 |
-| General Topology | VIII | 4 of 4 | 25 | 22 | 0 | 71 |
-| General Topology | IX | 7 of 8 | 191 | 109 | 0 | 266 |
+| General Topology | VIII | 4 of 4 | 26 | 22 | 0 | 71 |
+| General Topology | IX | 7 of 8 | 197 | 109 | 0 | 266 |
 | General Topology | X | 4 of 4 | 106 | 63 | 0 | 173 |
 | Théories spectrales | I | 0 of 8 | 0 | 0 | 0 | 197 |
 | Théories spectrales | II | 0 of 3 | 0 | 0 | 0 | 136 |
@@ -187,7 +187,7 @@ Because the two printings sit side by side, the places they disagree get noticed
 | Théories spectrales | V | 0 of 4 | 0 | 0 | 0 | 194 |
 | Variétés différentielles et analytiques | 1 | 0 of 8 | 0 | 0 | 0 | 95 |
 
-388 of 487 sections are in the corpus, 80 per cent. 8622 statements and 4476 exercises, 2642 of them carrying a permanent tag.
+388 of 487 sections are in the corpus, 80 per cent. 8685 statements and 4476 exercises, 2642 of them carrying a permanent tag.
 <!-- END COVERAGE -->
 
 ## What is translated
