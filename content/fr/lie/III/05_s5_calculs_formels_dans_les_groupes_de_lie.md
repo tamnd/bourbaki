@@ -28,7 +28,7 @@ subsections:
       pdf_page: 188
 statements: 8
 exercises: 2
-content_sha256: 80d029d8486437790893b85347d042555ce8692a018258d92b693b3e80f38c6f
+content_sha256: af8953881f5c2a2e700ef84312f54a45fd13dd141c991a4fe125da42d27974b4
 ---
 
 ## § 5. Calculs formels dans les groupes de Lie
@@ -255,9 +255,9 @@ $$
 
 *où la série formelle de droite a un sens grâce à* (i).
 
-$
+$$
 \left( \text{On pose } \binom{t}{i} = \frac{t(t-1)\ldots(t-i+1)}{i!} \text{ pour tout } t \in \mathbf{K}. \right)
-$
+$$
 
 L’assertion (i) est évidente sur la définition des $\psi_j$.
 Prouvons (ii) pour $t$ entier $\geqslant 0$. D’après (14), on a

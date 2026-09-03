@@ -41,7 +41,7 @@ subsections:
       pdf_page: 250
 statements: 33
 exercises: 13
-content_sha256: 65c081bae8ff5bf5baae88619a2bf86d3b107377274964e0bbbb9605637c3e6a
+content_sha256: 58103c2c457c58b000a2920115ae10c4f462f32dd4b4a8e8eb6d2753005ef40f
 ---
 
 ## § 5. MEASURES ON COMPLETELY REGULAR SPACES
@@ -423,7 +423,7 @@ c) *Under the hypotheses of b), suppose in addition that the closure of $S \cap 
 
 We shall denote by E the algebra of continuous complex functions tending to 0 at infinity on $M$, and by $\mathfrak{A}$ the linear subspace of E generated
 
-\footnotetext{(1) Recall that a submonoid of a monoid A contains by definition the neutral element of A (A, I, §2, No. 1).}
+(1) Recall that a submonoid of a monoid A contains by definition the neutral element of A (A, I, §2, No. 1).
 
 by $S \cap X_0$; then $\mathfrak{A}$ is a subalgebra of $E$ stable under the mapping $f \mapsto \overline{f}$; since $S$ is a full submonoid of $X$, Cor. 2 of Prop. 7 of GT, X, §4, No. 4 implies that $\mathfrak{A}$ is dense in $E$.
 

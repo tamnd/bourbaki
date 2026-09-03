@@ -34,7 +34,7 @@ subsections:
       pdf_page: 573
 statements: 13
 exercises: 1
-content_sha256: 8434084d69552b8f7b8ee7ec79fb769815bf1868b7a0b4a9cde2013668383c85
+content_sha256: 494d0487a967f8bd496c73470e7633df79505855436ae4f19e99e36f904181d6
 ---
 
 ## § 9. NORMS AND TRACES
@@ -141,7 +141,7 @@ Formula (16) follows from II, § 4, no. 4, formula (26) and formula (17) from §
 
 #### Definition 2 {#alg-iii-s9-def-2 .statement}
 
-Let $A$ be a $K$-algebra which is a finite-dimensional free $K$-module. For every element $a \in A$, the trace (resp. norm,\footnote{† This notion should not be confused with the notion for norm in an algebra over a valued field (\emph{General Topology}), IX, § 3, no. 7.) resp. characteristic polynomial) of $a$ relative to $A$ and $K$ is the trace (resp. determinant, resp. characteristic polynomial) of the endomorphism $x \mapsto ax$ of the $K$-module $A$.
+Let $A$ be a $K$-algebra which is a finite-dimensional free $K$-module. For every element $a \in A$, the trace (resp. norm,\footnote{† This notion should not be confused with the notion for norm in an algebra over a valued field (\emph{General Topology}), IX, § 3, no. 7.} resp. characteristic polynomial) of $a$ relative to $A$ and $K$ is the trace (resp. determinant, resp. characteristic polynomial) of the endomorphism $x \mapsto ax$ of the $K$-module $A$.
 
 The trace, norm and characteristic polynomial of $a \in A$ relative to $A$ and $K$ are denoted by $\mathrm{Tr}_{A/K}(a)$, $N_{A/K}(a)$ and $\mathrm{Pc}_{A/K}(a; X)$; we omit $K$ and even $A$ from this notation when there is no risk of confusion. Note that the trace (resp. norm, characteristic polynomial) of $a \in A$ is just the trace (resp. norm, characteristic polynomial) of $a$ relative to the $A$-module $A_s$.
 

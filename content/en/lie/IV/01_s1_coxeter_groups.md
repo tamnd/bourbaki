@@ -48,7 +48,7 @@ subsections:
       pdf_page: 26
 statements: 30
 exercises: 14
-content_sha256: e21e9157d9b83420982a6387b3aa2e1a20f94990bb5e1be3c98102e297f3b6de
+content_sha256: 89376c835024c51d1499c065e19831de6d1d96bfbe7a13c819884a3357e9e6d8
 ---
 
 ## § 1. COXETER GROUPS
@@ -228,7 +228,7 @@ $$
 
 The map $w \mapsto U_w$ is a homomorphism from W to the group of permutations of R.
 
-\footnotetext{2 Recall that two elements (resp. two subsets) of a group W are said to be conjugate if there exists an inner automorphism of W that transforms one into the other.}
+(2) Recall that two elements (resp. two subsets) of a group W are said to be conjugate if there exists an inner automorphism of W that transforms one into the other.
 
 For $s \in S$, define a map $U_s$ from $R$ to itself by
 $$

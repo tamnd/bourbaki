@@ -70,7 +70,7 @@ subsections:
       pdf_page: 248
 statements: 88
 exercises: 27
-content_sha256: 7397d09a718f6180624ef63d3ea605fc93db2eb8eb18c2019f1e6cb60606e9b8
+content_sha256: b4a1e9cb83fb456ed24f6c2e8448612ff3cf0572d6dde1e9415a5620e8b12061
 ---
 
 ## § 1. MODULES
@@ -673,9 +673,9 @@ $$
 $$
 
 *where* $i : M \to M + N$, $j : N \to M + N$ *are the canonical injections,*
-$
+$$
 p : E/M \to E/(M + N) \quad \text{and} \quad q : E/N \to E/(M + N)
-$
+$$
 
 *the canonical surjections and where the homomorphisms u and v are defined as follow:*
 

@@ -48,7 +48,7 @@ subsections:
       pdf_page: 36
 statements: 22
 exercises: 10
-content_sha256: c4c76c8e191b939527d3fa46a4177ccff60ede09336418aa449b43166a4c5cb2
+content_sha256: 3cf3af7b337eefd308acb9b2eb008a57d50aa992ab93d70756e22b40fd375586
 ---
 
 ## § 2. Algèbre enveloppante d’une algèbre de Lie
@@ -500,7 +500,7 @@ Reprénons une algèbre de Lie $g$ sur $K$, et soit $D$ une dérivation de $g$. 
 
 ### 9. Extension de l’anneau de base
 
-Soient g une algèbre de Lie sur K, T son algèbre tensorielle, J l’idéal bilatère de T engendré par les $x \otimes y - y \otimes x - [x, y]$ ($x, y$ dans g), et U = T/J. Soit $K_1$ un anneau commutatif à élément unité, et soit $\sigma$ un homomorphisme de K dans $K_1$ transformant 1 en 1. Alors, l’algèbre tensorielle de $g_{(K_1)}$ s’identifie canoniquement à $T_{(K_1)}$. Soit $J'$ l’idéal bilatère de $T_{(K_1)}$ engendré par les $x' \otimes y' - y' \otimes x' - [x', y']$ ($x', y'$ dans $g_{(K_1)}$). Il est clair que l’image canonique de $J_{(K_1)}$ dans $T_{(K_1)}$ est contenue dans $J'$. Pour voir qu’elle est égale à $J'$, il suffit de montrer que, si $x'$ et $y'$ désignent deux éléments de $g_{(K_1)}$, $x' \otimes y' - y' \otimes x' - [x', y']$ appartient à cette image. Or $x' = \sum_i x_i \otimes \lambda_i, y' = \sum_j y_j \otimes \mu_j$ ($x_i, y_j$ dans g, $\lambda_i, \mu_j$ dans $K_1$); d’où $x' \otimes y' - y' \otimes x' - [x', y'] = \sum_{i,j} (x_i \otimes y_j - y_j \otimes x_i - [x_i, y_j]) \otimes \lambda_i \mu_j$, ce qui prouve notre assertion. Ceci posé, on voit que $U_{(K_1)} = (T/J)_{(K_1)}$ s’identifie canoniquement à $T_{(K_1)}/J' : l’algèbre enveloppante de g_{(K_1)}$ s’identifie canoniquement à $U_{(K_1)}$, et l’application canonique de $g_{(K_1)}$ dans son algèbre enveloppante s’identifie à $\sigma \otimes 1$ (en désignant par $\sigma$ l’application canonique de g dans U).
+Soient g une algèbre de Lie sur K, T son algèbre tensorielle, J l’idéal bilatère de T engendré par les $x \otimes y - y \otimes x - [x, y]$ ($x, y$ dans g), et U = T/J. Soit $K_1$ un anneau commutatif à élément unité, et soit $\sigma$ un homomorphisme de K dans $K_1$ transformant 1 en 1. Alors, l’algèbre tensorielle de $g_{(K_1)}$ s’identifie canoniquement à $T_{(K_1)}$. Soit $J'$ l’idéal bilatère de $T_{(K_1)}$ engendré par les $x' \otimes y' - y' \otimes x' - [x', y']$ ($x', y'$ dans $g_{(K_1)}$). Il est clair que l’image canonique de $J_{(K_1)}$ dans $T_{(K_1)}$ est contenue dans $J'$. Pour voir qu’elle est égale à $J'$, il suffit de montrer que, si $x'$ et $y'$ désignent deux éléments de $g_{(K_1)}$, $x' \otimes y' - y' \otimes x' - [x', y']$ appartient à cette image. Or $x' = \sum_i x_i \otimes \lambda_i, y' = \sum_j y_j \otimes \mu_j$ ($x_i, y_j$ dans g, $\lambda_i, \mu_j$ dans $K_1$); d’où $x' \otimes y' - y' \otimes x' - [x', y'] = \sum_{i,j} (x_i \otimes y_j - y_j \otimes x_i - [x_i, y_j]) \otimes \lambda_i \mu_j$, ce qui prouve notre assertion. Ceci posé, on voit que $U_{(K_1)} = (T/J)_{(K_1)}$ s’identifie canoniquement à $T_{(K_1)}/J'$ : l’algèbre enveloppante de $g_{(K_1)}$ s’identifie canoniquement à $U_{(K_1)}$, et l’application canonique de $g_{(K_1)}$ dans son algèbre enveloppante s’identifie à $\sigma \otimes 1$ (en désignant par $\sigma$ l’application canonique de g dans U).
 
 ## EXERCICES {#lie-i-s2-exercises}
 

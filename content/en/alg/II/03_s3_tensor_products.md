@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
+content_sha256: 9312b55dec911ef73de61e5ce936c8b6caf1865f738be98965c258dcaa73a0c7
 ---
 
 ## § 3. TENSOR PRODUCTS
@@ -370,7 +370,7 @@ By virtue of no. 2, formula (5), $\bar{v} \circ \bar{u} = (v \circ u) \otimes 1_
 
 Let $x'' \in E''$, $y \in F$; by hypothesis there exists $x \in E$ such that $v(x) = x''$. We show that, if $x_1, x_2$ are two elements of E such that $v(x_1) = v(x_2) = x''$ and $\phi : E \otimes F \to M$ is the canonical mapping, then $\phi(x_1 \otimes y) = \phi(x_2 \otimes y)$. It suffices to prove that if $v(x) = 0$ then $\phi(x \otimes y) = 0$, which follows from the fact that $x = u(x')$ with $x' \in E'$, whence $x \otimes y = u(x') \otimes y = \bar{u}(x' \otimes y) \in H$. If $(x'', y)$ is mapped to the unique value of $\phi(x \otimes y)$ for all $x \in E$ such that $v(x) = x''$, a mapping is defined of $E'' \times F$ into M; this mapping is $\mathbf{Z}$-bilinear and satisfies conditions (1) (no. 1), since $v(x \lambda) = x'' \lambda$ and $(x \lambda) \otimes y = x \otimes (\lambda y)$ for $x \in E$; hence there is a $\mathbf{Z}$-linear mapping $g$ of $E'' \otimes F$ into M such that $g(x'' \otimes y) = \phi(x \otimes y)$ for $y \in F, x \in E$ and $x'' = v(x)$. This definition further proves that $f \circ g$ coincides with the identity mapping for the elements of
 
-E'' \otimes F of the form x'' \otimes y and hence f \circ g is the identity mapping of E'' \otimes F; on the other hand, for x \in E and y \in F, f(\phi(x \otimes y)) = v(x) \otimes y by definition, hence g(f(\phi(x \otimes y))) = \phi(x \otimes y) and, as the elements of the form \phi(x \otimes y) generate M, g \circ f is the identity mapping of M.
+$E'' \otimes F$ of the form $x'' \otimes y$ and hence $f \circ g$ is the identity mapping of $E'' \otimes F$; on the other hand, for $x \in E$ and $y \in F$, $f(\phi(x \otimes y)) = v(x) \otimes y$ by definition, hence $g(f(\phi(x \otimes y))) = \phi(x \otimes y)$ and, as the elements of the form $\phi(x \otimes y)$ generate M, $g \circ f$ is the identity mapping of M.
 
 #### Corollary {#alg-ii-s3-n6-cor-1 .statement}
 
@@ -552,7 +552,7 @@ The basis $(b_\mu)$ defines an isomorphism of $F$ onto $\bigoplus_{\mu \in M} Ab
 
 If E is a ((B'_i); A, (C'_j))-multimodule, the canonical isomorphism E ⊗_A F → E^{(M)} is a ((B'_i); (C'_j))-multimodule isomorphism.
 
-In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z ↦ (\xi_{λμ})_{(λ, μ) ∈ L × M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
+In particular, if also E admits a basis (a_λ)_{λ ∈ L}, every z ∈ E ⊗_A F may be written in one and only one way in the form $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$, where the ξ_{λμ} belong to A (and form a family of finite support); the mapping $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ is an isomorphism of E ⊗_A F onto A^{(L × M)} for the \mathbf{Z}-module structures (and even the module structures over the centre of A). More particularly:
 
 #### Corollary 2 {#alg-ii-s3-prop-7-cor-2 .statement}
 

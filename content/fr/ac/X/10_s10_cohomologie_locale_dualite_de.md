@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: e8bae18987bec37ceb60f14d75f74c46d0c21bd1844866f4cb791e7a520a550f
+content_sha256: 98a442199970317d391ce1fd8ffe328343aca79a293a45ca21eccd3c51bccdac
 ---
 
 ## § 10. COHOMOLOGIE LOCALE, DUALITÉ DE GROTHENDIECK
@@ -219,9 +219,9 @@ $$
 #### Remarque 2 {#ac-x-s10-n2-rem-2 .statement}
 
 Soit
-$
+$$
 (\mathcal{E}) \quad 0 \to M \to N \to P \to 0
-$
+$$
 une suite exacte de A-modules. En utilisant A, X, p. 104, prop. 3 et p. 106, prop. 4, on prouve que les diagrammes suivants sont commutatifs :
 
 $$

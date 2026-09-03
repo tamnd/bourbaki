@@ -40,7 +40,7 @@ subsections:
       pdf_page: 36
 statements: 30
 exercises: 29
-content_sha256: ccce30facb7daeeb1f882ab3b15679e0177fc6be4aed4b3638cf63dca4b4ec2f
+content_sha256: f7eefd40cd8e513f530b873e5fcea6850d926bb5ce6f28d21084629db1accf12
 ---
 
 ## § 2. TITS SYSTEMS
@@ -479,7 +479,7 @@ $$
 C(s_2).C(s_1).C(s_2) = C(s_2 s_1 s_2),
 $$
 
-\footnotetext{6}{If $H$ is a subgroup of a group $G$, the normaliser of $H$ in $G$ is the subgroup $\mathfrak{N}(H)$ consisting of the elements $g$ of $G$ such that $gHg^{-1} = H$. A subgroup $H'$ is said to normalise $H$ if $H' \subset \mathfrak{N}(H)$, in which case $HH' = H'H$ is a subgroup of $G$ in which $H$ is normal.}
+(6) If $H$ is a subgroup of a group $G$, the normaliser of $H$ in $G$ is the subgroup $\mathfrak{N}(H)$ consisting of the elements $g$ of $G$ such that $gHg^{-1} = H$. A subgroup $H'$ is said to normalise $H$ if $H' \subset \mathfrak{N}(H)$, in which case $HH' = H'H$ is a subgroup of $G$ in which $H$ is normal.
 
 and hence that $h \in H \cap C(s_2 s_1 s_2)$. Since $H \cap C(s_2 s_1 s_2)$ is non-empty, $s_2 s_1 s_2 \in W_X$. As $(s_2, s_1, s_2)$ is a reduced decomposition, it follows that $s_2 \in X$, contrary to our assumption.
 

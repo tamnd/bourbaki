@@ -41,7 +41,7 @@ subsections:
       pdf_page: 69
 statements: 40
 exercises: 29
-content_sha256: 5406d1248da1a2881223a5d8c038d746c3be5a9f47a401375a0482461422333e
+content_sha256: 39154bc38734ad5210bfb7d539e079049b587038f92fe7b4a9463028ea703d28
 ---
 
 ## § 5. GROUPES OPÉRANT SUR UN ENSEMBLE
@@ -202,7 +202,7 @@ Soit G un groupe, et considérons l’opération de G sur lui-même par automorp
 
 Les stabilisateurs de deux éléments conjugués de E sont des sous-groupes conjugués de G (I, p. 52, prop. 2).
 
-L’ensemble quotient de E par la relation de conjugaison est l’ensemble des orbites de E; on le note parfois E/G ou $G\backslash E$. (On réserve parfois la notation E/G au cas où E est un G-ensemble à droite, et la notation G\!E au cas où E est un G-ensemble à gauche).
+L’ensemble quotient de E par la relation de conjugaison est l’ensemble des orbites de E; on le note parfois E/G ou $G\backslash E$. (On réserve parfois la notation E/G au cas où E est un G-ensemble à droite, et la notation $G \backslash E$ au cas où E est un G-ensemble à gauche).
 
 Soit G un groupe opérant à droite dans un ensemble E. Soit H un sous-groupe distingué de G. Le groupe G opère à droite sur E/H, la loi d’action à droite correspondante étant $(xH, g) \mapsto xHg = xgH$; pour cette opération, H opère trivialement, d’où une opération à droite de G/H sur E/H. Soit $\varphi$ l’application canonique de E/H sur E/G; les images réciproques par $\varphi$ des points de E/G sont les orbites de G (ou de G/H) dans E/H. Donc $\varphi$ définit par passage au quotient une bijection, dite canonique, de $(E/H)/G = (E/H)/(G/H)$ sur E/G.
 
@@ -212,7 +212,7 @@ $$
 (g.x).h = g.(x.h) \quad \text{pour } g \in G,\ x \in E \text{ et } h \in H.
 $$
 
-L’action de H sur E est aussi une opération à gauche du groupe H$^0$ opposé à H. Il résulte alors de I, p. 45, prop. 12 que l’application qui, à l’élément $(g, h) \in G \times H^0$ fait correspondre l’application $x \mapsto g.x.h$ de E dans lui-même est une opération à gauche de $G \times H^0$ sur E. L’orbite d’un élément $x \in E$ pour cette opération est l’ensemble $GxH$. L’ensemble de ces orbites se note G\!E/H. D’autre part, l’opération de G (resp. H) est compatible avec la relation de conjugaison pour l’opération de H (resp. G) et l’ensemble des orbites G\!(E/H) (resp. (G\!E)/H) s’identifie à G\!E/H: dans le diagramme
+L’action de H sur E est aussi une opération à gauche du groupe H$^0$ opposé à H. Il résulte alors de I, p. 45, prop. 12 que l’application qui, à l’élément $(g, h) \in G \times H^0$ fait correspondre l’application $x \mapsto g.x.h$ de E dans lui-même est une opération à gauche de $G \times H^0$ sur E. L’orbite d’un élément $x \in E$ pour cette opération est l’ensemble $GxH$. L’ensemble de ces orbites se note $G \backslash E/H$. D’autre part, l’opération de G (resp. H) est compatible avec la relation de conjugaison pour l’opération de H (resp. G) et l’ensemble des orbites $G \backslash (E/H)$ (resp. $(G \backslash E)/H$) s’identifie à $G \backslash E/H$: dans le diagramme
 
 $$
 \begin{array}{ccc}
@@ -230,7 +230,7 @@ $$
 
 (où $\alpha, \beta, \gamma, \delta, \varepsilon$ désignent les applications canoniques de passage au quotient), on a $\gamma \circ \alpha = \delta \circ \beta = \varepsilon$.
 
-Soient G un groupe et H un sous-groupe de G. Considérons l’opération à droite de H sur G par translations à droite (I, p. 50, Exemple 2). L’ensemble des orbites G/H est l’ensemble des classes à gauche suivant H; remarquons que G opère à gauche sur G/H par la loi $(g, xH) \mapsto gxH$ (cf. I, p. 56). De même, l’ensemble des classes à droite suivant H est l’ensemble H\!G des orbites de l’opération à gauche de H sur G par translations à gauche. Si K est un sous-groupe de G contenant H et si $\Gamma$ est une classe à gauche (resp. à droite) suivant H, alors $\Gamma K$ (resp. $K\Gamma$) est une classe à gauche (resp. à droite) suivant K. L’application
+Soient G un groupe et H un sous-groupe de G. Considérons l’opération à droite de H sur G par translations à droite (I, p. 50, Exemple 2). L’ensemble des orbites G/H est l’ensemble des classes à gauche suivant H; remarquons que G opère à gauche sur G/H par la loi $(g, xH) \mapsto gxH$ (cf. I, p. 56). De même, l’ensemble des classes à droite suivant H est l’ensemble $H \backslash G$ des orbites de l’opération à gauche de H sur G par translations à gauche. Si K est un sous-groupe de G contenant H et si $\Gamma$ est une classe à gauche (resp. à droite) suivant H, alors $\Gamma K$ (resp. $K\Gamma$) est une classe à gauche (resp. à droite) suivant K. L’application
 
 Γ ↦ ΓK (resp. Γ ↦ KΓ) est appelée l’application canonique de G/H dans G/K (resp. de $H\backslash G$ dans $K\backslash G$). Elle est surjective.
 

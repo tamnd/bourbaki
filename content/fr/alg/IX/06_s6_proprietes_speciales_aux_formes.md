@@ -36,7 +36,7 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: 783f2b68bfc70c755e7a59da78ba4ea7f91f435a5f45796c2931ea0e513f2e14
+content_sha256: 47f1f659ab524c37f71e815f6a42017440fa35076b74ec187bcb8b0be0c99277
 ---
 
 ## § 6. Propriétés spéciales aux formes hermitiennes
@@ -525,7 +525,7 @@ $$
 Q(\sum_{i=1}^n \xi_i e_i) = \xi_1 \xi_{m+1} + \cdots + \xi_m \xi_{2m} + \xi_{2m+1}^2,
 $$
 
-et (avec les notations de d)) $\mathbf{O}(Q)$ est isomorphe à $\mathbf{Sp}(\Phi_2)$; toutes les formes quadratiques telles que $q = 0$ sont alors équivalentes. Si $n$ est *pair*, on a nécessairement $n = 2m, \nu = m$ ou $\nu = m - 1$, et il existe une base $(e_i)$ de $E$ par rapport à laquelle on a
+et (avec les notations de $d$)) $\mathbf{O}(Q)$ est isomorphe à $\mathbf{Sp}(\Phi_2)$; toutes les formes quadratiques telles que $q = 0$ sont alors équivalentes. Si $n$ est *pair*, on a nécessairement $n = 2m, \nu = m$ ou $\nu = m - 1$, et il existe une base $(e_i)$ de $E$ par rapport à laquelle on a
 
 $$
 (1) \quad Q(\sum_{i=1}^n \xi_i e_i) = \xi_1 \xi_{m+1} + \cdots + \xi_{m-1} \xi_{2m-1} + \xi_m \xi_{2m} + \lambda(\xi_m^2 + \xi_{2m}^2)

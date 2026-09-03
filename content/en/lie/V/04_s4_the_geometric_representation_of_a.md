@@ -48,7 +48,7 @@ subsections:
       pdf_page: 118
 statements: 25
 exercises: 20
-content_sha256: b37e57ba0e6700d5644218e6cb51eb2aa578040de72fb7f9df614a11c81b3ddd
+content_sha256: 6e1478f248737bab9dfca41f060e0d9ef44955ad60a23fd4409330f32d085486
 ---
 
 ## § 4. GEOMETRIC REPRESENTATION OF A COXETER GROUP
@@ -308,7 +308,9 @@ Let w \in W, with w \neq 1. We can write w in the form sw' with s \in S and l(w'
 
 Let E_{s,s'}^* be the dual of the plane E_{s,s'} = \mathbf{R}e_s \oplus \mathbf{R}e_{s'} (no. 2). The transpose of the injection E_{s,s'} \to E is a surjection
 
+$$
 p : E^* \to E_{s,s'}^*
+$$
 
 that commutes with the action of the group W_{s,s'}. It is clear that A_s, A_{s'} and A_s \cap A_{s'} are the inverse images under p of corresponding subsets of E_{s,s'}^* (considered as the space of the contragredient representation of the Coxeter group W_{s,s'}). Moreover, since the length of an element of W_{s,s'} is the same with respect to \{s, s'\} and with respect to S (Chap. IV, § 1, no. 8), we are reduced finally to the case where S = \{s, s'\}; if m = m(s, s'), the group W is then a dihedral group of order 2m.
 
@@ -316,8 +318,10 @@ We now distinguish two cases:
 a) m = +\infty.
 Let (\varepsilon, \varepsilon') be the dual basis of (e_s, e_{s'}). Then
 
+$$
 s.\varepsilon = -\varepsilon + 2\varepsilon', \quad s'.\varepsilon = \varepsilon,
 s.\varepsilon' = \varepsilon', \quad s'.\varepsilon' = 2\varepsilon - \varepsilon'.
+$$
 
 Let D be the affine line of $E^*$ containing $\varepsilon$ and $\varepsilon'$; the formulas above show that D is stable under s and $s'$ and that the restriction of s (resp. $s'$) to D is the reflection with respect to the point $\varepsilon'$ (resp. $\varepsilon$). Let
 
