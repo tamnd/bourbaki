@@ -24,32 +24,28 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## LỜI KHUYÊN ĐỐI VỚI NGƯỜI ĐỌC
 
-1. Examples have been frequently inserted in the text, which refer to facts the reader may already know but which have not yet been discussed in the series. Such examples are always placed between two asterisks: \* ... *. Most readers will undoubtedly find that these examples will help them to understand the text, and will prefer not to leave them out, even at a first reading. Their omission would of course have no disadvantage, from a purely logical point of view.
+1. Các ví dụ thường xuyên được đưa vào trong văn bản, chúng đề cập đến những sự kiện mà người đọc có thể đã biết nhưng chưa được thảo luận trong bộ sách này. Những ví dụ như vậy luôn được đặt giữa hai dấu sao: \* ... *. Hầu hết độc giả chắc chắn sẽ thấy rằng những ví dụ này sẽ giúp họ hiểu văn bản, và sẽ thích không bỏ qua chúng, ngay cả trong lần đọc đầu tiên. Dĩ nhiên, việc bỏ qua chúng sẽ không có bất lợi nào, xét thuần túy từ quan điểm lôgic.
 
-2. This series is divided into volumes (here called "Books"). The first six Books are numbered and, in general, every statement in the text assumes as known only those results which have already been discussed in the preceding volumes. This rule holds good within each Book, but for convenience of exposition these Books are no longer arranged in a consecutive order. At the beginning of each of these Books (or of these chapters), the reader will find a precise indication of its logical relationship to the other Books and he will thus be able to satisfy himself of the absence of any vicious circle.
+2. Bộ sách này được chia thành các tập (ở đây gọi là "Books"). Sáu Books đầu tiên được đánh số và, nói chung, mọi mệnh đề trong văn bản chỉ giả thiết đã biết những kết quả đã được thảo luận trong các tập trước đó. Quy tắc này được áp dụng trong mỗi Book, nhưng để thuận tiện cho việc trình bày, các Book này không còn được sắp xếp theo một thứ tự liên tiếp nữa. Ở đầu mỗi Book (hoặc mỗi chương) này, người đọc sẽ tìm thấy một chỉ dẫn chính xác về quan hệ lôgic của nó với các Book khác và do đó có thể tự mình thỏa mãn rằng không có vòng tròn luẩn quẩn nào.
 
-3. The logical framework of each chapter consists of the definitions, the axioms, and the theorems of the chapter. These are the parts that have mainly to be borne in mind for subsequent use. Less important results and those which can easily be deduced from the theorems are labelled as "propositions," "lemmas", "corollaries", "remarks", etc. Those which may be omitted at a first reading are printed in small type. A commentary on a particularly important theorem appears occasionally under the name of "scholium".
+3. Khuôn khổ lôgic của mỗi chương bao gồm các định nghĩa, các tiên đề và các định lý của chương. Đây là những phần chủ yếu cần được ghi nhớ để sử dụng về sau. Những kết quả ít quan trọng hơn và những kết quả có thể dễ dàng suy ra từ các định lý được gọi là "mệnh đề", "bổ đề", "hệ quả", "nhận xét", v.v. Những kết quả có thể bỏ qua trong lần đọc đầu tiên được in bằng chữ nhỏ. Một lời bình về một định lý đặc biệt quan trọng đôi khi xuất hiện dưới tên gọi "scholium".
 
 Để tránh những sự lặp lại rườm rà, đôi khi thuận tiện khi đưa vào các ký hiệu hoặc các cách viết tắt chỉ có hiệu lực trong một chương nào đó hoặc một mục nào đó của một chương (chẳng hạn, trong một chương chỉ xét các vành giao hoán, từ "vành" sẽ luôn luôn có nghĩa là "vành giao hoán"). Những quy ước như vậy luôn luôn được nói rõ một cách tường minh, nói chung ở đầu chương nơi chúng xuất hiện.
 
-4. Some passages in the text are designed to forewarn the reader against serious errors. These passages are signposted in the margin with the sign ☡ ("dangerous bend").
+4. Một số đoạn trong văn bản được thiết kế để báo trước cho người đọc những sai lầm nghiêm trọng. Những đoạn này được đánh dấu ở lề bằng ký hiệu ☡ ("chỗ nguy hiểm").
 
-5. The Exercises are designed both to enable the reader to satisfy himself that he has digested the text and to bring to his notice results which have no place in the text but which are nonetheless of interest. The most difficult exercises bear the sign ¶.
+5. Các Bài tập được thiết kế vừa để giúp người đọc tự kiểm tra rằng mình đã lĩnh hội văn bản, vừa để lưu ý họ đến những kết quả không có chỗ trong văn bản nhưng vẫn đáng quan tâm. Những bài tập khó nhất mang ký hiệu ¶.
 
-6. In general, we have adhered to the commonly accepted terminology, except where there appeared to be good reasons for deviating from it.
+6. Nói chung, chúng tôi đã tuân theo thuật ngữ được chấp nhận rộng rãi, trừ khi có những lý do chính đáng để đi chệch khỏi nó.
 
-7. We have made a particular effort to always use rigorously correct language, without sacrificing simplicity. As far as possible we have drawn attention in the text to abuses of language, without which any mathematical text runs the risk of pedantry, not to say unreadability.
+7. Chúng tôi đã đặc biệt cố gắng luôn sử dụng ngôn ngữ chính xác một cách nghiêm ngặt, mà không hy sinh tính đơn giản. Trong chừng mực có thể, chúng tôi đã lưu ý trong văn bản đến những lạm dụng ngôn ngữ, bởi vì nếu thiếu chúng thì mọi văn bản toán học đều có nguy cơ trở nên mô phạm, nếu không muốn nói là không thể đọc được.
 
-8. Since in principle the text consists of the dogmatic exposition of a theory, it contains in general no references to the literature. Bibliographical references are gathered together in Historical Notes, usually at the end of each chapter. These notes also contain indications, where appropriate, of the unsolved problems of the theory.
+8. Vì về nguyên tắc văn bản bao gồm sự trình bày giáo điều của một lý thuyết, nên nói chung nó không chứa các tham khảo đến văn liệu. Các tài liệu tham khảo thư mục được tập hợp trong các Ghi chú lịch sử, thường ở cuối mỗi chương. Những ghi chú này cũng chứa các chỉ dẫn, khi thích hợp, về những bài toán chưa giải quyết của lý thuyết.
 
 Thư mục tiếp theo sau mỗi ghi chú lịch sử nói chung chỉ gồm những sách và hồi ký gốc đã có tầm quan trọng lớn nhất trong sự phát triển của lý thuyết đang được bàn tới. Nó hoàn toàn không có tham vọng đầy đủ; đặc biệt, các tài liệu tham khảo chỉ nhằm xác định các vấn đề về quyền ưu tiên thì hầu như luôn luôn bị lược bỏ.
 
 Đối với các bài tập, nói chung chúng tôi đã không cho là đáng để chỉ ra nguồn gốc của chúng, vì chúng đã được lấy từ nhiều nguồn khác nhau (các bài báo gốc, các giáo trình, các tuyển tập bài tập).
 
-9. References to a part of this series are given as follows:
-a) If reference is made to theorems, axioms, or definitions presented in the same section, they are quoted by their number.
-b) If they occur in another section of the same chapter, this section is also quoted in the reference.
-c) If they occur in another chapter in the same Book, the chapter and section are quoted.
-d) If they occur in another Book, this Book is first quoted by its title.
+9. Các tham khảo đến một phần của bộ sách này được đưa ra như sau: a) Nếu tham khảo đến các định lý, tiên đề hoặc định nghĩa được trình bày trong cùng một mục, chúng được trích dẫn bằng số của chúng. b) Nếu chúng xuất hiện trong một mục khác của cùng một chương, mục này cũng được trích dẫn trong tham khảo. c) Nếu chúng xuất hiện trong một chương khác của cùng một Book, chương và mục được trích dẫn. d) Nếu chúng xuất hiện trong một Book khác, Book này trước hết được trích dẫn bằng nhan đề của nó.
 
 Các Bản tóm tắt kết quả được trích dẫn bằng chữ cái R: do đó Set Theory, R có nghĩa là "Bản tóm tắt các kết quả của lý thuyết tập hợp".

@@ -145,7 +145,7 @@ $$
 f\left( \frac{x+y}{n} \right) = f\left( \frac{x}{n} \right) f\left( \frac{y}{n} \right) = f\left( \frac{y}{n} \right) f\left( \frac{x}{n} \right),
 $$
 
-which shows that $f\left( \frac{x}{n} \right)$ and $f\left( \frac{y}{n} \right)$ commute; theo định nghĩa của $f_1$, do đó ta có $f_1(x+y) = f_1(x) f_1(y)$. Nếu $J = \mathbf{R}$, thì chứng minh đã hoàn tất; nếu không, giả sử $J = [0, +\infty[$, và với mỗi $x < 0$ đặt $f_1(x) = (f_1(-x))^{-1}$. Khi đó quan hệ $f_1(x+y) = f_1(x) f_1(y)$ vẫn đúng với mọi $x \in \mathbf{R}$ và mọi $y \in \mathbf{R}$. Điều này hiển nhiên nếu $x < 0$ và $y < 0$; nếu $x \geqslant 0$, $y < 0$ và $x + y \geqslant 0$ thì điều đó suy ra từ $f_1(x) = f_1(x+y) f_1(-y)$; chứng minh tương tự nếu $x \geqslant 0, y < 0$ và $x + y < 0$, vì khi đó ta có
+điều này cho thấy rằng $f\left( \frac{x}{n} \right)$ và $f\left( \frac{y}{n} \right)$ giao hoán; theo định nghĩa của $f_1$, do đó ta có $f_1(x+y) = f_1(x) f_1(y)$. Nếu $J = \mathbf{R}$, thì chứng minh đã hoàn tất; nếu không, giả sử $J = [0, +\infty[$, và với mỗi $x < 0$ đặt $f_1(x) = (f_1(-x))^{-1}$. Khi đó quan hệ $f_1(x+y) = f_1(x) f_1(y)$ vẫn đúng với mọi $x \in \mathbf{R}$ và mọi $y \in \mathbf{R}$. Điều này hiển nhiên nếu $x < 0$ và $y < 0$; nếu $x \geqslant 0$, $y < 0$ và $x + y \geqslant 0$ thì điều đó suy ra từ $f_1(x) = f_1(x+y) f_1(-y)$; chứng minh tương tự nếu $x \geqslant 0, y < 0$ và $x + y < 0$, vì khi đó ta có
 
 $$
 f_1(-y) = f_1(-x-y) f_1(x);
