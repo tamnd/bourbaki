@@ -11,7 +11,7 @@ pdf_pages: 0163-0166
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: e805ecf0a8004ba8fbaba0ae6838688f8bc1e5727152a3efcd5a56b5c4c6c5d0
+content_sha256: ee5ca13465d0712b33c0bd6c5c8ccc63b6041ee8f91813dd8f7810f5483bfe9d
 translated_from: content/en/hist/1/15_s15_complex_numbers_measurement_of_angles.md
 source_content_sha256: 519eeb1441ec990499d5edf0dcced26f5938d33699fb2d691ac64c29f7d0aa2a
 translation_model: gpt-5.4

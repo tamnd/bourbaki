@@ -29,7 +29,7 @@ subsections:
       pdf_page: 178
 statements: 29
 exercises: 17
-content_sha256: 2d1655b50e3ffca496fba47f2e3af587ad4c6af0fe887d6620c70d075c6aa12e
+content_sha256: b1c12c792c7b1d881f9549a807c5c7c8ee57529d4cb53d5f46ebdb3d28861849
 translated_from: content/en/lie/VIII/11_s11_classes_of_nilpotent_elements_and_sl2.md
 source_content_sha256: 9fa596e246cac621b5b9e0b269c472085fd46db9e470656f32a0223db1df02b5
 translation_model: gpt-5.4
