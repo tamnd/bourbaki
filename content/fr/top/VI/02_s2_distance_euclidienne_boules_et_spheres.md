@@ -29,7 +29,7 @@ subsections:
       pdf_page: 39
 statements: 13
 exercises: 14
-content_sha256: db8a8865bb370fb5e1645da74a904c1b248b9e519bd897b67795396c32cd0b43
+content_sha256: ea12c7bf4654b75d8e680909f96842a8bbfba287bf97157b890d942ed1870162
 ---
 
 ## § 2. DISTANCE EUCLIDIENNE; BOULES ET SPHÈRES
@@ -85,15 +85,11 @@ On en conclut que, pour qu’une partie A de $\mathbf{R}^n$ soit bornée (VI, p.
 
 ### 2. Déplacements
 
-Rappelons encore (A, IX, § 6, no 6) que les transformations affines $f$ de $\mathbf{R}^n$ sur lui-même qui laissent invariant la distance de deux points quelconques (c’est-à-dire telles que $d(f(\mathbf{x}), f(\mathbf{y})) = d(\mathbf{x}, \mathbf{y})$ quels que soient $\mathbf{x}$ et $\mathbf{y}$) sont appelées déplacements euclidiens (ou simplement déplacements)$^1$; elles forment un groupe, dit groupe des déplacements de $\mathbf{R}^n$. Ce groupe opère transitiivement dans $\mathbf{R}^n$; plus généralement, si V et V’ sont deux variétés linéaires affines de $\mathbf{R}^n$ de même dimension, il existe toujours un déplacement transformant V en V’. Les déplacements laissant invariant l’origine, appelés transformations orthogonales, forment un sous-groupe du groupe des déplacements, dit groupe orthogonal à $n$ variables réelles (A, IX, § 6, no 2); les applications linéaires qui forment ce groupe sont caractérisées par la propriété de laisser invariant la norme $\| \mathbf{x} \|$ de tout point $\mathbf{x} \in \mathbf{R}^n$, ou, ce qui revient au même, la forme quadratique $\| \mathbf{x} \|^2 = \sum_{i=1}^n x_i^2$. On appelle produit scalaire de deux vecteurs $\mathbf{x} = (x_i)$ et $\mathbf{y} = (y_i)$ de $\mathbf{R}^n$, la valeur $\sum_{i=1}^n x_i y_i$ de la forme bilinéaire associée (A, IX, § 3, no 4) à la forme quadratique $\frac{1}{2} \sum_{i=1}^n x_i^2$; on le note $(\mathbf{x} \mid \mathbf{y})$, ou simplement $\mathbf{x} \mathbf{y}$ lorsque aucune confusion n’est à craindre; toute transformation orthogonale laisse invariant le produit scalaire. Deux vecteurs $\mathbf{x}, \mathbf{y}$ sont dits orthogonaux si $(\mathbf{x} \mid \mathbf{y}) = 0$; deux sous-espaces vectoriels V, V’ de $\mathbf{R}^n$ sont dits orthogonaux si tout $\mathbf{x} \in V$ est orthogonal à tout $\mathbf{y} \in V'$; deux variétés linéaires affines P, P’ sont dites orthogonales si les sous-espaces vectoriels respectivement parallèles à P et P’ sont orthogonaux.
+Rappelons encore (A, IX, § 6, no 6) que les transformations affines $f$ de $\mathbf{R}^n$ sur lui-même qui laissent invariant la distance de deux points quelconques (c’est-à-dire telles que $d(f(\mathbf{x}), f(\mathbf{y})) = d(\mathbf{x}, \mathbf{y})$ quels que soient $\mathbf{x}$ et $\mathbf{y}$) sont appelées déplacements euclidiens (ou simplement déplacements)[^1]; elles forment un groupe, dit groupe des déplacements de $\mathbf{R}^n$. Ce groupe opère transitiivement dans $\mathbf{R}^n$; plus généralement, si V et V’ sont deux variétés linéaires affines de $\mathbf{R}^n$ de même dimension, il existe toujours un déplacement transformant V en V’. Les déplacements laissant invariant l’origine, appelés transformations orthogonales, forment un sous-groupe du groupe des déplacements, dit groupe orthogonal à $n$ variables réelles (A, IX, § 6, no 2); les applications linéaires qui forment ce groupe sont caractérisées par la propriété de laisser invariant la norme $\| \mathbf{x} \|$ de tout point $\mathbf{x} \in \mathbf{R}^n$, ou, ce qui revient au même, la forme quadratique $\| \mathbf{x} \|^2 = \sum_{i=1}^n x_i^2$. On appelle produit scalaire de deux vecteurs $\mathbf{x} = (x_i)$ et $\mathbf{y} = (y_i)$ de $\mathbf{R}^n$, la valeur $\sum_{i=1}^n x_i y_i$ de la forme bilinéaire associée (A, IX, § 3, no 4) à la forme quadratique $\frac{1}{2} \sum_{i=1}^n x_i^2$; on le note $(\mathbf{x} \mid \mathbf{y})$, ou simplement $\mathbf{x} \mathbf{y}$ lorsque aucune confusion n’est à craindre; toute transformation orthogonale laisse invariant le produit scalaire. Deux vecteurs $\mathbf{x}, \mathbf{y}$ sont dits orthogonaux si $(\mathbf{x} \mid \mathbf{y}) = 0$; deux sous-espaces vectoriels V, V’ de $\mathbf{R}^n$ sont dits orthogonaux si tout $\mathbf{x} \in V$ est orthogonal à tout $\mathbf{y} \in V'$; deux variétés linéaires affines P, P’ sont dites orthogonales si les sous-espaces vectoriels respectivement parallèles à P et P’ sont orthogonaux.
 
 ### 3. Boules et sphères euclidiennes
 
-Pour tout entier $p > 0$, désignons par $U_p$ l’ensemble des couples $(\mathbf{x}, \mathbf{y})$ de points de $\mathbf{R}^n$ tels que $d(\mathbf{x}, \mathbf{y}) < 1/p$; les inégalités (3) (VI, p. 8) montrent que les
-
-\footnotetext{1 La seule hypothèse que $d(f(\mathbf{x}), f(\mathbf{y})) = d(\mathbf{x}, \mathbf{y})$ quels que soient $\mathbf{x}, \mathbf{y}$ entraîne d’ailleurs que $f$ est linéaire affine, donc un déplacement (cf. A, IX, § 6, exerc. 21).}
-
-ensembles $U_p$ forment un système fondamental d’entourages de la structure uniforme de $\mathbf{R}^n$ (cf. IX, p. 12).
+Pour tout entier $p > 0$, désignons par $U_p$ l’ensemble des couples $(\mathbf{x}, \mathbf{y})$ de points de $\mathbf{R}^n$ tels que $d(\mathbf{x}, \mathbf{y}) < 1/p$; les inégalités (3) (VI, p. 8) montrent que les ensembles $U_p$ forment un système fondamental d’entourages de la structure uniforme de $\mathbf{R}^n$ (cf. IX, p. 12).
 
 De ce fait, et de l’inégalité
 $$
@@ -216,3 +212,5 @@ Pour $n = 2$, on dit « demi-cercle » au lieu d’« hémisphère ».
 ## EXERCICES {#top-vi-s2-exercises}
 
 See the [exercises for § 2](exercises/s2/).
+
+[^1]: La seule hypothèse que $d(f(\mathbf{x}), f(\mathbf{y})) = d(\mathbf{x}, \mathbf{y})$ quels que soient $\mathbf{x}, \mathbf{y}$ entraîne d’ailleurs que $f$ est linéaire affine, donc un déplacement (cf. A, IX, § 6, exerc. 21).

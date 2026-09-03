@@ -5985,7 +5985,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 77436da0ae9294df5f78e4127b74bae2264b743a0e43cca0c91305064b97c461
+              content_sha256: 4ca7c405eee986dbe7abc36becc45cefa6384346da22fd06cdf3fb20f4c2683f
         - chapter: IV
           title: DIFFERENTIAL EQUATIONS
           sections:
@@ -6024,7 +6024,7 @@ books:
               statements: 25
               exercises: 10
               extraction: ocr
-              content_sha256: ed9860cc26b65ff84c11e78ae048f5030e2943903c24c951c87f27907207fd41
+              content_sha256: 18f9899dd12cd185be5def5133d805b57b869d0c84b2a9ee36a34c2e53edcdac
             - kind: historical
               title: Historical Note
               path: content/en/fvr/IV/historical_note.md
@@ -13213,7 +13213,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: fac958f4b6a8d18952eb49a305fa7a2c6ac0da3d2130f298a35e75f9426cbba0
+              content_sha256: 2dbd99e555debbcd5544a7ddec67266391f49d4c0af4074542b74a4a8309793f
         - chapter: IV
           title: ÉQUATIONS DIFFÉRENTIELLES
           sections:
@@ -13558,7 +13558,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 31945fd660f6106c71de40fb363e5bbd22215727aad090b9c98e5341efe049d0
+              content_sha256: d48e9ad4c0f71d4aaf7cb3d81cb237a92709db47d69a1a1da23debdba9bc2eac
         - chapter: VI
           title: ESPACES NUMÉRIQUES ET ESPACES PROJECTIFS
           sections:
@@ -13596,7 +13596,7 @@ books:
               statements: 13
               exercises: 14
               extraction: ocr
-              content_sha256: db8a8865bb370fb5e1645da74a904c1b248b9e519bd897b67795396c32cd0b43
+              content_sha256: ea12c7bf4654b75d8e680909f96842a8bbfba287bf97157b890d942ed1870162
             - kind: section
               section: 3
               title: Espaces projectifs réels
@@ -13717,7 +13717,7 @@ books:
               statements: 5
               exercises: 4
               extraction: ocr
-              content_sha256: d20f42abcdd6aa338f831ed79ea60bd046d59840ad2df717ec1bef6f2d64d5ea
+              content_sha256: d98ba316df1d23a63a644d35fecf0dabb50b2e743b354e28db09fd638b7d7753
             - kind: section
               section: 3
               title: Sommes et produits infinis de nombres complexes
@@ -13752,7 +13752,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 11c262f7cff257f5c455365d74d34345a89fbcda546ac8d7c546b790b68d9181
+              content_sha256: 5db5690d3f39809a25c943b8781f77daaab3bf48da82cfb06014b9fe6929d7e3
         - chapter: IX
           title: UTILISATION DES NOMBRES RÉELS EN TOPOLOGIE GÉNÉRALE
           sections:
