@@ -101,7 +101,7 @@ Tất cả các hệ Tits gặp trong các trường hợp này đều có một
 
 (X) R. FRICKE and F. KLEIN, Lý thuyết về các hàm tự đẳng cấu, Leipzig (Teubner), 1897.
 
-(XI) L. E. DICKSON: a) Lý thuyết về các nhóm tuyến tính trên một trường tùy ý, Trans. Amer. Math. Soc., v. II (1901), p. 363-394; b) Một hệ mới các nhóm đơn, Math. Ann., t. LX (1905), p. 137-150; c) Một lớp các nhóm trên một trường tùy ý liên thông với cấu hình của 27 đường thẳng trên một mặt bậc ba, Quart. Journ. of Math.. v. XXXIII (1901), p. 145-173 and v. XXXIX (1908). p. 205-209.
+(XI) L. E. DICKSON: a) Lý thuyết về các nhóm tuyến tính trên một trường tùy ý, Trans. Amer. Math. Soc., v. II (1901), p. 363-394; b) Một hệ mới các nhóm đơn, Math. Ann., t. LX (1905), p. 137-150; c) Một lớp các nhóm trên một trường tùy ý liên thông với cấu hình của 27 đường thẳng trên một mặt bậc ba, Quart. Journ. of Math.. v. XXXIII (1901), p. 145-173 và v. XXXIX (1908). p. 205-209.
 
 (XII) A. SPEISER. Lý thuyết về các nhóm có thứ tự hữu hạn, Berlin (Springer), 1924.
 

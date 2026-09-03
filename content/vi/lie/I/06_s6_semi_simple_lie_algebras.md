@@ -222,21 +222,21 @@ $$
 
 Nếu $K_1$ là một mở rộng của K, dạng Killing của $g_{(K_1)}$ là mở rộng lên $g_{(K_1)}$ của dạng Killing của $g$ (§ 3, no. 8) và do đó không suy biến; vì vậy $g_{(K_1)}$ là nửa đơn. Do đó chỉ cần chứng minh Mệnh đề 3 khi trường cơ sở là đóng đại số, điều mà từ nay ta sẽ giả sử là đúng.
 
-Với mọi không gian con N của M, đặt $g_N$ là đại số con của $\mathfrak{gl}(M)$ gồm các phần tử làm cho N ổn định và có hạn chế lên N có vết bằng không. Vì $g = \mathcal{D}g$, ta có $g \subset g_N$ nếu N ổn định dưới $g$. Khi đó đặt $g^*$ là giao của bộ chuẩn hóa của $g$ trong $\mathfrak{gl}(M)$ với các đại số $g_N$ khi N chạy qua tập hợp các không gian con của M ổn định dưới g. Vì thành phần nửa đơn (ứng với nilpotent) s (ứng với n) của $x \in gl(M)$ là một đa thức theo x không có hằng số và ad s (ứng với ad n) là phần nửa đơn (ứng với nilpotent) của ad x ($§ 5$, no. 4, Bổ đề 2), rõ ràng $x \in g^*$ kéo theo $s \in g^*$ và $n \in g^*$; do đó chỉ cần chứng minh rằng $g^* = g$. Vì g là một iđêan nửa đơn của $g^*$, nên $g^* = a \times g$ (no. 1, Hệ quả 1 của Mệnh đề 1). Lấy $a \in a$ và lấy N là một không gian con cực tiểu trong các không gian con khác không của M ổn định dưới g. Hạn chế của a lên N là một bội vô hướng của đồng nhất thức theo Định lý Burnside, có vết bằng không theo phép dựng, và vì thế bằng không vì K có đặc số 0. Vì M là tổng trực tiếp của các không gian con như N, suy ra $a = 0$ và do đó $g^* = g$.
+Với mọi không gian con N của M, đặt $g_N$ là đại số con của $\mathfrak{gl}(M)$ gồm các phần tử làm cho N ổn định và có hạn chế lên N có vết bằng không. Vì $g = \mathcal{D}g$, ta có $g \subset g_N$ nếu N ổn định dưới $g$. Khi đó đặt $g^*$ là giao của bộ chuẩn hóa của $g$ trong $\mathfrak{gl}(M)$ với các đại số $g_N$ khi N chạy qua tập hợp các không gian con của M ổn định dưới g. Vì thành phần nửa đơn (ứng với lũy linh) s (ứng với n) của $x \in gl(M)$ là một đa thức theo x không có hằng số và ad s (ứng với ad n) là phần nửa đơn (ứng với lũy linh) của ad x ($§ 5$, no. 4, Bổ đề 2), rõ ràng $x \in g^*$ kéo theo $s \in g^*$ và $n \in g^*$; do đó chỉ cần chứng minh rằng $g^* = g$. Vì g là một iđêan nửa đơn của $g^*$, nên $g^* = a \times g$ (no. 1, Hệ quả 1 của Mệnh đề 1). Lấy $a \in a$ và lấy N là một không gian con cực tiểu trong các không gian con khác không của M ổn định dưới g. Hạn chế của a lên N là một bội vô hướng của đồng nhất thức theo Định lý Burnside, có vết bằng không theo phép dựng, và vì thế bằng không vì K có đặc số 0. Vì M là tổng trực tiếp của các không gian con như N, suy ra $a = 0$ và do đó $g^* = g$.
 
 #### Hệ quả {#lie-i-s6-n3-cor-1 .statement}
 
-Một phần tử x của g là một tự đồng cấu nửa đơn (ứng với nilpotent) của M khi và chỉ khi $ad_g x$ là một tự đồng cấu nửa đơn (ứng với nilpotent) của g.
+Một phần tử x của g là một tự đồng cấu nửa đơn (ứng với lũy linh) của M khi và chỉ khi $ad_g x$ là một tự đồng cấu nửa đơn (ứng với lũy linh) của g.
 
-Gọi s (ứng với n) là thành phần nửa đơn (ứng với nilpotent) của $x \in g$. Khi đó $s \in g$ và $n \in g$ (Mệnh đề 3). Khi đó $ad_g s$ (ứng với $ad_g n$) là thành phần nửa đơn (ứng với nilpotent) của $ad_g x$, theo Bổ đề 2 của $§ 5$, no. 4. Nếu x là nửa đơn (ứng với nilpotent) thì $ad_g x$ cũng vậy. Nếu bây giờ $ad_g x$ là nửa đơn (ứng với nilpotent), thì nó bằng $ad_g s$ (ứng với $ad_g n$) và do đó $x = s$ (ứng với $x = n$) vì biểu diễn liên hợp của g là trung thành.
+Gọi s (ứng với n) là thành phần nửa đơn (ứng với lũy linh) của $x \in g$. Khi đó $s \in g$ và $n \in g$ (Mệnh đề 3). Khi đó $ad_g s$ (ứng với $ad_g n$) là thành phần nửa đơn (ứng với lũy linh) của $ad_g x$, theo Bổ đề 2 của $§ 5$, no. 4. Nếu x là nửa đơn (ứng với lũy linh) thì $ad_g x$ cũng vậy. Nếu bây giờ $ad_g x$ là nửa đơn (ứng với lũy linh), thì nó bằng $ad_g s$ (ứng với $ad_g n$) và do đó $x = s$ (ứng với $x = n$) vì biểu diễn liên hợp của g là trung thành.
 
 #### Định nghĩa 3 {#lie-i-s6-def-3 .statement}
 
-Cho g là một đại số Lie nửa đơn. Một phần tử x của g được gọi là nửa đơn (ứng với nilpotent) nếu, với mọi g-môđun M có số chiều hữu hạn trên K, $x_M$ là một tự đồng cấu nửa đơn (ứng với nilpotent) của M.
+Cho g là một đại số Lie nửa đơn. Một phần tử x của g được gọi là nửa đơn (ứng với lũy linh) nếu, với mọi g-môđun M có số chiều hữu hạn trên K, $x_M$ là một tự đồng cấu nửa đơn (ứng với lũy linh) của M.
 
 #### Mệnh đề 4 {#lie-i-s6-prop-4 .statement}
 
-Cho g, g' là các đại số Lie nửa đơn và f là một đồng cấu từ g vào g'. Nếu $x \in g$ là nửa đơn (ứng với nilpotent), thì $f(x)$ cũng vậy. Nếu f là toàn ánh, mọi phần tử nửa đơn (ứng với nilpotent) của g' đều là ảnh qua f của một phần tử nửa đơn (ứng với nilpotent) của g.
+Cho g, g' là các đại số Lie nửa đơn và f là một đồng cấu từ g vào g'. Nếu $x \in g$ là nửa đơn (ứng với lũy linh), thì $f(x)$ cũng vậy. Nếu f là toàn ánh, mọi phần tử nửa đơn (ứng với lũy linh) của g' đều là ảnh qua f của một phần tử nửa đơn (ứng với lũy linh) của g.
 
 Nếu $\rho$ là một biểu diễn của g', thì $\rho \circ f$ là một biểu diễn của g, do đó có mệnh đề thứ nhất. Nếu f là toàn ánh, tồn tại một đồng cấu g từ g' vào g sao cho $f \circ g$ là đồng cấu đồng nhất của g' (no. 1, Hệ quả 2 của Mệnh đề 1) và khi đó mệnh đề thứ hai suy ra từ mệnh đề thứ nhất.
 
@@ -244,11 +244,11 @@ Nếu $\rho$ là một biểu diễn của g', thì $\rho \circ f$ là một bi�
 
 Cho g là một đại số Lie nửa đơn.
 
-(a) Cho $x \in g$. Nếu tồn tại một biểu diễn trung thành $\rho$ của g sao cho $\rho(x)$ là một tự đồng cấu nửa đơn (ứng với nilpotent), thì x là nửa đơn (ứng với nilpotent).
+(a) Cho $x \in g$. Nếu tồn tại một biểu diễn trung thành $\rho$ của g sao cho $\rho(x)$ là một tự đồng cấu nửa đơn (ứng với lũy linh), thì x là nửa đơn (ứng với lũy linh).
 
-(b) Mọi phần tử của g có thể được viết một cách duy nhất thành tổng của một phần tử nửa đơn và một phần tử nilpotent giao hoán với nhau.
+(b) Mọi phần tử của g có thể được viết một cách duy nhất thành tổng của một phần tử nửa đơn và một phần tử lũy linh giao hoán với nhau.
 
-Giả sử giả thiết của (a) được thỏa mãn. Gọi $\sigma$ là một biểu diễn của g, b là iđêan phụ bù của hạt nhân của $\sigma$ và $\alpha$ là phép chiếu của g lên b. Khi đó $ad_g x$ là nửa đơn (ứng với nilpotent) theo Hệ quả của Mệnh đề 3 và do đó $ad_b \alpha(x)$ là nửa đơn (ứng với nilpotent). Vì $\sigma(x) = \sigma(\alpha(x))$, mệnh đề thứ nhất suy ra từ Hệ quả của Mệnh đề 3. Kết quả thứ hai khi đó suy ra từ Mệnh đề 3 áp dụng cho một biểu diễn trung thành.
+Giả sử giả thiết của (a) được thỏa mãn. Gọi $\sigma$ là một biểu diễn của g, b là iđêan phụ bù của hạt nhân của $\sigma$ và $\alpha$ là phép chiếu của g lên b. Khi đó $ad_g x$ là nửa đơn (ứng với lũy linh) theo Hệ quả của Mệnh đề 3 và do đó $ad_b \alpha(x)$ là nửa đơn (ứng với lũy linh). Vì $\sigma(x) = \sigma(\alpha(x))$, mệnh đề thứ nhất suy ra từ Hệ quả của Mệnh đề 3. Kết quả thứ hai khi đó suy ra từ Mệnh đề 3 áp dụng cho một biểu diễn trung thành.
 
 ### 4. CÁC ĐẠI SỐ LIE KHẢ QUY
 
@@ -258,14 +258,7 @@ Giả sử giả thiết của (a) được thỏa mãn. Gọi $\sigma$ là mộ
 
 #### Mệnh đề 5 {#lie-i-s6-prop-5 .statement}
 
-*Cho $g$ là một đại số Lie và $r$ căn của nó. Các điều kiện sau là tương đương:*
-(a) $g$ là khả quy.
-(b) $\mathcal{D}g$ là nửa đơn.
-(c) $g$ là tích của một đại số nửa đơn và một đại số giao hoán.
-(d) $g$ có một biểu diễn hữu hạn chiều sao cho dạng song tuyến tính liên kết là không suy biến.
-(e) $g$ có một biểu diễn nửa đơn hữu hạn chiều trung thành.
-(f) *Căn nilpotent của $g$ bằng không.*
-(g) $r$ là tâm của $g$.
+*Cho $g$ là một đại số Lie và $r$ căn của nó. Các điều kiện sau là tương đương:* (a) $g$ là khả quy. (b) $\mathcal{D}g$ là nửa đơn. (c) $g$ là tích của một đại số nửa đơn và một đại số giao hoán. (d) $g$ có một biểu diễn hữu hạn chiều sao cho dạng song tuyến tính liên kết là không suy biến. (e) $g$ có một biểu diễn nửa đơn hữu hạn chiều trung thành. (f) *Căn lũy linh của $g$ bằng không.* (g) $r$ là tâm của $g$.
 
 (a) $\Rightarrow$ (b): nếu biểu diễn phụ hợp của $g$ là nửa đơn, $g$ là một tổng trực tiếp của các iđêan cực tiểu khác không $a_i$ và do đó $g$ đẳng cấu với tích của các $a_i$; và $a_i$ không có iđêan nào khác ngoài $\{0\}$ và $a_i$ và do đó là đơn hoặc giao hoán có chiều 1. Vì vậy $\mathcal{D}g$ bằng tích của những $a_i$ đơn và do đó là nửa đơn.
 
@@ -438,7 +431,7 @@ và do đó $\mathrm{Tr}(uw) = 0$. Suy ra $u = 0$, do đó φ không suy biến.
 
 (a) Khi β đối xứng, nó có thể được đồng nhất với dạng song tuyến tính trên $K^n$ có ma trận $I_n$ đối với cơ sở chính tắc (Algebra, Chương IX, § 6, Hệ quả 1 của Định lý 1). Trong các điều kiện này, g được đồng nhất với đại số Lie của các ma trận phản đối xứng ($§ 3$, no. 4, Ví dụ 1). Cho $U = (u_{ij}) \in g$; ta sử dụng sự kiện rằng U giao hoán với ma trận $(v_{ij}) \in g$ mà mọi phần tử của nó đều bằng không ngoại trừ $v_{i_0j_0}$ và $v_{j_0i_0}$ ($i_0 \neq j_0$), lần lượt bằng 1 và −1. Ta nhận được rằng $u_{i_0j} = u_{j_0i} = u_{i_0} = u_{j_0} = 0$ với $i \neq i_0, j_0$ và $j \neq i_0, j_0$. Nếu $n > 2$, với mọi cặp chỉ số phân biệt $i_0$ và $j$, tồn tại các chỉ số phân biệt i và $j_0$ sao cho $i \neq i_0, j_0 \neq j, j_0 \neq i_0$; do đó $u_{i_0j} = 0$. Điều này chứng minh rằng một phần tử của tâm của g bằng không.
 
-(b) Khi β phản xứng và $n = 2m$, β có thể được đồng nhất với dạng song tuyến tính trên $K^{2m}$ có ma trận $\begin{pmatrix} 0 & I_m \\ -I_m & 0 \end{pmatrix}$ đối với cơ sở chính tắc (Algebra, Chương IX, § 5, Hệ quả 1 của Định lý 1). Trong các điều kiện này, g được đồng nhất với đại số Lie của các ma trận dạng $U = \begin{pmatrix} A & B \\ C & D \end{pmatrix}$ trong đó $D = -{}^tA$, B và C đối xứng ($A, B, C, D$ trong $\mathbf{M}_m(K)$) ($§ 3$, no. 4, Ví dụ 1). Trước hết ta sử dụng sự kiện rằng U giao hoán với ma trận $\begin{pmatrix} X & 0 \\ 0 & -{}^tX \end{pmatrix}$, trong đó $X \in \mathbf{M}_m(K)$. Khi đó $AX = XA, CX = -{}^tXC, XB = -B\cdot{}^tX$; vì các đẳng thức này phải đúng với mọi X, suy ra A là một ma trận vô hướng $\lambda I_m$. Bây giờ ta sử dụng sự kiện rằng U giao hoán với ma trận $\begin{pmatrix} 0 & Y \\ 0 & 0 \end{pmatrix}$, trong đó
+(b) Khi β phản xứng và $n = 2m$, β có thể được đồng nhất với dạng song tuyến tính trên $K^{2m}$ có ma trận $\begin{pmatrix} 0 & I_m \\ -I_m & 0 \end{pmatrix}$ đối với cơ sở chính tắc (Đại số, Chương IX, § 5, Hệ quả 1 của Định lý 1). Trong các điều kiện này, g được đồng nhất với đại số Lie của các ma trận dạng $U = \begin{pmatrix} A & B \\ C & D \end{pmatrix}$ trong đó $D = -{}^tA$, B và C đối xứng ($A, B, C, D$ trong $\mathbf{M}_m(K)$) ($§ 3$, no. 4, Ví dụ 1). Trước hết ta sử dụng sự kiện rằng U giao hoán với ma trận $\begin{pmatrix} X & 0 \\ 0 & -{}^tX \end{pmatrix}$, trong đó $X \in \mathbf{M}_m(K)$. Khi đó $AX = XA, CX = -{}^tXC, XB = -B\cdot{}^tX$; vì các đẳng thức này phải đúng với mọi X, suy ra A là một ma trận vô hướng $\lambda I_m$. Bây giờ ta sử dụng sự kiện rằng U giao hoán với ma trận $\begin{pmatrix} 0 & Y \\ 0 & 0 \end{pmatrix}$, trong đó
 
 Y là một ma trận đối xứng của $\mathbf{M}_m(\mathbf{K})$. Khi đó $\lambda Y = YC = CY = 0$. Điều này trước hết chứng minh rằng $\lambda = 0$. Hơn nữa, với mọi $X \in \mathbf{M}_m(\mathbf{K})$, $X + {}^tX$ là đối xứng và do đó $XC = -{}^tXC$. Sử dụng phương trình $CX = -{}^tXC$ thu được ở trên, ta thấy rằng C giao hoán với mọi phần tử của $\mathbf{M}_m(\mathbf{K})$ và do đó C là một ma trận vô hướng, nhất thiết bằng không vì $YC = 0$. Tương tự, ta chứng minh được rằng $B = 0$.
 
