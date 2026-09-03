@@ -411,7 +411,7 @@ $$
 x+v\in e^{ad\mathfrak{n}_+}.x+\mathfrak{n}^{(p)}
 $$
 
-với mọi $p\geq 2$. Điều này là hiển nhiên khi $p= 2$ vì $\mathfrak{n}$[^2] $= [\mathfrak{n}_+,\mathfrak{n}_+] ($§3, no. 3, Mệnh đề 9 (iii)). Giả sử ta đã tìm được $z\in \mathfrak{n}_+$ sao cho $v+x-e^{adz}.x\in$ $\mathfrak{n}^{(p)}$. Vì tồn tại một bộ ba $\mathfrak{s}\mathfrak{l}_2$ có dạng $(x, h^0, y)$ (Mệnh đề 8), §1, no. 2, Hệ quả của Mệnh đề 2 chứng minh rằng $[x,\mathfrak{g}^{2p-2}] =\mathfrak{g}^{2p}$; do đó tồn tại $z'\in \mathfrak{g}^{2p-2}\subset \mathfrak{n}_+$ sao cho
+với mọi $p\geq 2$. Điều này là hiển nhiên khi $p= 2$ vì $\mathfrak{n}^{(2)}$ $= [\mathfrak{n}_+,\mathfrak{n}_+] ($§3, no. 3, Mệnh đề 9 (iii)). Giả sử ta đã tìm được $z\in \mathfrak{n}_+$ sao cho $v+x-e^{adz}.x\in$ $\mathfrak{n}^{(p)}$. Vì tồn tại một bộ ba $\mathfrak{s}\mathfrak{l}_2$ có dạng $(x, h^0, y)$ (Mệnh đề 8), §1, no. 2, Hệ quả của Mệnh đề 2 chứng minh rằng $[x,\mathfrak{g}^{2p-2}] =\mathfrak{g}^{2p}$; do đó tồn tại $z'\in \mathfrak{g}^{2p-2}\subset \mathfrak{n}_+$ sao cho
 
 $$
 v+x-e^{adz}.x\in [z', x] +\mathfrak{n}^{(p+1)}
