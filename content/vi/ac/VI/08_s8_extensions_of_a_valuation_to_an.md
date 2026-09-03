@@ -486,7 +486,7 @@ $$
 
 *đối với mọi* $x \in L$.
 
-Sự tồn tại của $f'$ suy ra từ Mệnh đề 9 và tính duy nhất của nó (trên mọi mở rộng con hữu hạn của $L$ và do đó trên toàn thể $L$) suy ra từ Bổ đề 2 của $§ 6$, no. 4. Gọi $f'$ là mở rộng duy nhất của $f$ lên bao đóng đại số của $K$ và giả sử $L$ có bậc hữu hạn $n$. Ta biết rằng $N_{L/K}(x) = \prod_{i=1}^n x_i$, trong đó mỗi $x_i$ là một liên hợp của $x$ trên $K$ (*Algebra*, Chapter VIII, $§ 12$, no. 2, Proposition 4). Xét theo tính duy nhất của $f'$, ta có $f'(x_i) = f'(x)$ với mọi $i$, do đó suy ra công thức đã nêu.
+Sự tồn tại của $f'$ suy ra từ Mệnh đề 9 và tính duy nhất của nó (trên mọi mở rộng con hữu hạn của $L$ và do đó trên toàn thể $L$) suy ra từ Bổ đề 2 của $§ 6$, no. 4. Gọi $f'$ là mở rộng duy nhất của $f$ lên bao đóng đại số của $K$ và giả sử $L$ có bậc hữu hạn $n$. Ta biết rằng $N_{L/K}(x) = \prod_{i=1}^n x_i$, trong đó mỗi $x_i$ là một liên hợp của $x$ trên $K$ (Đại số, Chương VIII, $§ 12$, no. 2, Mệnh đề 4). Xét theo tính duy nhất của $f'$, ta có $f'(x_i) = f'(x)$ với mọi $i$, do đó suy ra công thức đã nêu.
 
 #### Mệnh đề 11 {#ac-vi-s8-prop-11 .statement}
 

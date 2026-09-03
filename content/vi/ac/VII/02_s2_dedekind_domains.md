@@ -174,7 +174,7 @@ Ngay lập tức thấy rằng tôpô đang xét trên A (hoặc K) là Hausdorf
 
 Dĩ nhiên ta cũng có thể chứng minh rằng $\Delta(K)$ trù mật trong A bằng cách dùng Mệnh đề 2.
 
-Xét bây giờ nhóm nhân $\mathbf{SL}(n, A)$ gồm các ma trận $U \in \mathbf{M}_n(A)$ sao cho $\det(U) = 1$; nếu $\mathbf{M}_n(A) = A^{n^2}$ được trang bị tôpô tích, thì nó cảm sinh trên $\mathbf{SL}(n, A)$ một tôpô *tương thích với cấu trúc nhóm* trên $\mathbf{SL}(n, A)$. Chỉ cần kiểm tra rằng ánh xạ $U \mapsto U^{-1}$ là liên tục trên $\mathbf{SL}(n, A)$; nhưng vì U là đơn môđula, ta biết rằng (*Algebra*, Chương III, § 6, no. 5, công thức (17)) các phần tử của $U^{-1}$ là các *phần bù đại số* của U và do đó là các đa thức theo các phần tử của U, điều này chứng minh mệnh đề của chúng ta. Nếu K được đồng nhất với một vành con của A thông qua A, thì nhóm $\mathbf{SL}(n, K)$ là một nhóm con của $\mathbf{SL}(n, A)$.
+Xét bây giờ nhóm nhân $\mathbf{SL}(n, A)$ gồm các ma trận $U \in \mathbf{M}_n(A)$ sao cho $\det(U) = 1$; nếu $\mathbf{M}_n(A) = A^{n^2}$ được trang bị tôpô tích, thì nó cảm sinh trên $\mathbf{SL}(n, A)$ một tôpô *tương thích với cấu trúc nhóm* trên $\mathbf{SL}(n, A)$. Chỉ cần kiểm tra rằng ánh xạ $U \mapsto U^{-1}$ là liên tục trên $\mathbf{SL}(n, A)$; nhưng vì U là đơn môđula, ta biết rằng (*Đại số*, Chương III, § 6, no. 5, công thức (17)) các phần tử của $U^{-1}$ là các *phần bù đại số* của U và do đó là các đa thức theo các phần tử của U, điều này chứng minh mệnh đề của chúng ta. Nếu K được đồng nhất với một vành con của A thông qua A, thì nhóm $\mathbf{SL}(n, K)$ là một nhóm con của $\mathbf{SL}(n, A)$.
 
 #### Mệnh đề 4 {#ac-vii-s2-prop-4 .statement}
 
