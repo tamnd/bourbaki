@@ -142,9 +142,7 @@ Cho K là một trường giao hoán, E là một K-đại số giao hoán, kế
 
 Nếu K là một trường giao hoán vô hạn, f \in K((X_i)_{i \in I}), g \in K((X_i)_{i \in I}) và \tilde{f}, \tilde{g} là các hàm hữu tỉ liên kết với f, g (và K), và nếu \tilde{f}(x) = \tilde{g}(x) với mọi x \in T_f \cap T_g thì f = g. Thật vậy, nếu f = u/v và g = u_1/v_1, trong đó u, v, u_1, v_1 là các đa thức, thì ta có u(x)v_1(x) = u_1(x)v(x) với mọi x sao cho v(x)v_1(x) \neq 0, do đó uv_1 = u_1v (IV, p. 18, Đl. 2). Vì thế ánh xạ f \mapsto \tilde{f} là đơn ánh và ta sẽ thường đồng nhất f với \tilde{f}.
 
-\* Sử dụng tính phân tích duy nhất của $K[(X_i)_{i \in I}]$ (Comm. Alg., VII, § 3, No. 2 p. 502 and Cor. of Th. 2 p. 506), người ta dễ dàng chứng minh điều sau: với mọi $f \in K((X_i)_{i \in I})$ tồn tại $u, v \in K[(X_i)_{i \in I}]$ sao cho:
-    1) $f = u/v$;
-    2) để $x \in K^I$ có thể được thay vào $f$ thì điều kiện cần và đủ là $v(x) \neq 0.$
+\* Sử dụng tính phân tích duy nhất của $K[(X_i)_{i \in I}]$ (Comm. Alg., VII, § 3, No. 2 p. 502 và Hệ quả của Định lý 2 p. 506), người ta dễ dàng chứng minh điều sau: với mọi $f \in K((X_i)_{i \in I})$ tồn tại $u, v \in K[(X_i)_{i \in I}]$ sao cho: 1) $f = u/v$; 2) để $x \in K^I$ có thể được thay vào $f$ thì điều kiện cần và đủ là $v(x) \neq 0.$
 
 ### 4. Vi phân và đạo hàm
 

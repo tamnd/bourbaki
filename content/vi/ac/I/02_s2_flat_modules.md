@@ -290,7 +290,7 @@ $E \otimes_A (\mathrm{Im}\, u)$ *được đồng nhất* với $\mathrm{Im}(1_E
 
 (i) Cho $(E_t)_{t \in I}$ là một họ các $A$-môđun phải. Để $E = \bigoplus_{t \in I} E_t$ là phẳng, điều kiện cần và đủ là mỗi $E_t$ đều phẳng.
 
-(ii) Cho $I$ là một tập hợp có thứ tự và $(E_\alpha, f_{\beta \alpha})$ là một hệ trực tiếp các $A$-môđun phải (Algebra, Chương II, § 6, no. 2). Nếu mỗi $E_\alpha$ đều phẳng, thì $E = \lim_{\longrightarrow} E_\alpha$ là phẳng.
+(ii) Cho $I$ là một tập hợp có thứ tự và $(E_\alpha, f_{\beta \alpha})$ là một hệ trực tiếp các $A$-môđun phải (Đại số, Chương II, § 6, no. 2). Nếu mỗi $E_\alpha$ đều phẳng, thì $E = \lim_{\longrightarrow} E_\alpha$ là phẳng.
 
 Cho $M' \to M$ là một đồng cấu đơn ánh của các $A$-môđun trái.
 
@@ -312,7 +312,7 @@ cũng khớp, vì lấy giới hạn trực tiếp giao hoán với tích tenxơ
 
 ### 4. VÍ DỤ VỀ CÁC MÔĐUN PHẲNG
 
-(1) Với mọi vành $A$, $A$, rõ ràng là một $A$-môđun phẳng (Algebra, Chương II, § 3, no. 4, Mệnh đề 4). Khi đó từ Mệnh đề 2, (i) của no. 3 suy ra rằng mọi A-môđun phải tự do, và nói chung hơn mọi A-môđun phải xạ ảnh (Algebra, Chương 11, § 2, no. 2), đều là các $A$-môđun phẳng.
+(1) Với mọi vành $A$, $A$, rõ ràng là một $A$-môđun phẳng (Đại số, Chương II, § 3, no. 4, Mệnh đề 4). Khi đó từ Mệnh đề 2, (i) của no. 3 suy ra rằng mọi A-môđun phải tự do, và nói chung hơn mọi A-môđun phải xạ ảnh (Đại số, Chương 11, § 2, no. 2), đều là các $A$-môđun phẳng.
 
 (2) Nếu $A$ là một vành nửa đơn (Đại số, Chương VIII, § 5, no. 1, Định nghĩa 1) thì mọi $A$-môđun phải $E$ đều là nửa đơn và do đó là tổng trực tiếp của các môđun đơn; vì mỗi môđun sau này đẳng cấu với một nhân tử trực tiếp của $A$, (cùng chỗ, § 5, no. 1, Mệnh đề 6), $E$ là xạ ảnh và do đó phẳng theo (1) (xem Bài tập 16).
 

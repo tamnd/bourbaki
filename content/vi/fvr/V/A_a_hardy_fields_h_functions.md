@@ -59,8 +59,7 @@ Cho $\mathfrak{F}$ là cơ sở lọc trên $\mathbf{R}$ được tạo thành b
 
 *Cho một tập con $\mathfrak{K}$ của $\mathcal{H}(\mathfrak{F}, \mathbf{R})$, ta nói rằng $\mathfrak{K}/R_\infty$ (ảnh chính tắc của $\mathfrak{K}$ trong $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) là một trường Hardy, nếu $\mathfrak{K}$ thỏa mãn các điều kiện sau:
 
-1. $\mathfrak{K}/R_\infty$ is a subfield of the ring $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$.
-2. *Every function in $\mathfrak{K}$ is continuous and differentiable on an interval $[a, +\infty[$ (depending on the function), and the class with respect to $R_\infty$ of its derivative belongs to $\mathfrak{K}/R_\infty$.*
+1. $\mathfrak{K}/R_\infty$ là một trường con của vành $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$. 2. *Mọi hàm trong $\mathfrak{K}$ đều liên tục và khả vi trên một khoảng $[a, +\infty[$ (phụ thuộc vào hàm đó), và lớp theo $R_\infty$ của đạo hàm của nó thuộc về $\mathfrak{K}/R_\infty$.*
 
 Giả thiết rằng $\mathfrak{K}/R_\infty$ là một *trường* tương đương với các điều kiện sau: nếu $f \in \mathfrak{K}$ và $g \in \mathfrak{K}$ thì $f + g$ và $fg$ bằng các hàm thuộc $\mathfrak{K}$ trên một tập hợp nào đó trong $\mathfrak{F}$; hơn nữa, nếu $f$ không đồng nhất bằng không trên một tập hợp trong $\mathfrak{F}$ thì tồn tại một tập hợp $M$ trong $\mathfrak{F}$ trên đó $f$ *không triệt tiêu*, và $1/f$ bằng một hàm của $\mathfrak{K}$ trên $M$; theo điều kiện 2' ta luôn có thể giả sử rằng $M$ được chọn sao cho $f$ *liên tục* trên $M$, và do đó *có dấu không đổi* trên khoảng này.
 

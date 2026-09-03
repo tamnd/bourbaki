@@ -132,15 +132,7 @@ TÀI LIỆU THAM KHẢO
 
 23. K. Weierstrass, Mathematische Werke, vol. II, Berlin, (Mayer und Müller),
 
-1895: Zur Theorie des aus $n$ Haupteinheiten gebildeten complexen Grössen, pp. 311–332.
-24. R. Dedekind, Gesammelte mathematische Werke, 3 vols., Braunschweig (Vieweg), 1930–32.
-25. H. J. Smith, Collected Mathematical Papers, vol. I, Oxford, 1894: On systems of linear indeterminate equations and congruences, p. 367 (=Phil. Trans., 1861).
-26. L. Kronecker, Vorlesungen über die Theorie der Determinanten . . ., Leipzig (Teubner), 1903.
-27. G. Peano, Calcolo geometrico secondo l’Ausdehnungstheorie di Grassmann preceduto dalle operazioni della logica deduttiva, Torino, 1888.
-28. G. Ricci and T. Levi-Civita, Méthodes de calcul différentiel absolu et leurs applications, Math. Ann., vol. LIV (1901), p. 125.
-29. E. Cartan, Sur certaines expressions différentielles et le problème de Pfaff, Ann. E.N.S. (3), vol. XVI (1899), pp. 239–332 (=Oeuvres complètes, vol. II_1, Paris (Gauthier-Villars), 1953, pp. 303–396).
-30. H. Poincaré, Les méthodes nouvelles de la mécanique céleste, vol. III, Paris (Gauthier-Villars), 1899, Chương XXII.
-31. O. Toeplitz, Ueber die Auflösung unendlichvieler linearer Gleichungen mit unendlichvielen Unbekannten, Rend. Circ. Mat. Pal., vol. XXVIII (1909), pp. 88–96.
+1895: Zur Theorie des aus $n$ Haupteinheiten gebildeten complexen Grössen, tr. 311–332. 24. R. Dedekind, Gesammelte mathematische Werke, 3 tập, Braunschweig (Vieweg), 1930–32. 25. H. J. Smith, Collected Mathematical Papers, tập I, Oxford, 1894: On systems of linear indeterminate equations and congruences, tr. 367 (=Phil. Trans., 1861). 26. L. Kronecker, Vorlesungen über die Theorie der Determinanten . . ., Leipzig (Teubner), 1903. 27. G. Peano, Calcolo geometrico secondo l’Ausdehnungstheorie di Grassmann preceduto dalle operazioni della logica deduttiva, Torino, 1888. 28. G. Ricci and T. Levi-Civita, Méthodes de calcul différentiel absolu et leurs applications, Math. Ann., tập LIV (1901), tr. 125. 29. E. Cartan, Sur certaines expressions différentielles et le problème de Pfaff, Ann. E.N.S. (3), tập XVI (1899), tr. 239–332 (=Oeuvres complètes, tập II_1, Paris (Gauthier-Villars), 1953, tr. 303–396). 30. H. Poincaré, Les méthodes nouvelles de la mécanique céleste, tập III, Paris (Gauthier-Villars), 1899, Chương XXII. 31. O. Toeplitz, Ueber die Auflösung unendlichvieler linearer Gleichungen mit unendlichvielen Unbekannten, Rend. Circ. Mat. Pal., tập XXVIII (1909), tr. 88–96.
 
 $x + y, x \cdot y, xy, x \top y, x \perp y$: I, § 1, no. 1.
 $X \top Y, X + Y, XY$ (X, Y tập con): I, § 1, no. 1.
