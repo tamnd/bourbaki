@@ -542,7 +542,7 @@ do đó là đồng cấu cần tìm.
 
 (b) Giả sử A là một vành địa phương với iđêan cực đại $m$ và M là một A-môđun tự do sinh hữu hạn. Để một môđun con sinh hữu hạn M' của M là thuần, điều kiện cần và đủ là nó là một nhân tử trực tiếp của M. (Dùng Hệ quả 1 của Mệnh đề 5 của no. 2, quy về việc chứng minh rằng, nếu $M' \subset mM$, thì $M'$ chỉ có thể là một môđun con thuần của M khi $M' = 0$.)
 
-16. Let $(A_\lambda, f_{\mu\lambda})$ be a direct system of local rings, such that the $f_{\mu\lambda}$ are local homomorphisms; let $m_\lambda$ be the maximal ideal of $A_\lambda$ and $K_\lambda = A_\lambda/m_\lambda$. Then $A = \varprojlim A_\lambda$ is a local ring whose maximal ideal is $m = \varprojlim m_\lambda$ and residue field is $\bar{K} = \varprojlim K_\lambda$. Moreover, if $m_\mu = A_\mu m_\lambda$ for $\lambda < \mu$, then $m = Am$, for all $\lambda$.
+16. Cho $(A_\lambda, f_{\mu\lambda})$ là một hệ trực tiếp các vành địa phương, sao cho các $f_{\mu\lambda}$ là các đồng cấu địa phương; gọi $m_\lambda$ là iđêan cực đại của $A_\lambda$ và $K_\lambda = A_\lambda/m_\lambda$. Khi đó $A = \varprojlim A_\lambda$ là một vành địa phương có iđêan cực đại là $m = \varprojlim m_\lambda$ và trường dư là $\bar{K} = \varprojlim K_\lambda$. Hơn nữa, nếu $m_\mu = A_\mu m_\lambda$ với $\lambda < \mu$, thì $m = Am$, với mọi $\lambda$.
 
 94
 

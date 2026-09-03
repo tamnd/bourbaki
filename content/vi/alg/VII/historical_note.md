@@ -134,39 +134,7 @@ Thư mục
 
 Chỉ mục ký hiệu
 
-A[(X_i)_{i \in I}], A[X_1, ..., X_n], X^\nu : IV, p. 1.
-$deg u$ : IV, p. 3.
-$f \circ g$ : IV, p. 4.
-D_i P, D_{x_i} P, \frac{\partial P}{\partial X_i}, P'_{x_i}, D^\nu, DP, \frac{dP}{dX}, P' : IV, p. 6.
-$\Delta^\nu$ : IV, p. 7.
-K((X_i)_{i \in I}), deg r : IV, p. 19 and 20.
-D_i f, D_{x_i} f, \frac{\partial f}{\partial X_i}, f'_{x_i}, Df, \frac{df}{dX}, f' : IV, p. 23.
-$A[[X_i)_{i \in I}]], A[[I]]$ : IV, p. 24.
-$\omega$ : IV, p. 25.
-u(x), u((x_i)_{i \in I}), u(x_1, ..., x_n) : IV, p. 29.
-$A", D", D_i$ : IV, p. 31 and 32.
-D_i u, D_{x_i} u, \frac{\partial u}{\partial X_i}, u'_{x_i}, Du, \frac{du}{dX} : IV, p. 32.
-$A\{I\}, f \circ g$ : IV, p. 29 and 36.
-$T_1$ : IV, p. 36.
-exp X, e^X, e(X), l(X) : IV, p. 39 and 40.
-$exp f, log g$ : IV, p. 40.
-M^H, Tr_{H/G} : IV, p. 41 and 42.
-TS^n(M), TS(M) : IV, p. 42.
-$\mathfrak{S}_{p|q}, \mathfrak{S}_{p,q}, \mathfrak{S}_{p_1|\cdots|p_n}$ : IV, p. 43.
-\gamma_k(x), x \in M : IV, p. 45.
-$\varphi_M, \psi_M$ : IV, p. 52.
-Pol_A^q(M, N), Pol^q(M, N) : IV, p. 55.
-Map(M, N), Pol_A(M, N), Pol(M, N) : IV, p. 57.
-s_k, s_{k,n}, A[X_1, ..., X_n]^{\text{sym}} : IV, p. 61.
-$S(\alpha), M(\alpha)$ : IV, p. 65 and 66.
-s_k, A[[X]]^{\text{sym}} : IV, p. 67 and 68.
-$\mathcal{B}_k$ : IV, p. 70.
-M(f, g, p, q), res_{p,q}(f, g), res(f, g) : IV, p. 76.
-dis(f), f monic polynomial : IV, p. 81.
-dis_m(f), f polynomial of degree \leq m : IV, p. 83.
-\Gamma(E), \Gamma_p(E), \gamma_p, \Gamma(h) : IV, p. 92, ex. 2.
-$Q, F_p$ : V, p. 1.
-S^{pf} : V, p. 4.
+A[(X_i)_{i \in I}], A[X_1, ..., X_n], X^\nu : IV, tr. 1. $deg u$ : IV, tr. 3. $f \circ g$ : IV, tr. 4. D_i P, D_{x_i} P, \frac{\partial P}{\partial X_i}, P'_{x_i}, D^\nu, DP, \frac{dP}{dX}, P' : IV, tr. 6. $\Delta^\nu$ : IV, tr. 7. K((X_i)_{i \in I}), deg r : IV, tr. 19 và 20. D_i f, D_{x_i} f, \frac{\partial f}{\partial X_i}, f'_{x_i}, Df, \frac{df}{dX}, f' : IV, tr. 23. $A[[X_i)_{i \in I}]], A[[I]]$ : IV, tr. 24. $\omega$ : IV, tr. 25. u(x), u((x_i)_{i \in I}), u(x_1, ..., x_n) : IV, tr. 29. $A", D", D_i$ : IV, tr. 31 và 32. D_i u, D_{x_i} u, \frac{\partial u}{\partial X_i}, u'_{x_i}, Du, \frac{du}{dX} : IV, tr. 32. $A\{I\}, f \circ g$ : IV, tr. 29 và 36. $T_1$ : IV, tr. 36. exp X, e^X, e(X), l(X) : IV, tr. 39 và 40. $exp f, log g$ : IV, tr. 40. M^H, Tr_{H/G} : IV, tr. 41 và 42. TS^n(M), TS(M) : IV, tr. 42. $\mathfrak{S}_{p|q}, \mathfrak{S}_{p,q}, \mathfrak{S}_{p_1|\cdots|p_n}$ : IV, tr. 43. \gamma_k(x), x \in M : IV, tr. 45. $\varphi_M, \psi_M$ : IV, tr. 52. Pol_A^q(M, N), Pol^q(M, N) : IV, tr. 55. Map(M, N), Pol_A(M, N), Pol(M, N) : IV, tr. 57. s_k, s_{k,n}, A[X_1, ..., X_n]^{\text{sym}} : IV, tr. 61. $S(\alpha), M(\alpha)$ : IV, tr. 65 và 66. s_k, A[[X]]^{\text{sym}} : IV, tr. 67 và 68. $\mathcal{B}_k$ : IV, tr. 70. M(f, g, p, q), res_{p,q}(f, g), res(f, g) : IV, tr. 76. dis(f), đa thức monic f : IV, tr. 81. dis_m(f), đa thức f có bậc \leq m : IV, tr. 83. \Gamma(E), \Gamma_p(E), \gamma_p, \Gamma(h) : IV, tr. 92, bt. 2. $Q, F_p$ : V, tr. 1. S^{pf} : V, tr. 4.
 
 $K[S]$ : V, p. 4.
 $S^{p^{-f}}, A^{p^{-\infty}}$: V, p. 5 and 6.
@@ -528,8 +496,7 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
 § 3. Các mở rộng đại số ......................................... V.15
     1. Các phần tử đại số của một đại số ........................... V.15
 
-2. Algebraic extensions ..................................................... V.17
-3. Transitivity of algebraic extensions. Fields that are relatively algebraically closed in an extension field ............ V.19
+2. Các mở rộng đại số ..................................................... V.17 3. Tính bắc cầu của các mở rộng đại số. Các trường tương đối đóng đại số trong một trường mở rộng ............ V.19
 
 § 4. Các mở rộng đóng đại số ............................................. V.19
     1. Các trường đóng đại số ............................................. V.19
@@ -576,14 +543,7 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
     2. Nhóm Galois ..................................................... V.58
     3. Tôpô của nhóm Galois ...................................... V.60
 
-4. Galois descent .................................................. V.62
-5. Galois cohomology ............................................. V.64
-6. Artin’s theorem ............................................... V.65
-7. The fundamental theorem of Galois theory ............... V.67
-8. Change of base field ......................................... V.69
-9. The normal basis theorem .................................... V.72
-10. Finite $\Gamma$-sets and etale algebras .................. V.75
-11. The structure of quasi-Galois extensions ................. V.76
+4. Sự hạ xuống Galois .................................................. V.62 5. Đồng điều Galois ............................................. V.64 6. Định lý Artin ............................................... V.65 7. Định lý cơ bản của lý thuyết Galois ............... V.67 8. Thay đổi trường cơ sở ......................................... V.69 9. Định lý cơ sở chuẩn .................................... VII.72 10. Các tập $\Gamma$ hữu hạn và các đại số etale .................. V.75 11. Cấu trúc của các mở rộng giả-Galois ................. V.76
 
 § 11. Các mở rộng Abel ........................................ V.77
     1. Các mở rộng Abel và bao đóng Abel ............ V.77
@@ -672,12 +632,7 @@ CHƯƠNG VI. — NHÓM VÀ TRƯỜNG CÓ THỨ TỰ ............................
     6. Các phép toán sơ cấp trên các nhóm có thứ tự .................. VI.7
     7. Các đồng cấu tăng của các nhóm có thứ tự ............. VI.7
 
-8. Suprema and infima in an ordered group ......................... VI.8
-9. Lattice-ordered groups ............................................. VI.10
-10. The decomposition theorem ....................................... VI.11
-11. Positive and negative parts ...................................... VI.12
-12. Coprime elements .................................................. VI.13
-13. Irreducible elements ............................................... VI.17
+8. Cực thượng và cực hạ trong một nhóm có thứ tự ......................... VI.8 9. Các nhóm có thứ tự mạng ............................................. VI.10 10. Định lý phân rã ....................................... VI.11 11. Các phần dương và âm ...................................... VI.12 12. Các phần tử nguyên tố cùng nhau .................................................. VI.13 13. Các phần tử bất khả quy ............................................... VI.17
 
 § 2. Trường có thứ tự ............................................................ VI.19
     1. Vành có thứ tự ....................................................... VI.19
@@ -715,10 +670,7 @@ CHƯƠNG VII. — CÁC MÔĐUN TRÊN CÁC MIỀN IĐÊAN CHÍNH ........ VII.1
     4. Cấu trúc của các môđun sinh hữu hạn ............................... VII.19
     5. Tính toán các nhân tử bất biến ..................................... VII.20
 
-6. Linear mappings of free modules. and matrices over a principal ideal domain .................................................. VII.21
-7. Finitely generated abelian groups .................................................. VII.22
-8. Indecomposable modules. Elementary divisors ............ VII.23
-9. Duality in modules of finite length over a principal ideal domain ............................................................. VII.25
+6. Các ánh xạ tuyến tính của các modun tự do. và các ma trận trên một vành iđêan chính .................................................. VII.21 7. Các nhóm abel hữu hạn sinh .................................................. VII.22 8. Các modun không phân rã được. Các ước tử sơ cấp ............ VII.23 9. Đối ngẫu trong các modun độ dài hữu hạn trên một vành iđêan chính ............................................................. VII.25
 
 § 5. Các tự đồng cấu của không gian vectơ ........................................ VII.28
     1. Môđun liên kết với một tự đồng cấu ............................... VII.28
