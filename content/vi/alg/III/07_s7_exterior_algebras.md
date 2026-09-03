@@ -470,13 +470,13 @@ Việc $\bigwedge(M)$ là tổng trực tiếp của các $\bigwedge^{\alpha,n}(
 
 #### Định lý 1 {#alg-iii-s7-thm-1 .statement}
 
-*Cho* $M$* *là một A-môđun có một cơ sở* $(e_\lambda)_{\lambda \in L}$. *Giả sử* $L$* *được trang bị cấu trúc của một tập sắp thứ tự toàn phần* (Set Theory, III, § 2, no. 3, Theorem 1)* *và với mọi tập con hữu hạn* $J$* *của* $L$* *ta viết*
+*Cho* $M$* *là một A-môđun có một cơ sở* $(e_\lambda)_{\lambda \in L}$. *Giả sử* $L$* *được trang bị cấu trúc của một tập hợp sắp thứ tự toàn phần* (Lý thuyết tập hợp, III, § 2, no. 3, Định lý 1)* *và với mọi tập con hữu hạn* $J$* *của* $L$* *ta viết*
 
 $$
 e_J = e_{\lambda_1} \wedge e_{\lambda_2} \wedge \cdots \wedge e_{\lambda_n}
 $$
 
-trong đó $(\lambda_k)_{1 \leq k \leq n}$ là dãy các phần tử của J được sắp theo thứ tự tăng (Set Theory, III, § 5, no. 3, Proposition 6); ta viết $e_\varnothing = 1$, phần tử đơn vị của A. Khi đó các $e_J$, khi J chạy qua tập $\mathcal{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của đại số ngoài $\bigwedge(M)$.
+trong đó $(\lambda_k)_{1 \leq k \leq n}$ là dãy các phần tử của J được sắp theo thứ tự tăng (Lý thuyết tập hợp, III, § 5, no. 3, Mệnh đề 6); ta viết $e_\varnothing = 1$, phần tử đơn vị của A. Khi đó các $e_J$, khi J chạy qua tập $\mathcal{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của đại số ngoài $\bigwedge(M)$.
 
 Vì các $e_\lambda$ sinh A-môđun M, mọi phần tử của $\bigwedge(M)$ là một tổ hợp tuyến tính của một số hữu hạn tích của các phần tử $e_\lambda$ và do đó (có tính đến no. 3, Mệnh đề 5) là một tổ hợp tuyến tính của một số hữu hạn phần tử $e_J$ với $J \in \mathcal{F}(L)$. Vậy chỉ còn phải chứng minh rằng các $e_J$ độc lập tuyến tính trên A. Nếu không, sẽ tồn tại giữa các phần tử ấy một quan hệ tuyến tính với các hệ số không phải tất cả đều bằng không; hợp của các tập con J tương ứng với các $e_J$ mà các hệ số của chúng trong quan hệ này là $\neq 0$ là một tập con hữu hạn K của L (vì chỉ có một số hữu hạn hệ số $\neq 0$). Gọi N là môđun con của M sinh bởi các $e_\lambda$ sao cho $\lambda \in K$; N là một nhân tử trực tiếp của M, do đó (no. 2) $\bigwedge(N)$ được đồng nhất với một đại số con của $\bigwedge(M)$ và, nếu ta chỉ ra rằng các $e_J$ với $J \subset K$ tạo thành một cơ sở của $\bigwedge(N)$, thì ta sẽ thu được mâu thuẫn cần tìm.
 
