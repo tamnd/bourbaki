@@ -510,7 +510,7 @@ $$
 
 Chứng minh cũng giống như đối với các mệnh đề tương tự trong Mệnh đề 2 (no. 2). Các dẫn chiếu
 
-§ 7, no. 2, Theorem 1; § 5, no. 2, Corollary to Proposition 4 phải được thay bằng các dẫn chiếu sau
+§ 7, no. 2, Định lý 1; § 5, no. 2, Hệ quả của Mệnh đề 4 phải được thay bằng các dẫn chiếu sau
 
 § 7, no. 3, Theorem 2; Topological Vector Spaces, Chapter I,
 § 2, no. 3, Corollary 1 to Theorem 2.

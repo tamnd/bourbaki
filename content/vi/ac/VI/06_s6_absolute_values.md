@@ -319,7 +319,7 @@ Nhận xét (1) Chúng ta sẽ đưa ra trong chương dành cho các đại s�
 
 Theo no. 2, Hệ quả của Mệnh đề 3, K có đặc số 0 và do đó là một đại số trên $\mathbf{Q}$; với mọi $x \in \mathbf{Q}$ ta đặt $h(x) = f(x.1)$; rõ ràng $h \in \mathcal{V}(\mathbf{Q})$ và do đó Mệnh đề 4 của no. 3 có thể được áp dụng; cả trường hợp (i) lẫn (ii) của mệnh đề này đều không thể xảy ra, vì điều đó sẽ kéo theo $f(n.1) \leq 1$ với mọi số nguyên $n > 0$ và f sẽ là một giá trị tuyệt đối ultrametric theo no. 2, Mệnh đề 3. Khi đó tồn tại một số thực s > 0 sao cho h(x) = |x|^s với mọi x ∈ Q, tức là f(x.1) = |x|^s; ta đặt g = f^{1/s}. Khi đó g ∈ V(K) và g(n.1) = n với mọi số nguyên n; do đó Mệnh đề 2 của no. 1 cho thấy g là một giá trị tuyệt đối trên K.
 
-Với x ∈ Q và y ∈ K, g(xy) = |x|g(y) và do đó g là một chuẩn trên K tương thích với cấu trúc đại số trên Q của nó (với giá trị tuyệt đối thông thường trên Q). Do đó, hoàn thành K của K là một đại số chuẩn trên Q = R (General Topology, Chapter IX, § 3, no. 7); gọi ĝ là chuẩn trên K là mở rộng liên tục của g. Vì g là một giá trị tuyệt đối trên K, K là một trường và ĝ là một giá trị tuyệt đối trên K (General Topology, Chapter IX, § 3, no. 3, Mệnh đề 6). Theo Định lý 1 tồn tại một đẳng cấu đại số trên Rf của K̂ lên một trong các trường R, C hoặc H và g'(x) = |j(x)| do đó là một giá trị tuyệt đối trên K̂; vì K̂ hữu hạn chiều trên R và g' và ĝ trùng nhau trên trường con R . 1 của K̂, nên g' = ĝ theo bổ đề sau:
+Với x ∈ Q và y ∈ K, g(xy) = |x|g(y) và do đó g là một chuẩn trên K tương thích với cấu trúc đại số trên Q của nó (với giá trị tuyệt đối thông thường trên Q). Do đó, hoàn thành K của K là một đại số chuẩn trên Q = R (Tôpô tổng quát, Chương IX, § 3, no. 7); gọi ĝ là chuẩn trên K là mở rộng liên tục của g. Vì g là một giá trị tuyệt đối trên K, K là một trường và ĝ là một giá trị tuyệt đối trên K (Tôpô tổng quát, Chương IX, § 3, no. 3, Mệnh đề 6). Theo Định lý 1 tồn tại một đẳng cấu đại số trên Rf của K̂ lên một trong các trường R, C hoặc H và g'(x) = |j(x)| do đó là một giá trị tuyệt đối trên K̂; vì K̂ hữu hạn chiều trên R và g' và ĝ trùng nhau trên trường con R . 1 của K̂, nên g' = ĝ theo bổ đề sau:
 
 #### Bổ đề 2 {#ac-vi-s6-lem-2 .statement}
 
@@ -329,13 +329,13 @@ Vì tôpô xác định bởi g là Hausdorff và tương thích với cấu tr�
 
 Quay lại chứng minh Định lý 2, ta thấy rằng, nếu j ký hiệu hạn chế của f trên K, thì j là một đẳng cấu của K lên một trường con trù mật khắp nơi của R, C hoặc H và g(x) = |j(x)| với x ∈ K, do đó f(x) = |j(x)|^s.
 
-Cuối cùng chú ý rằng, nếu f là một giá trị tuyệt đối trên K, thì h là một giá trị tuyệt đối trên Q và s ≤ 1 theo no. 3, Mệnh đề 4; ngược lại, nếu s ≤ 1, f = g^s là một giá trị tuyệt đối trên K vì g là một giá trị tuyệt đối (General Topology, Chapter IX, § 3, no. 2); điều này chứng minh khẳng định cuối cùng của mệnh đề.
+Cuối cùng chú ý rằng, nếu f là một giá trị tuyệt đối trên K, thì h là một giá trị tuyệt đối trên Q và s ≤ 1 theo no. 3, Mệnh đề 4; ngược lại, nếu s ≤ 1, f = g^s là một giá trị tuyệt đối trên K vì g là một giá trị tuyệt đối (Tôpô tổng quát, Chương IX, § 3, no. 2); điều này chứng minh khẳng định cuối cùng của mệnh đề.
 
 Các nhận xét
 
 (2) Nếu K là một trường và một đại số chuẩn trên R, thì chuẩn không nhất thiết là một giá trị tuyệt đối trên K; chẳng hạn, ξ + iη → |ξ| + |η| là một chuẩn trên C tương thích với cấu trúc đại số trên R của nó.
 
-(3) Để có một chứng minh trường hợp (C) của Định lý 1 không sử dụng các kết quả tổng quát của Algebra, Chapter VIII, xem Bài tập 2.
+(3) Để có một chứng minh trường hợp (C) của Định lý 1 không sử dụng các kết quả tổng quát của Đại số, Chương VIII, xem Bài tập 2.
 
 ### Bài tập {#ac-vi-s6-exercises}
 

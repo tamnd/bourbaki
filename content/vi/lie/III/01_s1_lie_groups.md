@@ -679,7 +679,7 @@ Cho G là một nhóm tôpô, N một nhóm con chuẩn tắc rời rạc của 
 
 Cho H là một nhóm Lie thực hoặc phức liên thông, $\tilde{H}$ là phủ phổ quát của nó† và \pi là ánh xạ chính tắc của $\tilde{H}$ lên H. Khi nói về $\tilde{H}$
 
-† Cf. General Topology, Chapter XI; trong khi chờ xuất bản chương này, xem chẳng hạn L. S. Pontrjagin, Topological groups, 2nd edition translated from Russian, Gordon and Breach, 1966; hoặc G. Hochschild, The structure of Lie groups, Holden-Day, 1965.
+† Xem General Topology, Chương XI; trong khi chờ xuất bản chương này, xem chẳng hạn L. S. Pontrjagin, Topological groups, ấn bản thứ 2 dịch từ tiếng Nga, Gordon and Breach, 1966; hoặc G. Hochschild, The structure of Lie groups, Holden-Day, 1965.
 
 CÁC NHÓM LIE
 

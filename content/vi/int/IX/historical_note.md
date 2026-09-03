@@ -737,14 +737,7 @@ CHƯƠNG VII. — ĐỘ ĐO HAAR ............................................. V
         4. Nhóm tam giác lớn ...................................... VII.63
         5. Nhóm tam giác đặc biệt .................................... VII.66
 
-6. Special linear group ......................... VII.67
-7. Iwasawa decomposition of $\mathbf{GL}(n, K)$ ..... VII.69
-8. Spaces of hermitian forms .................... VII.72
-Appendix I ........................................ VII.74
-Appendix II ......................................... VII.76
-Exercises for §1 .................................. VII.78
-Exercises for §2 .................................. VII.87
-Exercises for §3 .................................. VII.91
+6. Nhóm tuyến tính đặc biệt ......................... VII.67 7. Phân tích Iwasawa của $\mathbf{GL}(n, K)$ ..... VII.69 8. Các không gian của các dạng hermitian .................... VII.72 Phụ lục I ........................................ VII.74 Phụ lục II ......................................... VII.76 Bài tập cho §1 .................................. VII.78 Bài tập cho §2 .................................. VII.87 Bài tập cho §3 .................................. VII.91
 
 CHƯƠNG VIII. — TÍCH CHẬP VÀ BIỂU DIỄN .... VIII.1
 
@@ -780,43 +773,17 @@ CHƯƠNG VIII. — TÍCH CHẬP VÀ BIỂU DIỄN .... VIII.1
 
 §5. Không gian của các nhóm con đóng ........................................ VIII.46
 
-    1. The space of Haar measures on the closed subgroups of G .................................................. VIII.46
-    2. Semi-continuity of the volume of the homogeneous space VIII.48
-    3. The space of closed subgroups of C ......................... VIII.51
-    4. The case of groups without arbitrarily small finite subgroups ............................................. VIII.53
-    5. The case of abelian groups .................................... VIII.55
-    6. Another interpretation of the topology of the space of closed subgroups ............................... VIII.56
-Exercises for §1 .......................................................... VIII.59
-Exercises for §2 .......................................................... VIII.59
-Exercises for §3 .......................................................... VIII.61
-Exercises for §4 .......................................................... VIII.65
-Exercises for §5 .......................................................... VIII.73
-Historical Note (Chs. VII and VIII) ................................. VIII.75
+1. Không gian các độ đo Haar trên các nhóm con đóng của G .................................................. VIII.46 2. Tính bán liên tục của thể tích của không gian thuần nhất VIII.48 3. Không gian các nhóm con đóng của C ......................... VIII.51 4. Trường hợp các nhóm không có các nhóm con hữu hạn nhỏ tùy ý ............................................. VIII.53 5. Trường hợp các nhóm abel .................................... VIII.55 6. Một cách giải thích khác về topo của không gian các nhóm con đóng ............................... VIII.56 Bài tập cho §1 .......................................................... VIII.59 Bài tập cho §2 .......................................................... VIII.59 Bài tập cho §3 .......................................................... VIII.61 Bài tập cho §4 .......................................................... VIII.65 Bài tập cho §5 .......................................................... VIII.73 Ghi chú lịch sử (Chs. VII và VIII) ................................. VIII.75
 
 Chương IX. — Độ đo trên các không gian tôpô Hausdorff IX.1
 
 §1. Tiền độ đo và độ đo trên một không gian tôpô ............ IX.1
 
-    1. Encumbrances .................................................. IX.1
-    2. Premeasures and measures ...................................... IX.3
-    3. Examples of measures .......................................... IX.6
-    4. Locally negligible sets and functions ....................... IX.8
-    5. Measurable sets and functions ............................... IX.9
-    6. Directed familes; support of a measure ..................... IX.11
-    7. Upper envelopes and sums of measures ....................... IX.12
-    8. Crushings ..................................................... IX.13
-    9. Upper integral ................................................ IX.17
-   10. Integration theory ............................................. IX.20
+1. Các trở ngại .................................................. IX.1 2. Các tiền độ đo và các độ đo ...................................... IX.3 3. Các ví dụ về độ đo .......................................... IX.6 4. Các tập hợp và hàm không đáng kể địa phương ....................... IX.8 5. Các tập hợp và hàm đo được ............................... IX.9 6. Các họ có hướng; giá của một độ đo ..................... IX.11 7. Các bao trên và các tổng của các độ đo ....................... IX.12 8. Các phép ép ..................................................... IX.13 9. Tích phân trên ................................................ IX.17 10. Lý thuyết tích phân ............................................. IX.20
 
 §2. Các phép toán trên độ đo ........................................... IX.22
 
-    1. Induced measure on a measurable subspace ................... IX.22
-    2. Measures defined by numerical densities ..................... IX.24
-    3. Image of a measure ........................................... IX.26
-    4. Lifting of measures .......................................... IX.29
-    5. Product of two measures ...................................... IX.31
-    6. Integration with respect to the product of two measures IX.33
-    7. A result on the disintegration of measures ................. IX.37
+1. Độ đo cảm sinh trên một không gian con đo được ................... IX.22 2. Các độ đo được xác định bởi các mật độ số ..................... IX.24 3. Ảnh của một độ đo ........................................... IX.26 4. Nâng của các độ đo .......................................... IX.29 5. Tích của hai độ đo ...................................... IX.31 6. Tích phân đối với tích của hai độ đo IX.33 7. Một kết quả về sự phân rã của các độ đo ................. IX.37
 
 §3. Độ đo và các hàm tập hợp cộng tính ............................................. IX.41
     1. Độ đo và các hàm tập hợp cộng tính của các tập compact ... IX.41
