@@ -7077,13 +7077,37 @@ books:
               title: Historical Note
               path: content/en/alg/III/historical_note.md
               first_pdf_page: 679
-              last_pdf_page: 734
-              book_pages: 655-710
+              last_pdf_page: 691
+              book_pages: 655-667
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: e604a39829effcc049b3f0109affe5266b8d822c7d016a510672ff7eb261dff2
+              content_sha256: a3b63d9b2a76f311af7cf036bc00b947b4fe751fcd74cf43075d8c42eceed694
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/alg/index_of_notation_i_iii.md
+        first_pdf_page: 693
+        last_pdf_page: 700
+        book_pages: 669-676
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 94347fd66e173e65951935427b2336d1e8ce0bea412ca7d80f2c918171a0a629
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/alg/index_of_terminology_i_iii.md
+        first_pdf_page: 701
+        last_pdf_page: 733
+        book_pages: 677-709
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 798dec3fd1ed9b9c1f0fbfe98e89a12e45945bbe64dfa609da4478a88977f1e6
     - id: lie-ix-fr
       chapters:
         - chapter: IX

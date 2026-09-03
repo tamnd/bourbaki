@@ -113,6 +113,18 @@ books:
         first_pdf_page: 21
         last_pdf_page: 23
         file: 00_introduction_i_iii.md
+      notation_index:
+        title: INDEX OF NOTATION
+        page: 669
+        first_pdf_page: 693
+        last_pdf_page: 700
+        file: index_of_notation_i_iii.md
+      terminology_index:
+        title: INDEX OF TERMINOLOGY
+        page: 677
+        first_pdf_page: 701
+        last_pdf_page: 733
+        file: index_of_terminology_i_iii.md
     - id: alg-iv-vii
       book: alg
       lang: en
