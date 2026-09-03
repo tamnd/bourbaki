@@ -396,7 +396,7 @@ Một không gian Hausdorff có thể là hợp đếm được của các khôn
 
 *Nếu $X$ là một không gian địa phương compact $\sigma$-compact, thì tồn tại một dãy $(U_n)$ gồm các tập con mở tương đối compact của $X$ phủ $X$, sao cho $\overline{U}_n \subset U_{n+1}$ với mỗi $n$.
 
-Cho $X$ là hợp của một dãy $(K_n)$ các tập compact. Cho $U_1$ là một lân cận mở tương đối compact của $K_1$ (no. 7, Proposition 10) và định nghĩa $U_n$ theo quy nạp với $n > 1$ là một lân cận mở tương đối compact của $\overline{U}_{n-1} \in K_n$ (no. 3, Proposition 5; no. 7, Proposition 10). Dãy $(U_n)$ rõ ràng có các tính chất cần thiết.
+Cho $X$ là hợp của một dãy $(K_n)$ các tập compact. Cho $U_1$ là một lân cận mở tương đối compact của $K_1$ (no. 7, Mệnh đề 10) và định nghĩa $U_n$ theo quy nạp với $n > 1$ là một lân cận mở tương đối compact của $\overline{U}_{n-1} \in K_n$ (no. 3, Mệnh đề 5; no. 7, Mệnh đề 10). Dãy $(U_n)$ rõ ràng có các tính chất cần thiết.
 
 #### Hệ quả 1 {#top-i-s9-prop-15-cor-1 .statement}
 
