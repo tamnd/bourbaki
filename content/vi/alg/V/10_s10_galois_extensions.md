@@ -534,7 +534,7 @@ Do đó hạt nhân của $\varphi$ ổn định dưới các ánh xạ $\mathrm
 
 Đặt $E = E' \cap N$, khi đó $E' \supset K'(E)$. Bây giờ đặt $\Gamma = \mathrm{Gal}(N/K)$ và $A = \mathrm{Gal}(N/E)$, và định nghĩa $\Gamma'$ và $A'$ tương tự. Ánh xạ $A : a \mapsto a|_N$ là một đẳng cấu của $\Gamma'$ lên $\Gamma$ và đồng thời của $A'$ lên $A$; nói cách khác, $A'$ gồm những $\sigma \in \Gamma'$ sao cho $\lambda(\sigma)$ thuộc $A$. Nếu $\sigma \in \Gamma'$ để nguyên các phần tử của $K'(E)$, ta có $\lambda(\sigma) \in A$, do đó $a \in A'$ và $a$ để nguyên các phần tử của $E'$; theo Hệ quả 1 của V, p. 68 ta suy ra $K'(E) \supset E'$.
 
-We have proved the equality $E' = K'(E)$, do đó $\varphi^{-1}(E') = K' \otimes_K E$. If $F$ is a subfield of $N$ containing $K$ and such that $E' = K'(F)$, we have likewise $\varphi^{-1}(E') = K' \otimes_K F$, do đó $F = E$.
+Chúng ta đã chứng minh đẳng thức $E' = K'(E)$, do đó $\varphi^{-1}(E') = K' \otimes_K E$. Nếu $F$ là một trường con của $N$ chứa $K$ và sao cho $E' = K'(F)$, ta cũng có $\varphi^{-1}(E') = K' \otimes_K F$, do đó $F = E$.
 
 #### Hệ quả 2 {#alg-v-s10-thm-5-cor-2 .statement}
 

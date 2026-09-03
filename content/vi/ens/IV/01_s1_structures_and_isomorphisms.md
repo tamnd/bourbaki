@@ -376,7 +376,7 @@ $G \in \mathfrak{P}((A \times A) \times A)$ and $L \in \mathfrak{P}((\mathbf{Z} 
 
 và tiên đề
 
-“$R \mid A, G$ and $(L$ is a functional graph) and $B \mid L, A, G$”.
+“$R \mid A, G$ và $(L$ là một đồ thị hàm) và $B \mid L, A, G$”.
 
 Người ta kiểm tra ngay lập tức rằng các số hạng F, M cấu thành một thủ tục suy diễn một cấu trúc thuộc loài $\Theta$ từ một cấu trúc thuộc loài $\Sigma$, và rằng số hạng G là một thủ tục suy diễn một cấu trúc thuộc loài $\Sigma$ từ một cấu trúc thuộc loài $\Theta$. Hơn nữa, điều kiện (3) ở trên được thỏa mãn một cách hiển nhiên. Do đó ta có thể nói rằng loài các cấu trúc nhóm giao hoán và loài các cấu trúc $\mathbf{Z}$-môđun là tương đương.
 

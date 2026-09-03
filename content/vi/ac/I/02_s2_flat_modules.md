@@ -294,21 +294,15 @@ $E \otimes_A (\mathrm{Im}\, u)$ *được đồng nhất* với $\mathrm{Im}(1_E
 
 Cho $M' \to M$ là một đồng cấu đơn ánh của các $A$-môđun trái.
 
-(i) Để đồng cấu tổng trực tiếp
-$$
+(i) Để đồng cấu tổng trực tiếp $$
 \bigoplus_{t \in I} (E_t \otimes_A M') \to \bigoplus_{t \in I} (E_t \otimes_A M)
-$$
-là khớp, điều kiện cần và đủ là mỗi đồng cấu $E_t \otimes_A M' \to E_t \otimes_A M$ đều như vậy (Algebra, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 7), điều này chứng minh (i) vì $\bigoplus_{t \in I} (E_t \otimes_A M)$ được đồng nhất một cách chính tắc với $E \otimes_A M$ (Algebra, Chương II, § 3, no. 7, Mệnh đề 7).
+$$ là khớp, điều kiện cần và đủ là mỗi đồng cấu $E_t \otimes_A M' \to E_t \otimes_A M$ đều như vậy (Đại số, Chương II, § 1, no. 6, Hệ quả 1 của Mệnh đề 7), điều này chứng minh (i) vì $\bigoplus_{t \in I} (E_t \otimes_A M)$ được đồng nhất một cách chính tắc với $E \otimes_A M$ (Đại số, Chương II, § 3, no. 7, Mệnh đề 7).
 
-(ii) Theo giả thiết mỗi dãy
-$$
+(ii) Theo giả thiết mỗi dãy $$
 0 \to E_\alpha \otimes_A M' \to E_\alpha \otimes_A M
-$$
-đều khớp; do đó dãy
-$$
+$$ đều khớp; do đó dãy $$
 0 \to E \otimes_A M' \to E \otimes_A M
-$$
-cũng khớp, vì lấy giới hạn trực tiếp giao hoán với tích tenxơ (Algebra, Chương II, § 6, no. 3, Mệnh đề 7) và bảo toàn tính khớp (ibid., § 6, no. 2, Mệnh đề 3).
+$$ cũng khớp, vì lấy giới hạn trực tiếp giao hoán với tích tenxơ (Đại số, Chương II, § 6, no. 3, Mệnh đề 7) và bảo toàn tính khớp (ibid., § 6, no. 2, Mệnh đề 3).
 
 ### 4. VÍ DỤ VỀ CÁC MÔĐUN PHẲNG
 
