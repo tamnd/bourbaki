@@ -54,7 +54,7 @@ EVT, V, p. 35, dòng 1. Thay vì “TS, IV, § 6”, đọc “(TS, IV, p. 160,
 
 nhận xét)”.
 
-INT, IX, p. 94, § 6, n$^o12$. Thay vì “One can prove a converse . . .
+INT, IX, p. 94, § 6, n$^o12$. Thay vì “One có thể chứng minh một đảo lại . . .
 
 bounded”, đọc “Đảo lại của Mệnh đề 11 là một trường hợp riêng của TS, V,
 
@@ -90,7 +90,7 @@ của các hàm trung tâm bình phương khả tích trên G », thêm « (TS, 
 
 prop. 9). »
 
-LIE, IX, p. 78, § 8, n$^o1$. Thay vì « In this number, definitions
+LIE, IX, p. 78, § 8, n$^o1$. Thay vì « In this số, definitions
 
 và các kết quả từ TS được nhắc lại », đọc « Các định nghĩa và kết quả từ TS được nhắc lại, V,
 
