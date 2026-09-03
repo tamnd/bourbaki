@@ -291,7 +291,7 @@ Trong số này, ta sẽ giả sử rằng $A$ là một trường, rằng $E$ l
 
 #### Định lý 2 {#alg-ix-s9-thm-2 .statement}
 
-Giả sử rằng chiều của $E$ là một số chẵn $m = 2r$ và rằng $Q$ là trung tính (§ 4, no. 2). Khi đó đại số $C(Q)$ là tách được (chương VIII, § 7, no. 5, định nghĩa 1) và đẳng cấu với đại số các tự đồng cấu của một không gian vectơ có chiều $2^r$ trên $A$. Hơn nữa, nếu $m > 0$, thì $C^+(Q)$ là tách được và là tổng trực tiếp của hai ideal đẳng cấu với đại số các tự đồng cấu của một không gian vectơ có chiều $2^{r-1}$ trên $A$.
+Giả sử rằng chiều của $E$ là một số chẵn $m = 2r$ và rằng $Q$ là trung tính (§ 4, no. 2). Khi đó đại số $C(Q)$ là tách được (chương VIII, § 7, no. 5, định nghĩa 1) và đẳng cấu với đại số các tự đồng cấu của một không gian vectơ có chiều $2^r$ trên $A$. Hơn nữa, nếu $m > 0$, thì $C^+(Q)$ là tách được và là tổng trực tiếp của hai iđêan đẳng cấu với đại số các tự đồng cấu của một không gian vectơ có chiều $2^{r-1}$ trên $A$.
 
 Thật vậy, vì Q là trung tính, E có thể được phân tích thành tổng trực tiếp của hai không gian con hoàn toàn kỳ dị N và P có chiều r (§ 4, no. 2, hệ quả 1 của mệnh đề 2). Hạn chế của Q lên N bằng không, nên đại số con S của C(Q) sinh bởi N được đồng nhất với đại số ngoại của N (no. 3, bổ đề 4). Với $n \in \mathbf{N}$, ta sẽ ký hiệu bởi $e'_n$ ánh xạ $t \to nt$ từ S vào chính nó.
 
@@ -409,11 +409,9 @@ với $z_i \in C(Q_i)$ ($i = 1, 2$). Sau đó để chứng minh Hệ quả 3, h
 
 ¶ 2) Giả sử rằng $E$ là tổng trực tiếp của hai môđun con trực giao $E_1, E_2$ và ký hiệu bởi $Q_i$ hạn chế của $Q$ trên $E_i$ ($i = 1, 2$);
 
-giả sử thêm rằng tồn tại $u \in C^+(Q_2)$ sao cho $u^2 = a . 1$, với $a$ khả nghịch trong $A$, và rằng $u \rho_{Q_2}(x_2) = -\rho_{Q_2}(x_2)$ với mọi $x_2 \in E_2$. Bây giờ chứng minh rằng tồn tại một đẳng cấu $\varphi$ từ $C(Q)$ lên tích tensor $C(aQ_1) \otimes C(Q_2)$ (như được định nghĩa trong chap. III, § 3, n° 1), có tính chất là với mọi $x = x_1 + x_2$ ($x_i \in E_i, i = 1, 2$), ta có
-$$
+giả sử thêm rằng tồn tại $u \in C^+(Q_2)$ sao cho $u^2 = a . 1$, với $a$ khả nghịch trong $A$, và rằng $u \rho_{Q_2}(x_2) = -\rho_{Q_2}(x_2)$ với mọi $x_2 \in E_2$. Bây giờ chứng minh rằng tồn tại một đẳng cấu $\varphi$ từ $C(Q)$ lên tích tenxơ $C(aQ_1) \otimes C(Q_2)$ (như được định nghĩa trong chap. III, § 3, n° 1), có tính chất là với mọi $x = x_1 + x_2$ ($x_i \in E_i, i = 1, 2$), ta có $$
 \varphi(\rho_Q(x)) = \rho_{aQ_1}(x_1) \otimes u^{-1} + 1 \otimes \rho_{Q_2}(x_2).
-$$
-(Chứng minh sự tồn tại của đồng cấu $\varphi$ như một hệ quả của tính chất phổ quát của $C(Q)$. Mặt khác, có một đồng cấu $g_1$ từ $C(aQ_1)$ vào $C(Q)$ sao cho $g_1(\rho_{aQ_1}(x_1)) = h_2(u)\rho_{Q_1}(x_1)$, trong đó $h_2$ ký hiệu đồng cấu chính tắc từ $C(Q_2)$ vào $C(Q)$; khi đó nhận xét rằng $g_1(z_1)$ và $h_2(z_2)$ giao hoán với $z_1 \in C(aQ_1)$ và $z_2 \in C(Q_2)$, và suy ra sự tồn tại của một đồng cấu nghịch đảo của $\varphi$.)
+$$ (Chứng minh sự tồn tại của đồng cấu $\varphi$ như một hệ quả của tính chất phổ quát của $C(Q)$. Mặt khác, có một đồng cấu $g_1$ từ $C(aQ_1)$ vào $C(Q)$ sao cho $g_1(\rho_{aQ_1}(x_1)) = h_2(u)\rho_{Q_1}(x_1)$, trong đó $h_2$ ký hiệu đồng cấu chính tắc từ $C(Q_2)$ vào $C(Q)$; khi đó nhận xét rằng $g_1(z_1)$ và $h_2(z_2)$ giao hoán với $z_1 \in C(aQ_1)$ và $z_2 \in C(Q_2)$, và suy ra sự tồn tại của một đồng cấu nghịch đảo của $\varphi$.)
 
 Kết quả này áp dụng trong trường hợp nào khi $A$ là một trường có đặc số $\neq 2$ (dùng Nhận xét 2 sau Hệ quả của Định lý 2)?
 
@@ -475,19 +473,13 @@ $$
 u(e_{2i}) = \sum_{j=1}^{r} c_{ij} e_{2j-1} + \sum_{j=1}^{r} d_{ij} e_{2j},
 $$
 
-và $Q(e_{2i-1}) = \alpha_i, Q(e_{2i}) = \beta_i$ ($1 \leq i \leq r$). Bây giờ chứng minh rằng
-$$
+và $Q(e_{2i-1}) = \alpha_i, Q(e_{2i}) = \beta_i$ ($1 \leq i \leq r$). Bây giờ chứng minh rằng $$
 \Delta(Q_1) = (\mu(u))^2 \Delta(Q) + (\mathrm{D}(u))^2 + \mu(u)\mathrm{D}(u)
-$$
-trong đó
-$$
+$$ trong đó $$
 \mathrm{D}(u) = \sum_{i,j} (\alpha_j a_{ij} c_{ij} + \beta_j b_{ij} d_{ij} + b_{ij} c_{ij})
-$$
-(bất biến Dickson của $u$ đối với cơ sở $(e_i)$). (Hãy để ý rằng phần tử
-$$
+$$ (bất biến Dickson của $u$ đối với cơ sở $(e_i)$). (Hãy để ý rằng phần tử $$
 (\mu(u))^{-1}(u(e_1)u(e_2) + u(e_3)u(e_4) + \cdots + u(e_{2r-1})u(e_{2r}))
-$$
-thuộc $\mathbf{Z}$.) Để $u$ là một phép đồng dạng của $Q$ ($§ 4$, Exercise 9) với nhân tử $\mu(u)$, điều kiện cần và đủ là $\mathrm{D}(u) = 0$ hoặc $\mathrm{D}(u) = \mu(u)$; các phép đồng dạng của $Q$ sao cho $\mathrm{D}(u) = 0$ được gọi là trực tiếp.
+$$ thuộc $\mathbf{Z}$.) Để $u$ là một phép đồng dạng của $Q$ ($§ 4$, Bài tập 9) với nhân tử $\mu(u)$, điều kiện cần và đủ là $\mathrm{D}(u) = 0$ hoặc $\mathrm{D}(u) = \mu(u)$; các phép đồng dạng của $Q$ sao cho $\mathrm{D}(u) = 0$ được gọi là trực tiếp.
 
 c) Bây giờ chứng minh rằng, nếu $\varphi$ là một phép đồng dạng đối với $\Phi$, $u$ là một phép đồng dạng đối với $Q$, thì ta có
 $$

@@ -132,11 +132,9 @@ Một A-môđun M được gọi là *nửa đơn* nếu mọi môđun con của
 
 — *Cho A là một miền iđêan chính không phải là một trường, và cho M là một A-môđun. Khi đó M là nửa đơn khi và chỉ khi M là một môđun xoắn và $M_\pi = M(\pi)$ với mọi phần tử bất khả quy π của A*.
 
-First suppose that M is nửa đơn; let x ∈ M and let π be an irreducible element of $\mathcal{A}$. If N is a complement of $Annx$ in M, then we can write $x = \alpha \pi x + y$, with $\alpha \in \mathcal{A}$ and $y \in N$; but that implies $y = (1 - \alpha n)x$, so
-$$
+First suppose that M is nửa đơn; let x ∈ M and let π be a phần tử bất khả quy of $\mathcal{A}$. If N is a complement of $Annx$ in M, then we can write $x = \alpha \pi x + y$, with $\alpha \in \mathcal{A}$ and $y \in N$; but that implies $y = (1 - \alpha n)x$, so $$
 \pi(1 - \alpha \pi)x \in A\pi x \cap N = 0 .
-$$
-Trước hết suy ra rằng M là một môđun xoắn; nếu hơn nữa $x \in M_π$, thì $\pi(1 - \alpha \pi)x = 0$, do đó $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ bằng không và $M_π = M(\pi)$.
+$$ Trước hết suy ra rằng M là một môđun xoắn; nếu hơn nữa $x \in M_π$, thì $\pi(1 - \alpha \pi)x = 0$, do đó $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ bằng không và $M_π = M(\pi)$.
 
 Ngược lại, theo Hệ quả 2 là đủ để chứng minh rằng một A-môđun M bị triệt tiêu bởi một phần tử bất khả quy π là nửa đơn; nhưng điều đó hiển nhiên, vì khi đó M có một cấu trúc tự nhiên của một không gian vectơ trên trường $\mathcal{A}/(\pi)$, và các môđun con của M chính xác là các không gian vectơ con theo cấu trúc này.
 
