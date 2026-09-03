@@ -89,7 +89,7 @@ và
 
 Vì H compact, các phần tử của X(H) nhận giá trị trong nhóm con $\mathbf{U}=\mathbf{U}(1,\mathbf{C})$ gồm các số phức có môđun 1, do đó X(H) có thể được đồng nhất với nhóm các đồng cấu liên tục (hoặc giải tích) từ H đến $\mathbf{U}$. Suy ra rằng, với mọi $a\in L(H)$, ánh xạ $L(a)$ nhận giá trị trong không gian con $\mathbf{R}i$ của $\mathbf{C}$, nên $\delta (a)$ ánh xạ L(H) vào $\mathbf{R}i$.
 
-Nếu H giao hoán, X(H) đơn giản là nhóm đối ngẫu (rời rạc) của H (Spectral Theories, Chương II, §1, no. 1). Nếu H giao hoán và hữu hạn, X(H) có thể được đồng nhất với nhóm đối ngẫu hữu hạn D(H) = Hom$_{\mathbf{Z}}(H,\mathbf{Q}/\mathbf{Z})$ (trong đó, như trong Algebra, Chương VII, §4, no. 9, Ví dụ 1, ta đồng nhất $\mathbf{Q}/\mathbf{Z}$ với một nhóm con của $\mathbf{C}^*$ bởi đồng cấu $r \rightarrow$ exp(2$\pi ir$)).
+Nếu H giao hoán, X(H) đơn giản là nhóm đối ngẫu (rời rạc) của H (Spectral Theories, Chương II, §1, no. 1). Nếu H giao hoán và hữu hạn, X(H) có thể được đồng nhất với nhóm đối ngẫu hữu hạn D(H) = Hom$_{\mathbf{Z}}(H,\mathbf{Q}/\mathbf{Z})$ (trong đó, như trong Đại số, Chương VII, §4, no. 9, Ví dụ 1, ta đồng nhất $\mathbf{Q}/\mathbf{Z}$ với một nhóm con của $\mathbf{C}^*$ bởi đồng cấu $r \rightarrow$ exp(2$\pi ir$)).
 
 Với mọi cấu xạ $f: H\rightarrow H'$ của các nhóm Lie compact, ta ký hiệu $X(f)$ là đồng cấu $a \rightarrow a\circ f$ từ $X(H')$ đến X(H). Nếu K là một nhóm con chuẩn đóng của nhóm Lie compact H, ta có một dãy khớp của các $\mathbf Z$-môđun
 $$
@@ -141,7 +141,7 @@ $$
 
 Dạng song tuyến tính $(a, X) \rightarrow  \langle a, X\rangle$ trên $X(S)\times \Gamma (S)$ là khả nghịch.
 
-Nhắc lại (Algebra, Chap. IX) rằng, theo định nghĩa, điều này có nghĩa là các ánh xạ tuyến tính $X(S)\rightarrow$ Hom$_{\mathbf{Z}}(\Gamma (S),\mathbf{Z})$ và $\Gamma (S)\rightarrow$ Hom$_{\mathbf{Z}}(X(S),\mathbf{Z})$ liên kết với dạng song tuyến tính này là song ánh.
+Nhắc lại (Đại số, Chap. IX) rằng, theo định nghĩa, điều này có nghĩa là các ánh xạ tuyến tính $X(S)\rightarrow$ Hom$_{\mathbf{Z}}(\Gamma (S),\mathbf{Z})$ và $\Gamma (S)\rightarrow$ Hom$_{\mathbf{Z}}(X(S),\mathbf{Z})$ liên kết với dạng song tuyến tính này là song ánh.
 
 Hiển nhiên rằng nếu kết luận của mệnh đề đúng cho hai xuyến, thì nó cũng đúng cho tích của chúng. Vì mọi xuyến có chiều $n$ đều đẳng cấu với $\mathbf{U}^n$, ta quy về trường hợp $S =\mathbf{U}$. Trong trường hợp riêng này, mệnh đề là hiển nhiên.
 
@@ -159,7 +159,7 @@ Nếu $f$ là một cấu xạ của các nhóm Lie từ S đến $S'$, đồng 
 
 #### Nhận xét 1 {#lie-ix-s4-n2-rem-1 .statement tag=01BR}
 
-Cho $f$ : S $\rightarrow S'$ là một cấu xạ của các xuyến. Biểu đồ rắn (Algebra, Chap. X, §1, no. 2) liên kết với (1) cho một dãy khớp
+Cho $f$ : S $\rightarrow S'$ là một cấu xạ của các xuyến. Biểu đồ rắn (Đại số, Chap. X, §1, no. 2) liên kết với (1) cho một dãy khớp
 
 0 $\longrightarrow$ Ker$\Gamma (f)\longrightarrow$ Ker $L(f)\longrightarrow$ Ker $f\longrightarrow^d$ (4)
 
@@ -441,11 +441,11 @@ Suy ra rằng $\nu$ là đơn ánh khi và chỉ khi $K_{\alpha}\notin2\Gamma$(T
 
 Trong phần còn lại của đoạn này, ta ký hiệu $R^{\vee}(G,T)$ là tập hợp các vectơ nút $K_{\alpha}$ với $\alpha \in R(G,T)$. Đây là một tập con của $\Gamma (T)$ mà đơn ánh chính tắc của $\Gamma (T)$ vào $\mathfrak{t}_{\mathbf{C}}$ đồng nhất với phép vị tự có tỉ số $2\pi i$ của hệ nghiệm nghịch đảo $R^{\vee}(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}}) =\{H_{\delta(\alpha)}\}$ của $\delta (R)$. Suy ra rằng $R^{\vee}(G,T)$ sinh ra không gian vectơ $\mathbf{R}$ $L(T\cap D(G))$, và do đó rằng phần bù trực giao của nó trong X(T) là $X(T/(T\cap D(G)))$.
 
-Kí hiệu Aut(T) là nhóm các tự đẳng cấu của nhóm Lie T; nhóm Weyl $W = W_G(T) ($§2, no. 5) có thể được đồng nhất với một nhóm con của Aut(T). Mặt khác, nhắc lại (Chương VIII, §2, no. 2, Nhận xét 4) rằng nhóm Weyl $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ của đại số Lie reductive tách được $(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ tác động lên $\mathfrak{t}_{\mathbf{C}}$, và do đó được đồng nhất một cách chính tắc với một nhóm con của $\mathbf{G}\mathbf{L}(\mathfrak{t}_{\mathbf{C}})$.
+Kí hiệu Aut(T) là nhóm các tự đẳng cấu của nhóm Lie T; nhóm Weyl $W = W_G(T) ($§2, no. 5) có thể được đồng nhất với một nhóm con của Aut(T). Mặt khác, nhắc lại (Chương VIII, §2, no. 2, Nhận xét 4) rằng nhóm Weyl $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ của đại số Lie khả quy tách được $(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$ tác động lên $\mathfrak{t}_{\mathbf{C}}$, và do đó được đồng nhất một cách chính tắc với một nhóm con của $\mathbf{G}\mathbf{L}(\mathfrak{t}_{\mathbf{C}})$.
 
 #### Mệnh đề 10 {#lie-ix-s4-prop-10 .statement tag=01C6}
 
-Ánh xạ $u \rightarrow L(u)_{(\mathbf{C})}$ từ Aut(T) đến $\mathbf{G}\mathbf{L}(\mathfrak{t}_{\mathbf{C}})$ cảm sinh một đẳng cấu từ W đến nhóm Weyl của đại số Lie reductive tách được $(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$. Với mọi $\alpha \in R$, $W_{Z_{\alpha}}(T)$ có cấp 2, và ảnh của phần tử không đơn vị của $W_{Z_{\alpha}}(T)$ qua đẳng cấu nói trên là phép đối xứng $s_{H_{\delta(\alpha)}}$.
+Ánh xạ $u \rightarrow L(u)_{(\mathbf{C})}$ từ Aut(T) đến $\mathbf{G}\mathbf{L}(\mathfrak{t}_{\mathbf{C}})$ cảm sinh một đẳng cấu từ W đến nhóm Weyl của đại số Lie khả quy tách được $(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$. Với mọi $\alpha \in R$, $W_{Z_{\alpha}}(T)$ có cấp 2, và ảnh của phần tử không đơn vị của $W_{Z_{\alpha}}(T)$ qua đẳng cấu nói trên là phép đối xứng $s_{H_{\delta(\alpha)}}$.
 
 Ánh xạ đang xét là đơn ánh. Còn phải chứng minh rằng ảnh của nó bằng $W(\mathfrak{g}_{\mathbf{C}},\mathfrak{t}_{\mathbf{C}})$.
 
@@ -489,7 +489,7 @@ $f(G',T')f(G,T)$ Id$_N$
 
 0 $\longrightarrow \pi_1(G')\longrightarrow \pi_1(G)\longrightarrow$ N $\longrightarrow 0$.
 
-Suy ra ngay từ biểu đồ con rắn (Algebra, Chap. X, p. 4, Mệnh đề 2) rằng $A(G',T')$ kéo theo $A(G,T)$, do đó mệnh đề, theo b).
+Suy ra ngay từ biểu đồ con rắn (Đại số, Chap. X, p. 4, Mệnh đề 2) rằng $A(G',T')$ kéo theo $A(G,T)$, do đó mệnh đề, theo b).
 
 #### Hệ quả 1 {#lie-ix-s4-prop-11-cor-1 .statement tag=01C9}
 
@@ -503,7 +503,7 @@ $$
 0\longrightarrow N(H,T)\longrightarrow N(G,T)\longrightarrow \pi_1(H)\longrightarrow \pi_1(G)\longrightarrow 0
 $$
 
-Điều này suy ra từ Algebra, Chap. X, p. 4, Mệnh đề 2 (biểu đồ con rắn), áp dụng cho biểu đồ giao hoán
+Điều này suy ra từ Đại số, Chap. X, p. 4, Mệnh đề 2 (biểu đồ con rắn), áp dụng cho biểu đồ giao hoán
 
 0 $\longrightarrow N(H,T)\longrightarrow \Gamma (T)\longrightarrow \pi_1(H)\longrightarrow$ 0
 
