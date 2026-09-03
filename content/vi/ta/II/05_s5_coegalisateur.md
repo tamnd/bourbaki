@@ -415,7 +415,7 @@ $i\in$Orb(G)
 
 sao cho
 
-$\lambda (f) =\delta_i\gamma_{a(i)}(f)\delta_i^{-1}$ for $i\in$ Orb(G) and $f\in G_{a(i)}$,
+$\lambda (f) =\delta_i\gamma_{a(i)}(f)\delta_i^{-1}$ cho $i\in$ Orb(G) và $f\in G_{a(i)}$,
 
 $\lambda (j) =\delta_{\varphi_0(j)}\tau (j)\delta_{\psi_0(j)}^{-1}$ for $j\in$ Orb(H).
 
@@ -425,7 +425,7 @@ $\lambda (j) =\delta_{\varphi_0(j)}\tau (j)\delta_{\psi_0(j)}^{-1}$ for $j\in$ O
 
 ($R_2$)$r_2(j, f) =\varphi_j(f)j\psi_j(f)^{-1}j^{-1}$
 
-for $j\in$ Orb(H) and $f\in H_{b(j)}$;
+cho $j\in$ Orb(H) và $f\in H_{b(j)}$;
 
 ($R_3$)$r_3(z) =\lambda_1(z)j_1^{\varepsilon_1}\lambda_2(z)j_2^{\varepsilon_2}. . . \lambda_n(z)j_n^{\varepsilon_n}$
 

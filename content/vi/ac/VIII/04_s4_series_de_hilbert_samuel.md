@@ -480,7 +480,7 @@ $$
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn và $q$ là một iđêan của $A$ sao cho $M/qM$ có độ dài hữu hạn. Khi đó $d_q(M)$ là cận trên bé nhất của các số chiều $\dim_{A_m}(M_m)$, khi $m$ chạy qua tập hợp hữu hạn $S = \operatorname{Supp}(M) \cap V(q)$, và $e_q(M)$ là tổng của các $e_{q_m}(M_m)$ lấy trên những phần tử $m$ của $S$ mà với chúng ta có $\dim_{A_m}(M_m) = d_q(M)$.
 
-Với mỗi số nguyên $n$, độ dài của $M/q^nM$ là tổng của các $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, No. 5, cor. 1 to prop. 7 and corollary to prop. 8). Do đó, ta có $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, do đó có hệ quả.
+Với mỗi số nguyên $n$, độ dài của $M/q^nM$ là tổng của các $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, No. 5, cor. 1 to prop. 7 and hệ quả to prop. 8). Do đó, ta có $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, do đó có hệ quả.
 
 #### Nhận xét 1 {#ac-viii-s4-n4-rem-1 .statement}
 
