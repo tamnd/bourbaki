@@ -238,7 +238,7 @@ Cho $A$ là một vành và $M$ là một A-môđun sinh hữu hạn.
 
 (i) *Nếu tồn tại một A-môđun $N$ sao cho $M \otimes_A N$ đẳng cấu với $A$, thì môđun $M$ là xạ ảnh hạng 1.*
 
-(ii) *Ngược lại, nếu $M$ là xạ ảnh hạng 1 và $M^*$ là đối ngẫu của $M$, thì đồng cấu chính tắc $u : M \otimes_A M^* \to A$ tương ứng với dạng song tuyến tính chính tắc $(x, x^*) \to \langle x, x^* \rangle$ trên $M \times M^*$ (Algebra, Chương II, § 2, no. 3) là song ánh.*
+(ii) *Ngược lại, nếu $M$ là xạ ảnh hạng 1 và $M^*$ là đối ngẫu của $M$, thì đồng cấu chính tắc $u : M \otimes_A M^* \to A$ tương ứng với dạng song tuyến tính chính tắc $(x, x^*) \to \langle x, x^* \rangle$ trên $M \times M^*$ (Đại số, Chương II, § 2, no. 3) là song ánh.
 
 (i) Cần chứng minh rằng, đối với mọi iđêan cực đại $m$ của $A$, A-môđun $M$, là tự do hạng 1 (Định lý 2 (b)); ta tự do thay thế $A$ bởi $A_m$ và do đó có thể giả sử rằng $A$ là một vành *địa phương* ($§ 2$, no. 7, Mệnh đề 18). Đặt $k = A/m$. Đẳng cấu $v : M \otimes_A N \to A$ xác định một đẳng cấu
 

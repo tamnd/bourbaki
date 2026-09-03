@@ -669,7 +669,7 @@ $$
 
 Hiển nhiên là
 $$
-d_{n-1}^i \circ d_n^j = d_{n-1}^{j-1} \circ d_n^i \quad \text{for} \quad i < j
+d_{n-1}^i \circ d_n^j = d_{n-1}^{j-1} \circ d_n^i \quad \text{với} \quad i < j
 $$
 và do đó
 $$

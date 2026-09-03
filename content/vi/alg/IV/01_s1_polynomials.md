@@ -352,7 +352,7 @@ Cho D là ánh xạ A-tuyến tính từ $A[X]$ vào chính nó sao cho $D(v) = 
 — *Cho $f \in A[X]$ là một đa thức khác không theo một bất định và $a$ là hệ số đầu của nó. Nếu $a$ giản ước được trong A (đặc biệt nếu $f$ đơn nhất) thì với mọi phần tử khác không g của $A[X]$, ta có*
 
 $$
-fg \neq 0 \quad \text{and} \quad \deg(fg) = \deg f + \deg g
+fg \neq 0 \quad \text{và} \quad \deg(fg) = \deg f + \deg g
 $$
 
 Cho $g \in A[X]$ là một đa thức khác không, $\beta$ là hệ số đầu của nó, $n = \deg f$ và $p = \deg g$. Khi đó hệ số của $X^{n+p}$ trong $fg$ là $\alpha \beta$ và không triệt tiêu, do đó có mệnh đề.

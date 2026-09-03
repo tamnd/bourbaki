@@ -67,7 +67,7 @@ Từ Quyển thứ bảy trở đi, người đọc thường sẽ tìm thấy m
 
 Đối với các bài tập, nói chung chúng tôi không thấy đáng để chỉ ra nguồn gốc của chúng, vì chúng được lấy từ nhiều nguồn khác nhau (các bài báo gốc, sách giáo khoa, các tuyển tập bài tập).
 
-11. In the present Book, references to theorems, axioms, definitions, ... are given by quoting successively :
+11. Trong Quyển hiện tại, các tham chiếu đến các định lý, tiên đề, định nghĩa, ... được đưa ra bằng cách trích dẫn lần lượt :
 
 — Quyển sách (sử dụng chữ viết tắt được liệt kê trong Mục 3), chương và trang, nơi có thể tìm thấy chúng, khi tham chiếu đến ấn bản tiếng Pháp ;
 — chỉ chương và trang khi tham chiếu đến Quyển sách hiện tại ;

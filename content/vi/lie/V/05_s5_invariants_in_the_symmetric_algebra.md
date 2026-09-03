@@ -229,10 +229,10 @@ gồm các phần tử thuần nhất của S có các tính chất sau:
 
 $$
 \begin{align*}
-&\beta_i \in R \text{ for all } i, \text{ and the } \beta_i \text{ are not all zero;} \\
-&\deg y_k > 0 \text{ for all } k; \\
-&\alpha_i = \sum_{k=1}^r d_{ik} y_k \text{ for all } i; \\
-&\sum_{i=1}^s \beta_i d_{ik} = 0 \text{ for all } k.
+&\beta_i \in R \text{ với mọi } i, \text{ and the } \beta_i \text{ are not all zero;} \\
+&\deg y_k > 0 \text{ với mọi } k; \\
+&\alpha_i = \sum_{k=1}^r d_{ik} y_k \text{ với mọi } i; \\
+&\sum_{i=1}^s \beta_i d_{ik} = 0 \text{ với mọi } k.
 \end{align*}
 $$
 

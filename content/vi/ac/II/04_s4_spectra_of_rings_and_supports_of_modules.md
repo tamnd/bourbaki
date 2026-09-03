@@ -255,7 +255,7 @@ Cho (f_λ)_{λ ∈ L} là một họ các phần tử của A. Để một phầ
 
 Quan hệ X_g ⊂ ∪_{λ ∈ L} X_{f_λ} tương đương với V(g) ⊃ ∩_{λ ∈ L} V(f_λ) và chỉ cần áp dụng Hệ quả 2.
 
-COROLLARY 4, Để hai phần tử f, g của A thỏa mãn X_f = X_g, điều kiện cần và đủ là tồn tại hai số nguyên m > 0, n > 0 sao cho f^m ∈ Ag và g^n ∈ Af.
+Hệ quả 4, Để hai phần tử f, g của A thỏa mãn X_f = X_g, điều kiện cần và đủ là tồn tại hai số nguyên m > 0, n > 0 sao cho f^m ∈ Ag và g^n ∈ Af.
 
 #### Hệ quả 5 {#ac-ii-s4-prop-11-cor-5 .statement}
 

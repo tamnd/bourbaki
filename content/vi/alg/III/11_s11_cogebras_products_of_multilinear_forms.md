@@ -1164,7 +1164,7 @@ resp. $(x_1 \wedge x_2 \wedge \cdots \wedge x_p) \triangleleft f$ với mọi d�
 $$
 \begin{cases}
 (x_1 \otimes x_2 \otimes \cdots \otimes x_p) \triangleleft f = f \triangleright (x_1 \otimes x_2 \otimes \cdots \otimes x_p) = 0 \\
-(x_1 x_2 \ldots x_p) \triangleleft f = f \triangleright (x_1 x_2 \ldots x_p) = 0 \quad \text{for } p < n. \\
+(x_1 x_2 \ldots x_p) \triangleleft f = f \triangleright (x_1 x_2 \ldots x_p) = 0 \quad \text{với } p < n. \\
 (x_1 \wedge x_2 \wedge \cdots \wedge x_p) \triangleleft f = f \triangleright (x_1 \wedge x_2 \wedge \cdots \wedge x_p) = 0
 \end{cases}
 $$

@@ -603,7 +603,7 @@ $$
 *Khi đó*
 
 $$
-\gamma_{G/H}(s)\lambda = \chi(s^{-1}, .) \cdot \lambda \quad \text{for all } s \in G.
+\gamma_{G/H}(s)\lambda = \chi(s^{-1}, .) \cdot \lambda \quad \text{với mọi } s \in G.
 $$
 
 a) suy ra từ Mệnh đề 7.
@@ -976,7 +976,7 @@ theo Bổ đề 8. Bổ đề 8 cũng chứng minh rằng $\sum_{s \in A} n^{-1}
 
 *Cho X là một không gian compact địa phương đếm được ở vô cực, H là một nhóm rời rạc tác động liên tục và đúng trên X ở phía phải, $\pi$ là ánh xạ chính tắc của X lên X/H, $\mu$ là một độ đo dương trên X bất biến dưới H, $\beta$ là độ đo Haar chuẩn hóa của H, và $\lambda = \mu/\beta$. Cho F là một miền cơ bản đo được theo $\mu$.
 
-a) Cặp $(\pi, n^{-1}\varphi_F)$ là μ-thích nghi, và
+a) Cặp $(\pi, n^{-1}\varphi_F)$ là $\mu$-thích nghi, và
 
 $$
 \int_X n(x)^{-1} \varphi_F(x) \varepsilon_{\pi(x)} \, d\mu(x) = \lambda.
@@ -984,19 +984,19 @@ $$
 
 b) Ánh xạ π là thực sự đối với $n^{-1}\varphi_F \cdot \mu$, và $\pi(n^{-1}\varphi_F \cdot \mu) = \lambda$.
 
-c) Cho k là một hàm trên X/H. Để k là λ-đo được (tương ứng λ-tích phân được), cần và đủ rằng $n^{-1}\varphi_F(k \circ \pi)$ là μ-đo được (tương ứng μ-tích phân được); và, nếu k là λ-tích phân được thì
+c) Cho k là một hàm trên X/H. Để k là $\lambda$-đo được (tương ứng $\lambda$-tích phân được), cần và đủ rằng $n^{-1}\varphi_F(k \circ \pi)$ là $\mu$-đo được (tương ứng $\mu$-tích phân được); và, nếu k là $\lambda$-tích phân được thì
 
 $$
 \int_{X/H} k \, d\lambda = \int_F n^{-1}(k \circ \pi) \, d\mu.
 $$
 
-Ta có $\mu = \lambda^\sharp$. Cho $f \in \mathcal{H}_+(X/H)$. Khi đó $n^{-1}\varphi_F(f \circ \pi)$ là μ-đo được và $\geq 0$, và theo Mệnh đề 5 b) của No. 3 ta có
+Ta có $\mu = \lambda^\sharp$. Cho $f \in \mathcal{H}_+(X/H)$. Khi đó $n^{-1}\varphi_F(f \circ \pi)$ là $\mu$-đo được và $\geq 0$, và theo Mệnh đề 5 b) của No. 3 ta có
 
 $$
 \int_X^* n(x)^{-1} \varphi_F(x) f(\pi(x)) d\mu(x) = \int_{X/H}^* f(\dot{x}) d\lambda(\dot{x}) \int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi)
 $$
 
-và $\int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi) = n(x)^{-1} \sum_{\xi \in H} \varphi_F(x\xi) = 1$ theo Bổ đề 8. Do đó $n^{-1}\varphi_F \cdot (f \circ \pi)$ là μ-tích phân được và
+và $\int_H^* n(x\xi)^{-1} \varphi_F(x\xi) d\beta(\xi) = n(x)^{-1} \sum_{\xi \in H} \varphi_F(x\xi) = 1$ theo Bổ đề 8. Do đó $n^{-1}\varphi_F \cdot (f \circ \pi)$ là $\mu$-tích phân được và
 
 $$
 \int_X n(x)^{-1} \varphi_F(x) f(\pi(x)) d\mu(x) = \int_{X/H} f(\dot{x}) d\lambda(\dot{x}).

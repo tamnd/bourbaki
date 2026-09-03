@@ -263,7 +263,7 @@ là song ánh.
 
 Kí hiệu $R$ là hạt nhân của $\varphi$. Vì $\varphi$ là toàn ánh, ta có
 $$
-P_M = P_{H \otimes M_0} - P_R = \mathrm{long}_{H_0}(M_0) (1 - T)^{-r} - P_R \quad \text{and} \quad c_M = \mathrm{long}_{H_0}(M_0) - c_R.
+P_M = P_{H \otimes M_0} - P_R = \mathrm{long}_{H_0}(M_0) (1 - T)^{-r} - P_R \quad \text{và} \quad c_M = \mathrm{long}_{H_0}(M_0) - c_R.
 $$
 Các điều kiện (i), (ii) và (iii) lần lượt tương đương với $c_R = 0$, $P_R = 0$ và $R = 0$.
 Do đó ta có (iii) $\Rightarrow$ (ii) $\Rightarrow$ (i), và chỉ cần chứng minh rằng $c_R = 0$ suy ra $R = 0$. Giả sử $R \neq 0$ và cho $0 = N^h \subset N^{h-1} \subset ... \subset N^0 = M_0$ là một dãy Jordan-Hölder của $H_0$-môđun $M_0$. Gọi $R^m$ là giao của $R$ với ảnh của $H \otimes_{H_0} N^m$ trong $H \otimes_{H_0} M_0$; tồn tại một số nguyên $m$ giữa 1 và $h$ sao cho $R^m \neq R^{m-1}$. Đặt $L = R^{m-1}/R^m$; ta có $0 \leq c_L \leq c_R$ và chỉ cần chứng minh rằng $c_L \neq 0$. Bây giờ, nếu $k$ là trường thương của $H_0$ theo iđêan linh hóa tử cực đại của $N^{m-1}/N^m$, thì $L$ được đồng nhất với một môđun con phân bậc khác không của $k[(X_i)_{i \in I}]$. Do đó $L$ chứa một môđun con đẳng cấu với một môđun tịnh tiến của $k[(X_i)_{i \in I}]$; vì $c_{k[(X_i)_{i \in I}]} = 1$, suy ra $c_L \geq 1$ (Nhận xét 2 và 3), điều phải chứng minh.

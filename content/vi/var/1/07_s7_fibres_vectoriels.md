@@ -387,7 +387,7 @@ Ta có công thức:
 $$
 trong đó các $s_i$ là các tiết diện của $M$ trên $U$, và trong đó phép lấy tổng được mở rộng trên các hoán vị $\sigma$ của $\{1, 2, \ldots, d+e\}$ sao cho
 $$
-\sigma(1) < \cdots < \sigma(d) \quad \text{and} \quad \sigma(d+1) < \cdots < \sigma(d+e).
+\sigma(1) < \cdots < \sigma(d) \quad \text{và} \quad \sigma(d+1) < \cdots < \sigma(d+e).
 $$
 
 7.8.3. Cho $M$ là một bó vectơ và $A$ một bó đại số, có cơ sở $B$. Giả sử rằng các sợi $A_b$ của $A$ là các đại số kết hợp và giao hoán, có một phần tử đơn vị, ký hiệu là $e_b$. Với mỗi tập mở $U$ của $B$, ta sẽ ký hiệu bởi $\Omega^d(U)$ môđun $\mathcal{C}^r(U)$ gồm các tiết diện của bó $\mathrm{Alt}^d(M; A)$ và bởi $\Omega^*(U)$ tổng trực tiếp của các $\Omega^d(U)$ với $d \geq 0$. Các phép nhân trên mỗi sợi định nghĩa một ghép cặp của $A \times_B A$ vào $A$, do đó theo (7.8.2) một cấu trúc đại số phân bậc trên $\Omega^*(U)$, cấu trúc này là kết hợp và phản giao hoán. Đại số con $\Omega^0(U)$ là đại số của
@@ -476,7 +476,7 @@ Cho U là một tập con mở của B và gọi $t = (U, \varphi, E)$ là một
 
 7.10.2. Ngược lại, cho $\lambda = (Q, G, B, \pi_Q)$ là một phân thớ chính và cho $\varphi$ là một đồng cấu các đa tạp nhóm của G vào nhóm $GL(F)$ các tự đẳng cấu của một không gian Banach F. Cho G tác động bên trái lên F bằng cách đặt $g . h = \varphi(g)(h)$ ($h \in F, g \in G$). Cho M là một không gian phân thớ liên kết với $\lambda$, kiểu sợi là F, và cho $\rho : Q \times F \to M$ là ánh xạ khung của nó (6.5.1). Cho $\pi$ là ánh xạ từ M vào B được xác định bởi
 $$
-\pi(\rho(q, h)) = \pi_Q(q) \quad (q \in Q \text{ and } h \in F).
+\pi(\rho(q, h)) = \pi_Q(q) \quad (q \in Q \text{ và } h \in F).
 $$
 Cho s là một tiết diện của Q trên một tập con mở U của B; khi đó ánh xạ
 $$

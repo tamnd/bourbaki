@@ -96,15 +96,13 @@ Ví dụ
 
 Cho $A$ là một vành, $p$ là một iđêan nguyên tố của $A$ và $S = A - p$. Với mọi iđêan $b'$ của $A_p$ phân biệt với $A_p$, đặt $b$ là iđêan $(i_A^S)^{-1}(b')$ của $A$ sao cho $b' = bA_p$.
 
-(i) Cho $f$ là đồng cấu chính tắc $A \to A/b$. Đồng cấu từ $A$ vào $(A/b)_{p/b}$ liên kết một cách chính tắc với $f$ ($§ 2$, no. 1, Proposition 2) là toàn ánh và hạt nhân của nó là $b'$, do đó xác định, bằng cách lấy thương, một đẳng cấu chính tắc từ $A_p/b'$ lên $(A/b)_{p/b}$.
+(i) Cho $f$ là đồng cấu chính tắc $A \to A/b$. Đồng cấu từ $A$ vào $(A/b)_{p/b}$ liên kết một cách chính tắc với $f$ ($§ 2$, no. 1, mệnh đề 2) là toàn ánh và hạt nhân của nó là $b'$, do đó xác định, bằng cách lấy thương, một đẳng cấu chính tắc từ $A_p/b'$ lên $(A/b)_{p/b}$.
 
 (ii) Ánh xạ $b' \to b = (i_A^S)^{-1}(b')$, hạn chế vào tập hợp các iđêan nguyên tố của $A_p$, là một đẳng cấu (đối với quan hệ bao hàm) từ tập hợp này lên tập hợp các iđêan nguyên tố của $A$ được chứa trong $p$. Nếu $b'$ là nguyên tố trong $A_p$, tồn tại một đẳng cấu của vành $A_b$ lên vành $(A_p)_{b'}$, ánh xạ $a/s$ thành $(a/1)/(s/1)$ với mọi $a \in A, s \in A - b$.
 
-Đây chỉ là một trường hợp riêng của $§ 2$, no. 5, Proposition 11.
+Đây chỉ là một trường hợp riêng của $§ 2$, no. 5, mệnh đề 11.
 
-Nhận xét
-(3) Nếu $a$ là một iđêan của $A$ không được chứa trong $p$, thì $aA_p = A$, và $(A/a)_p = 0$ ($§ 2$, no. 5, Remark).
-(4) Cho $A, B$ là hai vành, $\rho : A \to B$ là một đồng cấu, $q$ là một iđêan nguyên tố của $B$ và $p$ là iđêan nguyên tố $\rho^{-1}(q)$ của $A$. Vì $\rho(A - p) \subset B - q$, một đồng cấu chính tắc $\rho_q : A \to B_q$ được dẫn xuất từ $\rho$ ($§ 2$, no. 1, Proposition 2) và ngay lập tức có $\rho_q(pA_p) \subset qB_q$, do đó $\rho$ là một đồng cấu địa phương.
+Nhận xét (3) Nếu $a$ là một iđêan của $A$ không được chứa trong $p$, thì $aA_p = A$, và $(A/a)_p = 0$ ($§ 2$, no. 5, nhận xét). (4) Cho $A, B$ là hai vành, $\rho : A \to B$ là một đồng cấu, $q$ là một iđêan nguyên tố của $B$ và $p$ là iđêan nguyên tố $\rho^{-1}(q)$ của $A$. Vì $\rho(A - p) \subset B - q$, một đồng cấu chính tắc $\rho_q : A \to B_q$ được dẫn xuất từ $\rho$ ($§ 2$, no. 1, mệnh đề 2) và ngay lập tức có $\rho_q(pA_p) \subset qB_q$, do đó $\rho$ là một đồng cấu địa phương.
 
 ### 2. MÔĐUN TRÊN MỘT VÀNH ĐỊA PHƯƠNG
 
@@ -224,7 +222,7 @@ Các mệnh đề đã được chứng minh ở trên trong no. này thường 
 
 *Cho $A$ là một vành địa phương rút gọn, $m$ là iđêan cực đại của nó, $(p_i)_{i \in I}$ là họ các iđêan nguyên tố cực tiểu của $A$, $K_i$ là trường phân thức của $A/p_i$ và $M$ là một $A$-môđun sinh hữu hạn. Để $M$ là tự do thì điều kiện cần và đủ là*
 
-$$(1)\qquad [(A/m) \otimes_A M : (A/m)] = [K, \otimes_A M : K]\qquad \text{for all } i \in I.$$
+$$(1)\qquad [(A/m) \otimes_A M : (A/m)] = [K, \otimes_A M : K]\qquad \text{với mọi } i \in I.$$
 
 Nếu M tự do, thì rõ ràng hai vế của (1) đều bằng hạng của M với mọi $i \in I$. Bây giờ giả sử điều kiện được thỏa mãn và ký hiệu bởi $n$ giá trị chung của hai vế của (1); theo Hệ quả 2 của Mệnh đề 4, M có một hệ gồm $n$ phần tử sinh $x_j$ ($1 \leq j \leq n$). Trước hết giả sử rằng $A$ là một *miền nguyên*, khi đó $p_i = 0$ với mọi $i \in I$. Các phần tử $1 \otimes x_j$ ($1 \leq j \leq n$) sinh ra không gian vectơ $K \otimes M$ trên trường phân thức K của $A$; nhưng do theo giả thiết không gian này có chiều bằng $n$ trên K, các phần tử $1 \otimes x_j$ là độc lập tuyến tính trên K. Suy ra (*Đại số*, Chương II, § 1, no. 13, *Nhận xét* 1) rằng các $x_j$ là độc lập tuyến tính trên $A$ và do đó lập thành một cơ sở của M.
 
@@ -244,7 +242,7 @@ $$
 \phi_i : L \to (A/p_i) \otimes L
 $$
 
-(ứng với $\psi_i : M \to (A/p_i) \otimes M$) là ánh xạ chính tắc, và $v'$ là tích của các $1_{A/p_i} @ v_e$. Khi đó $(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$ và, vì $A/p_i$ là một miền nguyên địa phương, từ phần đầu của lập luận suy ra rằng mỗi $1_{A/p_i} \otimes v$ là một đẳng cấu; do đó $v'$ cũng vậy. Mặt khác, vì $A$ là rút gọn, $\bigcap_i p_i = (0)$ ($§ 2$, no. 6, Mệnh đề 13), suy ra $\bigcap_i (p_i L) = 0$ vì $L$ là tự do (*Đại số*, Chapter II, $§ 3$, no. 7, *Nhận xét*); vì $p_i L$ là hạt nhân của $\phi_i$, điều này cho thấy $u$ là đơn ánh. Suy ra $v' \circ u = u' \circ v$ là đơn ánh, do đó $v$ là đơn ánh và, vì $v$ là toàn ánh theo định nghĩa, điều này cho thấy rằng $M$ là tự do.
+(ứng với $\psi_i : M \to (A/p_i) \otimes M$) là ánh xạ chính tắc, và $v'$ là tích của các $1_{A/p_i} @ v_e$. Khi đó $(A/p)/(m/p_i) \otimes_{A/p_i} ((A/p_i) \otimes_A M) = (A/m) \otimes_A M$ và, vì $A/p_i$ là một miền nguyên địa phương, từ phần đầu của lập luận suy ra rằng mỗi $1_{A/p_i} \otimes v$ là một đẳng cấu; do đó $v'$ cũng vậy. Mặt khác, vì $A$ là rút gọn, $\bigcap_i p_i = (0)$ ($§ 2$, no. 6, Mệnh đề 13), suy ra $\bigcap_i (p_i L) = 0$ vì $L$ là tự do (*Đại số*, Chương II, $§ 3$, no. 7, *Nhận xét*); vì $p_i L$ là hạt nhân của $\phi_i$, điều này cho thấy $u$ là đơn ánh. Suy ra $v' \circ u = u' \circ v$ là đơn ánh, do đó $v$ là đơn ánh và, vì $v$ là toàn ánh theo định nghĩa, điều này cho thấy rằng $M$ là tự do.
 
 ### 3. CHUYỂN TỪ ĐỊA PHƯƠNG SANG TOÀN CỤC
 

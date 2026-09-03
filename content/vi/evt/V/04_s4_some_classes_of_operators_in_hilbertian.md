@@ -427,7 +427,7 @@ Giả sử $p^2 = p$. Cho M là ảnh của p và N là hạt nhân của nó. E
 Khi K bằng C, quan hệ
 
 $$
-\langle x|u(x) \rangle \geq 0 \quad \text{for all } x \in E
+\langle x|u(x) \rangle \geq 0 \quad \text{với mọi } x \in E
 $$
 
 suy ra rằng u là Hermit (V, p. 2, Nhận xét), do đó là dương.
@@ -471,7 +471,7 @@ với mọi $x \in E$. Vì thế quan hệ $p_M \leq p_N$ tương đương với
 
 (i) *Tập $\mathcal{F}$ có một cận trên $u_0$ trong $\mathcal{H}(E)$; ta có*
 $$
-\langle x|u_0(x)\rangle = \sup_{u \in \mathcal{F}} \langle x|u(x)\rangle \quad \text{for all} \quad x \in E .
+\langle x|u_0(x)\rangle = \sup_{u \in \mathcal{F}} \langle x|u(x)\rangle \quad \text{với mọi} \quad x \in E .
 $$
 
 (ii) *Bộ lọc các phần cắt của $\mathcal{F}$ hội tụ đến $u_0$ trong không gian $\mathcal{L}(E)$ được trang bị tôpô hội tụ đơn.*
@@ -512,7 +512,7 @@ ta kết luận rằng $x \mapsto \Phi(x, x)$ là một hàm liên tục trên $
 
 Theo phép dựng, ta có
 $$
-\lim_{u,\Sigma} \langle x|(u_0 - u)(x)\rangle = 0 \quad \text{for all } x \in E.
+\lim_{u,\Sigma} \langle x|(u_0 - u)(x)\rangle = 0 \quad \text{với mọi } x \in E.
 $$
 Cho $v_1 \in \mathcal{F}$; với một $u \in \mathcal{F}$ sao cho $u \geq v_1$, đặt $v = u_0 - u$. Nếu áp dụng bất đẳng thức Cauchy-Schwarz cho dạng Hermit dương $\Phi_v$ trên $E$, ta được
 $$
@@ -644,7 +644,7 @@ $$
 
 Cho $(u_\alpha)_{\alpha \in A}$ là một họ không rỗng, có hướng, tăng và bị chặn của các tự đồng cấu liên tục và dương của E; cho $u = \sup_\alpha u_\alpha$, khi đó $\langle x | u(x) \rangle = \sup_\alpha \langle x | u_\alpha(x) \rangle$ với mọi $x \in E$ (V, p. 46, mệnh đề 13). Ta có $\text{Tr}(u) = \sup_{J \subset I} \sum_{i \in J} \langle e_i | u(e_i) \rangle$, trong đó J chạy qua mọi tập con hữu hạn của I, do đó
 $$
-\text{Tr}(u) = \sup_\alpha \text{Tr}(u_\alpha) \quad \text{for} \quad u = \sup_\alpha u_\alpha.
+\text{Tr}(u) = \sup_\alpha \text{Tr}(u_\alpha) \quad \text{với} \quad u = \sup_\alpha u_\alpha.
 $$
 
 Cho $p_F$ là phép chiếu trực giao từ $E$ lên không gian con Hilbert $F$; tồn tại một cơ sở trực chuẩn $(e_i)_{i \in I}$ của $E$ và một tập con $J$ của $I$, sao cho $(e_i)_{i \in J}$ là một cơ sở trực chuẩn của $F$. Ta có $\text{Tr}(p_F up_F) = \sum_{i \in J} \langle e_i | u(e_i) \rangle$. Công thức này có hai hệ quả: thứ nhất, ta có $\text{Tr}(p_F up_F) \leq \text{Tr}(u)$; thứ hai, lấy $u = 1_E$, ta được

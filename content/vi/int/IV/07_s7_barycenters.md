@@ -440,13 +440,13 @@ a) $\Rightarrow$ b): Cho $f \in \mathcal{A}$ sao cho $|f(a)| > |f(x)|$ với $x 
 
 b) $\Rightarrow$ a): Chỉ cần kiểm tra rằng b) kéo theo các giả thiết của Bổ đề 4. Với các ký hiệu của bổ đề đó, đặt $\varepsilon = \log d / \log c$; do đó $0 < \varepsilon < 1$. Vì $a$ là một điểm $\mathcal{A}_r$-cực biên, tồn tại một hàm $g \in \mathcal{A}$ sao cho
 $$
-\mathcal{R}(g) \geq 0,\quad \mathcal{R}(g(a)) \leq \varepsilon,\quad \mathcal{R}(g(x)) \geq 1 \text{ for } x \in X - U
+\mathcal{R}(g) \geq 0,\quad \mathcal{R}(g(a)) \leq \varepsilon,\quad \mathcal{R}(g(x)) \geq 1 \text{ với } x \in X - U
 $$
 
 (No. 3, Mệnh đề 6, b)). Đặt $f = c^g$; vì $f$ là tổng của chuỗi hội tụ chuẩn tắc $\sum_{n=0}^{\infty} (\log c)^n g^n / n!$, ta có $f \in \mathcal{A}$ và
 
 $$
-|f| \leq 1,\quad |f(a)| \geq c^{\varepsilon} = d,\quad |f(x)| \leq c \text{ for } x \in X - U.
+|f| \leq 1,\quad |f(a)| \geq c^{\varepsilon} = d,\quad |f(x)| \leq c \text{ với } x \in X - U.
 $$
 
 Q.E.D.

@@ -90,7 +90,7 @@ với mọi $n \in Z$; ta cũng đặt $\omega(0) = \infty$. Với các quy ư�
 $$
 \begin{align*}
 \omega(u+v) &\geq \inf(\omega(u), \omega(v)), \\
-\omega(u+v) &= \inf(\omega(u), \omega(v)) \text{ if } \omega(u) \neq \omega(v), \\
+\omega(u+v) &= \inf(\omega(u), \omega(v)) \text{ nếu } \omega(u) \neq \omega(v), \\
 \omega(uv) &\geq \omega(u) + \omega(v),
 \end{align*}
 $$
@@ -588,7 +588,7 @@ Ta sẽ nói rằng các phần tử của $K((X))$ là *chuỗi hình thức t�
 $$
 \begin{align*}
 \omega(u + v) &\geq \inf(\omega(u), \omega(v)) \\
-\omega(u + v) &= \inf(\omega(u), \omega(v)) \quad \text{if}\ \ \omega(u) \neq \omega(v) \\
+\omega(u + v) &= \inf(\omega(u), \omega(v)) \quad \text{nếu}\ \ \omega(u) \neq \omega(v) \\
 \omega(uv) &= \omega(u) + \omega(v)
 \end{align*}
 $$

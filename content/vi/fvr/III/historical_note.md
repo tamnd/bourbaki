@@ -151,7 +151,7 @@ Người ta cũng gặp từ khá sớm việc tính các giá trị của một
 
 (16) H. Briggs, Arithmetica logarithmica, London, 1624, chap. XIII.
 
-(17) See also D.C. Fraser, Newton's Interpolation Formulas, Journ. Inst. Actuaries, v. 51 (1918), p. 77-106 and p. 211-232. and v. 58 (1927), p. 53-95 (articles reprinted as a booklet, London (undated)).
+(17) Xem thêm D.C. Fraser, Newton's Interpolation Formulas, Journ. Inst. Actuaries, v. 51 (1918), p. 77-106 and p. 211-232. và v. 58 (1927), p. 53-95 (các bài báo được in lại thành một tập sách nhỏ, London (không ghi năm)).
 
 (18) Cf. St. P. Rigaud, Correspondence of scientific men ... Oxford, 1841, v. II, p. 309-310.
 
@@ -266,7 +266,7 @@ chúng, một phần vì những lý do thẩm mỹ, nhưng cũng bởi vì, n�
 
 (XIII) N. MERCATOR, Logarithmotechnia ... cui nunc accedit vera quadratura hyperbolae ... Londini, 1668 (reproduced in F. MASÈRES, Scriptores, Logarithmici ..., vol. I, London, 1791, p. 167-196).
 
-(XIV) LORD BROUNCKER, The Squaring of the Hyperbola by an infinite series of Rational Numbers, together with its Demonstration by the Right Honourable the Lord Viscount Brouncker, Phil. Trans., v. 3 (1668), p. 645-649 (reproduced in F. MASÈRES, Scriptores, Logarithmici ..., vol. I, London, 1791, p. 213-218).
+(XIV) LORD BROUNCKER, The Squaring of the Hyperbola by an infinite series of Rational Numbers, together with its Demonstration by the Right Honourable the Lord Viscount Brouncker, Phil. Trans., v. 3 (1668), p. 645-649 (được in lại trong F. MASÈRES, Scriptores, Logarithmici ..., vol. I, London, 1791, p. 213-218).
 
 (XV) J. WALLIS, Opera Mathematica, 3 vol., Oxoniae, 1693-95: a) Arithmeticca Infinitorum, t. I, p. 355-478.
 

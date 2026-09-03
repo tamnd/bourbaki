@@ -390,8 +390,8 @@ Do đó, theo (2) của VIII, p. 399, với $g \in G$, ta có
 
 $$
 \sum_{\lambda \in \widehat{G}} d_\lambda \chi_\lambda(g) = \begin{cases}
-|G| & \text{if } g \text{ is the identity element,} \\
-0 & \text{otherwise.}
+|G| & \text{nếu } g \text{ là phần tử đơn vị,} \\
+0 & \text{ngược lại.}
 \end{cases}
 $$
 

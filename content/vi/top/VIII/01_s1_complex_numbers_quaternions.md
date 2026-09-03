@@ -89,7 +89,7 @@ $$
 Nghiệm thứ hai của đa thức $X^2 + 1$ trong $\mathbf{C}$ là $-i$; do đó tự đẳng cấu duy nhất của $\mathbf{C}$, khác ánh xạ đồng nhất, giữ bất biến mọi số thực, là tự đẳng cấu biến $z = x + iy$ thành $x - iy$; tự đẳng cấu sau được ký hiệu bởi $\overline{z}$ và (phù hợp với các định nghĩa tổng quát) được gọi là số phức liên hợp với $z$. Ta có
 
 $$
-\Re(z) = \frac{1}{2}(z + \overline{z}) \quad \text{and} \quad \Im(z) = \frac{1}{2i}(z - \overline{z}).
+\Re(z) = \frac{1}{2}(z + \overline{z}) \quad \text{và} \quad \Im(z) = \frac{1}{2i}(z - \overline{z}).
 $$
 
 Do tự đẳng cấu này, nếu $f(z)$ là một đa thức với các hệ số thực, ta có $f(\overline{z}) = \overline{f(z)}$ với mọi $z \in \mathbf{C}$.

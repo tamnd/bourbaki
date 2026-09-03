@@ -231,7 +231,7 @@ Theo định nghĩa này, nếu $f$ là một hàm (H), không đồng nhất b�
 Ta đã định nghĩa (V, p. 229) các *logaritm lặp* $l_n(x)$ bởi các điều kiện $l_0(x) = x, l_n(x) = \log(l_{n-1}(x))$ với $n \geq 1$. Theo cùng cách ấy, người ta định nghĩa các *hàm mũ lặp* $e_n(x)$ bởi các điều kiện $e_0(x) = x, e_n(x) = \exp(e_{n-1}(x))$ với $n \geq 1$. Ngay lập tức, bằng quy nạp theo $n$, ta có $l_n(x)$ là hàm nghịch đảo của $e_n(x)$, được định nghĩa với $x > e_{n-1}(0)$, và $e_m(e_n(x)) = e_{m+n}(x), l_m(l_n(x)) = l_{m+n}(x)$. Theo các quan hệ $\log x \ll x^\mu \ll e^x$ với mọi $\mu > 0$, ta có, với $n \geq 1$,
 
 $$
-l_n(x) \ll (l_{n-1}(x))^\mu \quad \text{for every } \mu > 0 \tag{5}
+l_n(x) \ll (l_{n-1}(x))^\mu \quad \text{với mọi } \mu > 0 \tag{5}
 $$
 
 $$

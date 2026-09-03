@@ -1394,7 +1394,7 @@ trong đó các tích được lấy trên tập các rễ $> 0$.
 36) Với ký hiệu của 35), đặt
 
 $$
-z_p = J(e^{p+\rho})/J(e^\rho) \quad \text{for } p \in P.
+z_p = J(e^{p+\rho})/J(e^\rho) \quad \text{với } p \in P.
 $$
 
 Các $z_p$, với $p \in P \cap \overline{C}$, lập thành một cơ sở của nhóm $E^W$ gồm các phần tử của E bất biến dưới W. Nếu $\omega_1, \ldots, \omega_l$ là các trọng số cơ bản của R, thì các phần tử $z_{\omega_i}$, $1 \leq i \leq l$, độc lập đại số và sinh ra vành $E^W$.

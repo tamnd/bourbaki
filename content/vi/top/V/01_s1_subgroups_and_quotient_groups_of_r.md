@@ -94,7 +94,7 @@ Mọi đồng cấu liên tục $f$ của nhóm tôpô $\mathbf{R}$ vào chính 
 Với mọi $x \in \mathbf{R}$ và mọi số nguyên $p \in \mathbf{Z}$, ta có $f(px) = pf(x)$; thay thế $x$ bởi $(1/p)x$, suy ra rằng
 
 $$
-f\left(\frac{1}{p}x\right) = \frac{1}{p} f(x) \quad \text{if } p \neq 0;
+f\left(\frac{1}{p}x\right) = \frac{1}{p} f(x) \quad \text{nếu } p \neq 0;
 $$
 
 do đó, với mọi số nguyên $p$ và $q \neq 0$, ta có

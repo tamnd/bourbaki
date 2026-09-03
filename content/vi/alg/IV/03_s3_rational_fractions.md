@@ -65,7 +65,7 @@ Cho K là một trường giao hoán. Với mọi phần tử r của K((X_i)_{i
 (i) Nếu deg r ≠ deg s, ta có
 
 $$
-r + s \neq 0 \quad \text{and} \quad \deg(r + s) = \sup(\deg r, \deg s)
+r + s \neq 0 \quad \text{và} \quad \deg(r + s) = \sup(\deg r, \deg s)
 $$
 
 Nếu deg r = deg s, ta có deg(r + s) ≤ deg r.

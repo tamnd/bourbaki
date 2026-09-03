@@ -761,7 +761,7 @@ CHƯƠNG II. — CÁC TẬP LỒI VÀ CÁC KHÔNG GIAN LỒI ĐỊA PHƯƠNG ...
     2. Các tôpô xác định bởi các bán chuẩn ............................. II. 2
     3. Các bán chuẩn trong các không gian thương và trong các không gian tích .......... II. 4
 
-4. Equicontinuity criteria of multilinear mappings for topologies defined by semi-norms ............................................. II.5
+4. Tiêu chuẩn equicontinuity của các ánh xạ đa tuyến đối với các topo xác định bởi bán chuẩn ............................................. II.5
 
 § 2. Các tập lồi ................................................................. II.7
   1. Định nghĩa của một tập lồi ............................................. II.7
@@ -850,8 +850,7 @@ Chương III. — Các không gian của các ánh xạ tuyến tính liên tụ
 § 4. Định lý Banach-Steinhaus ....................................................... III.23
     1. Các thùng và các không gian thùng ............................................................. III.24
 
-2. The Banach-Steinhaus theorem ............................................. III.25
-3. Bounded subsets of $\mathcal{L}(E; F)$ (quasi-complete case) .......... III.27
+2. Định lý Banach-Steinhaus ............................................. III.25 3. Các tập con bị chặn của $\mathcal{L}(E; F)$ (trường hợp nửa đầy đủ) .......... III.27
 
 § 5. Các ánh xạ song tuyến tính giả liên tục ........................................ III.28
     1. Các ánh xạ song tuyến tính liên tục riêng rẽ ............................... III.28
@@ -894,8 +893,7 @@ CHƯƠNG IV. — Đối ngẫu trong các không gian vectơ tôpô ............
     3. Đối ngẫu kép của một không gian lồi địa phương mêtric hóa được ...................... IV.23
     4. Đối ngẫu của một không gian Fréchet phản xạ ................................ IV.23
 
-5. The topology of compact convergence on the dual of a Fréchet space .................................................. IV.24
-6. Separately continuous bilinear mappings ......................... IV.26
+5. Topo hội tụ compact trên đối ngẫu của một không gian Fréchet .................................................. IV.24 6. Các ánh xạ song tuyến tính liên tục riêng ......................... IV.26
 
 § 4. Các đồng cấu ngặt của các không gian Fréchet ............................. IV.26
     1. Các đặc trưng của các đồng cấu ngặt ......................... IV.27

@@ -518,7 +518,7 @@ $$
 Thật vậy, nếu ký hiệu lớp này là $\theta''$, thì từ mệnh đề 4 suy ra rằng ta có
 
 $$
-\theta'' \circ i_M = i_N \circ \theta = m(\theta, \theta') \circ i_M \quad \text{and} \quad \theta'' \circ i_{M'} = i_{N'} \circ \theta = m(\theta, \theta') \circ i_{M'} ;
+\theta'' \circ i_M = i_N \circ \theta = m(\theta, \theta') \circ i_M \quad \text{và} \quad \theta'' \circ i_{M'} = i_{N'} \circ \theta = m(\theta, \theta') \circ i_{M'} ;
 $$
 
 theo X, p. 89, mệnh đề 7, điều đó kéo theo $\theta'' = m(\theta, \theta')$.

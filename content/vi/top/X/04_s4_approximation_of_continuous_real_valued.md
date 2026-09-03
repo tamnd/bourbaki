@@ -235,7 +235,7 @@ $$
 với mọi $x \in X$ ($1 \leq i \leq n$); do đó ta có
 
 $$
-\left\| f(x) - \sum_{i=1}^n a_i v_i(x) \right\| \leq 2\varepsilon \quad \text{for all } x \in X,
+\left\| f(x) - \sum_{i=1}^n a_i v_i(x) \right\| \leq 2\varepsilon \quad \text{với mọi } x \in X,
 $$
 
 và chứng minh hoàn tất.
