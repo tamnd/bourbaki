@@ -48,4 +48,4 @@ Thư mục tiếp theo sau mỗi ghi chú lịch sử nói chung chỉ gồm nh�
 
 9. Các tham khảo đến một phần của bộ sách này được đưa ra như sau: a) Nếu tham khảo đến các định lý, tiên đề hoặc định nghĩa được trình bày trong cùng một mục, chúng được trích dẫn bằng số của chúng. b) Nếu chúng xuất hiện trong một mục khác của cùng một chương, mục này cũng được trích dẫn trong tham khảo. c) Nếu chúng xuất hiện trong một chương khác của cùng một Book, chương và mục được trích dẫn. d) Nếu chúng xuất hiện trong một Book khác, Book này trước hết được trích dẫn bằng nhan đề của nó.
 
-Các Bản tóm tắt kết quả được trích dẫn bằng chữ cái R: do đó Set Theory, R có nghĩa là "Bản tóm tắt các kết quả của lý thuyết tập hợp".
+Các Bản tóm tắt kết quả được trích dẫn bằng chữ cái R: do đó Lý thuyết tập hợp, R có nghĩa là "Bản tóm tắt các kết quả của lý thuyết tập hợp".
