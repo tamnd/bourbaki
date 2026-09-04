@@ -351,7 +351,7 @@ Bây giờ, $(\operatorname{Hom}_A(E, F))_m$ (tương ứng. $(\operatorname{Hom
 
 *Cho M là một A-môđun và N là một môđun con của M sao cho M/N hữu hạn trình bày. Để N là một nhân tử trực tiếp của M, điều kiện cần và đủ là, với mọi $m \in S_2$, N, là một nhân tử trực tiếp của M.*
 
-Nói rằng N là một nhân tử trực tiếp của M có nghĩa là đồng cấu đồng nhất của M/N phân tích qua $M/N \xrightarrow{w} M \xrightarrow{\phi} M/N$ trong đó $\phi$ là đồng cấu chính tắc và $w$ là một đồng cấu (*Algebra*, Chương II, § 1, no. 9, Mệnh đề 14); vì $(M/N)_m = M_m/N_m$ và $\phi_m$ là đồng cấu chính tắc $M_m \to M_m/N_m$, hệ quả suy ra dễ dàng từ Mệnh đề 12.
+Nói rằng N là một nhân tử trực tiếp của M có nghĩa là đồng cấu đồng nhất của M/N phân tích qua $M/N \xrightarrow{w} M \xrightarrow{\phi} M/N$ trong đó $\phi$ là đồng cấu chính tắc và $w$ là một đồng cấu (*Đại số*, Chương II, § 1, no. 9, Mệnh đề 14); vì $(M/N)_m = M_m/N_m$ và $\phi_m$ là đồng cấu chính tắc $M_m \to M_m/N_m$, hệ quả suy ra dễ dàng từ Mệnh đề 12.
 
 #### Hệ quả 2 {#ac-ii-s3-prop-12-cor-2 .statement}
 
