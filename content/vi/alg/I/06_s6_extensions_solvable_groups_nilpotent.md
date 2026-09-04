@@ -501,7 +501,7 @@ $$
 D^0(G) = G; \quad D^{n+1}(G) = D(D^n(G)) \quad \text{với } n \in \mathbf{N}.
 $$
 
-Khi đó $D^0(G) = C^1(G) = G,\ D^1(G) = C^2(G) = D(G) = (G, G)$. Với mọi n \in \mathbf{N}, ta có D^n(G) \subset C^{2^n}(G), như thấy được bằng quy nạp theo n khi dùng công thức (7) của no. 3.
+Khi đó $D^0(G) = C^1(G) = G,\ D^1(G) = C^2(G) = D(G) = (G, G)$. Với mọi n \in \mathbf{N}, ta có D^n(G) \text{ là tập con của } C^{2^n}(G), như thấy được bằng quy nạp theo n khi dùng công thức (7) của no. 3.
 
 Cho $f : G \to G'$ là một đồng cấu nhóm. Ta thấy, bằng quy nạp theo n, rằng $f(D^n(G)) \subset D^n(G')$ và rằng, nếu $f$ là toàn ánh, thì $f(D^n(G)) = D^n(G')$. Đặc biệt, với mọi $n \in \mathbf{N}$, $D^n(G)$ là một nhóm con đặc số (và do đó chuẩn tắc) của G. Với mọi $n \in \mathbf{N}$, nhóm $D^n(G)/D^{n+1}(G)$ là một nhóm con chuẩn tắc giao hoán (nhưng nói chung không trung tâm) của $G/D^{n+1}(G)$.
 
