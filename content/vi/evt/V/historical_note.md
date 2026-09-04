@@ -188,23 +188,6 @@ Mặc dù các không gian phiếm hàm gặp phải từ đầu thế kỷ XX n
 Thư mục
 
 (I) C. Sturm : a) Về các phương trình vi phân tuyến tính cấp hai, Journ. de Math. (1), t. I (1836), p. 106-186 ; b) Về một lớp các phép toán sai phân riêng phần, ibid., p. 373-444.
-(II) J. Liouville : a) Về sự khai triển các hàm hoặc các phần của hàm thành các chuỗi mà các số hạng khác nhau của chúng bị buộc phải thỏa mãn cùng một phương trình vi phân cấp hai chứa một tham số biến thiên, Journ. de Math. (1), t. I (1836), p. 253-265, t. II (1837), p. 16-35 và 418-436 ; b) Về một định lý của ông Sturm và liên quan đến một lớp các hàm siêu việt, ibid., t. I (1836), p. 269-277.
-(III) J. P. Gram. Ueber die Entwickelung reeller Functionen in Reihen mittelst der Methode der kleinsten Quadrate, J. de Crelle, t. XCIV (1883), p. 41-73.
-(IV) H. Minkowski : a) Geometrie der Zahlen, 1re éd., Leipzig (Teubner), 1896 ; b) Theorie der konvexen Körper, Gesammelte Abhandlungen, t. II, p. 131-229, Leipzig-Berlin (Teubner), 1911. (Tái bản, New York (Chelsea), 1967.)
-(V) H. Poincaré : a) Về các phương trình của Vật lý toán học, Rend. Palermo, t. VIII (1894), p. 57-156 (= Œuvres, t. IX, p. 123-196, Paris (Gauthier-Villars), 1954) ; b) Phương pháp Neumann và bài toán Dirichlet, Acta Mathematica, t. XX (1896), p. 59-142 (= Œuvres, t. IX, p. 202-272, Paris (Gauthier-Villars), 1954).
-(VI) I. Fredholm, Về một lớp các phương trình hàm, Acta Mathematica, t. XXVII (1903), p. 365-390.
-(VII) D. Hilbert, Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen, New York (Chelsea), 1953 (= Gött. Nachr., 1904, 1905, 1906, 1910).
-(VIII) E. Schmidt : a) Zur Theorie der linearen und nichtlinearen Integralgleichungen. I. Teil : Entwicklung willkürlicher Funktionen nach Systemen vorgeschriebener, Math. Ann., t. LXIII (1907), p. 433-476 ; b) Ueber die Auflösung linearer Gleichungen mit unendlich vielen Unbekannten, Rend. Palermo, t. XXV (1908), p. 53-77.
-(IX) F. Riesz : a) Untersuchungen über Systeme integrierbarer Funktionen, Math. Ann., t. LXIX (1910), p. 449-497 ; b) Về một số hệ phương trình tích phân kỳ dị, Ann. Ec. Norm. Sup. (3), t. XXVIII (1911), p. 33-62 ; c) Các hệ phương trình tuyến tính với vô hạn ẩn, Paris (Gauthier-Villars), 1913 ; d) Ueber lineare Funktionalgleichungen, Acta Mathematica, t. XLI (1918), p. 71-98 ; e) Zur Theorie des Hilbertschen Raumes, Acta litt. ac scient. (Szeged), t. VII (1934-35), p. 34-38.
-(X) E. Helly, Ueber Systeme linearer Gleichungen mit unendlich vielen Unbekannten, Monatshefte für Math. und Phys., t. XXXI (1921), p. 60-91.
-(XI) H. Hahn, Ueber lineare Gleichungssysteme in linearen Räumen, J. de Crelle, t. CLVII (1927), p. 214-229.
-(XII) S. Banach : a) Về bài toán đo, Fund. Math., t. IV (1923), p. 7-33 ; b) Về các phiếm hàm tuyến tính, Studia Math., t. I (1929), p. 211-216 và 223-239 ; c) Lý thuyết các phép toán tuyến tính, Warszawa, 1932. (Tái bản, New York (Chelsea), 1963.)
-(XIII) S. Banach và H. Steinhaus, Về nguyên lý ngưng tụ các kỳ dị, Fund. Math., t. IX (1927), p. 50-61.
-(XIV) G. W. Mackey : a) On infinite-dimensional linear spaces, Trans. Amer. Math. Soc., t. LVII (1945), p. 155-207 ; b) On convex topological spaces, Trans. Amer. Math. Soc., t. LX (1946), p. 519-537.
-(XV) G. Köthe, Neubegründung der Theorie der vollkommenen Räume, Math. Nachr., t. IV (1951), p. 70-80.
-(XVI) L. Schwartz, Théorie des distributions, 2e édition, Paris (Hermann), 1966.
-(XVII) J. Lindenstrauss và L. Tzafriri, Classical Banach spaces, t. I, Berlin-Heidelberg-New York (Springer), 1977.
-(XVIII) A. Grothendieck : a) Produits tensoriels topologiques et espaces nucléaires, Mem. Amer. Math. Soc., n° 16 (1955) ; b) Espaces vectoriels topologiques, 3e éd., São Paulo (Publ. Soc. Mat. São Paulo), 1964.
 
 Chỉ mục ký hiệu
 
