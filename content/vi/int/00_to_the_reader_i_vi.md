@@ -30,16 +30,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 3. Bộ sách được chia thành các Quyển, và mỗi Quyển thành các chương. Các Quyển đã được xuất bản, toàn bộ hoặc một phần, trong ấn bản tiếng Pháp, được liệt kê dưới đây. Khi có bản dịch tiếng Anh, nhan đề tiếng Anh tương ứng được nêu trong dấu ngoặc đơn. Trong toàn bộ tập sách, một tham chiếu chỉ đến ấn bản tiếng Anh khi có sẵn, và nếu không thì đến ấn bản tiếng Pháp.
 
-Lý thuyết tập hợp (Theory of Sets) được ký hiệu bởi E (S)
-Đại số (Algebra) — A (A)
-Tôpô tổng quát (General Topology) — TG (GT)
-Hàm của một biến thực (Functions of a Real Variable) — FVR (FRV)
-Không gian vectơ tôpô (Topological Vector Spaces) — EVT (TVS)
-Tích phân (Integration) — INT (INT)
-Đại số giao hoán (Commutative Algebra) — AC (CA)
-Đa tạp vi phân và giải tích — VAR
-Nhóm và đại số Lie (Lie Groups and Lie Algebras) — LIE (LIE)
-Các lý thuyết phổ — TS
+Lý thuyết tập hợp (Theory of Sets) được ký hiệu bởi E (S) Đại số (Đại số) — A (A) Tôpô tổng quát (Tôpô tổng quát) — TG (GT) Hàm của một biến thực (Hàm của một biến thực) — FVR (FRV) Không gian vectơ tôpô (Không gian vectơ tôpô) — EVT (TVS) Tích phân (Integration) — INT (INT) Đại số giao hoán (Đại số giao hoán) — AC (CA) Đa tạp vi phân và giải tích — VAR Nhóm và đại số Lie (Lie Groups and Đại số Lie) — LIE (LIE) Các lý thuyết phổ — TS
 
 Trong sáu Quyển đầu tiên (theo thứ tự trên), mọi mệnh đề trong văn bản chỉ giả sử đã biết những kết quả đã được thảo luận trong cùng một chương, hoặc trong các chương trước được sắp xếp như sau: S; A, các Chương I đến III; GT, các Chương I đến III; A, từ Chương IV trở đi; GT, từ Chương IV trở đi; FRV; TVS; INT.
 

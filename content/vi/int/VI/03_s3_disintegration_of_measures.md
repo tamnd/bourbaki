@@ -151,7 +151,7 @@ Nếu $\nu$ là một ảnh giả của $\mu$ dưới $p$, thì tập các độ
 
 — *Cho T là một không gian compact địa phương đếm được ở vô cùng, $\mu$ là một độ đo dương trên T, và $p$ là một ánh xạ $\mu$-khả đo được của T vào một không gian compact địa phương B. Khi đó tồn tại một độ đo ảnh giả của $\mu$ dưới $p$.*
 
-Vì tồn tại một độ đo *bị chặn* $\mu'$ trên T tương đương với $\mu$ (Ch. V, §5, No. 6, Mệnh đề 11); khi đó $p$ là $\mu'$-proper.
+Vì tồn tại một độ đo *bị chặn* $\mu'$ trên T tương đương với $\mu$ (Ch. V, §5, No. 6, Mệnh đề 11); khi đó $p$ là $\mu'$-thực sự.
 
 ### 3. Sự phân rã của một độ đo $\mu$ theo một ảnh giả của $\mu$
 
