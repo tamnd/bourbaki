@@ -30,16 +30,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 3. Bộ sách được chia thành các Quyển và mỗi Quyển thành các chương. Các Quyển đã được xuất bản, toàn bộ hoặc một phần, trong bản tiếng Pháp được liệt kê dưới đây. Khi có bản dịch tiếng Anh, nhan đề tiếng Anh tương ứng được nêu trong dấu ngoặc đơn. Trong toàn bộ tập sách, một tham chiếu chỉ bản tiếng Anh khi có sẵn, và bản tiếng Pháp trong các trường hợp khác.
 
-LÝ THUYẾT TẬP HỢP (Theory of Sets)    được ký hiệu bởi E    (S)
-Đại số (Algebra$^{(1)}$)                —                A    (A)
-Tôpô Tổng quát (General Topology)      —                TG   (GT)
-Hàm của một Biến thực                  —                FVR
-Các Không gian Vectơ Tôpô (Topological Vector Spaces) —                EVT   (TVS)
-Tích phân                                —                INT
-Đại số Giao hoán (Commutative Algebra$^{(2)}$) —        AC    (CA)
-Các Đa tạp Vi phân và Giải tích          —                VAR
-Các Nhóm và Đại số Lie (Lie Groups and Lie Algebras$^{(3)}$) —        LIE   (LIE)
-Các Lý thuyết Phổ                        —                TS
+LÝ THUYẾT TẬP HỢP (Lý thuyết of Sets)    được ký hiệu bởi E    (S) Đại số (Đại số$^{(1)}$)                —                A    (A) Tôpô Tổng quát (General Tôpô)      —                TG   (GT) Hàm của một Biến thực                  —                FVR Các Không gian Vectơ Tôpô (Topological Vectơ Spaces) —                EVT   (TVS) Tích phân                                —                INT Đại số Giao hoán (Đại số giao hoán$^{(2)}$) —        AC    (CA) Các Đa tạp Vi phân và Giải tích          —                VAR Các Nhóm và Đại số Lie (Lie Groups and Đại số Lie$^{(3)}$) —        LIE   (LIE) Các Lý thuyết Phổ                        —                TS
 
 (1) Cho đến nay, chỉ các chương I đến III đã được dịch.
 (2) Cho đến nay, chỉ các chương I đến VII đã được dịch.
