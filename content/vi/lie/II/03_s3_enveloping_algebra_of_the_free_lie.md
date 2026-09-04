@@ -75,7 +75,7 @@ $$
 
 (2) Hệ quả 2 của Định lý 1 vẫn đúng nếu chỉ giả thiết rằng nhóm cộng của vành K là không xoắn. Thật vậy, trước hết giả sử $K = \mathbf{Z}$; mọi phần tử nguyên thủy của $A(X)$ là một phần tử nguyên thủy của $A_q(X)$ và do đó thuộc $L_q(X) \cap A(X) = L(X)$ (Hệ quả 2 và công thức (1)). Trong trường hợp tổng quát, K là phẳng trên $\mathbf{Z}$ và ta áp dụng Nhận xét 2 của § 1, no. 2 và Mệnh đề 3 của § 2, no. 5.
 
-(3) Cho $\Delta$ là một monoid giao hoán, $\phi_0$ một ánh xạ từ $X$ vào $\Delta$ và $\phi : Mo(X) \to \Delta$ là đồng cấu của monoid liên kết; nếu $A(X)$ được cho phân bậc $(A^\delta(X))_{\delta \in \Delta}$ được định nghĩa trong *Algebra*, Chương III, § 3, no. 1, *Ví dụ* 3 và $L(X)$ phân bậc $(L^\delta(X))_{\delta \in \Delta}$ được định nghĩa trong § 2, no. 6, thì ta có ngay lập tức, với $\delta \in \Delta$, $L^\delta(X) \subset L(X) \cap A^\delta(X)$. Vì $L$ là tổng của các $L^\delta(X)$ với $\delta \in \Delta$, và tổng của các $L(X) \cap A^\delta(X)$ với $\delta \in \Delta$ là trực tiếp, điều đó suy ra
+(3) Cho $\Delta$ là một monoid giao hoán, $\phi_0$ một ánh xạ từ $X$ vào $\Delta$ và $\phi : Mo(X) \to \Delta$ là đồng cấu của monoid liên kết; nếu $A(X)$ được cho phân bậc $(A^\delta(X))_{\delta \in \Delta}$ được định nghĩa trong *Đại số*, Chương III, § 3, no. 1, *Ví dụ* 3 và $L(X)$ phân bậc $(L^\delta(X))_{\delta \in \Delta}$ được định nghĩa trong § 2, no. 6, thì ta có ngay lập tức, với $\delta \in \Delta$, $L^\delta(X) \subset L(X) \cap A^\delta(X)$. Vì $L$ là tổng của các $L^\delta(X)$ với $\delta \in \Delta$, và tổng của các $L(X) \cap A^\delta(X)$ với $\delta \in \Delta$ là trực tiếp, điều đó suy ra
 
 $$
 L^\delta(X) = L(X) \cap A^\delta(X).
@@ -91,7 +91,7 @@ A(I)
 \end{array}
 $$
 
-trong đó $i$ là đơn ánh chính tắc, $f_t$ là đồng cấu đại số Lie được xác định bởi $t$ và $g_t$ là đồng cấu đại số có đơn vị sao cho $g_t(i) = t_i$ với $i \in I$. Biểu đồ là giao hoán vì $g_t \circ i$ và $f_t$ trùng nhau trên $I$. Suy ra rằng nếu $P \in L(I)$, phần tử $P((t_i)_{i \in I})$ được định nghĩa trong § 2, no. 4 trùng với phần tử $P((t_i)_{i \in I})$ được định nghĩa trong *Algebra*, Chương III, § 2, no. 8, *Ví dụ* 2.
+trong đó $i$ là đơn ánh chính tắc, $f_t$ là đồng cấu đại số Lie được xác định bởi $t$ và $g_t$ là đồng cấu đại số có đơn vị sao cho $g_t(i) = t_i$ với $i \in I$. Biểu đồ là giao hoán vì $g_t \circ i$ và $f_t$ trùng nhau trên $I$. Suy ra rằng nếu $P \in L(I)$, phần tử $P((t_i)_{i \in I})$ được định nghĩa trong § 2, no. 4 trùng với phần tử $P((t_i)_{i \in I})$ được định nghĩa trong *Đại số*, Chương III, § 2, no. 8, *Ví dụ* 2.
 
 ### 2. PHÉP CHIẾU CỦA $A^+(X)$ LÊN $L(X)$
 
@@ -248,7 +248,7 @@ $$
 c(\alpha) = \frac{1}{|\alpha|} \sum_{d|\alpha} \mu(d) \frac{(|\alpha|/d)!}{(\alpha/d)!}.
 $$
 
-Ta đã biết rằng các môđun $L^r(X)$, với $r \in \mathbf{N}$, và $L^\alpha(X)$, với $\alpha \in \mathbf{N}^X$, đều là tự do (§ 2, no. 11, Hệ quả của Định lý 1). Xét đa phân bậc $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ của $A(X)$ được xác định bởi đồng cấu chính tắc $\phi$ từ $Mo(X)$ vào $\mathbf{N}^X$ (*Algebra*, Chương III, § 3, no. 1, *Ví dụ 3*); khi đó $A^\alpha(X) \cap L(X) = L^\alpha(X)$ theo *Nhận xét 3* của no. 1. Với $\alpha \in \mathbf{N}^X$, $K$-môđun $A^\alpha(X)$ nhận làm cơ sở tập hợp các từ trong đó mỗi chữ cái $x$ của $X$ xuất hiện $\alpha(x)$ lần. Gọi $d(\alpha)$ là số các từ đó, tức là hạng của $A^\alpha(X)$; ta sẽ tính theo hai cách khác nhau chuỗi lũy thừa hình thức
+Ta đã biết rằng các môđun $L^r(X)$, với $r \in \mathbf{N}$, và $L^\alpha(X)$, với $\alpha \in \mathbf{N}^X$, đều là tự do (§ 2, no. 11, Hệ quả của Định lý 1). Xét đa phân bậc $(A^\alpha(X))_{\alpha \in \mathbf{N}^X}$ của $A(X)$ được xác định bởi đồng cấu chính tắc $\phi$ từ $Mo(X)$ vào $\mathbf{N}^X$ (*Đại số*, Chương III, § 3, no. 1, *Ví dụ 3*); khi đó $A^\alpha(X) \cap L(X) = L^\alpha(X)$ theo *Nhận xét 3* của no. 1. Với $\alpha \in \mathbf{N}^X$, $K$-môđun $A^\alpha(X)$ nhận làm cơ sở tập hợp các từ trong đó mỗi chữ cái $x$ của $X$ xuất hiện $\alpha(x)$ lần. Gọi $d(\alpha)$ là số các từ đó, tức là hạng của $A^\alpha(X)$; ta sẽ tính theo hai cách khác nhau chuỗi lũy thừa hình thức
 
 $$
 P((T_x)_{x \in X}) \in \mathbf{Z}[[((T_x)_{x \in X})]]

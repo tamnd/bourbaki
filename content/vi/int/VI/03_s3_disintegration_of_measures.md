@@ -139,7 +139,7 @@ Mọi họ $\nu$-thích hợp $b \mapsto \lambda_b$ các độ đo dương trên
 
 #### Ví dụ {#int-vi-s3-n2-exa-1 .statement}
 
-— 1) Nếu $p$ là $\mu$-proper và $\nu = p(\mu)$, thì $\nu$ là một độ đo ảnh giả của $\mu$ dưới $p$ (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2).
+— 1) Nếu $p$ là $\mu$-thực sự và $\nu = p(\mu)$, thì $\nu$ là một độ đo ảnh giả của $\mu$ dưới $p$ (Ch. V, §6, No. 2, Hệ quả 2 của Mệnh đề 2).
 
 2) Cho $B'$ là một không gian compact địa phương, $\nu'$ là một độ đo dương trên $B'$; lấy T là không gian $B \times B'$ và $\mu$ là độ đo $\nu \otimes \nu'$; nếu $p$ là phép chiếu của T lên B, thì $\nu$ là một độ đo ảnh giả của $\mu$ dưới $p$ (Ch. V, §8, No. 2, Mệnh đề 4 và No. 3, Hệ quả 1 của Mệnh đề 7).
 
