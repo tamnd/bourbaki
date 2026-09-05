@@ -1,5 +1,5 @@
 {
-  "ran": "2026-09-04T13:44:11Z",
+  "ran": "2026-09-05T06:06:26Z",
   "set": "the built-in set",
   "of": 20,
   "outcomes": [
@@ -9,11 +9,10 @@
       "expect": "accept",
       "why": "The induction runs over the construction of the object, and both halves of the conclusion come out of it.",
       "read": "claude 2026-08-19, written down on the solution as hand_read, awaiting owner countersign",
-      "status": "unverified",
+      "status": "verified",
       "judged": true,
-      "truth_judge_passed": false,
+      "truth_judge_passed": true,
       "audit_judge_passed": true,
-      "judge_said": "the verdict is fail",
       "calls": 3
     },
     {
@@ -52,7 +51,7 @@
       "truth_judge_passed": false,
       "audit_judge_passed": true,
       "judge_said": "the verdict is fail",
-      "calls": 4
+      "calls": 3
     },
     {
       "label": "ens-i-s1-ex-3",
@@ -60,11 +59,10 @@
       "expect": "accept",
       "why": "Right throughout, with one phrase in the fourth case garbled by the reading rather than by the argument.",
       "read": "claude 2026-08-19, written down on the solution as hand_read, awaiting owner countersign",
-      "status": "unverified",
+      "status": "verified",
       "judged": true,
       "truth_judge_passed": true,
-      "audit_judge_passed": false,
-      "judge_said": "the audit verdict is fail",
+      "audit_judge_passed": true,
       "calls": 3
     },
     {
@@ -86,11 +84,10 @@
       "expect": "accept",
       "why": "The chain of criteria is cited in the right order, and the term it turns on is identified before anything is substituted into it.",
       "read": "claude 2026-08-19, written down on the solution as hand_read, awaiting owner countersign",
-      "status": "unverified",
+      "status": "verified",
       "judged": true,
-      "truth_judge_passed": false,
+      "truth_judge_passed": true,
       "audit_judge_passed": true,
-      "judge_said": "the verdict is fail",
       "calls": 3
     },
     {
@@ -112,11 +109,10 @@
       "expect": "accept",
       "why": "Both directions are argued, and the one specialisation it makes along the way costs nothing.",
       "read": "claude 2026-08-19, written down on the solution as hand_read, awaiting owner countersign",
-      "status": "unverified",
+      "status": "verified",
       "judged": true,
-      "truth_judge_passed": false,
+      "truth_judge_passed": true,
       "audit_judge_passed": true,
-      "judge_said": "the verdict is fail",
       "calls": 3
     },
     {
@@ -127,9 +123,9 @@
       "read": "claude 2026-08-19, awaiting owner countersign",
       "status": "partial",
       "judged": true,
-      "truth_judge_passed": false,
+      "truth_judge_passed": true,
       "audit_judge_passed": false,
-      "judge_said": "the verdict is fail",
+      "judge_said": "the audit verdict is fail",
       "calls": 3
     },
     {
@@ -156,7 +152,7 @@
       "truth_judge_passed": false,
       "audit_judge_passed": false,
       "judge_said": "the verdict is fail",
-      "calls": 3
+      "calls": 4
     },
     {
       "label": "ens-ii-s1-ex-3",
@@ -263,11 +259,11 @@
     "accepts": 10,
     "rejects": 10,
     "false_accepts": 0,
-    "false_rejects": 5,
+    "false_rejects": 1,
     "unjudged": 0
   },
   "rates": {
     "false_accept": 0,
-    "false_reject": 0.5
+    "false_reject": 0.1
   }
 }
