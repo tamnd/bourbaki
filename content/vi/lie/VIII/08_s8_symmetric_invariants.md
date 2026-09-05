@@ -208,7 +208,7 @@ Cho $f$ là một hàm đa thức trên $\mathfrak{g}$. Các điều kiện sau 
 
 (ii) $f\circ s=f$ for all $s\in$ Aut$_0(\mathfrak{g})$;
 
-(iii) $f$ is invariant.
+(iii) $f$ is bất biến.
 
 Sự tương đương của (i) và (iii) suy ra từ công thức (2) và Bổ đề 3. Từ đó suy ra rằng (iii) kéo theo (ii) bằng mở rộng trường cơ sở. Kéo theo (ii) $=\Rightarrow$ (i) là rõ ràng.
 

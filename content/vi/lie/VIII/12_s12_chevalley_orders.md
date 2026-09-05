@@ -563,7 +563,7 @@ $p=0$
 
 do đó (ii) theo quy nạp trên $n$.
 
-### 6. CÁC BIORDER TRONG ĐẠI SỐ BAO CỦA MỘT ĐẠI SỐ LIE REDUCTIVE TÁCH ĐƯỢC
+### 6. CÁC SONG THỨ TỰ TRONG ĐẠI SỐ BAO CỦA MỘT ĐẠI SỐ LIE KHẢ QUY TÁCH ĐƯỢC
 
 Cho $\mathfrak{g}$ là một đại số Lie khả quy trên $\mathbf{Q},\mathfrak{h}$ là một đại số con Cartan tách của $\mathfrak{g}$, và $R = R(\mathfrak{g},\mathfrak{h}) ($§2, no. 1, Nhận xét 5).
 
@@ -583,7 +583,7 @@ Cho $\mathfrak{c}$ là tâm của $\mathfrak{g}$. Khi đó, một dàn $\mathscr
 
 Nếu $\mathfrak{g}$ là nửa đơn, các dàn chấp nhận được trong $\mathfrak{h}$ là các nhóm con $\mathscr{H}$ của $\mathfrak{h}$ sao cho $Q(R^{\vee})\subset \mathscr{H}\subset P(R^{\vee})$.
 
-Trong phần còn lại của số này, ta giả sử cố định một đại số Lie reductive tách được $(\mathfrak{g},\mathfrak{h})$, một cơ sở B của $R = R(\mathfrak{g},\mathfrak{h})$ và, với mỗi $\alpha \in B$, một cặp $(x_{\alpha}, y_{\alpha})$ với
+Trong phần còn lại của số này, ta giả sử cố định một đại số Lie khả quy tách được $(\mathfrak{g},\mathfrak{h})$, một cơ sở B của $R = R(\mathfrak{g},\mathfrak{h})$ và, với mỗi $\alpha \in B$, một cặp $(x_{\alpha}, y_{\alpha})$ với
 
 $$
 y_{\alpha}\in \mathfrak{g}^{-\alpha},x_{\alpha}\in \mathfrak{g}^{\alpha},[y_{\alpha}, x_{\alpha}] =H_{\alpha} \tag{20}
@@ -789,7 +789,7 @@ Ta đã thu được nhân tiện một chứng minh mới về sự tồn tại
 
 ### 7. CÁC TRẬT TỰ CHEVALLEY
 
-Cho $(\mathfrak{g},\mathfrak{h})$ là một đại số Lie reductive tách được trên $\mathbf{Q}, R$ là hệ nghiệm của nó. Hãy chọn:
+Cho $(\mathfrak{g},\mathfrak{h})$ là một đại số Lie khả quy tách được trên $\mathbf{Q}, R$ là hệ nghiệm của nó. Hãy chọn:
 
 a) một dàn cho phép $\mathscr{H}$ trong $\mathfrak{h}$ (no. 6, Định nghĩa 1);
 

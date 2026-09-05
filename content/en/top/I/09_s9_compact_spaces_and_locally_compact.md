@@ -51,9 +51,9 @@ subsections:
       title: PARACOMPACT SPACES
       page: 94
       pdf_page: 100
-statements: 50
+statements: 52
 exercises: 4
-content_sha256: 971ee7da2f11258dedc7ba38ab2213e2686bce320dbffdb28b60f17318a47dc8
+content_sha256: 8e561e2bd6e591f9463a7dd23712950191e4684a7fca598e6c096e7571e930aa
 ---
 
 ## 9. COMPACT SPACES AND LOCALLY COMPACT SPACES
@@ -153,7 +153,10 @@ A subset $A$ of a topological space $X$ is a quasi-compact set if and only if ev
 #### Example 1 {#top-i-s9-n3-exa-1 .statement}
 
 In a topological space $X$, every finite subset is quasi-compact; the empty set and every set consisting of one point are compact.
-2) In a topological space $X$, let $(x_n)_{n \in \mathbf{N}}$ be an infinite sequence of points which converges to a point $a$; then the set $A$ consisting of the points $x_n$ ($n \in \mathbf{N}$) and $a$ is quasi-compact. For if $(U_i)$ is a covering of $A$ by open sets of $X$, then $a \in U_x$ for some index $x$. $U_x$ is a neighbourhood of $a$ and therefore there is only a finite number of indices $n_k$ such that $x_{n_k} \notin U_x$. For each index $k$ let $i_k$ be an index such that $x_{n_k} \in U_{i_k}$; then $U_x$ and the $U_{i_k}$ form a finite open covering of $A$.
+
+#### Example 2 {#top-i-s9-n3-exa-2 .statement}
+
+In a topological space $X$, let $(x_n)_{n \in \mathbf{N}}$ be an infinite sequence of points which converges to a point $a$; then the set $A$ consisting of the points $x_n$ ($n \in \mathbf{N}$) and $a$ is quasi-compact. For if $(U_i)$ is a covering of $A$ by open sets of $X$, then $a \in U_x$ for some index $x$. $U_x$ is a neighbourhood of $a$ and therefore there is only a finite number of indices $n_k$ such that $x_{n_k} \notin U_x$. For each index $k$ let $i_k$ be an index such that $x_{n_k} \in U_{i_k}$; then $U_x$ and the $U_{i_k}$ form a finite open covering of $A$.
 
 #### Proposition 3 {#top-i-s9-prop-3 .statement}
 
@@ -378,7 +381,10 @@ When a compact space $X'$ has been constructed as above from a locally compact s
 #### Example 1 {#top-i-s9-n9-exa-1 .statement}
 
 A discrete space is $\sigma$-compact if and only if it is countable.
-\* 2) The real line $\mathbf{R}$ is locally compact and $\sigma$-compact, since it is the union of the compact intervals $[ -n, +n ]$ for $n \in \mathbf{N}$. \*
+
+#### Example 2 {#top-i-s9-n9-exa-2 .statement}
+
+\* The real line $\mathbf{R}$ is locally compact and $\sigma$-compact, since it is the union of the compact intervals $[ -n, +n ]$ for $n \in \mathbf{N}$. \*
 
 #### Remark {#top-i-s9-n9-rem-1 .statement}
 

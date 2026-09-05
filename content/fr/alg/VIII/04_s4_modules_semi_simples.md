@@ -45,7 +45,7 @@ subsections:
       pdf_page: 78
 statements: 43
 exercises: 8
-content_sha256: 6e05792b2214752bac76957290949c9823f6adeb55394696eaca8f1ac8da7073
+content_sha256: 5ae93bed4af739d95fd281823fbe68b35ff92d689266260c49e62db425abfd9e
 ---
 
 ## § 4. MODULES SEMI-SIMPLES
@@ -198,55 +198,55 @@ pour $p \in P$ et $v \in V$. Nous dirons que $\beta_V$ est l’application B-lin
 
 $$
 \begin{array}{ccc}
-V & \xrightarrow{\beta_V} & \mathcal{H}(\mathcal{T}(V)) \\
-\downarrow g & & \downarrow \mathcal{H}(\mathcal{T}(g)) \\
-V' & \xrightarrow{\beta_{V'}} & \mathcal{H}(\mathcal{T}(V')).
+V & \xrightarrow{\beta_V} & \mathscr{H}(\mathscr{T}(V)) \\
+\downarrow g & & \downarrow \mathscr{H}(\mathscr{T}(g)) \\
+V' & \xrightarrow{\beta_{V'}} & \mathscr{H}(\mathscr{T}(V')).
 \end{array}
 $$
 
-Notons que le morphisme d’adjonction (5) coïncide avec l’application qui envoie $u$ sur $\mathcal{H}(u) \circ \beta_V$. En effet, des relations (6) et (8), on déduit les égalités
+Notons que le morphisme d’adjonction (5) coïncide avec l’application qui envoie $u$ sur $\mathscr{H}(u) \circ \beta_V$. En effet, des relations (6) et (8), on déduit les égalités
 
 $$(\gamma(u)(v))(p) = u(p \otimes v) = u \circ (\beta_V(v))(p)$$
 
-pour tous $u \in \operatorname{Hom}_A(\mathcal{T}(V), M)$, $v \in V$ et $p \in P$.
+pour tous $u \in \operatorname{Hom}_A(\mathscr{T}(V), M)$, $v \in V$ et $p \in P$.
 
 #### Remarque 1 {#alg-viii-s4-n3-rem-1 .statement tag=004A}
 
 Soient $V$ et $V'$ des $B$-modules. L’isomorphisme d’adjonction
 
-$$\gamma : \operatorname{Hom}_A(\mathcal{T}(V), \mathcal{T}(V')) \longrightarrow \operatorname{Hom}_B(V, \mathcal{H}(\mathcal{T}(V)))$$
+$$\gamma : \operatorname{Hom}_A(\mathscr{T}(V), \mathscr{T}(V')) \longrightarrow \operatorname{Hom}_B(V, \mathscr{H}(\mathscr{T}(V)))$$
 
-vérifie la relation $\gamma(\mathcal{T}(f)) = \beta_{V'} \circ f$ pour tout $f \in \operatorname{Hom}_B(V, V')$, puisque
+vérifie la relation $\gamma(\mathscr{T}(f)) = \beta_{V'} \circ f$ pour tout $f \in \operatorname{Hom}_B(V, V')$, puisque
 
-$$(\gamma(\mathcal{T}(f))(v))(p) = \mathcal{T}(f)(p \otimes v) = p \otimes f(v) = (\beta_{V'} \circ f)(v)(p).$$
+$$(\gamma(\mathscr{T}(f))(v))(p) = \mathscr{T}(f)(p \otimes v) = p \otimes f(v) = (\beta_{V'} \circ f)(v)(p).$$
 
 Soient $M$ et $M'$ des $A$-modules ; l’inverse de l’isomorphisme d’adjonction
 
-$$\gamma^{-1} : \operatorname{Hom}_B(\mathcal{H}(M), \mathcal{H}(M')) \longrightarrow \operatorname{Hom}_A(\mathcal{T}(\mathcal{H}(M)), M')$$
+$$\gamma^{-1} : \operatorname{Hom}_B(\mathscr{H}(M), \mathscr{H}(M')) \longrightarrow \operatorname{Hom}_A(\mathscr{T}(\mathscr{H}(M)), M')$$
 
-vérifie la relation $\gamma^{-1}(\mathcal{H}(u)) = u \circ \alpha_M$, pour tout $u \in \operatorname{Hom}_B(M, M')$. En effet, on a les relations
+vérifie la relation $\gamma^{-1}(\mathscr{H}(u)) = u \circ \alpha_M$, pour tout $u \in \operatorname{Hom}_B(M, M')$. En effet, on a les relations
 
-$$\gamma^{-1}(\mathcal{H}(u))(p \otimes v) = (\mathcal{H}(u)(v))(p) = u(v(p)) = u \circ \alpha_M(p \otimes v)$$
+$$\gamma^{-1}(\mathscr{H}(u))(p \otimes v) = (\mathscr{H}(u)(v))(p) = u(v(p)) = u \circ \alpha_M(p \otimes v)$$
 
-pour tous $u \in \operatorname{Hom}_B(M, M')$, $v \in \mathcal{H}(M)$ et $p \in P$.
+pour tous $u \in \operatorname{Hom}_B(M, M')$, $v \in \mathscr{H}(M)$ et $p \in P$.
 
 #### Remarque 2 {#alg-viii-s4-n3-rem-2 .statement tag=004B}
 
 Soit $M$ un $A$-module à gauche. Les applications $B$-linéaires
 
-$$\beta_{\mathcal{H}(M)} : \mathcal{H}(M) \to \mathcal{H}(\mathcal{T}(\mathcal{H}(M))) \quad \text{et} \quad \mathcal{H}(\alpha_M) : \mathcal{H}(\mathcal{T}(\mathcal{H}(M))) \to \mathcal{H}(M)$$
+$$\beta_{\mathscr{H}(M)} : \mathscr{H}(M) \to \mathscr{H}(\mathscr{T}(\mathscr{H}(M))) \quad \text{et} \quad \mathscr{H}(\alpha_M) : \mathscr{H}(\mathscr{T}(\mathscr{H}(M))) \to \mathscr{H}(M)$$
 
-satisfont la relation $\mathcal{H}(\alpha_M) \circ \beta_{\mathcal{H}(M)} = 1_{\mathcal{H}(M)}$. Elles ne sont pas bijectives en général.
+satisfont la relation $\mathscr{H}(\alpha_M) \circ \beta_{\mathscr{H}(M)} = 1_{\mathscr{H}(M)}$. Elles ne sont pas bijectives en général.
 
 Soit $V$ un $B$-module à gauche. Les applications $A$-linéaires
 
-$$\mathcal{T}(\beta_V) : \mathcal{T}(V) \to \mathcal{T}(\mathcal{H}(\mathcal{T}(V))) \quad \text{et} \quad \alpha_{\mathcal{T}(V)} : \mathcal{T}(\mathcal{H}(\mathcal{T}(V))) \to \mathcal{T}(V)$$
+$$\mathscr{T}(\beta_V) : \mathscr{T}(V) \to \mathscr{T}(\mathscr{H}(\mathscr{T}(V))) \quad \text{et} \quad \alpha_{\mathscr{T}(V)} : \mathscr{T}(\mathscr{H}(\mathscr{T}(V))) \to \mathscr{T}(V)$$
 
-satisfont la relation $\alpha_{\mathcal{T}(V)} \circ \mathcal{T}(\beta_V) = 1_{\mathcal{T}(V)}$. Elles ne sont pas bijectives en général.
+satisfont la relation $\alpha_{\mathscr{T}(V)} \circ \mathscr{T}(\beta_V) = 1_{\mathscr{T}(V)}$. Elles ne sont pas bijectives en général.
 
 #### Remarque 3 {#alg-viii-s4-n3-rem-3 .statement tag=004C}
 
-Supposons que $P$ soit de type fini en tant que $A$-module. Soit $M$ la somme directe d’une famille $(M_i)_{i \in I}$ de $A$-modules. Les $A$-modules $\mathcal{T}(\mathcal{H}(M))$ et $\bigoplus_i \mathcal{T}(\mathcal{H}(M_i))$ sont canoniquement isomorphes. Lorsqu’on les identifie, $\alpha_M$ s’identifie à $\bigoplus_i \alpha_{M_i}$. De même, soit $V$ la somme directe d’une famille $(V_j)_{j \in J}$ de $B$-modules. Le B-module $\mathscr{H}(\mathscr{T}(V))$ s’identifie à $\bigoplus_j\mathscr{H}(\mathscr{T}(V_j))$ et l’application linéaire $\beta_V$ à $\bigoplus_j\beta_{V_j}$.
+Supposons que $P$ soit de type fini en tant que $A$-module. Soit $M$ la somme directe d’une famille $(M_i)_{i \in I}$ de $A$-modules. Les $A$-modules $\mathscr{T}(\mathscr{H}(M))$ et $\bigoplus_i \mathscr{T}(\mathscr{H}(M_i))$ sont canoniquement isomorphes. Lorsqu’on les identifie, $\alpha_M$ s’identifie à $\bigoplus_i \alpha_{M_i}$. De même, soit $V$ la somme directe d’une famille $(V_j)_{j \in J}$ de $B$-modules. Le B-module $\mathscr{H}(\mathscr{T}(V))$ s’identifie à $\bigoplus_j\mathscr{H}(\mathscr{T}(V_j))$ et l’application linéaire $\beta_V$ à $\bigoplus_j\beta_{V_j}$.
 
 ### 4. Modules isotypiques
 

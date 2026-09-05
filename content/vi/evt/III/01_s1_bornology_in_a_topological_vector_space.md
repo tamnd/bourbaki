@@ -280,8 +280,7 @@ Ta sẽ nói rằng một không gian đều $X$ là *nửa đầy đủ* nếu 
 
 #### Mệnh đề 10 {#evt-iii-s1-prop-10 .statement}
 
-— *Cho E là một không gian lồi địa phương, M là một không gian con vectơ của E sao cho mọi điểm của E đều thuộc bao đóng của một tập con bị chặn của M. Khi đó mọi ánh xạ tuyến tính liên tục f từ M vào một không gian lồi địa phương Hausdorff gần đầy đủ F đều duy nhất mở rộng thành một ánh xạ tuyến tính liên tục từ E vào F.*
-    Giả thiết suy ra rằng M trù mật trong E, do đó f duy nhất mở rộng thành một ánh xạ tuyến tính liên tục $\hat{f}$ từ E vào phần bù $\hat{F}$ của F (GT, III, § 3, No. 4, corollary). Nhưng mọi $x \in F$ đều thuộc bao đóng của một tập con bị chặn B của M; do đó $\hat{f}(x)$ thuộc bao đóng của $f(B)$ trong $\hat{F}$. Nhưng $f(B)$ bị chặn trong F, do đó bao đóng của nó trong F là đầy đủ, và trùng với bao đóng của nó trong $\hat{F}$. Điều này chứng minh rằng $\hat{f}(x) \in F$.
+— *Cho E là một không gian lồi địa phương, M là một không gian con vectơ của E sao cho mọi điểm của E đều thuộc bao đóng của một tập con bị chặn của M. Khi đó mọi ánh xạ tuyến tính liên tục f từ M vào một không gian lồi địa phương Hausdorff gần đầy đủ F đều duy nhất mở rộng thành một ánh xạ tuyến tính liên tục từ E vào F.* Giả thiết suy ra rằng M trù mật trong E, do đó f duy nhất mở rộng thành một ánh xạ tuyến tính liên tục $\hat{f}$ từ E vào phần bù $\hat{F}$ của F (GT, III, § 3, No. 4, hệ quả). Nhưng mọi $x \in F$ đều thuộc bao đóng của một tập con bị chặn B của M; do đó $\hat{f}(x)$ thuộc bao đóng của $f(B)$ trong $\hat{F}$. Nhưng $f(B)$ bị chặn trong F, do đó bao đóng của nó trong F là đầy đủ, và trùng với bao đóng của nó trong $\hat{F}$. Điều này chứng minh rằng $\hat{f}(x) \in F$.
 
 ### 7. Các ví dụ
 

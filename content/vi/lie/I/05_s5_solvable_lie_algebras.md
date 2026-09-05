@@ -177,7 +177,7 @@ $$
 
 *Giả sử rằng $K$ đóng đại số. Nếu $g$ là một đại số Lie giải được $r$-chiều, thì mọi iđêan của $g$ là một số hạng của một dãy giảm các iđêan có các chiều $r, r-1, \ldots, 0$.*
 
-Mọi iđêan đều là một phần của một chuỗi Jordan-Hölder của $g$, được xét như không gian của biểu diễn phụ hợp (*Algebra*, Chương I, § 6, no. 14, Hệ quả của Định lý 8); khi đó chỉ cần áp dụng Hệ quả 2.
+Mọi iđêan đều là một phần của một chuỗi Jordan-Hölder của $g$, được xét như không gian của biểu diễn phụ hợp (*Đại số*, Chương I, § 6, no. 14, Hệ quả của Định lý 8); khi đó chỉ cần áp dụng Hệ quả 2.
 
 #### Hệ quả 4 {#lie-i-s5-thm-1-cor-4 .statement}
 

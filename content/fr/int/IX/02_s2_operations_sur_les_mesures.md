@@ -38,9 +38,9 @@ subsections:
       title: Un résultat sur la désintégration des mesures
       page: 0
       pdf_page: 37
-statements: 36
+statements: 40
 exercises: 3
-content_sha256: f368eccd219b0297be6a49bf90230470b15cefbf31ec297acadaed4bd5f4460a
+content_sha256: 66020068ded1ac45c1a2eb80c727490afc00ca33f16b07ac3958bb16389ce06a
 ---
 
 ## § 2. Opérations sur les mesures
@@ -71,7 +71,10 @@ $\mu^*(f^0) = \sup_L \mu^*(f^0 \varphi_L)$, L parcourant l’ensemble des partie
 #### Remarque 1 {#int-ix-s2-n1-rem-1 .statement}
 
 La relation $(\mu_X)^* = (\mu^*)_X$ permet d’utiliser sans ambiguïté la notation $\mu_X^*$; nous le ferons dans toute la suite. La prop. 1 précédente et la prop. 2 du $§ 1$, n° 2 montrent que les mesures notées $\mu_K$ jusqu’à présent, pour K compact, sont bien des mesures induites au sens de la déf. 1. De même, si T est localement compact, et si X est un sous-espace localement compact de T, la prop. 1 ci-dessus et la prop. 1 du chap. V, 2e éd., $§ 7$, n° 1 montrent que la déf. 1 coïncide avec celle du chap. IV, 2e éd., $§ 5$, n° 7.
-2) La déf. 1 s’étend au cas où $\mu$ est une mesure complexe sur T. Pour montrer dans ce cas que la prémesure $\mu_X$ est une mesure, il suffit de remarquer que $|\mu_K| = |\mu|_K$ pour tout compact K de X ($§ 1$, n° 2).
+
+#### Remarque 2 {#int-ix-s2-n1-rem-2 .statement}
+
+La déf. 1 s’étend au cas où $\mu$ est une mesure complexe sur T. Pour montrer dans ce cas que la prémesure $\mu_X$ est une mesure, il suffit de remarquer que $|\mu_K| = |\mu|_K$ pour tout compact K de X ($§ 1$, n° 2).
 
 D’après la prop. 1, une partie Y de X est $\mu_X$-mesurable (resp. localement $\mu_X$-négligeable) si et seulement si elle est $\mu$-mesurable (resp. localement $\mu$-négligeable). Si Y est $\mu_X$-mesurable, et donc $\mu$-mesurable, les mesures induites $(\mu_X)_Y$ et $\mu_Y$ sont évidemment égales en vertu de la prop. 1 (« transitivité des mesures induites »).
 
@@ -144,9 +147,18 @@ Soit $\pi$ une application de $T$ dans un espace topologique $X$. On dit que $\p
 #### Remarque 1 {#int-ix-s2-n3-rem-1 .statement}
 
 Lorsque $T$ et $X$ sont localement compacts, cette définition est équivalente à celle du chap. V, 2e éd., § 6, n° 1.
-2) Une application continue propre (Top. gén., 4e éd., chap. I, § 10, n° 1, déf. 1) de $T$ dans $X$ est $\mu$-propre pour toute mesure $\mu$. En effet, soit $x \in X$; comme $\pi^{-1}(x)$ est compact (loc. cit., n° 2, th. 1), l’ensemble $\pi^{-1}(x)$ possède un voisinage ouvert $H$ tel que $\mu^\bullet(H) < +\infty$. Posons $V = X - \pi(T - H)$; comme $\pi$ est fermée, $V$ est ouvert dans $X$, contient $x$, et on a $\pi^{-1}(V) \subset H$ d’où $\mu^\bullet(\pi^{-1}(V)) \leq \mu^\bullet(H) < +\infty$.
-3) Si $\mu$ est bornée, toute application $\mu$-mesurable de $T$ dans $X$ est $\mu$-propre.
-4) Si $\theta$ est une mesure complexe sur $T$, on dira que $\pi$ est $\theta$-propre si $\pi$ est propre pour la mesure positive $|\theta|$.
+
+#### Remarque 2 {#int-ix-s2-n3-rem-2 .statement}
+
+Une application continue propre (Top. gén., 4e éd., chap. I, § 10, n° 1, déf. 1) de $T$ dans $X$ est $\mu$-propre pour toute mesure $\mu$. En effet, soit $x \in X$; comme $\pi^{-1}(x)$ est compact (loc. cit., n° 2, th. 1), l’ensemble $\pi^{-1}(x)$ possède un voisinage ouvert $H$ tel que $\mu^\bullet(H) < +\infty$. Posons $V = X - \pi(T - H)$; comme $\pi$ est fermée, $V$ est ouvert dans $X$, contient $x$, et on a $\pi^{-1}(V) \subset H$ d’où $\mu^\bullet(\pi^{-1}(V)) \leq \mu^\bullet(H) < +\infty$.
+
+#### Remarque 3 {#int-ix-s2-n3-rem-3 .statement}
+
+Si $\mu$ est bornée, toute application $\mu$-mesurable de $T$ dans $X$ est $\mu$-propre.
+
+#### Remarque 4 {#int-ix-s2-n3-rem-4 .statement}
+
+Si $\theta$ est une mesure complexe sur $T$, on dira que $\pi$ est $\theta$-propre si $\pi$ est propre pour la mesure positive $|\theta|$.
 
 #### Proposition 4 {#int-ix-s2-prop-4 .statement}
 

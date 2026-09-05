@@ -38,9 +38,9 @@ subsections:
       title: Dérivées des fonctions numériques
       page: 18
       pdf_page: 16
-statements: 32
+statements: 37
 exercises: 9
-content_sha256: 852fb39dfe02b00538374c47ef611fa008c1ea8bba29572a1a04183e2cc6fca4
+content_sha256: affe3213f341ff8fde732fe4ba642c8423e564e35a98a1fff0abe93a7ff567af
 ---
 
 ## § 1. DÉRIVÉE PREMIÈRE
@@ -69,7 +69,10 @@ On exprime ces propriétés en disant que la notion de dérivée est une notion 
 #### Remarque 1 {#fvr-i-s1-n1-rem-1 .statement}
 
 En Cinématique, si le point $\mathbf{f}(t)$ est la position d’un point mobile dans l’espace $\mathbf{R}^3$ à l’instant $t$, $\frac{\mathbf{f}(t) - \mathbf{f}(t_0)}{t - t_0}$ est ce qu’on appelle la vitesse moyenne du mobile entre les instants $t_0$ et $t$, et sa limite $\mathbf{f}'(t_0)$ la vitesse instantanée (ou simplement vitesse) à l’instant $t_0$ (lorsque cette limite existe).*
-2) Si une fonction $\mathbf{f}$, définie dans $I$, est dérivable en un point $x_0 \in I$, elle est nécessairement continue par rapport à $I$ en ce point.
+
+#### Remarque 2 {#fvr-i-s1-n1-rem-2 .statement}
+
+Si une fonction $\mathbf{f}$, définie dans $I$, est dérivable en un point $x_0 \in I$, elle est nécessairement continue par rapport à $I$ en ce point.
 
 #### Définition 2 {#fvr-i-s1-def-2 .statement}
 
@@ -84,10 +87,22 @@ $$
 #### Exemple 1 {#fvr-i-s1-n1-exa-1 .statement}
 
 Une fonction constante a en tout point une dérivée nulle.
-2) Une fonction linéaire affine $x \mapsto ax + b$ a en tout point une dérivée égale à $a$, donc constante.
-3) La fonction numérique $1/x$ (définie pour $x \neq 0$) est dérivable en tout point $x_0 \neq 0$, car on a $\left( \frac{1}{x} - \frac{1}{x_0} \right)/(x - x_0) = -\frac{1}{xx_0}$, et comme $1/x$ est continue au point $x_0$, la limite de l’expression précédente est $-1/x_0^2$.
-4) La fonction numérique $|x|$, définie dans $\mathbf{R}$, admet au point $x = 0$ une dérivée à droite égale à $+1$ et une dérivée à gauche égale à $-1$; elle n’est donc pas dérivable en ce point.
-*5) La fonction numérique égale à 0 pour $x = 0$, à $x \sin 1/x$ pour $x \neq 0$, est définie et continue dans $\mathbf{R}$, mais elle n’admet ni dérivée à droite ni dérivée à gauche au point $x = 0$.* On peut donner des exemples de fonctions continues dans un intervalle et n’ayant de dérivée en aucun point de l’intervalle (I, p. 42, exerc. 2 et 3).
+
+#### Exemple 2 {#fvr-i-s1-n1-exa-2 .statement}
+
+Une fonction linéaire affine $x \mapsto ax + b$ a en tout point une dérivée égale à $a$, donc constante.
+
+#### Exemple 3 {#fvr-i-s1-n1-exa-3 .statement}
+
+La fonction numérique $1/x$ (définie pour $x \neq 0$) est dérivable en tout point $x_0 \neq 0$, car on a $\left( \frac{1}{x} - \frac{1}{x_0} \right)/(x - x_0) = -\frac{1}{xx_0}$, et comme $1/x$ est continue au point $x_0$, la limite de l’expression précédente est $-1/x_0^2$.
+
+#### Exemple 4 {#fvr-i-s1-n1-exa-4 .statement}
+
+La fonction numérique $|x|$, définie dans $\mathbf{R}$, admet au point $x = 0$ une dérivée à droite égale à $+1$ et une dérivée à gauche égale à $-1$; elle n’est donc pas dérivable en ce point.
+
+#### Exemple 5 {#fvr-i-s1-n1-exa-5 .statement}
+
+La fonction numérique égale à 0 pour $x = 0$, à $x \sin 1/x$ pour $x \neq 0$, est définie et continue dans $\mathbf{R}$, mais elle n’admet ni dérivée à droite ni dérivée à gauche au point $x = 0$.* On peut donner des exemples de fonctions continues dans un intervalle et n’ayant de dérivée en aucun point de l’intervalle (I, p. 42, exerc. 2 et 3).
 
 #### Définition 3 {#fvr-i-s1-def-3 .statement}
 
@@ -95,7 +110,7 @@ On dit qu’une fonction vectorielle $\mathbf{f}$ définie dans un intervalle $I
 
 dérivable à droite, dérivable à gauche) en tout point de $I$; la fonction $x \mapsto f'(x)$ (resp. $x \mapsto f'_d(x), x \mapsto f'_g(x)$) définie dans $I$, est appelée fonction dérivée ou (par abus de langage) dérivée (resp. dérivée à droite, dérivée à gauche) de $f$, et se note $f'$ ou $Df$ ou $df/dx$ (resp. $f'_d, f'_g$).
 
-#### Remarque {#fvr-i-s1-n1-rem-2 .statement}
+#### Remarque {#fvr-i-s1-n1-rem-3 .statement}
 
 Une fonction peut être dérivable dans un intervalle, sans que sa dérivée soit continue en tout point de cet intervalle (cf. I, p. 43, exerc. 5); \* c’est ce que montre l’exemple de la fonction égale à 0 pour $x = 0$, à $x^2 \sin 1/x$ pour $x \neq 0$; elle a partout une dérivée, mais cette dérivée est discontinue au point $x = 0$.*
 
@@ -131,7 +146,7 @@ Soit $f = (f_i)_{1 \leq i \leq n}$ une fonction à valeurs dans $\mathbf{R}^n$, 
 
 #### Exemple 2 {#fvr-i-s1-n2-exa-2 .statement}
 
-En Cinématique, si $f(t)$ est la position d’un mobile M à l’instant t, $g(t)$ la position au même instant de la projection M’ de M sur un plan P (resp. une droite D) parallèlement à une droite (resp. un plan) non parallèle à P (resp. à D), g est composée de la projection u de $\mathbf{R}^3$ sur P (resp. D) et de f; comme u est une application linéaire (continue), on voit que la projection de la vitesse d’un mobile sur un plan (resp. une droite) est égale à la vitesse de la projection du mobile sur le plan (resp. la droite).*
+\* En Cinématique, si $f(t)$ est la position d’un mobile M à l’instant t, $g(t)$ la position au même instant de la projection M’ de M sur un plan P (resp. une droite D) parallèlement à une droite (resp. un plan) non parallèle à P (resp. à D), g est composée de la projection u de $\mathbf{R}^3$ sur P (resp. D) et de f; comme u est une application linéaire (continue), on voit que la projection de la vitesse d’un mobile sur un plan (resp. une droite) est égale à la vitesse de la projection du mobile sur le plan (resp. la droite).*
 
 #### Exemple 3 {#fvr-i-s1-n2-exa-3 .statement}
 

@@ -31,9 +31,9 @@ subsections:
       title: Paracompacité des espaces métrisables
       page: 51
       pdf_page: 171
-statements: 24
+statements: 25
 exercises: 36
-content_sha256: f8e0c8227c5eb3c40adb2896ffcf62cfcd89ff4d8b59603b2b7020690b356ea4
+content_sha256: 4aac5a26df47505d14ddc0cffc9d8b8e878874159eae5fa4f5dc37e07518736b
 ---
 
 ## § 4. ESPACES NORMAUX
@@ -113,7 +113,10 @@ Soient $X$ un espace métrisable, $d$ une distance compatible avec la topologie 
 #### Remarque 1 {#top-ix-s4-n1-rem-1 .statement}
 
 La prop. 2 donne une nouvelle condition *nécessaire* pour qu’un espace topologique soit métrisable; mais cette condition, même jointe à toutes les conditions nécessaires données au § 2, ne donne pas un système de conditions suffisantes pour qu’un espace topologique soit métrisable (cf. IX, p. 113, exerc. 15).
-2) On peut donner des exemples d’espaces normaux qui ne sont ni métrisables ni localement compacts (voir IX, p. 113, exerc. 15).
+
+#### Remarque 2 {#top-ix-s4-n1-rem-2 .statement}
+
+On peut donner des exemples d’espaces normaux qui ne sont ni métrisables ni localement compacts (voir IX, p. 113, exerc. 15).
 
 D’après $(\mathrm{O}'_V)$, tout ensemble *fermé* dans un espace normal est un *sous-espace normal*; mais cette propriété n’est pas toujours exacte pour une partie *quelconque* d’un espace normal.
 

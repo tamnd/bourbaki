@@ -104,7 +104,7 @@ $$
 
 thuộc $C$, điều này chứng minh mệnh đề.
 
-2. The inequalities of Hölder and Minkowski
+2. Các bất đẳng thức của Hölder và Minkowski
 
 Trong số này và số tiếp theo, $X$ và $P$ có cùng nghĩa như trong No. 1, và $M$ ký hiệu một hàm xác định trên $P$ thỏa mãn các điều kiện được liệt kê trong No. 1.
 

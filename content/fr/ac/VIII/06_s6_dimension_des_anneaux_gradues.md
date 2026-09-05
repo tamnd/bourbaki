@@ -31,9 +31,9 @@ subsections:
       title: Algèbres graduées régulières
       page: 70
       pdf_page: 74
-statements: 27
+statements: 29
 exercises: 12
-content_sha256: 072fbb83f3edc3ae31061e2223d2348c0f0cefd204734f3bca8b6a3ac6ab872f
+content_sha256: bad92e41d0ccaeab016fbd03116c23c30080352ef6f69960c6ea8662454b7004
 ---
 
 ## § 6. DIMENSION DES ANNEAUX GRADUÉS
@@ -63,7 +63,10 @@ Supposons $H$ engendré par $H_0$ et $H_1$; alors pour tout $n$, on a $H_{n+1} =
 #### Exemple 1 {#ac-viii-s6-n1-exa-1 .statement}
 
 \* Soit $p$ un idéal premier gradué de $\mathbf{C}[X_0, ..., X_n]$ différent de l’idéal engendré par les $X_i$; soient $V$ la sous-variété algébrique de $\mathbf{P}^n(\mathbf{C})$ définie par $p$ et $C$ la sous-variété algébrique de $\mathbf{C}^{n+1}$ définie par $p$. Alors $C$ est le cône de base $V$, $H = \mathbf{C}[X_0, ..., X_n]/p$ est l’algèbre affine de $C$ et $S^{-1}H$ l’anneau local du cône $C$ en son sommet. \*
-2) Soient $A$ un anneau local et $a$ un idéal de $A$ distinct de $A$. Alors $H = \bigoplus_n a^n/a^{n+1}$ est un anneau gradué tel que $H_0 = A/a$ soit local ; il est engendré par $H_0$ et $H_1$. L’anneau $S^{-1}H$ est donc local et la filtration $(S^{-1}H_{\geq n})$ est la filtration $S^{-1}H_{\geq 1}$-adique. On prendra garde qu’en général les anneaux $A$ et $S^{-1}H$ ne sont pas isomorphes. \* En particulier une variété algébrique n’est pas en général localement isomorphe au voisinage d’un point à son cône des tangentes en ce point. \*
+
+#### Exemple 2 {#ac-viii-s6-n1-exa-2 .statement}
+
+Soient $A$ un anneau local et $a$ un idéal de $A$ distinct de $A$. Alors $H = \bigoplus_n a^n/a^{n+1}$ est un anneau gradué tel que $H_0 = A/a$ soit local ; il est engendré par $H_0$ et $H_1$. L’anneau $S^{-1}H$ est donc local et la filtration $(S^{-1}H_{\geq n})$ est la filtration $S^{-1}H_{\geq 1}$-adique. On prendra garde qu’en général les anneaux $A$ et $S^{-1}H$ ne sont pas isomorphes. \* En particulier une variété algébrique n’est pas en général localement isomorphe au voisinage d’un point à son cône des tangentes en ce point. \*
 
 ### 2. Dimension et chaînes d’idéaux gradués
 
@@ -304,7 +307,10 @@ Puisque H est de type fini comme $H_0$-algèbre, chaque $H_i$ est un $H_0$-modul
 #### Remarque 1 {#ac-viii-s6-n4-rem-1 .statement}
 
 \* En géométrie algébrique, la prop. 7 implique que la dimension des fibres d’un morphisme projectif de variétés algébriques est semi-continue supérieurement. \*
-2) Nous verrons plus tard que si $\rho : A \to B$ est un homomorphisme d’anneaux qui fasse de B une A-algèbre de type fini, la fonction $q \mapsto \dim_q(B \otimes_A \kappa(\rho^{-1}(q)))$ est semi-continue supérieurement sur $\mathrm{Spec}(B)$ (cf. p. 101, exerc. 10).
+
+#### Remarque 2 {#ac-viii-s6-n4-rem-2 .statement}
+
+Nous verrons plus tard que si $\rho : A \to B$ est un homomorphisme d’anneaux qui fasse de B une A-algèbre de type fini, la fonction $q \mapsto \dim_q(B \otimes_A \kappa(\rho^{-1}(q)))$ est semi-continue supérieurement sur $\mathrm{Spec}(B)$ (cf. p. 101, exerc. 10).
 
 ### 5. Algèbres graduées régulières
 

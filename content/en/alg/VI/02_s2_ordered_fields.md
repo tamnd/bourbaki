@@ -40,9 +40,9 @@ subsections:
       title: Vector spaces over an ordered field
       page: 28
       pdf_page: 339
-statements: 31
+statements: 33
 exercises: 41
-content_sha256: 45506056239d65e13de7a37d24141821117f4fc774d40c3a5912d682cb6100c3
+content_sha256: adc51298a55c9801428cc2053528e349dbe7b461889119285aefa5f90ba1837a
 ---
 
 ## § 2. ORDERED FIELDS
@@ -58,13 +58,19 @@ The ring $\mathbf{A}$, together with such an ordering, is called an ordered ring
 #### Example 1 {#alg-vi-s2-n1-exa-1 .statement}
 
 The rings $\mathbf{Q}$ and $\mathbf{Z}$, with the usual orderings, are ordered rings.
-2) A product of ordered rings, equipped with the product ordering, is an ordered ring. In particular the ring $\mathbf{A}^E$ of mappings from a set $E$ to an ordered ring $\mathbf{A}$ is an ordered ring.
-3) A subring of an ordered ring, with the induced ordering, is an ordered ring.
+
+#### Example 2 {#alg-vi-s2-n1-exa-2 .statement}
+
+A product of ordered rings, equipped with the product ordering, is an ordered ring. In particular the ring $\mathbf{A}^E$ of mappings from a set $E$ to an ordered ring $\mathbf{A}$ is an ordered ring.
+
+#### Example 3 {#alg-vi-s2-n1-exa-3 .statement}
+
+A subring of an ordered ring, with the induced ordering, is an ordered ring.
 
 In an ordered ring, the relations $x \geqslant y$ and $z \geqslant 0$ imply $xz \geqslant yz$. Indeed these inequalities are equivalent to $x - y \geqslant 0$, $z \geqslant 0$ and $(x - y)z \geqslant 0$ respectively.
 Analogously we can show that the relations $x \leqslant 0$ and $y \geqslant 0$ (resp. $y \leqslant 0$) imply $xy \leqslant 0$ (resp. $xy \geqslant 0$). These results are often invoked under the name of sign rules (two elements are said to have the same sign if they are both $\geqslant 0$ or both $\leqslant 0$). They imply that, if $\mathbf{A}$ is a totally ordered ring, then every square is positive, and in particular that every idempotent (for example the unit element) is positive.
 
-#### Example {#alg-vi-s2-n1-exa-2 .statement}
+#### Example {#alg-vi-s2-n1-exa-4 .statement}
 
 There is only one totally ordered ring structure on $\mathbf{Z}$: indeed $1 > 0$, whence $n > 0$ for every natural number $n \neq 0$, by induction. In contrast there exist ordered ring structures on $\mathbf{Z}$ which are not totally ordered (see below).
 
@@ -86,7 +92,7 @@ $$
 (\mathrm{AP}_{IV}) \quad P \cup (-P) = \mathbf{A}.
 $$
 
-#### Example {#alg-vi-s2-n1-exa-3 .statement}
+#### Example {#alg-vi-s2-n1-exa-5 .statement}
 
 In $\mathbf{Z}$, if we take $P$ to be the set of positive (in the usual sense) even integers, we get a ring which is not totally ordered.
 

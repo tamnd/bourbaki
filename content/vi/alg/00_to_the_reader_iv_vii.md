@@ -22,4 +22,4 @@ glossary_terms_sha256: 82e1fe5ae2443e8ee1c39dbf10cf1211defb9997d9a23c22bfac40a1c
 prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 ---
 
-Unusual activity has been detected from your device. Try again later. (689199f1-dda7-4c8b-a4d9-e481993f725f)
+Đã phát hiện hoạt động bất thường từ thiết bị của bạn. Vui lòng thử lại sau. (689199f1-dda7-4c8b-a4d9-e481993f725f)

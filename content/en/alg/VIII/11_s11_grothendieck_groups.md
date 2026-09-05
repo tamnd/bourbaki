@@ -62,7 +62,7 @@ subsections:
       pdf_page: 221
 statements: 38
 exercises: 14
-content_sha256: bc6f23569d66726f9edb899a7ea492701ad1b2a6d43e816e11728c34011d5e59
+content_sha256: 36f598ab1286cc2db64313213910bc17ed366890ee67021cf75eae8ae9f62c08
 ---
 
 ## § 11. GROTHENDIECK GROUPS
@@ -99,11 +99,11 @@ of modules of type $\mathscr{C}$.
 
 #### Example 4 {#alg-viii-s11-n1-exa-4 .statement tag=00CX}
 
-Let $\mathcal{C}$ be the set of classes of A-modules of finite length. The mapping $\operatorname{long}_A : \mathcal{C} \to \mathbf{Z}$ that sends a class of A-modules of finite length to its length is an additive function of modules (II, §1, No. 10, p. 213, Corollary 3). The results of this subsection are a generalization of the results on modules of finite length established in II, §1, No. 10, p. 212–214.
+Let $\mathscr{C}$ be the set of classes of A-modules of finite length. The mapping $\operatorname{long}_A : \mathscr{C} \to \mathbf{Z}$ that sends a class of A-modules of finite length to its length is an additive function of modules (II, §1, No. 10, p. 213, Corollary 3). The results of this subsection are a generalization of the results on modules of finite length established in II, §1, No. 10, p. 212–214.
 
-In the remainder of this subsection, we consider an additive set $\mathcal{C}$ of A-modules and an additive mapping $\varphi$ from $\mathcal{C}$ to an abelian group $G$.
+In the remainder of this subsection, we consider an additive set $\mathscr{C}$ of A-modules and an additive mapping $\varphi$ from $\mathscr{C}$ to an abelian group $G$.
 
-Let E and $E'$ be modules of type $\mathcal{C}$; then $E \oplus E'$ is of type $\mathcal{C}$, and there exists a split exact sequence (II, §1, No. 9, p. 210)
+Let E and $E'$ be modules of type $\mathscr{C}$; then $E \oplus E'$ is of type $\mathscr{C}$, and there exists a split exact sequence (II, §1, No. 9, p. 210)
 
 $$
 0 \longrightarrow E \longrightarrow E \oplus E' \longrightarrow E' \longrightarrow 0;
@@ -120,16 +120,16 @@ In particular, we have $\varphi(0) = 0$.
 
 #### Proposition 1 {#alg-viii-s11-prop-1 .statement tag=00CY}
 
-Suppose that $\mathcal{C}$ is hereditary. Let E and F be A-modules and $u : E \to F$ a linear mapping.
-a) If E or F is of type $\mathcal{C}$, then so is the image of u.
-b) If E is of type $\mathcal{C}$, then so is the kernel of u, and we have
+Suppose that $\mathscr{C}$ is hereditary. Let E and F be A-modules and $u : E \to F$ a linear mapping.
+a) If E or F is of type $\mathscr{C}$, then so is the image of u.
+b) If E is of type $\mathscr{C}$, then so is the kernel of u, and we have
 
 (2)
 $$
 \varphi(E) = \varphi(\operatorname{Ker}\,u) + \varphi(\operatorname{Im}\,u).
 $$
 
-c) If F is of type $\mathcal{C}$, then so is the cokernel of u, and we have
+c) If F is of type $\mathscr{C}$, then so is the cokernel of u, and we have
 
 (3)
 $$
@@ -147,7 +147,7 @@ $$
 
 #### Corollary {#alg-viii-s11-n1-cor-1 .statement tag=00CZ}
 
-Let $(E_i)_{0 \leq i \leq n}$ be a finite sequence of modules of type $\mathcal{C}$. If there exists an exact sequence
+Let $(E_i)_{0 \leq i \leq n}$ be a finite sequence of modules of type $\mathscr{C}$. If there exists an exact sequence
 
 $$
 0 \longrightarrow E_0 \xrightarrow{u_0} E_1 \xrightarrow{u_1} \cdots \xrightarrow{u_{n-1}} E_{n-1} \xrightarrow{u_n} E_n \longrightarrow 0,

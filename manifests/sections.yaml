@@ -180,7 +180,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native+ocr
-              content_sha256: bc6f23569d66726f9edb899a7ea492701ad1b2a6d43e816e11728c34011d5e59
+              content_sha256: 36f598ab1286cc2db64313213910bc17ed366890ee67021cf75eae8ae9f62c08
             - kind: section
               section: 12
               title: Tensor Products of Semisimple Modules
@@ -245,7 +245,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native+ocr
-              content_sha256: 6c35cd6354d0f0bf0ee5aba1c12fa4ef850055db3db4c07151700df3ae0b526b
+              content_sha256: 67633b439572bf5a4dcc4c35edb70b8c99883cdac1bfa5ce829e7e8f5be14d83
             - kind: section
               section: 17
               title: Reduced Norms and Traces
@@ -374,6 +374,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 2bcebe9c1bad51f3b65dd12b69d32284a1059ae2a6034a8612a8d13e5a224c84
+      notation_index:
+        kind: notation
+        title: NOTATION INDEX
+        path: content/en/alg/index_of_notation_viii.md
+        first_pdf_page: 498
+        last_pdf_page: 499
+        book_pages: A VIII.483-A VIII.484
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native+ocr
+        content_sha256: e633dc9b1bc180a0e0585f2bca7cd63d91b180e0238e744c10a93b3f2317f880
+      terminology_index:
+        kind: terminology
+        title: TERMINOLOGY INDEX
+        path: content/en/alg/index_of_terminology_viii.md
+        first_pdf_page: 500
+        last_pdf_page: 505
+        book_pages: A VIII.485-A VIII.490
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 332f485f89487788ab8d13addc9111577068efa9732a023aad6de5b0dbeadd8a
     - id: alg-viii-fr
       reader_note:
         kind: reader
@@ -463,7 +487,7 @@ books:
               statements: 43
               exercises: 8
               extraction: native+ocr
-              content_sha256: 6e05792b2214752bac76957290949c9823f6adeb55394696eaca8f1ac8da7073
+              content_sha256: 5ae93bed4af739d95fd281823fbe68b35ff92d689266260c49e62db425abfd9e
             - kind: section
               section: 5
               title: Commutation
@@ -489,7 +513,7 @@ books:
               statements: 41
               exercises: 8
               extraction: native+ocr
-              content_sha256: b680f2531b7e1b4e3afb5a63956d99d5c45a767b29095796f32a5b31f3e382d3
+              content_sha256: 6edf8dbc8c467734f95fe8ccf99186265dce85faa979f3c46dd274e7834c2de6
             - kind: section
               section: 7
               title: Anneaux simples
@@ -554,7 +578,7 @@ books:
               statements: 38
               exercises: 14
               extraction: native+ocr
-              content_sha256: cc7783372dfd63398eb34b48f535a43f648153e181fb53a1ed27fedef04dd7e3
+              content_sha256: a4e0cbaff3d041f5433460a82afd06f9cc31998047f43320d39098ca7f026193
             - kind: section
               section: 12
               title: Produit tensoriel de modules semi-simples
@@ -619,7 +643,7 @@ books:
               statements: 63
               exercises: 17
               extraction: native+ocr
-              content_sha256: bd333af79292fbdeebec020e3b1d204bf66a1c4ced4dce293767fc48a256c721
+              content_sha256: 07ca3a0e92ee74191f7d27471fd63f68df7d0de295bb04efa533a695a770812a
             - kind: section
               section: 17
               title: Normes et traces réduites
@@ -748,6 +772,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 53bfefe49c0eefce493bab5d970cdd9165b10100bbd4fb0ed0b7f0f97f4c652d
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_viii.md
+        first_pdf_page: 472
+        last_pdf_page: 473
+        book_pages: A VIII.473-A VIII.474
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 18b5328ac3bbc088cb91885fb0486b6eda355b20e6a8d2b0ec4bd318c1ce8916
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_viii.md
+        first_pdf_page: 474
+        last_pdf_page: 480
+        book_pages: A VIII.475-A VIII.481
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 68f66f14462203968b40d1e478bb2ea6f854cd1da1a4f2428cdf0193a2c44311
     - id: lie-vii-ix
       chapters:
         - chapter: VII
@@ -1009,7 +1057,7 @@ books:
               statements: 29
               exercises: 17
               extraction: native+ocr
-              content_sha256: 9fa596e246cac621b5b9e0b269c472085fd46db9e470656f32a0223db1df02b5
+              content_sha256: 69278bbf0e9945c81205a66c4f831ee0a6453557fe5210e0d6d6b4fcf1775ef3
             - kind: section
               section: 12
               title: Chevalley orders
@@ -1192,6 +1240,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: 166c8e4a3ff2601758b90e2cbc28e90c5ad2ac9dc57f18a2eb1d30f70fa6ca87
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/lie/index_of_notation_vii_ix.md
+        first_pdf_page: 433
+        last_pdf_page: 435
+        book_pages: 427-429
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 4bb21834fe832196d7c8e1f4a29b4ae77709ab1e2d995823ccf2d7f72de1395f
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/lie/index_of_terminology_vii_ix.md
+        first_pdf_page: 436
+        last_pdf_page: 439
+        book_pages: 431-434
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 8695e3c48c5c9eb3f09799a7a04b338220947ab357651e65919bb1e4dcb5d0bd
     - id: ta-i-iv-fr
       reader_note:
         kind: reader
@@ -1558,6 +1630,30 @@ books:
               exercises: 9
               extraction: native
               content_sha256: 07449d365571676c544d1619988ed7e8c13e4b70374afbf038ed0d746cfaa9f5
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ta/index_of_notation_i_iv.md
+        first_pdf_page: 497
+        last_pdf_page: 499
+        book_pages: TA IV.481-TA IV.483
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: f66bd8f19732f7dc7ff91eaac947834f6db507c417c0258a4428527705e11ad2
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ta/index_of_terminology_i_iv.md
+        first_pdf_page: 500
+        last_pdf_page: 506
+        book_pages: TA IV.484-TA IV.490
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: 5d38d9b0e3da952c4fe19e3b5ad55b82d3269e44d561e5a0b3ccaa2fc1920d1d
     - id: ts-i-ii-fr
       reader_note:
         kind: reader
@@ -1753,6 +1849,30 @@ books:
               exercises: 19
               extraction: native
               content_sha256: 53b9dd4c4ef649cd2bc5283995540b3c864a2e7f5144d3f97d442f0fa2bfffc2
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ts/index_of_notation_i_ii.md
+        first_pdf_page: 335
+        last_pdf_page: 337
+        book_pages: TS II.323-TS II.325
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: f7477ddefa33b8d3777c3d4a35c697130c106781f596ec21b250fb08d05ef773
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ts/index_of_terminology_i_ii.md
+        first_pdf_page: 338
+        last_pdf_page: 342
+        book_pages: TS II.326-TS II.330
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: de6d2a931ccb0a8542238a5b45aee1e3caa2ed208e49698f32e74df49a45a10f
     - id: ts-iii-v-fr
       reader_note:
         kind: reader
@@ -1921,7 +2041,7 @@ books:
               statements: 46
               exercises: 33
               extraction: native
-              content_sha256: 3d17c966d69171e8d653683de206a3ba30cca6eb8de3f8fd0cd8b5105dcf851c
+              content_sha256: e1ee01b7a6f9e8d296dfada69017677bfc6171362b35b5f32512bb9b7a1e92c0
             - kind: section
               section: 4
               title: Opérateurs partiels
@@ -1987,7 +2107,7 @@ books:
               statements: 45
               exercises: 20
               extraction: native
-              content_sha256: f35f594201c7156dde4597f94f43df4226aa2d4af3cf832fbc825c8eb90246ae
+              content_sha256: 781d46e7c533bed2aee07734fa5c2ba8573bef6b91dbc7c428eabbe625b92282
             - kind: section
               section: 3
               title: Fonctions de type positif
@@ -2000,7 +2120,7 @@ books:
               statements: 39
               exercises: 23
               extraction: native
-              content_sha256: cae424d484ec79cb50886a7a6c8ffab98c2adb1922d5abc7d86afcc90df08f8a
+              content_sha256: cb3d590fddfb5863307a5e493303960be3adddb895408dbb886e6183a8f9fb90
             - kind: section
               section: 4
               title: Représentations des groupes compacts
@@ -2025,6 +2145,30 @@ books:
               exercises: 0
               extraction: native
               content_sha256: e7e785486ed1d63a42ea81c99924dbe4ab6c8b535bbf7ffbba15087c80657189
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ts/index_of_notation_iii_v.md
+        first_pdf_page: 562
+        last_pdf_page: 565
+        book_pages: TS V.549-TS V.552
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: a8a74ea35c13f6e48d168d2305d335e5139252a2bc1661aea3d311fcd1544227
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ts/index_of_terminology_iii_v.md
+        first_pdf_page: 566
+        last_pdf_page: 571
+        book_pages: TS V.553-TS V.558
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: native
+        content_sha256: e41a7232bfec58c7b77686e1f2f89deb373d5064d671a7ee1c13f171955e5d78
     - id: ens-i-iv
       reader_note:
         kind: reader
@@ -2229,10 +2373,10 @@ books:
               last_pdf_page: 136
               book_pages: 112-122, 127-129
               subsections: 9
-              statements: 12
+              statements: 13
               exercises: 11
               extraction: ocr
-              content_sha256: 6bc9ceffca6d2226ba430227dbf5798495a6ee810349140ce93677c7c35070e9
+              content_sha256: e6575e4e849279138a1a581ab84cb1b482758b417a93c62ef93c5b5e7766db0c
         - chapter: III
           title: ORDERED SETS, CARDINALS, INTEGERS
           sections:
@@ -2259,7 +2403,7 @@ books:
               statements: 52
               exercises: 24
               extraction: ocr
-              content_sha256: dcf5b22649cb0eac4cf9ac3e2ac260375cc8586fc48653ab2f306ed22a25c53d
+              content_sha256: a5da4e235c5eda5a4645c185a5eb39fdade9e354877a91848d203ab08d9c0218
             - kind: section
               section: 2
               title: Well-ordered sets
@@ -2272,7 +2416,7 @@ books:
               statements: 28
               exercises: 20
               extraction: ocr
-              content_sha256: 4ac2fa7577e3b279c1918b0f52c4d00e31f38944f59ee1c696ac83de2fb7f10b
+              content_sha256: 1ca0af6bba0dc81ea81d456d04144c5394ceaf1e77570677f48682a2d16e5410
             - kind: section
               section: 3
               title: Equipotent sets. Cardinals
@@ -2298,7 +2442,7 @@ books:
               statements: 15
               exercises: 11
               extraction: ocr
-              content_sha256: 4a072096ffffd9564c385dad351b447db76172ec442dedd3e07d9c5178c5b614
+              content_sha256: 6124f77d2424d43d092ed015ee9df777eee17e45957a9f97af290618c63c1a97
             - kind: section
               section: 5
               title: Properties of integers
@@ -2337,7 +2481,7 @@ books:
               statements: 34
               exercises: 9
               extraction: ocr
-              content_sha256: 463649fb0b2134410a16a31ed5ad5ddcb6c52b640e4c4e568f6e5c66461a51fa
+              content_sha256: 32f34a0e7e91e7e94cb6dacf6471b60fe7158e208c5d0e1bd2901e3f619ccda7
             - kind: historical
               title: Historical Note
               path: content/en/ens/III/historical_note.md
@@ -2375,7 +2519,7 @@ books:
               statements: 17
               exercises: 1
               extraction: ocr
-              content_sha256: eea0b4fb7953196bcb3192568217195c64bcdffb2379b68f2e974978b30fd0c2
+              content_sha256: dc6eca4ee1f30deffd779304c1cc6b07cc7d4bc2628cb62a2e8cac1082e1af75
             - kind: section
               section: 2
               title: Morphisms and derived structures
@@ -2413,6 +2557,30 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 017dc72194ab7199a70c98ebaad46bbe5a298e1d67f9319e8388d92396c95255
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/ens/index_of_notation_i_iv.md
+        first_pdf_page: 391
+        last_pdf_page: 395
+        book_pages: 387-391
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a9b1547e6927e6cf162e636806fda39b428c1353a149c7b32f1dd314162a005e
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/ens/index_of_terminology_i_iv.md
+        first_pdf_page: 396
+        last_pdf_page: 417
+        book_pages: 392-413
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 131b1e0893a72decc8a9e934621d58be63a1b556914599cb731248057659568e
     - id: evt-i-v
       reader_note:
         kind: reader
@@ -2461,7 +2629,7 @@ books:
               book_pages: TVS I.11-TVS I.16, TVS I.25-TVS I.28
               subsections: 4
               statements: 26
-              exercises: 12
+              exercises: 15
               extraction: ocr
               content_sha256: 61cd6dad8d3c88edb55c2b3d99dcd153e54788854713e19386098384030e5241
             - kind: section
@@ -2511,10 +2679,10 @@ books:
               last_pdf_page: 109
               book_pages: TVS II.7-TVS II.21
               subsections: 11
-              statements: 49
+              statements: 51
               exercises: 43
               extraction: ocr
-              content_sha256: 742c952fc6a2e57dc8eb5e75ac174e898ff3d3d87043cbf6c8ab24a81db58512
+              content_sha256: d061692d94255710b80728ad96183b04426f05c7ca01a6b75fc9fee6cfd79e73
             - kind: section
               section: 3
               title: The Hahn-Banach Theorem (analytic form)
@@ -2579,7 +2747,7 @@ books:
               statements: 25
               exercises: 41
               extraction: ocr
-              content_sha256: ba5544881bc2d551481082f09b14e6852c10e86a0663b8e63d376fbaadf87175
+              content_sha256: 784ad7819606caee7146c7e6d1f2bae6e9589946ad1b86e9814898830b338212
             - kind: section
               section: 8
               title: Complex locally convex spaces
@@ -2615,7 +2783,7 @@ books:
               last_pdf_page: 172
               subsections: 7
               statements: 30
-              exercises: 16
+              exercises: 18
               extraction: ocr
               content_sha256: f0367575f236480d19bac46c262f379ed1995cd00476c147df4184564e42e7b4
             - kind: section
@@ -2654,7 +2822,7 @@ books:
               book_pages: TVS III.23-TVS III.28, TVS III.43-TVS III.46
               subsections: 3
               statements: 24
-              exercises: 21
+              exercises: 22
               extraction: ocr
               content_sha256: 39959f2e857883752d5da39050d17e5da11a3bdd030a94a0972c38a52975d9a6
             - kind: section
@@ -2704,10 +2872,10 @@ books:
               first_pdf_page: 183
               last_pdf_page: 234
               subsections: 5
-              statements: 35
+              statements: 36
               exercises: 25
               extraction: ocr
-              content_sha256: bd5abbb3fca9150b780f3e4a8c9981d06826dfaade169339cbc780c2b9fa2ff2
+              content_sha256: 478f6ad3ca16e707ec8cc287c3cd8cef7e449a078422de8ef6615ad156944a4e
             - kind: section
               section: 2
               title: Bidual. Reflexive spaces
@@ -2717,10 +2885,10 @@ books:
               last_pdf_page: 239
               book_pages: TVS IV.14-TVS IV.21, TVS IV.52-TVS IV.57
               subsections: 5
-              statements: 30
-              exercises: 24
+              statements: 32
+              exercises: 26
               extraction: ocr
-              content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
+              content_sha256: d382fb6ed9174e8bcbf2dc18f510bf2f2a8359e0d8e626232137e711a75a6927
             - kind: section
               section: 3
               title: Dual of a Fréchet space
@@ -2731,9 +2899,9 @@ books:
               book_pages: TVS IV.21-TVS IV.26, TVS IV.57-TVS IV.61
               subsections: 6
               statements: 15
-              exercises: 2
+              exercises: 18
               extraction: ocr
-              content_sha256: 4065ed0aff089e17407855388482b96630c02240233829e9c16d410797c4c210
+              content_sha256: a21eee49fbcec695bd9b1df3c255a93a27536274d1505cdbb376e387252d49ab
             - kind: section
               section: 4
               title: Strict morphisms of Fréchet spaces
@@ -2793,9 +2961,9 @@ books:
               last_pdf_page: 328
               subsections: 7
               statements: 41
-              exercises: 6
+              exercises: 37
               extraction: ocr
-              content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
+              content_sha256: d5f2a40e1ba87856c38a3feb6530a3ab5c1ad52e42d3e5f1d56903fdc8eb599c
             - kind: section
               section: 2
               title: Orthogonal families in a hilbertian space
@@ -2821,7 +2989,7 @@ books:
               statements: 20
               exercises: 15
               extraction: ocr
-              content_sha256: 5320ca96d0fbf7d2dfb98223ff4c96d227dcf10d109366278dc53f396956465c
+              content_sha256: 180872a18a714d03d9223b7e72acedceba22c332e27bdef4ce02ca50c52a19e2
             - kind: section
               section: 4
               title: Some classes of operators in hilbertian spaces
@@ -2830,20 +2998,42 @@ books:
               first_pdf_page: 295
               last_pdf_page: 318
               subsections: 9
-              statements: 48
+              statements: 49
               exercises: 0
               extraction: ocr
-              content_sha256: e91bc304651ce770d0fd7f9268828dea76e99a75428b9ae2fa319330bd7c91db
+              content_sha256: 862397a04809e43cf52a7e0b9307c3b072c635ff34b374a17f212b67a8280c49
             - kind: historical
               title: Historical Note
               path: content/en/evt/V/historical_note.md
               first_pdf_page: 338
-              last_pdf_page: 368
+              last_pdf_page: 350
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: e2dd683edb5ce818b32f8416a9c44fb239ba15fcef3559fbf9f4ff07e127d88c
+              content_sha256: 508bcc788fa6da13400f0e000d73211dc45525b58749267776999b8af1636864
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/evt/index_of_notation_i_v.md
+        first_pdf_page: 351
+        last_pdf_page: 352
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 584d5213358ee58f2339a99fe95a1e02b81966d7c77ec4d6edbfdca96d31f358
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/evt/index_of_terminology_i_v.md
+        first_pdf_page: 353
+        last_pdf_page: 358
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 2d575a20997418618b96c38bc13e104d6a4a7e91bb3f09b41553a154bde9204b
     - id: int-i-vi
       reader_note:
         kind: reader
@@ -3040,10 +3230,10 @@ books:
               last_pdf_page: 227
               book_pages: INT IV.18-INT IV.32, INT IV.120
               subsections: 8
-              statements: 43
+              statements: 44
               exercises: 3
               extraction: ocr
-              content_sha256: 990c6868635eb8d33252eba948d26e29837eae81e092411c1ee46078be262311
+              content_sha256: 812a66340239f25b1828be683de3b5699da898ca431dfbaf5ded37921ceceef0
             - kind: section
               section: 4
               title: Integrable functions and sets
@@ -3066,10 +3256,10 @@ books:
               last_pdf_page: 241
               book_pages: INT IV.59-INT IV.89, INT IV.127-INT IV.134
               subsections: 12
-              statements: 77
+              statements: 79
               exercises: 30
               extraction: ocr
-              content_sha256: d2dd442a1870a24021fa0c3140fb4294fafea8355aea1aaaf03d6d89003a2756
+              content_sha256: cafef13590e5fac8f8b8089f53dc63b8a0c799da5075967508e0612658483c73
             - kind: section
               section: 6
               title: Convexity inequalities
@@ -3289,12 +3479,34 @@ books:
               title: Historical Note
               path: content/en/int/VI/historical_note.md
               first_pdf_page: 463
-              last_pdf_page: 487
+              last_pdf_page: 465
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 5e0a858bcf88f33679de7d17e92a9c855995da21ee05f0011e76c182df537e49
+              content_sha256: ddd2484b153907abc4b504e7847024232e7bbd05fcbac91aba31ada63b157656
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATIONS
+        path: content/en/int/index_of_notation_i_vi.md
+        first_pdf_page: 466
+        last_pdf_page: 469
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: e0a28675d91ec0db40219d16407368c8596bab380cca5d9bd6f1948a01a81638
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/int/index_of_terminology_i_vi.md
+        first_pdf_page: 470
+        last_pdf_page: 480
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a45db1078278655d8fd4b2d592638391be56a7b58b5a4baa69a40a3853d42faf
     - id: top-i-iv
       reader_note:
         kind: reader
@@ -3342,10 +3554,10 @@ books:
               last_pdf_page: 125
               book_pages: 17-25, 117-119
               subsections: 6
-              statements: 23
+              statements: 24
               exercises: 9
               extraction: ocr
-              content_sha256: 69c33aa1b07c759c60eb28deb272aa6ed887332ba5d4aeb29cbf610ebb88696c
+              content_sha256: d735cbbab5e70ad6431641df443b15d4a8639a7f5e81bee32d62d8063d5ce355
             - kind: section
               section: 2
               title: Continuous functions
@@ -3355,10 +3567,10 @@ books:
               last_pdf_page: 128
               book_pages: 25-35, 119-122
               subsections: 5
-              statements: 26
-              exercises: 10
+              statements: 30
+              exercises: 11
               extraction: ocr
-              content_sha256: 16e7ac6daa7f6e8d5016ffb450612e74265560ae6512c3a4b479d5b88d5f0cf7
+              content_sha256: c044a485f3338cd5bc6417619ddcd9ac1a31367237b2aa882532d457d8c926cd
             - kind: section
               section: 3
               title: Subspaces, quotient spaces
@@ -3394,10 +3606,10 @@ books:
               last_pdf_page: 134
               book_pages: 50-57, 127-128
               subsections: 4
-              statements: 19
+              statements: 24
               exercises: 7
               extraction: ocr
-              content_sha256: 770385711f45d74c8c5f1640b5013319a5b971ac533bc0206d4387875c1ade48
+              content_sha256: c40576964d7fca8522dee530e130ae4cb2b27d730f619182066a2759ae4e137f
             - kind: section
               section: 6
               title: Filters
@@ -3433,10 +3645,10 @@ books:
               last_pdf_page: 147
               book_pages: 75-83, 134-141
               subsections: 6
-              statements: 28
+              statements: 30
               exercises: 24
               extraction: ocr
-              content_sha256: f1786c8e71990c5b477a3226adfcfe52fdd3cc7520408bdd42e9767c604fb35d
+              content_sha256: 366f1c42674ce4b112f2729fe2aafb3ededcf42af3294eac70bd903d4712b142
             - kind: section
               section: 9
               title: Compact spaces and locally compact spaces
@@ -3446,10 +3658,10 @@ books:
               last_pdf_page: 156
               book_pages: 83-97, 141-150
               subsections: 10
-              statements: 50
+              statements: 52
               exercises: 4
               extraction: ocr
-              content_sha256: 971ee7da2f11258dedc7ba38ab2213e2686bce320dbffdb28b60f17318a47dc8
+              content_sha256: 8e561e2bd6e591f9463a7dd23712950191e4684a7fca598e6c096e7571e930aa
             - kind: section
               section: 10
               title: Proper mappings
@@ -3472,10 +3684,10 @@ books:
               last_pdf_page: 167
               book_pages: 107-116, 155-161
               subsections: 7
-              statements: 28
+              statements: 29
               exercises: 25
               extraction: ocr
-              content_sha256: f12b0f535c856eb0eec6548992165cda0fcb6dde9247c96a02db10d1ed77685b
+              content_sha256: 5ab006ece52fc10a02f50468e8151d7272eb775f4f73365d9abd2ab4b3f5796f
             - kind: historical
               title: Historical Note
               path: content/en/top/I/historical_note.md
@@ -3509,10 +3721,10 @@ books:
               last_pdf_page: 213
               book_pages: 169-174, 206-207
               subsections: 2
-              statements: 13
+              statements: 14
               exercises: 5
               extraction: ocr
-              content_sha256: dc8b007352158f412e69b7b71913949ecc71b6302a8995f83a3b041d77323d26
+              content_sha256: d92a60522418756e75c234b53bc1c80d483187bb925d0ccb23bcb1dd04cb3761
             - kind: section
               section: 2
               title: Uniformly continuous functions
@@ -3522,10 +3734,10 @@ books:
               last_pdf_page: 214
               book_pages: 174-181, 207-208
               subsections: 7
-              statements: 25
+              statements: 27
               exercises: 6
               extraction: ocr
-              content_sha256: a1ab910e68e815174c047c6d5847b83dc5cbf4da3a07db2324c22291922910fa
+              content_sha256: e0f61bdcd81388be6eb6385503ae775b2e258c697717b061a0210a2fde9214d8
             - kind: section
               section: 3
               title: Complete spaces
@@ -3588,7 +3800,7 @@ books:
               statements: 11
               exercises: 9
               extraction: ocr
-              content_sha256: f71f82bff625e103d0a3fb544959913a24fd65f8bf1e933f0d5f6ba6a6f353ff
+              content_sha256: 92a8f55dc150c75365822ecd2547991907250d45a47eccb44f7ee1b4d56c2667
             - kind: section
               section: 2
               title: Subgroups, quotient groups, homomorphisms homogeneous spaces, product groups
@@ -3650,10 +3862,10 @@ books:
               last_pdf_page: 330
               book_pages: 271-283, 315-324
               subsections: 8
-              statements: 23
+              statements: 24
               exercises: 26
               extraction: ocr
-              content_sha256: dcb0cb1caa65d1aeec0e6b82e7da15c59c5cd47bbe0e662c7ae93d14fa42ae2e
+              content_sha256: a9bca1943e52417c112c4528a5184de8a0cf4ec20e911d77c5f0e4f0a736154a
             - kind: section
               section: 7
               title: Inverse limits of topological groups and rings
@@ -3664,7 +3876,7 @@ books:
               book_pages: 284-295
               subsections: 4
               statements: 15
-              exercises: 5
+              exercises: 6
               extraction: ocr
               content_sha256: da72beb407a42503880dae63dda66a50e3bc4b2d19533c7e937095d250c0e5cd
             - kind: historical
@@ -3791,20 +4003,43 @@ books:
               book_pages: 373-377
               subsections: 6
               statements: 3
-              exercises: 6
+              exercises: 17
               extraction: ocr
               content_sha256: cc580553600faae651b7943eeadba958e4028101a52e112dfe1c9051a2cb6aa3
             - kind: historical
               title: Historical Note
               path: content/en/top/IV/historical_note.md
               first_pdf_page: 412
-              last_pdf_page: 443
-              book_pages: 406-437
+              last_pdf_page: 424
+              book_pages: 406-418
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 41d1c18f85708d5ee30500e8296485d364ed68f06a4b1861a23b39fd60835cc8
+              content_sha256: 754dbc3d4aabdb33aaeaeb37f2917cda6fb5f684d65629e1dad09df4ab2d9933
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/top/index_of_notation_i_iv.md
+        first_pdf_page: 425
+        last_pdf_page: 426
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: afdc09f22d573b905c8e7b7ec2b7df3cd50b116ab6b06bc92cb4b26823dea181
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/top/index_of_terminology_i_iv.md
+        first_pdf_page: 427
+        last_pdf_page: 443
+        book_pages: 421-437
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 266579583ac38258f55b9911817cd2bf29581a8dffed3b56d4a3b29e1b421390
     - id: int-vii-ix
       reader_note:
         kind: reader
@@ -4012,10 +4247,10 @@ books:
               last_pdf_page: 290
               book_pages: INT IX.22-INT IX.41, INT IX.108
               subsections: 7
-              statements: 38
+              statements: 41
               exercises: 3
               extraction: ocr
-              content_sha256: ce1e3fbf59d3a5bdd69e474819d42240710f681c4b84a28f348d00f6c5aec0aa
+              content_sha256: 6191354f921de6c432be407238874a1be32c3597441acc068220814a51c6fefc
             - kind: section
               section: 3
               title: Measures and additive set functions
@@ -4025,10 +4260,10 @@ books:
               last_pdf_page: 294
               book_pages: INT IX.41-INT IX.49, INT IX.108-INT IX.112
               subsections: 3
-              statements: 16
+              statements: 17
               exercises: 18
               extraction: ocr
-              content_sha256: 2493836e74654f6d6eea61a9256ec8940a776c449c0ec756069912399a77fc43
+              content_sha256: 5db0abf26db4c41996c8caffc0ffac0b3f37ac41d3a27e6162dd9585fb8acae3
             - kind: section
               section: 4
               title: Inverse limits of measures
@@ -4084,12 +4319,34 @@ books:
               title: Historical Note
               path: content/en/int/IX/historical_note.md
               first_pdf_page: 302
-              last_pdf_page: 332
+              last_pdf_page: 314
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: c5bf1c6b504f9d5e019dea29b4a543e71402f9888847bc1fd95a329ca5d58bce
+              content_sha256: 8bbd7aaea3af77bf68fa9e40057d6b9d5050982e2b307c294f6db6b1aebe7e78
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATIONS
+        path: content/en/int/index_of_notation_vii_ix.md
+        first_pdf_page: 315
+        last_pdf_page: 316
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 4c71ed8267e18007354739b3fd86af83174c5af30384c2730a82ecc2b7705267
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/int/index_of_terminology_vii_ix.md
+        first_pdf_page: 317
+        last_pdf_page: 323
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 730126b881790ae0ba6436df61ecf216085a06ed9719755a8f5a1e777b40123c
     - id: ac-v-vii-fr
       chapters:
         - chapter: V
@@ -4116,7 +4373,7 @@ books:
               statements: 77
               exercises: 19
               extraction: ocr
-              content_sha256: 52ab9c5b62875738bf190445877aa62f2e222b491fc36a660020cfa62861ef3f
+              content_sha256: 57b53e8bf7d0cc8847b566ba28369dcfef723d40b2c32533cbe98342f9c1e8e7
             - kind: section
               section: 2
               title: Relèvement des idéaux premiers
@@ -4198,10 +4455,10 @@ books:
               first_pdf_page: 106
               last_pdf_page: 176
               subsections: 5
-              statements: 21
+              statements: 23
               exercises: 5
               extraction: ocr
-              content_sha256: 0209a2c1e17c27a25e4b2e6adac03cd81c288c48ee3e43def8754a65dcc61265
+              content_sha256: d025f1050b2db87ffe5603ecdd7429e10ecac3f7ec29fa98a51e8556b531c859
             - kind: section
               section: 5
               title: Topologie définie par une valuation
@@ -4211,9 +4468,9 @@ books:
               last_pdf_page: 181
               subsections: 3
               statements: 10
-              exercises: 3
+              exercises: 10
               extraction: ocr
-              content_sha256: a1965a9f802ef126f91a91d748ac2b8df02c1607e44a7ab770320d7671407481
+              content_sha256: cd24fc0a6d756da3fa5b7b1816123edd040c68c139e42397d07a773a21726834
             - kind: section
               section: 6
               title: Valeurs absolues
@@ -4319,10 +4576,10 @@ books:
               first_pdf_page: 226
               last_pdf_page: 298
               subsections: 9
-              statements: 22
+              statements: 23
               exercises: 27
               extraction: ocr
-              content_sha256: b1e9ab611ce58d86671164118c9b605a4b85fff95031242f5a068f5b2585953c
+              content_sha256: c86210c1d1ba178a2e2323abf3be27dbcd1653b5a9ae5496bb9e9db4c5ef234b
             - kind: section
               section: 4
               title: Modules sur les anneaux noethériens intégralement clos
@@ -4331,20 +4588,42 @@ books:
               first_pdf_page: 237
               last_pdf_page: 305
               subsections: 10
-              statements: 79
+              statements: 81
               exercises: 26
               extraction: ocr
-              content_sha256: c51b168055596dbf802688d06cdb71a1ac02169f8f27b5cbc463c90e46947c94
+              content_sha256: 38968e8a5882d97a8e9d5ea2e779cc29ed30e740da7a18f7a6473b7b37506c53
             - kind: historical
               title: Historical Note
               path: content/fr/ac/VII/historical_note.md
               first_pdf_page: 306
-              last_pdf_page: 346
+              last_pdf_page: 332
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: f5720f94919c1dd873c5b0d2de6933cd7537876ca04df4e02bb7df0744d784f6
+              content_sha256: 318ea1a79e3fd439af0ee5b32a2a944dfa3f3336ee4c0ff26907243798131693
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ac/index_of_notation_v_vii.md
+        first_pdf_page: 333
+        last_pdf_page: 333
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 62f3dd17dd7c0f5590e3f86ad0d9f9f62a41c2ca709d1019535469e8d9ecac1a
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ac/index_of_terminology_v_vii.md
+        first_pdf_page: 334
+        last_pdf_page: 338
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 802458734b89f747f5a405b640da2473d6c5c37a16ffc3412a5e9a02e2e63985
     - id: lie-i-iii
       reader_note:
         kind: reader
@@ -4380,10 +4659,10 @@ books:
               last_pdf_page: 101
               book_pages: 1-12, 73-83
               subsections: 9
-              statements: 19
+              statements: 20
               exercises: 27
               extraction: ocr
-              content_sha256: 34c36ec4b6364065c59b2c64940de2dd7a1af068ca79123de094195be8edaedd
+              content_sha256: beda2c6cae20a94271df76d22e39d80aa8afbe4c0f59aabcdf1f99f8e4a7b723
             - kind: section
               section: 2
               title: Enveloping algebra of a Lie algebra
@@ -4499,7 +4778,7 @@ books:
               book_pages: 122-136, 181-186
               subsections: 11
               statements: 32
-              exercises: 10
+              exercises: 16
               extraction: ocr
               content_sha256: 6e450e7885a69b88d5a981a2a0a11ee034c761b9d126211b974e36d6700c2625
             - kind: section
@@ -4655,7 +4934,7 @@ books:
               book_pages: 279-297, 376-382
               subsections: 7
               statements: 40
-              exercises: 8
+              exercises: 13
               extraction: ocr
               content_sha256: dc59481a501f40d45c0742b137c5851b6eca2830d1e1723f2728e33fa3a87a07
             - kind: section
@@ -4683,7 +4962,7 @@ books:
               statements: 71
               exercises: 30
               extraction: ocr
-              content_sha256: e19e9dd5de2d96fb494baeac00a1fd1f2129ff269a2cd6a7f015d4d82fc36a58
+              content_sha256: debc9e4f97118a82ab8d600d7699e2b315abf393c059176f936e6730a44cca5f
             - kind: section
               section: 7
               title: Lie groups over an ultrametric field
@@ -4729,8 +5008,8 @@ books:
               path: content/en/lie/III/10_s10_the_automorphism_group_of_a_lie_group.md
               label: lie-iii-s10
               first_pdf_page: 377
-              last_pdf_page: 481
-              book_pages: 359-368, 409-463
+              last_pdf_page: 451
+              book_pages: 359-368, 409-433
               subsections: 3
               statements: 13
               exercises: 3
@@ -4748,6 +5027,30 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: f6541d0529455ab9bd95b3dca1a7a741c160bb7b7c0752780f7f4653bc77b3be
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/lie/index_of_notation_i_iii.md
+        first_pdf_page: 453
+        last_pdf_page: 455
+        book_pages: 435-437
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 5ba72771ed6431ded6973e22ebbc9605288ca1d2ccf62c8e275bed145a1003c1
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/lie/index_of_terminology_i_iii.md
+        first_pdf_page: 457
+        last_pdf_page: 465
+        book_pages: 439-447
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 7e253b32f35f01d4a9e0d46807c7c9562cdcc9797e1fad56a3ebd016376294f6
     - id: alg-iv-vii
       reader_note:
         kind: reader
@@ -4795,10 +5098,10 @@ books:
               last_pdf_page: 97
               book_pages: A IV.14-A IV.19, A IV.87-A IV.88
               subsections: 3
-              statements: 19
+              statements: 20
               exercises: 5
               extraction: ocr
-              content_sha256: 225ec9e15b7f2dea5044d6aa6129a8558e1f970a5442b8f106a96a6e1d7fde32
+              content_sha256: 73b76f21e149f7673e0eb7bbee5b35a5a1af86aad368b42e6bfe55bdaafa4953
             - kind: section
               section: 3
               title: Rational fractions
@@ -4834,10 +5137,10 @@ books:
               last_pdf_page: 107
               book_pages: A IV.41-A IV.61, A IV.91-A IV.98
               subsections: 11
-              statements: 36
+              statements: 41
               exercises: 16
               extraction: ocr
-              content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
+              content_sha256: 51f13a5580b2e2351bd4779c2123e3ce1e7e21872b1d3d653856b766108511cf
             - kind: section
               section: 6
               title: Symmetric functions
@@ -4901,7 +5204,7 @@ books:
               statements: 18
               exercises: 13
               extraction: ocr
-              content_sha256: 24ed112ef1d0c31d9c5abffb35576dad39976b5719834f95279fbef00cc323a7
+              content_sha256: 30bc0804ac65175fb6160741cb971af8dacdc2183cffc476d9c5ecde37bea73a
             - kind: section
               section: 4
               title: Algebraically closed extensions
@@ -4911,10 +5214,10 @@ books:
               last_pdf_page: 264
               book_pages: A V.19-A V.24, A V.150
               subsections: 3
-              statements: 19
+              statements: 20
               exercises: 2
               extraction: ocr
-              content_sha256: 451dadd63f4c82676dd39e5b5893372098d707c1adaba3b7198c07ed152b021c
+              content_sha256: d88aa3362e0dd31bb4b22f70593a46a10ff88921aa9bdd314f0d6c51d688ac7b
             - kind: section
               section: 5
               title: p-radical extensions
@@ -4950,10 +5253,10 @@ books:
               last_pdf_page: 267
               book_pages: A V.36-A V.47, A V.151-A V.153
               subsections: 9
-              statements: 38
+              statements: 39
               exercises: 5
               extraction: ocr
-              content_sha256: ed1ab16b16ed7273d2bf9373cce60817c329006d872b8fe4e06cf99329181643
+              content_sha256: 9133ec09db76d1ddd91ab9ec0ebf1ccc424ba0f04aeb06eb0efc144beb94249b
             - kind: section
               section: 8
               title: Norms and traces
@@ -4992,7 +5295,7 @@ books:
               statements: 49
               exercises: 23
               extraction: ocr
-              content_sha256: 4d2ea6b2e3fe8136b4cbf004a6c050629d9e8414a0cc6650ceb165d4728343b0
+              content_sha256: 1951a382ea0abf06806d7fc373c368decf9961b78978e229e615903b12278ed4
             - kind: section
               section: 11
               title: Abelian extensions
@@ -5005,7 +5308,7 @@ books:
               statements: 45
               exercises: 23
               extraction: ocr
-              content_sha256: 43c5af3342ac0bbbafe453022e04b05ece3c6ec94573a34e2d29b581bf13d362
+              content_sha256: eaa826bc9a37a72bf6f16905e7367e09dee16967336ee35e8c2913ec5a31d9d0
             - kind: section
               section: 12
               title: Finite fields
@@ -5115,10 +5418,10 @@ books:
               first_pdf_page: 312
               last_pdf_page: 348
               subsections: 13
-              statements: 52
-              exercises: 34
+              statements: 53
+              exercises: 36
               extraction: ocr
-              content_sha256: 5dfbd1ec95d8ba9a7a5492cea424d8856e8b03e0d486d93477fdfa800389bdd9
+              content_sha256: 45ea8a5517b0127a37e1be405e3a76dfd0eb57ebebc488e6233af177c1bfd38c
             - kind: section
               section: 2
               title: Ordered fields
@@ -5128,10 +5431,10 @@ books:
               last_pdf_page: 358
               book_pages: A VI.37-A VI.47
               subsections: 7
-              statements: 31
+              statements: 33
               exercises: 41
               extraction: ocr
-              content_sha256: 45506056239d65e13de7a37d24141821117f4fc774d40c3a5912d682cb6100c3
+              content_sha256: adc51298a55c9801428cc2053528e349dbe7b461889119285aefa5f90ba1837a
         - chapter: VII
           title: MODULES OVER PRINCIPAL IDEAL DOMAINS
           sections:
@@ -5193,7 +5496,7 @@ books:
               book_pages: A VII.15-A VII.28, A VII.62-A VII.70
               subsections: 9
               statements: 40
-              exercises: 9
+              exercises: 25
               extraction: ocr
               content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
             - kind: section
@@ -5205,20 +5508,42 @@ books:
               last_pdf_page: 431
               book_pages: A VII.70-A VII.72
               subsections: 9
-              statements: 63
+              statements: 66
               exercises: 14
               extraction: ocr
-              content_sha256: d38ce52748be68ee166866fa84d36a43db5be6707be3eb6d063fae4baa77523d
+              content_sha256: 401598d42054d38d5ca36d56ed424c7580ad8d37583d5454e8faf96bc8dcb0ab
             - kind: historical
               title: Historical Note
               path: content/en/alg/VII/historical_note.md
               first_pdf_page: 432
-              last_pdf_page: 460
+              last_pdf_page: 443
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 49b7727e951be393bc6b2e76002a7e68d9994cb9d699ec71c6306154e0087441
+              content_sha256: 6c71730c807154ca230c1596027facd8f4b8d8bae302c239894c7039af3c4a2e
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/alg/index_of_notation_iv_vii.md
+        first_pdf_page: 444
+        last_pdf_page: 445
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 3ca1e9d7e6930a337dee194860bc07b75dad4b6515fffff2d7cc81614072ccd6
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/alg/index_of_terminology_iv_vii.md
+        first_pdf_page: 446
+        last_pdf_page: 453
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: db1c1ac3d41b6c39644bcf9ee16b94eff86b1d213de1b907670ab53799c95be3
     - id: lie-iv-vi
       introduction:
         kind: introduction
@@ -5254,7 +5579,7 @@ books:
               last_pdf_page: 56
               subsections: 9
               statements: 30
-              exercises: 16
+              exercises: 14
               extraction: ocr
               content_sha256: 89376c835024c51d1499c065e19831de6d1d96bfbe7a13c819884a3357e9e6d8
             - kind: section
@@ -5409,10 +5734,10 @@ books:
               first_pdf_page: 198
               last_pdf_page: 254
               subsections: 5
-              statements: 18
+              statements: 19
               exercises: 5
               extraction: ocr
-              content_sha256: 1978cc974387bf8b9e781b404ac2914ce724bcabf4fb37f1e7228f474742ca5e
+              content_sha256: a668f848fd365321c33be3f80b28cfbeed0655cb8f8d764edbcf0a18c1ec9123
             - kind: section
               section: 3
               title: Exponential invariants
@@ -5421,10 +5746,10 @@ books:
               first_pdf_page: 207
               last_pdf_page: 254
               subsections: 4
-              statements: 12
+              statements: 13
               exercises: 2
               extraction: ocr
-              content_sha256: 16fff2ef91958e3176073428ac5aa96104b5766117545ca5b13d57989a8e0cf7
+              content_sha256: 07ce68925d5873b9647a1c938fea031e089065766e687b0d9f0f17772a1a8fb8
             - kind: section
               section: 4
               title: Classification of root systems
@@ -5441,12 +5766,34 @@ books:
               title: Historical Note
               path: content/en/lie/VI/historical_note.md
               first_pdf_page: 262
-              last_pdf_page: 314
+              last_pdf_page: 270
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: d4a4b33fa67599d5dc63bf803c9ca710b6970d43852cd95597a334baa54dfbe3
+              content_sha256: e623ff32c0c52d1434bd8f2b6d72cf7351f86f08cf0e2118f761f5553e4aa916
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/lie/index_of_notation_iv_vi.md
+        first_pdf_page: 272
+        last_pdf_page: 273
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: e83aa93ee71000a47ca767d9ccd4f6f8e3714d8d1e66cd41ab28c3380de36b6b
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/lie/index_of_terminology_iv_vi.md
+        first_pdf_page: 274
+        last_pdf_page: 276
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 5d7391113de97688e9553dfa89e8c43dd0871a41592998ae08923f0c4f6dd399
     - id: fvr-i-vii
       reader_note:
         kind: reader
@@ -5494,10 +5841,10 @@ books:
               last_pdf_page: 52
               book_pages: 3-12, 35-37
               subsections: 7
-              statements: 31
+              statements: 36
               exercises: 9
               extraction: ocr
-              content_sha256: 5ac79d247600e1af8da17be22be9f55ff6aac813b9c80ef686bdb4b3e310cfcd
+              content_sha256: 6a91d7f87a83dc1e977d5e372ee4fbb9c5f767b14c46505a1f79fd7cc01befa0
             - kind: section
               section: 2
               title: THE MEAN VALUE THEOREM
@@ -5533,10 +5880,10 @@ books:
               last_pdf_page: 64
               book_pages: 23-33, 45-49
               subsections: 4
-              statements: 21
-              exercises: 10
+              statements: 23
+              exercises: 25
               extraction: ocr
-              content_sha256: 7ce62adb175e316461e0076f49e0da867be5dc77b36f37f3c179a2545bb96dd9
+              content_sha256: 50b3925e65701f4836278187ffc866a6d401f56f82c18a9588527d7aa9be7d9d
         - chapter: II
           title: PRIMITIVES AND INTEGRALS
           sections:
@@ -5585,10 +5932,10 @@ books:
               last_pdf_page: 105
               book_pages: 68-78, 86-90
               subsections: 6
-              statements: 17
+              statements: 18
               exercises: 10
               extraction: ocr
-              content_sha256: 62bb6cd48dfc0b7f2b01d57475721e621137ba34388ad9ae689438f7ab394731
+              content_sha256: 2e0285294c5eb412e7dc272b17cdc77aa895e03df78e0eeae6b0a65e34227c96
         - chapter: III
           title: ELEMENTARY FUNCTIONS
           sections:
@@ -5638,7 +5985,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 84a98a275d928e4aae90eeebd4bb728e1264b1c935adcdc4fc0ff2a301e15fd3
+              content_sha256: 4ca7c405eee986dbe7abc36becc45cefa6384346da22fd06cdf3fb20f4c2683f
         - chapter: IV
           title: DIFFERENTIAL EQUATIONS
           sections:
@@ -5677,7 +6024,7 @@ books:
               statements: 25
               exercises: 10
               extraction: ocr
-              content_sha256: ed9860cc26b65ff84c11e78ae048f5030e2943903c24c951c87f27907207fd41
+              content_sha256: 18f9899dd12cd185be5def5133d805b57b869d0c84b2a9ee36a34c2e53edcdac
             - kind: historical
               title: Historical Note
               path: content/en/fvr/IV/historical_note.md
@@ -5737,10 +6084,10 @@ books:
               last_pdf_page: 276
               book_pages: 227-236, 260-261
               subsections: 6
-              statements: 23
+              statements: 24
               exercises: 7
               extraction: ocr
-              content_sha256: 150915c37d01e0a3f1c4e9cb26407c194f7f04a0d2affb9ba17af4c93ab84bbf
+              content_sha256: 5e4af87e00d052d38d3bfa4956abf9089bd57264e9235d2ffe2ae20db8735ebb
             - kind: section
               section: 4
               title: APPLICATION TO SERIES WITH POSITIVE TERMS
@@ -5788,10 +6135,10 @@ books:
               last_pdf_page: 307
               book_pages: 269-283, 291-292
               subsections: 7
-              statements: 20
+              statements: 21
               exercises: 3
               extraction: ocr
-              content_sha256: c5d02763e0ba81f180ba651433971351bc4433064e4281ee8e880b60ece6ef27
+              content_sha256: 8fabc0a9721d5d38c131fc13fd57ab80f006226839dcd518e1d9f390e0f0a773
             - kind: section
               section: 2
               title: EULERIAN EXPANSIONS OF THE TRIGONOMETRIC FUNCTIONS AND BERNOULLI NUMBERS
@@ -5802,9 +6149,9 @@ books:
               book_pages: 283-288, 292-296
               subsections: 3
               statements: 5
-              exercises: 1
+              exercises: 6
               extraction: ocr
-              content_sha256: 92a86873033ab5647903ff5650d9e5c47095c7b96eae3a0bda3888423a6612e5
+              content_sha256: c5c7d446dee9ba1fe3d1c893187a3788356b0388489f1ea77fdf68ea2831727a
             - kind: section
               section: 3
               title: BOUNDS FOR THE REMAINDER IN THE EULER-MACLAURIN SUMMATION FORMULA
@@ -5872,13 +6219,36 @@ books:
               title: Historical Note
               path: content/en/fvr/VII/historical_note.md
               first_pdf_page: 344
-              last_pdf_page: 353
-              book_pages: 329-338
+              last_pdf_page: 346
+              book_pages: 329-331
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 56ad431474ed32bda7806e225b54c98db39aef58c544606b85017240924845c6
+              content_sha256: 7c83612bea7e1b59873862456e66760a322c976bfe451e25a58e19896cc17b96
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/fvr/index_of_notation_i_vii.md
+        first_pdf_page: 348
+        last_pdf_page: 349
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 6bd79d267c6af46856f2d2d42c7f781de6a860d9958949d12bff7bd519388bc3
+      terminology_index:
+        kind: terminology
+        title: INDEX
+        path: content/en/fvr/index_of_terminology_i_vii.md
+        first_pdf_page: 350
+        last_pdf_page: 353
+        book_pages: 335-338
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: aef2d337fc45300cc0c1b5f20dae21e5cbb742e41b48760371fc14e99ba04b61
     - id: lie-ii-iii-fr
       chapters:
         - chapter: II
@@ -5902,10 +6272,10 @@ books:
               first_pdf_page: 5
               last_pdf_page: 73
               subsections: 6
-              statements: 24
+              statements: 27
               exercises: 12
               extraction: ocr
-              content_sha256: b3168683aee11b245994d00e156893e6787a83248bf3572166d4c7099081ceac
+              content_sha256: de9389eb2586d0042a7d29bfc62f438b0547587c3191c7a4521d2629d90a06b8
             - kind: section
               section: 2
               title: Algèbres de Lie libres
@@ -5926,10 +6296,10 @@ books:
               first_pdf_page: 30
               last_pdf_page: 77
               subsections: 3
-              statements: 10
+              statements: 13
               exercises: 4
               extraction: ocr
-              content_sha256: d6c2a564c559d519032904eead59c46cead0d98512d7563ff451634779824a5c
+              content_sha256: fea2d6401ef257a76b7539b11cef3c0cbd53bef25404f8b73e6adb0317c6f561
             - kind: section
               section: 4
               title: Filtrations centrales
@@ -5953,7 +6323,7 @@ books:
               statements: 14
               exercises: 12
               extraction: ocr
-              content_sha256: ce62004672f2a552baeee93c993f23b37bb4a071c1446b11586401d7598f5a2a
+              content_sha256: 6994d1fcef1279c0e7cff0c45ff4c40d2c5fa008b3fcaaed2d058d386707fb02
             - kind: section
               section: 6
               title: La série de Hausdorff
@@ -6149,12 +6519,34 @@ books:
               title: Historical Note
               path: content/fr/lie/III/historical_note.md
               first_pdf_page: 284
-              last_pdf_page: 318
+              last_pdf_page: 306
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: ecc1bb94d90a11516c78ea848cb14d893324cffe01469163c2bbc23a54c61eaa
+              content_sha256: a92405686d3ba6d581f36de0703bdf4a0d2bfe6660265341d5c43865c83a01dc
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_ii_iii.md
+        first_pdf_page: 307
+        last_pdf_page: 309
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: d0f42facc38cda402c2bf41e1ed679530c57f586b48e651d4cf2ccfc32c02ff5
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_ii_iii.md
+        first_pdf_page: 310
+        last_pdf_page: 313
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: f1793c78844189908de8df4a924590f603365311909a13948321f5d1e941d84b
     - id: int-v-fr
       chapters:
         - chapter: V
@@ -6238,10 +6630,10 @@ books:
               first_pdf_page: 73
               last_pdf_page: 128
               subsections: 6
-              statements: 29
+              statements: 31
               exercises: 22
               extraction: ocr
-              content_sha256: ea5d01166e33130bb18c5891fb8a66f5e46271aad8bfa5b0bde28e730eaeed32
+              content_sha256: a28420f7db6c8a0e859bd6fa339a36ec124cd6b73e65064e75f7df8123ecc705
             - kind: section
               section: 7
               title: Intégration par rapport à une mesure induite
@@ -6270,12 +6662,23 @@ books:
               title: Historical Note
               path: content/fr/int/V/historical_note.md
               first_pdf_page: 141
-              last_pdf_page: 159
+              last_pdf_page: 153
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 13954758883dbfb15bd0e371a0c3a42ab6701de91d21d4c362152ac0b7c66166
+              content_sha256: 34eb3c48396e1453f3d8da9dc4e3de678369874bdaee51088e6c9d60b110633e
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_v.md
+        first_pdf_page: 154
+        last_pdf_page: 155
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: eec100f12ed891981a8880cbf8f55dda29e1c4b989238114049287c31b552043
     - id: lie-i-fr
       chapters:
         - chapter: I
@@ -6369,12 +6772,34 @@ books:
               path: content/fr/lie/I/07_s7_le_theoreme_d_ado.md
               label: lie-i-s7
               first_pdf_page: 93
-              last_pdf_page: 144
+              last_pdf_page: 134
               subsections: 3
               statements: 5
               exercises: 3
               extraction: ocr
               content_sha256: 9cb4ad4aa60aa4680b54877f60cc8f78bcfa9d67c3ddd0033d2ce268e2060b55
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_i.md
+        first_pdf_page: 135
+        last_pdf_page: 135
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c992b6f7aecf6ed6d19092601bd5919282321662553476d093524b6d489a8c37
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_i.md
+        first_pdf_page: 136
+        last_pdf_page: 140
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c275916a1a0c835c5f9aa85af7e08a26fc1a9e98702364cd7044de12981b9932
     - id: ac-viii-ix-fr
       chapters:
         - chapter: VIII
@@ -6402,7 +6827,7 @@ books:
               statements: 48
               exercises: 17
               extraction: ocr
-              content_sha256: 39579207db3a1ec2253382ca725a94cb3a2ec6751a183b5842e7d93e1c5e7a32
+              content_sha256: dfd77bd04b8c3a561bbff2a837de1d04473894f7c634da1f7c06b1d28592b805
             - kind: section
               section: 2
               title: Dimension des algèbres
@@ -6425,10 +6850,10 @@ books:
               last_pdf_page: 91
               book_pages: AC VIII.86-AC VIII.87
               subsections: 5
-              statements: 37
+              statements: 39
               exercises: 7
               extraction: ocr
-              content_sha256: 9e96d959c56485cbedf2ef098047ed722bad9561960260f61af3c6f4793e2f70
+              content_sha256: 8a46e9bac74c1717f34ad8e8f4e538302331df7231ad75df3a7d3188cc5b08ba
             - kind: section
               section: 4
               title: Séries de Hilbert-Samuel
@@ -6452,9 +6877,9 @@ books:
               book_pages: AC VIII.51-AC VIII.62, AC VIII.94-AC VIII.99
               subsections: 4
               statements: 31
-              exercises: 31
+              exercises: 32
               extraction: ocr
-              content_sha256: bc0c6917e598be8900d5fcc96d0fafb6274bac3530769cf01ac55c7968309600
+              content_sha256: 6ad3c554aa21f75c5b44d1656b413c9e3aa4fcc3784dcd6abbdea8c83ca23186
             - kind: section
               section: 6
               title: Dimension des anneaux gradués
@@ -6464,10 +6889,10 @@ books:
               last_pdf_page: 107
               book_pages: AC VIII.62-AC VIII.71, AC VIII.99-AC VIII.103
               subsections: 5
-              statements: 27
+              statements: 29
               exercises: 12
               extraction: ocr
-              content_sha256: 072fbb83f3edc3ae31061e2223d2348c0f0cefd204734f3bca8b6a3ac6ab872f
+              content_sha256: bad92e41d0ccaeab016fbd03116c23c30080352ef6f69960c6ea8662454b7004
             - kind: section
               section: 7
               title: Multiplicités
@@ -6477,10 +6902,10 @@ books:
               last_pdf_page: 112
               book_pages: AC VIII.71-AC VIII.81, AC VIII.103-AC VIII.108
               subsections: 5
-              statements: 28
+              statements: 34
               exercises: 25
               extraction: ocr
-              content_sha256: 7d27f7af9a7636d37dc907e076096955063e5e6fb20fe656bf883ebb44e84d33
+              content_sha256: 21e410994c182ead283f87292334f898659c5e263b6e92c40c2f793d69d5661c
         - chapter: IX
           title: ANNEAUX LOCAUX NOETHÉRIENS COMPLETS
           sections:
@@ -6550,13 +6975,35 @@ books:
               path: content/fr/ac/IX/A_a_.md
               label: ac-ix-a0
               first_pdf_page: 149
-              last_pdf_page: 204
-              book_pages: AC IX.37-AC IX.42
+              last_pdf_page: 197
+              book_pages: AC IX.37-AC IX.42, AC IX.84-AC IX.85
               subsections: 3
               statements: 13
               exercises: 6
               extraction: ocr
               content_sha256: e864a39e88aa1bca01230c31821898c8ee21312c13fac765353afd8926e19614
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ac/index_of_notation_viii_ix.md
+        first_pdf_page: 198
+        last_pdf_page: 198
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 68eb77b851972c6e70f8e5ab73dae48a4b4a11436a9a286c9dfb68186b3a9905
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ac/index_of_terminology_viii_ix.md
+        first_pdf_page: 199
+        last_pdf_page: 200
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 4d8c196bbe09bd17b772e0c2fab5ae3fcde94cd690a4084ef7d3cb71d890718f
     - id: alg-i-iii
       reader_note:
         kind: reader
@@ -6669,7 +7116,7 @@ books:
               book_pages: 65-81, 147-159
               subsections: 7
               statements: 58
-              exercises: 8
+              exercises: 41
               extraction: ocr
               content_sha256: ed05eff94c08cdfcfd89c459ba64d8b7ce508b226914ad4221253b7047926c45
             - kind: section
@@ -6682,7 +7129,7 @@ books:
               book_pages: 81-96, 159-171
               subsections: 9
               statements: 17
-              exercises: 3
+              exercises: 40
               extraction: ocr
               content_sha256: 3d3c76d6c00bb76f6c4a1ffe6fd67252c8dd08090bf8f1961b54dc45d8772011
             - kind: section
@@ -6772,7 +7219,7 @@ books:
               book_pages: 227-243, 386-395
               subsections: 8
               statements: 42
-              exercises: 3
+              exercises: 26
               extraction: ocr
               content_sha256: ada77bb5d3f2991282d1d80427eaa87544335c7c3fafa597f5d0bcfabf29858d
             - kind: section
@@ -6787,7 +7234,7 @@ books:
               statements: 30
               exercises: 4
               extraction: ocr
-              content_sha256: 196190fc6de7c191a8a8b49a5ef2ea6f1f5a5ef29b17ddd11fdf4cc54b2b03aa
+              content_sha256: ffa23e32a5b250afa6702426ba06760cf9ccc1d88226680fcc821ece3bb2d997
             - kind: section
               section: 4
               title: Relations between tensor products and homomorphism modules
@@ -6826,7 +7273,7 @@ books:
               statements: 17
               exercises: 4
               extraction: ocr
-              content_sha256: a23c1a21c755e7c0e92d6ebb553b20bdb18fd6742e53a1fb787597d12a930e81
+              content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
             - kind: section
               section: 7
               title: Vector spaces
@@ -6863,7 +7310,7 @@ books:
               book_pages: 325-337, 410-417
               subsections: 11
               statements: 12
-              exercises: 6
+              exercises: 10
               extraction: ocr
               content_sha256: 6d5414948dceab419cbfb016f0d02a94213bdb1f5a7f8c8b4975a8a4bd8908c9
             - kind: section
@@ -6876,7 +7323,7 @@ books:
               book_pages: 338-363, 417-424
               subsections: 13
               statements: 35
-              exercises: 12
+              exercises: 17
               extraction: ocr
               content_sha256: a47679ba1ab8c0e078a09ebdfca77031eefe61db8ddab4faffc08a0fa8c19aa5
             - kind: section
@@ -7077,13 +7524,37 @@ books:
               title: Historical Note
               path: content/en/alg/III/historical_note.md
               first_pdf_page: 679
-              last_pdf_page: 734
-              book_pages: 655-710
+              last_pdf_page: 691
+              book_pages: 655-667
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: e604a39829effcc049b3f0109affe5266b8d822c7d016a510672ff7eb261dff2
+              content_sha256: a3b63d9b2a76f311af7cf036bc00b947b4fe751fcd74cf43075d8c42eceed694
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/alg/index_of_notation_i_iii.md
+        first_pdf_page: 693
+        last_pdf_page: 700
+        book_pages: 669-676
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 8a424fca61e04ef992f3e04c2e0f2ca67276613ab84265a8697f3741ebf26a56
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/alg/index_of_terminology_i_iii.md
+        first_pdf_page: 701
+        last_pdf_page: 733
+        book_pages: 677-709
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 798dec3fd1ed9b9c1f0fbfe98e89a12e45945bbe64dfa609da4478a88977f1e6
     - id: lie-ix-fr
       chapters:
         - chapter: IX
@@ -7124,7 +7595,7 @@ books:
               statements: 33
               exercises: 11
               extraction: ocr
-              content_sha256: 31be9da97c8052633252671d3863584cd62d0e193e2f78b07f66cb5ff204ffd3
+              content_sha256: 02cc2bbb8aec91ce9faabd4126cd7cb931cd2eb089b4dc2581a511d9c0dcb201
             - kind: section
               section: 3
               title: Formes compactes des algèbres de Lie semi-simples complexes
@@ -7161,7 +7632,7 @@ books:
               book_pages: LIE IX.43-LIE IX.51, LIE IX.118-LIE IX.121
               subsections: 4
               statements: 26
-              exercises: 5
+              exercises: 12
               extraction: ocr
               content_sha256: d3eb18a508f1218792b7988d21e624fa9cdebecb239a4f8cc0bc9438ada1011c
             - kind: section
@@ -7213,7 +7684,7 @@ books:
               book_pages: LIE IX.88-LIE IX.99, LIE IX.128-LIE IX.132
               subsections: 4
               statements: 19
-              exercises: 3
+              exercises: 21
               extraction: ocr
               content_sha256: fe04b5677c8e1c2cf2af8ab704fe1734fdbd6c788fa894e924c704bd50c9a9d0
             - kind: appendix
@@ -7222,8 +7693,8 @@ books:
               path: content/fr/lie/IX/A1_a1_structure_des_groupes_compacts.md
               label: lie-ix-a1
               first_pdf_page: 102
-              last_pdf_page: 141
-              book_pages: LIE IX.99-LIE IX.102
+              last_pdf_page: 135
+              book_pages: LIE IX.99-LIE IX.102, LIE IX.132
               subsections: 3
               statements: 9
               exercises: 1
@@ -7241,6 +7712,28 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: adb80f7258da51f557ea84dd0c3de4fb1d1f67b32e6b291b0d3bf087cacd41eb
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_ix.md
+        first_pdf_page: 136
+        last_pdf_page: 136
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 23f60d844a58971db7e5198d9d4c5d30852258af73adb4ec0f7f2809359f7729
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_ix.md
+        first_pdf_page: 137
+        last_pdf_page: 138
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 6cf2f2771a726e041624df4dc16063cd272607b85495bd93cb3d7a21c1582c1e
     - id: evt-i-v-fr
       reader_note:
         kind: reader
@@ -7275,10 +7768,10 @@ books:
               first_pdf_page: 7
               last_pdf_page: 31
               subsections: 7
-              statements: 26
+              statements: 30
               exercises: 14
               extraction: ocr
-              content_sha256: 0eb670b83af5ce67de8c2fa13f552cbfd7773188b5145b333c3829c489d27fc4
+              content_sha256: b69f32004219766313b9c796db5d5ebaff634a94bf3aa93dbd4b3ba310100859
             - kind: section
               section: 2
               title: Variétés linéaires dans un espace vectoriel topologique
@@ -7326,10 +7819,10 @@ books:
               first_pdf_page: 36
               last_pdf_page: 42
               subsections: 4
-              statements: 16
+              statements: 18
               exercises: 0
               extraction: ocr
-              content_sha256: 9b8180d67968a29b2a95014703f27e31d4d47d0636f64baf982b4f527157f6ea
+              content_sha256: 1e2e0b5ae408b6adcab0d34e5f7da77d3e2ec59bbbb561a0eb07f1841fc382f4
             - kind: section
               section: 2
               title: Ensembles convexes
@@ -7339,10 +7832,10 @@ books:
               last_pdf_page: 111
               book_pages: EVT II.7-EVT II.22
               subsections: 11
-              statements: 50
-              exercises: 20
+              statements: 52
+              exercises: 43
               extraction: ocr
-              content_sha256: 99c126ab4b18ba333a16816f882676b7b1b31e7b9cb94934384e91432ab4f93c
+              content_sha256: d3793785fdbaa7cc89a387116e47a5d804504a666bbdca5f35b27681d1a80813
             - kind: section
               section: 3
               title: Le théorème de Hahn-Banach (forme analytique)
@@ -7365,10 +7858,10 @@ books:
               last_pdf_page: 116
               book_pages: EVT II.25-EVT II.38, EVT II.78-EVT II.81
               subsections: 7
-              statements: 35
+              statements: 36
               exercises: 17
               extraction: ocr
-              content_sha256: b6e1e96a22fcb48eb3f02ce6a319522f67049491fe2e51213d682bbe6c028932
+              content_sha256: aedd29dac4a17037c31c3c688aea1ceceb032a347f1419e3c5bceb02e6786f5d
             - kind: section
               section: 5
               title: Séparation des ensembles convexes
@@ -7378,10 +7871,10 @@ books:
               last_pdf_page: 121
               book_pages: EVT II.39-EVT II.43, EVT II.81-EVT II.86
               subsections: 4
-              statements: 24
+              statements: 25
               exercises: 30
               extraction: ocr
-              content_sha256: 3cced2bb65f66fe5bc8603a35c5374d0dd15f5390e882e6a1e5fbfc228729e11
+              content_sha256: 68ade42a82083a6a81ddceb649849ee99cb9ee0e11758ab7285b8ea0c8b3d285
             - kind: section
               section: 6
               title: Topologies faibles
@@ -7391,10 +7884,10 @@ books:
               last_pdf_page: 127
               book_pages: EVT II.43-EVT II.57, EVT II.87-EVT II.92
               subsections: 8
-              statements: 42
-              exercises: 19
+              statements: 45
+              exercises: 20
               extraction: ocr
-              content_sha256: 1527446aae67136cbc754e88d40d8bb394d4f796e17447b5a4c6901ee8837f4b
+              content_sha256: ca3f31362016c357e6db7c8065b2dfc7576d34cf3036aeb2c612d049d36f885f
             - kind: section
               section: 7
               title: Points extrémaux et génératrices extrémales
@@ -7404,10 +7897,10 @@ books:
               last_pdf_page: 135
               book_pages: EVT II.57-EVT II.64, EVT II.92-EVT II.100
               subsections: 3
-              statements: 21
-              exercises: 5
+              statements: 24
+              exercises: 41
               extraction: ocr
-              content_sha256: 825c3897c1301031050f2a51d46d1bac1af9f15d6cd89ce5c50735334a20be3f
+              content_sha256: 2641a422bf5f1599dcb4fcecb5b4ef7c23a8aeaccf778558140a456b8925c041
             - kind: section
               section: 8
               title: Espaces localement convexes complexes
@@ -7455,10 +7948,10 @@ books:
               last_pdf_page: 177
               book_pages: EVT III.11-EVT III.13, EVT III.41-EVT III.42
               subsections: 0
-              statements: 7
+              statements: 9
               exercises: 4
               extraction: ocr
-              content_sha256: 6d7889a2dba0d3d7d2821cdf0c44b5c828168682fe0eb790f3bbdba0bc419e5b
+              content_sha256: 3e83016189b982ebfb9ef654a814e6abb668f099a95e54e56af3fb0742737165
             - kind: section
               section: 3
               title: Espaces d’applications linéaires continues
@@ -7468,10 +7961,10 @@ books:
               last_pdf_page: 179
               book_pages: EVT III.13-EVT III.24, EVT III.42-EVT III.44
               subsections: 8
-              statements: 40
+              statements: 41
               exercises: 13
               extraction: ocr
-              content_sha256: f508fcbe4d0916b9a5190a34fe4c6dc5c2620d2024e8da0df8074c776e5a7395
+              content_sha256: 4036bd06b513e4d7ee9938338bdc3aaecae2d1d50b8710804638150dda828362
             - kind: section
               section: 4
               title: Le théorème de Banach-Steinhaus
@@ -7481,10 +7974,10 @@ books:
               last_pdf_page: 183
               book_pages: EVT III.24-EVT III.28, EVT III.44-EVT III.48
               subsections: 3
-              statements: 23
+              statements: 24
               exercises: 22
               extraction: ocr
-              content_sha256: 483a1050f55951086929b4f69ab516fb05118a4a05eea8253f8c4b1187a9d20b
+              content_sha256: 490179cef7db9fdb15a247a8392cfa9df1f66f815d421e2af5fe3509b3dbc120
             - kind: section
               section: 5
               title: Applications bilinéaires hypocontinues
@@ -7532,10 +8025,10 @@ books:
               first_pdf_page: 187
               last_pdf_page: 238
               subsections: 5
-              statements: 37
-              exercises: 15
+              statements: 38
+              exercises: 25
               extraction: ocr
-              content_sha256: af7e71d40cda7524b2867a9ad40f898a1b8b8f9af5e64471e2d252e67db805b5
+              content_sha256: 6004fb719102bdab15221c3fbc8253ea6854e942dc649baf2fdb05e2c8e0e79e
             - kind: section
               section: 2
               title: Bidual. Espaces réflexifs
@@ -7545,10 +8038,10 @@ books:
               last_pdf_page: 243
               book_pages: EVT IV.14-EVT IV.20, EVT IV.52-EVT IV.57
               subsections: 5
-              statements: 31
-              exercises: 21
+              statements: 34
+              exercises: 26
               extraction: ocr
-              content_sha256: a6f71770eb1f225069d87623e20c52bda11c78510530f61de6cdda8373fe2609
+              content_sha256: e6722903ebc281254eb64317db1378ab5062b413f45e36d36748bd41a178c207
             - kind: section
               section: 3
               title: Dual d’un espace de Fréchet
@@ -7585,9 +8078,9 @@ books:
               book_pages: EVT IV.32-EVT IV.38, EVT IV.67-EVT IV.72
               subsections: 5
               statements: 9
-              exercises: 16
+              exercises: 18
               extraction: ocr
-              content_sha256: f511f3c32e0e26a7b9de03662a1a8cf2edb055f16a719c9b4b714120bac10075
+              content_sha256: 9873ff7226898a8c69fd60eeea44e8d751f30d44dbd066dbc07879165c475aa5
             - kind: appendix
               title: Points fixes des groupes de transformations affines
               path: content/fr/evt/IV/A_a_points_fixes_des_groupes_de.md
@@ -7624,7 +8117,7 @@ books:
               statements: 43
               exercises: 37
               extraction: ocr
-              content_sha256: bb074e6c7f23647fb246fe109975fa7e030f40a92ab2c8c232fef01e12fb7ce1
+              content_sha256: 88ed7fa78df6c58b1d4a1f24ee532cfa29c82661af302faa7086380f0c5393bd
             - kind: section
               section: 2
               title: Familles orthogonales dans un espace hilbertien
@@ -7650,7 +8143,7 @@ books:
               statements: 19
               exercises: 2
               extraction: ocr
-              content_sha256: e0bde61bd2ef5221c91f98a1a93655e2dfe09109667defb62d5d7f6085ea0b7e
+              content_sha256: d95c0136d84591d07a1d14165c953040567afb0b5f71fafadef29a35db6ea1e6
             - kind: section
               section: 4
               title: Quelques classes d’opérateurs dans les espaces hilbertiens
@@ -7663,17 +8156,39 @@ books:
               statements: 50
               exercises: 15
               extraction: ocr
-              content_sha256: 9cbe5b933e95cb304d66bd2ccd537214ddc9968510d7b4d34de8435fa8a9ff9c
+              content_sha256: 5a9df8f95afa72d6677cf1bb5898ea09254e44bc9e991da52cd1fe75712c0047
             - kind: historical
               title: Historical Note
               path: content/fr/evt/V/historical_note.md
               first_pdf_page: 341
-              last_pdf_page: 372
+              last_pdf_page: 353
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: c71d091a1f5a2281cd870520a5f774ad6982d6d03d9910d427d0d5e003db1f5d
+              content_sha256: 304c6001af7907f7e328b4ebdda2d73778e4a7ae9003a17bd5e72c3ff05f0440
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/evt/index_of_notation_i_v.md
+        first_pdf_page: 354
+        last_pdf_page: 355
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: ae6c3db2813889996407d6d6323f78ea6f5c1df29cb252700102294c4b7de139
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/evt/index_of_terminology_i_v.md
+        first_pdf_page: 356
+        last_pdf_page: 362
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 1e45fffba43b59038d20ef325f7c7aba4670c68a6fb60504f25aa12c94bc6bb2
     - id: lie-iv-vi-fr
       introduction:
         kind: introduction
@@ -7685,7 +8200,7 @@ books:
         statements: 0
         exercises: 0
         extraction: ocr
-        content_sha256: 2522e998fc93388b521f6dfdf19ae664d5a75bb651bb96244e8ba4133bd364d3
+        content_sha256: 312967b722536249b033256268bd8cc87d702294eb2de4b27acc33442514cd4e
       chapters:
         - chapter: IV
           title: Groupes de Coxeter et systèmes de Tits
@@ -7804,10 +8319,10 @@ books:
               first_pdf_page: 101
               last_pdf_page: 138
               subsections: 5
-              statements: 23
+              statements: 24
               exercises: 9
               extraction: ocr
-              content_sha256: 34cf95afc6ffb4bca7dd4bf6f166fe8583fa00af76b1fea6c733ddc70ebb734a
+              content_sha256: bd5f798c399e8f3184a4d544fc6c8123aaf9ae9aed061884d635fbae19535788
             - kind: section
               section: 6
               title: Transformation de Coxeter
@@ -7853,7 +8368,7 @@ books:
               last_pdf_page: 225
               subsections: 12
               statements: 76
-              exercises: 21
+              exercises: 24
               extraction: ocr
               content_sha256: f589f9c66d5dc049157fadfb4cab1add595be84cdcf4c16c98f7600c5f84106f
             - kind: section
@@ -7864,10 +8379,10 @@ books:
               first_pdf_page: 172
               last_pdf_page: 226
               subsections: 5
-              statements: 16
+              statements: 17
               exercises: 5
               extraction: ocr
-              content_sha256: f89d635d8d27096164f5126eab7f56700e438fd7464a738e1019996b0250f27d
+              content_sha256: 71513a38f654c602c8a0ba71826e62fad8fc82e47588e08d18d9d1d38bac9ee5
             - kind: section
               section: 3
               title: Invariants exponentiels
@@ -7889,19 +8404,41 @@ books:
               last_pdf_page: 232
               subsections: 14
               statements: 19
-              exercises: 10
+              exercises: 16
               extraction: ocr
               content_sha256: 3cb9c39e5e6c71fb5afd6be6bbb5db13dd92c1d149df1d23ad55a691b7989acb
             - kind: historical
               title: Historical Note
               path: content/fr/lie/VI/historical_note.md
               first_pdf_page: 233
-              last_pdf_page: 284
+              last_pdf_page: 242
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: ab44587683593047471f5ff83a082775b7c7dbac50538b2932618fb7fe2b124e
+              content_sha256: 07158e7b6d6960166ec657441207283ea61602ecd97ccf833867d644df988fb3
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/lie/index_of_notation_iv_vi.md
+        first_pdf_page: 243
+        last_pdf_page: 244
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: be7cf42483b6e9aa04ae7ffdaa427ecd1205820573786dae7b38522fb1d9eb2c
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/lie/index_of_terminology_iv_vi.md
+        first_pdf_page: 245
+        last_pdf_page: 247
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 3a0f5859a0c989ef3bbf06fd6e5eadf21d7ea87807afec67292ff25e4ac0386d
     - id: int-vi-fr
       chapters:
         - chapter: VI
@@ -7968,12 +8505,34 @@ books:
               title: Historical Note
               path: content/fr/int/VI/historical_note.md
               first_pdf_page: 100
-              last_pdf_page: 106
+              last_pdf_page: 102
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 6502b94ee9a415a5c246fdb1b4e2438ce94086ad30e9092ba17bf9472c11f57a
+              content_sha256: 96d52c27ef79c471f835881a6b133fbe2f312d467ee0f1b54c23d4222fd1bfd9
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_vi.md
+        first_pdf_page: 103
+        last_pdf_page: 103
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 074b5dc994281956013e3d1ba8b03eabd8115536c51bb1cb9a8ad1a113a974c4
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_vi.md
+        first_pdf_page: 104
+        last_pdf_page: 105
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 9df191569459a9c2211014d5f964fbf344fa89a2405229aab4fa7b39b2784f26
     - id: ac-i-vii
       reader_note:
         kind: reader
@@ -8100,7 +8659,7 @@ books:
               book_pages: 55-79, 123-136
               subsections: 9
               statements: 52
-              exercises: 23
+              exercises: 27
               extraction: ocr
               content_sha256: 862eb533634e57154a3cf7493419fd43f7b530676770c590cac1d84e03bc8d92
             - kind: section
@@ -8139,7 +8698,7 @@ books:
               book_pages: 108-120, 146-153
               subsections: 7
               statements: 34
-              exercises: 8
+              exercises: 25
               extraction: ocr
               content_sha256: a5d4bfa4c1fcf7eb66cf300768331126f156485bf51ceb82544587f9f1c007d9
         - chapter: III
@@ -8181,7 +8740,7 @@ books:
               statements: 57
               exercises: 13
               extraction: ocr
-              content_sha256: 8ef1e1745e256756c336640ea25cd38dd8a13bd1f46cf491dee2874345913e91
+              content_sha256: c26bf20a582aa742f29736d90586757c3c9eeda4b62c48ac6556a17b97892062
             - kind: section
               section: 3
               title: m-adic topologies on Noetherian rings
@@ -8192,7 +8751,7 @@ books:
               book_pages: 195-209, 245-255
               subsections: 5
               statements: 39
-              exercises: 7
+              exercises: 27
               extraction: ocr
               content_sha256: 7f34e8fa776003d5116ba6baec027fc4736d0298ce93dee623ca18e4bbb7b4ec
             - kind: section
@@ -8258,7 +8817,7 @@ books:
               book_pages: 267-282, 290-301
               subsections: 6
               statements: 39
-              exercises: 28
+              exercises: 35
               extraction: ocr
               content_sha256: 9353d19272573d950f92fba8db2374013f868c6b8d590a53b7b8f6262334c6e8
             - kind: section
@@ -8324,7 +8883,7 @@ books:
               book_pages: 344-354, 370-373
               subsections: 4
               statements: 17
-              exercises: 9
+              exercises: 10
               extraction: ocr
               content_sha256: badf2bc4cb748da842f275e255d9318b86b98b0069385cfdb864427619fa9e85
         - chapter: VI
@@ -8351,7 +8910,7 @@ books:
               book_pages: 375-381, 441-444
               subsections: 4
               statements: 15
-              exercises: 7
+              exercises: 9
               extraction: ocr
               content_sha256: 020593bdada3dedfdedce89dd730fb421b006e38208e35aa98ddd116f94775ba
             - kind: section
@@ -8364,7 +8923,7 @@ books:
               book_pages: 381-385, 444-446
               subsections: 5
               statements: 9
-              exercises: 3
+              exercises: 6
               extraction: ocr
               content_sha256: b544413d10331937b891740ab23ca115c16171f1f2b46cac7186286bd8362f62
             - kind: section
@@ -8403,7 +8962,7 @@ books:
               book_pages: 399-403, 454-459
               subsections: 3
               statements: 10
-              exercises: 9
+              exercises: 10
               extraction: ocr
               content_sha256: b771ebddcf3acdd2226c56d72c2ea5f26745e679f803c00eac83b9bd0bcaa51c
             - kind: section
@@ -8541,13 +9100,37 @@ books:
               title: Historical Note
               path: content/en/ac/VII/historical_note.md
               first_pdf_page: 597
-              last_pdf_page: 642
-              book_pages: 579-625
+              last_pdf_page: 624
+              book_pages: 579-606
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 310b51f7681f87389ad268cda064f6af31cea24a76ec2275974603d2dfff3682
+              content_sha256: bbb940b4e28488bcb1ca1fa68a3aff36f5ddc35ae267d9552f42d4227a004f80
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/ac/index_of_notation_i_vii.md
+        first_pdf_page: 625
+        last_pdf_page: 627
+        book_pages: 607-609
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 641e0c3993ffaf13cacc636d859b85afb80bfe6604e9d58bf0039d6861b7d1d6
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/ac/index_of_terminology_i_vii.md
+        first_pdf_page: 628
+        last_pdf_page: 637
+        book_pages: 610-619
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a190cb6d418c8b704161546f616138cfe5f2dbb8d594917a3d98ca1aaf5aff09
     - id: top-v-x
       reader_note:
         kind: reader
@@ -8585,7 +9168,7 @@ books:
               statements: 13
               exercises: 3
               extraction: ocr
-              content_sha256: c002969ca857c3fbe860d348d27582dd457331b655514d3b9dbdafc9ddc370e0
+              content_sha256: 9cbebe4e1a8bae0b0fc827315001a2e67f647f8725f32eac13cd778b30295812
             - kind: section
               section: 2
               title: Measurement of magnitudes
@@ -8771,10 +9354,10 @@ books:
               first_pdf_page: 106
               last_pdf_page: 131
               subsections: 4
-              statements: 8
+              statements: 9
               exercises: 5
               extraction: ocr
-              content_sha256: 553535497dc7d86b3ebe016a77f3f220a1985737fb41450839e4f7c2c5d04e44
+              content_sha256: bc1873021864b2343367c3ab8d0df23970959e92caf74159ab24e9f10cf32bae
             - kind: section
               section: 2
               title: Angular measure, trigonometric functions
@@ -8842,10 +9425,10 @@ books:
               first_pdf_page: 143
               last_pdf_page: 232
               subsections: 6
-              statements: 15
+              statements: 19
               exercises: 22
               extraction: ocr
-              content_sha256: d46241dcc6e0b3fdc75ac577e2626154c33e198b02447a07198d181994f0f47a
+              content_sha256: 975ef98cf734ea424ef02828005251f15409c8eeb6b0efecedac824175e881a1
             - kind: section
               section: 2
               title: Metric spaces and metrizable spaces
@@ -8854,10 +9437,10 @@ books:
               first_pdf_page: 153
               last_pdf_page: 241
               subsections: 10
-              statements: 32
+              statements: 33
               exercises: 9
               extraction: ocr
-              content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
+              content_sha256: 6e7b44504b54feee5f0b3d6af73ef51f9efcd47254e6b60be3532a4009721713
             - kind: section
               section: 3
               title: Metrizable groups, valued fields, normed spaces and algebras
@@ -8867,7 +9450,7 @@ books:
               last_pdf_page: 245
               subsections: 7
               statements: 40
-              exercises: 4
+              exercises: 9
               extraction: ocr
               content_sha256: 83d55e1838c96863628bb4c841426e325a8058e294ac5b1a348690c7b008fc05
             - kind: section
@@ -8878,10 +9461,10 @@ books:
               first_pdf_page: 185
               last_pdf_page: 255
               subsections: 5
-              statements: 24
-              exercises: 7
+              statements: 25
+              exercises: 30
               extraction: ocr
-              content_sha256: eb00915eefc2542b1cb326ffd5f62b68b64c27c30b72b3cd48135ced89e8d6d5
+              content_sha256: de11080846e294379f4837fb232f016d07b47513805b244d22a0b4f47cd48180
             - kind: section
               section: 5
               title: Baire spaces
@@ -8891,7 +9474,7 @@ books:
               last_pdf_page: 264
               subsections: 4
               statements: 16
-              exercises: 4
+              exercises: 30
               extraction: ocr
               content_sha256: a78fb82444d16ea24a2754a196d4056a293a2226bea0b831a8a986b6b09a213a
             - kind: section
@@ -8915,7 +9498,7 @@ books:
               book_pages: 268-270
               subsections: 3
               statements: 16
-              exercises: 1
+              exercises: 8
               extraction: ocr
               content_sha256: 8ac8a39858022c80b0d394946d918655525055ba0ae1ab6a174d3924458ebb1b
             - kind: historical
@@ -8962,7 +9545,7 @@ books:
               last_pdf_page: 333
               subsections: 5
               statements: 24
-              exercises: 16
+              exercises: 20
               extraction: ocr
               content_sha256: 0e518ac6230012625e0fe16b513a7814cbf8c8e0459e8869ade391e4e1719c46
             - kind: section
@@ -8986,19 +9569,41 @@ books:
               last_pdf_page: 352
               subsections: 4
               statements: 18
-              exercises: 5
+              exercises: 21
               extraction: ocr
               content_sha256: 352337cc126af02c15ffde78bc5a2610b483c38d6be644a79f5231184afe7314
             - kind: historical
               title: Historical Note
               path: content/en/top/X/historical_note.md
               first_pdf_page: 353
-              last_pdf_page: 372
+              last_pdf_page: 354
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 40b5235f4ceac5953a07d76a4ff11499284171867bddf1d36dc51ac4536b548e
+              content_sha256: 8111f3a5ff0b76b331b7a96693b3e20af5d13a8fdc08b76f53f9ac96b1bd1120
+      notation_index:
+        kind: notation
+        title: INDEX OF NOTATION
+        path: content/en/top/index_of_notation_v_x.md
+        first_pdf_page: 355
+        last_pdf_page: 356
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 1fc2a2f421aec28ba0835c3c9e8c7beb629c1f14c21bec9c04799faabedd66e8
+      terminology_index:
+        kind: terminology
+        title: INDEX OF TERMINOLOGY
+        path: content/en/top/index_of_terminology_v_x.md
+        first_pdf_page: 357
+        last_pdf_page: 369
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 86a498aae18ac8a4a5da52cdbb20b74a66669f68dc3d59d8577227760a8f6921
     - id: alg-ix-fr
       chapters:
         - chapter: IX
@@ -9022,10 +9627,10 @@ books:
               first_pdf_page: 5
               last_pdf_page: 38
               subsections: 10
-              statements: 45
+              statements: 46
               exercises: 0
               extraction: ocr
-              content_sha256: b21644da462961bf5e76bb84af83bd25fbddfd44913e5d77b17fe0efb600df69
+              content_sha256: c520c3715bc6f8f016eb5da7058dbfa506012e55e322d1d89755e18c9663396f
             - kind: section
               section: 2
               title: Discriminant d'une forme sesquilinéaire
@@ -9046,10 +9651,10 @@ books:
               first_pdf_page: 47
               last_pdf_page: 61
               subsections: 4
-              statements: 7
+              statements: 9
               exercises: 0
               extraction: ocr
-              content_sha256: 0bb759b2ee3f2642c3cb5cbb61bbe2b238f671b8a55c5bd0897c6be64264dcf6
+              content_sha256: d7b1f86699f25f6c6342441758539ed5b9788cef94369639bf68282d401e93ee
             - kind: section
               section: 4
               title: Sous-espaces totalement isotropes. Théorème de Witt
@@ -9138,12 +9743,34 @@ books:
               title: Historical Note
               path: content/fr/alg/IX/historical_note.md
               first_pdf_page: 183
-              last_pdf_page: 211
+              last_pdf_page: 199
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: c6c1023523b162de5a8af2a1d497f094c0bb1a5c5d7c4ace15cd5c10c180e6c5
+              content_sha256: c9e644b03e5f90852094e40096ee762a46e74067499add34e41f17cfa10acba4
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_ix.md
+        first_pdf_page: 200
+        last_pdf_page: 201
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 85e17dcc7234e31bd26bb1acd485fbf4f18a775f3b0e0fffc966a34a25869e9b
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_ix.md
+        first_pdf_page: 202
+        last_pdf_page: 207
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 9ef26dde41438070b04dbd357ae2b6b4a7df27d11ba3b22932fe24c5bffb14fe
     - id: alg-i-iii-fr
       reader_note:
         kind: reader
@@ -9189,10 +9816,10 @@ books:
               first_pdf_page: 11
               last_pdf_page: 129
               subsections: 6
-              statements: 31
+              statements: 39
               exercises: 16
               extraction: ocr
-              content_sha256: 3c9b00a2b749a4f7448ff5db7c549681f1663bbdaad39d6a48a3ed0fca666271
+              content_sha256: 98981d8a76eff4ef9c3ae9531a90332a2920fc7ebc27e9bd371149b6a89c8204
             - kind: section
               section: 2
               title: Élément neutre ; éléments simplifiables ; éléments inversibles
@@ -9202,10 +9829,10 @@ books:
               last_pdf_page: 132
               book_pages: A I.12-A I.23, A I.119-A I.122
               subsections: 8
-              statements: 30
+              statements: 32
               exercises: 17
               extraction: ocr
-              content_sha256: 7f909885aa65ab7cf5e7e291cf91c1df75f83a7a5ec37dbb397e4a2ae5063959
+              content_sha256: 4880a04b336c37ceb7d316aa21575e7af6a3cff1983d9e99b72ead7f2fd1608f
             - kind: section
               section: 3
               title: Actions
@@ -9228,10 +9855,10 @@ books:
               last_pdf_page: 139
               book_pages: A I.28-A I.49, A I.123-A I.129
               subsections: 10
-              statements: 64
+              statements: 66
               exercises: 26
               extraction: ocr
-              content_sha256: 6e3a120c392ef8be041cdb35e438115941e77709f0edc4b4e421209c2e07c876
+              content_sha256: a711b3ebd89b32c5ea3ea2e1f026589a09b73c0afb90ab9651e4a83e25fe9554
             - kind: section
               section: 5
               title: Groupes opérant sur un ensemble
@@ -9241,10 +9868,10 @@ books:
               last_pdf_page: 144
               book_pages: A I.49-A I.62, A I.129-A I.134
               subsections: 7
-              statements: 40
+              statements: 41
               exercises: 29
               extraction: ocr
-              content_sha256: 39154bc38734ad5210bfb7d539e079049b587038f92fe7b4a9463028ea703d28
+              content_sha256: 466abed96462daccdedffc80de9cccaece9d32428771c5f38a074e2040ecc878
             - kind: section
               section: 6
               title: Extensions, groupes résolubles, groupes nilpotents
@@ -9254,10 +9881,10 @@ books:
               last_pdf_page: 153
               book_pages: A I.62-A I.77, A I.134-A I.143
               subsections: 7
-              statements: 58
+              statements: 68
               exercises: 41
               extraction: ocr
-              content_sha256: 0ae630f61cc53951743edd4f0e5b7c76430c2a6a6d46316e733556a4456ac5a5
+              content_sha256: 9a17e5ddfce7be6cf12f2f03d20e1760bf61223d7661f7b621abde2958295d00
             - kind: section
               section: 7
               title: Monoïdes libres, groupes libres
@@ -9293,10 +9920,10 @@ books:
               last_pdf_page: 167
               book_pages: A I.153-A I.157
               subsections: 4
-              statements: 17
+              statements: 19
               exercises: 21
               extraction: ocr
-              content_sha256: a39d654de2d46a15dc782fe2db07454b2b4367832a6258b29d4e46169768a183
+              content_sha256: aa763e5c5e122e0d1bb887dc16f744bf1f662066917ba969fce719596e5f648a
             - kind: section
               section: 10
               title: Limites projectives et inductives
@@ -9341,10 +9968,10 @@ books:
               first_pdf_page: 178
               last_pdf_page: 360
               subsections: 14
-              statements: 96
+              statements: 101
               exercises: 27
               extraction: ocr
-              content_sha256: 70660bee3256308a3ef902dfb46e26259e40fb888e027c7207e49c6d0d0b3f0e
+              content_sha256: b4b28b6d75dc77acfe9906f6f9c66595795db5a2a42ad9cb4f6e8f929e93d20d
             - kind: section
               section: 2
               title: Modules d’applications linéaires. Dualité
@@ -9406,10 +10033,10 @@ books:
               last_pdf_page: 369
               book_pages: A II.88-A II.95
               subsections: 3
-              statements: 16
+              statements: 17
               exercises: 4
               extraction: ocr
-              content_sha256: 63d8d2cebc6c0f675c817df332ab0733170640ec053774350910359412f9f7f8
+              content_sha256: e406895b1625ad7fa5ffe7186d3e518cff1a0f1317ac962efb162f7003c8aba6
             - kind: section
               section: 7
               title: Espaces vectoriels
@@ -9506,10 +10133,10 @@ books:
               first_pdf_page: 389
               last_pdf_page: 565
               subsections: 7
-              statements: 5
+              statements: 8
               exercises: 1
               extraction: ocr
-              content_sha256: 2d5e926b08c68d5e7ca5beba37db0cfedb5584bfc190c8df4ab07597ba9427c7
+              content_sha256: 27a3504506c4303e364875c89a486914306d0be95db683b3ae14febc70e9aefa
             - kind: section
               section: 2
               title: Exemples d’algèbres
@@ -9520,7 +10147,7 @@ books:
               book_pages: A III.12-A III.30
               subsections: 11
               statements: 20
-              exercises: 4
+              exercises: 3
               extraction: ocr
               content_sha256: 3d6e2b598afef6281f6666d1de27e86e4cb85205f55cb991484c265c8ed5d0c4
             - kind: section
@@ -9545,10 +10172,10 @@ books:
               last_pdf_page: 571
               book_pages: A III.33-A III.55, A III.183-A III.184
               subsections: 9
-              statements: 47
+              statements: 48
               exercises: 2
               extraction: ocr
-              content_sha256: 59645096ae90f853ea564641855a3e82cc91f3c460007a1723aae13682f0c924
+              content_sha256: d9bbe0fc55c42c5d36796ffedea959ba728313abd54b5a73198589e0ca4bf05f
             - kind: section
               section: 5
               title: Algèbre tensorielle, tenseurs
@@ -9656,12 +10283,34 @@ books:
               title: Historical Note
               path: content/fr/alg/III/historical_note.md
               first_pdf_page: 591
-              last_pdf_page: 645
+              last_pdf_page: 603
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 9ede3a5b99fd042dad1117c7ba63f9c2400ed08a2755a8e867a4e2cf0d56c484
+              content_sha256: d72c52cd1fd322c07eb933062e7afa443125f76a019d0470caa3a5bea0f73a28
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_i_iii.md
+        first_pdf_page: 604
+        last_pdf_page: 609
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 5d4a61946ec90b05fa2802f168378a83c625a76207ad802109f5f3a4f79ee301
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_i_iii.md
+        first_pdf_page: 610
+        last_pdf_page: 635
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 42adf4923af67717087f6b51475d87677466760abdfa7e913f4f524e66ada6bd
     - id: ac-i-iv-fr
       introduction:
         kind: introduction
@@ -9709,7 +10358,7 @@ books:
               last_pdf_page: 65
               subsections: 11
               statements: 41
-              exercises: 15
+              exercises: 24
               extraction: ocr
               content_sha256: af91402a2ec2c2ed81a7bff1a5e8ce758f4c5169ec4ecce1812964a448251d8c
             - kind: section
@@ -9769,10 +10418,10 @@ books:
               first_pdf_page: 72
               last_pdf_page: 164
               subsections: 9
-              statements: 58
-              exercises: 18
+              statements: 66
+              exercises: 25
               extraction: ocr
-              content_sha256: 002eb9711ea80898e77fc20598af052186def930de5f918d075490e8223be466
+              content_sha256: 365de78589b6c776be87c9f01881a80c664bda57a356a2baf8f8cef314a57ae9
             - kind: section
               section: 3
               title: Anneaux locaux. Passage du local au global
@@ -9805,10 +10454,10 @@ books:
               first_pdf_page: 134
               last_pdf_page: 180
               subsections: 7
-              statements: 33
+              statements: 34
               exercises: 25
               extraction: ocr
-              content_sha256: 1c0f1337338e5670b4becab836d2ddb70623f0a03c9fc1acc2628be34f187ea5
+              content_sha256: 73e82535c87aba6ad2392ab2acb3ae8c7f820749dc94b8469668b9d25cc54652
         - chapter: III
           title: Graduations, filtrations et topologies
           sections:
@@ -9855,7 +10504,7 @@ books:
               last_pdf_page: 299
               subsections: 5
               statements: 37
-              exercises: 9
+              exercises: 27
               extraction: ocr
               content_sha256: 8946770381542fea93e050249d046345be6a1a19154b6df2eaac30ae3e84b650
             - kind: section
@@ -9925,12 +10574,34 @@ books:
               path: content/fr/ac/IV/03_s3_decomposition_primaire_dans_les_modules.md
               label: ac-iv-s3
               first_pdf_page: 332
-              last_pdf_page: 361
+              last_pdf_page: 352
               subsections: 3
               statements: 6
               exercises: 3
               extraction: ocr
               content_sha256: b716f6cf2dd0bf60045addebda4ba042705d015e4eb20af7db7214000c6f8fa1
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ac/index_of_notation_i_iv.md
+        first_pdf_page: 353
+        last_pdf_page: 353
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 13b01de6aae4a65f12a59adf49cbd0b5e3e84470f8c2fc82613b657db8cc9300
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ac/index_of_terminology_i_iv.md
+        first_pdf_page: 354
+        last_pdf_page: 357
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 48078c097dff7b653ee581da7adbe5e13dd92a636a80d68eed408afd4d9e64bb
     - id: top-i-iv-fr
       reader_note:
         kind: reader
@@ -9976,10 +10647,10 @@ books:
               first_pdf_page: 13
               last_pdf_page: 102
               subsections: 6
-              statements: 22
+              statements: 23
               exercises: 10
               extraction: ocr
-              content_sha256: 55ce406216071ae78a5b7bacb6d9a1b2f9a055661ed275955d15cb0ff4e8d7fb
+              content_sha256: 3a696a2ba7595e18e902bd98cff631fa00210213e3f21a762a7168d48f4ae59c
             - kind: section
               section: 2
               title: Fonctions continues
@@ -9989,10 +10660,10 @@ books:
               last_pdf_page: 105
               book_pages: TG I.8-TG I.17
               subsections: 5
-              statements: 26
+              statements: 30
               exercises: 12
               extraction: ocr
-              content_sha256: 0038af79f1d2e2b23cb5cd08e582c142580cc5d23ac6aff2875571f498c5b32e
+              content_sha256: dbdc66bc8f9ab4254506e013eb58494246bd3d2613c30e0d530cd4c0872e1e3a
             - kind: section
               section: 3
               title: Sous-espaces; espaces quotients
@@ -10041,10 +10712,10 @@ books:
               last_pdf_page: 111
               book_pages: TG I.36-TG I.46
               subsections: 10
-              statements: 28
+              statements: 29
               exercises: 20
               extraction: ocr
-              content_sha256: 073bb3a9e4bf91147fb097cafd414619e9e01e9285f92074e23b76aa1fddc5db
+              content_sha256: b042b015a8c18f06cd3667b0ba26e507005e3526693c0fd684a68f2ea4d54e7a
             - kind: section
               section: 7
               title: Limites
@@ -10066,10 +10737,10 @@ books:
               first_pdf_page: 64
               last_pdf_page: 117
               subsections: 6
-              statements: 28
+              statements: 30
               exercises: 29
               extraction: ocr
-              content_sha256: cce74d2df88a64d676300feacac6c04c83e3b53a68854d681394c7cf50a19e8d
+              content_sha256: f472259f3a32097d9cb039ad4372a434012db74a7176394063cd9d13f33d95c7
             - kind: section
               section: 9
               title: Espaces compacts et espaces localement compacts
@@ -10079,10 +10750,10 @@ books:
               last_pdf_page: 123
               book_pages: TG I.59-TG I.71
               subsections: 10
-              statements: 48
+              statements: 50
               exercises: 31
               extraction: ocr
-              content_sha256: 3860aec594aa68b86a44725b56f6eb22a136dac4a050301c0019ce468b15b289
+              content_sha256: 7ce00e5a228592d6fad05a9a6fb23a06c4f343f099c9624a1c06e8f973d61805
             - kind: section
               section: 10
               title: Applications propres
@@ -10104,10 +10775,10 @@ books:
               first_pdf_page: 92
               last_pdf_page: 133
               subsections: 7
-              statements: 28
+              statements: 29
               exercises: 29
               extraction: ocr
-              content_sha256: e9eff3ed60be295fd962cd027968f4afe1c217f0dc7647c97b8bb23ce797063a
+              content_sha256: 2d6c3fb9aa50475b7f50ea6a4a3b44fcce29e93543ce19f5f6571a3a70aea3c5
             - kind: historical
               title: Historical Note
               path: content/fr/top/I/historical_note.md
@@ -10139,10 +10810,10 @@ books:
               first_pdf_page: 140
               last_pdf_page: 174
               subsections: 2
-              statements: 13
+              statements: 14
               exercises: 5
               extraction: ocr
-              content_sha256: 7bb54d9be7420ea7071c88fd80783d6eac017db28793506c339ed40a34221d63
+              content_sha256: 6288b483aef86cdb0dac40f4076086ed2473b9ef34afd6ac94d9e5de7de025f4
             - kind: section
               section: 2
               title: Fonctions uniformément continues
@@ -10152,10 +10823,10 @@ books:
               last_pdf_page: 174
               book_pages: TG II.6-TG II.12, TG II.35
               subsections: 7
-              statements: 24
+              statements: 26
               exercises: 6
               extraction: ocr
-              content_sha256: bfb04ecdf1f9360e7000738526e7648065d67c1912d1d3570bfd26485e9fc429
+              content_sha256: 06111a5a700b7737aa975f4b4cb3dd88e2bb2e7dc8c3c4b422bffdb563447b1f
             - kind: section
               section: 3
               title: Espaces complets
@@ -10213,10 +10884,10 @@ books:
               first_pdf_page: 184
               last_pdf_page: 250
               subsections: 3
-              statements: 10
+              statements: 11
               exercises: 9
               extraction: ocr
-              content_sha256: bfeade3aa0b3b3023ecc16a65220bfffdd3050bd0ba1e1fd0b30d600039ca897
+              content_sha256: 7776acd7bfae78ca9f67e9183ca719fdef316dd21713053f3630629a009ebb09
             - kind: section
               section: 2
               title: Sous-groupes; groupes quotients; homomorphismes; espaces homogènes; groupes produits
@@ -10278,10 +10949,10 @@ books:
               last_pdf_page: 268
               book_pages: TG III.45-TG III.56, TG III.79-TG III.85
               subsections: 8
-              statements: 20
+              statements: 24
               exercises: 29
               extraction: ocr
-              content_sha256: d9372c11396f6f8af17b5a832d391657f022a49ad7fb9031449217f3aa3234c5
+              content_sha256: 9aa1f2536123b2c4066711ece128e1f7f11d3f3d41a246330b29205994aa21a8
             - kind: section
               section: 7
               title: Limites projectives de groupes et d’anneaux topologiques
@@ -10425,12 +11096,34 @@ books:
               title: Historical Note
               path: content/fr/top/IV/historical_note.md
               first_pdf_page: 336
-              last_pdf_page: 367
+              last_pdf_page: 346
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 53f6c45d567e23fd0d36c2137fc3dc5cf69104d446214d339199af3571923d31
+              content_sha256: 6c2059f6a4460cc5f1c767894d31d2bbf88260d2e8f101cd21ce12de3746a2cc
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/top/index_of_notation_i_iv.md
+        first_pdf_page: 347
+        last_pdf_page: 348
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 214e229b12f5decc984d155057ff636663e575385d5ffbbeb26c171344f21bdd
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/top/index_of_terminology_i_iv.md
+        first_pdf_page: 349
+        last_pdf_page: 359
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 7b1104d8d7a71a570740400d547cea5d4fea888db06c9ee9e95a290d5c20104e
     - id: alg-x-fr
       reader_note:
         kind: reader
@@ -10466,10 +11159,10 @@ books:
               last_pdf_page: 179
               book_pages: A X.168-A X.173
               subsections: 10
-              statements: 55
+              statements: 57
               exercises: 17
               extraction: ocr
-              content_sha256: bc19da43004b19055ec3f2c2c05899eaf5dce7177cab8b30104e033843178968
+              content_sha256: 661e6e611980bcb19421cb07584e3f5831d587913d409a3e231582141cc21e03
             - kind: section
               section: 2
               title: Complexes de A-modules
@@ -10479,10 +11172,10 @@ books:
               last_pdf_page: 184
               book_pages: A X.23-A X.46, A X.173-A X.178
               subsections: 10
-              statements: 56
+              statements: 59
               exercises: 18
               extraction: ocr
-              content_sha256: e39dbf624efa7299900b2ff6aa5b6b432df163fe6dd11f43a39e7879f80cefb3
+              content_sha256: 000a48d0cc41203e5b65717dc12655c3172e383b3cbca3cef557d81d8756d9cb
             - kind: section
               section: 3
               title: Résolutions
@@ -10558,7 +11251,7 @@ books:
               book_pages: A X.134-A X.146, A X.202-A X.206
               subsections: 7
               statements: 34
-              exercises: 22
+              exercises: 28
               extraction: ocr
               content_sha256: 01423d7f9d05c6000bce1884bf08ce49ac1e4be4045d9ae6bb8edef4dbad7463
             - kind: section
@@ -10567,13 +11260,35 @@ books:
               path: content/fr/alg/X/09_s9_complexes_de_koszul.md
               label: alg-x-s9
               first_pdf_page: 153
-              last_pdf_page: 222
-              book_pages: A X.147-A X.168, A X.206-A X.216
+              last_pdf_page: 215
+              book_pages: A X.147-A X.168, A X.206-A X.209
               subsections: 10
               statements: 35
               exercises: 10
               extraction: ocr
               content_sha256: 234fe2945aa4e961036016372d407d506dc8b4e0d5b9dad9251bdb87e41d0c74
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_x.md
+        first_pdf_page: 216
+        last_pdf_page: 216
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 8f583d89304d407a99b4a049223d5095e7a4c7c5d88af11516bec033c6ebdbad
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_x.md
+        first_pdf_page: 217
+        last_pdf_page: 219
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 2720fad4c5c7f333155f4d7b5c6514463c49b583512668f714c9647e3fdf06c8
     - id: int-i-iv-fr
       introduction:
         kind: introduction
@@ -10631,10 +11346,10 @@ books:
               first_pdf_page: 21
               last_pdf_page: 41
               subsections: 5
-              statements: 16
+              statements: 17
               exercises: 14
               extraction: ocr
-              content_sha256: 65e80833bfdc362cbc20f4d473358f8b4560e8aade59dd55bc339cb34363a94c
+              content_sha256: f6106a7d26b3aa6d095f3aaad6040d83cbf5ebb9ee23a9bb3951da7dd5cd0605
             - kind: section
               section: 2
               title: Formes linéaires sur un espace de Riesz
@@ -10766,7 +11481,7 @@ books:
               last_pdf_page: 249
               subsections: 11
               statements: 62
-              exercises: 5
+              exercises: 3
               extraction: ocr
               content_sha256: 3fcd4a66927194632d9fb1ddf6dc957e482b924a4f4a3e17d94933d48c0000ac
             - kind: section
@@ -10777,10 +11492,10 @@ books:
               first_pdf_page: 173
               last_pdf_page: 258
               subsections: 12
-              statements: 77
+              statements: 81
               exercises: 30
               extraction: ocr
-              content_sha256: 75f971651d88da0710e759eaf3b5edbfa9128b3f30e470b8ae93bb0134ca293f
+              content_sha256: 34b63f1e767b60add3ef54429841cd902d1e40134f1f160ad4e20526aedd9fbd
             - kind: section
               section: 6
               title: Inégalités de convexité
@@ -10799,12 +11514,34 @@ books:
               path: content/fr/int/IV/07_s7_barycentres.md
               label: int-iv-s7
               first_pdf_page: 219
-              last_pdf_page: 293
+              last_pdf_page: 275
               subsections: 6
               statements: 29
-              exercises: 3
+              exercises: 1
               extraction: ocr
               content_sha256: e97fd0f41e7d621fb14994516f11d408708f0959271b4f7db32957daf87aea55
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_i_iv.md
+        first_pdf_page: 276
+        last_pdf_page: 277
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: a98319c9a19b5d5a369f557a7faf071f143d47d749676370225e5c752fee5411
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_i_iv.md
+        first_pdf_page: 278
+        last_pdf_page: 281
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: b3a1c81c6de3798e6e9395ab3e46737eca7e41a7daf493627a467fb2c7959593
     - id: var-fr
       reader_note:
         kind: reader
@@ -10927,6 +11664,28 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 4f5da2d5f93a17339b36e8b289bea09365035864aa242bc99e5291d21d3b274d
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/var/index_of_notation.md
+        first_pdf_page: 181
+        last_pdf_page: 183
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 4b620e7a64ed62c8cab7f538a574b8cfca3849930dc0490061b439b475266e3c
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/var/index_of_terminology.md
+        first_pdf_page: 184
+        last_pdf_page: 187
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: dd9c9b821401049226582e0cf291e7771d66945773cfe4068943f424476084ed
     - id: hist-fr
       reader_note:
         kind: reader
@@ -11439,7 +12198,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 519eeb1441ec990499d5edf0dcced26f5938d33699fb2d691ac64c29f7d0aa2a
+              content_sha256: 762c9dd6e1e60b1c347a64e7ac399ccd6fed4561abdfe5ea90a36bc9b0e50293
             - kind: section
               section: 16
               title: Metric Spaces
@@ -11607,10 +12366,10 @@ books:
               first_pdf_page: 12
               last_pdf_page: 53
               subsections: 4
-              statements: 38
+              statements: 40
               exercises: 16
               extraction: ocr
-              content_sha256: ff1750425f668356caf192d33e90c882698aecaa0ee00b9858ee8a2613dfc827
+              content_sha256: 376c38db366a6ff349b58d48f96a6a454428002a828f1a1940ce66799ee1c9d7
             - kind: section
               section: 3
               title: Théorèmes de conjugaison
@@ -11844,10 +12603,10 @@ books:
               last_pdf_page: 91
               book_pages: A IV.83-A IV.84
               subsections: 3
-              statements: 19
+              statements: 20
               exercises: 13
               extraction: ocr
-              content_sha256: baba9980ede99a05e18e78fbb21cb7215f71dc8383f7b91145a7c2406465f703
+              content_sha256: d8d29a6444b75ad45f6377e9b2679890fd9713ff6d0e7284c5915f17b9d13d0a
             - kind: section
               section: 3
               title: FRACTIONS RATIONNELLES
@@ -11883,10 +12642,10 @@ books:
               last_pdf_page: 99
               book_pages: A IV.39-A IV.57, A IV.87-A IV.92
               subsections: 11
-              statements: 37
+              statements: 42
               exercises: 16
               extraction: ocr
-              content_sha256: 436be7555b6615cd1e246da18dd676adabf926d4b4c53dec6a5b23c4c066abd8
+              content_sha256: 9712b22bb1d9580135fa7ae6661371bc4864b7aadadee70ac29466c3afde8d03
             - kind: section
               section: 6
               title: FONCTIONS SYMÉTRIQUES
@@ -11895,10 +12654,10 @@ books:
               first_pdf_page: 64
               last_pdf_page: 104
               subsections: 7
-              statements: 41
+              statements: 46
               exercises: 7
               extraction: ocr
-              content_sha256: 1e29a47a89646d6879a7bb04367a0bd4b9075a7a54c877ec88da2ba2448e89ad
+              content_sha256: 5159b1b30c3ac692aa8536a5f74fcbb2499ef16d5f320af8e43374358b2d23f7
         - chapter: V
           title: Corps commutatifs
           sections:
@@ -11959,10 +12718,10 @@ books:
               last_pdf_page: 248
               book_pages: A V.19-A V.23, A V.143-A V.144
               subsections: 3
-              statements: 17
+              statements: 20
               exercises: 2
               extraction: ocr
-              content_sha256: 534e509dbe20f60353cda50139274b7157fc2a4cff637503dab87467c16be3b5
+              content_sha256: 4498daf572af9146e6817257756e773bc4659f081e764b48ed5be49a541e313f
             - kind: section
               section: 5
               title: EXTENSIONS RADICIELLES
@@ -11998,10 +12757,10 @@ books:
               last_pdf_page: 250
               book_pages: A V.35-A V.45, A V.145-A V.146
               subsections: 9
-              statements: 40
+              statements: 42
               exercises: 5
               extraction: ocr
-              content_sha256: d9bbc3463ea31eaec2d0836617f3d8875e4519adc32b0d44b7d73be33f686425
+              content_sha256: 8442ab006744ede6d0858b45206396bcd6fd8f4653e0ba6b462899ba01f3f5eb
             - kind: section
               section: 8
               title: NORMES ET TRACES
@@ -12040,7 +12799,7 @@ books:
               statements: 51
               exercises: 23
               extraction: ocr
-              content_sha256: 15a2b24d994e666a57321408db667d83d515a874218aa89b2406163170c3f113
+              content_sha256: d5887dc184e32c14705ba2fd592afc40349b31482eec49a947ee4ea3c59c8fef
             - kind: section
               section: 11
               title: EXTENSIONS ABÉLIENNES
@@ -12050,10 +12809,10 @@ books:
               last_pdf_page: 260
               book_pages: A V.152-A V.156
               subsections: 9
-              statements: 42
+              statements: 46
               exercises: 23
               extraction: ocr
-              content_sha256: a7d120eb9909dcf5ef661f53cfcd32f9f607d9ae2ce4cd59743ab6d3a0b09fc9
+              content_sha256: 6172953cd766561f91fc7cf0af9c39ae5d4c5a8b7820b611ba04c2b40195ebed
             - kind: section
               section: 12
               title: CORPS FINIS $^1$
@@ -12115,10 +12874,10 @@ books:
               last_pdf_page: 272
               book_pages: A V.166-A V.168
               subsections: 7
-              statements: 32
+              statements: 33
               exercises: 9
               extraction: ocr
-              content_sha256: 8c96df76cc5f350ae1749bb04c7403359f523c8f87e6fa7774f191624139d5af
+              content_sha256: 24bef2fb88c76b05fffbba9ea5ecdefa6b82d964fc8b6a9549b0bcd31289dacd
             - kind: section
               section: 17
               title: EXTENSIONS RÉGULIÈRES
@@ -12152,10 +12911,10 @@ books:
               first_pdf_page: 290
               last_pdf_page: 324
               subsections: 13
-              statements: 52
-              exercises: 20
+              statements: 54
+              exercises: 36
               extraction: ocr
-              content_sha256: af0e37d4d46945de0a0c4108c90fd198171ff9250cd1b866a07a6baf0bc972be
+              content_sha256: d459aee49edffec36fa4551da478366cdc6f77c17893a082abca75e768bd0144
             - kind: section
               section: 2
               title: CORPS ORDONNÉS
@@ -12165,10 +12924,10 @@ books:
               last_pdf_page: 333
               book_pages: A VI.35-A VI.44
               subsections: 2
-              statements: 32
-              exercises: 5
+              statements: 34
+              exercises: 41
               extraction: ocr
-              content_sha256: ee612dde6081178bbeaa53c7197b09ae5e7000446bf05cbb41d6faa813c77501
+              content_sha256: 034def1e6eaf6c0c8651a040d84e137d33d7854a0ecc8daa45e75c4921a77de1
         - chapter: VII
           title: Modules sur les anneaux principaux
           sections:
@@ -12191,7 +12950,7 @@ books:
               last_pdf_page: 386
               subsections: 5
               statements: 15
-              exercises: 10
+              exercises: 28
               extraction: ocr
               content_sha256: 9dc599f9b4c10081b93a10c9bf65a28d23367b7369c57f86f2d79b8655b439f0
             - kind: section
@@ -12230,7 +12989,7 @@ books:
               book_pages: A VII.15-A VII.27, A VII.60-A VII.66
               subsections: 9
               statements: 41
-              exercises: 8
+              exercises: 25
               extraction: ocr
               content_sha256: 87df1f6594332ddfc8ec38a4fe31e67f6610f4eb582f81b52c94da4aaa95c4b5
             - kind: section
@@ -12239,12 +12998,35 @@ books:
               path: content/fr/alg/VII/05_s5_endomorphismes_des_espaces_vectoriels.md
               label: alg-vii-s5
               first_pdf_page: 361
-              last_pdf_page: 426
+              last_pdf_page: 411
+              book_pages: A VII.66-A VII.78
               subsections: 9
-              statements: 65
-              exercises: 4
+              statements: 66
+              exercises: 14
               extraction: ocr
-              content_sha256: f9b4389165b3aff0d28d3f30c5e51547f8dbd83f9fed82d55c0b7cdda6e5fdd0
+              content_sha256: afafa9b7b4655ef32bab0a03356e58c950c7bbe3f0518d735de9b0a047ab4b50
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/alg/index_of_notation_iv_vii.md
+        first_pdf_page: 412
+        last_pdf_page: 413
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 9321c075198874b91e8d7e37edee5ab1f33fb38836cc299b08a5087764412faa
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/alg/index_of_terminology_iv_vii.md
+        first_pdf_page: 414
+        last_pdf_page: 419
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 82242e6e22a3a7652fcbdd22511eabd30d5f4238f605ebfa889299ec8d698001
     - id: fvr-i-vii-fr
       reader_note:
         kind: reader
@@ -12290,10 +13072,10 @@ books:
               first_pdf_page: 9
               last_pdf_page: 41
               subsections: 7
-              statements: 32
+              statements: 37
               exercises: 9
               extraction: ocr
-              content_sha256: 852fb39dfe02b00538374c47ef611fa008c1ea8bba29572a1a04183e2cc6fca4
+              content_sha256: affe3213f341ff8fde732fe4ba642c8423e564e35a98a1fff0abe93a7ff567af
             - kind: section
               section: 2
               title: Le théorème des accroissements finis
@@ -12303,10 +13085,10 @@ books:
               last_pdf_page: 44
               book_pages: FVR I.20-FVR I.27, FVR I.43-FVR I.46
               subsections: 4
-              statements: 18
+              statements: 21
               exercises: 14
               extraction: ocr
-              content_sha256: 1c6e4751c567d90f9445a5b2637dec3ea9f4363bbd5572b03f3ef2ef95e56154
+              content_sha256: 5f7fd3a934efbad19ca044626397a8b33e935d66181fbad2c1fcc07084b1bff4
             - kind: section
               section: 3
               title: Dérivées d'ordre supérieur
@@ -12329,10 +13111,10 @@ books:
               last_pdf_page: 52
               book_pages: FVR I.51-FVR I.54
               subsections: 4
-              statements: 21
+              statements: 23
               exercises: 25
               extraction: ocr
-              content_sha256: 085dbd3166d7ca5d8e68a6e45152357a117b12c69542c893fd186e19a87d782c
+              content_sha256: 75259f901626bf63f4807a794433c6bf4a7b1dabbf9d8c9eec785a348d52570e
         - chapter: II
           title: PRIMITIVES ET INTÉGRALES
           sections:
@@ -12367,10 +13149,10 @@ books:
               last_pdf_page: 87
               book_pages: FVR II.13-FVR II.18, FVR II.33-FVR II.35
               subsections: 3
-              statements: 10
+              statements: 12
               exercises: 9
               extraction: ocr
-              content_sha256: 2e3ce1ec4cd28d07427e7c5d21beaf54631c9beb95a004344a91eb9cc657feaa
+              content_sha256: 7f7da152fbd7ff40617082eacbfca6dc428a3bdfeba3d2e5db6c22e780b1a167
             - kind: section
               section: 3
               title: Dérivées et intégrales de fonctions dépendant d'un paramètre
@@ -12380,10 +13162,10 @@ books:
               last_pdf_page: 90
               book_pages: FVR II.35-FVR II.38
               subsections: 6
-              statements: 17
+              statements: 18
               exercises: 10
               extraction: ocr
-              content_sha256: 78e9b0c6439bb8e707e8de339dc250f725de8e22ef83030101571459ec119b77
+              content_sha256: c6f3cc6ac4464f645a1fcfafc70e48660d7235b77c1b612c2cec4a65f8684f4b
         - chapter: III
           title: FONCTIONS ÉLÉMENTAIRES
           sections:
@@ -12431,7 +13213,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: fac958f4b6a8d18952eb49a305fa7a2c6ac0da3d2130f298a35e75f9426cbba0
+              content_sha256: 2dbd99e555debbcd5544a7ddec67266391f49d4c0af4074542b74a4a8309793f
         - chapter: IV
           title: ÉQUATIONS DIFFÉRENTIELLES
           sections:
@@ -12466,10 +13248,10 @@ books:
               last_pdf_page: 202
               book_pages: FVR IV.16-FVR IV.36, FVR IV.41-FVR IV.43
               subsections: 9
-              statements: 21
+              statements: 25
               exercises: 10
               extraction: ocr
-              content_sha256: 3cc2c19d687fdf68937ab5da650a65a2b8b4a4035eaea77aaf7953b28d5a81e8
+              content_sha256: 74292c898a73f1658412d2cc258444a83449178292a83c0077c0dc37ac9c8ba8
             - kind: historical
               title: Historical Note
               path: content/fr/fvr/IV/historical_note.md
@@ -12501,10 +13283,10 @@ books:
               first_pdf_page: 206
               last_pdf_page: 253
               subsections: 5
-              statements: 47
+              statements: 48
               exercises: 3
               extraction: ocr
-              content_sha256: 4b278b611edbc903d308f669178aefc79766c85334861544840988b827a56395
+              content_sha256: 25a0e46d98bb0b2b986b13121b9d77fbf7a2298cd0de4a77225b12beda9ccd52
             - kind: section
               section: 2
               title: Développements asymptotiques
@@ -12527,10 +13309,10 @@ books:
               last_pdf_page: 254
               book_pages: FVR V.18-FVR V.26
               subsections: 6
-              statements: 22
+              statements: 23
               exercises: 7
               extraction: ocr
-              content_sha256: 20d29f65ab35a35f5a172f906fd69619f5e0f561f0080c86b52406bf3574f7b9
+              content_sha256: bb7e81780632e415edba0605b9d9f745690f127461b8c8e4455225c731f15c15
             - kind: section
               section: 4
               title: Application aux séries à termes positifs
@@ -12577,10 +13359,10 @@ books:
               first_pdf_page: 261
               last_pdf_page: 282
               subsections: 7
-              statements: 21
+              statements: 22
               exercises: 3
               extraction: ocr
-              content_sha256: c62a981a913c34c2c26db87f31b7b8b9ed865aaa0efee4d09eb4535ee4761fc3
+              content_sha256: 1c3e00ab266cbc56b3245739da74a342e47944ab91c846c5650f7ce7098a4940
             - kind: section
               section: 2
               title: Développements eulériens des fonctions trigonométriques et nombres de Bernoulli
@@ -12659,13 +13441,37 @@ books:
               title: Historical Note
               path: content/fr/fvr/VII/historical_note.md
               first_pdf_page: 314
-              last_pdf_page: 329
-              book_pages: A V.113-FVR VII.38
+              last_pdf_page: 316
+              book_pages: A V.113
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: a47d34244ba744bcccf40a574d91dd116d6ea0c78743ccf0c06d4ab99b65d4c4
+              content_sha256: cd131e498b6057c0908bf59aa12185648760ddbc0a8f6986490ad580efe8280b
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/fvr/index_of_notation_i_vii.md
+        first_pdf_page: 317
+        last_pdf_page: 317
+        book_pages: A V.113
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: bd29958b5596f2f618857322ce8535a6ad5d2b9806f08b41e8f85dc618a6f2fb
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/fvr/index_of_terminology_i_vii.md
+        first_pdf_page: 318
+        last_pdf_page: 323
+        book_pages: A V.113-FVR VII.32
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: d49cb5916f5efac94d526867591c4ecd4080734a1843f4e34be1562d3487c8ac
     - id: top-v-x-fr
       reader_note:
         kind: reader
@@ -12726,10 +13532,10 @@ books:
               last_pdf_page: 25
               book_pages: TG V.16-TG V.18
               subsections: 0
-              statements: 3
+              statements: 5
               exercises: 8
               extraction: ocr
-              content_sha256: 1b241ea5ab460c6fa4478874830270979c7cae6eb7768627da21ab227f648857
+              content_sha256: 9d6c901d14bd783b3438d15cccece809a80e1cc65d54bd2fa35bbd2ea28d4340
             - kind: section
               section: 4
               title: Exponentielles et logarithmes
@@ -12752,7 +13558,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 31945fd660f6106c71de40fb363e5bbd22215727aad090b9c98e5341efe049d0
+              content_sha256: d48e9ad4c0f71d4aaf7cb3d81cb237a92709db47d69a1a1da23debdba9bc2eac
         - chapter: VI
           title: ESPACES NUMÉRIQUES ET ESPACES PROJECTIFS
           sections:
@@ -12790,7 +13596,7 @@ books:
               statements: 13
               exercises: 14
               extraction: ocr
-              content_sha256: db8a8865bb370fb5e1645da74a904c1b248b9e519bd897b67795396c32cd0b43
+              content_sha256: ea12c7bf4654b75d8e680909f96842a8bbfba287bf97157b890d942ed1870162
             - kind: section
               section: 3
               title: Espaces projectifs réels
@@ -12911,7 +13717,7 @@ books:
               statements: 5
               exercises: 4
               extraction: ocr
-              content_sha256: d20f42abcdd6aa338f831ed79ea60bd046d59840ad2df717ec1bef6f2d64d5ea
+              content_sha256: d98ba316df1d23a63a644d35fecf0dabb50b2e743b354e28db09fd638b7d7753
             - kind: section
               section: 3
               title: Sommes et produits infinis de nombres complexes
@@ -12946,7 +13752,7 @@ books:
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 11c262f7cff257f5c455365d74d34345a89fbcda546ac8d7c546b790b68d9181
+              content_sha256: 5db5690d3f39809a25c943b8781f77daaab3bf48da82cfb06014b9fe6929d7e3
         - chapter: IX
           title: UTILISATION DES NOMBRES RÉELS EN TOPOLOGIE GÉNÉRALE
           sections:
@@ -12968,10 +13774,10 @@ books:
               first_pdf_page: 121
               last_pdf_page: 210
               subsections: 7
-              statements: 23
+              statements: 26
               exercises: 25
               extraction: ocr
-              content_sha256: f6009ff0829091eb19e70901ac0bb44e3f4eb78c43d635eb6ff0455146af6609
+              content_sha256: 81bdb31fac21d408e69d36d14a256ed55ef672bdffb6df7d5192894226ae729f
             - kind: section
               section: 2
               title: Espaces métriques ; espaces métrisables
@@ -12981,10 +13787,10 @@ books:
               last_pdf_page: 218
               book_pages: TG IX.11-TG IX.23, TG IX.90-TG IX.98
               subsections: 10
-              statements: 33
-              exercises: 10
+              statements: 34
+              exercises: 9
               extraction: ocr
-              content_sha256: 658f14178c1b033de38316d093be8112fa307402df703f83c48823dca01267d0
+              content_sha256: 49d6ce965443e4c35796eb902f1f6ffe95b972a3afee2c18e6dc14c0bfe07706
             - kind: section
               section: 3
               title: Groupes métrisables ; corps valués ; espaces et algèbres normés
@@ -13007,10 +13813,10 @@ books:
               last_pdf_page: 231
               book_pages: TG IX.41-TG IX.52, TG IX.101-TG IX.111
               subsections: 5
-              statements: 24
+              statements: 25
               exercises: 36
               extraction: ocr
-              content_sha256: f8e0c8227c5eb3c40adb2896ffcf62cfcd89ff4d8b59603b2b7020690b356ea4
+              content_sha256: 4aac5a26df47505d14ddc0cffc9d8b8e878874159eae5fa4f5dc37e07518736b
             - kind: section
               section: 5
               title: Espaces de Baire
@@ -13020,10 +13826,10 @@ books:
               last_pdf_page: 237
               book_pages: TG IX.52-TG IX.56, TG IX.111-TG IX.117
               subsections: 4
-              statements: 16
-              exercises: 7
+              statements: 18
+              exercises: 4
               extraction: ocr
-              content_sha256: e7f058030e9aa60229969b035e57617e41f974b7ae322db51d27e3faca3689ba
+              content_sha256: 82312583010308ade3c3bcfbc326230bf52291a350f24aaa88c23efb5f29bb08
             - kind: section
               section: 6
               title: Espaces polonais ; espaces sousliniens ; ensembles boréliens
@@ -13140,12 +13946,34 @@ books:
               title: Historical Note
               path: content/fr/top/X/historical_note.md
               first_pdf_page: 311
-              last_pdf_page: 329
+              last_pdf_page: 313
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 6860fb1da8f2b0cb5a3cb60cf8f0af3820fa0ed60cb35ffaa7952c1eca4d4ac4
+              content_sha256: 0b4c88384e42fde7b5fbc12c716cf8802244857174e7723438a0b43a51ae7688
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/top/index_of_notation_v_x.md
+        first_pdf_page: 314
+        last_pdf_page: 315
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c25cde8a79d1c58aa3200fe480608d8457e8f51337fb26675c245979c9435dfa
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/top/index_of_terminology_v_x.md
+        first_pdf_page: 316
+        last_pdf_page: 322
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 0daf7f350c4e4721ad1a3d830b27b2555c42a5dc7f5aac46d1338d2851bb71d1
     - id: int-vii-viii-fr
       chapters:
         - chapter: VII
@@ -13169,10 +13997,10 @@ books:
               first_pdf_page: 6
               last_pdf_page: 110
               subsections: 11
-              statements: 48
+              statements: 50
               exercises: 30
               extraction: ocr
-              content_sha256: 3873b7f0830ec94f44010762f4743eb7a30fe1e7644275f9c8ff897980491c20
+              content_sha256: f072591059dd7b101cc550f66919f7fb096329c53ac2e20f8fd1ce7da768b66e
             - kind: section
               section: 2
               title: Quotient d'un espace par un groupe ; espaces homogènes
@@ -13181,10 +14009,10 @@ books:
               first_pdf_page: 38
               last_pdf_page: 113
               subsections: 10
-              statements: 51
-              exercises: 6
+              statements: 52
+              exercises: 13
               extraction: ocr
-              content_sha256: f1d42fcfe3958584a79c535d570f38d19506e76ae972f4bb921ba2556b039435
+              content_sha256: 58e83c46193f68820de944214b0a2cb526001f5aaea4db3c9735ea3b49fdb0c2
             - kind: section
               section: 3
               title: Applications et exemples
@@ -13296,12 +14124,34 @@ books:
               title: Historical Note
               path: content/fr/int/VIII/historical_note.md
               first_pdf_page: 207
-              last_pdf_page: 224
+              last_pdf_page: 215
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: a85f9420e816029a74863dc2627aa5bc23f192e8c0355962ae7d906a6b1c5be9
+              content_sha256: 5074699ffc6d2dadc7a50cc60d81d40911be2e050a0f62490d0b4f5f21953952
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_vii_viii.md
+        first_pdf_page: 216
+        last_pdf_page: 216
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 2fe95b491c2abf900dc1a16d9b548cb49e1d579a17d10a5afeabe8728c556955
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_vii_viii.md
+        first_pdf_page: 217
+        last_pdf_page: 218
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: c0dbe440519968edc3ea19267e9f2d215f842eb7f006106df01eb7eca74a4c08
     - id: int-ix-fr
       chapters:
         - chapter: IX
@@ -13325,10 +14175,10 @@ books:
               first_pdf_page: 5
               last_pdf_page: 99
               subsections: 10
-              statements: 51
+              statements: 55
               exercises: 10
               extraction: ocr
-              content_sha256: cf41fb60f0d46e9f933e1b74399ab40bbc279a155d5448cc76ec34e6ae1f277a
+              content_sha256: ddb97d7f4116a213d97fd01f4d22e4174345bbe69f86228c0ebec05791f616cc
             - kind: section
               section: 2
               title: Opérations sur les mesures
@@ -13337,10 +14187,10 @@ books:
               first_pdf_page: 24
               last_pdf_page: 100
               subsections: 7
-              statements: 36
+              statements: 40
               exercises: 3
               extraction: ocr
-              content_sha256: f368eccd219b0297be6a49bf90230470b15cefbf31ec297acadaed4bd5f4460a
+              content_sha256: 66020068ded1ac45c1a2eb80c727490afc00ca33f16b07ac3958bb16389ce06a
             - kind: section
               section: 3
               title: Mesures et fonctions additives d’ensemble
@@ -13373,10 +14223,10 @@ books:
               first_pdf_page: 53
               last_pdf_page: 108
               subsections: 7
-              statements: 31
+              statements: 33
               exercises: 13
               extraction: ocr
-              content_sha256: cc535c74aa03a7959cab4923540c06c37747265f7de4277ff27d650b5e6118c7
+              content_sha256: bde2f8b9cc3196f90c2fc45cac28dee6c891f97b0926f20cbde64149e358dd83
             - kind: section
               section: 6
               title: Promesures et mesures sur un espace localement convexe
@@ -13396,20 +14246,42 @@ books:
               first_pdf_page: 94
               last_pdf_page: 110
               subsections: 2
-              statements: 4
+              statements: 5
               exercises: 9
               extraction: ocr
-              content_sha256: 5a994522d1ff7e48aab03cbc661a1f72891814e8ce28ee850fe01507fd6a8d7b
+              content_sha256: aced91e0475cbcf3beb48a3c7f719e9a57b6702f2fcd9454db892c456fc7358e
             - kind: historical
               title: Historical Note
               path: content/fr/int/IX/historical_note.md
               first_pdf_page: 111
-              last_pdf_page: 131
+              last_pdf_page: 123
               subsections: 0
               statements: 0
               exercises: 0
               extraction: ocr
-              content_sha256: 7ddf36d54aaa79b3e139a5b576f29f9f98172a65f3e65d2b9ac9671efae2745e
+              content_sha256: fc371dda22271912fef26a22242a94e9b014e2db1aaab396264c0de9ee2151de
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/int/index_of_notation_ix.md
+        first_pdf_page: 124
+        last_pdf_page: 125
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 44fc78abcf4b999904dc916aab8933bb049889bdc50fe58e5437b197f92d8a02
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/int/index_of_terminology_ix.md
+        first_pdf_page: 126
+        last_pdf_page: 129
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 1aa7c4086d819399c41b7ec01833cda1e94611a0e2d00e65686f4d6589eea4c3
     - id: ens-i-iv-fr
       reader_note:
         kind: reader
@@ -13629,10 +14501,10 @@ books:
               first_pdf_page: 105
               last_pdf_page: 178
               subsections: 13
-              statements: 43
+              statements: 54
               exercises: 24
               extraction: ocr
-              content_sha256: 4ed72a45881260361cdb2ad91b1adfa91d5ef7af0f5b3888b55f8dfea9b35134
+              content_sha256: e8636030bb5204462477ba31e04cf9cd9d4eaf09e715823362ece1af081fd7f2
             - kind: section
               section: 2
               title: Ensembles bien ordonnés
@@ -13668,10 +14540,10 @@ books:
               last_pdf_page: 187
               book_pages: E III.30-E III.35, E III.80-E III.83
               subsections: 5
-              statements: 14
+              statements: 16
               exercises: 11
               extraction: ocr
-              content_sha256: cba69c356e78ad0bb33d0f0ec930a55926e64996fd34519666a29382bd1320e1
+              content_sha256: af0ff206d2132905a793e50dd4d15c8c49611ae69be2dbbf22a96874b8684ff7
             - kind: section
               section: 5
               title: Calcul sur les entiers
@@ -13707,10 +14579,10 @@ books:
               last_pdf_page: 200
               book_pages: E III.94-E III.96
               subsections: 7
-              statements: 26
-              exercises: 10
+              statements: 27
+              exercises: 9
               extraction: ocr
-              content_sha256: 8c30384cc85751bc4198f0143b858784f0b5074aaeb93001f72b9ed872738c39
+              content_sha256: 4c1cc641dc62e3886b76e7569371c7d399c0f340bbdeec13b52b9bbfa7a7482d
             - kind: historical
               title: Historical Note
               path: content/fr/ens/III/historical_note.md
@@ -13745,7 +14617,7 @@ books:
               statements: 13
               exercises: 1
               extraction: ocr
-              content_sha256: 165d8c8d322e06d651488e5100b254d0f3c9f149a5cb53e864be26c789802b5e
+              content_sha256: 77b678bb39afcc800fea9d978ec3de7dfb020b87bf54133f0928865219092200
             - kind: section
               section: 2
               title: Morphismes et structures dérivées
@@ -13782,3 +14654,25 @@ books:
               exercises: 0
               extraction: ocr
               content_sha256: 15d71f8e3610e28969a37fb8aad879772c6e53b91427d24b0dc857f49f998f2d
+      notation_index:
+        kind: notation
+        title: INDEX DES NOTATIONS
+        path: content/fr/ens/index_of_notation_i_iv.md
+        first_pdf_page: 283
+        last_pdf_page: 285
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: 87e20f2e921420d9735af87cec9684197d8768ad2065dbbece8417582c35fe9a
+      terminology_index:
+        kind: terminology
+        title: INDEX TERMINOLOGIQUE
+        path: content/fr/ens/index_of_terminology_i_iv.md
+        first_pdf_page: 286
+        last_pdf_page: 298
+        subsections: 0
+        statements: 0
+        exercises: 0
+        extraction: ocr
+        content_sha256: f135057eeb06d7e4963a1e8f3196a0cd4c202a0db1c31cfb737c1c46b8a23fc3

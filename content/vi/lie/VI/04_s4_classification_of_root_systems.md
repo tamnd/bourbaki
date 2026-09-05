@@ -207,11 +207,11 @@ Giả sử rằng X là một dây chuyền với các đỉnh 1, 2, ..., l và 
 
 (i) Nếu một trong các cạnh {2, 3}, {3, 4}, ..., {l - 2, l - 1} có cấp $\geq 4$, cạnh này có cấp 4 và đồ thị là như sau:
 
-![Graph with 4 nodes connected in a chain](../images/chain_4.png)
+![Graph with 4 nodes liên thông in a chain](../images/chain_4.png)
 
 (ii) Nếu cạnh {1, 2} có cấp 5, đồ thị là một trong các đồ thị sau:
 
-![Graphs with 5 nodes connected in chains](../images/chains_5.png)
+![Graphs with 5 nodes liên thông in chains](../images/chains_5.png)
 
 Ta có thể giả sử rằng $l > 2$ (Bổ đề 4). Giả sử rằng $\{i, i + 1\}$ có cấp $\geq 4$, với $1 \leq i \leq l - 1$. Đặt
 
@@ -389,7 +389,7 @@ Ta thấy từ điều này rằng đồ thị Dynkin $R$ xác định ma trận
 
 *Cho $R_1$ và $R_2$ là hai hệ căn rút gọn trong các không gian vectơ $V_1$ và $V_2$. Cho $B_1 = (\alpha_i)_{i \in I_1}$ và $B_2 = (\alpha_i)_{i \in I_2}$ là các cơ sở của $R_1$ và $R_2$, được đánh chỉ số một cách chính tắc. Cho $\lambda$ là một đẳng cấu từ đồ thị Dynkin của $R_1$ đến đồ thị Dynkin của $R_2$. Khi đó, tồn tại một đẳng cấu duy nhất từ $V_1$ đến $V_2$ biến $R_1$ thành $R_2$ và $\alpha_i$ thành $\alpha_{\lambda(i)}$ với mọi $i \in I_1$.*
 
-It is clear that một tự đẳng cấu của $R$ xác định một tự đẳng cấu của biểu đồ Dynkin của $R$, và do đó một đồng cấu $\varphi$ từ nhóm $A(R)$ đến nhóm các tự đẳng cấu của biểu đồ Dynkin của $R$.
+Rõ ràng là một tự đẳng cấu của $R$ xác định một tự đẳng cấu của biểu đồ Dynkin của $R$, và do đó một đồng cấu $\varphi$ từ nhóm $A(R)$ đến nhóm các tự đẳng cấu của biểu đồ Dynkin của $R$.
 
 #### Hệ quả {#lie-vi-s4-n2-cor-1 .statement}
 

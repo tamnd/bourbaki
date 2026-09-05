@@ -189,7 +189,7 @@ Cho B là một không gian tôpô, G là một nhóm tôpô rời rạc, và E 
 
 Với mọi $g\in G$, ta có $h_{(E,x\cdot g)}=$ Int($g^{-1}$)$\circ h_{(E,x)}$.
 
-Cho E là một phép phủ chính của B với nhóm G, cho $x$ là một điểm của $E_b$, và ký hiệu $p$ là phép chiếu của E. Với mọi $g\in G$, ánh xạ $y\mapsto y\cdot g$ là một tự đẳng cấu B của E. Do đó, với mọi $g\in G$, mọi $y\in E_b$, và mọi $\gamma \in \pi_1(B, b)$, ta có quan hệ $(y\cdot g)\cdot \gamma = (y\cdot \gamma )\cdot g($cf. III, p. 305, relation (4)). Do đó, với $\gamma , \delta \in \pi_1(B, b)$, ta có
+Cho E là một phép phủ chính của B với nhóm G, cho $x$ là một điểm của $E_b$, và ký hiệu $p$ là phép chiếu của E. Với mọi $g\in G$, ánh xạ $y\mapsto y\cdot g$ là một tự đẳng cấu B của E. Do đó, với mọi $g\in G$, mọi $y\in E_b$, và mọi $\gamma \in \pi_1(B, b)$, ta có quan hệ $(y\cdot g)\cdot \gamma = (y\cdot \gamma )\cdot g($cf. III, p. 305, quan hệ (4)). Do đó, với $\gamma , \delta \in \pi_1(B, b)$, ta có
 
 $$
 x\cdot h_{(E,x)}(\gamma \delta ) =x\cdot \delta^{-1}\gamma^{-1}

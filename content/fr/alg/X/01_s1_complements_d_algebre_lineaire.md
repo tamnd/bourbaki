@@ -51,9 +51,9 @@ subsections:
       title: Structure des modules injectifs
       page: 22
       pdf_page: 28
-statements: 55
+statements: 57
 exercises: 17
-content_sha256: bc19da43004b19055ec3f2c2c05899eaf5dce7177cab8b30104e033843178968
+content_sha256: 661e6e611980bcb19421cb07584e3f5831d587913d409a3e231582141cc21e03
 ---
 
 ## § 1. COMPLÉMENTS D’ALGÈBRE LINÉAIRE
@@ -849,8 +849,14 @@ cela est clair si $a \in Ax$, d’où l’assertion dans le cas où A est princi
 #### Exemple 1 {#alg-x-s1-n7-exa-1 .statement}
 
 Si A est intègre, le corps des fractions K de A est un A-module injectif. Si A est principal, $K/A$ est un A-module injectif.
-2) Par exemple, les $\mathbf{Z}$-modules $\mathbf{Q}$ et $\mathbf{Q}/\mathbf{Z}$ sont injectifs.
-3) Soit A un anneau principal et soit $a$ un élément *non nul* de A. Alors $A/aA$ est un $A/aA$-module injectif (X, p. 170, exercice 20).
+
+#### Exemple 2 {#alg-x-s1-n7-exa-2 .statement}
+
+Par exemple, les $\mathbf{Z}$-modules $\mathbf{Q}$ et $\mathbf{Q}/\mathbf{Z}$ sont injectifs.
+
+#### Exemple 3 {#alg-x-s1-n7-exa-3 .statement}
+
+Soit A un anneau principal et soit $a$ un élément *non nul* de A. Alors $A/aA$ est un $A/aA$-module injectif (X, p. 170, exercice 20).
 
 ### 8. Modules cogénérateurs injectifs
 

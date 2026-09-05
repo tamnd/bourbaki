@@ -7,7 +7,8 @@ section: 5
 section_title: ENDOMORPHISMES DES ESPACES VECTORIELS
 lang: fr
 source: alg-iv-vii-fr
-pdf_pages: 0361-0381, 0399-0426
+book_pages: A VII.66-A VII.78
+pdf_pages: 0361-0381, 0399-0411
 extraction: ocr
 subsections:
     - "no": 1
@@ -46,9 +47,9 @@ subsections:
       title: Décomposition de Jordan
       page: 42
       pdf_page: 375
-statements: 65
-exercises: 4
-content_sha256: f9b4389165b3aff0d28d3f30c5e51547f8dbd83f9fed82d55c0b7cdda6e5fdd0
+statements: 66
+exercises: 14
+content_sha256: afafa9b7b4655ef32bab0a03356e58c950c7bbe3f0518d735de9b0a047ab4b50
 ---
 
 ## § 5. ENDOMORPHISMES DES ESPACES VECTORIELS
@@ -312,7 +313,10 @@ Soit U une matrice carrée sur un corps commutatif K telle que toutes les valeur
 #### Remarque 1 {#alg-vii-s5-n4-rem-1 .statement}
 
 Il résulte de la prop. 6 de VII, p. 33, que, si U est semblable à un tableau diagonal de matrices de Jordan (J_k), le nombre des J_k de la forme U_{m,\alpha} (pour m et α donnés) est déterminé de façon unique par U.
-2) Plus généralement, si U est semblable à un tableau diagonal de matrices de Jordan U_{m_i,\alpha_i} on calcule immédiatement les invariants de similitude de U par une méthode calquée sur celle exposée en VII, p. 24, remarque 3 : on écrit sur une même ligne les (X − α_i)^{m_i} relatifs à un même α par ordre décroissant des exposants, et on complète par des 1, pour avoir des lignes de longueur égale à l’ordre de U ; ceci fait, on obtient les invariants de similitude de U, rangés dans l’ordre des indices décroissants, en formant les produits des termes qui sont dans une même colonne. Par exemple, pour la matrice
+
+#### Remarque 2 {#alg-vii-s5-n4-rem-2 .statement}
+
+Plus généralement, si U est semblable à un tableau diagonal de matrices de Jordan U_{m_i,\alpha_i} on calcule immédiatement les invariants de similitude de U par une méthode calquée sur celle exposée en VII, p. 24, remarque 3 : on écrit sur une même ligne les (X − α_i)^{m_i} relatifs à un même α par ordre décroissant des exposants, et on complète par des 1, pour avoir des lignes de longueur égale à l’ordre de U ; ceci fait, on obtient les invariants de similitude de U, rangés dans l’ordre des indices décroissants, en formant les produits des termes qui sont dans une même colonne. Par exemple, pour la matrice
 
 $$
 \begin{pmatrix}

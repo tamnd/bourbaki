@@ -153,19 +153,19 @@ Ta nhận thấy rằng một lọc trên $\mathcal{L}(E; F)$ hội tụ đơn g
 
 — Cho E là không gian Banach (trên $\mathbf{C}$) gồm các hàm phức liên tục có chu kỳ 1 trong $\mathbf{R}$, với chuẩn $\|f\| = \sup_x |f(x)|$.
 
-Với mọi số nguyên $n \in \mathbf{Z}$ và mọi hàm $f \in E$, đặt $c_n(f) = \int_0^1 f(x) e^{-2i\pi nx} dx$ ($n$-th Fourier coefficient of $f$); mỗi ánh xạ $f \mapsto c_n(f)$ là một dạng tuyến tính liên tục trên E. Cho $(\alpha_n)$ là một dãy các số phức sao cho, với mọi hàm $f \in E$, chuỗi có số hạng tổng quát $\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)$ hội tụ. Dưới các điều kiện này, ánh xạ $u : f \mapsto \alpha_0 c_0(f) + \sum_{n \geq 1} [\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)]$ là một dạng tuyến tính liên tục trên E; *nói cách khác, tồn tại một độ đo $\mu$ trên $[0, 1]$ sao cho $u(f) = \int f(x) d\mu(x)$ với mọi hàm $f \in E$, và $\alpha_n$ là hệ số Fourier thứ $n$ của $\mu$.* Thật vậy, với mọi số nguyên $m > 0$, ánh xạ $f \mapsto \sum_{k = -m}^m \alpha_k c_k(f)$ là một dạng tuyến tính liên tục $u_m$ trên E, và với mọi $f \in E$, dãy $(u_m(f))$ hội tụ đến $u(f)$, theo giả thiết. Mệnh đề được suy ra từ định lý Banach-Steinhaus, vì E là barrelled.
+Với mọi số nguyên $n \in \mathbf{Z}$ và mọi hàm $f \in E$, đặt $c_n(f) = \int_0^1 f(x) e^{-2i\pi nx} dx$ ($n$-th Fourier hệ số của $f$); mỗi ánh xạ $f \mapsto c_n(f)$ là một dạng tuyến tính liên tục trên E. Cho $(\alpha_n)$ là một dãy các số phức sao cho, với mọi hàm $f \in E$, chuỗi có số hạng tổng quát $\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)$ hội tụ. Dưới các điều kiện này, ánh xạ $u : f \mapsto \alpha_0 c_0(f) + \sum_{n \geq 1} [\alpha_n c_n(f) + \alpha_{-n} c_{-n}(f)]$ là một dạng tuyến tính liên tục trên E; *nói cách khác, tồn tại một độ đo $\mu$ trên $[0, 1]$ sao cho $u(f) = \int f(x) d\mu(x)$ với mọi hàm $f \in E$, và $\alpha_n$ là hệ số Fourier thứ $n$ của $\mu$.* Thật vậy, với mọi số nguyên $m > 0$, ánh xạ $f \mapsto \sum_{k = -m}^m \alpha_k c_k(f)$ là một dạng tuyến tính liên tục $u_m$ trên E, và với mọi $f \in E$, dãy $(u_m(f))$ hội tụ đến $u(f)$, theo giả thiết. Mệnh đề được suy ra từ định lý Banach-Steinhaus, vì E là barrelled.
 
 #### Hệ quả 4 {#evt-iii-s4-thm-1-cor-4 .statement}
 
-— *Cho E và F là hai không gian lồi địa phương, $\mathfrak{S}$ là một phủ của E gồm các tập con bị chặn. Nếu E là barrelled và F Hausdorff và quasi-complete, thì không gian $\mathcal{L}_{\mathfrak{S}}(E; F)$ là Hausdorff và quasi-complete.*
+— *Cho E và F là hai không gian lồi địa phương, $\mathfrak{S}$ là một phủ của E gồm các tập con bị chặn. Nếu E là barrelled và F Hausdorff và quasi-đầy đủ, thì không gian $\mathcal{L}_{\mathfrak{S}}(E; F)$ là Hausdorff và quasi-đầy đủ.*
 
 Thật vậy, mọi tập con bị chặn và đóng của $\mathcal{L}_{\mathfrak{S}}(E; F)$ đều đơn giản bị chặn (vì $\mathfrak{S}$ là một phủ của E), do đó liên tục đều (III, p. 25, th. 1) và do đó là một không gian con đầy đủ của $\mathcal{L}_{\mathfrak{S}}(E; F)$ theo prop. 11 (III, p. 22).
 
 #### Hệ quả 5 {#evt-iii-s4-thm-1-cor-5 .statement}
 
-— *Đối ngẫu mạnh và đối ngẫu yếu của một không gian barrelled là quasi-complete.*
+— *Đối ngẫu mạnh và đối ngẫu yếu của một không gian barrelled là quasi-đầy đủ.*
 
-### 3. Các tập con bị chặn của $\mathcal{L}(E; F)$ (trường hợp quasi-complete)
+### 3. Các tập con bị chặn của $\mathcal{L}(E; F)$ (trường hợp quasi-đầy đủ)
 
 #### Định lý 2 {#evt-iii-s4-thm-2 .statement}
 
@@ -179,7 +179,7 @@ Cho $A \in \mathfrak{S}$. Khi đó không gian $E_A$ là một không gian Banac
 
 Chỉ cần áp dụng th. 2, sau khi thay thế các tập của $\mathfrak{S}$ bằng các bao đóng, lồi, cân bằng của chúng, vì điều này không làm thay đổi tôpô $\mathfrak{S}$.
 
-Khi E là bán đầy đủ (chẳng hạn quasi-complete), ta có thể nói đến các *tập con bị chặn* của $\mathcal{L}(E; F)$ mà không cần chỉ rõ tôpô $\mathfrak{S}$, vì chúng giống nhau đối với mọi tôpô $\mathfrak{S}$ khi $\mathfrak{S}$ là một phủ của E.
+Khi E là bán đầy đủ (chẳng hạn quasi-đầy đủ), ta có thể nói đến các *tập con bị chặn* của $\mathcal{L}(E; F)$ mà không cần chỉ rõ tôpô $\mathfrak{S}$, vì chúng giống nhau đối với mọi tôpô $\mathfrak{S}$ khi $\mathfrak{S}$ là một phủ của E.
 
 #### Hệ quả 2 {#evt-iii-s4-thm-2-cor-2 .statement}
 

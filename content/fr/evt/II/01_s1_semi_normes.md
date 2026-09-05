@@ -26,9 +26,9 @@ subsections:
       title: Critères d’équicontinuité des applications multilinéaires pour les topologies définies par des semi-normes
       page: 6
       pdf_page: 41
-statements: 16
+statements: 18
 exercises: 0
-content_sha256: 9b8180d67968a29b2a95014703f27e31d4d47d0636f64baf982b4f527157f6ea
+content_sha256: 1e2e0b5ae408b6adcab0d34e5f7da77d3e2ec59bbbb561a0eb07f1841fc382f4
 ---
 
 ## § 1. SEMI-NORMES
@@ -54,8 +54,14 @@ qui se déduit aussitôt des relations $p(x) \leq p(y) + p(x - y)$ et $p(y) \leq
 #### Exemple 1 {#evt-ii-s1-n1-exa-1 .statement}
 
 Une norme sur $E$ est une semi-norme $p$ telle que la relation $p(x) = 0$ entraîne $x = 0$ (I, p. 3).
-2) Pour toute forme linéaire $f$ sur $E$, la fonction $x \mapsto |f(x)|$ est une semi-norme sur $E$.
-3) Soient $p_i$ ($1 \leq i \leq n$) des semi-normes en nombre fini sur $E$; il est immédiat que $p'(x) = \sup_{1 \leq i \leq n} p_i(x)$ et $p''(x) = \sum_{i=1}^n \alpha_i p_i(x)$ (où les $\alpha_i$ sont $\geq 0$) sont encore des semi-normes sur $E$.
+
+#### Exemple 2 {#evt-ii-s1-n1-exa-2 .statement}
+
+Pour toute forme linéaire $f$ sur $E$, la fonction $x \mapsto |f(x)|$ est une semi-norme sur $E$.
+
+#### Exemple 3 {#evt-ii-s1-n1-exa-3 .statement}
+
+Soient $p_i$ ($1 \leq i \leq n$) des semi-normes en nombre fini sur $E$; il est immédiat que $p'(x) = \sup_{1 \leq i \leq n} p_i(x)$ et $p''(x) = \sum_{i=1}^n \alpha_i p_i(x)$ (où les $\alpha_i$ sont $\geq 0$) sont encore des semi-normes sur $E$.
 
 On appelle *ultra-semi-norme* sur E une application $p$ de E dans $\mathbf{R}_+$ qui vérifie (SN$_l$) et l’axiome suivant :
 

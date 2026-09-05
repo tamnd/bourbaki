@@ -34,9 +34,9 @@ subsections:
       title: Intérieur, adhérence, frontière d'un ensemble; ensembles partout denses
       page: 6
       pdf_page: 18
-statements: 22
+statements: 23
 exercises: 10
-content_sha256: 55ce406216071ae78a5b7bacb6d9a1b2f9a055661ed275955d15cb0ff4e8d7fb
+content_sha256: 3a696a2ba7595e18e902bd98cff631fa00210213e3f21a762a7168d48f4ae59c
 ---
 
 ## § 1. ENSEMBLES OUVERTS; VOISINAGES; ENSEMBLES FERMÉS
@@ -152,7 +152,10 @@ La condition est évidemment nécessaire. Inversement, si elle est satisfaite, p
 #### Exemple 1 {#top-i-s1-n3-exa-1 .statement}
 
 La topologie discrète a pour base l’ensemble des parties réduites à un seul élément.
-2) L’ensemble des intervalles ouverts bornés est par définition une base de la topologie de la droite rationnelle (I, p. 4). *L’ensemble des intervalles ouverts bornés est de même une base de la topologie de la droite numérique.*
+
+#### Exemple 2 {#top-i-s1-n3-exa-2 .statement}
+
+L’ensemble des intervalles ouverts bornés est par définition une base de la topologie de la droite rationnelle (I, p. 4). *L’ensemble des intervalles ouverts bornés est de même une base de la topologie de la droite numérique.*
 
 ### 4. Ensembles fermés
 

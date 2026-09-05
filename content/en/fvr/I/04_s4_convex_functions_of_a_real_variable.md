@@ -27,9 +27,9 @@ subsections:
       title: CRITERIA FOR CONVEXITY
       page: 30
       pdf_page: 45
-statements: 21
-exercises: 10
-content_sha256: 7ce62adb175e316461e0076f49e0da867be5dc77b36f37f3c179a2545bb96dd9
+statements: 23
+exercises: 25
+content_sha256: 50b3925e65701f4836278187ffc866a6d401f56f82c18a9588527d7aa9be7d9d
 ---
 
 ## § 4. CONVEX FUNCTIONS OF A REAL VARIABLE
@@ -91,14 +91,20 @@ for $0 \leq \lambda \leq 1$ and $y > f(x),\ y' > f(x')$; on letting y tend to $f
 #### Example 1 {#fvr-i-s4-n1-exa-1 .statement}
 
 Every (real) affine linear function $ax + b$ is convex on $\mathbf{R}$.
-2) The function $x^2$ is convex on $\mathbf{R}$, since one has
+
+#### Example 2 {#fvr-i-s4-n1-exa-2 .statement}
+
+The function $x^2$ is convex on $\mathbf{R}$, since one has
 
 $$
 \lambda x^2 + (1 - \lambda)(x')^2 - \left( \lambda x + (1 - \lambda)x' \right)^2 = \lambda(1 - \lambda)(x - x')^2 \geq 0
 $$
 
 for $0 \leq \lambda \leq 1$.
-3) The function $|x|$ is convex on $\mathbf{R}$, since
+
+#### Example 3 {#fvr-i-s4-n1-exa-3 .statement}
+
+The function $|x|$ is convex on $\mathbf{R}$, since
 
 $$
 |\lambda x + (1 - \lambda)x'| \leq \lambda |x| + (1 - \lambda)|x'|

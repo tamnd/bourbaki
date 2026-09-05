@@ -604,9 +604,7 @@ Chương III. — Các độ đo trên các không gian compact địa phương 
     6. Giá trị tuyệt đối của một độ đo phức ................. III.13
     7. Định nghĩa một độ đo bằng mở rộng ................. III.15
 
-8. Bounded measures ............................................. III.16
-9. Vague topology on the space of measures ............... III.18
-10. Compact convergence in $\mathcal{M}(X; \mathbf{C})$ .................. III.21
+8. Các độ đo bị chặn ............................................. III.16 9. Topo mờ trên không gian các độ đo ............... III.18 10. Hội tụ compact trong $\mathcal{M}(X; \mathbf{C})$ .................. III.21
 
 §2. Giá của một độ đo ............................................. III.23
     1. Hạn chế một độ đo vào một tập mở. Định nghĩa một độ đo bằng các dữ liệu địa phương .................. III.23
@@ -646,9 +644,7 @@ CHƯƠNG IV. — MỞ RỘNG CỦA MỘT ĐỘ ĐO. CÁC KHÔNG GIAN $L^p$ .....
     2. Các tập hợp không đáng kể ............................................. IV.12
     3. Các tính chất đúng hầu khắp nơi ...................... IV.12
 
-4. Classes of equivalent functions ......................... IV.13
-5. Functions defined almost everywhere ................. IV.15
-6. Equivalence classes of functions with values in $\overline{\mathbf{R}}$ ..... IV.16
+4. Các lớp hàm tương đương ......................... IV.13 5. Các hàm được xác định hầu khắp nơi ................. IV.15 6. Các lớp tương đương của các hàm nhận giá trị trong $\overline{\mathbf{R}}$ ..... IV.16
 
 §3. Các không gian $L^p$ ............................................. IV.18
     1. Bất đẳng thức Minkowski .................................. IV.18
@@ -796,13 +792,7 @@ CHƯƠNG VI. — Tích phân vectơ ......................... VI.1
     2. Tích phân theo một độ đo vectơ ........ VI.20
     3. Các độ đo vectơ có thể khống chế .......................... VI.22
 
-4. Vectorial measures with base $\mu$ ......................... VI.25
-5. The Dunford–Pettis theorem ................................. VI.27
-6. Dual of the space $L^1_F$ (F a separable Banach space .................................................. VI.32
-7. Integration of a vector-valued function with respect to a vectorial measure ............................................. VI.33
-8. Complex measures ............................................. VI.34
-9. Bounded complex measures ................................. VI.37
-10. Image of a complex measure; induced complex measure; product of complex measures ............................ VI.39
+4. Các độ đo vectơ có cơ sở $\mu$ ......................... VI.25 5. Định lý Dunford–Pettis ................................. VI.27 6. Đối ngẫu của không gian $L^1_F$ (F là một không gian Banach tách được .................................................. VI.32 7. Tích phân của một hàm có giá trị vectơ đối với một độ đo vectơ ............................................. VI.33 8. Các độ đo phức ............................................. VI.34 9. Các độ đo phức bị chặn ................................. VI.37 10. Ảnh của một độ đo phức; độ đo phức cảm sinh; tích của các độ đo phức ............................ VI.39
 
 §3. Phân rã của các độ đo ........................................ VI.40
     1. Phân rã của một độ đo $\mu$ tương đối với một ánh xạ $\mu$-thực sự .................................................. VI.40

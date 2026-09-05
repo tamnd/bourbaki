@@ -197,7 +197,7 @@ với mọi $x, x' \in E$, mọi $y, y' \in F$ và mọi $\lambda \in K$.
 
 Nếu $X$ là một ma trận vuông khả nghịch, các phần tử của $X^{-1}$ là các hàm hữu tỉ của các phần tử của $X$; do đó các hàm này được xác định và liên tục trong một lân cận của $X$, nên mọi ma trận $Y$ trong lân cận này đều khả nghịch, và ánh xạ $Y \to Y^{-1}$ liên tục tại điểm $X$; suy ra $\mathbf{GL}_n(\mathbf{R})$ là một tập mở trong $\mathbf{M}_n(\mathbf{R})$ và tôpô của $\mathbf{GL}_n(\mathbf{R})$ tương thích với cấu trúc nhóm của nó.
 
-Cuối cùng, $\mathbf{GL}_n(\mathbf{R})$ là phần bù của tập hợp các ma trận vuông $X$ có định thức bằng zero; vì định thức của $X$ là một đa thức theo các phần tử của $X$, Mệnh đề 3 của no. 4 cho thấy rằng $\mathbf{GL}_n(\mathbf{R})$ trù mật trong $\mathbf{M}_n(\mathbf{R})$.
+Cuối cùng, $\mathbf{GL}_n(\mathbf{R})$ là phần bù của tập hợp các ma trận vuông $X$ có định thức bằng không; vì định thức của $X$ là một đa thức theo các phần tử của $X$, Mệnh đề 3 của no. 4 cho thấy rằng $\mathbf{GL}_n(\mathbf{R})$ trù mật trong $\mathbf{M}_n(\mathbf{R})$.
 
 ### Bài tập {#top-vi-s1-exercises}
 

@@ -43,9 +43,9 @@ subsections:
       title: Relations between the spaces $\mathcal{L}_F^p$ ($1 \leq p < +\infty$)
       page: 31
       pdf_page: 138
-statements: 43
+statements: 44
 exercises: 3
-content_sha256: 990c6868635eb8d33252eba948d26e29837eae81e092411c1ee46078be262311
+content_sha256: 812a66340239f25b1828be683de3b5699da898ca431dfbaf5ded37921ceceef0
 ---
 
 ## § 3. L$^p$ SPACES
@@ -225,7 +225,10 @@ The functions in $\mathcal{L}_F^p$ (resp. in $\mathcal{L}^p$) are thus the *$p$*
 #### Remark 1 {#int-iv-s3-n4-rem-1 .statement}
 
 As has already been signalled (§2, No. 5) the $p$-th power integrable functions with values in $\mathbf{F}$ in general do not form a vector space.
-2) In general, the space $\mathcal{F}_\mathbf{F}^p$ is distinct from its subspace $\mathcal{L}_\mathbf{F}^p$ (§4, Exer. 8).
+
+#### Remark 2 {#int-iv-s3-n4-rem-2 .statement}
+
+In general, the space $\mathcal{F}_\mathbf{F}^p$ is distinct from its subspace $\mathcal{L}_\mathbf{F}^p$ (§4, Exer. 8).
 
 Def. 2 immediately yields the following criterion:
 
@@ -278,11 +281,11 @@ For, since the space $\mathcal{L}_F^p$ is metrizable, there exists a Cauchy sequ
 
 Cor. 2 is applicable in particular to the case where $\mathcal{E}$ is taken to be the space $\mathcal{K}_F$ of *continuous functions with compact support*.
 
-#### Remark 2 {#int-iv-s3-n4-rem-2 .statement}
+#### Remark 3 {#int-iv-s3-n4-rem-3 .statement}
 
 A Cauchy sequence $(f_n)$ in $\mathcal{L}_F^p$ can be such that the sequence $(f_n(x))$ is not convergent *at any point of* $X$ (Exer. 1).
 
-#### Remark 3 {#int-iv-s3-n4-rem-3 .statement}
+#### Remark 4 {#int-iv-s3-n4-rem-4 .statement}
 
 If $f$ belongs to $\mathcal{L}_F^p$, it is not always possible to find a sequence $(f_n)$ of continuous functions with compact support such that the sequence $(f_n(x))$ converges *everywhere* in $X$ to a function equal to $f(x)$ almost everywhere (§4, Exer. 4 c)).
 

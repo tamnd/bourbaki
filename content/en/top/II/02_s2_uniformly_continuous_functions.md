@@ -39,9 +39,9 @@ subsections:
       title: INVERSE LIMITS OF UNIFORM SPACES
       page: 180
       pdf_page: 186
-statements: 25
+statements: 27
 exercises: 6
-content_sha256: a1ab910e68e815174c047c6d5847b83dc5cbf4da3a07db2324c22291922910fa
+content_sha256: e0f61bdcd81388be6eb6385503ae775b2e258c697717b061a0210a2fde9214d8
 ---
 
 ## 2. UNIFORMLY CONTINUOUS FUNCTIONS
@@ -59,8 +59,14 @@ If we put $g = f \times f$, then Definition 1 means that *whenever $V'$ is an en
 #### Example 1 {#top-ii-s2-n1-exa-1 .statement}
 
 The identity mapping of a uniform space onto itself is uniformly continuous.
-2) A constant mapping of a uniform space into a uniform space is uniformly continuous.
-3) Every mapping of a discrete uniform space into a uniform space is uniformly continuous.
+
+#### Example 2 {#top-ii-s2-n1-exa-2 .statement}
+
+A constant mapping of a uniform space into a uniform space is uniformly continuous.
+
+#### Example 3 {#top-ii-s2-n1-exa-3 .statement}
+
+Every mapping of a discrete uniform space into a uniform space is uniformly continuous.
 
 #### Proposition 1 {#top-ii-s2-prop-1 .statement}
 

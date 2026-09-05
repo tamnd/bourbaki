@@ -27,9 +27,9 @@ subsections:
       title: Continuité des dérivées
       page: 26
       pdf_page: 24
-statements: 18
+statements: 21
 exercises: 14
-content_sha256: 1c6e4751c567d90f9445a5b2637dec3ea9f4363bbd5572b03f3ef2ef95e56154
+content_sha256: 5f7fd3a934efbad19ca044626397a8b33e935d66181fbad2c1fcc07084b1bff4
 ---
 
 ## § 2. LE THÉORÈME DES ACCROISSEMENTS FINIS
@@ -108,8 +108,14 @@ Soit f une fonction numérique finie et continue dans [a, b] (où a < b) et adme
 #### Remarque 1 {#fvr-i-s2-n2-rem-1 .statement}
 
 La prop. 2 reste valable quand on remplace dans son énoncé l’intervalle [a, b[ par ]a, b] et les mots « dérivée à droite » par « dérivée à gauche ».
-2) L’hypothèse de la continuité de f dans l’intervalle fermé I (et non seulement sa continuité à droite¹ en tout point de [a, b[) est essentielle pour la validité de la prop. 2 (cf. I, p. 43, exerc. 8).
-3) La conclusion de la prop. 2 devient inexacte si on suppose seulement que l’ensemble A des points « exceptionnels » est rare dans I, mais non dénombrable (cf. I, p. 44, exerc. 3).
+
+#### Remarque 2 {#fvr-i-s2-n2-rem-2 .statement}
+
+L’hypothèse de la continuité de f dans l’intervalle fermé I (et non seulement sa continuité à droite¹ en tout point de [a, b[) est essentielle pour la validité de la prop. 2 (cf. I, p. 43, exerc. 8).
+
+#### Remarque 3 {#fvr-i-s2-n2-rem-3 .statement}
+
+La conclusion de la prop. 2 devient inexacte si on suppose seulement que l’ensemble A des points « exceptionnels » est rare dans I, mais non dénombrable (cf. I, p. 44, exerc. 3).
 
 La prop. 2 entraîne le théorème fondamental suivant (en apparence plus général):
 
@@ -133,7 +139,7 @@ sauf lorsqu’on a $f(x) = M \cdot g(x) + k$, ou $f(x) = m \cdot g(x) + k$ ($k$ 
 
 Il suffit d’appliquer la prop. 2 aux fonctions $M \cdot g - f$ et $f - m \cdot g$, qui, en vertu des hypothèses faites, ont une dérivée à droite positive sauf aux points d’une partie dénombrable de $I$.
 
-#### Remarque {#fvr-i-s2-n2-rem-2 .statement}
+#### Remarque {#fvr-i-s2-n2-rem-4 .statement}
 
 Le th. 1 est inexact si on suppose dans l’énoncé que $f'_d$ et $g'_d$ peuvent simultanément infinis aux points d’une partie non dénombrable de $I$ (cf. I, p. 44, exerc. 3).
 
@@ -153,7 +159,7 @@ $$
 
 Les inégalités (5) sont des conséquences de (4) lorsque $m$ et $M$ sont finis; le cas où l’un ou l’autre de ces nombres est infini est trivial.
 
-#### Remarque {#fvr-i-s2-n2-rem-3 .statement}
+#### Remarque {#fvr-i-s2-n2-rem-5 .statement}
 
 Les inégalités (5) prouvent qu’une fonction continue ne peut avoir une dérivée à droite égale à $+\infty$ en tout point d’un intervalle (cf. I, p. 43, exerc. 6).
 
@@ -225,13 +231,16 @@ C.Q.F.D.
 #### Remarque 1 {#fvr-i-s2-n3-rem-1 .statement}
 
 Ici encore, on peut remplacer dans l'énoncé du th. 2 l'intervalle $[a, b]$ par ]$a, b$$]$ et « dérivée à droite » par « dérivée à gauche ».
-2) Nous montrerons plus tard comment on peut préciser les cas d'égalité dans la relation (7), et aussi comment on peut généraliser le th. 2 au cas où $E$ est un espace localement convexe quelconque, à l'aide d'une autre méthode de démonstration qui permet de déduire le th. 2 du th. 1.
+
+#### Remarque 2 {#fvr-i-s2-n3-rem-2 .statement}
+
+Nous montrerons plus tard comment on peut préciser les cas d'égalité dans la relation (7), et aussi comment on peut généraliser le th. 2 au cas où $E$ est un espace localement convexe quelconque, à l'aide d'une autre méthode de démonstration qui permet de déduire le th. 2 du th. 1.
 
 #### Corollaire {#fvr-i-s2-n3-cor-1 .statement}
 
 Pour qu'une fonction vectorielle continue dans un intervalle $I \subset \mathbf{R}$, à valeurs dans un espace normé $E$ sur $\mathbf{R}$, soit constante dans $I$, il suffit qu'elle ait une dérivée à droite nulle en tous les points du complémentaire (par rapport à $I$) d'une partie dénombrable de $I$.
 
-#### Remarque {#fvr-i-s2-n3-rem-2 .statement}
+#### Remarque {#fvr-i-s2-n3-rem-3 .statement}
 
 Les démonstrations des th. 1 et 2 font intervenir de façon essentielle les propriétés topologiques particulières au corps $\mathbf{R}$; on peut en effet donner des exemples de corps valués $K$ pour lesquels il existe des applications continues non constantes de $K$ dans lui-même qui ont en tout point une dérivée nulle (cf. I, p. 44, exerc. 2).
 

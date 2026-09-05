@@ -161,7 +161,7 @@ Vậy $f_{\varepsilon}$ hội tụ đều tới $f$ trên X khi $\varepsilon$ ti
 
 #### Hệ quả 1 {#ts-i-s3-prop-1-cor-1 .statement tag=027U}
 
-Với mọi $x\in X$, gọi $I_x$ là tập hợp các $f\in \mathscr{C}_0(X)$ triệt tiêu tại $x$. Khi đó $x\mapsto I_x$ là một song ánh từ X lên tập hợp các ideal đóng cực đại của $\mathscr{C}_0(X)$. Các ideal này là chính quy.
+Với mọi $x\in X$, gọi $I_x$ là tập hợp các $f\in \mathscr{C}_0(X)$ triệt tiêu tại $x$. Khi đó $x\mapsto I_x$ là một song ánh từ X lên tập hợp các iđêan đóng cực đại của $\mathscr{C}_0(X)$. Các iđêan này là chính quy.
 
 Điều này suy ra ngay từ Mệnh đề 1.
 
@@ -213,7 +213,7 @@ Ngược lại, cho $g: X'\rightarrow Y'$ là một ánh xạ liên tục sao ch
 
 Ta sẽ đồng nhất các ánh xạ bộ phận thực sự của X vào Y với các ánh xạ liên tục của $X'$ vào $Y'$ mà ánh xạ $\omega_X$ lên $\omega_Y$. Đặc biệt, các ánh xạ thực sự của X vào Y là các ánh xạ bộ phận thực sự có miền xác định là X; chúng được đồng nhất với các ánh xạ liên tục $f$ của $X'$ vào $Y'$ sao cho that $\overset{-1}{f}(\omega_Y) =\{\omega_X\}$. Nếu X là compắc, thì đó đơn giản là các ánh xạ liên tục của X vào Y.
 
-Cho A là một đại số Banach phức giao hoán. Nhắc lại rằng $\mathsf{X}'(A)$ được đồng nhất với không gian compắc thu được từ $\mathsf{X}(A)$ bằng cách thêm vào một điểm ở vô cực (I, p. 29, corollaire).
+Cho A là một đại số Banach phức giao hoán. Nhắc lại rằng $\mathsf{X}'(A)$ được đồng nhất với không gian compắc thu được từ $\mathsf{X}(A)$ bằng cách thêm vào một điểm ở vô cực (I, p. 29, hệ quả).
 
 #### Mệnh đề 2 {#ts-i-s3-prop-2 .statement tag=027Z}
 

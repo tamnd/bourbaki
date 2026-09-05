@@ -131,7 +131,7 @@ N & \xrightarrow{\beta} & N''
 \end{array}
 $$
 
-sao cho $f \circ \alpha' = \beta \circ f'$, $\mathrm{Ker}\, \alpha = \mathrm{Im}\, \alpha'$, $\beta \circ \beta' = 0$, and $f' = k \circ \alpha' + \beta' \circ k'$ and where $N''$ is injective. There exists an $A$-homomorphism $k'' : M'' \to N''$ such that $f = k'' \circ \alpha + \beta \circ k$.
+sao cho $f \circ \alpha' = \beta \circ f'$, $\mathrm{Ker}\, \alpha = \mathrm{Im}\, \alpha'$, $\beta \circ \beta' = 0$, và $f' = k \circ \alpha' + \beta' \circ k'$ và trong đó $N''$ là nội xạ. Tồn tại một $A$-đồng cấu $k'' : M'' \to N''$ sao cho $f = k'' \circ \alpha + \beta \circ k$.
 
 Thật vậy, đặt $g = f - \beta \circ k$, ta có
 $$
@@ -669,7 +669,7 @@ $$
 
 Hiển nhiên là
 $$
-d_{n-1}^i \circ d_n^j = d_{n-1}^{j-1} \circ d_n^i \quad \text{for} \quad i < j
+d_{n-1}^i \circ d_n^j = d_{n-1}^{j-1} \circ d_n^i \quad \text{với} \quad i < j
 $$
 và do đó
 $$

@@ -135,7 +135,7 @@ Cho C là một buồng của $\mathfrak{t}$ và $\overline{C}$ là bao đóng c
 
 $\overline{C}\rightarrow \mathfrak{t}/W\rightarrow \mathfrak{g}/$Ad(G).
 
-Các ánh xạ chính tắc $\overline{C}\rightarrow \mathfrak{t}$ và $\mathfrak{t}\rightarrow \mathfrak{t}/W$ là proper (Tôpô tổng quát, Chương III, §4, no. 1, Mệnh đề $2c$)$)$. Ánh xạ $\overline{C}\rightarrow \mathfrak{t}/W$ liên tục, proper và song ánh (Mệnh đề $2c$)$)$; do đó, nó là một đồng phôi, suy ra hệ quả theo Hệ quả của Mệnh đề 6 của §2, no. 5.
+Các ánh xạ chính tắc $\overline{C}\rightarrow \mathfrak{t}$ và $\mathfrak{t}\rightarrow \mathfrak{t}/W$ là thực sự (Tôpô tổng quát, Chương III, §4, no. 1, Mệnh đề $2c$)$)$. Ánh xạ $\overline{C}\rightarrow \mathfrak{t}/W$ liên tục, thực sự và song ánh (Mệnh đề $2c$)$)$; do đó, nó là một đồng phôi, suy ra hệ quả theo Hệ quả của Mệnh đề 6 của §2, no. 5.
 
 #### Nhận xét 4 {#lie-ix-s5-n2-rem-4 .statement tag=01E3}
 
@@ -249,7 +249,7 @@ Cho H là một nhóm Lie compact, N là một nhóm con lũy linh của H. Khi 
 
 #### Ví dụ {#lie-ix-s5-n3-exa-1 .statement tag=01EF}
 
-Xét $G =\mathbf{U}(n,\mathbf{C})$. Sau này ta sẽ thấy rằng nhóm con các ma trận đường chéo trong G là một xuyến đại cực đại của G và nhóm chuẩn hóa của nó là tập hợp các ma trận đơn thức (Algebra, Chap. II, §10, no. 7, Ví dụ II) trong G.
+Xét $G =\mathbf{U}(n,\mathbf{C})$. Sau này ta sẽ thấy rằng nhóm con các ma trận đường chéo trong G là một xuyến đại cực đại của G và nhóm chuẩn hóa của nó là tập hợp các ma trận đơn thức (Đại số, Chap. II, §10, no. 7, Ví dụ II) trong G.
 
 Suy ra rằng, nếu $\Phi$ là một dạng Hermit dương phân biệt trên một không gian vectơ phức hữu hạn chiều V và $\Gamma$ là một nhóm con lũy linh của $\mathbf{U}(\Phi )$, thì tồn tại một cơ sở của V sao cho các ma trận của các phần tử của $\Gamma$ là các ma trận đơn thức (“Định lý Blichtfeldt”).
 
@@ -341,7 +341,7 @@ b) Ánh xạ $f_r$ (resp. $\varphi_r$, resp. $\varphi_A$) làm cho $(G/T)\times 
 
 a) Sự tương đương giữa (i) và (i bis) là rõ ràng; sự tương đương giữa (ii) và (ii bis) suy ra từ các quan hệ dim((G$/T$)$\times T$) $=$ dim((G$/T$)$\times \mathfrak{t}$) $=$ dim(G). Theo Bổ đề 4, $f$ là một submersion tại điểm $(\overline{g}, t)$ khi và chỉ khi $\mathfrak{g}=\mathfrak{t}+$ Im(Ad $t-$Id), điều này có nghĩa là $t$ là chính quy. Cuối cùng, vì $\varphi =f\circ$ (Id$_{G/T}\times$ exp$_T$)$,\varphi$ là étale tại điểm $(\overline{g}, x)$ khi và chỉ khi $f$ là étale tại điểm $(\overline{g}$, exp $x$), mà theo điều trên thì điều đó có nghĩa là $x$ thuộc $\mathfrak{t}_r$.
 
-b) Vì thế các morphism $f_r, \varphi_r, \varphi_A$ đều là étale. Mặt khác, W tác động tự do trên $G/T$, và a fortiori trên $(G/T)\times T$. Giả sử $g, g'$ trong G và $t, t'$ trong $T_r$ sao cho $f(\overline{g}, t) =f(\overline{g}', t')$; khi đó Int $g^{-1}g'$ ánh xạ $t'$ thành $t$, và do đó chuẩn hóa T, vì $T = Z(t)_0= Z(t')_0$, và lớp $w$ của $g^{-1}g'$ trong W ánh xạ $(\overline{g}, t)$ thành $(\overline{g}', t')$. Suy ra rằng $f_r$ là một phủ chính với nhóm W; điều này ngay lập tức suy ra rằng $\varphi_r$ là một phủ chính với nhóm $W'_a$, và do đó bởi hạn chế lên thành phần liên thông $(G/T)\times A$ của $(G/T)\times \mathfrak{t}_r$, rằng $\varphi_A$ là một phủ chính với nhóm $H_A$.
+b) Vì thế các cấu xạ $f_r, \varphi_r, \varphi_A$ đều là étale. Mặt khác, W tác động tự do trên $G/T$, và a fortiori trên $(G/T)\times T$. Giả sử $g, g'$ trong G và $t, t'$ trong $T_r$ sao cho $f(\overline{g}, t) =f(\overline{g}', t')$; khi đó Int $g^{-1}g'$ ánh xạ $t'$ thành $t$, và do đó chuẩn hóa T, vì $T = Z(t)_0= Z(t')_0$, và lớp $w$ của $g^{-1}g'$ trong W ánh xạ $(\overline{g}, t)$ thành $(\overline{g}', t')$. Suy ra rằng $f_r$ là một phủ chính với nhóm W; điều này ngay lập tức suy ra rằng $\varphi_r$ là một phủ chính với nhóm $W'_a$, và do đó bởi hạn chế lên thành phần liên thông $(G/T)\times A$ của $(G/T)\times \mathfrak{t}_r$, rằng $\varphi_A$ là một phủ chính với nhóm $H_A$.
 
 #### Nhận xét 1 {#lie-ix-s5-n4-rem-1 .statement tag=01EI}
 

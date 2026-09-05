@@ -145,7 +145,7 @@ Trước hết giả sử rằng B-không gian E và $B'$-không gian $E'$ thừ
 
 Trong trường hợp tổng quát, với mọi điểm $(a, a')$ của $B\times B'$, tồn tại một lân cận U của $a$ trong B và một lân cận $U'$ của $a'$ trong $B'$ sao cho U-không gian $E_U$ và $U'$-không gian $E'_{U'}$ có thể tầm thường hóa được. Theo điều đã nói ở trên, suy ra $B\times B'$-không gian $E\times E'$ có thể tầm thường hóa trên $U\times U'$. Vì thế nó là một không gian sợi địa phương tầm thường có cơ sở $B\times B'$. Các sợi của nó là rời rạc nếu E và $E'$ là các phủ, do đó suy ra mệnh đề.
 
-Cần nhận thấy rằng, nếu $(p_i: E_i\rightarrow B_i)_{i\in I}$ là một họ các không gian sợi địa phương tầm thường, hoặc thậm chí các phủ, thì không gian tích $\prod_{i\in I}E_i$ được trang bị ánh xạ $(p_i)_{i\in I}$ không nhất thiết là một không gian sợi địa phương tầm thường có cơ sở $\prod_{i\in I}B_i($I, p. 145, Exercise 3).
+Cần nhận thấy rằng, nếu $(p_i: E_i\rightarrow B_i)_{i\in I}$ là một họ các không gian sợi địa phương tầm thường, hoặc thậm chí các phủ, thì không gian tích $\prod_{i\in I}E_i$ được trang bị ánh xạ $(p_i)_{i\in I}$ không nhất thiết là một không gian sợi địa phương tầm thường có cơ sở $\prod_{i\in I}B_i($I, p. 145, bài tập 3).
 
 #### Hệ quả 1 {#ta-i-s4-prop-2-cor-1 .statement tag=01P0}
 
@@ -265,7 +265,7 @@ Cho E, B là các không gian tôpô và $p: E\rightarrow B$ là một ánh xạ
 
 (i) Không gian E, được trang bị ánh xạ $p$, là một phép phủ hữu hạn địa phương của B;
 
-(ii) Ánh xạ $p$ là étale, proper và phân ly;
+(ii) Ánh xạ $p$ là étale, thực sự và phân ly;
 
 (iii) Ánh xạ $p$ là liên tục, mở và phân ly, các sợi của nó là hữu hạn, và hàm số số $b\mapsto$ Card($\overset{-1}{p}(b)$) là nửa liên tục trên trên B (TG, IV, p. 28).
 
@@ -281,7 +281,7 @@ Trong mệnh đề này, ta có thể chỉ xét các lân cận W của $\overs
 
 Bây giờ chứng minh định lý 1. Mỗi một trong ba điều kiện đều kéo theo rằng ánh xạ $p$ là liên tục, mở và phân ly, và thêm nữa các sợi của $p$ là hữu hạn. Điều này là hiển nhiên dưới các giả thiết (i) và (iii); dưới giả thiết (ii), các sợi của $p$ là rời rạc (I, p. 29, nhận xét 2) và quasi-compact (TG, I, p. 75, định lý 1), do đó hữu hạn (TG, I, p. 60, ví dụ 1).
 
-(i)$\Rightarrow$(ii) : chỉ cần chứng minh rằng $p$ là proper và, để làm điều đó, rằng với mọi tập mở U trên đó phép phủ $(E, p)$ là khả tầm thường hóa, ánh xạ $p_U:\overset{-1}{p}(U)\rightarrow U$ là proper (TG, I, p. 72, mệnh đề 3). Vì các sợi của $p_U$ là hữu hạn, mệnh đề sau cùng suy ra từ Hệ quả 5 của TG, I, p. 77.
+(i)$\Rightarrow$(ii) : chỉ cần chứng minh rằng $p$ là thực sự và, để làm điều đó, rằng với mọi tập mở U trên đó phép phủ $(E, p)$ là khả tầm thường hóa, ánh xạ $p_U:\overset{-1}{p}(U)\rightarrow U$ là thực sự (TG, I, p. 72, mệnh đề 3). Vì các sợi của $p_U$ là hữu hạn, mệnh đề sau cùng suy ra từ hệ quả 5 của TG, I, p. 77.
 
 (ii)$\Rightarrow$(iii) : cho $b$ là một điểm của B và, với mọi $x\in \overset{-1}{p}(b)$, cho $W_x$ là một lân cận mở của $x$ trong E sao cho $p|W_x$ là đơn ánh. Tập hợp $W =\bigcup_{x\in\overset{-1}{p}(b)}W_x$ là một lân cận mở của $\overset{-1}{p}(b)$. Vì ánh xạ $p$ là đóng, theo bổ đề trên tồn tại một lân cận mở U của $b$ sao cho $\overset{-1}{p}(U)\subset W$. Với mọi $a\in U$, ta có $\overset{-1}{p}(a)\subset W$; vì hạn chế của $p$ lên mỗi $W_x$ là đơn ánh, suy ra Card($\overset{-1}{p}(a)$)$\leqslant$ Card($\overset{-1}{p}(b)$), điều này chứng minh tính nửa liên tục trên của ánh xạ $a\mapsto$ Card($\overset{-1}{p}(a)$).
 
@@ -301,7 +301,7 @@ Tập hợp F các điểm của E tại đó ánh xạ $p$ không étale là đ
 
 Cho B là một không gian tôpô tách và cho E là một B-không gian. Giả sử rằng E là compact và phép chiếu của nó $p: E\rightarrow B$ là étale. Khi đó, E là một phủ hữu hạn của B.
 
-Ánh xạ $p$ là tách (I, p. 26, nhận xét 2) và riêng (TG, I, p. 76, hệ quả 2). Bởi hệ quả 1, do đó E là một phủ hữu hạn địa phương của B. Vì E là compact, $p(E)$ là một tập con quasi-compact của B; ánh xạ từ $p(E)$ vào $\mathbf{N}$ cho bởi $b\mapsto$ Card $\overset{-1}{p}(b)$ là địa phương hằng, nên bị chặn trên (TG, IV, p. 30, corollary).
+Ánh xạ $p$ là tách (I, p. 26, nhận xét 2) và riêng (TG, I, p. 76, hệ quả 2). Bởi hệ quả 1, do đó E là một phủ hữu hạn địa phương của B. Vì E là compact, $p(E)$ là một tập con quasi-compact của B; ánh xạ từ $p(E)$ vào $\mathbf{N}$ cho bởi $b\mapsto$ Card $\overset{-1}{p}(b)$ là địa phương hằng, nên bị chặn trên (TG, IV, p. 30, hệ quả).
 
 #### Hệ quả 3 {#ta-i-s4-thm-1-cor-3 .statement tag=01PB}
 

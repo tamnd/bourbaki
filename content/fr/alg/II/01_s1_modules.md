@@ -66,9 +66,9 @@ subsections:
       title: Multimodules
       page: 33
       pdf_page: 210
-statements: 96
+statements: 101
 exercises: 27
-content_sha256: 70660bee3256308a3ef902dfb46e26259e40fb888e027c7207e49c6d0d0b3f0e
+content_sha256: b4b28b6d75dc77acfe9906f6f9c66595795db5a2a42ad9cb4f6e8f929e93d20d
 ---
 
 ## § 1. MODULES
@@ -135,7 +135,7 @@ Un corps est à la fois espace vectoriel à gauche et à droite par rapport à u
 
 #### Exemple 5 {#alg-ii-s1-n1-exa-5 .statement}
 
-L’espace numérique à 3 dimensions $\mathbf{R}^3$ est un espace vectoriel par rapport au corps des nombres réels $\mathbf{R}$, le produit $tx$ d’un nombre réel t et d’un point x de coordonnées $x_1, x_2, x_3$ étant le point de coordonnées $tx_1, tx_2, tx_3$. De même, l’ensemble des fonctions numériques définies dans un ensemble quelconque F est un espace vectoriel par rapport à $\mathbf{R}$, le produit $tf$ d’un nombre réel t et d’une fonction f étant la fonction numérique $x \mapsto tf(x)$*
+\* L’espace numérique à 3 dimensions $\mathbf{R}^3$ est un espace vectoriel par rapport au corps des nombres réels $\mathbf{R}$, le produit $tx$ d’un nombre réel t et d’un point x de coordonnées $x_1, x_2, x_3$ étant le point de coordonnées $tx_1, tx_2, tx_3$. De même, l’ensemble des fonctions numériques définies dans un ensemble quelconque F est un espace vectoriel par rapport à $\mathbf{R}$, le produit $tf$ d’un nombre réel t et d’une fonction f étant la fonction numérique $x \mapsto tf(x)$*
 
 Pour deux familles $(x_i)_{i \in I}, (y_i)_{i \in I}$ d’éléments d’un A-module E, de support fini (I, p. 13), on a les formules
 
@@ -184,7 +184,10 @@ Lorsque $E$ et $F$ sont deux groupes commutatifs, considérés comme modules sur
 #### Exemple 1 {#alg-ii-s1-n2-exa-1 .statement}
 
 Soient $E$ un $A$-module, $a$ un élément de $E$; l’application $\lambda \mapsto \lambda a$ du $A$-module $A_s$ dans $E$ est une application linéaire $\theta_a$, telle que $\theta_a(1) = a$.
-\* 2) Soient $I$ un intervalle ouvert de la droite numérique $\mathbf{R}$, $E$ l’espace vectoriel des fonctions numériques dérivables dans $I$, $F$ l’espace vectoriel de toutes les fonctions numériques définies dans $I$. L’application $x \mapsto x'$ qui, à toute fonction dérivable $x$, fait correspondre sa dérivée, est une application linéaire de $E$ dans $F$*
+
+#### Exemple 2 {#alg-ii-s1-n2-exa-2 .statement}
+
+\* Soient $I$ un intervalle ouvert de la droite numérique $\mathbf{R}$, $E$ l’espace vectoriel des fonctions numériques dérivables dans $I$, $F$ l’espace vectoriel de toutes les fonctions numériques définies dans $I$. L’application $x \mapsto x'$ qui, à toute fonction dérivable $x$, fait correspondre sa dérivée, est une application linéaire de $E$ dans $F$*
 
 On notera qu’une homothétie $x \mapsto \alpha x$ dans un $A$-module $E$ n’est pas nécessairement une application linéaire: en d’autres termes, on n’a pas nécessairement la relation $\alpha(\lambda x) = \lambda(\alpha x)$ quels que soient $\lambda \in A$ et $x \in E$. Cette relation est toutefois vraie lorsque $\alpha$ appartient au centre de $A$; on dit alors que $x \mapsto \alpha x$ est une homothétie centrale (cf. II, p. 32).
 
@@ -260,12 +263,22 @@ Soient E un A-module, M une partie de E ; pour que la structure de A-module de E
 #### Exemple 1 {#alg-ii-s1-n3-exa-1 .statement}
 
 Dans un module quelconque E, l’ensemble réduit à 0 est un sous-module (sous-module nul, souvent noté 0 par abus de notation).
-2) Soit A un anneau. Les sous-modules de A_s (resp. A_d) ne sont autres que les idéaux à gauche (resp. idéaux à droite) de l’anneau A (I, p. 98).
-3) Soient E un A-module, x un élément de E, a un idéal à gauche de A. L’ensemble des éléments $\alpha x$, où $\alpha$ parcourt a, est un sous-module de E, qu’on note $\alpha x$.
 
-4) Dans un groupe commutatif G, considéré comme $\mathbf{Z}$-module (II, p. 3), tout sous-groupe de G est aussi un sous-module.
+#### Exemple 2 {#alg-ii-s1-n3-exa-2 .statement}
 
-\* 5) Soit I un intervalle ouvert de la droite numérique $\mathbf{R}$; l’ensemble C des fonctions numériques définies et continues dans I est un sous-espace vectoriel de l’espace vectoriel $\mathbf{R}^I$ de toutes les fonctions numériques définies dans I. De même, l’ensemble D des fonctions dérivables dans I est un sous-espace vectoriel de C.*
+Soit A un anneau. Les sous-modules de A_s (resp. A_d) ne sont autres que les idéaux à gauche (resp. idéaux à droite) de l’anneau A (I, p. 98).
+
+#### Exemple 3 {#alg-ii-s1-n3-exa-3 .statement}
+
+Soient E un A-module, x un élément de E, a un idéal à gauche de A. L’ensemble des éléments $\alpha x$, où $\alpha$ parcourt a, est un sous-module de E, qu’on note $\alpha x$.
+
+#### Exemple 4 {#alg-ii-s1-n3-exa-4 .statement}
+
+Dans un groupe commutatif G, considéré comme $\mathbf{Z}$-module (II, p. 3), tout sous-groupe de G est aussi un sous-module.
+
+#### Exemple 5 {#alg-ii-s1-n3-exa-5 .statement}
+
+\* Soit I un intervalle ouvert de la droite numérique $\mathbf{R}$; l’ensemble C des fonctions numériques définies et continues dans I est un sous-espace vectoriel de l’espace vectoriel $\mathbf{R}^I$ de toutes les fonctions numériques définies dans I. De même, l’ensemble D des fonctions dérivables dans I est un sous-espace vectoriel de C.*
 
 Soit E un A-module. Toute relation d’équivalence compatible (I, p. 11) avec la structure de module de E est de la forme $x - y \in M$, où M est un sous-groupe stable de E (I, p. 33), c’est-à-dire un sous-module de E. On vérifie immédiatement que la structure de groupe à opérateurs du groupe quotient E/M (I, p. 35) est une structure de A-module, pour laquelle l’application canonique $E \to E/M$ est linéaire; muni de cette structure, E/M est appelé module quotient de E par le sous-module M. Un module quotient d’un espace vectoriel E s’appelle espace vectoriel quotient (ou simplement espace quotient) de E.
 

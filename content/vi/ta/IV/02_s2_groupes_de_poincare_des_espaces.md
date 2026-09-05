@@ -307,7 +307,7 @@ khi đó suy ra A là tập hợp loại một, điều phải chứng minh.
 
 Cho X là một không gian tôpô.
 
-Nhắc lại (TG, IX, p. 69) rằng một tập con A của X được gọi là khả tiếp cận nếu tồn tại một tập con mở U của X sao cho $U\cap \complement A$ và $A\cap \complement U$ là các tập hợp loại một trong X. Tập hợp các tập con khả tiếp cận của X là một bộ lạc chứa bộ lạc Borel (TG, IX, p. 69, lemma 8 và chứng minh của nó). Một tập hợp loại một là khả tiếp cận.
+Nhắc lại (TG, IX, p. 69) rằng một tập con A của X được gọi là khả tiếp cận nếu tồn tại một tập con mở U của X sao cho $U\cap \complement A$ và $A\cap \complement U$ là các tập hợp loại một trong X. Tập hợp các tập con khả tiếp cận của X là một bộ lạc chứa bộ lạc Borel (TG, IX, p. 69, bổ đề 8 và chứng minh của nó). Một tập hợp loại một là khả tiếp cận.
 
 Với mỗi tập con A của X, cho D(A) là tập hợp các điểm $x\in X$ sao cho với mọi lân cận V của $x,A\cap V$ không là tập hợp loại một. Ta cũng đặt $D^*(A) = A\cup D(A)$.
 

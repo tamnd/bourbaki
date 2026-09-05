@@ -137,7 +137,7 @@ Hệ quả của Mệnh đề 3 cho thấy rằng mọi mở rộng E của mộ
 
 Cho E và F là hai mở rộng của một trường K. Ta hiểu một mở rộng hợp thành của $E$ và F là mọi bộ ba $(L, u, v)$, trong đó L là một mở rộng của K, $u$ là một đồng cấu K của E vào L và $v$ là một đồng cấu K của F vào L, và trường L được sinh bởi $u(E) \cup v(F)$ (xem Hình 1).
 
-![Diagram showing extensions E, F, K, L, homomorphisms u, v, r](../images/fig_1.png)
+![biểu đồ showing extensions E, F, K, L, homomorphisms u, v, r](../images/fig_1.png)
 
 Hình 1.
 

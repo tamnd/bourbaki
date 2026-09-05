@@ -139,7 +139,7 @@ $$
 
 #### Ví dụ {#evt-iv-s1-n1-exa-1 .statement}
 
-Cho G là một không gian lồi địa phương và G' là đối ngẫu của nó. Trên G', tôpô yếu $\sigma(G', G)$ và tôpô hội tụ compact lồi (III, p. 14) là tương thích với đối ngẫu giữa G' và G. Nói chung, tôpô mạnh và tôpô hội tụ compact trên G' không tương thích với đối ngẫu giữa G' và G. Tuy nhiên, hãy nhớ rằng khi G là Hausdorff và quasi-complete, tôpô hội tụ compact trên G' trùng với tôpô hội tụ compact lồi (III, p. 8), do đó tương thích với đối ngẫu giữa G' và G.
+Cho G là một không gian lồi địa phương và G' là đối ngẫu của nó. Trên G', tôpô yếu $\sigma(G', G)$ và tôpô hội tụ compact lồi (III, p. 14) là tương thích với đối ngẫu giữa G' và G. Nói chung, tôpô mạnh và tôpô hội tụ compact trên G' không tương thích với đối ngẫu giữa G' và G. Tuy nhiên, hãy nhớ rằng khi G là Hausdorff và quasi-đầy đủ, tôpô hội tụ compact trên G' trùng với tôpô hội tụ compact lồi (III, p. 8), do đó tương thích với đối ngẫu giữa G' và G.
 
 #### Định nghĩa 3 {#evt-iv-s1-def-3 .statement}
 

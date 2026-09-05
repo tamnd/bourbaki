@@ -30,9 +30,9 @@ subsections:
       title: Dual d’une somme directe, d’un produit
       page: 11
       pdf_page: 197
-statements: 37
-exercises: 15
-content_sha256: af7e71d40cda7524b2867a9ad40f898a1b8b8f9af5e64471e2d252e67db805b5
+statements: 38
+exercises: 25
+content_sha256: 6004fb719102bdab15221c3fbc8253ea6854e942dc649baf2fdb05e2c8e0e79e
 ---
 
 ## § 1. DUALITÉ
@@ -290,7 +290,10 @@ $$
 #### Remarque 1 {#evt-iv-s1-n3-rem-1 .statement}
 
 La formule (3) est le cas particulier de (4) correspondant à l’application linéaire $\lambda \mapsto \lambda x$ de K dans E.
-2) Posons $B(x, y') = \langle u(x), y' \rangle = \langle x, 'u(y') \rangle$ pour $x \in E_1,\ y' \in E'_2$. La démonstration précédente montre que B est une forme bilinéaire continue sur $E_1 \times E'_2$, de norme (TG, X, p. 23) égale à $\|u\|$.
+
+#### Remarque 2 {#evt-iv-s1-n3-rem-2 .statement}
+
+Posons $B(x, y') = \langle u(x), y' \rangle = \langle x, 'u(y') \rangle$ pour $x \in E_1,\ y' \in E'_2$. La démonstration précédente montre que B est une forme bilinéaire continue sur $E_1 \times E'_2$, de norme (TG, X, p. 23) égale à $\|u\|$.
 
 #### Corollaire {#evt-iv-s1-n3-cor-3 .statement}
 

@@ -51,9 +51,9 @@ subsections:
       title: Germes en un point
       page: 45
       pdf_page: 57
-statements: 28
+statements: 29
 exercises: 20
-content_sha256: 073bb3a9e4bf91147fb097cafd414619e9e01e9285f92074e23b76aa1fddc5db
+content_sha256: b042b015a8c18f06cd3667b0ba26e507005e3526693c0fd684a68f2ea4d54e7a
 ---
 
 ## § 6. FILTRES
@@ -343,7 +343,10 @@ entre $f$ et $g$ est une *relation d’équivalence* $S$, car elle est évidemme
 #### Remarque 1 {#top-i-s6-n9-rem-1 .statement}
 
 Toute application $f$ d’une partie $M \in \mathfrak{F}$ de $X$ dans $X'$ est équivalente mod. $S$ à une application $f_1$ de $X$ dans $X'$ (ce qui justifie la terminologie précédente): il suffit en effet de prolonger $f$ à $X$ en lui donnant par exemple une valeur constante dans $X - M$.
-2) Pour que les *fonctions caractéristiques* $\varphi_M$ et $\varphi_N$ de deux parties $M, N$ de $X$ aient même germe suivant $\mathfrak{F}$, il faut et il suffit que les parties $M$ et $N$ aient même germe suivant $\mathfrak{F}$.
+
+#### Remarque 2 {#top-i-s6-n9-rem-2 .statement}
+
+Pour que les *fonctions caractéristiques* $\varphi_M$ et $\varphi_N$ de deux parties $M, N$ de $X$ aient même germe suivant $\mathfrak{F}$, il faut et il suffit que les parties $M$ et $N$ aient même germe suivant $\mathfrak{F}$.
 
 Soient $X''$ un troisième ensemble, $\varphi$ une application de $X'$ dans $X''$, $\Phi'$ l’ensemble des applications dont l’ensemble de départ est une partie de $X$ appartenant à $\mathfrak{F}$ et dont $X''$ est l’ensemble d’arrivée. Pour toute application $f \in \Phi$, $\varphi \circ f$ appartient à $\Phi'$; en outre, il est immédiat que si $g \in \Phi$ a même germe que $f$ suivant $\mathfrak{F}$, $\varphi \circ f$ et $\varphi \circ g$ ont même germe suivant $\mathfrak{F}$; ce germe ne dépend donc que du germe $\tilde{f}$ de $f$ suivant $\mathfrak{F}$ et se note $\varphi(\tilde{f})$. On définit ainsi une application (encore notée $\varphi$ par abus de langage) de l’ensemble $\tilde{\Phi}$ des germes d’applications de $X$ dans $X'$, dans l’ensemble $\tilde{\Phi}'$ des germes d’applications de $X$ dans $X''$.
 

@@ -35,9 +35,9 @@ subsections:
       title: INTERIOR, CLOSURE, FRONTIER OF A SET; DENSE SETS
       page: 23
       pdf_page: 29
-statements: 23
+statements: 24
 exercises: 9
-content_sha256: 69c33aa1b07c759c60eb28deb272aa6ed887332ba5d4aeb29cbf610ebb88696c
+content_sha256: d735cbbab5e70ad6431641df443b15d4a8639a7f5e81bee32d62d8063d5ce355
 ---
 
 ## 1. OPEN SETS, NEIGHBOURHOODS, CLOSED SETS
@@ -161,7 +161,10 @@ It is clear that the condition is necessary. Conversely, if it is satisfied, the
 #### Example 1 {#top-i-s1-n3-exa-1 .statement}
 
 The discrete topology has as a base the set of subsets of $X$ which consist of a single point.
-2) The set of bounded open intervals is by definition a base of the topology of the rational line (no. 2). \* Likewise, the set of bounded open intervals is a base of the topology of the real line. \*
+
+#### Example 2 {#top-i-s1-n3-exa-2 .statement}
+
+The set of bounded open intervals is by definition a base of the topology of the rational line (no. 2). \* Likewise, the set of bounded open intervals is a base of the topology of the real line. \*
 
 ### 4. CLOSED SETS
 

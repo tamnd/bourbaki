@@ -31,9 +31,9 @@ subsections:
       title: Montel spaces
       page: 18
       pdf_page: 200
-statements: 30
-exercises: 24
-content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
+statements: 32
+exercises: 26
+content_sha256: d382fb6ed9174e8bcbf2dc18f510bf2f2a8359e0d8e626232137e711a75a6927
 ---
 
 ## § 2. BIDUAL. REFLEXIVE SPACES
@@ -101,8 +101,14 @@ Let B be a bounded subset of M. Since B is bounded in E, and the weakened topolo
 #### Remark 1 {#evt-iv-s2-n2-rem-1 .statement}
 
 Suppose E is semi-reflexive. Every subset of E which is convex, closed and bounded for the initial topology is compact for the topology $\sigma(E, E')$ (IV, p. 1, prop. 1). *On the other hand, the unit sphere (with the equation $\|x\| = 1$) of an infinite dimensional hilbertian space E is closed and bounded for the initial topology, but is not closed for the weakened topology, even if E is semi-reflexive. \*
-2) By remark 3 of IV, p. 5, we can reformulate th. 1 as follows : *the Hausdorff space E is semi-reflexive if and only if it is quasi-complete for its weakened topology.* If it is semi-reflexive, then it is *quasi-complete for its initial topology* (IV, p. 5, Remark 2).
-3) Under the hypotheses of the above corollary, the space E/M is not necessarily semi-reflexive (IV, p. 63, exerc. 10).
+
+#### Remark 2 {#evt-iv-s2-n2-rem-2 .statement}
+
+By remark 3 of IV, p. 5, we can reformulate th. 1 as follows : *the Hausdorff space E is semi-reflexive if and only if it is quasi-complete for its weakened topology.* If it is semi-reflexive, then it is *quasi-complete for its initial topology* (IV, p. 5, Remark 2).
+
+#### Remark 3 {#evt-iv-s2-n2-rem-3 .statement}
+
+Under the hypotheses of the above corollary, the space E/M is not necessarily semi-reflexive (IV, p. 63, exerc. 10).
 
 ### 3. Reflexive spaces
 
@@ -222,7 +228,7 @@ Every strict inductive limit E of a sequence $(E_n)$ of Montel spaces (II, p. 33
 
 #### Example 4 {#evt-iv-s2-n5-exa-4 .statement}
 
-Let U be an open set in $\mathbf{R}^n$ and let $\mathcal{C}^\infty(U)$ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $\mathcal{C}^\infty(U)$ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $\mathcal{C}^\infty(U)$ and let K be a compact subset of U. For every $\alpha \in \mathbf{N}^n$ let $H_{\alpha, K}$ be the set of restrictions to K of the functions $\partial^\alpha f$, as $f$ runs through B. Let $\alpha \in \mathbf{N}^n$; for every $\beta \in \mathbf{N}^n$ such that $|\beta| = |\alpha| + 1$, the set $H_{\alpha, K}$ is bounded in $\mathcal{C}(K)$ since B is bounded in $\mathcal{C}^\infty(U)$; by VAR, R., No. 2.2.3, the set $H_{\alpha, K}$ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $\mathcal{C}(K)$. But the topology of $\mathcal{C}^\infty(U)$ is the coarsest among the topologies for which all the maps $f \mapsto \partial^\alpha f|K$ from $\mathcal{C}^\infty(U)$ into $\mathcal{C}(K)$ are continuous, therefore B is relatively compact in $\mathcal{C}^\infty(U)$ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
+\* Let U be an open set in $\mathbf{R}^n$ and let $\mathcal{C}^\infty(U)$ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $\mathcal{C}^\infty(U)$ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $\mathcal{C}^\infty(U)$ and let K be a compact subset of U. For every $\alpha \in \mathbf{N}^n$ let $H_{\alpha, K}$ be the set of restrictions to K of the functions $\partial^\alpha f$, as $f$ runs through B. Let $\alpha \in \mathbf{N}^n$; for every $\beta \in \mathbf{N}^n$ such that $|\beta| = |\alpha| + 1$, the set $H_{\alpha, K}$ is bounded in $\mathcal{C}(K)$ since B is bounded in $\mathcal{C}^\infty(U)$; by VAR, R., No. 2.2.3, the set $H_{\alpha, K}$ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $\mathcal{C}(K)$. But the topology of $\mathcal{C}^\infty(U)$ is the coarsest among the topologies for which all the maps $f \mapsto \partial^\alpha f|K$ from $\mathcal{C}^\infty(U)$ into $\mathcal{C}(K)$ are continuous, therefore B is relatively compact in $\mathcal{C}^\infty(U)$ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
 
 Similarly, *the space $\mathcal{C}_0^\infty(U)$ of all infinitely differentiable functions with compact support in U* (III, p. 9) *is a Montel space*. For, $\mathcal{C}_0^\infty(U)$ is the strict inductive limit of a sequence $\mathcal{C}_{H_n}^\infty(U)$ of Fréchet spaces (III, p. 9), and it is enough to see that each of the spaces $\mathcal{C}_{H_n}^\infty(U)$ is a Montel space (*Example 3*). But a bounded and closed subset of $\mathcal{C}_0^\infty(U)$ is closed and bounded in $\mathcal{C}^\infty(U)$, hence compact in $\mathcal{C}^\infty(U)$, and consequently in $\mathcal{C}_{H_n}^\infty(U)$. \*
 

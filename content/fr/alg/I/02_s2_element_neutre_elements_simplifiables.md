@@ -43,9 +43,9 @@ subsections:
       title: Notations
       page: 23
       pdf_page: 33
-statements: 30
+statements: 32
 exercises: 17
-content_sha256: 7f909885aa65ab7cf5e7e291cf91c1df75f83a7a5ec37dbb397e4a2ae5063959
+content_sha256: 4880a04b336c37ceb7d316aa21575e7af6a3cff1983d9e99b72ead7f2fd1608f
 ---
 
 ## § 2. ÉLÉMENT NEUTRE; ÉLÉMENTS SIMPLIFIABLES; ÉLÉMENTS INVERSIBLES
@@ -157,7 +157,10 @@ Autrement dit, pour que $a$ soit simplifiable pour la loi $\tau$, il faut et il 
 #### Exemple 1 {#alg-i-s2-n2-exa-1 .statement}
 
 Tout entier naturel est simplifiable pour l’addition ; tout entier naturel $\neq 0$ est simplifiable pour la multiplication.
-2) Dans un ensemble ordonné réticulé, il ne peut y avoir d’autre élément simplifiable pour la loi sup que l’élément neutre (plus petit élément) s’il existe ; de même pour inf. En particulier, dans l’ensemble des parties d’un ensemble $E$, $\varnothing$ est le seul élément simplifiable pour la loi $\cup$, $E$ le seul élément simplifiable pour la loi $\cap$.
+
+#### Exemple 2 {#alg-i-s2-n2-exa-2 .statement}
+
+Dans un ensemble ordonné réticulé, il ne peut y avoir d’autre élément simplifiable pour la loi sup que l’élément neutre (plus petit élément) s’il existe ; de même pour inf. En particulier, dans l’ensemble des parties d’un ensemble $E$, $\varnothing$ est le seul élément simplifiable pour la loi $\cup$, $E$ le seul élément simplifiable pour la loi $\cap$.
 
 #### Proposition 2 {#alg-i-s2-prop-2 .statement}
 
@@ -180,7 +183,10 @@ On dit parfois symétrique et symétrisable au lieu d’inverse et inversible. L
 #### Exemple 1 {#alg-i-s2-n3-exa-1 .statement}
 
 Un élément neutre est son propre inverse.
-2) Dans l’ensemble des applications de $E$ dans $E$, un élément $f$ est inversible à gauche (resp. inversible à droite) si $f$ est une injection (resp. surjection). Les inverses à gauche (resp. inverses à droite) sont alors les rétractions (resp. sections) associées à $f$ (E, II, p. 18, déf. 11). Pour que $f$ soit inversible, il faut et il suffit que $f$ soit une bijection. Son unique inverse est alors la bijection réciproque de $f$.
+
+#### Exemple 2 {#alg-i-s2-n3-exa-2 .statement}
+
+Dans l’ensemble des applications de $E$ dans $E$, un élément $f$ est inversible à gauche (resp. inversible à droite) si $f$ est une injection (resp. surjection). Les inverses à gauche (resp. inverses à droite) sont alors les rétractions (resp. sections) associées à $f$ (E, II, p. 18, déf. 11). Pour que $f$ soit inversible, il faut et il suffit que $f$ soit une bijection. Son unique inverse est alors la bijection réciproque de $f$.
 
 Soient $E$ et $F$ deux magmas unifères, et $f$ un homomorphisme unifère de $E$ dans $F$. Si $x'$ est inverse de $x$ dans $E$, $f(x')$ est inverse de $f(x)$ dans $F$. Par suite, si $x$ est un élément inversible de $E$, $f(x)$ est un élément inversible de $F$.
 

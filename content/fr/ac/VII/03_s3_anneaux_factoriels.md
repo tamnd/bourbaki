@@ -46,9 +46,9 @@ subsections:
       title: '*Factorialité des anneaux de séries formelles*'
       page: 0
       pdf_page: 236
-statements: 22
+statements: 23
 exercises: 27
-content_sha256: b1e9ab611ce58d86671164118c9b605a4b85fff95031242f5a068f5b2585953c
+content_sha256: c86210c1d1ba178a2e2323abf3be27dbcd1653b5a9ae5496bb9e9db4c5ef234b
 ---
 
 ## § 3. Anneaux factoriels
@@ -351,7 +351,10 @@ Dans la suite, tous les éléments de B seront considérés comme des séries fo
 #### Remarque 1 {#ac-vii-s3-n9-rem-1 .statement}
 
 Il existe des anneaux factoriels A tels que l’anneau $A[[X]]$ ne soit pas factoriel (exerc. 8). Cependant, si A est principal, $A[[X_1, \ldots, X_n]]$ est factoriel (exerc. 9).
-2) \* Nous verrons plus tard, par des méthodes homologiques, que tout anneau local régulier est factoriel (cf. § 4, n° 7, cor. 3 de la prop. 16). Cela donnera une autre démonstration, conceptuellement plus simple, de la prop. 8.*
+
+#### Remarque 2 {#ac-vii-s3-n9-rem-2 .statement}
+
+\* Nous verrons plus tard, par des méthodes homologiques, que tout anneau local régulier est factoriel (cf. § 4, n° 7, cor. 3 de la prop. 16). Cela donnera une autre démonstration, conceptuellement plus simple, de la prop. 8.*
 
 ## EXERCICES {#ac-vii-s3-exercises}
 

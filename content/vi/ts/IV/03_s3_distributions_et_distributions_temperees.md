@@ -69,7 +69,7 @@ subsections:
       pdf_page: 234
 statements: 46
 exercises: 33
-content_sha256: d35b0ae51737c91df160521f7a9078a7596505f08526e70069bd2b424c7aa4e2
+content_sha256: 805ac956a27110771f8647319e68a618430ba2ff8a3d10aa0716fbffa1dac3fd
 translated_from: content/en-mt/ts/IV/03_s3_distributions_et_distributions_temperees.md
 source_lang: en-mt
 translation_method: machine
@@ -725,9 +725,9 @@ b) Dãy $(\varphi_m)$ hội tụ tới $\varphi$ trong $\mathscr{C}^{\infty}(\ma
 
 #### Nhận xét {#ts-iv-s3-n7-rem-2 .statement tag=0311}
 
-Một dãy $(\varphi_m)$ trong $\mathscr{C}^{\infty}(\mathbf{R}^n)$ hội tụ khi và chỉ khi, với mọi $\alpha \in \mathbf{N}^n$, dãy $(\partial^{\alpha}\varphi_m)$ hội tụ tới một hàm $\varphi^{(\alpha)}$ trong $\mathscr{C}(\mathbf{R}^n)$ được trang bị tôpô hội tụ compact. Khi đó ta có $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$ và $(\varphi_m)$ hội tụ tới $\varphi$[^0].
+Một dãy $(\varphi_m)$ trong $\mathscr{C}^{\infty}(\mathbf{R}^n)$ hội tụ khi và chỉ khi, với mọi $\alpha \in \mathbf{N}^n$, dãy $(\partial^{\alpha}\varphi_m)$ hội tụ tới một hàm $\varphi^{(\alpha)}$ trong $\mathscr{C}(\mathbf{R}^n)$ được trang bị tôpô hội tụ compact. Khi đó ta có $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$ và $(\varphi_m)$ hội tụ tới $\varphi^{(0)}$.
 
-Thật vậy, điều kiện ấy là cần thiết. Ngược lại, nếu các dãy $(\partial^{\alpha}\varphi_m)$ hội tụ tới các hàm $\varphi^{(\alpha)}$ với mọi $\alpha \in \mathbf{N}^n$, thì theo FVR, II, p. 2, th. 1, suy ra rằng $\varphi^{(\alpha)}=\partial^{\alpha}\varphi$[^0], điều đó có nghĩa là dãy $(\varphi_m)$ hội tụ tới $\varphi$[^0] trong $\mathscr{C}^{\infty}(\mathbf{R}^n)$.
+Thật vậy, điều kiện ấy là cần thiết. Ngược lại, nếu các dãy $(\partial^{\alpha}\varphi_m)$ hội tụ tới các hàm $\varphi^{(\alpha)}$ với mọi $\alpha \in \mathbf{N}^n$, thì theo FVR, II, p. 2, th. 1, suy ra rằng $\varphi^{(\alpha)}=\partial^{\alpha}\varphi^{(0)}$, điều đó có nghĩa là dãy $(\varphi_m)$ hội tụ tới $\varphi^{(0)}$ trong $\mathscr{C}^{\infty}(\mathbf{R}^n)$.
 
 #### Mệnh đề 11 {#ts-iv-s3-prop-11 .statement tag=0312}
 
@@ -979,7 +979,7 @@ $\int_a^b(\partial_1\varphi )(x_1, x')$ exp($-2i\pi  x_1y_1$)$d\mu_1(x_1) =$
 
 $[\varphi (x_1, x')$ exp($-2i\pi  x_1y_1$)$]^b_a$
 
-$+ 2i\pi y_1\int_a^b\varphi (x_1, x')$ exp($-2i\pi x_1y_1$)$d\mu_1(x_1)$ theo phép lấy tích phân từng phần (FVR, II, p. 10, formula (10)). Khi $a$ tiến tới $-\infty$ và $b$ tiến tới $+\infty$, số hạng thứ nhất của vế thứ hai hội tụ về 0 vì $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Số hạng thứ hai hội tụ, theo định lý Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), tới
+$+ 2i\pi y_1\int_a^b\varphi (x_1, x')$ exp($-2i\pi x_1y_1$)$d\mu_1(x_1)$ theo phép lấy tích phân từng phần (FVR, II, p. 10, công thức (10)). Khi $a$ tiến tới $-\infty$ và $b$ tiến tới $+\infty$, số hạng thứ nhất của vế thứ hai hội tụ về 0 vì $\varphi \in \mathscr{S}(\mathbf{R}^n)$. Số hạng thứ hai hội tụ, theo định lý Lebesgue (INT, IV, p. 137, § 3, n$^o7$, th. 6), tới
 
 $2i\pi y_1\int_{\mathbf{R}}\varphi (x_1, x')$ exp($-2i\pi x_1y_1$)$d\mu_1(x_1)$,
 

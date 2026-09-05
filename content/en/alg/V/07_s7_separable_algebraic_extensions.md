@@ -48,9 +48,9 @@ subsections:
       title: Separable and inseparable degrees of an extension of finite degree
       page: 46
       pdf_page: 160
-statements: 38
+statements: 39
 exercises: 5
-content_sha256: ed1ab16b16ed7273d2bf9373cce60817c329006d872b8fe4e06cf99329181643
+content_sha256: 9133ec09db76d1ddd91ab9ec0ebf1ccc424ba0f04aeb06eb0efc144beb94249b
 ---
 
 ## § 7. SEPARABLE ALGEBRAIC EXTENSIONS
@@ -369,7 +369,10 @@ Let Ω be an algebraic closure of E ; we have $\Omega_s \subset E$ and it suffic
 #### Remark 1 {#alg-v-s7-n8-rem-1 .statement}
 
 Let E and E' be two separable closures of K. If K is not separably closed, there exist several K-isomorphisms of E onto E'. \* For E is then a non-trivial Galois extension of K, and so there exist K-automorphisms of E distinct from the identity (*V*, p. 56, Th. 1).
-\* 2) Let E be an algebraic and separable extension of K. If every algebraic and separable extension of K is isomorphic to a subextension of E, then E is a separable closure of K. For if E' is a separable closure of K, then each of the extensions E and E' is isomorphic to a subextension of the other; hence E and E' are isomorphic extensions of K (V, p. 52, Prop. 1, a)).
+
+#### Remark 2 {#alg-v-s7-n8-rem-2 .statement}
+
+\* Let E be an algebraic and separable extension of K. If every algebraic and separable extension of K is isomorphic to a subextension of E, then E is a separable closure of K. For if E' is a separable closure of K, then each of the extensions E and E' is isomorphic to a subextension of the other; hence E and E' are isomorphic extensions of K (V, p. 52, Prop. 1, a)).
 
 ### 9. Separable and inseparable degrees of an extension of finite degree
 

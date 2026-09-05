@@ -105,7 +105,7 @@ c) Với mọi phần tử trội $\lambda$ của X(T), tồn tại một biểu
 
 Theo Bổ đề 2, các lớp tương đương của các biểu diễn bất khả quy của G tương ứng song ánh với các lớp của các biểu diễn bất khả quy hữu hạn chiều của $\mathfrak{g}$ có các trọng số thuộc $\delta (X(T))$.
 
-Ký hiệu $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ là tâm và $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ là đại số Lie dẫn xuất của $\mathfrak{g}_{\mathbf{C}}$, sao cho $\mathfrak{g}_{\mathbf{C}}=\mathscr{C}\mathfrak{g}_{\mathbf{C}}\oplus \mathscr{D}\mathfrak{g}_{\mathbf{C}}$. Với mọi dạng song tuyến tính $\mu$ trên $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, ký hiệu $E(\mu)$ là môđun $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ đơn được đưa vào trong Chap. VIII, §6, no. 3; với mọi dạng tuyến tính $\nu$ trên $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$, ký hiệu $\mathbf{C}(\nu )$ là môđun $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ chiều 1 trên $\mathbf{C}$ liên kết với nó. Khi đó các môđun $\mathfrak{g}_{\mathbf{C}}$ $\mathbf{C}(\nu )\otimes E(\mu)$ là đơn, và theo Chap. VIII, §7, no. 2, Hệ quả 2 của Định lý 1 và Algebra, Chap. VIII, §11, no. 1, Định lý 1, mọi môđun $\mathfrak{g}_{\mathbf{C}}$ đơn hữu hạn chiều đều đẳng cấu với một trong các môđun $\mathbf{C}(\nu )\otimes E(\mu)$; hơn nữa (loc. cit.)$\mathbf{C}(\nu )\otimes E(\mu)$ là hữu hạn chiều khi và chỉ khi $\mu(H_{\alpha})$ là một số nguyên dương với mọi nghiệm đơn $\alpha$. Nếu ta ký hiệu $\nu +\mu$ là dạng tuyến tính trên $\mathfrak{t}_{\mathbf{C}}$ cảm sinh $\nu$ trên $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ và $\mu$ trên $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, thì $(\nu +\mu)(H_{\alpha}) =\mu(H_{\alpha})$; hơn nữa, các trọng số của $\mathbf{C}(\nu )\otimes E(\mu)$ là các $\nu +\lambda$, trong đó $\lambda$ là một trọng số bất kỳ của $E(\mu)$, và do đó có dạng $\nu +\mu-\theta$, với $\theta \in \delta (X_+)$ (Chap. VIII, §6, no. 2, Bổ đề 2).
+Ký hiệu $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ là tâm và $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ là đại số Lie dẫn xuất của $\mathfrak{g}_{\mathbf{C}}$, sao cho $\mathfrak{g}_{\mathbf{C}}=\mathscr{C}\mathfrak{g}_{\mathbf{C}}\oplus \mathscr{D}\mathfrak{g}_{\mathbf{C}}$. Với mọi dạng song tuyến tính $\mu$ trên $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, ký hiệu $E(\mu)$ là môđun $\mathscr{D}\mathfrak{g}_{\mathbf{C}}$ đơn được đưa vào trong Chap. VIII, §6, no. 3; với mọi dạng tuyến tính $\nu$ trên $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$, ký hiệu $\mathbf{C}(\nu )$ là môđun $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ chiều 1 trên $\mathbf{C}$ liên kết với nó. Khi đó các môđun $\mathfrak{g}_{\mathbf{C}}$ $\mathbf{C}(\nu )\otimes E(\mu)$ là đơn, và theo Chap. VIII, §7, no. 2, Hệ quả 2 của Định lý 1 và Đại số, Chap. VIII, §11, no. 1, Định lý 1, mọi môđun $\mathfrak{g}_{\mathbf{C}}$ đơn hữu hạn chiều đều đẳng cấu với một trong các môđun $\mathbf{C}(\nu )\otimes E(\mu)$; hơn nữa (loc. cit.)$\mathbf{C}(\nu )\otimes E(\mu)$ là hữu hạn chiều khi và chỉ khi $\mu(H_{\alpha})$ là một số nguyên dương với mọi nghiệm đơn $\alpha$. Nếu ta ký hiệu $\nu +\mu$ là dạng tuyến tính trên $\mathfrak{t}_{\mathbf{C}}$ cảm sinh $\nu$ trên $\mathscr{C}\mathfrak{g}_{\mathbf{C}}$ và $\mu$ trên $\mathfrak{t}_{\mathbf{C}}\cap \mathscr{D}\mathfrak{g}_{\mathbf{C}}$, thì $(\nu +\mu)(H_{\alpha}) =\mu(H_{\alpha})$; hơn nữa, các trọng số của $\mathbf{C}(\nu )\otimes E(\mu)$ là các $\nu +\lambda$, trong đó $\lambda$ là một trọng số bất kỳ của $E(\mu)$, và do đó có dạng $\nu +\mu-\theta$, với $\theta \in \delta (X_+)$ (Chap. VIII, §6, no. 2, Bổ đề 2).
 
 Ta kết luận rằng môđun $\mathfrak{g}$-môđun $\mathbf{C}(\nu )\otimes E(\mu)$ là hữu hạn chiều khi và chỉ khi $(\nu +\mu)(H_{\alpha})$ là một số nguyên dương với mọi nghiệm đơn $\alpha$, và các trọng số của nó thuộc $\delta (X(T))$ khi và chỉ khi $\nu +\mu$ thuộc $\delta (X(T))$. Phép hội của hai điều kiện này có nghĩa là $\nu +\mu$ thuộc $\delta (X_{++})$; trong trường hợp đó, $\nu +\mu$ là trọng số cao nhất của $\mathbf{C}(\nu )\otimes E(\mu)$. Như vậy, ta đã xây dựng với mỗi trọng số trội $\lambda$ của X(T) một biểu diễn bất khả quy của G có trọng số cao nhất $\lambda$, và do đó đã thu được, sai khác một tương đương, tất cả các biểu diễn bất khả quy của G. Vì các vectơ có trọng số $\nu +\mu$ trong $\mathbf{C}(\nu )\otimes E(\mu)$ tạo thành một không gian con có chiều 1, nên chứng minh đầy đủ.
 
@@ -131,7 +131,7 @@ Khi đó $E_{\lambda}$ ổn định đối với các phép tịnh tiến trái,
 
 #### Nhận xét 3 {#lie-ix-s7-n2-rem-3 .statement tag=01G5}
 
-Cho $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ là một biểu diễn bất khả quy. Tồn tại một phần tử $\nu$ của X(C(G)) sao cho $\tau (s)v=\nu (s)v$ với mọi $s\in C(G), v\in V:$ thật vậy, $\tau (C(G))$ được chứa trong hoán tập của $\tau$(G), là $\mathbf{C}^*.1_V($Algebra, Chap. VIII, §3, no. 2, Th. 1). Với mọi trọng số $\lambda$ của $\tau$, hạn chế của $\lambda$ trên C(G) bằng $\nu$.
+Cho $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ là một biểu diễn bất khả quy. Tồn tại một phần tử $\nu$ của X(C(G)) sao cho $\tau (s)v=\nu (s)v$ với mọi $s\in C(G), v\in V:$ thật vậy, $\tau (C(G))$ được chứa trong hoán tập của $\tau$(G), là $\mathbf{C}^*.1_V($Đại số, Chap. VIII, §3, no. 2, Th. 1). Với mọi trọng số $\lambda$ của $\tau$, hạn chế của $\lambda$ trên C(G) bằng $\nu$.
 
 #### Nhận xét 4 {#lie-ix-s7-n2-rem-4 .statement tag=01G6}
 
@@ -431,13 +431,13 @@ do đó định lý đúng trong trường hợp này.
 
 Trong trường hợp tổng quát, chỉ cần chú ý rằng, khi chứng minh Định lý 3, ta luôn có thể thay thế G bằng một phủ liên thông thích hợp và do đó rút gọn về trường hợp trước.
 
-Bây giờ ta chứng minh Bổ đề 5. Cho $z\in \mathbf{C}$; ký hiệu $\varphi_z$ là ánh xạ từ $\mathfrak{t}$ đến đại số $\mathbf{C}$-Map(X(T)$,\mathbf{C}$) của các ánh xạ từ X(T) đến $\mathbf{C}$, gán cho $H\in \mathfrak{t}$ ánh xạ
+Bây giờ ta chứng minh Bổ đề 5. Cho $z\in \mathbf{C}$; ký hiệu $\varphi_z$ là ánh xạ từ $\mathfrak{t}$ đến đại số $\mathbf{C}$-ánh xạ(X(T)$,\mathbf{C}$) của các ánh xạ từ X(T) đến $\mathbf{C}$, gán cho $H\in \mathfrak{t}$ ánh xạ
 
 $\varphi_z(H) :\mu \rightarrow \mu$(exp $zH$) $=e^{z\delta(\mu)(H)}$.
 
 Ta có $\varphi_z(H+H') =\varphi_z(H)\varphi_z(H')$, nên tồn tại một đồng cấu vành
 
-$\psi_z:\mathbf{Z}[\mathfrak{t}]\rightarrow$ Map(X(T)$,\mathbf{C}$)
+$\psi_z:\mathbf{Z}[\mathfrak{t}]\rightarrow$ ánh xạ(X(T)$,\mathbf{C}$)
 
 sao cho $\psi_z(e^H)(\mu) =e^{z\delta(\mu)(H)}$. Mặt khác, theo Chap. VI, §3, no. 3, Mệnh đề 2, ta có quan hệ sau trong $\mathbf{Z}[\mathfrak{t}]:$
 
@@ -485,7 +485,7 @@ Hệ quả 1b) suy ra rằng tập hợp $X_d$ của các phần tử $\lambda$ 
 
 Theo Mệnh đề 3 của §1, no. 3, tồn tại các dạng song tuyến tính đối xứng âm trên $\mathfrak{g}$, phân biệt và bất biến dưới Ad(G) (nếu G là nửa đơn, chẳng hạn, ta có thể lấy dạng Killing của $\mathfrak{g}$). Cho F là một dạng như vậy. Nhắc lại (Chap. I, §3, no. 7) rằng phần tử Casimir liên kết với F là phần tử $\Gamma$ của tâm của đại số bao $U(\mathfrak{g})$ sao cho, với bất kỳ cơ sở $(e_i)$ của $\mathfrak{g}$ thỏa mãn $F(e_i, e_j) =-\delta_{ij}$, ta có $\Gamma =-\sum e^2_i$.
 
-Trong phần còn lại của chương này, ta sẽ gọi các phần tử Casimir của G là các phần tử của $U(\mathfrak{g})$ thu được theo cách này từ các dạng song tuyến tính đối xứng bất biến, phân biệt và âm trên $\mathfrak{g}$. Nếu $\Gamma$ là một phần tử Casimir của G và nếu $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ là một biểu diễn bất khả quy của G, thì tự đồng cấu $\Gamma_V$ của V là một phép vị tự (Algebra, Chap. VIII, §3, no. 2, Th. 1), mà tỉ số của nó sẽ được ký hiệu là $\widetilde{\Gamma}(\tau )$.
+Trong phần còn lại của chương này, ta sẽ gọi các phần tử Casimir của G là các phần tử của $U(\mathfrak{g})$ thu được theo cách này từ các dạng song tuyến tính đối xứng bất biến, phân biệt và âm trên $\mathfrak{g}$. Nếu $\Gamma$ là một phần tử Casimir của G và nếu $\tau : G\rightarrow \mathbf{G}\mathbf{L}(V)$ là một biểu diễn bất khả quy của G, thì tự đồng cấu $\Gamma_V$ của V là một phép vị tự (Đại số, Chap. VIII, §3, no. 2, Th. 1), mà tỉ số của nó sẽ được ký hiệu là $\widetilde{\Gamma}(\tau )$.
 
 #### Mệnh đề 4 {#lie-ix-s7-prop-4 .statement tag=01GP}
 
@@ -531,7 +531,7 @@ $$
 =\Phi_{\Gamma}(\lambda , \mu)
 $$
 
-Vì $X(T)_{++}$ sinh ra không gian vectơ $\mathbf{R}$-vector space $X(T)\otimes \mathbf{R}$, ta có $\Phi =\Phi_{\Gamma}$, do đó $Q = Q_{\Gamma}$.
+Vì $X(T)_{++}$ sinh ra không gian vectơ $\mathbf{R}$-không gian vectơ $X(T)\otimes \mathbf{R}$, ta có $\Phi =\Phi_{\Gamma}$, do đó $Q = Q_{\Gamma}$.
 
 #### Nhận xét {#lie-ix-s7-n6-rem-1 .statement tag=01GQ}
 

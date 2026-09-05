@@ -180,7 +180,7 @@ $$
 \sigma = (i_1, \ldots, i_{p+1})
 $$
 
-of $p + 1$ indices belonging to the interval $[0, n]$ of $\mathbf{N}$, ta ký hiệu $X_\sigma$ là ma trận con vuông của $X$ được tạo bởi các cột có các chỉ số là $i_1, i_2, \ldots, i_{p+1}$. Ta ký hiệu $A_\sigma$ là tập con của $L_{p+1,\ p+1}$ gồm các ma trận $X$ sao cho $X_\sigma$ không suy biến. Theo Mệnh đề 6 của $\S \ 1$, no. 6, $A_\sigma$ là một tập *trù mật mở* trong $M_{p+1,\ n+1}$, và hàm $X \to X_\sigma^{-1}$ là *liên tục* trên $A_\sigma$.
+của $p + 1$ chỉ số thuộc khoảng $[0, n]$ của $\mathbf{N}$, ta ký hiệu $X_\sigma$ là ma trận con vuông của $X$ được tạo bởi các cột có các chỉ số là $i_1, i_2, \ldots, i_{p+1}$. Ta ký hiệu $A_\sigma$ là tập con của $L_{p+1,\ p+1}$ gồm các ma trận $X$ sao cho $X_\sigma$ không suy biến. Theo Mệnh đề 6 của $\S \ 1$, số 6, $A_\sigma$ là một tập *trù mật mở* trong $M_{p+1,\ n+1}$, và hàm $X \to X_\sigma^{-1}$ là *liên tục* trên $A_\sigma$.
 
 Một diễn giải hình học của tập $A_\sigma$ như sau: gọi $E_\sigma$ là không gian con vectơ của $\mathbf{R}^{n+1}$ sinh bởi các vectơ $e_i$ của cơ sở chính tắc sao cho $i \in \sigma$, và gọi $E'_\sigma$ là không gian con bổ sung sinh bởi các $e_i$ sao cho $i \notin \sigma$; khi đó nói rằng một ma trận $x$ thuộc $A_\sigma$ có nghĩa là các hình chiếu trên $E_\sigma$ của $p + 1$ hàng của nó $x_k$ tạo thành một hệ tự do, hoặc cũng có nghĩa là không gian con vectơ sinh bởi các $x_k$ là một *phần bù* của $E'_\sigma$ (hoặc rằng giao của nó với $E'_\sigma$ chỉ gồm 0).
 

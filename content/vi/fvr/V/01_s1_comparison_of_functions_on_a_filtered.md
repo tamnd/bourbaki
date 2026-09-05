@@ -260,11 +260,9 @@ Chú ý rằng quan hệ $f \sim g$ hoàn toàn không suy ra rằng hiệu $f -
 
 Thật vậy, ta có $f_1 f_2 - g_1 g_2 = f_1 (f_2 - g_2) + (f_1 - g_1) g_2$; vì $f_1 \preceq g_1$, $f_1 - g_1 \ll g_1$ và $f_2 - g_2 \ll g_2$, ta có $f_1 f_2 - g_1 g_2 \ll g_1 g_2$ (V, p. 215, prop. 5 and 6).
 
-Trái lại, ta đã cho một ví dụ ở V, p. 214 trong đó có $f_1 = g_1$, $f_2 \sim g_2$ mà quan hệ $f_1 + f_2 \asymp g_1 + g_2$ không đúng (nên đương nhiên cũng không có
-$$
+Trái lại, ta đã cho một ví dụ ở V, p. 214 trong đó có $f_1 = g_1$, $f_2 \sim g_2$ mà quan hệ $f_1 + f_2 \asymp g_1 + g_2$ không đúng (nên đương nhiên cũng không có $$
 f_1 + f_2 \sim g_1 + g_2).
-$$
-2 Xem, chẳng hạn, A. E. INGHAM, *The distribution of prime numbers* (Cambridge Tracts, n 30), Cambridge University Press, 1932.
+$$ 2 Xem, chẳng hạn, A. E. INGHAM, *The distribution of prime numbers* (Cambridge Tracts, n 30), Cambridge University Press, 1932.
 
 Các quan hệ so sánh $f \ll g, f \sim g$ được gọi là các quan hệ mạnh. Hai hàm $f, g$ từ $\mathcal{H}(\mathfrak{F}, V)$ được gọi là tương đẳng được so sánh (hoặc tương đẳng mạnh nếu muốn tránh mọi nhầm lẫn có thể xảy ra) nếu chúng thỏa mãn một trong ba quan hệ: $f \ll g, f \gg g$, hoặc "tồn tại một $\lambda \neq 0$ sao cho $f \sim g\lambda$".
 
@@ -278,11 +276,11 @@ Trong các định nghĩa của các quan hệ so sánh $f_1 \preccurlyeq f_2$ v
 
 ### 3. THAY ĐỔI BIẾN SỐ
 
-Let $\varphi$ be a map from the set $E'$ into $E$ such that $\varphi^{-1}(\mathfrak{F})$ is a filter base on $E'$. Rõ ràng là nếu $f_1, f_2$ lần lượt là các hàm trong $\mathcal{H}(\mathfrak{F}, V_1)$ và $\mathcal{H}(\mathfrak{F}, V_2)$, thì $f_1 \circ \varphi, f_2 \circ \varphi$ lần lượt thuộc $\mathcal{H}(\varphi^{-1}(\mathfrak{F}), V_1)$ và $\mathcal{H}(\varphi^{-1}(\mathfrak{F}), V_2)$, và quan hệ $f_1 \preccurlyeq f_2$ (resp. $f_1 \ll f_2$) tương đương với $f_1 \circ \varphi \preccurlyeq f_2 \circ \varphi$ (resp. $f_1 \circ \varphi \ll f_2 \circ \varphi$).
+Cho $\varphi$ là một ánh xạ từ tập hợp $E'$ vào $E$ sao cho $\varphi^{-1}(\mathfrak{F})$ là một cơ sở lọc trên $E'$. Rõ ràng là nếu $f_1, f_2$ lần lượt là các hàm trong $\mathcal{H}(\mathfrak{F}, V_1)$ và $\mathcal{H}(\mathfrak{F}, V_2)$, thì $f_1 \circ \varphi, f_2 \circ \varphi$ lần lượt thuộc $\mathcal{H}(\varphi^{-1}(\mathfrak{F}), V_1)$ và $\mathcal{H}(\varphi^{-1}(\mathfrak{F}), V_2)$, và quan hệ $f_1 \preccurlyeq f_2$ (tương ứng $f_1 \ll f_2$) tương đương với $f_1 \circ \varphi \preccurlyeq f_2 \circ \varphi$ (tương ứng $f_1 \circ \varphi \ll f_2 \circ \varphi$).
 
 ### 4. CÁC QUAN HỆ SO SÁNH GIỮA CÁC HÀM DƯƠNG NGẶT
 
-Let $g$ be a function in $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ which is strictly positive on a set in $\mathfrak{F}$. Các quan hệ so sánh có chứa $g$ có thể được phát biểu theo một cách khác: quan hệ $f \preccurlyeq g$ tương đương với nói rằng $\|f\|/g$ (which is defined on a set in $\mathfrak{F}$) bị chặn trên trên một tập hợp trong $\mathfrak{F}$; quan hệ $f \ll g$ tương đương với nói rằng $\|f\|/g$ tiến tới 0 dọc theo $\mathfrak{F}$. If $f$ is a function in $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ quan hệ $f \asymp g$ có nghĩa là $f/g$ bị chặn theo lôgarit trên một tập hợp trong $\mathfrak{F}$, và quan hệ $f \sim g$ rằng $f/g$ tiến tới 1 dọc theo $\mathfrak{F}$. If $f$ is a function in $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ and positive on a set in $\mathfrak{F}$, nói rằng $f$ và $g$ là so sánh được suy ra rằng $f/g$ tiến tới một giới hạn (hữu hạn hoặc bằng $+\infty$) dọc theo $\mathfrak{F}$.
+Cho $g$ là một hàm trong $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ mà dương ngặt trên một tập hợp trong $\mathfrak{F}$. Các quan hệ so sánh có chứa $g$ có thể được phát biểu theo một cách khác: quan hệ $f \preccurlyeq g$ tương đương với nói rằng $\|f\|/g$ (được định nghĩa trên một tập hợp trong $\mathfrak{F}$) bị chặn trên trên một tập hợp trong $\mathfrak{F}$; quan hệ $f \ll g$ tương đương với nói rằng $\|f\|/g$ tiến tới 0 dọc theo $\mathfrak{F}$. Nếu $f$ là một hàm trong $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ quan hệ $f \asymp g$ có nghĩa là $f/g$ bị chặn theo lôgarit trên một tập hợp trong $\mathfrak{F}$, và quan hệ $f \sim g$ rằng $f/g$ tiến tới 1 dọc theo $\mathfrak{F}$. Nếu $f$ là một hàm trong $\mathcal{H}(\mathfrak{F}, \mathbf{R})$ và dương trên một tập hợp trong $\mathfrak{F}$, nói rằng $f$ và $g$ là so sánh được suy ra rằng $f/g$ tiến tới một giới hạn (hữu hạn hoặc bằng $+\infty$) dọc theo $\mathfrak{F}$.
 
 #### Mệnh đề 9 {#fvr-v-s1-prop-9 .statement}
 

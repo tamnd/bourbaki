@@ -436,7 +436,7 @@ $$
 $$
 Vì theo Định lý 2 và Hệ quả 1 của nó, điều này quy về việc kiểm tra rằng các điều kiện
 $$
-\text{``}\mathfrak{P} \in \operatorname{Ass}_B(F/pF)\text{''} \quad \text{and} \quad \text{``}\mathfrak{P}' \in \operatorname{Ass}_{k(p) \otimes_A B}(k(p) \otimes_A F)\text{''}
+\text{``}\mathfrak{P} \in \operatorname{Ass}_B(F/pF)\text{''} \quad \text{và} \quad \text{``}\mathfrak{P}' \in \operatorname{Ass}_{k(p) \otimes_A B}(k(p) \otimes_A F)\text{''}
 $$
 là tương đương; nhưng, vì $B$ là Noether, điều này suy ra từ § 1, no. 2, Hệ quả của Mệnh đề 5 và các đồng nhất ở trên.
 

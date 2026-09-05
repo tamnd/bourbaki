@@ -182,7 +182,7 @@ Cho $A$ là một tập con compact của một không gian Hausdorff $X$, và c
 
 *Hợp của một họ hữu hạn các tập con quasi-compact của một không gian tôpô là quasi-compact.*
 
-It is sufficient to show that if $A$ and $B$ are two quasi-compact subsets of a topological space $X$, then $A \cup B$ is quasi-compact. Let $\mathcal{R}$ be covering of $A \cup B$; then $\mathcal{R}$ is a covering of $A$ and a covering of $B$; hence $\mathcal{R}$ contains a finite covering $\mathcal{R}_1$ of $A$ and a finite covering $\mathcal{R}_2$ of $B$; $\mathcal{R}_1 \cup \mathcal{R}_2$ is thus a finite covering of $A \cup B$ contained in $\mathcal{R}$.
+Chỉ cần chứng minh rằng nếu $A$ và $B$ là hai tập con quasi-compact của một không gian tôpô $X$, thì $A \cup B$ là quasi-compact. Cho $\mathcal{R}$ là phủ của $A \cup B$; khi đó $\mathcal{R}$ là phủ của $A$ và là phủ của $B$; do đó $\mathcal{R}$ chứa một phủ hữu hạn $\mathcal{R}_1$ của $A$ và một phủ hữu hạn $\mathcal{R}_2$ của $B$; $\mathcal{R}_1 \cup \mathcal{R}_2$ vì thế là một phủ hữu hạn của $A \cup B$ chứa trong $\mathcal{R}$.
 
 #### Định nghĩa 3 {#top-i-s9-def-3 .statement}
 
@@ -282,7 +282,7 @@ a) *Nếu* $x' = (x'_\alpha) \in X'$ *sao cho* $\overline{u'}_{\alpha}^{-1}(x'_\
 
 b) *Nếu các* $X_\alpha$ *là compact, các* $X'_\alpha$ *Hausdorff và các* $u_\alpha$ *toàn ánh và liên tục, thì* $u$ *toàn ánh.*
 
-Let $L_\alpha$ denote $\overline{u}_\alpha^{-1}(x'_\alpha)$; then rõ ràng các $L_\alpha$ lập thành một hệ ngược của các không gian tôpô (với các hạn chế của các $f_{\alpha\beta}$ làm ánh xạ) và $\overline{u}^{-1}(x' = L)$ là giới hạn ngược của các $L_\alpha$; do đó mệnh đề a) suy ra từ Mệnh đề 8. Mệnh đề b) là một hệ quả tức thì, xét đến Mệnh đề 3 của no. 3.
+Gọi $L_\alpha$ là $\overline{u}_\alpha^{-1}(x'_\alpha)$; khi đó rõ ràng các $L_\alpha$ lập thành một hệ ngược của các không gian tôpô (với các hạn chế của các $f_{\alpha\beta}$ làm ánh xạ) và $\overline{u}^{-1}(x' = L)$ là giới hạn ngược của các $L_\alpha$; do đó mệnh đề a) suy ra từ Mệnh đề 8. Mệnh đề b) là một hệ quả tức thì, xét đến Mệnh đề 3 của no. 3.
 
 ### 7. CÁC KHÔNG GIAN ĐỊA PHƯƠNG COMPACT
 
@@ -373,9 +373,9 @@ là một lân cận của $\omega$ trong $X'$ và hiển nhiên không giao v�
 
 Lưu ý rằng nếu $X$ đã *compact* rồi, thì $\omega$ là một điểm *cô lập* của không gian compact $X'$; do đó $X'$ là *tổng* ($\S$ 2, no. 4, Ví dụ 3) của không gian $X$ và không gian $\{ \omega \}$.
 
-When a compact space $X'$ has been constructed as above from a locally compact space $X$ by adjoining an element $\omega$, it is often said that $\omega$ is the "điểm ở vô cùng" of $X'$, and that $X'$ is obtained from $X$ by adjoining a point at infinity. $X'$ is also called the *compact hóa Alexandroff* or the *compact hóa một điểm* of the locally compact space $X$.
+Khi một không gian compact $X'$ đã được xây dựng như trên từ một không gian compact địa phương $X$ bằng cách thêm vào một phần tử $\omega$, người ta thường nói rằng $\omega$ là "điểm ở vô cùng" của $X'$, và rằng $X'$ thu được từ $X$ bằng cách thêm vào một điểm ở vô cùng. $X'$ còn được gọi là *compact hóa Alexandroff* hoặc *compact hóa một điểm* của không gian compact địa phương $X$.
 
-\* Ví dụ. If we apply Alexandroff's theorem to the real plane $\mathbf{R}^2$, we get a compact space homeomorphic to the sphere $S_2$ whose equation is $x_1^2 + x_2^2 + x_3^2 = 1$ in $\mathbf{R}^3$. A homeomorphism of these two spaces may be described as follows: the point $\omega$ (the point at infinity) adjoined to $\mathbf{R}^2$ is mapped to $(0, 0, 1) \in S_2$, and every point $(x_1, x_2)$ of $\mathbf{R}^2$ is mapped to the point where the line joining the points $(0, 1, 1)$ and $(x_1, x_2, 0)$ in $\mathbf{R}^3$ meets $S_2$ again. This homeomorphism is known as *phép chiếu lập thể*.
+\* Ví dụ. Nếu ta áp dụng định lý Alexandroff cho mặt phẳng thực $\mathbf{R}^2$, ta thu được một không gian compact đồng phôi với mặt cầu $S_2$ có phương trình là $x_1^2 + x_2^2 + x_3^2 = 1$ trong $\mathbf{R}^3$. Một đồng phôi của hai không gian này có thể được mô tả như sau: điểm $\omega$ (điểm ở vô cùng) được thêm vào $\mathbf{R}^2$ được ánh xạ vào $(0, 0, 1) \in S_2$, và mỗi điểm $(x_1, x_2)$ của $\mathbf{R}^2$ được ánh xạ vào điểm mà đường thẳng nối các điểm $(0, 1, 1)$ và $(x_1, x_2, 0)$ trong $\mathbf{R}^3$ gặp lại $S_2$. Đồng phôi này được gọi là *phép chiếu lập thể*.
 
 ### 9. CÁC KHÔNG GIAN ĐỊA PHƯƠNG COMPACT $\sigma$-COMPACT
 
@@ -396,7 +396,7 @@ Một không gian Hausdorff có thể là hợp đếm được của các khôn
 
 *Nếu $X$ là một không gian địa phương compact $\sigma$-compact, thì tồn tại một dãy $(U_n)$ gồm các tập con mở tương đối compact của $X$ phủ $X$, sao cho $\overline{U}_n \subset U_{n+1}$ với mỗi $n$.
 
-Cho $X$ là hợp của một dãy $(K_n)$ các tập compact. Cho $U_1$ là một lân cận mở tương đối compact của $K_1$ (no. 7, Proposition 10) và định nghĩa $U_n$ theo quy nạp với $n > 1$ là một lân cận mở tương đối compact của $\overline{U}_{n-1} \in K_n$ (no. 3, Proposition 5; no. 7, Proposition 10). Dãy $(U_n)$ rõ ràng có các tính chất cần thiết.
+Cho $X$ là hợp của một dãy $(K_n)$ các tập compact. Cho $U_1$ là một lân cận mở tương đối compact của $K_1$ (no. 7, Mệnh đề 10) và định nghĩa $U_n$ theo quy nạp với $n > 1$ là một lân cận mở tương đối compact của $\overline{U}_{n-1} \in K_n$ (no. 3, Mệnh đề 5; no. 7, Mệnh đề 10). Dãy $(U_n)$ rõ ràng có các tính chất cần thiết.
 
 #### Hệ quả 1 {#top-i-s9-prop-15-cor-1 .statement}
 

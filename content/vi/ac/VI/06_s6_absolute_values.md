@@ -304,14 +304,13 @@ Gọi Z là tâm của K và x là một phần tử của K không thuộc Z; t
 
 *Cho D là một trường có tâm L sao cho, với mọi $x \in D, L(x)$ là một mở rộng của L có bậc $\leq m$. Khi đó hạng của D trên L là $\leq m^2$.*
 
-Ta hiển nhiên có thể hạn chế sự chú ý của mình vào trường hợp $D \neq L$. Khi đó tồn tại trong D một mở rộng đại số giao hoán tách được *hữu hạn* E của L có bậc $> 1$ (*Algebra*, Chương VIII, § 10, no. 3, Bổ đề 1); vì $E = L(x)$ với một x thích hợp nào đó trong E (*Algebra*, Chương V, § 7, no. 7, Mệnh đề 12 và Chương VII, § 5, no. 7), theo giả thiết $[E : L] \leq m$. Giả sử mở rộng tách được E được chọn sao cho $[E : L]$ là hữu hạn và lớn nhất có thể và xét *vành giao hoán* $E' \supset E$ của E trong D, đây là một trường có tâm E sao cho
-$$
+Ta hiển nhiên có thể hạn chế sự chú ý của mình vào trường hợp $D \neq L$. Khi đó tồn tại trong D một mở rộng đại số giao hoán tách được *hữu hạn* E của L có bậc $> 1$ (*Đại số*, Chương VIII, § 10, no. 3, Bổ đề 1); vì $E = L(x)$ với một x thích hợp nào đó trong E (*Đại số*, Chương V, § 7, no. 7, Mệnh đề 12 và Chương VII, § 5, no. 7), theo giả thiết $[E : L] \leq m$. Giả sử mở rộng tách được E được chọn sao cho $[E : L]$ là hữu hạn và lớn nhất có thể và xét *vành giao hoán* $E' \supset E$ của E trong D, đây là một trường có tâm E sao cho $$
 [D : E'] = [E : L] \leq m
 $$
 
-(*Algebra*, Chương VIII, § 10, no. 2, Định lý 2). Nếu E $\#$ E', thì trong $\mathbf{E}'$ sẽ tồn tại một mở rộng đại số tách được hữu hạn F của $\mathbf{E}$ có bậc $> 1$ (*Algebra*, Chương VIII, § 10, no. 3, Bổ đề 1); do đó F sẽ là một mở rộng đại số tách được hữu hạn của L (*Algebra*, Chương V, § 7, no. 4, Mệnh đề 7) có bậc $> [\mathrm{E}: \mathrm{L}]$, trái với định nghĩa của E; do đó $\mathbf{E}' = \mathbf{E}$, từ đó $[\mathrm{D}: \mathrm{L}] = [\mathrm{D}: \mathrm{E}][\mathrm{E}: \mathrm{L}] \leq m^2$.
+(*Đại số*, Chương VIII, § 10, no. 2, Định lý 2). Nếu E $\#$ E', thì trong $\mathbf{E}'$ sẽ tồn tại một mở rộng đại số tách được hữu hạn F của $\mathbf{E}$ có bậc $> 1$ (*Đại số*, Chương VIII, § 10, no. 3, Bổ đề 1); do đó F sẽ là một mở rộng đại số tách được hữu hạn của L (*Đại số*, Chương V, § 7, no. 4, Mệnh đề 7) có bậc $> [\mathrm{E}: \mathrm{L}]$, trái với định nghĩa của E; do đó $\mathbf{E}' = \mathbf{E}$, từ đó $[\mathrm{D}: \mathrm{L}] = [\mathrm{D}: \mathrm{E}][\mathrm{E}: \mathrm{L}] \leq m^2$.
 
-Áp dụng bổ đề này cho K với $m = 2$, ta thấy rằng K là một trường mở rộng không giao hoán của R có hạng hữu hạn và do đó đẳng cấu với trường quaternion $\mathbf{H}$ (*Algebra*, Chương VIII, § 11, no. 2, Định lý 2).
+Áp dụng bổ đề này cho K với $m = 2$, ta thấy rằng K là một trường mở rộng không giao hoán của R có hạng hữu hạn và do đó đẳng cấu với trường quaternion $\mathbf{H}$ (*Đại số*, Chương VIII, § 11, no. 2, Định lý 2).
 
 Nhận xét (1) Chúng ta sẽ đưa ra trong chương dành cho các đại số chuẩn một chứng minh ngắn hơn của Định lý Gelfand-Mazur, đúng với mọi đại số tôpô lồi địa phương Hausdorff $K$ trên R và có nguyên lý như sau: nó được quy về (như trong các trường hợp (B) và (C)) trường hợp $K$ là một đại số giao hoán trên $\mathbf{C}$; nếu $x \in \mathbf{K} - \mathbf{C}.1$, ta xét như trên ánh xạ $z \mapsto (x - z.1)^{-1}$ từ $\mathbf{C}$ vào K, liên tục và khả vi trên $\mathbf{C}$. Với mọi phần tử $x'$ của không gian đối ngẫu $\mathbf{K}'$ của không gian lồi địa phương K, $z \mapsto \langle (x - z.1)^{-1}, x' \rangle$ khi đó là một hàm nguyên bị chặn trên $\mathbf{C}$ và do đó là hằng theo Định lý Liouville, và ta kết luận như trong phần (A) của chứng minh Định lý 1 rằng điều này tất yếu dẫn đến $\langle (x - z.1)^{-1}, x' \rangle = 0$ với mọi $z \in \mathbf{C}$ và mọi $x' \in \mathbf{K}'$; Định lý Hahn-Banach cho thấy kết luận này là vô lý, vì $(x - z.1)^{-1} \neq 0$. Chú ý rằng lập luận trong phần (A) của chứng minh Định lý 1 chỉ khác với lập luận trên về hình thức, vì lập luận này chỉ là một trường hợp đặc biệt của lập luận dùng để chứng minh nguyên lý cực đại đối với các hàm giải tích, phép lấy tổng trên các căn của đơn vị và chuyển qua giới hạn tương đương với việc tính tích phân $\int_{\gamma} \frac{\mathbf{F}(z + t)}{t} dt$ dọc theo một đường tròn tâm 0 và việc sử dụng công thức Cauchy được tránh ở đây, nhờ dạng đặc biệt của hàm F.
 
@@ -319,7 +318,7 @@ Nhận xét (1) Chúng ta sẽ đưa ra trong chương dành cho các đại s�
 
 Theo no. 2, Hệ quả của Mệnh đề 3, K có đặc số 0 và do đó là một đại số trên $\mathbf{Q}$; với mọi $x \in \mathbf{Q}$ ta đặt $h(x) = f(x.1)$; rõ ràng $h \in \mathcal{V}(\mathbf{Q})$ và do đó Mệnh đề 4 của no. 3 có thể được áp dụng; cả trường hợp (i) lẫn (ii) của mệnh đề này đều không thể xảy ra, vì điều đó sẽ kéo theo $f(n.1) \leq 1$ với mọi số nguyên $n > 0$ và f sẽ là một giá trị tuyệt đối ultrametric theo no. 2, Mệnh đề 3. Khi đó tồn tại một số thực s > 0 sao cho h(x) = |x|^s với mọi x ∈ Q, tức là f(x.1) = |x|^s; ta đặt g = f^{1/s}. Khi đó g ∈ V(K) và g(n.1) = n với mọi số nguyên n; do đó Mệnh đề 2 của no. 1 cho thấy g là một giá trị tuyệt đối trên K.
 
-Với x ∈ Q và y ∈ K, g(xy) = |x|g(y) và do đó g là một chuẩn trên K tương thích với cấu trúc đại số trên Q của nó (với giá trị tuyệt đối thông thường trên Q). Do đó, hoàn thành K của K là một đại số chuẩn trên Q = R (General Topology, Chapter IX, § 3, no. 7); gọi ĝ là chuẩn trên K là mở rộng liên tục của g. Vì g là một giá trị tuyệt đối trên K, K là một trường và ĝ là một giá trị tuyệt đối trên K (General Topology, Chapter IX, § 3, no. 3, Mệnh đề 6). Theo Định lý 1 tồn tại một đẳng cấu đại số trên Rf của K̂ lên một trong các trường R, C hoặc H và g'(x) = |j(x)| do đó là một giá trị tuyệt đối trên K̂; vì K̂ hữu hạn chiều trên R và g' và ĝ trùng nhau trên trường con R . 1 của K̂, nên g' = ĝ theo bổ đề sau:
+Với x ∈ Q và y ∈ K, g(xy) = |x|g(y) và do đó g là một chuẩn trên K tương thích với cấu trúc đại số trên Q của nó (với giá trị tuyệt đối thông thường trên Q). Do đó, hoàn thành K của K là một đại số chuẩn trên Q = R (Tôpô tổng quát, Chương IX, § 3, no. 7); gọi ĝ là chuẩn trên K là mở rộng liên tục của g. Vì g là một giá trị tuyệt đối trên K, K là một trường và ĝ là một giá trị tuyệt đối trên K (Tôpô tổng quát, Chương IX, § 3, no. 3, Mệnh đề 6). Theo Định lý 1 tồn tại một đẳng cấu đại số trên Rf của K̂ lên một trong các trường R, C hoặc H và g'(x) = |j(x)| do đó là một giá trị tuyệt đối trên K̂; vì K̂ hữu hạn chiều trên R và g' và ĝ trùng nhau trên trường con R . 1 của K̂, nên g' = ĝ theo bổ đề sau:
 
 #### Bổ đề 2 {#ac-vi-s6-lem-2 .statement}
 
@@ -329,13 +328,13 @@ Vì tôpô xác định bởi g là Hausdorff và tương thích với cấu tr�
 
 Quay lại chứng minh Định lý 2, ta thấy rằng, nếu j ký hiệu hạn chế của f trên K, thì j là một đẳng cấu của K lên một trường con trù mật khắp nơi của R, C hoặc H và g(x) = |j(x)| với x ∈ K, do đó f(x) = |j(x)|^s.
 
-Cuối cùng chú ý rằng, nếu f là một giá trị tuyệt đối trên K, thì h là một giá trị tuyệt đối trên Q và s ≤ 1 theo no. 3, Mệnh đề 4; ngược lại, nếu s ≤ 1, f = g^s là một giá trị tuyệt đối trên K vì g là một giá trị tuyệt đối (General Topology, Chapter IX, § 3, no. 2); điều này chứng minh khẳng định cuối cùng của mệnh đề.
+Cuối cùng chú ý rằng, nếu f là một giá trị tuyệt đối trên K, thì h là một giá trị tuyệt đối trên Q và s ≤ 1 theo no. 3, Mệnh đề 4; ngược lại, nếu s ≤ 1, f = g^s là một giá trị tuyệt đối trên K vì g là một giá trị tuyệt đối (Tôpô tổng quát, Chương IX, § 3, no. 2); điều này chứng minh khẳng định cuối cùng của mệnh đề.
 
 Các nhận xét
 
 (2) Nếu K là một trường và một đại số chuẩn trên R, thì chuẩn không nhất thiết là một giá trị tuyệt đối trên K; chẳng hạn, ξ + iη → |ξ| + |η| là một chuẩn trên C tương thích với cấu trúc đại số trên R của nó.
 
-(3) Để có một chứng minh trường hợp (C) của Định lý 1 không sử dụng các kết quả tổng quát của Algebra, Chapter VIII, xem Bài tập 2.
+(3) Để có một chứng minh trường hợp (C) của Định lý 1 không sử dụng các kết quả tổng quát của Đại số, Chương VIII, xem Bài tập 2.
 
 ### Bài tập {#ac-vi-s6-exercises}
 

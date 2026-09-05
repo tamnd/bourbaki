@@ -263,7 +263,7 @@ là song ánh.
 
 Kí hiệu $R$ là hạt nhân của $\varphi$. Vì $\varphi$ là toàn ánh, ta có
 $$
-P_M = P_{H \otimes M_0} - P_R = \mathrm{long}_{H_0}(M_0) (1 - T)^{-r} - P_R \quad \text{and} \quad c_M = \mathrm{long}_{H_0}(M_0) - c_R.
+P_M = P_{H \otimes M_0} - P_R = \mathrm{long}_{H_0}(M_0) (1 - T)^{-r} - P_R \quad \text{và} \quad c_M = \mathrm{long}_{H_0}(M_0) - c_R.
 $$
 Các điều kiện (i), (ii) và (iii) lần lượt tương đương với $c_R = 0$, $P_R = 0$ và $R = 0$.
 Do đó ta có (iii) $\Rightarrow$ (ii) $\Rightarrow$ (i), và chỉ cần chứng minh rằng $c_R = 0$ suy ra $R = 0$. Giả sử $R \neq 0$ và cho $0 = N^h \subset N^{h-1} \subset ... \subset N^0 = M_0$ là một dãy Jordan-Hölder của $H_0$-môđun $M_0$. Gọi $R^m$ là giao của $R$ với ảnh của $H \otimes_{H_0} N^m$ trong $H \otimes_{H_0} M_0$; tồn tại một số nguyên $m$ giữa 1 và $h$ sao cho $R^m \neq R^{m-1}$. Đặt $L = R^{m-1}/R^m$; ta có $0 \leq c_L \leq c_R$ và chỉ cần chứng minh rằng $c_L \neq 0$. Bây giờ, nếu $k$ là trường thương của $H_0$ theo iđêan linh hóa tử cực đại của $N^{m-1}/N^m$, thì $L$ được đồng nhất với một môđun con phân bậc khác không của $k[(X_i)_{i \in I}]$. Do đó $L$ chứa một môđun con đẳng cấu với một môđun tịnh tiến của $k[(X_i)_{i \in I}]$; vì $c_{k[(X_i)_{i \in I}]} = 1$, suy ra $c_L \geq 1$ (Nhận xét 2 và 3), điều phải chứng minh.
@@ -431,22 +431,11 @@ Vậy hoặc d_x(M) < r và c_G = 0, hoặc d_x(M) = r và c_G = e_x(M). Hơn n�
 
 #### Mệnh đề 5 {#ac-viii-s4-prop-5 .statement}
 
-Cho 0 \to M' \to M \to M'' \to 0 là một dãy khớp của các môđun hữu hạn sinh trên một vành Noether A, và q là một iđêan của A.
-a) Để M/qM có độ dài hữu hạn, điều kiện cần và đủ là M'/qM' và M''/qM'' cũng có tính chất đó.
-b) Giả sử M/qM có độ dài hữu hạn. Khi đó ta ở trong một trong ba trường hợp sau:
-1) d_q(M) = d_q(M') > d_q(M'') \text{ and } e_q(M) = e_q(M'),
-2) d_q(M) = d_q(M'') > d_q(M') \text{ and } e_q(M) = e_q(M''),
-3) d_q(M) = d_q(M') = d_q(M'') \text{ and } e_q(M) = e_q(M') + e_q(M'').
-a) Ta có Supp(M) = Supp(M') \cup Supp(M'') và mệnh đề suy ra từ Nhận xét 2.
-b) Trang bị cho M một filtration q-tốt F (chẳng hạn filtration q-adic), cho M'' filtration thương F'', và cho M' filtration cảm sinh F'. Các filtrations F' và F'' là q-tốt (III, § 3, No. 1, Mệnh đề 1). Khi đó với mỗi n ta có một dãy khớp các A-môđun
-$$
+Cho 0 \to M' \to M \to M'' \to 0 là một dãy khớp của các môđun hữu hạn sinh trên một vành Noether A, và q là một iđêan của A. a) Để M/qM có độ dài hữu hạn, điều kiện cần và đủ là M'/qM' và M''/qM'' cũng có tính chất đó. b) Giả sử M/qM có độ dài hữu hạn. Khi đó ta ở trong một trong ba trường hợp sau: 1) d_q(M) = d_q(M') > d_q(M'') \text{ và } e_q(M) = e_q(M'), 2) d_q(M) = d_q(M'') > d_q(M') \text{ và } e_q(M) = e_q(M''), 3) d_q(M) = d_q(M') = d_q(M'') \text{ và } e_q(M) = e_q(M') + e_q(M''). a) Ta có Supp(M) = Supp(M') \cup Supp(M'') và mệnh đề suy ra từ Nhận xét 2. b) Trang bị cho M một filtration q-tốt F (chẳng hạn filtration q-adic), cho M'' filtration thương F'', và cho M' filtration cảm sinh F'. Các filtrations F' và F'' là q-tốt (III, § 3, No. 1, Mệnh đề 1). Khi đó với mỗi n ta có một dãy khớp các A-môđun $$
 0 \to F'_n/F'_{n+1} \to F_n/F_{n+1} \to F''_n/F''_{n+1} \to 0
-$$
-(III, § 2, No. 4, Mệnh đề 2), do đó ta có H_{M,F} = H_{M',F'} + H_{M'',F''}, hay cũng thế
-$$
+$$ (III, § 2, No. 4, Mệnh đề 2), do đó ta có H_{M,F} = H_{M',F'} + H_{M'',F''}, hay cũng thế $$
 (1 - T)^{-d_q(M)}R = (1 - T)^{-d_q(M')}R' + (1 - T)^{-d_q(M'')}R''
-$$
-với R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1) = e_q(M''). Mệnh đề b) suy ra từ đó ngay lập tức.
+$$ với R, R', R'' \in \mathbf{Z}[T, T^{-1}], R(1) = e_q(M), R'(1) = e_q(M'), R''(1) = e_q(M''). Mệnh đề b) suy ra từ đó ngay lập tức.
 
 ### 4. Bậc của hàm Hilbert-Samuel
 
@@ -480,7 +469,7 @@ $$
 
 Cho $A$ là một vành Noether, $M$ là một $A$-môđun sinh hữu hạn và $q$ là một iđêan của $A$ sao cho $M/qM$ có độ dài hữu hạn. Khi đó $d_q(M)$ là cận trên bé nhất của các số chiều $\dim_{A_m}(M_m)$, khi $m$ chạy qua tập hợp hữu hạn $S = \operatorname{Supp}(M) \cap V(q)$, và $e_q(M)$ là tổng của các $e_{q_m}(M_m)$ lấy trên những phần tử $m$ của $S$ mà với chúng ta có $\dim_{A_m}(M_m) = d_q(M)$.
 
-Với mỗi số nguyên $n$, độ dài của $M/q^nM$ là tổng của các $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, No. 5, cor. 1 to prop. 7 and corollary to prop. 8). Do đó, ta có $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, do đó có hệ quả.
+Với mỗi số nguyên $n$, độ dài của $M/q^nM$ là tổng của các $\operatorname{long}_{A_m}(M_m/q^n_m M_m)$ (IV, $§ 2$, No. 5, cor. 1 to prop. 7 and hệ quả to prop. 8). Do đó, ta có $H_{M,q} = \sum_{m \in S} H_{M_m,q_m}$, do đó có hệ quả.
 
 #### Nhận xét 1 {#ac-viii-s4-n4-rem-1 .statement}
 

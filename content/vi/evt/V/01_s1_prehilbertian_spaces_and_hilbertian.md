@@ -468,7 +468,7 @@ Hình 2.
 
 Cho $y \in \mathbf{H}$; vì $\mathbf{H}$ lồi, điểm $z(\lambda) = p_{\mathbf{H}}(x) + \lambda(y - p_{\mathbf{H}}(x))$ của E thuộc $\mathbf{H}$ với mọi số thực $\lambda$ sao cho $0 < \lambda < 1$. Do đó ta có
 $$
-\| x - z(\lambda) \|^{2} \geq \| x - p_{\mathbf{H}}(x) \|^{2} \quad \text{for} \quad 0 < \lambda < 1 ,
+\| x - z(\lambda) \|^{2} \geq \| x - p_{\mathbf{H}}(x) \|^{2} \quad \text{với} \quad 0 < \lambda < 1 ,
 $$
 từ đó suy ra
 $$

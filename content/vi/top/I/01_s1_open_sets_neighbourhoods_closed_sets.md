@@ -116,7 +116,7 @@ Thật vậy, ba tính chất này là những hệ quả ngay lập tức của
 
 Theo Mệnh đề 1, ta có thể lấy $W$ là bất kỳ tập mở nào chứa $x$ và được chứa trong $V$.
 
-This property may be expressed in the form that *một lân cận của $x$ cũng là một lân cận của mọi điểm đủ gần $x$*.
+Tính chất này có thể được phát biểu dưới dạng rằng *một lân cận của $x$ cũng là một lân cận của mọi điểm đủ gần $x$*.
 
 Bốn tính chất này của các tập $\mathcal{B}(x)$ là *đặc trưng*. Cụ thể, ta có:
 

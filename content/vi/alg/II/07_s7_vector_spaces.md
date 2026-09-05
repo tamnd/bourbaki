@@ -807,7 +807,7 @@ $$
 
 là khớp.
 
-Đây là một trường hợp riêng của no. 7, Proposition 14, có tính đến § 1, no. 4, Remark 4.
+Đây là một trường hợp riêng của no. 7, mệnh đề 14, có tính đến § 1, no. 4, nhận xét 4.
 
 #### Hệ quả {#alg-ii-s7-n9-cor-1 .statement}
 
@@ -821,7 +821,7 @@ $$
 (A \otimes_K E') \cap \phi(E) = \phi(E').
 $$
 
-Mệnh đề thứ nhất là một trường hợp riêng của § 5, no. 1, Proposition 4; mệnh đề thứ hai là một trường hợp riêng của no. 7, Proposition 14; sau cùng, để chứng minh (35), chỉ cần lấy trong $A$ (được xét như một $K$-môđun phải) một cơ sở $(a_\lambda)_{\lambda \in L}$ sao cho $a_{\lambda_0} = 1$ đối với một chỉ số nào đó $\lambda_0$ (no. 1, Theorem 2); các phần tử của $A \otimes_K E$ có thể được viết duy nhất dưới dạng $\sum \lambda a_\lambda \otimes x_\lambda$ với $x_\lambda \in E$ và, để một phần tử như vậy thuộc $A \otimes_K E'$, điều kiện cần và đủ là $x_\lambda \in E'$ với mọi $\lambda$. Mặt khác, các phần tử của $\phi(E)$ là những phần tử mà $x_\lambda = 0$ với $\lambda \neq \lambda_0$; để một phần tử $\sum \lambda a_\lambda \otimes x_\lambda$ thuộc $(A \otimes_K E') \cap \phi(E)$, điều kiện cần và đủ là $x_\lambda = 0$ với $\lambda \neq \lambda_0$ và $x_{\lambda_0} \in E'$, do đó suy ra kết luận.
+Mệnh đề thứ nhất là một trường hợp riêng của § 5, no. 1, mệnh đề 4; mệnh đề thứ hai là một trường hợp riêng của no. 7, mệnh đề 14; sau cùng, để chứng minh (35), chỉ cần lấy trong $A$ (được xét như một $K$-môđun phải) một cơ sở $(a_\lambda)_{\lambda \in L}$ sao cho $a_{\lambda_0} = 1$ đối với một chỉ số nào đó $\lambda_0$ (no. 1, định lý 2); các phần tử của $A \otimes_K E$ có thể được viết duy nhất dưới dạng $\sum \lambda a_\lambda \otimes x_\lambda$ với $x_\lambda \in E$ và, để một phần tử như vậy thuộc $A \otimes_K E'$, điều kiện cần và đủ là $x_\lambda \in E'$ với mọi $\lambda$. Mặt khác, các phần tử của $\phi(E)$ là những phần tử mà $x_\lambda = 0$ với $\lambda \neq \lambda_0$; để một phần tử $\sum \lambda a_\lambda \otimes x_\lambda$ thuộc $(A \otimes_K E') \cap \phi(E)$, điều kiện cần và đủ là $x_\lambda = 0$ với $\lambda \neq \lambda_0$ và $x_{\lambda_0} \in E'$, do đó suy ra kết luận.
 
 #### Hệ quả {#alg-ii-s7-n9-cor-2 .statement}
 
@@ -950,9 +950,9 @@ $$
 
 vì $\phi$ là $A$-tuyến tính.
 
-(ii) Nếu $x \neq 0$ không tự do trong $E$, thì tồn tại $\alpha \neq 0$ trong $A$ sao cho $\alpha x = 0$, do đó $\alpha \phi(x) = \phi(\alpha x) = 0$ trong $E_{(K)}$, suy ra $\phi(x) = 0$. Ngược lại, giả sử rằng, với một $x \in E$ nào đó, $1 \otimes x = 0$ trong $E_{(K)}$; ta chứng minh rằng $x$ là một phần tử xoắn của $E$. Ta xét tập $\mathfrak{M}$ các môđun con *đơn sinh* của $K$; đó là một tập có hướng phải đối với quan hệ bao hàm, vì mọi hai phần tử $\alpha, \beta$ của $K$ đều có thể viết dưới dạng $\alpha = \zeta^{-1} \xi, \beta = \zeta^{-1} \eta$, trong đó $\xi, \eta, \zeta$ thuộc $A$ và $\zeta \neq 0$, do đó $A.\alpha \subset A.\zeta^{-1}$ và $A.\beta \subset A.\zeta^{-1}$. Hơn nữa $K$ là hợp của các môđun $M \in \mathfrak{M}$ và vì thế có thể được xem như *giới hạn trực tiếp* của hệ trực tiếp xác định bởi các môđun $M \in \mathfrak{M}$ và các đơn ánh chính tắc (§ 6, no. 2, *Nhận xét*). Vì vậy cũng vậy, sai khác bởi một đẳng cấu chính tắc, $E_{(K)} = \lim \rightarrow (M \otimes_A E)$ (§ 6, no. 3, Proposition 7) và quan hệ $1 \otimes x = 0$ trong $E_{(K)}$ kéo theo rằng tồn tại một
+(ii) Nếu $x \neq 0$ không tự do trong $E$, thì tồn tại $\alpha \neq 0$ trong $A$ sao cho $\alpha x = 0$, do đó $\alpha \phi(x) = \phi(\alpha x) = 0$ trong $E_{(K)}$, suy ra $\phi(x) = 0$. Ngược lại, giả sử rằng, với một $x \in E$ nào đó, $1 \otimes x = 0$ trong $E_{(K)}$; ta chứng minh rằng $x$ là một phần tử xoắn của $E$. Ta xét tập hợp $\mathfrak{M}$ các môđun con *đơn sinh* của $K$; đó là một tập hợp có hướng phải đối với quan hệ bao hàm, vì mọi hai phần tử $\alpha, \beta$ của $K$ đều có thể viết dưới dạng $\alpha = \zeta^{-1} \xi, \beta = \zeta^{-1} \eta$, trong đó $\xi, \eta, \zeta$ thuộc $A$ và $\zeta \neq 0$, do đó $A.\alpha \subset A.\zeta^{-1}$ và $A.\beta \subset A.\zeta^{-1}$. Hơn nữa $K$ là hợp của các môđun $M \in \mathfrak{M}$ và vì thế có thể được xem như *giới hạn trực tiếp* của hệ trực tiếp xác định bởi các môđun $M \in \mathfrak{M}$ và các đơn ánh chính tắc (§ 6, no. 2, *Nhận xét*). Vì vậy cũng vậy, sai khác bởi một đẳng cấu chính tắc, $E_{(K)} = \lim \rightarrow (M \otimes_A E)$ (§ 6, no. 3, mệnh đề 7) và quan hệ $1 \otimes x = 0$ trong $E_{(K)}$ kéo theo rằng tồn tại một
 
-M ∈ 𝒫 sao cho l ∈ M và l ⊗ x = 0 trong tích tenxơ M ⊗_A E (Set Theory, III, § 7, no. 5, Lemma 1). Hơn nữa có thể giả sử (nếu cần thì thay M bằng một môđun con đơn sinh M' ⊃ M của K) rằng M = A.γ^{-1}, trong đó γ ∈ A và γ ≠ 0. Khi đó ánh xạ ξ ↦ γξ là một đẳng cấu từ M lên A-môđun A; mặt khác, đẳng cấu chính tắc A ⊗_A E → E (§ 3, no. 4, Proposition 4) ánh xạ ξ ⊗ x lên phần tử ξx của E; do đó tồn tại một đẳng cấu M ⊗_A E → E ánh xạ tích tenxơ ξ ⊗ x lên phần tử (γξ)x của E. Vì thế giả thiết l ⊗ x = 0 trong M ⊗_A E suy ra γx = 0.
+M ∈ 𝒫 sao cho l ∈ M và l ⊗ x = 0 trong tích tenxơ M ⊗_A E (Lý thuyết tập hợp, III, § 7, no. 5, Bổ đề 1). Hơn nữa có thể giả sử (nếu cần thì thay M bằng một môđun con đơn sinh M' ⊃ M của K) rằng M = A.γ^{-1}, trong đó γ ∈ A và γ ≠ 0. Khi đó ánh xạ ξ ↦ γξ là một đẳng cấu từ M lên A-môđun A; mặt khác, đẳng cấu chính tắc A ⊗_A E → E (§ 3, no. 4, Mệnh đề 4) ánh xạ ξ ⊗ x lên phần tử ξx của E; do đó tồn tại một đẳng cấu M ⊗_A E → E ánh xạ tích tenxơ ξ ⊗ x lên phần tử (γξ)x của E. Vì thế giả thiết l ⊗ x = 0 trong M ⊗_A E suy ra γx = 0.
 
 #### Nhận xét {#alg-ii-s7-n10-rem-2 .statement}
 

@@ -160,9 +160,7 @@ Song song với sự tiến hóa này, khái niệm về một phần tử siêu
 
 Về vai trò của các số siêu việt trong các phép tính đại số, Kronecker nhận xét vào năm 1882 rằng, nếu $x$ là siêu việt trên một trường $K$, thì trường $K(x)$ đẳng cấu với trường các phân thức hữu tỉ $K(X)$ ([186 a], v. II, p. 253). Ngoài ra, ông lấy phép nối các bất định vào một trường làm viên đá tảng trong trình bày của mình về lý thuyết số đại số ([186 a], v. II, pp. 245-387). Mặt khác, Dedekind và Weber chỉ ra trong cùng năm [80] cách các phương pháp số học có thể giúp xây dựng lý thuyết các đường cong đại số. Như vậy người ta thấy xuất hiện theo nhiều hướng những phép tương tự giữa Số học
 
-$^{29}$ Từ "field" là của chính Dedekind; còn từ "ring" được Hilbert đưa vào (Dedekind gọi các vành là "orders").
-$^{30}$ "...Tập hợp các hoán vị này tạo thành theo một nghĩa nào đó một bội liên tục, điều mà ở đây chúng tôi sẽ không đi sâu hơn" ([79], v. II, p. 288).
-$^{31}$ Có thể tìm thấy các chứng minh đơn giản của các định lý này chẳng hạn trong [163 a], v. I, p. 1.
+$^{29}$ Từ "trường" là của chính Dedekind; còn từ "vành" được Hilbert đưa vào (Dedekind gọi các vành là "orders"). $^{30}$ "...Tập hợp các hoán vị này tạo thành theo một nghĩa nào đó một bội liên tục, điều mà ở đây chúng tôi sẽ không đi sâu hơn" ([79], v. II, p. 288). $^{31}$ Có thể tìm thấy các chứng minh đơn giản của các định lý này chẳng hạn trong [163 a], v. I, p. 1.
 
 và Hình học Đại số, những phép tương tự này về sau sẽ tỏ ra cực kỳ phong phú cho cả hai bên.
 
