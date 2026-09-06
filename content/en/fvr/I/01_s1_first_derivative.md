@@ -39,9 +39,9 @@ subsections:
       title: DERIVATIVES OF REAL-VALUED FUNCTIONS
       page: 10
       pdf_page: 25
-statements: 31
+statements: 36
 exercises: 9
-content_sha256: 5ac79d247600e1af8da17be22be9f55ff6aac813b9c80ef686bdb4b3e310cfcd
+content_sha256: 6a91d7f87a83dc1e977d5e372ee4fbb9c5f767b14c46505a1f79fd7cc01befa0
 ---
 
 ## § 1. FIRST DERIVATIVE
@@ -69,7 +69,10 @@ We summarise these properties by saying that the concept of derivative is a loca
 #### Remark 1 {#fvr-i-s1-n1-rem-1 .statement}
 
 In Kinematics, if the point $\mathbf{f}(t)$ is the position of a moving point in the space $\mathbf{R}^3$ at time $t$, then $\frac{\mathbf{f}(t) - \mathbf{f}(t_0)}{t - t_0}$ is termed the average velocity between the instants $t_0$ and $t$, and its limit $\mathbf{f}'(t_0)$ is the instantaneous velocity (or simply velocity) at the time $t_0$ (when this limit exists).*
-2) If a function $\mathbf{f}$, defined on $I$, is differentiable at a point $x_0 \in I$, it is necessarily continuous relative to $I$ at this point.
+
+#### Remark 2 {#fvr-i-s1-n1-rem-2 .statement}
+
+If a function $\mathbf{f}$, defined on $I$, is differentiable at a point $x_0 \in I$, it is necessarily continuous relative to $I$ at this point.
 
 #### Definition 2 {#fvr-i-s1-def-2 .statement}
 
@@ -84,16 +87,28 @@ $$
 #### Example 1 {#fvr-i-s1-n1-exa-1 .statement}
 
 A constant function has zero derivative at every point.
-2) An affine linear function $x \mapsto ax + b$ has derivative equal to $a$ at every point.
-3) The real function $1/x$ (defined for $x \neq 0$) is differentiable at each point $x_0 \neq 0$, for we have $\left( \frac{1}{x} - \frac{1}{x_0} \right) / (x - x_0) = -\frac{1}{x x_0}$, and, since $1/x$ is continuous at $x_0$, the limit of the preceding expression is $-1/x_0^2$.
-4) The scalar function $|x|$, defined on $\mathbf{R}$, has right derivative $+1$ and left derivative $-1$ at $x = 0$; it is not differentiable at this point.
-*5) The real function equal to 0 for $x = 0$, and to $x \sin 1/x$ for $x \neq 0$, is defined and continuous on $\mathbf{R}$, but has neither right nor left derivative at the point $x \neq 0$.* One can give examples of functions which are continuous on an interval and fail to have a derivative at every point of the interval (I, p. 35, exerc. 2 and 3).
+
+#### Example 2 {#fvr-i-s1-n1-exa-2 .statement}
+
+An affine linear function $x \mapsto ax + b$ has derivative equal to $a$ at every point.
+
+#### Example 3 {#fvr-i-s1-n1-exa-3 .statement}
+
+The real function $1/x$ (defined for $x \neq 0$) is differentiable at each point $x_0 \neq 0$, for we have $\left( \frac{1}{x} - \frac{1}{x_0} \right) / (x - x_0) = -\frac{1}{x x_0}$, and, since $1/x$ is continuous at $x_0$, the limit of the preceding expression is $-1/x_0^2$.
+
+#### Example 4 {#fvr-i-s1-n1-exa-4 .statement}
+
+The scalar function $|x|$, defined on $\mathbf{R}$, has right derivative $+1$ and left derivative $-1$ at $x = 0$; it is not differentiable at this point.
+
+#### Example 5 {#fvr-i-s1-n1-exa-5 .statement}
+
+The real function equal to 0 for $x = 0$, and to $x \sin 1/x$ for $x \neq 0$, is defined and continuous on $\mathbf{R}$, but has neither right nor left derivative at the point $x \neq 0$.* One can give examples of functions which are continuous on an interval and fail to have a derivative at every point of the interval (I, p. 35, exerc. 2 and 3).
 
 #### Definition 3 {#fvr-i-s1-def-3 .statement}
 
 *We say that a vector function $\mathbf{f}$ defined on an interval $I \subset \mathbf{R}$ is differentiable (resp. right differentiable, left differentiable) on $I$ if it is differentiable (resp. right differentiable, left differentiable) at each point of $I$; the function $x \mapsto \mathbf{f}'(x)$ (resp. $x \mapsto \mathbf{f}'_d(x)$, $x \mapsto \mathbf{f}'_g(x)$) defined on $I$, is called the derived function, or (by abuse of language) the derivative (resp. right derivative, left derivative) of $\mathbf{f}$, and is denoted by $\mathbf{f}'$ or $\mathrm{Df}$ or $d\mathbf{f}/dx$ (resp. $\mathbf{f}'_d, \mathbf{f}'_g$).*
 
-#### Remark {#fvr-i-s1-n1-rem-2 .statement}
+#### Remark {#fvr-i-s1-n1-rem-3 .statement}
 
 A function may be differentiable on an interval without its derivative being continuous at every point of the interval (*cf.* I, p. 36, exerc. 5); *this is shown by the example of the function equal to 0 for $x = 0$ and to $x^2 \sin 1/x$ for $x \neq 0$; it has a derivative everywhere, but this derivative is discontinuous at the point $x = 0$.
 

@@ -419,7 +419,7 @@ $$
 \mathfrak{o}(\Psi )\longrightarrow \mathfrak{g}\mathfrak{l}(V)\longrightarrow V\otimes V^*\longrightarrow V\otimes V\longrightarrow C^+(Q)
 $$
 
-(trong đó ánh xạ thứ 1 là đơn ánh chính tắc, ánh xạ thứ 3 được xác định bởi đẳng cấu chính tắc từ $V^*$ đến V tương ứng với $\Psi$, ánh xạ thứ 4 được xác định bởi phép nhân trong C(Q), xem Algebra, Chap. IX, § 9, no. 1). Đặt $f=\frac{1}{2}f_0$.
+(trong đó ánh xạ thứ 1 là đơn ánh chính tắc, ánh xạ thứ 3 được xác định bởi đẳng cấu chính tắc từ $V^*$ đến V tương ứng với $\Psi$, ánh xạ thứ 4 được xác định bởi phép nhân trong C(Q), xem Đại số, Chương IX, § 9, no. 1). Đặt $f=\frac{1}{2}f_0$.
 
 (i) Nếu $(e_r),(e'_r)$ là các cơ sở của V sao cho $\Psi (e_r, e'_s) =\delta_{rs}$, ta có $f_0(a) =$ $\sum_r(ae_r)e'_r$ với mọi $a\in \mathfrak{o}(\Psi )$.
 
@@ -495,7 +495,7 @@ nhưng các $e_ie_j$ sinh $C^+(Q)$.
 
 Mệnh đề (vi) suy ra từ (iv) và (v). Q.E.D.
 
-Bây giờ nhắc lại các ký hiệu đã dùng ở đầu số này. Đặt $\widetilde{V} = F + F'$ và gọi $\widetilde{Q}$ (tương ứng $\widetilde{\Psi}$) là hạn chế của Q (tương ứng $\Psi$ ) trên $\widetilde{V}$. Khi đó $\widetilde{Q}$ là một dạng toàn phương không suy biến có chỉ số cực đại $l$ trên không gian $\widetilde{V}$ có chiều $2l$ và đại số Clifford $C( \widetilde{Q})$ là một đại số đơn tâm có chiều $2^{2l}($Algebra, Chap. IX, §9, no. 4, Định lý 2). Gọi N là đại số ngoài của không gian con đẳng hướng cực đại $F'$ sinh bởi $e_{-1}, . . . , e_{-l}$. Đồng nhất F với không gian đối ngẫu của $F'$ nhờ $\Psi$ và với $x\in F'$ (tương ứng $y\in F$) ký hiệu $\lambda (x)$ (tương ứng $\lambda (y)$) tích ngoài trái với $x$ (tương ứng phép co trái với $y$) trong N; nếu $a_1, . . . , a_k\in F'$, thì
+Bây giờ nhắc lại các ký hiệu đã dùng ở đầu số này. Đặt $\widetilde{V} = F + F'$ và gọi $\widetilde{Q}$ (tương ứng $\widetilde{\Psi}$) là hạn chế của Q (tương ứng $\Psi$ ) trên $\widetilde{V}$. Khi đó $\widetilde{Q}$ là một dạng toàn phương không suy biến có chỉ số cực đại $l$ trên không gian $\widetilde{V}$ có chiều $2l$ và đại số Clifford $C( \widetilde{Q})$ là một đại số đơn tâm có chiều $2^{2l}($Đại số, Chương IX, §9, no. 4, Định lý 2). Gọi N là đại số ngoài của không gian con đẳng hướng cực đại $F'$ sinh bởi $e_{-1}, . . . , e_{-l}$. Đồng nhất F với không gian đối ngẫu của $F'$ nhờ $\Psi$ và với $x\in F'$ (tương ứng $y\in F$) ký hiệu $\lambda (x)$ (tương ứng $\lambda (y)$) tích ngoài trái với $x$ (tương ứng phép co trái với $y$) trong N; nếu $a_1, . . . , a_k\in F'$, thì
 
 $$
 \lambda (x).(a_1\wedge  \cdots  \wedge a_k) =x\wedge a_1\wedge  \cdots  \wedge a_k
@@ -511,7 +511,7 @@ $$
 \lambda (x)\lambda (y) +\lambda (y)\lambda (x) =\Psi (x, y).1
 $$
 
-Suy ra (Algebra, Chap. IX, §9, no. 1) rằng tồn tại một đồng cấu duy nhất (vẫn ký hiệu là $\lambda$ ) từ $C( \widetilde{Q})$ vào End(N) mở rộng ánh xạ $\lambda : F\cup F'\rightarrow$ End(N). Vì dim $N = 2^l$ và vì $C( \widetilde{Q})$ có một lớp duy nhất các môđun đơn, có chiều $2^l($Algebra, Chap. IX, §9, no. 4, Th. 2), biểu diễn của $C( \widetilde{Q})$ trên N xác định bởi $\lambda$ là bất khả quy và là một biểu diễn spinor của $C( \widetilde{Q}) ($loc. cit.).
+Suy ra (Đại số, Chương IX, §9, no. 1) rằng tồn tại một đồng cấu duy nhất (vẫn ký hiệu là $\lambda$ ) từ $C( \widetilde{Q})$ vào End(N) mở rộng ánh xạ $\lambda : F\cup F'\rightarrow$ End(N). Vì dim $N = 2^l$ và vì $C( \widetilde{Q})$ có một lớp duy nhất các môđun đơn, có chiều $2^l($Đại số, Chương IX, §9, no. 4, Th. 2), biểu diễn của $C( \widetilde{Q})$ trên N xác định bởi $\lambda$ là bất khả quy và là một biểu diễn spinor của $C( \widetilde{Q}) ($loc. cit.).
 
 Xét ánh xạ $\mu:v \rightarrow e_0v$ từ $\widetilde{V}$ vào $C^+(Q)$. Với $v\in \widetilde{V}$, ta có
 
@@ -649,7 +649,7 @@ phép tích ngoài với các $e_{-i}$ và phép tích trong với các $e_i$ (v
 
 (I) Cho $\Psi$ là một dạng song tuyến tính phản xứng không suy biến trên một không gian vectơ V có số chiều hữu hạn $2l\geq 2$; tập hợp các tự đồng cấu $x$ của V sao cho $\Psi (xv, v') +\Psi (v, xv') = 0$ với mọi $v, v'\in V$ là một đại số con Lie nửa đơn của $\mathfrak{s}\mathfrak{l}(V)$ (Ch. I, §6, no. 7, Prop. 9). Ta ký hiệu nó bởi $\mathfrak{s}\mathfrak{p}(\Psi )$ và gọi nó là đại số Lie symplectic liên kết với $\Psi$.
 
-Theo Algebra, Cap. IX, §4, no. 2, V có thể được viết thành tổng trực tiếp của hai không gian con hoàn toàn đẳng hướng cực đại F và $F'$, chúng đối ngẫu với nhau đối với $\Psi$. Cho $(e_i)_{1\leq i\leq l}$ là một cơ sở của F, và $(e_{-i})_{1\leq i\leq l}$ là cơ sở đối ngẫu của $F'$. Khi đó
+Theo Đại số, Chương IX, §4, no. 2, V có thể được viết thành tổng trực tiếp của hai không gian con hoàn toàn đẳng hướng cực đại F và $F'$, chúng đối ngẫu với nhau đối với $\Psi$. Cho $(e_i)_{1\leq i\leq l}$ là một cơ sở của F, và $(e_{-i})_{1\leq i\leq l}$ là cơ sở đối ngẫu của $F'$. Khi đó
 
 $$
 (e_1, . . . , e_l, e_{-l}, . . . , e_{-1})
@@ -665,7 +665,7 @@ $J=-s$ 0
 
 trong đó $s$ là ma trận vuông cấp $l$ mà mọi phần tử đều bằng không, ngoại trừ các phần tử trên đường chéo thứ hai đều bằng 1, xem no. 2.I.
 
-Đại số $\mathfrak{g}=\mathfrak{s}\mathfrak{p}(\Psi )$ có thể được đồng nhất với đại số $\mathfrak{s}\mathfrak{p}(2l, k)$ gồm các ma trận vuông $a$ cấp $2l$ sao cho $a=-J^{-1t}aJ=J^taJ($Algebra, Chap. IX, §1, no. 10, formulas (50)), tức là có dạng
+Đại số $\mathfrak{g}=\mathfrak{s}\mathfrak{p}(\Psi )$ có thể được đồng nhất với đại số $\mathfrak{s}\mathfrak{p}(2l, k)$ gồm các ma trận vuông $a$ cấp $2l$ sao cho $a=-J^{-1t}aJ=J^taJ($Đại số, Chương IX, §1, no. 10, formulas (50)), tức là có dạng
 
 $$
 (AB)
@@ -719,13 +719,13 @@ Cho $\delta$ là một cờ đẳng hướng trong V (nghĩa là các phần t�
 
 Ta sẽ chỉ ra cách biểu diễn cơ bản $\sigma_r$ có trọng số $\varpi_r$ có thể được thực hiện như một biểu diễn con của $\bigwedge^r\sigma$, trong đó $\sigma$ là biểu diễn đồng nhất của $\mathfrak{g}$ trên V, và để làm điều đó ta sẽ nghiên cứu phân tích của biểu diễn $\bigwedge\sigma$ của $\mathfrak{g}$ trên đại số ngoài $\bigwedge V$.
 
-Gọi $(e^*_i)$ là cơ sở của $V^*$ đối ngẫu với $(e_i)$. Dạng song tuyến tính phản xứng $\Psi$ có thể được đồng nhất với một phần tử $\Gamma^*\in \bigwedge^2V^*($Algebra, Chap. III, §7, no. 4, Prop. 7 and §11, no. 10) và dễ dàng kiểm tra rằng
+Gọi $(e^*_i)$ là cơ sở của $V^*$ đối ngẫu với $(e_i)$. Dạng song tuyến tính phản xứng $\Psi$ có thể được đồng nhất với một phần tử $\Gamma^*\in \bigwedge^2V^*($Đại số, Chương III, §7, no. 4, Prop. 7 and §11, no. 10) và dễ dàng kiểm tra rằng
 
 $$
 \Gamma^*=-\sum_{i=1}^le^*_i\wedge e^*_{-i}
 $$
 
-Gọi $\Psi^*$ là dạng nghịch đảo của $\Psi$ (Algebra, Chương IX, §1, no. 7); ngay lập tức có
+Gọi $\Psi^*$ là dạng nghịch đảo của $\Psi$ (Đại số, Chương IX, §1, no. 7); ngay lập tức có
 
 $$
 \Psi^*(e^*_i, e^*_j) = 0
@@ -915,7 +915,7 @@ là một họ tự do đại số sinh đại số các hàm đa thức bất b
 
 (VII) Vì tự đẳng cấu duy nhất của đồ thị Dynkin là đồng nhất, ta có Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$.
 
-Gọi $\Sigma$ là nhóm các phép đồng dạng của V đối với $\Psi ($Algebra, Chap. IX, §6, end of no. 5). Ta chứng minh như trong no. 2.VII rằng các tự đẳng cấu của $\mathfrak{g}$ là các ánh xạ $x \rightarrow sxs^{-1}$ với $s\in \Sigma$, do đó Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$ có thể được đồng nhất với $\Sigma /k^*$.
+Gọi $\Sigma$ là nhóm các phép đồng dạng của V đối với $\Psi ($Đại số, Chap. IX, §6, end of no. 5). Ta chứng minh như trong no. 2.VII rằng các tự đẳng cấu của $\mathfrak{g}$ là các ánh xạ $x \rightarrow sxs^{-1}$ với $s\in \Sigma$, do đó Aut($\mathfrak{g}$) $=$ Aut$_0(\mathfrak{g})$ có thể được đồng nhất với $\Sigma /k^*$.
 
 Với mọi $s\in \Sigma$, gọi $\mu(s)$ là nhân tử của $s$. Ánh xạ $s \rightarrow \mu(s)$ mod $k^{*2}$ từ $\Sigma$ vào $k^*/k^{*2}$ là một đồng cấu có hạt nhân chứa $k^*.1$, và do đó cho một đồng cấu $\lambda$ từ $\Sigma /k^*$ vào $k^*/k^{*2}$. Ta có $\mathbf{S}\mathbf{p}(\Psi )\cap k^*=\{1,-1\}$. Xét dãy các đồng cấu
 
@@ -953,7 +953,7 @@ chỉ khi $r$ chẵn; khi đó $E_r\cap \bigwedge^r\mathscr{V}$ là một dàn n
 
 ### 4. ĐẠI SỐ KIỂU $\boldsymbol{D}_{\boldsymbol{l}}$ ($\boldsymbol{l}\geq$ 2)
 
-(I) Cho V là một không gian vectơ có chiều chẵn $2l\geq 4$ và $\Psi$ là một dạng song tuyến tính đối xứng không suy biến có chỉ số cực đại $l$ trên V. Theo Algebra, Chap. IX, §4, no. 2, V có thể viết thành tổng trực tiếp của hai không gian con hoàn toàn đẳng hướng cực đại F và $F'$. Gọi $(e_i)_{1\leq i\leq l}$ là một cơ sở của F và $(e_{-i})_{1\leq i\leq l}$ là cơ sở đối ngẫu của $F'$ (đối với song đối ngẫu giữa F và $F'$ xác định bởi $\Psi$ ). Khi đó $e_1, . . . , e_l, e_{-l}, . . . , e_{-1}$ là một cơ sở của V; ta sẽ gọi nó là một cơ sở Witt của V. Ma trận của $\Psi$ đối với cơ sở này là ma trận vuông S cấp $2l$, tất cả các phần tử của nó đều bằng không, ngoại trừ những phần tử nằm trên đường chéo thứ hai, bằng 1. Đại số $\mathfrak{g}=\mathfrak{o}(\Psi )$ có thể được đồng nhất với đại số $\mathfrak{o}_S(2l, k)$ gồm các ma trận vuông $g$ cấp $2l$ sao cho $g=-S^tgS$. Nó có chiều $l(2l-1)$. Một phép tính dễ dàng cho thấy $\mathfrak{g}$ là tập hợp các ma trận có dạng
+(I) Cho V là một không gian vectơ có chiều chẵn $2l\geq 4$ và $\Psi$ là một dạng song tuyến tính đối xứng không suy biến có chỉ số cực đại $l$ trên V. Theo Đại số, Chap. IX, §4, no. 2, V có thể viết thành tổng trực tiếp của hai không gian con hoàn toàn đẳng hướng cực đại F và $F'$. Gọi $(e_i)_{1\leq i\leq l}$ là một cơ sở của F và $(e_{-i})_{1\leq i\leq l}$ là cơ sở đối ngẫu của $F'$ (đối với song đối ngẫu giữa F và $F'$ xác định bởi $\Psi$ ). Khi đó $e_1, . . . , e_l, e_{-l}, . . . , e_{-1}$ là một cơ sở của V; ta sẽ gọi nó là một cơ sở Witt của V. Ma trận của $\Psi$ đối với cơ sở này là ma trận vuông S cấp $2l$, tất cả các phần tử của nó đều bằng không, ngoại trừ những phần tử nằm trên đường chéo thứ hai, bằng 1. Đại số $\mathfrak{g}=\mathfrak{o}(\Psi )$ có thể được đồng nhất với đại số $\mathfrak{o}_S(2l, k)$ gồm các ma trận vuông $g$ cấp $2l$ sao cho $g=-S^tgS$. Nó có chiều $l(2l-1)$. Một phép tính dễ dàng cho thấy $\mathfrak{g}$ là tập hợp các ma trận có dạng
 
 $$
 (AB)
@@ -1005,7 +1005,7 @@ $(\lambda$ 0 $)$
 
 0 0 $D$
 
-trong đó $A, B, D$ là các ma trận vuông cấp $l-1,x$ (resp. $y$) là một ma trận có 2 cột và $l-1$ hàng (resp. 2 hàng và $l-1$ cột), và $\lambda \in k$. Suy ra rằng $a$ giữ ổn định $V_l$ và $V'_l$. Do đó, $\mathfrak{b}$ là tập hợp các $a\in \mathfrak{g}$ giữ ổn định mọi phần tử của cờ đẳng hướng $(V_1, . . . ,V_{l-1})$. Chú ý rằng điều vừa nêu và định lý Witt (Algebra, Chap. IX, §4, no. 3, Th. 1) suy ra rằng $V_l$ và $V'_l$ là các không gian con đẳng hướng toàn phần cực đại duy nhất chứa $V_{l-1}$.
+trong đó $A, B, D$ là các ma trận vuông cấp $l-1,x$ (resp. $y$) là một ma trận có 2 cột và $l-1$ hàng (resp. 2 hàng và $l-1$ cột), và $\lambda \in k$. Suy ra rằng $a$ giữ ổn định $V_l$ và $V'_l$. Do đó, $\mathfrak{b}$ là tập hợp các $a\in \mathfrak{g}$ giữ ổn định mọi phần tử của cờ đẳng hướng $(V_1, . . . ,V_{l-1})$. Chú ý rằng điều vừa nêu và định lý Witt (Đại số, Chap. IX, §4, no. 3, Th. 1) suy ra rằng $V_l$ và $V'_l$ là các không gian con đẳng hướng toàn phần cực đại duy nhất chứa $V_{l-1}$.
 
 Ta nói rằng một cờ đẳng hướng là gần cực đại nếu nó gồm $l-1$ không gian con đẳng hướng toàn phần có các chiều lần lượt là $1, . . . , l-1$. Khi đó, như trong no. 2, ta thấy rằng, với mọi cờ đẳng hướng gần cực đại $\delta$, tập hợp $\mathfrak{b}_{\delta}$ gồm các $a\in \mathfrak{g}$ giữ ổn định các phần tử của $\delta$ là một đại số con Borel của $\mathfrak{g}$ và ánh xạ $\delta  \rightarrow \mathfrak{b}_{\delta}$ là một song ánh từ tập hợp các cờ đẳng hướng gần cực đại lên tập hợp các đại số con Borel.
 
@@ -1037,7 +1037,7 @@ Ta sẽ chứng minh rằng, với $1\leq r\leq l-2$, biểu diễn $\bigwedge^r
 
 Để làm điều này, chỉ cần chứng minh rằng $\bigwedge^r\sigma$ là bất khả quy với $1\leq r\leq l-1$ (chú ý rằng biểu diễn $\bigwedge^l\sigma$ không bất khả quy, xem Bài tập 10), hay rằng không gian con nhỏ nhất $T_r$ của $\bigwedge^rV$ chứa $e_1\wedge  \cdots  \wedge e_r$ và ổn định dưới $\mathfrak{g}$ là toàn bộ $\bigwedge^rV$. Điều này ngay lập tức đúng với $r= 1$. Với $r= 2$, ta thấy như trong no. 2 rằng $\bigwedge^2\sigma$ tương đương với biểu diễn phụ hợp của $\mathfrak{g}$, biểu diễn này bất khả quy vì $\mathfrak{g}$ là đơn. Chứng minh được hoàn tất bằng cách quy nạp theo $l$, như trong no. 2, nhưng giả sử rằng $l-1\geq r\geq 3$.
 
-Bây giờ ta sẽ xác định các biểu diễn cơ bản có trọng số cao nhất $\varpi_{l-1}$ và $\varpi_l$. Gọi Q là dạng toàn phương $x \rightarrow \frac{1}{2}\Psi (x, x)$. Trong no. 2.IV, ta đã định nghĩa biểu diễn spinor $\lambda$ của đại số Clifford C(Q) trên $N =\bigwedge F'$. Ta thấy ngay lập tức rằng không gian con $N_+$ (tương ứng $N_-$) của N cho bởi tổng của các $\bigwedge^pF'$ với $p$ chẵn (tương ứng lẻ) là ổn định dưới hạn chế của $\lambda$ lên $C^+(Q)$. Do đó, các biểu diễn $\lambda_+$ và $\lambda_-$ của $C^+(Q)$ trên $N_+$ và $N_-$ tương ứng là các biểu diễn bán-spinor của $C^+(Q) ($Algebra, Chap. IX, §9, no. 4); chúng bất khả quy, có chiều $2^{l-1}$ và không tương đương. Gọi $\rho_+=\lambda_+\circ f$ và $\rho_-=\lambda_-\circ f$ là các biểu diễn bất khả quy tương ứng của $\mathfrak{g}$ (no. 2, Bổ đề 1 (vi)). Theo Bổ đề 1 (i), ta có
+Bây giờ ta sẽ xác định các biểu diễn cơ bản có trọng số cao nhất $\varpi_{l-1}$ và $\varpi_l$. Gọi Q là dạng toàn phương $x \rightarrow \frac{1}{2}\Psi (x, x)$. Trong no. 2.IV, ta đã định nghĩa biểu diễn spinor $\lambda$ của đại số Clifford C(Q) trên $N =\bigwedge F'$. Ta thấy ngay lập tức rằng không gian con $N_+$ (tương ứng $N_-$) của N cho bởi tổng của các $\bigwedge^pF'$ với $p$ chẵn (tương ứng lẻ) là ổn định dưới hạn chế của $\lambda$ lên $C^+(Q)$. Do đó, các biểu diễn $\lambda_+$ và $\lambda_-$ của $C^+(Q)$ trên $N_+$ và $N_-$ tương ứng là các biểu diễn bán-spinor của $C^+(Q) ($Đại số, Chap. IX, §9, no. 4); chúng bất khả quy, có chiều $2^{l-1}$ và không tương đương. Gọi $\rho_+=\lambda_+\circ f$ và $\rho_-=\lambda_-\circ f$ là các biểu diễn bất khả quy tương ứng của $\mathfrak{g}$ (no. 2, Bổ đề 1 (vi)). Theo Bổ đề 1 (i), ta có
 
 $$
 f(H_i) =\frac{1}{2}(e_ie_{-i}-e_{-i}e_i) =e_ie_{-i}-\frac{1}{2}=\frac{1}{2}-e_{-i}e_i
@@ -1099,7 +1099,7 @@ Do đó, ta có thể lấy $\widetilde{f}(x) =$ Pf($Sx$).
 
 Một phần tử $s\in$ Aut($\mathfrak{g}$) thuộc Aut$'(\mathfrak{g})$ khi và chỉ khi $\sigma \circ s$ tương đương với $\sigma$ (điều này suy ra từ sự kiện rằng $\varpi_1$ là trọng số cao nhất của $\sigma$ ). Ta kết luận như trong no. 2.VII rằng Aut$'(\mathfrak{g})$ có thể được đồng nhất với $\Sigma /k^*$, trong đó $\Sigma$ là nhóm các phép đồng dạng của V đối với $\Psi$.
 
-Cho $s\in \Sigma$, và gọi $\lambda (s)$ là nhân tử của $s$. Ta có det($s$) $=\lambda (s)^l$ nếu $s$ là trực tiếp, và det($s$) $=-\lambda (s)^l$ nếu $s$ là nghịch đảo (Algebra, Chap. IX, §6, no. 5). Các phép đồng dạng trực tiếp tạo thành một nhóm con $\Sigma_0$ có chỉ số 2 trong $\Sigma$; ta có $\Sigma_0\supset k^*$. Nhóm $\Sigma_0/k^*$ bằng nhóm con Aut$_0(\mathfrak{g})$ của Aut$'(\mathfrak{g}) =\Sigma /k^*$. Thật vậy, chỉ cần kiểm tra điều này khi $k$ đóng đại số: trong trường hợp đó Aut$_0(\mathfrak{g}) =$ Aut$_e(\mathfrak{g})$ bằng nhóm dẫn xuất của nó (§11, no. 2, Mệnh đề 3), do đó được chứa trong $\Sigma_0/k^*$, và vì cả hai đều có chỉ số 2 trong $\Sigma /k^*$, nên chúng bằng nhau.
+Cho $s\in \Sigma$, và gọi $\lambda (s)$ là nhân tử của $s$. Ta có det($s$) $=\lambda (s)^l$ nếu $s$ là trực tiếp, và det($s$) $=-\lambda (s)^l$ nếu $s$ là nghịch đảo (Đại số, Chap. IX, §6, no. 5). Các phép đồng dạng trực tiếp tạo thành một nhóm con $\Sigma_0$ có chỉ số 2 trong $\Sigma$; ta có $\Sigma_0\supset k^*$. Nhóm $\Sigma_0/k^*$ bằng nhóm con Aut$_0(\mathfrak{g})$ của Aut$'(\mathfrak{g}) =\Sigma /k^*$. Thật vậy, chỉ cần kiểm tra điều này khi $k$ đóng đại số: trong trường hợp đó Aut$_0(\mathfrak{g}) =$ Aut$_e(\mathfrak{g})$ bằng nhóm dẫn xuất của nó (§11, no. 2, Mệnh đề 3), do đó được chứa trong $\Sigma_0/k^*$, và vì cả hai đều có chỉ số 2 trong $\Sigma /k^*$, nên chúng bằng nhau.
 
 Mặt khác, như trong no. 3.VII có một dãy khớp
 

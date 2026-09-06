@@ -505,7 +505,7 @@ $$
 Mặt khác, nếu $K \neq H'$, thì $H \cap K \neq \varnothing$; vì vế trái của (20) là $\pm \wedge^n(u)(e_H \wedge e_K)$, nên nó bằng không, do đó
 
 $$
-(22) \quad \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) = 0 \quad \text{for } K \neq H'.
+(22) \quad \sum_R \rho_{R, R'} \det(X_{R, H}) \det(X_{R', K}) = 0 \quad \text{với } K \neq H'.
 $$
 
 Vế phải của (21) được gọi là *khai triển Laplace* của định thức của ma trận X *theo q cột có các chỉ số thuộc H và n - q cột có các chỉ số thuộc tập phần bù H' của H*. Các minor $\det(X_{R, H})$ và $\det(X_{R', H'})$ đôi khi được gọi là *bù nhau*.
@@ -519,7 +519,7 @@ $$
 và tương tự từ (22) ta được
 
 $$
-(24) \quad \sum_{j=1}^n (-1)^{ji} \xi_{ji} \det(X^{jk}) = 0 \quad \text{for } k \neq i.
+(24) \quad \sum_{j=1}^n (-1)^{ji} \xi_{ji} \det(X^{jk}) = 0 \quad \text{với } k \neq i.
 $$
 
 Công thức (23) được gọi là *khai triển định thức của X theo cột có chỉ số i*. Vô hướng $(-1)^{i+j} \det(X^{ji})$ được gọi là *phần bù đại số* của các chỉ số $j$ và $i$ (hoặc, theo một cách lạm dụng ngôn ngữ, phần bù đại số của $\xi^{ji}$) trong X.

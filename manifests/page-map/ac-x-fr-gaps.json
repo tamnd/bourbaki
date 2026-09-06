@@ -8,11 +8,11 @@
   "front_matter_pages": 1,
   "counts": {
     "head": 4,
-    "interpolated": 51,
-    "label": 124,
+    "interpolated": 44,
+    "label": 131,
     "none": 1
   },
-  "printed_pct_of_body": 71.50837988826815,
+  "printed_pct_of_body": 75.41899441340783,
   "chapters": [
     {
       "chapter": "X",
@@ -78,12 +78,6 @@
       "confidence": "interpolated"
     },
     {
-      "from": 41,
-      "to": 41,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 46,
       "to": 46,
       "pages": 1,
@@ -114,12 +108,6 @@
       "confidence": "interpolated"
     },
     {
-      "from": 63,
-      "to": 63,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 67,
       "to": 67,
       "pages": 1,
@@ -133,8 +121,8 @@
     },
     {
       "from": 72,
-      "to": 73,
-      "pages": 2,
+      "to": 72,
+      "pages": 1,
       "confidence": "interpolated"
     },
     {
@@ -181,8 +169,8 @@
     },
     {
       "from": 123,
-      "to": 125,
-      "pages": 3,
+      "to": 124,
+      "pages": 2,
       "confidence": "interpolated"
     },
     {
@@ -192,20 +180,8 @@
       "confidence": "interpolated"
     },
     {
-      "from": 131,
-      "to": 131,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
       "from": 136,
       "to": 136,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 139,
-      "to": 139,
       "pages": 1,
       "confidence": "interpolated"
     },
@@ -248,12 +224,6 @@
     {
       "from": 168,
       "to": 168,
-      "pages": 1,
-      "confidence": "interpolated"
-    },
-    {
-      "from": 171,
-      "to": 171,
       "pages": 1,
       "confidence": "interpolated"
     },

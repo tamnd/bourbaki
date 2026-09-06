@@ -50,9 +50,9 @@ subsections:
       title: Théorie de l’intégration
       page: 0
       pdf_page: 22
-statements: 51
+statements: 55
 exercises: 10
-content_sha256: cf41fb60f0d46e9f933e1b74399ab40bbc279a155d5448cc76ec34e6ae1f277a
+content_sha256: ddb97d7f4116a213d97fd01f4d22e4174345bbe69f86228c0ebec05791f616cc
 ---
 
 ## § 1. Prémesures et mesures sur un espace topologique
@@ -265,7 +265,10 @@ On dira que $\mu$ est la mesure sur $T$ définie par $\lambda$. En particulier, 
 #### Remarque 1 {#int-ix-s1-n3-rem-1 .statement}
 
 Lorsque $T$ est localement compact, $\mu$ est l’image de $\lambda$ par l’injection de $L$ dans $T$. Nous verrons au § 2, n° 3, Exemple 1, lorsque les mesures images auront été traitées, que cette interprétation vaut encore pour des espaces quelconques.
-2) Nous verrons aussi que les mesures définies dans l’Exemple 2 sont les mesures positives à support compact dans $T$ (n° 6, Remarque 2)).
+
+#### Remarque 2 {#int-ix-s1-n3-rem-2 .statement}
+
+Nous verrons aussi que les mesures définies dans l’Exemple 2 sont les mesures positives à support compact dans $T$ (n° 6, Remarque 2)).
 
 Nous ne considérerons plus désormais que des mesures positives, sauf mention expresse du contraire. Dans toute la suite de ce paragraphe, $T$ désignera un espace topologique et $\mu$ une mesure positive sur $T$.
 
@@ -280,9 +283,18 @@ On dit qu’une fonction $f \in \mathcal{F}_+$ (resp. une partie $A$ de $T$) est
 #### Remarque 1 {#int-ix-s1-n4-rem-1 .statement}
 
 Les notions ainsi définies coïncident, lorsque $T$ est localement compact, avec les notions usuelles.
-2) Lorsque nous aurons défini les ensembles négligeables, nous verrons que les ensembles localement négligeables sont bien ceux dont le germe, en tout point de $T$, est un germe d’ensemble négligeable (n° 9, cor. 2 de la prop. 14).
-3) Comme aux chap. IV et V, l’expression « localement presque partout » sera synonyme de « sauf sur un ensemble localement négligeable ».
-4) Si $\theta$ est une mesure complexe, on dira qu’une fonction (resp. une partie de $T$) est localement négligeable pour $\theta$ si elle l’est pour la mesure positive $|\theta|$.
+
+#### Remarque 2 {#int-ix-s1-n4-rem-2 .statement}
+
+Lorsque nous aurons défini les ensembles négligeables, nous verrons que les ensembles localement négligeables sont bien ceux dont le germe, en tout point de $T$, est un germe d’ensemble négligeable (n° 9, cor. 2 de la prop. 14).
+
+#### Remarque 3 {#int-ix-s1-n4-rem-3 .statement}
+
+Comme aux chap. IV et V, l’expression « localement presque partout » sera synonyme de « sauf sur un ensemble localement négligeable ».
+
+#### Remarque 4 {#int-ix-s1-n4-rem-4 .statement}
+
+Si $\theta$ est une mesure complexe, on dira qu’une fonction (resp. une partie de $T$) est localement négligeable pour $\theta$ si elle l’est pour la mesure positive $|\theta|$.
 Exemple. — Soient $L$ une partie compacte de $T$, $\lambda$ une mesure sur $L$, et $\mu$ la mesure sur $T$ définie par $\lambda$ (n° 3, Exemple 2). La formule (3) entraîne aussitôt qu’une fonction $f \in \mathcal{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_L$ est $\lambda$-négligeable.
 
 Il résulte immédiatement de la formule (1) qu’une fonction $f \in \mathcal{F}_+(T)$ est localement $\mu$-négligeable si et seulement si $f_K$ est $\mu_K$-négligeable pour toute partie compacte $K$ de $T$. Les propriétés des ensembles localement négligeables se ramènent donc aussitôt à celles des ensembles négligeables dans les espaces compacts, traitées au chap. IV. Voici quelques résultats qui seront utilisés par la suite sans autre référence.

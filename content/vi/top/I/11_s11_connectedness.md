@@ -208,9 +208,9 @@ Vì $V$ vừa mở vừa đóng trong $U$, nên một điểm biên của $V$ (x
 
 Mọi không gian thương của một không gian địa phương liên thông đều địa phương liên thông.
 
-Let $X$ be a không gian liên thông địa phương, $R$ một quan hệ tương đương trên $X$, $\varphi : X \to X/R$ là ánh xạ chính tắc. Cho $A$ là một tập con mở của
+Cho $X$ là một không gian liên thông địa phương, $R$ một quan hệ tương đương trên $X$, $\varphi : X \to X/R$ là ánh xạ chính tắc. Cho $A$ là một tập con mở của
 
-X/R và C là một thành phần của A. Khi đó $\overline{\varphi}^1(C)$ là hợp của các thành phần của $\overline{\varphi}^1(A)$; vì nếu $x \in \overline{\varphi}^1(C)$ và nếu K là thành phần của x trong $\overline{\varphi}^1(A)$ thì $\varphi(K)$ liên thông (no. 2, Proposition 4), được chứa trong A, và chứa $\varphi(x)$; do đó $\varphi(K) \subset C$ theo định nghĩa của C, và vì thế $K \subset \overline{\varphi}^1(C)$. Vì X là liên thông địa phương và $\overline{\varphi}^1(A)$ là mở trong X, suy ra từ Proposition 11 rằng $\overline{\varphi}^1(C)$ là mở trong X; do đó C là mở trong X/R và vì vậy, lại theo Proposition 11, X/R là liên thông địa phương.
+X/R và C là một thành phần của A. Khi đó $\overline{\varphi}^1(C)$ là hợp của các thành phần của $\overline{\varphi}^1(A)$; vì nếu $x \in \overline{\varphi}^1(C)$ và nếu K là thành phần của x trong $\overline{\varphi}^1(A)$ thì $\varphi(K)$ liên thông (no. 2, mệnh đề 4), được chứa trong A, và chứa $\varphi(x)$; do đó $\varphi(K) \subset C$ theo định nghĩa của C, và vì thế $K \subset \overline{\varphi}^1(C)$. Vì X là liên thông địa phương và $\overline{\varphi}^1(A)$ là mở trong X, suy ra từ mệnh đề 11 rằng $\overline{\varphi}^1(C)$ là mở trong X; do đó C là mở trong X/R và vì vậy, lại theo mệnh đề 11, X/R là liên thông địa phương.
 
 #### Mệnh đề 13 {#top-i-s11-prop-13 .statement}
 
@@ -218,21 +218,15 @@ a) Cho $(X_i)_{i \in I}$ là một họ các không gian liên thông địa ph�
 
 b) Ngược lại, nếu tích của một họ $(X_i)$ các không gian tôpô không rỗng là liên thông địa phương, thì mỗi $X_i$ đều liên thông địa phương, và $X_i$ liên thông với mọi chỉ số trừ một số hữu hạn.
 
-a) Cho J là tập con hữu hạn của I sao cho $X_i$ không liên thông khi và chỉ khi $i \in J$. Cho
-$$
+a) Cho J là tập con hữu hạn của I sao cho $X_i$ không liên thông khi và chỉ khi $i \in J$. Cho $$
 U = \prod_{i \in I} U_i
-$$
-là một tập sơ cấp chứa một điểm $x = (x_i)$ của X và cho K là tập con hữu hạn của I sao cho $U_i \neq X_i$ khi và chỉ khi $i \in K$. Cho $V_i$ bằng $X_i$ với $i \notin J \cup K$, và cho $V_i$ là một lân cận liên thông của $x_i$ nằm trong $U_i$ với $i \in J \cup K$; khi đó
-$$
+$$ là một tập hợp sơ cấp chứa một điểm $x = (x_i)$ của X và cho K là tập con hữu hạn của I sao cho $U_i \neq X_i$ khi và chỉ khi $i \in K$. Cho $V_i$ bằng $X_i$ với $i \notin J \cup K$, và cho $V_i$ là một lân cận liên thông của $x_i$ nằm trong $U_i$ với $i \in J \cup K$; khi đó $$
 V = \prod_{i \in I} V_i
-$$
-liên thông (theo Proposition 8 của no. 4) và là một lân cận của $x$ nằm trong U. Vậy X là liên thông địa phương.
+$$ liên thông (theo mệnh đề 8 của no. 4) và là một lân cận của $x$ nằm trong U. Vậy X là liên thông địa phương.
 
-b) Cho $a = (a_i)$ là một điểm của X và cho V là một lân cận liên thông của $a$ trong X. Vì ta có $\mathrm{pr}_i V = X_i$ trừ một số hữu hạn chỉ số (§ 4, no. 1) suy ra từ no. 2, Proposition 4 rằng các $X_i$ là liên thông, với mọi chỉ số trừ một số hữu hạn. Mặt khác, với mỗi $x \in I$, mỗi $a_x \in X_x$ và mỗi lân cận $V_x$ của $a_x$ trong $X_x$, có một điểm $x$ của X sao cho $\mathrm{pr}_x x = a_x$, và
-$$
+b) Cho $a = (a_i)$ là một điểm của X và cho V là một lân cận liên thông của $a$ trong X. Vì ta có $\mathrm{pr}_i V = X_i$ trừ một số hữu hạn chỉ số (§ 4, no. 1) suy ra từ no. 2, mệnh đề 4 rằng các $X_i$ là liên thông, với mọi chỉ số trừ một số hữu hạn. Mặt khác, với mỗi $x \in I$, mỗi $a_x \in X_x$ và mỗi lân cận $V_x$ của $a_x$ trong $X_x$, có một điểm $x$ của X sao cho $\mathrm{pr}_x x = a_x$, và $$
 V = V_x \times \prod_{i \neq x} X_i
-$$
-là một lân cận của $x$ trong X; do đó V chứa một lân cận liên thông W của $x$, có ảnh chiếu $\mathrm{pr}_x W$ là một lân cận liên thông của $a_x$ nằm trong $V_x$ (no. 2, Proposition 4 và § 4, no. 2, Proposition 5). Vậy mỗi $X_x$ đều liên thông địa phương.
+$$ là một lân cận của $x$ trong X; do đó V chứa một lân cận liên thông W của $x$, có ảnh chiếu $\mathrm{pr}_x W$ là một lân cận liên thông của $a_x$ nằm trong $V_x$ (no. 2, mệnh đề 4 và § 4, no. 2, mệnh đề 5). Vậy mỗi $X_x$ đều liên thông địa phương.
 
 ### 7. ỨNG DỤNG : ĐỊNH LÝ POINCARÉ-VOLTERRA
 
@@ -250,15 +244,15 @@ Cho $\mathcal{B}$ là một cơ sở đếm được của tôpô của $Y$. Ta 
 
 *Nếu* $x$ *là một điểm bất kỳ của* $X$, *thì tồn tại một cặp phân biệt* $(W, U)$ *sao cho* $x \in W$.
 
-The inverse image $\overline{p}^{-1}(p(x))$ is discrete and therefore there is a neighbourhood of $x$ in $X$ all of whose points $x'$ other than $x$ have an image $p(x') \neq p(x)$; since $X$ satisfies $(O_{III})$, there is a *đóng* neighbourhood $V$ of $x$ with this property, and we may assume also that $V$ is contained in a set of $\mathcal{B}$. Let $F$ be the biên of $V$ in $X$. Theo điều kiện (i) của định lý, $p(F)$ là đóng trong $Y$; và since $p(F)$ does not contain $p(x)$, there is a set $U \in \mathcal{B}$ which contains $p(x)$ and does not meet $p(F)$. Let $W$ be the component of $x$ in $\overline{p}^{-1}(U)$; then it is enough to show that $W \subset \mathbb{A}$. If this were not so, then $W$ would meet $F$ (no. 1, Mệnh đề 3) and therefore $p(F)$ would meet $U$, trái với định nghĩa của $U$.
+Ảnh ngược $\overline{p}^{-1}(p(x))$ là rời rạc và do đó có một lân cận của $x$ trong $X$ mà mọi điểm $x'$ khác $x$ đều có ảnh $p(x') \neq p(x)$; vì $X$ thỏa mãn $(O_{III})$, có một lân cận *đóng* $V$ của $x$ có tính chất này, và ta cũng có thể giả sử rằng $V$ được chứa trong một tập của $\mathcal{B}$. Cho $F$ là biên của $V$ trong $X$. Theo điều kiện (i) của định lý, $p(F)$ là đóng trong $Y$; và vì $p(F)$ không chứa $p(x)$, có một tập $U \in \mathcal{B}$ chứa $p(x)$ và không giao với $p(F)$. Cho $W$ là thành phần của $x$ trong $\overline{p}^{-1}(U)$; khi đó chỉ cần chứng minh rằng $W \subset \mathbb{A}$. Nếu không phải như vậy, thì $W$ sẽ giao với $F$ (số 1, Mệnh đề 3) và do đó $p(F)$ sẽ giao với $U$, trái với định nghĩa của $U$.
 
 #### Bổ đề 2 {#top-i-s11-lem-2 .statement}
 
 *Nếu* $(W, U)$ *là một cặp đặc biệt thì tập hợp tất cả các cặp đặc biệt* $(W', U')$ *sao cho* $W'$ *giao với* $W$ *là đếm được*.
 
-Since $\mathcal{B}$ is countable it is enough to show that, given $U' \in \mathcal{B}$, the set of distinguished pairs $(W', U')$ such that $W'$ meets $W$ is countable. Các tập $W'$ này đều mở, vì $X$ là liên thông địa phương (no. 6, Mệnh đề 11) và đôi một rời nhau vì chúng là các thành phần của $\overline{p}^{-1}(U')$; do đó các tập $W' \cap W$ đều mở và đôi một rời nhau. Nhưng $W$ chứa một tập con đếm được trù mật trong $W$; vì vậy tập các $W'$ sao cho $W' \cap W$ không rỗng cũng đếm được.
+Vì $\mathcal{B}$ là đếm được nên chỉ cần chứng minh rằng, cho $U' \in \mathcal{B}$, tập các cặp phân biệt $(W', U')$ sao cho $W'$ giao với $W$ là đếm được. Các tập $W'$ này đều mở, vì $X$ là liên thông địa phương (no. 6, Mệnh đề 11) và đôi một rời nhau vì chúng là các thành phần của $\overline{p}^{-1}(U')$; do đó các tập $W' \cap W$ đều mở và đôi một rời nhau. Nhưng $W$ chứa một tập con đếm được trù mật trong $W$; vì vậy tập các $W'$ sao cho $W' \cap W$ không rỗng cũng đếm được.
 
-To prove Theorem 1, xét quan hệ R sau đây giữa hai điểm x, x' của X: "Tồn tại một dãy hữu hạn các cặp đặc biệt (W_i, U_i) (1 \leq i \leq n) sao cho x \in W_1 và x' \in W_n và W_i \cap W_{i+1} \neq \emptyset for \leq 1 i \leq n — 1."
+Để chứng minh định lý 1, xét quan hệ R sau đây giữa hai điểm x, x' của X: "Tồn tại một dãy hữu hạn các cặp đặc biệt (W_i, U_i) (1 \leq i \leq n) sao cho x \in W_1 và x' \in W_n và W_i \cap W_{i+1} \neq \emptyset for \leq 1 i \leq n — 1."
 
 Bổ đề 1 cho biết rằng R là phản xạ, và dễ dàng kiểm tra rằng R là đối xứng và bắc cầu, nên R là một quan hệ tương đương; hơn nữa, vì các W_i là mở, mỗi lớp tương đương mod R đều mở trong X. Nhưng X liên thông; do đó chỉ có thể có một lớp tương đương, tức là bất kỳ hai điểm nào của X cũng tương đương mod R. Từ đây ta suy ra rằng X là hợp của một họ đếm được các thành phần thứ nhất của các cặp đặc biệt, và điều này sẽ chứng minh Định lý 1. Để làm điều đó, lấy x là một điểm bất kỳ của X, và định nghĩa bằng quy nạp theo n một dãy (C_n) các tập con mở của X như sau: theo Bổ đề 1, có một cặp đặc biệt (W_1, U_1) sao cho x \in W_1, và ta lấy C_1 = W_1; nếu n > 1 thì C_n được lấy bằng hợp của mọi thành phần thứ nhất W của các cặp đặc biệt (W, U) sao cho W giao với C_{n-1}. Bằng quy nạp theo n, nhờ Bổ đề 2, suy ra ngay rằng C_n là một hợp đếm được các thành phần thứ nhất của các cặp đặc biệt. Cuối cùng, mọi x' \in X đều thuộc một C_n nào đó; thật vậy, tồn tại một dãy hữu hạn
 

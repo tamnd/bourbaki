@@ -73,7 +73,7 @@ Một môđun con-K N của M ổn định đối với phép nhân được tra
 
 Cho $M_1$ và $M_2$ là hai đại số trên $K$ và $\phi$ là một ánh xạ từ $M_1$ vào $M_2$. $\phi$ được gọi là một *đồng cấu* nếu $\phi$ là $K$-tuyến tính và $\phi(xy) = \phi(x)\phi(y)$ với $x \in M_1, y \in M_1$. Hạt nhân $N$ của $\phi$ là một iđêan hai phía của $M_1$ và ảnh của $\phi$ là một đại số con của $M_2$. Khi chuyển qua thương, $\phi$ xác định một đẳng cấu từ đại số $M_1/N$ lên đại số $\phi(M_1)$.
 
-Cho $M$ là một đại số trên $K$. Một ánh xạ $D$ từ $M$ vào $M$ được gọi là một *đạo hàm* của $M$ nếu nó là $K$-tuyến tính và $D(xy) = (Dx)y + x(Dy)$ với mọi $x \in M$ và $y \in M$. Định nghĩa này khái quát hóa Định nghĩa 3 của *Algebra*, Chương IV, § 4, no. 3. Hạt nhân của một đạo hàm của $M$ là một đại số con của $M$. Nếu $D_1$ và $D_2$ là các đạo hàm của $M$, thì $D_1D_2 - D_2D_1$ là một đạo hàm của $M$ (xem *Algebra*, Chương IV, § 4, no. 3, Mệnh đề 5: chứng minh của mệnh đề này không dùng tính kết hợp của đại số).
+Cho $M$ là một đại số trên $K$. Một ánh xạ $D$ từ $M$ vào $M$ được gọi là một *đạo hàm* của $M$ nếu nó là $K$-tuyến tính và $D(xy) = (Dx)y + x(Dy)$ với mọi $x \in M$ và $y \in M$. Định nghĩa này khái quát hóa Định nghĩa 3 của *Đại số*, Chương IV, § 4, no. 3. Hạt nhân của một đạo hàm của $M$ là một đại số con của $M$. Nếu $D_1$ và $D_2$ là các đạo hàm của $M$, thì $D_1D_2 - D_2D_1$ là một đạo hàm của $M$ (xem *Đại số*, Chương IV, § 4, no. 3, Mệnh đề 5: chứng minh của mệnh đề này không dùng tính kết hợp của đại số).
 
 Cho $M_1$ và $M_2$ là hai đại số trên $K$. Trên K-môđun tích $M = M_1 \times M_2$ ta định nghĩa một phép nhân bằng cách viết
 
@@ -311,7 +311,7 @@ là một mở rộng của $b$ bởi $a$ và $n$ là hạt nhân của nó.
 
 (b) *Ngược lại, nếu tồn tại một đồng cấu ν từ b vào g sao cho μ ∘ ν là tự đẳng cấu đồng nhất của b, thì ν(b) là một đại số con bù với n trong g.*
 
-Các khẳng định của (a) là ngay lập tức. Mặt khác, giả sử ν là một đồng cấu từ b vào g sao cho μ ∘ ν là tự đẳng cấu đồng nhất của b. Khi đó ν(b) là một đại số con của g và g là tổng trực tiếp của ν(b) và $\mu^{-1}(0) = n$ (*Algebra*, Chương VIII, § 1, no. 1).
+Các khẳng định của (a) là ngay lập tức. Mặt khác, giả sử ν là một đồng cấu từ b vào g sao cho μ ∘ ν là tự đẳng cấu đồng nhất của b. Khi đó ν(b) là một đại số con của g và g là tổng trực tiếp của ν(b) và $\mu^{-1}(0) = n$ (*Đại số*, Chương VIII, § 1, no. 1).
 
 #### Định nghĩa 6 {#lie-i-s1-def-6 .statement}
 

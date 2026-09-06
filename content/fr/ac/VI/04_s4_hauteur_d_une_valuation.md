@@ -30,9 +30,9 @@ subsections:
       title: Valuations de hauteur 1
       page: 0
       pdf_page: 111
-statements: 21
+statements: 23
 exercises: 5
-content_sha256: 0209a2c1e17c27a25e4b2e6adac03cd81c288c48ee3e43def8754a65dcc61265
+content_sha256: d025f1050b2db87ffe5603ecdd7429e10ecac3f7ec29fa98a51e8556b531c859
 ---
 
 ## § 4. Hauteur d’une valuation.
@@ -171,8 +171,14 @@ Soit G un groupe totalement ordonné. Si le nombre des sous-groupes isolés de G
 #### Exemple 1 {#ac-vi-s4-n4-exa-1 .statement}
 
 La hauteur du groupe G = {0} est 0.
-2) Les groupes $\mathbf{Z}$ et $\mathbf{R}$ sont de hauteur 1.
-3) Soient G un groupe totalement ordonné et H un sous-groupe isolé de G. Si l’on désigne par $h(H)$ et $h(G/H)$ les hauteurs des groupes totalement ordonnés H et G/H, on a
+
+#### Exemple 2 {#ac-vi-s4-n4-exa-2 .statement}
+
+Les groupes $\mathbf{Z}$ et $\mathbf{R}$ sont de hauteur 1.
+
+#### Exemple 3 {#ac-vi-s4-n4-exa-3 .statement}
+
+Soient G un groupe totalement ordonné et H un sous-groupe isolé de G. Si l’on désigne par $h(H)$ et $h(G/H)$ les hauteurs des groupes totalement ordonnés H et G/H, on a
 $$
 h(G) = h(H) + h(G/H),
 $$

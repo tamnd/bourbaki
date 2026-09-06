@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: 09fd70717b7daf3cbe03d7594ea4145d6c11de6e9c8160e0f7fb787cea475730
+content_sha256: ef92dbc730b2086942d02f3676846dff8b98d930e65d782c26e8d4d97503996e
 translated_from: content/en-mt/ts/V/03_s3_fonctions_de_type_positif.md
 source_lang: en-mt
 translation_method: machine
@@ -805,11 +805,11 @@ $$
 (\psi *\varphi )(g) =\int_G\psi (h)\varphi (h^{-1}g)d\mu(h)
 $$
 
-$=\int_G\psi (gy)\check{\varphi}(y)d\mu(y) =\langle \check{\varphi ,}\boldsymbol{\gamma }$[^1]$_G(g^{-1})\psi \rangle$ với mọi $g\in G$. Suy ra ánh xạ tuyến tính $u:\varphi \mapsto \psi *\varphi$ là một ánh xạ liên tục từ không gian $L^{\infty}(G)$ được trang bị tôpô yếu vào $\mathscr{C}_b(G)$ được trang bị tôpô hội tụ đơn.
+$=\int_G\psi (gy)\check{\varphi}(y)d\mu(y) =\langle \check{\varphi ,}\boldsymbol{\gamma }^{(1)}_G(g^{-1})\psi \rangle$ với mọi $g\in G$. Suy ra ánh xạ tuyến tính $u:\varphi \mapsto \psi *\varphi$ là một ánh xạ liên tục từ không gian $L^{\infty}(G)$ được trang bị tôpô yếu vào $\mathscr{C}_b(G)$ được trang bị tôpô hội tụ đơn.
 
 Cho $\varphi \in B$ và $(g, h)\in G\times G$. Theo công thức trên, ta có
 
-$|u(\varphi )(g)-u(\varphi )(h)|\leqslant \|\check{\varphi}\|_{\infty}\|(\boldsymbol{\gamma }$[^1]$_G(g^{-1})-\boldsymbol{\gamma }$[^1]$_G(h^{-1}))\psi \|_1$.
+$|u(\varphi )(g)-u(\varphi )(h)|\leqslant \|\check{\varphi}\|_{\infty}\|(\boldsymbol{\gamma }^{(1)}_G(g^{-1})-\boldsymbol{\gamma }^{(1)}_G(h^{-1}))\psi \|_1$.
 
 Vì B bị chặn và biểu diễn chính quy trái của G trong $L^1(G)$ là liên tục (No. 4 của V, p. 405), điều này suy ra rằng $u(B)$ là một tập con đồng liên tục của $\mathscr{C}_b(G)$. Mệnh đề khi đó suy ra từ điều nói trên và từ TG, X, p. 16, đl. 1.
 

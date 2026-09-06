@@ -1615,7 +1615,7 @@ $$
 I_K= [\lambda -1/(K + 1), \lambda + 1/(K + 1)]-\{0\}
 $$
 
-Vì phép chiếu phổ của $u$ ứng với $I_K\cup  \{0\}$ có hạng vô hạn (lemma 9 of IV, p. 297) và phép chiếu ứng với $\{\lambda \}$ được giả sử là có hạng hữu hạn, từ prop. 8 of IV, p. 278 ta suy ra rằng tồn tại một dãy tăng ngặt $(k_n)_{n\in\mathbf{N}}$ trong $\mathbf{N}$ sao cho phép chiếu phổ $p_n$ của $u$ ứng với $J_{k_n}$ là khác không. Cho $x_n$ là một vectơ có chuẩn 1 trong ảnh của $p_n$. Dãy $(x_n)$ là trực chuẩn, vì ảnh của $p_n$ trực giao với ảnh của $p_m$ với mọi $n\not =m$ trong $\mathbf{N}$.
+Vì phép chiếu phổ của $u$ ứng với $I_K\cup  \{0\}$ có hạng vô hạn (Bổ đề 9 of IV, p. 297) và phép chiếu ứng với $\{\lambda \}$ được giả sử là có hạng hữu hạn, từ prop. 8 of IV, p. 278 ta suy ra rằng tồn tại một dãy tăng ngặt $(k_n)_{n\in\mathbf{N}}$ trong $\mathbf{N}$ sao cho phép chiếu phổ $p_n$ của $u$ ứng với $J_{k_n}$ là khác không. Cho $x_n$ là một vectơ có chuẩn 1 trong ảnh của $p_n$. Dãy $(x_n)$ là trực chuẩn, vì ảnh của $p_n$ trực giao với ảnh của $p_m$ với mọi $n\not =m$ trong $\mathbf{N}$.
 
 Cho $n\in \mathbf{N}$. Gọi $\mu_n$ là độ đo phổ của $x_n$ ứng với $u$; giá của nó được chứa trong $J_{k_n}$ (prop. 9 of IV, p. 278). Suy ra rằng
 

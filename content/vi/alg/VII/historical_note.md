@@ -55,7 +55,7 @@ Việc nghiên cứu các nghiệm nguyên của các phương trình vô địn
 
 \* Trong khi công trình của Diophantus về các bài toán vô định luôn được quy về các bài toán với một ẩn duy nhất, nhờ chọn số các ẩn còn lại sao cho có thể làm cho nghiệm của phương trình cuối cùng của ông trở nên khả dĩ, thì dường như lý do chủ yếu khiến ông dùng phương pháp này là ký hiệu của ông, vốn không cho phép ông tính với nhiều ẩn cùng một lúc; dù sao đi nữa, ông theo dõi các phép thế số mà ông đã thực hiện trong suốt phép tính, và sau đó nếu cần thì sửa đổi chúng bằng cách viết ra một điều kiện tương thích cho các biến đã thế, rồi giải bài toán phụ này trước. Nói cách khác, ông xử lý các giá trị số đã thế ấy giống như chúng ta xử lý các tham số, đến mức mà điều ông thực sự làm rốt cuộc là tìm một biểu diễn tham số hữu tỉ của một đa tạp đại số cho trước, hoặc của một đa tạp con của nó (cf. (II bis)).
 
-** Tuy nhiên, nhiều dấu hiệu cho thấy Diophantus có kiến thức số học cao hơn: chẳng hạn ông biết rằng phương trình x^2 - y^2 = n không có nghiệm hữu tỉ nếu n là một số nguyên có dạng 4k + 3 (Quyển V, bài toán 9 và Quyển VI, bài toán 14 ((II), vol. 1, pp. 332-335 and p. 425; cf. also (II bis), pp. 105-110)).
+** Tuy nhiên, nhiều dấu hiệu cho thấy Diophantus có kiến thức số học cao hơn: chẳng hạn ông biết rằng phương trình x^2 - y^2 = n không có nghiệm hữu tỉ nếu n là một số nguyên có dạng 4k + 3 (Quyển V, bài toán 9 và Quyển VI, bài toán 14 ((II), tập 1, tr. 332-335 và tr. 425; xem thêm (II bis), tr. 105-110)).
 
 *** Các bài toán thiên văn cũng là một trong những bài toán đã dẫn người Hindu đến việc xét loại phương trình này (cf. (III), vol. II, pp. 100, 117 and 135).
 
@@ -102,25 +102,7 @@ Vai trò của Tôpô trong « định lý cơ bản » vì thế đã được 
 
 Thư mục
 
-(I) Euclidis Elementa, 5 vol., ed. J. L. Heiberg, Lipsiae (Teubner), 1883-88.
-(I bis) T. L. Heath, The thirteen books of Euclid's Elements..., 3 vol., Cambridge, 1908.
-(II) Diophanti Alexandrini Opera Omnia..., 2 vol., ed. P. Tannery, Lipsiae (Teubner), 1893-95.
-(II bis) T. L. Heath, Diophantus of Alexandria, 2nd ed., Cambridge, 1910.
-(III) B. Datta and A. N. Singh, History of Hindu Mathematics, 2 vol., Lahore (Motilal Banarsí Das), 1935-38.
-(IV) S. Stevin, Les œuvres mathématiques..., ed. A. Girard, Leyde (Elsevier), 1634, vol. I.
-(V) L. Euler : a) Introductio in Analysin Infinitorum (Opera Omnia, (1), t. IX, Zürich-Leipzig-Berlin (O. Füssli and B. G. Teubner), 1945, p. 384); b) Theoria motus corporum solidorum seu rigidorum (Opera Omnia (2), t. III, Zurich-Leipzig-Berlin (B. G. Teubner), 1948, p. 200-201); c) Vollständige Anleitung zur Algebra (Opera Omnia (1), t. I, Leipzig-Berlin (Teubner), 1911, p. 422); d) Recherches sur les racines imaginaires des équations (Opera Omnia (1), t. VI, Leipzig-Berlin (Teubner), 1921, p. 78).
-(VI) J.-L. Lagrange, Œuvres, Paris (Gauthier-Villars), 1867-1892 : a) Solutions de divers problemes de Calcul integral, t. I, p. 520; b) Recherches sur les équations séculaires du mouvement des nœuds, t. VI, p. 655-666; c) Recherches d'arithmétique, t. III, p. 695-795; d) Sur la forme des racines imaginaires des équations, t. III, p. 479; e) Nouvelle solution du probleme de rotation d'un corps quelconque qui n'est animé par aucune force accélératrice, t. III, p. 579-616.
-(VII) P. S. Laplace : a) Mémoire sur les solutions particulières des equations différentielles et sur les inegalites seculaires des planetes (Œuvres, t. VIII, Paris (Gauthier-Villars), 1891, p. 325-366); b) Mémoire sur les inégalités seculaires des planetes et des satellites (Œuvres, t. XI, Paris (Gauthier-Villars), 1895, p. 49-92).
-(VIII) C. F. Gauss, Werke, t. I (Gottingen, 1870), t. II (ibid., 1876) et t. III (ibid., 1876).
-(VIII bis) Die vier Gauss'schen Beweise für die Zerlegung ganzer algebraischer Functionen in reelle Factoren ersten oder zweiten Grades (Ostwald's Klassiker, n° 14, Leipzig (Teubner), 1904).
-(IX) N. H. Abel, Œuvres, t. I, ed. Sylow and Lie, Christiania, 1881.
-(X) A. L. Cauchy : a) Leçons sur les applications du Calcul infinitésimal a la Géométrie (Œuvres complètes (2), t. V, Paris (Gauthier-Villars), 1903, p. 248); b) Sur l'équation a l'aide de laquelle on determine les inégalités séculaires des planetes (Œuvres complètes (2), t. IX, Paris (Gauthier-Villars), 1891, p. 174).
-(XI) P. G. Lejeune-Dirichlet, Werke, t. I, Berlin (G. Reimer), 1889, p. 619-644.
-(XII) E. Kummer, Zur Theorie der complexen Zahlen, J. de Crelle, t. XLIII (1847), p. 319 (Collected papers, vol. I, Heidelberg (Springer V.), 1975, p. 203).
-(XIII) Ch. Hermite, Œuvres, t. I, Paris (Gauthier-Villars), 1905.
-(XIV) J. J. Sylvester, Collected Mathematical Papers, vol. I, Cambridge, 1904 : An enumeration of the contacts of lines and surfaces of the second order, p. 219 (= Phil. Mag., 1851).
-(XV) W. R. Hamilton, Lectures on Quaternions, Dublin, 1853.
-(XVI) A. Cayley, Collected Mathematical Papers, Cambridge, 1889-1898 : A memoir on the theory of matrices, t. II. p. 475-496 (= Phil. Trans., 1858).
+(I) Euclidis Elementa, 5 tập, biên tập J. L. Heiberg, Lipsiae (Teubner), 1883-88. (I bis) T. L. Heath, The thirteen books of Euclid's Elements..., 3 tập, Cambridge, 1908. (II) Diophanti Alexandrini Opera Omnia..., 2 tập, biên tập P. Tannery, Lipsiae (Teubner), 1893-95. (II bis) T. L. Heath, Diophantus of Alexandria, lần xuất bản thứ 2, Cambridge, 1910. (III) B. Datta và A. N. Singh, History of Hindu Mathematics, 2 tập, Lahore (Motilal Banarsí Das), 1935-38. (IV) S. Stevin, Les œuvres mathématiques..., biên tập A. Girard, Leyde (Elsevier), 1634, tập I. (V) L. Euler : a) Introductio in Analysin Infinitorum (Opera Omnia, (1), t. IX, Zürich-Leipzig-Berlin (O. Füssli and B. G. Teubner), 1945, tr. 384); b) Theoria motus corporum solidorum seu rigidorum (Opera Omnia (2), t. III, Zurich-Leipzig-Berlin (B. G. Teubner), 1948, tr. 200-201); c) Vollständige Anleitung zur Algebra (Opera Omnia (1), t. I, Leipzig-Berlin (Teubner), 1911, tr. 422); d) Recherches sur les racines imaginaires des équations (Opera Omnia (1), t. VI, Leipzig-Berlin (Teubner), 1921, tr. 78). (VI) J.-L. Lagrange, Œuvres, Paris (Gauthier-Villars), 1867-1892 : a) Solutions de divers problemes de Calcul integral, t. I, tr. 520; b) Recherches sur les équations séculaires du mouvement des nœuds, t. VI, tr. 655-666; c) Recherches d'arithmétique, t. III, tr. 695-795; d) Sur la forme des racines imaginaires des équations, t. III, tr. 479; e) Nouvelle solution du probleme de rotation d'un corps quelconque qui n'est animé par aucune force accélératrice, t. III, tr. 579-616. (VII) P. S. Laplace : a) Mémoire sur les solutions particulières des equations différentielles et sur les inegalites seculaires des planetes (Œuvres, t. VIII, Paris (Gauthier-Villars), 1891, tr. 325-366); b) Mémoire sur les inégalités seculaires des planetes et des satellites (Œuvres, t. XI, Paris (Gauthier-Villars), 1895, tr. 49-92). (VIII) C. F. Gauss, Werke, t. I (Gottingen, 1870), t. II (cùng nơi, 1876) và t. III (cùng nơi, 1876). (VIII bis) Die vier Gauss'schen Beweise für die Zerlegung ganzer algebraischer Functionen in reelle Factoren ersten oder zweiten Grades (Ostwald's Klassiker, n° 14, Leipzig (Teubner), 1904). (IX) N. H. Abel, Œuvres, t. I, biên tập Sylow và Lie, Christiania, 1881. (X) A. L. Cauchy : a) Leçons sur les applications du Calcul infinitésimal a la Géométrie (Œuvres complètes (2), t. V, Paris (Gauthier-Villars), 1903, tr. 248); b) Sur l'équation a l'aide de laquelle on determine les inégalités séculaires des planetes (Œuvres complètes (2), t. IX, Paris (Gauthier-Villars), 1891, tr. 174). (XI) P. G. Lejeune-Dirichlet, Werke, t. I, Berlin (G. Reimer), 1889, tr. 619-644. (XII) E. Kummer, Zur Theorie der complexen Zahlen, J. de Crelle, t. XLIII (1847), tr. 319 (Collected papers, tập I, Heidelberg (Springer V.), 1975, tr. 203). (XIII) Ch. Hermite, Œuvres, t. I, Paris (Gauthier-Villars), 1905. (XIV) J. J. Sylvester, Collected Mathematical Papers, tập I, Cambridge, 1904 : An enumeration of the contacts of lines and surfaces of the second order, tr. 219 (= Phil. Mag., 1851). (XV) W. R. Hamilton, Lectures on Quaternions, Dublin, 1853. (XVI) A. Cayley, Collected Mathematical Papers, Cambridge, 1889-1898 : A memoir on the theory of matrices, t. II. tr. 475-496 (= Phil. Trans., 1858).
 
 (XVII) H. J. SMITH, Collected Mathematical Papers, vol. I, Oxford, 1894 ; On systems of linear indeterminate equations and congruences, p. 367 (Phil. Trans., 1861).
 (XVIII) E. SCHERING, Die fundamental Classen der zusammensetzbaren arithmetischen Formen, Abh. Ges. Göttingen, t. XIV (1868-69), p. 13.
@@ -134,63 +116,9 @@ Thư mục
 
 Chỉ mục ký hiệu
 
-A[(X_i)_{i \in I}], A[X_1, ..., X_n], X^\nu : IV, p. 1.
-$deg u$ : IV, p. 3.
-$f \circ g$ : IV, p. 4.
-D_i P, D_{x_i} P, \frac{\partial P}{\partial X_i}, P'_{x_i}, D^\nu, DP, \frac{dP}{dX}, P' : IV, p. 6.
-$\Delta^\nu$ : IV, p. 7.
-K((X_i)_{i \in I}), deg r : IV, p. 19 and 20.
-D_i f, D_{x_i} f, \frac{\partial f}{\partial X_i}, f'_{x_i}, Df, \frac{df}{dX}, f' : IV, p. 23.
-$A[[X_i)_{i \in I}]], A[[I]]$ : IV, p. 24.
-$\omega$ : IV, p. 25.
-u(x), u((x_i)_{i \in I}), u(x_1, ..., x_n) : IV, p. 29.
-$A", D", D_i$ : IV, p. 31 and 32.
-D_i u, D_{x_i} u, \frac{\partial u}{\partial X_i}, u'_{x_i}, Du, \frac{du}{dX} : IV, p. 32.
-$A\{I\}, f \circ g$ : IV, p. 29 and 36.
-$T_1$ : IV, p. 36.
-exp X, e^X, e(X), l(X) : IV, p. 39 and 40.
-$exp f, log g$ : IV, p. 40.
-M^H, Tr_{H/G} : IV, p. 41 and 42.
-TS^n(M), TS(M) : IV, p. 42.
-$\mathfrak{S}_{p|q}, \mathfrak{S}_{p,q}, \mathfrak{S}_{p_1|\cdots|p_n}$ : IV, p. 43.
-\gamma_k(x), x \in M : IV, p. 45.
-$\varphi_M, \psi_M$ : IV, p. 52.
-Pol_A^q(M, N), Pol^q(M, N) : IV, p. 55.
-Map(M, N), Pol_A(M, N), Pol(M, N) : IV, p. 57.
-s_k, s_{k,n}, A[X_1, ..., X_n]^{\text{sym}} : IV, p. 61.
-$S(\alpha), M(\alpha)$ : IV, p. 65 and 66.
-s_k, A[[X]]^{\text{sym}} : IV, p. 67 and 68.
-$\mathcal{B}_k$ : IV, p. 70.
-M(f, g, p, q), res_{p,q}(f, g), res(f, g) : IV, p. 76.
-dis(f), f monic polynomial : IV, p. 81.
-dis_m(f), f polynomial of degree \leq m : IV, p. 83.
-\Gamma(E), \Gamma_p(E), \gamma_p, \Gamma(h) : IV, p. 92, ex. 2.
-$Q, F_p$ : V, p. 1.
-S^{pf} : V, p. 4.
+A[(X_i)_{i \in I}], A[X_1, ..., X_n], X^\nu : IV, tr. 1. $deg u$ : IV, tr. 3. $f \circ g$ : IV, tr. 4. D_i P, D_{x_i} P, \frac{\partial P}{\partial X_i}, P'_{x_i}, D^\nu, DP, \frac{dP}{dX}, P' : IV, tr. 6. $\Delta^\nu$ : IV, tr. 7. K((X_i)_{i \in I}), deg r : IV, tr. 19 và 20. D_i f, D_{x_i} f, \frac{\partial f}{\partial X_i}, f'_{x_i}, Df, \frac{df}{dX}, f' : IV, tr. 23. $A[[X_i)_{i \in I}]], A[[I]]$ : IV, tr. 24. $\omega$ : IV, tr. 25. u(x), u((x_i)_{i \in I}), u(x_1, ..., x_n) : IV, tr. 29. $A", D", D_i$ : IV, tr. 31 và 32. D_i u, D_{x_i} u, \frac{\partial u}{\partial X_i}, u'_{x_i}, Du, \frac{du}{dX} : IV, tr. 32. $A\{I\}, f \circ g$ : IV, tr. 29 và 36. $T_1$ : IV, tr. 36. exp X, e^X, e(X), l(X) : IV, tr. 39 và 40. $exp f, log g$ : IV, tr. 40. M^H, Tr_{H/G} : IV, tr. 41 và 42. TS^n(M), TS(M) : IV, tr. 42. $\mathfrak{S}_{p|q}, \mathfrak{S}_{p,q}, \mathfrak{S}_{p_1|\cdots|p_n}$ : IV, tr. 43. \gamma_k(x), x \in M : IV, tr. 45. $\varphi_M, \psi_M$ : IV, tr. 52. Pol_A^q(M, N), Pol^q(M, N) : IV, tr. 55. Ánh xạ(M, N), Pol_A(M, N), Pol(M, N) : IV, tr. 57. s_k, s_{k,n}, A[X_1, ..., X_n]^{\text{sym}} : IV, tr. 61. $S(\alpha), M(\alpha)$ : IV, tr. 65 và 66. s_k, A[[X]]^{\text{sym}} : IV, tr. 67 và 68. $\mathcal{B}_k$ : IV, tr. 70. M(f, g, p, q), res_{p,q}(f, g), res(f, g) : IV, tr. 76. dis(f), đa thức monic f : IV, tr. 81. dis_m(f), đa thức f có bậc \leq m : IV, tr. 83. \Gamma(E), \Gamma_p(E), \gamma_p, \Gamma(h) : IV, tr. 92, bt. 2. $Q, F_p$ : V, tr. 1. S^{pf} : V, tr. 4.
 
-$K[S]$ : V, p. 4.
-$S^{p^{-f}}, A^{p^{-\infty}}$: V, p. 5 and 6.
-[A : K]: V, p. 10.
-K(x_i), K(x), K(x_1, ..., x_n): V, p. 10.
-h(L), [A : K], $\mathcal{H}(A)$: V, p. 31.
-$E_s$ : V, p. 44.
-$[E:K]_s, [E:K],$ : V, p. 31 and 46.
-$N_{A/K}(x), \mathrm{Tr}_{A/K}(x), D_{A/K}(x_1, ..., x_n)$ : V, p. 47.
-$Gal(N/K)$ : V, p. 58.
-$k(\Delta), g(E)$ : V, p. 67.
-K_{ab}: V, p. 77.
-$\mu_m(K), \mu_\infty(K), \mathbf{Z}[1/p]$: V, p. 78.
-$\mu_{l^\infty}(K)$: V, p. 79.
-$\varphi(n)$: V, p. 79.
-R_n(K), \Phi_n, \chi_n: V, p. 81.
-K(A^{1/n}), \langle \sigma, a \rangle: V, p. 88.
-$\mathfrak{g}, K(\mathfrak{g}^{-1}(A))$, [u, a]: V, p. 91.
-F_q(\Omega), F_q: V, p. 95.
-Z_l, Z: V, p. 96.
-$\sigma_q$: v, p. 97.
-$\varphi_n$: V, p. 97.
-deg.tr_K E: V, p. 110.
-f^A: V, p. 127.
+$K[S]$ : V, tr. 4. $S^{p^{-f}}, A^{p^{-\infty}}$: V, tr. 5 và 6. [A : K]: V, tr. 10. K(x_i), K(x), K(x_1, ..., x_n): V, tr. 10. h(L), [A : K], $\mathcal{H}(A)$: V, tr. 31. $E_s$ : V, tr. 44. $[E:K]_s, [E:K],$ : V, tr. 31 và 46. $N_{A/K}(x), \mathrm{Tr}_{A/K}(x), D_{A/K}(x_1, ..., x_n)$ : V, tr. 47. $Gal(N/K)$ : V, tr. 58. $k(\Delta), g(E)$ : V, tr. 67. K_{ab}: V, tr. 77. $\mu_m(K), \mu_\infty(K), \mathbf{Z}[1/p]$: V, tr. 78. $\mu_{l^\infty}(K)$: V, tr. 79. $\varphi(n)$: V, tr. 79. R_n(K), \Phi_n, \chi_n: V, tr. 81. K(A^{1/n}), \langle \sigma, a \rangle: V, tr. 88. $\mathfrak{g}, K(\mathfrak{g}^{-1}(A))$, [u, a]: V, tr. 91. F_q(\Omega), F_q: V, tr. 95. Z_l, Z: V, tr. 96. $\sigma_q$: v, tr. 97. $\varphi_n$: V, tr. 97. deg.tr_K E: V, tr. 110. f^A: V, tr. 127.
 
 $\chi(f), f$ là một ánh xạ tuyến tính: V, p. 132.
 
@@ -478,18 +406,7 @@ Chương IV. — Đa thức và phân thức hữu tỉ ............ IV.1
     9. Trường phân thức của vành chuỗi lũy thừa hình thức theo một ẩn trên một trường ....................... IV.38
    10. Hàm mũ và lôgarit .................................. IV.39
 
-§ 5. Các tensor đối xứng và các ánh xạ đa thức ......................... IV.41
-    1. Vết tương đối .................................................. IV.41
-    2. Định nghĩa của các tensor đối xứng ................................. IV.42
-    3. Tích cho các tensor đối xứng .................................. IV.43
-    4. Lũy thừa chia .................................................. IV.45
-    5. Các tensor đối xứng trên một môđun tự do .......................... IV.47
-    6. Hàm tử TS .................................................. IV.48
-    7. Đồng tích cho các tensor đối xứng ................................. IV.50
-    8. Quan hệ giữa TS(M) và S(M) .............................. IV.52
-    9. Các ánh xạ đa thức thuần nhất ................................. IV.54
-   10. Các ánh xạ đa thức ............................................. IV.57
-   11. Quan hệ giữa S(M*), TS(M)*gr và Pol(M, A) ......... IV.59
+§ 5. Các tenxơ đối xứng và các ánh xạ đa thức ......................... IV.41 1. Vết tương đối .................................................. IV.41 2. Định nghĩa của các tenxơ đối xứng ................................. IV.42 3. Tích cho các tenxơ đối xứng .................................. IV.43 4. Lũy thừa chia .................................................. IV.45 5. Các tenxơ đối xứng trên một môđun tự do .......................... IV.47 6. Hàm tử TS .................................................. IV.48 7. Đồng tích cho các tenxơ đối xứng ................................. IV.50 8. Quan hệ giữa TS(M) và S(M) .............................. IV.52 9. Các ánh xạ đa thức thuần nhất ................................. IV.54 10. Các ánh xạ đa thức ............................................. IV.57 11. Quan hệ giữa S(M*), TS(M)*gr và Pol(M, A) ......... IV.59
 
 § 6. Các hàm đối xứng ............................................. IV.61
     1. Các đa thức đối xứng .......................................... IV.61
@@ -528,8 +445,7 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
 § 3. Các mở rộng đại số ......................................... V.15
     1. Các phần tử đại số của một đại số ........................... V.15
 
-2. Algebraic extensions ..................................................... V.17
-3. Transitivity of algebraic extensions. Fields that are relatively algebraically closed in an extension field ............ V.19
+2. Các mở rộng đại số ..................................................... V.17 3. Tính bắc cầu của các mở rộng đại số. Các trường tương đối đóng đại số trong một trường mở rộng ............ V.19
 
 § 4. Các mở rộng đóng đại số ............................................. V.19
     1. Các trường đóng đại số ............................................. V.19
@@ -576,14 +492,7 @@ CHƯƠNG V. — CÁC TRƯỜNG GIAO HOÁN .................................. V.1
     2. Nhóm Galois ..................................................... V.58
     3. Tôpô của nhóm Galois ...................................... V.60
 
-4. Galois descent .................................................. V.62
-5. Galois cohomology ............................................. V.64
-6. Artin’s theorem ............................................... V.65
-7. The fundamental theorem of Galois theory ............... V.67
-8. Change of base field ......................................... V.69
-9. The normal basis theorem .................................... V.72
-10. Finite $\Gamma$-sets and etale algebras .................. V.75
-11. The structure of quasi-Galois extensions ................. V.76
+4. Sự hạ xuống Galois .................................................. V.62 5. Đồng điều Galois ............................................. V.64 6. Định lý Artin ............................................... V.65 7. Định lý cơ bản của lý thuyết Galois ............... V.67 8. Thay đổi trường cơ sở ......................................... V.69 9. Định lý cơ sở chuẩn .................................... VII.72 10. Các tập $\Gamma$ hữu hạn và các đại số etale .................. V.75 11. Cấu trúc của các mở rộng giả-Galois ................. V.76
 
 § 11. Các mở rộng Abel ........................................ V.77
     1. Các mở rộng Abel và bao đóng Abel ............ V.77
@@ -672,12 +581,7 @@ CHƯƠNG VI. — NHÓM VÀ TRƯỜNG CÓ THỨ TỰ ............................
     6. Các phép toán sơ cấp trên các nhóm có thứ tự .................. VI.7
     7. Các đồng cấu tăng của các nhóm có thứ tự ............. VI.7
 
-8. Suprema and infima in an ordered group ......................... VI.8
-9. Lattice-ordered groups ............................................. VI.10
-10. The decomposition theorem ....................................... VI.11
-11. Positive and negative parts ...................................... VI.12
-12. Coprime elements .................................................. VI.13
-13. Irreducible elements ............................................... VI.17
+8. Cực thượng và cực hạ trong một nhóm có thứ tự ......................... VI.8 9. Các nhóm có thứ tự mạng ............................................. VI.10 10. Định lý phân rã ....................................... VI.11 11. Các phần dương và âm ...................................... VI.12 12. Các phần tử nguyên tố cùng nhau .................................................. VI.13 13. Các phần tử bất khả quy ............................................... VI.17
 
 § 2. Trường có thứ tự ............................................................ VI.19
     1. Vành có thứ tự ....................................................... VI.19
@@ -715,10 +619,7 @@ CHƯƠNG VII. — CÁC MÔĐUN TRÊN CÁC MIỀN IĐÊAN CHÍNH ........ VII.1
     4. Cấu trúc của các môđun sinh hữu hạn ............................... VII.19
     5. Tính toán các nhân tử bất biến ..................................... VII.20
 
-6. Linear mappings of free modules. and matrices over a principal ideal domain .................................................. VII.21
-7. Finitely generated abelian groups .................................................. VII.22
-8. Indecomposable modules. Elementary divisors ............ VII.23
-9. Duality in modules of finite length over a principal ideal domain ............................................................. VII.25
+6. Các ánh xạ tuyến tính của các modun tự do. và các ma trận trên một vành iđêan chính .................................................. VII.21 7. Các nhóm abel hữu hạn sinh .................................................. VII.22 8. Các modun không phân rã được. Các ước tử sơ cấp ............ VII.23 9. Đối ngẫu trong các modun độ dài hữu hạn trên một vành iđêan chính ............................................................. VII.25
 
 § 5. Các tự đồng cấu của không gian vectơ ........................................ VII.28
     1. Môđun liên kết với một tự đồng cấu ............................... VII.28

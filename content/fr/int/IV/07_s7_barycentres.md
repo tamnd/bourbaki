@@ -7,7 +7,7 @@ section: 7
 section_title: Barycentres
 lang: fr
 source: int-i-iv-fr
-pdf_pages: 0219-0238, 0267-0293
+pdf_pages: 0219-0238, 0267-0275
 extraction: ocr
 subsections:
     - "no": 1
@@ -35,7 +35,7 @@ subsections:
       page: 0
       pdf_page: 235
 statements: 29
-exercises: 3
+exercises: 1
 content_sha256: e97fd0f41e7d621fb14994516f11d408708f0959271b4f7db32957daf87aea55
 ---
 

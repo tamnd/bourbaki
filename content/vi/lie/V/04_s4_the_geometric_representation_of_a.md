@@ -572,7 +572,7 @@ Cho $C_0$ là một buồng của $A$ và cho $S$ là tập hợp các phép đ�
 Do đó ta có thể áp dụng các xây dựng trước đó cho $M$. Với cùng ký hiệu như trên, $(\varepsilon_s | \varepsilon_t) = (\eta_s | \eta_t)$ và tồn tại duy nhất một đẳng cấu $\varphi$ của các không gian Hilbert từ $T$ đến không gian các phép tịnh tiến của $A$ sao cho $\varphi(\varepsilon_s) = \eta_s$. Cho $a$ và $b$ là hai đỉnh phân biệt của $C_0$ và $s_0$ là phép đối xứng trong $S$ sao cho $a \notin N_{s_0}$. Đặt $\lambda = (\eta_s | a - b)$ và cho $\psi$ là song ánh affine từ $A_M$ đến $A$ được xác định bởi
 
 $$
-\psi(a_{s_0} + x) = a + v_{s_0} \lambda \varphi(x) \quad \text{for } x \in T.
+\psi(a_{s_0} + x) = a + v_{s_0} \lambda \varphi(x) \quad \text{với } x \in T.
 $$
 
 Sau đó ta có ngay lập tức $\psi(L_s) = N_s$ với mọi $s \in S$ và $\psi$ biến tích vô hướng của $A_M$ thành một bội của tích vô hướng trên $A$. Suy ra ngay rằng $\psi$ giao hoán với tác động của $W$. Cuối cùng, tính duy nhất của $\psi$ là hiển nhiên, vì chẳng hạn $a_s$ là điểm duy nhất của $A_M$ bất biến đối với các phép phản xạ $t \in S, t \neq s$.

@@ -38,9 +38,9 @@ subsections:
       title: Le groupe des classes de modules inversibles.
       page: 0
       pdf_page: 148
-statements: 33
+statements: 34
 exercises: 25
-content_sha256: 1c0f1337338e5670b4becab836d2ddb70623f0a03c9fc1acc2628be34f187ea5
+content_sha256: 73e82535c87aba6ad2392ab2acb3ae8c7f820749dc94b8469668b9d25cc54652
 ---
 
 ## § 5. Modules projectifs de type fini Idéaux fractionnaires inversibles
@@ -135,7 +135,10 @@ En effet, si P est un A-module plat de présentation finie, et m un idéal maxim
 #### Remarque 1 {#ac-ii-s5-n2-rem-1 .statement}
 
 Il existe des modules plats de type fini qui ne sont pas projectifs (exerc. 7).
-2) Le cor. 2 du th. 1 s’étend aux modules sur un anneau non commutatif (chap. I, § 2, exerc. 15).
+
+#### Remarque 2 {#ac-ii-s5-n2-rem-2 .statement}
+
+Le cor. 2 du th. 1 s’étend aux modules sur un anneau non commutatif (chap. I, § 2, exerc. 15).
 
 ### 3. Rangs des modules projectifs.
 

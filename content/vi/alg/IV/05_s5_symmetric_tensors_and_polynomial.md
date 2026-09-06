@@ -814,7 +814,7 @@ Tiếp theo giả sử ánh xạ $y \mapsto q!y$ trong N là đơn ánh; khi đ�
 
 #### Định nghĩa 4 {#alg-iv-s5-def-4 .statement}
 
-— *Cho M và N là các A-môđun và giả sử rằng M là tự do. Ký hiệu Map(M, N) là A-môđun của mọi ánh xạ từ M vào N. Môđun con $\sum_{q > 0} \mathbf{Pol}_A^q(M, N)$ của Map(M, N) được ký hiệu là $\mathbf{Pol}_A(M, N)$ hoặc đơn giản là $\mathbf{Pol}(M, N)$; các phần tử của nó được gọi là các ánh xạ đa thức từ M vào N.*
+— *Cho M và N là các A-môđun và giả sử rằng M là tự do. Ký hiệu ánh xạ(M, N) là A-môđun của mọi ánh xạ từ M vào N. Môđun con $\sum_{q > 0} \mathbf{Pol}_A^q(M, N)$ của ánh xạ(M, N) được ký hiệu là $\mathbf{Pol}_A(M, N)$ hoặc đơn giản là $\mathbf{Pol}(M, N)$; các phần tử của nó được gọi là các ánh xạ đa thức từ M vào N.*
 
 Cho $(e_i)_{i \in I}$ là một cơ sở của M và giả sử rằng $l$ là hữu hạn; theo Mệnh đề 13 (IV, p. 54), một ánh xạ $f$ từ M vào N là đa thức khi và chỉ khi tồn tại một đa thức F theo các ẩn số $X_i$ với hệ số trong N sao cho
 

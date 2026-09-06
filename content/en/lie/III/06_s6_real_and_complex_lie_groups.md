@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: e19e9dd5de2d96fb494baeac00a1fd1f2129ff269a2cd6a7f015d4d82fc36a58
+content_sha256: debc9e4f97118a82ab8d600d7699e2b315abf393c059176f936e6730a44cca5f
 ---
 
 ## § 6. REAL AND COMPLEX LIE GROUPS
@@ -849,7 +849,7 @@ and hence $\phi \circ \pi = \phi^* \circ \sigma$. Therefore $\phi^*(\sigma(F)) =
 $$
 \sigma(F) \subset \mathrm{Ker}\, \phi^*.
 $$
-Let P be the intersection of the $\mathrm{Ker}\, \phi^*$ for variable $\phi$. This is a normal Lie subgroup of S' (no. 2, Corollary 3 to Proposition 1). Let $\tilde{G} = S'/P$ and λ: S' → \tilde{G} be the canonical morphism. Then σ(F) ⊂ P and hence there exists one and only one R-analytic morphism γ of G into \tilde{G} such that γ ∘ π = λ ∘ σ. If ψ: \tilde{G} → H denotes the morphism derived from φ* when passing to the quotient, then
+Let P be the intersection of the $\mathrm{Ker}\, \phi^*$ for variable $\phi$. This is a normal Lie subgroup of S' (no. 2, Corollary 3 to Proposition 1). Let $\tilde{G} = S'/P$ and λ: S' → Ġ be the canonical morphism. Then σ(F) ⊂ P and hence there exists one and only one R-analytic morphism γ of G into Ġ such that γ ∘ π = λ ∘ σ. If ψ: Ġ → H denotes the morphism derived from φ* when passing to the quotient, then
 
 $$(φ ∘ γ) ∘ π = ψ ∘ (λ ∘ σ) = φ^* ∘ σ = φ ∘ π$$
 

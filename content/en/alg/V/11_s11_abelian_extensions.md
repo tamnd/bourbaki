@@ -50,7 +50,7 @@ subsections:
       pdf_page: 205
 statements: 45
 exercises: 23
-content_sha256: 43c5af3342ac0bbbafe453022e04b05ece3c6ec94573a34e2d29b581bf13d362
+content_sha256: eaa826bc9a37a72bf6f16905e7367e09dee16967336ee35e8c2913ec5a31d9d0
 ---
 
 ## § 11. ABELIAN EXTENSIONS
@@ -547,7 +547,7 @@ There exists a largest abelian extension of exponent dividing $n$ of K, containe
 
 #### Example 2 {#alg-v-s11-n8-exa-2 .statement}
 
-Let us take $K = \mathbf{Q}$ and $n = 2$. Then $\mathbf{Q}^*/\mathbf{Q}^{*2}$ is a vector $\mathbf{F}_2$-space having as a basis the union of $\{-1\}$ and the set of all prime numbers. The largest abelian extension of exponent 2 of Q contained in $\mathbf{C}$ is thus the subfield $\mathbf{Q}(i, \sqrt{2}, \sqrt{3}, \sqrt{5}, \ldots)$ of $\mathbf{C}$. Its Galois group consists of all the automorphisms obtained by multiplying each of the elements $i,\ \sqrt{2},\ \sqrt{3},\ \sqrt{5}$ etc. by $\pm 1$. \*
+\* Let us take $K = \mathbf{Q}$ and $n = 2$. Then $\mathbf{Q}^*/\mathbf{Q}^{*2}$ is a vector $\mathbf{F}_2$-space having as a basis the union of $\{-1\}$ and the set of all prime numbers. The largest abelian extension of exponent 2 of Q contained in $\mathbf{C}$ is thus the subfield $\mathbf{Q}(i, \sqrt{2}, \sqrt{3}, \sqrt{5}, \ldots)$ of $\mathbf{C}$. Its Galois group consists of all the automorphisms obtained by multiplying each of the elements $i,\ \sqrt{2},\ \sqrt{3},\ \sqrt{5}$ etc. by $\pm 1$. \*
 
 #### Example 3 {#alg-v-s11-n8-exa-3 .statement}
 

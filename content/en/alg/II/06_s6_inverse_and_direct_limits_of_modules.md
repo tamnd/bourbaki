@@ -26,7 +26,7 @@ subsections:
       pdf_page: 313
 statements: 17
 exercises: 4
-content_sha256: a23c1a21c755e7c0e92d6ebb553b20bdb18fd6742e53a1fb787597d12a930e81
+content_sha256: 0071494e46f0d6a4a97c19ea9a8d779c617f3943739c71f4a78db61ff9daaa81
 ---
 
 ## § 6. INVERSE AND DIRECT LIMITS OF MODULES
@@ -291,7 +291,9 @@ Loosely speaking, Proposition 7 may be expressed by saying that *tensor products
 
 #### Corollary 1 {#alg-ii-s6-prop-7-cor-1 .statement}
 
-*Let* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *be another direct system of right* (resp. *left*) *$A_\alpha$*-*modules; for all* $\alpha \in I$, *let* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *be an* $A_\alpha$-linear mapping such that $(u_\alpha)$ (resp. $(v_\alpha)$) is a direct system. Then $(u_\alpha \oplus v_\alpha)$ is a direct system of $\mathbf{Z}$-linear mappings and the diagram
+*Let* $(E'_\alpha, f'_{\beta \alpha})$ (resp. $(F'_\alpha, g'_{\alpha \beta})$) *be another direct system of right* (resp. *left*) *$A_\alpha$*-*modules; for all* $\alpha \in I$, *let* $u_\alpha : E_\alpha \to E'_\alpha$ (resp. $v_\alpha : F_\alpha \to F'_\alpha$) *be an*
+
+A_\alpha\text{-linear mapping such that } (u_\alpha) \text{ (resp. } (v_\alpha)) \text{ is a direct system. Then } (u_\alpha \oplus v_\alpha) \text{ is a direct system of } \mathbf{Z}\text{-linear mappings and the diagram}
 
 $$
 \begin{array}{ccc}

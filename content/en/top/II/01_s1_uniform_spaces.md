@@ -19,9 +19,9 @@ subsections:
       title: TOPOLOGY OF A UNIFORM SPACE
       page: 171
       pdf_page: 177
-statements: 13
+statements: 14
 exercises: 5
-content_sha256: dc8b007352158f412e69b7b71913949ecc71b6302a8995f83a3b041d77323d26
+content_sha256: d92a60522418756e75c234b53bc1c80d483187bb925d0ccb23bcb1dd04cb3761
 ---
 
 ## 1. UNIFORM SPACES
@@ -111,7 +111,10 @@ these conditions follows immediately from the fact that the entourages of $\math
 #### Example 1 {#top-ii-s1-n2-exa-1 .statement}
 
 The topology induced by the additive uniformity on the set of real numbers is the topology of the real line (Chapter I, § 1, no. 2); similarly the topology induced by the additive uniformity on the set of rational numbers is the topology of the rational line.*
-2) On any set $X$, the topology induced by the discrete uniformity (no. 1, Example 2) is the discrete topology.
+
+#### Example 2 {#top-ii-s1-n2-exa-2 .statement}
+
+On any set $X$, the topology induced by the discrete uniformity (no. 1, Example 2) is the discrete topology.
 
 In the future, when we speak of the topology of a uniform space $X$, we shall always mean the topology induced by the uniform structure of the space, unless the contrary is expressly stated. The topological space obtained by putting this topology on the set $X$ is sometimes called the topological space *underlying* the uniform space in question. For example, when we say that a uniform space is *Hausdorff*, or *compact*, or *locally compact*, etc., we mean that the underlying topological space has this property.
 

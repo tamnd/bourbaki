@@ -88,7 +88,7 @@ Ngược lại, cho $f$ là một nơi của K với các giá trị trong $K'$ 
 
 *Một nhóm con H của một nhóm có thứ tự G được gọi là cô lập nếu các quan hệ $0 \leq y \leq x$ và $x \in H$ kéo theo $y \in H$.*
 
-Ví dụ (1) Cho $A$ và $B$ là hai nhóm có thứ tự; trang bị cho $A \times B$ thứ tự từ điển (nghĩa là "$(a, b) \leq (a', b')$" tương đương với "$(a < a') \text{ or } (a = a' \text{ and } b \leq b')$"). Nhân tử thứ hai $B$ của $A \times B$ khi đó, như thấy ngay lập tức, là một nhóm con cô lập của $A \times B$.
+Ví dụ (1) Cho $A$ và $B$ là hai nhóm có thứ tự; trang bị cho $A \times B$ thứ tự từ điển (nghĩa là "$(a, b) \leq (a', b')$" tương đương với "$(a < a') \text{ hoặc } (a = a' \text{ và } b \leq b')$"). Nhân tử thứ hai $B$ của $A \times B$ khi đó, như thấy ngay lập tức, là một nhóm con cô lập của $A \times B$.
 
 #### Mệnh đề 3 {#ac-vi-s4-prop-3 .statement}
 

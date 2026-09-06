@@ -423,9 +423,9 @@ suy ra từ ánh xạ chính tắc $k \to A$ là đơn ánh.
 
 Ký hiệu bởi $d_k : k \to \Omega_{k_0}(k)$ và $d_A : A \to \Omega_{k_0}(A)$ các đạo hàm $k_0$-phổ quát.
 
-Trước hết giả sử rằng $A$ là trơn hình thức trên $k$ đối với tôpô $m$-adic. Khi đó $A$ là trơn hình thức trên $k_0$ đối với tôpô $m$-adic (No. 2, Prop. 3, a)), điều này tương đương với (i) (No. 5, Theorem 2). Hơn nữa, đạo hàm $k_0$ $\lambda \mapsto 1 \otimes d_k(\lambda)$ của $k$ vào $A/m \otimes_k \Omega_{k_0}(k)$ có thể được mở rộng thành một đạo hàm $k_0$ của $A$ vào $A/m \otimes_k \Omega_{k_0}(k)$ (No. 2, Remark 2). Do đó tồn tại một ánh xạ $A$-tuyến tính $u : \Omega_{k_0}(A) \to A/m \otimes_k \Omega_{k_0}(k)$ sao cho $u(d_A(\lambda 1_A)) = 1 \otimes d_k(\lambda)$ với mọi $\lambda \in k$. Ánh xạ $A/m$-tuyến tính $A/m \otimes_A \Omega_{k_0}(A) \longrightarrow A/m \otimes_k \Omega_{k_0}(k)$ suy ra từ $u$ là một phép co rút của $\omega$, điều này chứng minh (ii).
+Trước hết giả sử rằng $A$ là trơn hình thức trên $k$ đối với tôpô $m$-adic. Khi đó $A$ là trơn hình thức trên $k_0$ đối với tôpô $m$-adic (No. 2, Prop. 3, a)), điều này tương đương với (i) (No. 5, Định lý 2). Hơn nữa, đạo hàm $k_0$ $\lambda \mapsto 1 \otimes d_k(\lambda)$ của $k$ vào $A/m \otimes_k \Omega_{k_0}(k)$ có thể được mở rộng thành một đạo hàm $k_0$ của $A$ vào $A/m \otimes_k \Omega_{k_0}(k)$ (No. 2, Nhận xét 2). Do đó tồn tại một ánh xạ $A$-tuyến tính $u : \Omega_{k_0}(A) \to A/m \otimes_k \Omega_{k_0}(k)$ sao cho $u(d_A(\lambda 1_A)) = 1 \otimes d_k(\lambda)$ với mọi $\lambda \in k$. Ánh xạ $A/m$-tuyến tính $A/m \otimes_A \Omega_{k_0}(A) \longrightarrow A/m \otimes_k \Omega_{k_0}(k)$ suy ra từ $u$ là một phép co rút của $\omega$, điều này chứng minh (ii).
 
-Ngược lại, giả sử rằng các điều kiện (i) và (ii) được thỏa mãn. Khi đó $A$ là trơn hình thức trên $k_0$ đối với tôpô $m$-adic (No. 5, Theorem 2) và $A$-môđun $\Omega_{k_0}(A)$ là xạ ảnh (No. 5, Corollary 3 of Theorem 2). Cố định một số nguyên $r \geqslant 0$ và xét ánh xạ $A/m^r$-tuyến tính
+Ngược lại, giả sử rằng các điều kiện (i) và (ii) được thỏa mãn. Khi đó $A$ là trơn hình thức trên $k_0$ đối với tôpô $m$-adic (No. 5, Định lý 2) và $A$-môđun $\Omega_{k_0}(A)$ là xạ ảnh (No. 5, Hệ quả 3 của Định lý 2). Cố định một số nguyên $r \geqslant 0$ và xét ánh xạ $A/m^r$-tuyến tính
 
 $$
 \omega_r : A/m^r \otimes_k \Omega_{k_0}(k) \longrightarrow A/m^r \otimes_A \Omega_{k_0}(A)
@@ -487,7 +487,7 @@ a) Cho $\mathfrak{p}$ là một iđêan nguyên tố của A. Các điều kiệ
 (iii) ánh xạ $\kappa(\mathfrak{p})\text{-linear } 1 \otimes u : \kappa(\mathfrak{p}) \otimes_A M \to \kappa(\mathfrak{p}) \otimes_A N$ là đơn ánh;
 (iv) tồn tại một số nguyên $m \geq 0$, các phần tử $x_1, \ldots, x_m$ của M và các dạng tuyến tính $y_1, \ldots, y_m$ trên N sao cho các ảnh của $x_i$ trong $M_\mathfrak{p}$ sinh ra $A_\mathfrak{p}$-môđun $M_\mathfrak{p}$ và sao cho ta có $\det(<y_j, u(x_i)>)\notin \mathfrak{p}$;
 
-Nếu điều kiện (iv) được thỏa mãn, ta có $m = [\kappa(\mathfrak{p}) \otimes_A M : \kappa(\mathfrak{p})]$ và các phần tử $1 \otimes x_i$ lập thành một cơ sở của không gian vectơ $\kappa(\mathfrak{p})$-vector space $\kappa(\mathfrak{p}) \otimes_A M$.
+Nếu điều kiện (iv) được thỏa mãn, ta có $m = [\kappa(\mathfrak{p}) \otimes_A M : \kappa(\mathfrak{p})]$ và các phần tử $1 \otimes x_i$ lập thành một cơ sở của không gian vectơ $\kappa(\mathfrak{p})$-không gian vectơ $\kappa(\mathfrak{p}) \otimes_A M$.
 
 b) Tập U các iđêan nguyên tố $\mathfrak{p}$ của A thỏa mãn các điều kiện của a) là một tập mở của Spec(A), và các điều kiện sau là tương đương:
 
@@ -500,13 +500,11 @@ Ta chứng minh a).
 
 (i) ⇒ (ii) ⇒ (iii): các suy ra này là hiển nhiên.
 
-(iii) ⇒ (iv): đặt $m = [\kappa(\mathfrak{p}) \otimes_A M : \kappa(\mathfrak{p})]$ và gọi $(x_1, \ldots, x_m)$ là một dãy các phần tử của M sao cho các phần tử $1 \otimes x_i$ lập thành một cơ sở của không gian vectơ $\kappa(\mathfrak{p})$-vector space $\kappa(\mathfrak{p}) \otimes_A M$. Các ảnh của $x_i$ trong $M_\mathfrak{p}$ sinh ra $A_\mathfrak{p}$-môđun $M_\mathfrak{p}$ (bổ đề Nakayama). Nếu điều kiện (iii) được thỏa mãn, các phần tử $1 \otimes u(x_i)$ của không gian vectơ $\kappa(\mathfrak{p})$-vector space $\kappa(\mathfrak{p}) \otimes_A N$ là độc lập tuyến tính.
+(iii) ⇒ (iv): đặt $m = [\kappa(\mathfrak{p}) \otimes_A M : \kappa(\mathfrak{p})]$ và gọi $(x_1, \ldots, x_m)$ là một dãy các phần tử của M sao cho các phần tử $1 \otimes x_i$ lập thành một cơ sở của không gian vectơ $\kappa(\mathfrak{p})$-không gian vectơ $\kappa(\mathfrak{p}) \otimes_A M$. Các ảnh của $x_i$ trong $M_\mathfrak{p}$ sinh ra $A_\mathfrak{p}$-môđun $M_\mathfrak{p}$ (bổ đề Nakayama). Nếu điều kiện (iii) được thỏa mãn, các phần tử $1 \otimes u(x_i)$ của không gian vectơ $\kappa(\mathfrak{p})$-không gian vectơ $\kappa(\mathfrak{p}) \otimes_A N$ là độc lập tuyến tính.
 
-Hơn nữa, tồn tại một A-môđun N', một tập hợp I, và một đẳng cấu các A-môđun $\theta : N \oplus N' \to A^{(I)}$, từ đó suy ra một đẳng cấu các không gian vectơ $\kappa(p)$-vector
-$$
+Hơn nữa, tồn tại một A-môđun N', một tập hợp I, và một đẳng cấu các A-môđun $\theta : N \oplus N' \to A^{(I)}$, từ đó suy ra một đẳng cấu các không gian vectơ $\kappa(p)$-vectơ $$
 \overline{\theta} : (\kappa(p) \otimes_{\Lambda} N) \oplus (\kappa(p) \otimes_A N') \to \kappa(p)^{(I)} .
-$$
-Các phần tử $t_i = \overline{\theta}(1 \otimes u(x_i), 0)$ của $\kappa(p)^{(I)}$ lập thành một họ tự do hữu hạn. Do đó tồn tại các phần tử $\alpha_1, \ldots, \alpha_m$ của I sao cho ta có $\det(\mathrm{pr}_{\alpha_j}(t_i)) \neq 0$; các dạng tuyến tính $y_j : z \mapsto \mathrm{pr}_{\alpha_j}(\theta(z, 0))$ trên N là thích hợp.
+$$ Các phần tử $t_i = \overline{\theta}(1 \otimes u(x_i), 0)$ của $\kappa(p)^{(I)}$ lập thành một họ tự do hữu hạn. Do đó tồn tại các phần tử $\alpha_1, \ldots, \alpha_m$ của I sao cho ta có $\det(\mathrm{pr}_{\alpha_j}(t_i)) \neq 0$; các dạng tuyến tính $y_j : z \mapsto \mathrm{pr}_{\alpha_j}(\theta(z, 0))$ trên N là thích hợp.
 
 Giả sử điều kiện (iv) được thỏa mãn. Gọi $(a_{ij}) \in M_m(A)$ là ma trận hệ số $a_{ij} = <y_j, u(x_i)>$. Gọi g là một phần tử của $A - p$ sao cho các ảnh của $x_i$ sinh $\Lambda_g$-môđun $M_g$ (II, § 5, No. 1, Mệnh đề 2), và đặt $f = g \det(a_{ij})$. Vì $\det(a_{ij})$ khả nghịch trong $A_f$, các ảnh của các phần tử $u(x_i)$ trong $N_f$ độc lập tuyến tính; do đó các ảnh của $x_i$ trong $M_f$ tạo thành một cơ sở của $A_f$-môđun này. Điều này chứng minh mệnh đề cuối cùng của a). Bây giờ chứng minh (i). Gọi $w \in \mathrm{Hom}_A(N, M)$ là ánh xạ $z \mapsto \sum_j <y_j, z> x_j$. Ta có
 $$

@@ -8,8 +8,8 @@ section_title: STRUCTURE DES GROUPES COMPACTS
 appendix: true
 lang: fr
 source: lie-ix-fr
-book_pages: LIE IX.99-LIE IX.102
-pdf_pages: 0102-0105, 0135-0141
+book_pages: LIE IX.99-LIE IX.102, LIE IX.132
+pdf_pages: 0102-0105, 0135-0135
 extraction: ocr
 subsections:
     - "no": 1

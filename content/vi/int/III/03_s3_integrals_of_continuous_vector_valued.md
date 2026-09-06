@@ -66,7 +66,7 @@ Hiển nhiên $\varphi$ là một dạng tuyến tính trên $E'$, do đó là *
 *Với mọi hàm $f \in \widetilde{\mathcal{K}}(X;E)$, ta gọi là tích phân của $f$ đối với $\mu$, và ký hiệu bởi $\int f d\mu$ hoặc $\int f(x) d\mu(x)$, hoặc $\int f \mu$, hoặc $\int f(x)\mu(x)$, phần tử của ${E'}^*$ được xác định bởi*
 
 $$
-\left\langle \int f d\mu, z' \right\rangle = \int \langle f, z' \rangle d\mu \quad \text{for all } z' \in E'.
+\left\langle \int f d\mu, z' \right\rangle = \int \langle f, z' \rangle d\mu \quad \text{với mọi } z' \in E'.
 $$
 
 Ta lưu ý rằng ngay cả khi $E$ là *Hausdorff* và $f \in \mathcal{K}(X;E)$, *không nhất thiết có* $\int f d\mu \in E$ (Bài tập 1; xem No. 3).

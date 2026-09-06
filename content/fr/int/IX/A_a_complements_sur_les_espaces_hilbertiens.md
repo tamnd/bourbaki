@@ -19,9 +19,9 @@ subsections:
       title: Applications de Hilbert–Schmidt
       page: 0
       pdf_page: 96
-statements: 4
+statements: 5
 exercises: 9
-content_sha256: 5a994522d1ff7e48aab03cbc661a1f72891814e8ce28ee850fe01507fd6a8d7b
+content_sha256: aced91e0475cbcf3beb48a3c7f719e9a57b6702f2fcd9454db892c456fc7358e
 ---
 
 ## ANNEXE
@@ -45,7 +45,10 @@ Soient E un espace hilbertien réel et Q une forme quadratique positive sur E. P
 #### Remarque 1 {#int-ix-a0-n1-rem-1 .statement}
 
 Pour tout sous-espace F de E, notons $Q_F$ la restriction de Q à F et $H_F$ celle de H. On a $\operatorname{Tr}(Q_F/H_F) \leq \operatorname{Tr}(Q/H)$ et $\operatorname{Tr}(Q/H)$ est la borne supérieure des nombres $\operatorname{Tr}(Q_F/H_F)$ pour $F \subset E$ de dimension finie.
-2) Soient $E_1$ un espace vectoriel réel, $Q_1$ et $H_1$ deux formes quadratiques positives sur $E_1$ et $\pi : E \to E_1$ une application linéaire surjective. Si $Q = Q_1 \circ \pi$ et $H = H_1 \circ \pi$, on a $\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$.
+
+#### Remarque 2 {#int-ix-a0-n1-rem-2 .statement}
+
+Soient $E_1$ un espace vectoriel réel, $Q_1$ et $H_1$ deux formes quadratiques positives sur $E_1$ et $\pi : E \to E_1$ une application linéaire surjective. Si $Q = Q_1 \circ \pi$ et $H = H_1 \circ \pi$, on a $\operatorname{Tr}(Q/H) = \operatorname{Tr}(Q_1/H_1)$.
 
 #### Proposition 1 {#int-ix-a0-prop-1 .statement}
 

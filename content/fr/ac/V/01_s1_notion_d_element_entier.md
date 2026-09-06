@@ -48,7 +48,7 @@ subsections:
       pdf_page: 28
 statements: 77
 exercises: 19
-content_sha256: 52ab9c5b62875738bf190445877aa62f2e222b491fc36a660020cfa62861ef3f
+content_sha256: 57b53e8bf7d0cc8847b566ba28369dcfef723d40b2c32533cbe98342f9c1e8e7
 ---
 
 ## § 1. Notion d’élément entier.
@@ -104,7 +104,7 @@ Soient $K$ un corps (commutatif), $R$ une $K$-algèbre; dire qu’un élément $
 
 #### Exemple 2 {#ac-v-s1-n1-exa-2 .statement}
 
-Les éléments de $\mathbf{Q}(i)$ entiers sur l’anneau $\mathbf{Z}$ sont les éléments de la forme $a + ib$ avec $a \in \mathbf{Z}$ et $b \in \mathbf{Z}$ (« entiers de Gauss »); les éléments de $\mathbf{Q}(\sqrt{5})$ entiers sur $\mathbf{Z}$ sont les éléments de la forme $(a + b\sqrt{5})/2$, où $a$ et $b$ appartiennent à $\mathbf{Z}$ et sont tous deux pairs ou tous deux impairs (pour ces deux exemples, voir exerc. 1).*
+\* Les éléments de $\mathbf{Q}(i)$ entiers sur l’anneau $\mathbf{Z}$ sont les éléments de la forme $a + ib$ avec $a \in \mathbf{Z}$ et $b \in \mathbf{Z}$ (« entiers de Gauss »); les éléments de $\mathbf{Q}(\sqrt{5})$ entiers sur $\mathbf{Z}$ sont les éléments de la forme $(a + b\sqrt{5})/2$, où $a$ et $b$ appartiennent à $\mathbf{Z}$ et sont tous deux pairs ou tous deux impairs (pour ces deux exemples, voir exerc. 1).*
 
 #### Exemple 3 {#ac-v-s1-n1-exa-3 .statement}
 

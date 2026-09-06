@@ -23,9 +23,9 @@ subsections:
       title: Parties bornées de $\mathcal{L}(E ; F)$ (cas quasi-complet)
       page: 27
       pdf_page: 162
-statements: 23
+statements: 24
 exercises: 22
-content_sha256: 483a1050f55951086929b4f69ab516fb05118a4a05eea8253f8c4b1187a9d20b
+content_sha256: 490179cef7db9fdb15a247a8392cfa9df1f66f815d421e2af5fe3509b3dbc120
 ---
 
 ## § 4. LE THÉORÈME DE BANACH-STEINHAUS
@@ -127,7 +127,10 @@ La suite $(u_n)$ est en effet simplement bornée, donc équicontinue et le corol
 #### Remarque 1 {#evt-iii-s4-n2-rem-1 .statement}
 
 La propriété exprimée par le cor. 2 n’entraîne pas que $E$ soit tonnelé : nous verrons plus loin que le dual fort d’un espace de Fréchet la possède, bien que n’étant pas nécessairement tonnelé (IV, p. 22, corollaire et p. 58, exerc. 5).
-2) Soient $E$ et $F$ deux espaces de Banach et soit $(u_n)$ une suite d’applications linéaires continues de $E$ dans $F$ telle que $\sup \|u_n\| = +\infty$. L’ensemble $X$ des $x \in E$ tels que $\sup \|u_n(x)\| = +\infty$ est alors *dense* dans $E$ et est l’intersection d’une suite d’ouverts de $E$. En effet, notons $X_k$ l’ensemble des $x \in E$ tels que $\sup \|u_n(x)\| > k$ (pour $k$ entier $> 0$). Chaque $X_k$ est ouvert et $X$ est l’intersection des $X_k$. Comme $E$ est un espace de Baire, il suffit de montrer que chaque $X_k$ est dense dans $E$. Or si le complémentaire de $X_k$ contenait un ouvert non vide $U$, on aurait $\|u_n(x)\| \leq 2k$ pour $x \in U - U$ et, comme $U - U$ est un voisinage de $0$, on aurait $\sup \|u_n\| < +\infty$.
+
+#### Remarque 2 {#evt-iii-s4-n2-rem-2 .statement}
+
+Soient $E$ et $F$ deux espaces de Banach et soit $(u_n)$ une suite d’applications linéaires continues de $E$ dans $F$ telle que $\sup \|u_n\| = +\infty$. L’ensemble $X$ des $x \in E$ tels que $\sup \|u_n(x)\| = +\infty$ est alors *dense* dans $E$ et est l’intersection d’une suite d’ouverts de $E$. En effet, notons $X_k$ l’ensemble des $x \in E$ tels que $\sup \|u_n(x)\| > k$ (pour $k$ entier $> 0$). Chaque $X_k$ est ouvert et $X$ est l’intersection des $X_k$. Comme $E$ est un espace de Baire, il suffit de montrer que chaque $X_k$ est dense dans $E$. Or si le complémentaire de $X_k$ contenait un ouvert non vide $U$, on aurait $\|u_n(x)\| \leq 2k$ pour $x \in U - U$ et, comme $U - U$ est un voisinage de $0$, on aurait $\sup \|u_n\| < +\infty$.
 
 #### Corollaire 3 {#evt-iii-s4-thm-1-cor-3 .statement}
 

@@ -547,13 +547,13 @@ Nếu E và F là hai song đại số phân bậc (tương ứng, hai phản so
 
 Nếu T là một monoit khác với phần tử đơn vị v, $f : S \to T$ là một đồng cấu sao cho $f(u) = v$ và $f_{(A)} : A^{(S)} \to A^{(T)}$ là đồng cấu A-đại số dẫn xuất từ $f$ (§ 2, no. 6), thì kiểm tra ngay được rằng $f_{(A)}$ là một *đồng cấu song đại số*.
 
-(2) Cho M là một A-môđun. Các cấu trúc A-đại số phân bậc (§ 6, no. 1) và A-đối đại số phân bậc (no. 1, Example 6) được định nghĩa trên S(M) xác định trên tập hợp này một cấu trúc *song đại số phân bậc giao hoán đối giao hoán*; vì ta đã thấy (no. 1, Example 6) rằng đồng tích trên S(M) là một đồng cấu *đại số* và theo định nghĩa của đồng đơn vị $\gamma$ (no. 2, Example 6) suy ra rằng $\gamma(1) = 1$ và $\gamma$ là một đồng cấu đại số của E vào A.
+(2) Cho M là một A-môđun. Các cấu trúc A-đại số phân bậc (§ 6, no. 1) và A-đối đại số phân bậc (no. 1, Ví dụ 6) được định nghĩa trên S(M) xác định trên tập hợp này một cấu trúc *song đại số phân bậc giao hoán đối giao hoán*; vì ta đã thấy (no. 1, Ví dụ 6) rằng đồng tích trên S(M) là một đồng cấu *đại số* và theo định nghĩa của đồng đơn vị $\gamma$ (no. 2, Ví dụ 6) suy ra rằng $\gamma(1) = 1$ và $\gamma$ là một đồng cấu đại số của E vào A.
 
-(3) Cho M là một A-môđun. Ta thấy như trong Ví dụ 2 rằng các cấu trúc A-đại số phân bậc (§ 7, no. 1) và A-đối đại số phân bậc (no. 1, Example 7) trên $\bigwedge(M)$ xác định trên tập hợp này một cấu trúc *song đại số phân bậc xiên phản giao hoán phản đối giao hoán*.
+(3) Cho M là một A-môđun. Ta thấy như trong Ví dụ 2 rằng các cấu trúc A-đại số phân bậc (§ 7, no. 1) và A-đối đại số phân bậc (no. 1, Ví dụ 7) trên $\bigwedge(M)$ xác định trên tập hợp này một cấu trúc *song đại số phân bậc xiên phản giao hoán phản đối giao hoán*.
 
 #### Nhận xét {#alg-iii-s11-n4-rem-1 .statement}
 
-Nếu M là một A-môđun sao cho $M \otimes_A M \neq \{0\}$, thì các cấu trúc A-đại số phân bậc (§ 5, no. 1) và A-đối đại số phân bậc (no. 1, Example 5) trên $T(M)$ *không xác định* một cấu trúc song đại số, vì nói chung
+Nếu M là một A-môđun sao cho $M \otimes_A M \neq \{0\}$, thì các cấu trúc A-đại số phân bậc (§ 5, no. 1) và A-đối đại số phân bậc (no. 1, Ví dụ 5) trên $T(M)$ *không xác định* một cấu trúc song đại số, vì nói chung
 
 $$
 c(x_1 x_2 y_1 y_2) \neq c(x_1 x_2) c(y_1 y_2)
@@ -565,13 +565,13 @@ $$
 
 *Từ nay trở đi ta quay lại các quy ước tổng quát của chương về các đại số, do đó các đại số ấy sẽ được giả thiết (trừ khi có nói ngược lại) là kết hợp và có đơn vị.*
 
-Cho M là một A-môđun; các cấu trúc A-đối đại số phân bậc được định nghĩa trên $T(M)$ (no. 1, Example 5), $S(M)$ (no. 1, Example 6) và $\bigwedge(M)$ (no. 1, Example 7) cho phép ta định nghĩa một cách chính tắc trên các đối ngẫu phân bậc $T(M)^{*gr}$, $S(M)^{*gr}$ và $\bigwedge(M)^{*gr}$ các cấu trúc *đại số phân bậc* kiểu N, theo no. 2, Mệnh đề 1 và 3 và quy ước đã đặt về sự phân bậc của đối ngẫu phân bậc của một môđun phân bậc (no. 1). Hơn nữa, đại số phân bậc $S(M)^{*gr}$ là *giao hoán* (no. 2, Proposition 2 and Example 5) và đại số phân bậc $\bigwedge(M)^{*gr}$ là *phản giao hoán* (no. 3, Proposition 6 and Example). Trong $\bigwedge(M)^{*gr}$ *mọi phần tử bậc 1 đều có bình phương bằng không*; một phần tử như vậy được đồng nhất với một dạng tuyến tính $f$ trên M và bình phương của nó là dạng song tuyến tính phản xứng $f \wedge f$ trên $M^2$ sao cho
+Cho M là một A-môđun; các cấu trúc A-đối đại số phân bậc được định nghĩa trên $T(M)$ (no. 1, Ví dụ 5), $S(M)$ (no. 1, Ví dụ 6) và $\bigwedge(M)$ (no. 1, Ví dụ 7) cho phép ta định nghĩa một cách chính tắc trên các đối ngẫu phân bậc $T(M)^{*gr}$, $S(M)^{*gr}$ và $\bigwedge(M)^{*gr}$ các cấu trúc *đại số phân bậc* kiểu N, theo no. 2, Mệnh đề 1 và 3 và quy ước đã đặt về sự phân bậc của đối ngẫu phân bậc của một môđun phân bậc (no. 1). Hơn nữa, đại số phân bậc $S(M)^{*gr}$ là *giao hoán* (no. 2, Mệnh đề 2 and Ví dụ 5) và đại số phân bậc $\bigwedge(M)^{*gr}$ là *phản giao hoán* (no. 3, Mệnh đề 6 and Ví dụ). Trong $\bigwedge(M)^{*gr}$ *mọi phần tử bậc 1 đều có bình phương bằng không*; một phần tử như vậy được đồng nhất với một dạng tuyến tính $f$ trên M và bình phương của nó là dạng song tuyến tính phản xứng $f \wedge f$ trên $M^2$ sao cho
 
 $$
 (f \wedge f)(x, y) = f(x) f(y) - f(y) f(x)
 $$
 
-(no. 2, Example 3).
+(no. 2, Ví dụ 3).
 
 Cho N là một A-môđun khác và $u$ là một ánh xạ A-tuyến tính từ M vào N. Ta biết rằng $u$ xác định một cách chính tắc các đồng cấu đại số phân bậc
 
@@ -617,7 +617,7 @@ $$
 \theta_S: S(M^*) \to S(M)^{*gr}
 $$
 
-*phần mở rộng của đơn ánh chính tắc* $M^* \to S(M)^{*gr}$. Mặt khác, đơn ánh chính tắc của $M^*$ vào đại số *đối* của $\Lambda(M)^{*gr}$ có tính chất là bình phương của mọi phần tử của $M^*$ đều bằng không; do đó (§ 7, no. 1, Proposition 1) *tồn tại duy nhất một đồng cấu đại số phân bậc*
+*phần mở rộng của đơn ánh chính tắc* $M^* \to S(M)^{*gr}$. Mặt khác, đơn ánh chính tắc của $M^*$ vào đại số *đối* của $\Lambda(M)^{*gr}$ có tính chất là bình phương của mọi phần tử của $M^*$ đều bằng không; do đó (§ 7, no. 1, Mệnh đề 1) *tồn tại duy nhất một đồng cấu đại số phân bậc*
 
 $$
 \theta_\Lambda: \Lambda(M^*) \to (\Lambda(M)^{*gr})^0
@@ -1164,7 +1164,7 @@ resp. $(x_1 \wedge x_2 \wedge \cdots \wedge x_p) \triangleleft f$ với mọi d�
 $$
 \begin{cases}
 (x_1 \otimes x_2 \otimes \cdots \otimes x_p) \triangleleft f = f \triangleright (x_1 \otimes x_2 \otimes \cdots \otimes x_p) = 0 \\
-(x_1 x_2 \ldots x_p) \triangleleft f = f \triangleright (x_1 x_2 \ldots x_p) = 0 \quad \text{for } p < n. \\
+(x_1 x_2 \ldots x_p) \triangleleft f = f \triangleright (x_1 x_2 \ldots x_p) = 0 \quad \text{với } p < n. \\
 (x_1 \wedge x_2 \wedge \cdots \wedge x_p) \triangleleft f = f \triangleright (x_1 \wedge x_2 \wedge \cdots \wedge x_p) = 0
 \end{cases}
 $$

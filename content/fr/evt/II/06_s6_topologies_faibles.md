@@ -43,9 +43,9 @@ subsections:
       title: Cônes convexes complets dans les espaces faibles
       page: 56
       pdf_page: 91
-statements: 42
-exercises: 19
-content_sha256: 1527446aae67136cbc754e88d40d8bb394d4f796e17447b5a4c6901ee8837f4b
+statements: 45
+exercises: 20
+content_sha256: ca3f31362016c357e6db7c8065b2dfc7576d34cf3036aeb2c612d049d36f885f
 ---
 
 ## § 6. TOPOLOGIES FAIBLES
@@ -97,8 +97,14 @@ Lorsque E est un espace localement convexe séparé, la dualité entre E et son 
 #### Remarque 1 {#evt-ii-s6-n1-rem-1 .statement}
 
 Lorsque E est un espace vectoriel topologique, le dual E* de l’espace vectoriel E sera parfois appelé le dual algébrique de E pour éviter des confusions. On notera d’ailleurs que E* est le dual de l’espace vectoriel topologique obtenu en munissant E de la topologie localement convexe la plus fine (II, p. 27, Exemple 2).
-2) Le dual E' d’un espace vectoriel topologique n’est pas lui-même muni d’une topologie, à moins que cela n’ait été expressément mentionné.
-3) Si F et G $\subset F^*$ sont en dualité séparante pour la forme bilinéaire canonique, il en est de même de F et $G_1$ pour tout sous-espace $G_1$ de $F^*$ tel que $G \subset G_1$.
+
+#### Remarque 2 {#evt-ii-s6-n1-rem-2 .statement}
+
+Le dual E' d’un espace vectoriel topologique n’est pas lui-même muni d’une topologie, à moins que cela n’ait été expressément mentionné.
+
+#### Remarque 3 {#evt-ii-s6-n1-rem-3 .statement}
+
+Si F et G $\subset F^*$ sont en dualité séparante pour la forme bilinéaire canonique, il en est de même de F et $G_1$ pour tout sous-espace $G_1$ de $F^*$ tel que $G \subset G_1$.
 
 ### 2. Topologies faibles
 
@@ -344,7 +350,7 @@ Soient F, G deux espaces vectoriels réels en dualité. Soit M un sous-espace ve
 
 Revenant au cas où M est un sous-espace quelconque de $N^\circ$, notons que l’on a évidemment $\sigma(G/N, M) = \sigma(G/N, M + G^\circ)$; en outre, il résulte de la prop. 3 de II, p. 46, que si $y \in N^\circ$ est tel que la forme linéaire $\dot{z} \mapsto \langle y, \dot{z} \rangle$ soit continue pour $\sigma(G/N, M)$, on a nécessairement $y \in M + G^\circ$. On en conclut que la condition $M + G^\circ = N^\circ$ est nécessaire et suffisante pour que la topologie quotient $\mathcal{T}$ soit égale à $\sigma(G/N, M)$.
 
-#### Remarque {#evt-ii-s6-n5-rem-2 .statement}
+#### Remarque {#evt-ii-s6-n5-rem-3 .statement}
 
 Pour que la dualité entre M et G/N (où M et N sont deux sous-espaces orthogonaux) soit séparante en M, il faut et il suffit que $M \cap G^\circ = \{0\}$; pour qu’elle soit séparante en G/N, il faut et il suffit que $N = M^\circ$.
 
@@ -401,7 +407,10 @@ a) $t^u \circ t^v = 0$;
 b) $\operatorname{Im}(t^v)$ est *dense* dans $\operatorname{Ker}(t^u)$;
 c) $t^u$ est un *morphisme strict* de $G_2$ dans $G_1$.
 Cela résulte en effet du cor. 3 de II, p. 52 et des formules (3) et (4) de II, p. 51.
-2) On se gardera de croire que lorsque $u$ est un morphisme strict de $F$ dans $F_1$, $t^u$ soit nécessairement un morphisme strict de $G_1$ dans $G$; autrement dit, $u$ peut être un morphisme strict de $F$ dans $F_1$ sans que $u(F)$ soit fermé dans $F_1$ pour $\sigma(F_1, G_1)$, comme le montre l’exemple où $F$ est un sous-espace non fermé de $F_1$ et $G = G_1/F^\circ$, $u$ étant l’injection canonique. De même, le fait que la suite (5) soit exacte n’entraîne pas nécessairement que la suite (6) le soit ; toutefois, si la suite (5) est exacte et si $v$ est un *morphisme strict*, alors la suite (6) est exacte, en vertu de la remarque 1 et de II, p. 52, cor. 3.
+
+#### Remarque 2 {#evt-ii-s6-n5-rem-2 .statement}
+
+On se gardera de croire que lorsque $u$ est un morphisme strict de $F$ dans $F_1$, $t^u$ soit nécessairement un morphisme strict de $G_1$ dans $G$; autrement dit, $u$ peut être un morphisme strict de $F$ dans $F_1$ sans que $u(F)$ soit fermé dans $F_1$ pour $\sigma(F_1, G_1)$, comme le montre l’exemple où $F$ est un sous-espace non fermé de $F_1$ et $G = G_1/F^\circ$, $u$ étant l’injection canonique. De même, le fait que la suite (5) soit exacte n’entraîne pas nécessairement que la suite (6) le soit ; toutefois, si la suite (5) est exacte et si $v$ est un *morphisme strict*, alors la suite (6) est exacte, en vertu de la remarque 1 et de II, p. 52, cor. 3.
 
 ### 6. Produits de topologies faibles
 

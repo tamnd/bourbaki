@@ -149,7 +149,7 @@ Cho G là một nhóm. Một lọc thực $(G_\alpha)$ trên G được gọi l�
 
 Theo hàm cấp v, định nghĩa trên được chuyển thành các quan hệ
 $$
-v(x) > 0, \quad v((x, y)) \geq v(x) + v(y) \quad \text{for all } x, y \text{ in } G.
+v(x) > 0, \quad v((x, y)) \geq v(x) + v(y) \quad \text{với mọi } x, y \text{ trong } G.
 $$
 Ta suy ra rằng $v((x, y)) > v(x)$ nếu $v(x) \neq +\infty$; nếu ta viết $x^y = y^{-1}xy$ (xem Đại số, chương I, § 6, no. 2), thì $x^y = x.(x, y)$, do đó
 $$

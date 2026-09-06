@@ -1,0 +1,88 @@
+---
+book: ac
+book_title: Commutative Algebra
+chapter: ""
+chapter_title: ""
+section: 0
+section_title: INDEX DES NOTATIONS
+kind: notation
+lang: fr
+source: ac-viii-ix-fr
+pdf_pages: 0198-0198
+extraction: ocr
+statements: 0
+exercises: 0
+content_sha256: 68eb77b851972c6e70f8e5ab73dae48a4b4a11436a9a286c9dfb68186b3a9905
+---
+
+## INDEX DES NOTATIONS
+
+Chapitre VIII
+
+κ(p), m_A, κ_A, SM : VIII, p. 1.
+dim kr(X), dim(X) : VIII, p. 2.
+dim_x(X) : VIII, p. 2.
+$codim(Y,X)$ : VIII, p. 4.
+$dim(A)$ : VIII, p. 6.
+dim_p(A) : VIII, p. 6.
+$ht(a)$ : VIII, p. 8.
+dim_A(M), dim(M) : VIII, p. 10.
+$[Y], Z(A)$ : VIII, p. 11.
+$z(M), Z_{\leq d}, Z_d, Z_{\geq d}, Z^d$ : VIII, p. 11.
+$C, C_{\leq d}, C_{\geq d}, \zeta_d, \zeta^d$ : VIII, p. 12.
+(PM) (condition) : VIII, p. 13.
+$A((T))$, $\begin{bmatrix} n \\ p \end{bmatrix}$ : VIII, p. 38.
+F \leq G (pour F et G dans Z((T))) : VIII, p. 39.
+$P_M, Q_M$ : VIII, p. 40.
+$c_M$ : VIII, p. 41.
+G^{(r)} : VIII, p. 43.
+$H_{M,F}$ : VIII, p. 44.
+$H_{M,q}$ : VIII, p. 44.
+d_q(M), e_q(M) : VIII, p. 45.
+$H_{\geq n}$ : VIII, p. 62.
+dimgr(H), htgr(p) : VIII, p. 63.
+a^{gr} : VIII, p. 63.
+$M_{\geq n}$ : VIII, p. 65.
+$H_+$ : VIII, p. 70.
+e^A_q(M), e^A(M), e(M) : VIII, p. 72.
+$R_M$ : VIII, p. 77.
+Specmax(A) : VIII, p. 81, exerc. 2.
+dev(E) : VIII, p. 81, exerc. 4.
+Kdev(M) : VIII, p. 81, exerc. 5.
+dim_v(A) : VIII, p. 85, exerc. 16.
+$\partial_l(n), \partial_l^*(n), S_H(T)$ : VIII, p. 90, exerc. 7.
+Reg(A), Sing(A) : VIII, p. 96, exerc. 16.
+Lis(A) : VIII, p. 98, exerc. 25.
+$\bar{a}$ : VIII, p. 105, exerc. 9.
+
+Chapitre IX
+
+$\Phi_n$ : IX, p. 1.
+$f_A, v_A, f, v$ : IX, p. 2.
+$\Phi_A, \Phi$ : IX, p. 3.
+$S_n, P_n, I_n, F_n$ : IX, p. 4.
+S_A, P_A, I_A, W(A), W(\rho), \rho^N : IX, p. 6.
+$F_A, V_A, F, V$ : IX, p. 8.
+$\mathcal{C}, V_n(A), \tau_A, \tau$ : IX, p. 11.
+$W_n(A)$ : IX, p. 12.
+$W_n(\rho), \pi_n, \pi_{n,m}$ : IX, p. 12.
+$V_m^n, F_m^n$ : IX, p. 14.
+l(C) : IX, p. 18.
+$A]X[$ : IX, p. 37.
+A](X_i)_{i\in I}[ : IX, p. 39.
+$s_A$ : IX, p. 44, exerc. 15.
+\rho, K(\rho^{-1}(A)), [\sigma, a] : IX, p. 45, exerc. 19.
+$\mathcal{D}_A$ : IX, p. 47, exerc. 22.
+CW^u(A) : IX, p. 48, exerc. 23.
+CW(A) : IX, p. 48, exerc. 24.
+$J, \Phi, f_n, v_n, \Phi_n$ : IX, p. 50, exerc. 28.
+U(A), F_n, V_n, U(\rho) : IX, p. 52, exerc. 35 et 36.
+$\tau_A$ : IX, p. 53, exerc. 37.
+U_S(A), U_n(A); U_{n\infty}(A) : IX, p. 53, exerc. 39.
+$\mu^A, F^A, f^A$ : IX, p. 55, exerc. 41.
+$\Lambda(A), L$ : IX, p. 56, exerc. 42.
+Rep_C(A), R_C(A) : IX, p. 64, exerc. 54.
+Rep_C(G), R_C(G) : IX, p. 65, exerc. 55.
+$\delta(T), E_\sigma(a,T)$ : IX, p. 68, exerc. 58.
+A_{red} : IX, p. 80, exerc. 9.
+Nor(X) : IX, p. 83, exerc. 25.

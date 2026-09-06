@@ -34,9 +34,9 @@ subsections:
       title: Relations d’équivalence dans un espace régulier
       page: 58
       pdf_page: 70
-statements: 28
+statements: 30
 exercises: 29
-content_sha256: cce74d2df88a64d676300feacac6c04c83e3b53a68854d681394c7cf50a19e8d
+content_sha256: f472259f3a32097d9cb039ad4372a434012db74a7176394063cd9d13f33d95c7
 ---
 
 ## § 8. ESPACES SÉPARÉS ET ESPACES RÉGULIERS
@@ -242,8 +242,14 @@ En effet, X est séparé (I, p. 54, prop. 6). D’autre part, soit x un point qu
 #### Remarque 1 {#top-i-s8-n4-rem-1 .statement}
 
 On peut donner des exemples d’espaces non séparés, dont tout point admet un voisinage régulier (I, p. 101, exerc. 7).
-2) On peut donner des exemples d’espaces séparés non réguliers (I, p. 103, exerc. 20).
-3) Une topologie plus fine qu’une topologie régulière n’est pas nécessairement régulière (I, p. 103, exerc. 20).
+
+#### Remarque 2 {#top-i-s8-n4-rem-2 .statement}
+
+On peut donner des exemples d’espaces séparés non réguliers (I, p. 103, exerc. 20).
+
+#### Remarque 3 {#top-i-s8-n4-rem-3 .statement}
+
+Une topologie plus fine qu’une topologie régulière n’est pas nécessairement régulière (I, p. 103, exerc. 20).
 
 ### 5. Prolongement par continuité. Double limite
 

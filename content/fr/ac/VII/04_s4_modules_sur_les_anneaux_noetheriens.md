@@ -50,9 +50,9 @@ subsections:
       title: Modules sur les anneaux de Dedekind
       page: 0
       pdf_page: 272
-statements: 79
+statements: 81
 exercises: 26
-content_sha256: c51b168055596dbf802688d06cdb71a1ac02169f8f27b5cbc463c90e46947c94
+content_sha256: 38968e8a5882d97a8e9d5ea2e779cc29ed30e740da7a18f7a6473b7b37506c53
 ---
 
 ## § 4. Modules sur les anneaux noethériens intégralement clos
@@ -72,8 +72,14 @@ Il existe deux sous-$A$-modules libres $L_1, L_2$ de $V$ tels que $L_1 \subset M
 #### Exemple 1 {#ac-vii-s4-n1-exa-1 .statement}
 
 Si on prend $V = K$, les réseaux de $K$ ne sont autres que les idéaux fractionnaires $\neq (0)$ de $K$ ($§ 1$, n° 1, déf. 1).
-2) Si $\mathrm{rg}_K(V) = n$, tout sous-$A$-module libre $L$ de $V$ possède une base ayant au plus $n$ éléments, toute partie de $V$ libre sur $A$ étant libre sur $K$; pour que $L$ soit un réseau de $V$, il faut et il suffit que $L$ ait une base de $n$ éléments (autrement dit, que $\mathrm{rg}_A(L) = n$).
-3) Si $A$ est un anneau principal, tout réseau $M$ de $V$ est un $A$-module de type fini (puisque $A$ est noethérien) et sans torsion, donc est un $A$-module libre (*Alg.*, chap. VII, § 4, n° 3, cor. 2 du th. 2).
+
+#### Exemple 2 {#ac-vii-s4-n1-exa-2 .statement}
+
+Si $\mathrm{rg}_K(V) = n$, tout sous-$A$-module libre $L$ de $V$ possède une base ayant au plus $n$ éléments, toute partie de $V$ libre sur $A$ étant libre sur $K$; pour que $L$ soit un réseau de $V$, il faut et il suffit que $L$ ait une base de $n$ éléments (autrement dit, que $\mathrm{rg}_A(L) = n$).
+
+#### Exemple 3 {#ac-vii-s4-n1-exa-3 .statement}
+
+Si $A$ est un anneau principal, tout réseau $M$ de $V$ est un $A$-module de type fini (puisque $A$ est noethérien) et sans torsion, donc est un $A$-module libre (*Alg.*, chap. VII, § 4, n° 3, cor. 2 du th. 2).
 
 #### Proposition 1 {#ac-vii-s4-prop-1 .statement}
 

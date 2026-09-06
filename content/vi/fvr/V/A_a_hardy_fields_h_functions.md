@@ -59,8 +59,7 @@ Cho $\mathfrak{F}$ là cơ sở lọc trên $\mathbf{R}$ được tạo thành b
 
 *Cho một tập con $\mathfrak{K}$ của $\mathcal{H}(\mathfrak{F}, \mathbf{R})$, ta nói rằng $\mathfrak{K}/R_\infty$ (ảnh chính tắc của $\mathfrak{K}$ trong $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$) là một trường Hardy, nếu $\mathfrak{K}$ thỏa mãn các điều kiện sau:
 
-1. $\mathfrak{K}/R_\infty$ is a subfield of the ring $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$.
-2. *Every function in $\mathfrak{K}$ is continuous and differentiable on an interval $[a, +\infty[$ (depending on the function), and the class with respect to $R_\infty$ of its derivative belongs to $\mathfrak{K}/R_\infty$.*
+1. $\mathfrak{K}/R_\infty$ là một trường con của vành $\mathcal{H}(\mathfrak{F}, \mathbf{R})/R_\infty$. 2. *Mọi hàm trong $\mathfrak{K}$ đều liên tục và khả vi trên một khoảng $[a, +\infty[$ (phụ thuộc vào hàm đó), và lớp theo $R_\infty$ của đạo hàm của nó thuộc về $\mathfrak{K}/R_\infty$.*
 
 Giả thiết rằng $\mathfrak{K}/R_\infty$ là một *trường* tương đương với các điều kiện sau: nếu $f \in \mathfrak{K}$ và $g \in \mathfrak{K}$ thì $f + g$ và $fg$ bằng các hàm thuộc $\mathfrak{K}$ trên một tập hợp nào đó trong $\mathfrak{F}$; hơn nữa, nếu $f$ không đồng nhất bằng không trên một tập hợp trong $\mathfrak{F}$ thì tồn tại một tập hợp $M$ trong $\mathfrak{F}$ trên đó $f$ *không triệt tiêu*, và $1/f$ bằng một hàm của $\mathfrak{K}$ trên $M$; theo điều kiện 2' ta luôn có thể giả sử rằng $M$ được chọn sao cho $f$ *liên tục* trên $M$, và do đó *có dấu không đổi* trên khoảng này.
 
@@ -90,7 +89,7 @@ $$
 
 *thì tồn tại một khoảng* $[x_1, +\infty[$ *mà trên đó* $y$ *không thay đổi dấu.*
 
-Thật vậy, đặt $z(x) = y(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$ (*x. IV*, p. 183); khi đó, theo (1), $z'(x) = b(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$. Nếu $b(x) \geqslant 0$ với $x \geqslant x_0$ thì $z$ tăng trên khoảng này, nên hoặc là $< 0$ trên toàn bộ khoảng ấy, hoặc bằng zero trên một khoảng $[x_1, +\infty[$, hoặc nữa là $> 0$ trên một khoảng $[x_1, +\infty[$; vì $y$ có cùng dấu với $z$ nên mệnh đề được chứng minh trong trường hợp này. Lập luận là tương tự nếu $b(x) \leqslant 0$ với $x \geqslant x_0$.
+Thật vậy, đặt $z(x) = y(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$ (*x. IV*, p. 183); khi đó, theo (1), $z'(x) = b(x) \exp \left( - \int_{x_0}^x a(t) \, dt \right)$. Nếu $b(x) \geqslant 0$ với $x \geqslant x_0$ thì $z$ tăng trên khoảng này, nên hoặc là $< 0$ trên toàn bộ khoảng ấy, hoặc bằng không trên một khoảng $[x_1, +\infty[$, hoặc nữa là $> 0$ trên một khoảng $[x_1, +\infty[$; vì $y$ có cùng dấu với $z$ nên mệnh đề được chứng minh trong trường hợp này. Lập luận là tương tự nếu $b(x) \leqslant 0$ với $x \geqslant x_0$.
 
 #### Nhận xét {#fvr-v-a0-n2-rem-1 .statement}
 
@@ -100,7 +99,7 @@ Tính chất rất sơ cấp này không mở rộng được cho các phương 
 
 *Cho* $a(x)$ *và* $b(x)$ *là hai hàm thuộc một trường Hardy cho trước* $\mathfrak{K}$ *và* $y(x)$ *là một hàm thỏa mãn đồng nhất thức* (1) *trên một khoảng* $[x_0, +\infty[$ *mà trên đó* $a$ *và* $b$ *được xác định và liên tục*. *Nếu* $p(u)$ *là một đa thức theo* $u$ *mà các hệ số là những hàm của* $x$ *thuộc* $\mathfrak{K}$, *được xác định và khả vi trên* $[x_0, +\infty[$, *thì tồn tại một khoảng* $[x_1, +\infty[$ *mà trên đó hàm* $p(y)$ *không thay đổi dấu*.
 
-Mệnh đề là tầm thường nếu $p(u)$ có các hệ số đồng nhất bằng zero trên $[x_0, +\infty[$, hoặc nếu $p(u)$ có bậc 0 theo $u$, vì mọi hàm trong $\mathfrak{K}$ đều có dấu không đổi trên một khoảng $[x_1, +\infty[$. Giả sử $p(u)$ có bậc $n > 0$; khi đó hệ số đầu $c$ của $p(u)$ là $\neq 0$ trên một khoảng $[\alpha, +\infty[$; do đó có thể viết $p(u) = c(u^n + c_1 u^{n-1} + \cdots + c_n)$ trong đó $c, c_1, c_2, \ldots, c_n$ là những *hàm* thuộc $\mathfrak{K}$ và khả vi trên $[\alpha, +\infty[$; vậy nên chỉ cần chứng minh bổ đề trong trường hợp $c = 1$. Ta lập luận bằng quy nạp theo $n$; ta có
+Mệnh đề là tầm thường nếu $p(u)$ có các hệ số đồng nhất bằng không trên $[x_0, +\infty[$, hoặc nếu $p(u)$ có bậc 0 theo $u$, vì mọi hàm trong $\mathfrak{K}$ đều có dấu không đổi trên một khoảng $[x_1, +\infty[$. Giả sử $p(u)$ có bậc $n > 0$; khi đó hệ số đầu $c$ của $p(u)$ là $\neq 0$ trên một khoảng $[\alpha, +\infty[$; do đó có thể viết $p(u) = c(u^n + c_1 u^{n-1} + \cdots + c_n)$ trong đó $c, c_1, c_2, \ldots, c_n$ là những *hàm* thuộc $\mathfrak{K}$ và khả vi trên $[\alpha, +\infty[$; vậy nên chỉ cần chứng minh bổ đề trong trường hợp $c = 1$. Ta lập luận bằng quy nạp theo $n$; ta có
 
 $$
 \frac{d}{dx} (p(y)) = (ay + b)(ny^{n-1} + (n-1)c_1 y^{n-2} + \cdots + c_{n-1})
@@ -232,7 +231,7 @@ Theo định nghĩa này, nếu $f$ là một hàm (H), không đồng nhất b�
 Ta đã định nghĩa (V, p. 229) các *logaritm lặp* $l_n(x)$ bởi các điều kiện $l_0(x) = x, l_n(x) = \log(l_{n-1}(x))$ với $n \geq 1$. Theo cùng cách ấy, người ta định nghĩa các *hàm mũ lặp* $e_n(x)$ bởi các điều kiện $e_0(x) = x, e_n(x) = \exp(e_{n-1}(x))$ với $n \geq 1$. Ngay lập tức, bằng quy nạp theo $n$, ta có $l_n(x)$ là hàm nghịch đảo của $e_n(x)$, được định nghĩa với $x > e_{n-1}(0)$, và $e_m(e_n(x)) = e_{m+n}(x), l_m(l_n(x)) = l_{m+n}(x)$. Theo các quan hệ $\log x \ll x^\mu \ll e^x$ với mọi $\mu > 0$, ta có, với $n \geq 1$,
 
 $$
-l_n(x) \ll (l_{n-1}(x))^\mu \quad \text{for every } \mu > 0 \tag{5}
+l_n(x) \ll (l_{n-1}(x))^\mu \quad \text{với mọi } \mu > 0 \tag{5}
 $$
 
 $$

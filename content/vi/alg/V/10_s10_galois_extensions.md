@@ -534,7 +534,7 @@ Do đó hạt nhân của $\varphi$ ổn định dưới các ánh xạ $\mathrm
 
 Đặt $E = E' \cap N$, khi đó $E' \supset K'(E)$. Bây giờ đặt $\Gamma = \mathrm{Gal}(N/K)$ và $A = \mathrm{Gal}(N/E)$, và định nghĩa $\Gamma'$ và $A'$ tương tự. Ánh xạ $A : a \mapsto a|_N$ là một đẳng cấu của $\Gamma'$ lên $\Gamma$ và đồng thời của $A'$ lên $A$; nói cách khác, $A'$ gồm những $\sigma \in \Gamma'$ sao cho $\lambda(\sigma)$ thuộc $A$. Nếu $\sigma \in \Gamma'$ để nguyên các phần tử của $K'(E)$, ta có $\lambda(\sigma) \in A$, do đó $a \in A'$ và $a$ để nguyên các phần tử của $E'$; theo Hệ quả 1 của V, p. 68 ta suy ra $K'(E) \supset E'$.
 
-We have proved the equality $E' = K'(E)$, do đó $\varphi^{-1}(E') = K' \otimes_K E$. If $F$ is a subfield of $N$ containing $K$ and such that $E' = K'(F)$, we have likewise $\varphi^{-1}(E') = K' \otimes_K F$, do đó $F = E$.
+Chúng ta đã chứng minh đẳng thức $E' = K'(E)$, do đó $\varphi^{-1}(E') = K' \otimes_K E$. Nếu $F$ là một trường con của $N$ chứa $K$ và sao cho $E' = K'(F)$, ta cũng có $\varphi^{-1}(E') = K' \otimes_K F$, do đó $F = E$.
 
 #### Hệ quả 2 {#alg-v-s10-thm-5-cor-2 .statement}
 
@@ -551,7 +551,7 @@ Cho $K$ và $K'$ là hai trường và $u$ là một đồng cấu của $K$ và
 Cho $N$ là một mở rộng Galois của $K$, với nhóm Galois $\Gamma$. Ta đồng nhất $\Gamma$ với cơ sở chính tắc của đại số nhóm $K^{(\Gamma)}$ (III, p. 446); khi đó $N$ có thể được xem như một $K^{(\Gamma)}$-môđun trái (III, p. 447, Ví dụ), do đó
 
 $$
-u \cdot x = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x) \quad \text{for} \quad x \in N \quad \text{and} \quad u = \sum_{\sigma \in \Gamma} a_\sigma \sigma \quad \text{in} \quad K^{(\Gamma)}.
+u \cdot x = \sum_{\sigma \in \Gamma} a_\sigma \sigma(x) \quad \text{với} \quad x \in N \quad \text{và} \quad u = \sum_{\sigma \in \Gamma} a_\sigma \sigma \quad \text{trong} \quad K^{(\Gamma)}.
 $$
 
 Nếu $N$ có bậc hữu hạn trên $K$, thì nhóm $\Gamma$ là hữu hạn theo định lý của Dedekind (V, p. 27, Hệ quả 2) và ta có thể định nghĩa phần tử $t = \sum_{\sigma \in \Gamma} a$ trong $K^{(\Gamma)}$; khi đó ta có

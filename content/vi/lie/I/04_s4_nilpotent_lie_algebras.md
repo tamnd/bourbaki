@@ -168,7 +168,7 @@ Nếu các điều kiện này được thỏa mãn, $a$ trực giao với $g$ �
 
 (a) $\Rightarrow$ (c): mỗi $Q_i = M_i/M_{i+1}$ ($0 \leq i < n$) là một $g$-môđun đơn. Với mọi $x \in a$, tự đồng cấu $x_{Q_i}$ (được dẫn xuất từ $x_M$ bằng cách hạn chế vào $M_i$ và chuyển qua thương) là lũy linh nếu điều kiện (a) được thỏa mãn và do đó bằng không theo Bổ đề 2; nói cách khác, $x_M(M_i) \subset M_{i+1}$.
 
-(c) $\Rightarrow$ (b): giả sử điều kiện (c) được thỏa mãn; lấy $x \in a$ và $z \in A$. Khi đó $z(M_i) \subset M_i$ ($0 \leq i < n$) và do đó $(zx_M)^n(M) = \{0\}$; vì thế $Ax_M$ là một ideal trái lũy linh của $A$ và do đó được chứa trong căn Jacobson của $A$ (*Đại số*, Chương VIII, § 6, no. 3, Hệ quả 3 của Định lý 1).
+(c) $\Rightarrow$ (b): giả sử điều kiện (c) được thỏa mãn; lấy $x \in a$ và $z \in A$. Khi đó $z(M_i) \subset M_i$ ($0 \leq i < n$) và do đó $(zx_M)^n(M) = \{0\}$; vì thế $Ax_M$ là một iđêan trái lũy linh của $A$ và do đó được chứa trong căn Jacobson của $A$ (*Đại số*, Chương VIII, § 6, no. 3, Hệ quả 3 của Định lý 1).
 
 Cuối cùng, giả sử các điều kiện (a), (b) và (c) được thỏa mãn. Lấy $x \in a$ và $y \in g$. Ta vừa thấy rằng $y_M x_M$ là lũy linh và do đó $\operatorname{Tr}(y_M x_M) = 0$, điều này chứng minh khẳng định cuối cùng của bổ đề.
 

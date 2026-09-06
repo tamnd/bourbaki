@@ -399,7 +399,7 @@ Suy ra từ Mệnh đề 8 rằng, trong số các tập con nhân T của A ch�
 
 Cho I là một tập có thứ tự trước có hướng phải, $(S_\alpha)_{\alpha \in I}$ là một họ tăng các tập con nhân của một vành A và $S = \bigcup_{\alpha \in I} S_\alpha$. Ta viết $\rho_{\beta \alpha} = i^{S_\beta, S_\alpha}_{A^{S_\beta, S_\alpha}}$ với $\alpha \leq \beta$, $\rho_\alpha = i^{S_\alpha, S_\alpha}$. Khi đó $(S_\alpha^{-1}A, \rho_{\beta \alpha})$ là một hệ trực tiếp của các vành và, nếu, với mọi $\alpha \in I$, $\rho'_\alpha$ là ánh xạ chính tắc của $S_\alpha^{-1}A$ đến $\lim \rightarrow S_\alpha^{-1}A$, tồn tại một đẳng cấu duy nhất $j$ từ $\lim \rightarrow S_\alpha^{-1}A$ đến $S^{-1}A$ sao cho $j \circ \rho'_\alpha = \rho_\alpha$ với mọi $\alpha \in I$.
 
-Với $\alpha \leq \beta \leq \gamma$, $\rho_{\gamma \alpha} = \rho_{\gamma \beta} \circ \rho_{\beta \alpha}$ (no. 1, Corollary 3 to Proposition 2), do đó $(S_\alpha^{-1}A, \rho_{\beta \alpha})$ là một hệ trực tiếp. Ký hiệu $A' = \lim \rightarrow S_\alpha^{-1}A$; vì $\rho_\alpha = \rho_\beta \circ \rho_{\beta \alpha}$ với $\alpha \leq \beta$ (no. 1, Corollary 3 to Proposition 2), $(\rho_\alpha)$ là một hệ trực tiếp các đồng cấu và $j = \lim \rightarrow \rho_\alpha$ là đồng cấu duy nhất từ $A'$ đến $S^{-1}A$ sao cho $j \circ \rho'_\alpha = \rho_\alpha$ với mọi $a \in I$. Các đồng cấu $\rho'_\alpha \circ i^{S}_{A^\alpha} : A \to A'$ đều bằng nhau, vì $\rho_{\beta \alpha} \circ i^{S}_{A^\alpha} = i^{S}_{A^\beta}$ với $a \leq \beta$; hãy gọi $u$ là giá trị chung của chúng. Rõ ràng các phần tử của $u(S)$ là khả nghịch trong $A'$, điều này cho thấy tồn tại một đồng cấu $h : S^{-1}A \to A'$ sao cho $h \circ i^{S}_{A} = u$ (no. 1, Proposition 1). Khi đó
+Với $\alpha \leq \beta \leq \gamma$, $\rho_{\gamma \alpha} = \rho_{\gamma \beta} \circ \rho_{\beta \alpha}$ (no. 1, Hệ quả 3 to Mệnh đề 2), do đó $(S_\alpha^{-1}A, \rho_{\beta \alpha})$ là một hệ trực tiếp. Ký hiệu $A' = \lim \rightarrow S_\alpha^{-1}A$; vì $\rho_\alpha = \rho_\beta \circ \rho_{\beta \alpha}$ với $\alpha \leq \beta$ (no. 1, Hệ quả 3 to Mệnh đề 2), $(\rho_\alpha)$ là một hệ trực tiếp các đồng cấu và $j = \lim \rightarrow \rho_\alpha$ là đồng cấu duy nhất từ $A'$ đến $S^{-1}A$ sao cho $j \circ \rho'_\alpha = \rho_\alpha$ với mọi $a \in I$. Các đồng cấu $\rho'_\alpha \circ i^{S}_{A^\alpha} : A \to A'$ đều bằng nhau, vì $\rho_{\beta \alpha} \circ i^{S}_{A^\alpha} = i^{S}_{A^\beta}$ với $a \leq \beta$; hãy gọi $u$ là giá trị chung của chúng. Rõ ràng các phần tử của $u(S)$ là khả nghịch trong $A'$, điều này cho thấy tồn tại một đồng cấu $h : S^{-1}A \to A'$ sao cho $h \circ i^{S}_{A} = u$ (no. 1, Mệnh đề 1). Khi đó
 
 $$
 j \circ h \circ i^{A}_{S} = j \circ u = j \circ \rho'_\alpha \circ i^{A^\alpha}_{S^\alpha} = \rho_\alpha \circ i^{S}_{A^\alpha} = i^{S}_{A}
@@ -417,13 +417,13 @@ suy ra $h \circ j \circ \rho'_\alpha = \rho'_\alpha$ với mọi $\alpha \in I$;
 
 *Dưới các giả thiết của Mệnh đề 9, cho M là một A-môđun. Ký hiệu $f_{\beta \alpha} = i^{S_\beta, S_\alpha}_{M}$ với $\alpha \leq \beta, f_\alpha = i^{S, S_\alpha}_{M}$ với mọi $\alpha \in I$ và cho $f'_\alpha$ là ánh xạ chính tắc từ $S_\alpha^{-1}M$ đến $\lim \rightarrow S_\alpha^{-1}M$; khi đó tồn tại một $S^{-1}A$-đẳng cấu $g$ của $S^{-1}M$ lên $\lim \rightarrow S_\alpha^{-1}M$ sao cho $g \circ f_\alpha = f'_\alpha$ với mọi $a \in I$.*
 
-Hệ quả này suy ra ngay từ các định nghĩa $S_\alpha^{-1}M = M \otimes_A S_\alpha^{-1}A$ và $S^{-1}M = M \otimes_A S^{-1}A$ và sự kiện rằng việc lấy giới hạn trực tiếp giao hoán với các tích tenxơ (*Algebra*, Chapter 11, § 6, no. 3, Proposition 7).
+Hệ quả này suy ra ngay từ các định nghĩa $S_\alpha^{-1}M = M \otimes_A S_\alpha^{-1}A$ và $S^{-1}M = M \otimes_A S^{-1}A$ và sự kiện rằng việc lấy giới hạn trực tiếp giao hoán với các tích tenxơ (*Đại số*, Chương 11, § 6, no. 3, Mệnh đề 7).
 
 ### 4. CÁC TÍNH CHẤT CỦA CÁC MÔĐUN PHÂN THỨC
 
 *Trong toàn bộ số này, A ký hiệu một vành và S một tập con nhân của A.*
 
-Cho $(M_\alpha, \phi_{\beta \alpha})$ là một hệ trực tiếp các A-môđun; khi đó $(S^{-1}M_\alpha, S^{-1}\phi_{\beta \alpha})$ là một hệ trực tiếp các $S^{-1}A$-môđun và sự kiện rằng việc lấy giới hạn trực tiếp giao hoán với các tích tenxơ (*Algebra*, Chapter II, § 6, no. 3, Proposition 7) cho phép ta định nghĩa một đẳng cấu chính tắc
+Cho $(M_\alpha, \phi_{\beta \alpha})$ là một hệ trực tiếp các A-môđun; khi đó $(S^{-1}M_\alpha, S^{-1}\phi_{\beta \alpha})$ là một hệ trực tiếp các $S^{-1}A$-môđun và sự kiện rằng việc lấy giới hạn trực tiếp giao hoán với các tích tenxơ (_Đại số_, Chương II, § 6, no. 3, Mệnh đề 7) cho phép ta định nghĩa một đẳng cấu chính tắc
 
 $$
 \lim \rightarrow (S^{-1}M_\alpha) \to S^{-1} \lim \rightarrow M_\alpha.
@@ -747,27 +747,19 @@ sự tồn tại của $j'$ suy ra từ tính kết hợp của các tích tenx�
 
 Cho $A$ là một vành, $B$ là một $A$-đại số (không nhất thiết kết hợp hoặc giao hoán và không nhất thiết có phần tử đơn vị) và $S$ là một tập con nhân của $A$. Ta biết rằng có thể định nghĩa trên $S^{-1}A$-môđun $S^{-1}B = B \otimes_A S^{-1}A$ một cấu trúc $S^{-1}A$-*đại số* chính tắc, được gọi là thu được bằng mở rộng vành vô hướng đến $S^{-1}A$ (Đại số, chương III, § 3), và theo cấu trúc đó tích $(x/s)(y/t)$ bằng $(xy)/(st)$. Nếu $e$ là phần tử đơn vị của $B$, $e/1$ là phần tử đơn vị của $S^{-1}B$ và nếu $B$ kết hợp (tương ứng, giao hoán), *thì* $S^{-1}B$ cũng vậy.
 
-Cho $A$ là một vành và $M$ là một $A$-môđun; ta ký hiệu $T(M)$ (tương ứng $\Lambda(M)$, $S(M)$) là đại số *tenxơ* (tương ứng đại số ngoài, đại số đối xứng) của $M$ (Algebra, Chapter 111). Ta biết rằng với mọi đại số $A$-giao hoán $C$ tồn tại một đẳng cấu duy nhất $j$ từ $T(M) \otimes_A C$ lên $T(M \otimes_A C)$ (tương ứng từ $\Lambda(M) \oplus_A C$ lên $\Lambda(M \otimes_A C)$, từ $S(M) \otimes_A C$ lên $S(M \otimes_A C)$) sao cho
-$$
+Cho $A$ là một vành và $M$ là một $A$-môđun; ta ký hiệu $T(M)$ (tương ứng $\Lambda(M)$, $S(M)$) là đại số *tenxơ* (tương ứng đại số ngoài, đại số đối xứng) của $M$ (Đại số, Chương 111). Ta biết rằng với mọi đại số $A$-giao hoán $C$ tồn tại một đẳng cấu duy nhất $j$ từ $T(M) \otimes_A C$ lên $T(M \otimes_A C)$ (tương ứng từ $\Lambda(M) \oplus_A C$ lên $\Lambda(M \otimes_A C)$, từ $S(M) \otimes_A C$ lên $S(M \otimes_A C)$) sao cho $$
 i(x \otimes 1) = x \otimes 1
-$$
-với mọi $x \in M$, trong đó $M$ được đồng nhất một cách chính tắc với một môđun con của $T(M)$ (tương ứng $\Lambda(M), S(M)$) (*loc. cit.*). Khi đó, đặc biệt, ta thấy rằng với mọi tập con nhân $R$ của $A$ có các *đẳng cấu chính tắc*
-$$
+$$ với mọi $x \in M$, trong đó $M$ được đồng nhất một cách chính tắc với một môđun con của $T(M)$ (tương ứng $\Lambda(M), S(M)$) (*loc. cit.*). Khi đó, đặc biệt, ta thấy rằng với mọi tập con nhân $R$ của $A$ có các *đẳng cấu chính tắc* $$
 R^{-1}T(M) \to T(R^{-1}M), \qquad R^{-1}\Lambda(M) \to \Lambda(R^{-1}M), \qquad R^{-1}S(M) \to S(R^{-1}M)
-$$
-là đồng nhất trên $R^{-1}M$.
+$$ là đồng nhất trên $R^{-1}M$.
 
 ### 9. MÔĐUN PHÂN THỨC CỦA CÁC MÔĐUN PHÂN BẬC
 
-Cho $A$ là một vành phân bậc, $M$ là một $A$-môđun phân bậc và $A$ là monoid bậc; trong số này ta giả sử rằng $A$ là một *nhóm*. Nhắc lại (*Algebra*, Chapter II, § 11) rằng $A$ và $M$ lần lượt là các tổng trực tiếp của các nhóm cộng tính
-$$
+Cho $A$ là một vành phân bậc, $M$ là một $A$-môđun phân bậc và $A$ là monoid bậc; trong số này ta giả sử rằng $A$ là một *nhóm*. Nhắc lại (*Đại số*, Chương II, § 11) rằng $A$ và $M$ lần lượt là các tổng trực tiếp của các nhóm cộng tính $$
 A = \bigoplus_{i \in \Delta} A_i, \qquad M = \bigoplus_{i \in \Delta} M_i
-$$
-với $A_i A_j \subset A_{i+j}$ và $A_i M_j \subset M_{i+j}$ với mọi $i, j \in A$. Cho $S$ là một tập con nhân của $A$ *mà mọi phần tử của nó đều thuần nhất*. Với mọi $i \in A$, ta đặt $S_i = S \cap A_i$ và ký hiệu $(S^{-1}M)_i$ là tập hợp các phần tử $m'$ của $S^{-1}M$ sao cho tồn tại các phần tử $j, k$ của $A$, một phần tử $m \in M_j$ và một phần tử $s \in S_k$ sao cho $j - k = i$ và $m' = m/s$. Nếu $(m'_q)_{1 \leq q \leq r}$ là một họ hữu hạn các phần tử của $S^{-1}M$ sao cho
-$$
+$$ với $A_i A_j \subset A_{i+j}$ và $A_i M_j \subset M_{i+j}$ với mọi $i, j \in A$. Cho $S$ là một tập con nhân của $A$ *mà mọi phần tử của nó đều thuần nhất*. Với mọi $i \in A$, ta đặt $S_i = S \cap A_i$ và ký hiệu $(S^{-1}M)_i$ là tập hợp các phần tử $m'$ của $S^{-1}M$ sao cho tồn tại các phần tử $j, k$ của $A$, một phần tử $m \in M_j$ và một phần tử $s \in S_k$ sao cho $j - k = i$ và $m' = m/s$. Nếu $(m'_q)_{1 \leq q \leq r}$ là một họ hữu hạn các phần tử của $S^{-1}M$ sao cho $$
 m'_q \in (S^{-1}M)_{j(q)},
-$$
-thì tồn tại các phần tử $j(q) \in A$ và $k \in A$, các phần tử $m_q \in M_{j(q)}$ ($1 \leq q \leq r$) và $s \in S_k$ sao cho $m'_q = m_q/s$ với $1 \leq q \leq r$ (no. 1, *Nhận xét 2*).
+$$ thì tồn tại các phần tử $j(q) \in A$ và $k \in A$, các phần tử $m_q \in M_{j(q)}$ ($1 \leq q \leq r$) và $s \in S_k$ sao cho $m'_q = m_q/s$ với $1 \leq q \leq r$ (no. 1, *Nhận xét 2*).
 
 #### Mệnh đề 21 {#ac-ii-s2-prop-21 .statement}
 

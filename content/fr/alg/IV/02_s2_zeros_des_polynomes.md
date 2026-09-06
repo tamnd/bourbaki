@@ -23,9 +23,9 @@ subsections:
       title: Fonctions polynomiales sur un anneau intègre infini
       page: 16
       pdf_page: 23
-statements: 19
+statements: 20
 exercises: 13
-content_sha256: baba9980ede99a05e18e78fbb21cb7215f71dc8383f7b91145a7c2406465f703
+content_sha256: d8d29a6444b75ad45f6377e9b2679890fd9713ff6d0e7284c5915f17b9d13d0a
 ---
 
 ## § 2. ZÉROS DES POLYNÔMES
@@ -62,7 +62,10 @@ Si $h > 0$, on dit aussi que $\alpha$ est racine d’ordre $h$, ou de multiplici
 #### Remarque 1 {#alg-iv-s2-n1-rem-1 .statement}
 
 Si $f = 0$, on convient de dire que $\alpha$ est d’ordre $\geqslant h$ relativement à $f$, quels que soient $\alpha \in \mathbf{A}$ et l’entier $h \geqslant 0$. Quels que soient $f \in \mathbf{A}[X]$ et $\alpha \in \mathbf{A}$, dire que $\alpha$ est d’ordre $\geqslant h$ relativement à $f$ signifie que $(X - \alpha)^h$ divise $f$.
-2) Soit B un anneau commutatif contenant A comme sous-anneau. Soient $f \in \mathbf{A}[X]$ non nul et $\alpha \in \mathbf{A}$. L’ordre de $\alpha$ relativement à $f$ est le même, que l’on considère $f$ comme élément de $\mathbf{B}[X]$ ou comme élément de $\mathbf{A}[X]$. C’est évident sur la condition (ii) de la prop. 2.
+
+#### Remarque 2 {#alg-iv-s2-n1-rem-2 .statement}
+
+Soit B un anneau commutatif contenant A comme sous-anneau. Soient $f \in \mathbf{A}[X]$ non nul et $\alpha \in \mathbf{A}$. L’ordre de $\alpha$ relativement à $f$ est le même, que l’on considère $f$ comme élément de $\mathbf{B}[X]$ ou comme élément de $\mathbf{A}[X]$. C’est évident sur la condition (ii) de la prop. 2.
 
 #### Proposition 4 {#alg-iv-s2-prop-4 .statement}
 

@@ -25,7 +25,7 @@ subsections:
       pdf_page: 230
 statements: 11
 exercises: 9
-content_sha256: f71f82bff625e103d0a3fb544959913a24fd65f8bf1e933f0d5f6ba6a6f353ff
+content_sha256: 92a8f55dc150c75365822ecd2547991907250d45a47eccb44f7ee1b4d56c2667
 ---
 
 ## 1. TOPOLOGIES ON GROUPS
@@ -52,7 +52,7 @@ Again, the coarsest topology (Chapter I, § 2, no. 2) on G is compatible with th
 
 #### Example 2 {#top-iii-s1-n1-exa-2 .statement}
 
-In Chapter IV we shall see that the topology of the rational line Q (resp. the real line R) is compatible with the additive group structure of Q (resp. R).
+\* In Chapter IV we shall see that the topology of the rational line Q (resp. the real line R) is compatible with the additive group structure of Q (resp. R).
 
 #### Example 3 {#top-iii-s1-n1-exa-3 .statement}
 

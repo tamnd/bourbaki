@@ -207,11 +207,11 @@ $$
 
 3.2.6. Cho $U$ là một tập con mở của $E$ và cho $f$ là một ánh xạ giải tích từ $U$ vào $F$. Nếu đạo hàm $Df$ của $f$ bằng không, thì $f$ địa phương hằng.
 
-3.2.7. Giả sử $F$ quasi-complete và gọi $G$ là một không gian định chuẩn đầy đủ. Cho $g$ là một ánh xạ giải tích từ một tập hợp mở $U$ của $E$ vào $G$ và $f$ là một ánh xạ giải tích từ một tập hợp mở $V$ của $G$, chứa $g(U)$, vào $F$. Ánh xạ hợp thành $f \circ g$ là giải tích trong $U$. Hơn nữa giả sử rằng $0 \in U$ và $g(0) = 0$. Khi đó khai triển của $f \circ g$ thành chuỗi lũy thừa tại $0$ thu được bằng cách thay, trong khai triển của $f$ tại $0$, chuỗi lũy thừa khai triển của $g$ tại $0$ (3.1.9).
+3.2.7. Giả sử $F$ gần đầy đủ và gọi $G$ là một không gian định chuẩn đầy đủ. Cho $g$ là một ánh xạ giải tích từ một tập hợp mở $U$ của $E$ vào $G$ và $f$ là một ánh xạ giải tích từ một tập hợp mở $V$ của $G$, chứa $g(U)$, vào $F$. Ánh xạ hợp thành $f \circ g$ là giải tích trong $U$. Hơn nữa giả sử rằng $0 \in U$ và $g(0) = 0$. Khi đó khai triển của $f \circ g$ thành chuỗi lũy thừa tại $0$ thu được bằng cách thay, trong khai triển của $f$ tại $0$, chuỗi lũy thừa khai triển của $g$ tại $0$ (3.1.9).
 
 3.2.8. Cho $F_1, \ldots, F_m$ là các không gian đa định chuẩn tách được và $u$ là một ánh xạ đa tuyến tính liên tục từ $F_1 \times \cdots \times F_m$ vào $F$. Cho $U$ là một tập hợp mở của $E$ và $f_i \in \mathcal{C}^\omega(U; F_i)$. Hàm $u(f_1, \ldots, f_m)$ là giải tích, và khai triển của nó thành chuỗi lũy thừa tại một điểm $a \in U$ là chuỗi $u((f_1)_a, \ldots, (f_m)_a)$ (3.1.8).
 
-3.2.9. Giả sử $F$ quasi-complete. Cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$; hàm $x \mapsto f(x)$ (3.1.7) là giải tích trong tập hợp mở $C(f)$, miền hội tụ ngặt của $f$. Nếu $n = 1$ và nếu $\|a\| < \rho(f)$, thì bán kính hội tụ ngặt của khai triển của $f$ thành chuỗi lũy thừa tại $a$ ít nhất bằng $\rho(f) - \|a\|$. Nếu $\rho(f) = + \infty$, thì người ta nói rằng $f$ là một hàm nguyên.
+3.2.9. Giả sử $F$ gần đầy đủ. Cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$; hàm $x \mapsto f(x)$ (3.1.7) là giải tích trong tập hợp mở $C(f)$, miền hội tụ ngặt của $f$. Nếu $n = 1$ và nếu $\|a\| < \rho(f)$, thì bán kính hội tụ ngặt của khai triển của $f$ thành chuỗi lũy thừa tại $a$ ít nhất bằng $\rho(f) - \|a\|$. Nếu $\rho(f) = + \infty$, thì người ta nói rằng $f$ là một hàm nguyên.
 
 3.2.10. Giữ lại các giả thiết của 3.2.9. Nếu $K = \mathbf{C}$, các kết quả của 3.2.9 vẫn còn đúng nếu thay $C(f)$ bởi $\tilde{C}(f)$ và $\rho(f)$ bởi $\tilde{\rho}(f)$ (với $n = 1$). Nếu $K = \mathbf{R}$, hàm $x \mapsto f(x)$ là giải tích trong $\tilde{C}(f)$.
 
@@ -231,20 +231,13 @@ $$
 
 Trong số này, giả sử rằng $K = \mathbf{C}$.
 
-3.3.1. Giả sử $F$ là quasi-complete. Cho $U$ là một tập mở của $E$ và $f$ là một ánh xạ từ $U$ vào $F$. Các điều kiện sau là tương đương:
-(i) $f$ là chỉnh hình;
-(ii) $f$ khả vi;
-(iii) $f$ bị chặn địa phương và, với mọi $a \in U$ và $h \in E$, hàm $t \mapsto f(a + th)$, được xác định trong một lân cận mở của $0$ trong C, là chỉnh hình;
-(iv) $f$ bị chặn địa phương và với mọi dạng tuyến tính liên tục $u$ trên $F$, hàm nhận giá trị trong $\mathbf{C}$ $u \circ f$ là chỉnh hình;
-(v) $f$ liên tục và bị chặn địa phương và tồn tại một tập hợp toàn phần $H$ của đối ngẫu của $F$ sao cho $u \circ f$ là chỉnh hình với mọi $u \in H$.
+3.3.1. Giả sử $F$ là gần đầy đủ. Cho $U$ là một tập mở của $E$ và $f$ là một ánh xạ từ $U$ vào $F$. Các điều kiện sau là tương đương: (i) $f$ là chỉnh hình; (ii) $f$ khả vi; (iii) $f$ bị chặn địa phương và, với mọi $a \in U$ và $h \in E$, hàm $t \mapsto f(a + th)$, được xác định trong một lân cận mở của $0$ trong C, là chỉnh hình; (iv) $f$ bị chặn địa phương và với mọi dạng tuyến tính liên tục $u$ trên $F$, hàm nhận giá trị trong $\mathbf{C}$ $u \circ f$ là chỉnh hình; (v) $f$ liên tục và bị chặn địa phương và tồn tại một tập hợp toàn phần $H$ của đối ngẫu của $F$ sao cho $u \circ f$ là chỉnh hình với mọi $u \in H$.
 
 Khi $E$ hữu hạn chiều (tương ứng khi $F$ là một không gian Banach), các điều kiện này còn tương đương với các điều kiện (iii'), (iv') hoặc (v') (tương ứng (iv') hoặc (v')) thu được từ (iii), (iv) hoặc (v) (tương ứng từ (iv) hoặc (v)) bằng cách bỏ giả thiết "$f$ bị chặn địa phương".
 
-3.3.2. Giả sử $F$ là quasi-complete. Cho $U$ là một tập mở của $E$ và $(f_n)$ là một dãy các ánh xạ chỉnh hình từ $U$ vào $F$, có tính chất sau:
-(W) Mọi điểm của $U$ đều có một lân cận trong đó dãy $(f_n)$ hội tụ đều.
-Khi đó giới hạn $f$ của dãy $(f_n)$ là chỉnh hình, dãy các đạo hàm $(Df_n)$ (nhận giá trị trong không gian quasi-complete $\mathcal{L}(E; F)$) có tính chất (W), và $Df$ là giới hạn của $(Df_n)$.
+3.3.2. Giả sử $F$ là gần đầy đủ. Cho $U$ là một tập mở của $E$ và $(f_n)$ là một dãy các ánh xạ chỉnh hình từ $U$ vào $F$, có tính chất sau: (W) Mọi điểm của $U$ đều có một lân cận trong đó dãy $(f_n)$ hội tụ đều. Khi đó giới hạn $f$ của dãy $(f_n)$ là chỉnh hình, dãy các đạo hàm $(Df_n)$ (nhận giá trị trong không gian gần đầy đủ $\mathcal{L}(E; F)$) có tính chất (W), và $Df$ là giới hạn của $(Df_n)$.
 
-3.3.3. Cho U là một tập mở của E và f là một ánh xạ chỉnh hình từ U vào F, giả thiết là quasi-complete. Cho $R = (R_i) \in (\mathbf{R}_+^*)^n$ và giả sử rằng đa cầu B(R) được chứa trong U và rằng f bị chặn trên B(R). Khi đó, với mọi $α \in \mathbf{N}^n$ và mọi $x = (x_i) \in B(R)$:
+3.3.3. Cho U là một tập mở của E và f là một ánh xạ chỉnh hình từ U vào F, giả thiết là gần đầy đủ. Cho $R = (R_i) \in (\mathbf{R}_+^*)^n$ và giả sử rằng đa cầu B(R) được chứa trong U và rằng f bị chặn trên B(R). Khi đó, với mọi $α \in \mathbf{N}^n$ và mọi $x = (x_i) \in B(R)$:
 
 $$
 Δ^αf(0)(x) = \int_0^1 \cdots \int_0^1 f(e(\theta_1)x_1, \ldots, e(\theta_n)x_n)e(-α_1θ_1 - \cdots - α_nθ_n)\ dθ_1 \ldots dθ_n
@@ -268,7 +261,7 @@ $$
 
 (“bất đẳng thức Cauchy”). Miền hội tụ ngặt của chuỗi $\sum_{α} X^αc_α$ chứa phần trong của B(R).
 
-3.3.5. Giả sử E hữu hạn chiều và F quasi-complete. Cho f là một ánh xạ chỉnh hình từ E vào F. Khi đó tồn tại trong $\mathscr{H}(E; F)$ một và chỉ một chuỗi $f_0$, có bán kính hội tụ vô hạn (đối với mọi chuẩn trên E), sao cho $f(x) = f_0(x)$ với mọi $x \in E$.
+3.3.5. Giả sử E hữu hạn chiều và F gần đầy đủ. Cho f là một ánh xạ chỉnh hình từ E vào F. Khi đó tồn tại trong $\mathscr{H}(E; F)$ một và chỉ một chuỗi $f_0$, có bán kính hội tụ vô hạn (đối với mọi chuẩn trên E), sao cho $f(x) = f_0(x)$ với mọi $x \in E$.
 
 3.3.6. Nếu f là một ánh xạ chỉnh hình từ E vào F sao cho $f(E)$ bị chặn, thì hàm f là hằng (“định lý Liouville”).
 

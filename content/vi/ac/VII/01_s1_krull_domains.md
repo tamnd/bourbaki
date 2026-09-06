@@ -507,7 +507,7 @@ Theo định nghĩa, $\operatorname{div}_B(x) = \sum_{\mathfrak{P} \in P(B)} v_{
 Để chứng minh (b) ta viết
 
 $$
-D = \sum_{\mathfrak{p} \in P(A)} n(\mathfrak{p}) \cdot \mathfrak{p} \quad \text{and} \quad D' = \sum_{\mathfrak{p} \in P(A)} n'(\mathfrak{p}) \cdot \mathfrak{p};
+D = \sum_{\mathfrak{p} \in P(A)} n(\mathfrak{p}) \cdot \mathfrak{p} \quad \text{và} \quad D' = \sum_{\mathfrak{p} \in P(A)} n'(\mathfrak{p}) \cdot \mathfrak{p};
 $$
 
 hệ số của $\mathfrak{p}$ trong $\sup(D, D')$ là $\sup(n(\mathfrak{p}), n'(\mathfrak{p}))$. Cho $\mathfrak{P}$ là một phần tử của $P(B)$. Nếu $\mathfrak{P} \cap A = (0)$, các hệ số của $\mathfrak{P}$ trong $i(D)$ và $i(D')$ và do đó cả trong $\sup(i(D), i(D'))$ đều bằng không; vậy hệ số của $\mathfrak{P}$ trong $i(\sup(D, D'))$ bằng không. Nếu $\mathfrak{P} \cap A \neq (0)$, đó là một iđêan nguyên tố $\mathfrak{p}$ có chiều cao 1 (theo (PDE)); viết $e = e(\mathfrak{P}/\mathfrak{p})$, thì các hệ số của $\mathfrak{P}$ trong $i(D)$, $i(D')$ và $i(\sup(D, D'))$ lần lượt là $en(\mathfrak{p}), en'(\mathfrak{p})$ và $e \cdot \sup(n(\mathfrak{p}), n'(\mathfrak{p}))$; hệ số của $\mathfrak{P}$ trong $\sup(i(D), i(D'))$ là

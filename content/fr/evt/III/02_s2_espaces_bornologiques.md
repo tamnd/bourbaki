@@ -10,9 +10,9 @@ source: evt-i-v-fr
 book_pages: EVT III.11-EVT III.13, EVT III.41-EVT III.42
 pdf_pages: 0146-0148, 0176-0177
 extraction: ocr
-statements: 7
+statements: 9
 exercises: 4
-content_sha256: 6d7889a2dba0d3d7d2821cdf0c44b5c828168682fe0eb790f3bbdba0bc419e5b
+content_sha256: 3e83016189b982ebfb9ef654a814e6abb668f099a95e54e56af3fb0742737165
 ---
 
 ## § 2. ESPACES BORNOLOGIQUES
@@ -54,8 +54,14 @@ On dit qu’un espace localement convexe est bornologique s’il satisfait aux c
 #### Exemple 1 {#evt-iii-s2-exa-1 .statement}
 
 Tout espace semi-normé est bornologique.
-2) En particulier, tout espace localement convexe de dimension finie est bornologique.
-3) Compte tenu de la transitivité des topologies localement convexes finales (II, p. 30, cor. 2), on déduit aussitôt de la condition (ii bis) que si (E_i)_{i \in I} est une famille d’espaces localement convexes bornologiques et si E est muni de la topologie localement convexe la plus fine rendant continues des applications linéaires u_i : E_i → E (pour i ∈ I), alors E est bornologique. En particulier, une limite inductive, une somme directe, un espace quotient d’espaces bornologiques sont des espaces bornologiques.
+
+#### Exemple 2 {#evt-iii-s2-exa-2 .statement}
+
+En particulier, tout espace localement convexe de dimension finie est bornologique.
+
+#### Exemple 3 {#evt-iii-s2-exa-3 .statement}
+
+Compte tenu de la transitivité des topologies localement convexes finales (II, p. 30, cor. 2), on déduit aussitôt de la condition (ii bis) que si (E_i)_{i \in I} est une famille d’espaces localement convexes bornologiques et si E est muni de la topologie localement convexe la plus fine rendant continues des applications linéaires u_i : E_i → E (pour i ∈ I), alors E est bornologique. En particulier, une limite inductive, une somme directe, un espace quotient d’espaces bornologiques sont des espaces bornologiques.
 
 Par contre, un sous-espace fermé d’un espace bornologique n’est pas nécessairement bornologique (IV, p. 63, exerc. 8).
 

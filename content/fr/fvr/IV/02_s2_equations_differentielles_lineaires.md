@@ -47,9 +47,9 @@ subsections:
       title: Systèmes d'équations linéaires à coefficients constants
       page: 35
       pdf_page: 194
-statements: 21
+statements: 25
 exercises: 10
-content_sha256: 3cc2c19d687fdf68937ab5da650a65a2b8b4a4035eaea77aaf7953b28d5a81e8
+content_sha256: 74292c898a73f1658412d2cc258444a83449178292a83c0077c0dc37ac9c8ba8
 ---
 
 ## § 2. ÉQUATIONS DIFFÉRENTIELLES LINÉAIRES
@@ -76,7 +76,10 @@ Lorsque $E$ est de dimension finie $n$ sur $\mathbf{R}$, on peut identifier l'en
 $$
 \frac{dx_i}{dt} = \sum_{j=1}^n a_{ij}(t)x_j + b_i(t) \quad (1 \leq i \leq n).
 $$
-2) Soient $G$ une *algèbre normée complète* sur $\mathbf{R}$, $\mathbf{a}(t)$, $\mathbf{b}(t)$ et $\mathbf{c}(t)$, trois applications de $J$ dans $G$; l'équation
+
+#### Exemple 2 {#fvr-iv-s2-n1-exa-2 .statement}
+
+Soient $G$ une *algèbre normée complète* sur $\mathbf{R}$, $\mathbf{a}(t)$, $\mathbf{b}(t)$ et $\mathbf{c}(t)$, trois applications de $J$ dans $G$; l'équation
 $$
 \frac{d\mathbf{x}}{dt} = \mathbf{a}(t)\mathbf{x} + \mathbf{x}\mathbf{b}(t) + \mathbf{c}(t)
 $$
@@ -369,7 +372,10 @@ En particulier, lorsqu’on connaît $n - 1$ intégrales linéairement indépend
 #### Remarque 1 {#fvr-iv-s2-n4-rem-1 .statement}
 
 Tout ce qui précède s’applique encore au cas où $E$ est de dimension $n$ sur le corps $\mathbf{R}$ et $A(t)$ un endomorphisme de $E$ pour tout $t \in J$: il suffit de remplacer partout $\mathbf{C}$ par $\mathbf{R}$.
-2) Soit $A(t) = (a_{ij}(t))$ une matrice carrée d’ordre $n$ dont les éléments sont des fonctions réglées réelles (resp. complexes) de $t$ dans $J$, et soit $C(t, t_0) = (c_{ij}(t, t_0))$ la matrice résolvante du système linéaire (3) (IV, p. 22) correspondant. Soit $F$ un espace normé complet quelconque sur $\mathbf{R}$ (resp. $\mathbf{C}$) et considérons le système d’équations différentielles linéaires
+
+#### Remarque 2 {#fvr-iv-s2-n4-rem-2 .statement}
+
+Soit $A(t) = (a_{ij}(t))$ une matrice carrée d’ordre $n$ dont les éléments sont des fonctions réglées réelles (resp. complexes) de $t$ dans $J$, et soit $C(t, t_0) = (c_{ij}(t, t_0))$ la matrice résolvante du système linéaire (3) (IV, p. 22) correspondant. Soit $F$ un espace normé complet quelconque sur $\mathbf{R}$ (resp. $\mathbf{C}$) et considérons le système d’équations différentielles linéaires
 $$
 \frac{dy_i}{dt} = \sum_{j=1}^n a_{ij}(t)y_j,
 $$
@@ -815,8 +821,14 @@ Le système n’admet donc de solutions indéfiniment dérivables que si les con
 #### Remarque 1 {#fvr-iv-s2-n9-rem-1 .statement}
 
 Certains des polynômes $f_j(D)$ peuvent se réduire à des constantes non nulles; les $y_j$ correspondants sont alors entièrement déterminés.
-2) Lorsque les $b_j$ sont tous nuls, c’est-à-dire que le système (47) est *homogène*, les conditions (52) sont toujours vérifiées; si en outre $r = n$, on voit que l’ensemble des solutions de (47) est un espace vectoriel sur $\mathbf{C}$, de dimension égale à la *somme des degrés* des $f_j(D)$, c’est-à-dire au *degré* de $\det(P(D))$.
-3) Les polynômes $p_{jk}(D)$ étant donnés, un système (47) qui admet des solutions lorsque les seconds membres sont indéfiniment dérivables (ou dérivables jusqu’à un certain ordre) peut ne pas en admettre lorsque les seconds membres sont des fonctions réglées quelconques: c’est ce que montre l’exemple (48), qui n’admet pas de solution lorsque $a(t)$ n’est pas une primitive. Nous n’entendrons pas ici de rechercher les conditions supplémentaires de possibilité qui s’introduisent ainsi lorsque les seconds membres sont des fonctions réglées quelconques.
+
+#### Remarque 2 {#fvr-iv-s2-n9-rem-2 .statement}
+
+Lorsque les $b_j$ sont tous nuls, c’est-à-dire que le système (47) est *homogène*, les conditions (52) sont toujours vérifiées; si en outre $r = n$, on voit que l’ensemble des solutions de (47) est un espace vectoriel sur $\mathbf{C}$, de dimension égale à la *somme des degrés* des $f_j(D)$, c’est-à-dire au *degré* de $\det(P(D))$.
+
+#### Remarque 3 {#fvr-iv-s2-n9-rem-3 .statement}
+
+Les polynômes $p_{jk}(D)$ étant donnés, un système (47) qui admet des solutions lorsque les seconds membres sont indéfiniment dérivables (ou dérivables jusqu’à un certain ordre) peut ne pas en admettre lorsque les seconds membres sont des fonctions réglées quelconques: c’est ce que montre l’exemple (48), qui n’admet pas de solution lorsque $a(t)$ n’est pas une primitive. Nous n’entendrons pas ici de rechercher les conditions supplémentaires de possibilité qui s’introduisent ainsi lorsque les seconds membres sont des fonctions réglées quelconques.
 
 ## EXERCICES {#fvr-iv-s2-exercises}
 

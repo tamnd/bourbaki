@@ -104,7 +104,7 @@ Cho $F$ và $G$ là hai nhóm và đặt $E_0 = F \times G$; cho $i: F \to E_0$ 
 (ii) $\mathcal{E}$ có một co ánh $r$;
 (iii) $\mathcal{E}$ có một tiết diện $s$ sao cho $s(G)$ được chứa trong bộ tập trung hóa của $i(F)$.
 
-Rõ ràng (i) suy ra (ii) và (iii). Nếu (ii) đúng, ánh xạ $(r, p): E \to F \times G$ là một cấu xạ từ $\mathcal{E}$ vào $\mathcal{E}_0$, do đó suy ra (i). Nếu (iii) đúng, đồng cấu từ $F \times G$ vào $E$ tương ứng với $(i, s)$ ($\S$ 4, no. 9, Proposition 12) là một cấu xạ từ $\mathcal{E}_0$ vào $\mathcal{E}$, do đó suy ra (i).
+Rõ ràng (i) suy ra (ii) và (iii). Nếu (ii) đúng, ánh xạ $(r, p): E \to F \times G$ là một cấu xạ từ $\mathcal{E}$ vào $\mathcal{E}_0$, do đó suy ra (i). Nếu (iii) đúng, đồng cấu từ $F \times G$ vào $E$ tương ứng với $(i, s)$ ($\S$ 4, no. 9, mệnh đề 12) là một cấu xạ từ $\mathcal{E}_0$ vào $\mathcal{E}$, do đó suy ra (i).
 
 Có thể xảy ra trường hợp một mở rộng $\mathcal{E}: F \to E \to G$ không tầm thường mà nhóm $E$ lại đẳng cấu với $F \times G$ (Bài tập 6).
 
@@ -344,7 +344,7 @@ Cho H là nhóm con chuẩn tắc của G sinh bởi các giao hoán tử của 
 
 Cho G là một nhóm, H là một nhóm con của G và K là một nhóm con chuẩn tắc của G. Ảnh của H trong G/K được chứa trong tâm của G/K khi và chỉ khi $(G, H) \subset K$.
 
-#### Definition 5 {#alg-i-s6-def-5 .statement}
+#### Định nghĩa 5 {#alg-i-s6-def-5 .statement}
 
 Cho G là một nhóm. Chuỗi trung tâm giảm của G là dãy $(C^n(G))_{n \geq 1}$ các nhóm con của G được định nghĩa quy nạp bởi:
 $$
@@ -368,13 +368,13 @@ $$
 $$
 Do đó $((F_{m,n}) \text{ và } (F_{m+1,n})) \Rightarrow (F_{m,n+1})$. Vì $(F_{m,1})$ và $(F_{1,n})$ là hiển nhiên nên $(F_{m,n})$ suy ra bằng quy nạp.
 
-#### Definition 6 {#alg-i-s6-def-6 .statement}
+#### Định nghĩa 6 {#alg-i-s6-def-6 .statement}
 
 *Một nhóm $G$ được gọi là lũy linh nếu tồn tại một số nguyên $n$ sao cho $C^{n+1}(G) = \{e\}$. Số nguyên nhỏ nhất $n$ sao cho $C^{n+1}(G) = \{e\}$ được gọi là lớp lũy linh của một nhóm lũy linh $G$.*
 
 Nếu $n \in \mathbf{N}$, một nhóm có lớp lũy linh $n$ được gọi là một nhóm lũy linh lớp $n$. Đôi khi người ta nói rằng lớp lũy linh của một nhóm $G$ là hữu hạn nếu $G$ là lũy linh.
 
-#### Example {#alg-i-s6-n3-exa-1 .statement}
+#### Ví dụ {#alg-i-s6-n3-exa-1 .statement}
 
 (1) Một nhóm là lũy linh lớp 0 (tương ứng, $\leq 1$) khi và chỉ khi nó chỉ gồm phần tử đơn vị (tương ứng, là giao hoán).
 
@@ -501,7 +501,7 @@ $$
 D^0(G) = G; \quad D^{n+1}(G) = D(D^n(G)) \quad \text{với } n \in \mathbf{N}.
 $$
 
-Khi đó $D^0(G) = C^1(G) = G,\ D^1(G) = C^2(G) = D(G) = (G, G)$. Với mọi n \in \mathbf{N}, ta có D^n(G) \subset C^{2^n}(G), như thấy được bằng quy nạp theo n khi dùng công thức (7) của no. 3.
+Khi đó $D^0(G) = C^1(G) = G,\ D^1(G) = C^2(G) = D(G) = (G, G)$. Với mọi n \in \mathbf{N}, ta có D^n(G) \text{ là tập con của } C^{2^n}(G), như thấy được bằng quy nạp theo n khi dùng công thức (7) của no. 3.
 
 Cho $f : G \to G'$ là một đồng cấu nhóm. Ta thấy, bằng quy nạp theo n, rằng $f(D^n(G)) \subset D^n(G')$ và rằng, nếu $f$ là toàn ánh, thì $f(D^n(G)) = D^n(G')$. Đặc biệt, với mọi $n \in \mathbf{N}$, $D^n(G)$ là một nhóm con đặc số (và do đó chuẩn tắc) của G. Với mọi $n \in \mathbf{N}$, nhóm $D^n(G)/D^{n+1}(G)$ là một nhóm con chuẩn tắc giao hoán (nhưng nói chung không trung tâm) của $G/D^{n+1}(G)$.
 
@@ -557,23 +557,21 @@ G = G^0 \supset G^1 \supset \ldots \supset G^n = \{e\}
 $$
 một chuỗi Jordan-Hölder của $G$. Để $G$ giải được, điều kiện cần và đủ là các thương $G^k/G^{k+1}$ là cyclic cấp nguyên tố.
 
-Nếu các thương của một chuỗi hợp thành của $G$ là cyclic và do đó giao hoán, thì $G$ giải được theo Mệnh đề 10. Ngược lại, nếu $G$ giải được, thì với mọi $k$, nhóm $G^k/G^{k+1}$ là giải được và đơn ($§ 4$, no. 7, Proposition 9). Bây giờ, mọi nhóm đơn giải được $H$ đều là cyclic cấp nguyên tố. Thật vậy, $D(H)$ là một nhóm con chuẩn tắc của $H$; $D(H) = H$ là không thể, vì khi đó $D^k(H) = H$ với mọi $k$; vậy thì $D(H) = \{e\}$ và $H$ giao hoán. Hệ quả khi đó suy ra từ $§ 4$, no. 10, Corollary to Proposition 20.
+Nếu các thương của một chuỗi hợp thành của $G$ là cyclic và do đó giao hoán, thì $G$ giải được theo mệnh đề 10. Ngược lại, nếu $G$ giải được, thì với mọi $k$, nhóm $G^k/G^{k+1}$ là giải được và đơn ($§ 4$, no. 7, mệnh đề 9). Bây giờ, mọi nhóm đơn giải được $H$ đều là cyclic cấp nguyên tố. Thật vậy, $D(H)$ là một nhóm con chuẩn tắc của $H$; $D(H) = H$ là không thể, vì khi đó $D^k(H) = H$ với mọi $k$; vậy thì $D(H) = \{e\}$ và $H$ giao hoán. Hệ quả khi đó suy ra từ $§ 4$, no. 10, Hệ quả to mệnh đề 20.
 
 ### 5. NHÓM $p$
 
-Trong số này và số tiếp theo, chữ cái $p$ chỉ một số nguyên tố ($§ 4$, no 10, Proposition 16).
+Trong số này và số tiếp theo, chữ cái $p$ chỉ một số nguyên tố ($§ 4$, no 10, mệnh đề 16).
 
 #### Định nghĩa 9 {#alg-i-s6-def-9 .statement}
 
 Một nhóm hữu hạn có cấp là một lũy thừa của $p$ được gọi là một nhóm $p$.
 
-Cho $G$ là một nhóm $p$ có cấp $p^r$. Mọi ước của $p^r$ đều là một lũy thừa của $p$ ($§ 4$, no. 10, Corollary to Theorem 7). Do đó mọi nhóm con và mọi nhóm thương của $G$ đều là nhóm $p$ ($§ 4$, no. 4, Corollary to Proposition 4); lực lượng của mọi không gian thuần nhất của $G$ là một lũy thừa của $p$ ($§ 5$, no. 5, Theorem 1).
+Cho $G$ là một nhóm $p$ có cấp $p^r$. Mọi ước của $p^r$ đều là một lũy thừa của $p$ ($§ 4$, no. 10, Hệ quả to định lý 7). Do đó mọi nhóm con và mọi nhóm thương của $G$ đều là nhóm $p$ ($§ 4$, no. 4, Hệ quả to mệnh đề 4); lực lượng của mọi không gian thuần nhất của $G$ là một lũy thừa của $p$ ($§ 5$, no. 5, định lý 1).
 
 Một mở rộng của một nhóm $p$ bởi một nhóm $p$ là một nhóm $p$.
 
-*Ví dụ. (1) Một nhóm $p$ giao hoán đẳng cấu với một tích các nhóm cyclic $\mathbf{Z}/p^n\mathbf{Z}$ (xem Bài tập 19 và cả VII, $§ 4$, no. 7, Proposition 7).
-(2) Cho $k$ là một trường hữu hạn có đặc số $p$. Nhóm tam giác ngặt $T_1(n, k)$ là một nhóm $p$.
-(3) Nhóm quaternion $\{ \pm 1, \pm i, \pm j, \pm k \}$ là một nhóm 2 (xem Bài tập 4).*
+*Ví dụ. (1) Một nhóm $p$ giao hoán đẳng cấu với một tích các nhóm cyclic $\mathbf{Z}/p^n\mathbf{Z}$ (xem Bài tập 19 và cả VII, $§ 4$, no. 7, mệnh đề 7). (2) Cho $k$ là một trường hữu hạn có đặc số $p$. Nhóm tam giác ngặt $T_1(n, k)$ là một nhóm $p$. (3) Nhóm quaternion $\{ \pm 1, \pm i, \pm j, \pm k \}$ là một nhóm 2 (xem Bài tập 4).*
 
 #### Mệnh đề 11 {#alg-i-s6-prop-11 .statement}
 
@@ -733,7 +731,7 @@ Cho $G$ là một nhóm hữu hạn. Các điều kiện sau là tương đươn
 
 Giả sử (a) đúng và cho $P$ là một nhóm con Sylow $p$ của $G$. Nếu $N$ là bộ chuẩn hóa của $P$ trong $G$, Hệ quả 1 của Định lý 3 cho thấy rằng $N$ là bộ chuẩn hóa của chính nó. Theo § 6, no. 3, Hệ quả của Mệnh đề 8, điều này cho thấy $N = G$. Do đó (a) $\Rightarrow$ (c).
 
-Giả sử (c) đúng và gọi $I$ là tập hợp các số nguyên tố chia $\mathrm{Card}(G)$. Với mọi $p \in I$, gọi $P_p$ là một nhóm con Sylow $p$ chuẩn tắc của $G$. Với mọi $p \neq q$, $P_p \cap P_q$ thu về $e$ vì nó vừa là một $p$-nhóm vừa là một $q$-nhóm, do đó $P_p$ và $P_q$ chuẩn hóa lẫn nhau ($§ 4$, no. 9, Proposition 15). Gọi $\phi$ là đồng cấu chính tắc ($§ 4$, no. 9, Proposition 12) từ $\prod_{p \in I} P_p$ vào $G$. Đồng cấu $\phi$ là toàn ánh theo Nhận xét của no. 6. Vì $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, suy ra $\phi$ là song ánh.
+Giả sử (c) đúng và gọi $I$ là tập hợp các số nguyên tố chia $\mathrm{Card}(G)$. Với mọi $p \in I$, gọi $P_p$ là một nhóm con Sylow $p$ chuẩn tắc của $G$. Với mọi $p \neq q$, $P_p \cap P_q$ thu về $e$ vì nó vừa là một $p$-nhóm vừa là một $q$-nhóm, do đó $P_p$ và $P_q$ chuẩn hóa lẫn nhau ($§ 4$, no. 9, mệnh đề 15). Gọi $\phi$ là đồng cấu chính tắc ($§ 4$, no. 9, mệnh đề 12) từ $\prod_{p \in I} P_p$ vào $G$. Đồng cấu $\phi$ là toàn ánh theo Nhận xét của no. 6. Vì $\mathrm{Card}\left(\prod_{p \in I} P_p\right) = \mathrm{Card}(G)$, suy ra $\phi$ là song ánh.
 
 #### Nhận xét {#alg-i-s6-n7-rem-1 .statement}
 

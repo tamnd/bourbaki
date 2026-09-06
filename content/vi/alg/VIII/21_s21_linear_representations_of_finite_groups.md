@@ -252,7 +252,7 @@ Nếu $(V, \pi )$ là một biểu diễn tuyến tính của G, thì hạn ch�
 
 Cho $(M, \sigma )$ là một biểu diễn của H.
 
-Ta xem K[G] như một song môđun $(K[G]$, K[H])-bimodule và M như một môđun K[H]. Môđun K[G] $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 58) xác định một biểu diễn tuyến tính của G, được ký hiệu là Ind$^G_H(\sigma )$ và được gọi là biểu diễn của G cảm sinh bởi $\sigma$. Nếu $(V, \pi )$ là một biểu diễn tuyến tính của G, thì môđun K[H] $\mathscr{H}(V) =$ Hom$_{K[G]}(K[G],V)$ có thể được đồng nhất với môđun K[H] tương ứng với biểu diễn Res$^G_H(\pi )$. Do đó, phép nối cấu xạ (VIII, p. 59) cho một đẳng cấu môđun K, được gọi là chính tắc, từ Hom$_H(\sigma$, Res$^G_H(\pi ))$ tới Hom$_G$(Ind$^G_H(\sigma ), \pi$ ) (“luật tương hỗ Frobenius”).
+Ta xem K[G] như một song môđun $(K[G]$, K[H])-song môđun và M như một môđun K[H]. Môđun K[G] $\mathscr{T}(M) = K[G]\otimes_{K[H]}M$ (VIII, p. 58) xác định một biểu diễn tuyến tính của G, được ký hiệu là Ind$^G_H(\sigma )$ và được gọi là biểu diễn của G cảm sinh bởi $\sigma$. Nếu $(V, \pi )$ là một biểu diễn tuyến tính của G, thì môđun K[H] $\mathscr{H}(V) =$ Hom$_{K[G]}(K[G],V)$ có thể được đồng nhất với môđun K[H] tương ứng với biểu diễn Res$^G_H(\pi )$. Do đó, phép nối cấu xạ (VIII, p. 59) cho một đẳng cấu môđun K, được gọi là chính tắc, từ Hom$_H(\sigma$, Res$^G_H(\pi ))$ tới Hom$_G$(Ind$^G_H(\sigma ), \pi$ ) (“luật tương hỗ Frobenius”).
 
 Ta xem K[G] như một $(K[H]$, K[G])-song môđun. Môđun K[G] $\mathscr{H}(M) =$ Hom$_{K[H]}(K[G],M)$ xác định một biểu diễn của G, ký hiệu là Coind$^G_H(\sigma )$ và được gọi là biểu diễn của G đối cảm sinh bởi $\sigma$. Nếu $(V, \pi )$ là một biểu diễn tuyến tính của G, thì K[H]-môđun $\mathscr{T}(V) = K[G]\otimes_{K[G]}V$ có thể được đồng nhất với K[H]-môđun tương ứng với biểu diễn Res$^G_H(\pi )$. Do đó, cấu xạ nối (loc. cit.) cho một đẳng cấu K-môđun, được gọi là chính tắc, từ Hom$_H$(Res$^G_H(\pi ), \sigma$ ) đến Hom$_G(\pi$, Coind$^G_H(\sigma ))$.
 
@@ -390,8 +390,8 @@ Do đó, theo (2) của VIII, p. 399, với $g \in G$, ta có
 
 $$
 \sum_{\lambda \in \widehat{G}} d_\lambda \chi_\lambda(g) = \begin{cases}
-|G| & \text{if } g \text{ is the identity element,} \\
-0 & \text{otherwise.}
+|G| & \text{nếu } g \text{ là phần tử đơn vị,} \\
+0 & \text{ngược lại.}
 \end{cases}
 $$
 

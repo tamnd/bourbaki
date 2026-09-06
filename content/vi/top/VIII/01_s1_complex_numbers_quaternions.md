@@ -89,7 +89,7 @@ $$
 Nghiệm thứ hai của đa thức $X^2 + 1$ trong $\mathbf{C}$ là $-i$; do đó tự đẳng cấu duy nhất của $\mathbf{C}$, khác ánh xạ đồng nhất, giữ bất biến mọi số thực, là tự đẳng cấu biến $z = x + iy$ thành $x - iy$; tự đẳng cấu sau được ký hiệu bởi $\overline{z}$ và (phù hợp với các định nghĩa tổng quát) được gọi là số phức liên hợp với $z$. Ta có
 
 $$
-\Re(z) = \frac{1}{2}(z + \overline{z}) \quad \text{and} \quad \Im(z) = \frac{1}{2i}(z - \overline{z}).
+\Re(z) = \frac{1}{2}(z + \overline{z}) \quad \text{và} \quad \Im(z) = \frac{1}{2i}(z - \overline{z}).
 $$
 
 Do tự đẳng cấu này, nếu $f(z)$ là một đa thức với các hệ số thực, ta có $f(\overline{z}) = \overline{f(z)}$ với mọi $z \in \mathbf{C}$.
@@ -141,13 +141,13 @@ Ta biết từ Chương III, § 6, no. 7 rằng tôpô cảm sinh trên nhóm nh
 
 \*Nhóm tôpô $\mathbf{C}^*$ đẳng cấu với tích của các nhóm tôpô $\mathbf{R}^*$ và $\mathbf{U}$.\*
 
-Vì ánh xạ $z \to \left( |z|, \frac{z}{|z|} \right)$ là một phép đồng phôi từ $\mathbf{C}^*$ lên $\mathbf{R}_+^* \times \mathbf{U}$ (Chapter VI, § 2, no. 3, Mệnh đề 3); và suy ra ngay lập tức rằng nó là một đẳng cấu của các cấu trúc nhóm.
+Vì ánh xạ $z \to \left( |z|, \frac{z}{|z|} \right)$ là một phép đồng phôi từ $\mathbf{C}^*$ lên $\mathbf{R}_+^* \times \mathbf{U}$ (Chương VI, § 2, no. 3, Mệnh đề 3); và suy ra ngay lập tức rằng nó là một đẳng cấu của các cấu trúc nhóm.
 
-Nhóm tôpô $\mathbf{R}_+^*$ đã được biết là đẳng cấu với nhóm cộng $\mathbf{R}$ (Chapter V, § 4, Định lý 1); do đó việc nghiên cứu nhóm tôpô $\mathbf{C}^*$ được quy về việc nghiên cứu $\mathbf{U}$, mà ta sẽ xét trong § 2.
+Nhóm tôpô $\mathbf{R}_+^*$ đã được biết là đẳng cấu với nhóm cộng $\mathbf{R}$ (Chương V, § 4, Định lý 1); do đó việc nghiên cứu nhóm tôpô $\mathbf{C}^*$ được quy về việc nghiên cứu $\mathbf{U}$, mà ta sẽ xét trong § 2.
 
 ### 4. VÀNH CHIA CỦA CÁC QUATERNION
 
-Từ Định lý 1 suy ra rằng trường $\mathbf{R}$ là một trường có thứ tự cực đại, và do đó vành chia không giao hoán duy nhất có hạng hữu hạn trên $\mathbf{R}$ là (sai khác một đẳng cấu) vành chia của các quaternion trên $\mathbf{R}$; nó được ký hiệu là $\mathbf{H}$ và được gọi là vành chia của các quaternion thực (hoặc đơn giản là vành chia của các quaternion, khi không sợ nhầm lẫn). Vì $\mathbf{H}$ có hạng 4 trên trường $\mathbf{R}$, ta có thể định nghĩa trên $\mathbf{H}$ một tôpô đồng phôi với tôpô của $\mathbf{R}^4$ (Chapter VI, § 1, no. 5). Chính xác hơn, ta thường đồng nhất $\mathbf{H}$ với $\mathbf{R}^4$, các phần tử $i, i, j, k$ của cơ sở chính tắc của $\mathbf{H}$ lần lượt được đồng nhất với các vectơ $e_0, e_1, e_2, e_3$ của cơ sở chính tắc của $\mathbf{R}^4$.
+Từ Định lý 1 suy ra rằng trường $\mathbf{R}$ là một trường có thứ tự cực đại, và do đó vành chia không giao hoán duy nhất có hạng hữu hạn trên $\mathbf{R}$ là (sai khác một đẳng cấu) vành chia của các quaternion trên $\mathbf{R}$; nó được ký hiệu là $\mathbf{H}$ và được gọi là vành chia của các quaternion thực (hoặc đơn giản là vành chia của các quaternion, khi không sợ nhầm lẫn). Vì $\mathbf{H}$ có hạng 4 trên trường $\mathbf{R}$, ta có thể định nghĩa trên $\mathbf{H}$ một tôpô đồng phôi với tôpô của $\mathbf{R}^4$ (Chương VI, § 1, no. 5). Chính xác hơn, ta thường đồng nhất $\mathbf{H}$ với $\mathbf{R}^4$, các phần tử $i, i, j, k$ của cơ sở chính tắc của $\mathbf{H}$ lần lượt được đồng nhất với các vectơ $e_0, e_1, e_2, e_3$ của cơ sở chính tắc của $\mathbf{R}^4$.
 
 Ta nhắc lại rằng bảng phép nhân của cơ sở chính tắc của $\mathbf{H}$ được cho bởi các công thức
 
@@ -156,7 +156,7 @@ i^2 = j^2 = k^2 = -1, \quad ij = -ji = k,
 jk = -kj = i, \quad ki = -ik = j.
 $$
 
-Tôpô của $\mathbf{H}$ không chỉ tương thích với cấu trúc vành của $\mathbf{H}$ (Chapter VI, § 1, no. 5) mà còn với cấu trúc vành chia của nó; vì nếu $x$ là một quaternion khác không, các tọa độ của $x^{-1}$ là các hàm hữu tỉ của các tọa độ của $x$, mà mẫu số không triệt tiêu. Do đó, vành chia $\mathbf{H}$, được trang bị tôpô này, là một vành chia tôpô không giao hoán. Các quaternion $a + bi$ ($a, b$ thực) tạo thành một trường con (tôpô) của $\mathbf{H}$, đẳng cấu với trường $\mathbf{C}$, mà với nó thường được đồng nhất.
+Tôpô của $\mathbf{H}$ không chỉ tương thích với cấu trúc vành của $\mathbf{H}$ (Chương VI, § 1, no. 5) mà còn với cấu trúc vành chia của nó; vì nếu $x$ là một quaternion khác không, các tọa độ của $x^{-1}$ là các hàm hữu tỉ của các tọa độ của $x$, mà mẫu số không triệt tiêu. Do đó, vành chia $\mathbf{H}$, được trang bị tôpô này, là một vành chia tôpô không giao hoán. Các quaternion $a + bi$ ($a, b$ thực) tạo thành một trường con (tôpô) của $\mathbf{H}$, đẳng cấu với trường $\mathbf{C}$, mà với nó thường được đồng nhất.
 
 Như vậy ta có một ví dụ thứ ba về một vành chia tôpô liên thông, compact địa phương, hai ví dụ kia là $\mathbf{R}$ và $\mathbf{C}$. Thực ra, đây là những vành chia tôpô duy nhất có hai tính chất này.
 
@@ -178,11 +178,11 @@ suy ra rằng tập hợp tất cả các quaternion có chuẩn bằng 1, đồ
 
 Nhóm nhân $\mathbf{H}^*$ gồm các quaternion khác không là một nhóm tôpô đẳng cấu với tích của các nhóm con $\mathbf{R}_+^*$ và $S_3$.
 
-Mọi quaternion $x / o$ đều có thể viết dưới dạng $x \cdot z$ trong đó $z$ là một quaternion có chuẩn bằng 1; vì $\|xx'\| = \|x\|\cdot\|x'\|$, ánh xạ $x \to (\|x\|, x_1, x_2)$ từ $H^*$ lên $\mathbf{R}_+^* \times S_2$ là một đẳng cấu của các cấu trúc nhóm, và theo Chapter VI, § 2, no. 2, Mệnh đề 2, nó là một đồng cấu từ $H^*$ lên $\mathbf{R}_+^* \times S_2$.
+Mọi quaternion $x / o$ đều có thể viết dưới dạng $x \cdot z$ trong đó $z$ là một quaternion có chuẩn bằng 1; vì $\|xx'\| = \|x\|\cdot\|x'\|$, ánh xạ $x \to (\|x\|, x_1, x_2)$ từ $H^*$ lên $\mathbf{R}_+^* \times S_2$ là một đẳng cấu của các cấu trúc nhóm, và theo Chương VI, § 2, no. 2, Mệnh đề 2, nó là một đồng cấu từ $H^*$ lên $\mathbf{R}_+^* \times S_2$.
 
 #### Nhận xét 1 {#top-viii-s1-n4-rem-1 .statement}
 
-Bằng cách sử dụng các hệ thức $\|x + y\| = \|x\| + \|y\|$ và $\|xy\| = \|x\|\cdot\|y\|$ ta có thể chứng minh trực tiếp, như đối với trường các số phức trong no. 2, rằng tôpô của $\mathbf{R}^4$ tương thích với cấu trúc vành chia của $H$ (cf. Chapter IX, § 3, no. 2).
+Bằng cách sử dụng các hệ thức $\|x + y\| = \|x\| + \|y\|$ và $\|xy\| = \|x\|\cdot\|y\|$ ta có thể chứng minh trực tiếp, như đối với trường các số phức trong no. 2, rằng tôpô của $\mathbf{R}^4$ tương thích với cấu trúc vành chia của $H$ (cf. Chương IX, § 3, no. 2).
 
 #### Nhận xét 2 {#top-viii-s1-n4-rem-2 .statement}
 

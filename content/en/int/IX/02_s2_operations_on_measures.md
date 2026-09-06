@@ -39,9 +39,9 @@ subsections:
       title: A result on the disintegration of measures
       page: 37
       pdf_page: 219
-statements: 38
+statements: 41
 exercises: 3
-content_sha256: ce1e3fbf59d3a5bdd69e474819d42240710f681c4b84a28f348d00f6c5aec0aa
+content_sha256: 6191354f921de6c432be407238874a1be32c3597441acc068220814a51c6fefc
 ---
 
 ## § 2. OPERATIONS ON MEASURES
@@ -151,9 +151,18 @@ Let $\pi$ be a mapping of T into a topological space X. One says that $\pi$ is $
 #### Remark 1 {#int-ix-s2-n3-rem-1 .statement}
 
 When T and X are locally compact, this definition is equivalent to that of Ch. V, §6, No. 1.
-2) A proper continuous mapping (GT, I, §10, No. 1, Def. 1) of T into X is $\mu$-proper for every measure $\mu$. For, let $x \in X$; since $\overline{\pi}(x)$ is compact (loc. cit., No. 2, Th. 1), the set $\overline{\pi}(x)$ has an open neighborhood H such that $\mu^\bullet(H) < +\infty$. Set $V = X - \pi(T - H)$; since $\pi$ is closed, V is open in X, contains x, and satisfies $\overline{\pi}(V) \subset H$, whence $\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$.
-3) If $\mu$ is bounded, every $\mu$-measurable mapping of T into X is $\mu$-proper.
-4) If $\theta$ is a complex measure on T, $\pi$ is said to be $\theta$-proper if $\pi$ is proper for the positive measure $|\theta|$.
+
+#### Remark 2 {#int-ix-s2-n3-rem-2 .statement}
+
+A proper continuous mapping (GT, I, §10, No. 1, Def. 1) of T into X is $\mu$-proper for every measure $\mu$. For, let $x \in X$; since $\overline{\pi}(x)$ is compact (loc. cit., No. 2, Th. 1), the set $\overline{\pi}(x)$ has an open neighborhood H such that $\mu^\bullet(H) < +\infty$. Set $V = X - \pi(T - H)$; since $\pi$ is closed, V is open in X, contains x, and satisfies $\overline{\pi}(V) \subset H$, whence $\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$.
+
+#### Remark 3 {#int-ix-s2-n3-rem-3 .statement}
+
+If $\mu$ is bounded, every $\mu$-measurable mapping of T into X is $\mu$-proper.
+
+#### Remark 4 {#int-ix-s2-n3-rem-4 .statement}
+
+If $\theta$ is a complex measure on T, $\pi$ is said to be $\theta$-proper if $\pi$ is proper for the positive measure $|\theta|$.
 
 #### Proposition 4 {#int-ix-s2-prop-4 .statement}
 

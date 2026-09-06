@@ -462,7 +462,7 @@ Nếu $A$ là nguyên, trường phân thức $K$ của $A$ là một $A$-môđu
 
 #### Ví dụ 7 {#alg-x-s1-n3-exa-7 .statement}
 
-Cho $a \in A$ sao cho ánh xạ $a_A : x \mapsto ax$ từ $A$ vào $A$ là đơn ánh (“$a$ không là ước trái của 0”). Nếu $E$ là một $A$-môđun phẳng, thì phép vị tự $a_E$ là đơn ánh, vì nó được đồng nhất với $a_A \otimes 1 : A_d \otimes_A E \to A_d \otimes_A E$. Đặc biệt, nếu $A$ là nguyên, mọi $A$-môđun phẳng đều không xoắn. Ngược lại, nếu $A$ là chính, mọi $A$-môđun không xoắn đều phẳng: thật vậy, nếu $A$-môđun $E$ không xoắn, mọi môđun con sinh hữu hạn của $E$ đều tự do (VII, § 4, No. 4, Cor. 2 to Theorem 4), và $E$ là một hợp tăng lọc của các môđun con phẳng, do đó là phẳng (Prop. 4 (ii)).
+Cho $a \in A$ sao cho ánh xạ $a_A : x \mapsto ax$ từ $A$ vào $A$ là đơn ánh (“$a$ không là ước trái của 0”). Nếu $E$ là một $A$-môđun phẳng, thì phép vị tự $a_E$ là đơn ánh, vì nó được đồng nhất với $a_A \otimes 1 : A_d \otimes_A E \to A_d \otimes_A E$. Đặc biệt, nếu $A$ là nguyên, mọi $A$-môđun phẳng đều không xoắn. Ngược lại, nếu $A$ là chính, mọi $A$-môđun không xoắn đều phẳng: thật vậy, nếu $A$-môđun $E$ không xoắn, mọi môđun con sinh hữu hạn của $E$ đều tự do (VII, § 4, No. 4, Cor. 2 to định lý 4), và $E$ là một hợp tăng lọc của các môđun con phẳng, do đó là phẳng (Prop. 4 (ii)).
 
 #### Ví dụ 8 {#alg-x-s1-n3-exa-8 .statement}
 

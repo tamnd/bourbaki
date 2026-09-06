@@ -50,9 +50,9 @@ subsections:
       title: Intégration dans un domaine fondamental.
       page: 0
       pdf_page: 66
-statements: 51
-exercises: 6
-content_sha256: f1d42fcfe3958584a79c535d570f38d19506e76ae972f4bb921ba2556b039435
+statements: 52
+exercises: 13
+content_sha256: 58e83c46193f68820de944214b0a2cb526001f5aaea4db3c9735ea3b49fdb0c2
 ---
 
 ## § 2. Quotient d’un espace par un groupe ; espaces homogènes.
@@ -618,7 +618,10 @@ c) résulte de (17).
 #### Remarque 1 {#int-vii-s2-n5-rem-1 .statement}
 
 On déduit de la remarque 1 du n° 3 que les mesures quasi-invariantes non nulles sur $G/H$ ne sont autres que les mesures pseudo-images par $\pi$ d'une mesure de Haar sur $G$.
-*2) Si $G$ est un groupe de Lie, nous verrons plus tard qu'on peut choisir la fonction $\rho$ du th. 2 indéfiniment différentiable.*
+
+#### Remarque 2 {#int-vii-s2-n5-rem-2 .statement}
+
+Si $G$ est un groupe de Lie, nous verrons plus tard qu'on peut choisir la fonction $\rho$ du th. 2 indéfiniment différentiable.*
 
 Dans les conditions du th. 2, certains résultats des n°s 3 et 4 se spécialisent ainsi (compte tenu du chap. V, § 4, th. 2 et prop. 2 pour passer des propriétés relatives à $\mu$ aux propriétés relatives à $\rho \cdot \mu$):
 

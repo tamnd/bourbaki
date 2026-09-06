@@ -39,7 +39,7 @@ Algèbre (Đại số[^1]) — A (Alg.)
 
 Topologie générale (Tôpô đại cương) — TG (Top. đại cương)
 
-Fonctions d’une variable réelle
+Fonctions d’une biến réelle
 
 (Các hàm của một biến thực) — FVR (FRV)
 
@@ -51,7 +51,7 @@ Espaces vectoriels topologiques
 
 Intégration (Tích phân) — INT (Int.)
 
-Algèbre commutative
+Algèbre giao hoán
 
 (Đại số giao hoán[^2]) — AC (Đại số giao hoán)
 
@@ -99,24 +99,24 @@ Xin lưu ý rằng, như trong các chương trước của Quyển này, các t
 
 Về phần các bài tập, chúng tôi không cho rằng việc chỉ ra nguồn gốc của chúng là hữu ích vì chúng đã được lấy từ nhiều nguồn khác nhau (các bài báo gốc, giáo trình, các tuyển tập bài tập).
 
-12. Trong chương này của Sách này của bản in mới, các dẫn chiếu đến các định lý, tiên đề, định nghĩa, nhận xét, v.v. được cho bằng cách lần lượt chỉ ra Sách (dùng chữ viết tắt được liệt kê ở No. 3), chương, section, tiểu mục, và trang nơi chúng có thể được tìm thấy. Dẫn chiếu đến Sách được bỏ đi khi nó là cùng một Sách như Sách hiện tại. Chẳng hạn, trong Sách Algebra,
+12. Trong chương này của Sách này của bản in mới, các dẫn chiếu đến các định lý, tiên đề, định nghĩa, nhận xét, v.v. được cho bằng cách lần lượt chỉ ra Sách (dùng chữ viết tắt được liệt kê ở No. 3), chương, tiết diện, tiểu mục, và trang nơi chúng có thể được tìm thấy. Dẫn chiếu đến Sách được bỏ đi khi nó là cùng một Sách như Sách hiện tại. Chẳng hạn, trong Sách Đại số,
 
-Set Theory, III, § 4, No. 2, p. 167, Hệ quả 3
+Lý thuyết tập hợp, III, § 4, No. 2, p. 167, Hệ quả 3
 
-chỉ Hệ quả 3 của § 4, No. 2 ở trang 167 của Chương III của Sách Set Theory;
+chỉ Hệ quả 3 của § 4, No. 2 ở trang 167 của Chương III của Sách Lý thuyết tập hợp;
 
 II, § 1, No. 11, p. 215, Mệnh đề 17
 
-chỉ Mệnh đề 17 của § 1, No. 11 ở trang 215 của Chương II của Sách Algebra.
+chỉ Mệnh đề 17 của § 1, No. 11 ở trang 215 của Chương II của Sách Đại số.
 
 Các bản tóm tắt kết quả được chỉ ra bằng chữ cái R; chẳng hạn, Top. Vect. Sp., R chỉ “bản tóm tắt các kết quả” của Sách Topological Vector Spaces.
 
-Vì một số Sách sẽ được xuất bản muộn hơn trong bản in mới, các dẫn chiếu đến những Sách ấy lần lượt gồm Sách, chương, section, và tiểu mục nơi các kết quả được nói đến lẽ ra phải ở đó, chẳng hạn,
+Vì một số Sách sẽ được xuất bản muộn hơn trong bản in mới, các dẫn chiếu đến những Sách ấy lần lượt gồm Sách, chương, tiết diện, và tiểu mục nơi các kết quả được nói đến lẽ ra phải ở đó, chẳng hạn,
 
 Comm. Alg., III, § 4, No. 5, Hệ quả của Mệnh đề 6.
 
 Khi có một dẫn chiếu đến một tập của bản in tiếng Pháp, các từ viết tắt bằng chữ in hoa đứng được dùng, và thuật ngữ cùng phép sắp chữ tiếng Pháp được dùng; chẳng hạn,
 
-TA, II, § 2, n$^o4$, p. 158, corollaire de la proposition 1
+TA, II, § 2, n$^o4$, p. 158, hệ quả của mệnh đề 1
 
 chỉ hệ quả của Mệnh đề 1 của § 2, No. 4 ở trang 158 của Chương II của Sách Topologie Algébrique.

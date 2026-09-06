@@ -241,15 +241,11 @@ $$
 
 #### Bổ đề 1 {#lie-ii-s2-lem-1 .statement}
 
-Iđêan $a$ của Định nghĩa 1 là phân bậc.
-Với $a, b$ trong Lib(X), đặt $B(a, b) = a.b + b.a$. Các công thức
-$$
+Iđêan $a$ của Định nghĩa 1 là phân bậc. Với $a, b$ trong Lib(X), đặt $B(a, b) = a.b + b.a$. Các công thức $$
 (10)\quad B(a, b) = Q(a + b) - Q(a) - Q(b)
-$$
-$$
+$$ $$
 (11)\quad Q(\lambda_1.w_1 + \cdots + \lambda_n.w_n) = \sum_i \lambda_i^2 Q(w_i) + \sum_{i < j} \lambda_i \lambda_j B(w_i, w_j)
-$$
-với $w_1, \ldots, w_n$ trong $M(X)$ và $\lambda_1, \ldots, \lambda_n$ trong $K$, chỉ ra rằng các họ $(Q(a))_{a \in \mathrm{Lib}(X)}$ và $(Q(w), B(w, w'))_{w, w' \in M(X)}$ sinh cùng một môđun con của $\mathrm{Lib}(X)$. Vì J là tam tuyến tính nên iđêan $a$ được sinh bởi các phần tử thuần nhất $Q(w), B(w, w')$ và $J(w, w', w'')$, trong đó $w, w', w''$ trong $M(X)$, và do đó là phân bậc (Algebra, Chapter III, § 3, no. 3, Proposition 1).
+$$ với $w_1, \ldots, w_n$ trong $M(X)$ và $\lambda_1, \ldots, \lambda_n$ trong $K$, chỉ ra rằng các họ $(Q(a))_{a \in \mathrm{Lib}(X)}$ và $(Q(w), B(w, w'))_{w, w' \in M(X)}$ sinh cùng một môđun con của $\mathrm{Lib}(X)$. Vì J là tam tuyến tính nên iđêan $a$ được sinh bởi các phần tử thuần nhất $Q(w), B(w, w')$ và $J(w, w', w'')$, trong đó $w, w', w''$ trong $M(X)$, và do đó là phân bậc (Đại số, Chương III, § 3, no. 3, Mệnh đề 1).
 
 Cho đại số Lie $L(X) = \mathrm{Lib}(X)/a$ được trang bị phân bậc thương. Thành phần thuần nhất của $L(X)$ có bậc $\delta$ được ký hiệu bởi $L^\delta(X)$; nó là môđun con của $L(X)$ được sinh bởi các ảnh của các phần tử $w \in M(X)$ sao cho $\phi(w) = \delta$.
 
@@ -274,9 +270,9 @@ $$
 
 #### Mệnh đề 4 {#lie-ii-s2-prop-4 .statement}
 
-Cho S là một tập con của X. Nếu $\mathbf{N}^{(S)}$ được đồng nhất với ảnh chính tắc của nó trong $\mathbf{N}^{(X)}$ (Algebra, Chapter I, § 7, no. 7), thì $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(S)}$, thành phần thuần nhất có bậc $\alpha$ dưới phép phân bậc đa trên $L(S)$ bằng $L^\alpha(X)$.
+Cho S là một tập con của X. Nếu $\mathbf{N}^{(S)}$ được đồng nhất với ảnh chính tắc của nó trong $\mathbf{N}^{(X)}$ (Đại số, Chương I, § 7, no. 7), thì $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(S)}$, thành phần thuần nhất có bậc $\alpha$ dưới phép phân bậc đa trên $L(S)$ bằng $L^\alpha(X)$.
 
-Cho $\alpha \in \mathbf{N}^{(S)}$. Môđun $L^\alpha(S)$ được sinh bởi các ảnh trong $L(X)$ của các phần tử $w$ trong $M(S)$ sao cho $\phi(w) = \alpha$, nghĩa là (Algebra, § 7, no. 9, các công thức (23) và (24)) tập hợp các $w$ trong $M(X)$ sao cho $\phi(w) = \alpha$. Do đó $L^\alpha(S) = L^\alpha(X)$.
+Cho $\alpha \in \mathbf{N}^{(S)}$. Môđun $L^\alpha(S)$ được sinh bởi các ảnh trong $L(X)$ của các phần tử $w$ trong $M(S)$ sao cho $\phi(w) = \alpha$, nghĩa là (Đại số, § 7, no. 9, các công thức (23) và (24)) tập hợp các $w$ trong $M(X)$ sao cho $\phi(w) = \alpha$. Do đó $L^\alpha(S) = L^\alpha(X)$.
 
 Mệnh đề suy ra từ điều này và quan hệ $L(S) = \sum_{\alpha \in \mathbf{N}^{(S)}} L^\alpha(S)$.
 
@@ -592,11 +588,11 @@ Với mọi phần tử $a$ của $L(X)$ tồn tại một tập con hữu hạn
 
 *Môđun* $L(X)$ *là tự do và mỗi môđun con* $L^\alpha(X)$ *với* $\alpha \in \mathbf{N}^{(X)}$ *và* $L^n(X)$ *với* $n \in \mathbf{N}$ *cũng vậy*. *Các môđun* $L^\alpha(X)$ *đều có hạng hữu hạn và các môđun* $L^n(X)$ *cũng có hạng hữu hạn nếu* $X$ *là hữu hạn*.
 
-Tồn tại một Hall set đối với $X$ (Mệnh đề 11). Với mọi $w \in H$, phần tử $\Psi'(w)$ của $L(X)$ thuộc một trong các môđun $L^\alpha(X)$ (với $\alpha \in \mathbf{N}^{(X)}$) và môđun $L(X)$ là tổng trực tiếp của các môđun con $L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(X)}$, tập hợp các phần tử của $M(X)$ mà ảnh chính tắc trong $\mathbf{N}^{(X)}$ bằng $\alpha$ là hữu hạn; điều này cho thấy mỗi môđun $L^\alpha(X)$ đều là tự do và có hạng hữu hạn, và $L(X)$ là tự do. Bây giờ $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$ và do đó $L^n(X)$ là tự do; khi $X$ là hữu hạn, tập hợp các $\alpha \in \mathbf{N}^{(X)}$ sao cho $|\alpha|=n$ là hữu hạn và do đó khi ấy $L^n(X)$ có hạng hữu hạn.
+Tồn tại một Hall tập hợp đối với $X$ (Mệnh đề 11). Với mọi $w \in H$, phần tử $\Psi'(w)$ của $L(X)$ thuộc một trong các môđun $L^\alpha(X)$ (với $\alpha \in \mathbf{N}^{(X)}$) và môđun $L(X)$ là tổng trực tiếp của các môđun con $L^\alpha(X)$. Hơn nữa, với mọi $\alpha \in \mathbf{N}^{(X)}$, tập hợp các phần tử của $M(X)$ mà ảnh chính tắc trong $\mathbf{N}^{(X)}$ bằng $\alpha$ là hữu hạn; điều này cho thấy mỗi môđun $L^\alpha(X)$ đều là tự do và có hạng hữu hạn, và $L(X)$ là tự do. Bây giờ $L^n(X) = \sum_{|\alpha|=n} L^\alpha(X)$ và do đó $L^n(X)$ là tự do; khi $X$ là hữu hạn, tập hợp các $\alpha \in \mathbf{N}^{(X)}$ sao cho $|\alpha|=n$ là hữu hạn và do đó khi ấy $L^n(X)$ có hạng hữu hạn.
 
 #### Định nghĩa 3 {#lie-ii-s2-def-3 .statement}
 
-*Một cơ sở Hall của một đại số Lie tự do* $L(X)$ *là mọi cơ sở của* $L(X)$ *mà là ảnh chính tắc của một Hall set đối với* $X$.
+*Một cơ sở Hall của một đại số Lie tự do* $L(X)$ *là mọi cơ sở của* $L(X)$ *mà là ảnh chính tắc của một Hall tập hợp đối với* $X$.
 
 #### Nhận xét {#lie-ii-s2-n11-rem-1 .statement}
 

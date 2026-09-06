@@ -332,7 +332,7 @@ $$
 
 với mọi $z \in T^n(M)$, điều này chứng minh mệnh đề đã nêu.
 
-Khi $n!$ khả nghịch trong $A$, các môđun con $A'_n(M)$ và $\mathfrak{J}_n''$ của $T^n(M)$ do đó là *bù nhau* và hạn chế trên $A'_n(M)$ của đồng cấu chính tắc $T^n(M) \to \bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$ là một A-môđun *đẳng cấu*, điều này cho phép ta trong trường hợp đang xét đồng nhất các tensor phản đối xứng cấp $n$ với các phần tử của lũy thừa ngoài thứ $n$ của $M$. Ở đây cũng chú ý rằng sự đồng nhất này không tương thích với phép nhân, vì tích trong $T(M)$ của hai tensor phản đối xứng nói chung không phản đối xứng.
+Khi $n!$ khả nghịch trong $A$, các môđun con $A'_n(M)$ và $\mathfrak{J}_n''$ của $T^n(M)$ do đó là *bù nhau* và hạn chế trên $A'_n(M)$ của đồng cấu chính tắc $T^n(M) \to \bigwedge^n(M) = T^n(M)/\mathfrak{J}_n''$ là một A-môđun *đẳng cấu*, điều này cho phép ta trong trường hợp đang xét đồng nhất các tenxơ phản đối xứng cấp $n$ với các phần tử của lũy thừa ngoài thứ $n$ của $M$. Ở đây cũng chú ý rằng sự đồng nhất này không tương thích với phép nhân, vì tích trong $T(M)$ của hai tenxơ phản đối xứng nói chung không phản đối xứng.
 
 ### 5. MỞ RỘNG VÀNH VÔ HƯỚNG
 
@@ -470,13 +470,13 @@ Việc $\bigwedge(M)$ là tổng trực tiếp của các $\bigwedge^{\alpha,n}(
 
 #### Định lý 1 {#alg-iii-s7-thm-1 .statement}
 
-*Cho* $M$* *là một A-môđun có một cơ sở* $(e_\lambda)_{\lambda \in L}$. *Giả sử* $L$* *được trang bị cấu trúc của một tập sắp thứ tự toàn phần* (Set Theory, III, § 2, no. 3, Theorem 1)* *và với mọi tập con hữu hạn* $J$* *của* $L$* *ta viết*
+*Cho* $M$* *là một A-môđun có một cơ sở* $(e_\lambda)_{\lambda \in L}$. *Giả sử* $L$* *được trang bị cấu trúc của một tập hợp sắp thứ tự toàn phần* (Lý thuyết tập hợp, III, § 2, no. 3, Định lý 1)* *và với mọi tập con hữu hạn* $J$* *của* $L$* *ta viết*
 
 $$
 e_J = e_{\lambda_1} \wedge e_{\lambda_2} \wedge \cdots \wedge e_{\lambda_n}
 $$
 
-trong đó $(\lambda_k)_{1 \leq k \leq n}$ là dãy các phần tử của J được sắp theo thứ tự tăng (Set Theory, III, § 5, no. 3, Proposition 6); ta viết $e_\varnothing = 1$, phần tử đơn vị của A. Khi đó các $e_J$, khi J chạy qua tập $\mathcal{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của đại số ngoài $\bigwedge(M)$.
+trong đó $(\lambda_k)_{1 \leq k \leq n}$ là dãy các phần tử của J được sắp theo thứ tự tăng (Lý thuyết tập hợp, III, § 5, no. 3, Mệnh đề 6); ta viết $e_\varnothing = 1$, phần tử đơn vị của A. Khi đó các $e_J$, khi J chạy qua tập $\mathcal{F}(L)$ các tập con hữu hạn của L, tạo thành một cơ sở của đại số ngoài $\bigwedge(M)$.
 
 Vì các $e_\lambda$ sinh A-môđun M, mọi phần tử của $\bigwedge(M)$ là một tổ hợp tuyến tính của một số hữu hạn tích của các phần tử $e_\lambda$ và do đó (có tính đến no. 3, Mệnh đề 5) là một tổ hợp tuyến tính của một số hữu hạn phần tử $e_J$ với $J \in \mathcal{F}(L)$. Vậy chỉ còn phải chứng minh rằng các $e_J$ độc lập tuyến tính trên A. Nếu không, sẽ tồn tại giữa các phần tử ấy một quan hệ tuyến tính với các hệ số không phải tất cả đều bằng không; hợp của các tập con J tương ứng với các $e_J$ mà các hệ số của chúng trong quan hệ này là $\neq 0$ là một tập con hữu hạn K của L (vì chỉ có một số hữu hạn hệ số $\neq 0$). Gọi N là môđun con của M sinh bởi các $e_\lambda$ sao cho $\lambda \in K$; N là một nhân tử trực tiếp của M, do đó (no. 2) $\bigwedge(N)$ được đồng nhất với một đại số con của $\bigwedge(M)$ và, nếu ta chỉ ra rằng các $e_J$ với $J \subset K$ tạo thành một cơ sở của $\bigwedge(N)$, thì ta sẽ thu được mâu thuẫn cần tìm.
 
@@ -595,7 +595,7 @@ nên ta kết luận rằng $\Lambda(f)$ là đơn ánh.
 
 *Cho $M$ là một $A$-môđun, $N$ là một môđun con hạng tử trực tiếp của $M$ tự do có chiều $p$ và $\{u\}$ là một cơ sở của $\Lambda^p(N)$. Để một phần tử $x \in M$ thuộc $N$, điều kiện cần và đủ là $u \wedge x = 0$.*
 
-Cho $P$ là một môđun con của $M$ bổ sung với $N$ và cho $y \in N,\ z \in P$ sao cho $x = y + z$. Khi đó $u \wedge x = u \wedge z$. Vì $\Lambda^p(N)$ là tự do chiều 1, ánh xạ $\phi: P \to P \otimes \Lambda^p(N)$ sao cho $\phi(p) = p \otimes u$ là song ánh (II, § 3, no. 4, Proposition 4). Mặt khác (no. 7, Proposition 10), hợp thành của các đồng cấu chính tắc
+Cho $P$ là một môđun con của $M$ bổ sung với $N$ và cho $y \in N,\ z \in P$ sao cho $x = y + z$. Khi đó $u \wedge x = u \wedge z$. Vì $\Lambda^p(N)$ là tự do chiều 1, ánh xạ $\phi: P \to P \otimes \Lambda^p(N)$ sao cho $\phi(p) = p \otimes u$ là song ánh (II, § 3, no. 4, Mệnh đề 4). Mặt khác (no. 7, Mệnh đề 10), hợp thành của các đồng cấu chính tắc
 
 $$
 \psi: P \otimes \Lambda^p(N) \to \Lambda(P) \otimes \Lambda(N) \to \Lambda(M)
@@ -613,7 +613,7 @@ $$
 
 là khả nghịch trong $A$.*
 
-Nhắc lại rằng $e_1 \wedge e_2 \wedge \cdots \wedge e_n$ là phần tử duy nhất của một cơ sở của $\Lambda^n(M)$ (no. 8, Corollary 1 to Theorem 1) nên phần tử $\lambda \in A$ thỏa mãn (23) được xác định duy nhất. Nếu $(x_i)_{1 \leq i \leq n}$ là một cơ sở của $M$, thì $x_1 \wedge x_2 \wedge \cdots \wedge x_n$ là phần tử duy nhất trong một cơ sở của $\Lambda^n(M)$ (no. 8), khi đó $\lambda$ là khả nghịch. Ngược lại, giả sử $\lambda$ là khả nghịch; khi đó dạng $n$-tuyến tính phản xứng $f$ tương ứng với ánh xạ tuyến tính $g: \Lambda^n(M) \to A$ sao cho
+Nhắc lại rằng $e_1 \wedge e_2 \wedge \cdots \wedge e_n$ là phần tử duy nhất của một cơ sở của $\Lambda^n(M)$ (no. 8, Hệ quả 1 to Định lý 1) nên phần tử $\lambda \in A$ thỏa mãn (23) được xác định duy nhất. Nếu $(x_i)_{1 \leq i \leq n}$ là một cơ sở của $M$, thì $x_1 \wedge x_2 \wedge \cdots \wedge x_n$ là phần tử duy nhất trong một cơ sở của $\Lambda^n(M)$ (no. 8), khi đó $\lambda$ là khả nghịch. Ngược lại, giả sử $\lambda$ là khả nghịch; khi đó dạng $n$-tuyến tính phản xứng $f$ tương ứng với ánh xạ tuyến tính $g: \Lambda^n(M) \to A$ sao cho
 
 $$
 g(e_1 \wedge e_2 \wedge \cdots \wedge e_n) = \lambda^{-1}
@@ -625,7 +625,7 @@ $$
 x \wedge x_1 \wedge \cdots \wedge x_n = 0
 $$
 
-(no. 3, Proposition 6); áp dụng no. 8, Corollary 3 to Theorem 1, ta được
+(no. 3, Mệnh đề 6); áp dụng no. 8, Hệ quả 3 to Định lý 1, ta được
 
 $$
 f(x_1, x_2, \ldots, x_n) \cdot x = \sum_{i=1}^n (-1)^{i-1} f(x, x_1, \ldots, \hat{x}_i, \ldots, x_n) \cdot x_i.

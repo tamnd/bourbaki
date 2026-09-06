@@ -33,7 +33,7 @@ subsections:
       pdf_page: 15
 statements: 48
 exercises: 17
-content_sha256: 39579207db3a1ec2253382ca725a94cb3a2ec6751a183b5842e7d93e1c5e7a32
+content_sha256: dfd77bd04b8c3a561bbff2a837de1d04473894f7c634da1f7c06b1d28592b805
 ---
 
 ## § 1. DIMENSION DE KRULL D’UN ANNEAU
@@ -249,7 +249,7 @@ Nous démontrerons plus loin (§ 3, no 4, cor. 3 de la prop. 7 et cor. 3 de la p
 
 #### Exemple 5 {#ac-viii-s1-n3-exa-5 .statement}
 
-Soit $X$ une variété analytique complexe. Si $X$ est de dimension complexe $n$ en un point $x$ de $X$, l’anneau local des germes en $x$ de fonctions analytiques sur $X$ est de dimension $n$. \*
+\* Soit $X$ une variété analytique complexe. Si $X$ est de dimension complexe $n$ en un point $x$ de $X$, l’anneau local des germes en $x$ de fonctions analytiques sur $X$ est de dimension $n$. \*
 
 #### Exemple 6 {#ac-viii-s1-n3-exa-6 .statement}
 

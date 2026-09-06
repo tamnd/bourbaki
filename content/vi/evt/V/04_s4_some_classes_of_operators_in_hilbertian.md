@@ -427,7 +427,7 @@ Giả sử $p^2 = p$. Cho M là ảnh của p và N là hạt nhân của nó. E
 Khi K bằng C, quan hệ
 
 $$
-\langle x|u(x) \rangle \geq 0 \quad \text{for all } x \in E
+\langle x|u(x) \rangle \geq 0 \quad \text{với mọi } x \in E
 $$
 
 suy ra rằng u là Hermit (V, p. 2, Nhận xét), do đó là dương.
@@ -471,7 +471,7 @@ với mọi $x \in E$. Vì thế quan hệ $p_M \leq p_N$ tương đương với
 
 (i) *Tập $\mathcal{F}$ có một cận trên $u_0$ trong $\mathcal{H}(E)$; ta có*
 $$
-\langle x|u_0(x)\rangle = \sup_{u \in \mathcal{F}} \langle x|u(x)\rangle \quad \text{for all} \quad x \in E .
+\langle x|u_0(x)\rangle = \sup_{u \in \mathcal{F}} \langle x|u(x)\rangle \quad \text{với mọi} \quad x \in E .
 $$
 
 (ii) *Bộ lọc các phần cắt của $\mathcal{F}$ hội tụ đến $u_0$ trong không gian $\mathcal{L}(E)$ được trang bị tôpô hội tụ đơn.*
@@ -512,7 +512,7 @@ ta kết luận rằng $x \mapsto \Phi(x, x)$ là một hàm liên tục trên $
 
 Theo phép dựng, ta có
 $$
-\lim_{u,\Sigma} \langle x|(u_0 - u)(x)\rangle = 0 \quad \text{for all } x \in E.
+\lim_{u,\Sigma} \langle x|(u_0 - u)(x)\rangle = 0 \quad \text{với mọi } x \in E.
 $$
 Cho $v_1 \in \mathcal{F}$; với một $u \in \mathcal{F}$ sao cho $u \geq v_1$, đặt $v = u_0 - u$. Nếu áp dụng bất đẳng thức Cauchy-Schwarz cho dạng Hermit dương $\Phi_v$ trên $E$, ta được
 $$
@@ -644,7 +644,7 @@ $$
 
 Cho $(u_\alpha)_{\alpha \in A}$ là một họ không rỗng, có hướng, tăng và bị chặn của các tự đồng cấu liên tục và dương của E; cho $u = \sup_\alpha u_\alpha$, khi đó $\langle x | u(x) \rangle = \sup_\alpha \langle x | u_\alpha(x) \rangle$ với mọi $x \in E$ (V, p. 46, mệnh đề 13). Ta có $\text{Tr}(u) = \sup_{J \subset I} \sum_{i \in J} \langle e_i | u(e_i) \rangle$, trong đó J chạy qua mọi tập con hữu hạn của I, do đó
 $$
-\text{Tr}(u) = \sup_\alpha \text{Tr}(u_\alpha) \quad \text{for} \quad u = \sup_\alpha u_\alpha.
+\text{Tr}(u) = \sup_\alpha \text{Tr}(u_\alpha) \quad \text{với} \quad u = \sup_\alpha u_\alpha.
 $$
 
 Cho $p_F$ là phép chiếu trực giao từ $E$ lên không gian con Hilbert $F$; tồn tại một cơ sở trực chuẩn $(e_i)_{i \in I}$ của $E$ và một tập con $J$ của $I$, sao cho $(e_i)_{i \in J}$ là một cơ sở trực chuẩn của $F$. Ta có $\text{Tr}(p_F up_F) = \sum_{i \in J} \langle e_i | u(e_i) \rangle$. Công thức này có hai hệ quả: thứ nhất, ta có $\text{Tr}(p_F up_F) \leq \text{Tr}(u)$; thứ hai, lấy $u = 1_E$, ta được
@@ -799,11 +799,9 @@ $$
 $$
 Nhờ tính tuyến tính và tính liên tục, chỉ cần kiểm tra công thức này khi $u = y_1 x_1^*$ và $v = x_2 y_2^*$ (với $x_1, x_2$ trong E, $y_1, y_2$ trong F); nhưng khi đó $uv$ là ánh xạ $y \mapsto y_1 \langle x_1 | x_2 \rangle \langle y_2 | y \rangle$ và $vu$ là ánh xạ $x \mapsto x_2 \langle y_2 | y_1 \rangle \langle x_1 | x \rangle$, và (41) suy ra từ công thức (22) của V, p. 48.
 
-Do đó, nếu $u_1, u_2$ are two elements of $\mathcal{L}^2(E; F)$, ta có, trong không gian Hilbert $\mathcal{L}^2(F; E)$,
-$$
+Do đó, nếu $u_1, u_2$ là hai phần tử của $\mathcal{L}^2(E; F)$, ta có, trong không gian Hilbert $\mathcal{L}^2(F; E)$, $$
 \langle u_1^* | u_2^* \rangle = \operatorname{Tr}(u_1 u_2^*) = \operatorname{Tr}(u_2^* u_1) = \langle u_2 | u_1 \rangle = \overline{\langle u_1 | u_2 \rangle} ;
-$$
-nói cách khác, $u \mapsto u^*$ là một đẳng cấu từ không gian Hilbert $\mathcal{L}^2(E; F)$ lên không gian liên hợp (V, p. 6) của không gian Hilbert $\mathcal{L}^2(F; E)$. Nếu ta đồng nhất không gian liên hợp này với không gian đối ngẫu của $\mathcal{L}^2(F; E)$ (V, p. 15), ta thấy rằng $\mathcal{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathcal{L}^2(F; E)$, với dạng song tuyến tính chính tắc $(v, u) \mapsto \langle v, u \rangle$ được đồng nhất với $(v, u) \mapsto \operatorname{Tr}(vu)$.
+$$ nói cách khác, $u \mapsto u^*$ là một đẳng cấu từ không gian Hilbert $\mathcal{L}^2(E; F)$ lên không gian liên hợp (V, p. 6) của không gian Hilbert $\mathcal{L}^2(F; E)$. Nếu ta đồng nhất không gian liên hợp này với không gian đối ngẫu của $\mathcal{L}^2(F; E)$ (V, p. 15), ta thấy rằng $\mathcal{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathcal{L}^2(F; E)$, với dạng song tuyến tính chính tắc $(v, u) \mapsto \langle v, u \rangle$ được đồng nhất với $(v, u) \mapsto \operatorname{Tr}(vu)$.
 
 #### Nhận xét 2 {#evt-v-s4-n7-rem-2 .statement}
 
@@ -869,7 +867,7 @@ $$
 \langle e_j|v(e_i)\rangle = \langle u(e_j)|u(e_i)\rangle = 0
 $$
 
-hence $v(e_i)$ is proportional to $e_i$ and is of the form $\lambda_i e_i$, where $\lambda_i = \langle e_i | v(e_i) \rangle$; then
+do đó $v(e_i)$ tỉ lệ với $e_i$ và có dạng $\lambda_i e_i$, trong đó $\lambda_i = \langle e_i | v(e_i) \rangle$; khi đó
 
 $$
 \lambda_i \geqslant 0 \quad \text{và} \quad \sum_{i \in I} \lambda_i = \operatorname{Tr}(v) < + \infty .

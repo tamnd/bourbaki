@@ -57,7 +57,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ### 1. Các tự đồng cấu có vết hữu hạn, thuộc lớp Hilbert–Schmidt, và có lũy thừa hạt nhân $p^{\mathbf{e}}$
 
-*Cho E và F là các không gian Hilbert. Mọi tự đồng cấu của E có vết hữu hạn (EVT, V, p. 49, Def. 7 và p. 50, Def. 8) đều compact (IV, p. 165, Corollary 1); mọi ánh xạ Hilbert–Schmidt từ E vào F (EVT, V, p. 51, Def. 9) đều compact (IV, p. 165, Corollary 2).
+*Cho E và F là các không gian Hilbert. Mọi tự đồng cấu của E có vết hữu hạn (EVT, V, p. 49, Def. 7 và p. 50, Def. 8) đều compact (IV, p. 165, hệ quả 1); mọi ánh xạ Hilbert–Schmidt từ E vào F (EVT, V, p. 51, Def. 9) đều compact (IV, p. 165, hệ quả 2).
 
 Với mọi số thực $p\geqslant 1$, không gian vectơ $\mathscr{L}_p(E; F)$ của các ánh xạ tuyến tính từ E vào F có lũy thừa hạt nhân $p^e$ được chứa trong $\mathscr{L}^c(E; F) ($x. IV, p. 169, Nhận xét 2 khi $p= 1).*$
 
@@ -251,7 +251,7 @@ $$
 
 Không gian $\mathscr{L}^{p'}(X\times Y)$ được chứa trong $\mathscr{N}^{p,p}(X\times Y)$. Ánh xạ tuyến tính từ $\mathscr{L}^{p'}(X\times Y)$ vào $\mathscr{L}(L^p(X); L^{p'}(Y))$ xác định bởi $k\mapsto u_k$ gây ra, sau khi chuyển qua thương, một ánh xạ tuyến tính liên tục đơn ánh từ $L^{p'}(X\times Y)$ vào $\mathscr{L}(L^p(X); L^{p'}(Y))$.
 
-Lấy $k\in \mathscr{L}^{p'}(X\times Y)$. Ánh xạ $k$ là đo được (INT, IV, p. 84, § 5, No.$^o6$, Theorem 5). Lấy $f\in \mathscr{L}^p(X)$ và $g\in \mathscr{L}^p(Y)$. Hàm $h: (x, y)\mapsto f(x)g(y)$ thuộc $\mathscr{L}^p(X\times Y)$ và $\|h\|_p=\|f\|_p\|g\|_p$ (INT, V, p. 95, § 8, No.$^o3$, Hệ quả 2). Do đó hàm $hk$ là khả tích trên $X\times Y$ và ta có
+Lấy $k\in \mathscr{L}^{p'}(X\times Y)$. Ánh xạ $k$ là đo được (INT, IV, p. 84, § 5, No.$^o6$, định lý 5). Lấy $f\in \mathscr{L}^p(X)$ và $g\in \mathscr{L}^p(Y)$. Hàm $h: (x, y)\mapsto f(x)g(y)$ thuộc $\mathscr{L}^p(X\times Y)$ và $\|h\|_p=\|f\|_p\|g\|_p$ (INT, V, p. 95, § 8, No.$^o3$, Hệ quả 2). Do đó hàm $hk$ là khả tích trên $X\times Y$ và ta có
 
 $$
 (\mu\otimes \nu )^*(|hk|)\leqslant \|k\|_{p'}\|h\|_p=\|k\|_{p'}\|f\|_p\|g\|_p

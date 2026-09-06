@@ -24,9 +24,9 @@ subsections:
       title: Polynomial functions on an infinite integral domain
       page: 17
       pdf_page: 26
-statements: 19
+statements: 20
 exercises: 5
-content_sha256: 225ec9e15b7f2dea5044d6aa6129a8558e1f970a5442b8f106a96a6e1d7fde32
+content_sha256: 73b76f21e149f7673e0eb7bbee5b35a5a1af86aad368b42e6bfe55bdaafa4953
 ---
 
 ## § 2. ZEROS OF POLYNOMIALS
@@ -62,7 +62,10 @@ If $h > 0$ we also say that $a$ is a root of order $h$ or multiplicity $h$ off. 
 #### Remark 1 {#alg-iv-s2-n1-rem-1 .statement}
 
 If $f = 0$ we agree to say that $a$ has order $\geq h$ relative to $f$, whatever $a \in \mathbf{A}$ and the integer $h \geq 0$. For any $f \in \mathbf{A}[X]$ and $a \in \mathbf{A}$, to say that $a$ has order $\geq h$ relative to $f$ means that $(X - \alpha)^h$ divides $f$.
-2) Let $B$ be a commutative ring containing $\mathbf{A}$ as subring. Let $f \in \mathbf{A}[X]$ be non-zero and $a \in \mathbf{A}$. The order of $a$ relative to $f$ is the same, whether we consider $f$ as element of $B[X]$ or as element of $\mathbf{A}[X]$. This is clear from condition (ii) of Prop. 2.
+
+#### Remark 2 {#alg-iv-s2-n1-rem-2 .statement}
+
+Let $B$ be a commutative ring containing $\mathbf{A}$ as subring. Let $f \in \mathbf{A}[X]$ be non-zero and $a \in \mathbf{A}$. The order of $a$ relative to $f$ is the same, whether we consider $f$ as element of $B[X]$ or as element of $\mathbf{A}[X]$. This is clear from condition (ii) of Prop. 2.
 
 #### Proposition 4 {#alg-iv-s2-prop-4 .statement}
 

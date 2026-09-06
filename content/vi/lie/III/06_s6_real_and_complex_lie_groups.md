@@ -271,13 +271,13 @@ Cho G là một nhóm Lie hữu hạn chiều và H là một nhóm con của G.
 
 #### Nhận xét 4 {#lie-iii-s6-n2-rem-4 .statement}
 
-Nếu K = R, các nhóm con nguyên của G cũng có thể được đặc trưng như các nhóm con mà, với tôpô cảm sinh bởi tôpô của G, là liên thông bằng cung (§ 8, Bài tập 4). Tuy nhiên, các nhóm con có thể liên thông nhưng không nguyên (Commutative Algebra, Chapter VI, § 9, Exercise 2).
+Nếu K = R, các nhóm con nguyên của G cũng có thể được đặc trưng như các nhóm con mà, với tôpô cảm sinh bởi tôpô của G, là liên thông bằng cung (§ 8, Bài tập 4). Tuy nhiên, các nhóm con có thể liên thông nhưng không nguyên (Đại số giao hoán, Chương VI, § 9, Bài tập 2).
 
 #### Hệ quả {#lie-iii-s6-n2-cor-1 .statement}
 
 Cho G là một nhóm Lie hữu hạn chiều và H_1 và H_2 là hai nhóm con nguyên của G. Nhóm con của G được sinh bởi H_1 và H_2 và nhóm con (H_1, H_2) của G là các nhóm con nguyên của G.
 
-Nhóm con (G, G) của G không phải lúc nào cũng đóng (§ 9, Exercise 6).
+Nhóm con (G, G) của G không phải lúc nào cũng đóng (§ 9, Bài tập 6).
 
 Nhắc lại rằng (§ 3, no. 11, Hệ quả 5 của Mệnh đề 41) nếu a là một đại số hữu hạn chiều, thì Aut(a) là một đại số con Lie của GL(a) và L(Aut(a)) là đại số Lie các phép dẫn xuất của a.
 
@@ -295,11 +295,11 @@ Theo phép chuyển cấu trúc, ad(a) là bất biến dưới Aut(a) và do đ
 
 (ii) Cho G_1 và G_2 là hai nhóm Lie liên thông, với G_1 đơn liên. Cho f là một đẳng cấu từ L(G_1) lên L(G_2), φ là cấu xạ từ G_1 vào G_2 sao cho L(φ) = f và N là hạt nhân của φ. Khi đó N là một nhóm con rời rạc của tâm của G_1 và cấu xạ từ G_1/N vào G_2 dẫn xuất từ φ là một đẳng cấu nhóm Lie. Nếu G_2 đơn liên, thì φ là một đẳng cấu.
 
-Cho L là một đại số Lie hữu hạn chiều. Tồn tại một không gian vectơ hữu hạn chiều E sao cho L có thể được đồng nhất với một đại số con Lie của End(E) (Chapter I, § 7, Theorem 2). Cho H là nhóm con nguyên của GL(E) có
+Cho L là một đại số Lie hữu hạn chiều. Tồn tại một không gian vectơ hữu hạn chiều E sao cho L có thể được đồng nhất với một đại số con Lie của End(E) (Chương I, § 7, Định lý 2). Cho H là nhóm con nguyên của GL(E) có
 
-đại số Lie là L. Cho $\hat{H}$ là phủ phổ quát của nó ($§ 1$, no. 9, *Remark*). Khi đó $L(\hat{H})$ đẳng cấu với L, do đó có (i).
+đại số Lie là L. Cho $\hat{H}$ là phủ phổ quát của nó ($§ 1$, no. 9, *nhận xét*). Khi đó $L(\hat{H})$ đẳng cấu với L, do đó có (i).
 
-Cho $G_1, G_2, f, \phi, N$ như trong (ii). Khi đó $\phi$ là étale, nên $\phi(G_1)$ là một nhóm con mở của $G_2$ và do đó $\phi(G_1) = G_2$. Mặt khác, N là rời rạc và do đó được chứa trong tâm của $G_1$ (*Integration*, Chapter VII, $§ 3$, Lemma 4). Rõ ràng cấu xạ từ $G_1/N$ lên $G_2$ dẫn xuất từ $\phi$ là một đẳng cấu nhóm Lie. Nếu $G_2$ đơn liên, mọi ánh xạ étale từ $G_1$ lên $G_2$ đều đơn ánh và do đó $N = \{e\}$.
+Cho $G_1, G_2, f, \phi, N$ như trong (ii). Khi đó $\phi$ là étale, nên $\phi(G_1)$ là một nhóm con mở của $G_2$ và do đó $\phi(G_1) = G_2$. Mặt khác, N là rời rạc và do đó được chứa trong tâm của $G_1$ (*Integration*, Chương VII, $§ 3$, Bổ đề 4). Rõ ràng cấu xạ từ $G_1/N$ lên $G_2$ dẫn xuất từ $\phi$ là một đẳng cấu nhóm Lie. Nếu $G_2$ đơn liên, mọi ánh xạ étale từ $G_1$ lên $G_2$ đều đơn ánh và do đó $N = \{e\}$.
 
 #### Mệnh đề 5 {#lie-iii-s6-prop-5 .statement}
 
@@ -651,9 +651,9 @@ Tính duy nhất suy ra từ Mệnh đề 16. Theo § 4, no. 7, Hệ quả 1 c�
 
 #### Mệnh đề 17 {#lie-iii-s6-prop-17 .statement}
 
-Cho Δ là tập hợp các z ∈ C sao cho −π < J(z) < π và Δ' là tập hợp các z ∈ C không thực ≤ 0. Gọi E là một không gian đầy đủ khả chuẩn trên C và A (resp. A') là tập hợp các x ∈ L(E) mà phổ Sp(x) được chứa trong Δ (resp. Δ'). Khi đó A (resp. A') là một tập con mở của L(E) (resp. GL(E)) và các ánh xạ exp: A → A' và log: A' → A (Spectral Theories, Chapter I, § 4, no. 9) là các đẳng cấu nghịch đảo của các đa tạp giải tích.
+Cho Δ là tập hợp các z ∈ C sao cho −π < J(z) < π và Δ' là tập hợp các z ∈ C không thực ≤ 0. Gọi E là một không gian đầy đủ khả chuẩn trên C và A (resp. A') là tập hợp các x ∈ L(E) mà phổ Sp(x) được chứa trong Δ (resp. Δ'). Khi đó A (resp. A') là một tập con mở của L(E) (resp. GL(E)) và các ánh xạ exp: A → A' và log: A' → A (Spectral Theories, Chương I, § 4, no. 9) là các đẳng cấu nghịch đảo của các đa tạp giải tích.
 
-Điều này suy ra từ Spectral Theories, Chapter I, § 4, Mệnh đề 10 và no. 9.
+Điều này suy ra từ Spectral Theories, Chương I, § 4, Mệnh đề 10 và no. 9.
 
 #### Định lý 6 {#lie-iii-s6-thm-6 .statement}
 

@@ -286,7 +286,7 @@ Nếu các điều kiện của Mệnh đề 7 được thỏa mãn, nhóm Lie $
 
 Rõ ràng đơn ánh chính tắc của $L$ (tương ứng $M$) vào $S$ là một đẳng cấu của $L$ (tương ứng $M$) lên một nhóm con Lie của $S$ mà ta đồng nhất với $L$ (tương ứng $M$). Ánh xạ chính tắc của $S$ lên $L$ là một cấu xạ nhóm Lie.
 
-Ngược lại, cho $G$ là một nhóm Lie và $L$, $M$ là hai nhóm con Lie sao cho nhóm $G$ là tích nửa trực tiếp (đại số) của $L$ bởi $M$ (*Algebra*, Chương I, § 6, no. 1). Ta viết $\sigma(l)m = lml^{-1}$ với $l \in L$ và $m \in M$. Khi đó $\sigma$ thỏa mãn các điều kiện của Mệnh đề 7. Do đó ta có thể tạo thành nhóm Lie tích nửa trực tiếp $S$ của $L$ bởi $M$ ứng với $\sigma$. Ánh xạ $j: (m, l) \mapsto ml$ từ $S$ lên $G$ là một đẳng cấu nhóm và là giải tích. Nếu $j$ là một đẳng cấu nhóm Lie, *nhóm Lie* $G$ *được gọi là* (*nội*) *tích nửa trực tiếp của* $L$ *bởi* $M$ *và* $S$ *và* $G$ *được đồng nhất*. Với mọi $g \in G$, ta viết $g = p(g)q(g)$, trong đó $p(g) \in M$ và $q(g) \in L$. Để nhóm Lie $G$ là tích nửa trực tiếp của $L$ bởi $M$, điều kiện cần và đủ là một trong các ánh xạ $p: G \to M$ và $q: G \to L$ là giải tích, trong trường hợp đó cả hai đều là giải tích; hoặc tương đương, điều kiện cần và đủ là $T_e(G)$ là tổng trực tiếp tôpô của $T_e(M)$ và $T_e(L)$ (vì, nếu điều kiện này được thỏa mãn, $j$ là étale tại $e_S$).
+Ngược lại, cho $G$ là một nhóm Lie và $L$, $M$ là hai nhóm con Lie sao cho nhóm $G$ là tích nửa trực tiếp (Đại số) của $L$ bởi $M$ (*Đại số*, Chương I, § 6, no. 1). Ta viết $\sigma(l)m = lml^{-1}$ với $l \in L$ và $m \in M$. Khi đó $\sigma$ thỏa mãn các điều kiện của Mệnh đề 7. Do đó ta có thể tạo thành nhóm Lie tích nửa trực tiếp $S$ của $L$ bởi $M$ ứng với $\sigma$. Ánh xạ $j: (m, l) \mapsto ml$ từ $S$ lên $G$ là một đẳng cấu nhóm và là giải tích. Nếu $j$ là một đẳng cấu nhóm Lie, *nhóm Lie* $G$ *được gọi là* (*nội*) *tích nửa trực tiếp của* $L$ *bởi* $M$ *và* $S$ *và* $G$ *được đồng nhất*. Với mọi $g \in G$, ta viết $g = p(g)q(g)$, trong đó $p(g) \in M$ và $q(g) \in L$. Để nhóm Lie $G$ là tích nửa trực tiếp của $L$ bởi $M$, điều kiện cần và đủ là một trong các ánh xạ $p: G \to M$ và $q: G \to L$ là giải tích, trong trường hợp đó cả hai đều là giải tích; hoặc tương đương, điều kiện cần và đủ là $T_e(G)$ là tổng trực tiếp tôpô của $T_e(M)$ và $T_e(L)$ (vì, nếu điều kiện này được thỏa mãn, $j$ là étale tại $e_S$).
 
 #### Ví dụ {#lie-iii-s1-n4-exa-1 .statement}
 
@@ -679,7 +679,7 @@ Cho G là một nhóm tôpô, N một nhóm con chuẩn tắc rời rạc của 
 
 Cho H là một nhóm Lie thực hoặc phức liên thông, $\tilde{H}$ là phủ phổ quát của nó† và \pi là ánh xạ chính tắc của $\tilde{H}$ lên H. Khi nói về $\tilde{H}$
 
-† Cf. General Topology, Chapter XI; trong khi chờ xuất bản chương này, xem chẳng hạn L. S. Pontrjagin, Topological groups, 2nd edition translated from Russian, Gordon and Breach, 1966; hoặc G. Hochschild, The structure of Lie groups, Holden-Day, 1965.
+† Xem General Topology, Chương XI; trong khi chờ xuất bản chương này, xem chẳng hạn L. S. Pontrjagin, Topological groups, ấn bản thứ 2 dịch từ tiếng Nga, Gordon and Breach, 1966; hoặc G. Hochschild, The structure of Lie groups, Holden-Day, 1965.
 
 CÁC NHÓM LIE
 

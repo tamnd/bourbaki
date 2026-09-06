@@ -221,7 +221,7 @@ $$
 do đó $p \in \mathfrak{S}_A$ và $\mathfrak{S}_B = \mathfrak{S}_A$. Theo mệnh đề 3 của no. 1 và hệ quả của nó, ta có
 
 $$
-e_q^A(A) = \sum_{p \in \mathfrak{S}_A} e_q^A(A/p) \quad \text{and} \quad e_q^A(B) = \sum_{p \in \mathfrak{S}_B} \operatorname{long}_{A_p}(A_p \otimes_A B) e_q^A(A/p);
+e_q^A(A) = \sum_{p \in \mathfrak{S}_A} e_q^A(A/p) \quad \text{và} \quad e_q^A(B) = \sum_{p \in \mathfrak{S}_B} \operatorname{long}_{A_p}(A_p \otimes_A B) e_q^A(A/p);
 $$
 
 theo Bổ đề 1, ta có $\operatorname{long}_{A_p}(A_p \otimes_A B) = 1$ với mọi $p \in \mathfrak{S}_A$, do đó $e_q^A(A) = e_q^A(B)$.

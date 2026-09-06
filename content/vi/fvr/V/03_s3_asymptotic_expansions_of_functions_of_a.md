@@ -134,20 +134,18 @@ Xét tích phân $\int_{0}^{+\infty} t^{\lambda-1} e^{-t} \, dt$. Vì $e^{-t} \s
 
 *Cho $\mathbf{f}$ là một hàm vectơ điều chỉnh được, và $g$ là một hàm điều chỉnh được $\geq 0$ trên $[a, +\infty[$.*
 
-1. *If the integral $\int_{a}^{+\infty} g(t) \, dt$ converges then the relation $\mathbf{f} \ll g$ (resp. $\mathbf{f} \sim c g$, where $c$ is constant) implies that $\int_{x}^{+\infty} \mathbf{f}(t) \, dt \ll \int_{x}^{+\infty} g(t) \, dt$ (resp. $\int_{x}^{+\infty} \mathbf{f}(t) \, dt \sim c \int_{x}^{+\infty} g(t) \, dt$).
+1. *Nếu tích phân $\int_{a}^{+\infty} g(t) \, dt$ hội tụ thì quan hệ $\mathbf{f} \ll g$ (tương ứng $\mathbf{f} \sim c g$, trong đó $c$ là hằng số) kéo theo rằng $\int_{x}^{+\infty} \mathbf{f}(t) \, dt \ll \int_{x}^{+\infty} g(t) \, dt$ (tương ứng $\int_{x}^{+\infty} \mathbf{f}(t) \, dt \sim c \int_{x}^{+\infty} g(t) \, dt$).
 
-2. *If the integral $\int_{a}^{+\infty} g(t) \, dt$ is infinite then the relation $\mathbf{f} \ll g$ (resp. $\mathbf{f} \sim c g$) implies that*
-$$
+2. *Nếu tích phân $\int_{a}^{+\infty} g(t) \, dt$ là vô hạn thì quan hệ $\mathbf{f} \ll g$ (resp. $\mathbf{f} \sim c g$) kéo theo rằng* $$
 \int_{\alpha}^{\gamma} \mathbf{f}(t) \, dt \ll \int_{\beta}^{\gamma} g(t) \, dt \quad \text{(resp. } \int_{\alpha}^{\gamma} \mathbf{f}(t) \, dt \sim c \int_{\beta}^{\gamma} g(t) \, dt),
-$$
-*for any $\alpha$ and $\beta$ in $[a, +\infty[$*.
+$$ *với mọi $\alpha$ và $\beta$ trong $[a, +\infty[$*.
 
 Chỉ cần chứng minh mệnh đề cho quan hệ $\mathbf{f} \ll g$ vì, nếu $c \neq 0$, quan hệ $\mathbf{f} \sim c g$ tương đương với $\mathbf{f} - c g \ll g$.
 
 Phần thứ nhất là một hệ quả ngay lập tức của định lý giá trị trung bình, vì nếu $\| \mathbf{f}(x) \| \leq \varepsilon g(x)$ với $x \geq x_0$ thì suy ra rằng
 
 $$
-\left\| \int_{x}^{+\infty} \mathbf{f}(t) \, dt \right\| \leq \int_{x}^{+\infty} \| \mathbf{f}(t) \| \, dt \leq \varepsilon \int_{x}^{+\infty} g(t) \, dt \quad \text{for } x \geq x_0.
+\left\| \int_{x}^{+\infty} \mathbf{f}(t) \, dt \right\| \leq \int_{x}^{+\infty} \| \mathbf{f}(t) \| \, dt \leq \varepsilon \int_{x}^{+\infty} g(t) \, dt \quad \text{với } x \geq x_0.
 $$
 
 Tiếp theo, giả sử rằng $\int_{a}^{+\infty} g(t) \, dt = +\infty$. Nếu $\| \mathbf{f}(x) \| \leq \varepsilon g(x)$ với $x \geq x_0 \geq \max(\alpha, \beta)$, ta có
@@ -311,9 +309,9 @@ $$
 
 đến cấp chính xác $g_\alpha$ đối với $\mathcal{E}$. Giả sử thêm rằng mọi nguyên hàm $\int_a^x g(t)\,dt$ của một hàm $g \in \mathcal{E}$ đều có một khai triển tiệm cận đối với $\mathcal{E}$. Trong các điều kiện đó ta sẽ thấy rằng có thể thu được một khai triển tiệm cận của $F(x) = \int_a^x \mathbf{f}(t)\,dt$ đối với $\mathcal{E}$. Ta phân biệt hai trường hợp:
 
-1. $\int_a^{+\infty} g_\alpha(t)\,dt$ is infinite; then one has $\int_a^x \mathbf{r}_\alpha(t)\,dt \ll \int_a^x g_\alpha(t)\,dt$ (V, p. 230, prop. 6); by hypothesis one can obtain an asymptotic expansion of $\sum_{\lambda \leq \alpha} \mathbf{a}_\lambda \int_a^x g_\lambda(t)\,dt$ to a certain precision $g_\rho$ (V, p. 222); if $c g_\sigma$ is the principal part of $\int_a^x g_\alpha(t)\,dt$ one will thus have an asymptotic expansion of $\int_a^x \mathbf{f}(t)\,dt$ to precision $g_{\min(\rho,\sigma)}$, with all the terms having indefinitely increasing norms.
+1. $\int_a^{+\infty} g_\alpha(t)\,dt$ là vô hạn; khi đó ta có $\int_a^x \mathbf{r}_\alpha(t)\,dt \ll \int_a^x g_\alpha(t)\,dt$ (V, p. 230, prop. 6); theo giả thiết ta có thể thu được một khai triển tiệm cận của $\sum_{\lambda \leq \alpha} \mathbf{a}_\lambda \int_a^x g_\lambda(t)\,dt$ với một độ chính xác nhất định $g_\rho$ (V, p. 222); nếu $c g_\sigma$ là phần chính của $\int_a^x g_\alpha(t)\,dt$ thì do đó ta sẽ có một khai triển tiệm cận của $\int_a^x \mathbf{f}(t)\,dt$ với độ chính xác $g_{\min(\rho,\sigma)}$, với tất cả các số hạng có các chuẩn tăng vô hạn.
 
-2. $\int_a^{+\infty} g_\alpha(t)\,dt$ converges; let $\beta$ then be the smallest of the indices $\lambda \leq \alpha$ such that $\mathbf{a}_\lambda \neq 0$ and such that $\int_a^{+\infty} g_\lambda(t)\,dt$ converges; the integral
+2. $\int_a^{+\infty} g_\alpha(t)\,dt$ hội tụ; khi đó $\beta$ là chỉ số nhỏ nhất trong các chỉ số $\lambda \leq \alpha$ sao cho $\mathbf{a}_\lambda \neq 0$ và sao cho $\int_a^{+\infty} g_\lambda(t)\,dt$ hội tụ; tích phân
 
 $$
 C = \int_a^{+\infty} \left( \mathbf{f}(t) - \sum_{\lambda < \beta} \mathbf{a}_\lambda g_\lambda(t) \right) dt

@@ -49,7 +49,7 @@ Ta giữ lại các ký hiệu của §4; đặt $w(G) =$ Card(W$_G(T)$). Ký hi
 
 ### 1. TÍCH CỦA CÁC DẠNG ĐA TUYẾN TÍNH THAY PHIÊN
 
-Cho A là một vành giao hoán và M là một A-môđun. Với mỗi số nguyên $r\geq 0$, ký hiệu Alt$^r(M)$ là A-môđun của các dạng $r$-tuyến tính thay phiên trên M; nó có thể được đồng nhất với đối ngẫu của A-môđun $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 4, Prop. 7). Cho $u\in$ Alt$^s(M)$ và $v\in$ Alt$^r(M)$; nhắc lại (Algebra, Chap. III, §11, no. 2, Ví dụ 3) rằng tích thay phiên của $u$ và $v$ là phần tử $u\wedge v\in$ Alt$^{s+r}(M)$ được xác định bởi
+Cho A là một vành giao hoán và M là một A-môđun. Với mỗi số nguyên $r\geq 0$, ký hiệu Alt$^r(M)$ là A-môđun của các dạng $r$-tuyến tính thay phiên trên M; nó có thể được đồng nhất với đối ngẫu của A-môđun $\wedge \wedge^r(M) ($Đại số, Chương III, §7, no. 4, Prop. 7). Cho $u\in$ Alt$^s(M)$ và $v\in$ Alt$^r(M)$; nhắc lại (Đại số, Chương III, §11, no. 2, Ví dụ 3) rằng tích thay phiên của $u$ và $v$ là phần tử $u\wedge v\in$ Alt$^{s+r}(M)$ được xác định bởi
 
 $$
 (u\wedge v)(x_1, . . . , x_{s+r}) =\sum_{\sigma\in\mathfrak{S}_{s,r}}\varepsilon_{\sigma}u(x_{\sigma(1)}, . . . , x_{\sigma(s)})v(x_{\sigma(s+1)}, . . . , x_{\sigma(s+r)})
@@ -77,7 +77,7 @@ $$
 
 Ánh xạ $\varphi :$ Alt$^s(M'')\otimes_A$Alt$^r(M')\rightarrow$ Alt$^{s+r}(M)$ sao cho $\varphi (u\otimes v) =u\cap v$ là một đẳng cấu của các A-môđun tự do hạng một.
 
-Sự tồn tại của một dạng $v_1$ thỏa mãn điều kiện a) suy ra từ sự kiện rằng $\wedge \wedge^r(i)$ cảm sinh một đẳng cấu từ $\wedge \wedge^r(M')$ lên một môđun con hạng tử trực tiếp của $\wedge \wedge^r(M) ($Algebra, Chap. III, §7, no. 2). Cho $v_1$ là một dạng như vậy; đặt $u\cap v=u_1\wedge v_1$. Công thức (1) khi đó được thỏa mãn, vì nếu đặt $i(x'_k) =x_{s+k}$ với $1\leq k\leq r$, thì phần tử duy nhất $\sigma$ của $\mathfrak{S}_{s,r}$ sao cho $p(x_{\sigma(i)})\not= 0$ với $1\leq i\leq s$ là phép hoán vị đơn vị. Mặt khác, công thức (1) xác định $u\cap v$ một cách duy nhất: thật vậy, gọi $(e'_1, . . . , e'_r)$ là một cơ sở của $M', (f''_1, . . . , f''_s)$ là một cơ sở của $M''$, và $f_1, . . . , f_s$ là các phần tử của M sao cho $p(f_i) =f''_i$ với $1\leq i\leq s$. Khi đó $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ là một cơ sở của M (Algebra, Chap. II, §1, no. 11, Prop. 21), và công thức (1) có thể được viết
+Sự tồn tại của một dạng $v_1$ thỏa mãn điều kiện a) suy ra từ sự kiện rằng $\wedge \wedge^r(i)$ cảm sinh một đẳng cấu từ $\wedge \wedge^r(M')$ lên một môđun con hạng tử trực tiếp của $\wedge \wedge^r(M) ($Đại số, Chap. III, §7, no. 2). Cho $v_1$ là một dạng như vậy; đặt $u\cap v=u_1\wedge v_1$. Công thức (1) khi đó được thỏa mãn, vì nếu đặt $i(x'_k) =x_{s+k}$ với $1\leq k\leq r$, thì phần tử duy nhất $\sigma$ của $\mathfrak{S}_{s,r}$ sao cho $p(x_{\sigma(i)})\not= 0$ với $1\leq i\leq s$ là phép hoán vị đơn vị. Mặt khác, công thức (1) xác định $u\cap v$ một cách duy nhất: thật vậy, gọi $(e'_1, . . . , e'_r)$ là một cơ sở của $M', (f''_1, . . . , f''_s)$ là một cơ sở của $M''$, và $f_1, . . . , f_s$ là các phần tử của M sao cho $p(f_i) =f''_i$ với $1\leq i\leq s$. Khi đó $(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r))$ là một cơ sở của M (Đại số, Chap. II, §1, no. 11, Prop. 21), và công thức (1) có thể được viết
 
 $$
 (u\cap v)(f_1, . . . , f_s, i(e'_1), . . . , i(e'_r)) =u(f''_1, . . . , f''_s)v(e'_1, . . . , e'_r) \tag{2}
@@ -493,7 +493,7 @@ Mệnh đề thứ nhất suy ra từ mệnh đề được áp dụng cho bó v
 
 Cho X là một đa tạp thực hữu hạn địa phương chiều thuộc lớp $C^{\infty}$, và cho $(g, x) \rightarrow gx$ là một luật của phép toán trái thuộc lớp $C^{\infty}$ của một nhóm Lie compact liên thông G trên X. Với $g\in G$, ký hiệu $\tau_g$ là tự đẳng cấu $x \rightarrow gx$ của X. Ký hiệu $\Omega (X)$ là đại số các dạng vi phân thực thuộc lớp $C^{\infty}$ trên X (Differentiable and Analytic Manifolds, Results, 8.3.1).
 
-Với mọi phần tử $\xi$ của $\mathfrak{g}$, ký hiệu $D_{\xi}$ là trường vectơ tương ứng trên X (Chương III, §3, no. 5) và $\theta (\xi ), i(\xi )$ là các toán tử tương ứng trên $\Omega$(X), do đó ta có các công thức (Differentiable and Analytic Manifolds, Results, 8.4.5 and 8.4.7)
+Với mọi phần tử $\xi$ của $\mathfrak{g}$, ký hiệu $D_{\xi}$ là trường vectơ tương ứng trên X (Chương III, §3, no. 5) và $\theta (\xi ), i(\xi )$ là các toán tử tương ứng trên $\Omega$(X), do đó ta có các công thức (Differentiable and Analytic Manifolds, Results, 8.4.5 và 8.4.7)
 
 $$
 \theta (\xi )\omega =d(i(\xi )\omega ) +i(\xi )d\omega \tag{15}
@@ -569,7 +569,7 @@ $$
 
 đối với $\omega$ trong Alt$^p(\mathfrak{g})$ và $a_1, . . . , a_{p+1}$ trong $\mathfrak{g}$.
 
-Với $\xi \in \mathfrak{g}$, ký hiệu $L_{\xi}$ là trường vectơ trái bất biến tương ứng (được định nghĩa nhờ tác động của G lên chính nó bởi các phép tịnh tiến phải, xem Chương III, §3, no. 6). Các toán tử $\theta (L_{\xi}), i(L_{\xi})$ giao hoán với tác động của G trên $\Omega (G)$ được định nghĩa bởi phép tịnh tiến trái, và do đó cảm sinh các toán tử $\theta (\xi ), i(\xi )$ trên $\Omega (G)^G$; với các đồng nhất trước đó, chúng được biểu diễn bởi các công thức (Differentiable and Analytic Manifolds, Results, 8.3.2 and 8.4.2)
+Với $\xi \in \mathfrak{g}$, ký hiệu $L_{\xi}$ là trường vectơ trái bất biến tương ứng (được định nghĩa nhờ tác động của G lên chính nó bởi các phép tịnh tiến phải, xem Chương III, §3, no. 6). Các toán tử $\theta (L_{\xi}), i(L_{\xi})$ giao hoán với tác động của G trên $\Omega (G)$ được định nghĩa bởi phép tịnh tiến trái, và do đó cảm sinh các toán tử $\theta (\xi ), i(\xi )$ trên $\Omega (G)^G$; với các đồng nhất trước đó, chúng được biểu diễn bởi các công thức (Differentiable and Analytic Manifolds, Results, 8.3.2 và 8.4.2)
 
 $$
 (\theta (\xi )\omega )(a_1, . . . , a_p) =-\sum_i\omega (a_1, . . . , a_{i-1},[\xi , a_i], a_{i+1}, . . . , a_p)
