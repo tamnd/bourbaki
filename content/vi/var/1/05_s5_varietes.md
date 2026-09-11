@@ -68,11 +68,11 @@ subsections:
       pdf_page: 56
 statements: 0
 exercises: 0
-content_sha256: 98dd3aa5e34a99f046450b914b4607cbf8642fbbe64d7262d0e4e8c8c2df5ac8
+content_sha256: 5a3eac7c78aac7dd37dabfa1dc28ff4869a56858c5ebe6e86c1daa702a7dc6d3
 translated_from: content/en-mt/var/1/05_s5_varietes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 83f77ee946608514d9bd8f03b4a2426d602170fcf85066fd524f2a6ae2454fa5
+source_content_sha256: 973e0f92134b18a0e1b17d59671590d5f4ea7d86e0f7806f8d72a3e0dafe6d6d
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-65020df8
 glossary_version: 34
@@ -106,7 +106,7 @@ Khi thêm vào đó $K = \mathbf{R}$ (resp. $\mathbf{C}$, $\mathbf{Q}_p$), ta c�
 
 Không gian tôpô nằm dưới $X$ là một không gian Baire. Khi $K$ bằng $\mathbf{R}$ hoặc $\mathbf{C}$, nó là liên thông địa phương.
 
-Cho $X$ là một đa tạp và cho $\mathcal{A}$ là một atlas của $X$. Để không gian tôpô $X$ là tách, điều kiện cần và đủ là điều kiện sau được thỏa mãn: với mọi các biểu đồ $(U, \varphi, E)$ và $(V, \psi, F)$ thuộc atlas $\mathcal{A}$, đồ thị của ánh xạ $\psi \circ \varphi^{-1}$ từ $\varphi(U \cap V)$ vào $\psi(U \cap V)$ là đóng trong $\varphi(U) \times \psi(V)$.
+Cho $X$ là một đa tạp và cho $\mathscr{A}$ là một atlas của $X$. Để không gian tôpô $X$ là tách, điều kiện cần và đủ là điều kiện sau được thỏa mãn: với mọi các biểu đồ $(U, \varphi, E)$ và $(V, \psi, F)$ thuộc atlas $\mathscr{A}$, đồ thị của ánh xạ $\psi \circ \varphi^{-1}$ từ $\varphi(U \cap V)$ vào $\psi(U \cap V)$ là đóng trong $\varphi(U) \times \psi(V)$.
 
 Cho $X$ là một đa tạp; giả sử rằng không gian tôpô $X$ là chính quy. Khi đó đối với mọi điểm $a \in X$, tồn tại một biểu đồ $(U, \varphi, E)$ của $X$ tại $a$ có tính chất sau: để một tập con $Y$ của $U$ là đóng trong $X$, điều kiện cần và đủ là ảnh của nó $\varphi(Y)$ là đóng trong $E$. Nếu không gian $X$ là paracompact, tồn tại trên $X$ một khoảng cách tương thích với tôpô của $X$ và làm cho $X$ là một không gian mêtric đầy đủ.
 
@@ -128,7 +128,7 @@ No. 5.2
 
 5.2.1. Cho X là một tập hợp; trên X tồn tại duy nhất một cấu trúc đa tạp mà không gian tôpô nền là rời rạc; cấu trúc này là một cấu trúc đa tạp thuần túy 0-chiều.
 
-5.2.2. Cho E là một không gian Banach. Bộ ba $c = (E, \mathrm{Id}_E, E)$ là một biểu đồ của E và $\mathcal{A} = {c}$ là một tập bản đồ của E, và do đó xác định một cấu trúc đa tạp thuần túy kiểu E trên E; tôpô nền là tôpô đã cho trên E. Trong những điều sau đây, mỗi khi ta nói về cấu trúc đa tạp trên E, ta sẽ luôn quy chiếu đến cấu trúc trước đó.
+5.2.2. Cho E là một không gian Banach. Bộ ba $c = (E, \mathrm{Id}_E, E)$ là một biểu đồ của E và $\mathscr{A} = {c}$ là một tập bản đồ của E, và do đó xác định một cấu trúc đa tạp thuần túy kiểu E trên E; tôpô nền là tôpô đã cho trên E. Trong những điều sau đây, mỗi khi ta nói về cấu trúc đa tạp trên E, ta sẽ luôn quy chiếu đến cấu trúc trước đó.
 
 Đặc biệt, điều này áp dụng cho mọi không gian vectơ hữu hạn chiều trên K, được trang bị tôpô tách duy nhất tương thích với cấu trúc vectơ của nó (Esp. Vect. Top., chap. I, § 2, No. 3).
 
@@ -144,7 +144,7 @@ Khi đó trên X tồn tại duy nhất một cấu trúc đa tạp sao cho $X_i
 
 5.2.5. Cho X là một đa tạp. Tập hợp $X_n$ gồm các điểm $x$ của X sao cho dim_x X = n (n số nguyên $\geq 0$) là một đa tạp con mở của X, thuần túy có chiều n.
 
-5.2.6. Cho E là một không gian Banach. Tập hợp G(E) các không gian con vectơ của E thừa nhận một phần bù tôpô có thể được trang bị một cấu trúc đa tạp giải tích theo cách sau: với mọi cặp (F_0, G_0) $\in G(E) \times G(E)$ sao cho E = F_0 $\oplus$ G_0, ký hiệu U_{G_0} là tập hợp các F $\in G(E)$ thừa nhận G_0 làm phần bù, và định nghĩa một song ánh $\varphi_{F_0, G_0}$ của U_{G_0} lên không gian Banach $\mathcal{L}(F_0; G_0)$ bằng cách gán cho mỗi F $\in U_{G_0}$ ánh xạ từ F_0 vào G_0 có đồ thị là không gian con F của E = F_0 $\times$ G_0. Các bản đồ địa phương (U_{G_0}, $\varphi_{F_0, G_0}$, $\mathcal{L}(F_0; G_0)$) tạo thành một atlas của G(E). Được trang bị cấu trúc đa tạp được định nghĩa bởi atlas này, G(E) được gọi là đa tạp Grassmann của E.
+5.2.6. Cho E là một không gian Banach. Tập hợp G(E) các không gian con vectơ của E thừa nhận một phần bù tôpô có thể được trang bị một cấu trúc đa tạp giải tích theo cách sau: với mọi cặp (F_0, G_0) $\in G(E) \times G(E)$ sao cho E = F_0 $\oplus$ G_0, ký hiệu U_{G_0} là tập hợp các F $\in G(E)$ thừa nhận G_0 làm phần bù, và định nghĩa một song ánh $\varphi_{F_0, G_0}$ của U_{G_0} lên không gian Banach $\mathscr{L}(F_0; G_0)$ bằng cách gán cho mỗi F $\in U_{G_0}$ ánh xạ từ F_0 vào G_0 có đồ thị là không gian con F của E = F_0 $\times$ G_0. Các bản đồ địa phương (U_{G_0}, $\varphi_{F_0, G_0}$, $\mathscr{L}(F_0; G_0)$) tạo thành một atlas của G(E). Được trang bị cấu trúc đa tạp được định nghĩa bởi atlas này, G(E) được gọi là đa tạp Grassmann của E.
 
 Không gian tôpô G(E) là mêtric hóa được. Nếu K là compact địa phương và E hữu hạn chiều, G(E) là compact.
 
@@ -156,13 +156,13 @@ Nếu K = R hoặc C, hoặc nếu E hữu hạn chiều, G_1(E) không gì khá
 
 ### 5.3. Các hàm thuộc lớp $C^r$ và các cấu xạ của các đa tạp
 
-5.3.1. Cho X là một đa tạp thuộc lớp C', F là một không gian đa chuẩn phân ly và f là một ánh xạ từ X vào F. Ta nói rằng f thuộc lớp C' nếu với mọi bản đồ địa phương (V, $\varphi$, E) của X, ánh xạ $f \circ \varphi^{-1}$ từ $\varphi(V)$ vào F thuộc lớp C'. Đối với điều này, chỉ cần điều kiện này được thỏa mãn đối với các bản đồ địa phương của một atlas của X. Tập hợp các ánh xạ thuộc lớp C' từ X vào F tạo thành một không gian con vectơ của không gian tất cả các ánh xạ từ X vào F. Nó được ký hiệu bởi $\mathcal{C}'(X; F)$.
+5.3.1. Cho X là một đa tạp thuộc lớp C', F là một không gian đa chuẩn phân ly và f là một ánh xạ từ X vào F. Ta nói rằng f thuộc lớp C' nếu với mọi bản đồ địa phương (V, $\varphi$, E) của X, ánh xạ $f \circ \varphi^{-1}$ từ $\varphi(V)$ vào F thuộc lớp C'. Đối với điều này, chỉ cần điều kiện này được thỏa mãn đối với các bản đồ địa phương của một atlas của X. Tập hợp các ánh xạ thuộc lớp C' từ X vào F tạo thành một không gian con vectơ của không gian tất cả các ánh xạ từ X vào F. Nó được ký hiệu bởi $\mathscr{C}'(X; F)$.
 
-Khi F = K, ta đặt $\mathcal{C}'(X; K) = \mathcal{C}'(X)$; đây là một đại số con trên K của đại số các ánh xạ từ X vào K. Các phần tử của $\mathcal{C}'(X)$ cũng được gọi là các hàm cấu xạ.
+Khi F = K, ta đặt $\mathscr{C}'(X; K) = \mathscr{C}'(X)$; đây là một đại số con trên K của đại số các ánh xạ từ X vào K. Các phần tử của $\mathscr{C}'(X)$ cũng được gọi là các hàm cấu xạ.
 
 Khi X là một tập con mở của một không gian Banach, thuật ngữ này phù hợp với thuật ngữ của No. 2.3.1, 3.2.1 và 4.2.1.
 
-5.3.2. Cho X và Y là hai đa tạp thuộc lớp C' và cho f là một ánh xạ từ X vào Y. Ta nói rằng f thuộc lớp C' hoặc là một cấu xạ của các đa tạp (thuộc lớp C') nếu nó liên tục và nếu, với mọi bản đồ địa phương (V, $\psi$, F) của Y, ánh xạ $\psi \circ f$ từ đa tạp con mở $f^{-1}(V)$ vào không gian Banach F thuộc lớp $C'$. Đối với điều này, chỉ cần tồn tại một atlas $\mathcal{A}$ của Y sao cho, với mọi bản đồ địa phương $(V, \psi, F) \in \mathcal{A}$, tập hợp $f^{-1}(V)$ là mở trong X và ánh xạ $\psi \circ f$ từ đa tạp con mở $f^{-1}(V)$ của X vào F thuộc lớp $C'$. Tập hợp các cấu xạ từ X vào Y được ký hiệu bởi $\mathcal{C}'(X; Y)$. Khi Y là một không gian Banach được trang bị cấu trúc đa tạp chính tắc của nó, các định nghĩa của 5.3.1. và 5.3.2 là nhất quán. Một ánh xạ thuộc lớp $C^\omega$ cũng được gọi là một *ánh xạ K-giải tích* (hoặc đơn giản là giải tích). Khi $K = \mathbf{C}$, người ta cũng nói là ánh xạ chỉnh hình.
+5.3.2. Cho X và Y là hai đa tạp thuộc lớp C' và cho f là một ánh xạ từ X vào Y. Ta nói rằng f thuộc lớp C' hoặc là một cấu xạ của các đa tạp (thuộc lớp C') nếu nó liên tục và nếu, với mọi bản đồ địa phương (V, $\psi$, F) của Y, ánh xạ $\psi \circ f$ từ đa tạp con mở $f^{-1}(V)$ vào không gian Banach F thuộc lớp $C'$. Đối với điều này, chỉ cần tồn tại một atlas $\mathscr{A}$ của Y sao cho, với mọi bản đồ địa phương $(V, \psi, F) \in \mathscr{A}$, tập hợp $f^{-1}(V)$ là mở trong X và ánh xạ $\psi \circ f$ từ đa tạp con mở $f^{-1}(V)$ của X vào F thuộc lớp $C'$. Tập hợp các cấu xạ từ X vào Y được ký hiệu bởi $\mathscr{C}'(X; Y)$. Khi Y là một không gian Banach được trang bị cấu trúc đa tạp chính tắc của nó, các định nghĩa của 5.3.1. và 5.3.2 là nhất quán. Một ánh xạ thuộc lớp $C^\omega$ cũng được gọi là một *ánh xạ K-giải tích* (hoặc đơn giản là giải tích). Khi $K = \mathbf{C}$, người ta cũng nói là ánh xạ chỉnh hình.
 
 Cho $(U, \varphi, E)$ là một bản đồ địa phương của X và $(V, \psi, F)$ là một bản đồ địa phương của Y sao cho $f(U) \subset V$. Ánh xạ $\psi \circ f \circ \varphi^{-1}$ từ tập hợp mở $\varphi(U)$ của E vào tập hợp mở $\psi(V)$ của F được gọi là *biểu thức của f* trong các bản đồ địa phương đã cho.
 
@@ -182,25 +182,25 @@ Ta nói rằng các công thức trên tạo thành *biểu thức* của $f$ b�
 
 *bó các hàm lấy giá trị trong* $Y$ nếu nó thỏa mãn điều kiện sau:
 
-*Cho* $(U_i)_{i \in I}$ *là một họ các tập mở của* $X$, *với hợp là* $U$, *và cho* $f$ *là một ánh xạ từ* $U$ *vào* $Y$; *để* $f$ *thuộc* $\mathcal{L}(U)$, *điều kiện cần và đủ là* $f|U_i$ *thuộc* $\mathcal{L}(U_i)$ *với mọi* $i$ *trong* $I$.
+*Cho* $(U_i)_{i \in I}$ *là một họ các tập mở của* $X$, *với hợp là* $U$, *và cho* $f$ *là một ánh xạ từ* $U$ *vào* $Y$; *để* $f$ *thuộc* $\mathscr{L}(U)$, *điều kiện cần và đủ là* $f|U_i$ *thuộc* $\mathscr{L}(U_i)$ *với mọi* $i$ *trong* $I$.
 
-5.4.2. Cho $X$ và $Y$ là hai đa tạp; với mỗi tập mở $U \subset X$, cho $\mathcal{L}(U)$ là tập hợp các cấu xạ từ $U$ vào $Y$; khi đó $\mathcal{L}$ là một bó các ánh xạ có giá trị trong $Y$.
+5.4.2. Cho $X$ và $Y$ là hai đa tạp; với mỗi tập mở $U \subset X$, cho $\mathscr{L}(U)$ là tập hợp các cấu xạ từ $U$ vào $Y$; khi đó $\mathscr{L}$ là một bó các ánh xạ có giá trị trong $Y$.
 
-Khi $Y = K$, bó được xác định như vậy được ký hiệu bởi $\mathcal{C}_X^{r'}$.
+Khi $Y = K$, bó được xác định như vậy được ký hiệu bởi $\mathscr{C}_X^{r'}$.
 
-5.4.3. Cho $X$ là một không gian tôpô và cho $\mathcal{S}$ là một tập hợp các không gian Banach. Với mỗi $E \in \mathcal{S}$, cho $\mathcal{F}_E$ là một bó các ánh xạ trên $X$ có giá trị trong $E$. Giả sử rằng họ các $\mathcal{F}_E$, với $E \in \mathcal{S}$, thỏa mãn điều kiện sau:
+5.4.3. Cho $X$ là một không gian tôpô và cho $\mathscr{S}$ là một tập hợp các không gian Banach. Với mỗi $E \in \mathscr{S}$, cho $\mathscr{F}_E$ là một bó các ánh xạ trên $X$ có giá trị trong $E$. Giả sử rằng họ các $\mathscr{F}_E$, với $E \in \mathscr{S}$, thỏa mãn điều kiện sau:
 
 Với mỗi $x \in X$, tồn tại một lân cận mở $U$ của $x$, một không gian
 
-$E_0 \in \mathcal{S}$, và một đồng phôi $\varphi$ từ U lên một tập mở của E_0, sao cho, với mỗi tập mở $V \subset U$ và mỗi $E \in \mathcal{S}$, tập hợp $\mathcal{F}_E(V)$ gồm các hàm $g \circ \varphi$, trong đó $g$ chạy qua không gian $\mathcal{C}^r(\varphi(V); E)$.
+$E_0 \in \mathscr{S}$, và một đồng phôi $\varphi$ từ U lên một tập mở của E_0, sao cho, với mỗi tập mở $V \subset U$ và mỗi $E \in \mathscr{S}$, tập hợp $\mathscr{F}_E(V)$ gồm các hàm $g \circ \varphi$, trong đó $g$ chạy qua không gian $\mathscr{C}^r(\varphi(V); E)$.
 
-Khi đó tồn tại trên X một cấu trúc của đa tạp cấp $C^r$ và kiểu $\mathcal{S}$, và chỉ một cấu trúc như vậy, tương thích với tôpô đã cho trên X và sao cho $\mathcal{F}_E$ là bó các hàm cấp $C^r$ trên X có giá trị trong E.
+Khi đó tồn tại trên X một cấu trúc của đa tạp cấp $C^r$ và kiểu $\mathscr{S}$, và chỉ một cấu trúc như vậy, tương thích với tôpô đã cho trên X và sao cho $\mathscr{F}_E$ là bó các hàm cấp $C^r$ trên X có giá trị trong E.
 
-5.4.4. Cho X là một không gian tôpô và cho $\mathcal{F}$ là một bó các hàm có giá trị trong K, thỏa mãn điều kiện sau: với mỗi điểm x của X, tồn tại một số nguyên n, một lân cận mở U của x và một đồng phôi $\varphi$ từ U lên một tập mở của $K^n$, sao cho, với mỗi tập mở V của U, tập hợp $\mathcal{F}(V)$ gồm các hàm $g \circ \varphi$ trong đó $g$ chạy qua tập hợp các hàm cấp $C^r$ có giá trị trong K trên tập mở $\varphi(V)$ của $K^n$.
+5.4.4. Cho X là một không gian tôpô và cho $\mathscr{F}$ là một bó các hàm có giá trị trong K, thỏa mãn điều kiện sau: với mỗi điểm x của X, tồn tại một số nguyên n, một lân cận mở U của x và một đồng phôi $\varphi$ từ U lên một tập mở của $K^n$, sao cho, với mỗi tập mở V của U, tập hợp $\mathscr{F}(V)$ gồm các hàm $g \circ \varphi$ trong đó $g$ chạy qua tập hợp các hàm cấp $C^r$ có giá trị trong K trên tập mở $\varphi(V)$ của $K^n$.
 
-Khi đó tồn tại trên X một cấu trúc của đa tạp hữu hạn chiều địa phương cấp $C^r$ và chỉ một cấu trúc như vậy sao cho $\mathcal{F} = \mathcal{C}^r_X$.
+Khi đó tồn tại trên X một cấu trúc của đa tạp hữu hạn chiều địa phương cấp $C^r$ và chỉ một cấu trúc như vậy sao cho $\mathscr{F} = \mathscr{C}^r_X$.
 
-5.4.5. Cho $X$ và $X'$ là hai đa tạp lớp $C^r$, địa phương có số chiều hữu hạn, và cho $f$ là một ánh xạ liên tục từ X vào X'. Để $f$ là một cấu xạ, điều kiện cần và đủ là với mọi tập mở U' của X' và mọi hàm $g \in \mathcal{C}^r(U'; K)$, hàm $g \circ f$ thuộc $\mathcal{C}^r(U; K)$, trong đó $U = f^{-1}(U')$.
+5.4.5. Cho $X$ và $X'$ là hai đa tạp lớp $C^r$, địa phương có số chiều hữu hạn, và cho $f$ là một ánh xạ liên tục từ X vào X'. Để $f$ là một cấu xạ, điều kiện cần và đủ là với mọi tập mở U' của X' và mọi hàm $g \in \mathscr{C}^r(U'; K)$, hàm $g \circ f$ thuộc $\mathscr{C}^r(U; K)$, trong đó $U = f^{-1}(U')$.
 
 ### 5.5. Các không gian tiếp xúc, các ánh xạ tuyến tính tiếp xúc
 

@@ -24,11 +24,11 @@ subsections:
       pdf_page: 32
 statements: 0
 exercises: 0
-content_sha256: 47ef3c81955fc3407200505f234933c542a220eb5aa6087cc0890124040cb0e1
+content_sha256: 76b191ae29800d930ee605dbc1f60ac761849fa0bbb88dc306763f2830f6fa55
 translated_from: content/en-mt/var/1/04_s4_fonctions_analytiques_cas_non.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 80985f908999f00f998e02079336ec6d5e99b09bf471da981e8d65cac53291cf
+source_content_sha256: 09811a21480fe4aa26977a056bd211dc4833cd653363856d3a464bdc1b20b28b
 translation_model: gpt-5.4
 translation_run: translate-vi-7b2a232f
 glossary_version: 34
@@ -57,10 +57,10 @@ $$
 Các định nghĩa và kết quả của No. 3.1.1 (đoạn thứ hai) và No. 3.1.2 áp dụng không thay đổi; đặc biệt, ta định nghĩa các không gian
 
 $$
-\mathcal{H}_R(E_1, \ldots, E_n; F) \quad \text{và} \quad \mathcal{H}(E_1, \ldots, E_n; F).
+\mathscr{H}_R(E_1, \ldots, E_n; F) \quad \text{và} \quad \mathscr{H}(E_1, \ldots, E_n; F).
 $$
 
-4.1.2. Đẳng cấu chính tắc $j$ của $\hat{P}(E; F)$ lên $\hat{P}(E_1, \ldots, E_n; F)$, bằng hạn chế, cho một đẳng cấu của các không gian vectơ tôpô từ $\mathcal{H}_R(E; F)$ lên $\mathcal{H}_{(R, \ldots, R)}(E_1, \ldots, E_n; F)$ với mọi $R \in \mathbf{R}_+^*$; nó cũng cho một đẳng cấu từ $\mathcal{H}(E; F)$ lên $\mathcal{H}(E_1, \ldots, E_n; F)$. Chính xác hơn, nếu $f = \sum_m f_m \in \hat{P}(E; F)$ và nếu $j(f) = \sum_a f_a$, thì với mọi nửa chuẩn liên tục $\gamma$ trên F, ta có:
+4.1.2. Đẳng cấu chính tắc $j$ của $\hat{P}(E; F)$ lên $\hat{P}(E_1, \ldots, E_n; F)$, bằng hạn chế, cho một đẳng cấu của các không gian vectơ tôpô từ $\mathscr{H}_R(E; F)$ lên $\mathscr{H}_{(R, \ldots, R)}(E_1, \ldots, E_n; F)$ với mọi $R \in \mathbf{R}_+^*$; nó cũng cho một đẳng cấu từ $\mathscr{H}(E; F)$ lên $\mathscr{H}(E_1, \ldots, E_n; F)$. Chính xác hơn, nếu $f = \sum_m f_m \in \hat{P}(E; F)$ và nếu $j(f) = \sum_a f_a$, thì với mọi nửa chuẩn liên tục $\gamma$ trên F, ta có:
 
 $$
 \|f_m\|_\gamma = \sup_{|\alpha|=m} \|f_\alpha\|_\gamma
@@ -69,7 +69,7 @@ $$
 \|f\|_{\gamma, R} = \|j(f)\|_{\gamma, (R, \ldots, R)}.
 $$
 
-4.1.3. Cho $f = \sum_a f_a$ là một phần tử của $\mathcal{H}(E_1, \ldots, E_n; F)$; gọi $I(f)$ là tập hợp các $R \in (\mathbf{R}_+^*)^n$ sao cho, với mọi nửa chuẩn liên tục $\gamma$ trên F, tích $\|f_\alpha\|_\gamma R^\alpha$ tiến tới không khi $|\alpha|$ tiến tới vô hạn. Tập hợp $I(f)$ là khác rỗng; nó được gọi là chỉ dấu hội tụ ngặt của $f$. Tập hợp $\Omega(f)$ của các điểm
+4.1.3. Cho $f = \sum_a f_a$ là một phần tử của $\mathscr{H}(E_1, \ldots, E_n; F)$; gọi $I(f)$ là tập hợp các $R \in (\mathbf{R}_+^*)^n$ sao cho, với mọi nửa chuẩn liên tục $\gamma$ trên F, tích $\|f_\alpha\|_\gamma R^\alpha$ tiến tới không khi $|\alpha|$ tiến tới vô hạn. Tập hợp $I(f)$ là khác rỗng; nó được gọi là chỉ dấu hội tụ ngặt của $f$. Tập hợp $\Omega(f)$ của các điểm
 
 $$(\log R_1, \ldots, \log R_n) \quad \text{với } R \in I(f)$$
 
@@ -87,15 +87,15 @@ B(R) = \{ x \in E \mid \|x_i\| \leq R_i \text{ với } 1 \leq i \leq n \},
 $$
 với $R \in I(f)$.
 
-4.1.4. Các kết quả của 3.1.7 và 3.1.8 vẫn còn khớp, nếu thay thế ở mọi chỗ $\tilde{C}(f)$ bởi $C(f)$ và $\tilde{\mathcal{H}}_R$ bởi $\mathcal{H}_R$.
+4.1.4. Các kết quả của 3.1.7 và 3.1.8 vẫn còn khớp, nếu thay thế ở mọi chỗ $\tilde{C}(f)$ bởi $C(f)$ và $\tilde{\mathscr{H}}_R$ bởi $\mathscr{H}_R$.
 
-4.1.5. Cho $F_1, \ldots, F_m$ là các không gian chuẩn đầy đủ và giả sử rằng $F$ là giả đầy đủ. Cho $f = (f_i)_{1 \leq i \leq m}$, với $f_i \in \mathcal{H}(E_1, \ldots, E_n; F_i)$ và cho $g \in \mathcal{H}(F_1, \ldots, F_m; F)$, sao cho điểm $(f_i(0))_{1 \leq i \leq m}$ của $E$ thuộc miền hội tụ ngặt của $g$. Khi đó, với mọi $\alpha \in \mathbf{N}^m$, chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathcal{H}(E_1, \ldots, E_n; F)$ và họ các $g_\alpha \circ f$ là khả tổng trong $\mathcal{H}(E_1, \ldots, E_n; F)$ (do đó *a fortiori* trong $\hat{P}(E_1, \ldots, E_n; F)$). Tổng của nó sẽ được ký hiệu là $g \circ f$.
+4.1.5. Cho $F_1, \ldots, F_m$ là các không gian chuẩn đầy đủ và giả sử rằng $F$ là giả đầy đủ. Cho $f = (f_i)_{1 \leq i \leq m}$, với $f_i \in \mathscr{H}(E_1, \ldots, E_n; F_i)$ và cho $g \in \mathscr{H}(F_1, \ldots, F_m; F)$, sao cho điểm $(f_i(0))_{1 \leq i \leq m}$ của $E$ thuộc miền hội tụ ngặt của $g$. Khi đó, với mọi $\alpha \in \mathbf{N}^m$, chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathscr{H}(E_1, \ldots, E_n; F)$ và họ các $g_\alpha \circ f$ là khả tổng trong $\mathscr{H}(E_1, \ldots, E_n; F)$ (do đó *a fortiori* trong $\hat{P}(E_1, \ldots, E_n; F)$). Tổng của nó sẽ được ký hiệu là $g \circ f$.
 
 Chính xác hơn, tồn tại $R \in \bigcap_i I(f_i)$ và $R' \in I(g)$ sao cho
 $$
 \sup_{|\alpha| > 0} \|f_{i,\alpha}\| R^\alpha < R'_i \quad (\text{với } 1 \leq i \leq m).
 $$
-Dưới các điều kiện này, các chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathcal{H}_R(E_1, \ldots, E_n; F)$ và họ các $g_\alpha \circ f$ là khả tổng trong $\mathcal{H}_R(E_1, \ldots, E_n; F)$. Cuối cùng, nếu $x \in B(R)$, thì $f(x) = (f_i(x))$ thuộc $C(g)$ và ta có:
+Dưới các điều kiện này, các chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathscr{H}_R(E_1, \ldots, E_n; F)$ và họ các $g_\alpha \circ f$ là khả tổng trong $\mathscr{H}_R(E_1, \ldots, E_n; F)$. Cuối cùng, nếu $x \in B(R)$, thì $f(x) = (f_i(x))$ thuộc $C(g)$ và ta có:
 $$
 g(f(x)) = (g \circ f)(x).
 $$
@@ -127,11 +127,11 @@ $$
 \|\tilde{f}_\alpha\|_i = \|f_\alpha\|_i.
 $$
 
-Nếu $f = \sum f_\alpha \in \mathcal{H}(E_1, \ldots, E_n; F_K)$, thì $\tilde{f} = \sum \tilde{f}_\alpha \in \mathcal{H}(E_1^L, \ldots, E_n^L; F)$.
+Nếu $f = \sum f_\alpha \in \mathscr{H}(E_1, \ldots, E_n; F_K)$, thì $\tilde{f} = \sum \tilde{f}_\alpha \in \mathscr{H}(E_1^L, \ldots, E_n^L; F)$.
 
 Chuỗi $f$ và $\tilde{f}$ có cùng chỉ báo hội tụ ngặt (và cùng bán kính hội tụ ngặt khi $n = 1$).
 
-Ngược lại, cho L là một trường con đóng không rời rạc của K và cho $E_i^0$ và $F^0$ là các không gian trên L thu được bằng cách hạn chế các vô hướng từ các $E_i$ và F. Nếu $f = \sum f_\alpha \in \mathcal{H}(E_1, \ldots, E_n; F)$, thì $f_\alpha \in P_\alpha(E_1^0, \ldots, E_n^0; F^0)$; nếu đặt $f^0 = \sum \tilde{f}_\alpha \in \hat{P}(E_1^0, \ldots, E_n^0; F^0)$, thì $f^0 \in \mathcal{H}(E_1^0, \ldots, E_n^0; F^0)$.
+Ngược lại, cho L là một trường con đóng không rời rạc của K và cho $E_i^0$ và $F^0$ là các không gian trên L thu được bằng cách hạn chế các vô hướng từ các $E_i$ và F. Nếu $f = \sum f_\alpha \in \mathscr{H}(E_1, \ldots, E_n; F)$, thì $f_\alpha \in P_\alpha(E_1^0, \ldots, E_n^0; F^0)$; nếu đặt $f^0 = \sum \tilde{f}_\alpha \in \hat{P}(E_1^0, \ldots, E_n^0; F^0)$, thì $f^0 \in \mathscr{H}(E_1^0, \ldots, E_n^0; F^0)$.
 
 Ta có $C(f) \subset C(f^0)$ và $f(x) = f^0(x)$ với mọi $x \in C(f)$.
 
@@ -143,14 +143,14 @@ Ta có $C(f) \subset C(f^0)$ và $f(x) = f^0(x)$ với mọi $x \in C(f)$.
 
 4.2.3. Các kết quả của 3.2.4, 3.2.5, 3.2.7, 3.2.8 và 3.2.11 vẫn còn nguyên vẹn. Kết quả của 3.2.6 cũng vậy, với điều kiện thêm rằng K được giả thiết có đặc số không.
 
-4.2.4. Giả sử F là gần đầy đủ và cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$. Ánh xạ $x \mapsto f(x)$ là giải tích trên $C(f)$. Với mọi $a \in C(f)$, chỉ báo hội tụ của khai triển chuỗi lũy thừa của $f$ tại $a$ bằng chỉ báo hội tụ của $f$.
+4.2.4. Giả sử F là gần đầy đủ và cho $f \in \mathscr{H}(E_1, \ldots, E_n; F)$. Ánh xạ $x \mapsto f(x)$ là giải tích trên $C(f)$. Với mọi $a \in C(f)$, chỉ báo hội tụ của khai triển chuỗi lũy thừa của $f$ tại $a$ bằng chỉ báo hội tụ của $f$.
 
 ### 4.3. Một vài bất đẳng thức
 
 4.3.1. Giả thiết rằng K thỏa mãn ít nhất một trong các điều kiện sau:
 (a) trường thặng dư của K là vô hạn ;
 (b) ảnh của K bởi ánh xạ $a \mapsto |a|$ là trù mật trong $\mathbf{R}_+$. (Nói cách khác, giả thiết rằng K không địa phương compact).
-Cho $f = \sum_\alpha f_\alpha \in \mathcal{H}(E_1, \ldots, E_n; F)$ và cho $R \in I(f)$. Ta có:
+Cho $f = \sum_\alpha f_\alpha \in \mathscr{H}(E_1, \ldots, E_n; F)$ và cho $R \in I(f)$. Ta có:
 $$
 \sup_{x \in B(R)} \|f(x)\|_y = \sup_\alpha \sup_{x \in B(R)} \|f_\alpha(x)\|_y
 $$
@@ -162,7 +162,7 @@ a^{|\alpha|} R^{\alpha} |\alpha|! \|f_\alpha\|_y \leq \sup_{x \in B(R)} \|f_\alp
 $$
 với mọi nửa chuẩn liên tục $\gamma$ trên F. Nếu K thỏa mãn điều kiện (b) của 4.3.1 hoặc nếu ảnh của $E_i$ bởi ánh xạ $x \mapsto \|x\|$ được chứa trong ảnh của K bởi ánh xạ $a \mapsto |a|$ và chứa $R_i$ (với $1 \leq i \leq n$), thì có thể lấy $a = 1$.
 
-4.3.3. Nếu K có đặc số không, chuỗi hình thức $f = \sum_\alpha f_\alpha$ thuộc $\mathcal{H}(E_1, \ldots, E_n; F)$ khi và chỉ khi tồn tại $R \in (\mathbf{R}_+^*)^n$ sao cho
+4.3.3. Nếu K có đặc số không, chuỗi hình thức $f = \sum_\alpha f_\alpha$ thuộc $\mathscr{H}(E_1, \ldots, E_n; F)$ khi và chỉ khi tồn tại $R \in (\mathbf{R}_+^*)^n$ sao cho
 $$
 \sup_\alpha \sup_{x \in B(R)} \|f_\alpha(x)\|_y < +\infty
 $$

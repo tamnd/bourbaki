@@ -40,7 +40,7 @@ subsections:
       pdf_page: 13
 statements: 0
 exercises: 0
-content_sha256: 68a240194e02f682042deb25f428d16a60db5f87c651da158fc9feeead037a42
+content_sha256: 4f7ecdf9280009b563a1afa22800a45c18d699b10f5fc45613c9d45af5132f3e
 ---
 
 ## § 1. Fonctions différentiables
@@ -97,7 +97,7 @@ $$
 
 pour toute semi-norme $\gamma$ continue sur F.
 
-L’élément $Df(x_0)$ de $\mathcal{L}(E, F)$ s’appelle la dérivée de $f$ en $x_0$. On écrit parfois $D_h f(x_0)$ pour $Df(x_0) \cdot h$; c’est une élément de F défini par la relation:
+L’élément $Df(x_0)$ de $\mathscr{L}(E, F)$ s’appelle la dérivée de $f$ en $x_0$. On écrit parfois $D_h f(x_0)$ pour $Df(x_0) \cdot h$; c’est une élément de F défini par la relation:
 
 $$
 D_h f(x_0) = \lim_{t \to 0, t \neq 0} \frac{f(x_0 + th) - f(x_0)}{t}.
@@ -111,11 +111,11 @@ $$
 
 pour $(y, z)$ tendant vers $(x_0, x_0)$ dans $E \times E$. Pour cela, il suffit que cette condition soit satisfaite pour une norme définissant la topologie de E. Supposons de plus E et F normés; pour tout nombre $c > \| Df(x_0) \|$, il existe alors un voisinage V de $x_0$ tel que $\| f(y) - f(z) \| \leq c. \| y - z \|$ pour $y, z$ dans V ; ceci entraîne que $f$ est uniformément continue dans V.
 
-1.2.3. Le fait pour une fonction $f$ d’être dérivable ou strictement dérivable en $x_0$ ne dépend que du germe de $f$ en $x_0$. Les germes de fonctions dérivables en $x_0$ forment un sous-espace vectoriel $\mathcal{V}$ de l’espace de tous les germes et l’application $f \mapsto Df(x_0)$ de $\mathcal{V}$ dans $\mathcal{L}(E; F)$ est linéaire. Les germes de fonctions strictement dérivables en $x_0$ forment un sous-espace vectoriel de $\mathcal{V}$.
+1.2.3. Le fait pour une fonction $f$ d’être dérivable ou strictement dérivable en $x_0$ ne dépend que du germe de $f$ en $x_0$. Les germes de fonctions dérivables en $x_0$ forment un sous-espace vectoriel $\mathscr{V}$ de l’espace de tous les germes et l’application $f \mapsto Df(x_0)$ de $\mathscr{V}$ dans $\mathscr{L}(E; F)$ est linéaire. Les germes de fonctions strictement dérivables en $x_0$ forment un sous-espace vectoriel de $\mathscr{V}$.
 
 1.2.4. Une fonction dérivable en $x_0$ est continue en $x_0$.
 
-1.2.5. Lorsque $E = K$, l’application $u \mapsto u(1)$ est un isomorphisme de $\mathcal{L}(E; F)$ sur $F$; si la fonction $f$ est dérivable en $x_0$, l’élément
+1.2.5. Lorsque $E = K$, l’application $u \mapsto u(1)$ est un isomorphisme de $\mathscr{L}(E; F)$ sur $F$; si la fonction $f$ est dérivable en $x_0$, l’élément
 
 $$
 f'(x_0) = Df(x_0) \cdot 1
@@ -185,7 +185,7 @@ $$
 
 1.6.1. Soit $f$ une fonction définie dans un voisinage $U$ du point $x_0$ de $E$ et à valeurs dans $F$. Soient $X$ un sous-espace vectoriel de $E$ et $V$ l’ensemble des points $x$ de $X$, tels que $x_0 + x \in U$; posons $g(x) = f(x_0 + x)$ pour $x \in V$. On dit que $f$ admet une *dérivée partielle suivant* $X$ *en* $x_0$ si $g$ admet une dérivée en $0$; cette dérivée se note $D_X f(x_0)$; c’est une application linéaire continue de $X$ dans $F$. Si $f$ est dérivable en $x_0$, elle admet une dérivée partielle suivant $X$ en $x_0$ et cette dérivée partielle est la restriction de $Df(x_0)$ à $X$.
 
-1.6.2. Supposons que $E$ soit produit d’une famille finie d’espaces vectoriels normés $E_i$ ($1 \leq i \leq n$) identifiés canoniquement à des sous-espaces de $E$; soit $x_0 = (x_0^1, \ldots, x_0^n)$ dans $E$ et soit $U$ un voisinage de $x_0$ dans $E$; enfin soit $f$ une application de $U$ dans $F$. On note $D_{i} f(x_0)$ la dérivée au point $x_0^i$, si elle existe, de l’application $z_i \mapsto f(x_0^1, \ldots, z_i, \ldots, x_0^n)$ définie au voisinage de $x_0^i$ dans $E_i$ et à valeurs dans $F$. C’est un élément de $\mathcal{L}(E_i; F)$ que l’on appelle la *i-ème dérivée partielle de* $f$ *en* $x_0$. Si $f$ est dérivable en $x_0$, les $n$ dérivées partielles existent, et déterminent $Df(x_0)$ par la formule :
+1.6.2. Supposons que $E$ soit produit d’une famille finie d’espaces vectoriels normés $E_i$ ($1 \leq i \leq n$) identifiés canoniquement à des sous-espaces de $E$; soit $x_0 = (x_0^1, \ldots, x_0^n)$ dans $E$ et soit $U$ un voisinage de $x_0$ dans $E$; enfin soit $f$ une application de $U$ dans $F$. On note $D_{i} f(x_0)$ la dérivée au point $x_0^i$, si elle existe, de l’application $z_i \mapsto f(x_0^1, \ldots, z_i, \ldots, x_0^n)$ définie au voisinage de $x_0^i$ dans $E_i$ et à valeurs dans $F$. C’est un élément de $\mathscr{L}(E_i; F)$ que l’on appelle la *i-ème dérivée partielle de* $f$ *en* $x_0$. Si $f$ est dérivable en $x_0$, les $n$ dérivées partielles existent, et déterminent $Df(x_0)$ par la formule :
 
 $$
 Df(x_0) \cdot h = \sum_{i=1}^{n} D_{i} f(x_0) \cdot h_i \quad \text{pour } h = (h_1, \ldots, h_n) \text{ dans } E.
@@ -203,7 +203,7 @@ au lieu de $\partial_{i} f(x_0)$.
 
 ### 1.7. Dérivées itérées
 
-1.7.1. Soit $f$ une fonction définie dans un voisinage d’un point $x_0$ de $E$, à valeurs dans $F$. Si $f$ est dérivable au voisinage de $x_0$, sa dérivée $Df$ est une application d’un voisinage de $x_0$ dans l’espace polynormé $\mathcal{L}(E; F)$ des applications linéaires continues de $E$ dans $F$. Soit $p$ un entier $\geq 2$:
+1.7.1. Soit $f$ une fonction définie dans un voisinage d’un point $x_0$ de $E$, à valeurs dans $F$. Si $f$ est dérivable au voisinage de $x_0$, sa dérivée $Df$ est une application d’un voisinage de $x_0$ dans l’espace polynormé $\mathscr{L}(E; F)$ des applications linéaires continues de $E$ dans $F$. Soit $p$ un entier $\geq 2$:
 
 on dit que $f$ est $p$ fois dérivable en $x_0$ si $f$ est dérivable au voisinage de $x_0$ et si sa dérivée $Df$ est $(p - 1)$ fois dérivable en $x_0$. On définit alors la dérivée $p$-ième de $f$ en $x_0$: c'est l'application $p$-linéaire continue $D^pf(x_0)$ de $E^p$ dans $F$, définie par:
 
@@ -211,7 +211,7 @@ $$
 D^pf(x_0) . (h_1, \ldots, h_p) = (D(D^{p-1}f)(x_0) . h_1) . (h_2, \ldots, h_p).
 $$
 
-On pose aussi $D^0f = f$ et $D^1f = Df$. Si $f$ est $p$ fois dérivable en $x_0$ et si $q$ et $s$ sont deux entiers tels que $q + s = p$, avec $s > 0$, alors $f$ est $q$ fois dérivable au voisinage de $x_0$, la fonction $D^qf$ (à valeurs dans $\mathcal{L}_q(E; F)$) est $s$ fois dérivable en $x_0$, et on a:
+On pose aussi $D^0f = f$ et $D^1f = Df$. Si $f$ est $p$ fois dérivable en $x_0$ et si $q$ et $s$ sont deux entiers tels que $q + s = p$, avec $s > 0$, alors $f$ est $q$ fois dérivable au voisinage de $x_0$, la fonction $D^qf$ (à valeurs dans $\mathscr{L}_q(E; F)$) est $s$ fois dérivable en $x_0$, et on a:
 
 $$
 D^{q+s}f(x_0) . (h_1, \ldots, h_{q+s}) = (D^s(D^qf)(x_0) . (h_1, \ldots, h_s)) . (h_{s+1}, \ldots, h_{q+s})

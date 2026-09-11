@@ -40,11 +40,11 @@ subsections:
       pdf_page: 13
 statements: 0
 exercises: 0
-content_sha256: 02eb4d12d8a4f5803dee88f0165acb7529a6221766d65a4c27d0ea4f0738eeda
+content_sha256: f77ecaeff96a8486ae4fd04e36428f3b0505a6fd191fff7e3edd38b9568e0b30
 translated_from: content/en-mt/var/1/01_s1_fonctions_differentiables.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 0bf1c162534d51cfbef5c8dce9da23d0a8b404d715eeb87130dd56ee29844bbe
+source_content_sha256: 873df4b94fc278844618318cec70f3e5e8c88944fa9eb92810d72a09674178b3
 translation_model: gpt-5.4
 translation_run: translate-vi-7f78aa23
 glossary_version: 34
@@ -106,7 +106,7 @@ $$
 
 đối với mọi nửa chuẩn liên tục $\gamma$ trên F.
 
-Phần tử $Df(x_0)$ của $\mathcal{L}(E, F)$ được gọi là đạo hàm của $f$ tại $x_0$. Đôi khi người ta viết $D_h f(x_0)$ thay cho $Df(x_0) \cdot h$; đó là một phần tử của F được xác định bởi hệ thức:
+Phần tử $Df(x_0)$ của $\mathscr{L}(E, F)$ được gọi là đạo hàm của $f$ tại $x_0$. Đôi khi người ta viết $D_h f(x_0)$ thay cho $Df(x_0) \cdot h$; đó là một phần tử của F được xác định bởi hệ thức:
 
 $$
 D_h f(x_0) = \lim_{t \to 0, t \neq 0} \frac{f(x_0 + th) - f(x_0)}{t}.
@@ -120,11 +120,11 @@ $$
 
 khi $(y, z)$ tiến tới $(x_0, x_0)$ trong $E \times E$. Để được điều này, chỉ cần điều kiện ấy được thỏa mãn đối với một chuẩn xác định tôpô của E. Giả sử thêm rằng E và F là các không gian định chuẩn; khi đó, với mọi số $c > \| Df(x_0) \|$, tồn tại một lân cận V của $x_0$ sao cho $\| f(y) - f(z) \| \leq c. \| y - z \|$ với $y, z$ thuộc V; điều này suy ra rằng $f$ liên tục đều trong V.
 
-1.2.3. Việc một hàm $f$ khả vi hay khả vi chặt tại $x_0$ chỉ phụ thuộc vào mầm của $f$ tại $x_0$. Các mầm của những hàm khả vi tại $x_0$ tạo thành một không gian con vectơ $\mathcal{V}$ của không gian tất cả các mầm, và ánh xạ $f \mapsto Df(x_0)$ từ $\mathcal{V}$ vào $\mathcal{L}(E; F)$ là tuyến tính. Các mầm của những hàm khả vi chặt tại $x_0$ tạo thành một không gian con vectơ của $\mathcal{V}$.
+1.2.3. Việc một hàm $f$ khả vi hay khả vi chặt tại $x_0$ chỉ phụ thuộc vào mầm của $f$ tại $x_0$. Các mầm của những hàm khả vi tại $x_0$ tạo thành một không gian con vectơ $\mathscr{V}$ của không gian tất cả các mầm, và ánh xạ $f \mapsto Df(x_0)$ từ $\mathscr{V}$ vào $\mathscr{L}(E; F)$ là tuyến tính. Các mầm của những hàm khả vi chặt tại $x_0$ tạo thành một không gian con vectơ của $\mathscr{V}$.
 
 1.2.4. Một hàm khả vi tại $x_0$ thì liên tục tại $x_0$.
 
-1.2.5. Khi $E = K$, ánh xạ $u \mapsto u(1)$ là một đẳng cấu của $\mathcal{L}(E; F)$ lên $F$; nếu hàm $f$ khả vi tại $x_0$, phần tử
+1.2.5. Khi $E = K$, ánh xạ $u \mapsto u(1)$ là một đẳng cấu của $\mathscr{L}(E; F)$ lên $F$; nếu hàm $f$ khả vi tại $x_0$, phần tử
 
 $$
 f'(x_0) = Df(x_0) \cdot 1
@@ -194,7 +194,7 @@ $$
 
 1.6.1. Cho $f$ là một hàm xác định trong một lân cận $U$ của điểm $x_0$ của $E$ và nhận giá trị trong $F$. Cho $X$ là một không gian vectơ và $V$ là tập hợp các điểm $x$ của $X$ sao cho $x_0 + x \in U$; đặt $g(x) = f(x_0 + x)$ với $x \in V$. Ta nói rằng $f$ thừa nhận một *đạo hàm riêng theo* $X$ *tại* $x_0$ nếu $g$ thừa nhận đạo hàm tại $0$; đạo hàm này được ký hiệu bởi $D_X f(x_0)$; đó là một ánh xạ tuyến tính liên tục từ $X$ vào $F$. Nếu $f$ khả vi tại $x_0$, thì nó thừa nhận một đạo hàm riêng theo $X$ tại $x_0$, và đạo hàm riêng này là hạn chế của $Df(x_0)$ lên $X$.
 
-1.6.2. Giả sử rằng $E$ là tích của một họ hữu hạn các không gian vectơ định chuẩn $E_i$ ($1 \leq i \leq n$) được đồng nhất một cách chính tắc với các không gian con của $E$; cho $x_0 = (x_0^1, \ldots, x_0^n)$ trong $E$ và cho $U$ là một lân cận của $x_0$ trong $E$; sau cùng cho $f$ là một ánh xạ từ $U$ vào $F$. Ta ký hiệu bởi $D_{i} f(x_0)$ đạo hàm tại điểm $x_0^i$, nếu tồn tại, của ánh xạ $z_i \mapsto f(x_0^1, \ldots, z_i, \ldots, x_0^n)$ được xác định trong một lân cận của $x_0^i$ trong $E_i$ và nhận giá trị trong $F$. Đó là một phần tử của $\mathcal{L}(E_i; F)$, được gọi là *đạo hàm riêng thứ* $i$ *của* $f$ *tại* $x_0$. Nếu $f$ khả vi tại $x_0$, thì $n$ đạo hàm riêng tồn tại, và xác định $Df(x_0)$ bởi công thức:
+1.6.2. Giả sử rằng $E$ là tích của một họ hữu hạn các không gian vectơ định chuẩn $E_i$ ($1 \leq i \leq n$) được đồng nhất một cách chính tắc với các không gian con của $E$; cho $x_0 = (x_0^1, \ldots, x_0^n)$ trong $E$ và cho $U$ là một lân cận của $x_0$ trong $E$; sau cùng cho $f$ là một ánh xạ từ $U$ vào $F$. Ta ký hiệu bởi $D_{i} f(x_0)$ đạo hàm tại điểm $x_0^i$, nếu tồn tại, của ánh xạ $z_i \mapsto f(x_0^1, \ldots, z_i, \ldots, x_0^n)$ được xác định trong một lân cận của $x_0^i$ trong $E_i$ và nhận giá trị trong $F$. Đó là một phần tử của $\mathscr{L}(E_i; F)$, được gọi là *đạo hàm riêng thứ* $i$ *của* $f$ *tại* $x_0$. Nếu $f$ khả vi tại $x_0$, thì $n$ đạo hàm riêng tồn tại, và xác định $Df(x_0)$ bởi công thức:
 
 $$
 Df(x_0) \cdot h = \sum_{i=1}^{n} D_{i} f(x_0) \cdot h_i \quad \text{với } h = (h_1, \ldots, h_n) \text{ trong } E.
@@ -212,7 +212,7 @@ thay cho $\partial_{i} f(x_0)$.
 
 ### 1.7. Đạo hàm lặp
 
-1.7.1. Cho $f$ là một hàm xác định trong một lân cận của một điểm $x_0$ của $E$, nhận giá trị trong $F$. Nếu $f$ khả vi trong một lân cận của $x_0$, đạo hàm của nó $Df$ là một ánh xạ từ một lân cận của $x_0$ vào không gian đa chuẩn $\mathcal{L}(E; F)$ của các ánh xạ tuyến tính liên tục từ $E$ vào $F$. Cho $p$ là một số nguyên $\geq 2$:
+1.7.1. Cho $f$ là một hàm xác định trong một lân cận của một điểm $x_0$ của $E$, nhận giá trị trong $F$. Nếu $f$ khả vi trong một lân cận của $x_0$, đạo hàm của nó $Df$ là một ánh xạ từ một lân cận của $x_0$ vào không gian đa chuẩn $\mathscr{L}(E; F)$ của các ánh xạ tuyến tính liên tục từ $E$ vào $F$. Cho $p$ là một số nguyên $\geq 2$:
 
 người ta nói rằng $f$ khả vi $p$ lần tại $x_0$ nếu $f$ khả vi trong một lân cận của $x_0$ và nếu đạo hàm của nó $Df$ khả vi $(p - 1)$ lần tại $x_0$. Khi đó người ta định nghĩa đạo hàm bậc $p$ của $f$ tại $x_0$: đó là ánh xạ $p$-tuyến tính liên tục $D^pf(x_0)$ từ $E^p$ vào $F$, được xác định bởi:
 
@@ -220,7 +220,7 @@ $$
 D^pf(x_0) . (h_1, \ldots, h_p) = (D(D^{p-1}f)(x_0) . h_1) . (h_2, \ldots, h_p).
 $$
 
-Ta cũng đặt $D^0f = f$ và $D^1f = Df$. Nếu $f$ khả vi $p$ lần tại $x_0$ và nếu $q$ và $s$ là hai số nguyên sao cho $q + s = p$, với $s > 0$, thì $f$ khả vi $q$ lần trong một lân cận của $x_0$, hàm $D^qf$ (với giá trị trong $\mathcal{L}_q(E; F)$) khả vi $s$ lần tại $x_0$, và ta có:
+Ta cũng đặt $D^0f = f$ và $D^1f = Df$. Nếu $f$ khả vi $p$ lần tại $x_0$ và nếu $q$ và $s$ là hai số nguyên sao cho $q + s = p$, với $s > 0$, thì $f$ khả vi $q$ lần trong một lân cận của $x_0$, hàm $D^qf$ (với giá trị trong $\mathscr{L}_q(E; F)$) khả vi $s$ lần tại $x_0$, và ta có:
 
 $$
 D^{q+s}f(x_0) . (h_1, \ldots, h_{q+s}) = (D^s(D^qf)(x_0) . (h_1, \ldots, h_s)) . (h_{s+1}, \ldots, h_{q+s})

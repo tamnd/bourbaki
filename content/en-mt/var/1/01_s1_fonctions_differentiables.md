@@ -40,11 +40,11 @@ subsections:
       pdf_page: 13
 statements: 0
 exercises: 0
-content_sha256: 0bf1c162534d51cfbef5c8dce9da23d0a8b404d715eeb87130dd56ee29844bbe
+content_sha256: 873df4b94fc278844618318cec70f3e5e8c88944fa9eb92810d72a09674178b3
 translated_from: content/fr/var/1/01_s1_fonctions_differentiables.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 68a240194e02f682042deb25f428d16a60db5f87c651da158fc9feeead037a42
+source_content_sha256: 4f7ecdf9280009b563a1afa22800a45c18d699b10f5fc45613c9d45af5132f3e
 translation_model: gpt-5.4
 translation_run: translate-en-mt-0f096b99
 glossary_version: 34
@@ -106,7 +106,7 @@ $$
 
 for every continuous seminorm $\gamma$ on F.
 
-The element $Df(x_0)$ of $\mathcal{L}(E, F)$ is called the derivative of $f$ at $x_0$. One sometimes writes $D_h f(x_0)$ for $Df(x_0) \cdot h$; this is an element of F defined by the relation:
+The element $Df(x_0)$ of $\mathscr{L}(E, F)$ is called the derivative of $f$ at $x_0$. One sometimes writes $D_h f(x_0)$ for $Df(x_0) \cdot h$; this is an element of F defined by the relation:
 
 $$
 D_h f(x_0) = \lim_{t \to 0, t \neq 0} \frac{f(x_0 + th) - f(x_0)}{t}.
@@ -120,11 +120,11 @@ $$
 
 for $(y, z)$ tending to $(x_0, x_0)$ in $E \times E$. For this, it is enough that this condition be satisfied for one norm defining the topology of E. Suppose moreover that E and F are normed; for every number $c > \| Df(x_0) \|$, there then exists a neighbourhood V of $x_0$ such that $\| f(y) - f(z) \| \leq c. \| y - z \|$ for $y, z$ in V; this implies that $f$ is uniformly continuous in V.
 
-1.2.3. The fact that a function $f$ is differentiable or strictly differentiable at $x_0$ depends only on the germ of $f$ at $x_0$. The germs of functions differentiable at $x_0$ form a vector subspace $\mathcal{V}$ of the space of all germs, and the mapping $f \mapsto Df(x_0)$ of $\mathcal{V}$ into $\mathcal{L}(E; F)$ is linear. The germs of functions strictly differentiable at $x_0$ form a vector subspace of $\mathcal{V}$.
+1.2.3. The fact that a function $f$ is differentiable or strictly differentiable at $x_0$ depends only on the germ of $f$ at $x_0$. The germs of functions differentiable at $x_0$ form a vector subspace $\mathscr{V}$ of the space of all germs, and the mapping $f \mapsto Df(x_0)$ of $\mathscr{V}$ into $\mathscr{L}(E; F)$ is linear. The germs of functions strictly differentiable at $x_0$ form a vector subspace of $\mathscr{V}$.
 
 1.2.4. A function differentiable at $x_0$ is continuous at $x_0$.
 
-1.2.5. When $E = K$, the mapping $u \mapsto u(1)$ is an isomorphism of $\mathcal{L}(E; F)$ onto $F$; if the function $f$ is differentiable at $x_0$, the element
+1.2.5. When $E = K$, the mapping $u \mapsto u(1)$ is an isomorphism of $\mathscr{L}(E; F)$ onto $F$; if the function $f$ is differentiable at $x_0$, the element
 
 $$
 f'(x_0) = Df(x_0) \cdot 1
@@ -194,7 +194,7 @@ $$
 
 1.6.1. Let $f$ be a function defined in a neighbourhood $U$ of the point $x_0$ of $E$ and with values in $F$. Let $X$ be a vector space and $V$ the set of points $x$ of $X$ such that $x_0 + x \in U$; let us put $g(x) = f(x_0 + x)$ for $x \in V$. One says that $f$ admits a *partial derivative with respect to* $X$ *at* $x_0$ if $g$ admits a derivative at $0$; this derivative is denoted by $D_X f(x_0)$; it is a continuous linear mapping of $X$ into $F$. If $f$ is differentiable at $x_0$, it admits a partial derivative with respect to $X$ at $x_0$, and this partial derivative is the restriction of $Df(x_0)$ to $X$.
 
-1.6.2. Suppose that $E$ is the product of a finite family of normed vector spaces $E_i$ ($1 \leq i \leq n$) canonically identified with subspaces of $E$; let $x_0 = (x_0^1, \ldots, x_0^n)$ in $E$ and let $U$ be a neighbourhood of $x_0$ in $E$; finally let $f$ be a mapping of $U$ into $F$. One denotes by $D_{i} f(x_0)$ the derivative at the point $x_0^i$, if it exists, of the mapping $z_i \mapsto f(x_0^1, \ldots, z_i, \ldots, x_0^n)$ defined in a neighbourhood of $x_0^i$ in $E_i$ and with values in $F$. It is an element of $\mathcal{L}(E_i; F)$ which is called the *$i$-th partial derivative of* $f$ *at* $x_0$. If $f$ is differentiable at $x_0$, the $n$ partial derivatives exist, and determine $Df(x_0)$ by the formula:
+1.6.2. Suppose that $E$ is the product of a finite family of normed vector spaces $E_i$ ($1 \leq i \leq n$) canonically identified with subspaces of $E$; let $x_0 = (x_0^1, \ldots, x_0^n)$ in $E$ and let $U$ be a neighbourhood of $x_0$ in $E$; finally let $f$ be a mapping of $U$ into $F$. One denotes by $D_{i} f(x_0)$ the derivative at the point $x_0^i$, if it exists, of the mapping $z_i \mapsto f(x_0^1, \ldots, z_i, \ldots, x_0^n)$ defined in a neighbourhood of $x_0^i$ in $E_i$ and with values in $F$. It is an element of $\mathscr{L}(E_i; F)$ which is called the *$i$-th partial derivative of* $f$ *at* $x_0$. If $f$ is differentiable at $x_0$, the $n$ partial derivatives exist, and determine $Df(x_0)$ by the formula:
 
 $$
 Df(x_0) \cdot h = \sum_{i=1}^{n} D_{i} f(x_0) \cdot h_i \quad \text{for } h = (h_1, \ldots, h_n) \text{ in } E.
@@ -212,7 +212,7 @@ instead of $\partial_{i} f(x_0)$.
 
 ### 1.7. Iterated Derivatives
 
-1.7.1. Let $f$ be a function defined in a neighbourhood of a point $x_0$ of $E$, with values in $F$. If $f$ is differentiable in a neighbourhood of $x_0$, its derivative $Df$ is a mapping of a neighbourhood of $x_0$ into the polynormed space $\mathcal{L}(E; F)$ of continuous linear mappings of $E$ into $F$. Let $p$ be an integer $\geq 2$:
+1.7.1. Let $f$ be a function defined in a neighbourhood of a point $x_0$ of $E$, with values in $F$. If $f$ is differentiable in a neighbourhood of $x_0$, its derivative $Df$ is a mapping of a neighbourhood of $x_0$ into the polynormed space $\mathscr{L}(E; F)$ of continuous linear mappings of $E$ into $F$. Let $p$ be an integer $\geq 2$:
 
 one says that $f$ is $p$ times differentiable at $x_0$ if $f$ is differentiable in a neighbourhood of $x_0$ and if its derivative $Df$ is $(p - 1)$ times differentiable at $x_0$. One then defines the $p$-th derivative of $f$ at $x_0$: it is the continuous $p$-linear mapping $D^pf(x_0)$ of $E^p$ into $F$, defined by:
 
@@ -220,7 +220,7 @@ $$
 D^pf(x_0) . (h_1, \ldots, h_p) = (D(D^{p-1}f)(x_0) . h_1) . (h_2, \ldots, h_p).
 $$
 
-We also set $D^0f = f$ and $D^1f = Df$. If $f$ is $p$ times differentiable at $x_0$ and if $q$ and $s$ are two integers such that $q + s = p$, with $s > 0$, then $f$ is $q$ times differentiable in a neighbourhood of $x_0$, the function $D^qf$ (with values in $\mathcal{L}_q(E; F)$) is $s$ times differentiable at $x_0$, and one has:
+We also set $D^0f = f$ and $D^1f = Df$. If $f$ is $p$ times differentiable at $x_0$ and if $q$ and $s$ are two integers such that $q + s = p$, with $s > 0$, then $f$ is $q$ times differentiable in a neighbourhood of $x_0$, the function $D^qf$ (with values in $\mathscr{L}_q(E; F)$) is $s$ times differentiable at $x_0$, and one has:
 
 $$
 D^{q+s}f(x_0) . (h_1, \ldots, h_{q+s}) = (D^s(D^qf)(x_0) . (h_1, \ldots, h_s)) . (h_{s+1}, \ldots, h_{q+s})

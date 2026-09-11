@@ -40,11 +40,11 @@ subsections:
       pdf_page: 67
 statements: 0
 exercises: 0
-content_sha256: f2204efa6831ebd68c0711dd3e96ce691f0bb03a8df5e60b59a1c19cb1ec70b4
+content_sha256: 16f5cd2e46aed42d613a43ec277cb0c1906456b169709c07ddcf141d2d3a7bcd
 translated_from: content/en-mt/var/1/06_s6_fibrations.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: a242e363f8011bc48188d01d98463e2608dfef2f362a989490fe9ffa9cfa9701
+source_content_sha256: a183867de65a8fa6cea85978f9651d6b845223b9a9909831c8d5a170058472e8
 translation_model: gpt-5.4
 translation_run: translate-vi-2e38b3d8
 glossary_version: 34
@@ -149,9 +149,9 @@ Khi $B'$ là một đa tạp con của $B$, và $h$ là đơn ánh chính tắc 
 
 ### 6.4. Phép dựng các phân thớ chính bằng các cocycle
 
-Cho B là một đa tạp, G là một đa tạp nhóm và cho $\mathcal{U} = (U_i)_{i \in I}$ là một phủ mở của B.
+Cho B là một đa tạp, G là một đa tạp nhóm và cho $\mathscr{U} = (U_i)_{i \in I}$ là một phủ mở của B.
 
-6.4.1. Một cocycle cấp $C^r$ trên B với giá trị trong G, phụ thuộc vào $\mathcal{U}$, được gọi là một họ $(g_{i,j})_{(i,j) \in I \times I}$ có hai tính chất sau:
+6.4.1. Một cocycle cấp $C^r$ trên B với giá trị trong G, phụ thuộc vào $\mathscr{U}$, được gọi là một họ $(g_{i,j})_{(i,j) \in I \times I}$ có hai tính chất sau:
 (1) với mọi cặp $(i,j) \in I \times I$, $g_{i,j}$ là một ánh xạ cấp $C^r$ từ tập mở $U_i \cap U_j$ của B vào G;
 (2) với mọi bộ ba $(i,j,k) \in I^3$, ta có
 $$
@@ -168,18 +168,18 @@ $$
 $$
 s_j(b) = s_i(b) \cdot g_{i,j}(b) \quad \text{với mọi } b \in U_i \cap U_j.
 $$
-Họ các $g_{i,j}$ là một cocycle trên B với giá trị trong G, phụ thuộc vào phủ mở $\mathcal{U}$. Cocycle này được gọi là liên kết với đối tượng $(\lambda, \mathcal{U}, (s_i)_{i \in I})$ và các ánh xạ $g_{i,j}$ được gọi là các hàm chuyển của đối tượng này.
+Họ các $g_{i,j}$ là một cocycle trên B với giá trị trong G, phụ thuộc vào phủ mở $\mathscr{U}$. Cocycle này được gọi là liên kết với đối tượng $(\lambda, \mathscr{U}, (s_i)_{i \in I})$ và các ánh xạ $g_{i,j}$ được gọi là các hàm chuyển của đối tượng này.
 Với $i \in I$, gọi $x \mapsto (\pi(x), f_i(x))$ là phép tầm thường hóa được xác định bởi tiết diện $s_i$ của $\lambda|U_i$ (6.3.2). Với $x \in \pi^{-1}(U_i \cap U_j)$, ta có:
 (5)
 $$
 f_i(x) = g_{i,j}(\pi(x)) \cdot f_j(x).
 $$
 
-6.4.3. Ngược lại, cho $g = (g_{i,j})$ là một cocycle trên B với giá trị trong G, phụ thuộc vào phủ $\mathcal{U}$. Khi đó tồn tại một phân thớ chính $\lambda = (P, G, B, \pi)$ và một họ các tiết diện $(s_i)_{i \in I}$ của $\lambda$ trên các $U_i$, sao cho hệ thức (4) được thỏa mãn. Khi đó (5) cũng đúng. Hơn nữa, nếu $(\lambda', (s'_i))$ cũng thỏa mãn các điều kiện ấy, thì tồn tại một G-B-đẳng cấu duy nhất $f$ của $\lambda$ lên $\lambda'$ sao cho $s'_i = f \circ s_i$ với mọi $i \in I$. Kết quả này được diễn đạt bằng cách nói rằng $(\lambda, (s_i))$ được xác định, sai khác một đẳng cấu duy nhất, bởi cocycle $g$.
+6.4.3. Ngược lại, cho $g = (g_{i,j})$ là một cocycle trên B với giá trị trong G, phụ thuộc vào phủ $\mathscr{U}$. Khi đó tồn tại một phân thớ chính $\lambda = (P, G, B, \pi)$ và một họ các tiết diện $(s_i)_{i \in I}$ của $\lambda$ trên các $U_i$, sao cho hệ thức (4) được thỏa mãn. Khi đó (5) cũng đúng. Hơn nữa, nếu $(\lambda', (s'_i))$ cũng thỏa mãn các điều kiện ấy, thì tồn tại một G-B-đẳng cấu duy nhất $f$ của $\lambda$ lên $\lambda'$ sao cho $s'_i = f \circ s_i$ với mọi $i \in I$. Kết quả này được diễn đạt bằng cách nói rằng $(\lambda, (s_i))$ được xác định, sai khác một đẳng cấu duy nhất, bởi cocycle $g$.
 
-6.4.4. Cho $\lambda = (P, G, B, \pi)$ và $\lambda' = (P', G, B, \pi')$ là hai phân thớ chính. Cho $(s_i)$ (tương ứng $(s'_i)$) là một họ các tiết diện của $\lambda$ (tương ứng của $\lambda'$) trên các $U_i$ và cho $g$ (tương ứng $g'$) là cocycle liên kết với $(\lambda, \mathcal{U}, (s_i))$ (tương ứng với $(\lambda', \mathcal{U}, (s'_i))$). Để $\lambda$ và $\lambda'$ là G-B-đẳng cấu, điều kiện cần và đủ là các cocycle $g$ và $g'$ đồng điều. Chính xác hơn, với mọi G-B-đẳng cấu $f$ của $\lambda$ lên $\lambda'$, tồn tại một và chỉ một họ $(h_i)_{i \in I}$ các cấu xạ từ các $U_i$ vào $G$ sao cho quan hệ (3) được thỏa mãn và sao cho ta có $f \circ (s'_i(x)) = s_i(x) \cdot h_i(x)$ với mọi $i \in I$ và mọi $x \in U_i$, và do đó thu được một song ánh từ tập hợp các G-B-đẳng cấu của $\lambda$ lên $\lambda'$ đến tập hợp các họ $(h_i)_{i \in I}$ thỏa mãn (3).
+6.4.4. Cho $\lambda = (P, G, B, \pi)$ và $\lambda' = (P', G, B, \pi')$ là hai phân thớ chính. Cho $(s_i)$ (tương ứng $(s'_i)$) là một họ các tiết diện của $\lambda$ (tương ứng của $\lambda'$) trên các $U_i$ và cho $g$ (tương ứng $g'$) là cocycle liên kết với $(\lambda, \mathscr{U}, (s_i))$ (tương ứng với $(\lambda', \mathscr{U}, (s'_i))$). Để $\lambda$ và $\lambda'$ là G-B-đẳng cấu, điều kiện cần và đủ là các cocycle $g$ và $g'$ đồng điều. Chính xác hơn, với mọi G-B-đẳng cấu $f$ của $\lambda$ lên $\lambda'$, tồn tại một và chỉ một họ $(h_i)_{i \in I}$ các cấu xạ từ các $U_i$ vào $G$ sao cho quan hệ (3) được thỏa mãn và sao cho ta có $f \circ (s'_i(x)) = s_i(x) \cdot h_i(x)$ với mọi $i \in I$ và mọi $x \in U_i$, và do đó thu được một song ánh từ tập hợp các G-B-đẳng cấu của $\lambda$ lên $\lambda'$ đến tập hợp các họ $(h_i)_{i \in I}$ thỏa mãn (3).
 
-6.4.5. Xét lại các ký hiệu của 6.4.2. và cho $\mathcal{V} = (V_\alpha)_{\alpha \in A}$ là một phủ mở mịn hơn phủ mở $\mathcal{U}$. Cho $\tau : A \to I$ là một ánh xạ sao cho $V_\alpha \subset U_{\tau(\alpha)}$ với mọi $\alpha \in A$. Cho $s'_\alpha$ là hạn chế lên $V_\alpha$ của tiết diện $s_{\tau(\alpha)}$ và cho $g' = (g'_{\alpha,\beta})$ là cocycle phụ thuộc vào phủ mở $\mathcal{V}$ liên kết với $(\lambda, \mathcal{V}, (s'_\alpha))$. Khi đó hàm chuyển tiếp $g'_{\alpha,\beta}$ là hạn chế lên $V_\alpha \cap V_\beta$ của hàm chuyển tiếp $g_{\tau(\alpha), \tau(\beta)}$.
+6.4.5. Xét lại các ký hiệu của 6.4.2. và cho $\mathscr{V} = (V_\alpha)_{\alpha \in A}$ là một phủ mở mịn hơn phủ mở $\mathscr{U}$. Cho $\tau : A \to I$ là một ánh xạ sao cho $V_\alpha \subset U_{\tau(\alpha)}$ với mọi $\alpha \in A$. Cho $s'_\alpha$ là hạn chế lên $V_\alpha$ của tiết diện $s_{\tau(\alpha)}$ và cho $g' = (g'_{\alpha,\beta})$ là cocycle phụ thuộc vào phủ mở $\mathscr{V}$ liên kết với $(\lambda, \mathscr{V}, (s'_\alpha))$. Khi đó hàm chuyển tiếp $g'_{\alpha,\beta}$ là hạn chế lên $V_\alpha \cap V_\beta$ của hàm chuyển tiếp $g_{\tau(\alpha), \tau(\beta)}$.
 
 ### 6.5. Không gian thớ liên kết với một phân thớ chính
 
@@ -244,7 +244,7 @@ và cho E là không gian thớ liên kết với $\lambda \times_B \lambda'$ c�
 
 Ánh xạ $f$ từ P vào $P \times^G H$ gán cho $x \in P$ lớp của $(x, e)$ là một B-cấu xạ từ P vào $P \times^G H$ tương thích với $\varphi$ (xem No. 6.3.1). Hơn nữa, nếu $f'$ là một B-cấu xạ từ P vào một không gian xơ chính $P'$ có nhóm cấu trúc H, và nếu $f'$ tương thích với $\varphi$, thì tồn tại duy nhất một H-B-đẳng cấu $\theta$ từ $P \times^G H$ lên $P'$ sao cho $f' = \theta \circ f$.
 
-6.6.2. Giả sử rằng $\lambda$ được định nghĩa bằng một phủ mở $\mathcal{V} = (U_i)$ của B và một cocycle $(g_{ij})$ (6.4.2). Khi đó $\varphi(\lambda)$ có thể được định nghĩa bằng cùng phủ ấy và cocycle $(h_{ij})$, với $h_{ij} = \varphi \circ g_{ij}$.
+6.6.2. Giả sử rằng $\lambda$ được định nghĩa bằng một phủ mở $\mathscr{V} = (U_i)$ của B và một cocycle $(g_{ij})$ (6.4.2). Khi đó $\varphi(\lambda)$ có thể được định nghĩa bằng cùng phủ ấy và cocycle $(h_{ij})$, với $h_{ij} = \varphi \circ g_{ij}$.
 
 6.6.3. Cho F là một đa tạp trên đó nhóm H tác động bên trái; ta ký hiệu bởi $(h, y) \mapsto h . y$ luật phép toán của H trên F. Nhóm G tác động trên F bởi $(g, y) \mapsto \varphi(g) . y$. Cho E là một không gian xơ liên kết với $\varphi(\lambda)$ có kiểu xơ F. Ánh xạ $(x, y) \mapsto f(x) . y$ từ $P \times F$ vào E (trong đó ánh xạ $f$ là ánh xạ đã được định nghĩa ở No. 6.6.1) trang bị cho E một cấu trúc không gian xơ liên kết với $\lambda$ có kiểu xơ F. Đặc biệt, $(P \times^G H) \times^H F$ được đồng nhất một cách chính tắc với $P \times^G F$.
 

@@ -68,11 +68,11 @@ subsections:
       pdf_page: 56
 statements: 0
 exercises: 0
-content_sha256: 83f77ee946608514d9bd8f03b4a2426d602170fcf85066fd524f2a6ae2454fa5
+content_sha256: 973e0f92134b18a0e1b17d59671590d5f4ea7d86e0f7806f8d72a3e0dafe6d6d
 translated_from: content/fr/var/1/05_s5_varietes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 581ce5cd00b7f38e77aba4b2dd0dfe403ba7e66c1918611c14a7eb9ec07ea124
+source_content_sha256: 40f0978e6e39951562511a165fbc37830eccfd46c4dc4db9b3dd44269d9e8c89
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-6
 translation_run: translate-en-mt-a3ab744f
 glossary_version: 34
@@ -106,7 +106,7 @@ When in addition $K = \mathbf{R}$ (resp. $\mathbf{C}$, $\mathbf{Q}_p$), we also 
 
 The topological space underlying $X$ is a Baire space. When $K$ is equal to $\mathbf{R}$ or $\mathbf{C}$, it is locally connected.
 
-Let $X$ be a manifold and let $\mathcal{A}$ be an atlas of $X$. For the topological space $X$ to be separated, it is necessary and sufficient that the following condition be satisfied: whatever the charts $(U, \varphi, E)$ and $(V, \psi, F)$ belonging to the atlas $\mathcal{A}$, the graph of the mapping $\psi \circ \varphi^{-1}$ of $\varphi(U \cap V)$ into $\psi(U \cap V)$ is closed in $\varphi(U) \times \psi(V)$.
+Let $X$ be a manifold and let $\mathscr{A}$ be an atlas of $X$. For the topological space $X$ to be separated, it is necessary and sufficient that the following condition be satisfied: whatever the charts $(U, \varphi, E)$ and $(V, \psi, F)$ belonging to the atlas $\mathscr{A}$, the graph of the mapping $\psi \circ \varphi^{-1}$ of $\varphi(U \cap V)$ into $\psi(U \cap V)$ is closed in $\varphi(U) \times \psi(V)$.
 
 Let $X$ be a manifold; suppose that the topological space $X$ is regular. Then for every point $a \in X$, there exists a chart $(U, \varphi, E)$ of $X$ at $a$ having the following property: for a subset $Y$ of $U$ to be closed in $X$, it is necessary and sufficient that its image $\varphi(Y)$ be closed in $E$. If the space $X$ is paracompact, there exists on $X$ a distance compatible with the topology of $X$ and making $X$ a complete metric space.
 
@@ -128,7 +128,7 @@ No. 5.2
 
 5.2.1. Let X be a set; there exists on X one and only one manifold structure for which the underlying topological space is discrete; this structure is a purely 0-dimensional manifold structure.
 
-5.2.2. Let E be a Banach space. The triplet $c = (E, \mathrm{Id}_E, E)$ is a chart of E and $\mathcal{A} = \{c\}$ is an atlas of E, and hence defines a purely manifold structure of type E on E; the underlying topology is the topology given on E. Whenever in what follows we speak of the manifold structure on E, it will always be the preceding structure to which we refer.
+5.2.2. Let E be a Banach space. The triplet $c = (E, \mathrm{Id}_E, E)$ is a chart of E and $\mathscr{A} = \{c\}$ is an atlas of E, and hence defines a purely manifold structure of type E on E; the underlying topology is the topology given on E. Whenever in what follows we speak of the manifold structure on E, it will always be the preceding structure to which we refer.
 
 In particular, this applies to every finite-dimensional vector space over K, endowed with the unique separated topology compatible with its vector structure (Esp. Vect. Top., chap. I, § 2, No. 3).
 
@@ -144,7 +144,7 @@ There then exists on X one and only one manifold structure such that $X_i$ is an
 
 5.2.5. Let X be a manifold. The set $X_n$ of points $x$ of X such that dim_x X = n (n integer $\geq 0$) is an open submanifold of X, which is purely of dimension n.
 
-5.2.6. Let E be a Banach space. The set G(E) of vector subspaces of E admitting a topological supplement can be endowed with an analytic manifold structure in the following way: for every pair (F_0, G_0) $\in G(E) \times G(E)$ such that E = F_0 $\oplus$ G_0, let U_{G_0} denote the set of F $\in G(E)$ admitting G_0 as a supplement, and define a bijection $\varphi_{F_0, G_0}$ of U_{G_0} onto the Banach space $\mathcal{L}(F_0; G_0)$ by associating to each F $\in U_{G_0}$ the mapping from F_0 into G_0 having as graph the subspace F of E = F_0 $\times$ G_0. The charts (U_{G_0}, $\varphi_{F_0, G_0}$, $\mathcal{L}(F_0; G_0)$) form an atlas of G(E). Endowed with the manifold structure defined by this atlas, G(E) is called the Grassmann manifold of E.
+5.2.6. Let E be a Banach space. The set G(E) of vector subspaces of E admitting a topological supplement can be endowed with an analytic manifold structure in the following way: for every pair (F_0, G_0) $\in G(E) \times G(E)$ such that E = F_0 $\oplus$ G_0, let U_{G_0} denote the set of F $\in G(E)$ admitting G_0 as a supplement, and define a bijection $\varphi_{F_0, G_0}$ of U_{G_0} onto the Banach space $\mathscr{L}(F_0; G_0)$ by associating to each F $\in U_{G_0}$ the mapping from F_0 into G_0 having as graph the subspace F of E = F_0 $\times$ G_0. The charts (U_{G_0}, $\varphi_{F_0, G_0}$, $\mathscr{L}(F_0; G_0)$) form an atlas of G(E). Endowed with the manifold structure defined by this atlas, G(E) is called the Grassmann manifold of E.
 
 The topological space G(E) is metrisable. If K is locally compact and E finite-dimensional, G(E) is compact.
 
@@ -156,13 +156,13 @@ If K = R or C, or if E is finite-dimensional, G_1(E) is nothing other than the p
 
 ### 5.3. Functions of class $C^r$ and morphisms of manifolds
 
-5.3.1. Let X be a manifold of class C', F a separated polynormed space and f a mapping from X into F. One says that f is of class C' if for every chart (V, $\varphi$, E) of X, the mapping $f \circ \varphi^{-1}$ of $\varphi(V)$ into F is of class C'. For this, it is enough that this condition be satisfied for the charts of an atlas of X. The set of mappings of class C' from X into F forms a vector subspace of the space of all mappings from X into F. It is denoted by $\mathcal{C}'(X; F)$.
+5.3.1. Let X be a manifold of class C', F a separated polynormed space and f a mapping from X into F. One says that f is of class C' if for every chart (V, $\varphi$, E) of X, the mapping $f \circ \varphi^{-1}$ of $\varphi(V)$ into F is of class C'. For this, it is enough that this condition be satisfied for the charts of an atlas of X. The set of mappings of class C' from X into F forms a vector subspace of the space of all mappings from X into F. It is denoted by $\mathscr{C}'(X; F)$.
 
-When F = K, one sets $\mathcal{C}'(X; K) = \mathcal{C}'(X)$; this is a sub-K-algebra of the algebra of mappings from X into K. The elements of $\mathcal{C}'(X)$ are also called morphic functions.
+When F = K, one sets $\mathscr{C}'(X; K) = \mathscr{C}'(X)$; this is a sub-K-algebra of the algebra of mappings from X into K. The elements of $\mathscr{C}'(X)$ are also called morphic functions.
 
 When X is an open subset of a Banach space, this terminology agrees with that of Nos. 2.3.1, 3.2.1 and 4.2.1.
 
-5.3.2. Let X and Y be two manifolds of class C' and let f be a mapping from X into Y. One says that f is of class C' or is a morphism of manifolds (of class C') if it is continuous and if, for every chart (V, $\psi$, F) of Y, the mapping $\psi \circ f$ of the open submanifold $f^{-1}(V)$ into the Banach space F is of class $C'$. For this, it is enough that there exist an atlas $\mathcal{A}$ of Y such that, for every chart $(V, \psi, F) \in \mathcal{A}$, the set $f^{-1}(V)$ be open in X and the mapping $\psi \circ f$ of the open submanifold $f^{-1}(V)$ of X into F be of class $C'$. The set of morphisms from X into Y is denoted by $\mathcal{C}'(X; Y)$. When Y is a Banach space endowed with its canonical manifold structure, the definitions of 5.3.1. and 5.3.2 are coherent. A mapping of class $C^\omega$ is also called a *K-analytic mapping* (or simply analytic). When $K = \mathbf{C}$, one also says holomorphic mapping.
+5.3.2. Let X and Y be two manifolds of class C' and let f be a mapping from X into Y. One says that f is of class C' or is a morphism of manifolds (of class C') if it is continuous and if, for every chart (V, $\psi$, F) of Y, the mapping $\psi \circ f$ of the open submanifold $f^{-1}(V)$ into the Banach space F is of class $C'$. For this, it is enough that there exist an atlas $\mathscr{A}$ of Y such that, for every chart $(V, \psi, F) \in \mathscr{A}$, the set $f^{-1}(V)$ be open in X and the mapping $\psi \circ f$ of the open submanifold $f^{-1}(V)$ of X into F be of class $C'$. The set of morphisms from X into Y is denoted by $\mathscr{C}'(X; Y)$. When Y is a Banach space endowed with its canonical manifold structure, the definitions of 5.3.1. and 5.3.2 are coherent. A mapping of class $C^\omega$ is also called a *K-analytic mapping* (or simply analytic). When $K = \mathbf{C}$, one also says holomorphic mapping.
 
 Let $(U, \varphi, E)$ be a chart of X and $(V, \psi, F)$ a chart of Y such that $f(U) \subset V$. The mapping $\psi \circ f \circ \varphi^{-1}$ of the open set $\varphi(U)$ of E into the open set $\psi(V)$ of F is called *the expression of f* in the given charts.
 
@@ -182,25 +182,25 @@ One says that the preceding formulae constitute *the expression* of $f$ by means
 
 *faisceau de fonctions à valeurs dans* $Y$ if it satisfies the following condition:
 
-*Let* $(U_i)_{i \in I}$ *be a family of open sets of* $X$, *with union* $U$, *and let* $f$ *be a mapping of* $U$ *into* $Y$; *in order that* $f$ *belong to* $\mathcal{L}(U)$, *it is necessary and sufficient that* $f|U_i$ *belong to* $\mathcal{L}(U_i)$ *for every* $i$ *in* $I$.
+*Let* $(U_i)_{i \in I}$ *be a family of open sets of* $X$, *with union* $U$, *and let* $f$ *be a mapping of* $U$ *into* $Y$; *in order that* $f$ *belong to* $\mathscr{L}(U)$, *it is necessary and sufficient that* $f|U_i$ *belong to* $\mathscr{L}(U_i)$ *for every* $i$ *in* $I$.
 
-5.4.2. Let $X$ and $Y$ be two manifolds; for every open set $U \subset X$, let $\mathcal{L}(U)$ be the set of morphisms of $U$ into $Y$; then $\mathcal{L}$ is a sheaf of mappings with values in $Y$.
+5.4.2. Let $X$ and $Y$ be two manifolds; for every open set $U \subset X$, let $\mathscr{L}(U)$ be the set of morphisms of $U$ into $Y$; then $\mathscr{L}$ is a sheaf of mappings with values in $Y$.
 
-When $Y = K$, the sheaf thus defined is denoted by $\mathcal{C}_X^{r'}$.
+When $Y = K$, the sheaf thus defined is denoted by $\mathscr{C}_X^{r'}$.
 
-5.4.3. Let $X$ be a topological space and let $\mathcal{S}$ be a set of Banach spaces. For every $E \in \mathcal{S}$, let $\mathcal{F}_E$ be a sheaf of mappings on $X$ with values in $E$. Suppose that the family of the $\mathcal{F}_E$, for $E \in \mathcal{S}$, satisfies the following condition:
+5.4.3. Let $X$ be a topological space and let $\mathscr{S}$ be a set of Banach spaces. For every $E \in \mathscr{S}$, let $\mathscr{F}_E$ be a sheaf of mappings on $X$ with values in $E$. Suppose that the family of the $\mathscr{F}_E$, for $E \in \mathscr{S}$, satisfies the following condition:
 
 For every $x \in X$, there exist an open neighbourhood $U$ of $x$, a space
 
-$E_0 \in \mathcal{S}$, and a homeomorphism $\varphi$ of U onto an open set of E_0, such that, for every open set $V \subset U$ and every $E \in \mathcal{S}$, the set $\mathcal{F}_E(V)$ consists of the functions $g \circ \varphi$, where $g$ ranges over the space $\mathcal{C}^r(\varphi(V); E)$.
+$E_0 \in \mathscr{S}$, and a homeomorphism $\varphi$ of U onto an open set of E_0, such that, for every open set $V \subset U$ and every $E \in \mathscr{S}$, the set $\mathscr{F}_E(V)$ consists of the functions $g \circ \varphi$, where $g$ ranges over the space $\mathscr{C}^r(\varphi(V); E)$.
 
-Then there exists on X a structure of manifold of class $C^r$ and of type $\mathcal{S}$, and only one, compatible with the given topology on X and for which $\mathcal{F}_E$ is the sheaf of functions of class $C^r$ on X with values in E.
+Then there exists on X a structure of manifold of class $C^r$ and of type $\mathscr{S}$, and only one, compatible with the given topology on X and for which $\mathscr{F}_E$ is the sheaf of functions of class $C^r$ on X with values in E.
 
-5.4.4. Let X be a topological space and let $\mathcal{F}$ be a sheaf of functions with values in K, satisfying the following condition: for every point x of X, there exist an integer n, an open neighbourhood U of x and a homeomorphism $\varphi$ of U onto an open set of $K^n$, such that, for every open set V of U, the set $\mathcal{F}(V)$ consists of the functions $g \circ \varphi$ where $g$ ranges over the set of functions of class $C^r$ with values in K on the open set $\varphi(V)$ of $K^n$.
+5.4.4. Let X be a topological space and let $\mathscr{F}$ be a sheaf of functions with values in K, satisfying the following condition: for every point x of X, there exist an integer n, an open neighbourhood U of x and a homeomorphism $\varphi$ of U onto an open set of $K^n$, such that, for every open set V of U, the set $\mathscr{F}(V)$ consists of the functions $g \circ \varphi$ where $g$ ranges over the set of functions of class $C^r$ with values in K on the open set $\varphi(V)$ of $K^n$.
 
-Then there exists on X a structure of locally finite-dimensional manifold of class $C^r$ and only one such that $\mathcal{F} = \mathcal{C}^r_X$.
+Then there exists on X a structure of locally finite-dimensional manifold of class $C^r$ and only one such that $\mathscr{F} = \mathscr{C}^r_X$.
 
-5.4.5. Let $X$ and $X'$ be two $C^r$-class varieties, locally of finite dimension, and let $f$ be a continuous mapping of X into X'. For $f$ to be a morphism, it is necessary and sufficient that for every open set U' of X' and every function $g \in \mathcal{C}^r(U'; K)$, the function $g \circ f$ belong to $\mathcal{C}^r(U; K)$, where $U = f^{-1}(U')$.
+5.4.5. Let $X$ and $X'$ be two $C^r$-class varieties, locally of finite dimension, and let $f$ be a continuous mapping of X into X'. For $f$ to be a morphism, it is necessary and sufficient that for every open set U' of X' and every function $g \in \mathscr{C}^r(U'; K)$, the function $g \circ f$ belong to $\mathscr{C}^r(U; K)$, where $U = f^{-1}(U')$.
 
 ### 5.5. Tangent spaces, tangent linear mappings
 

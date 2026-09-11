@@ -12,7 +12,7 @@ pdf_pages: 0086-0087
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 4f5da2d5f93a17339b36e8b289bea09365035864aa242bc99e5291d21d3b274d
+content_sha256: f1dc7a1707b5ba2507432005cc6e85f8e67f7ca479ba82fa2571925dc76696c5
 ---
 
 ## APPENDICE
@@ -29,7 +29,7 @@ $$
 
 (la suite des $\alpha(j)$ s’obtient donc en écrivant $\alpha_1$ fois 1, ..., $\alpha_n$ fois n).
 
-On désigne par $E_\alpha$ l’espace vectoriel topologique produit de la famille des $E_{\alpha(j)}$ pour $1 \leq j \leq |\alpha|$. On désigne par $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ l’espace des applications $|\alpha|$-multilinéaires de $E_\alpha$ dans F et par $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$ le sous-espace de $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ formé des applications multilinéaires continues muni de la topologie de la convergence uniforme sur les parties bornées de $E_\alpha$; c’est un espace polynormé séparé, dont la topologie peut être définie par la famille de semi-normes $\|u\|_y$, où, pour une semi-norme $y$ continue sur F, on note $\|u\|_y$ la borne inférieure des nombres $a \geq 0$ tels que
+On désigne par $E_\alpha$ l’espace vectoriel topologique produit de la famille des $E_{\alpha(j)}$ pour $1 \leq j \leq |\alpha|$. On désigne par $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ l’espace des applications $|\alpha|$-multilinéaires de $E_\alpha$ dans F et par $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$ le sous-espace de $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ formé des applications multilinéaires continues muni de la topologie de la convergence uniforme sur les parties bornées de $E_\alpha$; c’est un espace polynormé séparé, dont la topologie peut être définie par la famille de semi-normes $\|u\|_y$, où, pour une semi-norme $y$ continue sur F, on note $\|u\|_y$ la borne inférieure des nombres $a \geq 0$ tels que
 
 $$
 \|u(x_1, \ldots, x_{|\alpha|})\|_y \leq a \|x_1\| \cdots \|x_{|\alpha|}\|
@@ -47,10 +47,10 @@ $$
 
 tel que $f = u \circ p_\alpha$.
 
-A.2. On désigne par $P_\alpha(E_1, \ldots, E_n; F)$ l’image de $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$ par l’application linéaire $u \mapsto u \circ p_\alpha$ de $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ dans l’espace des applications de E dans F, munie de la topologie quotient de celle de $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$. Un élément de $P_\alpha(E_1, \ldots, E_n; F)$ est appelé un polynôme-continu multihomogène de multidegré $\alpha$ sur E à valeurs dans F. La topologie de $P_\alpha(E_1, \ldots, E_n; F)$ est définie par la famille de semi-normes :
+A.2. On désigne par $P_\alpha(E_1, \ldots, E_n; F)$ l’image de $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$ par l’application linéaire $u \mapsto u \circ p_\alpha$ de $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ dans l’espace des applications de E dans F, munie de la topologie quotient de celle de $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$. Un élément de $P_\alpha(E_1, \ldots, E_n; F)$ est appelé un polynôme-continu multihomogène de multidegré $\alpha$ sur E à valeurs dans F. La topologie de $P_\alpha(E_1, \ldots, E_n; F)$ est définie par la famille de semi-normes :
 
 $$
-\|f\|_y = \inf_{u \in \mathcal{L}_\alpha(E_1, \ldots, E_n; F), f = u \circ p_\alpha} \|u\|_y
+\|f\|_y = \inf_{u \in \mathscr{L}_\alpha(E_1, \ldots, E_n; F), f = u \circ p_\alpha} \|u\|_y
 $$
 
 pour $y$ décrivant l’ensemble des semi-normes continues sur F. Si F est un espace normé, de norme $\gamma$, on écrit $\|f\|$ au lieu de $\|f\|_y$. L’espace $P_\alpha(E_1, \ldots, E_n; F)$ et sa topologie ne changent pas si l’on substitue aux normes données sur chaque $E_i$ des normes équivalentes. On peut donc les définir lorsque les $E_i$ sont des espaces vectoriels topologiques normables.

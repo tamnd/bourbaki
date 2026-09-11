@@ -40,7 +40,7 @@ subsections:
       pdf_page: 67
 statements: 0
 exercises: 0
-content_sha256: 041a801bb9638dc98ed267f9a74ade144cc09841cb4d2f742e4682ab57d1cafb
+content_sha256: 00b251155a4874c9918fb24223bf37e1b46b0daef7c4fea0216299d52c688e47
 ---
 
 ## § 6. Fibrations¹
@@ -140,9 +140,9 @@ Lorsque $B'$ est une sous-variété de $B$, et $h$ l’injection canonique de $B
 
 ### 6.4. Construction de fibrations principales au moyen de cocycles
 
-Soient B une variété, G une variété de groupe et soit $\mathcal{U} = (U_i)_{i \in I}$ un recouvrement ouvert de B.
+Soient B une variété, G une variété de groupe et soit $\mathscr{U} = (U_i)_{i \in I}$ un recouvrement ouvert de B.
 
-6.4.1. On appelle cocycle de classe $C^r$ sur B à valeurs dans G, subordonné à $\mathcal{U}$, une famille $(g_{i,j})_{(i,j) \in I \times I}$ possédant les deux propriétés suivantes:
+6.4.1. On appelle cocycle de classe $C^r$ sur B à valeurs dans G, subordonné à $\mathscr{U}$, une famille $(g_{i,j})_{(i,j) \in I \times I}$ possédant les deux propriétés suivantes:
 (1) pour tout couple $(i,j) \in I \times I$, $g_{i,j}$ est une application de classe $C^r$ de l’ouvert $U_i \cap U_j$ de B dans G;
 (2) pour tout triplet $(i,j,k) \in I^3$, on a
 $$
@@ -159,18 +159,18 @@ $$
 $$
 s_j(b) = s_i(b) \cdot g_{i,j}(b) \quad \text{pour tout } b \in U_i \cap U_j.
 $$
-La famille des $g_{i,j}$ est un cocycle sur B à valeurs dans G, subordonné au recouvrement ouvert $\mathcal{U}$. Ce cocycle est dit associé à l’objet $(\lambda, \mathcal{U}, (s_i)_{i \in I})$ et les applications $g_{i,j}$ sont appelées les fonctions de transition de cet objet.
+La famille des $g_{i,j}$ est un cocycle sur B à valeurs dans G, subordonné au recouvrement ouvert $\mathscr{U}$. Ce cocycle est dit associé à l’objet $(\lambda, \mathscr{U}, (s_i)_{i \in I})$ et les applications $g_{i,j}$ sont appelées les fonctions de transition de cet objet.
 Pour $i \in I$, soit $x \mapsto (\pi(x), f_i(x))$ la trivialisation définie par la section $s_i$ de $\lambda|U_i$ (6.3.2). Pour $x \in \pi^{-1}(U_i \cap U_j)$, on a:
 (5)
 $$
 f_i(x) = g_{i,j}(\pi(x)) \cdot f_j(x).
 $$
 
-6.4.3. Inversement, soit $g = (g_{i,j})$ un cocycle sur B à valeurs dans G, subordonné au recouvrement $\mathcal{U}$. Il existe alors une fibration principale $\lambda = (P, G, B, \pi)$ et une famille de sections $(s_i)_{i \in I}$ de $\lambda$ au-dessus des $U_i$, telles que la relation (4) soit satisfaite. Il en est alors de même de (5). Si de plus $(\lambda', (s'_i))$ satisfait aux mêmes conditions, il existe un G-B-isomorphisme unique $f$ de $\lambda$ sur $\lambda'$ tel que $s'_i = f \circ s_i$ pour tout $i \in I$. On exprime ce résultat en disant que $(\lambda, (s_i))$ est déterminé à un isomorphisme unique près par le cocycle $g$.
+6.4.3. Inversement, soit $g = (g_{i,j})$ un cocycle sur B à valeurs dans G, subordonné au recouvrement $\mathscr{U}$. Il existe alors une fibration principale $\lambda = (P, G, B, \pi)$ et une famille de sections $(s_i)_{i \in I}$ de $\lambda$ au-dessus des $U_i$, telles que la relation (4) soit satisfaite. Il en est alors de même de (5). Si de plus $(\lambda', (s'_i))$ satisfait aux mêmes conditions, il existe un G-B-isomorphisme unique $f$ de $\lambda$ sur $\lambda'$ tel que $s'_i = f \circ s_i$ pour tout $i \in I$. On exprime ce résultat en disant que $(\lambda, (s_i))$ est déterminé à un isomorphisme unique près par le cocycle $g$.
 
-6.4.4. Soient $\lambda = (P, G, B, \pi)$ et $\lambda' = (P', G, B, \pi')$ deux fibrations principales. Soient $(s_i)$ (resp. $(s'_i)$) une famille de sections de $\lambda$ (resp. $\lambda'$) au dessus des $U_i$ et soit $g$ (resp. $g'$) le cocycle associé à $(\lambda, \mathcal{U}, (s_i))$ (resp. $(\lambda', \mathcal{U}, (s'_i))$). Pour que $\lambda$ et $\lambda'$ soient G-B-isomorphes, il faut et il suffit que les cocycles $g$ et $g'$ soient cohomologues. Plus précisément, pour tout G-B-isomorphisme $f$ de $\lambda$ sur $\lambda'$, il existe une famille $(h_i)_{i \in I}$ de morphismes des $U_i$ dans $G$ et une seule telle que la relation (3) soit satisfaite et que l’on ait $f \circ (s'_i(x)) = s_i(x) \cdot h_i(x)$ pour tout $i \in I$ et tout $x \in U_i$, et l’on obtient ainsi une bijection de l’ensemble des G-B-isomorphismes de $\lambda$ sur $\lambda'$ sur l’ensemble des familles $(h_i)_{i \in I}$ satisfaisant à (3).
+6.4.4. Soient $\lambda = (P, G, B, \pi)$ et $\lambda' = (P', G, B, \pi')$ deux fibrations principales. Soient $(s_i)$ (resp. $(s'_i)$) une famille de sections de $\lambda$ (resp. $\lambda'$) au dessus des $U_i$ et soit $g$ (resp. $g'$) le cocycle associé à $(\lambda, \mathscr{U}, (s_i))$ (resp. $(\lambda', \mathscr{U}, (s'_i))$). Pour que $\lambda$ et $\lambda'$ soient G-B-isomorphes, il faut et il suffit que les cocycles $g$ et $g'$ soient cohomologues. Plus précisément, pour tout G-B-isomorphisme $f$ de $\lambda$ sur $\lambda'$, il existe une famille $(h_i)_{i \in I}$ de morphismes des $U_i$ dans $G$ et une seule telle que la relation (3) soit satisfaite et que l’on ait $f \circ (s'_i(x)) = s_i(x) \cdot h_i(x)$ pour tout $i \in I$ et tout $x \in U_i$, et l’on obtient ainsi une bijection de l’ensemble des G-B-isomorphismes de $\lambda$ sur $\lambda'$ sur l’ensemble des familles $(h_i)_{i \in I}$ satisfaisant à (3).
 
-6.4.5. Reprenons les notations de 6.4.2. et soit $\mathcal{V} = (V_\alpha)_{\alpha \in A}$ un recouvrement ouvert plus fin que le recouvrement ouvert $\mathcal{U}$. Soit $\tau : A \to I$ une application telle que $V_\alpha \subset U_{\tau(\alpha)}$ pour tout $\alpha \in A$. Soit $s'_\alpha$ la restriction à $V_\alpha$ de la section $s_{\tau(\alpha)}$ et soit $g' = (g'_{\alpha,\beta})$ le cocycle subordonné au recouvrement ouvert $\mathcal{V}$ associé à $(\lambda, \mathcal{V}, (s'_\alpha))$. La fonction de transition $g'_{\alpha,\beta}$ est alors la restriction à $V_\alpha \cap V_\beta$ de la fonction de transition $g_{\tau(\alpha), \tau(\beta)}$.
+6.4.5. Reprenons les notations de 6.4.2. et soit $\mathscr{V} = (V_\alpha)_{\alpha \in A}$ un recouvrement ouvert plus fin que le recouvrement ouvert $\mathscr{U}$. Soit $\tau : A \to I$ une application telle que $V_\alpha \subset U_{\tau(\alpha)}$ pour tout $\alpha \in A$. Soit $s'_\alpha$ la restriction à $V_\alpha$ de la section $s_{\tau(\alpha)}$ et soit $g' = (g'_{\alpha,\beta})$ le cocycle subordonné au recouvrement ouvert $\mathscr{V}$ associé à $(\lambda, \mathscr{V}, (s'_\alpha))$. La fonction de transition $g'_{\alpha,\beta}$ est alors la restriction à $V_\alpha \cap V_\beta$ de la fonction de transition $g_{\tau(\alpha), \tau(\beta)}$.
 
 ### 6.5. Espaces fibrés associés à une fibration principale
 
@@ -235,7 +235,7 @@ et soit E l’espace fibré associé à $\lambda \times_B \lambda'$ de fibre typ
 
 L’application f de P dans $P \times^G H$ qui associe à $x \in P$ la classe de $(x, e)$ est un B-morphisme de P dans $P \times^G H$ compatible avec $\varphi$ (cf. n° 6.3.1). De plus, si $f'$ est un B-morphisme de P dans un espace fibré principal $P'$ de groupe structural H, et si $f'$ est compatible avec $\varphi$, il existe un H-B-isomorphisme unique $\theta$ de $P \times^G H$ sur $P'$ tel que $f' = \theta \circ f$.
 
-6.6.2. Supposons que $\lambda$ soit définie au moyen d’un recouvrement ouvert $\mathcal{V} = (U_i)$ de B et d’un cocycle $(g_{ij})$ (6.4.2). Alors $\varphi(\lambda)$ peut être défini au moyen du même recouvrement et du cocycle $(h_{ij})$, avec $h_{ij} = \varphi \circ g_{ij}$.
+6.6.2. Supposons que $\lambda$ soit définie au moyen d’un recouvrement ouvert $\mathscr{V} = (U_i)$ de B et d’un cocycle $(g_{ij})$ (6.4.2). Alors $\varphi(\lambda)$ peut être défini au moyen du même recouvrement et du cocycle $(h_{ij})$, avec $h_{ij} = \varphi \circ g_{ij}$.
 
 6.6.3. Soit F une variété sur laquelle le groupe H opère à gauche; on note $(h, y) \mapsto h . y$ la loi d’opération de H sur F. Le groupe G opère sur F par $(g, y) \mapsto \varphi(g) . y$. Soit E un espace fibré associé à $\varphi(\lambda)$ de fibre type F. L’application $(x, y) \mapsto f(x) . y$ de $P \times F$ dans E (l’application $f$ étant celle définie au n° 6.6.1) munit E d’une structure d’espace fibré associé à $\lambda$ de fibre type F. En particulier, $(P \times^G H) \times^H F$ s’identifie à $P \times^G F$.
 

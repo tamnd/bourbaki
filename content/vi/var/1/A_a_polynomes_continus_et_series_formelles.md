@@ -12,11 +12,11 @@ pdf_pages: 0086-0087
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: ac5950f295f673d6f4380138039a8dbfb0c01a67a4284f4b58fcc16ebfe80939
+content_sha256: 9c6172b93d13284bfc958a84de465747589d2b27692633452a98de1464e7a7b0
 translated_from: content/en-mt/var/1/A_a_polynomes_continus_et_series_formelles.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 505abbfb6816269691d0798e92465645c01c3fa2d2c2d5b72db26a6a2931f5c6
+source_content_sha256: 150120dd63c7bed64ec952ee3e838140f4d5c900ffbd56687d7a7c3683b12c6e
 translation_model: gpt-5.4
 translation_run: translate-vi-72d599e5
 glossary_version: 34
@@ -38,7 +38,7 @@ $$
 
 (vì thế dãy các $\alpha(j)$ được thu được bằng cách viết $\alpha_1$ lần 1, ..., $\alpha_n$ lần n).
 
-Ta ký hiệu bởi $E_\alpha$ tích không gian vectơ tôpô của họ các $E_{\alpha(j)}$ với $1 \leq j \leq |\alpha|$. Ta ký hiệu bởi $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ không gian các ánh xạ $|\alpha|$-tuyến tính từ $E_\alpha$ vào F và bởi $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$ không gian con của $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ tạo bởi các ánh xạ đa tuyến tính liên tục được trang bị tôpô hội tụ đều trên các tập hợp bị chặn của $E_\alpha$; đó là một không gian đa chuẩn tách biệt, mà tôpô có thể được xác định bởi họ các nửa chuẩn $\|u\|_y$, trong đó, với một nửa chuẩn liên tục y trên F, ta ký hiệu bởi $\|u\|_y$ cận dưới lớn nhất của các số $a \geq 0$ sao cho
+Ta ký hiệu bởi $E_\alpha$ tích không gian vectơ tôpô của họ các $E_{\alpha(j)}$ với $1 \leq j \leq |\alpha|$. Ta ký hiệu bởi $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ không gian các ánh xạ $|\alpha|$-tuyến tính từ $E_\alpha$ vào F và bởi $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$ không gian con của $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ tạo bởi các ánh xạ đa tuyến tính liên tục được trang bị tôpô hội tụ đều trên các tập hợp bị chặn của $E_\alpha$; đó là một không gian đa chuẩn tách biệt, mà tôpô có thể được xác định bởi họ các nửa chuẩn $\|u\|_y$, trong đó, với một nửa chuẩn liên tục y trên F, ta ký hiệu bởi $\|u\|_y$ cận dưới lớn nhất của các số $a \geq 0$ sao cho
 
 $$
 \|u(x_1, \ldots, x_{|\alpha|})\|_y \leq a \|x_1\| \cdots \|x_{|\alpha|}\|
@@ -56,10 +56,10 @@ $$
 
 sao cho $f = u \circ p_\alpha$.
 
-A.2. Ta ký hiệu bởi $P_\alpha(E_1, \ldots, E_n; F)$ ảnh của $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$ bởi ánh xạ tuyến tính $u \mapsto u \circ p_\alpha$ từ $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ vào không gian các ánh xạ từ E vào F, được trang bị tôpô thương của tôpô trên $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$. Một phần tử của $P_\alpha(E_1, \ldots, E_n; F)$ được gọi là một đa thức đa thuần nhất liên tục có đa bậc $\alpha$ trên E nhận giá trị trong F. Tôpô của $P_\alpha(E_1, \ldots, E_n; F)$ được xác định bởi họ các nửa chuẩn:
+A.2. Ta ký hiệu bởi $P_\alpha(E_1, \ldots, E_n; F)$ ảnh của $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$ bởi ánh xạ tuyến tính $u \mapsto u \circ p_\alpha$ từ $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ vào không gian các ánh xạ từ E vào F, được trang bị tôpô thương của tôpô trên $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$. Một phần tử của $P_\alpha(E_1, \ldots, E_n; F)$ được gọi là một đa thức đa thuần nhất liên tục có đa bậc $\alpha$ trên E nhận giá trị trong F. Tôpô của $P_\alpha(E_1, \ldots, E_n; F)$ được xác định bởi họ các nửa chuẩn:
 
 $$
-\|f\|_y = \inf_{u \in \mathcal{L}_\alpha(E_1, \ldots, E_n; F), f = u \circ p_\alpha} \|u\|_y
+\|f\|_y = \inf_{u \in \mathscr{L}_\alpha(E_1, \ldots, E_n; F), f = u \circ p_\alpha} \|u\|_y
 $$
 
 với $y$ mô tả tập hợp các nửa chuẩn liên tục trên F. Nếu F là một không gian chuẩn, có chuẩn $\gamma$, ta viết $\|f\|$ thay cho $\|f\|_y$. Không gian $P_\alpha(E_1, \ldots, E_n; F)$ và tôpô của nó không thay đổi nếu thay các chuẩn đã cho trên mỗi $E_i$ bằng các chuẩn tương đương. Vì thế chúng có thể được xác định khi các $E_i$ là các không gian vectơ tôpô khả chuẩn.

@@ -37,7 +37,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 68a240194e02f682042deb25f428d16a60db5f87c651da158fc9feeead037a42
+          content_sha256: 4f7ecdf9280009b563a1afa22800a45c18d699b10f5fc45613c9d45af5132f3e
         - kind: section
           section: 2
           title: Fonctions différentiables réelles
@@ -49,7 +49,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 751c6249671612296169a2ada973673daef293ce7e4ae1a9d165e88250336f6c
+          content_sha256: 85e5ed09c1887ea3f4bb1874cb8d98856fc19e8449b7f3c0d0e03bc3b1f0ddc8
         - kind: section
           section: 3
           title: Fonctions analytiques réelles ou complexes
@@ -61,7 +61,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: e9ceaf07cea8ecb64ac0a8ac8f556fa2ec4193b24832ad21ffb3bcdc7760e3a1
+          content_sha256: 22e5ad8205c9819aadb0e62ee179c7344db94f006e06403139c2d6bf314a0ed3
         - kind: section
           section: 4
           title: Fonctions analytiques (cas non archimédien)
@@ -73,7 +73,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 6c33d48ae550ea870abdc7669dc0ffa3b18d55302bafba43eeb9d2a04fcc67f0
+          content_sha256: e90a0fb56b8885aa3f5ad72d383f1bf4a5de49b4dd9ab0cf77d37a6991562aa9
         - kind: section
           section: 5
           title: Variétés
@@ -85,7 +85,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 581ce5cd00b7f38e77aba4b2dd0dfe403ba7e66c1918611c14a7eb9ec07ea124
+          content_sha256: 40f0978e6e39951562511a165fbc37830eccfd46c4dc4db9b3dd44269d9e8c89
         - kind: section
           section: 6
           title: Fibrations
@@ -97,7 +97,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 041a801bb9638dc98ed267f9a74ade144cc09841cb4d2f742e4682ab57d1cafb
+          content_sha256: 00b251155a4874c9918fb24223bf37e1b46b0daef7c4fea0216299d52c688e47
         - kind: section
           section: 7
           title: Fibrés vectoriels
@@ -109,7 +109,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 77cdaaf45b351c946c688134d4588742d177c22169a3cb5868d8ab3a74aa10c9
+          content_sha256: 8ad900a252a6cd578fc67a303db7007331ae2888109b58a825b547baf488d6c0
         - kind: appendix
           title: Polynômes-continus et séries formelles
           path: content/fr/var/1/A_a_polynomes_continus_et_series_formelles.md
@@ -120,7 +120,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 4f5da2d5f93a17339b36e8b289bea09365035864aa242bc99e5291d21d3b274d
+          content_sha256: f1dc7a1707b5ba2507432005cc6e85f8e67f7ca479ba82fa2571925dc76696c5
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

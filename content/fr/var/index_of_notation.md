@@ -12,7 +12,7 @@ pdf_pages: 0181-0183
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d25d96dd772a992150bf506f8e9fadef2aa311b728378c47574585be7f68d574
+content_sha256: 840618a4609483a3e6912ae0632ca36b42941f9acbffe679577c1e7cc4e15558
 ---
 
 ## INDEX DES NOTATIONS
@@ -109,9 +109,9 @@ $gr(φ_x)$: 13.3.5
 $t_1 × t_2, t_1 ⊗ t_2$: 13.4.1
 $T_x^{(n)}(X_1, X_2)$: 13.4.5
 $Δ*, c$: 13.5.1
-$\mathcal{G}^{(k)}(X)$: 13.6.1
+$\mathscr{G}^{(k)}(X)$: 13.6.1
 $D^k(E, F)$: 14.1.1
-$\mathcal{D}_U^{k,h}(E, F)$: 14.1.1
+$\mathscr{D}_U^{k,h}(E, F)$: 14.1.1
 $ad(f)θ$: 14.1.4
 $Δ^α$: 14.1.6
 $D_C^k(E, F)$: 14.1.7
@@ -128,7 +128,7 @@ $grad(f)$: 14.4.3
 $C_R^{r,s}$: 15.1.1
 $C_K^{r,ω}$: 15.1.2
 $C^{r,s}$: 15.1.1, 15.1.2, 15.1.6, 15.2.1
-$\mathcal{S}_M^{r}(B)$: 15.3.1
-$\mathcal{S}^{r}(B; N)$: 15.3.1 et 15.3.2
-$\mathcal{Q}^{r}(X; Y)$: 15.3.3
+$\mathscr{S}_M^{r}(B)$: 15.3.1
+$\mathscr{S}^{r}(B; N)$: 15.3.1 et 15.3.2
+$\mathscr{Q}^{r}(X; Y)$: 15.3.3
 $Diff^{r}(Y)$: 15.3.8

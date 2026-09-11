@@ -56,7 +56,7 @@ subsections:
       pdf_page: 85
 statements: 0
 exercises: 0
-content_sha256: 77cdaaf45b351c946c688134d4588742d177c22169a3cb5868d8ab3a74aa10c9
+content_sha256: 8ad900a252a6cd578fc67a303db7007331ae2888109b58a825b547baf488d6c0
 ---
 
 ## § 7. Fibrés vectoriels
@@ -67,13 +67,13 @@ Dans tout ce paragraphe, la lettre B désigne une variété de classe $C^r$ ($r 
 
 7.1.1. Une carte vectorielle de M est un triplet $t = (U, \varphi, F)$, où U est un ouvert de B, où F est un espace de Banach et $\varphi$ une bijection de $\pi^{-1}(U)$ sur $U \times F$ telle que $\pi(\varphi^{-1}(b, h)) = b$ pour tout $b \in B$ et tout $h \in F$. On dit que U est le domaine de la carte vectorielle t et que t est une carte vectorielle de M en $b \in B$ si $b \in U$. Pour tout $b \in U$, on note $t_b$ la bijection de F sur $M_b$ définie par $t_b(h) = \varphi^{-1}(b, h)$ pour $h \in F$.
 
-7.1.2. On dit que deux cartes vectorielles $t = (U, \varphi, F)$ et $t' = (U', \varphi', F')$ de M sont $C^r$-compatibles (ou simplement compatibles) s'il existe une application $\lambda$ de classe $C^r$ de la variété $U \cap U'$ dans l'espace de Banach $\mathcal{L}(F; F')$ telle que:
+7.1.2. On dit que deux cartes vectorielles $t = (U, \varphi, F)$ et $t' = (U', \varphi', F')$ de M sont $C^r$-compatibles (ou simplement compatibles) s'il existe une application $\lambda$ de classe $C^r$ de la variété $U \cap U'$ dans l'espace de Banach $\mathscr{L}(F; F')$ telle que:
 
 $$
 t_b = t'_b \circ \lambda(b) \quad \text{pour tout } b \in U \cap U'.
 $$
 
-7.1.3. On dit qu'un ensemble de cartes vectorielles de M est un $C^r$-atlas vectoriel (ou simplement atlas vectoriel) de M s'il se compose de cartes vectorielles deux à deux $C^r$-compatibles dont les domaines ont B pour réunion. On dit que deux atlas vectoriels $\mathcal{A}$ et $\mathcal{B}$ de M sont $C^r$-équivalents (ou équivalents) si $\mathcal{A} \cup \mathcal{B}$ est encore un atlas vectoriel de M. Cette relation est une relation d'équivalence.
+7.1.3. On dit qu'un ensemble de cartes vectorielles de M est un $C^r$-atlas vectoriel (ou simplement atlas vectoriel) de M s'il se compose de cartes vectorielles deux à deux $C^r$-compatibles dont les domaines ont B pour réunion. On dit que deux atlas vectoriels $\mathscr{A}$ et $\mathscr{B}$ de M sont $C^r$-équivalents (ou équivalents) si $\mathscr{A} \cup \mathscr{B}$ est encore un atlas vectoriel de M. Cette relation est une relation d'équivalence.
 
 7.1.4. Une structure de fibré vectoriel de classe $C^r$ (de base B) sur M est la donnée d'une classe d'atlas vectoriels équivalents (Ens., Chap. II, § 6, n° 9). Une carte vectorielle appartenant à un atlas vectoriel de cette classe est appelée une carte vectorielle du fibré vectoriel M.
 
@@ -95,7 +95,7 @@ Alors, le triplet $(\pi^{-1}(U), \alpha, E \times F)$ est une carte de l’ensem
 
 7.2.1. Soient $B$ et $B'$ deux variétés et soit $f$ un morphisme de $B$ dans $B'$. Soient $M$ un fibré vectoriel de base $B$ et $M'$ un fibré vectoriel de base $B'$. On dit qu’une application $g$ de $M$ dans $M'$ est un $f$-morphisme de fibrés vectoriels si la condition suivante est réalisée :
 
-Pour tout point $b_0 \in B$, il existe une carte vectorielle $t = (U, \varphi, F)$ de $M$ en $b_0$, une carte vectorielle $t' = (U', \varphi', F')$ de $M'$ en $f(b_0)$ et une application $\lambda$ de classe $C'$ de $U$ dans $\mathcal{L}(F; F')$ telles que $f(U) \subset U'$ et que $g_b \circ t_b = t'_{f(b)} \circ \lambda(b)$ pour tout $b \in U$, où $g_b$ est la restriction de $g$ à $M_b$.
+Pour tout point $b_0 \in B$, il existe une carte vectorielle $t = (U, \varphi, F)$ de $M$ en $b_0$, une carte vectorielle $t' = (U', \varphi', F')$ de $M'$ en $f(b_0)$ et une application $\lambda$ de classe $C'$ de $U$ dans $\mathscr{L}(F; F')$ telles que $f(U) \subset U'$ et que $g_b \circ t_b = t'_{f(b)} \circ \lambda(b)$ pour tout $b \in U$, où $g_b$ est la restriction de $g$ à $M_b$.
 
 Sous ces hypothèses, $g$ est un morphisme de variétés et pour tout $b \in B$, $g$ induit une application linéaire continue de $M_b$ dans $M'_{f(b)}$. On appelle rang vectoriel de $g$ en $b \in B$ et on note $\mathrm{rg}_b(g)$ le rang (fini ou $+\infty$) de l’application linéaire $g_b$.
 
@@ -143,7 +143,7 @@ $$
 
 7.3.1. Soient $M_1, \ldots, M_d$ et $N$ des fibrés vectoriels de base $B$, et soit $u$ une application de l’ensemble $M_1 \times_B \cdots \times_B M_d$ dans $N$. On dit que $u$ est un *morphisme multilinéaire* (ou $d$-linéaire) si la condition suivante est réalisée:
 
-*Pour tout $b_0 \in B$, il existe un voisinage ouvert $U$ de $b_0$ dans $B$, des cartes vectorielles $t^j = (U, \varphi^j, F^j)$ de $M_j$ (pour $1 \leq j \leq d$) et $t = (U, \varphi, F)$ de $N$, et une application $\lambda$ de classe $C^r$ de $U$ dans l’espace de Banach $\mathcal{L}(F^1, \ldots, F^d; F)$ des applications $d$-linéaires continues de $F^1 \times \cdots \times F^d$ dans $F$, tels que*:
+*Pour tout $b_0 \in B$, il existe un voisinage ouvert $U$ de $b_0$ dans $B$, des cartes vectorielles $t^j = (U, \varphi^j, F^j)$ de $M_j$ (pour $1 \leq j \leq d$) et $t = (U, \varphi, F)$ de $N$, et une application $\lambda$ de classe $C^r$ de $U$ dans l’espace de Banach $\mathscr{L}(F^1, \ldots, F^d; F)$ des applications $d$-linéaires continues de $F^1 \times \cdots \times F^d$ dans $F$, tels que*:
 
 $$
 (t_b \circ \lambda(b))(x_1, \ldots, x_d) = u(t_b^1(x_1), \ldots, t_b^d(x_d))
@@ -169,7 +169,7 @@ Supposons $A$ localement trivial. On dit qu’un fibré $M$ en $A$-modules est *
 
 ### 7.4. Sections
 
-7.4.1. Soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$, on note $\mathcal{S}_M^r(U)$ l’ensemble des sections de classe $C^r$ de $M$ sur $U$, c’est-à-dire des morphismes $s$ de classe $C^r$ de $U$ dans $M$ tels que $s(b) \in M_b$ pour tout $b \in U$. Cet ensemble est muni d’une structure de module sur l’anneau $\mathcal{C}^r(U)$ des fonctions morphiques par les règles:
+7.4.1. Soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$, on note $\mathscr{S}_M^r(U)$ l’ensemble des sections de classe $C^r$ de $M$ sur $U$, c’est-à-dire des morphismes $s$ de classe $C^r$ de $U$ dans $M$ tels que $s(b) \in M_b$ pour tout $b \in U$. Cet ensemble est muni d’une structure de module sur l’anneau $\mathscr{C}^r(U)$ des fonctions morphiques par les règles:
 
 (1)
 $$
@@ -179,20 +179,20 @@ $$
 $$
 (\varphi \cdot s)(b) = \varphi(b) \cdot s(b)
 $$
-pour $s, s'$ dans $\mathcal{S}_M^r(U)$ et $\varphi$ dans $\mathcal{C}^r(U)$. Lorsque l’ouvert $U$ varie, on obtient un faisceau $\mathcal{S}_M^r$ d’applications de $B$ dans $M$ (cf. n° 5.4.1), appelé *faisceau des sections* de $M$.
+pour $s, s'$ dans $\mathscr{S}_M^r(U)$ et $\varphi$ dans $\mathscr{C}^r(U)$. Lorsque l’ouvert $U$ varie, on obtient un faisceau $\mathscr{S}_M^r$ d’applications de $B$ dans $M$ (cf. n° 5.4.1), appelé *faisceau des sections* de $M$.
 
 7.4.2. Soient $M_1, \ldots, M_d$ et $N$ des fibrés vectoriels de base $M$ et $u$ un morphisme multilinéaire de $M_1 \times_B \ldots \times_B M_d$ dans $N$. Pour $1 \leq j \leq d$, donnons-nous une section $s_j$ de $M_j$ sur un ouvert $U$ de $B$; on définit une section $u(s_1, \ldots, s_d)$ de $N$ sur $U$ par la formule:
 $$
 u(s_1, \ldots, s_d)(b) = u_b(s_1(b), \ldots, s_d(b)) \quad \text{pour } b \in U.
 $$
 
-L’application $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ est $\mathcal{C}^r(U)$-multilinéaire. On la note parfois $\mathcal{S}(u)$.
+L’application $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ est $\mathscr{C}^r(U)$-multilinéaire. On la note parfois $\mathscr{S}(u)$.
 
-7.4.3. Soit $f$ un morphisme d’une variété $B'$ dans $B$ et soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$ et tout $s \in \mathcal{S}_M^r(U)$, l’application $x \mapsto (x, s(f(x)))$ est une section de classe $C^r$ de $f^*M$ sur l’ouvert $f^{-1}(U)$, notée $f^*s$ et appelée image réciproque de $s$ par $f$. L’application $s \mapsto f^*s$ de $\mathcal{S}_M^r(U)$ dans $\mathcal{S}_{f^*M}(f^{-1}(U))$ est semi-linéaire par rapport à l’homomorphisme $g \mapsto g \circ (f|f^{-1}(U))$ de $\mathcal{C}^r(U)$ dans $\mathcal{C}^r(f^{-1}(U))$.
+7.4.3. Soit $f$ un morphisme d’une variété $B'$ dans $B$ et soit $M$ un fibré vectoriel de base $B$. Pour tout ouvert $U$ de $B$ et tout $s \in \mathscr{S}_M^r(U)$, l’application $x \mapsto (x, s(f(x)))$ est une section de classe $C^r$ de $f^*M$ sur l’ouvert $f^{-1}(U)$, notée $f^*s$ et appelée image réciproque de $s$ par $f$. L’application $s \mapsto f^*s$ de $\mathscr{S}_M^r(U)$ dans $\mathscr{S}_{f^*M}(f^{-1}(U))$ est semi-linéaire par rapport à l’homomorphisme $g \mapsto g \circ (f|f^{-1}(U))$ de $\mathscr{C}^r(U)$ dans $\mathscr{C}^r(f^{-1}(U))$.
 
-Si de plus $N$ est un fibré vectoriel de base $B'$ et $g$ un $f$-comorphisme de $M$ dans $N$, on note parfois $\mathcal{S}(g)$ l’application $s \mapsto g \circ f^*s$ de $\mathcal{S}_M^r(U)$ dans $\mathcal{S}_N^r(f^{-1}(U))$.
+Si de plus $N$ est un fibré vectoriel de base $B'$ et $g$ un $f$-comorphisme de $M$ dans $N$, on note parfois $\mathscr{S}(g)$ l’application $s \mapsto g \circ f^*s$ de $\mathscr{S}_M^r(U)$ dans $\mathscr{S}_N^r(f^{-1}(U))$.
 
-7.4.4. Soit $M$ un fibré vectoriel de base $B$, *de rang fini*. On appelle *repère* de $M$ sur un ouvert $U$ de $B$ une suite finie $(s_1, \ldots, s_n)$ de sections de $M$ sur $U$ telle que $(s_1(b), \ldots, s_n(b))$ soit une *base* de l’espace vectoriel $M_b$ pour tout $b \in B$. La suite $(s_1, \ldots, s_n)$ est alors une base du $\mathcal{C}^r(U)$-module $\mathcal{S}_M^r(U)$. Si $f$ est un morphisme d’une variété $B'$ dans $B$, les sections $f^*s_j$ forment un repère de $f^*M$ sur $f^{-1}(U)$.
+7.4.4. Soit $M$ un fibré vectoriel de base $B$, *de rang fini*. On appelle *repère* de $M$ sur un ouvert $U$ de $B$ une suite finie $(s_1, \ldots, s_n)$ de sections de $M$ sur $U$ telle que $(s_1(b), \ldots, s_n(b))$ soit une *base* de l’espace vectoriel $M_b$ pour tout $b \in B$. La suite $(s_1, \ldots, s_n)$ est alors une base du $\mathscr{C}^r(U)$-module $\mathscr{S}_M^r(U)$. Si $f$ est un morphisme d’une variété $B'$ dans $B$, les sections $f^*s_j$ forment un repère de $f^*M$ sur $f^{-1}(U)$.
 
 7.4.5. Soit $L$ un corps, muni d’une structure de $K$-algèbre de dimension finie et soit $(M, B, \pi)$ une fibration. Supposons donnée sur chaque fibre $M_b$ une structure d’espace vectoriel sur $L$, *de dimension finie*. Il existe alors au plus une structure de fibré vectoriel sur $L$ de base $B$ sur $M$, compatible avec l’application $\pi$, la structure de variété de $M$ et les structures $L$-vectorielles sur les fibres (7.3.4). Pour qu’il en existe une, il faut et il suffit que la condition suivante soit réalisée :
 
@@ -207,7 +207,7 @@ $$
 $$
 *soit un isomorphisme de la variété $U \times L^n$ sur la variété $\pi^{-1}(U)$.*
 
-7.4.6. Soient $M_1, \ldots, M_d$ et $N$ des fibrés vectoriels de base $B$, les $M_j$ étant de *rang fini*. Supposons donnée pour tout ouvert $U$ de $B$ une application $\varphi_U$ de $\mathcal{S}_{M_1}^r(U) \times \cdots \times \mathcal{S}_{M_d}^r(U)$ dans $\mathcal{S}_N^r(U)$, $\mathcal{C}^r(U)$-multilinéaire, telles que pour $V \subset U$ l’on ait:
+7.4.6. Soient $M_1, \ldots, M_d$ et $N$ des fibrés vectoriels de base $B$, les $M_j$ étant de *rang fini*. Supposons donnée pour tout ouvert $U$ de $B$ une application $\varphi_U$ de $\mathscr{S}_{M_1}^r(U) \times \cdots \times \mathscr{S}_{M_d}^r(U)$ dans $\mathscr{S}_N^r(U)$, $\mathscr{C}^r(U)$-multilinéaire, telles que pour $V \subset U$ l’on ait:
 
 $$
 \varphi_U(s_1, \ldots, s_d)|V = \varphi_V(s_1|V, \ldots, s_d|V).
@@ -215,17 +215,17 @@ $$
 
 Il existe alors un morphisme multilinéaire $u$ de $M_1 \times_B \ldots \times_B M_d$ dans $N$ et un seul tel que $\varphi_U(s_1, \ldots, s_d) = u(s_1, \ldots, s_d)$ quelles que soient les sections $s_j$ de $M$ sur l’ouvert $U$ de $B$.
 
-7.4.7. Soit $f$ un morphisme d’une variété $B'$ dans $B$ et soit $M$ (resp. $M'$) un fibré vectoriel de base $B$ (resp. $B'$) et de rang fini. Supposons donnée pour tout ouvert $U$ de $B$ une application $\varphi_U$ de $\mathcal{S}_M^r(U)$ dans $\mathcal{S}_{M'}^{r'}(f^{-1}(U)), \mathcal{C}^r(U)$-semi-linéaire, telles que
+7.4.7. Soit $f$ un morphisme d’une variété $B'$ dans $B$ et soit $M$ (resp. $M'$) un fibré vectoriel de base $B$ (resp. $B'$) et de rang fini. Supposons donnée pour tout ouvert $U$ de $B$ une application $\varphi_U$ de $\mathscr{S}_M^r(U)$ dans $\mathscr{S}_{M'}^{r'}(f^{-1}(U)), \mathscr{C}^r(U)$-semi-linéaire, telles que
 
 $$
 \varphi_U(s)|f^{-1}(V) = \varphi_V(s|V)
 $$
 
-pour tout ouvert $V \subset U$. Il existe alors un $f$-comorphisme $g$ et un seul de $M$ dans $M'$ tel que $\varphi_U(s) = \mathcal{S}(g)(s)$ pour tout $s \in \mathcal{S}_M^r(U)$.
+pour tout ouvert $V \subset U$. Il existe alors un $f$-comorphisme $g$ et un seul de $M$ dans $M'$ tel que $\varphi_U(s) = \mathscr{S}(g)(s)$ pour tout $s \in \mathscr{S}_M^r(U)$.
 
-*7.4.8. Soit $\mathcal{F}$ un faisceau de modules sur le faisceau d’anneaux $\mathcal{C}_B^r$. On dit que $\mathcal{F}$ est localement libre si pour tout $b \in B$, il existe un voisinage ouvert $U$ de $b$ et un entier $n$ tels que $\mathcal{F}|U$ soit isomorphe (comme faisceau de $\mathcal{C}_U^r$-modules) au faisceau $(\mathcal{C}_U^r)^n$.
+*7.4.8. Soit $\mathscr{F}$ un faisceau de modules sur le faisceau d’anneaux $\mathscr{C}_B^r$. On dit que $\mathscr{F}$ est localement libre si pour tout $b \in B$, il existe un voisinage ouvert $U$ de $b$ et un entier $n$ tels que $\mathscr{F}|U$ soit isomorphe (comme faisceau de $\mathscr{C}_U^r$-modules) au faisceau $(\mathscr{C}_U^r)^n$.
 
-Si $M$ est un fibré vectoriel de base $B$ de rang fini, le faisceau $\mathcal{S}_M^r$ est localement libre. Réciproquement, pour tout faisceau localement libre $\mathcal{F}$ sur $B$, il existe un fibré vectoriel $M$ et un isomorphisme de faisceaux de $\mathcal{S}_M^r$ sur $\mathcal{F}$. Si $M'$ est un autre fibré vectoriel de base $B$ de rang fini, l’application $g \mapsto \mathcal{S}(g)$ est une bijection de l’ensemble des $B$-morphismes de $M$ dans $M'$ sur l’ensemble des morphismes de faisceaux de $\mathcal{C}^r$-modules de $\mathcal{S}_M^r$ dans $\mathcal{S}_{M'}^{r'}$*
+Si $M$ est un fibré vectoriel de base $B$ de rang fini, le faisceau $\mathscr{S}_M^r$ est localement libre. Réciproquement, pour tout faisceau localement libre $\mathscr{F}$ sur $B$, il existe un fibré vectoriel $M$ et un isomorphisme de faisceaux de $\mathscr{S}_M^r$ sur $\mathscr{F}$. Si $M'$ est un autre fibré vectoriel de base $B$ de rang fini, l’application $g \mapsto \mathscr{S}(g)$ est une bijection de l’ensemble des $B$-morphismes de $M$ dans $M'$ sur l’ensemble des morphismes de faisceaux de $\mathscr{C}^r$-modules de $\mathscr{S}_M^r$ dans $\mathscr{S}_{M'}^{r'}$*
 
 ### 7.5. Sous-fibrés vectoriels, fibrés vectoriels quotients, suites exactes
 
@@ -260,7 +260,7 @@ On définir de même les suites exactes localement directes de longueur quelconq
 
 ### 7.6. Foncteurs vectoriels
 
-Dans ce n° et dans les trois n°s suivants 7.7 à 7.9, la lettre I désigne un ensemble fini, réunion de deux sous-ensembles disjoints $I_+$ et $I_-$. On désigne par $\mathcal{V} = (V_i)_{i \in I}$ (et de manière analogue par $\mathcal{V}', \mathcal{V}'', \ldots$) une famille d’espaces de Banach indexée par $I$. On désigne par $\operatorname{Hom}(\mathcal{V}, \mathcal{V}')$ l’espace de Banach $\prod_{i \in I_+} \mathcal{L}(V_i; V'_i) \times \prod_{i \in I_-} \mathcal{L}(V'_i; V_i)$ et par $f = (f_i)$ un élément de $\operatorname{Hom}(\mathcal{V}, \mathcal{V}')$. On note $\operatorname{Id}_{\mathcal{V}}$ l’élément $(\operatorname{Id}_{V_i})_{i \in I}$ de $\operatorname{Hom}(\mathcal{V}, \mathcal{V})$. Pour $f \in \operatorname{Hom}(\mathcal{V}, \mathcal{V}')$ et $f' \in \operatorname{Hom}(\mathcal{V}', \mathcal{V}'')$, on note $f' \circ f$ l’élément de $\operatorname{Hom}(\mathcal{V}, \mathcal{V}'')$ dont les composantes sont données par:
+Dans ce n° et dans les trois n°s suivants 7.7 à 7.9, la lettre I désigne un ensemble fini, réunion de deux sous-ensembles disjoints $I_+$ et $I_-$. On désigne par $\mathscr{V} = (V_i)_{i \in I}$ (et de manière analogue par $\mathscr{V}', \mathscr{V}'', \ldots$) une famille d’espaces de Banach indexée par $I$. On désigne par $\operatorname{Hom}(\mathscr{V}, \mathscr{V}')$ l’espace de Banach $\prod_{i \in I_+} \mathscr{L}(V_i; V'_i) \times \prod_{i \in I_-} \mathscr{L}(V'_i; V_i)$ et par $f = (f_i)$ un élément de $\operatorname{Hom}(\mathscr{V}, \mathscr{V}')$. On note $\operatorname{Id}_{\mathscr{V}}$ l’élément $(\operatorname{Id}_{V_i})_{i \in I}$ de $\operatorname{Hom}(\mathscr{V}, \mathscr{V})$. Pour $f \in \operatorname{Hom}(\mathscr{V}, \mathscr{V}')$ et $f' \in \operatorname{Hom}(\mathscr{V}', \mathscr{V}'')$, on note $f' \circ f$ l’élément de $\operatorname{Hom}(\mathscr{V}, \mathscr{V}'')$ dont les composantes sont données par:
 
 $$
 (f' \circ f)_i = f'_i \circ f_i \quad \text{si } i \in I_+
@@ -269,36 +269,36 @@ $$
 (f' \circ f)_i = f_i \circ f'_i \quad \text{si } i \in I_-
 $$
 
-7.6.1. On appelle foncteur vectoriel (resp. foncteur vectoriel en dimension finie) de type I et de classe $C^r$ la donnée pour toute famille $\mathcal{V} = (V_i)_{i \in I}$ d’espaces de Banach (resp. d’espaces vectoriels de dimension finie sur $K$) d’un espace de Banach $\tau(\mathcal{V})$ et pour tout $f \in \operatorname{Hom}(\mathcal{V}, \mathcal{V}')$ d’un élément $\tau(f) \in \mathcal{L}(\tau(\mathcal{V}); \tau(\mathcal{V}'))$, ces données étant assujetties aux deux conditions suivantes:
-(a) On a $\tau(\operatorname{Id}_\mathcal{V}) = \operatorname{Id}_{\tau(\mathcal{V})}$ et $\tau(f' \circ f) = \tau(f') \circ \tau(f)$.
-(b) L’application $\tau : \operatorname{Hom}(\mathcal{V}, \mathcal{V}') \to \mathcal{L}(\tau(\mathcal{V}); \tau(\mathcal{V}'))$ est de classe $C^r$.
+7.6.1. On appelle foncteur vectoriel (resp. foncteur vectoriel en dimension finie) de type I et de classe $C^r$ la donnée pour toute famille $\mathscr{V} = (V_i)_{i \in I}$ d’espaces de Banach (resp. d’espaces vectoriels de dimension finie sur $K$) d’un espace de Banach $\tau(\mathscr{V})$ et pour tout $f \in \operatorname{Hom}(\mathscr{V}, \mathscr{V}')$ d’un élément $\tau(f) \in \mathscr{L}(\tau(\mathscr{V}); \tau(\mathscr{V}'))$, ces données étant assujetties aux deux conditions suivantes:
+(a) On a $\tau(\operatorname{Id}_\mathscr{V}) = \operatorname{Id}_{\tau(\mathscr{V})}$ et $\tau(f' \circ f) = \tau(f') \circ \tau(f)$.
+(b) L’application $\tau : \operatorname{Hom}(\mathscr{V}, \mathscr{V}') \to \mathscr{L}(\tau(\mathscr{V}); \tau(\mathscr{V}'))$ est de classe $C^r$.
 
-7.6.2. Soit $\mathcal{M} = (M^i)_{i \in I}$ une famille de fibrés vectoriels de base $B$. Pour $b \in B$, posons $\mathcal{M}_b = (M^i_b)_{i \in I}$. Soit $\tau$ un foncteur vectoriel et soit $\tau(\mathcal{M})$ l’ensemble somme des $\tau(\mathcal{M}_b)$ pour $b \in B$; *il existe sur $\tau(\mathcal{M})$ une structure de fibré vectoriel et une seule* (de base $B$ relativement à l’application $\pi$ de $\tau(\mathcal{M})$ dans $B$ telle que pour tout $b \in B$, on ait $\tau(\mathcal{M}_b) = \{ b \}$) possédant la propriété suivante:
+7.6.2. Soit $\mathscr{M} = (M^i)_{i \in I}$ une famille de fibrés vectoriels de base $B$. Pour $b \in B$, posons $\mathscr{M}_b = (M^i_b)_{i \in I}$. Soit $\tau$ un foncteur vectoriel et soit $\tau(\mathscr{M})$ l’ensemble somme des $\tau(\mathscr{M}_b)$ pour $b \in B$; *il existe sur $\tau(\mathscr{M})$ une structure de fibré vectoriel et une seule* (de base $B$ relativement à l’application $\pi$ de $\tau(\mathscr{M})$ dans $B$ telle que pour tout $b \in B$, on ait $\tau(\mathscr{M}_b) = \{ b \}$) possédant la propriété suivante:
 
-Soit $U$ un ouvert de $B$ et, pour tout $i$, soit $t^i = (U, \varphi_i, F_i)$ une carte vectorielle de $M^i$, de domaine $U$; posons $\mathcal{F} = (F_i)_{i \in I}$ et soit $\psi_b$ l’élément de $\mathrm{Hom}(\mathcal{M}_b, \mathcal{F})$ défini par $(\psi_b)_i = (t^i_b)^{-1}$ pour $i \in I_+$ et $(\psi_b)_i = t^i_b$ pour $i \in I_-$; pour $x \in \pi^{-1}(U)$, posons $\psi(x) = (\pi(x), \tau(\psi_{\pi(x)})(x))$. Alors le triplet $(U, \psi, \tau(\mathcal{F}))$ est une carte vectorielle du fibré vectoriel $\tau(\mathcal{M})$.
+Soit $U$ un ouvert de $B$ et, pour tout $i$, soit $t^i = (U, \varphi_i, F_i)$ une carte vectorielle de $M^i$, de domaine $U$; posons $\mathscr{F} = (F_i)_{i \in I}$ et soit $\psi_b$ l’élément de $\mathrm{Hom}(\mathscr{M}_b, \mathscr{F})$ défini par $(\psi_b)_i = (t^i_b)^{-1}$ pour $i \in I_+$ et $(\psi_b)_i = t^i_b$ pour $i \in I_-$; pour $x \in \pi^{-1}(U)$, posons $\psi(x) = (\pi(x), \tau(\psi_{\pi(x)})(x))$. Alors le triplet $(U, \psi, \tau(\mathscr{F}))$ est une carte vectorielle du fibré vectoriel $\tau(\mathscr{M})$.
 
-Muni de cette structure, $\tau(\mathcal{M})$ s’appelle le *fibré vectoriel déduit de la famille $\mathcal{M}$ par le foncteur vectoriel $\tau$*.
+Muni de cette structure, $\tau(\mathscr{M})$ s’appelle le *fibré vectoriel déduit de la famille $\mathscr{M}$ par le foncteur vectoriel $\tau$*.
 
-7.6.3. Soit $f$ un morphisme de $B$ dans une variété $B'$. Soit $\mathcal{M} = (M^i)$ (resp. $\mathcal{M}' = ({M'}^i)$) un famille indexée par $I$ de fibrés vectoriels de base $B$ (resp. $B'$). Pour tout $i \in I_+$, soit $g_i$ un $f$-morphisme de $M^i$ dans ${M'}^i$ et pour tout $i \in I_-$, soit $g_i$ un $f$-comorphisme de ${M'}^i$ dans $M^i$. Posons $g = (g_i)_{i \in I}$ et pour $b \in B$, posons $g_b = ((g_i)_b)_{i \in I}$ (cf. 7.2.1 et 7.2.6). *Il existe un $f$-morphisme et un seul, noté $\tau(g)$, de $\tau(\mathcal{M})$ dans $\tau(\mathcal{M}')$ tel que $\tau(g)_b = \tau(g_b)$ pour tout $b \in B$*.
+7.6.3. Soit $f$ un morphisme de $B$ dans une variété $B'$. Soit $\mathscr{M} = (M^i)$ (resp. $\mathscr{M}' = ({M'}^i)$) un famille indexée par $I$ de fibrés vectoriels de base $B$ (resp. $B'$). Pour tout $i \in I_+$, soit $g_i$ un $f$-morphisme de $M^i$ dans ${M'}^i$ et pour tout $i \in I_-$, soit $g_i$ un $f$-comorphisme de ${M'}^i$ dans $M^i$. Posons $g = (g_i)_{i \in I}$ et pour $b \in B$, posons $g_b = ((g_i)_b)_{i \in I}$ (cf. 7.2.1 et 7.2.6). *Il existe un $f$-morphisme et un seul, noté $\tau(g)$, de $\tau(\mathscr{M})$ dans $\tau(\mathscr{M}')$ tel que $\tau(g)_b = \tau(g_b)$ pour tout $b \in B$*.
 
-Si en particulier $M^i = f^*{M'}^i$, les $g_i$ étant les morphismes ou comorphismes canoniques, alors le $B$-morphisme de $\tau(\mathcal{M})$ dans $f^*\tau(\mathcal{M}')$ défini par $\tau(g)$ (7.2.4) est un isomorphisme : on exprime ce fait en disant que $\tau$ *commute aux images réciproques*.
+Si en particulier $M^i = f^*{M'}^i$, les $g_i$ étant les morphismes ou comorphismes canoniques, alors le $B$-morphisme de $\tau(\mathscr{M})$ dans $f^*\tau(\mathscr{M}')$ défini par $\tau(g)$ (7.2.4) est un isomorphisme : on exprime ce fait en disant que $\tau$ *commute aux images réciproques*.
 
-En particulier soit $B'$ une sous-variété de $B$ et posons $\mathcal{M}|B' = (M^i|B')_{i \in I}$. Les fibrés vectoriels $\tau(\mathcal{M})|B'$ et $\tau(\mathcal{M}|B')$ sont alors canoniquement $B'$-isomorphes.
+En particulier soit $B'$ une sous-variété de $B$ et posons $\mathscr{M}|B' = (M^i|B')_{i \in I}$. Les fibrés vectoriels $\tau(\mathscr{M})|B'$ et $\tau(\mathscr{M}|B')$ sont alors canoniquement $B'$-isomorphes.
 
-7.6.4. Soient $\tau, \tau_1, \ldots, \tau_d$ des foncteurs vectoriels (de type $I$ et de classe $C'$). Un *morphism d-linéaire* $\theta$ de $(\tau_1, \ldots, \tau_d)$ dans $\tau$ est la donnée pour toute famille $\mathcal{V}$ d’espaces de Banach indexée par $I$ d’une application $d$-linéaire continue $\theta_{\mathcal{V}}$ de $\tau_1(\mathcal{V}) \times \cdots \times \tau_d(\mathcal{V})$ dans $\tau(\mathcal{V})$, cette donnée satisfaisant à la condition suivante : pour tout $f \in \mathrm{Hom}(\mathcal{V}', \mathcal{V}'')$ on a
+7.6.4. Soient $\tau, \tau_1, \ldots, \tau_d$ des foncteurs vectoriels (de type $I$ et de classe $C'$). Un *morphism d-linéaire* $\theta$ de $(\tau_1, \ldots, \tau_d)$ dans $\tau$ est la donnée pour toute famille $\mathscr{V}$ d’espaces de Banach indexée par $I$ d’une application $d$-linéaire continue $\theta_{\mathscr{V}}$ de $\tau_1(\mathscr{V}) \times \cdots \times \tau_d(\mathscr{V})$ dans $\tau(\mathscr{V})$, cette donnée satisfaisant à la condition suivante : pour tout $f \in \mathrm{Hom}(\mathscr{V}', \mathscr{V}'')$ on a
 $$
-\tau(f) \circ \theta_{\mathcal{V}} = \theta_{\mathcal{V}''} \circ (\tau_1(f) \times \cdots \times \tau_d(f)).
+\tau(f) \circ \theta_{\mathscr{V}} = \theta_{\mathscr{V}''} \circ (\tau_1(f) \times \cdots \times \tau_d(f)).
 $$
 Pour $d = 1$, on dit simplement un *morphism* de $\tau_1$ dans $\tau$.
 
-Soit alors $\mathcal{M}$ une famille indexée par $I$ de fibrés vectoriels de base $B$.
-*Il existe un B-morphisme d-linéaire $\theta_{\mathcal{M}}$ et un seul de $\tau_1(\mathcal{M}) \times_B \cdots \times_B \tau_d(\mathcal{M})$ dans $\tau(\mathcal{M})$ tel que $(\theta_{\mathcal{M}})_b = \theta_{\mathcal{M}_b}$ pour tout $b \in B$*.
+Soit alors $\mathscr{M}$ une famille indexée par $I$ de fibrés vectoriels de base $B$.
+*Il existe un B-morphisme d-linéaire $\theta_{\mathscr{M}}$ et un seul de $\tau_1(\mathscr{M}) \times_B \cdots \times_B \tau_d(\mathscr{M})$ dans $\tau(\mathscr{M})$ tel que $(\theta_{\mathscr{M}})_b = \theta_{\mathscr{M}_b}$ pour tout $b \in B$*.
 
 Avec les notations de 7.6.3., on a
 $$
-\tau(g) \circ \theta_{\mathcal{M}} = \theta_{\mathcal{M}'} \circ (\tau_1(g) \times \cdots \times \tau_d(g)).
+\tau(g) \circ \theta_{\mathscr{M}} = \theta_{\mathscr{M}'} \circ (\tau_1(g) \times \cdots \times \tau_d(g)).
 $$
-Si $d = 1$, et si $\theta$ est un isomorphisme (ce qui veut dire que $\theta_{\mathcal{V}}$ est un isomorphisme pour toute famille $\mathcal{V}$), alors $\theta_{\mathcal{M}}$ est un isomorphisme.
+Si $d = 1$, et si $\theta$ est un isomorphisme (ce qui veut dire que $\theta_{\mathscr{V}}$ est un isomorphisme pour toute famille $\mathscr{V}$), alors $\theta_{\mathscr{M}}$ est un isomorphisme.
 
 7.6.5. Les définitions et résultats des n°s 7.6.2 à 7.6.4 s’étendent au cas des foncteurs vectoriels en dimension finie, à condition de supposer partout les fibrés vectoriels donnés de rang fini.
 
@@ -306,21 +306,21 @@ Ils s’étendent également au cas suivant : soit L un corps muni d’une struc
 
 7.6.6. On appelle foncteur vectoriel (resp. en dimension finie) pour les isomorphismes la donnée pour tout espace de Banach V (resp. tout espace vectoriel de dimension finie sur K) d’un espace de Banach τ(V) et pour tout isomorphisme f de V sur un espace de Banach V’ d’un isomorphisme τ(f) de τ(V) sur τ(V’), ces données étant assujetties à la condition (a) de 7.6.1 et à la condition suivante :
 
-(b’) L’application $f \mapsto \tau(f)$ du sous-ensemble ouvert de $\mathcal{L}(V; V')$ constitué par les isomorphismes de V sur V’, dans $\mathcal{L}(\tau(V); \tau(V'))$, est de classe $C^r$.
+(b’) L’application $f \mapsto \tau(f)$ du sous-ensemble ouvert de $\mathscr{L}(V; V')$ constitué par les isomorphismes de V sur V’, dans $\mathscr{L}(\tau(V); \tau(V'))$, est de classe $C^r$.
 
 Les définitions et résultats des n°s précédents s’étendent au cas des foncteurs vectoriels pour les isomorphismes (en faisant $I_+ = \{1\}$ et $I_- = \varnothing$), à l’exception de ceux du premier alinéa du n° 7.6.3.
 
 ### 7.7. Sommes directes, fibrés d’applications multilinéaires, dual
 
-7.7.1. On suppose que $I_- = \varnothing$. On définit un foncteur vectoriel σ appelé foncteur somme directe en posant $\sigma(\mathcal{V}) = \bigoplus_{i \in I} V_i$ et $\sigma(\mathfrak{f}) = \bigoplus_{i \in I} f_i$. Si $\mathcal{M} = (M^i)_{i \in I}$ est une famille de fibrés vectoriels de base B, le fibré vectoriel $\sigma(\mathcal{M})$ est appelé la somme directe des $M^i$ et est noté $\bigoplus_{i \in I} M^i$. Pour tout $b \in B$, la fibre en $b$ de $\bigoplus_{i \in I} M^i$ est la somme directe des fibres des $M^i$ en $b$.
+7.7.1. On suppose que $I_- = \varnothing$. On définit un foncteur vectoriel σ appelé foncteur somme directe en posant $\sigma(\mathscr{V}) = \bigoplus_{i \in I} V_i$ et $\sigma(\mathfrak{f}) = \bigoplus_{i \in I} f_i$. Si $\mathscr{M} = (M^i)_{i \in I}$ est une famille de fibrés vectoriels de base B, le fibré vectoriel $\sigma(\mathscr{M})$ est appelé la somme directe des $M^i$ et est noté $\bigoplus_{i \in I} M^i$. Pour tout $b \in B$, la fibre en $b$ de $\bigoplus_{i \in I} M^i$ est la somme directe des fibres des $M^i$ en $b$.
 
-Soit U un ouvert de B et soit $s_i \in \mathcal{F}_{M_i}(U)$ (pour $i \in I$). L’application $b \mapsto \sum_{i \in I} s_i(b)$ est alors une section, notée $\sum_i s_i$, de classe $C^r$ de $M = \bigoplus_{i \in I} M^i$ et l’application $(s_i)_{i \in I} \mapsto \sum_i s_i$ est un isomorphisme de $\mathcal{C}^r(U)$-modules de $\bigoplus_{i \in I} \mathcal{F}_{M_i}(U)$ sur $\mathcal{F}_M(U)$.
+Soit U un ouvert de B et soit $s_i \in \mathscr{F}_{M_i}(U)$ (pour $i \in I$). L’application $b \mapsto \sum_{i \in I} s_i(b)$ est alors une section, notée $\sum_i s_i$, de classe $C^r$ de $M = \bigoplus_{i \in I} M^i$ et l’application $(s_i)_{i \in I} \mapsto \sum_i s_i$ est un isomorphisme de $\mathscr{C}^r(U)$-modules de $\bigoplus_{i \in I} \mathscr{F}_{M_i}(U)$ sur $\mathscr{F}_M(U)$.
 
 La variété sous-jacente à $\bigoplus_{i \in I} M^i$ s’identifie au produit fibré $\prod_B M^i$.
 
 On désigne par $\mathrm{pr}_i$ le morphisme de fibrés vectoriels de $\bigoplus_{i \in I} M^i$ dans $M^i$ qui sur chaque fibre $\bigoplus_{i \in I} M^i_b$ est la i-ème projection. On définit de même l’injection canonique $j_i$ de $M^i$ dans $\bigoplus_{i \in I} M^i$.
 
-Soit $f$ un morphisme de B dans une variété $B'$; soit H un second ensemble fini et soit $\mathcal{N} = (N^h)_{h \in H}$ une famille de fibrés vectoriels de base $B'$. L’application $u \to \bigoplus_{i \in I} (\mathrm{pr}_h \circ u \circ j_i)_{(h,i) \in H \times I}$ est une bijection de l’ensemble des $f$-morphismes de $\bigoplus_{i \in I} M^i$ dans $\bigoplus_{h \in H} N^h$ sur l’ensemble des matrices $(u_{h,i})_{(h,i) \in H \times I}$, où $u_{h,i}$ est un $f$-morphisme de $M^i$ dans $N^h$.
+Soit $f$ un morphisme de B dans une variété $B'$; soit H un second ensemble fini et soit $\mathscr{N} = (N^h)_{h \in H}$ une famille de fibrés vectoriels de base $B'$. L’application $u \to \bigoplus_{i \in I} (\mathrm{pr}_h \circ u \circ j_i)_{(h,i) \in H \times I}$ est une bijection de l’ensemble des $f$-morphismes de $\bigoplus_{i \in I} M^i$ dans $\bigoplus_{h \in H} N^h$ sur l’ensemble des matrices $(u_{h,i})_{(h,i) \in H \times I}$, où $u_{h,i}$ est un $f$-morphisme de $M^i$ dans $N^h$.
 
 Si $I = \{1,2\}$, la suite
 $$
@@ -334,13 +334,13 @@ Inversement, soit $M$ un fibré vectoriel de base $B$ et soit $M'$ un sous-fibr�
 
 Il existe alors un sous-fibré vectoriel $M''$ de $M$ tel que $M$ s’identifie à la somme directe $M' \oplus M''$.
 
-7.7.2. Supposons que $I_+ = \{0\}$ et que $I_- = \{1,2,\ldots,d\}$. On définit un foncteur vectoriel $\eta_d$ de type $I$ et de classe $C^r$ en posant $\eta_d(\mathcal{V}) = \mathcal{L}(V_1,\ldots,V_d; V_0)$ et $\eta_d(f)(u) = f_0 \circ u \circ (f_1 \times \cdots \times f_d)$ pour $u \in \eta_d(\mathcal{V})$. Si $\mathcal{M} = (M_i)_{i \in I}$ est une famille de fibrés vectoriels de base $B$, le fibre vectoriel $\eta_d(\mathcal{M})$ se note $\mathcal{L}(M_1,\ldots,M_d; M_0)$.
+7.7.2. Supposons que $I_+ = \{0\}$ et que $I_- = \{1,2,\ldots,d\}$. On définit un foncteur vectoriel $\eta_d$ de type $I$ et de classe $C^r$ en posant $\eta_d(\mathscr{V}) = \mathscr{L}(V_1,\ldots,V_d; V_0)$ et $\eta_d(f)(u) = f_0 \circ u \circ (f_1 \times \cdots \times f_d)$ pour $u \in \eta_d(\mathscr{V})$. Si $\mathscr{M} = (M_i)_{i \in I}$ est une famille de fibrés vectoriels de base $B$, le fibre vectoriel $\eta_d(\mathscr{M})$ se note $\mathscr{L}(M_1,\ldots,M_d; M_0)$.
 
-Soit $u$ un morphisme multilinéaire de $M_1 \times_B \cdots \times_B M_d$ dans $M_0$. L’application $\hat{u} : b \mapsto u_b$ est alors une section de $\mathcal{L}(M_1,\ldots,M_d; M_0)$ et l’application $u \mapsto \hat{u}$ est bijective.
+Soit $u$ un morphisme multilinéaire de $M_1 \times_B \cdots \times_B M_d$ dans $M_0$. L’application $\hat{u} : b \mapsto u_b$ est alors une section de $\mathscr{L}(M_1,\ldots,M_d; M_0)$ et l’application $u \mapsto \hat{u}$ est bijective.
 
-7.7.3. Gardons les notations de 7.7.2 et supposons de plus que $d = 1$. Le fibré vectoriel $\mathcal{L}(M_1; M_0)$ s’appelle alors le fibré des homomorphismes de $M_1$ dans $M_0$. Ses sections correspondent aux $B$-morphismes de $M_1$ dans $M_0$.
+7.7.3. Gardons les notations de 7.7.2 et supposons de plus que $d = 1$. Le fibré vectoriel $\mathscr{L}(M_1; M_0)$ s’appelle alors le fibré des homomorphismes de $M_1$ dans $M_0$. Ses sections correspondent aux $B$-morphismes de $M_1$ dans $M_0$.
 
-Si de plus $M_0$ est le fibré trivial $K_B$, le fibré vectoriel $\mathcal{L}(M_1; K_B)$ s’appelle le dual de $M = M_1$ et se note $M'$ : la fibre $(M')_b$ est l’espace des formes linéaires continues sur la fibre $M_b$ de $M$ au point $b \in B$.
+Si de plus $M_0$ est le fibré trivial $K_B$, le fibré vectoriel $\mathscr{L}(M_1; K_B)$ s’appelle le dual de $M = M_1$ et se note $M'$ : la fibre $(M')_b$ est l’espace des formes linéaires continues sur la fibre $M_b$ de $M$ au point $b \in B$.
 
 Si $s$ (resp. $t$) est une section de $M$ (resp. $M'$) sur un ouvert $U$ de $B$, l’application $b \mapsto (b, \langle s(b), t(b) \rangle)$ est une section, notée $\langle s, t \rangle$ du fibré trivial $K_B$.$^1$
 
@@ -352,11 +352,11 @@ Dans les nos 7.8.1 à 7.8.5, on suppose que $K$ est de caractéristique 0 ou que
 
 $^1$ Lorsque $M$ est de rang fini, on écrit $M^*$ au lieu de $M'$.
 
-foncteur vectoriel $\alpha_d$ en désignant par $\alpha_d(\mathcal{V})$ l’espace de Banach des applications $d$-linéaires continues alternées de $V_1^d$ dans $V_0$ et en posant $\alpha_d(f)(u) = f_0 \circ u \circ f_1^d$ pour $u \in \alpha_d(\mathcal{V})$. Le fibré vectoriel $\alpha_d((M_1, M_0))$ se note $\mathrm{Alt}^d(M_1; M_0)$ et s’appelle le fibré vectoriel des applications $d$-linéaires alternées de $M_1$ dans $M_0$.
+foncteur vectoriel $\alpha_d$ en désignant par $\alpha_d(\mathscr{V})$ l’espace de Banach des applications $d$-linéaires continues alternées de $V_1^d$ dans $V_0$ et en posant $\alpha_d(f)(u) = f_0 \circ u \circ f_1^d$ pour $u \in \alpha_d(\mathscr{V})$. Le fibré vectoriel $\alpha_d((M_1, M_0))$ se note $\mathrm{Alt}^d(M_1; M_0)$ et s’appelle le fibré vectoriel des applications $d$-linéaires alternées de $M_1$ dans $M_0$.
 
-L’injection canonique de $\mathrm{Alt}^d(M_1; M_0)$ dans $\mathcal{L}(M_1, \ldots, M_1; M_0)$ est un morphisme de fibrés vectoriels ; $\mathrm{Alt}^d(M_1; M_0)$ est un sous-fibré vectoriel de $\mathcal{L}(M_1, \ldots, M_1; M_0)$.
+L’injection canonique de $\mathrm{Alt}^d(M_1; M_0)$ dans $\mathscr{L}(M_1, \ldots, M_1; M_0)$ est un morphisme de fibrés vectoriels ; $\mathrm{Alt}^d(M_1; M_0)$ est un sous-fibré vectoriel de $\mathscr{L}(M_1, \ldots, M_1; M_0)$.
 
-On a $\mathrm{Alt}^1(M_1; M_0) = \mathcal{L}(M_1; M_0)$. On pose $\mathrm{Alt}^0(M_1; M_0) = M_0$.
+On a $\mathrm{Alt}^1(M_1; M_0) = \mathscr{L}(M_1; M_0)$. On pose $\mathrm{Alt}^0(M_1; M_0) = M_0$.
 
 Si $\omega$ est une section $^1$ de $\mathrm{Alt}^d(M_1; M_0)$ et si $s_1, \ldots, s_d$ sont des sections de $M_1$, il existe une section et une seule de $M_0$, notée $\omega(s_1, \ldots, s_d)$, telle que
 $$
@@ -381,11 +381,11 @@ $$
 \sigma(1) < \cdots < \sigma(d) \quad \text{et} \quad \sigma(d+1) < \cdots < \sigma(d+e).
 $$
 
-7.8.3. Soient $M$ un fibré vectoriel et $A$ un fibré en algèbres, de base $B$. Supposons que les fibres $A_b$ de $A$ soient des algèbres associatives et commutatives, possédant un élément unité, noté $e_b$. Pour tout ouvert $U$ de $B$, nous noterons $\Omega^d(U)$ le $\mathcal{C}^r(U)$-module formé des sections du fibré $\mathrm{Alt}^d(M; A)$ et $\Omega^*(U)$ la somme directe des $\Omega^d(U)$ pour $d \geq 0$. Les multiplications sur chaque fibre définissent un accouplement de $A \times_B A$ dans $A$, d’où (7.8.2) une structure d’algèbre graduée sur $\Omega^*(U)$, qui est associative et anticommutative. La sous-algèbre $\Omega^0(U)$ est l’algèbre des
+7.8.3. Soient $M$ un fibré vectoriel et $A$ un fibré en algèbres, de base $B$. Supposons que les fibres $A_b$ de $A$ soient des algèbres associatives et commutatives, possédant un élément unité, noté $e_b$. Pour tout ouvert $U$ de $B$, nous noterons $\Omega^d(U)$ le $\mathscr{C}^r(U)$-module formé des sections du fibré $\mathrm{Alt}^d(M; A)$ et $\Omega^*(U)$ la somme directe des $\Omega^d(U)$ pour $d \geq 0$. Les multiplications sur chaque fibre définissent un accouplement de $A \times_B A$ dans $A$, d’où (7.8.2) une structure d’algèbre graduée sur $\Omega^*(U)$, qui est associative et anticommutative. La sous-algèbre $\Omega^0(U)$ est l’algèbre des
 
 ¹ Le lecteur aura soin de ne pas confondre cet emploi de la lettre $\omega$ avec celui défini p. 10.
 
-sections de A. Un élément $\omega$ de $\Omega^1(U)$ s'identifie à un U-morphisme de $M|U$ dans $A|U$ (7.7.3): si $s \in \mathcal{S}'_M(U)$, nous noterons $\langle \omega, s \rangle$ la section $\omega(s)$ de A (7.4.2). Soient $s_j \in \mathcal{S}'_M(U)$ et $\omega_j \in \Omega^1(U)$ (pour $1 \leq j \leq d$); on a:
+sections de A. Un élément $\omega$ de $\Omega^1(U)$ s'identifie à un U-morphisme de $M|U$ dans $A|U$ (7.7.3): si $s \in \mathscr{S}'_M(U)$, nous noterons $\langle \omega, s \rangle$ la section $\omega(s)$ de A (7.4.2). Soient $s_j \in \mathscr{S}'_M(U)$ et $\omega_j \in \Omega^1(U)$ (pour $1 \leq j \leq d$); on a:
 
 (2) $$
 \omega(s_1, \ldots, s_d) = \det(\langle \omega_i, s_j \rangle) \quad \text{pour } \omega = \omega_1 \wedge \ldots \wedge \omega_d.
@@ -393,7 +393,7 @@ $$
 
 7.8.4. Soit $d \geq 1$. Il existe un accouplement $i$ de $M \times_B \mathrm{Alt}^d(M; A)$ dans $\mathrm{Alt}^{d-1}(M; A)$ dont la restriction à chaque fibre est donnée par le produit intérieur droit (cf. A, III, p. 156). Si $s$ est une section de $M$ sur l'ouvert $U$ et si $\omega \in \Omega^d(U)$, on note $i(s)\omega$ la section $i(s, \omega)$ de $\mathrm{Alt}^{d-1}(M; A)$ sur $U$; on pose $i(s)\omega = 0$ pour $\omega$ dans $\Omega^0(U)$.
 
-On associe ainsi à toute section $s$ de $M$ sur $U$ un endomorphisme du $\mathcal{C}'(U)$-module $\Omega^*(U)$. On a le formulaire:
+On associe ainsi à toute section $s$ de $M$ sur $U$ un endomorphisme du $\mathscr{C}'(U)$-module $\Omega^*(U)$. On a le formulaire:
 
 (3) $$(i(s)\omega)(s_1, \ldots, s_{d-1}) = \omega(s, s_1, \ldots, s_{d-1}) \quad \text{pour } \omega \in \Omega^d(U), d \geq 1$$
 (4) $$i(s) \circ i(s) = 0$$
@@ -403,7 +403,7 @@ On associe ainsi à toute section $s$ de $M$ sur $U$ un endomorphisme du $\mathc
 
 Dans la dernière formule, les $\omega_i$ sont dans $\Omega^1(U)$ et le signe $\hat{}$ indique que le symbole qu'il surmonte doit être omis.
 
-Toutes les opérations décrites ci-dessus sur les sections sont multilinéaires sur l'anneau $\mathcal{C}'(U; K)$.
+Toutes les opérations décrites ci-dessus sur les sections sont multilinéaires sur l'anneau $\mathscr{C}'(U; K)$.
 
 7.8.5. Soit L une algèbre de Banach sur K. Les définitions et résultats des n° 7.7 et 7.8 s'étendent au cas des fibrés vectoriels sur L : on définit de manière analogue les fibrés d'applications L-multilinéaires ou L-multilinéaires alternées.
 
@@ -411,9 +411,9 @@ Toutes les opérations décrites ci-dessus sur les sections sont multilinéaires
 
 On garde les notations de 7.6. De plus, on désigne par L un corps commutatif muni d'une structure de K-algèbre de dimension finie et on appelle fibré vectoriel un fibré vectoriel sur L, de base B et de rang localement fini.
 
-7.9.1. Supposons que $I_- = \varnothing$. Si $\mathcal{V}$ et $\mathcal{V}'$ sont deux familles indexées par I d'espaces vectoriels de dimension finie sur L, on désigne par $\tau(\mathcal{V})$ le produit tensoriel des $V_i$ pour $i \in I$ (A, II, p. 71) et si $f \in \mathrm{Hom}(\mathcal{V}, \mathcal{V}')$, on pose $\tau(f) = \otimes f_i$. On définit ainsi un foncteur vectoriel sur L en dimension finie et si $\mathcal{M} = (M_i)_{i \in I}$ est une famille de fibrés vectoriels, on désigne par $\bigotimes_{i \in I} M_i$ et on appelle produit tensoriel (sur L) des $M_i$ le fibré vectoriel $\tau(\mathcal{M})$.
+7.9.1. Supposons que $I_- = \varnothing$. Si $\mathscr{V}$ et $\mathscr{V}'$ sont deux familles indexées par I d'espaces vectoriels de dimension finie sur L, on désigne par $\tau(\mathscr{V})$ le produit tensoriel des $V_i$ pour $i \in I$ (A, II, p. 71) et si $f \in \mathrm{Hom}(\mathscr{V}, \mathscr{V}')$, on pose $\tau(f) = \otimes f_i$. On définit ainsi un foncteur vectoriel sur L en dimension finie et si $\mathscr{M} = (M_i)_{i \in I}$ est une famille de fibrés vectoriels, on désigne par $\bigotimes_{i \in I} M_i$ et on appelle produit tensoriel (sur L) des $M_i$ le fibré vectoriel $\tau(\mathscr{M})$.
 
-Si $s_i$ est une section de $M_i$ sur l’ouvert U de B (pour $i \in I$), l’application $b \mapsto \bigotimes_{i \in I} s_i(b)$ est une section de $\bigotimes_{i \in I} M_i$, notée $\bigotimes_{i \in I} s_i$. L’application $(s_i)_{i \in I} \mapsto \bigotimes_{i \in I} s_i$ est multilinéaire sur l’anneau $\mathcal{C}^r(U;L)$.
+Si $s_i$ est une section de $M_i$ sur l’ouvert U de B (pour $i \in I$), l’application $b \mapsto \bigotimes_{i \in I} s_i(b)$ est une section de $\bigotimes_{i \in I} M_i$, notée $\bigotimes_{i \in I} s_i$. L’application $(s_i)_{i \in I} \mapsto \bigotimes_{i \in I} s_i$ est multilinéaire sur l’anneau $\mathscr{C}^r(U;L)$.
 
 7.9.2. Les isomorphismes canoniques définis dans Alg., chap. II fournissent des isomorphismes de foncteurs vectoriels. Il en résulte d’après 7.6.4 des isomorphismes de fibrés vectoriels. Par exemple, on a des isomorphismes canoniques :
 
@@ -421,7 +421,7 @@ $$
 (M_1 \oplus M_2) \otimes M_3 \longrightarrow (M_1 \otimes M_3) \oplus (M_2 \otimes M_3)
 $$
 $$
-M_1^* \otimes M_2 \longrightarrow \mathcal{L}(M_1; M_2)
+M_1^* \otimes M_2 \longrightarrow \mathscr{L}(M_1; M_2)
 $$
 
 etc.
@@ -459,7 +459,7 @@ Les définitions et propriétés des produits intérieurs données en Alg., chap
 
 7.10.1. Soit $F$ un espace de Banach. On dit qu’un fibré vectoriel $M$ de base $B$ est pur de type $F$ si toutes les fibres $M_b$ de $M$ (pour $b \in B$) sont isomorphes (comme espaces de Banach) à $F$.
 
-Soit $M$ un fibré vectoriel de base $B$ pur de type $F$ et soit $P$ la sous-variété ouverte du fibré vectoriel $\mathcal{L}(F_B; M)$ composée des couples $(b, u)$ où $b \in B$ et où $u$ est un isomorphisme de $F_b = F$ sur $M_b$. Le groupe $\mathrm{GL}(F)$ des automorphismes de $F$ opère à droite sur $P$ en posant $(b, u) \cdot g = (b, u \circ g)$ pour $(b, u) \in P$ et $g \in \mathrm{GL}(F)$. Notons $\pi_P$ l’application $(b, u) \mapsto b$ de P dans B. Le quadruplet $\lambda = (P, GL(F), B, \pi_P)$ (où $GL(F)$ est muni de sa structure canonique de variété de groupe (5.12.2)) est une fibration principale (6.2.1): on l’appelle la fibration des repères de M. L’application $((b, u), h) \mapsto u(h)$ de $P \times F$ dans M munit M d’une structure de fibré associé à $\lambda$, de fibre type F (6.5.1).
+Soit $M$ un fibré vectoriel de base $B$ pur de type $F$ et soit $P$ la sous-variété ouverte du fibré vectoriel $\mathscr{L}(F_B; M)$ composée des couples $(b, u)$ où $b \in B$ et où $u$ est un isomorphisme de $F_b = F$ sur $M_b$. Le groupe $\mathrm{GL}(F)$ des automorphismes de $F$ opère à droite sur $P$ en posant $(b, u) \cdot g = (b, u \circ g)$ pour $(b, u) \in P$ et $g \in \mathrm{GL}(F)$. Notons $\pi_P$ l’application $(b, u) \mapsto b$ de P dans B. Le quadruplet $\lambda = (P, GL(F), B, \pi_P)$ (où $GL(F)$ est muni de sa structure canonique de variété de groupe (5.12.2)) est une fibration principale (6.2.1): on l’appelle la fibration des repères de M. L’application $((b, u), h) \mapsto u(h)$ de $P \times F$ dans M munit M d’une structure de fibré associé à $\lambda$, de fibre type F (6.5.1).
 
 Lorsque $F = K^n$, on peut identifier un isomorphisme $u$ de F sur $M_b$ à la base de $M_b$ image par $u$ de la base canonique de $K^n$. L’espace fibré des repères de M s’identifie alors à la sous-variété ouverte de $M \times_B \ldots \times_B M$ formée des bases $(e_1, \ldots, e_n)$ des différentes fibres $M_b$.
 
@@ -485,9 +485,9 @@ une fibration principale de base B et supposons que $G_i$ opère à gauche sur u
 $$
 \varphi_i : G_i \to GL(V_i).
 $$
-Soit $M_i$ un espace fibré associé à $\lambda_i$ de fibre type $V_i$. Posons $\mathcal{M} = (M_i)_{i \in I}$ et $\mathcal{V} = (V_i)_{i \in I}$ et soit $\lambda$ la fibration principale produit des $\lambda_i$ au dessus de B (6.2.5). Posons $\hat{\lambda} = (\mathbf{P}, G, B, \pi_p)$, avec $G = \prod_{i \in I} G_i$.
+Soit $M_i$ un espace fibré associé à $\lambda_i$ de fibre type $V_i$. Posons $\mathscr{M} = (M_i)_{i \in I}$ et $\mathscr{V} = (V_i)_{i \in I}$ et soit $\lambda$ la fibration principale produit des $\lambda_i$ au dessus de B (6.2.5). Posons $\hat{\lambda} = (\mathbf{P}, G, B, \pi_p)$, avec $G = \prod_{i \in I} G_i$.
 
-Soit maintenant $\tau$ un foncteur vectoriel. Pour $g = (g_i) \in G$, soit $\varphi(g)$ l’élément de $\mathrm{Hom}(\mathcal{V}, \mathcal{V})$ défini par:
+Soit maintenant $\tau$ un foncteur vectoriel. Pour $g = (g_i) \in G$, soit $\varphi(g)$ l’élément de $\mathrm{Hom}(\mathscr{V}, \mathscr{V})$ défini par:
 
 $$
 \varphi(g)_i = \varphi_i(g_i) \quad \text{si } i \in I_+
@@ -496,9 +496,9 @@ $$
 \varphi(g)_i = \varphi_i(g_i)^{-1} \quad \text{si } i \in I_-
 $$
 
-Le groupe $G$ opère alors sur $\tau(\mathcal{V})$ au moyen du morphisme $g \mapsto \tau(\varphi(g))$ de $G$ dans $\mathbf{GL}(\tau(\mathcal{V}))$.
+Le groupe $G$ opère alors sur $\tau(\mathscr{V})$ au moyen du morphisme $g \mapsto \tau(\varphi(g))$ de $G$ dans $\mathbf{GL}(\tau(\mathscr{V}))$.
 
-Soit d’autre part $x = (x_i)$ un point de $\mathbf{P}$ et soit $b = \pi_p(x)$. Pour chaque $i$, l’application $\theta_{x_i}$ définie au n° 6.5.2 est un isomorphisme de $V_i$ sur $(M_i)_b$. Soit $\theta_x$ l’élément de $\mathrm{Hom}(\mathcal{V}, ((M_i)_b)_{i \in I})$ défini par:
+Soit d’autre part $x = (x_i)$ un point de $\mathbf{P}$ et soit $b = \pi_p(x)$. Pour chaque $i$, l’application $\theta_{x_i}$ définie au n° 6.5.2 est un isomorphisme de $V_i$ sur $(M_i)_b$. Soit $\theta_x$ l’élément de $\mathrm{Hom}(\mathscr{V}, ((M_i)_b)_{i \in I})$ défini par:
 
 $$
 (\theta_x)_i = \theta_{x_i} \quad \text{si } i \in I_+
@@ -507,7 +507,7 @@ $$
 (\theta_x)_i = \theta_{x_i}^{-1} \quad \text{si } i \in I_-
 $$
 
-Soit $\rho$ l’application $(x, h) \mapsto (b, \tau(\theta_x)(h))$ de $\mathbf{P} \times \tau(\mathcal{V})$ dans le fibré vectoriel $\tau(\mathcal{M})$; l’application $\rho$ munit $\tau(\mathcal{M})$ d’une structure d’espace fibré associé à $\lambda$ de fibre type $\tau(\mathcal{V})$.
+Soit $\rho$ l’application $(x, h) \mapsto (b, \tau(\theta_x)(h))$ de $\mathbf{P} \times \tau(\mathscr{V})$ dans le fibré vectoriel $\tau(\mathscr{M})$; l’application $\rho$ munit $\tau(\mathscr{M})$ d’une structure d’espace fibré associé à $\lambda$ de fibre type $\tau(\mathscr{V})$.
 
 Ces considérations se généralisent au cas de foncteurs vectoriels en dimension finie, ou de foncteurs vectoriels sur un corps $L$ muni d’une structure de K-algèbre de dimension finie.
 

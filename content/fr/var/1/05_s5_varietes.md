@@ -68,7 +68,7 @@ subsections:
       pdf_page: 56
 statements: 0
 exercises: 0
-content_sha256: 581ce5cd00b7f38e77aba4b2dd0dfe403ba7e66c1918611c14a7eb9ec07ea124
+content_sha256: 40f0978e6e39951562511a165fbc37830eccfd46c4dc4db9b3dd44269d9e8c89
 ---
 
 ## § 5. Variétés
@@ -97,7 +97,7 @@ Lorsque de plus $K = \mathbf{R}$ (resp. $\mathbf{C}$, $\mathbf{Q}_p$), on dit en
 
 L’espace topologique sous-jacent à $X$ est un espace de Baire. Lorsque $K$ est égal à $\mathbf{R}$ ou $\mathbf{C}$, il est localement connexe.
 
-Soit $X$ une variété et soit $\mathcal{A}$ un atlas de $X$. Pour que l’espace topologique $X$ soit séparé, il faut et il suffit que la condition suivante soit satisfaite : quelles que soient les cartes $(U, \varphi, E)$ et $(V, \psi, F)$ appartenant à l’atlas $\mathcal{A}$, le graphe de l’application $\psi \circ \varphi^{-1}$ de $\varphi(U \cap V)$ dans $\psi(U \cap V)$ est fermé dans $\varphi(U) \times \psi(V)$.
+Soit $X$ une variété et soit $\mathscr{A}$ un atlas de $X$. Pour que l’espace topologique $X$ soit séparé, il faut et il suffit que la condition suivante soit satisfaite : quelles que soient les cartes $(U, \varphi, E)$ et $(V, \psi, F)$ appartenant à l’atlas $\mathscr{A}$, le graphe de l’application $\psi \circ \varphi^{-1}$ de $\varphi(U \cap V)$ dans $\psi(U \cap V)$ est fermé dans $\varphi(U) \times \psi(V)$.
 
 Soit $X$ une variété ; supposons que l’espace topologique $X$ soit régulier. Alors pour tout point $a \in X$, il existe une carte $(U, \varphi, E)$ de $X$ en $a$ possédant la propriété suivante : pour qu’une partie $Y$ de $U$ soit fermée dans $X$, il faut et il suffit que son image $\varphi(Y)$ soit fermée dans $E$. Si l’espace $X$ est paracompact, il existe sur $X$ une distance compatible avec la topologie de $X$ et faisant de $X$ un espace métrique complet.
 
@@ -119,7 +119,7 @@ n° 5.2
 
 5.2.1. Soit X un ensemble ; il existe sur X une structure de variété et une seule pour laquelle l'espace topologique sous-jacent soit discret ; cette structure est une structure de variété pure de dimension 0.
 
-5.2.2. Soit E un espace de Banach. Le triplet $c = (E, \mathrm{Id}_E, E)$ est une carte de E et $\mathcal{A} = \{c\}$ est un atlas de E, donc définit une structure de variété pure de type E sur E ; la topologie sous-jacente est la topologie donnée sur E. Lorsque l'on parlera par la suite de la structure de variété sur E, ce sera toujours à la structure précédente que l'on se référera.
+5.2.2. Soit E un espace de Banach. Le triplet $c = (E, \mathrm{Id}_E, E)$ est une carte de E et $\mathscr{A} = \{c\}$ est un atlas de E, donc définit une structure de variété pure de type E sur E ; la topologie sous-jacente est la topologie donnée sur E. Lorsque l'on parlera par la suite de la structure de variété sur E, ce sera toujours à la structure précédente que l'on se référera.
 
 En particulier, ceci s'applique à tout espace vectoriel de dimension finie sur K, muni de l'unique topologie séparée compatible avec sa structure vectorielle (Esp. Vect. Top., chap. I, § 2, n° 3).
 
@@ -135,7 +135,7 @@ Il existe alors sur X une structure de variété et une seule telle que $X_i$ so
 
 5.2.5. Soit X une variété. L'ensemble $X_n$ des points $x$ de X tels que dim_x X = n (n entier $\geq 0$) est une sous-variété ouverte de X, qui est pure de dimension n.
 
-5.2.6. Soit E un espace de Banach. On peut munir l’ensemble G(E) des sous-espaces vectoriels de E admettant un supplémentaire topologique d’une structure de variété analytique de la façon suivante : pour tout couple (F_0, G_0) $\in G(E) \times G(E)$ tel que E = F_0 $\oplus$ G_0, on note U_{G_0} l’ensemble des F $\in G(E)$ admettant G_0 comme supplémentaire, et on définit une bijection $\varphi_{F_0, G_0}$ de U_{G_0} sur l’espace de Banach $\mathcal{L}(F_0; G_0)$ en associant à tout F $\in U_{G_0}$ l’application de F_0 dans G_0 ayant pour graphe le sous-espace F de E = F_0 $\times$ G_0. Les cartes (U_{G_0}, $\varphi_{F_0, G_0}$, $\mathcal{L}(F_0; G_0)$) forment un atlas de G(E). Muni de la structure de variété définie par cet atlas, G(E) s’appelle la variété grassmannienne de E.
+5.2.6. Soit E un espace de Banach. On peut munir l’ensemble G(E) des sous-espaces vectoriels de E admettant un supplémentaire topologique d’une structure de variété analytique de la façon suivante : pour tout couple (F_0, G_0) $\in G(E) \times G(E)$ tel que E = F_0 $\oplus$ G_0, on note U_{G_0} l’ensemble des F $\in G(E)$ admettant G_0 comme supplémentaire, et on définit une bijection $\varphi_{F_0, G_0}$ de U_{G_0} sur l’espace de Banach $\mathscr{L}(F_0; G_0)$ en associant à tout F $\in U_{G_0}$ l’application de F_0 dans G_0 ayant pour graphe le sous-espace F de E = F_0 $\times$ G_0. Les cartes (U_{G_0}, $\varphi_{F_0, G_0}$, $\mathscr{L}(F_0; G_0)$) forment un atlas de G(E). Muni de la structure de variété définie par cet atlas, G(E) s’appelle la variété grassmannienne de E.
 
 L’espace topologique G(E) est métrisable. Si K est localement compact et E de dimension finie, G(E) est compacte.
 
@@ -147,13 +147,13 @@ Si K = R ou C, ou si E est de dimension finie, G_1(E) n’est autre que l’espa
 
 ### 5.3. Fonctions de classe $C^r$ et morphismes de variétés
 
-5.3.1. Soient X une variété de classe C', F un espace polynormé séparé et f une application de X dans F. On dit que f est de classe C' si pour toute carte (V, $\varphi$, E) de X, l’application $f \circ \varphi^{-1}$ de $\varphi(V)$ dans F est de classe C'. Pour cela, il suffit que cette condition soit satisfaite pour les cartes d’un atlas de X. L’ensemble des applications de classe C' de X dans F forme un sous-espace vectoriel de l’espace de toutes les applications de X dans F. On le note $\mathcal{C}'(X; F)$.
+5.3.1. Soient X une variété de classe C', F un espace polynormé séparé et f une application de X dans F. On dit que f est de classe C' si pour toute carte (V, $\varphi$, E) de X, l’application $f \circ \varphi^{-1}$ de $\varphi(V)$ dans F est de classe C'. Pour cela, il suffit que cette condition soit satisfaite pour les cartes d’un atlas de X. L’ensemble des applications de classe C' de X dans F forme un sous-espace vectoriel de l’espace de toutes les applications de X dans F. On le note $\mathscr{C}'(X; F)$.
 
-Lorsque F = K, on pose $\mathcal{C}'(X; K) = \mathcal{C}'(X)$; c’est une sous-K-algèbre de l’algèbre des applications de X dans K. Les éléments de $\mathcal{C}'(X)$ sont encore appelés fonctions morphiques.
+Lorsque F = K, on pose $\mathscr{C}'(X; K) = \mathscr{C}'(X)$; c’est une sous-K-algèbre de l’algèbre des applications de X dans K. Les éléments de $\mathscr{C}'(X)$ sont encore appelés fonctions morphiques.
 
 Lorsque X est un ouvert d’un espace de Banach, cette terminologie est en accord avec celle des n°s 2.3.1, 3.2.1 et 4.2.1.
 
-5.3.2. Soient X et Y deux variétés de classe C' et soit f une application de X dans Y. On dit que f est de classe C' ou est un morphisme de variétés (de classe C') si elle est continue et si, pour toute carte (V, $\psi$, F) de Y, l’application $\psi \circ f$ de la sous-variété ouverte $f^{-1}(V)$ dans l’espace de Banach F est de classe $C'$. Pour cela, il suffit qu’il existe un atlas $\mathcal{A}$ de Y tel que, pour toute carte $(V, \psi, F) \in \mathcal{A}$, l’ensemble $f^{-1}(V)$ soit ouvert dans X et que l’application $\psi \circ f$ de la sous-variété ouverte $f^{-1}(V)$ de X dans F soit de classe $C'$. L’ensemble des morphismes de X dans Y est noté $\mathcal{C}'(X; Y)$. Lorsque Y est un espace de Banach muni de sa structure canonique de variété, les définitions de 5.3.1. et 5.3.2 sont cohérentes. Une application de classe $C^\omega$ est aussi appelée *application K-analytique* (ou simplement analytique). Lorsque $K = \mathbf{C}$, on dit aussi application holomorphe.
+5.3.2. Soient X et Y deux variétés de classe C' et soit f une application de X dans Y. On dit que f est de classe C' ou est un morphisme de variétés (de classe C') si elle est continue et si, pour toute carte (V, $\psi$, F) de Y, l’application $\psi \circ f$ de la sous-variété ouverte $f^{-1}(V)$ dans l’espace de Banach F est de classe $C'$. Pour cela, il suffit qu’il existe un atlas $\mathscr{A}$ de Y tel que, pour toute carte $(V, \psi, F) \in \mathscr{A}$, l’ensemble $f^{-1}(V)$ soit ouvert dans X et que l’application $\psi \circ f$ de la sous-variété ouverte $f^{-1}(V)$ de X dans F soit de classe $C'$. L’ensemble des morphismes de X dans Y est noté $\mathscr{C}'(X; Y)$. Lorsque Y est un espace de Banach muni de sa structure canonique de variété, les définitions de 5.3.1. et 5.3.2 sont cohérentes. Une application de classe $C^\omega$ est aussi appelée *application K-analytique* (ou simplement analytique). Lorsque $K = \mathbf{C}$, on dit aussi application holomorphe.
 
 Soient $(U, \varphi, E)$ une carte de X et $(V, \psi, F)$ une carte de Y telles que $f(U) \subset V$. L’application $\psi \circ f \circ \varphi^{-1}$ de l’ouvert $\varphi(U)$ de E dans l’ouvert $\psi(V)$ de F est appelée *l’expression de f* dans les cartes données.
 
@@ -185,7 +185,7 @@ Soit $E$ un espace de Banach ; considérons la propriété suivante :
 
 (PU) *Quels que soient les sous-ensembles fermés disjoints* $A$ *et* $B$ *de* $E$, *il existe une fonction* $f$ *de classe* $C'$ *sur* $E$, *à valeurs dans* $\mathbf{R}$, *telle que* $f(x) = 0$ *pour* $x \in A$, $f(x) = 1$ *pour* $x \in B$ *et* $0 \leq f(x) \leq 1$ *pour tout* $x \in E$.
 
-Si $\mathcal{S}$ est un ensemble d’espaces de Banach possédant la propriété (PU), toute variété paracompacte de type $\mathcal{S}$ admet des partitions de l’unité de classe $C'$.
+Si $\mathscr{S}$ est un ensemble d’espaces de Banach possédant la propriété (PU), toute variété paracompacte de type $\mathscr{S}$ admet des partitions de l’unité de classe $C'$.
 
 Tout espace de dimension finie, tout espace hilbertien de type dénombrable possède la propriété (PU).
 
@@ -195,27 +195,27 @@ Tout espace de dimension finie, tout espace hilbertien de type dénombrable poss
 
 ### 5.4. Caractérisation des variétés par leurs faisceaux de fonctions
 
-5.4.1. Soit $X$ un espace topologique, et soit $Y$ un ensemble. Supposons donné, pour tout ouvert $U$ de $X$, un ensemble $\mathcal{L}(U)$ d’applications de $U$ dans $Y$. Nous dirons que la famille $\mathcal{L} = \{\mathcal{L}(U)\}$ est un *faisceau de fonctions à valeurs dans* $Y$ si elle vérifie la condition suivante :
+5.4.1. Soit $X$ un espace topologique, et soit $Y$ un ensemble. Supposons donné, pour tout ouvert $U$ de $X$, un ensemble $\mathscr{L}(U)$ d’applications de $U$ dans $Y$. Nous dirons que la famille $\mathscr{L} = \{\mathscr{L}(U)\}$ est un *faisceau de fonctions à valeurs dans* $Y$ si elle vérifie la condition suivante :
 
-*Soit* $(U_i)_{i \in I}$ *une famille d’ouverts de* $X$, *de réunion* $U$, *et soit* $f$ *une application de* $U$ *dans* $Y$; *pour que* $f$ *appartienne à* $\mathcal{L}(U)$, *il faut et il suffit que* $f|U_i$ *appartienne à* $\mathcal{L}(U_i)$ *pour tout* $i$ *dans* $I$.
+*Soit* $(U_i)_{i \in I}$ *une famille d’ouverts de* $X$, *de réunion* $U$, *et soit* $f$ *une application de* $U$ *dans* $Y$; *pour que* $f$ *appartienne à* $\mathscr{L}(U)$, *il faut et il suffit que* $f|U_i$ *appartienne à* $\mathscr{L}(U_i)$ *pour tout* $i$ *dans* $I$.
 
-5.4.2. Soient $X$ et $Y$ deux variétés ; pour tout ouvert $U \subset X$, soit $\mathcal{L}(U)$ l’ensemble des morphismes de $U$ dans $Y$; alors $\mathcal{L}$ est un faisceau de fonctions à valeurs dans $Y$.
+5.4.2. Soient $X$ et $Y$ deux variétés ; pour tout ouvert $U \subset X$, soit $\mathscr{L}(U)$ l’ensemble des morphismes de $U$ dans $Y$; alors $\mathscr{L}$ est un faisceau de fonctions à valeurs dans $Y$.
 
-Lorsque $Y = K$, on note $\mathcal{C}_X^{r'}$ le faisceau ainsi défini.
+Lorsque $Y = K$, on note $\mathscr{C}_X^{r'}$ le faisceau ainsi défini.
 
-5.4.3. Soit $X$ un espace topologique et soit $\mathcal{S}$ un ensemble d’espaces de Banach. Pour tout $E \in \mathcal{S}$, soit $\mathcal{F}_E$ un faisceau de fonctions sur $X$ à valeurs dans $E$. Supposons que la famille des $\mathcal{F}_E$, pour $E \in \mathcal{S}$, vérifie la condition suivante :
+5.4.3. Soit $X$ un espace topologique et soit $\mathscr{S}$ un ensemble d’espaces de Banach. Pour tout $E \in \mathscr{S}$, soit $\mathscr{F}_E$ un faisceau de fonctions sur $X$ à valeurs dans $E$. Supposons que la famille des $\mathscr{F}_E$, pour $E \in \mathscr{S}$, vérifie la condition suivante :
 
 Pour tout $x \in X$, il existe un voisinage ouvert $U$ de $x$, un espace
 
-$E_0 \in \mathcal{S}$, et un homéomorphisme $\varphi$ de U sur un ouvert de E_0, tels que, pour tout ouvert $V \subset U$ et tout $E \in \mathcal{S}$, l’ensemble $\mathcal{F}_E(V)$ se compose des fonctions $g \circ \varphi$, où $g$ parcourt l’espace $\mathcal{C}^r(\varphi(V); E)$.
+$E_0 \in \mathscr{S}$, et un homéomorphisme $\varphi$ de U sur un ouvert de E_0, tels que, pour tout ouvert $V \subset U$ et tout $E \in \mathscr{S}$, l’ensemble $\mathscr{F}_E(V)$ se compose des fonctions $g \circ \varphi$, où $g$ parcourt l’espace $\mathscr{C}^r(\varphi(V); E)$.
 
-Il existe alors sur X une structure de variété de classe $C^r$ et de type $\mathcal{S}$ et une seule, compatible avec la topologie donnée sur X et pour laquelle $\mathcal{F}_E$ est le faisceau des fonctions de classe $C^r$ sur X à valeurs dans E.
+Il existe alors sur X une structure de variété de classe $C^r$ et de type $\mathscr{S}$ et une seule, compatible avec la topologie donnée sur X et pour laquelle $\mathscr{F}_E$ est le faisceau des fonctions de classe $C^r$ sur X à valeurs dans E.
 
-5.4.4. Soit X un espace topologique et soit $\mathcal{F}$ un faisceau de fonctions à valeurs dans K, vérifiant la condition suivante : pour tout point x de X, il existe un entier n, un voisinage ouvert U de x et un homéomorphisme $\varphi$ de U sur un ouvert de $K^n$, tels que, pour tout ouvert V de U, l’ensemble $\mathcal{F}(V)$ se compose des fonctions $g \circ \varphi$ où $g$ parcourt l’ensemble des fonctions de classe $C^r$ à valeurs dans K sur l’ouvert $\varphi(V)$ de $K^n$.
+5.4.4. Soit X un espace topologique et soit $\mathscr{F}$ un faisceau de fonctions à valeurs dans K, vérifiant la condition suivante : pour tout point x de X, il existe un entier n, un voisinage ouvert U de x et un homéomorphisme $\varphi$ de U sur un ouvert de $K^n$, tels que, pour tout ouvert V de U, l’ensemble $\mathscr{F}(V)$ se compose des fonctions $g \circ \varphi$ où $g$ parcourt l’ensemble des fonctions de classe $C^r$ à valeurs dans K sur l’ouvert $\varphi(V)$ de $K^n$.
 
-Il existe alors sur X une structure de variété localement de dimension finie et de classe $C^r$ et une seule telle que $\mathcal{F} = \mathcal{C}^r_X$.
+Il existe alors sur X une structure de variété localement de dimension finie et de classe $C^r$ et une seule telle que $\mathscr{F} = \mathscr{C}^r_X$.
 
-5.4.5. Soient X et X' deux variétés de classe $C^r$, localement de dimension finie, et soit $f$ une application continue de X dans X'. Pour que $f$ soit un morphisme, il faut et il suffit que pour tout ouvert U' de X' et toute fonction $g \in \mathcal{C}^r(U'; K)$, la fonction $g \circ f$ appartienne à $\mathcal{C}^r(U; K)$, avec $U = f^{-1}(U')$.
+5.4.5. Soient X et X' deux variétés de classe $C^r$, localement de dimension finie, et soit $f$ une application continue de X dans X'. Pour que $f$ soit un morphisme, il faut et il suffit que pour tout ouvert U' de X' et toute fonction $g \in \mathscr{C}^r(U'; K)$, la fonction $g \circ f$ appartienne à $\mathscr{C}^r(U; K)$, avec $U = f^{-1}(U')$.
 
 ### 5.5. Espaces tangents, applications linéaires tangentes
 

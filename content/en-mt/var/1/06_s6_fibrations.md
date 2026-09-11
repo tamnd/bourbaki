@@ -40,11 +40,11 @@ subsections:
       pdf_page: 67
 statements: 0
 exercises: 0
-content_sha256: a242e363f8011bc48188d01d98463e2608dfef2f362a989490fe9ffa9cfa9701
+content_sha256: a183867de65a8fa6cea85978f9651d6b845223b9a9909831c8d5a170058472e8
 translated_from: content/fr/var/1/06_s6_fibrations.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 041a801bb9638dc98ed267f9a74ade144cc09841cb4d2f742e4682ab57d1cafb
+source_content_sha256: 00b251155a4874c9918fb24223bf37e1b46b0daef7c4fea0216299d52c688e47
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-83e29116
 glossary_version: 34
@@ -149,9 +149,9 @@ When $B'$ is a subvariety of $B$, and $h$ the canonical injection of $B'$ into $
 
 ### 6.4. Construction of principal fibrations by means of cocycles
 
-Let B be a variety, G a group variety and let $\mathcal{U} = (U_i)_{i \in I}$ be an open covering of B.
+Let B be a variety, G a group variety and let $\mathscr{U} = (U_i)_{i \in I}$ be an open covering of B.
 
-6.4.1. A cocycle of class $C^r$ on B with values in G, subordinate to $\mathcal{U}$, is called a family $(g_{i,j})_{(i,j) \in I \times I}$ possessing the following two properties:
+6.4.1. A cocycle of class $C^r$ on B with values in G, subordinate to $\mathscr{U}$, is called a family $(g_{i,j})_{(i,j) \in I \times I}$ possessing the following two properties:
 (1) for every pair $(i,j) \in I \times I$, $g_{i,j}$ is a mapping of class $C^r$ from the open set $U_i \cap U_j$ of B into G;
 (2) for every triplet $(i,j,k) \in I^3$, one has
 $$
@@ -168,18 +168,18 @@ $$
 $$
 s_j(b) = s_i(b) \cdot g_{i,j}(b) \quad \text{for all } b \in U_i \cap U_j.
 $$
-The family of the $g_{i,j}$ is a cocycle on B with values in G, subordinate to the open covering $\mathcal{U}$. This cocycle is said to be associated with the object $(\lambda, \mathcal{U}, (s_i)_{i \in I})$ and the mappings $g_{i,j}$ are called the transition functions of this object.
+The family of the $g_{i,j}$ is a cocycle on B with values in G, subordinate to the open covering $\mathscr{U}$. This cocycle is said to be associated with the object $(\lambda, \mathscr{U}, (s_i)_{i \in I})$ and the mappings $g_{i,j}$ are called the transition functions of this object.
 For $i \in I$, let $x \mapsto (\pi(x), f_i(x))$ be the trivialization defined by the section $s_i$ of $\lambda|U_i$ (6.3.2). For $x \in \pi^{-1}(U_i \cap U_j)$, one has:
 (5)
 $$
 f_i(x) = g_{i,j}(\pi(x)) \cdot f_j(x).
 $$
 
-6.4.3. Conversely, let $g = (g_{i,j})$ be a cocycle on B with values in G, subordinate to the covering $\mathcal{U}$. There exists then a principal fibration $\lambda = (P, G, B, \pi)$ and a family of sections $(s_i)_{i \in I}$ of $\lambda$ over the $U_i$, such that relation (4) is satisfied. The same is then true of (5). If moreover $(\lambda', (s'_i))$ satisfies the same conditions, there exists a unique G-B-isomorphism $f$ of $\lambda$ onto $\lambda'$ such that $s'_i = f \circ s_i$ for every $i \in I$. This result is expressed by saying that $(\lambda, (s_i))$ is determined up to a unique isomorphism by the cocycle $g$.
+6.4.3. Conversely, let $g = (g_{i,j})$ be a cocycle on B with values in G, subordinate to the covering $\mathscr{U}$. There exists then a principal fibration $\lambda = (P, G, B, \pi)$ and a family of sections $(s_i)_{i \in I}$ of $\lambda$ over the $U_i$, such that relation (4) is satisfied. The same is then true of (5). If moreover $(\lambda', (s'_i))$ satisfies the same conditions, there exists a unique G-B-isomorphism $f$ of $\lambda$ onto $\lambda'$ such that $s'_i = f \circ s_i$ for every $i \in I$. This result is expressed by saying that $(\lambda, (s_i))$ is determined up to a unique isomorphism by the cocycle $g$.
 
-6.4.4. Let $\lambda = (P, G, B, \pi)$ and $\lambda' = (P', G, B, \pi')$ be two principal fibrations. Let $(s_i)$ (resp. $(s'_i)$) be a family of sections of $\lambda$ (resp. $\lambda'$) over the $U_i$ and let $g$ (resp. $g'$) be the cocycle associated with $(\lambda, \mathcal{U}, (s_i))$ (resp. $(\lambda', \mathcal{U}, (s'_i))$). For $\lambda$ and $\lambda'$ to be G-B-isomorphic, it is necessary and sufficient that the cocycles $g$ and $g'$ be cohomologous. More precisely, for every G-B-isomorphism $f$ of $\lambda$ onto $\lambda'$, there exists one and only one family $(h_i)_{i \in I}$ of morphisms of the $U_i$ into $G$ such that relation (3) is satisfied and such that one has $f \circ (s'_i(x)) = s_i(x) \cdot h_i(x)$ for every $i \in I$ and every $x \in U_i$, and one thus obtains a bijection of the set of G-B-isomorphisms of $\lambda$ onto $\lambda'$ onto the set of families $(h_i)_{i \in I}$ satisfying (3).
+6.4.4. Let $\lambda = (P, G, B, \pi)$ and $\lambda' = (P', G, B, \pi')$ be two principal fibrations. Let $(s_i)$ (resp. $(s'_i)$) be a family of sections of $\lambda$ (resp. $\lambda'$) over the $U_i$ and let $g$ (resp. $g'$) be the cocycle associated with $(\lambda, \mathscr{U}, (s_i))$ (resp. $(\lambda', \mathscr{U}, (s'_i))$). For $\lambda$ and $\lambda'$ to be G-B-isomorphic, it is necessary and sufficient that the cocycles $g$ and $g'$ be cohomologous. More precisely, for every G-B-isomorphism $f$ of $\lambda$ onto $\lambda'$, there exists one and only one family $(h_i)_{i \in I}$ of morphisms of the $U_i$ into $G$ such that relation (3) is satisfied and such that one has $f \circ (s'_i(x)) = s_i(x) \cdot h_i(x)$ for every $i \in I$ and every $x \in U_i$, and one thus obtains a bijection of the set of G-B-isomorphisms of $\lambda$ onto $\lambda'$ onto the set of families $(h_i)_{i \in I}$ satisfying (3).
 
-6.4.5. Let us take up again the notations of 6.4.2. and let $\mathcal{V} = (V_\alpha)_{\alpha \in A}$ be an open covering finer than the open covering $\mathcal{U}$. Let $\tau : A \to I$ be a mapping such that $V_\alpha \subset U_{\tau(\alpha)}$ for every $\alpha \in A$. Let $s'_\alpha$ be the restriction to $V_\alpha$ of the section $s_{\tau(\alpha)}$ and let $g' = (g'_{\alpha,\beta})$ be the cocycle subordinate to the open covering $\mathcal{V}$ associated with $(\lambda, \mathcal{V}, (s'_\alpha))$. The transition function $g'_{\alpha,\beta}$ is then the restriction to $V_\alpha \cap V_\beta$ of the transition function $g_{\tau(\alpha), \tau(\beta)}$.
+6.4.5. Let us take up again the notations of 6.4.2. and let $\mathscr{V} = (V_\alpha)_{\alpha \in A}$ be an open covering finer than the open covering $\mathscr{U}$. Let $\tau : A \to I$ be a mapping such that $V_\alpha \subset U_{\tau(\alpha)}$ for every $\alpha \in A$. Let $s'_\alpha$ be the restriction to $V_\alpha$ of the section $s_{\tau(\alpha)}$ and let $g' = (g'_{\alpha,\beta})$ be the cocycle subordinate to the open covering $\mathscr{V}$ associated with $(\lambda, \mathscr{V}, (s'_\alpha))$. The transition function $g'_{\alpha,\beta}$ is then the restriction to $V_\alpha \cap V_\beta$ of the transition function $g_{\tau(\alpha), \tau(\beta)}$.
 
 ### 6.5. Fibre spaces associated with a principal fibration
 
@@ -244,7 +244,7 @@ and let E be the fibre space associated with $\lambda \times_B \lambda'$ of fibr
 
 The mapping $f$ of P into $P \times^G H$ which associates with $x \in P$ the class of $(x, e)$ is a B-morphism of P into $P \times^G H$ compatible with $\varphi$ (cf. No. 6.3.1). Moreover, if $f'$ is a B-morphism of P into a principal fiber space $P'$ with structural group H, and if $f'$ is compatible with $\varphi$, there exists a unique H-B-isomorphism $\theta$ of $P \times^G H$ onto $P'$ such that $f' = \theta \circ f$.
 
-6.6.2. Suppose that $\lambda$ is defined by means of an open covering $\mathcal{V} = (U_i)$ of B and a cocycle $(g_{ij})$ (6.4.2). Then $\varphi(\lambda)$ can be defined by means of the same covering and the cocycle $(h_{ij})$, with $h_{ij} = \varphi \circ g_{ij}$.
+6.6.2. Suppose that $\lambda$ is defined by means of an open covering $\mathscr{V} = (U_i)$ of B and a cocycle $(g_{ij})$ (6.4.2). Then $\varphi(\lambda)$ can be defined by means of the same covering and the cocycle $(h_{ij})$, with $h_{ij} = \varphi \circ g_{ij}$.
 
 6.6.3. Let F be a variety on which the group H operates on the left; we denote by $(h, y) \mapsto h . y$ the law of operation of H on F. The group G operates on F by $(g, y) \mapsto \varphi(g) . y$. Let E be a fiber space associated with $\varphi(\lambda)$ of fiber type F. The mapping $(x, y) \mapsto f(x) . y$ of $P \times F$ into E (the mapping $f$ being the one defined in No. 6.6.1) endows E with a structure of fiber space associated with $\lambda$ of fiber type F. In particular, $(P \times^G H) \times^H F$ is canonically identified with $P \times^G F$.
 

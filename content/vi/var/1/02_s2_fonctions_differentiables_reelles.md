@@ -36,11 +36,11 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: 0f192b690e3e38950cb10334485d6a3c0684dac06bb908f1ac2492489d10785e
+content_sha256: 76db0326123312966c58487dd159a63201cdb8a0c19572d9646068167aa34414
 translated_from: content/en-mt/var/1/02_s2_fonctions_differentiables_reelles.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: df93b3eccc63eeaac231d190cc93798443c258ceb9af58b543930f3e95d373a4
+source_content_sha256: f9d8aa3483b1330ab2cf03eeaac17a168541f73161ff682dc759fc94867f40d3
 translation_model: gpt-5-mini
 translation_run: translate-vi-c4b9425c
 glossary_version: 34
@@ -54,7 +54,7 @@ Trong đoạn này, giả sử rằng K = R. Chữ E ký hiệu một không gia
 
 ### 2.1. Các hàm khả vi tại một điểm
 
-2.1.1. Cho f là một hàm xác định trong một lân cận của một điểm x_0 của E và có các giá trị trong F. Cho u là một phần tử của không gian $\mathcal{L}(E; F)$ gồm các ánh xạ tuyến tính liên tục từ E vào F. Để f khả vi tại x_0 và nhận u tại đó làm đạo hàm, điều kiện cần và đủ là có
+2.1.1. Cho f là một hàm xác định trong một lân cận của một điểm x_0 của E và có các giá trị trong F. Cho u là một phần tử của không gian $\mathscr{L}(E; F)$ gồm các ánh xạ tuyến tính liên tục từ E vào F. Để f khả vi tại x_0 và nhận u tại đó làm đạo hàm, điều kiện cần và đủ là có
 $$
 \lim_{h \to 0, h \neq 0} \frac{f(x_0 + h) - f(x_0) - u(h)}{\|h\|} = 0.
 $$
@@ -91,7 +91,7 @@ F, nhận đạo hàm không tại mọi điểm của U; khi đó $f$ là hằn
 
 2.3.1. Cho U là một tập hợp mở của E và cho $f$ là một ánh xạ từ U vào F. Ta định nghĩa quan hệ “$f$ thuộc lớp $C^r$” (với $r \in \mathbf{N}$) bằng quy nạp theo $r$ theo cách sau:
     1) $f$ thuộc lớp $C^0$ khi và chỉ khi nó liên tục;
-    2) nếu $r$ là một số nguyên $\geqslant 1$, hàm $f$ thuộc lớp $C^r$ khi và chỉ khi nó khả vi tại mọi điểm của U và ánh xạ đạo hàm $Df$ từ U vào $\mathcal{L}(E; F)$ thuộc lớp $C^{r-1}$.
+    2) nếu $r$ là một số nguyên $\geqslant 1$, hàm $f$ thuộc lớp $C^r$ khi và chỉ khi nó khả vi tại mọi điểm của U và ánh xạ đạo hàm $Df$ từ U vào $\mathscr{L}(E; F)$ thuộc lớp $C^{r-1}$.
 
 Các hàm thuộc lớp $C^r$ còn được gọi là *các hàm khả vi liên tục r lần*.
 
@@ -99,15 +99,15 @@ Ta nói rằng $f$ *thuộc lớp $C^{\infty}$* (hay *khả vi vô hạn*) nếu
 
 Nếu $f$ thuộc lớp $C^r$ trong U, thì $f$ khả vi $p$ lần với mọi số nguyên $p \leqslant r$ và hàm $D^p f$ thuộc lớp $C^{r-p}$.
 
-2.3.2. Các ánh xạ thuộc lớp $C^r$ từ một tập hợp mở U của E vào F tạo thành một không gian con vectơ $\mathcal{C}^r(U; F)$ của không gian gồm tất cả các ánh xạ từ U vào F. Ta có $\mathcal{C}^s(U; F) \subset \mathcal{C}^r(U; F)$ với $s \geqslant r$.
+2.3.2. Các ánh xạ thuộc lớp $C^r$ từ một tập hợp mở U của E vào F tạo thành một không gian con vectơ $\mathscr{C}^r(U; F)$ của không gian gồm tất cả các ánh xạ từ U vào F. Ta có $\mathscr{C}^s(U; F) \subset \mathscr{C}^r(U; F)$ với $s \geqslant r$.
 
 2.3.3. Để một hàm $f$ thuộc lớp $C^1$ trong một tập hợp mở U của E, điều kiện cần và đủ là nó khả vi nghiêm ngặt tại mọi điểm của U.
 
 Nếu E là một tích của các không gian định chuẩn $E_i$, một ánh xạ $f$ từ một tập hợp mở V của E vào F thuộc lớp $C^r$ khi và chỉ khi $f$ có các đạo hàm riêng lặp liên tục $D_{i_1} \ldots D_{i_m} f$ với mọi số nguyên $m \leqslant r$.
 
-2.3.4. Cho G là một không gian định chuẩn và cho U là một tập hợp mở của E. Cho V là một tập hợp mở của G, $g \in \mathcal{C}^r(U; G)$ và $f \in \mathcal{C}^r(V; F)$. Nếu $g(U) \subset V$, ánh xạ $f \circ g$ từ U vào F thuộc lớp $C^r$.
+2.3.4. Cho G là một không gian định chuẩn và cho U là một tập hợp mở của E. Cho V là một tập hợp mở của G, $g \in \mathscr{C}^r(U; G)$ và $f \in \mathscr{C}^r(V; F)$. Nếu $g(U) \subset V$, ánh xạ $f \circ g$ từ U vào F thuộc lớp $C^r$.
 
-Cho $F_1$ và $F_2$ là hai không gian lồi địa phương tách được và cho $u$ là một ánh xạ song tuyến tính từ $F_1 \times F_2$ vào F, nửa liên tục đều đối với tập hợp các phần bị chặn của $F_1$ (tương ứng $F_2$) (Esp. Vect. Top., ch. III, § 4, n° 2). Cho U là một tập hợp mở của E và $f_i \in \mathcal{C}^r(U; F_i)$ (với $i = 1, 2$). Khi đó hàm $u(f_1, f_2)$ thuộc về $\mathcal{C}^r(U; F)$. Nếu E có số chiều hữu hạn, chỉ cần giả sử rằng $u$ thỏa mãn điều kiện (SC) của n° 2.1.3.
+Cho $F_1$ và $F_2$ là hai không gian lồi địa phương tách được và cho $u$ là một ánh xạ song tuyến tính từ $F_1 \times F_2$ vào F, nửa liên tục đều đối với tập hợp các phần bị chặn của $F_1$ (tương ứng $F_2$) (Esp. Vect. Top., ch. III, § 4, n° 2). Cho U là một tập hợp mở của E và $f_i \in \mathscr{C}^r(U; F_i)$ (với $i = 1, 2$). Khi đó hàm $u(f_1, f_2)$ thuộc về $\mathscr{C}^r(U; F)$. Nếu E có số chiều hữu hạn, chỉ cần giả sử rằng $u$ thỏa mãn điều kiện (SC) của n° 2.1.3.
 
 2.3.5. Nếu E là một tích của các không gian định chuẩn $E_i$ ($1 \leq i \leq n$) và nếu $f$ là một ánh xạ $n$-tuyến tính liên tục từ E vào F, thì $f$ thuộc lớp $C^\infty$ và ta có $D^p f = 0$ với $p \geq n + 1$.
 
@@ -177,7 +177,7 @@ $$
 
 2.5.4. Cho $f$ và $g$ là hai hàm thuộc lớp $C^r$ trên một tập con mở $U$ của $E$, với các giá trị trong $F$. Để $f$ và $g$ có tại một điểm $x$ của $U$ một sự tiếp xúc cấp $\geq r$, điều kiện cần và đủ là có $D^p f(x) = D^p g(x)$ với mọi số nguyên $p$ thỏa mãn $0 \leq p \leq r$. Khi $E$ là hữu hạn chiều, điều này tương đương với việc nói rằng các đạo hàm riêng lặp của cấp $\leq r$ của $f$ và $g$ (đối với một cơ sở của $E$) bằng nhau tại điểm $x$.
 
-2.5.5. Cho $U$ là một tập con mở của $E \times \mathbf{R}^n$ có dạng $V \times I_1 \times \cdots \times I_n$, trong đó $V$ là một tập con mở của $E$ và $I_1, \ldots, I_n$ là các khoảng mở của $\mathbf{R}$ chứa 0. Đặt $U_0 = V$ và $U_j = V \times I_1 \times \cdots \times I_j$ với $1 \leq j \leq n$. Cho một hàm $f \in \mathcal{C}^r(U; F)$ (với $1 \leq r \leq \infty$), tồn tại một và chỉ một dãy các hàm $f_j \in \mathcal{C}^{r-1}(U_j; F)$ (với $0 \leq j \leq n$) sao cho:
+2.5.5. Cho $U$ là một tập con mở của $E \times \mathbf{R}^n$ có dạng $V \times I_1 \times \cdots \times I_n$, trong đó $V$ là một tập con mở của $E$ và $I_1, \ldots, I_n$ là các khoảng mở của $\mathbf{R}$ chứa 0. Đặt $U_0 = V$ và $U_j = V \times I_1 \times \cdots \times I_j$ với $1 \leq j \leq n$. Cho một hàm $f \in \mathscr{C}^r(U; F)$ (với $1 \leq r \leq \infty$), tồn tại một và chỉ một dãy các hàm $f_j \in \mathscr{C}^{r-1}(U_j; F)$ (với $0 \leq j \leq n$) sao cho:
 
 $$
 f(x, t_1, \ldots, t_n) = f_0(x) + \sum_{j=1}^n t_j f_j(x, t_1, \ldots, t_j)
@@ -196,11 +196,11 @@ với $1 \leq j \leq n$. Trong công thức cuối này, $\partial_j f$ ký hi�
 
 ### 2.6. Các tiêu chuẩn về khả vi
 
-2.6.1. Giả sử rằng $F$, ngoài tôpô $\mathcal{T}$ của nó, còn được trang bị một tôpô kém mịn hơn $\mathcal{T}'$, tôpô này cũng làm cho $F$ trở thành một không gian lồi địa phương tách được. Hơn nữa, giả sử rằng $\mathcal{T}$ và $\mathcal{T}'$ thỏa mãn điều kiện sau:
-(S) Với mỗi lân cận $V$ của 0 đối với tôpô $\mathcal{T}$, tồn tại một lân cận $W$ của 0 đối với $\mathcal{T}$ sao cho bao lồi đóng đối với $\mathcal{T}'$ của mỗi tập con compact đối với $\mathcal{T}$ của $W$ được chứa trong $V$.
+2.6.1. Giả sử rằng $F$, ngoài tôpô $\mathscr{T}$ của nó, còn được trang bị một tôpô kém mịn hơn $\mathscr{T}'$, tôpô này cũng làm cho $F$ trở thành một không gian lồi địa phương tách được. Hơn nữa, giả sử rằng $\mathscr{T}$ và $\mathscr{T}'$ thỏa mãn điều kiện sau:
+(S) Với mỗi lân cận $V$ của 0 đối với tôpô $\mathscr{T}$, tồn tại một lân cận $W$ của 0 đối với $\mathscr{T}$ sao cho bao lồi đóng đối với $\mathscr{T}'$ của mỗi tập con compact đối với $\mathscr{T}$ của $W$ được chứa trong $V$.
 
-Cho $f$ là một ánh xạ từ một tập hợp mở $U$ của $E$ vào $F$. Giả sử rằng $f$ thuộc lớp $C^r$ ($1 \leq r \leq \infty$) khi $F$ được trang bị tôpô $\mathcal{T}'$, rằng $D^m f(x)$ là, với mọi $x$ của $U$, và mọi số nguyên $m \leq r$, một ánh xạ đa tuyến tính liên tục từ $E^m$ vào $F$ được trang bị tôpô $\mathcal{T}$ và rằng ánh xạ $x \mapsto D^m f(x)$ là liên tục từ $U$ vào $\mathcal{L}_m(E; F)$ ($F$ được trang bị tôpô $\mathcal{T}$). Khi đó $f$ thuộc lớp $C^r$ khi $F$ được trang bị tôpô $\mathcal{T}$ và các đạo hàm $D^m f$ của nó là như nhau đối với $\mathcal{T}$ và đối với $\mathcal{T}'$.
+Cho $f$ là một ánh xạ từ một tập hợp mở $U$ của $E$ vào $F$. Giả sử rằng $f$ thuộc lớp $C^r$ ($1 \leq r \leq \infty$) khi $F$ được trang bị tôpô $\mathscr{T}'$, rằng $D^m f(x)$ là, với mọi $x$ của $U$, và mọi số nguyên $m \leq r$, một ánh xạ đa tuyến tính liên tục từ $E^m$ vào $F$ được trang bị tôpô $\mathscr{T}$ và rằng ánh xạ $x \mapsto D^m f(x)$ là liên tục từ $U$ vào $\mathscr{L}_m(E; F)$ ($F$ được trang bị tôpô $\mathscr{T}$). Khi đó $f$ thuộc lớp $C^r$ khi $F$ được trang bị tôpô $\mathscr{T}$ và các đạo hàm $D^m f$ của nó là như nhau đối với $\mathscr{T}$ và đối với $\mathscr{T}'$.
 
-Điều kiện (S) đặc biệt được thỏa mãn nếu tồn tại một hệ cơ bản các lân cận của 0 đối với tôpô $\mathcal{T}$ đóng đối với tôpô $\mathcal{T}'$: đây là trường hợp nếu đối ngẫu của $F$ được trang bị $\mathcal{T}$ đồng nhất với đối ngẫu của $F$ được trang bị $\mathcal{T}'$. Điều kiện (S) cũng được thỏa mãn nếu $F$ được trang bị tôpô $\mathcal{T}$ là gần đầy đủ (*Esp. Vect. Top.*, Ch. III, § 2, No. 5).
+Điều kiện (S) đặc biệt được thỏa mãn nếu tồn tại một hệ cơ bản các lân cận của 0 đối với tôpô $\mathscr{T}$ đóng đối với tôpô $\mathscr{T}'$: đây là trường hợp nếu đối ngẫu của $F$ được trang bị $\mathscr{T}$ đồng nhất với đối ngẫu của $F$ được trang bị $\mathscr{T}'$. Điều kiện (S) cũng được thỏa mãn nếu $F$ được trang bị tôpô $\mathscr{T}$ là gần đầy đủ (*Esp. Vect. Top.*, Ch. III, § 2, No. 5).
 
 2.6.2. Cho $f$ là một ánh xạ từ một tập hợp mở $U$ của $E$ vào $F$. Nếu $f$ thuộc lớp $C^r$ (với $0 \leq r \leq \infty$), các hàm vô hướng $u \circ f$ thuộc lớp $C^r$ với mọi dạng tuyến tính liên tục $u$ trên $F$. Ngược lại nếu $F$ là gần đầy đủ và nếu các hàm $u \circ f$ thuộc lớp $C^{r+1}$ với mọi $u \in F'$, thì $f$ thuộc lớp $C^r$.

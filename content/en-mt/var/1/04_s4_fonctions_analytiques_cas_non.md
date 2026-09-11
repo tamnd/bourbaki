@@ -24,11 +24,11 @@ subsections:
       pdf_page: 32
 statements: 0
 exercises: 0
-content_sha256: 80985f908999f00f998e02079336ec6d5e99b09bf471da981e8d65cac53291cf
+content_sha256: 09811a21480fe4aa26977a056bd211dc4833cd653363856d3a464bdc1b20b28b
 translated_from: content/fr/var/1/04_s4_fonctions_analytiques_cas_non.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 6c33d48ae550ea870abdc7669dc0ffa3b18d55302bafba43eeb9d2a04fcc67f0
+source_content_sha256: e90a0fb56b8885aa3f5ad72d383f1bf4a5de49b4dd9ab0cf77d37a6991562aa9
 translation_model: gpt-5-6
 translation_run: translate-en-mt-bf2986a6
 glossary_version: 34
@@ -57,10 +57,10 @@ $$
 The definitions and results of No. 3.1.1 (second paragraph) and No. 3.1.2 apply without change; in particular, we define the spaces
 
 $$
-\mathcal{H}_R(E_1, \ldots, E_n; F) \quad \text{and} \quad \mathcal{H}(E_1, \ldots, E_n; F).
+\mathscr{H}_R(E_1, \ldots, E_n; F) \quad \text{and} \quad \mathscr{H}(E_1, \ldots, E_n; F).
 $$
 
-4.1.2. The canonical isomorphism $j$ of $\hat{P}(E; F)$ onto $\hat{P}(E_1, \ldots, E_n; F)$ gives, by restriction, an isomorphism of topological vector spaces of $\mathcal{H}_R(E; F)$ onto $\mathcal{H}_{(R, \ldots, R)}(E_1, \ldots, E_n; F)$ for every $R \in \mathbf{R}_+^*$; it also gives an isomorphism of $\mathcal{H}(E; F)$ onto $\mathcal{H}(E_1, \ldots, E_n; F)$. More precisely, if $f = \sum_m f_m \in \hat{P}(E; F)$ and if $j(f) = \sum_a f_a$, one has, for every continuous seminorm $\gamma$ on F:
+4.1.2. The canonical isomorphism $j$ of $\hat{P}(E; F)$ onto $\hat{P}(E_1, \ldots, E_n; F)$ gives, by restriction, an isomorphism of topological vector spaces of $\mathscr{H}_R(E; F)$ onto $\mathscr{H}_{(R, \ldots, R)}(E_1, \ldots, E_n; F)$ for every $R \in \mathbf{R}_+^*$; it also gives an isomorphism of $\mathscr{H}(E; F)$ onto $\mathscr{H}(E_1, \ldots, E_n; F)$. More precisely, if $f = \sum_m f_m \in \hat{P}(E; F)$ and if $j(f) = \sum_a f_a$, one has, for every continuous seminorm $\gamma$ on F:
 
 $$
 \|f_m\|_\gamma = \sup_{|\alpha|=m} \|f_\alpha\|_\gamma
@@ -69,7 +69,7 @@ $$
 \|f\|_{\gamma, R} = \|j(f)\|_{\gamma, (R, \ldots, R)}.
 $$
 
-4.1.3. Let $f = \sum_a f_a$ be an element of $\mathcal{H}(E_1, \ldots, E_n; F)$; let $I(f)$ be the set of $R \in (\mathbf{R}_+^*)^n$ such that, for every continuous seminorm $\gamma$ on F, the product $\|f_\alpha\|_\gamma R^\alpha$ tends to zero when $|\alpha|$ tends to infinity. The set $I(f)$ is nonempty; it is called the strict convergence indicator of $f$. The set $\Omega(f)$ of the points
+4.1.3. Let $f = \sum_a f_a$ be an element of $\mathscr{H}(E_1, \ldots, E_n; F)$; let $I(f)$ be the set of $R \in (\mathbf{R}_+^*)^n$ such that, for every continuous seminorm $\gamma$ on F, the product $\|f_\alpha\|_\gamma R^\alpha$ tends to zero when $|\alpha|$ tends to infinity. The set $I(f)$ is nonempty; it is called the strict convergence indicator of $f$. The set $\Omega(f)$ of the points
 
 $$(\log R_1, \ldots, \log R_n) \quad \text{for } R \in I(f)$$
 
@@ -87,15 +87,15 @@ B(R) = \{ x \in E \mid \|x_i\| \leq R_i \text{ for } 1 \leq i \leq n \},
 $$
 for $R \in I(f)$.
 
-4.1.4. The results of 3.1.7 and 3.1.8 remain exact, on replacing everywhere $\tilde{C}(f)$ by $C(f)$ and $\tilde{\mathcal{H}}_R$ by $\mathcal{H}_R$.
+4.1.4. The results of 3.1.7 and 3.1.8 remain exact, on replacing everywhere $\tilde{C}(f)$ by $C(f)$ and $\tilde{\mathscr{H}}_R$ by $\mathscr{H}_R$.
 
-4.1.5. Let $F_1, \ldots, F_m$ be complete normed spaces and suppose that $F$ is quasi-complete. Let $f = (f_i)_{1 \leq i \leq m}$, with $f_i \in \mathcal{H}(E_1, \ldots, E_n; F_i)$ and let $g \in \mathcal{H}(F_1, \ldots, F_m; F)$, such that the point $(f_i(0))_{1 \leq i \leq m}$ of $E$ belong to the strict domain of convergence of $g$. Then, for every $\alpha \in \mathbf{N}^m$, the formal series $g_\alpha \circ f$ belong to $\mathcal{H}(E_1, \ldots, E_n; F)$ and the family of the $g_\alpha \circ f$ is summable in $\mathcal{H}(E_1, \ldots, E_n; F)$ (therefore *a fortiori* in $\hat{P}(E_1, \ldots, E_n; F)$). Its sum will be denoted by $g \circ f$.
+4.1.5. Let $F_1, \ldots, F_m$ be complete normed spaces and suppose that $F$ is quasi-complete. Let $f = (f_i)_{1 \leq i \leq m}$, with $f_i \in \mathscr{H}(E_1, \ldots, E_n; F_i)$ and let $g \in \mathscr{H}(F_1, \ldots, F_m; F)$, such that the point $(f_i(0))_{1 \leq i \leq m}$ of $E$ belong to the strict domain of convergence of $g$. Then, for every $\alpha \in \mathbf{N}^m$, the formal series $g_\alpha \circ f$ belong to $\mathscr{H}(E_1, \ldots, E_n; F)$ and the family of the $g_\alpha \circ f$ is summable in $\mathscr{H}(E_1, \ldots, E_n; F)$ (therefore *a fortiori* in $\hat{P}(E_1, \ldots, E_n; F)$). Its sum will be denoted by $g \circ f$.
 
 More precisely, there exist $R \in \bigcap_i I(f_i)$ and $R' \in I(g)$ such that
 $$
 \sup_{|\alpha| > 0} \|f_{i,\alpha}\| R^\alpha < R'_i \quad (\text{for } 1 \leq i \leq m).
 $$
-Under these conditions the formal series $g_\alpha \circ f$ belong to $\mathcal{H}_R(E_1, \ldots, E_n; F)$ and the family of the $g_\alpha \circ f$ is summable in $\mathcal{H}_R(E_1, \ldots, E_n; F)$. Finally, if $x \in B(R)$, then $f(x) = (f_i(x))$ belong to $C(g)$ and one has:
+Under these conditions the formal series $g_\alpha \circ f$ belong to $\mathscr{H}_R(E_1, \ldots, E_n; F)$ and the family of the $g_\alpha \circ f$ is summable in $\mathscr{H}_R(E_1, \ldots, E_n; F)$. Finally, if $x \in B(R)$, then $f(x) = (f_i(x))$ belong to $C(g)$ and one has:
 $$
 g(f(x)) = (g \circ f)(x).
 $$
@@ -127,11 +127,11 @@ $$
 \|\tilde{f}_\alpha\|_i = \|f_\alpha\|_i.
 $$
 
-If $f = \sum f_\alpha \in \mathcal{H}(E_1, \ldots, E_n; F_K)$, then $\tilde{f} = \sum \tilde{f}_\alpha \in \mathcal{H}(E_1^L, \ldots, E_n^L; F)$.
+If $f = \sum f_\alpha \in \mathscr{H}(E_1, \ldots, E_n; F_K)$, then $\tilde{f} = \sum \tilde{f}_\alpha \in \mathscr{H}(E_1^L, \ldots, E_n^L; F)$.
 
 The series $f$ and $\tilde{f}$ have the same strict convergence indicator (and the same strict radius of convergence when $n = 1$).
 
-Conversely, let L be a closed non-discrete subfield of K and let $E_i^0$ and $F^0$ be the spaces over L obtained by restriction of scalars from the $E_i$ and F. If $f = \sum f_\alpha \in \mathcal{H}(E_1, \ldots, E_n; F)$, then $f_\alpha \in P_\alpha(E_1^0, \ldots, E_n^0; F^0)$; if one sets $f^0 = \sum \tilde{f}_\alpha \in \hat{P}(E_1^0, \ldots, E_n^0; F^0)$, then $f^0 \in \mathcal{H}(E_1^0, \ldots, E_n^0; F^0)$.
+Conversely, let L be a closed non-discrete subfield of K and let $E_i^0$ and $F^0$ be the spaces over L obtained by restriction of scalars from the $E_i$ and F. If $f = \sum f_\alpha \in \mathscr{H}(E_1, \ldots, E_n; F)$, then $f_\alpha \in P_\alpha(E_1^0, \ldots, E_n^0; F^0)$; if one sets $f^0 = \sum \tilde{f}_\alpha \in \hat{P}(E_1^0, \ldots, E_n^0; F^0)$, then $f^0 \in \mathscr{H}(E_1^0, \ldots, E_n^0; F^0)$.
 
 One has $C(f) \subset C(f^0)$ and $f(x) = f^0(x)$ for every $x \in C(f)$.
 
@@ -143,14 +143,14 @@ One has $C(f) \subset C(f^0)$ and $f(x) = f^0(x)$ for every $x \in C(f)$.
 
 4.2.3. The results of 3.2.4, 3.2.5, 3.2.7, 3.2.8 and 3.2.11 remain exact. That of 3.2.6 also, provided in addition that K is assumed to be of characteristic zero.
 
-4.2.4. Suppose F quasi-complete and let $f \in \mathcal{H}(E_1, \ldots, E_n; F)$. The mapping $x \mapsto f(x)$ is analytic in $C(f)$. For every $a \in C(f)$, the convergence indicator of the power series expansion of $f$ at $a$ is equal to that of $f$.
+4.2.4. Suppose F quasi-complete and let $f \in \mathscr{H}(E_1, \ldots, E_n; F)$. The mapping $x \mapsto f(x)$ is analytic in $C(f)$. For every $a \in C(f)$, the convergence indicator of the power series expansion of $f$ at $a$ is equal to that of $f$.
 
 ### 4.3. Some inequalities
 
 4.3.1. It is assumed that K satisfies at least one of the following conditions:
 (a) the residue field of K is infinite ;
 (b) the image of K by the mapping $a \mapsto |a|$ is dense in $\mathbf{R}_+$. (In other words, it is assumed that K is not locally compact).
-Let $f = \sum_\alpha f_\alpha \in \mathcal{H}(E_1, \ldots, E_n; F)$ and let $R \in I(f)$. One has:
+Let $f = \sum_\alpha f_\alpha \in \mathscr{H}(E_1, \ldots, E_n; F)$ and let $R \in I(f)$. One has:
 $$
 \sup_{x \in B(R)} \|f(x)\|_y = \sup_\alpha \sup_{x \in B(R)} \|f_\alpha(x)\|_y
 $$
@@ -162,7 +162,7 @@ a^{|\alpha|} R^{\alpha} |\alpha|! \|f_\alpha\|_y \leq \sup_{x \in B(R)} \|f_\alp
 $$
 for every continuous seminorm $\gamma$ on F. If K satisfies condition (b) of 4.3.1 or if the image of $E_i$ by the mapping $x \mapsto \|x\|$ is contained in the image of K by the mapping $a \mapsto |a|$ and contains $R_i$ (for $1 \leq i \leq n$), one can take $a = 1$.
 
-4.3.3. If K is of characteristic zero, the formal series $f = \sum_\alpha f_\alpha$ belongs to $\mathcal{H}(E_1, \ldots, E_n; F)$ if and only if there exists $R \in (\mathbf{R}_+^*)^n$ such that
+4.3.3. If K is of characteristic zero, the formal series $f = \sum_\alpha f_\alpha$ belongs to $\mathscr{H}(E_1, \ldots, E_n; F)$ if and only if there exists $R \in (\mathbf{R}_+^*)^n$ such that
 $$
 \sup_\alpha \sup_{x \in B(R)} \|f_\alpha(x)\|_y < +\infty
 $$

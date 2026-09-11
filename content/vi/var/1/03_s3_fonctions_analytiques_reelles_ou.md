@@ -28,11 +28,11 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: 45f4ef369a3ac489c5b28e99e27e79fe2f5df2b5fea0b45e761108f97388139b
+content_sha256: a9346300c30240f7a265cddb221273fd85ad34d721f37bb19fd522de2c7eafff
 translated_from: content/en-mt/var/1/03_s3_fonctions_analytiques_reelles_ou.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 1f6ecbebd80cb374245ae323f4872e23924a9a4dda4d0d299dd36fef4dc7383c
+source_content_sha256: b3bdb0356818aa926e8c912cb6fe2dc9abdf4f1dacd30f3f90802398ac485a17
 translation_model: gpt-5.4
 translation_run: translate-vi-3307ed33
 glossary_version: 34
@@ -54,25 +54,25 @@ $$
 
 Nếu $F$ là một không gian chuẩn và nếu $\gamma$ là chuẩn của $F$, ta viết $\|f\|_R$ thay cho $\|f\|_{\gamma, R}$.
 
-Tập hợp $\mathcal{H}_R(E_1, \ldots, E_n; F)$ gồm các $f \in \hat{P}(E_1, \ldots, E_n; F)$ sao cho $\|f\|_{\gamma, R}$ là hữu hạn với mọi nửa chuẩn liên tục $\gamma$ trên $F$ là một không gian con vectơ của $\hat{P}(E_1, \ldots, E_n; F)$. Ta có
+Tập hợp $\mathscr{H}_R(E_1, \ldots, E_n; F)$ gồm các $f \in \hat{P}(E_1, \ldots, E_n; F)$ sao cho $\|f\|_{\gamma, R}$ là hữu hạn với mọi nửa chuẩn liên tục $\gamma$ trên $F$ là một không gian con vectơ của $\hat{P}(E_1, \ldots, E_n; F)$. Ta có
 
 $$
-\mathcal{H}_R(E_1, \ldots, E_n; F) \subset \mathcal{H}_{R'}(E_1, \ldots, E_n; F)
+\mathscr{H}_R(E_1, \ldots, E_n; F) \subset \mathscr{H}_{R'}(E_1, \ldots, E_n; F)
 $$
 
 mỗi khi $R_i \geq R'_i$ với $1 \leq i \leq n$. Hợp của các
 
 $$
-\mathcal{H}_R(E_1, \ldots, E_n; F)
+\mathscr{H}_R(E_1, \ldots, E_n; F)
 $$
 
-là một không gian con vectơ, ký hiệu là $\mathcal{H}(E_1, \ldots, E_n; F)$, của $\hat{P}(E_1, \ldots, E_n; F)$, mà các phần tử được gọi là các chuỗi hội tụ trên tích của các $E_i$, nhận giá trị trong $F$. Nó chỉ phụ thuộc vào tôpô của các $E_i$ chứ không phụ thuộc vào các chuẩn của chúng. Do đó có thể nói đến không gian $\mathcal{H}(E_1, \ldots, E_n; F)$ khi các $E_i$ là những không gian khả chuẩn, mà không cần chọn một chuẩn trên mỗi $E_i$.
+là một không gian con vectơ, ký hiệu là $\mathscr{H}(E_1, \ldots, E_n; F)$, của $\hat{P}(E_1, \ldots, E_n; F)$, mà các phần tử được gọi là các chuỗi hội tụ trên tích của các $E_i$, nhận giá trị trong $F$. Nó chỉ phụ thuộc vào tôpô của các $E_i$ chứ không phụ thuộc vào các chuẩn của chúng. Do đó có thể nói đến không gian $\mathscr{H}(E_1, \ldots, E_n; F)$ khi các $E_i$ là những không gian khả chuẩn, mà không cần chọn một chuẩn trên mỗi $E_i$.
 
-3.1.2. Ánh xạ $f \mapsto \|f\|_{\gamma, R}$ là một nửa chuẩn trên $\mathcal{H}_R(E_1, \ldots, E_n; F)$. Tôpô được xác định bởi các nửa chuẩn này khi $\gamma$ chạy trong tập hợp các nửa chuẩn liên tục trên $F$ (hoặc đơn giản là trong một tập hợp các nửa chuẩn xác định tôpô của $F$) là tách. Nếu $F$ là khả chuẩn (resp. đầy đủ), thì $\mathcal{H}_R(E_1, \ldots, E_n; F)$ cũng vậy. Các nửa chuẩn trên $\mathcal{H}(E_1, \ldots, E_n; F)$ mà hạn chế của chúng lên mỗi $\mathcal{H}_R$ là liên tục xác định một tôpô tách trên $\mathcal{H}(E_1, \ldots, E_n; F)$, tôpô này chỉ phụ thuộc vào các tôpô của các $E_i$. Đơn ánh của $\mathcal{H}(E_1, \ldots, E_n; F)$ vào $\hat{P}(E_1, \ldots, E_n; F)$ là liên tục.
+3.1.2. Ánh xạ $f \mapsto \|f\|_{\gamma, R}$ là một nửa chuẩn trên $\mathscr{H}_R(E_1, \ldots, E_n; F)$. Tôpô được xác định bởi các nửa chuẩn này khi $\gamma$ chạy trong tập hợp các nửa chuẩn liên tục trên $F$ (hoặc đơn giản là trong một tập hợp các nửa chuẩn xác định tôpô của $F$) là tách. Nếu $F$ là khả chuẩn (resp. đầy đủ), thì $\mathscr{H}_R(E_1, \ldots, E_n; F)$ cũng vậy. Các nửa chuẩn trên $\mathscr{H}(E_1, \ldots, E_n; F)$ mà hạn chế của chúng lên mỗi $\mathscr{H}_R$ là liên tục xác định một tôpô tách trên $\mathscr{H}(E_1, \ldots, E_n; F)$, tôpô này chỉ phụ thuộc vào các tôpô của các $E_i$. Đơn ánh của $\mathscr{H}(E_1, \ldots, E_n; F)$ vào $\hat{P}(E_1, \ldots, E_n; F)$ là liên tục.
 
-3.1.3. Đẳng cấu chính tắc của $\hat{P}(E; F)$ lên $\hat{P}(E_1, \ldots, E_n; F)$ suy ra, bằng hạn chế, một đẳng cấu của các không gian vectơ tôpô từ $\mathcal{H}(E; F)$ lên $\mathcal{H}(E_1, \ldots, E_n; F)$.
+3.1.3. Đẳng cấu chính tắc của $\hat{P}(E; F)$ lên $\hat{P}(E_1, \ldots, E_n; F)$ suy ra, bằng hạn chế, một đẳng cấu của các không gian vectơ tôpô từ $\mathscr{H}(E; F)$ lên $\mathscr{H}(E_1, \ldots, E_n; F)$.
 
-3.1.4. Cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$ và gọi $J(f)$ là tập hợp các $R \in (\mathbf{R}_+^*)^n$ sao cho $f \in \mathcal{H}_R(E_1, \ldots, E_n; F)$. Phần trong $I(f)$ của $J(f)$ được gọi là biểu đồ chỉ miền hội tụ ngặt của $f$. Nó là tập hợp các $R$ mà tồn tại một $R' \in J(f)$ với $0 < R_i < R'_i$ đối với $1 \leq i \leq n$. Ta ký hiệu bởi $\Omega(f)$ tập hợp các điểm $(\log R_1, \ldots, \log R_n)$ của $\mathbf{R}^n$ với $R \in I(f)$: đó là một tập con lồi của $\mathbf{R}^n$.
+3.1.4. Cho $f \in \mathscr{H}(E_1, \ldots, E_n; F)$ và gọi $J(f)$ là tập hợp các $R \in (\mathbf{R}_+^*)^n$ sao cho $f \in \mathscr{H}_R(E_1, \ldots, E_n; F)$. Phần trong $I(f)$ của $J(f)$ được gọi là biểu đồ chỉ miền hội tụ ngặt của $f$. Nó là tập hợp các $R$ mà tồn tại một $R' \in J(f)$ với $0 < R_i < R'_i$ đối với $1 \leq i \leq n$. Ta ký hiệu bởi $\Omega(f)$ tập hợp các điểm $(\log R_1, \ldots, \log R_n)$ của $\mathbf{R}^n$ với $R \in I(f)$: đó là một tập con lồi của $\mathbf{R}^n$.
 
 Khi $n = 1$, tập hợp $I(f)$ là một khoảng $]0, \rho(f)[$ của $\mathbf{R}$, và $\rho(f)$ được gọi là bán kính hội tụ ngặt của $f$. Nó cũng là cận trên bé nhất (hữu hạn hoặc $+\infty$) của tập hợp các số thực $R > 0$ sao cho với mọi nửa chuẩn liên tục $\gamma$ trên $F$, tồn tại một hằng $M$ sao cho $\|f_m\|_{\gamma} \leq MR^{-m}$ (với $f = \sum f_m, f_m \in P_m(E; F)$) đối với mọi số nguyên $m \geq 0$.
 
@@ -90,10 +90,10 @@ Với $f = \sum f_\alpha \in \hat{P}(E_1, \ldots, E_n; F)$ và $R \in (\mathbf{R
 $$
 \|f\|_{\gamma, R} = \sum_\alpha R^\alpha \|f_\alpha\|_{\gamma}
 $$
-và ký hiệu $\tilde{\mathcal{H}}_R(E_1, \ldots, E_n; F)$ là không gian con vectơ của $\hat{P}(E_1, \ldots, E_n; F)$
-gồm các $f$ sao cho $\|f\|_{\gamma, R}$ là hữu hạn với mọi $\gamma$, được trang bị tôpô xác định bởi các nửa chuẩn $f \mapsto \|f\|_{\gamma, R}$. Ta có $\mathcal{H}_R \subset \tilde{\mathcal{H}}_R$ và đơn ánh từ $\mathcal{H}_R$ vào $\tilde{\mathcal{H}}_R$ là liên tục. Không gian $\mathcal{H}(E_1, \ldots, E_n; F)$ là hợp của các $\tilde{\mathcal{H}}_R(E_1, \ldots, E_n; F)$ và tôpô của nó là tôpô lồi địa phương mịn nhất sao cho các đơn ánh từ $\mathcal{H}_R$ vào $\mathcal{H}$ là liên tục.
+và ký hiệu $\tilde{\mathscr{H}}_R(E_1, \ldots, E_n; F)$ là không gian con vectơ của $\hat{P}(E_1, \ldots, E_n; F)$
+gồm các $f$ sao cho $\|f\|_{\gamma, R}$ là hữu hạn với mọi $\gamma$, được trang bị tôpô xác định bởi các nửa chuẩn $f \mapsto \|f\|_{\gamma, R}$. Ta có $\mathscr{H}_R \subset \tilde{\mathscr{H}}_R$ và đơn ánh từ $\mathscr{H}_R$ vào $\tilde{\mathscr{H}}_R$ là liên tục. Không gian $\mathscr{H}(E_1, \ldots, E_n; F)$ là hợp của các $\tilde{\mathscr{H}}_R(E_1, \ldots, E_n; F)$ và tôpô của nó là tôpô lồi địa phương mịn nhất sao cho các đơn ánh từ $\mathscr{H}_R$ vào $\mathscr{H}$ là liên tục.
 
-Nếu $f \in \mathcal{H}(E_1, \ldots, E_n; F)$, thì **chỉ tiêu hội tụ** được định nghĩa là phần trong $\tilde{I}(f)$ của tập hợp $\tilde{J}(f)$ các $R \in (\mathbf{R}_+^*)$ sao cho $f \in \tilde{\mathcal{H}}_R$. Ta có:
+Nếu $f \in \mathscr{H}(E_1, \ldots, E_n; F)$, thì **chỉ tiêu hội tụ** được định nghĩa là phần trong $\tilde{I}(f)$ của tập hợp $\tilde{J}(f)$ các $R \in (\mathbf{R}_+^*)$ sao cho $f \in \tilde{\mathscr{H}}_R$. Ta có:
 $$
 e^{-1}\tilde{I}(f) \subset I(f) \subset \tilde{I}(f)
 $$
@@ -102,11 +102,11 @@ $$
 e^{-1}\tilde{\rho}(f) \leq \rho(f) \leq \tilde{\rho}(f).
 $$
 
-3.1.6. Với $R \in (\mathbf{R}_+^*)^n$, đa cầu (đóng) tâm 0 và bán kính $R$ trong $E$ là tập hợp $B(R)$ các $x \in E$ sao cho $\|x_i\| \leq R_i$ với mọi $i$. Nếu $\dim E_i = 1$, người ta cũng nói là đa đĩa. Nếu $f \in \mathcal{H}(E_1, \ldots, E_n; F)$, thì miền hội tụ (resp. miền hội tụ ngặt) của $f$ là hợp của các đa cầu $B(R)$ với $R \in \tilde{I}(f)$ (resp. $R \in I(f)$).
+3.1.6. Với $R \in (\mathbf{R}_+^*)^n$, đa cầu (đóng) tâm 0 và bán kính $R$ trong $E$ là tập hợp $B(R)$ các $x \in E$ sao cho $\|x_i\| \leq R_i$ với mọi $i$. Nếu $\dim E_i = 1$, người ta cũng nói là đa đĩa. Nếu $f \in \mathscr{H}(E_1, \ldots, E_n; F)$, thì miền hội tụ (resp. miền hội tụ ngặt) của $f$ là hợp của các đa cầu $B(R)$ với $R \in \tilde{I}(f)$ (resp. $R \in I(f)$).
 
-3.1.7. Cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$. Giả sử rằng $F$ là quasi-đầy đủ. Với mọi $x \in \tilde{C}(f)$, họ các $f_a(x)$ là khả tổng trong $F$. Tổng của nó, được ký hiệu bởi $\hat{f}(x)$ hoặc đơn giản là $f(x)$, là một hàm liên tục trên $\tilde{C}(f)$. Chính xác hơn, với mọi $R$ sao cho $f \in \tilde{\mathcal{H}}_R$, họ các $f_a(x)$ là khả tổng đều với $x \in B(R)$. Ánh xạ $f \mapsto \hat{f}$ là một ánh xạ tuyến tính liên tục đơn ánh từ $\tilde{\mathcal{H}}_R$ vào không gian các hàm liên tục bị chặn trên $B(R)$, được trang bị tôpô hội tụ đều.
+3.1.7. Cho $f \in \mathscr{H}(E_1, \ldots, E_n; F)$. Giả sử rằng $F$ là quasi-đầy đủ. Với mọi $x \in \tilde{C}(f)$, họ các $f_a(x)$ là khả tổng trong $F$. Tổng của nó, được ký hiệu bởi $\hat{f}(x)$ hoặc đơn giản là $f(x)$, là một hàm liên tục trên $\tilde{C}(f)$. Chính xác hơn, với mọi $R$ sao cho $f \in \tilde{\mathscr{H}}_R$, họ các $f_a(x)$ là khả tổng đều với $x \in B(R)$. Ánh xạ $f \mapsto \hat{f}$ là một ánh xạ tuyến tính liên tục đơn ánh từ $\tilde{\mathscr{H}}_R$ vào không gian các hàm liên tục bị chặn trên $B(R)$, được trang bị tôpô hội tụ đều.
 
-3.1.8. Cho $F_1, \ldots, F_m$ là các không gian đa chuẩn tách biệt và cho $u$ là một ánh xạ $m$-tuyến tính liên tục từ $F_1 \times \cdots \times F_m$ vào $F$. Cho $f_i \in \mathcal{H}(E_1, \ldots, E_n; F_i)$ với $1 \leq i \leq m$. Chuỗi hình thức $u(f_1, \ldots, f_m)$ thuộc $\mathcal{H}(E_1, \ldots, E_n; F)$. Ta có:
+3.1.8. Cho $F_1, \ldots, F_m$ là các không gian đa chuẩn tách biệt và cho $u$ là một ánh xạ $m$-tuyến tính liên tục từ $F_1 \times \cdots \times F_m$ vào $F$. Cho $f_i \in \mathscr{H}(E_1, \ldots, E_n; F_i)$ với $1 \leq i \leq m$. Chuỗi hình thức $u(f_1, \ldots, f_m)$ thuộc $\mathscr{H}(E_1, \ldots, E_n; F)$. Ta có:
 
 $$
 C(u(f_1, \ldots, f_m)) \supset \bigcap_i C(f_i)
@@ -120,9 +120,9 @@ $$
 u(f_1, \ldots, f_m)(x) = u(f_1(x), \ldots, f_m(x)).
 $$
 
-3.1.9. Cho $F_1, \ldots, F_m$ là các không gian định chuẩn đầy đủ và giả sử rằng $F$ là quasi-đầy đủ. Cho $f = (f_i)_{1 \leq i \leq m}$ với $f_i \in \mathcal{H}(E_1, \ldots, E_n; F_i)$ và $g \in \mathcal{H}(F_1, \ldots, F_m; F)$, sao cho $(f_i(0))_{1 \leq i \leq m}$ thuộc miền hội tụ ngặt của $g$. Khi đó, với mọi $\alpha \in \mathbf{N}^m$, chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathcal{H}(E_1, \ldots, E_n; F)$ và họ các $g_\alpha \circ f$ là khả tổng trong $\mathcal{H}(E_1, \ldots, E_n; F)$ và a fortiori trong $\hat{P}(E_1, \ldots, E_n; F)$. Tổng của nó sẽ được ký hiệu bởi $g \circ f$.
+3.1.9. Cho $F_1, \ldots, F_m$ là các không gian định chuẩn đầy đủ và giả sử rằng $F$ là quasi-đầy đủ. Cho $f = (f_i)_{1 \leq i \leq m}$ với $f_i \in \mathscr{H}(E_1, \ldots, E_n; F_i)$ và $g \in \mathscr{H}(F_1, \ldots, F_m; F)$, sao cho $(f_i(0))_{1 \leq i \leq m}$ thuộc miền hội tụ ngặt của $g$. Khi đó, với mọi $\alpha \in \mathbf{N}^m$, chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathscr{H}(E_1, \ldots, E_n; F)$ và họ các $g_\alpha \circ f$ là khả tổng trong $\mathscr{H}(E_1, \ldots, E_n; F)$ và a fortiori trong $\hat{P}(E_1, \ldots, E_n; F)$. Tổng của nó sẽ được ký hiệu bởi $g \circ f$.
 
-Chính xác hơn, tồn tại $R \in \bigcap_i I(f_i)$ và $R' \in I(g)$ sao cho $\|f_i\|_R < R'_i$ với $1 \leq i \leq m$. Trong các điều kiện ấy, chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathcal{H}_R(E_1, \ldots, E_n; F)$, và họ các $g_\alpha \circ f$ là khả tổng trong $\mathcal{H}_R(E_1, \ldots, E_n; F)$. Sau hết, nếu $x \in B(R)$, thì $f(x) = (f_i(x))$ thuộc $B(R') \subset F_1 \times \cdots \times F_m$ và ta có:
+Chính xác hơn, tồn tại $R \in \bigcap_i I(f_i)$ và $R' \in I(g)$ sao cho $\|f_i\|_R < R'_i$ với $1 \leq i \leq m$. Trong các điều kiện ấy, chuỗi hình thức $g_\alpha \circ f$ thuộc $\mathscr{H}_R(E_1, \ldots, E_n; F)$, và họ các $g_\alpha \circ f$ là khả tổng trong $\mathscr{H}_R(E_1, \ldots, E_n; F)$. Sau hết, nếu $x \in B(R)$, thì $f(x) = (f_i(x))$ thuộc $B(R') \subset F_1 \times \cdots \times F_m$ và ta có:
 $$
 g(f(x)) = (g \circ f)(x).
 $$
@@ -141,11 +141,11 @@ $$
 
 Ta có $I(f) = \tilde{I}(f)$, $C(f) = \tilde{C}(f)$ và, khi $n = 1$, $\rho(f) = \tilde{\rho}(f)$.
 
-Không gian $\mathcal{H}(K^n; K)$ các chuỗi hội tụ với hệ số trong $K$ cũng được ký hiệu bởi $K\{(X_1, \ldots, X_n)\}$; nó là một đại số con của $K[[X_1, \ldots, X_n]]$. Không gian $\mathcal{H}(K^n; F)$ là một môđun trên $K\{(X_1, \ldots, X_n)\}$ và nếu $F$ hữu hạn chiều, thì môđun này được đồng nhất với $K\{(X_1, \ldots, X_n)\} \otimes_K F$.
+Không gian $\mathscr{H}(K^n; K)$ các chuỗi hội tụ với hệ số trong $K$ cũng được ký hiệu bởi $K\{(X_1, \ldots, X_n)\}$; nó là một đại số con của $K[[X_1, \ldots, X_n]]$. Không gian $\mathscr{H}(K^n; F)$ là một môđun trên $K\{(X_1, \ldots, X_n)\}$ và nếu $F$ hữu hạn chiều, thì môđun này được đồng nhất với $K\{(X_1, \ldots, X_n)\} \otimes_K F$.
 
-3.1.11. Cho $f \in \mathcal{H}(K^n; K^m)$, được biểu diễn bởi một hệ gồm $m$ chuỗi hội tụ $f_j(X_1, \ldots, X_n)$, với hệ số trong $K$. Tương tự, cho $g \in \mathcal{H}(K^m; K^p)$, được biểu diễn bởi một hệ gồm $p$ chuỗi hội tụ $g_k(Y_1, \ldots, Y_m) = \sum g_{k,\beta} Y^\beta$. Phần tử $h = g \circ f$ của $\mathcal{H}(K^n; K^p)$ (xem 3.1.9) được biểu diễn bởi $p$ chuỗi hình thức $h_k(X_1, \ldots, X_n)$, được xác định như sau: với $\alpha \in \mathbf{N}^n$ và $\beta \in \mathbf{N}^m$, gọi $c_{\alpha,\beta}$ là hệ số của $X^\alpha$ trong chuỗi hình thức $f^\beta = \prod f_j^{\beta_j}$; khi đó họ $(g_{k,\beta} c_{\alpha,\beta})_{\beta \in \mathbf{N}^m}$ là khả tổng trong $K$ và có tổng là hệ số của $X^\alpha$ trong $h_k$.
+3.1.11. Cho $f \in \mathscr{H}(K^n; K^m)$, được biểu diễn bởi một hệ gồm $m$ chuỗi hội tụ $f_j(X_1, \ldots, X_n)$, với hệ số trong $K$. Tương tự, cho $g \in \mathscr{H}(K^m; K^p)$, được biểu diễn bởi một hệ gồm $p$ chuỗi hội tụ $g_k(Y_1, \ldots, Y_m) = \sum g_{k,\beta} Y^\beta$. Phần tử $h = g \circ f$ của $\mathscr{H}(K^n; K^p)$ (xem 3.1.9) được biểu diễn bởi $p$ chuỗi hình thức $h_k(X_1, \ldots, X_n)$, được xác định như sau: với $\alpha \in \mathbf{N}^n$ và $\beta \in \mathbf{N}^m$, gọi $c_{\alpha,\beta}$ là hệ số của $X^\alpha$ trong chuỗi hình thức $f^\beta = \prod f_j^{\beta_j}$; khi đó họ $(g_{k,\beta} c_{\alpha,\beta})_{\beta \in \mathbf{N}^m}$ là khả tổng trong $K$ và có tổng là hệ số của $X^\alpha$ trong $h_k$.
 
-3.1.12. Giả sử $F$ gần đầy đủ và gọi $\hat{E}_i$ là bổ sung đầy đủ của $E_i$. Mọi đa thức liên tục trên $E_1 \times \cdots \times E_n$ nhận giá trị trong $F$ đều kéo dài được, bởi tính liên tục, thành một đa thức liên tục trên $\hat{E}_1 \times \cdots \times \hat{E}_n$, nhận giá trị trong $F$. Từ đó suy ra một song ánh $j$ từ $\hat{P}(E_1, \ldots, E_n; F)$ lên $\hat{P}(\hat{E}_1, \ldots, \hat{E}_n; F)$. Nếu $f \in \mathcal{H}(E_1, \ldots, E_n; F)$, thì $j(f) \in \mathcal{H}(\hat{E}_1, \ldots, \hat{E}_n; F)$ và ngược lại. Các chỉ dấu hội tụ ngặt của $f$ và của $j(f)$ là như nhau.
+3.1.12. Giả sử $F$ gần đầy đủ và gọi $\hat{E}_i$ là bổ sung đầy đủ của $E_i$. Mọi đa thức liên tục trên $E_1 \times \cdots \times E_n$ nhận giá trị trong $F$ đều kéo dài được, bởi tính liên tục, thành một đa thức liên tục trên $\hat{E}_1 \times \cdots \times \hat{E}_n$, nhận giá trị trong $F$. Từ đó suy ra một song ánh $j$ từ $\hat{P}(E_1, \ldots, E_n; F)$ lên $\hat{P}(\hat{E}_1, \ldots, \hat{E}_n; F)$. Nếu $f \in \mathscr{H}(E_1, \ldots, E_n; F)$, thì $j(f) \in \mathscr{H}(\hat{E}_1, \ldots, \hat{E}_n; F)$ và ngược lại. Các chỉ dấu hội tụ ngặt của $f$ và của $j(f)$ là như nhau.
 
 3.1.13. Giả sử rằng $K = \mathbf{R}$, nhưng $F$ được trang bị một cấu trúc không gian vectơ phức tương thích với cấu trúc không gian vectơ thực của nó. Đặt $E_i^C = E_i \otimes_\mathbf{R} \mathbf{C}$. Nếu $y \in E_i^C$, đặt
 
@@ -161,13 +161,13 @@ $$
 
 với mọi nửa chuẩn liên tục $\gamma$ trên không gian vectơ phức $F$.
 
-Nếu $f = \sum_{\alpha} f_{\alpha} \in \mathcal{H}(E_1, \ldots, E_n; F)$, thì $\tilde{f} = \sum_{\alpha} \tilde{f}_{\alpha} \in \mathcal{H}(E_1^c, \ldots, E_n^c; F)$. Chuỗi $f$ và $\tilde{f}$ có cùng biểu đồ hội tụ ngặt (và cùng bán kính hội tụ ngặt khi $n = 1$).
+Nếu $f = \sum_{\alpha} f_{\alpha} \in \mathscr{H}(E_1, \ldots, E_n; F)$, thì $\tilde{f} = \sum_{\alpha} \tilde{f}_{\alpha} \in \mathscr{H}(E_1^c, \ldots, E_n^c; F)$. Chuỗi $f$ và $\tilde{f}$ có cùng biểu đồ hội tụ ngặt (và cùng bán kính hội tụ ngặt khi $n = 1$).
 
-Ngược lại, giả sử $K = C$. Cho $E_i^0$ và $F^0$ là các không gian trên $\mathbf{R}$ thu được bằng hạn chế vô hướng. Nếu $f_{\alpha} \in P_{\alpha}(E_1, \ldots, E_n; F)$, thì $f_{\alpha} \in P_{\alpha}(E_1^0, \ldots, E_n^0; F^0)$. Nếu $f = \sum_{\alpha} f_{\alpha} \in \mathcal{H}(E_1, \ldots, E_n; F)$, thì chuỗi hình thức $f^0 = \sum_{\alpha} f_{\alpha} \in \hat{P}(E_1^0, \ldots, E_n^0; F^0)$ là một chuỗi hội tụ. Các biểu đồ hội tụ (resp. các biểu đồ hội tụ ngặt) của $f$ và $f^0$ là đồng nhất và ta có $f(x) = f^0(x)$ với mọi $x \in \bar{C}(f) = \bar{C}(f^0)$.
+Ngược lại, giả sử $K = C$. Cho $E_i^0$ và $F^0$ là các không gian trên $\mathbf{R}$ thu được bằng hạn chế vô hướng. Nếu $f_{\alpha} \in P_{\alpha}(E_1, \ldots, E_n; F)$, thì $f_{\alpha} \in P_{\alpha}(E_1^0, \ldots, E_n^0; F^0)$. Nếu $f = \sum_{\alpha} f_{\alpha} \in \mathscr{H}(E_1, \ldots, E_n; F)$, thì chuỗi hình thức $f^0 = \sum_{\alpha} f_{\alpha} \in \hat{P}(E_1^0, \ldots, E_n^0; F^0)$ là một chuỗi hội tụ. Các biểu đồ hội tụ (resp. các biểu đồ hội tụ ngặt) của $f$ và $f^0$ là đồng nhất và ta có $f(x) = f^0(x)$ với mọi $x \in \bar{C}(f) = \bar{C}(f^0)$.
 
 ### 3.2. Hàm giải tích
 
-3.2.1. Cho $U$ là một tập hợp mở của $E$ và $f$ là một ánh xạ từ $U$ vào $F$. Ta nói rằng $f$ *thuộc lớp* $C^{\omega}$, hay *K-giải tích* (hoặc đơn giản là *giải tích*) trong $U$ nếu, với mọi điểm $a$ của $U$, tồn tại một chuỗi hội tụ $f_{\alpha} \in \mathcal{H}(E; F)$ sao cho $f(a + x) = f_{\alpha}(x)$ với mọi $x$ trong $E$ đủ gần không. Nếu $K = \mathbf{R}$ (resp. $\mathbf{C}$), người ta cũng nói rằng $f$ là *giải tích thực* (resp. *giải tích phức* hoặc *chỉnh hình*). Các ánh xạ giải tích từ $U$ vào $F$ lập thành một không gian con vectơ, ký hiệu bởi $\mathcal{C}^{\omega}(U; F)$, của không gian tất cả các ánh xạ từ $U$ vào $F$.
+3.2.1. Cho $U$ là một tập hợp mở của $E$ và $f$ là một ánh xạ từ $U$ vào $F$. Ta nói rằng $f$ *thuộc lớp* $C^{\omega}$, hay *K-giải tích* (hoặc đơn giản là *giải tích*) trong $U$ nếu, với mọi điểm $a$ của $U$, tồn tại một chuỗi hội tụ $f_{\alpha} \in \mathscr{H}(E; F)$ sao cho $f(a + x) = f_{\alpha}(x)$ với mọi $x$ trong $E$ đủ gần không. Nếu $K = \mathbf{R}$ (resp. $\mathbf{C}$), người ta cũng nói rằng $f$ là *giải tích thực* (resp. *giải tích phức* hoặc *chỉnh hình*). Các ánh xạ giải tích từ $U$ vào $F$ lập thành một không gian con vectơ, ký hiệu bởi $\mathscr{C}^{\omega}(U; F)$, của không gian tất cả các ánh xạ từ $U$ vào $F$.
 
 Với $a \in U$, chuỗi hình thức $f_{\alpha}$ là duy nhất: nó được gọi là *khai triển chuỗi lũy thừa* của $f$ tại điểm $a$. Nếu $f_{\alpha} = \sum_{\alpha} (f_{\alpha})_{\alpha}$ (với $(f_{\alpha})_{\alpha} \in P_{\alpha}(E_1, \ldots, E_n; F)$), ta đặt:
 
@@ -175,13 +175,13 @@ $$
 \Delta^{\alpha} f(a) = (f_{\alpha})_{\alpha}.
 $$
 
-3.2.2. Nếu $f \in \mathcal{C}^{\omega}(U; F)$, ánh xạ $\Delta^{\alpha} f : a \mapsto \Delta^{\alpha} f(a)$ từ $U$ vào
+3.2.2. Nếu $f \in \mathscr{C}^{\omega}(U; F)$, ánh xạ $\Delta^{\alpha} f : a \mapsto \Delta^{\alpha} f(a)$ từ $U$ vào
 
 $$
 P_{\alpha}(E_1, \ldots, E_n; F)
 $$
 
-là giải tích. Ánh xạ $\Delta^{\alpha} : f \mapsto \Delta^{\alpha} f$ là một ánh xạ $K$-tuyến tính từ $\mathcal{C}^{\omega}(U; F)$ vào $\mathcal{C}^{\omega}(U; P_{\alpha}(E_1, \ldots, E_n; F))$. Do đó, với $a \in U$, ta có, với $\alpha, \beta \in \mathbf{N}^n$, $\Delta^{\beta}(\Delta^{\alpha} f)(a) \in P_{\beta}(E_1, \ldots, E_n; P_{\alpha}(E_1, \ldots, E_n; F))$. Nếu $x = (x_i) \in E$, do đó ta có $(\Delta^{\beta}(\Delta^{\alpha} f)(a))(x) \in P_{\alpha}(E_1, \ldots, E_n; F)$ và $((\Delta^{\beta}(\Delta^{\alpha} f)(a))(x))(x) \in F$. Phần tử này của $F$ bằng $((\alpha, \beta))(\Delta^{\alpha+\beta} f(a))(x)$. Điều này được biểu thị bằng cách viết:
+là giải tích. Ánh xạ $\Delta^{\alpha} : f \mapsto \Delta^{\alpha} f$ là một ánh xạ $K$-tuyến tính từ $\mathscr{C}^{\omega}(U; F)$ vào $\mathscr{C}^{\omega}(U; P_{\alpha}(E_1, \ldots, E_n; F))$. Do đó, với $a \in U$, ta có, với $\alpha, \beta \in \mathbf{N}^n$, $\Delta^{\beta}(\Delta^{\alpha} f)(a) \in P_{\beta}(E_1, \ldots, E_n; P_{\alpha}(E_1, \ldots, E_n; F))$. Nếu $x = (x_i) \in E$, do đó ta có $(\Delta^{\beta}(\Delta^{\alpha} f)(a))(x) \in P_{\alpha}(E_1, \ldots, E_n; F)$ và $((\Delta^{\beta}(\Delta^{\alpha} f)(a))(x))(x) \in F$. Phần tử này của $F$ bằng $((\alpha, \beta))(\Delta^{\alpha+\beta} f(a))(x)$. Điều này được biểu thị bằng cách viết:
 
 $$
 \Delta^{\beta} \circ \Delta^{\alpha} = ((\alpha, \beta)) \Delta^{\alpha+\beta}.
@@ -189,7 +189,7 @@ $$
 
 3.2.3. Các chỉ báo hội tụ ngặt (và các bán kính hội tụ ngặt khi $n = 1$) của các khai triển chuỗi lũy thừa của $f$ và của $\Delta^{\alpha} f$ tại cùng một điểm $a$ của $U$ là đồng nhất.
 
-3.2.4. Cho $f \in \mathcal{C}^\omega(U; F)$. Khi đó $f$ khả vi chặt và khả vi vô hạn trong $U$ (nếu $K = \mathbf{R}$, thì $f$ thuộc lớp $C^\infty$ trong $U$). Các đạo hàm lặp của $f$ là giải tích, và giá trị của chúng tại một điểm $a$ là những ánh xạ đa tuyến tính đối xứng. Khi đó có thể đưa vào ký hiệu $D^\alpha f$ cho các đạo hàm riêng lặp như ở No. 2.4.2. Ta có:
+3.2.4. Cho $f \in \mathscr{C}^\omega(U; F)$. Khi đó $f$ khả vi chặt và khả vi vô hạn trong $U$ (nếu $K = \mathbf{R}$, thì $f$ thuộc lớp $C^\infty$ trong $U$). Các đạo hàm lặp của $f$ là giải tích, và giá trị của chúng tại một điểm $a$ là những ánh xạ đa tuyến tính đối xứng. Khi đó có thể đưa vào ký hiệu $D^\alpha f$ cho các đạo hàm riêng lặp như ở No. 2.4.2. Ta có:
 
 $$
 \alpha! \Delta^\alpha f(a)(h) = D^\alpha f(a) . (h, \ldots, h)
@@ -209,13 +209,13 @@ $$
 
 3.2.7. Giả sử $F$ gần đầy đủ và gọi $G$ là một không gian định chuẩn đầy đủ. Cho $g$ là một ánh xạ giải tích từ một tập hợp mở $U$ của $E$ vào $G$ và $f$ là một ánh xạ giải tích từ một tập hợp mở $V$ của $G$, chứa $g(U)$, vào $F$. Ánh xạ hợp thành $f \circ g$ là giải tích trong $U$. Hơn nữa giả sử rằng $0 \in U$ và $g(0) = 0$. Khi đó khai triển của $f \circ g$ thành chuỗi lũy thừa tại $0$ thu được bằng cách thay, trong khai triển của $f$ tại $0$, chuỗi lũy thừa khai triển của $g$ tại $0$ (3.1.9).
 
-3.2.8. Cho $F_1, \ldots, F_m$ là các không gian đa định chuẩn tách được và $u$ là một ánh xạ đa tuyến tính liên tục từ $F_1 \times \cdots \times F_m$ vào $F$. Cho $U$ là một tập hợp mở của $E$ và $f_i \in \mathcal{C}^\omega(U; F_i)$. Hàm $u(f_1, \ldots, f_m)$ là giải tích, và khai triển của nó thành chuỗi lũy thừa tại một điểm $a \in U$ là chuỗi $u((f_1)_a, \ldots, (f_m)_a)$ (3.1.8).
+3.2.8. Cho $F_1, \ldots, F_m$ là các không gian đa định chuẩn tách được và $u$ là một ánh xạ đa tuyến tính liên tục từ $F_1 \times \cdots \times F_m$ vào $F$. Cho $U$ là một tập hợp mở của $E$ và $f_i \in \mathscr{C}^\omega(U; F_i)$. Hàm $u(f_1, \ldots, f_m)$ là giải tích, và khai triển của nó thành chuỗi lũy thừa tại một điểm $a \in U$ là chuỗi $u((f_1)_a, \ldots, (f_m)_a)$ (3.1.8).
 
-3.2.9. Giả sử $F$ gần đầy đủ. Cho $f \in \mathcal{H}(E_1, \ldots, E_n; F)$; hàm $x \mapsto f(x)$ (3.1.7) là giải tích trong tập hợp mở $C(f)$, miền hội tụ ngặt của $f$. Nếu $n = 1$ và nếu $\|a\| < \rho(f)$, thì bán kính hội tụ ngặt của khai triển của $f$ thành chuỗi lũy thừa tại $a$ ít nhất bằng $\rho(f) - \|a\|$. Nếu $\rho(f) = + \infty$, thì người ta nói rằng $f$ là một hàm nguyên.
+3.2.9. Giả sử $F$ gần đầy đủ. Cho $f \in \mathscr{H}(E_1, \ldots, E_n; F)$; hàm $x \mapsto f(x)$ (3.1.7) là giải tích trong tập hợp mở $C(f)$, miền hội tụ ngặt của $f$. Nếu $n = 1$ và nếu $\|a\| < \rho(f)$, thì bán kính hội tụ ngặt của khai triển của $f$ thành chuỗi lũy thừa tại $a$ ít nhất bằng $\rho(f) - \|a\|$. Nếu $\rho(f) = + \infty$, thì người ta nói rằng $f$ là một hàm nguyên.
 
 3.2.10. Giữ lại các giả thiết của 3.2.9. Nếu $K = \mathbf{C}$, các kết quả của 3.2.9 vẫn còn đúng nếu thay $C(f)$ bởi $\tilde{C}(f)$ và $\rho(f)$ bởi $\tilde{\rho}(f)$ (với $n = 1$). Nếu $K = \mathbf{R}$, hàm $x \mapsto f(x)$ là giải tích trong $\tilde{C}(f)$.
 
-3.2.11. Giả sử rằng $E_i = K$ với $1 \leq i \leq n$. Cho $U$ là một tập mở của $K^n$ và $f \in \mathcal{C}^\omega(K^n; F)$. Nếu $0 \in U$ và nếu $f_0 = \sum_\alpha X^\alpha c_\alpha$ là khai triển thành chuỗi lũy thừa của $f$ tại $0$, thì khai triển thành chuỗi lũy thừa của $\Delta^\alpha f$ tại $0$ được viết (sau khi đồng nhất $P_\alpha(K^n; F)$ với $F$):
+3.2.11. Giả sử rằng $E_i = K$ với $1 \leq i \leq n$. Cho $U$ là một tập mở của $K^n$ và $f \in \mathscr{C}^\omega(K^n; F)$. Nếu $0 \in U$ và nếu $f_0 = \sum_\alpha X^\alpha c_\alpha$ là khai triển thành chuỗi lũy thừa của $f$ tại $0$, thì khai triển thành chuỗi lũy thừa của $\Delta^\alpha f$ tại $0$ được viết (sau khi đồng nhất $P_\alpha(K^n; F)$ với $F$):
 
 $$
 (\Delta^\alpha f)_0 = \sum_\beta ((\alpha, \beta)) X^\beta c_{\alpha + \beta}.
@@ -235,7 +235,7 @@ Trong số này, giả sử rằng $K = \mathbf{C}$.
 
 Khi $E$ hữu hạn chiều (tương ứng khi $F$ là một không gian Banach), các điều kiện này còn tương đương với các điều kiện (iii'), (iv') hoặc (v') (tương ứng (iv') hoặc (v')) thu được từ (iii), (iv) hoặc (v) (tương ứng từ (iv) hoặc (v)) bằng cách bỏ giả thiết "$f$ bị chặn địa phương".
 
-3.3.2. Giả sử $F$ là gần đầy đủ. Cho $U$ là một tập mở của $E$ và $(f_n)$ là một dãy các ánh xạ chỉnh hình từ $U$ vào $F$, có tính chất sau: (W) Mọi điểm của $U$ đều có một lân cận trong đó dãy $(f_n)$ hội tụ đều. Khi đó giới hạn $f$ của dãy $(f_n)$ là chỉnh hình, dãy các đạo hàm $(Df_n)$ (nhận giá trị trong không gian gần đầy đủ $\mathcal{L}(E; F)$) có tính chất (W), và $Df$ là giới hạn của $(Df_n)$.
+3.3.2. Giả sử $F$ là gần đầy đủ. Cho $U$ là một tập mở của $E$ và $(f_n)$ là một dãy các ánh xạ chỉnh hình từ $U$ vào $F$, có tính chất sau: (W) Mọi điểm của $U$ đều có một lân cận trong đó dãy $(f_n)$ hội tụ đều. Khi đó giới hạn $f$ của dãy $(f_n)$ là chỉnh hình, dãy các đạo hàm $(Df_n)$ (nhận giá trị trong không gian gần đầy đủ $\mathscr{L}(E; F)$) có tính chất (W), và $Df$ là giới hạn của $(Df_n)$.
 
 3.3.3. Cho U là một tập mở của E và f là một ánh xạ chỉnh hình từ U vào F, giả thiết là gần đầy đủ. Cho $R = (R_i) \in (\mathbf{R}_+^*)^n$ và giả sử rằng đa cầu B(R) được chứa trong U và rằng f bị chặn trên B(R). Khi đó, với mọi $α \in \mathbf{N}^n$ và mọi $x = (x_i) \in B(R)$:
 
@@ -261,7 +261,7 @@ $$
 
 (“bất đẳng thức Cauchy”). Miền hội tụ ngặt của chuỗi $\sum_{α} X^αc_α$ chứa phần trong của B(R).
 
-3.3.5. Giả sử E hữu hạn chiều và F gần đầy đủ. Cho f là một ánh xạ chỉnh hình từ E vào F. Khi đó tồn tại trong $\mathcal{H}(E; F)$ một và chỉ một chuỗi $f_0$, có bán kính hội tụ vô hạn (đối với mọi chuẩn trên E), sao cho $f(x) = f_0(x)$ với mọi $x \in E$.
+3.3.5. Giả sử E hữu hạn chiều và F gần đầy đủ. Cho f là một ánh xạ chỉnh hình từ E vào F. Khi đó tồn tại trong $\mathscr{H}(E; F)$ một và chỉ một chuỗi $f_0$, có bán kính hội tụ vô hạn (đối với mọi chuẩn trên E), sao cho $f(x) = f_0(x)$ với mọi $x \in E$.
 
 3.3.6. Nếu f là một ánh xạ chỉnh hình từ E vào F sao cho $f(E)$ bị chặn, thì hàm f là hằng (“định lý Liouville”).
 

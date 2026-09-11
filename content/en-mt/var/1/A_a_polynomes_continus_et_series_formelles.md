@@ -12,11 +12,11 @@ pdf_pages: 0086-0087
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 505abbfb6816269691d0798e92465645c01c3fa2d2c2d5b72db26a6a2931f5c6
+content_sha256: 150120dd63c7bed64ec952ee3e838140f4d5c900ffbd56687d7a7c3683b12c6e
 translated_from: content/fr/var/1/A_a_polynomes_continus_et_series_formelles.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 4f5da2d5f93a17339b36e8b289bea09365035864aa242bc99e5291d21d3b274d
+source_content_sha256: f1dc7a1707b5ba2507432005cc6e85f8e67f7ca479ba82fa2571925dc76696c5
 translation_model: gpt-5-6, gpt-5-mini
 translation_run: translate-en-mt-ea265727
 glossary_version: 34
@@ -38,7 +38,7 @@ $$
 
 (the sequence of $\alpha(j)$ is therefore obtained by writing $\alpha_1$ times 1, ..., $\alpha_n$ times n).
 
-We denote by $E_\alpha$ the topological vector space product of the family of the $E_{\alpha(j)}$ for $1 \leq j \leq |\alpha|$. We denote by $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ the space of $|\alpha|$-multilinear mappings from $E_\alpha$ into F and by $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$ the subspace of $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ formed by the continuous multilinear mappings endowed with the topology of uniform convergence on the bounded subsets of $E_\alpha$; it is a separated polynormed space, whose topology can be defined by the family of semi-norms $\|u\|_y$, where, for a continuous semi-norm $y$ on F, we denote by $\|u\|_y$ the greatest lower bound of the numbers $a \geq 0$ such that
+We denote by $E_\alpha$ the topological vector space product of the family of the $E_{\alpha(j)}$ for $1 \leq j \leq |\alpha|$. We denote by $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ the space of $|\alpha|$-multilinear mappings from $E_\alpha$ into F and by $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$ the subspace of $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ formed by the continuous multilinear mappings endowed with the topology of uniform convergence on the bounded subsets of $E_\alpha$; it is a separated polynormed space, whose topology can be defined by the family of semi-norms $\|u\|_y$, where, for a continuous semi-norm $y$ on F, we denote by $\|u\|_y$ the greatest lower bound of the numbers $a \geq 0$ such that
 
 $$
 \|u(x_1, \ldots, x_{|\alpha|})\|_y \leq a \|x_1\| \cdots \|x_{|\alpha|}\|
@@ -56,10 +56,10 @@ $$
 
 such that $f = u \circ p_\alpha$.
 
-A.2. We denote by $P_\alpha(E_1, \ldots, E_n; F)$ the image of $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$ by the linear mapping $u \mapsto u \circ p_\alpha$ from $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ into the space of mappings from E into F, endowed with the quotient topology of that of $\mathcal{L}_\alpha(E_1, \ldots, E_n; F)$. An element of $P_\alpha(E_1, \ldots, E_n; F)$ is called a continuous multihomogeneous polynomial of multidegree $\alpha$ on E with values in F. The topology of $P_\alpha(E_1, \ldots, E_n; F)$ is defined by the family of semi-norms:
+A.2. We denote by $P_\alpha(E_1, \ldots, E_n; F)$ the image of $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$ by the linear mapping $u \mapsto u \circ p_\alpha$ from $\mathrm{Hom}_\alpha(E_1, \ldots, E_n; F)$ into the space of mappings from E into F, endowed with the quotient topology of that of $\mathscr{L}_\alpha(E_1, \ldots, E_n; F)$. An element of $P_\alpha(E_1, \ldots, E_n; F)$ is called a continuous multihomogeneous polynomial of multidegree $\alpha$ on E with values in F. The topology of $P_\alpha(E_1, \ldots, E_n; F)$ is defined by the family of semi-norms:
 
 $$
-\|f\|_y = \inf_{u \in \mathcal{L}_\alpha(E_1, \ldots, E_n; F), f = u \circ p_\alpha} \|u\|_y
+\|f\|_y = \inf_{u \in \mathscr{L}_\alpha(E_1, \ldots, E_n; F), f = u \circ p_\alpha} \|u\|_y
 $$
 
 for $y$ describing the set of continuous semi-norms on F. If F is a normed space, with norm $\gamma$, we write $\|f\|$ instead of $\|f\|_y$. The space $P_\alpha(E_1, \ldots, E_n; F)$ and its topology do not change if one substitutes equivalent norms for the given norms on each $E_i$. They can therefore be defined when the $E_i$ are normable topological vector spaces.

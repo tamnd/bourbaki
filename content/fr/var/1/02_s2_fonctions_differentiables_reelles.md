@@ -36,7 +36,7 @@ subsections:
       pdf_page: 19
 statements: 0
 exercises: 0
-content_sha256: 751c6249671612296169a2ada973673daef293ce7e4ae1a9d165e88250336f6c
+content_sha256: 85e5ed09c1887ea3f4bb1874cb8d98856fc19e8449b7f3c0d0e03bc3b1f0ddc8
 ---
 
 ## § 2. Fonctions différentiables réelles
@@ -45,7 +45,7 @@ Dans ce paragraphe, on suppose que K = R. La lettre E désigne un espace vectori
 
 ### 2.1. Fonctions dérivables en un point
 
-2.1.1. Soit f une fonction définie au voisinage d’un point x_0 de E et à valeurs dans F. Soit u un élément de l’espace $\mathcal{L}(E; F)$ des applications linéaires continues de E dans F. Pour que f soit dérivable en x_0 et y admette u pour dérivée, il faut et suffit que l’on ait
+2.1.1. Soit f une fonction définie au voisinage d’un point x_0 de E et à valeurs dans F. Soit u un élément de l’espace $\mathscr{L}(E; F)$ des applications linéaires continues de E dans F. Pour que f soit dérivable en x_0 et y admette u pour dérivée, il faut et suffit que l’on ait
 $$
 \lim_{h \to 0, h \neq 0} \frac{f(x_0 + h) - f(x_0) - u(h)}{\|h\|} = 0.
 $$
@@ -82,7 +82,7 @@ F, admettant une dérivée nulle en tout point de U; alors $f$ est constante dan
 
 2.3.1. Soient U un ouvert de E et $f$ une application de U dans F. On définit la relation « $f$ est de classe $C^r$ » (pour $r \in \mathbf{N}$) par récurrence sur $r$ de la manière suivante:
     1) $f$ est de classe $C^0$ si et seulement si elle est continue;
-    2) si $r$ est un entier $\geqslant 1$, la fonction $f$ est de classe $C^r$ si et seulement si elle est dérivable en tout point de U et si l’application dérivée $Df$ de U dans $\mathcal{L}(E; F)$ est de classe $C^{r-1}$.
+    2) si $r$ est un entier $\geqslant 1$, la fonction $f$ est de classe $C^r$ si et seulement si elle est dérivable en tout point de U et si l’application dérivée $Df$ de U dans $\mathscr{L}(E; F)$ est de classe $C^{r-1}$.
 
 Les fonctions de classe $C^r$ sont aussi appelées *fonctions r fois continûment dérivables*.
 
@@ -90,15 +90,15 @@ On dit que $f$ est *de classe $C^{\infty}$* (ou *indéfiniment dérivable*) si e
 
 Si $f$ est de classe $C^r$ dans U, alors $f$ est $p$ fois dérivable pour tout entier $p \leqslant r$ et la fonction $D^p f$ est de classe $C^{r-p}$.
 
-2.3.2. Les applications de classe $C^r$ d’un ouvert U de E dans F forment un sous-espace vectoriel $\mathcal{C}^r(U; F)$ de l’espace de toutes les applications de U dans F. On a $\mathcal{C}^s(U; F) \subset \mathcal{C}^r(U; F)$ pour $s \geqslant r$.
+2.3.2. Les applications de classe $C^r$ d’un ouvert U de E dans F forment un sous-espace vectoriel $\mathscr{C}^r(U; F)$ de l’espace de toutes les applications de U dans F. On a $\mathscr{C}^s(U; F) \subset \mathscr{C}^r(U; F)$ pour $s \geqslant r$.
 
 2.3.3. Pour qu’une fonction $f$ soit de classe $C^1$ dans un ouvert U de E, il faut et il suffit qu’elle soit strictement dérivable en tout point de U.
 
 Si E est un produit d’espaces normés $E_i$, une application $f$ d’un ouvert V de E dans F est de classe $C^r$ si et seulement si $f$ possède des dérivées partielles itérées $D_{i_1} \ldots D_{i_m} f$ continues pour tout entier $m \leqslant r$.
 
-2.3.4. Soit G un espace normé et soit U un ouvert de E. Soient V un ouvert de G, $g \in \mathcal{C}^r(U; G)$ et $f \in \mathcal{C}^r(V; F)$. Si $g(U) \subset V$, l’application $f \circ g$ de U dans F est de classe $C^r$.
+2.3.4. Soit G un espace normé et soit U un ouvert de E. Soient V un ouvert de G, $g \in \mathscr{C}^r(U; G)$ et $f \in \mathscr{C}^r(V; F)$. Si $g(U) \subset V$, l’application $f \circ g$ de U dans F est de classe $C^r$.
 
-Soient $F_1$ et $F_2$ deux espaces localement convexes séparés et $u$ une application bilinéaire de $F_1 \times F_2$ dans F, hypocontinue par rapport à l’ensemble des parties bornées de $F_1$ (resp. $F_2$) (Esp. Vect. Top., ch. III, § 4, n° 2). Soient U un ouvert de E et $f_i \in \mathcal{C}^r(U; F_i)$ (pour $i = 1, 2$). Alors la fonction $u(f_1, f_2)$ appartient à $\mathcal{C}^r(U; F)$. Si E est de dimension finie, il suffit de supposer que $u$ satisfait à la condition (SC) du n° 2.1.3.
+Soient $F_1$ et $F_2$ deux espaces localement convexes séparés et $u$ une application bilinéaire de $F_1 \times F_2$ dans F, hypocontinue par rapport à l’ensemble des parties bornées de $F_1$ (resp. $F_2$) (Esp. Vect. Top., ch. III, § 4, n° 2). Soient U un ouvert de E et $f_i \in \mathscr{C}^r(U; F_i)$ (pour $i = 1, 2$). Alors la fonction $u(f_1, f_2)$ appartient à $\mathscr{C}^r(U; F)$. Si E est de dimension finie, il suffit de supposer que $u$ satisfait à la condition (SC) du n° 2.1.3.
 
 2.3.5. Si E est un produit d’espaces normés $E_i$ ($1 \leq i \leq n$) et si $f$ est une application $n$-linéaire continue de E dans F, alors $f$ est de classe $C^\infty$ et l’on a $D^p f = 0$ pour $p \geq n + 1$.
 
@@ -168,7 +168,7 @@ $$
 
 2.5.4. Soient $f$ et $g$ deux fonctions de classe $C^r$ sur un ouvert $U$ de $E$, à valeurs dans $F$. Pour que $f$ et $g$ aient en un point $x$ de $U$ un contact d’ordre $\geq r$, il faut et il suffit que l’on ait $D^p f(x) = D^p g(x)$ pour tout entier $p$ avec $0 \leq p \leq r$. Lorsque $E$ est de dimension finie, cela revient à dire que les dérivées partielles itérées d’ordre $\leq r$ de $f$ et de $g$ (par rapport à une base de $E$) sont égales au point $x$.
 
-2.5.5. Soit $U$ un ouvert de $E \times \mathbf{R}^n$ de la forme $V \times I_1 \times \cdots \times I_n$, où $V$ est un ouvert de $E$ et $I_1, \ldots, I_n$ des intervalles ouverts de $\mathbf{R}$ contenant 0. Posons $U_0 = V$ et $U_j = V \times I_1 \times \cdots \times I_j$ pour $1 \leq j \leq n$. Etant donnée une fonction $f \in \mathcal{C}^r(U; F)$ (avec $1 \leq r \leq \infty$), il existe une suite et une seule de fonctions $f_j \in \mathcal{C}^{r-1}(U_j; F)$ (pour $0 \leq j \leq n$) telle que:
+2.5.5. Soit $U$ un ouvert de $E \times \mathbf{R}^n$ de la forme $V \times I_1 \times \cdots \times I_n$, où $V$ est un ouvert de $E$ et $I_1, \ldots, I_n$ des intervalles ouverts de $\mathbf{R}$ contenant 0. Posons $U_0 = V$ et $U_j = V \times I_1 \times \cdots \times I_j$ pour $1 \leq j \leq n$. Etant donnée une fonction $f \in \mathscr{C}^r(U; F)$ (avec $1 \leq r \leq \infty$), il existe une suite et une seule de fonctions $f_j \in \mathscr{C}^{r-1}(U_j; F)$ (pour $0 \leq j \leq n$) telle que:
 
 $$
 f(x, t_1, \ldots, t_n) = f_0(x) + \sum_{j=1}^n t_j f_j(x, t_1, \ldots, t_j)
@@ -187,11 +187,11 @@ pour $1 \leq j \leq n$. Dans cette dernière formule, $\partial_j f$ désigne la
 
 ### 2.6. Critères de dérivabilité
 
-2.6.1. Supposons que $F$, outre sa topologie $\mathcal{T}$, soit muni d'une topologie moins fine $\mathcal{T}'$, qui fait aussi de $F$ un espace localement convexe séparé. Supposons en outre que $\mathcal{T}$ et $\mathcal{T}'$ satisfont à la condition suivante:
-(S) Pour tout voisinage $V$ de 0 pour la topologie $\mathcal{T}$, il existe un voisinage $W$ de 0 pour $\mathcal{T}$ tel que l'enveloppe convexe $\mathcal{T}'$-fermée de toute partie $\mathcal{T}$-compacte de $W$ soit contenue dans $V$.
+2.6.1. Supposons que $F$, outre sa topologie $\mathscr{T}$, soit muni d'une topologie moins fine $\mathscr{T}'$, qui fait aussi de $F$ un espace localement convexe séparé. Supposons en outre que $\mathscr{T}$ et $\mathscr{T}'$ satisfont à la condition suivante:
+(S) Pour tout voisinage $V$ de 0 pour la topologie $\mathscr{T}$, il existe un voisinage $W$ de 0 pour $\mathscr{T}$ tel que l'enveloppe convexe $\mathscr{T}'$-fermée de toute partie $\mathscr{T}$-compacte de $W$ soit contenue dans $V$.
 
-Soit $f$ une application d'un ouvert $U$ de $E$ dans $F$. Supposons que $f$ est de classe $C^r$ ($1 \leq r \leq \infty$) lorsque l'on munit $F$ de la topologie $\mathcal{T}'$, que $D^m f(x)$ est, pour tout $x$ de $U$, et tout entier $m \leq r$, une application multilinéaire continue de $E^m$ dans $F$ muni de la topologie $\mathcal{T}$ et que l'application $x \mapsto D^m f(x)$ est continue de $U$ dans $\mathcal{L}_m(E; F)$ ($F$ étant muni de la topologie $\mathcal{T}$). Alors $f$ est de classe $C^r$ lorsque l'on munit $F$ de la topologie $\mathcal{T}$ et ses dérivées $D^m f$ sont les mêmes pour $\mathcal{T}$ et pour $\mathcal{T}'$.
+Soit $f$ une application d'un ouvert $U$ de $E$ dans $F$. Supposons que $f$ est de classe $C^r$ ($1 \leq r \leq \infty$) lorsque l'on munit $F$ de la topologie $\mathscr{T}'$, que $D^m f(x)$ est, pour tout $x$ de $U$, et tout entier $m \leq r$, une application multilinéaire continue de $E^m$ dans $F$ muni de la topologie $\mathscr{T}$ et que l'application $x \mapsto D^m f(x)$ est continue de $U$ dans $\mathscr{L}_m(E; F)$ ($F$ étant muni de la topologie $\mathscr{T}$). Alors $f$ est de classe $C^r$ lorsque l'on munit $F$ de la topologie $\mathscr{T}$ et ses dérivées $D^m f$ sont les mêmes pour $\mathscr{T}$ et pour $\mathscr{T}'$.
 
-La condition (S) est en particulier réalisée s'il existe un système fondamental de voisinages de 0 pour la topologie $\mathcal{T}$ qui sont fermés pour la topologie $\mathcal{T}'$: c'est le cas si le dual de $F$ muni de $\mathcal{T}$ est identique au dual de $F$ muni de $\mathcal{T}'$. La condition (S) est également réalisée si $F$ muni de la topologie $\mathcal{T}$ est quasi-complet (*Esp. Vect. Top.*, ch. III, § 2, n° 5).
+La condition (S) est en particulier réalisée s'il existe un système fondamental de voisinages de 0 pour la topologie $\mathscr{T}$ qui sont fermés pour la topologie $\mathscr{T}'$: c'est le cas si le dual de $F$ muni de $\mathscr{T}$ est identique au dual de $F$ muni de $\mathscr{T}'$. La condition (S) est également réalisée si $F$ muni de la topologie $\mathscr{T}$ est quasi-complet (*Esp. Vect. Top.*, ch. III, § 2, n° 5).
 
 2.6.2. Soit $f$ une application d'un ouvert $U$ de $E$ dans $F$. Si $f$ est de classe $C^r$ (avec $0 \leq r \leq \infty$), les fonctions scalaires $u \circ f$ sont de classe $C^r$ pour toute forme linéaire continue $u$ sur $F$. Réciproquement si $F$ est quasi-complet et si les fonctions $u \circ f$ sont de classe $C^{r+1}$ pour tout $u \in F'$, alors $f$ est de classe $C^r$.

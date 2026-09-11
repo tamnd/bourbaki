@@ -56,11 +56,11 @@ subsections:
       pdf_page: 85
 statements: 0
 exercises: 0
-content_sha256: dec036db4d757d36502a57d60f5f6276cd1bd33731f828f188c63a6e6c131bb4
+content_sha256: d757190184c503424bb15f60f18d0a4f5608e28fca6cc2c2f64f1f9eda913e2e
 translated_from: content/fr/var/1/07_s7_fibres_vectoriels.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 77cdaaf45b351c946c688134d4588742d177c22169a3cb5868d8ab3a74aa10c9
+source_content_sha256: 8ad900a252a6cd578fc67a303db7007331ae2888109b58a825b547baf488d6c0
 translation_model: gpt-5-mini, gpt-5-6-mini, gpt-5-6
 translation_run: translate-en-mt-13b5f93c
 glossary_version: 34
@@ -76,13 +76,13 @@ Throughout this paragraph, the letter B denotes a manifold of class $C^r$ ($r \g
 
 7.1.1. A vector chart of M is a triple $t = (U, \varphi, F)$, where U is an open set of B, where F is a Banach space and $\varphi$ a bijection of $\pi^{-1}(U)$ onto $U \times F$ such that $\pi(\varphi^{-1}(b, h)) = b$ for all $b \in B$ and all $h \in F$. We say that U is the domain of the vector chart t and that t is a vector chart of M at $b \in B$ if $b \in U$. For every $b \in U$, we denote by $t_b$ the bijection of F onto $M_b$ defined by $t_b(h) = \varphi^{-1}(b, h)$ for $h \in F$.
 
-7.1.2. We say that two vector charts $t = (U, \varphi, F)$ and $t' = (U', \varphi', F')$ of M are $C^r$-compatible (or simply compatible) if there exists a mapping $\lambda$ of class $C^r$ of the manifold $U \cap U'$ into the Banach space $\mathcal{L}(F; F')$ such that:
+7.1.2. We say that two vector charts $t = (U, \varphi, F)$ and $t' = (U', \varphi', F')$ of M are $C^r$-compatible (or simply compatible) if there exists a mapping $\lambda$ of class $C^r$ of the manifold $U \cap U'$ into the Banach space $\mathscr{L}(F; F')$ such that:
 
 $$
 t_b = t'_b \circ \lambda(b) \quad \text{for all } b \in U \cap U'.
 $$
 
-7.1.3. We say that a set of vector charts of M is a $C^r$-vector atlas (or simply vector atlas) of M if it consists of vector charts which are pairwise $C^r$-compatible and whose domains have B as their union. We say that two vector atlases $\mathcal{A}$ and $\mathcal{B}$ of M are $C^r$-equivalent (or equivalent) if $\mathcal{A} \cup \mathcal{B}$ is again a vector atlas of M. This relation is an equivalence relation.
+7.1.3. We say that a set of vector charts of M is a $C^r$-vector atlas (or simply vector atlas) of M if it consists of vector charts which are pairwise $C^r$-compatible and whose domains have B as their union. We say that two vector atlases $\mathscr{A}$ and $\mathscr{B}$ of M are $C^r$-equivalent (or equivalent) if $\mathscr{A} \cup \mathscr{B}$ is again a vector atlas of M. This relation is an equivalence relation.
 
 7.1.4. A structure of vector bundle of class $C^r$ (with base B) on M is the data of an equivalence class of vector atlases (Ens., Chap. II, § 6, No. 9). A vector chart belonging to a vector atlas of this class is called a vector chart of the vector bundle M.
 
@@ -104,7 +104,7 @@ Then the triple $(\pi^{-1}(U), \alpha, E \times F)$ is a chart of the set $M$. T
 
 7.2.1. Let $B$ and $B'$ be two manifolds and let $f$ be a morphism from $B$ into $B'$. Let $M$ be a vector bundle with basis $B$ and $M'$ a vector bundle with basis $B'$. One says that a mapping $g$ from $M$ into $M'$ is an $f$-morphism of vector bundles if the following condition is satisfied:
 
-For every point $b_0 \in B$, there exists a vector chart $t = (U, \varphi, F)$ of $M$ at $b_0$, a vector chart $t' = (U', \varphi', F')$ of $M'$ at $f(b_0)$ and a mapping $\lambda$ of class $C'$ from $U$ into $\mathcal{L}(F; F')$ such that $f(U) \subset U'$ and that $g_b \circ t_b = t'_{f(b)} \circ \lambda(b)$ for every $b \in U$, where $g_b$ is the restriction of $g$ to $M_b$.
+For every point $b_0 \in B$, there exists a vector chart $t = (U, \varphi, F)$ of $M$ at $b_0$, a vector chart $t' = (U', \varphi', F')$ of $M'$ at $f(b_0)$ and a mapping $\lambda$ of class $C'$ from $U$ into $\mathscr{L}(F; F')$ such that $f(U) \subset U'$ and that $g_b \circ t_b = t'_{f(b)} \circ \lambda(b)$ for every $b \in U$, where $g_b$ is the restriction of $g$ to $M_b$.
 
 Under these hypotheses, $g$ is a morphism of varieties and, for every $b \in B$, $g$ induces a continuous linear mapping of $M_b$ into $M'_{f(b)}$. The vector rank of $g$ at $b \in B$ is called and is denoted by $\mathrm{rg}_b(g)$ the rank (finite or $+\infty$) of the linear mapping $g_b$.
 
@@ -152,7 +152,7 @@ $$
 
 7.3.1. Let $M_1, \ldots, M_d$ and $N$ be vector bundles with base $B$, and let $u$ be a mapping of the set $M_1 \times_B \cdots \times_B M_d$ into $N$. We say that $u$ is a *multilinear morphism* (or $d$-linear) if the following condition is satisfied:
 
-*For every $b_0 \in B$, there exist an open neighbourhood $U$ of $b_0$ in $B$, vector bundle charts $t^j = (U, \varphi^j, F^j)$ of $M_j$ (for $1 \leq j \leq d$) and $t = (U, \varphi, F)$ of $N$, and a mapping $\lambda$ of class $C^r$ from $U$ into the Banach space $\mathcal{L}(F^1, \ldots, F^d; F)$ of continuous $d$-linear mappings from $F^1 \times \cdots \times F^d$ into $F$, such that*:
+*For every $b_0 \in B$, there exist an open neighbourhood $U$ of $b_0$ in $B$, vector bundle charts $t^j = (U, \varphi^j, F^j)$ of $M_j$ (for $1 \leq j \leq d$) and $t = (U, \varphi, F)$ of $N$, and a mapping $\lambda$ of class $C^r$ from $U$ into the Banach space $\mathscr{L}(F^1, \ldots, F^d; F)$ of continuous $d$-linear mappings from $F^1 \times \cdots \times F^d$ into $F$, such that*:
 
 $$
 (t_b \circ \lambda(b))(x_1, \ldots, x_d) = u(t_b^1(x_1), \ldots, t_b^d(x_d))
@@ -178,7 +178,7 @@ Suppose $A$ is locally trivial. A fibré $M$ in $A$-modules is said to be *local
 
 ### 7.4. Sections
 
-7.4.1. Let $M$ be a vector fibré with base $B$. For every open $U$ of $B$, we denote by $\mathcal{S}_M^r(U)$ the set of sections of class $C^r$ of $M$ over $U$, that is to say, morphisms $s$ of class $C^r$ from $U$ into $M$ such that $s(b) \in M_b$ for every $b \in U$. This set is endowed with a module structure over the ring $\mathcal{C}^r(U)$ of morphic functions by the rules:
+7.4.1. Let $M$ be a vector fibré with base $B$. For every open $U$ of $B$, we denote by $\mathscr{S}_M^r(U)$ the set of sections of class $C^r$ of $M$ over $U$, that is to say, morphisms $s$ of class $C^r$ from $U$ into $M$ such that $s(b) \in M_b$ for every $b \in U$. This set is endowed with a module structure over the ring $\mathscr{C}^r(U)$ of morphic functions by the rules:
 
 (1)
 $$
@@ -188,20 +188,20 @@ $$
 $$
 (\varphi \cdot s)(b) = \varphi(b) \cdot s(b)
 $$
-for $s, s'$ in $\mathcal{S}_M^r(U)$ and $\varphi$ in $\mathcal{C}^r(U)$. When the open set $U$ varies, one obtains a sheaf $\mathcal{S}_M^r$ of mappings from $B$ into $M$ (cf. No. 5.4.1), called the *sheaf of sections* of $M$.
+for $s, s'$ in $\mathscr{S}_M^r(U)$ and $\varphi$ in $\mathscr{C}^r(U)$. When the open set $U$ varies, one obtains a sheaf $\mathscr{S}_M^r$ of mappings from $B$ into $M$ (cf. No. 5.4.1), called the *sheaf of sections* of $M$.
 
 7.4.2. Let $M_1, \ldots, M_d$ and $N$ be vector bundles with base $M$ and let $u$ be a multilinear morphism from $M_1 \times_B \ldots \times_B M_d$ into $N$. For $1 \leq j \leq d$, let us give ourselves a section $s_j$ of $M_j$ over an open set $U$ of $B$; one defines a section $u(s_1, \ldots, s_d)$ of $N$ over $U$ by the formula:
 $$
 u(s_1, \ldots, s_d)(b) = u_b(s_1(b), \ldots, s_d(b)) \quad \text{for } b \in U.
 $$
 
-The mapping $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ is $\mathcal{C}^r(U)$-multilinear. It is sometimes denoted $\mathcal{S}(u)$.
+The mapping $(s_1, \ldots, s_d) \mapsto u(s_1, \ldots, s_d)$ is $\mathscr{C}^r(U)$-multilinear. It is sometimes denoted $\mathscr{S}(u)$.
 
-7.4.3. Let $f$ be a morphism of a manifold $B'$ into $B$ and let $M$ be a vector bundle with base $B$. For every open set $U$ of $B$ and every $s \in \mathcal{S}_M^r(U)$, the mapping $x \mapsto (x, s(f(x)))$ is a section of class $C^r$ of $f^*M$ over the open set $f^{-1}(U)$, denoted $f^*s$ and called the inverse image of $s$ by $f$. The mapping $s \mapsto f^*s$ from $\mathcal{S}_M^r(U)$ into $\mathcal{S}_{f^*M}(f^{-1}(U))$ is semilinear with respect to the homomorphism $g \mapsto g \circ (f|f^{-1}(U))$ of $\mathcal{C}^r(U)$ into $\mathcal{C}^r(f^{-1}(U))$.
+7.4.3. Let $f$ be a morphism of a manifold $B'$ into $B$ and let $M$ be a vector bundle with base $B$. For every open set $U$ of $B$ and every $s \in \mathscr{S}_M^r(U)$, the mapping $x \mapsto (x, s(f(x)))$ is a section of class $C^r$ of $f^*M$ over the open set $f^{-1}(U)$, denoted $f^*s$ and called the inverse image of $s$ by $f$. The mapping $s \mapsto f^*s$ from $\mathscr{S}_M^r(U)$ into $\mathscr{S}_{f^*M}(f^{-1}(U))$ is semilinear with respect to the homomorphism $g \mapsto g \circ (f|f^{-1}(U))$ of $\mathscr{C}^r(U)$ into $\mathscr{C}^r(f^{-1}(U))$.
 
-If moreover $N$ is a vector bundle with base $B'$ and $g$ an $f$-comorphism of $M$ into $N$, one sometimes denotes by $\mathcal{S}(g)$ the mapping $s \mapsto g \circ f^*s$ from $\mathcal{S}_M^r(U)$ into $\mathcal{S}_N^r(f^{-1}(U))$.
+If moreover $N$ is a vector bundle with base $B'$ and $g$ an $f$-comorphism of $M$ into $N$, one sometimes denotes by $\mathscr{S}(g)$ the mapping $s \mapsto g \circ f^*s$ from $\mathscr{S}_M^r(U)$ into $\mathscr{S}_N^r(f^{-1}(U))$.
 
-7.4.4. Let $M$ be a vector bundle with base $B$, *of finite rank*. A *frame* of $M$ over an open subset $U$ of $B$ is called a finite sequence $(s_1, \ldots, s_n)$ of sections of $M$ over $U$ such that $(s_1(b), \ldots, s_n(b))$ is a *basis* of the vector space $M_b$ for every $b \in B$. The sequence $(s_1, \ldots, s_n)$ is then a basis of the $\mathcal{C}^r(U)$-module $\mathcal{S}_M^r(U)$. If $f$ is a morphism of a manifold $B'$ into $B$, the sections $f^*s_j$ form a frame of $f^*M$ over $f^{-1}(U)$.
+7.4.4. Let $M$ be a vector bundle with base $B$, *of finite rank*. A *frame* of $M$ over an open subset $U$ of $B$ is called a finite sequence $(s_1, \ldots, s_n)$ of sections of $M$ over $U$ such that $(s_1(b), \ldots, s_n(b))$ is a *basis* of the vector space $M_b$ for every $b \in B$. The sequence $(s_1, \ldots, s_n)$ is then a basis of the $\mathscr{C}^r(U)$-module $\mathscr{S}_M^r(U)$. If $f$ is a morphism of a manifold $B'$ into $B$, the sections $f^*s_j$ form a frame of $f^*M$ over $f^{-1}(U)$.
 
 7.4.5. Let $L$ be a field, endowed with a structure of $K$-algebra of finite dimension and let $(M, B, \pi)$ be a fibration. Suppose that on each fibre $M_b$ a structure of vector space over $L$, *of finite dimension*, is given. There exists then at most one structure of vector bundle over $L$ with base $B$ on $M$, compatible with the mapping $\pi$, the manifold structure of $M$ and the $L$-vector space structures on the fibres (7.3.4). For such a structure to exist, it is necessary and sufficient that the following condition be satisfied:
 
@@ -216,7 +216,7 @@ $$
 $$
 *is an isomorphism of the manifold $U \times L^n$ onto the manifold $\pi^{-1}(U)$.*
 
-7.4.6. Let $M_1, \ldots, M_d$ and $N$ be vector bundles with base $B$, the $M_j$ being of *finite rank*. Suppose that for every open set $U$ of $B$ a mapping $\varphi_U$ from $\mathcal{S}_{M_1}^r(U) \times \cdots \times \mathcal{S}_{M_d}^r(U)$ into $\mathcal{S}_N^r(U)$ is given, $\mathcal{C}^r(U)$-multilinear, such that for $V \subset U$ one has:
+7.4.6. Let $M_1, \ldots, M_d$ and $N$ be vector bundles with base $B$, the $M_j$ being of *finite rank*. Suppose that for every open set $U$ of $B$ a mapping $\varphi_U$ from $\mathscr{S}_{M_1}^r(U) \times \cdots \times \mathscr{S}_{M_d}^r(U)$ into $\mathscr{S}_N^r(U)$ is given, $\mathscr{C}^r(U)$-multilinear, such that for $V \subset U$ one has:
 
 $$
 \varphi_U(s_1, \ldots, s_d)|V = \varphi_V(s_1|V, \ldots, s_d|V).
@@ -224,17 +224,17 @@ $$
 
 There then exists one and only one multilinear morphism $u$ from $M_1 \times_B \ldots \times_B M_d$ into $N$ such that $\varphi_U(s_1, \ldots, s_d) = u(s_1, \ldots, s_d)$ whatever the sections $s_j$ of $M$ on the open set $U$ of $B$.
 
-7.4.7. Let $f$ be a morphism of a variety $B'$ into $B$ and let $M$ (resp. $M'$) be a vector bundle with base $B$ (resp. $B'$) and of finite rank. Suppose that for every open set $U$ of $B$ a mapping $\varphi_U$ from $\mathcal{S}_M^r(U)$ into $\mathcal{S}_{M'}^{r'}(f^{-1}(U)), \mathcal{C}^r(U)$-semilinear, is given, such that
+7.4.7. Let $f$ be a morphism of a variety $B'$ into $B$ and let $M$ (resp. $M'$) be a vector bundle with base $B$ (resp. $B'$) and of finite rank. Suppose that for every open set $U$ of $B$ a mapping $\varphi_U$ from $\mathscr{S}_M^r(U)$ into $\mathscr{S}_{M'}^{r'}(f^{-1}(U)), \mathscr{C}^r(U)$-semilinear, is given, such that
 
 $$
 \varphi_U(s)|f^{-1}(V) = \varphi_V(s|V)
 $$
 
-for every open set $V \subset U$. There then exists one and only one $f$-comorphism $g$ from $M$ into $M'$ such that $\varphi_U(s) = \mathcal{S}(g)(s)$ for every $s \in \mathcal{S}_M^r(U)$.
+for every open set $V \subset U$. There then exists one and only one $f$-comorphism $g$ from $M$ into $M'$ such that $\varphi_U(s) = \mathscr{S}(g)(s)$ for every $s \in \mathscr{S}_M^r(U)$.
 
-*7.4.8. Let $\mathcal{F}$ be a sheaf of modules over the sheaf of rings $\mathcal{C}_B^r$. One says that $\mathcal{F}$ is locally free if for every $b \in B$, there exists an open neighbourhood $U$ of $b$ and an integer $n$ such that $\mathcal{F}|U$ is isomorphic (as a sheaf of $\mathcal{C}_U^r$-modules) to the sheaf $(\mathcal{C}_U^r)^n$.
+*7.4.8. Let $\mathscr{F}$ be a sheaf of modules over the sheaf of rings $\mathscr{C}_B^r$. One says that $\mathscr{F}$ is locally free if for every $b \in B$, there exists an open neighbourhood $U$ of $b$ and an integer $n$ such that $\mathscr{F}|U$ is isomorphic (as a sheaf of $\mathscr{C}_U^r$-modules) to the sheaf $(\mathscr{C}_U^r)^n$.
 
-If $M$ is a vector bundle of base $B$ of finite rank, the sheaf $\mathcal{S}_M^r$ is locally free. Conversely, for every locally free sheaf $\mathcal{F}$ on $B$, there exists a vector bundle $M$ and an isomorphism of sheaves from $\mathcal{S}_M^r$ onto $\mathcal{F}$. If $M'$ is another vector bundle of base $B$ of finite rank, the mapping $g \mapsto \mathcal{S}(g)$ is a bijection from the set of $B$-morphisms of $M$ into $M'$ onto the set of morphisms of sheaves of $\mathcal{C}^r$-modules from $\mathcal{S}_M^r$ into $\mathcal{S}_{M'}^{r'}$*
+If $M$ is a vector bundle of base $B$ of finite rank, the sheaf $\mathscr{S}_M^r$ is locally free. Conversely, for every locally free sheaf $\mathscr{F}$ on $B$, there exists a vector bundle $M$ and an isomorphism of sheaves from $\mathscr{S}_M^r$ onto $\mathscr{F}$. If $M'$ is another vector bundle of base $B$ of finite rank, the mapping $g \mapsto \mathscr{S}(g)$ is a bijection from the set of $B$-morphisms of $M$ into $M'$ onto the set of morphisms of sheaves of $\mathscr{C}^r$-modules from $\mathscr{S}_M^r$ into $\mathscr{S}_{M'}^{r'}$*
 
 ### 7.5. Vector subbundles, quotient vector bundles, exact sequences
 
@@ -269,7 +269,7 @@ One defines analogously the locally direct exact sequences of arbitrary length. 
 
 ### 7.6. Vector functors
 
-In this no. and in the following three no.s 7.7 to 7.9, the letter I denotes a finite set, union of two disjoint subsets $I_+$ and $I_-$. We denote by $\mathcal{V} = (V_i)_{i \in I}$ (and analogously by $\mathcal{V}', \mathcal{V}'', \ldots$) a family of Banach spaces indexed by $I$. We denote by $\operatorname{Hom}(\mathcal{V}, \mathcal{V}')$ the Banach space $\prod_{i \in I_+} \mathcal{L}(V_i; V'_i) \times \prod_{i \in I_-} \mathcal{L}(V'_i; V_i)$ and by $f = (f_i)$ an element of $\operatorname{Hom}(\mathcal{V}, \mathcal{V}')$. We denote by $\operatorname{Id}_{\mathcal{V}}$ the element $(\operatorname{Id}_{V_i})_{i \in I}$ of $\operatorname{Hom}(\mathcal{V}, \mathcal{V})$. For $f \in \operatorname{Hom}(\mathcal{V}, \mathcal{V}')$ and $f' \in \operatorname{Hom}(\mathcal{V}', \mathcal{V}'')$, we denote by $f' \circ f$ the element of $\operatorname{Hom}(\mathcal{V}, \mathcal{V}'')$ whose components are given by:
+In this no. and in the following three no.s 7.7 to 7.9, the letter I denotes a finite set, union of two disjoint subsets $I_+$ and $I_-$. We denote by $\mathscr{V} = (V_i)_{i \in I}$ (and analogously by $\mathscr{V}', \mathscr{V}'', \ldots$) a family of Banach spaces indexed by $I$. We denote by $\operatorname{Hom}(\mathscr{V}, \mathscr{V}')$ the Banach space $\prod_{i \in I_+} \mathscr{L}(V_i; V'_i) \times \prod_{i \in I_-} \mathscr{L}(V'_i; V_i)$ and by $f = (f_i)$ an element of $\operatorname{Hom}(\mathscr{V}, \mathscr{V}')$. We denote by $\operatorname{Id}_{\mathscr{V}}$ the element $(\operatorname{Id}_{V_i})_{i \in I}$ of $\operatorname{Hom}(\mathscr{V}, \mathscr{V})$. For $f \in \operatorname{Hom}(\mathscr{V}, \mathscr{V}')$ and $f' \in \operatorname{Hom}(\mathscr{V}', \mathscr{V}'')$, we denote by $f' \circ f$ the element of $\operatorname{Hom}(\mathscr{V}, \mathscr{V}'')$ whose components are given by:
 
 $$
 (f' \circ f)_i = f'_i \circ f_i \quad \text{if } i \in I_+
@@ -278,36 +278,36 @@ $$
 (f' \circ f)_i = f_i \circ f'_i \quad \text{if } i \in I_-
 $$
 
-7.6.1. A vector functor (resp. vector functor of finite dimension) of type I and of class $C^r$ is called the data, for every family $\mathcal{V} = (V_i)_{i \in I}$ of Banach spaces (resp. of finite-dimensional vector spaces over $K$), of a Banach space $\tau(\mathcal{V})$ and, for every $f \in \operatorname{Hom}(\mathcal{V}, \mathcal{V}')$, of an element $\tau(f) \in \mathcal{L}(\tau(\mathcal{V}); \tau(\mathcal{V}'))$, these data being subject to the following two conditions:
-(a) One has $\tau(\operatorname{Id}_\mathcal{V}) = \operatorname{Id}_{\tau(\mathcal{V})}$ and $\tau(f' \circ f) = \tau(f') \circ \tau(f)$.
-(b) The mapping $\tau : \operatorname{Hom}(\mathcal{V}, \mathcal{V}') \to \mathcal{L}(\tau(\mathcal{V}); \tau(\mathcal{V}'))$ is of class $C^r$.
+7.6.1. A vector functor (resp. vector functor of finite dimension) of type I and of class $C^r$ is called the data, for every family $\mathscr{V} = (V_i)_{i \in I}$ of Banach spaces (resp. of finite-dimensional vector spaces over $K$), of a Banach space $\tau(\mathscr{V})$ and, for every $f \in \operatorname{Hom}(\mathscr{V}, \mathscr{V}')$, of an element $\tau(f) \in \mathscr{L}(\tau(\mathscr{V}); \tau(\mathscr{V}'))$, these data being subject to the following two conditions:
+(a) One has $\tau(\operatorname{Id}_\mathscr{V}) = \operatorname{Id}_{\tau(\mathscr{V})}$ and $\tau(f' \circ f) = \tau(f') \circ \tau(f)$.
+(b) The mapping $\tau : \operatorname{Hom}(\mathscr{V}, \mathscr{V}') \to \mathscr{L}(\tau(\mathscr{V}); \tau(\mathscr{V}'))$ is of class $C^r$.
 
-7.6.2. Let $\mathcal{M} = (M^i)_{i \in I}$ be a family of vector bundles with base $B$. For $b \in B$, put $\mathcal{M}_b = (M^i_b)_{i \in I}$. Let $\tau$ be a vector functor and let $\tau(\mathcal{M})$ be the sum set of the $\tau(\mathcal{M}_b)$ for $b \in B$; *there exists on $\tau(\mathcal{M})$ one and only one structure of vector bundle* (with base $B$ relative to the mapping $\pi$ of $\tau(\mathcal{M})$ into $B$ such that, for every $b \in B$, one has $\tau(\mathcal{M}_b) = \{ b \}$) possessing the following property:
+7.6.2. Let $\mathscr{M} = (M^i)_{i \in I}$ be a family of vector bundles with base $B$. For $b \in B$, put $\mathscr{M}_b = (M^i_b)_{i \in I}$. Let $\tau$ be a vector functor and let $\tau(\mathscr{M})$ be the sum set of the $\tau(\mathscr{M}_b)$ for $b \in B$; *there exists on $\tau(\mathscr{M})$ one and only one structure of vector bundle* (with base $B$ relative to the mapping $\pi$ of $\tau(\mathscr{M})$ into $B$ such that, for every $b \in B$, one has $\tau(\mathscr{M}_b) = \{ b \}$) possessing the following property:
 
-Let $U$ be an open set of $B$ and, for every $i$, let $t^i = (U, \varphi_i, F_i)$ be a vector chart of $M^i$, with domain $U$; put $\mathcal{F} = (F_i)_{i \in I}$ and let $\psi_b$ be the element of $\mathrm{Hom}(\mathcal{M}_b, \mathcal{F})$ defined by $(\psi_b)_i = (t^i_b)^{-1}$ for $i \in I_+$ and $(\psi_b)_i = t^i_b$ for $i \in I_-$; for $x \in \pi^{-1}(U)$, put $\psi(x) = (\pi(x), \tau(\psi_{\pi(x)})(x))$. Then the triplet $(U, \psi, \tau(\mathcal{F}))$ is a vector chart of the vector bundle $\tau(\mathcal{M})$.
+Let $U$ be an open set of $B$ and, for every $i$, let $t^i = (U, \varphi_i, F_i)$ be a vector chart of $M^i$, with domain $U$; put $\mathscr{F} = (F_i)_{i \in I}$ and let $\psi_b$ be the element of $\mathrm{Hom}(\mathscr{M}_b, \mathscr{F})$ defined by $(\psi_b)_i = (t^i_b)^{-1}$ for $i \in I_+$ and $(\psi_b)_i = t^i_b$ for $i \in I_-$; for $x \in \pi^{-1}(U)$, put $\psi(x) = (\pi(x), \tau(\psi_{\pi(x)})(x))$. Then the triplet $(U, \psi, \tau(\mathscr{F}))$ is a vector chart of the vector bundle $\tau(\mathscr{M})$.
 
-Endowed with this structure, $\tau(\mathcal{M})$ is called the *vector bundle deduced from the family $\mathcal{M}$ by the vector functor $\tau$*.
+Endowed with this structure, $\tau(\mathscr{M})$ is called the *vector bundle deduced from the family $\mathscr{M}$ by the vector functor $\tau$*.
 
-7.6.3. Let $f$ be a morphism from $B$ into a manifold $B'$. Let $\mathcal{M} = (M^i)$ (resp. $\mathcal{M}' = ({M'}^i)$) be a family indexed by $I$ of vector bundles with base $B$ (resp. $B'$). For every $i \in I_+$, let $g_i$ be an $f$-morphism from $M^i$ into ${M'}^i$ and for every $i \in I_-$, let $g_i$ be an $f$-comorphism from ${M'}^i$ into $M^i$. Put $g = (g_i)_{i \in I}$ and for $b \in B$, put $g_b = ((g_i)_b)_{i \in I}$ (cf. 7.2.1 and 7.2.6). *There exists one and only one $f$-morphism, denoted $\tau(g)$, from $\tau(\mathcal{M})$ into $\tau(\mathcal{M}')$ such that $\tau(g)_b = \tau(g_b)$ for every $b \in B$*.
+7.6.3. Let $f$ be a morphism from $B$ into a manifold $B'$. Let $\mathscr{M} = (M^i)$ (resp. $\mathscr{M}' = ({M'}^i)$) be a family indexed by $I$ of vector bundles with base $B$ (resp. $B'$). For every $i \in I_+$, let $g_i$ be an $f$-morphism from $M^i$ into ${M'}^i$ and for every $i \in I_-$, let $g_i$ be an $f$-comorphism from ${M'}^i$ into $M^i$. Put $g = (g_i)_{i \in I}$ and for $b \in B$, put $g_b = ((g_i)_b)_{i \in I}$ (cf. 7.2.1 and 7.2.6). *There exists one and only one $f$-morphism, denoted $\tau(g)$, from $\tau(\mathscr{M})$ into $\tau(\mathscr{M}')$ such that $\tau(g)_b = \tau(g_b)$ for every $b \in B$*.
 
-If in particular $M^i = f^*{M'}^i$, the $g_i$ being the canonical morphisms or comorphisms, then the $B$-morphism from $\tau(\mathcal{M})$ into $f^*\tau(\mathcal{M}')$ defined by $\tau(g)$ (7.2.4) is an isomorphism: this fact is expressed by saying that $\tau$ *commutes with inverse images*.
+If in particular $M^i = f^*{M'}^i$, the $g_i$ being the canonical morphisms or comorphisms, then the $B$-morphism from $\tau(\mathscr{M})$ into $f^*\tau(\mathscr{M}')$ defined by $\tau(g)$ (7.2.4) is an isomorphism: this fact is expressed by saying that $\tau$ *commutes with inverse images*.
 
-In particular let $B'$ be a submanifold of $B$ and put $\mathcal{M}|B' = (M^i|B')_{i \in I}$. The vector bundles $\tau(\mathcal{M})|B'$ and $\tau(\mathcal{M}|B')$ are then canonically $B'$-isomorphic.
+In particular let $B'$ be a submanifold of $B$ and put $\mathscr{M}|B' = (M^i|B')_{i \in I}$. The vector bundles $\tau(\mathscr{M})|B'$ and $\tau(\mathscr{M}|B')$ are then canonically $B'$-isomorphic.
 
-7.6.4. Let $\tau, \tau_1, \ldots, \tau_d$ be vector functors (of type $I$ and of class $C'$). A *d-linear morphism* $\theta$ from $(\tau_1, \ldots, \tau_d)$ into $\tau$ is the data, for every family $\mathcal{V}$ of Banach spaces indexed by $I$, of a continuous $d$-linear mapping $\theta_{\mathcal{V}}$ from $\tau_1(\mathcal{V}) \times \cdots \times \tau_d(\mathcal{V})$ into $\tau(\mathcal{V})$, this data satisfying the following condition: for every $f \in \mathrm{Hom}(\mathcal{V}', \mathcal{V}'')$ one has
+7.6.4. Let $\tau, \tau_1, \ldots, \tau_d$ be vector functors (of type $I$ and of class $C'$). A *d-linear morphism* $\theta$ from $(\tau_1, \ldots, \tau_d)$ into $\tau$ is the data, for every family $\mathscr{V}$ of Banach spaces indexed by $I$, of a continuous $d$-linear mapping $\theta_{\mathscr{V}}$ from $\tau_1(\mathscr{V}) \times \cdots \times \tau_d(\mathscr{V})$ into $\tau(\mathscr{V})$, this data satisfying the following condition: for every $f \in \mathrm{Hom}(\mathscr{V}', \mathscr{V}'')$ one has
 $$
-\tau(f) \circ \theta_{\mathcal{V}} = \theta_{\mathcal{V}''} \circ (\tau_1(f) \times \cdots \times \tau_d(f)).
+\tau(f) \circ \theta_{\mathscr{V}} = \theta_{\mathscr{V}''} \circ (\tau_1(f) \times \cdots \times \tau_d(f)).
 $$
 For $d = 1$, one simply says a *morphism* from $\tau_1$ into $\tau$.
 
-Let $\mathcal{M}$ be then a family indexed by $I$ of vector bundles over $B$.
-*There exists one and only one B-d-linear morphism $\theta_{\mathcal{M}}$ from $\tau_1(\mathcal{M}) \times_B \cdots \times_B \tau_d(\mathcal{M})$ into $\tau(\mathcal{M})$ such that $(\theta_{\mathcal{M}})_b = \theta_{\mathcal{M}_b}$ for every $b \in B$*.
+Let $\mathscr{M}$ be then a family indexed by $I$ of vector bundles over $B$.
+*There exists one and only one B-d-linear morphism $\theta_{\mathscr{M}}$ from $\tau_1(\mathscr{M}) \times_B \cdots \times_B \tau_d(\mathscr{M})$ into $\tau(\mathscr{M})$ such that $(\theta_{\mathscr{M}})_b = \theta_{\mathscr{M}_b}$ for every $b \in B$*.
 
 With the notations of 7.6.3., one has
 $$
-\tau(g) \circ \theta_{\mathcal{M}} = \theta_{\mathcal{M}'} \circ (\tau_1(g) \times \cdots \times \tau_d(g)).
+\tau(g) \circ \theta_{\mathscr{M}} = \theta_{\mathscr{M}'} \circ (\tau_1(g) \times \cdots \times \tau_d(g)).
 $$
-If $d = 1$, and if $\theta$ is an isomorphism (which means that $\theta_{\mathcal{V}}$ is an isomorphism for every family $\mathcal{V}$), then $\theta_{\mathcal{M}}$ is an isomorphism.
+If $d = 1$, and if $\theta$ is an isomorphism (which means that $\theta_{\mathscr{V}}$ is an isomorphism for every family $\mathscr{V}$), then $\theta_{\mathscr{M}}$ is an isomorphism.
 
 7.6.5. The definitions and results of Nos. 7.6.2 to 7.6.4 extend to the case of finite-dimensional vector functors, provided that the vector bundles given are assumed everywhere to have finite rank.
 
@@ -315,21 +315,21 @@ They also extend to the following case: let L be a field endowed with a structur
 
 7.6.6. One calls a vector functor (resp. finite-dimensional vector functor) for isomorphisms the data, for every Banach space V (resp. every finite-dimensional vector space over K), of a Banach space τ(V) and, for every isomorphism f of V onto a Banach space V’, of an isomorphism τ(f) of τ(V) onto τ(V’), these data being subject to condition (a) of 7.6.1 and to the following condition:
 
-(b’) The mapping $f \mapsto \tau(f)$ from the open subset of $\mathcal{L}(V; V')$ constituted by the isomorphisms of V onto V’, into $\mathcal{L}(\tau(V); \tau(V'))$, is of class $C^r$.
+(b’) The mapping $f \mapsto \tau(f)$ from the open subset of $\mathscr{L}(V; V')$ constituted by the isomorphisms of V onto V’, into $\mathscr{L}(\tau(V); \tau(V'))$, is of class $C^r$.
 
 The definitions and results of the preceding Nos. extend to the case of vector functors for isomorphisms (by taking $I_+ = \{1\}$ and $I_- = \varnothing$), with the exception of those of the first paragraph of No. 7.6.3.
 
 ### 7.7. Direct sums, bundles of multilinear mappings, dual
 
-7.7.1. Assume that $I_- = \varnothing$. One defines a vector functor σ called the direct sum functor by putting $\sigma(\mathcal{V}) = \bigoplus_{i \in I} V_i$ and $\sigma(\mathfrak{f}) = \bigoplus_{i \in I} f_i$. If $\mathcal{M} = (M^i)_{i \in I}$ is a family of vector bundles over B, the vector bundle $\sigma(\mathcal{M})$ is called the direct sum of the $M^i$ and is denoted by $\bigoplus_{i \in I} M^i$. For every $b \in B$, the fibre at $b$ of $\bigoplus_{i \in I} M^i$ is the direct sum of the fibres of the $M^i$ at $b$.
+7.7.1. Assume that $I_- = \varnothing$. One defines a vector functor σ called the direct sum functor by putting $\sigma(\mathscr{V}) = \bigoplus_{i \in I} V_i$ and $\sigma(\mathfrak{f}) = \bigoplus_{i \in I} f_i$. If $\mathscr{M} = (M^i)_{i \in I}$ is a family of vector bundles over B, the vector bundle $\sigma(\mathscr{M})$ is called the direct sum of the $M^i$ and is denoted by $\bigoplus_{i \in I} M^i$. For every $b \in B$, the fibre at $b$ of $\bigoplus_{i \in I} M^i$ is the direct sum of the fibres of the $M^i$ at $b$.
 
-Let U be an open subset of B and let $s_i \in \mathcal{F}_{M_i}(U)$ (for $i \in I$). The mapping $b \mapsto \sum_{i \in I} s_i(b)$ is then a section, denoted $\sum_i s_i$, of class $C^r$ of $M = \bigoplus_{i \in I} M^i$ and the mapping $(s_i)_{i \in I} \mapsto \sum_i s_i$ is an isomorphism of $\mathcal{C}^r(U)$-modules from $\bigoplus_{i \in I} \mathcal{F}_{M_i}(U)$ onto $\mathcal{F}_M(U)$.
+Let U be an open subset of B and let $s_i \in \mathscr{F}_{M_i}(U)$ (for $i \in I$). The mapping $b \mapsto \sum_{i \in I} s_i(b)$ is then a section, denoted $\sum_i s_i$, of class $C^r$ of $M = \bigoplus_{i \in I} M^i$ and the mapping $(s_i)_{i \in I} \mapsto \sum_i s_i$ is an isomorphism of $\mathscr{C}^r(U)$-modules from $\bigoplus_{i \in I} \mathscr{F}_{M_i}(U)$ onto $\mathscr{F}_M(U)$.
 
 The underlying manifold of $\bigoplus_{i \in I} M^i$ is identified with the fibre product $\prod_B M^i$.
 
 We denote by $\mathrm{pr}_i$ the morphism of vector bundles from $\bigoplus_{i \in I} M^i$ into $M^i$ which on each fibre $\bigoplus_{i \in I} M^i_b$ is the i-th projection. We define analogously the canonical injection $j_i$ of $M^i$ into $\bigoplus_{i \in I} M^i$.
 
-Let $f$ be a morphism from B into a manifold $B'$; let H be a second finite set and let $\mathcal{N} = (N^h)_{h \in H}$ be a family of vector bundles with basis $B'$. The mapping $u \to \bigoplus_{i \in I} (\mathrm{pr}_h \circ u \circ j_i)_{(h,i) \in H \times I}$ is a bijection from the set of $f$-morphisms of $\bigoplus_{i \in I} M^i$ into $\bigoplus_{h \in H} N^h$ onto the set of matrices $(u_{h,i})_{(h,i) \in H \times I}$, where $u_{h,i}$ is an $f$-morphism from $M^i$ into $N^h$.
+Let $f$ be a morphism from B into a manifold $B'$; let H be a second finite set and let $\mathscr{N} = (N^h)_{h \in H}$ be a family of vector bundles with basis $B'$. The mapping $u \to \bigoplus_{i \in I} (\mathrm{pr}_h \circ u \circ j_i)_{(h,i) \in H \times I}$ is a bijection from the set of $f$-morphisms of $\bigoplus_{i \in I} M^i$ into $\bigoplus_{h \in H} N^h$ onto the set of matrices $(u_{h,i})_{(h,i) \in H \times I}$, where $u_{h,i}$ is an $f$-morphism from $M^i$ into $N^h$.
 
 If $I = \{1,2\}$, the sequence
 $$
@@ -343,13 +343,13 @@ Conversely, let $M$ be a vector bundle with basis $B$ and let $M'$ be a vector s
 
 There then exists a vector subbundle $M''$ of $M$ such that $M$ is identified with the direct sum $M' \oplus M''$.
 
-7.7.2. Suppose that $I_+ = \{0\}$ and that $I_- = \{1,2,\ldots,d\}$. We define a vector functor $\eta_d$ of type $I$ and of class $C^r$ by setting $\eta_d(\mathcal{V}) = \mathcal{L}(V_1,\ldots,V_d; V_0)$ and $\eta_d(f)(u) = f_0 \circ u \circ (f_1 \times \cdots \times f_d)$ for $u \in \eta_d(\mathcal{V})$. If $\mathcal{M} = (M_i)_{i \in I}$ is a family of vector bundles with basis $B$, the vector bundle $\eta_d(\mathcal{M})$ is denoted by $\mathcal{L}(M_1,\ldots,M_d; M_0)$.
+7.7.2. Suppose that $I_+ = \{0\}$ and that $I_- = \{1,2,\ldots,d\}$. We define a vector functor $\eta_d$ of type $I$ and of class $C^r$ by setting $\eta_d(\mathscr{V}) = \mathscr{L}(V_1,\ldots,V_d; V_0)$ and $\eta_d(f)(u) = f_0 \circ u \circ (f_1 \times \cdots \times f_d)$ for $u \in \eta_d(\mathscr{V})$. If $\mathscr{M} = (M_i)_{i \in I}$ is a family of vector bundles with basis $B$, the vector bundle $\eta_d(\mathscr{M})$ is denoted by $\mathscr{L}(M_1,\ldots,M_d; M_0)$.
 
-Let $u$ be a multilinear morphism from $M_1 \times_B \cdots \times_B M_d$ into $M_0$. The mapping $\hat{u} : b \mapsto u_b$ is then a section of $\mathcal{L}(M_1,\ldots,M_d; M_0)$ and the mapping $u \mapsto \hat{u}$ is bijective.
+Let $u$ be a multilinear morphism from $M_1 \times_B \cdots \times_B M_d$ into $M_0$. The mapping $\hat{u} : b \mapsto u_b$ is then a section of $\mathscr{L}(M_1,\ldots,M_d; M_0)$ and the mapping $u \mapsto \hat{u}$ is bijective.
 
-7.7.3. Retain the notations of 7.7.2 and suppose moreover that $d = 1$. The vector bundle $\mathcal{L}(M_1; M_0)$ is then called the bundle of homomorphisms from $M_1$ into $M_0$. Its sections correspond to the $B$-morphisms from $M_1$ into $M_0$.
+7.7.3. Retain the notations of 7.7.2 and suppose moreover that $d = 1$. The vector bundle $\mathscr{L}(M_1; M_0)$ is then called the bundle of homomorphisms from $M_1$ into $M_0$. Its sections correspond to the $B$-morphisms from $M_1$ into $M_0$.
 
-If moreover $M_0$ is the trivial bundle $K_B$, the vector bundle $\mathcal{L}(M_1; K_B)$ is called the dual of $M = M_1$ and is denoted by $M'$: the fibre $(M')_b$ is the space of continuous linear forms on the fibre $M_b$ of $M$ at the point $b \in B$.
+If moreover $M_0$ is the trivial bundle $K_B$, the vector bundle $\mathscr{L}(M_1; K_B)$ is called the dual of $M = M_1$ and is denoted by $M'$: the fibre $(M')_b$ is the space of continuous linear forms on the fibre $M_b$ of $M$ at the point $b \in B$.
 
 If $s$ (resp. $t$) is a section of $M$ (resp. $M'$) over an open set $U$ of $B$, the mapping $b \mapsto (b, \langle s(b), t(b) \rangle)$ is a section, denoted $\langle s, t \rangle$ of the trivial bundle $K_B$.$^1$
 
@@ -361,11 +361,11 @@ In nos. 7.8.1 to 7.8.5, it is assumed that $K$ is of characteristic 0 or that th
 
 $^1$ When $M$ is of finite rank, $M^*$ is written instead of $M'$.
 
-vector functor $\alpha_d$ by denoting by $\alpha_d(\mathcal{V})$ the Banach space of continuous alternating $d$-linear mappings from $V_1^d$ into $V_0$ and by setting $\alpha_d(f)(u) = f_0 \circ u \circ f_1^d$ for $u \in \alpha_d(\mathcal{V})$. The vector bundle $\alpha_d((M_1, M_0))$ is denoted $\mathrm{Alt}^d(M_1; M_0)$ and is called the vector bundle of alternating $d$-linear mappings from $M_1$ into $M_0$.
+vector functor $\alpha_d$ by denoting by $\alpha_d(\mathscr{V})$ the Banach space of continuous alternating $d$-linear mappings from $V_1^d$ into $V_0$ and by setting $\alpha_d(f)(u) = f_0 \circ u \circ f_1^d$ for $u \in \alpha_d(\mathscr{V})$. The vector bundle $\alpha_d((M_1, M_0))$ is denoted $\mathrm{Alt}^d(M_1; M_0)$ and is called the vector bundle of alternating $d$-linear mappings from $M_1$ into $M_0$.
 
-The canonical injection of $\mathrm{Alt}^d(M_1; M_0)$ into $\mathcal{L}(M_1, \ldots, M_1; M_0)$ is a morphism of vector bundles; $\mathrm{Alt}^d(M_1; M_0)$ is a vector subbundle of $\mathcal{L}(M_1, \ldots, M_1; M_0)$.
+The canonical injection of $\mathrm{Alt}^d(M_1; M_0)$ into $\mathscr{L}(M_1, \ldots, M_1; M_0)$ is a morphism of vector bundles; $\mathrm{Alt}^d(M_1; M_0)$ is a vector subbundle of $\mathscr{L}(M_1, \ldots, M_1; M_0)$.
 
-One has $\mathrm{Alt}^1(M_1; M_0) = \mathcal{L}(M_1; M_0)$. We put $\mathrm{Alt}^0(M_1; M_0) = M_0$.
+One has $\mathrm{Alt}^1(M_1; M_0) = \mathscr{L}(M_1; M_0)$. We put $\mathrm{Alt}^0(M_1; M_0) = M_0$.
 
 If $\omega$ is a section $^1$ of $\mathrm{Alt}^d(M_1; M_0)$ and if $s_1, \ldots, s_d$ are sections of $M_1$, there exists one and only one section of $M_0$, denoted $\omega(s_1, \ldots, s_d)$, such that
 $$
@@ -390,11 +390,11 @@ $$
 \sigma(1) < \cdots < \sigma(d) \quad \text{and} \quad \sigma(d+1) < \cdots < \sigma(d+e).
 $$
 
-7.8.3. Let $M$ be a vector bundle and $A$ an algebra bundle, with base $B$. Suppose that the fibres $A_b$ of $A$ are associative and commutative algebras, possessing a unit element, denoted by $e_b$. For every open set $U$ of $B$, we shall denote by $\Omega^d(U)$ the $\mathcal{C}^r(U)$-module formed by the sections of the bundle $\mathrm{Alt}^d(M; A)$ and by $\Omega^*(U)$ the direct sum of the $\Omega^d(U)$ for $d \geq 0$. The multiplications on each fibre define a pairing of $A \times_B A$ into $A$, whence (7.8.2) a graded algebra structure on $\Omega^*(U)$, which is associative and anticommutative. The subalgebra $\Omega^0(U)$ is the algebra of
+7.8.3. Let $M$ be a vector bundle and $A$ an algebra bundle, with base $B$. Suppose that the fibres $A_b$ of $A$ are associative and commutative algebras, possessing a unit element, denoted by $e_b$. For every open set $U$ of $B$, we shall denote by $\Omega^d(U)$ the $\mathscr{C}^r(U)$-module formed by the sections of the bundle $\mathrm{Alt}^d(M; A)$ and by $\Omega^*(U)$ the direct sum of the $\Omega^d(U)$ for $d \geq 0$. The multiplications on each fibre define a pairing of $A \times_B A$ into $A$, whence (7.8.2) a graded algebra structure on $\Omega^*(U)$, which is associative and anticommutative. The subalgebra $\Omega^0(U)$ is the algebra of
 
 ¹ The reader should take care not to confuse this use of the letter $\omega$ with that defined p. 10.
 
-sections of A. An element $\omega$ of $\Omega^1(U)$ identifies with a $U$-morphism of $M|U$ into $A|U$ (7.7.3): if $s \in \mathcal{S}'_M(U)$, we shall denote by $\langle \omega, s \rangle$ the section $\omega(s)$ of A (7.4.2). Let $s_j \in \mathcal{S}'_M(U)$ and $\omega_j \in \Omega^1(U)$ (for $1 \leq j \leq d$); we have:
+sections of A. An element $\omega$ of $\Omega^1(U)$ identifies with a $U$-morphism of $M|U$ into $A|U$ (7.7.3): if $s \in \mathscr{S}'_M(U)$, we shall denote by $\langle \omega, s \rangle$ the section $\omega(s)$ of A (7.4.2). Let $s_j \in \mathscr{S}'_M(U)$ and $\omega_j \in \Omega^1(U)$ (for $1 \leq j \leq d$); we have:
 
 (2) $$
 \omega(s_1, \ldots, s_d) = \det(\langle \omega_i, s_j \rangle) \quad \text{for } \omega = \omega_1 \wedge \ldots \wedge \omega_d.
@@ -402,7 +402,7 @@ $$
 
 7.8.4. Let $d \geq 1$. There exists a pairing $i$ of $M \times_B \mathrm{Alt}^d(M; A)$ into $\mathrm{Alt}^{d-1}(M; A)$ whose restriction to each fibre is given by the right interior product (cf. A, III, p. 156). If $s$ is a section of $M$ on the open set $U$ and if $\omega \in \Omega^d(U)$, we denote by $i(s)\omega$ the section $i(s, \omega)$ of $\mathrm{Alt}^{d-1}(M; A)$ on $U$; we set $i(s)\omega = 0$ for $\omega$ in $\Omega^0(U)$.
 
-One thus associates with every section $s$ of $M$ on $U$ an endomorphism of the $\mathcal{C}'(U)$-module $\Omega^*(U)$. We have the following formulas:
+One thus associates with every section $s$ of $M$ on $U$ an endomorphism of the $\mathscr{C}'(U)$-module $\Omega^*(U)$. We have the following formulas:
 
 (3) $$(i(s)\omega)(s_1, \ldots, s_{d-1}) = \omega(s, s_1, \ldots, s_{d-1}) \quad \text{for } \omega \in \Omega^d(U), d \geq 1$$
 (4) $$i(s) \circ i(s) = 0$$
@@ -412,7 +412,7 @@ One thus associates with every section $s$ of $M$ on $U$ an endomorphism of the 
 
 In the last formula, the $\omega_i$ are in $\Omega^1(U)$ and the sign $\hat{}$ indicates that the symbol which it surmounts is to be omitted.
 
-All the operations described above on the sections are multilinear over the ring $\mathcal{C}'(U; K)$.
+All the operations described above on the sections are multilinear over the ring $\mathscr{C}'(U; K)$.
 
 7.8.5. Let L be a Banach algebra over K. The definitions and results of Nos. 7.7 and 7.8 extend to the case of vector bundles over L: one defines in an analogous manner the bundles of L-multilinear or L-multilinear alternating mappings.
 
@@ -420,9 +420,9 @@ All the operations described above on the sections are multilinear over the ring
 
 We retain the notations of 7.6. Moreover, we denote by L a commutative field endowed with a structure of finite-dimensional K-algebra and we call vector bundle a vector bundle over L, with base B and locally finite rank.
 
-7.9.1. Suppose that $I_- = \varnothing$. If $\mathcal{V}$ and $\mathcal{V}'$ are two families indexed by I of finite-dimensional vector spaces over L, we denote by $\tau(\mathcal{V})$ the tensor product of the $V_i$ for $i \in I$ (A, II, p. 71) and if $f \in \mathrm{Hom}(\mathcal{V}, \mathcal{V}')$, we set $\tau(f) = \otimes f_i$. We thus define a vector functor over L in finite dimension and if $\mathcal{M} = (M_i)_{i \in I}$ is a family of vector bundles, we denote by $\bigotimes_{i \in I} M_i$ and call the tensor product (over L) of the $M_i$ the vector bundle $\tau(\mathcal{M})$.
+7.9.1. Suppose that $I_- = \varnothing$. If $\mathscr{V}$ and $\mathscr{V}'$ are two families indexed by I of finite-dimensional vector spaces over L, we denote by $\tau(\mathscr{V})$ the tensor product of the $V_i$ for $i \in I$ (A, II, p. 71) and if $f \in \mathrm{Hom}(\mathscr{V}, \mathscr{V}')$, we set $\tau(f) = \otimes f_i$. We thus define a vector functor over L in finite dimension and if $\mathscr{M} = (M_i)_{i \in I}$ is a family of vector bundles, we denote by $\bigotimes_{i \in I} M_i$ and call the tensor product (over L) of the $M_i$ the vector bundle $\tau(\mathscr{M})$.
 
-If $s_i$ is a section of $M_i$ on the open set U of B (for $i \in I$), the mapping $b \mapsto \bigotimes_{i \in I} s_i(b)$ is a section of $\bigotimes_{i \in I} M_i$, denoted by $\bigotimes_{i \in I} s_i$. The mapping $(s_i)_{i \in I} \mapsto \bigotimes_{i \in I} s_i$ is multilinear over the ring $\mathcal{C}^r(U;L)$.
+If $s_i$ is a section of $M_i$ on the open set U of B (for $i \in I$), the mapping $b \mapsto \bigotimes_{i \in I} s_i(b)$ is a section of $\bigotimes_{i \in I} M_i$, denoted by $\bigotimes_{i \in I} s_i$. The mapping $(s_i)_{i \in I} \mapsto \bigotimes_{i \in I} s_i$ is multilinear over the ring $\mathscr{C}^r(U;L)$.
 
 7.9.2. The canonical isomorphisms defined in Alg., Chap. II provide isomorphisms of vector functors. It follows from 7.6.4 that there are isomorphisms of vector bundles. For example, there are canonical isomorphisms:
 
@@ -430,7 +430,7 @@ $$
 (M_1 \oplus M_2) \otimes M_3 \longrightarrow (M_1 \otimes M_3) \oplus (M_2 \otimes M_3)
 $$
 $$
-M_1^* \otimes M_2 \longrightarrow \mathcal{L}(M_1; M_2)
+M_1^* \otimes M_2 \longrightarrow \mathscr{L}(M_1; M_2)
 $$
 
 etc.
@@ -468,7 +468,7 @@ The definitions and properties of the interior products given in Alg., Chap. III
 
 7.10.1. Let $F$ be a Banach space. A vector bundle $M$ with base $B$ is said to be pure of type $F$ if all the fibres $M_b$ of $M$ (for $b \in B$) are isomorphic (as Banach spaces) to $F$.
 
-Let $M$ be a vector bundle of base $B$ pure of type $F$ and let $P$ be the open subvariety of the vector bundle $\mathcal{L}(F_B; M)$ composed of the pairs $(b, u)$ where $b \in B$ and where $u$ is an isomorphism of $F_b = F$ onto $M_b$. The group $\mathrm{GL}(F)$ of automorphisms of $F$ operates on the right on $P$ by setting $(b, u) \cdot g = (b, u \circ g)$ for $(b, u) \in P$ and $g \in \mathrm{GL}(F)$. Let $\pi_P$ denote the mapping $(b, u) \mapsto b$ from P into B. The quadruplet $\lambda = (P, GL(F), B, \pi_P)$ (where $GL(F)$ is endowed with its canonical structure of group variety (5.12.2)) is a principal fibration (6.2.1): it is called the fibration of frames of M. The mapping $((b, u), h) \mapsto u(h)$ from $P \times F$ into M endows M with a structure of associated bundle to $\lambda$, of fibre type F (6.5.1).
+Let $M$ be a vector bundle of base $B$ pure of type $F$ and let $P$ be the open subvariety of the vector bundle $\mathscr{L}(F_B; M)$ composed of the pairs $(b, u)$ where $b \in B$ and where $u$ is an isomorphism of $F_b = F$ onto $M_b$. The group $\mathrm{GL}(F)$ of automorphisms of $F$ operates on the right on $P$ by setting $(b, u) \cdot g = (b, u \circ g)$ for $(b, u) \in P$ and $g \in \mathrm{GL}(F)$. Let $\pi_P$ denote the mapping $(b, u) \mapsto b$ from P into B. The quadruplet $\lambda = (P, GL(F), B, \pi_P)$ (where $GL(F)$ is endowed with its canonical structure of group variety (5.12.2)) is a principal fibration (6.2.1): it is called the fibration of frames of M. The mapping $((b, u), h) \mapsto u(h)$ from $P \times F$ into M endows M with a structure of associated bundle to $\lambda$, of fibre type F (6.5.1).
 
 When $F = K^n$, one can identify an isomorphism $u$ of F onto $M_b$ with the basis of $M_b$ image by $u$ of the canonical basis of $K^n$. The fibred space of frames of M is then identified with the open subvariety of $M \times_B \ldots \times_B M$ formed by the bases $(e_1, \ldots, e_n)$ of the different fibres $M_b$.
 
@@ -494,9 +494,9 @@ be a principal fibration with base B and suppose that $G_i$ operates on the left
 $$
 \varphi_i : G_i \to GL(V_i).
 $$
-Let $M_i$ be a fibre space associated with $\lambda_i$ of fibre type $V_i$. Put $\mathcal{M} = (M_i)_{i \in I}$ and $\mathcal{V} = (V_i)_{i \in I}$ and let $\lambda$ be the product principal fibration of the $\lambda_i$ over B (6.2.5). Put $\hat{\lambda} = (\mathbf{P}, G, B, \pi_p)$, with $G = \prod_{i \in I} G_i$.
+Let $M_i$ be a fibre space associated with $\lambda_i$ of fibre type $V_i$. Put $\mathscr{M} = (M_i)_{i \in I}$ and $\mathscr{V} = (V_i)_{i \in I}$ and let $\lambda$ be the product principal fibration of the $\lambda_i$ over B (6.2.5). Put $\hat{\lambda} = (\mathbf{P}, G, B, \pi_p)$, with $G = \prod_{i \in I} G_i$.
 
-Let now $\tau$ be a vector functor. For $g = (g_i) \in G$, let $\varphi(g)$ be the element of $\mathrm{Hom}(\mathcal{V}, \mathcal{V})$ defined by:
+Let now $\tau$ be a vector functor. For $g = (g_i) \in G$, let $\varphi(g)$ be the element of $\mathrm{Hom}(\mathscr{V}, \mathscr{V})$ defined by:
 
 $$
 \varphi(g)_i = \varphi_i(g_i) \quad \text{si } i \in I_+
@@ -505,9 +505,9 @@ $$
 \varphi(g)_i = \varphi_i(g_i)^{-1} \quad \text{si } i \in I_-
 $$
 
-The group $G$ then operates on $\tau(\mathcal{V})$ by means of the morphism $g \mapsto \tau(\varphi(g))$ from $G$ into $\mathbf{GL}(\tau(\mathcal{V}))$.
+The group $G$ then operates on $\tau(\mathscr{V})$ by means of the morphism $g \mapsto \tau(\varphi(g))$ from $G$ into $\mathbf{GL}(\tau(\mathscr{V}))$.
 
-Let on the other hand $x = (x_i)$ be a point of $\mathbf{P}$ and let $b = \pi_p(x)$. For each $i$, the mapping $\theta_{x_i}$ defined in No. 6.5.2 is an isomorphism of $V_i$ onto $(M_i)_b$. Let $\theta_x$ be the element of $\mathrm{Hom}(\mathcal{V}, ((M_i)_b)_{i \in I})$ defined by:
+Let on the other hand $x = (x_i)$ be a point of $\mathbf{P}$ and let $b = \pi_p(x)$. For each $i$, the mapping $\theta_{x_i}$ defined in No. 6.5.2 is an isomorphism of $V_i$ onto $(M_i)_b$. Let $\theta_x$ be the element of $\mathrm{Hom}(\mathscr{V}, ((M_i)_b)_{i \in I})$ defined by:
 
 $$
 (\theta_x)_i = \theta_{x_i} \quad \text{si } i \in I_+
@@ -516,7 +516,7 @@ $$
 (\theta_x)_i = \theta_{x_i}^{-1} \quad \text{si } i \in I_-
 $$
 
-Let $\rho$ be the mapping $(x, h) \mapsto (b, \tau(\theta_x)(h))$ from $\mathbf{P} \times \tau(\mathcal{V})$ into the vector bundle $\tau(\mathcal{M})$; the mapping $\rho$ endows $\tau(\mathcal{M})$ with a structure of fibre space associated with $\lambda$ of fibre type $\tau(\mathcal{V})$.
+Let $\rho$ be the mapping $(x, h) \mapsto (b, \tau(\theta_x)(h))$ from $\mathbf{P} \times \tau(\mathscr{V})$ into the vector bundle $\tau(\mathscr{M})$; the mapping $\rho$ endows $\tau(\mathscr{M})$ with a structure of fibre space associated with $\lambda$ of fibre type $\tau(\mathscr{V})$.
 
 These considerations generalize to the case of finite-dimensional vector functors, or of vector functors over a field $L$ endowed with a structure of finite-dimensional K-algebra.
 
