@@ -12,7 +12,7 @@ pdf_pages: 0276-0277
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a98319c9a19b5d5a369f557a7faf071f143d47d749676370225e5c752fee5411
+content_sha256: 35f496560e8f566007bd110b49e01ad3d0d5f4d3d4c84b10d1aeb9be9c5d5257
 ---
 
 ## INDEX DES NOTATIONS
@@ -47,7 +47,7 @@ $\int f d\mu_1 d\mu_2 \ldots d\mu_n, \int \ldots \int f d\mu_1 d\mu_2 \ldots d\m
 $\bigotimes_{\lambda \in L} \mu_\lambda$: III, 4, 6.
 $\varphi_A$: IV, 1, 1.
 
-\mathcal{H}_+, \mathcal{J}_+(X), \mathcal{J}_+ : IV, 1, 1.
+$\mathcal{H}_+, \mathcal{J}_+(X), \mathcal{J}_+$ : IV, 1, 1.
 $\mu^*(f)$ ($\mu$ mesure positive): IV, 1, 1, IV, 1, 3 et IV, 4, exerc. 5.
 $\int^* f d\mu, \int^* f\mu, \int^* f(x) d\mu(x), \int^* f(x)\mu(x)$ ($f$ fonction $\geqslant 0$, $\mu$ mesure positive): IV, 1, 3.
 $\mu^*(A)$ (A partie de X, $\mu$ mesure positive): IV, 1, 2 et IV, 1, 4.
