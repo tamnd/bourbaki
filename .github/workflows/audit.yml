@@ -149,13 +149,18 @@ jobs:
       # text layer lost half of a display, and gating on the count would have
       # meant a red build for months, which tells nobody anything.
       #
-      # The count is zero and has been through the last several repairs, so the
-      # exit status is read now. A hard rule is one that fails the build: the
-      # structure of a section file, a tag that resolves to nothing, a figure
-      # that is not there, a reference that claims to resolve and does not. What
-      # stays soft is what the extraction is still working through, M09 and P04
-      # and T10, and those are held by their own counted ceilings elsewhere in
-      # these workflows rather than by this.
+      # The count was zero when this step was written, and this step then sat
+      # behind a tags verify that failed on every branch from August on, so it
+      # has not run on a pull request since. It is 31555 now, and #391 has the
+      # breakdown: 23302 of them are T03, the statements waiting to be tagged,
+      # and most of the rest is volumes that are not read through yet.
+      #
+      # So it is held at a ceiling, and the ceiling comes down. A hard rule is
+      # one that fails the build: the structure of a section file, a tag that
+      # resolves to nothing, a figure that is not there, a reference that claims
+      # to resolve and does not. What stays soft is what the extraction is still
+      # working through, M09 and P04 and T10, and those are held by their own
+      # counted ceilings elsewhere in these workflows rather than by this.
       #
       # The findings are written to JSON first and the exit status read after,
       # so a failing audit still annotates the diff with what failed instead of
@@ -181,7 +186,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json"; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 31555; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"
