@@ -13,6 +13,7 @@
 {"from":"","from_label":"ac-vi-s2-prop-6","to_label":"ac-vi-s1-thm-3","kind":"cites","raw":"Theorem 3 of § 1, no. 3","form":"section","resolved_by":"section-no","file":"content/en/ac/VI/02_s2_places.md","line":191},
 {"from":"","from_label":"ac-vi-s2-ex-2","to_label":"alg-viii-s8","kind":"cites","raw":"Algebra, Chapter VIII, § 8","form":"section","resolved_by":"section","file":"content/en/ac/VI/exercises/s2/02.md","line":14},
 {"from":"","from_label":"ac-vi-s2-ex-3","to_label":"alg-vi-s2-ex-8","kind":"cites","raw":"Algebra, Chapter VI, § 2, Exercise 8","form":"section","resolved_by":"exercise","file":"content/en/ac/VI/exercises/s2/03.md","line":14},
-{"from":"","from_label":"ac-vi-s2-ex-3","to_label":"alg-vi-s2-ex-15","kind":"cites","raw":"Algebra, Chapter VI, § 2, Exercise 15","form":"section","resolved_by":"exercise","file":"content/en/ac/VI/exercises/s2/03.md","line":28},
-{"from":"","from_label":"ac-vi-s2-ex-3","to_label":"ac-v-s2-ex-14","kind":"cites","raw":"Chapter V, § 2, Exercise 14","form":"section","resolved_by":"exercise","file":"content/en/ac/VI/exercises/s2/03.md","line":36}
+{"from":"","from_label":"ac-vi-s2-ex-4","to_label":"alg-vi-s2-ex-15","kind":"cites","raw":"Algebra, Chapter VI, § 2, Exercise 15","form":"section","resolved_by":"exercise","file":"content/en/ac/VI/exercises/s2/04.md","line":20},
+{"from":"","from_label":"ac-vi-s2-ex-5","to_label":"ac-vi-s2-ex-4","kind":"cites","raw":"Exercise 4","form":"local","resolved_by":"exercise","file":"content/en/ac/VI/exercises/s2/05.md","line":18},
+{"from":"","from_label":"ac-vi-s2-ex-6","to_label":"ac-v-s2-ex-14","kind":"cites","raw":"Chapter V, § 2, Exercise 14","form":"section","resolved_by":"exercise","file":"content/en/ac/VI/exercises/s2/06.md","line":14}
 ]}

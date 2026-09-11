@@ -54,6 +54,7 @@
 {"from":"","from_label":"top-x-s1-ex-7","to_label":"top-i-s8-prop-2-cor-2","kind":"cites","raw":"Corollary 2","form":"attached","resolved_by":"parent-label","file":"content/en/top/X/exercises/s1/07.md","line":13},
 {"from":"","from_label":"top-x-s1-ex-7","to_label":"top-ii-s1-ex-5","kind":"cites","raw":"Chapter II, § 1, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/top/X/exercises/s1/07.md","line":15},
 {"from":"","from_label":"top-x-s1-ex-8","to_label":"top-ix-s6","kind":"cites","raw":"Chapter IX, § 6","form":"section","resolved_by":"section","file":"content/en/top/X/exercises/s1/08.md","line":19},
+{"from":"","from_label":"top-x-s1-ex-9","to_label":"top-ix-s5-ex-22","kind":"cites","raw":"Chapter IX, § 5, Exercise 22","form":"section","resolved_by":"exercise","file":"content/en/top/X/exercises/s1/09.md","line":13},
 {"from":"","from_label":"top-x-s1-ex-12","to_label":"top-iii-s6","kind":"cites","raw":"Chapter III, § 6, no. 3","form":"section","resolved_by":"section","file":"content/en/top/X/exercises/s1/12.md","line":13},
 {"from":"","from_label":"top-x-s1-ex-12","to_label":"top-iii-s6-ex-12","kind":"cites","raw":"Chapter III, § 6, Exercise 12","form":"section","resolved_by":"exercise","file":"content/en/top/X/exercises/s1/12.md","line":15},
 {"from":"","from_label":"top-x-s1-ex-12","to_label":"top-i-s9","kind":"cites","raw":"Chapter I, § 9, no. 9","form":"section","resolved_by":"section","file":"content/en/top/X/exercises/s1/12.md","line":17}

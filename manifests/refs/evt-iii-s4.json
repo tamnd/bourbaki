@@ -24,7 +24,7 @@
 {"from":"","from_label":"evt-iii-s4-ex-6","to_label":"evt-iii-s2","kind":"cites","raw":"III, p. 40","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/06.md","line":16},
 {"from":"","from_label":"evt-iii-s4-ex-9","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 75","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/09.md","line":14},
 {"from":"","from_label":"evt-iii-s4-ex-9","to_label":"evt-iii-s3","kind":"cites","raw":"III, § 3","form":"section","resolved_by":"section","file":"content/en/evt/III/exercises/s4/09.md","line":14},
-{"from":"","from_label":"evt-iii-s4-ex-10","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 75","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/10.md","line":14},
+{"from":"","from_label":"evt-iii-s4-ex-9","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 75","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/09.md","line":14},
 {"from":"","from_label":"evt-iii-s4-ex-13","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 33","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/13.md","line":18},
 {"from":"","from_label":"evt-iii-s4-ex-14","to_label":"evt-iv-s2","kind":"cites","raw":"IV, p. 14","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/14.md","line":21},
 {"from":"","from_label":"evt-iii-s4-ex-15","to_label":"evt-iii-s4","kind":"cites","raw":"III, p. 24","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/15.md","line":14},
@@ -36,7 +36,7 @@
 {"from":"","from_label":"evt-iii-s4-ex-18","to_label":"evt-ii-s4","kind":"cites","raw":"II, p. 33","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/18.md","line":15},
 {"from":"","from_label":"evt-iii-s4-ex-18","to_label":"evt-iii-s4","kind":"cites","raw":"III, p. 44","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/18.md","line":17},
 {"from":"","from_label":"evt-iii-s4-ex-21","to_label":"evt-iii-s2","kind":"cites","raw":"III, p. 40","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/21.md","line":14},
-{"from":"","from_label":"evt-iii-s4-ex-21","kind":"cites","raw":"IX, § 5","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/III/exercises/s4/21.md","line":17},
-{"from":"","from_label":"evt-iii-s4-ex-21","to_label":"evt-ii-s5","kind":"cites","raw":"II, p. 80","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/21.md","line":17},
-{"from":"","from_label":"evt-iii-s4-ex-21","to_label":"evt-iii-s4","kind":"cites","raw":"III, p. 44","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/21.md","line":20}
+{"from":"","from_label":"evt-iii-s4-ex-22","kind":"cites","raw":"IX, § 5","form":"section","resolved_by":"out-of-corpus","chapter":"IX","file":"content/en/evt/III/exercises/s4/22.md","line":15},
+{"from":"","from_label":"evt-iii-s4-ex-22","to_label":"evt-ii-s5","kind":"cites","raw":"II, p. 80","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/22.md","line":15},
+{"from":"","from_label":"evt-iii-s4-ex-22","to_label":"evt-iii-s4","kind":"cites","raw":"III, p. 44","form":"page","resolved_by":"section","file":"content/en/evt/III/exercises/s4/22.md","line":18}
 ]}

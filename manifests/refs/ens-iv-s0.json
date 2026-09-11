@@ -8,7 +8,7 @@
 {"from":"","from_label":"ens-iv-s0","to_label":"alg-viii-s11","kind":"cites","raw":"VIII, p. 201","form":"page","resolved_by":"section","file":"content/en/ens/IV/historical_note.md","line":116},
 {"from":"","from_label":"ens-iv-s0","to_label":"alg-iii-s2","kind":"cites","raw":"III, p. 456","form":"page","resolved_by":"section","file":"content/en/ens/IV/historical_note.md","line":120},
 {"from":"","from_label":"ens-iv-s0","to_label":"alg-i-s4","kind":"cites","raw":"I, p. 40","form":"page","resolved_by":"section","file":"content/en/ens/IV/historical_note.md","line":160},
-{"from":"","from_label":"ens-iv-s0","kind":"cites","raw":"Summary of Results, § 4, no. 10","form":"section","resolved_by":"out-of-corpus","book":"ER","file":"content/en/ens/IV/historical_note.md","line":168},
+{"from":"","from_label":"ens-iv-s0","to_label":"ens-er-s4","kind":"cites","raw":"Summary of Results, § 4, no. 10","form":"section","resolved_by":"section","file":"content/en/ens/IV/historical_note.md","line":168},
 {"from":"","from_label":"ens-iv-s0","to_label":"alg-iii-s2","kind":"cites","raw":"Chapter III, § 2","form":"section","resolved_by":"section","file":"content/en/ens/IV/historical_note.md","line":168},
 {"from":"","from_label":"ens-iv-s0","to_label":"alg-i-s2","kind":"cites","raw":"Chapter I, § 2, no. 2","form":"section","resolved_by":"section","file":"content/en/ens/IV/historical_note.md","line":190},
 {"from":"","from_label":"ens-iv-s0","kind":"cites","raw":"IX, p. 280","form":"page","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/ens/IV/historical_note.md","line":300},

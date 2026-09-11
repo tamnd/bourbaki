@@ -111,6 +111,7 @@
 {"from":"","from_label":"ac-i-s2-ex-13","to_label":"ac-ii-s2-ex-11","kind":"cites","raw":"Chapter II, § 2, Exercise 11","form":"section","resolved_by":"exercise","file":"content/en/ac/I/exercises/s2/13.md","line":14},
 {"from":"","from_label":"ac-i-s2-ex-13","to_label":"alg-ii-s4","kind":"cites","raw":"Algebra, Chapter II, § 4, no. 1","form":"section","resolved_by":"section","file":"content/en/ac/I/exercises/s2/13.md","line":20},
 {"from":"","from_label":"ac-i-s2-ex-14","to_label":"alg-ii-s4-ex-5","kind":"cites","raw":"Algebra, Chapter II, § 4, Exercise 5","form":"section","resolved_by":"exercise","file":"content/en/ac/I/exercises/s2/14.md","line":14},
+{"from":"","from_label":"ac-i-s2-ex-14","to_label":"alg-ii-s2-ex-11","kind":"cites","raw":"Algebra, Chapter II, § 2, Exercise 11","form":"section","resolved_by":"exercise","file":"content/en/ac/I/exercises/s2/14.md","line":22},
 {"from":"","from_label":"ac-i-s2-ex-15","to_label":"ac-i-s2-ex-14","kind":"cites","raw":"Exercise 14","form":"local","resolved_by":"exercise","file":"content/en/ac/I/exercises/s2/15.md","line":26},
 {"from":"","from_label":"ac-i-s2-ex-15","to_label":"ac-i-s2-ex-14","kind":"cites","raw":"§2, Exercise 14","form":"section","resolved_by":"exercise","file":"content/en/ac/I/exercises/s2/15.md","line":26},
 {"from":"","from_label":"ac-i-s2-ex-16","to_label":"ac-i-s2-n6-cor-1","kind":"cites","raw":"Corollary to Proposition 7","form":"attached","resolved_by":"parent-label","file":"content/en/ac/I/exercises/s2/16.md","line":20},

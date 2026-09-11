@@ -18,10 +18,15 @@
 {"from":"","from_label":"alg-ii-s9","to_label":"alg-iv-s4","kind":"cites","raw":"IV, § 4","form":"section","resolved_by":"section","file":"content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md","line":343},
 {"from":"","from_label":"alg-ii-s9","to_label":"alg-vii-s1","kind":"cites","raw":"VII, § 1","form":"section","resolved_by":"section","file":"content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md","line":343},
 {"from":"","from_label":"alg-ii-s9","to_label":"alg-ii-s7","kind":"cites","raw":"§ 7, no. 4","form":"section","resolved_by":"section","file":"content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md","line":387},
+{"from":"","from_label":"alg-ii-s9","to_label":"alg-ii-s9-ex-10","kind":"cites","raw":"Exercise 10","form":"local","resolved_by":"exercise","file":"content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md","line":395},
 {"from":"","from_label":"alg-ii-s9","to_label":"alg-ii-s1","kind":"cites","raw":"§ 1, no. 11","form":"section","resolved_by":"section","file":"content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md","line":413},
 {"from":"","from_label":"alg-ii-s9","to_label":"alg-ii-s9-def-4","kind":"cites","raw":"no. 5, Definition 4","form":"local","resolved_by":"in-section","file":"content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md","line":415},
 {"from":"","from_label":"alg-ii-s9-ex-2","to_label":"alg-ii-s9-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/02.md","line":15},
 {"from":"","from_label":"alg-ii-s9-ex-4","to_label":"alg-ii-s9-ex-3","kind":"cites","raw":"Exercise 3","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/04.md","line":15},
-{"from":"","from_label":"alg-ii-s9-ex-6","to_label":"alg-ii-s9-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/06.md","line":22},
-{"from":"","from_label":"alg-ii-s9-ex-6","to_label":"alg-ii-s1","kind":"cites","raw":"§ 1, no. 13","form":"section","resolved_by":"section","file":"content/en/alg/II/exercises/s9/06.md","line":26}
+{"from":"","from_label":"alg-ii-s9-ex-7","to_label":"alg-ii-s9-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/07.md","line":16},
+{"from":"","from_label":"alg-ii-s9-ex-7","to_label":"alg-ii-s1","kind":"cites","raw":"§ 1, no. 13","form":"section","resolved_by":"section","file":"content/en/alg/II/exercises/s9/07.md","line":20},
+{"from":"","from_label":"alg-ii-s9-ex-10","to_label":"alg-ii-s9-ex-10","kind":"cites","raw":"Exercise 10","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/10.md","line":95},
+{"from":"","from_label":"alg-ii-s9-ex-10","to_label":"alg-ii-s9-ex-10","kind":"cites","raw":"Exercise 10","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/10.md","line":99},
+{"from":"","from_label":"alg-ii-s9-ex-10","to_label":"alg-ii-s9-ex-7","kind":"cites","raw":"Exercise 7","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/10.md","line":101},
+{"from":"","from_label":"alg-ii-s9-ex-10","to_label":"alg-ii-s9-ex-10","kind":"cites","raw":"Exercise 10","form":"local","resolved_by":"exercise","file":"content/en/alg/II/exercises/s9/10.md","line":119}
 ]}

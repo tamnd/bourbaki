@@ -146,6 +146,7 @@
 {"from":"","from_label":"ac-v-s1-ex-15","to_label":"alg-v-s10-thm-1","kind":"cites","raw":"Algebra, Chapter V, § 10, no. 4, Theorem 1","form":"section","resolved_by":"section-no","file":"content/en/ac/V/exercises/s1/15.md","line":16},
 {"from":"","from_label":"ac-v-s1-ex-18","to_label":"ac-v-s1-thm-1","kind":"cites","raw":"Theorem 1","form":"local","resolved_by":"in-section","file":"content/en/ac/V/exercises/s1/18.md","line":14},
 {"from":"","from_label":"ac-v-s1-ex-20","to_label":"ac-v-s3-ex-9","kind":"cites","raw":"§ 3, Exercise 9","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/20.md","line":19},
+{"from":"","from_label":"ac-v-s1-ex-21","to_label":"ac-iii-s3-ex-17","kind":"cites","raw":"Chapter III, § 3, Exercise 17","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/21.md","line":14},
 {"from":"","from_label":"ac-v-s1-ex-22","to_label":"ac-v-s1-ex-11","kind":"cites","raw":"Exercise 11","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/22.md","line":14},
 {"from":"","from_label":"ac-v-s1-ex-25","to_label":"ac-v-s1-prop-20","kind":"cites","raw":"Proposition 20","form":"local","resolved_by":"in-section","file":"content/en/ac/V/exercises/s1/25.md","line":14},
 {"from":"","from_label":"ac-v-s1-ex-25","to_label":"ac-v-s1-ex-24","kind":"cites","raw":"Exercise 24","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/25.md","line":14},
@@ -154,6 +155,7 @@
 {"from":"","from_label":"ac-v-s1-ex-25","to_label":"ac-v-s1-prop-21","kind":"cites","raw":"Proposition 21","form":"local","resolved_by":"in-section","file":"content/en/ac/V/exercises/s1/25.md","line":14},
 {"from":"","from_label":"ac-v-s1-ex-26","to_label":"ac-iv-s2-ex-28","kind":"cites","raw":"Chapter IV, § 2, Exercise 28","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/26.md","line":16},
 {"from":"","from_label":"ac-v-s1-ex-26","to_label":"ac-iv-s1-ex-17","kind":"cites","raw":"Chapter IV, § 1, Exercise 17","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/26.md","line":16},
+{"from":"","from_label":"ac-v-s1-ex-26","to_label":"ac-iv-s2-ex-30","kind":"cites","raw":"Chapter IV, §2, Exercise 30","form":"section","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/26.md","line":16},
 {"from":"","from_label":"ac-v-s1-ex-26","to_label":"ac-v-s1-ex-29","kind":"cites","raw":"Exercise 29","form":"local","resolved_by":"exercise","file":"content/en/ac/V/exercises/s1/26.md","line":16},
 {"from":"","from_label":"ac-v-s1-ex-26","to_label":"ac-iv-s2","kind":"cites","raw":"Chapter IV, § 2","form":"section","resolved_by":"section","file":"content/en/ac/V/exercises/s1/26.md","line":16},
 {"from":"","from_label":"ac-v-s1-ex-26","to_label":"ac-vii-s1-prop-8","kind":"cites","raw":"Chapter VII, § 1, no. 4, Proposition 8","form":"section","resolved_by":"section-no","file":"content/en/ac/V/exercises/s1/26.md","line":20}

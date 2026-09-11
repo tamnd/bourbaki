@@ -36,5 +36,5 @@
 {"from":"","from_label":"alg-v-s13-lem-3","to_label":"alg-v-s13-thm-2","kind":"cites","raw":"Th. 2, c) (V, p. 103","form":"named","resolved_by":"page-map","file":"content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md","line":274},
 {"from":"","from_label":"alg-v-s13-lem-3","to_label":"alg-v-s13-thm-2","kind":"cites","raw":"V, p. 103, Th. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md","line":276},
 {"from":"","from_label":"alg-v-s13-lem-3","to_label":"alg-v-s13-prop-5-cor-2","kind":"cites","raw":"Cor. 2 of Prop. 5 (V, p. 102)","form":"attached","resolved_by":"parent-label","file":"content/en/alg/V/13_s13_p_radical_extensions_of_height_1.md","line":276},
-{"from":"","from_label":"alg-v-s13-ex-1","to_label":"alg-v-s13","kind":"cites","raw":"V, p. 103","form":"page","resolved_by":"section","file":"content/en/alg/V/exercises/s13/01.md","line":14}
+{"from":"","from_label":"alg-v-s13-ex-1","to_label":"alg-v-s13-thm-2","kind":"cites","raw":"V, p. 103, Th. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/V/exercises/s13/01.md","line":14}
 ]}

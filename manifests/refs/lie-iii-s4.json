@@ -70,5 +70,7 @@
 {"from":"","from_label":"lie-iii-s4-thm-6-cor-2","to_label":"lie-iii-s4-thm-6-cor-1","kind":"cites","raw":"Corollary 1","form":"local","resolved_by":"nearest-above","file":"content/en/lie/III/04_s4_passage_from_lie_algebras_to_lie_groups.md","line":657},
 {"from":"","from_label":"lie-iii-s4-ex-1","to_label":"lie-iii-s1-prop-18","kind":"cites","raw":"Proposition 18 of § 1","form":"section","resolved_by":"section-no","file":"content/en/lie/III/exercises/s4/01.md","line":14},
 {"from":"","from_label":"lie-iii-s4-ex-2","to_label":"lie-iii-s4-ex-1","kind":"cites","raw":"Exercise 1","form":"local","resolved_by":"exercise","file":"content/en/lie/III/exercises/s4/02.md","line":16},
-{"from":"","from_label":"lie-iii-s4-ex-3","to_label":"lie-iii-s4-thm-4","kind":"cites","raw":"Theorem 4","form":"local","resolved_by":"in-section","file":"content/en/lie/III/exercises/s4/03.md","line":17}
+{"from":"","from_label":"lie-iii-s4-ex-3","to_label":"lie-iii-s4-thm-4","kind":"cites","raw":"Theorem 4","form":"local","resolved_by":"in-section","file":"content/en/lie/III/exercises/s4/03.md","line":17},
+{"from":"","from_label":"lie-iii-s4-ex-11","to_label":"lie-iii-s4-ex-10","kind":"cites","raw":"Exercise 10","form":"local","resolved_by":"exercise","file":"content/en/lie/III/exercises/s4/11.md","line":26},
+{"from":"","from_label":"lie-iii-s4-ex-13","to_label":"lie-iii-s4-ex-11","kind":"cites","raw":"Exercise 11","form":"local","resolved_by":"exercise","file":"content/en/lie/III/exercises/s4/13.md","line":22}
 ]}

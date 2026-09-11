@@ -1,4 +1,17 @@
 {"edges": [
 {"from":"","from_label":"top--s0","to_label":"alg-i-s1","kind":"cites","raw":"Chapter I, § 1","form":"section","resolved_by":"section","file":"content/en/top/00_introduction.md","line":37},
-{"from":"","from_label":"top--s0","to_label":"alg-i-s2","kind":"cites","raw":"Chapter I, § 2","form":"section","resolved_by":"section","file":"content/en/top/00_introduction.md","line":39}
+{"from":"","from_label":"top--s0","to_label":"alg-i-s2","kind":"cites","raw":"Chapter I, § 2","form":"section","resolved_by":"section","file":"content/en/top/00_introduction.md","line":39},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_notation_v_x.md","line":61},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_notation_v_x.md","line":62},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_notation_v_x.md","line":63},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":119},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":178},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":222},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":269},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix, Exercise 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":293},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix, Exercise 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":307},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":334},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":335},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":401},
+{"from":"","from_label":"top--s0","kind":"cites","raw":"IX, Appendix, Exercise 2","form":"section","resolved_by":"out-of-corpus","book":"A","chapter":"IX","file":"content/en/top/index_of_terminology_v_x.md","line":424}
 ]}

@@ -67,6 +67,7 @@
 {"from":"","from_label":"alg-iii-s8-prop-17","to_label":"alg-ii-s10-prop-14","kind":"cites","raw":"II, § 10, no. 13, Proposition 14","form":"section","resolved_by":"section-no","file":"content/en/alg/III/08_s8_determinants.md","line":794},
 {"from":"","from_label":"alg-iii-s8-n9-cor-1","to_label":"alg-i-s6","kind":"cites","raw":"I, § 6, no. 2","form":"section","resolved_by":"section","file":"content/en/alg/III/08_s8_determinants.md","line":800},
 {"from":"","from_label":"alg-iii-s8-n9-cor-1","to_label":"alg-iii-s8-prop-17","kind":"cites","raw":"Proposition 17","form":"local","resolved_by":"in-section","file":"content/en/alg/III/08_s8_determinants.md","line":800},
+{"from":"","from_label":"alg-iii-s8-n9-rem-1","to_label":"alg-ii-s10-ex-14","kind":"cites","raw":"II, § 10, Exercise 14","form":"section","resolved_by":"exercise","file":"content/en/alg/III/08_s8_determinants.md","line":808},
 {"from":"","from_label":"alg-iii-s8-n9-rem-1","to_label":"alg-i-s5-prop-9","kind":"cites","raw":"I, § 5, no. 7, Proposition 9","form":"section","resolved_by":"section-no","file":"content/en/alg/III/08_s8_determinants.md","line":810},
 {"from":"","from_label":"alg-iii-s8","to_label":"alg-ii-s5","kind":"cites","raw":"II, § 5, no. 1","form":"section","resolved_by":"section","file":"content/en/alg/III/08_s8_determinants.md","line":826},
 {"from":"","from_label":"alg-iii-s8","to_label":"alg-ii-s5","kind":"cites","raw":"II, § 5, no. 1","form":"section","resolved_by":"section","file":"content/en/alg/III/08_s8_determinants.md","line":834},

@@ -78,7 +78,7 @@
 {"from":"","from_label":"int-iii-s1-ex-4","to_label":"int-iii-s1-ex-2","kind":"cites","raw":"Exercise 2","form":"local","resolved_by":"exercise","file":"content/en/int/III/exercises/s1/04.md","line":20},
 {"from":"","from_label":"int-iii-s1-ex-8","to_label":"int-iii-s3","kind":"cites","raw":"III, §3, No. 1","form":"section","resolved_by":"section","file":"content/en/int/III/exercises/s1/08.md","line":14},
 {"from":"","from_label":"int-iii-s1-ex-8","to_label":"int-ii-s2","kind":"cites","raw":"II, §2, No. 7","form":"section","resolved_by":"section","file":"content/en/int/III/exercises/s1/08.md","line":18},
-{"from":"","from_label":"int-iii-s1-ex-12","to_label":"int-iv-s1","kind":"cites","raw":"IV, §1","form":"section","resolved_by":"section","file":"content/en/int/III/exercises/s1/12.md","line":20},
+{"from":"","from_label":"int-iii-s1-ex-11","to_label":"int-iv-s1","kind":"cites","raw":"IV, §1","form":"section","resolved_by":"section","file":"content/en/int/III/exercises/s1/11.md","line":20},
 {"from":"","from_label":"int-iii-s1-ex-17","kind":"cites","raw":"X, §3, No. 5","form":"section","resolved_by":"out-of-corpus","chapter":"X","file":"content/en/int/III/exercises/s1/17.md","line":18},
 {"from":"","from_label":"int-iii-s1-ex-18","to_label":"int-ii-s2-prop-4","kind":"cites","raw":"II, §2, No. 2, Prop. 4","form":"section","resolved_by":"section-no","file":"content/en/int/III/exercises/s1/18.md","line":14}
 ]}

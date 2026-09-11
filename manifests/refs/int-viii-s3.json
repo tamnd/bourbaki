@@ -31,9 +31,9 @@
 {"from":"","from_label":"int-viii-s3-ex-10","to_label":"int-iv-s4","kind":"cites","raw":"IV, §4","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/10.md","line":20},
 {"from":"","from_label":"int-viii-s3-ex-11","to_label":"int-v-s5","kind":"cites","raw":"V, §5","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/11.md","line":22},
 {"from":"","from_label":"int-viii-s3-ex-11","to_label":"int-vi-s2","kind":"cites","raw":"VI, §2","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/11.md","line":22},
-{"from":"","from_label":"int-viii-s3-ex-12","to_label":"int-iv-s5","kind":"cites","raw":"IV, §5, No. 3","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/12.md","line":14},
-{"from":"","from_label":"int-viii-s3-ex-12","to_label":"int-viii-s3-prop-12","kind":"cites","raw":"Prop. 12","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/exercises/s3/12.md","line":14},
-{"from":"","from_label":"int-viii-s3-ex-12","to_label":"int-v-s5","kind":"cites","raw":"V, §5","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/12.md","line":14},
-{"from":"","from_label":"int-viii-s3-ex-12","to_label":"int-v-s5","kind":"cites","raw":"V, §5","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/12.md","line":16},
-{"from":"","from_label":"int-viii-s3-ex-12","to_label":"int-viii-s3-prop-5","kind":"cites","raw":"Prop. 5","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/exercises/s3/12.md","line":24}
+{"from":"","from_label":"int-viii-s3-ex-11","to_label":"int-iv-s5","kind":"cites","raw":"IV, §5, No. 3","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/11.md","line":22},
+{"from":"","from_label":"int-viii-s3-ex-11","to_label":"int-viii-s3-prop-12","kind":"cites","raw":"Prop. 12","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/exercises/s3/11.md","line":22},
+{"from":"","from_label":"int-viii-s3-ex-11","to_label":"int-v-s5","kind":"cites","raw":"V, §5","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/11.md","line":22},
+{"from":"","from_label":"int-viii-s3-ex-11","to_label":"int-v-s5","kind":"cites","raw":"V, §5","form":"section","resolved_by":"section","file":"content/en/int/VIII/exercises/s3/11.md","line":24},
+{"from":"","from_label":"int-viii-s3-ex-12","to_label":"int-viii-s3-prop-5","kind":"cites","raw":"Prop. 5","form":"local","resolved_by":"in-section","file":"content/en/int/VIII/exercises/s3/12.md","line":18}
 ]}

@@ -31,5 +31,5 @@
 {"from":"","from_label":"alg-vii-s2-ex-4","to_label":"alg-vii-s4-thm-2","kind":"cites","raw":"VII, p. 19, Th. 2","form":"page","resolved_by":"page-map","file":"content/en/alg/VII/exercises/s2/04.md","line":17},
 {"from":"","from_label":"alg-vii-s2-ex-7","to_label":"alg-vii-s2-thm-2","kind":"cites","raw":"Th. 2","form":"local","resolved_by":"in-section","file":"content/en/alg/VII/exercises/s2/07.md","line":18},
 {"from":"","from_label":"alg-vii-s2-ex-13","to_label":"ens-iii-s2","kind":"cites","raw":"Set Theory, III, p. 225","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s2/13.md","line":14},
-{"from":"","from_label":"alg-vii-s2-ex-14","to_label":"alg-vii-s4","kind":"cites","raw":"VII, p. 24","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s2/14.md","line":21}
+{"from":"","from_label":"alg-vii-s2-ex-14","to_label":"alg-vii-s4","kind":"cites","raw":"VII, p. 24","form":"page","resolved_by":"section","file":"content/en/alg/VII/exercises/s2/14.md","line":14}
 ]}

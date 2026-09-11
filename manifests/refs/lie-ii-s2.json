@@ -61,6 +61,10 @@
 {"from":"","from_label":"lie-ii-s2-ex-8","to_label":"lie-ii-s2-ex-7","kind":"cites","raw":"Exercise 7","form":"local","resolved_by":"exercise","file":"content/en/lie/II/exercises/s2/08.md","line":20},
 {"from":"","from_label":"lie-ii-s2-ex-8","to_label":"lie-ii-s2-ex-5","kind":"cites","raw":"Exercise 5","form":"local","resolved_by":"exercise","file":"content/en/lie/II/exercises/s2/08.md","line":20},
 {"from":"","from_label":"lie-ii-s2-ex-9","to_label":"lie-ii-s2-ex-8","kind":"cites","raw":"Exercise 8","form":"local","resolved_by":"exercise","file":"content/en/lie/II/exercises/s2/09.md","line":15},
-{"from":"","from_label":"lie-ii-s2-ex-10","to_label":"lie-ii-s2-n9-cor-1","kind":"cites","raw":"Corollary to Proposition 10","form":"attached","resolved_by":"parent-label","file":"content/en/lie/II/exercises/s2/10.md","line":34},
-{"from":"","from_label":"lie-ii-s2-ex-10","to_label":"lie-i-s2","kind":"cites","raw":"Chapter I, § 2, no. 6","form":"section","resolved_by":"section","file":"content/en/lie/II/exercises/s2/10.md","line":86}
+{"from":"","from_label":"lie-ii-s2-ex-11","to_label":"lie-ii-s2-n9-cor-1","kind":"cites","raw":"Corollary to Proposition 10","form":"attached","resolved_by":"parent-label","file":"content/en/lie/II/exercises/s2/11.md","line":26},
+{"from":"","from_label":"lie-ii-s2-ex-12","to_label":"lie-ii-s2-ex-11","kind":"cites","raw":"Exercise 11","form":"local","resolved_by":"exercise","file":"content/en/lie/II/exercises/s2/12.md","line":14},
+{"from":"","from_label":"lie-ii-s2-ex-13","to_label":"lie-ii-s2-ex-11","kind":"cites","raw":"Exercise 11","form":"local","resolved_by":"exercise","file":"content/en/lie/II/exercises/s2/13.md","line":25},
+{"from":"","from_label":"lie-ii-s2-ex-14","to_label":"lie-ii-s2-ex-13","kind":"cites","raw":"Exercise 13","form":"local","resolved_by":"exercise","file":"content/en/lie/II/exercises/s2/14.md","line":14},
+{"from":"","from_label":"lie-ii-s2-ex-15","to_label":"lie-ii-s2-ex-14","kind":"cites","raw":"Exercise 14","form":"local","resolved_by":"exercise","file":"content/en/lie/II/exercises/s2/15.md","line":14},
+{"from":"","from_label":"lie-ii-s2-ex-16","to_label":"lie-i-s2","kind":"cites","raw":"Chapter I, § 2, no. 6","form":"section","resolved_by":"section","file":"content/en/lie/II/exercises/s2/16.md","line":43}
 ]}
