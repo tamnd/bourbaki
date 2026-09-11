@@ -20,12 +20,12 @@ subsections:
       page: 25
       pdf_page: 160
     - "no": 3
-      title: Parties bornées de $\mathcal{L}(E ; F)$ (cas quasi-complet)
+      title: Parties bornées de $\mathscr{L}(E ; F)$ (cas quasi-complet)
       page: 27
       pdf_page: 162
 statements: 24
 exercises: 22
-content_sha256: d85be30243369195f6f10891aee7617c7568bf071886933a3b8449227249ae8c
+content_sha256: 41cb6156e3b391476e7b20d67de3b367d04d347ce9c49ebe5a6a3fb9255fa3e3
 ---
 
 ## § 4. LE THÉORÈME DE BANACH-STEINHAUS
@@ -108,7 +108,7 @@ On prouvera plus loin (IV, p. 14, corollaire) que tout produit d’espaces tonne
 
 #### Théorème 1 {#evt-iii-s4-thm-1 .statement}
 
-Soient E un espace tonnelé, F un espace localement convexe. Toute partie simplement bornée H de $\mathcal{L}(E; F)$ est équicontinue.
+Soient E un espace tonnelé, F un espace localement convexe. Toute partie simplement bornée H de $\mathscr{L}(E; F)$ est équicontinue.
 
 En effet, soit $p$ une semi-norme continue sur $F$; posons $q = \sup_{u \in H} (p \circ u)$. Puisque $H$ est simplement bornée, on a $q(x) < +\infty$ pour tout $x \in E$ et $q$ est une semi-norme semi-continue inférieurement, comme enveloppe supérieure finie de semi-normes continues. Comme $E$ est tonnelé, $q$ est une semi-norme continue et $H$ est donc équicontinue.
 
@@ -120,7 +120,7 @@ En effet, l’hypothèse signifie que $H$ est simplement bornée et la conclusio
 
 #### Corollaire 2 (théorème de Banach-Steinhaus) {#evt-iii-s4-thm-1-cor-2 .statement}
 
-*Soient* $E$ *un espace tonnelé*, $F$ *un espace localement convexe séparé et* $(u_n)$ *une suite d’applications linéaires continues de* $E$ *dans* $F$, *convergeant simplement vers une application* $u$ *de* $E$ *dans* $F$. *Alors on a* $u \in \mathcal{L}(E; F)$, *et* $(u_n)$ *converge vers* $u$ *uniformément sur toute partie précompacte de* $E$.
+*Soient* $E$ *un espace tonnelé*, $F$ *un espace localement convexe séparé et* $(u_n)$ *une suite d’applications linéaires continues de* $E$ *dans* $F$, *convergeant simplement vers une application* $u$ *de* $E$ *dans* $F$. *Alors on a* $u \in \mathscr{L}(E; F)$, *et* $(u_n)$ *converge vers* $u$ *uniformément sur toute partie précompacte de* $E$.
 
 La suite $(u_n)$ est en effet simplement bornée, donc équicontinue et le corollaire résulte du cor. à la prop. 5 de III, p. 18.
 
@@ -134,11 +134,11 @@ Soient $E$ et $F$ deux espaces de Banach et soit $(u_n)$ une suite d’applicati
 
 #### Corollaire 3 {#evt-iii-s4-thm-1-cor-3 .statement}
 
-*Soient* $E$ *un espace tonnelé*, $F$ *un espace localement convexe séparé*, $\Phi$ *un filtre sur* $\mathcal{L}(E; F)$ *qui converge simplement dans* $E$ *vers une application* $u$ *de* $E$ *dans* $F$. *Si* $\Phi$ *contient une partie simplement bornée de* $\mathcal{L}(E; F)$ *ou si* $\Phi$ *admet une base dénombrable*, $u$ *est une application linéaire continue de* $E$ *dans* $F$, *et* $\Phi$ *converge uniformément vers* $u$ *dans toute partie précompacte de* $E$.
+*Soient* $E$ *un espace tonnelé*, $F$ *un espace localement convexe séparé*, $\Phi$ *un filtre sur* $\mathscr{L}(E; F)$ *qui converge simplement dans* $E$ *vers une application* $u$ *de* $E$ *dans* $F$. *Si* $\Phi$ *contient une partie simplement bornée de* $\mathscr{L}(E; F)$ *ou si* $\Phi$ *admet une base dénombrable*, $u$ *est une application linéaire continue de* $E$ *dans* $F$, *et* $\Phi$ *converge uniformément vers* $u$ *dans toute partie précompacte de* $E$.
 
 Supposons d’abord que $\Phi$ contienne un ensemble simplement borné $H$; comme $H$ est équicontinu (th. 1), le corollaire résulte du cor. de la prop. 5 (III, p. 18). Si $\Phi$ admet une base dénombrable, tout filtre élémentaire $\Psi$ associé à une suite $(u_n)$ (TG, I, p. 42) plus fin que $\Phi$ est alors simplement convergent dans $E$ vers $u$ et il résulte du cor. 2 que $u$ est une application linéaire continue de $E$ dans $F$, et que $\Psi$ converge vers $u$ pour la topologie de la convergence uniforme dans les parties précompactes de $E$. Par suite, il en est de même de $\Phi$, puisque ce dernier est l’intersection des filtres élémentaires plus fins que lui (TG, I, p. 43).
 
-On notera qu’un filtre sur $\mathcal{L}(E; F)$, qui converge simplement et admet une base dénombrable, ne contient pas nécessairement un ensemble simplement borné : c’est ce que montre l’exemple du filtre des voisinages de 0 dans $F = \mathcal{L}(K ; F)$ lorsque la topologie de $F$ est métrisable mais ne peut être définie par une seule norme.
+On notera qu’un filtre sur $\mathscr{L}(E; F)$, qui converge simplement et admet une base dénombrable, ne contient pas nécessairement un ensemble simplement borné : c’est ce que montre l’exemple du filtre des voisinages de 0 dans $F = \mathscr{L}(K ; F)$ lorsque la topologie de $F$ est métrisable mais ne peut être définie par une seule norme.
 
 #### Exemple {#evt-iii-s4-n2-exa-1 .statement}
 
@@ -148,29 +148,29 @@ Pour tout entier $n \in \mathbf{Z}$ et toute fonction $f \in E$, posons $c_n(f) 
 
 #### Corollaire 4 {#evt-iii-s4-thm-1-cor-4 .statement}
 
-*Soient $E$ et $F$ deux espaces localement convexes, $\mathfrak{S}$ un recouvrement de $E$ formé de parties bornées. Si $E$ est tonnelé et si $F$ est séparé et quasi-complet, l’espace $\mathcal{L}_{\mathfrak{S}}(E ; F)$ est séparé et quasi-complet.*
+*Soient $E$ et $F$ deux espaces localement convexes, $\mathfrak{S}$ un recouvrement de $E$ formé de parties bornées. Si $E$ est tonnelé et si $F$ est séparé et quasi-complet, l’espace $\mathscr{L}_{\mathfrak{S}}(E ; F)$ est séparé et quasi-complet.*
 
-En effet, toute partie bornée et fermée de $\mathcal{L}_{\mathfrak{S}}(E ; F)$ est simplement bornée (puisque $\mathfrak{S}$ est un recouvrement de $E$), donc équicontinue (III, p. 25, th. 1) et par suite est un sous-espace complet de $\mathcal{L}_{\mathfrak{S}}(E ; F)$ en vertu de la prop. 11 (III, p. 22).
+En effet, toute partie bornée et fermée de $\mathscr{L}_{\mathfrak{S}}(E ; F)$ est simplement bornée (puisque $\mathfrak{S}$ est un recouvrement de $E$), donc équicontinue (III, p. 25, th. 1) et par suite est un sous-espace complet de $\mathscr{L}_{\mathfrak{S}}(E ; F)$ en vertu de la prop. 11 (III, p. 22).
 
 #### Corollaire 5 {#evt-iii-s4-thm-1-cor-5 .statement}
 
 *Le dual fort et le dual faible d’un espace tonnelé sont quasi-complets.*
 
-### 3. Parties bornées de $\mathcal{L}(E ; F)$ (cas quasi-complet)
+### 3. Parties bornées de $\mathscr{L}(E ; F)$ (cas quasi-complet)
 
 #### Théorème 2 {#evt-iii-s4-thm-2 .statement}
 
-*Soient $E$ un espace localement convexe séparé, $F$ un espace localement convexe, $\mathfrak{S}$ l’ensemble des parties de $E$ convexes, équilibrées, bornées, fermées et semi-complètes (III, p. 7). Toute partie simplement bornée $H$ de $\mathcal{L}(E ; F)$ est bornée pour la $\mathfrak{S}$-topologie.*
+*Soient $E$ un espace localement convexe séparé, $F$ un espace localement convexe, $\mathfrak{S}$ l’ensemble des parties de $E$ convexes, équilibrées, bornées, fermées et semi-complètes (III, p. 7). Toute partie simplement bornée $H$ de $\mathscr{L}(E ; F)$ est bornée pour la $\mathfrak{S}$-topologie.*
 
-Soit $A \in \mathfrak{S}$. L’espace $E_A$ est alors un espace de Banach (III, p. 8, corollaire), donc tonnelé. D’autre part, l’image canonique de $H$ dans $\mathcal{L}(E_A ; F)$ est simplement bornée, donc équicontinue (III, p. 25, th. 1). Par suite, l’ensemble des $u(x)$ pour $u \in H$ et $x \in A$ est borné dans $F$, ce qui montre que $H$ est bornée pour la $\mathfrak{S}$-topologie.
+Soit $A \in \mathfrak{S}$. L’espace $E_A$ est alors un espace de Banach (III, p. 8, corollaire), donc tonnelé. D’autre part, l’image canonique de $H$ dans $\mathscr{L}(E_A ; F)$ est simplement bornée, donc équicontinue (III, p. 25, th. 1). Par suite, l’ensemble des $u(x)$ pour $u \in H$ et $x \in A$ est borné dans $F$, ce qui montre que $H$ est bornée pour la $\mathfrak{S}$-topologie.
 
 #### Corollaire 1 {#evt-iii-s4-thm-2-cor-1 .statement}
 
-*Soient $E$ un espace localement convexe séparé, $F$ un espace localement convexe, et $\mathfrak{S}$ un ensemble de parties bornées de $E$. Si $E$ est semi-complet, toute partie simplement bornée de $\mathcal{L}(E ; F)$ est bornée pour la $\mathfrak{S}$-topologie.*
+*Soient $E$ un espace localement convexe séparé, $F$ un espace localement convexe, et $\mathfrak{S}$ un ensemble de parties bornées de $E$. Si $E$ est semi-complet, toute partie simplement bornée de $\mathscr{L}(E ; F)$ est bornée pour la $\mathfrak{S}$-topologie.*
 
-Il suffit d’appliquer le th. 2, quitte à remplacer les ensembles de $\mathcal{S}$ par leurs enveloppes convexes fermées, équilibrées, ce qui ne change pas la $\mathcal{S}$-topologie.
+Il suffit d’appliquer le th. 2, quitte à remplacer les ensembles de $\mathscr{S}$ par leurs enveloppes convexes fermées, équilibrées, ce qui ne change pas la $\mathscr{S}$-topologie.
 
-Lorsque E est semi-complet (par exemple quasi-complet), on peut donc parler de parties bornées de $\mathcal{L}(E ; F)$ sans préciser pour quelle $\mathcal{S}$-topologie, puisque celles-ci sont les mêmes pour toutes les $\mathcal{S}$-topologies dès que $\mathcal{S}$ est un recouvrement de E.
+Lorsque E est semi-complet (par exemple quasi-complet), on peut donc parler de parties bornées de $\mathscr{L}(E ; F)$ sans préciser pour quelle $\mathscr{S}$-topologie, puisque celles-ci sont les mêmes pour toutes les $\mathscr{S}$-topologies dès que $\mathscr{S}$ est un recouvrement de E.
 
 #### Corollaire 2 {#evt-iii-s4-thm-2-cor-2 .statement}
 
@@ -184,7 +184,7 @@ Soit E un espace localement convexe. Toute partie de E bornée pour $\sigma(E, E
 
 Soit A une partie de E. Dire que A est bornée pour $\sigma(E, E')$ signifie que toute forme linéaire continue sur E est bornée sur A ; dire que A est bornée signifie que toute semi-norme continue sur E est bornée sur A. Soit N l’adhérence de 0 dans E et soit $\pi$ l’application canonique de E sur E/N. Les formes linéaires continues sur E sont les applications de la forme $f \circ \pi$ avec $f \in (E/N)'$ et l’on a une caractérisation analogue des semi-normes continues sur E. Quitte à remplacer E par E/N et A par $\pi(A)$, on peut donc se limiter au cas où E est séparé.
 
-Soit $\mathcal{S}$ l’ensemble des parties équicontinues de E’ ; lorsque E’ est muni de $\sigma(E', E)$, E s’identifie à $(E')_{\mathcal{S}}$ (III, p. 19, cor. 1). Toute partie équicontinue fermée de E’ est compacte pour $\sigma(E', E)$ (III, p. 17, cor. 2), donc complète pour $\sigma(E', E)$. Il suffit donc d’appliquer le th. 2.
+Soit $\mathscr{S}$ l’ensemble des parties équicontinues de E’ ; lorsque E’ est muni de $\sigma(E', E)$, E s’identifie à $(E')_{\mathscr{S}}$ (III, p. 19, cor. 1). Toute partie équicontinue fermée de E’ est compacte pour $\sigma(E', E)$ (III, p. 17, cor. 2), donc complète pour $\sigma(E', E)$. Il suffit donc d’appliquer le th. 2.
 
 ## EXERCICES {#evt-iii-s4-exercises}
 

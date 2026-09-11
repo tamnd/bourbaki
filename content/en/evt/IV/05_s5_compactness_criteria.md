@@ -33,7 +33,7 @@ subsections:
       pdf_page: 219
 statements: 8
 exercises: 18
-content_sha256: 196b590d53d3ecfe44673a89585c238a171d9c14a0bb1144e0c66e03ceeeb4de
+content_sha256: d0fa9c5aaf380d170b95bfb213aa9e6f15e5cda38e4b3be72f8be11f79b9b7d4
 ---
 
 ## § 5. COMPACTNESS CRITERIA
@@ -67,14 +67,14 @@ Now suppose that A is precompact in E and is contained in a compact subset B of 
 
 ### 2. Simple compactness of sets of continuous functions
 
-In this section, X denotes a *compact* space and $\mathcal{C}_s(X)$ the space of continuous functions on X, with values in the field K (equal to $\mathbf{R}$ or $\mathbf{C}$). The space $\mathcal{C}_s(X)$ is assigned the topology of simple convergence on X.
+In this section, X denotes a *compact* space and $\mathscr{C}_s(X)$ the space of continuous functions on X, with values in the field K (equal to $\mathbf{R}$ or $\mathbf{C}$). The space $\mathscr{C}_s(X)$ is assigned the topology of simple convergence on X.
 
 #### Proposition 2 {#evt-iv-s5-prop-2 .statement}
 
-*Let D be a dense subset of X and A a subset of the space $\mathcal{C}_s(X)$. The following conditions are equivalent :*
-(i) *A is relatively compact in $\mathcal{C}_s(X)$.*
-(ii) *From every infinite sequence of elements of A, we can extract a sequence converging in $\mathcal{C}_s(X)$.*
-(iii) *Every infinite sequence of elements of A has a limit point in $\mathcal{C}_s(X)$.*
+*Let D be a dense subset of X and A a subset of the space $\mathscr{C}_s(X)$. The following conditions are equivalent :*
+(i) *A is relatively compact in $\mathscr{C}_s(X)$.*
+(ii) *From every infinite sequence of elements of A, we can extract a sequence converging in $\mathscr{C}_s(X)$.*
+(iii) *Every infinite sequence of elements of A has a limit point in $\mathscr{C}_s(X)$.*
 (iv) *Let $(f_n)_{n \in \mathbf{N}}$ be a sequence of functions belonging to A and $(x_m)_{m \in \mathbf{N}}$ a sequence of points of D. If the iterated limits*
 
 $$
@@ -83,17 +83,17 @@ $$
 
 *exist, then they are equal. In addition, we have $\sup_{f \in A} |f(x)| < + \infty$ for all $x \in X$.*
 
-(i) $\Rightarrow$ (ii) : let $\overline{A}$ be the closure of A in $\mathcal{C}_s(X)$. Assume that A is compact, and consider a sequence of functions $f_n \in A$ (for $n \in \mathbf{N}$). Let $\phi$ be the continuous mapping $x \mapsto (f_n(x))_{n \in \mathbf{N}}$ from X into the metrizable space $K^\mathbf{N}$. The image $X'$ of X under $\phi$ is a compact metrizable space, since X is compact. Let E be the closed subspace of $\mathcal{C}_s(X)$ consisting of continuous functions $f$ on X such that the relation $\phi(x) = \phi(y)$ implies $f(x) = f(y)$ for every pair of points $x, y$ in X. By cor. 2 of GT, I, § 9, No. 4 and prop. 3 of GT, I, § 5, No. 2, the mapping $f' \mapsto f' \circ \phi$ is a homeomorphism $\phi^*$ from $\mathcal{C}_s(X')$ onto E. Hence the set $A' = (\phi^*)^{-1}(\overline{A})$ is compact in $\mathcal{C}_s(X')$, and it is clear that there exist elements $f'_n$ in $A'$ such that $\phi^*(f'_n) = f'_n \circ \phi$ is equal to $f_n$.
+(i) $\Rightarrow$ (ii) : let $\overline{A}$ be the closure of A in $\mathscr{C}_s(X)$. Assume that A is compact, and consider a sequence of functions $f_n \in A$ (for $n \in \mathbf{N}$). Let $\phi$ be the continuous mapping $x \mapsto (f_n(x))_{n \in \mathbf{N}}$ from X into the metrizable space $K^\mathbf{N}$. The image $X'$ of X under $\phi$ is a compact metrizable space, since X is compact. Let E be the closed subspace of $\mathscr{C}_s(X)$ consisting of continuous functions $f$ on X such that the relation $\phi(x) = \phi(y)$ implies $f(x) = f(y)$ for every pair of points $x, y$ in X. By cor. 2 of GT, I, § 9, No. 4 and prop. 3 of GT, I, § 5, No. 2, the mapping $f' \mapsto f' \circ \phi$ is a homeomorphism $\phi^*$ from $\mathscr{C}_s(X')$ onto E. Hence the set $A' = (\phi^*)^{-1}(\overline{A})$ is compact in $\mathscr{C}_s(X')$, and it is clear that there exist elements $f'_n$ in $A'$ such that $\phi^*(f'_n) = f'_n \circ \phi$ is equal to $f_n$.
 
-Since $X'$ is a compact metrizable space, there exists a countable dense subset D' in $X'$ (GT, IX, § 2, No. 8, prop. 12 and § 2, No. 9, prop. 16). Let $\mathcal{T}_1$ (resp. $\mathcal{T}_2$) be the topology on $A'$ induced by the topology of simple convergence on D' (resp. $X'$). Then $\mathcal{T}_1$ is metrizable, $\mathcal{T}_2$ is compact and finer than $\mathcal{T}_1$, hence $\mathcal{T}_1$ and $\mathcal{T}_2$ coincide; in other words, $A'$ is a compact *metrizable* subspace of $\mathcal{C}_s(X')$. Therefore, there exists a sequence $(f'_{n_k})$ extracted from $(f'_n)$ and converging to an element $f'$ of $\mathcal{C}_s(X')$. Therefore, the sequence $(f_{n_k})$ converges to $f = f' \circ \phi$ in $\mathcal{C}_s(X)$.
+Since $X'$ is a compact metrizable space, there exists a countable dense subset D' in $X'$ (GT, IX, § 2, No. 8, prop. 12 and § 2, No. 9, prop. 16). Let $\mathscr{T}_1$ (resp. $\mathscr{T}_2$) be the topology on $A'$ induced by the topology of simple convergence on D' (resp. $X'$). Then $\mathscr{T}_1$ is metrizable, $\mathscr{T}_2$ is compact and finer than $\mathscr{T}_1$, hence $\mathscr{T}_1$ and $\mathscr{T}_2$ coincide; in other words, $A'$ is a compact *metrizable* subspace of $\mathscr{C}_s(X')$. Therefore, there exists a sequence $(f'_{n_k})$ extracted from $(f'_n)$ and converging to an element $f'$ of $\mathscr{C}_s(X')$. Therefore, the sequence $(f_{n_k})$ converges to $f = f' \circ \phi$ in $\mathscr{C}_s(X)$.
 
 (ii) $\Rightarrow$ (iii) : this is clear.
 
-(iii) $\Rightarrow$ (iv) : suppose that every infinite sequence of elements of A has a limit point in $\mathcal{C}_s(X)$. Let $x \in X$. The mapping $\phi_x : f \mapsto f(x)$ from A into K is continuous. Consequently, every infinite sequence in $\phi_x(A)$ has a limit point; since the field K (equal to $\mathbf{R}$ or $\mathbf{C}$) is metrizable, the set $\phi_x(A)$ is relatively compact in K, hence bounded. In other words, we have $\sup_{f \in A} |f(x)| < \infty$.
+(iii) $\Rightarrow$ (iv) : suppose that every infinite sequence of elements of A has a limit point in $\mathscr{C}_s(X)$. Let $x \in X$. The mapping $\phi_x : f \mapsto f(x)$ from A into K is continuous. Consequently, every infinite sequence in $\phi_x(A)$ has a limit point; since the field K (equal to $\mathbf{R}$ or $\mathbf{C}$) is metrizable, the set $\phi_x(A)$ is relatively compact in K, hence bounded. In other words, we have $\sup_{f \in A} |f(x)| < \infty$.
 
-Let $f_n, x_m, \gamma$ and $\delta$ be as in (iv). Let $f$ be a limit point of the sequence $(f_n)$ in $\mathcal{C}_s(X)$, and let $x$ be a limit point of the sequence $(x_m)$ in the compact space X. For every $m$, the mapping $h \mapsto h(x_m)$ from $\mathcal{C}_s(X)$ into K is continuous. In view of the hypotheses, we have $f(x_m) = \lim_{n \to \infty} f_n(x_m)$, and hence $\gamma = \lim_{m \to \infty} f(x_m)$; since $f : X \to K$ is continuous and $x$ is a limit point of the sequence $(x_m)$, we get $\gamma = f(x)$. In an analogous way, we prove the equality $\delta = f(x)$, whence $\gamma = \delta$.
+Let $f_n, x_m, \gamma$ and $\delta$ be as in (iv). Let $f$ be a limit point of the sequence $(f_n)$ in $\mathscr{C}_s(X)$, and let $x$ be a limit point of the sequence $(x_m)$ in the compact space X. For every $m$, the mapping $h \mapsto h(x_m)$ from $\mathscr{C}_s(X)$ into K is continuous. In view of the hypotheses, we have $f(x_m) = \lim_{n \to \infty} f_n(x_m)$, and hence $\gamma = \lim_{m \to \infty} f(x_m)$; since $f : X \to K$ is continuous and $x$ is a limit point of the sequence $(x_m)$, we get $\gamma = f(x)$. In an analogous way, we prove the equality $\delta = f(x)$, whence $\gamma = \delta$.
 
-(iv) $\Rightarrow$ (i) : suppose that the set of numbers $f(x)$, as $f$ ranges over A, is bounded in K for all $x \in X$. This is equivalent to assuming that the closure $\overline{A}$ of A in the product space $K^X$ is compact (GT, I, § 9, No. 5). Suppose that A *is not relatively compact in* $\mathcal{C}_s(X)$. This means that there exists a function $u \in \overline{A}$ and a point $a \in X$ such that $u$ is not continuous at $a$. Hence there exists a real number $\varepsilon > 0$ such that in every neighbourhood U of $a$, there exists a point $x$ with $|u(x) - u(a)| \geq \varepsilon$.
+(iv) $\Rightarrow$ (i) : suppose that the set of numbers $f(x)$, as $f$ ranges over A, is bounded in K for all $x \in X$. This is equivalent to assuming that the closure $\overline{A}$ of A in the product space $K^X$ is compact (GT, I, § 9, No. 5). Suppose that A *is not relatively compact in* $\mathscr{C}_s(X)$. This means that there exists a function $u \in \overline{A}$ and a point $a \in X$ such that $u$ is not continuous at $a$. Hence there exists a real number $\varepsilon > 0$ such that in every neighbourhood U of $a$, there exists a point $x$ with $|u(x) - u(a)| \geq \varepsilon$.
 
 We shall construct by induction a sequence $(x_n)_{n \in \mathbf{N}}$ of points in D and a sequence $(f_n)_{n \in \mathbf{N}}$ of elements of A, satisfying the following relations :
 
@@ -103,7 +103,7 @@ We shall construct by induction a sequence $(x_n)_{n \in \mathbf{N}}$ of points 
 
 (3)$_{m,i}$ $$ |f_m(x_i) - f_m(a)| \leq \frac{1}{i + 1} \quad \text{for} \quad 0 \leq m \leq i . $$
 
-We take $x_0 = a$ with $f_0$ arbitrary in A (the set A is not empty, otherwise it will be relatively compact in $\mathcal{C}_s(X)$). Let $n \geq 1$ and $x_0, x_1, ..., x_{n-1}, f_0, f_1, ..., f_{n-1}$ satisfy relations (1)$_m$, (2)$_m$ for $1 \leq m < n$ and (3)$_{m,i}$ for $0 \leq m \leq i < n$. Since $u$ belongs to $\overline{A}$, there exists $f_n \in A$ satisfying (2)$_n$. Let $V_n$ be the set of all $x \in X$ such that $|f_m(x) - f_m(a)| \leq \frac{1}{n + 1}$ for $0 \leq m \leq n$. Since $f_n$ is continuous, $V_n$ is a neighbourhood of $a$; choose a point $x_n$ in $D \cap V_n$ such that $|u(x_n) - u(a)| \geq \varepsilon$, hence (1)$_n$ and (3)$_{m,n}$ are satisfied. Therefore, the construction can be continued.
+We take $x_0 = a$ with $f_0$ arbitrary in A (the set A is not empty, otherwise it will be relatively compact in $\mathscr{C}_s(X)$). Let $n \geq 1$ and $x_0, x_1, ..., x_{n-1}, f_0, f_1, ..., f_{n-1}$ satisfy relations (1)$_m$, (2)$_m$ for $1 \leq m < n$ and (3)$_{m,i}$ for $0 \leq m \leq i < n$. Since $u$ belongs to $\overline{A}$, there exists $f_n \in A$ satisfying (2)$_n$. Let $V_n$ be the set of all $x \in X$ such that $|f_m(x) - f_m(a)| \leq \frac{1}{n + 1}$ for $0 \leq m \leq n$. Since $f_n$ is continuous, $V_n$ is a neighbourhood of $a$; choose a point $x_n$ in $D \cap V_n$ such that $|u(x_n) - u(a)| \geq \varepsilon$, hence (1)$_n$ and (3)$_{m,n}$ are satisfied. Therefore, the construction can be continued.
 
 Since $u(X)$ is a compact subset of K, there exists a sequence $(y_k)$ extracted from $(x_m)$ and such that the limit $\gamma = \lim_{k \to \infty} u(y_k)$ exists. By (2)$_m$, we have $u(x_i) = \lim_{n \to \infty} f_n(x_i)$ for all $i \in \mathbf{N}$, hence
 
@@ -123,17 +123,17 @@ Finally, from (1)$_m$, we get $|\gamma - u(a)| \geq \varepsilon$, and so $\gamma
 
 #### Theorem 1 (Eberlein) {#evt-iv-s5-thm-1 .statement}
 
-— *Let E be a Hausdorff and quasi-complete locally convex space, $\mathcal{T}$ a topology on E which is compatible with the duality between E and E' and A a subset of E. For A to be relatively compact for $\mathcal{T}$, it is necessary and sufficient that every infinite sequence of points of A has a limit point in E for $\mathcal{T}$.*
+— *Let E be a Hausdorff and quasi-complete locally convex space, $\mathscr{T}$ a topology on E which is compatible with the duality between E and E' and A a subset of E. For A to be relatively compact for $\mathscr{T}$, it is necessary and sufficient that every infinite sequence of points of A has a limit point in E for $\mathscr{T}$.*
 
 The condition stated is obviously necessary.
 
-Suppose now that every infinite sequence of points of A has a limit point for $\mathcal{T}$, hence also for the coarser topology $\sigma(E, E')$. Then A is precompact for $\mathcal{T}$ (IV, p. 32, prop. 1); in order that A be relatively compact for $\mathcal{T}$, it is necessary and sufficient that it be so for $\sigma(E, E')$ (*loc. cit.*). Therefore it is enough to prove the theorem when $\mathcal{T}$ is the weakened topology $\sigma(E, E')$.
+Suppose now that every infinite sequence of points of A has a limit point for $\mathscr{T}$, hence also for the coarser topology $\sigma(E, E')$. Then A is precompact for $\mathscr{T}$ (IV, p. 32, prop. 1); in order that A be relatively compact for $\mathscr{T}$, it is necessary and sufficient that it be so for $\sigma(E, E')$ (*loc. cit.*). Therefore it is enough to prove the theorem when $\mathscr{T}$ is the weakened topology $\sigma(E, E')$.
 
 Let $\hat{E}$ denote the completion of E, which we shall identify as usual with a subspace of the algebraic dual ${E'}^*$ of E' (III, p. 21, th. 2). Let $E_\sigma$, $\hat{E}_\sigma$ and ${E_\sigma'}^*$ denote the spaces E, $\hat{E}$ and ${E'}^*$ endowed with the topologies $\sigma(E, E')$, $\sigma(\hat{E}, E')$ and $\sigma({E'}^*, E')$ respectively.
 
 Let $(x'_i)_{i \in I}$ be a basis of the vector space E' over the field K. The mapping $f \mapsto (f(x'_i))_{i \in I}$ is a homeomorphism $\phi$ from ${E_\sigma'}^*$ onto $K^I$; for every $i \in I$, the image of A under the mapping $x'_i$ from E into K is relatively compact : for, K is metrizable and every infinite sequence of elements of $x'_i(A)$ has a limit point. It follows that $\phi(A)$ is relatively compact in $K^I$, hence that the closure $\overline{A}$ of A in ${E_\sigma'}^*$ is compact.
 
-*Next we shall prove that $\overline{A}$ is contained in $\hat{E}$.* Let H be an equicontinuous subset of E'; let X be its closure for $\sigma(E', E)$; X is compact (III, p. 17, cor. 2). For every $x \in {E'}^*$, let $\phi_x$ be the restriction of $x' \mapsto \langle x, x' \rangle$ to X; let $\tilde{A} \subset \mathcal{C}_s(X)$ be the set of functions $\phi_x$ as x ranges over A. In view of the hypothesis on A, every infinite sequence of elements of $\tilde{A}$ has a limit point in $\mathcal{C}_s(X)$; by prop. 2 (IV, p. 33), the set $\tilde{A}$ is therefore relatively compact in $\mathcal{C}_s(X)$. *It follows that for every $a \in \overline{A}$, the function $\phi_a$ on X is continuous.* The inclusion $\overline{A} \subset \hat{E}$ then follows from th. 2 of III, p. 21.
+*Next we shall prove that $\overline{A}$ is contained in $\hat{E}$.* Let H be an equicontinuous subset of E'; let X be its closure for $\sigma(E', E)$; X is compact (III, p. 17, cor. 2). For every $x \in {E'}^*$, let $\phi_x$ be the restriction of $x' \mapsto \langle x, x' \rangle$ to X; let $\tilde{A} \subset \mathscr{C}_s(X)$ be the set of functions $\phi_x$ as x ranges over A. In view of the hypothesis on A, every infinite sequence of elements of $\tilde{A}$ has a limit point in $\mathscr{C}_s(X)$; by prop. 2 (IV, p. 33), the set $\tilde{A}$ is therefore relatively compact in $\mathscr{C}_s(X)$. *It follows that for every $a \in \overline{A}$, the function $\phi_a$ on X is continuous.* The inclusion $\overline{A} \subset \hat{E}$ then follows from th. 2 of III, p. 21.
 
 *Now we shall show that $\overline{A}$ is contained in E.* Since A is precompact in $E_\sigma$ (IV, p. 32, prop. 1), it is bounded in $E_\sigma$ (III, p. 3, prop. 2), hence also in E (IV, p. 1, prop. 1). Let C be the closed convex balanced envelope of A in E. Then C is bounded since A is bounded, hence complete since E is quasi-complete. In other words, C is a convex and closed subset of $\hat{E}$, so also of $\hat{E}_\sigma$ (IV, p. 1, prop. 1). Since $A \subset C$ and the topology of $\hat{E}_\sigma$ is induced by that of ${E_\sigma'}^*$, we have $\overline{A} \subset C$, and hence $\overline{A} \subset E$.
 
@@ -151,7 +151,7 @@ We shall prove that (i) implies (iii). Suppose that the closure B of A in $E_\si
 
 #### Lemma 1 {#evt-iv-s5-lem-1 .statement}
 
-— *Let F be a Fréchet space satisfying the first axiom of countability. Every subset C of F which is compact for the topology $\mathcal{T}$ induced by $\sigma(F, F')$ is metrizable for this topology.*
+— *Let F be a Fréchet space satisfying the first axiom of countability. Every subset C of F which is compact for the topology $\mathscr{T}$ induced by $\sigma(F, F')$ is metrizable for this topology.*
 
 Since the topology of precompact convergence on $F'$ is finer than the topology $\sigma(F', F)$, there exists an everywhere dense countable subset in $F'_s$ (III, p. 18, cor. 1). Hence the set C can be identified with a subset of $K^D$, and the topology induced on C by that of $K^D$, which is metrizable (GT, IX, § 2, No. 8) is coarser than the topology induced by $\sigma(F, F')$, for which C is compact. Hence these two topologies are identical (GT, I, § 9, No. 4, cor. 3).
 
@@ -159,15 +159,15 @@ Since the topology of precompact convergence on $F'$ is finer than the topology 
 
 ### \*4. The case of spaces of bounded continuous functions*
 
-For every topological space X, let $\mathcal{C}^b(X)$ denote the Banach space of all continuous and *bounded* mappings from X into K, with the norm defined by
+For every topological space X, let $\mathscr{C}^b(X)$ denote the Banach space of all continuous and *bounded* mappings from X into K, with the norm defined by
 
 $$
 \| f \| = \sup_{x \in X} |f(x)|
 $$
 
-(GT, X, § 3, No. 2). When X is compact, every continuous function on X is bounded (GT, IV, § 6, No. 1), and we write $\mathcal{C}(X)$ for $\mathcal{C}^b(X)$.
+(GT, X, § 3, No. 2). When X is compact, every continuous function on X is bounded (GT, IV, § 6, No. 1), and we write $\mathscr{C}(X)$ for $\mathscr{C}^b(X)$.
 
-In this and the following section, we shall use the following lemma, which is a particular case of Lebesgue’s theorem (INT, IV, 2nd ed. § 4, No. 3, th. 2) on account of the interpretation of the elements of $\mathcal{C}(X)'$ as measures on X.
+In this and the following section, we shall use the following lemma, which is a particular case of Lebesgue’s theorem (INT, IV, 2nd ed. § 4, No. 3, th. 2) on account of the interpretation of the elements of $\mathscr{C}(X)'$ as measures on X.
 
 #### Lemma 2 {#evt-iv-s5-lem-2 .statement}
 
@@ -197,29 +197,29 @@ Let X be the Stone-Čech compactification of S (GT, IX, § 1, No. 6) and $\alpha
 
 #### Theorem 3 (Krein) {#evt-iv-s5-thm-3 .statement}
 
-Let E be a Hausdorff and quasi-complete locally convex space, and let $\mathcal{T}$ be a topology on E compatible with the duality between E and E'. Let A be a subset of E which is compact for $\mathcal{T}$. Then the closed convex balanced envelope C of A is compact for $\mathcal{T}$.
+Let E be a Hausdorff and quasi-complete locally convex space, and let $\mathscr{T}$ be a topology on E compatible with the duality between E and E'. Let A be a subset of E which is compact for $\mathscr{T}$. Then the closed convex balanced envelope C of A is compact for $\mathscr{T}$.
 
 We shall first make several reductions.
-A) The set C is precompact for $\mathcal{T}$ (II, p. 25, prop. 3), and A is compact for $\sigma(E, E')$. On account of prop. 1 (IV, p. 32), it is enough to prove that C is compact for $\sigma(E, E')$, and so we have reduced to the case where $\mathcal{T} = \sigma(E, E')$.
+A) The set C is precompact for $\mathscr{T}$ (II, p. 25, prop. 3), and A is compact for $\sigma(E, E')$. On account of prop. 1 (IV, p. 32), it is enough to prove that C is compact for $\sigma(E, E')$, and so we have reduced to the case where $\mathscr{T} = \sigma(E, E')$.
 B) Since C is precompact and closed for $\sigma(E, E')$, it is bounded and closed for the initial topology of E (III, p. 3, prop. 2 and IV, p. 1, prop. 1); hence it is complete since E is quasi-complete. In other words, C is the closed convex balanced envelope of $A$ in the completion $\hat{E}$ of $E$. Since the topology $\sigma(\hat{E}, E')$ induces $\sigma(E, E')$ on $E$, we have reduced *to the case when $E$ is complete*.
 
 C) Let $\Gamma$ be the convex balanced envelope of $A$. Then $C$ is the closure of $\Gamma$ for $\sigma(E, E')$. By Eberlein’s theorem (IV, p. 35, th. 1), it is enough to prove that every sequence $(x_n)_{n \in \mathbf{N}}$ of points of $\Gamma$ has a limit point for $\sigma(E, E')$ in $E$. But $x_n$ belongs to the convex balanced envelope of a finite subset $B_n$ of $A$. Let $F$ be the closed vector subspace of $E$ generated by the countable set $B = \bigcup_n B_n$. Then $F$ is complete, the topology $\sigma(F, F')$ on $F$ is induced by $\sigma(E, E')$ and we have $x_n \in F$ for all $n \in \mathbf{N}$. Hence it is enough to prove that $(x_n)_{n \in \mathbf{N}}$ has a limit point for $\sigma(F, F')$, which gives the reduction to *the case when there exists a countable dense set in $E$*.
 
-Let $A$ be assigned the topology induced by $\sigma(E, E')$, which makes it a compact space. We define a linear mapping $u : E' \to \mathcal{C}(A)$ by
+Let $A$ be assigned the topology induced by $\sigma(E, E')$, which makes it a compact space. We define a linear mapping $u : E' \to \mathscr{C}(A)$ by
 
 $$
 u(x')(a) = \langle a, x' \rangle \quad (a \in A, x' \in E') .
 $$
 
-Let $(x'_n)_{n \in \mathbf{N}}$ be an equicontinuous sequence in $E'$, converging to 0 for $\sigma(E', E)$. Then the sequence of functions $u(x'_n)$ is bounded in $\mathcal{C}(A)$ and converges simply to 0. For every $\mu \in \mathcal{C}(A)'$, we have $\lim_{n \to \infty} \mu(u(x'_n)) = 0$ by lemma 2 (IV, p. 37). By the criterion given in the remark in III, p. 21, the linear form $\mu \circ u$ on $E'$ is then continuous for $\sigma(E', E)$ for every $\mu \in \mathcal{C}(A)'$. Hence there exists a linear mapping $v : \mathcal{C}(A)' \to E$ satisfying the relation
+Let $(x'_n)_{n \in \mathbf{N}}$ be an equicontinuous sequence in $E'$, converging to 0 for $\sigma(E', E)$. Then the sequence of functions $u(x'_n)$ is bounded in $\mathscr{C}(A)$ and converges simply to 0. For every $\mu \in \mathscr{C}(A)'$, we have $\lim_{n \to \infty} \mu(u(x'_n)) = 0$ by lemma 2 (IV, p. 37). By the criterion given in the remark in III, p. 21, the linear form $\mu \circ u$ on $E'$ is then continuous for $\sigma(E', E)$ for every $\mu \in \mathscr{C}(A)'$. Hence there exists a linear mapping $v : \mathscr{C}(A)' \to E$ satisfying the relation
 
 $$
-\langle u(x'), \mu \rangle = \langle v(\mu), x' \rangle \quad (x' \in E', \mu \in \mathcal{C}(A)') .
+\langle u(x'), \mu \rangle = \langle v(\mu), x' \rangle \quad (x' \in E', \mu \in \mathscr{C}(A)') .
 $$
 
-It is clear that $v$ is continuous if $\mathcal{C}(A)'$ is assigned the topology $\sigma(\mathcal{C}(A)', \mathcal{C}(A))$ and $E$ the topology $\sigma(E, E')$.
+It is clear that $v$ is continuous if $\mathscr{C}(A)'$ is assigned the topology $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$ and $E$ the topology $\sigma(E, E')$.
 
-The unit ball (closed) $B$ of the Banach space $\mathcal{C}(A)$ is compact for the topology $\sigma(\mathcal{C}(A)', \mathcal{C}(A))$ (III, p. 17, cor. 3). Consequently, $v(B)$ is a convex balanced and compact subset of $E$ for $\sigma(E, E')$. For every $a \in A$, the continuous linear form $\varepsilon_a : f \mapsto f(a)$ on $\mathcal{C}(A)$ belongs to $B$, and we have $v(\varepsilon_a) = a$ by formulas (7) and (8). Hence, $A \subset v(B)$, and so $C \subset v(B)$. This proves that $C$ is compact for $\sigma(E, E')$.
+The unit ball (closed) $B$ of the Banach space $\mathscr{C}(A)$ is compact for the topology $\sigma(\mathscr{C}(A)', \mathscr{C}(A))$ (III, p. 17, cor. 3). Consequently, $v(B)$ is a convex balanced and compact subset of $E$ for $\sigma(E, E')$. For every $a \in A$, the continuous linear form $\varepsilon_a : f \mapsto f(a)$ on $\mathscr{C}(A)$ belongs to $B$, and we have $v(\varepsilon_a) = a$ by formulas (7) and (8). Hence, $A \subset v(B)$, and so $C \subset v(B)$. This proves that $C$ is compact for $\sigma(E, E')$.
 
 Q.E.D.
 

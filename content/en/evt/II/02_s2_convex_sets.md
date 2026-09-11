@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 51
 exercises: 43
-content_sha256: d061692d94255710b80728ad96183b04426f05c7ca01a6b75fc9fee6cfd79e73
+content_sha256: ff3553ab0f99ac602c7b1695b8c045e0b25e926ddf316f906fc607667503cbb0
 ---
 
 ## § 2. CONVEX SETS
@@ -275,7 +275,7 @@ Note that axiom (EO$_I$) means that the preorder structure and the additive grou
 
 #### Example {#evt-ii-s2-n5-exa-2 .statement}
 
-\* Let H be a real Hilbert space; in the vector space $\mathcal{L}(H)$ of continuous endomorphisms of H, the positive hermitian endomorphisms form a proper pointed convex cone; this cone, therefore, defines an order structure compatible with the vector space structure of $\mathcal{L}(H)$ and for which the relation $A \leqslant B$ means that $B - A$ is a positive hermitian endomorphism. \*
+\* Let H be a real Hilbert space; in the vector space $\mathscr{L}(H)$ of continuous endomorphisms of H, the positive hermitian endomorphisms form a proper pointed convex cone; this cone, therefore, defines an order structure compatible with the vector space structure of $\mathscr{L}(H)$ and for which the relation $A \leqslant B$ means that $B - A$ is a positive hermitian endomorphism. \*
 
 For any pointed convex cone P in the vector space E, the set $P \cap (-P)$ is a vector subspace, H, of E (II, p. 11, cor. 2). The canonical image $P'$ of P in $E/H$ is a convex cone and the inverse image of $P'$ in E is P. Thus $P' \cap (-P') = \{0\}$, and $P'$ defines an order structure on $E/H$ that is compatible with its vector space structure.
 
@@ -367,7 +367,7 @@ An ordered vector space E with a compatible topology is called an ordered topolo
 
 The space $\mathbf{R}^n$ with its usual topology and the order structure that is the product of the order structure of its factors is an ordered topological vector space. On the other hand, for $n \geq 2$, when $\mathbf{R}^n$ carries the lexicographical order (S, III, § 2.6), the usual topology is not compatible with the ordered vector space structure of $\mathbf{R}^n$.
 
-Let A be a set; the vector space $\mathcal{B}(A ; \mathbf{R})$ of real valued bounded functions defined on A, with the topology defined by the norm $\|x\| = \sup_{t \in A} |x(t)|$ and the order structure induced by the product order structure of $\mathbf{R}^A$, is an ordered topological vector space.
+Let A be a set; the vector space $\mathscr{B}(A ; \mathbf{R})$ of real valued bounded functions defined on A, with the topology defined by the norm $\|x\| = \sup_{t \in A} |x(t)|$ and the order structure induced by the product order structure of $\mathbf{R}^A$, is an ordered topological vector space.
 
 In an ordered topological vector space E, the set of elements $x \leq 0$ is closed; since translations are homeomorphisms, we deduce that, for all $a \in E$, the set of elements $x \geq a$ (resp. $x \leq a$) is closed. Since $\{0\}$ is the intersection of the sets $x \geq 0$ and $x \leq 0$, it follows that $\{0\}$ is closed and that E is Hausdorff.
 

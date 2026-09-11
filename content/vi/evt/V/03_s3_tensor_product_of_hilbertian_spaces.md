@@ -33,7 +33,7 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 23
-content_sha256: 5aafee31e3094464bbe4b9fdcd4bda260a272f203480b81e2f562fc15381f46c
+content_sha256: 5d2ced79edef242a18a9fc99b8e5db2ff32dfece6471c04786f10ff6e5894468
 translated_from: content/en/evt/V/03_s3_tensor_product_of_hilbertian_spaces.md
 source_content_sha256: 5320ca96d0fbf7d2dfb98223ff4c96d227dcf10d109366278dc53f396956465c
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
@@ -95,7 +95,7 @@ Với $i = 1, 2$ cho $F_i$ là một không gian con vectơ của $E_i$, đượ
 
 #### Mệnh đề 2 {#evt-v-s3-prop-2 .statement}
 
-*Với $i = 1, 2$, cho $E_i$ và $F_i$ là hai không gian prehilbert Hausdorff và cho $u_i \in \mathcal{L}(E_i; F_i)$. Ánh xạ tuyến tính $u_1 \otimes u_2$ từ $E_1 \otimes_2 E_2$ vào $F_1 \otimes_2 F_2$ là liên tục và ta có*
+*Với $i = 1, 2$, cho $E_i$ và $F_i$ là hai không gian prehilbert Hausdorff và cho $u_i \in \mathscr{L}(E_i; F_i)$. Ánh xạ tuyến tính $u_1 \otimes u_2$ từ $E_1 \otimes_2 E_2$ vào $F_1 \otimes_2 F_2$ là liên tục và ta có*
 $$
 \|u_1 \otimes u_2\| = \|u_1\| \cdot \|u_2\|.
 $$
@@ -147,7 +147,7 @@ $$
 $$
 với $x_i, y_i$ trong $E_i$ ($1 \leq i \leq n$). Nếu các $E_i$ là Hausdorff, thì $E_1 \otimes_2 ... \otimes_2 E_n$ cũng là Hausdorff.
 
-Cho $F_1, ..., F_n$ là các không gian tiền Hilbert và $u_i \in \mathcal{L}(E_i; F_i)$ với $1 \leq i \leq n$. Bằng quy nạp theo $n$, mệnh đề 2 suy ra rằng $u_1 \otimes ... \otimes u_n$ là một ánh xạ tuyến tính liên tục từ $E_1 \otimes_2 ... \otimes_2 E_n$ vào $F_1 \otimes_2 ... \otimes_2 F_n$ và rằng
+Cho $F_1, ..., F_n$ là các không gian tiền Hilbert và $u_i \in \mathscr{L}(E_i; F_i)$ với $1 \leq i \leq n$. Bằng quy nạp theo $n$, mệnh đề 2 suy ra rằng $u_1 \otimes ... \otimes u_n$ là một ánh xạ tuyến tính liên tục từ $E_1 \otimes_2 ... \otimes_2 E_n$ vào $F_1 \otimes_2 ... \otimes_2 F_n$ và rằng
 $$
 \|u_1 \otimes ... \otimes u_n\| = \|u_1\| \cdots \|u_n\|.
 $$
@@ -172,7 +172,7 @@ $^1$ Ở đây một lần nữa ta đặt $\|z\|_2 = \langle z|z \rangle^{1/2}$
 
 Cho $E_1, ..., E_n$ là các không gian hilbert. *Phép hoàn thiện của không gian tiền hilbert Hausdorff* $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ *được gọi là* tích tenxơ hilbert của các $E_i$ và được ký hiệu bởi $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (hoặc $\hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i$).
 
-Cho $F_1, ..., F_n$ là các không gian hilbert và $u_i \in \mathcal{L}(E_i, F_i)$ với $1 \leq i \leq n$. Khi đó ánh xạ tuyến tính liên tục $u_1 \otimes ... \otimes u_n$ mở rộng thành một ánh xạ tuyến tính liên tục $u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n$ từ $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ vào $F_1 \hat{\otimes}_2 ... \hat{\otimes}_2 F_n$. Ta có
+Cho $F_1, ..., F_n$ là các không gian hilbert và $u_i \in \mathscr{L}(E_i, F_i)$ với $1 \leq i \leq n$. Khi đó ánh xạ tuyến tính liên tục $u_1 \otimes ... \otimes u_n$ mở rộng thành một ánh xạ tuyến tính liên tục $u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n$ từ $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ vào $F_1 \hat{\otimes}_2 ... \hat{\otimes}_2 F_n$. Ta có
 
 $$
 \|u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n\| = \|u_1\| ... \|u_n\|
@@ -184,7 +184,7 @@ $$
 1_{E_1} \hat{\otimes}_2 ... \hat{\otimes}_2 1_{E_n} = 1_E \quad \text{với} \quad E = E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n .
 $$
 
-Cuối cùng, nếu $G_1, ..., G_n$ là các không gian hilbert và $v_i \in \mathcal{L}(F_i; G_i)$ với $1 \leq i \leq n$, ta được
+Cuối cùng, nếu $G_1, ..., G_n$ là các không gian hilbert và $v_i \in \mathscr{L}(F_i; G_i)$ với $1 \leq i \leq n$, ta được
 
 $$
 (v_1 \circ u_1) \hat{\otimes}_2 ... \hat{\otimes}_2 (v_n \circ u_n) = (v_1 \hat{\otimes}_2 ... \hat{\otimes}_2 v_n) \circ (u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n) .
@@ -311,7 +311,7 @@ $$
 
 với mọi vectơ $x_1, ..., x_m$ trong $M_0$ và $y_1, ..., y_n$ trong $N_0$. Do tính liên tục, cùng một quan hệ cũng đúng đối với các vectơ $x_1, ..., x_n$ trong M và các vectơ $y_1, ..., y_n$ trong N; nói cách khác, $h$ mở rộng $g$. Tính duy nhất của $h$ là rõ ràng.
 
-Cho E và F là hai không gian hilbert và $u \in \mathcal{L}(E; F)$. Ánh xạ tuyến tính $\hat{T}^n(u) = u \hat{\otimes}_2 ... \hat{\otimes}_2 u$ ($n$ thừa số) từ $\hat{T}^n(E)$ vào $\hat{T}^n(F)$ là liên tục với chuẩn $\|u\|^n$ (V, p. 28, công thức (10)). Hơn nữa, các công thức (13) và (14) của V, p. 30, chỉ ra rằng tồn tại một đẳng cấu $\phi_{n,E}$ từ $\hat{S}^n(E)$ lên không gian con $\widehat{T S^n}(E)$ của $\hat{T}^n(E)$, và chỉ một, sao cho
+Cho E và F là hai không gian hilbert và $u \in \mathscr{L}(E; F)$. Ánh xạ tuyến tính $\hat{T}^n(u) = u \hat{\otimes}_2 ... \hat{\otimes}_2 u$ ($n$ thừa số) từ $\hat{T}^n(E)$ vào $\hat{T}^n(F)$ là liên tục với chuẩn $\|u\|^n$ (V, p. 28, công thức (10)). Hơn nữa, các công thức (13) và (14) của V, p. 30, chỉ ra rằng tồn tại một đẳng cấu $\phi_{n,E}$ từ $\hat{S}^n(E)$ lên không gian con $\widehat{T S^n}(E)$ của $\hat{T}^n(E)$, và chỉ một, sao cho
 
 $$
 (18) \quad \phi_{n,E}(x_1 \ldots x_n) = \frac{1}{(n!)^{1/2}} \sum_{\sigma \in \mathfrak{S}_n} x_{\sigma(1)} \otimes \ldots \otimes x_{\sigma(n)} \quad (x_1, ..., x_n \text{ trong } E) .
@@ -347,7 +347,7 @@ $$
 (20) \qquad \hat{S}^n(1_E) = 1_{\hat{S}_n(E)}
 $$
 $$
-(21) \qquad \hat{S}^n(v \circ u) = \hat{S}^n(v) \circ \hat{S}^n(u) \quad \text{cho} \quad v \in \mathcal{L}(F ; G) .
+(21) \qquad \hat{S}^n(v \circ u) = \hat{S}^n(v) \circ \hat{S}^n(u) \quad \text{cho} \quad v \in \mathscr{L}(F ; G) .
 $$
 
 Cuối cùng, $\hat{S}^n(u)$ trùng với trên $S^n(E)$ với ánh xạ tuyến tính $S^n(u) : S^n(E) \to S^n(F)$ được định nghĩa trong A, III, § 6, No. 2 vì nó biến $x_1 ... x_n$ thành $u(x_1) ... u(x_n)$ với mọi $x_1, ..., x_n$ trong $E$.
@@ -391,7 +391,7 @@ Khi đó tồn tại một *đẳng cấu* $\phi$ *từ* $\hat{S}(E)$ *onto mộ
 
 ### 4. Các lũy thừa Hilbert ngoài
 
-Cho E là một không gian Hilbert và $n$ là một số nguyên dương. Với mỗi phép hoán vị $\sigma \in \mathfrak{S}_n$, ký hiệu $\varepsilon_\sigma$ là dấu của nó; đặt $a_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma p_\sigma$ trong $\mathcal{L}(\hat{T}^n(E))$ (V, p. 29).
+Cho E là một không gian Hilbert và $n$ là một số nguyên dương. Với mỗi phép hoán vị $\sigma \in \mathfrak{S}_n$, ký hiệu $\varepsilon_\sigma$ là dấu của nó; đặt $a_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma p_\sigma$ trong $\mathscr{L}(\hat{T}^n(E))$ (V, p. 29).
 
 Hiển nhiên $a_n$ là một phép chiếu trực giao, có ảnh $\overline{\mathbf{A}'_n}(E)$ là bao đóng trong $\hat{T}^n(E)$ của không gian $\mathbf{A}'_n(E)$ gồm tất cả các tenxơ phản đối xứng cấp $n$ (A, III, § 7, No. 4). Tồn tại một đẳng cấu $\pi_n$ từ $\Lambda^n(E)$ onto $\mathbf{A}'_n(E)$ được đặc trưng bởi
 $$
@@ -433,13 +433,13 @@ Nhưng $E_0$ trù mật trong E, và ánh xạ $(x_1, ..., x_n) \mapsto x_1 \wed
 
 Chứng minh tương tự như chứng minh của hệ quả của mệnh đề 4 (V, p. 31).
 
-Cho E và F là hai không gian Hilbert và $u \in \mathcal{L}(E; F)$. Ta sẽ chỉ ra, như trong trường hợp của các lũy thừa đối xứng $\hat{S}^n(E)$ (V, p. 32) rằng ánh xạ tuyến tính $\hat{\Lambda}^n(u)$ từ $\hat{\Lambda}^n(E)$ vào $\hat{\Lambda}^n(F)$ (A, III, § 7, No. 4) mở rộng thành một ánh xạ tuyến tính liên tục $\hat{\Lambda}^n(u)$ từ $\hat{\Lambda}^n(E)$ vào $\hat{\Lambda}^n(F)$. Ta có các hệ thức
+Cho E và F là hai không gian Hilbert và $u \in \mathscr{L}(E; F)$. Ta sẽ chỉ ra, như trong trường hợp của các lũy thừa đối xứng $\hat{S}^n(E)$ (V, p. 32) rằng ánh xạ tuyến tính $\hat{\Lambda}^n(u)$ từ $\hat{\Lambda}^n(E)$ vào $\hat{\Lambda}^n(F)$ (A, III, § 7, No. 4) mở rộng thành một ánh xạ tuyến tính liên tục $\hat{\Lambda}^n(u)$ từ $\hat{\Lambda}^n(E)$ vào $\hat{\Lambda}^n(F)$. Ta có các hệ thức
 
 $$
 \hat{\Lambda}^n(1_E) = 1_{\hat{\Lambda}^n(E)} , \tag{27}
 $$
 $$
-\hat{\Lambda}^n(v \circ u) = \hat{\Lambda}^n(v) \circ \hat{\Lambda}^n(u) \quad \text{nếu } v \text{ thuộc } \mathcal{L}(F; G) , \tag{28}
+\hat{\Lambda}^n(v \circ u) = \hat{\Lambda}^n(v) \circ \hat{\Lambda}^n(u) \quad \text{nếu } v \text{ thuộc } \mathscr{L}(F; G) , \tag{28}
 $$
 $$
 \|\hat{\Lambda}^n(u)\| \leq \|u\|^n . \tag{29}

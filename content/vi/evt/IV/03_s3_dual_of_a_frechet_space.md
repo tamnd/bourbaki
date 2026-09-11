@@ -37,7 +37,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 2
-content_sha256: 1d14cd949a1441100a6a543bb61e165746b3e2bc53e1d41788b5a54d288e94b1
+content_sha256: 544fae7ed39e9075ed65e110e2e32e0582db4acb76a3e65a7c75bdecbd70618a
 translated_from: content/en/evt/IV/03_s3_dual_of_a_frechet_space.md
 source_content_sha256: 4065ed0aff089e17407855388482b96630c02240233829e9c16d410797c4c210
 translation_model: gpt-5.4
@@ -57,13 +57,13 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 (i) Cho U là một tập con của E hấp thụ mọi tập con bị chặn của E, và là giao của một dãy các lân cận lồi, cân bằng và đóng của 0 trong E. Khi đó U là một lân cận của 0 trong E.
 
-(ii) Với mọi không gian lồi địa phương F, mọi tập con bị chặn của $\mathcal{L}_b(E; F)$ là hợp của một họ đếm được các tập con đồng liên tục, đều là đồng liên tục.
+(ii) Với mọi không gian lồi địa phương F, mọi tập con bị chặn của $\mathscr{L}_b(E; F)$ là hợp của một họ đếm được các tập con đồng liên tục, đều là đồng liên tục.
 
 (iii) Trong đối ngẫu mạnh $E'_b$ của E, mọi tập con bị chặn là hợp của một họ đếm được các tập con đồng liên tục, đều là đồng liên tục.
 
 Rõ ràng rằng (iii) là một trường hợp riêng của (ii).
 
-(i) $\Rightarrow$ (ii) : cho H là một tập con bị chặn của $\mathcal{L}_b(E; F)$, và cho $(H_n)$ là một dãy các tập con đồng liên tục của $\mathcal{L}_b(E; F)$ sao cho $H = \bigcup H_n$. Cho V là một lân cận lồi, cân bằng và đóng của 0 trong F. Với mọi $n$, tập $W_n = \bigcap_{u \in H_n} u^{-1}(V)$ là một lân cận lồi, cân bằng và đóng của 0 trong E vì $H_n$ là đồng liên tục. Tập $W = \bigcap_{u \in H} u^{-1}(V)$ hấp thụ mọi tập con bị chặn của E, vì H bị chặn trong $\mathcal{L}_b(E; F)$ (III, p. 22), và ta có $W = \bigcap_n W_n$. Nếu E thỏa mãn (i), thì tập W là một lân cận của 0 trong E, do đó H là đồng liên tục.
+(i) $\Rightarrow$ (ii) : cho H là một tập con bị chặn của $\mathscr{L}_b(E; F)$, và cho $(H_n)$ là một dãy các tập con đồng liên tục của $\mathscr{L}_b(E; F)$ sao cho $H = \bigcup H_n$. Cho V là một lân cận lồi, cân bằng và đóng của 0 trong F. Với mọi $n$, tập $W_n = \bigcap_{u \in H_n} u^{-1}(V)$ là một lân cận lồi, cân bằng và đóng của 0 trong E vì $H_n$ là đồng liên tục. Tập $W = \bigcap_{u \in H} u^{-1}(V)$ hấp thụ mọi tập con bị chặn của E, vì H bị chặn trong $\mathscr{L}_b(E; F)$ (III, p. 22), và ta có $W = \bigcap_n W_n$. Nếu E thỏa mãn (i), thì tập W là một lân cận của 0 trong E, do đó H là đồng liên tục.
 
 (iii) $\Rightarrow$ (i) : cho $(U_n)$ là một dãy các lân cận lồi, cân bằng và đóng của 0 trong E. Ta giả sử rằng tập $U = \bigcap_n U_n$ hấp thụ mọi tập con bị chặn của E, do đó cực của nó $U^\circ$ bị chặn trong $E'_b$. Khi đó tập $B = \bigcup_n U_n^\circ$ được chứa trong $U^\circ$, do đó bị chặn trong $E'_b$. Nếu E thỏa mãn (iii), tập B là đồng liên tục trong $E'$; do đó, cực $B^\circ = \bigcap_n (U_n^\circ)^\circ = \bigcap_n U_n = U$ của B trong E là một lân cận của 0 trong E.
 
@@ -106,17 +106,17 @@ Hệ quả sau mở rộng định lý Banach-Steinhaus cho đối ngẫu của 
 
 — Cho G là một không gian lồi địa phương Hausdorff, và cho $(u_n)$ là một dãy các ánh xạ tuyến tính từ F vào G, hội tụ đơn giản tới một ánh xạ u từ F vào G. Khi đó u liên tục, và dãy $(u_n)$ hội tụ tới u đều trên mọi tập con tiền compắc của F.
 
-Vì F đầy đủ, tập hợp tất cả các $u_n$, bị chặn đối với tôpô hội tụ đơn giản, là bị chặn trong $\mathcal{L}_b(F; G)$ (III, p. 27, hệ quả 1). Vì không gian F là nửa thùng (mệnh đề 2), mọi tập con đếm được và bị chặn của $\mathcal{L}_b(F; G)$ đều là đẳng liên tục theo mệnh đề 1 của IV, p. 21. Do đó tập hợp các $u_n$ là đẳng liên tục, và hệ quả suy ra từ III, p. 18, hệ quả.
+Vì F đầy đủ, tập hợp tất cả các $u_n$, bị chặn đối với tôpô hội tụ đơn giản, là bị chặn trong $\mathscr{L}_b(F; G)$ (III, p. 27, hệ quả 1). Vì không gian F là nửa thùng (mệnh đề 2), mọi tập con đếm được và bị chặn của $\mathscr{L}_b(F; G)$ đều là đẳng liên tục theo mệnh đề 1 của IV, p. 21. Do đó tập hợp các $u_n$ là đẳng liên tục, và hệ quả suy ra từ III, p. 18, hệ quả.
 
 ### 3. Song đối ngẫu của một không gian lồi địa phương mêtric hóa được
 
 #### Mệnh đề 3 {#evt-iv-s3-prop-3 .statement}
 
-— Cho E là một không gian lồi địa phương mêtric hóa được, $E'_b$ là đối ngẫu mạnh của nó và G là một không gian Fréchet. Không gian $\mathcal{L}_b(E'_b ; G)$ là một không gian Fréchet.
+— Cho E là một không gian lồi địa phương mêtric hóa được, $E'_b$ là đối ngẫu mạnh của nó và G là một không gian Fréchet. Không gian $\mathscr{L}_b(E'_b ; G)$ là một không gian Fréchet.
 
-Theo mệnh đề 2 (IV, p. 22), tồn tại một dãy $(A_n)$ các tập con bị chặn của $E'_b$ sao cho mọi tập con bị chặn của $E'_b$ đều được chứa trong một trong các $A_n$. Cho $(V_n)$ là một hệ cơ bản đếm được các lân cận của 0 trong G. Gọi $H_{mn}$ là tập hợp các ánh xạ tuyến tính $u$ từ $E'_b$ vào G sao cho $u(A_m) \subset V_n$. Khi đó $(H_{mn})$ là một hệ cơ bản các lân cận của 0 trong $\mathcal{L}_b(E'_b ; G)$, và do đó không gian sau là mêtric hóa được.
+Theo mệnh đề 2 (IV, p. 22), tồn tại một dãy $(A_n)$ các tập con bị chặn của $E'_b$ sao cho mọi tập con bị chặn của $E'_b$ đều được chứa trong một trong các $A_n$. Cho $(V_n)$ là một hệ cơ bản đếm được các lân cận của 0 trong G. Gọi $H_{mn}$ là tập hợp các ánh xạ tuyến tính $u$ từ $E'_b$ vào G sao cho $u(A_m) \subset V_n$. Khi đó $(H_{mn})$ là một hệ cơ bản các lân cận của 0 trong $\mathscr{L}_b(E'_b ; G)$, và do đó không gian sau là mêtric hóa được.
 
-Để chỉ ra rằng $\mathcal{L}_b(E'_b ; G)$ là đầy đủ, chỉ cần chứng minh rằng mọi dãy Cauchy $(u_n)$ trong không gian này đều hội tụ; vì G là đầy đủ, tồn tại một ánh xạ tuyến tính $u : E'_b \to G$ sao cho $(u_n)$ hội tụ đơn giản tới u. Theo IV, p. 23, hệ quả, ta có $u \in \mathcal{L}_b(E'_b ; G)$. Khi đó từ mệnh đề 5 của GT, X, § 1, No. 5, suy ra rằng $(u_n)$ hội tụ tới u trong $\mathcal{L}_b(E'_b ; G)$.
+Để chỉ ra rằng $\mathscr{L}_b(E'_b ; G)$ là đầy đủ, chỉ cần chứng minh rằng mọi dãy Cauchy $(u_n)$ trong không gian này đều hội tụ; vì G là đầy đủ, tồn tại một ánh xạ tuyến tính $u : E'_b \to G$ sao cho $(u_n)$ hội tụ đơn giản tới u. Theo IV, p. 23, hệ quả, ta có $u \in \mathscr{L}_b(E'_b ; G)$. Khi đó từ mệnh đề 5 của GT, X, § 1, No. 5, suy ra rằng $(u_n)$ hội tụ tới u trong $\mathscr{L}_b(E'_b ; G)$.
 
 #### Hệ quả {#evt-iv-s3-n3-cor-1 .statement}
 
@@ -150,12 +150,12 @@ Theo định nghĩa, một giới hạn quy nạp của các không gian Banach 
 
 — *Cho E là một không gian lồi địa phương khả mê hóa. Các tôpô sau trùng nhau trên đối ngẫu $E'$ của E :*
 
-a) *tôpô $\mathcal{T}_\mathfrak{N}$ của sự $\mathfrak{N}$-hội tụ, trong đó $\mathfrak{N}$ là họ các tập con của E mà mỗi tập hợp gồm các điểm của một dãy hội tụ về 0 ;*
-b) *tôpô $\mathcal{T}_c$ của sự hội tụ đều trên các tập con compắc của E ;*
-c) *tôpô $\mathcal{T}_{pc}$ của sự hội tụ đều trên các tập con tiền compắc của E ;*
-d) *tôpô $\mathcal{T}_f$ là tôpô mịn nhất cảm sinh cùng một tôpô như $\sigma(E', E)$ trên mọi tập con đồng liên tục của $E'$.*
+a) *tôpô $\mathscr{T}_\mathfrak{N}$ của sự $\mathfrak{N}$-hội tụ, trong đó $\mathfrak{N}$ là họ các tập con của E mà mỗi tập hợp gồm các điểm của một dãy hội tụ về 0 ;*
+b) *tôpô $\mathscr{T}_c$ của sự hội tụ đều trên các tập con compắc của E ;*
+c) *tôpô $\mathscr{T}_{pc}$ của sự hội tụ đều trên các tập con tiền compắc của E ;*
+d) *tôpô $\mathscr{T}_f$ là tôpô mịn nhất cảm sinh cùng một tôpô như $\sigma(E', E)$ trên mọi tập con đồng liên tục của $E'$.*
 
-Trước hết hãy nhận xét rằng *một tập con A của $E'$ là đóng đối với $\mathcal{T}_f$ khi và chỉ khi $A \cap H$ là đóng đối với $\sigma(E', E)$ với mọi tập con H của $E'$ vừa đồng liên tục vừa đóng đối với $\sigma(E', E)$.* Tôpô yếu $\sigma(E', E)$ và $\mathcal{T}_{pc}$ cảm sinh cùng một tôpô trên mọi tập con đồng liên tục của $E'$ (III, p. 17, mệnh đề 5). Do đó mỗi tôpô trong các tôpô $\mathcal{T}_\mathfrak{N}$, $\mathcal{T}_c$, $\mathcal{T}_{pc}$, $\mathcal{T}_f$ đều thô hơn tôpô theo sau nó. Vì vậy chỉ cần chứng minh rằng $\mathcal{T}_\mathfrak{N}$ mịn hơn $\mathcal{T}_f$. Hơn nữa, mọi phép tịnh tiến trong $E'$ đều là một đồng phôi đối với $\mathcal{T}_f$. Vậy nên chỉ cần chứng minh rằng, nếu F là một tập con của $E'$ đóng đối với $\mathcal{T}_f$, và không chứa 0, thì tồn tại một tập hợp $S \in \mathfrak{N}$ sao cho $S^\circ \cap F = \varnothing$.
+Trước hết hãy nhận xét rằng *một tập con A của $E'$ là đóng đối với $\mathscr{T}_f$ khi và chỉ khi $A \cap H$ là đóng đối với $\sigma(E', E)$ với mọi tập con H của $E'$ vừa đồng liên tục vừa đóng đối với $\sigma(E', E)$.* Tôpô yếu $\sigma(E', E)$ và $\mathscr{T}_{pc}$ cảm sinh cùng một tôpô trên mọi tập con đồng liên tục của $E'$ (III, p. 17, mệnh đề 5). Do đó mỗi tôpô trong các tôpô $\mathscr{T}_\mathfrak{N}$, $\mathscr{T}_c$, $\mathscr{T}_{pc}$, $\mathscr{T}_f$ đều thô hơn tôpô theo sau nó. Vì vậy chỉ cần chứng minh rằng $\mathscr{T}_\mathfrak{N}$ mịn hơn $\mathscr{T}_f$. Hơn nữa, mọi phép tịnh tiến trong $E'$ đều là một đồng phôi đối với $\mathscr{T}_f$. Vậy nên chỉ cần chứng minh rằng, nếu F là một tập con của $E'$ đóng đối với $\mathscr{T}_f$, và không chứa 0, thì tồn tại một tập hợp $S \in \mathfrak{N}$ sao cho $S^\circ \cap F = \varnothing$.
 
 Cho $(U_n)_{n \geq 0}$ là một dãy giảm các lân cận của 0 trong E tạo thành một hệ cơ bản các lân cận của 0. Ta sẽ xây dựng, bằng quy nạp theo $n \geq 0$, các tập hợp *hữu hạn* $X_n$ sao cho ta có
 $$
@@ -169,7 +169,7 @@ với mọi số nguyên $n \geqslant 0$. Cho $m \geqslant 0$ là một số ngu
 $$
 F_x = (\bigcup_{0 \leqslant p < m} X_p)^{\circ} \cap \{x\}^{\circ} \cap U_{m+1}^{\circ} \cap F.
 $$
-Công thức (5) với $n = m - 1$ kéo theo rằng $\bigcap_{x \in U_m} F_x = \varnothing$. Hơn nữa, tập hợp $U_{m+1}^{\circ}$ là đều liên tục, và compắc đối với $\sigma(E', E)$. Theo định nghĩa của $\mathcal{T}_f$, mỗi tập hợp $F_x$ đều compắc đối với $\sigma(E', E)$; do đó tồn tại một tập con hữu hạn $X_m$ của $U_m$ sao cho $\bigcap_{x \in X_m} F_x = \varnothing$, *nghĩa là* quan hệ (5) được thỏa mãn với $n = m$.
+Công thức (5) với $n = m - 1$ kéo theo rằng $\bigcap_{x \in U_m} F_x = \varnothing$. Hơn nữa, tập hợp $U_{m+1}^{\circ}$ là đều liên tục, và compắc đối với $\sigma(E', E)$. Theo định nghĩa của $\mathscr{T}_f$, mỗi tập hợp $F_x$ đều compắc đối với $\sigma(E', E)$; do đó tồn tại một tập con hữu hạn $X_m$ của $U_m$ sao cho $\bigcap_{x \in X_m} F_x = \varnothing$, *nghĩa là* quan hệ (5) được thỏa mãn với $n = m$.
 
 Đặt $S = \bigcup_{n \geqslant 0} X_n$. Ta có $X_n \subset U_p$ với $n \geqslant p$, do đó $S$ là tập hợp các điểm của một dãy hội tụ về 0 trong $E$. Từ (5) ta suy ra rằng $S^{\circ} \cap U_{n+1}^{\circ} \cap F = \varnothing$, và vì $E'$ là hợp của dãy các tập hợp $U_{n+1}^{\circ}$, ta được $S^{\circ} \cap F = \varnothing$.
 
@@ -177,13 +177,13 @@ Công thức (5) với $n = m - 1$ kéo theo rằng $\bigcap_{x \in U_m} F_x = \
 
 *Cho $E$ là một không gian lồi địa phương khả mêtric. Mọi tập con tiền compắc của $E$ đều được chứa trong bao lồi cân bằng đóng của tập hợp các điểm của một dãy hội tụ về 0.*
 
-Điều này suy ra từ việc các tôpô $\mathcal{T}_{pc}$ và $\mathcal{T}_{\mathfrak{H}}$ đồng nhất, theo mệnh đề 2 của III, p. 15.
+Điều này suy ra từ việc các tôpô $\mathscr{T}_{pc}$ và $\mathscr{T}_{\mathfrak{H}}$ đồng nhất, theo mệnh đề 2 của III, p. 15.
 
 #### Hệ quả 2 {#evt-iv-s3-thm-1-cor-2 .statement}
 
 *Cho $E$ là một không gian Fréchet. Điều kiện cần và đủ để một tập con lồi $A$ của đối ngẫu $E'$ của $E$ là đóng đối với $\sigma(E', E)$ là $A \cap U^{\circ}$ đóng đối với $\sigma(E', E)$ với mọi lân cận $U$ của 0 trong $E$.*
 
-Vì $E$ là đầy đủ, tôpô $\mathcal{T}_c$ trên $E'$ là tương thích với đối ngẫu giữa $E'$ và $E$ (IV, p. 3, *Ví dụ*); do đó các tập con lồi đóng trong $E'$ là như nhau đối với $\mathcal{T}_c$ và $\sigma(E', E)$ (IV, p. 1, mệnh đề 1). Khi đó hệ quả suy ra từ tính đồng nhất của các tôpô $\mathcal{T}_c$ và $\mathcal{T}_f$.
+Vì $E$ là đầy đủ, tôpô $\mathscr{T}_c$ trên $E'$ là tương thích với đối ngẫu giữa $E'$ và $E$ (IV, p. 3, *Ví dụ*); do đó các tập con lồi đóng trong $E'$ là như nhau đối với $\mathscr{T}_c$ và $\sigma(E', E)$ (IV, p. 1, mệnh đề 1). Khi đó hệ quả suy ra từ tính đồng nhất của các tôpô $\mathscr{T}_c$ và $\mathscr{T}_f$.
 
 Nhắc lại (I, p. 13) rằng các siêu phẳng của $E'$ đóng đối với $\sigma(E', E)$ là các hạt nhân của các dạng tuyến tính trên $E'$ liên kết với các phần tử của $E$. Vậy nên hệ quả 2 cho một chứng minh khác (đối với các không gian Fréchet) của hệ quả 1 của III, p. 21.
 
@@ -193,7 +193,7 @@ Nhắc lại (I, p. 13) rằng các siêu phẳng của $E'$ đóng đối với
 
 #### Ví dụ {#evt-iv-s3-n5-exa-1 .statement}
 
-— *Cho $H$ là một không gian Hilbert thỏa mãn tiên đề đếm được thứ nhất; ký hiệu $H_{\sigma}$ là không gian $H$ được trang bị tôpô yếu hơn. Cho $\mathcal{L}^1(H)$ là không gian Banach các tự đồng cấu hạt nhân của $H$ (V, p. 51, và TS, V); chuẩn trong $\mathcal{L}^1(H)$ được định nghĩa bởi $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. Ta có thể đồng nhất $\mathcal{L}(H)$ với đối ngẫu của không gian Banach $\mathcal{L}^1(H)$ bằng cách gắn với mỗi $u \in \mathcal{L}(H)$ dạng tuyến tính $\phi_u : v \mapsto \operatorname{Tr}(uv)$ trên $\mathcal{L}^1(H)$. Cho $A$ là một đại số con của $\mathcal{L}(H)$, chứa 1 và ổn định dưới ánh xạ $u \mapsto u^*$; đó là một đại số von Neumann khi và chỉ khi nó đóng trong $\mathcal{L}(H)$ đối với tôpô yếu $\sigma(\mathcal{L}(H), \mathcal{L}^1(H))$. Từ hệ quả 3, ta suy ra tiêu chuẩn sau đây : *để $A$ là một đại số von Neumann, điều kiện cần và đủ là nếu $(u_n)$ là bất kỳ dãy nào các phần tử của $A$ có chuẩn $\leqslant 1$ và có giới hạn $u$ trong không gian $\mathcal{L}_s(H ; H_{\sigma})$, thì $u$ thuộc $A$.*
+— *Cho $H$ là một không gian Hilbert thỏa mãn tiên đề đếm được thứ nhất; ký hiệu $H_{\sigma}$ là không gian $H$ được trang bị tôpô yếu hơn. Cho $\mathscr{L}^1(H)$ là không gian Banach các tự đồng cấu hạt nhân của $H$ (V, p. 51, và TS, V); chuẩn trong $\mathscr{L}^1(H)$ được định nghĩa bởi $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. Ta có thể đồng nhất $\mathscr{L}(H)$ với đối ngẫu của không gian Banach $\mathscr{L}^1(H)$ bằng cách gắn với mỗi $u \in \mathscr{L}(H)$ dạng tuyến tính $\phi_u : v \mapsto \operatorname{Tr}(uv)$ trên $\mathscr{L}^1(H)$. Cho $A$ là một đại số con của $\mathscr{L}(H)$, chứa 1 và ổn định dưới ánh xạ $u \mapsto u^*$; đó là một đại số von Neumann khi và chỉ khi nó đóng trong $\mathscr{L}(H)$ đối với tôpô yếu $\sigma(\mathscr{L}(H), \mathscr{L}^1(H))$. Từ hệ quả 3, ta suy ra tiêu chuẩn sau đây : *để $A$ là một đại số von Neumann, điều kiện cần và đủ là nếu $(u_n)$ là bất kỳ dãy nào các phần tử của $A$ có chuẩn $\leqslant 1$ và có giới hạn $u$ trong không gian $\mathscr{L}_s(H ; H_{\sigma})$, thì $u$ thuộc $A$.*
 
 ### 6. Ánh xạ song tuyến tính liên tục riêng
 
@@ -211,7 +211,7 @@ Cho U là cực của B trong $E'_b$. Đây là một lân cận của 0 trong $
 
 Cho $E_1$ và $E_2$ là hai không gian Fréchet phản xạ, và G là một không gian Hausdorff lồi địa phương. Với $i = 1, 2$, gọi $F_i$ là đối ngẫu mạnh của $E_i$. Khi đó mọi ánh xạ song tuyến tính liên tục riêng $u : F_1 \times F_2 \to G$ đều liên tục.
 
-Không gian G đẳng cấu với một không gian con của một tích các không gian Banach (II, p. 5, mệnh đề 3). Vì vậy chỉ cần chứng minh định lý dưới giả thiết bổ sung rằng G là một không gian Banach. Nhưng $F_1$ là không gian barrelled và $F_2$ là không gian bornological (IV, p. 24, hệ quả), và $\mathcal{L}_b(F_2 ; G)$ là một không gian Fréchet (IV, p. 23, mệnh đề 3). Gọi v là ánh xạ tuyến tính từ $F_1$ vào $\mathcal{L}_b(F_2 , G)$ liên kết với u bởi quan hệ
+Không gian G đẳng cấu với một không gian con của một tích các không gian Banach (II, p. 5, mệnh đề 3). Vì vậy chỉ cần chứng minh định lý dưới giả thiết bổ sung rằng G là một không gian Banach. Nhưng $F_1$ là không gian barrelled và $F_2$ là không gian bornological (IV, p. 24, hệ quả), và $\mathscr{L}_b(F_2 ; G)$ là một không gian Fréchet (IV, p. 23, mệnh đề 3). Gọi v là ánh xạ tuyến tính từ $F_1$ vào $\mathscr{L}_b(F_2 , G)$ liên kết với u bởi quan hệ
 
 $$
 u(x_1, x_2) = v(x_1)(x_2) \quad (x_1 \in F_1, x_2 \in F_2).
@@ -219,7 +219,7 @@ $$
 
 Vì $F_1$ là không gian barrelled và u liên tục riêng, v là liên tục (III, p. 31, mệnh đề 6).
 
-Vì v liên tục, bổ đề 1 kéo theo sự tồn tại của một lân cận $U_1$ của 0 trong $F_1$ mà ảnh của nó qua v bị chặn trong $\mathcal{L}_b(F_2 ; G)$. Nói cách khác, với mọi tập con bị chặn $B_2$ trong $F_2$, tập $u(U_1 \times B_2)$ bị chặn trong không gian Banach G. Gọi $U_2$ là tập hợp tất cả $x_2 \in F_2$ sao cho $\|u(x_1, x_2)\| \leqslant 1$ với mọi $x_1 \in U_1$. Khi đó tập $U_2$ hấp thụ mọi tập con bị chặn; vì $F_2$ là bornological, $U_2$ là một lân cận của 0 trong $F_2$, và điều này chứng minh rằng u là liên tục.
+Vì v liên tục, bổ đề 1 kéo theo sự tồn tại của một lân cận $U_1$ của 0 trong $F_1$ mà ảnh của nó qua v bị chặn trong $\mathscr{L}_b(F_2 ; G)$. Nói cách khác, với mọi tập con bị chặn $B_2$ trong $F_2$, tập $u(U_1 \times B_2)$ bị chặn trong không gian Banach G. Gọi $U_2$ là tập hợp tất cả $x_2 \in F_2$ sao cho $\|u(x_1, x_2)\| \leqslant 1$ với mọi $x_1 \in U_1$. Khi đó tập $U_2$ hấp thụ mọi tập con bị chặn; vì $F_2$ là bornological, $U_2$ là một lân cận của 0 trong $F_2$, và điều này chứng minh rằng u là liên tục.
 
 ### Bài tập {#evt-iv-s3-exercises}
 
@@ -245,7 +245,7 @@ c) Hãy chỉ ra rằng nếu $E'_b$ là phản xạ, thì $\hat{E} = E''$ (khi 
 4) Cho E là một không gian lồi địa phương Hausdorff, E' là đối ngẫu của nó. Nếu M là một không gian con vectơ đóng của E, khả mêtric và distinguished (IV, p. 52, bài tập 4), thì tôpô mạnh $\beta(E'/M^\circ, M)$ là tôpô thương theo $M^\circ$ của tôpô mạnh $\beta(E', E)$ (dùng bài tập 3, b) và IV, p. 51, bài tập 22, b)).
 
 ¶ 5) Với mọi số nguyên $n > 0$, đặt $a^{(n)}$ là dãy kép $(a_{pq}^{(n)})$ ($p \in \mathbf{N}, q \in \mathbf{N}$) sao cho $a_{pq}^{(n)} = q$ nếu $p \leq n$ và $a_{pq}^{(n)} = 1$ nếu $p > n$. Gọi E là không gian vectơ của mọi dãy kép $x = (x_{pq})_{(p,q) \in \mathbf{N} \times \mathbf{N}}$ gồm các số thực sao cho, với mọi số nguyên $n > 0$, số $r_n(x) = \sum_{p,q} a_{pq}^{(n)} |x_{pq}|$ là hữu hạn. Nếu E được trang bị tôpô xác định bởi các nửa chuẩn $r_n$, thì E là một không gian Fréchet thỏa mãn tiên đề đếm được thứ nhất (IV, p. 47, bài tập 1, c)); đối ngẫu E' của E có thể được đồng nhất với không gian của mọi dãy kép $x' = (x'_{pq})$ gồm các số thực sao cho với ít nhất một chỉ số $n$, tồn tại $k_n > 0$ sao cho $|x'_{pq}| \leq k_n a_{pq}^{(n)}$ với mọi cặp $(p, q)$; và $\langle x, x' \rangle = \sum_{p,q} x_{pq} x'_{pq}$ (IV, p. 47, bài tập 1, c)).
-Với mọi số nguyên $p_0 > 0$ và mọi dãy $(m_p)$ các số nguyên $> 0$, gọi $J(p_0; (m_p))$ là tập hợp các cặp số nguyên $p > 0, q > 0$ sao cho $p \geq p_0$ và $q \geq m_p$; gọi $\mathcal{B}$ là cơ sở lọc trên $\mathbf{N} \times \mathbf{N}$ gồm các tập hợp $J(p_0; (m_p))$ và gọi $\mathfrak{F}$ là một siêu lọc mịn hơn bộ lọc có cơ sở là $\mathcal{B}$.
+Với mọi số nguyên $p_0 > 0$ và mọi dãy $(m_p)$ các số nguyên $> 0$, gọi $J(p_0; (m_p))$ là tập hợp các cặp số nguyên $p > 0, q > 0$ sao cho $p \geq p_0$ và $q \geq m_p$; gọi $\mathscr{B}$ là cơ sở lọc trên $\mathbf{N} \times \mathbf{N}$ gồm các tập hợp $J(p_0; (m_p))$ và gọi $\mathfrak{F}$ là một siêu lọc mịn hơn bộ lọc có cơ sở là $\mathscr{B}$.
 a) Chứng minh rằng với mọi $x' = (x'_{pq}) \in E'$, dãy kép $(x'_{pq})$ có một giới hạn $u(x')$ đối với siêu lọc $\mathfrak{F}$; nếu $V_n$ là một lân cận của 0 trong E xác định bởi $r_n(x) \leq 1$, thì $|u(x')| \leq 1$ với mọi $x' \in V_n^\circ$.
 b) Gọi $U'$ là một lân cận của 0 trong $E'$, đối với tôpô mạnh, lồi, cân bằng và đóng yếu, và với mọi $n$, gọi $\alpha_n > 0$ sao cho $\alpha_n V_n^\circ \subset U'$. Với mọi số nguyên $p > 0$, gọi $m_p$ là một số nguyên sao cho $2^{p+1} \leq \alpha_p m_p$, và gọi $x' = (x'_{pq})$ là dãy kép với $x'_{pq} = 0$ nếu $q < m_p$, $x'_{pq} = 2$ nếu $q \geq m_p$. Chứng minh rằng $x' \in U'$ nhưng $u(x') = 2$; suy ra rằng $u$ không liên tục mạnh trên $E'$, trong khi bị chặn trên mọi tập con bị chặn của $E'$. Kết luận (IV, p. 58, bài tập 3) rằng E không phân biệt, và do đó đối ngẫu mạnh $E'_b$ là một không gian (DF) không infra-thùng.
 c) Dùng b) để xây dựng một ví dụ về một không gian con đóng M của một không gian Fréchet F sao cho tôpô mạnh $\beta(F'/M^\circ, M)$ phân biệt với tôpô thương theo $M^\circ$ của tôpô mạnh $\beta(F', F)$ (nhúng E vào một tích đếm được các không gian Banach).
@@ -285,7 +285,7 @@ b) Cho E là một không gian Fréchet. Hãy chỉ ra rằng nếu song đối 
 13) a) Cho E, F là hai không gian Fréchet, G là một không gian lồi địa phương Hausdorff và E', F', G' lần lượt là các đối ngẫu của E, F, G. Cho $u$ là một ánh xạ song tuyến tính từ $E' \times F'$ vào $G'$, liên tục riêng rẽ (III, p. 28) khi E', F', G' được trang bị các tôpô yếu $\sigma(E', E)$, $\sigma(F', F)$ và $\sigma(G', G)$. Hãy chỉ ra rằng trong các điều kiện đó, $u$ là một ánh xạ liên tục từ $E' \times F'$ vào $G'$ khi E', F' và G' được trang bị các tôpô mạnh. (Với $z \in G$, đặt \langle z, u(x', y') \rangle = \langle v_z(x'), y' \rangle \text{ trong đó } v_z(x') \in F. \text{ Trước hết hãy chỉ ra rằng nếu } E' \text{ được trang bị tôpô mạnh và } F \text{ tôpô ban đầu, thì tập hợp tất cả } v_z, \text{ khi } z \text{ chạy trong một tập hợp bị chặn } C \text{ của } G, \text{ là đẳng liên tục; để làm điều này, dùng IV, p. 51, bài tập 19, } d). \text{ Tiếp theo hãy chỉ ra rằng tồn tại một lân cận } V' \text{ của } 0 \text{ đối với tôpô mạnh của } E' \text{ sao cho hợp của các tập } v_z(V') \text{ khi } z \text{ chạy trong } C \text{ là bị chặn trong } F; \text{ để làm điều này, dùng III, p. 47, bài tập 5.)}
 b) Hãy cho một ví dụ để chỉ ra rằng kết luận của a) không còn đúng nếu ta giả sử rằng $E$ là một không gian Fréchet và $F$ là một giới hạn quy nạp ngặt của các không gian Fréchet (III, p. 47, bài tập 3).
 
-14) a) Cho $E$ là một không gian Fréchet, $E'$ là đối ngẫu của nó. Hãy chỉ ra rằng $E'$, được trang bị tôpô hội tụ compact hoặc một tôpô $\mathcal{S}$ mịn hơn, là đầy đủ ($cf.$ III, p. 22, *Nhận xét* 1). Nếu $E$ không phản xạ, hãy chỉ ra rằng $E'$ không là infrabarrelled đối với bất kỳ tôpô $\mathcal{S}$ nào mịn hơn tôpô hội tụ compact và thô hơn $\tau(E', E)$.
-b) Cho $(E_\alpha)_{\alpha \in A}$ là một họ các không gian Fréchet, $E$ là một không gian vectơ và với mọi $\alpha \in A$, cho $h_\alpha$ là một ánh xạ tuyến tính từ $E_\alpha$ vào $E$. Giả sử rằng $E$, được trang bị tôpô lồi địa phương mịn nhất sao cho các $h_\alpha$ là liên tục (II, p. 27), là Hausdorff. Hãy chứng minh rằng đối ngẫu $E'$ của $E$, được trang bị tôpô hội tụ compact hoặc bất kỳ tôpô $\mathcal{S}$ mịn hơn nào, là đầy đủ ($cf.$ III, p. 20, th.
+14) a) Cho $E$ là một không gian Fréchet, $E'$ là đối ngẫu của nó. Hãy chỉ ra rằng $E'$, được trang bị tôpô hội tụ compact hoặc một tôpô $\mathscr{S}$ mịn hơn, là đầy đủ ($cf.$ III, p. 22, *Nhận xét* 1). Nếu $E$ không phản xạ, hãy chỉ ra rằng $E'$ không là infrabarrelled đối với bất kỳ tôpô $\mathscr{S}$ nào mịn hơn tôpô hội tụ compact và thô hơn $\tau(E', E)$.
+b) Cho $(E_\alpha)_{\alpha \in A}$ là một họ các không gian Fréchet, $E$ là một không gian vectơ và với mọi $\alpha \in A$, cho $h_\alpha$ là một ánh xạ tuyến tính từ $E_\alpha$ vào $E$. Giả sử rằng $E$, được trang bị tôpô lồi địa phương mịn nhất sao cho các $h_\alpha$ là liên tục (II, p. 27), là Hausdorff. Hãy chứng minh rằng đối ngẫu $E'$ của $E$, được trang bị tôpô hội tụ compact hoặc bất kỳ tôpô $\mathscr{S}$ mịn hơn nào, là đầy đủ ($cf.$ III, p. 20, th.
 
 Xem [các bài tập của § 3](exercises/s3/).

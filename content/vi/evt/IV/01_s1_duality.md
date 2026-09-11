@@ -32,7 +32,7 @@ subsections:
       pdf_page: 193
 statements: 35
 exercises: 25
-content_sha256: f0a67bd9e122c33c978b414383aa26cac36a2fa0dbc915cf670d4c76f9db2f2c
+content_sha256: 0da99aa97689f18b3c2aeedc43e861af149ebf336bd763fabb64f6becce4dbb3
 translated_from: content/en/evt/IV/01_s1_duality.md
 source_content_sha256: bd5abbb3fca9150b780f3e4a8c9981d06826dfaade169339cbc780c2b9fa2ff2
 translation_model: gpt-5.4
@@ -63,16 +63,16 @@ với $x \in E, \ y \in F$.
 
 #### Định nghĩa 1 {#evt-iv-s1-def-1 .statement}
 
-*Một tôpô lồi địa phương $\mathcal{T}$ trên E được gọi là tương thích với đối ngẫu giữa E và F nếu $d_B$ là một song ánh từ F lên đối ngẫu của không gian lồi địa phương thu được bằng cách gán tôpô $\mathcal{T}$ cho E.*
+*Một tôpô lồi địa phương $\mathscr{T}$ trên E được gọi là tương thích với đối ngẫu giữa E và F nếu $d_B$ là một song ánh từ F lên đối ngẫu của không gian lồi địa phương thu được bằng cách gán tôpô $\mathscr{T}$ cho E.*
 
-Nếu tồn tại một tôpô như thế $\mathcal{T}$, thì ánh xạ $d_B$ là đơn ánh, nghĩa là đối ngẫu giữa E và F là phân ly trên F (II, p. 41).
+Nếu tồn tại một tôpô như thế $\mathscr{T}$, thì ánh xạ $d_B$ là đơn ánh, nghĩa là đối ngẫu giữa E và F là phân ly trên F (II, p. 41).
 
 #### Mệnh đề 1 {#evt-iv-s1-prop-1 .statement}
 
 (i) *Các tập con lồi đóng trong E là như nhau đối với mọi tôpô lồi địa phương trên E tương thích với đối ngẫu giữa E và F.*
 (ii) *Các tập con bị chặn của E là như nhau đối với mọi tôpô lồi địa phương trên E tương thích với đối ngẫu giữa E và F.*
 
-Cho $\mathcal{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và F, do đó mịn hơn $\sigma(E, F)$. Nếu một tập con lồi của E là đóng đối với $\mathcal{T}$, thì nó là giao của các nửa-không gian thực đóng (II, p. 38, hệ quả 1), do đó nó đóng đối với $\sigma(E, F)$. Điều này chứng minh (i). Mệnh đề (ii) đã được chứng minh trong hệ quả 3 của III, p. 27.
+Cho $\mathscr{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và F, do đó mịn hơn $\sigma(E, F)$. Nếu một tập con lồi của E là đóng đối với $\mathscr{T}$, thì nó là giao của các nửa-không gian thực đóng (II, p. 38, hệ quả 1), do đó nó đóng đối với $\sigma(E, F)$. Điều này chứng minh (i). Mệnh đề (ii) đã được chứng minh trong hệ quả 3 của III, p. 27.
 
 Ký hiệu $F_\sigma$ là không gian vectơ F được trang bị tôpô yếu $\sigma(F, E)$. Khi đó ánh xạ tuyến tính $s_B$ ánh xạ E lên đối ngẫu $(F_\sigma)'$ của $F_\sigma$ (II, p. 43, mệnh đề 3). Cho $\mathfrak{S}$ là một họ các tập con bị chặn của $F_\sigma$. Lạm dụng ngôn ngữ, ảnh ngược theo $s_B$ của tôpô-$\mathfrak{S}$ trên $(F_\sigma)'$ được gọi là $\mathfrak{S}\text{-tôpô trên } E$. Nó được định nghĩa bởi họ các nửa chuẩn
 
@@ -96,7 +96,7 @@ Trong trường hợp tổng quát, nếu $F_1 = d_B(F) \subset E^*$, và nếu 
 
 Do đó, đặc biệt, ta suy ra rằng khi đối ngẫu giữa E và F là phân ly trên F, *tôpô Mackey $\tau(E, F)$ cũng là tôpô $\mathfrak{S}'$, trong đó $\mathfrak{S}'$ là tập hợp tất cả các tập con lồi của F là compact đối với $\sigma(F, E)$*. Theo một cách tương tự, ta định nghĩa tôpô Mackey $\tau(F, E)$ trên F.
 
-**Định lý 1 (Mackey).** — *Cho E và F là hai không gian đối ngẫu với nhau; giả sử rằng đối ngẫu là phân ly trên F. Để một tôpô lồi địa phương $\mathcal{T}$ trên E tương thích với đối ngẫu giữa E và F, điều kiện cần và đủ là $\mathcal{T}$ mịn hơn tôpô $\sigma(E, F)$ và thô hơn tôpô Mackey $\tau(E, F)$.*
+**Định lý 1 (Mackey).** — *Cho E và F là hai không gian đối ngẫu với nhau; giả sử rằng đối ngẫu là phân ly trên F. Để một tôpô lồi địa phương $\mathscr{T}$ trên E tương thích với đối ngẫu giữa E và F, điều kiện cần và đủ là $\mathscr{T}$ mịn hơn tôpô $\sigma(E, F)$ và thô hơn tôpô Mackey $\tau(E, F)$.*
 
 Đồng nhất F với ảnh của nó trong $E^*$ dưới $d_B$. Ký hiệu $\mathfrak{S}_0$ là tập hợp tất cả các tập con của F vừa lồi, cân bằng và compact đối với $\sigma(F, E)$. Theo định nghĩa, $\tau(E, F)$ là tôpô $\mathfrak{S}_0$ trên E, do đó mịn hơn $\sigma(E, F)$.
 
@@ -106,15 +106,15 @@ Do đó, đặc biệt, ta suy ra rằng khi đối ngẫu giữa E và F là ph
 
 Mọi phần tử của F đều là một ánh xạ liên tục đối với $\sigma(E, F)$, nên cũng đối với $\tau(E, F)$.
 
-Ngược lại, cho $f \in E^*$ liên tục đối với $\tau(E, F)$. Tồn tại một lân cận U của 0 trong E (đối với $\tau(E, F)$), sao cho $|f| \leq 1$ trên U; ta có thể giả sử rằng tồn tại một tập hợp $A \in \mathcal{S}_0$ sao cho $U = A^\circ$. Nói cách khác, $f$ thuộc cực song đối $A^{\circ\circ}$ của A đối với đối ngẫu giữa $E^*$ và E. Nhưng tôpô $\sigma(F, E)$ trên F được cảm sinh bởi $\sigma(E^*, E)$; do đó A lồi, cân bằng và compact đối với $\sigma(E^*, E)$, và định lý các cực song đối (II, p. 44, đl. 1) suy ra đẳng thức $A = A^{\circ\circ}$. Vì vậy ta có $f \in F$, từ đó suy ra bổ đề.
+Ngược lại, cho $f \in E^*$ liên tục đối với $\tau(E, F)$. Tồn tại một lân cận U của 0 trong E (đối với $\tau(E, F)$), sao cho $|f| \leq 1$ trên U; ta có thể giả sử rằng tồn tại một tập hợp $A \in \mathscr{S}_0$ sao cho $U = A^\circ$. Nói cách khác, $f$ thuộc cực song đối $A^{\circ\circ}$ của A đối với đối ngẫu giữa $E^*$ và E. Nhưng tôpô $\sigma(F, E)$ trên F được cảm sinh bởi $\sigma(E^*, E)$; do đó A lồi, cân bằng và compact đối với $\sigma(E^*, E)$, và định lý các cực song đối (II, p. 44, đl. 1) suy ra đẳng thức $A = A^{\circ\circ}$. Vì vậy ta có $f \in F$, từ đó suy ra bổ đề.
 
 #### Bổ đề 2 {#evt-iv-s1-lem-2 .statement}
 
-*Cho $\mathcal{T}$ là một tôpô lồi địa phương trên E sao cho mọi dạng tuyến tính trên E liên tục đối với $\mathcal{T}$ đều thuộc F. Khi đó $\mathcal{T}$ thô hơn $\tau(E, F)$.*
+*Cho $\mathscr{T}$ là một tôpô lồi địa phương trên E sao cho mọi dạng tuyến tính trên E liên tục đối với $\mathscr{T}$ đều thuộc F. Khi đó $\mathscr{T}$ thô hơn $\tau(E, F)$.*
 
-*Cho $\mathcal{U}$ là tập hợp các lân cận lồi, cân bằng của 0 đối với $\mathcal{T}$. Cho $\mathcal{S}$ là tập hợp các cực trong F của các phần tử của $\mathcal{U}$. Theo hq. 2 của III, p. 17, ta có $\mathcal{S} \subset \mathcal{S}_0$, và theo hq. 1 của mđ. 7 của III, p. 19, $\mathcal{T}$ đồng nhất với tôpô $\mathcal{S}'$, trong đó $\mathcal{S}'$ là tập hợp các cực của các tập hợp của $\mathcal{U}$ trong đối ngẫu $E'$ của E. Nhưng $E' \subset F$, theo giả thiết, nên mọi tập hợp của $\mathcal{S}'$ đều được chứa trong một tập hợp của $\mathcal{S}$; và bổ đề được chứng minh.*
+*Cho $\mathscr{U}$ là tập hợp các lân cận lồi, cân bằng của 0 đối với $\mathscr{T}$. Cho $\mathscr{S}$ là tập hợp các cực trong F của các phần tử của $\mathscr{U}$. Theo hq. 2 của III, p. 17, ta có $\mathscr{S} \subset \mathscr{S}_0$, và theo hq. 1 của mđ. 7 của III, p. 19, $\mathscr{T}$ đồng nhất với tôpô $\mathscr{S}'$, trong đó $\mathscr{S}'$ là tập hợp các cực của các tập hợp của $\mathscr{U}$ trong đối ngẫu $E'$ của E. Nhưng $E' \subset F$, theo giả thiết, nên mọi tập hợp của $\mathscr{S}'$ đều được chứa trong một tập hợp của $\mathscr{S}$; và bổ đề được chứng minh.*
 
-Cho $\mathcal{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và F. Khi đó $\mathcal{T}$ thô hơn $\tau(E, F)$ theo bổ đề 2, và hiển nhiên $\mathcal{T}$ mịn hơn $\sigma(E, F)$. Ngược lại, F là đối ngẫu của E đối với tôpô $\tau(E, F)$ (bổ đề 1) và đối với tôpô $\sigma(E, F)$ (II, p. 43, mđ. 3), nên cũng là đối ngẫu đối với mọi tôpô trung gian giữa $\tau(E, F)$ và $\sigma(E, F)$.
+Cho $\mathscr{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và F. Khi đó $\mathscr{T}$ thô hơn $\tau(E, F)$ theo bổ đề 2, và hiển nhiên $\mathscr{T}$ mịn hơn $\sigma(E, F)$. Ngược lại, F là đối ngẫu của E đối với tôpô $\tau(E, F)$ (bổ đề 1) và đối với tôpô $\sigma(E, F)$ (II, p. 43, mđ. 3), nên cũng là đối ngẫu đối với mọi tôpô trung gian giữa $\tau(E, F)$ và $\sigma(E, F)$.
 
 #### Hệ quả {#evt-iv-s1-n1-cor-1 .statement}
 
@@ -125,7 +125,7 @@ Cho $\mathcal{T}$ là một tôpô trên E tương thích với đối ngẫu gi
 
 (i) $\Rightarrow$ (ii) : nếu p là liên tục đối với $\tau(E, F)$, mọi dạng tuyến tính f trên E sao cho $|f| \leq p$ đều liên tục đối với $\tau(E, F)$, do đó xuất phát từ một phần tử của F theo bổ đề 1.
 
-(ii) $\Rightarrow$ (i) : gọi $\mathcal{T}$ là tôpô trên E được xác định bởi nửa chuẩn p. Nếu điều kiện (ii) được thỏa mãn, các dạng tuyến tính trên E liên tục đối với $\mathcal{T}$ đều thuộc F. Theo bổ đề 2, $\mathcal{T}$ thô hơn $\tau(E, F)$, do đó p là liên tục đối với $\tau(E, F)$.
+(ii) $\Rightarrow$ (i) : gọi $\mathscr{T}$ là tôpô trên E được xác định bởi nửa chuẩn p. Nếu điều kiện (ii) được thỏa mãn, các dạng tuyến tính trên E liên tục đối với $\mathscr{T}$ đều thuộc F. Theo bổ đề 2, $\mathscr{T}$ thô hơn $\tau(E, F)$, do đó p là liên tục đối với $\tau(E, F)$.
 
 #### Nhận xét 2 {#evt-iv-s1-n1-rem-2 .statement}
 
@@ -143,13 +143,13 @@ Cho G là một không gian lồi địa phương và G' là đối ngẫu của
 
 #### Định nghĩa 3 {#evt-iv-s1-def-3 .statement}
 
-*Cho E và F là hai không gian vectơ đối ngẫu với nhau, và $\mathcal{T}$ là họ các tập con của F bị chặn đối với $\sigma(F, E)$. Khi đó tôpô $\mathcal{T}$ trên F được ký hiệu là $\beta(E, F)$.*
+*Cho E và F là hai không gian vectơ đối ngẫu với nhau, và $\mathscr{T}$ là họ các tập con của F bị chặn đối với $\sigma(F, E)$. Khi đó tôpô $\mathscr{T}$ trên F được ký hiệu là $\beta(E, F)$.*
 
 Tương tự, ta định nghĩa tôpô $\beta(F, E)$ trên F. Dễ thấy rằng tôpô $\beta(E, F)$ đồng nhất với $\beta(E, F/E^\circ)$, và ta có thể rút gọn về trường hợp khi đối ngẫu giữa E và F là phân cách trong F.
 
 *Nhận xét. —* 3) Gọi $E_\sigma$ là không gian E được trang bị tôpô $\sigma(E, F)$. Các thùng (III, p. 24) trong $E_\sigma$ là các tập con của E vừa lồi, cân bằng, đóng và hút đối với $\sigma(E, F)$. Chúng không là gì khác ngoài các cực của các tập con của F vừa lồi, cân bằng và bị chặn đối với $\sigma(F, E)$. Do đó, họ tất cả các thùng trong $E_\sigma$ là một hệ lân cận cơ bản của 0 cho tôpô $\beta(E, F)$ trên E. Nói cách khác, một nửa chuẩn trên E là liên tục đối với $\beta(E, F)$ khi và chỉ khi nó nửa liên tục dưới đối với $\sigma(E, F)$ (*cf.* III, p. 24, mệnh đề 1).
 
-4) Cho $\mathcal{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và F. Theo mệnh đề 1, (ii) của IV, p. 1, tôpô $\beta(F, E)$ trên F không là gì khác ngoài tôpô mạnh trên F, khi F được đồng nhất với đối ngẫu của E (được trang bị tôpô $\mathcal{T}$).
+4) Cho $\mathscr{T}$ là một tôpô trên E tương thích với đối ngẫu giữa E và F. Theo mệnh đề 1, (ii) của IV, p. 1, tôpô $\beta(F, E)$ trên F không là gì khác ngoài tôpô mạnh trên F, khi F được đồng nhất với đối ngẫu của E (được trang bị tôpô $\mathscr{T}$).
 
 5) Tôpô $\beta(E, F)$ trên E mịn hơn $\tau(E, F)$. Nói chung nó không tương thích với đối ngẫu giữa E và F (*cf.* tuy nhiên § 2). Đặc biệt, một tập con của E bị chặn đối với $\sigma(E, F)$ không nhất thiết bị chặn đối với $\beta(E, F)$.
 
@@ -177,7 +177,7 @@ Theo mệnh đề 1 của IV, p. 1, ba tôpô này có cùng các tập lồi đ
 
 #### Nhận xét 2 {#evt-iv-s1-n2-rem-2 .statement}
 
-Cho $\mathcal{T}_1$ và $\mathcal{T}_2$ là hai tôpô lồi địa phương trên E, tương thích với đối ngẫu giữa E và $E'$, với $\mathcal{T}_1$ mịn hơn $\mathcal{T}_2$. Khi đó mọi lân cận của 0 đối với $\mathcal{T}_1$, vừa lồi vừa đóng đối với $\mathcal{T}_1$, đều đóng đối với $\mathcal{T}_2$ theo mệnh đề 1 của IV, p. 1. Do đó (GT, II, § 3, No. 3, hệ quả) mọi tập con của E đầy đủ đối với $\mathcal{T}_2$ thì cũng đầy đủ đối với $\mathcal{T}_1$.
+Cho $\mathscr{T}_1$ và $\mathscr{T}_2$ là hai tôpô lồi địa phương trên E, tương thích với đối ngẫu giữa E và $E'$, với $\mathscr{T}_1$ mịn hơn $\mathscr{T}_2$. Khi đó mọi lân cận của 0 đối với $\mathscr{T}_1$, vừa lồi vừa đóng đối với $\mathscr{T}_1$, đều đóng đối với $\mathscr{T}_2$ theo mệnh đề 1 của IV, p. 1. Do đó (GT, II, § 3, No. 3, hệ quả) mọi tập con của E đầy đủ đối với $\mathscr{T}_2$ thì cũng đầy đủ đối với $\mathscr{T}_1$.
 
 Đặc biệt, mọi tập con của E đầy đủ đối với tôpô yếu đều đầy đủ đối với tôpô ban đầu, và mọi tập con của E đầy đủ đối với tôpô ban đầu đều như vậy đối với tôpô Mackey. Nếu E gần đầy đủ đối với tôpô yếu, thì nó cũng như vậy đối với mọi tôpô tương thích với đối ngẫu giữa E và $E'$. Nếu nó gần đầy đủ đối với tôpô ban đầu, thì nó cũng như vậy đối với tôpô Mackey.
 
@@ -374,11 +374,11 @@ và ${}^t p$ cảm sinh một đẳng cự từ $(E/M)'$ lên $M^\circ$.
 
 Ảnh qua ${}^t i$ của một tập con đồng liên tục của $E'$ là một tập con đồng liên tục của $M'$ (IV, p. 7, mệnh đề 7). Ngược lại, cho $A$ là một tập con đồng liên tục của $M'$. Tôpô của $M$ được xác định bởi tập hợp các hạn chế lên $M$ của các nửa chuẩn liên tục trên $E$. Do đó tồn tại một nửa chuẩn liên tục $p$ trên $E$ sao cho $|f(x)| \leq p(x)$ với mọi $f \in A$ và mọi $x \in M$. Gọi $B$ là tập hợp mọi dạng tuyến tính $g$ trên $E$ sao cho $|g| \leq p$ và hạn chế của chúng lên $M$ thuộc $A$. Tập hợp $B$ là đồng liên tục trong $E'$; theo định lý Hahn-Banach (II, p. 23, hệ quả 1), ta có ${}^t i(B) = A$, do đó suy ra (i).
 
-Bây giờ ta chứng minh (ii). Theo mệnh đề 6 của IV, p. 6, ánh xạ tuyến tính ${}^t i$ từ $E'_{\mathfrak{S}}$ vào $M'_{\mathfrak{S}_1}$ là liên tục, và xác định, bằng cách chuyển qua thương, một ánh xạ tuyến tính liên tục $\iota$ từ $E'_\mathcal{S}/M^\circ$ lên $M'_{\mathcal{S}_1}$. Gọi $\mathcal{T}$ là tôpô trên $M'$ thu được bằng cách chuyển tôpô của $E'_\mathcal{S}/M^\circ$ qua $\iota$; tôpô này mịn hơn tôpô $\mathcal{S}_1$.
+Bây giờ ta chứng minh (ii). Theo mệnh đề 6 của IV, p. 6, ánh xạ tuyến tính ${}^t i$ từ $E'_{\mathfrak{S}}$ vào $M'_{\mathfrak{S}_1}$ là liên tục, và xác định, bằng cách chuyển qua thương, một ánh xạ tuyến tính liên tục $\iota$ từ $E'_\mathscr{S}/M^\circ$ lên $M'_{\mathscr{S}_1}$. Gọi $\mathscr{T}$ là tôpô trên $M'$ thu được bằng cách chuyển tôpô của $E'_\mathscr{S}/M^\circ$ qua $\iota$; tôpô này mịn hơn tôpô $\mathscr{S}_1$.
 
-Bây giờ giả sử rằng $\mathcal{S}$ là một tập có hướng đối với $\subset$ và gồm các tập đóng, lồi, cân bằng và compact đối với $\sigma(E, E')$. Để chỉ ra rằng $\iota$ là một đồng phôi, *tức là* rằng $\mathcal{T}$ thô hơn tôpô $\mathcal{S}_1$ trên $M'$, chỉ cần chứng minh rằng $\mathcal{T}$ tương thích với đối ngẫu giữa $M'$ và $M$ và rằng mọi tập đồng liên tục trong $M$ (được xét như đối ngẫu của $M$ với $\mathcal{T}$) đều được chứa trong một vị tự của một tập hợp thuộc $\mathcal{S}_1$. Vì $\mathcal{T}$ mịn hơn tôpô $\mathcal{S}_1$ và $\mathcal{S}_1$ là một phủ của $M$, dạng tuyến tính $y' \mapsto \langle y, y' \rangle$ trên $M'$ là liên tục đối với $\mathcal{T}$ với mọi $y \in M$. Gọi $f$ là một dạng tuyến tính trên $M'$ liên tục đối với $\mathcal{T}$; khi đó $f \circ \iota$ là một dạng tuyến tính liên tục trên $E'_\mathcal{S}$. Tôpô $\mathcal{S}$ trên $E'$ thô hơn tôpô Mackey $\tau(E', E)$; thật vậy, ánh xạ $d_B : E \to {E'}^*$ là liên tục đối với các tôpô $\sigma(E, E')$ và $\sigma({E'}^*, E')$, và vì tôpô sau là Hausdorff, ảnh qua $d_B$ của một tập hợp compact đối với $\sigma(E, E')$ là compact đối với $\sigma({E'}^*, E')$. Theo bổ đề 1 của IV, p. 3, tồn tại $x_0 \in E$ sao cho $f(\iota(x')) = \langle x_0, x' \rangle$ với mọi $x' \in E'$. Đặc biệt, $\langle x_0, x' \rangle = 0$ với mọi $x' \in M^\circ$, và vì $M$ đóng trong $E$, ta có $x_0 \in M$ (II, p. 45, hệ quả 2); và cuối cùng, $f(y') = \langle x_0, y' \rangle$ với mọi $y' \in M'$. Điều này chứng minh rằng $\mathcal{T}$ *tương thích với đối ngẫu giữa* $M$ *và* $M'$.
+Bây giờ giả sử rằng $\mathscr{S}$ là một tập có hướng đối với $\subset$ và gồm các tập đóng, lồi, cân bằng và compact đối với $\sigma(E, E')$. Để chỉ ra rằng $\iota$ là một đồng phôi, *tức là* rằng $\mathscr{T}$ thô hơn tôpô $\mathscr{S}_1$ trên $M'$, chỉ cần chứng minh rằng $\mathscr{T}$ tương thích với đối ngẫu giữa $M'$ và $M$ và rằng mọi tập đồng liên tục trong $M$ (được xét như đối ngẫu của $M$ với $\mathscr{T}$) đều được chứa trong một vị tự của một tập hợp thuộc $\mathscr{S}_1$. Vì $\mathscr{T}$ mịn hơn tôpô $\mathscr{S}_1$ và $\mathscr{S}_1$ là một phủ của $M$, dạng tuyến tính $y' \mapsto \langle y, y' \rangle$ trên $M'$ là liên tục đối với $\mathscr{T}$ với mọi $y \in M$. Gọi $f$ là một dạng tuyến tính trên $M'$ liên tục đối với $\mathscr{T}$; khi đó $f \circ \iota$ là một dạng tuyến tính liên tục trên $E'_\mathscr{S}$. Tôpô $\mathscr{S}$ trên $E'$ thô hơn tôpô Mackey $\tau(E', E)$; thật vậy, ánh xạ $d_B : E \to {E'}^*$ là liên tục đối với các tôpô $\sigma(E, E')$ và $\sigma({E'}^*, E')$, và vì tôpô sau là Hausdorff, ảnh qua $d_B$ của một tập hợp compact đối với $\sigma(E, E')$ là compact đối với $\sigma({E'}^*, E')$. Theo bổ đề 1 của IV, p. 3, tồn tại $x_0 \in E$ sao cho $f(\iota(x')) = \langle x_0, x' \rangle$ với mọi $x' \in E'$. Đặc biệt, $\langle x_0, x' \rangle = 0$ với mọi $x' \in M^\circ$, và vì $M$ đóng trong $E$, ta có $x_0 \in M$ (II, p. 45, hệ quả 2); và cuối cùng, $f(y') = \langle x_0, y' \rangle$ với mọi $y' \in M'$. Điều này chứng minh rằng $\mathscr{T}$ *tương thích với đối ngẫu giữa* $M$ *và* $M'$.
 
-Bây giờ cho $A$ là một tập con của $M$ đẳng liên tục đối với tôpô $\mathcal{T}$ trên $M'$. Theo định nghĩa của $\mathcal{T}$, và xét đến giả thiết rằng $\mathcal{S}$ có hướng, điều đó có nghĩa là tồn tại một tập hợp $B \in \mathcal{S}$ chứa 0 sao cho cận trên $\lambda$ của các số $|\langle y, x' \rangle|$ với $y \in A$ và $x' \in B^\circ$, là hữu hạn (III, p. 19, mệnh đề 7). Vì $B$ đóng trong $E$, định lý đối cực kép (II, p. 44, định lý 1) cho thấy rằng ta có $A \subset \lambda(B \cap M)$; điều này hoàn tất chứng minh của (ii).
+Bây giờ cho $A$ là một tập con của $M$ đẳng liên tục đối với tôpô $\mathscr{T}$ trên $M'$. Theo định nghĩa của $\mathscr{T}$, và xét đến giả thiết rằng $\mathscr{S}$ có hướng, điều đó có nghĩa là tồn tại một tập hợp $B \in \mathscr{S}$ chứa 0 sao cho cận trên $\lambda$ của các số $|\langle y, x' \rangle|$ với $y \in A$ và $x' \in B^\circ$, là hữu hạn (III, p. 19, mệnh đề 7). Vì $B$ đóng trong $E$, định lý đối cực kép (II, p. 44, định lý 1) cho thấy rằng ta có $A \subset \lambda(B \cap M)$; điều này hoàn tất chứng minh của (ii).
 
 Bây giờ chúng ta sẽ chứng minh (iii). Cho $y' \in M'$. Chúng ta sẽ chứng minh công thức
 
@@ -426,13 +426,13 @@ Nhắc lại rằng (II, p. 50, mệnh đề 8) tôpô yếu $\sigma(E, F)$ là 
 
 (ii) *Với mọi $i \in I$, cho $\mathfrak{J}_i$ là một bornology thích nghi trên không gian $E_i$ được trang bị tôpô yếu $\sigma(E_i, F_i)$, không cái nào bằng $\{ \varnothing \}$. Gọi $\mathfrak{J}$ là họ các tập con $A$ của $E = \prod_{i \in I} E_i$ sao cho $\operatorname{pr}_i(A) \in \mathfrak{J}_i$ với mọi $i \in I$. Khi đó tôpô $\mathfrak{J}$ trên $F$ là tổng trực tiếp của các tôpô $\mathfrak{J}_i$ trên các $F_i$.*
 
-Gọi $\mathcal{T}$ là tích của các tôpô $\mathfrak{S}_i$. Các tập hợp có dạng
+Gọi $\mathscr{T}$ là tích của các tôpô $\mathfrak{S}_i$. Các tập hợp có dạng
 
 $$
 A = \prod_{i \in J} A_i^\circ \times \prod_{i \in I - J} E_i
 $$
 
-trong đó $J \subset I$ là hữu hạn và $A_i \in \mathfrak{S}_i$ với mọi $i \in J$, tạo thành một hệ cơ bản các lân cận của 0 đối với $\mathcal{T}$. Ta có $A = (\bigcup_{i \in J} A_i)^\circ$, do đó $\mathcal{T}$ đồng nhất với tôpô $\mathfrak{S}$. Điều này chứng minh (i).
+trong đó $J \subset I$ là hữu hạn và $A_i \in \mathfrak{S}_i$ với mọi $i \in J$, tạo thành một hệ cơ bản các lân cận của 0 đối với $\mathscr{T}$. Ta có $A = (\bigcup_{i \in J} A_i)^\circ$, do đó $\mathscr{T}$ đồng nhất với tôpô $\mathfrak{S}$. Điều này chứng minh (i).
 
 Ta gán tôpô $\mathfrak{J}$ cho $F$ và tôpô $\mathfrak{J}_i$ cho mỗi $F_i$. Với mọi tập con $A$ của $E$, ta có $F_i \cap A^\circ = \operatorname{pr}_i(A)^\circ$, do đó đơn ánh từ $F_i$ vào $F$ là liên tục. Gọi $q$ là một nửa chuẩn trên $F$; ta giả sử rằng hạn chế $q_i$ của $q$ lên $F_i$ là liên tục với mọi $i \in I$. Khi đó ta có thể tìm được các tập con không rỗng $A_i \in \mathfrak{J}_i$ sao cho ta có
 
@@ -454,9 +454,9 @@ Chúng ta sẽ áp dụng bổ đề 3, lấy đối với $\mathfrak{S}_i$ họ
 
 Theo cor. 2 của III, p. 4, $\mathfrak{J}$ là họ tất cả các tập con của $E_i$ bị chặn đối với tôpô tích của các $\sigma(E_i, F_i)$, tôpô này trùng với $\sigma(E, F)$. Do đó mệnh đề của chúng ta về $\beta(F, E)$ được suy ra.
 
-Ta trang bị cho $F = \bigoplus_{i \in I} F_i$ tôpô $\mathcal{T}$ là tổng trực tiếp của các tôpô $\sigma(F_i, E_i)$. Khi đó đối ngẫu của $F$ gồm các dạng tuyến tính $y \mapsto B(x, y)$, trong đó $x$ chạy qua $E$ (II, p. 30, mệnh đề 6). Theo mệnh đề 1 của IV, p. 1, các tôpô $\mathcal{T}$ và $\sigma(F, E)$ có cùng các tập bị chặn. Trước hết giả sử rằng các tôpô $\sigma(F_i, E_i)$ là Hausdorff. Theo mệnh đề 5 của III, p. 5, các tập này được chứa trong một tập hợp có dạng $\sum_{i \in J} B_i$ với $J \subset I$ hữu hạn và $B_i$ bị chặn trong $F_i$ (đối với $\sigma(F_i, E_i)$) với mọi $i \in J$. Vì $\sum_{i \in J} B_i$ được chứa trong bao lồi của $\bigcup_{i \in J} nB_i$, trong đó $n = \mathrm{Card}(J)$, nên ta có thể áp dụng bổ đề 3 để chứng minh mệnh đề về $\beta(E, F)$ trong trường hợp này.
+Ta trang bị cho $F = \bigoplus_{i \in I} F_i$ tôpô $\mathscr{T}$ là tổng trực tiếp của các tôpô $\sigma(F_i, E_i)$. Khi đó đối ngẫu của $F$ gồm các dạng tuyến tính $y \mapsto B(x, y)$, trong đó $x$ chạy qua $E$ (II, p. 30, mệnh đề 6). Theo mệnh đề 1 của IV, p. 1, các tôpô $\mathscr{T}$ và $\sigma(F, E)$ có cùng các tập bị chặn. Trước hết giả sử rằng các tôpô $\sigma(F_i, E_i)$ là Hausdorff. Theo mệnh đề 5 của III, p. 5, các tập này được chứa trong một tập hợp có dạng $\sum_{i \in J} B_i$ với $J \subset I$ hữu hạn và $B_i$ bị chặn trong $F_i$ (đối với $\sigma(F_i, E_i)$) với mọi $i \in J$. Vì $\sum_{i \in J} B_i$ được chứa trong bao lồi của $\bigcup_{i \in J} nB_i$, trong đó $n = \mathrm{Card}(J)$, nên ta có thể áp dụng bổ đề 3 để chứng minh mệnh đề về $\beta(E, F)$ trong trường hợp này.
 
-Trong trường hợp tổng quát, gọi $N_i$ là giao của mọi lân cận của 0 đối với $\sigma(F_i, E_i)$, và đặt $N = \sum_{i \in I} N_i$; khi đó $F/N$ là tổng trực tiếp tôpô của các $F_i/N_i$ (II, p. 31, mệnh đề 8); từ đó suy ra rằng mọi tập con của $F$ bị chặn đối với $\mathcal{T}$ đều được chứa trong một tập hợp có dạng $N + \sum_{i \in J} B_i$ với $J \subset I$ hữu hạn và $B_i$ bị chặn trong $F_i$ với mọi $i \in J$ (III, p. 2, *Nhận xét* 3); vì cực của tập hợp này trong $E$ cũng chính là cực của $\sum_{i \in J} B_i$, nên kết quả được suy ra như trên.
+Trong trường hợp tổng quát, gọi $N_i$ là giao của mọi lân cận của 0 đối với $\sigma(F_i, E_i)$, và đặt $N = \sum_{i \in I} N_i$; khi đó $F/N$ là tổng trực tiếp tôpô của các $F_i/N_i$ (II, p. 31, mệnh đề 8); từ đó suy ra rằng mọi tập con của $F$ bị chặn đối với $\mathscr{T}$ đều được chứa trong một tập hợp có dạng $N + \sum_{i \in J} B_i$ với $J \subset I$ hữu hạn và $B_i$ bị chặn trong $F_i$ với mọi $i \in J$ (III, p. 2, *Nhận xét* 3); vì cực của tập hợp này trong $E$ cũng chính là cực của $\sum_{i \in J} B_i$, nên kết quả được suy ra như trên.
 
 #### Mệnh đề 13 {#evt-iv-s1-prop-13 .statement}
 

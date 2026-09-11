@@ -29,9 +29,9 @@ subsections:
       pdf_page: 101
 statements: 10
 exercises: 3
-content_sha256: 42213d7b92c824aebe48c73cf4dbe077ffaf79f6316728a2e043251a698aa08c
+content_sha256: 87214494ff4fec6dbe7a0b4b51b6cb9d8b7bf6af6eb65c161ea605c26cb0d075
 translated_from: content/en/evt/II/08_s8_complex_locally_convex_spaces.md
-source_content_sha256: d9aa7186e530d20700f202fb90c0cc32604ac20f1ad2817cfbe11d29c94fc3a0
+source_content_sha256: 425663611a68185df382e1b6a031bcc10fbf4168bb0d90cf73488ef54d14b3ad
 translation_model: gpt-5.4
 translation_run: translate-vi-5e3c7937
 glossary_version: 34
@@ -73,9 +73,9 @@ Ta nói rằng một tập hợp A của E là *lồi* nếu nó lồi trong kh�
 
 Cho E là một không gian vectơ tôpô phức. Tập hợp cân bằng lồi nhỏ nhất (tương ứng, tập hợp đóng cân bằng lồi nhỏ nhất) chứa một tập hợp A của E được gọi là *bao lồi cân bằng* (tương ứng, *bao đóng lồi cân bằng*) của A; bao đóng lồi cân bằng của A là bao đóng của bao lồi cân bằng của A. Tập hợp sau cùng này là bao lồi của hợp các tập hợp $e^{i\vartheta}A$; do đó ta có thể định nghĩa nó là tập hợp các tổng tuyến tính $\sum_i \lambda_i x_i$, khi $(x_i)$ là một họ hữu hạn bất kỳ các điểm của A, và $(\lambda_i)$ là một họ các số phức sao cho $\sum_i |\lambda_i| \leq 1$. Nếu A là tiền compắc thì bao cân bằng của nó cũng vậy (I, p. 6, prop. 3).
 
-Ta nói rằng một không gian vectơ tôpô phức E là *lồi địa phương* nếu không gian vectơ tôpô thực nền $E_0$ là lồi địa phương, nghĩa là nếu mọi lân cận của 0 trong E đều chứa một lân cận lồi của 0; một tôpô $\mathcal{T}$ trên E là *lồi địa phương* nếu nó tương thích với cấu trúc không gian vectơ của E (đối với $\mathbf{C}$) và nếu E, với tôpô $\mathcal{T}$, là lồi địa phương. Vì trong trường hợp này mọi lân cận đóng lồi V của 0 đều chứa một lân cận cân bằng W của 0 (I, p. 7, prop. 4), ta thấy rằng V cũng chứa U, là bao đóng lồi cân bằng của W; nói cách khác, các lân cận *cân bằng, đóng, lồi* của 0 lập thành một hệ cơ bản các lân cận của 0 trong E, bất biến dưới mọi phép vị tự có tỷ số $\neq 0$.
+Ta nói rằng một không gian vectơ tôpô phức E là *lồi địa phương* nếu không gian vectơ tôpô thực nền $E_0$ là lồi địa phương, nghĩa là nếu mọi lân cận của 0 trong E đều chứa một lân cận lồi của 0; một tôpô $\mathscr{T}$ trên E là *lồi địa phương* nếu nó tương thích với cấu trúc không gian vectơ của E (đối với $\mathbf{C}$) và nếu E, với tôpô $\mathscr{T}$, là lồi địa phương. Vì trong trường hợp này mọi lân cận đóng lồi V của 0 đều chứa một lân cận cân bằng W của 0 (I, p. 7, prop. 4), ta thấy rằng V cũng chứa U, là bao đóng lồi cân bằng của W; nói cách khác, các lân cận *cân bằng, đóng, lồi* của 0 lập thành một hệ cơ bản các lân cận của 0 trong E, bất biến dưới mọi phép vị tự có tỷ số $\neq 0$.
 
-Ngược lại, cho E là một không gian vectơ phức và $\mathfrak{S}$ là một cơ sở lọc trên E gồm các tập hợp *hấp thụ*, *lồi cân bằng*. Khi đó ta biết (II, p. 23, prop. 1) rằng tập hợp $\mathfrak{B}$, gồm các ảnh của các tập hợp thuộc $\mathfrak{S}$ qua các phép vị tự có tỉ số $> 0$, là một hệ cơ bản các lân cận của 0 đối với một tôpô lồi địa phương $\mathcal{T}$ trên không gian vectơ thực $E_0$ làm nền cho E. Hơn nữa, vì các tập hợp của $\mathfrak{B}$ là cân bằng, chúng bất biến dưới mọi phép vị tự $x \mapsto e^{i\vartheta}x$, điều đó cho thấy $\mathcal{T}$ là tương thích với cấu trúc không gian vectơ của E (trên $\mathbf{C}$) (I, p. 7, prop. 4).
+Ngược lại, cho E là một không gian vectơ phức và $\mathfrak{S}$ là một cơ sở lọc trên E gồm các tập hợp *hấp thụ*, *lồi cân bằng*. Khi đó ta biết (II, p. 23, prop. 1) rằng tập hợp $\mathfrak{B}$, gồm các ảnh của các tập hợp thuộc $\mathfrak{S}$ qua các phép vị tự có tỉ số $> 0$, là một hệ cơ bản các lân cận của 0 đối với một tôpô lồi địa phương $\mathscr{T}$ trên không gian vectơ thực $E_0$ làm nền cho E. Hơn nữa, vì các tập hợp của $\mathfrak{B}$ là cân bằng, chúng bất biến dưới mọi phép vị tự $x \mapsto e^{i\vartheta}x$, điều đó cho thấy $\mathscr{T}$ là tương thích với cấu trúc không gian vectơ của E (trên $\mathbf{C}$) (I, p. 7, prop. 4).
 
 Mọi tôpô lồi địa phương trên một không gian vectơ phức E đều có thể được xác định bởi một tập hợp các nửa chuẩn, vì phiếm hàm Minkowski của một lân cận mở lồi cân bằng của 0 là một nửa chuẩn trên E.
 

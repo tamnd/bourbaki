@@ -40,7 +40,7 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: bbe8152644d419ccb19ee22f297414608b9110673218136de5825d49ebb656c5
+content_sha256: 1f8d3d74fb2618f3c351e6ad261b10979253e2143e5c0e9b52c02e67b8516889
 ---
 
 ## § 1. TOPOLOGICAL VECTOR SPACES
@@ -64,7 +64,7 @@ If $E$ is a left topological vector space over $\mathbf{K}$, we say that $E$ pro
 — 1) If $E$ is a left vector space over a *discrete* topological division ring $\mathbf{K}$, the *discrete* topology on $E$ is compatible with the vector space structure of $E$ (this is not so if $\mathbf{K}$ is non-discrete and $E$ is not the single point 0).
 2) Let $A$ be a topological ring (GT, III, § 6.3) and let $\mathbf{K}$ be a subring of $A$ that is also a division ring and such that the topology induced on $\mathbf{K}$ by that of $A$ is compatible with the division ring structure of $\mathbf{K}$; then the topology of $A$ is compatible with its left vector space structure on $\mathbf{K}$.
 3) Let $\mathbf{K}$ be any topological division ring and $I$ an arbitrary set. On the product vector space $K_s^I(A, II, § 1.5)$, the product topology is compatible with the vector space structure (GT, III, § 6.4). Or we can say that the space $K_s^I$ of mappings of $I$ in $\mathbf{K}$ with *pointwise* or *simple convergence* topology is a topological vector space on $\mathbf{K}$ (TG, X, p. 4).
-4) Let $X$ be a topological space; on the set $E = \mathcal{C}(X; \mathbf{R})$ of finite real-valued *continuous* functions defined over $X$, the *compact convergence* topology (GT, X, § 1.3) is compatible with the vector space structure of E on $\mathbf{R}$. For, let $u_0$ be a point of E, let H be a compact subset of X and $\varepsilon$ be an arbitrary strictly positive number. The real-valued function $u_0$ is bounded in H ; let $a = \sup_{t \in H} |u_0(t)|$; if $u$ is any point of E then for all $t \in H$
+4) Let $X$ be a topological space; on the set $E = \mathscr{C}(X; \mathbf{R})$ of finite real-valued *continuous* functions defined over $X$, the *compact convergence* topology (GT, X, § 1.3) is compatible with the vector space structure of E on $\mathbf{R}$. For, let $u_0$ be a point of E, let H be a compact subset of X and $\varepsilon$ be an arbitrary strictly positive number. The real-valued function $u_0$ is bounded in H ; let $a = \sup_{t \in H} |u_0(t)|$; if $u$ is any point of E then for all $t \in H$
 
 $$
 |\lambda u(t) - \lambda_0 u_0(t)| \leq |\lambda| \cdot |u(t) - u_0(t)| + a |\lambda - \lambda_0|.
@@ -121,7 +121,7 @@ It is known (GT, IX, § 3.3) that two distinct norms on $E$ can define the same 
 
 #### Example {#evt-i-s1-n2-exa-1 .statement}
 
-Let I be an arbitrary set of indices; it is known (GT, X, § 3.2) that a norm $\|x\|$ can be defined, on the set of bounded mappings $x = (\xi_i)$ of I in K, $\mathcal{B}(I; K)$ (also written $\mathcal{B}_K(I)$ or $\ell_K^\infty(I)$), by $\|x\| = \sup_{i \in I} |\xi_i|$. When I is a topological space, the set of bounded, continuous mappings of I in K is a closed subspace of the space $\mathcal{B}(I; K)$ (GT, X, § 3.1, cor. 2). Another subspace of $\mathcal{B}(I; K)$ is the set $\ell_K^1(I)$ of absolutely summable families $x = (\xi_i)$ (GT, X, § 3.6); we can define on this subspace another norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$, that in general is not equivalent to the norm $\|x\| = \sup_{i \in I} |\xi_i|$ (I, p. 23, exerc. 6); when considering $\ell_K^1(I)$ as a normed space, without specifying its norm, it is always the norm $\|x\|$, that is meant. We write $\mathcal{B}(I)$ and $\ell^1(I)$ in place of $\mathcal{B}(I; \mathbf{R})$ and $\ell_R^1(I)$.
+Let I be an arbitrary set of indices; it is known (GT, X, § 3.2) that a norm $\|x\|$ can be defined, on the set of bounded mappings $x = (\xi_i)$ of I in K, $\mathscr{B}(I; K)$ (also written $\mathscr{B}_K(I)$ or $\ell_K^\infty(I)$), by $\|x\| = \sup_{i \in I} |\xi_i|$. When I is a topological space, the set of bounded, continuous mappings of I in K is a closed subspace of the space $\mathscr{B}(I; K)$ (GT, X, § 3.1, cor. 2). Another subspace of $\mathscr{B}(I; K)$ is the set $\ell_K^1(I)$ of absolutely summable families $x = (\xi_i)$ (GT, X, § 3.6); we can define on this subspace another norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$, that in general is not equivalent to the norm $\|x\| = \sup_{i \in I} |\xi_i|$ (I, p. 23, exerc. 6); when considering $\ell_K^1(I)$ as a normed space, without specifying its norm, it is always the norm $\|x\|$, that is meant. We write $\mathscr{B}(I)$ and $\ell^1(I)$ in place of $\mathscr{B}(I; \mathbf{R})$ and $\ell_R^1(I)$.
 
 ### 3. Vector subspaces and quotient spaces of a topological vector space; products of topological vector spaces; topological direct sums of subspaces
 
@@ -159,7 +159,7 @@ A topological vector space is called complete if, considering its uniform struct
 
 #### Example {#evt-i-s1-n4-exa-1 .statement}
 
-If K is a non-discrete valued division ring then the space $\mathcal{B}(I ; K)$ (I, p. 4, Example) is complete (GT, X, § 3.1, cor. 1). This is also true for the space $\ell_K^1(I)$ (I, p. 4, Example) with the norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$: for, if $x_n$ is a Cauchy sequence in this space and $x_n = (\xi_{m_i})_{i \in I}$, then for all $i \in I$
+If K is a non-discrete valued division ring then the space $\mathscr{B}(I ; K)$ (I, p. 4, Example) is complete (GT, X, § 3.1, cor. 1). This is also true for the space $\ell_K^1(I)$ (I, p. 4, Example) with the norm $\|x\|_1 = \sum_{i \in I} |\xi_i|$: for, if $x_n$ is a Cauchy sequence in this space and $x_n = (\xi_{m_i})_{i \in I}$, then for all $i \in I$
 
 $$
 |\xi_{m_i} - \xi_{n_i}| \leq \|x_m - x_n\|_1;
@@ -256,25 +256,25 @@ where $H$ varies over the $2^n - 1$ subsets of the set of integers $\{ 1, 2, ...
 
 #### Proposition 6 {#evt-i-s1-prop-6 .statement}
 
-*With the same hypotheses on $E_i (1 \leq i \leq n)$ and on $F$ as in prop. 5, in order that a set $\mathcal{E}$ of multilinear maps of $\prod_{i=1}^n E_i$ in $F$ be equicontinuous it is sufficient that the set be equicontinuous at $(0, 0, ..., 0)$.*
+*With the same hypotheses on $E_i (1 \leq i \leq n)$ and on $F$ as in prop. 5, in order that a set $\mathscr{E}$ of multilinear maps of $\prod_{i=1}^n E_i$ in $F$ be equicontinuous it is sufficient that the set be equicontinuous at $(0, 0, ..., 0)$.*
 
-For, in the demonstration of prop. 5 the $U_i (1 \leq i \leq n)$ can be taken such that the relation $x_i \in U_i (1 \leq i \leq n)$ imply $f(x_1, ..., x_n) \in \bigcap_H W_H$ for *every* mapping $f \in \mathcal{E}$.
+For, in the demonstration of prop. 5 the $U_i (1 \leq i \leq n)$ can be taken such that the relation $x_i \in U_i (1 \leq i \leq n)$ imply $f(x_1, ..., x_n) \in \bigcap_H W_H$ for *every* mapping $f \in \mathscr{E}$.
 
 ### 7. Initial topologies of vector spaces
 
 #### Proposition 7 {#evt-i-s1-prop-7 .statement}
 
-*Let $(E_v)_{v \in I}$ be a family of topological vector spaces on a topological division ring $K$. Let $E$ be a vector space on $K$ and for each $v \in I$, let $f_v$ be a linear mapping of $E$ in $E_v$. Then the coarsest topology on $E$ which makes each function $f_v$ continuous, is a topology $\mathcal{T}$ compatible with the vector space structure of $E$. Further, if for every $x \in E$, $\phi(x)$ denotes the point $(f_v(x))$ of the product space $F = \prod_{v \in I} E_v$, then the topology $\mathcal{T}$ is the inverse image of the topology of the subspace $\phi(E)$ of $F$ under the linear mapping $\phi$.*
+*Let $(E_v)_{v \in I}$ be a family of topological vector spaces on a topological division ring $K$. Let $E$ be a vector space on $K$ and for each $v \in I$, let $f_v$ be a linear mapping of $E$ in $E_v$. Then the coarsest topology on $E$ which makes each function $f_v$ continuous, is a topology $\mathscr{T}$ compatible with the vector space structure of $E$. Further, if for every $x \in E$, $\phi(x)$ denotes the point $(f_v(x))$ of the product space $F = \prod_{v \in I} E_v$, then the topology $\mathscr{T}$ is the inverse image of the topology of the subspace $\phi(E)$ of $F$ under the linear mapping $\phi$.*
 
 The last part of the proposition is a particular case of GT, I, § 4.1, prop. 3. The proposition then follows from the next lemma.
 
 #### Lemma {#evt-i-s1-n7-lem-1 .statement}
 
-— *Let $M$ and $N$ be two vector spaces, and $g$ a linear mapping of $M$ in $N$. If $\mathcal{T}_0$ is a topology compatible with the vector space structure of $N$, then the inverse image of $\mathcal{T}_0$ by $g$ is compatible with the vector space structure of $M$.*
+— *Let $M$ and $N$ be two vector spaces, and $g$ a linear mapping of $M$ in $N$. If $\mathscr{T}_0$ is a topology compatible with the vector space structure of $N$, then the inverse image of $\mathscr{T}_0$ by $g$ is compatible with the vector space structure of $M$.*
 
 We show, for example, that $(\lambda, x) \mapsto \lambda x$ is continuous at each point $(\lambda_0, x_0)$ of $K \times M$. Put $y_0 = g(x_0)$. Every neighbourhood of 0 in $M$ contains a neighbourhood of the form $g(U)$ where $U$ is a neighbourhood of 0 in $N$; by hypothesis there exists a neighbourhood $V$ of 0 in $K$ and a neighbourhood $W$ of 0 in $N$ such that the relations $\lambda - \lambda_0 \in V$, and $y - y_0 \in W$ imply $\lambda y - \lambda_0 y_0 \in U$. Thus the relations $\lambda - \lambda_0 \in V$, $x - x_0 \in g(W)$ imply $\lambda x - \lambda_0 x_0 \in g(U)$. We can show similarly that $(x, y) \mapsto x - y$ is continuous in $M \times M$.
 
-For each index $i \in I$, let $\mathcal{B}_i$ be a fundamental system of neighbourhoods of 0 in $E_i$. From the definition of the topology $\mathcal{T}$, the filter of neighbourhoods of 0 for this topology is generated by unions of sets of the families $f_i^{-1}(\mathcal{B}_i)$; in other words, the sets of the form $\bigcap_k f_{i_k}^{-1}(V_{i_k})$ form a fundamental system of neighbourhoods of 0 for $\mathcal{T}$, the $(i_k)_{1 \leq k \leq n}$ being any finite sequence of indices of I, and, for each index $k$, $V_{i_k}$ any set of $\mathcal{B}_{i_k}$.
+For each index $i \in I$, let $\mathscr{B}_i$ be a fundamental system of neighbourhoods of 0 in $E_i$. From the definition of the topology $\mathscr{T}$, the filter of neighbourhoods of 0 for this topology is generated by unions of sets of the families $f_i^{-1}(\mathscr{B}_i)$; in other words, the sets of the form $\bigcap_k f_{i_k}^{-1}(V_{i_k})$ form a fundamental system of neighbourhoods of 0 for $\mathscr{T}$, the $(i_k)_{1 \leq k \leq n}$ being any finite sequence of indices of I, and, for each index $k$, $V_{i_k}$ any set of $\mathscr{B}_{i_k}$.
 
 #### Corollary 1 {#evt-i-s1-prop-7-cor-1 .statement}
 
@@ -284,31 +284,31 @@ This is a particular case of GT, X, § 2.2, prop. 3.
 
 #### Corollary 2 {#evt-i-s1-prop-7-cor-2 .statement}
 
-*If the spaces $E_i$ are Hausdorff, then in order that $\mathcal{T}$ be Hausdorff, it is necessary and sufficient that, for every $x \neq 0$ in E, there should exist an index $i \in I$, such that $f_i(x) \neq 0$.*
+*If the spaces $E_i$ are Hausdorff, then in order that $\mathscr{T}$ be Hausdorff, it is necessary and sufficient that, for every $x \neq 0$ in E, there should exist an index $i \in I$, such that $f_i(x) \neq 0$.*
 
-For $\phi(E)$ is then a Hausdorff space, and in order that $\mathcal{T}$ be Hausdorff, it is evidently necessary and sufficient that $\phi$ be injective; note that we can then identify E (with $\mathcal{T}$) with the subspace $\phi(E)$ of $\prod_{i \in I} E_i$ by the mapping $\phi$.
+For $\phi(E)$ is then a Hausdorff space, and in order that $\mathscr{T}$ be Hausdorff, it is evidently necessary and sufficient that $\phi$ be injective; note that we can then identify E (with $\mathscr{T}$) with the subspace $\phi(E)$ of $\prod_{i \in I} E_i$ by the mapping $\phi$.
 
 #### Corollary 3 {#evt-i-s1-prop-7-cor-3 .statement}
 
-*Suppose the $E_i$ are complete and $\phi(E)$ is closed in $F = \prod_{i \in I} E_i$. Then E is complete in the topology $\mathcal{T}$.*
+*Suppose the $E_i$ are complete and $\phi(E)$ is closed in $F = \prod_{i \in I} E_i$. Then E is complete in the topology $\mathscr{T}$.*
 
 For the subspace $\phi(E)$ of F is then complete (GT, II, § 3.4, prop. 8 and § 3.5, prop. 10), therefore the same is true of E in the inverse image topology (GT, I, § 7.6, prop. 10 and GT, II, § 3.1, prop. 4).
 
 #### Example {#evt-i-s1-n7-exa-1 .statement}
 
-— Let $\mathcal{D}'(\mathbf{R})$ be the space of distributions on $\mathbf{R}$; for $p$ a number such that $1 \leq p \leq +\infty$, let $j : L^p(\mathbf{R}) \to \mathcal{D}'(\mathbf{R})$ be the canonical injection, which is continuous (when $L^p(\mathbf{R})$ carries its normed space topology and $\mathcal{D}'(\mathbf{R})$ the strong topology). For every distribution $f \in \mathcal{D}'(\mathbf{R})$, denote the derivative of $f$ by $D(f)$; recall that $f \mapsto D(f)$ is a continuous endomorphism of $\mathcal{D}'(\mathbf{R})$. Then let E be the vector subspace of $L^p(\mathbf{R})$ formed from those $f \in L^p(\mathbf{R})$ for which $D(f) \in L^p(\mathbf{R})$, and confer on E the coarsest topology making the canonical injection $i : E \to L^p(\mathbf{R})$ and the mapping $D : E \to L^p(\mathbf{R})$ continuous ($L^p(\mathbf{R})$ carries its normed space topology). For this topology, the space E is *complete*. For, the image of E in $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ by the mapping $\phi : f \mapsto (f, D(f))$ is *closed*, since it is the trace on $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ of the image G of $\mathcal{D}'(\mathbf{R})$ in $\mathcal{D}'(\mathbf{R}) \times \mathcal{D}'(\mathbf{R})$ by the mapping
+— Let $\mathscr{D}'(\mathbf{R})$ be the space of distributions on $\mathbf{R}$; for $p$ a number such that $1 \leq p \leq +\infty$, let $j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$ be the canonical injection, which is continuous (when $L^p(\mathbf{R})$ carries its normed space topology and $\mathscr{D}'(\mathbf{R})$ the strong topology). For every distribution $f \in \mathscr{D}'(\mathbf{R})$, denote the derivative of $f$ by $D(f)$; recall that $f \mapsto D(f)$ is a continuous endomorphism of $\mathscr{D}'(\mathbf{R})$. Then let E be the vector subspace of $L^p(\mathbf{R})$ formed from those $f \in L^p(\mathbf{R})$ for which $D(f) \in L^p(\mathbf{R})$, and confer on E the coarsest topology making the canonical injection $i : E \to L^p(\mathbf{R})$ and the mapping $D : E \to L^p(\mathbf{R})$ continuous ($L^p(\mathbf{R})$ carries its normed space topology). For this topology, the space E is *complete*. For, the image of E in $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ by the mapping $\phi : f \mapsto (f, D(f))$ is *closed*, since it is the trace on $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ of the image G of $\mathscr{D}'(\mathbf{R})$ in $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ by the mapping
 
 $$
 \phi_0 : f \mapsto (f, D(f));
 $$
 
-now G is the graph of $\phi_0$, therefore closed in $\mathcal{D}'(\mathbf{R}) \times \mathcal{D}'(\mathbf{R})$ (GT, I, § 8.1, cor. 2 of prop. 2), and as $\phi(E)$ is the inverse image of G by $i \times i$, which is continuous, we see that $\phi(E)$ is closed in F. \*
+now G is the graph of $\phi_0$, therefore closed in $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ (GT, I, § 8.1, cor. 2 of prop. 2), and as $\phi(E)$ is the inverse image of G by $i \times i$, which is continuous, we see that $\phi(E)$ is closed in F. \*
 
 #### Corollary 4 {#evt-i-s1-prop-7-cor-4 .statement}
 
-*Let E be a vector space over a topological division ring K, and let $(\mathcal{T}_i)_{i \in I}$ be a family of topologies compatible with the vector space structure of E; then the upper bound $\mathcal{T}$ of the topologies $\mathcal{T}_i$ is compatible with the vector space structure of E.*
+*Let E be a vector space over a topological division ring K, and let $(\mathscr{T}_i)_{i \in I}$ be a family of topologies compatible with the vector space structure of E; then the upper bound $\mathscr{T}$ of the topologies $\mathscr{T}_i$ is compatible with the vector space structure of E.*
 
-For, if $E_t$ denotes the topological vector space obtained from $E$ by the topology $\mathcal{T}_t$, and $f_t$ the identity map of $E$ on $E_t$, then $\mathcal{T}$ is the coarsest topology making the $f_t$ continuous.
+For, if $E_t$ denotes the topological vector space obtained from $E$ by the topology $\mathscr{T}_t$, and $f_t$ the identity map of $E$ on $E_t$, then $\mathscr{T}$ is the coarsest topology making the $f_t$ continuous.
 
 ### Exercises {#evt-i-s1-exercises}
 

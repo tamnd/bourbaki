@@ -37,7 +37,7 @@ subsections:
       pdf_page: 211
 statements: 15
 exercises: 18
-content_sha256: acb8476c9a683786100596db8b0170138e85f99884634126e9d1cb2b39b815ef
+content_sha256: 9641387bd6247616d6b03e2da42310e39328e198c77df217bdb2012e49d19706
 ---
 
 ## § 3. DUAL D’UN ESPACE DE FRÉCHET
@@ -49,13 +49,13 @@ content_sha256: acb8476c9a683786100596db8b0170138e85f99884634126e9d1cb2b39b815ef
 Soit $E$ un espace localement convexe. Les conditions suivantes sont équivalentes :
 (i) Soit $U$ une partie de $E$, qui absorbe toute partie bornée de $E$, et qui est intersection d’une suite de voisinages convexes, équilibrés et fermés de 0 dans $E$. Alors $U$ est un voisinage de 0 dans $E$.
 
-(ii) Pour tout espace localement convexe F, toute partie bornée de $\mathcal{L}_b(E; F)$, qui est réunion d’une famille dénombrable de parties équicontinues, est équicontinue.
+(ii) Pour tout espace localement convexe F, toute partie bornée de $\mathscr{L}_b(E; F)$, qui est réunion d’une famille dénombrable de parties équicontinues, est équicontinue.
 
 (iii) Dans le dual fort $E'_b$ de E, toute partie bornée qui est réunion d’une famille dénombrable de parties équicontinues, est équicontinue.
 
 Il est clair que (iii) est un cas particulier de (ii).
 
-(i) $\Rightarrow$ (ii) : soit H une partie bornée de $\mathcal{L}_b(E; F)$, et soit $(H_n)$ une suite de parties équicontinues de $\mathcal{L}_b(E; F)$ telle que $H = \bigcup_n H_n$. Soit V un voisinage convexe, équilibré et fermé de 0 dans F. Pour tout n, l’ensemble $W_n = \bigcap_{u \in H_n} u^{-1}(V)$ est un voisinage convexe, équilibré et fermé de 0 dans E puisque $H_n$ est équicontinue. L’ensemble $W = \bigcap_{u \in H} u^{-1}(V)$ absorbe toute partie bornée de E, puisque H est borné dans $\mathcal{L}_b(E; F)$ (III, p. 22), et l’on a $W = \bigcap_n W_n$. Si E satisfait à (i), l’ensemble W est un voisinage de 0 dans E, donc H est équicontinu.
+(i) $\Rightarrow$ (ii) : soit H une partie bornée de $\mathscr{L}_b(E; F)$, et soit $(H_n)$ une suite de parties équicontinues de $\mathscr{L}_b(E; F)$ telle que $H = \bigcup_n H_n$. Soit V un voisinage convexe, équilibré et fermé de 0 dans F. Pour tout n, l’ensemble $W_n = \bigcap_{u \in H_n} u^{-1}(V)$ est un voisinage convexe, équilibré et fermé de 0 dans E puisque $H_n$ est équicontinue. L’ensemble $W = \bigcap_{u \in H} u^{-1}(V)$ absorbe toute partie bornée de E, puisque H est borné dans $\mathscr{L}_b(E; F)$ (III, p. 22), et l’on a $W = \bigcap_n W_n$. Si E satisfait à (i), l’ensemble W est un voisinage de 0 dans E, donc H est équicontinu.
 
 (iii) $\Rightarrow$ (i) : soit $(U_n)$ une suite de voisinages convexes, équilibrés et fermés de 0 dans E. On suppose que l’ensemble $U = \bigcap_n U_n$ absorbe toute partie bornée de E, donc que son polaire $U^\circ$ est borné dans $E'_b$. Alors l’ensemble $B = \bigcup_n U_n^\circ$ est contenu dans $U^\circ$, donc est borné dans $E'_b$. Si E satisfait à (iii), l’ensemble B est équicontinu dans $E'$; par suite, le polaire $B^\circ = \bigcap_n (U_n^\circ)^\circ = \bigcap_n U_n = U$ de B dans E est un voisinage de 0 dans E.
 
@@ -99,17 +99,17 @@ Le corollaire suivant étend le th. de Banach-Steinhaus au dual d’un espace de
 
 *Soit G un espace localement convexe séparé, et soit* $(u_n)$ *une suite d’applications linéaires de F dans G, convergeant simplement vers une application u de F dans G. Alors u est continue, et la suite* $(u_n)$ *converge vers u uniformément sur toute partie précompacte de F.*
 
-Comme F est complet, l’ensemble des $u_n$, qui est borné pour la topologie de la convergence simple, est borné dans $\mathcal{L}_b(F; G)$ (III, p. 27, cor. 1). Comme l’espace F est semi-tonnelé (prop. 2), toute partie dénombrable et bornée de $\mathcal{L}_b(F; G)$ est équi-continue d’après la prop. 1 de IV, p. 20. L’ensemble des $u_n$ est donc équicontinu, et le corollaire résulte alors de III, p. 18, corollaire.
+Comme F est complet, l’ensemble des $u_n$, qui est borné pour la topologie de la convergence simple, est borné dans $\mathscr{L}_b(F; G)$ (III, p. 27, cor. 1). Comme l’espace F est semi-tonnelé (prop. 2), toute partie dénombrable et bornée de $\mathscr{L}_b(F; G)$ est équi-continue d’après la prop. 1 de IV, p. 20. L’ensemble des $u_n$ est donc équicontinu, et le corollaire résulte alors de III, p. 18, corollaire.
 
 ### 3. Bidual d’un espace localement convexe métrisable
 
 #### Proposition 3 {#evt-iv-s3-prop-3 .statement}
 
-*Soient E un espace localement convexe métrisable, $E'_b$ son dual fort et G un espace de Fréchet. L’espace $\mathcal{L}_b(E'_b; G)$ est un espace de Fréchet.*
+*Soient E un espace localement convexe métrisable, $E'_b$ son dual fort et G un espace de Fréchet. L’espace $\mathscr{L}_b(E'_b; G)$ est un espace de Fréchet.*
 
-D’après la prop. 2 (IV, p. 21), il existe une suite $(A_n)$ de parties bornées de $E'_b$ telle que toute partie bornée de $E'_b$ soit contenue dans l’une des $A_n$. Soit $(V_n)$ un système fondamental dénombrable de voisinages de 0 dans G. Soit $H_{mn}$ l’ensemble des applications linéaires $u$ de $E'_b$ dans G telles que $u(A_m) \subset V_n$. Alors $(H_{mn})$ est un système fondamental de voisinages de 0 dans $\mathcal{L}_b(E'_b ; G)$, et ce dernier espace est donc métrisable.
+D’après la prop. 2 (IV, p. 21), il existe une suite $(A_n)$ de parties bornées de $E'_b$ telle que toute partie bornée de $E'_b$ soit contenue dans l’une des $A_n$. Soit $(V_n)$ un système fondamental dénombrable de voisinages de 0 dans G. Soit $H_{mn}$ l’ensemble des applications linéaires $u$ de $E'_b$ dans G telles que $u(A_m) \subset V_n$. Alors $(H_{mn})$ est un système fondamental de voisinages de 0 dans $\mathscr{L}_b(E'_b ; G)$, et ce dernier espace est donc métrisable.
 
-Pour montrer que $\mathcal{L}_b(E'_b ; G)$ est complet, il suffit de prouver que toute suite de Cauchy $(u_n)$ dans cet espace est convergente ; comme G est complet, il existe une application linéaire $u : E'_b \to G$ telle que $(u_n)$ converge simplement vers $u$. D’après IV, p. 22, corollaire, on a $u \in \mathcal{L}(E'_b ; G)$. Il résulte alors de la prop. 5 de TG, X, p. 6, que $(u_n)$ converge vers $u$ dans $\mathcal{L}_b(E'_b ; G)$.
+Pour montrer que $\mathscr{L}_b(E'_b ; G)$ est complet, il suffit de prouver que toute suite de Cauchy $(u_n)$ dans cet espace est convergente ; comme G est complet, il existe une application linéaire $u : E'_b \to G$ telle que $(u_n)$ converge simplement vers $u$. D’après IV, p. 22, corollaire, on a $u \in \mathscr{L}(E'_b ; G)$. Il résulte alors de la prop. 5 de TG, X, p. 6, que $(u_n)$ converge vers $u$ dans $\mathscr{L}_b(E'_b ; G)$.
 
 #### Corollaire {#evt-iv-s3-n3-cor-1 .statement}
 
@@ -144,12 +144,12 @@ Une limite inductive d’espaces de Banach est bornologique par définition. Par
 #### Théorème 1 (Banach-Dieudonné) {#evt-iv-s3-thm-1 .statement}
 
 Soit E un espace localement convexe métrisable. Sur le dual E' de E, les topologies suivantes coïncident :
-a) la topologie $\mathcal{T}_{\mathfrak{N}}$ de la $\mathfrak{N}$-convergence, où $\mathfrak{N}$ est l’ensemble des parties de E dont chacune est formée des points d’une suite convergeant vers 0 ;
-b) la topologie $\mathcal{T}_c$ de la convergence uniforme sur les parties compactes de E ;
-c) la topologie $\mathcal{T}_{pc}$ de la convergence uniforme sur les parties précompactes de E ;
-d) la topologie $\mathcal{T}_f$ la plus fine induisant la même topologie que $\sigma(E', E)$ sur toute partie équicontinue de E'.
+a) la topologie $\mathscr{T}_{\mathfrak{N}}$ de la $\mathfrak{N}$-convergence, où $\mathfrak{N}$ est l’ensemble des parties de E dont chacune est formée des points d’une suite convergeant vers 0 ;
+b) la topologie $\mathscr{T}_c$ de la convergence uniforme sur les parties compactes de E ;
+c) la topologie $\mathscr{T}_{pc}$ de la convergence uniforme sur les parties précompactes de E ;
+d) la topologie $\mathscr{T}_f$ la plus fine induisant la même topologie que $\sigma(E', E)$ sur toute partie équicontinue de E'.
 
-Remarquons d’abord qu’une partie A de E' est fermée pour $\mathcal{T}_f$ si et seulement si $A \cap H$ est fermé pour $\sigma(E', E)$ quelle que soit la partie H de E', équicontinue et fermée pour $\sigma(E', E)$. Sur toute partie équicontinue de E', la topologie faible $\sigma(E', E)$ et $\mathcal{T}_{pc}$ induisent la même topologie (III, p. 17, prop. 5). Par suite, chacune des topologies $\mathcal{T}_{\mathfrak{N}}, \mathcal{T}_c, \mathcal{T}_{pc}, \mathcal{T}_f$ est moins fine que la suivante. Il suffit donc de prouver que $\mathcal{T}_{\mathfrak{N}}$ est plus fine que $\mathcal{T}_f$. De plus, toute translation dans E' est un homéomorphisme pour $\mathcal{T}_f$. Il suffit donc de prouver que, si F est une partie de E' fermée pour $\mathcal{T}_f$, ne contenant pas 0, il existe un ensemble $S \in \mathfrak{N}$ tel que $S^\circ \cap F = \varnothing$.
+Remarquons d’abord qu’une partie A de E' est fermée pour $\mathscr{T}_f$ si et seulement si $A \cap H$ est fermé pour $\sigma(E', E)$ quelle que soit la partie H de E', équicontinue et fermée pour $\sigma(E', E)$. Sur toute partie équicontinue de E', la topologie faible $\sigma(E', E)$ et $\mathscr{T}_{pc}$ induisent la même topologie (III, p. 17, prop. 5). Par suite, chacune des topologies $\mathscr{T}_{\mathfrak{N}}, \mathscr{T}_c, \mathscr{T}_{pc}, \mathscr{T}_f$ est moins fine que la suivante. Il suffit donc de prouver que $\mathscr{T}_{\mathfrak{N}}$ est plus fine que $\mathscr{T}_f$. De plus, toute translation dans E' est un homéomorphisme pour $\mathscr{T}_f$. Il suffit donc de prouver que, si F est une partie de E' fermée pour $\mathscr{T}_f$, ne contenant pas 0, il existe un ensemble $S \in \mathfrak{N}$ tel que $S^\circ \cap F = \varnothing$.
 
 Soit $(U_n)_{n \geq 0}$ une suite décroissante de voisinages de 0 dans E, formant un système fondamental de voisinages de 0. Nous allons construire, par récurrence sur $n \geq 0$, des ensembles finis $X_n$ tels que l’on ait
 
@@ -167,7 +167,7 @@ $$
 F_x = (\bigcup_{0 \leq p < m} X_p)^\circ \cap \{x\}^\circ \cap U_{m+1}^\circ \cap F.
 $$
 
-La formule (5), où l’on fait $n = m - 1$ entraîne $\bigcap_{x \in U_m} F_x = \varnothing$. Par ailleurs, l’ensemble $U_{m+1}^\circ$ est équicontinu, et compact pour $\sigma(E', E)$. Vu la définition de $\mathcal{T}_f$, chacun des ensembles $F_x$ est compact pour $\sigma(E', E)$; il existe donc une partie finie $X_m$ de $U_m$ telle que $\bigcap_{x \in X_m} F_x = \varnothing$, c’est-à-dire que la relation (5) est satisfaite pour $n = m$.
+La formule (5), où l’on fait $n = m - 1$ entraîne $\bigcap_{x \in U_m} F_x = \varnothing$. Par ailleurs, l’ensemble $U_{m+1}^\circ$ est équicontinu, et compact pour $\sigma(E', E)$. Vu la définition de $\mathscr{T}_f$, chacun des ensembles $F_x$ est compact pour $\sigma(E', E)$; il existe donc une partie finie $X_m$ de $U_m$ telle que $\bigcap_{x \in X_m} F_x = \varnothing$, c’est-à-dire que la relation (5) est satisfaite pour $n = m$.
 
 Posons $S = \bigcup_{n \geq 0} X_n$. On a $X_n \subset U_p$ pour $n \geq p$, donc S est l’ensemble des points d’une suite qui converge vers 0 dans E. De (5), on déduit $S^\circ \cap U_{n+1}^\circ \cap F = \varnothing$, d’où $S^\circ \cap F = \varnothing$ car E' est réunion de la suite des ensembles $U_{n+1}^\circ$.
 
@@ -175,13 +175,13 @@ Posons $S = \bigcup_{n \geq 0} X_n$. On a $X_n \subset U_p$ pour $n \geq p$, don
 
 Soit E un espace localement convexe métrisable. Toute partie précompacte de E est contenue dans l’enveloppe fermée convexe équilibrée de l’ensemble des points d’une suite convergeant vers 0.
 
-Cela résulte de l’identité des topologies $\mathcal{T}_{pc}$ et $\mathcal{T}_\mathfrak{K}$, compte tenu de la prop. 2 de III, p. 15.
+Cela résulte de l’identité des topologies $\mathscr{T}_{pc}$ et $\mathscr{T}_\mathfrak{K}$, compte tenu de la prop. 2 de III, p. 15.
 
 #### Corollaire 2 {#evt-iv-s3-thm-1-cor-2 .statement}
 
 *Soit E un espace de Fréchet. Pour qu’une partie convexe A du dual E’ de E soit fermée pour $\sigma(E', E)$, il faut et il suffit que $A \cap U^\circ$ soit fermé pour $\sigma(E', E)$ quel que soit le voisinage U de 0 dans E.*
 
-Puisque E est complet, la topologie $\mathcal{T}_c$ sur E’ est compatible avec la dualité entre E’ et E (IV, p. 3, Exemple); par suite les parties convexes fermées dans E’ sont les mêmes pour $\mathcal{T}_c$ et $\sigma(E', E)$ (IV, p. 1, prop. 1). Le corollaire résulte alors de l’identité des topologies $\mathcal{T}_c$ et $\mathcal{T}_f$.
+Puisque E est complet, la topologie $\mathscr{T}_c$ sur E’ est compatible avec la dualité entre E’ et E (IV, p. 3, Exemple); par suite les parties convexes fermées dans E’ sont les mêmes pour $\mathscr{T}_c$ et $\sigma(E', E)$ (IV, p. 1, prop. 1). Le corollaire résulte alors de l’identité des topologies $\mathscr{T}_c$ et $\mathscr{T}_f$.
 
 Rappelons (I, p. 13) que les hyperplans de E’ fermés pour $\sigma(E', E)$ sont les noyaux des formes linéaires sur E’ associées aux éléments de E. Le cor. 2 fournit donc une autre démonstration (pour les espaces de Fréchet) du cor. 1 de III, p. 21.
 
@@ -191,7 +191,7 @@ Rappelons (I, p. 13) que les hyperplans de E’ fermés pour $\sigma(E', E)$ son
 
 #### Exemple {#evt-iv-s3-n5-exa-1 .statement}
 
-*Soit H un espace hilbertien de type dénombrable; on note $H_\sigma$ l’espace H muni de la topologie affaiblie. Soit $\mathcal{L}^1(H)$ l’espace de Banach des endomorphismes nucléaires de H (V, p. 50, et TS, V); la norme dans $\mathcal{L}^1(H)$ est définie par $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. On peut identifier $\mathcal{L}(H)$ au dual de l’espace de Banach $\mathcal{L}^1(H)$ en associant à tout $u \in \mathcal{L}(H)$ la forme linéaire $\varphi_u : v \mapsto \operatorname{Tr}(uv)$ sur $\mathcal{L}^1(H)$. Soit A une sous-algèbre de $\mathcal{L}(H)$, contenant 1 et stable par $u \mapsto u^*$; c’est une algèbre de von Neumann si et seulement si elle est fermée dans $\mathcal{L}(H)$ pour la topologie faible $\sigma(\mathcal{L}(H), \mathcal{L}^1(H))$. On déduit du cor. 3 le critère suivant : pour que A soit une algèbre de von Neumann, il faut et il suffit que pour toute suite $(u_n)$ d’éléments de norme $\leqslant 1$ de A admettant une limite u dans l’espace $\mathcal{L}_s(H ; H_\sigma)$, u appartienne à A. \*
+*Soit H un espace hilbertien de type dénombrable; on note $H_\sigma$ l’espace H muni de la topologie affaiblie. Soit $\mathscr{L}^1(H)$ l’espace de Banach des endomorphismes nucléaires de H (V, p. 50, et TS, V); la norme dans $\mathscr{L}^1(H)$ est définie par $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. On peut identifier $\mathscr{L}(H)$ au dual de l’espace de Banach $\mathscr{L}^1(H)$ en associant à tout $u \in \mathscr{L}(H)$ la forme linéaire $\varphi_u : v \mapsto \operatorname{Tr}(uv)$ sur $\mathscr{L}^1(H)$. Soit A une sous-algèbre de $\mathscr{L}(H)$, contenant 1 et stable par $u \mapsto u^*$; c’est une algèbre de von Neumann si et seulement si elle est fermée dans $\mathscr{L}(H)$ pour la topologie faible $\sigma(\mathscr{L}(H), \mathscr{L}^1(H))$. On déduit du cor. 3 le critère suivant : pour que A soit une algèbre de von Neumann, il faut et il suffit que pour toute suite $(u_n)$ d’éléments de norme $\leqslant 1$ de A admettant une limite u dans l’espace $\mathscr{L}_s(H ; H_\sigma)$, u appartienne à A. \*
 
 ### 6. Applications bilinéaires séparément continues
 
@@ -209,13 +209,13 @@ Soit U le polaire de B dans $E'_b$. C’est un voisinage de 0 dans $E'_b$ et l�
 
 Soient $E_1$ et $E_2$ deux espaces de Fréchet réflexifs, et $G$ un espace localement convexe séparé. Pour $i = 1, 2$, soit $F_i$ le dual fort de $E_i$. Alors toute application bilinéaire séparément continue $u : F_1 \times F_2 \to G$ est continue.
 
-L’espace $G$ est isomorphe à un sous-espace d’un produit d’espaces de Banach (II, p. 5, prop. 3). Il suffit donc de prouver le théorème sous l’hypothèse supplémentaire que $G$ est un espace de Banach. Or $F_1$ est tonnelé et $F_2$ bornologique (IV, p. 23, corollaire), et $\mathcal{L}_b(F_2 ; G)$ est un espace de Fréchet (IV, p. 22, prop. 3). Notons $v$ l’application linéaire de $F_1$ dans $\mathcal{L}_b(F_2 ; G)$ associée à $u$ par la relation
+L’espace $G$ est isomorphe à un sous-espace d’un produit d’espaces de Banach (II, p. 5, prop. 3). Il suffit donc de prouver le théorème sous l’hypothèse supplémentaire que $G$ est un espace de Banach. Or $F_1$ est tonnelé et $F_2$ bornologique (IV, p. 23, corollaire), et $\mathscr{L}_b(F_2 ; G)$ est un espace de Fréchet (IV, p. 22, prop. 3). Notons $v$ l’application linéaire de $F_1$ dans $\mathscr{L}_b(F_2 ; G)$ associée à $u$ par la relation
 $$
 u(x_1, x_2) = v(x_1)(x_2) \quad (x_1 \in F_1, x_2 \in F_2).
 $$
 Comme $F_1$ est tonnelé et $u$ séparément continue, $v$ est continue (III, p. 32, prop. 6).
 
-Comme $v$ est continue, le lemme 1 entraîne l’existence d’un voisinage $U_1$ de 0 dans $F_1$ dont l’image par $v$ soit bornée dans $\mathcal{L}_b(F_2 ; G)$. Autrement dit, pour tout ensemble borné $B_2$ dans $F_2$, l’ensemble $u(U_1 \times B_2)$ est borné dans l’espace de Banach $G$. Soit $U_2$ l’ensemble des $x_2 \in F_2$ tels que l’on ait $\|u(x_1, x_2)\| \leq 1$ pour tout $x_1 \in U_1$. L’ensemble $U_2$ absorbe donc tout ensemble borné ; comme $F_2$ est bornologique, $U_2$ est donc un voisinage de 0 dans $F_2$, ce qui prouve que $u$ est continue.
+Comme $v$ est continue, le lemme 1 entraîne l’existence d’un voisinage $U_1$ de 0 dans $F_1$ dont l’image par $v$ soit bornée dans $\mathscr{L}_b(F_2 ; G)$. Autrement dit, pour tout ensemble borné $B_2$ dans $F_2$, l’ensemble $u(U_1 \times B_2)$ est borné dans l’espace de Banach $G$. Soit $U_2$ l’ensemble des $x_2 \in F_2$ tels que l’on ait $\|u(x_1, x_2)\| \leq 1$ pour tout $x_1 \in U_1$. L’ensemble $U_2$ absorbe donc tout ensemble borné ; comme $F_2$ est bornologique, $U_2$ est donc un voisinage de 0 dans $F_2$, ce qui prouve que $u$ est continue.
 
 ## EXERCICES {#evt-iv-s3-exercises}
 

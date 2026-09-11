@@ -25,9 +25,9 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: a3028ae0aab75ee80b041c51eeea5e335259789a3ec59194d01dda918683cce4
+content_sha256: 73ffda3a86484d8adcd1cfcee6e03578543709c4aa766d340b0c78d2c5a0e1f6
 translated_from: content/en/evt/IV/04_s4_strict_morphisms_of_frechet_spaces.md
-source_content_sha256: 4d9f753ed58d33db4d4b3dea16cf8a66e6a7677f9073f91db993b2b4767b89f4
+source_content_sha256: 4445f6ba38c26bd2d5f9daeeec37deadb15f52942ff517da8da3165b091bf023
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-8fdd1692
 glossary_version: 34
@@ -139,7 +139,7 @@ Nếu $u : E \to F$ là một cấu xạ ngặt của các không gian Fréchet,
 h) $^t u$ là một cấu xạ ngặt từ $F'_b$ vào $E'_b$.
 Khi E và F đều là các không gian Banach, hoặc đều là các không gian Montel, tính chất h) tương đương với các tính chất a) đến g) của đl. 1.
 Giả sử rằng $^t u$ là một cấu xạ ngặt từ $F'_b$ vào $E'_b$. Ta sẽ chứng minh rằng ảnh H của $^t u$ là đóng trong $E'_b$, từ đó sẽ suy ra mệnh đề thứ nhất của hq. 3.
-Gọi G là bao đóng của ảnh của $u$ trong F ; không gian G, được trang bị tôpô cảm sinh bởi tôpô của F, là một không gian Fréchet. Ánh xạ $u : E \to F$ phân tích thành $u = j \circ v$ trong đó j là đơn ánh chính tắc từ G vào F và $v \in \mathcal{L}(E; G)$. Khi đó ta có $^t u = ^t v \circ ^t j$, trong đó $^t j$ là toàn ánh, theo đl. Hahn-Banach (II, p. 24, mệnh đề 2); đồng thời $^t v$ là đơn ánh vì $v(E)$ trù mật trong G (IV, p. 6, mệnh đề 5). Theo giả thiết, ánh xạ $^t u$ từ $F'_b$ lên H là mở ; vì $^t j$ là toàn ánh và liên tục, ánh xạ $^t v$ cảm sinh một đồng phôi từ $G'_b$ lên H. Nhưng đối ngẫu $G'_b$ của không gian Fréchet G là đầy đủ (IV, p. 22, mệnh đề 2); do đó H là đầy đủ, vì thế đóng trong $E'_b$.
+Gọi G là bao đóng của ảnh của $u$ trong F ; không gian G, được trang bị tôpô cảm sinh bởi tôpô của F, là một không gian Fréchet. Ánh xạ $u : E \to F$ phân tích thành $u = j \circ v$ trong đó j là đơn ánh chính tắc từ G vào F và $v \in \mathscr{L}(E; G)$. Khi đó ta có $^t u = ^t v \circ ^t j$, trong đó $^t j$ là toàn ánh, theo đl. Hahn-Banach (II, p. 24, mệnh đề 2); đồng thời $^t v$ là đơn ánh vì $v(E)$ trù mật trong G (IV, p. 6, mệnh đề 5). Theo giả thiết, ánh xạ $^t u$ từ $F'_b$ lên H là mở ; vì $^t j$ là toàn ánh và liên tục, ánh xạ $^t v$ cảm sinh một đồng phôi từ $G'_b$ lên H. Nhưng đối ngẫu $G'_b$ của không gian Fréchet G là đầy đủ (IV, p. 22, mệnh đề 2); do đó H là đầy đủ, vì thế đóng trong $E'_b$.
 Nếu E và F là các không gian Montel, tôpô mạnh trên $E'$ (resp. $F'$) trùng với tôpô hội tụ compact, và h) chỉ là một sự phát biểu lại của g).
 Nếu E và F là các không gian Banach, thì $E'_b$ và $F'_b$ cũng vậy, và điều kiện h) tương đương với f) bởi tính tương đương của a) và c) áp dụng cho $^t u : F'_b \to E'_b$.
 

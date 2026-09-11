@@ -49,7 +49,7 @@ subsections:
       pdf_page: 318
 statements: 50
 exercises: 15
-content_sha256: a07e43d2ab0e21350a46f181ef589c0fa66bcfed652270b29c7880d14f4789e5
+content_sha256: 54a32a2dc102bd49a6621386308a5a1b6efb1be1b37774acd736b25c49ac489a
 ---
 
 ## § 4. QUELQUES CLASSES D'OPÉRATEURS DANS LES ESPACES HILBERTIENS
@@ -60,27 +60,27 @@ Dans tout ce paragraphe, on note $1_E$ l'application identique d'un espace hilbe
 
 #### Proposition 1 {#evt-v-s4-prop-1 .statement}
 
-*Soient* E *et* F *deux espaces hilbertiens*. *Pour toute application* $u \in \mathcal{L}(E; F)$, *il existe une unique application* $u^* \in \mathcal{L}(F; E)$ *telle que l'on ait*
+*Soient* E *et* F *deux espaces hilbertiens*. *Pour toute application* $u \in \mathscr{L}(E; F)$, *il existe une unique application* $u^* \in \mathscr{L}(F; E)$ *telle que l'on ait*
 $$(1)$$
 $$
 \langle u(x)|y \rangle_F = \langle x|u^*(y) \rangle_E
 $$
 
-quels que soient $x \in E$ et $y \in F$. L’application $u \mapsto u^*$ de $\mathcal{L}(E; F)$ dans $\mathcal{L}(F; E)$ est bijective, isométrique et semi-linéaire (par rapport à l’automorphisme $\xi \mapsto \overline{\xi}$ de $K$).
+quels que soient $x \in E$ et $y \in F$. L’application $u \mapsto u^*$ de $\mathscr{L}(E; F)$ dans $\mathscr{L}(F; E)$ est bijective, isométrique et semi-linéaire (par rapport à l’automorphisme $\xi \mapsto \overline{\xi}$ de $K$).
 
-Soit $\mathcal{S}(E, F)$ l’espace des formes sesquilinéaires continues sur $E \times F$, muni de la norme
+Soit $\mathscr{S}(E, F)$ l’espace des formes sesquilinéaires continues sur $E \times F$, muni de la norme
 
 $$
 \| \Phi \| = \sup_{\| x \| \leq 1, \| y \| \leq 1} | \Phi(x, y) |
 $$
 
-On définit de manière analogue l’espace $\mathcal{S}(F, E)$. On a défini (V, p. 16, cor. 2) un isomorphisme d’espaces de Banach de $\mathcal{L}(E; F)$ sur $\mathcal{S}(F, E)$, noté $u \mapsto \Phi_u$ et caractérisé par
+On définit de manière analogue l’espace $\mathscr{S}(F, E)$. On a défini (V, p. 16, cor. 2) un isomorphisme d’espaces de Banach de $\mathscr{L}(E; F)$ sur $\mathscr{S}(F, E)$, noté $u \mapsto \Phi_u$ et caractérisé par
 
 $$
 \Phi_u(y, x) = \langle y | u(x) \rangle_F \quad (x \in E, y \in F)
 $$
 
-On définit de manière analogue un isomorphisme de $\mathcal{L}(F; E)$ sur $\mathcal{S}(E, F)$. Enfin, on définit une application $\Phi \mapsto \Phi^*$ de $\mathcal{S}(F, E)$ sur $\mathcal{S}(E, F)$ par
+On définit de manière analogue un isomorphisme de $\mathscr{L}(F; E)$ sur $\mathscr{S}(E, F)$. Enfin, on définit une application $\Phi \mapsto \Phi^*$ de $\mathscr{S}(F, E)$ sur $\mathscr{S}(E, F)$ par
 
 $$
 \Phi^*(x, y) = \overline{\Phi(y, x)} \quad (x \in E, y \in F)
@@ -104,7 +104,7 @@ $$
 \end{align*}
 $$
 
-dans ces formules, $u$ et $v$ appartiennent à $\mathcal{L}(E; F)$, $\lambda$ appartient à $K$, et $w$ à $\mathcal{L}(F; G)$ où $G$ est un espace hilbertien. Les formules (5) et (6) expriment que $u \mapsto u^*$ est semi-linéaire. La formule (8) est évidente. Pour prouver (7), on prend le conjugué des deux membres de (1), d’où $\langle u^*(y)|x \rangle = \langle y|u(x) \rangle$, ce qui prouve que $u$ est l’adjoint de $u^*$. Enfin, avec les notations de (9), on a, pour tout $z \in G$
+dans ces formules, $u$ et $v$ appartiennent à $\mathscr{L}(E; F)$, $\lambda$ appartient à $K$, et $w$ à $\mathscr{L}(F; G)$ où $G$ est un espace hilbertien. Les formules (5) et (6) expriment que $u \mapsto u^*$ est semi-linéaire. La formule (8) est évidente. Pour prouver (7), on prend le conjugué des deux membres de (1), d’où $\langle u^*(y)|x \rangle = \langle y|u(x) \rangle$, ce qui prouve que $u$ est l’adjoint de $u^*$. Enfin, avec les notations de (9), on a, pour tout $z \in G$
 
 $$
 \langle w(u(x))|z \rangle = \langle u(x)|w^*(z) \rangle = \langle x|u^*(w^*(z)) \rangle ,
@@ -120,7 +120,7 @@ $$
 
 #### Proposition 2 {#evt-v-s4-prop-2 .statement}
 
-Pour tout $u \in \mathcal{L}(E ; F)$, on a
+Pour tout $u \in \mathscr{L}(E ; F)$, on a
 
 $$
 \|u^*u\| = \|uu^*\| = \|u\|^2 = \|u^*\|^2 .
@@ -160,7 +160,7 @@ $$
 
 ce qui prouve notre assertion.
 
-Soient $E$ et $F$ des espaces hilbertiens, $u \in \mathcal{L}(E ; F)$ et $n$ un entier positif. Si l’on fait $u_1 = ... = u_n = u$ dans la formule (12), on obtient le résultat que l’application linéaire continue $\hat{T}^n(u^*)$ de $\hat{T}^n(F)$ dans $\hat{T}^n(E)$ est l’adjoint de l’application linéaire continue $\hat{T}^n(u)$ de $\hat{T}^n(E)$ dans $\hat{T}^n(F)$. Les formules
+Soient $E$ et $F$ des espaces hilbertiens, $u \in \mathscr{L}(E ; F)$ et $n$ un entier positif. Si l’on fait $u_1 = ... = u_n = u$ dans la formule (12), on obtient le résultat que l’application linéaire continue $\hat{T}^n(u^*)$ de $\hat{T}^n(F)$ dans $\hat{T}^n(E)$ est l’adjoint de l’application linéaire continue $\hat{T}^n(u)$ de $\hat{T}^n(E)$ dans $\hat{T}^n(F)$. Les formules
 
 $$
 \hat{S}^n(u)^* = \hat{S}^n(u^*) , \quad \hat{\Lambda}^n(u)^* = \hat{\Lambda}^n(u^*)
@@ -170,21 +170,21 @@ s’établissent de manière analogue à la formule (12), compte tenu de la déf
 
 #### Remarque 1 {#evt-v-s4-n1-rem-1 .statement}
 
-Supposons l’espace hilbertien $E$ non réduit à 0. Identifions $\mathcal{L}(K ; E)$ à $E$ par l’application $u \mapsto u(1)$; autrement dit, le vecteur $x$ de $E$ est identifié à l’application $\lambda \mapsto \lambda.x$ de $K$ dans $E$. Alors l’adjoint de $x$ est l’application $x^*: E \to K$ donnée par $x^*(y) = \langle x|y \rangle$. Autrement dit, $x \mapsto x^*$ est l’application semi-linéaire canonique de $E$ sur son dual (V, p.15).
+Supposons l’espace hilbertien $E$ non réduit à 0. Identifions $\mathscr{L}(K ; E)$ à $E$ par l’application $u \mapsto u(1)$; autrement dit, le vecteur $x$ de $E$ est identifié à l’application $\lambda \mapsto \lambda.x$ de $K$ dans $E$. Alors l’adjoint de $x$ est l’application $x^*: E \to K$ donnée par $x^*(y) = \langle x|y \rangle$. Autrement dit, $x \mapsto x^*$ est l’application semi-linéaire canonique de $E$ sur son dual (V, p.15).
 
 De même, identifions le nombre $\lambda \in K$ à l’endomorphisme $\lambda .1_E$ de E. Alors $\lambda^*$ n’est autre que le conjugué de $\lambda$.
 
-Avec ces identifications, on peut définir un produit $t_1 \ldots t_n$ où chaque $t_i$ est, soit un nombre dans K, soit un vecteur dans E, soit une forme linéaire appartenant à $E'$, soit un élément de $\mathcal{L}(E)$, pourvu qu’il n’y ait jamais deux facteurs consécutifs $t_i$ et $t_{i+1}$ de l’un des types suivants :
+Avec ces identifications, on peut définir un produit $t_1 \ldots t_n$ où chaque $t_i$ est, soit un nombre dans K, soit un vecteur dans E, soit une forme linéaire appartenant à $E'$, soit un élément de $\mathscr{L}(E)$, pourvu qu’il n’y ait jamais deux facteurs consécutifs $t_i$ et $t_{i+1}$ de l’un des types suivants :
 
 • $xy$ où $x, y$ sont tous deux dans E, ou tous deux dans $E'$;
-• $xA$ ou $Ax'$ avec $A \in \mathcal{L}(E)$, $x \in E$ et $x' \in E'$.
+• $xA$ ou $Ax'$ avec $A \in \mathscr{L}(E)$, $x \in E$ et $x' \in E'$.
 
 On a les règles de calcul suivantes :
 a) associativité ;
 b) tout élément de K commute à tous les autres facteurs ;
 c) on a $(t_1 \ldots t_n)^* = t_n^* \ldots t_1^*$; autrement dit, l’adjoint d’un produit est le produit des adjoints pris dans l’ordre opposé. On a aussi $t^{**} = t$.
 
-Par exemple, soient $x, y$ dans E et A dans $\mathcal{L}(E)$. Alors $x^*y$ représente le produit scalaire $\langle x|y \rangle$ et $x^*Ay$ représente le produit scalaire $\langle x|Ay \rangle$. On a également $(A^*x)^* = x^*A^{**} = x^*A$, d’où $(A^*x)^*y = x^*Ay$, ce qui s’interprète en
+Par exemple, soient $x, y$ dans E et A dans $\mathscr{L}(E)$. Alors $x^*y$ représente le produit scalaire $\langle x|y \rangle$ et $x^*Ay$ représente le produit scalaire $\langle x|Ay \rangle$. On a également $(A^*x)^* = x^*A^{**} = x^*A$, d’où $(A^*x)^*y = x^*Ay$, ce qui s’interprète en
 
 $$
 \langle A^*x|y \rangle = \langle x|Ay \rangle
@@ -196,7 +196,7 @@ A la suite de Dirac $^1$, il est d’usage dans la plupart des ouvrages de Physi
 
 #### Proposition 3 {#evt-v-s4-prop-3 .statement}
 
-Soient E et F deux espaces hilbertiens et $u \in \mathcal{L}(E; F)$. Les conditions suivantes sont équivalentes :
+Soient E et F deux espaces hilbertiens et $u \in \mathscr{L}(E; F)$. Les conditions suivantes sont équivalentes :
 
 (i) $u$ est un isomorphisme d’espaces vectoriels topologiques, d’inverse égal à $u^*$;
 (ii) $u$ est surjectif et $u^*u = 1_E$;
@@ -206,7 +206,7 @@ Soient E et F deux espaces hilbertiens et $u \in \mathcal{L}(E; F)$. Les conditi
 
 La condition (i) signifie que l’on a $u^*u = 1_E$ et $uu^* = 1_F$. L’équivalence de (i), (ii) et (iii) résulte alors de E, II, p. 18, prop. 8. On a déjà noté l’équivalence de (iv) et (v) (V, p. 5). Enfin, la relation $u^*u = 1_E$ équivaut à $\langle x|u^*u(y)\rangle = \langle x|y\rangle$, c’est-à-dire à $\langle u(x)|u(y)\rangle = \langle x|y\rangle$ pour $x, y$ dans E, et entraîne évidemment que $u$ est injectif ; ceci prouve l’équivalence de (ii) et (v).
 
-On appelle aussi opérateur unitaire dans E tout automorphisme de l’espace hilbertien E, autrement dit, tout $u \in \mathcal{L}(E)$ satisfaisant à $uu^* = u^*u = 1_E$.
+On appelle aussi opérateur unitaire dans E tout automorphisme de l’espace hilbertien E, autrement dit, tout $u \in \mathscr{L}(E)$ satisfaisant à $uu^* = u^*u = 1_E$.
 
 #### Remarque 2 {#evt-v-s4-n1-rem-2 .statement}
 
@@ -232,7 +232,7 @@ $$
 
 #### Définition 2 {#evt-v-s4-def-2 .statement}
 
-Soient E et F deux espaces hilbertiens et $u \in \mathcal{L}(E ; F)$. On appelle sous-espace initial de u l'orthogonal du noyau de u dans E et sous-espace final de u l'adhérence de l'image de u dans F. On appelle orthoprojecteur initial (resp. final) de u l'orthoprojecteur de E (resp. F) sur le sous-espace initial (resp. final) de u.
+Soient E et F deux espaces hilbertiens et $u \in \mathscr{L}(E ; F)$. On appelle sous-espace initial de u l'orthogonal du noyau de u dans E et sous-espace final de u l'adhérence de l'image de u dans F. On appelle orthoprojecteur initial (resp. final) de u l'orthoprojecteur de E (resp. F) sur le sous-espace initial (resp. final) de u.
 
 Soit P le sous-espace initial de u. Comme E est somme directe de P et du noyau de u, on a $u(P) = u(E)$.
 
@@ -250,15 +250,15 @@ On peut aussi ramener la prop. 4 aux propriétés générales des transposées (
 
 #### Définition 3 {#evt-v-s4-def-3 .statement}
 
-Soient E et F deux espaces hilbertiens. On dit qu'une application $u \in \mathcal{L}(E ; F)$ est partiellement isométrique si l'on a $\|u(x)\| = \|x\|$ pour tout x appartenant au sous-espace initial de u.
+Soient E et F deux espaces hilbertiens. On dit qu'une application $u \in \mathscr{L}(E ; F)$ est partiellement isométrique si l'on a $\|u(x)\| = \|x\|$ pour tout x appartenant au sous-espace initial de u.
 
-Soit $u \in \mathcal{L}(E ; F)$ de noyau N et d'image I. Dire que u est partiellement isométrique revient à dire que l'application linéaire $\tilde{u} : E/N \to I$ déduite de u est isométrique (V, p. 13). Alors le sous-espace I de F est complet, donc fermé, et c'est le sous-espace final de u. Par suite, u induit un isomorphisme d'espaces hilbertiens du sous-espace initial de u sur son sous-espace final.
+Soit $u \in \mathscr{L}(E ; F)$ de noyau N et d'image I. Dire que u est partiellement isométrique revient à dire que l'application linéaire $\tilde{u} : E/N \to I$ déduite de u est isométrique (V, p. 13). Alors le sous-espace I de F est complet, donc fermé, et c'est le sous-espace final de u. Par suite, u induit un isomorphisme d'espaces hilbertiens du sous-espace initial de u sur son sous-espace final.
 
 #### Proposition 5 {#evt-v-s4-prop-5 .statement}
 
-Soit $u \in \mathcal{L}(E ; F)$ de sous-espace initial P et de sous-espace final Q. On note p (resp. q) l'orthoprojecteur initial (resp. final) de u. Supposons u partiellement isométrique.
+Soit $u \in \mathscr{L}(E ; F)$ de sous-espace initial P et de sous-espace final Q. On note p (resp. q) l'orthoprojecteur initial (resp. final) de u. Supposons u partiellement isométrique.
 
-(i) L'application $u^* \in \mathcal{L}(F ; E)$ est partiellement isométrique, de sous-espace initial Q et de sous-espace final P. L'isomorphisme de P sur Q induit par u est alors réciproque de l'isomorphisme de Q sur P induit par $u^*$.
+(i) L'application $u^* \in \mathscr{L}(F ; E)$ est partiellement isométrique, de sous-espace initial Q et de sous-espace final P. L'isomorphisme de P sur Q induit par u est alors réciproque de l'isomorphisme de Q sur P induit par $u^*$.
 
 (ii) *On a* $u^*u = p$ *et* $uu^* = q$.
 
@@ -274,7 +274,7 @@ Si $x$ appartient à P, on a $\langle u(x)|u(y) \rangle = \langle x|y \rangle$ p
 
 #### Proposition 6 {#evt-v-s4-prop-6 .statement}
 
-*Pour tout* $u \in \mathcal{L}(E; F)$, *les conditions suivantes sont équivalentes* :
+*Pour tout* $u \in \mathscr{L}(E; F)$, *les conditions suivantes sont équivalentes* :
 
 (i) *u est partiellement isométrique* ;
 (ii) *$u^*$ est partiellement isométrique* ;
@@ -303,13 +303,13 @@ On a donc prouvé l’équivalence de (i), (iii) et (v). Remplaçant $u$ par $u^
 
 #### Définition 4 {#evt-v-s4-def-4 .statement}
 
-*Soient* E *un espace hilbertien et* $u \in \mathcal{L}(E)$. *On dit que* u *est normal s’il commute à son adjoint* $u^*$.
+*Soient* E *un espace hilbertien et* $u \in \mathscr{L}(E)$. *On dit que* u *est normal s’il commute à son adjoint* $u^*$.
 
 Par exemple, tout automorphisme $u$ de l’espace hilbertien E est normal puisque l’on a $uu^* = u^*u = 1_E$.
 
 #### Proposition 7 {#evt-v-s4-prop-7 .statement}
 
-Pour que $u \in \mathcal{L}(E)$ soit normal, il faut et il suffit que l’on ait $\|u(x)\| = \|u^*(x)\|$ pour tout $x \in E$.
+Pour que $u \in \mathscr{L}(E)$ soit normal, il faut et il suffit que l’on ait $\|u(x)\| = \|u^*(x)\|$ pour tout $x \in E$.
 
 Définissons une forme hermitienne $\Phi$ sur $E$ par
 
@@ -325,7 +325,7 @@ $$
 
 #### Proposition 8 {#evt-v-s4-prop-8 .statement}
 
-Supposons que $u \in \mathcal{L}(E)$ soit normal. Soient $N$ le noyau de $u$ et $M$ l’orthogonal de $N$ dans $E$; soient $m$ et $n$ deux entiers positifs tels que $m + n \geqslant 1$. Alors $N$ est le noyau de $u^m(u^*)^n$ et $M$ est à la fois le sous-espace initial et le sous-espace final de $u^m(u^*)^n$. En particulier, $M$ est à la fois le sous-espace initial et le sous-espace final de $u$ et de $u^*$, et il est stable par $u$ et $u^*$.
+Supposons que $u \in \mathscr{L}(E)$ soit normal. Soient $N$ le noyau de $u$ et $M$ l’orthogonal de $N$ dans $E$; soient $m$ et $n$ deux entiers positifs tels que $m + n \geqslant 1$. Alors $N$ est le noyau de $u^m(u^*)^n$ et $M$ est à la fois le sous-espace initial et le sous-espace final de $u^m(u^*)^n$. En particulier, $M$ est à la fois le sous-espace initial et le sous-espace final de $u$ et de $u^*$, et il est stable par $u$ et $u^*$.
 
 La prop. 7 montre que $u$ et $u^*$ ont même noyau $N$. D’après la prop. 4, (ii) de V, p. 41, le sous-espace $M$ de $E$ est stable par $u$ et $u^*$ puisqu’il en est ainsi de $N = M^\circ$; comme on a $M \cap N = \{0\}$, les endomorphismes de $M$ induits par $u$ et $u^*$ sont injectifs. Posons $v = u^m(u^*)^n$; ce qui précède montre que la restriction de $v$ à $M$ (resp. $N$) est injective (resp. nulle), donc $N$ est le noyau de $v$. Par suite, $M = N^\circ$ est le sous-espace initial de $v$. D’après la prop. 4, (i) de V, p. 41, le sous-espace final de $v$ est égal au sous-espace initial de $v^*$. Mais on a $v^* = u^n(u^*)^m$ et le sous-espace initial de $v^*$ est donc égal à $M$ d’après ce qui précède.
 
@@ -344,11 +344,11 @@ Il est clair que $w = u - \lambda \cdot 1_E$ est un endomorphisme normal de $E$,
 
 #### Définition 5 {#evt-v-s4-def-5 .statement}
 
-Soient $E$ un espace hilbertien et $u \in \mathcal{L}(E)$. On dit que $u$ est hermitien si l’on a $u^* = u$.
+Soient $E$ un espace hilbertien et $u \in \mathscr{L}(E)$. On dit que $u$ est hermitien si l’on a $u^* = u$.
 
-On note $\mathcal{H}(E)$ l’ensemble des éléments hermitiens de $\mathcal{L}(E)$; c’est un sous-espace vectoriel de l’espace vectoriel $\mathcal{L}(E)_{[\mathbf{R}]}$ sur $\mathbf{R}$ déduit de $\mathcal{L}(E)$ par restriction des scalaires.
+On note $\mathscr{H}(E)$ l’ensemble des éléments hermitiens de $\mathscr{L}(E)$; c’est un sous-espace vectoriel de l’espace vectoriel $\mathscr{L}(E)_{[\mathbf{R}]}$ sur $\mathbf{R}$ déduit de $\mathscr{L}(E)$ par restriction des scalaires.
 
-A tout $u \in \mathcal{L}(E)$, on a associé (V, p. 16, cor. 2) la forme sesquilinéaire $\Phi_u : (x, y) \mapsto \langle x | u(y) \rangle$ sur $E \times E$. On a
+A tout $u \in \mathscr{L}(E)$, on a associé (V, p. 16, cor. 2) la forme sesquilinéaire $\Phi_u : (x, y) \mapsto \langle x | u(y) \rangle$ sur $E \times E$. On a
 
 $$
 \Phi_{u^*}(x, y) = \overline{\Phi_u(y, x)} \quad (x, y \text{ dans } E);
@@ -356,7 +356,7 @@ $$
 
 par suite, $u$ est hermitien si et seulement si la forme $\Phi_u$ est hermitienne. Lorsque $K = \mathbf{C}$, il revient au même de supposer que $\Phi_u(x, x) = \langle x | u(x) \rangle$ est réel pour tout $x \in E$ (V, p. 2, Remarque).
 
-Soit $u \in \mathcal{L}(E)$. On a vu (V, p. 16, cor. 2) que la norme de $u$ se calcule par la formule
+Soit $u \in \mathscr{L}(E)$. On a vu (V, p. 16, cor. 2) que la norme de $u$ se calcule par la formule
 
 $$
 \|u\| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi_u(x, y)| .
@@ -396,7 +396,7 @@ Tout endomorphisme hermitien est évidemment normal. Réciproquement :
 
 #### Proposition 10 {#evt-v-s4-prop-10 .statement}
 
-On suppose $K = \mathbf{C}$. Soit $u \in \mathcal{L}(E)$. Il existe alors un couple $(h_1, h_2)$ d'endomorphismes hermitiens de $E$, et un seul, tel que $u = h_1 + ih_2$. Pour que $u$ soit normal, il faut et il suffit que $h_1$ et $h_2$ commutent.
+On suppose $K = \mathbf{C}$. Soit $u \in \mathscr{L}(E)$. Il existe alors un couple $(h_1, h_2)$ d'endomorphismes hermitiens de $E$, et un seul, tel que $u = h_1 + ih_2$. Pour que $u$ soit normal, il faut et il suffit que $h_1$ et $h_2$ commutent.
 
 En effet, la relation « $u = h_1 + ih_2,\ h_1^* = h_1,\ h_2^* = h_2$ » équivaut à
 
@@ -408,7 +408,7 @@ De plus, on a alors $h_1 h_2 - h_2 h_1 = \frac{i}{2} (uu^* - u^*u)$, d'où la pr
 
 #### Proposition 11 {#evt-v-s4-prop-11 .statement}
 
-Soit $p \in \mathcal{L}(E)$. Pour que $p$ soit l'orthoprojecteur de $E$ sur un sous-espace vectoriel fermé de $E$, il faut et il suffit que l'on ait $p^2 = p = p^*$.
+Soit $p \in \mathscr{L}(E)$. Pour que $p$ soit l'orthoprojecteur de $E$ sur un sous-espace vectoriel fermé de $E$, il faut et il suffit que l'on ait $p^2 = p = p^*$.
 
 Alors E est somme directe topologique de M et N. Pour que p soit un orthoprojecteur, il faut et il suffit que M soit orthogonal à N, c'est-à-dire que l'on ait il faut et il suffit que M soit orthogonal à N, c'est-à-dire que l'on ait $\langle p(x)|y - p(y) \rangle = 0$ quels que soient x, y dans E. Cette dernière relation équivaut à $p = p^*p$. Elle entraîne $p^* = (p^*p)^* = p^*p = p$; réciproquement si $p^* = p$, on a $p = p^2 = p^*p$.
 
@@ -416,7 +416,7 @@ Alors E est somme directe topologique de M et N. Pour que p soit un orthoproject
 
 #### Définition 6 {#evt-v-s4-def-6 .statement}
 
-Soient E un espace hilbertien et $u \in \mathcal{L}(E)$. On dit que u est positif, ce que l'on note $u \geqslant 0$, si u est hermitien et si l'on a $\langle x|u(x) \rangle \geqslant 0$ pour tout $x \in E$.
+Soient E un espace hilbertien et $u \in \mathscr{L}(E)$. On dit que u est positif, ce que l'on note $u \geqslant 0$, si u est hermitien et si l'on a $\langle x|u(x) \rangle \geqslant 0$ pour tout $x \in E$.
 
 Lorsque K est égal à C, la relation
 $$
@@ -424,11 +424,11 @@ $$
 $$
 entraîne que u est hermitien (V, p. 2, Remarque), donc positif.
 
-On note $\mathcal{L}_+(E)$ l'ensemble des éléments positifs de $\mathcal{L}(E)$; c'est un cône convexe pointé saillant de l'espace vectoriel réel $\mathcal{L}(E)_{[\mathbf{R}]}$ sous-jacent à $\mathcal{L}(E)$. Pour que u soit positif, il faut et il suffit que la forme sesquilinéaire $\Phi_u$ sur $E \times E$ associée à u soit hermitienne positive. Étant donnés u et v dans $\mathcal{L}(E)$, la relation $u - v \geqslant 0$ se note encore $u \geqslant v$ ou $v \leqslant u$; c'est une relation d'ordre sur $\mathcal{L}(E)_{[\mathbf{R}]}$ compatible avec sa structure d'espace vectoriel réel.
+On note $\mathscr{L}_+(E)$ l'ensemble des éléments positifs de $\mathscr{L}(E)$; c'est un cône convexe pointé saillant de l'espace vectoriel réel $\mathscr{L}(E)_{[\mathbf{R}]}$ sous-jacent à $\mathscr{L}(E)$. Pour que u soit positif, il faut et il suffit que la forme sesquilinéaire $\Phi_u$ sur $E \times E$ associée à u soit hermitienne positive. Étant donnés u et v dans $\mathscr{L}(E)$, la relation $u - v \geqslant 0$ se note encore $u \geqslant v$ ou $v \leqslant u$; c'est une relation d'ordre sur $\mathscr{L}(E)_{[\mathbf{R}]}$ compatible avec sa structure d'espace vectoriel réel.
 
 #### Proposition 12 {#evt-v-s4-prop-12 .statement}
 
-Soit u un élément hermitien (resp. positif) de $\mathcal{L}(E)$ et soit v une application linéaire continue de E dans un espace hilbertien F. Alors $vuv^*$ est un élément hermitien (resp. positif) de $\mathcal{L}(F)$.
+Soit u un élément hermitien (resp. positif) de $\mathscr{L}(E)$ et soit v une application linéaire continue de E dans un espace hilbertien F. Alors $vuv^*$ est un élément hermitien (resp. positif) de $\mathscr{L}(F)$.
 
 On a en effet $(vuv^*)^* = v^{**}u^*v^* = vuv^*$. D'autre part, si $u \geqslant 0$, on a
 $$
@@ -436,11 +436,11 @@ $$
 $$
 pour tout $y \in F$, d'où $vuv^* \geqslant 0$.
 
-La prop. 12 montre en particulier que $vv^*$ est positif pour tout $v \in \mathcal{L}(E; F)$. Plus particulièrement, un orthoprojecteur p satisfait à $p = p^2 = pp^*$, donc est positif.
+La prop. 12 montre en particulier que $vv^*$ est positif pour tout $v \in \mathscr{L}(E; F)$. Plus particulièrement, un orthoprojecteur p satisfait à $p = p^2 = pp^*$, donc est positif.
 
 #### Remarque 1 {#evt-v-s4-n5-rem-1 .statement}
 
-Pour tout u hermitien dans $\mathcal{L}(E)$, posons $m(u) = \inf_{\|x\|=1} \langle x|u(x) \rangle$,
+Pour tout u hermitien dans $\mathscr{L}(E)$, posons $m(u) = \inf_{\|x\|=1} \langle x|u(x) \rangle$,
 $M(u) = \sup_{\|x\|=1} \langle x|u(x) \rangle$. Si E n'est pas réduit à 0, $m(u)$ et $M(u)$ sont finis ; de plus,
 $M(u)$ est le plus petit nombre réel $\lambda$ tel que $u \leqslant \lambda .1_E$ et $m(u)$ le plus grand nombre réel $\mu$ tel que $u \geqslant \mu .1_E$. On a évidemment $m(-u) = -M(u)$ et $M(-u) = -m(u)$.
 Il est clair que l'on a
@@ -466,17 +466,17 @@ pour tout $x \in E$. La relation $p_M \leq p_N$ équivaut donc à « $\|p_M(x)\|
 
 #### Proposition 13 {#evt-v-s4-prop-13 .statement}
 
-*Soit* $\mathcal{H}(E)$ *l’ensemble des endomorphismes continus hermitiens de l’espace hilbertien* E. *Soit* $\mathcal{F}$ *une partie non vide, filtrante croissante et majorée de* $\mathcal{H}(E)$.
+*Soit* $\mathscr{H}(E)$ *l’ensemble des endomorphismes continus hermitiens de l’espace hilbertien* E. *Soit* $\mathscr{F}$ *une partie non vide, filtrante croissante et majorée de* $\mathscr{H}(E)$.
 
-(i) *L’ensemble* $\mathcal{F}$ *admet une borne supérieure* $u_0$ *dans* $\mathcal{H}(E)$; *on a*
+(i) *L’ensemble* $\mathscr{F}$ *admet une borne supérieure* $u_0$ *dans* $\mathscr{H}(E)$; *on a*
 
 $$
-\langle x|u_0(x) \rangle = \sup_{u \in \mathcal{F}} \langle x|u(x) \rangle \quad \text{pour tout } x \in E .
+\langle x|u_0(x) \rangle = \sup_{u \in \mathscr{F}} \langle x|u(x) \rangle \quad \text{pour tout } x \in E .
 $$
 
-(ii) *Le filtre des sections de* $\mathcal{F}$ *converge vers* $u_0$ *dans l’espace* $\mathcal{L}(E)$ *muni de la topologie de la convergence simple*.
+(ii) *Le filtre des sections de* $\mathscr{F}$ *converge vers* $u_0$ *dans l’espace* $\mathscr{L}(E)$ *muni de la topologie de la convergence simple*.
 
-Soit $\Sigma$ le filtre des sections de $\mathcal{F}$; pour tout $u \in \mathcal{H}(E)$, soit $\Phi_u$ la forme hermitienne continue sur E définie par
+Soit $\Sigma$ le filtre des sections de $\mathscr{F}$; pour tout $u \in \mathscr{H}(E)$, soit $\Phi_u$ la forme hermitienne continue sur E définie par
 
 $$
 \Phi_u(x, y) = \langle x|u(y) \rangle .
@@ -488,31 +488,31 @@ $$
 \Psi_u(x) = \Phi_u(x, x)
 $$
 
-pour $u \in \mathcal{H}(E)$ et $x \in E$. D’après les formules de polarisation (V, p. 2), on a
+pour $u \in \mathscr{H}(E)$ et $x \in E$. D’après les formules de polarisation (V, p. 2), on a
 
 (19) $$ 4\Phi_u(x, y) = \Psi_u(x + y) - \Psi_u(x - y) $$ si $K = \mathbf{R}$
 
 (20) $$ 4\Phi_u(x, y) = \Psi_u(x + y) - \Psi_u(x - y) - i\Psi_u(x + iy) + i\Psi_u(x - iy) $$ si $K = \mathbf{C}$.
 
-Pour tout $x \in E$, l’application $u \mapsto \Psi_u(x)$ de $\mathcal{H}(E)$ dans $\mathbf{R}$ est croissante et bornée, donc admet une limite selon $\Sigma$. D’après les formules précédentes, la limite
+Pour tout $x \in E$, l’application $u \mapsto \Psi_u(x)$ de $\mathscr{H}(E)$ dans $\mathbf{R}$ est croissante et bornée, donc admet une limite selon $\Sigma$. D’après les formules précédentes, la limite
 
 $$
 \lim_{u, \Sigma} \Phi_u(x, y) = \Phi(x, y)
 $$
 
-existe pour tout couple $(x, y)$ d’éléments de E. Il est clair que $\Phi$ est une forme hermitienne sur E. Si $v_1 \in \mathcal{F}$ et $v_2$ est un majorant de $\mathcal{F}$, les formes hermitiennes $f_1 = \Phi - \Phi_{v_1}$ et $f_2 = \Phi_{v_2} - \Phi$ sont positives ; il existe un nombre réel $M \geq 0$ tel que $f_1(x, x) + f_2(x, x) = \Phi_{v_2 - v_1}(x, x) \leq M \|x\|^2$, d’où
+existe pour tout couple $(x, y)$ d’éléments de E. Il est clair que $\Phi$ est une forme hermitienne sur E. Si $v_1 \in \mathscr{F}$ et $v_2$ est un majorant de $\mathscr{F}$, les formes hermitiennes $f_1 = \Phi - \Phi_{v_1}$ et $f_2 = \Phi_{v_2} - \Phi$ sont positives ; il existe un nombre réel $M \geq 0$ tel que $f_1(x, x) + f_2(x, x) = \Phi_{v_2 - v_1}(x, x) \leq M \|x\|^2$, d’où
 
 $$
 f_1(x, x) \leq M \|x\|^2 , \quad f_2(x, x) \leq M \|x\|^2 \quad (x \in E) ;
 $$
 
-par suite, les semi-normes $x \mapsto f_i(x, x)^{1/2}$ sont continues sur E. Comme $f_2 - f_1 = \Phi_{v_2} + \Phi_{v_1} - 2\Phi$, on en déduit que $x \mapsto \Phi(x, x)$ est une fonction continue sur E, et vu les formules (19) et (20) que $\Phi$ est continue sur $E \times E$. Il existe donc (V, p. 16, cor. 2) un élément $u_0$ de $\mathcal{H}(E)$ tel que $\Phi = \Phi_{u_0}$. La formule (18) est évidemment satisfaite, donc $u_0$ est la borne supérieure de $\mathcal{F}$ dans $\mathcal{H}(E)$. Ceci prouve (i).
+par suite, les semi-normes $x \mapsto f_i(x, x)^{1/2}$ sont continues sur E. Comme $f_2 - f_1 = \Phi_{v_2} + \Phi_{v_1} - 2\Phi$, on en déduit que $x \mapsto \Phi(x, x)$ est une fonction continue sur E, et vu les formules (19) et (20) que $\Phi$ est continue sur $E \times E$. Il existe donc (V, p. 16, cor. 2) un élément $u_0$ de $\mathscr{H}(E)$ tel que $\Phi = \Phi_{u_0}$. La formule (18) est évidemment satisfaite, donc $u_0$ est la borne supérieure de $\mathscr{F}$ dans $\mathscr{H}(E)$. Ceci prouve (i).
 
 On a par construction
 
 (21) $\lim_{u,\Sigma} \langle x|(u_0 - u)(x)\rangle = 0$ pour tout $x \in E$.
 
-Soit $v_1 \in \mathcal{F}$; étant donné $u \in \mathcal{F}$ tel que $u \geq v_1$, posons $v = u_0 - u$. Si l’on applique l’inégalité de Cauchy-Schwarz à la forme hermitienne positive $\Phi_v$ sur $E$, on obtient
+Soit $v_1 \in \mathscr{F}$; étant donné $u \in \mathscr{F}$ tel que $u \geq v_1$, posons $v = u_0 - u$. Si l’on applique l’inégalité de Cauchy-Schwarz à la forme hermitienne positive $\Phi_v$ sur $E$, on obtient
 
 $$
 \|v(x)\|^4 = |\Phi_v(v(x), x)|^2 \leq \Phi_v(v(x), v(x)) \cdot \Phi_v(x, x)
@@ -522,13 +522,13 @@ $$
 
 car on a $\|v\| \leq \|u_0 - v_1\|$ en vertu de V, p. 44, prop. 9. D’après (21), on a donc $\lim_{u,\Sigma} \|(u_0 - u)(x)\| = 0$ pour tout $x \in E$, d’où l’assertion (ii). C.Q.F.D.
 
-La prop. 13 s’applique en particulier au cas d’une suite $(u_n)_{n \in \mathbf{N}}$ croissante et majorée d’éléments de $\mathcal{H}(E)$. Il existe alors un élément $v$ de $\mathcal{H}(E)$ caractérisé par
+La prop. 13 s’applique en particulier au cas d’une suite $(u_n)_{n \in \mathbf{N}}$ croissante et majorée d’éléments de $\mathscr{H}(E)$. Il existe alors un élément $v$ de $\mathscr{H}(E)$ caractérisé par
 
 $$
 \langle x|v(x)\rangle = \lim_{n \to \infty} \langle x|u_n(x)\rangle = \sup_{n \in \mathbf{N}} \langle x|u_n(x)\rangle \quad (x \in E),
 $$
 
-et l’on a $v(x) = \lim_{n \to \infty} u_n(x)$ pour tout $x \in E$. De plus, $v$ est la borne supérieure de l’ensemble des $u_n$ dans $\mathcal{H}(E)$.
+et l’on a $v(x) = \lim_{n \to \infty} u_n(x)$ pour tout $x \in E$. De plus, $v$ est la borne supérieure de l’ensemble des $u_n$ dans $\mathscr{H}(E)$.
 
 ### 6. Trace d’un endomorphisme
 
@@ -536,23 +536,23 @@ Soient $E$ et $F$ deux espaces hilbertiens. Conformément aux conventions de V, 
 
 #### Lemme 1 {#evt-v-s4-lem-1 .statement}
 
-Il existe un isomorphisme $\theta$ de l’espace vectoriel $F \otimes E'$ sur l’espace $\mathcal{L}_f(E; F)$ des applications linéaires continues de rang fini de $E$ dans $F$, caractérisé par $\theta(b \otimes a^*) = ba^*$ pour $a \in E, b \in F$.
+Il existe un isomorphisme $\theta$ de l’espace vectoriel $F \otimes E'$ sur l’espace $\mathscr{L}_f(E; F)$ des applications linéaires continues de rang fini de $E$ dans $F$, caractérisé par $\theta(b \otimes a^*) = ba^*$ pour $a \in E, b \in F$.
 
-D’après A, II, p. 77, il existe une application linéaire injective $\theta$ de $F \otimes E'$ dans $\mathcal{L}(E; F)$ et une seule qui transforme $b \otimes a'$ en l’application linéaire $x \mapsto ba'(x)$ pour $a' \in E', b \in F$. On a évidemment $\theta(b \otimes a^*) = ba^*$, et l’image de $\theta$ est contenue dans $\mathcal{L}_f(E; F)$. Par ailleurs, soit $u \in \mathcal{L}_f(E; F)$ et soit $(e_1, ..., e_n)$ une base orthonormale de l’image de $u$ dans $F$. Posons $f_i = u^*(e_i)$ pour $1 \leq i \leq n$. Pour tout $x \in E$, on a
+D’après A, II, p. 77, il existe une application linéaire injective $\theta$ de $F \otimes E'$ dans $\mathscr{L}(E; F)$ et une seule qui transforme $b \otimes a'$ en l’application linéaire $x \mapsto ba'(x)$ pour $a' \in E', b \in F$. On a évidemment $\theta(b \otimes a^*) = ba^*$, et l’image de $\theta$ est contenue dans $\mathscr{L}_f(E; F)$. Par ailleurs, soit $u \in \mathscr{L}_f(E; F)$ et soit $(e_1, ..., e_n)$ une base orthonormale de l’image de $u$ dans $F$. Posons $f_i = u^*(e_i)$ pour $1 \leq i \leq n$. Pour tout $x \in E$, on a
 
 $$
 u(x) = \sum_{i=1}^n \langle e_i|u(x)\rangle \cdot e_i = \sum_{i=1}^n \langle f_i|x\rangle \cdot e_i,
 $$
 
-d’où $u = \sum_{i=1}^n e_i f_i^* = \theta(\sum_{i=1}^n e_i \otimes f_i^*)$. Donc l’image de $\theta$ est égale à $\mathcal{L}_f(E; F)$.
+d’où $u = \sum_{i=1}^n e_i f_i^* = \theta(\sum_{i=1}^n e_i \otimes f_i^*)$. Donc l’image de $\theta$ est égale à $\mathscr{L}_f(E; F)$.
 
-On suppose désormais que l’on a $E = F$, et l’on pose $\mathcal{L}_f(E) = \mathcal{L}_f(E ; E)$. D’après le lemme 1, il existe une forme linéaire $\tau$ sur $\mathcal{L}_f(E)$, et une seule, telle que $\tau(\theta(a \otimes a')) = a'(a)$ pour $a \in E, a' \in E'$; autrement dit, on a
+On suppose désormais que l’on a $E = F$, et l’on pose $\mathscr{L}_f(E) = \mathscr{L}_f(E ; E)$. D’après le lemme 1, il existe une forme linéaire $\tau$ sur $\mathscr{L}_f(E)$, et une seule, telle que $\tau(\theta(a \otimes a')) = a'(a)$ pour $a \in E, a' \in E'$; autrement dit, on a
 
 $$
 \tau(ba^*) = \langle a|b \rangle \quad \text{pour } a, b \text{ dans } E .
 $$
 
-Lorsque $E$ est de dimension finie, on a $\mathcal{L}_f(E) = \mathcal{L}(E)$ et $\tau(u)$ est la trace de l’endomorphisme $u$ de $E$ (A, II, p. 78).
+Lorsque $E$ est de dimension finie, on a $\mathscr{L}_f(E) = \mathscr{L}(E)$ et $\tau(u)$ est la trace de l’endomorphisme $u$ de $E$ (A, II, p. 78).
 
 #### Lemme 2 {#evt-v-s4-lem-2 .statement}
 
@@ -562,7 +562,7 @@ $$
 \tau(u) = \sum_{i \in I} \langle e_i|u(e_i) \rangle
 $$
 
-*pour tout* $u \in \mathcal{L}_f(E)$.
+*pour tout* $u \in \mathscr{L}_f(E)$.
 
 Il suffit d’examiner le cas où $u = ba^*$ avec $a, b$ dans $E$. On a alors
 
@@ -574,10 +574,10 @@ Le lemme 2 résulte alors de la formule (22) et de la formule (3) de V, p. 22.
 
 #### Lemme 3 {#evt-v-s4-lem-3 .statement}
 
-*Soient* $u$ *un endomorphisme continu et positif de* $E$, *et* $\mathcal{F}$ *l’ensemble des orthoprojecteurs de rang fini dans* $E$. *Pour toute base orthonormale* $(e_i)_{i \in I}$ *de* $E$, *on a* (dans $\overline{\mathbf{R}}_+$) *l’égalité*
+*Soient* $u$ *un endomorphisme continu et positif de* $E$, *et* $\mathscr{F}$ *l’ensemble des orthoprojecteurs de rang fini dans* $E$. *Pour toute base orthonormale* $(e_i)_{i \in I}$ *de* $E$, *on a* (dans $\overline{\mathbf{R}}_+$) *l’égalité*
 
 $$
-\sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_{p \in \mathcal{F}} \tau(pup) .
+\sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_{p \in \mathscr{F}} \tau(pup) .
 $$
 
 Pour toute partie finie $J$ de $I$, posons $p_J = \sum_{i \in J} e_i e_i^*$; c’est l’orthoprojecteur de $E$ sur le sous-espace vectoriel engendré par les vecteurs $e_i$ pour $i$ parcourant $J$. On a
@@ -586,19 +586,19 @@ $$
 p_J up_J = \sum_{i \in J, j \in J} \langle e_i|u(e_j) \rangle e_i e_j^* ,
 $$
 
-d’où $\tau(p_J up_J) = \sum_{i \in J} \langle e_i|u(e_i) \rangle$. On a $p_J \in \mathcal{F}$, d’où
+d’où $\tau(p_J up_J) = \sum_{i \in J} \langle e_i|u(e_i) \rangle$. On a $p_J \in \mathscr{F}$, d’où
 
 $$
-\sum_{i \in J} \langle e_i|u(e_i) \rangle \leq \sup_{p \in \mathcal{F}} \tau(pup) ;
+\sum_{i \in J} \langle e_i|u(e_i) \rangle \leq \sup_{p \in \mathscr{F}} \tau(pup) ;
 $$
 
 on en déduit
 
 $$
-\sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_J \sum_{i \in J} \langle e_i|u(e_i) \rangle \leq \sup_{p \in \mathcal{F}} \tau(pup) .
+\sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_J \sum_{i \in J} \langle e_i|u(e_i) \rangle \leq \sup_{p \in \mathscr{F}} \tau(pup) .
 $$
 
-Soit $v$ un endomorphisme continu et positif de rang fini dans $E$ et soit $p \in \mathcal{F}$. D’après le th. 2 de V, p. 23, il existe une base orthonormale $(f_\alpha)_{\alpha \in A}$ de $E$ et une partie finie $B$ de $A$ telle que $(f_\alpha)_{\alpha \in B}$ soit une base orthonormale de l’image de $p$. On a donc $p = \sum_{\alpha \in B} f_\alpha f_\alpha^*$, d’où comme plus haut la relation $\tau(pvp) = \sum_{\alpha \in B} \langle f_\alpha|v(f_\alpha) \rangle$. On a
+Soit $v$ un endomorphisme continu et positif de rang fini dans $E$ et soit $p \in \mathscr{F}$. D’après le th. 2 de V, p. 23, il existe une base orthonormale $(f_\alpha)_{\alpha \in A}$ de $E$ et une partie finie $B$ de $A$ telle que $(f_\alpha)_{\alpha \in B}$ soit une base orthonormale de l’image de $p$. On a donc $p = \sum_{\alpha \in B} f_\alpha f_\alpha^*$, d’où comme plus haut la relation $\tau(pvp) = \sum_{\alpha \in B} \langle f_\alpha|v(f_\alpha) \rangle$. On a
 
 $$
 \tau(v) = \sum_{\alpha \in A} \langle f_\alpha|v(f_\alpha) \rangle \text{ d’après le lemme 2 (V, p. 48), d’où la formule}
@@ -627,10 +627,10 @@ ce qui achève de prouver le lemme 3.
 *Soit u un endomorphisme continu et positif de l’espace hilbertien E. On pose*
 
 $$
-\operatorname{Tr}(u) = \sup_{p \in \mathcal{F}} \tau(pup)
+\operatorname{Tr}(u) = \sup_{p \in \mathscr{F}} \tau(pup)
 $$
 
-(borne supérieure dans $\overline{\mathbf{R}}_+$), *où $\mathcal{F}$ est l’ensemble des orthoprojecteurs de rang fini dans E. On dit que $\operatorname{Tr}(u)$ est la trace de u*.
+(borne supérieure dans $\overline{\mathbf{R}}_+$), *où $\mathscr{F}$ est l’ensemble des orthoprojecteurs de rang fini dans E. On dit que $\operatorname{Tr}(u)$ est la trace de u*.
 
 Soient $p$ l’orthoprojecteur de E sur un sous-espace vectoriel F de dimension finie de E, et soit $(x_1, ..., x_m)$ une base orthonormale de F. On a établi la relation
 
@@ -682,13 +682,13 @@ $$
 
 #### Définition 8 {#evt-v-s4-def-8 .statement}
 
-Soit E un espace hilbertien complexe. On note $\mathcal{L}^1(E)$ le sous-espace vectoriel de $\mathcal{L}(E)$ engendré par l’ensemble des endomorphismes continus, positifs et de trace finie de E.
+Soit E un espace hilbertien complexe. On note $\mathscr{L}^1(E)$ le sous-espace vectoriel de $\mathscr{L}(E)$ engendré par l’ensemble des endomorphismes continus, positifs et de trace finie de E.
 
-D’après la formule (25) de V, p. 49, la trace s’étend en une forme linéaire sur $\mathcal{L}^1(E)$, notée encore Tr, et satisfaisant à la relation $\operatorname{Tr}(u) = \sum_{i \in I} \langle e_i | u(e_i) \rangle$ pour tout $u$ dans $\mathcal{L}^1(E)$ et toute base orthonormale $(e_i)_{i \in I}$ de E. Pour tout $u \in \mathcal{L}^1(E)$, on a $u^* \in \mathcal{L}^1(E)$ et $\operatorname{Tr}(u^*) = \overline{\operatorname{Tr}(u)}$. La formule (28) de V, p. 49 s’étend au cas où $u$ appartient à $\mathcal{L}^1(E)$. Soit F un sous-espace hilbertien de E ; d’après la formule (30), l’orthoprojecteur $p_F$ appartient à $\mathcal{L}^1(E)$ si et seulement si F est de dimension finie. Quels que soient $a$ et $b$ dans E, on a $4ab^* = \sum_{\varepsilon^4 = 1} \varepsilon(a + \varepsilon b)(a + \varepsilon b)^*$ et $cc^*$ est un opérateur positif de trace finie pour tout $c \in E$; par suite, si $u$ est un endomorphisme continu de rang fini de E, on a $u \in \mathcal{L}^1(E)$ et $\operatorname{Tr}(u) = \tau(u)$.
+D’après la formule (25) de V, p. 49, la trace s’étend en une forme linéaire sur $\mathscr{L}^1(E)$, notée encore Tr, et satisfaisant à la relation $\operatorname{Tr}(u) = \sum_{i \in I} \langle e_i | u(e_i) \rangle$ pour tout $u$ dans $\mathscr{L}^1(E)$ et toute base orthonormale $(e_i)_{i \in I}$ de E. Pour tout $u \in \mathscr{L}^1(E)$, on a $u^* \in \mathscr{L}^1(E)$ et $\operatorname{Tr}(u^*) = \overline{\operatorname{Tr}(u)}$. La formule (28) de V, p. 49 s’étend au cas où $u$ appartient à $\mathscr{L}^1(E)$. Soit F un sous-espace hilbertien de E ; d’après la formule (30), l’orthoprojecteur $p_F$ appartient à $\mathscr{L}^1(E)$ si et seulement si F est de dimension finie. Quels que soient $a$ et $b$ dans E, on a $4ab^* = \sum_{\varepsilon^4 = 1} \varepsilon(a + \varepsilon b)(a + \varepsilon b)^*$ et $cc^*$ est un opérateur positif de trace finie pour tout $c \in E$; par suite, si $u$ est un endomorphisme continu de rang fini de E, on a $u \in \mathscr{L}^1(E)$ et $\operatorname{Tr}(u) = \tau(u)$.
 
-Soit E un espace hilbertien réel, et soit $E_{(c)}$ son complexifié (V, p. 5). Identifions E à un sous-ensemble de $E_{(c)}$. Alors $\mathcal{L}(E)$ s’identifie au sous-espace vectoriel réel de $\mathcal{L}(E_{(c)})$ formé des applications linéaires continues $u$ de $E_{(c)}$ dans $E_{(c)}$ telles que $u(E) \subset E$. On posera dans ce cas $\mathcal{L}^1(E) = \mathcal{L}(E) \cap \mathcal{L}^1(E_{(c)})$. Pour tout $u \in \mathcal{L}^1(E)$, la trace $\operatorname{Tr}(u)$ est réelle et égale à $\operatorname{Tr}(u^*)$. Les formules (25) et (28) sont encore valables, on a $\mathcal{L}_f(E) \subset \mathcal{L}^1(E)$ et $\operatorname{Tr}(u) = \tau(u)$ pour tout $u \in \mathcal{L}_f(E)$. Enfin, un sous-espace vectoriel fermé F de E est de dimension finie si et seulement si $p_F$ appartient à $\mathcal{L}^1(E)$.
+Soit E un espace hilbertien réel, et soit $E_{(c)}$ son complexifié (V, p. 5). Identifions E à un sous-ensemble de $E_{(c)}$. Alors $\mathscr{L}(E)$ s’identifie au sous-espace vectoriel réel de $\mathscr{L}(E_{(c)})$ formé des applications linéaires continues $u$ de $E_{(c)}$ dans $E_{(c)}$ telles que $u(E) \subset E$. On posera dans ce cas $\mathscr{L}^1(E) = \mathscr{L}(E) \cap \mathscr{L}^1(E_{(c)})$. Pour tout $u \in \mathscr{L}^1(E)$, la trace $\operatorname{Tr}(u)$ est réelle et égale à $\operatorname{Tr}(u^*)$. Les formules (25) et (28) sont encore valables, on a $\mathscr{L}_f(E) \subset \mathscr{L}^1(E)$ et $\operatorname{Tr}(u) = \tau(u)$ pour tout $u \in \mathscr{L}_f(E)$. Enfin, un sous-espace vectoriel fermé F de E est de dimension finie si et seulement si $p_F$ appartient à $\mathscr{L}^1(E)$.
 
-\* Remarque 1. — Nous définirons ultérieurement la notion d’application nucléaire d’un espace de Banach E dans un espace de Banach F. On montrera alors que $\mathcal{L}^1(E)$ se compose des applications nucléaires de E dans E, que E soit un espace hilbertien réel ou complexe. \*
+\* Remarque 1. — Nous définirons ultérieurement la notion d’application nucléaire d’un espace de Banach E dans un espace de Banach F. On montrera alors que $\mathscr{L}^1(E)$ se compose des applications nucléaires de E dans E, que E soit un espace hilbertien réel ou complexe. \*
 
 #### Proposition 14 {#evt-v-s4-prop-14 .statement}
 
@@ -698,7 +698,7 @@ $$
 \operatorname{Tr}(u) = \prod_{i=1}^n \operatorname{Tr}(u_i) .
 $$
 
-Si l’on a $u_i \in \mathcal{L}^1(E_i)$ pour $1 \leq i \leq n$, on a $u \in \mathcal{L}^1(E)$ et la formule (31) est encore valable dans ce cas.
+Si l’on a $u_i \in \mathscr{L}^1(E_i)$ pour $1 \leq i \leq n$, on a $u \in \mathscr{L}^1(E)$ et la formule (31) est encore valable dans ce cas.
 
 Procédant par récurrence sur $n$, on se ramène aussitôt au cas $n = 2$.
 
@@ -720,21 +720,21 @@ $$
 \end{align*}
 $$
 
-En particulier, si $u_1$ et $u_2$ sont des endomorphismes positifs de trace finie, il en est de même de $u$. Par linéarité, on déduit de là que $u$ appartient à $\mathcal{L}^1(E)$ lorsque $K = \mathbf{C}$ et que $u_i$ appartient à $\mathcal{L}^1(E_i)$ pour $i = 1, 2$; la formule (31) s’étend à ce cas par linéarité. Enfin, le cas où $K = \mathbf{R}$ et $u_i \in \mathcal{L}^1(E_i)$ se ramène au cas complexe par extension des scalaires.
+En particulier, si $u_1$ et $u_2$ sont des endomorphismes positifs de trace finie, il en est de même de $u$. Par linéarité, on déduit de là que $u$ appartient à $\mathscr{L}^1(E)$ lorsque $K = \mathbf{C}$ et que $u_i$ appartient à $\mathscr{L}^1(E_i)$ pour $i = 1, 2$; la formule (31) s’étend à ce cas par linéarité. Enfin, le cas où $K = \mathbf{R}$ et $u_i \in \mathscr{L}^1(E_i)$ se ramène au cas complexe par extension des scalaires.
 
 #### Remarque 2 {#evt-v-s4-n6-rem-2 .statement}
 
-Soit $E$ un espace hilbertien, somme hilbertienne d’une famille $(E_i)_{i \in I}$ de sous-espaces hilbertiens. Soit $u$ un élément de $\mathcal{L}(E)$ tel que $u(E_i) \subset E_i$ pour tout $i \in I$; soit $u_i$ l’élément de $\mathcal{L}(E_i)$ qui coïncide avec $u$ sur $E_i$. On a alors $\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$ lorsque $u$ est positif, ou appartient à $\mathcal{L}^1(E)$ : cette relation se déduit de la formule (25) de V, p. 49 appliquée à une base orthonormale de $E$ réunion de bases orthonormales de chacun des $E_i$.
+Soit $E$ un espace hilbertien, somme hilbertienne d’une famille $(E_i)_{i \in I}$ de sous-espaces hilbertiens. Soit $u$ un élément de $\mathscr{L}(E)$ tel que $u(E_i) \subset E_i$ pour tout $i \in I$; soit $u_i$ l’élément de $\mathscr{L}(E_i)$ qui coïncide avec $u$ sur $E_i$. On a alors $\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$ lorsque $u$ est positif, ou appartient à $\mathscr{L}^1(E)$ : cette relation se déduit de la formule (25) de V, p. 49 appliquée à une base orthonormale de $E$ réunion de bases orthonormales de chacun des $E_i$.
 
 ### 7. Applications de Hilbert-Schmidt
 
 #### Définition 9 {#evt-v-s4-def-9 .statement}
 
-Soient $E$ et $F$ deux espaces hilbertiens. On appelle application de Hilbert-Schmidt de $E$ dans $F$ toute application linéaire continue $u : E \to F$ telle que la trace de l’endomorphisme positif $u^*u$ de $E$ soit finie. L’ensemble des applications de Hilbert-Schmidt de $E$ dans $F$ se note $\mathcal{L}^2(E ; F)$.
+Soient $E$ et $F$ deux espaces hilbertiens. On appelle application de Hilbert-Schmidt de $E$ dans $F$ toute application linéaire continue $u : E \to F$ telle que la trace de l’endomorphisme positif $u^*u$ de $E$ soit finie. L’ensemble des applications de Hilbert-Schmidt de $E$ dans $F$ se note $\mathscr{L}^2(E ; F)$.
 
-Lorsque $E = F$, on écrit $\mathcal{L}^2(E)$ pour $\mathcal{L}^2(E ; E)$.
+Lorsque $E = F$, on écrit $\mathscr{L}^2(E)$ pour $\mathscr{L}^2(E ; E)$.
 
-Pour tout $u \in \mathcal{L}(E; F)$, on pose $\|u\|_2 = \operatorname{Tr}(u^*u)^{1/2}$, de sorte que $u$ appartient à $\mathcal{L}^2(E; F)$ si et seulement si $\|u\|_2$ est fini. D’après la définition de la trace, on a
+Pour tout $u \in \mathscr{L}(E; F)$, on pose $\|u\|_2 = \operatorname{Tr}(u^*u)^{1/2}$, de sorte que $u$ appartient à $\mathscr{L}^2(E; F)$ si et seulement si $\|u\|_2$ est fini. D’après la définition de la trace, on a
 
 $$
 \|u\|_2^2 = \sup_{x_1, \ldots, x_m} \sum_{i=1}^m \|u(x_i)\|^2
@@ -743,7 +743,7 @@ $$
 où $(x_1, \ldots, x_m)$ parcourt l’ensemble des suites orthonormales finies dans E. Comme on peut prendre en particulier $m = 1$ dans la formule (32), on a
 
 $$
-\|u\| \leq \|u\|_2 \quad (u \in \mathcal{L}(E; F)) .
+\|u\| \leq \|u\|_2 \quad (u \in \mathscr{L}(E; F)) .
 $$
 
 Soient $(e_i)_{i \in I}$ une base orthonormale de E et $(f_j)_{j \in J}$ une base orthonormale de F. D’après la formule (25) de V, p. 49 et la relation de Parseval (V, p. 22), on a
@@ -770,23 +770,23 @@ $$
 \|uv\|_2 \leq \|u\|_2 \|v\| .
 $$
 
-En particulier, si $u$ appartient à $\mathcal{L}^2(E; F)$, alors $wuw$ appartient à $\mathcal{L}^2(E_1; F_1)$.
+En particulier, si $u$ appartient à $\mathscr{L}^2(E; F)$, alors $wuw$ appartient à $\mathscr{L}^2(E_1; F_1)$.
 
 #### Théorème 1 {#evt-v-s4-thm-1 .statement}
 
 *Soient E et F deux espaces hilbertiens.*
 
-(i) *L’ensemble $\mathcal{L}^2(E; F)$ est un sous-espace vectoriel de $\mathcal{L}(E; F)$ et $u \mapsto \|u\|_2$ est une norme hilbertienne (V, p. 6) sur $\mathcal{L}^2(E; F)$.*
+(i) *L’ensemble $\mathscr{L}^2(E; F)$ est un sous-espace vectoriel de $\mathscr{L}(E; F)$ et $u \mapsto \|u\|_2$ est une norme hilbertienne (V, p. 6) sur $\mathscr{L}^2(E; F)$.*
 
-(ii) *L’isomorphisme $\theta$ de $F \otimes E'$ sur $\mathcal{L}_f(E; F)$ caractérisé par $\theta(y \otimes x^*) = yx^*$ se prolonge en un isomorphisme $\hat{\theta}$ de $F \otimes_2 E'$ sur $\mathcal{L}^2(E; F)$. En particulier, $\mathcal{L}_f(E; F)$ est dense dans $\mathcal{L}^2(E; F)$.*
+(ii) *L’isomorphisme $\theta$ de $F \otimes E'$ sur $\mathscr{L}_f(E; F)$ caractérisé par $\theta(y \otimes x^*) = yx^*$ se prolonge en un isomorphisme $\hat{\theta}$ de $F \otimes_2 E'$ sur $\mathscr{L}^2(E; F)$. En particulier, $\mathscr{L}_f(E; F)$ est dense dans $\mathscr{L}^2(E; F)$.*
 
-Soit $(e_i)_{i \in I}$ (resp. $(f_j)_{j \in J}$) une base orthonormale de E (resp. F). Pour tout $u \in \mathcal{L}(E; F)$, soit $\Lambda(u)$ la matrice de $u$ par rapport aux bases orthonormales choisies pour E et F (V, p. 22). On note $\|a\|_2$ la norme d’un élément $a$ de l’espace hilbertien $\ell^2(J \times I)$. D’après la formule (34), $\Lambda$ est une application de $\mathcal{L}^2(E; F)$ dans $\ell^2(J \times I)$ telle que $\|\Lambda(u)\|_2 = \|u\|_2$; il est clair que $\Lambda$ est injective. Pour prouver (i), il suffit donc de montrer que $\Lambda$ est surjective. Soit $a = (a_{ji})$ un élément de $\ell^2(J \times I)$; d’après l’inégalité de Cauchy-Schwarz, on a
+Soit $(e_i)_{i \in I}$ (resp. $(f_j)_{j \in J}$) une base orthonormale de E (resp. F). Pour tout $u \in \mathscr{L}(E; F)$, soit $\Lambda(u)$ la matrice de $u$ par rapport aux bases orthonormales choisies pour E et F (V, p. 22). On note $\|a\|_2$ la norme d’un élément $a$ de l’espace hilbertien $\ell^2(J \times I)$. D’après la formule (34), $\Lambda$ est une application de $\mathscr{L}^2(E; F)$ dans $\ell^2(J \times I)$ telle que $\|\Lambda(u)\|_2 = \|u\|_2$; il est clair que $\Lambda$ est injective. Pour prouver (i), il suffit donc de montrer que $\Lambda$ est surjective. Soit $a = (a_{ji})$ un élément de $\ell^2(J \times I)$; d’après l’inégalité de Cauchy-Schwarz, on a
 
 $$
 |\sum_{j,i} \overline{\eta_j} a_{ji} \xi_i|^2 \leq \sum_{j,i} |a_{ji}|^2 \sum_{j,i} |\overline{\eta_j} \xi_i|^2 = \|a\|_2^2 \|\xi\|^2 \|\eta\|^2
 $$
 
-quels que soient $\xi = (\xi_i)$ dans $\ell^2(I)$ et $\eta = (\eta_j)$ dans $\ell^2(J)$. Il existe donc une forme sesquilinéaire continue $\Phi$ sur $F \times E$ telle que $\Phi(y, x) = \sum_{j,i} \overline{\eta}_j a_{ji} \xi_i$ pour $x = \sum_i \xi_i e_i$ dans $E$ et $y = \sum_j \eta_j f_j$ dans $F$. Soit $u \in \mathcal{L}(E; F)$ tel que $\Phi(y, x) = \langle y|u(x) \rangle$ (V, p. 16, cor. 2). On a
+quels que soient $\xi = (\xi_i)$ dans $\ell^2(I)$ et $\eta = (\eta_j)$ dans $\ell^2(J)$. Il existe donc une forme sesquilinéaire continue $\Phi$ sur $F \times E$ telle que $\Phi(y, x) = \sum_{j,i} \overline{\eta}_j a_{ji} \xi_i$ pour $x = \sum_i \xi_i e_i$ dans $E$ et $y = \sum_j \eta_j f_j$ dans $F$. Soit $u \in \mathscr{L}(E; F)$ tel que $\Phi(y, x) = \langle y|u(x) \rangle$ (V, p. 16, cor. 2). On a
 
 $$
 a_{ji} = \Phi(f_j, e_i) = \langle f_j|u(e_i) \rangle \quad \text{pour} \quad i \in I, j \in J,
@@ -794,7 +794,7 @@ $$
 
 d'où $a = \Lambda(u)$.
 
-Comme $\Lambda$ est un isomorphisme d'espaces hilbertiens de $\mathcal{L}^2(E; F)$ sur $\ell^2(J \times I)$ et que $(f_j \otimes e_i^*)$ est une base orthonormale de $F \hat{\otimes}_2 E'$, il existe un isomorphisme $\hat{\theta}$ de $F \hat{\otimes}_2 E'$ sur $\mathcal{L}^2(E; F)$ tel que
+Comme $\Lambda$ est un isomorphisme d'espaces hilbertiens de $\mathscr{L}^2(E; F)$ sur $\ell^2(J \times I)$ et que $(f_j \otimes e_i^*)$ est une base orthonormale de $F \hat{\otimes}_2 E'$, il existe un isomorphisme $\hat{\theta}$ de $F \hat{\otimes}_2 E'$ sur $\mathscr{L}^2(E; F)$ tel que
 
 $$
 \langle f_j|\hat{\theta}(t)\,e_i \rangle = \langle f_j \otimes e_i^*|t \rangle
@@ -814,13 +814,13 @@ Soient I et J deux ensembles. D'après la démonstration ci-dessus, pour qu'une 
 
 #### Exemple 2 {#evt-v-s4-n7-exa-2 .statement}
 
-\* Soient X et Y deux espaces topologiques séparés, munis respectivement de mesures positives $\mu$ et $\nu$. On peut montrer que les applications de Hilbert-Schmidt de $\mathcal{L}^2(X)$ dans $\mathcal{L}^2(Y)$ correspondent bijectivement aux classes de fonctions de carré intégrable dans $Y \times X$ : à la classe de la fonction $N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu)$ correspond l'application $u_N$ donnée par
+\* Soient X et Y deux espaces topologiques séparés, munis respectivement de mesures positives $\mu$ et $\nu$. On peut montrer que les applications de Hilbert-Schmidt de $\mathscr{L}^2(X)$ dans $\mathscr{L}^2(Y)$ correspondent bijectivement aux classes de fonctions de carré intégrable dans $Y \times X$ : à la classe de la fonction $N \in \mathscr{L}^2(Y \times X, \nu \otimes \mu)$ correspond l'application $u_N$ donnée par
 
 $$
 (u_N f)(y) = \int_X N(y, x) f(x) \, d\mu(x)
 $$
 
-pour $\nu$-presque tout $y \in Y$ et $f \in \mathcal{L}^2(X, \mu)$. On a
+pour $\nu$-presque tout $y \in Y$ et $f \in \mathscr{L}^2(X, \mu)$. On a
 
 $$
 \|u_N\|^2_2 = \int_X \int_Y |N(y, x)|^2 \, d\mu(x) \, d\nu(y) \cdot *
@@ -828,15 +828,15 @@ $$
 
 #### Remarque 1 {#evt-v-s4-n7-rem-1 .statement}
 
-Supposons $K = \mathbf{C}$. Soient $u$ et $v$ dans $\mathcal{L}^2(E; F)$. On a la relation $4u^*v = \sum_{\varepsilon^4 = 1} \overline{\varepsilon}(u + \varepsilon v)^*(u + \varepsilon v)$, donc $u^*v$ appartient à $\mathcal{L}^1(E)$. Le produit scalaire dans l'espace hilbertien $\mathcal{L}^2(E; F)$ est donné par
+Supposons $K = \mathbf{C}$. Soient $u$ et $v$ dans $\mathscr{L}^2(E; F)$. On a la relation $4u^*v = \sum_{\varepsilon^4 = 1} \overline{\varepsilon}(u + \varepsilon v)^*(u + \varepsilon v)$, donc $u^*v$ appartient à $\mathscr{L}^1(E)$. Le produit scalaire dans l'espace hilbertien $\mathscr{L}^2(E; F)$ est donné par
 
 $$
 \langle u|v \rangle = \operatorname{Tr}(u^*v)
 $$
 
-car cette formule définit une forme hermitienne sur $\mathcal{L}^2(E; F)$ et l'on a $\langle u|u \rangle = \|u\|^2_2$.
+car cette formule définit une forme hermitienne sur $\mathscr{L}^2(E; F)$ et l'on a $\langle u|u \rangle = \|u\|^2_2$.
 
-Si $u \in \mathcal{L}^2(E ; F)$ et $v \in \mathcal{L}^2(F ; E)$, alors $vu$ appartient à $\mathcal{L}^1(E)$ et $uv$ à $\mathcal{L}^1(F)$ d’après ce qui précède ; en outre on a
+Si $u \in \mathscr{L}^2(E ; F)$ et $v \in \mathscr{L}^2(F ; E)$, alors $vu$ appartient à $\mathscr{L}^1(E)$ et $uv$ à $\mathscr{L}^1(F)$ d’après ce qui précède ; en outre on a
 
 $$
 \text{Tr}(uv) = \text{Tr}(vu) .
@@ -844,17 +844,17 @@ $$
 
 Par linéarité et continuité, il suffit en effet de vérifier cette formule lorsque $u = y_1 x_1^*$ et $v = x_2 y_2^*$ (avec $x_1, x_2$ dans $E$, $y_1, y_2$ dans $F$) ; mais alors $uv$ est l’application $y \mapsto y_1 \langle x_1 | x_2 \rangle \langle y_2 | y \rangle$ et $vu$ l’application $x \mapsto x_2 \langle y_2 | y_1 \rangle \langle x_1 | x \rangle$, et (42) résulte de la formule (22) de V, p. 48.
 
-Par suite, si $u_1, u_2$ sont deux éléments de $\mathcal{L}^2(E ; F)$, on a, dans l’espace hilbertien $\mathcal{L}^2(F ; E)$,
+Par suite, si $u_1, u_2$ sont deux éléments de $\mathscr{L}^2(E ; F)$, on a, dans l’espace hilbertien $\mathscr{L}^2(F ; E)$,
 
 $$
 \langle u_1^* | u_2^* \rangle = \text{Tr}(u_1 u_2^*) = \text{Tr}(u_2^* u_1) = \langle u_2 | u_1 \rangle = \overline{\langle u_1 | u_2 \rangle} ;
 $$
 
-autrement dit, $u \mapsto u^*$ est un isomorphisme de l’espace hilbertien $\mathcal{L}^2(E ; F)$ sur le conjugué (V, p. 6) de l’espace hilbertien $\mathcal{L}^2(F ; E)$. Si on identifie ce conjugué au dual de $\mathcal{L}^2(F ; E)$ (V, p. 15), on voit que $\mathcal{L}^2(E ; F)$ s’identifie au dual de $\mathcal{L}^2(F ; E)$, la forme bilinéaire canonique $(v, u) \mapsto \langle v, u \rangle$ s’identifiant à $(v, u) \mapsto \text{Tr}(vu)$.
+autrement dit, $u \mapsto u^*$ est un isomorphisme de l’espace hilbertien $\mathscr{L}^2(E ; F)$ sur le conjugué (V, p. 6) de l’espace hilbertien $\mathscr{L}^2(F ; E)$. Si on identifie ce conjugué au dual de $\mathscr{L}^2(F ; E)$ (V, p. 15), on voit que $\mathscr{L}^2(E ; F)$ s’identifie au dual de $\mathscr{L}^2(F ; E)$, la forme bilinéaire canonique $(v, u) \mapsto \langle v, u \rangle$ s’identifiant à $(v, u) \mapsto \text{Tr}(vu)$.
 
 #### Remarque 2 {#evt-v-s4-n7-rem-2 .statement}
 
-Supposons $K = \mathbf{R}$. On laisse au lecteur le soin de vérifier que les formules (40) et (41) sont encore valables, et de montrer que $\mathcal{L}^2(E ; F)$ s’identifie au dual de $\mathcal{L}^2(F ; E)$ au moyen de la forme bilinéaire $(u, v) \mapsto \text{Tr}(uv)$.
+Supposons $K = \mathbf{R}$. On laisse au lecteur le soin de vérifier que les formules (40) et (41) sont encore valables, et de montrer que $\mathscr{L}^2(E ; F)$ s’identifie au dual de $\mathscr{L}^2(F ; E)$ au moyen de la forme bilinéaire $(u, v) \mapsto \text{Tr}(uv)$.
 
 ### 8. Diagonalisation des applications de Hilbert-Schmidt
 
@@ -870,7 +870,7 @@ On note $B$ la boule unité (fermée) de $E$, qu’on munit de la topologie affa
 
 La fonction $Q : B \to \mathbf{R}$ est continue.
 
-Soit $(f_j)_{j \in J}$ une base orthonormale de $F$. Posons $\lambda_j = \|u^*(f_j)\|^2$ pour tout $j \in J$. Comme $u$ appartient à $\mathcal{L}^2(E ; F)$, on a $u^* \in \mathcal{L}^2(F ; E)$, d’où $\sum_j \lambda_j < + \infty$. Par ailleurs, on a
+Soit $(f_j)_{j \in J}$ une base orthonormale de $F$. Posons $\lambda_j = \|u^*(f_j)\|^2$ pour tout $j \in J$. Comme $u$ appartient à $\mathscr{L}^2(E ; F)$, on a $u^* \in \mathscr{L}^2(F ; E)$, d’où $\sum_j \lambda_j < + \infty$. Par ailleurs, on a
 
 $$
 Q(x) = \|u(x)\|^2 = \sum_j |\langle u^*(f_j) | x \rangle|^2
@@ -932,11 +932,11 @@ $$
 
 #### Corollaire 2 {#evt-v-s4-lem-5-cor-2 .statement}
 
-Soit E un espace hilbertien. On a $\mathcal{L}^1(E) \subset \mathcal{L}^2(E)$.
+Soit E un espace hilbertien. On a $\mathscr{L}^1(E) \subset \mathscr{L}^2(E)$.
 
 Le cas réel se ramenant au cas complexe par extension des scalaires, nous pouvons supposer que l’on a $\mathbf{K} = \mathbf{C}$.
 
-Comme $\mathcal{L}^2(E)$ est un sous-espace vectoriel de $\mathcal{L}(E)$, il suffit de prouver que tout endomorphisme continu et positif de trace finie $v$ de E appartient à $\mathcal{L}^2(E)$. Avec les notations du cor. 1, on a
+Comme $\mathscr{L}^2(E)$ est un sous-espace vectoriel de $\mathscr{L}(E)$, il suffit de prouver que tout endomorphisme continu et positif de trace finie $v$ de E appartient à $\mathscr{L}^2(E)$. Avec les notations du cor. 1, on a
 $$
 \sum_{i\in I} \|v(e_i)\|^2 = \sum_{i\in I} \lambda_i^2 \leq (\sum_i \lambda_i)^2 < +\infty .
 $$
@@ -989,7 +989,7 @@ $$
 |\langle x | y \rangle_Q| \leq Q(x)^{1/2} Q(y)^{1/2} \leq \operatorname{Tr}(Q|H) \cdot \|x\| \cdot \|y\|
 $$
 
-d’après l’inégalité de Cauchy-Schwarz. Par suite, la forme bilinéaire $(x, y) \mapsto \langle x | y \rangle_Q$ sur $E \times E$ est continue. Il existe donc (V, p. 16, cor. 2) une application $u \in \mathcal{L}(E)$ telle que $\langle x | y \rangle_Q = \langle x | u(y) \rangle$. On a $\langle x | y \rangle_Q = \langle y | x \rangle_Q$ pour $x, y$ dans $E$, donc $u$ est hermitien ; on a $\langle x | u(x) \rangle = Q(x) \geq 0$, donc $u$ est positif.
+d’après l’inégalité de Cauchy-Schwarz. Par suite, la forme bilinéaire $(x, y) \mapsto \langle x | y \rangle_Q$ sur $E \times E$ est continue. Il existe donc (V, p. 16, cor. 2) une application $u \in \mathscr{L}(E)$ telle que $\langle x | y \rangle_Q = \langle x | u(y) \rangle$. On a $\langle x | y \rangle_Q = \langle y | x \rangle_Q$ pour $x, y$ dans $E$, donc $u$ est hermitien ; on a $\langle x | u(x) \rangle = Q(x) \geq 0$, donc $u$ est positif.
 
 Réciproquement, soit $u$ un endomorphisme continu et positif de $E$ tel que $Q(x) = \langle x | u(x) \rangle$ pour tout $x \in E$. On a
 

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 41
 statements: 18
 exercises: 0
-content_sha256: 54448593347aad6076e9223f0f69ce3ceef90d179ee2da127b9ca7abffc501c3
+content_sha256: 263339592233a8caaf1425ab218128911ccb5a2b491f958fe1f3fcb0e3e558a2
 ---
 
 ## § 1. SEMI-NORMES
@@ -106,7 +106,7 @@ La topologie définie par un ensemble *fini* de semi-normes $p_i$ sur $E$ ($1 \l
 
 #### Remarque 2 {#evt-ii-s1-n2-rem-2 .statement}
 
-Soit $(\mathcal{T}_\nu)_{\nu \in I}$ une famille de topologies sur un espace vectoriel $E$ sur $K$, dont chacune est définie par un ensemble $\Gamma_\nu$ de semi-normes. Alors la topologie définie par l’ensemble de semi-normes $\Gamma = \bigcup_{\nu \in I} \Gamma_\nu$ est la borne supérieure des topologies $\mathcal{T}_\nu$.
+Soit $(\mathscr{T}_\nu)_{\nu \in I}$ une famille de topologies sur un espace vectoriel $E$ sur $K$, dont chacune est définie par un ensemble $\Gamma_\nu$ de semi-normes. Alors la topologie définie par l’ensemble de semi-normes $\Gamma = \bigcup_{\nu \in I} \Gamma_\nu$ est la borne supérieure des topologies $\mathscr{T}_\nu$.
 
 #### Remarque 3 {#evt-ii-s1-n2-rem-3 .statement}
 
@@ -118,25 +118,25 @@ Même si $K = \mathbf{R}$, la topologie d’un espace vectoriel topologique sur 
 
 #### Exemple {#evt-ii-s1-n2-exa-1 .statement}
 
-Soit $\mathcal{C}^\infty(\mathbf{R})$ l’espace vectoriel sur $\mathbf{R}$ des fonctions numériques indéfiniment dérivables dans $\mathbf{R}$. Pour toute fonction $f \in \mathcal{C}^\infty(\mathbf{R})$ et tout couple d’entiers $n \geq 0$, $m \geq 1$, posons :
+Soit $\mathscr{C}^\infty(\mathbf{R})$ l’espace vectoriel sur $\mathbf{R}$ des fonctions numériques indéfiniment dérivables dans $\mathbf{R}$. Pour toute fonction $f \in \mathscr{C}^\infty(\mathbf{R})$ et tout couple d’entiers $n \geq 0$, $m \geq 1$, posons :
 
 $$
 p_{n,m}(f) = \sup_{-m \leq t \leq m} |f^{(n)}(t)|
 $$
 
-avec $f^{(0)} = f$. Il est immédiat que les $p_{n,m}$ sont des semi-normes sur $\mathcal{C}^\infty(\mathbf{R})$. Pour que des fonctions $f_\alpha$ convergent vers 0 (suivant un filtre $\mathfrak{F}$ sur l’ensemble des indices) dans $\mathcal{C}^\infty(\mathbf{R})$ pour la topologie $\mathcal{T}$ définie par les semi-normes $p_{n,m}$, il faut et il suffit que, pour tout entier $n \geq 0$, les fonctions $f_\alpha^{(n)}$ tendent vers 0 (suivant $\mathfrak{F}$) *uniformément dans toute partie compacte de* $\mathbf{R}$. On dit que $\mathcal{T}$ est la *topologie de la convergence compacte pour les fonctions* $f \in \mathcal{C}^\infty(\mathbf{R})$ *et toutes leurs dérivées* (*cf.* III, p. 9).
+avec $f^{(0)} = f$. Il est immédiat que les $p_{n,m}$ sont des semi-normes sur $\mathscr{C}^\infty(\mathbf{R})$. Pour que des fonctions $f_\alpha$ convergent vers 0 (suivant un filtre $\mathfrak{F}$ sur l’ensemble des indices) dans $\mathscr{C}^\infty(\mathbf{R})$ pour la topologie $\mathscr{T}$ définie par les semi-normes $p_{n,m}$, il faut et il suffit que, pour tout entier $n \geq 0$, les fonctions $f_\alpha^{(n)}$ tendent vers 0 (suivant $\mathfrak{F}$) *uniformément dans toute partie compacte de* $\mathbf{R}$. On dit que $\mathscr{T}$ est la *topologie de la convergence compacte pour les fonctions* $f \in \mathscr{C}^\infty(\mathbf{R})$ *et toutes leurs dérivées* (*cf.* III, p. 9).
 
 #### Proposition 2 {#evt-ii-s1-prop-2 .statement}
 
-Soient $\Gamma$ un ensemble de semi-normes sur un espace vectoriel $E$, $\mathcal{T}$ la topologie sur $E$ définie par $\Gamma$.
+Soient $\Gamma$ un ensemble de semi-normes sur un espace vectoriel $E$, $\mathscr{T}$ la topologie sur $E$ définie par $\Gamma$.
 
-(i) L’adhérence de $\{0\}$ dans $E$ pour $\mathcal{T}$ est l’ensemble des $x \in E$ tels que $p(x) = 0$ pour toute semi-norme $p \in \Gamma$.
+(i) L’adhérence de $\{0\}$ dans $E$ pour $\mathscr{T}$ est l’ensemble des $x \in E$ tels que $p(x) = 0$ pour toute semi-norme $p \in \Gamma$.
 
-(ii) Si $\mathcal{T}$ est séparée et si $\Gamma$ est dénombrable, $\mathcal{T}$ est métrisable.
+(ii) Si $\mathscr{T}$ est séparée et si $\Gamma$ est dénombrable, $\mathscr{T}$ est métrisable.
 
 La proposition résulte aussitôt des définitions et de TG, IX, p. 15, cor. 1.
 
-On notera que si $\mathcal{T}$ est métrisable, $\mathcal{T}$ ne peut pas toujours être définie par une seule norme ; c’est le cas de l’exemple donné ci-dessus (*cf.* IV, p. 18, *Exemple 4*).
+On notera que si $\mathscr{T}$ est métrisable, $\mathscr{T}$ ne peut pas toujours être définie par une seule norme ; c’est le cas de l’exemple donné ci-dessus (*cf.* IV, p. 18, *Exemple 4*).
 
 Soit $E$ un espace vectoriel sur $K$, muni de la topologie définie par un ensemble de semi-normes $\Gamma$. Soit $\hat{E}$ le séparé complété de $E$ (I, p. 6), et soit $\hat{\Gamma}$ l’ensemble des applications $\hat{p}$ de $\hat{E}$ dans $\mathbf{R}_+$, où $p$ parcourt $\Gamma$ (TG, II, p. 24, prop. 15). En vertu du principe de prolongement des inégalités, les fonctions $\hat{p} \in \hat{\Gamma}$ sont des semi-normes sur $\hat{E}$, et les fonctions $\hat{p}(x - y)$ forment un ensemble d’écarts définissant la structure uniforme de $\hat{E}$ (TG, IX, p. 5, prop. 1). On voit donc que $\hat{\Gamma}$ est un ensemble fondamental de semi-normes définissant la topologie de $\hat{E}$.
 
@@ -176,11 +176,11 @@ On conclut de là que si l’ensemble $\Gamma$ de semi-normes est filtrant (II, 
 
 Si $N$ est l’adhérence de 0 dans $E$, la topologie de $E/N$ est définie par les semi-normes quotients $\dot{p}$ où $p$ parcourt $\Gamma$ (même si $\Gamma$ n’est pas filtrant); on a ici $\dot{p}(\dot{x}) = p(x)$ pour tout $x$ appartenant à une classe $\dot{x}$ mod. $N$. On notera que $E/N$ n’est autre que l’espace séparé associé à $E$ (I, p. 4).
 
-Soient $E$ un espace vectoriel sur $K$, $(E_i)_{i \in I}$ une famille d’espaces vectoriels sur $K$, $E_i$ étant muni d’une topologie $\mathcal{T}_i$ définie par un ensemble de semi-normes $\Gamma_i$. Pour chaque $i \in I$, soit $f_i$ une application linéaire de $E$ dans $E_i$; il est clair que lorsque $p_i$ parcourt l’ensemble $\Gamma_i$, les $p_i \circ f_i$ forment un ensemble $\Gamma'_i$ de semi-normes sur $E$. La topologie $\mathcal{T}$ sur $E$, définie comme étant la moins fine de celles rendant continues toutes les applications $f_i$ (I, p. 9) est alors définie par l’ensemble de semi-normes $\Gamma' = \bigcup_{i \in I} \Gamma'_i$, comme il résulte de la définition des voisinages de 0 pour $\mathcal{T}$ (TG, I, p. 12, prop. 4).
+Soient $E$ un espace vectoriel sur $K$, $(E_i)_{i \in I}$ une famille d’espaces vectoriels sur $K$, $E_i$ étant muni d’une topologie $\mathscr{T}_i$ définie par un ensemble de semi-normes $\Gamma_i$. Pour chaque $i \in I$, soit $f_i$ une application linéaire de $E$ dans $E_i$; il est clair que lorsque $p_i$ parcourt l’ensemble $\Gamma_i$, les $p_i \circ f_i$ forment un ensemble $\Gamma'_i$ de semi-normes sur $E$. La topologie $\mathscr{T}$ sur $E$, définie comme étant la moins fine de celles rendant continues toutes les applications $f_i$ (I, p. 9) est alors définie par l’ensemble de semi-normes $\Gamma' = \bigcup_{i \in I} \Gamma'_i$, comme il résulte de la définition des voisinages de 0 pour $\mathscr{T}$ (TG, I, p. 12, prop. 4).
 
 Si les $p_i$ sont des ultra-semi-normes, il en est de même des $p_i \circ f_i$.
 
-Soit $E$ un espace vectoriel sur $K$, muni d’une topologie $\mathcal{T}$ définie par une famille de semi-normes $(p_i)_{i \in I}$; pour tout $i \in I$, soit $\mathcal{T}_i$ la topologie définie par la seule semi-norme $p_i$, et notons $E_i$ l’espace obtenu en munissant $E$ de $p_i$. Alors la topologie $\mathcal{T}$ est l’image réciproque par l’application diagonale $\Delta : E \to \prod_{i \in I} E_i$ de la topologie produit sur $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). Pour tout $i \in I$, désignons par $N_i$ l’adhérence de 0 dans $E_i$, par $F_i = E_i / N_i$ l’espace normé défini par la norme $\dot{p}_i$ correspondant à $p_i$ (II, p. 4, formule (3)); si $\varphi_i : E_i \to F_i$ est l’application canonique, et $\varphi : (x_i) \mapsto (\varphi_i(x_i))$ l’application produit, on sait que la topologie produit sur $\prod_{i \in I} E_i$ est l’image réciproque par $\varphi$ de la topologie produit sur $\prod_{i \in I} F_i$ (TG, II, p. 26, prop. 18); la topologie $\mathcal{T}$ est donc l’image réciproque par l’application composée $\varphi \circ \Delta$ de la topologie produit sur $\prod_{i \in I} F_i$. Si en particulier $\mathcal{T}$ est séparée, il résulte de II, p. 4, prop. 2 que l’application $\varphi \circ \Delta$ est injective, donc :
+Soit $E$ un espace vectoriel sur $K$, muni d’une topologie $\mathscr{T}$ définie par une famille de semi-normes $(p_i)_{i \in I}$; pour tout $i \in I$, soit $\mathscr{T}_i$ la topologie définie par la seule semi-norme $p_i$, et notons $E_i$ l’espace obtenu en munissant $E$ de $p_i$. Alors la topologie $\mathscr{T}$ est l’image réciproque par l’application diagonale $\Delta : E \to \prod_{i \in I} E_i$ de la topologie produit sur $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). Pour tout $i \in I$, désignons par $N_i$ l’adhérence de 0 dans $E_i$, par $F_i = E_i / N_i$ l’espace normé défini par la norme $\dot{p}_i$ correspondant à $p_i$ (II, p. 4, formule (3)); si $\varphi_i : E_i \to F_i$ est l’application canonique, et $\varphi : (x_i) \mapsto (\varphi_i(x_i))$ l’application produit, on sait que la topologie produit sur $\prod_{i \in I} E_i$ est l’image réciproque par $\varphi$ de la topologie produit sur $\prod_{i \in I} F_i$ (TG, II, p. 26, prop. 18); la topologie $\mathscr{T}$ est donc l’image réciproque par l’application composée $\varphi \circ \Delta$ de la topologie produit sur $\prod_{i \in I} F_i$. Si en particulier $\mathscr{T}$ est séparée, il résulte de II, p. 4, prop. 2 que l’application $\varphi \circ \Delta$ est injective, donc :
 
 #### Proposition 3 {#evt-ii-s1-prop-3 .statement}
 
@@ -246,9 +246,9 @@ c) Pour toute semi-norme $q \in \Gamma'$, $\sup_{u \in \mathrm{H}} (q \circ u)$ 
 
 #### Corollaire 1 {#evt-ii-s1-prop-5-cor-1 .statement}
 
-Soient $E$ un espace vectoriel sur $K$, $\mathcal{T}, \mathcal{T}'$ deux topologies sur $E$ définies respectivement par deux ensembles $\Gamma, \Gamma'$ de semi-normes. Pour que $\mathcal{T}$ soit plus fine que $\mathcal{T}'$, il faut et il suffit que, pour toute semi-norme $q \in \Gamma'$, il existe une famille finie $(p_i)_{1 \leq i \leq n}$ de semi-normes appartenant à $\Gamma$ et un nombre $a > 0$ tels que l’on ait $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$ pour tout $x \in E$.
-En effet, cela exprime que l’application identique de $E$ muni de $\mathcal{T}$, sur $E$ muni de $\mathcal{T}'$, est continue.
+Soient $E$ un espace vectoriel sur $K$, $\mathscr{T}, \mathscr{T}'$ deux topologies sur $E$ définies respectivement par deux ensembles $\Gamma, \Gamma'$ de semi-normes. Pour que $\mathscr{T}$ soit plus fine que $\mathscr{T}'$, il faut et il suffit que, pour toute semi-norme $q \in \Gamma'$, il existe une famille finie $(p_i)_{1 \leq i \leq n}$ de semi-normes appartenant à $\Gamma$ et un nombre $a > 0$ tels que l’on ait $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$ pour tout $x \in E$.
+En effet, cela exprime que l’application identique de $E$ muni de $\mathscr{T}$, sur $E$ muni de $\mathscr{T}'$, est continue.
 
 #### Corollaire 2 {#evt-ii-s1-prop-5-cor-2 .statement}
 
-Soit $E$ un espace vectoriel topologique sur $K$, dont la topologie $\mathcal{T}$ est définie par un ensemble filtrant $\Gamma$ de semi-normes; pour toute semi-norme $p \in \Gamma$, soit $E_p$ l’espace obtenu en munissant $E$ de $p$. L’ensemble $E'$ des formes linéaires sur $E$ continues pour $\mathcal{T}$ est réunion des ensembles $E'_p$, où $E'_p$ est l’ensemble des formes linéaires continues dans $E_p$ ($p \in \Gamma$).
+Soit $E$ un espace vectoriel topologique sur $K$, dont la topologie $\mathscr{T}$ est définie par un ensemble filtrant $\Gamma$ de semi-normes; pour toute semi-norme $p \in \Gamma$, soit $E_p$ l’espace obtenu en munissant $E$ de $p$. L’ensemble $E'$ des formes linéaires sur $E$ continues pour $\mathscr{T}$ est réunion des ensembles $E'_p$, où $E'_p$ est l’ensemble des formes linéaires continues dans $E_p$ ($p \in \Gamma$).

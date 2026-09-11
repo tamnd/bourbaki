@@ -12,7 +12,7 @@ pdf_pages: 0356-0362
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 1e45fffba43b59038d20ef325f7c7aba4670c68a6fb60504f25aa12c94bc6bb2
+content_sha256: f9d6cb9205d169946d6cb7b92e177c54274d9859e2068e7736e4594bbc6b4040
 ---
 
 ## INDEX TERMINOLOGIQUE
@@ -22,7 +22,7 @@ Adaptée (bornologie) : III, p. 3.
 Adjoint : V, p. 38.
 Affaiblie (topologie) : IV, p. 4.
 Affine (transformation) : IV, p. 39.
-Application bilinéaire $\mathcal{S}$-hypocontinue, $\mathcal{T}$-hypocontinue, ($\mathcal{S}, \mathcal{T}$)-hypocontinue : III, p. 31.
+Application bilinéaire $\mathscr{S}$-hypocontinue, $\mathscr{T}$-hypocontinue, ($\mathscr{S}, \mathscr{T}$)-hypocontinue : III, p. 31.
 Application bilinéaire séparément continue : III, p. 28.
 Application canonique de $\bigoplus_{i \in I} E'_i$ dans $(\prod_{i \in I} E_i)'$ : IV, p. 13.
 Application canonique de $E$ dans $E''$ : IV, p. 14.
@@ -134,7 +134,7 @@ Enveloppe fermée convexe d’un ensemble : II, p. 14.
 Enveloppe fermée convexe équilibrée d’un ensemble : II, p. 14 et p. 66.
 Enveloppe fermée convexe symétrique d’un ensemble : II, p. 14.
 Épointé (cône) : II, p. 11.
-\mathcal{S}-équihypocontinu, \mathcal{T}-équihypocontinu, (\mathcal{S}, \mathcal{T})-équihypocontinu (ensemble) : III, p. 49, exerc. 7.
+\mathscr{S}-équihypocontinu, \mathscr{T}-équihypocontinu, (\mathscr{S}, \mathscr{T})-équihypocontinu (ensemble) : III, p. 49, exerc. 7.
 Équilibré (ensemble) : I, p. 6.
 Équilibré (noyau) d’un ensemble : I, p. 7.
 Équilibrée (enveloppe) d’un ensemble : I, p. 6.
@@ -221,7 +221,7 @@ Hermitien (endomorphisme) : V, p. 43.
 Hilbert (espace de) : V, p. 6.
 Hilbert-Schmidt (application de) : V, p. 51.
 Hilbertien (espace) : V, p. 6.
-\mathcal{S}-hypocontinue, \mathcal{T}-hypocontinue, (\mathcal{S}, \mathcal{T})-hypocontinue (application bilinéaire) : III, p. 31.
+\mathscr{S}-hypocontinue, \mathscr{T}-hypocontinue, (\mathscr{S}, \mathscr{T})-hypocontinue (application bilinéaire) : III, p. 31.
 Hyperplan d’appui d’un ensemble : II, p. 40.
 
 Indice d’un opérateur de Fredholm : IV, p. 67, exerc. 21.
@@ -376,7 +376,7 @@ Théorème des bipolaires : II, p. 48
 Théorème du graphe fermé : I, p. 19.
 Tonneau : III, p. 24.
 Tonnelé (espace) : III, p. 24.
-$\mathcal{S}$-topologie : III, p. 13 et IV, p. 2.
+$\mathscr{S}$-topologie : III, p. 13 et IV, p. 2.
 Topologie affaiblie : IV, p. 4.
 Topologie compatible avec une structure d’espace vectoriel : I, p. 1.
 Topologie compatible avec une structure d’espace vectoriel ordonné : II, p. 17.

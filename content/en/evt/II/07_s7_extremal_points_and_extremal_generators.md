@@ -25,7 +25,7 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: 784ad7819606caee7146c7e6d1f2bae6e9589946ad1b86e9814898830b338212
+content_sha256: e65b03774aa6296cd952507f53f354f1502075753a3855f2abf01c16c8ecd412
 ---
 
 ## § 7. EXTREMAL POINTS AND EXTREMAL GENERATORS
@@ -54,7 +54,7 @@ But this implies $\sum_i (y_i - z_i)^2 = 0$, thus $y_i = z_i$ for all $i$, which
 
 #### Example 2 {#evt-ii-s7-n1-exa-2 .statement}
 
-In the normed space $\mathcal{B}(\mathbf{N})$ of bounded sequences of real numbers (I, p. 4) the extremal points of the unit ball are the points $x = (\xi_n)$ such that $|\xi_n| = 1$ for all $n$. For, suppose that we had $|\xi_n| \leq 1$ for all $n$ and $|\xi_p| < 1$ for one index $p$. We can then write
+In the normed space $\mathscr{B}(\mathbf{N})$ of bounded sequences of real numbers (I, p. 4) the extremal points of the unit ball are the points $x = (\xi_n)$ such that $|\xi_n| = 1$ for all $n$. For, suppose that we had $|\xi_n| \leq 1$ for all $n$ and $|\xi_p| < 1$ for one index $p$. We can then write
 $$
 x = \frac{1 + \xi_p}{2} y + \frac{1 - \xi_p}{2} z
 $$
@@ -68,24 +68,24 @@ Let $u : E \to E'$ be an affine mapping of an affine space $E$ in an affine spac
 
 Let $B$ be the set of extremal points of $A$, a non-empty compact convex set in a Hausdorff locally convex space $E$, and let $f$ be a convex function defined in $A$ and upper semi-continuous. Then $f$ attains its upper bound in $A$ at one point (at least) of $B$.
 
-Use $\mathcal{F}$ to denote the family of subsets X of A that are *non-empty, closed, and such that every open segment that is contained in A and meets X necessarily lies in X*. It has the following properties;
-(i) A belongs to $\mathcal{F}$.
-(ii) A point $a \in A$ is such that $\{a\} \in \mathcal{F}$, if, and only if, $a$ is an extremal point of A.
-(iii) Every non-empty intersection X of a family $(X_\alpha)$ of sets of $\mathcal{F}$ also belongs to $\mathcal{F}$.
+Use $\mathscr{F}$ to denote the family of subsets X of A that are *non-empty, closed, and such that every open segment that is contained in A and meets X necessarily lies in X*. It has the following properties;
+(i) A belongs to $\mathscr{F}$.
+(ii) A point $a \in A$ is such that $\{a\} \in \mathscr{F}$, if, and only if, $a$ is an extremal point of A.
+(iii) Every non-empty intersection X of a family $(X_\alpha)$ of sets of $\mathscr{F}$ also belongs to $\mathscr{F}$.
 
 The properties (i), (ii) and (iii) follow immediately from the definitions.
 
-(iv) Let $X \in \mathcal{F}$, and let $h$ be a function that is convex and upper semi-continuous in A; then the set Y of the points of X where the restriction $h|X$ attains its upper bound in X is such that Y belongs to $\mathcal{F}$.
+(iv) Let $X \in \mathscr{F}$, and let $h$ be a function that is convex and upper semi-continuous in A; then the set Y of the points of X where the restriction $h|X$ attains its upper bound in X is such that Y belongs to $\mathscr{F}$.
 
-For, $h|X$ being upper semi-continuous in X attains its upper bound $\alpha$ over X in at least one point of X (GT, IV, § 6.2, th. 3); thus Y is non-empty, it is also closed (GT, IV, § 6.2, prop. 1). On the other hand let $x, y$ be two distinct points of A and let $z = \lambda x + (1 - \lambda) y$ be a point of Y such that $0 < \lambda < 1$; as $Y \subset X$ and $X \in \mathcal{F}$, we have $x \in X$ and $y \in X$; on the other hand, as $h$ is convex, we have
+For, $h|X$ being upper semi-continuous in X attains its upper bound $\alpha$ over X in at least one point of X (GT, IV, § 6.2, th. 3); thus Y is non-empty, it is also closed (GT, IV, § 6.2, prop. 1). On the other hand let $x, y$ be two distinct points of A and let $z = \lambda x + (1 - \lambda) y$ be a point of Y such that $0 < \lambda < 1$; as $Y \subset X$ and $X \in \mathscr{F}$, we have $x \in X$ and $y \in X$; on the other hand, as $h$ is convex, we have
 
 $$
 h(z) \leq \lambda h(x) + (1 - \lambda) h(y)
 $$
 
-but as $h(x) \leq \alpha, h(y) \leq \alpha$ and $h(z) = \alpha$, of necessity $h(x) = h(y) = \alpha$, that is to say $x \in Y$ and $y \in Y$. Therefore $Y \in \mathcal{F}$.
+but as $h(x) \leq \alpha, h(y) \leq \alpha$ and $h(z) = \alpha$, of necessity $h(x) = h(y) = \alpha$, that is to say $x \in Y$ and $y \in Y$. Therefore $Y \in \mathscr{F}$.
 
-With these properties established, let M be the set of $x \in A$ where $f$ attains its upper bound in A; by (iv), $M \in \mathcal{F}$. On the other hand, by (iii) and the fact that the sets of $\mathcal{F}$ are closed subsets ot the compact set A, it follows that $\mathcal{F}$ is *inductive* for the order relation $\supset$. By th. 2 of S, III, § 2.4, M contains a subset N which is a minimal element of $\mathcal{F}$. We shall show that N consists of a single point and this will complete the proof of the proposition. Since E is a Hausdorff locally convex space, it is sufficient to show that every continuous linear form $u$ on E is constant in N (II, p. 38, cor. 1). Now it follows from (iv) that the set $N'$ of the $x \in N$ where $u|N$ attains its upper bound in N is such that $N'$ belongs to $\mathcal{F}$; since N is minimal in $\mathcal{F}$ we necessarily have $N' = N$.
+With these properties established, let M be the set of $x \in A$ where $f$ attains its upper bound in A; by (iv), $M \in \mathscr{F}$. On the other hand, by (iii) and the fact that the sets of $\mathscr{F}$ are closed subsets ot the compact set A, it follows that $\mathscr{F}$ is *inductive* for the order relation $\supset$. By th. 2 of S, III, § 2.4, M contains a subset N which is a minimal element of $\mathscr{F}$. We shall show that N consists of a single point and this will complete the proof of the proposition. Since E is a Hausdorff locally convex space, it is sufficient to show that every continuous linear form $u$ on E is constant in N (II, p. 38, cor. 1). Now it follows from (iv) that the set $N'$ of the $x \in N$ where $u|N$ attains its upper bound in N is such that $N'$ belongs to $\mathscr{F}$; since N is minimal in $\mathscr{F}$ we necessarily have $N' = N$.
 
 #### Corollary {#evt-ii-s7-n1-cor-1 .statement}
 
@@ -204,7 +204,7 @@ $$
 
 This follows immediately from cor. 1 and the Krein-Milman theorem (II, p. 55, th. 1).
 
-\* Example. — Let X be a locally compact space that is σ-compact. Let C be a closed convex cone of vertex 0 in $\mathcal{M}_+(X)$ with the vague topology. We shall show that C is the union of its caps. Let $(X_n)$ be an increasing sequence of open, relatively compact sets of X whose union is X. Let μ be an element $\neq 0$ of C. There exist $\alpha_n > 0$ such that $\sum_n \alpha_n \mu(X_n) = 1$.
+\* Example. — Let X be a locally compact space that is σ-compact. Let C be a closed convex cone of vertex 0 in $\mathscr{M}_+(X)$ with the vague topology. We shall show that C is the union of its caps. Let $(X_n)$ be an increasing sequence of open, relatively compact sets of X whose union is X. Let μ be an element $\neq 0$ of C. There exist $\alpha_n > 0$ such that $\sum_n \alpha_n \mu(X_n) = 1$.
 
 For every measure $v \in C$, put $p(v) = \sum_n \alpha_n v(X_n) \in [0, +\infty]$. The function p on C satisfies conditions (i) and (ii) of prop. 4. It is lower semi-continuous for the vague topology (INT, IV, 2nd ed., § 1, No. 1, prop. 4). The set A of the $\gamma \in C$ such that $p(\gamma) \leq 1$ is therefore closed and non-empty. On the other hand, every compact set of X is contained in one of the $X_n$, thus A being vaguely bounded is also vaguely compact (INT, III, 2nd ed., § 1, No. 9, prop. 15). The set A is therefore a cap of C containing μ. \*
 
@@ -234,7 +234,7 @@ Every proper closed convex cone in $E$, a vector space of finite dimension, has 
 
 #### Example 2 {#evt-ii-s7-n3-exa-2 .statement}
 
-\* If $X$ is a compact space, then the cone $\mathcal{M}_+(X)$ of positive measures on $X$, with the vague topology, is a cone with a compact sole (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
+\* If $X$ is a compact space, then the cone $\mathscr{M}_+(X)$ of positive measures on $X$, with the vague topology, is a cone with a compact sole (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
 
 ### Exercises {#evt-ii-s7-exercises}
 

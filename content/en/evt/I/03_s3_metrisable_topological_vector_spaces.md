@@ -25,7 +25,7 @@ subsections:
       pdf_page: 25
 statements: 11
 exercises: 9
-content_sha256: 6cbc79d34e4f9e5c94920e6367b739520ccb922a1dd94bb93b4a4cdc37800299
+content_sha256: 7a8271ea9a010eadcfd81401d5686401ccfd341113f515ff0a694af1cc324c3d
 ---
 
 ## § 3. METRISABLE TOPOLOGICAL VECTOR SPACES
@@ -120,7 +120,7 @@ In particular, if E and F are two complete *normed* spaces, there exists a numbe
 
 #### Corollary 2 {#evt-i-s3-lem-2-cor-2 .statement}
 
-*Let E be a vector space over a non-discrete valued division ring, let $\mathcal{T}_1$ and $\mathcal{T}_2$ be two topologies on E compatible with its vector space structure and for each of which E is metrisable and complete. Then, if $\mathcal{T}_1$ and $\mathcal{T}_2$ are comparable, they are identical.*
+*Let E be a vector space over a non-discrete valued division ring, let $\mathscr{T}_1$ and $\mathscr{T}_2$ be two topologies on E compatible with its vector space structure and for each of which E is metrisable and complete. Then, if $\mathscr{T}_1$ and $\mathscr{T}_2$ are comparable, they are identical.*
 
 #### Corollary 3 {#evt-i-s3-lem-2-cor-3 .statement}
 
@@ -144,17 +144,17 @@ We can express this corollary in the following form : $u$ is continuous if the f
 
 #### Example {#evt-i-s3-n3-exa-1 .statement}
 
-— Let E be a vector subspace of the space of real-valued functions defined on $I = [0, 1]$; let $\| f \|$ be a norm on E, under which E is *complete*, and such that its topology is finer than the topology of simple convergence. Suppose further that E contains the set $\mathcal{C}^\infty(I)$ of functions infinitely differentiable on I; we shall show that there exists an integer $k \geq 0$, such that E contains the set $\mathcal{C}^k(I)$ of all functions with a continuous $k$-th derivative in I.
+— Let E be a vector subspace of the space of real-valued functions defined on $I = [0, 1]$; let $\| f \|$ be a norm on E, under which E is *complete*, and such that its topology is finer than the topology of simple convergence. Suppose further that E contains the set $\mathscr{C}^\infty(I)$ of functions infinitely differentiable on I; we shall show that there exists an integer $k \geq 0$, such that E contains the set $\mathscr{C}^k(I)$ of all functions with a continuous $k$-th derivative in I.
 
-For every pair of integers $m > 0,\ n \geq 0$, let $V_{mn}$ be the set of functions $f \in \mathcal{C}^\infty(I)$ such that $|f^{(h)}(x)| \leq 1/m$ for $0 \leq h \leq n$ and for all $x \in I$. The $V_{m,n}$ form a fundamental system of neighbourhoods of 0 for a metrisable topology compatible with the vector space structure of $\mathcal{C}^\infty(I)$, further $\mathcal{C}^\infty(I)$ is *complete* in this topology (FVR, II, p. 2, th. 1). Let $u$ be the canonical mapping of $\mathcal{C}^\infty(I)$ in E; we show that $u$ is *continuous*. From cor. 5 above it is sufficient to prove that if a sequence $(f_n)$ converges to 0 in $\mathcal{C}^\infty(I)$ and to a limit $f$ in E then necessarily $f = 0$. But this is immediate since, by hypothesis, $f$ is the simple convergence limit of $(f_n)$. Hence there exists an integer $k \geq 0$ and a number $a > 0$ such that the relation
+For every pair of integers $m > 0,\ n \geq 0$, let $V_{mn}$ be the set of functions $f \in \mathscr{C}^\infty(I)$ such that $|f^{(h)}(x)| \leq 1/m$ for $0 \leq h \leq n$ and for all $x \in I$. The $V_{m,n}$ form a fundamental system of neighbourhoods of 0 for a metrisable topology compatible with the vector space structure of $\mathscr{C}^\infty(I)$, further $\mathscr{C}^\infty(I)$ is *complete* in this topology (FVR, II, p. 2, th. 1). Let $u$ be the canonical mapping of $\mathscr{C}^\infty(I)$ in E; we show that $u$ is *continuous*. From cor. 5 above it is sufficient to prove that if a sequence $(f_n)$ converges to 0 in $\mathscr{C}^\infty(I)$ and to a limit $f$ in E then necessarily $f = 0$. But this is immediate since, by hypothesis, $f$ is the simple convergence limit of $(f_n)$. Hence there exists an integer $k \geq 0$ and a number $a > 0$ such that the relation
 
 $$
 p_k(f) = \sup_{\substack{x \in I \\ 0 \leq h \leq k}} |f^{(h)}(x)| \leq a
 $$
 
-implies $\| f \| \leq 1$ for all $f \in \mathcal{C}^\infty(I)$.
+implies $\| f \| \leq 1$ for all $f \in \mathscr{C}^\infty(I)$.
 
-But $p_k$ is a norm on the space $\mathcal{C}^k(I)$ and $\mathcal{C}^\infty(I)$ is a subspace that is everywhere dense in $\mathcal{C}^k(I)$ for this norm (the set of polynomials being already everywhere dense in $\mathcal{C}^k(I)$, an immediate consequence of the Weierstrass-Stone theorem). By what has gone before, the identity mapping of $\mathcal{C}^\infty(I)$ (carrying the norm $p_k$) in E, is continuous, and so it can be extended continuously to the whole space $\mathcal{C}^k(I)$ (since E is complete). This proves our assertion.
+But $p_k$ is a norm on the space $\mathscr{C}^k(I)$ and $\mathscr{C}^\infty(I)$ is a subspace that is everywhere dense in $\mathscr{C}^k(I)$ for this norm (the set of polynomials being already everywhere dense in $\mathscr{C}^k(I)$, an immediate consequence of the Weierstrass-Stone theorem). By what has gone before, the identity mapping of $\mathscr{C}^\infty(I)$ (carrying the norm $p_k$) in E, is continuous, and so it can be extended continuously to the whole space $\mathscr{C}^k(I)$ (since E is complete). This proves our assertion.
 
 #### Proposition 1 {#evt-i-s3-prop-1 .statement}
 

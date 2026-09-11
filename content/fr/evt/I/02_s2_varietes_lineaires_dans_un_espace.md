@@ -29,7 +29,7 @@ subsections:
       pdf_page: 21
 statements: 27
 exercises: 15
-content_sha256: 17282e590bb755f6fa41762cabf7db35892d4909a26cc70d7142e328f29ef6d1
+content_sha256: 7e7f5b9ab3ea4e870372ac6367648aedd098b7b6c0f2c3563e96eba84f46ce8c
 ---
 
 ## § 2. VARIÉTÉS LINÉAIRES DANS UN ESPACE VECTORIEL TOPOLOGIQUE
@@ -60,7 +60,7 @@ Dans un espace vectoriel topologique E, on dit qu’un ensemble A est total si l
 
 #### Exemple 1 {#evt-i-s2-n1-exa-1 .statement}
 
-Dans l’espace normé $\mathcal{C}(I ; \mathbf{C})$ (sur le corps $\mathbf{C}$) des fonctions continues dans $I = \{0, 1\}$, à valeurs dans $\mathbf{C}$, les restrictions à I des monômes $x^n$ ($n \in \mathbf{N}$) forment un ensemble total, en vertu du th. de Weierstrass-Stone (TG, X, p. 36, th. 3). De même dans le sous-espace P de $\mathcal{C}(I ; \mathbf{C})$ formé des fonctions telles que $f(0) = f(1)$, les restrictions à I des fonctions $e^{2n\pi ix}$ ($n \in \mathbf{Z}$) forment un ensemble total (TG, X, p. 40, prop. 8).
+Dans l’espace normé $\mathscr{C}(I ; \mathbf{C})$ (sur le corps $\mathbf{C}$) des fonctions continues dans $I = \{0, 1\}$, à valeurs dans $\mathbf{C}$, les restrictions à I des monômes $x^n$ ($n \in \mathbf{N}$) forment un ensemble total, en vertu du th. de Weierstrass-Stone (TG, X, p. 36, th. 3). De même dans le sous-espace P de $\mathscr{C}(I ; \mathbf{C})$ formé des fonctions telles que $f(0) = f(1)$, les restrictions à I des fonctions $e^{2n\pi ix}$ ($n \in \mathbf{Z}$) forment un ensemble total (TG, X, p. 40, prop. 8).
 
 #### Exemple 2 {#evt-i-s2-n1-exa-2 .statement}
 
@@ -72,7 +72,7 @@ Dans un espace vectoriel topologique E, on dit qu’une famille $(a_\iota)_{\iot
 
 #### Exemple 3 {#evt-i-s2-n1-exa-3 .statement}
 
-Dans l’espace normé $\mathcal{C}(I ; \mathbf{C})$ des fonctions continues dans $I = \{0, 1\}$, les restrictions à I des fonctions $e^{2n\pi ix}$ ($n \in \mathbf{Z}$) forment une famille topologiquement libre. En effet, pour tout $n \in \mathbf{Z}$, si $f(x)$ est une combinaison linéaire $\sum_{k \neq n} c_k e^{2k\pi ix}$ (les $c_k$ étant nuls sauf un nombre fini d’entre eux), on a
+Dans l’espace normé $\mathscr{C}(I ; \mathbf{C})$ des fonctions continues dans $I = \{0, 1\}$, les restrictions à I des fonctions $e^{2n\pi ix}$ ($n \in \mathbf{Z}$) forment une famille topologiquement libre. En effet, pour tout $n \in \mathbf{Z}$, si $f(x)$ est une combinaison linéaire $\sum_{k \neq n} c_k e^{2k\pi ix}$ (les $c_k$ étant nuls sauf un nombre fini d’entre eux), on a
 $$
 \int_0^1 |e^{2n\pi ix} - f(x)|^2 \, dx = 1 + \sum_{k \neq n} |c_k|^2 \geq 1
 $$
@@ -80,7 +80,7 @@ et a fortiori, en vertu du th. de la moyenne
 $$
 \sup_{x \in I} |e^{2n\pi ix} - f(x)| \geq 1
 $$
-ce qui prouve que $e^{2n\pi ix}$ n’appartient pas au sous-espace vectoriel fermé de $\mathcal{C}(I ; \mathbf{C})$ engendré par les $e^{2k\pi ix}$ d’indice $k \neq n$.
+ce qui prouve que $e^{2n\pi ix}$ n’appartient pas au sous-espace vectoriel fermé de $\mathscr{C}(I ; \mathbf{C})$ engendré par les $e^{2k\pi ix}$ d’indice $k \neq n$.
 
 L’ensemble des éléments d’une famille topologiquement libre est appelé partie topologiquement libre de E. Toute partie d’une partie topologiquement libre est topologiquement libre ; toute partie réduite à un point $x \neq 0$ est topologiquement libre si l’espace E est séparé.
 
@@ -88,7 +88,7 @@ Une famille topologiquement libre est libre (au sens algébrique ; cf. A, II, p.
 
 #### Exemple 4 {#evt-i-s2-n1-exa-4 .statement}
 
-Dans l’espace normé $\mathcal{C}(I ; \mathbf{C})$ des fonctions continues dans $I = \{0, 1\}$, les restrictions à I des monômes $x^n$ ($n \in \mathbf{N}$) forment une famille libre au sens algébrique. Mais il existe une suite $(p_n)$ de polynômes telle que $p_n(x^2)$ converge uniformément vers x dans I (TG, X, p. 36, lemme 2), ce qui signifie que x appartient au sous-espace vectoriel fermé de $\mathcal{C}(I ; \mathbf{C})$ engendré par les monômes $x^{2^n}$ ($n \in \mathbf{N}$).
+Dans l’espace normé $\mathscr{C}(I ; \mathbf{C})$ des fonctions continues dans $I = \{0, 1\}$, les restrictions à I des monômes $x^n$ ($n \in \mathbf{N}$) forment une famille libre au sens algébrique. Mais il existe une suite $(p_n)$ de polynômes telle que $p_n(x^2)$ converge uniformément vers x dans I (TG, X, p. 36, lemme 2), ce qui signifie que x appartient au sous-espace vectoriel fermé de $\mathscr{C}(I ; \mathbf{C})$ engendré par les monômes $x^{2^n}$ ($n \in \mathbf{N}$).
 
 #### Remarque 1 {#evt-i-s2-n1-rem-1 .statement}
 

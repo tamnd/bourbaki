@@ -12,7 +12,7 @@ pdf_pages: 0353-0358
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 2d575a20997418618b96c38bc13e104d6a4a7e91bb3f09b41553a154bde9204b
+content_sha256: fc08ca7a80bfc9533120236c4498db3314f76c5a20c5f80912317dc9aa8ee563
 ---
 
 ## INDEX OF TERMINOLOGY
@@ -123,7 +123,7 @@ Envelope of a set (closed convex) : II, p. 13.
 Envelope of a set (convex) : II, p. 9.
 Envelope of a set (symmetric convex) : II, p. 10.
 Envelope of a set (symmetric convex closed) : II, p. 13.
-\mathcal{S}-equihypocontinuous, \mathfrak{T}-equihypocontinuous, (\mathcal{S}, \mathfrak{T})-equihypocontinuous set : III, p. 47, exerc. 7.
+\mathscr{S}-equihypocontinuous, \mathfrak{T}-equihypocontinuous, (\mathscr{S}, \mathfrak{T})-equihypocontinuous set : III, p. 47, exerc. 7.
 
 Exhaustion of a Hausdorff locally convex space, exhaustible space : III, p. 49, exerc. 1.
 Extremal generator of a convex cone : II, p. 57.
@@ -170,7 +170,7 @@ Hermitian endomorphism : V, p. 44.
 Hilbert-Schmidt mapping : V, p. 52.
 Hilbert space, hilbertian space : V, p. 6.
 Hyperplane (support) of a set : II, p. 37.
-\mathcal{S}-hypocontinuous, \mathcal{T}-hypocontinuous, (\mathcal{S}, \mathcal{T})-hypocontinuous bilinear mapping : III, p. 30.
+\mathscr{S}-hypocontinuous, \mathscr{T}-hypocontinuous, (\mathscr{S}, \mathscr{T})-hypocontinuous bilinear mapping : III, p. 30.
 
 Index of a Fredholm operator : IV, p. 66, exerc. 21.
 Induced prehilbertian structure on a vector subspace : V, p. 6.
@@ -302,7 +302,7 @@ Tensor product (hilbertian) : V, p. 28.
 Tensor product of prehilbertian spaces : V, p. 26-27.
 
 Topologically independent set, family : I, p. 12 and p. 11.
-$\mathcal{S}$-topology : III, p. 13 and IV, p. 2.
+$\mathscr{S}$-topology : III, p. 13 and IV, p. 2.
 Topology compatible with an ordered vector space structure : II, p. 15.
 Topology compatible with a vector space structure : I, p. 1.
 Topology defined by a semi-norm, by a set of semi-norms : II, p. 2-3.

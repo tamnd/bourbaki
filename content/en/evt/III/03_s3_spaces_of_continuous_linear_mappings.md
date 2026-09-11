@@ -12,19 +12,19 @@ pdf_pages: 0145-0155, 0173-0175
 extraction: ocr
 subsections:
     - "no": 1
-      title: The spaces $\mathcal{L}_\mathfrak{S}(E; F)$
+      title: The spaces $\mathscr{L}_\mathfrak{S}(E; F)$
       page: 13
       pdf_page: 145
     - "no": 2
-      title: Condition for $\mathcal{L}_\mathfrak{S}(E; F)$ to be Hausdorff
+      title: Condition for $\mathscr{L}_\mathfrak{S}(E; F)$ to be Hausdorff
       page: 15
       pdf_page: 147
     - "no": 3
-      title: Relations between $\mathcal{L}(E; F)$ and $\mathcal{L}(\hat{E}; F)$
+      title: Relations between $\mathscr{L}(E; F)$ and $\mathscr{L}(\hat{E}; F)$
       page: 15
       pdf_page: 147
     - "no": 4
-      title: Equicontinuous subsets of $\mathcal{L}(E; F)$
+      title: Equicontinuous subsets of $\mathscr{L}(E; F)$
       page: 16
       pdf_page: 148
     - "no": 5
@@ -36,21 +36,21 @@ subsections:
       page: 20
       pdf_page: 152
     - "no": 7
-      title: $\mathcal{S}$-bornologies on $\mathcal{L}(E; F)$
+      title: $\mathscr{S}$-bornologies on $\mathscr{L}(E; F)$
       page: 21
       pdf_page: 153
     - "no": 8
-      title: Complete subsets of $\mathcal{L}_{\mathcal{S}}(E; F)$
+      title: Complete subsets of $\mathscr{L}_{\mathscr{S}}(E; F)$
       page: 22
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: 4ed1fce2dbbf61db61227afd45600a085f6c0b776ec91a9152e9b34266c0750e
+content_sha256: d0cdc06143817d623c1a526fb8ac496830b8bf54df10482dd3573c5ab85e774a
 ---
 
 ## § 3. SPACES OF CONTINUOUS LINEAR MAPPINGS
 
-### 1. The spaces $\mathcal{L}_\mathfrak{S}(E; F)$
+### 1. The spaces $\mathscr{L}_\mathfrak{S}(E; F)$
 
 Let F be a topological vector space, E an arbitrary set, and $\mathfrak{S}$ a family of subsets of E. Consider the vector space $F^E$ with the uniform structure of $\mathfrak{S}$-convergence (GT, X, § 1, No. 2). We know that this structure is compatible with the commutative group structure of $F^E$ (GT, X, § 1, No. 4, cor. 2). The topology so deduced is called the $\mathfrak{S}$*-topology*. If X is a subset of $F^E$, or more generally, a set with a mapping $j : X \to F^E$, then the universe image under j of the $\mathfrak{S}$*-topology* on $F^E$ is called the $\mathfrak{S}$*-topology* on X.
 
@@ -68,29 +68,29 @@ On account of Remarks 1) and 2) above, we see that a necessary and sufficient co
 
 #### Corollary {#evt-iii-s3-n1-cor-1 .statement}
 
-*Let E and F be two locally convex spaces, $\mathfrak{S}$ a family of bounded subsets of E, and $\mathcal{L}(E; F)$ the vector space of continuous linear mappings from E into F. Then the $\mathfrak{S}$*-topology* is compatible with the vector space structure of $\mathcal{L}(E; F)$ and is locally convex.*
+*Let E and F be two locally convex spaces, $\mathfrak{S}$ a family of bounded subsets of E, and $\mathscr{L}(E; F)$ the vector space of continuous linear mappings from E into F. Then the $\mathfrak{S}$*-topology* is compatible with the vector space structure of $\mathscr{L}(E; F)$ and is locally convex.*
 
 It is enough to remark that if $u$ is a continuous linear mapping from E into F and M is a bounded subset of E, then $u(M)$ is bounded in F (III, p. 4, cor. 1).
 
-Given two locally convex vector spaces E and F, and a family $\mathfrak{S}$ of bounded subsets of E, let $\mathcal{L}_\mathfrak{S}(E; F)$ denote the locally convex space obtained by assigning the $\mathfrak{S}$*-topology* to $\mathcal{L}(E; F)$.
+Given two locally convex vector spaces E and F, and a family $\mathfrak{S}$ of bounded subsets of E, let $\mathscr{L}_\mathfrak{S}(E; F)$ denote the locally convex space obtained by assigning the $\mathfrak{S}$*-topology* to $\mathscr{L}(E; F)$.
 
 #### Example 1 {#evt-iii-s3-n1-exa-1 .statement}
 
-If $\mathfrak{S}$ is the set of all finite subsets of E, then the $\mathfrak{S}$-topology is the topology of *simple convergence* and the space $\mathcal{L}_{\mathfrak{S}}(E; F)$ is also denoted by $\mathcal{L}_s(E; F)$. A bounded subset of $\mathcal{L}_s(E; F)$ is called a simply bounded subset of $\mathcal{L}(E; F)$.
+If $\mathfrak{S}$ is the set of all finite subsets of E, then the $\mathfrak{S}$-topology is the topology of *simple convergence* and the space $\mathscr{L}_{\mathfrak{S}}(E; F)$ is also denoted by $\mathscr{L}_s(E; F)$. A bounded subset of $\mathscr{L}_s(E; F)$ is called a simply bounded subset of $\mathscr{L}(E; F)$.
 
 #### Example 2 {#evt-iii-s3-n1-exa-2 .statement}
 
-If $\mathfrak{S}$ is the set of *compact* (resp. *precompact*, *compact convex*) subsets, then the $\mathfrak{S}$-topology is called the topology of *compact* (resp. *precompact*, *compact convex*) convergence and the space $\mathcal{L}_{\mathfrak{S}}(E; F)$ is also denoted by $\mathcal{L}_c(E; F)$ (resp. $\mathcal{L}_{pc}(E; F)$, $\mathcal{L}_{cc}(E; F)$). (*Cf.* IV, p. 48, exerc. 7.)
+If $\mathfrak{S}$ is the set of *compact* (resp. *precompact*, *compact convex*) subsets, then the $\mathfrak{S}$-topology is called the topology of *compact* (resp. *precompact*, *compact convex*) convergence and the space $\mathscr{L}_{\mathfrak{S}}(E; F)$ is also denoted by $\mathscr{L}_c(E; F)$ (resp. $\mathscr{L}_{pc}(E; F)$, $\mathscr{L}_{cc}(E; F)$). (*Cf.* IV, p. 48, exerc. 7.)
 
 #### Example 3 {#evt-iii-s3-n1-exa-3 .statement}
 
-If $\mathfrak{S}$ is the set of all *bounded* subsets of E, we say that the $\mathfrak{S}$-topology is the topology of *bounded convergence* and the space $\mathcal{L}_{\mathfrak{S}}(E; F)$ is denoted by $\mathcal{L}_b(E; F)$.
+If $\mathfrak{S}$ is the set of all *bounded* subsets of E, we say that the $\mathfrak{S}$-topology is the topology of *bounded convergence* and the space $\mathscr{L}_{\mathfrak{S}}(E; F)$ is denoted by $\mathscr{L}_b(E; F)$.
 
 #### Example 4 {#evt-iii-s3-n1-exa-4 .statement}
 
-When $F = \mathbf{K}$, the space $\mathcal{L}(E; F)$ is the *dual* $E'$ of E. We denote by $E'_\mathfrak{S}$, $E'_s$ etc. the space $\mathcal{L}_{\mathfrak{S}}(E; \mathbf{K})$, $\mathcal{L}_s(E; \mathbf{K})$ etc. The space $E'_s$ (resp. $E'_b$) is called the weak dual (resp. strong dual) of E. A bounded subset of $E'_s$ (resp. $E'_b$) is said to be weakly (resp. strongly) bounded. We observe that the weak topology on $E'$ is none other than $\sigma(E', E)$ (II, p. 42).
+When $F = \mathbf{K}$, the space $\mathscr{L}(E; F)$ is the *dual* $E'$ of E. We denote by $E'_\mathfrak{S}$, $E'_s$ etc. the space $\mathscr{L}_{\mathfrak{S}}(E; \mathbf{K})$, $\mathscr{L}_s(E; \mathbf{K})$ etc. The space $E'_s$ (resp. $E'_b$) is called the weak dual (resp. strong dual) of E. A bounded subset of $E'_s$ (resp. $E'_b$) is said to be weakly (resp. strongly) bounded. We observe that the weak topology on $E'$ is none other than $\sigma(E', E)$ (II, p. 42).
 
-When $E = F$, we denote by $\mathcal{L}(E)$, $\mathcal{L}_{\mathfrak{S}}(E)$ etc. the space $\mathcal{L}(E; F)$, $\mathcal{L}_{\mathfrak{S}}(E; F)$ etc.
+When $E = F$, we denote by $\mathscr{L}(E)$, $\mathscr{L}_{\mathfrak{S}}(E)$ etc. the space $\mathscr{L}(E; F)$, $\mathscr{L}_{\mathfrak{S}}(E; F)$ etc.
 
 Let $p$ be a continuous semi-norm on F and M a bounded subset of E. Let
 
@@ -98,15 +98,15 @@ $$
 p_M(u) = \sup_{x \in M} p(u(x)) .
 $$
 
-It is immediate that $p_M$ is a semi-norm on $\mathcal{L}(E; F)$ and that if $\Gamma$ is a fundamental system of semi-norms on F, the family of semi-norms $p_M$, where $p$ ranges over $\Gamma$ and M ranges over a base for the bornology generated by $\mathfrak{S}$, is a fundamental system of semi-norms of $\mathcal{L}_{\mathfrak{S}}(E; F)$.
+It is immediate that $p_M$ is a semi-norm on $\mathscr{L}(E; F)$ and that if $\Gamma$ is a fundamental system of semi-norms on F, the family of semi-norms $p_M$, where $p$ ranges over $\Gamma$ and M ranges over a base for the bornology generated by $\mathfrak{S}$, is a fundamental system of semi-norms of $\mathscr{L}_{\mathfrak{S}}(E; F)$.
 
-In particular, if E and F are semi-normed spaces, and if $p$ (resp. $q$) denotes the semi-norm of E (resp. F), then the topology of bounded convergence on $\mathcal{L}(E; F)$ is defined by the semi-norm
+In particular, if E and F are semi-normed spaces, and if $p$ (resp. $q$) denotes the semi-norm of E (resp. F), then the topology of bounded convergence on $\mathscr{L}(E; F)$ is defined by the semi-norm
 
 $$
 r(u) = \sup_{p(x) \leq 1} q(u(x))
 $$
 
-(*cf.* GT, X, § 3, No. 2). When we consider $\mathcal{L}_b(E; F)$ as a semi-normed space, we shall always, unless the contrary is expressly stated, mean the semi-norm (2). If F is a normed space, the semi-norm (2) is a norm.
+(*cf.* GT, X, § 3, No. 2). When we consider $\mathscr{L}_b(E; F)$ as a semi-normed space, we shall always, unless the contrary is expressly stated, mean the semi-norm (2). If F is a normed space, the semi-norm (2) is a norm.
 
 #### Remark {#evt-iii-s3-n1-rem-2 .statement}
 
@@ -130,43 +130,43 @@ $$
 
 whenever $p \neq 0$.
 
-4) The formula (2) shows that the map $u \mapsto r(u)$ is lower semi-continuous on $\mathcal{L}_s(E; F)$.
+4) The formula (2) shows that the map $u \mapsto r(u)$ is lower semi-continuous on $\mathscr{L}_s(E; F)$.
 
 #### Proposition 2 {#evt-iii-s3-prop-2 .statement}
 
 — Let E and F be two locally convex spaces and let $\mathfrak{S}$ be a set of bounded subsets of E.
 
-1) The $\mathfrak{S}$-topology on $\mathcal{L}(E; F)$ is identical with the $\tilde{\mathfrak{S}}$-topology, where $\tilde{\mathfrak{S}}$ denotes the smallest adapted, bornology (III, p. 3) on E which contains $\mathfrak{S}$.
+1) The $\mathfrak{S}$-topology on $\mathscr{L}(E; F)$ is identical with the $\tilde{\mathfrak{S}}$-topology, where $\tilde{\mathfrak{S}}$ denotes the smallest adapted, bornology (III, p. 3) on E which contains $\mathfrak{S}$.
 
 2) Suppose that $\{0\}$ is not dense in F and let $\mathfrak{S}'$ be another set of bounded subsets of E. Then the $\mathfrak{S}'$-topology is coarser than the $\mathfrak{S}$-topology if and only if $\mathfrak{S}' \subset \tilde{\mathfrak{S}}$.
 
-Let $u \in \mathcal{L}(E; F)$, $M \in \mathfrak{S}$ and let $p$ be a continuous semi-norm on F. Since $p \circ u$ is a continuous semi-norm on E, this is the same as saying that $p \circ u$ is bounded above by 1 on M or on the closed, convex balanced envelope $\tilde{M}$ of M; in other words, we have $p_M = p_{\tilde{M}}$. Moreover, it is clear that we have $p_{\lambda M} = \lambda p_M$ for all $\lambda > 0$ and $p_{M \cup M'} = \sup(p_M, p_{M'})$, from which the first assertion follows, since $\tilde{\mathfrak{S}}$ has the set of homothetics of the closed convex balanced envelopes of finite unions of sets of $\mathfrak{S}$ as a base.
+Let $u \in \mathscr{L}(E; F)$, $M \in \mathfrak{S}$ and let $p$ be a continuous semi-norm on F. Since $p \circ u$ is a continuous semi-norm on E, this is the same as saying that $p \circ u$ is bounded above by 1 on M or on the closed, convex balanced envelope $\tilde{M}$ of M; in other words, we have $p_M = p_{\tilde{M}}$. Moreover, it is clear that we have $p_{\lambda M} = \lambda p_M$ for all $\lambda > 0$ and $p_{M \cup M'} = \sup(p_M, p_{M'})$, from which the first assertion follows, since $\tilde{\mathfrak{S}}$ has the set of homothetics of the closed convex balanced envelopes of finite unions of sets of $\mathfrak{S}$ as a base.
 
-We now prove the second assertion : first, if F is the base field, it follows from the definition that the $\tilde{\mathfrak{S}}$-topology on $E' = \mathcal{L}(E; F)$ has as a fundamental system of neighbourhoods of 0, the set of polars of the sets of $\tilde{\mathfrak{S}}$. Let A be a bounded subset of E, whose polar $A^\circ$ is a neighbourhood of 0 for the $\tilde{\mathfrak{S}}$-topology; then there exists a closed convex balanced set $B \in \tilde{\mathfrak{S}}$ such that $A^\circ \supset B^\circ$, and so $A \subset B^{\circ \circ}$; but by cor. 3 of II, p. 45, we have $B^{\circ \circ} = B$, and hence $A \subset B$ and $A \in \tilde{\mathfrak{S}}$. Therefore if $\mathfrak{S}'$ is a set of bounded subsets of E, the $\mathfrak{S}'$-topology is coarser than the $\mathfrak{S}$-topology on $E'$ if and only if $\mathfrak{S}' \subset \tilde{\mathfrak{S}}$. The general case follows immediately, since if $y \in F$ is not in the closure of 0, we can verify that the mapping which makes $f \in E'$ correspond to the mapping $x \mapsto f(x)\ y$ is an isomorphism of the locally convex spaces $E'_\mathfrak{S}$ onto its image in $\mathcal{L}_{\tilde{\mathfrak{S}}}(E; F)$.
+We now prove the second assertion : first, if F is the base field, it follows from the definition that the $\tilde{\mathfrak{S}}$-topology on $E' = \mathscr{L}(E; F)$ has as a fundamental system of neighbourhoods of 0, the set of polars of the sets of $\tilde{\mathfrak{S}}$. Let A be a bounded subset of E, whose polar $A^\circ$ is a neighbourhood of 0 for the $\tilde{\mathfrak{S}}$-topology; then there exists a closed convex balanced set $B \in \tilde{\mathfrak{S}}$ such that $A^\circ \supset B^\circ$, and so $A \subset B^{\circ \circ}$; but by cor. 3 of II, p. 45, we have $B^{\circ \circ} = B$, and hence $A \subset B$ and $A \in \tilde{\mathfrak{S}}$. Therefore if $\mathfrak{S}'$ is a set of bounded subsets of E, the $\mathfrak{S}'$-topology is coarser than the $\mathfrak{S}$-topology on $E'$ if and only if $\mathfrak{S}' \subset \tilde{\mathfrak{S}}$. The general case follows immediately, since if $y \in F$ is not in the closure of 0, we can verify that the mapping which makes $f \in E'$ correspond to the mapping $x \mapsto f(x)\ y$ is an isomorphism of the locally convex spaces $E'_\mathfrak{S}$ onto its image in $\mathscr{L}_{\tilde{\mathfrak{S}}}(E; F)$.
 
-### 2. Condition for $\mathcal{L}_\mathfrak{S}(E; F)$ to be Hausdorff
+### 2. Condition for $\mathscr{L}_\mathfrak{S}(E; F)$ to be Hausdorff
 
 #### Proposition 3 {#evt-iii-s3-prop-3 .statement}
 
-— Let E and F be two locally convex spaces, F being assumed Hausdorff, and let $\mathfrak{S}$ be a family of bounded subsets of E. If the union A of the sets of $\mathfrak{S}$ is total in E, then the space $\mathcal{L}_\mathfrak{S}(E; F)$ is Hausdorff.
+— Let E and F be two locally convex spaces, F being assumed Hausdorff, and let $\mathfrak{S}$ be a family of bounded subsets of E. If the union A of the sets of $\mathfrak{S}$ is total in E, then the space $\mathscr{L}_\mathfrak{S}(E; F)$ is Hausdorff.
 
-Let $u_0$ be a non-zero element of $\mathcal{L}(E; F)$; since $u_0$ is continuous and A is total in E, there exists an $x_0$ in A such that $u_0(x_0) \neq 0$. Since F is Hausdorff, there exists a neighbourhood V of 0 in F such that $u_0(x_0) \notin V$. Let $M \in \mathfrak{S}$ be such that $x_0 \in M$. Then the set U of all $u \in \mathcal{L}(E; F)$ such that $u(M) \subset V$ is a neighbourhood of 0 in $\mathcal{L}(E; F)$, and we have $u_0 \notin U$, hence $\mathcal{L}(E; F)$ is Hausdorff.
+Let $u_0$ be a non-zero element of $\mathscr{L}(E; F)$; since $u_0$ is continuous and A is total in E, there exists an $x_0$ in A such that $u_0(x_0) \neq 0$. Since F is Hausdorff, there exists a neighbourhood V of 0 in F such that $u_0(x_0) \notin V$. Let $M \in \mathfrak{S}$ be such that $x_0 \in M$. Then the set U of all $u \in \mathscr{L}(E; F)$ such that $u(M) \subset V$ is a neighbourhood of 0 in $\mathscr{L}(E; F)$, and we have $u_0 \notin U$, hence $\mathscr{L}(E; F)$ is Hausdorff.
 
-In particular, the following topologies on $\mathcal{L}(E; F)$ are Hausdorff whenever F is Hausdorff : simple convergence, compact convergence, precompact or compact convex, and bounded convergence.
+In particular, the following topologies on $\mathscr{L}(E; F)$ are Hausdorff whenever F is Hausdorff : simple convergence, compact convergence, precompact or compact convex, and bounded convergence.
 
-### 3. Relations between $\mathcal{L}(E; F)$ and $\mathcal{L}(\hat{E}; F)$
+### 3. Relations between $\mathscr{L}(E; F)$ and $\mathscr{L}(\hat{E}; F)$
 
-Let E and F the two Hausdorff locally convex spaces, and suppose F is complete; let $\hat{E}$ be the completion of E. Since every continuous linear mapping $u$ from E into F extends uniquely to a continuous linear mapping $\bar{u}$ from $\hat{E}$ into F, we can identify the spaces $\mathcal{L}(E; F)$ and $\mathcal{L}(\hat{E}; F)$ by the mapping $u \mapsto \bar{u}$. In addition, let $\mathfrak{S}$ be a family of bounded subsets of E; the $\mathfrak{S}$-topology on $\mathcal{L}(E; F)$ coincides with the $\mathfrak{S}$-topology on $\mathcal{L}(\hat{E}; F)$ and also with the $\hat{\mathfrak{S}}$-topology, where $\hat{\mathfrak{S}}$ denotes the family of closures in $\hat{E}$ of sets of $\mathfrak{S}$.
+Let E and F the two Hausdorff locally convex spaces, and suppose F is complete; let $\hat{E}$ be the completion of E. Since every continuous linear mapping $u$ from E into F extends uniquely to a continuous linear mapping $\bar{u}$ from $\hat{E}$ into F, we can identify the spaces $\mathscr{L}(E; F)$ and $\mathscr{L}(\hat{E}; F)$ by the mapping $u \mapsto \bar{u}$. In addition, let $\mathfrak{S}$ be a family of bounded subsets of E; the $\mathfrak{S}$-topology on $\mathscr{L}(E; F)$ coincides with the $\mathfrak{S}$-topology on $\mathscr{L}(\hat{E}; F)$ and also with the $\hat{\mathfrak{S}}$-topology, where $\hat{\mathfrak{S}}$ denotes the family of closures in $\hat{E}$ of sets of $\mathfrak{S}$.
 
-For example, if E is *normed*, the topology of bounded convergence on $\mathcal{L}(E; F)$ is identical with the topology of bounded convergence on $\mathcal{L}(\hat{E}; F)$: for, every bounded subset of $\hat{E}$ is contained in the closure of a bounded subset of E. Since the unit ball of $\hat{E}$ is the closure of the unit ball of E, it follows from formula (3) (III, p. 14) that if F is a Banach space, the map $u \mapsto \bar{u}$ is an isometry from $\mathcal{L}(E; F)$ onto $\mathcal{L}(\hat{E}; F)$.
+For example, if E is *normed*, the topology of bounded convergence on $\mathscr{L}(E; F)$ is identical with the topology of bounded convergence on $\mathscr{L}(\hat{E}; F)$: for, every bounded subset of $\hat{E}$ is contained in the closure of a bounded subset of E. Since the unit ball of $\hat{E}$ is the closure of the unit ball of E, it follows from formula (3) (III, p. 14) that if F is a Banach space, the map $u \mapsto \bar{u}$ is an isometry from $\mathscr{L}(E; F)$ onto $\mathscr{L}(\hat{E}; F)$.
 
 We observe that if E is not a normed space, then there may exist bounded subsets of $\hat{E}$ which are not contained in the closure of any bounded subset of E (for example, if E is the weak dual of an infinite dimensional Banach space); however, this is so if E is metrizable and satisfies the first axiom of countability (III, p. 39, exerc. 16).
 
-### 4. Equicontinuous subsets of $\mathcal{L}(E; F)$
+### 4. Equicontinuous subsets of $\mathscr{L}(E; F)$
 
-Let E and F be two locally convex spaces. For a subset H of $\mathcal{L}(E; F)$ to be equicontinuous it is necessary and sufficient that it is equicontinuous at the point 0 in E (I, p. 9, prop. 6); this implies that for every neighbourhood V of 0 in F, the set $\bigcap_{u \in H} u^{-1}(V)$ is a neighbourhood of 0 in E; or that for every continuous semi-norm $p$ on F, the function $\sup_{u \in H} (p \circ u)$ is a continuous semi-norm on E. Moreover (I, p. 5), H is uniformly equicontinuous. We note that the convex balanced envelope of an equicontinuous subset is equicontinuous, since if $p$ is a continuous semi-norm on F and $\tilde{H}$ the convex balanced envelope of H, we have, for the $u_i$ in H, the inequality $p \circ (\sum_i \lambda_i u_i) \leq \sum_i |\lambda_i| \cdot (p \circ u_i)$, hence $\sup_{u \in H} (p \circ u) = \sup_{u \in \tilde{H}} (p \circ u)$.
+Let E and F be two locally convex spaces. For a subset H of $\mathscr{L}(E; F)$ to be equicontinuous it is necessary and sufficient that it is equicontinuous at the point 0 in E (I, p. 9, prop. 6); this implies that for every neighbourhood V of 0 in F, the set $\bigcap_{u \in H} u^{-1}(V)$ is a neighbourhood of 0 in E; or that for every continuous semi-norm $p$ on F, the function $\sup_{u \in H} (p \circ u)$ is a continuous semi-norm on E. Moreover (I, p. 5), H is uniformly equicontinuous. We note that the convex balanced envelope of an equicontinuous subset is equicontinuous, since if $p$ is a continuous semi-norm on F and $\tilde{H}$ the convex balanced envelope of H, we have, for the $u_i$ in H, the inequality $p \circ (\sum_i \lambda_i u_i) \leq \sum_i |\lambda_i| \cdot (p \circ u_i)$, hence $\sup_{u \in H} (p \circ u) = \sup_{u \in \tilde{H}} (p \circ u)$.
 
-Consequently, the family of equicontinuous subsets is a convex bornology on $\mathcal{L}(E; F)$ (III, p. 2, def. 2).
+Consequently, the family of equicontinuous subsets is a convex bornology on $\mathscr{L}(E; F)$ (III, p. 2, def. 2).
 
 #### Proposition 4 {#evt-iii-s3-prop-4 .statement}
 
@@ -174,7 +174,7 @@ Consequently, the family of equicontinuous subsets is a convex bornology on $\ma
 
 (i) *The set of linear mappings from E into F is closed in $F^E$.*
 
-(ii) *If H is an equicontinuous subset of $\mathcal{L}(E; F)$, the closure $\overline{H}$ of H in $F^E$ is contained in $\mathcal{L}(E; F)$ and is equicontinuous.*
+(ii) *If H is an equicontinuous subset of $\mathscr{L}(E; F)$, the closure $\overline{H}$ of H in $F^E$ is contained in $\mathscr{L}(E; F)$ and is equicontinuous.*
 
 We know that $\overline{H}$ is equicontinuous (GT, X, § 2, No. 3, prop. 6). It remains to prove the assertion (i). Let x, y be in E and $\lambda, \mu$ in K, and let $A(x, y, \lambda, \mu)$ be the set of all $u \in F^E$ such that
 
@@ -192,7 +192,7 @@ Thus this set is closed in $F^E$.
 
 #### Corollary 1 {#evt-iii-s3-prop-4-cor-1 .statement}
 
-— *For an equicontinuous subset H of $\mathcal{L}(E; F)$ to be relatively compact in $\mathcal{L}_s(E; F)$, it is necessary and sufficient that for all $x \in E$, the set $H(x)$ of all $u(x)$ as $u$ ranges over H, is relatively compact in F.*
+— *For an equicontinuous subset H of $\mathscr{L}(E; F)$ to be relatively compact in $\mathscr{L}_s(E; F)$, it is necessary and sufficient that for all $x \in E$, the set $H(x)$ of all $u(x)$ as $u$ ranges over H, is relatively compact in F.*
 
 In fact, this condition is necessary and sufficient for $\overline{H}$ to be compact in $F^E$ (GT, I, § 9, No. 5, cor.).
 
@@ -210,51 +210,51 @@ This ball is also closed for $\sigma(E', E)$.
 
 #### Proposition 5 {#evt-iii-s3-prop-5 .statement}
 
-— *Let E and F be two locally convex spaces and let T be a total subset of E. The following uniform structures coincide on every equicontinuous subset H of $\mathcal{L}(E; F)$:*
+— *Let E and F be two locally convex spaces and let T be a total subset of E. The following uniform structures coincide on every equicontinuous subset H of $\mathscr{L}(E; F)$:*
 
 1) *the uniform structure of simple convergence in T;*
 2) *the uniform structure of simple convergence in E;*
 3) *the uniform structure of convergence in the precompact subsets of E.*
 
-We recall (III, p. 15, prop. 2) that the $\mathfrak{S}$-topology on $\mathcal{L}(E; F)$ coincides with the $\tilde{\mathfrak{S}}$-topology, where $\tilde{\mathfrak{S}}$ is the smallest bornology adapted to E and containing $\mathfrak{S}$.
+We recall (III, p. 15, prop. 2) that the $\mathfrak{S}$-topology on $\mathscr{L}(E; F)$ coincides with the $\tilde{\mathfrak{S}}$-topology, where $\tilde{\mathfrak{S}}$ is the smallest bornology adapted to E and containing $\mathfrak{S}$.
 
 In the statement of prop. 5, we can therefore replace the word « total » by « everywhere dense ». The proposition then follows from the general properties of equicontinuous sets (GT, X, § 2, No. 4, th. 1).
 
 #### Example {#evt-iii-s3-n4-exa-1 .statement}
 
-— *1) Let $\mu$ be the Lebesgue measure on $\mathbf{R}$, and let E be the semi-normed space $\mathcal{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). For every numerical function $f$ and every real number $h$, let $f_h$ be the function $x \mapsto f(x - h)$. Clearly the mapping $f \mapsto f_h$ defines a linear isometry from E onto itself. If $f$ is continuous and has compact support, then $f_h$ converges to $f$ uniformly, hence also in the mean of order $p$, as $h$ tends to 0. Since the set $\mathcal{K}(\mathbf{R})$ of all continuous functions with compact support is dense in E, and the set of linear isometries of E is equicontinuous, it follows from prop. 5 that for every $f \in E$, $f_h$ converges in the mean of order $p$ to $f$ as $h$ tends to 0.
+— *1) Let $\mu$ be the Lebesgue measure on $\mathbf{R}$, and let E be the semi-normed space $\mathscr{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). For every numerical function $f$ and every real number $h$, let $f_h$ be the function $x \mapsto f(x - h)$. Clearly the mapping $f \mapsto f_h$ defines a linear isometry from E onto itself. If $f$ is continuous and has compact support, then $f_h$ converges to $f$ uniformly, hence also in the mean of order $p$, as $h$ tends to 0. Since the set $\mathscr{K}(\mathbf{R})$ of all continuous functions with compact support is dense in E, and the set of linear isometries of E is equicontinuous, it follows from prop. 5 that for every $f \in E$, $f_h$ converges in the mean of order $p$ to $f$ as $h$ tends to 0.
 
-For $p = 1$, consider the Fourier transform, which associates to each $f \in \mathcal{L}^1(\mu)$ the function $\hat{f}$ on $\mathbf{R}$ defined by
+For $p = 1$, consider the Fourier transform, which associates to each $f \in \mathscr{L}^1(\mu)$ the function $\hat{f}$ on $\mathbf{R}$ defined by
 
 $$
 \hat{f}(y) = \int e^{-2i\pi xy} f(x) \, d\mu(x) .
 $$
 
-The set of linear forms $f \mapsto \hat{f}(y)$ is an equicontinuous subset of the dual of $\mathcal{L}^1(\mu)$.
+The set of linear forms $f \mapsto \hat{f}(y)$ is an equicontinuous subset of the dual of $\mathscr{L}^1(\mu)$.
 
-On the other hand, we know that the set T of all characteristic functions of closed bounded intervals is a total subset of $\mathcal{L}^1(\mu)$; and we verify easily that for all $f \in T$, the Fourier transform $\hat{f}$ is a continuous function tending to zero at infinity. We deduce that this is true for all $f \in \mathcal{L}^1(\mu)$ ("Riemann-Lebesgue theorem").
+On the other hand, we know that the set T of all characteristic functions of closed bounded intervals is a total subset of $\mathscr{L}^1(\mu)$; and we verify easily that for all $f \in T$, the Fourier transform $\hat{f}$ is a continuous function tending to zero at infinity. We deduce that this is true for all $f \in \mathscr{L}^1(\mu)$ ("Riemann-Lebesgue theorem").
 
-The relation $\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$ shows that the map $f \mapsto \hat{f}$ is a continuous map from $\mathcal{L}^1(\mu)$ into the space $\mathcal{B}(\mathbf{R})$ of all bounded functions on $\mathbf{R}$, with the structure of uniform convergence. Since $\hat{f}$ is continuous for all $f \in T$, it follows that $\hat{f}$ is continuous for all $f \in L^1(\mu)$. The fact that $\hat{f}$ tends to zero at infinity follows from the fact that the subspace $C_0(\mathbf{R})$ of all continuous functions tending to zero at infinity is closed in $\mathcal{B}(\mathbf{R})$.
+The relation $\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$ shows that the map $f \mapsto \hat{f}$ is a continuous map from $\mathscr{L}^1(\mu)$ into the space $\mathscr{B}(\mathbf{R})$ of all bounded functions on $\mathbf{R}$, with the structure of uniform convergence. Since $\hat{f}$ is continuous for all $f \in T$, it follows that $\hat{f}$ is continuous for all $f \in L^1(\mu)$. The fact that $\hat{f}$ tends to zero at infinity follows from the fact that the subspace $C_0(\mathbf{R})$ of all continuous functions tending to zero at infinity is closed in $\mathscr{B}(\mathbf{R})$.
 
 2) Let E be the space of all continuous numerical functions on $\mathbf{R}$ endowed with the topology of compact convergence. Let K be a compact subset of $\mathbf{R}$ and let $(\mu_n)$ be a sequence of measures on $\mathbf{R}$ with support in K. Suppose $\|\mu_n\| \leq 1$ for all n. The set of the $\mu_n$ is then an equicontinuous subset of E'. Therefore, if for every function $f \in E$, we have $\lim_{n \to \infty} \mu_n(f) = 0$, the sequence of functions $x \mapsto \int e^{itx} d\mu_n(t)$ converges to 0, uniformly on every compact subset of $\mathbf{R}$ (since the set of functions $t \mapsto e^{itx}$, as x ranges over a compact subset of $\mathbf{R}$, is compact in E). \*
 
 #### Corollary {#evt-iii-s3-n4-cor-1 .statement}
 
-— *Suppose F is Hausdorff. Let H be an equicontinuous subset of $\mathcal{L}(E; F)$. If a filter $\Phi$ on H converges simply to a mapping $u_0$ from E into F, then $u_0$ is a continuous linear mapping from E into F, and $\Phi$ converges uniformly to $u_0$ on every precompact subset of E.*
+— *Suppose F is Hausdorff. Let H be an equicontinuous subset of $\mathscr{L}(E; F)$. If a filter $\Phi$ on H converges simply to a mapping $u_0$ from E into F, then $u_0$ is a continuous linear mapping from E into F, and $\Phi$ converges uniformly to $u_0$ on every precompact subset of E.*
 
 The first assertion follows from prop. 4 (III, p. 16) and the second from prop. 5 (III, p. 17).
 
 #### Proposition 6 {#evt-iii-s3-prop-6 .statement}
 
-— *Let H be an equicontinuous subset of $\mathcal{L}(E; F)$. If F is metrizable and if there exists a countable total set in E, then the uniform structure on H of simple convergence in E is metrizable. If in addition, there exists a countable total set in F, then there exists a countable everywhere dense set in H (for the topology of uniform convergence on compact subsets of E).
+— *Let H be an equicontinuous subset of $\mathscr{L}(E; F)$. If F is metrizable and if there exists a countable total set in E, then the uniform structure on H of simple convergence in E is metrizable. If in addition, there exists a countable total set in F, then there exists a countable everywhere dense set in H (for the topology of uniform convergence on compact subsets of E).
 
-Let $(a_n)$ be a total sequence in E. Then the mapping $u \mapsto (u(a_n))$ is an isomorphism from $\mathcal{L}(E; F)$, where $\mathcal{L}(E; F)$ has the uniform structure of simple convergence on the set of the $a_n$, onto a uniform subspace of $F^\mathbf{N}$. If F is metrizable (resp. metrizable and satisfies the first axiom of countability) then this is also true for $F^\mathbf{N}$ (GT, IX, § 2, No. 4, cor. 2 and § 2, No. 8, corollary), and the proposition follows from prop. 5 (III, p. 17).
+Let $(a_n)$ be a total sequence in E. Then the mapping $u \mapsto (u(a_n))$ is an isomorphism from $\mathscr{L}(E; F)$, where $\mathscr{L}(E; F)$ has the uniform structure of simple convergence on the set of the $a_n$, onto a uniform subspace of $F^\mathbf{N}$. If F is metrizable (resp. metrizable and satisfies the first axiom of countability) then this is also true for $F^\mathbf{N}$ (GT, IX, § 2, No. 4, cor. 2 and § 2, No. 8, corollary), and the proposition follows from prop. 5 (III, p. 17).
 
 #### Corollary 1 {#evt-iii-s3-prop-6-cor-1 .statement}
 
-— *Let E be a locally convex metrizable space, and F a normed space. Suppose that E and F both satisfy the first axiom of countability. Then $\mathcal{L}(E; F)$ is the union of a countable family of equicontinuous subsets and there exists a countable set in $\mathcal{L}(E; F)$ which is dense for the topology of uniform convergence on precompact subsets of E.
+— *Let E be a locally convex metrizable space, and F a normed space. Suppose that E and F both satisfy the first axiom of countability. Then $\mathscr{L}(E; F)$ is the union of a countable family of equicontinuous subsets and there exists a countable set in $\mathscr{L}(E; F)$ which is dense for the topology of uniform convergence on precompact subsets of E.
 
-Let B be the unit ball of F and $(V_n)$ a countable fundamental system of neighbourhoods of 0 in E. For every integer n, the set $H_n$ of all $u \in \mathcal{L}(E; F)$ such that $u(V_n) \subset B$ is equicontinuous and $\mathcal{L}(E; F)$ is the union of the $H_n$. The corollary then follows from prop. 6.*
+Let B be the unit ball of F and $(V_n)$ a countable fundamental system of neighbourhoods of 0 in E. For every integer n, the set $H_n$ of all $u \in \mathscr{L}(E; F)$ such that $u(V_n) \subset B$ is equicontinuous and $\mathscr{L}(E; F)$ is the union of the $H_n$. The corollary then follows from prop. 6.*
 
 #### Corollary 2 {#evt-iii-s3-prop-6-cor-2 .statement}
 
@@ -276,19 +276,19 @@ In this section, E denotes a locally convex space and $E'$ its dual. Whenever we
 
 If M is equicontinuous, there exists a convex balanced neighbourhood V of 0 such that $|u(x)| \leq 1$ for all $x \in V$ and all $u \in M$; then we have that $M \subset V^\circ$ and (i) implies (ii). With the same notations, if $M \subset V^\circ$ then $V \subset V^{\circ\circ} \subset M^\circ$ and (ii) implies (iii). Finally, if $M^\circ$ contains a convex balanced neighbourhood V of 0, then $M \subset M^{\circ\circ} \subset V^\circ$ and the relations $x \in \varepsilon V,\ u \in M$ imply $|u(x)| \leq \varepsilon$ for all $\varepsilon > 0$, which proves that (iii) implies (i).
 
-We remark that every $x \in E$ defines a mapping $j(x): u \mapsto u(x)$ from $E'$ into K. Hence we can talk of the $\mathcal{S}$-topology on E, where $\mathcal{S}$ is a family of subsets of $E'$: this is the inverse image under $j$ of the $\mathcal{S}$-topology on $K^{E'}$. We verify immediately that if $\mathcal{S}$ is a convex bornology on $E'$, then the polars of sets of $\mathcal{S}$ form a fundamental system of neighbourhoods of 0 for the $\mathcal{S}$-topology on E. This is so, in particular, when $\mathcal{S}$ is the family of equicontinuous subsets of $E'$ and prop. 7 implies :
+We remark that every $x \in E$ defines a mapping $j(x): u \mapsto u(x)$ from $E'$ into K. Hence we can talk of the $\mathscr{S}$-topology on E, where $\mathscr{S}$ is a family of subsets of $E'$: this is the inverse image under $j$ of the $\mathscr{S}$-topology on $K^{E'}$. We verify immediately that if $\mathscr{S}$ is a convex bornology on $E'$, then the polars of sets of $\mathscr{S}$ form a fundamental system of neighbourhoods of 0 for the $\mathscr{S}$-topology on E. This is so, in particular, when $\mathscr{S}$ is the family of equicontinuous subsets of $E'$ and prop. 7 implies :
 
 #### Corollary 1 {#evt-iii-s3-prop-7-cor-1 .statement}
 
 — *The topology of E is identical with the topology of uniform convergence on equicontinuous subsets of $E'$*.
 
-More generally, let F be a locally convex space; every $u \in \mathcal{L}(E; F)$ defines a map $j(u):(x, f) \mapsto f(u(x))$ from $E \times F'$ into K (*i.e.* into $\mathbf{R}$ or $\mathbf{C}$). This enables us to define, on the space $\mathcal{L}(E; F)$, the topology of uniform convergence on a set of subsets of $E \times F'$. In particular :
+More generally, let F be a locally convex space; every $u \in \mathscr{L}(E; F)$ defines a map $j(u):(x, f) \mapsto f(u(x))$ from $E \times F'$ into K (*i.e.* into $\mathbf{R}$ or $\mathbf{C}$). This enables us to define, on the space $\mathscr{L}(E; F)$, the topology of uniform convergence on a set of subsets of $E \times F'$. In particular :
 
 #### Corollary 2 {#evt-iii-s3-prop-7-cor-2 .statement}
 
-— *Let $\mathcal{S}$ be a family of bounded subsets of E. The $\mathcal{S}$-topology on $\mathcal{L}(E; F)$ is the topology of uniform convergence on sets of the form $A \times B \subset E \times F'$, where A is in $\mathcal{S}$, and B belongs to the family of equicontinuous subsets of $F'$*.
+— *Let $\mathscr{S}$ be a family of bounded subsets of E. The $\mathscr{S}$-topology on $\mathscr{L}(E; F)$ is the topology of uniform convergence on sets of the form $A \times B \subset E \times F'$, where A is in $\mathscr{S}$, and B belongs to the family of equicontinuous subsets of $F'$*.
 
-For every $u \in \mathcal{L}(E; F)$, every $A \in \mathcal{S}$ and every closed convex balanced neighbourhood V of 0 in F, the relation $u(A) \subset V$ is equivalent to « $j(u)(A \times V^\circ)$ is contained in the unit ball of K ».
+For every $u \in \mathscr{L}(E; F)$, every $A \in \mathscr{S}$ and every closed convex balanced neighbourhood V of 0 in F, the relation $u(A) \subset V$ is equivalent to « $j(u)(A \times V^\circ)$ is contained in the unit ball of K ».
 
 #### Proposition 8 {#evt-iii-s3-prop-8 .statement}
 
@@ -300,9 +300,9 @@ It is obvious that the condition is necessary. Suppose it is verified, and let V
 
 #### Theorem 1 (Grothendieck) {#evt-iii-s3-thm-1 .statement}
 
-— Let E be a locally convex space, and let \mathcal{S} be an adapted and covering bornology on E. Let F \subset E^* be the space of those linear forms on E whose restriction to each set belonging to \mathcal{S} is continuous. If F is assigned the \mathcal{S}-topology, then the canonical injection from E'_\mathcal{S} into F extends to an isomorphism from the completion \hat{E}'_\mathcal{S} of E'_\mathcal{S} onto F.
+— Let E be a locally convex space, and let \mathscr{S} be an adapted and covering bornology on E. Let F \subset E^* be the space of those linear forms on E whose restriction to each set belonging to \mathscr{S} is continuous. If F is assigned the \mathscr{S}-topology, then the canonical injection from E'_\mathscr{S} into F extends to an isomorphism from the completion \hat{E}'_\mathscr{S} of E'_\mathscr{S} onto F.
 
-Since every simple limit of linear forms on E is a linear form (III, p. 16, prop. 4) and since the bornology \mathcal{S} on E is covering, it follows from GT, X, § 1, No. 6, cor. 2 that the space F with the \mathcal{S}-topology is Hausdorff and complete. It is clear that E'_\mathcal{S} is a topological vector subspace of F; hence it is enough to prove that E'_\mathcal{S} is everywhere dense in F. This follows from the following lemma:
+Since every simple limit of linear forms on E is a linear form (III, p. 16, prop. 4) and since the bornology \mathscr{S} on E is covering, it follows from GT, X, § 1, No. 6, cor. 2 that the space F with the \mathscr{S}-topology is Hausdorff and complete. It is clear that E'_\mathscr{S} is a topological vector subspace of F; hence it is enough to prove that E'_\mathscr{S} is everywhere dense in F. This follows from the following lemma:
 
 #### Lemma 1 {#evt-iii-s3-lem-1 .statement}
 
@@ -330,7 +330,7 @@ Now let E be a locally convex Hausdorff space and \hat{E} its completion. Every 
 
 *Let $E$ be a locally convex Hausdorff space and $\hat{E}$ its completion; we identify $E$ and $\hat{E}$ with vector subspaces of ${E'}^*$. Then for an element $f \in {E'}^*$ to belong to $\hat{E}$, it is necessary and sufficient that the restriction of $f$ to every equicontinuous subset of $E'$ is continuous for the topology $\sigma(E', E)$.*
 
-The space $E$ can be identified with the topological dual of $E'$ when $E'$ is assigned the topology $\sigma(E', E)$ (II, p. 43, prop. 3); on the other hand, if $\mathcal{S}$ is the set of equicontinuous subsets of $E'$, the given topology on $E$ is the $\mathcal{S}$-topology (III, p. 19, cor. 1). Then it follows from III, p. 13, prop. 1, that the sets of $\mathcal{S}$ are bounded for $\sigma(E', E)$ (*cf.* later on, III, p. 22, prop. 9); in other words, $\mathcal{S}$ is an adapted and covering bornology for the topology $\sigma(E', E)$. Theorem 2 is then a consequence of th. 1 if we replace $E$ by $E'$ and $E'_\mathcal{S}$ by $E$.
+The space $E$ can be identified with the topological dual of $E'$ when $E'$ is assigned the topology $\sigma(E', E)$ (II, p. 43, prop. 3); on the other hand, if $\mathscr{S}$ is the set of equicontinuous subsets of $E'$, the given topology on $E$ is the $\mathscr{S}$-topology (III, p. 19, cor. 1). Then it follows from III, p. 13, prop. 1, that the sets of $\mathscr{S}$ are bounded for $\sigma(E', E)$ (*cf.* later on, III, p. 22, prop. 9); in other words, $\mathscr{S}$ is an adapted and covering bornology for the topology $\sigma(E', E)$. Theorem 2 is then a consequence of th. 1 if we replace $E$ by $E'$ and $E'_\mathscr{S}$ by $E$.
 
 #### Corollary 1 (Banach) {#evt-iii-s3-thm-2-cor-1 .statement}
 
@@ -346,53 +346,53 @@ The space $E$ can be identified with the topological dual of $E'$ when $E'$ is a
 
 We know that the dual of $E$ can be identified with the product of the duals of the $E_i$ (II, p. 30, formula (1)). Let $u \in \hat{E}$, and let $u_i \in {E_i'}^*$ be the restriction of $u$ (considered as an element of ${E'}^*$) to $E_i' \subset E'$. It is immediate that it is enough to prove that $u_i = 0$ except for a finite number of indices $i \in I$. Suppose on the contrary that there exists a sequence $(i_n)_{n \in \mathbf{N}}$ of distinct indices such that $u_{i_n} \neq 0$. Then there exists $x_{i_n} \in E_{i_n}'$ such that $u_{i_n}(x_{i_n}) = n$. The set $H$ of all $x_{i_n}$ is equicontinuous in $E'$ and the restriction of $u$ to $H$ is not bounded, which is impossible.
 
-### 7. $\mathcal{S}$-bornologies on $\mathcal{L}(E; F)$
+### 7. $\mathscr{S}$-bornologies on $\mathscr{L}(E; F)$
 
-Let $E$ and $F$ be two locally convex spaces and $\mathcal{S}$ a family of bounded subsets of $E$. To say that a subset $H$ of $\mathcal{L}(E; F)$ is bounded for the $\mathcal{S}$-topology means that *for* every $M \in \mathcal{S}$, every neighbourhood $V$ of 0 in F absorbs the set $H(M) = \bigcup_{u \in H} u(M)$; this is the same as saying that for every $M \in \mathcal{S}$, the set $H(M)$ is bounded in F. Equivalently, this means that for every neighbourhood $V$ of 0 in F, the set $\bigcap_{u \in H} u^{-1}(V)$ absorbs every subset $M$ of $\mathcal{S}$.
+Let $E$ and $F$ be two locally convex spaces and $\mathscr{S}$ a family of bounded subsets of $E$. To say that a subset $H$ of $\mathscr{L}(E; F)$ is bounded for the $\mathscr{S}$-topology means that *for* every $M \in \mathscr{S}$, every neighbourhood $V$ of 0 in F absorbs the set $H(M) = \bigcup_{u \in H} u(M)$; this is the same as saying that for every $M \in \mathscr{S}$, the set $H(M)$ is bounded in F. Equivalently, this means that for every neighbourhood $V$ of 0 in F, the set $\bigcap_{u \in H} u^{-1}(V)$ absorbs every subset $M$ of $\mathscr{S}$.
 
 #### Proposition 9 {#evt-iii-s3-prop-9 .statement}
 
-*Let E and F be two locally convex spaces and $\mathcal{S}$ a family of bounded subsets of E. Then every equicontinuous subset of $\mathcal{L}(E; F)$ is bounded for the $\mathcal{S}$-topology.*
+*Let E and F be two locally convex spaces and $\mathscr{S}$ a family of bounded subsets of E. Then every equicontinuous subset of $\mathscr{L}(E; F)$ is bounded for the $\mathscr{S}$-topology.*
 
-For, if $H$ is an equicontinuous subset of $\mathcal{L}(E; F)$ and $V$ a neighbourhood of 0 in F, the set $\bigcap_{u \in H} u^{-1}(V)$ is a neighbourhood of 0 in E, hence absorbs every bounded subset of E.
+For, if $H$ is an equicontinuous subset of $\mathscr{L}(E; F)$ and $V$ a neighbourhood of 0 in F, the set $\bigcap_{u \in H} u^{-1}(V)$ is a neighbourhood of 0 in E, hence absorbs every bounded subset of E.
 
-A subset of $\mathcal{L}(E; F)$ which is bounded for a $\mathcal{S}$-topology is not necessarily equicontinuous, even if $\mathcal{S}$ is covering and $\mathcal{S}$ is the canonical bornology on E (IV, p. 50, exerc. 17). In the following paragraph we shall study, under the name *barrelled* spaces, the spaces E such that every simply bounded subset of $\mathcal{L}(E; F)$ is equicontinuous. For the present note the following result :
+A subset of $\mathscr{L}(E; F)$ which is bounded for a $\mathscr{S}$-topology is not necessarily equicontinuous, even if $\mathscr{S}$ is covering and $\mathscr{S}$ is the canonical bornology on E (IV, p. 50, exerc. 17). In the following paragraph we shall study, under the name *barrelled* spaces, the spaces E such that every simply bounded subset of $\mathscr{L}(E; F)$ is equicontinuous. For the present note the following result :
 
 #### Proposition 10 {#evt-iii-s3-prop-10 .statement}
 
-*Let E be a bornological space (in particular, a metrizable locally convex space) and F a locally convex space. Every subset H of $\mathcal{L}(E; F)$ which is bounded for the topology of bounded convergence is equicontinuous.*
+*Let E be a bornological space (in particular, a metrizable locally convex space) and F a locally convex space. Every subset H of $\mathscr{L}(E; F)$ which is bounded for the topology of bounded convergence is equicontinuous.*
 
 For every convex balanced neighbourhood $V$ of 0 in F, the set $\bigcap_{u \in H} u^{-1}(V)$ absorbs every bounded subset of E, hence is a neighbourhood of 0 in E ; this proves that H is equicontinuous.
 
-### 8. Complete subsets of $\mathcal{L}_{\mathcal{S}}(E; F)$
+### 8. Complete subsets of $\mathscr{L}_{\mathscr{S}}(E; F)$
 
 #### Proposition 11 {#evt-iii-s3-prop-11 .statement}
 
-*Let E and F be two locally convex spaces, $\mathcal{S}$ a cover of E consisting of bounded subsets. If F is Hausdorff and quasi-complete (III, p. 8), then every equicontinuous subset H of $\mathcal{L}(E; F)$ which is closed for the $\mathcal{S}$-topology is a complete uniform subspace of $\mathcal{L}_{\mathcal{S}}(E; F)$.*
+*Let E and F be two locally convex spaces, $\mathscr{S}$ a cover of E consisting of bounded subsets. If F is Hausdorff and quasi-complete (III, p. 8), then every equicontinuous subset H of $\mathscr{L}(E; F)$ which is closed for the $\mathscr{S}$-topology is a complete uniform subspace of $\mathscr{L}_{\mathscr{S}}(E; F)$.*
 
-Since H is bounded in $\mathcal{L}_{\mathcal{S}}(E; F)$ (III, p. 22, prop. 9) and closed in $F^E$ for the $\mathcal{S}$-topology (III, p. 16, prop. 4), this follows from cor. 3 of GT, X, § 1, No. 5.
+Since H is bounded in $\mathscr{L}_{\mathscr{S}}(E; F)$ (III, p. 22, prop. 9) and closed in $F^E$ for the $\mathscr{S}$-topology (III, p. 16, prop. 4), this follows from cor. 3 of GT, X, § 1, No. 5.
 
 #### Remark 1 {#evt-iii-s3-n8-rem-1 .statement}
 
-— Let M be a *complete* uniform subspace of $\mathcal{L}_{\mathcal{S}}(E; F)$. For every set of bounded subsets $\mathcal{S}' \supset \mathcal{S}$ of E, the $\mathcal{S}'$-topology is finer than the $\mathcal{S}$-topology on $\mathcal{L}(E; F)$; on the other hand, there exists a fundamental system of neighbourhoods of 0 for the $\mathcal{S}'$-topology which are closed for the topology of simple convergence (III, p. 13, *Remark 2*), and *a fortiori* for the $\mathcal{S}$-topology. We conclude (GT, III, § 3, No. 5, cor. 1) that M is *complete* for the $\mathcal{S}'$-topology.
+— Let M be a *complete* uniform subspace of $\mathscr{L}_{\mathscr{S}}(E; F)$. For every set of bounded subsets $\mathscr{S}' \supset \mathscr{S}$ of E, the $\mathscr{S}'$-topology is finer than the $\mathscr{S}$-topology on $\mathscr{L}(E; F)$; on the other hand, there exists a fundamental system of neighbourhoods of 0 for the $\mathscr{S}'$-topology which are closed for the topology of simple convergence (III, p. 13, *Remark 2*), and *a fortiori* for the $\mathscr{S}$-topology. We conclude (GT, III, § 3, No. 5, cor. 1) that M is *complete* for the $\mathscr{S}'$-topology.
 
 #### Corollary {#evt-iii-s3-n8-cor-1 .statement}
 
-*Let E and F be two locally convex spaces, H an equicontinuous subset of $\mathcal{L}(E; F)$. If F is Hausdorff and quasi-complete and if a filter $\Phi$ on H converges* simply at all points of a total subset T of E, then there exists a continuous linear mapping u from E into F such that $\Phi$ converges uniformly to u on every precompact subset of E.
+*Let E and F be two locally convex spaces, H an equicontinuous subset of $\mathscr{L}(E; F)$. If F is Hausdorff and quasi-complete and if a filter $\Phi$ on H converges* simply at all points of a total subset T of E, then there exists a continuous linear mapping u from E into F such that $\Phi$ converges uniformly to u on every precompact subset of E.
 
-For, by virtue of prop. 5 (III, p. 17) $\Phi$ is a Cauchy filter for the uniform structure of precompact convergence in E; by prop. 11, the closure $\overline{H}$ of H in $\mathcal{L}_{pc}(E; F)$ is complete and so $\Phi$ converges uniformly on every precompact subset of E to a mapping $u \in \overline{H}$.
+For, by virtue of prop. 5 (III, p. 17) $\Phi$ is a Cauchy filter for the uniform structure of precompact convergence in E; by prop. 11, the closure $\overline{H}$ of H in $\mathscr{L}_{pc}(E; F)$ is complete and so $\Phi$ converges uniformly on every precompact subset of E to a mapping $u \in \overline{H}$.
 
 #### Remark 2 {#evt-iii-s3-n8-rem-2 .statement}
 
-Let $(u_n)$ be a sequence of continuous linear mappings from a Banach space E into a Banach space F; it may happen that $(u_n(x))$ has a limit at every point of an everywhere dense vector subspace T of E, without the sequence $(u_n)$ being bounded in the normed space $\mathcal{L}(E; F)$. For example, take E to be the space of all continuous numerical functions on $\mathbf{R}$, tending to zero at infinity, with the norm $\|f\| = \sup_{x \in \mathbf{R}} |f(x)|$ and let T be the subspace of continuous numerical functions with compact support. The sequence of continuous linear mappings $f \mapsto nf(n)$ from E into $\mathbf{R}$ converges to 0 for all $f \in T$, but is not bounded in $\mathcal{L}_b(E; \mathbf{R})$. The same example shows that in the space $\mathcal{L}(T; \mathbf{R})$, a sequence $(v_n)$ may be simply convergent and non-bounded for the topology of bounded convergence.
+Let $(u_n)$ be a sequence of continuous linear mappings from a Banach space E into a Banach space F; it may happen that $(u_n(x))$ has a limit at every point of an everywhere dense vector subspace T of E, without the sequence $(u_n)$ being bounded in the normed space $\mathscr{L}(E; F)$. For example, take E to be the space of all continuous numerical functions on $\mathbf{R}$, tending to zero at infinity, with the norm $\|f\| = \sup_{x \in \mathbf{R}} |f(x)|$ and let T be the subspace of continuous numerical functions with compact support. The sequence of continuous linear mappings $f \mapsto nf(n)$ from E into $\mathbf{R}$ converges to 0 for all $f \in T$, but is not bounded in $\mathscr{L}_b(E; \mathbf{R})$. The same example shows that in the space $\mathscr{L}(T; \mathbf{R})$, a sequence $(v_n)$ may be simply convergent and non-bounded for the topology of bounded convergence.
 
-On the other hand, the sequence of continuous linear mappings $f \mapsto \sum_{k=1}^n f(k)$ is a Cauchy sequence in $\mathcal{L}(T; \mathbf{R})$ for the topology of simple convergence, but does not tend to a limit in $\mathcal{L}(T; \mathbf{R})$ for this topology.
+On the other hand, the sequence of continuous linear mappings $f \mapsto \sum_{k=1}^n f(k)$ is a Cauchy sequence in $\mathscr{L}(T; \mathbf{R})$ for the topology of simple convergence, but does not tend to a limit in $\mathscr{L}(T; \mathbf{R})$ for this topology.
 
 #### Proposition 12 {#evt-iii-s3-prop-12 .statement}
 
-— *Let E be a bornological locally convex space, F a complete locally convex Hausdorff space and $\mathfrak{S}$ a family of bounded subsets of E containing the image of every sequence converging to 0. Then the space $\mathcal{L}_{\mathfrak{S}}(E; F)$ is complete.*
+— *Let E be a bornological locally convex space, F a complete locally convex Hausdorff space and $\mathfrak{S}$ a family of bounded subsets of E containing the image of every sequence converging to 0. Then the space $\mathscr{L}_{\mathfrak{S}}(E; F)$ is complete.*
 
-Let $\Phi$ be a Cauchy filter in $\mathcal{L}_{\mathfrak{S}}(E; F)$. Then $\Phi$ is a Cauchy filter for the topology of simple convergence, hence converges in $F^E$; moreover, its limit $u$ is a linear mapping from E into F and $\Phi$ converges to $u$ uniformly on every set of $\mathfrak{S}$ (GT, X, § 1, No. 5, prop. 5). It follows that the image under $u$ of a sequence converging to zero is a sequence converging to zero, hence, that $u$ is *continuous*, since E is bornological (III, p. 11, prop. 1, (iii)).
+Let $\Phi$ be a Cauchy filter in $\mathscr{L}_{\mathfrak{S}}(E; F)$. Then $\Phi$ is a Cauchy filter for the topology of simple convergence, hence converges in $F^E$; moreover, its limit $u$ is a linear mapping from E into F and $\Phi$ converges to $u$ uniformly on every set of $\mathfrak{S}$ (GT, X, § 1, No. 5, prop. 5). It follows that the image under $u$ of a sequence converging to zero is a sequence converging to zero, hence, that $u$ is *continuous*, since E is bornological (III, p. 11, prop. 1, (iii)).
 
 #### Corollary 1 {#evt-iii-s3-prop-12-cor-1 .statement}
 
@@ -400,7 +400,7 @@ Let $\Phi$ be a Cauchy filter in $\mathcal{L}_{\mathfrak{S}}(E; F)$. Then $\Phi$
 
 #### Corollary 2 {#evt-iii-s3-prop-12-cor-2 .statement}
 
-— *Let E be a semi-normed space, and F a Banach (resp. Fréchet) space. The space $\mathcal{L}_b(E; F)$ is a Banach (resp. Fréchet) space. In particular, the dual of a semi-normed space is a Banach space.*
+— *Let E be a semi-normed space, and F a Banach (resp. Fréchet) space. The space $\mathscr{L}_b(E; F)$ is a Banach (resp. Fréchet) space. In particular, the dual of a semi-normed space is a Banach space.*
 
 ### Exercises {#evt-iii-s3-exercises}
 

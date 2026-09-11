@@ -12,19 +12,19 @@ pdf_pages: 0145-0155, 0173-0175
 extraction: ocr
 subsections:
     - "no": 1
-      title: The spaces $\mathcal{L}_\mathfrak{S}(E; F)$
+      title: The spaces $\mathscr{L}_\mathfrak{S}(E; F)$
       page: 13
       pdf_page: 145
     - "no": 2
-      title: Condition for $\mathcal{L}_\mathfrak{S}(E; F)$ to be Hausdorff
+      title: Condition for $\mathscr{L}_\mathfrak{S}(E; F)$ to be Hausdorff
       page: 15
       pdf_page: 147
     - "no": 3
-      title: Relations between $\mathcal{L}(E; F)$ and $\mathcal{L}(\hat{E}; F)$
+      title: Relations between $\mathscr{L}(E; F)$ and $\mathscr{L}(\hat{E}; F)$
       page: 15
       pdf_page: 147
     - "no": 4
-      title: Equicontinuous subsets of $\mathcal{L}(E; F)$
+      title: Equicontinuous subsets of $\mathscr{L}(E; F)$
       page: 16
       pdf_page: 148
     - "no": 5
@@ -36,18 +36,18 @@ subsections:
       page: 20
       pdf_page: 152
     - "no": 7
-      title: $\mathcal{S}$-bornologies on $\mathcal{L}(E; F)$
+      title: $\mathscr{S}$-bornologies on $\mathscr{L}(E; F)$
       page: 21
       pdf_page: 153
     - "no": 8
-      title: Complete subsets of $\mathcal{L}_{\mathcal{S}}(E; F)$
+      title: Complete subsets of $\mathscr{L}_{\mathscr{S}}(E; F)$
       page: 22
       pdf_page: 154
 statements: 39
 exercises: 13
-content_sha256: b21f5c7e10c4dce260fcb4ee26d0e16471119c85b592076f86e22868407fca57
+content_sha256: 16d300160c200ef54d1402d1df69b4adb0f90b6ac9b2ec4715d7c996df79b160
 translated_from: content/en/evt/III/03_s3_spaces_of_continuous_linear_mappings.md
-source_content_sha256: 4ed1fce2dbbf61db61227afd45600a085f6c0b776ec91a9152e9b34266c0750e
+source_content_sha256: d0cdc06143817d623c1a526fb8ac496830b8bf54df10482dd3573c5ab85e774a
 translation_model: gpt-5.4
 translation_run: translate-vi-23e90a2c
 glossary_version: 34
@@ -57,7 +57,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 3. CÁC KHÔNG GIAN ÁNH XẠ TUYẾN TÍNH LIÊN TỤC
 
-### 1. Các không gian $\mathcal{L}_\mathfrak{S}(E; F)$
+### 1. Các không gian $\mathscr{L}_\mathfrak{S}(E; F)$
 
 Cho F là một không gian vectơ tôpô, E là một tập hợp tùy ý, và $\mathfrak{S}$ là một họ các tập con của E. Xét không gian vectơ $F^E$ được trang bị cấu trúc đều của sự hội tụ theo $\mathfrak{S}$ (GT, X, § 1, No. 2). Ta biết rằng cấu trúc này tương thích với cấu trúc nhóm giao hoán của $F^E$ (GT, X, § 1, No. 4, hệ quả 2). Tôpô suy ra như vậy được gọi là $\mathfrak{S}$*-tôpô*. Nếu X là một tập con của $F^E$, hoặc nói chung hơn, là một tập hợp với một ánh xạ $j : X \to F^E$, thì ảnh nghịch đảo theo j của $\mathfrak{S}$*-tôpô* trên $F^E$ được gọi là $\mathfrak{S}$*-tôpô* trên X.
 
@@ -75,29 +75,29 @@ Theo các Nhận xét 1) và 2) ở trên, ta thấy rằng điều kiện cần
 
 #### Hệ quả {#evt-iii-s3-n1-cor-1 .statement}
 
-*Cho E và F là hai không gian lồi địa phương, $\mathfrak{S}$ là một họ các tập con bị chặn của E, và $\mathcal{L}(E; F)$ là không gian vectơ các ánh xạ tuyến tính liên tục từ E vào F. Khi đó $\mathfrak{S}$*-tôpô* tương thích với cấu trúc không gian vectơ của $\mathcal{L}(E; F)$ và là lồi địa phương.*
+*Cho E và F là hai không gian lồi địa phương, $\mathfrak{S}$ là một họ các tập con bị chặn của E, và $\mathscr{L}(E; F)$ là không gian vectơ các ánh xạ tuyến tính liên tục từ E vào F. Khi đó $\mathfrak{S}$*-tôpô* tương thích với cấu trúc không gian vectơ của $\mathscr{L}(E; F)$ và là lồi địa phương.*
 
 Chỉ cần nhận xét rằng nếu $u$ là một ánh xạ tuyến tính liên tục từ E vào F và M là một tập con bị chặn của E, thì $u(M)$ bị chặn trong F (III, p. 4, hệ quả 1).
 
-Cho hai không gian vectơ lồi địa phương E và F, và một họ $\mathfrak{S}$ các tập con bị chặn của E, ký hiệu $\mathcal{L}_\mathfrak{S}(E; F)$ không gian lồi địa phương thu được khi trang bị cho $\mathcal{L}(E; F)$ $\mathfrak{S}$*-tôpô*.
+Cho hai không gian vectơ lồi địa phương E và F, và một họ $\mathfrak{S}$ các tập con bị chặn của E, ký hiệu $\mathscr{L}_\mathfrak{S}(E; F)$ không gian lồi địa phương thu được khi trang bị cho $\mathscr{L}(E; F)$ $\mathfrak{S}$*-tôpô*.
 
 #### Ví dụ 1 {#evt-iii-s3-n1-exa-1 .statement}
 
-Nếu $\mathfrak{S}$ là tập hợp tất cả các tập con hữu hạn của E, thì $\mathfrak{S}$-tôpô là tôpô của *hội tụ đơn* và không gian $\mathcal{L}_{\mathfrak{S}}(E; F)$ cũng được ký hiệu là $\mathcal{L}_s(E; F)$. Một tập con bị chặn của $\mathcal{L}_s(E; F)$ được gọi là một tập con bị chặn đơn của $\mathcal{L}(E; F)$.
+Nếu $\mathfrak{S}$ là tập hợp tất cả các tập con hữu hạn của E, thì $\mathfrak{S}$-tôpô là tôpô của *hội tụ đơn* và không gian $\mathscr{L}_{\mathfrak{S}}(E; F)$ cũng được ký hiệu là $\mathscr{L}_s(E; F)$. Một tập con bị chặn của $\mathscr{L}_s(E; F)$ được gọi là một tập con bị chặn đơn của $\mathscr{L}(E; F)$.
 
 #### Ví dụ 2 {#evt-iii-s3-n1-exa-2 .statement}
 
-Nếu $\mathfrak{S}$ là tập hợp các tập con *compac* (resp. *tiền compac*, *lồi compac*), thì tôpô $\mathfrak{S}$ được gọi là tôpô của sự hội tụ *compac* (resp. *tiền compac*, *lồi compac*) và không gian $\mathcal{L}_{\mathfrak{S}}(E; F)$ cũng được ký hiệu bởi $\mathcal{L}_c(E; F)$ (resp. $\mathcal{L}_{pc}(E; F)$, $\mathcal{L}_{cc}(E; F)$). (*Xem* IV, p. 48, bài tập 7.)
+Nếu $\mathfrak{S}$ là tập hợp các tập con *compac* (resp. *tiền compac*, *lồi compac*), thì tôpô $\mathfrak{S}$ được gọi là tôpô của sự hội tụ *compac* (resp. *tiền compac*, *lồi compac*) và không gian $\mathscr{L}_{\mathfrak{S}}(E; F)$ cũng được ký hiệu bởi $\mathscr{L}_c(E; F)$ (resp. $\mathscr{L}_{pc}(E; F)$, $\mathscr{L}_{cc}(E; F)$). (*Xem* IV, p. 48, bài tập 7.)
 
 #### Ví dụ 3 {#evt-iii-s3-n1-exa-3 .statement}
 
-Nếu $\mathfrak{S}$ là tập hợp mọi tập con *bị chặn* của E, ta nói rằng tôpô $\mathfrak{S}$ là tôpô của *sự hội tụ bị chặn* và không gian $\mathcal{L}_{\mathfrak{S}}(E; F)$ được ký hiệu bởi $\mathcal{L}_b(E; F)$.
+Nếu $\mathfrak{S}$ là tập hợp mọi tập con *bị chặn* của E, ta nói rằng tôpô $\mathfrak{S}$ là tôpô của *sự hội tụ bị chặn* và không gian $\mathscr{L}_{\mathfrak{S}}(E; F)$ được ký hiệu bởi $\mathscr{L}_b(E; F)$.
 
 #### Ví dụ 4 {#evt-iii-s3-n1-exa-4 .statement}
 
-Khi $F = \mathbf{K}$, không gian $\mathcal{L}(E; F)$ là *đối ngẫu* $E'$ của E. Ta ký hiệu bởi $E'_\mathfrak{S}$, $E'_s$ v.v. không gian $\mathcal{L}_{\mathfrak{S}}(E; \mathbf{K})$, $\mathcal{L}_s(E; \mathbf{K})$ v.v. Không gian $E'_s$ (resp. $E'_b$) được gọi là đối ngẫu yếu (resp. đối ngẫu mạnh) của E. Một tập con bị chặn của $E'_s$ (resp. $E'_b$) được gọi là bị chặn yếu (resp. bị chặn mạnh). Ta nhận thấy rằng tôpô yếu trên $E'$ không gì khác hơn là $\sigma(E', E)$ (II, p. 42).
+Khi $F = \mathbf{K}$, không gian $\mathscr{L}(E; F)$ là *đối ngẫu* $E'$ của E. Ta ký hiệu bởi $E'_\mathfrak{S}$, $E'_s$ v.v. không gian $\mathscr{L}_{\mathfrak{S}}(E; \mathbf{K})$, $\mathscr{L}_s(E; \mathbf{K})$ v.v. Không gian $E'_s$ (resp. $E'_b$) được gọi là đối ngẫu yếu (resp. đối ngẫu mạnh) của E. Một tập con bị chặn của $E'_s$ (resp. $E'_b$) được gọi là bị chặn yếu (resp. bị chặn mạnh). Ta nhận thấy rằng tôpô yếu trên $E'$ không gì khác hơn là $\sigma(E', E)$ (II, p. 42).
 
-Khi $E = F$, ta ký hiệu bởi $\mathcal{L}(E)$, $\mathcal{L}_{\mathfrak{S}}(E)$ v.v. không gian $\mathcal{L}(E; F)$, $\mathcal{L}_{\mathfrak{S}}(E; F)$ v.v.
+Khi $E = F$, ta ký hiệu bởi $\mathscr{L}(E)$, $\mathscr{L}_{\mathfrak{S}}(E)$ v.v. không gian $\mathscr{L}(E; F)$, $\mathscr{L}_{\mathfrak{S}}(E; F)$ v.v.
 
 Cho $p$ là một nửa chuẩn liên tục trên F và M là một tập con bị chặn của E. Đặt
 
@@ -105,15 +105,15 @@ $$
 p_M(u) = \sup_{x \in M} p(u(x)) .
 $$
 
-Ngay lập tức thấy rằng $p_M$ là một nửa chuẩn trên $\mathcal{L}(E; F)$ và rằng nếu $\Gamma$ là một hệ cơ bản các nửa chuẩn trên F, thì họ các nửa chuẩn $p_M$, trong đó $p$ chạy qua $\Gamma$ và M chạy qua một cơ sở của bornology sinh bởi $\mathfrak{S}$, là một hệ cơ bản các nửa chuẩn của $\mathcal{L}_{\mathfrak{S}}(E; F)$.
+Ngay lập tức thấy rằng $p_M$ là một nửa chuẩn trên $\mathscr{L}(E; F)$ và rằng nếu $\Gamma$ là một hệ cơ bản các nửa chuẩn trên F, thì họ các nửa chuẩn $p_M$, trong đó $p$ chạy qua $\Gamma$ và M chạy qua một cơ sở của bornology sinh bởi $\mathfrak{S}$, là một hệ cơ bản các nửa chuẩn của $\mathscr{L}_{\mathfrak{S}}(E; F)$.
 
-Đặc biệt, nếu E và F là các không gian nửa chuẩn, và nếu $p$ (resp. $q$) ký hiệu nửa chuẩn của E (resp. F), thì tôpô của sự hội tụ bị chặn trên $\mathcal{L}(E; F)$ được xác định bởi nửa chuẩn
+Đặc biệt, nếu E và F là các không gian nửa chuẩn, và nếu $p$ (resp. $q$) ký hiệu nửa chuẩn của E (resp. F), thì tôpô của sự hội tụ bị chặn trên $\mathscr{L}(E; F)$ được xác định bởi nửa chuẩn
 
 $$
 r(u) = \sup_{p(x) \leq 1} q(u(x))
 $$
 
-(*xem* GT, X, § 3, No. 2). Khi ta xét $\mathcal{L}_b(E; F)$ như một không gian nửa chuẩn, ta sẽ luôn luôn, trừ khi có nói rõ điều ngược lại, hiểu nửa chuẩn (2). Nếu F là một không gian chuẩn, nửa chuẩn (2) là một chuẩn.
+(*xem* GT, X, § 3, No. 2). Khi ta xét $\mathscr{L}_b(E; F)$ như một không gian nửa chuẩn, ta sẽ luôn luôn, trừ khi có nói rõ điều ngược lại, hiểu nửa chuẩn (2). Nếu F là một không gian chuẩn, nửa chuẩn (2) là một chuẩn.
 
 #### Nhận xét {#evt-iii-s3-n1-rem-2 .statement}
 
@@ -137,43 +137,43 @@ $$
 
 mỗi khi $p \neq 0$.
 
-4) Công thức (2) cho thấy rằng ánh xạ $u \mapsto r(u)$ là nửa liên tục dưới trên $\mathcal{L}_s(E; F)$.
+4) Công thức (2) cho thấy rằng ánh xạ $u \mapsto r(u)$ là nửa liên tục dưới trên $\mathscr{L}_s(E; F)$.
 
 #### Mệnh đề 2 {#evt-iii-s3-prop-2 .statement}
 
 — Cho E và F là hai không gian lồi địa phương và cho $\mathfrak{S}$ là một tập hợp các tập con bị chặn của E.
 
-1) Tôpô $\mathfrak{S}$ trên $\mathcal{L}(E; F)$ đồng nhất với tôpô $\tilde{\mathfrak{S}}$, trong đó $\tilde{\mathfrak{S}}$ ký hiệu bornology thích nghi nhỏ nhất (III, p. 3) trên E chứa $\mathfrak{S}$.
+1) Tôpô $\mathfrak{S}$ trên $\mathscr{L}(E; F)$ đồng nhất với tôpô $\tilde{\mathfrak{S}}$, trong đó $\tilde{\mathfrak{S}}$ ký hiệu bornology thích nghi nhỏ nhất (III, p. 3) trên E chứa $\mathfrak{S}$.
 
 2) Giả sử rằng $\{0\}$ không trù mật trong F và cho $\mathfrak{S}'$ là một tập hợp khác các tập con bị chặn của E. Khi đó tôpô $\mathfrak{S}'$ thô hơn tôpô $\mathfrak{S}$ nếu và chỉ nếu $\mathfrak{S}' \subset \tilde{\mathfrak{S}}$.
 
-Cho $u \in \mathcal{L}(E; F)$, $M \in \mathfrak{S}$ và cho $p$ là một nửa chuẩn liên tục trên F. Vì $p \circ u$ là một nửa chuẩn liên tục trên E, điều này tương đương với việc nói rằng $p \circ u$ bị chặn trên bởi 1 trên M hoặc trên bao đóng, lồi, cân bằng $\tilde{M}$ của M; nói cách khác, ta có $p_M = p_{\tilde{M}}$. Hơn nữa, rõ ràng là ta có $p_{\lambda M} = \lambda p_M$ với mọi $\lambda > 0$ và $p_{M \cup M'} = \sup(p_M, p_{M'})$, từ đó suy ra mệnh đề thứ nhất, vì $\tilde{\mathfrak{S}}$ có tập hợp các vị tự của các bao đóng lồi cân bằng của các hợp hữu hạn những tập hợp của $\mathfrak{S}$ làm một cơ sở.
+Cho $u \in \mathscr{L}(E; F)$, $M \in \mathfrak{S}$ và cho $p$ là một nửa chuẩn liên tục trên F. Vì $p \circ u$ là một nửa chuẩn liên tục trên E, điều này tương đương với việc nói rằng $p \circ u$ bị chặn trên bởi 1 trên M hoặc trên bao đóng, lồi, cân bằng $\tilde{M}$ của M; nói cách khác, ta có $p_M = p_{\tilde{M}}$. Hơn nữa, rõ ràng là ta có $p_{\lambda M} = \lambda p_M$ với mọi $\lambda > 0$ và $p_{M \cup M'} = \sup(p_M, p_{M'})$, từ đó suy ra mệnh đề thứ nhất, vì $\tilde{\mathfrak{S}}$ có tập hợp các vị tự của các bao đóng lồi cân bằng của các hợp hữu hạn những tập hợp của $\mathfrak{S}$ làm một cơ sở.
 
-Bây giờ chứng minh mệnh đề thứ hai : trước hết, nếu F là trường cơ sở, thì từ định nghĩa suy ra rằng tôpô $\tilde{\mathfrak{S}}$ trên $E' = \mathcal{L}(E; F)$ có, như một hệ lân cận cơ bản của 0, tập hợp các cực của những tập hợp thuộc $\tilde{\mathfrak{S}}$. Cho A là một tập con bị chặn của E, mà cực $A^\circ$ của nó là một lân cận của 0 đối với tôpô $\tilde{\mathfrak{S}}$; khi đó tồn tại một tập đóng, lồi, cân bằng $B \in \tilde{\mathfrak{S}}$ sao cho $A^\circ \supset B^\circ$, và do đó $A \subset B^{\circ \circ}$; nhưng theo hệ quả 3 của II, p. 45, ta có $B^{\circ \circ} = B$, vì thế $A \subset B$ và $A \in \tilde{\mathfrak{S}}$. Vậy nếu $\mathfrak{S}'$ là một tập hợp các tập con bị chặn của E, thì tôpô $\mathfrak{S}'$ thô hơn tôpô $\mathfrak{S}$ trên $E'$ nếu và chỉ nếu $\mathfrak{S}' \subset \tilde{\mathfrak{S}}$. Trường hợp tổng quát suy ra ngay lập tức, vì nếu $y \in F$ không thuộc bao đóng của 0, thì ta có thể kiểm tra rằng ánh xạ làm cho $f \in E'$ tương ứng với ánh xạ $x \mapsto f(x)\ y$ là một đẳng cấu của các không gian lồi địa phương $E'_\mathfrak{S}$ lên ảnh của nó trong $\mathcal{L}_{\tilde{\mathfrak{S}}}(E; F)$.
+Bây giờ chứng minh mệnh đề thứ hai : trước hết, nếu F là trường cơ sở, thì từ định nghĩa suy ra rằng tôpô $\tilde{\mathfrak{S}}$ trên $E' = \mathscr{L}(E; F)$ có, như một hệ lân cận cơ bản của 0, tập hợp các cực của những tập hợp thuộc $\tilde{\mathfrak{S}}$. Cho A là một tập con bị chặn của E, mà cực $A^\circ$ của nó là một lân cận của 0 đối với tôpô $\tilde{\mathfrak{S}}$; khi đó tồn tại một tập đóng, lồi, cân bằng $B \in \tilde{\mathfrak{S}}$ sao cho $A^\circ \supset B^\circ$, và do đó $A \subset B^{\circ \circ}$; nhưng theo hệ quả 3 của II, p. 45, ta có $B^{\circ \circ} = B$, vì thế $A \subset B$ và $A \in \tilde{\mathfrak{S}}$. Vậy nếu $\mathfrak{S}'$ là một tập hợp các tập con bị chặn của E, thì tôpô $\mathfrak{S}'$ thô hơn tôpô $\mathfrak{S}$ trên $E'$ nếu và chỉ nếu $\mathfrak{S}' \subset \tilde{\mathfrak{S}}$. Trường hợp tổng quát suy ra ngay lập tức, vì nếu $y \in F$ không thuộc bao đóng của 0, thì ta có thể kiểm tra rằng ánh xạ làm cho $f \in E'$ tương ứng với ánh xạ $x \mapsto f(x)\ y$ là một đẳng cấu của các không gian lồi địa phương $E'_\mathfrak{S}$ lên ảnh của nó trong $\mathscr{L}_{\tilde{\mathfrak{S}}}(E; F)$.
 
-### 2. Điều kiện để $\mathcal{L}_\mathfrak{S}(E; F)$ là Hausdorff
+### 2. Điều kiện để $\mathscr{L}_\mathfrak{S}(E; F)$ là Hausdorff
 
 #### Mệnh đề 3 {#evt-iii-s3-prop-3 .statement}
 
-— Cho E và F là hai không gian lồi địa phương, giả thiết F là Hausdorff, và cho $\mathfrak{S}$ là một họ các tập con bị chặn của E. Nếu hợp A của các tập hợp thuộc $\mathfrak{S}$ là toàn phần trong E, thì không gian $\mathcal{L}_\mathfrak{S}(E; F)$ là Hausdorff.
+— Cho E và F là hai không gian lồi địa phương, giả thiết F là Hausdorff, và cho $\mathfrak{S}$ là một họ các tập con bị chặn của E. Nếu hợp A của các tập hợp thuộc $\mathfrak{S}$ là toàn phần trong E, thì không gian $\mathscr{L}_\mathfrak{S}(E; F)$ là Hausdorff.
 
-Cho $u_0$ là một phần tử khác không của $\mathcal{L}(E; F)$; vì $u_0$ liên tục và A là toàn phần trong E, nên tồn tại một $x_0$ trong A sao cho $u_0(x_0) \neq 0$. Vì F là Hausdorff, nên tồn tại một lân cận V của 0 trong F sao cho $u_0(x_0) \notin V$. Cho $M \in \mathfrak{S}$ sao cho $x_0 \in M$. Khi đó tập hợp U của tất cả $u \in \mathcal{L}(E; F)$ sao cho $u(M) \subset V$ là một lân cận của 0 trong $\mathcal{L}(E; F)$, và ta có $u_0 \notin U$, do đó $\mathcal{L}(E; F)$ là Hausdorff.
+Cho $u_0$ là một phần tử khác không của $\mathscr{L}(E; F)$; vì $u_0$ liên tục và A là toàn phần trong E, nên tồn tại một $x_0$ trong A sao cho $u_0(x_0) \neq 0$. Vì F là Hausdorff, nên tồn tại một lân cận V của 0 trong F sao cho $u_0(x_0) \notin V$. Cho $M \in \mathfrak{S}$ sao cho $x_0 \in M$. Khi đó tập hợp U của tất cả $u \in \mathscr{L}(E; F)$ sao cho $u(M) \subset V$ là một lân cận của 0 trong $\mathscr{L}(E; F)$, và ta có $u_0 \notin U$, do đó $\mathscr{L}(E; F)$ là Hausdorff.
 
-Đặc biệt, các tôpô sau trên $\mathcal{L}(E; F)$ là Hausdorff mỗi khi F là Hausdorff : hội tụ đơn, hội tụ compact, hội tụ tiền compact hoặc compact lồi, và hội tụ bị chặn.
+Đặc biệt, các tôpô sau trên $\mathscr{L}(E; F)$ là Hausdorff mỗi khi F là Hausdorff : hội tụ đơn, hội tụ compact, hội tụ tiền compact hoặc compact lồi, và hội tụ bị chặn.
 
-### 3. Quan hệ giữa $\mathcal{L}(E; F)$ và $\mathcal{L}(\hat{E}; F)$
+### 3. Quan hệ giữa $\mathscr{L}(E; F)$ và $\mathscr{L}(\hat{E}; F)$
 
-Cho E và F là hai không gian lồi địa phương Hausdorff, và giả sử F là đầy đủ; gọi $\hat{E}$ là không gian đầy đủ hóa của E. Vì mọi ánh xạ tuyến tính liên tục $u$ từ E vào F đều mở rộng duy nhất thành một ánh xạ tuyến tính liên tục $\bar{u}$ từ $\hat{E}$ vào F, nên có thể đồng nhất các không gian $\mathcal{L}(E; F)$ và $\mathcal{L}(\hat{E}; F)$ bởi ánh xạ $u \mapsto \bar{u}$. Ngoài ra, gọi $\mathfrak{S}$ là một họ các tập con bị chặn của E; tôpô $\mathfrak{S}$ trên $\mathcal{L}(E; F)$ trùng với tôpô $\mathfrak{S}$ trên $\mathcal{L}(\hat{E}; F)$ và cũng trùng với tôpô $\hat{\mathfrak{S}}$, trong đó $\hat{\mathfrak{S}}$ ký hiệu họ các bao đóng trong $\hat{E}$ của các tập hợp thuộc $\mathfrak{S}$.
+Cho E và F là hai không gian lồi địa phương Hausdorff, và giả sử F là đầy đủ; gọi $\hat{E}$ là không gian đầy đủ hóa của E. Vì mọi ánh xạ tuyến tính liên tục $u$ từ E vào F đều mở rộng duy nhất thành một ánh xạ tuyến tính liên tục $\bar{u}$ từ $\hat{E}$ vào F, nên có thể đồng nhất các không gian $\mathscr{L}(E; F)$ và $\mathscr{L}(\hat{E}; F)$ bởi ánh xạ $u \mapsto \bar{u}$. Ngoài ra, gọi $\mathfrak{S}$ là một họ các tập con bị chặn của E; tôpô $\mathfrak{S}$ trên $\mathscr{L}(E; F)$ trùng với tôpô $\mathfrak{S}$ trên $\mathscr{L}(\hat{E}; F)$ và cũng trùng với tôpô $\hat{\mathfrak{S}}$, trong đó $\hat{\mathfrak{S}}$ ký hiệu họ các bao đóng trong $\hat{E}$ của các tập hợp thuộc $\mathfrak{S}$.
 
-Ví dụ, nếu E là *định chuẩn*, tôpô hội tụ bị chặn trên $\mathcal{L}(E; F)$ đồng nhất với tôpô hội tụ bị chặn trên $\mathcal{L}(\hat{E}; F)$: thật vậy, mọi tập con bị chặn của $\hat{E}$ đều được chứa trong bao đóng của một tập con bị chặn của E. Vì quả cầu đơn vị của $\hat{E}$ là bao đóng của quả cầu đơn vị của E, nên từ công thức (3) (III, p. 14) suy ra rằng nếu F là một không gian Banach, ánh xạ $u \mapsto \bar{u}$ là một đẳng cự từ $\mathcal{L}(E; F)$ lên $\mathcal{L}(\hat{E}; F)$.
+Ví dụ, nếu E là *định chuẩn*, tôpô hội tụ bị chặn trên $\mathscr{L}(E; F)$ đồng nhất với tôpô hội tụ bị chặn trên $\mathscr{L}(\hat{E}; F)$: thật vậy, mọi tập con bị chặn của $\hat{E}$ đều được chứa trong bao đóng của một tập con bị chặn của E. Vì quả cầu đơn vị của $\hat{E}$ là bao đóng của quả cầu đơn vị của E, nên từ công thức (3) (III, p. 14) suy ra rằng nếu F là một không gian Banach, ánh xạ $u \mapsto \bar{u}$ là một đẳng cự từ $\mathscr{L}(E; F)$ lên $\mathscr{L}(\hat{E}; F)$.
 
 Ta chú ý rằng nếu E không phải là một không gian định chuẩn, thì có thể tồn tại các tập con bị chặn của $\hat{E}$ không được chứa trong bao đóng của bất kỳ tập con bị chặn nào của E (ví dụ, nếu E là đối ngẫu yếu của một không gian Banach vô hạn chiều); tuy nhiên, điều này xảy ra nếu E là mêtric hóa được và thỏa mãn tiên đề đếm được thứ nhất (III, p. 39, exerc. 16).
 
-### 4. Các tập con đẳng liên tục của $\mathcal{L}(E; F)$
+### 4. Các tập con đẳng liên tục của $\mathscr{L}(E; F)$
 
-Cho E và F là hai không gian lồi địa phương. Để một tập con H của $\mathcal{L}(E; F)$ là đẳng liên tục thì điều kiện cần và đủ là nó đẳng liên tục tại điểm 0 của E (I, p. 9, prop. 6); điều này kéo theo rằng với mọi lân cận V của 0 trong F, tập hợp $\bigcap_{u \in H} u^{-1}(V)$ là một lân cận của 0 trong E; hay là với mọi nửa chuẩn liên tục $p$ trên F, hàm $\sup_{u \in H} (p \circ u)$ là một nửa chuẩn liên tục trên E. Hơn nữa (I, p. 5), H là đẳng liên tục đều. Ta chú ý rằng bao lồi cân bằng của một tập con đẳng liên tục là đẳng liên tục, vì nếu $p$ là một nửa chuẩn liên tục trên F và $\tilde{H}$ là bao lồi cân bằng của H, ta có, với các $u_i$ trong H, bất đẳng thức $p \circ (\sum_i \lambda_i u_i) \leq \sum_i |\lambda_i| \cdot (p \circ u_i)$, do đó $\sup_{u \in H} (p \circ u) = \sup_{u \in \tilde{H}} (p \circ u)$.
+Cho E và F là hai không gian lồi địa phương. Để một tập con H của $\mathscr{L}(E; F)$ là đẳng liên tục thì điều kiện cần và đủ là nó đẳng liên tục tại điểm 0 của E (I, p. 9, prop. 6); điều này kéo theo rằng với mọi lân cận V của 0 trong F, tập hợp $\bigcap_{u \in H} u^{-1}(V)$ là một lân cận của 0 trong E; hay là với mọi nửa chuẩn liên tục $p$ trên F, hàm $\sup_{u \in H} (p \circ u)$ là một nửa chuẩn liên tục trên E. Hơn nữa (I, p. 5), H là đẳng liên tục đều. Ta chú ý rằng bao lồi cân bằng của một tập con đẳng liên tục là đẳng liên tục, vì nếu $p$ là một nửa chuẩn liên tục trên F và $\tilde{H}$ là bao lồi cân bằng của H, ta có, với các $u_i$ trong H, bất đẳng thức $p \circ (\sum_i \lambda_i u_i) \leq \sum_i |\lambda_i| \cdot (p \circ u_i)$, do đó $\sup_{u \in H} (p \circ u) = \sup_{u \in \tilde{H}} (p \circ u)$.
 
-Do đó, họ các tập con đẳng liên tục là một bornology lồi trên $\mathcal{L}(E; F)$ (III, p. 2, def. 2).
+Do đó, họ các tập con đẳng liên tục là một bornology lồi trên $\mathscr{L}(E; F)$ (III, p. 2, def. 2).
 
 #### Mệnh đề 4 {#evt-iii-s3-prop-4 .statement}
 
@@ -181,7 +181,7 @@ Do đó, họ các tập con đẳng liên tục là một bornology lồi trên
 
 (i) *Tập hợp các ánh xạ tuyến tính từ E vào F là đóng trong $F^E$.*
 
-(ii) *Nếu H là một tập con đẳng liên tục của $\mathcal{L}(E; F)$, thì bao đóng $\overline{H}$ của H trong $F^E$ được chứa trong $\mathcal{L}(E; F)$ và là đẳng liên tục.*
+(ii) *Nếu H là một tập con đẳng liên tục của $\mathscr{L}(E; F)$, thì bao đóng $\overline{H}$ của H trong $F^E$ được chứa trong $\mathscr{L}(E; F)$ và là đẳng liên tục.*
 
 Ta biết rằng $\overline{H}$ là đẳng liên tục (GT, X, § 2, No. 3, prop. 6). Còn phải chứng minh mệnh đề (i). Cho x, y thuộc E và $\lambda, \mu$ thuộc K, và gọi $A(x, y, \lambda, \mu)$ là tập hợp mọi $u \in F^E$ sao cho
 
@@ -199,7 +199,7 @@ Vậy tập hợp này đóng trong $F^E$.
 
 #### Hệ quả 1 {#evt-iii-s3-prop-4-cor-1 .statement}
 
-— *Để một tập con đẳng liên tục H của $\mathcal{L}(E; F)$ là tương đối compắc trong $\mathcal{L}_s(E; F)$ thì điều kiện cần và đủ là với mọi $x \in E$, tập $H(x)$ gồm tất cả các $u(x)$ khi u chạy trên H, là tương đối compắc trong F.*
+— *Để một tập con đẳng liên tục H của $\mathscr{L}(E; F)$ là tương đối compắc trong $\mathscr{L}_s(E; F)$ thì điều kiện cần và đủ là với mọi $x \in E$, tập $H(x)$ gồm tất cả các $u(x)$ khi u chạy trên H, là tương đối compắc trong F.*
 
 Thật vậy, điều kiện này là điều kiện cần và đủ để $\overline{H}$ là compắc trong $F^E$ (GT, I, § 9, No. 5, cor.).
 
@@ -217,51 +217,51 @@ Quả cầu này cũng đóng đối với $\sigma(E', E)$.
 
 #### Mệnh đề 5 {#evt-iii-s3-prop-5 .statement}
 
-— *Cho E và F là hai không gian lồi địa phương và cho T là một tập con toàn phần của E. Các cấu trúc đều sau đây trùng nhau trên mọi tập con đồng liên tục H của $\mathcal{L}(E; F)$:*
+— *Cho E và F là hai không gian lồi địa phương và cho T là một tập con toàn phần của E. Các cấu trúc đều sau đây trùng nhau trên mọi tập con đồng liên tục H của $\mathscr{L}(E; F)$:*
 
 1) *cấu trúc đều của hội tụ đơn giản trên T;*
 2) *cấu trúc đều của hội tụ đơn giản trên E;*
 3) *cấu trúc đều của hội tụ trên các tập con tiền compắc của E.*
 
-Ta nhắc lại (III, p. 15, mệnh đề 2) rằng tôpô $\mathfrak{S}$ trên $\mathcal{L}(E; F)$ trùng với tôpô $\tilde{\mathfrak{S}}$, trong đó $\tilde{\mathfrak{S}}$ là bornology nhỏ nhất thích nghi với E và chứa $\mathfrak{S}$.
+Ta nhắc lại (III, p. 15, mệnh đề 2) rằng tôpô $\mathfrak{S}$ trên $\mathscr{L}(E; F)$ trùng với tôpô $\tilde{\mathfrak{S}}$, trong đó $\tilde{\mathfrak{S}}$ là bornology nhỏ nhất thích nghi với E và chứa $\mathfrak{S}$.
 
 Do đó, trong mệnh đề 5, ta có thể thay từ « toàn phần » bằng « trù mật khắp nơi ». Khi đó mệnh đề suy ra từ các tính chất tổng quát của các tập đồng liên tục (GT, X, § 2, No. 4, định lý 1).
 
 #### Ví dụ {#evt-iii-s3-n4-exa-1 .statement}
 
-— *1) Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, và cho E là không gian nửa chuẩn $\mathcal{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). Với mọi hàm số $f$ và mọi số thực $h$, gọi $f_h$ là hàm $x \mapsto f(x - h)$. Rõ ràng ánh xạ $f \mapsto f_h$ xác định một phép đẳng cự tuyến tính từ E lên chính nó. Nếu $f$ liên tục và có giá compact, thì $f_h$ hội tụ đều đến $f$, nên cũng hội tụ đến $f$ theo trung bình cấp $p$, khi $h$ tiến tới 0. Vì tập $\mathcal{K}(\mathbf{R})$ gồm mọi hàm liên tục có giá compact là trù mật trong E, và tập các phép đẳng cự tuyến tính của E là đồng liên tục, nên theo mệnh đề 5 suy ra rằng với mọi $f \in E$, $f_h$ hội tụ theo trung bình cấp $p$ đến $f$ khi $h$ tiến tới 0.
+— *1) Cho $\mu$ là độ đo Lebesgue trên $\mathbf{R}$, và cho E là không gian nửa chuẩn $\mathscr{L}^p(\mu)$ ($1 \leq p < \infty$) (INT, IV). Với mọi hàm số $f$ và mọi số thực $h$, gọi $f_h$ là hàm $x \mapsto f(x - h)$. Rõ ràng ánh xạ $f \mapsto f_h$ xác định một phép đẳng cự tuyến tính từ E lên chính nó. Nếu $f$ liên tục và có giá compact, thì $f_h$ hội tụ đều đến $f$, nên cũng hội tụ đến $f$ theo trung bình cấp $p$, khi $h$ tiến tới 0. Vì tập $\mathscr{K}(\mathbf{R})$ gồm mọi hàm liên tục có giá compact là trù mật trong E, và tập các phép đẳng cự tuyến tính của E là đồng liên tục, nên theo mệnh đề 5 suy ra rằng với mọi $f \in E$, $f_h$ hội tụ theo trung bình cấp $p$ đến $f$ khi $h$ tiến tới 0.
 
-Với $p = 1$, xét biến đổi Fourier, ánh xạ này gán cho mỗi $f \in \mathcal{L}^1(\mu)$ hàm $\hat{f}$ trên $\mathbf{R}$ được xác định bởi
+Với $p = 1$, xét biến đổi Fourier, ánh xạ này gán cho mỗi $f \in \mathscr{L}^1(\mu)$ hàm $\hat{f}$ trên $\mathbf{R}$ được xác định bởi
 
 $$
 \hat{f}(y) = \int e^{-2i\pi xy} f(x) \, d\mu(x) .
 $$
 
-Tập các dạng tuyến tính $f \mapsto \hat{f}(y)$ là một tập con đồng liên tục của đối ngẫu của $\mathcal{L}^1(\mu)$.
+Tập các dạng tuyến tính $f \mapsto \hat{f}(y)$ là một tập con đồng liên tục của đối ngẫu của $\mathscr{L}^1(\mu)$.
 
-Mặt khác, ta biết rằng tập T gồm mọi hàm đặc trưng của các khoảng đóng bị chặn là một tập con toàn phần của $\mathcal{L}^1(\mu)$; và ta dễ dàng kiểm tra rằng với mọi $f \in T$, biến đổi Fourier $\hat{f}$ là một hàm liên tục tiến tới không ở vô cực. Ta suy ra rằng điều này đúng với mọi $f \in \mathcal{L}^1(\mu)$ ("định lý Riemann-Lebesgue").
+Mặt khác, ta biết rằng tập T gồm mọi hàm đặc trưng của các khoảng đóng bị chặn là một tập con toàn phần của $\mathscr{L}^1(\mu)$; và ta dễ dàng kiểm tra rằng với mọi $f \in T$, biến đổi Fourier $\hat{f}$ là một hàm liên tục tiến tới không ở vô cực. Ta suy ra rằng điều này đúng với mọi $f \in \mathscr{L}^1(\mu)$ ("định lý Riemann-Lebesgue").
 
-Quan hệ $\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$ cho thấy rằng ánh xạ $f \mapsto \hat{f}$ là một ánh xạ liên tục từ $\mathcal{L}^1(\mu)$ vào không gian $\mathcal{B}(\mathbf{R})$ gồm mọi hàm bị chặn trên $\mathbf{R}$, với cấu trúc của hội tụ đều. Vì $\hat{f}$ liên tục với mọi $f \in T$, suy ra $\hat{f}$ liên tục với mọi $f \in L^1(\mu)$. Việc $\hat{f}$ tiến tới không ở vô cực suy ra từ việc không gian con $C_0(\mathbf{R})$ gồm mọi hàm liên tục tiến tới không ở vô cực là đóng trong $\mathcal{B}(\mathbf{R})$.
+Quan hệ $\sup_{y \in \mathbf{R}} |\hat{f}(y)| \leq \|f\|_1$ cho thấy rằng ánh xạ $f \mapsto \hat{f}$ là một ánh xạ liên tục từ $\mathscr{L}^1(\mu)$ vào không gian $\mathscr{B}(\mathbf{R})$ gồm mọi hàm bị chặn trên $\mathbf{R}$, với cấu trúc của hội tụ đều. Vì $\hat{f}$ liên tục với mọi $f \in T$, suy ra $\hat{f}$ liên tục với mọi $f \in L^1(\mu)$. Việc $\hat{f}$ tiến tới không ở vô cực suy ra từ việc không gian con $C_0(\mathbf{R})$ gồm mọi hàm liên tục tiến tới không ở vô cực là đóng trong $\mathscr{B}(\mathbf{R})$.
 
 2) Cho E là không gian của mọi hàm số liên tục nhận giá trị số trên $\mathbf{R}$, được trang bị tôpô hội tụ compact. Cho K là một tập compact của $\mathbf{R}$ và cho $(\mu_n)$ là một dãy các độ đo trên $\mathbf{R}$ có giá trong K. Giả sử $\|\mu_n\| \leq 1$ với mọi n. Khi đó tập các $\mu_n$ là một tập con đồng liên tục của E'. Do đó, nếu với mọi hàm $f \in E$, ta có $\lim_{n \to \infty} \mu_n(f) = 0$, thì dãy các hàm $x \mapsto \int e^{itx} d\mu_n(t)$ hội tụ tới 0, đều trên mọi tập con compact của $\mathbf{R}$ (vì tập các hàm $t \mapsto e^{itx}$, khi x chạy qua một tập con compact của $\mathbf{R}$, là compact trong E). \*
 
 #### Hệ quả {#evt-iii-s3-n4-cor-1 .statement}
 
-— *Giả sử F là Hausdorff. Cho H là một tập con đồng liên tục của $\mathcal{L}(E; F)$. Nếu một bộ lọc $\Phi$ trên H hội tụ đơn giản tới một ánh xạ $u_0$ từ E vào F, thì $u_0$ là một ánh xạ tuyến tính liên tục từ E vào F, và $\Phi$ hội tụ đều tới $u_0$ trên mọi tập con tiền compact của E.*
+— *Giả sử F là Hausdorff. Cho H là một tập con đồng liên tục của $\mathscr{L}(E; F)$. Nếu một bộ lọc $\Phi$ trên H hội tụ đơn giản tới một ánh xạ $u_0$ từ E vào F, thì $u_0$ là một ánh xạ tuyến tính liên tục từ E vào F, và $\Phi$ hội tụ đều tới $u_0$ trên mọi tập con tiền compact của E.*
 
 Mệnh đề thứ nhất suy ra từ mệnh đề 4 (III, p. 16) và mệnh đề thứ hai suy ra từ mệnh đề 5 (III, p. 17).
 
 #### Mệnh đề 6 {#evt-iii-s3-prop-6 .statement}
 
-— *Cho H là một tập con đồng liên tục của $\mathcal{L}(E; F)$. Nếu F khả mêtric và nếu tồn tại một tập toàn phần đếm được trong E, thì cấu trúc đều trên H của hội tụ đơn giản trong E là khả mêtric. Nếu thêm nữa tồn tại một tập toàn phần đếm được trong F, thì tồn tại một tập đếm được trù mật trong H (đối với tôpô hội tụ đều trên các tập con compact của E).
+— *Cho H là một tập con đồng liên tục của $\mathscr{L}(E; F)$. Nếu F khả mêtric và nếu tồn tại một tập toàn phần đếm được trong E, thì cấu trúc đều trên H của hội tụ đơn giản trong E là khả mêtric. Nếu thêm nữa tồn tại một tập toàn phần đếm được trong F, thì tồn tại một tập đếm được trù mật trong H (đối với tôpô hội tụ đều trên các tập con compact của E).
 
-Cho $(a_n)$ là một dãy toàn phần trong E. Khi đó ánh xạ $u \mapsto (u(a_n))$ là một đẳng cấu từ $\mathcal{L}(E; F)$, trong đó $\mathcal{L}(E; F)$ có cấu trúc đều của hội tụ đơn giản trên tập các $a_n$, lên một không gian con đều của $F^\mathbf{N}$. Nếu F khả mêtric (resp. khả mêtric và thỏa mãn tiên đề đếm được thứ nhất) thì điều này cũng đúng với $F^\mathbf{N}$ (GT, IX, § 2, No. 4, hệ quả 2 và § 2, No. 8, hệ quả), và mệnh đề suy ra từ mệnh đề 5 (III, p. 17).
+Cho $(a_n)$ là một dãy toàn phần trong E. Khi đó ánh xạ $u \mapsto (u(a_n))$ là một đẳng cấu từ $\mathscr{L}(E; F)$, trong đó $\mathscr{L}(E; F)$ có cấu trúc đều của hội tụ đơn giản trên tập các $a_n$, lên một không gian con đều của $F^\mathbf{N}$. Nếu F khả mêtric (resp. khả mêtric và thỏa mãn tiên đề đếm được thứ nhất) thì điều này cũng đúng với $F^\mathbf{N}$ (GT, IX, § 2, No. 4, hệ quả 2 và § 2, No. 8, hệ quả), và mệnh đề suy ra từ mệnh đề 5 (III, p. 17).
 
 #### Hệ quả 1 {#evt-iii-s3-prop-6-cor-1 .statement}
 
-— *Cho E là một không gian lồi địa phương khả mêtric, và F là một không gian định chuẩn. Giả sử E và F đều thỏa mãn tiên đề đếm được thứ nhất. Khi đó $\mathcal{L}(E; F)$ là hợp của một họ đếm được các tập con đồng liên tục và tồn tại một tập đếm được trong $\mathcal{L}(E; F)$ trù mật đối với tôpô hội tụ đều trên các tập con tiền compact của E.
+— *Cho E là một không gian lồi địa phương khả mêtric, và F là một không gian định chuẩn. Giả sử E và F đều thỏa mãn tiên đề đếm được thứ nhất. Khi đó $\mathscr{L}(E; F)$ là hợp của một họ đếm được các tập con đồng liên tục và tồn tại một tập đếm được trong $\mathscr{L}(E; F)$ trù mật đối với tôpô hội tụ đều trên các tập con tiền compact của E.
 
-Cho B là quả cầu đơn vị của F và $(V_n)$ là một hệ cơ bản đếm được các lân cận của 0 trong E. Với mọi số nguyên n, tập $H_n$ gồm mọi $u \in \mathcal{L}(E; F)$ sao cho $u(V_n) \subset B$ là đồng liên tục và $\mathcal{L}(E; F)$ là hợp của các $H_n$. Khi đó hệ quả suy ra từ mệnh đề 6.*
+Cho B là quả cầu đơn vị của F và $(V_n)$ là một hệ cơ bản đếm được các lân cận của 0 trong E. Với mọi số nguyên n, tập $H_n$ gồm mọi $u \in \mathscr{L}(E; F)$ sao cho $u(V_n) \subset B$ là đồng liên tục và $\mathscr{L}(E; F)$ là hợp của các $H_n$. Khi đó hệ quả suy ra từ mệnh đề 6.*
 
 #### Hệ quả 2 {#evt-iii-s3-prop-6-cor-2 .statement}
 
@@ -283,19 +283,19 @@ Trong tiết này, E chỉ một không gian lồi địa phương và $E'$ đ�
 
 Nếu M đồng liên tục, thì tồn tại một lân cận lồi cân bằng V của 0 sao cho $|u(x)| \leq 1$ với mọi $x \in V$ và mọi $u \in M$; khi đó ta có $M \subset V^\circ$ và (i) kéo theo (ii). Với cùng các ký hiệu đó, nếu $M \subset V^\circ$ thì $V \subset V^{\circ\circ} \subset M^\circ$ và (ii) kéo theo (iii). Sau hết, nếu $M^\circ$ chứa một lân cận lồi cân bằng V của 0, thì $M \subset M^{\circ\circ} \subset V^\circ$ và các hệ thức $x \in \varepsilon V,\ u \in M$ kéo theo $|u(x)| \leq \varepsilon$ với mọi $\varepsilon > 0$, điều này chứng tỏ rằng (iii) kéo theo (i).
 
-Ta nhận xét rằng mỗi $x \in E$ xác định một ánh xạ $j(x): u \mapsto u(x)$ từ $E'$ vào K. Do đó ta có thể nói đến tôpô $\mathcal{S}$ trên E, trong đó $\mathcal{S}$ là một họ các tập con của $E'$: đó là ảnh ngược qua $j$ của tôpô $\mathcal{S}$ trên $K^{E'}$. Ta kiểm tra ngay lập tức rằng nếu $\mathcal{S}$ là một bornology lồi trên $E'$, thì các đối cực của các tập thuộc $\mathcal{S}$ tạo thành một hệ lân cận cơ bản của 0 đối với tôpô $\mathcal{S}$ trên E. Điều này xảy ra, đặc biệt, khi $\mathcal{S}$ là họ các tập con đẳng liên tục của $E'$, và mệnh đề 7 kéo theo:
+Ta nhận xét rằng mỗi $x \in E$ xác định một ánh xạ $j(x): u \mapsto u(x)$ từ $E'$ vào K. Do đó ta có thể nói đến tôpô $\mathscr{S}$ trên E, trong đó $\mathscr{S}$ là một họ các tập con của $E'$: đó là ảnh ngược qua $j$ của tôpô $\mathscr{S}$ trên $K^{E'}$. Ta kiểm tra ngay lập tức rằng nếu $\mathscr{S}$ là một bornology lồi trên $E'$, thì các đối cực của các tập thuộc $\mathscr{S}$ tạo thành một hệ lân cận cơ bản của 0 đối với tôpô $\mathscr{S}$ trên E. Điều này xảy ra, đặc biệt, khi $\mathscr{S}$ là họ các tập con đẳng liên tục của $E'$, và mệnh đề 7 kéo theo:
 
 #### Hệ quả 1 {#evt-iii-s3-prop-7-cor-1 .statement}
 
 — *Tôpô của E đồng nhất với tôpô hội tụ đều trên các tập con đẳng liên tục của $E'$*.
 
-Tổng quát hơn, cho F là một không gian lồi địa phương; mỗi $u \in \mathcal{L}(E; F)$ xác định một ánh xạ $j(u):(x, f) \mapsto f(u(x))$ từ $E \times F'$ vào K (*tức là* vào $\mathbf{R}$ hoặc $\mathbf{C}$). Điều này cho phép ta định nghĩa, trên không gian $\mathcal{L}(E; F)$, tôpô hội tụ đều trên một tập hợp các tập con của $E \times F'$. Đặc biệt:
+Tổng quát hơn, cho F là một không gian lồi địa phương; mỗi $u \in \mathscr{L}(E; F)$ xác định một ánh xạ $j(u):(x, f) \mapsto f(u(x))$ từ $E \times F'$ vào K (*tức là* vào $\mathbf{R}$ hoặc $\mathbf{C}$). Điều này cho phép ta định nghĩa, trên không gian $\mathscr{L}(E; F)$, tôpô hội tụ đều trên một tập hợp các tập con của $E \times F'$. Đặc biệt:
 
 #### Hệ quả 2 {#evt-iii-s3-prop-7-cor-2 .statement}
 
-— *Cho $\mathcal{S}$ là một họ các tập con bị chặn của E. Tôpô $\mathcal{S}$ trên $\mathcal{L}(E; F)$ là tôpô hội tụ đều trên các tập có dạng $A \times B \subset E \times F'$, trong đó A thuộc $\mathcal{S}$, và B thuộc họ các tập con đẳng liên tục của $F'$*.
+— *Cho $\mathscr{S}$ là một họ các tập con bị chặn của E. Tôpô $\mathscr{S}$ trên $\mathscr{L}(E; F)$ là tôpô hội tụ đều trên các tập có dạng $A \times B \subset E \times F'$, trong đó A thuộc $\mathscr{S}$, và B thuộc họ các tập con đẳng liên tục của $F'$*.
 
-Với mọi $u \in \mathcal{L}(E; F)$, mọi $A \in \mathcal{S}$ và mọi lân cận đóng lồi cân bằng V của 0 trong F, quan hệ $u(A) \subset V$ tương đương với « $j(u)(A \times V^\circ)$ được chứa trong quả cầu đơn vị của K ».
+Với mọi $u \in \mathscr{L}(E; F)$, mọi $A \in \mathscr{S}$ và mọi lân cận đóng lồi cân bằng V của 0 trong F, quan hệ $u(A) \subset V$ tương đương với « $j(u)(A \times V^\circ)$ được chứa trong quả cầu đơn vị của K ».
 
 #### Mệnh đề 8 {#evt-iii-s3-prop-8 .statement}
 
@@ -307,9 +307,9 @@ Hiển nhiên điều kiện là cần. Giả sử nó được thỏa mãn, và
 
 #### Định lý 1 (Grothendieck) {#evt-iii-s3-thm-1 .statement}
 
-— Cho E là một không gian lồi địa phương, và cho \mathcal{S} là một bornology thích nghi và phủ trên E. Cho F \subset E^* là không gian các dạng tuyến tính trên E mà hạn chế của chúng lên mỗi tập thuộc \mathcal{S} là liên tục. Nếu gán cho F tôpô \mathcal{S}, thì đơn ánh chính tắc từ E'_\mathcal{S} vào F kéo dài thành một đẳng cấu từ đầy đủ hóa \hat{E}'_\mathcal{S} của E'_\mathcal{S} lên F.
+— Cho E là một không gian lồi địa phương, và cho \mathscr{S} là một bornology thích nghi và phủ trên E. Cho F \subset E^* là không gian các dạng tuyến tính trên E mà hạn chế của chúng lên mỗi tập thuộc \mathscr{S} là liên tục. Nếu gán cho F tôpô \mathscr{S}, thì đơn ánh chính tắc từ E'_\mathscr{S} vào F kéo dài thành một đẳng cấu từ đầy đủ hóa \hat{E}'_\mathscr{S} của E'_\mathscr{S} lên F.
 
-Vì mọi giới hạn đơn của các dạng tuyến tính trên E đều là một dạng tuyến tính (III, p. 16, mệnh đề 4) và vì bornology \mathcal{S} trên E là phủ, suy ra từ GT, X, § 1, No. 6, hệ quả 2 rằng không gian F với tôpô \mathcal{S} là Hausdorff và đầy đủ. Rõ ràng E'_\mathcal{S} là một không gian con vectơ tôpô của F; do đó chỉ cần chứng minh rằng E'_\mathcal{S} trù mật trong F. Điều này suy ra từ bổ đề sau:
+Vì mọi giới hạn đơn của các dạng tuyến tính trên E đều là một dạng tuyến tính (III, p. 16, mệnh đề 4) và vì bornology \mathscr{S} trên E là phủ, suy ra từ GT, X, § 1, No. 6, hệ quả 2 rằng không gian F với tôpô \mathscr{S} là Hausdorff và đầy đủ. Rõ ràng E'_\mathscr{S} là một không gian con vectơ tôpô của F; do đó chỉ cần chứng minh rằng E'_\mathscr{S} trù mật trong F. Điều này suy ra từ bổ đề sau:
 
 #### Bổ đề 1 {#evt-iii-s3-lem-1 .statement}
 
@@ -337,7 +337,7 @@ Bây giờ cho E là một không gian lồi địa phương Hausdorff và \hat{
 
 *Cho $E$ là một không gian lồi địa phương Hausdorff và $\hat{E}$ là đầy đủ hóa của nó; ta đồng nhất $E$ và $\hat{E}$ với các không gian con vectơ của ${E'}^*$. Khi đó để một phần tử $f \in {E'}^*$ thuộc $\hat{E}$, điều kiện cần và đủ là hạn chế của $f$ lên mọi tập con đẳng liên tục của $E'$ là liên tục đối với tôpô $\sigma(E', E)$.*
 
-Không gian $E$ có thể được đồng nhất với đối ngẫu tôpô của $E'$ khi gán cho $E'$ tôpô $\sigma(E', E)$ (II, p. 43, mệnh đề 3); mặt khác, nếu $\mathcal{S}$ là tập hợp các tập con đồng liên tục của $E'$, thì tôpô đã cho trên $E$ là tôpô $\mathcal{S}$ (III, p. 19, hệ quả 1). Khi đó suy ra từ III, p. 13, mệnh đề 1, rằng các tập hợp của $\mathcal{S}$ bị chặn đối với $\sigma(E', E)$ (*xem.* ở dưới, III, p. 22, mệnh đề 9); nói cách khác, $\mathcal{S}$ là một bornology thích nghi và phủ đối với tôpô $\sigma(E', E)$. Khi đó Định lý 2 là một hệ quả của đ. lý 1 nếu ta thay thế $E$ bởi $E'$ và $E'_\mathcal{S}$ bởi $E$.
+Không gian $E$ có thể được đồng nhất với đối ngẫu tôpô của $E'$ khi gán cho $E'$ tôpô $\sigma(E', E)$ (II, p. 43, mệnh đề 3); mặt khác, nếu $\mathscr{S}$ là tập hợp các tập con đồng liên tục của $E'$, thì tôpô đã cho trên $E$ là tôpô $\mathscr{S}$ (III, p. 19, hệ quả 1). Khi đó suy ra từ III, p. 13, mệnh đề 1, rằng các tập hợp của $\mathscr{S}$ bị chặn đối với $\sigma(E', E)$ (*xem.* ở dưới, III, p. 22, mệnh đề 9); nói cách khác, $\mathscr{S}$ là một bornology thích nghi và phủ đối với tôpô $\sigma(E', E)$. Khi đó Định lý 2 là một hệ quả của đ. lý 1 nếu ta thay thế $E$ bởi $E'$ và $E'_\mathscr{S}$ bởi $E$.
 
 #### Hệ quả 1 (Banach) {#evt-iii-s3-thm-2-cor-1 .statement}
 
@@ -353,53 +353,53 @@ Không gian $E$ có thể được đồng nhất với đối ngẫu tôpô c�
 
 Ta biết rằng đối ngẫu của $E$ có thể được đồng nhất với tích của các đối ngẫu của các $E_i$ (II, p. 30, công thức (1)). Cho $u \in \hat{E}$, và cho $u_i \in {E_i'}^*$ là hạn chế của $u$ (được xét như một phần tử của ${E'}^*$) lên $E_i' \subset E'$. Ngay lập tức thấy rằng chỉ cần chứng minh rằng $u_i = 0$ trừ ra đối với một số hữu hạn chỉ số $i \in I$. Giả sử ngược lại rằng tồn tại một dãy $(i_n)_{n \in \mathbf{N}}$ các chỉ số phân biệt sao cho $u_{i_n} \neq 0$. Khi đó tồn tại $x_{i_n} \in E_{i_n}'$ sao cho $u_{i_n}(x_{i_n}) = n$. Tập hợp $H$ gồm tất cả các $x_{i_n}$ là đồng liên tục trong $E'$ và hạn chế của $u$ lên $H$ không bị chặn, điều này là không thể.
 
-### 7. Các $\mathcal{S}$-bornology trên $\mathcal{L}(E; F)$
+### 7. Các $\mathscr{S}$-bornology trên $\mathscr{L}(E; F)$
 
-Cho $E$ và $F$ là hai không gian lồi địa phương và $\mathcal{S}$ là một họ các tập con bị chặn của $E$. Nói rằng một tập con $H$ của $\mathcal{L}(E; F)$ bị chặn đối với $\mathcal{S}$-tôpô có nghĩa là *đối với* mọi $M \in \mathcal{S}$, mọi lân cận $V$ của 0 trong F đều hấp thụ tập $H(M) = \bigcup_{u \in H} u(M)$; điều này cũng tương đương với việc nói rằng với mọi $M \in \mathcal{S}$, tập $H(M)$ bị chặn trong F. Tương đương, điều này có nghĩa là với mọi lân cận $V$ của 0 trong F, tập $\bigcap_{u \in H} u^{-1}(V)$ hấp thụ mọi tập con $M$ của $\mathcal{S}$.
+Cho $E$ và $F$ là hai không gian lồi địa phương và $\mathscr{S}$ là một họ các tập con bị chặn của $E$. Nói rằng một tập con $H$ của $\mathscr{L}(E; F)$ bị chặn đối với $\mathscr{S}$-tôpô có nghĩa là *đối với* mọi $M \in \mathscr{S}$, mọi lân cận $V$ của 0 trong F đều hấp thụ tập $H(M) = \bigcup_{u \in H} u(M)$; điều này cũng tương đương với việc nói rằng với mọi $M \in \mathscr{S}$, tập $H(M)$ bị chặn trong F. Tương đương, điều này có nghĩa là với mọi lân cận $V$ của 0 trong F, tập $\bigcap_{u \in H} u^{-1}(V)$ hấp thụ mọi tập con $M$ của $\mathscr{S}$.
 
 #### Mệnh đề 9 {#evt-iii-s3-prop-9 .statement}
 
-*Cho E và F là hai không gian lồi địa phương và $\mathcal{S}$ là một họ các tập con bị chặn của E. Khi đó mọi tập con đồng liên tục của $\mathcal{L}(E; F)$ đều bị chặn đối với $\mathcal{S}$-tôpô.*
+*Cho E và F là hai không gian lồi địa phương và $\mathscr{S}$ là một họ các tập con bị chặn của E. Khi đó mọi tập con đồng liên tục của $\mathscr{L}(E; F)$ đều bị chặn đối với $\mathscr{S}$-tôpô.*
 
-Thật vậy, nếu $H$ là một tập con đồng liên tục của $\mathcal{L}(E; F)$ và $V$ là một lân cận của 0 trong F, thì tập $\bigcap_{u \in H} u^{-1}(V)$ là một lân cận của 0 trong E, do đó hấp thụ mọi tập con bị chặn của E.
+Thật vậy, nếu $H$ là một tập con đồng liên tục của $\mathscr{L}(E; F)$ và $V$ là một lân cận của 0 trong F, thì tập $\bigcap_{u \in H} u^{-1}(V)$ là một lân cận của 0 trong E, do đó hấp thụ mọi tập con bị chặn của E.
 
-Một tập con của $\mathcal{L}(E; F)$ bị chặn đối với một $\mathcal{S}$-tôpô không nhất thiết là đồng liên tục, ngay cả khi $\mathcal{S}$ là phủ và $\mathcal{S}$ là bornology chính tắc trên E (IV, p. 50, exerc. 17). Trong đoạn sau chúng tôi sẽ nghiên cứu, dưới tên gọi các không gian *barrelled*, các không gian E sao cho mọi tập con chỉ bị chặn của $\mathcal{L}(E; F)$ đều đồng liên tục. Hiện thời, chú ý kết quả sau đây :
+Một tập con của $\mathscr{L}(E; F)$ bị chặn đối với một $\mathscr{S}$-tôpô không nhất thiết là đồng liên tục, ngay cả khi $\mathscr{S}$ là phủ và $\mathscr{S}$ là bornology chính tắc trên E (IV, p. 50, exerc. 17). Trong đoạn sau chúng tôi sẽ nghiên cứu, dưới tên gọi các không gian *barrelled*, các không gian E sao cho mọi tập con chỉ bị chặn của $\mathscr{L}(E; F)$ đều đồng liên tục. Hiện thời, chú ý kết quả sau đây :
 
 #### Mệnh đề 10 {#evt-iii-s3-prop-10 .statement}
 
-*Cho E là một không gian bornological (đặc biệt, một không gian lồi địa phương mêtric hóa được) và F là một không gian lồi địa phương. Mọi tập con H của $\mathcal{L}(E; F)$ bị chặn đối với tôpô hội tụ bị chặn đều là đồng liên tục.*
+*Cho E là một không gian bornological (đặc biệt, một không gian lồi địa phương mêtric hóa được) và F là một không gian lồi địa phương. Mọi tập con H của $\mathscr{L}(E; F)$ bị chặn đối với tôpô hội tụ bị chặn đều là đồng liên tục.*
 
 Với mọi lân cận lồi cân bằng $V$ của 0 trong F, tập $\bigcap_{u \in H} u^{-1}(V)$ hấp thụ mọi tập con bị chặn của E, do đó là một lân cận của 0 trong E ; điều này chứng minh rằng H là đồng liên tục.
 
-### 8. Các tập con đầy đủ của $\mathcal{L}_{\mathcal{S}}(E; F)$
+### 8. Các tập con đầy đủ của $\mathscr{L}_{\mathscr{S}}(E; F)$
 
 #### Mệnh đề 11 {#evt-iii-s3-prop-11 .statement}
 
-*Cho E và F là hai không gian lồi địa phương, $\mathcal{S}$ là một phủ của E gồm các tập con bị chặn. Nếu F là Hausdorff và gần đầy đủ (III, p. 8), thì mọi tập con đồng liên tục H của $\mathcal{L}(E; F)$ đóng đối với $\mathcal{S}$-tôpô đều là một không gian con đều đầy đủ của $\mathcal{L}_{\mathcal{S}}(E; F)$.*
+*Cho E và F là hai không gian lồi địa phương, $\mathscr{S}$ là một phủ của E gồm các tập con bị chặn. Nếu F là Hausdorff và gần đầy đủ (III, p. 8), thì mọi tập con đồng liên tục H của $\mathscr{L}(E; F)$ đóng đối với $\mathscr{S}$-tôpô đều là một không gian con đều đầy đủ của $\mathscr{L}_{\mathscr{S}}(E; F)$.*
 
-Vì H bị chặn trong $\mathcal{L}_{\mathcal{S}}(E; F)$ (III, p. 22, prop. 9) và đóng trong $F^E$ đối với $\mathcal{S}$-tôpô (III, p. 16, prop. 4), điều này suy ra từ hệ quả 3 của GT, X, § 1, No. 5.
+Vì H bị chặn trong $\mathscr{L}_{\mathscr{S}}(E; F)$ (III, p. 22, prop. 9) và đóng trong $F^E$ đối với $\mathscr{S}$-tôpô (III, p. 16, prop. 4), điều này suy ra từ hệ quả 3 của GT, X, § 1, No. 5.
 
 #### Nhận xét 1 {#evt-iii-s3-n8-rem-1 .statement}
 
-— Cho M là một không gian con đều *đầy đủ* của $\mathcal{L}_{\mathcal{S}}(E; F)$. Với mọi họ các tập con bị chặn $\mathcal{S}' \supset \mathcal{S}$ của E, $\mathcal{S}'$-tôpô mịn hơn $\mathcal{S}$-tôpô trên $\mathcal{L}(E; F)$; mặt khác, tồn tại một hệ cơ bản các lân cận của 0 đối với $\mathcal{S}'$-tôpô mà đóng đối với tôpô hội tụ đơn (III, p. 13, *Nhận xét 2*), và *a fortiori* đối với $\mathcal{S}$-tôpô. Ta kết luận (GT, III, § 3, No. 5, cor. 1) rằng M là *đầy đủ* đối với $\mathcal{S}'$-tôpô.
+— Cho M là một không gian con đều *đầy đủ* của $\mathscr{L}_{\mathscr{S}}(E; F)$. Với mọi họ các tập con bị chặn $\mathscr{S}' \supset \mathscr{S}$ của E, $\mathscr{S}'$-tôpô mịn hơn $\mathscr{S}$-tôpô trên $\mathscr{L}(E; F)$; mặt khác, tồn tại một hệ cơ bản các lân cận của 0 đối với $\mathscr{S}'$-tôpô mà đóng đối với tôpô hội tụ đơn (III, p. 13, *Nhận xét 2*), và *a fortiori* đối với $\mathscr{S}$-tôpô. Ta kết luận (GT, III, § 3, No. 5, cor. 1) rằng M là *đầy đủ* đối với $\mathscr{S}'$-tôpô.
 
 #### Hệ quả {#evt-iii-s3-n8-cor-1 .statement}
 
-*Cho E và F là hai không gian lồi địa phương, H là một tập con đồng liên tục của $\mathcal{L}(E; F)$. Nếu F là Hausdorff và gần đầy đủ và nếu một bộ lọc $\Phi$ trên H hội tụ* đơn tại mọi điểm của một tập con toàn phần T của E, thì tồn tại một ánh xạ tuyến tính liên tục u từ E vào F sao cho $\Phi$ hội tụ đều đến u trên mọi tập con tiền compắc của E.
+*Cho E và F là hai không gian lồi địa phương, H là một tập con đồng liên tục của $\mathscr{L}(E; F)$. Nếu F là Hausdorff và gần đầy đủ và nếu một bộ lọc $\Phi$ trên H hội tụ* đơn tại mọi điểm của một tập con toàn phần T của E, thì tồn tại một ánh xạ tuyến tính liên tục u từ E vào F sao cho $\Phi$ hội tụ đều đến u trên mọi tập con tiền compắc của E.
 
-Thật vậy, theo mệnh đề 5 (III, p. 17) thì $\Phi$ là một bộ lọc Cauchy đối với cấu trúc đều của hội tụ trên các tập tiền compắc trong E; theo mệnh đề 11, bao đóng $\overline{H}$ của H trong $\mathcal{L}_{pc}(E; F)$ là đầy đủ và do đó $\Phi$ hội tụ đều trên mọi tập con tiền compắc của E đến một ánh xạ $u \in \overline{H}$.
+Thật vậy, theo mệnh đề 5 (III, p. 17) thì $\Phi$ là một bộ lọc Cauchy đối với cấu trúc đều của hội tụ trên các tập tiền compắc trong E; theo mệnh đề 11, bao đóng $\overline{H}$ của H trong $\mathscr{L}_{pc}(E; F)$ là đầy đủ và do đó $\Phi$ hội tụ đều trên mọi tập con tiền compắc của E đến một ánh xạ $u \in \overline{H}$.
 
 #### Nhận xét 2 {#evt-iii-s3-n8-rem-2 .statement}
 
-Cho $(u_n)$ là một dãy các ánh xạ tuyến tính liên tục từ một không gian Banach E vào một không gian Banach F; có thể xảy ra rằng $(u_n(x))$ có giới hạn tại mọi điểm của một không gian con vectơ trù mật khắp nơi T của E, mà dãy $(u_n)$ lại không bị chặn trong không gian chuẩn $\mathcal{L}(E; F)$. Chẳng hạn, lấy E là không gian của mọi hàm số liên tục trên $\mathbf{R}$, tiến về không ở vô cực, với chuẩn $\|f\| = \sup_{x \in \mathbf{R}} |f(x)|$, và gọi T là không gian con của các hàm số liên tục có giá compact. Dãy các ánh xạ tuyến tính liên tục $f \mapsto nf(n)$ từ E vào $\mathbf{R}$ hội tụ đến 0 với mọi $f \in T$, nhưng không bị chặn trong $\mathcal{L}_b(E; \mathbf{R})$. Cũng ví dụ đó cho thấy rằng trong không gian $\mathcal{L}(T; \mathbf{R})$, một dãy $(v_n)$ có thể chỉ hội tụ đơn giản mà không bị chặn đối với tôpô hội tụ bị chặn.
+Cho $(u_n)$ là một dãy các ánh xạ tuyến tính liên tục từ một không gian Banach E vào một không gian Banach F; có thể xảy ra rằng $(u_n(x))$ có giới hạn tại mọi điểm của một không gian con vectơ trù mật khắp nơi T của E, mà dãy $(u_n)$ lại không bị chặn trong không gian chuẩn $\mathscr{L}(E; F)$. Chẳng hạn, lấy E là không gian của mọi hàm số liên tục trên $\mathbf{R}$, tiến về không ở vô cực, với chuẩn $\|f\| = \sup_{x \in \mathbf{R}} |f(x)|$, và gọi T là không gian con của các hàm số liên tục có giá compact. Dãy các ánh xạ tuyến tính liên tục $f \mapsto nf(n)$ từ E vào $\mathbf{R}$ hội tụ đến 0 với mọi $f \in T$, nhưng không bị chặn trong $\mathscr{L}_b(E; \mathbf{R})$. Cũng ví dụ đó cho thấy rằng trong không gian $\mathscr{L}(T; \mathbf{R})$, một dãy $(v_n)$ có thể chỉ hội tụ đơn giản mà không bị chặn đối với tôpô hội tụ bị chặn.
 
-Mặt khác, dãy các ánh xạ tuyến tính liên tục $f \mapsto \sum_{k=1}^n f(k)$ là một dãy Cauchy trong $\mathcal{L}(T; \mathbf{R})$ đối với tôpô hội tụ đơn giản, nhưng không hội tụ đến một giới hạn trong $\mathcal{L}(T; \mathbf{R})$ đối với tôpô này.
+Mặt khác, dãy các ánh xạ tuyến tính liên tục $f \mapsto \sum_{k=1}^n f(k)$ là một dãy Cauchy trong $\mathscr{L}(T; \mathbf{R})$ đối với tôpô hội tụ đơn giản, nhưng không hội tụ đến một giới hạn trong $\mathscr{L}(T; \mathbf{R})$ đối với tôpô này.
 
 #### Mệnh đề 12 {#evt-iii-s3-prop-12 .statement}
 
-— *Cho E là một không gian lồi địa phương bornological, F một không gian Hausdorff lồi địa phương đầy đủ và $\mathfrak{S}$ là một họ các tập hợp bị chặn của E chứa ảnh của mọi dãy hội tụ đến 0. Khi đó không gian $\mathcal{L}_{\mathfrak{S}}(E; F)$ là đầy đủ.*
+— *Cho E là một không gian lồi địa phương bornological, F một không gian Hausdorff lồi địa phương đầy đủ và $\mathfrak{S}$ là một họ các tập hợp bị chặn của E chứa ảnh của mọi dãy hội tụ đến 0. Khi đó không gian $\mathscr{L}_{\mathfrak{S}}(E; F)$ là đầy đủ.*
 
-Gọi $\Phi$ là một bộ lọc Cauchy trong $\mathcal{L}_{\mathfrak{S}}(E; F)$. Khi đó $\Phi$ là một bộ lọc Cauchy đối với tôpô hội tụ đơn giản, nên hội tụ trong $F^E$; hơn nữa, giới hạn $u$ của nó là một ánh xạ tuyến tính từ E vào F và $\Phi$ hội tụ đến $u$ một cách đều trên mọi tập hợp của $\mathfrak{S}$ (GT, X, § 1, No. 5, mệnh đề 5). Suy ra ảnh qua $u$ của một dãy hội tụ về không là một dãy hội tụ về không, do đó $u$ là *liên tục*, vì E là bornological (III, p. 11, mệnh đề 1, (iii)).
+Gọi $\Phi$ là một bộ lọc Cauchy trong $\mathscr{L}_{\mathfrak{S}}(E; F)$. Khi đó $\Phi$ là một bộ lọc Cauchy đối với tôpô hội tụ đơn giản, nên hội tụ trong $F^E$; hơn nữa, giới hạn $u$ của nó là một ánh xạ tuyến tính từ E vào F và $\Phi$ hội tụ đến $u$ một cách đều trên mọi tập hợp của $\mathfrak{S}$ (GT, X, § 1, No. 5, mệnh đề 5). Suy ra ảnh qua $u$ của một dãy hội tụ về không là một dãy hội tụ về không, do đó $u$ là *liên tục*, vì E là bornological (III, p. 11, mệnh đề 1, (iii)).
 
 #### Hệ quả 1 {#evt-iii-s3-prop-12-cor-1 .statement}
 
@@ -407,7 +407,7 @@ Gọi $\Phi$ là một bộ lọc Cauchy trong $\mathcal{L}_{\mathfrak{S}}(E; F)
 
 #### Hệ quả 2 {#evt-iii-s3-prop-12-cor-2 .statement}
 
-— *Cho E là một không gian nửa chuẩn, và F là một không gian Banach (tương ứng, Fréchet). Không gian $\mathcal{L}_b(E; F)$ là một không gian Banach (tương ứng, Fréchet). Đặc biệt, đối ngẫu của một không gian nửa chuẩn là một không gian Banach.*
+— *Cho E là một không gian nửa chuẩn, và F là một không gian Banach (tương ứng, Fréchet). Không gian $\mathscr{L}_b(E; F)$ là một không gian Banach (tương ứng, Fréchet). Đặc biệt, đối ngẫu của một không gian nửa chuẩn là một không gian Banach.*
 
 ### Bài tập {#evt-iii-s3-exercises}
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 37
-content_sha256: 8dd576344b993c08878de080baba9ab70b42b43b64d50b4794413ec889f7bc80
+content_sha256: 7636f7903e66ecd5e6ed6cd0e99d4966eb0bae4c0a1dbd426a13a69b44083590
 ---
 
 ## § 1. PREHILBERTIAN SPACES AND HILBERTIAN SPACES
@@ -301,19 +301,19 @@ $$
 
 #### Example 3 {#evt-v-s1-n4-exa-3 .statement}
 
-\* Let $n \geqslant 1$ be an integer and let U be an open set in $\mathbf{R}^n$. Let $\mu$ be the measure on U induced by the Lebesgue measure on $\mathbf{R}^n$, and put $\mathcal{H}^0 = L^2(U, \mu)$. Let $\mathcal{H}^1$ denote the space of all functions $f \in \mathcal{H}^0$ with the following property; for $1 \leqslant i \leqslant n$, there exists a function $g_i \in \mathcal{H}^\circ$ such that
+\* Let $n \geqslant 1$ be an integer and let U be an open set in $\mathbf{R}^n$. Let $\mu$ be the measure on U induced by the Lebesgue measure on $\mathbf{R}^n$, and put $\mathscr{H}^0 = L^2(U, \mu)$. Let $\mathscr{H}^1$ denote the space of all functions $f \in \mathscr{H}^0$ with the following property; for $1 \leqslant i \leqslant n$, there exists a function $g_i \in \mathscr{H}^\circ$ such that
 
 $$
 \int_U g_i(x)\ h(x)\ d\mu(x) = - \int_U f(x)\ D_i h(x)\ d\mu(x)
 $$
 
-for every function $h$ of class $C^1$ with compact support in U. The function $g_i$ is defined uniquely up to equivalence with respect to $\mu$, and is denoted by $D_i f$ or $\partial f / \partial x_i$ (ith partial derivative). By induction on the integer $s \geqslant 1$, we define $\mathcal{H}^s$ as the set of all functions $f \in \mathcal{H}^1$ such that $D_i f \in \mathcal{H}^{s-1}$ for $1 \leqslant i \leqslant n$. We define a scalar product on $\mathcal{H}^s$ by the formula
+for every function $h$ of class $C^1$ with compact support in U. The function $g_i$ is defined uniquely up to equivalence with respect to $\mu$, and is denoted by $D_i f$ or $\partial f / \partial x_i$ (ith partial derivative). By induction on the integer $s \geqslant 1$, we define $\mathscr{H}^s$ as the set of all functions $f \in \mathscr{H}^1$ such that $D_i f \in \mathscr{H}^{s-1}$ for $1 \leqslant i \leqslant n$. We define a scalar product on $\mathscr{H}^s$ by the formula
 
 $$
 \langle f|g \rangle = \sum_{k=0}^s \sum_{1 \leqslant i_1 \leqslant \ldots \leqslant i_k \leqslant n} \int \overline{D_{i_1} \ldots D_{i_k} f} \cdot D_{i_1} \ldots D_{i_k} g\ d\mu .
 $$
 
-Then $\mathcal{H}^s$ is a complex hilbertian space, called *Sobolev space* of index s.
+Then $\mathscr{H}^s$ is a complex hilbertian space, called *Sobolev space* of index s.
 
 #### Example 4 {#evt-v-s1-n4-exa-4 .statement}
 
@@ -332,7 +332,7 @@ $$
 
 Then, there exists one and only one measure $\tilde{\omega}$ on X such that for every $i \in I$, the image under $\xi_i$ of the restriction of $\tilde{\omega}$ to $U_i$ is equal to the measure $f_i \cdot \mu$ (cf. VAR, R, 10.4.3).
 
-Let $\mathcal{V}$ (resp. $\mathcal{N}$) be the vector space of measurable densities $\omega$ of order 1/2 such that the measure associated with the density $|\omega|^2$ of order 1 is bounded (resp. null). Let $\omega_1$ and $\omega_2$ be in $\mathcal{V}$; then $\omega = \overline{\omega_1} \omega_2$ is a density of order 1, and the measure $\tilde{\omega}$ associated with $\omega$ is bounded; the number $\int_X \tilde{\omega}$ depends only on the classes $\dot{\omega}_1$ and $\dot{\omega}_2$ of $\omega_1$ and $\omega_2$ modulo $\mathcal{N}$ and is denoted by $\langle \omega_1 | \omega_2 \rangle$ or $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Then the mapping $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ assigns a complex hilbertian space structure to the vector space $\Omega_{1/2}(X) = \mathcal{V}/\mathcal{N}$.
+Let $\mathscr{V}$ (resp. $\mathscr{N}$) be the vector space of measurable densities $\omega$ of order 1/2 such that the measure associated with the density $|\omega|^2$ of order 1 is bounded (resp. null). Let $\omega_1$ and $\omega_2$ be in $\mathscr{V}$; then $\omega = \overline{\omega_1} \omega_2$ is a density of order 1, and the measure $\tilde{\omega}$ associated with $\omega$ is bounded; the number $\int_X \tilde{\omega}$ depends only on the classes $\dot{\omega}_1$ and $\dot{\omega}_2$ of $\omega_1$ and $\omega_2$ modulo $\mathscr{N}$ and is denoted by $\langle \omega_1 | \omega_2 \rangle$ or $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Then the mapping $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ assigns a complex hilbertian space structure to the vector space $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$.
 
 #### Example 5 {#evt-v-s1-n4-exa-5 .statement}
 
@@ -362,7 +362,7 @@ The existence of the extension of $(x, y) \mapsto \langle x|y \rangle$ to $\hat{
 
 This hilbertian space is said to be the *completion* of the Hausdorff prehilbertian space E.
 
-\* *Example 6*. — Let U be an open subset of $\mathbf{R}^n$ ($n \geqslant 1$). Let $\mathcal{C}_0^1(\mathrm{U})$ be the vector space of all functions of class $\mathrm{C}^1$ with compact support in U. We define a Hausdorff prehilbertian space structure on $\mathcal{C}_0^1(\mathrm{U})$ whose scalar product is given by
+\* *Example 6*. — Let U be an open subset of $\mathbf{R}^n$ ($n \geqslant 1$). Let $\mathscr{C}_0^1(\mathrm{U})$ be the vector space of all functions of class $\mathrm{C}^1$ with compact support in U. We define a Hausdorff prehilbertian space structure on $\mathscr{C}_0^1(\mathrm{U})$ whose scalar product is given by
 
 $$
 \langle f|g \rangle = \sum_{i=1}^{n} \int_{\mathrm{U}} \overline{\mathrm{D}_i f(x)} . \mathrm{D}_i g(x) \, dx .
@@ -465,11 +465,11 @@ $$
 $$
 which gives
 $$
-\mathcal{R} \langle x - p_{\mathbf{H}}(x)|y - p_{\mathbf{H}}(x) \rangle = \lim_{\lambda \to 0} \frac{1}{2\lambda} \left\{ \| x - p_{\mathbf{H}}(x) \|^{2} - \| x - z(\lambda) \|^{2} \right\} \leq 0 .
+\mathscr{R} \langle x - p_{\mathbf{H}}(x)|y - p_{\mathbf{H}}(x) \rangle = \lim_{\lambda \to 0} \frac{1}{2\lambda} \left\{ \| x - p_{\mathbf{H}}(x) \|^{2} - \| x - z(\lambda) \|^{2} \right\} \leq 0 .
 $$
-Conversely, let $a$ be a point of $\mathbf{H}$ such that $\mathcal{R} \langle x - a|y - a \rangle \leq 0$ for all $y \in \mathbf{H}$. For every $y \in \mathbf{H}$, we have
+Conversely, let $a$ be a point of $\mathbf{H}$ such that $\mathscr{R} \langle x - a|y - a \rangle \leq 0$ for all $y \in \mathbf{H}$. For every $y \in \mathbf{H}$, we have
 $$
-\| x - y \|^{2} = \| x - a \|^{2} + \| y - a \|^{2} - 2 \mathcal{R} \langle x - a|y - a \rangle \geq \| x - a \|^{2} ,
+\| x - y \|^{2} = \| x - a \|^{2} + \| y - a \|^{2} - 2 \mathscr{R} \langle x - a|y - a \rangle \geq \| x - a \|^{2} ,
 $$
 and so $\| x - a \| = d$ and finally that $a = p_{\mathbf{H}}(x)$ follows from the first part of the proof. Q.E.D.
 
@@ -495,9 +495,9 @@ $$
 $$
 *In particular, the mapping $p_{\mathbf{H}}$ from $\mathbf{E}$ into $\mathbf{H}$ is continuous.*
 
-Let $x, y$ be two points of $\mathbf{E}$. Put $a = p_{\mathbf{H}}(x) - x, b = p_{\mathbf{H}}(y) - p_{\mathbf{H}}(x), c = y - p_{\mathbf{H}}(y)$. By formula (15) (V, p. 10) we have $\mathcal{R} \langle a|b \rangle \geq 0$ and $\mathcal{R} \langle c|b \rangle \geq 0$. We also have $a + b + c = y - x$, which gives,
+Let $x, y$ be two points of $\mathbf{E}$. Put $a = p_{\mathbf{H}}(x) - x, b = p_{\mathbf{H}}(y) - p_{\mathbf{H}}(x), c = y - p_{\mathbf{H}}(y)$. By formula (15) (V, p. 10) we have $\mathscr{R} \langle a|b \rangle \geq 0$ and $\mathscr{R} \langle c|b \rangle \geq 0$. We also have $a + b + c = y - x$, which gives,
 $$
-\| x - y \|^{2} = \| a + b + c \|^{2} = \| b \|^{2} + \| a + c \|^{2} + 2 \mathcal{R} \langle a|b \rangle + 2 \mathcal{R} \langle c|b \rangle
+\| x - y \|^{2} = \| a + b + c \|^{2} = \| b \|^{2} + \| a + c \|^{2} + 2 \mathscr{R} \langle a|b \rangle + 2 \mathscr{R} \langle c|b \rangle
 $$
 $$
 \geq \| b \|^{2} = \| p_{\mathbf{H}}(x) - p_{\mathbf{H}}(y) \|^{2} .
@@ -552,7 +552,7 @@ Let A and B be two subsets of E. We say that A and B are orthogonal if every vec
 We first show that $x - p_M(x)$ belongs to $M^\circ$ for all $x \in E$. Let $y \in M$. For every scalar $\lambda \in K$, the vector $p_M(x) + \lambda y$ belongs to M; hence by formula 15 (V, p. 10) we have,
 
 $$
-\mathcal{R}(\lambda \langle x - p_M(x)|y \rangle) \leq 0
+\mathscr{R}(\lambda \langle x - p_M(x)|y \rangle) \leq 0
 $$
 
 for all $\lambda \in K$. If, in particular we take $\lambda = \overline{\langle x - p_M(x)|y \rangle}$ we conclude that $\langle x - p_M(x)|y \rangle = 0$, hence our assertion.
@@ -605,7 +605,7 @@ p_M(p_N(x)) = p_N(p_M(x)) = p_N(x)
 $$
 and so $p_N(x) \in M$. We conclude that $x - p_N(x) \in M$, hence $x$ is the sum of an element $p_N(x)$ of $M \cap N$ and an element $x - p_N(x)$ of $M \cap N^\circ$, which gives (iv).
 
-We have proved a) and the first part of b). Assume now that $p_M$ and $p_N$ commute and put $q = p_M + p_N - p_M p_N$; since $p_M$ and $p_N$ are idempotents in the algebra $\mathcal{L}(E)$, so is q; hence (GT, III, § 6, No. 2) the image of q is a closed vector subspace of E.
+We have proved a) and the first part of b). Assume now that $p_M$ and $p_N$ commute and put $q = p_M + p_N - p_M p_N$; since $p_M$ and $p_N$ are idempotents in the algebra $\mathscr{L}(E)$, so is q; hence (GT, III, § 6, No. 2) the image of q is a closed vector subspace of E.
 
 It is clear that the image of $q$ is contained in $M + N$; however, we have $p_N(x) = x$, hence $q(x) = x$ for all $x \in N$; since we also have $q = p_M + p_N - p_N p_M$, we get $q(x) = x$ for all $x \in M$. We conclude that the image of $q$ is equal to $M + N$. The orthogonal of $M + N$ is equal to $M^\circ \cap N^\circ$, and the kernel of $q$ obviously contains $M^\circ \cap N^\circ$, hence $q = p_{M+N}$. This proves b).
 
@@ -655,19 +655,19 @@ In fact, this says that 0 is the only vector of E' which is orthogonal to all th
 
 #### Corollary 2 {#evt-v-s1-thm-3-cor-2 .statement}
 
-*Let E and F be two hilbertian spaces. For $u \in \mathcal{L}(E; F)$, $x \in E$ and $y \in F$, put*
+*Let E and F be two hilbertian spaces. For $u \in \mathscr{L}(E; F)$, $x \in E$ and $y \in F$, put*
 
 $$
 \Phi_u(y, x) = \langle y|u(x) \rangle .
 $$
 
-*The mapping $u \mapsto \Phi_u$ is an isomorphism from the Banach space $\mathcal{L}(E; F)$ onto the space of all continuous sesquilinear $^1$ forms on $F \times E$, endowed with the norm*
+*The mapping $u \mapsto \Phi_u$ is an isomorphism from the Banach space $\mathscr{L}(E; F)$ onto the space of all continuous sesquilinear $^1$ forms on $F \times E$, endowed with the norm*
 
 $$
 \|f\| = \sup_{\substack{x \in E, y \in F \\ \|x\| \leq 1, \|y\| \leq 1}} |f(y, x)| .
 $$
 
-It is clear that $\Phi_u$ is sesquilinear and continuous for all $u \in \mathcal{L}(E; F)$. Conversely, let $f$ be a continuous sesquilinear form on $F \times E$. For every $x \in E$, the mapping $y \mapsto f(y, x)$ is a continuous linear form on the hilbertian space F. By th. 3, for every $x \in E$, there exists a unique element $u(x)$ in F such that $f(y, x) = \langle u(x)|y \rangle$ for all $y \in F$. The mapping $u : x \mapsto u(x)$ from E into F is linear and we have
+It is clear that $\Phi_u$ is sesquilinear and continuous for all $u \in \mathscr{L}(E; F)$. Conversely, let $f$ be a continuous sesquilinear form on $F \times E$. For every $x \in E$, the mapping $y \mapsto f(y, x)$ is a continuous linear form on the hilbertian space F. By th. 3, for every $x \in E$, there exists a unique element $u(x)$ in F such that $f(y, x) = \langle u(x)|y \rangle$ for all $y \in F$. The mapping $u : x \mapsto u(x)$ from E into F is linear and we have
 
 $$
 \begin{align*}
@@ -676,7 +676,7 @@ $$
 \end{align*}
 $$
 
-hence $u$ belongs to $\mathcal{L}(E; F)$, $f = \Phi_u$ and $\|u\| = \|f\|$. This proves cor. 2.
+hence $u$ belongs to $\mathscr{L}(E; F)$, $f = \Phi_u$ and $\|u\| = \|f\|$. This proves cor. 2.
 
 $^1$ Recall (A, IX, § 1, No. 5) that a sesquilinear form (on the left) $f$ on $F \times E$ is a mapping from $F \times E$ into K which satisfies relations (1) and (2) of V, p. 1.
 

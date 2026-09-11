@@ -29,9 +29,9 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: 0668d86c47c676e2328cdf4b63a844f24bfd22c3c2158c28134f6b55fd187b3a
+content_sha256: d6f1c749afbad14ec31ed7a8d4bc874d6a194af70d62a3fd03cefa9f1bb20adf
 translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
-source_content_sha256: 13b2d06e3e8c8872d9e3f91186077fdb068739451dbc3faf9b1d59434350b643
+source_content_sha256: 6fa9993f99ed891eed3d010811e0f5abc1a637fc976e8492d3f06438096abbc2
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
 translation_run: translate-vi-b27c62a3
 glossary_version: 34
@@ -65,7 +65,7 @@ $$
 $$
 suy ra $\sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty$. Nếu $x \neq 0$, ta có $\langle x|x \rangle = \sum_{i \in I} \|x_i\|^2 > 0$, do đó mệnh đề b) được suy ra.
 
-Ta nhắc lại rằng S là không gian con của P gồm tất cả các họ $x = (x_i)_{i \in I}$ sao cho tập hợp tất cả các $i \in I$ mà $x_i \neq 0$ là hữu hạn. Suy ra ngay lập tức rằng S trù mật trong E; do đó còn phải chứng minh rằng E là *đầy đủ* đối với tôpô $\mathcal{T}_1$ nhận được bởi chuẩn $\|x\| = \langle x|x \rangle^{1/2}$. Gọi $\mathcal{T}_2$ là tôpô cảm sinh trên E bởi tôpô tích trên $\prod_{i \in I} E_i$. Với mọi $r > 0$, gọi $B_r$ là tập hợp tất cả các $x \in E$ sao cho $\|x\| \leq r$. Quan hệ này kéo theo rằng ta có $\sum_{i \in J} \|x_i\|^2 \leq r^2$ với mọi tập con hữu hạn J của I, và do đó $B_r$ là một tập con đóng của $\prod_{i \in I} E_i$, vì vậy cũng đầy đủ. Sự kiện E đầy đủ đối với $\mathcal{T}_1$ giờ đây suy ra từ GT, III, § 3, No. 5, hệ quả 2 cho mệnh đề 10.
+Ta nhắc lại rằng S là không gian con của P gồm tất cả các họ $x = (x_i)_{i \in I}$ sao cho tập hợp tất cả các $i \in I$ mà $x_i \neq 0$ là hữu hạn. Suy ra ngay lập tức rằng S trù mật trong E; do đó còn phải chứng minh rằng E là *đầy đủ* đối với tôpô $\mathscr{T}_1$ nhận được bởi chuẩn $\|x\| = \langle x|x \rangle^{1/2}$. Gọi $\mathscr{T}_2$ là tôpô cảm sinh trên E bởi tôpô tích trên $\prod_{i \in I} E_i$. Với mọi $r > 0$, gọi $B_r$ là tập hợp tất cả các $x \in E$ sao cho $\|x\| \leq r$. Quan hệ này kéo theo rằng ta có $\sum_{i \in J} \|x_i\|^2 \leq r^2$ với mọi tập con hữu hạn J của I, và do đó $B_r$ là một tập con đóng của $\prod_{i \in I} E_i$, vì vậy cũng đầy đủ. Sự kiện E đầy đủ đối với $\mathscr{T}_1$ giờ đây suy ra từ GT, III, § 3, No. 5, hệ quả 2 cho mệnh đề 10.
 
 #### Định nghĩa 1 {#evt-v-s2-def-1 .statement}
 

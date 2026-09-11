@@ -25,7 +25,7 @@ subsections:
       pdf_page: 23
 statements: 11
 exercises: 9
-content_sha256: 8b7807677e460b9a7405b2873ef0fc8bc2e22818bdb0d2c169cc9111e32a229c
+content_sha256: 7b0cae573fb12c028af767dbe6ab67d5faf25b8008547f5a7239ef681e206abd
 ---
 
 ## § 3. ESPACES VECTORIELS TOPOLOGIQUES MÉTRISABLES
@@ -119,7 +119,7 @@ En particulier, si E et F sont des espaces normés complets, il existe un nombre
 
 #### Corollaire 2 {#evt-i-s3-lem-2-cor-2 .statement}
 
-Soient E un espace vectoriel sur un corps valué non discret, $\mathcal{T}_1$ et $\mathcal{T}_2$ deux topologies sur E compatibles avec sa structure d'espace vectoriel et pour chacune desquelles E est métrisable et complet. Si $\mathcal{T}_1$ et $\mathcal{T}_2$ sont comparables, elles sont identiques.
+Soient E un espace vectoriel sur un corps valué non discret, $\mathscr{T}_1$ et $\mathscr{T}_2$ deux topologies sur E compatibles avec sa structure d'espace vectoriel et pour chacune desquelles E est métrisable et complet. Si $\mathscr{T}_1$ et $\mathscr{T}_2$ sont comparables, elles sont identiques.
 
 #### Corollaire 3 {#evt-i-s3-lem-2-cor-3 .statement}
 

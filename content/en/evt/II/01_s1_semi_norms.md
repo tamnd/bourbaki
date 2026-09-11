@@ -28,7 +28,7 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: c142ede5d36c6c2e3b5b4d8bddc5e68415321932a189580ca0fe0a1351354a27
+content_sha256: 83678c8f7fc574f7471865862952da621d2b8f8beb62f3a4985f21ca91b65111
 ---
 
 ## § 1. SEMI-NORMS
@@ -101,7 +101,7 @@ Let $E$ be a vector space over $K$, with the topology defined by a set of semi-n
 
 — 1) The topology defined by a *finite* set of semi-norms $p_i$ ($1 \leq i \leq n$) on $E$, can be defined by the *single* semi-norm $p = \sup_{1 \leq i \leq n} p_i$. But a topology defined by an infinite set of semi-norms cannot, in general, be defined by a single semi-norm (III, p. 37, exerc. 2).
 
-2) Let $(\mathcal{T}_i)_{i \in I}$ be a family of topologies on a vector space $E$ over $K$, each of which is defined by a family of semi-norms $\Gamma_i$. Then the topology defined by the set of semi-norms $\Gamma = \bigcup_{i \in I} \Gamma_i$ is the upper bound of the topologies $\mathcal{T}_i$.
+2) Let $(\mathscr{T}_i)_{i \in I}$ be a family of topologies on a vector space $E$ over $K$, each of which is defined by a family of semi-norms $\Gamma_i$. Then the topology defined by the set of semi-norms $\Gamma = \bigcup_{i \in I} \Gamma_i$ is the upper bound of the topologies $\mathscr{T}_i$.
 
 3) If $\Gamma_0$ is a set of semi-norms *directed by the increasing* order relation defined between two semi-norms $p, q$ on $E$ by « there exists $\lambda > 0$ such that $p \leq \lambda q$ », then a fundamental system of neighbourhoods of 0, for the topology defined by $\Gamma_0$, is obtained by taking the sets $V(p, \alpha)$ where $p \in \Gamma_0$ and $\alpha > 0$. If $\Gamma$ is any set of semi-norms on $E$, then a filtered set of semi-norms, defining the same topology as $\Gamma$, is the set $\Gamma_0$ of upper envelopes of all finite families of semi-norms belonging to $\Gamma$.
 
@@ -109,25 +109,25 @@ Let $E$ be a vector space over $K$, with the topology defined by a set of semi-n
 
 #### Example {#evt-ii-s1-n2-exa-1 .statement}
 
-— Let $\mathcal{C}^\infty(\mathbf{R})$ be the vector space over $\mathbf{R}$ of real valued functions that are infinitely differentiable in $\mathbf{R}$. For every function and every pair of integers $n \geq 0$, $m \geq 1$, put
+— Let $\mathscr{C}^\infty(\mathbf{R})$ be the vector space over $\mathbf{R}$ of real valued functions that are infinitely differentiable in $\mathbf{R}$. For every function and every pair of integers $n \geq 0$, $m \geq 1$, put
 
 $$
 p_{n,m}(f) = \sup_{-m \leq t \leq m} |f^{(n)}(t)|
 $$
 
-with $f^{(0)} = f$. Obviously the $p_{n,m}$ are semi-norms on $\mathcal{C}^\infty(\mathbf{R})$. In order that the functions $f_\alpha$ tend to 0 (following a filter $\mathfrak{F}$ on the set of indices) in $\mathcal{C}^\infty(\mathbf{R})$ for the topology $\mathcal{T}$ defined by the semi-norms $p_{n,m}$, it is necessary and sufficient that for all integers $n \geq 0$, the functions $f_\alpha^{(n)}$ tend to 0 (following $\mathfrak{F}$) *uniformly on every compact subset of* $\mathbf{R}$. We say that $\mathcal{T}$ is the *topology of compact convergence for the functions* $f \in \mathcal{C}^\infty(\mathbf{R})$ *and all their derivatives* (*cf.* III, p. 9).
+with $f^{(0)} = f$. Obviously the $p_{n,m}$ are semi-norms on $\mathscr{C}^\infty(\mathbf{R})$. In order that the functions $f_\alpha$ tend to 0 (following a filter $\mathfrak{F}$ on the set of indices) in $\mathscr{C}^\infty(\mathbf{R})$ for the topology $\mathscr{T}$ defined by the semi-norms $p_{n,m}$, it is necessary and sufficient that for all integers $n \geq 0$, the functions $f_\alpha^{(n)}$ tend to 0 (following $\mathfrak{F}$) *uniformly on every compact subset of* $\mathbf{R}$. We say that $\mathscr{T}$ is the *topology of compact convergence for the functions* $f \in \mathscr{C}^\infty(\mathbf{R})$ *and all their derivatives* (*cf.* III, p. 9).
 
 #### Proposition 2 {#evt-ii-s1-prop-2 .statement}
 
-*On a vector space* $E$, *let* $\mathcal{T}$ *be the topology defined by a set of semi-norms* $\Gamma$.
+*On a vector space* $E$, *let* $\mathscr{T}$ *be the topology defined by a set of semi-norms* $\Gamma$.
 
-(i) *The closure of {0} in E, for $\mathcal{T}$, is the subset of $x \in E$ for which $p(x) = 0$ for every semi-norm $p \in \Gamma$.*
+(i) *The closure of {0} in E, for $\mathscr{T}$, is the subset of $x \in E$ for which $p(x) = 0$ for every semi-norm $p \in \Gamma$.*
 
-(ii) *If $\mathcal{T}$ is Hausdorff and $\Gamma$ is enumerable, then $\mathcal{T}$ is metrisable.*
+(ii) *If $\mathscr{T}$ is Hausdorff and $\Gamma$ is enumerable, then $\mathscr{T}$ is metrisable.*
 
 The proposition follows immediately from the definitions and from GT, IX, § 2 . 4, cor. 1.
 
-Note that if $\mathcal{T}$ is metrisable, it may be that $\mathcal{T}$ cannot be defined by a single norm; this is the case in the example given above (*cf.* IV, p. 18, *Example 4*).
+Note that if $\mathscr{T}$ is metrisable, it may be that $\mathscr{T}$ cannot be defined by a single norm; this is the case in the example given above (*cf.* IV, p. 18, *Example 4*).
 
 Let E be a vector space over K, with the topology defined by a set of semi-norms $\Gamma$. Let $\hat{E}$ be the Hausdorff completion of E (I, p. 6), and $\hat{\Gamma}$ be the set of mappings $\hat{p}$ of $\hat{E}$ in $\mathbf{R}_+$ where $p$ varies in $\Gamma$ (GT, II, § 3 . 7, prop. 15). By the principle of extending inequalities, the functions $\hat{p} \in \hat{\Gamma}$ are semi-norms on $\hat{E}$, and the functions $\hat{p}(x - y)$ form a set of pseudometrics defining the uniform structure of $\hat{E}$ (GT, IX, § 1 . 3, prop. 1). We see, therefore, that $\hat{\Gamma}$ is a fundamental set of semi-norms defining the topology of $\hat{E}$.
 
@@ -167,11 +167,11 @@ We deduce from this, that, if the set of semi-norms $\Gamma$ is *directed* (II, 
 
 If $N$ is the closure of $\{0\}$ in $E$, the topology of $E/N$ is defined by the quotient semi-norms $\dot{p}$, where $p$ varies in $\Gamma$ (even if $\Gamma$ is not filtered): here $\dot{p}(\dot{x}) = p(x)$ for every $x$ belonging to the class $\dot{x} \mod N$. Note that $E/N$ is none other than the Hausdorff space associated with $E$ (I, p. 4).
 
-Let $E$ be a vector space over $K$ and $(E_i)_{i \in I}$ be a family of vector spaces over $K$, where $E_i$ has the topology $\mathcal{T}_i$ defined by a set of semi-norms $\Gamma_i$. For each $i \in I$, let $f_i$ be a linear mapping of $E$ in $E_i$; clearly when $p_i$ varies in the set $\Gamma_i$, then the $p_i \circ f_i$ form a set $\Gamma'_i$ of semi-norms on $E$. The topology $\mathcal{T}$ on $E$, defined as being the coarsest of all those which make all the mappings $f_i$ continuous (I, p. 9) is then defined by the set of semi-norms $\Gamma' = \bigcup_{i \in I} \Gamma'_i$, this follows from the definition of neighbourhoods of 0 for $\mathcal{T}$ (GT, I, § 2.3, prop. 4).
+Let $E$ be a vector space over $K$ and $(E_i)_{i \in I}$ be a family of vector spaces over $K$, where $E_i$ has the topology $\mathscr{T}_i$ defined by a set of semi-norms $\Gamma_i$. For each $i \in I$, let $f_i$ be a linear mapping of $E$ in $E_i$; clearly when $p_i$ varies in the set $\Gamma_i$, then the $p_i \circ f_i$ form a set $\Gamma'_i$ of semi-norms on $E$. The topology $\mathscr{T}$ on $E$, defined as being the coarsest of all those which make all the mappings $f_i$ continuous (I, p. 9) is then defined by the set of semi-norms $\Gamma' = \bigcup_{i \in I} \Gamma'_i$, this follows from the definition of neighbourhoods of 0 for $\mathscr{T}$ (GT, I, § 2.3, prop. 4).
 
 If the $p_i$ are ultra-semi-norms, then so are the $p_i \circ f_i$.
 
-Let $E$ be a vector space over $K$, with the topology $\mathcal{T}$ defined by a family of semi-norms $(p_i)_{i \in I}$; for every $i \in I$, let $\mathcal{T}_i$ be the topology defined by the single semi-norm $p_i$, and denote by $E_i$ the space obtained from $E$ using the topology $\mathcal{T}_i$. Then the topology $\mathcal{T}$ is the inverse image by the diagonal mapping $\Delta : E \to \prod_{i \in I} E_i$ of the product topology on $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). For each $i \in I$, write $N_i$ for the closure of $\{0\}$ in $E_i$, and by $F_i = E_i / N_i$, the *normed* space defined by the norm $p_i$ corresponding to $p_i$ (II, p. 4, formula (3)); if $\phi_i : E_i \to F_i$ is the canonical mapping and $\phi : (x_i) \mapsto (\phi_i(x_i))$ the product mapping, we know that the product topology on $\prod_{i \in I} E_i$ is the inverse image by $\phi$ of the product topology on $\prod_{i \in I} F_i$ (GT, II, § 3.9, prop. 18). The topology $\mathcal{T}$ is, therefore, the inverse image under the composite mapping $\phi \circ \Delta$ of the product topology on $\prod_{i \in I} F_i$. In particular, if $\mathcal{T}$ is *Hausdorff* then it follows from II, p. 3, prop. 2 that the mapping $\phi \circ \Delta$ is *injective*, therefore:
+Let $E$ be a vector space over $K$, with the topology $\mathscr{T}$ defined by a family of semi-norms $(p_i)_{i \in I}$; for every $i \in I$, let $\mathscr{T}_i$ be the topology defined by the single semi-norm $p_i$, and denote by $E_i$ the space obtained from $E$ using the topology $\mathscr{T}_i$. Then the topology $\mathscr{T}$ is the inverse image by the diagonal mapping $\Delta : E \to \prod_{i \in I} E_i$ of the product topology on $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). For each $i \in I$, write $N_i$ for the closure of $\{0\}$ in $E_i$, and by $F_i = E_i / N_i$, the *normed* space defined by the norm $p_i$ corresponding to $p_i$ (II, p. 4, formula (3)); if $\phi_i : E_i \to F_i$ is the canonical mapping and $\phi : (x_i) \mapsto (\phi_i(x_i))$ the product mapping, we know that the product topology on $\prod_{i \in I} E_i$ is the inverse image by $\phi$ of the product topology on $\prod_{i \in I} F_i$ (GT, II, § 3.9, prop. 18). The topology $\mathscr{T}$ is, therefore, the inverse image under the composite mapping $\phi \circ \Delta$ of the product topology on $\prod_{i \in I} F_i$. In particular, if $\mathscr{T}$ is *Hausdorff* then it follows from II, p. 3, prop. 2 that the mapping $\phi \circ \Delta$ is *injective*, therefore:
 
 #### Proposition 3 {#evt-ii-s1-prop-3 .statement}
 
@@ -228,10 +228,10 @@ c) For every semi-norm $q \in \Gamma'$, the mapping $\sup_{u \in H} (q \circ u)$
 
 #### Corollary 1 {#evt-ii-s1-prop-5-cor-1 .statement}
 
-— Suppose that $\mathcal{T}, \mathcal{T}'$ are two topologies on a vector space $E$ over $K$ defined, respectively, by two sets of semi-norms $\Gamma$ and $\Gamma'$. $\mathcal{T}$ is finer than $\mathcal{T}'$ if, and only if, for every semi-norm $q \in \Gamma'$, there exists a finite family $(p_i)_{1 \leq i \leq n}$ of semi-norms belonging to $\Gamma$ and a number $a > 0$ such that, for all $x \in E$, we have $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$.
+— Suppose that $\mathscr{T}, \mathscr{T}'$ are two topologies on a vector space $E$ over $K$ defined, respectively, by two sets of semi-norms $\Gamma$ and $\Gamma'$. $\mathscr{T}$ is finer than $\mathscr{T}'$ if, and only if, for every semi-norm $q \in \Gamma'$, there exists a finite family $(p_i)_{1 \leq i \leq n}$ of semi-norms belonging to $\Gamma$ and a number $a > 0$ such that, for all $x \in E$, we have $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$.
 
-In fact this shows that the identity mapping of $E$ with topology $\mathcal{T}$, on $E$ with topology $\mathcal{T}'$, is continuous.
+In fact this shows that the identity mapping of $E$ with topology $\mathscr{T}$, on $E$ with topology $\mathscr{T}'$, is continuous.
 
 #### Corollary 2 {#evt-ii-s1-prop-5-cor-2 .statement}
 
-— Suppose that the topology $\mathcal{T}$ of a topological vector space $E$ over $K$ is defined by a directed set of semi-norms $\Gamma$; for each semi-norm $p \in \Gamma$, let $E_p$ be the space obtained from $E$ using the topology defined by $p$. The set $E'$ of linear forms on $E$ that are continuous for $\mathcal{T}$ is the union of the sets $E'_p$, where $E'_p$ is the set of continuous linear forms in $E_p$ ($p \in \Gamma$).
+— Suppose that the topology $\mathscr{T}$ of a topological vector space $E$ over $K$ is defined by a directed set of semi-norms $\Gamma$; for each semi-norm $p \in \Gamma$, let $E_p$ be the space obtained from $E$ using the topology defined by $p$. The set $E'$ of linear forms on $E$ that are continuous for $\mathscr{T}$ is the union of the sets $E'_p$, where $E'_p$ is the set of continuous linear forms in $E_p$ ($p \in \Gamma$).

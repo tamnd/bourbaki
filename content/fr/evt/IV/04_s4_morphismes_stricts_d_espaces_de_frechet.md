@@ -25,7 +25,7 @@ subsections:
       pdf_page: 216
 statements: 13
 exercises: 23
-content_sha256: 3c0665c596284824d3cf1dbbf32aea4f2cc9912ddc82867421041d5ecdbc0285
+content_sha256: 0c38ea7a26c0e854406223222585fe8582e898a00f79b95f9850845a18154768
 ---
 
 ## § 4. MORPHISMES STRICTS D’ESPACES DE FRÉCHET
@@ -129,7 +129,7 @@ Sous les hypothèses du th. 1, les propriétés a) à g) sont entraînées par l
 h) $^t u$ est un morphisme strict de $F'_b$ dans $E'_b$.
 Lorsque E et F sont tous deux des espaces de Banach, ou tous deux des espaces de Montel, la propriété h) est équivalente aux propriétés a) à g) du th. 1.
 Supposons que $^t u$ soit un morphisme strict de $F'_b$ dans $E'_b$. Nous allons prouver que l’image H de $^t u$ est fermée dans $E'_b$, d’où la première assertion du cor. 3.
-Soit G l’adhérence de l’image de $u$ dans F ; muni de la topologie induite par celle de F, c’est un espace de Fréchet. L’application $u : E \to F$ se factorise en $u = j \circ v$ où $j$ est l’injection canonique de G dans F et où $v \in \mathcal{L}(E; G)$. On a alors $^t u = ^t v \circ ^t j$, où $^t j$ est surjective d’après le th. de Hahn-Banach (II, p. 26, prop. 2) ; de plus, $^t v$ est injective puisque $v(E)$ est dense dans G (IV, p. 6, prop. 5). Par hypothèse, l’application $^t u$ de $F'_b$ sur H est ouverte ; comme $^t j$ est surjective et continue, l’application $^t v$ induit un homéomorphisme de $G'_b$ sur H. Or le dual $G'_b$ de l’espace de Fréchet G est complet (IV, p. 21, prop. 2) ; par suite, H est complet, donc fermé dans $E'_b$.
+Soit G l’adhérence de l’image de $u$ dans F ; muni de la topologie induite par celle de F, c’est un espace de Fréchet. L’application $u : E \to F$ se factorise en $u = j \circ v$ où $j$ est l’injection canonique de G dans F et où $v \in \mathscr{L}(E; G)$. On a alors $^t u = ^t v \circ ^t j$, où $^t j$ est surjective d’après le th. de Hahn-Banach (II, p. 26, prop. 2) ; de plus, $^t v$ est injective puisque $v(E)$ est dense dans G (IV, p. 6, prop. 5). Par hypothèse, l’application $^t u$ de $F'_b$ sur H est ouverte ; comme $^t j$ est surjective et continue, l’application $^t v$ induit un homéomorphisme de $G'_b$ sur H. Or le dual $G'_b$ de l’espace de Fréchet G est complet (IV, p. 21, prop. 2) ; par suite, H est complet, donc fermé dans $E'_b$.
 
 Si E et F sont des espaces de Montel, la topologie forte sur E' (resp. F') coïncide avec la topologie de la convergence compacte, et h) n’est qu’une reformulation de g).
 

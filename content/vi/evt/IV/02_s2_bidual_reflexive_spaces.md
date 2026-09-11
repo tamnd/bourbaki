@@ -33,7 +33,7 @@ subsections:
       pdf_page: 200
 statements: 30
 exercises: 24
-content_sha256: 17a4c805c9e512178f84c2fce5201824071ecd3a40b6521a687a3d4b68dc5e62
+content_sha256: 9e246d92ccfc1bfe5970bc983e4b8edbea17afdaabbae0f24767995a97966beb
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 source_content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
 translation_model: gpt-5.4
@@ -65,7 +65,7 @@ SONG ĐỐI NGẪU THỨ HAI. KHÔNG GIAN PHẢN XẠ
 
 TVS IV.15
 
-Tôpô mạnh trên $E''$ là tôpô $\mathcal{S}$, trong đó $\mathcal{S}$ là họ tất cả các tập con bị chặn mạnh của $E'$. Vì mọi tập con đẳng liên tục của $E'$ đều bị chặn mạnh (III, p. 22, prop. 9), nên tôpô ban đầu trên $E$ yếu hơn tôpô thu được bằng cách lấy ảnh ngược qua $c_E$ của tôpô mạnh trên $E''$; nó có thể thực sự yếu hơn (IV, p. 52, exerc. 1). Tuy nhiên:
+Tôpô mạnh trên $E''$ là tôpô $\mathscr{S}$, trong đó $\mathscr{S}$ là họ tất cả các tập con bị chặn mạnh của $E'$. Vì mọi tập con đẳng liên tục của $E'$ đều bị chặn mạnh (III, p. 22, prop. 9), nên tôpô ban đầu trên $E$ yếu hơn tôpô thu được bằng cách lấy ảnh ngược qua $c_E$ của tôpô mạnh trên $E''$; nó có thể thực sự yếu hơn (IV, p. 52, exerc. 1). Tuy nhiên:
 
 #### Mệnh đề 2 {#evt-iv-s2-prop-2 .statement}
 
@@ -103,7 +103,7 @@ Nói rằng $E$ là bán phản xạ có nghĩa là tôpô trên $E'_b$ tương 
 
 — *Cho E là một không gian lồi địa phương bán phản xạ. Mọi không gian con vectơ đóng M của E đều bán phản xạ; hơn nữa, tôpô mạnh trên $E'/M^\circ$ (được xét như đối ngẫu của M) là tôpô thương của tôpô mạnh trên E'.*
 
-Cho B là một tập con bị chặn của M. Vì B bị chặn trong E, và tôpô yếu $\sigma(M, M')$ trên M được cảm sinh bởi $\sigma(E, E')$ (IV, p. 10, mệnh đề 11), bao đóng của B trong M được trang bị $\sigma(M, M')$ là compact. Do đó, theo đ. lý 1, M là bán phản xạ. Khẳng định cuối cùng của hệ quả suy ra từ mệnh đề 10 của IV, p. 9, áp dụng cho tập $\mathcal{S}$ gồm tất cả các tập con đóng, lồi và bị chặn của E.
+Cho B là một tập con bị chặn của M. Vì B bị chặn trong E, và tôpô yếu $\sigma(M, M')$ trên M được cảm sinh bởi $\sigma(E, E')$ (IV, p. 10, mệnh đề 11), bao đóng của B trong M được trang bị $\sigma(M, M')$ là compact. Do đó, theo đ. lý 1, M là bán phản xạ. Khẳng định cuối cùng của hệ quả suy ra từ mệnh đề 10 của IV, p. 9, áp dụng cho tập $\mathscr{S}$ gồm tất cả các tập con đóng, lồi và bị chặn của E.
 
 #### Nhận xét 1 {#evt-iv-s2-n2-rem-1 .statement}
 
@@ -221,7 +221,7 @@ Mọi không gian Hausdorff hữu hạn chiều đều là một không gian Mon
 
 #### Ví dụ 2 {#evt-iv-s2-n5-exa-2 .statement}
 
-Với các ký hiệu và giả thiết của mệnh đề 7 ở III, p. 6, không gian E, là giới hạn quy nạp của các không gian Banach, là thùng (III, p. 25); hơn nữa, mọi tập con bị chặn của E đều compắc tương đối (III, p. 6, mệnh đề 7). Nói cách khác, E là một không gian Montel. Đặc biệt, các không gian Gevrey (III, p. 10) là các không gian Montel. \* Điều này đúng cho không gian $\mathcal{H}(K)$ gồm các mầm của các hàm giải tích trong một lân cận của một tập con compắc K của $\mathbf{C}^n$ (III, p. 10).*
+Với các ký hiệu và giả thiết của mệnh đề 7 ở III, p. 6, không gian E, là giới hạn quy nạp của các không gian Banach, là thùng (III, p. 25); hơn nữa, mọi tập con bị chặn của E đều compắc tương đối (III, p. 6, mệnh đề 7). Nói cách khác, E là một không gian Montel. Đặc biệt, các không gian Gevrey (III, p. 10) là các không gian Montel. \* Điều này đúng cho không gian $\mathscr{H}(K)$ gồm các mầm của các hàm giải tích trong một lân cận của một tập con compắc K của $\mathbf{C}^n$ (III, p. 10).*
 
 #### Ví dụ 3 {#evt-iv-s2-n5-exa-3 .statement}
 
@@ -229,9 +229,9 @@ Mọi giới hạn quy nạp ngặt E của một dãy $(E_n)$ các không gian 
 
 #### Ví dụ 4 {#evt-iv-s2-n5-exa-4 .statement}
 
-Cho U là một tập mở trong $\mathbf{R}^n$ và cho $\mathcal{C}^\infty(U)$ là không gian Fréchet của các hàm khả vi vô hạn trên U (III, p. 9). Ta sẽ chứng minh rằng đây là một không gian Montel. Vì $\mathcal{C}^\infty(U)$ là một không gian Fréchet, nó là thùng (III, p. 25, hệ quả). Cho B là một tập con bị chặn của $\mathcal{C}^\infty(U)$ và cho K là một tập con compắc của U. Với mọi $\alpha \in \mathbf{N}^n$ cho $H_{\alpha, K}$ là tập hợp các hạn chế trên K của các hàm $\partial^\alpha f$, khi $f$ chạy qua B. Cho $\alpha \in \mathbf{N}^n$; với mọi $\beta \in \mathbf{N}^n$ sao cho $|\beta| = |\alpha| + 1$, tập $H_{\alpha, K}$ bị chặn trong $\mathcal{C}(K)$ vì B bị chặn trong $\mathcal{C}^\infty(U)$; theo VAR, R., No. 2.2.3, tập $H_{\alpha, K}$ là đồng liên tục, nên (GT, X, § 2, No. 5) compắc tương đối trong $\mathcal{C}(K)$. Nhưng tôpô của $\mathcal{C}^\infty(U)$ là tôpô yếu nhất trong các tôpô mà đối với chúng mọi ánh xạ $f \mapsto \partial^\alpha f|K$ từ $\mathcal{C}^\infty(U)$ vào $\mathcal{C}(K)$ đều liên tục, do đó B compắc tương đối trong $\mathcal{C}^\infty(U)$ (GT, I, § 4, No. 1, mệnh đề 3 and § 9, No. 5, hệ quả).
+Cho U là một tập mở trong $\mathbf{R}^n$ và cho $\mathscr{C}^\infty(U)$ là không gian Fréchet của các hàm khả vi vô hạn trên U (III, p. 9). Ta sẽ chứng minh rằng đây là một không gian Montel. Vì $\mathscr{C}^\infty(U)$ là một không gian Fréchet, nó là thùng (III, p. 25, hệ quả). Cho B là một tập con bị chặn của $\mathscr{C}^\infty(U)$ và cho K là một tập con compắc của U. Với mọi $\alpha \in \mathbf{N}^n$ cho $H_{\alpha, K}$ là tập hợp các hạn chế trên K của các hàm $\partial^\alpha f$, khi $f$ chạy qua B. Cho $\alpha \in \mathbf{N}^n$; với mọi $\beta \in \mathbf{N}^n$ sao cho $|\beta| = |\alpha| + 1$, tập $H_{\alpha, K}$ bị chặn trong $\mathscr{C}(K)$ vì B bị chặn trong $\mathscr{C}^\infty(U)$; theo VAR, R., No. 2.2.3, tập $H_{\alpha, K}$ là đồng liên tục, nên (GT, X, § 2, No. 5) compắc tương đối trong $\mathscr{C}(K)$. Nhưng tôpô của $\mathscr{C}^\infty(U)$ là tôpô yếu nhất trong các tôpô mà đối với chúng mọi ánh xạ $f \mapsto \partial^\alpha f|K$ từ $\mathscr{C}^\infty(U)$ vào $\mathscr{C}(K)$ đều liên tục, do đó B compắc tương đối trong $\mathscr{C}^\infty(U)$ (GT, I, § 4, No. 1, mệnh đề 3 and § 9, No. 5, hệ quả).
 
-Tương tự, *không gian $\mathcal{C}_0^\infty(U)$ của tất cả các hàm khả vi vô hạn có giá compact trong U* (III, p. 9) *là một không gian Montel*. Thật vậy, $\mathcal{C}_0^\infty(U)$ là giới hạn quy nạp ngặt của một dãy $\mathcal{C}_{H_n}^\infty(U)$ các không gian Fréchet (III, p. 9), và chỉ cần thấy rằng mỗi không gian $\mathcal{C}_{H_n}^\infty(U)$ là một không gian Montel (*Ví dụ 3*). Nhưng một tập con bị chặn và đóng của $\mathcal{C}_0^\infty(U)$ thì đóng và bị chặn trong $\mathcal{C}^\infty(U)$, nên compact trong $\mathcal{C}^\infty(U)$, và do đó trong $\mathcal{C}_{H_n}^\infty(U)$. \*
+Tương tự, *không gian $\mathscr{C}_0^\infty(U)$ của tất cả các hàm khả vi vô hạn có giá compact trong U* (III, p. 9) *là một không gian Montel*. Thật vậy, $\mathscr{C}_0^\infty(U)$ là giới hạn quy nạp ngặt của một dãy $\mathscr{C}_{H_n}^\infty(U)$ các không gian Fréchet (III, p. 9), và chỉ cần thấy rằng mỗi không gian $\mathscr{C}_{H_n}^\infty(U)$ là một không gian Montel (*Ví dụ 3*). Nhưng một tập con bị chặn và đóng của $\mathscr{C}_0^\infty(U)$ thì đóng và bị chặn trong $\mathscr{C}^\infty(U)$, nên compact trong $\mathscr{C}^\infty(U)$, và do đó trong $\mathscr{C}_{H_n}^\infty(U)$. \*
 
 #### Mệnh đề 8 {#evt-iv-s2-prop-8 .statement}
 

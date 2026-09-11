@@ -29,7 +29,7 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 766c5c66bd0dd6abbb3dd5fde5679ccbfd3279efd130bac7917fb401314cfcf8
+content_sha256: 076881490dd895a4130169f869629c7d393bc61787c9bab8671b5d069b539f9f
 ---
 
 ## APPENDIX
@@ -71,17 +71,17 @@ By the definition of a solvable group (A, I, § 6, No. 4) there exists a finite 
 
 ### 2. Invariant means
 
-Let X be a topological space. Let $\mathcal{B}(X; \mathbf{R})$ denote the real vector space consisting of continuous bounded mappings from X into $\mathbf{R}$. Endowed with the norm $\|f\| = \sup_{x \in X} |f(x)|$, this is a Banach space (GT, X, § 3, No. 1); it is also an ordered vector space, where the relation $f \geq g$ means «$f(x) \geq g(x)$ for all $x \in X$».
+Let X be a topological space. Let $\mathscr{B}(X; \mathbf{R})$ denote the real vector space consisting of continuous bounded mappings from X into $\mathbf{R}$. Endowed with the norm $\|f\| = \sup_{x \in X} |f(x)|$, this is a Banach space (GT, X, § 3, No. 1); it is also an ordered vector space, where the relation $f \geq g$ means «$f(x) \geq g(x)$ for all $x \in X$».
 
 #### Definition 1 {#evt-iv-a0-def-1 .statement}
 
-*A positive linear form $\mu$ on the space $\mathcal{B}(X; \mathbf{R})$, where X is a topological space, for which $\|\mu\| = 1$, is called a mean on X.*
+*A positive linear form $\mu$ on the space $\mathscr{B}(X; \mathbf{R})$, where X is a topological space, for which $\|\mu\| = 1$, is called a mean on X.*
 
 \* When X is compact, a mean on X is a positive measure on X such that $\mu(X) = 1$. \*
 
 #### Lemma 1 {#evt-iv-a0-lem-1 .statement}
 
-*The set K of means on X is the subset of the unit ball of the dual of the Banach space $E = \mathcal{B}(X; \mathbf{R})$ whose elements are the linear forms $\mu$ such that $\mu(1) = 1$. It is a subset of $E'$ which is convex and compact for $\sigma(E', E)$.*
+*The set K of means on X is the subset of the unit ball of the dual of the Banach space $E = \mathscr{B}(X; \mathbf{R})$ whose elements are the linear forms $\mu$ such that $\mu(1) = 1$. It is a subset of $E'$ which is convex and compact for $\sigma(E', E)$.*
 
 Let $\mu$ be a linear form on E, such that $\mu(1) = 1$. For every function $f \in E$, we define the function $f' \in E$ by $f'(x) = \|f\| - f(x)$ ($x \in X$). First assume that $\mu$ is a mean; for every $f \in E$, we have $f' \geq 0$, hence $\mu(f') \geq 0$, *i.e.* $\mu(f) \leq \|f\|$; therefore $\|\mu\| \leq 1$.
 
@@ -119,16 +119,16 @@ It is enough to apply prop. 1 to the solvable group $G \times G$ acting on $G$ b
 
 ### 3. Ryll-Nardzewski theorem
 
-In this section, $E$ denotes a normed *space* over the field $\mathbf{R}$ and $\mathcal{T}$ a Hausdorff locally convex topology on $E$ for which the norm of $E$ is *lower semi-continuous*. These hypotheses are in particular satisfied in the following cases :
+In this section, $E$ denotes a normed *space* over the field $\mathbf{R}$ and $\mathscr{T}$ a Hausdorff locally convex topology on $E$ for which the norm of $E$ is *lower semi-continuous*. These hypotheses are in particular satisfied in the following cases :
 
-a) $\mathcal{T}$ is the topology induced by the norm of the normed space $E$.
-b) $\mathcal{T}$ is the weakened topology $\sigma(E, E')$ of the normed space $E$.
-c) $E$ is the dual of a normed space $F$ and $\mathcal{T} = \sigma(F', F)$.
-d) There exist two normed spaces $F_1$ and $F_2$ such that $E = \mathcal{L}(F_1 ; F_2)$ and $\mathcal{T}$ is the topology of simple convergence.
+a) $\mathscr{T}$ is the topology induced by the norm of the normed space $E$.
+b) $\mathscr{T}$ is the weakened topology $\sigma(E, E')$ of the normed space $E$.
+c) $E$ is the dual of a normed space $F$ and $\mathscr{T} = \sigma(F', F)$.
+d) There exist two normed spaces $F_1$ and $F_2$ such that $E = \mathscr{L}(F_1 ; F_2)$ and $\mathscr{T}$ is the topology of simple convergence.
 
-*Unless otherwise expressly stated, the topological notions refer to the topology $\mathcal{T}$.*
+*Unless otherwise expressly stated, the topological notions refer to the topology $\mathscr{T}$.*
 
-Let $K$ be a convex subset of $E$. Suppose that $K$ is compact (for the topology $\mathcal{T}$), and that $K$ satisfies the first axiom of countability for the distance defined by the norm of $E$.
+Let $K$ be a convex subset of $E$. Suppose that $K$ is compact (for the topology $\mathscr{T}$), and that $K$ satisfies the first axiom of countability for the distance defined by the norm of $E$.
 
 #### Lemma 2 {#evt-iv-a0-lem-2 .statement}
 
@@ -157,7 +157,7 @@ This completes the proof.
 
 #### Lemma 3 {#evt-iv-a0-lem-3 .statement}
 
-Let G be a group of continuous (for $\mathcal{T}$) affine transformations on K. Suppose that K is non-empty and that $\|gx - gy\| = \|x - y\|$ for all x, y in K and all g in G. Then there exists a point in K which is invariant under G.
+Let G be a group of continuous (for $\mathscr{T}$) affine transformations on K. Suppose that K is non-empty and that $\|gx - gy\| = \|x - y\|$ for all x, y in K and all g in G. Then there exists a point in K which is invariant under G.
 
 Let $\mathfrak{J}$ be the family of non-empty subsets of K which are closed convex and stable for G. If $(L_\alpha)_{\alpha \in I}$ is a family of elements of $\mathfrak{J}$ which is totally ordered by inclusion, then the set $L = \bigcap_{\alpha \in I} L_\alpha$ belongs to $\mathfrak{J}$. Consequently (S, III, § 3, No. 4, th. 2), there exists an element L in $\mathfrak{J}$ which is minimal for the relation of inclusion. We shall prove that L reduces to a point.
 
@@ -185,7 +185,7 @@ For every $g \in G$, let $K_g$ denote the set of all points x in K such that $gx
 
 — Let E be a reflexive Banach space, G a group of automorphisms of the normed space E, and K a subset of E. Suppose that K is non-empty, convex, closed, bounded and stable under G. Then there exists a point in K which is invariant under G.
 
-Since E is reflexive, K is compact for $\sigma(E, E')$ (IV, p. 15, th. 1). Moreover, every element of G belongs to $\mathcal{L}(E)$.
+Since E is reflexive, K is compact for $\sigma(E, E')$ (IV, p. 15, th. 1). Moreover, every element of G belongs to $\mathscr{L}(E)$.
 
 ### 4. Applications.
 
@@ -195,7 +195,7 @@ Let E be a complex hilbertian space, G a group and $\pi$ a unitary representatio
 We shall show that there exists a unique point in $K_x$ which is invariant under $\pi(G)$, namely the projection of x on $E^G$. By IV, p. 44, corollary (applied to the underlying real vector space to E), there exists a point in $K_x$ which is invariant under $\pi(G)$; let a be such a point; then $a \in E^G$. Let P be the set of all $y \in E$ such that $y - x$ is orthogonal to $E^G$; we see immediately that P is closed, convex and invariant under $\pi(G)$; therefore $x \in P$, hence $K_x \subset P$ and finally $a \in P$. In other words, $a - x$ is orthogonal to $E^G$; consequently a is the projection of x onto $E^G$. \*
 
 \* B) Trace of an operator in a hilbertian space :
-Suppose that the representation $\pi$ is irreducible, that is, that there exists no hilbertian subspace of E, distinct from $\{0\}$ and from E, which is invariant under $\pi(G)$. Let $F = \mathcal{L}^2(E)$ be the hilbertian space of all Hilbert-Schmidt endomorphisms of E, with the scalar product $\langle u|v \rangle = \operatorname{Tr}(u^*v)$. We define a unitary representation $\lambda$ from G into F by the formula
+Suppose that the representation $\pi$ is irreducible, that is, that there exists no hilbertian subspace of E, distinct from $\{0\}$ and from E, which is invariant under $\pi(G)$. Let $F = \mathscr{L}^2(E)$ be the hilbertian space of all Hilbert-Schmidt endomorphisms of E, with the scalar product $\langle u|v \rangle = \operatorname{Tr}(u^*v)$. We define a unitary representation $\lambda$ from G into F by the formula
 
 $$
 \lambda(g).u = \pi(g)\ u\pi(g)^{-1} \quad (u \in F,\ g \in G)
@@ -203,15 +203,15 @@ $$
 
 The space $F^G$ of all elements of E invariant under $\lambda(G)$ consists of the Hilbert-Schmidt endomorphisms $u$ of E which commute with $\pi(g)$ for all $g \in G$. By Schur’s lemma, such a $u$ is a homothety. Hence we must consider two cases :
 1) if E is infinite dimensional, then $F^G = \{0\}$;
-2) if E is finite dimensional, then $F = \mathcal{L}(E)$ and $F^G = \mathbf{C}.1_E$.
+2) if E is finite dimensional, then $F = \mathscr{L}(E)$ and $F^G = \mathbf{C}.1_E$.
 
 Applying the result of A) to the unitary representation $\lambda$, we obtain the following theorem :
 
-Let $u \in \mathcal{L}^2(E)$, and let $A_u$ be the closed convex envelope in $\mathcal{L}^2(E)$ of the set of endomorphisms $\pi(g)\ u\pi(g)^{-1}$ of E, where g runs through G. If E is infinite dimensional, we have $0 \in A_u$. If E is finite dimensional with dimension d, there exists a unique homothety in $A_u$, namely the projection $\frac{1}{d}\ \operatorname{Tr}(u).\ 1_E$ of u onto the subspace $\mathbf{C}.1_E$ of $\mathcal{L}^2(E)$. \*
+Let $u \in \mathscr{L}^2(E)$, and let $A_u$ be the closed convex envelope in $\mathscr{L}^2(E)$ of the set of endomorphisms $\pi(g)\ u\pi(g)^{-1}$ of E, where g runs through G. If E is infinite dimensional, we have $0 \in A_u$. If E is finite dimensional with dimension d, there exists a unique homothety in $A_u$, namely the projection $\frac{1}{d}\ \operatorname{Tr}(u).\ 1_E$ of u onto the subspace $\mathbf{C}.1_E$ of $\mathscr{L}^2(E)$. \*
 
 C) Haar measure of a compact group:
 
-Let G be a compact group and let E = $\mathcal{C}(G, \mathbf{R})$ be the Banach space of all real valued continuous functions on G, endowed with the norm
+Let G be a compact group and let E = $\mathscr{C}(G, \mathbf{R})$ be the Banach space of all real valued continuous functions on G, endowed with the norm
 
 $$
 \| f \| = \sup_{x \in G} |f(x)| .
@@ -253,7 +253,7 @@ It is immediate that $\mu$ is invariant under the left translations of $G$, and 
 
 Let $X$ be a Hausdorff topological space, $\mu$ a positive bounded measure on $X$, and $G$ a group of homeomorphisms of $X$. Suppose that for all $g \in G$, the measure $g.\mu$, the image of $\mu$ under the mapping $g : X \to X$ is of base $\mu$. Let $u_g$ be a positive $\mu$-integrable function on $X$ such that $g.\mu = u_g.\mu$. Suppose also that there exist two positive $\mu$ integrable functions $\phi$ and $\psi$ on $X$, which are not $\mu$-null and are such that $\phi \leq u_g \leq \psi$ $\mu$-almost everywhere for all $g \in G$. We shall prove that there exists a positive bounded measure $\nu \neq 0$ on $X$, with base $\mu$, and invariant under $G$.
 
-Let $P$ be the subset of the Banach space $E = L^1(X, \mu)$ consisting of classes of functions $f$ such that $\phi \leq f \leq \psi$ $\mu$-almost everywhere. Then $P$ is compact for the weakened topology $\sigma(E, E')$. The mapping $h \mapsto h.\mu$ from $P$ into the Banach space $F = \mathcal{M}^b(X)$ of bounded real measures on $X$, is a bijection from $P$ onto a subset $P_1$ of $E$ which is convex and compact for the topology $\sigma(F, F')$. By hypothesis, $g.\mu \in P_1$ for all $g \in G$. Let $K$ be the closed convex envelope of the set of all measures $g.\mu$. For all $g \in G$, the mapping $\nu \mapsto g.\nu$ is an isometric affine transformation of $K$. By the Ryll-Nardzewski th. (IV, p. 43, th. 2), there exists a measure $\nu \in K$ which is invariant under $G$. We have $\phi.\mu \leq \nu$, hence $\nu \neq 0$. \*
+Let $P$ be the subset of the Banach space $E = L^1(X, \mu)$ consisting of classes of functions $f$ such that $\phi \leq f \leq \psi$ $\mu$-almost everywhere. Then $P$ is compact for the weakened topology $\sigma(E, E')$. The mapping $h \mapsto h.\mu$ from $P$ into the Banach space $F = \mathscr{M}^b(X)$ of bounded real measures on $X$, is a bijection from $P$ onto a subset $P_1$ of $E$ which is convex and compact for the topology $\sigma(F, F')$. By hypothesis, $g.\mu \in P_1$ for all $g \in G$. Let $K$ be the closed convex envelope of the set of all measures $g.\mu$. For all $g \in G$, the mapping $\nu \mapsto g.\nu$ is an isometric affine transformation of $K$. By the Ryll-Nardzewski th. (IV, p. 43, th. 2), there exists a measure $\nu \in K$ which is invariant under $G$. We have $\phi.\mu \leq \nu$, hence $\nu \neq 0$. \*
 
 Exercises
 

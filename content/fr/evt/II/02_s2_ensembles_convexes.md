@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 52
 exercises: 43
-content_sha256: 946d8a0748d23d8bc1c11b4a00c2ae233db8474c5d3d4c515fca9190ebbd5a84
+content_sha256: 5895c753e58fc60a795a6812ec7066dafb95c78d48636cebfbc45b8a10f0a9ec
 ---
 
 ## § 2. ENSEMBLES CONVEXES
@@ -294,7 +294,7 @@ Sur l’espace vectoriel $E = \mathbf{R}^A$ de toutes les fonctions numériques 
 
 #### Exemple {#evt-ii-s2-n5-exa-2 .statement}
 
-\* Soit H un espace hilbertien réel ; dans l’espace vectoriel $\mathcal{L}(H)$ des endomorphismes continus de H, les endomorphismes hermitiens positifs forment un cône convexe pointé saillant ; ce cône définit donc une structure d’ordre compatible avec la structure d’espace vectoriel de $\mathcal{L}(H)$ et pour laquelle la relation $A \leq B$ signifie que $B - A$ est un endomorphisme hermitien positif. \*
+\* Soit H un espace hilbertien réel ; dans l’espace vectoriel $\mathscr{L}(H)$ des endomorphismes continus de H, les endomorphismes hermitiens positifs forment un cône convexe pointé saillant ; ce cône définit donc une structure d’ordre compatible avec la structure d’espace vectoriel de $\mathscr{L}(H)$ et pour laquelle la relation $A \leq B$ signifie que $B - A$ est un endomorphisme hermitien positif. \*
 
 Si P est un cône convexe pointé quelconque dans un espace vectoriel E, $P \cap (-P)$ est un sous-espace vectoriel H de E (II, p. 12, cor. 2). L’image canonique $P'$ de P dans E/H est un cône convexe, et l’image réciproque de $P'$ dans E est P. On a donc $P' \cap (-P') = \{0\}$, et $P'$ définit sur E/H une structure d’ordre compatible avec sa structure d’espace vectoriel.
 
@@ -392,7 +392,7 @@ Un espace vectoriel ordonné sur E, muni d’une topologie compatible avec sa st
 
 L’espace $\mathbf{R}^n$, muni de sa topologie usuelle et de la structure d’ordre produit des structures d’ordre de ses facteurs, est un espace vectoriel topologique ordonné. Par contre, pour $n \geqslant 2$, lorsqu’on munit $\mathbf{R}^n$ de l’ordre lexicographique (E, III, p. 23), la topologie usuelle n’est pas compatible avec la structure d’espace vectoriel ordonné de $\mathbf{R}^n$.
 
-Soit A un ensemble ; l’espace vectoriel $\mathcal{B}(A ; \mathbf{R})$ des fonctions numériques bornées dans A, muni de la topologie définie par la norme $\|x\| = \sup_{t \in A} |x(t)|$ et de la structure d’ordre induite par la structure d’ordre produit sur $\mathbf{R}^A$, est un espace vectoriel topologique ordonné.
+Soit A un ensemble ; l’espace vectoriel $\mathscr{B}(A ; \mathbf{R})$ des fonctions numériques bornées dans A, muni de la topologie définie par la norme $\|x\| = \sup_{t \in A} |x(t)|$ et de la structure d’ordre induite par la structure d’ordre produit sur $\mathbf{R}^A$, est un espace vectoriel topologique ordonné.
 
 Dans un espace vectoriel topologique ordonné E, l’ensemble des éléments $x \leqslant 0$ est fermé ; les translations étant des homéomorphismes, on en déduit que pour tout $a \in E$, l’ensemble des $x \geqslant a$ (resp. $x \leqslant a$) est fermé. Comme les relations $x \geqslant 0$ et $x \leqslant 0$ entraînent $x = 0$, $\{0\}$ est fermé, donc E est séparé.
 

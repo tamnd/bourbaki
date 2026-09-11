@@ -29,7 +29,7 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: 13b2d06e3e8c8872d9e3f91186077fdb068739451dbc3faf9b1d59434350b643
+content_sha256: 6fa9993f99ed891eed3d010811e0f5abc1a637fc976e8492d3f06438096abbc2
 ---
 
 ## § 2. ORTHOGONAL FAMILIES IN A HILBERTIAN SPACE
@@ -58,7 +58,7 @@ $$
 $$
 hence $\sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty$. If $x \neq 0$, we have $\langle x|x \rangle = \sum_{i \in I} \|x_i\|^2 > 0$, hence assertion b) follows.
 
-We recall that S is the subspace of P consisting of all families $x = (x_i)_{i \in I}$ such that the set of all $i \in I$ for which $x_i \neq 0$ is finite. It follows immediately that S is dense in E; hence it remains to prove that E is *complete* for the topology $\mathcal{T}_1$ obtained by the norm $\|x\| = \langle x|x \rangle^{1/2}$. Let $\mathcal{T}_2$ be the topology induced on E by the product topology on $\prod_{i \in I} E_i$. For every $r > 0$, let $B_r$ be the set of all $x \in E$ such that $\|x\| \leq r$. This relation implies that we have $\sum_{i \in J} \|x_i\|^2 \leq r^2$ for every finite subset J of I, and so $B_r$ is a closed subset of $\prod_{i \in I} E_i$, hence also complete. The fact that E is complete for $\mathcal{T}_1$ now follows from GT, III, § 3, No. 5, cor. 2 to prop. 10.
+We recall that S is the subspace of P consisting of all families $x = (x_i)_{i \in I}$ such that the set of all $i \in I$ for which $x_i \neq 0$ is finite. It follows immediately that S is dense in E; hence it remains to prove that E is *complete* for the topology $\mathscr{T}_1$ obtained by the norm $\|x\| = \langle x|x \rangle^{1/2}$. Let $\mathscr{T}_2$ be the topology induced on E by the product topology on $\prod_{i \in I} E_i$. For every $r > 0$, let $B_r$ be the set of all $x \in E$ such that $\|x\| \leq r$. This relation implies that we have $\sum_{i \in J} \|x_i\|^2 \leq r^2$ for every finite subset J of I, and so $B_r$ is a closed subset of $\prod_{i \in I} E_i$, hence also complete. The fact that E is complete for $\mathscr{T}_1$ now follows from GT, III, § 3, No. 5, cor. 2 to prop. 10.
 
 #### Definition 1 {#evt-v-s2-def-1 .statement}
 

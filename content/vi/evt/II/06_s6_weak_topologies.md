@@ -45,9 +45,9 @@ subsections:
       pdf_page: 89
 statements: 41
 exercises: 20
-content_sha256: 108891d37946b054beb2dc995d035dae643d73ba7c0a89d5271cd58e2a07ac5c
+content_sha256: b2bd12c5e60fd8c9837fb1ccdf1444c99f255927a816d3eae075da16478d2dfc
 translated_from: content/en/evt/II/06_s6_weak_topologies.md
-source_content_sha256: 768c754e1011a182215e3ae9df8c627a7d0dc5c3af59c06cf42dd04db3e39059
+source_content_sha256: e1bc460d0a51b883b5ee53c23ecc3ba068068ecf43bcc87316cace3e1948ad43
 translation_model: gpt-5.4
 translation_run: translate-vi-bef4b978
 glossary_version: 34
@@ -234,13 +234,13 @@ Do đó ta có thể nói rằng (nếu $\sigma(F, G)$ là Hausdorff) các *tậ
 
 #### Hệ quả 3 {#evt-ii-s6-thm-1-cor-3 .statement}
 
-*Cho* $\mathcal{T}$ *là tôpô của một không gian lồi địa phương* $E$ *và* $E'$ *là đối ngẫu của nó* (II, p. 42, def. 1).
+*Cho* $\mathscr{T}$ *là tôpô của một không gian lồi địa phương* $E$ *và* $E'$ *là đối ngẫu của nó* (II, p. 42, def. 1).
 
-(i) *Các tập lồi đóng trong E là như nhau đối với tôpô $\mathcal{T}$ và đối với tôpô yếu $\sigma(E, E')$.
+(i) *Các tập lồi đóng trong E là như nhau đối với tôpô $\mathscr{T}$ và đối với tôpô yếu $\sigma(E, E')$.
 
-(ii) *Với mọi tập con M của E, tập cực $M^{\circ\circ}$ trong E của tập cực $M^\circ$ của M trong $E'$, là bao lồi đóng của $M \cup \{0\}$ đối với tôpô $\mathcal{T}$.
+(ii) *Với mọi tập con M của E, tập cực $M^{\circ\circ}$ trong E của tập cực $M^\circ$ của M trong $E'$, là bao lồi đóng của $M \cup \{0\}$ đối với tôpô $\mathscr{T}$.
 
-Rõ ràng, (ii) suy ra từ (i) và đ.l. 1. Từ định nghĩa của đối ngẫu $E'$, suy ra từ II, p. 43, mệnh đề 3 rằng các dạng tuyến tính liên tục trên E đối với tôpô $\mathcal{T}$ cũng chính là các dạng tuyến tính liên tục đối với $\sigma(E, E')$. Vì vậy các nửa-không gian đóng trong E là như nhau đối với $\mathcal{T}$ và đối với $\sigma(E, E')$ (II, p. 15, mệnh đề 17) và do đó mệnh đề (i) suy ra từ II, p. 38, hệ quả 1.
+Rõ ràng, (ii) suy ra từ (i) và đ.l. 1. Từ định nghĩa của đối ngẫu $E'$, suy ra từ II, p. 43, mệnh đề 3 rằng các dạng tuyến tính liên tục trên E đối với tôpô $\mathscr{T}$ cũng chính là các dạng tuyến tính liên tục đối với $\sigma(E, E')$. Vì vậy các nửa-không gian đóng trong E là như nhau đối với $\mathscr{T}$ và đối với $\sigma(E, E')$ (II, p. 15, mệnh đề 17) và do đó mệnh đề (i) suy ra từ II, p. 38, hệ quả 1.
 
 ### 4. Phép chuyển vị của một ánh xạ tuyến tính liên tục
 
@@ -356,9 +356,9 @@ Cho $F, G$ là hai không gian vectơ thực đối ngẫu với nhau. Cho $M$ l
 
 (i) Mọi phần tử của $G/N$ là một lớp mod. $N$ của một phần tử của $G$; nếu $z_i (1 \leq i \leq n)$ là các phần tử của $G$ và $\dot{z}_i (1 \leq i \leq n)$ là lớp của $z_i$ trong $G/N$ thì tập các $y \in M$ sao cho $|\langle y, \dot{z}_i \rangle| \leq \alpha$ với $1 \leq i \leq n$ là vết trên $M$ của tập các $x \in F$ sao cho $|\langle x, z_i \rangle| \leq \alpha$ với $1 \leq i \leq n$; kết luận suy ra từ định nghĩa các lân cận của 0 đối với tôpô yếu.
 
-(ii) Cho $p : G \to G/N$ là toàn cấu chính tắc. Ta chỉ ra rằng *tôpô thương* $\mathcal{T}$ *của* $\sigma(G, F)$ *theo* $N$ *trùng với* $\sigma(G/N, N^\circ)$. Vì với $z \in G, y \in N^\circ$, ta có $\langle y, p(z) \rangle = \langle y, z \rangle$, nên suy ra mọi lân cận của 0 đối với $\sigma(G/N, N^\circ)$ đều có dạng $p(V)$, trong đó $V$ là một lân cận của 0 đối với $\sigma(G, F)$ bão hòa theo quan hệ $z - z' \in N$, do đó $\mathcal{T}$ mịn hơn $\sigma(G/N, N^\circ)$. Ngược lại, cho $U = W(y_1, ..., y_n; \alpha)$ là một lân cận của 0 trong $G$ đối với $\sigma(G, F)$, trong đó $y_i \in F$ với $1 \leq i \leq n$ và $\alpha > 0$; ta sẽ thấy rằng với $1 \leq i \leq n$, tồn tại các phần tử $t_i \in N^\circ$ sao cho nếu đặt $U' = W(t_1, ..., t_n; \alpha)$, thì $p(U') \subset p(U)$; điều này sẽ chỉ ra rằng $\sigma(G/N, N^\circ)$ mịn hơn $\mathcal{T}$ và do đó thực ra trùng với $\mathcal{T}$. Bây giờ, gọi $L$ là không gian con vectơ của $F$ sinh bởi $N^\circ$ và các $y_i$, và ký hiệu bởi $P$ không gian con bù của $N^\circ$ trong $L$; nó có số chiều hữu hạn, giả sử bằng $m$. Gọi $(x_j)_{1 \leq j \leq m}$ là một cơ sở của $P$; các hạn chế lên $N$ của các dạng tuyến tính $x \mapsto \langle x_j, z \rangle$ là độc lập tuyến tính, vì nếu không thì tồn tại $x \neq 0$ trong $P$ sao cho $\langle x, z \rangle = 0$ với mọi $z \in N$, nghĩa là $x \in N^\circ$, điều này mâu thuẫn với định nghĩa của $P$. Vậy ta kết luận rằng với mọi $z' \in G$, tồn tại $s \in N$ sao cho $\langle x_j, z' \rangle = \langle x_j, s \rangle$ với mọi $j$; nếu $z' = z + s$, ta có $\langle x, z \rangle = 0$ với mọi $x \in P$. Như vậy, đặt $y_i = t_i + w_i$, trong đó $t_i \in N^\circ$ và $w_i \in P$; ta có $\langle y_i, z \rangle = \langle t_i, z \rangle = \langle t_i, z' \rangle$ với $1 \leq i \leq n$; do đó, với mọi $z' \in U'$, tồn tại $z \in U$ sao cho $z' - z \in N$, nghĩa là ta có $p(U') \subset p(U)$.
+(ii) Cho $p : G \to G/N$ là toàn cấu chính tắc. Ta chỉ ra rằng *tôpô thương* $\mathscr{T}$ *của* $\sigma(G, F)$ *theo* $N$ *trùng với* $\sigma(G/N, N^\circ)$. Vì với $z \in G, y \in N^\circ$, ta có $\langle y, p(z) \rangle = \langle y, z \rangle$, nên suy ra mọi lân cận của 0 đối với $\sigma(G/N, N^\circ)$ đều có dạng $p(V)$, trong đó $V$ là một lân cận của 0 đối với $\sigma(G, F)$ bão hòa theo quan hệ $z - z' \in N$, do đó $\mathscr{T}$ mịn hơn $\sigma(G/N, N^\circ)$. Ngược lại, cho $U = W(y_1, ..., y_n; \alpha)$ là một lân cận của 0 trong $G$ đối với $\sigma(G, F)$, trong đó $y_i \in F$ với $1 \leq i \leq n$ và $\alpha > 0$; ta sẽ thấy rằng với $1 \leq i \leq n$, tồn tại các phần tử $t_i \in N^\circ$ sao cho nếu đặt $U' = W(t_1, ..., t_n; \alpha)$, thì $p(U') \subset p(U)$; điều này sẽ chỉ ra rằng $\sigma(G/N, N^\circ)$ mịn hơn $\mathscr{T}$ và do đó thực ra trùng với $\mathscr{T}$. Bây giờ, gọi $L$ là không gian con vectơ của $F$ sinh bởi $N^\circ$ và các $y_i$, và ký hiệu bởi $P$ không gian con bù của $N^\circ$ trong $L$; nó có số chiều hữu hạn, giả sử bằng $m$. Gọi $(x_j)_{1 \leq j \leq m}$ là một cơ sở của $P$; các hạn chế lên $N$ của các dạng tuyến tính $x \mapsto \langle x_j, z \rangle$ là độc lập tuyến tính, vì nếu không thì tồn tại $x \neq 0$ trong $P$ sao cho $\langle x, z \rangle = 0$ với mọi $z \in N$, nghĩa là $x \in N^\circ$, điều này mâu thuẫn với định nghĩa của $P$. Vậy ta kết luận rằng với mọi $z' \in G$, tồn tại $s \in N$ sao cho $\langle x_j, z' \rangle = \langle x_j, s \rangle$ với mọi $j$; nếu $z' = z + s$, ta có $\langle x, z \rangle = 0$ với mọi $x \in P$. Như vậy, đặt $y_i = t_i + w_i$, trong đó $t_i \in N^\circ$ và $w_i \in P$; ta có $\langle y_i, z \rangle = \langle t_i, z \rangle = \langle t_i, z' \rangle$ với $1 \leq i \leq n$; do đó, với mọi $z' \in U'$, tồn tại $z \in U$ sao cho $z' - z \in N$, nghĩa là ta có $p(U') \subset p(U)$.
 
-Trở lại trường hợp M là một không gian con bất kỳ của $N^\circ$, chú ý rằng hiển nhiên $\sigma(G/N, M) = \sigma(G/N, M + G^\circ)$; hơn nữa, từ mệnh đề 3 của II, p. 43, ta thấy rằng, nếu $y \in N^\circ$ sao cho dạng tuyến tính $\dot{z} \mapsto \langle y, \dot{z} \rangle$ liên tục đối với $\sigma(G/N, M)$, thì tất yếu $y \in M + G^\circ$. Ta kết luận rằng điều kiện $M + G^\circ = N^\circ$ là cần và đủ để tôpô thương $\mathcal{T}$ bằng $\sigma(G/N, M)$.
+Trở lại trường hợp M là một không gian con bất kỳ của $N^\circ$, chú ý rằng hiển nhiên $\sigma(G/N, M) = \sigma(G/N, M + G^\circ)$; hơn nữa, từ mệnh đề 3 của II, p. 43, ta thấy rằng, nếu $y \in N^\circ$ sao cho dạng tuyến tính $\dot{z} \mapsto \langle y, \dot{z} \rangle$ liên tục đối với $\sigma(G/N, M)$, thì tất yếu $y \in M + G^\circ$. Ta kết luận rằng điều kiện $M + G^\circ = N^\circ$ là cần và đủ để tôpô thương $\mathscr{T}$ bằng $\sigma(G/N, M)$.
 
 #### Nhận xét {#evt-ii-s6-n5-rem-1 .statement}
 
@@ -424,7 +424,7 @@ c) $^t u$ là một cấu xạ ngặt của $G_2$ vào $G_1$.
 
 — Cho $(F_i, G_i)_{i \in I}$ là một họ các cặp không gian đối ngẫu. Cho $F = \prod_{i \in I} F_i$ là không gian tích của các $F_i$ và $G = \bigoplus_{i \in I} G_i$ là tổng trực tiếp của các $G_i$. Nếu, với mọi $x = (x_i) \in F$ và mọi $y = (y_i) \in G$, ta đặt $\langle x, y \rangle = \sum_{i \in I} \langle x_i, y_i \rangle$ (một tổng chỉ có hữu hạn số hạng khác không) thì tôpô $\sigma(F, G)$ (ứng với dạng song tuyến tính $(x, y) \mapsto \langle x, y \rangle$) là tích của các tôpô $\sigma(F_i, G_i)$.
 
-Thật vậy, cho một tôpô $\mathcal{T}$ trên $F$; để với mọi $y \in G$, dạng tuyến tính $x \mapsto \langle x, y \rangle$ liên tục đối với $\mathcal{T}$, thì điều kiện cần và đủ, theo định nghĩa của $\langle x, y \rangle$, là mỗi ánh xạ $x \mapsto \langle \operatorname{pr}_i x, y_i \rangle$ đều liên tục đối với $\mathcal{T}$, trong đó $i$ tùy ý trong $I$ và $y_i$ trong $G_i$; nhưng điều đó có nghĩa là mỗi ánh xạ $\operatorname{pr}_i$ của $F$ vào $F_i$ là liên tục đối với $\mathcal{T}$ và đối với $\sigma(F_i, G_i)$ (I, p. 10, hệ quả 1); điều này hoàn tất chứng minh.
+Thật vậy, cho một tôpô $\mathscr{T}$ trên $F$; để với mọi $y \in G$, dạng tuyến tính $x \mapsto \langle x, y \rangle$ liên tục đối với $\mathscr{T}$, thì điều kiện cần và đủ, theo định nghĩa của $\langle x, y \rangle$, là mỗi ánh xạ $x \mapsto \langle \operatorname{pr}_i x, y_i \rangle$ đều liên tục đối với $\mathscr{T}$, trong đó $i$ tùy ý trong $I$ và $y_i$ trong $G_i$; nhưng điều đó có nghĩa là mỗi ánh xạ $\operatorname{pr}_i$ của $F$ vào $F_i$ là liên tục đối với $\mathscr{T}$ và đối với $\sigma(F_i, G_i)$ (I, p. 10, hệ quả 1); điều này hoàn tất chứng minh.
 
 #### Nhận xét {#evt-ii-s6-n6-rem-1 .statement}
 

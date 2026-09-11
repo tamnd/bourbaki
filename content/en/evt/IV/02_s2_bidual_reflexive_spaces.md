@@ -33,7 +33,7 @@ subsections:
       pdf_page: 200
 statements: 32
 exercises: 26
-content_sha256: d382fb6ed9174e8bcbf2dc18f510bf2f2a8359e0d8e626232137e711a75a6927
+content_sha256: 673d74e415867270e5bde1942d94224c165fb8df9ad99ad5c1376b35287561bc
 ---
 
 ## § 2. BIDUAL. REFLEXIVE SPACES
@@ -58,7 +58,7 @@ BIDUAL. REFLEXIVE SPACES
 
 TVS IV.15
 
-The strong topology on $E''$ is the $\mathcal{S}$-topology, where $\mathcal{S}$ is the family of all strongly bounded subsets of $E'$. Since every equicontinuous subset of $E'$ is strongly bounded (III, p. 22, prop. 9), the initial topology on $E$ is coarser than the topology obtained by taking the inverse image under $c_E$ of the strong topology on $E''$; it can be strictly coarser (IV, p. 52, exerc. 1). However:
+The strong topology on $E''$ is the $\mathscr{S}$-topology, where $\mathscr{S}$ is the family of all strongly bounded subsets of $E'$. Since every equicontinuous subset of $E'$ is strongly bounded (III, p. 22, prop. 9), the initial topology on $E$ is coarser than the topology obtained by taking the inverse image under $c_E$ of the strong topology on $E''$; it can be strictly coarser (IV, p. 52, exerc. 1). However:
 
 #### Proposition 2 {#evt-iv-s2-prop-2 .statement}
 
@@ -96,7 +96,7 @@ To say that $E$ is semi-reflexive means that the topology on $E'_b$ is compatibl
 
 — *Let E be a locally convex semi-reflexive space. Every closed vector subspace M of E is semi-reflexive; moreover, the strong topology on $E'/M^\circ$ (considered as the dual of M) is the quotient of the strong topology on E'.
 
-Let B be a bounded subset of M. Since B is bounded in E, and the weakened topology $\sigma(M, M')$ on M is induced by $\sigma(E, E')$ (IV, p. 10, prop. 11), the closure of B in M endowed with $\sigma(M, M')$ is compact. Hence, by th. 1, M is semi-reflexive. The last assertion of the corollary follows from prop. 10 of IV, p. 9, applied to the set $\mathcal{S}$ of all closed, convex and bounded subsets of E.
+Let B be a bounded subset of M. Since B is bounded in E, and the weakened topology $\sigma(M, M')$ on M is induced by $\sigma(E, E')$ (IV, p. 10, prop. 11), the closure of B in M endowed with $\sigma(M, M')$ is compact. Hence, by th. 1, M is semi-reflexive. The last assertion of the corollary follows from prop. 10 of IV, p. 9, applied to the set $\mathscr{S}$ of all closed, convex and bounded subsets of E.
 
 #### Remark 1 {#evt-iv-s2-n2-rem-1 .statement}
 
@@ -220,7 +220,7 @@ Every finite dimensional Hausdorff space is a Montel space. A normed space which
 
 #### Example 2 {#evt-iv-s2-n5-exa-2 .statement}
 
-With the notations and hypothesis of prop. 7 of III, p. 6, the space E, being the inductive limit of Banach spaces, is barrelled (III, p. 25); moreover, every bounded subset of E is relatively compact (III, p. 6, prop. 7). In other words, E is a Montel space. In particular, Gevrey spaces (III, p. 10) are Montel spaces. \* This is true for the space $\mathcal{H}(K)$ consisting of germs of functions analytic in a neighbourhood of a compact subset K of $\mathbf{C}^n$ (III, p. 10).*
+With the notations and hypothesis of prop. 7 of III, p. 6, the space E, being the inductive limit of Banach spaces, is barrelled (III, p. 25); moreover, every bounded subset of E is relatively compact (III, p. 6, prop. 7). In other words, E is a Montel space. In particular, Gevrey spaces (III, p. 10) are Montel spaces. \* This is true for the space $\mathscr{H}(K)$ consisting of germs of functions analytic in a neighbourhood of a compact subset K of $\mathbf{C}^n$ (III, p. 10).*
 
 #### Example 3 {#evt-iv-s2-n5-exa-3 .statement}
 
@@ -228,9 +228,9 @@ Every strict inductive limit E of a sequence $(E_n)$ of Montel spaces (II, p. 33
 
 #### Example 4 {#evt-iv-s2-n5-exa-4 .statement}
 
-\* Let U be an open set in $\mathbf{R}^n$ and let $\mathcal{C}^\infty(U)$ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $\mathcal{C}^\infty(U)$ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $\mathcal{C}^\infty(U)$ and let K be a compact subset of U. For every $\alpha \in \mathbf{N}^n$ let $H_{\alpha, K}$ be the set of restrictions to K of the functions $\partial^\alpha f$, as $f$ runs through B. Let $\alpha \in \mathbf{N}^n$; for every $\beta \in \mathbf{N}^n$ such that $|\beta| = |\alpha| + 1$, the set $H_{\alpha, K}$ is bounded in $\mathcal{C}(K)$ since B is bounded in $\mathcal{C}^\infty(U)$; by VAR, R., No. 2.2.3, the set $H_{\alpha, K}$ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $\mathcal{C}(K)$. But the topology of $\mathcal{C}^\infty(U)$ is the coarsest among the topologies for which all the maps $f \mapsto \partial^\alpha f|K$ from $\mathcal{C}^\infty(U)$ into $\mathcal{C}(K)$ are continuous, therefore B is relatively compact in $\mathcal{C}^\infty(U)$ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
+\* Let U be an open set in $\mathbf{R}^n$ and let $\mathscr{C}^\infty(U)$ be the Fréchet space of infinitely differentiable functions on U (III, p. 9). We shall prove that this is a Montel space. Since $\mathscr{C}^\infty(U)$ is a Fréchet space, it is barrelled (III, p. 25, corollary). Let B be a bounded subset of $\mathscr{C}^\infty(U)$ and let K be a compact subset of U. For every $\alpha \in \mathbf{N}^n$ let $H_{\alpha, K}$ be the set of restrictions to K of the functions $\partial^\alpha f$, as $f$ runs through B. Let $\alpha \in \mathbf{N}^n$; for every $\beta \in \mathbf{N}^n$ such that $|\beta| = |\alpha| + 1$, the set $H_{\alpha, K}$ is bounded in $\mathscr{C}(K)$ since B is bounded in $\mathscr{C}^\infty(U)$; by VAR, R., No. 2.2.3, the set $H_{\alpha, K}$ is equicontinuous, hence (GT, X, § 2, No. 5) relatively compact in $\mathscr{C}(K)$. But the topology of $\mathscr{C}^\infty(U)$ is the coarsest among the topologies for which all the maps $f \mapsto \partial^\alpha f|K$ from $\mathscr{C}^\infty(U)$ into $\mathscr{C}(K)$ are continuous, therefore B is relatively compact in $\mathscr{C}^\infty(U)$ (GT, I, § 4, No. 1, prop. 3 and § 9, No. 5, corollary).
 
-Similarly, *the space $\mathcal{C}_0^\infty(U)$ of all infinitely differentiable functions with compact support in U* (III, p. 9) *is a Montel space*. For, $\mathcal{C}_0^\infty(U)$ is the strict inductive limit of a sequence $\mathcal{C}_{H_n}^\infty(U)$ of Fréchet spaces (III, p. 9), and it is enough to see that each of the spaces $\mathcal{C}_{H_n}^\infty(U)$ is a Montel space (*Example 3*). But a bounded and closed subset of $\mathcal{C}_0^\infty(U)$ is closed and bounded in $\mathcal{C}^\infty(U)$, hence compact in $\mathcal{C}^\infty(U)$, and consequently in $\mathcal{C}_{H_n}^\infty(U)$. \*
+Similarly, *the space $\mathscr{C}_0^\infty(U)$ of all infinitely differentiable functions with compact support in U* (III, p. 9) *is a Montel space*. For, $\mathscr{C}_0^\infty(U)$ is the strict inductive limit of a sequence $\mathscr{C}_{H_n}^\infty(U)$ of Fréchet spaces (III, p. 9), and it is enough to see that each of the spaces $\mathscr{C}_{H_n}^\infty(U)$ is a Montel space (*Example 3*). But a bounded and closed subset of $\mathscr{C}_0^\infty(U)$ is closed and bounded in $\mathscr{C}^\infty(U)$, hence compact in $\mathscr{C}^\infty(U)$, and consequently in $\mathscr{C}_{H_n}^\infty(U)$. \*
 
 #### Proposition 8 {#evt-iv-s2-prop-8 .statement}
 

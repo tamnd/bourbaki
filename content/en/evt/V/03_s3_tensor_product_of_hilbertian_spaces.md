@@ -33,7 +33,7 @@ subsections:
       pdf_page: 293
 statements: 20
 exercises: 15
-content_sha256: 180872a18a714d03d9223b7e72acedceba22c332e27bdef4ce02ca50c52a19e2
+content_sha256: ec12874139d34e331504d1202b3746122078b9b1611a614396c989b521599f4c
 ---
 
 ## § 3. TENSOR PRODUCT OF HILBERTIAN SPACES
@@ -88,7 +88,7 @@ For $i = 1, 2$ let $F_i$ be a vector subspace of $E_i$, endowed with the induced
 
 #### Proposition 2 {#evt-v-s3-prop-2 .statement}
 
-*For $i = 1, 2$, let $E_i$ and $F_i$ be two Hausdorff prehilbertian spaces and let $u_i \in \mathcal{L}(E_i; F_i)$. The linear mapping $u_1 \otimes u_2$ from $E_1 \otimes_2 E_2$ into $F_1 \otimes_2 F_2$ is continuous and we have*
+*For $i = 1, 2$, let $E_i$ and $F_i$ be two Hausdorff prehilbertian spaces and let $u_i \in \mathscr{L}(E_i; F_i)$. The linear mapping $u_1 \otimes u_2$ from $E_1 \otimes_2 E_2$ into $F_1 \otimes_2 F_2$ is continuous and we have*
 $$
 \|u_1 \otimes u_2\| = \|u_1\| \cdot \|u_2\|.
 $$
@@ -140,7 +140,7 @@ $$
 $$
 for $x_i, y_i$ in $E_i$ ($1 \leq i \leq n$). If the $E_i$ are Hausdorff, then so is $E_1 \otimes_2 ... \otimes_2 E_n$.
 
-Let $F_1, ..., F_n$ be prehilbertian spaces and $u_i \in \mathcal{L}(E_i; F_i)$ for $1 \leq i \leq n$. By induction on $n$, prop. 2 implies that $u_1 \otimes ... \otimes u_n$ is a continuous linear mapping from $E_1 \otimes_2 ... \otimes_2 E_n$ into $F_1 \otimes_2 ... \otimes_2 F_n$ and that
+Let $F_1, ..., F_n$ be prehilbertian spaces and $u_i \in \mathscr{L}(E_i; F_i)$ for $1 \leq i \leq n$. By induction on $n$, prop. 2 implies that $u_1 \otimes ... \otimes u_n$ is a continuous linear mapping from $E_1 \otimes_2 ... \otimes_2 E_n$ into $F_1 \otimes_2 ... \otimes_2 F_n$ and that
 $$
 \|u_1 \otimes ... \otimes u_n\| = \|u_1\| \cdots \|u_n\|.
 $$
@@ -165,7 +165,7 @@ The canonical isomorphism from $F_1 \otimes ... \otimes F_m$ onto $E_1 \otimes .
 
 Let $E_1, ..., E_n$ be hilbertian spaces. *The completion of the Hausdorff prehilbertian space* $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ *is called* the hilbertian tensor product of the $E_i$ and is denoted by $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (or $\hat{\otimes}_{2 \atop 1 \leq i \leq n} E_i$).
 
-Let $F_1, ..., F_n$ be hilbertian spaces and $u_i \in \mathcal{L}(E_i, F_i)$ for $1 \leq i \leq n$. The continuous linear mapping $u_1 \otimes ... \otimes u_n$ then extends to a continuous linear mapping $u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n$ from $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ into $F_1 \hat{\otimes}_2 ... \hat{\otimes}_2 F_n$. We have
+Let $F_1, ..., F_n$ be hilbertian spaces and $u_i \in \mathscr{L}(E_i, F_i)$ for $1 \leq i \leq n$. The continuous linear mapping $u_1 \otimes ... \otimes u_n$ then extends to a continuous linear mapping $u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n$ from $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ into $F_1 \hat{\otimes}_2 ... \hat{\otimes}_2 F_n$. We have
 
 $$
 \|u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n\| = \|u_1\| ... \|u_n\|
@@ -177,7 +177,7 @@ $$
 1_{E_1} \hat{\otimes}_2 ... \hat{\otimes}_2 1_{E_n} = 1_E \quad \text{with} \quad E = E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n .
 $$
 
-Finally, if $G_1, ..., G_n$ are hilbertian spaces and $v_i \in \mathcal{L}(F_i; G_i)$ for $1 \leq i \leq n$, we get
+Finally, if $G_1, ..., G_n$ are hilbertian spaces and $v_i \in \mathscr{L}(F_i; G_i)$ for $1 \leq i \leq n$, we get
 
 $$
 (v_1 \circ u_1) \hat{\otimes}_2 ... \hat{\otimes}_2 (v_n \circ u_n) = (v_1 \hat{\otimes}_2 ... \hat{\otimes}_2 v_n) \circ (u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n) .
@@ -304,7 +304,7 @@ $$
 
 for all vectors $x_1, ..., x_m$ in $M_0$ and $y_1, ..., y_n$ in $N_0$. By continuity, the same relation also holds for the vectors $x_1, ..., x_n$ in M and the vectors $y_1, ..., y_n$ in N; in other words, $h$ extends $g$. The uniqueness of $h$ is clear.
 
-Let E and F be two hilbertian spaces and $u \in \mathcal{L}(E; F)$. The linear mapping $\hat{T}^n(u) = u \hat{\otimes}_2 ... \hat{\otimes}_2 u$ ($n$ factors) from $\hat{T}^n(E)$ into $\hat{T}^n(F)$ is continuous with norm $\|u\|^n$ (V, p. 28, formula (10)). Moreover, formulas (13) and (14) of V, p. 30, show that there exists an isomorphism $\phi_{n,E}$ from $\hat{S}^n(E)$ onto the subspace $\widehat{T S^n}(E)$ of $\hat{T}^n(E)$, and only one, such that
+Let E and F be two hilbertian spaces and $u \in \mathscr{L}(E; F)$. The linear mapping $\hat{T}^n(u) = u \hat{\otimes}_2 ... \hat{\otimes}_2 u$ ($n$ factors) from $\hat{T}^n(E)$ into $\hat{T}^n(F)$ is continuous with norm $\|u\|^n$ (V, p. 28, formula (10)). Moreover, formulas (13) and (14) of V, p. 30, show that there exists an isomorphism $\phi_{n,E}$ from $\hat{S}^n(E)$ onto the subspace $\widehat{T S^n}(E)$ of $\hat{T}^n(E)$, and only one, such that
 
 $$
 (18) \quad \phi_{n,E}(x_1 \ldots x_n) = \frac{1}{(n!)^{1/2}} \sum_{\sigma \in \mathfrak{S}_n} x_{\sigma(1)} \otimes \ldots \otimes x_{\sigma(n)} \quad (x_1, ..., x_n \text{ in } E) .
@@ -340,7 +340,7 @@ $$
 (20) \qquad \hat{S}^n(1_E) = 1_{\hat{S}_n(E)}
 $$
 $$
-(21) \qquad \hat{S}^n(v \circ u) = \hat{S}^n(v) \circ \hat{S}^n(u) \quad \text{for} \quad v \in \mathcal{L}(F ; G) .
+(21) \qquad \hat{S}^n(v \circ u) = \hat{S}^n(v) \circ \hat{S}^n(u) \quad \text{for} \quad v \in \mathscr{L}(F ; G) .
 $$
 
 Finally, $\hat{S}^n(u)$ coincides on $S^n(E)$ with the linear mapping $S^n(u) : S^n(E) \to S^n(F)$ defined in A, III, § 6, No. 2 since it transforms $x_1 ... x_n$ into $u(x_1) ... u(x_n)$ for every $x_1, ..., x_n$ in $E$.
@@ -384,7 +384,7 @@ Then there exists an *isomorphism* $\phi$ *from* $\hat{S}(E)$ *onto a hilbertian
 
 ### 4. Exterior hilbertian powers
 
-Let E be a hilbertian space and $n$ a positive integer. For every permutation $\sigma \in \mathfrak{S}_n$, let $\varepsilon_\sigma$ denote its signature; put $a_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma p_\sigma$ in $\mathcal{L}(\hat{T}^n(E))$ (V, p. 29).
+Let E be a hilbertian space and $n$ a positive integer. For every permutation $\sigma \in \mathfrak{S}_n$, let $\varepsilon_\sigma$ denote its signature; put $a_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma p_\sigma$ in $\mathscr{L}(\hat{T}^n(E))$ (V, p. 29).
 
 It is immediate that $a_n$ is an orthoprojector, whose image $\overline{\mathbf{A}'_n}(E)$ is the closure in $\hat{T}^n(E)$ of the space $\mathbf{A}'_n(E)$ of all antisymmetric tensors of order $n$ (A, III, § 7, No. 4). There exists an isomorphism $\pi_n$ from $\Lambda^n(E)$ onto $\mathbf{A}'_n(E)$ which is characterized by
 $$
@@ -426,13 +426,13 @@ But $E_0$ is dense in E, and the mapping $(x_1, ..., x_n) \mapsto x_1 \wedge ...
 
 The proof is analogous to that of the corollary of prop. 4 (V, p. 31).
 
-Let E and F be two hilbertian spaces and $u \in \mathcal{L}(E; F)$. We shall show, as in the case of symmetric powers $\hat{S}^n(E)$ (V, p. 32) that the linear mapping $\hat{\Lambda}^n(u)$ from $\hat{\Lambda}^n(E)$ into $\hat{\Lambda}^n(F)$ (A, III, § 7, No. 4) extends to a continuous linear mapping $\hat{\Lambda}^n(u)$ from $\hat{\Lambda}^n(E)$ into $\hat{\Lambda}^n(F)$. We have the relations
+Let E and F be two hilbertian spaces and $u \in \mathscr{L}(E; F)$. We shall show, as in the case of symmetric powers $\hat{S}^n(E)$ (V, p. 32) that the linear mapping $\hat{\Lambda}^n(u)$ from $\hat{\Lambda}^n(E)$ into $\hat{\Lambda}^n(F)$ (A, III, § 7, No. 4) extends to a continuous linear mapping $\hat{\Lambda}^n(u)$ from $\hat{\Lambda}^n(E)$ into $\hat{\Lambda}^n(F)$. We have the relations
 
 $$
 \hat{\Lambda}^n(1_E) = 1_{\hat{\Lambda}^n(E)} , \tag{27}
 $$
 $$
-\hat{\Lambda}^n(v \circ u) = \hat{\Lambda}^n(v) \circ \hat{\Lambda}^n(u) \quad \text{if } v \text{ belongs to } \mathcal{L}(F; G) , \tag{28}
+\hat{\Lambda}^n(v \circ u) = \hat{\Lambda}^n(v) \circ \hat{\Lambda}^n(u) \quad \text{if } v \text{ belongs to } \mathscr{L}(F; G) , \tag{28}
 $$
 $$
 \|\hat{\Lambda}^n(u)\| \leq \|u\|^n . \tag{29}

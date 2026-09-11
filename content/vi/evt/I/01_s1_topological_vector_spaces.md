@@ -40,9 +40,9 @@ subsections:
       pdf_page: 17
 statements: 27
 exercises: 14
-content_sha256: 17ffe55287e0fdc7d694eaf64709da06d904fca73c32fd020f13335f78d5a6ab
+content_sha256: 10a1e51d7f5bc16e423daad1ec92c0be73d0b20cb6517bee39c4e6ae112e8b94
 translated_from: content/en/evt/I/01_s1_topological_vector_spaces.md
-source_content_sha256: bbe8152644d419ccb19ee22f297414608b9110673218136de5825d49ebb656c5
+source_content_sha256: 1f8d3d74fb2618f3c351e6ad261b10979253e2143e5c0e9b52c02e67b8516889
 translation_model: gpt-5-6, gpt-5-6-mini
 translation_run: translate-vi-52bd887b
 glossary_version: 34
@@ -71,7 +71,7 @@ Nếu $E$ là một không gian vectơ tôpô trái trên $\mathbf{K}$, ta nói 
 — 1) Nếu $E$ là một không gian vectơ trái trên một vành chia tôpô *rời rạc* $\mathbf{K}$, tôpô *rời rạc* trên $E$ tương thích với cấu trúc không gian vectơ của $E$ (điều này không đúng nếu $\mathbf{K}$ không rời rạc và $E$ không phải là điểm duy nhất 0).
 2) Cho $A$ là một vành tôpô (GT, III, § 6.3) và cho $\mathbf{K}$ là một vành con của $A$ đồng thời cũng là một vành chia và sao cho tôpô cảm sinh trên $\mathbf{K}$ bởi tôpô của $A$ tương thích với cấu trúc vành chia của $\mathbf{K}$; khi đó tôpô của $A$ tương thích với cấu trúc không gian vectơ trái của nó trên $\mathbf{K}$.
 3) Cho $\mathbf{K}$ là một vành chia tôpô tùy ý và $I$ là một tập hợp tùy ý. Trên không gian vectơ tích $K_s^I(A, II, § 1.5)$, tôpô tích tương thích với cấu trúc không gian vectơ (GT, III, § 6.4). Hoặc ta có thể nói rằng không gian $K_s^I$ các ánh xạ từ $I$ vào $\mathbf{K}$ với tôpô *theo từng điểm* hoặc *hội tụ đơn* là một không gian vectơ tôpô trên $\mathbf{K}$ (TG, X, p. 4).
-4) Cho $X$ là một không gian tôpô; trên tập hợp $E = \mathcal{C}(X; \mathbf{R})$ gồm các hàm thực *liên tục* hữu hạn xác định trên $X$, tôpô *hội tụ compact* (GT, X, § 1.3) tương thích với cấu trúc không gian vectơ của E trên $\mathbf{R}$. Thật vậy, cho $u_0$ là một điểm của E, cho H là một tập con compact của X và $\varepsilon$ là một số dương ngặt tùy ý. Hàm thực $u_0$ bị chặn trên H ; đặt $a = \sup_{t \in H} |u_0(t)|$; nếu $u$ là một điểm bất kỳ của E thì với mọi $t \in H$
+4) Cho $X$ là một không gian tôpô; trên tập hợp $E = \mathscr{C}(X; \mathbf{R})$ gồm các hàm thực *liên tục* hữu hạn xác định trên $X$, tôpô *hội tụ compact* (GT, X, § 1.3) tương thích với cấu trúc không gian vectơ của E trên $\mathbf{R}$. Thật vậy, cho $u_0$ là một điểm của E, cho H là một tập con compact của X và $\varepsilon$ là một số dương ngặt tùy ý. Hàm thực $u_0$ bị chặn trên H ; đặt $a = \sup_{t \in H} |u_0(t)|$; nếu $u$ là một điểm bất kỳ của E thì với mọi $t \in H$
 
 $$
 |\lambda u(t) - \lambda_0 u_0(t)| \leq |\lambda| \cdot |u(t) - u_0(t)| + a |\lambda - \lambda_0|.
@@ -128,7 +128,7 @@ Mặt khác, ta nhắc lại (GT, IX, § 3.3) rằng nếu $E$ là một không 
 
 #### Ví dụ {#evt-i-s1-n2-exa-1 .statement}
 
-Cho I là một tập hợp chỉ số tùy ý; người ta biết (GT, X, § 3.2) rằng một chuẩn $\|x\|$ có thể được định nghĩa, trên tập hợp các ánh xạ bị chặn $x = (\xi_i)$ từ I vào K, $\mathcal{B}(I; K)$ (cũng được viết là $\mathcal{B}_K(I)$ hoặc $\ell_K^\infty(I)$), bởi $\|x\| = \sup_{i \in I} |\xi_i|$. Khi I là một không gian tôpô, tập hợp các ánh xạ liên tục, bị chặn từ I vào K là một không gian con đóng của không gian $\mathcal{B}(I; K)$ (GT, X, § 3.1, hệ quả 2). Một không gian con khác của $\mathcal{B}(I; K)$ là tập hợp $\ell_K^1(I)$ của các họ cộng tuyệt đối $x = (\xi_i)$ (GT, X, § 3.6); ta có thể định nghĩa trên không gian con này một chuẩn khác $\|x\|_1 = \sum_{i \in I} |\xi_i|$, mà nói chung không tương đương với chuẩn $\|x\| = \sup_{i \in I} |\xi_i|$ (I, p. 23, bài tập 6); khi xét $\ell_K^1(I)$ như một không gian có chuẩn, không chỉ rõ chuẩn của nó, thì luôn hiểu đó là chuẩn $\|x\|$. Ta viết $\mathcal{B}(I)$ và $\ell^1(I)$ thay cho $\mathcal{B}(I; \mathbf{R})$ và $\ell_R^1(I)$.
+Cho I là một tập hợp chỉ số tùy ý; người ta biết (GT, X, § 3.2) rằng một chuẩn $\|x\|$ có thể được định nghĩa, trên tập hợp các ánh xạ bị chặn $x = (\xi_i)$ từ I vào K, $\mathscr{B}(I; K)$ (cũng được viết là $\mathscr{B}_K(I)$ hoặc $\ell_K^\infty(I)$), bởi $\|x\| = \sup_{i \in I} |\xi_i|$. Khi I là một không gian tôpô, tập hợp các ánh xạ liên tục, bị chặn từ I vào K là một không gian con đóng của không gian $\mathscr{B}(I; K)$ (GT, X, § 3.1, hệ quả 2). Một không gian con khác của $\mathscr{B}(I; K)$ là tập hợp $\ell_K^1(I)$ của các họ cộng tuyệt đối $x = (\xi_i)$ (GT, X, § 3.6); ta có thể định nghĩa trên không gian con này một chuẩn khác $\|x\|_1 = \sum_{i \in I} |\xi_i|$, mà nói chung không tương đương với chuẩn $\|x\| = \sup_{i \in I} |\xi_i|$ (I, p. 23, bài tập 6); khi xét $\ell_K^1(I)$ như một không gian có chuẩn, không chỉ rõ chuẩn của nó, thì luôn hiểu đó là chuẩn $\|x\|$. Ta viết $\mathscr{B}(I)$ và $\ell^1(I)$ thay cho $\mathscr{B}(I; \mathbf{R})$ và $\ell_R^1(I)$.
 
 ### 3. Các không gian con vectơ và các không gian thương của một không gian vectơ tôpô; các tích của các không gian vectơ tôpô; các tổng trực tiếp tôpô của các không gian con
 
@@ -166,7 +166,7 @@ Một không gian vectơ tôpô được gọi là đầy đủ nếu, xét theo
 
 #### Ví dụ {#evt-i-s1-n4-exa-1 .statement}
 
-Nếu K là một vành chia có giá trị không rời rạc thì không gian $\mathcal{B}(I ; K)$ (I, p. 4, Ví dụ) là đầy đủ (GT, X, § 3.1, cor. 1). Điều này cũng đúng cho không gian $\ell_K^1(I)$ (I, p. 4, Ví dụ) với chuẩn $\|x\|_1 = \sum_{i \in I} |\xi_i|$: vì, nếu $x_n$ là một dãy Cauchy trong không gian này và $x_n = (\xi_{m_i})_{i \in I}$, thì với mọi $i \in I$
+Nếu K là một vành chia có giá trị không rời rạc thì không gian $\mathscr{B}(I ; K)$ (I, p. 4, Ví dụ) là đầy đủ (GT, X, § 3.1, cor. 1). Điều này cũng đúng cho không gian $\ell_K^1(I)$ (I, p. 4, Ví dụ) với chuẩn $\|x\|_1 = \sum_{i \in I} |\xi_i|$: vì, nếu $x_n$ là một dãy Cauchy trong không gian này và $x_n = (\xi_{m_i})_{i \in I}$, thì với mọi $i \in I$
 
 $$
 |\xi_{m_i} - \xi_{n_i}| \leq \|x_m - x_n\|_1;
@@ -263,25 +263,25 @@ trong đó $H$ chạy qua $2^n - 1$ tập con của tập hợp các số nguyê
 
 #### Mệnh đề 6 {#evt-i-s1-prop-6 .statement}
 
-*Với cùng các giả thiết về $E_i (1 \leq i \leq n)$ và về $F$ như trong mệnh đề 5, để một tập hợp $\mathcal{E}$ các ánh xạ đa tuyến tính của $\prod_{i=1}^n E_i$ vào $F$ là đều liên tục thì chỉ cần tập hợp đó đều liên tục tại $(0, 0, ..., 0)$.*
+*Với cùng các giả thiết về $E_i (1 \leq i \leq n)$ và về $F$ như trong mệnh đề 5, để một tập hợp $\mathscr{E}$ các ánh xạ đa tuyến tính của $\prod_{i=1}^n E_i$ vào $F$ là đều liên tục thì chỉ cần tập hợp đó đều liên tục tại $(0, 0, ..., 0)$.*
 
-Bởi vì, trong phép chứng minh của mệnh đề 5, các $U_i (1 \leq i \leq n)$ có thể được chọn sao cho quan hệ $x_i \in U_i (1 \leq i \leq n)$ kéo theo $f(x_1, ..., x_n) \in \bigcap_H W_H$ đối với *mọi* ánh xạ $f \in \mathcal{E}$.
+Bởi vì, trong phép chứng minh của mệnh đề 5, các $U_i (1 \leq i \leq n)$ có thể được chọn sao cho quan hệ $x_i \in U_i (1 \leq i \leq n)$ kéo theo $f(x_1, ..., x_n) \in \bigcap_H W_H$ đối với *mọi* ánh xạ $f \in \mathscr{E}$.
 
 ### 7. Các tôpô ban đầu của các không gian vectơ
 
 #### Mệnh đề 7 {#evt-i-s1-prop-7 .statement}
 
-*Cho $(E_v)_{v \in I}$ là một họ các không gian vectơ tôpô trên một vành chia tôpô $K$. Cho $E$ là một không gian vectơ trên $K$ và với mỗi $v \in I$, cho $f_v$ là một ánh xạ tuyến tính của $E$ vào $E_v$. Khi đó tôpô thô nhất trên $E$ làm cho mỗi hàm $f_v$ liên tục, là một tôpô $\mathcal{T}$ tương thích với cấu trúc không gian vectơ của $E$. Hơn nữa, nếu với mọi $x \in E$, $\phi(x)$ ký hiệu điểm $(f_v(x))$ của không gian tích $F = \prod_{v \in I} E_v$, thì tôpô $\mathcal{T}$ là ảnh ngược của tôpô của không gian con $\phi(E)$ của $F$ qua ánh xạ tuyến tính $\phi$.*
+*Cho $(E_v)_{v \in I}$ là một họ các không gian vectơ tôpô trên một vành chia tôpô $K$. Cho $E$ là một không gian vectơ trên $K$ và với mỗi $v \in I$, cho $f_v$ là một ánh xạ tuyến tính của $E$ vào $E_v$. Khi đó tôpô thô nhất trên $E$ làm cho mỗi hàm $f_v$ liên tục, là một tôpô $\mathscr{T}$ tương thích với cấu trúc không gian vectơ của $E$. Hơn nữa, nếu với mọi $x \in E$, $\phi(x)$ ký hiệu điểm $(f_v(x))$ của không gian tích $F = \prod_{v \in I} E_v$, thì tôpô $\mathscr{T}$ là ảnh ngược của tôpô của không gian con $\phi(E)$ của $F$ qua ánh xạ tuyến tính $\phi$.*
 
 Phần cuối của mệnh đề là một trường hợp riêng của GT, I, § 4.1, mệnh đề 3. Mệnh đề sau đó suy ra từ bổ đề tiếp theo.
 
 #### Bổ đề {#evt-i-s1-n7-lem-1 .statement}
 
-— *Cho $M$ và $N$ là hai không gian vectơ, và $g$ là một ánh xạ tuyến tính của $M$ vào $N$. Nếu $\mathcal{T}_0$ là một tôpô tương thích với cấu trúc không gian vectơ của $N$, thì ảnh ngược của $\mathcal{T}_0$ qua $g$ là tương thích với cấu trúc không gian vectơ của $M$.*
+— *Cho $M$ và $N$ là hai không gian vectơ, và $g$ là một ánh xạ tuyến tính của $M$ vào $N$. Nếu $\mathscr{T}_0$ là một tôpô tương thích với cấu trúc không gian vectơ của $N$, thì ảnh ngược của $\mathscr{T}_0$ qua $g$ là tương thích với cấu trúc không gian vectơ của $M$.*
 
 Ta chứng minh, chẳng hạn, rằng $(\lambda, x) \mapsto \lambda x$ là liên tục tại mỗi điểm $(\lambda_0, x_0)$ của $K \times M$. Đặt $y_0 = g(x_0)$. Mọi lân cận của 0 trong $M$ đều chứa một lân cận có dạng $g(U)$ trong đó $U$ là một lân cận của 0 trong $N$; theo giả thiết tồn tại một lân cận $V$ của 0 trong $K$ và một lân cận $W$ của 0 trong $N$ sao cho các quan hệ $\lambda - \lambda_0 \in V$, và $y - y_0 \in W$ kéo theo $\lambda y - \lambda_0 y_0 \in U$. Do đó các quan hệ $\lambda - \lambda_0 \in V$, $x - x_0 \in g(W)$ kéo theo $\lambda x - \lambda_0 x_0 \in g(U)$. Ta cũng có thể chứng minh tương tự rằng $(x, y) \mapsto x - y$ là liên tục trong $M \times M$.
 
-Với mỗi chỉ số $i \in I$, cho $\mathcal{B}_i$ là một hệ cơ bản các lân cận của 0 trong $E_i$. Theo định nghĩa của tôpô $\mathcal{T}$, bộ lọc các lân cận của 0 đối với tôpô này được sinh bởi các hợp của các tập thuộc các họ $f_i^{-1}(\mathcal{B}_i)$; nói cách khác, các tập có dạng $\bigcap_k f_{i_k}^{-1}(V_{i_k})$ lập thành một hệ cơ bản các lân cận của 0 đối với $\mathcal{T}$, trong đó $(i_k)_{1 \leq k \leq n}$ là một dãy hữu hạn bất kỳ các chỉ số của I, và, với mỗi chỉ số $k$, $V_{i_k}$ là một tập bất kỳ của $\mathcal{B}_{i_k}$.
+Với mỗi chỉ số $i \in I$, cho $\mathscr{B}_i$ là một hệ cơ bản các lân cận của 0 trong $E_i$. Theo định nghĩa của tôpô $\mathscr{T}$, bộ lọc các lân cận của 0 đối với tôpô này được sinh bởi các hợp của các tập thuộc các họ $f_i^{-1}(\mathscr{B}_i)$; nói cách khác, các tập có dạng $\bigcap_k f_{i_k}^{-1}(V_{i_k})$ lập thành một hệ cơ bản các lân cận của 0 đối với $\mathscr{T}$, trong đó $(i_k)_{1 \leq k \leq n}$ là một dãy hữu hạn bất kỳ các chỉ số của I, và, với mỗi chỉ số $k$, $V_{i_k}$ là một tập bất kỳ của $\mathscr{B}_{i_k}$.
 
 #### Hệ quả 1 {#evt-i-s1-prop-7-cor-1 .statement}
 
@@ -291,31 +291,31 @@ Với mỗi chỉ số $i \in I$, cho $\mathcal{B}_i$ là một hệ cơ bản c
 
 #### Hệ quả 2 {#evt-i-s1-prop-7-cor-2 .statement}
 
-*Nếu các không gian $E_i$ là Hausdorff, thì để $\mathcal{T}$ là Hausdorff, điều kiện cần và đủ là, với mọi $x \neq 0$ trong E, tồn tại một chỉ số $i \in I$, sao cho $f_i(x) \neq 0$.*
+*Nếu các không gian $E_i$ là Hausdorff, thì để $\mathscr{T}$ là Hausdorff, điều kiện cần và đủ là, với mọi $x \neq 0$ trong E, tồn tại một chỉ số $i \in I$, sao cho $f_i(x) \neq 0$.*
 
-Vì khi đó $\phi(E)$ là một không gian Hausdorff, và để $\mathcal{T}$ là Hausdorff, hiển nhiên điều kiện cần và đủ là $\phi$ đơn ánh; chú ý rằng khi đó ta có thể đồng nhất E (với $\mathcal{T}$) với không gian con $\phi(E)$ của $\prod_{i \in I} E_i$ bởi ánh xạ $\phi$.
+Vì khi đó $\phi(E)$ là một không gian Hausdorff, và để $\mathscr{T}$ là Hausdorff, hiển nhiên điều kiện cần và đủ là $\phi$ đơn ánh; chú ý rằng khi đó ta có thể đồng nhất E (với $\mathscr{T}$) với không gian con $\phi(E)$ của $\prod_{i \in I} E_i$ bởi ánh xạ $\phi$.
 
 #### Hệ quả 3 {#evt-i-s1-prop-7-cor-3 .statement}
 
-*Giả sử các $E_i$ đầy đủ và $\phi(E)$ đóng trong $F = \prod_{i \in I} E_i$. Khi đó E là đầy đủ đối với tôpô $\mathcal{T}$.*
+*Giả sử các $E_i$ đầy đủ và $\phi(E)$ đóng trong $F = \prod_{i \in I} E_i$. Khi đó E là đầy đủ đối với tôpô $\mathscr{T}$.*
 
 Vì không gian con $\phi(E)$ của F khi đó là đầy đủ (GT, II, § 3.4, prop. 8 và § 3.5, prop. 10), do đó điều tương tự đúng với E đối với tôpô ảnh ngược (GT, I, § 7.6, prop. 10 và GT, II, § 3.1, prop. 4).
 
 #### Ví dụ {#evt-i-s1-n7-exa-1 .statement}
 
-— Cho $\mathcal{D}'(\mathbf{R})$ là không gian các phân phối trên $\mathbf{R}$; với $p$ là một số sao cho $1 \leq p \leq +\infty$, cho $j : L^p(\mathbf{R}) \to \mathcal{D}'(\mathbf{R})$ là đơn ánh chính tắc, liên tục (khi $L^p(\mathbf{R})$ mang tôpô không gian định chuẩn của nó và $\mathcal{D}'(\mathbf{R})$ mang tôpô mạnh). Với mọi phân phối $f \in \mathcal{D}'(\mathbf{R})$, ký hiệu đạo hàm của $f$ bởi $D(f)$; nhắc lại rằng $f \mapsto D(f)$ là một tự đồng cấu liên tục của $\mathcal{D}'(\mathbf{R})$. Khi đó cho E là không gian con vectơ của $L^p(\mathbf{R})$ được tạo bởi các $f \in L^p(\mathbf{R})$ sao cho $D(f) \in L^p(\mathbf{R})$, và trang bị cho E tôpô yếu nhất làm cho đơn ánh chính tắc $i : E \to L^p(\mathbf{R})$ và ánh xạ $D : E \to L^p(\mathbf{R})$ liên tục ($L^p(\mathbf{R})$ mang tôpô không gian định chuẩn của nó). Đối với tôpô này, không gian E là *đầy đủ*. Thật vậy, ảnh của E trong $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ bởi ánh xạ $\phi : f \mapsto (f, D(f))$ là *đóng*, vì nó là vết trên $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ của ảnh G của $\mathcal{D}'(\mathbf{R})$ trong $\mathcal{D}'(\mathbf{R}) \times \mathcal{D}'(\mathbf{R})$ bởi ánh xạ
+— Cho $\mathscr{D}'(\mathbf{R})$ là không gian các phân phối trên $\mathbf{R}$; với $p$ là một số sao cho $1 \leq p \leq +\infty$, cho $j : L^p(\mathbf{R}) \to \mathscr{D}'(\mathbf{R})$ là đơn ánh chính tắc, liên tục (khi $L^p(\mathbf{R})$ mang tôpô không gian định chuẩn của nó và $\mathscr{D}'(\mathbf{R})$ mang tôpô mạnh). Với mọi phân phối $f \in \mathscr{D}'(\mathbf{R})$, ký hiệu đạo hàm của $f$ bởi $D(f)$; nhắc lại rằng $f \mapsto D(f)$ là một tự đồng cấu liên tục của $\mathscr{D}'(\mathbf{R})$. Khi đó cho E là không gian con vectơ của $L^p(\mathbf{R})$ được tạo bởi các $f \in L^p(\mathbf{R})$ sao cho $D(f) \in L^p(\mathbf{R})$, và trang bị cho E tôpô yếu nhất làm cho đơn ánh chính tắc $i : E \to L^p(\mathbf{R})$ và ánh xạ $D : E \to L^p(\mathbf{R})$ liên tục ($L^p(\mathbf{R})$ mang tôpô không gian định chuẩn của nó). Đối với tôpô này, không gian E là *đầy đủ*. Thật vậy, ảnh của E trong $F = L^p(\mathbf{R}) \times L^p(\mathbf{R})$ bởi ánh xạ $\phi : f \mapsto (f, D(f))$ là *đóng*, vì nó là vết trên $L^p(\mathbf{R}) \times L^p(\mathbf{R})$ của ảnh G của $\mathscr{D}'(\mathbf{R})$ trong $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ bởi ánh xạ
 
 $$
 \phi_0 : f \mapsto (f, D(f));
 $$
 
-bây giờ G là đồ thị của $\phi_0$, do đó đóng trong $\mathcal{D}'(\mathbf{R}) \times \mathcal{D}'(\mathbf{R})$ (GT, I, § 8.1, hệ quả 2 của mệnh đề 2), và vì $\phi(E)$ là ảnh ngược của G bởi $i \times i$, vốn liên tục, ta thấy rằng $\phi(E)$ đóng trong F. \*
+bây giờ G là đồ thị của $\phi_0$, do đó đóng trong $\mathscr{D}'(\mathbf{R}) \times \mathscr{D}'(\mathbf{R})$ (GT, I, § 8.1, hệ quả 2 của mệnh đề 2), và vì $\phi(E)$ là ảnh ngược của G bởi $i \times i$, vốn liên tục, ta thấy rằng $\phi(E)$ đóng trong F. \*
 
 #### Hệ quả 4 {#evt-i-s1-prop-7-cor-4 .statement}
 
-*Một không gian vectơ E trên một trường chia được tôpô K, và $(\mathcal{T}_i)_{i \in I}$ là một họ các tôpô tương thích với cấu trúc không gian vectơ của E; khi đó cận trên $\mathcal{T}$ của các tôpô $\mathcal{T}_i$ tương thích với cấu trúc không gian vectơ của E.*
+*Một không gian vectơ E trên một trường chia được tôpô K, và $(\mathscr{T}_i)_{i \in I}$ là một họ các tôpô tương thích với cấu trúc không gian vectơ của E; khi đó cận trên $\mathscr{T}$ của các tôpô $\mathscr{T}_i$ tương thích với cấu trúc không gian vectơ của E.*
 
-Thật vậy, nếu $E_t$ ký hiệu không gian vectơ tôpô thu được từ $E$ nhờ tôpô $\mathcal{T}_t$, và $f_t$ là ánh xạ đồng nhất từ $E$ vào $E_t$, thì $\mathcal{T}$ là tôpô thô nhất làm cho các $f_t$ liên tục.
+Thật vậy, nếu $E_t$ ký hiệu không gian vectơ tôpô thu được từ $E$ nhờ tôpô $\mathscr{T}_t$, và $f_t$ là ánh xạ đồng nhất từ $E$ vào $E_t$, thì $\mathscr{T}$ là tôpô thô nhất làm cho các $f_t$ liên tục.
 
 ### Bài tập {#evt-i-s1-exercises}
 

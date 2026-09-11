@@ -25,7 +25,7 @@ subsections:
       pdf_page: 96
 statements: 25
 exercises: 41
-content_sha256: a9c41ce91fb6a9848ca8d70e83d6f3beffa7b29a12fd53224ebabc3e6a1f0ea7
+content_sha256: 3e438a5074993d94e5c35a2ed9a42315e445e34dd1a538be54b7d454b46e705d
 translated_from: content/en/evt/II/07_s7_extremal_points_and_extremal_generators.md
 source_content_sha256: ba5544881bc2d551481082f09b14e6852c10e86a0663b8e63d376fbaadf87175
 translation_model: gpt-5.4
@@ -61,7 +61,7 @@ Nhưng điều này suy ra $\sum_i (y_i - z_i)^2 = 0$, do đó $y_i = z_i$ với
 
 #### Ví dụ 2 {#evt-ii-s7-n1-exa-2 .statement}
 
-Trong không gian chuẩn $\mathcal{B}(\mathbf{N})$ của các dãy số thực bị chặn (I, p. 4), các điểm cực biên của quả cầu đơn vị là các điểm $x = (\xi_n)$ sao cho $|\xi_n| = 1$ với mọi $n$. Thật vậy, giả sử rằng ta có $|\xi_n| \leq 1$ với mọi $n$ và $|\xi_p| < 1$ đối với một chỉ số $p$. Khi đó ta có thể viết
+Trong không gian chuẩn $\mathscr{B}(\mathbf{N})$ của các dãy số thực bị chặn (I, p. 4), các điểm cực biên của quả cầu đơn vị là các điểm $x = (\xi_n)$ sao cho $|\xi_n| = 1$ với mọi $n$. Thật vậy, giả sử rằng ta có $|\xi_n| \leq 1$ với mọi $n$ và $|\xi_p| < 1$ đối với một chỉ số $p$. Khi đó ta có thể viết
 $$
 x = \frac{1 + \xi_p}{2} y + \frac{1 - \xi_p}{2} z
 $$
@@ -75,24 +75,24 @@ Cho $u : E \to E'$ là một ánh xạ afin từ một không gian afin $E$ vào
 
 Cho $B$ là tập hợp các điểm cực biên của $A$, trong đó $A$ là một tập hợp lồi compắc không rỗng trong một không gian lồi địa phương Hausdorff $E$, và cho $f$ là một hàm lồi xác định trên $A$ và nửa liên tục trên. Khi đó $f$ đạt cận trên của nó trong $A$ tại một điểm (ít nhất) của $B$.
 
-Dùng $\mathcal{F}$ để chỉ họ các tập con X của A *không rỗng, đóng, và sao cho mọi đoạn thẳng mở được chứa trong A và cắt X thì nhất thiết nằm trong X*. Nó có các tính chất sau;
-(i) A thuộc $\mathcal{F}$.
-(ii) Một điểm $a \in A$ là sao cho $\{a\} \in \mathcal{F}$ khi, và chỉ khi, $a$ là một điểm cực biên của A.
-(iii) Mọi giao không rỗng X của một họ $(X_\alpha)$ các tập hợp thuộc $\mathcal{F}$ cũng thuộc $\mathcal{F}$.
+Dùng $\mathscr{F}$ để chỉ họ các tập con X của A *không rỗng, đóng, và sao cho mọi đoạn thẳng mở được chứa trong A và cắt X thì nhất thiết nằm trong X*. Nó có các tính chất sau;
+(i) A thuộc $\mathscr{F}$.
+(ii) Một điểm $a \in A$ là sao cho $\{a\} \in \mathscr{F}$ khi, và chỉ khi, $a$ là một điểm cực biên của A.
+(iii) Mọi giao không rỗng X của một họ $(X_\alpha)$ các tập hợp thuộc $\mathscr{F}$ cũng thuộc $\mathscr{F}$.
 
 Các tính chất (i), (ii) và (iii) suy ra ngay lập tức từ các định nghĩa.
 
-(iv) Cho $X \in \mathcal{F}$, và cho $h$ là một hàm lồi và nửa liên tục trên trong A; khi đó tập hợp Y các điểm của X tại đó hạn chế $h|X$ đạt cận trên của nó trong X là sao cho Y thuộc $\mathcal{F}$.
+(iv) Cho $X \in \mathscr{F}$, và cho $h$ là một hàm lồi và nửa liên tục trên trong A; khi đó tập hợp Y các điểm của X tại đó hạn chế $h|X$ đạt cận trên của nó trong X là sao cho Y thuộc $\mathscr{F}$.
 
-Vì $h|X$ là nửa liên tục trên trong X nên đạt cận trên $\alpha$ của nó trên X tại ít nhất một điểm của X (GT, IV, § 6.2, th. 3); do đó Y không rỗng, và nó cũng đóng (GT, IV, § 6.2, prop. 1). Mặt khác, lấy $x, y$ là hai điểm phân biệt của A và lấy $z = \lambda x + (1 - \lambda) y$ là một điểm của Y sao cho $0 < \lambda < 1$; vì $Y \subset X$ và $X \in \mathcal{F}$, ta có $x \in X$ và $y \in X$; mặt khác, vì $h$ là lồi, ta có
+Vì $h|X$ là nửa liên tục trên trong X nên đạt cận trên $\alpha$ của nó trên X tại ít nhất một điểm của X (GT, IV, § 6.2, th. 3); do đó Y không rỗng, và nó cũng đóng (GT, IV, § 6.2, prop. 1). Mặt khác, lấy $x, y$ là hai điểm phân biệt của A và lấy $z = \lambda x + (1 - \lambda) y$ là một điểm của Y sao cho $0 < \lambda < 1$; vì $Y \subset X$ và $X \in \mathscr{F}$, ta có $x \in X$ và $y \in X$; mặt khác, vì $h$ là lồi, ta có
 
 $$
 h(z) \leq \lambda h(x) + (1 - \lambda) h(y)
 $$
 
-nhưng vì $h(x) \leq \alpha, h(y) \leq \alpha$ và $h(z) = \alpha$, tất yếu $h(x) = h(y) = \alpha$, nghĩa là $x \in Y$ và $y \in Y$. Vậy $Y \in \mathcal{F}$.
+nhưng vì $h(x) \leq \alpha, h(y) \leq \alpha$ và $h(z) = \alpha$, tất yếu $h(x) = h(y) = \alpha$, nghĩa là $x \in Y$ và $y \in Y$. Vậy $Y \in \mathscr{F}$.
 
-Sau khi đã thiết lập các tính chất này, gọi M là tập hợp các $x \in A$ tại đó $f$ đạt cận trên của nó trên A; theo (iv), $M \in \mathcal{F}$. Mặt khác, theo (iii) và thực tế rằng các tập hợp của $\mathcal{F}$ là các tập con đóng của tập compact A, suy ra $\mathcal{F}$ là *quy nạp* đối với quan hệ thứ tự $\supset$. Theo th. 2 của S, III, § 2.4, M chứa một tập con N là một phần tử cực tiểu của $\mathcal{F}$. Ta sẽ chỉ ra rằng N chỉ gồm một điểm và điều đó sẽ hoàn tất chứng minh của mệnh đề. Vì E là một không gian lồi địa phương Hausdorff, chỉ cần chỉ ra rằng mọi dạng tuyến tính liên tục $u$ trên E đều là hằng trên N (II, p. 38, cor. 1). Bây giờ từ (iv) suy ra rằng tập $N'$ gồm các $x \in N$ tại đó $u|N$ đạt cận trên của nó trên N là sao cho $N'$ thuộc $\mathcal{F}$; vì N là cực tiểu trong $\mathcal{F}$ nên tất yếu ta có $N' = N$.
+Sau khi đã thiết lập các tính chất này, gọi M là tập hợp các $x \in A$ tại đó $f$ đạt cận trên của nó trên A; theo (iv), $M \in \mathscr{F}$. Mặt khác, theo (iii) và thực tế rằng các tập hợp của $\mathscr{F}$ là các tập con đóng của tập compact A, suy ra $\mathscr{F}$ là *quy nạp* đối với quan hệ thứ tự $\supset$. Theo th. 2 của S, III, § 2.4, M chứa một tập con N là một phần tử cực tiểu của $\mathscr{F}$. Ta sẽ chỉ ra rằng N chỉ gồm một điểm và điều đó sẽ hoàn tất chứng minh của mệnh đề. Vì E là một không gian lồi địa phương Hausdorff, chỉ cần chỉ ra rằng mọi dạng tuyến tính liên tục $u$ trên E đều là hằng trên N (II, p. 38, cor. 1). Bây giờ từ (iv) suy ra rằng tập $N'$ gồm các $x \in N$ tại đó $u|N$ đạt cận trên của nó trên N là sao cho $N'$ thuộc $\mathscr{F}$; vì N là cực tiểu trong $\mathscr{F}$ nên tất yếu ta có $N' = N$.
 
 #### Hệ quả {#evt-ii-s7-n1-cor-1 .statement}
 
@@ -211,7 +211,7 @@ $$
 
 Điều này suy ra ngay lập tức từ hệ quả 1 và định lý Krein-Milman (II, p. 55, đl. 1).
 
-\* Ví dụ. — Cho X là một không gian compact địa phương và σ-compact. Cho C là một nón lồi đóng có đỉnh 0 trong $\mathcal{M}_+(X)$ với tôpô mơ hồ. Ta sẽ chứng minh rằng C là hợp của các thiết diện của nó. Cho $(X_n)$ là một dãy tăng các tập mở, compact tương đối của X mà hợp là X. Cho μ là một phần tử $\neq 0$ của C. Tồn tại các $\alpha_n > 0$ sao cho $\sum_n \alpha_n \mu(X_n) = 1$.
+\* Ví dụ. — Cho X là một không gian compact địa phương và σ-compact. Cho C là một nón lồi đóng có đỉnh 0 trong $\mathscr{M}_+(X)$ với tôpô mơ hồ. Ta sẽ chứng minh rằng C là hợp của các thiết diện của nó. Cho $(X_n)$ là một dãy tăng các tập mở, compact tương đối của X mà hợp là X. Cho μ là một phần tử $\neq 0$ của C. Tồn tại các $\alpha_n > 0$ sao cho $\sum_n \alpha_n \mu(X_n) = 1$.
 
 Với mọi độ đo $v \in C$, đặt $p(v) = \sum_n \alpha_n v(X_n) \in [0, +\infty]$. Hàm p trên C thỏa mãn các điều kiện (i) và (ii) của mệnh đề 4. Nó nửa liên tục dưới đối với tôpô mơ hồ (INT, IV, 2nd ed., § 1, No. 1, prop. 4). Do đó tập A gồm các $\gamma \in C$ sao cho $p(\gamma) \leq 1$ là đóng và khác rỗng. Mặt khác, mọi tập compact của X đều được chứa trong một trong các $X_n$, vì vậy A bị chặn theo tôpô mơ hồ nên cũng compact theo tôpô mơ hồ (INT, III, 2nd ed., § 1, No. 9, prop. 15). Vậy A là một thiết diện của C chứa μ. \*
 
@@ -241,7 +241,7 @@ Mọi nón lồi đóng thực sự trong $E$, một không gian vectơ có số
 
 #### Ví dụ 2 {#evt-ii-s7-n3-exa-2 .statement}
 
-Nếu $X$ là một không gian compắc, thì nón $\mathcal{M}_+(X)$ các độ đo dương trên $X$, với tôpô vague, là một nón có đáy compắc (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
+Nếu $X$ là một không gian compắc, thì nón $\mathscr{M}_+(X)$ các độ đo dương trên $X$, với tôpô vague, là một nón có đáy compắc (INT, III, 2nd ed., § 1, No. 9, cor. 3 of prop. 15). \*
 
 ### Bài tập {#evt-ii-s7-exercises}
 

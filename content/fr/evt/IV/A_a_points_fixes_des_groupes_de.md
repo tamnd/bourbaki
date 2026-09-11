@@ -30,7 +30,7 @@ subsections:
       pdf_page: 230
 statements: 10
 exercises: 8
-content_sha256: 38370f771dc6586b5d7e1f0be933ed90693edf8dd33d9e6fc5d78ca083eced16
+content_sha256: 076b60e7c2e5bd07277b7f40bcb2647f81373abe50fc9a03f4be0a8371b6d4ee
 ---
 
 ## APPENDICE
@@ -73,17 +73,17 @@ D’après la définition d’un groupe résoluble (A, I, p. 71), il existe une 
 
 ### 2. Moyennes invariantes
 
-Soit X un espace topologique. Notons $\mathcal{B}(X; \mathbf{R})$ l’espace vectoriel réel formé des applications continues et bornées de X dans $\mathbf{R}$. Muni de la norme $\|f\| = \sup_{x \in X} |f(x)|$, c’est un espace de Banach (TG, X, p. 21); c’est aussi un espace vectoriel ordonné, la relation $f \geq g$ signifiant « $f(x) \geq g(x)$ pour tout $x \in X$ ».
+Soit X un espace topologique. Notons $\mathscr{B}(X; \mathbf{R})$ l’espace vectoriel réel formé des applications continues et bornées de X dans $\mathbf{R}$. Muni de la norme $\|f\| = \sup_{x \in X} |f(x)|$, c’est un espace de Banach (TG, X, p. 21); c’est aussi un espace vectoriel ordonné, la relation $f \geq g$ signifiant « $f(x) \geq g(x)$ pour tout $x \in X$ ».
 
 #### Définition 1 {#evt-iv-a0-def-1 .statement}
 
-On appelle moyenne sur l’espace topologique X une forme linéaire positive $\mu$ sur l’espace $\mathcal{B}(X; \mathbf{R})$ telle que $\mu(1) = 1$.
+On appelle moyenne sur l’espace topologique X une forme linéaire positive $\mu$ sur l’espace $\mathscr{B}(X; \mathbf{R})$ telle que $\mu(1) = 1$.
 
 \* Lorsque X est compact, une moyenne sur X est donc une mesure positive sur X telle que $\mu(X) = 1$. \*
 
 #### Lemme 1 {#evt-iv-a0-lem-1 .statement}
 
-L’ensemble K des moyennes sur X est la partie de la boule unité du dual de l’espace de Banach $E = \mathcal{B}(X; \mathbf{R})$ dont les éléments sont les formes linéaires $\mu$ telles que $\mu(1) = 1$. C’est une partie de $E'$, convexe et compacte pour $\sigma(E', E)$.
+L’ensemble K des moyennes sur X est la partie de la boule unité du dual de l’espace de Banach $E = \mathscr{B}(X; \mathbf{R})$ dont les éléments sont les formes linéaires $\mu$ telles que $\mu(1) = 1$. C’est une partie de $E'$, convexe et compacte pour $\sigma(E', E)$.
 
 Soit $\mu$ une forme linéaire sur E, telle que $\mu(1) = 1$. Pour toute fonction $f \in E$, on définit la fonction $f' \in E$ par $f'(x) = \|f\| - f(x)$ ($x \in X$). Supposons d’abord que $\mu$ soit une moyenne ; pour tout $f \in E$, on a $f' \geq 0$, d’où $\mu(f') \geq 0$, c’est-à-dire $\mu(f) \leq \|f\|$; on a donc $\|\mu\| \leq 1$. Réciproquement, supposons que $\mu$ appartienne à $E'$, et que $\|\mu\| \leq 1$; pour toute fonction positive $f \in E$, on a $\mu(f') \leq \|f'\|$, d’où
 $$
@@ -113,15 +113,15 @@ Il suffit d’appliquer la prop. 1 au groupe résoluble $G \times G$ agissant su
 
 ### 3. Le théorème de Ryll-Nardzewski
 
-Dans ce numéro, on note $E$ un espace *normé* sur le corps $\mathbf{R}$ et $\mathcal{T}$ une topologie localement convexe séparée sur $E$, pour laquelle la norme de $E$ soit *semi-continue inférieurement*. Ces hypothèses sont notamment remplies dans les cas suivants :
-  a) $\mathcal{T}$ est la topologie déduite de la norme de l’espace normé $E$.
-  b) $\mathcal{T}$ est la topologie affaiblie $\sigma(E, E')$ de l’espace normé $E$.
-  c) $E$ est le dual d’un espace normé $F$ et l’on a $\mathcal{T} = \sigma(F', F)$.
-  d) Il existe deux espaces normés $F_1$ et $F_2$ tels que $E = \mathcal{L}(F_1; F_2)$ et que $\mathcal{T}$ soit la topologie de la convergence simple.
+Dans ce numéro, on note $E$ un espace *normé* sur le corps $\mathbf{R}$ et $\mathscr{T}$ une topologie localement convexe séparée sur $E$, pour laquelle la norme de $E$ soit *semi-continue inférieurement*. Ces hypothèses sont notamment remplies dans les cas suivants :
+  a) $\mathscr{T}$ est la topologie déduite de la norme de l’espace normé $E$.
+  b) $\mathscr{T}$ est la topologie affaiblie $\sigma(E, E')$ de l’espace normé $E$.
+  c) $E$ est le dual d’un espace normé $F$ et l’on a $\mathscr{T} = \sigma(F', F)$.
+  d) Il existe deux espaces normés $F_1$ et $F_2$ tels que $E = \mathscr{L}(F_1; F_2)$ et que $\mathscr{T}$ soit la topologie de la convergence simple.
 
-Sauf mention expresse du contraire, les notions topologiques se réfèrent à la topologie $\mathcal{T}$.
+Sauf mention expresse du contraire, les notions topologiques se réfèrent à la topologie $\mathscr{T}$.
 
-Soit K une partie convexe de E. On suppose que K est compacte (pour la topologie $\mathcal{T}$), et que c’est un espace de type dénombrable pour la distance déduite de la norme de E.
+Soit K une partie convexe de E. On suppose que K est compacte (pour la topologie $\mathscr{T}$), et que c’est un espace de type dénombrable pour la distance déduite de la norme de E.
 
 #### Lemme 2 {#evt-iv-a0-lem-2 .statement}
 
@@ -150,7 +150,7 @@ Ceci achève la démonstration.
 
 #### Lemme 3 {#evt-iv-a0-lem-3 .statement}
 
-Soit G un groupe de transformations affines continues (pour $\mathcal{T}$) dans K. On suppose que K est non vide et qu’on a $\|gx - gy\| = \|x - y\|$ pour x, y dans K et g dans G. Il existe un point de K invariant par G.
+Soit G un groupe de transformations affines continues (pour $\mathscr{T}$) dans K. On suppose que K est non vide et qu’on a $\|gx - gy\| = \|x - y\|$ pour x, y dans K et g dans G. Il existe un point de K invariant par G.
 
 Soit $\mathfrak{J}$ l’ensemble des parties de K qui sont non vides, convexes, fermées et stables pour G. Si $(L_\alpha)_{\alpha \in I}$ est une famille totalement ordonnée par inclusion d’éléments de $\mathfrak{J}$, l’ensemble $L = \bigcap_{\alpha \in I} L_\alpha$ appartient à $\mathfrak{J}$. Par suite (E, III, p. 20, th. 2), il existe un élément L de $\mathfrak{J}$, minimal pour la relation d’inclusion. Il s’agit de prouver que L est réduit à un point.
 
@@ -178,7 +178,7 @@ Pour tout $g \in G$, notons $K_g$ l’ensemble des points x de K tels que $gx = 
 
 *Soient E un espace de Banach réflexif, G un groupe d’automorphismes de l’espace normé E, et K une partie de E. On suppose que K est convexe, fermée, non vide, bornée, et stable par G. Il existe alors dans K un point invariant par G.*
 
-Comme E est réflexif, K est compacte pour $\sigma(E, E')$ (IV, p. 15, th. 1). De plus, tout élément de G appartient à $\mathcal{L}(E)$.
+Comme E est réflexif, K est compacte pour $\sigma(E, E')$ (IV, p. 15, th. 1). De plus, tout élément de G appartient à $\mathscr{L}(E)$.
 
 ### 4. Applications
 
@@ -190,7 +190,7 @@ Montrons qu’il existe dans $K_x$ un unique point invariant par $\pi(G)$, à sa
 
 \* B) Trace d’un opérateur dans un espace hilbertien :
 
-Supposons maintenant que la représentation $\pi$ soit *irréductible*, c’est-à-dire qu’il n’existe aucun sous-espace hilbertien de E, distinct de $\{0\}$ et de E, et invariant par $\pi(G)$. Soit $F = \mathcal{L}^2(E)$ l’espace hilbertien des endomorphismes de Hilbert-Schmidt de E, avec le produit scalaire $\langle u|v \rangle = \mathrm{Tr}(u^*v)$. Définissons une représentation unitaire $\lambda$ de G dans F par la formule
+Supposons maintenant que la représentation $\pi$ soit *irréductible*, c’est-à-dire qu’il n’existe aucun sous-espace hilbertien de E, distinct de $\{0\}$ et de E, et invariant par $\pi(G)$. Soit $F = \mathscr{L}^2(E)$ l’espace hilbertien des endomorphismes de Hilbert-Schmidt de E, avec le produit scalaire $\langle u|v \rangle = \mathrm{Tr}(u^*v)$. Définissons une représentation unitaire $\lambda$ de G dans F par la formule
 
 (3)
 $$
@@ -199,15 +199,15 @@ $$
 
 L’espace $F^G$ des éléments de E invariants par $\lambda(G)$ se compose des endomorphismes $u$ de Hilbert-Schmidt de E qui commutent à $\pi(g)$ pour tout $g \in G$. D’après le lemme de Schur, un tel $u$ est une homothétie. On doit donc distinguer deux cas :
 1) si E est de dimension infinie, on a $F^G = \{0\}$;
-2) si E est de dimension finie, on a $F = \mathcal{L}(E)$ et $F^G = \mathbf{C}.1_E$.
+2) si E est de dimension finie, on a $F = \mathscr{L}(E)$ et $F^G = \mathbf{C}.1_E$.
 
 Par application du résultat de A) à la représentation unitaire $\lambda$, on obtient le théorème suivant :
 
-Soit $u \in \mathcal{L}^2(E)$, et soit $A_u$ l’enveloppe fermée convexe dans $\mathcal{L}^2(E)$ de l’ensemble des endomorphismes $\pi(g)\ u\pi(g)^{-1}$ de $E$, où $g$ parcourt $G$. Si $E$ est de dimension infinie, on a $0 \in A_u$. Si $E$ est de dimension finie $d$, il existe une unique homothétie dans $A_u$, à savoir la projection $\frac{1}{d}\ \mathrm{Tr}(u).\ 1_E$ de $u$ sur le sous-espace $\mathbf{C}.1_E$ de $\mathcal{L}^2(E)$.
+Soit $u \in \mathscr{L}^2(E)$, et soit $A_u$ l’enveloppe fermée convexe dans $\mathscr{L}^2(E)$ de l’ensemble des endomorphismes $\pi(g)\ u\pi(g)^{-1}$ de $E$, où $g$ parcourt $G$. Si $E$ est de dimension infinie, on a $0 \in A_u$. Si $E$ est de dimension finie $d$, il existe une unique homothétie dans $A_u$, à savoir la projection $\frac{1}{d}\ \mathrm{Tr}(u).\ 1_E$ de $u$ sur le sous-espace $\mathbf{C}.1_E$ de $\mathscr{L}^2(E)$.
 
 C) Mesure de Haar d’un groupe compact :
 
-Soit $G$ un groupe compact, et soit $E = \mathcal{C}(X ; \mathbf{R})$ l’espace de Banach des fonctions continues $f$ sur $G$, à valeurs réelles, muni de la norme
+Soit $G$ un groupe compact, et soit $E = \mathscr{C}(X ; \mathbf{R})$ l’espace de Banach des fonctions continues $f$ sur $G$, à valeurs réelles, muni de la norme
 
 $$
 \|f\| = \sup_{x \in G} |f(x)| .
@@ -251,7 +251,7 @@ Il est immédiat que, pour $f, g$ dans $E$ et tout scalaire $\lambda$, on a $\Ga
 
 Soient $X$ un espace topologique séparé, $\mu$ une mesure positive et bornée sur $X$, et $G$ un groupe d’homéomorphismes de $X$. On suppose que, pour tout $g \in G$, la mesure $g.\mu$ image de $\mu$ par l’application $g : X \to X$ est de base $\mu$. Soit $u_g$ une fonction positive $\mu$-intégrable sur $X$ telle que $g.\mu = u_g.\mu$. On suppose aussi qu’il existe deux fonctions $\mu$-intégrables positives $\varphi$ et $\psi$ sur $X$, non $\mu$-négligeables et telles que l’on ait $\varphi \leq u_g \leq \psi$ $\mu$-presque partout quel que soit $g \in G$. Nous allons prouver qu’il existe une mesure positive et bornée $v \neq 0$ sur $X$, de base $\mu$, invariante par $G$.
 
-Soit $P$ la partie de l’espace de Banach $E = L^1(X, \mu)$ formée des classes des fonctions $f$ telles que l’on ait $\varphi \leq f \leq \psi$ $\mu$-presque partout. Alors $P$ est compacte pour la topologie affaiblie $\sigma(E, E')$. L’application $h \mapsto h.\mu$ de $P$ dans l’espace de Banach $F = \mathcal{M}^b(X)$ des mesures réelles bornées sur $X$, est une bijection de $P$ sur un sous-ensemble $P_1$ de $F$, convexe et compact pour la topologie $\sigma(F, F')$. Par hypothèse, on a $g.\mu \in P_1$ pour tout $g \in G$. Soit $K$ l’enveloppe fermée convexe de l’ensemble des mesures $g.\mu$. Pour tout $g \in G$, l’application $v \mapsto g.v$ est une transformation affine isométrique de $K$. D’après le th. de Ryll-Nardzewski (IV, p. 43, th. 2), il existe donc une mesure $v \in K$ invariante par $G$. On a $\varphi.\mu \leq v$, d’où $v \neq 0$. \*
+Soit $P$ la partie de l’espace de Banach $E = L^1(X, \mu)$ formée des classes des fonctions $f$ telles que l’on ait $\varphi \leq f \leq \psi$ $\mu$-presque partout. Alors $P$ est compacte pour la topologie affaiblie $\sigma(E, E')$. L’application $h \mapsto h.\mu$ de $P$ dans l’espace de Banach $F = \mathscr{M}^b(X)$ des mesures réelles bornées sur $X$, est une bijection de $P$ sur un sous-ensemble $P_1$ de $F$, convexe et compact pour la topologie $\sigma(F, F')$. Par hypothèse, on a $g.\mu \in P_1$ pour tout $g \in G$. Soit $K$ l’enveloppe fermée convexe de l’ensemble des mesures $g.\mu$. Pour tout $g \in G$, l’application $v \mapsto g.v$ est une transformation affine isométrique de $K$. D’après le th. de Ryll-Nardzewski (IV, p. 43, th. 2), il existe donc une mesure $v \in K$ invariante par $G$. On a $\varphi.\mu \leq v$, d’où $v \neq 0$. \*
 
 Exercises
 

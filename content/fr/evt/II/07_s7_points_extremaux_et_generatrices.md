@@ -25,7 +25,7 @@ subsections:
       pdf_page: 98
 statements: 24
 exercises: 41
-content_sha256: 2641a422bf5f1599dcb4fcecb5b4ef7c23a8aeaccf778558140a456b8925c041
+content_sha256: 157b795b3027098060daebf6c822f08a4826804cf3b48551617a2541045ff98b
 ---
 
 ## § 7. POINTS EXTRÉMAUX ET GÉNÉRATRICES EXTRÉMALES
@@ -55,7 +55,7 @@ Mais cela entraîne $\sum_i (y_i - z_i)^2 = 0$, d’où $y_i = z_i$ pour tout $i
 
 #### Exemple 2 {#evt-ii-s7-n1-exa-2 .statement}
 
-Dans l’espace normé $\mathcal{B}(\mathbf{N})$ des suites bornées de nombres réels (I, p. 4) les points extrémaux de la boule unité sont les points $x = (\xi_n)$ tels que $|\xi_n| = 1$ pour tout $n$. En effet, supposons que l’on ait $|\xi_n| \leq 1$ pour tout $n$ et $|\xi_p| < 1$ pour un indice $p$. On peut alors écrire
+Dans l’espace normé $\mathscr{B}(\mathbf{N})$ des suites bornées de nombres réels (I, p. 4) les points extrémaux de la boule unité sont les points $x = (\xi_n)$ tels que $|\xi_n| = 1$ pour tout $n$. En effet, supposons que l’on ait $|\xi_n| \leq 1$ pour tout $n$ et $|\xi_p| < 1$ pour un indice $p$. On peut alors écrire
 
 $$
 x = \frac{1 + \xi_p}{2} y + \frac{1 - \xi_p}{2} z
@@ -201,7 +201,7 @@ Tout point de C qui appartient à un chapeau de C appartient à l’enveloppe fe
 
 Ceci résulte aussitôt du cor. 1, et du th. de Krein-Milman (II, p. 59, th. 1).
 
-\* Exemple. — Soit X un espace localement compact dénombrable à l’infini. Soit C un cône convexe fermé de sommet 0 dans $\mathcal{M}_+(X)$ muni de la topologie vague. Montrons que C est réunion de ses chapeaux. Soit $(X_n)$ une suite croissante de parties ouvertes relativement compactes de X, de réunion X. Soit $\mu$ un élément $\neq 0$ de C. Il existe des $\alpha_n > 0$ tels que $\sum_n \alpha_n \mu(X_n) = 1$. Pour toute mesure $\nu \in C$, posons $p(\nu) = \sum_n \alpha_n \nu(X_n) \in [0, + \infty]$. La fonction p sur C satisfait aux conditions (i) et (ii) de la prop. 4. Elle est semi-continue inférieurement pour la topologie vague (INT, IV, 2e éd., § 1, n° 1, prop. 4). L’ensemble A des $\gamma \in C$ tels que $p(\gamma) \leq 1$ est donc fermé non vide. D’autre part, comme toute partie compacte de X est contenue dans l’un des $X_n$, A est vaguement borné, donc vaguement compact (INT, III, 2e éd., § 1, n° 9, prop. 15). L’ensemble A est donc un chapeau de C contenant $\mu$. \*
+\* Exemple. — Soit X un espace localement compact dénombrable à l’infini. Soit C un cône convexe fermé de sommet 0 dans $\mathscr{M}_+(X)$ muni de la topologie vague. Montrons que C est réunion de ses chapeaux. Soit $(X_n)$ une suite croissante de parties ouvertes relativement compactes de X, de réunion X. Soit $\mu$ un élément $\neq 0$ de C. Il existe des $\alpha_n > 0$ tels que $\sum_n \alpha_n \mu(X_n) = 1$. Pour toute mesure $\nu \in C$, posons $p(\nu) = \sum_n \alpha_n \nu(X_n) \in [0, + \infty]$. La fonction p sur C satisfait aux conditions (i) et (ii) de la prop. 4. Elle est semi-continue inférieurement pour la topologie vague (INT, IV, 2e éd., § 1, n° 1, prop. 4). L’ensemble A des $\gamma \in C$ tels que $p(\gamma) \leq 1$ est donc fermé non vide. D’autre part, comme toute partie compacte de X est contenue dans l’un des $X_n$, A est vaguement borné, donc vaguement compact (INT, III, 2e éd., § 1, n° 9, prop. 15). L’ensemble A est donc un chapeau de C contenant $\mu$. \*
 
 #### Proposition 5 {#evt-ii-s7-prop-5 .statement}
 
@@ -229,7 +229,7 @@ Dans un espace vectoriel de dimension finie E, tout cône convexe fermé saillan
 
 #### Exemple 2 {#evt-ii-s7-n3-exa-2 .statement}
 
-\* Si X est un espace compact, le cône $\mathcal{M}_+(X)$ des mesures positives sur X, muni de la topologie vague, est un cône à semelle compacte (INT, III, 2e éd., § 1, no 9, cor. 3 de la prop. 15). \*
+\* Si X est un espace compact, le cône $\mathscr{M}_+(X)$ des mesures positives sur X, muni de la topologie vague, est un cône à semelle compacte (INT, III, 2e éd., § 1, no 9, cor. 3 de la prop. 15). \*
 
 ## EXERCICES {#evt-ii-s7-exercises}
 

@@ -36,7 +36,7 @@ chapters:
           statements: 27
           exercises: 14
           extraction: ocr
-          content_sha256: bbe8152644d419ccb19ee22f297414608b9110673218136de5825d49ebb656c5
+          content_sha256: 1f8d3d74fb2618f3c351e6ad261b10979253e2143e5c0e9b52c02e67b8516889
         - kind: section
           section: 2
           title: Linear varieties in a topological vector space
@@ -49,7 +49,7 @@ chapters:
           statements: 26
           exercises: 15
           extraction: ocr
-          content_sha256: 001f91ec10b82822cf53a8050a4342f37f3922472e7952d907a6a34854b2ed05
+          content_sha256: 953a979bcabee1fdb805541ab2146d83751166f1917274314ce8b2abb3a45c49
         - kind: section
           section: 3
           title: Metrisable topological vector spaces
@@ -62,7 +62,7 @@ chapters:
           statements: 11
           exercises: 9
           extraction: ocr
-          content_sha256: 6cbc79d34e4f9e5c94920e6367b739520ccb922a1dd94bb93b4a4cdc37800299
+          content_sha256: 7a8271ea9a010eadcfd81401d5686401ccfd341113f515ff0a694af1cc324c3d
     - chapter: II
       title: CONVEX SETS AND LOCALLY CONVEX SPACES
       sections:
@@ -87,7 +87,7 @@ chapters:
           statements: 15
           exercises: 0
           extraction: ocr
-          content_sha256: c142ede5d36c6c2e3b5b4d8bddc5e68415321932a189580ca0fe0a1351354a27
+          content_sha256: 83678c8f7fc574f7471865862952da621d2b8f8beb62f3a4985f21ca91b65111
         - kind: section
           section: 2
           title: Convex sets
@@ -100,7 +100,7 @@ chapters:
           statements: 51
           exercises: 43
           extraction: ocr
-          content_sha256: d061692d94255710b80728ad96183b04426f05c7ca01a6b75fc9fee6cfd79e73
+          content_sha256: ff3553ab0f99ac602c7b1695b8c045e0b25e926ddf316f906fc607667503cbb0
         - kind: section
           section: 3
           title: The Hahn-Banach Theorem (analytic form)
@@ -126,7 +126,7 @@ chapters:
           statements: 33
           exercises: 17
           extraction: ocr
-          content_sha256: 8868ada9c2641b4e23a77089936df9315d46683058a15b652c84bf9066eed2d4
+          content_sha256: 8758f102dc7a62f5a7635ace604f8701a260f6ea2fd6a3222d384f262b9293ea
         - kind: section
           section: 5
           title: Separation of convex sets
@@ -152,7 +152,7 @@ chapters:
           statements: 41
           exercises: 20
           extraction: ocr
-          content_sha256: 768c754e1011a182215e3ae9df8c627a7d0dc5c3af59c06cf42dd04db3e39059
+          content_sha256: e1bc460d0a51b883b5ee53c23ecc3ba068068ecf43bcc87316cace3e1948ad43
         - kind: section
           section: 7
           title: Extremal points and extremal generators
@@ -165,7 +165,7 @@ chapters:
           statements: 25
           exercises: 41
           extraction: ocr
-          content_sha256: 784ad7819606caee7146c7e6d1f2bae6e9589946ad1b86e9814898830b338212
+          content_sha256: e65b03774aa6296cd952507f53f354f1502075753a3855f2abf01c16c8ecd412
         - kind: section
           section: 8
           title: Complex locally convex spaces
@@ -178,7 +178,7 @@ chapters:
           statements: 10
           exercises: 3
           extraction: ocr
-          content_sha256: d9aa7186e530d20700f202fb90c0cc32604ac20f1ad2817cfbe11d29c94fc3a0
+          content_sha256: 425663611a68185df382e1b6a031bcc10fbf4168bb0d90cf73488ef54d14b3ad
     - chapter: III
       title: SPACES OF CONTINUOUS LINEAR MAPPINGS
       sections:
@@ -203,7 +203,7 @@ chapters:
           statements: 30
           exercises: 18
           extraction: ocr
-          content_sha256: f0367575f236480d19bac46c262f379ed1995cd00476c147df4184564e42e7b4
+          content_sha256: 960bc7c352d04bbbc5627738c519ef4cfd67e4967289aea5768d8be947557e73
         - kind: section
           section: 2
           title: Bornological spaces
@@ -216,7 +216,7 @@ chapters:
           statements: 6
           exercises: 4
           extraction: ocr
-          content_sha256: 0d07a448890f2831b0cc23b615935ec8e079f5380d64f4b62a604498fffec8be
+          content_sha256: c9b75a7d07661743ad6632e76701373f969d94167d8df709d5750d9911b44db5
         - kind: section
           section: 3
           title: Spaces of continuous linear mappings
@@ -229,7 +229,7 @@ chapters:
           statements: 39
           exercises: 13
           extraction: ocr
-          content_sha256: 4ed1fce2dbbf61db61227afd45600a085f6c0b776ec91a9152e9b34266c0750e
+          content_sha256: d0cdc06143817d623c1a526fb8ac496830b8bf54df10482dd3573c5ab85e774a
         - kind: section
           section: 4
           title: The Banach-Steinhaus theorem
@@ -242,7 +242,7 @@ chapters:
           statements: 24
           exercises: 22
           extraction: ocr
-          content_sha256: 39959f2e857883752d5da39050d17e5da11a3bdd030a94a0972c38a52975d9a6
+          content_sha256: 5ed7e69b55a255a5e6e3e928ace36d2b958254b7157b58aaf10d1196a154b546
         - kind: section
           section: 5
           title: Hypocontinuous bilinear mappings
@@ -255,7 +255,7 @@ chapters:
           statements: 16
           exercises: 15
           extraction: ocr
-          content_sha256: b5755948295cc28eeaa8a16dd678ffa2ce677b2bb914f5ea6530d05c0e05a8cd
+          content_sha256: cfe2fbf3a4ea8f353b92fd07c36af0a1ed46b71984600ab991f0f95918966ca7
         - kind: section
           section: 6
           title: Borel's graph theorem
@@ -268,7 +268,7 @@ chapters:
           statements: 8
           exercises: 6
           extraction: ocr
-          content_sha256: e379472db84810d5375451cb6502d4f3b37b304ba46555c234bad4be5f0f6752
+          content_sha256: 5d74351d9b7ddcf9c7875428c2bc5f92a8a8d0119dbfdf4dbc6aa7cf4fe74dab
     - chapter: IV
       title: DUALITY IN TOPOLOGICAL VECTOR SPACES
       sections:
@@ -293,7 +293,7 @@ chapters:
           statements: 36
           exercises: 25
           extraction: ocr
-          content_sha256: 478f6ad3ca16e707ec8cc287c3cd8cef7e449a078422de8ef6615ad156944a4e
+          content_sha256: 421a64212363dcb898c8d550d3d6f0d03c7bd538c5d33b78f4382c84ee800c6d
         - kind: section
           section: 2
           title: Bidual. Reflexive spaces
@@ -306,7 +306,7 @@ chapters:
           statements: 32
           exercises: 26
           extraction: ocr
-          content_sha256: d382fb6ed9174e8bcbf2dc18f510bf2f2a8359e0d8e626232137e711a75a6927
+          content_sha256: 673d74e415867270e5bde1942d94224c165fb8df9ad99ad5c1376b35287561bc
         - kind: section
           section: 3
           title: Dual of a Fréchet space
@@ -319,7 +319,7 @@ chapters:
           statements: 15
           exercises: 18
           extraction: ocr
-          content_sha256: 097b37836cedc3f211eb823daa6821daa7738916d82da6f3cb7239878804a41d
+          content_sha256: 8bb5447d406ef7400e5a6b42fecd7360d5ad897d62b17e13826d29aed5b98b8e
         - kind: section
           section: 4
           title: Strict morphisms of Fréchet spaces
@@ -332,7 +332,7 @@ chapters:
           statements: 13
           exercises: 23
           extraction: ocr
-          content_sha256: 4d9f753ed58d33db4d4b3dea16cf8a66e6a7677f9073f91db993b2b4767b89f4
+          content_sha256: 4445f6ba38c26bd2d5f9daeeec37deadb15f52942ff517da8da3165b091bf023
         - kind: section
           section: 5
           title: Compactness criteria
@@ -345,7 +345,7 @@ chapters:
           statements: 8
           exercises: 18
           extraction: ocr
-          content_sha256: 196b590d53d3ecfe44673a89585c238a171d9c14a0bb1144e0c66e03ceeeb4de
+          content_sha256: d0fa9c5aaf380d170b95bfb213aa9e6f15e5cda38e4b3be72f8be11f79b9b7d4
         - kind: appendix
           title: Fixed points of groups of affine transformations
           path: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
@@ -356,7 +356,7 @@ chapters:
           statements: 10
           exercises: 8
           extraction: ocr
-          content_sha256: 766c5c66bd0dd6abbb3dd5fde5679ccbfd3279efd130bac7917fb401314cfcf8
+          content_sha256: 076881490dd895a4130169f869629c7d393bc61787c9bab8671b5d069b539f9f
     - chapter: V
       title: HILBERTIAN SPACES (ELEMENTARY THEORY)
       sections:
@@ -381,7 +381,7 @@ chapters:
           statements: 41
           exercises: 37
           extraction: ocr
-          content_sha256: 8dd576344b993c08878de080baba9ab70b42b43b64d50b4794413ec889f7bc80
+          content_sha256: 7636f7903e66ecd5e6ed6cd0e99d4966eb0bae4c0a1dbd426a13a69b44083590
         - kind: section
           section: 2
           title: Orthogonal families in a hilbertian space
@@ -394,7 +394,7 @@ chapters:
           statements: 23
           exercises: 16
           extraction: ocr
-          content_sha256: 13b2d06e3e8c8872d9e3f91186077fdb068739451dbc3faf9b1d59434350b643
+          content_sha256: 6fa9993f99ed891eed3d010811e0f5abc1a637fc976e8492d3f06438096abbc2
         - kind: section
           section: 3
           title: Tensor product of hilbertian spaces
@@ -407,7 +407,7 @@ chapters:
           statements: 20
           exercises: 15
           extraction: ocr
-          content_sha256: 180872a18a714d03d9223b7e72acedceba22c332e27bdef4ce02ca50c52a19e2
+          content_sha256: ec12874139d34e331504d1202b3746122078b9b1611a614396c989b521599f4c
         - kind: section
           section: 4
           title: Some classes of operators in hilbertian spaces
@@ -419,7 +419,7 @@ chapters:
           statements: 49
           exercises: 0
           extraction: ocr
-          content_sha256: 357fbf959dff74964b1a3dea2596d59ae045110f70e82c07b1e7ae6f3ccdfa62
+          content_sha256: 6ccac416ae058c1541d16df9124e7a82b2e9d78429806798ef307a9279f3a68f
         - kind: historical
           title: Historical Note
           path: content/en/evt/V/historical_note.md
@@ -429,7 +429,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 508bcc788fa6da13400f0e000d73211dc45525b58749267776999b8af1636864
+          content_sha256: 412bdf0189e0cc2321105953fe3e73fb8ffb77f48bd728a788ab2f801e5a18e3
 notation_index:
     kind: notation
     title: INDEX OF NOTATION

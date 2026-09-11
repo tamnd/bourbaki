@@ -37,7 +37,7 @@ subsections:
       pdf_page: 208
 statements: 15
 exercises: 18
-content_sha256: 097b37836cedc3f211eb823daa6821daa7738916d82da6f3cb7239878804a41d
+content_sha256: 8bb5447d406ef7400e5a6b42fecd7360d5ad897d62b17e13826d29aed5b98b8e
 ---
 
 ## § 3. DUAL OF A FRÉCHET SPACE
@@ -50,13 +50,13 @@ content_sha256: 097b37836cedc3f211eb823daa6821daa7738916d82da6f3cb7239878804a41d
 
 (i) Let U be a subset of E which absorbs every bounded subset of E, and which is the intersection of a sequence of convex, balanced and closed neighbourhoods of 0 in E. Then U is a neighbourhood of 0 in E.
 
-(ii) For every locally convex space F, every bounded subset of $\mathcal{L}_b(E; F)$ which is the union of a countable family of equicontinuous subsets, is equicontinuous.
+(ii) For every locally convex space F, every bounded subset of $\mathscr{L}_b(E; F)$ which is the union of a countable family of equicontinuous subsets, is equicontinuous.
 
 (iii) In the strong dual $E'_b$ of E, every bounded subset which is the union of a countable family of equicontinuous subsets, is equicontinuous.
 
 It is clear that (iii) is a particular case of (ii).
 
-(i) $\Rightarrow$ (ii) : let H be a bounded subset of $\mathcal{L}_b(E; F)$, and let $(H_n)$ be a sequence of equicontinuous subsets of $\mathcal{L}_b(E; F)$ such that $H = \bigcup H_n$. Let V be a convex, balanced and closed neighbourhood of 0 in F. For every $n$, the set $W_n = \bigcap_{u \in H_n} u^{-1}(V)$ is a convex, balanced and closed neighbourhood of 0 in E since $H_n$ is equicontinuous. The set $W = \bigcap_{u \in H} u^{-1}(V)$ absorbs every bounded subset of E, since H is bounded in $\mathcal{L}_b(E; F)$ (III, p. 22), and we have $W = \bigcap_n W_n$. If E satisfies (i), then the set W is a neighbourhood of 0 in E, hence H is equicontinuous.
+(i) $\Rightarrow$ (ii) : let H be a bounded subset of $\mathscr{L}_b(E; F)$, and let $(H_n)$ be a sequence of equicontinuous subsets of $\mathscr{L}_b(E; F)$ such that $H = \bigcup H_n$. Let V be a convex, balanced and closed neighbourhood of 0 in F. For every $n$, the set $W_n = \bigcap_{u \in H_n} u^{-1}(V)$ is a convex, balanced and closed neighbourhood of 0 in E since $H_n$ is equicontinuous. The set $W = \bigcap_{u \in H} u^{-1}(V)$ absorbs every bounded subset of E, since H is bounded in $\mathscr{L}_b(E; F)$ (III, p. 22), and we have $W = \bigcap_n W_n$. If E satisfies (i), then the set W is a neighbourhood of 0 in E, hence H is equicontinuous.
 
 (iii) $\Rightarrow$ (i) : let $(U_n)$ be a sequence of convex, balanced and closed neighbourhoods of 0 in E. We assume that the set $U = \bigcap_n U_n$ absorbs every bounded subset of E, hence that its polar $U^\circ$ is bounded in $E'_b$. Then the set $B = \bigcup_n U_n^\circ$ is contained in $U^\circ$, hence is bounded in $E'_b$. If E satisfies (iii), the set B is equicontinuous in $E'$; consequently, the polar $B^\circ = \bigcap_n (U_n^\circ)^\circ = \bigcap_n U_n = U$ of B in E is a neighbourhood of 0 in E.
 
@@ -99,17 +99,17 @@ The following corollary extends the Banach-Steinhaus theorem to the dual of a Fr
 
 — Let G be a Hausdorff locally convex space, and let $(u_n)$ be a sequence of linear mappings from F into G, converging simply to a mapping u from F into G. Then u is continuous, and the sequence $(u_n)$ converges to u uniformly on every precompact subset of F.
 
-Since F is complete, the set of all $u_n$, which is bounded for the topology of simple convergence, is bounded in $\mathcal{L}_b(F; G)$ (III, p. 27, cor. 1). Since the space F is semi-barrelled (prop. 2), every countable and bounded subset of $\mathcal{L}_b(F; G)$ is equicontinuous by prop. 1 of IV, p. 21. Therefore the set of the $u_n$ is equicontinuous, and the corollary follows from III, p. 18, corollary.
+Since F is complete, the set of all $u_n$, which is bounded for the topology of simple convergence, is bounded in $\mathscr{L}_b(F; G)$ (III, p. 27, cor. 1). Since the space F is semi-barrelled (prop. 2), every countable and bounded subset of $\mathscr{L}_b(F; G)$ is equicontinuous by prop. 1 of IV, p. 21. Therefore the set of the $u_n$ is equicontinuous, and the corollary follows from III, p. 18, corollary.
 
 ### 3. Bidual of a locally convex metrizable space
 
 #### Proposition 3 {#evt-iv-s3-prop-3 .statement}
 
-— Let E be a locally convex metrizable space, $E'_b$ its strong dual and G a Fréchet space. The space $\mathcal{L}_b(E'_b ; G)$ is a Fréchet space.
+— Let E be a locally convex metrizable space, $E'_b$ its strong dual and G a Fréchet space. The space $\mathscr{L}_b(E'_b ; G)$ is a Fréchet space.
 
-By prop. 2 (IV, p. 22), there exists a sequence $(A_n)$ of bounded subsets of $E'_b$ such that every bounded subset of $E'_b$ is contained in one of the $A_n$. Let $(V_n)$ be a countable fundamental system of neighbourhoods of 0 in G. Let $H_{mn}$ be the set of linear mappings $u$ from $E'_b$ into G such that $u(A_m) \subset V_n$. Then $(H_{mn})$ is a fundamental system of neighbourhoods of 0 in $\mathcal{L}_b(E'_b ; G)$, and the latter space is then metrizable.
+By prop. 2 (IV, p. 22), there exists a sequence $(A_n)$ of bounded subsets of $E'_b$ such that every bounded subset of $E'_b$ is contained in one of the $A_n$. Let $(V_n)$ be a countable fundamental system of neighbourhoods of 0 in G. Let $H_{mn}$ be the set of linear mappings $u$ from $E'_b$ into G such that $u(A_m) \subset V_n$. Then $(H_{mn})$ is a fundamental system of neighbourhoods of 0 in $\mathscr{L}_b(E'_b ; G)$, and the latter space is then metrizable.
 
-To show that $\mathcal{L}_b(E'_b ; G)$ is complete, it is enough to prove that every Cauchy sequence $(u_n)$ in this space is convergent; since G is complete, there exists a linear mapping $u : E'_b \to G$ such that $(u_n)$ converges simply to u. By IV, p. 23, corollary, we have $u \in \mathcal{L}_b(E'_b ; G)$. It then follows from prop. 5 of GT, X, § 1, No. 5, that $(u_n)$ converges to u in $\mathcal{L}_b(E'_b ; G)$.
+To show that $\mathscr{L}_b(E'_b ; G)$ is complete, it is enough to prove that every Cauchy sequence $(u_n)$ in this space is convergent; since G is complete, there exists a linear mapping $u : E'_b \to G$ such that $(u_n)$ converges simply to u. By IV, p. 23, corollary, we have $u \in \mathscr{L}_b(E'_b ; G)$. It then follows from prop. 5 of GT, X, § 1, No. 5, that $(u_n)$ converges to u in $\mathscr{L}_b(E'_b ; G)$.
 
 #### Corollary {#evt-iv-s3-n3-cor-1 .statement}
 
@@ -143,12 +143,12 @@ An inductive limit of Banach spaces is bornological by definition. Further, a Ba
 
 — *Let E be a locally convex metrizable space. The following topologies coincide on the dual $E'$ of E :*
 
-a) *the topology $\mathcal{T}_\mathfrak{N}$ of $\mathfrak{N}$-convergence, where $\mathfrak{N}$ is the family of subsets of E each consisting of points of a sequence converging to 0 ;*
-b) *the topology $\mathcal{T}_c$ of uniform convergence on compact subsets of E ;*
-c) *the topology $\mathcal{T}_{pc}$ of uniform convergence on precompact subsets of E ;*
-d) *the topology $\mathcal{T}_f$ which is the finest topology inducing the same topology as $\sigma(E', E)$ on every equicontinuous subset of $E'$.*
+a) *the topology $\mathscr{T}_\mathfrak{N}$ of $\mathfrak{N}$-convergence, where $\mathfrak{N}$ is the family of subsets of E each consisting of points of a sequence converging to 0 ;*
+b) *the topology $\mathscr{T}_c$ of uniform convergence on compact subsets of E ;*
+c) *the topology $\mathscr{T}_{pc}$ of uniform convergence on precompact subsets of E ;*
+d) *the topology $\mathscr{T}_f$ which is the finest topology inducing the same topology as $\sigma(E', E)$ on every equicontinuous subset of $E'$.*
 
-First observe that *a subset A of $E'$ is closed for $\mathcal{T}_f$ if and only if $A \cap H$ is closed for $\sigma(E', E)$ for every subset H of $E'$ which is equicontinuous and closed for $\sigma(E', E)$.* The weak topology $\sigma(E', E)$ and $\mathcal{T}_{pc}$ induce the same topology on every equicontinuous subset of $E'$ (III, p. 17, prop. 5). Consequently each of the topologies $\mathcal{T}_\mathfrak{N}$, $\mathcal{T}_c$, $\mathcal{T}_{pc}$, $\mathcal{T}_f$ is coarser than the one following it. It is therefore enough to prove that $\mathcal{T}_\mathfrak{N}$ is finer than $\mathcal{T}_f$. Moreover, every translation in $E'$ is a homeomorphism for $\mathcal{T}_f$. Hence it is enough to prove that, if F is a subset of $E'$ which is closed for $\mathcal{T}_f$, and does not contain 0, then there exists a set $S \in \mathfrak{N}$ such that $S^\circ \cap F = \varnothing$.
+First observe that *a subset A of $E'$ is closed for $\mathscr{T}_f$ if and only if $A \cap H$ is closed for $\sigma(E', E)$ for every subset H of $E'$ which is equicontinuous and closed for $\sigma(E', E)$.* The weak topology $\sigma(E', E)$ and $\mathscr{T}_{pc}$ induce the same topology on every equicontinuous subset of $E'$ (III, p. 17, prop. 5). Consequently each of the topologies $\mathscr{T}_\mathfrak{N}$, $\mathscr{T}_c$, $\mathscr{T}_{pc}$, $\mathscr{T}_f$ is coarser than the one following it. It is therefore enough to prove that $\mathscr{T}_\mathfrak{N}$ is finer than $\mathscr{T}_f$. Moreover, every translation in $E'$ is a homeomorphism for $\mathscr{T}_f$. Hence it is enough to prove that, if F is a subset of $E'$ which is closed for $\mathscr{T}_f$, and does not contain 0, then there exists a set $S \in \mathfrak{N}$ such that $S^\circ \cap F = \varnothing$.
 
 Let $(U_n)_{n \geq 0}$ be a decreasing sequence of neighbourhoods of 0 in E forming a fundamental system of neighbourhoods of 0. We shall construct, by induction on $n \geq 0$, *finite* sets $X_n$ such that we have
 $$
@@ -162,7 +162,7 @@ for every integer $n \geqslant 0$. Let $m \geqslant 0$ be an integer such that $
 $$
 F_x = (\bigcup_{0 \leqslant p < m} X_p)^{\circ} \cap \{x\}^{\circ} \cap U_{m+1}^{\circ} \cap F.
 $$
-Formula (5) with $n = m - 1$ implies that $\bigcap_{x \in U_m} F_x = \varnothing$. Further, the set $U_{m+1}^{\circ}$ is equicontinuous, and compact for $\sigma(E', E)$. In view of the definition of $\mathcal{T}_f$, each of the sets $F_x$ is compact for $\sigma(E', E)$; therefore there exists a finite subset $X_m$ of $U_m$ such that $\bigcap_{x \in X_m} F_x = \varnothing$, *i.e.* relation (5) is satisfied for $n = m$.
+Formula (5) with $n = m - 1$ implies that $\bigcap_{x \in U_m} F_x = \varnothing$. Further, the set $U_{m+1}^{\circ}$ is equicontinuous, and compact for $\sigma(E', E)$. In view of the definition of $\mathscr{T}_f$, each of the sets $F_x$ is compact for $\sigma(E', E)$; therefore there exists a finite subset $X_m$ of $U_m$ such that $\bigcap_{x \in X_m} F_x = \varnothing$, *i.e.* relation (5) is satisfied for $n = m$.
 
 Put $S = \bigcup_{n \geqslant 0} X_n$. We have $X_n \subset U_p$ for $n \geqslant p$, therefore $S$ is the set of points of a sequence which converges to 0 in $E$. From (5) we deduce that $S^{\circ} \cap U_{n+1}^{\circ} \cap F = \varnothing$, and since $E'$ is the union of the sequence of sets $U_{n+1}^{\circ}$, we get $S^{\circ} \cap F = \varnothing$.
 
@@ -170,13 +170,13 @@ Put $S = \bigcup_{n \geqslant 0} X_n$. We have $X_n \subset U_p$ for $n \geqslan
 
 *Let $E$ be a locally convex metrizable space. Every precompact subset of $E$ is contained in the closed convex balanced envelope of the set of points of a sequence converging to 0.*
 
-This follows from the fact that the topologies $\mathcal{T}_{pc}$ and $\mathcal{T}_{\mathfrak{H}}$ are identical, on account of prop. 2 of III, p. 15.
+This follows from the fact that the topologies $\mathscr{T}_{pc}$ and $\mathscr{T}_{\mathfrak{H}}$ are identical, on account of prop. 2 of III, p. 15.
 
 #### Corollary 2 {#evt-iv-s3-thm-1-cor-2 .statement}
 
 *Let $E$ be a Fréchet space. In order that a convex subset $A$ of the dual $E'$ of $E$ be closed for $\sigma(E', E)$, it is necessary and sufficient that $A \cap U^{\circ}$ is closed for $\sigma(E', E)$ for every neighbourhood $U$ of 0 in $E$.*
 
-Since $E$ is complete, the topology $\mathcal{T}_c$ on $E'$ is compatible with the duality between $E'$ and $E$ (IV, p. 3, *Example*); consequently the closed convex subsets in $E'$ are the same for $\mathcal{T}_c$ and $\sigma(E', E)$ (IV, p. 1, prop. 1). The corollary then follows from the identity of the topologies $\mathcal{T}_c$ and $\mathcal{T}_f$.
+Since $E$ is complete, the topology $\mathscr{T}_c$ on $E'$ is compatible with the duality between $E'$ and $E$ (IV, p. 3, *Example*); consequently the closed convex subsets in $E'$ are the same for $\mathscr{T}_c$ and $\sigma(E', E)$ (IV, p. 1, prop. 1). The corollary then follows from the identity of the topologies $\mathscr{T}_c$ and $\mathscr{T}_f$.
 
 Recall (I, p. 13) that the hyperplanes of $E'$ which are closed for $\sigma(E', E)$ are the kernels of linear forms on $E'$ associated with elements of $E$. Cor. 2 therefore gives another proof (for Fréchet spaces) of cor. 1 of III, p. 21.
 
@@ -186,7 +186,7 @@ Recall (I, p. 13) that the hyperplanes of $E'$ which are closed for $\sigma(E', 
 
 #### Example {#evt-iv-s3-n5-exa-1 .statement}
 
-— *Let $H$ be a hilbertian space satisfying the first axiom of countability; let $H_{\sigma}$ denote the space $H$ with the weakened topology assigned to it. Let $\mathcal{L}^1(H)$ be the Banach space of nuclear endomorphisms of $H$ (V, p. 51, and TS, V); the norm in $\mathcal{L}^1(H)$ is defined by $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. We can identify $\mathcal{L}(H)$ with the dual of the Banach space $\mathcal{L}^1(H)$ by associating the linear form $\phi_u : v \mapsto \operatorname{Tr}(uv)$ on $\mathcal{L}^1(H)$ with every $u \in \mathcal{L}(H)$. Let $A$ be a sub-algebra of $\mathcal{L}(H)$, containing 1 and stable under $u \mapsto u^*$; this is a von Neumann algebra if and only if it is closed in $\mathcal{L}(H)$ for the weak topology $\sigma(\mathcal{L}(H), \mathcal{L}^1(H))$. From cor. 3, we deduce the following criterion : *for $A$ to be a von Neumann algebra, it is necessary and sufficient that if $(u_n)$ is any sequence of elements of $A$ with norm $\leqslant 1$ having a limit $u$ in the space $\mathcal{L}_s(H ; H_{\sigma})$, then $u$ belongs to $A$.*
+— *Let $H$ be a hilbertian space satisfying the first axiom of countability; let $H_{\sigma}$ denote the space $H$ with the weakened topology assigned to it. Let $\mathscr{L}^1(H)$ be the Banach space of nuclear endomorphisms of $H$ (V, p. 51, and TS, V); the norm in $\mathscr{L}^1(H)$ is defined by $\|u\|_1 = \operatorname{Tr}((u^*u)^{1/2})$. We can identify $\mathscr{L}(H)$ with the dual of the Banach space $\mathscr{L}^1(H)$ by associating the linear form $\phi_u : v \mapsto \operatorname{Tr}(uv)$ on $\mathscr{L}^1(H)$ with every $u \in \mathscr{L}(H)$. Let $A$ be a sub-algebra of $\mathscr{L}(H)$, containing 1 and stable under $u \mapsto u^*$; this is a von Neumann algebra if and only if it is closed in $\mathscr{L}(H)$ for the weak topology $\sigma(\mathscr{L}(H), \mathscr{L}^1(H))$. From cor. 3, we deduce the following criterion : *for $A$ to be a von Neumann algebra, it is necessary and sufficient that if $(u_n)$ is any sequence of elements of $A$ with norm $\leqslant 1$ having a limit $u$ in the space $\mathscr{L}_s(H ; H_{\sigma})$, then $u$ belongs to $A$.*
 
 ### 6. Separately continuous bilinear mappings
 
@@ -204,7 +204,7 @@ Let U be the polar of B in $E'_b$. This is a neighbourhood of 0 in $E'_b$ and we
 
 Let $E_1$ and $E_2$ be two reflexive Fréchet spaces, and G a locally convex Hausdorff space. For $i = 1, 2$, let $F_i$ be the strong dual of $E_i$. Then every separately continuous bilinear mapping $u : F_1 \times F_2 \to G$ is continuous.
 
-The space G is isomorphic to a subspace of a product of Banach spaces (II, p. 5, prop. 3). Therefore it is enough to prove the theorem under the additional hypothesis that G is a Banach space. But $F_1$ is barrelled and $F_2$ bornological (IV, p. 24, corollary), and $\mathcal{L}_b(F_2 ; G)$ is a Fréchet space (IV, p. 23, prop. 3). Let v denote the linear mapping from $F_1$ into $\mathcal{L}_b(F_2 , G)$ associated with u by the relation
+The space G is isomorphic to a subspace of a product of Banach spaces (II, p. 5, prop. 3). Therefore it is enough to prove the theorem under the additional hypothesis that G is a Banach space. But $F_1$ is barrelled and $F_2$ bornological (IV, p. 24, corollary), and $\mathscr{L}_b(F_2 ; G)$ is a Fréchet space (IV, p. 23, prop. 3). Let v denote the linear mapping from $F_1$ into $\mathscr{L}_b(F_2 , G)$ associated with u by the relation
 
 $$
 u(x_1, x_2) = v(x_1)(x_2) \quad (x_1 \in F_1, x_2 \in F_2).
@@ -212,7 +212,7 @@ $$
 
 Since $F_1$ is barrelled and u separately continuous, v is continuous (III, p. 31, prop. 6).
 
-Since v is continuous, lemma 1 implies the existence of a neighbourhood $U_1$ of 0 in $F_1$ whose image under v is bounded in $\mathcal{L}_b(F_2 ; G)$. In other words, for every bounded subset $B_2$ in $F_2$, the set $u(U_1 \times B_2)$ is bounded in the Banach space G. Let $U_2$ be the set of all $x_2 \in F_2$ such that $\|u(x_1, x_2)\| \leqslant 1$ for all $x_1 \in U_1$. The set $U_2$ then absorbs every bounded subset; since $F_2$ is bornological, $U_2$ is a neighbourhood of 0 in $F_2$, and this proves that u is continuous.
+Since v is continuous, lemma 1 implies the existence of a neighbourhood $U_1$ of 0 in $F_1$ whose image under v is bounded in $\mathscr{L}_b(F_2 ; G)$. In other words, for every bounded subset $B_2$ in $F_2$, the set $u(U_1 \times B_2)$ is bounded in the Banach space G. Let $U_2$ be the set of all $x_2 \in F_2$ such that $\|u(x_1, x_2)\| \leqslant 1$ for all $x_1 \in U_1$. The set $U_2$ then absorbs every bounded subset; since $F_2$ is bornological, $U_2$ is a neighbourhood of 0 in $F_2$, and this proves that u is continuous.
 
 ### Exercises {#evt-iv-s3-exercises}
 

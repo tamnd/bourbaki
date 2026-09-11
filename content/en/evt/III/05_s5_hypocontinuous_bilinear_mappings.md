@@ -33,7 +33,7 @@ subsections:
       pdf_page: 164
 statements: 16
 exercises: 15
-content_sha256: b5755948295cc28eeaa8a16dd678ffa2ce677b2bb914f5ea6530d05c0e05a8cd
+content_sha256: cfe2fbf3a4ea8f353b92fd07c36af0a1ed46b71984600ab991f0f95918966ca7
 ---
 
 ## § 5. HYPOCONTINUOUS BILINEAR MAPPINGS
@@ -50,9 +50,9 @@ The following proposition follows immediately from the definition.
 
 #### Proposition 1 {#evt-iii-s5-prop-1 .statement}
 
-*For a bilinear mapping $u$ from $E \times F$ into $G$ to be separately continuous, it is necessary and sufficient that for all $y \in F$, the linear mapping $u(., y)$ from $E$ into $G$ is continuous and that the linear mapping $y \mapsto u(., y)$ from $F$ into $\mathcal{L}_s(E; G)$ is continuous.*
+*For a bilinear mapping $u$ from $E \times F$ into $G$ to be separately continuous, it is necessary and sufficient that for all $y \in F$, the linear mapping $u(., y)$ from $E$ into $G$ is continuous and that the linear mapping $y \mapsto u(., y)$ from $F$ into $\mathscr{L}_s(E; G)$ is continuous.*
 
-We can also say that, to every linear mapping $v \in \mathcal{L}(F; \mathcal{L}_s(E; G))$ is associated the bilinear mapping $(x, y) \mapsto v(y)(x)$, then we define a linear *bijection* from $\mathcal{L}(F; \mathcal{L}_s(E; G))$ onto the vector space of separately continuous bilinear mappings from $E \times F$ into $G$.
+We can also say that, to every linear mapping $v \in \mathscr{L}(F; \mathscr{L}_s(E; G))$ is associated the bilinear mapping $(x, y) \mapsto v(y)(x)$, then we define a linear *bijection* from $\mathscr{L}(F; \mathscr{L}_s(E; G))$ onto the vector space of separately continuous bilinear mappings from $E \times F$ into $G$.
 
 A separately continuous bilinear mapping from $E \times F$ into $G$ need not necessarily be continuous on $E \times F$ (III, p. 47, exerc. 2; cf. however III, p. 30, and IV, p. 26, th. 2).
 
@@ -64,24 +64,24 @@ $$
 
 for every $x_1 \in E_1$ and $x_2 \in E_2$; moreover, the mapping $^d\Phi : E_2 \to F_1$ is linear and *continuous* for the (weak) topologies of $E_2$ and of $F_1$.
 
-Conversely, for every continuous linear mapping $u : E_2 \to F_1$ the mapping $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ is a separately continuous bilinear form on $E_1 \times E_2$, and we have $u = {}^d \Phi$. Thus we have defined an isomorphism $d : \Phi \mapsto {}^d \Phi$ from $B(E_1, E_2)$ onto $\mathcal{L}(E_2; F_1)$, said to be *canonical*. Similarly the formula
+Conversely, for every continuous linear mapping $u : E_2 \to F_1$ the mapping $(x_1, x_2) \mapsto \Phi(x_1, x_2) = \langle x_1, u(x_2) \rangle$ is a separately continuous bilinear form on $E_1 \times E_2$, and we have $u = {}^d \Phi$. Thus we have defined an isomorphism $d : \Phi \mapsto {}^d \Phi$ from $B(E_1, E_2)$ onto $\mathscr{L}(E_2; F_1)$, said to be *canonical*. Similarly the formula
 
 $$
 \Phi(x_1, x_2) = \langle {}^s \Phi(x_1), x_2 \rangle
 $$
 
-defines a *canonical* isomorphism $s : \Phi \to {}^s \Phi$ from $B(E_1, E_2)$ onto $\mathcal{L}(E_1, F_2)$; we have evidently the commutative diagram
+defines a *canonical* isomorphism $s : \Phi \to {}^s \Phi$ from $B(E_1, E_2)$ onto $\mathscr{L}(E_1, F_2)$; we have evidently the commutative diagram
 
 $$
 \begin{array}{ccc}
 & B(E_1, E_2) & \\
 s & / & d \\
 \downarrow & & \downarrow \\
-\mathcal{L}(E_1; F_2) & \leftrightarrow & \mathcal{L}(E_2; F_1)
+\mathscr{L}(E_1; F_2) & \leftrightarrow & \mathscr{L}(E_2; F_1)
 \end{array}
 $$
 
-where $t$ is the isomorphism of transposition (II, p. 46, prop. 5 and corollary). In view of the definition of weak topologies on $F_1$ and $F_2$, it is immediate that when $B(E_1, E_2)$, $\mathcal{L}(E_1; E_2)$ and $\mathcal{L}(E_2; F_1)$ are assigned *the topology of simple convergence*, *the isomorphisms of diagram (3) are topological vector space isomorphisms*.
+where $t$ is the isomorphism of transposition (II, p. 46, prop. 5 and corollary). In view of the definition of weak topologies on $F_1$ and $F_2$, it is immediate that when $B(E_1, E_2)$, $\mathscr{L}(E_1; E_2)$ and $\mathscr{L}(E_2; F_1)$ are assigned *the topology of simple convergence*, *the isomorphisms of diagram (3) are topological vector space isomorphisms*.
 
 ### 2. Separately continuous bilinear mappings on a product of Fréchet spaces
 
@@ -97,17 +97,17 @@ Let $U_n$ (resp. $V_n$) be a fundamental sequence of neighbourhoods of 0 in E (r
 
 In fact, every Fréchet space is barrelled (III, p. 25, corollary).
 
-Let E and F be two locally convex spaces. We use $\mathcal{B}(E, F)$ to denote the space of continuous bilinear forms on $E \times F$, with the topology of uniform convergence on sets of the form $A \times B$, where A (resp. B) is bounded in E (resp. F). The formula
+Let E and F be two locally convex spaces. We use $\mathscr{B}(E, F)$ to denote the space of continuous bilinear forms on $E \times F$, with the topology of uniform convergence on sets of the form $A \times B$, where A (resp. B) is bounded in E (resp. F). The formula
 $$
 u(x, y) = \langle y, \phi(u)(x) \rangle
 $$
-(for $x \in E, y \in F$ and $u \in \mathcal{B}(E, F)$) defines a continuous linear injective mapping $\phi$ from $\mathcal{B}(E, F)$ into $\mathcal{L}_b(E; F'_b)$.
+(for $x \in E, y \in F$ and $u \in \mathscr{B}(E, F)$) defines a continuous linear injective mapping $\phi$ from $\mathscr{B}(E, F)$ into $\mathscr{L}_b(E; F'_b)$.
 
 #### Corollary 2 {#evt-iii-s5-prop-2-cor-2 .statement}
 
-— Suppose that E and F are metrizable and that E is barrelled. Then $\phi$ is a topological vector space isomorphism from $\mathcal{B}(E, F)$ onto $\mathcal{L}_b(E; F'_b)$.
+— Suppose that E and F are metrizable and that E is barrelled. Then $\phi$ is a topological vector space isomorphism from $\mathscr{B}(E, F)$ onto $\mathscr{L}_b(E; F'_b)$.
 
-Let $f \in \mathcal{L}_b(E; F'_b)$. Put $u(x, y) = \langle y, f(x) \rangle$ for $x \in E$ and $y \in F$. The bilinear form $u$ on $E \times F$ is separately continuous; by prop. 2, it belongs to $\mathcal{B}(E, F)$, and we have $f = \phi(u)$. Hence $\phi$ is a linear bijection from $\mathcal{B}(E, F)$ onto $\mathcal{L}_b(E; F'_b)$. It is immediate that $\phi$ is bicontinuous, hence cor. 2 follows.
+Let $f \in \mathscr{L}_b(E; F'_b)$. Put $u(x, y) = \langle y, f(x) \rangle$ for $x \in E$ and $y \in F$. The bilinear form $u$ on $E \times F$ is separately continuous; by prop. 2, it belongs to $\mathscr{B}(E, F)$, and we have $f = \phi(u)$. Hence $\phi$ is a linear bijection from $\mathscr{B}(E, F)$ onto $\mathscr{L}_b(E; F'_b)$. It is immediate that $\phi$ is bicontinuous, hence cor. 2 follows.
 
 ### 3. Hypocontinuous bilinear mappings
 
@@ -119,21 +119,21 @@ In what follows, we shall define a notion which is intermediate between that of 
 
 a) For every neighbourhood W of 0 in G and every set $M \in \mathfrak{S}$, there exists a neighbourhood V of 0 in F such that $u(M \times V) \subset W$.
 
-b) For every set $M \in \mathfrak{S}$, the image of M under the mapping $x \mapsto u(x, .)$ is an equicontinuous subset of $\mathcal{L}(F; G)$.
+b) For every set $M \in \mathfrak{S}$, the image of M under the mapping $x \mapsto u(x, .)$ is an equicontinuous subset of $\mathscr{L}(F; G)$.
 
-c) The mapping $y \mapsto u(., y)$ from F into $\mathcal{L}_{\mathfrak{S}}(E; G)$ is continuous.
+c) The mapping $y \mapsto u(., y)$ from F into $\mathscr{L}_{\mathfrak{S}}(E; G)$ is continuous.
 
-a) expresses that $y \mapsto u(., y)$ is continuous at the point 0, on account of the definition of neighbourhoods of 0 in $\mathcal{L}_{\mathfrak{S}}(E; G)$ (III, p. 13); likewise a) expresses that the image of M under the mapping $x \mapsto u(x, .)$ is equicontinuous at the point 0 (III, p. 16).
+a) expresses that $y \mapsto u(., y)$ is continuous at the point 0, on account of the definition of neighbourhoods of 0 in $\mathscr{L}_{\mathfrak{S}}(E; G)$ (III, p. 13); likewise a) expresses that the image of M under the mapping $x \mapsto u(x, .)$ is equicontinuous at the point 0 (III, p. 16).
 
 #### Definition 2 {#evt-iii-s5-def-2 .statement}
 
 — Let u be a bilinear mapping from $E \times F$ into G. We say that u is $\mathfrak{S}$-hypocontinuous if u is separately continuous and if it verifies one of the equivalent conditions a), b), c) of prop. 3.
 
-The condition c) of prop. 3 shows that the notion of $\mathfrak{S}$-hypocontinuous bilinear mapping depends on $\mathfrak{S}$ only through the $\mathfrak{S}$-topology on $\mathcal{L}(E, G)$.
+The condition c) of prop. 3 shows that the notion of $\mathfrak{S}$-hypocontinuous bilinear mapping depends on $\mathfrak{S}$ only through the $\mathfrak{S}$-topology on $\mathscr{L}(E, G)$.
 
 For every set $\mathfrak{T}$ of bounded subsets of F, we define similarly the notion of $\mathfrak{T}$-hypocontinuous mapping, by interchanging the roles of E and F in prop. 3. A separately continuous bilinear mapping u is said to be $(\mathfrak{S}, \mathfrak{T})$-hypocontinuous if it is both $\mathfrak{S}$-hypocontinuous and $\mathfrak{T}$-hypocontinuous.
 
-Every *continuous* bilinear mapping from $E \times F$ into $G$ is $(\mathcal{S}, \mathcal{T})$-hypocontinuous for every pair $(\mathcal{S}, \mathcal{T})$ of sets of bounded subsets : for every neighbourhood $W$ of 0 in $G$, there exists a neighbourhood $U$ of 0 in $E$ and a neighbourhood $V$ of 0 in $F$ such that $u(U \times V) \subset W$; since every set $M \in \mathcal{S}$ is bounded, there exists $\lambda > 0$ such that $\lambda M \subset V$, and so
+Every *continuous* bilinear mapping from $E \times F$ into $G$ is $(\mathscr{S}, \mathscr{T})$-hypocontinuous for every pair $(\mathscr{S}, \mathscr{T})$ of sets of bounded subsets : for every neighbourhood $W$ of 0 in $G$, there exists a neighbourhood $U$ of 0 in $E$ and a neighbourhood $V$ of 0 in $F$ such that $u(U \times V) \subset W$; since every set $M \in \mathscr{S}$ is bounded, there exists $\lambda > 0$ such that $\lambda M \subset V$, and so
 
 $$
 u(M \times \lambda V) = u(\lambda M \times V) \subset u(U \times V) \subset W .
@@ -143,35 +143,35 @@ The converse is in general false (III, p. 47, exerc. 3).
 
 #### Proposition 4 {#evt-iii-s5-prop-4 .statement}
 
-*Let $u$ be a $\mathcal{S}$-hypocontinuous bilinear mapping from $E \times F$ into $G$. For every set $M \in \mathcal{S}$, the restriction of $u$ to $M \times F$ is continuous, and $u(M \times Q)$ is bounded in $G$ for every bounded subset $Q$ of $F$.*
+*Let $u$ be a $\mathscr{S}$-hypocontinuous bilinear mapping from $E \times F$ into $G$. For every set $M \in \mathscr{S}$, the restriction of $u$ to $M \times F$ is continuous, and $u(M \times Q)$ is bounded in $G$ for every bounded subset $Q$ of $F$.*
 
 The first assertion follows from cor. 3 of GT, X, § 2, No. 1. Let $W$ be a neighbourhood of 0 in $G$; there exists, by hypothesis, a neighbourhood $V$ of 0 in $F$ such that $u(M \times V) \subset W$. Since there exists $\lambda \neq 0$ such that $\lambda Q \subset V$, we have $\lambda u(M \times Q) = u(M \times \lambda Q) \subset W$, and this proves the second part of the proposition.
 
 #### Proposition 5 {#evt-iii-s5-prop-5 .statement}
 
-*Let $u$ be a $(\mathcal{S}, \mathcal{T})$-hypocontinuous bilinear mapping from $E \times F$ into $G$. For every pair of sets $M \in \mathcal{S}$, $N \in \mathcal{T}$, $u$ is uniformly continuous on $M \times N$.*
+*Let $u$ be a $(\mathscr{S}, \mathscr{T})$-hypocontinuous bilinear mapping from $E \times F$ into $G$. For every pair of sets $M \in \mathscr{S}$, $N \in \mathscr{T}$, $u$ is uniformly continuous on $M \times N$.*
 
 The proposition follows immediately from prop. 2 of GT, X, § 2, No. 1 and prop. 5 of GT, X, § 2, No. 2.
 
 #### Proposition 6 {#evt-iii-s5-prop-6 .statement}
 
-*If $F$ is a barrelled space, every separately continuous bilinear mapping $u$ from $E \times F$ into a locally convex space $G$ is $\mathcal{S}$-hypocontinuous for every set $\mathcal{S}$ of bounded subsets of $E$.*
+*If $F$ is a barrelled space, every separately continuous bilinear mapping $u$ from $E \times F$ into a locally convex space $G$ is $\mathscr{S}$-hypocontinuous for every set $\mathscr{S}$ of bounded subsets of $E$.*
 
-In other words, the *linear mapping* $y \mapsto u(., y)$ from $F$ into $\mathcal{L}_b(E; G)$ *is continuous*.
+In other words, the *linear mapping* $y \mapsto u(., y)$ from $F$ into $\mathscr{L}_b(E; G)$ *is continuous*.
 
-It is enough (III, p. 30, prop. 3) to prove that the image of every bounded subset $M$ of $E$ under $x \mapsto u(x, .)$ is equicontinuous in $\mathcal{L}(F; G)$. But, by virtue of prop. 1 (III, p. 28) this image is a simply bounded subset of $\mathcal{L}(F; G)$, and since $F$ is barrelled, every simply bounded subset of $\mathcal{L}(F; G)$ is equicontinuous (III, p. 25, th. 1).
+It is enough (III, p. 30, prop. 3) to prove that the image of every bounded subset $M$ of $E$ under $x \mapsto u(x, .)$ is equicontinuous in $\mathscr{L}(F; G)$. But, by virtue of prop. 1 (III, p. 28) this image is a simply bounded subset of $\mathscr{L}(F; G)$, and since $F$ is barrelled, every simply bounded subset of $\mathscr{L}(F; G)$ is equicontinuous (III, p. 25, th. 1).
 
 #### Remark {#evt-iii-s5-n3-rem-1 .statement}
 
-— Suppose the topology of $F$ is the finest locally convex topology on $F$ for which the linear mappings $h_\alpha : F_\alpha \to F$ are continuous (II, p. 27). Then condition *c)* of prop. 3 (III, p. 30) shows that if $E$ and $G$ are locally convex, then the bilinear mapping $u : E \times F \to G$ is $\mathcal{S}$-hypocontinuous if and only if each of the bilinear mappings
+— Suppose the topology of $F$ is the finest locally convex topology on $F$ for which the linear mappings $h_\alpha : F_\alpha \to F$ are continuous (II, p. 27). Then condition *c)* of prop. 3 (III, p. 30) shows that if $E$ and $G$ are locally convex, then the bilinear mapping $u : E \times F \to G$ is $\mathscr{S}$-hypocontinuous if and only if each of the bilinear mappings
 
 $$
 (x, y_\alpha) \mapsto u(x, h_\alpha(y_\alpha))
 $$
 
-from $E \times F_\alpha$ into $G$ is $\mathcal{S}$-hypocontinuous.
+from $E \times F_\alpha$ into $G$ is $\mathscr{S}$-hypocontinuous.
 
-Now suppose that $E$ is a locally convex space which is the *strict* inductive limit of an increasing sequence $(E_n)$ of closed vector subspaces of $E$ (II, p. 33); then every set $M \in \mathcal{S}$ is contained in one of the $E_n$ and is bounded in this subspace (III, p. 5, prop. 6). We denote by $\mathcal{S}_n$ the family of all subsets belonging to $\mathcal{S}$ contained in $E_n$.
+Now suppose that $E$ is a locally convex space which is the *strict* inductive limit of an increasing sequence $(E_n)$ of closed vector subspaces of $E$ (II, p. 33); then every set $M \in \mathscr{S}$ is contained in one of the $E_n$ and is bounded in this subspace (III, p. 5, prop. 6). We denote by $\mathscr{S}_n$ the family of all subsets belonging to $\mathscr{S}$ contained in $E_n$.
 
 Condition a) of prop. 3 (III, p. 30) shows that for a bilinear mapping $u : E \times F \to G$ to be $\mathfrak{S}$-hypocontinuous, it is necessary and sufficient that each of the restrictions $u_n : E_n \times F \to G$ of $u$ is $\mathfrak{S}_n$-hypocontinuous.
 
@@ -199,25 +199,25 @@ The uniqueness and hypocontinuity of $\overline{u}$ follows from prop. 7; it rem
 
 #### Proposition 9 {#evt-iii-s5-prop-9 .statement}
 
-*Let* $R, S, T$ *be three locally convex Hausdorff spaces*. *Suppose that the spaces* $\mathcal{L}(R; S), \mathcal{L}(S; T), \mathcal{L}(R; T)$ *are each assigned the topology of simple* (resp. *compact*, *bounded*) convergence. *Then the bilinear mapping* $(u, v) \mapsto v \circ u$ *from* $\mathcal{L}(R; S) \times \mathcal{L}(S; T)$ *into* $\mathcal{L}(R; T)$ *is* $(\mathfrak{S}, \mathfrak{T})$-*hypocontinuous*, *where* $\mathfrak{T}$ *is the family of equicontinuous subsets of* $\mathcal{L}(S; T)$, *and* $\mathfrak{S}$ *the family of finite* (resp. *compact, bounded*) *subsets of* $\mathcal{L}(R; S)$.
+*Let* $R, S, T$ *be three locally convex Hausdorff spaces*. *Suppose that the spaces* $\mathscr{L}(R; S), \mathscr{L}(S; T), \mathscr{L}(R; T)$ *are each assigned the topology of simple* (resp. *compact*, *bounded*) convergence. *Then the bilinear mapping* $(u, v) \mapsto v \circ u$ *from* $\mathscr{L}(R; S) \times \mathscr{L}(S; T)$ *into* $\mathscr{L}(R; T)$ *is* $(\mathfrak{S}, \mathfrak{T})$-*hypocontinuous*, *where* $\mathfrak{T}$ *is the family of equicontinuous subsets of* $\mathscr{L}(S; T)$, *and* $\mathfrak{S}$ *the family of finite* (resp. *compact, bounded*) *subsets of* $\mathscr{L}(R; S)$.
 
-We first prove that $(u, v) \mapsto v \circ u$ is $\mathfrak{T}$-hypocontinuous. Let H be an equicontinuous set in $\mathcal{L}(S; T)$, let W be a neighbourhood of 0 in T and let M be a finite (resp. compact, bounded) subset of R. We must show that there exists a neighbourhood V of 0 in S such that if $u(M) \subset V$ and $v \in H$, then $v(u(M)) \subset W$. But for this, it is enough to have $v(V) \subset W$ for all $v \in H$, and the existence of such a neighbourhood follows from the equicontinuity of H.
+We first prove that $(u, v) \mapsto v \circ u$ is $\mathfrak{T}$-hypocontinuous. Let H be an equicontinuous set in $\mathscr{L}(S; T)$, let W be a neighbourhood of 0 in T and let M be a finite (resp. compact, bounded) subset of R. We must show that there exists a neighbourhood V of 0 in S such that if $u(M) \subset V$ and $v \in H$, then $v(u(M)) \subset W$. But for this, it is enough to have $v(V) \subset W$ for all $v \in H$, and the existence of such a neighbourhood follows from the equicontinuity of H.
 
-To see that $(u, v) \mapsto v \circ u$ is $\mathfrak{S}$-hypocontinuous, we shall prove that, for every neighbourhood W of 0 in T, every finite (resp. compact, bounded) subset M of R and every finite (resp. compact, bounded) subset L of $\mathcal{L}(R; S)$ there exists a finite (resp. compact, bounded) subset N of S such that the relations $v(N) \subset W$ and $u \in L$ imply that $v(u(M)) \subset W$. Evidently it is enough to show that we can take $N = \bigcup_{u \in L} u(M)$, *i.e.* that the set N is finite (resp. compact, bounded) whenever L and M are. This is immediate if L and M are finite, or if M is bounded in R and L is bounded in $\mathcal{L}(R; S)$ (for the topology of bounded convergence, *cf.* III, p. 22). Finally, we show that if M is compact in R and L is compact in $\mathcal{L}(R; S)$ for the topology of compact convergence, then N is compact in S. But if $u_M$ is the restriction to M of $u \in L$, the mapping $u \mapsto u_M$ from L into the space $\mathcal{C}(M; S)$ of all continuous mappings from M into S, with the topology of uniform convergence, is continuous; hence the image of L under this mapping is compact, and our assertion then follows from the continuity of the map $(w, x) \mapsto w(x)$ from $\mathcal{C}(M; S) \times M$ into S (GT, X, § 1, No. 6, prop. 9).
+To see that $(u, v) \mapsto v \circ u$ is $\mathfrak{S}$-hypocontinuous, we shall prove that, for every neighbourhood W of 0 in T, every finite (resp. compact, bounded) subset M of R and every finite (resp. compact, bounded) subset L of $\mathscr{L}(R; S)$ there exists a finite (resp. compact, bounded) subset N of S such that the relations $v(N) \subset W$ and $u \in L$ imply that $v(u(M)) \subset W$. Evidently it is enough to show that we can take $N = \bigcup_{u \in L} u(M)$, *i.e.* that the set N is finite (resp. compact, bounded) whenever L and M are. This is immediate if L and M are finite, or if M is bounded in R and L is bounded in $\mathscr{L}(R; S)$ (for the topology of bounded convergence, *cf.* III, p. 22). Finally, we show that if M is compact in R and L is compact in $\mathscr{L}(R; S)$ for the topology of compact convergence, then N is compact in S. But if $u_M$ is the restriction to M of $u \in L$, the mapping $u \mapsto u_M$ from L into the space $\mathscr{C}(M; S)$ of all continuous mappings from M into S, with the topology of uniform convergence, is continuous; hence the image of L under this mapping is compact, and our assertion then follows from the continuity of the map $(w, x) \mapsto w(x)$ from $\mathscr{C}(M; S) \times M$ into S (GT, X, § 1, No. 6, prop. 9).
 
-In the two corollaries that follow, we assume as in prop. 9, that the spaces $\mathcal{L}(R; S)$, $\mathcal{L}(S; T)$, $\mathcal{L}(R; T)$ are *all three* assigned the topology of simple convergence, or all three the topology of compact convergence, or all three that of bounded convergence.
+In the two corollaries that follow, we assume as in prop. 9, that the spaces $\mathscr{L}(R; S)$, $\mathscr{L}(S; T)$, $\mathscr{L}(R; T)$ are *all three* assigned the topology of simple convergence, or all three the topology of compact convergence, or all three that of bounded convergence.
 
 #### Corollary 1 {#evt-iii-s5-prop-9-cor-1 .statement}
 
-*For every equicontinuous subset H of* $\mathcal{L}(S; T)$ *the map* $(u, v) \mapsto v \circ u$ *from* $\mathcal{L}(R; S) \times H$ *into* $\mathcal{L}(R; T)$ *is continuous*.
+*For every equicontinuous subset H of* $\mathscr{L}(S; T)$ *the map* $(u, v) \mapsto v \circ u$ *from* $\mathscr{L}(R; S) \times H$ *into* $\mathscr{L}(R; T)$ *is continuous*.
 
 This follows immediately from prop. 9 (III, p. 32) and 4 (III, p. 31).
 
 #### Corollary 2 {#evt-iii-s5-prop-9-cor-2 .statement}
 
-*Suppose S is barrelled. If the sequence* $(u_n)$ *tends to u in* $\mathcal{L}(R; S)$ *and the sequence* $(v_n)$ *to v in* $\mathcal{L}(S, T)$, *then the sequence* $(v_n \circ u_n)$ *tends to* $v \circ u$ *in* $\mathcal{L}(R; T)$.
+*Suppose S is barrelled. If the sequence* $(u_n)$ *tends to u in* $\mathscr{L}(R; S)$ *and the sequence* $(v_n)$ *to v in* $\mathscr{L}(S, T)$, *then the sequence* $(v_n \circ u_n)$ *tends to* $v \circ u$ *in* $\mathscr{L}(R; T)$.
 
-In fact, the sequence $(v_n)$, being simply bounded in $\mathcal{L}(S; T)$ is equicontinuous, since S is barrelled (III, p. 25, th. 1); the corollary is then a consequence of cor. 1.
+In fact, the sequence $(v_n)$, being simply bounded in $\mathscr{L}(S; T)$ is equicontinuous, since S is barrelled (III, p. 25, th. 1); the corollary is then a consequence of cor. 1.
 
 ### Exercises {#evt-iii-s5-exercises}
 

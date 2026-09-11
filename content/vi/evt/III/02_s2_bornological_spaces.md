@@ -12,9 +12,9 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: bb406b7c273ed156d632cbe4fcb756b7e9f3a5c58ca30e34ad22ae7640202b40
+content_sha256: cdb2d60130ed4003cf88f785d97836b553339751b3d31f5a2ef4d6665f4fbd72
 translated_from: content/en/evt/III/02_s2_bornological_spaces.md
-source_content_sha256: 0d07a448890f2831b0cc23b615935ec8e079f5380d64f4b62a604498fffec8be
+source_content_sha256: c9b75a7d07661743ad6632e76701373f969d94167d8df709d5750d9911b44db5
 translation_model: gpt-5.4
 translation_run: translate-vi-b564a2fb
 glossary_version: 34
@@ -24,7 +24,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 2. CÁC KHÔNG GIAN BORNOLOGICAL
 
-Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $\mathcal{B}$ ký hiệu bornology chính tắc của nó (III, p. 3, định nghĩa 5).
+Trong đoạn này, E ký hiệu một không gian lồi địa phương, và $\mathscr{B}$ ký hiệu bornology chính tắc của nó (III, p. 3, định nghĩa 5).
 
 #### Bổ đề 1 {#evt-iii-s2-lem-1 .statement}
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 273
 statements: 41
 exercises: 6
-content_sha256: 629f2fe2f5d3e862a24f39985e2c2ce051b7d5dd3371dc824dc3a1de8a231f97
+content_sha256: 090522ca99bc5e417552b54d509ca04cc86c3f8397377be57e97da0435a4c37d
 translated_from: content/en/evt/V/01_s1_prehilbertian_spaces_and_hilbertian.md
 source_content_sha256: c9078a6b7eb7e8e884984c2c325d3f76b6a9adc1e03ff4786c5071fe62fa78a5
 translation_model: gpt-5.4
@@ -308,19 +308,19 @@ $$
 
 #### Ví dụ 3 {#evt-v-s1-n4-exa-3 .statement}
 
-Cho $n \geqslant 1$ là một số nguyên và cho U là một tập mở trong $\mathbf{R}^n$. Cho $\mu$ là độ đo trên U cảm sinh bởi độ đo Lebesgue trên $\mathbf{R}^n$, và đặt $\mathcal{H}^0 = L^2(U, \mu)$. Ký hiệu $\mathcal{H}^1$ là không gian của mọi hàm $f \in \mathcal{H}^0$ có tính chất sau; với $1 \leqslant i \leqslant n$, tồn tại một hàm $g_i \in \mathcal{H}^\circ$ sao cho
+Cho $n \geqslant 1$ là một số nguyên và cho U là một tập mở trong $\mathbf{R}^n$. Cho $\mu$ là độ đo trên U cảm sinh bởi độ đo Lebesgue trên $\mathbf{R}^n$, và đặt $\mathscr{H}^0 = L^2(U, \mu)$. Ký hiệu $\mathscr{H}^1$ là không gian của mọi hàm $f \in \mathscr{H}^0$ có tính chất sau; với $1 \leqslant i \leqslant n$, tồn tại một hàm $g_i \in \mathscr{H}^\circ$ sao cho
 
 $$
 \int_U g_i(x)\ h(x)\ d\mu(x) = - \int_U f(x)\ D_i h(x)\ d\mu(x)
 $$
 
-đối với mọi hàm $h$ thuộc lớp $C^1$ có giá compact trong U. Hàm $g_i$ được định nghĩa duy nhất đến tương đương đối với $\mu$, và được ký hiệu bởi $D_i f$ hoặc $\partial f / \partial x_i$ (đạo hàm riêng thứ $i$). Bằng quy nạp theo số nguyên $s \geqslant 1$, ta định nghĩa $\mathcal{H}^s$ là tập hợp của mọi hàm $f \in \mathcal{H}^1$ sao cho $D_i f \in \mathcal{H}^{s-1}$ với $1 \leqslant i \leqslant n$. Ta định nghĩa một tích vô hướng trên $\mathcal{H}^s$ bởi công thức
+đối với mọi hàm $h$ thuộc lớp $C^1$ có giá compact trong U. Hàm $g_i$ được định nghĩa duy nhất đến tương đương đối với $\mu$, và được ký hiệu bởi $D_i f$ hoặc $\partial f / \partial x_i$ (đạo hàm riêng thứ $i$). Bằng quy nạp theo số nguyên $s \geqslant 1$, ta định nghĩa $\mathscr{H}^s$ là tập hợp của mọi hàm $f \in \mathscr{H}^1$ sao cho $D_i f \in \mathscr{H}^{s-1}$ với $1 \leqslant i \leqslant n$. Ta định nghĩa một tích vô hướng trên $\mathscr{H}^s$ bởi công thức
 
 $$
 \langle f|g \rangle = \sum_{k=0}^s \sum_{1 \leqslant i_1 \leqslant \ldots \leqslant i_k \leqslant n} \int \overline{D_{i_1} \ldots D_{i_k} f} \cdot D_{i_1} \ldots D_{i_k} g\ d\mu .
 $$
 
-Khi đó $\mathcal{H}^s$ là một không gian Hilbert phức, được gọi là *không gian Sobolev* có chỉ số s.
+Khi đó $\mathscr{H}^s$ là một không gian Hilbert phức, được gọi là *không gian Sobolev* có chỉ số s.
 
 #### Ví dụ 4 {#evt-v-s1-n4-exa-4 .statement}
 
@@ -339,7 +339,7 @@ $$
 
 Khi đó, tồn tại một và chỉ một độ đo $\tilde{\omega}$ trên X sao cho với mọi $i \in I$, ảnh qua $\xi_i$ của hạn chế của $\tilde{\omega}$ lên $U_i$ bằng độ đo $f_i \cdot \mu$ (xem VAR, R, 10.4.3).
 
-Cho $\mathcal{V}$ (resp. $\mathcal{N}$) là không gian vectơ các mật độ đo được $\omega$ cấp 1/2 sao cho độ đo liên kết với mật độ $|\omega|^2$ cấp 1 bị chặn (resp. bằng không). Cho $\omega_1$ và $\omega_2$ thuộc $\mathcal{V}$; khi đó $\omega = \overline{\omega_1} \omega_2$ là một mật độ cấp 1, và độ đo $\tilde{\omega}$ liên kết với $\omega$ bị chặn; số $\int_X \tilde{\omega}$ chỉ phụ thuộc vào các lớp $\dot{\omega}_1$ và $\dot{\omega}_2$ của $\omega_1$ và $\omega_2$ theo modulo $\mathcal{N}$ và được ký hiệu bởi $\langle \omega_1 | \omega_2 \rangle$ hoặc $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Khi đó ánh xạ $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ gán một cấu trúc không gian Hilbert phức cho không gian vectơ $\Omega_{1/2}(X) = \mathcal{V}/\mathcal{N}$.
+Cho $\mathscr{V}$ (resp. $\mathscr{N}$) là không gian vectơ các mật độ đo được $\omega$ cấp 1/2 sao cho độ đo liên kết với mật độ $|\omega|^2$ cấp 1 bị chặn (resp. bằng không). Cho $\omega_1$ và $\omega_2$ thuộc $\mathscr{V}$; khi đó $\omega = \overline{\omega_1} \omega_2$ là một mật độ cấp 1, và độ đo $\tilde{\omega}$ liên kết với $\omega$ bị chặn; số $\int_X \tilde{\omega}$ chỉ phụ thuộc vào các lớp $\dot{\omega}_1$ và $\dot{\omega}_2$ của $\omega_1$ và $\omega_2$ theo modulo $\mathscr{N}$ và được ký hiệu bởi $\langle \omega_1 | \omega_2 \rangle$ hoặc $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Khi đó ánh xạ $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ gán một cấu trúc không gian Hilbert phức cho không gian vectơ $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$.
 
 #### Ví dụ 5 {#evt-v-s1-n4-exa-5 .statement}
 
@@ -369,7 +369,7 @@ Sự tồn tại của phép mở rộng của $(x, y) \mapsto \langle x|y \rang
 
 Không gian Hilbert này được gọi là *phần bù đầy đủ* của không gian tiền Hilbert Hausdorff E.
 
-\* *Ví dụ 6*. — Cho U là một tập mở của $\mathbf{R}^n$ ($n \geqslant 1$). Cho $\mathcal{C}_0^1(\mathrm{U})$ là không gian vectơ của tất cả các hàm lớp $\mathrm{C}^1$ có giá compact trong U. Ta định nghĩa một cấu trúc không gian tiền Hilbert Hausdorff trên $\mathcal{C}_0^1(\mathrm{U})$ mà tích vô hướng được cho bởi
+\* *Ví dụ 6*. — Cho U là một tập mở của $\mathbf{R}^n$ ($n \geqslant 1$). Cho $\mathscr{C}_0^1(\mathrm{U})$ là không gian vectơ của tất cả các hàm lớp $\mathrm{C}^1$ có giá compact trong U. Ta định nghĩa một cấu trúc không gian tiền Hilbert Hausdorff trên $\mathscr{C}_0^1(\mathrm{U})$ mà tích vô hướng được cho bởi
 
 $$
 \langle f|g \rangle = \sum_{i=1}^{n} \int_{\mathrm{U}} \overline{\mathrm{D}_i f(x)} . \mathrm{D}_i g(x) \, dx .
@@ -472,11 +472,11 @@ $$
 $$
 từ đó suy ra
 $$
-\mathcal{R} \langle x - p_{\mathbf{H}}(x)|y - p_{\mathbf{H}}(x) \rangle = \lim_{\lambda \to 0} \frac{1}{2\lambda} \left\{ \| x - p_{\mathbf{H}}(x) \|^{2} - \| x - z(\lambda) \|^{2} \right\} \leq 0 .
+\mathscr{R} \langle x - p_{\mathbf{H}}(x)|y - p_{\mathbf{H}}(x) \rangle = \lim_{\lambda \to 0} \frac{1}{2\lambda} \left\{ \| x - p_{\mathbf{H}}(x) \|^{2} - \| x - z(\lambda) \|^{2} \right\} \leq 0 .
 $$
-Ngược lại, cho $a$ là một điểm của $\mathbf{H}$ sao cho $\mathcal{R} \langle x - a|y - a \rangle \leq 0$ với mọi $y \in \mathbf{H}$. Với mọi $y \in \mathbf{H}$, ta có
+Ngược lại, cho $a$ là một điểm của $\mathbf{H}$ sao cho $\mathscr{R} \langle x - a|y - a \rangle \leq 0$ với mọi $y \in \mathbf{H}$. Với mọi $y \in \mathbf{H}$, ta có
 $$
-\| x - y \|^{2} = \| x - a \|^{2} + \| y - a \|^{2} - 2 \mathcal{R} \langle x - a|y - a \rangle \geq \| x - a \|^{2} ,
+\| x - y \|^{2} = \| x - a \|^{2} + \| y - a \|^{2} - 2 \mathscr{R} \langle x - a|y - a \rangle \geq \| x - a \|^{2} ,
 $$
 và do đó $\| x - a \| = d$ và sau hết suy ra $a = p_{\mathbf{H}}(x)$ từ phần đầu của chứng minh. CQFD.
 
@@ -502,9 +502,9 @@ $$
 $$
 *Đặc biệt, ánh xạ $p_{\mathbf{H}}$ từ $\mathbf{E}$ vào $\mathbf{H}$ là liên tục.*
 
-Cho $x, y$ là hai điểm của $\mathbf{E}$. Đặt $a = p_{\mathbf{H}}(x) - x, b = p_{\mathbf{H}}(y) - p_{\mathbf{H}}(x), c = y - p_{\mathbf{H}}(y)$. Theo công thức (15) (V, p. 10) ta có $\mathcal{R} \langle a|b \rangle \geq 0$ và $\mathcal{R} \langle c|b \rangle \geq 0$. Ta cũng có $a + b + c = y - x$, từ đó suy ra
+Cho $x, y$ là hai điểm của $\mathbf{E}$. Đặt $a = p_{\mathbf{H}}(x) - x, b = p_{\mathbf{H}}(y) - p_{\mathbf{H}}(x), c = y - p_{\mathbf{H}}(y)$. Theo công thức (15) (V, p. 10) ta có $\mathscr{R} \langle a|b \rangle \geq 0$ và $\mathscr{R} \langle c|b \rangle \geq 0$. Ta cũng có $a + b + c = y - x$, từ đó suy ra
 $$
-\| x - y \|^{2} = \| a + b + c \|^{2} = \| b \|^{2} + \| a + c \|^{2} + 2 \mathcal{R} \langle a|b \rangle + 2 \mathcal{R} \langle c|b \rangle
+\| x - y \|^{2} = \| a + b + c \|^{2} = \| b \|^{2} + \| a + c \|^{2} + 2 \mathscr{R} \langle a|b \rangle + 2 \mathscr{R} \langle c|b \rangle
 $$
 $$
 \geq \| b \|^{2} = \| p_{\mathbf{H}}(x) - p_{\mathbf{H}}(y) \|^{2} .
@@ -559,7 +559,7 @@ Cho A và B là hai tập con của E. Ta nói rằng A và B trực giao nếu 
 Trước hết ta chứng minh rằng $x - p_M(x)$ thuộc $M^\circ$ với mọi $x \in E$. Cho $y \in M$. Với mọi vô hướng $\lambda \in K$, vectơ $p_M(x) + \lambda y$ thuộc M; do đó theo công thức 15 (V, p. 10) ta có,
 
 $$
-\mathcal{R}(\lambda \langle x - p_M(x)|y \rangle) \leq 0
+\mathscr{R}(\lambda \langle x - p_M(x)|y \rangle) \leq 0
 $$
 
 với mọi $\lambda \in K$. Đặc biệt, nếu ta lấy $\lambda = \overline{\langle x - p_M(x)|y \rangle}$ thì suy ra $\langle x - p_M(x)|y \rangle = 0$, do đó được mệnh đề của ta.
@@ -612,7 +612,7 @@ p_M(p_N(x)) = p_N(p_M(x)) = p_N(x)
 $$
 và do đó $p_N(x) \in M$. Ta kết luận rằng $x - p_N(x) \in M$, do đó $x$ là tổng của một phần tử $p_N(x)$ của $M \cap N$ và một phần tử $x - p_N(x)$ của $M \cap N^\circ$, điều này cho (iv).
 
-Ta đã chứng minh a) và phần đầu của b). Bây giờ giả sử rằng $p_M$ và $p_N$ giao hoán và đặt $q = p_M + p_N - p_M p_N$; vì $p_M$ và $p_N$ là các idempotent trong đại số $\mathcal{L}(E)$, q cũng vậy; do đó (GT, III, § 6, No. 2) ảnh của q là một không gian con vectơ đóng của E.
+Ta đã chứng minh a) và phần đầu của b). Bây giờ giả sử rằng $p_M$ và $p_N$ giao hoán và đặt $q = p_M + p_N - p_M p_N$; vì $p_M$ và $p_N$ là các idempotent trong đại số $\mathscr{L}(E)$, q cũng vậy; do đó (GT, III, § 6, No. 2) ảnh của q là một không gian con vectơ đóng của E.
 
 Hiển nhiên là ảnh của $q$ được chứa trong $M + N$; tuy nhiên, ta có $p_N(x) = x$, do đó $q(x) = x$ với mọi $x \in N$; vì ta cũng có $q = p_M + p_N - p_N p_M$, suy ra $q(x) = x$ với mọi $x \in M$. Ta kết luận rằng ảnh của $q$ bằng $M + N$. Trực giao của $M + N$ bằng $M^\circ \cap N^\circ$, và hạt nhân của $q$ hiển nhiên chứa $M^\circ \cap N^\circ$, do đó $q = p_{M+N}$. Điều này chứng minh b).
 
@@ -662,19 +662,19 @@ Thật vậy, điều này nói rằng 0 là vectơ duy nhất của E' trực g
 
 #### Hệ quả 2 {#evt-v-s1-thm-3-cor-2 .statement}
 
-*Cho E và F là hai không gian Hilbert. Với $u \in \mathcal{L}(E; F)$, $x \in E$ và $y \in F$, đặt*
+*Cho E và F là hai không gian Hilbert. Với $u \in \mathscr{L}(E; F)$, $x \in E$ và $y \in F$, đặt*
 
 $$
 \Phi_u(y, x) = \langle y|u(x) \rangle .
 $$
 
-*Ánh xạ $u \mapsto \Phi_u$ là một đẳng cấu từ không gian Banach $\mathcal{L}(E; F)$ lên không gian tất cả các dạng sesquilinear liên tục $^1$ trên $F \times E$, được trang bị chuẩn*
+*Ánh xạ $u \mapsto \Phi_u$ là một đẳng cấu từ không gian Banach $\mathscr{L}(E; F)$ lên không gian tất cả các dạng sesquilinear liên tục $^1$ trên $F \times E$, được trang bị chuẩn*
 
 $$
 \|f\| = \sup_{\substack{x \in E, y \in F \\ \|x\| \leq 1, \|y\| \leq 1}} |f(y, x)| .
 $$
 
-Hiển nhiên $\Phi_u$ là sesquilinear và liên tục với mọi $u \in \mathcal{L}(E; F)$. Ngược lại, cho $f$ là một dạng sesquilinear liên tục trên $F \times E$. Với mọi $x \in E$, ánh xạ $y \mapsto f(y, x)$ là một dạng tuyến tính liên tục trên không gian Hilbert F. Theo định lý 3, với mọi $x \in E$, tồn tại một phần tử duy nhất $u(x)$ trong F sao cho $f(y, x) = \langle u(x)|y \rangle$ với mọi $y \in F$. Ánh xạ $u : x \mapsto u(x)$ từ E vào F là tuyến tính và ta có
+Hiển nhiên $\Phi_u$ là sesquilinear và liên tục với mọi $u \in \mathscr{L}(E; F)$. Ngược lại, cho $f$ là một dạng sesquilinear liên tục trên $F \times E$. Với mọi $x \in E$, ánh xạ $y \mapsto f(y, x)$ là một dạng tuyến tính liên tục trên không gian Hilbert F. Theo định lý 3, với mọi $x \in E$, tồn tại một phần tử duy nhất $u(x)$ trong F sao cho $f(y, x) = \langle u(x)|y \rangle$ với mọi $y \in F$. Ánh xạ $u : x \mapsto u(x)$ từ E vào F là tuyến tính và ta có
 
 $$
 \begin{align*}
@@ -683,7 +683,7 @@ $$
 \end{align*}
 $$
 
-do đó $u$ thuộc $\mathcal{L}(E; F)$, $f = \Phi_u$ và $\|u\| = \|f\|$. Điều này chứng minh hệ quả 2.
+do đó $u$ thuộc $\mathscr{L}(E; F)$, $f = \Phi_u$ và $\|u\| = \|f\|$. Điều này chứng minh hệ quả 2.
 
 $^1$ Nhắc lại (A, IX, § 1, No. 5) rằng một dạng sesquilinear (bên trái) $f$ trên $F \times E$ là một ánh xạ từ $F \times E$ vào K thỏa mãn các hệ thức (1) và (2) của V, p. 1.
 

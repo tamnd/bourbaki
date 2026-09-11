@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 49
 exercises: 43
-content_sha256: 4c1f60d8ab6be2aa596b031746ddcdadb1b96c462aeabf21f9df572f698bb5d7
+content_sha256: 00b9d7dda293866efb6c9bd7d73456a3d560e6ae47aa55c69f1ba976562a846e
 translated_from: content/en/evt/II/02_s2_convex_sets.md
 source_content_sha256: 742c952fc6a2e57dc8eb5e75ac174e898ff3d3d87043cbf6c8ab24a81db58512
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -276,7 +276,7 @@ Chú ý rằng tiên đề (EO$_I$) có nghĩa là cấu trúc tiền thứ tự
 
 #### Ví dụ {#evt-ii-s2-n5-exa-2 .statement}
 
-\* Cho H là một không gian Hilbert thực; trong không gian vectơ $\mathcal{L}(H)$ của các tự đồng cấu liên tục của H, các tự đồng cấu Hermit dương tạo thành một nón lồi nhọn thực sự; do đó, nón này xác định một cấu trúc cấp tương thích với cấu trúc không gian vectơ của $\mathcal{L}(H)$ và trong đó quan hệ $A \leqslant B$ có nghĩa là $B - A$ là một tự đồng cấu Hermit dương. \*
+\* Cho H là một không gian Hilbert thực; trong không gian vectơ $\mathscr{L}(H)$ của các tự đồng cấu liên tục của H, các tự đồng cấu Hermit dương tạo thành một nón lồi nhọn thực sự; do đó, nón này xác định một cấu trúc cấp tương thích với cấu trúc không gian vectơ của $\mathscr{L}(H)$ và trong đó quan hệ $A \leqslant B$ có nghĩa là $B - A$ là một tự đồng cấu Hermit dương. \*
 
 Với mọi nón lồi nhọn P trong không gian vectơ E, tập $P \cap (-P)$ là một không gian con vectơ, H, của E (II, p. 11, hệ quả 2). Ảnh chính tắc $P'$ của P trong $E/H$ là một nón lồi và ảnh ngược của $P'$ trong E là P. Do đó $P' \cap (-P') = \{0\}$, và $P'$ xác định một cấu trúc cấp trên $E/H$ tương thích với cấu trúc không gian vectơ của nó.
 
@@ -368,7 +368,7 @@ Một không gian vectơ có thứ tự E với một tôpô tương thích đư
 
 Không gian $\mathbf{R}^n$ với tôpô thông thường của nó và cấu trúc thứ tự là tích của cấu trúc thứ tự của các thừa số của nó là một không gian vectơ tôpô có thứ tự. Mặt khác, với $n \geq 2$, khi $\mathbf{R}^n$ mang thứ tự từ điển (S, III, § 2.6), tôpô thông thường không tương thích với cấu trúc không gian vectơ có thứ tự của $\mathbf{R}^n$.
 
-Cho A là một tập hợp; không gian vectơ $\mathcal{B}(A ; \mathbf{R})$ của các hàm bị chặn nhận giá trị thực được định nghĩa trên A, với tôpô được xác định bởi chuẩn $\|x\| = \sup_{t \in A} |x(t)|$ và cấu trúc thứ tự cảm sinh bởi cấu trúc thứ tự tích của $\mathbf{R}^A$, là một không gian vectơ tôpô có thứ tự.
+Cho A là một tập hợp; không gian vectơ $\mathscr{B}(A ; \mathbf{R})$ của các hàm bị chặn nhận giá trị thực được định nghĩa trên A, với tôpô được xác định bởi chuẩn $\|x\| = \sup_{t \in A} |x(t)|$ và cấu trúc thứ tự cảm sinh bởi cấu trúc thứ tự tích của $\mathbf{R}^A$, là một không gian vectơ tôpô có thứ tự.
 
 Trong một không gian vectơ tôpô có thứ tự E, tập các phần tử $x \leq 0$ là đóng; vì các phép tịnh tiến là các đồng phôi, ta suy ra rằng, với mọi $a \in E$, tập các phần tử $x \geq a$ (resp. $x \leq a$) là đóng. Vì $\{0\}$ là giao của các tập $x \geq 0$ và $x \leq 0$, suy ra $\{0\}$ là đóng và E là Hausdorff.
 

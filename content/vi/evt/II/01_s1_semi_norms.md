@@ -28,9 +28,9 @@ subsections:
       pdf_page: 42
 statements: 15
 exercises: 0
-content_sha256: 96c5eba296bb701db966ff799d6b605016081e79ce64358feee0acfc8ff0ceec
+content_sha256: ce6e3a81d812daf02ff75050deaabca51d959ea578602553b611886b18f3f7a5
 translated_from: content/en/evt/II/01_s1_semi_norms.md
-source_content_sha256: c142ede5d36c6c2e3b5b4d8bddc5e68415321932a189580ca0fe0a1351354a27
+source_content_sha256: 83678c8f7fc574f7471865862952da621d2b8f8beb62f3a4985f21ca91b65111
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-c37b3e9e
 glossary_version: 34
@@ -108,7 +108,7 @@ Cho $E$ là một không gian vectơ trên $K$, với tôpô được xác đị
 
 — 1) Tôpô được xác định bởi một tập hợp *hữu hạn* các nửa chuẩn $p_i$ ($1 \leq i \leq n$) trên $E$, có thể được xác định bởi nửa chuẩn *duy nhất* $p = \sup_{1 \leq i \leq n} p_i$. Nhưng một tôpô được xác định bởi một tập hợp vô hạn các nửa chuẩn nói chung không thể được xác định bởi một nửa chuẩn duy nhất (III, p. 37, exerc. 2).
 
-2) Cho $(\mathcal{T}_i)_{i \in I}$ là một họ các tôpô trên một không gian vectơ $E$ trên $K$, mỗi tôpô được xác định bởi một họ nửa chuẩn $\Gamma_i$. Khi đó tôpô được xác định bởi tập các nửa chuẩn $\Gamma = \bigcup_{i \in I} \Gamma_i$ là cận trên của các tôpô $\mathcal{T}_i$.
+2) Cho $(\mathscr{T}_i)_{i \in I}$ là một họ các tôpô trên một không gian vectơ $E$ trên $K$, mỗi tôpô được xác định bởi một họ nửa chuẩn $\Gamma_i$. Khi đó tôpô được xác định bởi tập các nửa chuẩn $\Gamma = \bigcup_{i \in I} \Gamma_i$ là cận trên của các tôpô $\mathscr{T}_i$.
 
 3) Nếu $\Gamma_0$ là một tập hợp các nửa chuẩn *có hướng bởi* quan hệ thứ tự *tăng* được xác định giữa hai nửa chuẩn $p, q$ trên $E$ bởi « tồn tại $\lambda > 0$ sao cho $p \leq \lambda q$ », thì một hệ cơ bản các lân cận của 0, đối với tôpô xác định bởi $\Gamma_0$, thu được bằng cách lấy các tập hợp $V(p, \alpha)$ trong đó $p \in \Gamma_0$ và $\alpha > 0$. Nếu $\Gamma$ là một tập hợp bất kỳ các nửa chuẩn trên $E$, thì một tập hợp lọc các nửa chuẩn, xác định cùng một tôpô như $\Gamma$, là tập hợp $\Gamma_0$ gồm các bao trên của mọi họ hữu hạn các nửa chuẩn thuộc $\Gamma$.
 
@@ -116,25 +116,25 @@ Cho $E$ là một không gian vectơ trên $K$, với tôpô được xác đị
 
 #### Ví dụ {#evt-ii-s1-n2-exa-1 .statement}
 
-— Cho $\mathcal{C}^\infty(\mathbf{R})$ là không gian vectơ trên $\mathbf{R}$ gồm các hàm nhận giá trị thực và khả vi vô hạn trên $\mathbf{R}$. Với mọi hàm và mọi cặp số nguyên $n \geq 0$, $m \geq 1$, đặt
+— Cho $\mathscr{C}^\infty(\mathbf{R})$ là không gian vectơ trên $\mathbf{R}$ gồm các hàm nhận giá trị thực và khả vi vô hạn trên $\mathbf{R}$. Với mọi hàm và mọi cặp số nguyên $n \geq 0$, $m \geq 1$, đặt
 
 $$
 p_{n,m}(f) = \sup_{-m \leq t \leq m} |f^{(n)}(t)|
 $$
 
-với $f^{(0)} = f$. Hiển nhiên các $p_{n,m}$ là các nửa chuẩn trên $\mathcal{C}^\infty(\mathbf{R})$. Để các hàm $f_\alpha$ tiến tới 0 (theo một bộ lọc $\mathfrak{F}$ trên tập hợp các chỉ số) trong $\mathcal{C}^\infty(\mathbf{R})$ đối với tôpô $\mathcal{T}$ được xác định bởi các nửa chuẩn $p_{n,m}$, điều kiện cần và đủ là với mọi số nguyên $n \geq 0$, các hàm $f_\alpha^{(n)}$ tiến tới 0 (theo $\mathfrak{F}$) *đều trên mọi tập con compắc của* $\mathbf{R}$. Ta nói rằng $\mathcal{T}$ là *tôpô hội tụ compắc đối với các hàm* $f \in \mathcal{C}^\infty(\mathbf{R})$ *và mọi đạo hàm của chúng* (*xem* III, p. 9).
+với $f^{(0)} = f$. Hiển nhiên các $p_{n,m}$ là các nửa chuẩn trên $\mathscr{C}^\infty(\mathbf{R})$. Để các hàm $f_\alpha$ tiến tới 0 (theo một bộ lọc $\mathfrak{F}$ trên tập hợp các chỉ số) trong $\mathscr{C}^\infty(\mathbf{R})$ đối với tôpô $\mathscr{T}$ được xác định bởi các nửa chuẩn $p_{n,m}$, điều kiện cần và đủ là với mọi số nguyên $n \geq 0$, các hàm $f_\alpha^{(n)}$ tiến tới 0 (theo $\mathfrak{F}$) *đều trên mọi tập con compắc của* $\mathbf{R}$. Ta nói rằng $\mathscr{T}$ là *tôpô hội tụ compắc đối với các hàm* $f \in \mathscr{C}^\infty(\mathbf{R})$ *và mọi đạo hàm của chúng* (*xem* III, p. 9).
 
 #### Mệnh đề 2 {#evt-ii-s1-prop-2 .statement}
 
-*Trên một không gian vectơ* $E$, *cho* $\mathcal{T}$ *là tôpô được xác định bởi một tập hợp các nửa chuẩn* $\Gamma$.
+*Trên một không gian vectơ* $E$, *cho* $\mathscr{T}$ *là tôpô được xác định bởi một tập hợp các nửa chuẩn* $\Gamma$.
 
-(i) *Bao đóng của {0} trong E, đối với* $\mathcal{T}$, *là tập con các* $x \in E$ *mà đối với chúng* $p(x) = 0$ *với mọi nửa chuẩn* $p \in \Gamma$.*
+(i) *Bao đóng của {0} trong E, đối với* $\mathscr{T}$, *là tập con các* $x \in E$ *mà đối với chúng* $p(x) = 0$ *với mọi nửa chuẩn* $p \in \Gamma$.*
 
-(ii) *Nếu* $\mathcal{T}$ *là Hausdorff và* $\Gamma$ *là đếm được, thì* $\mathcal{T}$ *là khả metrizable.*
+(ii) *Nếu* $\mathscr{T}$ *là Hausdorff và* $\Gamma$ *là đếm được, thì* $\mathscr{T}$ *là khả metrizable.*
 
 Mệnh đề này suy ra ngay lập tức từ các định nghĩa và từ GT, IX, § 2 . 4, hệ quả 1.
 
-Chú ý rằng nếu $\mathcal{T}$ là khả metrizable, thì có thể $\mathcal{T}$ không thể được xác định bởi một chuẩn duy nhất; đó là trường hợp trong ví dụ đã cho ở trên (*xem.* IV, p. 18, *Ví dụ 4*).
+Chú ý rằng nếu $\mathscr{T}$ là khả metrizable, thì có thể $\mathscr{T}$ không thể được xác định bởi một chuẩn duy nhất; đó là trường hợp trong ví dụ đã cho ở trên (*xem.* IV, p. 18, *Ví dụ 4*).
 
 Cho E là một không gian vectơ trên K, với tôpô được xác định bởi một tập các nửa chuẩn $\Gamma$. Gọi $\hat{E}$ là bổ sung Hausdorff của E (I, p. 6), và $\hat{\Gamma}$ là tập các ánh xạ $\hat{p}$ từ $\hat{E}$ vào $\mathbf{R}_+$ khi $p$ chạy trong $\Gamma$ (GT, II, § 3 . 7, mệnh đề 15). Theo nguyên lý mở rộng các bất đẳng thức, các hàm $\hat{p} \in \hat{\Gamma}$ là các nửa chuẩn trên $\hat{E}$, và các hàm $\hat{p}(x - y)$ tạo thành một tập các giả khoảng cách xác định cấu trúc đều của $\hat{E}$ (GT, IX, § 1 . 3, mệnh đề 1). Do đó, ta thấy rằng $\hat{\Gamma}$ là một tập cơ bản các nửa chuẩn xác định tôpô của $\hat{E}$.
 
@@ -174,11 +174,11 @@ Từ đó, ta suy ra rằng, nếu tập hợp các nửa chuẩn $\Gamma$ là *
 
 Nếu $N$ là bao đóng của $\{0\}$ trong $E$, tôpô của $E/N$ được xác định bởi các nửa chuẩn thương $\dot{p}$, trong đó $p$ chạy trong $\Gamma$ (ngay cả khi $\Gamma$ không được lọc): ở đây $\dot{p}(\dot{x}) = p(x)$ với mọi $x$ thuộc lớp $\dot{x} \mod N$. Chú ý rằng $E/N$ không gì khác hơn là không gian Hausdorff liên kết với $E$ (I, p. 4).
 
-Cho $E$ là một không gian vectơ trên $K$ và $(E_i)_{i \in I}$ là một họ các không gian vectơ trên $K$, trong đó $E_i$ được trang bị tôpô $\mathcal{T}_i$ xác định bởi một tập hợp các nửa chuẩn $\Gamma_i$. Với mỗi $i \in I$, gọi $f_i$ là một ánh xạ tuyến tính từ $E$ vào $E_i$; rõ ràng khi $p_i$ biến thiên trong tập hợp $\Gamma_i$, thì các $p_i \circ f_i$ tạo thành một tập hợp $\Gamma'_i$ các nửa chuẩn trên $E$. Khi đó tôpô $\mathcal{T}$ trên $E$, được định nghĩa là tôpô thô nhất trong tất cả các tôpô làm cho mọi ánh xạ $f_i$ đều liên tục (I, p. 9), được xác định bởi tập hợp các nửa chuẩn $\Gamma' = \bigcup_{i \in I} \Gamma'_i$; điều này suy ra từ định nghĩa của các lân cận của 0 đối với $\mathcal{T}$ (GT, I, § 2.3, mệnh đề 4).
+Cho $E$ là một không gian vectơ trên $K$ và $(E_i)_{i \in I}$ là một họ các không gian vectơ trên $K$, trong đó $E_i$ được trang bị tôpô $\mathscr{T}_i$ xác định bởi một tập hợp các nửa chuẩn $\Gamma_i$. Với mỗi $i \in I$, gọi $f_i$ là một ánh xạ tuyến tính từ $E$ vào $E_i$; rõ ràng khi $p_i$ biến thiên trong tập hợp $\Gamma_i$, thì các $p_i \circ f_i$ tạo thành một tập hợp $\Gamma'_i$ các nửa chuẩn trên $E$. Khi đó tôpô $\mathscr{T}$ trên $E$, được định nghĩa là tôpô thô nhất trong tất cả các tôpô làm cho mọi ánh xạ $f_i$ đều liên tục (I, p. 9), được xác định bởi tập hợp các nửa chuẩn $\Gamma' = \bigcup_{i \in I} \Gamma'_i$; điều này suy ra từ định nghĩa của các lân cận của 0 đối với $\mathscr{T}$ (GT, I, § 2.3, mệnh đề 4).
 
 Nếu các $p_i$ là các chuẩn nửa siêu, thì các $p_i \circ f_i$ cũng vậy.
 
-Cho $E$ là một không gian vectơ trên $K$, với tôpô $\mathcal{T}$ được xác định bởi một họ các nửa chuẩn $(p_i)_{i \in I}$; với mỗi $i \in I$, gọi $\mathcal{T}_i$ là tôpô được xác định bởi nửa chuẩn duy nhất $p_i$, và ký hiệu bởi $E_i$ không gian thu được từ $E$ khi dùng tôpô $\mathcal{T}_i$. Khi đó tôpô $\mathcal{T}$ là ảnh ngược bởi ánh xạ đường chéo $\Delta : E \to \prod_{i \in I} E_i$ của tôpô tích trên $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). Với mỗi $i \in I$, đặt $N_i$ là bao đóng của $\{0\}$ trong $E_i$, và gọi $F_i = E_i / N_i$ là không gian *định chuẩn* được xác định bởi chuẩn $p_i$ tương ứng với $p_i$ (II, p. 4, công thức (3)); nếu $\phi_i : E_i \to F_i$ là ánh xạ chính tắc và $\phi : (x_i) \mapsto (\phi_i(x_i))$ là ánh xạ tích, ta biết rằng tôpô tích trên $\prod_{i \in I} E_i$ là ảnh ngược bởi $\phi$ của tôpô tích trên $\prod_{i \in I} F_i$ (GT, II, § 3.9, prop. 18). Vậy tôpô $\mathcal{T}$ là ảnh ngược qua ánh xạ hợp thành $\phi \circ \Delta$ của tôpô tích trên $\prod_{i \in I} F_i$. Đặc biệt, nếu $\mathcal{T}$ là *Hausdorff* thì từ II, p. 3, prop. 2 suy ra rằng ánh xạ $\phi \circ \Delta$ là *đơn ánh*, do đó:
+Cho $E$ là một không gian vectơ trên $K$, với tôpô $\mathscr{T}$ được xác định bởi một họ các nửa chuẩn $(p_i)_{i \in I}$; với mỗi $i \in I$, gọi $\mathscr{T}_i$ là tôpô được xác định bởi nửa chuẩn duy nhất $p_i$, và ký hiệu bởi $E_i$ không gian thu được từ $E$ khi dùng tôpô $\mathscr{T}_i$. Khi đó tôpô $\mathscr{T}$ là ảnh ngược bởi ánh xạ đường chéo $\Delta : E \to \prod_{i \in I} E_i$ của tôpô tích trên $\prod_{i \in I} E_i$ (I, p. 9, prop. 7). Với mỗi $i \in I$, đặt $N_i$ là bao đóng của $\{0\}$ trong $E_i$, và gọi $F_i = E_i / N_i$ là không gian *định chuẩn* được xác định bởi chuẩn $p_i$ tương ứng với $p_i$ (II, p. 4, công thức (3)); nếu $\phi_i : E_i \to F_i$ là ánh xạ chính tắc và $\phi : (x_i) \mapsto (\phi_i(x_i))$ là ánh xạ tích, ta biết rằng tôpô tích trên $\prod_{i \in I} E_i$ là ảnh ngược bởi $\phi$ của tôpô tích trên $\prod_{i \in I} F_i$ (GT, II, § 3.9, prop. 18). Vậy tôpô $\mathscr{T}$ là ảnh ngược qua ánh xạ hợp thành $\phi \circ \Delta$ của tôpô tích trên $\prod_{i \in I} F_i$. Đặc biệt, nếu $\mathscr{T}$ là *Hausdorff* thì từ II, p. 3, prop. 2 suy ra rằng ánh xạ $\phi \circ \Delta$ là *đơn ánh*, do đó:
 
 #### Mệnh đề 3 {#evt-ii-s1-prop-3 .statement}
 
@@ -235,10 +235,10 @@ c) Với mọi nửa chuẩn $q \in \Gamma'$, ánh xạ $\sup_{u \in H} (q \circ
 
 #### Hệ quả 1 {#evt-ii-s1-prop-5-cor-1 .statement}
 
-— Giả sử rằng $\mathcal{T}, \mathcal{T}'$ là hai tôpô trên một không gian vectơ $E$ trên $K$ được xác định, theo thứ tự, bởi hai tập hợp chuẩn nửa $\Gamma$ và $\Gamma'$. $\mathcal{T}$ mịn hơn $\mathcal{T}'$ nếu, và chỉ nếu, với mọi chuẩn nửa $q \in \Gamma'$, tồn tại một họ hữu hạn $(p_i)_{1 \leq i \leq n}$ các chuẩn nửa thuộc $\Gamma$ và một số $a > 0$ sao cho, với mọi $x \in E$, ta có $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$.
+— Giả sử rằng $\mathscr{T}, \mathscr{T}'$ là hai tôpô trên một không gian vectơ $E$ trên $K$ được xác định, theo thứ tự, bởi hai tập hợp chuẩn nửa $\Gamma$ và $\Gamma'$. $\mathscr{T}$ mịn hơn $\mathscr{T}'$ nếu, và chỉ nếu, với mọi chuẩn nửa $q \in \Gamma'$, tồn tại một họ hữu hạn $(p_i)_{1 \leq i \leq n}$ các chuẩn nửa thuộc $\Gamma$ và một số $a > 0$ sao cho, với mọi $x \in E$, ta có $q(x) \leq a \cdot \sup_{1 \leq i \leq n} p_i(x)$.
 
-Thực vậy điều này cho thấy rằng ánh xạ đồng nhất của $E$ với tôpô $\mathcal{T}$, vào $E$ với tôpô $\mathcal{T}'$, là liên tục.
+Thực vậy điều này cho thấy rằng ánh xạ đồng nhất của $E$ với tôpô $\mathscr{T}$, vào $E$ với tôpô $\mathscr{T}'$, là liên tục.
 
 #### Hệ quả 2 {#evt-ii-s1-prop-5-cor-2 .statement}
 
-— Giả sử rằng tôpô $\mathcal{T}$ của một không gian vectơ tôpô $E$ trên $K$ được xác định bởi một tập có hướng các nửa chuẩn $\Gamma$; với mỗi nửa chuẩn $p \in \Gamma$, gọi $E_p$ là không gian thu được từ $E$ khi dùng tôpô do $p$ xác định. Tập hợp $E'$ các dạng tuyến tính trên $E$ liên tục đối với $\mathcal{T}$ là hợp của các tập hợp $E'_p$, trong đó $E'_p$ là tập hợp các dạng tuyến tính liên tục trên $E_p$ ($p \in \Gamma$).
+— Giả sử rằng tôpô $\mathscr{T}$ của một không gian vectơ tôpô $E$ trên $K$ được xác định bởi một tập có hướng các nửa chuẩn $\Gamma$; với mỗi nửa chuẩn $p \in \Gamma$, gọi $E_p$ là không gian thu được từ $E$ khi dùng tôpô do $p$ xác định. Tập hợp $E'$ các dạng tuyến tính trên $E$ liên tục đối với $\mathscr{T}$ là hợp của các tập hợp $E'_p$, trong đó $E'_p$ là tập hợp các dạng tuyến tính liên tục trên $E_p$ ($p \in \Gamma$).

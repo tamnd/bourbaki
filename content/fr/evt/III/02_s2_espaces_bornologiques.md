@@ -12,12 +12,12 @@ pdf_pages: 0146-0148, 0176-0177
 extraction: ocr
 statements: 9
 exercises: 4
-content_sha256: 3e83016189b982ebfb9ef654a814e6abb668f099a95e54e56af3fb0742737165
+content_sha256: 3a53fd052fc69cb2fc95ccf33e4de90716704d6ed822527ac316f332355179f8
 ---
 
 ## § 2. ESPACES BORNOLOGIQUES
 
-Dans ce paragraphe, E désigne un espace localement convexe, et $\mathcal{B}$ sa bornologie canonique (III, p. 3, déf. 5).
+Dans ce paragraphe, E désigne un espace localement convexe, et $\mathscr{B}$ sa bornologie canonique (III, p. 3, déf. 5).
 
 #### Lemme 1 {#evt-iii-s2-lem-1 .statement}
 

@@ -29,9 +29,9 @@ subsections:
       pdf_page: 226
 statements: 10
 exercises: 8
-content_sha256: 28d3f5d63948a1e8bd96d636cc0434637071672bc6f7e7d919055110fac6dbef
+content_sha256: 60f9122230f3127c512723162f55a2ebbccf36171bc9b583405628dfc74fb5a6
 translated_from: content/en/evt/IV/A_a_fixed_points_of_groups_of_affine.md
-source_content_sha256: 766c5c66bd0dd6abbb3dd5fde5679ccbfd3279efd130bac7917fb401314cfcf8
+source_content_sha256: 076881490dd895a4130169f869629c7d393bc61787c9bab8671b5d069b539f9f
 translation_model: gpt-5.4
 translation_run: translate-vi-1f4f356d
 glossary_version: 34
@@ -78,17 +78,17 @@ Theo định nghĩa của một nhóm giải được (A, I, § 6, No. 4) tồn 
 
 ### 2. Trung bình bất biến
 
-Cho X là một không gian tôpô. Gọi $\mathcal{B}(X; \mathbf{R})$ là không gian vectơ thực gồm các ánh xạ liên tục bị chặn từ X vào $\mathbf{R}$. Được trang bị chuẩn $\|f\| = \sup_{x \in X} |f(x)|$, đó là một không gian Banach (GT, X, § 3, No. 1); nó cũng là một không gian vectơ có thứ tự, trong đó quan hệ $f \geq g$ có nghĩa là «$f(x) \geq g(x)$ với mọi $x \in X$».
+Cho X là một không gian tôpô. Gọi $\mathscr{B}(X; \mathbf{R})$ là không gian vectơ thực gồm các ánh xạ liên tục bị chặn từ X vào $\mathbf{R}$. Được trang bị chuẩn $\|f\| = \sup_{x \in X} |f(x)|$, đó là một không gian Banach (GT, X, § 3, No. 1); nó cũng là một không gian vectơ có thứ tự, trong đó quan hệ $f \geq g$ có nghĩa là «$f(x) \geq g(x)$ với mọi $x \in X$».
 
 #### Định nghĩa 1 {#evt-iv-a0-def-1 .statement}
 
-*Một dạng tuyến tính dương $\mu$ trên không gian $\mathcal{B}(X; \mathbf{R})$, trong đó X là một không gian tôpô, và thỏa mãn $\|\mu\| = 1$, được gọi là một trung bình trên X.*
+*Một dạng tuyến tính dương $\mu$ trên không gian $\mathscr{B}(X; \mathbf{R})$, trong đó X là một không gian tôpô, và thỏa mãn $\|\mu\| = 1$, được gọi là một trung bình trên X.*
 
 \* Khi X compac, một trung bình trên X là một độ đo dương trên X sao cho $\mu(X) = 1$. \*
 
 #### Bổ đề 1 {#evt-iv-a0-lem-1 .statement}
 
-*Tập hợp K các trung bình trên X là tập con của quả cầu đơn vị của đối ngẫu của không gian Banach $E = \mathcal{B}(X; \mathbf{R})$ mà các phần tử là các dạng tuyến tính $\mu$ sao cho $\mu(1) = 1$. Nó là một tập con của $E'$ lồi và compac đối với $\sigma(E', E)$.*
+*Tập hợp K các trung bình trên X là tập con của quả cầu đơn vị của đối ngẫu của không gian Banach $E = \mathscr{B}(X; \mathbf{R})$ mà các phần tử là các dạng tuyến tính $\mu$ sao cho $\mu(1) = 1$. Nó là một tập con của $E'$ lồi và compac đối với $\sigma(E', E)$.*
 
 Cho $\mu$ là một dạng tuyến tính trên E, sao cho $\mu(1) = 1$. Với mọi hàm $f \in E$, ta định nghĩa hàm $f' \in E$ bởi $f'(x) = \|f\| - f(x)$ ($x \in X$). Trước hết giả sử rằng $\mu$ là một trung bình; với mọi $f \in E$, ta có $f' \geq 0$, do đó $\mu(f') \geq 0$, *tức là* $\mu(f) \leq \|f\|$; vì vậy $\|\mu\| \leq 1$.
 
@@ -126,16 +126,16 @@ Chỉ cần áp dụng mệnh đề 1 cho nhóm giải được $G \times G$ tá
 
 ### 3. Định lý Ryll-Nardzewski
 
-Trong tiết này, $E$ ký hiệu một *không gian* chuẩn trên trường $\mathbf{R}$ và $\mathcal{T}$ một tôpô lồi địa phương Hausdorff trên $E$ mà đối với nó chuẩn của $E$ là *nửa liên tục dưới*. Đặc biệt, các giả thiết này được thỏa mãn trong các trường hợp sau :
+Trong tiết này, $E$ ký hiệu một *không gian* chuẩn trên trường $\mathbf{R}$ và $\mathscr{T}$ một tôpô lồi địa phương Hausdorff trên $E$ mà đối với nó chuẩn của $E$ là *nửa liên tục dưới*. Đặc biệt, các giả thiết này được thỏa mãn trong các trường hợp sau :
 
-a) $\mathcal{T}$ là tôpô cảm sinh bởi chuẩn của không gian chuẩn $E$.
-b) $\mathcal{T}$ là tôpô yếu $\sigma(E, E')$ của không gian chuẩn $E$.
-c) $E$ là đối ngẫu của một không gian chuẩn $F$ và $\mathcal{T} = \sigma(F', F)$.
-d) Tồn tại hai không gian chuẩn $F_1$ và $F_2$ sao cho $E = \mathcal{L}(F_1 ; F_2)$ và $\mathcal{T}$ là tôpô hội tụ đơn giản.
+a) $\mathscr{T}$ là tôpô cảm sinh bởi chuẩn của không gian chuẩn $E$.
+b) $\mathscr{T}$ là tôpô yếu $\sigma(E, E')$ của không gian chuẩn $E$.
+c) $E$ là đối ngẫu của một không gian chuẩn $F$ và $\mathscr{T} = \sigma(F', F)$.
+d) Tồn tại hai không gian chuẩn $F_1$ và $F_2$ sao cho $E = \mathscr{L}(F_1 ; F_2)$ và $\mathscr{T}$ là tôpô hội tụ đơn giản.
 
-*Trừ khi có nói rõ khác đi, các khái niệm tôpô đều quy chiếu đến tôpô $\mathcal{T}$.*
+*Trừ khi có nói rõ khác đi, các khái niệm tôpô đều quy chiếu đến tôpô $\mathscr{T}$.*
 
-Cho $K$ là một tập con lồi của $E$. Giả sử rằng $K$ compắc (đối với tôpô $\mathcal{T}$), và rằng $K$ thỏa mãn tiên đề đếm được thứ nhất đối với khoảng cách được xác định bởi chuẩn của $E$.
+Cho $K$ là một tập con lồi của $E$. Giả sử rằng $K$ compắc (đối với tôpô $\mathscr{T}$), và rằng $K$ thỏa mãn tiên đề đếm được thứ nhất đối với khoảng cách được xác định bởi chuẩn của $E$.
 
 #### Bổ đề 2 {#evt-iv-a0-lem-2 .statement}
 
@@ -164,7 +164,7 @@ $$
 
 #### Bổ đề 3 {#evt-iv-a0-lem-3 .statement}
 
-Cho G là một nhóm các phép biến đổi afin liên tục (đối với $\mathcal{T}$) trên K. Giả sử rằng K không rỗng và rằng $\|gx - gy\| = \|x - y\|$ với mọi x, y trong K và mọi g trong G. Khi đó tồn tại một điểm trong K bất biến dưới G.
+Cho G là một nhóm các phép biến đổi afin liên tục (đối với $\mathscr{T}$) trên K. Giả sử rằng K không rỗng và rằng $\|gx - gy\| = \|x - y\|$ với mọi x, y trong K và mọi g trong G. Khi đó tồn tại một điểm trong K bất biến dưới G.
 
 Cho $\mathfrak{J}$ là họ các tập con không rỗng của K mà đóng, lồi và ổn định dưới G. Nếu $(L_\alpha)_{\alpha \in I}$ là một họ các phần tử của $\mathfrak{J}$ được sắp thứ tự toàn phần bởi quan hệ bao hàm, thì tập hợp $L = \bigcap_{\alpha \in I} L_\alpha$ thuộc $\mathfrak{J}$. Do đó (S, III, § 3, No. 4, định lý 2), tồn tại một phần tử L trong $\mathfrak{J}$ cực tiểu đối với quan hệ bao hàm. Ta sẽ chứng minh rằng L thu về một điểm.
 
@@ -192,7 +192,7 @@ Với mọi $g \in G$, cho $K_g$ ký hiệu tập hợp tất cả các điểm 
 
 — Cho E là một không gian Banach phản xạ, G một nhóm các tự đẳng cấu của không gian định chuẩn E, và K một tập con của E. Giả sử rằng K không rỗng, lồi, đóng, bị chặn và ổn định dưới G. Khi đó tồn tại một điểm trong K bất biến dưới G.
 
-Vì E phản xạ, K compact đối với $\sigma(E, E')$ (IV, p. 15, định lý 1). Hơn nữa, mọi phần tử của G thuộc $\mathcal{L}(E)$.
+Vì E phản xạ, K compact đối với $\sigma(E, E')$ (IV, p. 15, định lý 1). Hơn nữa, mọi phần tử của G thuộc $\mathscr{L}(E)$.
 
 ### 4. Các ứng dụng.
 
@@ -202,7 +202,7 @@ Cho E là một không gian Hilbert phức, G một nhóm và $\pi$ một biểu
 Ta sẽ chỉ ra rằng tồn tại một điểm duy nhất trong $K_x$ bất biến dưới $\pi(G)$, đó là phép chiếu của x trên $E^G$. Theo IV, p. 44, hệ quả (áp dụng cho không gian vectơ thực nền của E), tồn tại một điểm trong $K_x$ bất biến dưới $\pi(G)$; gọi a là một điểm như vậy; khi đó $a \in E^G$. Gọi P là tập hợp mọi $y \in E$ sao cho $y - x$ trực giao với $E^G$; ta thấy ngay lập tức rằng P là đóng, lồi và bất biến dưới $\pi(G)$; do đó $x \in P$, suy ra $K_x \subset P$ và cuối cùng $a \in P$. Nói cách khác, $a - x$ trực giao với $E^G$; do đó a là phép chiếu của x lên $E^G$. \*
 
 \* B) Vết của một toán tử trong một không gian Hilbert:
-Giả sử rằng biểu diễn $\pi$ là bất khả quy, nghĩa là không tồn tại không gian con Hilbert nào của E, phân biệt với $\{0\}$ và với E, mà bất biến dưới $\pi(G)$. Đặt $F = \mathcal{L}^2(E)$ là không gian Hilbert của mọi tự đồng cấu Hilbert-Schmidt của E, với tích vô hướng $\langle u|v \rangle = \operatorname{Tr}(u^*v)$. Ta định nghĩa một biểu diễn unita $\lambda$ từ G vào F bởi công thức
+Giả sử rằng biểu diễn $\pi$ là bất khả quy, nghĩa là không tồn tại không gian con Hilbert nào của E, phân biệt với $\{0\}$ và với E, mà bất biến dưới $\pi(G)$. Đặt $F = \mathscr{L}^2(E)$ là không gian Hilbert của mọi tự đồng cấu Hilbert-Schmidt của E, với tích vô hướng $\langle u|v \rangle = \operatorname{Tr}(u^*v)$. Ta định nghĩa một biểu diễn unita $\lambda$ từ G vào F bởi công thức
 
 $$
 \lambda(g).u = \pi(g)\ u\pi(g)^{-1} \quad (u \in F,\ g \in G)
@@ -210,15 +210,15 @@ $$
 
 Không gian $F^G$ của mọi phần tử của E bất biến dưới $\lambda(G)$ gồm các tự đồng cấu Hilbert-Schmidt $u$ của E giao hoán với $\pi(g)$ với mọi $g \in G$. Theo Bổ đề Schur, một $u$ như vậy là một phép vị tự. Vì thế ta phải xét hai trường hợp:
 1) nếu E là vô hạn chiều, thì $F^G = \{0\}$;
-2) nếu E là hữu hạn chiều, thì $F = \mathcal{L}(E)$ và $F^G = \mathbf{C}.1_E$.
+2) nếu E là hữu hạn chiều, thì $F = \mathscr{L}(E)$ và $F^G = \mathbf{C}.1_E$.
 
 Áp dụng kết quả của A) cho biểu diễn unita $\lambda$, ta thu được định lý sau:
 
-Cho $u \in \mathcal{L}^2(E)$, và gọi $A_u$ là bao lồi đóng trong $\mathcal{L}^2(E)$ của tập các tự đồng cấu $\pi(g)\ u\pi(g)^{-1}$ của E, trong đó g chạy khắp G. Nếu E là vô hạn chiều, ta có $0 \in A_u$. Nếu E là hữu hạn chiều với chiều d, tồn tại một phép vị tự duy nhất trong $A_u$, cụ thể là phép chiếu $\frac{1}{d}\ \operatorname{Tr}(u).\ 1_E$ của u lên không gian con $\mathbf{C}.1_E$ của $\mathcal{L}^2(E)$. \*
+Cho $u \in \mathscr{L}^2(E)$, và gọi $A_u$ là bao lồi đóng trong $\mathscr{L}^2(E)$ của tập các tự đồng cấu $\pi(g)\ u\pi(g)^{-1}$ của E, trong đó g chạy khắp G. Nếu E là vô hạn chiều, ta có $0 \in A_u$. Nếu E là hữu hạn chiều với chiều d, tồn tại một phép vị tự duy nhất trong $A_u$, cụ thể là phép chiếu $\frac{1}{d}\ \operatorname{Tr}(u).\ 1_E$ của u lên không gian con $\mathbf{C}.1_E$ của $\mathscr{L}^2(E)$. \*
 
 C) Độ đo Haar của một nhóm compact:
 
-Cho G là một nhóm compact và đặt E = $\mathcal{C}(G, \mathbf{R})$ là không gian Banach của mọi hàm liên tục nhận giá trị thực trên G, được trang bị chuẩn
+Cho G là một nhóm compact và đặt E = $\mathscr{C}(G, \mathbf{R})$ là không gian Banach của mọi hàm liên tục nhận giá trị thực trên G, được trang bị chuẩn
 
 $$
 \| f \| = \sup_{x \in G} |f(x)| .
@@ -260,7 +260,7 @@ Ngay lập tức thấy rằng $\mu$ là bất biến dưới các phép tịnh 
 
 Cho $X$ là một không gian tôpô Hausdorff, $\mu$ là một độ đo bị chặn dương trên $X$, và $G$ là một nhóm các đồng phôi của $X$. Giả sử rằng với mọi $g \in G$, độ đo $g.\mu$, là ảnh của $\mu$ qua ánh xạ $g : X \to X$, có cơ sở $\mu$. Gọi $u_g$ là một hàm dương $\mu$-khả tích trên $X$ sao cho $g.\mu = u_g.\mu$. Cũng giả sử rằng tồn tại hai hàm dương $\mu$ khả tích $\phi$ và $\psi$ trên $X$, không phải là $\mu$-không và sao cho $\phi \leq u_g \leq \psi$ $\mu$-hầu khắp nơi với mọi $g \in G$. Ta sẽ chứng minh rằng tồn tại một độ đo bị chặn dương $\nu \neq 0$ trên $X$, có cơ sở $\mu$, và bất biến dưới $G$.
 
-Gọi $P$ là tập con của không gian Banach $E = L^1(X, \mu)$ gồm các lớp hàm $f$ sao cho $\phi \leq f \leq \psi$ $\mu$-hầu khắp nơi. Khi đó $P$ là compắc đối với tôpô yếu $\sigma(E, E')$. Ánh xạ $h \mapsto h.\mu$ từ $P$ vào không gian Banach $F = \mathcal{M}^b(X)$ của các độ đo thực bị chặn trên $X$, là một song ánh từ $P$ lên một tập con $P_1$ của $E$ mà tập này lồi và compắc đối với tôpô $\sigma(F, F')$. Theo giả thiết, $g.\mu \in P_1$ với mọi $g \in G$. Gọi $K$ là bao lồi đóng của tập hợp tất cả các độ đo $g.\mu$. Với mọi $g \in G$, ánh xạ $\nu \mapsto g.\nu$ là một phép biến đổi afin đẳng cự của $K$. Theo định lý Ryll-Nardzewski (IV, p. 43, th. 2), tồn tại một độ đo $\nu \in K$ bất biến dưới $G$. Ta có $\phi.\mu \leq \nu$, do đó $\nu \neq 0$. \*
+Gọi $P$ là tập con của không gian Banach $E = L^1(X, \mu)$ gồm các lớp hàm $f$ sao cho $\phi \leq f \leq \psi$ $\mu$-hầu khắp nơi. Khi đó $P$ là compắc đối với tôpô yếu $\sigma(E, E')$. Ánh xạ $h \mapsto h.\mu$ từ $P$ vào không gian Banach $F = \mathscr{M}^b(X)$ của các độ đo thực bị chặn trên $X$, là một song ánh từ $P$ lên một tập con $P_1$ của $E$ mà tập này lồi và compắc đối với tôpô $\sigma(F, F')$. Theo giả thiết, $g.\mu \in P_1$ với mọi $g \in G$. Gọi $K$ là bao lồi đóng của tập hợp tất cả các độ đo $g.\mu$. Với mọi $g \in G$, ánh xạ $\nu \mapsto g.\nu$ là một phép biến đổi afin đẳng cự của $K$. Theo định lý Ryll-Nardzewski (IV, p. 43, th. 2), tồn tại một độ đo $\nu \in K$ bất biến dưới $G$. Ta có $\phi.\mu \leq \nu$, do đó $\nu \neq 0$. \*
 
 Bài tập
 

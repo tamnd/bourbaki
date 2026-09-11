@@ -48,7 +48,7 @@ subsections:
       pdf_page: 315
 statements: 48
 exercises: 0
-content_sha256: fe3f4479876a982f04fce6a8560a9e39369a64cd51e0b14e2de211acfddc0c52
+content_sha256: 5bd10b7629299c0342588967ef4ac78a5d47296168a6cdcc121309758b1a24c6
 translated_from: content/en/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md
 source_content_sha256: e91bc304651ce770d0fd7f9268828dea76e99a75428b9ae2fa319330bd7c91db
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
@@ -66,27 +66,27 @@ Trong suốt đoạn này, $l_E$ ký hiệu ánh xạ đồng nhất của một
 
 #### Mệnh đề 1 {#evt-v-s4-prop-1 .statement}
 
-— Cho E và F là hai không gian Hilbert. Với mọi ánh xạ $u \in \mathcal{L}(E; F)$, tồn tại một ánh xạ duy nhất $u^* \in \mathcal{L}(F; E)$ sao cho
+— Cho E và F là hai không gian Hilbert. Với mọi ánh xạ $u \in \mathscr{L}(E; F)$, tồn tại một ánh xạ duy nhất $u^* \in \mathscr{L}(F; E)$ sao cho
 
 $$
 \langle u(x)|y \rangle_F = \langle x|u^*(y) \rangle_E
 $$
 
-với mọi $x \in E$ và mọi $y \in F$. Ánh xạ $u \mapsto u^*$ từ $\mathcal{L}(E, F)$ vào $\mathcal{L}(F; E)$ là song ánh, đẳng cự và nửa tuyến tính (đối với tự đẳng cấu $\xi \mapsto \overline{\xi}$ của K).
+với mọi $x \in E$ và mọi $y \in F$. Ánh xạ $u \mapsto u^*$ từ $\mathscr{L}(E, F)$ vào $\mathscr{L}(F; E)$ là song ánh, đẳng cự và nửa tuyến tính (đối với tự đẳng cấu $\xi \mapsto \overline{\xi}$ của K).
 
-Gọi $\mathcal{S}(E, F)$ là không gian của tất cả các dạng sesquilinear liên tục trên $E \times F$, được trang bị chuẩn
+Gọi $\mathscr{S}(E, F)$ là không gian của tất cả các dạng sesquilinear liên tục trên $E \times F$, được trang bị chuẩn
 
 $$
 \| \Phi \| = \sup_{\|x\| \leq 1, \|y\| \leq 1} |\Phi(x, y)| .
 $$
 
-Ta định nghĩa không gian $\mathcal{S}(F, E)$ một cách tương tự. Ta đã định nghĩa (V, p. 16, cor. 2) một đẳng cấu không gian Banach từ $\mathcal{L}(E; F)$ lên $\mathcal{S}(F, E)$, ký hiệu bởi $u \mapsto \Phi_u$ và được đặc trưng bởi
+Ta định nghĩa không gian $\mathscr{S}(F, E)$ một cách tương tự. Ta đã định nghĩa (V, p. 16, cor. 2) một đẳng cấu không gian Banach từ $\mathscr{L}(E; F)$ lên $\mathscr{S}(F, E)$, ký hiệu bởi $u \mapsto \Phi_u$ và được đặc trưng bởi
 
 $$
 \Phi_u(y, x) = \langle y|u(x) \rangle_F \quad (x \in E, \ y \in F) .
 $$
 
-Theo cách tương tự, ta định nghĩa một đẳng cấu từ $\mathcal{L}(F, E)$ lên $\mathcal{S}(E, F)$. Cuối cùng ta định nghĩa một ánh xạ $\Phi \mapsto \Phi^*$ từ $\mathcal{S}(F, E)$ lên $\mathcal{S}(E, F)$ bởi
+Theo cách tương tự, ta định nghĩa một đẳng cấu từ $\mathscr{L}(F, E)$ lên $\mathscr{S}(E, F)$. Cuối cùng ta định nghĩa một ánh xạ $\Phi \mapsto \Phi^*$ từ $\mathscr{S}(F, E)$ lên $\mathscr{S}(E, F)$ bởi
 
 $$
 \Phi^*(x, y) = \overline{\Phi(y, x)} \quad (x \in E, \ y \in F) .
@@ -110,7 +110,7 @@ $$
 \end{align*}
 $$
 
-trong tất cả các công thức này, $u$ và $v$ thuộc $\mathcal{L}(E; F)$, $\lambda$ thuộc K, và $w$ thuộc $\mathcal{L}(F; G)$ trong đó G là một không gian Hilbert. Các công thức (5) và (6) có nghĩa là $u \mapsto u^*$ là nửa tuyến tính. Công thức (8) là hiển nhiên. Để chứng minh (7), ta lấy liên hợp của hai vế của (1), thu được $\langle u^*(y)|x\rangle = \langle y|u(x)\rangle$, và điều này chứng minh rằng $u$ là liên hợp của $u^*$. Cuối cùng, với các ký hiệu của (9), ta có, với mọi $z \in G$
+trong tất cả các công thức này, $u$ và $v$ thuộc $\mathscr{L}(E; F)$, $\lambda$ thuộc K, và $w$ thuộc $\mathscr{L}(F; G)$ trong đó G là một không gian Hilbert. Các công thức (5) và (6) có nghĩa là $u \mapsto u^*$ là nửa tuyến tính. Công thức (8) là hiển nhiên. Để chứng minh (7), ta lấy liên hợp của hai vế của (1), thu được $\langle u^*(y)|x\rangle = \langle y|u(x)\rangle$, và điều này chứng minh rằng $u$ là liên hợp của $u^*$. Cuối cùng, với các ký hiệu của (9), ta có, với mọi $z \in G$
 
 $$
 \langle w(u(x))|z\rangle = \langle u(x)|w^*(z)\rangle = \langle x|u^*(w^*(z))\rangle ,
@@ -127,7 +127,7 @@ $$
 
 #### Mệnh đề 2 {#evt-v-s4-prop-2 .statement}
 
-*Với mọi $u \in \mathcal{L}(E ; F)$, ta có*
+*Với mọi $u \in \mathscr{L}(E ; F)$, ta có*
 
 (11)
 $$
@@ -169,7 +169,7 @@ $$
 
 Điều đó chứng minh mệnh đề của chúng ta.
 
-Cho $E$ và $F$ là hai không gian Hilbert, $u \in \mathcal{L}(E ; F)$ và $n$ là một số nguyên dương. Nếu ta đặt $u_1 = ... = u_n = u$ trong công thức (12) thì ta thu được kết quả rằng ánh xạ tuyến tính liên tục $\hat{T}^n(u^*)$ từ $\hat{T}^n(F)$ vào $\hat{T}^n(E)$ là liên hợp của ánh xạ tuyến tính liên tục $\hat{T}^n(u)$ từ $\hat{T}^n(E)$ vào $\hat{T}^n(F)$. Các công thức
+Cho $E$ và $F$ là hai không gian Hilbert, $u \in \mathscr{L}(E ; F)$ và $n$ là một số nguyên dương. Nếu ta đặt $u_1 = ... = u_n = u$ trong công thức (12) thì ta thu được kết quả rằng ánh xạ tuyến tính liên tục $\hat{T}^n(u^*)$ từ $\hat{T}^n(F)$ vào $\hat{T}^n(E)$ là liên hợp của ánh xạ tuyến tính liên tục $\hat{T}^n(u)$ từ $\hat{T}^n(E)$ vào $\hat{T}^n(F)$. Các công thức
 
 $$
 \hat{S}^n(u)^* = \hat{S}^n(u^*) , \quad \hat{\Lambda}^n(u)^* = \hat{\Lambda}^n(u^*)
@@ -179,20 +179,20 @@ có thể được thiết lập theo cùng một cách như công thức (12), 
 
 #### Nhận xét 1 {#evt-v-s4-n1-rem-1 .statement}
 
-Giả sử không gian Hilbert E không rút gọn về 0. Ta đồng nhất $\mathcal{L}(K;E)$ với E qua ánh xạ $u \mapsto u(1)$; nói cách khác, vectơ x của E được đồng nhất với ánh xạ $\lambda \mapsto \lambda.x$ từ K vào E. Khi đó liên hợp của x là ánh xạ $x^*:E \to K$ được cho bởi $x^*(y) = \langle x|y \rangle$. Nói cách khác, $x \mapsto x^*$ là ánh xạ nửa tuyến tính chính tắc từ E lên đối ngẫu của nó (V, p. 15).
+Giả sử không gian Hilbert E không rút gọn về 0. Ta đồng nhất $\mathscr{L}(K;E)$ với E qua ánh xạ $u \mapsto u(1)$; nói cách khác, vectơ x của E được đồng nhất với ánh xạ $\lambda \mapsto \lambda.x$ từ K vào E. Khi đó liên hợp của x là ánh xạ $x^*:E \to K$ được cho bởi $x^*(y) = \langle x|y \rangle$. Nói cách khác, $x \mapsto x^*$ là ánh xạ nửa tuyến tính chính tắc từ E lên đối ngẫu của nó (V, p. 15).
 
 Tương tự, ta đồng nhất số $\lambda \in K$ với tự đồng cấu $\lambda.1_E$ của E. Khi đó $\lambda^*$ chính xác là liên hợp của $\lambda$.
 
-Với các đồng nhất này, ta có thể định nghĩa một tích $t_1 ... t_n$ trong đó mỗi $t_i$ là, hoặc một số trong K, hoặc một vectơ trong E, hoặc một dạng tuyến tính thuộc E', hoặc một phần tử của $\mathcal{L}(E)$, với điều kiện là không bao giờ có hai thừa số liên tiếp $t_i$ và $t_{i+1}$ thuộc một trong các kiểu sau :
+Với các đồng nhất này, ta có thể định nghĩa một tích $t_1 ... t_n$ trong đó mỗi $t_i$ là, hoặc một số trong K, hoặc một vectơ trong E, hoặc một dạng tuyến tính thuộc E', hoặc một phần tử của $\mathscr{L}(E)$, với điều kiện là không bao giờ có hai thừa số liên tiếp $t_i$ và $t_{i+1}$ thuộc một trong các kiểu sau :
 • $xy$ khi $x, y$ đều thuộc E, hoặc đều thuộc E' ;
-• $xA$ hoặc $Ax'$ với $A \in \mathcal{L}(E)$, $x \in E$ và $x' \in E'$.
+• $xA$ hoặc $Ax'$ với $A \in \mathscr{L}(E)$, $x \in E$ và $x' \in E'$.
 
 Ta có các quy tắc hợp thành sau :
 a) tính kết hợp ;
 b) mọi phần tử của K giao hoán với mọi thừa số khác ;
 c) ta có $(t_1 ... t_n)^* = t_n^* ... t_1^*$; nói cách khác, liên hợp của một tích là tích của các liên hợp lấy theo thứ tự ngược lại. Đồng thời $t^{**} = t$.
 
-Ví dụ, cho x, y thuộc E và cho A thuộc $\mathcal{L}(E)$. Khi đó $x^*y$ biểu diễn tích vô hướng $\langle x|y \rangle$ và $x^*Ay$ biểu diễn tích vô hướng $\langle x|Ay \rangle$. Ta cũng có $(A^*x)^* = x^*A^{**} = x^*A$, do đó $(A^*x)^*y = x^*Ay$, điều này có thể được hiểu là
+Ví dụ, cho x, y thuộc E và cho A thuộc $\mathscr{L}(E)$. Khi đó $x^*y$ biểu diễn tích vô hướng $\langle x|y \rangle$ và $x^*Ay$ biểu diễn tích vô hướng $\langle x|Ay \rangle$. Ta cũng có $(A^*x)^* = x^*A^{**} = x^*A$, do đó $(A^*x)^*y = x^*Ay$, điều này có thể được hiểu là
 
 $$
 \langle A^*x|y \rangle = \langle x|Ay \rangle
@@ -204,7 +204,7 @@ Theo Dirac $^1$, trong phần lớn các công trình về Vật lý Toán học
 
 #### Mệnh đề 3 {#evt-v-s4-prop-3 .statement}
 
-— Cho E và F là hai không gian Hilbert và $u \in \mathcal{L}(E;F)$. Các điều kiện sau là tương đương :
+— Cho E và F là hai không gian Hilbert và $u \in \mathscr{L}(E;F)$. Các điều kiện sau là tương đương :
 
 (i) $u$ là một đẳng cấu không gian vectơ tôpô, với nghịch đảo bằng $u^*$;
 (ii) $u$ là toàn ánh và $u^*u = 1_E$;
@@ -219,7 +219,7 @@ $^1$ Xem P. A. M. Dirac, Quantum Mechanics, Oxford University Press, New York, 1
 $
 \langle x|u^*u(y)\rangle = \langle x|y\rangle$, nghĩa là, với $\langle u(x)|u(y)\rangle = \langle x|y\rangle$ với mọi $x, y$ trong $E$, và hiển nhiên kéo theo rằng $u$ là đơn ánh; điều này chứng minh sự tương đương của (ii) và (v).
 
-Một tự đẳng cấu của không gian Hilbert $E$ còn được gọi là một *toán tử unita*, nghĩa là, một toán tử $u \in \mathcal{L}(E)$ thỏa mãn $uu^* = u^*u = 1_E$.
+Một tự đẳng cấu của không gian Hilbert $E$ còn được gọi là một *toán tử unita*, nghĩa là, một toán tử $u \in \mathscr{L}(E)$ thỏa mãn $uu^* = u^*u = 1_E$.
 
 #### Nhận xét 2 {#evt-v-s4-n1-rem-2 .statement}
 
@@ -244,7 +244,7 @@ $$
 
 #### Định nghĩa 2 {#evt-v-s4-def-2 .statement}
 
-*Cho $E$ và $F$ là hai không gian Hilbert và $u \in \mathcal{L}(E; F)$. Phần bù trực giao của hạt nhân của $u$ trong $E$ được gọi là không gian con ban đầu của $u$ và bao đóng của ảnh của $u$ trong $F$ được gọi là không gian con cuối của $u$. Phép chiếu trực giao từ $E$ (tương ứng $F$) lên không gian con ban đầu (tương ứng cuối) của $u$ được gọi là phép chiếu trực giao ban đầu (tương ứng cuối) của $u$.*
+*Cho $E$ và $F$ là hai không gian Hilbert và $u \in \mathscr{L}(E; F)$. Phần bù trực giao của hạt nhân của $u$ trong $E$ được gọi là không gian con ban đầu của $u$ và bao đóng của ảnh của $u$ trong $F$ được gọi là không gian con cuối của $u$. Phép chiếu trực giao từ $E$ (tương ứng $F$) lên không gian con ban đầu (tương ứng cuối) của $u$ được gọi là phép chiếu trực giao ban đầu (tương ứng cuối) của $u$.*
 
 Cho $P$ là không gian con ban đầu của $u$. Vì $E$ là tổng trực tiếp của $P$ và hạt nhân của $u$, ta có $u(P) = u(E)$.
 
@@ -262,15 +262,15 @@ Ta nhận xét rằng mệnh đề 4 có thể được suy ra từ các tính c
 
 #### Định nghĩa 3 {#evt-v-s4-def-3 .statement}
 
-*Cho $E$ và $F$ là hai không gian Hilbert. Một ánh xạ $u \in \mathcal{L}(E; F)$ được* gọi là đẳng cự từng phần nếu $\|u(x)\| = \|x\|$ với mọi $x$ thuộc không gian con ban đầu của $u$.
+*Cho $E$ và $F$ là hai không gian Hilbert. Một ánh xạ $u \in \mathscr{L}(E; F)$ được* gọi là đẳng cự từng phần nếu $\|u(x)\| = \|x\|$ với mọi $x$ thuộc không gian con ban đầu của $u$.
 
-Cho $u \in \mathcal{L}(E; F)$ và gọi $N$ là hạt nhân và $I$ là ảnh của nó. Nói rằng $u$ là đẳng cự bộ phận cũng chính là nói rằng ánh xạ tuyến tính $\tilde{u}: E/N \to I$ suy ra từ $u$ là đẳng cự (V, p. 13). Khi đó không gian con $I$ của $F$ là đầy đủ, do đó đóng, và là không gian con cuối của $u$. Do đó, $u$ cảm sinh một đẳng cấu không gian Hilbert từ không gian con ban đầu của $u$ lên không gian con cuối của nó.
+Cho $u \in \mathscr{L}(E; F)$ và gọi $N$ là hạt nhân và $I$ là ảnh của nó. Nói rằng $u$ là đẳng cự bộ phận cũng chính là nói rằng ánh xạ tuyến tính $\tilde{u}: E/N \to I$ suy ra từ $u$ là đẳng cự (V, p. 13). Khi đó không gian con $I$ của $F$ là đầy đủ, do đó đóng, và là không gian con cuối của $u$. Do đó, $u$ cảm sinh một đẳng cấu không gian Hilbert từ không gian con ban đầu của $u$ lên không gian con cuối của nó.
 
 #### Mệnh đề 5 {#evt-v-s4-prop-5 .statement}
 
-*Cho $u \in \mathcal{L}(E; F)$, gọi $P$ là không gian con ban đầu và $Q$ là không gian con cuối của nó. Gọi $p$ (tương ứng $q$) là phép chiếu trực giao ban đầu (tương ứng cuối) của $u$. Giả sử rằng $u$ là đẳng cự bộ phận.*
+*Cho $u \in \mathscr{L}(E; F)$, gọi $P$ là không gian con ban đầu và $Q$ là không gian con cuối của nó. Gọi $p$ (tương ứng $q$) là phép chiếu trực giao ban đầu (tương ứng cuối) của $u$. Giả sử rằng $u$ là đẳng cự bộ phận.*
 
-(i) *Ánh xạ $u^* \in \mathcal{L}(F; E)$ là đẳng cự bộ phận, với không gian con ban đầu $Q$ và không gian con cuối $P$. Khi đó, đẳng cấu từ $P$ lên $Q$ cảm sinh bởi $u$ là nghịch đảo của đẳng cấu từ $Q$ lên $P$ cảm sinh bởi $u^*$.*
+(i) *Ánh xạ $u^* \in \mathscr{L}(F; E)$ là đẳng cự bộ phận, với không gian con ban đầu $Q$ và không gian con cuối $P$. Khi đó, đẳng cấu từ $P$ lên $Q$ cảm sinh bởi $u$ là nghịch đảo của đẳng cấu từ $Q$ lên $P$ cảm sinh bởi $u^*$.*
 
 (ii) *Ta có $u^*u = p$ và $uu^* = q$.*
 
@@ -286,7 +286,7 @@ Nếu $x$ thuộc $P$, thì $\langle u(x)|u(y) \rangle = \langle x|y \rangle$ th
 
 #### Mệnh đề 6 {#evt-v-s4-prop-6 .statement}
 
-*Với mọi $u \in \mathcal{L}(E; F)$, các điều kiện sau đây là tương đương :*
+*Với mọi $u \in \mathscr{L}(E; F)$, các điều kiện sau đây là tương đương :*
 
 (i) *$u$ là đẳng cấu từng phần ;*
 (ii) *$u^*$ là đẳng cấu từng phần ;*
@@ -315,13 +315,13 @@ Ta đã chứng minh sự tương đương của (i), (iii) và (v). Thay $u$ b�
 
 #### Định nghĩa 4 {#evt-v-s4-def-4 .statement}
 
-Cho $E$ là một không gian Hilbert và $u \in \mathcal{L}(E)$. Ta nói rằng $u$ là chuẩn nếu nó giao hoán với tự liên hợp $u^*$ của nó.
+Cho $E$ là một không gian Hilbert và $u \in \mathscr{L}(E)$. Ta nói rằng $u$ là chuẩn nếu nó giao hoán với tự liên hợp $u^*$ của nó.
 
 Ví dụ, mọi tự đẳng cấu $u$ của không gian Hilbert $E$ đều là chuẩn vì ta có $uu^* = u^*u = 1_E$.
 
 #### Mệnh đề 7 {#evt-v-s4-prop-7 .statement}
 
-Để $u \in \mathcal{L}(E)$ là chuẩn, điều kiện cần và đủ là $\|u(x)\| = \|u^*(x)\|$ với mọi $x \in E$.
+Để $u \in \mathscr{L}(E)$ là chuẩn, điều kiện cần và đủ là $\|u(x)\| = \|u^*(x)\|$ với mọi $x \in E$.
 
 Ta định nghĩa một dạng Hermit $\Phi$ trên $E$ bởi
 $$
@@ -334,7 +334,7 @@ $$
 
 #### Mệnh đề 8 {#evt-v-s4-prop-8 .statement}
 
-Giả sử rằng $u \in \mathcal{L}(E)$ là chuẩn thường. Gọi $N$ là hạt nhân của $u$ và $M$ là không gian trực giao của $N$ trong $E$; gọi $m$ và $n$ là hai số nguyên dương sao cho $m + n \geq 1$. Khi đó $N$ là hạt nhân của $u^m(u^*)^n$ và $M$ vừa là không gian con ban đầu vừa là không gian con cuối của $u^m(u^*)^n$. Đặc biệt, $M$ vừa là không gian con ban đầu vừa là không gian con cuối của $u$ và của $u^*$, và ổn định đối với $u$ và $u^*$.
+Giả sử rằng $u \in \mathscr{L}(E)$ là chuẩn thường. Gọi $N$ là hạt nhân của $u$ và $M$ là không gian trực giao của $N$ trong $E$; gọi $m$ và $n$ là hai số nguyên dương sao cho $m + n \geq 1$. Khi đó $N$ là hạt nhân của $u^m(u^*)^n$ và $M$ vừa là không gian con ban đầu vừa là không gian con cuối của $u^m(u^*)^n$. Đặc biệt, $M$ vừa là không gian con ban đầu vừa là không gian con cuối của $u$ và của $u^*$, và ổn định đối với $u$ và $u^*$.
 
 Mệnh đề 7 chỉ ra rằng $u$ và $u^*$ có cùng hạt nhân $N$. Theo mệnh đề 4, (ii) của V, p. 41, không gian con $M$ của $E$ là ổn định đối với $u$ và $u^*$ vì điều này đúng với $N = M^\circ$, vì $M \cap N = \{0\}$, các tự đồng cấu của $M$ cảm sinh bởi $u$ và $u^*$ là đơn ánh. Đặt $v = u^m(u^*)^n$; lập luận trước cho thấy hạn chế của $v$ trên $M$ (tương ứng $N$) là đơn ánh (tương ứng không), do đó $N$ là hạt nhân của $v$. Do đó, $M = N^\circ$ là không gian con ban đầu của $v$. Theo mệnh đề 4, (i) của V, p. 41, không gian con cuối của $v$ bằng không gian con ban đầu của $v^*$. Nhưng $v^* = u^n(u^*)^m$ và do đó không gian con ban đầu của $v^*$ bằng $M$ theo điều đã chứng minh ở trên.
 
@@ -353,11 +353,11 @@ Rõ ràng $w = u - \lambda.1_E$ là một tự đồng cấu chuẩn của E, do
 
 #### Định nghĩa 5 {#evt-v-s4-def-5 .statement}
 
-*Cho E là một không gian Hilbert và cho* $u \in \mathcal{L}(E)$. *Ta nói rằng u là Hermit nếu* $u^* = u$.
+*Cho E là một không gian Hilbert và cho* $u \in \mathscr{L}(E)$. *Ta nói rằng u là Hermit nếu* $u^* = u$.
 
-Kí hiệu $\mathcal{H}(E)$ là tập hợp tất cả các phần tử Hermit của $\mathcal{L}(E)$; đây là một không gian con vectơ của không gian vectơ $\mathcal{L}(E)_{[\mathbf{R}]}$ trên $\mathbf{R}$ thu được từ $\mathcal{L}(E)$ bằng cách hạn chế vô hướng.
+Kí hiệu $\mathscr{H}(E)$ là tập hợp tất cả các phần tử Hermit của $\mathscr{L}(E)$; đây là một không gian con vectơ của không gian vectơ $\mathscr{L}(E)_{[\mathbf{R}]}$ trên $\mathbf{R}$ thu được từ $\mathscr{L}(E)$ bằng cách hạn chế vô hướng.
 
-Với mỗi $u \in \mathcal{L}(E)$, ta đã liên kết (V, p. 16, hệ quả 2) một dạng sesquilinear $\Phi_u : (x, y) \mapsto \langle x|u(y)\rangle$ trên $E \times E$. Ta có
+Với mỗi $u \in \mathscr{L}(E)$, ta đã liên kết (V, p. 16, hệ quả 2) một dạng sesquilinear $\Phi_u : (x, y) \mapsto \langle x|u(y)\rangle$ trên $E \times E$. Ta có
 
 $$
 \Phi_{u^*}(x, y) = \overline{\Phi_u(y, x)} \quad (x, y \text{ trong } E);
@@ -365,7 +365,7 @@ $$
 
 do đó, $u$ là Hermit nếu và chỉ nếu dạng $\Phi_u$ là Hermit. Khi $K$ là $\mathbf{C}$, chỉ cần giả sử rằng $\Phi_u(x, x) = \langle x|u(x)\rangle$ là thực với mọi $x \in E$ (V, p. 2, *Nhận xét*).
 
-Cho $u \in \mathcal{L}(E)$. Ta đã thấy (V, p. 16, hệ quả 2) rằng chuẩn của $u$ có thể được tính bởi công thức
+Cho $u \in \mathscr{L}(E)$. Ta đã thấy (V, p. 16, hệ quả 2) rằng chuẩn của $u$ có thể được tính bởi công thức
 
 $$
 \|u\| = \sup_{\|x\| \leqslant 1, \|y\| \leqslant 1} |\Phi_u(x, y)|.
@@ -402,7 +402,7 @@ Hiển nhiên mọi tự đồng cấu Hermit đều chuẩn. Ngược lại:
 
 #### Mệnh đề 10 {#evt-v-s4-prop-10 .statement}
 
-— Giả sử $K$ là C. Cho $u \in \mathcal{L}(E)$. Khi đó tồn tại duy nhất một cặp $(h_1, h_2)$ gồm các tự đồng cấu Hermit của E, sao cho $u = h_1 + ih_2$. Để u là chuẩn, cần và đủ rằng $h_1$ và $h_2$ giao hoán.
+— Giả sử $K$ là C. Cho $u \in \mathscr{L}(E)$. Khi đó tồn tại duy nhất một cặp $(h_1, h_2)$ gồm các tự đồng cấu Hermit của E, sao cho $u = h_1 + ih_2$. Để u là chuẩn, cần và đủ rằng $h_1$ và $h_2$ giao hoán.
 
 Thật vậy, quan hệ « $u = h_1 + ih_2,\ h_1^* = h_1,\ h_2^* = h_2$ » tương đương với
 
@@ -414,7 +414,7 @@ Hơn nữa, ta có $h_1 h_2 - h_2 h_1 = \frac{i}{2}(uu^* - u^*u)$. Điều đó 
 
 #### Mệnh đề 11 {#evt-v-s4-prop-11 .statement}
 
-— Cho $p \in \mathcal{L}(E)$. Để p là phép chiếu trực giao từ E lên một không gian con vectơ đóng của E, cần và đủ rằng $p^2 = p = p^*$.
+— Cho $p \in \mathscr{L}(E)$. Để p là phép chiếu trực giao từ E lên một không gian con vectơ đóng của E, cần và đủ rằng $p^2 = p = p^*$.
 
 Giả sử $p^2 = p$. Cho M là ảnh của p và N là hạt nhân của nó. E là tổng trực tiếp tôpô của M và N. Để p là một phép chiếu trực giao, cần và đủ rằng M trực giao với N, tức là ta có $\langle p(x)|y - p(y) \rangle = 0$ với mọi x, y trong E. Quan hệ sau cùng này tương đương với $p = p^*p$, và suy ra $p^* = (p^*p)^* = p^*p = p$; ngược lại nếu $p^* = p$, ta có $p = p^2 = p^*p$.
 
@@ -422,7 +422,7 @@ Giả sử $p^2 = p$. Cho M là ảnh của p và N là hạt nhân của nó. E
 
 #### Định nghĩa 6 {#evt-v-s4-def-6 .statement}
 
-— Cho E là một không gian Hilbert và $u \in \mathcal{L}(E)$. Ta nói rằng u là dương, và viết $u \geq 0$, nếu u là Hermit và nếu $\langle x|u(x) \rangle \geq 0$ với mọi $x \in E$.
+— Cho E là một không gian Hilbert và $u \in \mathscr{L}(E)$. Ta nói rằng u là dương, và viết $u \geq 0$, nếu u là Hermit và nếu $\langle x|u(x) \rangle \geq 0$ với mọi $x \in E$.
 
 Khi K bằng C, quan hệ
 
@@ -432,11 +432,11 @@ $$
 
 suy ra rằng u là Hermit (V, p. 2, Nhận xét), do đó là dương.
 
-Ký hiệu $\mathcal{L}_+(E)$ cho tập hợp tất cả các phần tử dương của $\mathcal{L}(E)$; đây là một nón lồi nhọn thực sự trong không gian vectơ thực $\mathcal{L}(E)_{[\mathbf{R}]}$ nền dưới $\mathcal{L}(E)$. Để u là dương, điều kiện cần và đủ là dạng sesquilinear $\Phi_u$ trên $E \times E$ liên kết với u là Hermit dương. Cho u và v trong $\mathcal{L}(E)$, quan hệ $u - v \geq 0$ cũng có thể viết là $u \geq v$ hoặc $v \leq u$; đây là một quan hệ thứ tự trên $\mathcal{L}(E)_{[\mathbf{R}]}$ tương thích với cấu trúc không gian vectơ thực của nó.
+Ký hiệu $\mathscr{L}_+(E)$ cho tập hợp tất cả các phần tử dương của $\mathscr{L}(E)$; đây là một nón lồi nhọn thực sự trong không gian vectơ thực $\mathscr{L}(E)_{[\mathbf{R}]}$ nền dưới $\mathscr{L}(E)$. Để u là dương, điều kiện cần và đủ là dạng sesquilinear $\Phi_u$ trên $E \times E$ liên kết với u là Hermit dương. Cho u và v trong $\mathscr{L}(E)$, quan hệ $u - v \geq 0$ cũng có thể viết là $u \geq v$ hoặc $v \leq u$; đây là một quan hệ thứ tự trên $\mathscr{L}(E)_{[\mathbf{R}]}$ tương thích với cấu trúc không gian vectơ thực của nó.
 
 #### Mệnh đề 12 {#evt-v-s4-prop-12 .statement}
 
-— Cho u là một phần tử Hermit (resp. dương) của $\mathcal{L}(E)$ và cho v là một ánh xạ tuyến tính liên tục từ E vào một không gian Hilbert F. Khi đó $vuv^*$ là một phần tử Hermit (resp. dương) của $\mathcal{L}(F)$.
+— Cho u là một phần tử Hermit (resp. dương) của $\mathscr{L}(E)$ và cho v là một ánh xạ tuyến tính liên tục từ E vào một không gian Hilbert F. Khi đó $vuv^*$ là một phần tử Hermit (resp. dương) của $\mathscr{L}(F)$.
 
 Thật vậy, ta có $(vuv^*)^* = v^{**}u^*v^* = vuv^*$. Mặt khác, nếu $u \geq 0$, ta có
 
@@ -446,11 +446,11 @@ $$
 
 với mọi $y \in F$, do đó $vuv^* \geq 0$.
 
-Mệnh đề 12 cho thấy, đặc biệt, rằng $vv^*$ là dương với mọi $v \in \mathcal{L}(E; F)$. Vì, đặc biệt, một toán tử chiếu trực giao $p$ thỏa $p = p^2 = pp^*$, nên nó là dương.
+Mệnh đề 12 cho thấy, đặc biệt, rằng $vv^*$ là dương với mọi $v \in \mathscr{L}(E; F)$. Vì, đặc biệt, một toán tử chiếu trực giao $p$ thỏa $p = p^2 = pp^*$, nên nó là dương.
 
 #### Nhận xét 1 {#evt-v-s4-n5-rem-1 .statement}
 
-Với mọi $u$ Hermit trong $\mathcal{L}(E)$, đặt $m(u) = \inf_{\|x\|=1} \langle x|u(x)\rangle$, $M(u) = \sup_{\|x\|=1} \langle x|u(x)\rangle$. Nếu $E$ không chỉ là $0$, thì $m(u)$ và $M(u)$ là hữu hạn; hơn nữa, $M(u)$ là số thực nhỏ nhất $\lambda$ sao cho $u \leq \lambda \cdot 1_E$ và $m(u)$ là số thực lớn nhất $\mu$ sao cho $u \geq \mu \cdot 1_E$. Rõ ràng ta có $m(-u) = -M(u)$ và $M(-u) = -m(u)$. Rõ ràng là
+Với mọi $u$ Hermit trong $\mathscr{L}(E)$, đặt $m(u) = \inf_{\|x\|=1} \langle x|u(x)\rangle$, $M(u) = \sup_{\|x\|=1} \langle x|u(x)\rangle$. Nếu $E$ không chỉ là $0$, thì $m(u)$ và $M(u)$ là hữu hạn; hơn nữa, $M(u)$ là số thực nhỏ nhất $\lambda$ sao cho $u \leq \lambda \cdot 1_E$ và $m(u)$ là số thực lớn nhất $\mu$ sao cho $u \geq \mu \cdot 1_E$. Rõ ràng ta có $m(-u) = -M(u)$ và $M(-u) = -m(u)$. Rõ ràng là
 $$
 \sup(|m(u)|, |M(u)|) = \sup_{\|x\|=1} |\langle x|u(x)\rangle|
 $$
@@ -467,16 +467,16 @@ với mọi $x \in E$. Vì thế quan hệ $p_M \leq p_N$ tương đương với
 
 #### Mệnh đề 13 {#evt-v-s4-prop-13 .statement}
 
-— *Cho $\mathcal{H}(E)$ là tập hợp tất cả các tự đồng cấu Hermit liên tục của không gian Hilbert $E$. Cho $\mathcal{F}$ là một tập con không rỗng, có hướng tăng và bị chặn của $\mathcal{H}(E)$.*
+— *Cho $\mathscr{H}(E)$ là tập hợp tất cả các tự đồng cấu Hermit liên tục của không gian Hilbert $E$. Cho $\mathscr{F}$ là một tập con không rỗng, có hướng tăng và bị chặn của $\mathscr{H}(E)$.*
 
-(i) *Tập $\mathcal{F}$ có một cận trên $u_0$ trong $\mathcal{H}(E)$; ta có*
+(i) *Tập $\mathscr{F}$ có một cận trên $u_0$ trong $\mathscr{H}(E)$; ta có*
 $$
-\langle x|u_0(x)\rangle = \sup_{u \in \mathcal{F}} \langle x|u(x)\rangle \quad \text{với mọi} \quad x \in E .
+\langle x|u_0(x)\rangle = \sup_{u \in \mathscr{F}} \langle x|u(x)\rangle \quad \text{với mọi} \quad x \in E .
 $$
 
-(ii) *Bộ lọc các phần cắt của $\mathcal{F}$ hội tụ đến $u_0$ trong không gian $\mathcal{L}(E)$ được trang bị tôpô hội tụ đơn.*
+(ii) *Bộ lọc các phần cắt của $\mathscr{F}$ hội tụ đến $u_0$ trong không gian $\mathscr{L}(E)$ được trang bị tôpô hội tụ đơn.*
 
-Cho $\Sigma$ là bộ lọc các tiết diện của $\mathcal{F}$; với mỗi $u \in \mathcal{H}(E)$, đặt $\Phi_u$ là dạng Hermit liên tục trên $E$ được xác định bởi
+Cho $\Sigma$ là bộ lọc các tiết diện của $\mathscr{F}$; với mỗi $u \in \mathscr{H}(E)$, đặt $\Phi_u$ là dạng Hermit liên tục trên $E$ được xác định bởi
 $$
 \Phi_u(x, y) = \langle x|u(y)\rangle .
 $$
@@ -484,7 +484,7 @@ $$
 $$
 \Psi_u(x) = \Phi_u(x, x)
 $$
-với $u \in \mathcal{H}(E)$ và $x \in E$. Theo các công thức phân cực (V, p. 2), ta có
+với $u \in \mathscr{H}(E)$ và $x \in E$. Theo các công thức phân cực (V, p. 2), ta có
 $$
 \begin{align*}
 (19) \quad 4\Phi_u(x, y) &= \Psi_u(x+y) - \Psi_u(x-y) & \text{nếu } K = \mathbf{R} \\
@@ -496,7 +496,7 @@ Với mọi $x \in E$, ánh xạ $u \mapsto \Psi_u(x)$ vào $\mathbf{R}$ là tă
 $$
 \lim_{u,\Sigma} \Phi_u(x, y) = \Phi(x, y)
 $$
-tồn tại với mọi cặp $(x, y)$ các phần tử của $E$. Rõ ràng $\Phi$ là một dạng Hermit trên $E$. Nếu $v_1 \in \mathcal{F}$ và $v_2$ là một cận trên của $\mathcal{F}$, các dạng Hermit $f_1 = \Phi - \Phi_{v_1}$ và $f_2 = \Phi_{v_2} - \Phi$ là dương; tồn tại một số thực $M \geq 0$ sao cho
+tồn tại với mọi cặp $(x, y)$ các phần tử của $E$. Rõ ràng $\Phi$ là một dạng Hermit trên $E$. Nếu $v_1 \in \mathscr{F}$ và $v_2$ là một cận trên của $\mathscr{F}$, các dạng Hermit $f_1 = \Phi - \Phi_{v_1}$ và $f_2 = \Phi_{v_2} - \Phi$ là dương; tồn tại một số thực $M \geq 0$ sao cho
 $$
 f_1(x, x) + f_2(x, x) = \Phi_{v_2 - v_1}(x, x) \leq M \|x\|^2,
 $$
@@ -508,13 +508,13 @@ do đó các bán chuẩn $x \mapsto f_i(x, x)^{1/2}$ liên tục trên $E$. Vì
 $$
 f_2 - f_1 = \Phi_{v_2} + \Phi_{v_1} - 2\Phi,
 $$
-ta kết luận rằng $x \mapsto \Phi(x, x)$ là một hàm liên tục trên $E$, và theo các công thức (19) và (20), rằng $\Phi$ liên tục trên $E \times E$. Do đó tồn tại (V, p. 16, Hệ quả 2) một phần tử $u_0$ của $\mathcal{H}(E)$ sao cho $\Phi = \Phi_{u_0}$. Công thức (18) hiển nhiên được thỏa mãn, do đó $u_0$ là cận trên của $\mathcal{F}$ trong $\mathcal{H}(E)$. Điều này chứng minh (i).
+ta kết luận rằng $x \mapsto \Phi(x, x)$ là một hàm liên tục trên $E$, và theo các công thức (19) và (20), rằng $\Phi$ liên tục trên $E \times E$. Do đó tồn tại (V, p. 16, Hệ quả 2) một phần tử $u_0$ của $\mathscr{H}(E)$ sao cho $\Phi = \Phi_{u_0}$. Công thức (18) hiển nhiên được thỏa mãn, do đó $u_0$ là cận trên của $\mathscr{F}$ trong $\mathscr{H}(E)$. Điều này chứng minh (i).
 
 Theo phép dựng, ta có
 $$
 \lim_{u,\Sigma} \langle x|(u_0 - u)(x)\rangle = 0 \quad \text{với mọi } x \in E.
 $$
-Cho $v_1 \in \mathcal{F}$; với một $u \in \mathcal{F}$ sao cho $u \geq v_1$, đặt $v = u_0 - u$. Nếu áp dụng bất đẳng thức Cauchy-Schwarz cho dạng Hermit dương $\Phi_v$ trên $E$, ta được
+Cho $v_1 \in \mathscr{F}$; với một $u \in \mathscr{F}$ sao cho $u \geq v_1$, đặt $v = u_0 - u$. Nếu áp dụng bất đẳng thức Cauchy-Schwarz cho dạng Hermit dương $\Phi_v$ trên $E$, ta được
 $$
 \begin{align*}
 \|v(x)\|^4 &= |\Phi_v(v(x), x)|^2 \leq \Phi_v(v(x), v(x)) \cdot \Phi_v(x, x) \\
@@ -524,11 +524,11 @@ $$
 $$
 vì $\|v\| \leq \|u_0 - v_1\|$ theo V, p. 44, Mệnh đề 9. Khi đó theo (21) ta được $\lim_{u,\Sigma} \|(u_0 - u)(x)\| = 0$ với mọi $x \in E$; điều này chứng minh mệnh đề (ii).
 
-Đặc biệt, mệnh đề 13 có thể được áp dụng cho trường hợp của một dãy $(u_n)_{n \in \mathbf{N}}$ tăng và bị chặn của các phần tử của $\mathcal{H}(E)$. Khi đó tồn tại một phần tử $v$ của $\mathcal{H}(E)$ được xác định bởi
+Đặc biệt, mệnh đề 13 có thể được áp dụng cho trường hợp của một dãy $(u_n)_{n \in \mathbf{N}}$ tăng và bị chặn của các phần tử của $\mathscr{H}(E)$. Khi đó tồn tại một phần tử $v$ của $\mathscr{H}(E)$ được xác định bởi
 $$
 \langle x|v(x)\rangle = \lim_{n \to \infty} \langle x|u_n(x)\rangle = \sup_{n \in \mathbf{N}} \langle x|u_n(x)\rangle \quad (x \in E),
 $$
-và ta có $v(x) = \lim_{n \to \infty} u_n(x)$ với mọi $x \in E$. Hơn nữa, $v$ là cận trên của tập hợp các $u_n$ trong $\mathcal{H}(E)$.
+và ta có $v(x) = \lim_{n \to \infty} u_n(x)$ với mọi $x \in E$. Hơn nữa, $v$ là cận trên của tập hợp các $u_n$ trong $\mathscr{H}(E)$.
 
 ### 6. Vết của một tự đồng cấu
 
@@ -536,24 +536,24 @@ Cho E và F là hai không gian Hilbert. Theo các quy ước của V, p. 40, v�
 
 #### Bổ đề 1 {#evt-v-s4-lem-1 .statement}
 
-*Có một đẳng cấu $\theta$ từ không gian vectơ $F \otimes E'$ lên không gian $\mathcal{L}_f(E; F)$ gồm tất cả các ánh xạ tuyến tính liên tục hạng hữu hạn từ E vào F, được đặc trưng bởi $\theta(b \otimes a^*) = ba^*$ với $a \in E, b \in F$.
+*Có một đẳng cấu $\theta$ từ không gian vectơ $F \otimes E'$ lên không gian $\mathscr{L}_f(E; F)$ gồm tất cả các ánh xạ tuyến tính liên tục hạng hữu hạn từ E vào F, được đặc trưng bởi $\theta(b \otimes a^*) = ba^*$ với $a \in E, b \in F$.
 
-Theo A, II, § 4, No. 2, tồn tại một ánh xạ tuyến tính đơn ánh $\theta$ từ $F \otimes E'$ vào $\mathcal{L}(E; F)$ và chỉ có một ánh xạ như vậy, biến $b \otimes a'$ thành ánh xạ tuyến tính $x \mapsto ba'(x)$ với $a' \in E', b \in F$. Hiển nhiên $\theta(b \otimes a^*) = ba^*$, và ảnh của $\theta$ được chứa trong $\mathcal{L}_f(E; F)$. Tuy nhiên, cho $u \in \mathcal{L}_f(E; F)$ và cho $(e_1, ..., e_n)$ là một cơ sở trực chuẩn của ảnh của $u$ trong F. Đặt $f_i = u^*(e_i)$ với $1 \leq i \leq n$. Với mọi $x \in E$, ta có
+Theo A, II, § 4, No. 2, tồn tại một ánh xạ tuyến tính đơn ánh $\theta$ từ $F \otimes E'$ vào $\mathscr{L}(E; F)$ và chỉ có một ánh xạ như vậy, biến $b \otimes a'$ thành ánh xạ tuyến tính $x \mapsto ba'(x)$ với $a' \in E', b \in F$. Hiển nhiên $\theta(b \otimes a^*) = ba^*$, và ảnh của $\theta$ được chứa trong $\mathscr{L}_f(E; F)$. Tuy nhiên, cho $u \in \mathscr{L}_f(E; F)$ và cho $(e_1, ..., e_n)$ là một cơ sở trực chuẩn của ảnh của $u$ trong F. Đặt $f_i = u^*(e_i)$ với $1 \leq i \leq n$. Với mọi $x \in E$, ta có
 
 $$
 u(x) = \sum_{i=1}^n \langle e_i|u(x) \rangle \cdot e_i = \sum_{i=1}^n \langle f_i|x \rangle \cdot e_i,
 $$
 
-suy ra $u = \sum_{i=1}^n e_i f_i^* = \theta(\sum_{i=1}^n e_i \otimes f_i^*)$. Vì vậy ảnh của $\theta$ bằng $\mathcal{L}_f(E; F)$.
+suy ra $u = \sum_{i=1}^n e_i f_i^* = \theta(\sum_{i=1}^n e_i \otimes f_i^*)$. Vì vậy ảnh của $\theta$ bằng $\mathscr{L}_f(E; F)$.
 
-Từ nay về sau, ta giả sử rằng $E = F$, và ta đặt $\mathcal{L}_f(E) = \mathcal{L}_f(E; E)$. Theo bổ đề 1, tồn tại duy nhất một dạng tuyến tính $\tau$ trên $\mathcal{L}_f(E)$, sao cho $\tau(\theta(a \otimes a')) = a'(a)$ với $a \in E, a' \in E'$; nói cách khác, ta có
+Từ nay về sau, ta giả sử rằng $E = F$, và ta đặt $\mathscr{L}_f(E) = \mathscr{L}_f(E; E)$. Theo bổ đề 1, tồn tại duy nhất một dạng tuyến tính $\tau$ trên $\mathscr{L}_f(E)$, sao cho $\tau(\theta(a \otimes a')) = a'(a)$ với $a \in E, a' \in E'$; nói cách khác, ta có
 
 (22)
 $$
 \tau(ba^*) = \langle a|b \rangle \quad \text{cho } a, b \text{ trong } E.
 $$
 
-Khi E hữu hạn chiều, ta có $\mathcal{L}_f(E) = \mathcal{L}(E)$ và $\tau(u)$ là *vết* của tự đồng cấu $u$ của E (A, II, § 4, No. 3).
+Khi E hữu hạn chiều, ta có $\mathscr{L}_f(E) = \mathscr{L}(E)$ và $\tau(u)$ là *vết* của tự đồng cấu $u$ của E (A, II, § 4, No. 3).
 
 #### Bổ đề 2 {#evt-v-s4-lem-2 .statement}
 
@@ -563,7 +563,7 @@ $$
 \tau(u) = \sum_{i \in I} \langle e_i|u(e_i) \rangle
 $$
 
-*với mọi* $u \in \mathcal{L}_f(E)$.
+*với mọi* $u \in \mathscr{L}_f(E)$.
 
 Chỉ cần xét trường hợp $u = ba^*$ với $a, b$ trong E. Khi đó
 
@@ -575,26 +575,26 @@ và bổ đề 2 suy ra từ công thức (22) và công thức (3) của V, p. 
 
 #### Bổ đề 3 {#evt-v-s4-lem-3 .statement}
 
-*Cho u là một tự đồng cấu liên tục và dương của E, và $\mathcal{F}$ là tập hợp tất cả các phép chiếu trực giao hạng hữu hạn trên E. Khi đó với mọi cơ sở trực chuẩn $(e_i)_{i \in I}$ của E, ta có (trong $\mathbf{R}_+$) đẳng thức*
+*Cho u là một tự đồng cấu liên tục và dương của E, và $\mathscr{F}$ là tập hợp tất cả các phép chiếu trực giao hạng hữu hạn trên E. Khi đó với mọi cơ sở trực chuẩn $(e_i)_{i \in I}$ của E, ta có (trong $\mathbf{R}_+$) đẳng thức*
 
 $$
-\sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_{p \in \mathcal{F}} \tau(pup).
+\sum_{i \in I} \langle e_i|u(e_i) \rangle = \sup_{p \in \mathscr{F}} \tau(pup).
 $$
 
 Với mỗi tập con hữu hạn J của I, đặt $p_J = \sum_{i \in J} e_i e_i^*$; đây là phép chiếu trực giao từ E lên không gian con vectơ sinh bởi các vectơ $e_i$, với i chạy trên J. Ta có
 $$
 p_J u p_J = \sum_{i \in J, j \in J} \langle e_i | u(e_j) \rangle e_i e_j^* ,
 $$
-do đó $\tau(p_J u p_J) = \sum_{i \in J} \langle e_i | u(e_i) \rangle$. Vì $p_J \in \mathcal{F}$,
+do đó $\tau(p_J u p_J) = \sum_{i \in J} \langle e_i | u(e_i) \rangle$. Vì $p_J \in \mathscr{F}$,
 $$
-\sum_{i \in J} \langle e_i | u(e_i) \rangle \leq \sup_{p \in \mathcal{F}} \tau(p u p) ;
+\sum_{i \in J} \langle e_i | u(e_i) \rangle \leq \sup_{p \in \mathscr{F}} \tau(p u p) ;
 $$
 và do đó ta kết luận rằng
 $$
-\sum_{i \in I} \langle e_i | u(e_i) \rangle = \sup_J \sum_{i \in J} \langle e_i | u(e_i) \rangle \leq \sup_{p \in \mathcal{F}} \tau(p u p) .
+\sum_{i \in I} \langle e_i | u(e_i) \rangle = \sup_J \sum_{i \in J} \langle e_i | u(e_i) \rangle \leq \sup_{p \in \mathscr{F}} \tau(p u p) .
 $$
 
-Cho $v$ là một tự đồng cấu liên tục, dương và có hạng hữu hạn của E và cho $p \in \mathcal{F}$. Theo định lý 2 của V, p. 23 tồn tại một cơ sở trực chuẩn $(f_\alpha)_{\alpha \in A}$ của E và một tập con hữu hạn B của A sao cho $(f_\alpha)_{\alpha \in B}$ là một cơ sở trực chuẩn của ảnh của p. Khi đó ta có $p = \sum_{\alpha \in B} f_\alpha f_\alpha^*$, và do đó, như trên, hệ thức $\tau(p v p) = \sum_{\alpha \in B} \langle f_\alpha | v(f_\alpha) \rangle$. Theo bổ đề 2 (V, p. 48) ta có $\tau(v) = \sum_{\alpha \in A} \langle f_\alpha | v(f_\alpha) \rangle$, suy ra công thức
+Cho $v$ là một tự đồng cấu liên tục, dương và có hạng hữu hạn của E và cho $p \in \mathscr{F}$. Theo định lý 2 của V, p. 23 tồn tại một cơ sở trực chuẩn $(f_\alpha)_{\alpha \in A}$ của E và một tập con hữu hạn B của A sao cho $(f_\alpha)_{\alpha \in B}$ là một cơ sở trực chuẩn của ảnh của p. Khi đó ta có $p = \sum_{\alpha \in B} f_\alpha f_\alpha^*$, và do đó, như trên, hệ thức $\tau(p v p) = \sum_{\alpha \in B} \langle f_\alpha | v(f_\alpha) \rangle$. Theo bổ đề 2 (V, p. 48) ta có $\tau(v) = \sum_{\alpha \in A} \langle f_\alpha | v(f_\alpha) \rangle$, suy ra công thức
 $$
 \sum_{\alpha \in B} \langle f_\alpha | v(f_\alpha) \rangle \leq \tau(v) .
 $$
@@ -612,9 +612,9 @@ và điều này hoàn tất chứng minh của bổ đề 3.
 
 *Cho u là một tự đồng cấu liên tục và dương của không gian Hilbert E. Đặt*
 $$
-\operatorname{Tr}(u) = \sup_{p \in \mathcal{F}} \tau(p u p)
+\operatorname{Tr}(u) = \sup_{p \in \mathscr{F}} \tau(p u p)
 $$
-*(cận trên trong $\overline{\mathbf{R}}_+$), trong đó $\mathcal{F}$ là tập tất cả các phép chiếu trực giao có hạng hữu hạn trên E. Ta nói rằng $\operatorname{Tr}(u)$ là vết của u.*
+*(cận trên trong $\overline{\mathbf{R}}_+$), trong đó $\mathscr{F}$ là tập tất cả các phép chiếu trực giao có hạng hữu hạn trên E. Ta nói rằng $\operatorname{Tr}(u)$ là vết của u.*
 
 Cho $p$ là phép chiếu trực giao từ $E$ lên một không gian con vectơ hữu hạn chiều của $E$, và cho $(x_1, ..., x_m)$ là một cơ sở trực chuẩn của F. Ta đã thiết lập hệ thức
 $$
@@ -657,13 +657,13 @@ $$
 
 #### Định nghĩa 8 {#evt-v-s4-def-8 .statement}
 
-— Cho $E$ là một không gian Hilbert phức. Ta viết $\mathcal{L}^1(E)$ cho không gian con vectơ của $\mathcal{L}(E)$ sinh bởi mọi tự đồng cấu liên tục, dương của E có vết hữu hạn.
+— Cho $E$ là một không gian Hilbert phức. Ta viết $\mathscr{L}^1(E)$ cho không gian con vectơ của $\mathscr{L}(E)$ sinh bởi mọi tự đồng cấu liên tục, dương của E có vết hữu hạn.
 
-Nhờ công thức (25) của V, p. 50, vết mở rộng thành một dạng tuyến tính trên $\mathcal{L}^1(E)$, cũng được ký hiệu là Tr, và thỏa mãn quan hệ $\operatorname{Tr}(u) = \sum_{i \in I} \langle e_i | u(e_i) \rangle$ với mọi $u$ trong $\mathcal{L}^1(E)$ và với mọi cơ sở trực chuẩn $(e_i)_{i \in I}$ của E. Với mọi $u \in \mathcal{L}^1(E)$, ta có $u^* \in \mathcal{L}^1(E)$ và $\operatorname{Tr}(u^*) = \overline{\operatorname{Tr}(u)}$. Các công thức (25) và (28) của V, p. 50 vẫn đúng trong trường hợp $u$ thuộc $\mathcal{L}^1(E)$. Cho F là một không gian con Hilbert của E; theo công thức (30), phép chiếu trực giao $p_F$ thuộc $\mathcal{L}^1(E)$ khi và chỉ khi F là hữu hạn chiều. Với mọi a và b trong E, ta có $4ab^* = \sum_{\varepsilon^4 = 1} \varepsilon(a + \varepsilon b)(a + \varepsilon b)^*$ và $cc^*$ là một toán tử dương có vết hữu hạn với mọi $c \in E$; do đó, nếu $u$ là một tự đồng cấu liên tục của E có hạng hữu hạn, thì $u \in \mathcal{L}^1(E)$ và $\operatorname{Tr}(u) = \tau(u)$.
+Nhờ công thức (25) của V, p. 50, vết mở rộng thành một dạng tuyến tính trên $\mathscr{L}^1(E)$, cũng được ký hiệu là Tr, và thỏa mãn quan hệ $\operatorname{Tr}(u) = \sum_{i \in I} \langle e_i | u(e_i) \rangle$ với mọi $u$ trong $\mathscr{L}^1(E)$ và với mọi cơ sở trực chuẩn $(e_i)_{i \in I}$ của E. Với mọi $u \in \mathscr{L}^1(E)$, ta có $u^* \in \mathscr{L}^1(E)$ và $\operatorname{Tr}(u^*) = \overline{\operatorname{Tr}(u)}$. Các công thức (25) và (28) của V, p. 50 vẫn đúng trong trường hợp $u$ thuộc $\mathscr{L}^1(E)$. Cho F là một không gian con Hilbert của E; theo công thức (30), phép chiếu trực giao $p_F$ thuộc $\mathscr{L}^1(E)$ khi và chỉ khi F là hữu hạn chiều. Với mọi a và b trong E, ta có $4ab^* = \sum_{\varepsilon^4 = 1} \varepsilon(a + \varepsilon b)(a + \varepsilon b)^*$ và $cc^*$ là một toán tử dương có vết hữu hạn với mọi $c \in E$; do đó, nếu $u$ là một tự đồng cấu liên tục của E có hạng hữu hạn, thì $u \in \mathscr{L}^1(E)$ và $\operatorname{Tr}(u) = \tau(u)$.
 
-Cho E là một không gian Hilbert thực, và cho $E_{(c)}$ là phức hóa của nó (V, p. 5). Ta đồng nhất E với một tập con của $E_{(c)}$. Khi đó $\mathcal{L}(E)$ có thể được đồng nhất với một không gian con vectơ thực của $\mathcal{L}(E_{(c)})$ gồm tất cả các ánh xạ tuyến tính liên tục $u$ từ $E_{(c)}$ vào $E_{(c)}$ sao cho $u(E) \subset E$. Trong trường hợp này ta viết $\mathcal{L}^1(E) = \mathcal{L}(E) \cap \mathcal{L}^1(E_{(c)})$. Với mọi $u \in \mathcal{L}^1(E)$, vết $\operatorname{Tr}(u)$ là thực và bằng $\operatorname{Tr}(u^*)$. Các công thức (25) và (28) lại đúng, $\mathcal{L}_f(E) \subset \mathcal{L}^1(E)$ và $\operatorname{Tr}(u) = \tau(u)$ với mọi $u \in \mathcal{L}_f(E)$. Sau cùng, một không gian con vectơ đóng F của E là hữu hạn chiều khi và chỉ khi $p_F$ thuộc $\mathcal{L}^1(E)$.
+Cho E là một không gian Hilbert thực, và cho $E_{(c)}$ là phức hóa của nó (V, p. 5). Ta đồng nhất E với một tập con của $E_{(c)}$. Khi đó $\mathscr{L}(E)$ có thể được đồng nhất với một không gian con vectơ thực của $\mathscr{L}(E_{(c)})$ gồm tất cả các ánh xạ tuyến tính liên tục $u$ từ $E_{(c)}$ vào $E_{(c)}$ sao cho $u(E) \subset E$. Trong trường hợp này ta viết $\mathscr{L}^1(E) = \mathscr{L}(E) \cap \mathscr{L}^1(E_{(c)})$. Với mọi $u \in \mathscr{L}^1(E)$, vết $\operatorname{Tr}(u)$ là thực và bằng $\operatorname{Tr}(u^*)$. Các công thức (25) và (28) lại đúng, $\mathscr{L}_f(E) \subset \mathscr{L}^1(E)$ và $\operatorname{Tr}(u) = \tau(u)$ với mọi $u \in \mathscr{L}_f(E)$. Sau cùng, một không gian con vectơ đóng F của E là hữu hạn chiều khi và chỉ khi $p_F$ thuộc $\mathscr{L}^1(E)$.
 
-\* Nhận xét 1. — Sau này chúng ta sẽ định nghĩa khái niệm một ánh xạ hạt nhân từ một không gian Banach E vào một không gian Banach F. Chúng ta sẽ chứng minh rằng khi $\mathcal{L}^1(E)$ gồm tất cả các ánh xạ hạt nhân từ E vào E, thì E là một không gian Hilbert thực hoặc phức. \*
+\* Nhận xét 1. — Sau này chúng ta sẽ định nghĩa khái niệm một ánh xạ hạt nhân từ một không gian Banach E vào một không gian Banach F. Chúng ta sẽ chứng minh rằng khi $\mathscr{L}^1(E)$ gồm tất cả các ánh xạ hạt nhân từ E vào E, thì E là một không gian Hilbert thực hoặc phức. \*
 
 #### Mệnh đề 14 {#evt-v-s4-prop-14 .statement}
 
@@ -673,7 +673,7 @@ $$
 \operatorname{Tr}(u) = \prod_{i=1}^n \operatorname{Tr}(u_i).
 $$
 
-Nếu $u_i \in \mathcal{L}^1(E_i)$ với mọi $1 \leq i \leq n$, thì $u \in \mathcal{L}^1(E)$ và công thức (31) vẫn đúng trong trường hợp này.
+Nếu $u_i \in \mathscr{L}^1(E_i)$ với mọi $1 \leq i \leq n$, thì $u \in \mathscr{L}^1(E)$ và công thức (31) vẫn đúng trong trường hợp này.
 
 Làm quy nạp theo $n$, ta ngay lập tức rút gọn về trường hợp $n = 2$.
 
@@ -693,21 +693,21 @@ $$
 = \operatorname{Tr}(u_1) \cdot \operatorname{Tr}(u_2) .
 $$
 
-Đặc biệt, nếu $u_1$ và $u_2$ là các tự đồng cấu dương có vết hữu hạn, thì $u$ cũng vậy. Do tính tuyến tính, ta suy ra rằng $u$ thuộc $\mathcal{L}^1(E)$ khi $K = \mathbf{C}$ và rằng các $u_i$ thuộc $\mathcal{L}^1(E_i)$ với $i = 1, 2$; công thức (31) mở rộng sang trường hợp này bởi tính tuyến tính. Cuối cùng, trường hợp $K = \mathbf{R}$ và các $u_i \in \mathcal{L}^1(E_i)$ rút gọn về trường hợp phức bằng mở rộng vô hướng.
+Đặc biệt, nếu $u_1$ và $u_2$ là các tự đồng cấu dương có vết hữu hạn, thì $u$ cũng vậy. Do tính tuyến tính, ta suy ra rằng $u$ thuộc $\mathscr{L}^1(E)$ khi $K = \mathbf{C}$ và rằng các $u_i$ thuộc $\mathscr{L}^1(E_i)$ với $i = 1, 2$; công thức (31) mở rộng sang trường hợp này bởi tính tuyến tính. Cuối cùng, trường hợp $K = \mathbf{R}$ và các $u_i \in \mathscr{L}^1(E_i)$ rút gọn về trường hợp phức bằng mở rộng vô hướng.
 
 #### Nhận xét 2 {#evt-v-s4-n6-rem-2 .statement}
 
-— Cho $E$ là một không gian Hilbert, là tổng Hilbert của một họ $(E_i)_{i \in I}$ các không gian con Hilbert. Cho $u$ là một phần tử của $\mathcal{L}(E)$ sao cho $u(E_i) \subset E_i$ với mọi $i \in I$; cho $u_i$ là phần tử của $\mathcal{L}(E_i)$ trùng với $u$ trên $E_i$. Khi đó $\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$ khi $u$ dương, hoặc thuộc $\mathcal{L}^1(E)$; quan hệ này suy ra từ công thức (25) của V, p. 50 áp dụng cho một cơ sở trực chuẩn của $E$ là hợp của các cơ sở trực chuẩn của từng $E_i$.
+— Cho $E$ là một không gian Hilbert, là tổng Hilbert của một họ $(E_i)_{i \in I}$ các không gian con Hilbert. Cho $u$ là một phần tử của $\mathscr{L}(E)$ sao cho $u(E_i) \subset E_i$ với mọi $i \in I$; cho $u_i$ là phần tử của $\mathscr{L}(E_i)$ trùng với $u$ trên $E_i$. Khi đó $\operatorname{Tr}(u) = \sum_{i \in I} \operatorname{Tr}(u_i)$ khi $u$ dương, hoặc thuộc $\mathscr{L}^1(E)$; quan hệ này suy ra từ công thức (25) của V, p. 50 áp dụng cho một cơ sở trực chuẩn của $E$ là hợp của các cơ sở trực chuẩn của từng $E_i$.
 
 ### 7. Các ánh xạ Hilbert-Schmidt
 
 #### Định nghĩa 9 {#evt-v-s4-def-9 .statement}
 
-*Cho $E$ và $F$ là hai không gian Hilbert. Một ánh xạ tuyến tính liên tục $u$ từ $E$ vào $F$ được gọi là một ánh xạ Hilbert-Schmidt nếu vết của tự đồng cấu dương $u^*u$ của $E$ là hữu hạn. Tập hợp của tất cả các ánh xạ Hilbert-Schmidt từ $E$ vào $F$ được ký hiệu bởi $\mathcal{L}^2(E, F)$. \*
+*Cho $E$ và $F$ là hai không gian Hilbert. Một ánh xạ tuyến tính liên tục $u$ từ $E$ vào $F$ được gọi là một ánh xạ Hilbert-Schmidt nếu vết của tự đồng cấu dương $u^*u$ của $E$ là hữu hạn. Tập hợp của tất cả các ánh xạ Hilbert-Schmidt từ $E$ vào $F$ được ký hiệu bởi $\mathscr{L}^2(E, F)$. \*
 
-Khi $E = F$, ta viết $\mathcal{L}^2(E)$ thay cho $\mathcal{L}^2(E; E)$.
+Khi $E = F$, ta viết $\mathscr{L}^2(E)$ thay cho $\mathscr{L}^2(E; E)$.
 
-Với mọi $u \in \mathcal{L}(E, F)$, cho $\|u\|_2 = \operatorname{Tr}(u^*u)^{1/2}$, do đó $u$ thuộc $\mathcal{L}^2(E; F)$ khi và chỉ khi $\|u\|_2$ hữu hạn. Theo định nghĩa của vết, ta có
+Với mọi $u \in \mathscr{L}(E, F)$, cho $\|u\|_2 = \operatorname{Tr}(u^*u)^{1/2}$, do đó $u$ thuộc $\mathscr{L}^2(E; F)$ khi và chỉ khi $\|u\|_2$ hữu hạn. Theo định nghĩa của vết, ta có
 
 $$
 \|u\|_2^2 = \sup_{x_1, \ldots, x_m} \sum_{i=1}^m \|u(x_i)\|^2
@@ -716,7 +716,7 @@ $$
 trong đó $(x_1, \ldots, x_m)$ chạy qua tập hợp các dãy trực chuẩn hữu hạn trong $E$. Đặc biệt, lấy $m = 1$ trong công thức (32), ta có
 
 $$
-\|u\| \leq \|u\|_2 \quad (u \in \mathcal{L}(E; F)) .
+\|u\| \leq \|u\|_2 \quad (u \in \mathscr{L}(E; F)) .
 $$
 
 Cho $(e_i)_{i \in I}$ là một cơ sở trực chuẩn của $E$ và $(f_j)_{j \in J}$ là một cơ sở trực chuẩn của $F$. Theo công thức (25) của V, p. 50 và hệ thức Parseval (V, p. 22), ta có
@@ -737,25 +737,25 @@ Theo (35), (36) và quan hệ $uv = (v^*u^*)^*$, ta có
 $$
 \|uv\|_2 \leq \|u\|_2\,\|v\| .
 $$
-Đặc biệt, nếu $u$ thuộc $\mathcal{L}^2(E, F)$ thì $wuv$ thuộc $\mathcal{L}^2(E_1, F_1)$.
+Đặc biệt, nếu $u$ thuộc $\mathscr{L}^2(E, F)$ thì $wuv$ thuộc $\mathscr{L}^2(E_1, F_1)$.
 
 #### Định lý 1 {#evt-v-s4-thm-1 .statement}
 
 *Cho E và F là hai không gian hilbert.*
-(i) *Tập $\mathcal{L}^2(E, F)$ là một không gian con vectơ của $\mathcal{L}(E; F)$ và $u \mapsto \|u\|_2$ là một chuẩn hilbert* (V, p. 6) *trên $\mathcal{L}^2(E; F)$.*
-(ii) *Đẳng cấu $\theta$ từ $F \otimes E'$ lên $\mathcal{L}_f(E; F)$ được xác định bởi $\theta(y \otimes x^*) = yx^*$ được mở rộng thành một đẳng cấu $\hat{\theta}$ từ $F \otimes_2 E'$ lên $\mathcal{L}^2(E; F)$. Đặc biệt, $\mathcal{L}_f(E; F)$ trù mật trong $\mathcal{L}^2(E; F)$.*
+(i) *Tập $\mathscr{L}^2(E, F)$ là một không gian con vectơ của $\mathscr{L}(E; F)$ và $u \mapsto \|u\|_2$ là một chuẩn hilbert* (V, p. 6) *trên $\mathscr{L}^2(E; F)$.*
+(ii) *Đẳng cấu $\theta$ từ $F \otimes E'$ lên $\mathscr{L}_f(E; F)$ được xác định bởi $\theta(y \otimes x^*) = yx^*$ được mở rộng thành một đẳng cấu $\hat{\theta}$ từ $F \otimes_2 E'$ lên $\mathscr{L}^2(E; F)$. Đặc biệt, $\mathscr{L}_f(E; F)$ trù mật trong $\mathscr{L}^2(E; F)$.*
 
-Với $(e_i)_{i \in I}$ (resp. $(f_j)_{j \in J}$) là một cơ sở trực chuẩn của $E$ (resp. $F$). Với mọi $u \in \mathcal{L}(E; F)$, gọi $\Lambda(u)$ là ma trận của $u$ theo các cơ sở trực chuẩn đã chọn của $E$ và $F$ (V, p. 22). Ký hiệu $\|a\|_2$ là chuẩn của một phần tử $a$ của không gian hilbert $\ell^2(J \times I)$. Theo công thức (34), $\Lambda$ là một ánh xạ từ $\mathcal{L}^2(E; F)$ vào $\ell^2(J \times I)$ sao cho $\|\Lambda(u)\|_2 = \|u\|$; hiển nhiên $\Lambda$ là *đơn ánh*. Để chứng minh (i), chỉ cần chứng minh rằng $\Lambda$ là *toàn ánh*. Cho $a = (a_{ji})$ là một phần tử của $\ell^2(J \times I)$; theo bất đẳng thức Cauchy-Schwarz, ta có
+Với $(e_i)_{i \in I}$ (resp. $(f_j)_{j \in J}$) là một cơ sở trực chuẩn của $E$ (resp. $F$). Với mọi $u \in \mathscr{L}(E; F)$, gọi $\Lambda(u)$ là ma trận của $u$ theo các cơ sở trực chuẩn đã chọn của $E$ và $F$ (V, p. 22). Ký hiệu $\|a\|_2$ là chuẩn của một phần tử $a$ của không gian hilbert $\ell^2(J \times I)$. Theo công thức (34), $\Lambda$ là một ánh xạ từ $\mathscr{L}^2(E; F)$ vào $\ell^2(J \times I)$ sao cho $\|\Lambda(u)\|_2 = \|u\|$; hiển nhiên $\Lambda$ là *đơn ánh*. Để chứng minh (i), chỉ cần chứng minh rằng $\Lambda$ là *toàn ánh*. Cho $a = (a_{ji})$ là một phần tử của $\ell^2(J \times I)$; theo bất đẳng thức Cauchy-Schwarz, ta có
 $$
 |\sum_{j,i} \overline{\eta}_j a_{ji} \xi_i|^2 \leq \sum_{j,i} |a_{ji}|^2 \sum_{j,i} |\overline{\eta}_j \xi_i|^2 = \|a\|_2^2\,\|\xi\|^2\,\|\eta\|^2
 $$
-với mọi $\xi = (\xi_i)$ trong $\ell^2(I)$ và $\eta = (\eta_j)$ trong $\ell^2(J)$. Khi đó tồn tại một dạng sesquilinear liên tục $\Phi$ trên $F \times E$ sao cho $\Phi(y, x) = \sum_{j,i} \overline{\eta}_j a_{ji} \xi_i$ với $x = \sum_i \xi_i e_i$ trong $E$ và $y = \sum_j \eta_j f_j$ trong $F$. Chọn $u \in \mathcal{L}(E; F)$ sao cho $\Phi(y, x) = \langle y|u(x)\rangle$ (V, p. 16, cor. 2). Ta được
+với mọi $\xi = (\xi_i)$ trong $\ell^2(I)$ và $\eta = (\eta_j)$ trong $\ell^2(J)$. Khi đó tồn tại một dạng sesquilinear liên tục $\Phi$ trên $F \times E$ sao cho $\Phi(y, x) = \sum_{j,i} \overline{\eta}_j a_{ji} \xi_i$ với $x = \sum_i \xi_i e_i$ trong $E$ và $y = \sum_j \eta_j f_j$ trong $F$. Chọn $u \in \mathscr{L}(E; F)$ sao cho $\Phi(y, x) = \langle y|u(x)\rangle$ (V, p. 16, cor. 2). Ta được
 $$
 a_{ji} = \Phi(f_j, e_i) = \langle f_j|u(e_i)\rangle \quad \text{với} \quad i \in I, j \in J ,
 $$
 suy ra $a = \Lambda(u)$.
 
-Vì $\Lambda$ là một đẳng cấu giữa các không gian hilbert từ $\mathcal{L}^2(E; F)$ lên $\ell^2(J \times I)$ và vì $(f_j \otimes e_i^*)$ là một cơ sở trực chuẩn của $F \otimes_2 E'$, nên tồn tại một đẳng cấu $\hat{\theta}$ từ $F \otimes_2 E'$ lên $\mathcal{L}^2(E; F)$ sao cho
+Vì $\Lambda$ là một đẳng cấu giữa các không gian hilbert từ $\mathscr{L}^2(E; F)$ lên $\ell^2(J \times I)$ và vì $(f_j \otimes e_i^*)$ là một cơ sở trực chuẩn của $F \otimes_2 E'$, nên tồn tại một đẳng cấu $\hat{\theta}$ từ $F \otimes_2 E'$ lên $\mathscr{L}^2(E; F)$ sao cho
 $$
 \langle f_j|\hat{\theta}(t)\,e_i\rangle = \langle f_j \otimes e_i^*|t\rangle
 $$
@@ -772,40 +772,40 @@ Cho I và J là hai tập hợp. Theo chứng minh đã cho ở trên, để m�
 
 #### Ví dụ 2 {#evt-v-s4-n7-exa-2 .statement}
 
-Cho X và Y là hai không gian tôpô Hausdorff, được trang bị lần lượt các độ đo dương $\mu$ và $\nu$. Ta có thể chứng minh rằng các ánh xạ Hilbert-Schmidt từ $\mathcal{L}^2(X)$ vào $\mathcal{L}^2(Y)$ tương ứng song ánh với các lớp của các hàm khả tích bình phương trên $Y \times X$; với lớp của một hàm $N \in \mathcal{L}^2(Y \times X, \nu \otimes \mu)$ tương ứng là ánh xạ $u_N$ cho bởi
+Cho X và Y là hai không gian tôpô Hausdorff, được trang bị lần lượt các độ đo dương $\mu$ và $\nu$. Ta có thể chứng minh rằng các ánh xạ Hilbert-Schmidt từ $\mathscr{L}^2(X)$ vào $\mathscr{L}^2(Y)$ tương ứng song ánh với các lớp của các hàm khả tích bình phương trên $Y \times X$; với lớp của một hàm $N \in \mathscr{L}^2(Y \times X, \nu \otimes \mu)$ tương ứng là ánh xạ $u_N$ cho bởi
 $$
 (u_N f)(y) = \int_X N(y, x) f(x) \, d\mu(x)
 $$
-với $\nu$-hầu khắp mọi $y \in Y$ và $f \in \mathcal{L}^2(X, \mu)$. Ta có
+với $\nu$-hầu khắp mọi $y \in Y$ và $f \in \mathscr{L}^2(X, \mu)$. Ta có
 $$
 \| u_N \|_2^2 = \int_X \int_Y |N(y, x)|^2 \, d\mu(x) \, d\nu(y) .
 $$
 
 #### Nhận xét 1 {#evt-v-s4-n7-rem-1 .statement}
 
-Giả sử $K = \mathbf{C}$. Cho $u$ và $v$ thuộc $\mathcal{L}^2(E; F)$. Ta có quan hệ
+Giả sử $K = \mathbf{C}$. Cho $u$ và $v$ thuộc $\mathscr{L}^2(E; F)$. Ta có quan hệ
 $$
 4\, u^* v = \sum_{\varepsilon^4 = 1} \overline{\varepsilon}(u + \varepsilon v)^* (u + \varepsilon v),
 $$
-do đó $u^* v$ thuộc $\mathcal{L}^1(E)$. Tích vô hướng trong không gian Hilbert $\mathcal{L}^2(E; F)$ được cho bởi
+do đó $u^* v$ thuộc $\mathscr{L}^1(E)$. Tích vô hướng trong không gian Hilbert $\mathscr{L}^2(E; F)$ được cho bởi
 $$
 \langle u | v \rangle = \operatorname{Tr}(u^* v)
 $$
-vì công thức này xác định một dạng Hermit trên $\mathcal{L}^2(E; F)$ và ta thu được $\langle u | u \rangle = \| u \|_2^2$.
+vì công thức này xác định một dạng Hermit trên $\mathscr{L}^2(E; F)$ và ta thu được $\langle u | u \rangle = \| u \|_2^2$.
 
-Nếu $u \in \mathcal{L}^2(E; F)$ và $v \in \mathcal{L}^2(F; E)$, thì theo trên $vu$ thuộc $\mathcal{L}^1(E)$ và $uv$ thuộc $\mathcal{L}^1(F)$; hơn nữa, ta có
+Nếu $u \in \mathscr{L}^2(E; F)$ và $v \in \mathscr{L}^2(F; E)$, thì theo trên $vu$ thuộc $\mathscr{L}^1(E)$ và $uv$ thuộc $\mathscr{L}^1(F)$; hơn nữa, ta có
 $$
 \operatorname{Tr}(uv) = \operatorname{Tr}(vu) .
 $$
 Nhờ tính tuyến tính và tính liên tục, chỉ cần kiểm tra công thức này khi $u = y_1 x_1^*$ và $v = x_2 y_2^*$ (với $x_1, x_2$ trong E, $y_1, y_2$ trong F); nhưng khi đó $uv$ là ánh xạ $y \mapsto y_1 \langle x_1 | x_2 \rangle \langle y_2 | y \rangle$ và $vu$ là ánh xạ $x \mapsto x_2 \langle y_2 | y_1 \rangle \langle x_1 | x \rangle$, và (41) suy ra từ công thức (22) của V, p. 48.
 
-Do đó, nếu $u_1, u_2$ là hai phần tử của $\mathcal{L}^2(E; F)$, ta có, trong không gian Hilbert $\mathcal{L}^2(F; E)$, $$
+Do đó, nếu $u_1, u_2$ là hai phần tử của $\mathscr{L}^2(E; F)$, ta có, trong không gian Hilbert $\mathscr{L}^2(F; E)$, $$
 \langle u_1^* | u_2^* \rangle = \operatorname{Tr}(u_1 u_2^*) = \operatorname{Tr}(u_2^* u_1) = \langle u_2 | u_1 \rangle = \overline{\langle u_1 | u_2 \rangle} ;
-$$ nói cách khác, $u \mapsto u^*$ là một đẳng cấu từ không gian Hilbert $\mathcal{L}^2(E; F)$ lên không gian liên hợp (V, p. 6) của không gian Hilbert $\mathcal{L}^2(F; E)$. Nếu ta đồng nhất không gian liên hợp này với không gian đối ngẫu của $\mathcal{L}^2(F; E)$ (V, p. 15), ta thấy rằng $\mathcal{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathcal{L}^2(F; E)$, với dạng song tuyến tính chính tắc $(v, u) \mapsto \langle v, u \rangle$ được đồng nhất với $(v, u) \mapsto \operatorname{Tr}(vu)$.
+$$ nói cách khác, $u \mapsto u^*$ là một đẳng cấu từ không gian Hilbert $\mathscr{L}^2(E; F)$ lên không gian liên hợp (V, p. 6) của không gian Hilbert $\mathscr{L}^2(F; E)$. Nếu ta đồng nhất không gian liên hợp này với không gian đối ngẫu của $\mathscr{L}^2(F; E)$ (V, p. 15), ta thấy rằng $\mathscr{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathscr{L}^2(F; E)$, với dạng song tuyến tính chính tắc $(v, u) \mapsto \langle v, u \rangle$ được đồng nhất với $(v, u) \mapsto \operatorname{Tr}(vu)$.
 
 #### Nhận xét 2 {#evt-v-s4-n7-rem-2 .statement}
 
-Giả sử $K = \mathbf{R}$. Chúng tôi để bạn đọc kiểm tra rằng các công thức (40) và (41) vẫn đúng, và hãy chứng minh rằng $\mathcal{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathcal{L}^2(F; E)$ nhờ dạng song tuyến tính $(u, v) \mapsto \operatorname{Tr}(uv)$.
+Giả sử $K = \mathbf{R}$. Chúng tôi để bạn đọc kiểm tra rằng các công thức (40) và (41) vẫn đúng, và hãy chứng minh rằng $\mathscr{L}^2(E; F)$ có thể được đồng nhất với không gian đối ngẫu của $\mathscr{L}^2(F; E)$ nhờ dạng song tuyến tính $(u, v) \mapsto \operatorname{Tr}(uv)$.
 
 ### 8. Chéo hóa các ánh xạ Hilbert-Schmidt
 
@@ -821,7 +821,7 @@ Ký hiệu B là quả cầu đơn vị (đóng) của E, với tôpô yếu đ�
 
 *Hàm $Q : B \to \mathbf{R}$ liên tục.*
 
-Cho $(f_j)_{j \in J}$ là một cơ sở trực chuẩn của F. Đặt $\lambda_j = \|u^*(f_j)\|^2$ với mọi $j \in J$. Vì $u$ thuộc $\mathcal{L}^2(E; F)$ nên $u^* \in \mathcal{L}^2(F; E)$, do đó $\sum_j \lambda_j < +\infty$. Hơn nữa, ta có
+Cho $(f_j)_{j \in J}$ là một cơ sở trực chuẩn của F. Đặt $\lambda_j = \|u^*(f_j)\|^2$ với mọi $j \in J$. Vì $u$ thuộc $\mathscr{L}^2(E; F)$ nên $u^* \in \mathscr{L}^2(F; E)$, do đó $\sum_j \lambda_j < +\infty$. Hơn nữa, ta có
 $$
 Q(x) = \|u(x)\|^2 = \sum_j |\langle u^*(f_j)|x \rangle|^2
 $$
@@ -850,7 +850,7 @@ Xét đến định nghĩa của $x_0$, ta có $Q(x(0)) \geq Q(x(t))$ với mọ
 $$
 \frac{d}{dt} Q(x(t)) = \frac{f'(t)\,g(t) - f(t)\,g'(t)}{g(t)^2},
 $$
-ta suy ra rằng $f'(0) = 0$, tức là $\Re \langle u(x_0)|u(y)\rangle = 0$. Khi $K = \mathbf{R}$, $u(x_0)$ vuông góc với $u(y)$, khi $K = \mathbf{C}$, vectơ $iy$ thuộc $E_1$ và vuông góc với $x_0$, do đó $\mathcal{I} \langle u(x_0)|u(y)\rangle = -\Re \langle u(x_0)|u(iy)\rangle = 0$, và cuối cùng $u(x_0)$ vuông góc với $u(y)$. Điều này chứng minh bổ đề 5.
+ta suy ra rằng $f'(0) = 0$, tức là $\Re \langle u(x_0)|u(y)\rangle = 0$. Khi $K = \mathbf{R}$, $u(x_0)$ vuông góc với $u(y)$, khi $K = \mathbf{C}$, vectơ $iy$ thuộc $E_1$ và vuông góc với $x_0$, do đó $\mathscr{I} \langle u(x_0)|u(y)\rangle = -\Re \langle u(x_0)|u(iy)\rangle = 0$, và cuối cùng $u(x_0)$ vuông góc với $u(y)$. Điều này chứng minh bổ đề 5.
 
 Ta chứng minh định lý 2. Áp dụng định lý 1 của S, III, § 4, No. 5 ta thấy, như ở V, p. 23, rằng tồn tại một tập hợp $S$ cực đại trong số các tập con trực chuẩn của $E$ được chứa trong $P$. Gọi $E_1$ là tập hợp tất cả các vectơ trực giao với $S$. Cho $y \in E_1$; nếu $x \in S$, thì các vectơ $x$ và $y$ trực giao, và vì $S \subset P$, ta suy ra rằng $u(x)$ và $u(y)$ trực giao; khi đó
 $$
@@ -875,11 +875,11 @@ $$
 
 #### Hệ quả 2 {#evt-v-s4-lem-5-cor-2 .statement}
 
-*Cho E là một không gian Hilbert. Khi đó $\mathcal{L}^1(E) \subset \mathcal{L}^2(E)$.*
+*Cho E là một không gian Hilbert. Khi đó $\mathscr{L}^1(E) \subset \mathscr{L}^2(E)$.*
 
 Trường hợp thực quy về trường hợp phức bằng mở rộng vô hướng; do đó có thể giả sử rằng $K = \mathbf{C}$.
 
-Vì $\mathcal{L}^2(E)$ là một không gian con vectơ của $\mathcal{L}(E)$, chỉ cần chứng minh rằng mọi tự đồng cấu dương liên tục $v$ của E có vết hữu hạn đều thuộc $\mathcal{L}^2(E)$. Với các ký hiệu của hệ quả 1, ta có
+Vì $\mathscr{L}^2(E)$ là một không gian con vectơ của $\mathscr{L}(E)$, chỉ cần chứng minh rằng mọi tự đồng cấu dương liên tục $v$ của E có vết hữu hạn đều thuộc $\mathscr{L}^2(E)$. Với các ký hiệu của hệ quả 1, ta có
 
 $$
 \sum_{i \in I} \| v(e_i) \|^2 = \sum_{i \in I} \lambda_i^2 \leq (\sum_i \lambda_i)^2 < + \infty .
@@ -933,7 +933,7 @@ $$
 |\langle x|y\rangle_Q| \leq Q(x)^{1/2} Q(y)^{1/2} \leq \operatorname{Tr}(Q/H) \cdot \|x\| \cdot \|y\|
 $$
 
-theo bất đẳng thức Cauchy-Schwarz. Do đó, dạng song tuyến tính $(x, y) \mapsto \langle x|y\rangle_Q$ trên $E \times E$ là liên tục. Có (V, p. 16, hệ quả 2) một ánh xạ $u \in \mathcal{L}(E)$ sao cho $\langle x|y\rangle_Q = \langle x|u(y)\rangle$. Ta có $\langle x|y\rangle_Q = \langle y|x\rangle_Q$ với $x, y$ trong $E$, nên $u$ là Hermit; và $\langle x|u(x)\rangle = Q(x) \geq 0$, nên $u$ là dương.
+theo bất đẳng thức Cauchy-Schwarz. Do đó, dạng song tuyến tính $(x, y) \mapsto \langle x|y\rangle_Q$ trên $E \times E$ là liên tục. Có (V, p. 16, hệ quả 2) một ánh xạ $u \in \mathscr{L}(E)$ sao cho $\langle x|y\rangle_Q = \langle x|u(y)\rangle$. Ta có $\langle x|y\rangle_Q = \langle y|x\rangle_Q$ với $x, y$ trong $E$, nên $u$ là Hermit; và $\langle x|u(x)\rangle = Q(x) \geq 0$, nên $u$ là dương.
 
 Ngược lại, cho $u$ là một tự đồng cấu liên tục và dương của $E$ sao cho $Q(x) = \langle x|u(x)\rangle$ với mọi $x \in E$. Khi đó
 

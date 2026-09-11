@@ -20,14 +20,14 @@ subsections:
       page: 25
       pdf_page: 157
     - "no": 3
-      title: Bounded subsets of $\mathcal{L}(E; F)$ (quasi-complete case)
+      title: Bounded subsets of $\mathscr{L}(E; F)$ (quasi-complete case)
       page: 27
       pdf_page: 159
 statements: 24
 exercises: 21
-content_sha256: 424b65c19606338f7089a386ac4854a8b026a9ec3146332175b6f8310e5ecc61
+content_sha256: 5a2c1e070b466dc53089cb6b5f757779f82e71a30b3eaec34ed4d9e758e834cf
 translated_from: content/en/evt/III/04_s4_the_banach_steinhaus_theorem.md
-source_content_sha256: 39959f2e857883752d5da39050d17e5da11a3bdd030a94a0972c38a52975d9a6
+source_content_sha256: 5ed7e69b55a255a5e6e3e928ace36d2b958254b7157b58aaf10d1196a154b546
 translation_model: gpt-5-6-mini
 translation_run: translate-vi-7c7bdc75
 glossary_version: 34
@@ -117,7 +117,7 @@ Sau này ta sẽ chứng minh (IV, p. 14, hệ quả) rằng mọi tích của c
 
 #### Định lý 1 {#evt-iii-s4-thm-1 .statement}
 
-— *Cho E là một không gian thùng, F là một không gian lồi địa phương. Mọi tập con bị chặn đơn giản H của $\mathcal{L}(E; F)$ đều đẳng liên tục.*
+— *Cho E là một không gian thùng, F là một không gian lồi địa phương. Mọi tập con bị chặn đơn giản H của $\mathscr{L}(E; F)$ đều đẳng liên tục.*
 
 Thật vậy, cho $p$ là một nửa chuẩn liên tục trên F; đặt $q = \sup_{u \in H} (p \circ u)$. Vì H bị chặn đơn giản, ta có $q(x) < +\infty$ với mọi $x \in E$ và q là một nửa chuẩn nửa liên tục dưới, vì là bao trên hữu hạn của các nửa chuẩn liên tục. Vì E là không gian thùng, q là một nửa chuẩn liên tục và do đó H đẳng liên tục.
 
@@ -129,7 +129,7 @@ Thật vậy, giả thiết nói rằng H bị chặn đơn giản và kết lu�
 
 #### Hệ quả 2 {#evt-iii-s4-thm-1-cor-2 .statement}
 
-— (Định lý Banach-Steinhaus). — *Cho E là một không gian có đĩa, F là một không gian lồi địa phương Hausdorff, và $(u_n)$ là một dãy ánh xạ tuyến tính liên tục* từ E vào F, hội tụ đơn giản đến một ánh xạ u từ E vào F. Khi đó $u \in \mathcal{L}(E; F)$, và $(u_n)$ hội tụ đến u đều trên mọi tập con tiền compact của E.
+— (Định lý Banach-Steinhaus). — *Cho E là một không gian có đĩa, F là một không gian lồi địa phương Hausdorff, và $(u_n)$ là một dãy ánh xạ tuyến tính liên tục* từ E vào F, hội tụ đơn giản đến một ánh xạ u từ E vào F. Khi đó $u \in \mathscr{L}(E; F)$, và $(u_n)$ hội tụ đến u đều trên mọi tập con tiền compact của E.
 
 Dãy $(u_n)$ thực ra bị chặn đơn giản, do đó liên tục đều, và hệ quả suy ra từ hệ quả của mệnh đề 5 của III, p. 18.
 
@@ -143,11 +143,11 @@ Cho E và F là hai không gian Banach, và $(u_n)$ là một dãy ánh xạ tuy
 
 #### Hệ quả 3 {#evt-iii-s4-thm-1-cor-3 .statement}
 
-— *Cho E là một không gian có đĩa, F là một không gian lồi địa phương Hausdorff và $\Phi$ là một lọc trên $\mathcal{L}(E; F)$ hội tụ đơn giản trong E đến một ánh xạ u từ E vào F. Nếu $\Phi$ chứa một tập con bị chặn đơn giản của $\mathcal{L}(E; F)$, hoặc nếu $\Phi$ có một cơ sở đếm được, thì u là một ánh xạ tuyến tính liên tục từ E vào F và $\Phi$ hội tụ đều đến u trên mọi tập con tiền compact của E.*
+— *Cho E là một không gian có đĩa, F là một không gian lồi địa phương Hausdorff và $\Phi$ là một lọc trên $\mathscr{L}(E; F)$ hội tụ đơn giản trong E đến một ánh xạ u từ E vào F. Nếu $\Phi$ chứa một tập con bị chặn đơn giản của $\mathscr{L}(E; F)$, hoặc nếu $\Phi$ có một cơ sở đếm được, thì u là một ánh xạ tuyến tính liên tục từ E vào F và $\Phi$ hội tụ đều đến u trên mọi tập con tiền compact của E.*
 
 Trước hết, giả sử $\Phi$ chứa một tập hợp bị chặn đơn giản H; vì H liên tục đều (định lý 1), hệ quả suy ra từ hệ quả của mệnh đề 5 (III, p. 18). Nếu $\Phi$ có một cơ sở đếm được, thì mọi lọc sơ cấp $\Psi$ liên kết với một dãy $u_n$ (GT, I, § 6, No. 8) mịn hơn $\Phi$ khi đó hội tụ đơn giản đến u trong E và theo hệ quả 2, u là một ánh xạ tuyến tính liên tục từ E vào F, và $\Psi$ hội tụ đến u theo tôpô hội tụ đều trên các tập con tiền compact của E. Do đó, điều tương tự đúng với $\Phi$, vì lọc sau là giao của các lọc sơ cấp, mỗi lọc mịn hơn $\Phi$ (GT, I, § 6, No. 8).
 
-Ta nhận thấy rằng một lọc trên $\mathcal{L}(E; F)$ hội tụ đơn giản và có một cơ sở đếm được không nhất thiết chứa một tập hợp bị chặn đơn giản: để thấy điều này, xét ví dụ về lọc các lân cận của 0 trong $\mathcal{L}(K; F)$ khi tôpô của F có thể mêtric hóa, nhưng không thể được xác định bởi một chuẩn duy nhất.
+Ta nhận thấy rằng một lọc trên $\mathscr{L}(E; F)$ hội tụ đơn giản và có một cơ sở đếm được không nhất thiết chứa một tập hợp bị chặn đơn giản: để thấy điều này, xét ví dụ về lọc các lân cận của 0 trong $\mathscr{L}(K; F)$ khi tôpô của F có thể mêtric hóa, nhưng không thể được xác định bởi một chuẩn duy nhất.
 
 #### Ví dụ {#evt-iii-s4-n2-exa-1 .statement}
 
@@ -157,29 +157,29 @@ Với mọi số nguyên $n \in \mathbf{Z}$ và mọi hàm $f \in E$, đặt $c_
 
 #### Hệ quả 4 {#evt-iii-s4-thm-1-cor-4 .statement}
 
-— *Cho E và F là hai không gian lồi địa phương, $\mathfrak{S}$ là một phủ của E gồm các tập con bị chặn. Nếu E là barrelled và F Hausdorff và quasi-đầy đủ, thì không gian $\mathcal{L}_{\mathfrak{S}}(E; F)$ là Hausdorff và quasi-đầy đủ.*
+— *Cho E và F là hai không gian lồi địa phương, $\mathfrak{S}$ là một phủ của E gồm các tập con bị chặn. Nếu E là barrelled và F Hausdorff và quasi-đầy đủ, thì không gian $\mathscr{L}_{\mathfrak{S}}(E; F)$ là Hausdorff và quasi-đầy đủ.*
 
-Thật vậy, mọi tập con bị chặn và đóng của $\mathcal{L}_{\mathfrak{S}}(E; F)$ đều đơn giản bị chặn (vì $\mathfrak{S}$ là một phủ của E), do đó liên tục đều (III, p. 25, th. 1) và do đó là một không gian con đầy đủ của $\mathcal{L}_{\mathfrak{S}}(E; F)$ theo prop. 11 (III, p. 22).
+Thật vậy, mọi tập con bị chặn và đóng của $\mathscr{L}_{\mathfrak{S}}(E; F)$ đều đơn giản bị chặn (vì $\mathfrak{S}$ là một phủ của E), do đó liên tục đều (III, p. 25, th. 1) và do đó là một không gian con đầy đủ của $\mathscr{L}_{\mathfrak{S}}(E; F)$ theo prop. 11 (III, p. 22).
 
 #### Hệ quả 5 {#evt-iii-s4-thm-1-cor-5 .statement}
 
 — *Đối ngẫu mạnh và đối ngẫu yếu của một không gian barrelled là quasi-đầy đủ.*
 
-### 3. Các tập con bị chặn của $\mathcal{L}(E; F)$ (trường hợp quasi-đầy đủ)
+### 3. Các tập con bị chặn của $\mathscr{L}(E; F)$ (trường hợp quasi-đầy đủ)
 
 #### Định lý 2 {#evt-iii-s4-thm-2 .statement}
 
-— *Cho E là một không gian Hausdorff lồi địa phương, F là một không gian lồi địa phương và $\mathfrak{S}$ là một họ các tập con đóng, lồi, cân bằng, bị chặn và bán đầy đủ của E (III, p. 7). Mọi tập con H đơn giản bị chặn của $\mathcal{L}(E; F)$ đều bị chặn đối với tôpô $\mathfrak{S}$.*
+— *Cho E là một không gian Hausdorff lồi địa phương, F là một không gian lồi địa phương và $\mathfrak{S}$ là một họ các tập con đóng, lồi, cân bằng, bị chặn và bán đầy đủ của E (III, p. 7). Mọi tập con H đơn giản bị chặn của $\mathscr{L}(E; F)$ đều bị chặn đối với tôpô $\mathfrak{S}$.*
 
-Cho $A \in \mathfrak{S}$. Khi đó không gian $E_A$ là một không gian Banach (III, p. 8, hệ quả), do đó là barrelled. Mặt khác, ảnh chính tắc của H trong $\mathcal{L}(E_A; F)$ là đơn giản bị chặn, do đó liên tục đều (III, p. 25, th. 1). Do đó, tập hợp tất cả các $u(x)$ với $u \in H$ và $x \in A$ là bị chặn trong F, điều này chứng minh rằng H bị chặn đối với tôpô $\mathfrak{S}$.
+Cho $A \in \mathfrak{S}$. Khi đó không gian $E_A$ là một không gian Banach (III, p. 8, hệ quả), do đó là barrelled. Mặt khác, ảnh chính tắc của H trong $\mathscr{L}(E_A; F)$ là đơn giản bị chặn, do đó liên tục đều (III, p. 25, th. 1). Do đó, tập hợp tất cả các $u(x)$ với $u \in H$ và $x \in A$ là bị chặn trong F, điều này chứng minh rằng H bị chặn đối với tôpô $\mathfrak{S}$.
 
 #### Hệ quả 1 {#evt-iii-s4-thm-2-cor-1 .statement}
 
-— *Cho E là một không gian Hausdorff lồi địa phương, F là một không gian lồi địa phương, và $\mathfrak{S}$ là một họ các tập con bị chặn của E. Nếu E là bán đầy đủ, thì mọi tập con đơn giản bị chặn của $\mathcal{L}(E; F)$ đều bị chặn đối với tôpô $\mathfrak{S}$.*
+— *Cho E là một không gian Hausdorff lồi địa phương, F là một không gian lồi địa phương, và $\mathfrak{S}$ là một họ các tập con bị chặn của E. Nếu E là bán đầy đủ, thì mọi tập con đơn giản bị chặn của $\mathscr{L}(E; F)$ đều bị chặn đối với tôpô $\mathfrak{S}$.*
 
 Chỉ cần áp dụng th. 2, sau khi thay thế các tập của $\mathfrak{S}$ bằng các bao đóng, lồi, cân bằng của chúng, vì điều này không làm thay đổi tôpô $\mathfrak{S}$.
 
-Khi E là bán đầy đủ (chẳng hạn quasi-đầy đủ), ta có thể nói đến các *tập con bị chặn* của $\mathcal{L}(E; F)$ mà không cần chỉ rõ tôpô $\mathfrak{S}$, vì chúng giống nhau đối với mọi tôpô $\mathfrak{S}$ khi $\mathfrak{S}$ là một phủ của E.
+Khi E là bán đầy đủ (chẳng hạn quasi-đầy đủ), ta có thể nói đến các *tập con bị chặn* của $\mathscr{L}(E; F)$ mà không cần chỉ rõ tôpô $\mathfrak{S}$, vì chúng giống nhau đối với mọi tôpô $\mathfrak{S}$ khi $\mathfrak{S}$ là một phủ của E.
 
 #### Hệ quả 2 {#evt-iii-s4-thm-2-cor-2 .statement}
 

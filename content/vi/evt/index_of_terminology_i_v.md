@@ -12,9 +12,9 @@ pdf_pages: 0353-0358
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: e0066191c3b0a44c7641578c696fc9493e675a094de8aa2aa441308f9e129f2b
+content_sha256: 8d5f5b09a34c59361e399cef9835e5473d165bf611d508ded5cf3636562a1b5e
 translated_from: content/en/evt/index_of_terminology_i_v.md
-source_content_sha256: 2d575a20997418618b96c38bc13e104d6a4a7e91bb3f09b41553a154bde9204b
+source_content_sha256: fc08ca7a80bfc9533120236c4498db3314f76c5a20c5f80912317dc9aa8ee563
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-f3fb8738
 glossary_version: 34
@@ -130,7 +130,7 @@ Bao của một tập hợp (lồi đóng) : II, p. 13.
 Bao của một tập hợp (lồi) : II, p. 9.
 Bao của một tập hợp (lồi đối xứng) : II, p. 10.
 Bao của một tập hợp (lồi đối xứng đóng) : II, p. 13.
-Tập hợp \mathcal{S}-equihypocontinuous, \mathfrak{T}-equihypocontinuous, (\mathcal{S}, \mathfrak{T})-equihypocontinuous : III, p. 47, exerc. 7.
+Tập hợp \mathscr{S}-equihypocontinuous, \mathfrak{T}-equihypocontinuous, (\mathscr{S}, \mathfrak{T})-equihypocontinuous : III, p. 47, exerc. 7.
 
 Sự vét cạn của một không gian địa phương lồi Hausdorff, không gian có thể vét cạn : III, p. 49, exerc. 1.
 Phần tử sinh cực biên của một nón lồi : II, p. 57.
@@ -177,7 +177,7 @@ Tự đồng cấu Hermit : V, p. 44.
 Ánh xạ Hilbert-Schmidt : V, p. 52.
 Không gian Hilbert, không gian hilbert : V, p. 6.
 Siêu phẳng (tựa) của một tập hợp : II, p. 37.
-Ánh xạ song tuyến tính \mathcal{S}-nửa liên tục, \mathcal{T}-nửa liên tục, (\mathcal{S}, \mathcal{T})-nửa liên tục : III, p. 30.
+Ánh xạ song tuyến tính \mathscr{S}-nửa liên tục, \mathscr{T}-nửa liên tục, (\mathscr{S}, \mathscr{T})-nửa liên tục : III, p. 30.
 
 Chỉ số của một toán tử Fredholm : IV, p. 66, Bài tập 21.
 Cấu trúc prehilbert cảm sinh trên một không gian con vectơ : V, p. 6.
@@ -309,7 +309,7 @@ Tích tenxơ (hilbert) : V, p. 28.
 Tích tenxơ của các không gian prehilbert : V, p. 26-27.
 
 Tập hợp, họ độc lập tôpô : I, p. 12 và p. 11.
-$\mathcal{S}$-tôpô : III, p. 13 và IV, p. 2.
+$\mathscr{S}$-tôpô : III, p. 13 và IV, p. 2.
 Tôpô tương thích với một cấu trúc không gian vectơ có thứ tự : II, p. 15.
 Tôpô tương thích với một cấu trúc không gian vectơ : I, p. 1.
 Tôpô xác định bởi một nửa chuẩn, bởi một tập hợp các nửa chuẩn : II, p. 2-3.

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 285
 statements: 23
 exercises: 16
-content_sha256: e5de09b0e9d0f2ad6f54ba921d0a8d90ad0f508b2222c1702d1d6d2f1979035e
+content_sha256: 17d778f8e8dbfa32b08f3addd61dfaf5e2ab3f6b1cab2a663b0af5dfba853cfa
 ---
 
 ## § 2. FAMILLES ORTHOGONALES DANS UN ESPACE HILBERTIEN
@@ -58,7 +58,7 @@ $$
 $$
 d’où $\sum_{i \in I} |\langle x_i|y_i \rangle| < +\infty$. On a $\langle x|x \rangle = \sum_{i \in I} \|x_i\|^2 > 0$ si $x \neq 0$, d’où aussitôt l’assertion b).
 
-On rappelle que S est le sous-espace de P formé des familles $x = (x_i)_{i \in I}$ telles que l’ensemble des $i \in I$ pour lesquels $x_i \neq 0$ soit fini. Il est immédiat que S est dense dans E ; il reste donc à prouver que E est complet pour la topologie $\mathcal{T}_1$ déduite de la norme $\|x\| = \langle x|x \rangle^{1/2}$. Soit $\mathcal{T}_2$ la topologie induite sur E par la topologie produit sur $\prod_{i \in I} E_i$. Pour tout $r > 0$, soit $B_r$ l’ensemble des $x \in E$ tels que $\|x\| \leq r$. Cette relation signifie que l’on a $\sum_{i \in J} \|x_i\|^2 \leq r^2$ pour toute partie finie J de I, et par suite $B_r$ est une partie fermée, donc complète, de $\prod_{i \in I} E_i$. Le fait que E soit complet pour $\mathcal{T}_1$ résulte alors de TG, III, p. 27.
+On rappelle que S est le sous-espace de P formé des familles $x = (x_i)_{i \in I}$ telles que l’ensemble des $i \in I$ pour lesquels $x_i \neq 0$ soit fini. Il est immédiat que S est dense dans E ; il reste donc à prouver que E est complet pour la topologie $\mathscr{T}_1$ déduite de la norme $\|x\| = \langle x|x \rangle^{1/2}$. Soit $\mathscr{T}_2$ la topologie induite sur E par la topologie produit sur $\prod_{i \in I} E_i$. Pour tout $r > 0$, soit $B_r$ l’ensemble des $x \in E$ tels que $\|x\| \leq r$. Cette relation signifie que l’on a $\sum_{i \in J} \|x_i\|^2 \leq r^2$ pour toute partie finie J de I, et par suite $B_r$ est une partie fermée, donc complète, de $\prod_{i \in I} E_i$. Le fait que E soit complet pour $\mathscr{T}_1$ résulte alors de TG, III, p. 27.
 
 #### Définition 1 {#evt-v-s2-def-1 .statement}
 

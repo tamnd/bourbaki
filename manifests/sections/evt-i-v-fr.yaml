@@ -36,7 +36,7 @@ chapters:
           statements: 30
           exercises: 14
           extraction: ocr
-          content_sha256: 637a72e1c730edd7ee90cd394684d59d0d1fee65e4c876ecff15cb306ba75e68
+          content_sha256: 3897b88478d84bde6970bc91938e81f9b02c30561469e2401ff1cd7d3c0001bb
         - kind: section
           section: 2
           title: Variétés linéaires dans un espace vectoriel topologique
@@ -49,7 +49,7 @@ chapters:
           statements: 27
           exercises: 15
           extraction: ocr
-          content_sha256: 17282e590bb755f6fa41762cabf7db35892d4909a26cc70d7142e328f29ef6d1
+          content_sha256: 7e7f5b9ab3ea4e870372ac6367648aedd098b7b6c0f2c3563e96eba84f46ce8c
         - kind: section
           section: 3
           title: Espaces vectoriels topologiques métrisables
@@ -62,7 +62,7 @@ chapters:
           statements: 11
           exercises: 9
           extraction: ocr
-          content_sha256: 8b7807677e460b9a7405b2873ef0fc8bc2e22818bdb0d2c169cc9111e32a229c
+          content_sha256: 7b0cae573fb12c028af767dbe6ab67d5faf25b8008547f5a7239ef681e206abd
     - chapter: II
       title: Ensembles convexes et espaces localement convexes
       sections:
@@ -87,7 +87,7 @@ chapters:
           statements: 18
           exercises: 0
           extraction: ocr
-          content_sha256: 54448593347aad6076e9223f0f69ce3ceef90d179ee2da127b9ca7abffc501c3
+          content_sha256: 263339592233a8caaf1425ab218128911ccb5a2b491f958fe1f3fcb0e3e558a2
         - kind: section
           section: 2
           title: Ensembles convexes
@@ -100,7 +100,7 @@ chapters:
           statements: 52
           exercises: 43
           extraction: ocr
-          content_sha256: 946d8a0748d23d8bc1c11b4a00c2ae233db8474c5d3d4c515fca9190ebbd5a84
+          content_sha256: 5895c753e58fc60a795a6812ec7066dafb95c78d48636cebfbc45b8a10f0a9ec
         - kind: section
           section: 3
           title: Le théorème de Hahn-Banach (forme analytique)
@@ -126,7 +126,7 @@ chapters:
           statements: 36
           exercises: 17
           extraction: ocr
-          content_sha256: a44afd192c5ff2cd04958373488321033cd1bf78814d9d0eac6f98f742de96d2
+          content_sha256: 4615116d5ec52a042877b820687a6ace07b153a24d046e743b44e1d853e964cf
         - kind: section
           section: 5
           title: Séparation des ensembles convexes
@@ -152,7 +152,7 @@ chapters:
           statements: 45
           exercises: 20
           extraction: ocr
-          content_sha256: ca3f31362016c357e6db7c8065b2dfc7576d34cf3036aeb2c612d049d36f885f
+          content_sha256: 5a5517e0d58e8361748f2731076323599f17a4afc05897a02dc3259671f9c5fc
         - kind: section
           section: 7
           title: Points extrémaux et génératrices extrémales
@@ -165,7 +165,7 @@ chapters:
           statements: 24
           exercises: 41
           extraction: ocr
-          content_sha256: 2641a422bf5f1599dcb4fcecb5b4ef7c23a8aeaccf778558140a456b8925c041
+          content_sha256: 157b795b3027098060daebf6c822f08a4826804cf3b48551617a2541045ff98b
         - kind: section
           section: 8
           title: Espaces localement convexes complexes
@@ -178,7 +178,7 @@ chapters:
           statements: 10
           exercises: 3
           extraction: ocr
-          content_sha256: ae6cd1381e99622fffc037aeb403c7ee748313815f09a2e0b2738a2298e98332
+          content_sha256: 23066c042a95c37dc85e0d6c361911df3fb2c4c2af4fd5ad812d075edb341b19
     - chapter: III
       title: ESPACES D’APPLICATIONS LINÉAIRES CONTINUES
       sections:
@@ -203,7 +203,7 @@ chapters:
           statements: 33
           exercises: 18
           extraction: ocr
-          content_sha256: 13bcd0f4c224851c808e715184359c6158205ca15d338d6372fdb3edb887ad1b
+          content_sha256: a21b445b25b79a48aeafd4902b99f412e44b9401eb20b6bc4d0b4e3938d145b4
         - kind: section
           section: 2
           title: Espaces bornologiques
@@ -216,7 +216,7 @@ chapters:
           statements: 9
           exercises: 4
           extraction: ocr
-          content_sha256: 3e83016189b982ebfb9ef654a814e6abb668f099a95e54e56af3fb0742737165
+          content_sha256: 3a53fd052fc69cb2fc95ccf33e4de90716704d6ed822527ac316f332355179f8
         - kind: section
           section: 3
           title: Espaces d’applications linéaires continues
@@ -229,7 +229,7 @@ chapters:
           statements: 41
           exercises: 13
           extraction: ocr
-          content_sha256: c2deae10e3d8e1b1cdd7f2da0c9b7f3818b1ccf32dc5c17f762de7e3978a135e
+          content_sha256: 9565c1203b4037fe0e3df03a7101efc5b41a7119357fac04fe07c854d5119ac9
         - kind: section
           section: 4
           title: Le théorème de Banach-Steinhaus
@@ -242,7 +242,7 @@ chapters:
           statements: 24
           exercises: 22
           extraction: ocr
-          content_sha256: d85be30243369195f6f10891aee7617c7568bf071886933a3b8449227249ae8c
+          content_sha256: 41cb6156e3b391476e7b20d67de3b367d04d347ce9c49ebe5a6a3fb9255fa3e3
         - kind: section
           section: 5
           title: Applications bilinéaires hypocontinues
@@ -255,7 +255,7 @@ chapters:
           statements: 16
           exercises: 15
           extraction: ocr
-          content_sha256: fc3f60ea65b159784248f510348de0f30e728b512eacf81e21c2931ef433822a
+          content_sha256: 809fedd300858f4ec8ecc8daee3b8c1989c17e2a5d90f8c98a75aaf3dfd80378
         - kind: section
           section: 6
           title: Le théorème du graphe borélien
@@ -268,7 +268,7 @@ chapters:
           statements: 8
           exercises: 6
           extraction: ocr
-          content_sha256: 48191057adad4a6293190de79baf5a0a016d3a9606ef890e962b7e24f6892e61
+          content_sha256: 29c1c0f7e2408cc73d4599773572c8d155ebfc3ab2b8da3f770861553a6e433a
     - chapter: IV
       title: LA DUALITÉ DANS LES ESPACES VECTORIELS TOPOLOGIQUES
       sections:
@@ -293,7 +293,7 @@ chapters:
           statements: 38
           exercises: 25
           extraction: ocr
-          content_sha256: 6004fb719102bdab15221c3fbc8253ea6854e942dc649baf2fdb05e2c8e0e79e
+          content_sha256: e26a0b06ed407bc263caf452d0124f6aa0fd27faeaff7e87f38c01cc71f61e72
         - kind: section
           section: 2
           title: Bidual. Espaces réflexifs
@@ -306,7 +306,7 @@ chapters:
           statements: 34
           exercises: 26
           extraction: ocr
-          content_sha256: e6722903ebc281254eb64317db1378ab5062b413f45e36d36748bd41a178c207
+          content_sha256: 409f0178949adcf6cacb5ee7ac76fcfd85740bd4b2659ccc107f65ea977bfee7
         - kind: section
           section: 3
           title: Dual d’un espace de Fréchet
@@ -319,7 +319,7 @@ chapters:
           statements: 15
           exercises: 18
           extraction: ocr
-          content_sha256: acb8476c9a683786100596db8b0170138e85f99884634126e9d1cb2b39b815ef
+          content_sha256: 9641387bd6247616d6b03e2da42310e39328e198c77df217bdb2012e49d19706
         - kind: section
           section: 4
           title: Morphismes stricts d’espaces de Fréchet
@@ -332,7 +332,7 @@ chapters:
           statements: 13
           exercises: 23
           extraction: ocr
-          content_sha256: 3c0665c596284824d3cf1dbbf32aea4f2cc9912ddc82867421041d5ecdbc0285
+          content_sha256: 0c38ea7a26c0e854406223222585fe8582e898a00f79b95f9850845a18154768
         - kind: section
           section: 5
           title: Critères de compacité
@@ -345,7 +345,7 @@ chapters:
           statements: 9
           exercises: 18
           extraction: ocr
-          content_sha256: 1d0d00fce4a89f898045acee73b77fc935ebe35004d2d1b22af95bedc28d500e
+          content_sha256: fedeb27b0b0cc55f57318893e1d3465bbc0190d3fd57b4cf1dabaa700fe0e79c
         - kind: appendix
           title: Points fixes des groupes de transformations affines
           path: content/fr/evt/IV/A_a_points_fixes_des_groupes_de.md
@@ -357,7 +357,7 @@ chapters:
           statements: 10
           exercises: 8
           extraction: ocr
-          content_sha256: 38370f771dc6586b5d7e1f0be933ed90693edf8dd33d9e6fc5d78ca083eced16
+          content_sha256: 076b60e7c2e5bd07277b7f40bcb2647f81373abe50fc9a03f4be0a8371b6d4ee
     - chapter: V
       title: ESPACES HILBERTIENS (THÉORIE ÉLÉMENTAIRE)
       sections:
@@ -382,7 +382,7 @@ chapters:
           statements: 43
           exercises: 37
           extraction: ocr
-          content_sha256: 88ed7fa78df6c58b1d4a1f24ee532cfa29c82661af302faa7086380f0c5393bd
+          content_sha256: 0c1ac19f1065d57315b7491d77db4c2aec17dbb99b117f9fa6ce2febfc213854
         - kind: section
           section: 2
           title: Familles orthogonales dans un espace hilbertien
@@ -395,7 +395,7 @@ chapters:
           statements: 23
           exercises: 16
           extraction: ocr
-          content_sha256: e5de09b0e9d0f2ad6f54ba921d0a8d90ad0f508b2222c1702d1d6d2f1979035e
+          content_sha256: 17d778f8e8dbfa32b08f3addd61dfaf5e2ab3f6b1cab2a663b0af5dfba853cfa
         - kind: section
           section: 3
           title: Produit tensoriel d’espaces hilbertiens
@@ -408,7 +408,7 @@ chapters:
           statements: 19
           exercises: 2
           extraction: ocr
-          content_sha256: d95c0136d84591d07a1d14165c953040567afb0b5f71fafadef29a35db6ea1e6
+          content_sha256: 050d02f34ff4fa5aca05230e7ed2f7b0fdf3c30e85b92c5251bc589a9c928c68
         - kind: section
           section: 4
           title: Quelques classes d’opérateurs dans les espaces hilbertiens
@@ -421,7 +421,7 @@ chapters:
           statements: 50
           exercises: 15
           extraction: ocr
-          content_sha256: a07e43d2ab0e21350a46f181ef589c0fa66bcfed652270b29c7880d14f4789e5
+          content_sha256: 54a32a2dc102bd49a6621386308a5a1b6efb1be1b37774acd736b25c49ac489a
         - kind: historical
           title: Historical Note
           path: content/fr/evt/V/historical_note.md
@@ -431,7 +431,7 @@ chapters:
           statements: 0
           exercises: 0
           extraction: ocr
-          content_sha256: 304c6001af7907f7e328b4ebdda2d73778e4a7ae9003a17bd5e72c3ff05f0440
+          content_sha256: c432d1785e5499b703484458e1c0e1d12fde2649a0b61d3b7aa4010bedd8c79e
 notation_index:
     kind: notation
     title: INDEX DES NOTATIONS

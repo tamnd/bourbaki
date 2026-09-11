@@ -25,9 +25,9 @@ subsections:
       pdf_page: 25
 statements: 11
 exercises: 9
-content_sha256: 156d4f552a8e929b78f2c87e9fbca0a658a19f2cc9bf4df6a67cc9585df5cc9c
+content_sha256: af7a00934166d03f19a1e2c0fb9d499c7abaf030bd97ea7fcd7dfd26000495d7
 translated_from: content/en/evt/I/03_s3_metrisable_topological_vector_spaces.md
-source_content_sha256: 6cbc79d34e4f9e5c94920e6367b739520ccb922a1dd94bb93b4a4cdc37800299
+source_content_sha256: 7a8271ea9a010eadcfd81401d5686401ccfd341113f515ff0a694af1cc324c3d
 translation_model: gpt-5.4, gpt-5-6
 translation_run: translate-vi-7fcbc987
 glossary_version: 34
@@ -127,7 +127,7 @@ Ta quay lại định lý và chứng minh rằng (iv) kéo theo (i). Giả sử
 
 #### Hệ quả 2 {#evt-i-s3-lem-2-cor-2 .statement}
 
-*Cho E là một không gian vectơ trên một vành chia được định giá không rời rạc, và $\mathcal{T}_1$ và $\mathcal{T}_2$ là hai tôpô trên E tương thích với cấu trúc không gian vectơ của nó và đối với mỗi tôpô ấy E đều mêtric hóa được và đầy đủ. Khi đó, nếu $\mathcal{T}_1$ và $\mathcal{T}_2$ so sánh được, thì chúng trùng nhau.*
+*Cho E là một không gian vectơ trên một vành chia được định giá không rời rạc, và $\mathscr{T}_1$ và $\mathscr{T}_2$ là hai tôpô trên E tương thích với cấu trúc không gian vectơ của nó và đối với mỗi tôpô ấy E đều mêtric hóa được và đầy đủ. Khi đó, nếu $\mathscr{T}_1$ và $\mathscr{T}_2$ so sánh được, thì chúng trùng nhau.*
 
 #### Hệ quả 3 {#evt-i-s3-lem-2-cor-3 .statement}
 
@@ -151,17 +151,17 @@ Ta có thể phát biểu hệ quả này dưới dạng sau: $u$ là liên tụ
 
 #### Ví dụ {#evt-i-s3-n3-exa-1 .statement}
 
-— Cho E là một không gian con vectơ của không gian các hàm thực xác định trên $I = [0, 1]$; gọi $\| f \|$ là một chuẩn trên E, theo đó E là *đầy đủ*, và sao cho tôpô của nó mịn hơn tôpô hội tụ đơn. Giả sử thêm rằng E chứa tập hợp $\mathcal{C}^\infty(I)$ các hàm khả vi vô hạn trên I; ta sẽ chỉ ra rằng tồn tại một số nguyên $k \geq 0$, sao cho E chứa tập hợp $\mathcal{C}^k(I)$ gồm tất cả các hàm có đạo hàm bậc $k$ liên tục trên I.
+— Cho E là một không gian con vectơ của không gian các hàm thực xác định trên $I = [0, 1]$; gọi $\| f \|$ là một chuẩn trên E, theo đó E là *đầy đủ*, và sao cho tôpô của nó mịn hơn tôpô hội tụ đơn. Giả sử thêm rằng E chứa tập hợp $\mathscr{C}^\infty(I)$ các hàm khả vi vô hạn trên I; ta sẽ chỉ ra rằng tồn tại một số nguyên $k \geq 0$, sao cho E chứa tập hợp $\mathscr{C}^k(I)$ gồm tất cả các hàm có đạo hàm bậc $k$ liên tục trên I.
 
-Với mọi cặp số nguyên $m > 0,\ n \geq 0$, gọi $V_{mn}$ là tập hợp các hàm $f \in \mathcal{C}^\infty(I)$ sao cho $|f^{(h)}(x)| \leq 1/m$ với $0 \leq h \leq n$ và với mọi $x \in I$. Các $V_{m,n}$ tạo thành một hệ cơ bản các lân cận của 0 đối với một tôpô khả mêtric tương thích với cấu trúc không gian vectơ của $\mathcal{C}^\infty(I)$, hơn nữa $\mathcal{C}^\infty(I)$ là *đầy đủ* trong tôpô này (FVR, II, p. 2, định lý 1). Gọi $u$ là ánh xạ chính tắc từ $\mathcal{C}^\infty(I)$ vào E; ta sẽ chỉ ra rằng $u$ là *liên tục*. Theo hệ quả 5 ở trên, chỉ cần chứng minh rằng nếu một dãy $(f_n)$ hội tụ về 0 trong $\mathcal{C}^\infty(I)$ và hội tụ đến một giới hạn $f$ trong E thì tất yếu $f = 0$. Nhưng điều này là ngay lập tức vì, theo giả thiết, $f$ là giới hạn theo hội tụ đơn của $(f_n)$. Do đó tồn tại một số nguyên $k \geq 0$ và một số $a > 0$ sao cho quan hệ
+Với mọi cặp số nguyên $m > 0,\ n \geq 0$, gọi $V_{mn}$ là tập hợp các hàm $f \in \mathscr{C}^\infty(I)$ sao cho $|f^{(h)}(x)| \leq 1/m$ với $0 \leq h \leq n$ và với mọi $x \in I$. Các $V_{m,n}$ tạo thành một hệ cơ bản các lân cận của 0 đối với một tôpô khả mêtric tương thích với cấu trúc không gian vectơ của $\mathscr{C}^\infty(I)$, hơn nữa $\mathscr{C}^\infty(I)$ là *đầy đủ* trong tôpô này (FVR, II, p. 2, định lý 1). Gọi $u$ là ánh xạ chính tắc từ $\mathscr{C}^\infty(I)$ vào E; ta sẽ chỉ ra rằng $u$ là *liên tục*. Theo hệ quả 5 ở trên, chỉ cần chứng minh rằng nếu một dãy $(f_n)$ hội tụ về 0 trong $\mathscr{C}^\infty(I)$ và hội tụ đến một giới hạn $f$ trong E thì tất yếu $f = 0$. Nhưng điều này là ngay lập tức vì, theo giả thiết, $f$ là giới hạn theo hội tụ đơn của $(f_n)$. Do đó tồn tại một số nguyên $k \geq 0$ và một số $a > 0$ sao cho quan hệ
 
 $$
 p_k(f) = \sup_{\substack{x \in I \\ 0 \leq h \leq k}} |f^{(h)}(x)| \leq a
 $$
 
-hàm ý $\| f \| \leq 1$ với mọi $f \in \mathcal{C}^\infty(I)$.
+hàm ý $\| f \| \leq 1$ với mọi $f \in \mathscr{C}^\infty(I)$.
 
-Nhưng $p_k$ là một chuẩn trên không gian $\mathcal{C}^k(I)$ và $\mathcal{C}^\infty(I)$ là một không gian con trù mật khắp nơi trong $\mathcal{C}^k(I)$ đối với chuẩn này (tập hợp các đa thức đã là trù mật khắp nơi trong $\mathcal{C}^k(I)$, một hệ quả ngay lập tức của định lý Weierstrass-Stone). Theo điều đã nói trước, ánh xạ đồng nhất của $\mathcal{C}^\infty(I)$ (mang chuẩn $p_k$) vào E là liên tục, và vì vậy nó có thể được mở rộng một cách liên tục ra toàn bộ không gian $\mathcal{C}^k(I)$ (vì E là đầy đủ). Điều này chứng minh mệnh đề của chúng ta.
+Nhưng $p_k$ là một chuẩn trên không gian $\mathscr{C}^k(I)$ và $\mathscr{C}^\infty(I)$ là một không gian con trù mật khắp nơi trong $\mathscr{C}^k(I)$ đối với chuẩn này (tập hợp các đa thức đã là trù mật khắp nơi trong $\mathscr{C}^k(I)$, một hệ quả ngay lập tức của định lý Weierstrass-Stone). Theo điều đã nói trước, ánh xạ đồng nhất của $\mathscr{C}^\infty(I)$ (mang chuẩn $p_k$) vào E là liên tục, và vì vậy nó có thể được mở rộng một cách liên tục ra toàn bộ không gian $\mathscr{C}^k(I)$ (vì E là đầy đủ). Điều này chứng minh mệnh đề của chúng ta.
 
 #### Mệnh đề 1 {#evt-i-s3-prop-1 .statement}
 

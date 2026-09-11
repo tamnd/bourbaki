@@ -12,7 +12,7 @@ pdf_pages: 0338-0368
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6706476f7f1541d0fced714002bb6c2ae85de849338da45031cce0f59fd068e3
+content_sha256: a5210173dfa8baeb20a27a1ea217ed7e6e21da0b084eec4db7114689a575c115
 translated_from: content/en/evt/V/historical_note.md
 source_content_sha256: 1d568cdf6b7620392b098601685ec9ec289112bf1642f357259f2fe9d3aa3c33
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini, gpt-5-mini
@@ -122,17 +122,17 @@ Ngôn ngữ của Hilbert vẫn còn mang tính cổ điển, và trong toàn b�
 
 (VII b) và chính Fréchet, trong các năm 1907-1908, đã cố ý đưa ngôn ngữ của hình học Euclid vào « không gian Hilbert » (thực hoặc phức); chính trong các công trình này chúng ta tìm thấy lần đầu tiên sự đề cập đến chuẩn (với ký hiệu hiện nay $\|x\|$), bất đẳng thức tam giác mà nó thỏa mãn, và sự kiện rằng một không gian Hilbert là « tách được » và đầy đủ; ngoài ra, E. Schmidt đã chứng minh sự tồn tại của phép chiếu trực giao lên một đa tạp tuyến tính đóng, điều này cho phép ông đưa ra một dạng đơn giản hơn và tổng quát hơn cho lý thuyết của Hilbert về các hệ tuyến tính. Cũng vào năm 1907, Fréchet và F. Riesz nhận thấy rằng không gian các hàm khả tích bình phương có một « hình học » tương tự, một sự tương tự đã được giải thích hoàn toàn khi, vài tháng sau, F. Riesz và E. Fischer chứng minh rằng không gian này là đầy đủ và đẳng cấu với một « không gian Hilbert », đồng thời phô bày một cách nổi bật giá trị của công cụ mới được Lebesgue tạo ra. Kể từ thời điểm này, các điểm cốt yếu của lý thuyết các không gian Hilbert có thể được xem là đã đạt được. Trong các phát triển sau này, cần nhắc đến sự trình bày tiên đề của lý thuyết bởi M. H. Stone và J. von Neumann vào khoảng năm 1930, cũng như việc loại bỏ các hạn chế của tính « tách được », là kết quả của các công trình của Rellich, Löwig và F. Riesz (IX e) vào khoảng năm 1934.
 
-Trong khi đó, trong những năm đầu của thế kỷ 20, các dòng ý tưởng khác đã xuất hiện và củng cố xu hướng dẫn đến lý thuyết các không gian chuẩn. Ý tưởng tổng quát về « phiếm hàm » (nghĩa là một hàm số xác định trên một tập hợp mà các phần tử của nó bản thân là các hàm số của một hoặc nhiều biến thực) đã được khôi phục trong những thập niên cuối của thế kỷ 19 liên quan một mặt với phép tính biến phân, mặt khác với lý thuyết các phương trình tích phân. Nhưng chính chủ yếu từ trường phái Ý, xung quanh Pincherle, và trên hết là Volterra, mà ý tưởng tổng quát về « toán tử » đã nảy sinh. Các công trình của trường phái này thường vẫn ở một mức khá hình thức và liên quan đến các bài toán riêng biệt, do thiếu một phân tích đủ sâu về các khái niệm tôpô nền tảng. Năm 1903, Hadamard đã khởi đầu lý thuyết hiện đại về đối ngẫu « tôpô », trong sự tìm kiếm các « phiếm hàm » tuyến tính liên tục tổng quát nhất trên không gian $\mathcal{C}(I)$ của các hàm số liên tục trên một khoảng compact (được trang bị tôpô của sự hội tụ đều), và ông đã đặc trưng các phiếm hàm này như các giới hạn của các dãy tích phân $x \mapsto \int_I k_n(t) \ x(t) \ dt.$
+Trong khi đó, trong những năm đầu của thế kỷ 20, các dòng ý tưởng khác đã xuất hiện và củng cố xu hướng dẫn đến lý thuyết các không gian chuẩn. Ý tưởng tổng quát về « phiếm hàm » (nghĩa là một hàm số xác định trên một tập hợp mà các phần tử của nó bản thân là các hàm số của một hoặc nhiều biến thực) đã được khôi phục trong những thập niên cuối của thế kỷ 19 liên quan một mặt với phép tính biến phân, mặt khác với lý thuyết các phương trình tích phân. Nhưng chính chủ yếu từ trường phái Ý, xung quanh Pincherle, và trên hết là Volterra, mà ý tưởng tổng quát về « toán tử » đã nảy sinh. Các công trình của trường phái này thường vẫn ở một mức khá hình thức và liên quan đến các bài toán riêng biệt, do thiếu một phân tích đủ sâu về các khái niệm tôpô nền tảng. Năm 1903, Hadamard đã khởi đầu lý thuyết hiện đại về đối ngẫu « tôpô », trong sự tìm kiếm các « phiếm hàm » tuyến tính liên tục tổng quát nhất trên không gian $\mathscr{C}(I)$ của các hàm số liên tục trên một khoảng compact (được trang bị tôpô của sự hội tụ đều), và ông đã đặc trưng các phiếm hàm này như các giới hạn của các dãy tích phân $x \mapsto \int_I k_n(t) \ x(t) \ dt.$
 
-Năm 1907, Fréchet và F. Riesz đã chứng minh tương tự rằng các dạng tuyến tính liên tục trên một không gian Hilbert là các dạng tuyến tính « bị chặn » được Hilbert đưa vào; sau đó vào năm 1909, F. Riesz đã đưa định lý của Hadamard về dạng cuối cùng bằng cách biểu diễn mọi dạng tuyến tính liên tục trên $\mathcal{C}(I)$ như một tích phân Stieltjes, một định lý mà rất lâu sau đã được dùng làm điểm khởi đầu cho lý thuyết hiện đại về phép tích phân (xem các Ghi chú lịch sử của INT, chương II-V).
+Năm 1907, Fréchet và F. Riesz đã chứng minh tương tự rằng các dạng tuyến tính liên tục trên một không gian Hilbert là các dạng tuyến tính « bị chặn » được Hilbert đưa vào; sau đó vào năm 1909, F. Riesz đã đưa định lý của Hadamard về dạng cuối cùng bằng cách biểu diễn mọi dạng tuyến tính liên tục trên $\mathscr{C}(I)$ như một tích phân Stieltjes, một định lý mà rất lâu sau đã được dùng làm điểm khởi đầu cho lý thuyết hiện đại về phép tích phân (xem các Ghi chú lịch sử của INT, chương II-V).
 
 Năm sau, F. Riesz (IX a) lại đạt được những tiến bộ mới và quan trọng trong lý thuyết bằng cách đưa vào và nghiên cứu (mô phỏng theo lý thuyết không gian Hilbert) không gian $L^p(I)$ của các hàm trên một khoảng I mà lũy thừa $p$ của chúng là khả tích (với một số mũ $p$ sao cho $1 < p < + \infty$); ba năm sau, nghiên cứu này được tiếp nối bằng các công trình tương tự về các không gian dãy $\ell^p(\mathbf{N})$ (IX c). Những nghiên cứu này, như chúng ta sẽ thấy sau này, đã đóng góp rất nhiều vào việc phân loại các ý tưởng về đối ngẫu, theo nghĩa rằng lần đầu tiên chúng ta gặp hai không gian đối ngẫu không đẳng cấu tự nhiên với nhau *.
 
-Từ đó trở đi, F. Riesz đã nghĩ đến một nghiên cứu tiên đề có thể bao quát tất cả các kết quả này ((IX a), p. 452), và dường như chỉ những sự dè dặt của một nhà giải tích lo lắng không muốn rời xa toán học cổ điển đã ngăn cản ông viết bản hồi ký nổi tiếng năm 1918 của mình về lý thuyết Fredholm (IX d) dưới dạng này. Ở đó ông chủ yếu xét không gian $\mathcal{C}(I)$ của các hàm liên tục trên một khoảng compact; nhưng sau khi định nghĩa chuẩn của không gian này, và nhận thấy rằng $\mathcal{C}(I)$ được trang bị chuẩn này là đầy đủ, ông đã không sử dụng gì khác ngoài các tiên đề của các không gian chuẩn đầy đủ trong các lập luận của mình **. Không đi vào việc khảo sát chi tiết công trình này, chúng ta đề cập rằng khái niệm về một ánh xạ hoàn toàn liên tục đã được định nghĩa (bởi tính chất biến một lân cận thành một tập compact tương đối) một cách tổng quát lần đầu tiên trong công trình này ***; bằng một kiệt tác của giải tích tiên đề, toàn bộ lý thuyết Fredholm (xét về phương diện định tính của nó) đã được quy về một định lý cơ bản duy nhất, rằng mọi không gian chuẩn compact địa phương đều có chiều hữu hạn.
+Từ đó trở đi, F. Riesz đã nghĩ đến một nghiên cứu tiên đề có thể bao quát tất cả các kết quả này ((IX a), p. 452), và dường như chỉ những sự dè dặt của một nhà giải tích lo lắng không muốn rời xa toán học cổ điển đã ngăn cản ông viết bản hồi ký nổi tiếng năm 1918 của mình về lý thuyết Fredholm (IX d) dưới dạng này. Ở đó ông chủ yếu xét không gian $\mathscr{C}(I)$ của các hàm liên tục trên một khoảng compact; nhưng sau khi định nghĩa chuẩn của không gian này, và nhận thấy rằng $\mathscr{C}(I)$ được trang bị chuẩn này là đầy đủ, ông đã không sử dụng gì khác ngoài các tiên đề của các không gian chuẩn đầy đủ trong các lập luận của mình **. Không đi vào việc khảo sát chi tiết công trình này, chúng ta đề cập rằng khái niệm về một ánh xạ hoàn toàn liên tục đã được định nghĩa (bởi tính chất biến một lân cận thành một tập compact tương đối) một cách tổng quát lần đầu tiên trong công trình này ***; bằng một kiệt tác của giải tích tiên đề, toàn bộ lý thuyết Fredholm (xét về phương diện định tính của nó) đã được quy về một định lý cơ bản duy nhất, rằng mọi không gian chuẩn compact địa phương đều có chiều hữu hạn.
 
 Định nghĩa tổng quát về các không gian định chuẩn đã được đưa ra vào các năm 1920-1922 bởi S. Banach, H. Hahn và E. Helly (người sau chỉ xét các không gian dãy của các số thực hoặc phức). Trong mười năm tiếp theo, lý thuyết về các không gian này phát triển chủ yếu xoay quanh hai vấn đề có tầm quan trọng cơ bản đối với các ứng dụng: lý thuyết đối ngẫu và các định lý gắn với khái niệm «phạm trù» Baire.
 
-Chúng ta đã thấy rằng ý tưởng về đối ngẫu (theo nghĩa tôpô) bắt nguồn từ đầu thế kỷ 20; đó là khái niệm nền tảng trong lý thuyết của Hilbert và chiếm một vị trí trung tâm trong công trình của F. Riesz. Chẳng hạn, người sau đã nhận thấy vào năm 1911 ((IX b), p. 41-42) rằng quan hệ $|f(x)| \leq M \|x\|$ (được lấy làm định nghĩa của các phiếm hàm tuyến tính «bị chặn» trong một không gian Hilbert) là tương đương với tính liên tục của $f$ trong trường hợp của không gian $\mathcal{C}(I)$, và điều này đã được chứng minh bằng các lập luận khá tổng quát. Về đặc trưng hóa các phiếm hàm tuyến tính liên tục trên $\mathcal{C}(I)$, ông còn nhận thấy rằng điều kiện để một tập hợp A là toàn phần trong $\mathcal{C}(I)$ là không tồn tại độ đo Stieltjes $\mu \neq 0$ trên I «trực giao» với tất cả các hàm trong A (do đó tổng quát hóa điều kiện của Gram đối với các hệ trực chuẩn đầy đủ); cuối cùng, trong cùng
+Chúng ta đã thấy rằng ý tưởng về đối ngẫu (theo nghĩa tôpô) bắt nguồn từ đầu thế kỷ 20; đó là khái niệm nền tảng trong lý thuyết của Hilbert và chiếm một vị trí trung tâm trong công trình của F. Riesz. Chẳng hạn, người sau đã nhận thấy vào năm 1911 ((IX b), p. 41-42) rằng quan hệ $|f(x)| \leq M \|x\|$ (được lấy làm định nghĩa của các phiếm hàm tuyến tính «bị chặn» trong một không gian Hilbert) là tương đương với tính liên tục của $f$ trong trường hợp của không gian $\mathscr{C}(I)$, và điều này đã được chứng minh bằng các lập luận khá tổng quát. Về đặc trưng hóa các phiếm hàm tuyến tính liên tục trên $\mathscr{C}(I)$, ông còn nhận thấy rằng điều kiện để một tập hợp A là toàn phần trong $\mathscr{C}(I)$ là không tồn tại độ đo Stieltjes $\mu \neq 0$ trên I «trực giao» với tất cả các hàm trong A (do đó tổng quát hóa điều kiện của Gram đối với các hệ trực chuẩn đầy đủ); cuối cùng, trong cùng
 
 \* Mặc dù thực tế rằng đối ngẫu giữa $L^1$ và $L^\infty$ đã tiềm ẩn trong phần lớn các công trình của thời kỳ này về tích phân Lebesgue, chỉ đến năm 1918 H. Steinhaus mới chứng minh rằng mọi dạng tuyến tính liên tục trên $L^1(I)$ (I là một khoảng hữu hạn) đều có dạng $x \mapsto \int_I f(t) \ x(t) \ dt$, trong đó $f \in L^\infty(I)$.
 
@@ -160,7 +160,7 @@ $$
 \int_a^b \alpha_i(t)\, d\xi(t) = b_i \quad (i = 1, 2, ...)
 $$
 
-trong đó $\alpha_i$ là các hàm liên tục và ẩn là một độ đo Stieltjes $\xi$; trong trường hợp này rõ ràng rằng bài toán có thể được phát biểu lại bằng cách nói rằng nó bao gồm việc xác định một phiếm hàm tuyến tính liên tục trên $\mathcal{C}(I)$ từ các giá trị của nó trên một dãy điểm cho trước trong không gian này. Chính dưới dạng này mà Helly đã xử lý bài toán vào năm 1912 — thu được các điều kiện của F. Riesz bằng một phương pháp khá khác biệt có phạm vi rộng hơn nhiều \* — và ông lại xét đến nó vào năm 1921, với các điều kiện tổng quát hơn nhiều. Đưa vào khái niệm chuẩn (trên các không gian dãy), như chúng ta đã thấy ở trên, ông nhận thấy
+trong đó $\alpha_i$ là các hàm liên tục và ẩn là một độ đo Stieltjes $\xi$; trong trường hợp này rõ ràng rằng bài toán có thể được phát biểu lại bằng cách nói rằng nó bao gồm việc xác định một phiếm hàm tuyến tính liên tục trên $\mathscr{C}(I)$ từ các giá trị của nó trên một dãy điểm cho trước trong không gian này. Chính dưới dạng này mà Helly đã xử lý bài toán vào năm 1912 — thu được các điều kiện của F. Riesz bằng một phương pháp khá khác biệt có phạm vi rộng hơn nhiều \* — và ông lại xét đến nó vào năm 1921, với các điều kiện tổng quát hơn nhiều. Đưa vào khái niệm chuẩn (trên các không gian dãy), như chúng ta đã thấy ở trên, ông nhận thấy
 
 \* «Bài toán mômen» cổ điển tương ứng với trường hợp khoảng ]$a, b$ là ]$0, + \infty$ hoặc ]$- \infty, + \infty$, và $\alpha_i(t) = t^i$; hơn nữa, người ta giả sử rằng độ đo $\xi$ là dương (trong hồi ký năm 1911 của mình, F. Riesz đã chỉ ra cách các điều kiện tổng quát của ông phải được sửa đổi khi tìm kiếm các nghiệm có bản chất này). Trong số các phương pháp khác nhau để giải bài toán mômen cổ điển, chúng tôi đặc biệt nhắc đến phương pháp của F. Riesz, người đã kết hợp rất thanh nhã các ý tưởng tổng quát của phép tính hàm và lý thuyết các hàm của một biến phức để thu được các điều kiện tường minh trên các $b_i$. (Sur le problème des moments, 3, Ark. för Math., t. XVII (1922-1923), n° 16, 52 p.)
 
@@ -194,24 +194,24 @@ Chỉ mục ký hiệu
 Các số tham chiếu chỉ chương và trang (và đôi khi, bài tập).
 
 $|\xi|,\ \|x\| :$ I, p. 3.
-$\mathcal{B}(I;\ K),\ \mathcal{B}_K(I),\ \ell^\infty_K(I),\ \ell^1_K(I),\ \mathcal{B}(I),\ \ell^1(I) :$ I, p. 4.
+$\mathscr{B}(I;\ K),\ \mathscr{B}_K(I),\ \ell^\infty_K(I),\ \ell^1_K(I),\ \mathscr{B}(I),\ \ell^1(I) :$ I, p. 4.
 $E_A$ (A là một tập hợp lồi đối xứng trong một không gian vectơ thực E) : II, p. 26.
 $\langle x,\ y \rangle :$ II, p. 42.
 $\sigma(F,\ G) :$ II, p. 42.
 $M^\circ,\ M^{\circ\circ} :$ II, p. 44.
 $^t u$ (u là một ánh xạ tuyến tính) : II, p. 46.
-$\mathcal{R}(X) :$ III, p. 9.
-$\mathcal{C}^\infty(U) :$ III, p. 9.
-$\mathcal{C}_H^\infty(U),\ \mathcal{C}_0^\infty(U) :$ III, p. 9.
-$\mathcal{G}_{s,M}(I),\ \mathcal{G}_s(I),\ \mathcal{C}(I) :$ III, p. 10.
-$\mathcal{H}(U),\ \mathcal{H}(L)$ (U là một tập con mở của $\mathbf{C}^n$, L là một tập con compact của $\mathbf{C}^n$) : III, p. 10.
-$\mathcal{L}(E;\ F) :$ III, p. 13.
-$\mathcal{L}_\varepsilon(E;\ F) :$ III, p. 13.
-$\mathcal{L}_s(E;\ F),\ \mathcal{L}_c(E;\ F),\ \mathcal{L}_{pc}(E;\ F),\ \mathcal{L}_{cc}(E;\ F),\ \mathcal{L}_b(E;\ F) :$ III, p. 14.
+$\mathscr{R}(X) :$ III, p. 9.
+$\mathscr{C}^\infty(U) :$ III, p. 9.
+$\mathscr{C}_H^\infty(U),\ \mathscr{C}_0^\infty(U) :$ III, p. 9.
+$\mathscr{G}_{s,M}(I),\ \mathscr{G}_s(I),\ \mathscr{C}(I) :$ III, p. 10.
+$\mathscr{H}(U),\ \mathscr{H}(L)$ (U là một tập con mở của $\mathbf{C}^n$, L là một tập con compact của $\mathbf{C}^n$) : III, p. 10.
+$\mathscr{L}(E;\ F) :$ III, p. 13.
+$\mathscr{L}_\varepsilon(E;\ F) :$ III, p. 13.
+$\mathscr{L}_s(E;\ F),\ \mathscr{L}_c(E;\ F),\ \mathscr{L}_{pc}(E;\ F),\ \mathscr{L}_{cc}(E;\ F),\ \mathscr{L}_b(E;\ F) :$ III, p. 14.
 $E',\ E'_\varepsilon,\ E'_s,\ E'_c,\ E'_{pc},\ E'_{cc},\ E'_b :$ III, p. 14.
-$\mathcal{L}(E),\ \mathcal{L}_\varepsilon(E),\ \mathcal{L}_s(E),\ \mathcal{L}_c(E),\ \mathcal{L}_{pc}(E),\ \mathcal{L}_{cc}(E),\ \mathcal{L}_b(E) :$ III, p. 14.
+$\mathscr{L}(E),\ \mathscr{L}_\varepsilon(E),\ \mathscr{L}_s(E),\ \mathscr{L}_c(E),\ \mathscr{L}_{pc}(E),\ \mathscr{L}_{cc}(E),\ \mathscr{L}_b(E) :$ III, p. 14.
 $p_M$ (p là một bán chuẩn, M là một tập con bị chặn) : III, p. 14.
-$\mathcal{C}_0(\mathbf{R}) :$ III, p. 18.
+$\mathscr{C}_0(\mathbf{R}) :$ III, p. 18.
 $\tau(E,\ F) :$ IV, p. 2.
 $\beta(E,\ F) :$ IV, p. 4.
 $c_E :$ IV, p. 14.
@@ -220,18 +220,18 @@ $c_0(\mathbf{N}),\ \ell^1(\mathbf{N}) :$ IV, p. 18.
 $S(E) :$ IV, p. 26.
 $H_p :$ IV, p. 26.
 $E_\sigma :$ IV, p. 32.
-$\mathcal{C}_s(X) :$ IV, p. 33.
-$\mathcal{C}^b(X),\ \mathcal{C}(X) :$ IV, p. 36.
-$\mathcal{B}(X;\ \mathbf{R}) :$ IV, p. 40.
+$\mathscr{C}_s(X) :$ IV, p. 33.
+$\mathscr{C}^b(X),\ \mathscr{C}(X) :$ IV, p. 36.
+$\mathscr{B}(X;\ \mathbf{R}) :$ IV, p. 40.
 $\mathrm{Ind}(u)$ (u là một toán tử Fredholm) : IV, p. 66, Bài tập 21.
 $\xi :$ V, p. 1.
 $\ell^2,\ \ell^2(\mathbf{N}) :$ V, p. 4.
 $E_{(c)} :$ V, p. 4.
 $\langle x|y \rangle,\ \|x\| = \langle x|x \rangle^{1/2},\ (x|y) = \langle y|x \rangle :$ V, p. 5.
 $E$ (E là một không gian tiền Hilbert phức) : V, p. 6.
-$\mathcal{H}^s$ (không gian Sobolev) : V, p. 6.
+$\mathscr{H}^s$ (không gian Sobolev) : V, p. 6.
 $H^2(D) :$ V, p. 7.
-$\mathcal{C}_0^1(U) :$ V, p. 8.
+$\mathscr{C}_0^1(U) :$ V, p. 8.
 $p_H$ (H là một tập hợp lồi tách được và đầy đủ trong một không gian tiền Hilbert) : V, p. 10.
 $x^*$ (x là một vectơ của một không gian Hilbert) : V, p. 15 và p. 40.
 $\bigoplus_{i \in I} E_i :$ V, p. 18.
@@ -249,15 +249,15 @@ $\hat{\Lambda}^n(E), \hat{\Lambda}(E) :$ V, p. 33.
 $\hat{\Lambda}^n(u)$ (u là một ánh xạ tuyến tính) : V, p. 34.
 $v.u, vu$ (u, v là các ánh xạ tuyến tính) : V, p. 37.
 $u^*$ (u là một ánh xạ tuyến tính) : V, p. 38.
-$\mathcal{H}(E)$ (E là một không gian Hilbert) : V, p. 44.
+$\mathscr{H}(E)$ (E là một không gian Hilbert) : V, p. 44.
 $u \geq 0$ (u là một tự đồng cấu của một không gian Hilbert) : V, p. 45.
-$\mathcal{L}_+(E) :$ V, p. 45.
-$u \geq v$ (u, v trong $\mathcal{L}(E)$, E là một không gian Hilbert) : V, p. 45.
+$\mathscr{L}_+(E) :$ V, p. 45.
+$u \geq v$ (u, v trong $\mathscr{L}(E)$, E là một không gian Hilbert) : V, p. 45.
 $\tau(u)$ (u là một tự đồng cấu hạng hữu hạn) : V, p. 48.
-$\mathrm{Tr}(u)$ ($u \geq 0$ trong $\mathcal{L}(E)$) : V, p. 49.
-$\mathcal{L}^1(E)$ (E là một không gian Hilbert) : V, p. 51.
-$\mathcal{L}^2(E; F), \mathcal{L}^2(E)$ (E, F là các không gian Hilbert) : V, p. 52.
-$\|u\|_2$ ($u \in \mathcal{L}(E; F)$, E, F là các không gian Hilbert) : V, p. 52.
+$\mathrm{Tr}(u)$ ($u \geq 0$ trong $\mathscr{L}(E)$) : V, p. 49.
+$\mathscr{L}^1(E)$ (E là một không gian Hilbert) : V, p. 51.
+$\mathscr{L}^2(E; F), \mathscr{L}^2(E)$ (E, F là các không gian Hilbert) : V, p. 52.
+$\|u\|_2$ ($u \in \mathscr{L}(E; F)$, E, F là các không gian Hilbert) : V, p. 52.
 $\mathrm{Tr}(\mathbf{Q}/H)$ (Q, H là các dạng toàn phương dương) : V, p. 57.
 
 Chỉ mục thuật ngữ
@@ -368,7 +368,7 @@ Bao của một tập hợp (đóng lồi) : II, p. 13.
 Bao của một tập hợp (lồi) : II, p. 9.
 Bao của một tập hợp (đối xứng lồi) : II, p. 10.
 Bao của một tập hợp (đối xứng lồi đóng) : II, p. 13.
-Tập \mathcal{S}-đẳng hạ liên tục, \mathfrak{T}-đẳng hạ liên tục, (\mathcal{S}, \mathfrak{T})-đẳng hạ liên tục : III, p. 47, exerc. 7.
+Tập \mathscr{S}-đẳng hạ liên tục, \mathfrak{T}-đẳng hạ liên tục, (\mathscr{S}, \mathfrak{T})-đẳng hạ liên tục : III, p. 47, exerc. 7.
 
 Sự vét cạn của một không gian lồi địa phương Hausdorff, không gian có thể vét cạn : III, p. 49, bài tập 1.
 Phần tử sinh cực biên của một nón lồi : II, p. 57.
@@ -415,7 +415,7 @@ Tự đồng cấu Hermit : V, p. 44.
 Ánh xạ Hilbert-Schmidt : V, p. 52.
 Không gian Hilbert, không gian Hilbert : V, p. 6.
 Siêu phẳng (đỡ) của một tập hợp : II, p. 37.
-\mathcal{S}-bán liên tục, \mathcal{T}-bán liên tục, ánh xạ song tuyến tính (\mathcal{S}, \mathcal{T})-bán liên tục : III, p. 30.
+\mathscr{S}-bán liên tục, \mathscr{T}-bán liên tục, ánh xạ song tuyến tính (\mathscr{S}, \mathscr{T})-bán liên tục : III, p. 30.
 
 Chỉ số của một toán tử Fredholm : IV, p. 66, bài tập 21.
 Cấu trúc tiền Hilbert cảm sinh trên một không gian con vectơ : V, p. 6.
@@ -547,7 +547,7 @@ Tích tenxơ Hilbert : V, p. 28.
 Tích tenxơ của các không gian tiền Hilbert : V, p. 26-27.
 
 Tập hợp, họ độc lập tôpô : I, p. 12 và p. 11.
-$\mathcal{S}$-tôpô : III, p. 13 và IV, p. 2.
+$\mathscr{S}$-tôpô : III, p. 13 và IV, p. 2.
 Tôpô tương thích với một cấu trúc không gian vectơ có thứ tự : II, p. 15.
 Tôpô tương thích với một cấu trúc không gian vectơ : I, p. 1.
 Tôpô được xác định bởi một nửa chuẩn, bởi một tập các nửa chuẩn : II, p. 2-3.
@@ -590,11 +590,11 @@ $$
 \|u\| = \sup_{\|x\| \leq 1} \|u(x)\|
 $$
 
-là hữu hạn. Ánh xạ $u \mapsto \|u\|$ là một chuẩn trên không gian vectơ $\mathcal{L}(E; F)$ của các ánh xạ tuyến tính liên tục từ E vào F.
+là hữu hạn. Ánh xạ $u \mapsto \|u\|$ là một chuẩn trên không gian vectơ $\mathscr{L}(E; F)$ của các ánh xạ tuyến tính liên tục từ E vào F.
 
-Cho F là một không gian Banach. Khi đó $\mathcal{L}(E; F)$ cũng là một không gian Banach. Hoàn thiện $\hat{E}$ của E là một không gian Banach và ánh xạ $u \mapsto u|E$ là một đẳng cự song ánh từ $\mathcal{L}(\hat{E}; F)$ lên $\mathcal{L}(E; F)$.
+Cho F là một không gian Banach. Khi đó $\mathscr{L}(E; F)$ cũng là một không gian Banach. Hoàn thiện $\hat{E}$ của E là một không gian Banach và ánh xạ $u \mapsto u|E$ là một đẳng cự song ánh từ $\mathscr{L}(\hat{E}; F)$ lên $\mathscr{L}(E; F)$.
 
-2) Cho E là một không gian chuẩn. Viết $E' = \mathcal{L}(E; K)$, trong đó K mang chuẩn $\lambda \mapsto |\lambda|$. Không gian Banach $E'$ được gọi là *đối ngẫu* của E, và đối ngẫu $E''$ của $E'$ được gọi là *đối ngẫu kép* của E.
+2) Cho E là một không gian chuẩn. Viết $E' = \mathscr{L}(E; K)$, trong đó K mang chuẩn $\lambda \mapsto |\lambda|$. Không gian Banach $E'$ được gọi là *đối ngẫu* của E, và đối ngẫu $E''$ của $E'$ được gọi là *đối ngẫu kép* của E.
 
 Ký hiệu $\sigma(E, E')$ là tôpô thô nhất trên E sao cho mọi phiếm hàm tuyến tính $x' \in E'$ đều liên tục; nó được gọi là tôpô *suy yếu* của E. Ký hiệu $\sigma(E', E)$ là tôpô thô nhất trên $E'$ sao cho các phiếm hàm tuyến tính $x' \mapsto \langle x', x \rangle$ trên $E'$, khi x chạy trong E, đều liên tục; khi đó $\sigma(E', E)$ được gọi là tôpô *yếu* trên $E'$. Tôpô trên $E'$ suy ra từ chuẩn được gọi là tôpô *mạnh*.
 
@@ -604,7 +604,7 @@ $$
 \|\xi\| = \inf_{\pi(x) = \xi} \|x\|.
 $$
 
-Khi E là một không gian Banach, thì M và $E/M$ cũng vậy. Với mọi không gian chuẩn F, ánh xạ tuyến tính $u \mapsto u \circ \pi$ từ $\mathcal{L}(E/M; F)$ vào $\mathcal{L}(E; F)$ là đẳng cự.
+Khi E là một không gian Banach, thì M và $E/M$ cũng vậy. Với mọi không gian chuẩn F, ánh xạ tuyến tính $u \mapsto u \circ \pi$ từ $\mathscr{L}(E/M; F)$ vào $\mathscr{L}(E; F)$ là đẳng cự.
 
 4) Cho E là một không gian chuẩn. Với mọi $x' \in E'$, theo định nghĩa ta có
 
@@ -638,7 +638,7 @@ với mọi $x \in A$ (resp. $x' \in B$). Khi $A$ (resp. $B$) là một không g
 
 Chuyển vị
 
-9) Cho $E$ và $F$ là hai không gian chuẩn và $u \in \mathcal{L}(E; F)$. *Chuyển vị* $^t u \in \mathcal{L}(F'; E')$ của $u$ được xác định bởi quan hệ
+9) Cho $E$ và $F$ là hai không gian chuẩn và $u \in \mathscr{L}(E; F)$. *Chuyển vị* $^t u \in \mathscr{L}(F'; E')$ của $u$ được xác định bởi quan hệ
 
 $$
 \langle u(y'), x \rangle = \langle y', u(x) \rangle \quad \text{với mọi } x \in E, \ y' \in F'.
@@ -654,13 +654,13 @@ Các điều kiện về tính liên tục của một ánh xạ tuyến tính
 
 \* Giả sử rằng với mọi tập con compact K của E, với mọi độ đo dương $\mu$ trên K và với mọi dạng tuyến tính liên tục $y'$ trên F, hạn chế của $y' \circ u$ lên K là $\mu$-đo được. Khi đó $u$ là liên tục.*
 
-12) Cho E và F là hai không gian Banach và $u \in \mathcal{L}(E; F)$. Khi đó hoặc $u(E)$ là thưa, hoặc $u$ là toàn ánh.
+12) Cho E và F là hai không gian Banach và $u \in \mathscr{L}(E; F)$. Khi đó hoặc $u(E)$ là thưa, hoặc $u$ là toàn ánh.
 
 Giả sử rằng $u$ là toàn ánh. Khi đó tồn tại một số $C > 0$ sao cho, với mọi $y \in F$, tồn tại $x \in E$ với $u(x) = y$ và $\|x\| \leq C.\|y\|$. Nếu N là hạt nhân của $u$, thì $u$ cảm sinh khi chuyển qua thương một đồng phôi của $E/N$ lên F.
 
 13) Cho E và F là hai không gian Banach. Nếu $u$ là một ánh xạ tuyến tính liên tục của E vào F là song ánh, thì $u^{-1}$ là liên tục.
 
-14) Cho E và F là hai không gian Banach, cho $u \in \mathcal{L}(E; F)$ và $x' \in E'$. Để $x'$ thuộc ảnh của $'u$, điều kiện cần và đủ là tồn tại một số $C > 0$ sao cho
+14) Cho E và F là hai không gian Banach, cho $u \in \mathscr{L}(E; F)$ và $x' \in E'$. Để $x'$ thuộc ảnh của $'u$, điều kiện cần và đủ là tồn tại một số $C > 0$ sao cho
 
 $$
 |\langle x', x \rangle| \leq C.\|u(x)\|
@@ -668,13 +668,13 @@ $$
 
 với mọi $x \in E$.
 
-(15) Cho E và F là hai không gian Banach và $u \in \mathcal{L}(E; F)$. Để $u$ toàn ánh, điều kiện cần và đủ là tồn tại một số $C > 0$ sao cho $\| 'u(y') \| \geq C.\|y'\|$ với mọi $y' \in F'$.
+(15) Cho E và F là hai không gian Banach và $u \in \mathscr{L}(E; F)$. Để $u$ toàn ánh, điều kiện cần và đủ là tồn tại một số $C > 0$ sao cho $\| 'u(y') \| \geq C.\|y'\|$ với mọi $y' \in F'$.
 
 Định lý Banach-Steinhaus
 
-16) (« Định lý Banach-Steinhaus »). Cho E là một không gian Banach; F là một không gian định chuẩn và cho $(u_i)_{i \in I}$ là một họ các phần tử của $\mathcal{L}(E; F)$. Cho A là tập con của $x \in E$ sao cho $\sup_{i \in I} \|u_i(x)\| < + \infty$. Khi đó hoặc A là một tập mảnh và phần bù của nó trù mật trong E, hoặc ngược lại $\sup_{i \in I} \|u_i\| < + \infty$. Đặc biệt, nếu $A = E$ thì $\sup_{i \in I} \|u_i\| < + \infty$.
+16) (« Định lý Banach-Steinhaus »). Cho E là một không gian Banach; F là một không gian định chuẩn và cho $(u_i)_{i \in I}$ là một họ các phần tử của $\mathscr{L}(E; F)$. Cho A là tập con của $x \in E$ sao cho $\sup_{i \in I} \|u_i(x)\| < + \infty$. Khi đó hoặc A là một tập mảnh và phần bù của nó trù mật trong E, hoặc ngược lại $\sup_{i \in I} \|u_i\| < + \infty$. Đặc biệt, nếu $A = E$ thì $\sup_{i \in I} \|u_i\| < + \infty$.
 
-17) Cho E và F là hai không gian Banach và cho $(u_n)_{n \geq 0}$ là một dãy các phần tử của $\mathcal{L}(E; F)$. Giả sử giới hạn $u(x) = \lim_{n \to \infty} u_n(x)$ tồn tại với mọi $x \in E$. Khi đó $\sup_n \|u_n\| < + \infty$, $u$ liên tục và dãy $(u_n)$ hội tụ đều tới $u$ trên mọi tập con compact của E.
+17) Cho E và F là hai không gian Banach và cho $(u_n)_{n \geq 0}$ là một dãy các phần tử của $\mathscr{L}(E; F)$. Giả sử giới hạn $u(x) = \lim_{n \to \infty} u_n(x)$ tồn tại với mọi $x \in E$. Khi đó $\sup_n \|u_n\| < + \infty$, $u$ liên tục và dãy $(u_n)$ hội tụ đều tới $u$ trên mọi tập con compact của E.
 
 Các tính chất của tôpô yếu trên một không gian đối ngẫu
 
@@ -703,11 +703,11 @@ Khi các điều kiện này được thỏa mãn, ta nói rằng E là phản x
 
 Các tôpô tương thích với tính đối ngẫu
 
-23) Cho E là một không gian Banach và $\mathcal{T}$ là một tôpô lồi địa phương trên E. Các điều kiện sau là tương đương :
-(i) Tôpô $\mathcal{T}$ mịn hơn $\sigma(E, E')$ và thô hơn tôpô do chuẩn xác định trên E.
-(ii) E' là tập hợp các dạng tuyến tính trên E liên tục đối với $\mathcal{T}$.
+23) Cho E là một không gian Banach và $\mathscr{T}$ là một tôpô lồi địa phương trên E. Các điều kiện sau là tương đương :
+(i) Tôpô $\mathscr{T}$ mịn hơn $\sigma(E, E')$ và thô hơn tôpô do chuẩn xác định trên E.
+(ii) E' là tập hợp các dạng tuyến tính trên E liên tục đối với $\mathscr{T}$.
 
-Giả sử các điều kiện này được thỏa mãn. Cho A là một tập con của E. Khi đó A là tương đối compact đối với $\mathcal{T}$ khi và chỉ khi mọi dãy các điểm của A đều có một điểm tụ đối với $\mathcal{T}$ trong E. Nếu điều này đúng thì bao lồi cân bằng của A là tương đối compact đối với $\mathcal{T}$.
+Giả sử các điều kiện này được thỏa mãn. Cho A là một tập con của E. Khi đó A là tương đối compact đối với $\mathscr{T}$ khi và chỉ khi mọi dãy các điểm của A đều có một điểm tụ đối với $\mathscr{T}$ trong E. Nếu điều này đúng thì bao lồi cân bằng của A là tương đối compact đối với $\mathscr{T}$.
 
 Mục lục
 
@@ -821,19 +821,19 @@ Chương III. — Các không gian của các ánh xạ tuyến tính liên tụ
 § 2. Các không gian bornological ............................................................................. III.11
 
 § 3. Các không gian của các ánh xạ tuyến tính liên tục ............................................... III.13
-    1. Các không gian $\mathcal{L}_\mathfrak{S}(E; F)$ ............................................. III.13
-    2. Điều kiện để $\mathcal{L}_\mathfrak{S}(E; F)$ là Hausdorff .................. III.15
-    3. Các quan hệ giữa $\mathcal{L}(E; F)$ và $\mathcal{L}(\hat{E}; F)$ ............. III.15
-    4. Các tập hợp liên tục đều của $\mathcal{L}(E; F)$ ..................................... III.16
+    1. Các không gian $\mathscr{L}_\mathfrak{S}(E; F)$ ............................................. III.13
+    2. Điều kiện để $\mathscr{L}_\mathfrak{S}(E; F)$ là Hausdorff .................. III.15
+    3. Các quan hệ giữa $\mathscr{L}(E; F)$ và $\mathscr{L}(\hat{E}; F)$ ............. III.15
+    4. Các tập hợp liên tục đều của $\mathscr{L}(E; F)$ ..................................... III.16
     5. Các tập hợp liên tục đều của $E'$ ....................................................... III.19
     6. Sự hoàn thành của một không gian lồi địa phương ....................................... III.20
-    7. Các bornology $\mathfrak{S}$ trên $\mathcal{L}(E; F)$ ..................................... III.21
-    8. Các tập hợp đầy đủ của $\mathcal{L}_\mathfrak{S}(E; F)$ ..................................... III.22
+    7. Các bornology $\mathfrak{S}$ trên $\mathscr{L}(E; F)$ ..................................... III.21
+    8. Các tập hợp đầy đủ của $\mathscr{L}_\mathfrak{S}(E; F)$ ..................................... III.22
 
 § 4. Định lý Banach-Steinhaus ....................................................... III.23
     1. Các thùng và các không gian thùng ............................................................. III.24
 
-2. Định lý Banach-Steinhaus ............................................. III.25 3. Các tập con bị chặn của $\mathcal{L}(E; F)$ (trường hợp nửa đầy đủ) .......... III.27
+2. Định lý Banach-Steinhaus ............................................. III.25 3. Các tập con bị chặn của $\mathscr{L}(E; F)$ (trường hợp nửa đầy đủ) .......... III.27
 
 § 5. Các ánh xạ song tuyến tính giả liên tục ........................................ III.28
     1. Các ánh xạ song tuyến tính liên tục riêng rẽ ............................... III.28

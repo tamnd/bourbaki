@@ -25,7 +25,7 @@ subsections:
       pdf_page: 213
 statements: 13
 exercises: 23
-content_sha256: 4d9f753ed58d33db4d4b3dea16cf8a66e6a7677f9073f91db993b2b4767b89f4
+content_sha256: 4445f6ba38c26bd2d5f9daeeec37deadb15f52942ff517da8da3165b091bf023
 ---
 
 ## § 4. STRICT MORPHISMS OF FRÉCHET SPACES
@@ -132,7 +132,7 @@ If $u : E \to F$ is a strict morphism of Fréchet spaces, the transpose ${}^t u$
 h) $^t u$ is a strict morphism from $F'_b$ into $E'_b$.
 When E and F are both Banach spaces, or both Montel spaces, property h) is equivalent to the properties a) to g) of th. 1.
 Suppose that $^t u$ is a strict morphism from $F'_b$ into $E'_b$. We shall prove that the image H of $^t u$ is closed in $E'_b$, from which the first assertion of cor. 3 will follow.
-Let G be the closure of the image of $u$ in F ; the space G, with the topology induced by that of F assigned to it, is a Fréchet space. The mapping $u : E \to F$ factorizes as $u = j \circ v$ where j is the canonical injection from G into F and where $v \in \mathcal{L}(E; G)$. Then we have $^t u = ^t v \circ ^t j$, where $^t j$ is surjective, by Hahn-Banach th. (II, p. 24, prop. 2); also, $^t v$ is injective since $v(E)$ is dense in G (IV, p. 6, prop. 5). By hypothesis, the mapping $^t u$ from $F'_b$ onto H is open ; since $^t j$ is surjective and continuous, the mapping $^t v$ induces a homeomorphism from $G'_b$ onto H. But the dual $G'_b$ of the Fréchet space G is complete (IV, p. 22, prop. 2); consequently H is complete, hence closed in $E'_b$.
+Let G be the closure of the image of $u$ in F ; the space G, with the topology induced by that of F assigned to it, is a Fréchet space. The mapping $u : E \to F$ factorizes as $u = j \circ v$ where j is the canonical injection from G into F and where $v \in \mathscr{L}(E; G)$. Then we have $^t u = ^t v \circ ^t j$, where $^t j$ is surjective, by Hahn-Banach th. (II, p. 24, prop. 2); also, $^t v$ is injective since $v(E)$ is dense in G (IV, p. 6, prop. 5). By hypothesis, the mapping $^t u$ from $F'_b$ onto H is open ; since $^t j$ is surjective and continuous, the mapping $^t v$ induces a homeomorphism from $G'_b$ onto H. But the dual $G'_b$ of the Fréchet space G is complete (IV, p. 22, prop. 2); consequently H is complete, hence closed in $E'_b$.
 If E and F are Montel spaces, the strong topology on $E'$ (resp. $F'$) coincides with the topology of compact convergence, and h) is just a reformulation of g).
 If E and F are Banach spaces, so are $E'_b$ and $F'_b$, and condition h) is equivalent to f) by the equivalence of a) and c) applied to $^t u : F'_b \to E'_b$.
 

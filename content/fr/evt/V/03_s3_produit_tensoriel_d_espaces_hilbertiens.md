@@ -33,7 +33,7 @@ subsections:
       pdf_page: 297
 statements: 19
 exercises: 2
-content_sha256: d95c0136d84591d07a1d14165c953040567afb0b5f71fafadef29a35db6ea1e6
+content_sha256: 050d02f34ff4fa5aca05230e7ed2f7b0fdf3c30e85b92c5251bc589a9c928c68
 ---
 
 ## § 3. PRODUIT TENSORIEL D’ESPACES HILBERTIENS
@@ -105,7 +105,7 @@ Pour $i = 1, 2$, soit $F_i$ un sous-espace vectoriel de $E_i$, muni de la struct
 
 #### Proposition 2 {#evt-v-s3-prop-2 .statement}
 
-*Pour $i = 1, 2$, soient $E_i$ et $F_i$ deux espaces préhilbertiens séparés et $u_i \in \mathcal{L}(E_i; F_i)$. L’application linéaire $u_1 \otimes u_2$ de $E_1 \otimes_2 E_2$ dans $F_1 \otimes_2 F_2$ est continue et l’on a*
+*Pour $i = 1, 2$, soient $E_i$ et $F_i$ deux espaces préhilbertiens séparés et $u_i \in \mathscr{L}(E_i; F_i)$. L’application linéaire $u_1 \otimes u_2$ de $E_1 \otimes_2 E_2$ dans $F_1 \otimes_2 F_2$ est continue et l’on a*
 
 $$
 \|u_1 \otimes u_2\| = \|u_1\| \cdot \|u_2\|.
@@ -151,14 +151,14 @@ $$
 $$
 pour $x_i, y_i$ dans $E_i$ ($1 \leq i \leq n$). Si les $E_i$ sont séparés, il en est de même de $E_1 \otimes_2 ... \otimes_2 E_n$.
 
-Soient $F_1, ..., F_n$ des espaces préhilbertiens et $u_i \in \mathcal{L}(E_i; F_i)$ pour $1 \leq i \leq n$. La prop. 2 entraîne par récurrence sur $n$ que $u_1 \otimes ... \otimes u_n$ est une application linéaire continue de $E_1 \otimes_2 ... \otimes_2 E_n$ dans $F_1 \otimes_2 ... \otimes_2 F_n$ et que l’on a
+Soient $F_1, ..., F_n$ des espaces préhilbertiens et $u_i \in \mathscr{L}(E_i; F_i)$ pour $1 \leq i \leq n$. La prop. 2 entraîne par récurrence sur $n$ que $u_1 \otimes ... \otimes u_n$ est une application linéaire continue de $E_1 \otimes_2 ... \otimes_2 E_n$ dans $F_1 \otimes_2 ... \otimes_2 F_n$ et que l’on a
 $$
 \|u_1 \otimes ... \otimes u_n\| = \|u_1\| ... \|u_n\| .
 $$
 
 $^1$ On pose encore $\|z\|_2 = \langle z | z \rangle^{1/2}$ pour $z$ dans $E_1 \otimes_2 ... \otimes_2 E_n$.
 
-Soit $\sigma \in \mathcal{S}_n$ une permutation de l’ensemble $\{1, 2, ..., n\}$. Vu (6), l’application linéaire $p_\sigma$ de $E_1 \otimes_2 ... \otimes_2 E_n$ sur $E_{\sigma^{-1}(1)} \otimes_2 ... \otimes_2 E_{\sigma^{-1}(n)}$ caractérisée par
+Soit $\sigma \in \mathscr{S}_n$ une permutation de l’ensemble $\{1, 2, ..., n\}$. Vu (6), l’application linéaire $p_\sigma$ de $E_1 \otimes_2 ... \otimes_2 E_n$ sur $E_{\sigma^{-1}(1)} \otimes_2 ... \otimes_2 E_{\sigma^{-1}(n)}$ caractérisée par
 
 $$
 p_\sigma(x_1 \otimes ... \otimes x_n) = x_{\sigma^{-1}(1)} \otimes ... \otimes x_{\sigma^{-1}(n)}
@@ -186,7 +186,7 @@ en $x_1 \otimes ... \otimes x_n$ (A, II, p. 72) est un isomorphisme d’espaces 
 
 Soient $E_1, ..., E_n$ des espaces hilbertiens. On appelle produit tensoriel hilbertien des $E_i$, et l’on note $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ (ou $\hat{\otimes}_{1 \leq i \leq n} E_i$) le complété de l’espace préhilbertien séparé $E_1 \otimes_2 ... \otimes_2 E_n$.
 
-Soient $F_1, ..., F_n$ des espaces hilbertiens et $u_i \in \mathcal{L}(E_i; F_i)$ pour $1 \leq i \leq n$. L’application linéaire continue $u_1 \otimes ... \otimes u_n$ se prolonge alors en une application linéaire continue $u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n$ de $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ dans $F_1 \hat{\otimes}_2 ... \hat{\otimes}_n F_n$. On a
+Soient $F_1, ..., F_n$ des espaces hilbertiens et $u_i \in \mathscr{L}(E_i; F_i)$ pour $1 \leq i \leq n$. L’application linéaire continue $u_1 \otimes ... \otimes u_n$ se prolonge alors en une application linéaire continue $u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n$ de $E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n$ dans $F_1 \hat{\otimes}_2 ... \hat{\otimes}_n F_n$. On a
 
 $$
 \|u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n\| = \|u_1\| ... \|u_n\|
@@ -198,7 +198,7 @@ $$
 1_{E_1} \hat{\otimes}_2 ... \hat{\otimes}_2 1_{E_n} = 1_E \quad \text{avec} \quad E = E_1 \hat{\otimes}_2 ... \hat{\otimes}_2 E_n.
 $$
 
-Enfin, si $G_1, ..., G_n$ sont des espaces hilbertiens et $v_i \in \mathcal{L}(F_i; G_i)$ pour $1 \leq i \leq n$, on a
+Enfin, si $G_1, ..., G_n$ sont des espaces hilbertiens et $v_i \in \mathscr{L}(F_i; G_i)$ pour $1 \leq i \leq n$, on a
 
 $$
 (v_1 \circ u_1) \hat{\otimes}_2 ... \hat{\otimes}_2 (v_n \circ u_n) = (v_1 \hat{\otimes}_2 ... \hat{\otimes}_2 v_n) \circ (u_1 \hat{\otimes}_2 ... \hat{\otimes}_2 u_n).
@@ -325,7 +325,7 @@ h(x_1 \ldots x_m \otimes y_1 \ldots y_n) = x_1 \ldots x_m y_1 \ldots y_n
 $$
 quels que soient les vecteurs $x_1, \ldots, x_m$ de $M_0$ et les vecteurs $y_1, \ldots, y_n$ de $N_0$. Par continuité, la même relation a encore lieu pour des vecteurs $x_1, \ldots, x_m$ de $M$ et des vecteurs $y_1, \ldots, y_n$ de $N$; autrement dit, $h$ prolonge $g$. L’unicité de $h$ est claire.
 
-Soient $E$ et $F$ deux espaces hilbertiens et $u \in \mathcal{L}(E ; F)$. L’application linéaire $\hat{T}^n(u) = u \otimes_2 \ldots \otimes_2 u$ ($n$ facteurs) de $\hat{T}^n(E)$ dans $\hat{T}^n(F)$ est continue de norme $\|u\|^n$ (V, p. 28, formule (10)). Par ailleurs, les formules (13) et (14) de V, p. 30, montrent qu’il existe un isomorphisme $\varphi_{n,E}$ de $\hat{S}^n(E)$ sur le sous-espace $\widehat{\mathbf{T}\mathbf{S}}^n(E)$ de $\hat{T}^n(E)$ et un seul tel que
+Soient $E$ et $F$ deux espaces hilbertiens et $u \in \mathscr{L}(E ; F)$. L’application linéaire $\hat{T}^n(u) = u \otimes_2 \ldots \otimes_2 u$ ($n$ facteurs) de $\hat{T}^n(E)$ dans $\hat{T}^n(F)$ est continue de norme $\|u\|^n$ (V, p. 28, formule (10)). Par ailleurs, les formules (13) et (14) de V, p. 30, montrent qu’il existe un isomorphisme $\varphi_{n,E}$ de $\hat{S}^n(E)$ sur le sous-espace $\widehat{\mathbf{T}\mathbf{S}}^n(E)$ de $\hat{T}^n(E)$ et un seul tel que
 $$
 \varphi_{n,E}(x_1 \ldots x_n) = \frac{1}{(n!)^{1/2}} \sum_{\sigma \in S_n} x_{\sigma(1)} \otimes \ldots \otimes x_{\sigma(n)} \quad (x_1, \ldots, x_n \text{ dans } E) .
 $$
@@ -354,7 +354,7 @@ $$
 \hat{S}^n(1_E) = 1_{\hat{S}_n(E)}
 $$
 $$
-\hat{S}^n(v \circ u) = \hat{S}^n(v) \circ \hat{S}^n(u) \quad \text{pour} \quad v \in \mathcal{L}(F ; G) .
+\hat{S}^n(v \circ u) = \hat{S}^n(v) \circ \hat{S}^n(u) \quad \text{pour} \quad v \in \mathscr{L}(F ; G) .
 $$
 Enfin, $\hat{S}^n(u)$ coïncide sur $S^n(E)$ avec l’application linéaire $S^n(u) : S^n(E) \to S^n(F)$ définie en A, III, p. 69 car elle transforme $x_1 \ldots x_n$ en $u(x_1) \ldots u(x_n)$ quels que soient $x_1, \ldots, x_n$ dans $E$.
 
@@ -397,7 +397,7 @@ Il existe alors un *isomorphisme* $\varphi$ de $\hat{\mathbf{S}}(E)$ *sur un sou
 
 ### 4. Puissances extérieures hilbertiennes
 
-Soient E un espace hilbertien et $n$ un entier positif. Pour toute permutation $\sigma \in \mathfrak{S}_n$, notons $\varepsilon_\sigma$ sa signature ; posons $a_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma p_\sigma$ dans $\mathcal{L}(\hat{T}^n(E))$ (V, p. 30). Il est immédiat que $a_n$ est un orthoprojecteur, dont l’image $\overline{A'_n(E)}$ est l’adhérence dans $\hat{T}^n(E)$ de l’espace $A'_n(E)$ des tenseurs antisymétriques d’ordre $n$ (A, III, p. 82). Il existe un isomorphisme $\pi_n$ de $\Lambda^n(E)$ sur $A'_n(E)$ caractérisé par
+Soient E un espace hilbertien et $n$ un entier positif. Pour toute permutation $\sigma \in \mathfrak{S}_n$, notons $\varepsilon_\sigma$ sa signature ; posons $a_n = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma p_\sigma$ dans $\mathscr{L}(\hat{T}^n(E))$ (V, p. 30). Il est immédiat que $a_n$ est un orthoprojecteur, dont l’image $\overline{A'_n(E)}$ est l’adhérence dans $\hat{T}^n(E)$ de l’espace $A'_n(E)$ des tenseurs antisymétriques d’ordre $n$ (A, III, p. 82). Il existe un isomorphisme $\pi_n$ de $\Lambda^n(E)$ sur $A'_n(E)$ caractérisé par
 
 $$
 \pi_n(x_1 \wedge \ldots \wedge x_n) = a_n(x_1 \otimes \ldots \otimes x_n) = \frac{1}{n!} \sum_{\sigma \in \mathfrak{S}_n} \varepsilon_\sigma x_{\sigma(1)} \otimes \ldots \otimes x_{\sigma(n)}
@@ -439,10 +439,10 @@ Or $E_0$ est dense dans E, et l’application $(x_1, \ldots, x_n) \mapsto x_1 \w
 
 La démonstration est analogue à celle du corollaire de la prop. 4 (V, p. 31).
 
-Soient E et F deux espaces hilbertiens et $u \in \mathcal{L}(E ; F)$. On montre, comme dans le cas des puissances symétriques $\hat{S}^n(E)$ (V, p. 32), que l’application linéaire $\Lambda^n(u)$ de $\Lambda^n(E)$ dans $\Lambda^n(F)$ (A, III, p. 81) se prolonge en une application linéaire continue $\hat{\Lambda}^n(u)$ de $\hat{\Lambda}^n(E)$ dans $\hat{\Lambda}^n(F)$. On a les relations
+Soient E et F deux espaces hilbertiens et $u \in \mathscr{L}(E ; F)$. On montre, comme dans le cas des puissances symétriques $\hat{S}^n(E)$ (V, p. 32), que l’application linéaire $\Lambda^n(u)$ de $\Lambda^n(E)$ dans $\Lambda^n(F)$ (A, III, p. 81) se prolonge en une application linéaire continue $\hat{\Lambda}^n(u)$ de $\hat{\Lambda}^n(E)$ dans $\hat{\Lambda}^n(F)$. On a les relations
 
 $$(27)\quad \hat{\Lambda}^n(1_E) = 1_{\hat{\Lambda}^n(E)},$$
-$$(28)\quad \hat{\Lambda}^n(v \circ u) = \hat{\Lambda}^n(v) \circ \hat{\Lambda}^n(u) \quad \text{si } v \text{ appartient à } \mathcal{L}(F ; G),$$
+$$(28)\quad \hat{\Lambda}^n(v \circ u) = \hat{\Lambda}^n(v) \circ \hat{\Lambda}^n(u) \quad \text{si } v \text{ appartient à } \mathscr{L}(F ; G),$$
 $$(29)\quad \| \hat{\Lambda}^n(u) \| \leq \| u \|^{n}.$$
 
 On n’a pas en général égalité dans la formule (29) (TS, IV, § 6). Enfin, on a un isomorphisme $\psi_n = \psi_{n,E}$ de $\hat{\Lambda}^n(E)$ sur le sous-espace $\mathbf{A}'_n(E)$ de $\hat{T}^n(E)$ défini par

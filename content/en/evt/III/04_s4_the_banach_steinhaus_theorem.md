@@ -20,12 +20,12 @@ subsections:
       page: 25
       pdf_page: 157
     - "no": 3
-      title: Bounded subsets of $\mathcal{L}(E; F)$ (quasi-complete case)
+      title: Bounded subsets of $\mathscr{L}(E; F)$ (quasi-complete case)
       page: 27
       pdf_page: 159
 statements: 24
 exercises: 22
-content_sha256: 39959f2e857883752d5da39050d17e5da11a3bdd030a94a0972c38a52975d9a6
+content_sha256: 5ed7e69b55a255a5e6e3e928ace36d2b958254b7157b58aaf10d1196a154b546
 ---
 
 ## § 4. THE BANACH-STEINHAUS THEOREM
@@ -110,7 +110,7 @@ We shall prove later (IV, p. 14, corollary) that every product of barrelled spac
 
 #### Theorem 1 {#evt-iii-s4-thm-1 .statement}
 
-— *Let E be a barrelled space, F a locally convex space. Every simply bounded subset H of $\mathcal{L}(E; F)$ is equicontinuous.*
+— *Let E be a barrelled space, F a locally convex space. Every simply bounded subset H of $\mathscr{L}(E; F)$ is equicontinuous.*
 
 For, let $p$ be a continuous semi-norm on F; let $q = \sup_{u \in H} (p \circ u)$. Since H is simply bounded, we have $q(x) < +\infty$ for all $x \in E$ and $q$ is a lower semi-continuous semi-norm, being the finite superior envelope of continuous semi-norms. Since E is barrelled, $q$ is a continuous semi-norm and therefore H is equicontinuous.
 
@@ -122,7 +122,7 @@ In fact, the hypothesis says that H is simply bounded and the conclusion that it
 
 #### Corollary 2 {#evt-iii-s4-thm-1-cor-2 .statement}
 
-— (Banach-Steinhaus theorem). — *Let E be a barrelled space, F a locally convex Hausdorff space, and let $(u_n)$ be a sequence of continuous linear mappings* from E into F, which converges simply to a mapping u from E into F. Then $u \in \mathcal{L}(E; F)$, and $(u_n)$ converges to u uniformly on every precompact subset of E.
+— (Banach-Steinhaus theorem). — *Let E be a barrelled space, F a locally convex Hausdorff space, and let $(u_n)$ be a sequence of continuous linear mappings* from E into F, which converges simply to a mapping u from E into F. Then $u \in \mathscr{L}(E; F)$, and $(u_n)$ converges to u uniformly on every precompact subset of E.
 
 The sequence $(u_n)$ is, in fact, simply bounded, hence equicontinuous, and the corollary follows from the cor. of prop. 5 of III, p. 18.
 
@@ -136,11 +136,11 @@ Let E and F be two Banach spaces, and $(u_n)$ a sequence of continuous linear ma
 
 #### Corollary 3 {#evt-iii-s4-thm-1-cor-3 .statement}
 
-— *Let E be a barrelled space, F a locally convex Hausdorff space and $\Phi$ a filter on $\mathcal{L}(E; F)$ which converges simply in E to a mapping u from E into F. If $\Phi$ contains a simply bounded subset of $\mathcal{L}(E; F)$, or if $\Phi$ has a countable base, then u is a continuous linear mapping from E into F and $\Phi$ converges uniformly to u on every precompact subset of E.*
+— *Let E be a barrelled space, F a locally convex Hausdorff space and $\Phi$ a filter on $\mathscr{L}(E; F)$ which converges simply in E to a mapping u from E into F. If $\Phi$ contains a simply bounded subset of $\mathscr{L}(E; F)$, or if $\Phi$ has a countable base, then u is a continuous linear mapping from E into F and $\Phi$ converges uniformly to u on every precompact subset of E.*
 
 Suppose first that $\Phi$ contains a simply bounded set H ; since H is equicontinuous (th. 1), the corollary follows from the corollary of prop. 5 (III, p. 18). If $\Phi$ has a countable base, every elementary filter $\Psi$ associated with a sequence $u_n$ (GT, I, § 6, No. 8) which is finer than $\Phi$ is then simply convergent to u in E and it follows from cor. 2 that u is a continuous linear mapping from E into F, and that $\Psi$ converges to u for the topology of uniform convergence on precompact subsets of E. Consequently, the same holds for $\Phi$, since the latter is the intersection of elementary filters, each finer than $\Phi$ (GT, I, § 6, No. 8).
 
-We observe that a filter on $\mathcal{L}(E; F)$ which converges simply and has a countable base does not necessarily contain a simply bounded set : to see this consider the example of the filter of neighbourhoods of 0 in $\mathcal{L}(K; F)$ when the topology of F is metrizable, but cannot be defined by a single norm.
+We observe that a filter on $\mathscr{L}(E; F)$ which converges simply and has a countable base does not necessarily contain a simply bounded set : to see this consider the example of the filter of neighbourhoods of 0 in $\mathscr{L}(K; F)$ when the topology of F is metrizable, but cannot be defined by a single norm.
 
 #### Example {#evt-iii-s4-n2-exa-1 .statement}
 
@@ -150,29 +150,29 @@ For every integer $n \in \mathbf{Z}$ and every function $f \in E$, let $c_n(f) =
 
 #### Corollary 4 {#evt-iii-s4-thm-1-cor-4 .statement}
 
-— *Let E and F be two locally convex spaces, $\mathfrak{S}$ a cover of E consisting of bounded subsets. If E is barrelled and F Hausdorff and quasi-complete, the space $\mathcal{L}_{\mathfrak{S}}(E; F)$ is Hausdorff and quasi-complete.*
+— *Let E and F be two locally convex spaces, $\mathfrak{S}$ a cover of E consisting of bounded subsets. If E is barrelled and F Hausdorff and quasi-complete, the space $\mathscr{L}_{\mathfrak{S}}(E; F)$ is Hausdorff and quasi-complete.*
 
-In fact, every bounded and closed subset of $\mathcal{L}_{\mathfrak{S}}(E; F)$ is simply bounded (because $\mathfrak{S}$ is a cover of E), hence equicontinuous (III, p. 25, th. 1) and consequently is a complete subspace of $\mathcal{L}_{\mathfrak{S}}(E; F)$ because of prop. 11 (III, p. 22).
+In fact, every bounded and closed subset of $\mathscr{L}_{\mathfrak{S}}(E; F)$ is simply bounded (because $\mathfrak{S}$ is a cover of E), hence equicontinuous (III, p. 25, th. 1) and consequently is a complete subspace of $\mathscr{L}_{\mathfrak{S}}(E; F)$ because of prop. 11 (III, p. 22).
 
 #### Corollary 5 {#evt-iii-s4-thm-1-cor-5 .statement}
 
 — *The strong dual and the weak dual of a barrelled space are quasi-complete.*
 
-### 3. Bounded subsets of $\mathcal{L}(E; F)$ (quasi-complete case)
+### 3. Bounded subsets of $\mathscr{L}(E; F)$ (quasi-complete case)
 
 #### Theorem 2 {#evt-iii-s4-thm-2 .statement}
 
-— *Let E be a locally convex Hausdorff space, F a locally convex space and $\mathfrak{S}$ a family of closed, convex, balanced, bounded and semi-complete subsets of E (III, p. 7). Every simply bounded subset H of $\mathcal{L}(E; F)$ is bounded for the $\mathfrak{S}$-topology.*
+— *Let E be a locally convex Hausdorff space, F a locally convex space and $\mathfrak{S}$ a family of closed, convex, balanced, bounded and semi-complete subsets of E (III, p. 7). Every simply bounded subset H of $\mathscr{L}(E; F)$ is bounded for the $\mathfrak{S}$-topology.*
 
-Let $A \in \mathfrak{S}$. The space $E_A$ is then a Banach space (III, p. 8, corollary), hence barrelled. On the other hand, the canonical image of H in $\mathcal{L}(E_A; F)$ is simply bounded, hence equicontinuous (III, p. 25, th. 1). Consequently, the set of all $u(x)$ for $u \in H$ and $x \in A$, is bounded in F, which proves that H is bounded for the $\mathfrak{S}$-topology.
+Let $A \in \mathfrak{S}$. The space $E_A$ is then a Banach space (III, p. 8, corollary), hence barrelled. On the other hand, the canonical image of H in $\mathscr{L}(E_A; F)$ is simply bounded, hence equicontinuous (III, p. 25, th. 1). Consequently, the set of all $u(x)$ for $u \in H$ and $x \in A$, is bounded in F, which proves that H is bounded for the $\mathfrak{S}$-topology.
 
 #### Corollary 1 {#evt-iii-s4-thm-2-cor-1 .statement}
 
-— *Let E be a locally convex Hausdorff space, F a locally convex space, and $\mathfrak{S}$ a family of bounded subsets of E. If E is semi-complete, then every simply bounded subset of $\mathcal{L}(E; F)$ is bounded for the $\mathfrak{S}$-topology.*
+— *Let E be a locally convex Hausdorff space, F a locally convex space, and $\mathfrak{S}$ a family of bounded subsets of E. If E is semi-complete, then every simply bounded subset of $\mathscr{L}(E; F)$ is bounded for the $\mathfrak{S}$-topology.*
 
 It is enough to apply th. 2, after replacing the sets of $\mathfrak{S}$ by their closed, convex, balanced envelopes, since this does not change the $\mathfrak{S}$-topology.
 
-When E is semi-complete (for example quasi-complete), we can talk of the *bounded subsets* of $\mathcal{L}(E; F)$ without specifying the $\mathfrak{S}$-topology, since these are the same for all the $\mathfrak{S}$-topologies whenever $\mathfrak{S}$ is a cover of E.
+When E is semi-complete (for example quasi-complete), we can talk of the *bounded subsets* of $\mathscr{L}(E; F)$ without specifying the $\mathfrak{S}$-topology, since these are the same for all the $\mathfrak{S}$-topologies whenever $\mathfrak{S}$ is a cover of E.
 
 #### Corollary 2 {#evt-iii-s4-thm-2-cor-2 .statement}
 

@@ -40,7 +40,7 @@ subsections:
       pdf_page: 144
 statements: 33
 exercises: 18
-content_sha256: 13bcd0f4c224851c808e715184359c6158205ca15d338d6372fdb3edb887ad1b
+content_sha256: a21b445b25b79a48aeafd4902b99f412e44b9401eb20b6bc4d0b4e3938d145b4
 ---
 
 ## § 1. BORNOLOGIE DANS UN ESPACE VECTORIEL TOPOLOGIQUE
@@ -49,23 +49,23 @@ content_sha256: 13bcd0f4c224851c808e715184359c6158205ca15d338d6372fdb3edb887ad1b
 
 #### Définition 1 {#evt-iii-s1-def-1 .statement}
 
-On appelle bornologie sur un ensemble E une partie $\mathcal{B}$ de l’ensemble des parties de E satisfaisant aux conditions suivantes (cf. TG, X, p. 3, Remarque 2) :
-(B1) Toute partie d’un ensemble de $\mathcal{B}$ appartient à $\mathcal{B}$.
-(B2) Toute réunion finie d’ensembles de $\mathcal{B}$ appartient à $\mathcal{B}$.
+On appelle bornologie sur un ensemble E une partie $\mathscr{B}$ de l’ensemble des parties de E satisfaisant aux conditions suivantes (cf. TG, X, p. 3, Remarque 2) :
+(B1) Toute partie d’un ensemble de $\mathscr{B}$ appartient à $\mathscr{B}$.
+(B2) Toute réunion finie d’ensembles de $\mathscr{B}$ appartient à $\mathscr{B}$.
 
-On dit que $\mathcal{B}$ est couvrante si toute partie à un élément de E appartient à $\mathcal{B}$, ou, ce qui revient au même, si $\mathcal{B}$ est un recouvrement de E.
+On dit que $\mathscr{B}$ est couvrante si toute partie à un élément de E appartient à $\mathscr{B}$, ou, ce qui revient au même, si $\mathscr{B}$ est un recouvrement de E.
 
 #### Exemple {#evt-iii-s1-n1-exa-1 .statement}
 
 Soit E un espace métrique ; l’ensemble des parties bornées de E (TG, IX, p. 14) est une bornologie couvrante sur E. Soit G le groupe des isométries de E ; l’ensemble des parties M de G telles que, quel que soit $x \in E$, l’ensemble $M.x$ est une partie bornée de E, est une bornologie couvrante sur G.
 
-Si $\mathcal{B}$ est une bornologie sur un ensemble E, on appelle base de $\mathcal{B}$ une partie $\mathcal{B}_1$ de $\mathcal{B}$ telle que tout ensemble de $\mathcal{B}$ soit contenu dans un ensemble de $\mathcal{B}_1$.
+Si $\mathscr{B}$ est une bornologie sur un ensemble E, on appelle base de $\mathscr{B}$ une partie $\mathscr{B}_1$ de $\mathscr{B}$ telle que tout ensemble de $\mathscr{B}$ soit contenu dans un ensemble de $\mathscr{B}_1$.
 
-L’intersection d’une famille de bornologies sur E est une bornologie ; par suite pour toute partie $\mathcal{S}$ de $\mathfrak{P}(E)$, il existe une plus petite bornologie contenant $\mathcal{S}$ ; on dit qu’elle est engendrée par $\mathcal{S}$ ; elle admet pour base l’ensemble des réunions finies d’ensembles de $\mathcal{S}$. Si E et E’ sont deux ensembles, et $\mathcal{B}$ (resp. $\mathcal{B}'$) une bornologie sur E (resp. E’), on appelle bornologie produit la bornologie sur $E \times E'$ qui admet pour base l’ensemble des $M \times M'$ pour $M \in \mathcal{B}$ et $M' \in \mathcal{B}'$.
+L’intersection d’une famille de bornologies sur E est une bornologie ; par suite pour toute partie $\mathscr{S}$ de $\mathfrak{P}(E)$, il existe une plus petite bornologie contenant $\mathscr{S}$ ; on dit qu’elle est engendrée par $\mathscr{S}$ ; elle admet pour base l’ensemble des réunions finies d’ensembles de $\mathscr{S}$. Si E et E’ sont deux ensembles, et $\mathscr{B}$ (resp. $\mathscr{B}'$) une bornologie sur E (resp. E’), on appelle bornologie produit la bornologie sur $E \times E'$ qui admet pour base l’ensemble des $M \times M'$ pour $M \in \mathscr{B}$ et $M' \in \mathscr{B}'$.
 
 #### Définition 2 {#evt-iii-s1-def-2 .statement}
 
-Soit E un espace vectoriel. On dit qu’une bornologie $\mathcal{B}$ sur E est convexe si, quels que soient $X \in \mathcal{B}$ et $t \in \mathbf{K}$, l’homothétique $tX$ et l’enveloppe convexe équilibrée $\Gamma(X)$ (II, p. 10) de X appartiennent à $\mathcal{B}$.
+Soit E un espace vectoriel. On dit qu’une bornologie $\mathscr{B}$ sur E est convexe si, quels que soient $X \in \mathscr{B}$ et $t \in \mathbf{K}$, l’homothétique $tX$ et l’enveloppe convexe équilibrée $\Gamma(X)$ (II, p. 10) de X appartiennent à $\mathscr{B}$.
 
 Si X et Y sont des parties de E, on a
 
@@ -76,7 +76,7 @@ $$
 \lambda X \subset t\Gamma(X) \quad \text{pour} \quad |\lambda| \leq t .
 $$
 
-Par suite, si $\mathcal{B}$ est une bornologie convexe sur E, si A est une partie bornée de K et si X, Y appartiennent à $\mathcal{B}$, alors on a $X + Y \in \mathcal{B}$ et $A.X \in \mathcal{B}$.
+Par suite, si $\mathscr{B}$ est une bornologie convexe sur E, si A est une partie bornée de K et si X, Y appartiennent à $\mathscr{B}$, alors on a $X + Y \in \mathscr{B}$ et $A.X \in \mathscr{B}$.
 
 ### 2. Parties bornées d’un espace vectoriel topologique
 
@@ -110,7 +110,7 @@ Si E est un espace localement convexe séparé, pour tout $x \neq 0$ dans E, il 
 
 #### Définition 4 {#evt-iii-s1-def-4 .statement}
 
-Soit E un espace localement convexe. On dit qu’une bornologie $\mathcal{B}$ sur E est adaptée à E si elle est convexe, composée de parties bornées de E, et si l’adhérence de tout ensemble de $\mathcal{B}$ appartient à $\mathcal{B}$.
+Soit E un espace localement convexe. On dit qu’une bornologie $\mathscr{B}$ sur E est adaptée à E si elle est convexe, composée de parties bornées de E, et si l’adhérence de tout ensemble de $\mathscr{B}$ appartient à $\mathscr{B}$.
 
 #### Proposition 1 {#evt-iii-s1-prop-1 .statement}
 
@@ -128,7 +128,7 @@ Si $p$ est une semi-norme continue sur E, les boules de $p$ sont convexes équil
 
 Soit E un espace localement convexe. On appelle bornologie canonique de E l’ensemble des parties bornées de E.
 
-Si $\mathcal{B}$ est un ensemble de parties bornées de E, il existe une plus petite bornologie $\tilde{\mathcal{B}}$ adaptée à E et contenant $\mathcal{B}$. Les ensembles de $\tilde{\mathcal{B}}$ sont ceux contenus dans un homothétique de l’enveloppe fermée convexe équilibrée d’une réunion finie d’ensembles de $\mathcal{B}$.
+Si $\mathscr{B}$ est un ensemble de parties bornées de E, il existe une plus petite bornologie $\tilde{\mathscr{B}}$ adaptée à E et contenant $\mathscr{B}$. Les ensembles de $\tilde{\mathscr{B}}$ sont ceux contenus dans un homothétique de l’enveloppe fermée convexe équilibrée d’une réunion finie d’ensembles de $\mathscr{B}$.
 
 Toute bornologie adaptée est contenue dans la bornologie canonique.
 
@@ -293,39 +293,39 @@ En effet, l’hypothèse entraîne que $M$ est dense dans $E$, donc $f$ se prolo
 
 ### 7. Exemples
 
-a) Soit X un espace topologique. Soit $\mathcal{R}(X)$ l’espace vectoriel des fonctions numériques (finies) sur X, muni de la topologie de la convergence compacte (TG, X, p. 4) : c’est la topologie la moins fine rendant continues les applications de restriction $\mathcal{R}(X) \to \mathcal{R}(H)$ (où H décrit la famille des parties compactes de X et où $\mathcal{R}(H)$ est muni de la topologie de la convergence uniforme). Le cor. 3 de III, p. 4 montre qu’une partie A de $\mathcal{R}(X)$ est bornée si et seulement si, pour toute partie compacte H de X, l’ensemble des restrictions à H des fonctions appartenant à A est uniformément borné.
+a) Soit X un espace topologique. Soit $\mathscr{R}(X)$ l’espace vectoriel des fonctions numériques (finies) sur X, muni de la topologie de la convergence compacte (TG, X, p. 4) : c’est la topologie la moins fine rendant continues les applications de restriction $\mathscr{R}(X) \to \mathscr{R}(H)$ (où H décrit la famille des parties compactes de X et où $\mathscr{R}(H)$ est muni de la topologie de la convergence uniforme). Le cor. 3 de III, p. 4 montre qu’une partie A de $\mathscr{R}(X)$ est bornée si et seulement si, pour toute partie compacte H de X, l’ensemble des restrictions à H des fonctions appartenant à A est uniformément borné.
 
-\* b) (Espaces de fonctions indéfiniment dérivables.) Soit $n \geqslant 1$ un entier. Pour tout ouvert U de $\mathbf{R}^n$, on note $\mathcal{C}^\infty(U)$ l’espace vectoriel des fonctions indéfiniment dérivables sur U (VAR, R, 2.3). Soit $f$ dans $\mathcal{C}^\infty(U)$. Pour tout multiindice $\alpha = (\alpha_1, \ldots, \alpha_n)$ dans $\mathbf{N}^n$, on note $\partial^\alpha f$ la dérivée partielle $\partial^{|\alpha|} f / \partial x_1^{\alpha_1} \cdots \partial x_n^{\alpha_n}$; c’est une fonction continue dans U (VAR, R, 2.3 et 2.4). Pour tout entier $m \geqslant 0$ et toute partie compacte H de U, posons
+\* b) (Espaces de fonctions indéfiniment dérivables.) Soit $n \geqslant 1$ un entier. Pour tout ouvert U de $\mathbf{R}^n$, on note $\mathscr{C}^\infty(U)$ l’espace vectoriel des fonctions indéfiniment dérivables sur U (VAR, R, 2.3). Soit $f$ dans $\mathscr{C}^\infty(U)$. Pour tout multiindice $\alpha = (\alpha_1, \ldots, \alpha_n)$ dans $\mathbf{N}^n$, on note $\partial^\alpha f$ la dérivée partielle $\partial^{|\alpha|} f / \partial x_1^{\alpha_1} \cdots \partial x_n^{\alpha_n}$; c’est une fonction continue dans U (VAR, R, 2.3 et 2.4). Pour tout entier $m \geqslant 0$ et toute partie compacte H de U, posons
 
 $$
 p_{m,H}(f) = \sup_{\substack{|\alpha| \leqslant m \\ x \in H}} |\partial^\alpha f(x)| .
 $$
 
-Alors $p_{m,H}$ est une semi-norme sur $\mathcal{C}^\infty(U)$.
+Alors $p_{m,H}$ est une semi-norme sur $\mathscr{C}^\infty(U)$.
 
-On munira $\mathcal{C}^\infty(U)$ de la topologie définie par les semi-normes $p_{m,H}$. C’est la moins fine des topologies rendant continues les applications $f \mapsto \partial^\alpha f$ de $\mathcal{C}^\infty(U)$ dans $\mathcal{R}(U)$, où ce dernier espace est muni de la topologie de la convergence compacte. Il existe une suite croissante de parties compactes $(H_n)_{n \geqslant 0}$ de U dont les intérieurs recouvrent U ; la famille des semi-normes $p_{m,H_n}$ définit la topologie de $\mathcal{C}^\infty(U)$, qui est donc un espace localement convexe métrisable. L’espace $\mathcal{C}^\infty(U)$ est complet, autrement dit, c’est un espace de Fréchet (II, p. 26) : en effet, soit $(f_k)$ une suite de Cauchy dans $\mathcal{C}^\infty(U)$; pour tout $\alpha \in \mathbf{N}^n$, la suite $(\partial^\alpha f_k)$ converge dans l’espace complet $\mathcal{R}(U)$ (TG, X, p. 7, th. 1) vers une fonction continue $g_\alpha$. Par récurrence sur $|\alpha|$, on déduit du th. 1 de FVR, II, p. 2, que l’on a $g_\alpha = \partial^\alpha g_0$ pour tout $\alpha \in \mathbf{N}^n$. Autrement dit, la suite $(f_k)$ converge vers $g_0$ dans $\mathcal{C}^\infty(U)$.
+On munira $\mathscr{C}^\infty(U)$ de la topologie définie par les semi-normes $p_{m,H}$. C’est la moins fine des topologies rendant continues les applications $f \mapsto \partial^\alpha f$ de $\mathscr{C}^\infty(U)$ dans $\mathscr{R}(U)$, où ce dernier espace est muni de la topologie de la convergence compacte. Il existe une suite croissante de parties compactes $(H_n)_{n \geqslant 0}$ de U dont les intérieurs recouvrent U ; la famille des semi-normes $p_{m,H_n}$ définit la topologie de $\mathscr{C}^\infty(U)$, qui est donc un espace localement convexe métrisable. L’espace $\mathscr{C}^\infty(U)$ est complet, autrement dit, c’est un espace de Fréchet (II, p. 26) : en effet, soit $(f_k)$ une suite de Cauchy dans $\mathscr{C}^\infty(U)$; pour tout $\alpha \in \mathbf{N}^n$, la suite $(\partial^\alpha f_k)$ converge dans l’espace complet $\mathscr{R}(U)$ (TG, X, p. 7, th. 1) vers une fonction continue $g_\alpha$. Par récurrence sur $|\alpha|$, on déduit du th. 1 de FVR, II, p. 2, que l’on a $g_\alpha = \partial^\alpha g_0$ pour tout $\alpha \in \mathbf{N}^n$. Autrement dit, la suite $(f_k)$ converge vers $g_0$ dans $\mathscr{C}^\infty(U)$.
 
-Soit A une partie de $\mathcal{C}^\infty(U)$. Pour que A soit bornée, il faut et il suffit que le nombre $\sup_{f \in A} p_{m,H}(f)$ soit fini quels que soient l’entier $m \geqslant 0$ et la partie compacte H de U ; cette condition signifie que, pour tout $\alpha \in \mathbf{N}^n$, l’ensemble des fonctions $\partial^\alpha f | H$ pour $f \in A$, est uniformément borné pour tout compact $H \subset U$.
+Soit A une partie de $\mathscr{C}^\infty(U)$. Pour que A soit bornée, il faut et il suffit que le nombre $\sup_{f \in A} p_{m,H}(f)$ soit fini quels que soient l’entier $m \geqslant 0$ et la partie compacte H de U ; cette condition signifie que, pour tout $\alpha \in \mathbf{N}^n$, l’ensemble des fonctions $\partial^\alpha f | H$ pour $f \in A$, est uniformément borné pour tout compact $H \subset U$.
 
-Soit $H \subset U$ compact. On note $\mathcal{C}_H^\infty(U)$ le sous-espace de $\mathcal{C}^\infty(U)$ formé des fonctions à support dans H. L’espace $\mathcal{C}_c^\infty(U)$ des fonctions indéfiniment dérivables et à support compact dans U est réunion filtrante croissante des sous-espaces $\mathcal{C}_H^\infty(U)$ lorsque H parcourt l’ensemble des parties compactes de U. Chaque espace $\mathcal{C}_H^\infty(U)$ sera muni de la topologie induite par celle de $\mathcal{C}^\infty(U)$, et $\mathcal{C}_c^\infty(U)$ de la topologie limite inductive correspondante. Si les ensembles $H_n$ sont tels que les intérieurs des $H_n$ forment un recouvrement de U, l’espace $\mathcal{C}_c^\infty(U)$ est limite inductive stricte des espaces de
+Soit $H \subset U$ compact. On note $\mathscr{C}_H^\infty(U)$ le sous-espace de $\mathscr{C}^\infty(U)$ formé des fonctions à support dans H. L’espace $\mathscr{C}_c^\infty(U)$ des fonctions indéfiniment dérivables et à support compact dans U est réunion filtrante croissante des sous-espaces $\mathscr{C}_H^\infty(U)$ lorsque H parcourt l’ensemble des parties compactes de U. Chaque espace $\mathscr{C}_H^\infty(U)$ sera muni de la topologie induite par celle de $\mathscr{C}^\infty(U)$, et $\mathscr{C}_c^\infty(U)$ de la topologie limite inductive correspondante. Si les ensembles $H_n$ sont tels que les intérieurs des $H_n$ forment un recouvrement de U, l’espace $\mathscr{C}_c^\infty(U)$ est limite inductive stricte des espaces de
 
-Fréchet $\mathcal{C}_{\mathbf{H}_n}^\infty(U)$; il est donc complet (II, p. 35, prop. 9), et toute partie bornée de $\mathcal{C}_c^\infty(U)$ est contenue dans l’un des sous-espaces $\mathcal{C}_{\mathbf{H}_n}^\infty(U)$ (III, p. 5, prop. 6). \*
+Fréchet $\mathscr{C}_{\mathbf{H}_n}^\infty(U)$; il est donc complet (II, p. 35, prop. 9), et toute partie bornée de $\mathscr{C}_c^\infty(U)$ est contenue dans l’un des sous-espaces $\mathscr{C}_{\mathbf{H}_n}^\infty(U)$ (III, p. 5, prop. 6). \*
 
-c) (Espaces de Gevrey.) Soit I un intervalle compact de $\mathbf{R}$. Pour tout entier $n \geqslant 0$, on note $D^n f$ la dérivée $n$-ième d’une fonction numérique $f$ définie dans I (lorsque cette dérivée existe). Soient $s \geqslant 1$ et $M \geqslant 0$ deux nombres réels. On note $\mathcal{G}_{s,M}(I)$ l’espace vectoriel des fonctions indéfiniment dérivables $f$ sur I (FVR, I, p. 28) telles que la suite $(|D^n f|/M^n(n!)^s)_{n \geqslant 0}$ soit bornée dans l’espace $\mathcal{C}(I)$ des fonctions continues sur I (muni de la topologie de la convergence uniforme). L’espace $\mathcal{G}_{s,M}(I)$ est un espace de Banach pour la norme
+c) (Espaces de Gevrey.) Soit I un intervalle compact de $\mathbf{R}$. Pour tout entier $n \geqslant 0$, on note $D^n f$ la dérivée $n$-ième d’une fonction numérique $f$ définie dans I (lorsque cette dérivée existe). Soient $s \geqslant 1$ et $M \geqslant 0$ deux nombres réels. On note $\mathscr{G}_{s,M}(I)$ l’espace vectoriel des fonctions indéfiniment dérivables $f$ sur I (FVR, I, p. 28) telles que la suite $(|D^n f|/M^n(n!)^s)_{n \geqslant 0}$ soit bornée dans l’espace $\mathscr{C}(I)$ des fonctions continues sur I (muni de la topologie de la convergence uniforme). L’espace $\mathscr{G}_{s,M}(I)$ est un espace de Banach pour la norme
 
 $$
 \|f\|_{s,M} = \sup_{n \geqslant 0, x \in I} |D^n f(x)|/M^n(n!)^s .
 $$
 
-Pour $M \leqslant M'$, on a $\mathcal{G}_{s,M}(I) \subset \mathcal{G}_{s,M'}(I)$ et
+Pour $M \leqslant M'$, on a $\mathscr{G}_{s,M}(I) \subset \mathscr{G}_{s,M'}(I)$ et
 
 $$
 \|f\|_{s,M'} \leqslant \|f\|_{s,M}
 $$
 
-pour tout $f \in \mathcal{G}_{s,M}(I)$. On note $\mathcal{G}_s(I)$ la réunion des espaces $\mathcal{G}_{s,M}(I)$ et on le munit de la topologie limite inductive des topologies des $\mathcal{G}_{s,M}(I)$.
+pour tout $f \in \mathscr{G}_{s,M}(I)$. On note $\mathscr{G}_s(I)$ la réunion des espaces $\mathscr{G}_{s,M}(I)$ et on le munit de la topologie limite inductive des topologies des $\mathscr{G}_{s,M}(I)$.
 
-Soit $M < M'$ et soit B la boule unité (fermée) dans $\mathcal{G}_{s,M}(I)$. Nous allons montrer que B est une partie *compacte* de l’espace de Banach $\mathcal{G}_{s,M'}(I)$. Il est clair que B est fermée dans $\mathcal{G}_{s,M'}(I)$ et il suffit donc de prouver que B est précompacte dans $\mathcal{G}_{s,M'}(I)$. Soit $\varepsilon > 0$ et soit N un entier positif tel que $(M/M')^N \leqslant \varepsilon/2$. Soit k un entier positif ; l’ensemble des fonctions $D^{k+1} f$, pour $f$ parcourant B, est borné dans $\mathcal{C}(I)$, donc l’ensemble des fonctions $D^k f$, où $f$ parcourt B, est relativement compact dans $\mathcal{C}(I)$ : cela résulte du th. des accroissements finis (FVR, I, p. 23, cor. 1) et du th. d’Ascoli (TG, X, p. 17). Définissons une norme q sur $\mathcal{G}_{s,M}(I)$ par
+Soit $M < M'$ et soit B la boule unité (fermée) dans $\mathscr{G}_{s,M}(I)$. Nous allons montrer que B est une partie *compacte* de l’espace de Banach $\mathscr{G}_{s,M'}(I)$. Il est clair que B est fermée dans $\mathscr{G}_{s,M'}(I)$ et il suffit donc de prouver que B est précompacte dans $\mathscr{G}_{s,M'}(I)$. Soit $\varepsilon > 0$ et soit N un entier positif tel que $(M/M')^N \leqslant \varepsilon/2$. Soit k un entier positif ; l’ensemble des fonctions $D^{k+1} f$, pour $f$ parcourant B, est borné dans $\mathscr{C}(I)$, donc l’ensemble des fonctions $D^k f$, où $f$ parcourt B, est relativement compact dans $\mathscr{C}(I)$ : cela résulte du th. des accroissements finis (FVR, I, p. 23, cor. 1) et du th. d’Ascoli (TG, X, p. 17). Définissons une norme q sur $\mathscr{G}_{s,M}(I)$ par
 
 $$
 q(f) = \sup_{\substack{0 \leqslant n \leqslant N \\ x \in I}} |D^n f(x)|/{M'}^n(n!)^s .
@@ -337,13 +337,13 @@ $$
 |D^n f(x) - D^n g(x)|/{M'}^n(n!)^s \leqslant 2(M/M')^n \leqslant \varepsilon ,
 $$
 
-d’où finalement $\|f - g\|_{s,M'} \leqslant \varepsilon$. Ceci prouve que B est précompacte dans $\mathcal{G}_{s,M'}(I)$.
+d’où finalement $\|f - g\|_{s,M'} \leqslant \varepsilon$. Ceci prouve que B est précompacte dans $\mathscr{G}_{s,M'}(I)$.
 
-L’espace $\mathcal{G}_s(I)$ est limite inductive des espaces $\mathcal{G}_{s,k}(I)$ où $k$ parcourt $\mathbf{N}$ ; d’après la prop. 7 (III, p. 6), toute partie bornée de $\mathcal{G}_s(I)$ est contenue dans l’un des espaces $\mathcal{G}_{s,k}(I)$ et elle est relativement compacte dans cet espace.
+L’espace $\mathscr{G}_s(I)$ est limite inductive des espaces $\mathscr{G}_{s,k}(I)$ où $k$ parcourt $\mathbf{N}$ ; d’après la prop. 7 (III, p. 6), toute partie bornée de $\mathscr{G}_s(I)$ est contenue dans l’un des espaces $\mathscr{G}_{s,k}(I)$ et elle est relativement compacte dans cet espace.
 
-*d*) (Espaces de fonctions holomorphes.) Soit $n \geqslant 1$ un entier. Pour toute partie ouverte U de $\mathbf{C}^n$, on note $\mathcal{H}(U)$ l’espace des fonctions holomorphes dans U, muni de la topologie de la convergence compacte dans U. Pour toute partie compacte L de $\mathbf{C}^n$, on note $\mathcal{H}(L)$ l’espace des germes de fonctions holomorphes au voisinage de L ; on le munit de la topologie localement convexe la plus fine rendant continues les applications canoniques $\pi_U : \mathcal{H}(U) \to \mathcal{H}(L)$, où U parcourt l’ensemble des voisinages ouverts de L.
+*d*) (Espaces de fonctions holomorphes.) Soit $n \geqslant 1$ un entier. Pour toute partie ouverte U de $\mathbf{C}^n$, on note $\mathscr{H}(U)$ l’espace des fonctions holomorphes dans U, muni de la topologie de la convergence compacte dans U. Pour toute partie compacte L de $\mathbf{C}^n$, on note $\mathscr{H}(L)$ l’espace des germes de fonctions holomorphes au voisinage de L ; on le munit de la topologie localement convexe la plus fine rendant continues les applications canoniques $\pi_U : \mathscr{H}(U) \to \mathscr{H}(L)$, où U parcourt l’ensemble des voisinages ouverts de L.
 
-Pour tout entier $m \geqslant 1$, soit $U_m$ l’ensemble des points de $\mathbf{C}^n$ à distance $< 1/m$ de L. On peut montrer que l’application canonique $\pi_{U_m}$ de $\mathcal{H}(U_m)$ dans $\mathcal{H}(L)$ est injective, et que l’application de restriction de $\mathcal{H}(U_m)$ dans $\mathcal{H}(U_p)$ est compacte pour $p \geqslant m$. On peut donc appliquer la prop. 7 (III, p. 6). Soit A une partie bornée de $\mathcal{H}(L)$; il existe alors un entier $m \geqslant 1$ tel que A se compose des germes au voisinage de L des fonctions appartenant à un ensemble B borné dans $\mathcal{H}(U_m)$. De plus, pour qu’une application $\varphi$ de $\mathcal{H}(L)$ dans un espace topologique T soit continue, il faut et il suffit que l’application $\varphi \circ \pi_U$ de $\mathcal{H}(U)$ dans T soit continue pour tout voisinage ouvert U de L. \*
+Pour tout entier $m \geqslant 1$, soit $U_m$ l’ensemble des points de $\mathbf{C}^n$ à distance $< 1/m$ de L. On peut montrer que l’application canonique $\pi_{U_m}$ de $\mathscr{H}(U_m)$ dans $\mathscr{H}(L)$ est injective, et que l’application de restriction de $\mathscr{H}(U_m)$ dans $\mathscr{H}(U_p)$ est compacte pour $p \geqslant m$. On peut donc appliquer la prop. 7 (III, p. 6). Soit A une partie bornée de $\mathscr{H}(L)$; il existe alors un entier $m \geqslant 1$ tel que A se compose des germes au voisinage de L des fonctions appartenant à un ensemble B borné dans $\mathscr{H}(U_m)$. De plus, pour qu’une application $\varphi$ de $\mathscr{H}(L)$ dans un espace topologique T soit continue, il faut et il suffit que l’application $\varphi \circ \pi_U$ de $\mathscr{H}(U)$ dans T soit continue pour tout voisinage ouvert U de L. \*
 
 ## EXERCICES {#evt-iii-s1-exercises}
 

@@ -32,7 +32,7 @@ subsections:
       pdf_page: 197
 statements: 38
 exercises: 25
-content_sha256: 6004fb719102bdab15221c3fbc8253ea6854e942dc649baf2fdb05e2c8e0e79e
+content_sha256: e26a0b06ed407bc263caf452d0124f6aa0fd27faeaff7e87f38c01cc71f61e72
 ---
 
 ## § 1. DUALITÉ
@@ -56,9 +56,9 @@ pour $x \in E,\ y \in F$.
 
 #### Définition 1 {#evt-iv-s1-def-1 .statement}
 
-On dit qu’une topologie localement convexe $\mathcal{T}$ sur E est compatible avec la dualité entre E et F si $d_B$ est une bijection de F sur le dual de l’espace localement convexe obtenu en munissant E de $\mathcal{T}$.
+On dit qu’une topologie localement convexe $\mathscr{T}$ sur E est compatible avec la dualité entre E et F si $d_B$ est une bijection de F sur le dual de l’espace localement convexe obtenu en munissant E de $\mathscr{T}$.
 
-S’il existe une telle topologie $\mathcal{T}$, l’application $d_B$ est injective, c’est-à-dire que la dualité entre E et F est séparante en F (II, p. 44).
+S’il existe une telle topologie $\mathscr{T}$, l’application $d_B$ est injective, c’est-à-dire que la dualité entre E et F est séparante en F (II, p. 44).
 
 #### Proposition 1 {#evt-iv-s1-prop-1 .statement}
 
@@ -66,50 +66,50 @@ S’il existe une telle topologie $\mathcal{T}$, l’application $d_B$ est injec
 
 (ii) Les parties bornées de E sont les mêmes pour toutes les topologies localement convexes sur E compatibles avec la dualité entre E et F.
 
-Soit $\mathcal{T}$ une topologie sur E compatible avec la dualité entre E et F, donc plus fine que $\sigma(E, F)$. Si une partie convexe de E est fermée pour $\mathcal{T}$, elle est intersection de demi-espaces réels fermés (II, p. 41, cor. 1), donc fermée pour $\sigma(E, F)$. Ceci prouve (i). L’assertion (ii) a été démontrée au cor. 3 de III, p. 28.
+Soit $\mathscr{T}$ une topologie sur E compatible avec la dualité entre E et F, donc plus fine que $\sigma(E, F)$. Si une partie convexe de E est fermée pour $\mathscr{T}$, elle est intersection de demi-espaces réels fermés (II, p. 41, cor. 1), donc fermée pour $\sigma(E, F)$. Ceci prouve (i). L’assertion (ii) a été démontrée au cor. 3 de III, p. 28.
 
-Notons $F_\sigma$ l’espace vectoriel $F$ muni de la topologie faible $\sigma(F, E)$. Alors l’application linéaire $s_B$ applique $E$ sur le dual $(F_\sigma)'$ de $F_\sigma$ (II, p. 46, prop. 3). Soit $\mathcal{S}$ un ensemble de parties bornées de $F_\sigma$. Par abus de langage, on appelle $\mathcal{S}\text{-topologie sur } E$ l’image réciproque par $s_B$ de la $\mathcal{S}\text{-topologie sur } (F_\sigma)'$. Elle est définie par la famille des semi-normes
+Notons $F_\sigma$ l’espace vectoriel $F$ muni de la topologie faible $\sigma(F, E)$. Alors l’application linéaire $s_B$ applique $E$ sur le dual $(F_\sigma)'$ de $F_\sigma$ (II, p. 46, prop. 3). Soit $\mathscr{S}$ un ensemble de parties bornées de $F_\sigma$. Par abus de langage, on appelle $\mathscr{S}\text{-topologie sur } E$ l’image réciproque par $s_B$ de la $\mathscr{S}\text{-topologie sur } (F_\sigma)'$. Elle est définie par la famille des semi-normes
 
 $$
 p_A(x) = \sup_{y \in A} |B(x, y)| ,
 $$
 
-où $A$ parcourt $\mathcal{S}$. En particulier, lorsque $\mathcal{S}$ est l’ensemble des parties finies de $F$, la $\mathcal{S}\text{-topologie}$ n’est autre que la topologie faible $\sigma(E, F)$.
+où $A$ parcourt $\mathscr{S}$. En particulier, lorsque $\mathscr{S}$ est l’ensemble des parties finies de $F$, la $\mathscr{S}\text{-topologie}$ n’est autre que la topologie faible $\sigma(E, F)$.
 
 #### Définition 2 {#evt-iv-s1-def-2 .statement}
 
-*Soient* $E$ et $F$ *deux espaces en dualité*. *On appelle topologie de Mackey sur* $E$, *et l’on note* $\tau(E, F)$, *la* $\mathcal{S}\text{-topologie sur } E$, *où* $\mathcal{S}$ *est l’ensemble des parties de* $F$ *dont l’image dans* $E^*$ *(par* $d_B$) *est convexe, équilibrée et compacte pour* $\sigma(E^*, E)$.
+*Soient* $E$ et $F$ *deux espaces en dualité*. *On appelle topologie de Mackey sur* $E$, *et l’on note* $\tau(E, F)$, *la* $\mathscr{S}\text{-topologie sur } E$, *où* $\mathscr{S}$ *est l’ensemble des parties de* $F$ *dont l’image dans* $E^*$ *(par* $d_B$) *est convexe, équilibrée et compacte pour* $\sigma(E^*, E)$.
 
-Lorsque la dualité entre $E$ et $F$ est séparante en $F$, $d_B$ est injective et la topologie $\sigma(F, E)$ sur $F$ est image réciproque par $d_B$ de la topologie $\sigma(E^*, E)$ sur $E^*$. Dans ce cas, $\mathcal{S}$ se compose des parties de $F$ qui sont convexes, équilibrées et compactes pour $\sigma(F, E)$.
+Lorsque la dualité entre $E$ et $F$ est séparante en $F$, $d_B$ est injective et la topologie $\sigma(F, E)$ sur $F$ est image réciproque par $d_B$ de la topologie $\sigma(E^*, E)$ sur $E^*$. Dans ce cas, $\mathscr{S}$ se compose des parties de $F$ qui sont convexes, équilibrées et compactes pour $\sigma(F, E)$.
 
 En général, si $F_1 = d_B(F) \subset E^*$, et si l’on désigne par $(x, y_1) \mapsto B_1(x, y_1)$ la restriction de la forme bilinéaire canonique $(x, x^*) \mapsto \langle x, x^* \rangle$ à $E \times F_1$, $E$ et $F_1$ sont mis en dualité par $B_1$, et cette dualité est séparante en $F_1$; comme on a par définition $B(x, y) = B_1(x, d_B(y))$, la déf. 2 montre que $\tau(E, F) = \tau(E, F_1)$.
 
 *Remarque* 1. — Soit $A$ une partie convexe compacte d’un espace localement convexe séparé $G$, et soit $\tilde{A}$ l’enveloppe fermée convexe équilibrée de $A$. Lorsque le corps $K$ est égal à $\mathbf{R}$, l’ensemble $\tilde{A}$ est l’enveloppe fermée convexe de $A \cup (-A)$; lorsque $K$ est égal à $\mathbf{C}$, l’ensemble $\tilde{A}$ est contenu dans l’enveloppe fermée convexe de $2A \cup (-2A) \cup (2iA) \cup (-2iA)$. Par suite (II, p. 14, prop. 15), $\tilde{A}$ est compact.
 
 On en déduit en particulier que, lorsque la dualité entre $E$ et $F$ est séparante en $F$,
-*la topologie de Mackey* $\tau(E, F)$ *est aussi la* $\mathcal{S}'\text{-topologie}$, *où* $\mathcal{S}'$ *est l’ensemble des parties convexes de* $F$ *qui sont compactes pour* $\sigma(F, E)$.
+*la topologie de Mackey* $\tau(E, F)$ *est aussi la* $\mathscr{S}'\text{-topologie}$, *où* $\mathscr{S}'$ *est l’ensemble des parties convexes de* $F$ *qui sont compactes pour* $\sigma(F, E)$.
 
 On définit de manière analogue la topologie de Mackey $\tau(F, E)$ sur $F$.
 
 #### Théorème 1 (Mackey) {#evt-iv-s1-thm-1 .statement}
 
-*Soient* $E$ et $F$ *deux espaces en dualité* ; *on suppose la dualité séparante en* $F$. *Pour qu’une topologie localement convexe* $\mathcal{T}$ *sur* $E$ *soit compatible avec la dualité entre* $E$ *et* $F$, *il faut et il suffit que* $\mathcal{T}$ *soit plus fine que la topologie* $\sigma(E, F)$ *et moins fine que la topologie de Mackey* $\tau(E, F)$.
+*Soient* $E$ et $F$ *deux espaces en dualité* ; *on suppose la dualité séparante en* $F$. *Pour qu’une topologie localement convexe* $\mathscr{T}$ *sur* $E$ *soit compatible avec la dualité entre* $E$ *et* $F$, *il faut et il suffit que* $\mathscr{T}$ *soit plus fine que la topologie* $\sigma(E, F)$ *et moins fine que la topologie de Mackey* $\tau(E, F)$.
 
-Identifions $F$ à son image par $d_B$ dans $E^*$. Notons $\mathcal{S}_0$ l’ensemble des parties de $F$ qui sont convexes, équilibrées et compactes pour $\sigma(F, E)$. Par définition, $\tau(E, F)$ est la $\mathcal{S}_0$-topologie sur $E$, donc est plus fine que $\sigma(E, F)$.
+Identifions $F$ à son image par $d_B$ dans $E^*$. Notons $\mathscr{S}_0$ l’ensemble des parties de $F$ qui sont convexes, équilibrées et compactes pour $\sigma(F, E)$. Par définition, $\tau(E, F)$ est la $\mathscr{S}_0$-topologie sur $E$, donc est plus fine que $\sigma(E, F)$.
 
 *Lemme* 1. — *Le sous-espace* $F$ *de* $E^*$ *se compose des formes linéaires sur* $E$ *continues pour* $\tau(E, F)$.
 
 Tout élément de F est une application continue pour $\sigma(E, F)$, donc pour $\tau(E, F)$.
 
-Réciproquement, soit $f \in E^*$ continue pour $\tau(E, F)$. Il existe un voisinage U de 0 dans E (pour $\tau(E, F)$), tel que $|f| \leq 1$ sur U ; on peut supposer qu’il existe un ensemble $A \in \mathcal{S}_0$ tel que $U = A^\circ$. Autrement dit, $f$ appartient au bipolaire $A^{\circ\circ}$ de A pour la dualité entre $E^*$ et E. Or la topologie $\sigma(F, E)$ sur F est induite par $\sigma(E^*, E)$; par suite, A est convexe, équilibré et compact pour $\sigma(E^*, E)$, et le th. des bipolaires (II, p. 48, th. 1) entraîne l’égalité $A = A^{\circ\circ}$. On a donc $f \in F$, d’où le lemme 1.
+Réciproquement, soit $f \in E^*$ continue pour $\tau(E, F)$. Il existe un voisinage U de 0 dans E (pour $\tau(E, F)$), tel que $|f| \leq 1$ sur U ; on peut supposer qu’il existe un ensemble $A \in \mathscr{S}_0$ tel que $U = A^\circ$. Autrement dit, $f$ appartient au bipolaire $A^{\circ\circ}$ de A pour la dualité entre $E^*$ et E. Or la topologie $\sigma(F, E)$ sur F est induite par $\sigma(E^*, E)$; par suite, A est convexe, équilibré et compact pour $\sigma(E^*, E)$, et le th. des bipolaires (II, p. 48, th. 1) entraîne l’égalité $A = A^{\circ\circ}$. On a donc $f \in F$, d’où le lemme 1.
 
 #### Lemme 2 {#evt-iv-s1-lem-2 .statement}
 
-Soit $\mathcal{T}$ une topologie localement convexe sur E telle que toute forme linéaire sur E continue pour $\mathcal{T}$ appartienne à F. Alors $\mathcal{T}$ est moins fine que $\tau(E, F)$.
+Soit $\mathscr{T}$ une topologie localement convexe sur E telle que toute forme linéaire sur E continue pour $\mathscr{T}$ appartienne à F. Alors $\mathscr{T}$ est moins fine que $\tau(E, F)$.
 
-Soit $\mathcal{U}$ l’ensemble des voisinages convexes et équilibrés de 0 pour $\mathcal{T}$. Soit $\mathcal{S}$ l’ensemble des polaires dans F des éléments de $\mathcal{U}$. On a $\mathcal{S} \subset \mathcal{S}_0$ d’après le cor. 2 de III, p. 17, et, d’après le cor. 1 de la prop. 7 de III, p. 19, $\mathcal{T}$ est identique à la $\mathcal{S}'$-topologie, où $\mathcal{S}'$ est l’ensemble des polaires des ensembles de $\mathcal{U}$ dans le dual $E'$ de E. Mais on a par hypothèse $E' \subset F$, donc tout ensemble de $\mathcal{S}'$ est contenu dans un ensemble de $\mathcal{S}$; d’où le lemme 2.
+Soit $\mathscr{U}$ l’ensemble des voisinages convexes et équilibrés de 0 pour $\mathscr{T}$. Soit $\mathscr{S}$ l’ensemble des polaires dans F des éléments de $\mathscr{U}$. On a $\mathscr{S} \subset \mathscr{S}_0$ d’après le cor. 2 de III, p. 17, et, d’après le cor. 1 de la prop. 7 de III, p. 19, $\mathscr{T}$ est identique à la $\mathscr{S}'$-topologie, où $\mathscr{S}'$ est l’ensemble des polaires des ensembles de $\mathscr{U}$ dans le dual $E'$ de E. Mais on a par hypothèse $E' \subset F$, donc tout ensemble de $\mathscr{S}'$ est contenu dans un ensemble de $\mathscr{S}$; d’où le lemme 2.
 
-Soit $\mathcal{T}$ une topologie sur E compatible avec la dualité entre E et F. Alors $\mathcal{T}$ est moins fine que $\tau(E, F)$ d’après le lemme 2, et il est évident que $\mathcal{T}$ est plus fine que $\sigma(E, F)$. Réciproquement, F est le dual de E pour la topologie $\tau(E, F)$ (lemme 1) et pour la topologie $\sigma(E, F)$ (II, p. 46, prop. 3), donc aussi pour toute topologie intermédiaire entre $\tau(E, F)$ et $\sigma(E, F)$.
+Soit $\mathscr{T}$ une topologie sur E compatible avec la dualité entre E et F. Alors $\mathscr{T}$ est moins fine que $\tau(E, F)$ d’après le lemme 2, et il est évident que $\mathscr{T}$ est plus fine que $\sigma(E, F)$. Réciproquement, F est le dual de E pour la topologie $\tau(E, F)$ (lemme 1) et pour la topologie $\sigma(E, F)$ (II, p. 46, prop. 3), donc aussi pour toute topologie intermédiaire entre $\tau(E, F)$ et $\sigma(E, F)$.
 
 #### Corollaire {#evt-iv-s1-n1-cor-1 .statement}
 
@@ -120,7 +120,7 @@ Soit p une semi-norme sur E. Les conditions suivantes sont équivalentes :
 
 (i) $\Rightarrow$ (ii) : si $p$ est continue pour $\tau(E, F)$, toute forme linéaire $f$ sur E telle que $|f| \leq p$ est continue pour $\tau(E, F)$, donc provient d’un élément de F d’après le lemme 1.
 
-(ii) $\Rightarrow$ (i) : soit $\mathcal{T}$ la topologie sur E définie par la semi-norme $p$. Si la condition (ii) est satisfaite, les formes linéaires sur E continues pour $\mathcal{T}$ appartiennent à F. D’après le lemme 2, $\mathcal{T}$ est moins fine que $\tau(E, F)$, donc $p$ est continue pour $\tau(E, F)$.
+(ii) $\Rightarrow$ (i) : soit $\mathscr{T}$ la topologie sur E définie par la semi-norme $p$. Si la condition (ii) est satisfaite, les formes linéaires sur E continues pour $\mathscr{T}$ appartiennent à F. D’après le lemme 2, $\mathscr{T}$ est moins fine que $\tau(E, F)$, donc $p$ est continue pour $\tau(E, F)$.
 
 #### Remarque 2 {#evt-iv-s1-n1-rem-2 .statement}
 
@@ -138,7 +138,7 @@ Soient G un espace localement convexe et $G'$ son dual. Sur $G'$, la topologie f
 
 #### Définition 3 {#evt-iv-s1-def-3 .statement}
 
-Soient E et F deux espaces vectoriels en dualité. On note $\beta(E, F)$ la $\mathcal{S}$-topologie, où $\mathcal{S}$ est l’ensemble des parties de F qui sont bornées pour $\sigma(F, E)$.
+Soient E et F deux espaces vectoriels en dualité. On note $\beta(E, F)$ la $\mathscr{S}$-topologie, où $\mathscr{S}$ est l’ensemble des parties de F qui sont bornées pour $\sigma(F, E)$.
 
 On définit de manière symétrique la topologie $\beta(F, E)$ sur F. On montre facilement que la topologie $\beta(E, F)$ est identique à $\beta(E, F/E^\circ)$, ce qui permet de se ramener au cas où la dualité entre E et F est séparante en F.
 
@@ -148,7 +148,7 @@ Notons $E_\sigma$ l’espace E muni de la topologie $\sigma(E, F)$. Les tonneaux
 
 #### Remarque 4 {#evt-iv-s1-n1-rem-4 .statement}
 
-Soit $\mathcal{T}$ une topologie sur E compatible avec la dualité entre E et F. D’après la prop. 1, (ii) de IV, p. 1, la topologie $\beta(F, E)$ sur F n’est autre que la topologie forte sur F identifié au dual de E (muni de $\mathcal{T}$).
+Soit $\mathscr{T}$ une topologie sur E compatible avec la dualité entre E et F. D’après la prop. 1, (ii) de IV, p. 1, la topologie $\beta(F, E)$ sur F n’est autre que la topologie forte sur F identifié au dual de E (muni de $\mathscr{T}$).
 
 #### Remarque 5 {#evt-iv-s1-n1-rem-5 .statement}
 
@@ -175,7 +175,7 @@ Pour qu’une famille $(x_i)_{i\in I}$ d’éléments de $E$ soit totale (resp. 
 
 #### Remarque 2 {#evt-iv-s1-n2-rem-2 .statement}
 
-Soient $\mathcal{T}_1$ et $\mathcal{T}_2$ deux topologies localement convexes sur $E$, compatibles avec la dualité entre $E$ et $E'$, $\mathcal{T}_1$ étant plus fine que $\mathcal{T}_2$. Alors tout voisinage de 0 pour $\mathcal{T}_1$ qui est convexe et fermé pour $\mathcal{T}_1$ est fermé pour $\mathcal{T}_2$ d’après la prop. 1 de IV, p. 1. Par suite (TG, II, p. 16, corollaire), toute partie de $E$ qui est complète pour $\mathcal{T}_2$ l’est aussi pour $\mathcal{T}_1$.
+Soient $\mathscr{T}_1$ et $\mathscr{T}_2$ deux topologies localement convexes sur $E$, compatibles avec la dualité entre $E$ et $E'$, $\mathscr{T}_1$ étant plus fine que $\mathscr{T}_2$. Alors tout voisinage de 0 pour $\mathscr{T}_1$ qui est convexe et fermé pour $\mathscr{T}_1$ est fermé pour $\mathscr{T}_2$ d’après la prop. 1 de IV, p. 1. Par suite (TG, II, p. 16, corollaire), toute partie de $E$ qui est complète pour $\mathscr{T}_2$ l’est aussi pour $\mathscr{T}_1$.
 
 En particulier, toute partie de $E$ complète pour la topologie affaiblie l’est pour la topologie initiale, toute partie de $E$ complète pour la topologie initiale l’est pour la topologie de Mackey. Si $E$ est quasi-complet pour la topologie affaiblie, il l’est pour toute topologie compatible avec la dualité entre $E$ et $E'$. S’il est quasi-complet pour la topologie initiale, il l’est pour la topologie de Mackey.
 
@@ -224,7 +224,7 @@ Un sous-espace vectoriel de $E_2$ est dense pour la topologie initiale si et seu
 
 #### Proposition 6 {#evt-iv-s1-prop-6 .statement}
 
-*Soit $u$ une application linéaire de $E_1$ dans $E_2$, continue pour les topologies affaiblies. Pour $i = 1, 2$, soit $\mathcal{S}_i$ un ensemble de parties bornées de $E_i$. Pour que $^t u$ soit une application continue de $(E'_2)_{\mathcal{S}_2}$ dans $(E'_1)_{\mathcal{S}_1}$, il faut et il suffit que, pour tout ensemble $A \in \mathcal{S}_1$, il existe des ensembles $A_1, ..., A_n$ dans $\mathcal{S}_2$ et un nombre réel $\lambda > 0$ tels que $\lambda . u(A)$ soit contenu dans l’enveloppe fermée convexe équilibrée de $A_1 \cup ... \cup A_n$^1.*
+*Soit $u$ une application linéaire de $E_1$ dans $E_2$, continue pour les topologies affaiblies. Pour $i = 1, 2$, soit $\mathscr{S}_i$ un ensemble de parties bornées de $E_i$. Pour que $^t u$ soit une application continue de $(E'_2)_{\mathscr{S}_2}$ dans $(E'_1)_{\mathscr{S}_1}$, il faut et il suffit que, pour tout ensemble $A \in \mathscr{S}_1$, il existe des ensembles $A_1, ..., A_n$ dans $\mathscr{S}_2$ et un nombre réel $\lambda > 0$ tels que $\lambda . u(A)$ soit contenu dans l’enveloppe fermée convexe équilibrée de $A_1 \cup ... \cup A_n$^1.*
 
 C’est une conséquence immédiate de la prop. 2 de III, p. 15.
 
@@ -240,7 +240,7 @@ C’est une conséquence immédiate de la prop. 2 de III, p. 15.
 
 Le seul point qui demande une démonstration est le cas c), lorsque les topologies de $E_1$ et $E_2$ ne sont pas nécessairement séparées. Alors pour toute forme linéaire $f \in E'_1*$, $f \circ ^t u$ est une forme linéaire sur $E'_2$; donc il y a une application linéaire $v : E'_1* \to E'_2*$, continue pour les topologies $\sigma(E'_1*, E'_1)$ et $\sigma(E'_2*, E'_2)$ et telle que $d_{B_2} \circ u = v \circ d_{B_1}$, où $d_{B_i}$ est l’application canonique de $E_i$ dans $E'_i*$ ($i = 1, 2$). Par suite, si $A$ est une partie de $E_1$ telle que $d_{B_1}(A)$ soit convexe, équilibrée et compacte pour $\sigma(E'_1*, E'_1)$, $d_{B_2}(u(A)) = v(d_{B_1}(A))$ est convexe, équilibrée et compacte pour $\sigma(E'_2*, E'_2)$, les topologies $\sigma(E'_1*, E'_1)$ et $\sigma(E'_2*, E'_2)$ étant séparées.
 
-^1 Autrement dit, $u(\mathcal{S}_1)$ est contenu dans la plus petite bornologie adaptée contenant $\mathcal{S}_2$ (III, p. 3).
+^1 Autrement dit, $u(\mathscr{S}_1)$ est contenu dans la plus petite bornologie adaptée contenant $\mathscr{S}_2$ (III, p. 3).
 
 #### Proposition 7 {#evt-iv-s1-prop-7 .statement}
 
@@ -345,7 +345,7 @@ $$
 
 pour tout $x \in E$, ceci signifie encore que B est équicontinu dans $E'$, d’où (i).
 
-Soient $A \in \mathcal{S}$ et $f$ une forme linéaire continue sur E/M. Pour tout $\lambda \in \mathbf{R}_+$, on a $|f| \leq \lambda$ sur $p(A)$ si et seulement si l’on a $|'p(f)| \leq \lambda$ sur A ; d’où (ii).
+Soient $A \in \mathscr{S}$ et $f$ une forme linéaire continue sur E/M. Pour tout $\lambda \in \mathbf{R}_+$, on a $|f| \leq \lambda$ sur $p(A)$ si et seulement si l’on a $|'p(f)| \leq \lambda$ sur A ; d’où (ii).
 
 Prouvons enfin (iii). Soit $y'$ dans $(E/M)'$. Pour qu’un élément de E/M soit de norme < 1, il faut et il suffit qu’il soit l’image par p d’un élément de norme < 1 dans E. On a donc
 
@@ -362,17 +362,17 @@ et $'p$ induit une isométrie de $(E/M)'$ sur $M^\circ$.
 
 (i) *Pour qu’une partie A de M’ soit équicontinue, il faut et il suffit qu’elle soit l’image par $'i$ d’une partie équicontinue de E’*.
 
-(ii) *Supposons M fermé dans E. Soit $\mathcal{S}$ un recouvrement de E formé de parties bornées et soit $\mathcal{S}_1$ l’ensemble des parties de M de la forme $M \cap A$ pour A dans $\mathcal{S}$. L’application linéaire bijective $i$ de $E'_\mathcal{S}/M^\circ$ sur $M'_{\mathcal{S}_1}$ est continue. C’est un homéomorphisme si $\mathcal{S}$ est filtrant pour la relation $\subset$ et se compose d’ensembles convexes fermés et compacts pour $\sigma(E, E')$*.
+(ii) *Supposons M fermé dans E. Soit $\mathscr{S}$ un recouvrement de E formé de parties bornées et soit $\mathscr{S}_1$ l’ensemble des parties de M de la forme $M \cap A$ pour A dans $\mathscr{S}$. L’application linéaire bijective $i$ de $E'_\mathscr{S}/M^\circ$ sur $M'_{\mathscr{S}_1}$ est continue. C’est un homéomorphisme si $\mathscr{S}$ est filtrant pour la relation $\subset$ et se compose d’ensembles convexes fermés et compacts pour $\sigma(E, E')$*.
 
 (iii) *Supposons E normé. Alors $i$ est une isométrie de $E'/M^\circ$ sur $M'$*.
 
 L’image par $'i$ d’une partie équicontinue de $E'$ est une partie équicontinue de $M'$ (IV, p. 47, prop. 7). Réciproquement, soit A une partie équicontinue de $M'$. La topologie de M est définie par l’ensemble des restrictions à M des semi-normes continues sur E. Il existe donc une semi-norme continue p sur E telle que $|f(x)| \leq p(x)$ pour $f \in A$ et $x \in M$. Soit B l’ensemble des formes linéaires g sur E, telles que $|g| \leq p$ et dont la restriction à M appartient à A. L’ensemble B est équicontinu dans $E'$; d’après le th. de Hahn-Banach (II, p. 24, cor. 1), on a $'i(B) = A$, d’où (i).
 
-Prouvons (ii). D’après la prop. 6 de IV, p. 6, l’application linéaire $'i$ de $E'_\mathcal{S}$ dans $M'_{\mathcal{S}_1}$ est continue, et définit donc par passage au quotient une application linéaire continue $i$ de $E'_\mathcal{S}/M^\circ$ sur $M'_{\mathcal{S}_1}$. Soit $\mathcal{T}$ la topologie sur $M'$ obtenue en transportant celle de $E'_\mathcal{S}/M^\circ$ par $i$; elle est plus fine que la $\mathcal{S}_1$-topologie.
+Prouvons (ii). D’après la prop. 6 de IV, p. 6, l’application linéaire $'i$ de $E'_\mathscr{S}$ dans $M'_{\mathscr{S}_1}$ est continue, et définit donc par passage au quotient une application linéaire continue $i$ de $E'_\mathscr{S}/M^\circ$ sur $M'_{\mathscr{S}_1}$. Soit $\mathscr{T}$ la topologie sur $M'$ obtenue en transportant celle de $E'_\mathscr{S}/M^\circ$ par $i$; elle est plus fine que la $\mathscr{S}_1$-topologie.
 
-Supposons maintenant que $\mathcal{S}$ soit filtrant pour $\subset$ et se compose d’ensembles convexes, équilibrés, fermés et compacts pour $\sigma(E, E')$. Pour montrer que $i$ est un homéomorphisme, c’est-à-dire que $\mathcal{T}$ est moins fine que la $\mathcal{S}_1$-topologie sur $M'$, il suffit de prouver que $\mathcal{T}$ est compatible avec la dualité entre $M'$ et M et que tout ensemble équicontinu dans M (considéré comme dual de $M'$ muni de $\mathcal{T}$) est contenu dans l’homothétique d’un ensemble appartenant à $\mathcal{S}_1$. Comme $\mathcal{T}$ est plus fine que la $\mathcal{S}_1$-topologie et que $\mathcal{S}_1$ est un recouvrement de $M$, la forme linéaire $y' \mapsto \langle y, y' \rangle$ sur $M'$ est continue pour $\mathcal{T}$ quel que soit $y \in M$. Soit $f$ une forme linéaire sur $M'$, continue pour $\mathcal{T}$; alors $f \circ 'i$ est une forme linéaire continue sur $E'_\mathcal{S}$. La $\mathcal{S}$-topologie sur $E'$ est moins fine que la topologie de Mackey $\tau(E', E)$; en effet, l’application $d_B : E \to {E'}^*$ est continue pour les topologies $\sigma(E, E')$ et $\sigma({E'}^*, E')$, et comme cette dernière est séparée, l’image par $d_B$ d’un ensemble compact pour $\sigma(E, E')$ est compacte pour $\sigma({E'}^*, E')$. D’après le lemme 1 de IV, p. 2, il existe $x_0 \in E$ tel que $f('i(x')) = \langle x_0, x' \rangle$ pour tout $x' \in E'$. En particulier, on a $\langle x_0, x' \rangle = 0$ pour tout $x' \in M^\circ$, et comme $M$ est fermé dans $E$, on a donc $x_0 \in M$ (II, p. 48, cor. 2), et finalement $f(y') = \langle x_0, y' \rangle$ pour tout $y' \in M'$, ce qui prouve que $\mathcal{T}$ est compatible avec la dualité entre $M$ et $M'$.
+Supposons maintenant que $\mathscr{S}$ soit filtrant pour $\subset$ et se compose d’ensembles convexes, équilibrés, fermés et compacts pour $\sigma(E, E')$. Pour montrer que $i$ est un homéomorphisme, c’est-à-dire que $\mathscr{T}$ est moins fine que la $\mathscr{S}_1$-topologie sur $M'$, il suffit de prouver que $\mathscr{T}$ est compatible avec la dualité entre $M'$ et M et que tout ensemble équicontinu dans M (considéré comme dual de $M'$ muni de $\mathscr{T}$) est contenu dans l’homothétique d’un ensemble appartenant à $\mathscr{S}_1$. Comme $\mathscr{T}$ est plus fine que la $\mathscr{S}_1$-topologie et que $\mathscr{S}_1$ est un recouvrement de $M$, la forme linéaire $y' \mapsto \langle y, y' \rangle$ sur $M'$ est continue pour $\mathscr{T}$ quel que soit $y \in M$. Soit $f$ une forme linéaire sur $M'$, continue pour $\mathscr{T}$; alors $f \circ 'i$ est une forme linéaire continue sur $E'_\mathscr{S}$. La $\mathscr{S}$-topologie sur $E'$ est moins fine que la topologie de Mackey $\tau(E', E)$; en effet, l’application $d_B : E \to {E'}^*$ est continue pour les topologies $\sigma(E, E')$ et $\sigma({E'}^*, E')$, et comme cette dernière est séparée, l’image par $d_B$ d’un ensemble compact pour $\sigma(E, E')$ est compacte pour $\sigma({E'}^*, E')$. D’après le lemme 1 de IV, p. 2, il existe $x_0 \in E$ tel que $f('i(x')) = \langle x_0, x' \rangle$ pour tout $x' \in E'$. En particulier, on a $\langle x_0, x' \rangle = 0$ pour tout $x' \in M^\circ$, et comme $M$ est fermé dans $E$, on a donc $x_0 \in M$ (II, p. 48, cor. 2), et finalement $f(y') = \langle x_0, y' \rangle$ pour tout $y' \in M'$, ce qui prouve que $\mathscr{T}$ est compatible avec la dualité entre $M$ et $M'$.
 
-Soit maintenant $A$ une partie de $M$ équicontinue pour la topologie $\mathcal{T}$ sur $M'$. Par définition de $\mathcal{T}$, et en vertu de l’hypothèse que $\mathcal{S}$ est filtrant, cela signifie qu’il existe un ensemble $B \in \mathcal{S}$ contenant $0$ et tel que la borne supérieure $\lambda$ des nombres $|\langle y, x' \rangle|$, pour $y \in A$ et $x' \in B^\circ$, soit finie (III, p. 19, prop. 7). Comme $B$ est fermé dans $E$, le th. des bipolaires (II, p. 48, th. 1) montre que l’on a $A \subset \lambda(B \cap M)$, ce qui achève de prouver (ii).
+Soit maintenant $A$ une partie de $M$ équicontinue pour la topologie $\mathscr{T}$ sur $M'$. Par définition de $\mathscr{T}$, et en vertu de l’hypothèse que $\mathscr{S}$ est filtrant, cela signifie qu’il existe un ensemble $B \in \mathscr{S}$ contenant $0$ et tel que la borne supérieure $\lambda$ des nombres $|\langle y, x' \rangle|$, pour $y \in A$ et $x' \in B^\circ$, soit finie (III, p. 19, prop. 7). Comme $B$ est fermé dans $E$, le th. des bipolaires (II, p. 48, th. 1) montre que l’on a $A \subset \lambda(B \cap M)$, ce qui achève de prouver (ii).
 
 Prouvons (iii). Soit $y' \in M'$. Il s’agit d’établir la formule
 $$
@@ -411,11 +411,11 @@ On rappelle (II, p. 53, prop. 8) que la topologie faible $\sigma(E, F)$ est prod
 
 #### Lemme 3 {#evt-iv-s1-lem-3 .statement}
 
-(i) Pour tout $i \in I$, soit $\mathcal{S}_i$ un ensemble de parties de $F_i$, bornées pour $\sigma(F_i, E_i)$; posons $\mathcal{S} = \bigcup_{i \in I} \mathcal{S}_i$. Alors la $\mathcal{S}$-topologie sur $E$ est produit des $\mathcal{S}_i$-topologies sur les $E_i$.
+(i) Pour tout $i \in I$, soit $\mathscr{S}_i$ un ensemble de parties de $F_i$, bornées pour $\sigma(F_i, E_i)$; posons $\mathscr{S} = \bigcup_{i \in I} \mathscr{S}_i$. Alors la $\mathscr{S}$-topologie sur $E$ est produit des $\mathscr{S}_i$-topologies sur les $E_i$.
 
 (ii) Pour tout $i \in I$, soit $\mathfrak{J}_i$ une bornologie adaptée sur l’espace $E_i$ muni de la topologie faible $\sigma(E_i, F_i)$, non réduite à $\{\emptyset\}$. Soit $\mathfrak{J}$ l’ensemble des parties $A$ de $E = \prod_{i \in I} E_i$ telles que $\operatorname{pr}_i(A) \in \mathfrak{J}_i$ pour tout $i \in I$. Alors la $\mathfrak{J}$-topologie sur $F$ est somme directe des $\mathfrak{J}_i$-topologies sur les $F_i$.
 
-Soit $\mathcal{T}$ le produit des $\mathcal{S}_i$-topologies. Un système fondamental de voisinages de 0 pour $\mathcal{T}$ est formé des ensembles de la forme $A = \prod_{i \in J} A_i^\circ \times \prod_{i \in I - J} E_i$, où $J \subset I$ est fini et $A_i \in \mathcal{S}_i$ pour tout $i \in J$. On a $A = (\bigcup_{i \in J} A_i)^\circ$, donc $\mathcal{T}$ est identique à la $\mathcal{S}$-topologie.
+Soit $\mathscr{T}$ le produit des $\mathscr{S}_i$-topologies. Un système fondamental de voisinages de 0 pour $\mathscr{T}$ est formé des ensembles de la forme $A = \prod_{i \in J} A_i^\circ \times \prod_{i \in I - J} E_i$, où $J \subset I$ est fini et $A_i \in \mathscr{S}_i$ pour tout $i \in J$. On a $A = (\bigcup_{i \in J} A_i)^\circ$, donc $\mathscr{T}$ est identique à la $\mathscr{S}$-topologie.
 
 Ceci prouve (i).
 
@@ -437,13 +437,13 @@ où la dernière égalité résulte de (8) puisque la famille $(y_i)_{i \in I}$ 
 
 La topologie $\beta(F, E)$ est somme directe des topologies $\beta(F_i, E_i)$. La topologie $\beta(E, F)$ est produit des topologies $\beta(E_i, F_i)$.
 
-Nous appliquerons le lemme 3 en prenant pour $\mathcal{S}_i$ l’ensemble de toutes les parties de $F_i$ bornées pour $\sigma(F_i, E_i)$ et pour $\mathfrak{J}_i$ l’ensemble de toutes les parties de $E_i$ bornées pour $\sigma(E_i, F_i)$.
+Nous appliquerons le lemme 3 en prenant pour $\mathscr{S}_i$ l’ensemble de toutes les parties de $F_i$ bornées pour $\sigma(F_i, E_i)$ et pour $\mathfrak{J}_i$ l’ensemble de toutes les parties de $E_i$ bornées pour $\sigma(E_i, F_i)$.
 
 D’après le cor. 2 de III, p. 4, $\mathfrak{J}$ est l’ensemble de toutes les parties de $E$ bornées pour la topologie produit des $\sigma(E_i, F_i)$, identique à $\sigma(E, F)$. D’où l’assertion sur $\beta(F, E)$.
 
-Munissons $F = \bigoplus_{i \in I} F_i$ de la topologie $\mathcal{T}$ somme directe des $\sigma(F_i, E_i)$. Le dual de $F$ se compose alors des formes linéaires $y \mapsto B(x, y)$ pour $x$ parcourant $E$ (II, p. 32, prop. 6). D’après la prop. 1 de IV, p. 1, les topologies $\mathcal{T}$ et $\sigma(F, E)$ ont les mêmes ensembles bornés. Supposons d’abord les topologies $\sigma(F_i, E_i)$ séparées. D’après la prop. 5 de III, p. 5, ces ensembles sont ceux contenus dans une partie de la forme $\sum_{i \in J} B_i$ avec $J \subset I$ fini et $B_i$ borné dans $F_i$ (pour $\sigma(F_i, E_i)$) quel que soit $i \in J$. Comme $\sum_{i \in J} B_i$ est contenue dans l’enveloppe convexe de $\bigcup_{i \in J} nB_i$, où $n = \mathrm{Card}(J)$, on peut appliquer le lemme 3, d’où l’assertion sur $\beta(E, F)$ dans ce cas.
+Munissons $F = \bigoplus_{i \in I} F_i$ de la topologie $\mathscr{T}$ somme directe des $\sigma(F_i, E_i)$. Le dual de $F$ se compose alors des formes linéaires $y \mapsto B(x, y)$ pour $x$ parcourant $E$ (II, p. 32, prop. 6). D’après la prop. 1 de IV, p. 1, les topologies $\mathscr{T}$ et $\sigma(F, E)$ ont les mêmes ensembles bornés. Supposons d’abord les topologies $\sigma(F_i, E_i)$ séparées. D’après la prop. 5 de III, p. 5, ces ensembles sont ceux contenus dans une partie de la forme $\sum_{i \in J} B_i$ avec $J \subset I$ fini et $B_i$ borné dans $F_i$ (pour $\sigma(F_i, E_i)$) quel que soit $i \in J$. Comme $\sum_{i \in J} B_i$ est contenue dans l’enveloppe convexe de $\bigcup_{i \in J} nB_i$, où $n = \mathrm{Card}(J)$, on peut appliquer le lemme 3, d’où l’assertion sur $\beta(E, F)$ dans ce cas.
 
-Dans le cas général, soit $N_i$ l’intersection des voisinages de 0 pour $\sigma(F_i, E_i)$, et soit $N = \sum_{i \in I} N_i$, de sorte que $F/N$ est somme directe topologique des $F_i/N_i$ (II, p. 33, prop. 8) ; on en déduit que toute partie bornée de $F$ pour $\mathcal{T}$ est contenue dans un ensemble de la forme $N + \sum_{i \in J} B_i$ avec $J \subset I$ fini et $B_i$ borné dans $F_i$ pour tout $i \in J$ (III, p. 2, Remarque 3) ; comme le polaire de cet ensemble dans $E$ est le même que celui de $\sum_{i \in J} B_i$, on conclut comme ci-dessus.
+Dans le cas général, soit $N_i$ l’intersection des voisinages de 0 pour $\sigma(F_i, E_i)$, et soit $N = \sum_{i \in I} N_i$, de sorte que $F/N$ est somme directe topologique des $F_i/N_i$ (II, p. 33, prop. 8) ; on en déduit que toute partie bornée de $F$ pour $\mathscr{T}$ est contenue dans un ensemble de la forme $N + \sum_{i \in J} B_i$ avec $J \subset I$ fini et $B_i$ borné dans $F_i$ pour tout $i \in J$ (III, p. 2, Remarque 3) ; comme le polaire de cet ensemble dans $E$ est le même que celui de $\sum_{i \in J} B_i$, on conclut comme ci-dessus.
 
 #### Proposition 13 {#evt-iv-s1-prop-13 .statement}
 

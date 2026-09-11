@@ -33,7 +33,7 @@ subsections:
       pdf_page: 204
 statements: 34
 exercises: 26
-content_sha256: e6722903ebc281254eb64317db1378ab5062b413f45e36d36748bd41a178c207
+content_sha256: 409f0178949adcf6cacb5ee7ac76fcfd85740bd4b2659ccc107f65ea977bfee7
 ---
 
 ## § 2. BIDUAL. ESPACES RÉFLEXIFS
@@ -54,7 +54,7 @@ Par construction, le noyau de $c_E$ est l’intersection des noyaux des formes l
 
 Lorsque $E$ est séparé, on identifie $E$ à un sous-espace de $E''$ grâce à $c_E$.
 
-La topologie *forte* sur $E''$ est la $\mathcal{S}$-topologie, où $\mathcal{S}$ est l’ensemble des parties fortement bornées de $E'$. Comme toute partie équicontinue de $E'$ est fortement bornée (III, p. 22, prop. 9), la topologie initiale sur $E$ est *moins fine* que la topologie image réciproque par $c_E$ de la topologie forte de $E''$; elle peut être strictement moins fine (IV, p. 52, exerc. 1). Toutefois :
+La topologie *forte* sur $E''$ est la $\mathscr{S}$-topologie, où $\mathscr{S}$ est l’ensemble des parties fortement bornées de $E'$. Comme toute partie équicontinue de $E'$ est fortement bornée (III, p. 22, prop. 9), la topologie initiale sur $E$ est *moins fine* que la topologie image réciproque par $c_E$ de la topologie forte de $E''$; elle peut être strictement moins fine (IV, p. 52, exerc. 1). Toutefois :
 
 #### Proposition 2 {#evt-iv-s2-prop-2 .statement}
 
@@ -220,7 +220,7 @@ Tout espace séparé de dimension finie est un espace de Montel. Un espace norm�
 
 Reprenons les hypothèses et notations de la prop. 7 de III, p. 6. L’espace E est tonnelé comme limite inductive d’espaces de Banach (III, p. 25); de plus, toute partie bornée de E est relativement compacte (III, p. 6, prop. 7). Autrement dit, E est un espace de Montel.
 
-En particulier, les espaces de Gevrey (III, p. 10) sont des espaces de Montel. \* Il en est de même de l’espace $\mathcal{H}(K)$ des germes de fonctions analytiques au voisinage d’une partie compacte K de $\mathbf{C}^n$ (III, p. 10).
+En particulier, les espaces de Gevrey (III, p. 10) sont des espaces de Montel. \* Il en est de même de l’espace $\mathscr{H}(K)$ des germes de fonctions analytiques au voisinage d’une partie compacte K de $\mathbf{C}^n$ (III, p. 10).
 
 #### Exemple 3 {#evt-iv-s2-n5-exa-3 .statement}
 
@@ -228,9 +228,9 @@ Toute limite inductive stricte E d’une suite $(E_n)$ d’espaces de Montel (II
 
 #### Exemple 4 {#evt-iv-s2-n5-exa-4 .statement}
 
-\* Soit U un ouvert de $\mathbf{R}^n$ et soit $\mathcal{C}^\infty(U)$ l’espace de Fréchet des fonctions indéfiniment dérivables sur U (III, p. 9). Démontrons que c’est un espace de Montel. Comme $\mathcal{C}^\infty(U)$ est un espace de Fréchet, il est tonnelé (III, p. 25, corollaire). Soit B une partie bornée de $\mathcal{C}^\infty(U)$, et soit K une partie compacte de U. Pour tout $\alpha \in \mathbf{N}^n$, soit $H_{\alpha, K}$ l’ensemble des restrictions à K des fonctions $\partial^\alpha f$, où $f$ parcourt B. Soit $\alpha \in \mathbf{N}^n$; pour tout $\beta \in \mathbf{N}^n$ tel que $|\beta| = |\alpha| + 1$, l’ensemble $H_{\beta, K}$ est borné dans $\mathcal{C}(K)$ puisque B est borné dans $\mathcal{C}^\infty(U)$; d’après VAR, R., no 2.2.3, l’ensemble $H_{\alpha, K}$ est équicontinu, donc (TG, X, p. 17) relativement compact dans $\mathcal{C}(K)$. Or la topologie de $\mathcal{C}^\infty(U)$ est la moins fine des topologies rendant continues les applications $f \mapsto \partial^\alpha f|K$ de $\mathcal{C}^\infty(U)$ dans $\mathcal{C}(K)$, donc B est relativement compacte dans $\mathcal{C}^\infty(U)$ (TG, I, p. 26, prop. 3 et p. 64, corollaire).
+\* Soit U un ouvert de $\mathbf{R}^n$ et soit $\mathscr{C}^\infty(U)$ l’espace de Fréchet des fonctions indéfiniment dérivables sur U (III, p. 9). Démontrons que c’est un espace de Montel. Comme $\mathscr{C}^\infty(U)$ est un espace de Fréchet, il est tonnelé (III, p. 25, corollaire). Soit B une partie bornée de $\mathscr{C}^\infty(U)$, et soit K une partie compacte de U. Pour tout $\alpha \in \mathbf{N}^n$, soit $H_{\alpha, K}$ l’ensemble des restrictions à K des fonctions $\partial^\alpha f$, où $f$ parcourt B. Soit $\alpha \in \mathbf{N}^n$; pour tout $\beta \in \mathbf{N}^n$ tel que $|\beta| = |\alpha| + 1$, l’ensemble $H_{\beta, K}$ est borné dans $\mathscr{C}(K)$ puisque B est borné dans $\mathscr{C}^\infty(U)$; d’après VAR, R., no 2.2.3, l’ensemble $H_{\alpha, K}$ est équicontinu, donc (TG, X, p. 17) relativement compact dans $\mathscr{C}(K)$. Or la topologie de $\mathscr{C}^\infty(U)$ est la moins fine des topologies rendant continues les applications $f \mapsto \partial^\alpha f|K$ de $\mathscr{C}^\infty(U)$ dans $\mathscr{C}(K)$, donc B est relativement compacte dans $\mathscr{C}^\infty(U)$ (TG, I, p. 26, prop. 3 et p. 64, corollaire).
 
-De même, l’espace $\mathcal{C}_0^\infty(U)$ des fonctions indéfiniment dérivables à support compact dans U (III, p. 9) est un espace de Montel. En effet, $\mathcal{C}_0^\infty(U)$ est limite inductive stricte d’une suite d’espaces de Fréchet $\mathcal{C}_{H_n}^\infty(U)$ (III, p. 9), et il suffit de voir que chacun des espaces $\mathcal{C}_{H_n}^\infty(U)$ est un espace de Montel (Exemple 3). Mais une partie bornée et fermée de $\mathcal{C}_{H_n}^\infty(U)$ est bornée et fermée dans $\mathcal{C}^\infty(U)$, donc compacte dans $\mathcal{C}^\infty(U)$, et par suite dans $\mathcal{C}_{H_n}^\infty(U)$. \*
+De même, l’espace $\mathscr{C}_0^\infty(U)$ des fonctions indéfiniment dérivables à support compact dans U (III, p. 9) est un espace de Montel. En effet, $\mathscr{C}_0^\infty(U)$ est limite inductive stricte d’une suite d’espaces de Fréchet $\mathscr{C}_{H_n}^\infty(U)$ (III, p. 9), et il suffit de voir que chacun des espaces $\mathscr{C}_{H_n}^\infty(U)$ est un espace de Montel (Exemple 3). Mais une partie bornée et fermée de $\mathscr{C}_{H_n}^\infty(U)$ est bornée et fermée dans $\mathscr{C}^\infty(U)$, donc compacte dans $\mathscr{C}^\infty(U)$, et par suite dans $\mathscr{C}_{H_n}^\infty(U)$. \*
 
 #### Proposition 8 {#evt-iv-s2-prop-8 .statement}
 
@@ -238,7 +238,7 @@ Soit E un espace de Montel et soit $\mathfrak{F}$ un filtre sur E, qui converge 
 
 Supposons d’abord qu’il existe dans $\mathfrak{F}$ un ensemble borné B. L’adhérence $\overline{B}$ de B pour la topologie initiale de E est bornée ; de plus, $\overline{B}$ est compacte car E est un espace de Montel. La topologie induite sur $\overline{B}$ par $\sigma(E, E')$ est séparée et moins fine que la topologie induite par la topologie initiale ; elles coïncident donc (TG, I, p. 63). La proposition est démontrée dans ce cas.
 
-Supposons maintenant que $\mathcal{F}$ soit à base dénombrable. Il suffit (TG, I, p. 43, prop. 11) de considérer le cas d’une suite $(x_n)_{n \geq 1}$ tendant vers $x_0$ pour $\sigma(E, E')$. Soit B l’ensemble des $x_n$ pour $n \geq 0$. Il est borné pour $\sigma(E, E')$, donc aussi pour la topologie initiale (III, p. 28, cor. 3). On est donc ramené au premier cas de la démonstration.
+Supposons maintenant que $\mathscr{F}$ soit à base dénombrable. Il suffit (TG, I, p. 43, prop. 11) de considérer le cas d’une suite $(x_n)_{n \geq 1}$ tendant vers $x_0$ pour $\sigma(E, E')$. Soit B l’ensemble des $x_n$ pour $n \geq 0$. Il est borné pour $\sigma(E, E')$, donc aussi pour la topologie initiale (III, p. 28, cor. 3). On est donc ramené au premier cas de la démonstration.
 
 *Tout espace de Montel est réflexif* : cela résulte de la déf. 4 et du th. 2 de IV, p. 16. En outre :
 
@@ -260,7 +260,7 @@ Soit E un espace de Montel métrisable. On sait (II, p. 5) que E s’identifie �
 
 *Supposons que l’espace métrique X ne soit pas de type dénombrable. Il existe alors un nombre réel $\varepsilon > 0$ et une partie non dénombrable A de X tels que l’on ait $d(x, y) \geq \varepsilon$ pour $x, y$ distincts dans A.*
 
-Pour tout entier $n \geq 1$, soit $\mathcal{F}_n$ l’ensemble (ordonné par inclusion) des parties D de X tels que l’on ait $d(x, y) \geq \frac{1}{n}$ pour $x, y$ distincts dans D. L’ensemble $\mathcal{F}_n$ est de caractère fini, donc possède un élément maximal $D_n$ (E, III, p. 35). Pour tout $y \in X$, il existe alors un point $x$ de $D_n$ tel que $d(x, y) < \frac{1}{n}$, vu le caractère maximal de $D_n$. Posons $D = \bigcup_n D_n$ ; l’ensemble D est donc dense dans X, et comme X n’est pas de type dénombrable, D n’est pas dénombrable, et l’un des $D_n$ n’est pas dénombrable.
+Pour tout entier $n \geq 1$, soit $\mathscr{F}_n$ l’ensemble (ordonné par inclusion) des parties D de X tels que l’on ait $d(x, y) \geq \frac{1}{n}$ pour $x, y$ distincts dans D. L’ensemble $\mathscr{F}_n$ est de caractère fini, donc possède un élément maximal $D_n$ (E, III, p. 35). Pour tout $y \in X$, il existe alors un point $x$ de $D_n$ tel que $d(x, y) < \frac{1}{n}$, vu le caractère maximal de $D_n$. Posons $D = \bigcup_n D_n$ ; l’ensemble D est donc dense dans X, et comme X n’est pas de type dénombrable, D n’est pas dénombrable, et l’un des $D_n$ n’est pas dénombrable.
 
 C.Q.F.D.
 

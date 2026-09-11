@@ -12,12 +12,12 @@ pdf_pages: 0143-0145, 0172-0173
 extraction: ocr
 statements: 6
 exercises: 4
-content_sha256: 0d07a448890f2831b0cc23b615935ec8e079f5380d64f4b62a604498fffec8be
+content_sha256: c9b75a7d07661743ad6632e76701373f969d94167d8df709d5750d9911b44db5
 ---
 
 ## § 2. BORNOLOGICAL SPACES
 
-In this paragraph, E denotes a locally convex space, and $\mathcal{B}$ its canonical bornology (III, p. 3, def. 5).
+In this paragraph, E denotes a locally convex space, and $\mathscr{B}$ its canonical bornology (III, p. 3, def. 5).
 
 #### Lemma 1 {#evt-iii-s2-lem-1 .statement}
 

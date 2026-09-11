@@ -40,7 +40,7 @@ subsections:
       pdf_page: 277
 statements: 43
 exercises: 37
-content_sha256: 88ed7fa78df6c58b1d4a1f24ee532cfa29c82661af302faa7086380f0c5393bd
+content_sha256: 0c1ac19f1065d57315b7491d77db4c2aec17dbb99b117f9fa6ce2febfc213854
 ---
 
 ## § 1. ESPACES PRÉHILBERTIENS ET ESPACES HILBERTIENS
@@ -305,17 +305,17 @@ $$
 
 #### Exemple 3 {#evt-v-s1-n4-exa-3 .statement}
 
-\* Soit n ≥ 1 un entier et soit U un ouvert de Rⁿ. On note μ la mesure sur U induite par la mesure de Lebesgue sur Rⁿ, et l’on pose $\mathcal{H}^0 = L^2(U, \mu)$. On note $\mathcal{H}^1$ l’espace des fonctions $f \in \mathcal{H}^0$ ayant la propriété suivante : pour $1 \leq i \leq n$, il existe une fonction $g_i \in \mathcal{H}^0$ telle que
+\* Soit n ≥ 1 un entier et soit U un ouvert de Rⁿ. On note μ la mesure sur U induite par la mesure de Lebesgue sur Rⁿ, et l’on pose $\mathscr{H}^0 = L^2(U, \mu)$. On note $\mathscr{H}^1$ l’espace des fonctions $f \in \mathscr{H}^0$ ayant la propriété suivante : pour $1 \leq i \leq n$, il existe une fonction $g_i \in \mathscr{H}^0$ telle que
 
 $$
 \int_U g_i(x)\ h(x)\ d\mu(x) = - \int_U f(x)\ D_i h(x)\ d\mu(x)
 $$
 
-pour toute fonction h de classe $C^1$ à support compact dans U. La fonction $g_i$ est définie de manière unique (à l’équivalence pour μ près) et se note $D_i f$ ou $\partial f / \partial x_i$ (i-ième dérivée partielle). Par récurrence sur l’entier $s \geqslant 1$, on définit $\mathcal{H}^s$ comme l’ensemble des fonctions $f \in \mathcal{H}^1$ telles que $D_i f \in \mathcal{H}^{s-1}$ pour $1 \leqslant i \leqslant n$. On définit un produit scalaire sur $\mathcal{H}^s$ par la formule
+pour toute fonction h de classe $C^1$ à support compact dans U. La fonction $g_i$ est définie de manière unique (à l’équivalence pour μ près) et se note $D_i f$ ou $\partial f / \partial x_i$ (i-ième dérivée partielle). Par récurrence sur l’entier $s \geqslant 1$, on définit $\mathscr{H}^s$ comme l’ensemble des fonctions $f \in \mathscr{H}^1$ telles que $D_i f \in \mathscr{H}^{s-1}$ pour $1 \leqslant i \leqslant n$. On définit un produit scalaire sur $\mathscr{H}^s$ par la formule
 $$
 \langle f | g \rangle = \sum_{k=0}^s \sum_{1 \leqslant i_1 \leqslant \cdots \leqslant i_k \leqslant n} \int \overline{D_{i_1} \cdots D_{i_k} f} \cdot D_{i_1} \cdots D_{i_k} g d\mu .
 $$
-Alors $\mathcal{H}^s$ est un espace hilbertien complexe, qu’on appelle *espace de Sobolev* d’indice $s$.
+Alors $\mathscr{H}^s$ est un espace hilbertien complexe, qu’on appelle *espace de Sobolev* d’indice $s$.
 
 #### Exemple 4 {#evt-v-s1-n4-exa-4 .statement}
 
@@ -330,7 +330,7 @@ $$
 $$
 Il existe alors sur $X$ une mesure $\tilde{\omega}$ et une seule telle que pour tout $i \in I$, l’image par $\xi_i$ de la restriction de $\tilde{\omega}$ à $U_i$ soit égale à la mesure $f_i \cdot \mu$ (*cf.* VAR, R, 10.4.3).
 
-Soit $\mathcal{V}$ (resp. $\mathcal{N}$) l’espace vectoriel des densités $\omega$ d’ordre 1/2 telles que la mesure associée à la densité $|\omega|^2$ d’ordre 1 soit bornée (resp. nulle). Soient $\omega_1$ et $\omega_2$ dans $\mathcal{V}$; alors $\omega = \overline{\omega}_1 \omega_2$ est une densité d’ordre 1, et la mesure $\tilde{\omega}$ associée à $\omega$ est bornée ; le nombre $\int_X \tilde{\omega}$ ne dépend que des classes $\dot{\omega}_1$ et $\dot{\omega}_2$ de $\omega_1$ et $\omega_2$ modulo $\mathcal{N}$ et se note $\langle \omega_1 | \omega_2 \rangle$ ou $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Alors l’application $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ munit l’espace vectoriel $\Omega_{1/2}(X) = \mathcal{V}/\mathcal{N}$ d’une structure d’espace hilbertien complexe.
+Soit $\mathscr{V}$ (resp. $\mathscr{N}$) l’espace vectoriel des densités $\omega$ d’ordre 1/2 telles que la mesure associée à la densité $|\omega|^2$ d’ordre 1 soit bornée (resp. nulle). Soient $\omega_1$ et $\omega_2$ dans $\mathscr{V}$; alors $\omega = \overline{\omega}_1 \omega_2$ est une densité d’ordre 1, et la mesure $\tilde{\omega}$ associée à $\omega$ est bornée ; le nombre $\int_X \tilde{\omega}$ ne dépend que des classes $\dot{\omega}_1$ et $\dot{\omega}_2$ de $\omega_1$ et $\omega_2$ modulo $\mathscr{N}$ et se note $\langle \omega_1 | \omega_2 \rangle$ ou $\langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$. Alors l’application $(\dot{\omega}_1, \dot{\omega}_2) \mapsto \langle \dot{\omega}_1 | \dot{\omega}_2 \rangle$ munit l’espace vectoriel $\Omega_{1/2}(X) = \mathscr{V}/\mathscr{N}$ d’une structure d’espace hilbertien complexe.
 
 #### Exemple 5 {#evt-v-s1-n4-exa-5 .statement}
 
@@ -360,7 +360,7 @@ L’existence du prolongement de $(x, y) \mapsto \langle x|y \rangle$ à $\hat{E
 
 On dit que cet espace hilbertien est le complété de l’espace préhilbertien séparé E.
 
-\* Exemple 6. — Soit U un ouvert de $\mathbf{R}^n$ ($n \geqslant 1$). Soit $\mathcal{C}_0^1(U)$ l’espace vectoriel des fonctions de classe $C^1$ à support compact dans U. On définit sur $\mathcal{C}_0^1(U)$ une structure d’espace préhilbertien séparé dont le produit scalaire est donné par
+\* Exemple 6. — Soit U un ouvert de $\mathbf{R}^n$ ($n \geqslant 1$). Soit $\mathscr{C}_0^1(U)$ l’espace vectoriel des fonctions de classe $C^1$ à support compact dans U. On définit sur $\mathscr{C}_0^1(U)$ une structure d’espace préhilbertien séparé dont le produit scalaire est donné par
 
 $$
 \langle f|g \rangle = \sum_{i=1}^n \int_U \overline{D_i f(x)} \cdot D_i g(x) \, dx .
@@ -456,10 +456,10 @@ $$
 
 $^1$ On rappelle (TG, VIII, p. 2) que $\Re(z)$ désigne la partie réelle du nombre complexe z ; on a $\Re(z) = z$ si z est réel.
 
-Réciproquement, soit $a$ un point de $H$ tel que l’on ait $\mathcal{R} \langle x - a | y - a \rangle \leq 0$ pour tout $y \in H$. Pour tout $y \in H$, on a donc
+Réciproquement, soit $a$ un point de $H$ tel que l’on ait $\mathscr{R} \langle x - a | y - a \rangle \leq 0$ pour tout $y \in H$. Pour tout $y \in H$, on a donc
 
 $$
-\|x - y\|^2 = \|x - a\|^2 + \|y - a\|^2 - 2\mathcal{R} \langle x - a | y - a \rangle \geq \|x - a\|^2,
+\|x - y\|^2 = \|x - a\|^2 + \|y - a\|^2 - 2\mathscr{R} \langle x - a | y - a \rangle \geq \|x - a\|^2,
 $$
 
 d’où $\|x - a\| = d$ et finalement $a = p_H(x)$ d’après la première partie de la démonstration.
@@ -490,11 +490,11 @@ $$
 
 *En particulier, l’application $p_H$ de $E$ dans $H$ est continue.*
 
-Soient $x, y$ deux points de $E$. Posons $a = p_H(x) - x,\ b = p_H(y) - p_H(x),\ c = y - p_H(y)$. D’après la formule (15) (V, p. 10), on a $\mathcal{R} \langle a | b \rangle \geq 0$ et $\mathcal{R} \langle c | b \rangle \geq 0$. On a $a + b + c = y - x$, d’où
+Soient $x, y$ deux points de $E$. Posons $a = p_H(x) - x,\ b = p_H(y) - p_H(x),\ c = y - p_H(y)$. D’après la formule (15) (V, p. 10), on a $\mathscr{R} \langle a | b \rangle \geq 0$ et $\mathscr{R} \langle c | b \rangle \geq 0$. On a $a + b + c = y - x$, d’où
 
 $$
 \begin{align*}
-\|x - y\|^2 &= \|a + b + c\|^2 = \|b\|^2 + \|a + c\|^2 + 2\mathcal{R} \langle a | b \rangle + 2\mathcal{R} \langle c | b \rangle \\
+\|x - y\|^2 &= \|a + b + c\|^2 = \|b\|^2 + \|a + c\|^2 + 2\mathscr{R} \langle a | b \rangle + 2\mathscr{R} \langle c | b \rangle \\
 &\geq \|b\|^2 = \|p_H(x) - p_H(y)\|^2.
 \end{align*}
 $$
@@ -539,7 +539,7 @@ Soient E un espace préhilbertien et M un sous-espace vectoriel de E, qui est s�
 Montrons d’abord que $x - p_M(x)$ appartient à $M^\circ$ pour tout $x \in E$. En effet, soit $y \in M$. Pour tout scalaire $\lambda \in K$, le vecteur $p_M(x) + \lambda y$ appartient à M ; d’après la formule (15) (V, p. 10), on a donc
 
 $$
-\mathcal{R}(\lambda \langle x - p_M(x)|y \rangle) \leq 0
+\mathscr{R}(\lambda \langle x - p_M(x)|y \rangle) \leq 0
 $$
 
 pour tout $\lambda \in K$. Si l’on prend en particulier $\lambda = \overline{\langle x - p_M(x)|y \rangle}$, on en conclut $\langle x - p_M(x)|y \rangle = 0$, d’où notre assertion.
@@ -593,7 +593,7 @@ p_M(p_N(x)) = p_N(p_M(x)) = p_N(x)
 $$
 d’où $p_N(x) \in M$. On en déduit $x - p_N(x) \in M$, donc $x$ est la somme d’un élément $p_N(x)$ de $M \cap N$ et d’un élément $x - p_N(x)$ de $M \cap N^\circ$, d’où (iv).
 
-On a donc prouvé a) et la première partie de b). Supposons que $p_M$ et $p_N$ commutent et posons $q = p_M + p_N - p_M p_N$; comme $p_M$ et $p_N$ sont des idempotents de l’algèbre $\mathcal{L}(E)$, il en est de même de $q$; par suite (TG, III, p. 47), l’image de $q$ est un sous-espace vectoriel fermé de $E$. Il est clair que l’image de $q$ est contenue dans $M + N$; par ailleurs, on a $p_N(x) = x$, d’où $q(x) = x$ pour tout $x \in N$; comme on a aussi $q = p_M + p_N - p_N p_M$, on a de même $q(x) = x$ pour tout $x \in M$. En conclusion, l’image de $q$ est égale à $M + N$. L’orthogonal de $M + N$ est égal à $M^\circ \cap N^\circ$, et le noyau de $q$ contient évidemment $M^\circ \cap N^\circ$, d’où $q = p_{M+N}$. Ceci prouve b).
+On a donc prouvé a) et la première partie de b). Supposons que $p_M$ et $p_N$ commutent et posons $q = p_M + p_N - p_M p_N$; comme $p_M$ et $p_N$ sont des idempotents de l’algèbre $\mathscr{L}(E)$, il en est de même de $q$; par suite (TG, III, p. 47), l’image de $q$ est un sous-espace vectoriel fermé de $E$. Il est clair que l’image de $q$ est contenue dans $M + N$; par ailleurs, on a $p_N(x) = x$, d’où $q(x) = x$ pour tout $x \in N$; comme on a aussi $q = p_M + p_N - p_N p_M$, on a de même $q(x) = x$ pour tout $x \in M$. En conclusion, l’image de $q$ est égale à $M + N$. L’orthogonal de $M + N$ est égal à $M^\circ \cap N^\circ$, et le noyau de $q$ contient évidemment $M^\circ \cap N^\circ$, d’où $q = p_{M+N}$. Ceci prouve b).
 
 On a $p_M p_N = 0$ si et seulement si l’image $N$ de $p_N$ est contenue dans le noyau $M^\circ$ de $p_M$, c’est-à-dire si et seulement si $M$ est orthogonal à $N$. Le reste de l’assertion c) est alors un cas particulier de b).
 
@@ -643,21 +643,21 @@ En effet, cela exprime que 0 est le seul vecteur de $E'$ orthogonal aux $x_i$ (I
 
 #### Corollaire 2 {#evt-v-s1-thm-3-cor-2 .statement}
 
-*Soient E et F deux espaces hilbertiens. Pour $u \in \mathcal{L}(E; F)$, $x \in E$ et $y \in F$, posons*
+*Soient E et F deux espaces hilbertiens. Pour $u \in \mathscr{L}(E; F)$, $x \in E$ et $y \in F$, posons*
 
 $$(18)$$
 $$
 \Phi_u(y, x) = \langle y|u(x)\rangle .
 $$
 
-*L’application $u \mapsto \Phi_u$ est un isomorphisme de l’espace de Banach $\mathcal{L}(E; F)$ sur l’espace des formes sesquilinéaires $^1$ continues sur $F \times E$, muni de la norme*
+*L’application $u \mapsto \Phi_u$ est un isomorphisme de l’espace de Banach $\mathscr{L}(E; F)$ sur l’espace des formes sesquilinéaires $^1$ continues sur $F \times E$, muni de la norme*
 
 $$(19)$$
 $$
 \|f\| = \sup_{\substack{x \in E, y \in F \\ \|x\| \leq 1, \|y\| \leq 1}} |f(y, x)| .
 $$
 
-Il est clair que $\Phi_u$ est sesquilinéaire et continue pour tout $u \in \mathcal{L}(E; F)$. Inversement, soit $f$ une forme sesquilinéaire continue sur $F \times E$. Pour tout $x \in E$, l’application $y \mapsto f(y, x)$ est une forme linéaire continue sur l’espace hilbertien F. D’après le th. 3, il existe donc pour tout $x \in E$, un unique élément $u(x)$ de F tel que l’on ait $f(y, x) = \langle u(x)|y\rangle$ pour tout $y \in F$. L’application $u : x \mapsto u(x)$ de E dans F est linéaire et l’on a
+Il est clair que $\Phi_u$ est sesquilinéaire et continue pour tout $u \in \mathscr{L}(E; F)$. Inversement, soit $f$ une forme sesquilinéaire continue sur $F \times E$. Pour tout $x \in E$, l’application $y \mapsto f(y, x)$ est une forme linéaire continue sur l’espace hilbertien F. D’après le th. 3, il existe donc pour tout $x \in E$, un unique élément $u(x)$ de F tel que l’on ait $f(y, x) = \langle u(x)|y\rangle$ pour tout $y \in F$. L’application $u : x \mapsto u(x)$ de E dans F est linéaire et l’on a
 
 $$
 \begin{align*}
@@ -666,7 +666,7 @@ $$
 \end{align*}
 $$
 
-donc $u$ appartient à $\mathcal{L}(E; F)$, on a $f = \Phi_u$ et $\|u\| = \|f\|$. D’où le cor. 2.
+donc $u$ appartient à $\mathscr{L}(E; F)$, on a $f = \Phi_u$ et $\|u\| = \|f\|$. D’où le cor. 2.
 
 L’application canonique de E dans son bidual $E''$ (IV, p. 14) applique E *sur* $E''$, autrement dit (IV, p. 16), E est un espace de Banach *réflexif*. En effet, si E est un espace hilbertien réel (resp. complexe), l’application canonique $\varphi$ de $E'$ sur E est un
 
@@ -682,9 +682,9 @@ Par suite (IV, p. 17, prop. 6) :
 
 #### Proposition 10 {#evt-v-s1-prop-10 .statement}
 
-*Si, dans un espace hilbertien E, un filtre $\mathcal{F}$ converge faiblement vers $x_0$, et si en outre $\lim_{\mathcal{F}} \|x\| = \|x_0\|$, alors $\mathcal{F}$ converge vers $x_0$ pour la topologie initiale de E.*
+*Si, dans un espace hilbertien E, un filtre $\mathscr{F}$ converge faiblement vers $x_0$, et si en outre $\lim_{\mathscr{F}} \|x\| = \|x_0\|$, alors $\mathscr{F}$ converge vers $x_0$ pour la topologie initiale de E.*
 
-En effet, $\|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2$. Comme $\langle x|x_0 \rangle$ tend par hypothèse vers $\|x_0\|^2$ suivant $\mathcal{F}$, et que $\|x\|$ tend vers $\|x_0\|$ suivant $\mathcal{F}$, $\|x - x_0\|$ tend vers 0 suivant $\mathcal{F}$, d’où la proposition.
+En effet, $\|x - x_0\|^2 = \|x\|^2 - 2\Re \langle x|x_0 \rangle + \|x_0\|^2$. Comme $\langle x|x_0 \rangle$ tend par hypothèse vers $\|x_0\|^2$ suivant $\mathscr{F}$, et que $\|x\|$ tend vers $\|x_0\|$ suivant $\mathscr{F}$, $\|x - x_0\|$ tend vers 0 suivant $\mathscr{F}$, d’où la proposition.
 
 #### Remarque {#evt-v-s1-n7-rem-1 .statement}
 

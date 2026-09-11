@@ -32,7 +32,7 @@ subsections:
       pdf_page: 193
 statements: 36
 exercises: 25
-content_sha256: 478f6ad3ca16e707ec8cc287c3cd8cef7e449a078422de8ef6615ad156944a4e
+content_sha256: 421a64212363dcb898c8d550d3d6f0d03c7bd538c5d33b78f4382c84ee800c6d
 ---
 
 ## § 1. DUALITY
@@ -56,16 +56,16 @@ for $x \in E, \ y \in F$.
 
 #### Definition 1 {#evt-iv-s1-def-1 .statement}
 
-*A locally convex topology $\mathcal{T}$ on E is said to be compatible with the duality between E and F if $d_B$ is a bijection from F onto the dual of the locally convex space obtained by assigning the topology $\mathcal{T}$ to E.*
+*A locally convex topology $\mathscr{T}$ on E is said to be compatible with the duality between E and F if $d_B$ is a bijection from F onto the dual of the locally convex space obtained by assigning the topology $\mathscr{T}$ to E.*
 
-If there exists one such topology $\mathcal{T}$, the mapping $d_B$ is injective, that is to say, the duality between E and F is separating in F (II, p. 41).
+If there exists one such topology $\mathscr{T}$, the mapping $d_B$ is injective, that is to say, the duality between E and F is separating in F (II, p. 41).
 
 #### Proposition 1 {#evt-iv-s1-prop-1 .statement}
 
 (i) *The closed convex subsets in E are the same for all the locally convex topologies on E which are compatible with the duality between E and F.*
 (ii) *The bounded subsets of E are the same for all the locally convex topologies on E which are compatible with the duality between E and F.*
 
-Let $\mathcal{T}$ be a topology on E compatible with the duality between E and F, hence finer than $\sigma(E, F)$. If a convex subset of E is closed for $\mathcal{T}$, it is the intersection of closed, real half-spaces (II, p. 38, cor. 1), hence it is closed for $\sigma(E, F)$. This proves (i). Assertion (ii) was proved in cor. 3 of III, p. 27.
+Let $\mathscr{T}$ be a topology on E compatible with the duality between E and F, hence finer than $\sigma(E, F)$. If a convex subset of E is closed for $\mathscr{T}$, it is the intersection of closed, real half-spaces (II, p. 38, cor. 1), hence it is closed for $\sigma(E, F)$. This proves (i). Assertion (ii) was proved in cor. 3 of III, p. 27.
 
 Let $F_\sigma$ denote the vector space F endowed with the weak topology $\sigma(F, E)$. Then the linear mapping $s_B$ maps E onto the dual $(F_\sigma)'$ of $F_\sigma$ (II, p. 43, prop. 3). Let $\mathfrak{S}$ be a family of bounded subsets of $F_\sigma$. By abuse of language, the inverse image under $s_B$ of the $\mathfrak{S}$-topology on $(F_\sigma)'$ is called the $\mathfrak{S}\text{-topology on } E$. It is defined by the family of semi-norms
 
@@ -89,7 +89,7 @@ In general, if $F_1 = d_B(F) \subset E^*$, and if we denote by $(x, y_1) \mapsto
 
 We deduce, in particular, that when the duality between E and F is separating in F, *the Mackey topology $\tau(E, F)$ is also the $\mathfrak{S}'$-topology, where $\mathfrak{S}'$ is the set of all convex subsets of F which are compact for $\sigma(F, E)$*. In an analogous way we define the Mackey topology $\tau(F, E)$ on F.
 
-**Theorem 1 (Mackey).** — *Let E and F be two spaces in duality; suppose that the duality is separating in F. In order that a locally convex topology $\mathcal{T}$ on E be compatible with the duality between E and F, it is necessary and sufficient that $\mathcal{T}$ be finer than the topology $\sigma(E, F)$ and coarser than the Mackey topology $\tau(E, F)$.*
+**Theorem 1 (Mackey).** — *Let E and F be two spaces in duality; suppose that the duality is separating in F. In order that a locally convex topology $\mathscr{T}$ on E be compatible with the duality between E and F, it is necessary and sufficient that $\mathscr{T}$ be finer than the topology $\sigma(E, F)$ and coarser than the Mackey topology $\tau(E, F)$.*
 
 Identify F with its image in $E^*$ under $d_B$. Let $\mathfrak{S}_0$ denote the set of all subsets of F which are convex, balanced and compact for $\sigma(F, E)$. By definition, $\tau(E, F)$ is the $\mathfrak{S}_0$-topology on E, hence is finer than $\sigma(E, F)$.
 
@@ -99,15 +99,15 @@ Identify F with its image in $E^*$ under $d_B$. Let $\mathfrak{S}_0$ denote the 
 
 Every element of F is a continuous mapping for $\sigma(E, F)$, hence for $\tau(E, F)$.
 
-Conversely, let $f \in E^*$ be continuous for $\tau(E, F)$. There exists a neighbourhood U of 0 in E (for $\tau(E, F)$), such that $|f| \leq 1$ on U; we can assume that there exists a set $A \in \mathcal{S}_0$ such that $U = A^\circ$. In other words, $f$ belongs to the bipolar $A^{\circ\circ}$ of A for the duality between $E^*$ and E. But the topology $\sigma(F, E)$ on F is induced by $\sigma(E^*, E)$; consequently A is convex, balanced and compact for $\sigma(E^*, E)$, and the theorem of bipolars (II, p. 44, th. 1) implies the equality $A = A^{\circ\circ}$. Therefore we have that $f \in F$, from which the lemma follows.
+Conversely, let $f \in E^*$ be continuous for $\tau(E, F)$. There exists a neighbourhood U of 0 in E (for $\tau(E, F)$), such that $|f| \leq 1$ on U; we can assume that there exists a set $A \in \mathscr{S}_0$ such that $U = A^\circ$. In other words, $f$ belongs to the bipolar $A^{\circ\circ}$ of A for the duality between $E^*$ and E. But the topology $\sigma(F, E)$ on F is induced by $\sigma(E^*, E)$; consequently A is convex, balanced and compact for $\sigma(E^*, E)$, and the theorem of bipolars (II, p. 44, th. 1) implies the equality $A = A^{\circ\circ}$. Therefore we have that $f \in F$, from which the lemma follows.
 
 #### Lemma 2 {#evt-iv-s1-lem-2 .statement}
 
-*Let $\mathcal{T}$ be a locally convex topology on E such that every linear form on E which is continuous for $\mathcal{T}$ belongs to F. Then $\mathcal{T}$ is coarser than $\tau(E, F)$.*
+*Let $\mathscr{T}$ be a locally convex topology on E such that every linear form on E which is continuous for $\mathscr{T}$ belongs to F. Then $\mathscr{T}$ is coarser than $\tau(E, F)$.*
 
-*Let $\mathcal{U}$ be the set of convex, balanced neighbourhoods of 0 for $\mathcal{T}$. Let $\mathcal{S}$ be the set of polars in F of elements of $\mathcal{U}$. By cor. 2 of III, p. 17, we have $\mathcal{S} \subset \mathcal{S}_0$, and by cor. 1 of prop. 7 of III, p. 19, $\mathcal{T}$ is identical with the $\mathcal{S}'$-topology, where $\mathcal{S}'$ is the set of polars of sets of $\mathcal{U}$ in the dual $E'$ of E. But $E' \subset F$, by hypothesis, hence every set of $\mathcal{S}'$ is contained in a set of $\mathcal{S}$; and the lemma follows.*
+*Let $\mathscr{U}$ be the set of convex, balanced neighbourhoods of 0 for $\mathscr{T}$. Let $\mathscr{S}$ be the set of polars in F of elements of $\mathscr{U}$. By cor. 2 of III, p. 17, we have $\mathscr{S} \subset \mathscr{S}_0$, and by cor. 1 of prop. 7 of III, p. 19, $\mathscr{T}$ is identical with the $\mathscr{S}'$-topology, where $\mathscr{S}'$ is the set of polars of sets of $\mathscr{U}$ in the dual $E'$ of E. But $E' \subset F$, by hypothesis, hence every set of $\mathscr{S}'$ is contained in a set of $\mathscr{S}$; and the lemma follows.*
 
-Let $\mathcal{T}$ be a topology on E compatible with the duality between E and F. Then $\mathcal{T}$ is coarser than $\tau(E, F)$ by lemma 2, and evidently $\mathcal{T}$ is finer than $\sigma(E, F)$. Conversely, F is the dual of E for the topology $\tau(E, F)$ (lemma 1) and for the topology $\sigma(E, F)$ (II, p. 43, prop. 3), hence also for every topology intermediate between $\tau(E, F)$ and $\sigma(E, F)$.
+Let $\mathscr{T}$ be a topology on E compatible with the duality between E and F. Then $\mathscr{T}$ is coarser than $\tau(E, F)$ by lemma 2, and evidently $\mathscr{T}$ is finer than $\sigma(E, F)$. Conversely, F is the dual of E for the topology $\tau(E, F)$ (lemma 1) and for the topology $\sigma(E, F)$ (II, p. 43, prop. 3), hence also for every topology intermediate between $\tau(E, F)$ and $\sigma(E, F)$.
 
 #### Corollary {#evt-iv-s1-n1-cor-1 .statement}
 
@@ -118,7 +118,7 @@ Let $\mathcal{T}$ be a topology on E compatible with the duality between E and F
 
 (i) $\Rightarrow$ (ii) : if p is continuous for $\tau(E, F)$, every linear form f on E such that $|f| \leq p$ is continuous for $\tau(E, F)$, hence comes from an element of F by lemma 1.
 
-(ii) $\Rightarrow$ (i) : let $\mathcal{T}$ be the topology on E defined by the semi-norm p. If condition (ii) is satisfied, the linear forms on E which are continuous for $\mathcal{T}$ belong to F. By lemma 2 $\mathcal{T}$ is coarser than $\tau(E, F)$, hence p is continuous for $\tau(E, F)$.
+(ii) $\Rightarrow$ (i) : let $\mathscr{T}$ be the topology on E defined by the semi-norm p. If condition (ii) is satisfied, the linear forms on E which are continuous for $\mathscr{T}$ belong to F. By lemma 2 $\mathscr{T}$ is coarser than $\tau(E, F)$, hence p is continuous for $\tau(E, F)$.
 
 #### Remark 2 {#evt-iv-s1-n1-rem-2 .statement}
 
@@ -136,13 +136,13 @@ Let G be a locally convex space and G' its dual. On G', the weak topology $\sigm
 
 #### Definition 3 {#evt-iv-s1-def-3 .statement}
 
-*Let E and F be two vector spaces in duality, and $\mathcal{T}$ the family of subsets of F which are bounded for $\sigma(F, E)$. Then the $\mathcal{T}$-topology on F is denoted by $\beta(E, F)$.*
+*Let E and F be two vector spaces in duality, and $\mathscr{T}$ the family of subsets of F which are bounded for $\sigma(F, E)$. Then the $\mathscr{T}$-topology on F is denoted by $\beta(E, F)$.*
 
 Similarly, we define the topology $\beta(F, E)$ on F. It can be seen easily that the topology $\beta(E, F)$ is identical with $\beta(E, F/E^\circ)$, and we can reduce to the case when the duality between E and F is separating in F.
 
 *Remarks. —* 3) Let $E_\sigma$ denote the space E endowed with the topology $\sigma(E, F)$. The barrels (III, p. 24) in $E_\sigma$ are the subsets of E which are convex, balanced closed and absorbent for $\sigma(E, F)$. These are none other than the polars of the subsets of F which are convex, balanced and bounded for $\sigma(F, E)$. Consequently, the family of all barrels in $E_\sigma$ is a fundamental system of neighbourhoods of 0 for the topology $\beta(E, F)$ in E. In other words, a semi-norm on E is continuous for $\beta(E, F)$ if and only if it is lower semi-continuous for $\sigma(E, F)$ (*cf.* III, p. 24, prop. 1).
 
-4) Let $\mathcal{T}$ be a topology on E compatible with the duality between E and F. By prop. 1, (ii) of IV, p. 1, the topology $\beta(F, E)$ on F is none other than the strong topology on F, when F is identified with the dual of E (with the topology $\mathcal{T}$).
+4) Let $\mathscr{T}$ be a topology on E compatible with the duality between E and F. By prop. 1, (ii) of IV, p. 1, the topology $\beta(F, E)$ on F is none other than the strong topology on F, when F is identified with the dual of E (with the topology $\mathscr{T}$).
 
 5) The topology $\beta(E, F)$ on E is finer than $\tau(E, F)$. It is not, in general compatible with the duality between E and F (*cf.* however § 2). In particular, a subset of E which is bounded for $\sigma(E, F)$ is not necessarily bounded for $\beta(E, F)$.
 
@@ -170,7 +170,7 @@ For a family $(x_i)_{i \in I}$ of elements of E to be total (resp. topologically
 
 #### Remark 2 {#evt-iv-s1-n2-rem-2 .statement}
 
-Let $\mathcal{T}_1$ and $\mathcal{T}_2$ be two locally convex topologies on E, compatible with the duality between E and $E'$, $\mathcal{T}_1$ being finer than $\mathcal{T}_2$. Then every neighbourhood of 0 for $\mathcal{T}_1$, which is convex and closed for $\mathcal{T}_1$ is closed for $\mathcal{T}_2$ by prop. 1 of IV, p. 1. Consequently (GT, II, § 3, No. 3, corollary) every subset of E which is complete for $\mathcal{T}_2$ is so for $\mathcal{T}_1$ also.
+Let $\mathscr{T}_1$ and $\mathscr{T}_2$ be two locally convex topologies on E, compatible with the duality between E and $E'$, $\mathscr{T}_1$ being finer than $\mathscr{T}_2$. Then every neighbourhood of 0 for $\mathscr{T}_1$, which is convex and closed for $\mathscr{T}_1$ is closed for $\mathscr{T}_2$ by prop. 1 of IV, p. 1. Consequently (GT, II, § 3, No. 3, corollary) every subset of E which is complete for $\mathscr{T}_2$ is so for $\mathscr{T}_1$ also.
 
 In particular, every subset of E which is complete for the weakened topology is complete for the initial topology, and every subset of E complete for the initial topology is so for the Mackey topology. If E is quasi-complete for the weakened topology, it is so for every topology compatible with the duality between E and $E'$. If it is quasi-complete for the initial topology, it is so for the Mackey topology.
 
@@ -370,11 +370,11 @@ and ${}^t p$ induces an isometry from $(E/M)'$ onto $M^\circ$.
 
 The image under ${}^t i$ of an equicontinuous subset of $E'$ is an equicontinuous subset of $M'$ (IV, p. 7, prop. 7). Conversely, let $A$ be an equicontinuous subset of $M'$. The topology of $M$ is defined by the set of restrictions to $M$ of the continuous semi-norms on $E$. Hence there exists a continuous semi-norm $p$ on $E$ such that $|f(x)| \leq p(x)$ for all $f \in A$ and for all $x \in M$. Let $B$ be the set of all linear forms $g$ on $E$ such that $|g| \leq p$ and whose restriction to $M$ belongs to $A$. The set $B$ is equicontinuous in $E'$; by Hahn-Banach theorem (II, p. 23, cor. 1), we have ${}^t i(B) = A$, hence (i) follows.
 
-We now prove (ii). By prop. 6 of IV, p. 6, the linear mapping ${}^t i$ from $E'_{\mathfrak{S}}$ into $M'_{\mathfrak{S}_1}$ is continuous, and defines, by passing to the quotient, a continuous linear mapping $\iota$ from $E'_\mathcal{S}/M^\circ$ onto $M'_{\mathcal{S}_1}$. Let $\mathcal{T}$ be the topology on $M'$ obtained by transferring that of $E'_\mathcal{S}/M^\circ$ by $\iota$; this is finer than the $\mathcal{S}_1$-topology.
+We now prove (ii). By prop. 6 of IV, p. 6, the linear mapping ${}^t i$ from $E'_{\mathfrak{S}}$ into $M'_{\mathfrak{S}_1}$ is continuous, and defines, by passing to the quotient, a continuous linear mapping $\iota$ from $E'_\mathscr{S}/M^\circ$ onto $M'_{\mathscr{S}_1}$. Let $\mathscr{T}$ be the topology on $M'$ obtained by transferring that of $E'_\mathscr{S}/M^\circ$ by $\iota$; this is finer than the $\mathscr{S}_1$-topology.
 
-Suppose now that $\mathcal{S}$ is a directed set for $\subset$ and consists of closed, convex, balanced and compact sets for $\sigma(E, E')$. To show that $\iota$ is a homeomorphism, *i.e.* that $\mathcal{T}$ is coarser than the $\mathcal{S}_1$-topology on $M'$, it is enough to prove that $\mathcal{T}$ is compatible with the duality between $M'$ and $M$ and that every equicontinuous set in $M$ (considered as the dual of $M$ with $\mathcal{T}$) is contained in the homothetic of a set belonging to $\mathcal{S}_1$. Since $\mathcal{T}$ is finer than the $\mathcal{S}_1$-topology and $\mathcal{S}_1$ is a covering of $M$, the linear form $y' \mapsto \langle y, y' \rangle$ on $M'$ is continuous for $\mathcal{T}$ for every $y \in M$. Let $f$ be a linear form on $M'$ which is continuous for $\mathcal{T}$; then $f \circ \iota$ is a continuous linear form on $E'_\mathcal{S}$. The $\mathcal{S}$-topology on $E'$ is coarser than the Mackey topology $\tau(E', E)$; for, the mapping $d_B : E \to {E'}^*$ is continuous for the topologies $\sigma(E, E')$ and $\sigma({E'}^*, E')$, and since the latter is Hausdorff, the image under $d_B$ of a set which is compact for $\sigma(E, E')$ is compact for $\sigma({E'}^*, E')$. By lemma 1 of IV, p. 3, there exists $x_0 \in E$ such that $f(\iota(x')) = \langle x_0, x' \rangle$ for all $x' \in E'$. In particular, $\langle x_0, x' \rangle = 0$ for all $x' \in M^\circ$, and since $M$ is closed in $E$, we have $x_0 \in M$ (II, p. 45, cor. 2); and finally, $f(y') = \langle x_0, y' \rangle$ for all $y' \in M'$. This proves that $\mathcal{T}$ *is compatible with the duality between* $M$ *and* $M'$.
+Suppose now that $\mathscr{S}$ is a directed set for $\subset$ and consists of closed, convex, balanced and compact sets for $\sigma(E, E')$. To show that $\iota$ is a homeomorphism, *i.e.* that $\mathscr{T}$ is coarser than the $\mathscr{S}_1$-topology on $M'$, it is enough to prove that $\mathscr{T}$ is compatible with the duality between $M'$ and $M$ and that every equicontinuous set in $M$ (considered as the dual of $M$ with $\mathscr{T}$) is contained in the homothetic of a set belonging to $\mathscr{S}_1$. Since $\mathscr{T}$ is finer than the $\mathscr{S}_1$-topology and $\mathscr{S}_1$ is a covering of $M$, the linear form $y' \mapsto \langle y, y' \rangle$ on $M'$ is continuous for $\mathscr{T}$ for every $y \in M$. Let $f$ be a linear form on $M'$ which is continuous for $\mathscr{T}$; then $f \circ \iota$ is a continuous linear form on $E'_\mathscr{S}$. The $\mathscr{S}$-topology on $E'$ is coarser than the Mackey topology $\tau(E', E)$; for, the mapping $d_B : E \to {E'}^*$ is continuous for the topologies $\sigma(E, E')$ and $\sigma({E'}^*, E')$, and since the latter is Hausdorff, the image under $d_B$ of a set which is compact for $\sigma(E, E')$ is compact for $\sigma({E'}^*, E')$. By lemma 1 of IV, p. 3, there exists $x_0 \in E$ such that $f(\iota(x')) = \langle x_0, x' \rangle$ for all $x' \in E'$. In particular, $\langle x_0, x' \rangle = 0$ for all $x' \in M^\circ$, and since $M$ is closed in $E$, we have $x_0 \in M$ (II, p. 45, cor. 2); and finally, $f(y') = \langle x_0, y' \rangle$ for all $y' \in M'$. This proves that $\mathscr{T}$ *is compatible with the duality between* $M$ *and* $M'$.
 
-Now let $A$ be a subset of $M$ equicontinuous for the topology $\mathcal{T}$ on $M'$. By the definition of $\mathcal{T}$, and in view of the hypothesis that $\mathcal{S}$ is directed, this means that there exists a set $B \in \mathcal{S}$ containing 0 and such that the upper bound $\lambda$ of the numbers $|\langle y, x' \rangle|$ for $y \in A$ and $x' \in B^\circ$, is finite (III, p. 19, prop. 7). Since $B$ is closed in $E$, the theorem of bipolars (II, p. 44, th. 1) shows that we have $A \subset \lambda(B \cap M)$; this completes the proof of (ii).
+Now let $A$ be a subset of $M$ equicontinuous for the topology $\mathscr{T}$ on $M'$. By the definition of $\mathscr{T}$, and in view of the hypothesis that $\mathscr{S}$ is directed, this means that there exists a set $B \in \mathscr{S}$ containing 0 and such that the upper bound $\lambda$ of the numbers $|\langle y, x' \rangle|$ for $y \in A$ and $x' \in B^\circ$, is finite (III, p. 19, prop. 7). Since $B$ is closed in $E$, the theorem of bipolars (II, p. 44, th. 1) shows that we have $A \subset \lambda(B \cap M)$; this completes the proof of (ii).
 
 We shall now prove (iii). Let $y' \in M'$. We shall prove the formula
 
@@ -422,13 +422,13 @@ We recall (II, p. 50, prop. 8) that the weak topology $\sigma(E, F)$ is the prod
 
 (ii) *For every $i \in I$, let $\mathfrak{J}_i$ be an adapted bornology on the space $E_i$ endowed with the weak topology $\sigma(E_i, F_i)$, none equal to $\{ \varnothing \}$. Let $\mathfrak{J}$ be the family of subsets $A$ of $E = \prod_{i \in I} E_i$ such that $\operatorname{pr}_i(A) \in \mathfrak{J}_i$ for all $i \in I$. Then the $\mathfrak{J}$-topology on $F$ is the direct sum of the $\mathfrak{J}_i$-topologies on the $F_i$.*
 
-Let $\mathcal{T}$ be the product of the $\mathfrak{S}_i$-topologies. The sets of the form
+Let $\mathscr{T}$ be the product of the $\mathfrak{S}_i$-topologies. The sets of the form
 
 $$
 A = \prod_{i \in J} A_i^\circ \times \prod_{i \in I - J} E_i
 $$
 
-where $J \subset I$ is finite and $A_i \in \mathfrak{S}_i$ for all $i \in J$, form a fundamental system of neighbourhoods of 0 for $\mathcal{T}$. We have $A = (\bigcup_{i \in J} A_i)^\circ$, hence $\mathcal{T}$ is identical with the $\mathfrak{S}$-topology. This proves (i).
+where $J \subset I$ is finite and $A_i \in \mathfrak{S}_i$ for all $i \in J$, form a fundamental system of neighbourhoods of 0 for $\mathscr{T}$. We have $A = (\bigcup_{i \in J} A_i)^\circ$, hence $\mathscr{T}$ is identical with the $\mathfrak{S}$-topology. This proves (i).
 
 We assign the $\mathfrak{J}$-topology to $F$ and the $\mathfrak{J}_i$-topology to each $F_i$. For every subset $A$ of $E$, we have $F_i \cap A^\circ = \operatorname{pr}_i(A)^\circ$, hence the injection from $F_i$ into $F$ is continuous. Let $q$ be a semi-norm on $F$; we assume that the restriction $q_i$ of $q$ to $F_i$ is continuous for all $i \in I$. Then we can find non-empty subsets $A_i \in \mathfrak{J}_i$ such that we have
 
@@ -450,9 +450,9 @@ We shall apply lemma 3 taking for $\mathfrak{S}_i$ the family of all subsets of 
 
 By cor. 2 of III, p. 4, $\mathfrak{J}$ is the family of all subsets of $E_i$ which are bounded for the product topology of the $\sigma(E_i, F_i)$, which is identical with $\sigma(E, F)$. Hence our assertion on $\beta(F, E)$ follows.
 
-We endow $F = \bigoplus_{i \in I} F_i$ with the topology $\mathcal{T}$ which is the direct sum of the topologies $\sigma(F_i, E_i)$. Then the dual of $F$ consists of the linear forms $y \mapsto B(x, y)$ where $x$ runs through $E$ (II, p. 30, prop. 6). By prop. 1 of IV, p. 1, the topologies $\mathcal{T}$ and $\sigma(F, E)$ have the same bounded sets. Assume first that that the topologies $\sigma(F_i, E_i)$ are Hausdorff. By prop. 5 of III, p. 5, these sets are contained in a subset of the form $\sum_{i \in J} B_i$ with $J \subset I$ finite and $B_i$ bounded in $F_i$ (for $\sigma(F_i, E_i)$) for all $i \in J$. Since $\sum_{i \in J} B_i$ is contained in the convex envelope of $\bigcup_{i \in J} nB_i$, where $n = \mathrm{Card}(J)$, we can apply lemma 3, to prove the assertion on $\beta(E, F)$ in this case.
+We endow $F = \bigoplus_{i \in I} F_i$ with the topology $\mathscr{T}$ which is the direct sum of the topologies $\sigma(F_i, E_i)$. Then the dual of $F$ consists of the linear forms $y \mapsto B(x, y)$ where $x$ runs through $E$ (II, p. 30, prop. 6). By prop. 1 of IV, p. 1, the topologies $\mathscr{T}$ and $\sigma(F, E)$ have the same bounded sets. Assume first that that the topologies $\sigma(F_i, E_i)$ are Hausdorff. By prop. 5 of III, p. 5, these sets are contained in a subset of the form $\sum_{i \in J} B_i$ with $J \subset I$ finite and $B_i$ bounded in $F_i$ (for $\sigma(F_i, E_i)$) for all $i \in J$. Since $\sum_{i \in J} B_i$ is contained in the convex envelope of $\bigcup_{i \in J} nB_i$, where $n = \mathrm{Card}(J)$, we can apply lemma 3, to prove the assertion on $\beta(E, F)$ in this case.
 
-For the general case, let $N_i$ be the intersection of all neighbourhoods of 0 for $\sigma(F_i, E_i)$, and let $N = \sum_{i \in I} N_i$; then $F/N$ is the topological direct sum of the $F_i/N_i$ (II, p. 31, prop. 8); we deduce from this that every subset of $F$ which is bounded for $\mathcal{T}$ is contained in a set of the form $N + \sum_{i \in J} B_i$ with $J \subset I$ finite and $B_i$ bounded in $F_i$ for all $i \in J$ (III, p. 2, *Remark* 3); since the polar of this set in $E$ is the same as that of $\sum_{i \in J} B_i$, the result follows as above.
+For the general case, let $N_i$ be the intersection of all neighbourhoods of 0 for $\sigma(F_i, E_i)$, and let $N = \sum_{i \in I} N_i$; then $F/N$ is the topological direct sum of the $F_i/N_i$ (II, p. 31, prop. 8); we deduce from this that every subset of $F$ which is bounded for $\mathscr{T}$ is contained in a set of the form $N + \sum_{i \in J} B_i$ with $J \subset I$ finite and $B_i$ bounded in $F_i$ for all $i \in J$ (III, p. 2, *Remark* 3); since the polar of this set in $E$ is the same as that of $\sum_{i \in J} B_i$, the result follows as above.
 
 #### Proposition 13 {#evt-iv-s1-prop-13 .statement}
 

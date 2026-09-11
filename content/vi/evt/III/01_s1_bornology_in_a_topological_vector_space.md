@@ -40,9 +40,9 @@ subsections:
       pdf_page: 141
 statements: 30
 exercises: 16
-content_sha256: 821d2793f0968215825c0c0f20dce6dfde8b9878e77827ffbab9492c85729d60
+content_sha256: ea70ed124b417de4972c341d61e3c461a6d8fc9f7cda275e59f18a38c267fea5
 translated_from: content/en/evt/III/01_s1_bornology_in_a_topological_vector_space.md
-source_content_sha256: f0367575f236480d19bac46c262f379ed1995cd00476c147df4184564e42e7b4
+source_content_sha256: 960bc7c352d04bbbc5627738c519ef4cfd67e4967289aea5768d8be947557e73
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-ef9d8679
 glossary_version: 34
@@ -56,23 +56,23 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 #### Định nghĩa 1 {#evt-iii-s1-def-1 .statement}
 
-— *Một bornôlôgi trên một tập hợp* $E$ *là một tập con* $\mathcal{B}$ *của tập hợp tất cả các tập con của* $E$ *thỏa mãn các điều kiện sau* (cf. GT, X, § 1.2, Nhận xét 2).
-(B1) *Mọi tập con của một tập hợp thuộc* $\mathcal{B}$ *đều thuộc* $\mathcal{B}$.
-(B2) *Mọi hợp hữu hạn của các tập hợp thuộc* $\mathcal{B}$ *đều thuộc* $\mathcal{B}$.
+— *Một bornôlôgi trên một tập hợp* $E$ *là một tập con* $\mathscr{B}$ *của tập hợp tất cả các tập con của* $E$ *thỏa mãn các điều kiện sau* (cf. GT, X, § 1.2, Nhận xét 2).
+(B1) *Mọi tập con của một tập hợp thuộc* $\mathscr{B}$ *đều thuộc* $\mathscr{B}$.
+(B2) *Mọi hợp hữu hạn của các tập hợp thuộc* $\mathscr{B}$ *đều thuộc* $\mathscr{B}$.
 
-*Ta nói rằng* $\mathcal{B}$ *là phủ nếu mọi phần tử của* $E$ *được chứa trong một tập hợp thuộc* $\mathcal{B}$, *hay, tương đương, nếu* $\mathcal{B}$ *là một phủ của* $E$.
+*Ta nói rằng* $\mathscr{B}$ *là phủ nếu mọi phần tử của* $E$ *được chứa trong một tập hợp thuộc* $\mathscr{B}$, *hay, tương đương, nếu* $\mathscr{B}$ *là một phủ của* $E$.
 
 #### Ví dụ {#evt-iii-s1-n1-exa-1 .statement}
 
 — Cho E là một không gian metric; tập hợp tất cả các tập con bị chặn của E (GT, IX, § 2, No. 2) là một bornôlôgi phủ trên E. Cho G là nhóm các đẳng cự của E; tập hợp tất cả các tập con M của G sao cho với mọi $x \in E$, tập hợp $M.x$ là một tập con bị chặn của E, là một bornôlôgi phủ trên G.
 
-Nếu $\mathcal{B}$ là một bornôlôgi trên một tập hợp E, một tập con $\mathcal{B}_1$ của $\mathcal{B}$ được gọi là một *cơ sở* của $\mathcal{B}$ nếu mọi tập hợp thuộc $\mathcal{B}$ đều được chứa trong một tập hợp thuộc $\mathcal{B}_1$.
+Nếu $\mathscr{B}$ là một bornôlôgi trên một tập hợp E, một tập con $\mathscr{B}_1$ của $\mathscr{B}$ được gọi là một *cơ sở* của $\mathscr{B}$ nếu mọi tập hợp thuộc $\mathscr{B}$ đều được chứa trong một tập hợp thuộc $\mathscr{B}_1$.
 
-Giao của một họ các bornôlôgi trên E là một bornôlôgi; do đó với mọi tập con $\mathfrak{S}$ của $\mathfrak{P}(E)$, tồn tại một bornôlôgi nhỏ nhất chứa $\mathfrak{S}$; bornôlôgi này được gọi là *sinh bởi* $\mathfrak{S}$ và nhận làm cơ sở tập hợp các hợp hữu hạn của các tập hợp thuộc $\mathfrak{S}$. Nếu E và E' là hai tập hợp, và $\mathcal{B}$ (resp. $\mathcal{B}'$) là một bornôlôgi trên E (resp. E'), bornôlôgi tích là bornôlôgi trên $E \times E'$ nhận các tập hợp $M \times M'$ làm cơ sở, trong đó $M \in \mathcal{B}$ và $M' \in \mathcal{B}'$.
+Giao của một họ các bornôlôgi trên E là một bornôlôgi; do đó với mọi tập con $\mathfrak{S}$ của $\mathfrak{P}(E)$, tồn tại một bornôlôgi nhỏ nhất chứa $\mathfrak{S}$; bornôlôgi này được gọi là *sinh bởi* $\mathfrak{S}$ và nhận làm cơ sở tập hợp các hợp hữu hạn của các tập hợp thuộc $\mathfrak{S}$. Nếu E và E' là hai tập hợp, và $\mathscr{B}$ (resp. $\mathscr{B}'$) là một bornôlôgi trên E (resp. E'), bornôlôgi tích là bornôlôgi trên $E \times E'$ nhận các tập hợp $M \times M'$ làm cơ sở, trong đó $M \in \mathscr{B}$ và $M' \in \mathscr{B}'$.
 
 #### Định nghĩa 2 {#evt-iii-s1-def-2 .statement}
 
-*Cho $E$ là một không gian vectơ. Một bornôlôgi $\mathcal{B}$ trên $E$ được gọi là lồi nếu với mọi $X \in \mathcal{B}$ và $t \in K$, tập hợp đồng dạng $tX$ và bao lồi cân bằng $\Gamma(X)$ (II, p. 10) của $X$ đều thuộc $\mathcal{B}$.*
+*Cho $E$ là một không gian vectơ. Một bornôlôgi $\mathscr{B}$ trên $E$ được gọi là lồi nếu với mọi $X \in \mathscr{B}$ và $t \in K$, tập hợp đồng dạng $tX$ và bao lồi cân bằng $\Gamma(X)$ (II, p. 10) của $X$ đều thuộc $\mathscr{B}$.*
 
 Nếu $X$ và $Y$ là hai tập con của $E$, ta có
 $$
@@ -82,7 +82,7 @@ $$
 \lambda X \subset t\Gamma(X) \quad \text{pour} \quad |\lambda| \leq t .
 $$
 
-Do đó, nếu $\mathcal{B}$ là một bornôlôgi lồi trên $E$, nếu $A$ là một tập con bị chặn của $K$ và nếu $X, Y$ thuộc $\mathcal{B}$, thì $X + Y \in \mathcal{B}$ và $A.X \in \mathcal{B}$.
+Do đó, nếu $\mathscr{B}$ là một bornôlôgi lồi trên $E$, nếu $A$ là một tập con bị chặn của $K$ và nếu $X, Y$ thuộc $\mathscr{B}$, thì $X + Y \in \mathscr{B}$ và $A.X \in \mathscr{B}$.
 
 ### 2. Các tập con bị chặn của một không gian vectơ tôpô
 
@@ -110,7 +110,7 @@ Do đó, nếu $E$ là lồi địa phương và mêtric hóa được, và nế
 
 #### Định nghĩa 4 {#evt-iii-s1-def-4 .statement}
 
-*Cho $E$ là một không gian lồi địa phương. Một bornology $\mathcal{B}$ trên $E$ được gọi là thích nghi với $E$, nếu nó lồi, gồm các tập con bị chặn của $E$ và nếu bao đóng của mọi tập hợp thuộc $\mathcal{B}$ cũng thuộc $\mathcal{B}$.*
+*Cho $E$ là một không gian lồi địa phương. Một bornology $\mathscr{B}$ trên $E$ được gọi là thích nghi với $E$, nếu nó lồi, gồm các tập con bị chặn của $E$ và nếu bao đóng của mọi tập hợp thuộc $\mathscr{B}$ cũng thuộc $\mathscr{B}$.*
 
 #### Mệnh đề 1 {#evt-iii-s1-prop-1 .statement}
 
@@ -127,7 +127,7 @@ Nếu $p$ là một nửa chuẩn liên tục trên $E$, các quả cầu của 
 
 *Cho $E$ là một không gian lồi địa phương. Tập hợp tất cả các tập con bị chặn của $E$ được gọi là bornology chính tắc của $E$.*
 
-Nếu $\mathcal{B}$ là một tập hợp các tập con bị chặn của $E$, thì tồn tại một bornology nhỏ nhất $\tilde{\mathcal{B}}$ thích nghi với $E$ và chứa $\mathcal{B}$. Các tập hợp của $\tilde{\mathcal{B}}$ là những tập được chứa trong một tập hợp đồng dạng với bao lồi cân bằng đóng của một hợp hữu hạn các tập hợp thuộc $\mathcal{B}$.
+Nếu $\mathscr{B}$ là một tập hợp các tập con bị chặn của $E$, thì tồn tại một bornology nhỏ nhất $\tilde{\mathscr{B}}$ thích nghi với $E$ và chứa $\mathscr{B}$. Các tập hợp của $\tilde{\mathscr{B}}$ là những tập được chứa trong một tập hợp đồng dạng với bao lồi cân bằng đóng của một hợp hữu hạn các tập hợp thuộc $\mathscr{B}$.
 
 Mọi bornology thích nghi đều được chứa trong bornology chính tắc.
 
@@ -284,37 +284,37 @@ Ta sẽ nói rằng một không gian đều $X$ là *nửa đầy đủ* nếu 
 
 ### 7. Các ví dụ
 
-a) Cho X là một không gian tôpô. Cho $\mathcal{R}(X)$, không gian vectơ của các hàm số (hữu hạn) trên X, được trang bị tôpô hội tụ compact (GT, X, § 1, No. 3): đây là tôpô thô nhất mà các ánh xạ hạn chế $\mathcal{R}(X) \to \mathcal{R}(H)$ là liên tục (trong đó H chạy qua họ các tập con compact của X và $\mathcal{R}(H)$ được trang bị tôpô hội tụ đều). Hệ quả 3 của III, p. 4 cho thấy rằng một tập con A của $\mathcal{R}(X)$ bị chặn khi và chỉ khi, với mọi tập con compact H của X, tập hợp các hạn chế lên H của các hàm thuộc A bị chặn đều.
+a) Cho X là một không gian tôpô. Cho $\mathscr{R}(X)$, không gian vectơ của các hàm số (hữu hạn) trên X, được trang bị tôpô hội tụ compact (GT, X, § 1, No. 3): đây là tôpô thô nhất mà các ánh xạ hạn chế $\mathscr{R}(X) \to \mathscr{R}(H)$ là liên tục (trong đó H chạy qua họ các tập con compact của X và $\mathscr{R}(H)$ được trang bị tôpô hội tụ đều). Hệ quả 3 của III, p. 4 cho thấy rằng một tập con A của $\mathscr{R}(X)$ bị chặn khi và chỉ khi, với mọi tập con compact H của X, tập hợp các hạn chế lên H của các hàm thuộc A bị chặn đều.
 
-*b) (Các không gian của các hàm khả vi vô hạn.) Cho $n \geqslant 1$ là một số nguyên. Với mọi tập mở U trong $\mathbf{R}^n$, ký hiệu $\mathcal{C}^\infty(U)$ là không gian vectơ của các hàm khả vi vô hạn trên U (VAR, R, 2.3). Cho f thuộc $\mathcal{C}^\infty(U)$. Với mọi đa chỉ số $\alpha = (\alpha_1, ..., \alpha_n)$ thuộc $\mathbf{N}^n$, $\partial^\alpha f$ ký hiệu đạo hàm riêng $\partial^{|\alpha|} f / \partial x_1^{\alpha_1} ... \partial x_n^{\alpha_n}$; đây là một hàm liên tục trên U (VAR, R, 2.3 và 2.4). Với mọi số nguyên $m \geqslant 0$, và mọi tập con compact H của U, đặt
+*b) (Các không gian của các hàm khả vi vô hạn.) Cho $n \geqslant 1$ là một số nguyên. Với mọi tập mở U trong $\mathbf{R}^n$, ký hiệu $\mathscr{C}^\infty(U)$ là không gian vectơ của các hàm khả vi vô hạn trên U (VAR, R, 2.3). Cho f thuộc $\mathscr{C}^\infty(U)$. Với mọi đa chỉ số $\alpha = (\alpha_1, ..., \alpha_n)$ thuộc $\mathbf{N}^n$, $\partial^\alpha f$ ký hiệu đạo hàm riêng $\partial^{|\alpha|} f / \partial x_1^{\alpha_1} ... \partial x_n^{\alpha_n}$; đây là một hàm liên tục trên U (VAR, R, 2.3 và 2.4). Với mọi số nguyên $m \geqslant 0$, và mọi tập con compact H của U, đặt
 
 $$
 p_{m,H}(f) = \sup_{\substack{|\alpha| \leqslant m \\ x \in H}} |\partial^\alpha f(x)| .
 $$
 
-Khi đó $p_{m,H}$ là một nửa chuẩn trên $\mathcal{C}^\infty(U)$.
+Khi đó $p_{m,H}$ là một nửa chuẩn trên $\mathscr{C}^\infty(U)$.
 
-Trang bị cho $\mathcal{C}^\infty(U)$ tôpô được xác định bởi các nửa chuẩn $p_{m,H}$. Đây là tôpô thô nhất sao cho các ánh xạ $f \to \partial^\alpha f$ từ $\mathcal{C}^\infty(U)$ vào $\mathcal{R}(U)$ là liên tục, trong đó $\mathcal{R}(U)$ được trang bị tôpô hội tụ compact. Tồn tại một dãy tăng các tập con compact $(H_n)_{n \geqslant 0}$ của U mà các phần trong của chúng phủ U; họ các nửa chuẩn $p_{m,H_n}$ xác định tôpô của $\mathcal{C}^\infty(U)$, khi đó nó trở thành một không gian lồi địa phương mêtric hóa được. Không gian $\mathcal{C}^\infty(U)$ là đầy đủ; nói cách khác, nó là một không gian Fréchet (II, p. 24): thực vậy, cho $(f_k)$ là một dãy Cauchy trong $\mathcal{C}^\infty(U)$; với mọi $\alpha \in \mathbf{N}^n$, dãy $(\partial^\alpha f_k)$ hội tụ trong không gian đầy đủ $\mathcal{R}(U)$ (TG, X, § 1, No. 5, th. 1) tới một hàm liên tục $g_\alpha$. Bằng quy nạp theo $|\alpha|$, ta suy ra từ th. 1 của FVR, II, p. 2 rằng $g_\alpha = \partial^\alpha g_0$ với mọi $\alpha \in \mathbf{N}^n$. Nói cách khác, dãy $(f_k)$ hội tụ tới $g_0$ trong $\mathcal{C}^\infty(U)$.
+Trang bị cho $\mathscr{C}^\infty(U)$ tôpô được xác định bởi các nửa chuẩn $p_{m,H}$. Đây là tôpô thô nhất sao cho các ánh xạ $f \to \partial^\alpha f$ từ $\mathscr{C}^\infty(U)$ vào $\mathscr{R}(U)$ là liên tục, trong đó $\mathscr{R}(U)$ được trang bị tôpô hội tụ compact. Tồn tại một dãy tăng các tập con compact $(H_n)_{n \geqslant 0}$ của U mà các phần trong của chúng phủ U; họ các nửa chuẩn $p_{m,H_n}$ xác định tôpô của $\mathscr{C}^\infty(U)$, khi đó nó trở thành một không gian lồi địa phương mêtric hóa được. Không gian $\mathscr{C}^\infty(U)$ là đầy đủ; nói cách khác, nó là một không gian Fréchet (II, p. 24): thực vậy, cho $(f_k)$ là một dãy Cauchy trong $\mathscr{C}^\infty(U)$; với mọi $\alpha \in \mathbf{N}^n$, dãy $(\partial^\alpha f_k)$ hội tụ trong không gian đầy đủ $\mathscr{R}(U)$ (TG, X, § 1, No. 5, th. 1) tới một hàm liên tục $g_\alpha$. Bằng quy nạp theo $|\alpha|$, ta suy ra từ th. 1 của FVR, II, p. 2 rằng $g_\alpha = \partial^\alpha g_0$ với mọi $\alpha \in \mathbf{N}^n$. Nói cách khác, dãy $(f_k)$ hội tụ tới $g_0$ trong $\mathscr{C}^\infty(U)$.
 
-Cho A là một tập con của $\mathcal{C}^\infty(U)$. Để A bị chặn, điều kiện cần và đủ là số $\sup_{f \in A} p_{m,H}(f)$ hữu hạn với mọi số nguyên $m \geqslant 0$ và mọi tập con compact H của U; điều kiện này có nghĩa là với mọi $\alpha \in \mathbf{N}^n$, tập hợp các hàm $\partial^\alpha f|H$ với $f \in A$ bị chặn đều với mọi compact $H \subset U$.
+Cho A là một tập con của $\mathscr{C}^\infty(U)$. Để A bị chặn, điều kiện cần và đủ là số $\sup_{f \in A} p_{m,H}(f)$ hữu hạn với mọi số nguyên $m \geqslant 0$ và mọi tập con compact H của U; điều kiện này có nghĩa là với mọi $\alpha \in \mathbf{N}^n$, tập hợp các hàm $\partial^\alpha f|H$ với $f \in A$ bị chặn đều với mọi compact $H \subset U$.
 
-Cho $H \subset U$ là compact. Ta ký hiệu $\mathcal{C}_H^\infty(U)$ là không gian con của $\mathcal{C}^\infty(U)$ gồm những hàm có giá nằm trong H. Không gian $\mathcal{C}_c^\infty(U)$ của các hàm khả vi vô hạn có giá compact trong U là hợp tăng có hướng của các không gian con $\mathcal{C}_H^\infty(U)$ khi H chạy qua họ các tập con compact của U. Mỗi không gian $\mathcal{C}_H^\infty(U)$ được trang bị tôpô cảm sinh bởi tôpô của $\mathcal{C}^\infty(U)$, và $\mathcal{C}_c^\infty(U)$ với tôpô giới hạn quy nạp tương ứng. Nếu các tập $H_n$ sao cho các phần trong của chúng lập thành một phủ của U, thì không gian $\mathcal{C}_c^\infty(U)$ là giới hạn quy nạp ngặt của các không gian Fréchet $\mathcal{C}_{H_n}^\infty(U)$; do đó nó đầy đủ (II, p. 32, prop. 9) và mọi tập con bị chặn của $\mathcal{C}_c^\infty(U)$ được chứa trong một trong các không gian con $\mathcal{C}_{H_n}^\infty(U)$ (III, p. 5, prop. 6). \*
+Cho $H \subset U$ là compact. Ta ký hiệu $\mathscr{C}_H^\infty(U)$ là không gian con của $\mathscr{C}^\infty(U)$ gồm những hàm có giá nằm trong H. Không gian $\mathscr{C}_c^\infty(U)$ của các hàm khả vi vô hạn có giá compact trong U là hợp tăng có hướng của các không gian con $\mathscr{C}_H^\infty(U)$ khi H chạy qua họ các tập con compact của U. Mỗi không gian $\mathscr{C}_H^\infty(U)$ được trang bị tôpô cảm sinh bởi tôpô của $\mathscr{C}^\infty(U)$, và $\mathscr{C}_c^\infty(U)$ với tôpô giới hạn quy nạp tương ứng. Nếu các tập $H_n$ sao cho các phần trong của chúng lập thành một phủ của U, thì không gian $\mathscr{C}_c^\infty(U)$ là giới hạn quy nạp ngặt của các không gian Fréchet $\mathscr{C}_{H_n}^\infty(U)$; do đó nó đầy đủ (II, p. 32, prop. 9) và mọi tập con bị chặn của $\mathscr{C}_c^\infty(U)$ được chứa trong một trong các không gian con $\mathscr{C}_{H_n}^\infty(U)$ (III, p. 5, prop. 6). \*
 
-c) (Các không gian Gevrey.) Cho I là một khoảng compact trong $\mathbf{R}$. Với mọi số nguyên $n \geqslant 0$, $D^n f$ ký hiệu đạo hàm cấp $n$ của một hàm số $f$ xác định trên I (khi đạo hàm này tồn tại). Cho $s \geqslant 1$ và $M \geqslant 0$ là hai số thực. Ký hiệu $\mathcal{G}_{s,M}(I)$ là không gian vectơ gồm các hàm khả vi vô hạn $f$ trên I (FVR, I, p. 28) sao cho dãy $(|D^n f|/M^n(n!)^s)_{n \geqslant 0}$ bị chặn trong không gian $\mathcal{C}(I)$ của tất cả các hàm liên tục trên I (với tôpô hội tụ đều). Không gian $\mathcal{G}_{s,M}(I)$ là một không gian Banach với chuẩn
+c) (Các không gian Gevrey.) Cho I là một khoảng compact trong $\mathbf{R}$. Với mọi số nguyên $n \geqslant 0$, $D^n f$ ký hiệu đạo hàm cấp $n$ của một hàm số $f$ xác định trên I (khi đạo hàm này tồn tại). Cho $s \geqslant 1$ và $M \geqslant 0$ là hai số thực. Ký hiệu $\mathscr{G}_{s,M}(I)$ là không gian vectơ gồm các hàm khả vi vô hạn $f$ trên I (FVR, I, p. 28) sao cho dãy $(|D^n f|/M^n(n!)^s)_{n \geqslant 0}$ bị chặn trong không gian $\mathscr{C}(I)$ của tất cả các hàm liên tục trên I (với tôpô hội tụ đều). Không gian $\mathscr{G}_{s,M}(I)$ là một không gian Banach với chuẩn
 
 $$
 \|f\|_{s,M} = \sup_{n \geqslant 0, x \in I} |D^n f(x)|/M^n(n!)^s .
 $$
 
-Với $M \leqslant M'$, ta có $\mathcal{G}_{s,M}(I) \subset \mathcal{G}_{s,M'}(I)$, và
+Với $M \leqslant M'$, ta có $\mathscr{G}_{s,M}(I) \subset \mathscr{G}_{s,M'}(I)$, và
 
 $$
 \|f\|_{s,M'} \leqslant \|f\|_{s,M}
 $$
 
-với mọi $f \in \mathcal{G}_{s,M}(I)$. Ký hiệu $\mathcal{G}_s(I)$ là hợp của các không gian $\mathcal{G}_{s,M}(I)$ và trang bị cho nó tôpô giới hạn quy nạp của các tôpô của $\mathcal{G}_{s,M}(I)$.
+với mọi $f \in \mathscr{G}_{s,M}(I)$. Ký hiệu $\mathscr{G}_s(I)$ là hợp của các không gian $\mathscr{G}_{s,M}(I)$ và trang bị cho nó tôpô giới hạn quy nạp của các tôpô của $\mathscr{G}_{s,M}(I)$.
 
-Cho $M < M'$ và gọi B là quả cầu đơn vị (đóng) trong $\mathcal{G}_{s,M}(I)$. Ta sẽ chứng minh rằng B là một tập con compact của không gian Banach $\mathcal{G}_{s,M'}(I)$. Rõ ràng B đóng trong $\mathcal{G}_{s,M'}(I)$ và do đó chỉ cần chứng minh rằng B là tiền compact trong $\mathcal{G}_{s,M'}(I)$. Cho $\varepsilon > 0$ và cho N là một số nguyên dương sao cho $(M/M')^N \leqslant \varepsilon/2$. Cho $k$ là một số nguyên dương; tập hợp tất cả các hàm $D^{k+1} f$, khi $f$ chạy trên B, bị chặn trong $\mathcal{C}(I)$, do đó tập hợp tất cả các hàm $D^k f$, khi $f$ chạy trên B, là tương đối compact trong $\mathcal{C}(I)$: điều này suy ra từ định lý số gia hữu hạn (FVR, I, p. 23, cor. 1) và định lý Ascoli (GT, X, § 2, No. 5). Ta định nghĩa một chuẩn trên $\mathcal{G}_{s,M}(I)$ bởi
+Cho $M < M'$ và gọi B là quả cầu đơn vị (đóng) trong $\mathscr{G}_{s,M}(I)$. Ta sẽ chứng minh rằng B là một tập con compact của không gian Banach $\mathscr{G}_{s,M'}(I)$. Rõ ràng B đóng trong $\mathscr{G}_{s,M'}(I)$ và do đó chỉ cần chứng minh rằng B là tiền compact trong $\mathscr{G}_{s,M'}(I)$. Cho $\varepsilon > 0$ và cho N là một số nguyên dương sao cho $(M/M')^N \leqslant \varepsilon/2$. Cho $k$ là một số nguyên dương; tập hợp tất cả các hàm $D^{k+1} f$, khi $f$ chạy trên B, bị chặn trong $\mathscr{C}(I)$, do đó tập hợp tất cả các hàm $D^k f$, khi $f$ chạy trên B, là tương đối compact trong $\mathscr{C}(I)$: điều này suy ra từ định lý số gia hữu hạn (FVR, I, p. 23, cor. 1) và định lý Ascoli (GT, X, § 2, No. 5). Ta định nghĩa một chuẩn trên $\mathscr{G}_{s,M}(I)$ bởi
 
 $$
 q(f) = \sup_{0 \leqslant n \leqslant N, x \in I} |D^n f(x)|/M^n(n!)^s .
@@ -326,13 +326,13 @@ $$
 |D^n f(x) - D^n g(x)|/M^n(n!)^s \leqslant 2(M/M')^n \leqslant \varepsilon ,
 $$
 
-từ đó suy ra $\|f - g\| \leqslant \varepsilon$. Điều này chứng minh rằng B là tiền compact trong $\mathcal{G}_{s,M'}(I)$.
+từ đó suy ra $\|f - g\| \leqslant \varepsilon$. Điều này chứng minh rằng B là tiền compact trong $\mathscr{G}_{s,M'}(I)$.
 
-Không gian $\mathcal{G}_s(I)$ là giới hạn quy nạp của các không gian $\mathcal{G}_{s,k}(I)$ khi $k$ chạy trên $\mathbf{N}$; theo mệnh đề 7 (III, p. 6), mọi tập con bị chặn của $\mathcal{G}_s(I)$ đều được chứa trong một trong các không gian $\mathcal{G}_{s,k}(I)$ và là tương đối compact trong không gian này.
+Không gian $\mathscr{G}_s(I)$ là giới hạn quy nạp của các không gian $\mathscr{G}_{s,k}(I)$ khi $k$ chạy trên $\mathbf{N}$; theo mệnh đề 7 (III, p. 6), mọi tập con bị chặn của $\mathscr{G}_s(I)$ đều được chứa trong một trong các không gian $\mathscr{G}_{s,k}(I)$ và là tương đối compact trong không gian này.
 
-\* d) (Các không gian hàm chỉnh hình.) Cho $n \geqslant 1$ là một số nguyên. Với mọi tập con mở U của $\mathbf{C}^n$, $\mathcal{H}(U)$ ký hiệu không gian các hàm chỉnh hình trong U, và được trang bị tôpô hội tụ compact trong U. Với mọi tập con compact L của $\mathbf{C}^n$, $\mathcal{H}(L)$ ký hiệu không gian các mầm của các hàm chỉnh hình trong một lân cận của L; ta trang bị cho không gian này tôpô lồi địa phương mịn nhất sao cho các ánh xạ chính tắc $\pi_U : \mathcal{H}(U) \to \mathcal{H}(L)$ là liên tục, trong đó U chạy trên tập hợp các lân cận mở của L.
+\* d) (Các không gian hàm chỉnh hình.) Cho $n \geqslant 1$ là một số nguyên. Với mọi tập con mở U của $\mathbf{C}^n$, $\mathscr{H}(U)$ ký hiệu không gian các hàm chỉnh hình trong U, và được trang bị tôpô hội tụ compact trong U. Với mọi tập con compact L của $\mathbf{C}^n$, $\mathscr{H}(L)$ ký hiệu không gian các mầm của các hàm chỉnh hình trong một lân cận của L; ta trang bị cho không gian này tôpô lồi địa phương mịn nhất sao cho các ánh xạ chính tắc $\pi_U : \mathscr{H}(U) \to \mathscr{H}(L)$ là liên tục, trong đó U chạy trên tập hợp các lân cận mở của L.
 
-Với mọi số nguyên $m \geq 1$, đặt $U_m$ là tập hợp các điểm của $\mathbf{C}^n$ cách L một khoảng $< 1/m$. Có thể chứng minh rằng ánh xạ chính tắc $\pi_{U_m}$ từ $\mathcal{H}(U_m)$ vào $\mathcal{H}(L)$ là *đơn ánh*, và ánh xạ hạn chế từ $\mathcal{H}(U_m)$ vào $\mathcal{H}(U_p)$ là *compact* với $p \geq m$. Khi đó ta có thể áp dụng mệnh đề 7 (III, p. 6). Cho A là một tập con bị chặn của $\mathcal{H}(L)$; khi đó tồn tại một số nguyên $m \geq 1$ sao cho A gồm các mầm của các hàm trong một lân cận của L, thuộc một tập hợp B bị chặn trong $\mathcal{H}(U_m)$. Hơn nữa, một ánh xạ $\phi$ từ $\mathcal{H}(L)$ vào một không gian tôpô T là liên tục khi và chỉ khi ánh xạ $\phi \circ \pi_U$ từ $\mathcal{H}(U)$ vào T liên tục với mọi lân cận mở U của L. \*
+Với mọi số nguyên $m \geq 1$, đặt $U_m$ là tập hợp các điểm của $\mathbf{C}^n$ cách L một khoảng $< 1/m$. Có thể chứng minh rằng ánh xạ chính tắc $\pi_{U_m}$ từ $\mathscr{H}(U_m)$ vào $\mathscr{H}(L)$ là *đơn ánh*, và ánh xạ hạn chế từ $\mathscr{H}(U_m)$ vào $\mathscr{H}(U_p)$ là *compact* với $p \geq m$. Khi đó ta có thể áp dụng mệnh đề 7 (III, p. 6). Cho A là một tập con bị chặn của $\mathscr{H}(L)$; khi đó tồn tại một số nguyên $m \geq 1$ sao cho A gồm các mầm của các hàm trong một lân cận của L, thuộc một tập hợp B bị chặn trong $\mathscr{H}(U_m)$. Hơn nữa, một ánh xạ $\phi$ từ $\mathscr{H}(L)$ vào một không gian tôpô T là liên tục khi và chỉ khi ánh xạ $\phi \circ \pi_U$ từ $\mathscr{H}(U)$ vào T liên tục với mọi lân cận mở U của L. \*
 
 ### Bài tập {#evt-iii-s1-exercises}
 
