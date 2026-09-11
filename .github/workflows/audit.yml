@@ -152,16 +152,16 @@ jobs:
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
       # has not run on a pull request since. It was 31555 when the ceiling went
-      # in and is 30029 now, and #391 has the breakdown: 23302 of them are T03,
+      # in and is 30026 now, and #391 has the breakdown: 23302 of them are T03,
       # the statements waiting to be tagged, and most of the rest is volumes
-      # that are not read through yet. The 1526 that have come off since are the
+      # that are not read through yet. The 1529 that have come off since are the
       # small mathematics rules read to nothing, the 102 seals the sweeps left
       # behind, 79 index files S12 could not see because it never read the two
       # manifest fields that name them, and 1246 bare glyphs that bourbaki fix
       # math turned back into their TeX: 644 once it was taught to read content/
       # as well as pages/, since a translation has no page under it, and 602
       # once its table was taught the operators as well as the letters. M03 was
-      # 1251 and is 5.
+      # 1251 and is 2, the last three being things it reported that were right.
       #
       # So it is held at a ceiling, and the ceiling comes down. A hard rule is
       # one that fails the build: the structure of a section file, a tag that
@@ -203,7 +203,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 30029; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 30026; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"
