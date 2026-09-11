@@ -53,7 +53,7 @@ subsections:
       pdf_page: 440
 statements: 45
 exercises: 20
-content_sha256: c28075aaca88e73a217d743e0f90dd1d3d6c62e0ddbc8b6f5c6252e65c430bf4
+content_sha256: 3fce9102ca207ae76c4b275af54ce31769dcb5ed5d82d9b3402e109d3c0296b3
 translated_from: content/fr/ts/V/02_s2_representations_des_groupes_localement.md
 source_lang: fr
 translation_method: machine

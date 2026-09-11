@@ -37,7 +37,7 @@ subsections:
       pdf_page: 381
 statements: 30
 exercises: 5
-content_sha256: 5e86aa4bf7f68b496dc66c45054036bec9323c4a0abe9e41eb7770eb7a5721f9
+content_sha256: 42920b0d57753fc59af83d5749587f7f6bcfc3e480a3918d5af4352f6f44cbba
 translated_from: content/en-mt/ta/IV/02_s2_groupes_de_poincare_des_espaces.md
 source_lang: en-mt
 translation_method: machine

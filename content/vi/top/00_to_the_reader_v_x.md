@@ -12,7 +12,7 @@ pdf_pages: 0005-0006
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 079d04ef5aec958758a0537d32d91aa8034d1eb9d8fa46706edcc94d7bdb3a53
+content_sha256: a3642696d1dbdda651761759ad3264c6f52d328ac4aac47bd9fd817aec067151
 translated_from: content/en/top/00_to_the_reader_v_x.md
 source_content_sha256: d1843c8cae56b035f449f6fada8a0222786c7b86ffbc7681aaf68ef3b1150e1c
 translation_model: gpt-5.4

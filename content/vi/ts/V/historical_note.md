@@ -46,7 +46,7 @@ subsections:
       pdf_page: 552
 statements: 0
 exercises: 0
-content_sha256: 306ad7d54c6c88db3297d0a2cb6433cc3f168b4f9f58fb6ce9700a7847758464
+content_sha256: 2ba36fdb589bfffd878d5b1e5b96e0e260dd75db7381d2f43e398755a2249e2e
 translated_from: content/en-mt/ts/V/historical_note.md
 source_lang: en-mt
 translation_method: machine

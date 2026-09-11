@@ -11,7 +11,7 @@ pdf_pages: 0128-0141
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f9c97d604e8c2523c2c9315066a2b54182d2b69259e7022b212f79715d4646a2
+content_sha256: 78c505e0e601c5aa5a0f7119c8062cbd3272718d8b0c1189f675b572497061ad
 translated_from: content/en/hist/1/09_s9_quadratic_forms_elementary_geometry.md
 source_content_sha256: 3aef357b6f97b9fcb0b59c83dd3242fcc38d806c6b52436ba9ab2c799e4471c8
 translation_model: gpt-5-6

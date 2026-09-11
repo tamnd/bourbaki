@@ -45,7 +45,7 @@ subsections:
       pdf_page: 207
 statements: 32
 exercises: 28
-content_sha256: b5c8c5e1262ed991340ee0d7fd7a14dce3adc25054063479cc27425f25a2c0bf
+content_sha256: 405394247e214c158a20366ab22bc5a6a0ff8f025b6b41afb1c23b9a594fc7cc
 translated_from: content/en-mt/ts/IV/02_s2_endomorphismes_normaux.md
 source_lang: en-mt
 translation_method: machine

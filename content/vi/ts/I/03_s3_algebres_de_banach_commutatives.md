@@ -41,7 +41,7 @@ subsections:
       pdf_page: 57
 statements: 48
 exercises: 29
-content_sha256: 615296abef00f2e6b337fb694f15c5661ca2601e474f667a4b4ae3d46ccedf0f
+content_sha256: 5648b5f37001dfcd24bc9a456f0c2d10dad110bc10edd7461a3420ebae67a8df
 translated_from: content/en-mt/ts/I/03_s3_algebres_de_banach_commutatives.md
 source_lang: en-mt
 translation_method: machine

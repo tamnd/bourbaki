@@ -45,7 +45,7 @@ subsections:
       pdf_page: 24
 statements: 33
 exercises: 8
-content_sha256: c155100aeeb55ef772953d6dffef6371465c4540ba0820b0c3065483a6dadf18
+content_sha256: 8dafe4c7668069c20aad732612f6236872535040e4dfb45197078991af3c7203
 translated_from: content/en-mt/ts/I/01_s1_spectres_et_caracteres.md
 source_lang: en-mt
 translation_method: machine

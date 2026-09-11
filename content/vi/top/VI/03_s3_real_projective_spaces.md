@@ -36,7 +36,7 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: 25e90f5c97abf509f5001fd04d9e2af7ceb1d5b82622b1657330c25288ce5ae4
+content_sha256: 656189c16214e390bfd09e13edd85b6710206e41ece139d6952506c056090313
 translated_from: content/en/top/VI/03_s3_real_projective_spaces.md
 source_content_sha256: 53d9a6c6d16fec228a219b9d179e95bab1a2ba49b45ee6d650a09b758196d514
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6

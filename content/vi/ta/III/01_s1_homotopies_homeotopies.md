@@ -53,7 +53,7 @@ subsections:
       pdf_page: 269
 statements: 55
 exercises: 32
-content_sha256: 172e8bcc537cb4480b91553dfa5d66ddc48cbbef70188596950252462aa4bc45
+content_sha256: 3dc372e305a10dea22a2c94e92c970bc13d472efaf058cf3b67d46f03bcbe8c1
 translated_from: content/en-mt/ta/III/01_s1_homotopies_homeotopies.md
 source_lang: en-mt
 translation_method: machine

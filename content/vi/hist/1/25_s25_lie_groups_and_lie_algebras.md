@@ -11,7 +11,7 @@ pdf_pages: 0247-0267
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: f85ea898764f8170d8dc4dc5fe2d6b6e998ef9b13a682d2e509600af4c0b131d
+content_sha256: 766bf02946983ffe2caa1442adfdd9f9daa028c8153330209ab6ed7beef5e941
 translated_from: content/en/hist/1/25_s25_lie_groups_and_lie_algebras.md
 source_content_sha256: 758f790e5baf428b457b35b0bb0942e6c9333e16ace540ad6af8edad1dd35da6
 translation_model: gpt-5.4

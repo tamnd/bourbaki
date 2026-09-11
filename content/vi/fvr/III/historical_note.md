@@ -12,7 +12,7 @@ pdf_pages: 0144-0177
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 659baa171cbe3ce9087f90cfa2f5fc8b4ad4ead3530e0c954752f0e8c4bc384f
+content_sha256: dd168da9e997cc06e7265a33b112c6cb4df7991af7b4e65f93ef2f4b326072e4
 translated_from: content/en/fvr/III/historical_note.md
 source_content_sha256: ac8030febf5ebeaf9d3f3f00a8fb9dc684af309e0cdfd42e236e2af2749abf31
 translation_model: gpt-5.4-mini, gpt-5-6-mini, gpt-5-6

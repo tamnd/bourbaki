@@ -46,7 +46,7 @@ subsections:
       pdf_page: 405
 statements: 31
 exercises: 6
-content_sha256: 79ce0312b94aa0b60cec901ebc0f02de773ae21575442914b71d15c85908061c
+content_sha256: 3c407294fb7f9042c06b6c13092e38183294ded17790c45076ec277643069bcf
 translated_from: content/en/alg/VIII/20_s20_linear_representations_of_algebras.md
 source_content_sha256: 21c69879c69520e4304c8e59f7cf5de59d95e3feeda2214b3e1f184b31eb4b34
 translation_model: gpt-5.4-mini, gpt-5-6-mini

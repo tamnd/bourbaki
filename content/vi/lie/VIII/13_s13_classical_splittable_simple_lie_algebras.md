@@ -29,7 +29,7 @@ subsections:
       pdf_page: 219
 statements: 2
 exercises: 19
-content_sha256: d312db12e1d43397642271281fe7d5e8cf65e20ae609c003a10918873d0d0207
+content_sha256: 485987b0553461eba533fceaac2a7bee4f2044a3b3fa96fb7a6fa108e79af210
 translated_from: content/en/lie/VIII/13_s13_classical_splittable_simple_lie_algebras.md
 source_content_sha256: 6374fb400438df5a36d2c913925fb0624256c5324de93a908a0b9247182f92f3
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini, gpt-5.4-mini

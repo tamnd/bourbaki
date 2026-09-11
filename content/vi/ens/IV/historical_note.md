@@ -14,7 +14,7 @@ pdf_pages: 0301-0351
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: e7ccae151237d4cb7869a04014140d1de89c9914568d4f383961696b692355bd
+content_sha256: 505b41990313a9018c0fc5353980cb9b79c54f077ca21bcabef2ca68aecadfa7
 translated_from: content/en/ens/IV/historical_note.md
 source_content_sha256: 017dc72194ab7199a70c98ebaad46bbe5a298e1d67f9319e8388d92396c95255
 translation_model: gpt-5-6, gpt-5.4-mini

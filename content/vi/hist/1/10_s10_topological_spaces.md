@@ -11,7 +11,7 @@ pdf_pages: 0142-0146
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5ec1722db2735a51d48c5335c372ec90b40eb5fbe3738e46f3b47bf4bb1e519a
+content_sha256: b3b4434fa76a70e5f5394b62068db4e70c5ead96fae2287066bc46cda1ca9f93
 translated_from: content/en/hist/1/10_s10_topological_spaces.md
 source_content_sha256: 019513268c75c68c402ed1990e7bd3b66e2aaf227fa377b0ebf159d48ba0be2b
 translation_model: gpt-5-mini, gpt-5-6-mini

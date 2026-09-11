@@ -68,7 +68,7 @@ subsections:
       pdf_page: 246
 statements: 19
 exercises: 16
-content_sha256: f86cafc30218bd5289bde014dee4a5ac625f7176cf21f2132529a8c5752f8cdd
+content_sha256: d06ece6b27f0a14b6e7a1a6f74eb6a3e5d1706b5a328ba58e9f35e762fa735e9
 translated_from: content/en/lie/VI/04_s4_classification_of_root_systems.md
 source_content_sha256: 885d53becbd2c5c2ecfaf01892276712763fa1f29752646fc20fb98bbf979c99
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini, gpt-5-6

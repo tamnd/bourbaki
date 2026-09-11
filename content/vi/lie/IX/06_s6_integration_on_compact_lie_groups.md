@@ -33,7 +33,7 @@ subsections:
       pdf_page: 351
 statements: 25
 exercises: 13
-content_sha256: 185874cefc5ee2b589419ee7445951bb5d29059f2237e9b5484b5208867e328a
+content_sha256: 2e5370ea9e678cee51253b782237e875ed6e2b552fe612409bf14856de2e9433
 translated_from: content/en/lie/IX/06_s6_integration_on_compact_lie_groups.md
 source_content_sha256: 746c6186434593ae87ea52347a193f0e294cca0a933dcfbfbd4549276c4b772c
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini

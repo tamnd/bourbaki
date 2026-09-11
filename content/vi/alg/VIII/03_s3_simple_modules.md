@@ -34,7 +34,7 @@ subsections:
       pdf_page: 68
 statements: 23
 exercises: 10
-content_sha256: 884721dc429b919165930b4a9f122af64cf0cdea734aadaedd3cecf1ab6c621b
+content_sha256: ffab05a82adaaa05b4c188bb71985de076d8af4ed74eecf93e5c3a5894d74bfd
 translated_from: content/en/alg/VIII/03_s3_simple_modules.md
 source_content_sha256: 0317407d0c3ced7b2648e2b8d2e1ca2a46c305400b4715365d0e28e9e8310de8
 translation_model: gpt-5.4

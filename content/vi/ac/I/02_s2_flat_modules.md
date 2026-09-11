@@ -57,7 +57,7 @@ subsections:
       pdf_page: 45
 statements: 37
 exercises: 24
-content_sha256: 818fe4abc7b145010c3443dd89df7bc92a5fec5b07511a3ae05737e07815b8b7
+content_sha256: 4ea798903e7d201b9e3d5fcc4079bf75c1d542daa41ac71d903ac6c87d746c92
 translated_from: content/en/ac/I/02_s2_flat_modules.md
 source_content_sha256: 344a6de3b2a59e1cfb82dd1f659b36634483ae134ebd0e00853505a4e2b06f47
 translation_model: gpt-5.4, gpt-5-6-mini

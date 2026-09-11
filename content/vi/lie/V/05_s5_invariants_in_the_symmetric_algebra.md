@@ -32,7 +32,7 @@ subsections:
       pdf_page: 132
 statements: 24
 exercises: 9
-content_sha256: 6de3600aaa7a7b052f8ece2441df74d182e1ff0ec95849e1cbb25ac26747b4f7
+content_sha256: 1fae95cdfb0dbdd1e2977a87d011ee03d04115192314f996a904096ae4c2edde
 translated_from: content/en/lie/V/05_s5_invariants_in_the_symmetric_algebra.md
 source_content_sha256: 5bb79afffad07c548984011c327f46cee79084bb3100b183fe16d8e2fa8d7da2
 translation_model: gpt-5.4, gpt-5.4-mini, gpt-5-mini

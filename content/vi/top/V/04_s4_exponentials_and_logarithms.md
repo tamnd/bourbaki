@@ -24,7 +24,7 @@ subsections:
       pdf_page: 28
 statements: 1
 exercises: 2
-content_sha256: 68ed6d7b1b0eb271da97ad9cfc2a7b83f4c043658082b7b06761b9e2a38a4372
+content_sha256: 74581eab25a52f7444a99f7dd42fbbfaa2961b54b9643ab621562bc00fe266c2
 translated_from: content/en/top/V/04_s4_exponentials_and_logarithms.md
 source_content_sha256: 253a1c01cd6f9c44097f66ce6edc145a7650e56bfa06ec21ab22bc689a764fbb
 translation_model: gpt-5-6-mini

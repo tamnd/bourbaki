@@ -12,7 +12,7 @@ pdf_pages: 0262-0314
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: b1df646a1563529c32aa7853cf49becb386b4b6b89a23a02c32818fb6e3cb0c6
+content_sha256: a02f1592a3c3f6d55d26533a535bea4f0f1b75fc25af5876b0b1b3c0862ab125
 translated_from: content/en/lie/VI/historical_note.md
 source_content_sha256: db0552de5025618fdbbefe01a1ffe0e3162a9209c709d0dcff0a6ea9b8a02fe5
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini

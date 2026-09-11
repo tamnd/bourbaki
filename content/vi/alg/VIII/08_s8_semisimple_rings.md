@@ -30,7 +30,7 @@ subsections:
       pdf_page: 162
 statements: 30
 exercises: 6
-content_sha256: e0c2f8998f17a3c7ce83c664acdf2cc2b20092d33ab8879db4acdfe2c9928875
+content_sha256: 2c9c06b5d46a85a5c641de821b3aa8cc2cc5e094c3f3dc7389588b0d3584355c
 translated_from: content/en/alg/VIII/08_s8_semisimple_rings.md
 source_content_sha256: c3520cd3a5b6efacdd841870c3c2e342b0341edbd32074687bd212bc32731ee7
 translation_model: gpt-5.4

@@ -11,7 +11,7 @@ pdf_pages: 0090-0097
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 69537d5bf84235e6367df7f1dc3fcc4e6d756c44ebfab629e5db19de4b92884d
+content_sha256: d2832afc1b039283d304d378758b7b1df3fee2af35c476ddcbc69569ad97d965
 translated_from: content/en/hist/1/06_s6_divisibility_ordered_fields.md
 source_content_sha256: 8a55d5ef2afabdbb87e557470cab8f91868726c91701d246d93cd33b04d62b39
 translation_model: gpt-5.4

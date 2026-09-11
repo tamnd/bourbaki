@@ -29,7 +29,7 @@ subsections:
       pdf_page: 321
 statements: 16
 exercises: 1
-content_sha256: 87f8991e9ab2be882b0716def516550a05fb7469a460d1c3d3c02d9d9efbb7f4
+content_sha256: 9e38b7b201b6e1c16447bc91414f225b285d29037da89e057faa7fbd2f968b39
 translated_from: content/en-mt/ta/III/04_s4_homotopie_et_revetements.md
 source_lang: en-mt
 translation_method: machine

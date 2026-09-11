@@ -33,7 +33,7 @@ subsections:
       pdf_page: 226
 statements: 22
 exercises: 3
-content_sha256: 4cc7a0d01672bd0cb00ea29e03e781387f1ffbf388127165a3ba2c27e77968f9
+content_sha256: 0768befade45062c87c4168a5aaa5ba9ab19039ea4e7724fc7aee8edccb58854
 translated_from: content/en-mt/ta/II/05_s5_coegalisateur.md
 source_lang: en-mt
 translation_method: machine

@@ -30,7 +30,7 @@ subsections:
       pdf_page: 169
 statements: 19
 exercises: 8
-content_sha256: 7ef13ffa3bcea1a11222edc254aa4201da7a8951ed2fe85ad922b2817fbaa5be
+content_sha256: 460a5f66c91de293f6bc7fe1d9c2ed4954e5952182f9af92bf1d0dd7de7a3b94
 translated_from: content/en/alg/V/09_s9_conjugate_elements_and_quasi_galois.md
 source_content_sha256: 0d4d0127bd0f36cbd3c2a6be311c933fe5929eadbf69e81319cc08695d227e44
 translation_model: gpt-5-6-mini, gpt-5.4-mini

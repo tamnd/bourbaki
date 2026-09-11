@@ -66,7 +66,7 @@ subsections:
       pdf_page: 438
 statements: 36
 exercises: 30
-content_sha256: fb078a58755fe6e933d632dff4fe962475e80c905f3516b07609beb27445f361
+content_sha256: 4de439214ef3e9613d41f83931f1adb62a42fb3cbcc2eb2a35ab3ccf32c7d172
 translated_from: content/en/alg/VIII/21_s21_linear_representations_of_finite_groups.md
 source_content_sha256: 3a934f2dfc3eb0cfb5192b3c936dde529e28389fc932fa49415435ea29558ce1
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4, gpt-5-6

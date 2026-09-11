@@ -36,7 +36,7 @@ subsections:
       pdf_page: 98
 statements: 17
 exercises: 0
-content_sha256: 460f5689061071829a97ed203ae28cd9696fe4c9889b96084a5398685084646c
+content_sha256: cc12966d67822b3cd19f6b2ed112b352a691cbafb1634c3ee0ce6a11de0225d1
 translated_from: content/en-mt/alg/IX/06_s6_proprietes_speciales_aux_formes.md
 source_lang: en-mt
 translation_method: machine

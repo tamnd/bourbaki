@@ -50,7 +50,7 @@ subsections:
       pdf_page: 384
 statements: 40
 exercises: 9
-content_sha256: 13faf83948b10415867babfd939c75d597ab2f89e06f87902a4aeb25f4ee7e41
+content_sha256: 0b4a28e87f5a152099b1920e871dc21d8dd61879e11368e3bd3437d951343014
 translated_from: content/en/alg/VII/04_s4_finitely_generated_modules_over_a.md
 source_content_sha256: 6c2fe0a6c590f6a566b071f383cc4f32741a78d13c74d616a15ae4c9b34b6da3
 translation_model: gpt-5.4, gpt-5-mini, gpt-5-6-mini

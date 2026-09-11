@@ -14,7 +14,7 @@ pdf_pages: 0204-0214
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 5316ff81c5020b099245e420a898a991cbff4a8213845234cb63c4a491027594
+content_sha256: 284c607837571d8f5f5859a6933da5e5af01f7b730eb6a794f9b089171ea6f61
 translated_from: content/en/alg/I/historical_note.md
 source_content_sha256: 997e8c66753e83b27126e604062b4c83e2a484e2a1a425cbc01219d635f4cb53
 translation_model: gpt-5-6, gpt-5-6-mini, copied

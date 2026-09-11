@@ -12,7 +12,7 @@ pdf_pages: 0412-0443
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: c8337d6c2c0266024b24f9ab3dfcffc9dc578fe5dbec76e7fe7d53c6cc3ac104
+content_sha256: 0d8f66585f8cdaacb25e13dc7dc6e8d9323dff915182a8c359bac00a47aad2ed
 translated_from: content/en/top/IV/historical_note.md
 source_content_sha256: fa5af6e307c63a6d9a1e252507d1582a395981a6446717689b181a7ec79a0ac1
 translation_model: gpt-5-6-mini

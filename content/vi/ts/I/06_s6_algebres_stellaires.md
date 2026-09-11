@@ -65,7 +65,7 @@ subsections:
       pdf_page: 138
 statements: 94
 exercises: 32
-content_sha256: c7c84a58ed35291da363fe0855bb4655c9fa387cd6d6d1a79ec9b7798275a72a
+content_sha256: 288c2a58724c7b23bd756f3033eb00b018d69de1ae3709d86ed381b99a1c5f48
 translated_from: content/en-mt/ts/I/06_s6_algebres_stellaires.md
 source_lang: en-mt
 translation_method: machine

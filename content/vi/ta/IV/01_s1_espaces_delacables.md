@@ -29,7 +29,7 @@ subsections:
       pdf_page: 362
 statements: 20
 exercises: 6
-content_sha256: d0ea12d67933abbb664a2acc8cc94e05c2c0f025015f90179b63bd984cd22b11
+content_sha256: 652bf72ff5cbdbbe19b151fb85d2e2427622296fb26fa3d4a581680f3a14bec5
 translated_from: content/en-mt/ta/IV/01_s1_espaces_delacables.md
 source_lang: en-mt
 translation_method: machine

@@ -49,7 +49,7 @@ subsections:
       pdf_page: 489
 statements: 54
 exercises: 32
-content_sha256: 48509c695cdce962381c70226114a4b324310928ddd38c24111f722e1723a076
+content_sha256: f35cb4e0d34c69a0e7348d196911dcecaf5aab7390baf48c3922b8424f032ff2
 translated_from: content/en-mt/ts/V/04_s4_representations_des_groupes_compacts.md
 source_lang: en-mt
 translation_method: machine

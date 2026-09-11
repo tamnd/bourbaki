@@ -60,7 +60,7 @@ subsections:
       pdf_page: 197
 statements: 79
 exercises: 24
-content_sha256: ee5ffad14726cfe539e95b9a51c53d83d508ac694a4ddad4e23c02fd493dea9e
+content_sha256: b54f2cadbd6a1fb55d8c2c3e22e4898304e3c1dd6dc150b0d3410d322c549765
 translated_from: content/en/lie/VI/01_s1_root_systems.md
 source_content_sha256: 63306735a7f6d780a7b9820aded9cbd9eaac6a612cf204aee1470da429e156f4
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini

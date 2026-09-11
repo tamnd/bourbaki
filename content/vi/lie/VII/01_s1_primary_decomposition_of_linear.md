@@ -33,7 +33,7 @@ subsections:
       pdf_page: 21
 statements: 25
 exercises: 11
-content_sha256: ac8acaa8ff4ea17b65bb6afa878dba5be9b43fee174eecd466b1583c03dc19ac
+content_sha256: 47d5eea56f750e259184f1c405ae557e6b5746371c914c40fb1f0f5265b262a5
 translated_from: content/en/lie/VII/01_s1_primary_decomposition_of_linear.md
 source_content_sha256: 6d999a4f63ad71547f9729f56137320e39f7832c9c6c88d90de525d543eda5ce
 translation_model: gpt-5-6-mini, gpt-5.4-mini

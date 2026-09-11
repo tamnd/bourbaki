@@ -50,7 +50,7 @@ subsections:
       pdf_page: 96
 statements: 37
 exercises: 11
-content_sha256: 06392e1c51a87cfdfe223c1bbb20ab537cdcae8b59993c138b9b314c9f4f1ae3
+content_sha256: 6fae02d33165fda9b8558f2e79efc74354eaabb0e443bd6cc6ff0f7786428950
 translated_from: content/en/ens/II/03_s3_correspondences.md
 source_content_sha256: 09657f186f72956f32a3834e46ca25f5e52a2f152080a83c21123877583d9007
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5-mini

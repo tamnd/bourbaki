@@ -41,7 +41,7 @@ subsections:
       pdf_page: 51
 statements: 26
 exercises: 4
-content_sha256: 5a995f82984a5c56aa9709453f8d68ea9b28bc839c1f9935136996a9f2017036
+content_sha256: 8d4d1588a21abf39c44e99ff459ab283902bf537d2c0b6dafa7ac9beb1b42653
 translated_from: content/en-mt/ts/III/02_s2_exemples_d_applications_lineaires.md
 source_lang: en-mt
 translation_method: machine

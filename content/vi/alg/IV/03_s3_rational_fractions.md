@@ -30,7 +30,7 @@ subsections:
       pdf_page: 32
 statements: 6
 exercises: 7
-content_sha256: 245d2428f87dc52cac16107b001d5b8e93f7181582c1085fb67cf4178299ffef
+content_sha256: ea8eece537bc1f49c081b9f50300f4dcfc3af8beb146a77c27e2349dc6080c31
 translated_from: content/en/alg/IV/03_s3_rational_fractions.md
 source_content_sha256: 7198747b0b6bbdd08037685e5f795da17bcc151029f7c5022d6d539a5ea0b283
 translation_model: gpt-5.4

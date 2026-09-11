@@ -24,7 +24,7 @@ subsections:
       pdf_page: 135
 statements: 10
 exercises: 0
-content_sha256: af3b297f693ac6c318cc2fedc1f479c640a2824228ebf643bfe0fbea8ad134de
+content_sha256: 316838b37b1f29eec986d22db1d3e223ab2b96e58626369b712e26f46f857518
 translated_from: content/en-mt/alg/IX/08_s8_types_de_formes_quadratiques.md
 source_lang: en-mt
 translation_method: machine

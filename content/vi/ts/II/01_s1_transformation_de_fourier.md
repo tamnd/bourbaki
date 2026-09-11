@@ -49,7 +49,7 @@ subsections:
       pdf_page: 249
 statements: 95
 exercises: 68
-content_sha256: f32d9966ebceeb0ef974291e23bd994ce0eb8fbf1391b33fec758ee023127d6d
+content_sha256: 098ca7f53c74cca31cdd673d8ddc4858270e36e0d175ec4c461e496b938a2d13
 translated_from: content/en-mt/ts/II/01_s1_transformation_de_fourier.md
 source_lang: en-mt
 translation_method: machine

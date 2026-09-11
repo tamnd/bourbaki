@@ -33,7 +33,7 @@ subsections:
       pdf_page: 53
 statements: 29
 exercises: 11
-content_sha256: 0391640104bcce98fca442c010f7816c78f434dbb67880922ed87d3fd15ad81b
+content_sha256: c8a7acf5a9c3f720fcf92bcabc54c4d603002eabf360ac56e78c733a1bf4c666
 translated_from: content/en/lie/VII/05_s5_decomposable_linear_lie_algebras.md
 source_content_sha256: 3fa30c6fba10fffca825520c5c62e37059e144cf09425181ebf911b2d7791257
 translation_model: gpt-5-6-mini, gpt-5.4-mini

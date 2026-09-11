@@ -45,7 +45,7 @@ subsections:
       pdf_page: 195
 statements: 34
 exercises: 0
-content_sha256: bad75a9913b3fdb37630a62e3a250901c3f8a4b27f14e7e5adc4f3967dbe7102
+content_sha256: 0178273cafd593d50eb77c3c176185b3cb341cb619814da33028ba14ad099a71
 translated_from: content/en/lie/VIII/12_s12_chevalley_orders.md
 source_content_sha256: 50f43a34a9ae42cb38e10e1f32022dc1fddb5d2b07911570fec5baa09a40ebdf
 translation_model: gpt-5.4-mini, gpt-5-mini, gpt-5-6-mini

@@ -33,7 +33,7 @@ subsections:
       pdf_page: 102
 statements: 28
 exercises: 14
-content_sha256: 2ab4c019d5d44c56ad93695d6a9d45cb7fadb7825ff736f21813401ba8c40105
+content_sha256: 7926e3a9865ebc8dff5a697e708d1db023ddf874e261a3f6c8b46ff377e64ee4
 translated_from: content/en/lie/VIII/03_s3_subalgebras_of_split_semi_simple_lie.md
 source_content_sha256: 043e172960e451fa011db5fc5b2cdd69d22334e7720054bdacde767c930f9a50
 translation_model: gpt-5.4, gpt-5-6-mini

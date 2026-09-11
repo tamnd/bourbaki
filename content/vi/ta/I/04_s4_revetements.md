@@ -53,7 +53,7 @@ subsections:
       pdf_page: 105
 statements: 50
 exercises: 9
-content_sha256: f8ed87569f83ecffec9b5bcd4da05a360e71c04994e70302f6936f71dfec7102
+content_sha256: 9f6a9879a4d644536dc7e0b046ef4e650ebf35db84ccc363e26f5c7b89a95385
 translated_from: content/en-mt/ta/I/04_s4_revetements.md
 source_lang: en-mt
 translation_method: machine

@@ -13,7 +13,7 @@ pdf_pages: 0296-0311
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 42c1842de7aa4c9c4285ffa63f0744f29d78920e286d500e13d237867aa8c9b3
+content_sha256: 148ec42683e08b3a5c207228f9ea3a1a8d7fd001971137aaee68972df6316997
 translated_from: content/en/alg/V/historical_note.md
 source_content_sha256: 18206e299bac1fa92f53b349bb59462c63b617a03d17ccba61f8ee80a837ea4b
 translation_model: gpt-5.4

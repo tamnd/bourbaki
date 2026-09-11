@@ -33,7 +33,7 @@ subsections:
       pdf_page: 36
 statements: 17
 exercises: 18
-content_sha256: 7954d9b116c2b536ab847e56bcbbc599fadec8e28f4f1efcad7cf73e04330bd3
+content_sha256: bde3d9531ac6ba9aac0c45611c411a9699e01fd3024a13ba339efe5855e0fede
 translated_from: content/en/lie/VII/03_s3_conjugacy_theorems.md
 source_content_sha256: 101d1c917bccf9d451ef36bc325751d7276a14c534bc85fbe7012cad2e06164a
 translation_model: gpt-5-6-mini

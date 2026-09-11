@@ -53,7 +53,7 @@ subsections:
       pdf_page: 507
 statements: 41
 exercises: 32
-content_sha256: 1e14e67718807d0948922e5233e9366c7029cc0b6fd6e335cb7d997840112ba6
+content_sha256: beefcc0a3a381ee3fcb19def06fa1b1302bf69756b0875f2b2daa308f923c44a
 translated_from: content/en/ac/VII/01_s1_krull_domains.md
 source_content_sha256: 9bef6d28f362c12836cf4563473a98aa78f886c75e3bc526c03329214a3be918
 translation_model: gpt-5-6-mini, gpt-5.4

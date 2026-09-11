@@ -11,7 +11,7 @@ pdf_pages: 0055-0063
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: d2523105b1c2931ee49d9a2b7f3831edd906a00c5bf4c27f400d338ea204f058
+content_sha256: 8546140e8e373ba7941c46557dd3d14a1210cce426f51d0e0b3b5dee26fa3306
 translated_from: content/en/hist/1/03_s3_the_evolution_of_algebra.md
 source_content_sha256: c9dd08805187c94210f9df14f7eaa4c91bcfa63506007d6278a5749850b503e8
 translation_model: gpt-5.4

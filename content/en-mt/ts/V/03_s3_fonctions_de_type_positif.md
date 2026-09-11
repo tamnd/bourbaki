@@ -45,7 +45,7 @@ subsections:
       pdf_page: 467
 statements: 39
 exercises: 23
-content_sha256: a6b6b45dafab3a0447148b0aad242724b9c02290041f3925c9ca84a89191bfc2
+content_sha256: 4257ce857ea62b9a2ef652c5a7140ca37f6fc396d137aab2e0afe631965381f8
 translated_from: content/fr/ts/V/03_s3_fonctions_de_type_positif.md
 source_lang: fr
 translation_method: machine

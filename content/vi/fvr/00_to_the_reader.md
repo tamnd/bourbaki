@@ -12,7 +12,7 @@ pdf_pages: 0006-0008
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8af9a45f8ae544fa3dfedb5354bfcd4dde385e34ccb1fa8c180b92238208ca77
+content_sha256: 63da249e7770c67ce314b41061871da05e95ac0e5635339cc8cbed559dfada5c
 translated_from: content/en/fvr/00_to_the_reader.md
 source_content_sha256: 868eb46c0a2e26838ba29aac207a93969e652bc965912375017101eda1b82550
 translation_model: gpt-5-6-mini, gpt-5-mini

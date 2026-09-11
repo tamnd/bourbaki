@@ -25,7 +25,7 @@ subsections:
       pdf_page: 158
 statements: 11
 exercises: 4
-content_sha256: 7a02ca5a27c070db9f21c3ab55245511c6cbc69c5fedcbbb2e5561d20f7890a4
+content_sha256: 6583bdf369bae7069b33281f48af051800563ad58900a8b467940eb94b41d60d
 translated_from: content/en/lie/II/03_s3_enveloping_algebra_of_the_free_lie.md
 source_content_sha256: 9132123acdc022535dc3e655ef1016236c6b0beebc316f3a60900b058de3ac4a
 translation_model: gpt-5.4

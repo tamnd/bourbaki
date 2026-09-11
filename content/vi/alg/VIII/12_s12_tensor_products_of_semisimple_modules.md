@@ -42,7 +42,7 @@ subsections:
       pdf_page: 239
 statements: 26
 exercises: 17
-content_sha256: c9069565ee8b1d1e34a816beec5ab78f90f2e454b6bf8a53c8e6f853bf30f6cb
+content_sha256: 334a06d68aabdfce1549bba60119502c60d9bd83f1f375b913ac39c60c37ad32
 translated_from: content/en/alg/VIII/12_s12_tensor_products_of_semisimple_modules.md
 source_content_sha256: b311e3c926d1c35b21ba3909e0ec3e0584eb38f0337ee0f5d814716a0a8f67c8
 translation_model: gpt-5.4, gpt-5-6

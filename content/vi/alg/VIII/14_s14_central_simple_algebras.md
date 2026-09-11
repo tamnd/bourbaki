@@ -46,7 +46,7 @@ subsections:
       pdf_page: 283
 statements: 36
 exercises: 19
-content_sha256: f0fd5a8cda83593f9f7e976ecb732072cf8a9b0ec0c2e5344da1de3a9fd32e51
+content_sha256: 946f998328b98dc78b98ddccadad77ff3d427cc2c19081e31485ebbfd8a94dbd
 translated_from: content/en/alg/VIII/14_s14_central_simple_algebras.md
 source_content_sha256: 6b4399d77699c060fb6846778021967e62ae015f18624ee87348066955fdf6f2
 translation_model: gpt-5.4

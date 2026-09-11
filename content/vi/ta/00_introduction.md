@@ -12,7 +12,7 @@ pdf_pages: 0012-0015
 extraction: native
 statements: 0
 exercises: 0
-content_sha256: 34cb08c1b22cefcb49492114bffce177720179b34ed4c2526a0c74d40c632813
+content_sha256: 22f9376a9285f6040cf6d59de6d50be0f830fab3009b12fe72486f020914ec53
 translated_from: content/en-mt/ta/00_introduction.md
 source_lang: en-mt
 translation_method: machine

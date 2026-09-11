@@ -37,7 +37,7 @@ subsections:
       pdf_page: 365
 statements: 28
 exercises: 8
-content_sha256: 87ab7956f6dfd41c6e6e9ad9d8506b03da6a949836f69cabb76caf8397039a9a
+content_sha256: 6dd57eb3125c78826172c243f50d6f8601d58e678459948de2ad6b1d00cc3d7e
 translated_from: content/en/lie/IX/07_s7_irreducible_representations_of.md
 source_content_sha256: 375df81cdee840da6e0b458ac2f5db5264d7654fce07a342d3dce277a3f78519
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini, gpt-5-mini

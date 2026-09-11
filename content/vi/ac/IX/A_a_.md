@@ -26,7 +26,7 @@ subsections:
       pdf_page: 153
 statements: 13
 exercises: 6
-content_sha256: 8d6da072ed6fcc319bccdad6120c6a1c8e97fbdc85483c20e03b29245316760d
+content_sha256: 528bd946d8318b65d39cd9b84ebb33859929a4accd36582c1b2e25cec7a2c23b
 translated_from: content/en-mt/ac/IX/A_a_.md
 source_lang: en-mt
 translation_method: machine

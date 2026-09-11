@@ -12,7 +12,7 @@ pdf_pages: 0018-0022
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 6d9237d1104328a3be10f41f7eb01cd0709d0bb23ba06b5ae20eeb17f3aaab5a
+content_sha256: 061f189b8f5cea51257d86466f84c17ea9d3ab6fb6dd3618b0818b87602bc49a
 translated_from: content/en/top/00_introduction.md
 source_content_sha256: 496ac0826c57d67b6cf163023b980863d12ce463253e40b2d0c12ea9108ceba6
 translation_model: gpt-5-mini, gpt-5-6-mini

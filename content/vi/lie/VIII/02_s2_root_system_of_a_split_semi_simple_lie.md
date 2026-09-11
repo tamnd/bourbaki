@@ -29,7 +29,7 @@ subsections:
       pdf_page: 91
 statements: 28
 exercises: 11
-content_sha256: 81ce4377e88dc1b9aeaa54039185d6683805a340b699d7630369714cedd46942
+content_sha256: 49c4014e53b31ada18d1f84c62d433e50781a9c8198a747ba998e887f22bed85
 translated_from: content/en/lie/VIII/02_s2_root_system_of_a_split_semi_simple_lie.md
 source_content_sha256: 5b8fba70b72c8f243ecb19eff11bd99a4fc4e1594703137b927fa6344b3f9e7f
 translation_model: gpt-5.4

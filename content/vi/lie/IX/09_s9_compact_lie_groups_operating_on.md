@@ -33,7 +33,7 @@ errata:
     - says: §5, no. 2, Cor. of Prop. 2
       read: §5, no. 2, Cor. 1 of Prop. 2
       why: No. 2 of section 5 prints three numbered corollaries of Proposition 2 and the reference does not say which. The sentence citing it has G simply-connected and A an alcove, and says that the composite map from A to $G_r/$Int(G) is a homeomorphism. That is Corollary 1 b), whose homeomorphisms run $A/H_A$ to $T_r/W$ to $G_r/$Int(G) and whose $H_A$ is trivial for a simply-connected group. Corollary 2 is the same statement for the Lie algebra, over a chamber rather than an alcove, and Corollary 3 is about existence and uniqueness and names no map at all.
-content_sha256: b9b976df2eab2351bd4474013c0db66fc16abc49f180ecfef1b343cdc1aebdce
+content_sha256: 4b70d654e68fc2f467f740477f369e49db3e74a4f6ae35c5b412ec8a117d2d03
 translated_from: content/en/lie/IX/09_s9_compact_lie_groups_operating_on.md
 source_content_sha256: dbd6a8fe77e36a2dde3d4d956d5fc6fd2a6bf284a5e6f34dca83531dabcebd7f
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4-mini

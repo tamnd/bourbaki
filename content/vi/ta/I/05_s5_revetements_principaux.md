@@ -41,7 +41,7 @@ subsections:
       pdf_page: 130
 statements: 58
 exercises: 4
-content_sha256: 44913792024a01dde682318ded3bd9defeb3d58d5c2253dd15f72e17d9375f29
+content_sha256: 545a02261c0e9ee566c251f21cc16c5fa92e7c83310d8f1c2c73e0d7013994aa
 translated_from: content/en-mt/ta/I/05_s5_revetements_principaux.md
 source_lang: en-mt
 translation_method: machine

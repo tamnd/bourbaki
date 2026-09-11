@@ -28,7 +28,7 @@ subsections:
       pdf_page: 15
 statements: 13
 exercises: 3
-content_sha256: d02a922a7fc9c83f08e83ff795e24320fd1c8f84f9c0890b3bfb9ecedc7e9d1e
+content_sha256: 667a848b1680ac2c4608ce5329196cf2f724dc6fd9ff2e10a293c466335ac4e9
 translated_from: content/en/top/V/01_s1_subgroups_and_quotient_groups_of_r.md
 source_content_sha256: c002969ca857c3fbe860d348d27582dd457331b655514d3b9dbdafc9ddc370e0
 translation_model: gpt-5.4-mini

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 299
 statements: 15
 exercises: 5
-content_sha256: a6dfcd574f347ce55ec55811aa6d0f75c062c6be581d851776e057893b66d603
+content_sha256: 07df51121378d3819f98e6c64a35b17a16cfd0ac0ddb8328acecbdb2007d8b76
 translated_from: content/en/top/III/07_s7_inverse_limits_of_topological_groups.md
 source_content_sha256: da72beb407a42503880dae63dda66a50e3bc4b2d19533c7e937095d250c0e5cd
 translation_model: gpt-5.4-mini

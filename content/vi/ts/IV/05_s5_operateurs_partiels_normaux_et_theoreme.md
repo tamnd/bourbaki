@@ -61,7 +61,7 @@ subsections:
       pdf_page: 320
 statements: 75
 exercises: 43
-content_sha256: 51cc14d7691eab7d64b842f957a075e8a25d72b99d74140175edf323535e174b
+content_sha256: 5fe2583abd446261b39baf039eeefd61db1b8ea9495882b8361ad3966be1726d
 translated_from: content/en-mt/ts/IV/05_s5_operateurs_partiels_normaux_et_theoreme.md
 source_lang: en-mt
 translation_method: machine

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 112
 statements: 23
 exercises: 7
-content_sha256: 0ac6fbf3e9c5df76219acbbbb2499ad9d8f01210fd047669e0bbd6bd3651193d
+content_sha256: e9df6ac8e0f2d607d197a6557bb11f7060f474b9e70e8b3737930281fd5cf263
 translated_from: content/en/lie/VIII/04_s4_split_semi_simple_lie_algebra_defined.md
 source_content_sha256: d31efd9ddbb6c9db525488b6ea28a82ed909217def1e86239e848957a5f5eb01
 translation_model: gpt-5-6-mini, gpt-5-mini

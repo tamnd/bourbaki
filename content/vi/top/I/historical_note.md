@@ -12,7 +12,7 @@ pdf_pages: 0168-0174
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: dd7ace4417ff4fe7f4a1d9eb1b9efcab8eed31332fed89f480e26924c92943e8
+content_sha256: 7997ee902090fab85c60a958ac1a36667686806c7d1f4f4e1237a5b0c3a06440
 translated_from: content/en/top/I/historical_note.md
 source_content_sha256: 159912b8272fadabd35900f0d1961eac133c83dbcc47f1bf4fc41cd1a71eae50
 translation_model: gpt-5-6-mini

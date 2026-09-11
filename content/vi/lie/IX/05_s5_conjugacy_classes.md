@@ -29,7 +29,7 @@ subsections:
       pdf_page: 338
 statements: 26
 exercises: 12
-content_sha256: c7b456f1bdc883a294652b92b5aac36bdf6cbf26d9e5edae61ca81ad69d3af5e
+content_sha256: 417b0e319ab4bbc09f941bfbb2314b50f3b3120e6b659d73276e0e56f04d4a9c
 translated_from: content/en/lie/IX/05_s5_conjugacy_classes.md
 source_content_sha256: 67b7c3bf0335e1b8bfbe872472e7bd56c7dbf0d52741cf029286e2edabbf3e06
 translation_model: gpt-5.4-mini, gpt-5-mini

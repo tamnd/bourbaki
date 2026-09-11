@@ -11,7 +11,7 @@ pdf_pages: 0161-0162
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: acb4363a115b95e8986fcae13e6310705debc4ef584bf8f35d6cc9545a99cd0c
+content_sha256: 7a011ed4b61b90a9ecc3351788ee0270703ab3d64281bf4a882669e1de9929a0
 translated_from: content/en/hist/1/14_s14_n_dimensional_spaces.md
 source_content_sha256: 064bf6017efcb44a9b40846585a1dbc8a084a17c648d63d0427aa0f41d61d44b
 translation_model: gpt-5-6-mini

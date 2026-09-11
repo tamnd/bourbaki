@@ -41,7 +41,7 @@ subsections:
       pdf_page: 34
 statements: 57
 exercises: 37
-content_sha256: 638f4f6afd1ab2f37fc286808023c625d297a0eb9d7e2c7b2c096d6873347e92
+content_sha256: 570870d10acaa9b0978f60a2f56956ed08f3d0c02fe555693b4fdcad58ad439c
 translated_from: content/en-mt/ts/III/01_s1_applications_lineaires_compactes.md
 source_lang: en-mt
 translation_method: machine

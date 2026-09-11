@@ -36,7 +36,7 @@ subsections:
       pdf_page: 43
 statements: 11
 exercises: 13
-content_sha256: f2e03243eb163f78b121700338d37fc662751a9d266e6c96a7a57f719990bfa4
+content_sha256: 7e1c3c7167252e3ca2196010948ac6d6db32d3291da23bffca1a4e6d8c612f1e
 translated_from: content/en/top/VI/01_s1_real_number_space_r_n.md
 source_content_sha256: 4f407f3681e8c98681264a9fe4f2c17ccb92d164b832d84999ebc3cac3052ef4
 translation_model: gpt-5.4-mini

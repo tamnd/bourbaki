@@ -13,7 +13,7 @@ pdf_pages: 0368-0375
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 83195226c086ca1432ec30768a092364f764383ac7368b81b3be065500278e97
+content_sha256: 87ba2ccd7d84125d2ec363b2d4009197b50afe4d29db0d8d0e8dfa6bf9f31a8d
 translated_from: content/en/ens/ER/04_s4_union_intersection_product_of_a_family.md
 source_content_sha256: f9b5a61bff54537ebfed0e8bade3350c49d974cf5c55ab2cbce40ab5f4be65d9
 translation_model: gpt-5-6

@@ -28,7 +28,7 @@ subsections:
       pdf_page: 110
 statements: 8
 exercises: 5
-content_sha256: 3c83f91cdbe882c51cf76b05968072c85ca007ec4a3e8cb074d20c21e1a8c0b2
+content_sha256: 3190f87badfd2e0e7e63a9e9f9478e0457d89dc02802309d338bc0a4be4c38ba
 translated_from: content/en/top/VIII/01_s1_complex_numbers_quaternions.md
 source_content_sha256: 553535497dc7d86b3ebe016a77f3f220a1985737fb41450839e4f7c2c5d04e44
 translation_model: gpt-5-6-mini

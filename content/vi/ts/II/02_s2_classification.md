@@ -21,7 +21,7 @@ subsections:
       pdf_page: 260
 statements: 16
 exercises: 14
-content_sha256: a4b12bd54f1b4a46ef355d2c8fde9b87b6597b102b7459830359a9e8d5452124
+content_sha256: 083dcb6b59827d4403c664b71e0b0cafa7a71c111d0c1c2c4b5b6ea6320dc26c
 translated_from: content/en-mt/ts/II/02_s2_classification.md
 source_lang: en-mt
 translation_method: machine

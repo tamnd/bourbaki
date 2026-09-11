@@ -58,7 +58,7 @@ subsections:
       pdf_page: 361
 statements: 12
 exercises: 6
-content_sha256: 4a5fba84198ededc1f6e56ee7ac90c955c414c2b5f6a5681e0134d31193f0a53
+content_sha256: 5aa86ccc358d8bb2246b6bfef34a536a96a0d9e83120ad11d2225820cfc956cd
 translated_from: content/en/alg/II/09_s9_affine_spaces_and_projective_spaces.md
 source_content_sha256: 6d5414948dceab419cbfb016f0d02a94213bdb1f5a7f8c8b4975a8a4bd8908c9
 translation_model: gpt-5.4

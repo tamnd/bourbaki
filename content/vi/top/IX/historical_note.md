@@ -12,7 +12,7 @@ pdf_pages: 0277-0279
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: 8f5000803f3c55958362765ced726eb7bc213fa436671d9a974f31f9781d0f65
+content_sha256: 1674a3666fdb3f6810a1bb8b28b2024c1817614b96db60a08e3bc65b07011803
 translated_from: content/en/top/IX/historical_note.md
 source_content_sha256: 57bcc67dddd676ed1a542fddac7036529fd5aceb1f67576a263d00063648c92d
 translation_model: gpt-5-6-mini
