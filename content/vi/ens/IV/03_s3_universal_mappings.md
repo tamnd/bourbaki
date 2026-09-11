@@ -28,7 +28,7 @@ statements: 0
 exercises: 3
 content_sha256: 38cd9b74bde04e523ea7c63a921311c3dd741cf8213a31d1cee1671ba2b56c5d
 translated_from: content/en/ens/IV/03_s3_universal_mappings.md
-source_content_sha256: c790c457671e2d2f76ae686e3b6a4cda3bed295ef31b76703c72506697a06507
+source_content_sha256: dd5993f058059ce31de395ffe2d588f0a896589d38ffdef55e874bcb065fe984
 translation_model: gpt-5-mini, gpt-5-6, gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-15100407
 glossary_version: 34

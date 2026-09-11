@@ -32,7 +32,7 @@ content_sha256: 151db1a17d15f87a08f493274d770b45826e23655fd5e6943e8691e2137a0c23
 translated_from: content/en-mt/var/1/03_s3_fonctions_analytiques_reelles_ou.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: b3bdb0356818aa926e8c912cb6fe2dc9abdf4f1dacd30f3f90802398ac485a17
+source_content_sha256: 6adff26157a00e963259bdd4e39893d2cf0b0e4c820e38421941c428d9406f8a
 translation_model: gpt-5.4
 translation_run: translate-vi-3307ed33
 glossary_version: 34

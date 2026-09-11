@@ -40,7 +40,7 @@ content_sha256: d65a2efdc84e6117766a716a8923d56b4698b4fe9d61b0c8d2b9d34d47b073b5
 translated_from: content/fr/ac/X/05_s5_intersections_completes.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 7f166664ba4b53091fb77b61b721e931106fe349a61852ba86d738f377ccd41d
+source_content_sha256: eeb344109e82555cea3334d8ee4e909c9de3b1564652d5490e54fcebfaebd6b2
 translation_model: gpt-5.4
 translation_run: translate-en-mt-b109c05f
 glossary_version: 34

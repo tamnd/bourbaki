@@ -55,7 +55,7 @@ statements: 56
 exercises: 26
 content_sha256: 3e3bb9ce163e9ba611881a7029e173493d806504fe1118f6e0b1d2a7f4b8ad75
 translated_from: content/en/ac/VII/04_s4_modules_over_integrally_closed.md
-source_content_sha256: e945d0dce148a314a72509e7bb920af67868b7d13173757c2afc5ba5faa3449c
+source_content_sha256: 9d84176bb7197646c99917a0bb7b2b182f503cbfb4e79c05c4c5e64df82e6cb5
 translation_model: gpt-5-6-mini, gpt-5.4
 translation_run: translate-vi-2cf0ee81
 glossary_version: 34

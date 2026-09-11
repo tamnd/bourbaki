@@ -60,7 +60,7 @@ statements: 63
 exercises: 17
 content_sha256: 6e62aa9ee51e5ebd163c082cc987dab2dc90de8195f2f898cc6a7f3bf07c07ef
 translated_from: content/en/alg/VIII/16_s16_other_descriptions_of_the_brauer_group.md
-source_content_sha256: 6c35cd6354d0f0bf0ee5aba1c12fa4ef850055db3db4c07151700df3ae0b526b
+source_content_sha256: 67633b439572bf5a4dcc4c35edb70b8c99883cdac1bfa5ce829e7e8f5be14d83
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
 translation_run: translate-vi-0cbae7af
 glossary_version: 34

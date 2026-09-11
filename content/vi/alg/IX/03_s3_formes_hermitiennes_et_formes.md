@@ -32,7 +32,7 @@ content_sha256: 980b7df83420d2d1ee1769dbefbebd683a8dee8d0e805b08b5ff0431c7ab5204
 translated_from: content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 27b84893a39333c19790ba165aa5017e09f8fb6d3a3d95a17abab48421323382
+source_content_sha256: c2e1a0818cf45dbd7fbda6778dd989be679bf94ab46e130978309556a8a15891
 translation_model: gpt-5.4
 translation_run: translate-vi-be0708bf
 glossary_version: 34

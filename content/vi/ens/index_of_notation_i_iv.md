@@ -16,7 +16,7 @@ statements: 0
 exercises: 0
 content_sha256: 5a091b1c24bd2fef1967a7c1ba519b9a55ad1fd38fb5f1654c854f1da06a51c5
 translated_from: content/en/ens/index_of_notation_i_iv.md
-source_content_sha256: a9b1547e6927e6cf162e636806fda39b428c1353a149c7b32f1dd314162a005e
+source_content_sha256: 08e1f4f2fc466917cf33ec4c3fbfaa919e48e8719ffafb49fbba7f2921ef04fe
 translation_model: gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-5cad3dbb
 glossary_version: 34

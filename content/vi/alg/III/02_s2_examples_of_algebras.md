@@ -59,7 +59,7 @@ statements: 17
 exercises: 3
 content_sha256: 2f070e92001b7406743e15bfe3639e87da97ac759cbe9fbff3833502fd8ebcb2
 translated_from: content/en/alg/III/02_s2_examples_of_algebras.md
-source_content_sha256: bd5951cd090d56ae73c754360396e4a160968b09d8b97344a2867e90be9ed798
+source_content_sha256: 5a84acf9f107bad7d60ffaca486e8438e91a0e75355de3f0446a4594085e9abd
 translation_model: gpt-5-6-mini, gpt-5-mini, gpt-5.4
 translation_run: translate-vi-f8bdd831
 glossary_version: 34

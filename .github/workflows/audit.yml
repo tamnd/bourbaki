@@ -162,7 +162,7 @@ jobs:
       # The count was zero when this step was written, and this step then sat
       # behind a tags verify that failed on every branch from August on, so it
       # has not run on a pull request since. It was 31555 when the ceiling went
-      # in and is 29950 now, and #391 has the breakdown: 23308 of them are T03,
+      # in and is 29895 now, and #391 has the breakdown: 23308 of them are T03,
       # the statements waiting to be tagged, and most of the rest is volumes
       # that are not read through yet. The 1529 that have come off since are the
       # small mathematics rules read to nothing, the 102 seals the sweeps left
@@ -192,8 +192,9 @@ jobs:
       # honest.
       #
       # The ceiling has gone up twice, and both times because the corpus grew
-      # and not because anything broke. It has come down once on its own, 30032
-      # to 29950, and that is #344: the Vietnamese was missing 71 statement
+      # and not because anything broke. It has come down twice on its own. The
+      # first is 30032 to 29950, and that is #344: the Vietnamese was missing
+      # 71 statement
       # anchors the English has, and a further handful carried an anchor on the
       # wrong statement, so the two trees had drifted out of step without any
       # of the text being wrong. Putting the anchors back took L03, the heading
@@ -203,7 +204,23 @@ jobs:
       # on the right one the Vietnamese now reports exactly what the English
       # file already reports at content/en/ens/II/06.
       #
-      # The second time is 30026 to 30032, for the second fascicule of
+      # The second is 29950 to 29895, all of it L05, 338 to 283, and that is
+      # #400: bourbaki fix reseal. A translation records the hash of the English
+      # body it was made from and goes stale when that hash moves, which is
+      # right when the words moved and wrong when only the mathematics did. The
+      # four repairs that go through repairContent already move the record with
+      # the source; everything else -- a hand edit, an assemble after a page
+      # repair -- left it behind with no command to settle it. fix reseal asks
+      # the question after the fact, out of git: it finds the commit whose body
+      # hashes to what the translation recorded, and moves the record on only
+      # where quality.Prose of that body equals quality.Prose of the body now.
+      # 55 records moved, 53 of them byte-identical outside the dollars; the
+      # bulk is the #395 repair, \Lambda to a roman A. Nothing else in the audit
+      # moved, and no body was touched: the whole diff is the one field. The 283
+      # that remain are sources whose words moved, and those want a translation
+      # and not a seal.
+      #
+      # The second time it went up is 30026 to 30032, for the second fascicule of
       # Variétés. Paragraphes 8 à 15 had been read and committed under pages/
       # for months and had never been assembled, which is #356; the eight
       # sections are in content/fr/var/2 now and the six are T03, statements
@@ -233,7 +250,7 @@ jobs:
           BOURBAKI_CORPUS: ${{ github.workspace }}
         run: |
           if go run ./cmd/bourbaki audit -validate-tex -report reports/audit.md \
-               -json "$RUNNER_TEMP/audit.json" -max-hard 29950; then
+               -json "$RUNNER_TEMP/audit.json" -max-hard 29895; then
             echo "status=0" >> "$GITHUB_OUTPUT"
           else
             echo "status=$?" >> "$GITHUB_OUTPUT"

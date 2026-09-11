@@ -17,12 +17,12 @@ Audited: 61 chapters, 532 sections, 4476 exercises, 15338 extracted pages, 5252 
 | mathematics | 10 | 5 | 0 | M03 (2), M06 (6), M13 (48), M14 (2703) |
 | figures | 6 | 0 | 0 | F01 (158) |
 | references | 3 | 0 | 0 | R01 (3369), R02 (476) |
-| translation | 13 | 3 | 1 | L01 (1392), L03 (14), L04 (10), L05 (338), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
+| translation | 13 | 3 | 1 | L01 (1392), L03 (14), L04 (10), L05 (283), L06 (2017), L07 (21), L08 (5659), L10 (262), L11 (49), L13 (73), L15 (6), L16 (45) |
 | solutions | 0 | 6 | 0 | X05 (1), X06 (37) |
 | publication | 0 | 1 | 0 | none |
 | hygiene | 7 | 0 | 0 | none |
 
-29950 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
+29895 hard findings and 11284 soft, over 76 rules that ran and 2 that could not.
 
 ## Rules that did not run
 
@@ -425,7 +425,7 @@ Hard, translation.
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 12 of kind cor and the English has 13
 - `content/en-mt/alg/X/04_s4_produits_de_torsion.md:1` has 2 of kind thm and the English has 3
 
-## L05 source_content_sha256 is the English hash as it stands (338)
+## L05 source_content_sha256 is the English hash as it stands (283)
 
 Hard, translation.
 
@@ -444,18 +444,18 @@ Hard, translation.
 - `content/en-mt/ac/VIII/exercises/s5/02.md:1` was translated from 0996dd44a26c and content/fr/ac/VIII/exercises/s5/02.md is now d438634aebe2, so it is stale
 - `content/en-mt/ac/VIII/exercises/s5/13.md:1` was translated from e75deaf4fbc3 and content/fr/ac/VIII/exercises/s5/13.md is now a7469aa89b61, so it is stale
 - `content/en-mt/ac/VIII/exercises/s5/31.md:1` was translated from 1ac72854d736 and content/fr/ac/VIII/exercises/s5/31.md is now af2b9cad193f, so it is stale
-- `content/en-mt/ac/VIII/exercises/s6/01.md:1` was translated from c158d78d6763 and content/fr/ac/VIII/exercises/s6/01.md is now 597f1984d59d, so it is stale
 - `content/en-mt/ac/VIII/exercises/s6/10.md:1` was translated from 75ab37643168 and content/fr/ac/VIII/exercises/s6/10.md is now b77cae63f1d4, so it is stale
-- `content/en-mt/ac/X/01_s1_profondeur.md:1` was translated from 225c9460593c and content/fr/ac/X/01_s1_profondeur.md is now b596f2694273, so it is stale
-- `content/en-mt/ac/X/02_s2_modules_et_anneaux_macaulayens.md:1` was translated from 2bb1ee1d8fa0 and content/fr/ac/X/02_s2_modules_et_anneaux_macaulayens.md is now ff330e575d48, so it is stale
-- `content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md:1` was translated from dd683aa9a7b9 and content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md is now cff1e54e677d, so it is stale
-- `content/en-mt/ac/X/04_s4_anneaux_reguliers.md:1` was translated from 3693d2c40a9c and content/fr/ac/X/04_s4_anneaux_reguliers.md is now a112d6812052, so it is stale
-- `content/en-mt/ac/X/05_s5_intersections_completes.md:1` was translated from 7f166664ba4b and content/fr/ac/X/05_s5_intersections_completes.md is now eeb344109e82, so it is stale
 - `content/en-mt/ac/X/06_s6_extension_des_scalaires_dans_les.md:1` was translated from 5ce020b59466 and content/fr/ac/X/06_s6_extension_des_scalaires_dans_les.md is now c84c8e9bbfd7, so it is stale
-- `content/en-mt/ac/X/07_s7_algebres_lisses.md:1` was translated from d68b9c7325c8 and content/fr/ac/X/07_s7_algebres_lisses.md is now 88cf6f006be0, so it is stale
-- `content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md:1` was translated from fbc50d377bb5 and content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md is now 7d49f185df1f, so it is stale
+- `content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md:1` was translated from e8bae18987be and content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md is now baf7c2e804ae, so it is stale
+- `content/en-mt/ac/X/exercises/s3/08.md:1` was translated from 28f49237a98d and content/fr/ac/X/exercises/s3/08.md is now fd466dc6568c, so it is stale
+- `content/en-mt/ac/X/exercises/s3/11.md:1` was translated from c242f56e9275 and content/fr/ac/X/exercises/s3/11.md is now 6e8cd8af7175, so it is stale
+- `content/en-mt/ac/X/exercises/s3/12.md:1` was translated from 456cffe7b22a and content/fr/ac/X/exercises/s3/12.md is now 95dd1f5a6f3f, so it is stale
+- `content/en-mt/ac/X/exercises/s3/13.md:1` was translated from 3a432d504e7c and content/fr/ac/X/exercises/s3/13.md is now 02e88208680c, so it is stale
+- `content/en-mt/ac/X/exercises/s3/14.md:1` was translated from b760363b6166 and content/fr/ac/X/exercises/s3/14.md is now e07b6b5b0b1a, so it is stale
+- `content/en-mt/ac/X/exercises/s3/15.md:1` was translated from e1d5632a6cf2 and content/fr/ac/X/exercises/s3/15.md is now 606721c30f3d, so it is stale
+- `content/en-mt/ac/X/exercises/s4/03.md:1` was translated from f999f7d30113 and content/fr/ac/X/exercises/s4/03.md is now 420c19400bdc, so it is stale
 
-and 313 more, which `bourbaki audit -only L05` prints in full.
+and 258 more, which `bourbaki audit -only L05` prints in full.
 
 ## L06 the glossary is followed (2017)
 

@@ -28,7 +28,7 @@ content_sha256: 5e9be725e626d27ec9f6c1c0d374b4a35a313c37733d5f97a7a61e55bd3b449a
 translated_from: content/en-mt/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 83f48941d9f251cd27c14e7d4cf401bc3ed1ce548b1ad4460eda2ff4a0463f26
+source_content_sha256: 69ccf57417877e7efbb540431abf3c69138f8cc1fc31ad5ad2f470d41299d435
 translation_model: gpt-5.4
 translation_run: translate-vi-38d41cce
 glossary_version: 34

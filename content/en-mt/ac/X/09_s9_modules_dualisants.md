@@ -40,7 +40,7 @@ content_sha256: 70b41f4e0959618816afc0363d5324215a447233f0a954a4c83161f076065312
 translated_from: content/fr/ac/X/09_s9_modules_dualisants.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: e91759ba70639eaebfa25698b669acf6e3da97d31ed7579081129197fa443e8f
+source_content_sha256: 805b8756f00ed94a3a940e572ede9fcb38905479c4adddb11f5bf8c580ca6bac
 translation_model: gpt-5.4
 translation_run: translate-en-mt-c2b0a5e6
 glossary_version: 34

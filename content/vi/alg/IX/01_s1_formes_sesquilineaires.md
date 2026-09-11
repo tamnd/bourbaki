@@ -56,7 +56,7 @@ content_sha256: f50f20d7630466ba59345cf3421137475f003225ee1a534803ec1df2bf1c54b3
 translated_from: content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 7296b831cfc29ec7fd6fbe846eb87c9c951399c6183adbdc2773584393f0791d
+source_content_sha256: b3f533ee2797f4808434283f251c7c50efd2d8b158799136c1a13515df17fcb6
 translation_model: gpt-5-6, gpt-5-mini, gpt-5-6-mini
 translation_run: translate-vi-8df81c1a
 glossary_version: 34

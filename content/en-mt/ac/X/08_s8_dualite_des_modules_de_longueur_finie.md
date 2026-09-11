@@ -44,7 +44,7 @@ content_sha256: e7ca9bcbe14831ddad40efcd2c608eec1e0e52bc8d4740c2ba5262b45257dbf5
 translated_from: content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: fbc50d377bb5b3611bf9f59a677bc3738422facb59e1d4d8254527278d9ee984
+source_content_sha256: 7d49f185df1f364335822b1a8ea327c1e9433be048a7e91a8b4906bfa676c41f
 translation_model: gpt-5.4
 translation_run: translate-en-mt-fc5e2194
 glossary_version: 34

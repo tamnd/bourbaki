@@ -64,7 +64,7 @@ statements: 38
 exercises: 14
 content_sha256: ea51a3bb138379f30684fda4219a30e622f119dbd970f098f81b84fcd9e67d44
 translated_from: content/en/alg/VIII/11_s11_grothendieck_groups.md
-source_content_sha256: bc6f23569d66726f9edb899a7ea492701ad1b2a6d43e816e11728c34011d5e59
+source_content_sha256: 36f598ab1286cc2db64313213910bc17ed366890ee67021cf75eae8ae9f62c08
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
 translation_run: translate-vi-265764f6
 glossary_version: 34

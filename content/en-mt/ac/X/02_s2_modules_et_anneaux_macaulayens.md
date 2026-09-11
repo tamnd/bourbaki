@@ -45,7 +45,7 @@ content_sha256: 4a7320ac33bfcf167ffd6396c98eba16a370f200d65162865a93ae1dbeee675f
 translated_from: content/fr/ac/X/02_s2_modules_et_anneaux_macaulayens.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 2bb1ee1d8fa07faecb99ed380b4de9e87ee14fd0064146c77c3fab3b73cfd146
+source_content_sha256: ff330e575d4881104b32e2aa26a3e238d27c787767e37d369959cac87107a0e9
 translation_model: gpt-5.4
 translation_run: translate-en-mt-be1034d2
 glossary_version: 34
