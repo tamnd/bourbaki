@@ -30,9 +30,9 @@ subsections:
       title: PASTING TOGETHER OF TOPOLOGICAL SPACES
       page: 0
       pdf_page: 40
-statements: 26
+statements: 28
 exercises: 10
-content_sha256: d6db33ce42bef1f07ad2ca9b1c373058a4669ff1a41b30c66bf888cdbde77c18
+content_sha256: b5ba523bba53ee85809032fafb85bfa1a3cf472f0ea38128145fdda6e48e8d4d
 translated_from: content/en/top/I/02_s2_continuous_functions.md
 source_content_sha256: 16e7ac6daa7f6e8d5016ffb450612e74265560ae6512c3a4b479d5b88d5f0cf7
 translation_model: gpt-5.4
@@ -170,8 +170,14 @@ nếu $x = (x_n)$ và $y = (y_n)$. Bây giờ nếu $\beta = \sup_{1 \leq i \leq
 #### Nhận xét 1 {#top-i-s2-n2-rem-1 .statement}
 
 Trong tập hợp có thứ tự của mọi tôpô trên một tập hợp $X$, tôpô mà các tập hợp mở duy nhất là $\varnothing$ và $X$ là thô nhất, và tôpô rời rạc là mịn nhất.
-2) Tôpô càng mịn thì càng có nhiều tập hợp mở, tập hợp đóng và lân cận; tôpô càng mịn thì bao đóng của một tập hợp càng nhỏ (tương ứng, phần trong của nó càng lớn); tôpô càng mịn thì càng có ít tập hợp trù mật.
-3) Nếu $f : X \to X'$ là một ánh xạ liên tục, thì nó vẫn liên tục nếu tôpô của $X$ được thay bằng một tôpô mịn hơn và tôpô của $X'$ được thay bằng một tôpô thô hơn (no. 1, Định lý 2). Nói cách khác, tôpô của $X$ càng mịn và tôpô của $X'$ càng thô thì càng có nhiều ánh xạ liên tục từ $X$ vào $X'$.
+
+#### Nhận xét 2 {#top-i-s2-n2-rem-2 .statement}
+
+Tôpô càng mịn thì càng có nhiều tập hợp mở, tập hợp đóng và lân cận; tôpô càng mịn thì bao đóng của một tập hợp càng nhỏ (tương ứng, phần trong của nó càng lớn); tôpô càng mịn thì càng có ít tập hợp trù mật.
+
+#### Nhận xét 3 {#top-i-s2-n2-rem-3 .statement}
+
+Nếu $f : X \to X'$ là một ánh xạ liên tục, thì nó vẫn liên tục nếu tôpô của $X$ được thay bằng một tôpô mịn hơn và tôpô của $X'$ được thay bằng một tôpô thô hơn (no. 1, Định lý 2). Nói cách khác, tôpô của $X$ càng mịn và tôpô của $X'$ càng thô thì càng có nhiều ánh xạ liên tục từ $X$ vào $X'$.
 
 ### 3. TÔPÔ BAN ĐẦU
 

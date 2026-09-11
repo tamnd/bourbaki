@@ -59,9 +59,9 @@ subsections:
       title: A property of vague convergence
       page: 86
       pdf_page: 193
-statements: 77
+statements: 79
 exercises: 30
-content_sha256: db80b522eeacd0f276125bcd78fa36894a8d18f1f46c7cd0f74ab8607db4ffd2
+content_sha256: 5f90839b48e4fe802873946b4061196e0a3dd3ab07fdbb3a2bc76337f73f1540
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
 source_content_sha256: a884e01bc9079fb672558918f88286f16f20cd9512c50a20e27c6df3e8959c1e
 translation_model: gpt-5.4
@@ -315,8 +315,14 @@ các tập $B_{n,p}$ là đo được, và những tập khác rỗng tạo thà
 #### Nhận xét 1 {#int-iv-s5-n5-rem-1 .statement}
 
 Chỉ riêng điều kiện a) không đủ để $f$ đo được (Bài tập 7).
-2) Nếu tôpô của F có một cơ sở đếm được thì điều kiện b) của Định lý 4 tự động được thỏa mãn đối với mọi ánh xạ từ X vào F. Hơn nữa, chứng minh cho thấy rằng chỉ cần giả thiết các ảnh ngược qua $f$ của các quả cầu đóng có bán kính hữu tỉ, với tâm thuộc một tập con đếm được trù mật của F, là các tập hợp đo được.
-3) Giả thiết a) có thể được thay bằng điều kiện rằng ảnh ngược qua $f$ của mọi quả cầu mở của F đều đo được.
+
+#### Nhận xét 2 {#int-iv-s5-n5-rem-2 .statement}
+
+Nếu tôpô của F có một cơ sở đếm được thì điều kiện b) của Định lý 4 tự động được thỏa mãn đối với mọi ánh xạ từ X vào F. Hơn nữa, chứng minh cho thấy rằng chỉ cần giả thiết các ảnh ngược qua $f$ của các quả cầu đóng có bán kính hữu tỉ, với tâm thuộc một tập con đếm được trù mật của F, là các tập hợp đo được.
+
+#### Nhận xét 3 {#int-iv-s5-n5-rem-3 .statement}
+
+Giả thiết a) có thể được thay bằng điều kiện rằng ảnh ngược qua $f$ của mọi quả cầu mở của F đều đo được.
 
 Trường hợp các hàm số (hữu hạn hoặc không) đáng được nói riêng:
 

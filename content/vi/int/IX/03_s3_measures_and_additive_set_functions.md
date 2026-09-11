@@ -23,9 +23,9 @@ subsections:
       title: Radon spaces
       page: 46
       pdf_page: 228
-statements: 16
+statements: 17
 exercises: 18
-content_sha256: f7f63717ec417b53e0e46bd1254618f20df03d2112b032b8db92314daf4106b0
+content_sha256: 38a70bf3ff3eb2527fa2a60b3ab826808d94b4542c9f89e872951a4642561a7c
 translated_from: content/en/int/IX/03_s3_measures_and_additive_set_functions.md
 source_content_sha256: 2493836e74654f6d6eea61a9256ec8940a776c449c0ec756069912399a77fc43
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -137,7 +137,10 @@ $$
 \inf_{\alpha \in A} I(K_\alpha) \leq I(K_\beta) \leq I(K) + \varepsilon
 $$
 và 4) quả thực được kiểm chứng.
-2) Tập các điều kiện 2) và 3) có thể được thay thế, trong phát biểu của Định lý 1, bởi điều kiện sau đây:
+
+#### Nhận xét 2 {#int-ix-s3-n1-rem-2 .statement}
+
+Tập các điều kiện 2) và 3) có thể được thay thế, trong phát biểu của Định lý 1, bởi điều kiện sau đây:
 Nếu $K$ và $L$ là các tập con compact của $T$, thì
 $$
 I(K \cup L) + I(K \cap L) = I(K) + I(L).

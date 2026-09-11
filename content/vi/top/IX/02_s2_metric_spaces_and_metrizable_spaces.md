@@ -50,9 +50,9 @@ subsections:
       title: QUOTIENT SPACES OF METRIZABLE SPACES
       page: 0
       pdf_page: 165
-statements: 32
+statements: 33
 exercises: 9
-content_sha256: d22b09d57c0633ea2d7d345bbd0f3da58e0216bbde81dd5f9a0d1ce1e471b7f5
+content_sha256: e715e5dbe5ae1be151e72e871637289e659832181bde27a3dc548758a43b91db
 translated_from: content/en/top/IX/02_s2_metric_spaces_and_metrizable_spaces.md
 source_content_sha256: 251e0a701a7a4479cdf6534f4d5644531e477de5a2f33457b6f0c1971ce81b63
 translation_model: gpt-5-6, gpt-5.4, gpt-5-6-mini
@@ -274,7 +274,10 @@ Cho $d$ là một mêtric tương thích với tôpô của một không gian m�
 #### Nhận xét 1 {#top-ix-s2-n5-rem-1 .statement}
 
 Các điều kiện cần này không đủ (xem Bài tập 13).
-2) Có những không gian trong đó mỗi điểm có một hệ cơ bản đếm được các lân cận nhưng trong đó tồn tại các tập đóng không phải là giao đếm được của các tập mở (Bài tập 15); các không gian như vậy không mêtric hóa được.
+
+#### Nhận xét 2 {#top-ix-s2-n5-rem-2 .statement}
+
+Có những không gian trong đó mỗi điểm có một hệ cơ bản đếm được các lân cận nhưng trong đó tồn tại các tập đóng không phải là giao đếm được của các tập mở (Bài tập 15); các không gian như vậy không mêtric hóa được.
 
 Hệ quả 2 của Định lý 1, no. 4, chỉ ra rằng một tích đếm được của các không gian tôpô mêtric hóa được là mêtric hóa được. Ngoài ra, tổng $X$ (Chương I, § 2, no. 4) của một họ tùy ý $(X_i)_{i \in I}$ các không gian mêtric hóa được cũng mêtric hóa được. Vì nếu $d_i$ là một mêtric tương thích với tôpô của $X_i$ đối với mỗi $i \in I$, ta có thể giả sử rằng $d_i$ bị chặn và đường kính của $X_i$ là $\leq 1$; khi đó ta có thể định nghĩa một khoảng cách $d$ tương thích với tôpô của $X$ bằng cách đặt $d(x, y) = d_i(x, y)$ nếu $x$ và $y$ đều thuộc cùng một $X_i$, và $d(x, y) = 1$ nếu không.
 

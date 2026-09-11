@@ -24,9 +24,9 @@ subsections:
       title: Polynomial functions on an infinite integral domain
       page: 17
       pdf_page: 26
-statements: 19
+statements: 20
 exercises: 5
-content_sha256: 1e87f5363da60c2a0dfdd9a7163c129bc30448807f22eb265dd9910a459128aa
+content_sha256: a49f9769f5343ecaf05bc3c767f052192a005e278900a829e8b84b1797cc9243
 translated_from: content/en/alg/IV/02_s2_zeros_of_polynomials.md
 source_content_sha256: 225ec9e15b7f2dea5044d6aa6129a8558e1f970a5442b8f106a96a6e1d7fde32
 translation_model: gpt-5.4, gpt-5-6
@@ -69,7 +69,10 @@ Nếu $h > 0$ ta cũng nói rằng $a$ là một nghiệm cấp $h$ hay bội s�
 #### Nhận xét 1 {#alg-iv-s2-n1-rem-1 .statement}
 
 Nếu $f = 0$ ta quy ước nói rằng $a$ có cấp $\geq h$ đối với $f$, với mọi $a \in \mathbf{A}$ và số nguyên $h \geq 0$. Với mọi $f \in \mathbf{A}[X]$ và $a \in \mathbf{A}$, nói rằng $a$ có cấp $\geq h$ đối với $f$ có nghĩa là $(X - \alpha)^h$ chia hết $f$.
-2) Cho $B$ là một vành giao hoán chứa $\mathbf{A}$ như vành con. Cho $f \in \mathbf{A}[X]$ là khác không và $a \in \mathbf{A}$. Cấp của $a$ đối với $f$ là như nhau, dù ta xét $f$ như một phần tử của $B[X]$ hay như một phần tử của $\mathbf{A}[X]$. Điều này hiển nhiên từ điều kiện (ii) của Mệnh đề 2.
+
+#### Nhận xét 2 {#alg-iv-s2-n1-rem-2 .statement}
+
+Cho $B$ là một vành giao hoán chứa $\mathbf{A}$ như vành con. Cho $f \in \mathbf{A}[X]$ là khác không và $a \in \mathbf{A}$. Cấp của $a$ đối với $f$ là như nhau, dù ta xét $f$ như một phần tử của $B[X]$ hay như một phần tử của $\mathbf{A}[X]$. Điều này hiển nhiên từ điều kiện (ii) của Mệnh đề 2.
 
 #### Mệnh đề 4 {#alg-iv-s2-prop-4 .statement}
 

@@ -34,9 +34,9 @@ subsections:
       title: CHANGE OF ORDER OF INTEGRATION
       page: 0
       pdf_page: 91
-statements: 17
+statements: 18
 exercises: 10
-content_sha256: e94a10c90446ef787b458af28236978206e6a6bac5ed0e35e04c91df363a6c6b
+content_sha256: ccc2568c4916acda926675b9e03e64cce2568dd1f6751eeebaef414d1ede8617
 translated_from: content/en/fvr/II/03_s3_derivatives_and_integrals_of_functions.md
 source_content_sha256: 62bb6cd48dfc0b7f2b01d57475721e621137ba34388ad9ae689438f7ab394731
 translation_model: gpt-5.4, copied
@@ -302,7 +302,10 @@ Sự hội tụ đều của $\int_I f'_\alpha(t, \alpha) \, dt$ trên $V$ có n
 #### Nhận xét 1 {#fvr-ii-s3-n5-rem-1 .statement}
 
 Các điều kiện 1 và 2 của mệnh đề 7 được thỏa mãn a fortiori khi $f'_\alpha(x, \alpha)$ là một hàm liên tục của $(x, \alpha)$ trên $I \times V$.
-2) Khi, trong một tích phân $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, các đầu mút của khoảng là các hàm hữu hạn của tham số, việc nghiên cứu tích phân này như một hàm của $\alpha$ có thể liên quan đến việc nghiên cứu một tích phân trên $[0, 1]$; thật vậy, với phép thay đổi biến $t = a(\alpha)(1 - u) + b(\alpha)u$, ta có
+
+#### Nhận xét 2 {#fvr-ii-s3-n5-rem-2 .statement}
+
+Khi, trong một tích phân $\int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt$, các đầu mút của khoảng là các hàm hữu hạn của tham số, việc nghiên cứu tích phân này như một hàm của $\alpha$ có thể liên quan đến việc nghiên cứu một tích phân trên $[0, 1]$; thật vậy, với phép thay đổi biến $t = a(\alpha)(1 - u) + b(\alpha)u$, ta có
 
 $$
 \int_{a(\alpha)}^{b(\alpha)} f(t, \alpha) \, dt = \int_0^1 f(a(\alpha)(1 - u) + b(\alpha)u, \alpha) (b(\alpha) - a(\alpha)) \, du.

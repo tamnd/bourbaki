@@ -39,9 +39,9 @@ subsections:
       title: A result on the disintegration of measures
       page: 37
       pdf_page: 219
-statements: 38
+statements: 41
 exercises: 3
-content_sha256: f4d519836420d165f0b194d65f3de0d9b5cc8b98cc43c7c1cab07bc7e62675a1
+content_sha256: 4c4a44625b481630acd1bcd12be2f2646e8b71b7dc791023a3c785ec07c8f764
 translated_from: content/en/int/IX/02_s2_operations_on_measures.md
 source_content_sha256: 5d3aed35c21d37dd0891ce27752ff8c2c681733ce8a642742891a5f7895e1d07
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
@@ -158,9 +158,18 @@ Cho $\pi$ là một ánh xạ từ T vào một không gian tôpô X. Ta nói r�
 #### Nhận xét 1 {#int-ix-s2-n3-rem-1 .statement}
 
 Khi T và X là compact địa phương, định nghĩa này tương đương với định nghĩa trong Ch. V, §6, No. 1.
-2) Một ánh xạ liên tục thực sự (GT, I, §10, No. 1, Def. 1) từ T vào X là $\mu$-thực sự đối với mọi độ đo $\mu$. Thật vậy, cho $x \in X$; vì $\overline{\pi}(x)$ là compact (loc. cit., No. 2, Th. 1), tập $\overline{\pi}(x)$ có một lân cận mở H sao cho $\mu^\bullet(H) < +\infty$. Đặt $V = X - \pi(T - H)$; vì $\pi$ là đóng, V là mở trong X, chứa x, và thỏa mãn $\overline{\pi}(V) \subset H$, do đó $\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$.
-3) Nếu $\mu$ bị chặn, mọi ánh xạ $\mu$-đo được từ T vào X là $\mu$-thực sự.
-4) Nếu $\theta$ là một độ đo phức trên T, $\pi$ được gọi là $\theta$-thực sự nếu $\pi$ là thực sự đối với độ đo dương $|\theta|$.
+
+#### Nhận xét 2 {#int-ix-s2-n3-rem-2 .statement}
+
+Một ánh xạ liên tục thực sự (GT, I, §10, No. 1, Def. 1) từ T vào X là $\mu$-thực sự đối với mọi độ đo $\mu$. Thật vậy, cho $x \in X$; vì $\overline{\pi}(x)$ là compact (loc. cit., No. 2, Th. 1), tập $\overline{\pi}(x)$ có một lân cận mở H sao cho $\mu^\bullet(H) < +\infty$. Đặt $V = X - \pi(T - H)$; vì $\pi$ là đóng, V là mở trong X, chứa x, và thỏa mãn $\overline{\pi}(V) \subset H$, do đó $\mu^\bullet(\overline{\pi}(V)) \leq \mu^\bullet(H) < +\infty$.
+
+#### Nhận xét 3 {#int-ix-s2-n3-rem-3 .statement}
+
+Nếu $\mu$ bị chặn, mọi ánh xạ $\mu$-đo được từ T vào X là $\mu$-thực sự.
+
+#### Nhận xét 4 {#int-ix-s2-n3-rem-4 .statement}
+
+Nếu $\theta$ là một độ đo phức trên T, $\pi$ được gọi là $\theta$-thực sự nếu $\pi$ là thực sự đối với độ đo dương $|\theta|$.
 
 #### Mệnh đề 4 {#int-ix-s2-prop-4 .statement}
 

@@ -26,9 +26,9 @@ subsections:
       title: PROPERTIES PECULIAR TO CLOSED MAPPINGS
       page: 0
       pdf_page: 62
-statements: 19
+statements: 24
 exercises: 7
-content_sha256: 30dba7323889038f76c33d9b9adc0f5edfe59becd45d518ac13c610a0d6b5a52
+content_sha256: cffa26af44ec05c7ff7b737935135cef9e6276982e1c1ceb0abdc9783f2f51ca
 translated_from: content/en/top/I/05_s5_open_mappings_and_closed_mappings.md
 source_content_sha256: 770385711f45d74c8c5f1640b5013319a5b971ac533bc0206d4387875c1ade48
 translation_model: gpt-5.4
@@ -51,18 +51,30 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 #### Ví dụ 1 {#top-i-s5-n1-exa-1 .statement}
 
 Cho $A$ là một không gian con của một không gian tôpô $X$. Khi đó đơn ánh chính tắc $j : A \to X$ là mở (tương ứng, đóng) nếu và chỉ nếu $A$ là mở (tương ứng, đóng) trong $X$ (§ 3, no. 1).
-2) Để một song ánh $f$ từ một không gian tôpô $X$ lên một không gian tôpô $X'$ là một *đồng phôi* thì điều kiện cần và đủ là $f$ *liên tục và mở*, hoặc *liên tục và đóng*.
 
-3) Cho $f$ là một toàn ánh từ một tập hợp $X$ lên một không gian tôpô $X'$; nếu ta trang bị cho $X$ tôpô là ảnh ngược theo $f$ của tôpô của $X'$ (§ 2, no. 3, Ví dụ 1), thì $f$ là liên tục, mở và đóng.
+#### Ví dụ 2 {#top-i-s5-n1-exa-2 .statement}
 
-4) Trong một không gian tích
+Để một song ánh $f$ từ một không gian tôpô $X$ lên một không gian tôpô $X'$ là một *đồng phôi* thì điều kiện cần và đủ là $f$ *liên tục và mở*, hoặc *liên tục và đóng*.
+
+#### Ví dụ 3 {#top-i-s5-n1-exa-3 .statement}
+
+Cho $f$ là một toàn ánh từ một tập hợp $X$ lên một không gian tôpô $X'$; nếu ta trang bị cho $X$ tôpô là ảnh ngược theo $f$ của tôpô của $X'$ (§ 2, no. 3, Ví dụ 1), thì $f$ là liên tục, mở và đóng.
+
+#### Ví dụ 4 {#top-i-s5-n1-exa-4 .statement}
+
+Trong một không gian tích
 $$
 X = \prod_{i \in I} X_i,
 $$
 mỗi phép chiếu $\mathrm{pr}_i : X \to X_i$ là một ánh xạ liên tục và mở, nhưng không nhất thiết là đóng (§ 4, no. 2, Mệnh đề 5).
 
-\* 5) Một hàm chỉnh hình trên một tập con mở $A$ của $C$ là một ánh xạ mở từ $A$ vào $C$. \*
-6) Cho $X, X'$ là hai không gian tôpô và $f$ là một song ánh liên tục, nhưng không song liên tục, từ $X$ lên $X'$. Khi đó song ánh ngược $g : X' \to X$ là một ánh xạ mở và đóng từ $X'$ lên $X$, nhưng không liên tục.
+#### Ví dụ 5 {#top-i-s5-n1-exa-5 .statement}
+
+\* Một hàm chỉnh hình trên một tập con mở $A$ của $C$ là một ánh xạ mở từ $A$ vào $C$. \*
+
+#### Ví dụ 6 {#top-i-s5-n1-exa-6 .statement}
+
+Cho $X, X'$ là hai không gian tôpô và $f$ là một song ánh liên tục, nhưng không song liên tục, từ $X$ lên $X'$. Khi đó song ánh ngược $g : X' \to X$ là một ánh xạ mở và đóng từ $X'$ lên $X$, nhưng không liên tục.
 
 #### Mệnh đề 1 {#top-i-s5-prop-1 .statement}
 

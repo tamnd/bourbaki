@@ -46,9 +46,9 @@ subsections:
       title: Trace of a quadratic form with respect to another
       page: 57
       pdf_page: 315
-statements: 48
+statements: 49
 exercises: 0
-content_sha256: 5bd10b7629299c0342588967ef4ac78a5d47296168a6cdcc121309758b1a24c6
+content_sha256: 5b669d34e00be47e67ad3c55fa79ec68d7612900b17e70162c646b03115d2409
 translated_from: content/en/evt/V/04_s4_some_classes_of_operators_in_hilbertian.md
 source_content_sha256: e91bc304651ce770d0fd7f9268828dea76e99a75428b9ae2fa319330bd7c91db
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
@@ -459,7 +459,10 @@ $$
 \|u\| = \sup(|m(u)|, |M(u)|).
 $$
 \* Để xem một chứng minh khác của công thức này khi $K$ là $\mathbf{C}$, xem Mệnh đề 14 của TS, I, § 6, No. 8. \*
-2) Cho $M$ và $N$ là hai không gian con vectơ đóng của $E$, và $p_M$ (resp. $p_N$) là phép chiếu trực giao từ $E$ lên $M$ (resp. $N$). Khi đó $M \subset N$ khi và chỉ khi $p_M \leq p_N$. Thật vậy, ta có $p_M^* p_M = p_M$, do đó
+
+#### Nhận xét 2 {#evt-v-s4-n5-rem-2 .statement}
+
+Cho $M$ và $N$ là hai không gian con vectơ đóng của $E$, và $p_M$ (resp. $p_N$) là phép chiếu trực giao từ $E$ lên $M$ (resp. $N$). Khi đó $M \subset N$ khi và chỉ khi $p_M \leq p_N$. Thật vậy, ta có $p_M^* p_M = p_M$, do đó
 $$
 \|p_M(x)\|^2 = \langle p_M(x)|p_M(x)\rangle = \langle x|p_M^* p_M(x)\rangle = \langle x|p_M(x)\rangle
 $$

@@ -34,9 +34,9 @@ subsections:
       title: SEMI-CONTINUOUS FUNCTIONS ON A UNIFORMIZABLE SPACE
       page: 0
       pdf_page: 152
-statements: 15
+statements: 19
 exercises: 22
-content_sha256: f7bcd7cf35ef8035f047c3dfdeb0df6108a5e4ce974ffd28e59558f57cc56d82
+content_sha256: feda3351be96904d4150b04acef242acb25d9ac2a133f2dd98259904e3bbb879
 translated_from: content/en/top/IX/01_s1_generation_of_a_uniformity_by_a_family.md
 source_content_sha256: d46241dcc6e0b3fdc75ac577e2626154c33e198b02447a07198d181994f0f47a
 translation_model: gpt-5.4, gpt-5-6, gpt-5-6-mini
@@ -63,9 +63,18 @@ $$
 #### Ví dụ 1 {#top-ix-s1-n1-exa-1 .statement}
 
 Trên không gian số thực $\mathbf{R}^n$, khoảng cách Euclid (Chương VI, § 2, no. 1) là một giả khoảng cách.
-2) Nếu X là một tập hợp bất kỳ, thì hàm f xác định trên $X \times X$ bởi các điều kiện $f(x, x) = 0$ với mọi $x \in X, f(x, y) = +\infty$ nếu $x \neq y$ là một giả khoảng cách trên X.
-3) Nếu X là một tập hợp bất kỳ và nếu g là một hàm nhận giá trị thực hữu hạn bất kỳ xác định trên X, thì hàm f xác định trên $X \times X$ bởi $f(x, y) = |g(x) - g(y)|$ là một giả khoảng cách trên X.
-\* 4) Cho X là tập hợp mọi ánh xạ liên tục từ khoảng [0, 1] của $\mathbf{R}$ vào $\mathbf{R}$. Nếu với mỗi cặp phần tử $x, y$ của X ta đặt
+
+#### Ví dụ 2 {#top-ix-s1-n1-exa-2 .statement}
+
+Nếu X là một tập hợp bất kỳ, thì hàm f xác định trên $X \times X$ bởi các điều kiện $f(x, x) = 0$ với mọi $x \in X, f(x, y) = +\infty$ nếu $x \neq y$ là một giả khoảng cách trên X.
+
+#### Ví dụ 3 {#top-ix-s1-n1-exa-3 .statement}
+
+Nếu X là một tập hợp bất kỳ và nếu g là một hàm nhận giá trị thực hữu hạn bất kỳ xác định trên X, thì hàm f xác định trên $X \times X$ bởi $f(x, y) = |g(x) - g(y)|$ là một giả khoảng cách trên X.
+
+#### Ví dụ 4 {#top-ix-s1-n1-exa-4 .statement}
+
+\* Cho X là tập hợp mọi ánh xạ liên tục từ khoảng [0, 1] của $\mathbf{R}$ vào $\mathbf{R}$. Nếu với mỗi cặp phần tử $x, y$ của X ta đặt
 $$
 f(x, y) = \int_0^1 |x(t) - y(t)| \, dt,
 $$
@@ -106,7 +115,10 @@ Hai giả mêtric trên $X$ được gọi là tương đương nếu chúng đ�
 #### Nhận xét 1 {#top-ix-s1-n2-rem-1 .statement}
 
 Nếu $(a_n)$ là một dãy bất kỳ các số $> 0$ và dần tới 0, các $U_{a_n}$ tạo thành một hệ cơ bản của các lân cận của cấu trúc đồng nhất được định nghĩa bởi $f$.
-2) Định nghĩa một cấu trúc đồng nhất bởi một giả mêtric $f$ bao gồm việc lấy làm hệ cơ bản của các lân cận ảnh ngược qua $f$ của lọc lân cận của 0 trong không gian con $[0, +\infty]$ của $\overline{\mathbf{R}}$. Chú ý rằng thủ tục này hoàn toàn tương tự với thủ tục cho phép ta định nghĩa các cấu trúc đồng nhất trên một nhóm tôpô (Chương III, § 3, no. 1).
+
+#### Nhận xét 2 {#top-ix-s1-n2-rem-2 .statement}
+
+Định nghĩa một cấu trúc đồng nhất bởi một giả mêtric $f$ bao gồm việc lấy làm hệ cơ bản của các lân cận ảnh ngược qua $f$ của lọc lân cận của 0 trong không gian con $[0, +\infty]$ của $\overline{\mathbf{R}}$. Chú ý rằng thủ tục này hoàn toàn tương tự với thủ tục cho phép ta định nghĩa các cấu trúc đồng nhất trên một nhóm tôpô (Chương III, § 3, no. 1).
 
 Cho $f$ và $g$ là hai giả mêtric trên $X$. Từ Định nghĩa 2 suy ra rằng cấu trúc đồng nhất được định nghĩa bởi $f$ thô hơn cấu trúc đồng nhất được định nghĩa bởi $g$ khi và chỉ khi, với mỗi $a > 0$ tồn tại $b > 0$ sao cho quan hệ $g(x, y) \leq b$ kéo theo $f(x, y) \leq a$. Một điều kiện cần và đủ để $f$ và $g$ là các giả mêtric tương đương là với mỗi $a > 0$ tồn tại $b > 0$ sao cho $g(x, y) \leq b$ kéo theo $f(x, y) \leq a$, và $f(x, y) \leq b$ kéo theo $g(x, y) \leq a$.
 

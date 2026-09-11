@@ -34,9 +34,9 @@ subsections:
       title: INTERIOR, CLOSURE, FRONTIER OF A SET; DENSE SETS
       page: 0
       pdf_page: 29
-statements: 23
+statements: 24
 exercises: 9
-content_sha256: 3d0144052312c4f2632614ada4f02d5d4d48c89e0b20300e55c477e37b09f24f
+content_sha256: 03a3b3484319d1ea8f319a34e981d584e1b5a9781e63c7e32d82d5388dde4959
 translated_from: content/en/top/I/01_s1_open_sets_neighbourhoods_closed_sets.md
 source_content_sha256: 69c33aa1b07c759c60eb28deb272aa6ed887332ba5d4aeb29cbf610ebb88696c
 translation_model: gpt-5.4-mini, gpt-5-mini
@@ -167,7 +167,10 @@ Nếu $X$ là một không gian tôpô, thì để một tập $\mathscr{B}$ g�
 #### Ví dụ 1 {#top-i-s1-n3-exa-1 .statement}
 
 Tôpô rời rạc có cơ sở là tập các tập con của $X$ chỉ gồm một điểm.
-2) Tập các khoảng mở bị chặn là, theo định nghĩa, một cơ sở của tôpô của đường thẳng hữu tỉ (no. 2). \* Tương tự, tập các khoảng mở bị chặn là một cơ sở của tôpô của đường thẳng thực. \*
+
+#### Ví dụ 2 {#top-i-s1-n3-exa-2 .statement}
+
+Tập các khoảng mở bị chặn là, theo định nghĩa, một cơ sở của tôpô của đường thẳng hữu tỉ (no. 2). \* Tương tự, tập các khoảng mở bị chặn là một cơ sở của tôpô của đường thẳng thực. \*
 
 ### 4. CÁC TẬP HỢP ĐÓNG
 

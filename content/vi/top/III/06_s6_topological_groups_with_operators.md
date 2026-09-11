@@ -42,9 +42,9 @@ subsections:
       title: UNIFORMITIES ON A TOPOLOGICAL DIVISION RING
       page: 0
       pdf_page: 288
-statements: 23
+statements: 24
 exercises: 26
-content_sha256: e8514650cbb9cdeef91ea4530119b4a803b7e2ca7a8eeb11c9ad131a1f8fce91
+content_sha256: e2b7ff88676c740adcbc7be894d26e9453b3a36e2b6efc1283a472c8f26f012a
 translated_from: content/en/top/III/06_s6_topological_groups_with_operators.md
 source_content_sha256: dcb0cb1caa65d1aeec0e6b82e7da15c59c5cd47bbe0e662c7ae93d14fa42ae2e
 translation_model: gpt-5-6-mini
@@ -331,7 +331,10 @@ Một cấu trúc vành chia và một tôpô trên một tập hợp $K$ đư�
 #### Ví dụ 1 {#top-iii-s6-n7-exa-1 .statement}
 
 Trên mọi vành chia $K$, tôpô *rời rạc* là tương thích với cấu trúc vành chia. Một vành chia tôpô mà tôpô của nó là rời rạc được gọi là một vành chia *rời rạc*.
-\* 2) Tôpô của đường hữu tỉ $Q$ (tương ứng đường thẳng thực $R$) là tương thích với cấu trúc trường của $R$ (tương ứng $R$) (xem Chương IV, § 3). \*
+
+#### Ví dụ 2 {#top-iii-s6-n7-exa-2 .statement}
+
+\* Tôpô của đường hữu tỉ $Q$ (tương ứng đường thẳng thực $R$) là tương thích với cấu trúc trường của $R$ (tương ứng $R$) (xem Chương IV, § 3). \*
 
 Định nghĩa 4 chỉ ra rằng, nếu $K$ là một vành chia tôpô, thì tôpô *cảm sinh* bởi tôpô của $K$ trên nhóm nhân $K^*$ là tương thích với cấu trúc nhóm của $K^*$.
 

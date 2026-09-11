@@ -26,9 +26,9 @@ subsections:
       title: THE DIVISION RING OF QUATERNIONS
       page: 0
       pdf_page: 110
-statements: 8
+statements: 9
 exercises: 5
-content_sha256: 3190f87badfd2e0e7e63a9e9f9478e0457d89dc02802309d338bc0a4be4c38ba
+content_sha256: fe97869863b496258bfecdba459f720c44ece148ed6553df1931ec3d93da1ed8
 translated_from: content/en/top/VIII/01_s1_complex_numbers_quaternions.md
 source_content_sha256: 553535497dc7d86b3ebe016a77f3f220a1985737fb41450839e4f7c2c5d04e44
 translation_model: gpt-5-6-mini
@@ -67,7 +67,10 @@ và do đó theo định lý Bolzano (Chương IV, § 6, no. 1, Định lý 2), 
 #### Nhận xét 1 {#top-viii-s1-n1-rem-1 .statement}
 
 Định lý 1 có thể được chứng minh mà không cần viện đến lý thuyết các trường có thứ tự, bằng cách sử dụng các tính chất của tôpô của trường $\mathbf{C}$, sẽ được định nghĩa dưới đây (no. 2); xem § 2, Bài tập 2 và cả phần của bộ sách này dành cho tôpô đại số, trong đó định lý d’Alembert-Gauss sẽ xuất hiện như một hệ quả của các kết quả về bậc của một ánh xạ.
-2) Vì $\mathbf{C}$ có bậc 2 trên $\mathbf{R}$, suy ra rằng $\mathbf{C}$, tới đẳng cấu, là mở rộng đại số duy nhất của $\mathbf{R}$ khác với chính $\mathbf{R}$, và không có trường nào được chứa trong $\mathbf{C}$ chứa $\mathbf{R}$, ngoài $\mathbf{R}$ và $\mathbf{C}$.
+
+#### Nhận xét 2 {#top-viii-s1-n1-rem-2 .statement}
+
+Vì $\mathbf{C}$ có bậc 2 trên $\mathbf{R}$, suy ra rằng $\mathbf{C}$, tới đẳng cấu, là mở rộng đại số duy nhất của $\mathbf{R}$ khác với chính $\mathbf{R}$, và không có trường nào được chứa trong $\mathbf{C}$ chứa $\mathbf{R}$, ngoài $\mathbf{R}$ và $\mathbf{C}$.
 
 Ta biết rằng $\mathbf{R}$ có thể được đồng nhất với một trường con của $\mathbf{C}$, và mọi $z \in \mathbf{C}$ đều có thể được viết duy nhất dưới dạng $x + iy$, trong đó $x$ và $y$ là thực; $x$ được gọi là phần thực của $z$ và được ký hiệu bởi $\Re(z)$; $y$ là phần ảo của $z$, được ký hiệu bởi $\Im(z)$. Các số phức có dạng $iy$ ($y$ thực) được gọi là các số thuần ảo. Quan hệ $x + iy = 0$ ($x, y$ thực) tương đương với $x = 0$ và $y = 0$.
 

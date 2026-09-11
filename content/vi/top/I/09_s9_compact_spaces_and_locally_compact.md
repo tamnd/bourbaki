@@ -50,11 +50,11 @@ subsections:
       title: PARACOMPACT SPACES
       page: 0
       pdf_page: 100
-statements: 50
+statements: 52
 exercises: 4
-content_sha256: 9db48d3c2efc8cac95e2b8468ef007cf3989bd7b567a4e131cb9bc94a5606556
+content_sha256: 7d3fb0339b845411f9009288132bd8e73f152adac06a15db677a15b0ff9b7f28
 translated_from: content/en/top/I/09_s9_compact_spaces_and_locally_compact.md
-source_content_sha256: 971ee7da2f11258dedc7ba38ab2213e2686bce320dbffdb28b60f17318a47dc8
+source_content_sha256: 04af61b839c1d58055c4903b487d48cb075b23c0ab4a4724a0b1dfc6d3901a45
 translation_model: gpt-5.4-mini
 translation_run: translate-vi-96a7bc15
 glossary_version: 34
@@ -160,7 +160,9 @@ Một tập con $A$ của một không gian tôpô $X$ là một tập quasi-com
 
 Trong một không gian tôpô $X$, mọi tập con hữu hạn đều quasi-compact; tập rỗng và mọi tập hợp gồm một điểm đều compact.
 
-2) Trong một không gian tôpô $X$, cho $(x_n)_{n \in \mathbf{N}}$ là một dãy vô hạn các điểm hội tụ đến một điểm $a$; khi đó tập $A$ gồm các điểm $x_n$ ($n \in \mathbf{N}$) và $a$ là quasi-compact. Thật vậy, nếu $(U_i)$ là một phủ của $A$ bởi các tập mở của $X$, thì $a \in U_x$ với một chỉ số $x$ nào đó. $U_x$ là một lân cận của $a$ và do đó chỉ có một số hữu hạn chỉ số $n_k$ sao cho $x_{n_k} \notin U_x$. Với mỗi chỉ số $k$ cho $i_k$ là một chỉ số sao cho $x_{n_k} \in U_{i_k}$; khi đó $U_x$ và các $U_{i_k}$ tạo thành một phủ mở hữu hạn của $A$.
+#### Ví dụ 2 {#top-i-s9-n3-exa-2 .statement}
+
+Trong một không gian tôpô $X$, cho $(x_n)_{n \in \mathbf{N}}$ là một dãy vô hạn các điểm hội tụ đến một điểm $a$; khi đó tập $A$ gồm các điểm $x_n$ ($n \in \mathbf{N}$) và $a$ là quasi-compact. Thật vậy, nếu $(U_i)$ là một phủ của $A$ bởi các tập mở của $X$, thì $a \in U_x$ với một chỉ số $x$ nào đó. $U_x$ là một lân cận của $a$ và do đó chỉ có một số hữu hạn chỉ số $n_k$ sao cho $x_{n_k} \notin U_x$. Với mỗi chỉ số $k$ cho $i_k$ là một chỉ số sao cho $x_{n_k} \in U_{i_k}$; khi đó $U_x$ và các $U_{i_k}$ tạo thành một phủ mở hữu hạn của $A$.
 
 #### Mệnh đề 3 {#top-i-s9-prop-3 .statement}
 
@@ -386,7 +388,10 @@ Khi một không gian compact $X'$ đã được xây dựng như trên từ m�
 #### Ví dụ 1 {#top-i-s9-n9-exa-1 .statement}
 
 Một không gian rời rạc là $\sigma$-compact khi và chỉ khi nó đếm được.
-\* 2) Đường thẳng thực $\mathbf{R}$ là địa phương compact và $\sigma$-compact, vì nó là hợp của các đoạn compact $[ -n, +n ]$ với $n \in \mathbf{N}$. \*
+
+#### Ví dụ 2 {#top-i-s9-n9-exa-2 .statement}
+
+\* Đường thẳng thực $\mathbf{R}$ là địa phương compact và $\sigma$-compact, vì nó là hợp của các đoạn compact $[ -n, +n ]$ với $n \in \mathbf{N}$. \*
 
 #### Nhận xét {#top-i-s9-n9-rem-1 .statement}
 

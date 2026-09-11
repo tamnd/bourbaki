@@ -18,9 +18,9 @@ subsections:
       title: TOPOLOGY OF A UNIFORM SPACE
       page: 0
       pdf_page: 177
-statements: 13
+statements: 14
 exercises: 5
-content_sha256: fa6c509a4078f4f96ab9159bdce6c844e15e46c3391b67ceffee10632bb571f6
+content_sha256: 55c8282066f9c24622159896e0e9468f4c5088fcac5c241d9eaf0819cbfe8147
 translated_from: content/en/top/II/01_s1_uniform_spaces.md
 source_content_sha256: dc8b007352158f412e69b7b71913949ecc71b6302a8995f83a3b041d77323d26
 translation_model: gpt-5-6-mini
@@ -117,7 +117,10 @@ các điều kiện này suy ra ngay lập tức từ sự kiện rằng các l�
 #### Ví dụ 1 {#top-ii-s1-n2-exa-1 .statement}
 
 Tôpô cảm sinh bởi cấu trúc đều cộng tính trên tập hợp các số thực là tôpô của đường thẳng thực (Chương I, § 1, no. 2); tương tự, tôpô cảm sinh bởi cấu trúc đều cộng tính trên tập hợp các số hữu tỉ là tôpô của đường thẳng hữu tỉ.*
-2) Trên một tập hợp bất kỳ $X$, tôpô cảm sinh bởi cấu trúc đều rời rạc (no. 1, Ví dụ 2) là tôpô rời rạc.
+
+#### Ví dụ 2 {#top-ii-s1-n2-exa-2 .statement}
+
+Trên một tập hợp bất kỳ $X$, tôpô cảm sinh bởi cấu trúc đều rời rạc (no. 1, Ví dụ 2) là tôpô rời rạc.
 
 Trong tương lai, khi nói về tôpô của một không gian đều $X$, ta sẽ luôn hiểu đó là tôpô cảm sinh bởi cấu trúc đều của không gian, trừ khi điều ngược lại được phát biểu rõ ràng. Không gian tôpô thu được bằng cách đặt tôpô này trên tập hợp $X$ đôi khi được gọi là không gian tôpô *nền tảng* của không gian đều đang xét. Chẳng hạn, khi ta nói rằng một không gian đều là *Hausdorff*, hoặc *compact*, hoặc *compact địa phương*, v.v., ta muốn nói rằng không gian tôpô nền tảng có tính chất này.
 

@@ -26,9 +26,9 @@ subsections:
       title: CRITERIA FOR CONVEXITY
       page: 0
       pdf_page: 45
-statements: 21
+statements: 23
 exercises: 10
-content_sha256: 27f70da6f0afe4eb5afa2ceef4ad82fae3ee56e2eb658f5adee5d5cf1e6fafe0
+content_sha256: 2fc8578695fb492ec1087beb92d0c06149c1f4c685e3b4d33b2069e54e052be3
 translated_from: content/en/fvr/I/04_s4_convex_functions_of_a_real_variable.md
 source_content_sha256: 7ce62adb175e316461e0076f49e0da867be5dc77b36f37f3c179a2545bb96dd9
 translation_model: gpt-5.4
@@ -97,14 +97,20 @@ với $0 \leq \lambda \leq 1$ và $y > f(x),\ y' > f(x')$; khi cho y tiến tớ
 #### Ví dụ 1 {#fvr-i-s4-n1-exa-1 .statement}
 
 Mọi hàm afin tuyến tính (thực) $ax + b$ đều lồi trên $\mathbf{R}$.
-2) Hàm $x^2$ lồi trên $\mathbf{R}$, vì ta có
+
+#### Ví dụ 2 {#fvr-i-s4-n1-exa-2 .statement}
+
+Hàm $x^2$ lồi trên $\mathbf{R}$, vì ta có
 
 $$
 \lambda x^2 + (1 - \lambda)(x')^2 - \left( \lambda x + (1 - \lambda)x' \right)^2 = \lambda(1 - \lambda)(x - x')^2 \geq 0
 $$
 
 với $0 \leq \lambda \leq 1$.
-3) Hàm $|x|$ lồi trên $\mathbf{R}$, vì
+
+#### Ví dụ 3 {#fvr-i-s4-n1-exa-3 .statement}
+
+Hàm $|x|$ lồi trên $\mathbf{R}$, vì
 
 $$
 |\lambda x + (1 - \lambda)x'| \leq \lambda |x| + (1 - \lambda)|x'|

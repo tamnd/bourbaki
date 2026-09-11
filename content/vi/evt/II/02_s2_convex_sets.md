@@ -55,9 +55,9 @@ subsections:
       title: Semi-norms and convex sets
       page: 19
       pdf_page: 56
-statements: 49
+statements: 51
 exercises: 43
-content_sha256: 0607409cf8564b4a755f9dc8bf36c1fae4127973eb98efaaf6cce689244d728f
+content_sha256: bb2d00103caaf1478e171c498bc218eb525c425dabad0a1f837f1b288d09fac8
 translated_from: content/en/evt/II/02_s2_convex_sets.md
 source_content_sha256: e189272a705191de34897ddd1038f7605af4a058065773c68ab4e7a1370e1429
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -82,8 +82,14 @@ Vì $(1 - \lambda) a + \lambda x = a + \lambda (x - a)$, định nghĩa này tư
 #### Ví dụ 1 {#evt-ii-s2-n1-exa-1 .statement}
 
 Mọi đa tạp affine tuyến tính của $E$ (và đặc biệt là tập rỗng) đều lồi.
-2) Các tập hợp lồi không rỗng duy nhất trong $\mathbf{R}$ là các khoảng (GT, IV, § 2.4, mệnh đề. 1).
-3) Cho $E$ là một không gian vectơ và $\|x\|$ là một chuẩn trên $E$; quả cầu đơn vị $B$, được tạo bởi các điểm $x$
+
+#### Ví dụ 2 {#evt-ii-s2-n1-exa-2 .statement}
+
+Các tập hợp lồi không rỗng duy nhất trong $\mathbf{R}$ là các khoảng (GT, IV, § 2.4, mệnh đề. 1).
+
+#### Ví dụ 3 {#evt-ii-s2-n1-exa-3 .statement}
+
+Cho $E$ là một không gian vectơ và $\|x\|$ là một chuẩn trên $E$; quả cầu đơn vị $B$, được tạo bởi các điểm $x$
 
 sao cho $\|x\| \leq 1$, là lồi vì các quan hệ $\|x\| \leq 1, \|y\| \leq 1$, kéo theo, với $0 \leq \lambda \leq 1$, rằng
 $$

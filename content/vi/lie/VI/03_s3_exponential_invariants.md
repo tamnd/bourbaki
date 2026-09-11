@@ -26,9 +26,9 @@ subsections:
       title: INVARIANT ELEMENTS
       page: 0
       pdf_page: 212
-statements: 12
+statements: 13
 exercises: 2
-content_sha256: 5c2b26962d70487e6aeed98e0c54db92be02c25e7edf71404b43276d6d969832
+content_sha256: 253a169b04bb5ebc35df9c8c76ecec33157f0a1b2485470aa26c6774c5587a29
 translated_from: content/en/lie/VI/03_s3_exponential_invariants.md
 source_content_sha256: 16fff2ef91958e3176073428ac5aa96104b5766117545ca5b13d57989a8e0cf7
 translation_model: gpt-5.4
@@ -272,7 +272,10 @@ Bổ đề 2 kéo theo rằng ảnh qua $\varphi$ của đơn thức $X_1^{n_1} 
 #### Ví dụ 1 {#lie-vi-s3-n4-exa-1 .statement}
 
 Ta có thể lấy $x_i = S(e^{\overline{\omega}_i})$.
-2) Theo *Nhận xét* 2 của no. 3, ta có thể lấy $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (với ký hiệu ở no. 3).
+
+#### Ví dụ 2 {#lie-vi-s3-n4-exa-2 .statement}
+
+Theo *Nhận xét* 2 của no. 3, ta có thể lấy $x_i = J(e^{\rho + \overline{\omega}_i})/d$ (với ký hiệu ở no. 3).
 
 ### Bài tập {#lie-vi-s3-exercises}
 

@@ -30,9 +30,9 @@ subsections:
       title: Dual of a direct sum and of a product
       page: 11
       pdf_page: 193
-statements: 35
+statements: 36
 exercises: 25
-content_sha256: 0da99aa97689f18b3c2aeedc43e861af149ebf336bd763fabb64f6becce4dbb3
+content_sha256: df9e731cfee544861ed7689fb00b4745636ded42ead4a7b0ce222cace476313a
 translated_from: content/en/evt/IV/01_s1_duality.md
 source_content_sha256: bd5abbb3fca9150b780f3e4a8c9981d06826dfaade169339cbc780c2b9fa2ff2
 translation_model: gpt-5.4
@@ -301,7 +301,10 @@ $$
 #### Nhận xét 1 {#evt-iv-s1-n3-rem-1 .statement}
 
 Công thức (3) là một trường hợp riêng của (4), tương ứng với ánh xạ tuyến tính $\lambda \mapsto \lambda x$ từ K vào E.
-2) Đặt $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ với $x \in E_1,\ y' \in E'_2$. Chứng minh ở trên cho thấy B là một dạng song tuyến tính liên tục trên $E_1 \times E'_2$, có chuẩn (GT, X, § 3, No. 2) bằng $\|u\|$.
+
+#### Nhận xét 2 {#evt-iv-s1-n3-rem-2 .statement}
+
+Đặt $B(x, y') = \langle u(x), y' \rangle = \langle x, ^{t}u(y') \rangle$ với $x \in E_1,\ y' \in E'_2$. Chứng minh ở trên cho thấy B là một dạng song tuyến tính liên tục trên $E_1 \times E'_2$, có chuẩn (GT, X, § 3, No. 2) bằng $\|u\|$.
 
 #### Hệ quả {#evt-iv-s1-n3-cor-3 .statement}
 

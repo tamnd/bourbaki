@@ -34,9 +34,9 @@ subsections:
       title: ASYMPTOTIC EXPANSION OF A PRIMITIVE
       page: 0
       pdf_page: 250
-statements: 23
+statements: 24
 exercises: 7
-content_sha256: 7a82a0c617a96170b0792db0b0131447d2d22a1ef10474f2d0c697328c7afac1
+content_sha256: 108925b47352e2e4910a2a3b4e57bca5df5e62140ebdd54c08d56b759e7b34b5
 translated_from: content/en/fvr/V/03_s3_asymptotic_expansions_of_functions_of_a.md
 source_content_sha256: 150915c37d01e0a3f1c4e9cb26407c194f7f04a0d2affb9ba17af4c93ab84bbf
 translation_model: gpt-5.4
@@ -282,7 +282,10 @@ Hàm $1/\log x$ có cấp 0 đối với $x$ và thỏa mãn các điều kiện
 $$
 \int_a^x \frac{dt}{\log t} \sim \frac{x}{\log x}.
 $$
-2) Hàm $e^{t^2}$ có cấp $+\infty$ đối với $x$ và thỏa mãn các điều kiện của mệnh đề 8, nên
+
+#### Ví dụ 2 {#fvr-v-s3-n5-exa-2 .statement}
+
+Hàm $e^{t^2}$ có cấp $+\infty$ đối với $x$ và thỏa mãn các điều kiện của mệnh đề 8, nên
 $$
 \int_a^x e^{t^2}\,dt \sim \frac{1}{2x}\,e^{x^2}.
 $$

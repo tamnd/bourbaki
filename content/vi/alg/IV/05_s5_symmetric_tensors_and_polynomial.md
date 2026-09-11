@@ -56,9 +56,9 @@ subsections:
       title: Relations between $\mathbf{S}(M^*)$, TS(M)*gr and Pol(M, A)
       page: 59
       pdf_page: 68
-statements: 36
+statements: 41
 exercises: 16
-content_sha256: 462aec25f00404261753c697857eb883fefa2991279b2a01e1513b1b6508f871
+content_sha256: 4473eb16fac313a470ab1300587534a8d0a8b86278bd47e195326d4aab5470da
 translated_from: content/en/alg/IV/05_s5_symmetric_tensors_and_polynomial.md
 source_content_sha256: 6da98969b53ee5df6cf503b3f80c244de4578e27ef1ee1edd5bf16c915b72321
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4, gpt-5.4-mini
@@ -731,14 +731,26 @@ Các đồng cấu này được gọi là chính tắc. Chúng toàn ánh.
 #### Ví dụ 1 {#alg-iv-s5-n9-exa-1 .statement}
 
 Các ánh xạ đa thức thuần nhất bậc 1 từ M vào N là các ánh xạ A-tuyến tính từ M vào N.
-2) Cho $(N_i)_{i \in I}$ là một họ các A-môđun, $f_i$ là một ánh xạ từ M vào $N_i, i \in I$, và $f : M \to \prod_{i \in I} N_i$ là ánh xạ có các thành phần là $f_i$. Để f là một ánh xạ đa thức thuần nhất bậc q thì điều kiện cần và đủ là mỗi $f_i$ đều là một ánh xạ đa thức thuần nhất bậc q.
-3) Cho $(M_j)_{j \in J}$ là một họ hữu hạn các A-môđun tự do và $u : \prod_{j \in J} M_j \to N$ là một ánh xạ đa tuyến tính; khi đó u là đa thức bậc $\mathrm{Card}(J)$.
 
-4) Cho $(X_i)_{i \in I}$ là một họ các ẩn, $N$ là một $A$-môđun và $u \in N[(X_i)_{i \in I}]$ là một đa thức thuần nhất bậc $q$. Ánh xạ $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ từ $A^{(I)}$ vào $N$ là một ánh xạ đa thức thuần nhất bậc $q$: điều này thấy ngay từ điều kiện (iii) của Mệnh đề 13. Nếu $I$ là hữu hạn, mọi ánh xạ đa thức thuần nhất bậc $q$ từ $A^{(I)} = A'$ vào $N$ đều có dạng đó.
+#### Ví dụ 2 {#alg-iv-s5-n9-exa-2 .statement}
 
-5) Ánh xạ $(x_i)_{i \in N} \mapsto x_0^2 + x_1^2 + \ldots + x_n^2 + \ldots$ từ $A^{(N)}$ vào $A$ là một ánh xạ đa thức thuần nhất bậc 2. Nếu $A = 2/22$, nó trùng với ánh xạ tuyến tính $(x_i)_{i \in I} \mapsto x_0 + x_1 + \ldots + x_n + \ldots$
+Cho $(N_i)_{i \in I}$ là một họ các A-môđun, $f_i$ là một ánh xạ từ M vào $N_i, i \in I$, và $f : M \to \prod_{i \in I} N_i$ là ánh xạ có các thành phần là $f_i$. Để f là một ánh xạ đa thức thuần nhất bậc q thì điều kiện cần và đủ là mỗi $f_i$ đều là một ánh xạ đa thức thuần nhất bậc q.
 
-6) Cho $f \in \mathrm{Pol}_A^q(M, N)$, cho $B$ là một vành giao hoán, $\rho$ là một đồng cấu từ $B$ vào $A$ và $M'$ và $N'$ là các $B$-môđun dẫn xuất từ $M$ và $N$ bằng $\rho$. Giả sử rằng $M'$ là tự do; khi đó $f \in \mathrm{Pol}_B^q(M', N')$: điều này suy ra ngay từ điều kiện (i) của Mệnh đề 13.
+#### Ví dụ 3 {#alg-iv-s5-n9-exa-3 .statement}
+
+Cho $(M_j)_{j \in J}$ là một họ hữu hạn các A-môđun tự do và $u : \prod_{j \in J} M_j \to N$ là một ánh xạ đa tuyến tính; khi đó u là đa thức bậc $\mathrm{Card}(J)$.
+
+#### Ví dụ 4 {#alg-iv-s5-n9-exa-4 .statement}
+
+Cho $(X_i)_{i \in I}$ là một họ các ẩn, $N$ là một $A$-môđun và $u \in N[(X_i)_{i \in I}]$ là một đa thức thuần nhất bậc $q$. Ánh xạ $(x_i)_{i \in I} \mapsto u((x_i)_{i \in I})$ từ $A^{(I)}$ vào $N$ là một ánh xạ đa thức thuần nhất bậc $q$: điều này thấy ngay từ điều kiện (iii) của Mệnh đề 13. Nếu $I$ là hữu hạn, mọi ánh xạ đa thức thuần nhất bậc $q$ từ $A^{(I)} = A'$ vào $N$ đều có dạng đó.
+
+#### Ví dụ 5 {#alg-iv-s5-n9-exa-5 .statement}
+
+Ánh xạ $(x_i)_{i \in N} \mapsto x_0^2 + x_1^2 + \ldots + x_n^2 + \ldots$ từ $A^{(N)}$ vào $A$ là một ánh xạ đa thức thuần nhất bậc 2. Nếu $A = 2/22$, nó trùng với ánh xạ tuyến tính $(x_i)_{i \in I} \mapsto x_0 + x_1 + \ldots + x_n + \ldots$
+
+#### Ví dụ 6 {#alg-iv-s5-n9-exa-6 .statement}
+
+Cho $f \in \mathrm{Pol}_A^q(M, N)$, cho $B$ là một vành giao hoán, $\rho$ là một đồng cấu từ $B$ vào $A$ và $M'$ và $N'$ là các $B$-môđun dẫn xuất từ $M$ và $N$ bằng $\rho$. Giả sử rằng $M'$ là tự do; khi đó $f \in \mathrm{Pol}_B^q(M', N')$: điều này suy ra ngay từ điều kiện (i) của Mệnh đề 13.
 
 #### Mệnh đề 14 {#alg-iv-s5-prop-14 .statement}
 

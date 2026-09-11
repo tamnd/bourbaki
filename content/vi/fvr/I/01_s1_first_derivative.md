@@ -38,9 +38,9 @@ subsections:
       title: DERIVATIVES OF REAL-VALUED FUNCTIONS
       page: 0
       pdf_page: 25
-statements: 31
+statements: 34
 exercises: 9
-content_sha256: d23ef4f6eaeaf14b8b69f866d2cbf73e6ee444fb0601f9d692297d241fc2008b
+content_sha256: 1dac53e1d79acc59e1ba47c450d09ea7c1f1093bf202d210903fed2ac18a0406
 translated_from: content/en/fvr/I/01_s1_first_derivative.md
 source_content_sha256: 5ac79d247600e1af8da17be22be9f55ff6aac813b9c80ef686bdb4b3e310cfcd
 translation_model: gpt-5.4
@@ -90,9 +90,18 @@ $$
 #### Ví dụ 1 {#fvr-i-s1-n1-exa-1 .statement}
 
 Một hàm hằng có đạo hàm không tại mọi điểm.
-2) Một hàm tuyến tính afin $x \mapsto ax + b$ có đạo hàm bằng $a$ tại mọi điểm.
-3) Hàm thực $1/x$ (được xác định với $x \neq 0$) khả vi tại mỗi điểm $x_0 \neq 0$, vì ta có $\left( \frac{1}{x} - \frac{1}{x_0} \right) / (x - x_0) = -\frac{1}{x x_0}$, và, do $1/x$ liên tục tại $x_0$, giới hạn của biểu thức đứng trước là $-1/x_0^2$.
-4) Hàm vô hướng $|x|$, được xác định trên $\mathbf{R}$, có đạo hàm phải $+1$ và đạo hàm trái $-1$ tại $x = 0$; nó không khả vi tại điểm này.
+
+#### Ví dụ 2 {#fvr-i-s1-n1-exa-2 .statement}
+
+Một hàm tuyến tính afin $x \mapsto ax + b$ có đạo hàm bằng $a$ tại mọi điểm.
+
+#### Ví dụ 3 {#fvr-i-s1-n1-exa-3 .statement}
+
+Hàm thực $1/x$ (được xác định với $x \neq 0$) khả vi tại mỗi điểm $x_0 \neq 0$, vì ta có $\left( \frac{1}{x} - \frac{1}{x_0} \right) / (x - x_0) = -\frac{1}{x x_0}$, và, do $1/x$ liên tục tại $x_0$, giới hạn của biểu thức đứng trước là $-1/x_0^2$.
+
+#### Ví dụ 4 {#fvr-i-s1-n1-exa-4 .statement}
+
+Hàm vô hướng $|x|$, được xác định trên $\mathbf{R}$, có đạo hàm phải $+1$ và đạo hàm trái $-1$ tại $x = 0$; nó không khả vi tại điểm này.
 *5) Hàm thực bằng 0 với $x = 0$, và bằng $x \sin 1/x$ với $x \neq 0$, được xác định và liên tục trên $\mathbf{R}$, nhưng không có cả đạo hàm phải lẫn đạo hàm trái tại điểm $x \neq 0$.* Có thể cho những ví dụ về các hàm liên tục trên một khoảng và không có đạo hàm tại mọi điểm của khoảng ấy (I, p. 35, exerc. 2 and 3).
 
 #### Định nghĩa 3 {#fvr-i-s1-def-3 .statement}

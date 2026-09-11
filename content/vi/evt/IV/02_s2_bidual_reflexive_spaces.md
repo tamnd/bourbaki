@@ -31,9 +31,9 @@ subsections:
       title: Montel spaces
       page: 18
       pdf_page: 200
-statements: 30
+statements: 32
 exercises: 24
-content_sha256: 9e246d92ccfc1bfe5970bc983e4b8edbea17afdaabbae0f24767995a97966beb
+content_sha256: 98889c12d8001a85c6e85af1ea931dbca4662df68e9cac853549eadf74410c14
 translated_from: content/en/evt/IV/02_s2_bidual_reflexive_spaces.md
 source_content_sha256: 100347bb76aeb1a74d77db710e313c800f25ad6922ba64027dad8c5885bc1738
 translation_model: gpt-5.4
@@ -108,8 +108,14 @@ Cho B là một tập con bị chặn của M. Vì B bị chặn trong E, và t�
 #### Nhận xét 1 {#evt-iv-s2-n2-rem-1 .statement}
 
 Giả sử E là bán phản xạ. Mọi tập con của E lồi, đóng và bị chặn đối với tôpô ban đầu đều compact đối với tôpô $\sigma(E, E')$ (IV, p. 1, mệnh đề 1). *Mặt khác, mặt cầu đơn vị (với phương trình $\|x\| = 1$) của một không gian Hilbert vô hạn chiều E thì đóng và bị chặn đối với tôpô ban đầu, nhưng không đóng đối với tôpô yếu, ngay cả khi E là bán phản xạ. \*
-2) Theo nhận xét 3 của IV, p. 5, ta có thể phát biểu lại đ. lý 1 như sau: *không gian Hausdorff E là bán phản xạ khi và chỉ khi nó gần đầy đủ đối với tôpô yếu của nó.* Nếu nó là bán phản xạ, thì nó *gần đầy đủ đối với tôpô ban đầu của nó* (IV, p. 5, Nhận xét 2).
-3) Dưới các giả thiết của hệ quả trên, không gian E/M không nhất thiết là bán phản xạ (IV, p. 63, bài tập 10).
+
+#### Nhận xét 2 {#evt-iv-s2-n2-rem-2 .statement}
+
+Theo nhận xét 3 của IV, p. 5, ta có thể phát biểu lại đ. lý 1 như sau: *không gian Hausdorff E là bán phản xạ khi và chỉ khi nó gần đầy đủ đối với tôpô yếu của nó.* Nếu nó là bán phản xạ, thì nó *gần đầy đủ đối với tôpô ban đầu của nó* (IV, p. 5, Nhận xét 2).
+
+#### Nhận xét 3 {#evt-iv-s2-n2-rem-3 .statement}
+
+Dưới các giả thiết của hệ quả trên, không gian E/M không nhất thiết là bán phản xạ (IV, p. 63, bài tập 10).
 
 ### 3. Các không gian phản xạ
 

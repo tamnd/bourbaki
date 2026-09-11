@@ -34,9 +34,9 @@ subsections:
       title: EQUIVALENCE RELATIONS ON A REGULAR SPACE
       page: 0
       pdf_page: 88
-statements: 28
+statements: 30
 exercises: 24
-content_sha256: e89a5aa3287e4f1d0a23ecc3e14f4aa26ad4c45c0d4bc09948208f1f6cb7b380
+content_sha256: a64ba6b812745caf3adaf4fa7fcce77e41ed70c42898bf60c8d0586804767747
 translated_from: content/en/top/I/08_s8_hausdorff_spaces_and_regular_spaces.md
 source_content_sha256: f1786c8e71990c5b477a3226adfcfe52fdd3cc7520408bdd42e9767c604fb35d
 translation_model: gpt-5.4
@@ -247,8 +247,14 @@ $X$ là Hausdorff theo Mệnh đề 6 của no. 2. Cho $x$ là một điểm b�
 #### Nhận xét 1 {#top-i-s8-n4-rem-1 .statement}
 
 Có những ví dụ về các không gian không Hausdorff trong đó mọi điểm đều có một lân cận chính quy (Bài tập 7).
-2) Có những không gian Hausdorff nhưng không chính quy (Bài tập 20).
-3) Một tôpô mịn hơn một tôpô chính quy không nhất thiết là chính quy (Bài tập 20).
+
+#### Nhận xét 2 {#top-i-s8-n4-rem-2 .statement}
+
+Có những không gian Hausdorff nhưng không chính quy (Bài tập 20).
+
+#### Nhận xét 3 {#top-i-s8-n4-rem-3 .statement}
+
+Một tôpô mịn hơn một tôpô chính quy không nhất thiết là chính quy (Bài tập 20).
 
 ### 5. MỞ RỘNG BẰNG TÍNH LIÊN TỤC; GIỚI HẠN KÉP
 

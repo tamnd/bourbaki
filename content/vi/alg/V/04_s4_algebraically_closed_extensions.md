@@ -24,9 +24,9 @@ subsections:
       title: Algebraic closure of a field
       page: 22
       pdf_page: 136
-statements: 19
+statements: 20
 exercises: 2
-content_sha256: 33f41886a1cb8662ca4e98d130814744e4f1327ee38d920f5fdd857601ef80f6
+content_sha256: 9d7a6583d9c039f85d67ef9d5657753cac3a41fa4dedeb2236bd9c53b181f427
 translated_from: content/en/alg/V/04_s4_algebraically_closed_extensions.md
 source_content_sha256: 57102dadb9478828bbaf3bf1d6ad1b4a27c3a089d5abfaeca2f02ab9a7c16523
 translation_model: gpt-5.4
@@ -141,7 +141,10 @@ Gọi $R_i$ là tập hợp các nghiệm của $f_i$ trong E và $R = \bigcup_{
 #### Ví dụ 1 {#alg-v-s4-n3-exa-1 .statement}
 
 Trường C các số phức là một bao đóng đại số của trường R các số thực (Gen. Top., VIII, p. 100) \*
-2) Cho K là một trường và $\Omega$ là một mở rộng đóng đại số của K. Nếu $\overline{K}$ là bao đóng đại số tương đối của K trong $\Omega$, thì theo V, p. 20, Mệnh đề 2, K là một bao đóng đại số của K. \* Đặc biệt, trường của mọi số đại số (V, p. 20, Ex. 2) là một bao đóng đại số của trường Q các số hữu tỉ. \*
+
+#### Ví dụ 2 {#alg-v-s4-n3-exa-2 .statement}
+
+Cho K là một trường và $\Omega$ là một mở rộng đóng đại số của K. Nếu $\overline{K}$ là bao đóng đại số tương đối của K trong $\Omega$, thì theo V, p. 20, Mệnh đề 2, K là một bao đóng đại số của K. \* Đặc biệt, trường của mọi số đại số (V, p. 20, Ex. 2) là một bao đóng đại số của trường Q các số hữu tỉ. \*
 
 #### Mệnh đề 6 {#alg-v-s4-prop-6 .statement}
 

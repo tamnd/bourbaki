@@ -30,9 +30,9 @@ subsections:
       title: PARACOMPACTNESS OF METRIZABLE SPACES
       page: 0
       pdf_page: 194
-statements: 24
+statements: 25
 exercises: 7
-content_sha256: 30da7a1c1444c9e28c333f40560ffd1d26edf8ef69fb73de656914e9d6a8f4ab
+content_sha256: ac063031cb265061e2d0306bc229d3f78c4dac1eb38646696a85ecf4d35436de
 translated_from: content/en/top/IX/04_s4_normal_spaces.md
 source_content_sha256: eb00915eefc2542b1cb326ffd5f62b68b64c27c30b72b3cd48135ced89e8d6d5
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
@@ -129,7 +129,10 @@ Cho $X$ là một không gian mêtric hóa được và cho $d$ là một mêtri
 #### Nhận xét 1 {#top-ix-s4-n1-rem-1 .statement}
 
 Mệnh đề 2 cho một điều kiện *cần* khác cho tính mêtric hóa được; nhưng điều kiện này, ngay cả khi kết hợp với tất cả các điều kiện cần đã cho trong § 2, cũng không cho một tập hợp các điều kiện đủ cho tính mêtric hóa được (xem Bài tập 6 và § 5, Bài tập 10).
-2) Có những ví dụ về các không gian chuẩn tắc không mêtric hóa được cũng không compact địa phương (xem § 5, Bài tập 16).
+
+#### Nhận xét 2 {#top-ix-s4-n1-rem-2 .statement}
+
+Có những ví dụ về các không gian chuẩn tắc không mêtric hóa được cũng không compact địa phương (xem § 5, Bài tập 16).
 
 Theo $(O'_V)$, mọi tập hợp *đóng* của một không gian chuẩn tắc là một *không gian con chuẩn tắc*; nhưng điều này không phải lúc nào cũng đúng đối với một tập hợp *tùy ý* của một không gian chuẩn tắc.
 

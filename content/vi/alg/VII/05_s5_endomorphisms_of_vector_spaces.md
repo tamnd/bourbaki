@@ -48,9 +48,9 @@ subsections:
       title: Jordan decomposition
       page: 43
       pdf_page: 402
-statements: 63
+statements: 66
 exercises: 14
-content_sha256: 1ad5600867d8ea934686893828d84c3c5d79a264157358b9fc4f308eecac2a2d
+content_sha256: 59b639e21cfc98ffe565b5fd65f4556c8ca3251ee6fc79af85fd8f2e4c2d886b
 translated_from: content/en/alg/VII/05_s5_endomorphisms_of_vector_spaces.md
 source_content_sha256: d38ce52748be68ee166866fa84d36a43db5be6707be3eb6d063fae4baa77523d
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -681,14 +681,22 @@ Giả sử $u$ có một phân tích Jordan, và cho R là một đa thức tron
 #### Nhận xét 1 {#alg-vii-s5-n9-rem-1 .statement}
 
 Ta có $\det(u_s) = \det(u)$ và $\operatorname{Tr}(u_s) = \operatorname{Tr}(u)$.
-2) Một điều kiện cần và đủ để $u$ tam giác hóa được là $u$ có một phân tích Jordan với $u_s$ chéo hóa được. Khi đó tồn tại một cơ sở của E sao cho ma trận của $u$ đối với cơ sở đó là tam giác dưới, và ma trận của $u_s$ là đường chéo, với cùng đường chéo như ma trận của $u$ (xem Bổ đề 4 và Mệnh đề 19 dưới đây).
+
+#### Nhận xét 2 {#alg-vii-s5-n9-rem-2 .statement}
+
+Một điều kiện cần và đủ để $u$ tam giác hóa được là $u$ có một phân tích Jordan với $u_s$ chéo hóa được. Khi đó tồn tại một cơ sở của E sao cho ma trận của $u$ đối với cơ sở đó là tam giác dưới, và ma trận của $u_s$ là đường chéo, với cùng đường chéo như ma trận của $u$ (xem Bổ đề 4 và Mệnh đề 19 dưới đây).
 Tuy nhiên, cần lưu ý rằng nếu ma trận của $u$ đối với một cơ sở nào đó là tam giác, thì nói chung không suy ra rằng ma trận của $u_s$ đối với cùng cơ sở đó là đường chéo.
 
-3) Khái niệm phân tích Jordan đối với một ma trận vuông có thể được định nghĩa theo cách tương tự. Chẳng hạn, đối với ma trận Jordan $U_{m,\alpha}$ ta có
+#### Nhận xét 3 {#alg-vii-s5-n9-rem-3 .statement}
+
+Khái niệm phân tích Jordan đối với một ma trận vuông có thể được định nghĩa theo cách tương tự. Chẳng hạn, đối với ma trận Jordan $U_{m,\alpha}$ ta có
 $$
 (U_{m,\alpha})_s = \alpha \cdot I_m , \quad (U_{m,\alpha})_n = U_{m,0} .
 $$
-4) Nếu $u$ là nửa đơn nhưng không tuyệt đối nửa đơn, thì nó không có phân tích Jordan.
+
+#### Nhận xét 4 {#alg-vii-s5-n9-rem-4 .statement}
+
+Nếu $u$ là nửa đơn nhưng không tuyệt đối nửa đơn, thì nó không có phân tích Jordan.
 
 Một tự đồng cấu $u$ của một không gian vectơ $V$ trên một trường giao hoán được gọi là unipotent nếu tự đồng cấu $u - \mathrm{Id}$, là lũy linh, nghĩa là nếu tồn tại một số nguyên $r$ sao cho $(u - \mathrm{Id},)' = 0$; khi đó $u$ là một tự đẳng cấu của $V$, vì nếu $u = \mathrm{Id}, - n$ với $n' = 0$, thì
 $$

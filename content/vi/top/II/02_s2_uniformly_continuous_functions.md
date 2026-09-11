@@ -38,9 +38,9 @@ subsections:
       title: INVERSE LIMITS OF UNIFORM SPACES
       page: 0
       pdf_page: 186
-statements: 25
+statements: 27
 exercises: 6
-content_sha256: 03df3dc51e200bf73021c73ad2953afe0e489ca42371300cda607a5384f0fa34
+content_sha256: 82e3f82ac1928d46c7281f642b2dbf39575c2b24d13544b78ba5dc2e9102a7a2
 translated_from: content/en/top/II/02_s2_uniformly_continuous_functions.md
 source_content_sha256: a1ab910e68e815174c047c6d5847b83dc5cbf4da3a07db2324c22291922910fa
 translation_model: gpt-5.4, copied
@@ -65,8 +65,14 @@ Nếu ta đặt $g = f \times f$, thì Định nghĩa 1 có nghĩa là *mỗi kh
 #### Ví dụ 1 {#top-ii-s2-n1-exa-1 .statement}
 
 Ánh xạ đồng nhất của một không gian đều vào chính nó là liên tục đều.
-2) Một ánh xạ hằng từ một không gian đều vào một không gian đều là liên tục đều.
-3) Mọi ánh xạ từ một không gian đều rời rạc vào một không gian đều đều là liên tục đều.
+
+#### Ví dụ 2 {#top-ii-s2-n1-exa-2 .statement}
+
+Một ánh xạ hằng từ một không gian đều vào một không gian đều là liên tục đều.
+
+#### Ví dụ 3 {#top-ii-s2-n1-exa-3 .statement}
+
+Mọi ánh xạ từ một không gian đều rời rạc vào một không gian đều đều là liên tục đều.
 
 #### Mệnh đề 1 {#top-ii-s2-prop-1 .statement}
 

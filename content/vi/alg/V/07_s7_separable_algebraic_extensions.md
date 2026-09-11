@@ -48,9 +48,9 @@ subsections:
       title: Separable and inseparable degrees of an extension of finite degree
       page: 46
       pdf_page: 160
-statements: 38
+statements: 39
 exercises: 5
-content_sha256: 6a278e2e620fe1cd829dd5447e6d22f368b23effec06d01ea3a799bfb9a41ff1
+content_sha256: 8e9601d865c18c280cd7b5f33cb46b0168937d05636352a360dea71ff3a43924
 translated_from: content/en/alg/V/07_s7_separable_algebraic_extensions.md
 source_content_sha256: ed1ab16b16ed7273d2bf9373cce60817c329006d872b8fe4e06cf99329181643
 translation_model: gpt-5.4
@@ -376,7 +376,10 @@ Cho Ω là một bao đóng đại số của E ; ta có $\Omega_s \subset E$ v�
 #### Nhận xét 1 {#alg-v-s7-n8-rem-1 .statement}
 
 Cho E và E' là hai bao đóng tách được của K. Nếu K không đóng tách được, tồn tại nhiều K-đẳng cấu của E lên E'. \* Thật vậy, khi đó E là một mở rộng Galois không tầm thường của K, và do đó tồn tại những K-tự đẳng cấu của E khác đồng nhất (*V*, p. 56, Đl. 1).
-\* 2) Cho E là một mở rộng đại số và tách được của K. Nếu mọi mở rộng đại số và tách được của K đều đẳng cấu với một mở rộng con của E, thì E là một bao đóng tách được của K. Thật vậy, nếu E' là một bao đóng tách được của K, thì mỗi mở rộng E và E' đều đẳng cấu với một mở rộng con của mở rộng kia; do đó E và E' là những mở rộng đẳng cấu của K (V, p. 52, Mđ. 1, a)).
+
+#### Nhận xét 2 {#alg-v-s7-n8-rem-2 .statement}
+
+\* Cho E là một mở rộng đại số và tách được của K. Nếu mọi mở rộng đại số và tách được của K đều đẳng cấu với một mở rộng con của E, thì E là một bao đóng tách được của K. Thật vậy, nếu E' là một bao đóng tách được của K, thì mỗi mở rộng E và E' đều đẳng cấu với một mở rộng con của mở rộng kia; do đó E và E' là những mở rộng đẳng cấu của K (V, p. 52, Mđ. 1, a)).
 
 ### 9. Bậc tách được và bậc không tách được của một mở rộng bậc hữu hạn
 
