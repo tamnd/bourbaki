@@ -57,7 +57,7 @@ subsections:
       pdf_page: 56
 statements: 49
 exercises: 43
-content_sha256: 00b9d7dda293866efb6c9bd7d73456a3d560e6ae47aa55c69f1ba976562a846e
+content_sha256: e559f5ed32a60306a4a948c702aeb2fafe1fb58f89bb08163a0765829c648718
 translated_from: content/en/evt/II/02_s2_convex_sets.md
 source_content_sha256: 742c952fc6a2e57dc8eb5e75ac174e898ff3d3d87043cbf6c8ab24a81db58512
 translation_model: gpt-5-6, gpt-5-6-mini, gpt-5.4-mini
@@ -160,17 +160,17 @@ Vì $\alpha A + \beta B$ là ảnh của tập con lồi $A \times B$ của $E \
 
 Ký hiệu tập các tổ hợp tuyến tính ấy là C, hiển nhiên C được chứa trong mọi tập lồi chứa tất cả các $A_i$ (II, p. 8, mệnh đề 1); mặt khác $A_i \subset C$ với mọi $i$. Điều còn lại phải chứng minh là C lồi. Cho $x = \sum \lambda_i x_i$, $y = \sum \mu_i y_i$ là hai điểm của C và $\alpha$ là một số sao cho $0 < \alpha < 1$, viết γ_i = αλ_i + (1 - α) μ_i cho mọi i ∈ I, và cho J là tập (hữu hạn) các chỉ số của I sao cho γ_i ≠ 0. Ta có thể viết αx + (1 - α)y = ∑_{i∈J} γ_i z_i, trong đó
 
-$$ z_i = γ_i^{-1}(αλ_i x_i + (1 - α) μ_i y_i) $$
+$$ z_i = \gamma_i^{-1}(\alpha\lambda_i x_i + (1 - \alpha) \mu_i y_i) $$
 
-thuộc A_i với mọi i ∈ J; nhưng $\sum_{i∈J} γ_i = α \sum_{i∈I} \lambda_i + (1 - α) \sum_{i∈I} \mu_i = 1$, và ta thấy rằng $ax + (1 - \alpha) y ∈ C$. Mệnh đề được chứng minh.
+thuộc A_i với mọi i ∈ J; nhưng $\sum_{i∈J} \gamma_i = \alpha \sum_{i∈I} \lambda_i + (1 - \alpha) \sum_{i∈I} \mu_i = 1$, và ta thấy rằng $ax + (1 - \alpha) y ∈ C$. Mệnh đề được chứng minh.
 
 #### Hệ quả 1 {#evt-ii-s2-prop-8-cor-1 .statement}
 
-*Bao lồi của một tập con A của E trùng với tập các tổ hợp tuyến tính $\sum_i λ_i x_i$, trong đó $(x_i)$ là bất kỳ một họ hữu hạn các điểm của A, các số $λ_i > 0, \text{ với mọi } i$ và $\sum_i λ_i = 1$.*
+*Bao lồi của một tập con A của E trùng với tập các tổ hợp tuyến tính $\sum_i \lambda_i x_i$, trong đó $(x_i)$ là bất kỳ một họ hữu hạn các điểm của A, các số $\lambda_i > 0, \text{ với mọi } i$ và $\sum_i \lambda_i = 1$.*
 
 Chiều của đa tạp tuyến tính afin (A, II, § 9.3) được sinh bởi tập lồi A được gọi là *chiều* của A.
 
-Cho E là một không gian vectơ. Bao lồi C của bao cân bằng của một tập hợp A trong E được gọi là *bao lồi cân bằng* (hay *bao lồi đối xứng*) của A; hiển nhiên nó là tập lồi đối xứng nhỏ nhất chứa A; nó cũng là bao lồi của $A \cup (-A)$, vì mọi điểm của bao cân bằng của A đều thuộc về một đoạn thẳng có hai đầu mút a và −a với $a ∈ A$. Tập C trùng với tập các tổ hợp tuyến tính $\sum_i λ_i x_i$ với $x_i ∈ A$ và $\sum_i |λ_i| ≤ 1$; vì rõ ràng tập các điểm này là lồi và chứa A và −A; đủ để chứng minh rằng nó được chứa trong C, và để làm điều đó ta chỉ cần xét những tổ hợp tuyến tính sao cho $μ = \sum_i |λ_i| > 0$; khi đó ta có thể viết $\sum_i λ_i x_i = μ \cdot \sum_i α_i y_i$ với $α_i = λ_i/μ$ và $y_i = x_i$, nếu $λ_i ≥ 0$; và $α_i = -λ_i/μ$; $y_i = -x_i$ nếu $λ_i < 0$; hiển nhiên $\sum_i α_i = 1$, và khẳng định của chúng ta được chứng minh.
+Cho E là một không gian vectơ. Bao lồi C của bao cân bằng của một tập hợp A trong E được gọi là *bao lồi cân bằng* (hay *bao lồi đối xứng*) của A; hiển nhiên nó là tập lồi đối xứng nhỏ nhất chứa A; nó cũng là bao lồi của $A \cup (-A)$, vì mọi điểm của bao cân bằng của A đều thuộc về một đoạn thẳng có hai đầu mút a và −a với $a ∈ A$. Tập C trùng với tập các tổ hợp tuyến tính $\sum_i \lambda_i x_i$ với $x_i ∈ A$ và $\sum_i |\lambda_i| ≤ 1$; vì rõ ràng tập các điểm này là lồi và chứa A và −A; đủ để chứng minh rằng nó được chứa trong C, và để làm điều đó ta chỉ cần xét những tổ hợp tuyến tính sao cho $\mu = \sum_i |\lambda_i| > 0$; khi đó ta có thể viết $\sum_i \lambda_i x_i = \mu \cdot \sum_i \alpha_i y_i$ với $\alpha_i = \lambda_i/\mu$ và $y_i = x_i$, nếu $\lambda_i ≥ 0$; và $\alpha_i = -\lambda_i/\mu$; $y_i = -x_i$ nếu $\lambda_i < 0$; hiển nhiên $\sum_i \alpha_i = 1$, và khẳng định của chúng ta được chứng minh.
 
 #### Hệ quả 2 {#evt-ii-s2-prop-8-cor-2 .statement}
 
@@ -184,7 +184,7 @@ Có một mệnh đề tương tự cho các ánh xạ tuyến tính và các ba
 
 *Một tập con C của một không gian affine E là một nón có đỉnh x_0 nếu C bất biến đối với mọi phép vị tự tâm x_0 và tỉ số > 0.*
 
-Trong mục này và mục kế tiếp, ta giả sử rằng ta đã chọn đỉnh của nón đang xét làm gốc trong E; *tức là* ta giả sử rằng E là một không gian vectơ, và khi ta nói về một nón, thì hiểu là nón đó có đỉnh 0. Tập các điểm có dạng $λa$ với $λ > 0$ (tương ứng $λ ≥ 0$), trong đó $a$ là một vectơ khác không, được gọi là một *nửa đường thẳng mở* (tương ứng *nửa đường thẳng đóng*) xuất phát từ 0.
+Trong mục này và mục kế tiếp, ta giả sử rằng ta đã chọn đỉnh của nón đang xét làm gốc trong E; *tức là* ta giả sử rằng E là một không gian vectơ, và khi ta nói về một nón, thì hiểu là nón đó có đỉnh 0. Tập các điểm có dạng $\lambda a$ với $\lambda > 0$ (tương ứng $\lambda ≥ 0$), trong đó $a$ là một vectơ khác không, được gọi là một *nửa đường thẳng mở* (tương ứng *nửa đường thẳng đóng*) xuất phát từ 0.
 
 Một nón C có đỉnh 0 được gọi là *nhọn* nếu $0 ∈ C$, và *không nhọn* nếu ngược lại. Một nón nhọn hoặc là chính điểm đơn $\{0\}$ hoặc là hợp của một tập các nửa đường thẳng đóng xuất phát từ 0. Một nón không nhọn là hợp (có thể rỗng) của các nửa đường thẳng mở xuất phát từ 0. Nếu C là một nón không nhọn, thì $C \cup \{0\}$ là một nón nhọn. Nếu C là một nón nhọn, thì $C - \{0\}$ là một nón không nhọn.
 

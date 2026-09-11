@@ -25,7 +25,7 @@ subsections:
       pdf_page: 66
 statements: 24
 exercises: 12
-content_sha256: 4f2663e8f0231cf541206db718c0cf94a7b1084917a95791840226bd1d3e1124
+content_sha256: 8721f3a6581a77fdd226cf07712a316efbebf29456c8e66dc51c60dac5f56977
 translated_from: content/en/int/VII/03_s3_applications_and_examples.md
 source_content_sha256: caf427efadeeaa02fdc011ad1cf3bb379a2d28c4a9395236614704236db30652
 translation_model: gpt-5-6-mini, gpt-5-6
@@ -263,7 +263,7 @@ Cho $L'$ là một nhóm con đóng của G chứa L. Khi đó $L'$ là tích n�
 
 Cho G là một nhóm tôpô được sinh bởi một lân cận compact của e. Cho H là một nhóm con đóng của G sao cho không gian thuần nhất G/H là compact. Khi đó H được sinh bởi một lân cận compact của e trong H.
 
-Cho C là một tập compact sao cho G = CH. Nếu cần, phóng đại C, ta có thể giả sử rằng C sinh ra G và rằng G = ĈH. Khi đó C^2 là compact và được phủ bởi các Ĉs (s ∈ H), là các tập mở. Vì vậy tồn tại $s_1, ..., s_n$ trong H sao cho $C^2 \subset \hat{C}s_1 \cup ... \cup \hat{C}s_n$. Gọi Γ là nhóm con của H sinh bởi các $s_i$. Khi đó $C^2 \subset CΓ$. Bằng quy nạp, suy ra rằng $C^n \subset CΓ$ với mọi n, do đó $G = CΓ$. Mọi phần tử của H có thể được viết dưới dạng ab với a ∈ C, b ∈ Γ, do đó a ∈ H, do đó $a \in C \cap H$. Vì vậy H được sinh bởi $C \cap H$ và các $s_i$, tức là bởi một tập compact.
+Cho C là một tập compact sao cho G = CH. Nếu cần, phóng đại C, ta có thể giả sử rằng C sinh ra G và rằng G = ĈH. Khi đó C^2 là compact và được phủ bởi các Ĉs (s ∈ H), là các tập mở. Vì vậy tồn tại $s_1, ..., s_n$ trong H sao cho $C^2 \subset \hat{C}s_1 \cup ... \cup \hat{C}s_n$. Gọi Γ là nhóm con của H sinh bởi các $s_i$. Khi đó $C^2 \subset C\Gamma$. Bằng quy nạp, suy ra rằng $C^n \subset C\Gamma$ với mọi n, do đó $G = C\Gamma$. Mọi phần tử của H có thể được viết dưới dạng ab với a ∈ C, b ∈ Γ, do đó a ∈ H, do đó $a \in C \cap H$. Vì vậy H được sinh bởi $C \cap H$ và các $s_i$, tức là bởi một tập compact.
 
 #### Bổ đề 4 {#int-vii-s3-lem-4 .statement}
 

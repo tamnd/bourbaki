@@ -37,7 +37,7 @@ subsections:
       pdf_page: 284
 statements: 30
 exercises: 11
-content_sha256: 9f584263ec74b60f52a013ab219a7303a8540feac36a48dc679916a346d05c66
+content_sha256: 2c9ce2918a92f0cd6c6183e1600dba4afe4a4eb8ed7ed0f67d8d714ee618b930
 translated_from: content/en/int/V/03_s3_integration_of_positive_measures.md
 source_content_sha256: c86f6d9b6a8b568e9223ecc74e13272c1ca7d7b37e0e73528392645aac3cb190
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4-mini
@@ -387,32 +387,32 @@ Giả sử rằng $\Lambda$ là một phép khuếch tán. Khi đó điều ki�
 a) *tôpô của X có một cơ sở đếm được*;
 b) *Λ khả đo được phổ dụng đối với tôpô mơ hồ*.
 
-Thật vậy, cho $μ$ là một độ đo dương trên T có giá compact; ánh xạ $Λ$ khả tích thiết yếu theo vô hướng đối với $μ$, do đó $μ$-thích đáng nếu hoặc a) hoặc b) được thỏa mãn (No. 1, Mệnh đề 2).
+Thật vậy, cho $\mu$ là một độ đo dương trên T có giá compact; ánh xạ $\Lambda$ khả tích thiết yếu theo vô hướng đối với $\mu$, do đó $\mu$-thích đáng nếu hoặc a) hoặc b) được thỏa mãn (No. 1, Mệnh đề 2).
 
-Đối với phần còn lại của tiết này, ta sẽ dùng các ký hiệu sau: ta sẽ ký hiệu bởi $⟨η, h⟩$ tích phân thiết yếu trên, đối với một độ đo dương $η$, của một hàm dương khả đo được theo $η$ là $h$. Ánh xạ $Λ : t ↦ λ_t$ sẽ là một phép khuếch tán của $T$ trong $X$. Nếu $f$ là một hàm dương khả đo được phổ dụng xác định trên $X$, ta sẽ ký hiệu bởi $Λf$ ánh xạ $t ↦ λ_t^*(f)$. Nếu $μ$ là một độ đo dương trên $T$ sao cho $Λ$ khả tích thiết yếu theo vô hướng đối với $μ$, ta sẽ ký hiệu bởi $μΛ$ độ đo $∫ λ_t dμ(t)$. Định nghĩa của tích phân khi đó có dạng
+Đối với phần còn lại của tiết này, ta sẽ dùng các ký hiệu sau: ta sẽ ký hiệu bởi $⟨\eta, h⟩$ tích phân thiết yếu trên, đối với một độ đo dương $\eta$, của một hàm dương khả đo được theo $\eta$ là $h$. Ánh xạ $\Lambda : t ↦ \lambda_t$ sẽ là một phép khuếch tán của $T$ trong $X$. Nếu $f$ là một hàm dương khả đo được phổ dụng xác định trên $X$, ta sẽ ký hiệu bởi $\Lambda f$ ánh xạ $t ↦ \lambda_t^*(f)$. Nếu $\mu$ là một độ đo dương trên $T$ sao cho $\Lambda$ khả tích thiết yếu theo vô hướng đối với $\mu$, ta sẽ ký hiệu bởi $\mu\Lambda$ độ đo $∫ \lambda_t d\mu(t)$. Định nghĩa của tích phân khi đó có dạng
 
 $$
-⟨μΛ, f⟩ = ⟨μ, Λf⟩ \quad \text{với } f ∈ \mathscr{K}_+(X).
+⟨\mu\Lambda, f⟩ = ⟨\mu, \Lambda f⟩ \quad \text{với } f ∈ \mathscr{K}_+(X).
 $$
 
-Ta sẽ nói rằng một độ đo dương $μ$ trên $T$ *thuộc miền của $Λ$* nếu $Λ$ là $μ$-thích hợp: điều đó có nghĩa là nói (theo Mệnh đề 8) rằng $Λ$ là khả tích cốt yếu theo vô hướng đối với $μ$ và $⟨μ'Λ, f⟩ = ⟨μ', Λf⟩$ với mọi độ đo dương $μ' ≤ μ$ và mọi hàm dương nửa liên tục dưới $f$.
+Ta sẽ nói rằng một độ đo dương $\mu$ trên $T$ *thuộc miền của $\Lambda$* nếu $\Lambda$ là $\mu$-thích hợp: điều đó có nghĩa là nói (theo Mệnh đề 8) rằng $\Lambda$ là khả tích cốt yếu theo vô hướng đối với $\mu$ và $⟨\mu'\Lambda, f⟩ = ⟨\mu', \Lambda f⟩$ với mọi độ đo dương $\mu' ≤ \mu$ và mọi hàm dương nửa liên tục dưới $f$.
 
 #### Mệnh đề 10 {#int-v-s3-prop-10 .statement}
 
-*Hãy cho $f, g$ là hai hàm dương đo được theo mọi độ đo trên $X$, cho $a$ là một số $≥ 0$, và cho $μ$ và $ν$ là hai độ đo dương trên $T$. Khi đó:*
+*Hãy cho $f, g$ là hai hàm dương đo được theo mọi độ đo trên $X$, cho $a$ là một số $≥ 0$, và cho $\mu$ và $\nu$ là hai độ đo dương trên $T$. Khi đó:*
 
-a) $Λ(f + g) = Λf + Λg$, $Λ(af) = aΛf$.
-b) *Nếu $μ$ và $ν$ thuộc miền của $Λ$, thì $μ + ν$ và $aμ$ cũng thuộc miền đó, và ta có* $(μ + ν)Λ = μΛ + νΛ$, $(aμ)Λ = a(μΛ)$.
+a) $\Lambda(f + g) = \Lambda f + \Lambda g$, $\Lambda(af) = a\Lambda f$.
+b) *Nếu $\mu$ và $\nu$ thuộc miền của $\Lambda$, thì $\mu + \nu$ và $a\mu$ cũng thuộc miền đó, và ta có* $(\mu + \nu)\Lambda = \mu\Lambda + \nu\Lambda$, $(a\mu)\Lambda = a(\mu\Lambda)$.
 
-Điểm duy nhất không hiển nhiên là $μ + ν$ thuộc miền của $Λ$, và điều này được xét bằng cách nhận thấy rằng mọi độ đo dương bị chặn trên bởi $μ + ν$ đều có dạng $μ' + ν'$, trong đó $μ' ≤ μ$, $ν' ≤ ν$ (''bổ đề phân tích'', Ch. II, §1, No. 1). Xem thêm mệnh đề sau.
+Điểm duy nhất không hiển nhiên là $\mu + \nu$ thuộc miền của $\Lambda$, và điều này được xét bằng cách nhận thấy rằng mọi độ đo dương bị chặn trên bởi $\mu + \nu$ đều có dạng $\mu' + \nu'$, trong đó $\mu' ≤ \mu$, $\nu' ≤ \nu$ (''bổ đề phân tích'', Ch. II, §1, No. 1). Xem thêm mệnh đề sau.
 
 #### Mệnh đề 11 {#int-v-s3-prop-11 .statement}
 
-*Để một độ đo dương $μ$ trên $T$ thuộc miền của $Λ$, điều kiện cần và đủ là $Λ$ khả tích cốt yếu theo vô hướng đối với $μ$. \*
+*Để một độ đo dương $\mu$ trên $T$ thuộc miền của $\Lambda$, điều kiện cần và đủ là $\Lambda$ khả tích cốt yếu theo vô hướng đối với $\mu$. \*
 
-Điều kiện này hiển nhiên là cần thiết. Ngược lại, giả sử điều đó đúng, và cho $f$ là một hàm dương nửa liên tục dưới xác định trên $X$. Hàm $Λf$ là đo được theo mọi độ đo, do đó $μ$-đo được. Ta sẽ chứng minh rằng $⟨μ, Λf⟩ = ⟨μΛ, f⟩$; vì đẳng thức này cũng đúng với mọi độ đo dương $μ' ≤ μ$, do $Λ$ cũng khả tích cốt yếu theo vô hướng đối với $μ'$, nên suy ra rằng $Λ$ là $μ$-thích hợp.
+Điều kiện này hiển nhiên là cần thiết. Ngược lại, giả sử điều đó đúng, và cho $f$ là một hàm dương nửa liên tục dưới xác định trên $X$. Hàm $\Lambda f$ là đo được theo mọi độ đo, do đó $\mu$-đo được. Ta sẽ chứng minh rằng $⟨\mu, \Lambda f⟩ = ⟨\mu\Lambda, f⟩$; vì đẳng thức này cũng đúng với mọi độ đo dương $\mu' ≤ \mu$, do $\Lambda$ cũng khả tích cốt yếu theo vô hướng đối với $\mu'$, nên suy ra rằng $\Lambda$ là $\mu$-thích hợp.
 
-Cho $(\mu_i)_{i∈I}$ là một họ khả tổng các độ đo dương có giá compact, sao cho $μ = ∑_{i∈I} μ_i$ (§2, No. 3, Mệnh đề 4); khi đó họ các độ đo $\mu_i \Lambda$ cũng khả tổng, và $\mu \Lambda = \sum_{i \in I} \mu_i \Lambda$ (No. 1, Hệ quả của Mệnh đề 1). Do đó $\langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle$ (§ 2, No. 2, Mệnh đề 1); nhưng $\Lambda$ là $\mu_i$-thích hợp, nên $\langle \mu_i \Lambda, f \rangle = \langle \mu_i, \Lambda f \rangle$. Áp dụng lại Mệnh đề 1 của § 2, ta được đẳng thức cần tìm:
+Cho $(\mu_i)_{i∈I}$ là một họ khả tổng các độ đo dương có giá compact, sao cho $\mu = ∑_{i∈I} \mu_i$ (§2, No. 3, Mệnh đề 4); khi đó họ các độ đo $\mu_i \Lambda$ cũng khả tổng, và $\mu \Lambda = \sum_{i \in I} \mu_i \Lambda$ (No. 1, Hệ quả của Mệnh đề 1). Do đó $\langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle$ (§ 2, No. 2, Mệnh đề 1); nhưng $\Lambda$ là $\mu_i$-thích hợp, nên $\langle \mu_i \Lambda, f \rangle = \langle \mu_i, \Lambda f \rangle$. Áp dụng lại Mệnh đề 1 của § 2, ta được đẳng thức cần tìm:
 
 $$
 \langle \mu \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i \Lambda, f \rangle = \sum_{i \in I} \langle \mu_i, \Lambda f \rangle = \langle \mu, \Lambda f \rangle .

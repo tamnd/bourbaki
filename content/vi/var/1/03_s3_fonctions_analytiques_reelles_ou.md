@@ -28,7 +28,7 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: a9346300c30240f7a265cddb221273fd85ad34d721f37bb19fd522de2c7eafff
+content_sha256: 151db1a17d15f87a08f493274d770b45826e23655fd5e6943e8691e2137a0c23
 translated_from: content/en-mt/var/1/03_s3_fonctions_analytiques_reelles_ou.md
 source_lang: en-mt
 translation_method: machine
@@ -237,38 +237,38 @@ Khi $E$ hữu hạn chiều (tương ứng khi $F$ là một không gian Banach)
 
 3.3.2. Giả sử $F$ là gần đầy đủ. Cho $U$ là một tập mở của $E$ và $(f_n)$ là một dãy các ánh xạ chỉnh hình từ $U$ vào $F$, có tính chất sau: (W) Mọi điểm của $U$ đều có một lân cận trong đó dãy $(f_n)$ hội tụ đều. Khi đó giới hạn $f$ của dãy $(f_n)$ là chỉnh hình, dãy các đạo hàm $(Df_n)$ (nhận giá trị trong không gian gần đầy đủ $\mathscr{L}(E; F)$) có tính chất (W), và $Df$ là giới hạn của $(Df_n)$.
 
-3.3.3. Cho U là một tập mở của E và f là một ánh xạ chỉnh hình từ U vào F, giả thiết là gần đầy đủ. Cho $R = (R_i) \in (\mathbf{R}_+^*)^n$ và giả sử rằng đa cầu B(R) được chứa trong U và rằng f bị chặn trên B(R). Khi đó, với mọi $α \in \mathbf{N}^n$ và mọi $x = (x_i) \in B(R)$:
+3.3.3. Cho U là một tập mở của E và f là một ánh xạ chỉnh hình từ U vào F, giả thiết là gần đầy đủ. Cho $R = (R_i) \in (\mathbf{R}_+^*)^n$ và giả sử rằng đa cầu B(R) được chứa trong U và rằng f bị chặn trên B(R). Khi đó, với mọi $\alpha \in \mathbf{N}^n$ và mọi $x = (x_i) \in B(R)$:
 
 $$
-Δ^αf(0)(x) = \int_0^1 \cdots \int_0^1 f(e(\theta_1)x_1, \ldots, e(\theta_n)x_n)e(-α_1θ_1 - \cdots - α_nθ_n)\ dθ_1 \ldots dθ_n
+\Delta^\alpha f(0)(x) = \int_0^1 \cdots \int_0^1 f(e(\theta_1)x_1, \ldots, e(\theta_n)x_n)e(-\alpha_1\theta_1 - \cdots - \alpha_n\theta_n)\ d\theta_1 \ldots d\theta_n
 $$
 
-(trong đó $e(θ) = \exp 2πi θ$).
+(trong đó $e(\theta) = \exp 2\pi i \theta$).
 
-Hơn nữa, cho $γ$ là một nửa chuẩn liên tục trên F và M là cận trên của $\|f(x)\|_γ$ với $\|x_i\| = R_i$. Khi đó $\|Δ^αf(0)(x)\|_γ \leq M$ với mọi $x \in B(R)$ và $\|Δ^αf(0)\|_γ \leq MR^{-α}$. Sau cùng, miền hội tụ của khai triển chuỗi của f tại 0 chứa phần trong của đa cầu B(R).
+Hơn nữa, cho $\gamma$ là một nửa chuẩn liên tục trên F và M là cận trên của $\|f(x)\|_\gamma$ với $\|x_i\| = R_i$. Khi đó $\|\Delta^\alpha f(0)(x)\|_\gamma \leq M$ với mọi $x \in B(R)$ và $\|\Delta^\alpha f(0)\|_\gamma \leq MR^{-\alpha}$. Sau cùng, miền hội tụ của khai triển chuỗi của f tại 0 chứa phần trong của đa cầu B(R).
 
-3.3.4. Giữ lại các giả thiết của 3.3.3 và giả sử thêm rằng $E_i = \mathbf{C}$. Cho $\sum_{α} X^αc_α$ là khai triển chuỗi của f tại 0. Ta có:
+3.3.4. Giữ lại các giả thiết của 3.3.3 và giả sử thêm rằng $E_i = \mathbf{C}$. Cho $\sum_{\alpha} X^\alpha c_\alpha$ là khai triển chuỗi của f tại 0. Ta có:
 
 $$
-c_α = R^{-α}\int_0^1 \cdots \int_0^1 f(e(\theta_1)R_1, \ldots, e(\theta_n)R_n)e(-α_1θ_1 - \cdots - α_nθ_n)\ dθ_1 \ldots dθ_n
+c_\alpha = R^{-\alpha}\int_0^1 \cdots \int_0^1 f(e(\theta_1)R_1, \ldots, e(\theta_n)R_n)e(-\alpha_1\theta_1 - \cdots - \alpha_n\theta_n)\ d\theta_1 \ldots d\theta_n
 $$
 
 và:
 
 $$
-\|c_α\|_γ \leq R^{-α} \sup_{x \in B(R)} \|f(x)\|_γ
+\|c_\alpha\|_\gamma \leq R^{-\alpha} \sup_{x \in B(R)} \|f(x)\|_\gamma
 $$
 
-(“bất đẳng thức Cauchy”). Miền hội tụ ngặt của chuỗi $\sum_{α} X^αc_α$ chứa phần trong của B(R).
+(“bất đẳng thức Cauchy”). Miền hội tụ ngặt của chuỗi $\sum_{\alpha} X^\alpha c_\alpha$ chứa phần trong của B(R).
 
 3.3.5. Giả sử E hữu hạn chiều và F gần đầy đủ. Cho f là một ánh xạ chỉnh hình từ E vào F. Khi đó tồn tại trong $\mathscr{H}(E; F)$ một và chỉ một chuỗi $f_0$, có bán kính hội tụ vô hạn (đối với mọi chuẩn trên E), sao cho $f(x) = f_0(x)$ với mọi $x \in E$.
 
 3.3.6. Nếu f là một ánh xạ chỉnh hình từ E vào F sao cho $f(E)$ bị chặn, thì hàm f là hằng (“định lý Liouville”).
 
-3.3.7. Ta giả sử rằng $E \neq 0$. Cho f là một ánh xạ chỉnh hình từ một tập mở U của E vào F. Cho a là một điểm của U và $γ$ là một nửa chuẩn liên tục trên F. Với mọi lân cận V của a, được chứa trong U, tồn tại $x \in V, x \neq a$, sao cho:
+3.3.7. Ta giả sử rằng $E \neq 0$. Cho f là một ánh xạ chỉnh hình từ một tập mở U của E vào F. Cho a là một điểm của U và $\gamma$ là một nửa chuẩn liên tục trên F. Với mọi lân cận V của a, được chứa trong U, tồn tại $x \in V, x \neq a$, sao cho:
 
 $$
-\|f(a)\|_γ \leq \|f(x)\|_γ.
+\|f(a)\|_\gamma \leq \|f(x)\|_\gamma.
 $$
 
 Nếu hơn nữa $F = \mathbf{C}$ và nếu f không hằng trong một lân cận của a, thì ta có $|f(a)| < \sup_{x \in V, x \neq a} |f(x)|$ và ánh xạ f là mở trong một lân cận của a.

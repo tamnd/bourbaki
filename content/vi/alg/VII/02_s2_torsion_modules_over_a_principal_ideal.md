@@ -30,7 +30,7 @@ subsections:
       pdf_page: 371
 statements: 22
 exercises: 15
-content_sha256: b7fca3f600fa73bdd7b440440aa28701dff156931c3399b63493de2641be0bc6
+content_sha256: 80f0157003e517eb006f7aa67e605f2fa8b7c12ef86a07926a8a055895f8859f
 translated_from: content/en/alg/VII/02_s2_torsion_modules_over_a_principal_ideal.md
 source_content_sha256: 18b16f95020a8a741d96574eaeeb64be1473fe323bf1aaba2c7e0f2b696c695b
 translation_model: gpt-5.4-mini
@@ -134,13 +134,13 @@ Một A-môđun M được gọi là *nửa đơn* nếu mọi môđun con của
 
 Trước hết giả sử rằng M là nửa đơn; let x ∈ M và let π là một phần tử bất khả quy của $\mathscr{A}$. Nếu N là một phần bù của $Annx$ trong M, thì ta có thể viết $x = \alpha \pi x + y$, với $\alpha \in \mathscr{A}$ và $y \in N$; nhưng điều đó suy ra $y = (1 - \alpha n)x$, do đó $$
 \pi(1 - \alpha \pi)x \in A\pi x \cap N = 0 .
-$$ Trước hết suy ra rằng M là một môđun xoắn; nếu hơn nữa $x \in M_π$, thì $\pi(1 - \alpha \pi)x = 0$, do đó $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ bằng không và $M_π = M(\pi)$.
+$$ Trước hết suy ra rằng M là một môđun xoắn; nếu hơn nữa $x \in M_\pi$, thì $\pi(1 - \alpha \pi)x = 0$, do đó $\pi x = \alpha \pi^2 x = \alpha^2 \pi^3 x = \cdots = \alpha^n \pi^{n+1} x$ bằng không và $M_\pi = M(\pi)$.
 
 Ngược lại, theo Hệ quả 2 là đủ để chứng minh rằng một A-môđun M bị triệt tiêu bởi một phần tử bất khả quy π là nửa đơn; nhưng điều đó hiển nhiên, vì khi đó M có một cấu trúc tự nhiên của một không gian vectơ trên trường $\mathscr{A}/(\pi)$, và các môđun con của M chính xác là các không gian vectơ con theo cấu trúc này.
 
 #### Nhận xét 1 {#alg-vii-s2-n2-rem-1 .statement}
 
-— Rõ ràng linh hóa tử của mọi phần tử khác 0 của một môđun nguyên sơ τ có dạng $A\pi^k$ ($k > 0$ là một số nguyên), vì nó là một iđêan chính chứa một lũy thừa của τ. Cho x là một phần tử của M; với mỗi $\pi \in P$, đặt $x_\pi$ là thành phần của x trong $M_π$; linh hóa tử của x là BCNN của các linh hóa tử của những $x_\pi$ khác không, nhưng theo trên thì trong trường hợp này nó bằng *tích* của các linh hóa tử của những $x_\pi$ khác không (VI, p. 16, Mệnh đề 12 (DIV)).
+— Rõ ràng linh hóa tử của mọi phần tử khác 0 của một môđun nguyên sơ τ có dạng $A\pi^k$ ($k > 0$ là một số nguyên), vì nó là một iđêan chính chứa một lũy thừa của τ. Cho x là một phần tử của M; với mỗi $\pi \in P$, đặt $x_\pi$ là thành phần của x trong $M_\pi$; linh hóa tử của x là BCNN của các linh hóa tử của những $x_\pi$ khác không, nhưng theo trên thì trong trường hợp này nó bằng *tích* của các linh hóa tử của những $x_\pi$ khác không (VI, p. 16, Mệnh đề 12 (DIV)).
 
 #### Mệnh đề 2 {#alg-vii-s2-prop-2 .statement}
 

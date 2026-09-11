@@ -61,7 +61,7 @@ subsections:
       pdf_page: 193
 statements: 77
 exercises: 30
-content_sha256: b8b563c69da832be7834ad31bd3f4a702437ed43eeb1a6f2fc81ed48e4c771ac
+content_sha256: db80b522eeacd0f276125bcd78fa36894a8d18f1f46c7cd0f74ab8607db4ffd2
 translated_from: content/en/int/IV/05_s5_measurable_functions_and_sets.md
 source_content_sha256: d2dd442a1870a24021fa0c3140fb4294fafea8355aea1aaaf03d6d89003a2756
 translation_model: gpt-5.4
@@ -121,13 +121,13 @@ Xét theo Định nghĩa 1, nói rằng một tập đo được $A$ là một t
 
 — *Nếu X là khả mêtric, thì mọi tập con Souslin A của X* (GT, IX, §6, No. 2) *đều là μ-đo được đối với mọi độ đo μ trên X*.
 
-Theo Mệnh đề 3, chỉ cần kiểm tra rằng mọi tập Souslin tương đối compact A đều là μ-khả tích. Nhưng một tập như vậy A là capacitable đối với $|\mu|^*$ (GT, IX, §6, No. 9, Định lý 5). Do đó, với mọi $ε > 0$ tồn tại một tập con compact K của A sao cho $|\mu|^*(A) \leq |\mu|^*(K) + ε = |\mu|(K) + ε$. Gọi U là một tập mở tương đối compact trong X chứa A sao cho
+Theo Mệnh đề 3, chỉ cần kiểm tra rằng mọi tập Souslin tương đối compact A đều là μ-khả tích. Nhưng một tập như vậy A là capacitable đối với $|\mu|^*$ (GT, IX, §6, No. 9, Định lý 5). Do đó, với mọi $\varepsilon > 0$ tồn tại một tập con compact K của A sao cho $|\mu|^*(A) \leq |\mu|^*(K) + \varepsilon = |\mu|(K) + \varepsilon$. Gọi U là một tập mở tương đối compact trong X chứa A sao cho
 
 $$
-|\mu|(U) = |\mu|^*(U) \leq |\mu|^*(A) + ε.
+|\mu|(U) = |\mu|^*(U) \leq |\mu|^*(A) + \varepsilon.
 $$
 
-Khi đó $|\mu|^*(U - K) = |\mu|(U) - |\mu|(K) \leq 2ε$, do đó $|\mu|^*(A - K) \leq 2ε$, điều này chứng minh rằng A là μ-khả tích (§4, No. 6, Hệ quả 1 của Định lý 4).
+Khi đó $|\mu|^*(U - K) = |\mu|(U) - |\mu|(K) \leq 2\varepsilon$, do đó $|\mu|^*(A - K) \leq 2\varepsilon$, điều này chứng minh rằng A là μ-khả tích (§4, No. 6, Hệ quả 1 của Định lý 4).
 
 ### 2. Nguyên lý địa phương hóa. Các tập địa phương không đáng kể
 
@@ -141,7 +141,7 @@ Do đó khái niệm hàm đo được là một khái niệm có đặc trưng 
 
 #### Định nghĩa 3 {#int-iv-s5-def-3 .statement}
 
-— *Một tập hợp $A \subset X$ được gọi là không đáng kể địa phương (đối với độ đo $μ$) nếu, với mọi $x \in X$, tồn tại một lân cận $V$ của $x$ sao cho $V \cap A$ là không đáng kể.*
+— *Một tập hợp $A \subset X$ được gọi là không đáng kể địa phương (đối với độ đo $\mu$) nếu, với mọi $x \in X$, tồn tại một lân cận $V$ của $x$ sao cho $V \cap A$ là không đáng kể.*
 
 Theo nguyên lý địa phương hóa, mọi tập không đáng kể địa phương đều *đo được*. Các tính chất của các tập không đáng kể (§2) cho thấy rằng mọi tập con của một tập không đáng kể địa phương đều không đáng kể địa phương, và mọi hợp đếm được của các tập không đáng kể địa phương đều không đáng kể địa phương.
 

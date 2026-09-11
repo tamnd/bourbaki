@@ -28,7 +28,7 @@ subsections:
       pdf_page: 117
 statements: 34
 exercises: 8
-content_sha256: fcb24006a18200a6624403255689bb9f2571c0f6e71ba8ae966b903a1300b707
+content_sha256: 33005c4d0261379eddfce256ea06740f23a1618bdbc31f9aa7f938dab08cbef6
 translated_from: content/en/int/IV/01_s1_upper_integral_of_a_positive_function.md
 source_content_sha256: 4efc1f3cfe523060663c90bb9b64343469cc31d0bbbed2b5f147d96fa86f496e
 translation_model: gpt-5.4
@@ -189,16 +189,16 @@ Các hàm φ_G lập thành một tập có hướng (đối với ≤) trong $\
 — *Cho* (G_ι)_{ι \in I} *là một họ bất kỳ các tập hợp mở; khi đó*
 
 $$
-\mu^*\left(\bigcup_{ι \in I} G_ι\right) \leq \sum_{ι \in I} \mu^*(G_ι).
+\mu^*\left(\bigcup_{\iota \in I} G_\iota\right) \leq \sum_{\iota \in I} \mu^*(G_\iota).
 $$
 
 *Hơn nữa, nếu các* G_ι *rời nhau từng đôi một thì*
 
 $$
-\mu^*\left(\bigcup_{ι \in I} G_ι\right) = \sum_{ι \in I} \mu^*(G_ι).
+\mu^*\left(\bigcup_{\iota \in I} G_\iota\right) = \sum_{\iota \in I} \mu^*(G_\iota).
 $$
 
-Thật vậy, nếu G = $\bigcup_{ι \in I} G_ι$ thì φ_G = sup_{ι \in I} φ_{G_ι} ≤ $\sum_{ι \in I} \varphi_{G_ι}$; khi các G_ι rời nhau từng đôi một, φ_G = $\sum_{ι \in I} \varphi_{G_ι}$; do đó mệnh đề là một hệ quả của các Mệnh đề 2 và 3.
+Thật vậy, nếu G = $\bigcup_{\iota \in I} G_\iota$ thì φ_G = sup_{ι \in I} φ_{G_ι} ≤ $\sum_{\iota \in I} \varphi_{G_\iota}$; khi các G_ι rời nhau từng đôi một, φ_G = $\sum_{\iota \in I} \varphi_{G_\iota}$; do đó mệnh đề là một hệ quả của các Mệnh đề 2 và 3.
 
 #### Ví dụ {#int-iv-s1-n2-exa-1 .statement}
 

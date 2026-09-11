@@ -45,7 +45,7 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 18
-content_sha256: 0c26e4c195513eda20c41eed9f564bfc5605c3675b50f3a3af22c634208610bd
+content_sha256: b05928f2a6ba22a64644efb0179035c3625ca757d62a80da1d37fe80d035b557
 translated_from: content/fr/alg/X/06_s6_utilisation_de_resolutions_non.md
 source_lang: fr
 translation_method: machine
@@ -416,10 +416,10 @@ $$
 By X, p. 67, prop. 4, H(1 ⊗ a'') and H(1 ⊗ a') are bijective; on the other hand, by definition of the homomorphisms ψ, we have H(β ⊗ 1) ◦ ψ(L(P), R'') = ψ(S, R'') and H(1 ⊗ a'') ◦ ψ(L(P), R'') = ψ(L(P), M'') = ψ_p(M''), therefore
 
 $$
-ψ(S, R'') = H(β ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ ψ_p(M'');
+\psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \psi_p(M'');
 $$
 
-analogously, $ψ(S, R') = H(β ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ ψ_p(M')$, and the required assertion $\partial((3)) ◦ ψ(S, R'') = ψ(S, R') ◦ \partial(P, (2))$ follows from the commutativity of the preceding diagram.
+analogously, $\psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi_p(M')$, and the required assertion $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ follows from the commutativity of the preceding diagram.
 
 #### Remark 1 {#alg-x-s6-n3-rem-1 .statement}
 
@@ -427,18 +427,18 @@ Using the commutation isomorphisms, one deduces from a) the analogous statement 
 
 #### Remark 2 {#alg-x-s6-n3-rem-2 .statement}
 
-With the notation of a), suppose either that S is flat, or that R, R', R'' are flat; then on the one hand sequence (3) is exact (X, p. 72, cor. 2) and one may apply prop. 3; on the other hand $ψ(S, R')$ is bijective (th. 1), therefore
+With the notation of a), suppose either that S is flat, or that R, R', R'' are flat; then on the one hand sequence (3) is exact (X, p. 72, cor. 2) and one may apply prop. 3; on the other hand $\psi(S, R')$ is bijective (th. 1), therefore
 
 $$
-\partial(P, (2)) = ψ(S, R')^{-1} ◦ \partial((3)) ◦ ψ(S, R'').
+\partial(P, (2)) = \psi(S, R')^{-1} ◦ \partial((3)) ◦ \psi(S, R'').
 $$
 
 #### Remark 3 {#alg-x-s6-n3-rem-3 .statement}
 
-With the notation of b), suppose either that E is injective, or that R, R', R'' are projective; then on the one hand sequence (4) is exact (X, p. 83, prop. 2) and one may apply prop. 3; on the other hand, $φ(R', E)$ is bijective (th. 1) ; therefore
+With the notation of b), suppose either that E is injective, or that R, R', R'' are projective; then on the one hand sequence (4) is exact (X, p. 83, prop. 2) and one may apply prop. 3; on the other hand, $\varphi(R', E)$ is bijective (th. 1) ; therefore
 
 $$
-δ((2), N) = φ(R'', E) ◦ \partial((4)) ◦ φ(R', E)^{-1}.
+\delta((2), N) = \varphi(R'', E) ◦ \partial((4)) ◦ \varphi(R', E)^{-1}.
 $$
 
 Let us now consider a commutative diagram

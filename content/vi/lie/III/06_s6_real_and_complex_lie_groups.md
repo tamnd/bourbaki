@@ -53,7 +53,7 @@ subsections:
       pdf_page: 340
 statements: 71
 exercises: 30
-content_sha256: 955f0d38872a63f0e6d08b2c00e4c55b597e75de22e7b5ab0ba7781fab5905e7
+content_sha256: 4f0ffc770feff609906c31c1d3b6a73d5f577f895f09a5e7c2d47219744ae524
 translated_from: content/en/lie/III/06_s6_real_and_complex_lie_groups.md
 source_content_sha256: a52c873bcf9c62fc8fba9209dcc1e9adccdfb18291f0cf132a2bfb157a201e58
 translation_model: gpt-5-6-mini, gpt-5.4, gpt-5-mini
@@ -858,13 +858,13 @@ $$
 $$
 Gọi P là giao của các $\mathrm{Ker}\, \phi^*$ khi $\phi$ biến thiên. Đây là một nhóm con Lie chuẩn tắc của S' (no. 2, Hệ quả 3 của Mệnh đề 1). Đặt $\tilde{G} = S'/P$ và λ: S' → \tilde{G} là cấu xạ chính tắc. Khi đó σ(F) ⊂ P và do đó tồn tại một và chỉ một cấu xạ R-giải tích γ từ G vào \tilde{G} sao cho γ ∘ π = λ ∘ σ. Nếu ψ: \tilde{G} → H ký hiệu cấu xạ dẫn xuất từ φ* khi chuyển qua thương, thì
 
-$$(φ ∘ γ) ∘ π = ψ ∘ (λ ∘ σ) = φ^* ∘ σ = φ ∘ π$$
+$$(\varphi ∘ \gamma) ∘ \pi = \psi ∘ (\lambda ∘ \sigma) = \varphi^* ∘ \sigma = \varphi ∘ \pi$$
 
 do đó ψ ∘ γ = φ. Rõ ràng L(ψ), và vì thế ψ, được xác định duy nhất bởi đẳng thức ψ ∘ γ = φ. Như vậy ta đã chứng minh rằng cặp có thứ tự (\tilde{G}, γ) có các tính chất (i) và (iii).
 
 (b) Bây giờ ta chuyển sang trường hợp tổng quát. Gọi F là thành phần liên thông của đơn vị của G, M = G/F và i: F → G và p: G → M là các cấu xạ chính tắc. Ta áp dụng phần (a) của chứng minh cho F. Ta thu được một cặp có thứ tự (\tilde{F}, δ). Với mọi g ∈ G, Int g|F = ω'(g) là một tự đẳng cấu của F. Theo tính chất phổ quát của \tilde{F}, tồn tại một và chỉ một tự đẳng cấu ω(g) của nhóm Lie phức \tilde{F} sao cho δ ∘ ω'(g) = ω(g) ∘ δ. Rõ ràng ω là một cấu xạ từ G vào Aut(\tilde{H}). Nếu g ∈ G và f ∈ F, thì
 
-$$δ(gf g^{-1}) = (\delta ∘ ω'(g))(f) = (\omega(g) ∘ \delta)(f) = \omega(g)(\delta(f)).$$
+$$\delta(gf g^{-1}) = (\delta ∘ \omega'(g))(f) = (\omega(g) ∘ \delta)(f) = \omega(g)(\delta(f)).$$
 
 Nếu f ∈ F, thì δ ∘ (Int_F f) = (Int_\tilde{F} δ(f)) ∘ δ và Int_\tilde{F} δ(f) là một tự đẳng cấu của nhóm Lie phức \tilde{F}; do đó Int_\tilde{F} δ(f) = ω(f).
 

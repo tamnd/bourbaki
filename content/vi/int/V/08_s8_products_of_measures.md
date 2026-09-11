@@ -41,7 +41,7 @@ subsections:
       pdf_page: 348
 statements: 31
 exercises: 21
-content_sha256: 4f54b131deb66dc2ab128f0de5a0679a4b5166acfa4009569520d895cccaa906
+content_sha256: ca1dbe290ee7eb048ace1336d4b1872654774ea8032cbf617fc563b8d901547a
 translated_from: content/en/int/V/08_s8_products_of_measures.md
 source_content_sha256: a3e06c32a25b00ebb1bdb33d080383d36bc6c9d36cba335c108b496f0c58c969
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -534,40 +534,40 @@ $$
 
 ### 6. Tích phân đối với một tích hữu hạn các độ đo
 
-Các kết quả trước có thể được mở rộng không khó khăn sang tích của một số hữu hạn độ đo. Chẳng hạn, cho $T_1, T_2, T_3$ là ba không gian compact địa phương, $\mu_i$ là một độ đo dương trên $T_i$ ($i = 1, 2, 3$), và gọi ν = μ₁ ⊗ μ₂ ⊗ μ₃ là độ đo tích trên T = T₁ × T₂ × T₃. Gọi f là một hàm ν-khả tích nhận giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach; một áp dụng thứ nhất của định lý Lebesgue–Fubini cho thấy rằng, trừ tại các điểm $(t_1, t_2) \in T_1 \times T_2$ tạo thành một tập không đáng kể (đối với $μ₁ ⊗ μ₂$), hàm $t₃ ↦ f(t₁, t₂, t₃)$ là $μ₃$-khả tích, hàm
+Các kết quả trước có thể được mở rộng không khó khăn sang tích của một số hữu hạn độ đo. Chẳng hạn, cho $T_1, T_2, T_3$ là ba không gian compact địa phương, $\mu_i$ là một độ đo dương trên $T_i$ ($i = 1, 2, 3$), và gọi ν = μ₁ ⊗ μ₂ ⊗ μ₃ là độ đo tích trên T = T₁ × T₂ × T₃. Gọi f là một hàm ν-khả tích nhận giá trị trong $\overline{\mathbf{R}}$ hoặc trong một không gian Banach; một áp dụng thứ nhất của định lý Lebesgue–Fubini cho thấy rằng, trừ tại các điểm $(t_1, t_2) \in T_1 \times T_2$ tạo thành một tập không đáng kể (đối với $\mu₁ ⊗ \mu₂$), hàm $t₃ ↦ f(t₁, t₂, t₃)$ là $\mu₃$-khả tích, hàm
 
 $$
-(t₁, t₂) ↦ \int f(t₁, t₂, t₃) \, dμ₃(t₃),
+(t₁, t₂) ↦ \int f(t₁, t₂, t₃) \, d\mu₃(t₃),
 $$
 
-được xác định hầu khắp nơi trong $T_1 \times T_2$, là $(μ₁ ⊗ μ₂)$-khả tích, và
+được xác định hầu khắp nơi trong $T_1 \times T_2$, là $(\mu₁ ⊗ \mu₂)$-khả tích, và
 
 $$
-\iiint f(t₁, t₂, t₃) \, dν(t₁, t₂, t₃) = \iint dμ₁(t₁) \, dμ₂(t₂) \int f(t₁, t₂, t₃) \, dμ₃(t₃).
+\iiint f(t₁, t₂, t₃) \, d\nu(t₁, t₂, t₃) = \iint d\mu₁(t₁) \, d\mu₂(t₂) \int f(t₁, t₂, t₃) \, d\mu₃(t₃).
 $$
 
-Một áp dụng thứ hai của cùng định lý cho thấy rằng, với hầu hết mọi $t₁ ∈ T₁$, hàm $t₂ ↦ \int f(t₁, t₂, t₃) \, dμ₃(t₃)$ được xác định hầu khắp nơi trong $T₂$ và là $μ₂$-khả tích; hơn nữa, hàm
+Một áp dụng thứ hai của cùng định lý cho thấy rằng, với hầu hết mọi $t₁ ∈ T₁$, hàm $t₂ ↦ \int f(t₁, t₂, t₃) \, d\mu₃(t₃)$ được xác định hầu khắp nơi trong $T₂$ và là $\mu₂$-khả tích; hơn nữa, hàm
 
 $$
-t₁ ↦ \int dμ₂(t₂) \int f(t₁, t₂, t₃) \, dμ₃(t₃),
+t₁ ↦ \int d\mu₂(t₂) \int f(t₁, t₂, t₃) \, d\mu₃(t₃),
 $$
 
-được xác định hầu khắp nơi trong $T₁$, là $μ₁$-khả tích, và
+được xác định hầu khắp nơi trong $T₁$, là $\mu₁$-khả tích, và
 
 $$
-\iiint f(t₁, t₂, t₃) \, dν(t₁, t₂, t₃) = \int dμ₁(t₁) \int dμ₂(t₂) \int f(t₁, t₂, t₃) \, dμ₃(t₃).
+\iiint f(t₁, t₂, t₃) \, d\nu(t₁, t₂, t₃) = \int d\mu₁(t₁) \int d\mu₂(t₂) \int f(t₁, t₂, t₃) \, d\mu₃(t₃).
 $$
 
-Ta chứng minh tương tự rằng, với hầu hết mọi $t₁ ∈ T₁$, hàm $(t₂, t₃) ↦ f(t₁, t₂, t₃)$ là $(μ₂ ⊗ μ₃)$-khả tích, rằng hàm
+Ta chứng minh tương tự rằng, với hầu hết mọi $t₁ ∈ T₁$, hàm $(t₂, t₃) ↦ f(t₁, t₂, t₃)$ là $(\mu₂ ⊗ \mu₃)$-khả tích, rằng hàm
 
 $$
-t₁ ↦ \iint f(t₁, t₂, t₃) \, dμ₂(t₂) \, dμ₃(t₃),
+t₁ ↦ \iint f(t₁, t₂, t₃) \, d\mu₂(t₂) \, d\mu₃(t₃),
 $$
 
-được xác định hầu khắp nơi, là $μ₁$-khả tích, và rằng
+được xác định hầu khắp nơi, là $\mu₁$-khả tích, và rằng
 
 $$
-\iiint f(t₁, t₂, t₃) \, dν(t₁, t₂, t₃) = \int dμ₁(t₁) \iint f(t₁, t₂, t₃) \, dμ₂(t₂) \, dμ₃(t₃).
+\iiint f(t₁, t₂, t₃) \, d\nu(t₁, t₂, t₃) = \int d\mu₁(t₁) \iint f(t₁, t₂, t₃) \, d\mu₂(t₂) \, d\mu₃(t₃).
 $$
 
 Chúng tôi để cho người đọc việc khái quát hóa theo cùng cách các kết quả khác đã được chứng minh ở trên cho tích của hai độ đo.

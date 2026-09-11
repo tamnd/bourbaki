@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: 27b84893a39333c19790ba165aa5017e09f8fb6d3a3d95a17abab48421323382
+content_sha256: c2e1a0818cf45dbd7fbda6778dd989be679bf94ab46e130978309556a8a15891
 translated_from: content/fr/alg/IX/03_s3_formes_hermitiennes_et_formes.md
 source_lang: fr
 translation_method: machine
@@ -368,11 +368,11 @@ d) Extend the preceding results to the case where (A being a commutative ring), 
 
 10) a) Let A be a commutative ring, E an A-module having a basis of 3 elements, Φ a symmetric bilinear form on E. With the notation of Exercise 9, for two arbitrary elements x, y of E, put $x \overline{\wedge} y = d_{(2)}(x \wedge y)$, and say that this element is the vector product of x and y (relative to $\Phi$ and to the basis e of $\bigwedge^3 E$). Show that $(x, y) \to x \overline{\wedge} y$ is an alternating bilinear mapping of $E \times E$ into E, and that $x \overline{\wedge} y$ is orthogonal to x and to y.
 
-b) Let α, β be two invertible elements of A, B the quaternion algebra over A corresponding to the pair ($α, β$) (Chapter II, § 7, No. 8), 1, u, v, ω the canonical basis of B over A; let E be the submodule of B having u, v, ω as basis. Show that if x, y are two quaternions belonging to E, one has
+b) Let α, β be two invertible elements of A, B the quaternion algebra over A corresponding to the pair ($\alpha, \beta$) (Chapter II, § 7, No. 8), 1, u, v, ω the canonical basis of B over A; let E be the submodule of B having u, v, ω as basis. Show that if x, y are two quaternions belonging to E, one has
 $$
 xy = \Phi(x, y) + x \overline{\wedge} y
 $$
-where Φ is a symmetric bilinear form on E, such that the linear mappings associated with Φ are bijective, and $x \overline{\wedge} y$ is the vector product of x and y relative to the form Φ and to the basis $α^{-1}β^{-1}u \wedge v \wedge \omega$ of $\bigwedge^3 E$.
+where Φ is a symmetric bilinear form on E, such that the linear mappings associated with Φ are bijective, and $x \overline{\wedge} y$ is the vector product of x and y relative to the form Φ and to the basis $\alpha^{-1}\beta^{-1}u \wedge v \wedge \omega$ of $\bigwedge^3 E$.
 
 11) Let Φ be a non-degenerate ε-hermitian sesquilinear form on a finite-dimensional vector space E. A vector subspace M of E is said to be weakly orthogonal to a vector subspace N (relative to Φ) if one of the two subspaces M, N° contains the other.
 

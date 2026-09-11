@@ -56,7 +56,7 @@ subsections:
       pdf_page: 249
 statements: 54
 exercises: 10
-content_sha256: 959eb885f564fac1eebba4f1ccb96324d2411a59de36272e85b2c488c0cba51e
+content_sha256: 86f65e4c29281d1db0f47d9dcc56f6d975aac9b89b400b1aa02f4b6333be7624
 translated_from: content/en/lie/III/01_s1_lie_groups.md
 source_content_sha256: e52337051d072b3fd573ec368d2951d83c152a681fdefe2f8abb0b96ea1b6e8d
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
@@ -163,15 +163,15 @@ m(e, y) = y với mọi y ∈ U và do đó, theo định lý hàm ẩn, tồn t
 
 $$
 \begin{align*}
-θ_2(x) &= m(θ_2(x), e) = m(θ_2(x), m(x, θ_1(x))) \\
-&= m(m(θ_2(x), x), θ_1(x)) = m(e, θ_1(x)) = θ_1(x).
+\theta_2(x) &= m(\theta_2(x), e) = m(\theta_2(x), m(x, \theta_1(x))) \\
+&= m(m(\theta_2(x), x), \theta_1(x)) = m(e, \theta_1(x)) = \theta_1(x).
 \end{align*}
 $$
 
 Gọi θ(x) là giá trị chung của θ_1(x) và θ_2(x) đối với x ∈ W_1 ∩ W_2. Gọi W là tập hợp các x ∈ W_1 ∩ W_2 sao cho θ(x) ∈ W_1 ∩ W_2. Tập hợp W là mở. Với x ∈ W,
 
 $$
-θ(θ(x)) = m(m(x, θ(x)), θ(θ(x))) = m(x, m(θ(x), θ(θ(x)))) = m(x, e) = x
+\theta(\theta(x)) = m(m(x, \theta(x)), \theta(\theta(x))) = m(x, m(\theta(x), \theta(\theta(x)))) = m(x, e) = x
 $$
 
 và do đó θ(x) ∈ W. Ta thấy rằng θ | W xác định một tự đẳng cấu của đa tạp W.
@@ -514,7 +514,7 @@ Cho G là một nhóm Lie, X là một đa tạp giải tích và (g, x) ↦ gx 
 Giả sử Gx đóng địa phương. Khi đó mọi điểm của Gx đều có một lân cận trong Gx đồng phôi với một không gian con đóng của một không gian mêtric đầy đủ và do đó là một không gian Baire. Vì vậy Gx là một không gian Baire (*Tôpô đại cương*, Chương IX, § 5, Mệnh đề 4). Nếu G có một cơ sở đếm được, do đó i_x là một phép đồng phôi của G/G_x lên Gx (*Tôpô đại cương*, Chương IX, § 5). Khi đó theo (ii) và *Đa tạp khả vi và giải tích*, R, 5.8.3, i_x là một đẳng cấu của các đa tạp G/G_x lên đa tạp Gx và
 
 $$
-T_x(Gx) = \operatorname{Im} T_{π(e)}(i_x) = \operatorname{Im} T_e(ρ(x)).
+T_x(Gx) = \operatorname{Im} T_{\pi(e)}(i_x) = \operatorname{Im} T_e(\rho(x)).
 $$
 
 #### Nhận xét {#lie-iii-s1-n7-rem-1 .statement}
@@ -537,13 +537,13 @@ Cho φ là tự đẳng cấu $(g, x) ↦ (g, gx)$ của đa tạp $G \times X$.
 
 Nếu ψ là một φ-cấu xạ của các bó vectơ lớp C^r, thì E được gọi là một bó G-vectơ lớp C^r.
 
-Nói cách khác, E là một bó G-vectơ lớp C^r nếu với mọi $(g_0, x_0) \in G \times X$ điều kiện sau đây được thỏa mãn: tồn tại một lân cận mở U của $(g_0, x_0)$ trong $G \times X$ sao cho, nếu $E' | U$ (tương ứng $E' | φ(U)$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng N) bằng một biểu đồ vectơ, thì ánh xạ $(g, x) ↦ ψ_{g, x}$ của U vào $L(M, N)$ là lớp C^r.
+Nói cách khác, E là một bó G-vectơ lớp C^r nếu với mọi $(g_0, x_0) \in G \times X$ điều kiện sau đây được thỏa mãn: tồn tại một lân cận mở U của $(g_0, x_0)$ trong $G \times X$ sao cho, nếu $E' | U$ (tương ứng $E' | \varphi(U)$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng N) bằng một biểu đồ vectơ, thì ánh xạ $(g, x) ↦ \psi_{g, x}$ của U vào $L(M, N)$ là lớp C^r.
 
-Ánh xạ ψ hiển nhiên là song ánh và suy ra từ tiêu chuẩn địa phương ở trên rằng ψ^{-1} là một $φ^{-1}$-cấu xạ của các bó vectơ, do đó ψ là một $φ$-đẳng cấu của các bó vectơ.
+Ánh xạ ψ hiển nhiên là song ánh và suy ra từ tiêu chuẩn địa phương ở trên rằng ψ^{-1} là một $\varphi^{-1}$-cấu xạ của các bó vectơ, do đó ψ là một $\varphi$-đẳng cấu của các bó vectơ.
 
 Một bó G-vectơ tầm thường có cơ sở X là một bó vectơ $X \times F$ (trong đó F là một không gian chuẩn hóa đầy đủ) với luật phép toán $(g, (x, f)) ↦ (gx, f)$ của G trên $X \times F$.
 
-Ta lại giả sử các giả thiết và ký hiệu đứng trước Định nghĩa 4 và lấy thêm τ là một hàm tử vectơ lớp C^r đối với các đẳng cấu (*Differentiable and Analytic Manifolds*, R, 7.6.6). Khi đó τE là một bó vectơ có không gian cơ sở X. Với mọi $x ∈ X$, thớ của nó $(τE)_x$ bằng $τ(E_x)$. Với mọi không gian chuẩn hóa $N_1, N_2$, ký hiệu $Isom(N_1, N_2)$ là tập hợp các đẳng cấu của $N_1$ lên $N_2$. Nếu $g ∈ G$, thì
+Ta lại giả sử các giả thiết và ký hiệu đứng trước Định nghĩa 4 và lấy thêm τ là một hàm tử vectơ lớp C^r đối với các đẳng cấu (*Differentiable and Analytic Manifolds*, R, 7.6.6). Khi đó τE là một bó vectơ có không gian cơ sở X. Với mọi $x ∈ X$, thớ của nó $(\tau E)_x$ bằng $\tau(E_x)$. Với mọi không gian chuẩn hóa $N_1, N_2$, ký hiệu $Isom(N_1, N_2)$ là tập hợp các đẳng cấu của $N_1$ lên $N_2$. Nếu $g ∈ G$, thì
 
 $$
 \tau(\psi_{g, x}) \in \mathrm{Isom}((\tau E)_x, (\tau E)_{gx}).
@@ -555,13 +555,13 @@ Các τ(ψ_{g, x}) xác định một luật tác động trái $(g, u) ↦ gu$ 
 
 *Nếu E là một bó G-vectơ lớp C^r, thì τE là một bó G-vectơ lớp C^r*.
 
-Cho $g_0, x_0, U, M, N$ như trong đoạn sau Định nghĩa 4. Khi đó ánh xạ $(g, x) ↦ τ(ψ_{g,x})$ của U vào $\mathscr{L}(\tau M, \tau N)$ là hợp thành của ánh xạ $(g, x) ↦ ψ_{g,x}$ của U vào $\mathscr{L}(M, N)$ và ánh xạ $f ↦ τ(f)$ của $Isom(M, N)$ vào $Isom(τM, τN)$; hai ánh xạ này đều lớp C^r và do đó hợp thành của chúng cũng vậy, do đó có mệnh đề.
+Cho $g_0, x_0, U, M, N$ như trong đoạn sau Định nghĩa 4. Khi đó ánh xạ $(g, x) ↦ \tau(\psi_{g,x})$ của U vào $\mathscr{L}(\tau M, \tau N)$ là hợp thành của ánh xạ $(g, x) ↦ \psi_{g,x}$ của U vào $\mathscr{L}(M, N)$ và ánh xạ $f ↦ \tau(f)$ của $Isom(M, N)$ vào $Isom(\tau M, \tau N)$; hai ánh xạ này đều lớp C^r và do đó hợp thành của chúng cũng vậy, do đó có mệnh đề.
 
 #### Mệnh đề 16 {#lie-iii-s1-prop-16 .statement}
 
 *Cho G là một nhóm Lie, X là một đa tạp lớp C^r ($r ≥ 2$) và $(g, x) ↦ gx$ là một luật tác động trái lớp C^r của G trên X, do đó, bằng cách chuyển cấu trúc, tồn tại một luật tác động trái của G trên TX. Với luật này, TX là một bó G-vectơ lớp $C^{r-1}$.*
 
-Cho pr_1 (tương ứng pr_2) là phép chiếu chính tắc của $G \times X$ lên G (tương ứng X) và cho E_1 (tương ứng E_2) là ảnh ngược của TG (tương ứng TX) đối với pr_1 (tương ứng pr_2). Khi đó bó vectơ $T(G \times X)$ là tổng trực tiếp của E_1 và E_2. Cho $i: E_2 \to T(G \times X)$ và $q: T(G \times X) \to E_2$ là các cấu xạ bó vectơ chính tắc được xác định bởi phân tích này thành một tổng trực tiếp. Cho φ là ánh xạ $(g, x) ↦ (g, gx)$ của $G \times X$ vào $G \times X$. Khi đó ánh xạ được ký hiệu là ψ trong Định nghĩa 4 (trong đó đặt $E = TX$) chính là $q ∘ T(φ) ∘ i$. Nhưng $T(φ)$ là một φ-cấu xạ của các bó vectơ lớp $C^{r-1}$ (*Differentiable and Analytic Manifolds*, R, 8.1.2).
+Cho pr_1 (tương ứng pr_2) là phép chiếu chính tắc của $G \times X$ lên G (tương ứng X) và cho E_1 (tương ứng E_2) là ảnh ngược của TG (tương ứng TX) đối với pr_1 (tương ứng pr_2). Khi đó bó vectơ $T(G \times X)$ là tổng trực tiếp của E_1 và E_2. Cho $i: E_2 \to T(G \times X)$ và $q: T(G \times X) \to E_2$ là các cấu xạ bó vectơ chính tắc được xác định bởi phân tích này thành một tổng trực tiếp. Cho φ là ánh xạ $(g, x) ↦ (g, gx)$ của $G \times X$ vào $G \times X$. Khi đó ánh xạ được ký hiệu là ψ trong Định nghĩa 4 (trong đó đặt $E = TX$) chính là $q ∘ T(\varphi) ∘ i$. Nhưng $T(\varphi)$ là một φ-cấu xạ của các bó vectơ lớp $C^{r-1}$ (*Differentiable and Analytic Manifolds*, R, 8.1.2).
 
 #### Hệ quả {#lie-iii-s1-n8-cor-1 .statement}
 
@@ -581,9 +581,9 @@ Với các giả thiết và ký hiệu của Mệnh đề 16, cho F là một k
 
 *Cho G là một nhóm Lie, X là một không gian thuần nhất Lie trái của G, $x_0$ là một điểm của X, $G_0$ là nhóm ổn định của $x_0$ trong G, E và E' là các bó G-vectơ trái lớp C^r có không gian cơ sở X, E_0 (tương ứng E'_0) là thớ của E (tương ứng E') tại $x_0$ và f là một phần tử của $\mathscr{L}(E_0, E'_0)$ sao cho $f(gu) = gf(u)$ với mọi $u ∈ E_0$ và $g ∈ G_0$. Khi đó tồn tại duy nhất một cấu xạ của E vào E' tương thích với các phép toán của G và mở rộng f.*
 
-Tính duy nhất của cấu xạ này là hiển nhiên. Ta chứng minh sự tồn tại của nó. Cho g, g' là các phần tử của G và $u ∈ E_0$ sao cho $gu = g'u$. Khi đó ${g'}^{-1}g ∈ G_0$ và ${g'}^{-1}gu = u$ và do đó ${g'}^{-1}gf(u) = f(u)$, nghĩa là $gf(u) = g'f(u)$. Do đó một ánh xạ φ được xác định từ E vào E' bằng cách viết $φ(gu) = gf(u)$. Rõ ràng ánh xạ này mở rộng f và nó tương thích với các phép toán của G. Ta chứng minh rằng φ là một cấu xạ bó vectơ lớp C^r. Cho $x_1 ∈ X$. Tồn tại một lân cận mở V của $x_1$ trong X và một đa tạp con W của G sao cho ánh xạ $g ↦ gx_0$ là một đẳng cấu θ lớp C^r của W lên V. Bằng cách thu nhỏ V và W, có thể giả sử rằng:
+Tính duy nhất của cấu xạ này là hiển nhiên. Ta chứng minh sự tồn tại của nó. Cho g, g' là các phần tử của G và $u ∈ E_0$ sao cho $gu = g'u$. Khi đó ${g'}^{-1}g ∈ G_0$ và ${g'}^{-1}gu = u$ và do đó ${g'}^{-1}gf(u) = f(u)$, nghĩa là $gf(u) = g'f(u)$. Do đó một ánh xạ φ được xác định từ E vào E' bằng cách viết $\varphi(gu) = gf(u)$. Rõ ràng ánh xạ này mở rộng f và nó tương thích với các phép toán của G. Ta chứng minh rằng φ là một cấu xạ bó vectơ lớp C^r. Cho $x_1 ∈ X$. Tồn tại một lân cận mở V của $x_1$ trong X và một đa tạp con W của G sao cho ánh xạ $g ↦ gx_0$ là một đẳng cấu θ lớp C^r của W lên V. Bằng cách thu nhỏ V và W, có thể giả sử rằng:
 (1) $E | V$ (tương ứng $E' | V$) được đồng nhất với một bó vectơ tầm thường có thớ M (tương ứng M');
-(2) nếu ψ_g (tương ứng ψ'_g) ký hiệu ánh xạ $u ↦ gu$ của E_0 (tương ứng E'_0) vào $E_{gx_0}$ (tương ứng $E'_{gx_0}$), thì các ánh xạ $g ↦ ψ_g$ và $g ↦ ψ_g^{-1}$ (tương ứng $g ↦ ψ'_g$ và $g ↦ {ψ'_g}^{-1}$) của W vào 𝓛(E_0, M) và 𝓛(M, E_0) (tương ứng 𝓛(E'_0, M') và 𝓛(M', E'_0)) là lớp C^r.
+(2) nếu ψ_g (tương ứng ψ'_g) ký hiệu ánh xạ $u ↦ gu$ của E_0 (tương ứng E'_0) vào $E_{gx_0}$ (tương ứng $E'_{gx_0}$), thì các ánh xạ $g ↦ \psi_g$ và $g ↦ \psi_g^{-1}$ (tương ứng $g ↦ \psi'_g$ và $g ↦ {\psi'_g}^{-1}$) của W vào 𝓛(E_0, M) và 𝓛(M, E_0) (tương ứng 𝓛(E'_0, M') và 𝓛(M', E'_0)) là lớp C^r.
 
 Với x ∈ V, gọi φ_x : M → N là hạn chế của φ lên E_x = M. Khi đó φ_x thu được bằng cách hợp thành các ánh xạ sau:
 (1) ánh xạ (ψ_θ^{-1,x})^{-1} từ M vào E_0;
@@ -600,7 +600,7 @@ Gọi E_0^{G_0} là tập hợp các phần tử của E_0 bất biến dưới 
 Mệnh đề (ii) là hiển nhiên. Để chứng minh (i), chỉ cần chứng minh rằng mỗi tiết diện σ_u là lớp C^r. Gọi E' là G-bó tầm thường có cơ sở X và sợi E_0^{G_0}. Gọi f là đơn ánh chính tắc của E_0^{G_0} vào E_0. Theo Mệnh đề 17, tồn tại một cấu xạ φ từ E' vào E tương thích với các phép toán của G và mở rộng f. Nếu u ∈ E_0^{G_0} và g ∈ G, thì
 
 $$
-σ_u(gx_0) = gu = gf(u) = φ(gu) = φ((u, gx_0))
+\sigma_u(gx_0) = gu = gf(u) = \varphi(gu) = \varphi((u, gx_0))
 $$
 
 và do đó σ_u(x) = φ((u, x)) với mọi x ∈ X, điều này chứng minh mệnh đề của ta.

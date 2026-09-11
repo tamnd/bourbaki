@@ -28,7 +28,7 @@ subsections:
       pdf_page: 28
 statements: 0
 exercises: 0
-content_sha256: b3bdb0356818aa926e8c912cb6fe2dc9abdf4f1dacd30f3f90802398ac485a17
+content_sha256: 6adff26157a00e963259bdd4e39893d2cf0b0e4c820e38421941c428d9406f8a
 translated_from: content/fr/var/1/03_s3_fonctions_analytiques_reelles_ou.md
 source_lang: fr
 translation_method: machine
@@ -244,38 +244,38 @@ When $E$ is finite-dimensional (resp. when $F$ is a Banach space), these conditi
 (W) Every point of $U$ possesses a neighbourhood in which the sequence $(f_n)$ converges uniformly.
 Then the limit $f$ of the sequence $(f_n)$ is holomorphic, the sequence of derivatives $(Df_n)$ (with values in the quasi-complete space $\mathscr{L}(E; F)$) possesses property (W), and $Df$ is the limit of $(Df_n)$.
 
-3.3.3. Let U be an open set of E and f a holomorphic mapping of U into F, assumed quasi-complete. Let $R = (R_i) \in (\mathbf{R}_+^*)^n$ and suppose that the polyball B(R) is contained in U and that f is bounded on B(R). Then, for every $α \in \mathbf{N}^n$ and every $x = (x_i) \in B(R)$:
+3.3.3. Let U be an open set of E and f a holomorphic mapping of U into F, assumed quasi-complete. Let $R = (R_i) \in (\mathbf{R}_+^*)^n$ and suppose that the polyball B(R) is contained in U and that f is bounded on B(R). Then, for every $\alpha \in \mathbf{N}^n$ and every $x = (x_i) \in B(R)$:
 
 $$
-Δ^αf(0)(x) = \int_0^1 \cdots \int_0^1 f(e(\theta_1)x_1, \ldots, e(\theta_n)x_n)e(-α_1θ_1 - \cdots - α_nθ_n)\ dθ_1 \ldots dθ_n
+\Delta^\alpha f(0)(x) = \int_0^1 \cdots \int_0^1 f(e(\theta_1)x_1, \ldots, e(\theta_n)x_n)e(-\alpha_1\theta_1 - \cdots - \alpha_n\theta_n)\ d\theta_1 \ldots d\theta_n
 $$
 
-(where $e(θ) = \exp 2πi θ$).
+(where $e(\theta) = \exp 2\pi i \theta$).
 
-Let moreover $γ$ be a continuous semi-norm on F and let M be the upper bound of $\|f(x)\|_γ$ for $\|x_i\| = R_i$. Then $\|Δ^αf(0)(x)\|_γ \leq M$ for every $x \in B(R)$ and $\|Δ^αf(0)\|_γ \leq MR^{-α}$. Finally, the domain of convergence of the series expansion of f at 0 contains the interior of the polyball B(R).
+Let moreover $\gamma$ be a continuous semi-norm on F and let M be the upper bound of $\|f(x)\|_\gamma$ for $\|x_i\| = R_i$. Then $\|\Delta^\alpha f(0)(x)\|_\gamma \leq M$ for every $x \in B(R)$ and $\|\Delta^\alpha f(0)\|_\gamma \leq MR^{-\alpha}$. Finally, the domain of convergence of the series expansion of f at 0 contains the interior of the polyball B(R).
 
-3.3.4. Let us retain the hypotheses of 3.3.3 and suppose moreover that $E_i = \mathbf{C}$. Let $\sum_{α} X^αc_α$ be the series expansion of f at 0. We have:
+3.3.4. Let us retain the hypotheses of 3.3.3 and suppose moreover that $E_i = \mathbf{C}$. Let $\sum_{\alpha} X^\alpha c_\alpha$ be the series expansion of f at 0. We have:
 
 $$
-c_α = R^{-α}\int_0^1 \cdots \int_0^1 f(e(\theta_1)R_1, \ldots, e(\theta_n)R_n)e(-α_1θ_1 - \cdots - α_nθ_n)\ dθ_1 \ldots dθ_n
+c_\alpha = R^{-\alpha}\int_0^1 \cdots \int_0^1 f(e(\theta_1)R_1, \ldots, e(\theta_n)R_n)e(-\alpha_1\theta_1 - \cdots - \alpha_n\theta_n)\ d\theta_1 \ldots d\theta_n
 $$
 
 and:
 
 $$
-\|c_α\|_γ \leq R^{-α} \sup_{x \in B(R)} \|f(x)\|_γ
+\|c_\alpha\|_\gamma \leq R^{-\alpha} \sup_{x \in B(R)} \|f(x)\|_\gamma
 $$
 
-(“Cauchy inequalities”). The strict domain of convergence of the series $\sum_{α} X^αc_α$ contains the interior of B(R).
+(“Cauchy inequalities”). The strict domain of convergence of the series $\sum_{\alpha} X^\alpha c_\alpha$ contains the interior of B(R).
 
 3.3.5. Suppose E finite-dimensional and F quasi-complete. Let f be a holomorphic mapping of E into F. Then there exists in $\mathscr{H}(E; F)$ one and only one series $f_0$, of infinite radius of convergence (for every norm on E), such that $f(x) = f_0(x)$ for every $x \in E$.
 
 3.3.6. If f is a holomorphic mapping of E into F such that $f(E)$ is bounded, then the function f is constant (“Liouville's theorem”).
 
-3.3.7. We suppose that $E \neq 0$. Let f be a holomorphic mapping of an open set U of E into F. Let a be a point of U and $γ$ a continuous semi-norm on F. For every neighbourhood V of a, contained in U, there exists $x \in V, x \neq a$, such that:
+3.3.7. We suppose that $E \neq 0$. Let f be a holomorphic mapping of an open set U of E into F. Let a be a point of U and $\gamma$ a continuous semi-norm on F. For every neighbourhood V of a, contained in U, there exists $x \in V, x \neq a$, such that:
 
 $$
-\|f(a)\|_γ \leq \|f(x)\|_γ.
+\|f(a)\|_\gamma \leq \|f(x)\|_\gamma.
 $$
 
 If moreover $F = \mathbf{C}$ and if f is not constant in a neighbourhood of a, we have $|f(a)| < \sup_{x \in V, x \neq a} |f(x)|$ and the mapping f is open in a neighbourhood of a.

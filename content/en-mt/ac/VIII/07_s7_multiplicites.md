@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: 0ebb1895c7e28c518fbf35c9fa2da634a6f48b944edc7bcba45e801c99d1ee9c
+content_sha256: a4f19abfb365942a67e63df33787687df3764b32820c7d76162d6297eaee07e6
 translated_from: content/fr/ac/VIII/07_s7_multiplicites.md
 source_lang: fr
 translation_method: machine
@@ -128,7 +128,7 @@ b) Suppose A integral and let M be a finitely generated A-module such that $\dim
 *Let ρ : A → B be a local homomorphism of local noetherian rings, and let N be a finitely generated B-module, flat over A, and such that N ⊗_A κ_A is a B-module of finite length. If M is a nonzero finitely generated A-module and q an ideal of A distinct from A and such that M/qM is of finite length, then (M ⊗_A N)/(qB)(M ⊗_A N) is a B-module of finite length, and one has*
 
 $$
-e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A κ_A).e_q^A(M).
+e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A \kappa_A).e_q^A(M).
 $$
 
 Let L be an A-module of finite length r. Then L possesses a Jordan-Hölder sequence of length r, with quotients isomorphic to κ_A; since N is flat over A, the B-module L ⊗_A N possesses a composition sequence of length r, with quotients isomorphic to N ⊗_A κ_A, hence is of length r · long_B(N ⊗_A κ_A). Since the B-module (M ⊗_A N)/(qB)^n(M ⊗_A N) is isomorphic to (M/q^nM) ⊗_A N for every $n \in \mathbf{N}$, the proposition follows from the definition of multiplicities.

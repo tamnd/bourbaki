@@ -33,7 +33,7 @@ subsections:
       pdf_page: 81
 statements: 28
 exercises: 25
-content_sha256: 7cb98368e6bbd3a0999f4f68c2fd6ad6300332c65609ffb4e255509b333c75bb
+content_sha256: e40e4cdc3e7db5a1a012bfa25561111d6b5daa9c6d96b77989b167b50c5adfcc
 translated_from: content/en-mt/ac/VIII/07_s7_multiplicites.md
 source_lang: en-mt
 translation_method: machine
@@ -128,7 +128,7 @@ b) Giả sử A nguyên và cho M là một A-môđun hữu hạn sinh sao cho $
 *Cho ρ : A → B là một đồng cấu địa phương của các vành địa phương Noether, và cho N là một B-môđun hữu hạn sinh, phẳng trên A, và sao cho N ⊗_A κ_A là một B-môđun có độ dài hữu hạn. Nếu M là một A-môđun hữu hạn sinh khác không và q là một iđêan của A khác A và sao cho M/qM có độ dài hữu hạn, thì (M ⊗_A N)/(qB)(M ⊗_A N) là một B-môđun có độ dài hữu hạn, và ta có*
 
 $$
-e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A κ_A).e_q^A(M).
+e_{q_B}^B(M ⊗_A N) = \operatorname{long}_B(N ⊗_A \kappa_A).e_q^A(M).
 $$
 
 Cho L là một A-môđun có độ dài hữu hạn r. Khi đó L có một dãy Jordan-Hölder độ dài r, với các thương đẳng cấu với κ_A; vì N phẳng trên A, B-môđun L ⊗_A N có một dãy hợp thành độ dài r, với các thương đẳng cấu với N ⊗_A κ_A, do đó có độ dài $r \cdot \operatorname{long}_B(N \otimes_A \kappa_A)$. Vì B-môđun (M ⊗_A N)/(qB)^n(M ⊗_A N) đẳng cấu với (M/q^nM) ⊗_A N với mọi $n \in \mathbf{N}$, mệnh đề suy ra từ định nghĩa các bội số.

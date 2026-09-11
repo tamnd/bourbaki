@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: bf30fd7e5d9843a3b71a60defffeabec82e0c1f5a57a64241781ca3478b69d28
+content_sha256: ff03424e5307e39939db86ebc30eb86de8028ae2a89ce3468b6b635fb03df1a0
 translated_from: content/fr/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: fr
 translation_method: machine
@@ -384,13 +384,13 @@ Let Φ be a bilinear form on E × F (F denoting a right A-module). The linear ma
 By definition therefore
 
 $$
-\Phi(x, y) = \langle x, d_{Φ}(y) \rangle = \langle y, s_{Φ}(x) \rangle.
+\Phi(x, y) = \langle x, d_{\Phi}(y) \rangle = \langle y, s_{\Phi}(x) \rangle.
 $$
 
 We shall now define the linear mappings associated with a sesquilinear form. Let J be an antiautomorphism of A and Φ a sesquilinear form (on the right) for J on E × F (F denoting a left A-module); put J′ = J^{-1}. The mapping Φ′ from F × E into A defined by
 
 $$
-Φ′(y, x) = Φ(x, y)^{J′} \quad (x ∈ E, y ∈ F)
+\Phi′(y, x) = \Phi(x, y)^{J′} \quad (x ∈ E, y ∈ F)
 $$
 
 is, as one easily sees, a sesquilinear form (on the right) for J′ on F × E. According to No. 2 (Def. 5) the sesquilinear forms Φ and Φ′ are identified respectively with bilinear forms on E × F^{J′} and on F × E^{J′}. The mappings d_{Φ} and d_{Φ′} associated with the latter are called the right and left associated mappings to the sesquilinear form $\Phi$, and are denoted by $d_\Phi$ and $s_\Phi$. We therefore have, by definition:

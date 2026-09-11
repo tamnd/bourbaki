@@ -28,7 +28,7 @@ subsections:
       pdf_page: 52
 statements: 7
 exercises: 0
-content_sha256: 012ea469a6d8f4f84c653796b72dd8df91b730b4b540f119fb910b73c96d885c
+content_sha256: 980b7df83420d2d1ee1769dbefbebd683a8dee8d0e805b08b5ff0431c7ab5204
 translated_from: content/en-mt/alg/IX/03_s3_formes_hermitiennes_et_formes.md
 source_lang: en-mt
 translation_method: machine
@@ -368,11 +368,11 @@ d) Mở rộng các kết quả trước cho trường hợp mà (A là một v�
 
 10) a) Cho A là một vành giao hoán, E là một A-môđun có một cơ sở gồm 3 phần tử, Φ là một dạng song tuyến tính đối xứng trên E. Với ký hiệu của Bài tập 9, với hai phần tử tùy ý x, y của E, đặt $x \overline{\wedge} y = d_{(2)}(x \wedge y)$, và gọi phần tử này là tích vectơ của x và y (đối với $\Phi$ và đối với cơ sở e của $\bigwedge^3 E$). Chứng minh rằng $(x, y) \to x \overline{\wedge} y$ là một ánh xạ song tuyến tính phản xứng từ $E \times E$ vào E, và rằng $x \overline{\wedge} y$ trực giao với x và với y.
 
-b) Cho α, β là hai phần tử khả nghịch của A, B là đại số quaternion trên A tương ứng với cặp ($α, β$) (Chương II, § 7, No. 8), 1, u, v, ω là cơ sở chính tắc của B trên A; gọi E là môđun con của B có u, v, ω làm cơ sở. Chứng minh rằng nếu x, y là hai quaternion thuộc E thì có
+b) Cho α, β là hai phần tử khả nghịch của A, B là đại số quaternion trên A tương ứng với cặp ($\alpha, \beta$) (Chương II, § 7, No. 8), 1, u, v, ω là cơ sở chính tắc của B trên A; gọi E là môđun con của B có u, v, ω làm cơ sở. Chứng minh rằng nếu x, y là hai quaternion thuộc E thì có
 $$
 xy = \Phi(x, y) + x \overline{\wedge} y
 $$
-trong đó Φ là một dạng song tuyến tính đối xứng trên E sao cho các ánh xạ tuyến tính liên kết với Φ là song ánh, và $x \overline{\wedge} y$ là tích vectơ của x và y đối với dạng Φ và đối với cơ sở $α^{-1}β^{-1}u \wedge v \wedge \omega$ của $\bigwedge^3 E$.
+trong đó Φ là một dạng song tuyến tính đối xứng trên E sao cho các ánh xạ tuyến tính liên kết với Φ là song ánh, và $x \overline{\wedge} y$ là tích vectơ của x và y đối với dạng Φ và đối với cơ sở $\alpha^{-1}\beta^{-1}u \wedge v \wedge \omega$ của $\bigwedge^3 E$.
 
 11) Cho Φ là một dạng nửa song tuyến tính ε-Hermit không suy biến trên một không gian vectơ hữu hạn chiều E. Một không gian con vectơ M của E được gọi là trực giao yếu với một không gian con vectơ N (đối với Φ) nếu một trong hai không gian con M, N° chứa không gian kia.
 

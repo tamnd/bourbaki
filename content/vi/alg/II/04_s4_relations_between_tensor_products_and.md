@@ -29,7 +29,7 @@ subsections:
       pdf_page: 298
 statements: 15
 exercises: 9
-content_sha256: 46b192dd846be0f7a58c24f20b59e371115a4b7806fb3f80b757ab00d2c01f0b
+content_sha256: 5f56717bf21a4053d09c06bc726fd982043506223e03fa8c314de40e8e9ca2fb
 translated_from: content/en/alg/II/04_s4_relations_between_tensor_products_and.md
 source_content_sha256: 27990209087c39671cad33c6a9b2bf6a92a19d13735d50ad71c6137ca459dfb8
 translation_model: gpt-5-6-mini, gpt-5.4-mini
@@ -464,7 +464,7 @@ $$
 \langle x₁, x₁^* \rangle \langle x₂, x₂^* \rangle (y₁ \otimes y₂) = \langle x₁ \otimes x₂, x₁^* \otimes x₂^* \rangle (y₁ \otimes y₂)
 $$
 
-$x₁^* \otimes x₂^*$ được đồng nhất một cách chính tắc dưới $μ$ với một phần tử của $(E₁ \otimes E₂)^*$. Vì $\langle y₁ \otimes y₂, x₁^* \otimes x₂^* \rangle = \langle y₁, x₁^* \rangle \langle y₂, x₂^* \rangle$, nên công thức (26) suy ra trong trường hợp này từ (17).
+$x₁^* \otimes x₂^*$ được đồng nhất một cách chính tắc dưới $\mu$ với một phần tử của $(E₁ \otimes E₂)^*$. Vì $\langle y₁ \otimes y₂, x₁^* \otimes x₂^* \rangle = \langle y₁, x₁^* \rangle \langle y₂, x₂^* \rangle$, nên công thức (26) suy ra trong trường hợp này từ (17).
 
 #### Nhận xét {#alg-ii-s4-n4-rem-1 .statement}
 

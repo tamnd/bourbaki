@@ -45,7 +45,7 @@ subsections:
       pdf_page: 117
 statements: 30
 exercises: 18
-content_sha256: 3ed9447f2ce6951e07cc25d42a19253c98384d756f11ba6d9d9697d2f7b8caca
+content_sha256: 7f5346b50eced8825279c270f4750107ca40eb7ecad46ffee95f55ed881e142c
 translated_from: content/en-mt/alg/X/06_s6_utilisation_de_resolutions_non.md
 source_lang: en-mt
 translation_method: machine
@@ -416,10 +416,10 @@ $$
 Theo X, p. 67, mệnh đề 4, H(1 ⊗ a'') và H(1 ⊗ a') là song ánh; mặt khác, theo định nghĩa của các đồng cấu ψ, ta có H(β ⊗ 1) ◦ ψ(L(P), R'') = ψ(S, R'') và H(1 ⊗ a'') ◦ ψ(L(P), R'') = ψ(L(P), M'') = ψ_p(M''), do đó
 
 $$
-ψ(S, R'') = H(β ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ ψ_p(M'');
+\psi(S, R'') = H(\beta ⊗ 1) ◦ H(1 ⊗ a'')^{-1} ◦ \psi_p(M'');
 $$
 
-tương tự, $ψ(S, R') = H(β ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ ψ_p(M')$, và mệnh đề cần chứng minh $\partial((3)) ◦ ψ(S, R'') = ψ(S, R') ◦ \partial(P, (2))$ suy ra từ tính giao hoán của biểu đồ trên.
+tương tự, $\psi(S, R') = H(\beta ⊗ 1) ◦ H(1 ⊗ a')^{-1} ◦ \psi_p(M')$, và mệnh đề cần chứng minh $\partial((3)) ◦ \psi(S, R'') = \psi(S, R') ◦ \partial(P, (2))$ suy ra từ tính giao hoán của biểu đồ trên.
 
 #### Nhận xét 1 {#alg-x-s6-n3-rem-1 .statement}
 
@@ -427,18 +427,18 @@ Dùng các đẳng cấu giao hoán, suy ra từ a) mệnh đề tương tự th
 
 #### Nhận xét 2 {#alg-x-s6-n3-rem-2 .statement}
 
-Với các ký hiệu của a), giả sử hoặc S là phẳng, hoặc R, R', R'' là phẳng; khi đó một mặt dãy (3) là khớp (X, p. 72, hệ quả 2) và có thể áp dụng mệnh đề 3; mặt khác $ψ(S, R')$ là song ánh (định lý 1), do đó
+Với các ký hiệu của a), giả sử hoặc S là phẳng, hoặc R, R', R'' là phẳng; khi đó một mặt dãy (3) là khớp (X, p. 72, hệ quả 2) và có thể áp dụng mệnh đề 3; mặt khác $\psi(S, R')$ là song ánh (định lý 1), do đó
 
 $$
-\partial(P, (2)) = ψ(S, R')^{-1} ◦ \partial((3)) ◦ ψ(S, R'').
+\partial(P, (2)) = \psi(S, R')^{-1} ◦ \partial((3)) ◦ \psi(S, R'').
 $$
 
 #### Nhận xét 3 {#alg-x-s6-n3-rem-3 .statement}
 
-Với các ký hiệu của b), giả sử hoặc E là đơn ánh, hoặc R, R', R'' là xạ ảnh; khi đó một mặt dãy (4) là khớp (X, p. 83, mệnh đề 2) và có thể áp dụng mệnh đề 3; mặt khác, $φ(R', E)$ là song ánh (định lý 1) ; do đó
+Với các ký hiệu của b), giả sử hoặc E là đơn ánh, hoặc R, R', R'' là xạ ảnh; khi đó một mặt dãy (4) là khớp (X, p. 83, mệnh đề 2) và có thể áp dụng mệnh đề 3; mặt khác, $\varphi(R', E)$ là song ánh (định lý 1) ; do đó
 
 $$
-δ((2), N) = φ(R'', E) ◦ \partial((4)) ◦ φ(R', E)^{-1}.
+\delta((2), N) = \varphi(R'', E) ◦ \partial((4)) ◦ \varphi(R', E)^{-1}.
 $$
 
 Bây giờ xét một biểu đồ giao hoán

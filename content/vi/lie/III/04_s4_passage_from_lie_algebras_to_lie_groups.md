@@ -40,7 +40,7 @@ subsections:
       pdf_page: 312
 statements: 40
 exercises: 8
-content_sha256: 020e1ae0f121e08bf1087e51ffd5df5ab40e43d6d436aadfe04807e84f2d1d37
+content_sha256: 6411d7b646438ee7b4d04885ef500d06e1edbac804da49b82653775db653898d
 translated_from: content/en/lie/III/04_s4_passage_from_lie_algebras_to_lie_groups.md
 source_content_sha256: dc59481a501f40d45c0742b137c5851b6eca2830d1e1723f2728e33fa3a87a07
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6, gpt-5-mini
@@ -219,7 +219,7 @@ với mọi x, y trong L và một mầm nhóm con mở W ⊂ V của mầm nhó
 (v) ⇒ (i): hiển nhiên, vì (λb).(λ'b) = (λ + λ')b trong W với |λ| và |λ'| đủ nhỏ.
 (i) ⇒ (ii): giả sử rằng điều kiện (i) được thỏa mãn. Cho b ∈ L. Gọi ψ là hạn chế của φ vào V ∩ Kb. Theo giả thiết, tồn tại một lân cận đối xứng T của 0 trong nhóm Lie cộng tính Kb sao cho ψ|T là một cấu xạ của mầm nhóm Lie T vào G. Do đó
 $$
-φ_*(b^n) = (ψ|T)_*(b^n) = ((ψ|T)_*(b))^n = (φ_*(b))^n,
+\varphi_*(b^n) = (\psi|T)_*(b^n) = ((\psi|T)_*(b))^n = (\varphi_*(b))^n,
 $$
 suy ra φ_*(b^n) là thuần nhất bậc n trong U(G).
 (ii) ⇒ (iii): điều này suy ra từ sự kiện rằng TS^n(L) là không gian con vectơ của TS(L) sinh bởi các lũy thừa bậc n của các phần tử của L (Đại số, Chương IV, § 5, Mệnh đề 5).

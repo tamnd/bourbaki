@@ -52,7 +52,7 @@ subsections:
       pdf_page: 30
 statements: 45
 exercises: 0
-content_sha256: 4626913eaf0e066f636864c9bdb27de10fdfb3852cdd545aa17b0f59e2125475
+content_sha256: b1ee3826972fa9a76e0a9f2b8230dd4c5fe08e1a2b5753fe00b8ef9828bbce5a
 translated_from: content/en-mt/alg/IX/01_s1_formes_sesquilineaires.md
 source_lang: en-mt
 translation_method: machine
@@ -379,21 +379,21 @@ Khi E = F (điều này kéo theo rằng nó là một dạng sesquilinear), ng�
 
 Cho hai A-môđun trái E và E′, và hai dạng sesquilinear $\Phi$ và $\Phi′$ đối với J trên E và E′ tương ứng, ta nói rằng $\Phi$ và $\Phi′$ là tương đương nếu tồn tại một đẳng cấu u của A-môđun E lên A-môđun E′ sao cho $\Phi′(u(x), u(y)) = \Phi(x, y)$ với mọi $x, y$ trong E; khi đó $\Phi$ là ảnh ngược của $\Phi′$ đối với u và u, và $\Phi′$ là ảnh ngược của $\Phi$ đối với $u^{-1}$ và $u^{-1}$ (No. 2).
 
-Cho $\Phi$ là một dạng song tuyến tính trên E × F (F là một A-môđun phải). Các ánh xạ tuyến tính $s_{Φ}$ và $d_{Φ}$ liên kết với $\Phi$ (No. 1, Định nghĩa 2) khi đó là các ánh xạ từ E vào đối ngẫu F* của F, và từ F vào đối ngẫu E* của E.
+Cho $\Phi$ là một dạng song tuyến tính trên E × F (F là một A-môđun phải). Các ánh xạ tuyến tính $s_{\Phi}$ và $d_{\Phi}$ liên kết với $\Phi$ (No. 1, Định nghĩa 2) khi đó là các ánh xạ từ E vào đối ngẫu F* của F, và từ F vào đối ngẫu E* của E.
 
 Theo định nghĩa do đó
 
 $$
-\Phi(x, y) = \langle x, d_{Φ}(y) \rangle = \langle y, s_{Φ}(x) \rangle.
+\Phi(x, y) = \langle x, d_{\Phi}(y) \rangle = \langle y, s_{\Phi}(x) \rangle.
 $$
 
 Bây giờ ta sẽ định nghĩa các ánh xạ tuyến tính liên kết với một dạng sesquilinear. Cho J là một tự phản đẳng cấu của A và $\Phi$ là một dạng sesquilinear (bên phải) đối với J trên E × F (F là một A-môđun trái); đặt J′ = J^{-1}. Ánh xạ $\Phi′$ từ F × E vào A được định nghĩa bởi
 
 $$
-Φ′(y, x) = Φ(x, y)^{J′} \quad (x ∈ E, y ∈ F)
+\Phi′(y, x) = \Phi(x, y)^{J′} \quad (x ∈ E, y ∈ F)
 $$
 
-là, như ta dễ dàng thấy, một dạng sesquilinear (bên phải) đối với J′ trên F × E. Theo No. 2 (Định nghĩa 5) các dạng sesquilinear $\Phi$ và $\Phi′$ lần lượt được đồng nhất với các dạng song tuyến tính trên E × F^{J′} và trên F × E^{J′}. Các ánh xạ $d_{Φ}$ và $d_{Φ′}$ liên kết với các dạng sau được gọi là các ánh xạ liên kết phải và trái với dạng sesquilinear $\Phi$, và được ký hiệu bởi $d_\Phi$ và $s_\Phi$. Do đó ta có, theo định nghĩa:
+là, như ta dễ dàng thấy, một dạng sesquilinear (bên phải) đối với J′ trên F × E. Theo No. 2 (Định nghĩa 5) các dạng sesquilinear $\Phi$ và $\Phi′$ lần lượt được đồng nhất với các dạng song tuyến tính trên E × F^{J′} và trên F × E^{J′}. Các ánh xạ $d_{\Phi}$ và $d_{\Phi′}$ liên kết với các dạng sau được gọi là các ánh xạ liên kết phải và trái với dạng sesquilinear $\Phi$, và được ký hiệu bởi $d_\Phi$ và $s_\Phi$. Do đó ta có, theo định nghĩa:
 
 $$
 (24)\quad \Phi(x, y) = \langle x, d_\Phi(y) \rangle = \langle y, s_\Phi(x) \rangle^J \qquad (x \in E,\ y \in F).

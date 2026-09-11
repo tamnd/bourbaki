@@ -85,7 +85,7 @@ subsections:
       pdf_page: 294
 statements: 111
 exercises: 9
-content_sha256: 2ecd476b26e264c6ca11ee54a227fbfc2aa6307e70a16b6a5357080fed561c59
+content_sha256: a2e8ffa895608548ad93fbb074532696638f5284e8ec8db160fcda4a3d6f4735
 translated_from: content/en/lie/III/03_s3_passage_from_a_lie_group_to_its_lie.md
 source_content_sha256: adf4fba04d45cc2376a26e20f76cca0077b71e682209d0389d1b246d0e3482df
 translation_model: gpt-5.4, gpt-5-6-mini, gpt-5-6, gpt-5-mini, gpt-5.4-mini
@@ -858,7 +858,7 @@ Ta áp dụng Mệnh đề 29 cho đơn ánh chính tắc của G₁ vào G và 
 
 Cho G, G', H là các nhóm Lie và φ : G → H và φ' : G' → H là các cấu xạ nhóm Lie. Giả sử rằng K có đặc số 0 và H là hữu hạn chiều. Cho F là tập hợp các $(g, g') \in G \times G'$ sao cho φ(g) = φ'(g'). Khi đó F là một nhóm Lie con của G × G' và L(F) là tập hợp các $(x, x') \in L(G) \times L(G')$ sao cho L(φ)x = L(φ')x'.
 
-Ta áp dụng Hệ quả 1 cho các cấu xạ $(g, g') \mapsto φ(g)$ và $(g, g') \mapsto φ'(g')$ từ G × G' vào H.
+Ta áp dụng Hệ quả 1 cho các cấu xạ $(g, g') \mapsto \varphi(g)$ và $(g, g') \mapsto \varphi'(g')$ từ G × G' vào H.
 
 #### Mệnh đề 30 {#lie-iii-s3-prop-30 .statement}
 

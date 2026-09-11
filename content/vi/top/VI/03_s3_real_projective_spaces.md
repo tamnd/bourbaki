@@ -36,7 +36,7 @@ subsections:
       pdf_page: 59
 statements: 14
 exercises: 10
-content_sha256: 656189c16214e390bfd09e13edd85b6710206e41ece139d6952506c056090313
+content_sha256: 941fb554e0ec08529003e12a15f3ddefab38d5c7f7a93b48f3e0c721436a916e
 translated_from: content/en/top/VI/03_s3_real_projective_spaces.md
 source_content_sha256: 53d9a6c6d16fec228a219b9d179e95bab1a2ba49b45ee6d650a09b758196d514
 translation_model: gpt-5-6-mini, gpt-5.4-mini, gpt-5-6
@@ -217,9 +217,9 @@ Với mọi dãy chỉ số (tăng ngặt) $\sigma$, tập $A_\sigma$ là mở t
 
 C_σ trong P_{n,p} do đó là một tập mở đồng phôi với thương của A_σ theo quan hệ tương đương Θ_σ cảm sinh trên A_σ bởi Δ_{n,p} (Bổ đề 1).
 
-Cho $B_σ$ là tập con của $A_σ$ gồm các ma trận $X$ sao cho $X_σ$ là ma trận đơn vị cấp $p + 1$; các phần tử của $X$ khác với những phần tử của $X_σ$ khi đó là tùy ý, và do đó $B_σ$ đồng phôi với không gian $\mathbf{R}^{(p+1)(n-p)}$. Ứng với mỗi ma trận $X \in A_σ$, ta cho ma trận $Y = X_σ^{-1}X$, thuộc $B_σ$; khi đó ta đã xác định một ánh xạ liên tục $g$ của $A_σ$ lên $B_σ$, sao cho $g(X)$ là ma trận duy nhất của $B_σ$ đồng dư với X mod Θ_σ. Suy ra rằng $B_σ$ đồng phôi với $A_σ/\Theta_σ$ (Bổ đề 2), nên cũng đồng phôi với $C_σ$.
+Cho $B_\sigma$ là tập con của $A_\sigma$ gồm các ma trận $X$ sao cho $X_\sigma$ là ma trận đơn vị cấp $p + 1$; các phần tử của $X$ khác với những phần tử của $X_\sigma$ khi đó là tùy ý, và do đó $B_\sigma$ đồng phôi với không gian $\mathbf{R}^{(p+1)(n-p)}$. Ứng với mỗi ma trận $X \in A_\sigma$, ta cho ma trận $Y = X_\sigma^{-1}X$, thuộc $B_\sigma$; khi đó ta đã xác định một ánh xạ liên tục $g$ của $A_\sigma$ lên $B_\sigma$, sao cho $g(X)$ là ma trận duy nhất của $B_\sigma$ đồng dư với X mod Θ_σ. Suy ra rằng $B_\sigma$ đồng phôi với $A_\sigma/\Theta_\sigma$ (Bổ đề 2), nên cũng đồng phôi với $C_\sigma$.
 
-Do đó tập $C_σ$ liên thông. Vì $A_σ$ trù mật trong $L_{n+1,p+1}$, nên $C_σ$ trù mật trong $P_{n,p}$ và do đó $P_{n,p}$ cũng liên thông (Chương I, § 11, no. 1, Mệnh đề 1). Mặt khác, mỗi điểm của $P_{n,p}$ thuộc về $C_σ$ đối với ít nhất một dãy chỉ số $\sigma$, và do đó có một lân cận mở đồng phôi với $\mathbf{R}^{(p+1)(n-p)}$.
+Do đó tập $C_\sigma$ liên thông. Vì $A_\sigma$ trù mật trong $L_{n+1,p+1}$, nên $C_\sigma$ trù mật trong $P_{n,p}$ và do đó $P_{n,p}$ cũng liên thông (Chương I, § 11, no. 1, Mệnh đề 1). Mặt khác, mỗi điểm của $P_{n,p}$ thuộc về $C_\sigma$ đối với ít nhất một dãy chỉ số $\sigma$, và do đó có một lân cận mở đồng phôi với $\mathbf{R}^{(p+1)(n-p)}$.
 
 Ma trận $Y = g(X)$ có thể được hiểu như sau: để đơn giản, ta giả sử rằng dãy $\sigma$ gồm $p + 1$ chỉ số $n - p$, $n - p + 1$, ..., $n$, và cho $a_{ij}$ (1 ≤ i ≤ p + 1, 0 ≤ j ≤ n − p − 1) ký hiệu các phần tử của $n - p$ cột đầu của y; khi đó không gian con vectơ của $\mathbf{R}^{n+1}$ được sinh bởi các hàng của x là không gian được xác định bởi các phương trình
 
@@ -229,13 +229,13 @@ $$
 
 ### 6. GRASSMANNIANS
 
-Nếu $K$ là một trường và $X$ là một ma trận bất kỳ của $L_{n+1,p+1}(K)$, hãy ký hiệu $c_σ(X)$ là định thức của $X_σ$; theo cách đó, ứng với mỗi ma trận $X$ của $L_{n+1,p+1}(K)$ ta có
+Nếu $K$ là một trường và $X$ là một ma trận bất kỳ của $L_{n+1,p+1}(K)$, hãy ký hiệu $c_\sigma(X)$ là định thức của $X_\sigma$; theo cách đó, ứng với mỗi ma trận $X$ của $L_{n+1,p+1}(K)$ ta có
 
 $$
 h = \binom{n+1}{p+1}
 $$
 
-định thức, không phải tất cả đều bằng không (các thành phần của tích ngoài của $p + 1$ hàng của $X$). Nếu ta cho ứng với $X$ là điểm của không gian xạ ảnh $P_{n-1}(K)$ có các tọa độ thuần nhất là các $c_σ(X,)$, ta đã xác định một ánh xạ của $L_{n+1,p+1}(K)$ vào $P_{n-1}(K)$, tương thích với quan hệ $\Delta_{n,p}(K)$; đi qua thương, do đó ta có một ánh xạ $f$ của $P_{n,p}(K)$ vào $P_{n-1}(K)$. Ảnh $G_{n,p}(K)$ của $P_{n,p}(K)$ qua ánh xạ này được gọi là Grassmannian của các chỉ số n, p. Ta cũng nhắc lại rằng ánh xạ $f$ là đơn ánh, vì nếu $X$ là một ma trận sao cho $X_σ$ không suy biến, thì ma trận $Y = X_σ^{-1}X$ thuộc $B_σ$ ứng với lớp của $X$ mod. $\Delta_{n,p}(K)$ là ma trận $(d_{ij}/c_σ(X))$ (1 ≤ i ≤ p + 1, 0 ≤ j ≤ n), trong đó $d_{ij}$ ký hiệu định thức của ma trận thu được từ $X_{\sigma}$ bằng cách thay thế cột thứ $i$ của $X_{\sigma}$ bằng cột thứ $j$ của $X$ [điều này suy ra rằng $d_{ij}$, tới dấu, bằng một trong các $c_{\tau}(X)$].
+định thức, không phải tất cả đều bằng không (các thành phần của tích ngoài của $p + 1$ hàng của $X$). Nếu ta cho ứng với $X$ là điểm của không gian xạ ảnh $P_{n-1}(K)$ có các tọa độ thuần nhất là các $c_\sigma(X,)$, ta đã xác định một ánh xạ của $L_{n+1,p+1}(K)$ vào $P_{n-1}(K)$, tương thích với quan hệ $\Delta_{n,p}(K)$; đi qua thương, do đó ta có một ánh xạ $f$ của $P_{n,p}(K)$ vào $P_{n-1}(K)$. Ảnh $G_{n,p}(K)$ của $P_{n,p}(K)$ qua ánh xạ này được gọi là Grassmannian của các chỉ số n, p. Ta cũng nhắc lại rằng ánh xạ $f$ là đơn ánh, vì nếu $X$ là một ma trận sao cho $X_\sigma$ không suy biến, thì ma trận $Y = X_\sigma^{-1}X$ thuộc $B_\sigma$ ứng với lớp của $X$ mod. $\Delta_{n,p}(K)$ là ma trận $(d_{ij}/c_\sigma(X))$ (1 ≤ i ≤ p + 1, 0 ≤ j ≤ n), trong đó $d_{ij}$ ký hiệu định thức của ma trận thu được từ $X_{\sigma}$ bằng cách thay thế cột thứ $i$ của $X_{\sigma}$ bằng cột thứ $j$ của $X$ [điều này suy ra rằng $d_{ij}$, tới dấu, bằng một trong các $c_{\tau}(X)$].
 
 Khi $K$ là trường $\mathbf{R}$, ánh xạ $f$ này hiển nhiên là *liên tục*. Ánh xạ nghịch đảo $g$ cũng liên tục; vì các phần tử của một ma trận thuộc $B_{\sigma}$ là các hàm hữu tỉ của các tọa độ thuần nhất của điểm của Grassmannian mà nó tương ứng với; vì $f(B_{\sigma}) = B'_{\sigma}$ là tập các điểm của $G_{n,p}$ có tọa độ thuần nhất với chỉ số $\sigma$ khác 0, nên đó là một tập mở trong $G_{n,p}$; do đó $g$ liên tục tại mọi điểm của $B'_{\sigma}$, và vì mọi điểm của $G_{n,p}$ thuộc về ít nhất một tập $B'_{\sigma}$, nên $g$ liên tục tại mọi điểm. Vậy:
 

@@ -36,7 +36,7 @@ subsections:
       pdf_page: 137
 statements: 24
 exercises: 12
-content_sha256: 7fd8eb919ba34faea8c86e35ddc55ad05a7073b37ea567ee34e6f224b04b17d0
+content_sha256: f7566a3394d4e02385dc6fbbba8526967a3d67259b7e4b3112f1f6e1ba3d6f6f
 translated_from: content/en/lie/II/01_s1_enveloping_bigebra_of_a_lie_algebra.md
 source_content_sha256: 3e7a2d8f31448f4a4a6b92eaec94bdcd71f89ebd6479259e802cd1212de986c2
 translation_model: gpt-5.4
@@ -299,7 +299,7 @@ $$
 c(a_1 ... a_n) = \prod_{i=1}^n c(a_i) = \prod_{i=1}^n (a_i ⊗ 1 + 1 ⊗ a_i)
 $$
 $$
-= \sum_{i=0}^n \sum_{α ∈ I(i)} (a_{α(1)} ... a_{α(i)}) ⊗ (a_{α(i+1)} ... a_{α(n)}),
+= \sum_{i=0}^n \sum_{\alpha ∈ I(i)} (a_{\alpha(1)} ... a_{\alpha(i)}) ⊗ (a_{\alpha(i+1)} ... a_{\alpha(n)}),
 $$
 
 trong đó I(i) ký hiệu tập hợp các hoán vị của {1, n} tăng trên mỗi khoảng {1, i} và {i + 1, n}. Vì U_n là K-môđun được sinh bởi các tích của nhiều nhất n phần tử của σ(g), công thức (8) suy ra rằng bộ lọc (U_n) là tương thích với cấu trúc song đại số của (U, c).

@@ -29,7 +29,7 @@ subsections:
       pdf_page: 281
 statements: 23
 exercises: 16
-content_sha256: d6f1c749afbad14ec31ed7a8d4bc874d6a194af70d62a3fd03cefa9f1bb20adf
+content_sha256: fa47af91c90811f600321cb85690b0e9ef00dc8653ab40f84009660540f918e5
 translated_from: content/en/evt/V/02_s2_orthogonal_families_in_a_hilbertian.md
 source_content_sha256: 6fa9993f99ed891eed3d010811e0f5abc1a637fc976e8492d3f06438096abbc2
 translation_model: gpt-5-6, gpt-5.4-mini, gpt-5-6-mini
@@ -166,7 +166,7 @@ Trong một không gian tiền Hilbert, một họ $(e_i)_{i∈I}$ các vectơ �
 
 Một tập con S của E sao cho họ do ánh xạ đồng nhất từ S lên chính nó xác định là trực chuẩn được gọi là một tập trực chuẩn. Nếu $(e_i)_{i∈I}$ là một họ trực chuẩn, thì ánh xạ $i \mapsto e_i$ là đơn ánh; khi đó ta có thể nói không phân biệt về một họ trực chuẩn hay một tập trực chuẩn.
 
-Nếu $(e_i)_{i∈I}$ là một họ trực chuẩn, thì các không gian con vectơ một chiều đầy đủ $D_i = Ke_i$ đôi một trực giao. Với mọi $x ∈ E$, phép chiếu trực giao của $x$ lên $D_i$ là $λ_i e_i$ với $⟨e_i|x - λ_i e_i⟩ = 0$, suy ra $⟨e_i|x⟩ = λ_i ⟨e_i|e_i⟩ = λ_i$. Các kết quả của No. 2 áp dụng cho các không gian con $D_i$ suy ra các mệnh đề sau:
+Nếu $(e_i)_{i∈I}$ là một họ trực chuẩn, thì các không gian con vectơ một chiều đầy đủ $D_i = Ke_i$ đôi một trực giao. Với mọi $x ∈ E$, phép chiếu trực giao của $x$ lên $D_i$ là $\lambda_i e_i$ với $⟨e_i|x - \lambda_i e_i⟩ = 0$, suy ra $⟨e_i|x⟩ = \lambda_i ⟨e_i|e_i⟩ = \lambda_i$. Các kết quả của No. 2 áp dụng cho các không gian con $D_i$ suy ra các mệnh đề sau:
 
 #### Mệnh đề 3 {#evt-v-s2-prop-3 .statement}
 

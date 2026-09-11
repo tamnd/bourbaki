@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 83f48941d9f251cd27c14e7d4cf401bc3ed1ce548b1ad4460eda2ff4a0463f26
+content_sha256: 69ccf57417877e7efbb540431abf3c69138f8cc1fc31ad5ad2f470d41299d435
 translated_from: content/fr/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: fr
 translation_method: machine
@@ -38,7 +38,7 @@ prompt_sha256: 5b9b7144015934413fe8e16b5155e2bc50bed2041525e1b1db7c19a297193094
 
 ## § 4. Totally isotropic subspaces. Witt's Theorem
 
-In this paragraph it is assumed, unless expressly stated otherwise, that A is a field. By Φ we denote either an ε-hermitian form on E (with respect to the involutory antiautomorphism $λ \to \overline{λ}$ of A), or the symmetric bilinear form associated with a quadratic form Q on E (A being assumed commutative in the latter case).
+In this paragraph it is assumed, unless expressly stated otherwise, that A is a field. By Φ we denote either an ε-hermitian form on E (with respect to the involutory antiautomorphism $\lambda \to \overline{\lambda}$ of A), or the symmetric bilinear form associated with a quadratic form Q on E (A being assumed commutative in the latter case).
 
 ### 1. Isotropic subspaces.
 

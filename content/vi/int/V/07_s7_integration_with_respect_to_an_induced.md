@@ -21,7 +21,7 @@ subsections:
       pdf_page: 332
 statements: 20
 exercises: 11
-content_sha256: 277e5708c428060e558434f58c38bf5dc807b660ce178279d76d78d85ba8fd6b
+content_sha256: 24833b93d3ed940adbf8f57635290fb5bfe77cabb3a98e9f6d8931858105207d
 translated_from: content/en/int/V/07_s7_integration_with_respect_to_an_induced.md
 source_content_sha256: 5733973f5bdd9fd2e8b08ef663ed9020c730c1ae2dfe39d0ab80fd1f0ffc450c
 translation_model: gpt-5-6-mini
@@ -177,32 +177,32 @@ Thật vậy, π_X = π ∘ i, trong đó i là đơn ánh chính tắc X → T.
 
 — Cho X và Y là hai không gian con địa phương compact của T sao cho Y ⊂ X. Nếu θ là một độ đo phức trên T, thì độ đo (θ_X)_Y được cảm sinh bởi θ_X trên Y bằng θ_Y ('tính bắc cầu của các độ đo cảm sinh').
 
-Chỉ cần nhận thấy rằng nếu g là một phần tử của $\mathscr{H}(Y; \mathbf{C})$, thì mở rộng bằng 0 của g lên T có thể nhận được bằng cách mở rộng bằng 0 mở rộng bằng 0 của g lên X, hoặc lại nữa, sử dụng các đồng nhất nhất trong Chú giải, rằng $φ_Y · θ = φ_Y(φ_X · θ)$ (§5, No. 4, Mệnh đề 8).
+Chỉ cần nhận thấy rằng nếu g là một phần tử của $\mathscr{H}(Y; \mathbf{C})$, thì mở rộng bằng 0 của g lên T có thể nhận được bằng cách mở rộng bằng 0 mở rộng bằng 0 của g lên X, hoặc lại nữa, sử dụng các đồng nhất nhất trong Chú giải, rằng $\varphi_Y · \theta = \varphi_Y(\varphi_X · \theta)$ (§5, No. 4, Mệnh đề 8).
 
 #### Mệnh đề 5 {#int-v-s7-prop-5 .statement}
 
-— Cho $(\lambda_α)_{α ∈ A}$ là một họ có hướng tăng của các độ đo dương trên T, có một cận trên đúng λ, và cho X là một không gian con địa phương compact của T. Khi đó họ các độ đo cảm sinh $λ_α|X$ bị chặn trên trong $\mathscr{M}(X)$, và
+— Cho $(\lambda_\alpha)_{\alpha ∈ A}$ là một họ có hướng tăng của các độ đo dương trên T, có một cận trên đúng λ, và cho X là một không gian con địa phương compact của T. Khi đó họ các độ đo cảm sinh $\lambda_\alpha|X$ bị chặn trên trong $\mathscr{M}(X)$, và
 
 $$
-\sup_{α ∈ A} (λ_α|X) = λ|X.
+\sup_{\alpha ∈ A} (\lambda_\alpha|X) = \lambda|X.
 $$
 
 Theo các đồng nhất nhất trong Chú giải, mệnh đề này là một trường hợp riêng của Mệnh đề 5 của §5, No. 4.
 
 #### Hệ quả {#int-v-s7-n2-cor-1 .statement}
 
-— Cho $(\mu_i)_{i ∈ I}$ là một họ tổng được của các độ đo dương trên T, với tổng μ. Khi đó họ các độ đo cảm sinh $μ_i|X$ là tổng được, và
+— Cho $(\mu_i)_{i ∈ I}$ là một họ tổng được của các độ đo dương trên T, với tổng μ. Khi đó họ các độ đo cảm sinh $\mu_i|X$ là tổng được, và
 
 $$
-\sum_{i ∈ I} (μ_i|X) = μ|X.
+\sum_{i ∈ I} (\mu_i|X) = \mu|X.
 $$
 
 #### Mệnh đề 6 {#int-v-s7-prop-6 .statement}
 
-— Cho $Λ : t ↦ λ_t$ là một ánh xạ μ-thích hợp của T vào $\mathscr{M}_+(X)$, trong đó X là một không gian địa phương compact đếm được ở vô cực, và cho Y là một không gian con địa phương compact của X. Đặt $\int λ_t dμ(t) = ν$. Khi đó ánh xạ $t ↦ λ_t|Y$ của T vào $\mathscr{M}_+(Y)$ là μ-thích hợp, và
+— Cho $\Lambda : t ↦ \lambda_t$ là một ánh xạ μ-thích hợp của T vào $\mathscr{M}_+(X)$, trong đó X là một không gian địa phương compact đếm được ở vô cực, và cho Y là một không gian con địa phương compact của X. Đặt $\int \lambda_t d\mu(t) = \nu$. Khi đó ánh xạ $t ↦ \lambda_t|Y$ của T vào $\mathscr{M}_+(Y)$ là μ-thích hợp, và
 
 $$
-\int (λ_t|Y) dμ(t) = ν|Y.
+\int (\lambda_t|Y) d\mu(t) = \nu|Y.
 $$
 
 Xét đến các đồng nhất nhất trong Chú giải, mệnh đề này là một trường hợp riêng của Mệnh đề 7 của §5, No. 4.

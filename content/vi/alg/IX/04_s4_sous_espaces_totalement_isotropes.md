@@ -24,7 +24,7 @@ subsections:
       pdf_page: 69
 statements: 17
 exercises: 0
-content_sha256: 616ecb56ad1d1ef5e5ed9af6dd36025bfa2fcddf3e5a7ea1baa7633eb0c52383
+content_sha256: fc735c5306b3fc0f15c05bccf2c1d84803fa618435da608b41bf52df23b2ecdf
 translated_from: content/en-mt/alg/IX/04_s4_sous_espaces_totalement_isotropes.md
 source_lang: en-mt
 translation_method: machine
@@ -38,7 +38,7 @@ prompt_sha256: 83b0139ff219095b0a7a24ef29a6e4741b2ee7f67a6376a31a9f6aa03aebf5b5
 
 ## § 4. Các không gian con hoàn toàn đẳng hướng. Định lý Witt
 
-Trong đoạn này giả thiết rằng, trừ khi nói rõ ngược lại, A là một trường. Bởi Φ ta ký hiệu hoặc một dạng ε-Hermit trên E (đối với phản tự đẳng cấu đối hợp $λ \to \overline{λ}$ của A), hoặc dạng song tuyến tính đối xứng liên kết với một dạng toàn phương Q trên E (trong trường hợp sau giả thiết A giao hoán).
+Trong đoạn này giả thiết rằng, trừ khi nói rõ ngược lại, A là một trường. Bởi Φ ta ký hiệu hoặc một dạng ε-Hermit trên E (đối với phản tự đẳng cấu đối hợp $\lambda \to \overline{\lambda}$ của A), hoặc dạng song tuyến tính đối xứng liên kết với một dạng toàn phương Q trên E (trong trường hợp sau giả thiết A giao hoán).
 
 ### 1. Các không gian con đẳng hướng.
 
@@ -226,7 +226,7 @@ a) $F \not\subset D^0$. Công thức (5) cho thấy rằng $u(F)$ không đượ
 
 b) F ⊂ D^0. Công thức (5) cho thấy rằng u(F) ⊂ D^0, và do đó
 
-D ⊂ D^0 ; vì thế D phải là đẳng hướng (tương ứng kỳ dị, vì ta có $Q(u(x) − x) = Q(u(x)) − Φ(x, u(x)) + Q(x) = 2Q(x) − Φ(x, x) = 0$ với $x ∈ F$). Ta sẽ chỉ ra rằng, dưới các điều kiện này, tồn tại một không gian con F' của $D^0$ bù cho F và u(F) trong $D^0$. Điều này là ngay lập tức nếu F = u(F). Nếu không, lấy x và y là các vectơ sao cho $x ∈ F, x ∉ U, y ∈ u(F), y ∉ U$; khi đó ta có $F = U + Ax, u(F) = U + Ay$, và F không chứa $x + y$ vì nếu không thì $y = (x + y) − x$ sẽ thuộc $F ∩ u(F) = U$; tương tự ta thấy rằng $x + y$ không thuộc u(F); do đó A phải $(x + y)$ bù cho F và u(F) trong không gian con $F + u(F)$; khi đó chỉ cần đặt $F' = A(x + y) + G$ trong đó G bù cho $F + u(F)$ trong $D^0$. Khi đó, ta có $F + F' = u(F) + F' = D^0$, và, trong trường hợp này, điều đã nói ở đầu 1) cho thấy rằng tồn tại một phép mở rộng của u lên siêu phẳng $D^0$ của E, và $D^0$ ổn định đối với phép mở rộng này.
+D ⊂ D^0 ; vì thế D phải là đẳng hướng (tương ứng kỳ dị, vì ta có $Q(u(x) − x) = Q(u(x)) − \Phi(x, u(x)) + Q(x) = 2Q(x) − \Phi(x, x) = 0$ với $x ∈ F$). Ta sẽ chỉ ra rằng, dưới các điều kiện này, tồn tại một không gian con F' của $D^0$ bù cho F và u(F) trong $D^0$. Điều này là ngay lập tức nếu F = u(F). Nếu không, lấy x và y là các vectơ sao cho $x ∈ F, x ∉ U, y ∈ u(F), y ∉ U$; khi đó ta có $F = U + Ax, u(F) = U + Ay$, và F không chứa $x + y$ vì nếu không thì $y = (x + y) − x$ sẽ thuộc $F ∩ u(F) = U$; tương tự ta thấy rằng $x + y$ không thuộc u(F); do đó A phải $(x + y)$ bù cho F và u(F) trong không gian con $F + u(F)$; khi đó chỉ cần đặt $F' = A(x + y) + G$ trong đó G bù cho $F + u(F)$ trong $D^0$. Khi đó, ta có $F + F' = u(F) + F' = D^0$, và, trong trường hợp này, điều đã nói ở đầu 1) cho thấy rằng tồn tại một phép mở rộng của u lên siêu phẳng $D^0$ của E, và $D^0$ ổn định đối với phép mở rộng này.
 
 Vì vậy ta được đưa về trường hợp F là siêu phẳng $D^0$ và u là một tự đẳng cấu của F. Ta chứng minh rằng, với mọi $z ∈ E$, tồn tại $z' ∈ E$ sao cho
 
@@ -234,7 +234,7 @@ Vì vậy ta được đưa về trường hợp F là siêu phẳng $D^0$ và u
 $$
 \Phi(u(x), z') = \Phi(x, z)
 $$
-với mọi x ∈ F; thật vậy dạng tuyến tính $x → Φ(u^{-1}(x), z)$ trên F là hạn chế của một dạng tuyến tính trên E, một dạng có kiểu $x → Φ(x, z')$ vì Φ không suy biến; do đó (6) đúng. Hơn nữa, nếu $z ∉ F$, thì tồn tại một vectơ $z' ∈ E$ thỏa mãn (6) và sao cho $\Phi(z', z') = \Phi(z, z)$ (tương ứng $Q(z') = Q(z)$): thật vậy công thức (6) vẫn còn đúng nếu ta cộng vào z' một phần tử $u(y) − y$ ($y ∈ F$) của D vì $F = D^0$, và Bổ đề 1 của No. 2 cho phép kết luận vì z không trực giao với D. Nhận xét ban đầu của ta khi đó cho thấy rằng tồn tại một đồng cấu metric ϕ từ $F + Az = E$ vào E mở rộng u và biến đổi z thành z'. Vì Φ không suy biến, ϕ là tự đẳng cấu metric cần tìm của E.
+với mọi x ∈ F; thật vậy dạng tuyến tính $x → \Phi(u^{-1}(x), z)$ trên F là hạn chế của một dạng tuyến tính trên E, một dạng có kiểu $x → \Phi(x, z')$ vì Φ không suy biến; do đó (6) đúng. Hơn nữa, nếu $z ∉ F$, thì tồn tại một vectơ $z' ∈ E$ thỏa mãn (6) và sao cho $\Phi(z', z') = \Phi(z, z)$ (tương ứng $Q(z') = Q(z)$): thật vậy công thức (6) vẫn còn đúng nếu ta cộng vào z' một phần tử $u(y) − y$ ($y ∈ F$) của D vì $F = D^0$, và Bổ đề 1 của No. 2 cho phép kết luận vì z không trực giao với D. Nhận xét ban đầu của ta khi đó cho thấy rằng tồn tại một đồng cấu metric ϕ từ $F + Az = E$ vào E mở rộng u và biến đổi z thành z'. Vì Φ không suy biến, ϕ là tự đẳng cấu metric cần tìm của E.
 
 2) Trong trường hợp tổng quát, ta lập luận bằng quy nạp theo $r = dim F$. Trường hợp $r = 0$ là tầm thường. Giả sử khi đó $r > 0$, nghĩa là $F ≠ {0}$, và gọi U là một siêu phẳng của F. Hạn chế $u_0$ của u lên U, theo giả thiết quy nạp, mở rộng được thành một tự đẳng cấu metric $\varphi_0$ của E. Nếu $\varphi_0$ mở rộng u, thì định lý được chứng minh. Nếu không, U là tập hợp các phần tử bất biến bởi $v_0^{-1}u$, và tồn tại, theo 1), một tự đẳng cấu metric $v_1$ của E mở rộng $v_0^{-1}u$. Tự đẳng cấu $v_0v_1$ khi đó là phép mở rộng cần thiết của u. QED.
 

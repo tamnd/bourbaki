@@ -50,7 +50,7 @@ subsections:
       pdf_page: 283
 statements: 30
 exercises: 4
-content_sha256: 252d312313551f6b68543f942a3ec716bf69666fd7b53c19445e66098ec813bb
+content_sha256: b3f904b44fc11499887cd671aa3eab1d9b41cb5c6fa1917fa0e4405c627367c9
 translated_from: content/en/alg/II/03_s3_tensor_products.md
 source_content_sha256: 1eba95005f4ce917b7b3a9ff9847bb4bbfb2a404c0a595664fe6a6f3d7426913
 translation_model: gpt-5.4, gpt-5-6-mini
@@ -559,7 +559,7 @@ Cơ sở $(b_\mu)$ xác định một đẳng cấu của $F$ lên $\bigoplus_{\
 
 Nếu E là một đa môđun $((B'_i); A, (C'_j))$, thì đẳng cấu chính tắc E ⊗_A F → E^{(M)} là một đẳng cấu đa môđun $((B'_i); (C'_j))$.
 
-Đặc biệt, nếu E cũng có một cơ sở (a_λ)_{λ ∈ L}, thì mọi z ∈ E ⊗_A F đều có thể được viết dưới dạng $\sum_{λ, μ} (a_λ ξ_{λμ}) ⊗ b_μ$ theo một và chỉ một cách, trong đó các ξ_{λμ} thuộc A (và tạo thành một họ có giá hữu hạn); ánh xạ $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ là một đẳng cấu của E ⊗_A F lên A^{(L × M)} đối với các cấu trúc $\mathbf{Z}$-môđun (và thậm chí cả các cấu trúc môđun trên tâm của A). Cụ thể hơn:
+Đặc biệt, nếu E cũng có một cơ sở (a_λ)_{λ ∈ L}, thì mọi z ∈ E ⊗_A F đều có thể được viết dưới dạng $\sum_{\lambda, \mu} (a_\lambda \xi_{\lambda\mu}) ⊗ b_\mu$ theo một và chỉ một cách, trong đó các ξ_{λμ} thuộc A (và tạo thành một họ có giá hữu hạn); ánh xạ $z \mapsto (\xi_{\lambda\mu})_{(\lambda, \mu) \in L \times M}$ là một đẳng cấu của E ⊗_A F lên A^{(L × M)} đối với các cấu trúc $\mathbf{Z}$-môđun (và thậm chí cả các cấu trúc môđun trên tâm của A). Cụ thể hơn:
 
 #### Hệ quả 2 {#alg-ii-s3-prop-7-cor-2 .statement}
 
@@ -567,10 +567,10 @@ Nếu E là một đa môđun $((B'_i); A, (C'_j))$, thì đẳng cấu chính t
 
 Do lạm dụng ngôn ngữ, cơ sở (a_λ ⊗ b_μ) đôi khi được gọi là *tích tenxơ* của các cơ sở (a_λ) và (b_μ).
 
-*Nhận xét (1)*. Cho E là một A-môđun phải tự do, F là một A-môđun trái tự do, (a_λ)_{λ ∈ L} một cơ sở của E và (b_μ)_{μ ∈ M} một cơ sở của F. Mọi phần tử z ∈ E ⊗_A F đều có thể được viết duy nhất dưới dạng $\sum_λ a_λ ⊗ y_λ$, trong đó y_λ ∈ F, và cũng được viết duy nhất dưới dạng $\sum_μ x_μ ⊗ b_μ$, trong đó x_μ ∈ E. Nếu ta viết $y_λ = \sum_μ η_{λμ} b_μ$, $x_μ = \sum_λ a_λ ξ_{λμ}$, trong đó các ξ_{λμ} và η_{λμ} thuộc A, thì $ξ_{λμ} = η_{λμ}$ với mọi (λ, μ), vì
+*Nhận xét (1)*. Cho E là một A-môđun phải tự do, F là một A-môđun trái tự do, (a_λ)_{λ ∈ L} một cơ sở của E và (b_μ)_{μ ∈ M} một cơ sở của F. Mọi phần tử z ∈ E ⊗_A F đều có thể được viết duy nhất dưới dạng $\sum_\lambda a_\lambda ⊗ y_\lambda$, trong đó y_λ ∈ F, và cũng được viết duy nhất dưới dạng $\sum_\mu x_\mu ⊗ b_\mu$, trong đó x_μ ∈ E. Nếu ta viết $y_\lambda = \sum_\mu \eta_{\lambda\mu} b_\mu$, $x_\mu = \sum_\lambda a_\lambda \xi_{\lambda\mu}$, trong đó các ξ_{λμ} và η_{λμ} thuộc A, thì $\xi_{\lambda\mu} = \eta_{\lambda\mu}$ với mọi (λ, μ), vì
 
 $$
-\sum_λ \left( a_λ ⊗ \left( \sum_μ η_{λμ} b_μ \right) \right) = \sum_{λ, μ} ((a_λ η_{λμ}) ⊗ b_μ) = \sum_μ \left( \left( \sum_λ a_λ η_{λμ} \right) ⊗ b_μ \right).
+\sum_\lambda \left( a_\lambda ⊗ \left( \sum_\mu \eta_{\lambda\mu} b_\mu \right) \right) = \sum_{\lambda, \mu} ((a_\lambda \eta_{\lambda\mu}) ⊗ b_\mu) = \sum_\mu \left( \left( \sum_\lambda a_\lambda \eta_{\lambda\mu} \right) ⊗ b_\mu \right).
 $$
 
 #### Hệ quả 3 {#alg-ii-s3-prop-7-cor-3 .statement}
@@ -578,12 +578,12 @@ $$
 *Cho (E_λ)_{λ ∈ L} là một họ các A-môđun phải và F là một A-môđun trái tự do (resp. tự do sinh hữu hạn). Khi đó ánh xạ chính tắc (22)
 
 $$
-\left( \prod_{λ ∈ L} E_λ \right) ⊗_A F → \prod_{λ ∈ L} (E_λ ⊗_A F)
+\left( \prod_{\lambda ∈ L} E_\lambda \right) ⊗_A F → \prod_{\lambda ∈ L} (E_\lambda ⊗_A F)
 $$
 
 là đơn ánh (resp. song ánh).
 
-Nếu (b_μ) là một cơ sở của F, mọi phần tử của $\left( \prod_{λ ∈ L} E_λ \right) ⊗_A F$ có thể được viết duy nhất dưới dạng $z = \sum_μ ((x_λ^{(μ)}) ⊗ b_μ)$ (Hệ quả 1); nói rằng ảnh chính tắc của nó bằng không có nghĩa là, với mọi λ ∈ L, $\sum_μ (x_λ^{(μ)} ⊗ b_μ) = 0$, do đó $x_λ^{(μ)} = 0$ với mọi λ ∈ L và mọi μ (Hệ quả 1) và vì thế $z = 0$.
+Nếu (b_μ) là một cơ sở của F, mọi phần tử của $\left( \prod_{\lambda ∈ L} E_\lambda \right) ⊗_A F$ có thể được viết duy nhất dưới dạng $z = \sum_\mu ((x_\lambda^{(\mu)}) ⊗ b_\mu)$ (Hệ quả 1); nói rằng ảnh chính tắc của nó bằng không có nghĩa là, với mọi λ ∈ L, $\sum_\mu (x_\lambda^{(\mu)} ⊗ b_\mu) = 0$, do đó $x_\lambda^{(\mu)} = 0$ với mọi λ ∈ L và mọi μ (Hệ quả 1) và vì thế $z = 0$.
 
 Việc chứng minh rằng ánh xạ chính tắc là song ánh khi F có một cơ sở hữu hạn được quy ngay lập tức, theo Mệnh đề 7, về trường hợp
 
@@ -838,7 +838,7 @@ $$
 
 Chỉ cần kiểm tra quan hệ này khi $y_1$ (tương ứng $y_2$) có dạng $\bigotimes_{(c^{(1)})} x_\lambda$ (tương ứng $\bigotimes_{(c^{(2)})} x_\lambda$), vì các phần tử ấy sinh $\mathbf{Z}$-môđun $F_1$ (tương ứng $F_2$). Nhưng theo định nghĩa, $r_\omega\left( \bigotimes_{(c^{(1)})} x_\lambda \right) = \bigotimes_{(c^{(1)})} x'_\lambda$, trong đó $x'_{\rho(\omega)} = p_\omega(x_{\rho(\omega)})$ và $x'_\lambda = x_\lambda$ với $\lambda \neq \rho(\omega)$ trong $L_1$; tương tự $s_\omega\left( \bigotimes_{(c^{(2)})} x_\lambda \right) = \bigotimes_{(c^{(2)})} x''_\lambda$, trong đó $x''_{\sigma(\omega)} = q_\omega(x'_{\sigma(\omega)})$ và $x''_\lambda = x_\lambda$ với $\lambda \neq \sigma(\omega)$ trong $L_2$; dùng (30) và (31), khi đó quan hệ (32) suy ra từ (26). Do đó tồn tại một ánh xạ $\mathbf{Z}$-tuyến tính $v$ từ $F_1 \otimes F_2$ vào $H$ sao cho $v(y_1 \otimes y_2) = w(y_1, y_2)$, và khi đó từ (30) và (31) suy ra rằng $v \circ h = u$.
 
-Trường hợp đặc biệt quan trọng nhất của tích tenxơ tổng quát được định nghĩa ở trên là trường hợp sau đây: ta bắt đầu với một họ $(A_i)_{1 \leq i \leq n-1}$ các vành và một họ $(E_i)_{1 \leq i \leq n}$, trong đó $E_1$ là một môđun phải $A_1$, $E_n$ là một môđun trái $A_{n-1}$ và, với $2 \leq i \leq n-1$, $E_i$ là một song môđun $(A_{i-1}, A_i)$. Khi đó định nghĩa ở trên được áp dụng như sau: L là tập hợp $[1, n]$, $G_i = E_i$, Ω là tập hợp tổng của các $A_i$ ($1 \leq i \leq n-1$). Với $ω ∈ A_i$ ($1 \leq i \leq n-1$), lấy $ρ(ω) = i$, $σ(ω) = i + 1$, $p_ω$ là tự đồng cấu $x ↦ xω$ của $Z$-môđun $E_i$ và $q_ω$ là tự đồng cấu $y ↦ ωy$ của $Z$-môđun $E_{i+1}$; tích tenxơ tương ứng được ký hiệu là
+Trường hợp đặc biệt quan trọng nhất của tích tenxơ tổng quát được định nghĩa ở trên là trường hợp sau đây: ta bắt đầu với một họ $(A_i)_{1 \leq i \leq n-1}$ các vành và một họ $(E_i)_{1 \leq i \leq n}$, trong đó $E_1$ là một môđun phải $A_1$, $E_n$ là một môđun trái $A_{n-1}$ và, với $2 \leq i \leq n-1$, $E_i$ là một song môđun $(A_{i-1}, A_i)$. Khi đó định nghĩa ở trên được áp dụng như sau: L là tập hợp $[1, n]$, $G_i = E_i$, Ω là tập hợp tổng của các $A_i$ ($1 \leq i \leq n-1$). Với $\omega ∈ A_i$ ($1 \leq i \leq n-1$), lấy $\rho(\omega) = i$, $\sigma(\omega) = i + 1$, $p_\omega$ là tự đồng cấu $x ↦ x\omega$ của $Z$-môđun $E_i$ và $q_\omega$ là tự đồng cấu $y ↦ \omega y$ của $Z$-môđun $E_{i+1}$; tích tenxơ tương ứng được ký hiệu là
 
 $$
 E_1 \otimes_{A_1} E_2 \otimes_{A_2} E_3 \otimes \cdots \otimes_{A_{n-2}} E_{n-1} \otimes_{A_{n-1}} E_n
@@ -854,11 +854,11 @@ $$
 E_1 \otimes_C E_2 \otimes_C E_3 \otimes \cdots \otimes_C E_{n-1} \otimes_C E_n
 $$
 
-$n$ cấu trúc C-môđun tương thích với nhau và thực ra đồng nhất, vì với mọi $γ ∈ C$ và $(x_i) ∈ \prod_{i=1}^n E_i$, theo định nghĩa
+$n$ cấu trúc C-môđun tương thích với nhau và thực ra đồng nhất, vì với mọi $\gamma ∈ C$ và $(x_i) ∈ \prod_{i=1}^n E_i$, theo định nghĩa
 
 $$
-(γx_1) \otimes x_2 \otimes \cdots \otimes x_n \\
-= x_1 \otimes (γx_2) \otimes \cdots \otimes x_n = \cdots = x_1 \otimes x_2 \otimes \cdots \otimes (γx_n).
+(\gamma x_1) \otimes x_2 \otimes \cdots \otimes x_n \\
+= x_1 \otimes (\gamma x_2) \otimes \cdots \otimes x_n = \cdots = x_1 \otimes x_2 \otimes \cdots \otimes (\gamma x_n).
 $$
 
 Khi ta nói đến tích tenxơ (34) như một C-môđun, ta sẽ luôn hiểu là với cấu trúc này, trừ khi có nói khác, và tích tenxơ (34) cũng được ký hiệu bởi $\bigotimes_{1 \leq i \leq n} E_i$ nếu không thể nảy sinh nhầm lẫn. Với mọi C-môđun G, các ánh xạ $\mathbf{Z}$-đa tuyến tính từ $\prod_{i=1}^n E_i$ vào G mà, với mọi chỉ số i, thỏa mãn quan hệ
