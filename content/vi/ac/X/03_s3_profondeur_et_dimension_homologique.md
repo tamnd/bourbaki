@@ -44,11 +44,11 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: 97074bf4e0b7d66ea426469d075d0d9947078be236d40dee52c0c092cbaa8a09
+content_sha256: ed9eab6f853d0ea9557538245bc9af90b2b1733e2d23a65faa41a6ac5b48cd65
 translated_from: content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 927ab24cfb8adb74f59214b45fd1d9cb691be35e594a7fbdad39dd905060f696
+source_content_sha256: 2887c371d5eaa37f77acf37407c79cf478d515f0d78e32875c1e6b8c3bf0f663
 translation_model: gpt-5.4
 translation_run: translate-vi-d67fbc25
 glossary_version: 34
@@ -487,10 +487,10 @@ Với thuật ngữ của $§ 1$, No. 5, nhận xét 4, kết luận của hệ 
 
 Cho $A$ là một vành Macaulay Noether và $M$ là một $A$-môđun sinh hữu hạn có chiều xạ ảnh hữu hạn.
 
-a) Cho $p \in \operatorname{Spec}(\Lambda)$; ký hiệu bởi $\mathscr{C}(p)$ tập hợp các thành phần bất khả quy của $\operatorname{Supp}(M)$ chứa $p$. Ta có
+a) Cho $p \in \operatorname{Spec}(\Lambda)$; ký hiệu bởi $\mathcal{C}(p)$ tập hợp các thành phần bất khả quy của $\operatorname{Supp}(M)$ chứa $p$. Ta có
 
 $$
-\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
 b) Ánh xạ $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ từ $\operatorname{Spec}(A)$ vào $\overline{\mathbf{Z}}$ là nửa liên tục trên.

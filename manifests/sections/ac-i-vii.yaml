@@ -232,7 +232,7 @@ chapters:
           statements: 23
           exercises: 8
           extraction: ocr
-          content_sha256: 635cb657396c30a372e380cabd17f11b77add1482054b9de74828b3e4a2bbbbd
+          content_sha256: 032da00cd9da91bab8ac7c8047cd1bea737f1d4ecc3ff26817f377706ac8dcf8
         - kind: section
           section: 5
           title: Flatness properties of filtered modules
@@ -443,7 +443,7 @@ chapters:
           statements: 10
           exercises: 2
           extraction: ocr
-          content_sha256: 0ba346951e7ec856945465325b2f054546b3b1d4334f235bfc11d9776cf48c78
+          content_sha256: 89089983c5dccbb3218f2ab1a51ac646d32b8eda490bc9f1353d4e6a8f3b6ffa
         - kind: section
           section: 7
           title: Approximation theorem

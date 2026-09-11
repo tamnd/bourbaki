@@ -37,9 +37,9 @@ subsections:
       pdf_page: 245
 statements: 23
 exercises: 8
-content_sha256: b7dd1ff83282b95e54bcdd03e090510675e36caf7a5107a0344fec5fd79fb74d
+content_sha256: bb583c8c5b472b838913a686a9fa68383f5625c101750f854c1b87a3c9f5e298
 translated_from: content/en/ac/III/04_s4_lifting_in_complete_rings.md
-source_content_sha256: 635cb657396c30a372e380cabd17f11b77add1482054b9de74828b3e4a2bbbbd
+source_content_sha256: 032da00cd9da91bab8ac7c8047cd1bea737f1d4ecc3ff26817f377706ac8dcf8
 translation_model: gpt-5-6-mini, gpt-5-6, gpt-5.4
 translation_run: translate-vi-76b01779
 glossary_version: 34
@@ -166,11 +166,11 @@ $$
 T'' = TT' = \sum_{(n_i)} c''_{n_1 \ldots n_p} X_1^{n_1} \ldots X_p^{n_p},
 $$
 
-thì $c''_{n_1 \ldots n_p} = \sum c_{r_1 \ldots r_p} c'_{s_1 \ldots s_p}$ đối với mọi hệ $(r_k), (s_k)$ sao cho $r_k + s_k = n_k$ với $1 \leq k \leq p$; ta kết luận rằng nếu $n_k \geq 2m$, thì $r_k \geq m$ hoặc $s_k \geq m$ và do đó, vì $\mathfrak{z}$ là một iđêan, $c''_{n_1 \ldots n_p} \in \mathfrak{g}$ chừng nào $n_k \geq 2m$ đối với ít nhất một $k$, điều này thiết lập mệnh đề của ta. Hơn nữa, mọi đạo hàm $\partial T / \partial X_i$ ($1 \leq i \leq p$) của một chuỗi lũy thừa hình thức hạn chế đều hạn chế, như suy ra ngay lập tức từ định nghĩa và sự kiện rằng các lân cận $\mathfrak{z} \in \mathscr{B}$ là các nhóm con cộng tính của $\mathbf{A}$.
+thì $c''_{n_1 \ldots n_p} = \sum c_{r_1 \ldots r_p} c'_{s_1 \ldots s_p}$ đối với mọi hệ $(r_k), (s_k)$ sao cho $r_k + s_k = n_k$ với $1 \leq k \leq p$; ta kết luận rằng nếu $n_k \geq 2m$, thì $r_k \geq m$ hoặc $s_k \geq m$ và do đó, vì $\mathfrak{z}$ là một iđêan, $c''_{n_1 \ldots n_p} \in \mathfrak{g}$ chừng nào $n_k \geq 2m$ đối với ít nhất một $k$, điều này thiết lập mệnh đề của ta. Hơn nữa, mọi đạo hàm $\partial T / \partial X_i$ ($1 \leq i \leq p$) của một chuỗi lũy thừa hình thức hạn chế đều hạn chế, như suy ra ngay lập tức từ định nghĩa và sự kiện rằng các lân cận $\mathfrak{z} \in \mathcal{B}$ là các nhóm con cộng tính của $\mathbf{A}$.
 
 Nếu $\mathbf{A}$ là rời rạc, vành các chuỗi lũy thừa hình thức hạn chế chỉ là vành đa thức $\mathbf{A}[X_1, \ldots, X_n]$.
 
-Luôn luôn giả sử rằng $\mathbf{A}$ là được trang bị tôpô tuyến tính và cho $\mathscr{B}$ là một hệ cơ sở các lân cận của 0 trong $\mathbf{A}$ gồm các iđêan của $\mathbf{A}$; với mọi $\mathfrak{g} \in \mathscr{B}$, cho $p_\mathfrak{g}: \mathbf{A} \to \mathbf{A}/\mathfrak{g}$ là đồng cấu chính tắc. Theo định nghĩa, với mọi chuỗi lũy thừa hình thức hạn chế $T \in \mathbf{A}\{X_1, \ldots, X_n\}$,
+Luôn luôn giả sử rằng $\mathbf{A}$ là được trang bị tôpô tuyến tính và cho $\mathcal{B}$ là một hệ cơ sở các lân cận của 0 trong $\mathbf{A}$ gồm các iđêan của $\mathbf{A}$; với mọi $\mathfrak{g} \in \mathcal{B}$, cho $p_\mathfrak{g}: \mathbf{A} \to \mathbf{A}/\mathfrak{g}$ là đồng cấu chính tắc. Theo định nghĩa, với mọi chuỗi lũy thừa hình thức hạn chế $T \in \mathbf{A}\{X_1, \ldots, X_n\}$,
 
 $$
 \bar{p}_\mathfrak{g}(T) \in (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p].
@@ -182,7 +182,7 @@ $$
 ((\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p], \bar{h}_{\mathfrak{g}\mathfrak{g}'})
 $$
 
-là một hệ ngược các vành (đối với tập chỉ số có hướng $\mathscr{B}$) và $(\bar{p}_\mathfrak{g})$ là một hệ ngược các đồng cấu $\mathbf{A}\{X_1, \ldots, X_n\} \to (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]$; vì mọi đa thức đều là một chuỗi lũy thừa hình thức hạn chế, $\bar{p}_\mathfrak{g}$ là toàn ánh; hạt nhân của nó $N_\mathfrak{g}$ là iđêan của $\mathbf{A}\{X_1, \ldots, X_n\}$ gồm các chuỗi lũy thừa hình thức hạn chế mà tất cả các hệ số của chúng đều thuộc $\mathfrak{g}$; ta sẽ trang bị cho $\mathbf{A}\{X_1, \ldots, X_n\}$ tôpô (tuyến tính) mà đối với nó các $N_\mathfrak{g}$ (với $\mathfrak{g} \in \mathscr{B}$) tạo thành một hệ cơ sở các lân cận của 0 (một tôpô rõ ràng chỉ phụ thuộc vào tôpô trên $\mathbf{A}$). Khi đó, theo Tôpô đại cương, Chương III, § 7, no. 3, Mệnh đề 2, ta có
+là một hệ ngược các vành (đối với tập chỉ số có hướng $\mathcal{B}$) và $(\bar{p}_\mathfrak{g})$ là một hệ ngược các đồng cấu $\mathbf{A}\{X_1, \ldots, X_n\} \to (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]$; vì mọi đa thức đều là một chuỗi lũy thừa hình thức hạn chế, $\bar{p}_\mathfrak{g}$ là toàn ánh; hạt nhân của nó $N_\mathfrak{g}$ là iđêan của $\mathbf{A}\{X_1, \ldots, X_n\}$ gồm các chuỗi lũy thừa hình thức hạn chế mà tất cả các hệ số của chúng đều thuộc $\mathfrak{g}$; ta sẽ trang bị cho $\mathbf{A}\{X_1, \ldots, X_n\}$ tôpô (tuyến tính) mà đối với nó các $N_\mathfrak{g}$ (với $\mathfrak{g} \in \mathcal{B}$) tạo thành một hệ cơ sở các lân cận của 0 (một tôpô rõ ràng chỉ phụ thuộc vào tôpô trên $\mathbf{A}$). Khi đó, theo Tôpô đại cương, Chương III, § 7, no. 3, Mệnh đề 2, ta có
 
 $$
 \pi = \lim_{\leftarrow} \bar{p}_\mathfrak{g}: \mathbf{A}\{X_1, \ldots, X_n\} \to \lim_{\rightarrow} (\mathbf{A}/\mathfrak{g})[X_1, \ldots, X_p]

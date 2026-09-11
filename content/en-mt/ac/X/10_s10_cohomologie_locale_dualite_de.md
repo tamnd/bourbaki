@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 4594ee82feab5344ff9ea7e60655bdadd594de9295fd8cdee70426389fb752b0
+content_sha256: 85631cae3a0fd66b8bc65facea3abefb19cf36131eee209f582ccfd40040fad3
 translated_from: content/fr/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: fr
 translation_method: machine
@@ -58,10 +58,10 @@ $$
 \end{array}
 $$
 
-be an exact sequence of $A$-modules. By $\Lambda$, X, p. 90, Prop. 8, the connecting homomorphisms of the extension modules $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ form an inductive system of $A$-linear mappings, graded of (ascending) degree +1. By passing to the inductive limit, one deduces an $A$-homomorphism $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, graded of degree +1, which makes exact the sequence of homomorphisms
+be an exact sequence of $A$-modules. By $\Lambda$, X, p. 90, Prop. 8, the connecting homomorphisms of the extension modules $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ form an inductive system of $A$-linear mappings, graded of (ascending) degree +1. By passing to the inductive limit, one deduces an $A$-homomorphism $\partial(\mathcal{E}) : H_A(P) \to H_A(M)$, graded of degree +1, which makes exact the sequence of homomorphisms
 
 $$
-\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
+\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathcal{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathcal{E})} H_A^{n+1}(M) \longrightarrow \ldots
 $$
 
 Let M be an a-module. For every ideal $\alpha$ of A, the A-module $\mathrm{Hom}_A(A/\alpha, M)$ is canonically identified with the submodule of M consisting of the elements annihilated by $\alpha$. Thus $H_A^0(M)$ is identified with the submodule of M consisting of the elements $m$ which are annihilated by a power of $\mathfrak{m}_A$, that is to say such that $\mathrm{long}_A(Am) < +\infty$. In particular one has $H_A^0(M) = M$ when M is artinian.
@@ -191,7 +191,7 @@ $$
 
 For $M = A$, $\tau^d(L, A)$ is the canonical isomorphism of $A \otimes_A \mathrm{Ext}_A^d(A/\alpha, A)$ onto $\mathrm{Ext}_A^d(A/\alpha, A)$.
 
-Let $b$ be an ideal of $\mathcal{D}_{cs}$ contained in $\alpha$. Let $\rho : R \to A/b$ be a finite free resolution of length $\leq d$ and let $p_{ab} : A/b \to A/\alpha$ be the canonical surjection. By A, X, p. 49, Proposition 3, there exists a morphism of complexes $P_{LR} : R \to L$ such that $\pi \circ P_{LR} = p_{ab} \circ \rho$. By Proposition 2 of A, X, p. 103, one has a commutative diagram
+Let $b$ be an ideal of $\mathscr{D}_{cs}$ contained in $\alpha$. Let $\rho : R \to A/b$ be a finite free resolution of length $\leq d$ and let $p_{ab} : A/b \to A/\alpha$ be the canonical surjection. By A, X, p. 49, Proposition 3, there exists a morphism of complexes $P_{LR} : R \to L$ such that $\pi \circ P_{LR} = p_{ab} \circ \rho$. By Proposition 2 of A, X, p. 103, one has a commutative diagram
 
 $$
 \begin{array}{ccc}
@@ -205,7 +205,7 @@ H(\mathrm{Homgr}_A(L, M)) & \xrightarrow{H(\mathrm{Homgr}(P_{LR}, M))} & H(\math
 \end{array}
 $$
 
-It follows first, by taking $\alpha = b$, that the isomorphism $\tau(L, M)$ does not depend on the choice of the resolution L of $A/\alpha$; let us denote it by $\tau_\alpha(M)$. It then follows that the $\tau_\alpha(M)$ for $\alpha \in \mathcal{D}_{cs}$ form an inductive system of isomorphisms. Passing to the inductive limit, and taking account of A, X, p. 70, prop. 8, one obtains for each integer $i$ an *isomorphism of a-modules*
+It follows first, by taking $\alpha = b$, that the isomorphism $\tau(L, M)$ does not depend on the choice of the resolution L of $A/\alpha$; let us denote it by $\tau_\alpha(M)$. It then follows that the $\tau_\alpha(M)$ for $\alpha \in \mathscr{D}_{cs}$ form an inductive system of isomorphisms. Passing to the inductive limit, and taking account of A, X, p. 70, prop. 8, one obtains for each integer $i$ an *isomorphism of a-modules*
 
 $$
 \tau^i(M) : \mathrm{Tor}_{d-i}^A(M, H_A^d(A)) \longrightarrow H_A^i(M)

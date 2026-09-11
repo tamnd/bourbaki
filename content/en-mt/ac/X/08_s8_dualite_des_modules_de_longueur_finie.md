@@ -40,11 +40,11 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 51e31816b68f96681968fe09fb5cad0e0228d14a3641b0e6b586d1cd7ea00744
+content_sha256: a77efd8c537a09382c285e35e65d94355d4d8fcf42201477660fd155201fd2d3
 translated_from: content/fr/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 77f9377a8e567979844890a8c62bb0a878d9c20aeb59902a661be4f0e8769c2f
+source_content_sha256: e52e439dc4014b802a73340401b5e7d083e4a386ccc0b2510cc9902462185172
 translation_model: gpt-5.4
 translation_run: translate-en-mt-fc5e2194
 glossary_version: 34
@@ -697,10 +697,10 @@ $$0 \to P' \to P \to P'' \to 0$$
 
 be an exact sequence of $A$-modules; since the $A$-module $J$ is injective, one deduces from it an exact sequence
 
-$$(\mathcal{D}(\mathcal{F}))$$
+$$(\mathscr{D}(\mathcal{F}))$$
 $$0 \to D(P'') \to D(P) \to D(P') \to 0.$$
 
-Applying A, X, p. 104, Proposition 3 and p. 106, Proposition 4 to the exact sequences $(\mathcal{F})$ and $(\mathcal{D}(\mathcal{F}))$, one obtains analogously commutative diagrams
+Applying A, X, p. 104, Proposition 3 and p. 106, Proposition 4 to the exact sequences $(\mathcal{F})$ and $(\mathscr{D}(\mathcal{F}))$, one obtains analogously commutative diagrams
 
 $$
 \begin{array}{ccc}

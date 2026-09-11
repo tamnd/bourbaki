@@ -29,7 +29,7 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: 0ba346951e7ec856945465325b2f054546b3b1d4334f235bfc11d9776cf48c78
+content_sha256: 89089983c5dccbb3218f2ab1a51ac646d32b8eda490bc9f1353d4e6a8f3b6ffa
 ---
 
 ## 6. ABSOLUTE VALUES
@@ -53,16 +53,16 @@ $$
 f(x + y) \leq A \cdot \sup(f(x), f(y)) \quad \text{for all } x, y \text{ in } K.
 $$
 
-We shall denote by $\mathscr{V}(K)$ the set of mappings $f$ from $K$ to $\mathbf{R}_+$ satisfying (VAI) and (VAII) and for which there exists an $A > 0$ (depending on $f$) such that $(\mathrm{U}_A)$ holds.
+We shall denote by $\mathcal{V}(K)$ the set of mappings $f$ from $K$ to $\mathbf{R}_+$ satisfying (VAI) and (VAII) and for which there exists an $A > 0$ (depending on $f$) such that $(\mathrm{U}_A)$ holds.
 
-Note that iff $\in \mathscr{V}(K)$, then, putting $x = 1, y = 0$ in $(\mathrm{U}_A)$,
+Note that iff $\in \mathcal{V}(K)$, then, putting $x = 1, y = 0$ in $(\mathrm{U}_A)$,
 $$
 1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
 $$
 
 #### Proposition 1 {#ac-vi-s6-prop-1 .statement}
 
-For a mapping $f$ from $K$ to $\mathbf{R}$, satisfying (VA,) and (VAII) to belong to $\mathscr{V}(K)$, it is necessary and sufficient that $f(1 + x)$ be bounded in the set of $x \in K$ such that $f(x) \leq 1$.
+For a mapping $f$ from $K$ to $\mathbf{R}$, satisfying (VA,) and (VAII) to belong to $\mathcal{V}(K)$, it is necessary and sufficient that $f(1 + x)$ be bounded in the set of $x \in K$ such that $f(x) \leq 1$.
 
 If $f$ satisfies $(\mathbf{U}_A)$, then $f(1 + x) \leq A$ if $f(x) \leq 1$. Conversely, suppose that $f(x + 1) \leq A$ for the $x \in K$ such that $f(x) \leq 1$ (which implies that $A \geq f(1) = 1$); then, if $x = 0$ or $y = 0$, condition $(\mathbf{U}_A)$ is fulfilled; if on the other hand $x \neq 0$ and $y \neq 0$, we may assume for example that $f(y) \leq f(x)$, hence, by $(\mathbf{VA}_s)$, $f(yx^{-1}) \leq 1$ and therefore $f(1 + yx^{-1}) \leq A$, which gives, by virtue of $(\mathbf{VA}_{II})$, $f(x + y)f(x)^{-1} \leq A$; whence
 

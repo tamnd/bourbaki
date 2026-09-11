@@ -40,11 +40,11 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: a5815fe78bda7489723bd12f34c6f96bf25a792382006be0570b4a597d3139fd
+content_sha256: 85055f48ee2ef21b7c402de777a37c7587f201c8c7c8a067e6ab386cfa9f913e
 translated_from: content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: en-mt
 translation_method: machine
-source_content_sha256: 51e31816b68f96681968fe09fb5cad0e0228d14a3641b0e6b586d1cd7ea00744
+source_content_sha256: a77efd8c537a09382c285e35e65d94355d4d8fcf42201477660fd155201fd2d3
 translation_model: gpt-5.4
 translation_run: translate-vi-be263a49
 glossary_version: 34
@@ -697,10 +697,10 @@ $$0 \to P' \to P \to P'' \to 0$$
 
 là một dãy khớp của các $A$-môđun; vì $A$-môđun $J$ là đơn ánh, từ đó suy ra một dãy khớp
 
-$$(\mathcal{D}(\mathcal{F}))$$
+$$(\mathscr{D}(\mathcal{F}))$$
 $$0 \to D(P'') \to D(P) \to D(P') \to 0.$$
 
-Áp dụng A, X, p. 104, Mệnh đề 3 và p. 106, Mệnh đề 4 cho các dãy khớp $(\mathcal{F})$ và $(\mathcal{D}(\mathcal{F}))$, ta cũng thu được các biểu đồ giao hoán
+Áp dụng A, X, p. 104, Mệnh đề 3 và p. 106, Mệnh đề 4 cho các dãy khớp $(\mathcal{F})$ và $(\mathscr{D}(\mathcal{F}))$, ta cũng thu được các biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}

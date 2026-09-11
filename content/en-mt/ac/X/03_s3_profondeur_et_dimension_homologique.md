@@ -44,11 +44,11 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: 927ab24cfb8adb74f59214b45fd1d9cb691be35e594a7fbdad39dd905060f696
+content_sha256: 2887c371d5eaa37f77acf37407c79cf478d515f0d78e32875c1e6b8c3bf0f663
 translated_from: content/fr/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: fr
 translation_method: machine
-source_content_sha256: 76a992a6b4695562d7aecdc99dc4689ab5009b5d08e71322bf56d9a25d35af94
+source_content_sha256: 7b41765c90f58b75d70623bfaaeb5c11917bd816d4e04e795ce2fb34e730bd93
 translation_model: gpt-5.4
 translation_run: translate-en-mt-36b2c50b
 glossary_version: 34
@@ -487,10 +487,10 @@ With the terminology of $§ 1$, No. 5, remark 4, the conclusion of cor. 3 means 
 
 Let $A$ be a noetherian Macaulay ring and $M$ a finitely generated $A$-module of finite projective dimension.
 
-a) Let $p \in \operatorname{Spec}(\Lambda)$; let us denote by $\mathscr{C}(p)$ the set of irreducible components of $\operatorname{Supp}(M)$ containing $p$. We have
+a) Let $p \in \operatorname{Spec}(\Lambda)$; let us denote by $\mathcal{C}(p)$ the set of irreducible components of $\operatorname{Supp}(M)$ containing $p$. We have
 
 $$
-\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
 b) The mapping $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ of $\operatorname{Spec}(A)$ into $\overline{\mathbf{Z}}$ is upper semi-continuous.

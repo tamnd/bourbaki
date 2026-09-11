@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 4c19fc638354d6176d8fe26b1e04d3073c16042ef5f62ab99d6909cc2a19a668
+content_sha256: 4c111b9b48484c6953bac31c1dea5229e1a3b75ae54db1d121ad08e3f75a097c
 translated_from: content/en-mt/ac/X/10_s10_cohomologie_locale_dualite_de.md
 source_lang: en-mt
 translation_method: machine
@@ -58,10 +58,10 @@ $$
 \end{array}
 $$
 
-là một dãy khớp các $A$-môđun. Theo $\Lambda$, X, p. 90, Prop. 8, các đồng cấu nối của các môđun mở rộng $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ tạo thành một hệ quy nạp các ánh xạ $A$-tuyến tính, phân bậc bậc (tăng) +1. Khi chuyển qua giới hạn quy nạp, ta suy ra một đồng cấu $A$ $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, phân bậc bậc +1, làm cho dãy đồng cấu
+là một dãy khớp các $A$-môđun. Theo $\Lambda$, X, p. 90, Prop. 8, các đồng cấu nối của các môđun mở rộng $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ tạo thành một hệ quy nạp các ánh xạ $A$-tuyến tính, phân bậc bậc (tăng) +1. Khi chuyển qua giới hạn quy nạp, ta suy ra một đồng cấu $A$ $\partial(\mathcal{E}) : H_A(P) \to H_A(M)$, phân bậc bậc +1, làm cho dãy đồng cấu
 
 $$
-\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
+\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathcal{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathcal{E})} H_A^{n+1}(M) \longrightarrow \ldots
 $$
 
 là khớp.
@@ -193,7 +193,7 @@ $$
 
 Với $M = A$, $\tau^d(L, A)$ là đẳng cấu chính tắc của $A \otimes_A \mathrm{Ext}_A^d(A/\alpha, A)$ lên $\mathrm{Ext}_A^d(A/\alpha, A)$.
 
-Cho $b$ là một iđêan của $\mathcal{D}_{cs}$ được chứa trong $\alpha$. Cho $\rho : R \to A/b$ là một giải tự do hữu hạn có độ dài $\leq d$ và cho $p_{ab} : A/b \to A/\alpha$ là toàn cấu chính tắc. Theo A, X, p. 49, Mệnh đề 3, tồn tại một cấu xạ của các phức $P_{LR} : R \to L$ sao cho $\pi \circ P_{LR} = p_{ab} \circ \rho$. Theo Mệnh đề 2 của A, X, p. 103, ta có một biểu đồ giao hoán
+Cho $b$ là một iđêan của $\mathscr{D}_{cs}$ được chứa trong $\alpha$. Cho $\rho : R \to A/b$ là một giải tự do hữu hạn có độ dài $\leq d$ và cho $p_{ab} : A/b \to A/\alpha$ là toàn cấu chính tắc. Theo A, X, p. 49, Mệnh đề 3, tồn tại một cấu xạ của các phức $P_{LR} : R \to L$ sao cho $\pi \circ P_{LR} = p_{ab} \circ \rho$. Theo Mệnh đề 2 của A, X, p. 103, ta có một biểu đồ giao hoán
 
 $$
 \begin{array}{ccc}
@@ -207,7 +207,7 @@ H(\mathrm{Homgr}_A(L, M)) & \xrightarrow{H(\mathrm{Homgr}(P_{LR}, M))} & H(\math
 \end{array}
 $$
 
-Trước hết suy ra, bằng cách lấy $\alpha = b$, rằng đẳng cấu $\tau(L, M)$ không phụ thuộc vào lựa chọn phân giải L của $A/\alpha$; ta sẽ ký hiệu nó bởi $\tau_\alpha(M)$. Khi đó suy ra rằng các $\tau_\alpha(M)$ với $\alpha \in \mathcal{D}_{cs}$ tạo thành một hệ quy nạp các đẳng cấu. Chuyển qua giới hạn quy nạp, và có tính đến A, X, p. 70, mệnh đề 8, ta thu được với mỗi số nguyên $i$ một *đẳng cấu của các a-môđun*
+Trước hết suy ra, bằng cách lấy $\alpha = b$, rằng đẳng cấu $\tau(L, M)$ không phụ thuộc vào lựa chọn phân giải L của $A/\alpha$; ta sẽ ký hiệu nó bởi $\tau_\alpha(M)$. Khi đó suy ra rằng các $\tau_\alpha(M)$ với $\alpha \in \mathscr{D}_{cs}$ tạo thành một hệ quy nạp các đẳng cấu. Chuyển qua giới hạn quy nạp, và có tính đến A, X, p. 70, mệnh đề 8, ta thu được với mỗi số nguyên $i$ một *đẳng cấu của các a-môđun*
 
 $$
 \tau^i(M) : \mathrm{Tor}_{d-i}^A(M, H_A^d(A)) \longrightarrow H_A^i(M)

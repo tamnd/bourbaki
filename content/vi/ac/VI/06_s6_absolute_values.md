@@ -29,9 +29,9 @@ subsections:
       pdf_page: 425
 statements: 10
 exercises: 2
-content_sha256: 52c4b38007c5b4d588021006c3ae64946a27bedee8c392f5ce8827456b88eb64
+content_sha256: 5375807324d26f31048734c84c300d33eba2e5583ae9567a7a007e6185a3dbc5
 translated_from: content/en/ac/VI/06_s6_absolute_values.md
-source_content_sha256: 0ba346951e7ec856945465325b2f054546b3b1d4334f235bfc11d9776cf48c78
+source_content_sha256: 89089983c5dccbb3218f2ab1a51ac646d32b8eda490bc9f1353d4e6a8f3b6ffa
 translation_model: gpt-5-6-mini, gpt-5-6
 translation_run: translate-vi-81ca19be
 glossary_version: 34
@@ -60,16 +60,16 @@ $$
 f(x + y) \leq A \cdot \sup(f(x), f(y)) \quad \text{với mọi } x, y \text{ thuộc } K.
 $$
 
-Ta sẽ ký hiệu bởi $\mathscr{V}(K)$ tập hợp các ánh xạ $f$ từ $K$ vào $\mathbf{R}_+$ thỏa mãn (VAI) và (VAII) và với chúng tồn tại một $A > 0$ (phụ thuộc vào $f$) sao cho $(\mathrm{U}_A)$ đúng.
+Ta sẽ ký hiệu bởi $\mathcal{V}(K)$ tập hợp các ánh xạ $f$ từ $K$ vào $\mathbf{R}_+$ thỏa mãn (VAI) và (VAII) và với chúng tồn tại một $A > 0$ (phụ thuộc vào $f$) sao cho $(\mathrm{U}_A)$ đúng.
 
-Chú ý rằng nếu f $\in \mathscr{V}(K)$, thì, đặt $x = 1, y = 0$ trong $(\mathrm{U}_A)$,
+Chú ý rằng nếu f $\in \mathcal{V}(K)$, thì, đặt $x = 1, y = 0$ trong $(\mathrm{U}_A)$,
 $$
 1 = f(1) \leq A \cdot \sup(f(1), f(0)) = A.
 $$
 
 #### Mệnh đề 1 {#ac-vi-s6-prop-1 .statement}
 
-Đối với một ánh xạ $f$ từ $K$ vào $\mathbf{R}$, thỏa mãn (VA,) và (VAII) để thuộc $\mathscr{V}(K)$, điều kiện cần và đủ là $f(1 + x)$ bị chặn trong tập hợp các $x \in K$ sao cho $f(x) \leq 1$.
+Đối với một ánh xạ $f$ từ $K$ vào $\mathbf{R}$, thỏa mãn (VA,) và (VAII) để thuộc $\mathcal{V}(K)$, điều kiện cần và đủ là $f(1 + x)$ bị chặn trong tập hợp các $x \in K$ sao cho $f(x) \leq 1$.
 
 Nếu $f$ thỏa mãn $(\mathbf{U}_A)$, thì $f(1 + x) \leq A$ nếu $f(x) \leq 1$. Ngược lại, giả sử rằng $f(x + 1) \leq A$ đối với các $x \in K$ sao cho $f(x) \leq 1$ (điều này kéo theo rằng $A \geq f(1) = 1$); khi đó, nếu $x = 0$ hoặc $y = 0$, điều kiện $(\mathbf{U}_A)$ được thỏa mãn; nếu ngược lại $x \neq 0$ và $y \neq 0$, ta có thể giả sử chẳng hạn rằng $f(y) \leq f(x)$, do đó, theo $(\mathbf{VA}_s)$, $f(yx^{-1}) \leq 1$ và vì vậy $f(1 + yx^{-1}) \leq A$, điều này cho, theo $(\mathbf{VA}_{II})$, $f(x + y)f(x)^{-1} \leq A$; do đó
 

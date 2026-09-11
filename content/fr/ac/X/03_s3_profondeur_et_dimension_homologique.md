@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: 76a992a6b4695562d7aecdc99dc4689ab5009b5d08e71322bf56d9a25d35af94
+content_sha256: 7b41765c90f58b75d70623bfaaeb5c11917bd816d4e04e795ce2fb34e730bd93
 ---
 
 ## § 3. PROFONDEUR ET DIMENSION HOMOLOGIQUE
@@ -478,10 +478,10 @@ Avec la terminologie du $§ 1$, n° 5, remarque 4, la conclusion du cor. 3 signi
 
 Soient $A$ un anneau noethérien de Macaulay et $M$ un $A$-module de type fini et de dimension projective finie.
 
-a) Soit $p \in \operatorname{Spec}(\Lambda)$; notons $\mathscr{C}(p)$ l’ensemble des composantes irréductibles de $\operatorname{Supp}(M)$ contenant $p$. On a
+a) Soit $p \in \operatorname{Spec}(\Lambda)$; notons $\mathcal{C}(p)$ l’ensemble des composantes irréductibles de $\operatorname{Supp}(M)$ contenant $p$. On a
 
 $$
-\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathscr{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
+\dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p) = dp_{A_p}(M_p) - \inf_{X \in \mathcal{C}(p)} \operatorname{codim}(X, \operatorname{Spec}(A)) .
 $$
 
 b) L’application $p \mapsto \dim_{A_p}(M_p) - \operatorname{prof}_{A_p}(M_p)$ de $\operatorname{Spec}(A)$ dans $\overline{\mathbf{Z}}$ est semi-continue supérieurement.

@@ -24,7 +24,7 @@ subsections:
       pdf_page: 146
 statements: 20
 exercises: 11
-content_sha256: 98a442199970317d391ce1fd8ffe328343aca79a293a45ca21eccd3c51bccdac
+content_sha256: 8a0316d9c2d9112e6e53e8f38086207713f10c8450890ae999207b89ed062f84
 ---
 
 ## § 10. COHOMOLOGIE LOCALE, DUALITÉ DE GROTHENDIECK
@@ -49,10 +49,10 @@ $$
 \end{array}
 $$
 
-une suite exacte de $A$-modules. D’après $\Lambda$, $X$, p. 90, prop. 8, les homomorphismes de liaison des modules d’extensions $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ forment un système inductif d’applications $A$-linéaires, graduées de degré (ascendant) +1. Par passage à la limite inductive, on en déduit un $A$-homomorphisme $\partial(\mathscr{E}) : H_A(P) \to H_A(M)$, gradué de degré +1 , qui rend exacte la suite d’homomorphismes
+une suite exacte de $A$-modules. D’après $\Lambda$, $X$, p. 90, prop. 8, les homomorphismes de liaison des modules d’extensions $\mathrm{Ext}_A(A/a, P) \longrightarrow \mathrm{Ext}_A(A/a, M)$ forment un système inductif d’applications $A$-linéaires, graduées de degré (ascendant) +1. Par passage à la limite inductive, on en déduit un $A$-homomorphisme $\partial(\mathcal{E}) : H_A(P) \to H_A(M)$, gradué de degré +1 , qui rend exacte la suite d’homomorphismes
 
 $$
-\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathscr{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathscr{E})} H_A^{n+1}(M) \longrightarrow \ldots
+\ldots \longrightarrow H_A^{n-1}(P) \xrightarrow{\partial^{n-1}(\mathcal{E})} H_A^n(M) \xrightarrow{H_A^n(f)} H_A^n(N) \xrightarrow{H_A^n(g)} H_A^n(P) \xrightarrow{\partial^n(\mathcal{E})} H_A^{n+1}(M) \longrightarrow \ldots
 $$
 
 Soit M un A-module. Pour tout idéal $\alpha$ de A, le A-module $\mathrm{Hom}_A(A/\alpha, M)$ s’identifie canoniquement au sous-module de M formé des éléments annulés par $\alpha$. Ainsi $H_A^0(M)$ s’identifie au sous-module de M formé des éléments $m$ qui sont annulés par une puissance de $\mathfrak{m}_A$, c’est-à-dire tels que $\mathrm{long}_A(Am) < +\infty$. On a en particulier $H_A^0(M) = M$ lorsque M est artinien.
@@ -182,7 +182,7 @@ $$
 
 Pour $M = A$, $\tau^d(L, A)$ est l’isomorphisme canonique de $A \otimes_A \mathrm{Ext}_A^d(A/\alpha, A)$ sur $\mathrm{Ext}_A^d(A/\alpha, A)$.
 
-Soit $b$ un idéal de $\mathcal{D}_{cs}$ contenu dans $\alpha$. Soit $\rho : R \to A/b$ une résolution libre de type fini de longueur $\leq d$ et soit $p_{ab} : A/b \to A/\alpha$ la surjection canonique. D’après A, X, p. 49, prop. 3, il existe un morphisme de complexes $P_{LR} : R \to L$ tel que $\pi \circ P_{LR} = p_{ab} \circ \rho$. D’après la prop. 2 de A, X, p. 103, on a un diagramme commutatif
+Soit $b$ un idéal de $\mathscr{D}_{cs}$ contenu dans $\alpha$. Soit $\rho : R \to A/b$ une résolution libre de type fini de longueur $\leq d$ et soit $p_{ab} : A/b \to A/\alpha$ la surjection canonique. D’après A, X, p. 49, prop. 3, il existe un morphisme de complexes $P_{LR} : R \to L$ tel que $\pi \circ P_{LR} = p_{ab} \circ \rho$. D’après la prop. 2 de A, X, p. 103, on a un diagramme commutatif
 
 $$
 \begin{array}{ccc}
@@ -196,7 +196,7 @@ H(\mathrm{Homgr}_A(L, M)) & \xrightarrow{H(\mathrm{Homgr}(P_{LR}, M))} & H(\math
 \end{array}
 $$
 
-Il en résulte d’abord, en prenant $\alpha = b$, que l’isomorphisme $\tau(L, M)$ ne dépend pas du choix de la résolution L de $A/\alpha$; notons-le $\tau_\alpha(M)$. Il en résulte ensuite que les $\tau_\alpha(M)$ pour $\alpha \in \mathcal{D}_{cs}$ forment un système inductif d’isomorphismes. Passant à la limite inductive, on obtient pour chaque entier $i$, compte tenu de A, X, p. 70, prop. 8, un *isomorphisme de A-modules*
+Il en résulte d’abord, en prenant $\alpha = b$, que l’isomorphisme $\tau(L, M)$ ne dépend pas du choix de la résolution L de $A/\alpha$; notons-le $\tau_\alpha(M)$. Il en résulte ensuite que les $\tau_\alpha(M)$ pour $\alpha \in \mathscr{D}_{cs}$ forment un système inductif d’isomorphismes. Passant à la limite inductive, on obtient pour chaque entier $i$, compte tenu de A, X, p. 70, prop. 8, un *isomorphisme de A-modules*
 
 $$
 \tau^i(M) : \mathrm{Tor}_{d-i}^A(M, H_A^d(A)) \longrightarrow H_A^i(M)

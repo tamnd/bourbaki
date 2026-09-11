@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 77f9377a8e567979844890a8c62bb0a878d9c20aeb59902a661be4f0e8769c2f
+content_sha256: e52e439dc4014b802a73340401b5e7d083e4a386ccc0b2510cc9902462185172
 ---
 
 ## § 8. DUALITÉ DES MODULES DE LONGUEUR FINIE
@@ -688,10 +688,10 @@ $$0 \to P' \to P \to P'' \to 0$$
 
 une suite exacte de $A$-modules ; puisque le $A$-module $J$ est injectif, on en déduit une suite exacte
 
-$$(\mathcal{D}(\mathcal{F}))$$
+$$(\mathscr{D}(\mathcal{F}))$$
 $$0 \to D(P'') \to D(P) \to D(P') \to 0.$$
 
-En appliquant A, X, p. 104, prop. 3 et p. 106, prop. 4 aux suites exactes $(\mathcal{F})$ et $(\mathcal{D}(\mathcal{F}))$, on obtient de manière analogue des diagrammes commutatifs
+En appliquant A, X, p. 104, prop. 3 et p. 106, prop. 4 aux suites exactes $(\mathcal{F})$ et $(\mathscr{D}(\mathcal{F}))$, on obtient de manière analogue des diagrammes commutatifs
 
 $$
 \begin{array}{ccc}

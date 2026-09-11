@@ -51,7 +51,7 @@ chapters:
           statements: 43
           exercises: 16
           extraction: ocr
-          content_sha256: 76a992a6b4695562d7aecdc99dc4689ab5009b5d08e71322bf56d9a25d35af94
+          content_sha256: 7b41765c90f58b75d70623bfaaeb5c11917bd816d4e04e795ce2fb34e730bd93
         - kind: section
           section: 4
           title: Anneaux réguliers
@@ -112,7 +112,7 @@ chapters:
           statements: 31
           exercises: 10
           extraction: ocr
-          content_sha256: 77f9377a8e567979844890a8c62bb0a878d9c20aeb59902a661be4f0e8769c2f
+          content_sha256: e52e439dc4014b802a73340401b5e7d083e4a386ccc0b2510cc9902462185172
         - kind: section
           section: 9
           title: Modules dualisants
@@ -136,4 +136,4 @@ chapters:
           statements: 20
           exercises: 11
           extraction: ocr
-          content_sha256: 98a442199970317d391ce1fd8ffe328343aca79a293a45ca21eccd3c51bccdac
+          content_sha256: 8a0316d9c2d9112e6e53e8f38086207713f10c8450890ae999207b89ed062f84
