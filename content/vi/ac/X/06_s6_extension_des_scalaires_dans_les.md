@@ -32,7 +32,7 @@ subsections:
       pdf_page: 77
 statements: 33
 exercises: 7
-content_sha256: be4a111d950c5ccaf82427db21cbfb5efa205eb1c52d608fb70042fb648d7fd4
+content_sha256: cf69e1e05f62e15bb5b689413bc40ca7123ad2dd4e5cc5cb051bb7ecdf10b641
 translated_from: content/en-mt/ac/X/06_s6_extension_des_scalaires_dans_les.md
 source_lang: en-mt
 translation_method: machine

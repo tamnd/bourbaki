@@ -36,7 +36,7 @@ subsections:
       pdf_page: 136
 statements: 31
 exercises: 12
-content_sha256: 8786def8238fb97fd190d72875a6cef631cedc683af9f11a06583f18402663f9
+content_sha256: 9eb8fd7d5419f7f6262bb8ffa3d3f82d4565ac0ca36e2d96bf6086f39bc0d3d1
 translated_from: content/en-mt/ac/X/09_s9_modules_dualisants.md
 source_lang: en-mt
 translation_method: machine

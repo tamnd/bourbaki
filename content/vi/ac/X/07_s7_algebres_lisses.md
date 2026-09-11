@@ -53,7 +53,7 @@ subsections:
       pdf_page: 101
 statements: 39
 exercises: 15
-content_sha256: 36dc295b493999400fd3a8dc7dd1ab91360ca374a9facb9eee26d080435245e6
+content_sha256: 4c426bd18ca66363a756026d8f187c5de9eff50fba4e46694c05cf72c28b2d61
 translated_from: content/en-mt/ac/X/07_s7_algebres_lisses.md
 source_lang: en-mt
 translation_method: machine

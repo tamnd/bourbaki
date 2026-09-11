@@ -41,7 +41,7 @@ subsections:
       pdf_page: 33
 statements: 46
 exercises: 11
-content_sha256: 2a2a6824a9666efc9cc10dc6fdd964e4bc6a15326c24d18daad6be76ec95bb20
+content_sha256: ba8f4f6b83e00117fdc83fb3e62a44a7b7f462ca7baa3b8b24293c9a16d4b6f1
 translated_from: content/en-mt/ac/X/02_s2_modules_et_anneaux_macaulayens.md
 source_lang: en-mt
 translation_method: machine

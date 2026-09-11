@@ -49,7 +49,7 @@ subsections:
       pdf_page: 18
 statements: 60
 exercises: 18
-content_sha256: 03bd9f6820271ba279dccfcd6bf31d42ec8e1811cefe4fff782d7f6774e8f59b
+content_sha256: e5c9bd2680591c7d705d813cc53b1419743d0b1ceca7bdb4f11c34510a3fe678
 translated_from: content/en-mt/ac/X/01_s1_profondeur.md
 source_lang: en-mt
 translation_method: machine

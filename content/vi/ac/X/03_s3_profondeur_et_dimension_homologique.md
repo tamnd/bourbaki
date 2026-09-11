@@ -44,7 +44,7 @@ subsections:
       pdf_page: 50
 statements: 43
 exercises: 16
-content_sha256: 67f770b25aa2e2c6bd3b7801bc9b11f33355f3c950bd699a2376dfe2689eb299
+content_sha256: 2406de0720fc1000c19fd72ee4aad557f4a75f977e2d5b049d11f961e3c77523
 translated_from: content/en-mt/ac/X/03_s3_profondeur_et_dimension_homologique.md
 source_lang: en-mt
 translation_method: machine

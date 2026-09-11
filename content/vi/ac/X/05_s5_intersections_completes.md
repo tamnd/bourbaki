@@ -36,7 +36,7 @@ subsections:
       pdf_page: 69
 statements: 20
 exercises: 11
-content_sha256: f069f884c1fedb3ead11bf313225f146b868d478015682640b4a18f99f078208
+content_sha256: 227540ba4b41ba15f99af55ff6bd217a5b1afd6735d75328ed20d274057613ac
 translated_from: content/en-mt/ac/X/05_s5_intersections_completes.md
 source_lang: en-mt
 translation_method: machine

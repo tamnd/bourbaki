@@ -32,7 +32,7 @@ subsections:
       pdf_page: 58
 statements: 29
 exercises: 13
-content_sha256: 7947b9b5eb5982e08105d3dd38ea2a05b61b5e6e64e85ad2b081be77221ba60d
+content_sha256: c5f70ab17d15a335f7e9f03ee60d6d141aff9f2c7e99794fe01a04ec5e43c5d8
 translated_from: content/en-mt/ac/X/04_s4_anneaux_reguliers.md
 source_lang: en-mt
 translation_method: machine

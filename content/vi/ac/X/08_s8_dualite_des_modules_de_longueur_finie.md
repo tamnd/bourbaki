@@ -40,7 +40,7 @@ subsections:
       pdf_page: 119
 statements: 31
 exercises: 10
-content_sha256: 8d5943ed9e86c9aa1d4a9e00662b1ebd5c0d236d1a8f1d85f031e6bb7235e9ed
+content_sha256: 1d3318a3bf52d063938f4e248e40b6c17af05eae04d9e78600c4a072e2fe0e57
 translated_from: content/en-mt/ac/X/08_s8_dualite_des_modules_de_longueur_finie.md
 source_lang: en-mt
 translation_method: machine
