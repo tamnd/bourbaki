@@ -66,7 +66,7 @@ subsections:
       pdf_page: 153
 statements: 52
 exercises: 24
-content_sha256: a5da4e235c5eda5a4645c185a5eb39fdade9e354877a91848d203ab08d9c0218
+content_sha256: 0ce49f6ed168f45d0951df56c7618b1d782b287ef9ecaf9b7f2bac23d82c4e7a
 ---
 
 ## 1. ORDER RELATIONS. ORDERED SETS
@@ -250,7 +250,7 @@ An important example of a product of ordered sets is the set $F^E$ of graphs of 
 
 ☡
 
-It should be observed that in the ordered set $\mathscr{F}(E, F)$, the relation $f < g$ means
+It should be observed that in the ordered set $\mathfrak{F}(E, F)$, the relation $f < g$ means
 $$\text{"for all } x \in E, f(x) \leqslant g(x), \text{ and there exists } y \in E \text{ such that } f(y) < g(y)\text{"}$$
 *and not*
 $$\text{"for all } x \in E, f(x) < g(x)\text{"}.$$
@@ -530,7 +530,7 @@ The set of topologies on a set A, ordered by the relation “$\mathscr{T}$ is co
 
 #### Example 4 {#ens-iii-s1-n11-exa-4 .statement tag=03TV}
 
-The set $\mathscr{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leqslant g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. \*
+The set $\mathfrak{F}(I,\mathbf{R})$ of all real-valued functions defined on an interval I of $\mathbf{R}$ is a lattice with respect to the order relation $f\leqslant g$ (no. 4), and as such is isomorphic to the product $\mathbf{R}^{I}$. \*
 
 #### Remark {#ens-iii-s1-n11-rem-1 .statement tag=03JQ}
 

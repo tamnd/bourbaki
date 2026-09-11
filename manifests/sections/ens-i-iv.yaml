@@ -193,7 +193,7 @@ chapters:
           statements: 24
           exercises: 3
           extraction: ocr
-          content_sha256: 736f0db21b5471741cc81eb9fa608339c30363ecf23260583bbcd900c137c96f
+          content_sha256: 0301ddc64f4634b2f737e77987e840c82975f71ef423fb30f170e6510997d48c
         - kind: section
           section: 6
           title: Equivalence relations
@@ -233,7 +233,7 @@ chapters:
           statements: 52
           exercises: 24
           extraction: ocr
-          content_sha256: a5da4e235c5eda5a4645c185a5eb39fdade9e354877a91848d203ab08d9c0218
+          content_sha256: 0ce49f6ed168f45d0951df56c7618b1d782b287ef9ecaf9b7f2bac23d82c4e7a
         - kind: section
           section: 2
           title: Well-ordered sets
@@ -349,7 +349,7 @@ chapters:
           statements: 17
           exercises: 1
           extraction: ocr
-          content_sha256: dc6eca4ee1f30deffd779304c1cc6b07cc7d4bc2628cb62a2e8cac1082e1af75
+          content_sha256: b1a8e2e22b63f48225281d0009294434de0101ab0a5eb0b72456f29c62b1cc54
         - kind: section
           section: 2
           title: Morphisms and derived structures
@@ -375,7 +375,7 @@ chapters:
           statements: 0
           exercises: 3
           extraction: ocr
-          content_sha256: c790c457671e2d2f76ae686e3b6a4cda3bed295ef31b76703c72506697a06507
+          content_sha256: dd5993f058059ce31de395ffe2d588f0a896589d38ffdef55e874bcb065fe984
         - kind: historical
           title: Historical Note
           path: content/en/ens/IV/historical_note.md
@@ -398,7 +398,7 @@ notation_index:
     statements: 0
     exercises: 0
     extraction: ocr
-    content_sha256: a9b1547e6927e6cf162e636806fda39b428c1353a149c7b32f1dd314162a005e
+    content_sha256: 08e1f4f2fc466917cf33ec4c3fbfaa919e48e8719ffafb49fbba7f2921ef04fe
 terminology_index:
     kind: terminology
     title: INDEX OF TERMINOLOGY

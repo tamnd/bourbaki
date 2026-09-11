@@ -42,7 +42,7 @@ subsections:
       pdf_page: 273
 statements: 17
 exercises: 1
-content_sha256: dc6eca4ee1f30deffd779304c1cc6b07cc7d4bc2628cb62a2e8cac1082e1af75
+content_sha256: b1a8e2e22b63f48225281d0009294434de0101ab0a5eb0b72456f29c62b1cc54
 ---
 
 ## 1. STRUCTURES AND ISOMORPHISMS
@@ -344,7 +344,7 @@ In practice, we make no distinction between the theories $\mathscr{T}_{\Sigma}$ 
 
 #### Example 1 {#ens-iv-s1-n7-exa-1 .statement tag=03VI}
 
-\* Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set $A$, and its generic structure consists of a single letter $F$; the typical characterization of $\Sigma$ is $F\in\mathscr{P}((A\times A)\times A)$, and we denote the axiom of $\Sigma$ by $R\{A,F\}$. This axiom implies in particular that $F$ is the graph of a function (the “law of composition” of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_{\Sigma}$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A,F\}$ which is a functional graph in $\mathscr{P}((\mathbf{Z}\times A)\times A)$ and satisfies the following relation $B\{M,A,F\}$:
+\* Let $\Sigma$ be the species of commutative group structures; $\Sigma$ has a single (principal) base set $A$, and its generic structure consists of a single letter $F$; the typical characterization of $\Sigma$ is $F\in\mathfrak{P}((A\times A)\times A)$, and we denote the axiom of $\Sigma$ by $R\{A,F\}$. This axiom implies in particular that $F$ is the graph of a function (the “law of composition” of the group; cf. no. 4, Example 2). In the theory $\mathscr{T}_{\Sigma}$ (where $\mathscr{T}$ denotes the theory of sets) we define a term $M\{A,F\}$ which is a functional graph in $\mathfrak{P}((\mathbf{Z}\times A)\times A)$ and satisfies the following relation $B\{M,A,F\}$:
 
 $$
 (\forall x)(\forall y)(\forall n)((x\in A\ \text{and}\ y\in A\ \text{and}\ n\in\mathbf{Z})

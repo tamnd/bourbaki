@@ -14,7 +14,7 @@ pdf_pages: 0391-0395
 extraction: ocr
 statements: 0
 exercises: 0
-content_sha256: a9b1547e6927e6cf162e636806fda39b428c1353a149c7b32f1dd314162a005e
+content_sha256: 08e1f4f2fc466917cf33ec4c3fbfaa919e48e8719ffafb49fbba7f2921ef04fe
 ---
 
 ## INDEX OF NOTATION
@@ -87,7 +87,7 @@ $\{x,y,z\} : \mathrm{II}.4.5$
 
 $\mathfrak{P}(X) : \mathrm{II}.5.1$
 
-$\mathscr{F}(E,F),\ F^E : \mathrm{II}.5.2$
+$\mathfrak{F}(E,F),\ F^E : \mathrm{II}.5.2$
 
 $$\prod_{i\in I}X_i,\ \operatorname{pr}_i : \mathrm{II}.5.3$$
 

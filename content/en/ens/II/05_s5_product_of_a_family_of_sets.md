@@ -52,7 +52,7 @@ errata:
     - says: Corollary 2 to Proposition 5
       read: Corollary 2 to Proposition 6
       why: The same reference as the two above, written the other way round on page 109, and wrong the same way.
-content_sha256: 736f0db21b5471741cc81eb9fa608339c30363ecf23260583bbcd900c137c96f
+content_sha256: 0301ddc64f4634b2f737e77987e840c82975f71ef423fb30f170e6510997d48c
 ---
 
 ## 5. PRODUCT OF A FAMILY OF SETS
@@ -131,7 +131,7 @@ If $\mathrm{I} = \emptyset$, the set $\prod_{\iota \in \mathrm{I}} \mathrm{X}_\i
 
 $$\bigcup_{\iota \in I} X_\iota \subset E,$$
 
-then Definition 1 shows that $\prod_{\iota \in I} X_\iota \subset E^I$; there is therefore a one-to-one correspondence between $\prod_{\iota \in I} X_\iota$ and a set of mappings of I into E (i.e., a subset of $\mathscr{F}(I, E)$).
+then Definition 1 shows that $\prod_{\iota \in I} X_\iota \subset E^I$; there is therefore a one-to-one correspondence between $\prod_{\iota \in I} X_\iota$ and a set of mappings of I into E (i.e., a subset of $\mathfrak{F}(I, E)$).
 
 ¶ If $I = \{\alpha\}$ is a set consisting of a single element, we have
 

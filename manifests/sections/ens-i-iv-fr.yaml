@@ -170,7 +170,7 @@ chapters:
           statements: 22
           exercises: 8
           extraction: ocr
-          content_sha256: 2c0ff941f524dfb20cbf59d979331790b68181ef8729cc4e27073ec105cf244f
+          content_sha256: b01516fc0971cf54a3caf5959e7d2dfcd6230a575813005bbed0ccaab0e92f86
         - kind: section
           section: 5
           title: Produit d'une famille d'ensembles
